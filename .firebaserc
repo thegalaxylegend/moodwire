@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "legendstech001"
+  },
+  "targets": {
+    "legendstech001": {
+      "hosting": {
+        "compass": [
+          "examcompass"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

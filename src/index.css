@@ -1,0 +1,573 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* DEFAULT: GLASSMORPHISM FUTURE */
+    --background: #0f172a;
+    /* Deep Slate */
+    --surface: rgba(30, 41, 59, 0.7);
+    /* Translucent */
+    --primary: #8b5cf6;
+    /* Violet */
+    --secondary: #0ea5e9;
+    /* Sky Blue */
+    --accent: #d8b4fe;
+    /* Lavender */
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+    --border: rgba(255, 255, 255, 0.1);
+
+    --glass-opacity: 0.7;
+    --glass-blur: 16px;
+    --card-radius: 24px;
+    --font-heading: 'Outfit', sans-serif;
+    --btn-text: #ffffff;
+  }
+
+  [data-theme='zen'] {
+    /* ZEN MINIMALIST */
+    --background: #18181b;
+    /* Zinc 900 */
+    --surface: #27272a;
+    /* Zinc 800 (Solid) */
+    --primary: #e4e4e7;
+    /* Zinc 200 */
+    --secondary: #a1a1aa;
+    /* Zinc 400 */
+    --accent: #52525b;
+    /* Zinc 600 */
+    --text-main: #f4f4f5;
+    --text-muted: #a1a1aa;
+    --border: #3f3f46;
+
+    --glass-opacity: 1;
+    --glass-blur: 0px;
+    --card-radius: 12px;
+    --btn-text: #18181b;
+  }
+
+  [data-theme='gamified'] {
+    /* GAMIFIED PROGRESS */
+    --background: #000000;
+    /* Pitch Black */
+    --surface: #0a0a0a;
+    /* Almost Black */
+    --primary: #10b981;
+    /* Emerald Neon */
+    --secondary: #f59e0b;
+    /* Amber */
+    --accent: #ec4899;
+    /* Pink */
+    --text-main: #ffffff;
+    --text-muted: #52525b;
+    --border: #1f2937;
+
+    --glass-opacity: 0.9;
+    --glass-blur: 4px;
+    --card-radius: 32px;
+    --btn-text: #ffffff;
+  }
+
+  [data-theme='glass-white'] {
+    /* GLASS WHITE */
+    --background: #f8fafc;
+    /* Slate 50 */
+    --surface: rgba(255, 255, 255, 0.6);
+    --primary: #6366f1;
+    /* Indigo */
+    --secondary: #0ea5e9;
+    /* Sky */
+    --accent: #8b5cf6;
+    /* Violet */
+    --text-main: #0f172a;
+    /* Slate 900 */
+    --text-muted: #64748b;
+    /* Slate 500 */
+    --border: rgba(0, 0, 0, 0.1);
+
+    --glass-opacity: 0.6;
+    --glass-blur: 20px;
+    --card-radius: 20px;
+    --btn-text: #ffffff;
+  }
+
+  [data-theme='full-glass'] {
+    /* FULL GLASS */
+    --background: #020617;
+    /* Deepest Slate */
+    --surface: rgba(148, 163, 184, 0.03);
+    /* Super sheer */
+    --primary: #2dd4bf;
+    /* Teal */
+    --secondary: #38bdf8;
+    /* Sky */
+    --accent: #f472b6;
+    /* Pink */
+    --text-main: #ffffff;
+    --text-muted: #94a3b8;
+    --border: rgba(255, 255, 255, 0.08);
+
+    --glass-opacity: 0.2;
+    --glass-blur: 40px;
+    --card-radius: 24px;
+    --btn-text: #020617;
+  }
+
+  body {
+    @apply bg-background text-text-main font-sans antialiased transition-colors duration-300;
+    /* Fluid background for glassmorphism */
+    background-image:
+      radial-gradient(at 0% 0%, rgba(139, 92, 246, 0.15) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, rgba(14, 165, 233, 0.15) 0px, transparent 50%),
+      radial-gradient(at 100% 100%, rgba(236, 72, 153, 0.15) 0px, transparent 50%);
+    background-attachment: fixed;
+  }
+
+  /* ===== SMOOTH SCROLLING & PERFORMANCE OPTIMIZATIONS ===== */
+
+  /* Enable smooth scrolling globally */
+  html {
+    scroll-behavior: smooth;
+    /* Optimize text rendering */
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Smooth momentum scrolling on touch devices */
+  body {
+    -webkit-overflow-scrolling: touch;
+    -webkit-tap-highlight-color: transparent;
+    /* Remove gray tap highlight */
+    touch-action: manipulation;
+    /* Improve touch response */
+  }
+
+  /* Optimize transitions for high refresh rate displays */
+  @media (prefers-reduced-motion: no-preference) {
+
+    /* Smooth transitions on interactive elements only */
+    a,
+    button,
+    [role="button"] {
+      transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    }
+  }
+
+  /* Respect reduced motion preferences */
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  /* Custom Scrollbar Utilities */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /* Global Minimal Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--border);
+    border-radius: 999px;
+    transition: background 0.3s;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--text-muted);
+  }
+
+  /* Reset background for Zen/Gamified to avoid the gradient noise if desired, 
+     but keeping it subtle is okay too. Let's override for strict Zen. */
+  [data-theme='zen'] body {
+    background-image: none;
+  }
+
+  [data-theme='glass-white'] body {
+    background-image:
+      radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.15) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, rgba(14, 165, 233, 0.15) 0px, transparent 50%),
+      radial-gradient(at 100% 100%, rgba(139, 92, 246, 0.15) 0px, transparent 50%);
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-surface backdrop-blur-[var(--glass-blur)] border border-border rounded-[var(--card-radius)] shadow-lg transition-all duration-300;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+}
+
+/* ============================================
+   OXYGENIOS-STYLE ANIMATION SYSTEM
+   Physics-based spring motion
+   Optimized for 60Hz/120Hz displays
+   ============================================ */
+
+/* OxygenOS Easing Curve - Fast start, soft end */
+:root {
+  --oxygen-ease: cubic-bezier(0.22, 0.68, 0.35, 1.0);
+  --oxygen-ease-fast: cubic-bezier(0.22, 0.78, 0.35, 1.0);
+  --oxygen-ease-soft: cubic-bezier(0.25, 0.55, 0.35, 1.0);
+  --oxygen-ease-press: cubic-bezier(0.34, 0.85, 0.45, 1.0);
+
+  /* Timing */
+  --oxygen-micro: 150ms;
+  --oxygen-component: 300ms;
+  --oxygen-page: 400ms;
+}
+
+/* ===== BUTTON ANIMATION ===== */
+.oxygen-button {
+  transform: translateZ(0);
+  transition: transform var(--oxygen-micro) var(--oxygen-ease-press),
+    opacity var(--oxygen-micro) var(--oxygen-ease-press);
+  will-change: transform;
+}
+
+.oxygen-button:hover {
+  transform: scale(1.02) translateZ(0);
+}
+
+.oxygen-button:active {
+  transform: scale(0.97) translateZ(0);
+  transition-duration: 80ms;
+}
+
+/* ===== CARD ANIMATION ===== */
+.oxygen-card {
+  transform: translateY(0) scale(1) translateZ(0);
+  transition: transform var(--oxygen-component) var(--oxygen-ease),
+    box-shadow var(--oxygen-component) var(--oxygen-ease);
+  will-change: transform;
+}
+
+.oxygen-card:hover {
+  transform: translateY(-6px) scale(1.01) translateZ(0);
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.3);
+}
+
+.oxygen-card:active {
+  transform: translateY(-2px) scale(0.99) translateZ(0);
+  transition-duration: 100ms;
+}
+
+/* ===== FADE IN ANIMATION (Scroll-triggered) ===== */
+.oxygen-fade-in {
+  opacity: 0;
+  transform: translateY(16px) scale(0.96) translateZ(0);
+  transition: opacity var(--oxygen-component) var(--oxygen-ease),
+    transform var(--oxygen-component) var(--oxygen-ease);
+  will-change: opacity, transform;
+}
+
+.oxygen-fade-in.visible {
+  opacity: 1;
+  transform: translateY(0) scale(1) translateZ(0);
+}
+
+/* ===== MODAL ANIMATION ===== */
+.oxygen-modal {
+  opacity: 0;
+  transform: scale(0.95) translateY(10px) translateZ(0);
+  transition: opacity 350ms var(--oxygen-ease-soft),
+    transform 350ms var(--oxygen-ease-soft);
+  will-change: opacity, transform;
+}
+
+.oxygen-modal.open {
+  opacity: 1;
+  transform: scale(1) translateY(0) translateZ(0);
+}
+
+.oxygen-modal-backdrop {
+  opacity: 0;
+  transition: opacity 300ms var(--oxygen-ease);
+}
+
+.oxygen-modal-backdrop.open {
+  opacity: 1;
+}
+
+/* ===== STAGGER ANIMATION ===== */
+.oxygen-stagger>* {
+  opacity: 0;
+  transform: translateY(12px) translateZ(0);
+  transition: opacity var(--oxygen-component) var(--oxygen-ease),
+    transform var(--oxygen-component) var(--oxygen-ease);
+}
+
+.oxygen-stagger.visible>*:nth-child(1) {
+  transition-delay: 0ms;
+  opacity: 1;
+  transform: translateY(0) translateZ(0);
+}
+
+.oxygen-stagger.visible>*:nth-child(2) {
+  transition-delay: 50ms;
+  opacity: 1;
+  transform: translateY(0) translateZ(0);
+}
+
+.oxygen-stagger.visible>*:nth-child(3) {
+  transition-delay: 100ms;
+  opacity: 1;
+  transform: translateY(0) translateZ(0);
+}
+
+.oxygen-stagger.visible>*:nth-child(4) {
+  transition-delay: 150ms;
+  opacity: 1;
+  transform: translateY(0) translateZ(0);
+}
+
+.oxygen-stagger.visible>*:nth-child(5) {
+  transition-delay: 200ms;
+  opacity: 1;
+  transform: translateY(0) translateZ(0);
+}
+
+.oxygen-stagger.visible>*:nth-child(6) {
+  transition-delay: 250ms;
+  opacity: 1;
+  transform: translateY(0) translateZ(0);
+}
+
+.oxygen-stagger.visible>*:nth-child(n+7) {
+  transition-delay: 300ms;
+  opacity: 1;
+  transform: translateY(0) translateZ(0);
+}
+
+/* ===== NAV LINK ANIMATION ===== */
+.oxygen-nav-link {
+  position: relative;
+  transition: color var(--oxygen-micro) var(--oxygen-ease);
+}
+
+.oxygen-nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: currentColor;
+  transition: width var(--oxygen-micro) var(--oxygen-ease),
+    left var(--oxygen-micro) var(--oxygen-ease);
+  transform: translateZ(0);
+}
+
+.oxygen-nav-link:hover::after,
+.oxygen-nav-link.active::after {
+  width: 100%;
+  left: 0;
+}
+
+/* ===== RIPPLE EFFECT (Touch feedback) ===== */
+.oxygen-ripple {
+  position: relative;
+  overflow: hidden;
+}
+
+.oxygen-ripple::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  transform: translate(-50%, -50%) translateZ(0);
+  transition: width 400ms var(--oxygen-ease),
+    height 400ms var(--oxygen-ease),
+    opacity 400ms var(--oxygen-ease);
+  opacity: 0;
+}
+
+.oxygen-ripple:active::before {
+  width: 200%;
+  height: 200%;
+  opacity: 1;
+  transition-duration: 0ms;
+}
+
+/* ===== PAGE TRANSITION ===== */
+.oxygen-page-enter {
+  opacity: 0;
+  transform: translateX(20px) translateZ(0);
+}
+
+.oxygen-page-enter-active {
+  opacity: 1;
+  transform: translateX(0) translateZ(0);
+  transition: opacity var(--oxygen-page) var(--oxygen-ease),
+    transform var(--oxygen-page) var(--oxygen-ease);
+}
+
+.oxygen-page-exit {
+  opacity: 1;
+  transform: translateX(0) translateZ(0);
+}
+
+.oxygen-page-exit-active {
+  opacity: 0;
+  transform: translateX(-20px) translateZ(0);
+  transition: opacity 250ms var(--oxygen-ease-fast),
+    transform 250ms var(--oxygen-ease-fast);
+}
+
+/* ===== ICON ANIMATION ===== */
+.oxygen-icon {
+  transition: transform var(--oxygen-micro) var(--oxygen-ease);
+  transform: translateZ(0);
+}
+
+.oxygen-icon:hover {
+  transform: scale(1.1) translateZ(0);
+}
+
+.oxygen-icon:active {
+  transform: scale(0.9) translateZ(0);
+}
+
+/* ===== CHATBOT POP-IN ANIMATION ===== */
+@keyframes oxygenPopInBR {
+  from {
+    opacity: 0;
+    transform: scale(0.5) translate(20px, 20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1) translate(0, 0);
+  }
+}
+
+.oxygen-pop-in-br {
+  animation: oxygenPopInBR 0.4s var(--oxygen-ease) forwards;
+  transform-origin: bottom right;
+  will-change: transform, opacity;
+}
+
+@keyframes oxygenPopOutBR {
+  from {
+    opacity: 1;
+    transform: scale(1) translate(0, 0);
+  }
+
+  to {
+    opacity: 0;
+    transform: scale(0.5) translate(20px, 20px);
+  }
+}
+
+.oxygen-pop-out-br {
+  animation: oxygenPopOutBR 0.3s var(--oxygen-ease-fast) forwards;
+  transform-origin: bottom right;
+  will-change: transform, opacity;
+}
+
+.oxygen-icon:active {
+  transform: scale(0.9) translateZ(0);
+}
+
+@layer utilities {
+  .animate-spin-slow {
+    animation: spin 8s linear infinite;
+  }
+
+  @keyframes fadeOutUp {
+    from {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    to {
+      opacity: 0;
+      transform: translateY(-12px);
+    }
+  }
+
+  .animate-fade-out-up {
+    animation: fadeOutUp 0.3s var(--oxygen-ease) forwards;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes ripple-ping {
+  0% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+
+  100% {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+
+.animate-ripple-ping {
+  animation: ripple-ping 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+.animate-ripple-ping-delay-1 {
+  animation: ripple-ping 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+  animation-delay: 0.4s;
+}
+
+.animate-ripple-ping-delay-2 {
+  animation: ripple-ping 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+  animation-delay: 0.8s;
+}

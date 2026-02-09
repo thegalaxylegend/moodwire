@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/jpeg" href="/logo.jpg?v=3" />
+  <link rel="apple-touch-icon" href="/logo.jpg?v=3" />
+  <link rel="manifest" href="/manifest.json?v=3" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#000000" />
+
+  <!-- Preload Critical Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://pollinations.ai" />
+  <link rel="dns-prefetch" href="https://firebasestorage.googleapis.com" />
+  <link rel="preload"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Outfit:wght@700;800&display=swap"
+    as="style" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Outfit:wght@700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Force HTTPS -->
+  <script>
+    if (window.location.protocol === 'http:' && window.location.hostname !== 'localhost') {
+      window.location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+    }
+  </script>
+
+  <!-- Static SEO Fallback -->
+  <title>Exam Compass | AI-Powered Learning for Class 6-12 & Competitive Exams</title>
+  <meta name="description"
+    content="Personalized AI learning for Class 6-12, JEE, NEET, and UPSC. Smart study plans, rigorous mock tests, and real-time rank prediction for Indian students.">
+  <link rel="canonical" href="https://examcompass.web.app/">
+
+  <!-- Open Graph Fallback -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Exam Compass | AI-Powered Prep">
+  <meta property="og:description" content="AI-driven roadmap to your dream college.">
+  <meta property="og:image" content="https://examcompass.web.app/og-image.png">
+  <meta property="og:url" content="https://examcompass.web.app/">
+
+  <!-- Twitter Fallback -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Exam Compass | AI-Powered Prep">
+  <meta name="twitter:description" content="AI-driven roadmap to your dream college.">
+  <meta name="twitter:image" content="https://examcompass.web.app/og-image.png">
+
+  <!-- Google Tag (gtag.js) - Hardcoded for 100% Persistence -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7MWNJDZ5D0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    window.gtag = gtag; // Explicit global assignment
+    gtag('js', new Date());
+    gtag('config', 'G-7MWNJDZ5D0', {
+      'debug_mode': false,
+      'send_page_view': false // We handle this manually in RouteTracker to update titles correctly
+    });
+  </script>
+
+  <!-- Fonts: Inter & Outfit with display=swap for LCP -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <script>
+    // Load theme before React mounts to prevent flash
+    (function () {
+      var theme = localStorage.getItem('theme');
+      if (theme && theme !== 'glass') {
+        document.documentElement.setAttribute('data-theme', theme);
+      }
+    })();
+  </script>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>

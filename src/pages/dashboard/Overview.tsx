@@ -1,0 +1,762 @@
+import { useState, useEffect } from 'react';
+import { useUserStore } from '../../store/userStore';
+import { Link, useNavigate } from 'react-router-dom';
+import { Loader2, TrendingUp, RefreshCw, Flame, Star, Play, ChevronRight, BookOpen } from 'lucide-react';
+
+import { getWeakTopics, getStrongTopics, type TopicStat } from '../../services/topicStrengthService';
+import { DailyChallenge } from '../../components/DailyChallenge';
+import { syncHistoricalScoresToLeaderboard, syncSyllabusFromMocks } from '../../services/dataSyncService';
+import { RankBadge } from '../../components/gamification/RankBadge';
+import { XPProgress } from '../../components/gamification/XPProgress';
+
+import { ProficiencyMap } from '../../components/dashboard/ProficiencyMap';
+import { motion, AnimatePresence } from 'framer-motion';
+import { AuthGate } from '../../components/auth/AuthGate';
+import { DailyStudyGoalIcon } from '../../components/dashboard/DailyStudyGoalIcon';
+
+const DiagnosticPopup = ({ onDismiss, onStart }: { onDismiss: () => void; onStart: () => void }) => {
+    return (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fade-in">
+            <motion.div
+                initial={{ opacity: 0, scale: 0.95 }}
+                animate={{ opacity: 1, scale: 1 }}
+                className="bg-surface border border-primary/20 p-8 rounded-2xl max-w-md w-full shadow-2xl relative oxygen-card"
+            >
+                <div className="absolute -top-10 left-1/2 -translate-x-1/2 w-20 h-20 bg-primary/20 rounded-full flex items-center justify-center border-4 border-background">
+                    <div className="w-14 h-14 bg-primary rounded-full flex items-center justify-center">
+                        <TrendingUp className="text-white" size={32} />
+                    </div>
+                </div>
+
+                <div className="mt-8 text-center space-y-4">
+                    <h2 className="text-2xl font-bold text-text-main">Calibrate Your AI</h2>
+                    <p className="text-text-muted">
+                        To give you personalized recommendations, we need to know your current level. Take a quick 5-min diagnostic test.
+                    </p>
+
+                    <div className="grid grid-cols-2 gap-3 pt-4">
+                        <button
+                            onClick={onDismiss}
+                            className="px-4 py-3 rounded-xl border border-border text-text-muted hover:bg-white/5 font-medium transition-all"
+                        >
+                            Not Now
+                        </button>
+                        <button
+                            onClick={onStart}
+                            className="px-4 py-3 rounded-xl bg-primary text-white font-bold hover:bg-primary/90 shadow-lg shadow-primary/25 transition-all"
+                        >
+                            Start Test
+                        </button>
+                    </div>
+                    <p className="text-[10px] text-text-muted opacity-60">
+                        We won't ask again if you skip.
+                    </p>
+                </div>
+            </motion.div>
+        </div>
+    );
+};
+
+export const Overview = () => {
+    const { user, fetchSyllabusProgress } = useUserStore();
+    const navigate = useNavigate();
+
+    // -- GUEST / INTENT LOGIC --
+    const [intent, setIntent] = useState<{ class?: string; exam?: string } | null>(null);
+    useEffect(() => {
+        const stored = sessionStorage.getItem('exam_compass_intent');
+        if (stored) {
+            try {
+                setIntent(JSON.parse(stored));
+            } catch (e) {
+                console.error("Failed to parse intent", e);
+            }
+        }
+    }, []);
+
+    // Create a display user for the UI (so we don't crash on nulls)
+    const displayUser = user || {
+        id: 'guest',
+        name: 'Guest Student',
+        userClass: intent?.class || 'Class 12th', // Default to 12th if unknown
+        targetExam: intent?.exam || 'JEE Mains', // Default
+        targetYear: new Date().getFullYear(),
+        xp: 0,
+        totalPoints: 0,
+        lifetimeXp: 0,
+        streak: 0,
+        // Mock skills for the preview
+        skills: { physics: 0.5, chemistry: 0.5, math: 0.5, lastUpdated: new Date().toISOString() },
+        isGuest: true
+    };
+    // ---------------------------
+    const [isSyncing, setIsSyncing] = useState(false);
+    const handleSync = async () => {
+        if (!user || isSyncing || user.isGuest) return;
+        setIsSyncing(true);
+        try {
+            await Promise.all([
+                syncHistoricalScoresToLeaderboard(user.id, {
+                    displayName: user.name,
+                    avatar: user.avatarUrl
+                }),
+                syncSyllabusFromMocks(user.id)
+            ]);
+
+            // Refresh counts and progress
+            const { db } = await import('../../lib/firebase');
+            const { collection, query, where, getCountFromServer } = await import('firebase/firestore');
+            const qMock = query(collection(db, 'mock_attempts'), where('user_id', '==', user.id));
+            const snapshotMock = await getCountFromServer(qMock);
+            setAttempts(snapshotMock.data().count);
+
+            // Re-fetch centralized syllabus progress
+            await fetchSyllabusProgress();
+        } catch (e) {
+            console.error("Sync failed", e);
+        } finally {
+            setIsSyncing(false);
+        }
+    };
+
+    const [attempts, setAttempts] = useState(0);
+    // Use store value if available, else local state (though we can just direct use store)
+    const progress = user?.syllabusProgress || 0;
+
+    const [weakTopicStats, setWeakTopicStats] = useState<TopicStat[]>([]);
+    const [strongTopicStats, setStrongTopicStats] = useState<TopicStat[]>([]);
+
+    // Video States
+    const [recommendedVideos, setRecommendedVideos] = useState<any[]>([]); // Using any for ActiveRecommendation to avoid deep type imports if lazy loaded
+
+    const [loading, setLoading] = useState(true);
+    const [showDiagnosticPopup, setShowDiagnosticPopup] = useState(false);
+
+    useEffect(() => {
+        if (user) {
+            fetchStats();
+        } else {
+            setLoading(false);
+        }
+    }, [user]);
+
+    const fetchStats = async () => {
+        if (!user?.id) {
+            setLoading(false);
+            return;
+        }
+
+        setLoading(true);
+        try {
+            let weakStats: TopicStat[] = [];
+            // 0. Skip cloud fetches for Guests
+            if (user.isGuest) {
+                console.log("[Overview] Guest Mode: Skipping cloud data sync.");
+                // Proceed to video fetching...
+            } else {
+                // 1. Check if user has taken diagnostic test
+                try {
+                    const { db } = await import('../../lib/firebase');
+                    const { collection, query, where, getDocs, limit } = await import('firebase/firestore');
+
+                    // Filter by user_id AND class AND exam for strict isolation
+                    const diagQ = query(
+                        collection(db, 'diagnostic_results'),
+                        where('user_id', '==', user.id),
+                        where('class', '==', user.userClass || 'General'),
+                        where('exam', '==', user.targetExam || 'General'),
+                        limit(1)
+                    );
+                    const diagSnap = await getDocs(diagQ);
+                    let diagnosticTaken = !diagSnap.empty;
+
+                    // Fallback: Check for legacy diagnostic (no class/exam set) meant for this user
+                    if (!diagnosticTaken) {
+                        const legacyQ = query(
+                            collection(db, 'diagnostic_results'),
+                            where('user_id', '==', user.id),
+                            limit(1)
+                        );
+                        const legacySnap = await getDocs(legacyQ);
+                        if (!legacySnap.empty) {
+                            // Found legacy record! Migrate it to current class/exam
+                            const legacyDoc = legacySnap.docs[0];
+                            const { updateDoc } = await import('firebase/firestore');
+                            await updateDoc(legacyDoc.ref, {
+                                class: user.userClass || 'General',
+                                exam: user.targetExam || 'General'
+                            });
+                            console.log("[Overview] Legacy diagnostic result migrated to", user.userClass, user.targetExam);
+                            diagnosticTaken = true;
+                        }
+                    }
+
+
+                    // Check for popup (Only if not taken AND not dismissed)
+                    if (!diagnosticTaken) {
+                        const dismissed = localStorage.getItem(`diagnostic_dismissed_${user.id}_${user.userClass}`);
+                        if (!dismissed) {
+                            setShowDiagnosticPopup(true);
+                        }
+                    }
+                } catch (err) {
+                    console.warn("Diagnostic fetch failed (permissions?):", err);
+
+                }
+
+                // 2. Fetch weak topics (Independent)
+                // weakStats declared in outer scope
+                try {
+                    weakStats = await getWeakTopics(user.id, 5, user.userClass, user.targetExam);
+                    setWeakTopicStats(weakStats);
+                } catch (err) {
+                    console.warn("Weak topics fetch failed:", err);
+                }
+
+                // 3. Fetch strong topics (Independent)
+                try {
+                    const strongStats = await getStrongTopics(user.id, 5, user.userClass, user.targetExam);
+                    setStrongTopicStats(strongStats);
+                } catch (err) {
+                    console.warn("Strong topics fetch failed:", err);
+                }
+
+                // 4. Video logic moved to outer scope
+                if (false) {
+                    // Legacy video fetch removed
+                } else if (user.skills) {
+                    // FALLBACK: If no topic-level data, use subject-level proficiency
+                    console.log('[Overview] No topic data. Using subject proficiency as fallback.');
+                    const subjects = [
+                        { name: 'Physics', score: user.skills.physics || 0.5 },
+                        { name: 'Chemistry', score: user.skills.chemistry || 0.5 },
+                        { name: 'Math', score: user.skills.math || 0.5 }
+                    ];
+
+                    // ALWAYS show the weakest subjects, even if overall performance is excellent
+                    const weakSubjects = subjects
+                        .sort((a, b) => a.score - b.score)
+                        .slice(0, 3) // Always show top 3 weakest subjects
+                        .map(s => s.name);
+
+                    if (weakSubjects.length > 0) {
+                        console.log('[Overview] Fetching videos for weakest subjects:', weakSubjects);
+                        // Video fetching is handled by fetchActiveVideo now
+
+                        // Create topic stats for display with relative weakness indicator
+                        const fakeWeakStats: TopicStat[] = weakSubjects.map(subject => ({
+                            id: `fake-${subject}`,
+                            user_id: user.id,
+                            topic: subject,
+                            subject: subject,
+                            correct_count: 0,
+                            total_attempts: 1,
+                            score_percentage: Math.round((subjects.find(s => s.name === subject)?.score || 0.5) * 100),
+                            last_attempt: new Date().toISOString(),
+                            status: 'weak' as const
+                        }));
+                        setWeakTopicStats(fakeWeakStats);
+                    }
+                } else {
+                    // ULTIMATE FALLBACK: No skills data at all - show default recommendations
+                    console.log('[Overview] No skills data. Showing default video recommendations.');
+                    const defaultSubjects = ['Physics', 'Chemistry', 'Math'];
+                    // Video fetching is handled by fetchActiveVideo now
+
+                    // Create placeholder topic stats
+                    const placeholderStats: TopicStat[] = defaultSubjects.map(subject => ({
+                        id: `default-${subject}`,
+                        user_id: user.id,
+                        topic: subject,
+                        subject: subject,
+                        correct_count: 0,
+                        total_attempts: 0,
+                        score_percentage: 0,
+                        last_attempt: new Date().toISOString(),
+                        status: 'weak' as const
+                    }));
+                    setWeakTopicStats(placeholderStats);
+                }
+            }
+
+            // [NEW] 4. Fetch Video Recommendations (Runs for EVERYONE)
+            let subjectsToFetch: string[] = [];
+            if (Array.isArray(weakStats) && weakStats.length > 0) {
+                subjectsToFetch = weakStats.map(t => t.topic);
+            } else if (user.skills) {
+                console.log('[Overview] Using subject skills for videos.');
+                const subjects = [
+                    { name: 'Physics', score: user.skills.physics || 0.5 },
+                    { name: 'Chemistry', score: user.skills.chemistry || 0.5 },
+                    { name: 'Math', score: user.skills.math || 0.5 }
+                ];
+                subjectsToFetch = subjects.sort((a, b) => a.score - b.score).slice(0, 3).map(s => s.name);
+
+                // Set fake stats for UI
+                if (subjectsToFetch.length > 0) {
+                    const fakeWeakStats: TopicStat[] = subjectsToFetch.map(subject => ({
+                        id: `fake-${subject}`,
+                        user_id: user.id,
+                        topic: subject,
+                        subject: subject,
+                        correct_count: 0,
+                        total_attempts: 1,
+                        score_percentage: Math.round((subjects.find(s => s.name === subject)?.score || 0.5) * 100),
+                        last_attempt: new Date().toISOString(),
+                        status: 'weak' as const
+                    }));
+                    setWeakTopicStats(fakeWeakStats);
+                }
+            } else {
+                console.log('[Overview] Default fallback videos.');
+                subjectsToFetch = ['Physics', 'Chemistry', 'Math'];
+                const placeholderStats: TopicStat[] = subjectsToFetch.map(subject => ({
+                    id: `default-${subject}`,
+                    user_id: user.id,
+                    topic: subject,
+                    subject: subject,
+                    correct_count: 0,
+                    total_attempts: 0,
+                    score_percentage: 0,
+                    last_attempt: new Date().toISOString(),
+                    status: 'weak' as const
+                }));
+                setWeakTopicStats(placeholderStats);
+            }
+
+            if (subjectsToFetch.length > 0) {
+                // Video fetching is handled by fetchActiveVideo now
+            }
+
+            // 5. Fetch Mock Counts (Independent - Guests still want their local history!)
+            try {
+                let cloudCount = 0;
+                if (!user.isGuest) {
+                    const { db } = await import('../../lib/firebase');
+                    const { collection, query, where, getCountFromServer } = await import('firebase/firestore');
+                    const mockColl = collection(db, 'mock_attempts');
+                    const qMock = query(mockColl, where('user_id', '==', user.id));
+                    const snapshotMock = await getCountFromServer(qMock);
+                    cloudCount = snapshotMock.data().count;
+                }
+
+                const localDataRaw = localStorage.getItem('exam_compass_local_history');
+                const localData = localDataRaw ? JSON.parse(localDataRaw) : [];
+                const localCount = localData.length;
+
+                setAttempts(cloudCount + localCount);
+            } catch (err) {
+                console.warn("Mock counts fetch failed:", err);
+                // Fallback to local only
+                const localDataRaw = localStorage.getItem('exam_compass_local_history');
+                const localCount = localDataRaw ? (JSON.parse(localDataRaw) || []).length : 0;
+                setAttempts(localCount);
+            }
+
+            // 6. Trigger centralized syllabus fetch
+            try {
+                fetchSyllabusProgress();
+            } catch (err) {
+                console.warn("Syllabus progress fetch failed:", err);
+            }
+
+        } catch (e) {
+            console.error("Global error in fetchStats:", e);
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    // Optimized Video Fetching - Multi Focus
+    const fetchRecommendations = async () => {
+        if (!user || !user.id) return;
+
+        try {
+            const { getRecommendedVideos } = await import('../../services/recommendationService');
+            // Fetch multiple recommendations
+            const recommendations = await getRecommendedVideos(user.id, user.userClass, user.targetExam);
+
+            if (recommendations && recommendations.length > 0) {
+                setRecommendedVideos(recommendations);
+            } else {
+                setRecommendedVideos([]);
+            }
+        } catch (err) {
+            console.error("Failed to fetch recommendations", err);
+        }
+    };
+
+    useEffect(() => {
+        fetchRecommendations();
+    }, [user]);
+
+    // Format numbers
+
+    const daysLeft = displayUser?.targetYear
+        ? Math.ceil((new Date(`${displayUser.targetYear}-01-24`).getTime() - new Date().getTime()) / (1000 * 60 * 60 * 24))
+        : 365;
+
+    const isJunior = ['Class 6th', 'Class 7th', 'Class 8th', 'Class 9th', 'Class 10th'].includes(displayUser?.userClass || '');
+
+    // Hoist Header out of loading state
+    const header = (
+        <header className="flex flex-col md:flex-row md:items-center justify-between gap-4 md:gap-6 mb-8">
+            <div className="flex items-center gap-3 md:gap-6">
+                <div className="shrink-0 scale-90 md:scale-100 origin-left">
+                    <RankBadge xp={displayUser?.xp || 0} size="lg" onClick={() => navigate('/dashboard/ranks')} />
+                </div>
+                <div className="min-w-0">
+                    <h1 className="text-xl md:text-3xl font-heading font-bold text-text-main truncate">
+                        Welcome back, {displayUser?.name || 'Aspirant'}.
+                    </h1>
+                    <div className="flex flex-wrap items-center gap-2 md:gap-3 mt-1 text-sm md:text-base">
+                        {!isJunior && (
+                            <>
+                                <p className="text-text-muted truncate max-w-[150px] md:max-w-none">
+                                    Targeting <span className="text-primary font-bold">{displayUser?.targetExam || 'Undecided'} {displayUser?.targetYear}</span>
+                                </p>
+                                <span className="hidden md:inline w-1 h-1 bg-text-muted rounded-full" />
+                            </>
+                        )}
+                        <p className="text-text-muted truncate">
+                            Season Points: <span className="text-accent font-bold">{(displayUser?.totalPoints || 0).toLocaleString()}</span>
+                        </p>
+                        <span className="hidden md:inline w-1 h-1 bg-text-muted rounded-full" />
+                        <p className="text-text-muted truncate">
+                            Career XP: <span className="text-primary font-bold">{(displayUser?.lifetimeXp || 0).toLocaleString()}</span>
+                        </p>
+                    </div>
+                    <div className="mt-3 md:mt-4 w-full md:w-80">
+                        <XPProgress xp={displayUser?.xp || 0} />
+                    </div>
+                </div>
+            </div>
+
+            {/* Desktop Stats Indicators */}
+            <div className="flex items-center gap-4">
+                <div className="hidden lg:flex items-center gap-3 px-4 py-3 bg-surface border border-border rounded-xl shadow-sm">
+                    <DailyStudyGoalIcon />
+                    <div className="w-px h-8 bg-border mx-2"></div>
+                    <div className="p-2 bg-primary/10 rounded-lg">
+                        <Flame size={20} className="fill-primary text-primary" />
+                    </div>
+                    <div>
+                        <p className="text-sm font-bold text-text-main leading-none">{displayUser?.streak || 0}-Day Streak</p>
+                        <p className="text-xs text-text-muted mt-1">Keep it up! 🔥</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+    );
+
+    if (loading) {
+        return (
+            <div className="space-y-8">
+                {header}
+                <div className="flex h-[40vh] items-center justify-center">
+                    <Loader2 className="animate-spin text-primary" size={48} />
+                </div>
+            </div>
+        );
+    }
+
+    return (
+        <div className="space-y-8">
+            {header}
+
+            <div className="animate-fade-in-up space-y-8">
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                    <div className="lg:col-span-2 space-y-6">
+                        <DailyChallenge />
+
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div className="glass-card oxygen-card p-6 space-y-2">
+                                <h3 className="text-lg font-semibold text-text-muted">Syllabus Coverage</h3>
+                                <p className="text-4xl font-bold text-accent">{progress}%</p>
+                                <div className="w-full bg-surface h-1.5 rounded-full mt-2">
+                                    <div className="bg-accent h-full rounded-full" style={{ width: `${progress}%` }}></div>
+                                </div>
+                                <div className="flex justify-between items-center">
+                                    <p className="text-xs text-text-muted">{attempts} mocks completed</p>
+                                    {!user?.isGuest && (
+                                        <button
+                                            onClick={handleSync}
+                                            disabled={isSyncing}
+                                            title="Sync old test data to leaderboard"
+                                            className="p-1 px-2 text-[10px] bg-primary/10 hover:bg-primary/20 text-primary border border-primary/20 rounded-md transition-all flex items-center gap-1"
+                                        >
+                                            <RefreshCw size={10} className={isSyncing ? 'animate-spin' : ''} />
+                                            {isSyncing ? 'Syncing...' : 'Sync Data'}
+                                        </button>
+                                    )}
+                                </div>
+                            </div>
+
+                            {!isJunior && (
+                                <div className="glass-card oxygen-card p-6 space-y-2">
+                                    <h3 className="text-lg font-semibold text-text-muted">Days Left</h3>
+                                    <p className="text-4xl font-bold text-text-main">{daysLeft}</p>
+                                    <p className="text-xs text-text-muted">Until Jan 24, {displayUser?.targetYear || '2026'}</p>
+                                </div>
+                            )}
+
+                            {isJunior && (
+                                <div className="glass-card oxygen-card p-6 space-y-2 flex flex-col justify-center">
+                                    <h3 className="text-lg font-semibold text-text-muted">School Year</h3>
+                                    <p className="text-3xl font-bold text-text-main">{user?.userClass}</p>
+                                    <p className="text-xs text-text-muted">Consistently study your subjects!</p>
+                                </div>
+                            )}
+                        </div>
+                    </div>
+                    <div>
+                        <ProficiencyMap />
+                    </div>
+                </div>
+
+                {/* Skill Profile (Exa V2) */}
+                {displayUser?.skills && (
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        {(['physics', 'chemistry', 'math'] as const).map(subject => {
+                            const score = displayUser.skills![subject] || 0.5;
+                            const percentage = Math.round(score * 100);
+                            let color = 'text-yellow-500';
+                            let bg = 'bg-yellow-500/10';
+                            let border = 'border-yellow-500/20';
+                            let label = 'Average';
+
+                            if (score >= 0.7) {
+                                color = 'text-green-500';
+                                bg = 'bg-green-500/10';
+                                border = 'border-green-500/20';
+                                label = 'Strong';
+                            } else if (score <= 0.4) {
+                                color = 'text-red-500';
+                                bg = 'bg-red-500/10';
+                                border = 'border-red-500/20';
+                                label = 'Weak';
+                            }
+
+                            return (
+                                <div key={subject} className={`glass-card oxygen-card p-4 border ${border} ${bg} flex items-center justify-between`}>
+                                    <div>
+                                        <h4 className="capitalize font-bold text-text-main">{subject}</h4>
+                                        <p className={`text-xs uppercase font-bold tracking-wider ${color}`}>{label}</p>
+                                    </div>
+                                    <div className="text-right">
+                                        <span className={`text-2xl font-bold ${color}`}>{percentage}%</span>
+                                        <p className="text-[10px] text-text-muted">Proficiency</p>
+                                    </div>
+                                </div>
+                            );
+                        })}
+                    </div>
+                )}
+
+                {/* Modified: Show Focus Areas + Videos if user has any topic data */}
+                {/* Modified: Show Focus Areas + Videos if user has any topic data */}
+                {
+                    (weakTopicStats.length > 0 || strongTopicStats.length > 0) ? (
+                        <div className="glass-card oxygen-card p-6 space-y-6">
+                            <div className="flex items-center justify-between">
+                                <div className="flex items-center gap-3">
+                                    <TrendingUp className="text-red-400" size={24} />
+                                    <div>
+                                        <h3 className="text-xl font-bold text-text-main">Focus Areas</h3>
+                                        <p className="text-sm text-text-muted">Based on your test performance</p>
+                                    </div>
+                                </div>
+                                <AuthGate>
+                                    <Link
+                                        to="/dashboard/analytics"
+                                        className="text-sm text-primary hover:underline whitespace-nowrap"
+                                    >
+                                        View Full Analytics →
+                                    </Link>
+                                </AuthGate>
+                            </div>
+
+                            {/* Weak Topics with Scores - Carousel */}
+                            {weakTopicStats.length > 0 && (
+                                <div className="space-y-3 relative">
+                                    <h4 className="text-sm font-bold text-red-400 uppercase tracking-wider">Focus On These</h4>
+
+                                    {/* Scrollable Container with Mask Blur */}
+                                    <div className="relative">
+                                        <div
+                                            className="flex overflow-x-auto no-scrollbar gap-3 pb-2 snap-x"
+                                            style={{ maskImage: 'linear-gradient(to right, transparent, black 5%, black 95%, transparent)' }}
+                                        >
+                                            {/* Spacer for mask start */}
+                                            <div className="w-2 shrink-0" />
+
+                                            {Array.isArray(weakTopicStats) && weakTopicStats.map((stat: TopicStat, idx: number) => (
+                                                <div
+                                                    key={idx}
+                                                    className="snap-center shrink-0 px-4 py-3 bg-red-500/10 border border-red-500/20 rounded-xl flex items-center gap-3 oxygen-card"
+                                                >
+                                                    <span className="text-sm font-medium text-red-50">{stat.topic}</span>
+                                                    <span className="text-xs px-2 py-1 bg-red-500/20 rounded-md text-red-300 font-bold">
+                                                        {stat.score_percentage}%
+                                                    </span>
+                                                </div>
+                                            ))}
+
+                                            {/* Spacer for mask end */}
+                                            <div className="w-2 shrink-0" />
+                                        </div>
+                                    </div>
+                                </div>
+                            )}
+
+                            {/* Strong Topics */}
+                            {strongTopicStats.length > 0 && (
+                                <div className="space-y-3 relative">
+                                    <h4 className="text-sm font-bold text-green-400 uppercase tracking-wider flex items-center gap-2">
+                                        <Star size={14} /> Your Strengths
+                                    </h4>
+
+                                    {/* Scrollable Container with Mask Blur */}
+                                    <div className="relative">
+                                        <div
+                                            className="flex overflow-x-auto no-scrollbar gap-3 pb-2 snap-x"
+                                            style={{ maskImage: 'linear-gradient(to right, transparent, black 5%, black 95%, transparent)' }}
+                                        >
+                                            {/* Spacer for mask start */}
+                                            <div className="w-2 shrink-0" />
+
+                                            {Array.isArray(strongTopicStats) && strongTopicStats.map((stat: TopicStat, idx: number) => (
+                                                <div
+                                                    key={idx}
+                                                    className="snap-center shrink-0 px-4 py-3 bg-green-500/10 border border-green-500/20 rounded-xl flex items-center gap-3 oxygen-card"
+                                                >
+                                                    <span className="text-sm font-medium text-green-50">{stat.topic}</span>
+                                                    <span className="text-xs px-2 py-1 bg-green-500/20 rounded-md text-green-300 font-bold">
+                                                        {stat.score_percentage}%
+                                                    </span>
+                                                </div>
+                                            ))}
+
+                                            {/* Spacer for mask end */}
+                                            <div className="w-2 shrink-0" />
+                                        </div>
+                                    </div>
+                                </div>
+                            )}
+
+                            {/* Recommended Videos for Weak Topics */}
+                            <div className="space-y-4">
+                                <div className="flex items-center justify-between">
+                                    <h4 className="text-sm font-bold text-text-muted uppercase tracking-wider flex items-center gap-2">
+                                        <Play size={14} /> Recommended Videos
+                                    </h4>
+
+                                    {/* More Videos Button */}
+                                    <Link to="/dashboard/lectures" className="text-xs text-primary hover:underline flex items-center gap-1">
+                                        More Videos <ChevronRight size={12} />
+                                    </Link>
+                                </div>
+
+                                {false ? ( // Removed loading state for now, or assume quick load
+                                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                                        {[1, 2, 3].map((i) => (
+                                            <div key={i} className="aspect-video bg-surface/50 rounded-xl animate-pulse flex items-center justify-center">
+                                                <Loader2 className="animate-spin text-text-muted" />
+                                            </div>
+                                        ))}
+                                    </div>
+                                ) : recommendedVideos.length > 0 ? (
+                                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                                        {recommendedVideos.map((rec, idx) => (
+                                            <Link
+                                                key={idx}
+                                                // Link to the specific topic of the recommendation
+                                                to={`/dashboard/lectures/${rec.topic.toLowerCase().replace(/\s+/g, '-')}`}
+                                                className="group oxygen-card bg-surface border border-border rounded-xl overflow-hidden flex flex-col"
+                                            >
+                                                <div className="relative aspect-video bg-black/20 shrink-0">
+                                                    <img
+                                                        src={rec.video.thumbnailUrl}
+                                                        alt={rec.video.title}
+                                                        className="w-full h-full object-cover"
+                                                        onError={(e) => {
+                                                            // Fallback image if thumbnail fails
+                                                            (e.target as HTMLImageElement).src = 'https://img.youtube.com/vi/placeholder/hqdefault.jpg';
+                                                        }}
+                                                    />
+                                                    <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                                                        <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
+                                                            <Play size={20} className="text-white ml-1" />
+                                                        </div>
+                                                    </div>
+                                                    {/* Reason Badge */}
+                                                    <div className="absolute top-2 left-2 bg-black/60 backdrop-blur-sm px-2 py-1 rounded-md text-[10px] text-white font-medium border border-white/10">
+                                                        {rec.reason}
+                                                    </div>
+                                                </div>
+                                                <div className="p-3 flex flex-col flex-grow">
+                                                    <h5 className="font-medium text-text-main text-sm line-clamp-2 group-hover:text-primary transition-colors mb-auto">
+                                                        {rec.video.title}
+                                                    </h5>
+                                                    <div className="flex items-center justify-between mt-2 text-[10px] text-text-muted">
+                                                        <span>{rec.video.duration || 'Watch now'}</span>
+                                                        <span className="truncate max-w-[50%]">{rec.topic}</span>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        ))}
+                                    </div>
+                                ) : (
+                                    <div className="flex items-center gap-4 p-4 bg-surface/50 border border-border rounded-xl">
+                                        <BookOpen size={24} className="text-primary" />
+                                        <div>
+                                            <p className="text-text-main font-medium">Videos loading soon!</p>
+                                            <p className="text-sm text-text-muted">
+                                                Meanwhile, check <Link to="/dashboard/syllabus" className="text-primary hover:underline">Syllabus</Link> for video lectures or <Link to="/dashboard/lectures" className="text-primary hover:underline">Lectures</Link> page.
+                                            </p>
+                                        </div>
+                                    </div>
+                                )}
+                            </div>
+                        </div>
+                    ) : (
+                        <div className="glass-card p-12 flex flex-col items-center justify-center border-dashed border-2 border-border bg-transparent text-center space-y-4">
+                            <p className="text-lg text-text-main font-medium">Your Dashboard is Ready.</p>
+                            <p className="text-text-muted max-w-md">
+                                Take a quick mock test to start tracking your strengths and weaknesses.
+                                The AI will analyze your performance and suggest topics to focus on.
+                            </p>
+                            <div className="flex gap-4 pt-2">
+                                <AuthGate mode="modal">
+                                    <Link to="/dashboard/mock" className="px-6 py-2 bg-primary text-white rounded-lg font-bold oxygen-button inline-block">
+                                        Take Quick Test
+                                    </Link>
+                                </AuthGate>
+                                <Link to="/dashboard/syllabus" className="px-6 py-2 bg-surface border border-border text-text-main rounded-lg oxygen-button inline-block">
+                                    Browse Syllabus
+                                </Link>
+                            </div>
+                        </div>
+                    )
+                }
+            </div>
+
+
+            <AnimatePresence>
+                {showDiagnosticPopup && (
+                    <DiagnosticPopup
+                        onDismiss={() => {
+                            setShowDiagnosticPopup(false);
+                            localStorage.setItem('diagnostic_dismissed', 'true');
+                        }}
+                        onStart={() => {
+                            // Dismiss logic included so it doesn't show on back nav
+                            localStorage.setItem('diagnostic_dismissed', 'true');
+                            window.location.href = '/dashboard/mock?mode=diagnostic'; // Hard nav to ensure clean state
+                        }}
+                    />
+                )}
+            </AnimatePresence>
+        </div >
+    );
+};

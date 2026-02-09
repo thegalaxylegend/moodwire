@@ -1,0 +1,13 @@
+# Exam Compass API Documentation for LLMs
+
+## Overview
+Exam Compass is an AI-powered exam preparation platform for JEE, NEET, and UPSC.
+
+## Core Routes
+- /: Home Page
+- /login: User Login
+- /dashboard: Private User Dashboard (Auth Required)
+
+## Public Resources
+- /jee-mains: JEE Mains Exam Guide
+- /neet: NEET Exam Guide
