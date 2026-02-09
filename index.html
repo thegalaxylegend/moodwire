@@ -8,6 +8,7 @@
   <link rel="manifest" href="/manifest.json?v=3" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <meta name="theme-color" content="#000000" />
+  <meta name="google-site-verification" content="5028179156f052c6" />
 
   <!-- Preload Critical Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,36 +28,17 @@
     }
   </script>
 
-  <!-- Static SEO Fallback -->
-  <title>Exam Compass | AI-Powered Learning for Class 6-12 & Competitive Exams</title>
-  <meta name="description"
-    content="Personalized AI learning for Class 6-12, JEE, NEET, and UPSC. Smart study plans, rigorous mock tests, and real-time rank prediction for Indian students.">
-  <link rel="canonical" href="https://examcompass.web.app/">
-
-  <!-- Open Graph Fallback -->
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Exam Compass | AI-Powered Prep">
-  <meta property="og:description" content="AI-driven roadmap to your dream college.">
-  <meta property="og:image" content="https://examcompass.web.app/og-image.png">
-  <meta property="og:url" content="https://examcompass.web.app/">
-
-  <!-- Twitter Fallback -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Exam Compass | AI-Powered Prep">
-  <meta name="twitter:description" content="AI-driven roadmap to your dream college.">
-  <meta name="twitter:image" content="https://examcompass.web.app/og-image.png">
+  <!-- Static SEO Fallback (Overwritten by SSG) -->
+  <!--app-head-->
 
   <!-- Google Tag (gtag.js) - Hardcoded for 100% Persistence -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-7MWNJDZ5D0"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
-    window.gtag = gtag; // Explicit global assignment
+    window.gtag = gtag;
     gtag('js', new Date());
-    gtag('config', 'G-7MWNJDZ5D0', {
-      'debug_mode': false,
-      'send_page_view': false // We handle this manually in RouteTracker to update titles correctly
-    });
+    gtag('config', 'G-7MWNJDZ5D0');
   </script>
 
   <!-- Fonts: Inter & Outfit with display=swap for LCP -->
@@ -78,7 +60,7 @@
       }
     })();
   </script>
-  <div id="root"></div>
+  <div id="root"><!--app-html--></div>
   <script type="module" src="/src/main.tsx"></script>
 </body>
 

@@ -5,7 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/generate-sitemap.js && tsc -b && vite build",
+    "build": "node scripts/validate-seo.js && node scripts/generate-sitemap.js && tsc -b && vite build",
+    "build:ssr": "vite build --ssr src/entry-server.tsx --outDir dist/server",
+    "ssg": "npm run build && npm run build:ssr && node scripts/prerender-all.js",
+    "seo:regen": "node scripts/generate-seo-manifest.js && node scripts/generate-sitemap.js && node scripts/validate-seo.js",
+    "seo:check": "node scripts/validate-seo.js",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -45,6 +49,7 @@
     "@types/node": "^24.10.1",
     "@types/react": "^19.2.5",
     "@types/react-dom": "^19.2.3",
+    "@types/react-router-dom": "^5.3.3",
     "@vitejs/plugin-react": "^5.1.1",
     "autoprefixer": "^10.4.23",
     "eslint": "^9.39.1",
@@ -56,6 +61,7 @@
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.46.4",
     "vite": "^7.2.4",
-    "vite-plugin-pwa": "^1.2.0"
+    "vite-plugin-pwa": "^1.2.0",
+    "vite-ssg": "^28.3.0"
   }
 }

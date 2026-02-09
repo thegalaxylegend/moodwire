@@ -15,13 +15,15 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
+export const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 
-// Enforce local persistence
-setPersistence(auth, browserLocalPersistence).catch((err) => {
-    console.error("Failed to enable persistence:", err);
-});
+// Enforce local persistence (Browser Only)
+if (typeof window !== 'undefined') {
+    setPersistence(auth, browserLocalPersistence).catch((err) => {
+        console.error("Failed to enable persistence:", err);
+    });
+}
 
 export const db = getFirestore(app);
 export const storage = getStorage(app);

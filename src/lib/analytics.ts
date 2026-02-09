@@ -1,4 +1,10 @@
 
+import { getAnalytics, logEvent as firebaseLogEvent, setUserProperties as firebaseSetUserProperties } from "firebase/analytics";
+import { app } from "./firebase";
+
+// Initialize Firebase Analytics
+const analytics = typeof window !== 'undefined' ? getAnalytics(app) : null;
+
 // Declare gtag for TS
 declare global {
     interface Window {
@@ -6,23 +12,54 @@ declare global {
     }
 }
 
-// Measurement ID in index.html is G-7MWNJDZ5D0
-// Measurement ID in index.html is G-7MWNJDZ5D0
+const MEASUREMENT_ID = "G-7MWNJDZ5D0";
+
+/**
+ * Robust Page View Tracking
+ * Uses both global gtag and Firebase SDK for maximum reliability
+ */
 export const logPageView = () => {
-    // Small delay to allow React Helmet to update the document title
+    if (typeof window === 'undefined') return;
+
+    const page = window.location.pathname + window.location.search;
+    const title = document.title;
+
+    // Small delay ensures Meta tags (Helmet) have updated before we track
     setTimeout(() => {
-        const page = window.location.pathname + window.location.search;
+        // 1. Dual-Track via Global gtag (Standard)
         if (window.gtag) {
-            window.gtag('event', 'page_view', {
+            window.gtag('config', MEASUREMENT_ID, {
                 page_path: page,
-                page_title: document.title,
+                page_title: title,
                 page_location: window.location.href
             });
-            console.log(`[Analytics] 📡 Tracking Page View (gtag): ${page} | Title: ${document.title}`);
-        } else {
-            console.warn('[Analytics] gtag not found');
+            console.log(`[Analytics] 📡 SPA Page View tracked: ${page} (${title})`);
         }
-    }, 100);
+
+        // 2. Dual-Track via Firebase SDK (Redundancy)
+        if (analytics) {
+            firebaseLogEvent(analytics, 'page_view', {
+                page_path: page,
+                page_title: title,
+                location: window.location.href
+            });
+        }
+    }, 150);
+};
+
+export const logEvent = (name: string, params?: Record<string, any>) => {
+    if (typeof window === 'undefined') return;
+
+    // 1. Global gtag
+    if (window.gtag) {
+        window.gtag('event', name, params);
+        console.log(`[Analytics] 🔔 Event: ${name}`, params);
+    }
+
+    // 2. Firebase SDK
+    if (analytics) {
+        firebaseLogEvent(analytics, name, params);
+    }
 };
 
 /**
@@ -38,7 +75,7 @@ export const trackQuestionTime = (question_id: string, duration_seconds: number,
 };
 
 /**
- * Track Option Switching behavior (Indicates confusion)
+ * Track Option Switching behavior
  */
 export const trackOptionSwitch = (question_id: string, from_option: string, to_option: string) => {
     logEvent('option_switch', {
@@ -47,13 +84,6 @@ export const trackOptionSwitch = (question_id: string, from_option: string, to_o
         to_option,
         timestamp: new Date().toISOString()
     });
-};
-
-export const logEvent = (name: string, params?: Record<string, any>) => {
-    if (window.gtag) {
-        window.gtag('event', name, params);
-        console.log(`[Analytics] 🔔 Tracking Event: ${name}`, params);
-    }
 };
 
 /**
@@ -80,32 +110,42 @@ export const trackLectureView = (topic: string, duration_seconds: number) => {
 };
 
 /**
- * Set User Properties (for cross-report analysis)
+ * Set User Properties
  */
 export const setUserProperties = (properties: { user_class?: string, selected_exam?: string, auth_status: string }) => {
+    if (typeof window === 'undefined') return;
+
+    // 1. gtag
     if (window.gtag) {
         window.gtag('set', 'user_properties', properties);
-        console.log('[Analytics] 👤 User Properties Sync:', properties);
+        console.log('[Analytics] 👤 User Properties:', properties);
+    }
+
+    // 2. Firebase SDK
+    if (analytics) {
+        firebaseSetUserProperties(analytics, properties);
     }
 };
 
 /**
- * Self-Fixing Error Tracking (Glitch Detection)
+ * Error Tracking (Glitch Detection)
  */
 export const trackGlitch = (error: string, component?: string) => {
-    logEvent('glitch_detected', {
-        error_message: error,
+    logEvent('exception', {
+        description: error,
+        fatal: false,
         component_name: component,
         url: window.location.href
     });
 };
+
 /**
- * Track SEO Web Vitals (LCP, FID, CLS)
+ * Vital SEO Monitoring
  */
 export const trackWebVitals = () => {
     if (typeof window === 'undefined') return;
 
-    // 1. Largest Contentful Paint (LCP)
+    // LCP
     new PerformanceObserver((entryList) => {
         for (const entry of entryList.getEntries()) {
             logEvent('web_vitals', {
@@ -116,7 +156,7 @@ export const trackWebVitals = () => {
         }
     }).observe({ type: 'largest-contentful-paint', buffered: true });
 
-    // 2. Cumulative Layout Shift (CLS)
+    // CLS
     let clsValue = 0;
     new PerformanceObserver((entryList) => {
         for (const entry of entryList.getEntries() as any) {
@@ -131,7 +171,7 @@ export const trackWebVitals = () => {
         });
     }).observe({ type: 'layout-shift', buffered: true });
 
-    // 3. First Input Delay (FID)
+    // FID
     new PerformanceObserver((entryList) => {
         for (const entry of entryList.getEntries() as any) {
             const delay = entry.processingStart - entry.startTime;

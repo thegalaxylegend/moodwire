@@ -64,6 +64,7 @@ interface UserState {
 
 // Helper to synchronously hydrate from localStorage (Optimistic Load)
 const hydrateFromLocal = (): User | null => {
+    if (typeof window === 'undefined') return null;
     try {
         const fixedId = localStorage.getItem('exam_compass_fixed_guest_id');
         if (!fixedId) return null;
@@ -109,7 +110,7 @@ const localUser = hydrateFromLocal();
 export const useUserStore = create<UserState>((set, get) => ({
     user: localUser,
     isAuthenticated: !!localUser,
-    isLoading: true, // Always start as loading to prevent route flicker
+    isLoading: typeof window !== 'undefined', // Start as loading in browser, but false in SSR to allow SEO paint
     isInitialized: false,
 
     initialize: async () => {

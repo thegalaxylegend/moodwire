@@ -1,5 +1,6 @@
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { Suspense, lazy, useEffect, useState, useRef } from 'react';
+import { Loader2 } from 'lucide-react';
 import { useUserStore } from './store/userStore';
 import { RouteTracker } from './components/RouteTracker';
 import { AutoSchema } from './components/seo/AutoSchema';
@@ -8,12 +9,19 @@ import { AppShellSkeleton } from './components/skeletons/AppShellSkeleton';
 // Layouts - Keep synchronous for immediate shell paint
 import { ProtectedLayout } from './layouts/ProtectedLayout';
 import { DashboardLayout } from './layouts/DashboardLayout';
-import { LandingPage } from './pages/LandingPage';
+import { AdminLayout } from './layouts/AdminLayout';
 
-// Lazy load Login and other pages
+// Public Pages - Keep synchronous for SEO & SSG rendering
+import { LandingPage } from './pages/LandingPage';
+import { ExamLanding } from './pages/public/ExamLanding';
+import { SubjectPage } from './pages/public/SubjectPage';
+import { TopicPage } from './pages/public/TopicPage';
+import { QuestionPage } from './pages/public/QuestionPage';
+
+// Auth - Lazy
 const Login = lazy(() => import('./pages/auth/Login').then(module => ({ default: module.Login })));
 
-// Lazy Loaded Routes
+// Dashboard Routes - Lazy (Protected)
 const Overview = lazy(() => import('./pages/dashboard/Overview').then(module => ({ default: module.Overview })));
 const Syllabus = lazy(() => import('./pages/dashboard/Syllabus').then(module => ({ default: module.Syllabus })));
 const Timeline = lazy(() => import('./pages/dashboard/Timeline').then(module => ({ default: module.Timeline })));
@@ -35,34 +43,38 @@ const ActiveTest = lazy(() => import('./pages/dashboard/ActiveTest').then(module
 const SubjectSyllabus = lazy(() => import('./pages/dashboard/SubjectSyllabus').then(module => ({ default: module.SubjectSyllabus })));
 const RankInfo = lazy(() => import('./pages/dashboard/RankInfo').then(module => ({ default: module.RankInfo })));
 
-const ExamLanding = lazy(() => import('./pages/public/ExamLanding').then(module => ({ default: module.ExamLanding })));
-const SubjectPage = lazy(() => import('./pages/public/SubjectPage').then(module => ({ default: module.SubjectPage })));
-const TopicPage = lazy(() => import('./pages/public/TopicPage').then(module => ({ default: module.TopicPage })));
-const QuestionPage = lazy(() => import('./pages/public/QuestionPage').then(module => ({ default: module.QuestionPage })));
-// const NotFound = lazy(() => import('./pages/public/NotFound').then(module => ({ default: module.NotFound })));
-
-// Admin Routes (Lazy)
-import { AdminLayout } from './layouts/AdminLayout';
+// Admin Routes - Lazy
 const QuestionReview = lazy(() => import('./pages/admin/QuestionReview').then(module => ({ default: module.QuestionReview })));
 const SyllabusUpload = lazy(() => import('./pages/admin/SyllabusUpload').then(module => ({ default: module.SyllabusUpload })));
 
+// Components - Lazy
 const Chatbot = lazy(() => import('./components/Chatbot').then(module => ({ default: module.Chatbot })));
-
-import { setUserProperties, trackGlitch, trackWebVitals } from './lib/analytics';
-import { getRankByValue } from './services/gamificationService';
 const LevelUpModal = lazy(() => import('./components/gamification/LevelUpModal').then(module => ({ default: module.LevelUpModal })));
 
-// Helper component to manage floating UI visibility based on route
+// SEO Monitoring
+const trackWebVitals = async () => {
+  const { onCLS, onFID, onLCP, onFCP, onTTFB } = await import('web-vitals');
+  onCLS(console.log);
+  onFID(console.log);
+  onLCP(console.log);
+  onFCP(console.log);
+  onTTFB(console.log);
+};
+
+const setUserProperties = async (props: any) => {
+  // Analytics is client-side only and optional for SSG. Placeholder for now.
+  console.log("Analytics Properties:", props);
+};
+
 const FloatingUI = () => {
-  const { pathname } = useLocation();
-  const { isAuthenticated } = useUserStore();
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => {
+    // Delay chatbot loading to prioritize LCP/FCP
+    const timer = setTimeout(() => setMounted(true), 2000);
+    return () => clearTimeout(timer);
+  }, []);
 
-  // Hide chatbot during active tests or video playback
-  const isExam = ['/dashboard/test-active', '/dashboard/diagnostic', '/dashboard/mock'].includes(pathname);
-  const isLecture = pathname.startsWith('/dashboard/lectures');
-  const shouldHide = isExam || isLecture;
-
-  if (!isAuthenticated || shouldHide) return null;
+  if (!mounted) return null;
 
   return (
     <Suspense fallback={null}>
@@ -73,7 +85,7 @@ const FloatingUI = () => {
 
 function App() {
   console.log("🚀 [App] Rendering...");
-  const { user, initialize } = useUserStore();
+  const { user, initialize, isLoading, isAuthenticated } = useUserStore();
   const [showLevelUp, setShowLevelUp] = useState(false);
   const [levelUpXp, setLevelUpXp] = useState(0);
   const prevRankNameRef = useRef<string | null>(null);
@@ -83,74 +95,62 @@ function App() {
     trackWebVitals(); // Start SEO Health Monitoring
 
     // Capture registration intent from URL
-    const searchParams = new URLSearchParams(window.location.search);
-    const intentClass = searchParams.get('class');
-    const intentExam = searchParams.get('exam');
-    if (intentClass || intentExam) {
-      const intent = {
-        class: intentClass,
-        exam: intentExam,
-        timestamp: Date.now()
-      };
-      sessionStorage.setItem('exam_compass_intent', JSON.stringify(intent));
-      console.log('🎯 [App] Captured User Intent:', intent);
+    if (typeof window !== 'undefined') {
+      const searchParams = new URLSearchParams(window.location.search);
+      const intentClass = searchParams.get('class');
+      const intentExam = searchParams.get('exam');
+      if (intentClass || intentExam) {
+        const intent = {
+          class: intentClass,
+          exam: intentExam,
+          timestamp: Date.now()
+        };
+        sessionStorage.setItem('exam_compass_intent', JSON.stringify(intent));
+      }
+
+      // Capture referral code from URL
+      const refCode = searchParams.get('ref');
+      if (refCode) {
+        sessionStorage.setItem('referral_code', refCode);
+        console.log("🎁 [Referral] Stored referral code:", refCode);
+      }
     }
-
-    // 1. Global Glitch Monitor (Unstoppable Error Tracking)
-    const handleError = (event: ErrorEvent) => {
-      trackGlitch(event.message, 'Global/App');
-    };
-    window.addEventListener('error', handleError);
-
-    // 2. Global Promise Rejection Monitor (Async Failures)
-    const handleRejection = (event: PromiseRejectionEvent) => {
-      // Extract useful message from reason
-      const reason = event.reason;
-      const message = reason instanceof Error
-        ? reason.message
-        : typeof reason === 'string'
-          ? reason
-          : JSON.stringify(reason);
-
-      trackGlitch(`Unhandled Rejection: ${message}`, 'Global/Async');
-    };
-    window.addEventListener('unhandledrejection', handleRejection);
-
-    return () => {
-      window.removeEventListener('error', handleError);
-      window.removeEventListener('unhandledrejection', handleRejection);
-    };
   }, []);
 
-  // 2. Sync User Properties whenever user profile changes
+  // Level Up Detection Logic
   useEffect(() => {
-    if (user) {
-      setUserProperties({
-        user_class: user.userClass || 'unknown',
-        selected_exam: user.targetExam || 'General',
-        auth_status: 'authenticated'
-      });
+    const checkLevelUp = async () => {
+      if (!user) return;
 
-      // 3. Level Up Detection
-      const xp = Number(user.xp || 0);
-      const currentRank = getRankByValue(xp);
+      const { getRankByValue } = await import('./services/gamificationService');
+      const currentRank = getRankByValue(user.xp);
 
       if (prevRankNameRef.current && prevRankNameRef.current !== currentRank.name) {
-        // Rank changed!
-        setLevelUpXp(xp);
+        console.log(`🎉 [LevelUp] User advanced to ${currentRank.name}!`);
+        setLevelUpXp(user.xp);
         setShowLevelUp(true);
       }
+
       prevRankNameRef.current = currentRank.name;
-    } else {
+
       setUserProperties({
-        auth_status: 'anonymous'
+        target_exam: user.targetExam,
+        user_class: user.userClass,
+        xp_level: currentRank.name,
+        auth_status: 'authenticated'
       });
-      prevRankNameRef.current = null;
-    }
+    };
+
+    checkLevelUp();
   }, [user?.xp, user?.id]);
 
+  // Loading State - Allow SEO crawl (isLoading is false in SSR)
+  if (isLoading || (isAuthenticated && !user)) {
+    return <div className="min-h-screen flex items-center justify-center bg-black"><Loader2 className="animate-spin text-purple-500" size={32} /></div>;
+  }
+
   return (
-    <BrowserRouter>
+    <>
       <RouteTracker />
       <AutoSchema />
       <Suspense fallback={<AppShellSkeleton />}>
@@ -158,7 +158,7 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/login" element={<Login />} />
 
-          {/* SEO Public Routes */}
+          {/* SEO Public Routes - Synchronous for SSG Pre-rendering */}
           <Route path="/:exam" element={<ExamLanding />} />
           <Route path="/:exam/:subject" element={<SubjectPage />} />
           <Route path="/:exam/:subject/:topic" element={<TopicPage />} />
@@ -212,7 +212,7 @@ function App() {
           />
         </Suspense>
       )}
-    </BrowserRouter>
+    </>
   );
 }
 
