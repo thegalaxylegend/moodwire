@@ -81,31 +81,9 @@ export const TopicPage = () => {
                             Start Practice Test <ArrowRight size={20} />
                         </Link>
                     </div>
-
-                    <div className="glass-card p-6 bg-gradient-to-br from-white/10 to-transparent border border-white/10 rounded-2xl relative overflow-hidden">
-                        <div className="absolute top-0 right-0 p-4 opacity-10">
-                            <ArrowRight size={200} />
-                        </div>
-                        <h3 className="font-bold text-2xl mb-6">Sample Question</h3>
-
-                        <div className="space-y-4">
-                            <p className="text-lg font-serif">
-                                Q. A particle moves in a circle of radius R with a constant speed v. The work done by the centripetal force in one complete revolution is:
-                            </p>
-                            <div className="grid grid-cols-1 gap-3">
-                                <div className="p-3 bg-black/40 rounded border border-white/10 cursor-not-allowed">A. 2πRmv²</div>
-                                <div className="p-3 bg-black/40 rounded border border-white/10 cursor-not-allowed">B. mv²/R</div>
-                                <div className="p-3 bg-green-500/20 border border-green-500 rounded font-bold">C. Zero</div>
-                                <div className="p-3 bg-black/40 rounded border border-white/10 cursor-not-allowed">D. mv²R</div>
-                            </div>
-                        </div>
-
-                        <div className="mt-6 pt-4 border-t border-white/10 text-sm text-gray-400">
-                            <span className="font-bold text-green-400">Correct Answer: C</span>
-                            <p className="mt-1">Work done = Force × Displacement. Since centripetal force is always perpendicular to displacement, Work = 0.</p>
-                        </div>
-                    </div>
                 </div>
+
+                {/* Duplicate Content Removed - Sample Question Block Deleted */}
             </section>
         </div>
     );
