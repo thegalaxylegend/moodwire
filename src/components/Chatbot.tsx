@@ -192,17 +192,20 @@ export const Chatbot = () => {
         e.stopPropagation();
         if (isHolding) return;
 
-        console.log("👇 PTT Touch Start - Eager Listen");
+        console.log("👇 PTT Touch Start - Delayed Listen");
         pttStartTimeRef.current = Date.now();
         wasHoldingRef.current = false; // Reset
 
-        // EAGER LISTEN: Start mic immediately, don't wait for timer
-        shouldListenRef.current = true;
-        startListening(true); // Using continuous=true for PTT allows better tail capture? simplified logic.
+        // DELAYED LISTEN: Start mic ONLY after timer confirms hold
+        // shouldListenRef.current = true; 
+        // startListening(true); 
 
-        // Start visuals timer (optional, just for UI feedback)
+        // Start visuals and functional timer
         pttTimerRef.current = setTimeout(() => {
+            console.log("🎙️ PTT Hold Threshold Reached - Starting Mic");
             setIsHolding(true);
+            shouldListenRef.current = true;
+            startListening(true);
             window.speechSynthesis.cancel();
             setIsSpeaking(false);
         }, 300);

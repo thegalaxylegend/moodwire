@@ -1,6 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
 import { Suspense, lazy, useEffect, useState, useRef } from 'react';
-import { Loader2 } from 'lucide-react';
 import { useUserStore } from './store/userStore';
 import { RouteTracker } from './components/RouteTracker';
 import { AutoSchema } from './components/seo/AutoSchema';
@@ -85,7 +84,7 @@ const FloatingUI = () => {
 
 function App() {
   console.log("🚀 [App] Rendering...");
-  const { user, initialize, isLoading, isAuthenticated } = useUserStore();
+  const { user, initialize } = useUserStore();
   const [showLevelUp, setShowLevelUp] = useState(false);
   const [levelUpXp, setLevelUpXp] = useState(0);
   const prevRankNameRef = useRef<string | null>(null);
@@ -143,11 +142,6 @@ function App() {
 
     checkLevelUp();
   }, [user?.xp, user?.id]);
-
-  // Loading State - Allow SEO crawl (isLoading is false in SSR)
-  if (isLoading || (isAuthenticated && !user)) {
-    return <div className="min-h-screen flex items-center justify-center bg-black"><Loader2 className="animate-spin text-purple-500" size={32} /></div>;
-  }
 
   return (
     <>
