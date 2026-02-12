@@ -1,4 +1,3 @@
-
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -6,8 +5,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const PROJECT_ROOT = path.resolve(__dirname, '..');
-const PUBLIC_DIR = path.join(PROJECT_ROOT, 'public');
+const PUBLIC_DIR = path.join(__dirname, '../public');
 const SITEMAP_PATH = path.join(PUBLIC_DIR, 'sitemap.xml');
 const ROBOTS_PATH = path.join(PUBLIC_DIR, 'robots.txt');
 const MANIFEST_PATH = path.join(PUBLIC_DIR, 'seo-manifest.json');
@@ -15,60 +13,62 @@ const MANIFEST_PATH = path.join(PUBLIC_DIR, 'seo-manifest.json');
 const BASE_URL = 'https://examcompass.web.app';
 
 async function generateSitemap() {
-    console.log('🚀 Starting Automated Sitemap Generation from Manifest...');
+    console.log('🚀 Generating Sitemap from Manifest...');
 
     try {
         if (!fs.existsSync(MANIFEST_PATH)) {
-            console.error('❌ SEO Manifest not found. Run generate-seo-manifest.js first.');
-            return;
+            console.error('❌ Manifest not found.');
+            process.exit(1);
         }
 
         const manifest = JSON.parse(fs.readFileSync(MANIFEST_PATH, 'utf-8'));
-        const dynamicUrls = Object.keys(manifest);
+        const urls = Object.keys(manifest);
 
-        let urls = [];
+        if (urls.length === 0) {
+            throw new Error("Manifest is empty.");
+        }
 
-        // 1. Static Core Routes
-        urls.push({ loc: '/', priority: 1.0, changefreq: 'daily' });
-        urls.push({ loc: '/login', priority: 0.8, changefreq: 'monthly' });
-        urls.push({ loc: '/signup', priority: 0.8, changefreq: 'monthly' });
-
-        // 2. Add all routes from manifest
-        dynamicUrls.forEach(url => {
+        const sitemapEntries = urls.map(url => {
             const meta = manifest[url];
-            urls.push({
-                loc: url,
-                priority: meta.type === 'hub' ? 0.9 : 0.7,
-                changefreq: 'weekly'
-            });
+            let priority = meta.priority || 0.5;
+            let changefreq = 'monthly';
+
+            // Explicit logic check
+            if (url === '/') { priority = 1.0; changefreq = 'daily'; }
+            else if (meta.type === 'exam') { priority = 1.0; changefreq = 'daily'; }
+            else if (meta.type === 'hub') { priority = 0.8; changefreq = 'weekly'; }
+            else if (meta.type === 'topic') { priority = 0.7; changefreq = 'weekly'; }
+            else if (url.includes('/q/')) { priority = 0.5; changefreq = 'monthly'; }
+
+            return `
+  <url>
+    <loc>${BASE_URL}${url}</loc>
+    <lastmod>${new Date().toISOString()}</lastmod>
+    <changefreq>${changefreq}</changefreq>
+    <priority>${priority}</priority>
+  </url>`;
         });
 
-        // Generate XML
         const sitemapContent = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${urls.map(u => `  <url>
-    <loc>${BASE_URL}${u.loc}</loc>
-    <changefreq>${u.changefreq}</changefreq>
-    <priority>${u.priority}</priority>
-  </url>`).join('\n')}
+${sitemapEntries.join('')}
 </urlset>`;
 
         fs.writeFileSync(SITEMAP_PATH, sitemapContent);
-        console.log(`✅ Sitemap generated at ${SITEMAP_PATH} with ${urls.length} URLs`);
+        console.log(`✅ Sitemap with ${sitemapEntries.length} URLs written.`);
 
-        // Generate Robots.txt
+        // Robots validation
         const robotsContent = `User-agent: *
 Allow: /
 Disallow: /dashboard/
 Disallow: /api/
-
 Sitemap: ${BASE_URL}/sitemap.xml
 `;
         fs.writeFileSync(ROBOTS_PATH, robotsContent);
-        console.log(`✅ Robots.txt generated at ${ROBOTS_PATH}`);
 
     } catch (e) {
-        console.error("❌ Error generating sitemap:", e.message);
+        console.error("❌ Sitemap Generation Failed:", e.message);
+        process.exit(1);
     }
 }
 

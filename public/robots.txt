@@ -2,5 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /dashboard/
 Disallow: /api/
-
 Sitemap: https://examcompass.web.app/sitemap.xml

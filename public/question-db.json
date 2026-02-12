@@ -1,0 +1,290 @@
+{
+  "/jee-mains/q/a-particle-moves-along-a-straight-line-with-a-velocity-v-t-101": {
+    "id": "101",
+    "slug": "a-particle-moves-along-a-straight-line-with-a-velocity-v-t-101",
+    "text": "A particle moves along a straight line with a velocity v = t^2 - 4. Find the distance traveled between t=0 and t=4s.",
+    "options": [
+      "8/3 m",
+      "16/3 m",
+      "32/3 m",
+      "10 m"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Distance is integral of |v|dt. Velocity is negative from 0 to 2, and positive from 2 to 4. Integrate |t^2 - 4| in two parts.",
+    "subject": "Physics",
+    "topic": "",
+    "sourceYear": ""
+  },
+  "/jee-mains/q/which-of-the-following-compounds-exhibits-both-frenkel-and-s-102": {
+    "id": "102",
+    "slug": "which-of-the-following-compounds-exhibits-both-frenkel-and-s-102",
+    "text": "Which of the following compounds exhibits both Frenkel and Schottky defects?",
+    "options": [
+      "AgCl",
+      "AgBr",
+      "NaCl",
+      "KCl"
+    ],
+    "correctAnswer": 1,
+    "explanation": "AgBr (Silver Bromide) is the unique compound that shows both types of point defects in solids.",
+    "subject": "Chemistry",
+    "topic": "",
+    "sourceYear": ""
+  },
+  "/jee-mains/q/what-is-the-dimensional-formula-of-magnetic-flux-104": {
+    "id": "104",
+    "slug": "what-is-the-dimensional-formula-of-magnetic-flux-104",
+    "text": "What is the dimensional formula of Magnetic Flux?",
+    "options": [
+      "[ML^2T^-2A^-1]",
+      "[MLT^-2A^-1]",
+      "[ML^2T^-1A^-2]",
+      "[ML^2T^-2A]"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Flux = B * Area. F = qvB => B = F/qv = [MLT^-2]/[AT][LT^-1] = [MT^-2A^-1]. Flux = [MT^-2A^-1][L^2] = [ML^2T^-2A^-1].",
+    "subject": "Physics",
+    "topic": "",
+    "sourceYear": ""
+  },
+  "/jee-advanced/q/a-particle-moves-along-a-straight-line-with-a-velocity-v-t-101": {
+    "id": "101",
+    "slug": "a-particle-moves-along-a-straight-line-with-a-velocity-v-t-101",
+    "text": "A particle moves along a straight line with a velocity v = t^2 - 4. Find the distance traveled between t=0 and t=4s.",
+    "options": [
+      "8/3 m",
+      "16/3 m",
+      "32/3 m",
+      "10 m"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Distance is integral of |v|dt. Velocity is negative from 0 to 2, and positive from 2 to 4. Integrate |t^2 - 4| in two parts.",
+    "subject": "Physics",
+    "topic": "",
+    "sourceYear": ""
+  },
+  "/jee-advanced/q/which-of-the-following-compounds-exhibits-both-frenkel-and-s-102": {
+    "id": "102",
+    "slug": "which-of-the-following-compounds-exhibits-both-frenkel-and-s-102",
+    "text": "Which of the following compounds exhibits both Frenkel and Schottky defects?",
+    "options": [
+      "AgCl",
+      "AgBr",
+      "NaCl",
+      "KCl"
+    ],
+    "correctAnswer": 1,
+    "explanation": "AgBr (Silver Bromide) is the unique compound that shows both types of point defects in solids.",
+    "subject": "Chemistry",
+    "topic": "",
+    "sourceYear": ""
+  },
+  "/jee-advanced/q/what-is-the-dimensional-formula-of-magnetic-flux-104": {
+    "id": "104",
+    "slug": "what-is-the-dimensional-formula-of-magnetic-flux-104",
+    "text": "What is the dimensional formula of Magnetic Flux?",
+    "options": [
+      "[ML^2T^-2A^-1]",
+      "[MLT^-2A^-1]",
+      "[ML^2T^-1A^-2]",
+      "[ML^2T^-2A]"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Flux = B * Area. F = qvB => B = F/qv = [MLT^-2]/[AT][LT^-1] = [MT^-2A^-1]. Flux = [MT^-2A^-1][L^2] = [ML^2T^-2A^-1].",
+    "subject": "Physics",
+    "topic": "",
+    "sourceYear": ""
+  },
+  "/neet/q/a-particle-moves-along-a-straight-line-with-a-velocity-v-t-101": {
+    "id": "101",
+    "slug": "a-particle-moves-along-a-straight-line-with-a-velocity-v-t-101",
+    "text": "A particle moves along a straight line with a velocity v = t^2 - 4. Find the distance traveled between t=0 and t=4s.",
+    "options": [
+      "8/3 m",
+      "16/3 m",
+      "32/3 m",
+      "10 m"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Distance is integral of |v|dt. Velocity is negative from 0 to 2, and positive from 2 to 4. Integrate |t^2 - 4| in two parts.",
+    "subject": "Physics",
+    "topic": "",
+    "sourceYear": ""
+  },
+  "/neet/q/which-of-the-following-compounds-exhibits-both-frenkel-and-s-102": {
+    "id": "102",
+    "slug": "which-of-the-following-compounds-exhibits-both-frenkel-and-s-102",
+    "text": "Which of the following compounds exhibits both Frenkel and Schottky defects?",
+    "options": [
+      "AgCl",
+      "AgBr",
+      "NaCl",
+      "KCl"
+    ],
+    "correctAnswer": 1,
+    "explanation": "AgBr (Silver Bromide) is the unique compound that shows both types of point defects in solids.",
+    "subject": "Chemistry",
+    "topic": "",
+    "sourceYear": ""
+  },
+  "/neet/q/what-is-the-dimensional-formula-of-magnetic-flux-104": {
+    "id": "104",
+    "slug": "what-is-the-dimensional-formula-of-magnetic-flux-104",
+    "text": "What is the dimensional formula of Magnetic Flux?",
+    "options": [
+      "[ML^2T^-2A^-1]",
+      "[MLT^-2A^-1]",
+      "[ML^2T^-1A^-2]",
+      "[ML^2T^-2A]"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Flux = B * Area. F = qvB => B = F/qv = [MLT^-2]/[AT][LT^-1] = [MT^-2A^-1]. Flux = [MT^-2A^-1][L^2] = [ML^2T^-2A^-1].",
+    "subject": "Physics",
+    "topic": "",
+    "sourceYear": ""
+  },
+  "/bitsat/q/a-particle-moves-along-a-straight-line-with-a-velocity-v-t-101": {
+    "id": "101",
+    "slug": "a-particle-moves-along-a-straight-line-with-a-velocity-v-t-101",
+    "text": "A particle moves along a straight line with a velocity v = t^2 - 4. Find the distance traveled between t=0 and t=4s.",
+    "options": [
+      "8/3 m",
+      "16/3 m",
+      "32/3 m",
+      "10 m"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Distance is integral of |v|dt. Velocity is negative from 0 to 2, and positive from 2 to 4. Integrate |t^2 - 4| in two parts.",
+    "subject": "Physics",
+    "topic": "",
+    "sourceYear": ""
+  },
+  "/bitsat/q/which-of-the-following-compounds-exhibits-both-frenkel-and-s-102": {
+    "id": "102",
+    "slug": "which-of-the-following-compounds-exhibits-both-frenkel-and-s-102",
+    "text": "Which of the following compounds exhibits both Frenkel and Schottky defects?",
+    "options": [
+      "AgCl",
+      "AgBr",
+      "NaCl",
+      "KCl"
+    ],
+    "correctAnswer": 1,
+    "explanation": "AgBr (Silver Bromide) is the unique compound that shows both types of point defects in solids.",
+    "subject": "Chemistry",
+    "topic": "",
+    "sourceYear": ""
+  },
+  "/bitsat/q/what-is-the-dimensional-formula-of-magnetic-flux-104": {
+    "id": "104",
+    "slug": "what-is-the-dimensional-formula-of-magnetic-flux-104",
+    "text": "What is the dimensional formula of Magnetic Flux?",
+    "options": [
+      "[ML^2T^-2A^-1]",
+      "[MLT^-2A^-1]",
+      "[ML^2T^-1A^-2]",
+      "[ML^2T^-2A]"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Flux = B * Area. F = qvB => B = F/qv = [MLT^-2]/[AT][LT^-1] = [MT^-2A^-1]. Flux = [MT^-2A^-1][L^2] = [ML^2T^-2A^-1].",
+    "subject": "Physics",
+    "topic": "",
+    "sourceYear": ""
+  },
+  "/class-12/q/a-particle-moves-along-a-straight-line-with-a-velocity-v-t-101": {
+    "id": "101",
+    "slug": "a-particle-moves-along-a-straight-line-with-a-velocity-v-t-101",
+    "text": "A particle moves along a straight line with a velocity v = t^2 - 4. Find the distance traveled between t=0 and t=4s.",
+    "options": [
+      "8/3 m",
+      "16/3 m",
+      "32/3 m",
+      "10 m"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Distance is integral of |v|dt. Velocity is negative from 0 to 2, and positive from 2 to 4. Integrate |t^2 - 4| in two parts.",
+    "subject": "Physics",
+    "topic": "",
+    "sourceYear": ""
+  },
+  "/class-12/q/which-of-the-following-compounds-exhibits-both-frenkel-and-s-102": {
+    "id": "102",
+    "slug": "which-of-the-following-compounds-exhibits-both-frenkel-and-s-102",
+    "text": "Which of the following compounds exhibits both Frenkel and Schottky defects?",
+    "options": [
+      "AgCl",
+      "AgBr",
+      "NaCl",
+      "KCl"
+    ],
+    "correctAnswer": 1,
+    "explanation": "AgBr (Silver Bromide) is the unique compound that shows both types of point defects in solids.",
+    "subject": "Chemistry",
+    "topic": "",
+    "sourceYear": ""
+  },
+  "/class-12/q/what-is-the-dimensional-formula-of-magnetic-flux-104": {
+    "id": "104",
+    "slug": "what-is-the-dimensional-formula-of-magnetic-flux-104",
+    "text": "What is the dimensional formula of Magnetic Flux?",
+    "options": [
+      "[ML^2T^-2A^-1]",
+      "[MLT^-2A^-1]",
+      "[ML^2T^-1A^-2]",
+      "[ML^2T^-2A]"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Flux = B * Area. F = qvB => B = F/qv = [MLT^-2]/[AT][LT^-1] = [MT^-2A^-1]. Flux = [MT^-2A^-1][L^2] = [ML^2T^-2A^-1].",
+    "subject": "Physics",
+    "topic": "",
+    "sourceYear": ""
+  },
+  "/class-11/q/a-particle-moves-along-a-straight-line-with-a-velocity-v-t-101": {
+    "id": "101",
+    "slug": "a-particle-moves-along-a-straight-line-with-a-velocity-v-t-101",
+    "text": "A particle moves along a straight line with a velocity v = t^2 - 4. Find the distance traveled between t=0 and t=4s.",
+    "options": [
+      "8/3 m",
+      "16/3 m",
+      "32/3 m",
+      "10 m"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Distance is integral of |v|dt. Velocity is negative from 0 to 2, and positive from 2 to 4. Integrate |t^2 - 4| in two parts.",
+    "subject": "Physics",
+    "topic": "",
+    "sourceYear": ""
+  },
+  "/class-11/q/which-of-the-following-compounds-exhibits-both-frenkel-and-s-102": {
+    "id": "102",
+    "slug": "which-of-the-following-compounds-exhibits-both-frenkel-and-s-102",
+    "text": "Which of the following compounds exhibits both Frenkel and Schottky defects?",
+    "options": [
+      "AgCl",
+      "AgBr",
+      "NaCl",
+      "KCl"
+    ],
+    "correctAnswer": 1,
+    "explanation": "AgBr (Silver Bromide) is the unique compound that shows both types of point defects in solids.",
+    "subject": "Chemistry",
+    "topic": "",
+    "sourceYear": ""
+  },
+  "/class-11/q/what-is-the-dimensional-formula-of-magnetic-flux-104": {
+    "id": "104",
+    "slug": "what-is-the-dimensional-formula-of-magnetic-flux-104",
+    "text": "What is the dimensional formula of Magnetic Flux?",
+    "options": [
+      "[ML^2T^-2A^-1]",
+      "[MLT^-2A^-1]",
+      "[ML^2T^-1A^-2]",
+      "[ML^2T^-2A]"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Flux = B * Area. F = qvB => B = F/qv = [MLT^-2]/[AT][LT^-1] = [MT^-2A^-1]. Flux = [MT^-2A^-1][L^2] = [ML^2T^-2A^-1].",
+    "subject": "Physics",
+    "topic": "",
+    "sourceYear": ""
+  }
+}

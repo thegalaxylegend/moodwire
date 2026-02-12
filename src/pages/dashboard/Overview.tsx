@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useUserStore } from '../../store/userStore';
 import { Link, useNavigate } from 'react-router-dom';
-import { Loader2, TrendingUp, RefreshCw, Flame, Star, Play, ChevronRight, BookOpen } from 'lucide-react';
+import { TrendingUp, RefreshCw, Flame, Play, ChevronRight } from 'lucide-react';
 
 import { getWeakTopics, getStrongTopics, type TopicStat } from '../../services/topicStrengthService';
 import { DailyChallenge } from '../../components/DailyChallenge';
@@ -11,7 +11,6 @@ import { XPProgress } from '../../components/gamification/XPProgress';
 
 import { ProficiencyMap } from '../../components/dashboard/ProficiencyMap';
 import { motion, AnimatePresence } from 'framer-motion';
-import { AuthGate } from '../../components/auth/AuthGate';
 import { DailyStudyGoalIcon } from '../../components/dashboard/DailyStudyGoalIcon';
 
 const DiagnosticPopup = ({ onDismiss, onStart }: { onDismiss: () => void; onStart: () => void }) => {
@@ -449,19 +448,8 @@ export const Overview = () => {
         </header>
     );
 
-    if (loading) {
-        return (
-            <div className="space-y-8">
-                {header}
-                <div className="flex h-[40vh] items-center justify-center">
-                    <Loader2 className="animate-spin text-primary" size={48} />
-                </div>
-            </div>
-        );
-    }
-
     return (
-        <div className="space-y-8">
+        <div className="space-y-8 min-h-screen">
             {header}
 
             <div className="animate-fade-in-up space-y-8">
@@ -470,43 +458,51 @@ export const Overview = () => {
                         <DailyChallenge />
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <div className="glass-card oxygen-card p-6 space-y-2">
+                            {/* Coverage Card */}
+                            <div className="glass-card oxygen-card p-6 space-y-2 min-h-[160px]">
                                 <h3 className="text-lg font-semibold text-text-muted">Syllabus Coverage</h3>
-                                <p className="text-4xl font-bold text-accent">{progress}%</p>
-                                <div className="w-full bg-surface h-1.5 rounded-full mt-2">
-                                    <div className="bg-accent h-full rounded-full" style={{ width: `${progress}%` }}></div>
-                                </div>
-                                <div className="flex justify-between items-center">
-                                    <p className="text-xs text-text-muted">{attempts} mocks completed</p>
-                                    {!user?.isGuest && (
-                                        <button
-                                            onClick={handleSync}
-                                            disabled={isSyncing}
-                                            title="Sync old test data to leaderboard"
-                                            className="p-1 px-2 text-[10px] bg-primary/10 hover:bg-primary/20 text-primary border border-primary/20 rounded-md transition-all flex items-center gap-1"
-                                        >
-                                            <RefreshCw size={10} className={isSyncing ? 'animate-spin' : ''} />
-                                            {isSyncing ? 'Syncing...' : 'Sync Data'}
-                                        </button>
-                                    )}
-                                </div>
+                                {loading ? <div className="h-10 w-24 bg-surface animate-pulse rounded-lg" /> : (
+                                    <>
+                                        <p className="text-4xl font-bold text-accent">{progress}%</p>
+                                        <div className="w-full bg-surface h-1.5 rounded-full mt-2">
+                                            <div className="bg-accent h-full rounded-full" style={{ width: `${progress}%` }}></div>
+                                        </div>
+                                        <div className="flex justify-between items-center">
+                                            <p className="text-xs text-text-muted">{attempts} mocks completed</p>
+                                            {!user?.isGuest && (
+                                                <button
+                                                    onClick={handleSync}
+                                                    disabled={isSyncing}
+                                                    title="Sync old test data to leaderboard"
+                                                    className="p-1 px-2 text-[10px] bg-primary/10 hover:bg-primary/20 text-primary border border-primary/20 rounded-md transition-all flex items-center gap-1"
+                                                >
+                                                    <RefreshCw size={10} className={isSyncing ? 'animate-spin' : ''} />
+                                                    {isSyncing ? 'Syncing...' : 'Sync Data'}
+                                                </button>
+                                            )}
+                                        </div>
+                                    </>
+                                )}
                             </div>
 
-                            {!isJunior && (
-                                <div className="glass-card oxygen-card p-6 space-y-2">
-                                    <h3 className="text-lg font-semibold text-text-muted">Days Left</h3>
-                                    <p className="text-4xl font-bold text-text-main">{daysLeft}</p>
-                                    <p className="text-xs text-text-muted">Until Jan 24, {displayUser?.targetYear || '2026'}</p>
-                                </div>
-                            )}
-
-                            {isJunior && (
-                                <div className="glass-card oxygen-card p-6 space-y-2 flex flex-col justify-center">
-                                    <h3 className="text-lg font-semibold text-text-muted">School Year</h3>
-                                    <p className="text-3xl font-bold text-text-main">{user?.userClass}</p>
-                                    <p className="text-xs text-text-muted">Consistently study your subjects!</p>
-                                </div>
-                            )}
+                            {/* Days Left / Class Card */}
+                            <div className="glass-card oxygen-card p-6 space-y-2 min-h-[160px] flex flex-col justify-center">
+                                {loading ? <div className="h-10 w-32 bg-surface animate-pulse rounded-lg" /> : (
+                                    isJunior ? (
+                                        <>
+                                            <h3 className="text-lg font-semibold text-text-muted">School Year</h3>
+                                            <p className="text-3xl font-bold text-text-main">{displayUser?.userClass}</p>
+                                            <p className="text-xs text-text-muted">Consistently study your subjects!</p>
+                                        </>
+                                    ) : (
+                                        <>
+                                            <h3 className="text-lg font-semibold text-text-muted">Days Left</h3>
+                                            <p className="text-4xl font-bold text-text-main">{daysLeft}</p>
+                                            <p className="text-xs text-text-muted">Until Jan 24, {displayUser?.targetYear || '2026'}</p>
+                                        </>
+                                    )
+                                )}
+                            </div>
                         </div>
                     </div>
                     <div>
@@ -514,231 +510,107 @@ export const Overview = () => {
                     </div>
                 </div>
 
-                {/* Skill Profile (Exa V2) */}
-                {displayUser?.skills && (
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                        {(['physics', 'chemistry', 'math'] as const).map(subject => {
-                            const score = displayUser.skills![subject] || 0.5;
-                            const percentage = Math.round(score * 100);
-                            let color = 'text-yellow-500';
-                            let bg = 'bg-yellow-500/10';
-                            let border = 'border-yellow-500/20';
-                            let label = 'Average';
+                {/* Skill Profile */}
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    {(['physics', 'chemistry', 'math'] as const).map(subject => {
+                        const score = displayUser.skills?.[subject] || 0.5;
+                        const percentage = Math.round(score * 100);
+                        let color = 'text-yellow-500';
+                        let bg = 'bg-yellow-500/10';
+                        let border = 'border-yellow-500/20';
+                        let label = 'Average';
 
-                            if (score >= 0.7) {
-                                color = 'text-green-500';
-                                bg = 'bg-green-500/10';
-                                border = 'border-green-500/20';
-                                label = 'Strong';
-                            } else if (score <= 0.4) {
-                                color = 'text-red-500';
-                                bg = 'bg-red-500/10';
-                                border = 'border-red-500/20';
-                                label = 'Weak';
-                            }
+                        if (score >= 0.7) {
+                            color = 'text-green-500'; bg = 'bg-green-500/10'; border = 'border-green-500/20'; label = 'Strong';
+                        } else if (score <= 0.4) {
+                            color = 'text-red-500'; bg = 'bg-red-500/10'; border = 'border-red-500/20'; label = 'Weak';
+                        }
 
-                            return (
-                                <div key={subject} className={`glass-card oxygen-card p-4 border ${border} ${bg} flex items-center justify-between`}>
-                                    <div>
-                                        <h4 className="capitalize font-bold text-text-main">{subject}</h4>
-                                        <p className={`text-xs uppercase font-bold tracking-wider ${color}`}>{label}</p>
-                                    </div>
-                                    <div className="text-right">
-                                        <span className={`text-2xl font-bold ${color}`}>{percentage}%</span>
-                                        <p className="text-[10px] text-text-muted">Proficiency</p>
-                                    </div>
+                        return (
+                            <div key={subject} className={`glass-card oxygen-card p-4 border ${border} ${bg} flex items-center justify-between`}>
+                                <div>
+                                    <h4 className="capitalize font-bold text-text-main">{subject}</h4>
+                                    <p className={`text-xs uppercase font-bold tracking-wider ${color}`}>{label}</p>
                                 </div>
-                            );
-                        })}
-                    </div>
-                )}
-
-                {/* Modified: Show Focus Areas + Videos if user has any topic data */}
-                {/* Modified: Show Focus Areas + Videos if user has any topic data */}
-                {
-                    (weakTopicStats.length > 0 || strongTopicStats.length > 0) ? (
-                        <div className="glass-card oxygen-card p-6 space-y-6">
-                            <div className="flex items-center justify-between">
-                                <div className="flex items-center gap-3">
-                                    <TrendingUp className="text-red-400" size={24} />
-                                    <div>
-                                        <h3 className="text-xl font-bold text-text-main">Focus Areas</h3>
-                                        <p className="text-sm text-text-muted">Based on your test performance</p>
-                                    </div>
+                                <div className="text-right">
+                                    <span className={`text-2xl font-bold ${color}`}>{percentage}%</span>
+                                    <p className="text-[10px] text-text-muted">Proficiency</p>
                                 </div>
-                                <AuthGate>
-                                    <Link
-                                        to="/dashboard/analytics"
-                                        className="text-sm text-primary hover:underline whitespace-nowrap"
-                                    >
-                                        View Full Analytics →
-                                    </Link>
-                                </AuthGate>
                             </div>
+                        );
+                    })}
+                </div>
 
-                            {/* Weak Topics with Scores - Carousel */}
-                            {weakTopicStats.length > 0 && (
-                                <div className="space-y-3 relative">
-                                    <h4 className="text-sm font-bold text-red-400 uppercase tracking-wider">Focus On These</h4>
+                {/* Focus Areas + Videos */}
+                {(loading || weakTopicStats.length > 0 || strongTopicStats.length > 0) ? (
+                    <div className="glass-card oxygen-card p-6 space-y-6">
+                        <div className="flex items-center justify-between">
+                            <div className="flex items-center gap-3">
+                                <TrendingUp className="text-red-400" size={24} />
+                                <div>
+                                    <h3 className="text-xl font-bold text-text-main">Focus Areas</h3>
+                                    <p className="text-sm text-text-muted">Based on your test performance</p>
+                                </div>
+                            </div>
+                            <Link to="/dashboard/analytics" className="text-sm text-primary hover:underline whitespace-nowrap">Full Analytics →</Link>
+                        </div>
 
-                                    {/* Scrollable Container with Mask Blur */}
-                                    <div className="relative">
-                                        <div
-                                            className="flex overflow-x-auto no-scrollbar gap-3 pb-2 snap-x"
-                                            style={{ maskImage: 'linear-gradient(to right, transparent, black 5%, black 95%, transparent)' }}
-                                        >
-                                            {/* Spacer for mask start */}
-                                            <div className="w-2 shrink-0" />
-
-                                            {Array.isArray(weakTopicStats) && weakTopicStats.map((stat: TopicStat, idx: number) => (
-                                                <div
-                                                    key={idx}
-                                                    className="snap-center shrink-0 px-4 py-3 bg-red-500/10 border border-red-500/20 rounded-xl flex items-center gap-3 oxygen-card"
-                                                >
+                        {loading ? <div className="h-20 w-full bg-surface animate-pulse rounded-xl" /> : (
+                            <>
+                                {weakTopicStats.length > 0 && (
+                                    <div className="space-y-3 relative">
+                                        <h4 className="text-sm font-bold text-red-400 uppercase tracking-wider">Focus On These</h4>
+                                        <div className="flex overflow-x-auto no-scrollbar gap-3 pb-2">
+                                            {weakTopicStats.map((stat, idx) => (
+                                                <div key={idx} className="shrink-0 px-4 py-3 bg-red-500/10 border border-red-500/20 rounded-xl flex items-center gap-3 oxygen-card">
                                                     <span className="text-sm font-medium text-red-50">{stat.topic}</span>
-                                                    <span className="text-xs px-2 py-1 bg-red-500/20 rounded-md text-red-300 font-bold">
-                                                        {stat.score_percentage}%
-                                                    </span>
+                                                    <span className="text-xs px-2 py-1 bg-red-500/20 rounded-md text-red-300 font-bold">{stat.score_percentage}%</span>
                                                 </div>
                                             ))}
-
-                                            {/* Spacer for mask end */}
-                                            <div className="w-2 shrink-0" />
-                                        </div>
-                                    </div>
-                                </div>
-                            )}
-
-                            {/* Strong Topics */}
-                            {strongTopicStats.length > 0 && (
-                                <div className="space-y-3 relative">
-                                    <h4 className="text-sm font-bold text-green-400 uppercase tracking-wider flex items-center gap-2">
-                                        <Star size={14} /> Your Strengths
-                                    </h4>
-
-                                    {/* Scrollable Container with Mask Blur */}
-                                    <div className="relative">
-                                        <div
-                                            className="flex overflow-x-auto no-scrollbar gap-3 pb-2 snap-x"
-                                            style={{ maskImage: 'linear-gradient(to right, transparent, black 5%, black 95%, transparent)' }}
-                                        >
-                                            {/* Spacer for mask start */}
-                                            <div className="w-2 shrink-0" />
-
-                                            {Array.isArray(strongTopicStats) && strongTopicStats.map((stat: TopicStat, idx: number) => (
-                                                <div
-                                                    key={idx}
-                                                    className="snap-center shrink-0 px-4 py-3 bg-green-500/10 border border-green-500/20 rounded-xl flex items-center gap-3 oxygen-card"
-                                                >
-                                                    <span className="text-sm font-medium text-green-50">{stat.topic}</span>
-                                                    <span className="text-xs px-2 py-1 bg-green-500/20 rounded-md text-green-300 font-bold">
-                                                        {stat.score_percentage}%
-                                                    </span>
-                                                </div>
-                                            ))}
-
-                                            {/* Spacer for mask end */}
-                                            <div className="w-2 shrink-0" />
-                                        </div>
-                                    </div>
-                                </div>
-                            )}
-
-                            {/* Recommended Videos for Weak Topics */}
-                            <div className="space-y-4">
-                                <div className="flex items-center justify-between">
-                                    <h4 className="text-sm font-bold text-text-muted uppercase tracking-wider flex items-center gap-2">
-                                        <Play size={14} /> Recommended Videos
-                                    </h4>
-
-                                    {/* More Videos Button */}
-                                    <Link to="/dashboard/lectures" className="text-xs text-primary hover:underline flex items-center gap-1">
-                                        More Videos <ChevronRight size={12} />
-                                    </Link>
-                                </div>
-
-                                {false ? ( // Removed loading state for now, or assume quick load
-                                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                                        {[1, 2, 3].map((i) => (
-                                            <div key={i} className="aspect-video bg-surface/50 rounded-xl animate-pulse flex items-center justify-center">
-                                                <Loader2 className="animate-spin text-text-muted" />
-                                            </div>
-                                        ))}
-                                    </div>
-                                ) : recommendedVideos.length > 0 ? (
-                                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                                        {recommendedVideos.map((rec, idx) => (
-                                            <Link
-                                                key={idx}
-                                                // Link to the specific topic of the recommendation
-                                                to={`/dashboard/lectures/${rec.topic.toLowerCase().replace(/\s+/g, '-')}`}
-                                                className="group oxygen-card bg-surface border border-border rounded-xl overflow-hidden flex flex-col"
-                                            >
-                                                <div className="relative aspect-video bg-black/20 shrink-0">
-                                                    <img
-                                                        src={rec.video.thumbnailUrl}
-                                                        alt={rec.video.title}
-                                                        className="w-full h-full object-cover"
-                                                        onError={(e) => {
-                                                            // Fallback image if thumbnail fails
-                                                            (e.target as HTMLImageElement).src = 'https://img.youtube.com/vi/placeholder/hqdefault.jpg';
-                                                        }}
-                                                    />
-                                                    <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                                                        <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-                                                            <Play size={20} className="text-white ml-1" />
-                                                        </div>
-                                                    </div>
-                                                    {/* Reason Badge */}
-                                                    <div className="absolute top-2 left-2 bg-black/60 backdrop-blur-sm px-2 py-1 rounded-md text-[10px] text-white font-medium border border-white/10">
-                                                        {rec.reason}
-                                                    </div>
-                                                </div>
-                                                <div className="p-3 flex flex-col flex-grow">
-                                                    <h5 className="font-medium text-text-main text-sm line-clamp-2 group-hover:text-primary transition-colors mb-auto">
-                                                        {rec.video.title}
-                                                    </h5>
-                                                    <div className="flex items-center justify-between mt-2 text-[10px] text-text-muted">
-                                                        <span>{rec.video.duration || 'Watch now'}</span>
-                                                        <span className="truncate max-w-[50%]">{rec.topic}</span>
-                                                    </div>
-                                                </div>
-                                            </Link>
-                                        ))}
-                                    </div>
-                                ) : (
-                                    <div className="flex items-center gap-4 p-4 bg-surface/50 border border-border rounded-xl">
-                                        <BookOpen size={24} className="text-primary" />
-                                        <div>
-                                            <p className="text-text-main font-medium">Videos loading soon!</p>
-                                            <p className="text-sm text-text-muted">
-                                                Meanwhile, check <Link to="/dashboard/syllabus" className="text-primary hover:underline">Syllabus</Link> for video lectures or <Link to="/dashboard/lectures" className="text-primary hover:underline">Lectures</Link> page.
-                                            </p>
                                         </div>
                                     </div>
                                 )}
+                            </>
+                        )}
+
+                        {/* Videos Section */}
+                        <div className="space-y-4">
+                            <div className="flex items-center justify-between">
+                                <h4 className="text-sm font-bold text-text-muted uppercase tracking-wider flex items-center gap-2">
+                                    <Play size={14} /> Recommended Videos
+                                </h4>
+                                <Link to="/dashboard/lectures" className="text-xs text-primary hover:underline flex items-center gap-1">More Videos <ChevronRight size={12} /></Link>
+                            </div>
+
+                            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                                {loading || recommendedVideos.length === 0 ? (
+                                    [1, 2, 3].map(i => <div key={i} className="aspect-video bg-surface/50 rounded-xl animate-pulse" />)
+                                ) : (
+                                    recommendedVideos.map((rec, idx) => (
+                                        <Link key={idx} to={`/dashboard/lectures/${rec.topic.toLowerCase().replace(/\s+/g, '-')}`} className="group oxygen-card bg-surface border border-border rounded-xl overflow-hidden flex flex-col">
+                                            <div className="relative aspect-video bg-black/20 shrink-0">
+                                                <img src={rec.video.thumbnailUrl} alt={rec.video.title} className="w-full h-full object-cover" />
+                                                <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                                                    <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center"><Play size={20} className="text-white ml-1" /></div>
+                                                </div>
+                                                <div className="absolute top-2 left-2 bg-black/60 backdrop-blur-sm px-2 py-1 rounded-md text-[10px] text-white font-medium border border-white/10">{rec.reason}</div>
+                                            </div>
+                                            <div className="p-3">
+                                                <h5 className="font-medium text-text-main text-sm line-clamp-2 group-hover:text-primary transition-colors">{rec.video.title}</h5>
+                                            </div>
+                                        </Link>
+                                    ))
+                                )}
                             </div>
                         </div>
-                    ) : (
-                        <div className="glass-card p-12 flex flex-col items-center justify-center border-dashed border-2 border-border bg-transparent text-center space-y-4">
-                            <p className="text-lg text-text-main font-medium">Your Dashboard is Ready.</p>
-                            <p className="text-text-muted max-w-md">
-                                Take a quick mock test to start tracking your strengths and weaknesses.
-                                The AI will analyze your performance and suggest topics to focus on.
-                            </p>
-                            <div className="flex gap-4 pt-2">
-                                <AuthGate mode="modal">
-                                    <Link to="/dashboard/mock" className="px-6 py-2 bg-primary text-white rounded-lg font-bold oxygen-button inline-block">
-                                        Take Quick Test
-                                    </Link>
-                                </AuthGate>
-                                <Link to="/dashboard/syllabus" className="px-6 py-2 bg-surface border border-border text-text-main rounded-lg oxygen-button inline-block">
-                                    Browse Syllabus
-                                </Link>
-                            </div>
-                        </div>
-                    )
-                }
+                    </div>
+                ) : (
+                    <div className="glass-card p-12 flex flex-col items-center justify-center border-dashed border-2 border-border bg-transparent text-center space-y-4">
+                        <p className="text-lg text-text-main font-medium">Your Dashboard is Ready.</p>
+                        <p className="text-text-muted max-w-md">Take a quick mock test to start tracking your strengths and weaknesses.</p>
+                        <Link to="/dashboard/mock" className="px-6 py-2 bg-primary text-white rounded-lg font-bold oxygen-button">Take Quick Test</Link>
+                    </div>
+                )}
             </div>
 
 

@@ -42,6 +42,17 @@ export default defineConfig(() => {
                   statuses: [0, 200]
                 }
               }
+            },
+            {
+              urlPattern: /.*\.glb$/i,
+              handler: 'CacheFirst',
+              options: {
+                cacheName: '3d-models-cache',
+                expiration: {
+                  maxEntries: 5,
+                  maxAgeSeconds: 60 * 60 * 24 * 30 // 30 Days
+                }
+              }
             }
           ]
         },
@@ -78,6 +89,7 @@ export default defineConfig(() => {
             'vendor-markdown': ['react-markdown', 'remark-gfm'],
             'vendor-pdf': ['jspdf', 'jspdf-autotable', 'html2pdf.js'],
             'vendor-ai': ['@google/generative-ai', 'openai', 'groq-sdk'],
+            'vendor-vfx': ['three', '@react-three/fiber', '@react-three/drei']
           }
         }
       }

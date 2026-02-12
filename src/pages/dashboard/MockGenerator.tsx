@@ -1,12 +1,13 @@
 import { useState, useEffect } from 'react';
-import { Brain, Loader2, ArrowLeft, PauseCircle, PlayCircle, X, Send, Trophy, CheckCircle, Timer, Youtube } from 'lucide-react';
+import { Brain, Loader2, ArrowLeft, PlayCircle, Trophy, CheckCircle, Youtube, Timer, PauseCircle, X, Send } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import { askAI } from '../../lib/ai';
 import { db } from '../../lib/firebase';
 import { collection, query, where, getDocs, limit, addDoc, updateDoc, increment } from 'firebase/firestore';
 import { useUserStore } from '../../store/userStore';
-import { batchUpdateTopicStrength } from '../../services/topicStrengthService';
+import { batchUpdateTopicStrength, getWeakTopics } from '../../services/topicStrengthService';
+import { getAdaptiveQuestion } from '../../services/questionEngine';
 import { extractJSON } from '../../lib/utils';
 import { ViralShareCard } from '../../components/ViralShareCard';
 import { AuthGate } from '../../components/auth/AuthGate';
@@ -17,8 +18,6 @@ import { markTopicsAsCompletedFromResults } from '../../services/dataSyncService
 import { calculateGains } from '../../services/gamificationService';
 import { trackQuestionTime, trackOptionSwitch } from '../../lib/analytics';
 import { storageService } from '../../services/storageService';
-import { ImageGenerationService } from '../../services/imageGenerationService';
-import { verifyContent } from '../../lib/ai';
 
 
 type Question = {
@@ -371,125 +370,71 @@ export const MockGenerator = () => {
         }
     };
 
-    const generateQuestionsBatch = async (subject: string, count: number, context: string, startId: number): Promise<Question[]> => {
-        let attempts = 0;
+    const generateQuestionsBatch = async (subject: string, count: number, _context: string, startId: number): Promise<Question[]> => {
         let collected: Question[] = [];
-        // REMOVED: const requestCount = Math.min(count, 8); -> Now we request exactly what is needed (chunked if > 15)
+        const targetExam = user?.targetExam || "JEE Mains";
 
-        // chunking logic for large batches to avoid token limits
-        const BATCH_SIZE = 15;
-
-        while (collected.length < count && attempts < 5) { // Increased attempts for potentially large sets
-            attempts++;
-            const remaining = count - collected.length;
-            const currentBatchSize = Math.min(remaining, BATCH_SIZE);
-
-            // Grade-Level Filtering
-            const userClass = user?.userClass || '';
-            const isJunior = ['Class 6th', 'Class 7th', 'Class 8th', 'Class 9th', 'Class 10th'].includes(userClass);
-            const gradeLevel = isJunior ? userClass.replace('th', '') : '';
-
-            // Enhanced Difficulty Prompting
-            let difficultyPrompt = "";
-            switch (difficulty) {
-                case 'Advanced': difficultyPrompt = "LEVEL: JEE ADVANCED / OLYMPIAD. Questions must be multi-step, requiring deep conceptual synthesis. Avoid direct formula application. High complexity."; break;
-                case 'Mains': difficultyPrompt = "LEVEL: JEE MAINS / NEET HARD. Questions should be conceptual but solvable within 2-3 minutes. Tricky but standard pattern."; break;
-                case 'Slightly_Harder': difficultyPrompt = "LEVEL: MODERATE-HARD. slightly above textbook level. Good for practice."; break;
-                case 'Exam_Level': difficultyPrompt = "LEVEL: STANDARD EXAM LEVEL. Strictly adhere to the typical difficulty distribution of the real exam (Easy 30%, Medium 50%, Hard 20%)."; break;
-                default: difficultyPrompt = "LEVEL: STANDARD.";
-            }
-
-            const prompt = `
-                Generate ${currentBatchSize} multiple choice questions for ${subject}.
-                ${context}
-                
-                ${isJunior ? `⚠️ CRITICAL: Grade ${gradeLevel} Level ONLY. Curriculum: NCERT ${gradeLevel}. NO advanced concepts outside syllabus.` : ''}
-                
-                ${difficultyPrompt}
-
-                CRITICAL INSTRUCTIONS (MUST FOLLOW):
-                1. STRICT COUNT: You MUST generate exactly ${currentBatchSize} questions.
-                2. REAL PYQ PRIORITY: 
-                   - Prefer **REAL EXAM QUESTIONS** from 2018-2024.
-                   - If a question is a real PYQ, prefix the text with the year, e.g., "[JEE Main 2023] Question text...".
-                   - If exact PYQ is not available, create high-fidelity clones that match the numeric values and complexity of real papers.
-                3. MENTAL SANDBOX (VERIFICATION):
-                   - Before outputting the 'correctAnswer', SOLVE the problem step-by-step internally.
-                   - Verify that the option you select is mathematically correct. 
-                   - Do NOT trust your initial guess. Re-calculate.
-                4. DISTRACTOR ANALYSIS:
-                   - Options must be plausibly confusing. Do not put random numbers.
-                   - Common trap answers should be included as distractors.
-                5. GRADE LOYALTY: 
-                   - If Class 11/12/Dropper: STRICTLY NO Class 9/10/Foundation level questions. Assume student knows basics.
-                   - Questions must be at the depth of the TARGET_EXAM (e.g., JEE Advanced = Multi-concept, twisted).
-                6. JSON ONLY: Array format. No markdown, no "Here are the questions". Just the raw JSON.
-                
-                Format:
-                [ { "id": 1, "text": "Question...", "options": ["A", "B", "C", "D"], "correctAnswer": 0, "explanation": "...", "topic": "Topic" } ]
-            `;
-
+        // 1. Get User Stats for this subject/topic to determine weakness
+        let weaknessScore = 0.5; // Default moderate
+        if (user) {
             try {
-                const response = await askAI(
-                    "You are 'Exa', a precise exam setter. Return ONLY valid JSON.",
-                    prompt,
-                    'groq' // using fast model
-                );
-
-                if (!response) throw new Error("Empty response");
-                const parsed = extractJSON(response);
-                if (!parsed || !Array.isArray(parsed)) throw new Error("Invalid format");
-
-                const validated = await Promise.all(parsed.map(async (q: any, idx: number) => {
-                    const cleanOptions = (Array.isArray(q.options) ? q.options : []).map((o: string) => {
-                        if (typeof o !== 'string') return String(o);
-                        return o.replace(/^[A-D][.\s)-]+\s*/i, '').trim();
-                    });
-
-                    // 1. Image Generation (Multi-Modal Fix)
-                    let imageUrl = undefined;
-                    if (ImageGenerationService.needsDiagram(q.text || "", subject)) {
-                        imageUrl = ImageGenerationService.generateDiagramUrl(q.topic || subject, q.text || "");
-                    }
-
-                    // 2. Content Verification (Accuracy Fix) - Only for Hard/Advanced to save tokens, or random sample
-                    if (difficulty === 'Advanced' || difficulty === 'Mains') {
-                        const check = await verifyContent({ question: q.text, options: cleanOptions, answer: q.correctAnswer }, context);
-                        if (!check.isValid) {
-                            console.warn("Skipping INVALID Question:", check.reason);
-                            return null; // Model will filter out nulls
-                        }
-                    }
-
-                    return {
-                        id: collected.length + idx + 1,
-                        text: q.text || q.question || "Question Text",
-                        options: cleanOptions,
-                        correctAnswer: typeof q.correctAnswer === 'number' ? q.correctAnswer : 0,
-                        explanation: q.explanation || "No explanation.",
-                        topic: q.topic || subject,
-                        ...(imageUrl ? { imageUrl } : {})
-                    } as Question;
-                }));
-
-                const finalBatch = validated.filter((q): q is Question => q !== null && q.options.length === 4);
-                collected = [...collected, ...finalBatch];
-
-                // Allow small sleep to avoid rate limits if loop continues
-                if (collected.length < count) await new Promise(r => setTimeout(r, 1000));
-
-            } catch (e: any) {
-                console.warn(`Batch attempt ${attempts} failed`, e);
-                // Backoff
-                await new Promise(resolve => setTimeout(resolve, 2000));
+                const stats = await getWeakTopics(user.id, 10, user.userClass, targetExam);
+                // If the subject matches any of our weak topics, use its score
+                const relevantStat = stats.find(s => s.subject === subject || s.topic === subject);
+                if (relevantStat) {
+                    weaknessScore = relevantStat.weakness_score || 0.6;
+                }
+            } catch (e) {
+                console.warn("Failed to fetch weakness for generation", e);
             }
         }
 
-        return collected.slice(0, count).map((q: any, i: number) => ({
-            ...q,
-            id: startId + i,
-            correctAnswer: Number(q.correctAnswer) || 0
-        }));
+        // 2. Adaptive Selection Loop
+        // We try to fetch from DB. getAdaptiveQuestion handles DB-first then API.
+        for (let i = 0; i < count; i++) {
+            try {
+                const topic = urlTopic || subject; // Default to subject if no specific topic
+                const q = await getAdaptiveQuestion(user?.id || 'guest', topic, targetExam, weaknessScore, subject);
+
+                if (q) {
+                    // Normalize StoredQuestion to UI Question type
+                    let correctAnswerIndex = 0;
+                    const optionsArray: string[] = Array.isArray(q.options)
+                        ? q.options
+                        : Object.values(q.options);
+
+                    if (typeof q.correct_answer === 'string') {
+                        // If correct_answer is "A", "B", etc.
+                        if (q.correct_answer.length === 1 && /[A-D]/.test(q.correct_answer)) {
+                            correctAnswerIndex = q.correct_answer.charCodeAt(0) - 65;
+                        } else {
+                            // Try finding the index in options
+                            const foundIndex = optionsArray.indexOf(q.correct_answer);
+                            if (foundIndex !== -1) correctAnswerIndex = foundIndex;
+                        }
+                    }
+
+                    collected.push({
+                        id: startId + i,
+                        text: q.question,
+                        options: optionsArray,
+                        correctAnswer: correctAnswerIndex,
+                        explanation: q.explanation,
+                        topic: q.topic || subject,
+                        imageUrl: undefined // Add logic if diagrams are needed
+                    });
+                }
+            } catch (e) {
+                console.error(`Failed to get adaptive question ${i}`, e);
+            }
+
+            // Avoid hitting API too hard if many misses (though getAdaptiveQuestion handles its own logic)
+            if (i > 0 && i % 5 === 0) {
+                setLoadingMessage(`Generating... (${collected.length}/${count})`);
+            }
+        }
+
+        return collected;
     };
 
     const generateExam = async (examMode: 'quick' | 'topic' | 'full' | 'diagnostic', topic?: string) => {

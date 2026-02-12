@@ -69,7 +69,14 @@ const FloatingUI = () => {
   const [mounted, setMounted] = useState(false);
   useEffect(() => {
     // Delay chatbot loading to prioritize LCP/FCP
-    const timer = setTimeout(() => setMounted(true), 2000);
+    const loadChatbot = () => {
+      // Use requestIdleCallback to ensure no blocking during paint
+      (window.requestIdleCallback || ((cb) => setTimeout(cb, 200)))(() => {
+        setTimeout(() => setMounted(true), 1500); // Final grace period
+      });
+    };
+
+    const timer = setTimeout(loadChatbot, 2000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -91,7 +98,11 @@ function App() {
 
   useEffect(() => {
     initialize();
-    trackWebVitals(); // Start SEO Health Monitoring
+
+    // Defer non-critical monitoring
+    (window.requestIdleCallback || ((cb) => setTimeout(cb, 1000)))(() => {
+      trackWebVitals();
+    });
 
     // Capture registration intent from URL
     if (typeof window !== 'undefined') {

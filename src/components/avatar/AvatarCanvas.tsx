@@ -38,6 +38,18 @@ const CameraController = ({ state }: { state: CameraState }) => {
 
 export const AvatarCanvas = ({ emotion }: { emotion: string }) => {
     const [cameraState, setCameraState] = useState<CameraState>(INITIAL_STATE);
+    const [shouldRender, setShouldRender] = useState(false);
+
+    useEffect(() => {
+        // Optimization: Defer 3D initialization until main thread is idle
+        const handle = (window.requestIdleCallback || ((cb) => setTimeout(cb, 200)))(() => {
+            setShouldRender(true);
+        });
+        return () => {
+            if (window.cancelIdleCallback) window.cancelIdleCallback(handle);
+            else clearTimeout(handle);
+        };
+    }, []);
 
     const moveCamera = (yDelta: number) => {
         setCameraState(prev => ({
@@ -97,37 +109,48 @@ export const AvatarCanvas = ({ emotion }: { emotion: string }) => {
             </div>
 
             {/* THE CIRCLE VIEWPORT */}
-            <div className="w-full h-full aspect-square rounded-full overflow-hidden bg-gradient-to-br from-primary/10 to-purple-900/10 border-4 border-white/10 shadow-2xl relative z-10 pointer-events-auto">
-                <Canvas
-                    shadows
-                    camera={{ fov: 35 }}
-                    style={{ background: 'transparent' }}
-                >
-                    <CameraController state={cameraState} />
-                    <ambientLight intensity={1.5} />
-                    <directionalLight position={[5, 12, 5]} intensity={1.2} castShadow />
-                    <pointLight position={[-5, 5, -5]} intensity={0.5} />
-                    <gridHelper args={[20, 20, 0x444444, 0x222222]} />
-                    <Environment preset="city" />
-                    <Suspense fallback={null}>
-                        <group position={[0, 0, 0]}>
-                            <ErrorBoundary>
-                                <group scale={1.8}>
-                                    <Model emotion={emotion} />
-                                </group>
-                            </ErrorBoundary>
-                        </group>
-                        <ContactShadows position={[0, 0, 0]} opacity={0.6} scale={8} blur={2.5} far={1} />
-                    </Suspense>
-                    <OrbitControls
-                        target={new THREE.Vector3(...cameraState.target)}
-                        enablePan={true}
-                        enableZoom={true}
-                        minDistance={0.5}
-                        maxDistance={12}
-                        makeDefault
-                    />
-                </Canvas>
+            <div className="w-full h-full aspect-square rounded-full overflow-hidden bg-gradient-to-br from-primary/10 to-purple-900/10 border-4 border-white/10 shadow-2xl relative z-10 pointer-events-auto flex items-center justify-center">
+                {!shouldRender ? (
+                    <div className="w-16 h-16 rounded-full border-2 border-primary/20 border-t-primary animate-spin" />
+                ) : (
+                    <Canvas
+                        shadows={window.innerWidth > 768} // Disable shadows on mobile for performance
+                        camera={{ fov: 35 }}
+                        dpr={Math.min(2, window.devicePixelRatio)} // Cap DPR for high-density mobile screens
+                        gl={{
+                            antialias: true,
+                            powerPreference: 'high-performance',
+                            alpha: true,
+                            preserveDrawingBuffer: false
+                        }}
+                        style={{ background: 'transparent' }}
+                    >
+                        <CameraController state={cameraState} />
+                        <ambientLight intensity={1.5} />
+                        <directionalLight position={[5, 12, 5]} intensity={1.2} castShadow />
+                        <pointLight position={[-5, 5, -5]} intensity={0.5} />
+                        <gridHelper args={[20, 20, 0x444444, 0x222222]} />
+                        {window.innerWidth > 768 && <Environment preset="city" />}
+                        <Suspense fallback={null}>
+                            <group position={[0, 0, 0]}>
+                                <ErrorBoundary>
+                                    <group scale={1.8}>
+                                        <Model emotion={emotion} />
+                                    </group>
+                                </ErrorBoundary>
+                            </group>
+                            {window.innerWidth > 768 && <ContactShadows position={[0, 0, 0]} opacity={0.6} scale={8} blur={2.5} far={1} />}
+                        </Suspense>
+                        <OrbitControls
+                            target={new THREE.Vector3(...cameraState.target)}
+                            enablePan={true}
+                            enableZoom={true}
+                            minDistance={0.5}
+                            maxDistance={12}
+                            makeDefault
+                        />
+                    </Canvas>
+                )}
             </div>
         </div>
     );
