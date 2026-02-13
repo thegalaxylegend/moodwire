@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect, lazy, Suspense } from 'react';
 import { MinimizedBubble } from './MinimizedBubble';
-import { X, Send, Bot, User, Paperclip, Loader2, Image as ImageIcon, Mic, Volume2, MicOff, VolumeX, Phone, PhoneOff, Settings, Minimize2 } from 'lucide-react';
+import { X, Send, Bot, User, Paperclip, Loader2, Mic, Volume2, MicOff, VolumeX, Phone, Settings, Minimize2, ArrowRight } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 import { askAI } from '../lib/ai';
 
@@ -93,7 +93,7 @@ export const Chatbot = () => {
     // Voice Selection State
     const [showSettings, setShowSettings] = useState(false);
     const [isSettingsClosing, setIsSettingsClosing] = useState(false);
-    const [selectedPresetId, setSelectedPresetId] = useState<string>("girl_sweet"); // Default Preset
+    const [selectedPresetId, setSelectedPresetId] = useState<string>(() => localStorage.getItem('exa_voice_preset_id') || "girl_sweet"); // Default 'Sweet'
 
     // Audio tracking refs
 
@@ -661,7 +661,7 @@ export const Chatbot = () => {
             setConfusionCount(0);
         }
 
-        const context = `You are "Exa". Brillaint mentor with hidden affection. Current Confusion: ${confusionCount}.`;
+        const context = `You are "Exa". Response mode: INSTANT. Rapid assistant. Concise & efficient. Confusion: ${confusionCount}.`;
 
         try {
             const history = messages.slice(-10).map(m => ({
@@ -798,13 +798,18 @@ export const Chatbot = () => {
             {isOpen && !isMinimized && (
                 <div className="contents">
                     {!isCallMode && (
-                        <div className={`fixed bottom-24 right-4 left-4 md:left-auto md:bottom-auto md:relative w-auto md:w-96 h-[80vh] max-h-[600px] md:h-[600px] flex flex-col rounded-2xl bg-surface backdrop-blur-xl border border-border shadow-2xl origin-bottom-right pointer-events-auto z-[151] ${isClosing ? 'oxygen-pop-out-br' : 'oxygen-pop-in-br'}`}>
-                            <div className="p-4 border-b border-border flex items-center justify-between bg-primary/10 rounded-t-2xl">
-                                <div className="flex items-center gap-2">
-                                    <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center"> <Bot size={18} className="text-white" /> </div>
-                                    <h3 className="font-bold text-text-main">Exa <span className="text-[10px] bg-primary/20 text-primary px-1.5 py-0.5 rounded-full ml-1">AI</span></h3>
+                        <div className={`fixed bottom-24 right-4 left-4 md:left-auto md:bottom-auto md:relative w-auto md:w-96 h-[80vh] max-h-[600px] md:h-[600px] flex flex-col rounded-[24px] bg-[#0d0e14]/95 backdrop-blur-3xl border border-white/[0.08] shadow-2xl origin-bottom-right pointer-events-auto z-[151] overflow-hidden ${isClosing ? 'oxygen-pop-out-br' : 'oxygen-pop-in-br'}`}>
+                            <div className="p-4 border-b border-white/[0.05] flex items-center justify-between bg-white/[0.02] backdrop-blur-md">
+                                <div className="flex items-center gap-3">
+                                    <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-indigo-600 to-purple-600 flex items-center justify-center shadow-lg ring-1 ring-white/20">
+                                        <Bot size={20} className="text-white" />
+                                    </div>
+                                    <div className="flex items-center gap-2">
+                                        <h3 className="font-bold text-[16px] text-white tracking-tight">Exa</h3>
+                                        <span className="px-1.5 py-0.5 rounded-md bg-indigo-500/20 text-indigo-400 text-[9px] font-black uppercase tracking-widest border border-indigo-500/30">AI</span>
+                                    </div>
                                 </div>
-                                <div className="flex items-center gap-2">
+                                <div className="flex items-center gap-0.5">
                                     <button
                                         onClick={() => {
                                             setIsCallMode(true);
@@ -818,9 +823,10 @@ export const Chatbot = () => {
                                             const greeting = callGreetings[Math.floor(Math.random() * callGreetings.length)];
                                             speak(greeting);
                                         }}
-                                        className="p-1.5 rounded-lg text-text-muted hover:text-green-500 transition-colors"
+                                        title="Voice Call"
+                                        className="p-2 text-white/40 hover:text-white hover:bg-white/5 rounded-lg transition-all oxygen-button"
                                     >
-                                        <Phone size={16} />
+                                        <Phone size={18} />
                                     </button>
                                     <button
                                         onClick={() => {
@@ -831,75 +837,90 @@ export const Chatbot = () => {
                                                 speak("Exa voice active.");
                                             } else {
                                                 window.speechSynthesis.cancel();
+                                                setIsSpeaking(false);
                                             }
                                         }}
-                                        className={`p-1.5 rounded-lg transition-all ${voiceEnabled ? 'bg-primary/20 text-primary shadow-sm shadow-primary/20' : 'text-text-muted hover:bg-white/5'}`}
+                                        className={`p-2 rounded-lg transition-all oxygen-button ${voiceEnabled ? 'text-indigo-400 bg-indigo-500/10 shadow-sm' : 'text-white/40 hover:text-white hover:bg-white/5'}`}
                                         title={voiceEnabled ? "Mute Voice" : "Enable Voice"}
                                     >
-                                        {voiceEnabled ? <Volume2 size={16} /> : <VolumeX size={16} />}
+                                        {voiceEnabled ? <Volume2 size={18} /> : <VolumeX size={18} />}
                                     </button>
                                     <button
                                         onClick={() => setShowSettings(!showSettings)}
-                                        className={`p-1.5 rounded-lg transition-colors ${showSettings ? 'bg-primary/20 text-primary' : 'text-text-muted hover:bg-white/5'}`}
+                                        className={`p-2 rounded-lg transition-all oxygen-button ${showSettings ? 'text-indigo-400 bg-indigo-500/10' : 'text-white/40 hover:text-white hover:bg-white/5'}`}
                                         title="Voice Settings"
                                     >
                                         <Settings size={18} className={showSettings ? 'animate-spin-slow' : ''} />
                                     </button>
-                                    <button onClick={handleClose} className="text-text-muted hover:text-text-main p-1.5 rounded-lg"> <X size={18} /> </button>
+                                    <button onClick={handleClose} className="p-2 text-white/40 hover:text-red-400 hover:bg-red-500/10 rounded-lg transition-all oxygen-button ml-1"> <X size={18} /> </button>
                                 </div>
                             </div>
 
                             {(showSettings || isSettingsClosing) && (
-                                <div className={`absolute top-[65px] left-0 right-0 z-20 bg-surface/90 backdrop-blur-2xl p-4 border-b border-border shadow-2xl rounded-b-xl overflow-hidden ${isSettingsClosing ? 'animate-fade-out-up' : 'animate-fade-in-down'}`}>
-                                    <h4 className="text-sm font-bold text-text-main mb-3 flex items-center justify-between">
-                                        Select Voice
-                                        <button onClick={closeSettings} className="text-text-muted hover:text-text-main"><X size={14} /></button>
+                                <div className={`absolute top-[70px] left-0 right-0 z-20 bg-[#0d0e14] p-4 border-b border-white/[0.08] shadow-2xl rounded-b-2xl overflow-hidden ${isSettingsClosing ? 'animate-fade-out-up' : 'animate-fade-in-down'}`}>
+                                    <h4 className="text-[10px] font-bold text-white/30 uppercase tracking-[0.2em] mb-4 flex items-center justify-between">
+                                        Voice Engine
+                                        <button onClick={closeSettings} className="text-white/40 hover:text-white"><X size={14} /></button>
                                     </h4>
                                     <div className="grid grid-cols-2 gap-2">
                                         {VOICE_PRESETS.map(preset => (
                                             <button
                                                 key={preset.id}
                                                 onClick={() => { handleVoiceChange(preset.id); speak("How do I sound?"); }}
-                                                className={`p-2 rounded border text-xs text-left truncate transition-all ${selectedPresetId === preset.id ? 'bg-primary/20 border-primary text-primary' : 'bg-surface border-border text-text-muted hover:bg-surface-hover'}`}
+                                                className={`p-3 rounded-xl border text-xs text-left truncate transition-all ${selectedPresetId === preset.id ? 'bg-indigo-500/10 border-indigo-500/40 text-indigo-400' : 'bg-white/5 border-white/[0.05] text-white/40 hover:bg-white/10'}`}
                                             >
                                                 {preset.name}
                                             </button>
                                         ))}
                                     </div>
+                                    <div className="mt-4 pt-4 border-t border-white/[0.05]">
+                                        <button onClick={() => { localStorage.clear(); window.location.reload(); }} className="w-full py-2 text-[11px] text-red-400/60 hover:text-red-400 transition-colors">Reset AI Memory</button>
+                                    </div>
                                 </div>
                             )}
 
-                            <div className="flex-1 overflow-y-auto p-4 space-y-4 scrollbar-hide">
+                            <div className="flex-1 overflow-y-auto p-5 space-y-6 scrollbar-hide">
                                 {messages.map((msg) => (
-                                    <div key={msg.id} className={`flex gap-2 ${msg.sender === 'user' ? 'flex-row-reverse' : 'flex-row'}`}>
-                                        <div className={`w-8 h-8 rounded-full flex items-center justify-center shrink-0 ${msg.sender === 'user' ? 'bg-secondary' : 'bg-primary'}`}> {msg.sender === 'user' ? <User size={14} className="text-white" /> : <Bot size={14} className="text-white" />} </div>
-                                        <div className={`max-w-[80%] p-3 rounded-2xl text-sm ${msg.sender === 'user' ? 'bg-secondary/20 text-text-main rounded-tr-none' : 'bg-surface border border-border text-text-main rounded-tl-none'}`}>
-                                            {msg.image && <img src={msg.image} className="mb-2 rounded-lg max-h-32 object-cover" />}
-                                            <div className="prose prose-invert max-w-none text-sm break-words">
-                                                <Suspense fallback={<div className="flex items-center gap-2 text-xs text-text-muted"><Loader2 className="animate-spin" size={12} /> formatting...</div>}>
+                                    <div key={msg.id} className={`flex gap-4 ${msg.sender === 'user' ? 'flex-row-reverse' : 'flex-row'}`}>
+                                        <div className={`w-8 h-8 rounded-full flex items-center justify-center shrink-0 shadow-lg ${msg.sender === 'user' ? 'bg-indigo-600' : 'bg-gradient-to-br from-indigo-500 to-purple-600'}`}> {msg.sender === 'user' ? <User size={14} className="text-white" /> : <Bot size={14} className="text-white" />} </div>
+                                        <div className={`max-w-[85%] p-4 rounded-[20px] text-[14px] leading-relaxed shadow-xl ${msg.sender === 'user' ? 'bg-indigo-600/90 text-white rounded-tr-none' : 'bg-[#1c1d29] border border-white/[0.05] text-white/90 rounded-tl-none shadow-black/20'}`}>
+                                            {msg.image && <img src={msg.image} className="mb-3 rounded-xl max-h-48 w-full object-cover border border-white/10" />}
+                                            <div className="prose prose-invert max-w-none text-[14px] break-words">
+                                                <Suspense fallback={<div className="flex items-center gap-2 text-[10px] text-white/20 uppercase tracking-widest leading-none py-1"><Loader2 className="animate-spin" size={12} /> Exa is typing...</div>}>
                                                     <ReactMarkdown remarkPlugins={[remarkGfm]}>{msg.text}</ReactMarkdown>
                                                 </Suspense>
                                             </div>
-                                            {msg.link && <Link to={msg.link} className="inline-flex items-center gap-1 text-primary hover:underline mt-2 text-xs font-semibold">{msg.linkText} ↗</Link>}
+                                            {msg.link && <Link to={msg.link} className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-indigo-500/10 text-indigo-400 hover:bg-indigo-500/20 mt-3 text-xs font-bold transition-all border border-indigo-500/20">{msg.linkText} <ArrowRight size={12} className="-rotate-45" /></Link>}
                                         </div>
                                     </div>
                                 ))}
-                                {isThinking && <div className="flex gap-2"> <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center"> <Bot size={14} className="text-white" /> </div> <div className="bg-surface border border-border p-3 rounded-2xl"> <Loader2 size={16} className="animate-spin text-primary" /> </div> </div>}
+                                {isThinking && (
+                                    <div className="flex gap-4">
+                                        <div className="w-8 h-8 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center shrink-0 shadow-lg"> <Bot size={14} className="text-white" /> </div>
+                                        <div className="bg-[#1c1d29] border border-white/[0.05] px-5 py-3 rounded-2xl rounded-tl-none flex items-center gap-3 shadow-xl">
+                                            <div className="w-1.5 h-1.5 bg-indigo-400 rounded-full animate-bounce [animation-delay:-0.3s]" />
+                                            <div className="w-1.5 h-1.5 bg-indigo-400 rounded-full animate-bounce [animation-delay:-0.15s]" />
+                                            <div className="w-1.5 h-1.5 bg-indigo-400 rounded-full animate-bounce" />
+                                        </div>
+                                    </div>
+                                )}
                                 <div ref={messagesEndRef} />
                             </div>
 
-                            <div className="p-4 border-t border-border">
+                            <div className="p-4 bg-gradient-to-t from-[#0d0e14] to-transparent">
                                 {selectedImage && (
-                                    <div className="flex items-center gap-2 p-2 bg-text-main/5 rounded-lg mb-2">
-                                        <ImageIcon size={16} className="text-primary" />
-                                        <span className="text-xs text-text-muted truncate flex-1">Image selected</span>
-                                        <button onClick={() => setSelectedImage(null)} className="text-text-muted hover:text-red-500"> <X size={14} /> </button>
+                                    <div className="flex items-center gap-3 p-3 bg-white/5 border border-white/10 rounded-xl mb-3 animate-in slide-in-from-bottom-2">
+                                        <div className="w-10 h-10 rounded-lg overflow-hidden border border-white/10">
+                                            <img src={selectedImage} className="w-full h-full object-cover" />
+                                        </div>
+                                        <span className="text-[11px] text-white/40 truncate flex-1 font-medium tracking-tight">Image ready for analysis</span>
+                                        <button onClick={() => setSelectedImage(null)} className="p-2 text-white/20 hover:text-red-400 transition-colors"> <X size={16} /> </button>
                                     </div>
                                 )}
-                                <form onSubmit={handleSend} className="flex items-center gap-2">
-                                    <button type="button" onClick={() => fileInputRef.current?.click()} className="p-2 text-text-muted hover:text-primary transition-colors"> <Paperclip size={20} /> </button>
-                                    <input type="text" value={input} onChange={e => setInput(e.target.value)} placeholder={isListening ? "Exa is listening..." : "Ask Exa..."} className="flex-1 bg-black/20 border border-border rounded-xl py-3 px-4 text-sm text-text-main focus:outline-none focus:border-primary" />
-                                    <button type="submit" disabled={!input.trim() && !selectedImage || isThinking} className="p-3 bg-primary text-white rounded-xl shadow-lg hover:bg-primary/90 transition-colors disabled:opacity-50"> <Send size={18} /> </button>
+                                <form onSubmit={handleSend} className="flex items-center gap-2 bg-white/5 border border-white/[0.08] rounded-[22px] p-2 focus-within:border-indigo-500/40 focus-within:bg-white/10 transition-all duration-300 shadow-2xl backdrop-blur-md group">
+                                    <button type="button" onClick={() => fileInputRef.current?.click()} className="w-10 h-10 flex items-center justify-center text-white/30 hover:text-white/60 hover:bg-white/5 rounded-full transition-all flex-shrink-0 oxygen-button"> <Paperclip size={20} className="-rotate-45" /> </button>
+                                    <input type="text" value={input} onChange={e => setInput(e.target.value)} placeholder={isListening ? "Listening..." : "Instant inquiry..."} className="flex-1 bg-transparent text-white/80 placeholder:text-white/20 text-[15px] focus:outline-none px-2 font-medium" />
+                                    <button type="submit" disabled={!input.trim() && !selectedImage || isThinking} className="w-10 h-10 flex items-center justify-center bg-indigo-600 text-white rounded-full hover:bg-indigo-500 transition-all disabled:opacity-20 shadow-lg shadow-indigo-600/20 active:scale-95 flex-shrink-0 oxygen-button"> <Send size={20} /> </button>
                                     <input type="file" ref={fileInputRef} className="hidden" accept="image/*" onChange={handleImageSelect} />
                                 </form>
                             </div>
@@ -907,12 +928,12 @@ export const Chatbot = () => {
                     )}
 
                     {isCallMode && (
-                        <div className={`fixed inset-0 z-[150] bg-surface/90 backdrop-blur-3xl flex flex-col items-center justify-center transition-all duration-300 pointer-events-auto ${isClosing ? 'opacity-0 scale-95' : 'opacity-100 scale-100'}`}>
-                            <button onClick={handleMinimize} className="absolute top-6 right-6 p-4 rounded-full bg-black/20 text-white/70 hover:text-white transition-all z-[152]"> <Minimize2 size={24} /> </button>
+                        <div className={`fixed inset-0 z-[150] bg-[#0d0e14]/95 backdrop-blur-3xl flex flex-col items-center justify-center transition-all duration-500 pointer-events-auto ${isClosing ? 'opacity-0 scale-95' : 'opacity-100 scale-100'}`}>
+                            <button onClick={handleMinimize} className="absolute top-6 right-6 p-4 rounded-full bg-black/20 text-white/70 hover:text-white transition-all z-[152] oxygen-button"> <Minimize2 size={24} /> </button>
                             <div className="flex flex-col items-center gap-12 pointer-events-none">
                                 <div className="relative">
-                                    <div className={`absolute inset-0 bg-primary/30 blur-3xl rounded-full transition-all ${isSpeaking ? 'scale-150' : 'scale-100'} ${isHolding ? 'bg-red-500/30' : ''}`} />
-                                    <div className={`w-80 h-80 relative z-10 pointer-events-auto transition-transform ${isSpeaking ? 'scale-105' : 'scale-100'}`}
+                                    <div className={`absolute inset-0 bg-indigo-500/20 blur-3xl rounded-full transition-all duration-1000 ${isSpeaking ? 'scale-150 opacity-100' : 'scale-100 opacity-50'} ${isHolding ? 'bg-indigo-600/40 opacity-100' : ''}`} />
+                                    <div className={`w-80 h-80 relative z-10 pointer-events-auto rounded-full ring-1 ring-white/10 transition-transform duration-500 ${isSpeaking ? 'scale-105' : 'scale-100'}`}
                                         onMouseDown={handlePushToTalkStart} onMouseUp={handlePushToTalkEnd} onMouseLeave={handlePushToTalkEnd}
                                         onTouchStart={handlePushToTalkStart} onTouchEnd={handlePushToTalkEnd}
                                     >
@@ -927,18 +948,18 @@ export const Chatbot = () => {
                                     </div>
                                 </div>
                                 <div className="text-center mt-0 flex flex-col gap-1">
-                                    <h2 className="text-3xl font-bold text-white tracking-tight">Exa AI</h2>
-                                    <div className="h-5 flex items-center justify-center">
-                                        <span className={`text-xs font-bold uppercase tracking-[0.2em] transition-all duration-300 ${((isListening || isHolding || isCallMode) && !isSpeaking && !isThinking) || isSpeaking || isThinking ? 'text-primary' : 'text-white/40'}`}>
-                                            {(isSpeaking) ? 'Exa is speaking...' : (isThinking ? 'Exa is thinking...' : ((isListening || isHolding || isCallMode) ? 'Exa is listening...' : 'Hold to Speak'))}
+                                    <h2 className="text-4xl font-black text-white tracking-tighter mb-1">Exa <span className="text-indigo-400 italic">AI</span></h2>
+                                    <div className="h-6 flex items-center justify-center">
+                                        <span className={`text-[10px] font-black uppercase tracking-[0.4em] transition-all duration-300 ${isSpeaking || isThinking || isListening ? 'text-indigo-400' : 'text-white/20'}`}>
+                                            {(isSpeaking) ? 'Exa is speaking' : (isThinking ? 'Exa is thinking' : 'Exa is listening')}
                                         </span>
                                     </div>
-                                    <p className="text-[9px] uppercase tracking-[0.3em] text-white/10 font-medium">Ongoing Call • {isMicMuted ? 'Muted' : 'Active'}</p>
+                                    <p className="text-[10px] uppercase tracking-[0.2em] text-white/10 font-bold mt-2">Connecting secure study session</p>
                                 </div>
-                                <div className="flex items-center gap-8 pointer-events-auto mt-2 px-10">
-                                    <button onClick={() => setIsMicMuted(!isMicMuted)} className={`p-5 rounded-full transition-all border border-white/10 backdrop-blur-md ${isMicMuted ? 'bg-white text-black' : 'bg-white/5 text-white hover:bg-white/10'}`}> {isMicMuted ? <MicOff size={24} /> : <Mic size={24} />} </button>
-                                    <button onClick={handleHangUp} className={`p-7 rounded-full bg-red-500/80 hover:bg-red-500 text-white transition-all hover:scale-110 border border-white/20 shadow-xl`}> <PhoneOff size={28} /> </button>
-                                    <button onClick={() => { window.speechSynthesis.cancel(); setIsSpeaking(false); }} className="p-5 rounded-full bg-white/5 text-white border border-white/10 backdrop-blur-md hover:bg-white/10"> <VolumeX size={24} /> </button>
+                                <div className="flex items-center gap-10 pointer-events-auto mt-6">
+                                    <button onClick={() => setIsMicMuted(!isMicMuted)} className={`w-16 h-16 rounded-full flex items-center justify-center transition-all border border-white/10 backdrop-blur-md oxygen-button ${isMicMuted ? 'bg-white text-black shadow-white/20 scale-110' : 'bg-white/5 text-white hover:bg-white/10'}`}> {isMicMuted ? <MicOff size={24} /> : <Mic size={24} />} </button>
+                                    <button onClick={handleHangUp} className={`w-20 h-20 rounded-full bg-red-500 hover:bg-red-600 text-white transition-all hover:scale-110 shadow-2xl shadow-red-500/40 flex items-center justify-center active:scale-95 oxygen-button`}> <X size={32} /> </button>
+                                    <button onClick={() => { window.speechSynthesis.cancel(); setIsSpeaking(false); }} className="w-16 h-16 rounded-full bg-white/5 text-white border border-white/10 backdrop-blur-md hover:bg-white/10 flex items-center justify-center oxygen-button"> <VolumeX size={24} /> </button>
                                 </div>
                             </div>
                         </div>

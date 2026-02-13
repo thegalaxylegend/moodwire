@@ -14,38 +14,56 @@ export const Lectures = () => {
     const { user } = useUserStore();
     const [loading, setLoading] = useState(true);
     const [playlists, setPlaylists] = useState<TopicPlaylist[]>([]);
+    const [weakStatsCount, setWeakStatsCount] = useState(0);
 
     useEffect(() => {
-        if (user) {
-            fetchContent();
-        }
-    }, [user]);
+        fetchContent();
+    }, [user]); // Re-fetch only when user changes, but allow initial fetch
 
     const fetchContent = async () => {
         setLoading(true);
         try {
-            // 1. Get ALL weak topics (or top 10)
-            const weakStats = await getWeakTopics(user?.id || '', 10);
+            // 1. Get weak topics
+            let topicsToFetch: string[] = [];
+            const weakStats = await getWeakTopics(user?.id || 'guest', 10, user?.userClass, user?.targetExam);
+            setWeakStatsCount(weakStats.length);
 
-            if (weakStats.length === 0) {
-                setLoading(false);
-                return;
+            if (weakStats.length > 0) {
+                topicsToFetch = weakStats.map(s => s.topic);
+            } else {
+                // FALLBACK: If no weak topics, show "Trending Core Topics" based on exam
+                console.log("[Lectures] No weak topics found. Showing trending core topics.");
+                const exam = user?.targetExam?.toLowerCase() || 'jee';
+                if (exam.includes('neet')) {
+                    topicsToFetch = ['Cell Cycle and Division', 'Human Physiology', 'Organic Chemistry Basics', 'Genetics'];
+                } else if (exam.includes('clat')) {
+                    topicsToFetch = ['Legal Reasoning', 'Current Affairs', 'Logical Reasoning', 'English Vocabulary'];
+                } else {
+                    // Default JEE/General
+                    topicsToFetch = ['Physics Kinematics', 'Chemical Bonding', 'Mathematical Induction', 'Modern Physics'];
+                }
             }
 
             // 2. Fetch videos for each topic
             const results: TopicPlaylist[] = [];
 
-            for (const stat of weakStats) {
+            // Limit to top 6 topics for performance
+            const limitedTopics = topicsToFetch.slice(0, 6);
+
+            for (const topic of limitedTopics) {
                 try {
-                    const playlist = await getVideoByTopicIdCached(stat.topic);
+                    const examName = user?.targetExam || 'JEE';
+                    // Use cached results to avoid API quota depletion
+                    const playlist = await getVideoByTopicIdCached(topic, examName);
+
                     if (playlist && playlist.videos.length > 0) {
                         results.push({
-                            topic: stat.topic,
+                            topic: topic,
                             videos: playlist.videos
                         });
                     }
                 } catch (err) {
-                    console.error(`Failed to fetch videos for ${stat.topic}`, err);
+                    console.error(`Failed to fetch videos for ${topic}`, err);
                 }
             }
 
@@ -68,9 +86,22 @@ export const Lectures = () => {
 
     return (
         <div className="space-y-8 animate-fade-in-up pb-10">
-            <header>
-                <h1 className="text-3xl font-heading font-bold text-text-main">Recommended Lectures</h1>
-                <p className="text-text-muted">Curated video lessons based on your weak areas to help you improve.</p>
+            <header className="mb-8 relative overflow-hidden p-8 rounded-3xl bg-gradient-to-br from-indigo-900/40 via-purple-900/20 to-transparent border border-white/10">
+                <div className="relative z-10">
+                    <h1 className="text-4xl font-heading font-bold text-white mb-2">
+                        {playlists.length > 0 && !user?.isGuest && weakStatsCount > 0
+                            ? 'Recommended for You'
+                            : 'Trending Core Topics'}
+                    </h1>
+                    <p className="text-white/60 text-lg max-w-2xl">
+                        {playlists.length > 0 && !user?.isGuest && weakStatsCount > 0
+                            ? "We've curated these video lessons based on your mock test performance to help you master your weak areas."
+                            : `Start your ${user?.targetExam || 'JEE'} preparation with these essential high-weightage topics selected by experts.`}
+                    </p>
+                </div>
+                {/* Decorative background element */}
+                <div className="absolute -right-20 -top-20 w-64 h-64 bg-primary/20 blur-[100px] rounded-full pointer-events-none" />
+                <div className="absolute -left-20 -bottom-20 w-64 h-64 bg-accent/10 blur-[100px] rounded-full pointer-events-none" />
             </header>
 
             {playlists.length === 0 ? (

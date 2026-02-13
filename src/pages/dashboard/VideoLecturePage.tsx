@@ -2,7 +2,7 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import { useState, useEffect, useRef } from 'react';
 import { useUserStore } from '../../store/userStore';
-import { ArrowLeft, Share2, Play, Pause, Volume2, VolumeX, Bookmark, BookmarkCheck, ChevronDown, Check, Loader2, Search, Send, Sparkles, User } from 'lucide-react';
+import { ArrowLeft, Share2, Play, Pause, Volume2, VolumeX, Bookmark, BookmarkCheck, ChevronDown, Check, Loader2, Search, Send, User, Bot, Phone, Settings, X, Paperclip, MessageSquare, Mic, MicOff } from 'lucide-react';
 import type { Video, Playlist } from '../../services/videoService';
 import { getVideoByTopicIdCached } from '../../services/videoService';
 import { SEO } from '../../components/SEO';
@@ -138,7 +138,6 @@ const VideoListItem = ({
     video,
     idx,
     currentVideo,
-    playlist,
     user,
     onSelect
 }: {
@@ -150,7 +149,7 @@ const VideoListItem = ({
     onSelect: (v: Video) => void
 }) => {
     const isActive = currentVideo.id === video.id;
-    const isCompleted = idx < playlist.videos.findIndex(v => v.id === currentVideo.id);
+    const isCompleted = isVideoFinished(video.id);
     const [videoIsSaved, setVideoIsSaved] = useState(false);
 
     useEffect(() => {
@@ -225,6 +224,23 @@ const VideoListItem = ({
     );
 };
 
+interface VoicePreset {
+    id: string;
+    name: string;
+    gender: 'female' | 'male';
+    pitch: number;
+    rate: number;
+}
+
+const VOICE_PRESETS: VoicePreset[] = [
+    { id: 'girl_sweet', name: 'Exa (Sweet)', gender: 'female', pitch: 1.15, rate: 1.05 },
+    { id: 'girl_calm', name: 'Exa (Calm)', gender: 'female', pitch: 1.0, rate: 0.95 },
+    { id: 'girl_playful', name: 'Exa (Playful)', gender: 'female', pitch: 1.1, rate: 1.1 },
+    { id: 'boy_chill', name: 'Exa (Chill)', gender: 'male', pitch: 1.0, rate: 0.95 },
+    { id: 'boy_deep', name: 'Exa (Deep)', gender: 'male', pitch: 0.9, rate: 0.9 },
+    { id: 'boy_brisk', name: 'Exa (Brisk)', gender: 'male', pitch: 1.0, rate: 1.1 },
+];
+
 export const VideoLecturePage = () => {
     const { topicId } = useParams();
     const navigate = useNavigate();
@@ -240,6 +256,50 @@ export const VideoLecturePage = () => {
     const [isAiLoading, setIsAiLoading] = useState(false);
     const iframeRef = useRef<HTMLIFrameElement>(null);
     const chatContainerRef = useRef<HTMLDivElement>(null);
+    const fileInputRef = useRef<HTMLInputElement>(null);
+    const [isCalling, setIsCalling] = useState(false);
+    const [isSpeaking, setIsSpeaking] = useState(false);
+    const [isMicMuted, setIsMicMuted] = useState(false);
+    const [showSettings, setShowSettings] = useState(false);
+    const [selectedPresetId, setSelectedPresetId] = useState<string>(() => localStorage.getItem('exa_sidebar_voice_id') || "girl_sweet");
+
+    // Speak AI messages - High Quality Version
+    const speakText = (text: string) => {
+        if (!window.speechSynthesis) return;
+        window.speechSynthesis.cancel();
+
+        // Strip emojis
+        const cleanText = text.replace(/([\u2700-\u27BF]|[\uE000-\uF8FF]|\uD83C[\uDC00-\uDFFF]|\uD83D[\uDC00-\uDFFF]|[\u2011-\u26FF]|\uD83E[\uDD10-\uDDFF])/g, '');
+
+        const utterance = new SpeechSynthesisUtterance(cleanText);
+        const voices = window.speechSynthesis.getVoices();
+        const currentPreset = VOICE_PRESETS.find(p => p.id === selectedPresetId) || VOICE_PRESETS[0];
+
+        let systemVoice: SpeechSynthesisVoice | undefined;
+        const findByName = (keywords: string[]) => voices.find(v => keywords.some(k => v.name.includes(k)));
+
+        if (currentPreset.gender === 'female') {
+            systemVoice = findByName(['Google US English', 'Samantha', 'Zira', 'Microsoft Zira', 'Google UK English Female'])
+                || voices.find(v => v.name.includes('Female') || v.name.includes('female'))
+                || voices.find(v => v.lang === 'en-US' && !v.name.includes('Male'))
+                || voices[0];
+        } else {
+            systemVoice = findByName(['Google UK English Male', 'Daniel', 'Google US English Male', 'David', 'Microsoft David'])
+                || voices.find(v => v.name.includes('Male') || v.name.includes('male'))
+                || voices.find(v => v.lang === 'en-GB')
+                || voices[0];
+        }
+
+        if (systemVoice) {
+            utterance.voice = systemVoice;
+            utterance.pitch = currentPreset.pitch;
+            utterance.rate = currentPreset.rate;
+        }
+
+        utterance.onstart = () => setIsSpeaking(true);
+        utterance.onend = () => setIsSpeaking(false);
+        window.speechSynthesis.speak(utterance);
+    };
 
     // Load chat history from localStorage on mount
     useEffect(() => {
@@ -247,9 +307,21 @@ export const VideoLecturePage = () => {
             const savedChat = getChatHistory(topicId);
             if (savedChat.length > 0) {
                 setChatMessages(savedChat);
+            } else {
+                // Intro messages for Exa
+                setChatMessages([
+                    {
+                        role: 'assistant',
+                        content: `Did you sleep well last night, by the way? You'll need your energy to tackle these concepts. 😊`
+                    },
+                    {
+                        role: 'assistant',
+                        content: `Ah, my name is Exa, nice to meet you! I'm your exam mentor, here to help you tackle this ${currentVideo?.title.split('|')[0].trim() || 'topic'} and hopefully, ace your exams. 🌸\n\nNow, let's get back to the task at hand. We have a lot to cover, and I want to make sure you understand each concept before we move on. What specific topics are you struggling with? 🧐`
+                    }
+                ]);
             }
         }
-    }, [topicId]);
+    }, [topicId]); // Removed currentVideo from deps to prevent re-intro on every video change
 
     // Save chat history to localStorage when messages change
     useEffect(() => {
@@ -261,30 +333,39 @@ export const VideoLecturePage = () => {
     useEffect(() => {
         const fetchVideos = async () => {
             setLoading(true);
-            console.log('Fetching videos for topic:', topicId);
-            // normalized topicId handled by cache service
-            // Pass the user's target exam to get relevant videos (e.g., CLAT vs JEE)
-            const data = await getVideoByTopicIdCached(topicId || 'physics-kinematics', user?.targetExam || 'JEE');
-            console.log('Received playlist:', data);
-            setPlaylist(data);
-            if (data && data.videos.length > 0) {
-                // Check if there's a last watched index stored
-                const savedProgress = localStorage.getItem(`syllabus-progress-${topicId}`);
-                const lastIndex = savedProgress ? Math.floor((parseInt(savedProgress) / 100) * data.videos.length) : 0;
-                // Bound index
-                const safeIndex = Math.min(Math.max(lastIndex, 0), data.videos.length - 1);
-                setCurrentVideo(data.videos[safeIndex]);
+            try {
+                // Pass the user's target exam to get relevant videos
+                const data = await getVideoByTopicIdCached(topicId || 'physics-kinematics', user?.targetExam || 'JEE');
+                setPlaylist(data);
+
+                if (data && data.videos.length > 0) {
+                    // Check if there's a last watched ID stored (more reliable than index/percent)
+                    const lastWatchedId = localStorage.getItem(`last-watched-id-${topicId}`);
+                    let initialVideo = data.videos[0];
+
+                    if (lastWatchedId) {
+                        const found = data.videos.find(v => v.id === lastWatchedId);
+                        if (found) initialVideo = found;
+                    }
+
+                    setCurrentVideo(initialVideo);
+                }
+            } catch (err) {
+                console.error("Error fetching videos:", err);
+            } finally {
+                setLoading(false);
             }
-            setLoading(false);
         };
         fetchVideos();
-    }, [topicId]);
-    // ... existing code ...
+    }, [topicId, user?.targetExam]); // Added targetExam to deps
 
 
     // Save progress whenever current video changes
     useEffect(() => {
         if (topicId && playlist && currentVideo) {
+            // Save by ID for reliability
+            localStorage.setItem(`last-watched-id-${topicId}`, currentVideo.id);
+
             const index = playlist.videos.findIndex(v => v.id === currentVideo.id);
             if (index !== -1) {
                 const percent = Math.round(((index + 1) / playlist.videos.length) * 100);
@@ -502,6 +583,7 @@ export const VideoLecturePage = () => {
                             <div className="relative aspect-video mx-4 rounded-2xl overflow-hidden shadow-2xl border border-white/10 isolate bg-black">
                                 {videoId ? (
                                     <iframe
+                                        key={videoId} // Key ensures iframe re-renders on video change
                                         ref={iframeRef}
                                         src={`https://www.youtube.com/embed/${videoId}?autoplay=1&mute=${isMuted ? 1 : 0}&rel=0&modestbranding=1&enablejsapi=1&origin=${window.location.origin}`}
                                         title={currentVideo.title}
@@ -525,7 +607,7 @@ export const VideoLecturePage = () => {
                                     title="Rewind 10 seconds"
                                 >
                                     <svg viewBox="0 0 24 24" className="w-10 h-10" fill="currentColor">
-                                        <path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z" />
+                                        <path d="M12 5V1l7 6-7 5V7c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6h2c0 4.42-3.58 8-8 8s-8-3.58-8-8 3.58-8 8-8z" />
                                         <text x="12" y="14.5" textAnchor="middle" fontSize="6" fontWeight="bold" stroke="none">10</text>
                                     </svg>
                                 </button>
@@ -678,67 +760,183 @@ export const VideoLecturePage = () => {
                             </div>
                         </div>
 
-                        {/* 4. AI ASSISTANT */}
-                        <div className="rounded-[24px] overflow-hidden backdrop-blur-2xl bg-white/[0.03] border border-white/10 shadow-2xl flex flex-col h-[725px]">
-                            {/* AI Header */}
-                            <div className="relative px-5 py-4 border-b border-white/5 flex items-center gap-3 shrink-0">
-                                <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-purple-500 to-indigo-600 flex items-center justify-center">
-                                    <Sparkles size={16} className="text-white" />
+                        {/* 4. AI ASSISTANT - EXA BRANDED */}
+                        <div className="rounded-[var(--card-radius)] overflow-hidden glass-card flex flex-col h-[725px]">
+                            {/* AI Header - Exa Brand */}
+                            <div className="relative px-6 py-4 border-b border-border flex items-center justify-between shrink-0 bg-white/5">
+                                <div className="flex items-center gap-3">
+                                    <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-600 to-purple-600 flex items-center justify-center shadow-lg ring-1 ring-white/20">
+                                        <Bot size={22} className="text-white" />
+                                    </div>
+                                    <div className="flex items-center gap-2">
+                                        <h3 className="font-bold text-[17px] text-text-main tracking-tight">Exa</h3>
+                                        <span className="px-1.5 py-0.5 rounded-md bg-primary/20 text-primary text-[9px] font-black uppercase tracking-widest border border-primary/30">AI</span>
+                                    </div>
                                 </div>
-                                <div>
-                                    <h3 className="font-bold text-sm text-white">AI Study Assistant</h3>
-                                    <p className="text-[10px] text-white/40">Ask doubts about this lecture</p>
+                                <div className="flex items-center gap-0.5">
+                                    <button
+                                        onClick={() => setIsCalling(true)}
+                                        title="Voice Call"
+                                        className="p-2 text-white/40 hover:text-white hover:bg-white/5 rounded-lg transition-all oxygen-button"
+                                    >
+                                        <Phone size={18} />
+                                    </button>
+                                    <button
+                                        onClick={() => {
+                                            if (isSpeaking) {
+                                                window.speechSynthesis.cancel();
+                                                setIsSpeaking(false);
+                                                return;
+                                            }
+                                            const lastAssistantMsg = [...chatMessages].reverse().find(m => m.role === 'assistant');
+                                            if (lastAssistantMsg) speakText(lastAssistantMsg.content);
+                                        }}
+                                        title="Voice Reply"
+                                        className={`p-2 rounded-lg transition-all oxygen-button ${isSpeaking ? 'text-primary bg-primary/10' : 'text-white/40 hover:text-white hover:bg-white/5'}`}
+                                    >
+                                        <Volume2 size={18} className={isSpeaking ? 'animate-pulse' : ''} />
+                                    </button>
+                                    <button
+                                        onClick={() => setShowSettings(!showSettings)}
+                                        title="AI Settings"
+                                        className={`p-2 rounded-lg transition-all oxygen-button ${showSettings ? 'text-primary bg-primary/10' : 'text-white/40 hover:text-white hover:bg-white/5'}`}
+                                    >
+                                        <Settings size={18} />
+                                    </button>
+                                    <button title="Close Chat" className="p-2 text-white/40 hover:text-red-400 hover:bg-red-500/10 rounded-lg transition-all oxygen-button ml-1"><X size={18} /></button>
                                 </div>
+
+                                {/* Settings Dropdown */}
+                                {showSettings && (
+                                    <div className="absolute top-[70px] right-6 w-48 bg-[#0d0e14] border border-border rounded-xl shadow-2xl z-20 overflow-hidden animate-in fade-in slide-in-from-top-2 duration-200">
+                                        <div className="p-3 border-b border-border">
+                                            <p className="text-[10px] font-bold text-white/30 uppercase tracking-widest">Voice Engine</p>
+                                        </div>
+                                        <div className="p-1">
+                                            {VOICE_PRESETS.slice(0, 3).map(preset => (
+                                                <button
+                                                    key={preset.id}
+                                                    onClick={() => {
+                                                        setSelectedPresetId(preset.id);
+                                                        localStorage.setItem('exa_sidebar_voice_id', preset.id);
+                                                        speakText(`How do I sound now?`);
+                                                    }}
+                                                    className={`w-full flex items-center justify-between px-3 py-2 text-xs rounded-lg transition-colors ${selectedPresetId === preset.id ? 'bg-indigo-500/10 text-indigo-400' : 'text-white/40 hover:bg-white/5'}`}
+                                                >
+                                                    {preset.name} {selectedPresetId === preset.id && <Check size={12} />}
+                                                </button>
+                                            ))}
+                                        </div>
+                                        <div className="p-1 border-t border-border">
+                                            <button onClick={() => { localStorage.clear(); window.location.reload(); }} className="w-full flex items-center gap-2 px-3 py-2 text-xs text-red-400 hover:bg-red-500/10 rounded-lg transition-colors">
+                                                Reset AI Memory
+                                            </button>
+                                        </div>
+                                    </div>
+                                )}
                             </div>
 
                             {/* Chat Messages */}
-                            <div ref={chatContainerRef} className="relative p-4 flex-1 min-h-[250px] overflow-y-auto custom-scrollbar">
-                                {/* Welcome Message */}
-                                <div className="flex gap-3 mb-4">
-                                    <div className="w-6 h-6 rounded-lg bg-gradient-to-br from-purple-500 to-indigo-600 flex items-center justify-center flex-shrink-0">
-                                        <Sparkles size={10} className="text-white" />
-                                    </div>
-                                    <div className="bg-white/5 rounded-2xl rounded-tl-sm p-3 text-sm text-white/80 leading-relaxed">
-                                        Hi! I'm your AI study assistant. Ask me any questions about <span className="text-purple-400 font-medium">{currentVideo.title.split('|')[0].trim()}</span> and I'll help you understand better!
-                                    </div>
-                                </div>
-
-                                {/* Chat History */}
-                                {chatMessages.map((msg, idx) => (
-                                    <div key={idx} className={`flex gap-3 mb-4 ${msg.role === 'user' ? 'flex-row-reverse' : ''}`}>
-                                        <div className={`w-6 h-6 rounded-lg flex items-center justify-center flex-shrink-0 ${msg.role === 'user' ? 'bg-blue-600' : 'bg-gradient-to-br from-purple-500 to-indigo-600'}`}>
-                                            {msg.role === 'user' ? <User size={10} className="text-white" /> : <Sparkles size={10} className="text-white" />}
+                            <div ref={chatContainerRef} className="relative p-6 flex-1 min-h-[250px] overflow-y-auto custom-scrollbar flex flex-col gap-6">
+                                {/* Calling Overlay */}
+                                {isCalling && (
+                                    <div className="absolute inset-0 bg-[#0d0e14]/95 backdrop-blur-3xl z-30 flex flex-col items-center justify-center animate-in fade-in duration-300">
+                                        <div className="relative">
+                                            <div className="absolute inset-0 animate-ping bg-primary/20 rounded-full" />
+                                            <div className="w-24 h-24 rounded-full bg-gradient-to-br from-indigo-600 to-purple-600 flex items-center justify-center shadow-2xl relative z-10 ring-1 ring-white/20">
+                                                <Bot size={40} className="text-white" />
+                                            </div>
                                         </div>
-                                        <div className={`rounded-2xl p-3 text-sm text-white/80 leading-relaxed max-w-[85%] ${msg.role === 'user' ? 'bg-blue-600/30 rounded-tr-sm' : 'bg-white/5 rounded-tl-sm'}`}>
-                                            {msg.role === 'assistant' ? renderMarkdown(msg.content) : msg.content}
+                                        <h3 className="mt-8 text-2xl font-bold text-white tracking-tight">Calling Exa...</h3>
+                                        <p className="text-white/40 text-sm mt-2">{isMicMuted ? 'Microphone Muted' : 'Connecting secure study session'}</p>
+
+                                        <div className="flex items-center gap-6 mt-20">
+                                            <button
+                                                onClick={() => setIsMicMuted(!isMicMuted)}
+                                                className={`w-14 h-14 rounded-full flex items-center justify-center transition-all ${isMicMuted ? 'bg-white text-black' : 'bg-white/5 text-white hover:bg-white/10 border border-white/10'}`}
+                                            >
+                                                {isMicMuted ? <MicOff size={24} /> : <Mic size={24} />}
+                                            </button>
+                                            <button
+                                                onClick={() => setIsCalling(false)}
+                                                className="w-16 h-16 rounded-full bg-red-500 flex items-center justify-center text-white hover:bg-red-600 transition-all shadow-xl shadow-red-500/20 active:scale-95"
+                                            >
+                                                <X size={28} />
+                                            </button>
+                                        </div>
+                                    </div>
+                                )}
+
+                                {chatMessages.map((msg, idx) => (
+                                    <div key={idx} className={`flex gap-4 w-full ${msg.role === 'user' ? 'flex-row-reverse' : ''}`}>
+                                        {/* Avatar */}
+                                        <div className={`w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 shadow-sm transition-transform duration-300 hover:scale-110 ${msg.role === 'user'
+                                            ? 'bg-blue-600 ring-2 ring-blue-500/20'
+                                            : 'bg-gradient-to-br from-indigo-500 to-purple-600 ring-2 ring-purple-500/20'
+                                            }`}>
+                                            {msg.role === 'user' ? <User size={14} className="text-white" /> : <Bot size={15} className="text-white" />}
+                                        </div>
+
+                                        {/* Message Bubble */}
+                                        <div className="flex flex-col gap-1.5 max-w-[85%]">
+                                            {msg.role === 'assistant' && (
+                                                <div className="flex items-center gap-1.5 ml-1">
+                                                    <span className="text-[10px] font-bold text-white/30 uppercase tracking-[0.2em]">Exa</span>
+                                                    <div className="w-1 h-1 rounded-full bg-purple-500/30" />
+                                                </div>
+                                            )}
+                                            <div className={`relative px-4 py-3 rounded-2xl text-[14px] leading-relaxed shadow-lg transition-all duration-300 ${msg.role === 'user'
+                                                ? 'bg-primary text-white rounded-tr-sm shadow-primary/10'
+                                                : 'bg-white/5 text-text-main/90 rounded-tl-sm border border-border shadow-black/10'
+                                                }`}>
+                                                {/* Fancy mini-icon for Exa as seen in image */}
+                                                {msg.role === 'assistant' && (
+                                                    <div className="flex items-center gap-2 mb-2 text-white/20">
+                                                        <MessageSquare size={10} className="opacity-50" />
+                                                        <div className="h-px flex-1 bg-white/5" />
+                                                    </div>
+                                                )}
+
+                                                {msg.role === 'assistant' ? renderMarkdown(msg.content) : (
+                                                    <span className="font-medium">{msg.content}</span>
+                                                )}
+                                            </div>
                                         </div>
                                     </div>
                                 ))}
 
                                 {/* Loading indicator */}
                                 {isAiLoading && (
-                                    <div className="flex gap-3 mb-4">
-                                        <div className="w-6 h-6 rounded-lg bg-gradient-to-br from-purple-500 to-indigo-600 flex items-center justify-center flex-shrink-0">
-                                            <Sparkles size={10} className="text-white" />
+                                    <div className="flex gap-4 w-full">
+                                        <div className="w-8 h-8 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center flex-shrink-0 ring-2 ring-purple-500/20">
+                                            <Bot size={14} className="text-white" />
                                         </div>
-                                        <div className="bg-white/5 rounded-2xl rounded-tl-sm p-3">
-                                            <Loader2 size={16} className="text-purple-400 animate-spin" />
+                                        <div className="bg-white/5 rounded-2xl rounded-tl-sm px-5 py-3 border border-border flex items-center gap-3 shadow-lg">
+                                            <div className="w-1.5 h-1.5 bg-primary/60 rounded-full animate-bounce [animation-delay:-0.3s]" />
+                                            <div className="w-1.5 h-1.5 bg-primary/60 rounded-full animate-bounce [animation-delay:-0.15s]" />
+                                            <div className="w-1.5 h-1.5 bg-primary/60 rounded-full animate-bounce" />
                                         </div>
                                     </div>
                                 )}
                             </div>
 
-                            {/* Input */}
-                            <div className="relative px-4 pb-4 shrink-0">
+                            {/* Input Field - Same to Same Design */}
+                            <div className="relative px-6 pb-6 pt-2 shrink-0 bg-gradient-to-t from-background/50 to-transparent">
+                                <input
+                                    type="file"
+                                    ref={fileInputRef}
+                                    className="hidden"
+                                    onChange={(e) => {
+                                        if (e.target.files?.[0]) alert(`Selected: ${e.target.files[0].name}`);
+                                    }}
+                                />
                                 <form onSubmit={async (e) => {
                                     e.preventDefault();
                                     if (!aiMessage.trim() || isAiLoading) return;
 
-                                    if (!user || user.isGuest) {
-                                        // AuthGate will handle standard clicks effectively 
-                                        // but for form submit we might need a manual check if we want to be fancy.
-                                        // However, standard wrapping of the button is easier.
-                                    }
+                                    // Stop any current speech
+                                    if (window.speechSynthesis) window.speechSynthesis.cancel();
+                                    setIsSpeaking(false);
 
                                     const userMsg = aiMessage.trim();
                                     setAiMessage('');
@@ -751,10 +949,10 @@ export const VideoLecturePage = () => {
                                     }, 100);
 
                                     try {
-                                        const context = `This is about the topic: ${currentVideo.title}. The student is watching a lecture about this topic.`;
-                                        // Pass chat history for conversation memory
+                                        const context = `You are "Exa". Response mode: INSTANT. Personality: Efficient mentor. Subject: ${currentVideo?.title}. Keep it ultra-short.`;
                                         const response = await askAI(context, userMsg, 'groq', chatMessages);
-                                        setChatMessages(prev => [...prev, { role: 'assistant', content: response || "Sorry, I couldn't process that." }]);
+                                        const aiResponse = response || "Thinking failed.";
+                                        setChatMessages(prev => [...prev, { role: 'assistant', content: aiResponse }]);
                                     } catch (error) {
                                         setChatMessages(prev => [...prev, { role: 'assistant', content: "Sorry, I had trouble answering. Please try again." }]);
                                     } finally {
@@ -763,24 +961,34 @@ export const VideoLecturePage = () => {
                                             chatContainerRef.current?.scrollTo({ top: chatContainerRef.current.scrollHeight, behavior: 'smooth' });
                                         }, 100);
                                     }
-                                }} className="flex items-center gap-2 bg-white/5 border border-white/10 rounded-xl p-2">
-                                    <input
-                                        type="text"
-                                        value={aiMessage}
-                                        onChange={(e) => setAiMessage(e.target.value)}
-                                        placeholder="Ask a question about this topic..."
-                                        className="flex-1 bg-transparent text-white/80 placeholder:text-white/30 text-sm focus:outline-none px-2"
-                                        disabled={isAiLoading}
-                                    />
-                                    <AuthGate mode="modal">
+                                }} className="group">
+                                    <div className="flex items-center gap-2 bg-white/5 border border-border rounded-[22px] p-2 focus-within:border-primary/40 focus-within:bg-white/10 transition-all duration-300 shadow-2xl backdrop-blur-md group-focus-within:shadow-primary/5">
                                         <button
-                                            type="submit"
-                                            disabled={isAiLoading || !aiMessage.trim()}
-                                            className="p-2 bg-gradient-to-r from-purple-600 to-indigo-600 rounded-lg text-white hover:from-purple-500 hover:to-indigo-500 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+                                            type="button"
+                                            onClick={() => fileInputRef.current?.click()}
+                                            title="Add File"
+                                            className="w-10 h-10 flex items-center justify-center text-white/30 hover:text-white/60 hover:bg-white/5 rounded-full transition-all flex-shrink-0 oxygen-button"
                                         >
-                                            {isAiLoading ? <Loader2 size={14} className="animate-spin" /> : <Send size={14} />}
+                                            <Paperclip size={20} className="-rotate-45" />
                                         </button>
-                                    </AuthGate>
+                                        <input
+                                            type="text"
+                                            value={aiMessage}
+                                            onChange={(e) => setAiMessage(e.target.value)}
+                                            placeholder="Quick inquiry..."
+                                            className="flex-1 bg-transparent text-white/80 placeholder:text-white/20 text-[15px] focus:outline-none px-2 font-medium"
+                                            disabled={isAiLoading}
+                                        />
+                                        <AuthGate mode="modal">
+                                            <button
+                                                type="submit"
+                                                disabled={isAiLoading || !aiMessage.trim()}
+                                                className="w-10 h-10 flex items-center justify-center bg-primary text-white rounded-full hover:bg-primary/80 transition-all disabled:opacity-20 disabled:grayscale shadow-lg shadow-primary/20 active:scale-95 flex-shrink-0 oxygen-button"
+                                            >
+                                                {isAiLoading ? <Loader2 size={18} className="animate-spin" /> : <Send size={20} />}
+                                            </button>
+                                        </AuthGate>
+                                    </div>
                                 </form>
                             </div>
                         </div>

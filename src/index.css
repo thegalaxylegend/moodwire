@@ -260,17 +260,17 @@
 /* ===== BUTTON ANIMATION ===== */
 .oxygen-button {
   transform: translateZ(0);
-  transition: transform var(--oxygen-micro) var(--oxygen-ease-press),
-    opacity var(--oxygen-micro) var(--oxygen-ease-press);
+  transition: all var(--oxygen-micro) var(--oxygen-ease-press);
 }
 
 .oxygen-button:hover {
-  transform: scale(1.02) translateZ(0);
+  transform: scale(1.08) translateZ(0);
+  filter: brightness(1.1);
 }
 
 .oxygen-button:active {
-  transform: scale(0.97) translateZ(0);
-  transition-duration: 80ms;
+  transform: scale(0.92) translateZ(0);
+  transition-duration: 60ms;
 }
 
 /* ===== CARD ANIMATION ===== */

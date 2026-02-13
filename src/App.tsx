@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import { Suspense, lazy, useEffect, useState, useRef } from 'react';
 import { useUserStore } from './store/userStore';
 import { RouteTracker } from './components/RouteTracker';
@@ -67,6 +67,8 @@ const setUserProperties = async (props: any) => {
 
 const FloatingUI = () => {
   const [mounted, setMounted] = useState(false);
+  const location = useLocation();
+
   useEffect(() => {
     // Delay chatbot loading to prioritize LCP/FCP
     const loadChatbot = () => {
@@ -79,6 +81,11 @@ const FloatingUI = () => {
     const timer = setTimeout(loadChatbot, 2000);
     return () => clearTimeout(timer);
   }, []);
+
+  // Hide bubble on Video Lecture page as it has its own integrated AI
+  if (location.pathname.includes('/dashboard/lectures/')) {
+    return null;
+  }
 
   if (!mounted) return null;
 
