@@ -66,6 +66,59 @@ export const MockGenerator = () => {
     const [isVerifying, setIsVerifying] = useState(false);
     const [qStartTime, setQStartTime] = useState(Date.now());
 
+    // --- HYDRATION: Restore state on refresh ---
+    useEffect(() => {
+        const cached = sessionStorage.getItem('active_test_session');
+        if (cached) {
+            try {
+                const data = JSON.parse(cached);
+                // Ensure the cached session matches the current user
+                if (data.userId === user?.id) {
+                    setQuestions(data.questions);
+                    setAnswers(data.answers || {});
+                    setCurrentQ(data.currentQ || 0);
+                    setStep(data.step);
+                    setMode(data.mode);
+                    setDifficulty(data.difficulty);
+                    setTimeRemaining(data.timeRemaining);
+                    console.log("[MockGenerator] Restored session from cache.");
+
+                    // IF we refreshed while loading, stop and return to menu
+                    if (data.step === 'loading') {
+                        sessionStorage.removeItem('active_test_session');
+                        navigate('/dashboard/test-center', { replace: true });
+                    }
+                } else {
+                    sessionStorage.removeItem('active_test_session');
+                }
+            } catch (e) {
+                console.error("Failed to restore session", e);
+                sessionStorage.removeItem('active_test_session');
+            }
+        }
+    }, [user?.id]);
+
+    // --- PERSISTENCE: Save state on change ---
+    useEffect(() => {
+        if (questions.length > 0 && (step === 'exam' || step === 'preview' || step === 'loading')) {
+            const session = {
+                userId: user?.id,
+                questions,
+                answers,
+                currentQ,
+                step,
+                mode,
+                difficulty,
+                timeRemaining,
+                timestamp: Date.now()
+            };
+            sessionStorage.setItem('active_test_session', JSON.stringify(session));
+        } else if (step === 'result' || step === 'config') {
+            // Clear cache when finished or back at menu
+            if (step === 'result') sessionStorage.removeItem('active_test_session');
+        }
+    }, [questions, answers, currentQ, step, mode, difficulty, timeRemaining, user?.id]);
+
     useEffect(() => {
         // Immediate redirect if no active test config is detected in URL.
         const modeParam = searchParams.get('mode');
@@ -142,7 +195,15 @@ export const MockGenerator = () => {
                 handleSubmitExam(true);
             }
         }
-    }, [step, timeRemaining, mode]); // Added mode to dependencies
+    }, [step, timeRemaining, mode]);
+
+    const handleExit = () => {
+        if (questions.length > 0 && step === 'exam') {
+            if (!window.confirm("Are you sure you want to exit? Your progress will be saved in history but this session will end.")) return;
+        }
+        sessionStorage.removeItem('active_test_session');
+        navigate('/dashboard/test-center');
+    };
 
     const saveProgress = async (status: 'paused' | 'completed') => {
         if (!user) return;
@@ -389,14 +450,29 @@ export const MockGenerator = () => {
             }
         }
 
-        // 2. Adaptive Selection Loop
-        // We try to fetch from DB. getAdaptiveQuestion handles DB-first then API.
-        for (let i = 0; i < count; i++) {
+        // 2. Adaptive Selection Loop - PREVENT DUPLICATES & ENSURE COUNT
+        let attempts = 0;
+        const maxAttempts = Math.ceil(count * 1.5) + 5; // Allow buffer for failures/duplicates
+        const seenQuestions = new Set<string>();
+
+        while (collected.length < count && attempts < maxAttempts) {
+            attempts++;
             try {
-                const topic = urlTopic || subject; // Default to subject if no specific topic
+                const topic = urlTopic || subject;
                 const q = await getAdaptiveQuestion(user?.id || 'guest', topic, targetExam, weaknessScore, subject);
 
                 if (q) {
+                    // Check for duplicates in current batch
+                    const qId = q.id || q.question;
+                    if (seenQuestions.has(qId)) {
+                        console.warn(`[MockGenerator] Duplicate question detected (${qId}), skipping...`);
+                        continue;
+                    }
+                    seenQuestions.add(qId);
+
+                    // NEW: Small delay between questions to avoid hitting TPM/RPM limits
+                    await new Promise(res => setTimeout(res, 300));
+
                     // Normalize StoredQuestion to UI Question type
                     let correctAnswerIndex = 0;
                     const optionsArray: string[] = Array.isArray(q.options)
@@ -404,33 +480,31 @@ export const MockGenerator = () => {
                         : Object.values(q.options);
 
                     if (typeof q.correct_answer === 'string') {
-                        // If correct_answer is "A", "B", etc.
                         if (q.correct_answer.length === 1 && /[A-D]/.test(q.correct_answer)) {
                             correctAnswerIndex = q.correct_answer.charCodeAt(0) - 65;
                         } else {
-                            // Try finding the index in options
                             const foundIndex = optionsArray.indexOf(q.correct_answer);
                             if (foundIndex !== -1) correctAnswerIndex = foundIndex;
                         }
                     }
 
                     collected.push({
-                        id: startId + i,
+                        id: startId + collected.length,
                         text: q.question,
                         options: optionsArray,
                         correctAnswer: correctAnswerIndex,
                         explanation: q.explanation,
                         topic: q.topic || subject,
-                        imageUrl: undefined // Add logic if diagrams are needed
+                        imageUrl: undefined
                     });
-                }
-            } catch (e) {
-                console.error(`Failed to get adaptive question ${i}`, e);
-            }
 
-            // Avoid hitting API too hard if many misses (though getAdaptiveQuestion handles its own logic)
-            if (i > 0 && i % 5 === 0) {
-                setLoadingMessage(`Generating... (${collected.length}/${count})`);
+                    setLoadingMessage(`Generating... (${collected.length}/${count})`);
+                }
+            } catch (e: any) {
+                if (e.code === 'permission-denied' || e.message?.includes('Missing or insufficient permissions')) {
+                    throw e;
+                }
+                console.error(`Failed to get adaptive question at attempt ${attempts}`, e);
             }
         }
 
@@ -575,9 +649,13 @@ export const MockGenerator = () => {
                 }
             }
             setStep('preview');
-        } catch (e) {
+        } catch (e: any) {
             console.error(e);
-            alert("Failed to generate exam. Please try again.");
+            if (e.code === 'permission-denied' || e.message?.includes('Missing or insufficient permissions')) {
+                alert("Creation Failed: Firestore Logic Rules are not deployed. Please run 'firebase deploy --only firestore' in your terminal.");
+            } else {
+                alert("Failed to generate exam. Please try again.");
+            }
             navigate('/dashboard/test-center');
         }
     };
@@ -765,12 +843,21 @@ export const MockGenerator = () => {
 
     if (step === 'loading') {
         return (
-            <div className="flex flex-col items-center justify-center h-[60vh] space-y-4">
+            <div className="flex flex-col items-center justify-center min-h-[60vh] space-y-6">
                 <Loader2 size={48} className="text-primary animate-spin" />
                 <h2 className="text-xl font-bold text-text-main">Building Your Exam</h2>
                 <p className="text-text-muted">{loadingMessage}</p>
                 <div className="flex items-center gap-2 text-xs text-text-muted mt-4">
                     <Brain size={14} /> Only sourcing last 10 years PYQ-style
+                </div>
+
+                <div className="pt-8 w-full max-w-xs">
+                    <button
+                        onClick={handleExit}
+                        className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-surface border border-border text-text-muted hover:text-primary hover:border-primary/30 transition-all font-medium group"
+                    >
+                        <ArrowLeft size={18} className="group-hover:-translate-x-1 transition-transform" /> Cancel & Return
+                    </button>
                 </div>
             </div>
         );
@@ -949,7 +1036,7 @@ export const MockGenerator = () => {
     if (step === 'preview') {
         const timeLimit = Math.floor(timeRemaining / 60);
         return (
-            <div className="flex flex-col items-center justify-center min-h-[60vh] space-y-8 max-w-2xl mx-auto text-center animate-fade-in-up">
+            <div className="flex flex-col items-center justify-center min-h-[60vh] space-y-8 max-w-2xl mx-auto text-center animate-fade-in-up py-10">
                 <div className="w-24 h-24 bg-primary/10 rounded-full flex items-center justify-center">
                     <Brain size={48} className="text-primary" />
                 </div>
@@ -997,6 +1084,15 @@ export const MockGenerator = () => {
                 >
                     Start Test Now
                 </button>
+
+                <div className="w-full max-w-xs pt-4">
+                    <button
+                        onClick={handleExit}
+                        className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-surface border border-border text-text-muted hover:text-primary hover:border-primary/30 transition-all font-medium group"
+                    >
+                        <ArrowLeft size={18} className="group-hover:-translate-x-1 transition-transform" /> Back to Menu
+                    </button>
+                </div>
             </div>
         );
     }
@@ -1302,14 +1398,17 @@ export const MockGenerator = () => {
     }
 
     if (step === 'history') {
-        return <MockHistoryView user={user} onBack={() => setStep('config')} onResume={handleResume} />;
+        return <MockHistoryView user={user} onBack={() => {
+            sessionStorage.removeItem('active_test_session');
+            setStep('config');
+        }} onResume={handleResume} />;
     }
 
     return (
-        <div className="flex items-center justify-center min-h-[400px]">
-            <div className="animate-pulse text-text-muted flex items-center gap-3">
-                <Brain className="animate-bounce" />
-                Redirecting to Test Center...
+        <div className="flex items-center justify-center min-h-[60vh]">
+            <div className="flex flex-col items-center gap-4 text-text-muted">
+                <Brain size={48} className="animate-pulse text-primary/40" />
+                <p className="animate-pulse">{loadingMessage || "Preparing Your Session..."}</p>
             </div>
         </div>
     );

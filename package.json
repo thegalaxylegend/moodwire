@@ -11,7 +11,8 @@
     "seo:regen": "node scripts/generate-seo-manifest.js && node scripts/generate-sitemap.js && node scripts/validate-seo.js",
     "seo:check": "node scripts/validate-seo.js",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy:rules": "firebase deploy --only firestore"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",

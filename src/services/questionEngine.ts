@@ -13,6 +13,9 @@ import {
     getCountFromServer
 } from 'firebase/firestore';
 import { askAI } from '../lib/ai';
+import { extractJSON } from '../lib/utils';
+
+const sleep = (ms: number) => new Promise(res => setTimeout(res, ms));
 
 export interface StoredQuestion {
     id?: string;
@@ -67,7 +70,7 @@ const verifyQuestionTriply = async (questionData: Partial<StoredQuestion>): Prom
         4. If wrong, provide the FIXED version in JSON.
         5. If doubtful or confidence < 95%, reply with {"status": "REJECT"}.
         
-        OUTPUT FORMAT (JSON ONLY):
+        OUTPUT FORMAT (JSON ONLY - STRICTLY NO MARKDOWN, NO PREAMBLE):
         {
           "status": "APPROVED" | "REFIXED" | "REJECT",
           "fixed_data": { ...same structure as input if REFIXED... },
@@ -76,10 +79,10 @@ const verifyQuestionTriply = async (questionData: Partial<StoredQuestion>): Prom
         `;
 
         try {
-            const response = await askAI("You are a strict senior exam reviewer.", verificationPrompt, 'groq');
+            const response = await askAI("You are a strict senior exam reviewer.", verificationPrompt, 'groq', [], { jsonMode: false });
             if (!response) return { verified: false };
 
-            const result = JSON.parse(response.replace(/```json/g, '').replace(/```/g, '').trim());
+            const result = extractJSON(response);
 
             if (result.status === 'REJECT' || (result.confidence || 0) < 0.95) {
                 console.warn(`[QuestionEngine] Question rejected in round ${i}`);
@@ -89,6 +92,9 @@ const verifyQuestionTriply = async (questionData: Partial<StoredQuestion>): Prom
             if (result.status === 'REFIXED' && result.fixed_data) {
                 currentData = { ...currentData, ...result.fixed_data };
             }
+
+            // Mandatory breath between rounds to avoid 429
+            await sleep(2000);
         } catch (e) {
             console.error(`Verification round ${i} failed`, e);
             return { verified: false };
@@ -150,7 +156,7 @@ export const generateInspiredQuestion = async (
     2. ORIGINAL content only. Inspired by PYQs but NOT copied.
     3. Include conceptual traps.
     
-    OUTPUT FORMAT (JSON):
+    OUTPUT FORMAT (JSON ONLY - STRICTLY NO PREAMBLE, NO MARKDOWN):
     {
       "exam": "${exam}",
       "subject": "${subject}",
@@ -168,10 +174,10 @@ export const generateInspiredQuestion = async (
     `;
 
     try {
-        const response = await askAI("You are a technical question generator.", generationPrompt, 'groq');
+        const response = await askAI("You are a technical question generator.", generationPrompt, 'groq', [], { jsonMode: false });
         if (!response) return null;
 
-        const rawData = JSON.parse(response.replace(/```json/g, '').replace(/```/g, '').trim());
+        const rawData = extractJSON(response);
 
         // 1. SHA256 Duplication Check
         const hashText = rawData.question + JSON.stringify(rawData.options);
@@ -185,6 +191,7 @@ export const generateInspiredQuestion = async (
         }
 
         // 2. Triple Verification
+        await sleep(500); // Throttling to avoid 429
         const verification = await verifyQuestionTriply(rawData);
         if (!verification.verified || !verification.data) {
             return null;
@@ -281,7 +288,10 @@ export const getAdaptiveQuestion = async (
 
         return await generateInspiredQuestion({ exam, subject: finalSubject, topic, difficulty: targetDifficulty });
 
-    } catch (e) {
+    } catch (e: any) {
+        if (e.code === 'permission-denied' || e.message?.includes('Missing or insufficient permissions')) {
+            throw e;
+        }
         console.error("Adaptive selection failed", e);
         return null;
     }

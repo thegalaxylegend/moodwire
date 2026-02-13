@@ -428,6 +428,8 @@ export const useUserStore = create<UserState>((set, get) => ({
     logout: async () => {
         await signOut(auth);
         set({ user: null, isAuthenticated: false });
+        // Force redirect to login on manual logout
+        window.location.href = '/login';
     },
 
     loginAsGuest: async () => {

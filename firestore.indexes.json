@@ -1,0 +1,145 @@
+{
+    "indexes": [
+        {
+            "collectionGroup": "engine_questions",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "exam",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "topic",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "difficulty",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "usage_count",
+                    "order": "ASCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "engine_questions",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "exam",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "subject",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "difficulty",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "usage_count",
+                    "order": "ASCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "engine_questions",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "exam",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "topic",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "usage_count",
+                    "order": "ASCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "engine_questions",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "exam",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "subject",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "usage_count",
+                    "order": "ASCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "user_topic_stats",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "user_id",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "last_attempt",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "user_topic_stats",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "user_id",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "topic",
+                    "order": "ASCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "diagnostic_results",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "user_id",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "class",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "exam",
+                    "order": "ASCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "syllabus",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "user_id",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "is_completed",
+                    "order": "ASCENDING"
+                }
+            ]
+        }
+    ],
+    "fieldOverrides": []
+}

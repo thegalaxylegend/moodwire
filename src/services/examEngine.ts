@@ -1,4 +1,5 @@
 import { askAI } from '../lib/ai';
+import { extractJSON } from '../lib/utils';
 
 export interface Question {
     question_id: string;
@@ -130,9 +131,7 @@ export const generateTest = async (
         }
 
         // 4. Parse JSON
-        // Clean markdown code blocks if present
-        const cleanJson = response.replace(/```json/g, '').replace(/```/g, '').trim();
-        const testData: ExamTest = JSON.parse(cleanJson);
+        const testData: ExamTest = extractJSON(response);
 
         return testData;
 

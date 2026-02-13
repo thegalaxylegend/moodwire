@@ -3,10 +3,13 @@ import { EXAM_SUBJECT_MAPPING, SYLLABUS_DB } from './constants';
 /**
  * Robustly extract JSON from AI string, handling common formatting issues.
  */
+/**
+ * Robustly extract JSON from AI string, handling common formatting issues.
+ */
 export function extractJSON(input: string): any {
     if (!input) throw new Error("Empty AI response");
 
-    // NEW: Detect system/rate-limit messages before trying to parse
+    // 1. Detect system/rate-limit messages first
     const lowerInput = input.toLowerCase();
     if (lowerInput.includes("service busy") || lowerInput.includes("rate limit") || lowerInput.includes("too many requests")) {
         const error = new Error("AI_SERVICE_BUSY");
@@ -14,63 +17,82 @@ export function extractJSON(input: string): any {
         throw error;
     }
 
+    const sanitized = input.trim();
+
+    // 2. Try direct parse (fastest)
     try {
-        // 1. Try direct parse
-        return JSON.parse(input);
+        return JSON.parse(sanitized);
     } catch (e) {
-        // 2. Look for code blocks
-        const codeBlockRegex = /```(?:json)?\s*([\s\S]*?)\s*```/g;
-        const blocks: string[] = [];
-        let match;
+        // Continue to extraction
+    }
 
-        while ((match = codeBlockRegex.exec(input)) !== null) {
-            blocks.push(match[1]);
-        }
-
-        if (blocks.length > 0) {
-            try {
-                // If there are multiple blocks, they might be partial arrays.
-                // We'll try to parse and merge them if they are arrays.
-                const results = blocks.map(b => {
-                    try {
-                        return JSON.parse(sanitizeJSONString(b));
-                    } catch {
-                        return null;
-                    }
-                }).filter(r => r !== null);
-
-                if (results.length === 1) return results[0];
-                if (results.length > 1 && Array.isArray(results[0])) {
-                    return results.flat();
-                }
-            } catch (err) {
-                console.warn("Failed to parse from code blocks, falling back to regex extraction");
-            }
-        }
-
-        // 3. Fallback: Regex for objects/arrays
-        const jsonMatch = input.match(/(\[[\s\S]*\]|\{[\s\S]*\})/);
-        if (jsonMatch) {
-            try {
-                return JSON.parse(sanitizeJSONString(jsonMatch[0]));
-            } catch (err) {
-                // If regex match fails to parse, try repairing it
-                try {
-                    return JSON.parse(repairTruncatedJSON(jsonMatch[0]));
-                } catch (repairErr) {
-                    console.error("JSON Extraction Failed. Input preview:", input.substring(0, 100));
-                    throw new Error("Invalid JSON format from AI");
-                }
-            }
-        }
-
-        // 4. Ultimate Fallback: Try repairing the whole input if it looks like JSON
+    // 3. Try to find JSON inside markdown code blocks
+    const codeBlockRegex = /```(?:json)?\s*([\s\S]*?)\s*```/g;
+    let match;
+    while ((match = codeBlockRegex.exec(sanitized)) !== null) {
+        const block = match[1].trim();
         try {
-            return JSON.parse(repairTruncatedJSON(input));
-        } catch (finalErr) {
-            throw new Error("No JSON found in AI response");
+            return JSON.parse(sanitizeJSONString(block));
+        } catch (e) {
+            // Keep trying other blocks
         }
     }
+
+    // 4. Boundary extraction: Look for the first { and last } (for objects)
+    const firstBrace = sanitized.indexOf('{');
+    const lastBrace = sanitized.lastIndexOf('}');
+    if (firstBrace !== -1 && lastBrace !== -1 && lastBrace > firstBrace) {
+        const candidate = sanitized.substring(firstBrace, lastBrace + 1);
+        try {
+            return JSON.parse(sanitizeJSONString(candidate));
+        } catch (e) {
+            // If direct parse of boundary failed, it might be truncated
+            try {
+                return JSON.parse(repairTruncatedJSON(candidate));
+            } catch (e2) {
+                // fall through
+            }
+        }
+    }
+
+    // 5. Boundary extraction: Look for first [ and last ] (for arrays)
+    const firstBracket = sanitized.indexOf('[');
+    const lastBracket = sanitized.lastIndexOf(']');
+    if (firstBracket !== -1 && lastBracket !== -1 && lastBracket > firstBracket) {
+        const candidate = sanitized.substring(firstBracket, lastBracket + 1);
+        try {
+            return JSON.parse(sanitizeJSONString(candidate));
+        } catch (e) {
+            try {
+                return JSON.parse(repairTruncatedJSON(candidate));
+            } catch (e2) {
+                // fall through
+            }
+        }
+    }
+
+    // 6. Ultimate Fallback: Try repairing the whole thing if it looks like it might have JSON
+    try {
+        const repairedWhole = repairTruncatedJSON(sanitized);
+        // Ensure we actually removed the non-JSON prefix if repair was called on the whole string
+        const start = Math.max(repairedWhole.indexOf('{'), repairedWhole.indexOf('['));
+        if (start !== -1) {
+            return JSON.parse(repairedWhole.substring(start));
+        }
+    } catch (finalErr) {
+        // Last ditch effort: regex for anything between braces
+        const greedyMatch = sanitized.match(/(\{[\s\S]*\}|\[[\s\S]*\])/);
+        if (greedyMatch) {
+            try {
+                return JSON.parse(sanitizeJSONString(greedyMatch[0]));
+            } catch (e) {
+                // failed
+            }
+        }
+    }
+
+    console.error("Critical JSON Parsing Failure. Content:", sanitized.substring(0, 200));
+    throw new Error("No valid JSON found in AI response");
 }
 
 /**
@@ -80,15 +102,14 @@ export function extractJSON(input: string): any {
 function repairTruncatedJSON(str: string): string {
     let json = str.trim();
 
-    // Find where the last valid-ish element ends
-    // We look for the last complete object or trailing commas
-    const lastBrace = json.lastIndexOf('}');
+    // Find the actual start of JSON content to avoid repairing text preambles
+    const braceStart = json.indexOf('{');
+    const bracketStart = json.indexOf('[');
+    let start = -1;
+    if (braceStart !== -1 && (bracketStart === -1 || braceStart < bracketStart)) start = braceStart;
+    else if (bracketStart !== -1) start = bracketStart;
 
-    // If it's an array, we try to close it at the last complete object
-    if (json.startsWith('[') && lastBrace > 0) {
-        json = json.substring(0, lastBrace + 1) + ']';
-        return sanitizeJSONString(json);
-    }
+    if (start > 0) json = json.substring(start);
 
     // Generic stack-based closer
     const stack: string[] = [];
@@ -101,11 +122,17 @@ function repairTruncatedJSON(str: string): string {
         if (char === '"' && !escaped) inString = !inString;
         if (!inString) {
             if (char === '{' || char === '[') stack.push(char);
-            if (char === '}' || char === ']') stack.pop();
+            if (char === '}' || char === ']') {
+                if (stack.length > 0) stack.pop();
+                else continue; // Extra closing brace, skip it
+            }
         }
         repaired += char;
         escaped = char === "\\" && !escaped;
     }
+
+    // Force close an unclosed string if it exists
+    if (inString) repaired += '"';
 
     // Close everything in reverse order
     while (stack.length > 0) {
@@ -114,7 +141,14 @@ function repairTruncatedJSON(str: string): string {
         if (last === '[') repaired += ']';
     }
 
-    return sanitizeJSONString(repaired);
+    // FINAL CLEANUP: Remove trailing junk that might invalidate the JSON
+    // e.g. "key": "val", "oth
+    let finalStr = sanitizeJSONString(repaired);
+
+    // If it ends with something like , it's likely a partial key/value
+    finalStr = finalStr.replace(/,\s*$/g, '');
+
+    return finalStr;
 }
 
 function sanitizeJSONString(str: string): string {
@@ -123,6 +157,7 @@ function sanitizeJSONString(str: string): string {
         .replace(/[\u0000-\u001F\u007F-\u009F]/g, "") // Remove control characters
         .trim();
 }
+
 
 export const slugify = (text: string): string => {
     return text

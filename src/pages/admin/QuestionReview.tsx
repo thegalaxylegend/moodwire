@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { askAI } from '../../lib/ai';
-// import { extractJSON } from '../../lib/utils'; // We can use Zod here too
+import { extractJSON } from '../../lib/utils';
 import { db } from '../../lib/firebase';
 import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
 import { Loader2, CheckCircle, Brain, Edit2, Trash2, Database } from 'lucide-react';
@@ -47,12 +47,7 @@ export const QuestionReview = () => {
         try {
             const response = await askAI('Exam Expert', prompt, 'groq', [], { temperature: 0.1 });
             if (response) {
-                // Re-using the Zod logic (could be a shared utility)
-                let jsonStr = response;
-                if (response.includes('```json')) jsonStr = response.split('```json')[1].split('```')[0];
-                else if (response.includes('```')) jsonStr = response.split('```')[1].split('```')[0];
-
-                const parsed = JSON.parse(jsonStr);
+                const parsed = extractJSON(response);
                 const Schema = z.array(z.object({
                     id: z.number().optional(),
                     text: z.string(),

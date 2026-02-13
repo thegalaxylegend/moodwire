@@ -1,0 +1,66 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helper function to check if user is authenticated
+    function isAuth() {
+      return request.auth != null;
+    }
+
+    // Helper to check if user is the owner
+    function isOwner(userId) {
+      return isAuth() && request.auth.uid == userId;
+    }
+
+    // Helper to check if data belongs to the user
+    function dataBelongsToUser() {
+      return isAuth() && (
+        (resource != null && resource.data.user_id == request.auth.uid) ||
+        (request.resource != null && request.resource.data.user_id == request.auth.uid)
+      );
+    }
+
+    // Engine Questions - Read for everyone, Write for authenticated users
+    match /engine_questions/{question} {
+      allow read: if true;
+      allow write: if isAuth();
+    }
+
+    // User Topic Stats - Restricted to owner
+    match /user_topic_stats/{stat} {
+      allow read, write: if dataBelongsToUser() || (stat.size() >= 20 && stat[0:20] == request.auth.uid[0:20]);
+    }
+
+    // Diagnostic Results - Restricted to owner
+    match /diagnostic_results/{result} {
+      allow read, write: if dataBelongsToUser();
+    }
+
+    // Leaderboards - Season-based ranking
+    match /leaderboards/{season}/users/{userId} {
+      allow read: if true;
+      allow write: if isOwner(userId);
+    }
+
+    // Mock Attempts - Source of truth for tests taken
+    match /mock_attempts/{attempt} {
+      allow read, write: if dataBelongsToUser();
+    }
+
+    // Syllabus - Completion tracking
+    match /syllabus/{syllabusItem} {
+      allow read, write: if dataBelongsToUser() || (syllabusItem.size() >= 20 && syllabusItem[0:20] == request.auth.uid[0:20]);
+    }
+
+    // User Profiles
+    match /profiles/{userId} {
+      allow read: if true; // Always allow read for lookups/migration
+      allow write: if isOwner(userId);
+    }
+
+    // Global Deny
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

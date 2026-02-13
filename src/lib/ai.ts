@@ -1,3 +1,5 @@
+import { extractJSON } from './utils';
+
 // Initialize Clients
 const GROQ_KEYS = [
     import.meta.env.VITE_GROQ_API_KEY,
@@ -61,7 +63,7 @@ Your goal is to reconstruct the REAL exam experience.
 3. CONCEPT PERSONALITY:
 - Assign a "personality" to the concept (e.g., "Tricky but scoring", "Easy-looking but deceptive").
 
-Output strictly in JSON format:
+Output STRICTLY in JSON format. DO NOT include any preamble, conversation, or markdown blocks.
 {
   "question": "The question text",
   "options": ["Option A", "Option B", "Option C", "Option D"],
@@ -87,7 +89,7 @@ export const generateMockQuestion = async (exam: string, subject: string, provid
                     temperature: 0.7,
                     response_format: { type: 'json_object' }
                 });
-                return JSON.parse(completion.choices[0].message.content || '{}');
+                return extractJSON(completion.choices[0].message.content || '{}');
             }
 
             // Gemini logic remains (no rotation implemented here yet)
@@ -97,7 +99,7 @@ export const generateMockQuestion = async (exam: string, subject: string, provid
                 const result = await model.generateContent(prompt);
                 const text = result.response.text();
                 const jsonStr = text.replace(/```json/g, '').replace(/```/g, '');
-                return JSON.parse(jsonStr);
+                return extractJSON(jsonStr);
             }
         } catch (error: any) {
             // Check for rate limit error (usually 429)
@@ -145,7 +147,7 @@ export const verifyContent = async (
 
     try {
         const response = await askAI("Critical Editor", prompt, 'groq', [], { jsonMode: true });
-        const result = JSON.parse(response || '{}');
+        const result = extractJSON(response || '{}');
         return result;
     } catch (e) {
         console.warn("Verification failed, failing open (assuming valid)", e);
@@ -153,8 +155,9 @@ export const verifyContent = async (
     }
 };
 
-export const askAI = async (
+const sleep = (ms: number) => new Promise(res => setTimeout(res, ms));
 
+export const askAI = async (
     context: string,
     question: string,
     provider: AIProvider = 'groq',
@@ -170,6 +173,8 @@ export const askAI = async (
     imageBase64?: string,
     importantMemories: string = ""
 ) => {
+    let currentOptions = { ...options };
+
     for (let attempt = 0; attempt < GROQ_KEYS.length * 2; attempt++) {
         try {
             if (provider === 'groq') {
@@ -251,8 +256,8 @@ TONE: Snappy, intelligent, and subtly caring. You hide your heart behind your br
                     messages.push({ role: 'user', content: question });
                 }
 
-                const modelId = imageBase64 ? 'llama-3.2-11b-vision-preview' : 'llama-3.1-8b-instant';
-                console.log(`📡 Sending to model: ${modelId}`);
+                const modelId = imageBase64 ? 'llama-3.2-11b-vision-preview' : 'llama-3.3-70b-versatile';
+                console.log(`📡 Sending to model: ${modelId} (JSON: ${currentOptions.jsonMode || 'off'})`);
 
                 // Add a timeout to prevent forever hanging
                 const timeoutPromise = new Promise((_, reject) =>
@@ -262,8 +267,8 @@ TONE: Snappy, intelligent, and subtly caring. You hide your heart behind your br
                 const completionPromise = groq.chat.completions.create({
                     messages,
                     model: modelId,
-                    temperature: (options?.temperature ?? 0.7),
-                    response_format: options?.jsonMode ? { type: 'json_object' } : undefined
+                    temperature: (currentOptions?.temperature ?? 0.7),
+                    response_format: currentOptions?.jsonMode ? { type: 'json_object' } : undefined
                 });
 
                 const completion: any = await Promise.race([completionPromise, timeoutPromise]);
@@ -272,16 +277,29 @@ TONE: Snappy, intelligent, and subtly caring. You hide your heart behind your br
                 return completion.choices[0].message.content;
             }
         } catch (e: any) {
-            console.warn(`⚠️ AI Attempt Failed (${provider}):`, e.message || e);
-            // Rotate on Rate Limit (429), Invalid Key (401), or Timeout
+            console.warn(`⚠️ AI Attempt Failed (${provider}) [Attempt ${attempt + 1}]:`, e.message || e);
+
+            // 429 Rate Limit or Timeout or 401
             if (e?.status === 429 || e?.status === 401 || e?.code === 'rate_limit_exceeded' || e?.message === 'AI_TIMEOUT') {
                 rotateKey();
+                await sleep(1000 * Math.min(attempt + 1, 3)); // Wait before retry
                 continue;
             }
-            return `Connection error (${e?.message || 'Unknown'}). Please try again.`;
+
+            // 400 json_validate_failed: Retry without JSON mode stringency
+            if (e?.status === 400 && e?.message?.includes('json_validate_failed')) {
+                console.warn("JSON validation failed at Groq layer. Retrying without hard JSON mode...");
+                currentOptions.jsonMode = false; // Trust extractJSON utility instead
+                continue;
+            }
+
+            // If we've exhausted attempts or it's a non-retryable error
+            if (attempt === (GROQ_KEYS.length * 2) - 1) {
+                throw e; // Final failure, throw so caller can handle properly
+            }
         }
     }
-    return "Service busy, please try again later.";
+    throw new Error("AI service exhausted all retry attempts.");
 }
 
 export const askAIWithImage = async (context: string, question: string, imageBase64: string) => {
