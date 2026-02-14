@@ -55,11 +55,29 @@ async function getQuestionsFromAdminSDK() {
         const db = admin.firestore();
         console.log('🛡️ Authenticated as Admin.');
 
-        // Try 'verified_questions' first, then fallback to 'questions'
-        let snap = await db.collection('verified_questions').get();
+        // Fetch ALL questions from both collections to ensure maximum SEO coverage
+        const verifiedSnap = await db.collection('verified_questions').get();
+        const questionsSnap = await db.collection('questions').get();
+
+        console.log(`📊 Found ${verifiedSnap.size} verified questions and ${questionsSnap.size} total questions.`);
+
+        const allDocs = new Map();
+
+        // 1. Add verified questions
+        verifiedSnap.docs.forEach(doc => allDocs.set(doc.id, doc));
+
+        // 2. Add standard questions (if not already present)
+        questionsSnap.docs.forEach(doc => {
+            if (!allDocs.has(doc.id)) {
+                allDocs.set(doc.id, doc);
+            }
+        });
+
+        const snap = { empty: allDocs.size === 0, docs: Array.from(allDocs.values()) };
+
         if (snap.empty) {
-            console.log('⚠️ verified_questions empty, trying "questions" collection...');
-            snap = await db.collection('questions').get();
+            console.log('⚠️ Both collections are empty.');
+            return [];
         }
 
         if (snap.empty) return [];

@@ -1,5 +1,5 @@
 import { Calendar, TrendingUp, Filter } from 'lucide-react';
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
 const exams = [
@@ -76,7 +76,6 @@ const exams = [
 ];
 
 export const ExamGrid = () => {
-    const navigate = useNavigate();
     const [filter, setFilter] = useState('All');
 
     const filteredExams = filter === 'All'
@@ -112,10 +111,10 @@ export const ExamGrid = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 animate-fade-in-up">
                 {filteredExams.map((exam) => (
-                    <div
+                    <Link
                         key={exam.id}
-                        onClick={() => navigate('/dashboard')}
-                        className="glass-card p-6 hover:translate-y-[-4px] cursor-pointer group"
+                        to={`/${exam.id}`}
+                        className="glass-card p-6 hover:translate-y-[-4px] cursor-pointer group block"
                     >
                         <div className="flex justify-between items-start mb-4">
                             <div>
@@ -151,7 +150,7 @@ export const ExamGrid = () => {
                                 </span>
                             </div>
                         </div>
-                    </div>
+                    </Link>
                 ))}
             </div>
         </section>
