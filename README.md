@@ -123,3 +123,36 @@ Uploads the `dist` folder to Firebase Hosting. The `firebase.json` is configured
 
 > **Note on Firebase & SEO:**
 > Googlebot crawls the *Static HTML* served by Firebase Hosting. It does NOT need to execute JavaScript to see the content, ensuring 100% indexability for our thousands of topic pages.
+
+---
+
+## 🆘 Disaster Recovery
+
+**If you lose your development machine:**
+
+1.  **Clone Repository:**
+    ```bash
+    git clone https://github.com/thegalaxylegend/examcompass.git
+    cd examcompass
+    ```
+
+2.  **Install Dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Verify Configuration:**
+    *   Check `service-account.json` (Admin SDK Key)
+    *   Check `.env` (API Keys)
+    *   *Note: These files are tracked in this repository for full recovery.*
+
+4.  **Start Development:**
+    ```bash
+    npm run dev
+    ```
+
+5.  **Deploy Updates:**
+    ```bash
+    npm run ssg    # Build static pages
+    firebase deploy
+    ```
