@@ -37,6 +37,7 @@ async function prerender() {
     if (!routes.includes('/')) routes.unshift('/');
 
     console.log(`Goals: ${routes.length} pages to render.`);
+    console.log(`QuestionDB Size: ${Object.keys(questionDb).length}`);
 
     // 3. Batch Processing
     const BATCH_SIZE = 50;
@@ -50,12 +51,34 @@ async function prerender() {
 
         await Promise.all(batch.map(async (url) => {
             try {
-                // INJECT GLOBAL DATA if it matches a question URL
-                // The component QuestionPage.tsx must read this
+                // INJECT GLOBAL DATA
+
                 if (questionDb[url]) {
                     globalThis.SEO_QUESTION_DATA = questionDb[url];
                 } else {
                     globalThis.SEO_QUESTION_DATA = null;
+                }
+
+                // 2. For Topic Pages (Inject Sample Questions)
+                const isTopicPage = manifest[url]?.type === 'topic';
+                if (isTopicPage) {
+                    const topicName = manifest[url].h1; // We stored topic name in h1
+                    // Filter questions that match this topic
+                    const relatedQuestions = Object.values(questionDb).filter((q) => {
+                        // Loose matching: slugify both
+                        const qTopic = (q.topic || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+                        const pTopic = topicName.toLowerCase().replace(/[^a-z0-9]/g, '');
+                        return qTopic === pTopic || qTopic.includes(pTopic) || pTopic.includes(qTopic);
+                    }).slice(0, 15); // Take top 15
+
+                    globalThis.SEO_TOPIC_DATA = relatedQuestions.map(q => ({
+                        id: q.id,
+                        slug: q.slug,
+                        text: q.text,
+                        sourceYear: q.sourceYear
+                    }));
+                } else {
+                    globalThis.SEO_TOPIC_DATA = [];
                 }
 
                 const helmetContext = {};
@@ -82,7 +105,9 @@ async function prerender() {
                 // Verification logic
                 if (url.includes('/q/')) {
                     if (!html.includes('<h1') && !html.includes('<H1')) {
-                        throw new Error(`Question Page ${url} rendered without H1 tag.`);
+                        // Check if we had data
+                        const hadData = !!questionDb[url];
+                        throw new Error(`Question Page ${url} rendered without H1 tag. Data present: ${hadData}`);
                     }
                     if (!html.includes('schema.org')) {
                         console.warn(`⚠️  Warning: ${url} missing Schema.`);

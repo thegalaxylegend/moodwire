@@ -7,6 +7,10 @@ import { SYLLABUS_DB } from '../../lib/constants';
 import { slugify } from '../../lib/utils';
 import { useUserStore } from '../../store/userStore';
 
+declare global {
+    var SEO_TOPIC_DATA: any[];
+}
+
 export const TopicPage = () => {
     const { exam, subject, topic } = useParams();
     const { user } = useUserStore();
@@ -21,6 +25,11 @@ export const TopicPage = () => {
     const cleanTopicName = topicData?.topic.replace(/\[.*?\]\s*/g, '') || topic?.replace(/-/g, ' ');
 
     const contextName = formattedExam === 'SCHOOL EXAMS' ? (user?.userClass || topicData?.class || 'CBSE Class') : formattedExam;
+
+    // SEO Data Hydration
+    const sampleQuestions = (typeof globalThis !== 'undefined' && globalThis.SEO_TOPIC_DATA)
+        ? globalThis.SEO_TOPIC_DATA
+        : [];
 
     // Schema Data
     const schemaData = {
@@ -37,7 +46,12 @@ export const TopicPage = () => {
             "@type": "CourseInstance",
             "courseMode": "online",
             "courseWorkload": "PT2H"
-        }
+        },
+        "itemListElement": sampleQuestions.map((q, i) => ({
+            "@type": "ListItem",
+            "position": i + 1,
+            "url": `https://examcompass.web.app/${exam}/q/${q.slug}`
+        }))
     };
 
     return (
@@ -83,7 +97,29 @@ export const TopicPage = () => {
                     </div>
                 </div>
 
-                {/* Duplicate Content Removed - Sample Question Block Deleted */}
+                {/* Internal Linking for SEO - Sample Questions */}
+                {sampleQuestions.length > 0 && (
+                    <div className="mt-20 border-t border-white/10 pt-10">
+                        <h2 className="text-2xl font-bold mb-6">Practice {cleanTopicName} Questions</h2>
+                        <div className="grid gap-4 md:grid-cols-2">
+                            {sampleQuestions.map((q: { id: string; slug: string; text: string; sourceYear?: string }) => (
+                                <Link
+                                    key={q.id}
+                                    to={`/${exam}/q/${q.slug}`}
+                                    className="p-4 rounded-xl bg-white/5 border border-white/10 hover:border-purple-500/50 hover:bg-white/10 transition-all group"
+                                >
+                                    <h4 className="font-semibold text-gray-200 group-hover:text-purple-300 transition-colors line-clamp-2 mb-2">
+                                        {q.text}
+                                    </h4>
+                                    <div className="flex gap-2 text-xs text-gray-500">
+                                        <span className="bg-black/30 px-2 py-1 rounded">View Solution</span>
+                                        {q.sourceYear && <span className="bg-yellow-500/10 text-yellow-500 px-2 py-1 rounded">{q.sourceYear}</span>}
+                                    </div>
+                                </Link>
+                            ))}
+                        </div>
+                    </div>
+                )}
             </section>
         </div>
     );

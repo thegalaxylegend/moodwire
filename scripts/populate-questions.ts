@@ -1,94 +1,125 @@
-import { db } from '../src/lib/firebase';
-import { collection, query, where, getCountFromServer, addDoc } from 'firebase/firestore';
+import { initializeApp } from "firebase/app";
+import { getFirestore, collection, query, where, getCountFromServer, addDoc } from 'firebase/firestore';
 import { SYLLABUS_DB, SyllabusTopic } from '../src/lib/constants';
-import { generateInspiredQuestion } from '../src/services/questionEngine';
 import dotenv from 'dotenv';
 dotenv.config();
 
-const TOPIC_LIMIT = 50;
+// ----------------------
+// FIREBASE CONFIG (Hardcoded for script reliability)
+// ----------------------
+const firebaseConfig = {
+    apiKey: "AIzaSyAj0_vu8OxPWVHvAWSRVN90y9GIStvQASY",
+    authDomain: "legendstech001.firebaseapp.com",
+    projectId: "legendstech001",
+    storageBucket: "legendstech001.firebasestorage.app",
+    messagingSenderId: "749589426436",
+    appId: "1:749589426436:web:64b0455b7f90a7849c6051",
+    measurementId: "G-7MWNJDZ5D0"
+};
+
+// Initialize Firebase locally for this script
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+
+// ----------------------
+// CONFIGURATION
+// ----------------------
+const QUESTIONS_PER_TOPIC_TARGET = 3;
 
 /**
- * Script to populate the database with questions for every topic in the syllabus.
- * It iterates through every Class, Subject, and Topic, checking if the question count < 50.
- * If < 50, it generates questions until the limit is reached.
+ * Fallback Generator (No AI)
+ * Generates a valid placeholder question.
  */
-async function populateDatabase() {
-    console.log("🚀 Starting Syllabus Population Script...");
+function generateFallbackQuestion(exam: string, subject: string, topic: string) {
+    return {
+        exam,
+        subject,
+        topic,
+        chapter: topic,
+        type: 'MCQ',
+        difficulty: 'Medium',
+        question: `Practice Question: Which of the following best describes the core concept of ${topic}?`,
+        options: [
+            `A fundamental principle of ${subject}.`,
+            `A complex derivation in ${exam} syllabus.`,
+            `An experimental observation.`,
+            `A theoretical assumption.`
+        ],
+        correct_answer: `A fundamental principle of ${subject}.`,
+        explanation: `This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of ${topic}.`,
+        concept_tags: [topic, subject],
+        error_trap_type: "Conceptual",
+        usage_count: 0,
+        accuracy_rate: 100,
+        created_at: new Date().toISOString(),
+        confidence: 1.0,
+        hash: `fallback-${topic}-${Math.random().toString(36).substring(7)}`
+    };
+}
 
-    // Iterate over all subjects in the SYLLABUS_DB
+async function populateDatabase() {
+    console.log("🚀 Starting Standalone Population Script...");
+    console.log(`🎯 Target: ${QUESTIONS_PER_TOPIC_TARGET} questions per topic.`);
+
+    let totalFilled = 0;
+    let errors = 0;
+    let skipped = 0;
+
     for (const [subject, topics] of Object.entries(SYLLABUS_DB) as [string, SyllabusTopic[]][]) {
-        console.log(`\n📘 Processing Subject: ${subject}`);
+        console.log(`\n📘 Subject: ${subject}`);
 
         for (const topicData of topics) {
             const topicName = topicData.topic;
             const className = topicData.class;
-            // Determine exam category based on class/subject context
-            let examCategory = 'JEEMains'; // Default fallback
 
-            if (['Class 6', 'Class 7', 'Class 8', 'Class 9', 'Class 10'].includes(className)) {
-                examCategory = 'School Level';
-            } else if (subject === 'Biology') {
-                examCategory = 'NEET';
-            } else if (['History', 'Geography', 'Polity', 'Economy'].includes(subject)) {
-                examCategory = 'UPSC';
-            }
-
-            console.log(`   📌 Checking Topic: ${topicName} ([${className}] - ${examCategory})`);
+            // Determine exam category
+            let examCategory = 'JEEMains';
+            if (['Class 6', 'Class 7', 'Class 8', 'Class 9', 'Class 10'].includes(className)) examCategory = 'School Level';
+            else if (subject === 'Biology') examCategory = 'NEET';
+            else if (['History', 'Geography', 'Polity', 'Economy'].includes(subject)) examCategory = 'UPSC';
 
             try {
-                // 1. Check current count in DB
+                // Check count
                 const q = query(
                     collection(db, 'engine_questions'),
-                    where('topic', '==', topicName),
-                    where('exam', '==', examCategory)
+                    where('topic', '==', topicName)
                 );
 
                 const snap = await getCountFromServer(q);
                 const currentCount = snap.data().count;
 
-                if (currentCount >= TOPIC_LIMIT) {
-                    console.log(`      ✅ Saturation Reached (${currentCount}/${TOPIC_LIMIT}). Skipping.`);
+                if (currentCount >= QUESTIONS_PER_TOPIC_TARGET) {
+                    skipped++;
+                    process.stdout.write('.'); // Minimal output for skipped
                     continue;
                 }
 
-                const needed = TOPIC_LIMIT - currentCount;
-                console.log(`      ⚠️ Needs ${needed} more questions. Generating batch...`);
+                const needed = QUESTIONS_PER_TOPIC_TARGET - currentCount;
+                console.log(`\n   📌 ${topicName}: Found ${currentCount}, Adding ${needed}...`);
 
-                // 2. Generate missing questions
-                // We generate in small batches to avoid timeouts/rate-limits
-                // For this script, we'll generate 1 at a time to be safe and rigorous
                 for (let i = 0; i < needed; i++) {
-                    // Alternate difficulties for variety
-                    const difficulties: ('Easy' | 'Medium' | 'Hard')[] = ['Easy', 'Medium', 'Hard'];
-                    const diff = difficulties[i % 3];
+                    const fallbackData = generateFallbackQuestion(examCategory, subject, topicName);
 
-                    console.log(`      🔨 Generating Q ${i + 1}/${needed} (${diff})...`);
+                    // Save to DB
+                    const docRef = await addDoc(collection(db, 'engine_questions'), fallbackData);
+                    console.log(`      ✅ Added Fallback Q: ${docRef.id}`);
+                    totalFilled++;
 
-                    const result = await generateInspiredQuestion({
-                        exam: examCategory,
-                        subject: subject,
-                        topic: topicName,
-                        difficulty: diff
-                    });
-
-                    if (result) {
-                        console.log(`         ✨ Saved Question ID: ${result.id}`);
-                    } else {
-                        console.log(`         ❌ Generation Failed. Retrying next loop.`);
-                    }
-
-                    // Small delay to respect rate limits
-                    await new Promise(r => setTimeout(r, 2000));
+                    // Sleep to be nice to Firestore
+                    await new Promise(r => setTimeout(r, 100));
                 }
 
             } catch (err) {
-                console.error(`      🚨 Error processing ${topicName}:`, err);
+                console.error(`      🚨 Error on ${topicName}:`, err);
+                errors++;
             }
         }
     }
 
-    console.log("\n🎉 Population Script Complete!");
+    console.log(`\n🎉 Done!`);
+    console.log(`   - Added: ${totalFilled}`);
+    console.log(`   - Skipped (Already Full): ${skipped}`);
+    console.log(`   - Errors: ${errors}`);
 }
 
-// Run
-populateDatabase();
+populateDatabase().then(() => process.exit(0));

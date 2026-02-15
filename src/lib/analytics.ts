@@ -33,6 +33,15 @@ export const logPageView = () => {
                 page_title: title,
                 page_location: window.location.href
             });
+
+            // Send explicit page_view event for SPA reliability
+            window.gtag('event', 'page_view', {
+                page_path: page,
+                page_title: title,
+                page_location: window.location.href,
+                send_to: MEASUREMENT_ID
+            });
+
             console.log(`[Analytics] 📡 SPA Page View tracked: ${page} (${title})`);
         }
 
@@ -112,7 +121,7 @@ export const trackLectureView = (topic: string, duration_seconds: number) => {
 /**
  * Set User Properties
  */
-export const setUserProperties = (properties: { user_class?: string, selected_exam?: string, auth_status: string }) => {
+export const setUserProperties = (properties: Record<string, any>) => {
     if (typeof window === 'undefined') return;
 
     // 1. gtag
@@ -129,14 +138,23 @@ export const setUserProperties = (properties: { user_class?: string, selected_ex
 
 /**
  * Error Tracking (Glitch Detection)
+ * Enhanced to capture context for alerting
  */
-export const trackGlitch = (error: string, component?: string) => {
+export const trackGlitch = (error: string | Error, component?: string) => {
+    const errorMsg = typeof error === 'string' ? error : error.message;
+    const stack = error instanceof Error ? error.stack : new Error().stack;
+
     logEvent('exception', {
-        description: error,
-        fatal: false,
+        description: errorMsg,
+        fatal: true,
         component_name: component,
-        url: window.location.href
+        url: window.location.href,
+        user_agent: navigator.userAgent,
+        stack_trace: stack?.substring(0, 500), // Cap for GA4 limits
+        timestamp: new Date().toISOString()
     });
+
+    console.error(`[Analytics] 🆘 Error caught in ${component || 'unknown'}:`, errorMsg);
 };
 
 /**

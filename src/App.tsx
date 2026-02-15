@@ -4,6 +4,7 @@ import { useUserStore } from './store/userStore';
 import { RouteTracker } from './components/RouteTracker';
 import { AutoSchema } from './components/seo/AutoSchema';
 import { AppShellSkeleton } from './components/skeletons/AppShellSkeleton';
+import { setUserProperties, trackWebVitals } from './lib/analytics';
 
 // Layouts - Keep synchronous for immediate shell paint
 import { ProtectedLayout } from './layouts/ProtectedLayout';
@@ -51,19 +52,7 @@ const Chatbot = lazy(() => import('./components/Chatbot').then(module => ({ defa
 const LevelUpModal = lazy(() => import('./components/gamification/LevelUpModal').then(module => ({ default: module.LevelUpModal })));
 
 // SEO Monitoring
-const trackWebVitals = async () => {
-  const { onCLS, onFID, onLCP, onFCP, onTTFB } = await import('web-vitals');
-  onCLS(console.log);
-  onFID(console.log);
-  onLCP(console.log);
-  onFCP(console.log);
-  onTTFB(console.log);
-};
-
-const setUserProperties = async (props: any) => {
-  // Analytics is client-side only and optional for SSG. Placeholder for now.
-  console.log("Analytics Properties:", props);
-};
+// trackWebVitals and setUserProperties are now imported from src/lib/analytics.ts
 
 const FloatingUI = () => {
   const [mounted, setMounted] = useState(false);
@@ -151,7 +140,7 @@ function App() {
       prevRankNameRef.current = currentRank.name;
 
       setUserProperties({
-        target_exam: user.targetExam,
+        selected_exam: user.targetExam,
         user_class: user.userClass,
         xp_level: currentRank.name,
         auth_status: 'authenticated'

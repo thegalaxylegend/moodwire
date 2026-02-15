@@ -55,19 +55,27 @@ async function getQuestionsFromAdminSDK() {
         const db = admin.firestore();
         console.log('🛡️ Authenticated as Admin.');
 
-        // Fetch ALL questions from both collections to ensure maximum SEO coverage
+        // Fetch ALL questions from all collections to ensure maximum SEO coverage
         const verifiedSnap = await db.collection('verified_questions').get();
         const questionsSnap = await db.collection('questions').get();
+        const engineSnap = await db.collection('engine_questions').get();
 
-        console.log(`📊 Found ${verifiedSnap.size} verified questions and ${questionsSnap.size} total questions.`);
+        console.log(`📊 Found ${verifiedSnap.size} verified, ${questionsSnap.size} standard, and ${engineSnap.size} engine questions.`);
 
         const allDocs = new Map();
 
         // 1. Add verified questions
         verifiedSnap.docs.forEach(doc => allDocs.set(doc.id, doc));
 
-        // 2. Add standard questions (if not already present)
+        // 2. Add standard questions
         questionsSnap.docs.forEach(doc => {
+            if (!allDocs.has(doc.id)) {
+                allDocs.set(doc.id, doc);
+            }
+        });
+
+        // 3. Add engine questions (Curated/AI generated)
+        engineSnap.docs.forEach(doc => {
             if (!allDocs.has(doc.id)) {
                 allDocs.set(doc.id, doc);
             }
@@ -85,7 +93,7 @@ async function getQuestionsFromAdminSDK() {
         return snap.docs.map(doc => {
             const data = doc.data();
             const text = data.text || data.question || 'Practice Question';
-            const safeSlug = `${slugify(text.substring(0, 60))}-${doc.id}`;
+            const safeSlug = `${slugify(text.substring(0, 60))}-${doc.id}`.toLowerCase();
             return {
                 id: doc.id,
                 slug: safeSlug,
@@ -127,7 +135,7 @@ async function getQuestionsFromClientSDK() {
     snap.forEach(doc => {
         const data = doc.data();
         const text = data.text || data.question || 'Practice Question';
-        const safeSlug = `${slugify(text.substring(0, 60))}-${doc.id}`;
+        const safeSlug = `${slugify(text.substring(0, 60))}-${doc.id}`.toLowerCase();
         questions.push({
             id: doc.id,
             slug: safeSlug,
@@ -147,8 +155,19 @@ async function generate() {
     console.log('🚀 Starting SEO Manifest Generation...');
 
     try {
-        const questions = (await getQuestionsFromAdminSDK()) || (await getQuestionsFromClientSDK());
-        console.log(`✅ Fetched ${questions.length} questions.`);
+        let questions = (await getQuestionsFromAdminSDK()) || (await getQuestionsFromClientSDK());
+
+        // FAIL-SAFE: If Firestore fails or is empty, load from local JSON (filled by fill-json-db.ts)
+        if (!questions || questions.length === 0) {
+            console.log("⚠️ Firestore connection failed or returned empty. Loading from local 'question-db.json'...");
+            if (fs.existsSync(questionDbPath)) {
+                const localDb = JSON.parse(fs.readFileSync(questionDbPath, 'utf8'));
+                questions = Object.values(localDb);
+                console.log(`✅ Loaded ${questions.length} questions from local backup.`);
+            }
+        }
+
+        console.log(`✅ Final Question Count: ${questions ? questions.length : 0}`);
 
         const content = fs.readFileSync(constantsPath, 'utf8');
         const mappingMatch = content.match(/export const EXAM_SUBJECT_MAPPING: Record<string, string\[\]> = ({[\s\S]+?});/);
@@ -238,6 +257,9 @@ async function generate() {
 
         const urls = Object.keys(manifest);
         if (urls.length === 0) throw new Error("Manifest empty");
+
+        console.log(`Debug: Manifest Keys: ${urls.length}`);
+        console.log(`Debug: QuestionDB Keys: ${Object.keys(questionDb).length}`);
 
         fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2));
         fs.writeFileSync(registryPath, JSON.stringify(urls, null, 2));

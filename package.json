@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "node scripts/validate-seo.js && node scripts/generate-sitemap.js && tsc -b && vite build",
     "build:ssr": "vite build --ssr src/entry-server.tsx --outDir dist/server",
-    "ssg": "npm run build && npm run build:ssr && node scripts/prerender-all.js",
+    "ssg": "npx tsx scripts/ensure-content.ts && npm run build && npm run build:ssr && node scripts/prerender-all.js",
     "seo:regen": "node scripts/generate-seo-manifest.js && node scripts/generate-sitemap.js && node scripts/validate-seo.js",
     "seo:check": "node scripts/validate-seo.js",
     "lint": "eslint .",
