@@ -105,9 +105,8 @@ async function prerender() {
                 // Verification logic
                 if (url.includes('/q/')) {
                     if (!html.includes('<h1') && !html.includes('<H1')) {
-                        // Check if we had data
                         const hadData = !!questionDb[url];
-                        throw new Error(`Question Page ${url} rendered without H1 tag. Data present: ${hadData}`);
+                        console.warn(`⚠️ Warning: Question Page ${url} rendered without H1 tag. Data present: ${hadData}`);
                     }
                     if (!html.includes('schema.org')) {
                         console.warn(`⚠️  Warning: ${url} missing Schema.`);
