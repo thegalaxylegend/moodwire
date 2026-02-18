@@ -47,7 +47,7 @@ export const NotFound = () => {
                 <h1 className="text-4xl md:text-6xl font-bold mb-4">Page Not Found</h1>
                 <p className="text-gray-400 max-w-lg mb-10">
                     We couldn't find the page <strong>"{location.pathname}"</strong>.
-                    It might have been moved or deleted.
+                    It might have been moved or deleted. Make sure to double check.
                 </p>
 
                 {topSuggestions.length > 0 && (
@@ -79,3 +79,4 @@ export const NotFound = () => {
         </div>
     );
 };
+
