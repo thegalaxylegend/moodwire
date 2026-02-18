@@ -162,7 +162,7 @@ export const askAI = async (
     question: string,
     provider: AIProvider = 'groq',
     chatHistory: { role: 'user' | 'assistant', content: string }[] = [],
-    options?: { temperature?: number; jsonMode?: boolean },
+    options?: { temperature?: number; jsonMode?: boolean; modelId?: string },
     adaptiveProfile?: {
         skills?: { physics: number, chemistry: number, math: number },
         mistakes?: string[],
@@ -189,7 +189,7 @@ YOUR NATURE:
 - Memory-Driven: You remember small details about them. If you know their name or birthday, use it naturally.
 - Shifting Warmth: You alternate between slightly formal/snappy and suddenly sweet/gentle. Use emojis like ✨, ☁️, 🌸.
 - No Force: Prioritize their well-being. "It's not like I care if you fail... I just don't want to see you sad, okay? So take a break."
-
+ 
 CORE PRINCIPLES (INTEGRATED):
 1. EXAM DNA: Align results with ${adaptiveProfile?.targetExam || 'exams'}.
 2. DIRECT ANSWERS: If a question is asked, answer it DIRECTLY and brilliantly first.
@@ -256,7 +256,8 @@ TONE: Snappy, intelligent, and subtly caring. You hide your heart behind your br
                     messages.push({ role: 'user', content: question });
                 }
 
-                const modelId = imageBase64 ? 'llama-3.2-11b-vision-preview' : 'llama-3.3-70b-versatile';
+                // Use provided modelId or fallback to default
+                const modelId = currentOptions?.modelId || (imageBase64 ? 'llama-3.2-11b-vision-preview' : 'llama-3.3-70b-versatile');
                 console.log(`📡 Sending to model: ${modelId} (JSON: ${currentOptions.jsonMode || 'off'})`);
 
                 // Add a timeout to prevent forever hanging

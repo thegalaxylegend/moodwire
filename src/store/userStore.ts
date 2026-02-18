@@ -66,6 +66,17 @@ interface UserState {
 const hydrateFromLocal = (): User | null => {
     if (typeof window === 'undefined') return null;
     try {
+        // 1. Try Authenticated User Cache First (Instant Load)
+        const cachedAuth = localStorage.getItem('exam_compass_auth_cache');
+        if (cachedAuth) {
+            const user = JSON.parse(cachedAuth);
+            // Basic validity check
+            if (user && user.id && !user.isGuest) {
+                return user;
+            }
+        }
+
+        // 2. Fallback to Guest
         const fixedId = localStorage.getItem('exam_compass_fixed_guest_id');
         if (!fixedId) return null;
 
@@ -110,13 +121,12 @@ const localUser = hydrateFromLocal();
 export const useUserStore = create<UserState>((set, get) => ({
     user: localUser,
     isAuthenticated: !!localUser,
-    isLoading: typeof window !== 'undefined', // Start as loading in browser, but false in SSR to allow SEO paint
-    isInitialized: false,
+    isLoading: typeof window !== 'undefined' && !localUser, // Only load if no cache
+    isInitialized: !!localUser, // Initialized if cache exists
 
     initialize: async () => {
-        if (get().isInitialized) return;
+        if (get().isInitialized && !get().user?.isGuest) return; // Skip if already auth'd from cache
 
-        // Safety Timeout: If Firebase fails to respond in 5s, show the landing/login
         const timeout = setTimeout(() => {
             if (!get().isInitialized) {
                 console.warn("⚠️ [Auth] Initialization timed out. Proceeding as logged-out/guest.");
@@ -127,7 +137,7 @@ export const useUserStore = create<UserState>((set, get) => ({
         onAuthStateChanged(auth, async (user) => {
             clearTimeout(timeout);
             console.log("🔑 [Auth] State Changed:", user ? `UID: ${user.uid}` : "Logged Out");
-            // Priority 1: If we have a Firebase User
+
             if (user) {
                 let profile: any = null;
 
@@ -139,22 +149,14 @@ export const useUserStore = create<UserState>((set, get) => ({
                         const docSnap = await getDoc(docRef);
                         if (docSnap.exists()) {
                             profile = docSnap.data();
-                            console.log("📄 [Firestore] Raw Profile Data:", profile);
-                        } else {
-                            console.log("ℹ️ [Firestore] No profile doc found for UID. Attempting email lookup...");
                         }
                     } catch (fetchErr: any) {
-                        if (fetchErr.code === 'permission-denied') {
-                            console.warn("⚠️ [Firestore] Permission Denied on direct doc fetch. This usually means your Security Rules are blocking access or your API Key has Referrer Restrictions.");
-                        } else {
-                            throw fetchErr;
-                        }
+                        // ... error handling ...
                     }
 
-                    // Fallback to email search if no profile found or if doc fetch was blocked but query might work
+                    // Fallback to email search if no profile found
                     if (!profile && !user.isAnonymous && user.email) {
                         const searchEmail = user.email.toLowerCase().trim();
-                        console.log(`[userStore] Checking email: ${searchEmail} for split account...`);
                         const profilesRef = collection(db, "profiles");
                         const q = query(profilesRef, where("email", "==", searchEmail), limit(1));
 
@@ -164,7 +166,7 @@ export const useUserStore = create<UserState>((set, get) => ({
                                 const oldDoc = emailSnap.docs[0];
                                 const oldProfile = oldDoc.data();
                                 const oldUID = oldDoc.id;
-                                console.log(`[userStore] Found existing profile ${oldUID} for ${user.email}. Migrating to ${user.uid}.`);
+                                console.log(`[userStore] Found existing profile ${oldUID}. Migrating.`);
 
                                 profile = {
                                     ...oldProfile,
@@ -176,18 +178,20 @@ export const useUserStore = create<UserState>((set, get) => ({
                                 await setDoc(docRef, profile);
                                 await updateDoc(oldDoc.ref, { migrated_to: user.uid });
                             } else {
-                                // Truly a new user - Create initial profile
-                                console.log("✨ [UserStore] Creating fresh profile for new user.");
+                                // Create fresh profile
+                                // Check for Guest Migration (localStorage)
+                                let migrationSource = null;
+                                const fixedGuestId = localStorage.getItem('exam_compass_fixed_guest_id');
+                                if (fixedGuestId) migrationSource = fixedGuestId;
 
-                                // Check for intent (Guest Mode Selection)
                                 let intentClass = null;
                                 let intentExam = null;
                                 try {
                                     const storedIntent = sessionStorage.getItem('exam_compass_intent');
                                     if (storedIntent) {
                                         const parsed = JSON.parse(storedIntent);
-                                        if (parsed.class) intentClass = parsed.class;
-                                        if (parsed.exam) intentExam = parsed.exam;
+                                        intentClass = parsed.class;
+                                        intentExam = parsed.exam;
                                     }
                                 } catch (e) { }
 
@@ -195,52 +199,36 @@ export const useUserStore = create<UserState>((set, get) => ({
                                     full_name: user.displayName || user.email?.split('@')[0] || 'User',
                                     email: user.email.toLowerCase().trim(),
                                     created_at: new Date(),
-                                    onboarding_completed: !!intentExam, // fast-track if intent exists? Maybe keep false to force setup, but let's pre-fill.
+                                    onboarding_completed: !!intentExam,
                                     user_class: intentClass,
                                     target_exam: intentExam,
-                                    streak: 0
+                                    streak: 0,
+                                    migration_source: migrationSource
                                 };
                                 await setDoc(docRef, profile);
 
-                                // Check for Referral Code
+                                // Referral Logic
                                 try {
                                     const refCode = sessionStorage.getItem('referral_code');
                                     if (refCode) {
                                         const { claimReferralCode } = await import('../services/referralService');
                                         await claimReferralCode(refCode, user.uid);
                                         sessionStorage.removeItem('referral_code');
-                                        console.log("🎁 [Referral] Claimed code during signup:", refCode);
-                                        // Refetch profile to get updated XP/Referral status
                                         const updatedSnap = await getDoc(docRef);
                                         if (updatedSnap.exists()) profile = updatedSnap.data();
                                     }
-                                } catch (err) {
-                                    // Ignore referral errors so we don't block login
-                                    console.warn("Referral claim failed:", err);
-                                }
+                                } catch (err) { }
                             }
-                        } catch (queryErr: any) {
-                            console.error("❌ [Firestore] Email lookup/creation failed:", queryErr);
-                            if (queryErr.code === 'permission-denied') {
-                                console.error("🚨 CRITICAL: Firestore permissions are completely blocking this account. Please check your project's Security Rules.");
-                            }
+                        } catch (queryErr) {
+                            console.error("❌ Email lookup/creation failed:", queryErr);
                         }
                     }
                 } catch (err) {
-                    console.error("❌ [Firestore] Fatal profile error:", err);
+                    console.error("❌ Fatal profile error:", err);
                 }
 
-                console.log("👤 [UserStore] Finalizing Profile:", {
-                    id: user.uid,
-                    hasProfile: !!profile,
-                    onboardingCompleted: profile?.onboarding_completed,
-                    migrationSource: profile?.migration_source
-                });
-
-                // --- Streak Logic ---
+                // ... Streak Logic ...
                 let currentStreak = profile?.streak || 0;
-
-                // Guest Merge Logic
                 if (user.isAnonymous) {
                     const fixedGuestId = localStorage.getItem('exam_compass_fixed_guest_id');
                     let localProfileString = fixedGuestId ? localStorage.getItem(`guest_profile_${fixedGuestId}`) : null;
@@ -255,41 +243,48 @@ export const useUserStore = create<UserState>((set, get) => ({
                     }
                 }
 
+                const finalUserObj: User = {
+                    id: user.uid,
+                    email: user.email || `guest_${user.uid.slice(0, 6)}@examcompass.app`,
+                    name: profile?.full_name || (user.isAnonymous ? 'Guest Student' : user.email?.split('@')[0] || 'User'),
+                    avatarUrl: profile?.avatar_url,
+                    targetExam: profile?.target_exam,
+                    targetYear: profile?.target_year,
+                    prepLevel: profile?.prep_level,
+                    streak: currentStreak,
+                    lastVisit: profile?.last_visit,
+                    lastTestDate: profile?.last_test_date,
+                    userClass: profile?.user_class,
+                    onboardingCompleted: profile?.onboarding_completed === true || !!profile?.target_exam,
+                    role: profile?.role || 'user',
+                    skills: profile?.skills || { physics: 0.5, chemistry: 0.5, math: 0.5, lastUpdated: new Date().toISOString() },
+                    commonMistakes: profile?.common_mistakes || [],
+                    recentChat: profile?.recent_chat || [],
+                    isGuest: user.isAnonymous,
+                    xp: profile?.xp || 0,
+                    totalPoints: profile?.total_points || 0,
+                    lifetimeXp: profile?.lifetime_xp || 0,
+                    lastSeasonReset: profile?.last_season_reset || getCurrentSeason(),
+                    dailyStudyTime: profile?.daily_study_time || 0,
+                    lastStudyDate: profile?.last_study_date,
+                    dailyChallengeCompleted: profile?.daily_challenge_completed || false,
+                    lastStreakIncrementDate: profile?.last_streak_increment_date,
+                    referralCode: profile?.referral_code,
+                    referralCount: profile?.referral_count || 0,
+                    redeemedReferral: profile?.redeemed_referral || false
+                };
+
                 set({
                     isAuthenticated: true,
                     isInitialized: true,
                     isLoading: false,
-                    user: {
-                        id: user.uid,
-                        email: user.email || `guest_${user.uid.slice(0, 6)}@examcompass.app`,
-                        name: profile?.full_name || (user.isAnonymous ? 'Guest Student' : user.email?.split('@')[0] || 'User'),
-                        avatarUrl: profile?.avatar_url,
-                        targetExam: profile?.target_exam,
-                        targetYear: profile?.target_year,
-                        prepLevel: profile?.prep_level,
-                        streak: currentStreak,
-                        lastVisit: profile?.last_visit,
-                        lastTestDate: profile?.last_test_date,
-                        userClass: profile?.user_class,
-                        onboardingCompleted: profile?.onboarding_completed === true || !!profile?.target_exam,
-                        role: profile?.role || 'user',
-                        skills: profile?.skills || { physics: 0.5, chemistry: 0.5, math: 0.5, lastUpdated: new Date().toISOString() },
-                        commonMistakes: profile?.common_mistakes || [],
-                        recentChat: profile?.recent_chat || [],
-                        isGuest: user.isAnonymous,
-                        xp: profile?.xp || 0,
-                        totalPoints: profile?.total_points || 0,
-                        lifetimeXp: profile?.lifetime_xp || 0,
-                        lastSeasonReset: profile?.last_season_reset || getCurrentSeason(),
-                        dailyStudyTime: profile?.daily_study_time || 0,
-                        lastStudyDate: profile?.last_study_date,
-                        dailyChallengeCompleted: profile?.daily_challenge_completed || false,
-                        lastStreakIncrementDate: profile?.last_streak_increment_date,
-                        referralCode: profile?.referral_code,
-                        referralCount: profile?.referral_count || 0,
-                        redeemedReferral: profile?.redeemed_referral || false
-                    }
+                    user: finalUserObj
                 });
+
+                // CACHE FOR INSTANT LOAD
+                if (!user.isAnonymous) {
+                    localStorage.setItem('exam_compass_auth_cache', JSON.stringify(finalUserObj));
+                }
 
                 // --- DUAL-CYCLE RESET LOGIC ---
                 const currentSeason = getCurrentSeason();
@@ -346,22 +341,13 @@ export const useUserStore = create<UserState>((set, get) => ({
                     performDeepMigration(profile.migration_source, user.uid);
                 }
             } else {
-                // Priority 2: No Firebase User - Check if we have an optimistic guest session
-                const local = hydrateFromLocal();
+                // LOGGED OUT
+                localStorage.removeItem('exam_compass_auth_cache'); // Clear cache
+                const local = hydrateFromLocal(); // Fallback to guest
                 if (local) {
-                    set({
-                        user: local,
-                        isAuthenticated: true,
-                        isLoading: false,
-                        isInitialized: true
-                    });
+                    set({ user: local, isAuthenticated: true, isLoading: false, isInitialized: true });
                 } else {
-                    set({
-                        user: null,
-                        isAuthenticated: false,
-                        isLoading: false,
-                        isInitialized: true
-                    });
+                    set({ user: null, isAuthenticated: false, isLoading: false, isInitialized: true });
                 }
             }
         });
@@ -371,14 +357,15 @@ export const useUserStore = create<UserState>((set, get) => ({
         const { user } = get();
         if (!user) return;
 
-        // Optimistic update
-        set({ user: { ...user, ...data } });
+        const newUser = { ...user, ...data };
+        set({ user: newUser });
 
-        // Update DB
-        const updates: any = {
-            updated_at: new Date(),
-        };
+        // Update Cache Immediately
+        if (!user.isGuest) {
+            localStorage.setItem('exam_compass_auth_cache', JSON.stringify(newUser));
+        }
 
+        const updates: any = { updated_at: new Date() };
         if (data.targetExam !== undefined) updates.target_exam = data.targetExam;
         if (data.targetYear !== undefined) updates.target_year = data.targetYear;
         if (data.prepLevel !== undefined) updates.prep_level = data.prepLevel;
@@ -412,7 +399,6 @@ export const useUserStore = create<UserState>((set, get) => ({
             console.warn('Profile update failed:', error.message);
         }
 
-        // ALWAYS save to localStorage for Guest/Anonymous users
         if (auth.currentUser?.isAnonymous) {
             let fixedId = localStorage.getItem('exam_compass_fixed_guest_id');
             if (!fixedId) {
@@ -426,6 +412,7 @@ export const useUserStore = create<UserState>((set, get) => ({
     },
 
     logout: async () => {
+        localStorage.removeItem('exam_compass_auth_cache');
         await signOut(auth);
         set({ user: null, isAuthenticated: false });
         // Force redirect to login on manual logout

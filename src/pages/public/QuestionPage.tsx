@@ -25,13 +25,13 @@ export const QuestionPage = () => {
 
     // 3. Client-Side Fallback (Simplified for SSG-first)
     useEffect(() => {
-        if (!question && slug) {
+        if (!question && slug && !ssrData) {
             console.warn("Question not found in initial state (CSR fallback missing in strict mode).");
             setLoading(false);
         }
-    }, [question, slug]);
+    }, [question, slug, ssrData]);
 
-    if (loading) {
+    if (loading && !ssrData) {
         return (
             <div className="min-h-screen bg-black text-white flex items-center justify-center">
                 <Loader2 className="animate-spin text-purple-500" size={48} />

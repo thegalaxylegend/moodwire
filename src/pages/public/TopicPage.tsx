@@ -1,4 +1,5 @@
 
+import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { SEO } from '../../components/SEO';
 import { Navbar } from '../../components/Navbar';
@@ -26,10 +27,38 @@ export const TopicPage = () => {
 
     const contextName = formattedExam === 'SCHOOL EXAMS' ? (user?.userClass || topicData?.class || 'CBSE Class') : formattedExam;
 
-    // SEO Data Hydration
-    const sampleQuestions = (typeof globalThis !== 'undefined' && globalThis.SEO_TOPIC_DATA)
-        ? globalThis.SEO_TOPIC_DATA
-        : [];
+    // SEO Data Hydration with Client-Side Fallback
+    const [sampleQuestions, setSampleQuestions] = React.useState<any[]>(
+        (typeof globalThis !== 'undefined' && globalThis.SEO_TOPIC_DATA)
+            ? globalThis.SEO_TOPIC_DATA
+            : []
+    );
+
+    // Fallback: If no SSG data, try to fetch from internal API/DB (Client-Side)
+    React.useEffect(() => {
+        if (sampleQuestions.length === 0 && topicData) {
+            const fetchQuestions = async () => {
+                try {
+                    const response = await fetch('/question-db.json');
+                    if (!response.ok) throw new Error('Failed to fetch DB');
+
+                    const db = await response.json();
+                    const relatedQuestions = Object.values(db).filter((q: any) => {
+                        const qTopic = (q.topic || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+                        const pTopic = topicData.topic.toLowerCase().replace(/[^a-z0-9]/g, '');
+                        return qTopic === pTopic || qTopic.includes(pTopic) || pTopic.includes(qTopic);
+                    }).slice(0, 15);
+
+                    if (relatedQuestions.length > 0) {
+                        setSampleQuestions(relatedQuestions);
+                    }
+                } catch (error) {
+                    console.warn("Client-side question fetch failed:", error);
+                }
+            };
+            fetchQuestions();
+        }
+    }, [sampleQuestions.length, topicData]);
 
     // Schema Data
     const schemaData = {

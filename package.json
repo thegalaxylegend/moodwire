@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/validate-seo.js && node scripts/generate-sitemap.js && tsc -b && vite build",
+    "build": "npx tsx scripts/ensure-content.ts && tsc -b && vite build && npm run build:ssr && node scripts/prerender-all.js && node scripts/generate-sitemap.js",
     "build:ssr": "vite build --ssr src/entry-server.tsx --outDir dist/server",
     "ssg": "npx tsx scripts/ensure-content.ts && npm run build && npm run build:ssr && node scripts/prerender-all.js",
     "seo:regen": "node scripts/generate-seo-manifest.js && node scripts/generate-sitemap.js && node scripts/validate-seo.js",
@@ -47,12 +47,14 @@
   "devDependencies": {
     "@eslint/js": "^9.39.1",
     "@types/canvas-confetti": "^1.9.0",
+    "@types/dotenv": "^6.1.1",
     "@types/node": "^24.10.1",
     "@types/react": "^19.2.5",
     "@types/react-dom": "^19.2.3",
     "@types/react-router-dom": "^5.3.3",
     "@vitejs/plugin-react": "^5.1.1",
     "autoprefixer": "^10.4.23",
+    "dotenv": "^17.3.1",
     "eslint": "^9.39.1",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",

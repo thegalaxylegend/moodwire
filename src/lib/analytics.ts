@@ -1,73 +1,71 @@
 
+import ReactGA from "react-ga4";
 import { getAnalytics, logEvent as firebaseLogEvent, setUserProperties as firebaseSetUserProperties } from "firebase/analytics";
 import { app } from "./firebase";
 
 // Initialize Firebase Analytics
-const analytics = typeof window !== 'undefined' ? getAnalytics(app) : null;
-
-// Declare gtag for TS
-declare global {
-    interface Window {
-        gtag: (...args: any[]) => void;
-    }
-}
+const firebaseAnalytics = typeof window !== 'undefined' ? getAnalytics(app) : null;
 
 const MEASUREMENT_ID = "G-7MWNJDZ5D0";
 
-/**
- * Robust Page View Tracking
- * Uses both global gtag and Firebase SDK for maximum reliability
- */
+// Initialize GA4
+export const initAnalytics = () => {
+    if (typeof window === 'undefined') return;
+
+    try {
+        ReactGA.initialize(MEASUREMENT_ID);
+        console.log("[Analytics] initialized");
+    } catch (error) {
+        console.error("[Analytics] Initialization failed:", error);
+    }
+};
+
+// Log page view
 export const logPageView = () => {
     if (typeof window === 'undefined') return;
 
     const page = window.location.pathname + window.location.search;
     const title = document.title;
 
-    // Small delay ensures Meta tags (Helmet) have updated before we track
-    setTimeout(() => {
-        // 1. Dual-Track via Global gtag (Standard)
-        if (window.gtag) {
-            window.gtag('config', MEASUREMENT_ID, {
-                page_path: page,
-                page_title: title,
-                page_location: window.location.href
-            });
+    // ReactGA
+    ReactGA.send({ hitType: "pageview", page: page, title: title });
+    console.log(`[Analytics] 📡 Page View: ${page}`);
 
-            // Send explicit page_view event for SPA reliability
-            window.gtag('event', 'page_view', {
-                page_path: page,
-                page_title: title,
-                page_location: window.location.href,
-                send_to: MEASUREMENT_ID
-            });
-
-            console.log(`[Analytics] 📡 SPA Page View tracked: ${page} (${title})`);
-        }
-
-        // 2. Dual-Track via Firebase SDK (Redundancy)
-        if (analytics) {
-            firebaseLogEvent(analytics, 'page_view', {
-                page_path: page,
-                page_title: title,
-                location: window.location.href
-            });
-        }
-    }, 150);
+    // Firebase
+    if (firebaseAnalytics) {
+        firebaseLogEvent(firebaseAnalytics, 'page_view', {
+            page_path: page,
+            page_title: title,
+            location: window.location.href
+        });
+    }
 };
 
+// Log custom event
 export const logEvent = (name: string, params?: Record<string, any>) => {
     if (typeof window === 'undefined') return;
 
-    // 1. Global gtag
-    if (window.gtag) {
-        window.gtag('event', name, params);
-        console.log(`[Analytics] 🔔 Event: ${name}`, params);
-    }
+    // ReactGA
+    ReactGA.event(name, params);
+    console.log(`[Analytics] 🔔 Event: ${name}`, params);
 
-    // 2. Firebase SDK
-    if (analytics) {
-        firebaseLogEvent(analytics, name, params);
+    // Firebase
+    if (firebaseAnalytics) {
+        firebaseLogEvent(firebaseAnalytics, name, params);
+    }
+};
+
+// Set user properties
+export const setUserProperties = (properties: Record<string, any>) => {
+    if (typeof window === 'undefined') return;
+
+    // ReactGA
+    ReactGA.gtag('set', 'user_properties', properties);
+    console.log('[Analytics] 👤 User Properties:', properties);
+
+    // Firebase
+    if (firebaseAnalytics) {
+        firebaseSetUserProperties(firebaseAnalytics, properties);
     }
 };
 
@@ -119,38 +117,27 @@ export const trackLectureView = (topic: string, duration_seconds: number) => {
 };
 
 /**
- * Set User Properties
- */
-export const setUserProperties = (properties: Record<string, any>) => {
-    if (typeof window === 'undefined') return;
-
-    // 1. gtag
-    if (window.gtag) {
-        window.gtag('set', 'user_properties', properties);
-        console.log('[Analytics] 👤 User Properties:', properties);
-    }
-
-    // 2. Firebase SDK
-    if (analytics) {
-        firebaseSetUserProperties(analytics, properties);
-    }
-};
-
-/**
  * Error Tracking (Glitch Detection)
- * Enhanced to capture context for alerting
  */
 export const trackGlitch = (error: string | Error, component?: string) => {
     const errorMsg = typeof error === 'string' ? error : error.message;
-    const stack = error instanceof Error ? error.stack : new Error().stack;
+    let stack: string | undefined;
+    if (error instanceof Error) {
+        stack = error.stack;
+    }
+    if (!stack) {
+        try {
+            stack = new Error().stack;
+        } catch (e) {
+            stack = "Stack trace unavailable";
+        }
+    }
 
     logEvent('exception', {
         description: errorMsg,
         fatal: true,
         component_name: component,
         url: window.location.href,
-        user_agent: navigator.userAgent,
-        stack_trace: stack?.substring(0, 500), // Cap for GA4 limits
         timestamp: new Date().toISOString()
     });
 

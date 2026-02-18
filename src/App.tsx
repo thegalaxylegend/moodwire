@@ -4,7 +4,7 @@ import { useUserStore } from './store/userStore';
 import { RouteTracker } from './components/RouteTracker';
 import { AutoSchema } from './components/seo/AutoSchema';
 import { AppShellSkeleton } from './components/skeletons/AppShellSkeleton';
-import { setUserProperties, trackWebVitals } from './lib/analytics';
+import { setUserProperties, trackWebVitals, initAnalytics } from './lib/analytics';
 
 // Layouts - Keep synchronous for immediate shell paint
 import { ProtectedLayout } from './layouts/ProtectedLayout';
@@ -94,6 +94,7 @@ function App() {
 
   useEffect(() => {
     initialize();
+    initAnalytics();
 
     // Defer non-critical monitoring
     (window.requestIdleCallback || ((cb) => setTimeout(cb, 1000)))(() => {

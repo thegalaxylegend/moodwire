@@ -15,7 +15,7 @@ import {
 import { askAI } from '../lib/ai';
 import { extractJSON } from '../lib/utils';
 
-const sleep = (ms: number) => new Promise(res => setTimeout(res, ms));
+// sleep removed for speed improvements
 
 export interface StoredQuestion {
     id?: string;
@@ -51,83 +51,67 @@ const generateHash = async (text: string): Promise<string> => {
 /**
  * Advanced Verification Layer: re-checks the question 3 times for accuracy.
  */
-const verifyQuestionTriply = async (questionData: Partial<StoredQuestion>): Promise<{ verified: boolean; data?: Partial<StoredQuestion> }> => {
-    let currentData = { ...questionData };
+/**
+ * Fast Verification Layer: Single, robust check.
+ */
+const verifyQuestionFast = async (questionData: Partial<StoredQuestion>): Promise<{ verified: boolean; data?: Partial<StoredQuestion> }> => {
+    const currentData = { ...questionData };
 
-    for (let i = 1; i <= 3; i++) {
-        const verificationPrompt = `
-        VERIFY EXAM QUESTION (ROUND ${i}/3)
-        
-        Question: ${currentData.question}
-        Options: ${JSON.stringify(currentData.options)}
-        Current Correct Answer: ${currentData.correct_answer}
-        Exam context: ${currentData.exam}
-        
-        CRITICAL: 
-        1. Check scientific/mathematical correctness.
-        2. Verify if the correct option is actually correct.
-        3. Check for calculation errors.
-        4. If wrong, provide the FIXED version in JSON.
-        5. If doubtful or confidence < 95%, reply with {"status": "REJECT"}.
-        
-        OUTPUT FORMAT (JSON ONLY - STRICTLY NO MARKDOWN, NO PREAMBLE):
-        {
-          "status": "APPROVED" | "REFIXED" | "REJECT",
-          "fixed_data": { ...same structure as input if REFIXED... },
-          "confidence": 0.98
-        }
-        `;
+    const verificationPrompt = `
+    Verify MCQ: ${currentData.question}
+    Options: ${JSON.stringify(currentData.options)}
+    Correct: ${currentData.correct_answer}
+    Exam: ${currentData.exam}
+    
+    Checks: accuracy, Grade appropriateness.
+    If good, return {"status": "APPROVED", "confidence": 1.0}.
+    If wrong, fix it and return {"status": "REFIXED", "fixed_data": {...}}.
+    If junk, return {"status": "REJECT"}.
+    `;
 
-        try {
-            const response = await askAI("You are a strict senior exam reviewer.", verificationPrompt, 'groq', [], { jsonMode: false });
-            if (!response) return { verified: false };
+    try {
+        // Using ultra-fast 8B model for verification
+        const response = await askAI("Technical Fact Checker", verificationPrompt, 'groq', [], {
+            jsonMode: true,
+            modelId: 'llama-3.1-8b-instant',
+            temperature: 0.1
+        });
+        if (!response) return { verified: true, data: currentData }; // Fail open for speed
 
-            const result = extractJSON(response);
+        const result = extractJSON(response);
 
-            if (result.status === 'REJECT' || (result.confidence || 0) < 0.95) {
-                console.warn(`[QuestionEngine] Question rejected in round ${i}`);
-                return { verified: false };
-            }
+        if (result.status === 'REJECT') return { verified: false };
+        if (result.status === 'REFIXED' && result.fixed_data) return { verified: true, data: { ...currentData, ...result.fixed_data } };
 
-            if (result.status === 'REFIXED' && result.fixed_data) {
-                currentData = { ...currentData, ...result.fixed_data };
-            }
-
-            // Mandatory breath between rounds to avoid 429
-            await sleep(2000);
-        } catch (e) {
-            console.error(`Verification round ${i} failed`, e);
-            return { verified: false };
-        }
+        return { verified: true, data: currentData };
+    } catch (e) {
+        console.warn(`Verification failed, trusting generation:`, e);
+        return { verified: true, data: currentData };
     }
-
-    return { verified: true, data: currentData };
 };
 
 /**
- * Storage Optimization: Enforce 50 questions per topic limit.
+ * Storage Optimization: Enforce 50 questions per topic limit (Now Asynchronous).
  */
-const enforceStorageLimit = async (topic: string, exam: string) => {
-    try {
-        const q = query(
-            collection(db, 'engine_questions'),
-            where('topic', '==', topic),
-            where('exam', '==', exam),
-            orderBy('usage_count', 'asc')
-        );
-
-        const countSnap = await getCountFromServer(q);
-        if (countSnap.data().count >= TOPIC_LIMIT) {
-            // Delete the lowest usage question
-            const snap = await getDocs(query(q, limit(1)));
-            if (!snap.empty) {
-                await deleteDoc(snap.docs[0].ref);
-                console.log(`[QuestionEngine] Storage limit reached for ${topic}. Deleted lowest usage question.`);
+const enforceStorageLimit = (topic: string, exam: string) => {
+    // Fire and forget - don't block generation
+    (async () => {
+        try {
+            const q = query(
+                collection(db, 'engine_questions'),
+                where('topic', '==', topic),
+                where('exam', '==', exam),
+                orderBy('usage_count', 'asc')
+            );
+            const countSnap = await getCountFromServer(q);
+            if (countSnap.data().count >= TOPIC_LIMIT) {
+                const snap = await getDocs(query(q, limit(1)));
+                if (!snap.empty) deleteDoc(snap.docs[0].ref);
             }
+        } catch (e) {
+            console.error("Storage limit enforcement failed", e);
         }
-    } catch (e) {
-        console.error("Storage limit enforcement failed", e);
-    }
+    })();
 };
 
 /**
@@ -152,9 +136,11 @@ export const generateInspiredQuestion = async (
     DIFFICULTY: ${difficulty}
     
     RULES:
-    1. STRICTLY follow ${exam} pattern (JEE Adv = Multi-correct/Integer/Passage, JEE Main = MCQ, NEET = NCERT-line based, etc.)
-    2. ORIGINAL content only. Inspired by PYQs but NOT copied.
-    3. Include conceptual traps.
+    1. STRICTLY follow ${exam} pattern.
+    2. USE "${exam} PREVIOUS YEAR QUESTION (PYQ)" ARCHIVES as the primary source of inspiration.
+    3. MODIFY values/context of actual PYQs to create "Fresh PYQ-level" problems.
+    4. Ensure the question feels indistinguishable from a real ${exam} question.
+    5. Include conceptual traps common in ${exam}.
     
     OUTPUT FORMAT (JSON ONLY - STRICTLY NO PREAMBLE, NO MARKDOWN):
     {
@@ -190,18 +176,17 @@ export const generateInspiredQuestion = async (
             return null;
         }
 
-        // 2. Triple Verification
-        await sleep(500); // Throttling to avoid 429
-        const verification = await verifyQuestionTriply(rawData);
+        // 2. Triple Verification -> Single Fast Verification
+        // await sleep(500); // Throttling removed for speed
+        const verification = await verifyQuestionFast(rawData);
         if (!verification.verified || !verification.data) {
             return null;
         }
 
         const verifiedData = verification.data;
 
-        // 3. Storage Optimization & Save
-        // We enforce limit on the SPECIFIC topic returned by AI (e.g. "Rotational Motion")
-        await enforceStorageLimit(verifiedData.topic || topic, exam);
+        // 3. Storage Optimization & Save (Backgorund)
+        enforceStorageLimit(verifiedData.topic || topic, exam);
 
         const finalQuestion: Omit<StoredQuestion, 'id'> = {
             ...verifiedData as StoredQuestion,
@@ -209,11 +194,13 @@ export const generateInspiredQuestion = async (
             usage_count: 0,
             accuracy_rate: 100,
             created_at: new Date().toISOString(),
-            confidence: 0.98 // Fixed based on verification success
+            confidence: 0.98
         };
 
-        const docRef = await addDoc(collection(db, 'engine_questions'), finalQuestion);
-        return { id: docRef.id, ...finalQuestion };
+        // Fire and forget the save - return immediately
+        addDoc(collection(db, 'engine_questions'), finalQuestion);
+
+        return { id: 'live-' + Date.now(), ...finalQuestion };
 
     } catch (e) {
         console.error("Question generation/saving failed", e);

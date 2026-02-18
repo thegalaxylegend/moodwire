@@ -23,12 +23,18 @@ service cloud.firestore {
     // Engine Questions - Read for everyone, Write for authenticated users
     match /engine_questions/{question} {
       allow read: if true;
-      allow write: if isAuth();
+      allow write: if isAuth(); 
+    }
+
+    // Smart Documents - AI Generated Notes
+    match /documents/{docId} {
+      allow read, write: if dataBelongsToUser();
     }
 
     // User Topic Stats - Restricted to owner
     match /user_topic_stats/{stat} {
-      allow read, write: if dataBelongsToUser() || (stat.size() >= 20 && stat[0:20] == request.auth.uid[0:20]);
+      allow read, write: if dataBelongsToUser() || 
+                         (stat.size() >= 20 && stat[0:20] == request.auth.uid[0:20]);
     }
 
     // Diagnostic Results - Restricted to owner
@@ -49,18 +55,14 @@ service cloud.firestore {
 
     // Syllabus - Completion tracking
     match /syllabus/{syllabusItem} {
-      allow read, write: if dataBelongsToUser() || (syllabusItem.size() >= 20 && syllabusItem[0:20] == request.auth.uid[0:20]);
+      allow read, write: if dataBelongsToUser() || 
+                         (syllabusItem.size() >= 20 && syllabusItem[0:20] == request.auth.uid[0:20]);
     }
 
     // User Profiles
     match /profiles/{userId} {
-      allow read: if true; // Always allow read for lookups/migration
+      allow read: if true; 
       allow write: if isOwner(userId);
-    }
-
-    // Global Deny
-    match /{document=**} {
-      allow read, write: if false;
     }
   }
 }

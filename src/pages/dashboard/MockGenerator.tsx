@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Brain, Loader2, ArrowLeft, PlayCircle, Trophy, CheckCircle, Youtube, Timer, PauseCircle, X, Send } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useSearchParams, useNavigate } from 'react-router-dom';
@@ -65,6 +65,11 @@ export const MockGenerator = () => {
     const [isAiThinking, setIsAiThinking] = useState(false);
     const [isVerifying, setIsVerifying] = useState(false);
     const [qStartTime, setQStartTime] = useState(Date.now());
+    const [generationProgress, setGenerationProgress] = useState(0);
+
+    // Refs for global progress tracking to prevent jitter in parallel batches
+    const globalFetchedRef = useRef(0);
+    const globalTargetRef = useRef(0);
 
     // --- HYDRATION: Restore state on refresh ---
     useEffect(() => {
@@ -434,13 +439,13 @@ export const MockGenerator = () => {
     const generateQuestionsBatch = async (subject: string, count: number, _context: string, startId: number): Promise<Question[]> => {
         let collected: Question[] = [];
         const targetExam = user?.targetExam || "JEE Mains";
+        const seenQuestions = new Set<string>();
 
-        // 1. Get User Stats for this subject/topic to determine weakness
-        let weaknessScore = 0.5; // Default moderate
+        // 1. Get User Stats
+        let weaknessScore = 0.5;
         if (user) {
             try {
                 const stats = await getWeakTopics(user.id, 10, user.userClass, targetExam);
-                // If the subject matches any of our weak topics, use its score
                 const relevantStat = stats.find(s => s.subject === subject || s.topic === subject);
                 if (relevantStat) {
                     weaknessScore = relevantStat.weakness_score || 0.6;
@@ -450,62 +455,85 @@ export const MockGenerator = () => {
             }
         }
 
-        // 2. Adaptive Selection Loop - PREVENT DUPLICATES & ENSURE COUNT
+        // 2. Parallel Generation Loop
         let attempts = 0;
-        const maxAttempts = Math.ceil(count * 1.5) + 5; // Allow buffer for failures/duplicates
-        const seenQuestions = new Set<string>();
+        const MAX_TOTAL_ATTEMPTS = count * 3; // Safety break
 
-        while (collected.length < count && attempts < maxAttempts) {
-            attempts++;
+        while (collected.length < count && attempts < MAX_TOTAL_ATTEMPTS) {
+            const needed = count - collected.length;
+            // Parallel concurrency limit (6 is optimal for speed vs rate limits)
+            const batchSize = Math.min(needed, 6);
+
+            // Create a batch of promises
+            const promises = Array(batchSize).fill(0).map(async (_, idx) => {
+                // Stagger requests slightly to avoid precise millisecond collisions
+                await new Promise(r => setTimeout(r, idx * 100));
+                return getAdaptiveQuestion(
+                    user?.id || 'guest',
+                    urlTopic || subject,
+                    targetExam,
+                    weaknessScore,
+                    subject
+                );
+            });
+
             try {
-                const topic = urlTopic || subject;
-                const q = await getAdaptiveQuestion(user?.id || 'guest', topic, targetExam, weaknessScore, subject);
+                const totalTarget = globalTargetRef.current || count;
+                const startProgress = Math.min(Math.round((globalFetchedRef.current / totalTarget) * 100), 100);
+                setGenerationProgress(startProgress);
+                setLoadingMessage(`Generating ${subject}... ${startProgress}%`);
 
-                if (q) {
-                    // Check for duplicates in current batch
-                    const qId = q.id || q.question;
-                    if (seenQuestions.has(qId)) {
-                        console.warn(`[MockGenerator] Duplicate question detected (${qId}), skipping...`);
-                        continue;
-                    }
-                    seenQuestions.add(qId);
+                const results = await Promise.allSettled(promises);
 
-                    // NEW: Small delay between questions to avoid hitting TPM/RPM limits
-                    await new Promise(res => setTimeout(res, 300));
+                for (const res of results) {
+                    attempts++;
+                    if (res.status === 'fulfilled' && res.value) {
+                        const q = res.value;
+                        const qId = q.id || q.question;
 
-                    // Normalize StoredQuestion to UI Question type
-                    let correctAnswerIndex = 0;
-                    const optionsArray: string[] = Array.isArray(q.options)
-                        ? q.options
-                        : Object.values(q.options);
+                        if (seenQuestions.has(qId)) continue;
+                        seenQuestions.add(qId);
 
-                    if (typeof q.correct_answer === 'string') {
-                        if (q.correct_answer.length === 1 && /[A-D]/.test(q.correct_answer)) {
-                            correctAnswerIndex = q.correct_answer.charCodeAt(0) - 65;
-                        } else {
-                            const foundIndex = optionsArray.indexOf(q.correct_answer);
-                            if (foundIndex !== -1) correctAnswerIndex = foundIndex;
+                        // Normalize
+                        let correctAnswerIndex = 0;
+                        const optionsArray: string[] = Array.isArray(q.options)
+                            ? q.options
+                            : Object.values(q.options);
+
+                        if (typeof q.correct_answer === 'string') {
+                            if (q.correct_answer.length === 1 && /[A-D]/.test(q.correct_answer)) {
+                                correctAnswerIndex = q.correct_answer.charCodeAt(0) - 65;
+                            } else {
+                                const foundIndex = optionsArray.indexOf(q.correct_answer);
+                                if (foundIndex !== -1) correctAnswerIndex = foundIndex;
+                            }
                         }
+
+                        collected.push({
+                            id: startId + collected.length,
+                            text: q.question,
+                            options: optionsArray,
+                            correctAnswer: correctAnswerIndex,
+                            explanation: q.explanation,
+                            topic: q.topic || subject,
+                            imageUrl: undefined
+                        });
+
+                        // GLOBAL PROGRESS UPDATE
+                        globalFetchedRef.current += 1;
+                        const totalTargetCount = globalTargetRef.current || count;
+                        const currentProgress = Math.min(Math.round((globalFetchedRef.current / totalTargetCount) * 100), 100);
+
+                        setGenerationProgress(currentProgress);
+                        setLoadingMessage(`Generating ${subject}... ${currentProgress}%`);
                     }
-
-                    collected.push({
-                        id: startId + collected.length,
-                        text: q.question,
-                        options: optionsArray,
-                        correctAnswer: correctAnswerIndex,
-                        explanation: q.explanation,
-                        topic: q.topic || subject,
-                        imageUrl: undefined
-                    });
-
-                    setLoadingMessage(`Generating... (${collected.length}/${count})`);
                 }
-            } catch (e: any) {
-                if (e.code === 'permission-denied' || e.message?.includes('Missing or insufficient permissions')) {
-                    throw e;
-                }
-                console.error(`Failed to get adaptive question at attempt ${attempts}`, e);
+            } catch (e) {
+                console.error("Batch generation failed", e);
             }
+
+            // Minimal pause between batches (reduced for speed)
+            if (collected.length < count) await new Promise(r => setTimeout(r, 100));
         }
 
         return collected;
@@ -516,6 +544,8 @@ export const MockGenerator = () => {
         setQuestions([]);
         setAnswers({});
         setCurrentQ(0);
+        setGenerationProgress(0);
+        globalFetchedRef.current = 0;
         setLoadingMessage("Analyzing Syllabus & Patterns...");
 
         let classContext = "Standard Syllabus.";
@@ -534,21 +564,27 @@ export const MockGenerator = () => {
 
         try {
             if (examMode === 'quick') {
+                const qCount = 10;
+                globalTargetRef.current = qCount;
                 setTimeRemaining(30 * 60);
-                setLoadingMessage("Generating Quick Test (10 Questions)...");
+                setLoadingMessage(`Generating Quick Test (${qCount} Questions)...`);
                 const subject = isJunior ? "Mathematics and Science" : "Physics, Chemistry, Maths/Bio";
                 const q = await generateQuestionsBatch(subject, 10, `${classContext} Mixed topics.`, 1);
                 setQuestions(q);
             } else if (examMode === 'diagnostic') {
+                const qCount = 10;
+                globalTargetRef.current = qCount;
                 setTimeRemaining(0);
                 setLoadingMessage("Calibrating...");
                 const subject = isJunior ? "Math, Science, English" : "Physics, Chemistry, Maths/Bio";
-                const q = await generateQuestionsBatch(subject, 10, `Diagnostic. ${classContext}`, 1);
+                const q = await generateQuestionsBatch(subject, qCount, `Diagnostic. ${classContext}`, 1);
                 setQuestions(q);
             } else if (examMode === 'topic') {
+                const qCount = 15;
+                globalTargetRef.current = qCount;
                 setTimeRemaining(45 * 60);
                 setLoadingMessage(`Generating Topic Test for ${topic}...`);
-                const q = await generateQuestionsBatch(user?.targetExam || "General", 15, `Topic: ${topic}. ${classContext}`, 1);
+                const q = await generateQuestionsBatch(user?.targetExam || "General", qCount, `Topic: ${topic}. ${classContext}`, 1);
                 setQuestions(q);
             } else if (examMode === 'full') {
                 const target = user?.targetExam?.toUpperCase() || '';
@@ -558,6 +594,7 @@ export const MockGenerator = () => {
                 // 1. JUNIOR PATTERN (25 Qs, 4 Marks each -> 100 Marks)
                 if (isJunior) {
                     const qCount = 25;
+                    globalTargetRef.current = qCount;
                     setTimeRemaining(60 * 60); // 1 Hour
                     setLoadingMessage(`Generating Class Test (${qCount} Qs)...`);
 
@@ -577,6 +614,7 @@ export const MockGenerator = () => {
                     setQuestions(allQs);
                 } else if (isNeet) {
                     const qCount = 180;
+                    globalTargetRef.current = qCount;
                     setTimeRemaining(180 * 60);
                     setLoadingMessage(`Generating Full Mock (${qCount} Questions)...`);
                     const [p1, p2, p3] = await Promise.all([
@@ -593,6 +631,7 @@ export const MockGenerator = () => {
                     setQuestions(allQs);
                 } else if (target.includes('BITSAT')) {
                     const qCount = 130;
+                    globalTargetRef.current = qCount;
                     setTimeRemaining(180 * 60); // 3 Hours
                     setLoadingMessage(`Generating BITSAT Mock (${qCount} Qs)...`);
                     const [p1, p2, p3, p4, p5] = await Promise.all([
@@ -605,6 +644,7 @@ export const MockGenerator = () => {
                     setQuestions([...p1, ...p2, ...p3, ...p4, ...p5]);
                 } else if (target.includes('CLAT')) {
                     const qCount = 120;
+                    globalTargetRef.current = qCount;
                     setTimeRemaining(120 * 60); // 2 Hours
                     setLoadingMessage(`Generating CLAT Mock (${qCount} Qs)...`);
                     const [p1, p2, p3, p4, p5] = await Promise.all([
@@ -617,12 +657,14 @@ export const MockGenerator = () => {
                     setQuestions([...p1, ...p2, ...p3, ...p4, ...p5]);
                 } else if (target.includes('UPSC')) {
                     const qCount = 100;
+                    globalTargetRef.current = qCount;
                     setTimeRemaining(120 * 60); // 2 Hours
                     setLoadingMessage(`Generating UPSC CSE Prelims Mock (${qCount} Qs)...`);
                     const q = await generateQuestionsBatch("General Studies (History, Geography, Polity, Economy, Science, Env)", 100, "UPSC CSE Prelims Standard.", 1);
                     setQuestions(q);
                 } else if (target.includes('GATE')) {
                     const qCount = 65;
+                    globalTargetRef.current = qCount;
                     setTimeRemaining(180 * 60); // 3 Hours
                     setLoadingMessage(`Generating GATE Mock (${qCount} Qs)...`);
                     const [p1, p2] = await Promise.all([
@@ -843,10 +885,28 @@ export const MockGenerator = () => {
 
     if (step === 'loading') {
         return (
-            <div className="flex flex-col items-center justify-center min-h-[60vh] space-y-6">
-                <Loader2 size={48} className="text-primary animate-spin" />
-                <h2 className="text-xl font-bold text-text-main">Building Your Exam</h2>
-                <p className="text-text-muted">{loadingMessage}</p>
+            <div className="flex flex-col items-center justify-center min-h-[60vh] space-y-6 max-w-md mx-auto px-4">
+                <div className="relative">
+                    <Loader2 size={64} className="text-primary animate-spin opacity-20" />
+                    <div className="absolute inset-0 flex items-center justify-center text-primary font-bold">
+                        {generationProgress}%
+                    </div>
+                </div>
+
+                <div className="space-y-2 text-center w-full">
+                    <h2 className="text-xl font-bold text-text-main">Building Your Exam</h2>
+                    <p className="text-text-muted text-sm h-5">{loadingMessage}</p>
+                </div>
+
+                {/* Visual Progress Bar */}
+                <div className="w-full bg-surface border border-border h-3 rounded-full overflow-hidden shadow-inner">
+                    <motion.div
+                        initial={{ width: 0 }}
+                        animate={{ width: `${generationProgress}%` }}
+                        className="h-full bg-gradient-to-r from-primary to-secondary transition-all"
+                    />
+                </div>
+
                 <div className="flex items-center gap-2 text-xs text-text-muted mt-4">
                     <Brain size={14} /> Only sourcing last 10 years PYQ-style
                 </div>

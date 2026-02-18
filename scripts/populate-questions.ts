@@ -1,25 +1,33 @@
-import { initializeApp } from "firebase/app";
-import { getFirestore, collection, query, where, getCountFromServer, addDoc } from 'firebase/firestore';
+import admin from "firebase-admin";
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
 import { SYLLABUS_DB, SyllabusTopic } from '../src/lib/constants';
 import dotenv from 'dotenv';
+
 dotenv.config();
 
-// ----------------------
-// FIREBASE CONFIG (Hardcoded for script reliability)
-// ----------------------
-const firebaseConfig = {
-    apiKey: "AIzaSyAj0_vu8OxPWVHvAWSRVN90y9GIStvQASY",
-    authDomain: "legendstech001.firebaseapp.com",
-    projectId: "legendstech001",
-    storageBucket: "legendstech001.firebasestorage.app",
-    messagingSenderId: "749589426436",
-    appId: "1:749589426436:web:64b0455b7f90a7849c6051",
-    measurementId: "G-7MWNJDZ5D0"
-};
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
-// Initialize Firebase locally for this script
-const app = initializeApp(firebaseConfig);
-const db = getFirestore(app);
+// ----------------------
+// ADMIN INIT
+// ----------------------
+const serviceAccountPath = path.join(__dirname, "../service-account.json");
+if (!fs.existsSync(serviceAccountPath)) {
+    console.error("❌ Critical: service-account.json missing. Cannot run Admin Population.");
+    process.exit(1);
+}
+
+const serviceAccount = JSON.parse(fs.readFileSync(serviceAccountPath, "utf8"));
+
+if (!admin.apps.length) {
+    admin.initializeApp({
+        credential: admin.credential.cert(serviceAccount)
+    });
+}
+
+const db = admin.firestore();
 
 // ----------------------
 // CONFIGURATION
@@ -79,13 +87,12 @@ async function populateDatabase() {
             else if (['History', 'Geography', 'Polity', 'Economy'].includes(subject)) examCategory = 'UPSC';
 
             try {
-                // Check count
-                const q = query(
-                    collection(db, 'engine_questions'),
-                    where('topic', '==', topicName)
-                );
+                // Check count using Admin SDK syntax
+                const snap = await db.collection('engine_questions')
+                    .where('topic', '==', topicName)
+                    .count()
+                    .get();
 
-                const snap = await getCountFromServer(q);
                 const currentCount = snap.data().count;
 
                 if (currentCount >= QUESTIONS_PER_TOPIC_TARGET) {
@@ -100,8 +107,8 @@ async function populateDatabase() {
                 for (let i = 0; i < needed; i++) {
                     const fallbackData = generateFallbackQuestion(examCategory, subject, topicName);
 
-                    // Save to DB
-                    const docRef = await addDoc(collection(db, 'engine_questions'), fallbackData);
+                    // Save to DB using Admin SDK syntax
+                    const docRef = await db.collection('engine_questions').add(fallbackData);
                     console.log(`      ✅ Added Fallback Q: ${docRef.id}`);
                     totalFilled++;
 
