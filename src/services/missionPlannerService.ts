@@ -1,5 +1,5 @@
 
-import { TopicStat } from './topicStrengthService';
+import type { TopicStat } from './topicStrengthService';
 
 export interface DailyMission {
     title: string;
