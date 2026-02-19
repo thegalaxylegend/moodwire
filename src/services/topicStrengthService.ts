@@ -34,30 +34,39 @@ export interface TopicStat {
     repeated_mistakes?: number; // Count of repeated mistakes on same topic
     misconception_tags?: string[];
     weakness_score?: number;     // Calculated score
+
+    // Error Pattern Intelligence (AI 2.0)
+    last_error_type?: 'CONCEPTUAL' | 'SILLY' | 'TIME' | 'MISREAD' | 'OVERCONFIDENCE';
+    error_analysis?: {
+        conceptualCount: number;
+        sillyCount: number;
+        timePressureCount: number;
+        misreadCount: number;
+        totalErrors: number;
+    };
 }
 
 // Calculate weakness score based on the formula:
-// weakness_score = (1 - total_accuracy) * 0.35 + (1 - last_5_accuracy) * 0.25 + time_penalty * 0.15 + easy_failure_penalty * 0.15 + repeated_mistake_weight * 0.10
+// weakness_score = (1 - total_accuracy) * 0.3 + (1 - last_5_accuracy) * 0.2 + time_penalty * 0.15 + easy_failure_penalty * 0.15 + error_pattern_penalty * 0.2
 export const calculateWeaknessScore = (stat: Partial<TopicStat>): number => {
     const totalAccuracy = (stat.total_attempts || 0) > 0 ? (stat.correct_count || 0) / (stat.total_attempts || 1) : 1;
     const last5Accuracy = stat.last_5_accuracy !== undefined ? stat.last_5_accuracy : totalAccuracy;
 
     // Normalize penalties to 0-1 range
-    // time_penalty: if avg_time > 120s (2 mins), penalty increases
     const timePenalty = Math.min((stat.avg_time || 0) / 120, 1);
-
-    // easy_failure_penalty: ratio of easy failures to total attempts
     const easyFailurePenalty = Math.min((stat.easy_failures || 0) / (stat.total_attempts || 1), 1);
 
-    // repeated_mistake_weight: ratio of repeated mistakes to total attempts
-    const repeatedMistakeWeight = Math.min((stat.repeated_mistakes || 0) / (stat.total_attempts || 1), 1);
+    // Error pattern penalty: focus on conceptual mistakes
+    const conceptualRatio = (stat.error_analysis?.conceptualCount || 0) / (stat.error_analysis?.totalErrors || 1);
+    const sillyRatio = (stat.error_analysis?.sillyCount || 0) / (stat.error_analysis?.totalErrors || 1);
+    const errorPenalty = (conceptualRatio * 0.8) + (sillyRatio * 0.2); // Conceptual is worse than silly
 
     const score =
-        (1 - totalAccuracy) * 0.35 +
-        (1 - last5Accuracy) * 0.25 +
+        (1 - totalAccuracy) * 0.30 +
+        (1 - last5Accuracy) * 0.20 +
         timePenalty * 0.15 +
         easyFailurePenalty * 0.15 +
-        repeatedMistakeWeight * 0.10;
+        errorPenalty * 0.20;
 
     return Number(score.toFixed(3));
 };
@@ -73,10 +82,11 @@ export const updateTopicStrength = async (
         timeSpent?: number, // in seconds
         misconceptionTags?: string[],
         userClass?: string,
-        targetExam?: string
+        targetExam?: string,
+        errorType?: 'CONCEPTUAL' | 'SILLY' | 'TIME' | 'MISREAD' | 'OVERCONFIDENCE'
     } = {}
 ): Promise<void> => {
-    const { difficulty, timeSpent, misconceptionTags, userClass, targetExam } = params;
+    const { difficulty, timeSpent, misconceptionTags, userClass, targetExam, errorType } = params;
     if (!userId || !topic) return;
 
     const cleanTopic = topic.trim();
@@ -100,6 +110,13 @@ export const updateTopicStrength = async (
         let easyFailures = (!isCorrect && difficulty === 'Easy') ? 1 : 0;
         let repeatedMistakes = 0;
         let existingTags: string[] = misconceptionTags || [];
+        let errorAnalysis = {
+            conceptualCount: (!isCorrect && errorType === 'CONCEPTUAL') ? 1 : 0,
+            sillyCount: (!isCorrect && errorType === 'SILLY') ? 1 : 0,
+            timePressureCount: (!isCorrect && errorType === 'TIME') ? 1 : 0,
+            misreadCount: (!isCorrect && errorType === 'MISREAD') ? 1 : 0,
+            totalErrors: isCorrect ? 0 : 1
+        };
 
         if (snap.exists()) {
             const existing = snap.data() as TopicStat;
@@ -114,6 +131,16 @@ export const updateTopicStrength = async (
 
             // Easy failures
             easyFailures = (existing.easy_failures || 0) + ((!isCorrect && difficulty === 'Easy') ? 1 : 0);
+
+            // Error Analysis
+            const prevEA = existing.error_analysis || { conceptualCount: 0, sillyCount: 0, timePressureCount: 0, misreadCount: 0, totalErrors: 0 };
+            errorAnalysis = {
+                conceptualCount: prevEA.conceptualCount + (!isCorrect && errorType === 'CONCEPTUAL' ? 1 : 0),
+                sillyCount: prevEA.sillyCount + (!isCorrect && errorType === 'SILLY' ? 1 : 0),
+                timePressureCount: prevEA.timePressureCount + (!isCorrect && errorType === 'TIME' ? 1 : 0),
+                misreadCount: prevEA.misreadCount + (!isCorrect && errorType === 'MISREAD' ? 1 : 0),
+                totalErrors: prevEA.totalErrors + (isCorrect ? 0 : 1)
+            };
 
             // Repeated mistakes: if it was weak and they fail again
             repeatedMistakes = (existing.repeated_mistakes || 0);
@@ -135,7 +162,8 @@ export const updateTopicStrength = async (
             avg_time: avgTime,
             last_5_accuracy: last5Accuracy,
             easy_failures: easyFailures,
-            repeated_mistakes: repeatedMistakes
+            repeated_mistakes: repeatedMistakes,
+            error_analysis: errorAnalysis
         };
 
         const weaknessScore = calculateWeaknessScore(partialStat);
@@ -164,7 +192,9 @@ export const updateTopicStrength = async (
             easy_failures: easyFailures,
             repeated_mistakes: repeatedMistakes,
             misconception_tags: existingTags,
-            weakness_score: weaknessScore
+            weakness_score: weaknessScore,
+            error_analysis: errorAnalysis,
+            last_error_type: errorType
         };
 
         await setDoc(docRef, statData, { merge: true });
@@ -177,33 +207,33 @@ export const updateTopicStrength = async (
 // Batch update topics after a test
 export const batchUpdateTopicStrength = async (
     userId: string,
-    questions: Array<{ topic: string; subject?: string; isCorrect: boolean }>,
+    questions: Array<{ topic: string; subject?: string; isCorrect: boolean; errorType?: TopicStat['last_error_type'] }>,
     userClass?: string,
     targetExam?: string
 ): Promise<void> => {
     // Group by topic to aggregate stats
-    const topicResults: Record<string, { subject: string; correct: number; total: number }> = {};
+    const topicResults: Record<string, { subject: string; results: Array<{ isCorrect: boolean, errorType?: TopicStat['last_error_type'] }> }> = {};
 
     questions.forEach(q => {
         const topic = q.topic?.trim() || 'General';
         if (!topicResults[topic]) {
-            topicResults[topic] = { subject: q.subject || 'General', correct: 0, total: 0 };
+            topicResults[topic] = { subject: q.subject || 'General', results: [] };
         }
-        topicResults[topic].total++;
-        if (q.isCorrect) topicResults[topic].correct++;
+        topicResults[topic].results.push({ isCorrect: q.isCorrect, errorType: q.errorType });
     });
 
     // Update each topic
     for (const [topic, stats] of Object.entries(topicResults)) {
-        for (let i = 0; i < stats.total; i++) {
+        for (const res of stats.results) {
             await updateTopicStrength(
                 userId,
                 topic,
                 stats.subject,
-                i < stats.correct,
+                res.isCorrect,
                 {
                     userClass,
-                    targetExam
+                    targetExam,
+                    errorType: res.errorType
                 }
             );
         }
@@ -356,7 +386,8 @@ export const recordQuestionResult = async (
         timeSpent?: number,
         misconceptionTags?: string[],
         userClass?: string,
-        targetExam?: string
+        targetExam?: string,
+        errorType?: TopicStat['last_error_type']
     } = {}
 ): Promise<void> => {
     await updateTopicStrength(userId, topic, subject, isCorrect, params);

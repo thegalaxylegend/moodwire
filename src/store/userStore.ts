@@ -4,6 +4,8 @@ import { onAuthStateChanged, signOut, deleteUser, signInAnonymously } from 'fire
 import { doc, getDoc, setDoc, updateDoc, collection, query, where, limit, getDocs } from 'firebase/firestore';
 import { performDeepMigration } from '../migrationService';
 import { SYLLABUS_DB } from '../lib/constants';
+import type { DailyMission } from '../services/missionService';
+import { MissionService } from '../services/missionService';
 import { getCurrentSeason, getCurrentPointCycle } from '../services/gamificationService';
 
 export type User = {
@@ -42,6 +44,8 @@ export type User = {
     referralCode?: string;
     referralCount?: number;
     redeemedReferral?: boolean;
+    abilityScore?: number; // Elo Rating
+    dailyMissions?: DailyMission[];
 };
 
 interface UserState {
@@ -60,6 +64,8 @@ interface UserState {
     addGains: (gains: { xp: number; pts: number }) => Promise<void>;
     recordActivity: (seconds: number) => Promise<void>;
     completeDailyChallenge: () => Promise<void>;
+    refreshMissions: () => Promise<void>;
+    completeMission: (missionId: string) => Promise<void>;
 }
 
 // Helper to synchronously hydrate from localStorage (Optimistic Load)
@@ -109,7 +115,8 @@ const hydrateFromLocal = (): User | null => {
             dailyStudyTime: profile.daily_study_time || 0,
             lastStudyDate: profile.last_study_date,
             dailyChallengeCompleted: profile.daily_challenge_completed || false,
-            lastStreakIncrementDate: profile.last_streak_increment_date
+            lastStreakIncrementDate: profile.last_streak_increment_date,
+            abilityScore: profile.ability_score || 1000
         };
     } catch (e) {
         return null;
@@ -271,7 +278,8 @@ export const useUserStore = create<UserState>((set, get) => ({
                     lastStreakIncrementDate: profile?.last_streak_increment_date,
                     referralCode: profile?.referral_code,
                     referralCount: profile?.referral_count || 0,
-                    redeemedReferral: profile?.redeemed_referral || false
+                    redeemedReferral: profile?.redeemed_referral || false,
+                    abilityScore: profile?.ability_score || 1000
                 };
 
                 set({
@@ -389,6 +397,7 @@ export const useUserStore = create<UserState>((set, get) => ({
         if (data.referralCode !== undefined) updates.referral_code = data.referralCode;
         if (data.referralCount !== undefined) updates.referral_count = data.referralCount;
         if (data.redeemedReferral !== undefined) updates.redeemed_referral = data.redeemedReferral;
+        if (data.abilityScore !== undefined) updates.ability_score = data.abilityScore;
 
         try {
             if (!user.isGuest) {
@@ -576,5 +585,31 @@ export const useUserStore = create<UserState>((set, get) => ({
         }
 
         await updateProfile(updates);
+    },
+
+    refreshMissions: async () => {
+        const { user, updateProfile } = get();
+        if (!user) return;
+
+        // Use an empty history for now (will be updated when fatigue service is fully integrated)
+        const missions = await MissionService.generateMissions(user.id, []);
+        await updateProfile({ dailyMissions: missions });
+    },
+
+    completeMission: async (missionId: string) => {
+        const { user, updateProfile, addGains } = get();
+        if (!user || !user.dailyMissions) return;
+
+        const mission = user.dailyMissions.find(m => m.id === missionId);
+        if (mission && !mission.completed) {
+            const updatedMissions = user.dailyMissions.map(m =>
+                m.id === missionId ? { ...m, completed: true } : m
+            );
+
+            await updateProfile({ dailyMissions: updatedMissions });
+            await addGains({ xp: mission.rewardXp, pts: Math.floor(mission.rewardXp / 10) });
+
+            console.log(`🚀 Mission Completed: ${mission.title}. Awarded ${mission.rewardXp} XP.`);
+        }
     }
 }));

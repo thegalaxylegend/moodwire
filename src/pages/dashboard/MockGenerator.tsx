@@ -18,6 +18,10 @@ import { markTopicsAsCompletedFromResults } from '../../services/dataSyncService
 import { calculateGains } from '../../services/gamificationService';
 import { trackQuestionTime, trackOptionSwitch } from '../../lib/analytics';
 import { storageService } from '../../services/storageService';
+import { FatigueService } from '../../services/fatigueService';
+import type { SessionMetric } from '../../services/fatigueService';
+import { Coffee, AlertTriangle, TrendingUp as DynamicTrending } from 'lucide-react';
+import { EloService } from '../../services/eloService';
 
 
 type Question = {
@@ -43,7 +47,7 @@ type Message = {
 };
 
 export const MockGenerator = () => {
-    const { user, updateSkill, recordMistake, addGains, recordActivity } = useUserStore();
+    const { user, updateSkill, recordMistake, addGains, recordActivity, updateProfile } = useUserStore();
     const navigate = useNavigate();
     const [searchParams] = useSearchParams();
     const urlTopic = searchParams.get('topic');
@@ -67,6 +71,13 @@ export const MockGenerator = () => {
     const [qStartTime, setQStartTime] = useState(Date.now());
     const [generationProgress, setGenerationProgress] = useState(0);
 
+    // AI 2.0: Fatigue State
+    const [sessionHistory, setSessionHistory] = useState<SessionMetric[]>([]);
+    const [fatigueNotice, setFatigueNotice] = useState<{ fatigued: boolean; reason?: string }>({ fatigued: false });
+
+    // AI 2.0: Adaptive Elo State
+    const [currentAbility, setCurrentAbility] = useState<number>(user?.abilityScore || 1000);
+
     // Refs for global progress tracking to prevent jitter in parallel batches
     const globalFetchedRef = useRef(0);
     const globalTargetRef = useRef(0);
@@ -86,6 +97,9 @@ export const MockGenerator = () => {
                     setMode(data.mode);
                     setDifficulty(data.difficulty);
                     setTimeRemaining(data.timeRemaining);
+                    setSessionHistory(data.sessionHistory || []);
+                    setFatigueNotice(data.fatigueNotice || { fatigued: false });
+                    setCurrentAbility(data.currentAbility || user?.abilityScore || 1000);
                     console.log("[MockGenerator] Restored session from cache.");
 
                     // IF we refreshed while loading, stop and return to menu
@@ -115,6 +129,9 @@ export const MockGenerator = () => {
                 mode,
                 difficulty,
                 timeRemaining,
+                sessionHistory,
+                fatigueNotice,
+                currentAbility,
                 timestamp: Date.now()
             };
             sessionStorage.setItem('active_test_session', JSON.stringify(session));
@@ -325,6 +342,12 @@ export const MockGenerator = () => {
                 ).catch(err => console.error("Leaderboard sync failed", err));
             });
 
+            // 4. Update Ability Score (Elo)
+            if (status === 'completed') {
+                await updateProfile({ abilityScore: currentAbility });
+                console.log("✅ Adaptive ability score updated:", currentAbility);
+            }
+
             // 5. Update SKILL LEVELS (Exa V2)
             if (status === 'completed') {
                 const subjectTags: Record<string, { correct: number, wrong: number }> = {
@@ -473,7 +496,8 @@ export const MockGenerator = () => {
                     urlTopic || subject,
                     targetExam,
                     weaknessScore,
-                    subject
+                    subject,
+                    currentAbility
                 );
             });
 
@@ -719,6 +743,34 @@ export const MockGenerator = () => {
         if (q) {
             const duration = Math.floor((Date.now() - qStartTime) / 1000);
             trackQuestionTime(q.id.toString(), duration, q.topic || 'General');
+
+            // AI 2.0: Update Fatigue History
+            const isCorrect = answers[currentQ] === q.correctAnswer;
+            const newMetric: SessionMetric = {
+                questionIndex: currentQ,
+                isCorrect: isCorrect,
+                timeSpent: duration,
+                timestamp: Date.now()
+            };
+
+            const newHistory = [...sessionHistory, newMetric];
+            setSessionHistory(newHistory);
+
+            // AI 2.0: Update Elo Rating in Real-time
+            const newAbility = EloService.calculateNewAbility(
+                currentAbility,
+                (q as any).difficulty || 'Medium',
+                isCorrect
+            );
+            setCurrentAbility(newAbility);
+
+            // Periodically check for fatigue
+            if (newHistory.length % 3 === 0) {
+                const result = FatigueService.detectFatigue(newHistory);
+                if (result.fatigued) {
+                    setFatigueNotice(result);
+                }
+            }
         }
         setCurrentQ(p => p + 1);
         setQStartTime(Date.now());
@@ -1163,6 +1215,35 @@ export const MockGenerator = () => {
         return (
             <div className="fixed inset-0 z-[100] bg-background overflow-y-auto">
                 <div className="max-w-4xl mx-auto space-y-6 p-4 md:p-8 animate-fade-in-up">
+                    {/* Fatigue Warning Notification */}
+                    <AnimatePresence>
+                        {fatigueNotice.fatigued && (
+                            <motion.div
+                                initial={{ height: 0, opacity: 0 }}
+                                animate={{ height: 'auto', opacity: 1 }}
+                                className="overflow-hidden mb-4"
+                            >
+                                <div className="bg-yellow-500/10 border border-yellow-500/20 p-4 rounded-xl flex items-center gap-4 text-yellow-500 relative">
+                                    <div className="w-10 h-10 bg-yellow-500/20 rounded-full flex items-center justify-center shrink-0">
+                                        <Coffee size={20} className="animate-bounce" />
+                                    </div>
+                                    <div className="flex-1">
+                                        <h5 className="text-sm font-bold uppercase tracking-wider flex items-center gap-2">
+                                            <AlertTriangle size={14} /> Low Mental Battery Detected
+                                        </h5>
+                                        <p className="text-xs opacity-80 mt-1">{fatigueNotice.reason}</p>
+                                    </div>
+                                    <button
+                                        onClick={() => setFatigueNotice({ fatigued: false })}
+                                        className="text-xs font-bold px-3 py-1 bg-yellow-500/20 hover:bg-yellow-500/30 rounded-lg transition-colors"
+                                    >
+                                        Dismiss
+                                    </button>
+                                </div>
+                            </motion.div>
+                        )}
+                    </AnimatePresence>
+
                     <header className="flex flex-row justify-between items-center gap-4 bg-surface px-4 py-2 rounded-xl border border-border shadow-lg">
                         <div className="flex items-center gap-4">
                             <div>
@@ -1188,6 +1269,17 @@ export const MockGenerator = () => {
                             ) : (
                                 <div className="text-primary font-bold flex items-center gap-2 text-sm">
                                     <CheckCircle size={16} /> REVIEW MODE
+                                </div>
+                            )}
+
+                            {/* AI 2.0: Ability Pulse */}
+                            {mode !== 'diagnostic' && (
+                                <div className="hidden md:flex flex-col items-end px-4 border-l border-border">
+                                    <span className="text-[10px] text-text-muted uppercase font-bold tracking-widest">Ability Est.</span>
+                                    <div className="flex items-center gap-1.5 text-secondary font-bold text-sm">
+                                        <DynamicTrending size={14} />
+                                        {EloService.calculatePercentile(currentAbility)}th %ile
+                                    </div>
                                 </div>
                             )}
 

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useUserStore } from '../../store/userStore';
 import { Link, useNavigate } from 'react-router-dom';
-import { TrendingUp, RefreshCw, Flame, Play, ChevronRight } from 'lucide-react';
+import { TrendingUp, RefreshCw, Flame, Play, ChevronRight, Target, Sparkles as SparkleIcon } from 'lucide-react';
 
 import { getWeakTopics, getStrongTopics, type TopicStat } from '../../services/topicStrengthService';
 import { DailyChallenge } from '../../components/DailyChallenge';
@@ -12,6 +12,11 @@ import { XPProgress } from '../../components/gamification/XPProgress';
 import { ProficiencyMap } from '../../components/dashboard/ProficiencyMap';
 import { motion, AnimatePresence } from 'framer-motion';
 import { DailyStudyGoalIcon } from '../../components/dashboard/DailyStudyGoalIcon';
+import { RootCauseInsight } from '../../components/dashboard/RootCauseInsight';
+import { ConceptGraphService } from '../../services/conceptGraphService';
+import type { DependencyInsight } from '../../services/conceptGraphService';
+import { DailyMissionCard } from '../../components/dashboard/DailyMissionCard';
+import type { DailyMission } from '../../services/missionService';
 
 const DiagnosticPopup = ({ onDismiss, onStart }: { onDismiss: () => void; onStart: () => void }) => {
     return (
@@ -57,7 +62,7 @@ const DiagnosticPopup = ({ onDismiss, onStart }: { onDismiss: () => void; onStar
 };
 
 export const Overview = () => {
-    const { user, fetchSyllabusProgress } = useUserStore();
+    const { user, fetchSyllabusProgress, refreshMissions, completeMission } = useUserStore();
     const navigate = useNavigate();
 
     // -- GUEST / INTENT LOGIC --
@@ -138,6 +143,21 @@ export const Overview = () => {
             setLoading(false);
         }
     }, [user]);
+
+    useEffect(() => {
+        if (user && !user.isGuest && (!user.dailyMissions || user.dailyMissions.length === 0)) {
+            refreshMissions();
+        }
+    }, [user, refreshMissions]);
+
+    const handleMissionAction = (mission: DailyMission) => {
+        if (mission.type === 'practice' || mission.type === 'review') {
+            navigate(`/dashboard/mock?topic=${encodeURIComponent(mission.topic)}`);
+        } else if (mission.type === 'discovery') {
+            const slug = mission.topic.toLowerCase().replace(/[^a-z0-9\s]/g, '').replace(/\s+/g, '-').trim();
+            navigate(`/dashboard/lectures/${slug}`);
+        }
+    };
 
     const fetchStats = async () => {
         if (!user?.id) {
@@ -366,6 +386,17 @@ export const Overview = () => {
         }
     };
 
+    // AI 2.0: Concept Graph Insights
+    const [dependencyInsights, setDependencyInsights] = useState<DependencyInsight[]>([]);
+    useEffect(() => {
+        if (weakTopicStats.length > 0) {
+            const insights = ConceptGraphService.findRootCauseInstabilities(
+                weakTopicStats.map(s => s.topic)
+            );
+            setDependencyInsights(insights);
+        }
+    }, [weakTopicStats]);
+
     // Optimized Video Fetching - Multi Focus
     const fetchRecommendations = async () => {
         if (!user || !user.id) return;
@@ -433,15 +464,22 @@ export const Overview = () => {
 
             {/* Desktop Stats Indicators */}
             <div className="flex items-center gap-4">
-                <div className="hidden lg:flex items-center gap-3 px-4 py-3 bg-surface border border-border rounded-xl shadow-sm">
+                <div className="hidden lg:flex items-center gap-3 px-5 py-3 glass-card premium-border active-glow shadow-xl">
                     <DailyStudyGoalIcon />
-                    <div className="w-px h-8 bg-border mx-2"></div>
-                    <div className="p-2 bg-primary/10 rounded-lg">
+                    <div className="w-px h-8 bg-border/50 mx-2"></div>
+                    <motion.div
+                        animate={{ scale: [1, 1.1, 1] }}
+                        transition={{ duration: 2, repeat: Infinity }}
+                        className="p-2 bg-primary/10 rounded-xl"
+                    >
                         <Flame size={20} className="fill-primary text-primary" />
-                    </div>
+                    </motion.div>
                     <div>
-                        <p className="text-sm font-bold text-text-main leading-none">{displayUser?.streak || 0}-Day Streak</p>
-                        <p className="text-xs text-text-muted mt-1">Keep it up! 🔥</p>
+                        <p className="text-sm font-black text-text-main leading-none">{displayUser?.streak || 0}-DAY STREAK</p>
+                        <div className="flex items-center gap-1 mt-1">
+                            <SparkleIcon size={10} className="text-yellow-500 fill-yellow-500" />
+                            <p className="text-[10px] font-bold text-text-muted uppercase tracking-tighter">Elite Learner</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -456,6 +494,15 @@ export const Overview = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                     <div className="lg:col-span-2 space-y-6">
                         <DailyChallenge />
+
+                        {user && !user.isGuest && (
+                            <DailyMissionCard
+                                missions={user.dailyMissions || []}
+                                onComplete={(id) => completeMission(id)}
+                                onRefresh={() => refreshMissions()}
+                                onAction={handleMissionAction}
+                            />
+                        )}
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             {/* Coverage Card */}
@@ -543,23 +590,34 @@ export const Overview = () => {
 
                 {/* Focus Areas + Videos */}
                 {(loading || weakTopicStats.length > 0 || strongTopicStats.length > 0) ? (
-                    <div className="glass-card oxygen-card p-6 space-y-6">
+                    <div className="glass-card oxygen-card p-6 space-y-8">
                         <div className="flex items-center justify-between">
                             <div className="flex items-center gap-3">
                                 <TrendingUp className="text-red-400" size={24} />
                                 <div>
-                                    <h3 className="text-xl font-bold text-text-main">Focus Areas</h3>
-                                    <p className="text-sm text-text-muted">Based on your test performance</p>
+                                    <h3 className="text-xl font-bold text-text-main">AI Diagnostics</h3>
+                                    <p className="text-sm text-text-muted">Master your syllabus through root-cause analysis</p>
                                 </div>
                             </div>
                             <Link to="/dashboard/analytics" className="text-sm text-primary hover:underline whitespace-nowrap">Full Analytics →</Link>
                         </div>
 
                         {loading ? <div className="h-20 w-full bg-surface animate-pulse rounded-xl" /> : (
-                            <>
+                            <div className="space-y-8">
+                                {/* AI 2.0 Root Cause Layer */}
+                                {dependencyInsights.length > 0 && (
+                                    <RootCauseInsight
+                                        insights={dependencyInsights}
+                                        onFixAction={(topic) => navigate(`/dashboard/mock?topic=${encodeURIComponent(topic)}`)}
+                                    />
+                                )}
+
                                 {weakTopicStats.length > 0 && (
                                     <div className="space-y-3 relative">
-                                        <h4 className="text-sm font-bold text-red-400 uppercase tracking-wider">Focus On These</h4>
+                                        <div className="flex items-center gap-2 mb-2">
+                                            <Target className="text-red-400" size={18} />
+                                            <h4 className="text-sm font-bold text-red-400 uppercase tracking-wider">Specific Focus Topics</h4>
+                                        </div>
                                         <div className="flex overflow-x-auto no-scrollbar gap-3 pb-2">
                                             {weakTopicStats.map((stat, idx) => (
                                                 <div key={idx} className="shrink-0 px-4 py-3 bg-red-500/10 border border-red-500/20 rounded-xl flex items-center gap-3 oxygen-card">
@@ -570,7 +628,7 @@ export const Overview = () => {
                                         </div>
                                     </div>
                                 )}
-                            </>
+                            </div>
                         )}
 
                         {/* Videos Section */}

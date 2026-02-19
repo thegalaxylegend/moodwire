@@ -14,6 +14,7 @@ import {
 } from 'firebase/firestore';
 import { askAI } from '../lib/ai';
 import { extractJSON } from '../lib/utils';
+import { EloService } from './eloService';
 
 // sleep removed for speed improvements
 
@@ -29,6 +30,15 @@ export interface StoredQuestion {
     options: string[] | Record<string, string>;
     correct_answer: string;
     explanation: string;
+
+    // AI 2.0 Upgrades
+    rich_explanation?: {
+        steps: string[];
+        why_others_wrong: Record<string, string>;
+        teach_me_like_12: string;
+        diagram_prompt?: string;
+    };
+
     concept_tags: string[];
     error_trap_type: string;
     hash: string;
@@ -132,30 +142,40 @@ export const generateInspiredQuestion = async (
     
     EXAM: ${exam}
     SUBJECT: ${subject}
-    TOPIC: ${topic} (If generic, pick a specific Chapter/Unit)
+    TOPIC: ${topic}
     DIFFICULTY: ${difficulty}
     
     RULES:
     1. STRICTLY follow ${exam} pattern.
-    2. USE "${exam} PREVIOUS YEAR QUESTION (PYQ)" ARCHIVES as the primary source of inspiration.
-    3. MODIFY values/context of actual PYQs to create "Fresh PYQ-level" problems.
-    4. Ensure the question feels indistinguishable from a real ${exam} question.
-    5. Include conceptual traps common in ${exam}.
+    2. USE "${exam} PREVIOUS YEAR QUESTION (PYQ)" ARCHIVES for inspiration.
+    3. MODIFY actual PYQ contexts to create "Fresh" problems.
     
-    OUTPUT FORMAT (JSON ONLY - STRICTLY NO PREAMBLE, NO MARKDOWN):
+    AI 2.0 ENHANCEMENTS:
+    - Provide a "Step-by-Step" solution walkthrough.
+    - Explain "Why each wrong option is wrong".
+    - Provide a "Teach me like I'm 12" simplified intuition.
+    - If question is visual (Physics/Bio/Chem), provide a "diagram_prompt" (scientific diagram description).
+    
+    OUTPUT FORMAT (JSON ONLY):
     {
       "exam": "${exam}",
       "subject": "${subject}",
-      "chapter": "Specific Chapter Name",
-      "topic": "Specific Topic Name (e.g. Rotational Motion, not just Physics)",
+      "chapter": "Chapter Name",
+      "topic": "${topic}",
       "type": "MCQ", 
       "difficulty": "${difficulty}",
       "question": "...",
-      "options": ["A", "B", "C", "D"] or {"A": "...", ...},
+      "options": ["A", "B", "C", "D"],
       "correct_answer": "...",
-      "explanation": "Short max 80 words",
+      "explanation": "Brief summary",
+      "rich_explanation": {
+         "steps": ["Step 1...", "Step 2..."],
+         "why_others_wrong": {"Option A": "Because...", "Option B": "Faulty logic because...", ...},
+         "teach_me_like_12": "Simplified concept explanation",
+         "diagram_prompt": "educational diagram of... white background"
+      },
       "concept_tags": ["tag1", "tag2"],
-      "error_trap_type": "Calculation/Conceptual/Ambiguity"
+      "error_trap_type": "Calculation/Conceptual"
     }
     `;
 
@@ -217,13 +237,21 @@ export const getAdaptiveQuestion = async (
     topic: string,
     exam: string,
     weaknessScore: number,
-    subject?: string // Optional subject context
+    subject?: string, // Optional subject context
+    abilityScore?: number // Optional Elo ability score
 ): Promise<StoredQuestion | null> => {
 
-    // Determine target difficulty based on weakness_score
+    // Determine target difficulty
     let targetDifficulty: 'Easy' | 'Medium' | 'Hard' = 'Medium';
-    if (weaknessScore > 0.7) targetDifficulty = 'Easy';
-    else if (weaknessScore < 0.4) targetDifficulty = 'Hard';
+
+    if (abilityScore !== undefined) {
+        // AI 2.0: Use Elo Rating if available
+        targetDifficulty = EloService.getTargetDifficulty(abilityScore);
+    } else {
+        // Fallback to topic-specific weakness score
+        if (weaknessScore > 0.7) targetDifficulty = 'Easy';
+        else if (weaknessScore < 0.4) targetDifficulty = 'Hard';
+    }
 
     try {
         // 1. Try to find in DB (Specific Topic)

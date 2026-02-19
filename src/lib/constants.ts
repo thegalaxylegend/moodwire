@@ -4,16 +4,17 @@ export interface SyllabusTopic {
     weightage: 'High' | 'Medium' | 'Low';
     examPattern: 'Passage' | 'MCQ' | 'Numerical';
     subtopics: string[];
+    prerequisites?: string[];
 }
 
 export const SYLLABUS_DB: Record<string, SyllabusTopic[]> = {
     Physics: [
         { topic: "Units and Measurements", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["SI Units", "Dimensions", "Errors in Measuring Instruments"] },
-        { topic: "Motion in a Straight Line", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Velocity", "Acceleration", "Relative Velocity", "Kinematic Equations"] },
-        { topic: "Motion in a Plane", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Vectors", "Projectile Motion", "Uniform Circular Motion"] },
-        { topic: "Laws of Motion", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Newton's Laws", "Friction", "Circular Motion Dynamics"] },
-        { topic: "Work, Energy and Power", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Work-Energy Theorem", "Potential Energy", "Collisions"] },
-        { topic: "Rotational Motion", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Center of Mass", "Torque", "Moment of Inertia", "Rolling Motion"] },
+        { topic: "Motion in a Straight Line", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Velocity", "Acceleration", "Relative Velocity", "Kinematic Equations"], prerequisites: ["Units and Measurements"] },
+        { topic: "Motion in a Plane", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Vectors", "Projectile Motion", "Uniform Circular Motion"], prerequisites: ["Units and Measurements"] },
+        { topic: "Laws of Motion", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Newton's Laws", "Friction", "Circular Motion Dynamics"], prerequisites: ["Motion in a Straight Line"] },
+        { topic: "Work, Energy and Power", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Work-Energy Theorem", "Potential Energy", "Collisions"], prerequisites: ["Laws of Motion"] },
+        { topic: "Rotational Motion", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Center of Mass", "Torque", "Moment of Inertia", "Rolling Motion"], prerequisites: ["Laws of Motion", "Motion in a Plane"] },
         { topic: "Gravitation", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Kepler's Laws", "Escape Velocity", "Satellites"] },
         { topic: "Mechanical Properties of Solids", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Stress", "Strain", "Hooke's Law", "Young's Modulus"] },
         { topic: "Mechanical Properties of Fluids", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Pascal's Law", "Bernoulli's Principle", "Viscosity", "Surface Tension"] },
@@ -40,11 +41,11 @@ export const SYLLABUS_DB: Record<string, SyllabusTopic[]> = {
     ],
     Chemistry: [
         { topic: "Some Basic Concepts of Chemistry", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Stoichiometry", "Mole Concept", "Concentration Terms"] },
-        { topic: "Structure of The Atom", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Bohr Model", "Quantum Numbers", "Electronic Config"] },
-        { topic: "Classification of Elements", class: "Class 11", weightage: "Medium", examPattern: "MCQ", subtopics: ["Periodic Trends", "Ionization Enthalpy", "Electronegativity"] },
-        { topic: "Chemical Bonding", class: "Class 11", weightage: "High", examPattern: "MCQ", subtopics: ["VSEPR", "Hybridization", "MOT", "Hydrogen Bonding"] },
-        { topic: "States of Matter", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Gas Laws", "Ideal Gas Equation", "Intermolecular Forces"] },
-        { topic: "Thermodynamics", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Enthalpy", "Entropy", "Gibbs Free Energy"] },
+        { topic: "Structure of The Atom", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Bohr Model", "Quantum Numbers", "Electronic Config"], prerequisites: ["Some Basic Concepts of Chemistry"] },
+        { topic: "Classification of Elements", class: "Class 11", weightage: "Medium", examPattern: "MCQ", subtopics: ["Periodic Trends", "Ionization Enthalpy", "Electronegativity"], prerequisites: ["Structure of The Atom"] },
+        { topic: "Chemical Bonding", class: "Class 11", weightage: "High", examPattern: "MCQ", subtopics: ["VSEPR", "Hybridization", "MOT", "Hydrogen Bonding"], prerequisites: ["Structure of The Atom", "Classification of Elements"] },
+        { topic: "States of Matter", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Gas Laws", "Ideal Gas Equation", "Intermolecular Forces"], prerequisites: ["Some Basic Concepts of Chemistry"] },
+        { topic: "Thermodynamics", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Enthalpy", "Entropy", "Gibbs Free Energy"], prerequisites: ["Some Basic Concepts of Chemistry", "States of Matter"] },
         { topic: "Equilibrium", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Le Chatelier Principle", "pH Calculation", "Solubility Product"] },
         { topic: "Redox Reactions", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Oxidation Number", "Balancing Equations", "Elecrochemical Cells"] },
         { topic: "Hydrogen", class: "Class 11", weightage: "Low", examPattern: "MCQ", subtopics: ["Preparation", "Hydrides", "Water"] },
@@ -72,16 +73,16 @@ export const SYLLABUS_DB: Record<string, SyllabusTopic[]> = {
     ],
     Mathematics: [
         { topic: "Sets", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Types of Sets", "Venn Diagrams", "Operations"] },
-        { topic: "Relations and Functions", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Types of Relations", "Domain/Range", "Functions"] },
-        { topic: "Trigonometric Functions", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Identities", "Equations", "Graphs"] },
+        { topic: "Relations and Functions", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Types of Relations", "Domain/Range", "Functions"], prerequisites: ["Sets"] },
+        { topic: "Trigonometric Functions", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Identities", "Equations", "Graphs"], prerequisites: ["Relations and Functions"] },
         { topic: "Principle of Mathematical Induction", class: "Class 11", weightage: "Low", examPattern: "MCQ", subtopics: ["Induction Steps", "Applications"] },
         { topic: "Complex Numbers", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Modulus", "Argument", "Polar Form", "Roots"] },
         { topic: "Linear Inequalities", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Algebraic Solutions", "Graphical Solutions"] },
         { topic: "Permutations and Combinations", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Factorial", "Arrangements", "Selections"] },
-        { topic: "Binomial Theorem", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Pascal's Triangle", "General Term", "Expansion"] },
-        { topic: "Sequences and Series", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["AP", "GP", "AM-GM", "Sum of Series"] },
+        { topic: "Binomial Theorem", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Pascal's Triangle", "General Term", "Expansion"], prerequisites: ["Permutations and Combinations"] },
+        { topic: "Sequences and Series", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["AP", "GP", "AM-GM", "Sum of Series"], prerequisites: ["Binomial Theorem", "Linear Inequalities"] },
         { topic: "Straight Lines", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Slope", "Point-Slope", "Two-Point", "General Eq"] },
-        { topic: "Conic Sections", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Circle", "Parabola", "Ellipse", "Hyperbola"] },
+        { topic: "Conic Sections", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Circle", "Parabola", "Ellipse", "Hyperbola"], prerequisites: ["Straight Lines"] },
         { topic: "3D Geometry (Intro)", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Coordinates", "Distance Formula"] },
         { topic: "Limits and Derivatives", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Standard Limits", "First Principle", "Differentiation"] },
         { topic: "Mathematical Reasoning", class: "Class 11", weightage: "Low", examPattern: "MCQ", subtopics: ["Statements", "Logical Operations"] },
