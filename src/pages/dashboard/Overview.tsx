@@ -491,8 +491,8 @@ export const Overview = () => {
             {header}
 
             <div className="animate-fade-in-up space-y-8">
-                <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-                    <div className="lg:col-span-2 space-y-6">
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
+                    <div className="lg:col-span-2 space-y-6 relative z-10">
                         <DailyChallenge />
 
                         {user && !user.isGuest && (
@@ -503,57 +503,56 @@ export const Overview = () => {
                                 onAction={handleMissionAction}
                             />
                         )}
-
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            {/* Coverage Card */}
-                            <div className="glass-card oxygen-card p-6 space-y-2 min-h-[160px]">
-                                <h3 className="text-lg font-semibold text-text-muted">Syllabus Coverage</h3>
-                                {loading ? <div className="h-10 w-24 bg-surface animate-pulse rounded-lg" /> : (
-                                    <>
-                                        <p className="text-4xl font-bold text-accent">{progress}%</p>
-                                        <div className="w-full bg-surface h-1.5 rounded-full mt-2">
-                                            <div className="bg-accent h-full rounded-full" style={{ width: `${progress}%` }}></div>
-                                        </div>
-                                        <div className="flex justify-between items-center">
-                                            <p className="text-xs text-text-muted">{attempts} mocks completed</p>
-                                            {!user?.isGuest && (
-                                                <button
-                                                    onClick={handleSync}
-                                                    disabled={isSyncing}
-                                                    title="Sync old test data to leaderboard"
-                                                    className="p-1 px-2 text-[10px] bg-primary/10 hover:bg-primary/20 text-primary border border-primary/20 rounded-md transition-all flex items-center gap-1"
-                                                >
-                                                    <RefreshCw size={10} className={isSyncing ? 'animate-spin' : ''} />
-                                                    {isSyncing ? 'Syncing...' : 'Sync Data'}
-                                                </button>
-                                            )}
-                                        </div>
-                                    </>
-                                )}
-                            </div>
-
-                            {/* Days Left / Class Card */}
-                            <div className="glass-card oxygen-card p-6 space-y-2 min-h-[160px] flex flex-col justify-center">
-                                {loading ? <div className="h-10 w-32 bg-surface animate-pulse rounded-lg" /> : (
-                                    isJunior ? (
-                                        <>
-                                            <h3 className="text-lg font-semibold text-text-muted">School Year</h3>
-                                            <p className="text-3xl font-bold text-text-main">{displayUser?.userClass}</p>
-                                            <p className="text-xs text-text-muted">Consistently study your subjects!</p>
-                                        </>
-                                    ) : (
-                                        <>
-                                            <h3 className="text-lg font-semibold text-text-muted">Days Left</h3>
-                                            <p className="text-4xl font-bold text-text-main">{daysLeft}</p>
-                                            <p className="text-xs text-text-muted">Until Jan 24, {displayUser?.targetYear || '2026'}</p>
-                                        </>
-                                    )
-                                )}
-                            </div>
-                        </div>
                     </div>
-                    <div>
+
+                    <div className="space-y-6">
                         <ProficiencyMap />
+
+                        {/* Coverage Card */}
+                        <div className="glass-card oxygen-card p-6 space-y-2 min-h-[160px]">
+                            <h3 className="text-lg font-semibold text-text-muted">Syllabus Coverage</h3>
+                            {loading ? <div className="h-10 w-24 bg-surface animate-pulse rounded-lg" /> : (
+                                <>
+                                    <p className="text-4xl font-bold text-accent">{progress}%</p>
+                                    <div className="w-full bg-surface h-1.5 rounded-full mt-2">
+                                        <div className="bg-accent h-full rounded-full" style={{ width: `${progress}%` }}></div>
+                                    </div>
+                                    <div className="flex justify-between items-center">
+                                        <p className="text-xs text-text-muted">{attempts} mocks completed</p>
+                                        {!user?.isGuest && (
+                                            <button
+                                                onClick={handleSync}
+                                                disabled={isSyncing}
+                                                title="Sync old test data to leaderboard"
+                                                className="p-1 px-2 text-[10px] bg-primary/10 hover:bg-primary/20 text-primary border border-primary/20 rounded-md transition-all flex items-center gap-1"
+                                            >
+                                                <RefreshCw size={10} className={isSyncing ? 'animate-spin' : ''} />
+                                                {isSyncing ? 'Syncing...' : 'Sync Data'}
+                                            </button>
+                                        )}
+                                    </div>
+                                </>
+                            )}
+                        </div>
+
+                        {/* Days Left / Class Card */}
+                        <div className="glass-card oxygen-card p-6 space-y-2 min-h-[160px] flex flex-col justify-center">
+                            {loading ? <div className="h-10 w-32 bg-surface animate-pulse rounded-lg" /> : (
+                                isJunior ? (
+                                    <>
+                                        <h3 className="text-lg font-semibold text-text-muted">School Year</h3>
+                                        <p className="text-3xl font-bold text-text-main">{displayUser?.userClass}</p>
+                                        <p className="text-xs text-text-muted">Consistently study your subjects!</p>
+                                    </>
+                                ) : (
+                                    <>
+                                        <h3 className="text-lg font-semibold text-text-muted">Days Left</h3>
+                                        <p className="text-4xl font-bold text-text-main">{daysLeft}</p>
+                                        <p className="text-xs text-text-muted">Until Jan 24, {displayUser?.targetYear || '2026'}</p>
+                                    </>
+                                )
+                            )}
+                        </div>
                     </div>
                 </div>
 

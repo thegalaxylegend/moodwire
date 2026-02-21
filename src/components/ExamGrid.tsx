@@ -64,9 +64,29 @@ const exams = [
         difficulty: 'Very Hard'
     },
     {
+        id: 'class-12',
+        name: 'Class 12 Boards',
+        desc: 'CBSE/State Board Excellence',
+        nextDate: 'Feb 15, 2026',
+        progress: 100,
+        color: 'bg-indigo-500',
+        category: 'School',
+        difficulty: 'Medium'
+    },
+    {
+        id: 'class-11',
+        name: 'Class 11 Exams',
+        desc: 'Annual School Examination',
+        nextDate: 'Mar 01, 2026',
+        progress: 100,
+        color: 'bg-cyan-500',
+        category: 'School',
+        difficulty: 'Medium'
+    },
+    {
         id: 'school-exams',
-        name: 'Class 6-10',
-        desc: 'CBSE School Excellence',
+        name: 'Junior School (6-10)',
+        desc: 'CBSE Academic Foundation',
         nextDate: 'Mar 15, 2026',
         progress: 100,
         color: 'bg-purple-500',

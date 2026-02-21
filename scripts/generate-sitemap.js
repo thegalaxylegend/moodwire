@@ -29,6 +29,18 @@ async function generateSitemap() {
             throw new Error("Manifest is empty.");
         }
 
+        const escapeXml = (unsafe) => {
+            return unsafe.replace(/[<>&'"]/g, (c) => {
+                switch (c) {
+                    case '<': return '&lt;';
+                    case '>': return '&gt;';
+                    case '&': return '&amp;';
+                    case '\'': return '&apos;';
+                    case '"': return '&quot;';
+                }
+            });
+        };
+
         const sitemapEntries = urls.map(url => {
             const meta = manifest[url];
             let priority = meta.priority || 0.5;
@@ -41,10 +53,12 @@ async function generateSitemap() {
             else if (meta.type === 'topic') { priority = 0.7; changefreq = 'weekly'; }
             else if (url.includes('/q/')) { priority = 0.5; changefreq = 'monthly'; }
 
+            const escapedLoc = escapeXml(`${BASE_URL}${url}`);
+
             return `
   <url>
-    <loc>${BASE_URL}${url}</loc>
-    <lastmod>${new Date().toISOString()}</lastmod>
+    <loc>${escapedLoc}</loc>
+    <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>
     <changefreq>${changefreq}</changefreq>
     <priority>${priority}</priority>
   </url>`;

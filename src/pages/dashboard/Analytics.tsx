@@ -38,26 +38,25 @@ export const Analytics = () => {
             const { collection, query, where, getDocs, limit } = await import('firebase/firestore');
             const { SYLLABUS_DB } = await import('../../lib/constants');
 
-            // 1. Determine Relevant Subjects
             const exam = user?.targetExam?.toLowerCase() || '';
-            const isJEE = exam.includes('jee');
-            const isNEET = exam.includes('neet');
-            const isUPSC = exam.includes('upsc') || exam.includes('psc');
-            const isBITSAT = exam.includes('bitsat');
-            const isCLAT = exam.includes('clat');
-            const isGATE = exam.includes('gate');
+            const userCls = user?.userClass?.toLowerCase() || '';
 
             let relevantSubjects: string[] = [];
 
-            if (isUPSC) relevantSubjects = ['History', 'Geography', 'Polity', 'Economy', 'General Science'];
-            else if (isBITSAT) relevantSubjects = ['Physics', 'Chemistry', 'Mathematics', 'English Proficiency', 'Logical Reasoning'];
-            else if (isCLAT) relevantSubjects = ['English Proficiency', 'Current Affairs', 'Legal Reasoning', 'Logical Reasoning', 'Quantitative Techniques'];
-            else if (isGATE) relevantSubjects = ['Engineering Mathematics', 'Logical Reasoning', 'Computer Science'];
-            else {
-                relevantSubjects = ['Physics', 'Chemistry'];
-                if (isJEE) relevantSubjects.push('Mathematics');
-                else if (isNEET) relevantSubjects.push('Biology');
-                else { relevantSubjects.push('Mathematics'); relevantSubjects.push('Biology'); }
+            // Resolve relevant subjects based on exam or class
+            if (exam.includes('jee')) relevantSubjects = ['Physics', 'Chemistry', 'Mathematics'];
+            else if (exam.includes('neet') || exam.includes('medical')) relevantSubjects = ['Physics', 'Chemistry', 'Biology'];
+            else if (exam.includes('bitsat')) relevantSubjects = ['Physics', 'Chemistry', 'Mathematics', 'English Proficiency', 'Logical Reasoning'];
+            else if (exam === 'upsc') relevantSubjects = ['History', 'Geography', 'Polity', 'Economy', 'General Science', 'Current Affairs'];
+            else if (exam === 'clat') relevantSubjects = ['English Proficiency', 'Current Affairs', 'Legal Reasoning', 'Logical Reasoning', 'Quantitative Techniques'];
+            else if (exam === 'gate') relevantSubjects = ['Engineering Mathematics', 'Logical Reasoning', 'Computer Science'];
+            else if (exam === 'school exams' || exam.includes('class') || exam.includes('board')) {
+                // Map "Class 10th" -> "class-10"
+                const classKey = userCls.replace(/th|st|nd|rd/g, '').replace(' ', '-');
+                const EXAM_SUBJECT_MAPPING = (await import('../../lib/constants')).EXAM_SUBJECT_MAPPING;
+                relevantSubjects = EXAM_SUBJECT_MAPPING[classKey] || EXAM_SUBJECT_MAPPING[exam] || ['Physics', 'Chemistry', 'Mathematics', 'Biology'];
+            } else {
+                relevantSubjects = ['Physics', 'Chemistry', 'Mathematics', 'Biology'];
             }
 
             // 2. Initialize Stats
@@ -81,7 +80,6 @@ export const Analytics = () => {
 
             // 4. Calculate Syllabus Stats
             const fmtStats: any = {};
-            const weak: string[] = [];
             let totalMasterySum = 0;
 
             relevantSubjects.forEach(subj => {
@@ -92,61 +90,71 @@ export const Analytics = () => {
                     mastery: s.count > 0 ? Math.round(s.scoreSum / s.count) : 0,
                     source: 'syllabus'
                 };
+                totalMasterySum += fmtStats[subj].percentage;
             });
 
+            setSyllabusCompletion(relevantSubjects.length > 0 ? Math.round(totalMasterySum / relevantSubjects.length) : 0);
+
             // 5. Fetch Mocks
-            const mocksQ = query(collection(db, 'mock_attempts'), where('user_id', '==', user?.id), limit(100)); // Increased limit
+            const mocksQ = query(collection(db, 'mock_attempts'), where('user_id', '==', user?.id), limit(100));
             const mockSnap = await getDocs(mocksQ);
             const cloudMocks = mockSnap.docs.map(d => ({ ...d.data(), source: 'cloud' }));
 
-            const localDataRaw = localStorage.getItem('exam_compass_local_history');
-            const localMocks: any[] = localDataRaw ? JSON.parse(localDataRaw) : [];
+            let localMocks: any[] = [];
+            try {
+                const localDataRaw = localStorage.getItem('exam_compass_local_attempts');
+                localMocks = localDataRaw ? JSON.parse(localDataRaw) : [];
+            } catch (jsonErr) {
+                console.warn("Failed to parse local mocks", jsonErr);
+            }
 
             // Merge & Normalise
-            const allMocks = (Array.isArray(cloudMocks) ? cloudMocks : []).concat(Array.isArray(localMocks) ? localMocks : []).map((m: any, i: number) => {
-                let inferredType = m.type;
-                if (!inferredType) {
-                    // Legacy Data Heuristic
-                    const qCount = Number(m.totalQuestions || 0);
-                    if (qCount > 0 && qCount <= 25) inferredType = 'quick';
-                    else if (m.topic && m.topic.toLowerCase().includes('full mock')) inferredType = 'full';
-                    else if (m.exam) inferredType = 'full'; // Fallback for real full mocks
-                    else inferredType = 'quick';
-                }
-
-                // Normalize score
-                let norm = 0;
-                if (m.percentage !== undefined) {
-                    norm = Number(m.percentage);
-                } else if (m.score !== undefined) {
-                    // Fallback to calculating percentage from raw score
-                    const maxScore = m.total ? Number(m.total) : (Number(m.totalQuestions || 0) * 4);
-                    if (maxScore > 0) {
-                        norm = Math.round((Number(m.score) / maxScore) * 100);
-                    } else {
-                        norm = Number(m.score); // Last resort if no max score known
+            const rawMocksData = (Array.isArray(cloudMocks) ? cloudMocks : []).concat(Array.isArray(localMocks) ? localMocks : [])
+                .filter(m => m !== null)
+                .map((m: any) => {
+                    let inferredType = m.type;
+                    if (!inferredType) {
+                        // Legacy Data Heuristic
+                        const qCount = Number(m.totalQuestions || 0);
+                        if (qCount > 0 && qCount <= 25) inferredType = 'quick';
+                        else if (m.topic && m.topic.toLowerCase().includes('full mock')) inferredType = 'full';
+                        else if (m.exam) inferredType = 'full'; // Fallback for real full mocks
+                        else inferredType = 'quick';
                     }
-                }
 
-                return {
-                    ...m,
-                    // Ensure valid date - Handle Firestore Timestamp or String
-                    created_at: m.created_at?.toDate ? m.created_at.toDate().toISOString() : (m.created_at || m.date || new Date().toISOString()),
-                    normalizedScore: norm,
-                    // Normalize Type
-                    type: inferredType,
-                    // Add stable ID for sort tie-breaking
-                    _sortId: i // Preserves original order preference if local/cloud mix is stable
-                };
-            }).sort((a: any, b: any) => {
-                const dateA = new Date(a.created_at).getTime();
-                const dateB = new Date(b.created_at).getTime();
-                if (dateA !== dateB) return dateA - dateB;
-                // Stable tie-breaker
-                return (a._sortId || 0) - (b._sortId || 0);
-            });
+                    // Normalize score
+                    let norm = 0;
+                    if (m.percentage !== undefined) {
+                        norm = Number(m.percentage);
+                    } else if (m.score !== undefined) {
+                        // Fallback to calculating percentage from raw score
+                        const maxScore = m.total ? Number(m.total) : (Number(m.totalQuestions || 0) * 4);
+                        if (maxScore > 0) {
+                            norm = Math.round((Number(m.score) / maxScore) * 100);
+                        } else {
+                            norm = Number(m.score); // Last resort if no max score known
+                        }
+                    }
 
-            setRawMocks(allMocks);
+                    return {
+                        ...m,
+                        // Ensure valid date - Handle Firestore Timestamp or String
+                        created_at: m.created_at?.toDate ? m.created_at.toDate().toISOString() : (m.created_at || m.date || new Date().toISOString()),
+                        normalizedScore: norm,
+                        // Normalize Type
+                        type: inferredType,
+                        _sortId: i,
+                        // Add stable ID for sort tie-breaking
+                    };
+                }).filter(m => m !== null && !isNaN(new Date(m.created_at).getTime()))
+                .sort((a: any, b: any) => {
+                    const dateA = new Date(a.created_at).getTime();
+                    const dateB = new Date(b.created_at).getTime();
+                    if (dateA !== dateB) return dateA - dateB;
+                    return (a._sortId || 0) - (b._sortId || 0);
+                });
+
+            setRawMocks(rawMocksData);
 
             // 6. Enriched Mastery
             const subjectMockScores: Record<string, { total: number, count: number }> = {};
@@ -265,7 +273,7 @@ export const Analytics = () => {
             estimatedRank = calculatePredictedRank(syllabusCompletion * 0.8, user?.targetExam || 'JEE Mains');
         }
 
-        return estimatedRank;
+        return !isNaN(estimatedRank) ? estimatedRank : 1000000;
     };
 
     const predictedRank = predictRank();
@@ -467,18 +475,26 @@ export const Analytics = () => {
                         <div className="absolute top-0 right-0 w-32 h-32 bg-primary/10 blur-[50px] -mr-16 -mt-16 rounded-full group-hover:bg-primary/20 transition-all duration-500" />
 
                         <h3 className="text-xl font-bold text-text-main flex items-center justify-between relative z-10">
-                            National Rank Predictor
+                            {user?.targetExam?.toLowerCase().includes('school') || user?.targetExam?.toLowerCase().includes('class') || user?.targetExam?.toLowerCase().includes('board')
+                                ? 'Board Prediction'
+                                : 'National Rank Predictor'}
                             {visibleScores.length === 0 && <span className="text-[10px] bg-yellow-500/20 text-yellow-500 px-2 py-1 rounded-full uppercase tracking-widest font-bold">In-Training</span>}
                         </h3>
 
                         <div className="space-y-4 relative z-10">
                             <div className="p-4 bg-surface/50 backdrop-blur-md rounded-xl border border-white/5 shadow-inner">
                                 <div className="flex justify-between items-start mb-1">
-                                    <p className="text-[10px] font-bold text-text-muted uppercase tracking-widest">Estimated AIR</p>
+                                    <p className="text-[10px] font-bold text-text-muted uppercase tracking-widest">
+                                        {user?.targetExam?.toLowerCase().includes('school') || user?.targetExam?.toLowerCase().includes('class') || user?.targetExam?.toLowerCase().includes('board')
+                                            ? 'Predicted Percentile'
+                                            : 'Estimated AIR'}
+                                    </p>
                                     <span className="px-2 py-0.5 bg-green-500/10 text-green-500 text-[10px] font-bold rounded border border-green-500/20">98.2% Accurate</span>
                                 </div>
                                 <p className="text-4xl font-heading font-black text-primary drop-shadow-sm">
-                                    #{predictedRank.toLocaleString()}
+                                    {user?.targetExam?.toLowerCase().includes('school') || user?.targetExam?.toLowerCase().includes('class') || user?.targetExam?.toLowerCase().includes('board')
+                                        ? `${Math.max(0, 100 - (predictedRank / 12000)).toFixed(1)}%ile`
+                                        : `#${predictedRank.toLocaleString()}`}
                                 </p>
                                 <p className="text-[10px] text-text-muted mt-2 italic font-medium">
                                     {visibleScores.length > 0 ? "Calculated from your weighted performance curve." : "Baseline estimate from syllabus coverage."}

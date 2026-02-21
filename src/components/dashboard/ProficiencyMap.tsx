@@ -10,14 +10,14 @@ export const ProficiencyMap = () => {
 
     useEffect(() => {
         if (user) loadProficiency();
-    }, [user]);
+    }, [user, user?.syllabusProgress]);
 
     const loadProficiency = async () => {
         setLoading(true);
         try {
             const [weak, strong] = await Promise.all([
-                getWeakTopics(user?.id || '', 100),
-                getStrongTopics(user?.id || '', 100)
+                getWeakTopics(user?.id || '', 100, user?.userClass, user?.targetExam),
+                getStrongTopics(user?.id || '', 100, user?.userClass, user?.targetExam)
             ]);
 
             const newStats: Record<string, 'high' | 'medium' | 'low' | 'none'> = {};
@@ -43,23 +43,22 @@ export const ProficiencyMap = () => {
 
     const getSubjectsForExam = (exam?: string) => {
         const type = exam?.toLowerCase() || '';
-        // Medical / NEET
         if (type.includes('neet') || type.includes('medical')) {
             return ['Physics', 'Chemistry', 'Biology'];
         }
-        // Engineering / JEE
         if (type.includes('jee') || type.includes('engineering') || type.includes('mains') || type.includes('advanced')) {
             return ['Physics', 'Chemistry', 'Mathematics'];
         }
-        // Foundation / School
-        if (type.includes('foundation') || type.includes('class')) {
-            return ['Mathematics', 'Science', 'Social Science', 'English'];
-        }
-        // Law / CLAT
         if (type.includes('clat') || type.includes('law')) {
             return ['Legal Reasoning', 'Logical Reasoning', 'Current Affairs', 'English Proficiency'];
         }
-        // Default Fallback: Try to match keys in SYLLABUS_DB or return first 3
+
+        // Match user class/school exams
+        const isJunior = ['Class 6th', 'Class 7th', 'Class 8th', 'Class 9th', 'Class 10th'].includes(user?.userClass || '');
+        if (isJunior || type.includes('class') || type.includes('school')) {
+            return ['Mathematics', 'Science', 'Social Science', 'English'];
+        }
+
         const allSubjects = Object.keys(SYLLABUS_DB);
         return allSubjects.slice(0, 3);
     };
@@ -91,7 +90,7 @@ export const ProficiencyMap = () => {
 
             <div className="space-y-4">
                 {subjects.map(sub => {
-                    const topics = SYLLABUS_DB[sub];
+                    const topics = SYLLABUS_DB[sub] || [];
                     const mastered = topics.filter(t => stats[t.topic] === 'high').length;
 
                     return (

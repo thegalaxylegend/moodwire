@@ -15,8 +15,9 @@ export const DailyChallenge = () => {
     const { user, addGains, completeDailyChallenge } = useUserStore();
     const [completed, setCompleted] = useState(false);
     const [selected, setSelected] = useState<string | null>(null);
+    const [showResult, setShowResult] = useState(false);
 
-    // Pick question based on day of year to ensure daily rotation for everyone
+    // Pick question based on day of year
     const dayOfYear = Math.floor((new Date().getTime() - new Date(new Date().getFullYear(), 0, 0).getTime()) / 1000 / 60 / 60 / 24);
     const question = QUESTIONS[dayOfYear % QUESTIONS.length];
     const todayStr = new Date().toISOString().split('T')[0];
@@ -25,26 +26,30 @@ export const DailyChallenge = () => {
         if (user?.lastTestDate === todayStr) {
             setCompleted(true);
         }
-    }, [user]);
+    }, [user, todayStr]);
 
     const handleAnswer = async (option: string) => {
         setSelected(option);
+        setShowResult(true);
+
         if (option === question.a) {
-            setCompleted(true);
+            // Correct answer feedback
+            setTimeout(async () => {
+                setCompleted(true);
+                await completeDailyChallenge();
+                const gains = calculateGains('daily_claim', { streak: user?.streak });
+                await addGains(gains);
 
-            // Complete Daily Challenge (Streak gating handled in store)
-            await completeDailyChallenge();
-
-            // Award Daily Login Gains with Streak Bonus
-            const gains = calculateGains('daily_claim', { streak: user?.streak });
-            await addGains(gains);
-
-            // Ask for Notification permission (Soft Launch)
-            if ('Notification' in window && Notification.permission === 'default') {
-                Notification.requestPermission();
-            }
+                if ('Notification' in window && Notification.permission === 'default') {
+                    Notification.requestPermission();
+                }
+            }, 800);
         } else {
-            setTimeout(() => setSelected(null), 1000); // Shaky effect logic could go here
+            // Wrong answer feedback
+            setTimeout(() => {
+                setSelected(null);
+                setShowResult(false);
+            }, 1000);
         }
     };
 
@@ -53,34 +58,52 @@ export const DailyChallenge = () => {
         const studyGoalMet = studyTime >= 900;
 
         return (
-            <div className={`bg-gradient-to-br ${studyGoalMet ? 'from-green-500/10 to-green-600/10 border-green-500/20' : 'from-orange-500/10 to-orange-600/10 border-orange-500/20'} border p-6 rounded-2xl flex items-center justify-between animate-fade-in relative overflow-hidden`}>
-                <div className={`absolute top-0 right-0 p-10 ${studyGoalMet ? 'bg-green-500/10' : 'bg-orange-500/10'} blur-3xl rounded-full translate-x-1/2 -translate-y-1/2`}></div>
+            <div className={`bg-gradient-to-br ${studyGoalMet ? 'from-green-500/10 to-green-600/10 border-green-500/20' : 'from-orange-500/10 to-orange-600/10 border-orange-500/20'} border p-8 rounded-2xl flex flex-col justify-between animate-fade-in relative overflow-hidden min-h-[200px]`}>
+                <div className={`absolute top-0 right-0 p-20 ${studyGoalMet ? 'bg-green-500/20' : 'bg-orange-500/20'} blur-3xl rounded-full translate-x-1/2 -translate-y-1/2`}></div>
 
-                <div className="relative z-10">
-                    <h3 className={`text-xl font-bold ${studyGoalMet ? 'text-green-400' : 'text-orange-400'} flex items-center gap-2`}>
-                        {studyGoalMet ? <CheckCircle size={24} className="fill-green-500/20" /> : <Brain size={24} className="fill-orange-500/20" />}
-                        {studyGoalMet ? "Daily Goal Complete" : "Quiz Complete!"}
-                    </h3>
-                    <p className="text-text-muted mt-1">
-                        {studyGoalMet
-                            ? "Streak maintained! Come back tomorrow."
-                            : `Study ${Math.ceil((900 - studyTime) / 60)} more mins to save streak!`}
-                    </p>
+                <div className="flex items-center justify-between relative z-10">
+                    <div className="space-y-1">
+                        <h3 className={`text-2xl font-black ${studyGoalMet ? 'text-green-400' : 'text-orange-400'} flex items-center gap-2 tracking-tight`}>
+                            {studyGoalMet ? <CheckCircle size={24} className="fill-green-500/20" /> : <Brain size={24} className="fill-orange-500/20" />}
+                            {studyGoalMet ? "Daily Goal Cleared" : "Knowledge Locked!"}
+                        </h3>
+                        <p className="text-text-muted text-sm font-medium">
+                            {studyGoalMet
+                                ? "You're ahead of the curve! Stay consistent."
+                                : `Push for ${Math.ceil((900 - studyTime) / 60)} more mins to maintain the blaze.`}
+                        </p>
+                    </div>
+
+                    <div className="text-center group">
+                        <div className="text-4xl font-black text-text-main flex items-center justify-center gap-2">
+                            {user?.streak || 0}
+                            <Flame className={`${studyGoalMet ? 'text-orange-500 fill-orange-500' : 'text-text-muted/30 fill-transparent'} animate-pulse`} size={32} />
+                        </div>
+                        <p className="text-[10px] uppercase font-black text-text-muted tracking-widest mt-1">Day Streak</p>
+                    </div>
                 </div>
 
-                <div className="text-center relative z-10">
-                    <div className="text-3xl font-bold text-text-main flex items-center justify-center gap-1">
-                        {user?.streak || 0} <Flame className={`${studyGoalMet ? 'text-orange-500 fill-orange-500' : 'text-text-muted fill-transparent'} animate-pulse`} />
+                <div className="mt-8 pt-6 border-t border-white/5 flex items-center justify-between relative z-10">
+                    <div className="flex items-center gap-4">
+                        <div className="p-2 bg-white/5 rounded-lg border border-white/10">
+                            <Gift size={16} className="text-primary" />
+                        </div>
+                        <div>
+                            <p className="text-[10px] font-black text-text-muted uppercase tracking-wider">Today's Reward</p>
+                            <p className="text-xs font-bold text-text-main">+50 XP & +1 Streak Token</p>
+                        </div>
                     </div>
-                    <p className="text-xs uppercase font-bold text-text-muted tracking-wider">Day Streak</p>
+                    <button onClick={() => window.location.reload()} className="text-[10px] font-black text-primary uppercase tracking-widest hover:underline">
+                        Refresh Stats
+                    </button>
                 </div>
             </div>
         );
     }
 
     return (
-        <div className="glass-card p-0 overflow-hidden relative group">
-            <div className="absolute top-0 left-0 w-1 h-full bg-primary/50"></div>
+        <div className="glass-card p-0 overflow-hidden relative group z-10">
+            <div className="absolute top-0 left-0 w-1 h-full bg-primary/50 pointer-events-none"></div>
             <div className="p-6">
                 <div className="flex items-center justify-between mb-4">
                     <div className="flex items-center gap-2">
@@ -99,22 +122,32 @@ export const DailyChallenge = () => {
 
                 <h4 className="text-lg font-medium text-text-main mb-6">{question.q}</h4>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                    {question.options.map((opt) => (
-                        <button
-                            key={opt}
-                            onClick={() => handleAnswer(opt)}
-                            disabled={!!selected}
-                            className={`p-3 rounded-xl border text-left text-sm font-medium transition-all duration-200
-                                ${selected === opt && opt !== question.a
-                                    ? 'bg-red-500/20 border-red-500 text-red-200'
-                                    : 'bg-surface border-border hover:bg-white/5 hover:border-primary/50 text-text-muted hover:text-text-main'
-                                }
-                            `}
-                        >
-                            {opt}
-                        </button>
-                    ))}
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 relative z-20">
+                    {question.options.map((opt) => {
+                        const isSelected = selected === opt;
+                        const isCorrect = opt === question.a;
+
+                        let buttonClass = 'bg-surface border-border hover:bg-white/5 hover:border-primary/50 text-text-muted hover:text-text-main hover:scale-[1.02]';
+
+                        if (showResult && isSelected) {
+                            buttonClass = isCorrect
+                                ? 'bg-green-500/20 border-green-500 text-green-200'
+                                : 'bg-red-500/20 border-red-500 text-red-200 animate-shake';
+                        } else if (showResult && isCorrect) {
+                            buttonClass = 'bg-green-500/10 border-green-500/50 text-green-200/50';
+                        }
+
+                        return (
+                            <button
+                                key={opt}
+                                onClick={() => handleAnswer(opt)}
+                                disabled={!!selected}
+                                className={`p-3 rounded-xl border text-left text-sm font-medium transition-all duration-200 ${buttonClass} ${selected ? 'cursor-default' : 'cursor-pointer'}`}
+                            >
+                                {opt}
+                            </button>
+                        );
+                    })}
                 </div>
 
             </div>

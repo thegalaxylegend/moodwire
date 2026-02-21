@@ -118,7 +118,7 @@ export const Onboarding = () => {
                             <p className="text-center text-text-muted">Select the mountain you want to conquer.</p>
 
                             <div className="grid grid-cols-2 gap-4 mt-6">
-                                {['JEE Mains', 'NEET UG', 'UPSC CSE', 'BITSAT', 'CLAT', 'GATE'].map((exam) => (
+                                {['JEE Mains', 'NEET UG', 'UPSC CSE', 'BITSAT', 'CLAT', 'GATE', 'School Exams'].map((exam) => (
                                     <button
                                         key={exam}
                                         onClick={() => setFormData({ ...formData, targetExam: exam })}
@@ -128,7 +128,7 @@ export const Onboarding = () => {
                                             }`}
                                     >
                                         <span className="font-bold text-lg block">{exam}</span>
-                                        <span className="text-xs opacity-70">National Level</span>
+                                        <span className="text-xs opacity-70">{exam === 'School Exams' ? 'Board/School Level' : 'National Level'}</span>
                                     </button>
                                 ))}
                             </div>
