@@ -21,7 +21,7 @@ export const MissionPlannerService = {
      * Generates a personalized daily mission based on user stats.
      */
     generateDailyMission: (
-        userId: string,
+        _userId: string,
         weakTopics: TopicStat[],
         examName: string,
         daysToExam?: number

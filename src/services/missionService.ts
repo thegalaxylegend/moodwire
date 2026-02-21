@@ -1,5 +1,5 @@
 
-import { getWeakTopics, type TopicStat } from './topicStrengthService';
+import { getWeakTopics } from './topicStrengthService';
 import { FatigueService } from './fatigueService';
 import { SYLLABUS_DB } from '../lib/constants';
 

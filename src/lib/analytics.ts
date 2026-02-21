@@ -13,8 +13,15 @@ export const initAnalytics = () => {
     if (typeof window === 'undefined') return;
 
     try {
-        ReactGA.initialize(MEASUREMENT_ID);
-        console.log("[Analytics] initialized");
+        // If gtag already exists from index.html, we don't strictly need to re-init
+        // But ReactGA.initialize is fine as it wraps the existing config.
+        // We'll check if we actually need to call it.
+        if (!(window as any).gtag) {
+            ReactGA.initialize(MEASUREMENT_ID);
+            console.log("[Analytics] Initialized via ReactGA");
+        } else {
+            console.log("[Analytics] Already initialized via index.html script");
+        }
     } catch (error) {
         console.error("[Analytics] Initialization failed:", error);
     }

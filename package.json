@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npx tsx scripts/ensure-content.ts && tsc -b && vite build && npm run build:ssr && node scripts/prerender-all.js && node scripts/generate-sitemap.js",
+    "build": "npx tsx scripts/ensure-content.ts && npm run seo:regen && tsc -b && vite build && npm run build:ssr",
     "build:ssr": "vite build --ssr src/entry-server.tsx --outDir dist/server",
-    "ssg": "npx tsx scripts/ensure-content.ts && npm run build && npm run build:ssr && node scripts/prerender-all.js",
-    "seo:regen": "node scripts/generate-seo-manifest.js && node scripts/generate-sitemap.js && node scripts/validate-seo.js",
+    "ssg": "npm run build && node scripts/prerender-all.js && node scripts/generate-sitemap.js",
+    "seo:regen": "node scripts/generate-seo-manifest.js",
     "seo:check": "node scripts/validate-seo.js",
     "lint": "eslint .",
     "preview": "vite preview",

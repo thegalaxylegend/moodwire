@@ -20,14 +20,14 @@ export const SEO = (props: SEOProps) => {
             {/* Standard Metadata */}
             <title>{title.includes('|') ? title : `${title} | Exam Compass`}</title>
             <meta name="description" content={description} />
-            <link rel="canonical" href={canonical || (typeof window !== 'undefined' ? window.location.origin + window.location.pathname : 'https://examcompass.web.app/')} />
+            <link rel="canonical" href={canonical || (typeof window !== 'undefined' ? window.location.origin + window.location.pathname.replace(/\/$/, '') : 'https://examcompass.web.app/')} />
 
             {/* Open Graph */}
             <meta property="og:type" content={type || 'website'} />
             <meta property="og:title" content={title} />
             <meta property="og:description" content={description} />
-            <meta property="og:image" content={image || 'https://examcompass.web.app/og-image.jpg'} />
-            <meta property="og:url" content={canonical || (typeof window !== 'undefined' ? window.location.origin + window.location.pathname : '')} />
+            <meta property="og:image" content={image || 'https://examcompass.web.app/exa-logo.png'} />
+            <meta property="og:url" content={canonical || (typeof window !== 'undefined' ? window.location.origin + window.location.pathname : 'https://examcompass.web.app')} />
             <meta property="og:site_name" content={name || 'Exam Compass'} />
 
             {/* Twitter */}
@@ -35,7 +35,7 @@ export const SEO = (props: SEOProps) => {
             <meta name="twitter:creator" content="@examcompass" />
             <meta name="twitter:title" content={title} />
             <meta name="twitter:description" content={description} />
-            <meta name="twitter:image" content={image || 'https://examcompass.web.app/og-image.jpg'} />
+            <meta name="twitter:image" content={image || 'https://examcompass.web.app/exa-logo.png'} />
 
             {/* Structured Data (JSON-LD) */}
             {schema && (

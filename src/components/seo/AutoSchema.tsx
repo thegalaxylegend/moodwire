@@ -43,21 +43,23 @@ export const AutoSchema = () => {
         };
 
         if (subjectSlug) {
+            const subjectName = subjectSlug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
             // @ts-ignore
             breadcrumbSchema.itemListElement.push({
                 "@type": "ListItem",
                 "position": 3,
-                "name": subjectSlug.replace(/-/g, ' '), // Approximate name
+                "name": subjectName,
                 "item": `https://examcompass.web.app/${exam}/${subjectSlug}`
             });
         }
 
         if (topicSlug) {
+            const topicName = topicSlug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
             // @ts-ignore
             breadcrumbSchema.itemListElement.push({
                 "@type": "ListItem",
                 "position": 4,
-                "name": topicSlug.replace(/-/g, ' '),
+                "name": topicName,
                 "item": `https://examcompass.web.app/${exam}/${subjectSlug}/${topicSlug}`
             });
         }

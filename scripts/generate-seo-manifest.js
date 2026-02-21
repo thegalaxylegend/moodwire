@@ -13,10 +13,14 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // --- CONSTANTS & CONFIG ---
 const constantsPath = path.join(__dirname, '../src/lib/constants.ts');
-const manifestPath = path.join(__dirname, '../public/seo-manifest.json');
-const registryPath = path.join(__dirname, '../public/slug-registry.json');
-const questionDbPath = path.join(__dirname, '../public/question-db.json');
+const publicDir = path.join(__dirname, '../public');
+const distDir = path.join(__dirname, '../dist');
 const serviceAccountPath = path.join(__dirname, '../service-account.json');
+
+const MANIFEST_NAME = 'seo-manifest.json';
+const REGISTRY_NAME = 'slug-registry.json';
+const QUESTION_DB_NAME = 'question-db.json';
+const questionDbPathInPublic = path.join(publicDir, QUESTION_DB_NAME);
 
 const firebaseConfig = {
     apiKey: "AIzaSyAj0_vu8OxPWVHvAWSRVN90y9GIStvQASY",
@@ -160,8 +164,8 @@ async function generate() {
         // FAIL-SAFE: If Firestore fails or is empty, load from local JSON (filled by fill-json-db.ts)
         if (!questions || questions.length === 0) {
             console.log("⚠️ Firestore connection failed or returned empty. Loading from local 'question-db.json'...");
-            if (fs.existsSync(questionDbPath)) {
-                const localDb = JSON.parse(fs.readFileSync(questionDbPath, 'utf8'));
+            if (fs.existsSync(questionDbPathInPublic)) {
+                const localDb = JSON.parse(fs.readFileSync(questionDbPathInPublic, 'utf8'));
                 questions = Object.values(localDb);
                 console.log(`✅ Loaded ${questions.length} questions from local backup.`);
             }
@@ -261,9 +265,16 @@ async function generate() {
         console.log(`Debug: Manifest Keys: ${urls.length}`);
         console.log(`Debug: QuestionDB Keys: ${Object.keys(questionDb).length}`);
 
-        fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2));
-        fs.writeFileSync(registryPath, JSON.stringify(urls, null, 2));
-        fs.writeFileSync(questionDbPath, JSON.stringify(questionDb, null, 2));
+        // Write to BOTH public and dist
+        const outputDirs = [publicDir, distDir];
+        outputDirs.forEach(dir => {
+            if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+            fs.writeFileSync(path.join(dir, MANIFEST_NAME), JSON.stringify(manifest, null, 2));
+            fs.writeFileSync(path.join(dir, REGISTRY_NAME), JSON.stringify(urls, null, 2));
+            fs.writeFileSync(path.join(dir, QUESTION_DB_NAME), JSON.stringify(questionDb, null, 2));
+        });
+
+        console.log(`✅ Manifests and registries written to public/ and dist/.`);
 
         console.log(`✅ Manifest generated with ${urls.length} URLs.`);
         process.exit(0);

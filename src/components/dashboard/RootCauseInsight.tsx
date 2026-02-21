@@ -2,7 +2,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { AlertCircle, Zap, ArrowRight, Target } from 'lucide-react';
-import { ConceptGraphService } from '../../services/conceptGraphService';
 import type { DependencyInsight } from '../../services/conceptGraphService';
 
 interface RootCauseInsightProps {

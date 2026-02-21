@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { CheckCircle2, Circle, Star, Zap, Coffee, ArrowRight, RefreshCw, Sparkles as SparkleIcon } from 'lucide-react';
+import { CheckCircle2, Circle, Star, Zap, Coffee, ArrowRight, RefreshCw } from 'lucide-react';
 import type { DailyMission } from '../../services/missionService';
 
 const ConfettiPiece = ({ index }: { index: number }) => {
