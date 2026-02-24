@@ -1,10 +1,10 @@
 import { useState, useEffect, useMemo } from 'react';
-import { Loader2, BarChart3, LineChart } from 'lucide-react';
+import { Loader2, BarChart3, LineChart, TrendingUp } from 'lucide-react';
 import { useUserStore } from '../../store/userStore';
 import { Link } from 'react-router-dom';
 import { CustomSelect } from '../../components/CustomSelect';
-import { calculatePredictedRank } from '../../services/leaderboardService';
 import { AuthGate } from '../../components/auth/AuthGate';
+import { ScorePredictor } from '../../components/ScorePredictor';
 
 export const Analytics = () => {
     const { user } = useUserStore();
@@ -12,7 +12,6 @@ export const Analytics = () => {
 
     // Data State
     const [rawMocks, setRawMocks] = useState<any[]>([]);
-    const [syllabusCompletion, setSyllabusCompletion] = useState(0);
 
     // Filter State
     const [chartType, setChartType] = useState<'bar' | 'line'>('bar');
@@ -93,8 +92,6 @@ export const Analytics = () => {
                 totalMasterySum += fmtStats[subj].percentage;
             });
 
-            setSyllabusCompletion(relevantSubjects.length > 0 ? Math.round(totalMasterySum / relevantSubjects.length) : 0);
-
             // 5. Fetch Mocks
             const mocksQ = query(collection(db, 'mock_attempts'), where('user_id', '==', user?.id), limit(100));
             const mockSnap = await getDocs(mocksQ);
@@ -111,7 +108,7 @@ export const Analytics = () => {
             // Merge & Normalise
             const rawMocksData = (Array.isArray(cloudMocks) ? cloudMocks : []).concat(Array.isArray(localMocks) ? localMocks : [])
                 .filter(m => m !== null)
-                .map((m: any) => {
+                .map((m: any, i: number) => {
                     let inferredType = m.type;
                     if (!inferredType) {
                         // Legacy Data Heuristic
@@ -157,8 +154,9 @@ export const Analytics = () => {
             setRawMocks(rawMocksData);
 
             // 6. Enriched Mastery
+            const weak: string[] = [];
             const subjectMockScores: Record<string, { total: number, count: number }> = {};
-            (Array.isArray(allMocks) ? allMocks : []).forEach((mock: any) => {
+            (Array.isArray(rawMocksData) ? rawMocksData : []).forEach((mock: any) => {
                 let subjectsInMock: string[] = [];
                 if (mock.type === 'full') subjectsInMock = relevantSubjects;
                 else if (mock.type === 'topic' || mock.topic) {
@@ -178,6 +176,7 @@ export const Analytics = () => {
                 });
             });
 
+            totalMasterySum = 0;
             relevantSubjects.forEach(subj => {
                 if (fmtStats[subj].percentage === 0 && subjectMockScores[subj]?.count > 0) {
                     const avg = Math.round(subjectMockScores[subj].total / subjectMockScores[subj].count);
@@ -188,7 +187,6 @@ export const Analytics = () => {
             });
 
             setSubjectStats(fmtStats);
-            setSyllabusCompletion(relevantSubjects.length > 0 ? Math.round(totalMasterySum / relevantSubjects.length) : 0);
 
             // 7. ML WEAKNESS CLUSTERING
             const topicFailures: Record<string, number> = {};
@@ -243,40 +241,12 @@ export const Analytics = () => {
         return filtered;
     }, [rawMocks, timeRange, testFilter]);
 
-    // Format for Chart (Scores)
     const chartScores = (Array.isArray(filteredData) ? filteredData : []).map(m => Math.min(100, Math.max(0, m.normalizedScore)));
     // Limit to last 20 for readability if too many
     const visibleScores = chartScores.slice(-20);
 
     if (loading) return <div className="flex h-[50vh] items-center justify-center"><Loader2 className="animate-spin text-primary" size={48} /></div>;
 
-    // AI Prediction Logic (using filtered data implies dynamic prediction based on current view)
-    const predictRank = () => {
-        // If syllabus completion is very low, rank should be poor regardless of mock score
-        if (syllabusCompletion < 10) return 1000000;
-
-        let estimatedRank = 1000000;
-
-        if (chartScores.length > 0) {
-            // Weighted Average: Recent tests matter more
-            const weightedSum = chartScores.reduce((acc, score, i) => acc + (score * (i + 1)), 0);
-            const weightTotal = (chartScores.length * (chartScores.length + 1)) / 2;
-            const weightedAvg = weightedSum / weightTotal;
-
-            // Use the service calculation
-            // We need to fetch this dynamically but for now we require it synchronously or mock it
-            // Since we can't await here easily without refactoring, we'll assume the import is available or move logic here
-            // BETTER: Use the helper we just added. We need to import it.
-            estimatedRank = calculatePredictedRank(weightedAvg, user?.targetExam || 'JEE Mains');
-        } else {
-            // Fallback based purely on syllabus
-            estimatedRank = calculatePredictedRank(syllabusCompletion * 0.8, user?.targetExam || 'JEE Mains');
-        }
-
-        return !isNaN(estimatedRank) ? estimatedRank : 1000000;
-    };
-
-    const predictedRank = predictRank();
 
     return (
         <AuthGate
@@ -320,7 +290,7 @@ export const Analytics = () => {
                         <div className="w-[1px] h-6 bg-border mx-1 hidden md:block"></div>
 
                         {/* Type Filter (Custom Dropdown) */}
-                        <div className="w-40 z-20">
+                        <div className="w-44 relative z-30">
                             <CustomSelect
                                 value={testFilter}
                                 onChange={(val) => setTestFilter(val as any)}
@@ -330,6 +300,7 @@ export const Analytics = () => {
                                     { value: 'topic', label: 'Topic Tests' },
                                     { value: 'all', label: 'All Tests' }
                                 ]}
+                                placement="bottom"
                             />
                         </div>
 
@@ -356,8 +327,8 @@ export const Analytics = () => {
                 </header>
 
                 {/* Rank Predictor & Stats */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <div className="md:col-span-2 glass-card oxygen-card p-6 space-y-6 flex flex-col">
+                <div className="grid grid-cols-1 gap-8">
+                    <div className="w-full glass-card oxygen-card p-6 space-y-6 flex flex-col">
                         <div className="flex justify-between items-start">
                             <div>
                                 <h3 className="text-xl font-bold text-text-main">Performance Trends</h3>
@@ -469,189 +440,149 @@ export const Analytics = () => {
                             )}
                         </div>
                     </div>
+                </div>
 
-                    <div className="glass-card oxygen-card p-6 space-y-4 bg-gradient-to-br from-surface to-primary/10 border-primary/20 relative overflow-hidden group">
-                        {/* Decorative Elements */}
-                        <div className="absolute top-0 right-0 w-32 h-32 bg-primary/10 blur-[50px] -mr-16 -mt-16 rounded-full group-hover:bg-primary/20 transition-all duration-500" />
-
-                        <h3 className="text-xl font-bold text-text-main flex items-center justify-between relative z-10">
-                            {user?.targetExam?.toLowerCase().includes('school') || user?.targetExam?.toLowerCase().includes('class') || user?.targetExam?.toLowerCase().includes('board')
-                                ? 'Board Prediction'
-                                : 'National Rank Predictor'}
-                            {visibleScores.length === 0 && <span className="text-[10px] bg-yellow-500/20 text-yellow-500 px-2 py-1 rounded-full uppercase tracking-widest font-bold">In-Training</span>}
-                        </h3>
-
-                        <div className="space-y-4 relative z-10">
-                            <div className="p-4 bg-surface/50 backdrop-blur-md rounded-xl border border-white/5 shadow-inner">
-                                <div className="flex justify-between items-start mb-1">
-                                    <p className="text-[10px] font-bold text-text-muted uppercase tracking-widest">
-                                        {user?.targetExam?.toLowerCase().includes('school') || user?.targetExam?.toLowerCase().includes('class') || user?.targetExam?.toLowerCase().includes('board')
-                                            ? 'Predicted Percentile'
-                                            : 'Estimated AIR'}
-                                    </p>
-                                    <span className="px-2 py-0.5 bg-green-500/10 text-green-500 text-[10px] font-bold rounded border border-green-500/20">98.2% Accurate</span>
-                                </div>
-                                <p className="text-4xl font-heading font-black text-primary drop-shadow-sm">
-                                    {user?.targetExam?.toLowerCase().includes('school') || user?.targetExam?.toLowerCase().includes('class') || user?.targetExam?.toLowerCase().includes('board')
-                                        ? `${Math.max(0, 100 - (predictedRank / 12000)).toFixed(1)}%ile`
-                                        : `#${predictedRank.toLocaleString()}`}
-                                </p>
-                                <p className="text-[10px] text-text-muted mt-2 italic font-medium">
-                                    {visibleScores.length > 0 ? "Calculated from your weighted performance curve." : "Baseline estimate from syllabus coverage."}
-                                </p>
-                            </div>
-
-                            <div className="p-4 bg-surface/30 backdrop-blur-md rounded-xl border border-white/5">
-                                <p className="text-[10px] font-bold text-text-muted uppercase tracking-widest mb-1">Target Potential</p>
-                                <div className="flex items-center gap-3">
-                                    <p className="text-3xl font-heading font-black text-secondary">
-                                        #{Math.round(predictedRank * 0.65).toLocaleString()}
-                                    </p>
-                                    <div className="flex-1 h-1 bg-surface rounded-full overflow-hidden">
-                                        <div className="h-full bg-secondary w-[65%]" />
-                                    </div>
-                                </div>
-                                <p className="text-[10px] text-secondary font-bold mt-2 uppercase tracking-tighter">Improvement Plan: Focus on {weakAreas?.[0] || "Weak Topics"}</p>
-                            </div>
-
-                            <button
-                                className="w-full py-3 bg-white/5 border border-white/10 hover:bg-white/10 text-text-main rounded-xl font-bold text-sm transition-all flex items-center justify-center gap-2 group/btn active:scale-95 shadow-lg"
-                                onClick={() => {
-                                    // Simple share logic
-                                    if (navigator.share) {
-                                        navigator.share({
-                                            title: 'My AIR Prediction | Exam-Compass',
-                                            text: `My predicted All India Rank for ${user?.targetExam} is #${predictedRank.toLocaleString()}! Track your prep on Exam-Compass.`,
-                                            url: window.location.href,
-                                        }).catch(console.error);
-                                    } else {
-                                        alert("AIR Prediction copied to clipboard!");
-                                        navigator.clipboard.writeText(`My predicted All India Rank for ${user?.targetExam} is #${predictedRank.toLocaleString()}!`);
-                                    }
-                                }}
-                            >
-                                Share My Progress Card 🚀
-                            </button>
+                {/* Hero Section: Rank Evolution */}
+                <div className="space-y-6 py-4">
+                    <div className="flex items-end gap-3 px-2">
+                        <div className="p-2 bg-primary/10 rounded-xl">
+                            <TrendingUp className="text-primary" size={24} />
                         </div>
+                        <div>
+                            <h2 className="text-3xl font-black text-white uppercase tracking-tighter italic leading-none">AIR Prediction Engine</h2>
+                            <p className="text-[10px] font-bold text-gray-500 uppercase tracking-[0.3em] mt-1">Deep Learning v2.4 • 2026 Normalization Bias</p>
+                        </div>
+                    </div>
+                    <div className="max-w-5xl">
+                        <ScorePredictor />
                     </div>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    {/* Topic Mastery */}
-                    <div className="glass-card oxygen-card p-6 space-y-6">
-                        <h3 className="text-xl font-bold text-text-main">Topic Mastery</h3>
-                        {loading ? (
-                            <div className="h-64 flex flex-col items-center justify-center text-text-muted bg-surface/50 rounded-xl">
-                                <Loader2 className="animate-spin mb-2" />
-                                <p>Loading subject data...</p>
-                            </div>
-                        ) : subjectStats && Object.keys(subjectStats).length > 0 ? (
-                            <div className="space-y-4">
-                                {Object.entries(subjectStats || {}).map(([subject, stats]: [string, any]) => {
-                                    const percentage = stats.percentage || 0;
-                                    return (
-                                        <div key={subject} className="space-y-1">
-                                            <div className="flex justify-between text-sm">
-                                                <span className="text-text-main">{subject}</span>
-                                                <span className={`font-bold ${percentage < 40 ? 'text-red-400' : 'text-green-400'}`}>{percentage}% Prepared</span>
-                                            </div>
-                                            <div className="w-full bg-surface h-2 rounded-full overflow-hidden">
-                                                <div
-                                                    className={`h-full rounded-full ${percentage < 40 ? 'bg-red-500' : 'bg-green-500'}`}
-                                                    style={{ width: `${percentage}%` }}
-                                                />
-                                            </div>
-                                        </div>
-                                    );
-                                })}
-                            </div>
-                        ) : (
-                            <div className="h-64 flex flex-col items-center justify-center text-text-muted bg-surface/50 rounded-xl border border-dashed border-border">
-                                <p>No subject data found.</p>
-                                <p className="text-sm mt-1">Check your target exam settings.</p>
-                            </div>
-                        )}
+                {/* Section Separator */}
+                <div className="h-px w-full bg-gradient-to-r from-transparent via-white/10 to-transparent my-4" />
+
+                <div className="space-y-4">
+                    <div className="flex items-end gap-3 px-2">
+                        <BarChart3 className="text-accent mb-1" size={24} />
+                        <h2 className="text-2xl font-black text-white uppercase tracking-tighter italic">Topic Proficiency</h2>
                     </div>
-
-                    {/* Active Remedial Plan */}
-                    <div className="glass-card p-6 overflow-hidden flex flex-col">
-                        <h3 className="text-xl font-bold text-text-main mb-4 flex items-center gap-2">
-                            Active Remedial Plan
-                        </h3>
-
-                        <div className="bg-surface/50 border border-border p-4 rounded-xl mb-4">
-                            <p className="text-sm text-text-muted mb-3">
-                                {weakAreas.length > 0
-                                    ? `You have ${weakAreas.length} weak areas requiring immediate attention.`
-                                    : "You are doing well! Maintain your streak."}
-                            </p>
-                            <div
-                                className="block w-full text-center py-2 bg-primary/10 hover:bg-primary/20 text-primary font-bold rounded-lg transition-colors border border-primary/20"
-                            >
-                                <Link to="/dashboard/study-plan" className="block w-full h-full">Generate Personalized Schedule</Link>
-                            </div>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        {/* Topic Mastery */}
+                        <div className="glass-card oxygen-card p-6 space-y-6">
+                            <h3 className="text-xl font-bold text-text-main">Topic Mastery</h3>
+                            {loading ? (
+                                <div className="h-64 flex flex-col items-center justify-center text-text-muted bg-surface/50 rounded-xl">
+                                    <Loader2 className="animate-spin mb-2" />
+                                    <p>Loading subject data...</p>
+                                </div>
+                            ) : subjectStats && Object.keys(subjectStats).length > 0 ? (
+                                <div className="space-y-4">
+                                    {Object.entries(subjectStats || {}).map(([subject, stats]: [string, any]) => {
+                                        const percentage = stats.percentage || 0;
+                                        return (
+                                            <div key={subject} className="space-y-1">
+                                                <div className="flex justify-between text-sm">
+                                                    <span className="text-text-main">{subject}</span>
+                                                    <span className={`font-bold ${percentage < 40 ? 'text-red-400' : 'text-green-400'}`}>{percentage}% Prepared</span>
+                                                </div>
+                                                <div className="w-full bg-surface h-2 rounded-full overflow-hidden">
+                                                    <div
+                                                        className={`h-full rounded-full ${percentage < 40 ? 'bg-red-500' : 'bg-green-500'}`}
+                                                        style={{ width: `${percentage}%` }}
+                                                    />
+                                                </div>
+                                            </div>
+                                        );
+                                    })}
+                                </div>
+                            ) : (
+                                <div className="h-64 flex flex-col items-center justify-center text-text-muted bg-surface/50 rounded-xl border border-dashed border-border">
+                                    <p>No subject data found.</p>
+                                    <p className="text-sm mt-1">Check your target exam settings.</p>
+                                </div>
+                            )}
                         </div>
 
-                        {weakAreas.length > 0 ? (
-                            <div className="space-y-3 overflow-y-auto flex-1 max-h-[300px] pr-2">
-                                <p className="text-xs uppercase font-bold text-text-muted">Recommended Crash Courses</p>
-                                {Array.isArray(weakAreas) && weakAreas.map(subject => (
-                                    <a
-                                        key={subject}
-                                        href={`https://www.youtube.com/results?search_query=${user?.targetExam}+${subject}+Crash+Course`}
-                                        target="_blank"
-                                        rel="noreferrer"
-                                        className="group p-3 rounded-xl border border-border bg-surface hover:bg-red-500/10 hover:border-red-500 transition-all flex items-center justify-between"
-                                    >
-                                        <div>
-                                            <h4 className="font-bold text-text-main text-sm group-hover:text-red-400">{subject}</h4>
-                                            <p className="text-[10px] text-text-muted">High Priority • Watch Video</p>
-                                        </div>
-                                        <div className="text-red-500 opacity-50 group-hover:opacity-100">▶</div>
-                                    </a>
-                                ))}
-                            </div>
-                        ) : (
-                            <div className="flex-1 flex items-center justify-center text-text-muted">
-                                <p>Keep completing syllabus topics to get recommendations!</p>
-                            </div>
-                        )}
-                    </div>
-                </div>
+                        {/* Active Remedial Plan */}
+                        <div className="glass-card p-6 overflow-hidden flex flex-col">
+                            <h3 className="text-xl font-bold text-text-main mb-4 flex items-center gap-2">
+                                Active Remedial Plan
+                            </h3>
 
-                {/* Recent Activity List */}
-                <div className="glass-card p-6">
-                    <h3 className="text-xl font-bold text-text-main mb-4">Recent Tests</h3>
-                    {visibleScores.length === 0 ? (
-                        <p className="text-text-muted">No tests matching criteria.</p>
-                    ) : (
-                        <div className="overflow-x-auto">
-                            <table className="w-full text-left border-collapse">
-                                <thead>
-                                    <tr className="text-text-muted text-sm border-b border-border">
-                                        <th className="py-2 px-4">Test</th>
-                                        <th className="py-2 px-4">Score</th>
-                                        <th className="py-2 px-4">Result</th>
-                                    </tr>
-                                </thead>
-                                <tbody className="text-text-main text-sm">
-                                    {Array.isArray(visibleScores) && visibleScores.map((score, i) => (
-                                        <tr key={i} className="border-b border-border/50">
-                                            <td className="py-3 px-4">Exam #{i + 1}</td>
-                                            <td className="py-3 px-4 font-bold">{score}%</td>
-                                            <td className="py-3 px-4">
-                                                <span className={`px-2 py-1 rounded text-xs ${score > 70 ? 'bg-green-500/10 text-green-500' : 'bg-red-500/10 text-red-500'}`}>
-                                                    {score > 70 ? 'Good' : 'Weak'}
-                                                </span>
-                                            </td>
-                                        </tr>
+                            <div className="bg-surface/50 border border-border p-4 rounded-xl mb-4">
+                                <p className="text-sm text-text-muted mb-3">
+                                    {weakAreas.length > 0
+                                        ? `You have ${weakAreas.length} weak areas requiring immediate attention.`
+                                        : "You are doing well! Maintain your streak."}
+                                </p>
+                                <div
+                                    className="block w-full text-center py-2 bg-primary/10 hover:bg-primary/20 text-primary font-bold rounded-lg transition-colors border border-primary/20"
+                                >
+                                    <Link to="/dashboard/study-plan" className="block w-full h-full">Generate Personalized Schedule</Link>
+                                </div>
+                            </div>
+
+                            {weakAreas.length > 0 ? (
+                                <div className="space-y-3 overflow-y-auto flex-1 max-h-[300px] pr-2">
+                                    <p className="text-xs uppercase font-bold text-text-muted">Recommended Crash Courses</p>
+                                    {Array.isArray(weakAreas) && weakAreas.map(subject => (
+                                        <a
+                                            key={subject}
+                                            href={`https://www.youtube.com/results?search_query=${user?.targetExam}+${subject}+Crash+Course`}
+                                            target="_blank"
+                                            rel="noreferrer"
+                                            className="group p-3 rounded-xl border border-border bg-surface hover:bg-red-500/10 hover:border-red-500 transition-all flex items-center justify-between"
+                                        >
+                                            <div>
+                                                <h4 className="font-bold text-text-main text-sm group-hover:text-red-400">{subject}</h4>
+                                                <p className="text-[10px] text-text-muted">High Priority • Watch Video</p>
+                                            </div>
+                                            <div className="text-red-500 opacity-50 group-hover:opacity-100">▶</div>
+                                        </a>
                                     ))}
-                                </tbody>
-                            </table>
+                                </div>
+                            ) : (
+                                <div className="flex-1 flex items-center justify-center text-text-muted">
+                                    <p>Keep completing syllabus topics to get recommendations!</p>
+                                </div>
+                            )}
                         </div>
-                    )}
+                    </div>
+
+                    {/* Recent Activity List */}
+                    <div className="glass-card p-6">
+                        <h3 className="text-xl font-bold text-text-main mb-4">Recent Tests</h3>
+                        {visibleScores.length === 0 ? (
+                            <p className="text-text-muted">No tests matching criteria.</p>
+                        ) : (
+                            <div className="overflow-x-auto">
+                                <table className="w-full text-left border-collapse">
+                                    <thead>
+                                        <tr className="text-text-muted text-sm border-b border-border">
+                                            <th className="py-2 px-4">Test</th>
+                                            <th className="py-2 px-4">Score</th>
+                                            <th className="py-2 px-4">Result</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody className="text-text-main text-sm">
+                                        {Array.isArray(visibleScores) && visibleScores.map((score, i) => (
+                                            <tr key={i} className="border-b border-border/50">
+                                                <td className="py-3 px-4">Exam #{i + 1}</td>
+                                                <td className="py-3 px-4 font-bold">{score}%</td>
+                                                <td className="py-3 px-4">
+                                                    <span className={`px-2 py-1 rounded text-xs ${score > 70 ? 'bg-green-500/10 text-green-500' : 'bg-red-500/10 text-red-500'}`}>
+                                                        {score > 70 ? 'Good' : 'Weak'}
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                        ))}
+                                    </tbody>
+                                </table>
+                            </div>
+                        )}
+                    </div>
                 </div>
-            </div >
+            </div>
         </AuthGate>
     );
 };

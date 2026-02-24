@@ -1,4 +1,5 @@
 import { db } from '../lib/firebase';
+import { predictionService, getExamConstants } from './predictionService';
 import {
     doc,
     getDoc,
@@ -201,43 +202,12 @@ export const getUserStats = async (userId: string): Promise<LeaderboardEntry | n
  * Uses historical data trends for JEE Mains and NEET.
  */
 export const calculatePredictedRank = (percentage: number, examType: string = 'JEE Mains') => {
-    // 1. Normalize Exam Type
-    const type = examType.toLowerCase();
-    const isNEET = type.includes('neet') || type.includes('medical');
-    const isSchool = type.includes('school') || type.includes('class');
+    const maxScore = getExamConstants(examType).MAX_SCORE;
+    const score = (percentage / 100) * maxScore;
 
-    // 2. Define Total Candidates (Approx 2025-26 Stats)
-    const candidates = isNEET ? 2500000 : (isSchool ? 1200000 : 1400000);
-
-    // 3. Define Rank Brackets (Percentage -> Rank)
-    let predictedRank = candidates;
-
-    if (isNEET) {
-        if (percentage >= 99) predictedRank = 1 + (100 - percentage) * 50;
-        else if (percentage >= 95) predictedRank = 50 + (99 - percentage) * 1000;
-        else if (percentage >= 90) predictedRank = 4000 + (95 - percentage) * 3000;
-        else if (percentage >= 80) predictedRank = 20000 + (90 - percentage) * 5000;
-        else if (percentage >= 50) predictedRank = 70000 + (80 - percentage) * 15000;
-        else predictedRank = 600000 + (50 - percentage) * 40000;
-    } else if (isSchool) {
-        // School Boards (Higher clustering at 90s)
-        if (percentage >= 98) predictedRank = 1 + (100 - percentage) * 500; // 98+ -> Top 1k
-        else if (percentage >= 95) predictedRank = 1000 + (98 - percentage) * 2000; // 95+ -> Top 7k
-        else if (percentage >= 90) predictedRank = 7000 + (95 - percentage) * 5000; // 90+ -> Top 32k
-        else if (percentage >= 80) predictedRank = 32000 + (90 - percentage) * 15000; // 80+ -> Top 182k
-        else if (percentage >= 60) predictedRank = 182000 + (80 - percentage) * 20000;
-        else predictedRank = 582000 + (60 - percentage) * 15000;
-    } else {
-        // JEE Mains
-        if (percentage >= 95) predictedRank = 1 + (100 - percentage) * 200;
-        else if (percentage >= 90) predictedRank = 1000 + (95 - percentage) * 2000;
-        else if (percentage >= 80) predictedRank = 11000 + (90 - percentage) * 3000;
-        else if (percentage >= 60) predictedRank = 41000 + (80 - percentage) * 5000;
-        else if (percentage >= 40) predictedRank = 141000 + (60 - percentage) * 10000;
-        else predictedRank = 400000 + (40 - percentage) * 20000;
-    }
-
-    return Math.max(1, Math.round(predictedRank));
+    // Use the unified prediction service to ensure identical mapping across the app
+    const { rank } = predictionService.scoreToRank(score, examType);
+    return Math.max(1, Math.round(rank));
 };
 
 

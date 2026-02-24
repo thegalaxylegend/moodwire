@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useUserStore } from '../../store/userStore';
 import { SYLLABUS_DB } from '../../lib/constants';
 import { getWeakTopics, getStrongTopics } from '../../services/topicStrengthService';
+import type { TopicStat } from '../../services/topicStrengthService';
 
 export const ProficiencyMap = () => {
     const { user } = useUserStore();
@@ -16,8 +17,8 @@ export const ProficiencyMap = () => {
         setLoading(true);
         try {
             const [weak, strong] = await Promise.all([
-                getWeakTopics(user?.id || '', 100, user?.userClass, user?.targetExam),
-                getStrongTopics(user?.id || '', 100, user?.userClass, user?.targetExam)
+                getWeakTopics(user?.id || '', 100, user?.userClass, user?.targetExam) as Promise<TopicStat[]>,
+                getStrongTopics(user?.id || '', 100, user?.userClass, user?.targetExam) as Promise<TopicStat[]>
             ]);
 
             const newStats: Record<string, 'high' | 'medium' | 'low' | 'none'> = {};

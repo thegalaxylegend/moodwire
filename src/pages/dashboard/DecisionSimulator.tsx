@@ -117,14 +117,16 @@ export const DecisionSimulator = () => {
                         </div>
                     </div>
 
-                    <button
-                        onClick={handleCompare}
-                        disabled={isAnalyzing}
-                        className="px-8 py-3 bg-gradient-to-r from-primary to-secondary text-white font-bold rounded-xl shadow-lg hover:shadow-primary/25 hover:scale-105 transition-all flex items-center gap-2 disabled:opacity-50 disabled:hover:scale-100"
-                    >
-                        {isAnalyzing ? <RefreshCw className="animate-spin" /> : <Brain />}
-                        {isAnalyzing ? 'Analyzing Data...' : 'Run Simulation'}
-                    </button>
+                    <div className="relative z-20">
+                        <button
+                            onClick={handleCompare}
+                            disabled={isAnalyzing}
+                            className="px-8 py-3 bg-gradient-to-r from-primary to-secondary text-white font-bold rounded-xl shadow-lg hover:shadow-primary/25 hover:scale-105 transition-all flex items-center gap-2 disabled:opacity-50 disabled:hover:scale-100 relative z-30"
+                        >
+                            {isAnalyzing ? <RefreshCw className="animate-spin" /> : <Brain />}
+                            {isAnalyzing ? 'Analyzing Data...' : 'Run Simulation'}
+                        </button>
+                    </div>
                 </div>
 
                 {/* Results Grid */}

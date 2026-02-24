@@ -5,15 +5,15 @@
 @layer base {
   :root {
     /* DEFAULT: GLASSMORPHISM FUTURE */
-    --background: #0f172a;
+    --background: 15 23 42;
     /* Deep Slate */
-    --surface: rgba(30, 41, 59, 0.7);
-    /* Translucent */
-    --primary: #8b5cf6;
+    --surface: 30 41 59;
+    /* Translucent base */
+    --primary: 139 92 246;
     /* Violet */
-    --secondary: #0ea5e9;
+    --secondary: 14 165 233;
     /* Sky Blue */
-    --accent: #d8b4fe;
+    --accent: 216 180 254;
     /* Lavender */
     --text-main: #f8fafc;
     --text-muted: #94a3b8;
@@ -28,15 +28,15 @@
 
   [data-theme='zen'] {
     /* ZEN MINIMALIST */
-    --background: #18181b;
+    --background: 24 24 27;
     /* Zinc 900 */
-    --surface: #27272a;
-    /* Zinc 800 (Solid) */
-    --primary: #e4e4e7;
+    --surface: 39 39 42;
+    /* Zinc 800 */
+    --primary: 228 228 231;
     /* Zinc 200 */
-    --secondary: #a1a1aa;
+    --secondary: 161 161 170;
     /* Zinc 400 */
-    --accent: #52525b;
+    --accent: 82 82 91;
     /* Zinc 600 */
     --text-main: #f4f4f5;
     --text-muted: #a1a1aa;
@@ -50,15 +50,15 @@
 
   [data-theme='gamified'] {
     /* GAMIFIED PROGRESS */
-    --background: #000000;
+    --background: 0 0 0;
     /* Pitch Black */
-    --surface: #0a0a0a;
+    --surface: 10 10 10;
     /* Almost Black */
-    --primary: #10b981;
+    --primary: 16 185 129;
     /* Emerald Neon */
-    --secondary: #f59e0b;
+    --secondary: 245 158 11;
     /* Amber */
-    --accent: #ec4899;
+    --accent: 236 72 153;
     /* Pink */
     --text-main: #ffffff;
     --text-muted: #52525b;
@@ -72,14 +72,14 @@
 
   [data-theme='glass-white'] {
     /* GLASS WHITE */
-    --background: #f8fafc;
+    --background: 248 250 252;
     /* Slate 50 */
-    --surface: rgba(255, 255, 255, 0.6);
-    --primary: #6366f1;
+    --surface: 255 255 255;
+    --primary: 99 102 241;
     /* Indigo */
-    --secondary: #0ea5e9;
+    --secondary: 14 165 233;
     /* Sky */
-    --accent: #8b5cf6;
+    --accent: 139 92 246;
     /* Violet */
     --text-main: #0f172a;
     /* Slate 900 */
@@ -95,15 +95,15 @@
 
   [data-theme='full-glass'] {
     /* FULL GLASS */
-    --background: #020617;
+    --background: 2 6 23;
     /* Deepest Slate */
-    --surface: rgba(148, 163, 184, 0.03);
+    --surface: 148 163 184;
     /* Super sheer */
-    --primary: #2dd4bf;
+    --primary: 45 212 191;
     /* Teal */
-    --secondary: #38bdf8;
+    --secondary: 56 189 248;
     /* Sky */
-    --accent: #f472b6;
+    --accent: 244 114 182;
     /* Pink */
     --text-main: #ffffff;
     --text-muted: #94a3b8;
@@ -117,101 +117,99 @@
 
   body {
     @apply bg-background text-text-main font-sans antialiased transition-colors duration-300;
-    /* Fluid background - Optimized for scrolling */
-    background: radial-gradient(at 0% 0%, rgba(139, 92, 246, 0.08) 0px, transparent 50%),
-      radial-gradient(at 100% 0%, rgba(14, 165, 233, 0.08) 0px, transparent 50%),
-      var(--background);
-    background-attachment: fixed;
   }
 
-  /* ===== SMOOTH SCROLLING & PERFORMANCE OPTIMIZATIONS ===== */
+  ::selection {
+    background-color: rgb(var(--primary) / 0.3);
+    /* This is the primary color with 30% opacity */
+    color: inherit;
+  }
+}
 
-  /* Enable smooth scrolling globally */
+/* ===== SMOOTH SCROLLING & PERFORMANCE OPTIMIZATIONS ===== */
+
+/* Enable smooth scrolling globally */
+html {
+  scroll-behavior: smooth;
+  /* Optimize text rendering */
+  text-rendering: optimizeSpeed;
+  /* Optimize for speed on mobile */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Smooth momentum scrolling on touch devices */
+body {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Optimize transitions for high refresh rate displays */
+@media (prefers-reduced-motion: no-preference) {
+
+  /* Smooth transitions on interactive elements only */
+  a,
+  button,
+  [role="button"] {
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+  }
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
   html {
-    scroll-behavior: smooth;
-    /* Optimize text rendering */
-    text-rendering: optimizeSpeed;
-    /* Optimize for speed on mobile */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: auto;
   }
 
-  /* Smooth momentum scrolling on touch devices */
-  body {
-    -webkit-overflow-scrolling: touch;
-    -webkit-tap-highlight-color: transparent;
-    touch-action: auto;
-    /* Reset to auto for better compatibility */
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
+}
 
-  /* Optimize transitions for high refresh rate displays */
-  @media (prefers-reduced-motion: no-preference) {
+/* Custom Scrollbar Utilities */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
 
-    /* Smooth transitions on interactive elements only */
-    a,
-    button,
-    [role="button"] {
-      transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
-    }
-  }
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
 
-  /* Respect reduced motion preferences */
-  @media (prefers-reduced-motion: reduce) {
-    html {
-      scroll-behavior: auto;
-    }
+/* Global Minimal Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
 
-    *,
-    *::before,
-    *::after {
-      animation-duration: 0.01ms !important;
-      animation-iteration-count: 1 !important;
-      transition-duration: 0.01ms !important;
-    }
-  }
+::-webkit-scrollbar-track {
+  background: transparent;
+}
 
-  /* Custom Scrollbar Utilities */
-  .no-scrollbar::-webkit-scrollbar {
-    display: none;
-  }
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 999px;
+  transition: background 0.3s;
+}
 
-  .no-scrollbar {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-  }
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
 
-  /* Global Minimal Scrollbar */
-  ::-webkit-scrollbar {
-    width: 6px;
-    height: 6px;
-  }
+/* Reset background for Zen/Gamified to avoid the gradient noise if desired, 
+      but keeping it subtle is okay too. Let's override for strict Zen. */
+[data-theme='zen'] body {
+  background-image: none;
+}
 
-  ::-webkit-scrollbar-track {
-    background: transparent;
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background: var(--border);
-    border-radius: 999px;
-    transition: background 0.3s;
-  }
-
-  ::-webkit-scrollbar-thumb:hover {
-    background: var(--text-muted);
-  }
-
-  /* Reset background for Zen/Gamified to avoid the gradient noise if desired, 
-     but keeping it subtle is okay too. Let's override for strict Zen. */
-  [data-theme='zen'] body {
-    background-image: none;
-  }
-
-  [data-theme='glass-white'] body {
-    background-image:
-      radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.15) 0px, transparent 50%),
-      radial-gradient(at 100% 0%, rgba(14, 165, 233, 0.15) 0px, transparent 50%),
-      radial-gradient(at 100% 100%, rgba(139, 92, 246, 0.15) 0px, transparent 50%);
-  }
+[data-theme='glass-white'] body {
+  background-image:
+    radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.15) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, rgba(14, 165, 233, 0.15) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(139, 92, 246, 0.15) 0px, transparent 50%);
 }
 
 @layer components {
@@ -235,7 +233,7 @@
   .active-glow::after {
     content: '';
     @apply absolute inset-0 -z-10 blur-3xl opacity-0 transition-opacity duration-700 rounded-full;
-    background-color: rgba(139, 92, 246, 0.2);
+    background-color: rgb(var(--primary) / 0.2);
   }
 
   .active-glow:hover::after {
@@ -583,4 +581,54 @@
 .animate-ripple-ping-delay-2 {
   animation: ripple-ping 2s cubic-bezier(0, 0, 0.2, 1) infinite;
   animation-delay: 0.8s;
+}
+
+@keyframes shake {
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-4px);
+  }
+
+  75% {
+    transform: translateX(4px);
+  }
+}
+
+.animate-shake {
+  animation: shake 0.2s ease-in-out 0s 2;
+}
+
+@keyframes bounce-subtle {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-3px);
+  }
+}
+
+.animate-bounce-subtle {
+  animation: bounce-subtle 3s ease-in-out infinite;
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 8s linear infinite;
 }

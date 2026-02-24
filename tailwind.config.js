@@ -7,11 +7,11 @@ export default {
     theme: {
         extend: {
             colors: {
-                background: "var(--background)",
-                surface: "var(--surface)",
-                primary: "var(--primary)",
-                secondary: "var(--secondary)",
-                accent: "var(--accent)",
+                background: "rgb(var(--background) / <alpha-value>)",
+                surface: "rgb(var(--surface) / <alpha-value>)",
+                primary: "rgb(var(--primary) / <alpha-value>)",
+                secondary: "rgb(var(--secondary) / <alpha-value>)",
+                accent: "rgb(var(--accent) / <alpha-value>)",
                 text: {
                     main: "var(--text-main)",
                     muted: "var(--text-muted)",

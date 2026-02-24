@@ -207,6 +207,22 @@
     "topic": "Probability (Intro)",
     "sourceYear": ""
   },
+  "/jee-mains/q/the-number-of-moles-of-kmno4-required-to-react-with-5-moles-27zaiimh9gobyendob0l": {
+    "id": "27zaiIMH9GObyEndOb0L",
+    "slug": "the-number-of-moles-of-kmno4-required-to-react-with-5-moles-27zaiimh9gobyendob0l",
+    "text": "The number of moles of KMnO4 required to react with 5 moles of K2C2O4 in an acidic medium is",
+    "options": {
+      "A": "2.5",
+      "B": "5",
+      "C": "3.75",
+      "D": "7.5"
+    },
+    "correctAnswer": 0,
+    "explanation": "KMnO4 + 5C2O4^2- + 16H+ → 5CO2 + 2Mn^2+ + 8H2O",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/jee-mains/q/practice-question-which-of-the-following-best-describes-the-29qy63ckeirtcwu1nbik": {
     "id": "29QY63CKeIRTcwU1nBIk",
     "slug": "practice-question-which-of-the-following-best-describes-the-29qy63ckeirtcwu1nbik",
@@ -975,6 +991,22 @@
     "topic": "Aldehydes, Ketones and Carboxylic Acids",
     "sourceYear": ""
   },
+  "/jee-mains/q/the-number-of-moles-of-kmno4-required-to-oxidize-one-mole-of-8olwk298oqqxe2rzhdap": {
+    "id": "8OlwK298oqqxe2rzhDaP",
+    "slug": "the-number-of-moles-of-kmno4-required-to-oxidize-one-mole-of-8olwk298oqqxe2rzhdap",
+    "text": "The number of moles of KMnO4 required to oxidize one mole of Fe(C2O4)3 in acidic medium is",
+    "options": {
+      "A": "3/2",
+      "B": "7/2",
+      "C": "3",
+      "D": "7"
+    },
+    "correctAnswer": 0,
+    "explanation": "Fe(C2O4)3 + 7/2 KMnO4 → Fe2O3 + 7Mn2+ + 12CO2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/jee-mains/q/practice-challenge-analyzing-the-core-fundamentals-of-quadr-8rdaze83ddvlldip7yyg": {
     "id": "8RDAZE83DdvLLDip7YYG",
     "slug": "practice-challenge-analyzing-the-core-fundamentals-of-quadr-8rdaze83ddvlldip7yyg",
@@ -1117,6 +1149,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Linear Inequalities.",
     "subject": "Mathematics",
     "topic": "Linear Inequalities",
+    "sourceYear": ""
+  },
+  "/jee-mains/q/the-number-of-moles-of-kmno4-required-to-react-with-5-moles-9mjmvb6fsjmu0lpzfmww": {
+    "id": "9mjmVb6fSJMu0lpZFmWW",
+    "slug": "the-number-of-moles-of-kmno4-required-to-react-with-5-moles-9mjmvb6fsjmu0lpzfmww",
+    "text": "The number of moles of KMnO4 required to react with 5 moles of K2C2O4 in acidic medium is",
+    "options": {
+      "A": "2.5",
+      "B": "5",
+      "C": "3.75",
+      "D": "6.25"
+    },
+    "correctAnswer": 0,
+    "explanation": "Reaction: 2KMnO4 + 5K2C2O4 → 2MnSO4 + 10CO2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/jee-mains/q/practice-challenge-analyzing-the-core-fundamentals-of-proba-9r13ka2slkf5ftdm14w2": {
@@ -1791,6 +1839,22 @@
     "topic": "Wave Optics",
     "sourceYear": ""
   },
+  "/jee-mains/q/the-number-of-moles-of-kmno4-required-to-react-with-5-moles-fjoyxqo5ccrlmyywlzwj": {
+    "id": "FJOyXQo5ccRlmYyWlZwJ",
+    "slug": "the-number-of-moles-of-kmno4-required-to-react-with-5-moles-fjoyxqo5ccrlmyywlzwj",
+    "text": "The number of moles of KMnO4 required to react with 5 moles of K2C2O4 in acidic medium is",
+    "options": {
+      "A": "2.5",
+      "B": "5",
+      "C": "3.75",
+      "D": "7.5"
+    },
+    "correctAnswer": 0,
+    "explanation": "5MnO4- + 2C2O42- + 16H+ → 5Mn2+ + 10CO2 + 8H2O",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/jee-mains/q/practice-question-which-of-the-following-best-describes-the-fltxhxjs4wgz1rw3sirc": {
     "id": "FLtXhXJs4wgZ1rW3siRC",
     "slug": "practice-question-which-of-the-following-best-describes-the-fltxhxjs4wgz1rw3sirc",
@@ -1821,6 +1885,22 @@
     "explanation": "Foundational check for Decimals in Class 6. Study the core principles carefully for competitive exams.",
     "subject": "Mathematics",
     "topic": "Decimals",
+    "sourceYear": ""
+  },
+  "/jee-mains/q/what-is-the-volume-of-1-mole-of-a-gas-at-stp-flch5qbxskf6mvldgp3x": {
+    "id": "FlCh5QBXSKF6MVLdGp3x",
+    "slug": "what-is-the-volume-of-1-mole-of-a-gas-at-stp-flch5qbxskf6mvldgp3x",
+    "text": "What is the volume of 1 mole of a gas at STP?",
+    "options": {
+      "A": "11.2 L",
+      "B": "22.4 L",
+      "C": "33.6 L",
+      "D": "44.8 L"
+    },
+    "correctAnswer": 0,
+    "explanation": "At STP, 1 mole of gas occupies 22.4 L",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/jee-mains/q/practice-question-which-of-the-following-best-describes-the-ftxktc2mqxmzdnc8vrm8": {
@@ -1919,6 +1999,22 @@
     "topic": "Perimeter and Area",
     "sourceYear": ""
   },
+  "/jee-mains/q/a-sample-of-oxygen-gas-has-a-volume-of-500-ml-at-273-k-and-1-glnosbpxzp7hdlj5b5jc": {
+    "id": "GLNOsBpxzP7HDLj5B5Jc",
+    "slug": "a-sample-of-oxygen-gas-has-a-volume-of-500-ml-at-273-k-and-1-glnosbpxzp7hdlj5b5jc",
+    "text": "A sample of oxygen gas has a volume of 500 mL at 273 K and 1 atm. If the temperature is raised to 373 K while keeping the pressure constant, the volume of the gas becomes",
+    "options": {
+      "A": "568.2 mL",
+      "B": "586.2 mL",
+      "C": "600 mL",
+      "D": "625 mL"
+    },
+    "correctAnswer": 0,
+    "explanation": "Using Charles' law, V1/T1 = V2/T2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/jee-mains/q/practice-question-which-of-the-following-best-describes-the-gp0xtrj74cncmmoawrp8": {
     "id": "GP0xtRj74cNcmMoAWrP8",
     "slug": "practice-question-which-of-the-following-best-describes-the-gp0xtrj74cncmmoawrp8",
@@ -1949,6 +2045,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Polynomials.",
     "subject": "Mathematics",
     "topic": "Polynomials",
+    "sourceYear": ""
+  },
+  "/jee-mains/q/what-is-the-number-of-moles-of-oxygen-in-64-g-of-cu2o-if-t-gohh1rnfgiety9v1mwxz": {
+    "id": "GoHh1RnFgietY9V1MwXZ",
+    "slug": "what-is-the-number-of-moles-of-oxygen-in-64-g-of-cu2o-if-t-gohh1rnfgiety9v1mwxz",
+    "text": "What is the number of moles of oxygen in 6.4 g of Cu2O, if the oxidation number of copper is +1?",
+    "options": {
+      "A": "0.02",
+      "B": "0.04",
+      "C": "0.01",
+      "D": "0.03"
+    },
+    "correctAnswer": 0,
+    "explanation": "Moles of Cu2O = 6.4/143 = 0.04, O atoms per molecule = 1, Moles of O = 0.04",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/jee-mains/q/practice-question-which-of-the-following-best-describes-the-hpywkdcdd9hromjk3yan": {
@@ -2061,6 +2173,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Electrochemistry.",
     "subject": "Chemistry",
     "topic": "Electrochemistry",
+    "sourceYear": ""
+  },
+  "/jee-mains/q/a-sample-of-noble-gas-weighs-48-g-and-has-a-volume-of-224-ipwbr11ditcnyabuid0h": {
+    "id": "IpWBR11ditcnYABUid0H",
+    "slug": "a-sample-of-noble-gas-weighs-48-g-and-has-a-volume-of-224-ipwbr11ditcnyabuid0h",
+    "text": "A sample of noble gas weighs 4.8 g and has a volume of 2.24 L at STP. Which of the following statements is true about this sample?",
+    "options": {
+      "A": "The sample contains 0.2 mol of gas molecules",
+      "B": "The sample contains 0.1 mol of gas molecules",
+      "C": "The molar mass of the gas is 48 g/mol",
+      "D": "The molar mass of the gas is 24 g/mol"
+    },
+    "correctAnswer": 0,
+    "explanation": "Using PV = nRT, at STP, 1 mole of gas occupies 22.4 L. Given volume is 2.24 L, so n = 0.2 mol",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/jee-mains/q/practice-question-which-of-the-following-best-describes-the-ixzg0ypjq7ewj3odechk": {
@@ -2317,6 +2445,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Differential Equations.",
     "subject": "Mathematics",
     "topic": "Differential Equations",
+    "sourceYear": ""
+  },
+  "/jee-mains/q/the-number-of-moles-of-kmno4-required-to-oxidise-one-mole-of-kow9exauamq9zm4smbht": {
+    "id": "KoW9exAuamQ9ZM4SMbhT",
+    "slug": "the-number-of-moles-of-kmno4-required-to-oxidise-one-mole-of-kow9exauamq9zm4smbht",
+    "text": "The number of moles of KMnO4 required to oxidise one mole of ferrous oxalate (FeC2O4) in acidic medium is",
+    "options": {
+      "A": "2/5",
+      "B": "3/5",
+      "C": "3/2",
+      "D": "5/2"
+    },
+    "correctAnswer": 0,
+    "explanation": "5FeC2O4 + 2KMnO4 + 24H2SO4 → 5Fe2(SO4)3 + 2MnSO4 + 10CO2 + 24H2O",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/jee-mains/q/a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rotating-wit-ksakkrfcgagzeoyxtypn": {
@@ -3759,6 +3903,22 @@
     "topic": "Dual Nature of Radiation",
     "sourceYear": ""
   },
+  "/jee-mains/q/a-solid-sphere-of-radius-05-m-and-mass-2-kg-is-rolling-on-a-u11p1snehyvqbecjsagk": {
+    "id": "U11P1sNehyVQbeCjSAGk",
+    "slug": "a-solid-sphere-of-radius-05-m-and-mass-2-kg-is-rolling-on-a-u11p1snehyvqbecjsagk",
+    "text": "A solid sphere of radius 0.5 m and mass 2 kg is rolling on a horizontal surface with a velocity of 2 m/s. What is the kinetic energy of the sphere?",
+    "options": {
+      "A": "1.33 J",
+      "B": "2.67 J",
+      "C": "3.0 J",
+      "D": "4.0 J"
+    },
+    "correctAnswer": 0,
+    "explanation": "Kinetic energy = (1/2)mv^2 + (1/2)Iω^2, where I = (2/5)mr^2",
+    "subject": "Physics",
+    "topic": "Moment of Inertia",
+    "sourceYear": ""
+  },
   "/jee-mains/q/practice-challenge-analyzing-the-core-fundamentals-of-d-and-ugad8novx6s17rnh6j37": {
     "id": "UGad8NovX6s17rNH6j37",
     "slug": "practice-challenge-analyzing-the-core-fundamentals-of-d-and-ugad8novx6s17rnh6j37",
@@ -3933,6 +4093,22 @@
     "explanation": "Half-life is independent of initial concentration for first-order reactions.",
     "subject": "Chemistry",
     "topic": "Rate of Reaction",
+    "sourceYear": ""
+  },
+  "/jee-mains/q/a-compound-is-formed-by-the-reaction-of-3-moles-of-a-metal--vtwtah1ujwsc2y8rowkm": {
+    "id": "VtwtAH1uJWSC2Y8rowKM",
+    "slug": "a-compound-is-formed-by-the-reaction-of-3-moles-of-a-metal--vtwtah1ujwsc2y8rowkm",
+    "text": "A compound is formed by the reaction of 3 moles of a metal (M) with 1 mole of a non-metal (X). If 12 moles of M react with 4 moles of X to form the same compound, what is the ratio of M to X in the compound?",
+    "options": {
+      "A": "3:1",
+      "B": "3:2",
+      "C": "3:4",
+      "D": "4:3"
+    },
+    "correctAnswer": 0,
+    "explanation": "The reaction ratio is 3:1, but the compound formed has a ratio of 3:2 (12:4 reduces to 3:1, but considering the smallest whole number ratio, it's 3:2 for the compound)",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/jee-mains/q/practice-question-which-of-the-following-best-describes-the-w1u5xmd26ylojnhhx7dl": {
@@ -4205,6 +4381,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Arithmetic Progressions.",
     "subject": "Mathematics",
     "topic": "Arithmetic Progressions",
+    "sourceYear": ""
+  },
+  "/jee-mains/q/a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rolling-on-a-xxmwxjgrxwne1myzfpel": {
+    "id": "XxMwxjGRXwne1myZfPEL",
+    "slug": "a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rolling-on-a-xxmwxjgrxwne1myzfpel",
+    "text": "A solid sphere of mass 2 kg and radius 0.1 m is rolling on a horizontal surface with a velocity of 2 m/s. If it rolls up a plane inclined at an angle of 30° to the horizontal, the velocity of the sphere at the top of the incline is",
+    "options": {
+      "A": "1.4 m/s",
+      "B": "1.7 m/s",
+      "C": "1.1 m/s",
+      "D": "1.0 m/s"
+    },
+    "correctAnswer": 0,
+    "explanation": "Using conservation of energy, KE + PE = constant",
+    "subject": "Physics",
+    "topic": "Moment of Inertia",
     "sourceYear": ""
   },
   "/jee-mains/q/practice-challenge-analyzing-the-core-fundamentals-of-stati-y9i2lrobe3mfaf6vq853": {
@@ -6063,6 +6255,22 @@
     "topic": "Straight Lines",
     "sourceYear": ""
   },
+  "/jee-mains/q/what-is-the-number-of-moles-of-oxygen-in-64-g-of-ko2-ksxtyz5hyffcfqhvwjdm": {
+    "id": "ksXtyZ5HyFFCfQhVWjDM",
+    "slug": "what-is-the-number-of-moles-of-oxygen-in-64-g-of-ko2-ksxtyz5hyffcfqhvwjdm",
+    "text": "What is the number of moles of oxygen in 6.4 g of KO2?",
+    "options": {
+      "A": "0.1",
+      "B": "0.2",
+      "C": "0.4",
+      "D": "0.05"
+    },
+    "correctAnswer": 0,
+    "explanation": "Molar mass of KO2 is 71 g/mol. Moles of KO2 = 6.4/71 = 0.09, Moles of O2 = 0.09 * 2/2 = 0.09 * 1 = 0.09 * 2 = 0.18, considering O2 from 2KO2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/jee-mains/q/practice-question-which-of-the-following-best-describes-the-kxhumlrsbfwj8igsypse": {
     "id": "kxhUmlrsbfwj8IgSYPse",
     "slug": "practice-question-which-of-the-following-best-describes-the-kxhumlrsbfwj8igsypse",
@@ -6719,6 +6927,22 @@
     "topic": "Trigonometry",
     "sourceYear": ""
   },
+  "/jee-mains/q/the-number-of-moles-of-kmno4-that-will-react-with-1-mole-of-pklzlbf5l5uc1jug7ls8": {
+    "id": "pKlZLbf5l5uc1JUg7lS8",
+    "slug": "the-number-of-moles-of-kmno4-that-will-react-with-1-mole-of-pklzlbf5l5uc1jug7ls8",
+    "text": "The number of moles of KMnO4 that will react with 1 mole of K2C2O4 in acidic medium is",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "3",
+      "D": "5"
+    },
+    "correctAnswer": 0,
+    "explanation": "5K2C2O4 + 2KMnO4 + 3H2SO4 → K2SO4 + 2MnSO4 + 10CO2 + 8H2O",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/jee-mains/q/a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rotating-abo-pquspnthvwm5kytam9rn": {
     "id": "pQUSPNTHVwm5KytAM9rN",
     "slug": "a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rotating-abo-pquspnthvwm5kytam9rn",
@@ -7071,6 +7295,22 @@
     "topic": "Moment of Inertia",
     "sourceYear": ""
   },
+  "/jee-mains/q/what-is-the-number-of-moles-of-oxygen-in-64-g-of-oxygen-gas-ruov7xohx4q3dlwmdx3h": {
+    "id": "ruoV7XoHX4q3DlWmDX3h",
+    "slug": "what-is-the-number-of-moles-of-oxygen-in-64-g-of-oxygen-gas-ruov7xohx4q3dlwmdx3h",
+    "text": "What is the number of moles of oxygen in 6.4 g of oxygen gas?",
+    "options": {
+      "A": "0.1",
+      "B": "0.2",
+      "C": "0.4",
+      "D": "0.5"
+    },
+    "correctAnswer": 0,
+    "explanation": "Moles of oxygen = mass/molar mass = 6.4/32 = 0.2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/jee-mains/q/practice-challenge-analyzing-the-core-fundamentals-of-redox-slt5ekufnc2qqhdwdm9j": {
     "id": "sLT5EKUFNc2QQhdwDm9j",
     "slug": "practice-challenge-analyzing-the-core-fundamentals-of-redox-slt5ekufnc2qqhdwdm9j",
@@ -7407,6 +7647,22 @@
     "topic": "Thermal Properties of Matter",
     "sourceYear": ""
   },
+  "/jee-mains/q/a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rolling-on-a-tuxowu1bvbuk9f8qzizf": {
+    "id": "tuXOwU1bVbuk9f8QzizF",
+    "slug": "a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rolling-on-a-tuxowu1bvbuk9f8qzizf",
+    "text": "A solid sphere of mass 2 kg and radius 0.1 m is rolling on a horizontal surface with a velocity of 2 m/s. If it encounters a step of height 0.05 m, what is the minimum velocity required at the bottom of the step to just climb it? (g = 10 m/s^2)",
+    "options": {
+      "A": "1.5 m/s",
+      "B": "2 m/s",
+      "C": "2.5 m/s",
+      "D": "3 m/s"
+    },
+    "correctAnswer": 0,
+    "explanation": "Conservation of energy, considering rotational KE.",
+    "subject": "Physics",
+    "topic": "Moment of Inertia",
+    "sourceYear": ""
+  },
   "/jee-mains/q/practice-question-which-of-the-following-best-describes-the-ul5s0vtmvpwrjrjzbsfl": {
     "id": "uL5S0vtmVPwRJRjZBSfl",
     "slug": "practice-question-which-of-the-following-best-describes-the-ul5s0vtmvpwrjrjzbsfl",
@@ -7645,6 +7901,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of 3D Geometry (Intro).",
     "subject": "Mathematics",
     "topic": "3D Geometry (Intro)",
+    "sourceYear": ""
+  },
+  "/jee-mains/q/a-sample-of-na2co3-weighed-106-g-how-many-moles-of-na-ion-vmkif83tnwbjwacf7xqy": {
+    "id": "vMKIF83tnWbJWACF7xQy",
+    "slug": "a-sample-of-na2co3-weighed-106-g-how-many-moles-of-na-ion-vmkif83tnwbjwacf7xqy",
+    "text": "A sample of Na2CO3 weighed 10.6 g. How many moles of Na+ ions are present in the sample? (Molar mass of Na2CO3 = 106 g/mol)",
+    "options": {
+      "A": "0.1 mol",
+      "B": "0.2 mol",
+      "C": "0.5 mol",
+      "D": "1.0 mol"
+    },
+    "correctAnswer": 0,
+    "explanation": "1 mole of Na2CO3 contains 2 moles of Na+ ions. Moles of Na2CO3 = 10.6/106 = 0.1, so moles of Na+ = 2*0.1 = 0.2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/jee-mains/q/a-solid-cylinder-of-mass-2-kg-and-radius-01-m-is-set-into-r-vyyphtypp1fqheki21xy": {
@@ -8143,6 +8415,22 @@
     "topic": "Aldehydes, Ketones and Carboxylic Acids",
     "sourceYear": ""
   },
+  "/jee-mains/q/the-number-of-moles-of-kmno4-required-to-react-with-5-moles-zoeuihm2af2cwqpghxbo": {
+    "id": "zOeUIhm2aF2CwqPgHxbo",
+    "slug": "the-number-of-moles-of-kmno4-required-to-react-with-5-moles-zoeuihm2af2cwqpghxbo",
+    "text": "The number of moles of KMnO4 required to react with 5 moles of K2C2O4 in acidic medium is",
+    "options": {
+      "A": "2.5",
+      "B": "5",
+      "C": "3.75",
+      "D": "2"
+    },
+    "correctAnswer": 0,
+    "explanation": "5 moles of K2C2O4 require 5 moles of KMnO4 in acidic medium.",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/jee-mains/q/the-half-life-period-of-a-certain-first-order-reaction-is-10-zql9pibeic8qk5sr2bwg": {
     "id": "zQL9PiBeIC8Qk5sr2BWG",
     "slug": "the-half-life-period-of-a-certain-first-order-reaction-is-10-zql9pibeic8qk5sr2bwg",
@@ -8509,6 +8797,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Probability (Intro).",
     "subject": "Mathematics",
     "topic": "Probability (Intro)",
+    "sourceYear": ""
+  },
+  "/jee-advanced/q/the-number-of-moles-of-kmno4-required-to-react-with-5-moles-27zaiimh9gobyendob0l": {
+    "id": "27zaiIMH9GObyEndOb0L",
+    "slug": "the-number-of-moles-of-kmno4-required-to-react-with-5-moles-27zaiimh9gobyendob0l",
+    "text": "The number of moles of KMnO4 required to react with 5 moles of K2C2O4 in an acidic medium is",
+    "options": {
+      "A": "2.5",
+      "B": "5",
+      "C": "3.75",
+      "D": "7.5"
+    },
+    "correctAnswer": 0,
+    "explanation": "KMnO4 + 5C2O4^2- + 16H+ → 5CO2 + 2Mn^2+ + 8H2O",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/jee-advanced/q/practice-question-which-of-the-following-best-describes-the-29qy63ckeirtcwu1nbik": {
@@ -9279,6 +9583,22 @@
     "topic": "Aldehydes, Ketones and Carboxylic Acids",
     "sourceYear": ""
   },
+  "/jee-advanced/q/the-number-of-moles-of-kmno4-required-to-oxidize-one-mole-of-8olwk298oqqxe2rzhdap": {
+    "id": "8OlwK298oqqxe2rzhDaP",
+    "slug": "the-number-of-moles-of-kmno4-required-to-oxidize-one-mole-of-8olwk298oqqxe2rzhdap",
+    "text": "The number of moles of KMnO4 required to oxidize one mole of Fe(C2O4)3 in acidic medium is",
+    "options": {
+      "A": "3/2",
+      "B": "7/2",
+      "C": "3",
+      "D": "7"
+    },
+    "correctAnswer": 0,
+    "explanation": "Fe(C2O4)3 + 7/2 KMnO4 → Fe2O3 + 7Mn2+ + 12CO2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/jee-advanced/q/practice-challenge-analyzing-the-core-fundamentals-of-quadr-8rdaze83ddvlldip7yyg": {
     "id": "8RDAZE83DdvLLDip7YYG",
     "slug": "practice-challenge-analyzing-the-core-fundamentals-of-quadr-8rdaze83ddvlldip7yyg",
@@ -9421,6 +9741,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Linear Inequalities.",
     "subject": "Mathematics",
     "topic": "Linear Inequalities",
+    "sourceYear": ""
+  },
+  "/jee-advanced/q/the-number-of-moles-of-kmno4-required-to-react-with-5-moles-9mjmvb6fsjmu0lpzfmww": {
+    "id": "9mjmVb6fSJMu0lpZFmWW",
+    "slug": "the-number-of-moles-of-kmno4-required-to-react-with-5-moles-9mjmvb6fsjmu0lpzfmww",
+    "text": "The number of moles of KMnO4 required to react with 5 moles of K2C2O4 in acidic medium is",
+    "options": {
+      "A": "2.5",
+      "B": "5",
+      "C": "3.75",
+      "D": "6.25"
+    },
+    "correctAnswer": 0,
+    "explanation": "Reaction: 2KMnO4 + 5K2C2O4 → 2MnSO4 + 10CO2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/jee-advanced/q/practice-challenge-analyzing-the-core-fundamentals-of-proba-9r13ka2slkf5ftdm14w2": {
@@ -10095,6 +10431,22 @@
     "topic": "Wave Optics",
     "sourceYear": ""
   },
+  "/jee-advanced/q/the-number-of-moles-of-kmno4-required-to-react-with-5-moles-fjoyxqo5ccrlmyywlzwj": {
+    "id": "FJOyXQo5ccRlmYyWlZwJ",
+    "slug": "the-number-of-moles-of-kmno4-required-to-react-with-5-moles-fjoyxqo5ccrlmyywlzwj",
+    "text": "The number of moles of KMnO4 required to react with 5 moles of K2C2O4 in acidic medium is",
+    "options": {
+      "A": "2.5",
+      "B": "5",
+      "C": "3.75",
+      "D": "7.5"
+    },
+    "correctAnswer": 0,
+    "explanation": "5MnO4- + 2C2O42- + 16H+ → 5Mn2+ + 10CO2 + 8H2O",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/jee-advanced/q/practice-question-which-of-the-following-best-describes-the-fltxhxjs4wgz1rw3sirc": {
     "id": "FLtXhXJs4wgZ1rW3siRC",
     "slug": "practice-question-which-of-the-following-best-describes-the-fltxhxjs4wgz1rw3sirc",
@@ -10125,6 +10477,22 @@
     "explanation": "Foundational check for Decimals in Class 6. Study the core principles carefully for competitive exams.",
     "subject": "Mathematics",
     "topic": "Decimals",
+    "sourceYear": ""
+  },
+  "/jee-advanced/q/what-is-the-volume-of-1-mole-of-a-gas-at-stp-flch5qbxskf6mvldgp3x": {
+    "id": "FlCh5QBXSKF6MVLdGp3x",
+    "slug": "what-is-the-volume-of-1-mole-of-a-gas-at-stp-flch5qbxskf6mvldgp3x",
+    "text": "What is the volume of 1 mole of a gas at STP?",
+    "options": {
+      "A": "11.2 L",
+      "B": "22.4 L",
+      "C": "33.6 L",
+      "D": "44.8 L"
+    },
+    "correctAnswer": 0,
+    "explanation": "At STP, 1 mole of gas occupies 22.4 L",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/jee-advanced/q/practice-question-which-of-the-following-best-describes-the-ftxktc2mqxmzdnc8vrm8": {
@@ -10223,6 +10591,22 @@
     "topic": "Perimeter and Area",
     "sourceYear": ""
   },
+  "/jee-advanced/q/a-sample-of-oxygen-gas-has-a-volume-of-500-ml-at-273-k-and-1-glnosbpxzp7hdlj5b5jc": {
+    "id": "GLNOsBpxzP7HDLj5B5Jc",
+    "slug": "a-sample-of-oxygen-gas-has-a-volume-of-500-ml-at-273-k-and-1-glnosbpxzp7hdlj5b5jc",
+    "text": "A sample of oxygen gas has a volume of 500 mL at 273 K and 1 atm. If the temperature is raised to 373 K while keeping the pressure constant, the volume of the gas becomes",
+    "options": {
+      "A": "568.2 mL",
+      "B": "586.2 mL",
+      "C": "600 mL",
+      "D": "625 mL"
+    },
+    "correctAnswer": 0,
+    "explanation": "Using Charles' law, V1/T1 = V2/T2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/jee-advanced/q/practice-question-which-of-the-following-best-describes-the-gp0xtrj74cncmmoawrp8": {
     "id": "GP0xtRj74cNcmMoAWrP8",
     "slug": "practice-question-which-of-the-following-best-describes-the-gp0xtrj74cncmmoawrp8",
@@ -10253,6 +10637,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Polynomials.",
     "subject": "Mathematics",
     "topic": "Polynomials",
+    "sourceYear": ""
+  },
+  "/jee-advanced/q/what-is-the-number-of-moles-of-oxygen-in-64-g-of-cu2o-if-t-gohh1rnfgiety9v1mwxz": {
+    "id": "GoHh1RnFgietY9V1MwXZ",
+    "slug": "what-is-the-number-of-moles-of-oxygen-in-64-g-of-cu2o-if-t-gohh1rnfgiety9v1mwxz",
+    "text": "What is the number of moles of oxygen in 6.4 g of Cu2O, if the oxidation number of copper is +1?",
+    "options": {
+      "A": "0.02",
+      "B": "0.04",
+      "C": "0.01",
+      "D": "0.03"
+    },
+    "correctAnswer": 0,
+    "explanation": "Moles of Cu2O = 6.4/143 = 0.04, O atoms per molecule = 1, Moles of O = 0.04",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/jee-advanced/q/practice-question-which-of-the-following-best-describes-the-hpywkdcdd9hromjk3yan": {
@@ -10365,6 +10765,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Electrochemistry.",
     "subject": "Chemistry",
     "topic": "Electrochemistry",
+    "sourceYear": ""
+  },
+  "/jee-advanced/q/a-sample-of-noble-gas-weighs-48-g-and-has-a-volume-of-224-ipwbr11ditcnyabuid0h": {
+    "id": "IpWBR11ditcnYABUid0H",
+    "slug": "a-sample-of-noble-gas-weighs-48-g-and-has-a-volume-of-224-ipwbr11ditcnyabuid0h",
+    "text": "A sample of noble gas weighs 4.8 g and has a volume of 2.24 L at STP. Which of the following statements is true about this sample?",
+    "options": {
+      "A": "The sample contains 0.2 mol of gas molecules",
+      "B": "The sample contains 0.1 mol of gas molecules",
+      "C": "The molar mass of the gas is 48 g/mol",
+      "D": "The molar mass of the gas is 24 g/mol"
+    },
+    "correctAnswer": 0,
+    "explanation": "Using PV = nRT, at STP, 1 mole of gas occupies 22.4 L. Given volume is 2.24 L, so n = 0.2 mol",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/jee-advanced/q/practice-question-which-of-the-following-best-describes-the-ixzg0ypjq7ewj3odechk": {
@@ -10621,6 +11037,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Differential Equations.",
     "subject": "Mathematics",
     "topic": "Differential Equations",
+    "sourceYear": ""
+  },
+  "/jee-advanced/q/the-number-of-moles-of-kmno4-required-to-oxidise-one-mole-of-kow9exauamq9zm4smbht": {
+    "id": "KoW9exAuamQ9ZM4SMbhT",
+    "slug": "the-number-of-moles-of-kmno4-required-to-oxidise-one-mole-of-kow9exauamq9zm4smbht",
+    "text": "The number of moles of KMnO4 required to oxidise one mole of ferrous oxalate (FeC2O4) in acidic medium is",
+    "options": {
+      "A": "2/5",
+      "B": "3/5",
+      "C": "3/2",
+      "D": "5/2"
+    },
+    "correctAnswer": 0,
+    "explanation": "5FeC2O4 + 2KMnO4 + 24H2SO4 → 5Fe2(SO4)3 + 2MnSO4 + 10CO2 + 24H2O",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/jee-advanced/q/a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rotating-wit-ksakkrfcgagzeoyxtypn": {
@@ -12063,6 +12495,22 @@
     "topic": "Dual Nature of Radiation",
     "sourceYear": ""
   },
+  "/jee-advanced/q/a-solid-sphere-of-radius-05-m-and-mass-2-kg-is-rolling-on-a-u11p1snehyvqbecjsagk": {
+    "id": "U11P1sNehyVQbeCjSAGk",
+    "slug": "a-solid-sphere-of-radius-05-m-and-mass-2-kg-is-rolling-on-a-u11p1snehyvqbecjsagk",
+    "text": "A solid sphere of radius 0.5 m and mass 2 kg is rolling on a horizontal surface with a velocity of 2 m/s. What is the kinetic energy of the sphere?",
+    "options": {
+      "A": "1.33 J",
+      "B": "2.67 J",
+      "C": "3.0 J",
+      "D": "4.0 J"
+    },
+    "correctAnswer": 0,
+    "explanation": "Kinetic energy = (1/2)mv^2 + (1/2)Iω^2, where I = (2/5)mr^2",
+    "subject": "Physics",
+    "topic": "Moment of Inertia",
+    "sourceYear": ""
+  },
   "/jee-advanced/q/practice-challenge-analyzing-the-core-fundamentals-of-d-and-ugad8novx6s17rnh6j37": {
     "id": "UGad8NovX6s17rNH6j37",
     "slug": "practice-challenge-analyzing-the-core-fundamentals-of-d-and-ugad8novx6s17rnh6j37",
@@ -12237,6 +12685,22 @@
     "explanation": "Half-life is independent of initial concentration for first-order reactions.",
     "subject": "Chemistry",
     "topic": "Rate of Reaction",
+    "sourceYear": ""
+  },
+  "/jee-advanced/q/a-compound-is-formed-by-the-reaction-of-3-moles-of-a-metal--vtwtah1ujwsc2y8rowkm": {
+    "id": "VtwtAH1uJWSC2Y8rowKM",
+    "slug": "a-compound-is-formed-by-the-reaction-of-3-moles-of-a-metal--vtwtah1ujwsc2y8rowkm",
+    "text": "A compound is formed by the reaction of 3 moles of a metal (M) with 1 mole of a non-metal (X). If 12 moles of M react with 4 moles of X to form the same compound, what is the ratio of M to X in the compound?",
+    "options": {
+      "A": "3:1",
+      "B": "3:2",
+      "C": "3:4",
+      "D": "4:3"
+    },
+    "correctAnswer": 0,
+    "explanation": "The reaction ratio is 3:1, but the compound formed has a ratio of 3:2 (12:4 reduces to 3:1, but considering the smallest whole number ratio, it's 3:2 for the compound)",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/jee-advanced/q/practice-question-which-of-the-following-best-describes-the-w1u5xmd26ylojnhhx7dl": {
@@ -12509,6 +12973,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Arithmetic Progressions.",
     "subject": "Mathematics",
     "topic": "Arithmetic Progressions",
+    "sourceYear": ""
+  },
+  "/jee-advanced/q/a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rolling-on-a-xxmwxjgrxwne1myzfpel": {
+    "id": "XxMwxjGRXwne1myZfPEL",
+    "slug": "a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rolling-on-a-xxmwxjgrxwne1myzfpel",
+    "text": "A solid sphere of mass 2 kg and radius 0.1 m is rolling on a horizontal surface with a velocity of 2 m/s. If it rolls up a plane inclined at an angle of 30° to the horizontal, the velocity of the sphere at the top of the incline is",
+    "options": {
+      "A": "1.4 m/s",
+      "B": "1.7 m/s",
+      "C": "1.1 m/s",
+      "D": "1.0 m/s"
+    },
+    "correctAnswer": 0,
+    "explanation": "Using conservation of energy, KE + PE = constant",
+    "subject": "Physics",
+    "topic": "Moment of Inertia",
     "sourceYear": ""
   },
   "/jee-advanced/q/practice-challenge-analyzing-the-core-fundamentals-of-stati-y9i2lrobe3mfaf6vq853": {
@@ -14367,6 +14847,22 @@
     "topic": "Straight Lines",
     "sourceYear": ""
   },
+  "/jee-advanced/q/what-is-the-number-of-moles-of-oxygen-in-64-g-of-ko2-ksxtyz5hyffcfqhvwjdm": {
+    "id": "ksXtyZ5HyFFCfQhVWjDM",
+    "slug": "what-is-the-number-of-moles-of-oxygen-in-64-g-of-ko2-ksxtyz5hyffcfqhvwjdm",
+    "text": "What is the number of moles of oxygen in 6.4 g of KO2?",
+    "options": {
+      "A": "0.1",
+      "B": "0.2",
+      "C": "0.4",
+      "D": "0.05"
+    },
+    "correctAnswer": 0,
+    "explanation": "Molar mass of KO2 is 71 g/mol. Moles of KO2 = 6.4/71 = 0.09, Moles of O2 = 0.09 * 2/2 = 0.09 * 1 = 0.09 * 2 = 0.18, considering O2 from 2KO2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/jee-advanced/q/practice-question-which-of-the-following-best-describes-the-kxhumlrsbfwj8igsypse": {
     "id": "kxhUmlrsbfwj8IgSYPse",
     "slug": "practice-question-which-of-the-following-best-describes-the-kxhumlrsbfwj8igsypse",
@@ -15023,6 +15519,22 @@
     "topic": "Trigonometry",
     "sourceYear": ""
   },
+  "/jee-advanced/q/the-number-of-moles-of-kmno4-that-will-react-with-1-mole-of-pklzlbf5l5uc1jug7ls8": {
+    "id": "pKlZLbf5l5uc1JUg7lS8",
+    "slug": "the-number-of-moles-of-kmno4-that-will-react-with-1-mole-of-pklzlbf5l5uc1jug7ls8",
+    "text": "The number of moles of KMnO4 that will react with 1 mole of K2C2O4 in acidic medium is",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "3",
+      "D": "5"
+    },
+    "correctAnswer": 0,
+    "explanation": "5K2C2O4 + 2KMnO4 + 3H2SO4 → K2SO4 + 2MnSO4 + 10CO2 + 8H2O",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/jee-advanced/q/a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rotating-abo-pquspnthvwm5kytam9rn": {
     "id": "pQUSPNTHVwm5KytAM9rN",
     "slug": "a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rotating-abo-pquspnthvwm5kytam9rn",
@@ -15375,6 +15887,22 @@
     "topic": "Moment of Inertia",
     "sourceYear": ""
   },
+  "/jee-advanced/q/what-is-the-number-of-moles-of-oxygen-in-64-g-of-oxygen-gas-ruov7xohx4q3dlwmdx3h": {
+    "id": "ruoV7XoHX4q3DlWmDX3h",
+    "slug": "what-is-the-number-of-moles-of-oxygen-in-64-g-of-oxygen-gas-ruov7xohx4q3dlwmdx3h",
+    "text": "What is the number of moles of oxygen in 6.4 g of oxygen gas?",
+    "options": {
+      "A": "0.1",
+      "B": "0.2",
+      "C": "0.4",
+      "D": "0.5"
+    },
+    "correctAnswer": 0,
+    "explanation": "Moles of oxygen = mass/molar mass = 6.4/32 = 0.2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/jee-advanced/q/practice-challenge-analyzing-the-core-fundamentals-of-redox-slt5ekufnc2qqhdwdm9j": {
     "id": "sLT5EKUFNc2QQhdwDm9j",
     "slug": "practice-challenge-analyzing-the-core-fundamentals-of-redox-slt5ekufnc2qqhdwdm9j",
@@ -15711,6 +16239,22 @@
     "topic": "Thermal Properties of Matter",
     "sourceYear": ""
   },
+  "/jee-advanced/q/a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rolling-on-a-tuxowu1bvbuk9f8qzizf": {
+    "id": "tuXOwU1bVbuk9f8QzizF",
+    "slug": "a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rolling-on-a-tuxowu1bvbuk9f8qzizf",
+    "text": "A solid sphere of mass 2 kg and radius 0.1 m is rolling on a horizontal surface with a velocity of 2 m/s. If it encounters a step of height 0.05 m, what is the minimum velocity required at the bottom of the step to just climb it? (g = 10 m/s^2)",
+    "options": {
+      "A": "1.5 m/s",
+      "B": "2 m/s",
+      "C": "2.5 m/s",
+      "D": "3 m/s"
+    },
+    "correctAnswer": 0,
+    "explanation": "Conservation of energy, considering rotational KE.",
+    "subject": "Physics",
+    "topic": "Moment of Inertia",
+    "sourceYear": ""
+  },
   "/jee-advanced/q/practice-question-which-of-the-following-best-describes-the-ul5s0vtmvpwrjrjzbsfl": {
     "id": "uL5S0vtmVPwRJRjZBSfl",
     "slug": "practice-question-which-of-the-following-best-describes-the-ul5s0vtmvpwrjrjzbsfl",
@@ -15949,6 +16493,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of 3D Geometry (Intro).",
     "subject": "Mathematics",
     "topic": "3D Geometry (Intro)",
+    "sourceYear": ""
+  },
+  "/jee-advanced/q/a-sample-of-na2co3-weighed-106-g-how-many-moles-of-na-ion-vmkif83tnwbjwacf7xqy": {
+    "id": "vMKIF83tnWbJWACF7xQy",
+    "slug": "a-sample-of-na2co3-weighed-106-g-how-many-moles-of-na-ion-vmkif83tnwbjwacf7xqy",
+    "text": "A sample of Na2CO3 weighed 10.6 g. How many moles of Na+ ions are present in the sample? (Molar mass of Na2CO3 = 106 g/mol)",
+    "options": {
+      "A": "0.1 mol",
+      "B": "0.2 mol",
+      "C": "0.5 mol",
+      "D": "1.0 mol"
+    },
+    "correctAnswer": 0,
+    "explanation": "1 mole of Na2CO3 contains 2 moles of Na+ ions. Moles of Na2CO3 = 10.6/106 = 0.1, so moles of Na+ = 2*0.1 = 0.2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/jee-advanced/q/a-solid-cylinder-of-mass-2-kg-and-radius-01-m-is-set-into-r-vyyphtypp1fqheki21xy": {
@@ -16447,6 +17007,22 @@
     "topic": "Aldehydes, Ketones and Carboxylic Acids",
     "sourceYear": ""
   },
+  "/jee-advanced/q/the-number-of-moles-of-kmno4-required-to-react-with-5-moles-zoeuihm2af2cwqpghxbo": {
+    "id": "zOeUIhm2aF2CwqPgHxbo",
+    "slug": "the-number-of-moles-of-kmno4-required-to-react-with-5-moles-zoeuihm2af2cwqpghxbo",
+    "text": "The number of moles of KMnO4 required to react with 5 moles of K2C2O4 in acidic medium is",
+    "options": {
+      "A": "2.5",
+      "B": "5",
+      "C": "3.75",
+      "D": "2"
+    },
+    "correctAnswer": 0,
+    "explanation": "5 moles of K2C2O4 require 5 moles of KMnO4 in acidic medium.",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/jee-advanced/q/the-half-life-period-of-a-certain-first-order-reaction-is-10-zql9pibeic8qk5sr2bwg": {
     "id": "zQL9PiBeIC8Qk5sr2BWG",
     "slug": "the-half-life-period-of-a-certain-first-order-reaction-is-10-zql9pibeic8qk5sr2bwg",
@@ -16829,6 +17405,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Alcohols, Phenols and Ethers.",
     "subject": "Chemistry",
     "topic": "Alcohols, Phenols and Ethers",
+    "sourceYear": ""
+  },
+  "/neet/q/the-number-of-moles-of-kmno4-required-to-react-with-5-moles-27zaiimh9gobyendob0l": {
+    "id": "27zaiIMH9GObyEndOb0L",
+    "slug": "the-number-of-moles-of-kmno4-required-to-react-with-5-moles-27zaiimh9gobyendob0l",
+    "text": "The number of moles of KMnO4 required to react with 5 moles of K2C2O4 in an acidic medium is",
+    "options": {
+      "A": "2.5",
+      "B": "5",
+      "C": "3.75",
+      "D": "7.5"
+    },
+    "correctAnswer": 0,
+    "explanation": "KMnO4 + 5C2O4^2- + 16H+ → 5CO2 + 2Mn^2+ + 8H2O",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/neet/q/practice-question-which-of-the-following-best-describes-the-29qy63ckeirtcwu1nbik": {
@@ -17391,6 +17983,22 @@
     "topic": "Aldehydes, Ketones and Carboxylic Acids",
     "sourceYear": ""
   },
+  "/neet/q/the-number-of-moles-of-kmno4-required-to-oxidize-one-mole-of-8olwk298oqqxe2rzhdap": {
+    "id": "8OlwK298oqqxe2rzhDaP",
+    "slug": "the-number-of-moles-of-kmno4-required-to-oxidize-one-mole-of-8olwk298oqqxe2rzhdap",
+    "text": "The number of moles of KMnO4 required to oxidize one mole of Fe(C2O4)3 in acidic medium is",
+    "options": {
+      "A": "3/2",
+      "B": "7/2",
+      "C": "3",
+      "D": "7"
+    },
+    "correctAnswer": 0,
+    "explanation": "Fe(C2O4)3 + 7/2 KMnO4 → Fe2O3 + 7Mn2+ + 12CO2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/neet/q/for-the-reaction-cog-2h2g-ch3ohg-the-equilibrium-8jqukark4yifbk5npchz": {
     "id": "8jqUkaRk4YIFBK5nPcHz",
     "slug": "for-the-reaction-cog-2h2g-ch3ohg-the-equilibrium-8jqukark4yifbk5npchz",
@@ -17453,6 +18061,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Digestion and Absorption.",
     "subject": "Biology",
     "topic": "Digestion and Absorption",
+    "sourceYear": ""
+  },
+  "/neet/q/the-number-of-moles-of-kmno4-required-to-react-with-5-moles-9mjmvb6fsjmu0lpzfmww": {
+    "id": "9mjmVb6fSJMu0lpZFmWW",
+    "slug": "the-number-of-moles-of-kmno4-required-to-react-with-5-moles-9mjmvb6fsjmu0lpzfmww",
+    "text": "The number of moles of KMnO4 required to react with 5 moles of K2C2O4 in acidic medium is",
+    "options": {
+      "A": "2.5",
+      "B": "5",
+      "C": "3.75",
+      "D": "6.25"
+    },
+    "correctAnswer": 0,
+    "explanation": "Reaction: 2KMnO4 + 5K2C2O4 → 2MnSO4 + 10CO2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/neet/q/practice-question-which-of-the-following-best-describes-the-agdicvuf60d0rg3pjlap": {
@@ -17919,6 +18543,38 @@
     "topic": "Wave Optics",
     "sourceYear": ""
   },
+  "/neet/q/the-number-of-moles-of-kmno4-required-to-react-with-5-moles-fjoyxqo5ccrlmyywlzwj": {
+    "id": "FJOyXQo5ccRlmYyWlZwJ",
+    "slug": "the-number-of-moles-of-kmno4-required-to-react-with-5-moles-fjoyxqo5ccrlmyywlzwj",
+    "text": "The number of moles of KMnO4 required to react with 5 moles of K2C2O4 in acidic medium is",
+    "options": {
+      "A": "2.5",
+      "B": "5",
+      "C": "3.75",
+      "D": "7.5"
+    },
+    "correctAnswer": 0,
+    "explanation": "5MnO4- + 2C2O42- + 16H+ → 5Mn2+ + 10CO2 + 8H2O",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
+  "/neet/q/what-is-the-volume-of-1-mole-of-a-gas-at-stp-flch5qbxskf6mvldgp3x": {
+    "id": "FlCh5QBXSKF6MVLdGp3x",
+    "slug": "what-is-the-volume-of-1-mole-of-a-gas-at-stp-flch5qbxskf6mvldgp3x",
+    "text": "What is the volume of 1 mole of a gas at STP?",
+    "options": {
+      "A": "11.2 L",
+      "B": "22.4 L",
+      "C": "33.6 L",
+      "D": "44.8 L"
+    },
+    "correctAnswer": 0,
+    "explanation": "At STP, 1 mole of gas occupies 22.4 L",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/neet/q/practice-challenge-analyzing-the-core-fundamentals-of-respi-foes29bsda6ztudss9yi": {
     "id": "Foes29BSda6ZtuDSs9YI",
     "slug": "practice-challenge-analyzing-the-core-fundamentals-of-respi-foes29bsda6ztudss9yi",
@@ -17967,6 +18623,22 @@
     "topic": "Kinetic Theory",
     "sourceYear": ""
   },
+  "/neet/q/a-sample-of-oxygen-gas-has-a-volume-of-500-ml-at-273-k-and-1-glnosbpxzp7hdlj5b5jc": {
+    "id": "GLNOsBpxzP7HDLj5B5Jc",
+    "slug": "a-sample-of-oxygen-gas-has-a-volume-of-500-ml-at-273-k-and-1-glnosbpxzp7hdlj5b5jc",
+    "text": "A sample of oxygen gas has a volume of 500 mL at 273 K and 1 atm. If the temperature is raised to 373 K while keeping the pressure constant, the volume of the gas becomes",
+    "options": {
+      "A": "568.2 mL",
+      "B": "586.2 mL",
+      "C": "600 mL",
+      "D": "625 mL"
+    },
+    "correctAnswer": 0,
+    "explanation": "Using Charles' law, V1/T1 = V2/T2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/neet/q/practice-question-which-of-the-following-best-describes-the-grc4z4pb6p1zuionbe7g": {
     "id": "GRC4z4Pb6p1zUioNBe7G",
     "slug": "practice-question-which-of-the-following-best-describes-the-grc4z4pb6p1zuionbe7g",
@@ -17981,6 +18653,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Breathing and Exchange of Gases.",
     "subject": "Biology",
     "topic": "Breathing and Exchange of Gases",
+    "sourceYear": ""
+  },
+  "/neet/q/what-is-the-number-of-moles-of-oxygen-in-64-g-of-cu2o-if-t-gohh1rnfgiety9v1mwxz": {
+    "id": "GoHh1RnFgietY9V1MwXZ",
+    "slug": "what-is-the-number-of-moles-of-oxygen-in-64-g-of-cu2o-if-t-gohh1rnfgiety9v1mwxz",
+    "text": "What is the number of moles of oxygen in 6.4 g of Cu2O, if the oxidation number of copper is +1?",
+    "options": {
+      "A": "0.02",
+      "B": "0.04",
+      "C": "0.01",
+      "D": "0.03"
+    },
+    "correctAnswer": 0,
+    "explanation": "Moles of Cu2O = 6.4/143 = 0.04, O atoms per molecule = 1, Moles of O = 0.04",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/neet/q/practice-challenge-analyzing-the-core-fundamentals-of-human-hru9gogdvfsnhifgcgfh": {
@@ -18077,6 +18765,22 @@
     "explanation": "Foundational check for Biodiversity and Conservation in Class 12. Study the core principles carefully for competitive exams.",
     "subject": "Biology",
     "topic": "Biodiversity and Conservation",
+    "sourceYear": ""
+  },
+  "/neet/q/a-sample-of-noble-gas-weighs-48-g-and-has-a-volume-of-224-ipwbr11ditcnyabuid0h": {
+    "id": "IpWBR11ditcnYABUid0H",
+    "slug": "a-sample-of-noble-gas-weighs-48-g-and-has-a-volume-of-224-ipwbr11ditcnyabuid0h",
+    "text": "A sample of noble gas weighs 4.8 g and has a volume of 2.24 L at STP. Which of the following statements is true about this sample?",
+    "options": {
+      "A": "The sample contains 0.2 mol of gas molecules",
+      "B": "The sample contains 0.1 mol of gas molecules",
+      "C": "The molar mass of the gas is 48 g/mol",
+      "D": "The molar mass of the gas is 24 g/mol"
+    },
+    "correctAnswer": 0,
+    "explanation": "Using PV = nRT, at STP, 1 mole of gas occupies 22.4 L. Given volume is 2.24 L, so n = 0.2 mol",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/neet/q/practice-question-which-of-the-following-best-describes-the-izr31gva9tftceml9omw": {
@@ -18221,6 +18925,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Cell: The Unit of Life.",
     "subject": "Biology",
     "topic": "Cell: The Unit of Life",
+    "sourceYear": ""
+  },
+  "/neet/q/the-number-of-moles-of-kmno4-required-to-oxidise-one-mole-of-kow9exauamq9zm4smbht": {
+    "id": "KoW9exAuamQ9ZM4SMbhT",
+    "slug": "the-number-of-moles-of-kmno4-required-to-oxidise-one-mole-of-kow9exauamq9zm4smbht",
+    "text": "The number of moles of KMnO4 required to oxidise one mole of ferrous oxalate (FeC2O4) in acidic medium is",
+    "options": {
+      "A": "2/5",
+      "B": "3/5",
+      "C": "3/2",
+      "D": "5/2"
+    },
+    "correctAnswer": 0,
+    "explanation": "5FeC2O4 + 2KMnO4 + 24H2SO4 → 5Fe2(SO4)3 + 2MnSO4 + 10CO2 + 24H2O",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/neet/q/a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rotating-wit-ksakkrfcgagzeoyxtypn": {
@@ -19231,6 +19951,22 @@
     "topic": "Dual Nature of Radiation",
     "sourceYear": ""
   },
+  "/neet/q/a-solid-sphere-of-radius-05-m-and-mass-2-kg-is-rolling-on-a-u11p1snehyvqbecjsagk": {
+    "id": "U11P1sNehyVQbeCjSAGk",
+    "slug": "a-solid-sphere-of-radius-05-m-and-mass-2-kg-is-rolling-on-a-u11p1snehyvqbecjsagk",
+    "text": "A solid sphere of radius 0.5 m and mass 2 kg is rolling on a horizontal surface with a velocity of 2 m/s. What is the kinetic energy of the sphere?",
+    "options": {
+      "A": "1.33 J",
+      "B": "2.67 J",
+      "C": "3.0 J",
+      "D": "4.0 J"
+    },
+    "correctAnswer": 0,
+    "explanation": "Kinetic energy = (1/2)mv^2 + (1/2)Iω^2, where I = (2/5)mr^2",
+    "subject": "Physics",
+    "topic": "Moment of Inertia",
+    "sourceYear": ""
+  },
   "/neet/q/practice-challenge-analyzing-the-core-fundamentals-of-d-and-ugad8novx6s17rnh6j37": {
     "id": "UGad8NovX6s17rNH6j37",
     "slug": "practice-challenge-analyzing-the-core-fundamentals-of-d-and-ugad8novx6s17rnh6j37",
@@ -19375,6 +20111,22 @@
     "topic": "Rate of Reaction",
     "sourceYear": ""
   },
+  "/neet/q/a-compound-is-formed-by-the-reaction-of-3-moles-of-a-metal--vtwtah1ujwsc2y8rowkm": {
+    "id": "VtwtAH1uJWSC2Y8rowKM",
+    "slug": "a-compound-is-formed-by-the-reaction-of-3-moles-of-a-metal--vtwtah1ujwsc2y8rowkm",
+    "text": "A compound is formed by the reaction of 3 moles of a metal (M) with 1 mole of a non-metal (X). If 12 moles of M react with 4 moles of X to form the same compound, what is the ratio of M to X in the compound?",
+    "options": {
+      "A": "3:1",
+      "B": "3:2",
+      "C": "3:4",
+      "D": "4:3"
+    },
+    "correctAnswer": 0,
+    "explanation": "The reaction ratio is 3:1, but the compound formed has a ratio of 3:2 (12:4 reduces to 3:1, but considering the smallest whole number ratio, it's 3:2 for the compound)",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/neet/q/practice-question-which-of-the-following-best-describes-the-w7mwithuclthbboypbi3": {
     "id": "W7mwIThUCltHbBOYpbi3",
     "slug": "practice-question-which-of-the-following-best-describes-the-w7mwithuclthbboypbi3",
@@ -19517,6 +20269,22 @@
     "explanation": "Torque = Force * radius = 4 N * 0.1 m = 0.4 Nm, but since the cylinder is already rotating, the applied force is tangential, so the torque is twice the value, 0.8 Nm.",
     "subject": "Physics",
     "topic": "Torque and Angular Momentum",
+    "sourceYear": ""
+  },
+  "/neet/q/a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rolling-on-a-xxmwxjgrxwne1myzfpel": {
+    "id": "XxMwxjGRXwne1myZfPEL",
+    "slug": "a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rolling-on-a-xxmwxjgrxwne1myzfpel",
+    "text": "A solid sphere of mass 2 kg and radius 0.1 m is rolling on a horizontal surface with a velocity of 2 m/s. If it rolls up a plane inclined at an angle of 30° to the horizontal, the velocity of the sphere at the top of the incline is",
+    "options": {
+      "A": "1.4 m/s",
+      "B": "1.7 m/s",
+      "C": "1.1 m/s",
+      "D": "1.0 m/s"
+    },
+    "correctAnswer": 0,
+    "explanation": "Using conservation of energy, KE + PE = constant",
+    "subject": "Physics",
+    "topic": "Moment of Inertia",
     "sourceYear": ""
   },
   "/neet/q/practice-challenge-analyzing-the-core-fundamentals-of-metal-yniopnnj1ttqtqgtvrid": {
@@ -20991,6 +21759,22 @@
     "topic": "Excretory Products and Elimination",
     "sourceYear": ""
   },
+  "/neet/q/what-is-the-number-of-moles-of-oxygen-in-64-g-of-ko2-ksxtyz5hyffcfqhvwjdm": {
+    "id": "ksXtyZ5HyFFCfQhVWjDM",
+    "slug": "what-is-the-number-of-moles-of-oxygen-in-64-g-of-ko2-ksxtyz5hyffcfqhvwjdm",
+    "text": "What is the number of moles of oxygen in 6.4 g of KO2?",
+    "options": {
+      "A": "0.1",
+      "B": "0.2",
+      "C": "0.4",
+      "D": "0.05"
+    },
+    "correctAnswer": 0,
+    "explanation": "Molar mass of KO2 is 71 g/mol. Moles of KO2 = 6.4/71 = 0.09, Moles of O2 = 0.09 * 2/2 = 0.09 * 1 = 0.09 * 2 = 0.18, considering O2 from 2KO2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/neet/q/practice-question-which-of-the-following-best-describes-the-l0rckpmhz2a5yv3mhqcz": {
     "id": "l0RCkPMhz2a5yv3mhQCz",
     "slug": "practice-question-which-of-the-following-best-describes-the-l0rckpmhz2a5yv3mhqcz",
@@ -21647,6 +22431,22 @@
     "topic": "Work, Energy and Power",
     "sourceYear": ""
   },
+  "/neet/q/the-number-of-moles-of-kmno4-that-will-react-with-1-mole-of-pklzlbf5l5uc1jug7ls8": {
+    "id": "pKlZLbf5l5uc1JUg7lS8",
+    "slug": "the-number-of-moles-of-kmno4-that-will-react-with-1-mole-of-pklzlbf5l5uc1jug7ls8",
+    "text": "The number of moles of KMnO4 that will react with 1 mole of K2C2O4 in acidic medium is",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "3",
+      "D": "5"
+    },
+    "correctAnswer": 0,
+    "explanation": "5K2C2O4 + 2KMnO4 + 3H2SO4 → K2SO4 + 2MnSO4 + 10CO2 + 8H2O",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/neet/q/a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rotating-abo-pquspnthvwm5kytam9rn": {
     "id": "pQUSPNTHVwm5KytAM9rN",
     "slug": "a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rotating-abo-pquspnthvwm5kytam9rn",
@@ -21869,6 +22669,22 @@
     "explanation": "Torque due to friction causes angular acceleration, and linear acceleration is due to friction.",
     "subject": "Physics",
     "topic": "Moment of Inertia",
+    "sourceYear": ""
+  },
+  "/neet/q/what-is-the-number-of-moles-of-oxygen-in-64-g-of-oxygen-gas-ruov7xohx4q3dlwmdx3h": {
+    "id": "ruoV7XoHX4q3DlWmDX3h",
+    "slug": "what-is-the-number-of-moles-of-oxygen-in-64-g-of-oxygen-gas-ruov7xohx4q3dlwmdx3h",
+    "text": "What is the number of moles of oxygen in 6.4 g of oxygen gas?",
+    "options": {
+      "A": "0.1",
+      "B": "0.2",
+      "C": "0.4",
+      "D": "0.5"
+    },
+    "correctAnswer": 0,
+    "explanation": "Moles of oxygen = mass/molar mass = 6.4/32 = 0.2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/neet/q/practice-challenge-analyzing-the-core-fundamentals-of-redox-slt5ekufnc2qqhdwdm9j": {
@@ -22207,6 +23023,22 @@
     "topic": "Anatomy of Flowering Plants",
     "sourceYear": ""
   },
+  "/neet/q/a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rolling-on-a-tuxowu1bvbuk9f8qzizf": {
+    "id": "tuXOwU1bVbuk9f8QzizF",
+    "slug": "a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rolling-on-a-tuxowu1bvbuk9f8qzizf",
+    "text": "A solid sphere of mass 2 kg and radius 0.1 m is rolling on a horizontal surface with a velocity of 2 m/s. If it encounters a step of height 0.05 m, what is the minimum velocity required at the bottom of the step to just climb it? (g = 10 m/s^2)",
+    "options": {
+      "A": "1.5 m/s",
+      "B": "2 m/s",
+      "C": "2.5 m/s",
+      "D": "3 m/s"
+    },
+    "correctAnswer": 0,
+    "explanation": "Conservation of energy, considering rotational KE.",
+    "subject": "Physics",
+    "topic": "Moment of Inertia",
+    "sourceYear": ""
+  },
   "/neet/q/practice-question-which-of-the-following-best-describes-the-ul5s0vtmvpwrjrjzbsfl": {
     "id": "uL5S0vtmVPwRJRjZBSfl",
     "slug": "practice-question-which-of-the-following-best-describes-the-ul5s0vtmvpwrjrjzbsfl",
@@ -22413,6 +23245,22 @@
     "explanation": "Torque = Force * Radius = 10 N * 0.1 m = 1 Nm, but since it's a solid cylinder, the correct answer involves the force and radius, making it 2 Nm due to the distribution of force.",
     "subject": "Physics",
     "topic": "Torque and Angular Momentum",
+    "sourceYear": ""
+  },
+  "/neet/q/a-sample-of-na2co3-weighed-106-g-how-many-moles-of-na-ion-vmkif83tnwbjwacf7xqy": {
+    "id": "vMKIF83tnWbJWACF7xQy",
+    "slug": "a-sample-of-na2co3-weighed-106-g-how-many-moles-of-na-ion-vmkif83tnwbjwacf7xqy",
+    "text": "A sample of Na2CO3 weighed 10.6 g. How many moles of Na+ ions are present in the sample? (Molar mass of Na2CO3 = 106 g/mol)",
+    "options": {
+      "A": "0.1 mol",
+      "B": "0.2 mol",
+      "C": "0.5 mol",
+      "D": "1.0 mol"
+    },
+    "correctAnswer": 0,
+    "explanation": "1 mole of Na2CO3 contains 2 moles of Na+ ions. Moles of Na2CO3 = 10.6/106 = 0.1, so moles of Na+ = 2*0.1 = 0.2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/neet/q/practice-question-which-of-the-following-best-describes-the-voqdja6d5r04alj25rdu": {
@@ -22831,6 +23679,22 @@
     "topic": "Aldehydes, Ketones and Carboxylic Acids",
     "sourceYear": ""
   },
+  "/neet/q/the-number-of-moles-of-kmno4-required-to-react-with-5-moles-zoeuihm2af2cwqpghxbo": {
+    "id": "zOeUIhm2aF2CwqPgHxbo",
+    "slug": "the-number-of-moles-of-kmno4-required-to-react-with-5-moles-zoeuihm2af2cwqpghxbo",
+    "text": "The number of moles of KMnO4 required to react with 5 moles of K2C2O4 in acidic medium is",
+    "options": {
+      "A": "2.5",
+      "B": "5",
+      "C": "3.75",
+      "D": "2"
+    },
+    "correctAnswer": 0,
+    "explanation": "5 moles of K2C2O4 require 5 moles of KMnO4 in acidic medium.",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/neet/q/the-half-life-period-of-a-certain-first-order-reaction-is-10-zql9pibeic8qk5sr2bwg": {
     "id": "zQL9PiBeIC8Qk5sr2BWG",
     "slug": "the-half-life-period-of-a-certain-first-order-reaction-is-10-zql9pibeic8qk5sr2bwg",
@@ -23197,6 +24061,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Probability (Intro).",
     "subject": "Mathematics",
     "topic": "Probability (Intro)",
+    "sourceYear": ""
+  },
+  "/bitsat/q/the-number-of-moles-of-kmno4-required-to-react-with-5-moles-27zaiimh9gobyendob0l": {
+    "id": "27zaiIMH9GObyEndOb0L",
+    "slug": "the-number-of-moles-of-kmno4-required-to-react-with-5-moles-27zaiimh9gobyendob0l",
+    "text": "The number of moles of KMnO4 required to react with 5 moles of K2C2O4 in an acidic medium is",
+    "options": {
+      "A": "2.5",
+      "B": "5",
+      "C": "3.75",
+      "D": "7.5"
+    },
+    "correctAnswer": 0,
+    "explanation": "KMnO4 + 5C2O4^2- + 16H+ → 5CO2 + 2Mn^2+ + 8H2O",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/bitsat/q/practice-question-which-of-the-following-best-describes-the-29qy63ckeirtcwu1nbik": {
@@ -24143,6 +25023,22 @@
     "topic": "Aldehydes, Ketones and Carboxylic Acids",
     "sourceYear": ""
   },
+  "/bitsat/q/the-number-of-moles-of-kmno4-required-to-oxidize-one-mole-of-8olwk298oqqxe2rzhdap": {
+    "id": "8OlwK298oqqxe2rzhDaP",
+    "slug": "the-number-of-moles-of-kmno4-required-to-oxidize-one-mole-of-8olwk298oqqxe2rzhdap",
+    "text": "The number of moles of KMnO4 required to oxidize one mole of Fe(C2O4)3 in acidic medium is",
+    "options": {
+      "A": "3/2",
+      "B": "7/2",
+      "C": "3",
+      "D": "7"
+    },
+    "correctAnswer": 0,
+    "explanation": "Fe(C2O4)3 + 7/2 KMnO4 → Fe2O3 + 7Mn2+ + 12CO2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/bitsat/q/practice-challenge-analyzing-the-core-fundamentals-of-quadr-8rdaze83ddvlldip7yyg": {
     "id": "8RDAZE83DdvLLDip7YYG",
     "slug": "practice-challenge-analyzing-the-core-fundamentals-of-quadr-8rdaze83ddvlldip7yyg",
@@ -24301,6 +25197,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Linear Inequalities.",
     "subject": "Mathematics",
     "topic": "Linear Inequalities",
+    "sourceYear": ""
+  },
+  "/bitsat/q/the-number-of-moles-of-kmno4-required-to-react-with-5-moles-9mjmvb6fsjmu0lpzfmww": {
+    "id": "9mjmVb6fSJMu0lpZFmWW",
+    "slug": "the-number-of-moles-of-kmno4-required-to-react-with-5-moles-9mjmvb6fsjmu0lpzfmww",
+    "text": "The number of moles of KMnO4 required to react with 5 moles of K2C2O4 in acidic medium is",
+    "options": {
+      "A": "2.5",
+      "B": "5",
+      "C": "3.75",
+      "D": "6.25"
+    },
+    "correctAnswer": 0,
+    "explanation": "Reaction: 2KMnO4 + 5K2C2O4 → 2MnSO4 + 10CO2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/bitsat/q/practice-challenge-analyzing-the-core-fundamentals-of-proba-9r13ka2slkf5ftdm14w2": {
@@ -25023,6 +25935,22 @@
     "topic": "Wave Optics",
     "sourceYear": ""
   },
+  "/bitsat/q/the-number-of-moles-of-kmno4-required-to-react-with-5-moles-fjoyxqo5ccrlmyywlzwj": {
+    "id": "FJOyXQo5ccRlmYyWlZwJ",
+    "slug": "the-number-of-moles-of-kmno4-required-to-react-with-5-moles-fjoyxqo5ccrlmyywlzwj",
+    "text": "The number of moles of KMnO4 required to react with 5 moles of K2C2O4 in acidic medium is",
+    "options": {
+      "A": "2.5",
+      "B": "5",
+      "C": "3.75",
+      "D": "7.5"
+    },
+    "correctAnswer": 0,
+    "explanation": "5MnO4- + 2C2O42- + 16H+ → 5Mn2+ + 10CO2 + 8H2O",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/bitsat/q/practice-question-which-of-the-following-best-describes-the-fltspcpknfns2gwsaema": {
     "id": "FLtSPcpkNFnS2GwsAeMA",
     "slug": "practice-question-which-of-the-following-best-describes-the-fltspcpknfns2gwsaema",
@@ -25069,6 +25997,22 @@
     "explanation": "Foundational check for Decimals in Class 6. Study the core principles carefully for competitive exams.",
     "subject": "Mathematics",
     "topic": "Decimals",
+    "sourceYear": ""
+  },
+  "/bitsat/q/what-is-the-volume-of-1-mole-of-a-gas-at-stp-flch5qbxskf6mvldgp3x": {
+    "id": "FlCh5QBXSKF6MVLdGp3x",
+    "slug": "what-is-the-volume-of-1-mole-of-a-gas-at-stp-flch5qbxskf6mvldgp3x",
+    "text": "What is the volume of 1 mole of a gas at STP?",
+    "options": {
+      "A": "11.2 L",
+      "B": "22.4 L",
+      "C": "33.6 L",
+      "D": "44.8 L"
+    },
+    "correctAnswer": 0,
+    "explanation": "At STP, 1 mole of gas occupies 22.4 L",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/bitsat/q/practice-question-which-of-the-following-best-describes-the-ftxktc2mqxmzdnc8vrm8": {
@@ -25167,6 +26111,22 @@
     "topic": "Perimeter and Area",
     "sourceYear": ""
   },
+  "/bitsat/q/a-sample-of-oxygen-gas-has-a-volume-of-500-ml-at-273-k-and-1-glnosbpxzp7hdlj5b5jc": {
+    "id": "GLNOsBpxzP7HDLj5B5Jc",
+    "slug": "a-sample-of-oxygen-gas-has-a-volume-of-500-ml-at-273-k-and-1-glnosbpxzp7hdlj5b5jc",
+    "text": "A sample of oxygen gas has a volume of 500 mL at 273 K and 1 atm. If the temperature is raised to 373 K while keeping the pressure constant, the volume of the gas becomes",
+    "options": {
+      "A": "568.2 mL",
+      "B": "586.2 mL",
+      "C": "600 mL",
+      "D": "625 mL"
+    },
+    "correctAnswer": 0,
+    "explanation": "Using Charles' law, V1/T1 = V2/T2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/bitsat/q/practice-question-which-of-the-following-best-describes-the-gp0xtrj74cncmmoawrp8": {
     "id": "GP0xtRj74cNcmMoAWrP8",
     "slug": "practice-question-which-of-the-following-best-describes-the-gp0xtrj74cncmmoawrp8",
@@ -25197,6 +26157,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Polynomials.",
     "subject": "Mathematics",
     "topic": "Polynomials",
+    "sourceYear": ""
+  },
+  "/bitsat/q/what-is-the-number-of-moles-of-oxygen-in-64-g-of-cu2o-if-t-gohh1rnfgiety9v1mwxz": {
+    "id": "GoHh1RnFgietY9V1MwXZ",
+    "slug": "what-is-the-number-of-moles-of-oxygen-in-64-g-of-cu2o-if-t-gohh1rnfgiety9v1mwxz",
+    "text": "What is the number of moles of oxygen in 6.4 g of Cu2O, if the oxidation number of copper is +1?",
+    "options": {
+      "A": "0.02",
+      "B": "0.04",
+      "C": "0.01",
+      "D": "0.03"
+    },
+    "correctAnswer": 0,
+    "explanation": "Moles of Cu2O = 6.4/143 = 0.04, O atoms per molecule = 1, Moles of O = 0.04",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/bitsat/q/practice-question-which-of-the-following-best-describes-the-hpywkdcdd9hromjk3yan": {
@@ -25325,6 +26301,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Electrochemistry.",
     "subject": "Chemistry",
     "topic": "Electrochemistry",
+    "sourceYear": ""
+  },
+  "/bitsat/q/a-sample-of-noble-gas-weighs-48-g-and-has-a-volume-of-224-ipwbr11ditcnyabuid0h": {
+    "id": "IpWBR11ditcnYABUid0H",
+    "slug": "a-sample-of-noble-gas-weighs-48-g-and-has-a-volume-of-224-ipwbr11ditcnyabuid0h",
+    "text": "A sample of noble gas weighs 4.8 g and has a volume of 2.24 L at STP. Which of the following statements is true about this sample?",
+    "options": {
+      "A": "The sample contains 0.2 mol of gas molecules",
+      "B": "The sample contains 0.1 mol of gas molecules",
+      "C": "The molar mass of the gas is 48 g/mol",
+      "D": "The molar mass of the gas is 24 g/mol"
+    },
+    "correctAnswer": 0,
+    "explanation": "Using PV = nRT, at STP, 1 mole of gas occupies 22.4 L. Given volume is 2.24 L, so n = 0.2 mol",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/bitsat/q/practice-question-which-of-the-following-best-describes-the-ixzg0ypjq7ewj3odechk": {
@@ -25597,6 +26589,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Differential Equations.",
     "subject": "Mathematics",
     "topic": "Differential Equations",
+    "sourceYear": ""
+  },
+  "/bitsat/q/the-number-of-moles-of-kmno4-required-to-oxidise-one-mole-of-kow9exauamq9zm4smbht": {
+    "id": "KoW9exAuamQ9ZM4SMbhT",
+    "slug": "the-number-of-moles-of-kmno4-required-to-oxidise-one-mole-of-kow9exauamq9zm4smbht",
+    "text": "The number of moles of KMnO4 required to oxidise one mole of ferrous oxalate (FeC2O4) in acidic medium is",
+    "options": {
+      "A": "2/5",
+      "B": "3/5",
+      "C": "3/2",
+      "D": "5/2"
+    },
+    "correctAnswer": 0,
+    "explanation": "5FeC2O4 + 2KMnO4 + 24H2SO4 → 5Fe2(SO4)3 + 2MnSO4 + 10CO2 + 24H2O",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/bitsat/q/a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rotating-wit-ksakkrfcgagzeoyxtypn": {
@@ -27135,6 +28143,22 @@
     "topic": "Dual Nature of Radiation",
     "sourceYear": ""
   },
+  "/bitsat/q/a-solid-sphere-of-radius-05-m-and-mass-2-kg-is-rolling-on-a-u11p1snehyvqbecjsagk": {
+    "id": "U11P1sNehyVQbeCjSAGk",
+    "slug": "a-solid-sphere-of-radius-05-m-and-mass-2-kg-is-rolling-on-a-u11p1snehyvqbecjsagk",
+    "text": "A solid sphere of radius 0.5 m and mass 2 kg is rolling on a horizontal surface with a velocity of 2 m/s. What is the kinetic energy of the sphere?",
+    "options": {
+      "A": "1.33 J",
+      "B": "2.67 J",
+      "C": "3.0 J",
+      "D": "4.0 J"
+    },
+    "correctAnswer": 0,
+    "explanation": "Kinetic energy = (1/2)mv^2 + (1/2)Iω^2, where I = (2/5)mr^2",
+    "subject": "Physics",
+    "topic": "Moment of Inertia",
+    "sourceYear": ""
+  },
   "/bitsat/q/practice-challenge-analyzing-the-core-fundamentals-of-d-and-ugad8novx6s17rnh6j37": {
     "id": "UGad8NovX6s17rNH6j37",
     "slug": "practice-challenge-analyzing-the-core-fundamentals-of-d-and-ugad8novx6s17rnh6j37",
@@ -27325,6 +28349,22 @@
     "explanation": "Half-life is independent of initial concentration for first-order reactions.",
     "subject": "Chemistry",
     "topic": "Rate of Reaction",
+    "sourceYear": ""
+  },
+  "/bitsat/q/a-compound-is-formed-by-the-reaction-of-3-moles-of-a-metal--vtwtah1ujwsc2y8rowkm": {
+    "id": "VtwtAH1uJWSC2Y8rowKM",
+    "slug": "a-compound-is-formed-by-the-reaction-of-3-moles-of-a-metal--vtwtah1ujwsc2y8rowkm",
+    "text": "A compound is formed by the reaction of 3 moles of a metal (M) with 1 mole of a non-metal (X). If 12 moles of M react with 4 moles of X to form the same compound, what is the ratio of M to X in the compound?",
+    "options": {
+      "A": "3:1",
+      "B": "3:2",
+      "C": "3:4",
+      "D": "4:3"
+    },
+    "correctAnswer": 0,
+    "explanation": "The reaction ratio is 3:1, but the compound formed has a ratio of 3:2 (12:4 reduces to 3:1, but considering the smallest whole number ratio, it's 3:2 for the compound)",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/bitsat/q/practice-question-which-of-the-following-best-describes-the-w1u5xmd26ylojnhhx7dl": {
@@ -27645,6 +28685,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Arithmetic Progressions.",
     "subject": "Mathematics",
     "topic": "Arithmetic Progressions",
+    "sourceYear": ""
+  },
+  "/bitsat/q/a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rolling-on-a-xxmwxjgrxwne1myzfpel": {
+    "id": "XxMwxjGRXwne1myZfPEL",
+    "slug": "a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rolling-on-a-xxmwxjgrxwne1myzfpel",
+    "text": "A solid sphere of mass 2 kg and radius 0.1 m is rolling on a horizontal surface with a velocity of 2 m/s. If it rolls up a plane inclined at an angle of 30° to the horizontal, the velocity of the sphere at the top of the incline is",
+    "options": {
+      "A": "1.4 m/s",
+      "B": "1.7 m/s",
+      "C": "1.1 m/s",
+      "D": "1.0 m/s"
+    },
+    "correctAnswer": 0,
+    "explanation": "Using conservation of energy, KE + PE = constant",
+    "subject": "Physics",
+    "topic": "Moment of Inertia",
     "sourceYear": ""
   },
   "/bitsat/q/practice-challenge-analyzing-the-core-fundamentals-of-stati-y9i2lrobe3mfaf6vq853": {
@@ -29663,6 +30719,22 @@
     "topic": "Straight Lines",
     "sourceYear": ""
   },
+  "/bitsat/q/what-is-the-number-of-moles-of-oxygen-in-64-g-of-ko2-ksxtyz5hyffcfqhvwjdm": {
+    "id": "ksXtyZ5HyFFCfQhVWjDM",
+    "slug": "what-is-the-number-of-moles-of-oxygen-in-64-g-of-ko2-ksxtyz5hyffcfqhvwjdm",
+    "text": "What is the number of moles of oxygen in 6.4 g of KO2?",
+    "options": {
+      "A": "0.1",
+      "B": "0.2",
+      "C": "0.4",
+      "D": "0.05"
+    },
+    "correctAnswer": 0,
+    "explanation": "Molar mass of KO2 is 71 g/mol. Moles of KO2 = 6.4/71 = 0.09, Moles of O2 = 0.09 * 2/2 = 0.09 * 1 = 0.09 * 2 = 0.18, considering O2 from 2KO2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/bitsat/q/practice-question-which-of-the-following-best-describes-the-kxhumlrsbfwj8igsypse": {
     "id": "kxhUmlrsbfwj8IgSYPse",
     "slug": "practice-question-which-of-the-following-best-describes-the-kxhumlrsbfwj8igsypse",
@@ -30415,6 +31487,22 @@
     "topic": "Trigonometry",
     "sourceYear": ""
   },
+  "/bitsat/q/the-number-of-moles-of-kmno4-that-will-react-with-1-mole-of-pklzlbf5l5uc1jug7ls8": {
+    "id": "pKlZLbf5l5uc1JUg7lS8",
+    "slug": "the-number-of-moles-of-kmno4-that-will-react-with-1-mole-of-pklzlbf5l5uc1jug7ls8",
+    "text": "The number of moles of KMnO4 that will react with 1 mole of K2C2O4 in acidic medium is",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "3",
+      "D": "5"
+    },
+    "correctAnswer": 0,
+    "explanation": "5K2C2O4 + 2KMnO4 + 3H2SO4 → K2SO4 + 2MnSO4 + 10CO2 + 8H2O",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/bitsat/q/a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rotating-abo-pquspnthvwm5kytam9rn": {
     "id": "pQUSPNTHVwm5KytAM9rN",
     "slug": "a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rotating-abo-pquspnthvwm5kytam9rn",
@@ -30765,6 +31853,22 @@
     "explanation": "Torque due to friction causes angular acceleration, and linear acceleration is due to friction.",
     "subject": "Physics",
     "topic": "Moment of Inertia",
+    "sourceYear": ""
+  },
+  "/bitsat/q/what-is-the-number-of-moles-of-oxygen-in-64-g-of-oxygen-gas-ruov7xohx4q3dlwmdx3h": {
+    "id": "ruoV7XoHX4q3DlWmDX3h",
+    "slug": "what-is-the-number-of-moles-of-oxygen-in-64-g-of-oxygen-gas-ruov7xohx4q3dlwmdx3h",
+    "text": "What is the number of moles of oxygen in 6.4 g of oxygen gas?",
+    "options": {
+      "A": "0.1",
+      "B": "0.2",
+      "C": "0.4",
+      "D": "0.5"
+    },
+    "correctAnswer": 0,
+    "explanation": "Moles of oxygen = mass/molar mass = 6.4/32 = 0.2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/bitsat/q/practice-challenge-analyzing-the-core-fundamentals-of-redox-slt5ekufnc2qqhdwdm9j": {
@@ -31119,6 +32223,22 @@
     "topic": "Thermal Properties of Matter",
     "sourceYear": ""
   },
+  "/bitsat/q/a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rolling-on-a-tuxowu1bvbuk9f8qzizf": {
+    "id": "tuXOwU1bVbuk9f8QzizF",
+    "slug": "a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rolling-on-a-tuxowu1bvbuk9f8qzizf",
+    "text": "A solid sphere of mass 2 kg and radius 0.1 m is rolling on a horizontal surface with a velocity of 2 m/s. If it encounters a step of height 0.05 m, what is the minimum velocity required at the bottom of the step to just climb it? (g = 10 m/s^2)",
+    "options": {
+      "A": "1.5 m/s",
+      "B": "2 m/s",
+      "C": "2.5 m/s",
+      "D": "3 m/s"
+    },
+    "correctAnswer": 0,
+    "explanation": "Conservation of energy, considering rotational KE.",
+    "subject": "Physics",
+    "topic": "Moment of Inertia",
+    "sourceYear": ""
+  },
   "/bitsat/q/practice-question-which-of-the-following-best-describes-the-ul5s0vtmvpwrjrjzbsfl": {
     "id": "uL5S0vtmVPwRJRjZBSfl",
     "slug": "practice-question-which-of-the-following-best-describes-the-ul5s0vtmvpwrjrjzbsfl",
@@ -31357,6 +32477,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of 3D Geometry (Intro).",
     "subject": "Mathematics",
     "topic": "3D Geometry (Intro)",
+    "sourceYear": ""
+  },
+  "/bitsat/q/a-sample-of-na2co3-weighed-106-g-how-many-moles-of-na-ion-vmkif83tnwbjwacf7xqy": {
+    "id": "vMKIF83tnWbJWACF7xQy",
+    "slug": "a-sample-of-na2co3-weighed-106-g-how-many-moles-of-na-ion-vmkif83tnwbjwacf7xqy",
+    "text": "A sample of Na2CO3 weighed 10.6 g. How many moles of Na+ ions are present in the sample? (Molar mass of Na2CO3 = 106 g/mol)",
+    "options": {
+      "A": "0.1 mol",
+      "B": "0.2 mol",
+      "C": "0.5 mol",
+      "D": "1.0 mol"
+    },
+    "correctAnswer": 0,
+    "explanation": "1 mole of Na2CO3 contains 2 moles of Na+ ions. Moles of Na2CO3 = 10.6/106 = 0.1, so moles of Na+ = 2*0.1 = 0.2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/bitsat/q/a-solid-cylinder-of-mass-2-kg-and-radius-01-m-is-set-into-r-vyyphtypp1fqheki21xy": {
@@ -31869,6 +33005,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Aldehydes, Ketones and Carboxylic Acids.",
     "subject": "Chemistry",
     "topic": "Aldehydes, Ketones and Carboxylic Acids",
+    "sourceYear": ""
+  },
+  "/bitsat/q/the-number-of-moles-of-kmno4-required-to-react-with-5-moles-zoeuihm2af2cwqpghxbo": {
+    "id": "zOeUIhm2aF2CwqPgHxbo",
+    "slug": "the-number-of-moles-of-kmno4-required-to-react-with-5-moles-zoeuihm2af2cwqpghxbo",
+    "text": "The number of moles of KMnO4 required to react with 5 moles of K2C2O4 in acidic medium is",
+    "options": {
+      "A": "2.5",
+      "B": "5",
+      "C": "3.75",
+      "D": "2"
+    },
+    "correctAnswer": 0,
+    "explanation": "5 moles of K2C2O4 require 5 moles of KMnO4 in acidic medium.",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/bitsat/q/the-half-life-period-of-a-certain-first-order-reaction-is-10-zql9pibeic8qk5sr2bwg": {
@@ -36815,6 +37967,22 @@
     "topic": "Probability (Intro)",
     "sourceYear": ""
   },
+  "/class-12/q/the-number-of-moles-of-kmno4-required-to-react-with-5-moles-27zaiimh9gobyendob0l": {
+    "id": "27zaiIMH9GObyEndOb0L",
+    "slug": "the-number-of-moles-of-kmno4-required-to-react-with-5-moles-27zaiimh9gobyendob0l",
+    "text": "The number of moles of KMnO4 required to react with 5 moles of K2C2O4 in an acidic medium is",
+    "options": {
+      "A": "2.5",
+      "B": "5",
+      "C": "3.75",
+      "D": "7.5"
+    },
+    "correctAnswer": 0,
+    "explanation": "KMnO4 + 5C2O4^2- + 16H+ → 5CO2 + 2Mn^2+ + 8H2O",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/class-12/q/practice-question-which-of-the-following-best-describes-the-29qy63ckeirtcwu1nbik": {
     "id": "29QY63CKeIRTcwU1nBIk",
     "slug": "practice-question-which-of-the-following-best-describes-the-29qy63ckeirtcwu1nbik",
@@ -38159,6 +39327,22 @@
     "topic": "A Gift of Chappals",
     "sourceYear": ""
   },
+  "/class-12/q/the-number-of-moles-of-kmno4-required-to-oxidize-one-mole-of-8olwk298oqqxe2rzhdap": {
+    "id": "8OlwK298oqqxe2rzhDaP",
+    "slug": "the-number-of-moles-of-kmno4-required-to-oxidize-one-mole-of-8olwk298oqqxe2rzhdap",
+    "text": "The number of moles of KMnO4 required to oxidize one mole of Fe(C2O4)3 in acidic medium is",
+    "options": {
+      "A": "3/2",
+      "B": "7/2",
+      "C": "3",
+      "D": "7"
+    },
+    "correctAnswer": 0,
+    "explanation": "Fe(C2O4)3 + 7/2 KMnO4 → Fe2O3 + 7Mn2+ + 12CO2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/class-12/q/practice-challenge-analyzing-the-core-fundamentals-of-quadr-8rdaze83ddvlldip7yyg": {
     "id": "8RDAZE83DdvLLDip7YYG",
     "slug": "practice-challenge-analyzing-the-core-fundamentals-of-quadr-8rdaze83ddvlldip7yyg",
@@ -38365,6 +39549,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Linear Inequalities.",
     "subject": "Mathematics",
     "topic": "Linear Inequalities",
+    "sourceYear": ""
+  },
+  "/class-12/q/the-number-of-moles-of-kmno4-required-to-react-with-5-moles-9mjmvb6fsjmu0lpzfmww": {
+    "id": "9mjmVb6fSJMu0lpZFmWW",
+    "slug": "the-number-of-moles-of-kmno4-required-to-react-with-5-moles-9mjmvb6fsjmu0lpzfmww",
+    "text": "The number of moles of KMnO4 required to react with 5 moles of K2C2O4 in acidic medium is",
+    "options": {
+      "A": "2.5",
+      "B": "5",
+      "C": "3.75",
+      "D": "6.25"
+    },
+    "correctAnswer": 0,
+    "explanation": "Reaction: 2KMnO4 + 5K2C2O4 → 2MnSO4 + 10CO2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/class-12/q/practice-challenge-analyzing-the-core-fundamentals-of-proba-9r13ka2slkf5ftdm14w2": {
@@ -39359,6 +40559,22 @@
     "topic": "Wave Optics",
     "sourceYear": ""
   },
+  "/class-12/q/the-number-of-moles-of-kmno4-required-to-react-with-5-moles-fjoyxqo5ccrlmyywlzwj": {
+    "id": "FJOyXQo5ccRlmYyWlZwJ",
+    "slug": "the-number-of-moles-of-kmno4-required-to-react-with-5-moles-fjoyxqo5ccrlmyywlzwj",
+    "text": "The number of moles of KMnO4 required to react with 5 moles of K2C2O4 in acidic medium is",
+    "options": {
+      "A": "2.5",
+      "B": "5",
+      "C": "3.75",
+      "D": "7.5"
+    },
+    "correctAnswer": 0,
+    "explanation": "5MnO4- + 2C2O42- + 16H+ → 5Mn2+ + 10CO2 + 8H2O",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/class-12/q/practice-question-which-of-the-following-best-describes-the-fltspcpknfns2gwsaema": {
     "id": "FLtSPcpkNFnS2GwsAeMA",
     "slug": "practice-question-which-of-the-following-best-describes-the-fltspcpknfns2gwsaema",
@@ -39437,6 +40653,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Active and Passive Voice (Intro).",
     "subject": "English",
     "topic": "Active and Passive Voice (Intro)",
+    "sourceYear": ""
+  },
+  "/class-12/q/what-is-the-volume-of-1-mole-of-a-gas-at-stp-flch5qbxskf6mvldgp3x": {
+    "id": "FlCh5QBXSKF6MVLdGp3x",
+    "slug": "what-is-the-volume-of-1-mole-of-a-gas-at-stp-flch5qbxskf6mvldgp3x",
+    "text": "What is the volume of 1 mole of a gas at STP?",
+    "options": {
+      "A": "11.2 L",
+      "B": "22.4 L",
+      "C": "33.6 L",
+      "D": "44.8 L"
+    },
+    "correctAnswer": 0,
+    "explanation": "At STP, 1 mole of gas occupies 22.4 L",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/class-12/q/practice-challenge-analyzing-the-core-fundamentals-of-respi-foes29bsda6ztudss9yi": {
@@ -39567,6 +40799,22 @@
     "topic": "Perimeter and Area",
     "sourceYear": ""
   },
+  "/class-12/q/a-sample-of-oxygen-gas-has-a-volume-of-500-ml-at-273-k-and-1-glnosbpxzp7hdlj5b5jc": {
+    "id": "GLNOsBpxzP7HDLj5B5Jc",
+    "slug": "a-sample-of-oxygen-gas-has-a-volume-of-500-ml-at-273-k-and-1-glnosbpxzp7hdlj5b5jc",
+    "text": "A sample of oxygen gas has a volume of 500 mL at 273 K and 1 atm. If the temperature is raised to 373 K while keeping the pressure constant, the volume of the gas becomes",
+    "options": {
+      "A": "568.2 mL",
+      "B": "586.2 mL",
+      "C": "600 mL",
+      "D": "625 mL"
+    },
+    "correctAnswer": 0,
+    "explanation": "Using Charles' law, V1/T1 = V2/T2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/class-12/q/practice-question-which-of-the-following-best-describes-the-gp0xtrj74cncmmoawrp8": {
     "id": "GP0xtRj74cNcmMoAWrP8",
     "slug": "practice-question-which-of-the-following-best-describes-the-gp0xtrj74cncmmoawrp8",
@@ -39613,6 +40861,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Breathing and Exchange of Gases.",
     "subject": "Biology",
     "topic": "Breathing and Exchange of Gases",
+    "sourceYear": ""
+  },
+  "/class-12/q/what-is-the-number-of-moles-of-oxygen-in-64-g-of-cu2o-if-t-gohh1rnfgiety9v1mwxz": {
+    "id": "GoHh1RnFgietY9V1MwXZ",
+    "slug": "what-is-the-number-of-moles-of-oxygen-in-64-g-of-cu2o-if-t-gohh1rnfgiety9v1mwxz",
+    "text": "What is the number of moles of oxygen in 6.4 g of Cu2O, if the oxidation number of copper is +1?",
+    "options": {
+      "A": "0.02",
+      "B": "0.04",
+      "C": "0.01",
+      "D": "0.03"
+    },
+    "correctAnswer": 0,
+    "explanation": "Moles of Cu2O = 6.4/143 = 0.04, O atoms per molecule = 1, Moles of O = 0.04",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/class-12/q/practice-question-which-of-the-following-best-describes-the-gpj8peipqacajk0lbuky": {
@@ -39933,6 +41197,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of The Sound of Music.",
     "subject": "English",
     "topic": "The Sound of Music",
+    "sourceYear": ""
+  },
+  "/class-12/q/a-sample-of-noble-gas-weighs-48-g-and-has-a-volume-of-224-ipwbr11ditcnyabuid0h": {
+    "id": "IpWBR11ditcnYABUid0H",
+    "slug": "a-sample-of-noble-gas-weighs-48-g-and-has-a-volume-of-224-ipwbr11ditcnyabuid0h",
+    "text": "A sample of noble gas weighs 4.8 g and has a volume of 2.24 L at STP. Which of the following statements is true about this sample?",
+    "options": {
+      "A": "The sample contains 0.2 mol of gas molecules",
+      "B": "The sample contains 0.1 mol of gas molecules",
+      "C": "The molar mass of the gas is 48 g/mol",
+      "D": "The molar mass of the gas is 24 g/mol"
+    },
+    "correctAnswer": 0,
+    "explanation": "Using PV = nRT, at STP, 1 mole of gas occupies 22.4 L. Given volume is 2.24 L, so n = 0.2 mol",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/class-12/q/practice-question-which-of-the-following-best-describes-the-ixzg0ypjq7ewj3odechk": {
@@ -40269,6 +41549,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Cell: The Unit of Life.",
     "subject": "Biology",
     "topic": "Cell: The Unit of Life",
+    "sourceYear": ""
+  },
+  "/class-12/q/the-number-of-moles-of-kmno4-required-to-oxidise-one-mole-of-kow9exauamq9zm4smbht": {
+    "id": "KoW9exAuamQ9ZM4SMbhT",
+    "slug": "the-number-of-moles-of-kmno4-required-to-oxidise-one-mole-of-kow9exauamq9zm4smbht",
+    "text": "The number of moles of KMnO4 required to oxidise one mole of ferrous oxalate (FeC2O4) in acidic medium is",
+    "options": {
+      "A": "2/5",
+      "B": "3/5",
+      "C": "3/2",
+      "D": "5/2"
+    },
+    "correctAnswer": 0,
+    "explanation": "5FeC2O4 + 2KMnO4 + 24H2SO4 → 5Fe2(SO4)3 + 2MnSO4 + 10CO2 + 24H2O",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/class-12/q/a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rotating-wit-ksakkrfcgagzeoyxtypn": {
@@ -42351,6 +43647,22 @@
     "topic": "Dual Nature of Radiation",
     "sourceYear": ""
   },
+  "/class-12/q/a-solid-sphere-of-radius-05-m-and-mass-2-kg-is-rolling-on-a-u11p1snehyvqbecjsagk": {
+    "id": "U11P1sNehyVQbeCjSAGk",
+    "slug": "a-solid-sphere-of-radius-05-m-and-mass-2-kg-is-rolling-on-a-u11p1snehyvqbecjsagk",
+    "text": "A solid sphere of radius 0.5 m and mass 2 kg is rolling on a horizontal surface with a velocity of 2 m/s. What is the kinetic energy of the sphere?",
+    "options": {
+      "A": "1.33 J",
+      "B": "2.67 J",
+      "C": "3.0 J",
+      "D": "4.0 J"
+    },
+    "correctAnswer": 0,
+    "explanation": "Kinetic energy = (1/2)mv^2 + (1/2)Iω^2, where I = (2/5)mr^2",
+    "subject": "Physics",
+    "topic": "Moment of Inertia",
+    "sourceYear": ""
+  },
   "/class-12/q/practice-question-which-of-the-following-best-describes-the-ubkikdpp71ipuwyps58o": {
     "id": "UBKiKdpP71IPuwYPS58O",
     "slug": "practice-question-which-of-the-following-best-describes-the-ubkikdpp71ipuwyps58o",
@@ -42669,6 +43981,22 @@
     "explanation": "Half-life is independent of initial concentration for first-order reactions.",
     "subject": "Chemistry",
     "topic": "Rate of Reaction",
+    "sourceYear": ""
+  },
+  "/class-12/q/a-compound-is-formed-by-the-reaction-of-3-moles-of-a-metal--vtwtah1ujwsc2y8rowkm": {
+    "id": "VtwtAH1uJWSC2Y8rowKM",
+    "slug": "a-compound-is-formed-by-the-reaction-of-3-moles-of-a-metal--vtwtah1ujwsc2y8rowkm",
+    "text": "A compound is formed by the reaction of 3 moles of a metal (M) with 1 mole of a non-metal (X). If 12 moles of M react with 4 moles of X to form the same compound, what is the ratio of M to X in the compound?",
+    "options": {
+      "A": "3:1",
+      "B": "3:2",
+      "C": "3:4",
+      "D": "4:3"
+    },
+    "correctAnswer": 0,
+    "explanation": "The reaction ratio is 3:1, but the compound formed has a ratio of 3:2 (12:4 reduces to 3:1, but considering the smallest whole number ratio, it's 3:2 for the compound)",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/class-12/q/practice-question-which-of-the-following-best-describes-the-w1u5xmd26ylojnhhx7dl": {
@@ -43069,6 +44397,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Arithmetic Progressions.",
     "subject": "Mathematics",
     "topic": "Arithmetic Progressions",
+    "sourceYear": ""
+  },
+  "/class-12/q/a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rolling-on-a-xxmwxjgrxwne1myzfpel": {
+    "id": "XxMwxjGRXwne1myZfPEL",
+    "slug": "a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rolling-on-a-xxmwxjgrxwne1myzfpel",
+    "text": "A solid sphere of mass 2 kg and radius 0.1 m is rolling on a horizontal surface with a velocity of 2 m/s. If it rolls up a plane inclined at an angle of 30° to the horizontal, the velocity of the sphere at the top of the incline is",
+    "options": {
+      "A": "1.4 m/s",
+      "B": "1.7 m/s",
+      "C": "1.1 m/s",
+      "D": "1.0 m/s"
+    },
+    "correctAnswer": 0,
+    "explanation": "Using conservation of energy, KE + PE = constant",
+    "subject": "Physics",
+    "topic": "Moment of Inertia",
     "sourceYear": ""
   },
   "/class-12/q/practice-challenge-analyzing-the-core-fundamentals-of-stati-y9i2lrobe3mfaf6vq853": {
@@ -45855,6 +47199,22 @@
     "topic": "Straight Lines",
     "sourceYear": ""
   },
+  "/class-12/q/what-is-the-number-of-moles-of-oxygen-in-64-g-of-ko2-ksxtyz5hyffcfqhvwjdm": {
+    "id": "ksXtyZ5HyFFCfQhVWjDM",
+    "slug": "what-is-the-number-of-moles-of-oxygen-in-64-g-of-ko2-ksxtyz5hyffcfqhvwjdm",
+    "text": "What is the number of moles of oxygen in 6.4 g of KO2?",
+    "options": {
+      "A": "0.1",
+      "B": "0.2",
+      "C": "0.4",
+      "D": "0.05"
+    },
+    "correctAnswer": 0,
+    "explanation": "Molar mass of KO2 is 71 g/mol. Moles of KO2 = 6.4/71 = 0.09, Moles of O2 = 0.09 * 2/2 = 0.09 * 1 = 0.09 * 2 = 0.18, considering O2 from 2KO2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/class-12/q/practice-question-which-of-the-following-best-describes-the-kxhumlrsbfwj8igsypse": {
     "id": "kxhUmlrsbfwj8IgSYPse",
     "slug": "practice-question-which-of-the-following-best-describes-the-kxhumlrsbfwj8igsypse",
@@ -46799,6 +48159,22 @@
     "topic": "Trigonometry",
     "sourceYear": ""
   },
+  "/class-12/q/the-number-of-moles-of-kmno4-that-will-react-with-1-mole-of-pklzlbf5l5uc1jug7ls8": {
+    "id": "pKlZLbf5l5uc1JUg7lS8",
+    "slug": "the-number-of-moles-of-kmno4-that-will-react-with-1-mole-of-pklzlbf5l5uc1jug7ls8",
+    "text": "The number of moles of KMnO4 that will react with 1 mole of K2C2O4 in acidic medium is",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "3",
+      "D": "5"
+    },
+    "correctAnswer": 0,
+    "explanation": "5K2C2O4 + 2KMnO4 + 3H2SO4 → K2SO4 + 2MnSO4 + 10CO2 + 8H2O",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/class-12/q/a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rotating-abo-pquspnthvwm5kytam9rn": {
     "id": "pQUSPNTHVwm5KytAM9rN",
     "slug": "a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rotating-abo-pquspnthvwm5kytam9rn",
@@ -47213,6 +48589,22 @@
     "explanation": "Torque due to friction causes angular acceleration, and linear acceleration is due to friction.",
     "subject": "Physics",
     "topic": "Moment of Inertia",
+    "sourceYear": ""
+  },
+  "/class-12/q/what-is-the-number-of-moles-of-oxygen-in-64-g-of-oxygen-gas-ruov7xohx4q3dlwmdx3h": {
+    "id": "ruoV7XoHX4q3DlWmDX3h",
+    "slug": "what-is-the-number-of-moles-of-oxygen-in-64-g-of-oxygen-gas-ruov7xohx4q3dlwmdx3h",
+    "text": "What is the number of moles of oxygen in 6.4 g of oxygen gas?",
+    "options": {
+      "A": "0.1",
+      "B": "0.2",
+      "C": "0.4",
+      "D": "0.5"
+    },
+    "correctAnswer": 0,
+    "explanation": "Moles of oxygen = mass/molar mass = 6.4/32 = 0.2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/class-12/q/practice-question-which-of-the-following-best-describes-the-sbi2goxmk8me3f7q3xr1": {
@@ -47695,6 +49087,22 @@
     "topic": "Anatomy of Flowering Plants",
     "sourceYear": ""
   },
+  "/class-12/q/a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rolling-on-a-tuxowu1bvbuk9f8qzizf": {
+    "id": "tuXOwU1bVbuk9f8QzizF",
+    "slug": "a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rolling-on-a-tuxowu1bvbuk9f8qzizf",
+    "text": "A solid sphere of mass 2 kg and radius 0.1 m is rolling on a horizontal surface with a velocity of 2 m/s. If it encounters a step of height 0.05 m, what is the minimum velocity required at the bottom of the step to just climb it? (g = 10 m/s^2)",
+    "options": {
+      "A": "1.5 m/s",
+      "B": "2 m/s",
+      "C": "2.5 m/s",
+      "D": "3 m/s"
+    },
+    "correctAnswer": 0,
+    "explanation": "Conservation of energy, considering rotational KE.",
+    "subject": "Physics",
+    "topic": "Moment of Inertia",
+    "sourceYear": ""
+  },
   "/class-12/q/practice-question-which-of-the-following-best-describes-the-ufr2q0nuq2l3jap2h4xp": {
     "id": "uFr2Q0NuQ2l3Jap2h4Xp",
     "slug": "practice-question-which-of-the-following-best-describes-the-ufr2q0nuq2l3jap2h4xp",
@@ -48045,6 +49453,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of 3D Geometry (Intro).",
     "subject": "Mathematics",
     "topic": "3D Geometry (Intro)",
+    "sourceYear": ""
+  },
+  "/class-12/q/a-sample-of-na2co3-weighed-106-g-how-many-moles-of-na-ion-vmkif83tnwbjwacf7xqy": {
+    "id": "vMKIF83tnWbJWACF7xQy",
+    "slug": "a-sample-of-na2co3-weighed-106-g-how-many-moles-of-na-ion-vmkif83tnwbjwacf7xqy",
+    "text": "A sample of Na2CO3 weighed 10.6 g. How many moles of Na+ ions are present in the sample? (Molar mass of Na2CO3 = 106 g/mol)",
+    "options": {
+      "A": "0.1 mol",
+      "B": "0.2 mol",
+      "C": "0.5 mol",
+      "D": "1.0 mol"
+    },
+    "correctAnswer": 0,
+    "explanation": "1 mole of Na2CO3 contains 2 moles of Na+ ions. Moles of Na2CO3 = 10.6/106 = 0.1, so moles of Na+ = 2*0.1 = 0.2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/class-12/q/practice-question-which-of-the-following-best-describes-the-vo7q7vlk7ae7rrscfnkm": {
@@ -48879,6 +50303,22 @@
     "topic": "Data Structures: Linear",
     "sourceYear": ""
   },
+  "/class-12/q/the-number-of-moles-of-kmno4-required-to-react-with-5-moles-zoeuihm2af2cwqpghxbo": {
+    "id": "zOeUIhm2aF2CwqPgHxbo",
+    "slug": "the-number-of-moles-of-kmno4-required-to-react-with-5-moles-zoeuihm2af2cwqpghxbo",
+    "text": "The number of moles of KMnO4 required to react with 5 moles of K2C2O4 in acidic medium is",
+    "options": {
+      "A": "2.5",
+      "B": "5",
+      "C": "3.75",
+      "D": "2"
+    },
+    "correctAnswer": 0,
+    "explanation": "5 moles of K2C2O4 require 5 moles of KMnO4 in acidic medium.",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/class-12/q/the-half-life-period-of-a-certain-first-order-reaction-is-10-zql9pibeic8qk5sr2bwg": {
     "id": "zQL9PiBeIC8Qk5sr2BWG",
     "slug": "the-half-life-period-of-a-certain-first-order-reaction-is-10-zql9pibeic8qk5sr2bwg",
@@ -49453,6 +50893,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Probability (Intro).",
     "subject": "Mathematics",
     "topic": "Probability (Intro)",
+    "sourceYear": ""
+  },
+  "/class-11/q/the-number-of-moles-of-kmno4-required-to-react-with-5-moles-27zaiimh9gobyendob0l": {
+    "id": "27zaiIMH9GObyEndOb0L",
+    "slug": "the-number-of-moles-of-kmno4-required-to-react-with-5-moles-27zaiimh9gobyendob0l",
+    "text": "The number of moles of KMnO4 required to react with 5 moles of K2C2O4 in an acidic medium is",
+    "options": {
+      "A": "2.5",
+      "B": "5",
+      "C": "3.75",
+      "D": "7.5"
+    },
+    "correctAnswer": 0,
+    "explanation": "KMnO4 + 5C2O4^2- + 16H+ → 5CO2 + 2Mn^2+ + 8H2O",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/class-11/q/practice-question-which-of-the-following-best-describes-the-29qy63ckeirtcwu1nbik": {
@@ -50799,6 +52255,22 @@
     "topic": "A Gift of Chappals",
     "sourceYear": ""
   },
+  "/class-11/q/the-number-of-moles-of-kmno4-required-to-oxidize-one-mole-of-8olwk298oqqxe2rzhdap": {
+    "id": "8OlwK298oqqxe2rzhDaP",
+    "slug": "the-number-of-moles-of-kmno4-required-to-oxidize-one-mole-of-8olwk298oqqxe2rzhdap",
+    "text": "The number of moles of KMnO4 required to oxidize one mole of Fe(C2O4)3 in acidic medium is",
+    "options": {
+      "A": "3/2",
+      "B": "7/2",
+      "C": "3",
+      "D": "7"
+    },
+    "correctAnswer": 0,
+    "explanation": "Fe(C2O4)3 + 7/2 KMnO4 → Fe2O3 + 7Mn2+ + 12CO2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/class-11/q/practice-challenge-analyzing-the-core-fundamentals-of-quadr-8rdaze83ddvlldip7yyg": {
     "id": "8RDAZE83DdvLLDip7YYG",
     "slug": "practice-challenge-analyzing-the-core-fundamentals-of-quadr-8rdaze83ddvlldip7yyg",
@@ -51005,6 +52477,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Linear Inequalities.",
     "subject": "Mathematics",
     "topic": "Linear Inequalities",
+    "sourceYear": ""
+  },
+  "/class-11/q/the-number-of-moles-of-kmno4-required-to-react-with-5-moles-9mjmvb6fsjmu0lpzfmww": {
+    "id": "9mjmVb6fSJMu0lpZFmWW",
+    "slug": "the-number-of-moles-of-kmno4-required-to-react-with-5-moles-9mjmvb6fsjmu0lpzfmww",
+    "text": "The number of moles of KMnO4 required to react with 5 moles of K2C2O4 in acidic medium is",
+    "options": {
+      "A": "2.5",
+      "B": "5",
+      "C": "3.75",
+      "D": "6.25"
+    },
+    "correctAnswer": 0,
+    "explanation": "Reaction: 2KMnO4 + 5K2C2O4 → 2MnSO4 + 10CO2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/class-11/q/practice-challenge-analyzing-the-core-fundamentals-of-proba-9r13ka2slkf5ftdm14w2": {
@@ -51999,6 +53487,22 @@
     "topic": "Wave Optics",
     "sourceYear": ""
   },
+  "/class-11/q/the-number-of-moles-of-kmno4-required-to-react-with-5-moles-fjoyxqo5ccrlmyywlzwj": {
+    "id": "FJOyXQo5ccRlmYyWlZwJ",
+    "slug": "the-number-of-moles-of-kmno4-required-to-react-with-5-moles-fjoyxqo5ccrlmyywlzwj",
+    "text": "The number of moles of KMnO4 required to react with 5 moles of K2C2O4 in acidic medium is",
+    "options": {
+      "A": "2.5",
+      "B": "5",
+      "C": "3.75",
+      "D": "7.5"
+    },
+    "correctAnswer": 0,
+    "explanation": "5MnO4- + 2C2O42- + 16H+ → 5Mn2+ + 10CO2 + 8H2O",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/class-11/q/practice-question-which-of-the-following-best-describes-the-fltspcpknfns2gwsaema": {
     "id": "FLtSPcpkNFnS2GwsAeMA",
     "slug": "practice-question-which-of-the-following-best-describes-the-fltspcpknfns2gwsaema",
@@ -52077,6 +53581,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Active and Passive Voice (Intro).",
     "subject": "English",
     "topic": "Active and Passive Voice (Intro)",
+    "sourceYear": ""
+  },
+  "/class-11/q/what-is-the-volume-of-1-mole-of-a-gas-at-stp-flch5qbxskf6mvldgp3x": {
+    "id": "FlCh5QBXSKF6MVLdGp3x",
+    "slug": "what-is-the-volume-of-1-mole-of-a-gas-at-stp-flch5qbxskf6mvldgp3x",
+    "text": "What is the volume of 1 mole of a gas at STP?",
+    "options": {
+      "A": "11.2 L",
+      "B": "22.4 L",
+      "C": "33.6 L",
+      "D": "44.8 L"
+    },
+    "correctAnswer": 0,
+    "explanation": "At STP, 1 mole of gas occupies 22.4 L",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/class-11/q/practice-challenge-analyzing-the-core-fundamentals-of-respi-foes29bsda6ztudss9yi": {
@@ -52207,6 +53727,22 @@
     "topic": "Perimeter and Area",
     "sourceYear": ""
   },
+  "/class-11/q/a-sample-of-oxygen-gas-has-a-volume-of-500-ml-at-273-k-and-1-glnosbpxzp7hdlj5b5jc": {
+    "id": "GLNOsBpxzP7HDLj5B5Jc",
+    "slug": "a-sample-of-oxygen-gas-has-a-volume-of-500-ml-at-273-k-and-1-glnosbpxzp7hdlj5b5jc",
+    "text": "A sample of oxygen gas has a volume of 500 mL at 273 K and 1 atm. If the temperature is raised to 373 K while keeping the pressure constant, the volume of the gas becomes",
+    "options": {
+      "A": "568.2 mL",
+      "B": "586.2 mL",
+      "C": "600 mL",
+      "D": "625 mL"
+    },
+    "correctAnswer": 0,
+    "explanation": "Using Charles' law, V1/T1 = V2/T2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/class-11/q/practice-question-which-of-the-following-best-describes-the-gp0xtrj74cncmmoawrp8": {
     "id": "GP0xtRj74cNcmMoAWrP8",
     "slug": "practice-question-which-of-the-following-best-describes-the-gp0xtrj74cncmmoawrp8",
@@ -52253,6 +53789,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Breathing and Exchange of Gases.",
     "subject": "Biology",
     "topic": "Breathing and Exchange of Gases",
+    "sourceYear": ""
+  },
+  "/class-11/q/what-is-the-number-of-moles-of-oxygen-in-64-g-of-cu2o-if-t-gohh1rnfgiety9v1mwxz": {
+    "id": "GoHh1RnFgietY9V1MwXZ",
+    "slug": "what-is-the-number-of-moles-of-oxygen-in-64-g-of-cu2o-if-t-gohh1rnfgiety9v1mwxz",
+    "text": "What is the number of moles of oxygen in 6.4 g of Cu2O, if the oxidation number of copper is +1?",
+    "options": {
+      "A": "0.02",
+      "B": "0.04",
+      "C": "0.01",
+      "D": "0.03"
+    },
+    "correctAnswer": 0,
+    "explanation": "Moles of Cu2O = 6.4/143 = 0.04, O atoms per molecule = 1, Moles of O = 0.04",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/class-11/q/practice-question-which-of-the-following-best-describes-the-gpj8peipqacajk0lbuky": {
@@ -52573,6 +54125,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of The Sound of Music.",
     "subject": "English",
     "topic": "The Sound of Music",
+    "sourceYear": ""
+  },
+  "/class-11/q/a-sample-of-noble-gas-weighs-48-g-and-has-a-volume-of-224-ipwbr11ditcnyabuid0h": {
+    "id": "IpWBR11ditcnYABUid0H",
+    "slug": "a-sample-of-noble-gas-weighs-48-g-and-has-a-volume-of-224-ipwbr11ditcnyabuid0h",
+    "text": "A sample of noble gas weighs 4.8 g and has a volume of 2.24 L at STP. Which of the following statements is true about this sample?",
+    "options": {
+      "A": "The sample contains 0.2 mol of gas molecules",
+      "B": "The sample contains 0.1 mol of gas molecules",
+      "C": "The molar mass of the gas is 48 g/mol",
+      "D": "The molar mass of the gas is 24 g/mol"
+    },
+    "correctAnswer": 0,
+    "explanation": "Using PV = nRT, at STP, 1 mole of gas occupies 22.4 L. Given volume is 2.24 L, so n = 0.2 mol",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/class-11/q/practice-question-which-of-the-following-best-describes-the-ixzg0ypjq7ewj3odechk": {
@@ -52909,6 +54477,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Cell: The Unit of Life.",
     "subject": "Biology",
     "topic": "Cell: The Unit of Life",
+    "sourceYear": ""
+  },
+  "/class-11/q/the-number-of-moles-of-kmno4-required-to-oxidise-one-mole-of-kow9exauamq9zm4smbht": {
+    "id": "KoW9exAuamQ9ZM4SMbhT",
+    "slug": "the-number-of-moles-of-kmno4-required-to-oxidise-one-mole-of-kow9exauamq9zm4smbht",
+    "text": "The number of moles of KMnO4 required to oxidise one mole of ferrous oxalate (FeC2O4) in acidic medium is",
+    "options": {
+      "A": "2/5",
+      "B": "3/5",
+      "C": "3/2",
+      "D": "5/2"
+    },
+    "correctAnswer": 0,
+    "explanation": "5FeC2O4 + 2KMnO4 + 24H2SO4 → 5Fe2(SO4)3 + 2MnSO4 + 10CO2 + 24H2O",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/class-11/q/a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rotating-wit-ksakkrfcgagzeoyxtypn": {
@@ -54991,6 +56575,22 @@
     "topic": "Dual Nature of Radiation",
     "sourceYear": ""
   },
+  "/class-11/q/a-solid-sphere-of-radius-05-m-and-mass-2-kg-is-rolling-on-a-u11p1snehyvqbecjsagk": {
+    "id": "U11P1sNehyVQbeCjSAGk",
+    "slug": "a-solid-sphere-of-radius-05-m-and-mass-2-kg-is-rolling-on-a-u11p1snehyvqbecjsagk",
+    "text": "A solid sphere of radius 0.5 m and mass 2 kg is rolling on a horizontal surface with a velocity of 2 m/s. What is the kinetic energy of the sphere?",
+    "options": {
+      "A": "1.33 J",
+      "B": "2.67 J",
+      "C": "3.0 J",
+      "D": "4.0 J"
+    },
+    "correctAnswer": 0,
+    "explanation": "Kinetic energy = (1/2)mv^2 + (1/2)Iω^2, where I = (2/5)mr^2",
+    "subject": "Physics",
+    "topic": "Moment of Inertia",
+    "sourceYear": ""
+  },
   "/class-11/q/practice-question-which-of-the-following-best-describes-the-ubkikdpp71ipuwyps58o": {
     "id": "UBKiKdpP71IPuwYPS58O",
     "slug": "practice-question-which-of-the-following-best-describes-the-ubkikdpp71ipuwyps58o",
@@ -55309,6 +56909,22 @@
     "explanation": "Half-life is independent of initial concentration for first-order reactions.",
     "subject": "Chemistry",
     "topic": "Rate of Reaction",
+    "sourceYear": ""
+  },
+  "/class-11/q/a-compound-is-formed-by-the-reaction-of-3-moles-of-a-metal--vtwtah1ujwsc2y8rowkm": {
+    "id": "VtwtAH1uJWSC2Y8rowKM",
+    "slug": "a-compound-is-formed-by-the-reaction-of-3-moles-of-a-metal--vtwtah1ujwsc2y8rowkm",
+    "text": "A compound is formed by the reaction of 3 moles of a metal (M) with 1 mole of a non-metal (X). If 12 moles of M react with 4 moles of X to form the same compound, what is the ratio of M to X in the compound?",
+    "options": {
+      "A": "3:1",
+      "B": "3:2",
+      "C": "3:4",
+      "D": "4:3"
+    },
+    "correctAnswer": 0,
+    "explanation": "The reaction ratio is 3:1, but the compound formed has a ratio of 3:2 (12:4 reduces to 3:1, but considering the smallest whole number ratio, it's 3:2 for the compound)",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/class-11/q/practice-question-which-of-the-following-best-describes-the-w1u5xmd26ylojnhhx7dl": {
@@ -55709,6 +57325,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Arithmetic Progressions.",
     "subject": "Mathematics",
     "topic": "Arithmetic Progressions",
+    "sourceYear": ""
+  },
+  "/class-11/q/a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rolling-on-a-xxmwxjgrxwne1myzfpel": {
+    "id": "XxMwxjGRXwne1myZfPEL",
+    "slug": "a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rolling-on-a-xxmwxjgrxwne1myzfpel",
+    "text": "A solid sphere of mass 2 kg and radius 0.1 m is rolling on a horizontal surface with a velocity of 2 m/s. If it rolls up a plane inclined at an angle of 30° to the horizontal, the velocity of the sphere at the top of the incline is",
+    "options": {
+      "A": "1.4 m/s",
+      "B": "1.7 m/s",
+      "C": "1.1 m/s",
+      "D": "1.0 m/s"
+    },
+    "correctAnswer": 0,
+    "explanation": "Using conservation of energy, KE + PE = constant",
+    "subject": "Physics",
+    "topic": "Moment of Inertia",
     "sourceYear": ""
   },
   "/class-11/q/practice-challenge-analyzing-the-core-fundamentals-of-stati-y9i2lrobe3mfaf6vq853": {
@@ -58495,6 +60127,22 @@
     "topic": "Straight Lines",
     "sourceYear": ""
   },
+  "/class-11/q/what-is-the-number-of-moles-of-oxygen-in-64-g-of-ko2-ksxtyz5hyffcfqhvwjdm": {
+    "id": "ksXtyZ5HyFFCfQhVWjDM",
+    "slug": "what-is-the-number-of-moles-of-oxygen-in-64-g-of-ko2-ksxtyz5hyffcfqhvwjdm",
+    "text": "What is the number of moles of oxygen in 6.4 g of KO2?",
+    "options": {
+      "A": "0.1",
+      "B": "0.2",
+      "C": "0.4",
+      "D": "0.05"
+    },
+    "correctAnswer": 0,
+    "explanation": "Molar mass of KO2 is 71 g/mol. Moles of KO2 = 6.4/71 = 0.09, Moles of O2 = 0.09 * 2/2 = 0.09 * 1 = 0.09 * 2 = 0.18, considering O2 from 2KO2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/class-11/q/practice-question-which-of-the-following-best-describes-the-kxhumlrsbfwj8igsypse": {
     "id": "kxhUmlrsbfwj8IgSYPse",
     "slug": "practice-question-which-of-the-following-best-describes-the-kxhumlrsbfwj8igsypse",
@@ -59439,6 +61087,22 @@
     "topic": "Trigonometry",
     "sourceYear": ""
   },
+  "/class-11/q/the-number-of-moles-of-kmno4-that-will-react-with-1-mole-of-pklzlbf5l5uc1jug7ls8": {
+    "id": "pKlZLbf5l5uc1JUg7lS8",
+    "slug": "the-number-of-moles-of-kmno4-that-will-react-with-1-mole-of-pklzlbf5l5uc1jug7ls8",
+    "text": "The number of moles of KMnO4 that will react with 1 mole of K2C2O4 in acidic medium is",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "3",
+      "D": "5"
+    },
+    "correctAnswer": 0,
+    "explanation": "5K2C2O4 + 2KMnO4 + 3H2SO4 → K2SO4 + 2MnSO4 + 10CO2 + 8H2O",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "sourceYear": ""
+  },
   "/class-11/q/a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rotating-abo-pquspnthvwm5kytam9rn": {
     "id": "pQUSPNTHVwm5KytAM9rN",
     "slug": "a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rotating-abo-pquspnthvwm5kytam9rn",
@@ -59853,6 +61517,22 @@
     "explanation": "Torque due to friction causes angular acceleration, and linear acceleration is due to friction.",
     "subject": "Physics",
     "topic": "Moment of Inertia",
+    "sourceYear": ""
+  },
+  "/class-11/q/what-is-the-number-of-moles-of-oxygen-in-64-g-of-oxygen-gas-ruov7xohx4q3dlwmdx3h": {
+    "id": "ruoV7XoHX4q3DlWmDX3h",
+    "slug": "what-is-the-number-of-moles-of-oxygen-in-64-g-of-oxygen-gas-ruov7xohx4q3dlwmdx3h",
+    "text": "What is the number of moles of oxygen in 6.4 g of oxygen gas?",
+    "options": {
+      "A": "0.1",
+      "B": "0.2",
+      "C": "0.4",
+      "D": "0.5"
+    },
+    "correctAnswer": 0,
+    "explanation": "Moles of oxygen = mass/molar mass = 6.4/32 = 0.2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/class-11/q/practice-question-which-of-the-following-best-describes-the-sbi2goxmk8me3f7q3xr1": {
@@ -60335,6 +62015,22 @@
     "topic": "Anatomy of Flowering Plants",
     "sourceYear": ""
   },
+  "/class-11/q/a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rolling-on-a-tuxowu1bvbuk9f8qzizf": {
+    "id": "tuXOwU1bVbuk9f8QzizF",
+    "slug": "a-solid-sphere-of-mass-2-kg-and-radius-01-m-is-rolling-on-a-tuxowu1bvbuk9f8qzizf",
+    "text": "A solid sphere of mass 2 kg and radius 0.1 m is rolling on a horizontal surface with a velocity of 2 m/s. If it encounters a step of height 0.05 m, what is the minimum velocity required at the bottom of the step to just climb it? (g = 10 m/s^2)",
+    "options": {
+      "A": "1.5 m/s",
+      "B": "2 m/s",
+      "C": "2.5 m/s",
+      "D": "3 m/s"
+    },
+    "correctAnswer": 0,
+    "explanation": "Conservation of energy, considering rotational KE.",
+    "subject": "Physics",
+    "topic": "Moment of Inertia",
+    "sourceYear": ""
+  },
   "/class-11/q/practice-question-which-of-the-following-best-describes-the-ufr2q0nuq2l3jap2h4xp": {
     "id": "uFr2Q0NuQ2l3Jap2h4Xp",
     "slug": "practice-question-which-of-the-following-best-describes-the-ufr2q0nuq2l3jap2h4xp",
@@ -60685,6 +62381,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of 3D Geometry (Intro).",
     "subject": "Mathematics",
     "topic": "3D Geometry (Intro)",
+    "sourceYear": ""
+  },
+  "/class-11/q/a-sample-of-na2co3-weighed-106-g-how-many-moles-of-na-ion-vmkif83tnwbjwacf7xqy": {
+    "id": "vMKIF83tnWbJWACF7xQy",
+    "slug": "a-sample-of-na2co3-weighed-106-g-how-many-moles-of-na-ion-vmkif83tnwbjwacf7xqy",
+    "text": "A sample of Na2CO3 weighed 10.6 g. How many moles of Na+ ions are present in the sample? (Molar mass of Na2CO3 = 106 g/mol)",
+    "options": {
+      "A": "0.1 mol",
+      "B": "0.2 mol",
+      "C": "0.5 mol",
+      "D": "1.0 mol"
+    },
+    "correctAnswer": 0,
+    "explanation": "1 mole of Na2CO3 contains 2 moles of Na+ ions. Moles of Na2CO3 = 10.6/106 = 0.1, so moles of Na+ = 2*0.1 = 0.2",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/class-11/q/practice-question-which-of-the-following-best-describes-the-vo7q7vlk7ae7rrscfnkm": {
@@ -61517,6 +63229,22 @@
     "explanation": "This is a placeholder question to ensure comprehensive syllabus coverage. The correct answer highlights the fundamental nature of Data Structures: Linear.",
     "subject": "Computer Science",
     "topic": "Data Structures: Linear",
+    "sourceYear": ""
+  },
+  "/class-11/q/the-number-of-moles-of-kmno4-required-to-react-with-5-moles-zoeuihm2af2cwqpghxbo": {
+    "id": "zOeUIhm2aF2CwqPgHxbo",
+    "slug": "the-number-of-moles-of-kmno4-required-to-react-with-5-moles-zoeuihm2af2cwqpghxbo",
+    "text": "The number of moles of KMnO4 required to react with 5 moles of K2C2O4 in acidic medium is",
+    "options": {
+      "A": "2.5",
+      "B": "5",
+      "C": "3.75",
+      "D": "2"
+    },
+    "correctAnswer": 0,
+    "explanation": "5 moles of K2C2O4 require 5 moles of KMnO4 in acidic medium.",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
     "sourceYear": ""
   },
   "/class-11/q/the-half-life-period-of-a-certain-first-order-reaction-is-10-zql9pibeic8qk5sr2bwg": {

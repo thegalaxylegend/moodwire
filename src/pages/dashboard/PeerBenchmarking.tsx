@@ -151,14 +151,14 @@ export const PeerBenchmarking = () => {
                     <div className="animate-fade-in-up space-y-8">
                         {/* Podium (Top 3) */}
                         {
-                            leaderboard.length >= 3 && (
+                            leaderboard.length > 0 && (
                                 <div className="flex justify-center items-end gap-4 md:gap-8 pb-8 relative z-10">
                                     {/* 2nd Place */}
-                                    <PodiumUser entry={leaderboard[1]} place={2} delay={0.2} metric={metric} />
+                                    {leaderboard[1] && <PodiumUser entry={leaderboard[1]} place={2} delay={0.2} metric={metric} />}
                                     {/* 1st Place */}
-                                    <PodiumUser entry={leaderboard[0]} place={1} delay={0} metric={metric} />
+                                    {leaderboard[0] && <PodiumUser entry={leaderboard[0]} place={1} delay={0} metric={metric} />}
                                     {/* 3rd Place */}
-                                    <PodiumUser entry={leaderboard[2]} place={3} delay={0.4} metric={metric} />
+                                    {leaderboard[2] && <PodiumUser entry={leaderboard[2]} place={3} delay={0.4} metric={metric} />}
 
                                     {/* Background Glow */}
                                     <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] bg-primary/20 blur-[100px] rounded-full -z-10" />
@@ -189,7 +189,7 @@ export const PeerBenchmarking = () => {
                                             </div>
                                         </div>
                                         <div>
-                                            <h3 className="text-xl font-bold text-text-main">Global Standing</h3>
+                                            <h3 className="text-xl font-bold text-text-main">{user.name || 'Your Standing'}</h3>
                                             <div className="flex items-center gap-2 mt-1">
                                                 <span className="px-2 py-0.5 bg-primary/10 text-primary text-[10px] font-bold rounded border border-primary/20 uppercase tracking-tighter">
                                                     {userRank?.rankName || 'Competitor'}
@@ -222,7 +222,9 @@ export const PeerBenchmarking = () => {
                                     className="glass-card oxygen-card p-6 bg-gradient-to-br from-primary/20 to-surface border-primary/30 relative overflow-hidden"
                                 >
                                     <div className="absolute top-0 right-0 w-32 h-32 bg-primary/10 blur-[60px] -mr-16 -mt-16 rounded-full" />
-                                    <h3 className="text-sm font-bold text-primary uppercase tracking-widest mb-4">National Prediction</h3>
+                                    <h3 className="text-sm font-bold text-primary uppercase tracking-widest mb-4">
+                                        {examFilter === 'All' ? 'National Prediction' : `${examFilter} Standing`}
+                                    </h3>
                                     <div className="space-y-1">
                                         <p className="text-[10px] text-text-muted font-bold uppercase">Estimated All India Rank</p>
                                         <p className="text-4xl font-heading font-black text-text-main">
@@ -332,7 +334,15 @@ export const PeerBenchmarking = () => {
 const PodiumUser = ({ entry, place, delay, metric }: { entry: LeaderboardEntry, place: number, delay: number, metric: 'totalScore' | 'xp' }) => {
     const isFirst = place === 1;
     const height = isFirst ? 'h-48' : place === 2 ? 'h-32' : 'h-24';
-    const color = isFirst ? 'bg-yellow-500' : place === 2 ? 'bg-gray-300' : 'bg-orange-600';
+
+    // Explicit Tailwind classes for JIT
+    const styles: Record<number, { border: string, bg: string, text: string }> = {
+        1: { border: 'border-yellow-500', bg: 'bg-yellow-500/20', text: 'text-yellow-400' },
+        2: { border: 'border-gray-300', bg: 'bg-gray-300/20', text: 'text-gray-300' },
+        3: { border: 'border-orange-600', bg: 'bg-orange-600/20', text: 'text-orange-400' }
+    };
+
+    const style = styles[place] || styles[3];
     const score = metric === 'totalScore' ? entry.totalScore : entry.xp;
 
     return (
@@ -355,8 +365,8 @@ const PodiumUser = ({ entry, place, delay, metric }: { entry: LeaderboardEntry, 
                 {isFirst && <Crown size={24} className="absolute -top-6 left-1/2 -translate-x-1/2 text-yellow-400 drop-shadow-lg animate-bounce" />}
             </div>
 
-            <div className={`w-24 md:w-32 ${height} ${color}/20 border-t-4 border-${color} rounded-t-lg relative flex flex-col justify-end items-center pb-4 backdrop-blur-md`}>
-                <span className={`text-4xl font-bold ${isFirst ? 'text-yellow-400' : place === 2 ? 'text-gray-300' : 'text-orange-400'}`}>
+            <div className={`w-24 md:w-32 ${height} ${style.bg} border-t-4 ${style.border} rounded-t-lg relative flex flex-col justify-end items-center pb-4 backdrop-blur-md`}>
+                <span className={`text-4xl font-bold ${style.text}`}>
                     {place}
                 </span>
                 <span className="text-xs font-bold text-text-main mt-1 opacity-80">{(score || 0).toLocaleString()} {metric === 'totalScore' ? 'PTS' : 'XP'}</span>

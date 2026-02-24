@@ -1621,7 +1621,7 @@ const MockHistoryView = ({ user, onBack, onResume }: { user: any, onBack: () => 
                                 {attempt.status === 'paused' ? (
                                     <button
                                         onClick={() => onResume(attempt, 'resume')}
-                                        className="flex items-center gap-2 px-6 py-2.5 bg-primary text-white rounded-lg hover:bg-primary/90 font-bold text-sm w-full md:w-auto justify-center"
+                                        className="flex items-center gap-2 px-6 py-2.5 bg-primary hover:bg-primary/90 text-white rounded-lg font-bold text-sm w-full md:w-auto justify-center"
                                     >
                                         <PlayCircle size={16} /> Resume
                                     </button>

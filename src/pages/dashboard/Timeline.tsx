@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Calendar, Clock, RefreshCw, Loader2 } from 'lucide-react';
 import { useUserStore } from '../../store/userStore';
+import { auth } from '../../lib/firebase';
 import { askAI } from '../../lib/ai';
 import { extractJSON } from '../../lib/utils';
 // import { supabase } from '../../lib/supabase'; // REMOVED
@@ -17,12 +18,24 @@ export const Timeline = () => {
     const [events, setEvents] = useState<TimelineEvent[]>([]);
 
     useEffect(() => {
-        if (user?.targetExam) fetchTimeline();
-    }, [user?.targetExam, user?.targetYear]);
+        if (user?.targetExam && user?.id) fetchTimeline();
+    }, [user?.id, user?.targetExam, user?.targetYear]);
 
     const fetchTimeline = async () => {
         setLoading(true);
         try {
+            // Local Storage Fallback for Guests or Unauthenticated
+            if (!auth.currentUser) {
+                const localData = localStorage.getItem(`timeline_${user?.id}`);
+                if (localData) {
+                    setEvents(JSON.parse(localData));
+                    setLoading(false);
+                    return;
+                }
+                if (user?.id) generateTimeline();
+                return;
+            }
+
             const { db } = await import('../../lib/firebase');
             const { collection, query, where, getDocs, limit } = await import('firebase/firestore');
 
@@ -35,7 +48,14 @@ export const Timeline = () => {
                 generateTimeline();
             }
         } catch (e) {
-            console.error(e);
+            console.warn("Firestore timeline fetch failed (permissions?), retrying with local storage.", e);
+            const localData = localStorage.getItem(`timeline_${user?.id}`);
+            if (localData) {
+                setEvents(JSON.parse(localData));
+            } else {
+                console.log("No local storage found, triggering manual generation.");
+                generateTimeline();
+            }
         } finally {
             setLoading(false);
         }
@@ -49,6 +69,9 @@ export const Timeline = () => {
         const year = user.targetYear || new Date().getFullYear();
 
         const prompt = `
+            STRICT REQUIREMENT: YOUR RESPONSE MUST BE A VALID JSON ARRAY ONLY.
+            NO CONVERSATIONAL TEXT, NO PREAMBLE.
+
             Generate a realistic, consistent timeline for ${exam} for the academic year ${year}.
             Use ACTUAL known patterns or announced dates for India.
             Events to include: 
@@ -57,12 +80,12 @@ export const Timeline = () => {
             3. Exam Date (Phase 1)
             4. Result Declaration
             
-            Strict JSON array format:
+            JSON FORMAT:
             [
                 { "date": "Month Day, Year", "title": "Event Name", "status": "upcoming" | "future" | "highlight" }
             ]
             
-            Key Rule: Dates must be specific (e.g., "January 24, ${year}"), not "January Week 4".
+            Dates must be specific (e.g., "January 24, ${year}"), not "January Week 4".
         `;
 
         try {
@@ -72,20 +95,25 @@ export const Timeline = () => {
                 if (Array.isArray(data)) {
                     setEvents(data);
 
-                    // Save to DB
-                    const { db } = await import('../../lib/firebase');
-                    const { collection, addDoc } = await import('firebase/firestore');
+                    // Always Save to Local Storage
+                    localStorage.setItem(`timeline_${user.id}`, JSON.stringify(data));
 
-                    await addDoc(collection(db, 'user_timelines'), {
-                        user_id: user.id,
-                        exam_name: exam,
-                        target_year: year,
-                        events: data
-                    });
+                    // Save to DB ONLY if authenticated
+                    if (auth.currentUser) {
+                        const { db } = await import('../../lib/firebase');
+                        const { collection, addDoc } = await import('firebase/firestore');
+
+                        await addDoc(collection(db, 'user_timelines'), {
+                            user_id: user.id,
+                            exam_name: exam,
+                            target_year: year,
+                            events: data
+                        });
+                    }
                 }
             }
         } catch (e) {
-            console.error(e);
+            console.error("Timeline generation failed:", e);
         } finally {
             setLoading(false);
         }

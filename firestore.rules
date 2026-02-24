@@ -64,5 +64,20 @@ service cloud.firestore {
       allow read: if true; 
       allow write: if isOwner(userId);
     }
+
+    // Saved Lectures
+    match /saved_lectures/{lecture} {
+      allow read, write: if dataBelongsToUser();
+    }
+
+    // Study Plans
+    match /study_plans/{plan} {
+      allow read, write: if dataBelongsToUser();
+    }
+
+    // User Timelines
+    match /user_timelines/{timeline} {
+      allow read, write: if dataBelongsToUser();
+    }
   }
 }

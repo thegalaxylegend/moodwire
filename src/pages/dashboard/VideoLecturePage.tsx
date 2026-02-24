@@ -41,7 +41,7 @@ const renderMarkdown = (text: string) => {
         const parts = line.split(/(\*\*[^*]+\*\*)/g);
         return parts.map((part, i) => {
             if (part.startsWith('**') && part.endsWith('**')) {
-                return <strong key={i} className="text-purple-300 font-semibold">{part.slice(2, -2)}</strong>;
+                return <strong key={i} className="text-primary font-semibold">{part.slice(2, -2)}</strong>;
             }
             return part;
         });
@@ -166,13 +166,13 @@ const VideoListItem = ({
         <div
             onClick={() => onSelect(video)}
             className={`relative group cursor-pointer p-4 rounded-2xl backdrop-blur-sm border transition-all duration-300 ${isActive
-                ? 'bg-white/10 border-purple-500/50 shadow-[0_0_30px_-5px_rgba(168,85,247,0.25)]'
+                ? 'bg-white/10 border-primary/50 shadow-[0_0_30px_-5px_rgb(var(--primary)/0.25)]'
                 : 'bg-white/5 border-white/5 hover:bg-white/10 hover:border-white/15'
                 }`}
         >
             {/* Active Glow Line */}
             {isActive && (
-                <div className="absolute left-0 top-4 bottom-4 w-1 bg-purple-500 rounded-r-full shadow-[0_0_15px_#a855f7]" />
+                <div className="absolute left-0 top-4 bottom-4 w-1 bg-primary rounded-r-full shadow-[0_0_15px_rgb(var(--primary))]" />
             )}
 
             <div className="flex justify-between items-start mb-2 pl-2">
@@ -192,7 +192,7 @@ const VideoListItem = ({
                             <Check size={12} className="text-white" />
                         </div>
                     ) : isActive ? (
-                        <div className="w-5 h-5 rounded-full bg-purple-500/80 backdrop-blur-sm flex items-center justify-center">
+                        <div className="w-5 h-5 rounded-full bg-primary/80 backdrop-blur-sm flex items-center justify-center">
                             <div className="w-2 h-2 bg-white rounded-full animate-pulse" />
                         </div>
                     ) : null}
@@ -214,7 +214,7 @@ const VideoListItem = ({
                         className={`h-full rounded-full transition-all duration-500 ${isCompleted
                             ? 'w-full bg-green-500'
                             : isActive
-                                ? 'w-3/4 bg-gradient-to-r from-purple-500 to-indigo-500'
+                                ? 'w-3/4 bg-gradient-to-r from-primary to-indigo-500'
                                 : 'w-0'
                             }`}
                     />
@@ -615,7 +615,7 @@ export const VideoLecturePage = () => {
                                 {/* Play/Pause Button with Animation */}
                                 <button
                                     onClick={handlePlayPause}
-                                    className="relative w-12 h-12 flex items-center justify-center bg-purple-600 hover:bg-purple-500 rounded-full transition-all shadow-lg shadow-purple-500/30 hover:scale-105 active:scale-95"
+                                    className="relative w-12 h-12 flex items-center justify-center bg-primary hover:bg-primary/80 rounded-full transition-all shadow-lg shadow-primary/30 hover:scale-105 active:scale-95"
                                     title={isPlaying ? 'Pause' : 'Play'}
                                 >
                                     <div className={`transition-all duration-300 ${isPlaying ? 'opacity-0 scale-50' : 'opacity-100 scale-100'} absolute`}>
@@ -660,7 +660,7 @@ export const VideoLecturePage = () => {
                                     }}
                                     className={`px-4 py-2 rounded-xl text-sm font-medium transition-all flex items-center gap-2 border ${currentVideo && isVideoFinished(currentVideo.id)
                                         ? 'bg-green-600/20 text-green-400 border-green-500/30'
-                                        : 'bg-purple-600/20 text-purple-300 hover:bg-purple-600/40 border-purple-500/20'
+                                        : 'bg-primary/20 text-primary hover:bg-primary/40 border-primary/20'
                                         }`}
                                 >
                                     <Check size={14} />
@@ -730,13 +730,13 @@ export const VideoLecturePage = () => {
                                     <input
                                         type="text"
                                         placeholder="Search..."
-                                        className="w-full bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl pl-10 pr-4 py-2.5 text-sm text-white placeholder:text-white/30 focus:outline-none focus:border-purple-500/50 transition-all"
+                                        className="w-full bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl pl-10 pr-4 py-2.5 text-sm text-white placeholder:text-white/30 focus:outline-none focus:border-primary/50 transition-all"
                                     />
                                 </div>
 
                                 {/* Filter Tabs */}
                                 <div className="flex items-center gap-2">
-                                    <button className="px-4 py-2 bg-purple-600/80 backdrop-blur-sm text-white text-xs font-semibold rounded-lg shadow-lg shadow-purple-500/20">All</button>
+                                    <button className="px-4 py-2 bg-primary/80 backdrop-blur-sm text-white text-xs font-semibold rounded-lg shadow-lg shadow-primary/20">All</button>
                                     <button className="px-4 py-2 bg-white/5 backdrop-blur-sm hover:bg-white/10 text-white/60 text-xs font-medium rounded-lg transition-colors flex items-center gap-1">
                                         Filter <ChevronDown size={12} />
                                     </button>

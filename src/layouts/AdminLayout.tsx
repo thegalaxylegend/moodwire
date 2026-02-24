@@ -20,7 +20,7 @@ export const AdminLayout = () => {
     }
 
     return (
-        <div className="flex h-screen bg-background text-text-main overflow-hidden font-sans selection:bg-primary/30">
+        <div className="flex h-screen bg-background text-text-main overflow-hidden font-sans">
             {/* Admin Sidebar */}
             <aside className="w-64 bg-surface/50 border-r border-white/5 flex-col hidden md:flex backdrop-blur-xl">
                 <div className="p-6 border-b border-white/5 flex items-center gap-3">

@@ -1,29 +1,18 @@
-
-import ReactGA from "react-ga4";
 import { getAnalytics, logEvent as firebaseLogEvent, setUserProperties as firebaseSetUserProperties } from "firebase/analytics";
 import { app } from "./firebase";
 
 // Initialize Firebase Analytics
 const firebaseAnalytics = typeof window !== 'undefined' ? getAnalytics(app) : null;
 
-const MEASUREMENT_ID = "G-7MWNJDZ5D0";
-
-// Initialize GA4
+// Initialize GA4 - This is a no-op as gtag is already in index.html
+// but we keep the export for compatibility with App.tsx
 export const initAnalytics = () => {
     if (typeof window === 'undefined') return;
 
-    try {
-        // If gtag already exists from index.html, we don't strictly need to re-init
-        // But ReactGA.initialize is fine as it wraps the existing config.
-        // We'll check if we actually need to call it.
-        if (!(window as any).gtag) {
-            ReactGA.initialize(MEASUREMENT_ID);
-            console.log("[Analytics] Initialized via ReactGA");
-        } else {
-            console.log("[Analytics] Already initialized via index.html script");
-        }
-    } catch (error) {
-        console.error("[Analytics] Initialization failed:", error);
+    if (!(window as any).gtag) {
+        console.warn("[Analytics] gtag not found on window object! Verify index.html");
+    } else {
+        console.log("[Analytics] Ready via index.html script");
     }
 };
 
@@ -34,9 +23,15 @@ export const logPageView = () => {
     const page = window.location.pathname + window.location.search;
     const title = document.title;
 
-    // ReactGA
-    ReactGA.send({ hitType: "pageview", page: page, title: title });
-    console.log(`[Analytics] 📡 Page View: ${page}`);
+    // GA4 via Global Site Tag
+    if ((window as any).gtag) {
+        (window as any).gtag('event', 'page_view', {
+            page_title: title,
+            page_location: window.location.href,
+            page_path: page
+        });
+        console.log(`[Analytics] 📡 Page View: ${page}`);
+    }
 
     // Firebase
     if (firebaseAnalytics) {
@@ -52,9 +47,11 @@ export const logPageView = () => {
 export const logEvent = (name: string, params?: Record<string, any>) => {
     if (typeof window === 'undefined') return;
 
-    // ReactGA
-    ReactGA.event(name, params);
-    console.log(`[Analytics] 🔔 Event: ${name}`, params);
+    // GA4 via Global Site Tag
+    if ((window as any).gtag) {
+        (window as any).gtag('event', name, params);
+        console.log(`[Analytics] 🔔 Event: ${name}`, params);
+    }
 
     // Firebase
     if (firebaseAnalytics) {
@@ -66,9 +63,11 @@ export const logEvent = (name: string, params?: Record<string, any>) => {
 export const setUserProperties = (properties: Record<string, any>) => {
     if (typeof window === 'undefined') return;
 
-    // ReactGA
-    ReactGA.gtag('set', 'user_properties', properties);
-    console.log('[Analytics] 👤 User Properties:', properties);
+    // GA4 via Global Site Tag
+    if ((window as any).gtag) {
+        (window as any).gtag('set', 'user_properties', properties);
+        console.log('[Analytics] 👤 User Properties:', properties);
+    }
 
     // Firebase
     if (firebaseAnalytics) {

@@ -32,7 +32,7 @@ export const TestCenter = () => {
                 if (!snap.empty) {
                     setIsDiagnosticDone(true);
                 } else {
-                    // Fallback: Check for legacy diagnostic (no class/exam set)
+                    // Check for legacy diagnostic (no class/exam set)
                     const legacyQ = query(
                         collection(db, 'diagnostic_results'),
                         where('user_id', '==', user.id),
@@ -41,7 +41,6 @@ export const TestCenter = () => {
                     const legacySnap = await getDocs(legacyQ);
 
                     if (!legacySnap.empty) {
-                        // Found legacy record! Migrate it to current class/exam
                         const legacyDoc = legacySnap.docs[0];
                         const { updateDoc } = await import('firebase/firestore');
                         await updateDoc(legacyDoc.ref, {
@@ -51,7 +50,21 @@ export const TestCenter = () => {
                         console.log("[TestCenter] Legacy diagnostic migrated.");
                         setIsDiagnosticDone(true);
                     } else {
-                        setIsDiagnosticDone(false);
+                        // NEW: Check if this is an old user with existing mock attempts
+                        // This addresses the "past data is gone" concern
+                        const mocksQ = query(
+                            collection(db, 'mock_attempts'),
+                            where('user_id', '==', user.id),
+                            limit(1)
+                        );
+                        const mocksSnap = await getDocs(mocksQ);
+
+                        if (!mocksSnap.empty) {
+                            console.log("[TestCenter] Old user verified via mock attempts.");
+                            setIsDiagnosticDone(true);
+                        } else {
+                            setIsDiagnosticDone(false);
+                        }
                     }
                 }
             } catch (err) {

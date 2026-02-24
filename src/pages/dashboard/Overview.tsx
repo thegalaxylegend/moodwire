@@ -676,11 +676,11 @@ export const Overview = () => {
                     <DiagnosticPopup
                         onDismiss={() => {
                             setShowDiagnosticPopup(false);
-                            localStorage.setItem('diagnostic_dismissed', 'true');
+                            localStorage.setItem(`diagnostic_dismissed_${user?.id}_${user?.userClass}`, 'true');
                         }}
                         onStart={() => {
                             // Dismiss logic included so it doesn't show on back nav
-                            localStorage.setItem('diagnostic_dismissed', 'true');
+                            localStorage.setItem(`diagnostic_dismissed_${user?.id}_${user?.userClass}`, 'true');
                             window.location.href = '/dashboard/mock?mode=diagnostic'; // Hard nav to ensure clean state
                         }}
                     />

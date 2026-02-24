@@ -50,6 +50,7 @@ const SyllabusUpload = lazy(() => import('./pages/admin/SyllabusUpload').then(mo
 // Components - Lazy
 const Chatbot = lazy(() => import('./components/Chatbot').then(module => ({ default: module.Chatbot })));
 const LevelUpModal = lazy(() => import('./components/gamification/LevelUpModal').then(module => ({ default: module.LevelUpModal })));
+import { PWAInstall } from './components/PWAInstall';
 
 // SEO Monitoring
 // trackWebVitals and setUserProperties are now imported from src/lib/analytics.ts
@@ -205,6 +206,7 @@ function App() {
       </Suspense>
 
       <FloatingUI />
+      <PWAInstall />
 
       {showLevelUp && (
         <Suspense fallback={null}>

@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "main": "electron/main.js",
   "scripts": {
     "dev": "vite",
     "build": "npx tsx scripts/ensure-content.ts && npm run seo:regen && tsc -b && vite build && npm run build:ssr",
@@ -12,7 +13,11 @@
     "seo:check": "node scripts/validate-seo.js",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy:rules": "firebase deploy --only firestore"
+    "deploy:rules": "firebase deploy --only firestore",
+    "electron:dev": "electron .",
+    "electron:build": "electron-builder build --publish never",
+    "cap:android": "npx cap add android && npx cap open android",
+    "cap:sync": "npx cap sync"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
@@ -45,6 +50,10 @@
     "zustand": "^5.0.9"
   },
   "devDependencies": {
+    "@capacitor/android": "^8.1.0",
+    "@capacitor/cli": "^8.1.0",
+    "@capacitor/core": "^8.1.0",
+    "@capacitor/ios": "^8.1.0",
     "@eslint/js": "^9.39.1",
     "@types/canvas-confetti": "^1.9.0",
     "@types/dotenv": "^6.1.1",
@@ -55,6 +64,8 @@
     "@vitejs/plugin-react": "^5.1.1",
     "autoprefixer": "^10.4.23",
     "dotenv": "^17.3.1",
+    "electron": "^40.6.0",
+    "electron-builder": "^26.8.1",
     "eslint": "^9.39.1",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",

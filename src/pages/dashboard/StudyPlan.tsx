@@ -10,6 +10,7 @@ export const StudyPlan = () => {
     const { user } = useUserStore();
     const [schedule, setSchedule] = useState<any[]>([]);
     const [loading, setLoading] = useState(false);
+    const [error, setError] = useState<string | null>(null);
     const [weeklyGoals, setWeeklyGoals] = useState<any[]>([]);
     const [generatedFor, setGeneratedFor] = useState<string | null>(null);
 
@@ -98,19 +99,22 @@ export const StudyPlan = () => {
         }
 
         const prompt = `
+            STRICT REQUIREMENT: YOUR RESPONSE MUST BE A VALID JSON ARRAY ONLY. 
+            NO CONVERSATIONAL TEXT, NO INTRODUCTIONS, NO "HERE IS YOUR PLAN".
+            
             Create a realistic daily study schedule for an Indian student preparing for ${exam}.
             Date: ${date}.
             Student Level: ${user?.prepLevel || 'Intermediate'}.
-            Focus Areas (Critical): ${focusAreas}.
+            Focus Areas: ${focusAreas}.
             
             ${videoContext}
             
-            Output strictly in JSON format as an array of objects:
+            OUTPUT FORMAT (MANDATORY):
             [
-                { "time": "08:00 AM", "task": "Topic/Subject focus", "duration": "2h", "type": "study" },
-                { "time": "10:30 AM", "task": "Break / Revision", "duration": "30m", "type": "break" }
+                { "time": "08:00 AM", "task": "Topic/Subject focus", "duration": "2h", "type": "study", "status": "pending" },
+                { "time": "10:30 AM", "task": "Break / Revision", "duration": "30m", "type": "break", "status": "pending" }
             ]
-            Include about 5-6 slots. Ensure the 'task' specifically mentions the Focus Areas provided.
+            Include about 5-6 slots.
         `;
 
         try {
@@ -123,16 +127,24 @@ export const StudyPlan = () => {
 
                     // Save to DB
                     if (user) {
-                        await addDoc(collection(db, 'study_plans'), {
-                            user_id: user.id,
-                            plan_data: planData,
-                            created_at: new Date().toISOString()
-                        });
+                        try {
+                            await addDoc(collection(db, 'study_plans'), {
+                                user_id: user.id,
+                                plan_data: planData,
+                                created_at: new Date().toISOString()
+                            });
+                        } catch (dbErr) {
+                            console.error("[StudyPlan] Failed to save plan to Firestore:", dbErr);
+                            // We still have the local state, so the user can see it, but it won't persist on refresh.
+                            // Optionally add a non-blocking toast here if available.
+                        }
                     }
                 } else {
                     console.warn("[StudyPlan] AI returned non-array plan data:", planData);
-                    // If it's a "Note" style object from extractJSON fallback, we don't set it to schedule
+                    setError("AI returned invalid plan format. Please try again.");
                 }
+            } else {
+                setError("AI failed to generate a plan. Please check your connection.");
             }
         } catch (error) {
             console.error("Schedule generation failed", error);
@@ -210,6 +222,12 @@ export const StudyPlan = () => {
                     </button>
                 </header>
 
+                {error && (
+                    <div className="p-4 bg-red-500/10 border border-red-500/20 rounded-xl text-red-500 text-sm flex items-center gap-3">
+                        <Brain size={18} /> {error}
+                    </div>
+                )}
+
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 animate-fade-in-up">
                     {/* Today's Schedule */}
                     <div className="lg:col-span-2 space-y-6">
@@ -234,17 +252,28 @@ export const StudyPlan = () => {
                                                     {idx !== schedule.length - 1 && <div className="w-px h-full bg-border my-1" />}
                                                 </div>
 
-                                                <div className={`flex-1 p-4 rounded-xl border transition-all ${slot.type === 'break'
-                                                    ? 'bg-surface/50 border-border/50 opacity-70'
-                                                    : 'bg-surface border-border hover:border-primary/50'
-                                                    }`}>
+                                                <div className={`flex-1 p-4 rounded-xl border transition-all cursor-pointer ${slot.status === 'completed'
+                                                    ? 'bg-primary/5 border-primary/30 opacity-60'
+                                                    : slot.type === 'break'
+                                                        ? 'bg-surface/50 border-border/50 opacity-70'
+                                                        : 'bg-surface border-border hover:border-primary/50'
+                                                    }`}
+                                                    onClick={() => {
+                                                        const newSchedule = [...schedule];
+                                                        newSchedule[idx].status = slot.status === 'completed' ? 'pending' : 'completed';
+                                                        setSchedule(newSchedule);
+                                                    }}
+                                                >
                                                     <div className="flex justify-between items-start">
-                                                        <h4 className={`font-semibold text-text-main`}>
+                                                        <h4 className={`font-semibold ${slot.status === 'completed' ? 'text-primary/70 line-through' : 'text-text-main'}`}>
                                                             {slot.task}
                                                         </h4>
-                                                        <span className="text-xs font-mono text-text-muted flex items-center gap-1">
-                                                            <Clock size={12} /> {slot.duration}
-                                                        </span>
+                                                        <div className="flex items-center gap-2">
+                                                            {slot.status === 'completed' && <span className="text-[10px] bg-primary/20 text-primary px-2 py-0.5 rounded-full font-bold">COMPLETED</span>}
+                                                            <span className="text-xs font-mono text-text-muted flex items-center gap-1">
+                                                                <Clock size={12} /> {slot.duration}
+                                                            </span>
+                                                        </div>
                                                     </div>
                                                     <p className="text-sm text-text-muted mt-1">{slot.time}</p>
                                                 </div>

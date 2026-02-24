@@ -392,7 +392,7 @@ RETURN ONLY A JSON OBJECT:
                             <BookOpen size={18} /> Library
                         </h3>
                     </div>
-                    <div className="flex-1 overflow-y-auto p-2 space-y-2 custom-scrollbar">
+                    <div className="flex-1 overflow-y-auto p-2 space-y-2 custom-scrollbar relative z-10">
                         {documents.length === 0 && (
                             <div className="text-center text-text-muted text-sm p-4">No notes safely saved yet.</div>
                         )}
@@ -400,7 +400,9 @@ RETURN ONLY A JSON OBJECT:
                             <div
                                 key={doc.id}
                                 onClick={() => { setSelectedDoc(doc); setViewMode('view'); }}
-                                className={`p-3 rounded-xl border cursor-pointer transition-all group relative ${selectedDoc?.id === doc.id ? 'bg-primary/10 border-primary/50' : 'bg-surface border-border hover:bg-white/5'
+                                className={`p-3 rounded-xl border cursor-pointer transition-all group relative z-20 active:scale-[0.98] ${selectedDoc?.id === doc.id
+                                    ? 'bg-primary/20 border-primary shadow-lg shadow-primary/10'
+                                    : 'bg-surface border-border hover:bg-white/10 hover:border-primary/30'
                                     }`}
                             >
                                 <h4 className="font-bold text-text-main truncate text-sm">{doc.title}</h4>
@@ -423,12 +425,12 @@ RETURN ONLY A JSON OBJECT:
                 {/* Main Content Area */}
                 <div className="lg:col-span-9 glass-card flex flex-col overflow-hidden relative h-full">
                     {viewMode === 'edit' ? (
-                        <div className="flex-1 flex flex-col p-6 space-y-4 overflow-y-auto custom-scrollbar">
+                        <div className="flex-1 flex flex-col p-6 space-y-4 overflow-y-auto custom-scrollbar relative">
                             <h3 className="font-bold text-text-main flex items-center gap-2">
                                 <FileText size={18} /> Create New Note
                             </h3>
                             <textarea
-                                className="flex-1 bg-surface border border-border rounded-xl p-6 resize-none focus:outline-none focus:border-primary text-text-main font-mono text-base leading-relaxed min-h-[300px]"
+                                className="flex-1 bg-surface border border-border rounded-xl p-6 resize-none focus:outline-none focus:border-primary text-text-main font-mono text-base leading-relaxed min-h-[300px] relative z-20 pointer-events-auto"
                                 placeholder="Paste lecture notes, article text, or a topic here..."
                                 value={input}
                                 onChange={(e) => setInput(e.target.value)}

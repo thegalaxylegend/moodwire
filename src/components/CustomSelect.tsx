@@ -15,6 +15,7 @@ interface CustomSelectProps {
     placeholder?: string;
     icon?: React.ReactNode;
     required?: boolean;
+    placement?: 'top' | 'bottom';
 }
 
 export const CustomSelect = ({
@@ -24,7 +25,8 @@ export const CustomSelect = ({
     options,
     placeholder = "Select an option",
     icon,
-    required = false
+    required = false,
+    placement = 'top'
 }: CustomSelectProps) => {
     const [isOpen, setIsOpen] = useState(false);
     const containerRef = useRef<HTMLDivElement>(null);
@@ -81,7 +83,7 @@ export const CustomSelect = ({
                             animate={{ opacity: 1, y: 0, scale: 1 }}
                             exit={{ opacity: 0, y: 10, scale: 0.98 }}
                             transition={{ duration: 0.2, ease: "easeOut" }}
-                            className="absolute bottom-full mb-2 z-[999] w-full bg-surface backdrop-blur-xl border border-border rounded-lg shadow-xl max-h-48 overflow-y-auto overflow-x-hidden custom-scrollbar"
+                            className={`absolute ${placement === 'top' ? 'bottom-full mb-2 origin-bottom' : 'top-full mt-2 origin-top'} z-[999] w-full bg-surface backdrop-blur-xl border border-border rounded-lg shadow-xl max-h-48 overflow-y-auto overflow-x-hidden custom-scrollbar`}
                             style={{
                                 boxShadow: '0 -10px 40px -10px rgba(0,0,0,0.5)'
                             }}

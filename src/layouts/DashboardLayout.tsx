@@ -13,9 +13,11 @@ import {
     BarChart3,
     ListChecks,
     TrendingUp,
-    Library
+    Library,
+    Download
 } from 'lucide-react';
 import { useState } from 'react';
+import { usePWA } from '../hooks/usePWA';
 
 import { BottomNav } from '../components/BottomNav';
 // import { supabase } from '../lib/supabase'; // REMOVED
@@ -26,9 +28,7 @@ import { SEO } from '../components/SEO';
 import { GuestBanner } from '../components/GuestBanner';
 
 import { RankBadge } from '../components/gamification/RankBadge';
-
-
-// ... imports ...
+import { usePWAStore } from '../store/pwaStore';
 
 const UserProfileWidget = ({ isSidebarOpen, onClick, onRankClick }: { isSidebarOpen: boolean; onClick: () => void; onRankClick: () => void }) => {
     const { user, fetchSyllabusProgress } = useUserStore();
@@ -143,10 +143,23 @@ export const SidebarItem = ({ to, icon, label, active, isSidebarOpen, onClick }:
 
 export const DashboardLayout = () => {
     const { user } = useUserStore();
+    const pwa = usePWA();
+    const { setShowInstallModal } = usePWAStore();
     const [isSidebarOpen, setIsSidebarOpen] = useState(window.innerWidth >= 1024);
-
-    const navigate = useNavigate();
     const location = useLocation();
+    const navigate = useNavigate();
+
+    const handleDownloadClick = async () => {
+        if (pwa.isIOS && !pwa.isStandalone) {
+            setShowInstallModal(true);
+            return;
+        }
+
+        const outcome = await pwa.installApp();
+        if (outcome === 'no-prompt') {
+            setShowInstallModal(true);
+        }
+    };
 
     const isJunior = ['Class 6th', 'Class 7th', 'Class 8th', 'Class 9th', 'Class 10th'].includes(user?.userClass || '');
 
@@ -213,6 +226,25 @@ export const DashboardLayout = () => {
                             onClick={() => window.innerWidth < 1024 && setIsSidebarOpen(false)}
                         />
                     ))}
+
+                    {/* PWA Install Option */}
+                    {!pwa.isStandalone && pwa.canInstall && (
+                        <button
+                            onClick={handleDownloadClick}
+                            className={`
+                                w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-200 group whitespace-nowrap overflow-hidden
+                                text-primary/70 hover:text-primary hover:bg-primary/10 border border-primary/20 mt-4
+                                ${!isSidebarOpen && 'lg:px-3 lg:justify-center'}
+                            `}
+                        >
+                            <div className="shrink-0 transition-transform duration-300 group-hover:scale-110">
+                                <Download size={22} />
+                            </div>
+                            <span className={`font-bold transition-all duration-300 ${!isSidebarOpen && 'lg:hidden opacity-0 w-0'}`}>
+                                Download App
+                            </span>
+                        </button>
+                    )}
                 </nav>
 
 
