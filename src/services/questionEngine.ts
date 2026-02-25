@@ -9,6 +9,7 @@ import {
     orderBy,
     deleteDoc,
     updateDoc,
+    doc,
     increment,
     getCountFromServer
 } from 'firebase/firestore';
@@ -228,33 +229,42 @@ export const generateInspiredQuestion = async (
     }
 };
 
+// Session-based in-memory cache for questions to slash costs
+const SESSION_CACHE: Record<string, StoredQuestion[]> = {};
+
 /**
  * Adaptive Question Selection Strategy.
- * Prioritizes DB over API.
+ * Prioritizes Cache -> DB -> API.
  */
 export const getAdaptiveQuestion = async (
     userId: string,
     topic: string,
     exam: string,
     weaknessScore: number,
-    subject?: string, // Optional subject context
-    abilityScore?: number // Optional Elo ability score
+    subject?: string,
+    abilityScore?: number
 ): Promise<StoredQuestion | null> => {
 
-    // Determine target difficulty
     let targetDifficulty: 'Easy' | 'Medium' | 'Hard' = 'Medium';
-
     if (abilityScore !== undefined) {
-        // AI 2.0: Use Elo Rating if available
         targetDifficulty = EloService.getTargetDifficulty(abilityScore);
     } else {
-        // Fallback to topic-specific weakness score
         if (weaknessScore > 0.7) targetDifficulty = 'Easy';
         else if (weaknessScore < 0.4) targetDifficulty = 'Hard';
     }
 
+    const cacheKey = `${exam}_${topic}_${targetDifficulty}`;
+
+    // 1. Check Session Cache First (0 Cost)
+    if (SESSION_CACHE[cacheKey] && SESSION_CACHE[cacheKey].length > 0) {
+        console.log(`[QuestionEngine] ⚡ Session Cache Hit for ${topic}`);
+        // Pick a random one and return it
+        const randomIndex = Math.floor(Math.random() * SESSION_CACHE[cacheKey].length);
+        return SESSION_CACHE[cacheKey][randomIndex];
+    }
+
     try {
-        // 1. Try to find in DB (Specific Topic)
+        // 2. Try to find in DB (Specific Topic)
         let q = query(
             collection(db, 'engine_questions'),
             where('exam', '==', exam),
@@ -264,8 +274,6 @@ export const getAdaptiveQuestion = async (
             limit(10)
         );
 
-        // 1b. Fallback: If topic seems generic (e.g. "Physics"), check 'subject' instead
-        // This handles Full Mocks where we ask for "Physics" but stored questions are "Kinematics"
         const isGeneric = topic === subject || ['physics', 'chemistry', 'mathematics', 'biology', 'science'].includes(topic.toLowerCase());
 
         if (isGeneric && subject) {
@@ -281,18 +289,21 @@ export const getAdaptiveQuestion = async (
 
         const snap = await getDocs(q);
         if (!snap.empty) {
-            // Pick a random one from top 10 (load balancing)
-            const randomIndex = Math.floor(Math.random() * snap.docs.length);
-            const selectedDoc = snap.docs[randomIndex];
+            const fetchedQuestions = snap.docs.map(doc => ({ id: doc.id, ...doc.data() } as StoredQuestion));
+
+            // Populate Session Cache
+            SESSION_CACHE[cacheKey] = fetchedQuestions;
+
+            const selectedQuestion = fetchedQuestions[Math.floor(Math.random() * fetchedQuestions.length)];
 
             // Update usage count asynchronously
-            updateDoc(selectedDoc.ref, { usage_count: increment(1) });
+            updateDoc(doc(db, 'engine_questions', selectedQuestion.id!), { usage_count: increment(1) });
 
-            return { id: selectedDoc.id, ...selectedDoc.data() } as StoredQuestion;
+            return selectedQuestion;
         }
 
-        // 2. If not found, Generate Live (Cache Miss)
-        console.log(`[QuestionEngine] Cache miss for ${topic} (${targetDifficulty}). Generating...`);
+        // 3. If not found, Generate Live (Cache Miss)
+        console.log(`[QuestionEngine] 🧩 Firestore Miss for ${topic} (${targetDifficulty}). Generating...`);
 
         // Ensure we have a valid subject
         let finalSubject = subject || 'General';
@@ -301,7 +312,10 @@ export const getAdaptiveQuestion = async (
             finalSubject = !subjectSnap.empty ? subjectSnap.docs[0].data().subject : 'General';
         }
 
-        return await generateInspiredQuestion({ exam, subject: finalSubject, topic, difficulty: targetDifficulty });
+        const generated = await generateInspiredQuestion({ exam, subject: finalSubject, topic, difficulty: targetDifficulty });
+
+        // Optionally put the generated one into cache too (or let it be found on next DB hit)
+        return generated;
 
     } catch (e: any) {
         if (e.code === 'permission-denied' || e.message?.includes('Missing or insufficient permissions')) {

@@ -189,7 +189,7 @@ export const SubjectSyllabus = () => {
                         onClick={async () => {
                             const { generateCheatSheetContent, downloadCheatSheetPDF } = await import('../../services/cheatSheetService');
                             const content = await generateCheatSheetContent(topic.topic, topic.subject);
-                            if (content) downloadCheatSheetPDF(content);
+                            if (content) await downloadCheatSheetPDF(content);
                         }}
                         className="p-2 hover:bg-primary/20 text-primary rounded-lg transition-colors border border-transparent hover:border-primary/30 group/sparkle"
                         title="Generate AI Revision Cheat Sheet"

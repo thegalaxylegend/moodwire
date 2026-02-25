@@ -1,7 +1,6 @@
 import { askAI } from '../lib/ai';
 import { extractJSON } from '../lib/utils';
-import jsPDF from 'jspdf';
-import autoTable from 'jspdf-autotable';
+
 
 export interface CheatSheetContent {
     topic: string;
@@ -43,7 +42,9 @@ export const generateCheatSheetContent = async (topic: string, subject: string):
     return null;
 };
 
-export const downloadCheatSheetPDF = (content: CheatSheetContent) => {
+export const downloadCheatSheetPDF = async (content: CheatSheetContent) => {
+    const { default: jsPDF } = await import('jspdf');
+    const { default: autoTable } = await import('jspdf-autotable');
     const doc = new jsPDF();
     const pageWidth = doc.internal.pageSize.getWidth();
     const pageHeight = doc.internal.pageSize.getHeight();

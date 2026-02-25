@@ -20,7 +20,6 @@
     "cap:sync": "npx cap sync"
   },
   "dependencies": {
-    "@google/generative-ai": "^0.24.1",
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.5.0",
     "@tailwindcss/typography": "^0.5.19",
@@ -30,13 +29,11 @@
     "clsx": "^2.1.1",
     "firebase": "^12.7.0",
     "framer-motion": "^12.24.10",
-    "groq-sdk": "^0.37.0",
     "html2pdf.js": "^0.14.0",
     "jspdf": "^4.1.0",
     "jspdf-autotable": "^5.0.7",
     "lucide-react": "^0.562.0",
     "mermaid": "^11.12.2",
-    "openai": "^6.15.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-ga4": "^2.1.0",

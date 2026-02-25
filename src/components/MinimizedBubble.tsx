@@ -44,7 +44,7 @@ export const MinimizedBubble: React.FC<MinimizedBubbleProps> = ({
                 {/* Avatar Container */}
                 <div className="w-16 h-16 rounded-full bg-surface border-2 border-primary relative z-10 overflow-hidden shadow-2xl flex items-center justify-center">
                     <img
-                        src="https://firebasestorage.googleapis.com/v0/b/legendstech001.appspot.com/o/astronaut.png?alt=media"
+                        src="/exa-logo.png"
                         alt="Exa"
                         className="w-full h-full object-cover scale-110 select-none"
                         draggable="false"

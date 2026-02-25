@@ -59,7 +59,7 @@
         ]
       },
       {
-        "source": "/sitemap.xml",
+        "source": "/sitemap*.xml",
         "headers": [
           {
             "key": "Content-Type",
@@ -81,6 +81,10 @@
         ]
       }
     ]
+  },
+  "functions": {
+    "source": "functions",
+    "runtime": "nodejs20"
   },
   "firestore": {
     "rules": "firestore.rules",

@@ -52,10 +52,30 @@ export const Syllabus = () => {
         if (displayUser) loadSyllabus();
     }, [user, intent]); // Re-run if real user logs in or intent loads
 
-    const loadSyllabus = async () => {
+    const loadSyllabus = async (forceRefresh = false) => {
         setLoading(true);
         try {
-            // 1. Determine Subjects based on Exam
+            const cacheKey = `syllabus_cache_${displayUser?.targetExam}_${displayUser?.userClass}_${user?.id || 'guest'}`;
+
+            if (!forceRefresh) {
+                const cached = localStorage.getItem(cacheKey);
+                if (cached) {
+                    try {
+                        const { data, timestamp } = JSON.parse(cached);
+                        const fiveMinutes = 5 * 60 * 1000;
+                        if (Date.now() - timestamp < fiveMinutes) {
+                            console.log("🚀 Loading syllabus from cache");
+                            setSyllabusData(data);
+                            setLoading(false);
+                            return;
+                        }
+                    } catch (e) {
+                        console.warn("Cache parse failed", e);
+                    }
+                }
+            }
+
+            // ... Determine Subjects, Class Filter, and Progress Map (logic remains same)
             const exam = displayUser?.targetExam?.toLowerCase() || '';
             const userClass = displayUser?.userClass || '';
             const isJunior = ['Class 6th', 'Class 7th', 'Class 8th', 'Class 9th', 'Class 10th'].includes(userClass);
@@ -80,7 +100,6 @@ export const Syllabus = () => {
             } else if (isGATE) {
                 relevantSubjects = ['Engineering Mathematics', 'Logical Reasoning', 'Computer Science'];
             } else {
-                // JEE / NEET / Default
                 relevantSubjects = ['Physics', 'Chemistry'];
                 if (isJEE) relevantSubjects.push('Mathematics');
                 else if (isNEET) relevantSubjects.push('Biology');
@@ -90,46 +109,29 @@ export const Syllabus = () => {
                 }
             }
 
-            // 2. Determine Class Filter
-            let allowedClasses: string[] = ['Class 11', 'Class 12']; // Default
-
+            let allowedClasses: string[] = ['Class 11', 'Class 12'];
             if (isJunior) {
                 const match = userClass.match(/Class (\d+)/);
                 if (match) allowedClasses = [`Class ${match[1]}`];
-            } else if (userClass === 'Class 11th') {
-                allowedClasses = ['Class 11'];
-            } else if (userClass === 'Class 12th') {
-                allowedClasses = ['Class 12'];
-            } else if (userClass === 'Dropper') {
-                allowedClasses = ['Class 11', 'Class 12'];
-            }
+            } else if (userClass === 'Class 11th') allowedClasses = ['Class 11'];
+            else if (userClass === 'Class 12th') allowedClasses = ['Class 12'];
+            else if (userClass === 'Dropper') allowedClasses = ['Class 11', 'Class 12'];
 
-            // 3. Fetch User Progress from DB (SKIP FOR GUESTS)
             const progressMap = new Map<string, any>();
             if (user && !user.isGuest) {
                 try {
                     const q = query(collection(db, 'syllabus'), where('user_id', '==', user.id));
                     const snap = await getDocs(q);
-                    snap.forEach(d => {
-                        const data = d.data();
-                        progressMap.set(data.topic, data);
-                    });
+                    snap.forEach(d => progressMap.set(d.data().topic, d.data()));
                 } catch (err) {
                     console.warn("Could not fetch progress", err);
                 }
             }
 
-            // 4. Build Final Data
             const finalData: Record<string, SyllabusItem[]> = {};
-
             relevantSubjects.forEach(subject => {
                 const rawTopics = SYLLABUS_DB[subject] || [];
-
-                const filteredTopics = rawTopics.filter(t => {
-                    if (allowedClasses.includes(t.class)) return true;
-                    return false;
-                });
-
+                const filteredTopics = rawTopics.filter(t => allowedClasses.includes(t.class));
                 if (filteredTopics.length > 0) {
                     finalData[subject] = filteredTopics.map(t => {
                         const saved = progressMap.get(t.topic);
@@ -148,6 +150,12 @@ export const Syllabus = () => {
                     });
                 }
             });
+
+            // Save to Cache
+            localStorage.setItem(cacheKey, JSON.stringify({
+                data: finalData,
+                timestamp: Date.now()
+            }));
 
             setSyllabusData(finalData);
 
@@ -281,7 +289,7 @@ export const Syllabus = () => {
                                 e.stopPropagation();
                                 const { generateCheatSheetContent, downloadCheatSheetPDF } = await import('../../services/cheatSheetService');
                                 const content = await generateCheatSheetContent(topic.topic, topic.subject);
-                                if (content) downloadCheatSheetPDF(content);
+                                if (content) await downloadCheatSheetPDF(content);
                             }}
                             className="p-2 hover:bg-primary/20 text-primary rounded-lg transition-colors border border-transparent hover:border-primary/30 group/sparkle"
                             title="Generate AI Revision Cheat Sheet"
@@ -396,7 +404,17 @@ export const Syllabus = () => {
             />
             <header className="flex justify-between items-end">
                 <div>
-                    <h1 className="text-3xl font-heading font-bold text-text-main">Syllabus Tracker</h1>
+                    <div className="flex items-center gap-2 mb-1">
+                        <h1 className="text-3xl font-heading font-bold text-text-main">Syllabus Tracker</h1>
+                        <button
+                            onClick={() => loadSyllabus(true)}
+                            className="p-1 hover:bg-white/10 rounded-full transition-colors text-text-muted hover:text-primary"
+                            title="Force Refresh Syllabus"
+                            disabled={loading}
+                        >
+                            <RefreshCw size={18} className={loading ? "animate-spin text-primary" : ""} />
+                        </button>
+                    </div>
                     <p className="text-text-muted">Comprehensive curriculum for <strong>{displayUser?.targetExam}</strong> ({displayUser?.userClass})</p>
                 </div>
                 <button

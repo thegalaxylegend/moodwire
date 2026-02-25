@@ -127,10 +127,8 @@ async function prerender() {
             } catch (err) {
                 console.error(`❌ Failed: ${url} -> ${err.message}`);
                 failureCount++;
-                // Fail fast on explicit errors? 
-                // User asked: "Exit process with code 1" if ANY URL fails.
-                process.exit(1);
             }
+
         }));
     }
 

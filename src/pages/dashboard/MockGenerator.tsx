@@ -1,12 +1,12 @@
 import { useState, useEffect, useRef } from 'react';
-import { Brain, Loader2, ArrowLeft, PlayCircle, Trophy, CheckCircle, Youtube, Timer, PauseCircle, X, Send } from 'lucide-react';
+import { Brain, Loader2, ArrowLeft, PlayCircle, Trophy, CheckCircle, Youtube, Timer, PauseCircle, X, Send, Coffee, AlertTriangle, TrendingUp as DynamicTrending } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import { askAI } from '../../lib/ai';
 import { db } from '../../lib/firebase';
-import { collection, query, where, getDocs, limit, addDoc, updateDoc, increment } from 'firebase/firestore';
+import { collection, query, where, getDocs, limit, addDoc, updateDoc, increment, serverTimestamp } from 'firebase/firestore';
 import { useUserStore } from '../../store/userStore';
-import { batchUpdateTopicStrength, getWeakTopics } from '../../services/topicStrengthService';
+import { getWeakTopics } from '../../services/topicStrengthService';
 import { getAdaptiveQuestion } from '../../services/questionEngine';
 import { extractJSON } from '../../lib/utils';
 import { ViralShareCard } from '../../components/ViralShareCard';
@@ -15,12 +15,10 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { calculatePredictedRank } from '../../services/leaderboardService';
 import { markTopicsAsCompletedFromResults } from '../../services/dataSyncService';
-import { calculateGains } from '../../services/gamificationService';
 import { trackQuestionTime, trackOptionSwitch } from '../../lib/analytics';
 import { storageService } from '../../services/storageService';
 import { FatigueService } from '../../services/fatigueService';
 import type { SessionMetric } from '../../services/fatigueService';
-import { Coffee, AlertTriangle, TrendingUp as DynamicTrending } from 'lucide-react';
 import { EloService } from '../../services/eloService';
 
 
@@ -47,7 +45,7 @@ type Message = {
 };
 
 export const MockGenerator = () => {
-    const { user, updateSkill, recordMistake, addGains, recordActivity, updateProfile } = useUserStore();
+    const { user } = useUserStore();
     const navigate = useNavigate();
     const [searchParams] = useSearchParams();
     const urlTopic = searchParams.get('topic');
@@ -246,25 +244,38 @@ export const MockGenerator = () => {
             setScore(currentScore);
         }
 
-        const payload = {
-            user_id: user.id,
-            exam_name: user?.targetExam,
-            type: mode,
-            topic_focus: mode === 'topic' ? urlTopic : null,
-            created_at: new Date().toISOString(),
-            status: status,
-            time_left: timeRemaining,
-            current_q_index: currentQ,
-            total_questions: questions.length,
-            score: status === 'completed' ? currentScore : 0, // Score is already calculated with weighting
-            details: { questions, answers }
-        };
-
         try {
-            // 1. Ephemeral: Do not save full questions to DB (Privacy).
-            console.log("Mock completed (Ephemeral - Not saved to DB)", payload);
+            // 1. Data Aggregation for Backend Trigger
+            const correctCount = questions.filter((q, i) => answers[i] === q.correctAnswer).length;
+            const attemptedCount = Object.keys(answers).length;
+            const wrongCount = attemptedCount - correctCount;
 
-            // 1.1 Persist Diagnostic Results (Mandatory for progression)
+            const mockAttemptData = {
+                user_id: user.id,
+                exam_name: user?.targetExam || 'General',
+                type: mode,
+                topic_focus: mode === 'topic' ? urlTopic : null,
+                score: status === 'completed' ? currentScore : 0,
+                total_questions: questions.length,
+                status: status,
+                current_ability: currentAbility,
+                created_at: serverTimestamp(), // Use serverTimestamp for backend-ordered consistency
+                details: {
+                    questions: questions.map(q => ({
+                        id: q.id,
+                        topic: q.topic,
+                        correctAnswer: q.correctAnswer,
+                        text: q.text
+                    })),
+                    answers
+                }
+            };
+
+            // 2. Primary Record - Triggers Backend Worker
+            const attemptRef = await addDoc(collection(db, 'mock_attempts'), mockAttemptData);
+            console.log("✅ Mock attempt recorded. Backend worker triggered.", attemptRef.id);
+
+            // 3. Critical Path: Diagnostic Results (Mandatory for progression)
             if (mode === 'diagnostic' && status === 'completed') {
                 await addDoc(collection(db, 'diagnostic_results'), {
                     user_id: user.id,
@@ -274,15 +285,9 @@ export const MockGenerator = () => {
                     exam: user.targetExam || 'General',
                     class: user.userClass || 'General'
                 });
-                console.log("✅ Diagnostic results persisted to Firestore");
             }
 
-            // Calculate statistics
-            const correctCount = questions.filter((q, i) => answers[i] === q.correctAnswer).length;
-            const attemptedCount = Object.keys(answers).length;
-            const wrongCount = attemptedCount - correctCount;
-
-            // 2. Local Save for Offline History (with smart pruning)
+            // 4. Local Feedback: Save for Offline History
             storageService.saveTestAttempt({
                 id: Date.now(),
                 score: currentScore,
@@ -291,130 +296,22 @@ export const MockGenerator = () => {
                 exam: user?.targetExam || 'Generic Exam',
                 date: new Date().toISOString(),
                 status: status,
-                details: {
-                    questions: questions,
-                    answers: answers
-                },
+                details: { questions, answers },
                 percentage: Math.max(0, Math.round((correctCount / questions.length) * 100)),
                 correctCount,
                 wrongCount,
                 totalQuestions: questions.length,
                 topic: mode === 'topic' ? (urlTopic || 'Specific Topic') : (mode === 'quick' ? 'Quick Test' : 'Full Mock'),
-                weakTopics: (Array.isArray(questions) ? questions : []).filter((q, i) => answers[i] !== undefined && answers[i] !== (q as any).correctAnswer).map(q => (q as any).topic)
+                weakTopics: questions.filter((q, i) => answers[i] !== undefined && answers[i] !== q.correctAnswer).map(q => q.topic)
             });
 
-            // 3. Save topic strength to Firestore
-            const questionResults = (Array.isArray(questions) ? questions : []).map((q, i) => ({
-                topic: (q as any).topic,
-                subject: mode === 'topic' ? urlTopic || 'General' : 'Mixed',
-                isCorrect: answers[i] === (q as any).correctAnswer
-            }));
-
-            // Fire and forget - Topic Strength
-            batchUpdateTopicStrength(
-                user.id,
-                questionResults,
-                user.userClass,
-                user.targetExam
-            ).catch((err: any) => {
-                console.error('Failed to update topic strength:', err);
-            });
-
-            // 3.1. Auto-Syllabus Completion
+            // 5. Perceived Speed: Immediate Syllabus Update (Optional but nice)
             if (status === 'completed') {
-                markTopicsAsCompletedFromResults(user.id, questionResults).then(() => {
-                    // Update global coverage count
-                    useUserStore.getState().fetchSyllabusProgress();
-                }).catch((err: any) => console.error("Auto-syllabus update failed", err));
-            }
-
-            // 3.5. Update Activity Time (removed old un-gated streak logic)
-            const totalTestTime = (mode === 'diagnostic' ? 600 : (questions.length * 120)) - timeRemaining;
-            const actualDuration = Math.max(60, totalTestTime > 0 ? totalTestTime : 300);
-            await recordActivity(actualDuration);
-
-            import('../../services/leaderboardService').then(({ updateLeaderboard }) => {
-                updateLeaderboard(
-                    user.id,
-                    { displayName: user.name, avatar: (user as any).avatar },
-                    currentScore,
-                    user.targetExam || 'General'
-                ).catch(err => console.error("Leaderboard sync failed", err));
-            });
-
-            // 4. Update Ability Score (Elo)
-            if (status === 'completed') {
-                await updateProfile({ abilityScore: currentAbility });
-                console.log("✅ Adaptive ability score updated:", currentAbility);
-            }
-
-            // 5. Update SKILL LEVELS (Exa V2)
-            if (status === 'completed') {
-                const subjectTags: Record<string, { correct: number, wrong: number }> = {
-                    physics: { correct: 0, wrong: 0 },
-                    chemistry: { correct: 0, wrong: 0 },
-                    math: { correct: 0, wrong: 0 },
-                    biology: { correct: 0, wrong: 0 },
-                    sst: { correct: 0, wrong: 0 },
-                    english: { correct: 0, wrong: 0 }
-                };
-
-                (Array.isArray(questions) ? questions : []).forEach((q, idx) => {
-                    const isCorrect = answers[idx] === q.correctAnswer;
-                    const isWrong = answers[idx] !== undefined && !isCorrect;
-
-                    // Simple heuristic to detect subject from context or topic
-                    // In a real app, 'subject' should be a field on Question.
-                    // For now, we infer from Topic checks or mode
-                    let subjectKey = 'physics';
-                    const t = (q.topic || '').toLowerCase();
-                    if (t.includes('math') || t.includes('algebra') || t.includes('calculus')) subjectKey = 'math';
-                    else if (t.includes('chem') || t.includes('organic') || t.includes('bonding')) subjectKey = 'chemistry';
-                    else if (t.includes('bio') || t.includes('plant') || t.includes('anatomy')) subjectKey = 'biology';
-
-                    // NEW: Junior Subjects Mapping
-                    if (t.includes('social') || t.includes('history') || t.includes('geography') || t.includes('civics')) subjectKey = 'sst';
-                    if (t.includes('english') || t.includes('grammar') || t.includes('literature')) subjectKey = 'english';
-
-                    // If mode is explicit subject, use that
-                    if (urlTopic?.toLowerCase().includes('math')) subjectKey = 'math';
-                    if (urlTopic?.toLowerCase().includes('chem')) subjectKey = 'chemistry';
-
-                    if (isCorrect) (subjectTags as any)[subjectKey] = { ...((subjectTags as any)[subjectKey] || { correct: 0, wrong: 0 }), correct: ((subjectTags as any)[subjectKey]?.correct || 0) + 1 };
-                    if (isWrong) {
-                        (subjectTags as any)[subjectKey] = { ...((subjectTags as any)[subjectKey] || { correct: 0, wrong: 0 }), wrong: ((subjectTags as any)[subjectKey]?.wrong || 0) + 1 };
-                        // Record Mistake for Memory
-                        recordMistake(q.topic || 'General Mistake');
-                    }
-                });
-
-                // Apply Updates
-                Object.entries(subjectTags).forEach(([subj, counts]) => {
-                    if (counts.correct > 0 || counts.wrong > 0) {
-                        // Formula: +0.02 for correct, -0.03 for wrong
-                        const delta = (counts.correct * 0.02) - (counts.wrong * 0.03);
-                        if (delta !== 0) updateSkill(subj as any, delta);
-                    }
-                });
-
-                // Award Gamification Gains
-                let totalGains = { xp: 0, pts: 0 };
-                (Array.isArray(questions) ? questions : []).forEach((q, idx) => {
-                    const isCorrect = answers[idx] === q.correctAnswer;
-                    const isAttempted = answers[idx] !== undefined;
-
-                    if (isAttempted) {
-                        const qGains = calculateGains(isCorrect ? 'mcq_correct' : 'mcq_incorrect', {
-                            difficulty: difficulty // Uses current test difficulty context
-                        });
-                        totalGains.xp += qGains.xp;
-                        totalGains.pts += qGains.pts;
-                    }
-                });
-
-                if (totalGains.xp > 0 || totalGains.pts > 0) {
-                    addGains(totalGains);
-                }
+                const questionResults = questions.map((q, i) => ({
+                    topic: q.topic,
+                    isCorrect: answers[i] === q.correctAnswer
+                }));
+                markTopicsAsCompletedFromResults(user.id, questionResults).catch(() => { });
             }
 
         } catch (e) {
