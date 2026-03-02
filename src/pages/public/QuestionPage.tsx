@@ -61,22 +61,45 @@ export const QuestionPage = () => {
 
     const schemaData = {
         "@context": "https://schema.org",
-        "@type": "Quiz",
-        "name": pageTitle,
-        "educationLevel": "High School",
-        "hasPart": {
-            "@type": "Question",
-            "name": question.text,
-            "educationLevel": "High School",
-            "suggestedAnswer": {
-                "@type": "Answer",
-                "text": `Answer: ${question.options?.[question.correctAnswer] || 'See Solution'}. ${question.explanation}`
+        "@graph": [
+            {
+                "@type": "Quiz",
+                "name": pageTitle,
+                "educationLevel": "High School",
+                "hasPart": {
+                    "@type": "Question",
+                    "name": question.text,
+                    "educationLevel": "High School",
+                    "suggestedAnswer": {
+                        "@type": "Answer",
+                        "text": `Answer: ${question.options?.[question.correctAnswer] || 'See Solution'}. ${question.explanation}`
+                    },
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": question.options?.[question.correctAnswer] || "Check Solution"
+                    }
+                }
             },
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": question.options?.[question.correctAnswer] || "Check Solution"
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://examcompass.web.app/" },
+                    { "@type": "ListItem", "position": 2, "name": formattedExam, "item": `https://examcompass.web.app/${exam}` },
+                    ...(question.subject ? [{
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": question.subject,
+                        "item": `https://examcompass.web.app/${exam}/${slugify(question.subject)}`
+                    }] : []),
+                    {
+                        "@type": "ListItem",
+                        "position": question.subject ? 4 : 3,
+                        "name": "Question",
+                        "item": canonicalUrl
+                    }
+                ]
             }
-        }
+        ]
     };
 
     return (

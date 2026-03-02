@@ -30,6 +30,29 @@ export const LandingPage = () => {
                 title="Exam Compass | AI-Powered Learning for Class 6-12 & Competitive Exams"
                 description="The ultimate study partner for Class 6-12 school exams, JEE, NEET, and UPSC. Get AI-generated mocks, personalized roadmaps, and honest data."
                 canonical="https://examcompass.web.app/"
+                schema={{
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebSite",
+                            "name": "Exam Compass",
+                            "url": "https://examcompass.web.app",
+                            "description": "AI-powered exam preparation platform for JEE, NEET, UPSC, and CBSE Class 6-12.",
+                            "potentialAction": {
+                                "@type": "SearchAction",
+                                "target": "https://examcompass.web.app/{search_term_string}",
+                                "query-input": "required name=search_term_string"
+                            }
+                        },
+                        {
+                            "@type": "Organization",
+                            "name": "Exam Compass",
+                            "url": "https://examcompass.web.app",
+                            "logo": "https://examcompass.web.app/exa-logo.png",
+                            "sameAs": []
+                        }
+                    ]
+                }}
             />
 
             <Hero onOpenDemo={() => setShowDemo(true)} />

@@ -103,6 +103,8 @@ async function generateSitemap() {
 Allow: /
 Disallow: /dashboard/
 Disallow: /api/
+Disallow: /login
+Disallow: /mock
 Sitemap: ${BASE_URL}/${SITEMAP_INDEX_NAME}
 `;
 

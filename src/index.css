@@ -219,7 +219,7 @@ body {
 
   .glass-card::before {
     content: '';
-    @apply absolute inset-0 bg-gradient-to-br from-white/5 to-transparent opacity-0 transition-opacity duration-500;
+    @apply absolute inset-0 bg-gradient-to-br from-white/5 to-transparent opacity-0 transition-opacity duration-500 pointer-events-none;
   }
 
   .glass-card:hover::before {
@@ -232,7 +232,7 @@ body {
 
   .active-glow::after {
     content: '';
-    @apply absolute inset-0 -z-10 blur-3xl opacity-0 transition-opacity duration-700 rounded-full;
+    @apply absolute inset-0 -z-10 blur-3xl opacity-0 transition-opacity duration-700 rounded-full pointer-events-none;
     background-color: rgb(var(--primary) / 0.2);
   }
 
@@ -246,7 +246,7 @@ body {
 
   .premium-border::before {
     content: '';
-    @apply absolute -inset-[1px] -z-10 opacity-0 transition-opacity duration-500;
+    @apply absolute -inset-[1px] -z-10 opacity-0 transition-opacity duration-500 pointer-events-none;
     background: linear-gradient(to bottom right, rgba(139, 92, 246, 0.5), rgba(216, 180, 254, 0.3), rgba(14, 165, 233, 0.5));
     border-radius: inherit;
   }

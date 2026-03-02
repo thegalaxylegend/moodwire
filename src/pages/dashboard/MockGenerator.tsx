@@ -381,13 +381,13 @@ export const MockGenerator = () => {
 
         while (collected.length < count && attempts < MAX_TOTAL_ATTEMPTS) {
             const needed = count - collected.length;
-            // Parallel concurrency limit (6 is optimal for speed vs rate limits)
-            const batchSize = Math.min(needed, 6);
+            // Reduced batch size to 2 to prevent hitting Groq's 12000 TPM limit
+            const batchSize = Math.min(needed, 2);
 
             // Create a batch of promises
             const promises = Array(batchSize).fill(0).map(async (_, idx) => {
-                // Stagger requests slightly to avoid precise millisecond collisions
-                await new Promise(r => setTimeout(r, idx * 100));
+                // Stagger requests significantly to avoid parallel token burst
+                await new Promise(r => setTimeout(r, idx * 1500));
                 return getAdaptiveQuestion(
                     user?.id || 'guest',
                     urlTopic || subject,

@@ -1,10 +1,79 @@
-import { functions } from './firebase';
-import { httpsCallable } from 'firebase/functions';
 import { extractJSON } from './utils';
 
 export type AIProvider = 'groq' | 'gemini';
 
-const generateAIResponse = httpsCallable(functions, 'generateAIResponse');
+const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
+
+const generateAIResponse = async (data: any, attempt = 1): Promise<any> => {
+    const { provider = 'groq', question, chatHistory = [], options = {}, systemPersona, imageBase64 } = data;
+
+    if (provider === 'groq') {
+        const apiKey = import.meta.env.VITE_GROQ_API_KEY || import.meta.env.VITE_GROQ_API_KEY_2;
+        if (!apiKey) throw new Error("GROQ_API_KEY not found in .env");
+
+        let systemContent = systemPersona || "You are a helpful assistant.";
+        if (options.jsonMode && !systemContent.toLowerCase().includes('json')) {
+            systemContent += " Provide your response in JSON format.";
+        }
+
+        const messages: any[] = [
+            { role: "system", content: systemContent }
+        ];
+
+        chatHistory.forEach((msg: any) => messages.push({ role: msg.role, content: msg.content }));
+
+        if (imageBase64) {
+            messages.push({
+                role: "user",
+                content: [
+                    { type: "text", text: question },
+                    { type: "image_url", image_url: { url: imageBase64.startsWith('data:') ? imageBase64 : `data:image/png;base64,${imageBase64}` } }
+                ]
+            });
+        } else {
+            if (question) {
+                messages.push({ role: "user", content: question });
+            }
+        }
+
+        const modelId = options.modelId || (imageBase64 ? "llama-3.2-11b-vision-preview" : "llama-3.3-70b-versatile");
+
+        try {
+            const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+                method: 'POST',
+                headers: {
+                    'Authorization': `Bearer ${apiKey}`,
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    model: modelId,
+                    messages,
+                    temperature: options.temperature ?? 0.7,
+                    response_format: options.jsonMode ? { type: "json_object" } : undefined
+                })
+            });
+
+            if (!res.ok) {
+                if (res.status === 429 && attempt <= 3) {
+                    // Try to parse the Retry-After or just wait based on attempt
+                    console.warn(`Groq 429 Rate Limit. Retrying attempt ${attempt}...`);
+                    await sleep(2000 * attempt);
+                    return generateAIResponse(data, attempt + 1);
+                }
+                const errText = await res.text();
+                throw new Error(`Groq API Error: ${res.status} ${errText}`);
+            }
+
+            const jsonResponse = await res.json();
+            return { data: { content: jsonResponse.choices[0].message.content } };
+        } catch (error) {
+            console.error("Groq Fetch Error:", error);
+            throw error;
+        }
+    } else {
+        throw new Error("Only Groq provider is currently supported on the client side bypass.");
+    }
+};
 
 const MOCK_QUESTION_PROMPT = `
 You are an expert exam paper setter for Indian competitive exams (JEE, NEET, CLAT, BOARDS).

@@ -10,32 +10,65 @@ interface SEOProps {
     image?: string;
     url?: string;
     schema?: Record<string, any>;
+    noindex?: boolean;
+    keywords?: string;
+    publishedTime?: string;
+    modifiedTime?: string;
 }
 
 export const SEO = (props: SEOProps) => {
-    const { title, description, canonical, type, name, image, schema } = props;
+    const { title, description, canonical, type, name, image, schema, noindex, keywords, publishedTime, modifiedTime } = props;
+
+    const canonicalUrl = canonical || (typeof window !== 'undefined' ? window.location.origin + window.location.pathname.replace(/\/$/, '') : 'https://examcompass.web.app/');
+    const imageUrl = image || 'https://examcompass.web.app/exa-logo.png';
+    const fullTitle = title.includes('|') ? title : `${title} | Exam Compass`;
 
     return (
         <Helmet defer={false}>
             {/* Standard Metadata */}
-            <title>{title.includes('|') ? title : `${title} | Exam Compass`}</title>
+            <title>{fullTitle}</title>
             <meta name="description" content={description} />
-            <link rel="canonical" href={canonical || (typeof window !== 'undefined' ? window.location.origin + window.location.pathname.replace(/\/$/, '') : 'https://examcompass.web.app/')} />
+            <link rel="canonical" href={canonicalUrl} />
+
+            {/* Robots */}
+            {noindex ? (
+                <meta name="robots" content="noindex, nofollow" />
+            ) : (
+                <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+            )}
+
+            {/* Keywords (still used by some engines) */}
+            {keywords && <meta name="keywords" content={keywords} />}
+
+            {/* Locale */}
+            <meta httpEquiv="content-language" content="en-IN" />
 
             {/* Open Graph */}
             <meta property="og:type" content={type || 'website'} />
-            <meta property="og:title" content={title} />
+            <meta property="og:title" content={fullTitle} />
             <meta property="og:description" content={description} />
-            <meta property="og:image" content={image || 'https://examcompass.web.app/exa-logo.png'} />
-            <meta property="og:url" content={canonical || (typeof window !== 'undefined' ? window.location.origin + window.location.pathname : 'https://examcompass.web.app')} />
+            <meta property="og:image" content={imageUrl} />
+            <meta property="og:image:width" content="1200" />
+            <meta property="og:image:height" content="630" />
+            <meta property="og:image:alt" content={fullTitle} />
+            <meta property="og:url" content={canonicalUrl} />
             <meta property="og:site_name" content={name || 'Exam Compass'} />
+            <meta property="og:locale" content="en_IN" />
+
+            {/* Article timestamps (for content pages) */}
+            {publishedTime && <meta property="article:published_time" content={publishedTime} />}
+            {modifiedTime && <meta property="article:modified_time" content={modifiedTime} />}
 
             {/* Twitter */}
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:creator" content="@examcompass" />
-            <meta name="twitter:title" content={title} />
+            <meta name="twitter:title" content={fullTitle} />
             <meta name="twitter:description" content={description} />
-            <meta name="twitter:image" content={image || 'https://examcompass.web.app/exa-logo.png'} />
+            <meta name="twitter:image" content={imageUrl} />
+            <meta name="twitter:image:alt" content={fullTitle} />
+
+            {/* SEO Status Marker (dev checker) */}
+            <meta name="seo-status" content="active" />
 
             {/* Structured Data (JSON-LD) */}
             {schema && (

@@ -60,35 +60,66 @@ export const TopicPage = () => {
         }
     }, [sampleQuestions.length, topicData]);
 
+    // Build keywords from subtopics
+    const subtopicKeywords = topicData?.subtopics.slice(0, 6).join(', ') || '';
+    const seoKeywords = `${cleanTopicName}, ${contextName} ${cleanTopicName}, ${cleanTopicName} questions, ${cleanTopicName} PYQ, ${subtopicKeywords}`;
+    const seoDescription = `Practice ${cleanTopicName} questions for ${contextName}. Key concepts: ${topicData?.subtopics.slice(0, 4).join(', ')}. ${sampleQuestions.length}+ past year questions with detailed solutions.`;
+
     // Schema Data
+    const schemaGraph: any[] = [
+        {
+            "@type": "Course",
+            "name": `${cleanTopicName} for ${contextName}`,
+            "description": `Master ${cleanTopicName} with PYQs and AI-assisted learning for ${contextName}.`,
+            "provider": {
+                "@type": "Organization",
+                "name": "Exam Compass",
+                "sameAs": "https://examcompass.web.app"
+            },
+            "hasCourseInstance": {
+                "@type": "CourseInstance",
+                "courseMode": "online",
+                "courseWorkload": "PT2H"
+            },
+            "about": topicData?.subtopics.map((s: string) => ({ "@type": "Thing", "name": s })) || []
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://examcompass.web.app/" },
+                { "@type": "ListItem", "position": 2, "name": formattedExam, "item": `https://examcompass.web.app/${exam}` },
+                { "@type": "ListItem", "position": 3, "name": realSubject, "item": `https://examcompass.web.app/${exam}/${subject}` },
+                { "@type": "ListItem", "position": 4, "name": cleanTopicName, "item": `https://examcompass.web.app/${exam}/${subject}/${topic}` }
+            ]
+        }
+    ];
+
+    // Add ItemList for sample questions
+    if (sampleQuestions.length > 0) {
+        schemaGraph.push({
+            "@type": "ItemList",
+            "name": `${cleanTopicName} Practice Questions for ${contextName}`,
+            "numberOfItems": sampleQuestions.length,
+            "itemListElement": sampleQuestions.map((q: any, i: number) => ({
+                "@type": "ListItem",
+                "position": i + 1,
+                "url": `https://examcompass.web.app/${exam}/q/${q.slug}`
+            }))
+        });
+    }
+
     const schemaData = {
         "@context": "https://schema.org",
-        "@type": "Course",
-        "name": `${cleanTopicName} for ${contextName}`,
-        "description": `Master ${cleanTopicName} with PYQs and AI-assisted learning.`,
-        "provider": {
-            "@type": "Organization",
-            "name": "Exam Compass",
-            "sameAs": "https://examcompass.web.app"
-        },
-        "hasCourseInstance": {
-            "@type": "CourseInstance",
-            "courseMode": "online",
-            "courseWorkload": "PT2H"
-        },
-        "itemListElement": sampleQuestions.map((q, i) => ({
-            "@type": "ListItem",
-            "position": i + 1,
-            "url": `https://examcompass.web.app/${exam}/q/${q.slug}`
-        }))
+        "@graph": schemaGraph
     };
 
     return (
         <div className="min-h-screen bg-black text-white selection:bg-purple-500/30">
             <SEO
-                title={`${cleanTopicName} Questions for ${contextName} | Important PYQs`}
-                description={`Practice ${cleanTopicName} questions for ${contextName}. Important formulas, common mistakes, and 50+ past year questions.`}
+                title={`${cleanTopicName} Questions for ${contextName} | Important PYQs & Solutions`}
+                description={seoDescription}
                 canonical={`https://examcompass.web.app/${exam}/${subject}/${topic}`}
+                keywords={seoKeywords}
                 schema={schemaData}
             />
             <Navbar />

@@ -100,9 +100,9 @@ export const Login = () => {
             />
             {/* Background Elements */}
             <div className="absolute top-0 left-0 w-full h-full -z-10 bg-background" />
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/20 blur-[150px] rounded-full" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/20 blur-[150px] rounded-full pointer-events-none -z-10" />
 
-            <div className="glass-card w-full max-w-md p-8 animate-fade-in-up">
+            <div className="glass-card relative z-10 w-full max-w-md p-8 animate-fade-in-up">
                 <div className="text-center mb-8">
                     <h1 className="text-3xl font-heading font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
                         {isSignUp ? 'Join the Revolution' : 'Welcome Back'}
@@ -122,7 +122,7 @@ export const Login = () => {
                     <div className="space-y-2">
                         <label className="text-sm font-medium text-text-main">Email Address</label>
                         <div className="relative">
-                            <Mail className="absolute left-3 top-1/2 -translate-y-1/2 text-text-muted" size={18} />
+                            <Mail className="absolute left-3 top-1/2 -translate-y-1/2 text-text-muted pointer-events-none" size={18} />
                             <input
                                 type="email"
                                 placeholder="aspirant@example.com"
@@ -137,7 +137,7 @@ export const Login = () => {
                     <div className="space-y-2">
                         <label className="text-sm font-medium text-text-main">Password</label>
                         <div className="relative">
-                            <Lock className="absolute left-3 top-1/2 -translate-y-1/2 text-text-muted" size={18} />
+                            <Lock className="absolute left-3 top-1/2 -translate-y-1/2 text-text-muted pointer-events-none" size={18} />
                             <input
                                 type="password"
                                 placeholder="••••••••"
@@ -171,7 +171,7 @@ export const Login = () => {
                     <button
                         type="submit"
                         disabled={loading}
-                        className="w-full bg-primary hover:bg-primary/90 text-white font-bold py-3 rounded-lg transition-all flex items-center justify-center gap-2 group shadow-[0_0_20px_rgba(139,92,246,0.3)] disabled:opacity-50"
+                        className="relative z-50 w-full bg-primary hover:bg-primary/90 text-white font-bold py-3 rounded-lg transition-all flex items-center justify-center gap-2 group shadow-[0_0_20px_rgba(139,92,246,0.3)] disabled:opacity-50"
                     >
                         {loading ? (
                             <Loader2 className="animate-spin" />
@@ -197,7 +197,7 @@ export const Login = () => {
                         type="button"
                         onClick={handleGoogleLogin}
                         disabled={loading}
-                        className="w-full bg-white text-black font-semibold py-3 rounded-lg flex items-center justify-center gap-3 hover:bg-gray-100 transition-all disabled:opacity-70"
+                        className="relative z-50 w-full bg-white text-black font-semibold py-3 rounded-lg flex items-center justify-center gap-3 hover:bg-gray-100 transition-all disabled:opacity-70"
                     >
                         <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google" className="w-5 h-5" />
                         Continue with Google
@@ -228,7 +228,7 @@ export const Login = () => {
                                     setLoading(false);
                                 }
                             }}
-                            className="w-full bg-transparent border border-white/20 text-text-muted hover:text-white hover:border-white/40 py-2.5 rounded-lg text-sm font-medium transition-colors flex items-center justify-center gap-2"
+                            className="relative z-50 w-full bg-transparent border border-white/20 text-text-muted hover:text-white hover:border-white/40 py-2.5 rounded-lg text-sm font-medium transition-colors flex items-center justify-center gap-2"
                         >
                             Continue as Guest
                         </button>
@@ -238,7 +238,7 @@ export const Login = () => {
                     </div>
                 </div>
 
-                <p className="text-center text-sm text-text-muted mt-4">
+                <p className="text-center text-sm text-text-muted mt-4 relative z-50">
                     {isSignUp ? 'Already have an account?' : "Don't have an account?"}{' '}
                     <button
                         onClick={() => setIsSignUp(!isSignUp)}

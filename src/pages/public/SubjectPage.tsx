@@ -16,25 +16,54 @@ export const SubjectPage = () => {
 
     const formattedExam = exam?.replace(/-/g, ' ').toUpperCase();
 
+    // Build keywords from top topics
+    const topicNames = topics.slice(0, 8).map(t => t.topic.replace(/\[.*?\]\s*/g, '')).join(', ');
+    const seoKeywords = `${realSubject} for ${formattedExam}, ${formattedExam} ${realSubject} syllabus, ${topicNames}`;
+
     // Schema Data
     const schemaData = {
         "@context": "https://schema.org",
-        "@type": "Course",
-        "name": `${realSubject} Syllabus for ${formattedExam}`,
-        "description": `Complete ${realSubject} syllabus breakdown and important topics for ${formattedExam}.`,
-        "provider": {
-            "@type": "Organization",
-            "name": "Exam Compass",
-            "sameAs": "https://examcompass.web.app"
-        }
+        "@graph": [
+            {
+                "@type": "Course",
+                "name": `${realSubject} Syllabus for ${formattedExam}`,
+                "description": `Complete ${realSubject} syllabus breakdown with ${topics.length} chapters and important topics for ${formattedExam}.`,
+                "provider": {
+                    "@type": "Organization",
+                    "name": "Exam Compass",
+                    "sameAs": "https://examcompass.web.app"
+                },
+                "numberOfCredits": topics.length
+            },
+            {
+                "@type": "ItemList",
+                "name": `${realSubject} Chapters for ${formattedExam}`,
+                "numberOfItems": topics.length,
+                "itemListElement": topics.map((t, i) => ({
+                    "@type": "ListItem",
+                    "position": i + 1,
+                    "name": t.topic.replace(/\[.*?\]\s*/g, ''),
+                    "url": `https://examcompass.web.app/${exam}/${subject}/${slugify(t.topic)}`
+                }))
+            },
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://examcompass.web.app/" },
+                    { "@type": "ListItem", "position": 2, "name": formattedExam, "item": `https://examcompass.web.app/${exam}` },
+                    { "@type": "ListItem", "position": 3, "name": realSubject, "item": `https://examcompass.web.app/${exam}/${subject}` }
+                ]
+            }
+        ]
     };
 
     return (
         <div className="min-h-screen bg-black text-white selection:bg-purple-500/30">
             <SEO
-                title={`${realSubject} for ${formattedExam === 'SCHOOL EXAMS' ? (user?.userClass || 'CBSE School Exams') : formattedExam} | Complete Syllabus & PYQs`}
-                description={`Master ${realSubject} for ${formattedExam === 'SCHOOL EXAMS' ? (user?.userClass || 'CBSE School Exams') : formattedExam}. Chapter-wise weightage, important topics, and practice questions.`}
+                title={`${realSubject} for ${formattedExam === 'SCHOOL EXAMS' ? (user?.userClass || 'CBSE School Exams') : formattedExam} | ${topics.length} Chapters, Syllabus & PYQs`}
+                description={`Master ${realSubject} for ${formattedExam === 'SCHOOL EXAMS' ? (user?.userClass || 'CBSE School Exams') : formattedExam}. Complete ${topics.length}-chapter syllabus with topics like ${topicNames.substring(0, 80)}. Practice questions and solutions.`}
                 canonical={`https://examcompass.web.app/${exam}/${subject}`}
+                keywords={seoKeywords}
                 schema={schemaData}
             />
             <Navbar />

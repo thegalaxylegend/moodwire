@@ -1,13 +1,63 @@
-# Exam Compass API Documentation for LLMs
+# Exam Compass — AI-Powered Exam Preparation Platform
 
 ## Overview
-Exam Compass is an AI-powered exam preparation platform for JEE, NEET, and UPSC.
+Exam Compass is an AI-powered exam preparation platform for Indian competitive exams and school boards.
+It offers AI-generated mock tests, PYQs (Previous Year Questions), adaptive practice, deep analytics,
+syllabus tracking, and a personalized AI study mentor called "Exa".
 
-## Core Routes
-- /: Home Page
-- /login: User Login
-- /dashboard: Private User Dashboard (Auth Required)
+## Supported Exams
+- JEE Mains & JEE Advanced (Engineering)
+- NEET (Medical)
+- UPSC (Civil Services)
+- CLAT (Law)
+- GATE (Graduate Aptitude)
+- BITSAT (Engineering)
+- CBSE/ICSE School Exams: Classes 6, 7, 8, 9, 10, 11, 12
 
-## Public Resources
-- /jee-mains: JEE Mains Exam Guide
-- /neet: NEET Exam Guide
+## Core Public Routes
+- / — Homepage / Landing Page
+- /login — User Login (Google Auth)
+- /jee-mains — JEE Mains Exam Hub
+- /jee-advanced — JEE Advanced Exam Hub
+- /neet — NEET Exam Hub
+- /upsc — UPSC Exam Hub
+- /clat — CLAT Exam Hub
+- /gate — GATE Exam Hub
+- /bitsat — BITSAT Exam Hub
+- /class-12 — Class 12 Board Exam Hub
+- /class-11 — Class 11 Exam Hub
+- /class-10 — Class 10 Board Exam Hub
+- /class-9 — Class 9 Exam Hub
+- /class-8 — Class 8 Exam Hub
+- /class-7 — Class 7 Exam Hub
+- /class-6 — Class 6 Exam Hub
+
+## Route Structure (per exam)
+- /{exam} — Exam landing page with subject list
+- /{exam}/{subject} — Subject page with topic list
+- /{exam}/{subject}/{topic} — Topic page with key concepts and PYQs
+- /{exam}/q/{slug} — Individual question page with solution
+
+## Key Features
+1. AI Mock Test Generator (JEE/NEET/UPSC-aligned)
+2. Adaptive difficulty engine
+3. Real-time performance analytics
+4. Syllabus tracker with weightage
+5. AI Chatbot mentor "Exa"
+6. Leaderboards and gamification (XP, ranks)
+7. Video lectures (YouTube integration)
+8. Score predictor
+9. Decision simulator
+
+## Technology Stack
+- Frontend: React + TypeScript + Vite
+- Styling: Tailwind CSS
+- Backend: Firebase (Auth, Firestore, Hosting)
+- AI: Groq (Llama 3.3), Google Gemini
+- PWA: Vite PWA Plugin
+
+## Sitemap
+https://examcompass.web.app/sitemap-index.xml
+
+## Contact
+Website: https://examcompass.web.app
