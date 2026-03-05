@@ -7,73 +7,49 @@ import { collection, query, where, getDocs, limit } from 'firebase/firestore';
 import { AuthGate } from '../../components/auth/AuthGate';
 
 export const TestCenter = () => {
-    const { user } = useUserStore();
+    const { user, authResolved } = useUserStore();
     const navigate = useNavigate();
 
     const [error, setError] = useState<string | null>(null);
     const [mode, setMode] = useState<'Quick_Test' | 'Full_Mock'>('Quick_Test');
     const [difficulty, setDifficulty] = useState<'Exam_Level' | 'Slightly_Harder' | 'Mains' | 'Advanced'>('Exam_Level');
-    const [isDiagnosticDone, setIsDiagnosticDone] = useState<boolean | null>(null);
+    // Default to TRUE (unlocked). Only lock for genuinely brand-new users.
+    const [isDiagnosticDone, setIsDiagnosticDone] = useState<boolean | null>(true);
 
     useEffect(() => {
         const checkDiagnostic = async () => {
-            if (!user) return;
+            if (!user || !authResolved) return;
+
+            // ── FAST PATH: Any sign of prior activity = established user ──
+            const localHistoryRaw = localStorage.getItem('exam_compass_local_history');
+            const hasLocalHistory = localHistoryRaw ? (JSON.parse(localHistoryRaw) || []).length > 0 : false;
+            const hasAnyXP = (user.xp ?? 0) > 0;
+            const hasStreak = (user.streak ?? 0) > 0;
+            const hasLevel = (user.lifetimeXp ?? 0) > 0;
+
+            if (hasAnyXP || hasLocalHistory || hasStreak || hasLevel || user.isGuest) {
+                console.log("[TestCenter] Established user detected. Diagnostic bypassed.");
+                setIsDiagnosticDone(true);
+                return;
+            }
+
+            // ── SLOW PATH: Only for brand-new users (XP=0, no history) ──
             try {
-                // Strict isolation: Check diagnostic for specific class/exam
                 const q = query(
                     collection(db, 'diagnostic_results'),
                     where('user_id', '==', user.id),
-                    where('class', '==', user.userClass || 'General'),
-                    where('exam', '==', user.targetExam || 'General'),
                     limit(1)
                 );
                 const snap = await getDocs(q);
-
-                if (!snap.empty) {
-                    setIsDiagnosticDone(true);
-                } else {
-                    // Check for legacy diagnostic (no class/exam set)
-                    const legacyQ = query(
-                        collection(db, 'diagnostic_results'),
-                        where('user_id', '==', user.id),
-                        limit(1)
-                    );
-                    const legacySnap = await getDocs(legacyQ);
-
-                    if (!legacySnap.empty) {
-                        const legacyDoc = legacySnap.docs[0];
-                        const { updateDoc } = await import('firebase/firestore');
-                        await updateDoc(legacyDoc.ref, {
-                            class: user.userClass || 'General',
-                            exam: user.targetExam || 'General'
-                        });
-                        console.log("[TestCenter] Legacy diagnostic migrated.");
-                        setIsDiagnosticDone(true);
-                    } else {
-                        // NEW: Check if this is an old user with existing mock attempts
-                        // This addresses the "past data is gone" concern
-                        const mocksQ = query(
-                            collection(db, 'mock_attempts'),
-                            where('user_id', '==', user.id),
-                            limit(1)
-                        );
-                        const mocksSnap = await getDocs(mocksQ);
-
-                        if (!mocksSnap.empty) {
-                            console.log("[TestCenter] Old user verified via mock attempts.");
-                            setIsDiagnosticDone(true);
-                        } else {
-                            setIsDiagnosticDone(false);
-                        }
-                    }
-                }
+                setIsDiagnosticDone(!snap.empty);
             } catch (err) {
-                console.error("Failed to check diagnostic status:", err);
-                setIsDiagnosticDone(false); // Fallback to safe
+                console.warn("[TestCenter] Diagnostic check failed, allowing access:", err);
+                // On ANY error, default to allowing access
+                setIsDiagnosticDone(true);
             }
         };
         checkDiagnostic();
-    }, [user]);
+    }, [user, authResolved]);
 
     const handleStartTest = async () => {
         if (!user?.targetExam) {

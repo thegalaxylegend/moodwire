@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet-async';
+import { useLocation } from 'react-router-dom';
 
 
 interface SEOProps {
@@ -18,8 +19,11 @@ interface SEOProps {
 
 export const SEO = (props: SEOProps) => {
     const { title, description, canonical, type, name, image, schema, noindex, keywords, publishedTime, modifiedTime } = props;
+    const location = useLocation();
 
-    const canonicalUrl = canonical || (typeof window !== 'undefined' ? window.location.origin + window.location.pathname.replace(/\/$/, '') : 'https://examcompass.web.app/');
+    // SSR-safe canonical: use explicit prop > useLocation (works in SSR via StaticRouter) > window fallback
+    const canonicalUrl = canonical
+        || `https://examcompass.web.app${location.pathname.replace(/\/$/, '') || '/'}`;
     const imageUrl = image || 'https://examcompass.web.app/exa-logo.png';
     const fullTitle = title.includes('|') ? title : `${title} | Exam Compass`;
 
@@ -61,7 +65,8 @@ export const SEO = (props: SEOProps) => {
 
             {/* Twitter */}
             <meta name="twitter:card" content="summary_large_image" />
-            <meta name="twitter:creator" content="@examcompass" />
+            <meta name="twitter:site" content="@examcompass_ai" />
+            <meta name="twitter:creator" content="@ayush_founder" />
             <meta name="twitter:title" content={fullTitle} />
             <meta name="twitter:description" content={description} />
             <meta name="twitter:image" content={imageUrl} />

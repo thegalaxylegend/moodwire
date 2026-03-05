@@ -87,7 +87,7 @@ export const updateTopicStrength = async (
     } = {}
 ): Promise<void> => {
     const { difficulty, timeSpent, misconceptionTags, userClass, targetExam, errorType } = params;
-    if (!userId || !topic) return;
+    if (!userId || userId === 'guest' || !topic) return;
 
     const cleanTopic = topic.trim();
     const cleanSubject = subject?.trim() || 'General';
@@ -248,7 +248,7 @@ export const getWeakTopics = async (
     userClass?: string,
     targetExam?: string
 ): Promise<TopicStat[]> => {
-    if (!userId) return [];
+    if (!userId || userId === 'guest') return [];
 
     try {
         let q = query(
@@ -288,7 +288,7 @@ export const getStrongTopics = async (
     userClass?: string,
     targetExam?: string
 ): Promise<TopicStat[]> => {
-    if (!userId) return [];
+    if (!userId || userId === 'guest') return [];
 
     try {
         let q = query(
@@ -322,7 +322,7 @@ export const getStrongTopics = async (
 
 // Get all topic stats for a user
 export const getAllTopicStats = async (userId: string): Promise<TopicStat[]> => {
-    if (!userId) return [];
+    if (!userId || userId === 'guest') return [];
 
     try {
         const q = query(
@@ -343,7 +343,7 @@ export const getAllTopicStats = async (userId: string): Promise<TopicStat[]> => 
 
 // Migrate topic stats between UIDs
 export const migrateTopicStats = async (oldUserId: string, newUserId: string): Promise<void> => {
-    if (!oldUserId || !newUserId || oldUserId === newUserId) return;
+    if (!oldUserId || !newUserId || oldUserId === newUserId || oldUserId === 'guest' || newUserId === 'guest') return;
 
     try {
         const q = query(collection(db, 'user_topic_stats'), where('user_id', '==', oldUserId));

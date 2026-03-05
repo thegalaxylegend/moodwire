@@ -1,7 +1,6 @@
 
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig(() => {
   const isSSR = process.argv.includes('--ssr') || process.argv.includes('ssr');
@@ -9,82 +8,29 @@ export default defineConfig(() => {
 
   return {
     plugins: [
-      react(),
-      VitePWA({
-        registerType: 'autoUpdate',
-        devOptions: {
-          enabled: true, // Allow testing PWA locally
-          type: 'module'
-        },
-        workbox: {
-          globPatterns: ['**/*.{js,css,html,ico,png,svg,webp}'],
-          runtimeCaching: [
-            {
-              urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
-              handler: 'CacheFirst',
-              options: {
-                cacheName: 'google-fonts-cache',
-                expiration: {
-                  maxEntries: 10,
-                  maxAgeSeconds: 60 * 60 * 24 * 365
-                },
-                cacheableResponse: {
-                  statuses: [0, 200]
-                }
-              }
-            },
-            {
-              urlPattern: /^https:\/\/fonts\.gstatic\.com\/.*/i,
-              handler: 'CacheFirst',
-              options: {
-                cacheName: 'gstatic-fonts-cache',
-                expiration: {
-                  maxEntries: 10,
-                  maxAgeSeconds: 60 * 60 * 24 * 365
-                },
-                cacheableResponse: {
-                  statuses: [0, 200]
-                }
-              }
-            },
-            {
-              urlPattern: /.*\.glb$/i,
-              handler: 'CacheFirst',
-              options: {
-                cacheName: '3d-models-cache',
-                expiration: {
-                  maxEntries: 5,
-                  maxAgeSeconds: 60 * 60 * 24 * 30 // 30 Days
-                }
-              }
-            }
-          ]
-        },
-        manifest: {
-          name: 'Exam Compass',
-          short_name: 'ExamCompass',
-          description: 'AI-Powered Exam Preparation Platform',
-          theme_color: '#0A0A0A',
-          background_color: '#0A0A0A',
-          display: 'standalone',
-          icons: [
-            {
-              src: 'logo.png',
-              sizes: '192x192',
-              type: 'image/png',
-              purpose: 'any'
-            },
-            {
-              src: 'logo.png',
-              sizes: '512x512',
-              type: 'image/png',
-              purpose: 'any'
-            }
-          ]
-        }
-      })
+      react()
     ],
+    resolve: {
+      alias: {
+        'virtual:pwa-register/react': '/src/mocks/pwa-mock.ts'
+      }
+    },
     build: {
+      modulePreload: {
+        resolveDependencies: (_filename: string, deps: string[]) => {
+          // Only preload critical-path chunks. Skip heavy non-critical ones.
+          return deps.filter(dep =>
+            !dep.includes('vendor-3d') &&
+            !dep.includes('vendor-markdown') &&
+            !dep.includes('mermaid') &&
+            !dep.includes('html2pdf') &&
+            !dep.includes('html2canvas') &&
+            !dep.includes('jspdf') &&
+            !dep.includes('cytoscape') &&
+            !dep.includes('katex')
+          );
+        }
+      },
       rollupOptions: {
         output: {
           manualChunks: isSSR ? undefined : {
@@ -93,9 +39,8 @@ export default defineConfig(() => {
             'vendor-lucide': ['lucide-react'],
             'vendor-motion': ['framer-motion'],
             'vendor-markdown': ['react-markdown', 'remark-gfm'],
-            'vendor-pdf': ['jspdf', 'jspdf-autotable', 'html2pdf.js'],
-            'vendor-ai': ['@google/generative-ai', 'openai', 'groq-sdk'],
-            'vendor-vfx': ['three', '@react-three/fiber', '@react-three/drei']
+            // This prevents ~500KB from blocking initial paint on all other pages
+            'vendor-3d': ['three', '@react-three/fiber', '@react-three/drei']
           }
         }
       }
@@ -105,3 +50,4 @@ export default defineConfig(() => {
     }
   };
 })
+

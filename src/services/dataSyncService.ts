@@ -1,6 +1,7 @@
 import { db } from '../lib/firebase';
 import { collection, query, where, getDocs, doc, runTransaction, serverTimestamp, writeBatch } from 'firebase/firestore';
 import { getCurrentSeasonKey } from './leaderboardService';
+import { batchUpdateTopicStrength } from './topicStrengthService';
 
 /**
  * Sync Service
@@ -159,5 +160,51 @@ export const syncSyllabusFromMocks = async (userId: string) => {
 
     } catch (e) {
         console.error("[SyncService] Deep syllabus sync failed:", e);
+    }
+};
+
+/**
+ * Deep Sync: AI Profile (user_topic_stats) from Mocks
+ * Scans ALL historical mocks and rebuilds the topic strength profile.
+ * Crucial for old users who bypassed the diagnostic test to still get personalized AI recommendations.
+ */
+export const syncTopicStatsFromMocks = async (userId: string, userClass?: string, targetExam?: string) => {
+    if (!userId) return;
+
+    console.log(`[SyncService] Starting deep AI Profile (Topic Stats) sync for ${userId}...`);
+    try {
+        const mockQ = query(collection(db, 'mock_attempts'), where('user_id', '==', userId));
+        const mockSnap = await getDocs(mockQ);
+
+        if (mockSnap.empty) {
+            console.log("[SyncService] No mock history found to rebuild AI profile.");
+            return;
+        }
+
+        // Collect all question results from all mocks to reconstruct the AI profile
+        const allQuestionsToSync: Array<{ topic: string, subject?: string, isCorrect: boolean, errorType?: any }> = [];
+
+        mockSnap.docs.forEach(d => {
+            const data = d.data();
+            const details = data.details;
+            if (details && Array.isArray(details.questions) && Array.isArray(details.answers)) {
+                details.questions.forEach((q: any, i: number) => {
+                    allQuestionsToSync.push({
+                        topic: q.topic || 'General',
+                        subject: q.subject || 'General',
+                        isCorrect: details.answers[i] === q.correctAnswer
+                    });
+                });
+            }
+        });
+
+        if (allQuestionsToSync.length > 0) {
+            console.log(`[SyncService] Rebuilding AI Profile from ${allQuestionsToSync.length} historical questions...`);
+            await batchUpdateTopicStrength(userId, allQuestionsToSync, userClass, targetExam);
+            console.log(`[SyncService] AI Profile rebuilt successfully.`);
+        }
+
+    } catch (e) {
+        console.error("[SyncService] Deep AI Profile sync failed:", e);
     }
 };

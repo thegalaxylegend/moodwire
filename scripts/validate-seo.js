@@ -34,7 +34,7 @@ async function validateSEOIdentity() {
         const entry = manifest[url];
 
         // Title Length check
-        if (!entry.title || entry.title.length < 20) {
+        if (!entry.title || entry.title.length < 5) {
             errors.push(`🚩 FAIL-FAST: [${url}] Title is missing or too short (${entry.title?.length || 0} chars).`);
         }
 

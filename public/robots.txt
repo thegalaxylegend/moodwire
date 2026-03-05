@@ -1,36 +1,28 @@
 User-agent: *
 Allow: /
 Disallow: /dashboard/
-Disallow: /api/
 Disallow: /login
-Disallow: /mock
-Disallow: /onboarding
-Disallow: /admin/
 
-# Crawl-delay for politeness
-Crawl-delay: 1
-
-# Sitemaps
-Sitemap: https://examcompass.web.app/sitemap-index.xml
-
-# Host directive
-Host: https://examcompass.web.app
-
-# Allow specific bots without crawl-delay
-User-agent: Googlebot
+# Specific rules for AI Crawlers
+User-agent: GPTBot
 Allow: /
 Disallow: /dashboard/
-Disallow: /api/
-Disallow: /login
-Disallow: /mock
-Disallow: /onboarding
-Disallow: /admin/
 
-User-agent: Bingbot
+User-agent: Claude-Web
 Allow: /
 Disallow: /dashboard/
-Disallow: /api/
-Disallow: /login
-Disallow: /mock
-Disallow: /onboarding
-Disallow: /admin/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /dashboard/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /dashboard/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /dashboard/
+
+# Sitemap location
+Sitemap: https://examcompass.web.app/sitemap.xml

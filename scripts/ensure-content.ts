@@ -375,21 +375,34 @@ function getFallback(topic: string, subject: string, cls: string) {
 }
 
 async function ensureContent() {
-    console.log("🛡️ Running Admin FULL Syllabus Guard...");
-
-    // Pre-fetch existing topics to avoid redundant checks
-    const engineSnap = await db.collection('engine_questions').get();
-    const verifiedSnap = await db.collection('verified_questions').get();
-    const questionsSnap = await db.collection('questions').get();
+    console.log("🛡️ Running Admin FULL Syllabus Guard (Quota-Efficient Mode)...");
 
     const coveredTopics = new Set<string>();
-    [...engineSnap.docs, ...verifiedSnap.docs, ...questionsSnap.docs].forEach(doc => {
-        const data = doc.data();
-        if (data.topic) coveredTopics.add(data.topic);
-    });
+    const allTopics = Object.values(SYLLABUS_FULL).flat().map(t => t.topic);
+
+    // Batch check topics in chunks of 30 (Firestore 'in' limit)
+    const CHUNK_SIZE = 30;
+    for (let i = 0; i < allTopics.length; i += CHUNK_SIZE) {
+        const chunk = allTopics.slice(i, i + CHUNK_SIZE);
+
+        // Check in all 3 collections
+        const collections = ['engine_questions', 'verified_questions', 'questions'];
+        for (const colName of collections) {
+            const snap = await db.collection(colName)
+                .where('topic', 'in', chunk)
+                .select('topic')
+                .get();
+
+            snap.docs.forEach(doc => {
+                coveredTopics.add(doc.data().topic);
+            });
+        }
+        process.stdout.write('.');
+    }
 
     for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
         console.log(`\n🔄 Attempt ${attempt}/${MAX_ATTEMPTS}...`);
+        const batch = db.batch();
         let missing = 0;
         let fixed = 0;
 
@@ -401,11 +414,10 @@ async function ensureContent() {
                 if (!coveredTopics.has(topic)) {
                     missing++;
                     const data = getFallback(topic, subject, cls);
-                    await db.collection('engine_questions').add(data);
+                    const docRef = db.collection('engine_questions').doc();
+                    batch.set(docRef, data);
                     coveredTopics.add(topic);
                     fixed++;
-                } else {
-                    process.stdout.write('.');
                 }
             }
         }
@@ -415,7 +427,9 @@ async function ensureContent() {
             return;
         }
 
-        console.log(`\n\n⚠️  Found ${missing} missing topics. Fixed entries: ${fixed}`);
+        console.log(`\n\n⚠️  Found ${missing} missing topics. Committing batch...`);
+        await batch.commit();
+        console.log(`✅ Fixed entries: ${fixed}`);
         if (attempt < MAX_ATTEMPTS) {
             console.log(`😴 Quick Retry...`);
             await new Promise(r => setTimeout(r, RETRY_DELAY));

@@ -17,6 +17,13 @@ import { ExamLanding } from './pages/public/ExamLanding';
 import { SubjectPage } from './pages/public/SubjectPage';
 import { TopicPage } from './pages/public/TopicPage';
 import { QuestionPage } from './pages/public/QuestionPage';
+import { BlogIndex } from './pages/blog/BlogIndex';
+import { BlogPostPage } from './pages/blog/BlogPostPage';
+import { PrivacyPolicy } from './pages/public/PrivacyPolicy';
+import { TermsOfService } from './pages/public/TermsOfService';
+import { AboutPage } from './pages/public/AboutPage';
+import { ContactPage } from './pages/public/ContactPage';
+import { CookieConsent } from './components/CookieConsent';
 
 // Auth - Lazy
 const Login = lazy(() => import('./pages/auth/Login').then(module => ({ default: module.Login })));
@@ -50,14 +57,15 @@ const SyllabusUpload = lazy(() => import('./pages/admin/SyllabusUpload').then(mo
 // Components - Lazy
 const Chatbot = lazy(() => import('./components/Chatbot').then(module => ({ default: module.Chatbot })));
 const LevelUpModal = lazy(() => import('./components/gamification/LevelUpModal').then(module => ({ default: module.LevelUpModal })));
-import { PWAInstall } from './components/PWAInstall';
-
+const PWAInstall = lazy(() => import('./components/PWAInstall').then(module => ({ default: module.PWAInstall })));
 // SEO Monitoring
 // trackWebVitals and setUserProperties are now imported from src/lib/analytics.ts
+const isServer = typeof window === 'undefined';
 
 const FloatingUI = () => {
   const [mounted, setMounted] = useState(false);
   const location = useLocation();
+  const { user } = useUserStore();
 
   useEffect(() => {
     // Delay chatbot loading to prioritize LCP/FCP
@@ -72,8 +80,18 @@ const FloatingUI = () => {
     return () => clearTimeout(timer);
   }, []);
 
-  // Hide bubble on Video Lecture page as it has its own integrated AI
-  if (location.pathname.includes('/dashboard/lectures/')) {
+  // Only show on main dashboard screens after login
+  if (!user || !location.pathname.startsWith('/dashboard')) {
+    return null;
+  }
+
+  // Hide bubble on specific screens that have their own complex UI or integrated AI
+  if (
+    location.pathname.includes('/dashboard/lectures/') ||
+    location.pathname.includes('/dashboard/mock') ||
+    location.pathname.includes('/dashboard/test') ||
+    location.pathname.includes('/dashboard/diagnostic')
+  ) {
     return null;
   }
 
@@ -154,6 +172,9 @@ function App() {
 
   return (
     <>
+      <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[9999] focus:p-4 focus:bg-primary focus:text-white focus:rounded-xl focus:font-bold outline-none">
+        Skip to main content
+      </a>
       <RouteTracker />
       <AutoSchema />
       <Suspense fallback={<AppShellSkeleton />}>
@@ -162,6 +183,12 @@ function App() {
           <Route path="/login" element={<Login />} />
 
           {/* SEO Public Routes - Synchronous for SSG Pre-rendering */}
+          <Route path="/blog" element={<BlogIndex />} />
+          <Route path="/blog/:slug" element={<BlogPostPage />} />
+          <Route path="/privacy" element={<PrivacyPolicy />} />
+          <Route path="/terms" element={<TermsOfService />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/contact" element={<ContactPage />} />
           <Route path="/:exam" element={<ExamLanding />} />
           <Route path="/:exam/:subject" element={<SubjectPage />} />
           <Route path="/:exam/:subject/:topic" element={<TopicPage />} />
@@ -206,9 +233,10 @@ function App() {
       </Suspense>
 
       <FloatingUI />
-      <PWAInstall />
+      {!isServer && <PWAInstall />}
+      {!isServer && <CookieConsent />}
 
-      {showLevelUp && (
+      {showLevelUp && !isServer && (
         <Suspense fallback={null}>
           <LevelUpModal
             newXp={levelUpXp}

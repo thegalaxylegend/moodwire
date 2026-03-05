@@ -53,6 +53,7 @@ interface UserState {
     isAuthenticated: boolean;
     isLoading: boolean;
     isInitialized: boolean;
+    authResolved: boolean;
     initialize: () => Promise<void>;
     logout: () => Promise<void>;
     loginAsGuest: () => Promise<void>;
@@ -125,17 +126,28 @@ const hydrateFromLocal = (): User | null => {
 
 const localUser = hydrateFromLocal();
 
+let isAuthListenerAttached = false;
+
 export const useUserStore = create<UserState>((set, get) => ({
     user: localUser,
     isAuthenticated: !!localUser,
     isLoading: typeof window !== 'undefined' && !localUser, // Only load if no cache
     isInitialized: !!localUser, // Initialized if cache exists
+    authResolved: false, // Wait for Firebase Auth SDK to fully establish session
 
     initialize: async () => {
-        if (get().isInitialized && !get().user?.isGuest) return; // Skip if already auth'd from cache
+        if (isAuthListenerAttached) return;
+        isAuthListenerAttached = true;
+
+        // OPTIMISTIC LOAD: If already authenticated via cache, resolve auth immediately and skip listener.
+        // This prevents users with valid local caches from being logged out if IndexedDB Firebase tokens are cleared in dev environments.
+        if (get().isInitialized && !get().user?.isGuest) {
+            set({ authResolved: true });
+            return;
+        }
 
         const timeout = setTimeout(() => {
-            if (!get().isInitialized) {
+            if (!get().authResolved) {
                 console.warn("⚠️ [Auth] Initialization timed out. Proceeding as logged-out/guest.");
                 set({ isLoading: false, isInitialized: true });
             }
@@ -285,6 +297,7 @@ export const useUserStore = create<UserState>((set, get) => ({
                 set({
                     isAuthenticated: true,
                     isInitialized: true,
+                    authResolved: true,
                     isLoading: false,
                     user: finalUserObj
                 });
@@ -353,9 +366,9 @@ export const useUserStore = create<UserState>((set, get) => ({
                 localStorage.removeItem('exam_compass_auth_cache'); // Clear cache
                 const local = hydrateFromLocal(); // Fallback to guest
                 if (local) {
-                    set({ user: local, isAuthenticated: true, isLoading: false, isInitialized: true });
+                    set({ user: local, isAuthenticated: true, isLoading: false, isInitialized: true, authResolved: true });
                 } else {
-                    set({ user: null, isAuthenticated: false, isLoading: false, isInitialized: true });
+                    set({ user: null, isAuthenticated: false, isLoading: false, isInitialized: true, authResolved: true });
                 }
             }
         });

@@ -5,13 +5,13 @@ import { getWeakTopics, getStrongTopics } from '../../services/topicStrengthServ
 import type { TopicStat } from '../../services/topicStrengthService';
 
 export const ProficiencyMap = () => {
-    const { user } = useUserStore();
+    const { user, authResolved } = useUserStore();
     const [stats, setStats] = useState<Record<string, 'high' | 'medium' | 'low' | 'none'>>({});
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        if (user) loadProficiency();
-    }, [user, user?.syllabusProgress]);
+        if (user && authResolved) loadProficiency();
+    }, [user, user?.syllabusProgress, authResolved]);
 
     const loadProficiency = async () => {
         setLoading(true);

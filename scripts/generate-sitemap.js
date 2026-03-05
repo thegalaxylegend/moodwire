@@ -7,7 +7,7 @@ const __dirname = path.dirname(__filename);
 
 const PUBLIC_DIR = path.join(__dirname, '../public');
 const DIST_DIR = path.join(__dirname, '../dist');
-const SITEMAP_INDEX_NAME = 'sitemap-index.xml';
+const SITEMAP_INDEX_NAME = 'sitemap.xml';
 const ROBOTS_NAME = 'robots.txt';
 const MANIFEST_PATH = path.join(PUBLIC_DIR, 'seo-manifest.json');
 
@@ -44,8 +44,18 @@ async function generateSitemap() {
         // Group URLs by Category (Top-level route)
         const categories = {};
         urls.forEach(url => {
+            const meta = manifest[url];
             const parts = url.split('/').filter(Boolean);
-            const category = parts.length > 0 ? parts[0] : 'main';
+
+            let category = 'main';
+            if (url === '/') {
+                category = 'main';
+            } else if (meta && (meta.type === 'page' || meta.type === 'home')) {
+                category = 'main';
+            } else if (parts.length > 0) {
+                category = parts[0];
+            }
+
             if (!categories[category]) categories[category] = [];
             categories[category].push(url);
         });
@@ -71,6 +81,8 @@ async function generateSitemap() {
                 if (url === '/') { priority = 1.0; changefreq = 'daily'; }
                 else if (meta.type === 'exam') { priority = 1.0; changefreq = 'daily'; }
                 else if (meta.type === 'hub') { priority = 0.8; changefreq = 'weekly'; }
+                else if (meta.type === 'blog-index') { priority = 0.9; changefreq = 'daily'; }
+                else if (meta.type === 'blog-post') { priority = 0.8; changefreq = 'weekly'; }
                 else if (meta.type === 'topic') { priority = 0.7; changefreq = 'weekly'; }
                 else if (url.includes('/q/')) { priority = 0.5; changefreq = 'monthly'; }
 
@@ -102,9 +114,30 @@ async function generateSitemap() {
         const robotsContent = `User-agent: *
 Allow: /
 Disallow: /dashboard/
-Disallow: /api/
 Disallow: /login
-Disallow: /mock
+
+# Specific rules for AI Crawlers
+User-agent: GPTBot
+Allow: /
+Disallow: /dashboard/
+
+User-agent: Claude-Web
+Allow: /
+Disallow: /dashboard/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /dashboard/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /dashboard/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /dashboard/
+
+# Sitemap location
 Sitemap: ${BASE_URL}/${SITEMAP_INDEX_NAME}
 `;
 

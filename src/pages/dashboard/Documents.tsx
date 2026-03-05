@@ -322,7 +322,7 @@ RETURN ONLY A JSON OBJECT:
 
             htmlContent += `
             <div style="margin-top: 40px; text-align: center; font-size: 10px; color: #94a3b8; border-top: 1px solid #f1f5f9; padding-top: 20px;">
-                Study Smarter with Exam Compass AI • www.examcompass.web.app
+                Study Smarter with Exam Compass AI • examcompass.web.app
             </div>
         `;
 

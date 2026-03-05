@@ -11,14 +11,16 @@ interface TopicPlaylist {
 }
 
 export const Lectures = () => {
-    const { user } = useUserStore();
+    const { user, authResolved } = useUserStore();
     const [loading, setLoading] = useState(true);
     const [playlists, setPlaylists] = useState<TopicPlaylist[]>([]);
     const [weakStatsCount, setWeakStatsCount] = useState(0);
 
     useEffect(() => {
-        fetchContent();
-    }, [user]); // Re-fetch only when user changes, but allow initial fetch
+        if (authResolved) {
+            fetchContent();
+        }
+    }, [user, authResolved]); // Re-fetch only when user changes, but wait for auth to resolve
 
     const fetchContent = async () => {
         setLoading(true);

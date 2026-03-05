@@ -26,6 +26,7 @@ export const BottomNav = () => {
                             <NavLink
                                 key={item.path}
                                 to={item.path}
+                                aria-label={item.label}
                                 className={`flex flex-col items-center justify-center p-2 rounded-xl transition-all duration-300 relative group flex-1 ${isActive ? 'text-primary' : 'text-text-muted hover:text-text-main'
                                     }`}
                             >

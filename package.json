@@ -6,9 +6,9 @@
   "main": "electron/main.js",
   "scripts": {
     "dev": "vite",
-    "build": "npx tsx scripts/ensure-content.ts && npm run seo:regen && tsc -b && vite build && npm run build:ssr",
+    "build": "npm run seo:regen && tsc -b && vite build && npm run build:ssr && node scripts/prerender-all.js && node scripts/generate-sitemap.js",
     "build:ssr": "vite build --ssr src/entry-server.tsx --outDir dist/server",
-    "ssg": "npm run build && node scripts/prerender-all.js && node scripts/generate-sitemap.js",
+    "ssg": "npm run build",
     "seo:regen": "node scripts/generate-seo-manifest.js",
     "seo:check": "node scripts/validate-seo.js",
     "lint": "eslint .",

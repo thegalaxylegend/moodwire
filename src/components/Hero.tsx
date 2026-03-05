@@ -1,4 +1,9 @@
-import { ArrowRight, Play, Brain, ShieldCheck, Globe, BarChart2 } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
+import { Play } from 'lucide-react';
+import { Brain } from 'lucide-react';
+import { ShieldCheck } from 'lucide-react';
+import { Globe } from 'lucide-react';
+import { BarChart2 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 interface HeroProps {
@@ -23,13 +28,12 @@ export const Hero = ({ onOpenDemo }: HeroProps) => {
                         System Operating Normally
                     </div>
 
-                    <h1 className="text-5xl md:text-7xl font-heading font-bold text-text-main leading-tight">
-                        Navigate the <br />
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Chaos of Exams</span>
+                    <h1 className="text-5xl md:text-7xl font-heading font-bold text-text-main leading-tight" id="main-content">
+                        Master Your Exams with <br />
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">AI-Powered Preparation</span> <br />
                     </h1>
 
-                    <p className="text-lg text-text-muted max-w-xl mx-auto lg:mx-0 leading-relaxed">
-                        The "Google Maps" for Indian Aspirants.
+                    <p className="text-lg text-gray-300 max-w-xl mx-auto lg:mx-0 leading-relaxed">
                         Get real-time probability scores, AI-generated PYQ mocks, and an honest roadmap to your dream college.
                         <span className="text-text-main font-semibold block mt-2">No fake motivation. Just data.</span>
                     </p>
@@ -65,7 +69,7 @@ export const Hero = ({ onOpenDemo }: HeroProps) => {
                     <div className="glass-card p-6 border-zinc-800/50 bg-black/40 backdrop-blur-xl max-w-md mx-auto transform rotate-[-2deg] hover:rotate-0 transition-transform duration-500">
                         <div className="flex justify-between items-center mb-6">
                             <div className="space-y-1">
-                                <h3 className="font-bold text-text-main">Success Probability</h3>
+                                <h2 className="font-bold text-text-main text-base">Success Probability</h2>
                                 <p className="text-xs text-text-muted">Based on your last 5 mocks</p>
                             </div>
                             <BarChart2 className="text-primary" />

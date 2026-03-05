@@ -7,11 +7,16 @@ import { ExamGrid } from '../components/ExamGrid';
 import { DemoModal } from '../components/DemoModal';
 import { Loader2 } from 'lucide-react';
 import { SEO } from '../components/SEO';
+import { AboutAuthor } from '../components/seo/AboutAuthor';
+import { Footer } from '../components/Footer';
 
 export const LandingPage = () => {
     const navigate = useNavigate();
     const { isAuthenticated, isLoading } = useUserStore();
     const [showDemo, setShowDemo] = useState(false);
+
+    // SSR/SSG guard: on the server, never redirect or show spinner
+    const isServer = typeof window === 'undefined';
 
     useEffect(() => {
         if (!isLoading && isAuthenticated) {
@@ -20,16 +25,18 @@ export const LandingPage = () => {
     }, [isAuthenticated, isLoading, navigate]);
 
     // Show loader while checking auth state to prevent flashing
-    if (isLoading || isAuthenticated) {
+    // But NEVER during SSG — always render full content for crawlers
+    if (!isServer && (isLoading || isAuthenticated)) {
         return <div className="min-h-screen flex items-center justify-center bg-background"><Loader2 className="animate-spin text-primary" size={32} /></div>;
     }
 
     return (
         <div className="min-h-screen bg-transparent text-text-main relative overflow-hidden">
             <SEO
-                title="Exam Compass | AI-Powered Learning for Class 6-12 & Competitive Exams"
-                description="The ultimate study partner for Class 6-12 school exams, JEE, NEET, and UPSC. Get AI-generated mocks, personalized roadmaps, and honest data."
+                title="Exam Compass | AI-Powered Exam Preparation & Mock Tests"
+                description="The ultimate AI study partner for Class 6-12 board exams, JEE, NEET, and UPSC. Get personalized mock tests, PYQ analytics, and honest roadmaps for Indian aspirants."
                 canonical="https://examcompass.web.app/"
+                image="https://examcompass.web.app/og-image.png"
                 schema={{
                     "@context": "https://schema.org",
                     "@graph": [
@@ -49,15 +56,36 @@ export const LandingPage = () => {
                             "name": "Exam Compass",
                             "url": "https://examcompass.web.app",
                             "logo": "https://examcompass.web.app/exa-logo.png",
-                            "sameAs": []
+                            "sameAs": [
+                                "https://examcompass.web.app/blog",
+                                "https://examcompass.web.app/about"
+                            ]
                         }
                     ]
                 }}
             />
 
-            <Hero onOpenDemo={() => setShowDemo(true)} />
-            <ExamGrid />
+            < Hero onOpenDemo={() => setShowDemo(true)} />
+            < ExamGrid />
+
+            <section className="py-20 px-6 max-w-7xl mx-auto border-t border-white/5">
+                <article className="prose prose-invert max-w-4xl mx-auto text-center space-y-6">
+                    <h2 className="text-3xl md:text-5xl font-bold text-white mb-2">The Future of Exam Preparation</h2>
+                    <p className="text-lg text-gray-300 leading-relaxed text-left md:text-center">
+                        Exam Compass is an advanced, AI-powered learning ecosystem designed specifically for Indian students preparing for highly competitive entrance examinations such as JEE Mains, JEE Advanced, NEET UG, CLAT, GATE, and UPSC CSE, as well as foundational CBSE Class 6 to Class 12 board exams. We believe that hard work alone is no longer sufficient; success requires data-driven strategy and targeted preparation.
+                    </p>
+                    <p className="text-lg text-gray-300 leading-relaxed text-left md:text-center">
+                        Our platform completely eliminates the guesswork from your study routine. Unlike traditional test series that offer generic questions to every student, our adaptive Mock Exam Generator analyzes your individual performance, identifying your specific weaknesses down to the sub-topic level. By exclusively tracking your historical data, the AI curates customized mock tests composed of over 9,000 verified Previous Year Questions (PYQs), ensuring every minute you spend practicing directly contributes to improving your final rank.
+                    </p>
+                    <p className="text-lg text-gray-300 leading-relaxed text-left md:text-center">
+                        Stop wasting time on low-yield chapters. With Exam Compass, you gain access to comprehensive syllabus breakdowns, exact weightage analytics, real-time probability scores, and dynamic learning roadmaps. Practice smarter, overcome your exam anxiety, and secure your admission into India's premier colleges and universities with the power of artificial intelligence.
+                    </p>
+                </article>
+            </section>
+
+            <AboutAuthor compact />
             <DemoModal isOpen={showDemo} onClose={() => setShowDemo(false)} />
-        </div>
+            <Footer />
+        </div >
     );
 };

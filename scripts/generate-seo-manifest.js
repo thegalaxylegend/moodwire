@@ -60,9 +60,9 @@ async function getQuestionsFromAdminSDK() {
         console.log('🛡️ Authenticated as Admin.');
 
         // Fetch ALL questions from all collections to ensure maximum SEO coverage
-        const verifiedSnap = await db.collection('verified_questions').get();
-        const questionsSnap = await db.collection('questions').get();
-        const engineSnap = await db.collection('engine_questions').get();
+        const verifiedSnap = await db.collection('verified_questions').select('topic', 'text', 'sourceYear', 'subject', 'options', 'correctAnswer', 'correct', 'explanation').get();
+        const questionsSnap = await db.collection('questions').select('topic', 'text', 'sourceYear', 'subject', 'options', 'correctAnswer', 'correct', 'explanation').get();
+        const engineSnap = await db.collection('engine_questions').select('topic', 'text', 'sourceYear', 'subject', 'options', 'correctAnswer', 'correct', 'explanation').get();
 
         console.log(`📊 Found ${verifiedSnap.size} verified, ${questionsSnap.size} standard, and ${engineSnap.size} engine questions.`);
 
@@ -127,32 +127,37 @@ async function getQuestionsFromClientSDK() {
         await signInAnonymously(auth);
     } catch (e) { }
 
-    // First try verified, then questions
-    let snap = await getDocs(collection(db, 'verified_questions'));
-    if (snap.empty) {
-        snap = await getDocs(collection(db, 'questions'));
-    }
+    try {
+        // First try verified, then questions
+        let snap = await getDocs(collection(db, 'verified_questions'));
+        if (snap.empty) {
+            snap = await getDocs(collection(db, 'questions'));
+        }
 
-    if (snap.empty) return [];
+        if (snap.empty) return [];
 
-    const questions = [];
-    snap.forEach(doc => {
-        const data = doc.data();
-        const text = data.text || data.question || 'Practice Question';
-        const safeSlug = `${slugify(text.substring(0, 60))}-${doc.id}`.toLowerCase();
-        questions.push({
-            id: doc.id,
-            slug: safeSlug,
-            text,
-            options: data.options || [],
-            correctAnswer: data.correctAnswer !== undefined ? data.correctAnswer : (data.correct !== undefined ? data.correct : 0),
-            explanation: data.explanation || '',
-            subject: data.subject || '',
-            topic: data.topic || '',
-            sourceYear: data.sourceYear || ''
+        const questions = [];
+        snap.forEach(doc => {
+            const data = doc.data();
+            const text = data.text || data.question || 'Practice Question';
+            const safeSlug = `${slugify(text.substring(0, 60))}-${doc.id}`.toLowerCase();
+            questions.push({
+                id: doc.id,
+                slug: safeSlug,
+                text,
+                options: data.options || [],
+                correctAnswer: data.correctAnswer !== undefined ? data.correctAnswer : (data.correct !== undefined ? data.correct : 0),
+                explanation: data.explanation || '',
+                subject: data.subject || '',
+                topic: data.topic || '',
+                sourceYear: data.sourceYear || ''
+            });
         });
-    });
-    return questions;
+        return questions;
+    } catch (e) {
+        console.error('❌ Client SDK Error:', e.message);
+        return null; // Triggers fallback to local question cache
+    }
 }
 
 async function generate() {
@@ -201,6 +206,80 @@ async function generate() {
         const manifest = {};
         const questionDb = {};
 
+        // === INJECT HOME ROUTE ===
+        manifest['/'] = {
+            title: "Exam Compass | AI-Powered Exam Preparation & Mock Tests",
+            description: "The ultimate AI study partner for Class 6-12 board exams, JEE, NEET, and UPSC. Get personalized mock tests, PYQ analytics, and honest roadmaps for Indian aspirants.",
+            h1: "AI-Powered Exam Preparation",
+            type: "home",
+            priority: 1.0
+        };
+
+        // === INJECT POLICY PAGES (Required for AdSense) ===
+        manifest['/privacy'] = {
+            title: "Privacy Policy | Exam Compass",
+            description: "Read the Exam Compass Privacy Policy. Learn how we collect, use, and protect your personal data, including information about cookies, analytics, and third-party advertising.",
+            h1: "Privacy Policy",
+            type: "page",
+            priority: 0.3
+        };
+        manifest['/terms'] = {
+            title: "Terms of Service | Exam Compass",
+            description: "Read the Exam Compass Terms of Service. Understand the rules and guidelines for using our AI-powered exam preparation platform.",
+            h1: "Terms of Service",
+            type: "page",
+            priority: 0.3
+        };
+        manifest['/about'] = {
+            title: "About Exam Compass | AI-Powered Exam Preparation Platform",
+            description: "Learn about Exam Compass — an AI-powered exam preparation platform built by a Class 11 student from KV Darbhanga, Bihar.",
+            h1: "About Exam Compass",
+            type: "page",
+            priority: 0.5
+        };
+        manifest['/contact'] = {
+            title: "Contact Us | Exam Compass",
+            description: "Get in touch with the Exam Compass team. Contact us for questions, feedback, bug reports, or partnership inquiries.",
+            h1: "Contact Us",
+            type: "page",
+            priority: 0.3
+        };
+
+        // === INJECT BLOG ROUTES ===
+        const blogsDir = path.join(__dirname, '../src/content/blogs');
+        manifest['/blog'] = {
+            title: "Exam Compass Blog | AI Exam Prep Tips & Strategies",
+            description: "Expert strategies, syllabus breakdowns, and exam preparation tips for JEE, NEET, UPSC, and CBSE Class 10-12 students.",
+            h1: "Exam Compass Blog",
+            type: "blog-index",
+            priority: 0.9
+        };
+
+        if (fs.existsSync(blogsDir)) {
+            const blogFiles = fs.readdirSync(blogsDir).filter(f => f.endsWith('.md'));
+            blogFiles.forEach(file => {
+                const slug = file.replace('.md', '');
+                const fileContent = fs.readFileSync(path.join(blogsDir, file), 'utf8');
+
+                // Simple regex to grab frontmatter title and description
+                const titleMatch = fileContent.match(/title:\s*["'](.*?)["']/);
+                const descMatch = fileContent.match(/description:\s*["'](.*?)["']/);
+                const dateMatch = fileContent.match(/date:\s*["'](.*?)["']/);
+                const categoryMatch = fileContent.match(/category:\s*["'](.*?)["']/);
+
+                manifest[`/blog/${slug}`] = {
+                    title: titleMatch ? titleMatch[1] : `${slug.replace(/-/g, ' ')} | Exam Compass`,
+                    description: descMatch ? descMatch[1] : `Read ${slug.replace(/-/g, ' ')} on Exam Compass Blog.`,
+                    date: dateMatch ? dateMatch[1] : 'March 4, 2024',
+                    category: categoryMatch ? categoryMatch[1] : 'Exam Prep',
+                    h1: titleMatch ? titleMatch[1] : slug,
+                    type: "blog-post",
+                    priority: 0.8
+                };
+            });
+            console.log(`✅ Added ${blogFiles.length} blog routes to manifest.`);
+        }
+
         Object.entries(EXAM_SUBJECT_MAPPING).forEach(([examSlug, subjects]) => {
             const formattedExam = examSlug.replace(/-/g, ' ').toUpperCase();
             const examUrl = `/${examSlug}`;
@@ -228,8 +307,12 @@ async function generate() {
                 topics.forEach(topicName => {
                     const topicSlug = slugify(topicName);
                     const topicUrl = `${subjectUrl}/${topicSlug}`;
+
+                    const cleanTopic = topicName.replace(/\[.*?\]\s*/g, '');
+                    const shortTopic = cleanTopic.length > 35 ? `${cleanTopic.substring(0, 32)}...` : cleanTopic;
+
                     manifest[topicUrl] = {
-                        title: `${topicName} - ${subjectName} Prep for ${formattedExam}`,
+                        title: `${shortTopic} PYQs | ${formattedExam}`,
                         description: `Study ${topicName} from ${subjectName} for your ${formattedExam} preparation. Practice questions and AI roadmaps.`,
                         h1: topicName,
                         type: 'topic',

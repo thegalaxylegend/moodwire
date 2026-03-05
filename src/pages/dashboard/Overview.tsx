@@ -5,7 +5,7 @@ import { TrendingUp, RefreshCw, Flame, Play, ChevronRight, Target, Sparkles as S
 
 import { getWeakTopics, getStrongTopics, type TopicStat } from '../../services/topicStrengthService';
 import { DailyChallenge } from '../../components/DailyChallenge';
-import { syncHistoricalScoresToLeaderboard, syncSyllabusFromMocks } from '../../services/dataSyncService';
+import { syncHistoricalScoresToLeaderboard, syncSyllabusFromMocks, syncTopicStatsFromMocks } from '../../services/dataSyncService';
 import { RankBadge } from '../../components/gamification/RankBadge';
 import { XPProgress } from '../../components/gamification/XPProgress';
 
@@ -62,7 +62,7 @@ const DiagnosticPopup = ({ onDismiss, onStart }: { onDismiss: () => void; onStar
 };
 
 export const Overview = () => {
-    const { user, fetchSyllabusProgress, refreshMissions, completeMission } = useUserStore();
+    const { user, fetchSyllabusProgress, refreshMissions, completeMission, authResolved } = useUserStore();
     const navigate = useNavigate();
 
     // -- GUEST / INTENT LOGIC --
@@ -104,10 +104,11 @@ export const Overview = () => {
                     displayName: user.name,
                     avatar: user.avatarUrl
                 }),
-                syncSyllabusFromMocks(user.id)
+                syncSyllabusFromMocks(user.id),
+                syncTopicStatsFromMocks(user.id, user.userClass, user.targetExam)
             ]);
 
-            // Refresh counts and progress
+            // Refresh counts, progress, AND AI Stats
             const { db } = await import('../../lib/firebase');
             const { collection, query, where, getCountFromServer } = await import('firebase/firestore');
             const qMock = query(collection(db, 'mock_attempts'), where('user_id', '==', user.id));
@@ -137,12 +138,12 @@ export const Overview = () => {
     const [showDiagnosticPopup, setShowDiagnosticPopup] = useState(false);
 
     useEffect(() => {
-        if (user) {
+        if (user && authResolved) {
             fetchStats();
-        } else {
+        } else if (!user) {
             setLoading(false);
         }
-    }, [user]);
+    }, [user, authResolved]);
 
     useEffect(() => {
         if (user && !user.isGuest && (!user.dailyMissions || user.dailyMissions.length === 0)) {
@@ -188,6 +189,11 @@ export const Overview = () => {
                     );
                     const diagSnap = await getDocs(diagQ);
                     let diagnosticTaken = !diagSnap.empty;
+                    // NEW: Bypass for old users based on XP
+                    if (!diagnosticTaken && user.xp > 0) {
+                        console.log("[Overview] Old user verified via XP. Bypassing diagnostic popup.");
+                        diagnosticTaken = true;
+                    }
 
                     // Fallback: Check for legacy diagnostic (no class/exam set) meant for this user
                     if (!diagnosticTaken) {

@@ -14,7 +14,7 @@ import { AuthGate } from '../../components/auth/AuthGate';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { calculatePredictedRank } from '../../services/leaderboardService';
-import { markTopicsAsCompletedFromResults } from '../../services/dataSyncService';
+import { markTopicsAsCompletedFromResults, syncTopicStatsFromMocks } from '../../services/dataSyncService';
 import { trackQuestionTime, trackOptionSwitch } from '../../lib/analytics';
 import { storageService } from '../../services/storageService';
 import { FatigueService } from '../../services/fatigueService';
@@ -45,7 +45,7 @@ type Message = {
 };
 
 export const MockGenerator = () => {
-    const { user } = useUserStore();
+    const { user, authResolved } = useUserStore();
     const navigate = useNavigate();
     const [searchParams] = useSearchParams();
     const urlTopic = searchParams.get('topic');
@@ -150,10 +150,10 @@ export const MockGenerator = () => {
     }, [urlTopic, searchParams, navigate]);
 
     useEffect(() => {
-        if (user && step === 'config' && questions.length === 0) {
+        if (user && authResolved && step === 'config' && questions.length === 0) {
             checkPrerequisites();
         }
-    }, [user, urlTopic, searchParams, step, questions.length]);
+    }, [user, authResolved, urlTopic, searchParams, step, questions.length]);
 
     const checkPrerequisites = async () => {
         if (!user || step !== 'config' || questions.length > 0) return;
@@ -167,41 +167,52 @@ export const MockGenerator = () => {
             return;
         }
 
-        // Verify diagnostic test completion
-        try {
-            const q = query(
-                collection(db, 'diagnostic_results'),
-                where('user_id', '==', user.id),
-                where('class', '==', user.userClass || 'General'),
-                where('exam', '==', user.targetExam || 'General'),
-                limit(1)
-            );
-            const snap = await getDocs(q);
+        // PRIORITY: If user has XP or local history, they are established. Skip Firestore diagnostic check.
+        const localHistoryRaw = localStorage.getItem('exam_compass_local_history');
+        const hasLocalHistory = localHistoryRaw ? (JSON.parse(localHistoryRaw) || []).length > 0 : false;
+        const isEstablishedUser = user.xp > 0 || hasLocalHistory;
 
-            if (snap.empty) {
-                // Hard Gate: Redirect back if no diagnostic
+        if (!isEstablishedUser) {
+            // Only verify diagnostic for brand-new users (XP === 0)
+            try {
+                const q = query(
+                    collection(db, 'diagnostic_results'),
+                    where('user_id', '==', user.id),
+                    where('class', '==', user.userClass || 'General'),
+                    where('exam', '==', user.targetExam || 'General'),
+                    limit(1)
+                );
+                const snap = await getDocs(q);
+
+                if (snap.empty) {
+                    // Hard Gate: Redirect back if no diagnostic for new users
+                    navigate('/dashboard/test-center', { replace: true });
+                    return;
+                }
+            } catch (err) {
+                console.error("Prerequisite check failed:", err);
+                // On permission error for new users, redirect to test center
                 navigate('/dashboard/test-center', { replace: true });
                 return;
             }
+        }
 
-            if (urlTopic) {
-                setMode('topic');
-                generateExam('topic', urlTopic);
-            } else {
-                const diffParam = searchParams.get('difficulty');
-                const historyParam = searchParams.get('history');
+        // Proceed with test generation
+        if (urlTopic) {
+            setMode('topic');
+            generateExam('topic', urlTopic);
+        } else {
+            const diffParam = searchParams.get('difficulty');
+            const historyParam = searchParams.get('history');
 
-                if (historyParam === 'true') {
-                    setStep('history');
-                } else if (modeParam) {
-                    const standardizedMode = modeParam === 'Quick_Test' ? 'quick' : (modeParam === 'Full_Mock' ? 'full' : 'quick');
-                    setMode(standardizedMode as any);
-                    if (diffParam) setDifficulty(diffParam as any);
-                    generateExam(standardizedMode as any);
-                }
+            if (historyParam === 'true') {
+                setStep('history');
+            } else if (modeParam) {
+                const standardizedMode = modeParam === 'Quick_Test' ? 'quick' : (modeParam === 'Full_Mock' ? 'full' : 'quick');
+                setMode(standardizedMode as any);
+                if (diffParam) setDifficulty(diffParam as any);
+                generateExam(standardizedMode as any);
             }
-        } catch (err) {
-            console.error("Prerequisite check failed:", err);
         }
     };
 
@@ -311,7 +322,9 @@ export const MockGenerator = () => {
                     topic: q.topic,
                     isCorrect: answers[i] === q.correctAnswer
                 }));
+                // Fire and forget updating operations
                 markTopicsAsCompletedFromResults(user.id, questionResults).catch(() => { });
+                syncTopicStatsFromMocks(user.id, user.userClass, user.targetExam).catch(() => { });
             }
 
         } catch (e) {
@@ -611,6 +624,14 @@ export const MockGenerator = () => {
                     setQuestions(allQs);
                 }
             }
+
+            // Verify we actually generated questions before proceeding
+            // Rather than checking the async state (which isn't updated yet), we just rely on `questions` remaining empty if a block failed without throwing. Wait, we can't do that.
+            // A better way: check if the global target was met, or check if we progressed successfully.
+            if (globalFetchedRef.current === 0) {
+                throw new Error("No questions were generated successfully.");
+            }
+
             setStep('preview');
         } catch (e: any) {
             console.error(e);

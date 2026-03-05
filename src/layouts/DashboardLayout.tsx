@@ -209,6 +209,7 @@ export const DashboardLayout = () => {
                     <button
                         onClick={() => setIsSidebarOpen(!isSidebarOpen)}
                         className="p-2 hover:bg-white/5 rounded-lg transition-colors"
+                        aria-label={isSidebarOpen ? 'Close sidebar' : 'Open sidebar'}
                     >
                         {isSidebarOpen ? <X size={20} /> : <Menu size={20} />}
                     </button>
@@ -267,7 +268,7 @@ export const DashboardLayout = () => {
                             <Flame size={16} className="fill-primary" />
                             <span>{user?.streak || 0}</span>
                         </div>
-                        <button onClick={() => setIsSidebarOpen(true)} className="p-2 rounded-lg bg-surface border border-border">
+                        <button onClick={() => setIsSidebarOpen(true)} className="p-2 rounded-lg bg-surface border border-border" aria-label="Open navigation menu">
                             <Menu size={24} />
                         </button>
                     </div>

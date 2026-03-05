@@ -14,7 +14,7 @@ const exams = [
         difficulty: 'Hard'
     },
     {
-        id: 'neet-ug',
+        id: 'neet',
         name: 'NEET UG',
         desc: 'Medical Entrance Test',
         nextDate: 'May 05, 2026',
@@ -27,14 +27,14 @@ const exams = [
         id: 'clat',
         name: 'CLAT',
         desc: 'Common Law Admission Test',
-        nextDate: 'Dec 03, 2025',
+        nextDate: 'Dec 07, 2026',
         progress: 90,
         color: 'bg-accent',
         category: 'Law',
         difficulty: 'Medium'
     },
     {
-        id: 'upsc-cse',
+        id: 'upsc',
         name: 'UPSC CSE',
         desc: 'Civil Services Examination',
         nextDate: 'May 26, 2026',
@@ -47,7 +47,7 @@ const exams = [
         id: 'cat',
         name: 'CAT',
         desc: 'Common Admission Test',
-        nextDate: 'Nov 24, 2025',
+        nextDate: 'Nov 29, 2026',
         progress: 60,
         color: 'bg-emerald-500',
         category: 'Management',

@@ -49,10 +49,10 @@ async function prerender() {
         const batch = routes.slice(i, i + BATCH_SIZE);
         console.log(`Processing batch ${Math.floor(i / BATCH_SIZE) + 1} (${batch.length} urls)...`);
 
-        await Promise.all(batch.map(async (url) => {
+        // Use sequential processing within the batch to avoid globalThis race conditions
+        for (const url of batch) {
             try {
                 // INJECT GLOBAL DATA
-
                 if (questionDb[url]) {
                     globalThis.SEO_QUESTION_DATA = questionDb[url];
                 } else {
@@ -63,13 +63,11 @@ async function prerender() {
                 const isTopicPage = manifest[url]?.type === 'topic';
                 if (isTopicPage) {
                     const topicName = manifest[url].h1; // We stored topic name in h1
-                    // Filter questions that match this topic
                     const relatedQuestions = Object.values(questionDb).filter((q) => {
-                        // Loose matching: slugify both
                         const qTopic = (q.topic || '').toLowerCase().replace(/[^a-z0-9]/g, '');
                         const pTopic = topicName.toLowerCase().replace(/[^a-z0-9]/g, '');
                         return qTopic === pTopic || qTopic.includes(pTopic) || pTopic.includes(qTopic);
-                    }).slice(0, 15); // Take top 15
+                    }).slice(0, 15);
 
                     globalThis.SEO_TOPIC_DATA = relatedQuestions.map(q => ({
                         id: q.id,
@@ -81,26 +79,43 @@ async function prerender() {
                     globalThis.SEO_TOPIC_DATA = [];
                 }
 
+                // 3. For Blog Pages (Inject Blog Metadata)
+                if (url.startsWith('/blog/') && url !== '/blog') {
+                    const slug = url.split('/').pop();
+                    // We can't easily import the blogs list here, so we'll 
+                    // rely on the manifest which should have the basic info.
+                    if (manifest[url]) {
+                        globalThis.SEO_BLOG_DATA = {
+                            title: manifest[url].title,
+                            description: manifest[url].description,
+                            date: manifest[url].date || 'March 4, 2024',
+                            category: manifest[url].category || 'Exam Prep',
+                            id: slug
+                        };
+                    }
+                } else {
+                    globalThis.SEO_BLOG_DATA = null;
+                }
+
                 const helmetContext = {};
 
-                // RENDER
+                // RENDER - render function returns a string
+                console.log(`🚀 [SSR] Rendering ${url}...`);
                 const appHtml = render(url, helmetContext);
+
+                // Extract Helmet Metadata
                 const { helmet } = helmetContext;
+                const headTags = helmet ? [
+                    helmet.title.toString(),
+                    helmet.meta.toString(),
+                    helmet.link.toString(),
+                    helmet.script.toString()
+                ].join('\n') : '';
 
-                // CLEANUP global to prevent leaks
-                globalThis.SEO_QUESTION_DATA = null;
-
-                // Extract tags
-                const headTags = `
-                    ${helmet.title.toString()}
-                    ${helmet.meta.toString()}
-                    ${helmet.link.toString()}
-                    ${helmet.script.toString()}
-                `.trim();
-
+                // HYDRATION & TEMPLATE INJECTION
                 const html = template
-                    .replace(/<!--app-html-->[\s\S]*?<!--app-html-end-->/, appHtml)
-                    .replace(`<!--app-head-->`, headTags);
+                    .replace('<!--app-head-->', headTags)
+                    .replace('<!--app-html-->', appHtml);
 
                 // Verification logic
                 if (url.includes('/q/')) {
@@ -128,8 +143,7 @@ async function prerender() {
                 console.error(`❌ Failed: ${url} -> ${err.message}`);
                 failureCount++;
             }
-
-        }));
+        }
     }
 
     console.log('------------------------------------------------');

@@ -5,6 +5,7 @@ import { Navbar } from '../../components/Navbar';
 import { ArrowRight } from 'lucide-react';
 import { SYLLABUS_DB } from '../../lib/constants';
 import { slugify, getSubjectsForExam } from '../../lib/utils';
+import { Footer } from '../../components/Footer';
 
 
 // FAQ data per exam for rich snippets
@@ -74,12 +75,22 @@ export const ExamLanding = () => {
             "provider": {
                 "@type": "Organization",
                 "name": "Exam Compass",
-                "sameAs": "https://examcompass.web.app"
+                "logo": "https://examcompass.web.app/exa-logo.png",
+                "sameAs": "https://examcompass.web.app",
+                "url": "https://examcompass.web.app"
             },
             "hasCourseInstance": {
                 "@type": "CourseInstance",
-                "courseMode": "online"
-            }
+                "courseMode": "online",
+                "courseWorkload": "PT10H"
+            },
+            "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "INR",
+                "category": "Free"
+            },
+            "isAccessibleForFree": true
         },
         {
             "@type": "BreadcrumbList",
@@ -118,7 +129,7 @@ export const ExamLanding = () => {
     return (
         <div className="min-h-screen bg-black text-white selection:bg-purple-500/30">
             <SEO
-                title={`${formattedExam} Preparation 2026 | AI Mock Tests, PYQs & Study Plans`}
+                title={`${formattedExam} Prep 2026: AI Mock Tests & PYQs`}
                 description={`Crack ${formattedExam} with AI-generated mock tests, 5000+ PYQs, real-time analytics, and personalized study plans. Free practice for ${formattedExam} 2026.`}
                 canonical={`https://examcompass.web.app/${exam}`}
                 keywords={`${formattedExam} preparation, ${formattedExam} mock test, ${formattedExam} PYQ, ${formattedExam} practice questions, ${formattedExam} 2026`}
@@ -130,12 +141,62 @@ export const ExamLanding = () => {
             <Navbar />
 
             <section className="pt-32 pb-20 px-6 max-w-7xl mx-auto">
+                <div className="flex items-center gap-3 text-sm text-gray-300 mb-6 uppercase tracking-widest">
+                    <Link to="/" className="hover:text-white transition-colors">Home</Link>
+                    <span>/</span>
+                    <span className="text-white">{formattedExam}</span>
+                </div>
                 <h1 className="text-5xl md:text-7xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
                     Crack {formattedExam}
                 </h1>
-                <p className="text-xl text-gray-400 max-w-2xl mb-10">
-                    The smartest way to prepare. AI-driven mock tests, real-time analytics, and rigorous practice questions for {formattedExam}.
-                </p>
+
+                <article className="max-w-4xl mb-12 space-y-6">
+                    <p className="text-xl text-gray-300 font-medium leading-relaxed">
+                        Master the complexities of {formattedExam} with the industry's most advanced AI-powered learning platform. Our ecosystem is custom-built to provide a rigorous, data-driven approach to one of India's most challenging entrance examinations, ensuring you're not just studying, but studying effectively.
+                    </p>
+                    <p className="text-gray-300 leading-relaxed">
+                        Preparing for {formattedExam} is an endurance race that requires exceptional conceptual clarity, speed, and accuracy. At Exam Compass, we bridge the gap between hard work and smart work. Our platform features over {getSubjectsForExam(exam || '').length} meticulously mapped subjects, providing a complete chapter-wise breakdown of the entire {formattedExam} syllabus. From high-weightage topics that appear year after year to the most obscure concepts, we ensure nothing is left to chance.
+                    </p>
+                    <p className="text-gray-300 leading-relaxed">
+                        What sets us apart is our proprietary AI-driven preparation engine. Unlike static test series that treat every aspirant the same, Exam Compass adapts to your unique learning curve. Our algorithms analyze every attempt, identifying your personal "blind spots" and knowledge gaps. This allows the platform to generate personalized mock tests that focus specifically on the areas where you need the most improvement, drastically reducing time wasted on already mastered topics.
+                    </p>
+                    <p className="text-gray-300 leading-relaxed">
+                        Gain a competitive edge with our database of 9,000+ verified Previous Year Questions (PYQs). Each question is accompanied by a detailed AI-generated explanation that doesn't just give you the answer, but teaches you the logic, shortcut techniques, and common pitfalls to avoid during the actual {formattedExam} exam. Track your real-time probability of selection, visualize your progress through advanced analytics, and build the confidence required to crack the exam 2026.
+                    </p>
+                    <p className="text-gray-300 leading-relaxed">
+                        Beyond just testing, we offer dynamic learning roadmaps. If you're struggling with a particular topic in {getSubjectsForExam(exam || '')[0] || 'your syllabus'}, the AI will automatically suggest high-yield subjects and video lectures from our curated collection to reinforce your foundation. With Exam Compass, your preparation is constant, evolving, and always targeted toward your dream college admission.
+                    </p>
+                </article>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                    <div className="p-8 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-md">
+                        <h3 className="text-2xl font-bold mb-4 flex items-center gap-2">
+                            <span className="text-purple-400">Selection Probability AI</span>
+                        </h3>
+                        <p className="text-gray-400 text-sm leading-relaxed mb-4">
+                            Our proprietary algorithm calculates your readiness for {formattedExam} based on accuracy, speed, and consistency. Unlike traditional percentages, Selection Probability takes into account the difficulty of questions you're solving compared to the thousands of other aspirants on the platform.
+                        </p>
+                        <div className="flex items-center gap-4 text-xs text-gray-500 uppercase tracking-widest">
+                            <span>Real-time tracking</span>
+                            <span className="w-1 h-1 rounded-full bg-gray-500" />
+                            <span>Competitive indexing</span>
+                        </div>
+                    </div>
+                    <div className="p-8 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-md">
+                        <h3 className="text-2xl font-bold mb-4 flex items-center gap-2">
+                            <span className="text-pink-400">Real-Time Analytics</span>
+                        </h3>
+                        <p className="text-gray-400 text-sm leading-relaxed mb-4">
+                            Don't wait for the weekly mock result to know where you stand. Every question you answer in {formattedExam} practice sets feeds into your live performance dashboard. We track your "Fatigue Point" — the moment your accuracy drops — to suggest the ideal time for your study breaks.
+                        </p>
+                        <div className="flex items-center gap-4 text-xs text-gray-500 uppercase tracking-widest">
+                            <span>Fatigue detection</span>
+                            <span className="w-1 h-1 rounded-full bg-gray-500" />
+                            <span>Subject heatmaps</span>
+                        </div>
+                    </div>
+                </div>
+
                 <Link to={`/dashboard/mock?exam=${exam}`} className="inline-flex items-center gap-2 bg-white text-black px-8 py-4 rounded-full font-bold hover:scale-105 transition-transform">
                     Start {formattedExam} Mock Test <ArrowRight size={20} />
                 </Link>
@@ -154,11 +215,49 @@ export const ExamLanding = () => {
                                 to={`/${exam}/${slugify(subject)}`}
                                 className="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-purple-500/50 hover:bg-white/10 transition-all group"
                             >
-                                <h3 className="text-xl font-bold mb-2 group-hover:text-purple-400 transition-colors">{subject}</h3>
-                                <p className="text-sm text-gray-400">{topicCount} Topics • {topicCount * 15}+ Questions</p>
+                                <h3 className="text-xl font-bold mb-2 group-hover:text-purple-400 transition-colors uppercase text-sm tracking-wide text-gray-400">{subject} Core</h3>
+                                <p className="text-sm text-gray-300">{topicCount} Topics • {topicCount * 15}+ Questions</p>
+                                <div className="mt-4 text-xs text-purple-400 flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                                    Explore Modules <ArrowRight size={12} />
+                                </div>
                             </Link>
                         );
                     })}
+                </div>
+
+                <div className="mt-20 pt-10 border-t border-white/10">
+                    <h2 className="text-2xl font-bold mb-6">Preparation Roadmaps</h2>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div className="p-8 rounded-3xl bg-gradient-to-br from-purple-500/10 to-transparent border border-purple-500/20">
+                            <h3 className="text-xl font-bold mb-4">The 90-Day Sprint</h3>
+                            <p className="text-gray-400 text-sm leading-relaxed mb-6">
+                                Designed for students in the final stretch. This roadmap prioritizes high-weightage chapters in {getSubjectsForExam(exam || '').join(', ')} and focuses on solving at least 50 PYQs daily to build muscle memory and speed for {formattedExam}.
+                            </p>
+                            <Link to="/dashboard" className="text-purple-400 text-sm font-semibold hover:underline">View Roadmap →</Link>
+                        </div>
+                        <div className="p-8 rounded-3xl bg-gradient-to-br from-blue-500/10 to-transparent border border-blue-500/20">
+                            <h3 className="text-xl font-bold mb-4">Foundational Mastery</h3>
+                            <p className="text-gray-400 text-sm leading-relaxed mb-6">
+                                Perfect for Class 11 or early starters. We focus on conceptual depth and building a strong theoretical base before diving into complex problem-solving. AI tracks your accuracy to ensure a 100% success rate on fundamentals.
+                            </p>
+                            <Link to="/dashboard" className="text-blue-400 text-sm font-semibold hover:underline">View Roadmap →</Link>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="mt-20 pt-10 border-t border-white/10">
+                    <h2 className="text-2xl font-bold mb-6 italic text-gray-500">Compare with Other Goals</h2>
+                    <div className="flex flex-wrap gap-3">
+                        {['JEE Mains', 'NEET', 'UPSC', 'GATE', 'CLAT', 'Class 12'].filter(e => slugify(e) !== exam).map(other => (
+                            <Link
+                                key={other}
+                                to={`/${slugify(other)}`}
+                                className="px-4 py-2 rounded-lg bg-white/5 border border-white/5 hover:border-white/20 text-xs text-gray-400 hover:text-white transition-all"
+                            >
+                                {other}
+                            </Link>
+                        ))}
+                    </div>
                 </div>
             </section>
 
@@ -171,14 +270,16 @@ export const ExamLanding = () => {
                             <details key={idx} className="group p-6 rounded-2xl bg-white/5 border border-white/10 cursor-pointer">
                                 <summary className="text-lg font-semibold group-open:text-purple-400 transition-colors list-none flex justify-between items-center">
                                     {faq.question}
-                                    <span className="text-gray-500 group-open:rotate-180 transition-transform text-xl">▼</span>
+                                    <span className="text-gray-400 group-open:rotate-180 transition-transform text-xl">▼</span>
                                 </summary>
-                                <p className="mt-4 text-gray-400 leading-relaxed">{faq.answer}</p>
+                                <p className="mt-4 text-gray-300 leading-relaxed">{faq.answer}</p>
                             </details>
                         ))}
                     </div>
                 </section>
             )}
+
+            <Footer />
         </div>
     );
 };

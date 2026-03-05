@@ -1,6 +1,5 @@
 
 import { Link } from 'react-router-dom';
-import { ThemeSwitcher } from './ThemeSwitcher';
 
 export const Navbar = () => {
     return (
@@ -11,7 +10,6 @@ export const Navbar = () => {
                 </Link>
 
                 <div className="flex items-center gap-4">
-                    <ThemeSwitcher />
                     <Link to="/login" className="px-6 py-2 rounded-full bg-white text-black font-bold hover:bg-gray-200 transition-colors">
                         Login
                     </Link>
