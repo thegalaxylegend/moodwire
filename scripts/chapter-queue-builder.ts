@@ -61,30 +61,37 @@ async function buildQueue() {
     const existingBlogs = fs.readdirSync(BLOG_DIR).map(f => (f as string).replace('.md', ''));
     const missingTopics: any[] = [];
 
-    // Helper: Create a "Core Slug" for 100% accurate comparison
-    // Removes fluff like 'of', 'the', 'class' and focuses on content keywords
-    const getCoreSlug = (text: string) => {
+    // Helper: Create a "Core Identity" for 100% accurate comparison
+    // Removes fluff like 'of', 'the', 'class', 'notes' and focuses on content keywords
+    const getCoreIdentity = (text: string) => {
         return text.toLowerCase()
-            .replace(/[^a-z0-9\s]+/g, ' ')
-            .split(/\s+/)
-            .filter(w => w.length > 2 && !['the', 'and', 'for', 'with', 'class', 'notes', 'revision', 'concepts', 'concepts-of', 'structure', 'classification'].includes(w))
-            .join('-');
+            .replace(/revision|notes|class|physics|chemistry|biology|maths|mathematics|-/g, ' ')
+            .replace(/concept|structure|classification|periodicity|world|element|reaction|basic/g, ' ')
+            .replace(/\s+/g, ' ')
+            .trim()
+            .split(' ')
+            .filter(w => w.length > 2 && !['the', 'and', 'for', 'with', 'some'].includes(w))
+            .sort() // Sort keywords so order doesn't matter (e.g. "Acid Base" === "Base Acid")
+            .join(' ');
     };
 
     // 2. Identify missing topics
     for (const item of SYLLABUS_FULL_LIST) {
-        const itemCore = getCoreSlug(item.topic);
+        const itemIdentity = getCoreIdentity(item.topic);
         const slug1 = slugify(item.topic + "-class-" + item.class.replace('Class ', '') + "-notes");
         
         // Smarter check: Compare core content keywords
         const isDuplicate = existingBlogs.some((blogName: string) => {
-            const blogCore = getCoreSlug(blogName);
-            return blogCore === itemCore || 
+            const blogIdentity = getCoreIdentity(blogName);
+            
+            // Match if core keywords are identical, or if filenames are very similar
+            return (itemIdentity.length > 0 && blogIdentity.includes(itemIdentity)) || 
+                   (blogIdentity.length > 0 && itemIdentity.includes(blogIdentity)) ||
                    blogName.includes(slugify(item.topic)) || 
                    blogName === slug1;
         });
 
-        if (!isDuplicate && itemCore.length > 0) {
+        if (!isDuplicate && itemIdentity.length > 0) {
             missingTopics.push({
                 subject: item.subject,
                 topic: item.topic,
