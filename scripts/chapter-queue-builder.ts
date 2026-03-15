@@ -62,17 +62,16 @@ async function buildQueue() {
     const missingTopics: any[] = [];
 
     // Helper: Create a "Core Identity" for 100% accurate comparison
-    // Removes fluff like 'of', 'the', 'class', 'notes' and focuses on content keywords
+    // Removes fluff like 'of', 'the', 'class' and focuses ONLY on the subject keywords
     const getCoreIdentity = (text: string) => {
         return text.toLowerCase()
-            .replace(/revision|notes|class|physics|chemistry|biology|maths|mathematics|-/g, ' ')
-            .replace(/concept|structure|classification|periodicity|world|element|reaction|basic/g, ' ')
-            .replace(/\s+/g, ' ')
-            .trim()
-            .split(' ')
-            .filter(w => w.length > 2 && !['the', 'and', 'for', 'with', 'some'].includes(w))
-            .sort() // Sort keywords so order doesn't matter (e.g. "Acid Base" === "Base Acid")
-            .join(' ');
+            .replace(/revision|notes|class|physics|chemistry|biology|maths|mathematics|notes|recall|concepts|principles/g, ' ')
+            .replace(/[^a-z0-9\s]+/g, ' ') // Keep numbers for chapters
+            .split(/\s+/)
+            .filter(w => w.length > 2 && !['the', 'and', 'for', 'with', 'some', 'from', 'this', 'that', 'our'].includes(w))
+            .sort()
+            .join(' ')
+            .trim();
     };
 
     // 2. Identify missing topics
