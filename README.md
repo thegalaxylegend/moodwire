@@ -2,6 +2,12 @@
 
 > **The World's Fastest, AI-Driven Exam Preparation Platform.**
 > *Optimized for <0.5s LCP, 100% SEO Indexability, and Adaptive Learning.*
+>
+> 🚀 **Read our [World-Class SEO Strategy (REED.md)](file:///c:/Users/Admin/Downloads/Desktop/REED.md)**
+> 🥇 **Learn how to [Rank Top 1-2 on Google (RANKING_GUIDE.md)](file:///c:/Users/Admin/Downloads/Desktop/RANKING_GUIDE.md)**
+> 🔥 **Discover our [Growth Hacks for 1M+ Views (GROWTH_HACKS.md)](file:///c:/Users/Admin/Downloads/Desktop/GROWTH_HACKS.md)**
+
+
 
 Exam Compass is a next-generation EdTech platform designed to crack competitive exams like **JEE MAINS**. It combines a **Hybrid SSG/SPA Architecture** with a powerful **AI Question Engine** to deliver instant page loads for search engines while providing a rich, interactive application for users.
 

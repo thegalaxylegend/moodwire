@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react';
-import { Calendar, Clock, RefreshCw, Loader2 } from 'lucide-react';
+import { Calendar, Clock, RefreshCw, Loader2, Brain } from 'lucide-react';
 import { useUserStore } from '../../store/userStore';
 import { auth } from '../../lib/firebase';
 import { askAI } from '../../lib/ai';
 import { extractJSON } from '../../lib/utils';
+import { AuthGate } from '../../components/auth/AuthGate';
 // import { supabase } from '../../lib/supabase'; // REMOVED
 
 type TimelineEvent = {
@@ -18,8 +19,8 @@ export const Timeline = () => {
     const [events, setEvents] = useState<TimelineEvent[]>([]);
 
     useEffect(() => {
-        if (user?.targetExam && user?.id) fetchTimeline();
-    }, [user?.id, user?.targetExam, user?.targetYear]);
+        if (user?.targetExam && user?.id && !user.isGuest) fetchTimeline();
+    }, [user?.id, user?.targetExam, user?.targetYear, user?.isGuest]);
 
     const fetchTimeline = async () => {
         setLoading(true);
@@ -89,7 +90,7 @@ export const Timeline = () => {
         `;
 
         try {
-            const response = await askAI("Academic Counselor", prompt, 'groq');
+            const response = await askAI("Academic Counselor", prompt, 'groq', [], { stream: false });
             if (response) {
                 const data = extractJSON(response);
                 if (Array.isArray(data)) {
@@ -121,86 +122,105 @@ export const Timeline = () => {
 
     const isJunior = ['Class 6th', 'Class 7th', 'Class 8th', 'Class 9th', 'Class 10th'].includes(user?.userClass || '');
 
-    if (!user?.targetExam || isJunior) {
-        return (
-            <div className="flex flex-col items-center justify-center h-[50vh] space-y-4 text-center px-4">
-                <div className="p-4 bg-primary/10 rounded-full mb-2">
-                    <Calendar size={48} className="text-primary" />
-                </div>
-                <h2 className="text-xl font-bold text-text-main">
-                    {isJunior ? 'Timeline Not Available' : 'Setup Required'}
-                </h2>
-                <p className="text-text-muted max-w-md">
-                    {isJunior
-                        ? 'Exam timelines are designed for competitive exams like JEE and NEET. Focus on your school syllabus!'
-                        : 'Please configure your Target Exam in your profile to generate a timeline.'
-                    }
-                </p>
-                {isJunior && (
-                    <div className="flex gap-3 mt-4">
-                        <button
-                            onClick={() => window.history.back()}
-                            className="px-6 py-2 bg-surface border border-border rounded-lg hover:bg-white/5 transition-all text-sm font-medium"
-                        >
-                            Go Back
-                        </button>
-                    </div>
-                )}
-            </div>
-        );
-    }
-
     return (
-        <div className="space-y-8 animate-fade-in-up">
-            <header className="flex justify-between items-center">
-                <div>
-                    <h1 className="text-3xl font-heading font-bold text-text-main">Exam Timeline</h1>
-                    <p className="text-text-muted">Critical dates for {user?.targetExam}.</p>
+        <AuthGate
+            mode="modal"
+            fallback={
+                <div className="space-y-8 animate-fade-in-up w-full">
+                    <header>
+                        <h1 className="text-3xl font-heading font-bold text-text-main">Exam Timeline</h1>
+                        <p className="text-text-muted">Track critical dates for your target exam.</p>
+                    </header>
+                    <div className="glass-card p-12 text-center flex flex-col items-center justify-center space-y-4">
+                        <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-2">
+                            <Brain className="text-primary" size={32} />
+                        </div>
+                        <h2 className="text-xl font-bold text-text-main">Unlock Your Timeline</h2>
+                        <p className="text-text-muted max-w-md mx-auto">
+                            Log in to personalize your timeline with exact deadlines, registration dates, and admit card tracking specifically for your selected exam.
+                        </p>
+                    </div>
                 </div>
-                <button
-                    onClick={() => generateTimeline()}
-                    title="Regenerate Timeline"
-                    className="p-2 border border-border rounded-lg hover:bg-white/5"
-                >
-                    <RefreshCw className={loading ? 'animate-spin' : ''} />
-                </button>
-            </header>
-
-            {loading && events.length === 0 ? (
-                <div className="flex justify-center py-20">
-                    <Loader2 className="animate-spin text-primary" size={40} />
+            }
+        >
+            {(!user?.targetExam || isJunior) ? (
+                <div className="flex flex-col items-center justify-center h-[50vh] space-y-4 text-center px-4">
+                    <div className="p-4 bg-primary/10 rounded-full mb-2">
+                        <Calendar size={48} className="text-primary" />
+                    </div>
+                    <h2 className="text-xl font-bold text-text-main">
+                        {isJunior ? 'Timeline Not Available' : 'Setup Required'}
+                    </h2>
+                    <p className="text-text-muted max-w-md">
+                        {isJunior
+                            ? 'Exam timelines are designed for competitive exams like JEE and NEET. Focus on your school syllabus!'
+                            : 'Please configure your Target Exam in your profile to generate a timeline.'
+                        }
+                    </p>
+                    {isJunior && (
+                        <div className="flex gap-3 mt-4">
+                            <button
+                                onClick={() => window.history.back()}
+                                className="px-6 py-2 bg-surface border border-border rounded-lg hover:bg-white/5 transition-all text-sm font-medium"
+                            >
+                                Go Back
+                            </button>
+                        </div>
+                    )}
                 </div>
             ) : (
-                <div className="relative border-l-2 border-border ml-4 space-y-12 py-4">
-                    {Array.isArray(events) && events.map((event, idx) => (
-                        <div key={idx} className="relative pl-8 group">
-                            {/* Timeline Dot */}
-                            <div className={`absolute -left-[9px] top-1 w-4 h-4 rounded-full border-2 border-surface 
-                   ${event.status === 'highlight' ? 'bg-accent shadow-[0_0_10px_rgba(216,180,254,0.8)]' : 'bg-primary'}
-                 `}></div>
+                <div className="space-y-8 animate-fade-in-up">
+                    <header className="flex justify-between items-center">
+                        <div>
+                            <h1 className="text-3xl font-heading font-bold text-text-main">Exam Timeline</h1>
+                            <p className="text-text-muted">Critical dates for {user?.targetExam}.</p>
+                        </div>
+                        <button
+                            onClick={() => generateTimeline()}
+                            title="Regenerate Timeline"
+                            className="p-2 border border-border rounded-lg hover:bg-white/5"
+                        >
+                            <RefreshCw className={loading ? 'animate-spin' : ''} />
+                        </button>
+                    </header>
 
-                            <div className="glass-card p-6 hover:scale-[1.02] transition-transform">
-                                <div className="flex flex-col sm:flex-row justify-between sm:items-center gap-4">
-                                    <div>
-                                        <h3 className="text-xl font-bold text-text-main">{event.title}</h3>
-                                        <div className="flex items-center gap-2 text-text-muted mt-1">
-                                            <Calendar size={16} />
-                                            <span>{event.date}</span>
+                    {loading && events.length === 0 ? (
+                        <div className="flex justify-center py-20">
+                            <Loader2 className="animate-spin text-primary" size={40} />
+                        </div>
+                    ) : (
+                        <div className="relative border-l-2 border-border ml-4 space-y-12 py-4">
+                            {Array.isArray(events) && events.map((event, idx) => (
+                                <div key={idx} className="relative pl-8 group">
+                                    {/* Timeline Dot */}
+                                    <div className={`absolute -left-[9px] top-1 w-4 h-4 rounded-full border-2 border-surface 
+                           ${event.status === 'highlight' ? 'bg-accent shadow-[0_0_10px_rgba(216,180,254,0.8)]' : 'bg-primary'}
+                         `}></div>
+
+                                    <div className="glass-card p-6 hover:scale-[1.02] transition-transform">
+                                        <div className="flex flex-col sm:flex-row justify-between sm:items-center gap-4">
+                                            <div>
+                                                <h3 className="text-xl font-bold text-text-main">{event.title}</h3>
+                                                <div className="flex items-center gap-2 text-text-muted mt-1">
+                                                    <Calendar size={16} />
+                                                    <span>{event.date}</span>
+                                                </div>
+                                            </div>
+
+                                            {event.status === 'highlight' && (
+                                                <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-accent/10 text-accent border border-accent/20">
+                                                    <Clock size={16} />
+                                                    <span className="font-semibold">Major Event</span>
+                                                </div>
+                                            )}
                                         </div>
                                     </div>
-
-                                    {event.status === 'highlight' && (
-                                        <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-accent/10 text-accent border border-accent/20">
-                                            <Clock size={16} />
-                                            <span className="font-semibold">Major Event</span>
-                                        </div>
-                                    )}
                                 </div>
-                            </div>
+                            ))}
                         </div>
-                    ))}
+                    )}
                 </div>
             )}
-        </div>
+        </AuthGate>
     );
 };

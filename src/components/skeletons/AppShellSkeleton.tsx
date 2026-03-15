@@ -6,8 +6,8 @@ export const AppShellSkeleton = () => {
             {/* Sidebar Skeleton */}
             <aside className="fixed lg:sticky top-0 h-screen bg-surface/95 backdrop-blur-md border-r border-border w-64 hidden lg:flex flex-col z-[70]">
                 <div className="p-6 flex items-center justify-between shrink-0">
-                    <span className="text-xl font-heading font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary whitespace-nowrap">
-                        Exam-Compass
+                    <span className="text-xl md:text-2xl font-bold text-white tracking-tighter whitespace-nowrap">
+                        Exam<span className="text-[#a855f7]">Compass</span>
                     </span>
                 </div>
 
@@ -34,8 +34,8 @@ export const AppShellSkeleton = () => {
             {/* Main Content Skeleton */}
             <main className="flex-1 p-4 lg:p-10 overflow-x-hidden relative w-full pb-24 lg:pb-10">
                 {/* Mobile Header Skeleton */}
-                <div className="lg:hidden mb-6 flex items-center justify-between">
-                    <span className="text-xl font-heading font-bold text-text-main">Exam-Compass</span>
+                <div className="lg:hidden mb-4 h-20 flex items-center justify-between shrink-0 sticky top-0 z-50 -mt-4 -mx-4 px-4">
+                    <span className="text-xl md:text-2xl font-bold text-white tracking-tighter">Exam<span className="text-[#a855f7]">Compass</span></span>
                     <div className="flex items-center gap-3">
                         <div className="flex items-center gap-1.5 px-3 py-1.5 bg-surface border border-border rounded-lg text-primary font-bold text-sm opacity-50">
                             <Flame size={16} />

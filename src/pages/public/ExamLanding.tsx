@@ -6,6 +6,15 @@ import { ArrowRight } from 'lucide-react';
 import { SYLLABUS_DB } from '../../lib/constants';
 import { slugify, getSubjectsForExam } from '../../lib/utils';
 import { Footer } from '../../components/Footer';
+import { SocialShare } from '../../components/SocialShare';
+import { AuthorBio } from '../../components/AuthorBio';
+import { Download, Loader2 } from 'lucide-react';
+import { useState } from 'react';
+import { examDates } from '../../config/examDates';
+import { getExamPersonality } from '../../data/examPersonality';
+import { DirectAnswerBlock } from '../../components/seo/DirectAnswerBlock';
+import { StudentTip } from '../../components/seo/StudentTip';
+
 
 
 // FAQ data per exam for rich snippets
@@ -54,10 +63,30 @@ const getClassFAQs = (classNum: string): { question: string; answer: string }[] 
     { question: `Are the questions based on the latest ${classNum} syllabus?`, answer: `Yes, all questions are generated based on the latest CBSE/NCERT ${classNum} syllabus and are regularly verified for accuracy and relevance.` }
 ];
 
+import { getExamContent } from '../../lib/examContent';
 
 export const ExamLanding = () => {
     const { exam } = useParams();
     const formattedExam = exam?.replace(/-/g, ' ').toUpperCase() || 'EXAM';
+    const examDetail = getExamContent(exam || '');
+    const [generatingPdf, setGeneratingPdf] = useState(false);
+    
+    const targetYear = examDates.getExamYear(exam || '');
+    const personality = getExamPersonality(exam || '');
+
+    const handleDownloadPDF = async () => {
+        setGeneratingPdf(true);
+        try {
+            const { generateCheatSheetContent, downloadCheatSheetPDF } = await import('../../services/cheatSheetService');
+            // Generate a high-level exam syllabus/guide
+            const content = await generateCheatSheetContent(formattedExam, 'Full Syllabus Guide');
+            if (content) await downloadCheatSheetPDF(content);
+        } catch (e) {
+            console.error("PDF download failed", e);
+        } finally {
+            setGeneratingPdf(false);
+        }
+    };
 
     // Get FAQ data for this exam
     const isClassPage = exam?.startsWith('class-');
@@ -70,8 +99,8 @@ export const ExamLanding = () => {
     const schemaGraph: any[] = [
         {
             "@type": "Course",
-            "name": `${formattedExam} Preparation`,
-            "description": `Comprehensive ${formattedExam} preparation with AI-generated mock tests, PYQs, and deep analytics.`,
+            "name": examDetail.title,
+            "description": examDetail.longDescription[0],
             "provider": {
                 "@type": "Organization",
                 "name": "Exam Compass",
@@ -129,10 +158,10 @@ export const ExamLanding = () => {
     return (
         <div className="min-h-screen bg-black text-white selection:bg-purple-500/30">
             <SEO
-                title={`${formattedExam} Prep 2026: AI Mock Tests & PYQs`}
-                description={`Crack ${formattedExam} with AI-generated mock tests, 5000+ PYQs, real-time analytics, and personalized study plans. Free practice for ${formattedExam} 2026.`}
+                title={`${formattedExam} Prep ${targetYear}: Syllabus, Notes, PYQ & Mock Test PDF`}
+                description={`Master ${formattedExam} ${targetYear} with AI-powered mock tests, chapter-wise revision notes, and formula PDF. Explore the latest syllabus, practice PYQs, and boost your rank.`}
                 canonical={`https://examcompass.web.app/${exam}`}
-                keywords={`${formattedExam} preparation, ${formattedExam} mock test, ${formattedExam} PYQ, ${formattedExam} practice questions, ${formattedExam} 2026`}
+                keywords={`${formattedExam} preparation, ${formattedExam} mock test, ${formattedExam} syllabus pdf, ${formattedExam} revision notes, ${formattedExam} ${targetYear}`}
                 schema={{
                     "@context": "https://schema.org",
                     "@graph": schemaGraph
@@ -146,67 +175,86 @@ export const ExamLanding = () => {
                     <span>/</span>
                     <span className="text-white">{formattedExam}</span>
                 </div>
-                <h1 className="text-5xl md:text-7xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-                    Crack {formattedExam}
-                </h1>
-
-                <article className="max-w-4xl mb-12 space-y-6">
-                    <p className="text-xl text-gray-300 font-medium leading-relaxed">
-                        Master the complexities of {formattedExam} with the industry's most advanced AI-powered learning platform. Our ecosystem is custom-built to provide a rigorous, data-driven approach to one of India's most challenging entrance examinations, ensuring you're not just studying, but studying effectively.
-                    </p>
-                    <p className="text-gray-300 leading-relaxed">
-                        Preparing for {formattedExam} is an endurance race that requires exceptional conceptual clarity, speed, and accuracy. At Exam Compass, we bridge the gap between hard work and smart work. Our platform features over {getSubjectsForExam(exam || '').length} meticulously mapped subjects, providing a complete chapter-wise breakdown of the entire {formattedExam} syllabus. From high-weightage topics that appear year after year to the most obscure concepts, we ensure nothing is left to chance.
-                    </p>
-                    <p className="text-gray-300 leading-relaxed">
-                        What sets us apart is our proprietary AI-driven preparation engine. Unlike static test series that treat every aspirant the same, Exam Compass adapts to your unique learning curve. Our algorithms analyze every attempt, identifying your personal "blind spots" and knowledge gaps. This allows the platform to generate personalized mock tests that focus specifically on the areas where you need the most improvement, drastically reducing time wasted on already mastered topics.
-                    </p>
-                    <p className="text-gray-300 leading-relaxed">
-                        Gain a competitive edge with our database of 9,000+ verified Previous Year Questions (PYQs). Each question is accompanied by a detailed AI-generated explanation that doesn't just give you the answer, but teaches you the logic, shortcut techniques, and common pitfalls to avoid during the actual {formattedExam} exam. Track your real-time probability of selection, visualize your progress through advanced analytics, and build the confidence required to crack the exam 2026.
-                    </p>
-                    <p className="text-gray-300 leading-relaxed">
-                        Beyond just testing, we offer dynamic learning roadmaps. If you're struggling with a particular topic in {getSubjectsForExam(exam || '')[0] || 'your syllabus'}, the AI will automatically suggest high-yield subjects and video lectures from our curated collection to reinforce your foundation. With Exam Compass, your preparation is constant, evolving, and always targeted toward your dream college admission.
-                    </p>
-                </article>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-                    <div className="p-8 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-md">
-                        <h3 className="text-2xl font-bold mb-4 flex items-center gap-2">
-                            <span className="text-purple-400">Selection Probability AI</span>
-                        </h3>
-                        <p className="text-gray-400 text-sm leading-relaxed mb-4">
-                            Our proprietary algorithm calculates your readiness for {formattedExam} based on accuracy, speed, and consistency. Unlike traditional percentages, Selection Probability takes into account the difficulty of questions you're solving compared to the thousands of other aspirants on the platform.
-                        </p>
-                        <div className="flex items-center gap-4 text-xs text-gray-500 uppercase tracking-widest">
-                            <span>Real-time tracking</span>
-                            <span className="w-1 h-1 rounded-full bg-gray-500" />
-                            <span>Competitive indexing</span>
-                        </div>
-                    </div>
-                    <div className="p-8 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-md">
-                        <h3 className="text-2xl font-bold mb-4 flex items-center gap-2">
-                            <span className="text-pink-400">Real-Time Analytics</span>
-                        </h3>
-                        <p className="text-gray-400 text-sm leading-relaxed mb-4">
-                            Don't wait for the weekly mock result to know where you stand. Every question you answer in {formattedExam} practice sets feeds into your live performance dashboard. We track your "Fatigue Point" — the moment your accuracy drops — to suggest the ideal time for your study breaks.
-                        </p>
-                        <div className="flex items-center gap-4 text-xs text-gray-500 uppercase tracking-widest">
-                            <span>Fatigue detection</span>
-                            <span className="w-1 h-1 rounded-full bg-gray-500" />
-                            <span>Subject heatmaps</span>
-                        </div>
+                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8">
+                    <h1 className="text-4xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+                        Crack {formattedExam}
+                    </h1>
+                    <div className="flex items-center gap-4">
+                        <button 
+                            onClick={handleDownloadPDF}
+                            disabled={generatingPdf}
+                            className="hidden md:flex items-center gap-2 px-6 py-3 bg-white/5 border border-white/10 rounded-xl font-bold text-sm hover:bg-white/10 transition-all disabled:opacity-50"
+                        >
+                            {generatingPdf ? <Loader2 className="w-4 h-4 animate-spin" /> : <Download className="w-4 h-4" />}
+                            {generatingPdf ? 'Generating...' : 'Syllabus PDF'}
+                        </button>
+                        <SocialShare title={`Crack ${formattedExam} with AI Practice & PYQs on Exam Compass`} />
                     </div>
                 </div>
 
-                <Link to={`/dashboard/mock?exam=${exam}`} className="inline-flex items-center gap-2 bg-white text-black px-8 py-4 rounded-full font-bold hover:scale-105 transition-transform">
-                    Start {formattedExam} Mock Test <ArrowRight size={20} />
-                </Link>
+                <DirectAnswerBlock
+                    title={`What is ${formattedExam}?`}
+                    description={personality.uniqueHook}
+                    impact={personality.statLine}
+                />
+
+
+                <article className="max-w-4xl mb-12 space-y-8">
+                    {examDetail.longDescription.map((p, i) => (
+                        <p key={i} className={`${i === 0 ? 'text-xl font-medium' : 'text-lg'} text-gray-300 leading-relaxed`}>
+                            {p}
+                        </p>
+                    ))}
+                    
+                    <div className="p-8 rounded-3xl bg-blue-500/10 border border-blue-500/20 mt-12">
+                        <h3 className="text-xl font-bold text-blue-400 mb-4 tracking-tight uppercase text-sm">Strategic Preparation Edge</h3>
+                        <p className="text-gray-300 leading-relaxed mb-4">
+                            {examDetail.preparationStrategy} Success in {formattedExam} {targetYear} is reserved for those who can bridge the gap between hard work and intelligent, data-driven execution. Our AI models analyze every question you solve to suggest the exact topics that will increase your rank.
+                        </p>
+                        <p className="text-gray-300 leading-relaxed">
+                            <strong className="text-white">The Reality:</strong> {personality.studentPain} <br/><br/>
+                            <strong className="text-white">The Winning Edge:</strong> {personality.winningEdge}
+                        </p>
+                    </div>
+
+                    <StudentTip seedText={exam || 'default'} />
+                </article>
+
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                    {examDetail.features.map((feature, i) => (
+                         <div key={i} className="p-8 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-md hover:border-white/20 transition-all">
+                            <h3 className={`text-2xl font-bold mb-4 ${feature.iconColor}`}>
+                                {feature.title}
+                            </h3>
+                            <p className="text-gray-400 text-sm leading-relaxed">
+                                {feature.desc}
+                            </p>
+                        </div>
+                    ))}
+                </div>
+
+                <div className="flex flex-col items-center gap-6 py-10">
+                    <Link to={`/dashboard/mock?exam=${exam}`} rel="nofollow" className="inline-flex items-center gap-2 bg-white text-black px-12 py-6 rounded-2xl font-bold hover:scale-105 transition-transform w-full md:w-auto justify-center text-lg">
+                        Start {formattedExam} AI Mock Test <ArrowRight size={24} />
+                    </Link>
+                    <p className="text-gray-400 text-sm">
+                        Analyzed for {formattedExam} {targetYear} pattern • <Link to="/dashboard/rank-predictor" rel="nofollow" className="text-purple-400 hover:text-purple-300 font-bold underline decoration-purple-500/30">Try AI Rank Predictor</Link>
+                    </p>
+                </div>
+
             </section>
 
             <section className="py-20 px-6 max-w-7xl mx-auto border-t border-white/10">
                 <h2 className="text-3xl font-bold mb-10">Study by Subject</h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {getSubjectsForExam(exam || '').map(subject => {
-                        const topicCount = SYLLABUS_DB[subject]?.length || 0;
+                        const allTopics = SYLLABUS_DB[subject] || [];
+                        const classMatch = (exam || '').match(/class-(\d+)/);
+                        const filteredTopics = classMatch 
+                            ? allTopics.filter(t => t.class === `Class ${classMatch[1]}`)
+                            : allTopics;
+
+                        const topicCount = filteredTopics.length;
                         if (topicCount === 0) return null; // Skip empty subjects
 
                         return (
@@ -233,14 +281,14 @@ export const ExamLanding = () => {
                             <p className="text-gray-400 text-sm leading-relaxed mb-6">
                                 Designed for students in the final stretch. This roadmap prioritizes high-weightage chapters in {getSubjectsForExam(exam || '').join(', ')} and focuses on solving at least 50 PYQs daily to build muscle memory and speed for {formattedExam}.
                             </p>
-                            <Link to="/dashboard" className="text-purple-400 text-sm font-semibold hover:underline">View Roadmap →</Link>
+                            <Link to="/dashboard" rel="nofollow" className="text-purple-400 text-sm font-semibold hover:underline">View Roadmap →</Link>
                         </div>
                         <div className="p-8 rounded-3xl bg-gradient-to-br from-blue-500/10 to-transparent border border-blue-500/20">
                             <h3 className="text-xl font-bold mb-4">Foundational Mastery</h3>
                             <p className="text-gray-400 text-sm leading-relaxed mb-6">
                                 Perfect for Class 11 or early starters. We focus on conceptual depth and building a strong theoretical base before diving into complex problem-solving. AI tracks your accuracy to ensure a 100% success rate on fundamentals.
                             </p>
-                            <Link to="/dashboard" className="text-blue-400 text-sm font-semibold hover:underline">View Roadmap →</Link>
+                            <Link to="/dashboard" rel="nofollow" className="text-blue-400 text-sm font-semibold hover:underline">View Roadmap →</Link>
                         </div>
                     </div>
                 </div>
@@ -268,16 +316,28 @@ export const ExamLanding = () => {
                     <div className="space-y-6 max-w-3xl">
                         {faqs.map((faq, idx) => (
                             <details key={idx} className="group p-6 rounded-2xl bg-white/5 border border-white/10 cursor-pointer">
-                                <summary className="text-lg font-semibold group-open:text-purple-400 transition-colors list-none flex justify-between items-center">
+                                <summary className="text-lg font-semibold group-open:text-purple-400 transition-colors list-none flex justify-between items-center faq-question">
                                     {faq.question}
                                     <span className="text-gray-400 group-open:rotate-180 transition-transform text-xl">▼</span>
                                 </summary>
-                                <p className="mt-4 text-gray-300 leading-relaxed">{faq.answer}</p>
+                                <p className="mt-4 text-gray-300 leading-relaxed faq-answer">{faq.answer}</p>
                             </details>
                         ))}
                     </div>
+                    
+                    <div className="mt-20">
+                        <AuthorBio 
+                            name="Ayush"
+                            role="Founder & EdTech Visionary"
+                            bio="On a mission to make world-class competitive exam preparation accessible to every Indian student through AI. Built ExamCompass to ensure adaptive engines stay ahead of the latest exam patterns."
+                            credentials={["Founder, Exam Compass", "AI Strategy Expert", "STEM Education Advocate"]}
+                            linkedin="https://linkedin.com"
+                            twitter="https://twitter.com"
+                        />
+                    </div>
                 </section>
             )}
+
 
             <Footer />
         </div>

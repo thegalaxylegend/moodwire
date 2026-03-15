@@ -12,34 +12,58 @@ interface SEOProps {
     url?: string;
     schema?: Record<string, any>;
     noindex?: boolean;
+    robots?: string;
     keywords?: string;
     publishedTime?: string;
     modifiedTime?: string;
 }
 
 export const SEO = (props: SEOProps) => {
-    const { title, description, canonical, type, name, image, schema, noindex, keywords, publishedTime, modifiedTime } = props;
+    const { title, description, canonical, type, name, image, schema, noindex, robots, keywords, publishedTime, modifiedTime } = props;
     const location = useLocation();
 
     // SSR-safe canonical: use explicit prop > useLocation (works in SSR via StaticRouter) > window fallback
     const canonicalUrl = canonical
         || `https://examcompass.web.app${location.pathname.replace(/\/$/, '') || '/'}`;
     const imageUrl = image || 'https://examcompass.web.app/exa-logo.png';
-    const fullTitle = title.includes('|') ? title : `${title} | Exam Compass`;
+    const siteTitle = name || 'Exam Compass';
+    
+    // Smart Title Suffix Logic (Bing 60-char limit optimization)
+    let fullTitle = title;
+    if (!title.includes('|') && !title.includes('-')) {
+        // Only append if it fits reasonably
+        if (title.length < 45) {
+            fullTitle = `${title} | ${siteTitle}`;
+        } else if (title.length < 55) {
+            fullTitle = `${title} - EC`;
+        }
+    }
 
     return (
         <Helmet defer={false}>
             {/* Standard Metadata */}
             <title>{fullTitle}</title>
+            <meta name="title" content={fullTitle} />
             <meta name="description" content={description} />
             <link rel="canonical" href={canonicalUrl} />
+            <link rel="alternate" hrefLang="en-IN" href={canonicalUrl} />
+            <link rel="alternate" hrefLang="en" href={canonicalUrl} />
 
             {/* Robots */}
-            {noindex ? (
+            {robots ? (
+                <meta name="robots" content={robots} />
+            ) : noindex ? (
                 <meta name="robots" content="noindex, nofollow" />
             ) : (
-                <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+                <>
+                    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+                    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+                </>
             )}
+
+            {/* Geographic Targeting (Bing/Yahoo) */}
+            <meta name="geo.region" content="IN" />
+            <meta name="geo.placename" content="India" />
 
             {/* Keywords (still used by some engines) */}
             {keywords && <meta name="keywords" content={keywords} />}

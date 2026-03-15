@@ -4,14 +4,14 @@ export const Footer = () => {
     const currentYear = new Date().getFullYear();
 
     return (
-        <footer className="border-t border-white/10 bg-black/80 backdrop-blur-sm">
+        <footer className="border-t border-white/10 bg-black/80 backdrop-blur-sm min-h-[400px]">
             <div className="max-w-7xl mx-auto px-6 py-12">
                 {/* Top Section */}
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-10">
                     {/* Brand */}
                     <div className="md:col-span-1">
-                        <Link to="/" className="text-xl font-bold text-white tracking-tighter inline-block mb-3">
-                            Exam<span className="text-purple-500">Compass</span>
+                        <Link to="/" className="text-xl md:text-2xl font-bold text-white tracking-tighter inline-block mb-3">
+                            Exam<span className="text-[#a855f7]">Compass</span>
                         </Link>
                         <p className="text-gray-500 text-sm leading-relaxed">
                             AI-powered exam preparation for Indian students. Practice smarter, not harder.
@@ -29,7 +29,27 @@ export const Footer = () => {
                                 { name: 'GATE', href: '/gate' },
                                 { name: 'CLAT', href: '/clat' },
                             ].map(link => (
-                                <li key={link.href}>
+                                <li key={link.name}>
+                                    <Link to={link.href} className="text-gray-500 hover:text-white text-sm transition-colors">
+                                        {link.name}
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+
+                    {/* Revision Hub for Crawlability */}
+                    <div>
+                        <h4 className="text-sm font-semibold text-gray-300 uppercase tracking-wider mb-4">Revision Hub</h4>
+                        <ul className="space-y-2">
+                            {[
+                                { name: 'Class 12', href: '/class-12' },
+                                { name: 'Class 11', href: '/class-11' },
+                                { name: 'Class 10', href: '/class-10' },
+                                { name: 'Class 9', href: '/class-9' },
+                                { name: 'Class 8', href: '/class-8' },
+                            ].map(link => (
+                                <li key={link.name}>
                                     <Link to={link.href} className="text-gray-500 hover:text-white text-sm transition-colors">
                                         {link.name}
                                     </Link>

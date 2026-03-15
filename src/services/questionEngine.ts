@@ -11,7 +11,7 @@ import {
     updateDoc,
     doc,
     increment,
-    getCountFromServer
+
 } from 'firebase/firestore';
 import { askAI } from '../lib/ai';
 import { extractJSON } from '../lib/utils';
@@ -74,10 +74,12 @@ const verifyQuestionFast = async (questionData: Partial<StoredQuestion>): Promis
     Correct: ${currentData.correct_answer}
     Exam: ${currentData.exam}
     
-    Checks: accuracy, Grade appropriateness.
-    If good, return {"status": "APPROVED", "confidence": 1.0}.
-    If wrong, fix it and return {"status": "REFIXED", "fixed_data": {...}}.
-    If junk, return {"status": "REJECT"}.
+    Checks: accuracy, Grade appropriateness, Option content.
+    Return the result as a JSON object:
+    - If good, return {"status": "APPROVED", "confidence": 1.0}.
+    - If options are placeholders (like "A", "B", "C", "D" with no content), return {"status": "REJECT"}.
+    - If wrong, fix it and return {"status": "REFIXED", "fixed_data": {...}}.
+    - If junk, return {"status": "REJECT"}.
     `;
 
     try {
@@ -85,11 +87,12 @@ const verifyQuestionFast = async (questionData: Partial<StoredQuestion>): Promis
         const response = await askAI("Technical Fact Checker", verificationPrompt, 'groq', [], {
             jsonMode: true,
             modelId: 'llama-3.1-8b-instant',
-            temperature: 0.1
+            temperature: 0.1,
+            stream: false
         });
         if (!response) return { verified: true, data: currentData }; // Fail open for speed
 
-        const result = extractJSON(response);
+        const result = extractJSON(response as string);
 
         if (result.status === 'REJECT') return { verified: false };
         if (result.status === 'REFIXED' && result.fixed_data) return { verified: true, data: { ...currentData, ...result.fixed_data } };
@@ -114,8 +117,8 @@ const enforceStorageLimit = (topic: string, exam: string) => {
                 where('exam', '==', exam),
                 orderBy('usage_count', 'asc')
             );
-            const countSnap = await getCountFromServer(q);
-            if (countSnap.data().count >= TOPIC_LIMIT) {
+            const countSnap = await getDocs(q);
+            if (countSnap.size >= TOPIC_LIMIT) {
                 const snap = await getDocs(query(q, limit(1)));
                 if (!snap.empty) deleteDoc(snap.docs[0].ref);
             }
@@ -139,7 +142,8 @@ export const generateInspiredQuestion = async (
     const { exam, subject, topic, difficulty } = params;
 
     const generationPrompt = `
-    GENERATE ORIGINAL EXAM QUESTION.
+    GENERATE A TOTALLY FRESH AND UNIQUE EXAM QUESTION IN JSON FORMAT. 
+    BatchID: ${Date.now()}-${Math.random().toString(36).substring(7)}
     
     EXAM: ${exam}
     SUBJECT: ${subject}
@@ -150,14 +154,12 @@ export const generateInspiredQuestion = async (
     1. STRICTLY follow ${exam} pattern.
     2. USE "${exam} PREVIOUS YEAR QUESTION (PYQ)" ARCHIVES for inspiration.
     3. MODIFY actual PYQ contexts to create "Fresh" problems.
+    4. Provide a "Step-by-Step" solution walkthrough.
+    5. Explain "Why each wrong option is wrong".
+    6. Provide a "Teach me like I'm 12" simplified intuition.
+    7. If question is visual (Physics/Bio/Chem), provide a "diagram_prompt".
     
-    AI 2.0 ENHANCEMENTS:
-    - Provide a "Step-by-Step" solution walkthrough.
-    - Explain "Why each wrong option is wrong".
-    - Provide a "Teach me like I'm 12" simplified intuition.
-    - If question is visual (Physics/Bio/Chem), provide a "diagram_prompt" (scientific diagram description).
-    
-    OUTPUT FORMAT (JSON ONLY):
+    OUTPUT FORMAT: Return ONLY a valid JSON object. No Markdown, No Prose, No Commentary.
     {
       "exam": "${exam}",
       "subject": "${subject}",
@@ -165,15 +167,15 @@ export const generateInspiredQuestion = async (
       "topic": "${topic}",
       "type": "MCQ", 
       "difficulty": "${difficulty}",
-      "question": "...",
-      "options": ["A", "B", "C", "D"],
-      "correct_answer": "...",
+      "question": "The actual question text goes here...",
+      "options": ["Option content 1", "Option content 2", "Option content 3", "Option content 4"],
+      "correct_answer": "Exact text of the correct option",
       "explanation": "Brief summary",
       "rich_explanation": {
          "steps": ["Step 1...", "Step 2..."],
          "why_others_wrong": {"Option A": "Because...", "Option B": "Faulty logic because...", ...},
          "teach_me_like_12": "Simplified concept explanation",
-         "diagram_prompt": "educational diagram of... white background"
+         "diagram_prompt": "educational diagram of..."
       },
       "concept_tags": ["tag1", "tag2"],
       "error_trap_type": "Calculation/Conceptual"
@@ -181,10 +183,15 @@ export const generateInspiredQuestion = async (
     `;
 
     try {
-        const response = await askAI("You are a technical question generator.", generationPrompt, 'groq', [], { jsonMode: false });
+        const response = await askAI("Technical Exam Question Agent. JSON ONLY.", generationPrompt, 'groq', [], { 
+            jsonMode: true, 
+            stream: false, 
+            max_tokens: 1800,
+            modelId: 'llama-3.1-8b-instant' // Use 8B for extreme speed (supported by robust repair)
+        });
         if (!response) return null;
 
-        const rawData = extractJSON(response);
+        const rawData = extractJSON(response as string);
 
         // 1. SHA256 Duplication Check
         const hashText = rawData.question + JSON.stringify(rawData.options);
@@ -229,8 +236,45 @@ export const generateInspiredQuestion = async (
     }
 };
 
-// Session-based in-memory cache for questions to slash costs
-const SESSION_CACHE: Record<string, StoredQuestion[]> = {};
+export const invalidateTopicCache = (userId: string, exam: string, topic: string) => {
+    try {
+        const prefix = `q_engine_cache_${userId}_${exam}_${topic}_`;
+        const keysToRemove: string[] = [];
+        for (let i = 0; i < localStorage.length; i++) {
+            const key = localStorage.key(i);
+            if (key && key.startsWith(prefix)) {
+                keysToRemove.push(key);
+            }
+        }
+        keysToRemove.forEach(k => localStorage.removeItem(k));
+        if (keysToRemove.length > 0) {
+            console.log(`[QuestionEngine] 🧹 Cleared cache for mastered topic: ${topic}`);
+        }
+    } catch (e) { console.warn("Cache invalidate failed", e); }
+};
+
+// Persistent cache for questions to slash costs
+const getCache = (key: string): StoredQuestion[] | null => {
+    try {
+        const cached = localStorage.getItem(`q_engine_cache_${key}`);
+        if (cached) {
+            const parsed = JSON.parse(cached);
+            if (Date.now() - parsed.timestamp < 12 * 60 * 60 * 1000) { // 12h TTL
+                return parsed.questions;
+            }
+        }
+    } catch (e) { console.warn("Cache read failed", e); }
+    return null;
+};
+
+const setCache = (key: string, questions: StoredQuestion[]) => {
+    try {
+        localStorage.setItem(`q_engine_cache_${key}`, JSON.stringify({
+            questions,
+            timestamp: Date.now()
+        }));
+    } catch (e) { console.warn("Cache write failed", e); }
+};
 
 /**
  * Adaptive Question Selection Strategy.
@@ -253,14 +297,14 @@ export const getAdaptiveQuestion = async (
         else if (weaknessScore < 0.4) targetDifficulty = 'Hard';
     }
 
-    const cacheKey = `${exam}_${topic}_${targetDifficulty}`;
+    const cacheKey = `${userId}_${exam}_${topic}_${targetDifficulty}`;
 
-    // 1. Check Session Cache First (0 Cost)
-    if (SESSION_CACHE[cacheKey] && SESSION_CACHE[cacheKey].length > 0) {
-        console.log(`[QuestionEngine] ⚡ Session Cache Hit for ${topic}`);
-        // Pick a random one and return it
-        const randomIndex = Math.floor(Math.random() * SESSION_CACHE[cacheKey].length);
-        return SESSION_CACHE[cacheKey][randomIndex];
+    // 1. Check Persistent Cache First (0 Cost)
+    const cachedQuestions = getCache(cacheKey);
+    if (cachedQuestions && cachedQuestions.length > 0) {
+        console.log(`[QuestionEngine] ⚡ Persistent Cache Hit for ${topic}`);
+        const randomIndex = Math.floor(Math.random() * cachedQuestions.length);
+        return cachedQuestions[randomIndex];
     }
 
     try {
@@ -291,8 +335,8 @@ export const getAdaptiveQuestion = async (
         if (!snap.empty) {
             const fetchedQuestions = snap.docs.map(doc => ({ id: doc.id, ...doc.data() } as StoredQuestion));
 
-            // Populate Session Cache
-            SESSION_CACHE[cacheKey] = fetchedQuestions;
+            // Populate Cache
+            setCache(cacheKey, fetchedQuestions);
 
             const selectedQuestion = fetchedQuestions[Math.floor(Math.random() * fetchedQuestions.length)];
 
@@ -340,9 +384,9 @@ export const prefetchQuestionsForWeakTopics = async (userId: string, exam: strin
             where('exam', '==', exam),
             where('topic', '==', topicStat.topic)
         );
-        const countSnap = await getCountFromServer(countQ);
+        const countSnap = await getDocs(countQ);
 
-        if (countSnap.data().count < 5) {
+        if (countSnap.size < 5) {
             console.log(`[QuestionEngine] Pre-generating batch for ${topicStat.topic}...`);
             await generateInspiredQuestion({
                 exam,

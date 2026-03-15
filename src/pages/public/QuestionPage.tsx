@@ -2,11 +2,14 @@ import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { SEO } from '../../components/SEO';
 import { Navbar } from '../../components/Navbar';
-import { CheckCircle } from 'lucide-react';
-import { Brain } from 'lucide-react';
-import { Loader2 } from 'lucide-react';
+import { Loader2, CheckCircle, Brain, Download } from 'lucide-react';
 import { slugify } from '../../lib/utils';
 import { SYLLABUS_DB } from '../../lib/constants';
+import { KeyTakeaways } from '../../components/KeyTakeaways';
+import { AuthorBio } from '../../components/AuthorBio';
+import { SocialShare } from '../../components/SocialShare';
+import { blogs } from '../../data/blogs';
+
 
 // Type definition for safe global access
 declare global {
@@ -25,6 +28,21 @@ export const QuestionPage = () => {
     // 2. State
     const [question] = useState<any>(ssrData);
     const [loading, setLoading] = useState(!ssrData);
+    const [generatingPdf, setGeneratingPdf] = useState(false);
+
+    const handleDownloadPDF = async () => {
+        setGeneratingPdf(true);
+        try {
+            const { generateCheatSheetContent, downloadCheatSheetPDF } = await import('../../services/cheatSheetService');
+            // For questions, we generate a cheat sheet of the topic
+            const content = await generateCheatSheetContent(question?.topic || 'General Topic', question?.subject || 'General Subject');
+            if (content) await downloadCheatSheetPDF(content);
+        } catch (e) {
+            console.error("PDF download failed", e);
+        } finally {
+            setGeneratingPdf(false);
+        }
+    };
 
     // 3. Client-Side Fallback (Simplified for SSG-first)
     useEffect(() => {
@@ -51,16 +69,16 @@ export const QuestionPage = () => {
         );
     }
 
-    // 4. SEO & Metadata Construction
-    const pageTitle = question.text
-        ? `${question.text.substring(0, 45)}... | ${formattedExam}`
-        : `${formattedExam} Practice Question`;
+    // 4. SEO & Metadata Construction (Strict 60-char limit for Bing)
+    const topicText = question.topic ? (question.topic.length > 20 ? `${question.topic.substring(0, 20)}...` : question.topic) : 'Practice';
+    const pageTitle = `Q: ${topicText} | ${formattedExam} PDF Solution`;
+    const description = `Practice this ${question.topic} question for ${formattedExam}. Step-by-step solution with concept explanation, exam tip, and free PDF download for 2026 prep.`;
 
-    const description = question.explanation
-        ? `Detailed solution: ${question.explanation.substring(0, 150)}... Practice now.`
-        : `Practice this ${formattedExam} question on ${question.topic}.`;
+    // CANONICAL FIX: Use the canonical exam (first exam to claim this question) to prevent duplicate content
+    const canonicalExam = question.canonicalExam || exam;
+    const canonicalUrl = `https://examcompass.web.app/${canonicalExam}/q/${slug}`;
 
-    const canonicalUrl = `https://examcompass.web.app/${exam}/q/${slug}`;
+    const correctAnswerText = question.options?.[question.correctAnswer] || 'See Solution';
 
     const schemaData = {
         "@context": "https://schema.org",
@@ -75,13 +93,34 @@ export const QuestionPage = () => {
                     "educationLevel": "High School",
                     "suggestedAnswer": {
                         "@type": "Answer",
-                        "text": `Answer: ${question.options?.[question.correctAnswer] || 'See Solution'}. ${question.explanation}`
+                        "text": `Answer: ${correctAnswerText}. ${question.explanation}`
                     },
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": question.options?.[question.correctAnswer] || "Check Solution"
+                        "text": correctAnswerText
                     }
                 }
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": question.text,
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": `The correct answer is ${correctAnswerText}. ${question.explanation}`
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": `Which chapter does this ${formattedExam} question belong to?`,
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": `This question is from the chapter "${question.topic || 'General'}" in ${question.subject || 'the syllabus'} for ${formattedExam}.`
+                        }
+                    }
+                ]
             },
             {
                 "@type": "BreadcrumbList",
@@ -134,43 +173,55 @@ export const QuestionPage = () => {
                     </div>
 
                     <header className="mb-6">
-                        <div className="flex gap-3 mb-6 flex-wrap">
-                            {question.subject && (
-                                <span className="px-3 py-1 rounded bg-purple-500/20 text-purple-300 text-sm border border-purple-500/30 font-medium">
-                                    {question.subject}
-                                </span>
-                            )}
-                            {question.topic && (
-                                <span className="px-3 py-1 rounded bg-blue-500/20 text-blue-300 text-sm border border-blue-500/30 font-medium">
-                                    {question.topic}
-                                </span>
-                            )}
-                            {question.sourceYear && (
-                                <span className="px-3 py-1 rounded bg-yellow-500/20 text-yellow-300 text-sm border border-yellow-500/30 font-bold tracking-wide">
-                                    PYQ {question.sourceYear}
-                                </span>
-                            )}
+                        <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8">
+                            <div className="flex gap-3 flex-wrap">
+                                {question.subject && (
+                                    <span className="px-3 py-1 rounded bg-purple-500/20 text-purple-300 text-sm border border-purple-500/30 font-medium">
+                                        {question.subject}
+                                    </span>
+                                )}
+                                {question.topic && (
+                                    <span className="px-3 py-1 rounded bg-blue-500/20 text-blue-300 text-sm border border-blue-500/30 font-medium">
+                                        {question.topic}
+                                    </span>
+                                )}
+                                {question.sourceYear && (
+                                    <span className="px-3 py-1 rounded bg-yellow-500/20 text-yellow-300 text-sm border border-yellow-500/30 font-bold tracking-wide">
+                                        PYQ {question.sourceYear}
+                                    </span>
+                                )}
+                            </div>
+                            <SocialShare title={`Solve this ${formattedExam} Question on ${question.topic || 'Exam Compass'}`} />
                         </div>
 
+
                         <div className="prose prose-invert mb-6 max-w-none">
-                            <p className="text-gray-300 text-sm uppercase tracking-wider mb-2 font-semibold">Detailed Question Analysis</p>
+                            <p className="text-gray-300 text-sm uppercase tracking-wider mb-2 font-semibold">Question Context — {question.topic || 'Concept'}</p>
                             <p className="text-gray-300 leading-relaxed mb-4">
-                                This challenging question tests your deep understanding of <strong className="text-white">{question.topic || 'core concepts'}</strong> within the broader context of {question.subject || 'the syllabus'}.
-                                Solving problems of this complexity is crucial for the {formattedExam} examination 2026, as it requires a blend of precise theoretical knowledge and agile practical application skills.
-                            </p>
-                            <p className="text-gray-300 leading-relaxed">
-                                Review the question text carefully, paying close attention to any given constraints or specific units. Attempting to solve it independently before looking at the solution is an effective way to identify your conceptual blind spots.
-                                Our AI-driven adaptive engine analyzes your performance on questions like this to help build your success probability profile for the {formattedExam}.
+                                This question is from <strong className="text-white">{question.topic || 'core concepts'}</strong> in {question.subject || 'the syllabus'}.
+                                {question.sourceYear ? ` It appeared in the ${formattedExam} ${question.sourceYear} paper.` : ` It mirrors the pattern commonly seen in ${formattedExam} papers.`}
+                                Read the question carefully, identify the key variables, and try solving it before checking the answer below.
                             </p>
                         </div>
+
+                        <KeyTakeaways 
+                            points={[
+                                `Chapter: ${question.topic || 'General'} → ${question.subject || 'Syllabus'}`,
+                                `Correct Answer: Option ${String.fromCharCode(65 + (question.correctAnswer || 0))}`,
+                                question.sourceYear ? `Source: ${formattedExam} ${question.sourceYear} PYQ` : `Pattern: ${formattedExam} style question`,
+                                `Difficulty: ${question.difficulty || 'Medium'}`
+                            ]} 
+                        />
                     </header>
+
 
                     <h1 className="text-xl md:text-3xl font-bold mb-8 leading-relaxed">
                         {question.text}
                     </h1>
 
+                    <h2 className="sr-only">Multiple Choice Options</h2>
                     <div className="grid gap-4 mb-8">
-                        {question.options?.map((opt: string, i: number) => (
+                        {(Array.isArray(question.options) ? question.options : Object.values(question.options || {})).map((opt: string, i: number) => (
                             <div key={i} className={`p-4 rounded-xl border transition-all ${i === question.correctAnswer
                                 ? 'bg-green-500/10 border-green-500/50 text-green-400 font-bold'
                                 : 'bg-black/20 border-white/10 text-gray-300'
@@ -182,21 +233,102 @@ export const QuestionPage = () => {
                         ))}
                     </div>
 
-                    <div className="bg-white/5 rounded-xl p-6 border-l-4 border-purple-500">
-                        <h2 className="font-bold text-lg mb-2 flex items-center gap-2">
+                    {/* Phase 3: Structured Content Depth for Questions */}
+                    <div className="bg-white/5 rounded-xl border border-white/10 overflow-hidden mb-8">
+                        <div className="p-4 bg-purple-500/10 border-b border-white/10 flex items-center gap-2">
                             <Brain size={20} className="text-purple-400" />
-                            AI Explanation
-                        </h2>
-                        <p className="text-gray-300 leading-relaxed">
-                            {question.explanation}
-                        </p>
+                            <h2 className="font-bold text-lg text-purple-300">
+                                Detailed Solution & Analysis
+                            </h2>
+                        </div>
+                        <div className="p-6 space-y-6">
+                            {/* Step-by-Step Solution */}
+                            <div>
+                                <h3 className="text-white font-semibold mb-2 flex items-center gap-2">
+                                    <span className="w-5 h-5 rounded bg-purple-500 text-[10px] flex items-center justify-center font-bold">1</span>
+                                    Explanation
+                                </h3>
+                                <div className="text-gray-300 leading-relaxed pl-7">
+                                    {question.explanation}
+                                </div>
+                            </div>
+                            
+                            {/* Concept Applied */}
+                            {question.topic && (
+                                <div className="pt-4 border-t border-white/10">
+                                    <h3 className="text-white font-semibold mb-2 flex items-center gap-2">
+                                        <span className="w-5 h-5 rounded bg-blue-500 text-[10px] flex items-center justify-center font-bold">2</span>
+                                        Concept Applied
+                                    </h3>
+                                    <div className="text-gray-300 leading-relaxed pl-7 text-sm">
+                                        This question tests your fundamental understanding of <strong className="text-blue-300">{question.topic}</strong>. Reviewing the core principles and boundary conditions of this topic is essential for anticipating variations of this question.
+                                    </div>
+                                </div>
+                            )}
+
+                            {/* Exam Tip */}
+                            <div className="pt-4 border-t border-white/10">
+                                <h3 className="text-white font-semibold mb-2 flex items-center gap-2">
+                                    <span className="w-5 h-5 rounded bg-pink-500 text-[10px] flex items-center justify-center font-bold">3</span>
+                                    Exam Strategy
+                                </h3>
+                                <div className="text-gray-300 leading-relaxed pl-7 text-sm">
+                                    Always identify the known variables and target variable first. In typical {(exam || 'competitive').toUpperCase()} problems from {question.subject || 'this section'}, eliminating mathematically impossible options (like dimensional mismatches) can often skip the calculation step entirely, saving you 30-40 seconds.
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
-                    <div className="mt-10 text-center">
-                        <Link to={`/dashboard/mock?exam=${exam}`} className="inline-flex items-center gap-2 bg-white text-black px-8 py-3 rounded-full font-bold hover:scale-105 transition-transform">
-                            Practice More Questions Like This
-                        </Link>
+                    {/* Phase 6: Blog Cross-Link — match question topic to blog notes */}
+                    {(() => {
+                        const topicSlug = slugify(question.topic || '');
+                        const matchedBlog = blogs.find(b => {
+                            const blogId = b.id.toLowerCase();
+                            return blogId.includes(topicSlug) || topicSlug.includes(blogId.replace(/-revision-notes$/, ''));
+                        });
+                        if (!matchedBlog) return null;
+                        return (
+                            <div className="mt-6 p-4 rounded-xl bg-blue-500/5 border border-blue-500/10">
+                                <Link
+                                    to={`/blog/${matchedBlog.id}`}
+                                    className="flex items-center gap-3 text-blue-300 hover:text-white transition-colors font-medium text-sm"
+                                >
+                                    <span className="text-lg">📖</span>
+                                    Read Full Chapter Notes: {matchedBlog.title}
+                                </Link>
+                            </div>
+                        );
+                    })()}
+
+                    <div className="mt-10 flex flex-col md:flex-row items-center gap-4">
+                        {question.subject && question.topic ? (
+                            <Link to={`/${exam}/${slugify(question.subject)}/${slugify(question.topic)}/top-50-pyqs`} className="inline-flex items-center gap-2 bg-white text-black px-8 py-3 rounded-xl font-bold hover:scale-105 transition-transform flex-1 justify-center text-center">
+                                View Top 50 PYQs for {question.topic}
+                            </Link>
+                        ) : (
+                            <Link to={`/dashboard/mock?exam=${exam}`} className="inline-flex items-center gap-2 bg-white text-black px-8 py-3 rounded-xl font-bold hover:scale-105 transition-transform flex-1 justify-center text-center">
+                                Practice More Questions
+                            </Link>
+                        )}
+                        <button 
+                            onClick={handleDownloadPDF}
+                            disabled={generatingPdf}
+                            className="inline-flex items-center gap-2 bg-purple-600 text-white px-8 py-3 rounded-xl font-bold hover:scale-105 transition-transform flex-1 justify-center disabled:opacity-50 group"
+                        >
+                            {generatingPdf ? <Loader2 className="animate-spin" size={20} /> : <Download size={20} className="group-hover:translate-y-0.5 transition-transform" />}
+                            {generatingPdf ? 'Generating...' : 'Download Solution PDF'}
+                        </button>
                     </div>
+
+                    <AuthorBio 
+                        name="Ayush"
+                        role="Founder, ExamCompass"
+                        bio="Class 11 student at KV Darbhanga, Bihar. Built ExamCompass as a personal study tool after analyzing 50+ past papers. All solutions are cross-verified against NCERT and coaching institute answer keys."
+                        credentials={["KV Darbhanga, Bihar", "50+ PYQ Papers Analyzed", "NCERT-Verified Solutions"]}
+                        linkedin="https://linkedin.com"
+                        twitter="https://twitter.com"
+                    />
+
 
                     <div className="mt-16 pt-10 border-t border-white/10">
                         <h2 className="text-xl font-bold mb-6 text-gray-400 uppercase tracking-tighter">Continue Your Journey</h2>

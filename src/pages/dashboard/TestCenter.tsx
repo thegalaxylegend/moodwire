@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useUserStore } from '../../store/userStore';
 import { Brain, Clock, Zap, AlertTriangle, TrendingUp, CheckCircle, Lock } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import { db } from '../../lib/firebase';
 import { collection, query, where, getDocs, limit } from 'firebase/firestore';
@@ -11,6 +12,9 @@ export const TestCenter = () => {
     const navigate = useNavigate();
 
     const [error, setError] = useState<string | null>(null);
+    const [alertModal, setAlertModal] = useState<{ open: boolean; title: string; message: string; type: 'warning' | 'info' }>({ 
+        open: false, title: "", message: "", type: 'info' 
+    });
     const [mode, setMode] = useState<'Quick_Test' | 'Full_Mock'>('Quick_Test');
     const [difficulty, setDifficulty] = useState<'Exam_Level' | 'Slightly_Harder' | 'Mains' | 'Advanced'>('Exam_Level');
     // Default to TRUE (unlocked). Only lock for genuinely brand-new users.
@@ -57,14 +61,53 @@ export const TestCenter = () => {
             return;
         }
 
-        if (!isDiagnosticDone) {
-            setError("Mandatory: Please complete the Diagnostic Test first.");
+        if (mode === 'Full_Mock') {
+            setError("Full Mock is temporarily under maintenance. Please use Quick Test!");
             return;
         }
 
         // Navigate to MockGenerator with the selected config
         navigate(`/dashboard/mock?mode=${mode}&difficulty=${difficulty}`);
+
     };
+
+    const alertModalComponent = (
+        <AnimatePresence>
+            {alertModal.open && (
+                <motion.div 
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    className="fixed inset-0 z-[1000] flex items-center justify-center p-4 bg-black/60 backdrop-blur-md"
+                >
+                    <motion.div
+                        initial={{ scale: 0.9, opacity: 0, y: 20 }}
+                        animate={{ scale: 1, opacity: 1, y: 0 }}
+                        exit={{ scale: 0.9, opacity: 0, y: 20 }}
+                        className="bg-surface border border-white/10 p-8 rounded-[2.5rem] max-w-sm w-full shadow-2xl text-center space-y-6 relative overflow-hidden"
+                    >
+                        <div className={`w-20 h-20 mx-auto rounded-full flex items-center justify-center ${alertModal.type === 'warning' ? 'bg-orange-500/20 text-orange-400' : 'bg-primary/20 text-primary'}`}>
+                            {alertModal.type === 'warning' ? <AlertTriangle size={40} /> : <Clock size={40} />}
+                        </div>
+                        
+                        <div className="space-y-2">
+                            <h3 className="text-2xl font-bold text-text-main">{alertModal.title}</h3>
+                            <p className="text-sm text-text-muted leading-relaxed">
+                                {alertModal.message}
+                            </p>
+                        </div>
+
+                        <button
+                            onClick={() => setAlertModal(prev => ({ ...prev, open: false }))}
+                            className="w-full py-4 bg-primary text-white font-bold rounded-2xl shadow-xl shadow-primary/20 hover:scale-[1.02] active:scale-[0.98] transition-all"
+                        >
+                            Got it
+                        </button>
+                    </motion.div>
+                </motion.div>
+            )}
+        </AnimatePresence>
+    );
 
     return (
         <AuthGate
@@ -84,6 +127,7 @@ export const TestCenter = () => {
             }
         >
             <div className="space-y-8 animate-fade-in">
+                {alertModalComponent}
                 <header>
                     <h1 className="text-3xl font-bold text-text-main">Test Center</h1>
                     <p className="text-text-muted">Real-Exam Simulation Engine</p>
@@ -116,12 +160,23 @@ export const TestCenter = () => {
                                         <div className="text-[10px] opacity-70">10 Questions • 30 Mins</div>
                                     </button>
                                     <button
-                                        onClick={() => setMode('Full_Mock')}
-                                        className={`p-3 rounded-lg border text-sm font-medium transition-all ${mode === 'Full_Mock' ? 'bg-primary/20 border-primary text-primary' : 'bg-surface border-border text-text-muted hover:bg-white/5'
+                                        onClick={() => {
+                                            setMode('Full_Mock');
+                                            setAlertModal({
+                                                open: true,
+                                                title: "Under Maintenance",
+                                                message: "Full Mock simulations are currently undergoing system upgrades. Please use Quick Test instead!",
+                                                type: 'info'
+                                            });
+                                        }}
+                                        className={`p-3 rounded-lg border text-sm font-medium transition-all relative ${mode === 'Full_Mock' ? 'bg-primary/20 border-primary text-primary' : 'bg-surface border-border text-text-muted hover:bg-white/5'
                                             }`}
                                     >
-                                        <div className="flex items-center justify-center gap-2 mb-1"><Clock size={16} /> Full Mock</div>
-                                        <div className="text-[10px] opacity-70">Real Exam Duration</div>
+                                        <div className="flex items-center justify-center gap-2 mb-1">
+                                            <Clock size={16} /> Full Mock
+                                        </div>
+                                        <div className="text-[10px] opacity-70">Under Maintenance</div>
+                                        <div className="absolute -top-2 -right-2 px-2 py-0.5 bg-yellow-600 text-[8px] font-bold text-white rounded-full uppercase tracking-tighter shadow-lg">Soon</div>
                                     </button>
                                 </div>
                             </div>

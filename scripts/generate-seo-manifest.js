@@ -42,6 +42,12 @@ const slugify = (text) => {
         .replace(/--+/g, '-');
 };
 
+const SUBJECT_GROUPS = {
+    'Social Science': ['History', 'Geography', 'Polity', 'Economy', 'Civics', 'Social Studies'],
+    'Science': ['Physics', 'Chemistry', 'Biology', 'General Science', 'Environmental Science'],
+    'General Studies': ['History', 'Geography', 'Polity', 'Economy', 'Current Affairs', 'General Science']
+};
+
 async function getQuestionsFromAdminSDK() {
     console.log('🔑 Checking for Admin Credentials...');
     if (!fs.existsSync(serviceAccountPath)) return null;
@@ -205,6 +211,8 @@ async function generate() {
 
         const manifest = {};
         const questionDb = {};
+        const questionCanonicalMap = {}; // Tracks which exam "owns" each question for canonical URLs
+        const topicQuestionCounts = {}; // Tracks density to spin-up collections
 
         // === INJECT HOME ROUTE ===
         manifest['/'] = {
@@ -212,7 +220,9 @@ async function generate() {
             description: "The ultimate AI study partner for Class 6-12 board exams, JEE, NEET, and UPSC. Get personalized mock tests, PYQ analytics, and honest roadmaps for Indian aspirants.",
             h1: "AI-Powered Exam Preparation",
             type: "home",
-            priority: 1.0
+            priority: 1.0,
+            robots: "index, follow",
+            sitemapGroup: "core"
         };
 
         // === INJECT POLICY PAGES (Required for AdSense) ===
@@ -221,28 +231,36 @@ async function generate() {
             description: "Read the Exam Compass Privacy Policy. Learn how we collect, use, and protect your personal data, including information about cookies, analytics, and third-party advertising.",
             h1: "Privacy Policy",
             type: "page",
-            priority: 0.3
+            priority: 0.3,
+            robots: "index, follow",
+            sitemapGroup: "core"
         };
         manifest['/terms'] = {
             title: "Terms of Service | Exam Compass",
             description: "Read the Exam Compass Terms of Service. Understand the rules and guidelines for using our AI-powered exam preparation platform.",
             h1: "Terms of Service",
             type: "page",
-            priority: 0.3
+            priority: 0.3,
+            robots: "index, follow",
+            sitemapGroup: "core"
         };
         manifest['/about'] = {
             title: "About Exam Compass | AI-Powered Exam Preparation Platform",
             description: "Learn about Exam Compass — an AI-powered exam preparation platform built by a Class 11 student from KV Darbhanga, Bihar.",
             h1: "About Exam Compass",
             type: "page",
-            priority: 0.5
+            priority: 0.5,
+            robots: "index, follow",
+            sitemapGroup: "core"
         };
         manifest['/contact'] = {
             title: "Contact Us | Exam Compass",
             description: "Get in touch with the Exam Compass team. Contact us for questions, feedback, bug reports, or partnership inquiries.",
             h1: "Contact Us",
             type: "page",
-            priority: 0.3
+            priority: 0.3,
+            robots: "index, follow",
+            sitemapGroup: "core"
         };
 
         // === INJECT BLOG ROUTES ===
@@ -252,7 +270,9 @@ async function generate() {
             description: "Expert strategies, syllabus breakdowns, and exam preparation tips for JEE, NEET, UPSC, and CBSE Class 10-12 students.",
             h1: "Exam Compass Blog",
             type: "blog-index",
-            priority: 0.9
+            priority: 0.9,
+            robots: "index, follow",
+            sitemapGroup: "blogs"
         };
 
         if (fs.existsSync(blogsDir)) {
@@ -261,20 +281,26 @@ async function generate() {
                 const slug = file.replace('.md', '');
                 const fileContent = fs.readFileSync(path.join(blogsDir, file), 'utf8');
 
-                // Simple regex to grab frontmatter title and description
-                const titleMatch = fileContent.match(/title:\s*["'](.*?)["']/);
-                const descMatch = fileContent.match(/description:\s*["'](.*?)["']/);
-                const dateMatch = fileContent.match(/date:\s*["'](.*?)["']/);
-                const categoryMatch = fileContent.match(/category:\s*["'](.*?)["']/);
+                // Enhanced metadata extraction for standard and "Rich SEO" formats
+                const titleMatch = fileContent.match(/title:\s*["'](.*?)["']/) || fileContent.match(/- \*\*SEO Title:\*\* (.*)/);
+                const descMatch = fileContent.match(/description:\s*["'](.*?)["']/) || fileContent.match(/- \*\*Meta Description:\*\* (.*)/);
+                const dateMatch = fileContent.match(/date:\s*["'](.*?)["']/) || fileContent.match(/- \*\*Published Date:\*\* (.*)/);
+                const categoryMatch = fileContent.match(/category:\s*["'](.*?)["']/) || fileContent.match(/- \*\*Category:\*\* (.*)/);
+                const h1Match = fileContent.match(/^# (.*)/m);
+
+                const extractedTitle = titleMatch ? titleMatch[1].trim() : `${slug.replace(/-/g, ' ')} | Exam Compass`;
+                const extractedDesc = descMatch ? descMatch[1].trim() : `Read ${slug.replace(/-/g, ' ')} on Exam Compass Blog.`;
 
                 manifest[`/blog/${slug}`] = {
-                    title: titleMatch ? titleMatch[1] : `${slug.replace(/-/g, ' ')} | Exam Compass`,
-                    description: descMatch ? descMatch[1] : `Read ${slug.replace(/-/g, ' ')} on Exam Compass Blog.`,
-                    date: dateMatch ? dateMatch[1] : 'March 4, 2024',
-                    category: categoryMatch ? categoryMatch[1] : 'Exam Prep',
-                    h1: titleMatch ? titleMatch[1] : slug,
+                    title: extractedTitle,
+                    description: extractedDesc,
+                    date: dateMatch ? dateMatch[1].trim() : 'March 4, 2024',
+                    category: categoryMatch ? categoryMatch[1].trim() : 'Exam Prep',
+                    h1: h1Match ? h1Match[1].trim() : (titleMatch ? titleMatch[1].trim() : slug),
                     type: "blog-post",
-                    priority: 0.8
+                    priority: 0.8,
+                    robots: "index, follow",
+                    sitemapGroup: "blogs"
                 };
             });
             console.log(`✅ Added ${blogFiles.length} blog routes to manifest.`);
@@ -289,7 +315,9 @@ async function generate() {
                 description: `Best free resource for ${formattedExam} preparation. Practice mock tests, syllabus analysis, and previous year questions.`,
                 h1: `Crack ${formattedExam}`,
                 type: 'exam',
-                priority: 1.0
+                priority: 1.0,
+                robots: "index, follow",
+                sitemapGroup: "core"
             };
 
             subjects.forEach(subjectName => {
@@ -300,7 +328,9 @@ async function generate() {
                     description: `Complete ${subjectName} preparation for your ${formattedExam} exam. Detailed syllabus, weightage and practice sets.`,
                     h1: `${subjectName} for ${formattedExam}`,
                     type: 'hub',
-                    priority: 0.8
+                    priority: 0.8,
+                    robots: "index, follow",
+                    sitemapGroup: "core"
                 };
 
                 const topics = SYLLABUS_DATA[subjectName] || [];
@@ -318,29 +348,102 @@ async function generate() {
                         type: 'topic',
                         subject: subjectName,
                         exam: examSlug,
-                        priority: 0.7
+                        priority: 0.7,
+                        robots: "index, follow",
+                        sitemapGroup: "topics"
                     };
                 });
             });
 
             questions.forEach(q => {
-                // Modified linking: Case-insensitive match or contains
                 const qSub = (q.subject || '').toLowerCase();
-                const matchedSubject = subjects.find(s => s.toLowerCase() === qSub || qSub.includes(s.toLowerCase()));
+                
+                // Enhanced matching logic
+                const isMatch = subjects.some(s => {
+                    const examSub = s.toLowerCase();
+                    // Direct match
+                    if (examSub === qSub || qSub.includes(examSub)) return true;
+                    // Group match (e.g., if exam has "Social Science" and question is "History")
+                    const group = SUBJECT_GROUPS[s];
+                    if (group && group.some(sub => sub.toLowerCase() === qSub)) return true;
+                    return false;
+                });
 
-                if (matchedSubject || !q.subject) {
+                if (isMatch || !q.subject) {
                     const qUrl = `/${examSlug}/q/${q.slug}`;
+                    
+                    // CANONICAL FIX: Track which exam first "owns" this question
+                    // First exam to claim a slug gets canonical ownership
+                    if (!questionCanonicalMap[q.slug]) {
+                        questionCanonicalMap[q.slug] = examSlug;
+                    }
+                    
+                    
+                    // PHASE 2 - Indexing Control & Thin Content Protection
+                    const isCanonical = questionCanonicalMap[q.slug] === examSlug;
+                    const expWords = q.explanation ? q.explanation.split(/\s+/).length : 0;
+                    
+                    let robotsRule = "noindex, follow"; // Priority 4 Default
+                    if (isCanonical && expWords > 120) {
+                        robotsRule = "index, follow"; // Priority 2
+                    }
+
                     manifest[qUrl] = {
-                        title: `Q: ${q.text.substring(0, 50)}... | ${formattedExam} Practice`,
+                        title: `Q: ${q.text.substring(0, 30)}... | ${formattedExam} Practice`,
                         description: `Detailed solution for ${q.subject} question: ${q.text.substring(0, 100)}... Prepare for ${formattedExam}.`,
                         h1: q.text,
                         type: 'question',
-                        priority: 0.5
+                        priority: 0.5,
+                        canonicalExam: questionCanonicalMap[q.slug],
+                        robots: robotsRule,
+                        sitemapGroup: robotsRule === "index, follow" ? "questions" : null
                     };
-                    questionDb[qUrl] = q;
+                    questionDb[qUrl] = { ...q, canonicalExam: questionCanonicalMap[q.slug] };
+                    
+                    // Track Topic Density for Phase 3 Programmatic Collection Creation
+                    if (isCanonical && q.subject && q.topic) {
+                        const targetUrl = `/${examSlug}/${slugify(q.subject)}/${slugify(q.topic)}`;
+                        if (!topicQuestionCounts[targetUrl]) {
+                            topicQuestionCounts[targetUrl] = {
+                                topicName: q.topic,
+                                examSlug: examSlug,
+                                formattedExam: formattedExam,
+                                count: 0
+                            };
+                        }
+                        topicQuestionCounts[targetUrl].count++;
+                    }
                 }
             });
         });
+
+        // ============================================
+        // PHASE 3: DYNAMIC PYQ COLLECTION GENERATION
+        // ============================================
+        let collectionsCreated = 0;
+        Object.entries(topicQuestionCounts).forEach(([topicUrl, data]) => {
+            if (data.count >= 20) {
+                // Skip malformed URLs where subject and topic slugs are identical (e.g., /physics/physics)
+                const urlParts = topicUrl.split('/').filter(Boolean);
+                if (urlParts.length >= 3 && urlParts[1] === urlParts[2]) {
+                    console.warn(`⚠️ Skipping malformed PYQ collection URL: ${topicUrl}/top-50-pyqs`);
+                    return;
+                }
+
+                const pyqUrl = `${topicUrl}/top-50-pyqs`;
+                manifest[pyqUrl] = {
+                   title: `Top 50 Most Repeated ${data.topicName} PYQs | ${data.formattedExam}`,
+                   description: `A curated collection of the most important questions from ${data.topicName}, fully solved with step-by-step concepts to prepare for ${data.formattedExam}.`,
+                   h1: `Top 50 PYQs: ${data.topicName}`,
+                   type: 'collection',
+                   priority: 0.8,
+                   robots: "index, follow",
+                   sitemapGroup: "core"
+                };
+                collectionsCreated++;
+            }
+        });
+        console.log(`✅ Phase 3: Generated ${collectionsCreated} Programmatic PYQ Collections.`);
 
         const urls = Object.keys(manifest);
         if (urls.length === 0) throw new Error("Manifest empty");

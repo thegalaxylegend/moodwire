@@ -26,7 +26,7 @@ export const CustomSelect = ({
     placeholder = "Select an option",
     icon,
     required = false,
-    placement = 'top'
+    placement = 'bottom'
 }: CustomSelectProps) => {
     const [isOpen, setIsOpen] = useState(false);
     const containerRef = useRef<HTMLDivElement>(null);
@@ -50,14 +50,14 @@ export const CustomSelect = ({
     };
 
     return (
-        <div className="space-y-2" ref={containerRef}>
+        <div className="space-y-2 relative" ref={containerRef}>
             {label && (
                 <label className="text-sm font-medium text-text-main">
                     {label} {required && <span className="text-red-500">*</span>}
                 </label>
             )}
 
-            <div className="relative">
+            <div className="relative z-[9999]">
                 {/* Trigger Button */}
                 <button
                     type="button"

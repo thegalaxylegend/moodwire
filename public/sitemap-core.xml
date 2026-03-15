@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">  <url>
+    <loc>https://examcompass.web.app/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/privacy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/terms</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/jee-mains</loc>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/jee-mains/physics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/jee-mains/chemistry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/jee-mains/mathematics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/jee-advanced</loc>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/jee-advanced/physics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/jee-advanced/chemistry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/jee-advanced/mathematics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/neet</loc>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/neet/physics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/neet/chemistry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/neet/biology</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/bitsat</loc>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/bitsat/physics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/bitsat/chemistry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/bitsat/mathematics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/bitsat/english-proficiency</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/bitsat/logical-reasoning</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/upsc</loc>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/upsc/history</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/upsc/geography</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/upsc/polity</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/upsc/economy</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/upsc/general-science</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/upsc/current-affairs</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/clat</loc>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/clat/english-proficiency</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/clat/current-affairs</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/clat/legal-reasoning</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/clat/logical-reasoning</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/clat/quantitative-techniques</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/gate</loc>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/gate/engineering-mathematics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/gate/logical-reasoning</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/gate/computer-science</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-12</loc>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-12/physics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-12/chemistry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-12/mathematics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-12/biology</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-12/english</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-12/computer-science</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-11</loc>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-11/physics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-11/chemistry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-11/mathematics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-11/biology</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-11/english</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-11/computer-science</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-10</loc>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-10/mathematics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-10/science</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-10/social-science</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-10/english</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-9</loc>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-9/mathematics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-9/science</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-9/social-science</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-9/english</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-8</loc>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-8/mathematics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-8/science</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-8/social-science</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-8/english</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-7</loc>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-7/mathematics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-7/science</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-7/social-science</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-7/english</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-6</loc>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-6/mathematics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-6/science</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-6/social-science</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/class-6/english</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/jee-mains/physics/electromagnetic-induction/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/jee-mains/physics/moment-of-inertia/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>

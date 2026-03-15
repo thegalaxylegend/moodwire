@@ -1,27 +1,43 @@
+import { useEffect } from 'react';
 import { Navigate, Outlet, useLocation } from 'react-router-dom';
 import { useUserStore } from '../store/userStore';
-import { AppShellSkeleton } from '../components/skeletons/AppShellSkeleton';
+import { DashboardSkeleton } from '../components/skeletons/DashboardSkeleton';
+import { ExamReconfirmationModal } from '../components/dashboard/ExamReconfirmationModal';
 
 export const ProtectedLayout = () => {
-    const { user, isLoading } = useUserStore();
+    const { user, isLoading, authResolved, checkAbandonment } = useUserStore();
     const location = useLocation();
 
-    if (isLoading) {
-        return <AppShellSkeleton />;
+    useEffect(() => {
+        const handler = () => {
+            if (document.visibilityState === 'visible') {
+                console.log("📑 [Refocus] Tab visibility changed. Checking abandonment.");
+                checkAbandonment();
+            }
+        };
+        document.addEventListener('visibilitychange', handler);
+        return () => document.removeEventListener('visibilitychange', handler);
+    }, [checkAbandonment]);
+
+    if (isLoading || !authResolved) {
+        return <DashboardSkeleton />;
     }
 
-    // ALLOW GUEST ACCESS:
-    // We no longer redirect to /login immediately.
-    // The DashboardLayout and its children will handle the "Guest View" vs "User View".
-
-    // However, if we are on a truly protected route (like /onboarding), we might still want to check.
-    // For now, we assume this layout wraps /dashboard/* which should be open.
+    // Redirect unauthenticated users trying to access onboarding
+    if (!user && location.pathname.includes('/onboarding')) {
+        return <Navigate to="/login" replace />;
+    }
 
     // Keep Onboarding check: If user IS logged in but hasn't finished onboarding, force them there.
-    // But if (user) check first ensures we don't send guests to onboarding.
-    if (user && !user.onboardingCompleted && !location.pathname.includes('/onboarding')) {
+    // Added !user.isGuest to ensure guests never see onboarding.
+    if (user && !user.isGuest && !user.onboardingCompleted && !location.pathname.includes('/onboarding')) {
         return <Navigate to="/onboarding" replace />;
     }
 
-    return <Outlet />;
+    return (
+        <>
+            <ExamReconfirmationModal />
+            <Outlet />
+        </>
+    );
 };

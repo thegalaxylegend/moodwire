@@ -76,7 +76,12 @@ const UserProfileWidget = ({ isSidebarOpen, onClick, onRankClick }: { isSidebarO
                 <div className="relative">
                     <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center text-white font-bold shrink-0 overflow-hidden relative">
                         {user?.avatarUrl ? (
-                            <img src={user.avatarUrl} alt="Avatar" className="w-full h-full object-cover" />
+                            <img 
+                                src={user.avatarUrl} 
+                                alt="Avatar" 
+                                className="w-full h-full object-cover" 
+                                referrerPolicy="no-referrer"
+                            />
                         ) : (
                             <span>{user?.name?.[0] || 'U'}</span>
                         )}
@@ -170,6 +175,7 @@ export const DashboardLayout = () => {
         { icon: BarChart3, label: 'Benchmarking', path: '/dashboard/peer-benchmarking' },
         { icon: Scale, label: 'Decision Simulator', path: '/dashboard/decision-simulator' },
         { icon: ListChecks, label: 'Syllabus', path: '/dashboard/syllabus' },
+        { icon: FileText, label: 'Blogs', path: '/blog' },
         { icon: Bookmark, label: 'Saved Lectures', path: '/dashboard/saved-lectures' },
         { icon: Library, label: 'Timeline', path: '/dashboard/timeline' },
         { icon: FileText, label: 'Documents', path: '/dashboard/documents' },
@@ -184,7 +190,7 @@ export const DashboardLayout = () => {
             <SEO
                 title="Dashboard"
                 description="Your personal exam preparation dashboard."
-                type="noindex"
+                noindex={true}
             />
             {/* Mobile Sidebar Overlay */}
             {isSidebarOpen && (
@@ -202,8 +208,8 @@ export const DashboardLayout = () => {
             >
                 <div className="p-6 flex items-center justify-between shrink-0">
                     {(isSidebarOpen || window.innerWidth < 1024) && (
-                        <span className={`text-xl font-heading font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary whitespace-nowrap ${!isSidebarOpen && 'lg:hidden'}`}>
-                            Exam-Compass
+                        <span className={`text-xl md:text-2xl font-bold text-white tracking-tighter whitespace-nowrap transition-all duration-300 ${!isSidebarOpen && 'lg:hidden opacity-0 w-0'}`}>
+                            Exam<span className="text-[#a855f7]">Compass</span>
                         </span>
                     )}
                     <button
@@ -259,9 +265,9 @@ export const DashboardLayout = () => {
             </aside>
 
             {/* Main Content */}
-            <main className="flex-1 p-4 lg:p-10 overflow-x-hidden relative w-full pb-24 lg:pb-10 flex flex-col">
-                <div className="lg:hidden mb-6 flex items-center justify-between shrink-0">
-                    <span className="text-xl font-heading font-bold text-text-main">Exam-Compass</span>
+            <main className="flex-1 p-4 lg:p-10 overflow-x-hidden relative w-full pb-24 lg:pb-10 flex flex-col animate-fade-in">
+                <div className="lg:hidden mb-4 h-20 flex items-center justify-between shrink-0 border-b border-white/5 -mt-4 -mx-4 px-4 bg-background/50 backdrop-blur-md sticky top-0 z-50">
+                    <span className="text-xl md:text-2xl font-bold text-white tracking-tighter">Exam<span className="text-[#a855f7]">Compass</span></span>
                     <div className="flex items-center gap-3">
                         {/* Streak Display (Mobile) */}
                         <div className="flex items-center gap-1.5 px-3 py-1.5 bg-surface border border-border rounded-lg text-primary font-bold text-sm">

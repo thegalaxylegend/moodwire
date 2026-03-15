@@ -6,6 +6,7 @@ import { useUserStore } from '../../store/userStore';
 import { extractJSON } from '../../lib/utils';
 
 const ReactMarkdown = lazy(() => import('react-markdown'));
+import remarkGfm from 'remark-gfm';
 
 type Doc = {
     id: string;
@@ -79,6 +80,8 @@ FORMAT THE MARKDOWN WITH:
 - > Callout boxes for critical warnings
 - Tables for comparisons (if applicable)
 
+CRITICAL: Leave TWO (2) empty lines between every header and every paragraph. Never join them.
+
 RETURN ONLY A JSON OBJECT:
 {
     "title": "Professional Document Title",
@@ -89,8 +92,6 @@ RETURN ONLY A JSON OBJECT:
 (The 'diagram' field must contain valid MERMAID JS code representing a TOP-DOWN (graph TD), NARROW Flowchart. Do not make it too wide.)
 `;
 
-
-
             const generateNotes = async (retryCount = 0): Promise<any> => {
                 try {
                     console.log(`Generation Attempt ${retryCount + 1}`);
@@ -99,7 +100,7 @@ RETURN ONLY A JSON OBJECT:
                         prompt,
                         'groq',
                         [],
-                        { temperature: 0.7, jsonMode: true } // Enable JSON Mode
+                        { temperature: 0.7, jsonMode: true, stream: false, max_tokens: 4096 } // Non-streaming for reliable JSON parsing
                     );
 
                     if (response) {
@@ -476,9 +477,9 @@ RETURN ONLY A JSON OBJECT:
 
                             {/* Doc Content */}
                             <div className="flex-1 overflow-y-auto p-6 space-y-8 custom-scrollbar">
-                                <div className="prose prose-invert max-w-none prose-headings:text-primary prose-a:text-secondary prose-strong:text-text-main text-text-muted">
+                                <div className="prose prose-invert max-w-none prose-strong:text-text-main text-text-muted">
                                     <Suspense fallback={<div className="flex items-center gap-2 text-sm text-text-muted"><Loader2 className="animate-spin" size={16} /> Loading formatter...</div>}>
-                                        <ReactMarkdown>{selectedDoc.content}</ReactMarkdown>
+                                        <ReactMarkdown remarkPlugins={[remarkGfm]}>{selectedDoc.content}</ReactMarkdown>
                                     </Suspense>
                                 </div>
 

@@ -1,12 +1,15 @@
 import { create } from 'zustand';
 import { auth, db } from '../lib/firebase';
 import { onAuthStateChanged, signOut, deleteUser, signInAnonymously } from 'firebase/auth';
-import { doc, getDoc, setDoc, updateDoc, collection, query, where, limit, getDocs } from 'firebase/firestore';
+import { doc, getDoc, setDoc, updateDoc, collection, query, where, limit, getDocs, serverTimestamp } from 'firebase/firestore';
 import { performDeepMigration } from '../migrationService';
 import { SYLLABUS_DB } from '../lib/constants';
 import type { DailyMission } from '../services/missionService';
 import { MissionService } from '../services/missionService';
 import { getCurrentSeason, getCurrentPointCycle } from '../services/gamificationService';
+import { getUserStats } from '../services/leaderboardService';
+import { storageService } from '../services/storageService';
+import { REFERRAL_TTL_MS, TEST_INACTIVITY_TTL_MS, PUBLIC_PROFILE_FIELDS } from '../lib/securityConfig';
 
 export type User = {
     id: string;
@@ -46,6 +49,9 @@ export type User = {
     redeemedReferral?: boolean;
     abilityScore?: number; // Elo Rating
     dailyMissions?: DailyMission[];
+    pendingPublicSync?: boolean; // Flag for public profile mirror retry
+    pendingPrompts?: string[]; // e.g., ['exam_reconfirmation']
+    promptSnoozedUntil?: string; // ISO timestamp
 };
 
 interface UserState {
@@ -67,23 +73,35 @@ interface UserState {
     completeDailyChallenge: () => Promise<void>;
     refreshMissions: () => Promise<void>;
     completeMission: (missionId: string) => Promise<void>;
+    syncUserData: () => Promise<void>;
+    checkAbandonment: () => Promise<void>;
+    onClassChange: (uid: string, oldClass: string, newClass: string, targetExam?: string) => Promise<boolean>;
 }
 
 // Helper to synchronously hydrate from localStorage (Optimistic Load)
-const hydrateFromLocal = (): User | null => {
+const hydrateFromLocal = (uid?: string): User | null => {
     if (typeof window === 'undefined') return null;
     try {
-        // 1. Try Authenticated User Cache First (Instant Load)
+        // 1. Try Scoped Cache first (if UID provided)
+        if (uid) {
+            const cachedAuth = localStorage.getItem(`exam_compass_auth_cache_${uid}`);
+            if (cachedAuth) {
+                const user = JSON.parse(cachedAuth);
+                if (user && user.id === uid && !user.isGuest) return user;
+            }
+        }
+
+        // 2. Try General Cache (Legacy/Startup)
         const cachedAuth = localStorage.getItem('exam_compass_auth_cache');
         if (cachedAuth) {
             const user = JSON.parse(cachedAuth);
             // Basic validity check
-            if (user && user.id && !user.isGuest) {
+            if (user && user.id && !user.isGuest && (!uid || user.id === uid)) {
                 return user;
             }
         }
 
-        // 2. Fallback to Guest
+        // 3. Fallback to Guest
         const fixedId = localStorage.getItem('exam_compass_fixed_guest_id');
         if (!fixedId) return null;
 
@@ -125,8 +143,8 @@ const hydrateFromLocal = (): User | null => {
 };
 
 const localUser = hydrateFromLocal();
-
 let isAuthListenerAttached = false;
+let classChangeInProgress = false;
 
 export const useUserStore = create<UserState>((set, get) => ({
     user: localUser,
@@ -139,17 +157,16 @@ export const useUserStore = create<UserState>((set, get) => ({
         if (isAuthListenerAttached) return;
         isAuthListenerAttached = true;
 
-        // OPTIMISTIC LOAD: If already authenticated via cache, resolve auth immediately and skip listener.
-        // This prevents users with valid local caches from being logged out if IndexedDB Firebase tokens are cleared in dev environments.
+        // OPTIMISTIC LOAD: Handle local state immediately
         if (get().isInitialized && !get().user?.isGuest) {
-            set({ authResolved: true });
-            return;
+            // Keep existing profile but DO NOT set authResolved to true yet.
+            // We MUST wait for Firebase to confirm the session.
         }
 
         const timeout = setTimeout(() => {
             if (!get().authResolved) {
-                console.warn("⚠️ [Auth] Initialization timed out. Proceeding as logged-out/guest.");
-                set({ isLoading: false, isInitialized: true });
+                console.warn("🚨 [Auth] Initialization hang guard fired. Falling back to cached state.");
+                set({ isLoading: false, isInitialized: true, authResolved: true });
             }
         }, 5000);
 
@@ -157,23 +174,55 @@ export const useUserStore = create<UserState>((set, get) => ({
             clearTimeout(timeout);
             console.log("🔑 [Auth] State Changed:", user ? `UID: ${user.uid}` : "Logged Out");
 
+            // --- ABANDONMENT CHECK ---
+            get().checkAbandonment();
+
+            // --- SESSION COLLISION GUARD ---
+            if (typeof window !== 'undefined') {
+                const globalCacheRaw = localStorage.getItem('exam_compass_auth_cache');
+                if (globalCacheRaw) {
+                    try {
+                        const globalCache = JSON.parse(globalCacheRaw);
+                        // If UID mismatch, PURGE global data to prevent leak
+                        if (user && globalCache.id && globalCache.id !== user.uid) {
+                            console.warn("🚨 [Security] UID mismatch detected. Purging global stale caches.");
+                            localStorage.removeItem('exam_compass_auth_cache');
+                            localStorage.removeItem('exam_compass_local_history');
+                            // Note: we don't clear sessionStorage entirely, just auth keys
+                            sessionStorage.removeItem('referral_code'); 
+                        }
+                    } catch (e) { }
+                }
+            }
+
             if (user) {
+                // --- MIGRATION & SYNC RETRY ---
+                storageService.migrateGlobalHistory(user.uid);
+                storageService.syncPendingTests(user.uid);
+
                 let profile: any = null;
+                let rawFirestoreProfile: any = null;
 
                 try {
                     const docRef = doc(db, "profiles", user.uid);
                     console.log(`📡 [Firestore] Fetching profile for ${user.uid}...`);
 
+                    let fetchFailed = false;
                     try {
                         const docSnap = await getDoc(docRef);
                         if (docSnap.exists()) {
                             profile = docSnap.data();
                         }
                     } catch (fetchErr: any) {
-                        // ... error handling ...
+                        console.error("📡 [Firestore] Fetch failed:", fetchErr);
+                        fetchFailed = true;
                     }
 
+                    // CRITICAL: Capture the RAW state from Firestore before any local healing
+                    rawFirestoreProfile = profile ? { ...profile } : null;
+
                     // Fallback to email search if no profile found
+                    // SAFETY: Only create new profiles if the initial fetch succeeded (not a network error)
                     if (!profile && !user.isAnonymous && user.email) {
                         const searchEmail = user.email.toLowerCase().trim();
                         const profilesRef = collection(db, "profiles");
@@ -194,49 +243,30 @@ export const useUserStore = create<UserState>((set, get) => ({
                                     migration_source: oldUID,
                                     last_migration: new Date()
                                 };
-                                await setDoc(docRef, profile);
+                                await setDoc(docRef, profile, { merge: true });
                                 await updateDoc(oldDoc.ref, { migrated_to: user.uid });
-                            } else {
-                                // Create fresh profile
-                                // Check for Guest Migration (localStorage)
+                            } else if (!fetchFailed) {
+                                // Only create a fresh profile if the initial getDoc succeeded
+                                // (returned no doc). If getDoc FAILED (network error), skip creation
+                                // to avoid overwriting a profile we couldn't read.
                                 let migrationSource = null;
                                 const fixedGuestId = localStorage.getItem('exam_compass_fixed_guest_id');
                                 if (fixedGuestId) migrationSource = fixedGuestId;
 
-                                let intentClass = null;
-                                let intentExam = null;
-                                try {
-                                    const storedIntent = sessionStorage.getItem('exam_compass_intent');
-                                    if (storedIntent) {
-                                        const parsed = JSON.parse(storedIntent);
-                                        intentClass = parsed.class;
-                                        intentExam = parsed.exam;
-                                    }
-                                } catch (e) { }
-
                                 profile = {
                                     full_name: user.displayName || user.email?.split('@')[0] || 'User',
                                     email: user.email.toLowerCase().trim(),
+                                    avatar_url: user.photoURL,
                                     created_at: new Date(),
-                                    onboarding_completed: !!intentExam,
-                                    user_class: intentClass,
-                                    target_exam: intentExam,
                                     streak: 0,
+                                    onboarding_completed: false,
                                     migration_source: migrationSource
                                 };
-                                await setDoc(docRef, profile);
+                                await setDoc(docRef, profile, { merge: true });
 
-                                // Referral Logic
-                                try {
-                                    const refCode = sessionStorage.getItem('referral_code');
-                                    if (refCode) {
-                                        const { claimReferralCode } = await import('../services/referralService');
-                                        await claimReferralCode(refCode, user.uid);
-                                        sessionStorage.removeItem('referral_code');
-                                        const updatedSnap = await getDoc(docRef);
-                                        if (updatedSnap.exists()) profile = updatedSnap.data();
-                                    }
-                                } catch (err) { }
+                                // Referral will be processed in unified healing block
+                            } else {
+                                console.warn("⚠️ [Auth] Skipping profile creation — initial fetch failed (network error). Using cached data instead.");
                             }
                         } catch (queryErr) {
                             console.error("❌ Email lookup/creation failed:", queryErr);
@@ -244,6 +274,31 @@ export const useUserStore = create<UserState>((set, get) => ({
                     }
                 } catch (err) {
                     console.error("❌ Fatal profile error:", err);
+                }
+
+                // --- DATA RECOVERY & CONSOLIDATION ---
+                const cached = hydrateFromLocal(user.uid);
+                
+                // A. Fallback to Cache if Firestore Fetch failed (or doc missing)
+                if (!profile && cached && cached.id === user.uid && !cached.isGuest) {
+                    console.log("🩹 [Fallback] No Firestore profile found. Hydrating from local cache.");
+                    profile = {
+                        full_name: cached.name,
+                        email: cached.email || user.email,
+                        avatar_url: cached.avatarUrl,
+                        target_exam: cached.targetExam,
+                        target_year: cached.targetYear,
+                        user_class: cached.userClass,
+                        prep_level: cached.prepLevel,
+                        onboarding_completed: cached.onboardingCompleted,
+                        streak: cached.streak,
+                        xp: cached.xp,
+                        total_points: cached.totalPoints,
+                        lifetime_xp: cached.lifetimeXp,
+                        skills: cached.skills,
+                        daily_study_time: cached.dailyStudyTime,
+                        last_study_date: cached.lastStudyDate,
+                    };
                 }
 
                 // ... Streak Logic ...
@@ -262,19 +317,162 @@ export const useUserStore = create<UserState>((set, get) => ({
                     }
                 }
 
+                console.log(`👤 [Auth] User Detected: ${user.email} (Photo: ${user.photoURL})`);
+
+                // --- RECONCILIATION ---
+                const currentSeason = getCurrentSeason();
+                const currentPointCycle = getCurrentPointCycle();
+
+                // 0. Intent & Referral Healing (Applies to ALL profiles if incomplete)
+                if (profile && !profile.onboarding_completed) {
+                    try {
+                        // A. Check for Signup/URL Intent
+                        const storedIntent = localStorage.getItem('exam_compass_intent');
+                        if (storedIntent) {
+                            const parsed = JSON.parse(storedIntent);
+                            // TTL Check: Using REFERRAL_TTL_MS (24h)
+                            if (parsed.savedAt && (Date.now() - parsed.savedAt < REFERRAL_TTL_MS)) {
+                                console.log("🩹 [Healing] Applying stored intent to incomplete profile:", parsed);
+                                profile.user_class = profile.user_class || parsed.class;
+                                profile.target_exam = profile.target_exam || parsed.exam;
+                                
+                                // Auto-complete onboarding if we now have both mandatory fields
+                                if (profile.user_class && profile.target_exam) {
+                                    console.log("🩹 [Healing] Auto-completing onboarding via healed intent.");
+                                    profile.onboarding_completed = true;
+                                }
+                            } else {
+                                localStorage.removeItem('exam_compass_intent');
+                            }
+                        }
+
+                        // B. Check for Referral
+                        const storedRef = localStorage.getItem('referral_code');
+                        if (storedRef) {
+                            const parsed = JSON.parse(storedRef);
+                            // TTL Check: Using REFERRAL_TTL_MS (24h)
+                            if (parsed.savedAt && (Date.now() - parsed.savedAt < REFERRAL_TTL_MS)) {
+                                console.log("🩹 [Healing] Claiming referral code from localStorage.");
+                                const { claimReferralCode } = await import('../services/referralService');
+                                await claimReferralCode(parsed.code, user.uid);
+                            }
+                            localStorage.removeItem('referral_code');
+                        }
+                    } catch (e) {
+                        console.error("🩹 [Healing] Intent/Referral recovery failed:", e);
+                    }
+                }
+
+                // 0.5. Aggressive Heuristic Healing (The Platform-Wide "Growth Guard")
+                // If profile has status/stats in ANY format (snake_case or camelCase), force-complete it.
+                const hasOnboardingDone = 
+                    profile?.onboarding_completed === true || 
+                    profile?.onboardingCompleted === true || 
+                    String(profile?.onboarding_completed) === 'true' ||
+                    String(profile?.onboardingCompleted) === 'true' ||
+                    !!(profile?.target_exam || profile?.targetExam || profile?.user_class || profile?.userClass);
+
+                // Healing Case A: Sync from Lifetime XP or Leaderboard (Restores rank for all users)
+                if (profile && (profile.xp || 0) < (profile.lifetime_xp || 0)) {
+                    console.log(`🩹 [Integrity] Restoring XP from Lifetime records: ${profile.xp} -> ${profile.lifetime_xp}`);
+                    profile.xp = profile.lifetime_xp;
+                } else if (profile && (profile.xp || 0) === 0) {
+                    // DEEP RECOVERY: If profile XP is wiped, check the Leaderboard for the current month
+                    console.log("🕵️‍♂️ [Integrity] XP is 0. Checking Leaderboard for historical standings...");
+                    try {
+                        const stats = await getUserStats(user.uid);
+                        if (stats && stats.xp > 0) {
+                            console.log(`🕵️‍♂️ [Integrity] XP recovered from Leaderboard: ${stats.xp}`);
+                            profile.xp = stats.xp;
+                            profile.lifetime_xp = Math.max(profile.lifetime_xp || 0, stats.xp);
+                        }
+                    } catch (e) {
+                        console.warn("🕵️‍♂️ [Integrity] Leaderboard recovery failed:", e);
+                    }
+                }
+
+                // Healing Case B: Ghost Wipe restoration (Has progress but onboarding=false)
+                if (profile && !hasOnboardingDone && ((profile.xp || 0) > 0 || (profile.total_points || 0) > 0 || (profile.streak || 0) > 0)) {
+                    console.log("🩹 [Integrity] Ghost Wipe detected. Restoring completion state.");
+                    profile.onboarding_completed = true;
+                }
+                
+                // Healing Case C: Inference Healing (Reconstruct Identity from history)
+                // If userClass/exam is missing but they have progress, try to "Guess" from Syllabus items or Diagnostic results
+                if (profile && (!profile.target_exam && !profile.targetExam) && (profile.xp || 0) > 0) {
+                    console.log("🕵️‍♂️ [Inference] Identity missing. Searching historical records...");
+                    try {
+                        const diagQ = query(collection(db, 'diagnostic_results'), where('user_id', '==', user.uid), limit(1));
+                        const diagSnap = await getDocs(diagQ);
+                        if (!diagSnap.empty) {
+                            const historical = diagSnap.docs[0].data();
+                            console.log("🕵️‍♂️ [Inference] Identity reconstructed from Diagnostic results.");
+                            profile.target_exam = historical.exam;
+                            profile.user_class = historical.class;
+                            profile.onboarding_completed = true;
+                        }
+                    } catch (e) {
+                        console.warn("🕵️‍♂️ [Inference] Identity reconstruction failed:", e);
+                    }
+                }
+
+                // Final check: If they have ANY exam data, they are onboarded.
+                if (profile && !profile.onboarding_completed && (profile.target_exam || profile.targetExam)) {
+                    profile.onboarding_completed = true;
+                }
+
+                // 1. Fix corrupted cycle fields if they contain data meant for the other cycle
+                if (profile?.last_season_reset?.includes('-P')) {
+                    console.log("🩹 [Healing] Found Point Cycle in Season field. Resetting.");
+                    profile.last_season_reset = currentSeason;
+                }
+                if (profile?.last_point_reset?.includes('-S')) {
+                    console.log("🩹 [Healing] Found Season Cycle in Point field. Resetting.");
+                    profile.last_point_reset = currentPointCycle;
+                }
+
+                // 2. Reconciliation: Compare Cache vs Current Profile (Fires for existing users too)
+                if (cached && cached.id === user.uid && !cached.isGuest) {
+                    // Check if cache has better stats or status
+                    const needsRecovery = 
+                        (cached.xp || 0) > (profile?.xp || 0) || 
+                        (cached.onboardingCompleted && !profile?.onboarding_completed);
+
+                    if (needsRecovery) {
+                        console.log(`🩹 [Reconciliation] Local Cache > Current Data. Merging improvements.`);
+                        profile = { 
+                            ...profile, 
+                            xp: Math.max(cached.xp || 0, profile?.xp || 0), 
+                            total_points: Math.max(cached.totalPoints || 0, profile?.total_points || 0),
+                            lifetime_xp: Math.max(cached.lifetimeXp || 0, profile?.lifetime_xp || 0),
+                            // If either is true, it's true.
+                            onboarding_completed: profile?.onboarding_completed || cached.onboardingCompleted,
+                            user_class: profile?.user_class || cached.userClass,
+                            target_exam: profile?.target_exam || cached.targetExam,
+                            full_name: profile?.full_name || cached.name
+                        };
+                    }
+                }
+
+                console.log(`📡 [Profile] Firestore Data (processed):`, profile);
+
                 const finalUserObj: User = {
                     id: user.uid,
                     email: user.email || `guest_${user.uid.slice(0, 6)}@examcompass.app`,
                     name: profile?.full_name || (user.isAnonymous ? 'Guest Student' : user.email?.split('@')[0] || 'User'),
-                    avatarUrl: profile?.avatar_url,
-                    targetExam: profile?.target_exam,
-                    targetYear: profile?.target_year,
-                    prepLevel: profile?.prep_level,
+                    avatarUrl: (profile?.avatar_url && profile.avatar_url.trim().length > 0) ? profile.avatar_url : (user.photoURL || undefined),
+                    targetExam: profile?.target_exam || profile?.targetExam,
+                    targetYear: profile?.target_year || profile?.targetYear,
+                    prepLevel: profile?.prep_level || profile?.prepLevel,
                     streak: currentStreak,
-                    lastVisit: profile?.last_visit,
-                    lastTestDate: profile?.last_test_date,
-                    userClass: profile?.user_class,
-                    onboardingCompleted: profile?.onboarding_completed === true || !!profile?.target_exam,
+                    lastVisit: profile?.last_visit || profile?.lastVisit,
+                    lastTestDate: profile?.last_test_date || profile?.lastTestDate,
+                    userClass: profile?.user_class || profile?.userClass,
+                    onboardingCompleted: profile?.onboarding_completed === true || 
+                                       profile?.onboardingCompleted === true ||
+                                       String(profile?.onboarding_completed) === 'true' || 
+                                       String(profile?.onboardingCompleted) === 'true' ||
+                                       (!!(profile?.target_exam || profile?.targetExam) && !!(profile?.user_class || profile?.userClass) && !!profile?.full_name),
                     role: profile?.role || 'user',
                     skills: profile?.skills || { physics: 0.5, chemistry: 0.5, math: 0.5, lastUpdated: new Date().toISOString() },
                     commonMistakes: profile?.common_mistakes || [],
@@ -284,6 +482,7 @@ export const useUserStore = create<UserState>((set, get) => ({
                     totalPoints: profile?.total_points || 0,
                     lifetimeXp: profile?.lifetime_xp || 0,
                     lastSeasonReset: profile?.last_season_reset || getCurrentSeason(),
+                    lastPointReset: profile?.last_point_reset || getCurrentPointCycle(),
                     dailyStudyTime: profile?.daily_study_time || 0,
                     lastStudyDate: profile?.last_study_date,
                     dailyChallengeCompleted: profile?.daily_challenge_completed || false,
@@ -301,22 +500,43 @@ export const useUserStore = create<UserState>((set, get) => ({
                     isLoading: false,
                     user: finalUserObj
                 });
+                
+                console.log(`✅ [UserStore] Final User Object:`, finalUserObj);
 
                 // CACHE FOR INSTANT LOAD
                 if (!user.isAnonymous) {
                     localStorage.setItem('exam_compass_auth_cache', JSON.stringify(finalUserObj));
+                    localStorage.setItem(`exam_compass_auth_cache_${user.uid}`, JSON.stringify(finalUserObj));
+                    // Cleanup intent once successfully authenticated
+                    localStorage.removeItem('exam_compass_intent');
+                    // Trigger Background Syncs
+                    get().syncUserData();
                 }
 
                 // --- DUAL-CYCLE RESET LOGIC ---
-                const currentSeason = getCurrentSeason();
-                const currentPointCycle = getCurrentPointCycle();
                 const todayStr = new Date().toISOString().split('T')[0];
                 const userState = get().user;
 
                 if (userState) {
                     const updates: Partial<User> = {};
+                    console.log("🔍 [UserStore] Analyzing profile for sync/healing...");
 
-                    // 0. Daily Reset (Study Time & Challenge)
+                    // 0. Sync Healed Data to Firestore (Class, Exam, Onboarding status)
+                    // We compare against rawFirestoreProfile to see if healing happened
+                    if (userState.userClass && userState.userClass !== rawFirestoreProfile?.user_class) {
+                        console.log(`🩹 [Sync] Healing userClass: ${rawFirestoreProfile?.user_class} -> ${userState.userClass}`);
+                        updates.userClass = userState.userClass;
+                    }
+                    if (userState.targetExam && userState.targetExam !== rawFirestoreProfile?.target_exam) {
+                        console.log(`🩹 [Sync] Healing targetExam: ${rawFirestoreProfile?.target_exam} -> ${userState.targetExam}`);
+                        updates.targetExam = userState.targetExam;
+                    }
+                    if (userState.onboardingCompleted && !rawFirestoreProfile?.onboarding_completed) {
+                        console.log("🩹 [Sync] Healing onboardingCompleted: false -> true");
+                        updates.onboardingCompleted = true;
+                    }
+
+                    // 1. Daily Reset (Study Time & Challenge)
                     if (userState.lastStudyDate !== todayStr) {
                         console.log("🌅 [Daily] Resetting study progress for new day.");
                         updates.dailyStudyTime = 0;
@@ -324,7 +544,6 @@ export const useUserStore = create<UserState>((set, get) => ({
                         updates.dailyChallengeCompleted = false;
 
                         // Check if streak was missed (yesterday was neither lastStreakIncrementDate nor lastStudyDate)
-                        // This handles the "break streak" logic
                         const lastInc = userState.lastStreakIncrementDate;
                         if (lastInc) {
                             const lastDate = new Date(lastInc);
@@ -336,24 +555,41 @@ export const useUserStore = create<UserState>((set, get) => ({
                         }
                     }
 
-                    // 1. XP Reset (Rank Season - Odd Months)
-                    if (userState.lastSeasonReset !== currentSeason) {
-                        console.log(`🌀 [XP Cycle] New Season: ${currentSeason}. Archiving XP...`);
-                        const oldXP = userState.xp || 0;
-                        updates.xp = 0;
-                        updates.lifetimeXp = (userState.lifetimeXp || 0) + oldXP;
-                        updates.lastSeasonReset = currentSeason;
+                    // 2. XP Reset (Rank Season - Odd Months)
+                    if (userState.lastSeasonReset !== currentSeason || !rawFirestoreProfile?.last_season_reset) {
+                        if (!rawFirestoreProfile?.last_season_reset) {
+                            console.log("🩹 [Healing] Missing Season Reset field. Locking in current season.");
+                            updates.lastSeasonReset = currentSeason;
+                        } else {
+                            console.log(`🌀 [XP Cycle] New Season: ${currentSeason}. Archiving XP...`);
+                            const oldXP = userState.xp || 0;
+                            updates.xp = 0;
+                            updates.lifetimeXp = (userState.lifetimeXp || 0) + oldXP;
+                            updates.lastSeasonReset = currentSeason;
+                        }
                     }
 
-                    // 2. Points Reset (Point Cycle - Even Months)
-                    if (userState.lastPointReset !== currentPointCycle) {
-                        console.log(`💎 [Point Cycle] New Cycle: ${currentPointCycle}. Resetting Points...`);
-                        updates.totalPoints = 0;
-                        updates.lastPointReset = currentPointCycle;
+                    // 3. Points Reset (Point Cycle - Even Months)
+                    if (userState.lastPointReset !== currentPointCycle || !rawFirestoreProfile?.last_point_reset) {
+                        if (!rawFirestoreProfile?.last_point_reset) {
+                            console.log("🩹 [Healing] Missing Point Reset field. Locking in current cycle.");
+                            updates.lastPointReset = currentPointCycle;
+                        } else {
+                            console.log(`💎 [Point Cycle] New Cycle: ${currentPointCycle}. Resetting Points...`);
+                            updates.totalPoints = 0;
+                            updates.lastPointReset = currentPointCycle;
+                        }
                     }
 
                     if (Object.keys(updates).length > 0) {
-                        await get().updateProfile(updates);
+                        console.log("📤 [UserStore] Pushing initialization updates to Firestore:", updates);
+                        try {
+                            await get().updateProfile(updates);
+                        } catch (e) {
+                            console.error("⚠️ [UserStore] Non-critical sync update failed:", e);
+                        }
+                    } else {
+                        console.log("✅ [UserStore] Profile is stable and synced.");
                     }
                 }
 
@@ -361,29 +597,183 @@ export const useUserStore = create<UserState>((set, get) => ({
                 if (profile?.migration_source) {
                     performDeepMigration(profile.migration_source, user.uid);
                 }
+
+                // --- LOCAL HISTORY MIGRATION (Idempotent) ---
+                storageService.migrateGlobalHistory(user.uid);
             } else {
-                // LOGGED OUT
-                localStorage.removeItem('exam_compass_auth_cache'); // Clear cache
-                const local = hydrateFromLocal(); // Fallback to guest
-                if (local) {
-                    set({ user: local, isAuthenticated: true, isLoading: false, isInitialized: true, authResolved: true });
+                // LOGGED OUT — BUT BE CAREFUL about race conditions.
+                // Firebase can fire 'null' temporarily during token refresh.
+                // If we have a valid cached user, don't wipe immediately.
+                const cachedUser = hydrateFromLocal();
+                if (cachedUser && !cachedUser.isGuest) {
+                    // Keep cached user alive for now — wait for potential re-auth
+                    console.log("🔑 [Auth] Null state received but valid cache exists. Keeping cached session for 3s grace period.");
+                    set({ user: cachedUser, isAuthenticated: true, isLoading: false, isInitialized: true, authResolved: true });
+                    
+                    // Set a delayed check: if after 3s we still have no Firebase user, THEN clear
+                    setTimeout(() => {
+                        if (!auth.currentUser) {
+                            console.log("🔑 [Auth] Grace period expired. No re-auth detected. Clearing session.");
+                            localStorage.removeItem('exam_compass_auth_cache');
+                            const guest = hydrateFromLocal(); // try guest fallback
+                            if (guest) {
+                                set({ user: guest, isAuthenticated: true, isLoading: false, isInitialized: true, authResolved: true });
+                            } else {
+                                set({ user: null, isAuthenticated: false, isLoading: false, isInitialized: true, authResolved: true });
+                            }
+                        }
+                    }, 3000);
                 } else {
-                    set({ user: null, isAuthenticated: false, isLoading: false, isInitialized: true, authResolved: true });
+                    // No valid cache: truly logged out
+                    localStorage.removeItem('exam_compass_auth_cache');
+                    const local = hydrateFromLocal(); // Fallback to guest
+                    if (local) {
+                        set({ user: local, isAuthenticated: true, isLoading: false, isInitialized: true, authResolved: true });
+                    } else {
+                        set({ user: null, isAuthenticated: false, isLoading: false, isInitialized: true, authResolved: true });
+                    }
                 }
             }
         });
     },
 
-    updateProfile: async (data) => {
+    // --- ABANDONMENT LOGIC ---
+    checkAbandonment: async () => {
+        const { user } = get();
+        if (!user) return;
+        
+        const cachedSession = sessionStorage.getItem('active_test_session');
+        if (cachedSession) {
+            try {
+                const data = JSON.parse(cachedSession);
+                const isTooOld = (Date.now() - (data.timestamp || 0)) > TEST_INACTIVITY_TTL_MS;
+                if (isTooOld) {
+                    console.log("🧹 [Abandonment] Active test session is stale (>30m). Clearing.");
+                    sessionStorage.removeItem('active_test_session');
+                }
+            } catch (e) { }
+        }
+    },
+
+    syncUserData: async () => {
+        const { user } = get();
+        if (!user || user.isGuest) return;
+
+        // --- PUBLIC PROFILE SYNC ---
+        // Mirror safe fields to help with leaderboards/referrals without exposing private data
+        try {
+            const publicRef = doc(db, "public_profiles", user.id);
+            const publicData: any = {
+                updated_at: serverTimestamp()
+            };
+
+            // Mirror only allowed fields
+            PUBLIC_PROFILE_FIELDS.forEach(field => {
+                // Map snake_case or camelCase correctly
+                if (field === 'full_name') publicData.full_name = user.name;
+                if (field === 'avatar_url') publicData.avatar_url = user.avatarUrl;
+                if (field === 'xp') publicData.xp = user.xp;
+            });
+
+            await setDoc(publicRef, publicData, { merge: true });
+            
+            // Success: clear pending flag if it was set
+            if (user.pendingPublicSync) {
+                const updatedUser = { ...user, pendingPublicSync: false };
+                set({ user: updatedUser });
+                localStorage.setItem(`exam_compass_auth_cache_${user.id}`, JSON.stringify(updatedUser));
+            }
+            console.log("📡 [Sync] Public profile mirrored.");
+        } catch (e) {
+            console.warn("📡 [Sync] Public profile mirror failed (queueing retry):", e);
+            if (!user.pendingPublicSync) {
+                const updatedUser = { ...user, pendingPublicSync: true };
+                set({ user: updatedUser });
+                localStorage.setItem(`exam_compass_auth_cache_${user.id}`, JSON.stringify(updatedUser));
+            }
+        }
+
+        // --- PENDING TESTS SYNC ---
+        await storageService.syncPendingTests(user.id);
+    },
+
+    onClassChange: async (uid: string, oldClass: string, newClass: string, targetExam?: string) => {
+        if (classChangeInProgress) return false;
+        classChangeInProgress = true;
+        
+        console.log(`🎓 [Transition] Advancement from ${oldClass} to ${newClass} detected.`);
+        
+        try {
+            const isCompetitive = ['JEE', 'NEET'].includes(targetExam || '');
+            
+            // 1. ARCHIVE (Gated)
+            if (!isCompetitive) {
+                try {
+                    console.log(`📦 [Archive] Snapshoting Class ${oldClass} stats...`);
+                    // We reach for current local performance map
+                    const performanceKey = `exam_compass_performance_${uid}`;
+                    const localPerfRaw = localStorage.getItem(performanceKey);
+                    
+                    if (localPerfRaw) {
+                        const archiveRef = doc(db, "profiles", uid, "archives", `stats_${oldClass}`);
+                        await setDoc(archiveRef, {
+                            stats: JSON.parse(localPerfRaw),
+                            archived_at: serverTimestamp(),
+                            class: oldClass
+                        });
+                        console.log("✅ [Archive] Success.");
+                    }
+                } catch (archiveErr) {
+                    console.error("❌ [Archive] Failed. Aborting transition to protect data.", archiveErr);
+                    classChangeInProgress = false;
+                    return false; // Signal failure
+                }
+            } else {
+                console.log("⏩ [Transition] Competitive exam user. Skipping archive to keep Class 11 stats active.");
+            }
+
+            // 2. EXPLICIT CLEANUP (Specific Keys)
+            console.log("🧹 [Transition] Clearing stale caches...");
+            const keysToClear = [
+                `exam_compass_chapters_${uid}`,
+                `exam_compass_performance_${uid}`,
+                `exam_compass_active_test_${uid}` // Mid-test discard
+            ];
+            
+            keysToClear.forEach(k => {
+                localStorage.removeItem(k);
+                sessionStorage.removeItem(k); // Just in case
+            });
+            // Also clear the actual session storage for tests (if any)
+            sessionStorage.removeItem('active_test_session');
+
+            // 3. PERSISTENT PROMPT
+            const docRef = doc(db, "profiles", uid);
+            await setDoc(docRef, {
+                pending_prompts: ['exam_reconfirmation'],
+                updated_at: serverTimestamp()
+            }, { merge: true });
+            
+            console.log("✅ [Transition] Finalized. Prompt queued.");
+            return true;
+        } catch (fatalErr) {
+            console.error("❌ [Transition] Fatal error during class change:", fatalErr);
+            return false;
+        } finally {
+            classChangeInProgress = false;
+        }
+    },
+
+    updateProfile: async (data: Partial<User>) => {
         const { user } = get();
         if (!user) return;
 
         const newUser = { ...user, ...data };
         set({ user: newUser });
 
-        // Update Cache Immediately
         if (!user.isGuest) {
             localStorage.setItem('exam_compass_auth_cache', JSON.stringify(newUser));
+            localStorage.setItem(`exam_compass_auth_cache_${user.id}`, JSON.stringify(newUser));
         }
 
         const updates: any = { updated_at: new Date() };
@@ -402,7 +792,8 @@ export const useUserStore = create<UserState>((set, get) => ({
         if (data.xp !== undefined) updates.xp = data.xp;
         if (data.totalPoints !== undefined) updates.total_points = data.totalPoints;
         if (data.lifetimeXp !== undefined) updates.lifetime_xp = data.lifetimeXp;
-        if (data.lastSeasonReset !== undefined) updates.last_point_reset = data.lastPointReset;
+        if (data.lastSeasonReset !== undefined) updates.last_season_reset = data.lastSeasonReset;
+        if (data.lastPointReset !== undefined) updates.last_point_reset = data.lastPointReset;
         if (data.dailyStudyTime !== undefined) updates.daily_study_time = data.dailyStudyTime;
         if (data.lastStudyDate !== undefined) updates.last_study_date = data.lastStudyDate;
         if (data.dailyChallengeCompleted !== undefined) updates.daily_challenge_completed = data.dailyChallengeCompleted;
@@ -414,18 +805,51 @@ export const useUserStore = create<UserState>((set, get) => ({
 
         try {
             if (!user.isGuest) {
+                console.log(`📡 [Firestore] Updating profile for ${user.id}:`, updates);
                 const docRef = doc(db, "profiles", user.id);
+
+                // --- CLASS CHANGE DETECTION (Read-Before-Write) ---
+                if (data.userClass && data.userClass !== user.userClass) {
+                    const success = await get().onClassChange(user.id, user.userClass || 'General', data.userClass, user.targetExam);
+                    if (!success) {
+                        // If onClassChange failed/aborted, do not commit the profile update.
+                        console.warn("🚫 [Transition] Aborted profile update due to archive failure.");
+                        return;
+                    }
+                }
+
                 await setDoc(docRef, updates, { merge: true });
+                console.log(`✅ [Firestore] Profile updated successfully.`);
+
+                // Reactive Mirroring: trigger mirror sync if relevant fields changed
+                const mirrorChanged = PUBLIC_PROFILE_FIELDS.some(f => {
+                   if (f === 'full_name' && data.name !== undefined) return true;
+                   if (f === 'avatar_url' && data.avatarUrl !== undefined) return true;
+                   if (f === 'xp' && data.xp !== undefined) return true;
+                   return false;
+                });
+
+                if (mirrorChanged) {
+                    get().syncUserData(); // This handles mirroring logic & retry flag
+                }
             }
         } catch (error: any) {
-            console.warn('Profile update failed:', error.message);
+            console.error('❌ [Firestore] Profile update failed:', error.message);
+            // Revert local state and re-throw on critical updates (onboarding completion)
+            if (data.onboardingCompleted === true) {
+                set({ user: { ...user } }); // Revert to pre-update user
+                if (!user.isGuest) {
+                    localStorage.setItem('exam_compass_auth_cache', JSON.stringify(user));
+                }
+                throw error;
+            }
         }
 
         if (auth.currentUser?.isAnonymous) {
             let fixedId = localStorage.getItem('exam_compass_fixed_guest_id');
             if (!fixedId) {
                 fixedId = user.id;
-                localStorage.setItem('exam_compass_fixed_guest_id', fixedId);
+                localStorage.setItem('exam_compass_fixed_guest_id', fixedId as string);
             }
             const existing = JSON.parse(localStorage.getItem(`guest_profile_${fixedId}`) || '{}');
             const newContent = JSON.stringify({ ...existing, ...updates });
@@ -434,10 +858,38 @@ export const useUserStore = create<UserState>((set, get) => ({
     },
 
     logout: async () => {
+        const uid = auth.currentUser?.uid; // Read fresh from auth
+        
+        // 1. Clear Global Keys (Security)
         localStorage.removeItem('exam_compass_auth_cache');
+        localStorage.removeItem('exam_compass_local_history');
+        localStorage.removeItem('exam_compass_intent');
+
+        // 2. Conditional Referral Clear
+        const refRaw = localStorage.getItem('referral_code');
+        if (refRaw) {
+            try {
+                const parsed = JSON.parse(refRaw);
+                const isOld = (Date.now() - (parsed.savedAt || 0)) > REFERRAL_TTL_MS;
+                // Clear if old or if we have a mismatching UID (but here we are logging out, 
+                // so we only keep it if it's fresh and might be used by a guest/new signup)
+                if (isOld) localStorage.removeItem('referral_code');
+            } catch (e) {
+                localStorage.removeItem('referral_code');
+            }
+        }
+
+        // 3. Clear Scoped Cache
+        if (uid) {
+            localStorage.removeItem(`exam_compass_auth_cache_${uid}`);
+            localStorage.removeItem(`syllabus_cache_${uid}`);
+            localStorage.removeItem(`guest_profile_${uid}`);
+        }
+
         await signOut(auth);
         set({ user: null, isAuthenticated: false });
-        // Force redirect to login on manual logout
+        
+        // Force redirect
         window.location.href = '/login';
     },
 
@@ -510,21 +962,49 @@ export const useUserStore = create<UserState>((set, get) => ({
         try {
             const currentAuthUser = auth.currentUser;
             if (!currentAuthUser) {
-                console.warn("[Syllabus] No authenticated Firebase user. Skipping fetch.");
+                if (get().authResolved) {
+                    console.warn("[Syllabus] No authenticated Firebase user. Skipping fetch.");
+                }
                 return;
             }
 
-            console.log(`[Syllabus] Querying for AuthUID: ${currentAuthUser.uid}`);
+            console.log(`[Syllabus] Querying for AuthUID: ${currentAuthUser.uid}, Class: ${user.userClass}, Exam: ${user.targetExam}`);
+            
+            const cacheKey = `syllabus_cache_${currentAuthUser.uid}_${user.userClass || 'General'}_${user.targetExam || 'General'}`;
+            
+            // 1. Optimistic Load from Cache
+            const cachedData = localStorage.getItem(cacheKey);
+            if (cachedData) {
+                try {
+                    const parsed = JSON.parse(cachedData);
+                    // Check if cache is fresh (1 hour)
+                    if (Date.now() - parsed.timestamp < 60 * 60 * 1000) {
+                        set({ user: { ...user, syllabusProgress: parsed.progress } });
+                    }
+                } catch (e) {}
+            }
 
-            // STRICTLY use the auth user UID to ensure it matches security rules requirements
-            const q = query(collection(db, "syllabus"), where("user_id", "==", currentAuthUser.uid));
+            // Partition by user_id, user_class, and target_exam
+            let q = query(
+                collection(db, "syllabus"), 
+                where("user_id", "==", currentAuthUser.uid)
+            );
+
+            if (user.userClass) {
+                q = query(q, where("user_class", "==", user.userClass));
+            }
+            if (user.targetExam) {
+                q = query(q, where("target_exam", "==", user.targetExam));
+            }
+
             const querySnapshot = await getDocs(q);
             const data = querySnapshot.docs.map(doc => doc.data());
 
             // --- REFINED COVERAGE LOGIC ---
-            // Calculate progress against total topics in DB for the user's exam
+            // Calculate progress against total topics in DB for the user's exam AND class
             let totalPossibleTopics = 0;
             const targetExam = user.targetExam?.toLowerCase() || 'jee';
+            const userClass = user.userClass;
             const isMedical = targetExam.includes('neet') || targetExam.includes('medical');
 
             // Filter subjects by exam type
@@ -535,20 +1015,46 @@ export const useUserStore = create<UserState>((set, get) => ({
             });
 
             relevantSubjects.forEach(sub => {
-                totalPossibleTopics += SYLLABUS_DB[sub].length;
+                // Filter topics by the user's current class
+                const classTopics = SYLLABUS_DB[sub].filter(t => !userClass || t.class === userClass);
+                totalPossibleTopics += classTopics.length;
             });
 
             let progress = 0;
             if (data && data.length > 0) {
+                // Only count as completed if it belongs to the current context (though query already filters this)
                 const completedCount = data.filter(s => s.is_completed).length;
                 progress = Math.round((completedCount / (totalPossibleTopics || 1)) * 100);
             }
 
-            set({ user: { ...user, syllabusProgress: Math.min(100, progress) } });
+            const finalProgress = Math.min(100, progress);
+            
+            // 2. Coordination: Only update if cloud is newer or local is empty
+            const cachedRaw = localStorage.getItem(cacheKey);
+            if (cachedRaw) {
+                try {
+                    const cached = JSON.parse(cachedRaw);
+                    // If local was updated more recently than Firestore (e.g. offline completion), 
+                    // we might want to skip or push to cloud. 
+                    // For syllabus, Firestore is usually the source of truth as it's updated on every completion.
+                    if (cached.timestamp > Date.now() - 5000) {
+                        // Just saved locally 5s ago? likely our own save.
+                    }
+                } catch(e) {}
+            }
+
+            set({ user: { ...user, syllabusProgress: finalProgress } });
+
+            // 3. Save to Cache
+            localStorage.setItem(cacheKey, JSON.stringify({
+                progress: finalProgress,
+                timestamp: Date.now()
+            }));
         } catch (error: any) {
             console.error(`Error fetching centralized syllabus progress: [${error.code}] ${error.message}`);
         }
     },
+
 
     addGains: async (gains) => {
         const { user, updateProfile } = get();

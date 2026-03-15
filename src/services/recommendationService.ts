@@ -23,11 +23,11 @@ export const getActiveRecommendation = async (
             const cached: ActiveRecommendation = JSON.parse(cachedRaw);
 
             // Check if it's expired (finished > 24h ago)
-            if (isVideoExpiredFinished(cached.video.id)) {
+            if (isVideoExpiredFinished(cached.video.id, userId, userClass, targetExam)) {
                 console.log('[RecommendationService] Active video expired. Clearing.');
                 localStorage.removeItem(`${STORAGE_KEY}_${userId}`);
                 // Proceed to generate new one
-            } else if (isVideoFinished(cached.video.id)) {
+            } else if (isVideoFinished(cached.video.id, userId, userClass, targetExam)) {
                 // If finished but not expired, we STILL return it so the user can see it's done
                 // But typically we might want to show it as "Completed" in UI
                 return cached;
@@ -61,7 +61,7 @@ export const getActiveRecommendation = async (
         const isJunior = ['Class 6th', 'Class 7th', 'Class 8th', 'Class 9th', 'Class 10th'].includes(userClass || '');
         const searchContext = isJunior ? (userClass || 'Class 10') : (targetExam || 'JEE');
 
-        const playlist = await getVideoByTopicIdCached(targetTopic, searchContext);
+        const playlist = await getVideoByTopicIdCached(targetTopic, searchContext, userId);
 
         if (!playlist || playlist.videos.length === 0) {
             return null;
@@ -69,7 +69,7 @@ export const getActiveRecommendation = async (
 
         // Find a video that hasn't been finished ever (active or expired)
         // We really want a fresh one.
-        const freshVideo = playlist.videos.find(v => !isVideoFinished(v.id));
+        const freshVideo = playlist.videos.find(v => !isVideoFinished(v.id, userId, userClass, targetExam));
 
         if (!freshVideo) {
             // All videos for this weak topic are finished!
@@ -129,12 +129,12 @@ export const getRecommendedVideos = async (
             for (const topicStat of candidateTopics) {
                 if (recommendations.length >= 3) break;
 
-                const playlist = await getVideoByTopicIdCached(topicStat.topic, searchContext);
+                const playlist = await getVideoByTopicIdCached(topicStat.topic, searchContext, userId);
 
                 if (playlist && playlist.videos.length > 0) {
                     // Try to find a video not already in our list (by ID)
                     const existingVideoIds = new Set(recommendations.map(r => r.video.id));
-                    const freshVideo = playlist.videos.find(v => !existingVideoIds.has(v.id) && !isVideoFinished(v.id));
+                    const freshVideo = playlist.videos.find(v => !existingVideoIds.has(v.id) && !isVideoFinished(v.id, userId, userClass, targetExam));
 
                     if (freshVideo) {
                         recommendations.push({
@@ -167,7 +167,7 @@ export const getRecommendedVideos = async (
                 // Or pick a random chapter? 
                 // For simplicity, let's just search the Subject Name
 
-                const playlist = await getVideoByTopicIdCached(subject, searchContext);
+                const playlist = await getVideoByTopicIdCached(subject, searchContext, userId);
                 if (playlist && playlist.videos.length > 0) {
                     const existingVideoIds = new Set(recommendations.map(r => r.video.id));
                     const freshVideo = playlist.videos.find(v => !existingVideoIds.has(v.id));

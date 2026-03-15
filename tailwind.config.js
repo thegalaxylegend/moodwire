@@ -22,8 +22,9 @@ export default {
                 xs: '2px',
             },
             fontFamily: {
-                sans: ['Inter', 'sans-serif'],
+                sans: ['var(--font-sans)', 'sans-serif'],
                 mono: ['JetBrains Mono', 'monospace'],
+                heading: ['var(--font-heading)', 'sans-serif'],
             },
         },
     },

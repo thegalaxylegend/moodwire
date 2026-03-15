@@ -1,0 +1,26 @@
+{
+  "laws-of-motion": {
+    "overview": "Newton's Laws of Motion form the backbone of classical mechanics. Mastering these principles is crucial for cracking mechanics-based questions in the upcoming exams.",
+    "formulas": [
+      { "name": "Newton's Second Law", "formula": "F = dp/dt = ma", "explanation": "The rate of change of momentum is directly proportional to the applied force." },
+      { "name": "Banking of Roads", "formula": "v = √[rg(μ + tanθ)/(1 - μtanθ)]", "explanation": "Maximum safe velocity on a banked road with friction." }
+    ],
+    "commonMistakes": [
+      "Confusing mass with weight (Weight varies with g, Mass is an intrinsic property).",
+      "Ignoring the intended direction of friction leading to incorrect free body diagrams (FBDs)."
+    ],
+    "pyqAnalysis": "Appears 3-4 times per year in JEE Mains and NEET. Focus areas include connected bodies (pulley systems), friction on inclined planes, and circular motion dynamics."
+  },
+  "work-energy-and-power": {
+    "overview": "Work, Energy, and Power connect kinematics with dynamics through scalar quantities. Understanding the Work-Energy Theorem offers powerful shortcuts for complex mechanics problems.",
+    "formulas": [
+      { "name": "Work-Energy Theorem", "formula": "W_net = ΔK", "explanation": "The net work done by all forces on an object equals its change in kinetic energy." },
+      { "name": "Conservative Force & PE", "formula": "F = -dU/dx", "explanation": "Conservative force is the negative gradient of potential energy." }
+    ],
+    "commonMistakes": [
+      "Applying the work-energy theorem incorrectly by forgetting to account for non-conservative work (e.g. friction).",
+      "Miscalculating power as simply total force times average velocity instead of the dot product of force and instantaneous velocity."
+    ],
+    "pyqAnalysis": "Consistent 2-3 questions per paper. High probability of integration-based variable force problems and vertical circular motion scenarios."
+  }
+}

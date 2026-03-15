@@ -41,23 +41,30 @@ async function generateSitemap() {
             });
         };
 
-        // Group URLs by Category (Top-level route)
+        // Group URLs by explicit sitemapGroup from manifest
         const categories = {};
+        let questionCount = 0;
+        let questionBatch = 1;
+
         urls.forEach(url => {
             const meta = manifest[url];
-            const parts = url.split('/').filter(Boolean);
+            if (!meta || meta.sitemapGroup === null) return;
 
-            let category = 'main';
-            if (url === '/') {
-                category = 'main';
-            } else if (meta && (meta.type === 'page' || meta.type === 'home')) {
-                category = 'main';
-            } else if (parts.length > 0) {
-                category = parts[0];
+            const group = meta.sitemapGroup || 'core'; // Fallback
+
+            if (group === 'questions') {
+                const sitemapName = `sitemap-questions-batch${questionBatch}`;
+                if (!categories[sitemapName]) categories[sitemapName] = [];
+                categories[sitemapName].push(url);
+                questionCount++;
+                if (questionCount >= 5000) {
+                    questionBatch++;
+                    questionCount = 0;
+                }
+            } else {
+                if (!categories[group]) categories[group] = [];
+                categories[group].push(url);
             }
-
-            if (!categories[category]) categories[category] = [];
-            categories[category].push(url);
         });
 
         // Ensure directories exist
@@ -70,7 +77,7 @@ async function generateSitemap() {
 
         // Generate individual sitemaps
         for (const [category, catUrls] of Object.entries(categories)) {
-            const sitemapName = `sitemap-${category}.xml`;
+            const sitemapName = category.startsWith('sitemap-') ? `${category}.xml` : `sitemap-${category}.xml`;
             categorySitemaps.push(sitemapName);
 
             const sitemapEntries = catUrls.map(url => {
@@ -88,10 +95,22 @@ async function generateSitemap() {
 
                 const escapedLoc = escapeXml(`${BASE_URL}${url}`);
 
-                return `
-  <url>
-    <loc>${escapedLoc}</loc>
-    <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>
+                // Use manifest dates if available; for blog posts use their date, otherwise omit lastmod for static pages
+                const rawLastmod = meta.lastmod || meta.updatedAt || meta.publishedTime || meta.date;
+                let lastmod = '';
+                if (rawLastmod) {
+                    try {
+                        const d = new Date(rawLastmod);
+                        if (!isNaN(d.getTime())) {
+                            lastmod = d.toISOString().split('T')[0];
+                        }
+                    } catch(e) {}
+                }
+
+                // Build the URL entry - only include lastmod if we have a real date
+                const lastmodTag = lastmod ? `\n    <lastmod>${lastmod}</lastmod>` : '';
+                return `  <url>
+    <loc>${escapedLoc}</loc>${lastmodTag}
     <changefreq>${changefreq}</changefreq>
     <priority>${priority}</priority>
   </url>`;

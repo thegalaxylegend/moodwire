@@ -45,7 +45,7 @@ export const QuestionReview = () => {
         `;
 
         try {
-            const response = await askAI('Exam Expert', prompt, 'groq', [], { temperature: 0.1 });
+            const response = await askAI('Exam Expert', prompt, 'groq', [], { temperature: 0.1, stream: false });
             if (response) {
                 const parsed = extractJSON(response);
                 const Schema = z.array(z.object({

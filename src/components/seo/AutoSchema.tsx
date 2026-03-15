@@ -1,4 +1,3 @@
-
 import { useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { SYLLABUS_DB } from '../../lib/constants';
@@ -28,51 +27,61 @@ export const AutoSchema = () => {
         if (['login', 'signup', 'dashboard', 'admin', 'onboarding'].includes(exam || '')) return null;
 
         const schemas: Record<string, any>[] = [];
+        const canonicalUrl = `https://examcompass.web.app${location.pathname.replace(/\/$/, '') || '/'}`;
 
-        // 1. Breadcrumb Schema (Always useful on public pages)
-        const breadcrumbSchema: Record<string, any> = {
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-                {
-                    "@type": "ListItem",
-                    "position": 1,
-                    "name": "Home",
-                    "item": "https://examcompass.web.app"
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 2,
-                    "name": (exam || '').toUpperCase().replace(/-/g, ' '),
-                    "item": `https://examcompass.web.app/${exam}`
-                }
-            ]
-        };
+        // Skip BreadcrumbList on pages that generate their own (ExamLanding, BlogPostPage, QuestionPage)
+        const pageHasOwnBreadcrumb =
+            (exam && !subjectSlug && !topicSlug) || // /:exam pages (ExamLanding)
+            exam === 'blog' || // /blog and /blog/:slug
+            (subjectSlug === 'q'); // /:exam/q/:slug (QuestionPage)
 
-        if (subjectSlug && !subjectSlug.startsWith('q')) {
-            const subjectName = subjectSlug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+        // 1. Breadcrumb Schema (only on pages without their own)
+        if (!pageHasOwnBreadcrumb && exam) {
+            const breadcrumbSchema: Record<string, any> = {
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://examcompass.web.app"
+                    }
+                ]
+            };
+
             breadcrumbSchema.itemListElement.push({
                 "@type": "ListItem",
-                "position": 3,
-                "name": subjectName,
-                "item": `https://examcompass.web.app/${exam}/${subjectSlug}`
+                "position": 2,
+                "name": exam.toUpperCase().replace(/-/g, ' '),
+                "item": `https://examcompass.web.app/${exam}`
             });
+
+            if (subjectSlug && !subjectSlug.startsWith('q')) {
+                const subjectName = subjectSlug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+                breadcrumbSchema.itemListElement.push({
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": subjectName,
+                    "item": `https://examcompass.web.app/${exam}/${subjectSlug}`
+                });
+            }
+
+            if (topicSlug) {
+                const topicName = topicSlug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+                breadcrumbSchema.itemListElement.push({
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": topicName,
+                    "item": `https://examcompass.web.app/${exam}/${subjectSlug}/${topicSlug}`
+                });
+            }
+
+            schemas.push(breadcrumbSchema);
         }
 
-        if (topicSlug) {
-            const topicName = topicSlug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
-            breadcrumbSchema.itemListElement.push({
-                "@type": "ListItem",
-                "position": 4,
-                "name": topicName,
-                "item": `https://examcompass.web.app/${exam}/${subjectSlug}/${topicSlug}`
-            });
-        }
-
-        schemas.push(breadcrumbSchema);
-
-        // 2. EducationEvent Schema (for exam landing pages: /:exam)
-        if (!subjectSlug && !topicSlug) {
+        // 2. EducationEvent & Speakable Schema (for exam landing pages: /:exam)
+        if (exam && exam !== 'blog' && !subjectSlug && !topicSlug) {
             const examMeta = exam ? EXAM_DATES[exam] : null;
             const isClassPage = exam ? exam.startsWith('class-') : false;
 
@@ -122,10 +131,22 @@ export const AutoSchema = () => {
                     "isAccessibleForFree": true
                 });
             }
+
+            // Speakable Schema for Voice Search on Exam pages
+            schemas.push({
+                "@context": "https://schema.org/",
+                "@type": "WebPage",
+                "name": `${(examMeta?.name || exam.toUpperCase().replace(/-/g, ' '))} Complete Guide`,
+                "speakable": {
+                    "@type": "SpeakableSpecification",
+                    "cssSelector": [".quick-summary", ".faq-answer", "h1"]
+                },
+                "url": canonicalUrl
+            });
         }
 
-        // 3. Course + Quiz Schema (for topic pages: /:exam/:subject/:topic)
-        if (subjectSlug && topicSlug) {
+        // 3. Course + Quiz + Speakable Schema (for topic pages: /:exam/:subject/:topic)
+        if (exam !== 'blog' && subjectSlug && topicSlug) {
             const realSubject = Object.keys(SYLLABUS_DB).find(k => slugify(k) === subjectSlug);
             if (realSubject) {
                 const topicData = SYLLABUS_DB[realSubject].find(t => slugify(t.topic) === topicSlug);
@@ -178,12 +199,27 @@ export const AutoSchema = () => {
                         },
                         "isAccessibleForFree": true
                     });
+
+                    // Speakable Schema for Topic Pages
+                    schemas.push({
+                        "@context": "https://schema.org/",
+                        "@type": "WebPage",
+                        "name": `${topicData.topic} Guide for ${exam.toUpperCase().replace(/-/g, ' ')}`,
+                        "speakable": {
+                            "@type": "SpeakableSpecification",
+                            "cssSelector": [".quick-summary", ".faq-answer", "h1"]
+                        },
+                        "url": canonicalUrl
+                    });
                 }
             }
         }
 
+        // Blog Posting Schema - REMOVED: BlogSchema.tsx component handles this with correct dates
+        // AutoSchema was generating duplicate BlogPosting with wrong dates (new Date())
+
         // 4. WebApplication schema (global — helps Google understand this is an interactive tool)
-        if (!subjectSlug && !topicSlug) {
+        if (!subjectSlug && !topicSlug && exam !== 'blog') {
             schemas.push({
                 "@context": "https://schema.org",
                 "@type": "WebApplication",
@@ -203,7 +239,7 @@ export const AutoSchema = () => {
                 },
                 "author": {
                     "@type": "Person",
-                    "name": "Ayush",
+                    "name": "Ayush Kumar",
                     "url": "https://examcompass.web.app/about"
                 }
             });

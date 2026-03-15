@@ -18,7 +18,7 @@ export const AboutAuthor = ({ compact = false }: AboutAuthorProps) => {
     const authorSchema = {
         "@context": "https://schema.org",
         "@type": "Person",
-        "name": "Ayush",
+        "name": "Ayush Kumar",
         "url": "https://examcompass.web.app/about",
         "jobTitle": "Founder & Student Developer",
         "worksFor": {
@@ -68,7 +68,7 @@ export const AboutAuthor = ({ compact = false }: AboutAuthorProps) => {
                     <span>
                         Built by{' '}
                         <span itemProp="name" className="text-white font-medium">
-                            Ayush
+                            Ayush Kumar
                         </span>
                         {' '}— Class 11, KV Darbhanga
                     </span>
@@ -89,26 +89,26 @@ export const AboutAuthor = ({ compact = false }: AboutAuthorProps) => {
                 itemScope
                 itemType="https://schema.org/Person"
             >
-                <div className="p-8 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
-                    <div className="flex items-start gap-6">
+                <div className="p-6 md:p-8 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
+                    <div className="flex flex-col md:flex-row items-center md:items-start gap-6 text-center md:text-left">
                         {/* Avatar */}
-                        <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-purple-500 to-pink-500 flex-shrink-0 flex items-center justify-center text-2xl font-bold text-white">
+                        <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-purple-500 to-pink-500 flex-shrink-0 flex items-center justify-center text-2xl font-bold text-white shadow-lg shadow-purple-500/20">
                             A
                         </div>
 
                         <div className="flex-1 min-w-0">
-                            <h3 className="text-xl font-bold text-white mb-1">
+                            <h3 className="text-xl md:text-2xl font-bold text-white mb-1">
                                 Made by{' '}
-                                <span itemProp="name">Ayush</span>
+                                <span itemProp="name">Ayush Kumar</span>
                             </h3>
                             <p
-                                className="text-sm text-purple-400 mb-4"
+                                className="text-sm text-purple-400 mb-4 font-medium"
                                 itemProp="jobTitle"
                             >
                                 Class 11 Student & Founder — KV Darbhanga
                             </p>
                             <p
-                                className="text-gray-400 leading-relaxed text-sm"
+                                className="text-gray-300 leading-relaxed text-sm md:text-base"
                                 itemProp="description"
                             >
                                 I'm a Class 11 student at Kendriya Vidyalaya Darbhanga, building
@@ -119,11 +119,11 @@ export const AboutAuthor = ({ compact = false }: AboutAuthorProps) => {
                                 every student honest data about their preparation.
                             </p>
 
-                            <div className="mt-4 flex flex-wrap gap-2">
+                            <div className="mt-6 flex flex-wrap justify-center md:justify-start gap-2">
                                 {['Student-Built', 'Open Analytics', 'Real PYQs', 'AI-Powered'].map(tag => (
                                     <span
                                         key={tag}
-                                        className="px-3 py-1 rounded-full text-xs bg-purple-500/10 text-purple-300 border border-purple-500/20"
+                                        className="px-3 py-1 rounded-full text-[10px] uppercase font-bold tracking-wider bg-purple-500/10 text-purple-300 border border-purple-500/20 hover:bg-purple-500/20 transition-colors"
                                     >
                                         {tag}
                                     </span>

@@ -6,8 +6,21 @@ import { EXAM_SUBJECT_MAPPING, SYLLABUS_DB } from './constants';
 /**
  * Robustly extract JSON from AI string, handling common formatting issues.
  */
-export function extractJSON(input: string): any {
-    if (!input) throw new Error("Empty AI response");
+export function extractJSON(input: any): any {
+    if (input === null || input === undefined) throw new Error("Empty AI response");
+
+    // 0. Handle already parsed objects or arrays
+    if (typeof input === 'object') {
+        return input;
+    }
+
+    if (typeof input !== 'string') {
+        try {
+            return JSON.parse(JSON.stringify(input));
+        } catch (e) {
+            throw new Error("Invalid input type for JSON extraction");
+        }
+    }
 
     // 1. Detect system/rate-limit messages first
     const lowerInput = input.toLowerCase();
@@ -38,57 +51,49 @@ export function extractJSON(input: string): any {
         }
     }
 
-    // 4. Boundary extraction: Look for the first { and last } (for objects)
+    // 4. Boundary extraction: Look for first { or [ (for objects/arrays)
     const firstBrace = sanitized.indexOf('{');
-    const lastBrace = sanitized.lastIndexOf('}');
-    if (firstBrace !== -1 && lastBrace !== -1 && lastBrace > firstBrace) {
-        const candidate = sanitized.substring(firstBrace, lastBrace + 1);
-        try {
-            return JSON.parse(sanitizeJSONString(candidate));
-        } catch (e) {
-            // If direct parse of boundary failed, it might be truncated
-            try {
-                return JSON.parse(repairTruncatedJSON(candidate));
-            } catch (e2) {
-                // fall through
-            }
-        }
-    }
-
-    // 5. Boundary extraction: Look for first [ and last ] (for arrays)
     const firstBracket = sanitized.indexOf('[');
-    const lastBracket = sanitized.lastIndexOf(']');
-    if (firstBracket !== -1 && lastBracket !== -1 && lastBracket > firstBracket) {
-        const candidate = sanitized.substring(firstBracket, lastBracket + 1);
-        try {
-            return JSON.parse(sanitizeJSONString(candidate));
-        } catch (e) {
+    const startIdx = (firstBrace !== -1 && (firstBracket === -1 || firstBrace < firstBracket)) ? firstBrace : firstBracket;
+
+    if (startIdx !== -1) {
+        const lastBrace = sanitized.lastIndexOf('}');
+        const lastBracket = sanitized.lastIndexOf(']');
+        const endIdx = Math.max(lastBrace, lastBracket);
+
+        if (endIdx > startIdx) {
+            const candidate = sanitized.substring(startIdx, endIdx + 1);
             try {
-                return JSON.parse(repairTruncatedJSON(candidate));
-            } catch (e2) {
-                // fall through
+                return JSON.parse(sanitizeJSONString(candidate));
+            } catch (e) {
+                // If it failed, it might still be slightly mangled/truncated despite having a closing brace
+                try {
+                    return JSON.parse(repairTruncatedJSON(candidate));
+                } catch (e2) {}
             }
+        } else {
+            // TRUNCATED: No closing marker found, or closing marker is before start
+            try {
+                return JSON.parse(repairTruncatedJSON(sanitized.substring(startIdx)));
+            } catch (e) {}
         }
     }
 
-    // 6. Ultimate Fallback: Try repairing the whole thing if it looks like it might have JSON
+    // 5. Ultimate Fallback: Try repairing the whole thing if it looks like it might have JSON
     try {
         const repairedWhole = repairTruncatedJSON(sanitized);
-        // Ensure we actually removed the non-JSON prefix if repair was called on the whole string
         const start = Math.max(repairedWhole.indexOf('{'), repairedWhole.indexOf('['));
         if (start !== -1) {
             return JSON.parse(repairedWhole.substring(start));
         }
-    } catch (finalErr) {
-        // Last ditch effort: regex for anything between braces
-        const greedyMatch = sanitized.match(/(\{[\s\S]*\}|\[[\s\S]*\])/);
-        if (greedyMatch) {
-            try {
-                return JSON.parse(sanitizeJSONString(greedyMatch[0]));
-            } catch (e) {
-                // failed
-            }
-        }
+    } catch (finalErr) {}
+
+    // 6. Last ditch effort: regex for anything between braces/brackets
+    const greedyMatch = sanitized.match(/(\{[\s\S]*\}|\[[\s\S]*\])/);
+    if (greedyMatch) {
+        try {
+            return JSON.parse(sanitizeJSONString(greedyMatch[0]));
+        } catch (e) {}
     }
 
     console.error("Critical JSON Parsing Failure. Content:", sanitized.substring(0, 200));
@@ -102,7 +107,7 @@ export function extractJSON(input: string): any {
 function repairTruncatedJSON(str: string): string {
     let json = str.trim();
 
-    // Find the actual start of JSON content to avoid repairing text preambles
+    // 1. Find the actual start of JSON content to avoid repairing text preambles
     const braceStart = json.indexOf('{');
     const bracketStart = json.indexOf('[');
     let start = -1;
@@ -111,51 +116,154 @@ function repairTruncatedJSON(str: string): string {
 
     if (start > 0) json = json.substring(start);
 
-    // Generic stack-based closer
+    // 2. Remove trailing markdown code block closers if present
+    json = json.replace(/```\s*$/g, '').trim();
+
+    // 3. Generic stack-based closer
     const stack: string[] = [];
     let repaired = "";
     let inString = false;
     let escaped = false;
-
     for (let i = 0; i < json.length; i++) {
         const char = json[i];
-        if (char === '"' && !escaped) inString = !inString;
+        
+        // Handle escaped characters within strings
+        if (escaped) {
+            repaired += char;
+            escaped = false;
+            continue;
+        }
+
+        if (char === '\\') {
+            repaired += char;
+            escaped = true;
+            continue;
+        }
+
+        if (char === '"') {
+            inString = !inString;
+        }
+
         if (!inString) {
             if (char === '{' || char === '[') stack.push(char);
             if (char === '}' || char === ']') {
-                if (stack.length > 0) stack.pop();
-                else continue; // Extra closing brace, skip it
+                if (stack.length > 0) {
+                    const top = stack[stack.length - 1];
+                    if ((char === '}' && top === '{') || (char === ']' && top === '[')) {
+                        stack.pop();
+                    }
+                }
             }
         }
         repaired += char;
-        escaped = char === "\\" && !escaped;
     }
 
-    // Force close an unclosed string if it exists
+    // 4. Force close an unclosed string if it exists
     if (inString) repaired += '"';
 
-    // Close everything in reverse order
+    // 5. Close everything in reverse order
     while (stack.length > 0) {
         const last = stack.pop();
         if (last === '{') repaired += '}';
         if (last === '[') repaired += ']';
     }
 
-    // FINAL CLEANUP: Remove trailing junk that might invalidate the JSON
-    // e.g. "key": "val", "oth
+    // 6. FINAL CLEANUP: Remove trailing junk that might invalidate the JSON
+    // e.g. {"key": "val", "partial_k
+    // This is the most complex part: we might have a valid but incomplete structure now.
+    // Try to parse it, and if it fails, try to recursively strip the last field.
     let finalStr = sanitizeJSONString(repaired);
+    
+    // Recursive stripping of last partial property
+    for (let attempts = 0; attempts < 15; attempts++) {
+        try {
+            JSON.parse(finalStr);
+            return finalStr;
+        } catch (e) {
+            // Find the last closing bracket as a pivot
+            const lastClosingBrace = finalStr.lastIndexOf('}');
+            const lastClosingBracket = finalStr.lastIndexOf(']');
+            const lastClosing = Math.max(lastClosingBrace, lastClosingBracket);
+            
+            if (lastClosing === -1) break;
+            
+            const beforeClosing = finalStr.substring(0, lastClosing);
+            
+            // Look for the last comma that is NOT inside a string (simplified)
+            // We search backwards for a comma that isn't preceded by an odd number of quotes
+            let lastCommaIdx = -1;
+            let bracketLevel = 0;
+            let braceLevel = 0;
+            let inStr = false;
+            let esc = false;
 
-    // If it ends with something like , it's likely a partial key/value
-    finalStr = finalStr.replace(/,\s*$/g, '');
+            for (let j = 0; j < beforeClosing.length; j++) {
+                const c = beforeClosing[j];
+                if (c === '"' && !esc) inStr = !inStr;
+                if (!inStr) {
+                    if (c === '{') braceLevel++;
+                    if (c === '}') braceLevel--;
+                    if (c === '[') bracketLevel++;
+                    if (c === ']') bracketLevel--;
+                    if (c === ',' && braceLevel === 1 && bracketLevel === 0) lastCommaIdx = j;
+                }
+                esc = c === '\\' && !esc;
+            }
+
+            if (lastCommaIdx === -1) {
+                // If no top-level comma, maybe it's the very first property that's partial
+                // try to find the start and just return empty object if valid
+                const firstBraceIdx = finalStr.indexOf('{');
+                if (firstBraceIdx !== -1) {
+                    finalStr = "{}";
+                    continue;
+                }
+                break;
+            }
+            
+            const suffix = finalStr.substring(lastClosing);
+            finalStr = beforeClosing.substring(0, lastCommaIdx).trim() + suffix;
+        }
+    }
 
     return finalStr;
 }
 
 function sanitizeJSONString(str: string): string {
-    return str
+    // 1. Remove trailing commas and control chars except newlines (\n), carriage returns (\r), or tabs (\t)
+    let sanitized = str
         .replace(/,\s*([\]}])/g, '$1') // Remove trailing commas
-        .replace(/[\u0000-\u001F\u007F-\u009F]/g, "") // Remove control characters
+        .replace(/[\u0000-\u0008\u000B-\u000C\u000E-\u001F\u007F-\u009F]/g, "") // Keep 9 (\t), 10 (\n), 13 (\r)
         .trim();
+
+    // 2. Escape literal newlines, carriage returns, and tabs INSIDE string values 
+    // (Literal \n inside a JSON string value invalidates JSON parse)
+    let result = '';
+    let inString = false;
+    let escaped = false;
+    
+    for (let i = 0; i < sanitized.length; i++) {
+        const char = sanitized[i];
+        
+        // Toggle string state when we hit an unescaped quote
+        if (char === '"' && !escaped) {
+            inString = !inString;
+        }
+        
+        if (inString) {
+            if (char === '\n') result += '\\n';
+            else if (char === '\r') result += '\\r';
+            else if (char === '\t') result += '\\t';
+            else result += char;
+        } else {
+            result += char;
+        }
+        
+        // Keep track if the *next* character is escaped
+        escaped = (char === '\\' && !escaped);
+    }
+    
+    return result;
 }
 
 

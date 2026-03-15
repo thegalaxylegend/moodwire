@@ -31,6 +31,12 @@ async function prerender() {
     if (fs.existsSync(questionDbPath)) {
         questionDb = JSON.parse(fs.readFileSync(questionDbPath, 'utf8'));
     }
+    
+    const topicContentDbPath = path.join(__dirname, '../public/topic-content-db.json');
+    let topicContentDb = {};
+    if (fs.existsSync(topicContentDbPath)) {
+        topicContentDb = JSON.parse(fs.readFileSync(topicContentDbPath, 'utf8'));
+    }
 
     const routes = Object.keys(manifest);
     // Ensure home is there
@@ -75,15 +81,18 @@ async function prerender() {
                         text: q.text,
                         sourceYear: q.sourceYear
                     }));
+
+                    const cleanTopicSlug = url.split('/').pop().replace(/[^a-z0-9-]/g, '');
+                    globalThis.SEO_TOPIC_CONTENT = topicContentDb[cleanTopicSlug] || null;
                 } else {
                     globalThis.SEO_TOPIC_DATA = [];
+                    globalThis.SEO_TOPIC_CONTENT = null;
                 }
 
-                // 3. For Blog Pages (Inject Blog Metadata)
+                // 3. For Blog Pages (Inject Blog Metadata + FULL Markdown Content)
                 if (url.startsWith('/blog/') && url !== '/blog') {
                     const slug = url.split('/').pop();
-                    // We can't easily import the blogs list here, so we'll 
-                    // rely on the manifest which should have the basic info.
+                    // Inject metadata from manifest
                     if (manifest[url]) {
                         globalThis.SEO_BLOG_DATA = {
                             title: manifest[url].title,
@@ -93,8 +102,21 @@ async function prerender() {
                             id: slug
                         };
                     }
+                    // CRITICAL SEO FIX: Inject full markdown body so it renders in static HTML
+                    const mdPath = path.join(__dirname, `../src/content/blogs/${slug}.md`);
+                    if (fs.existsSync(mdPath)) {
+                        const rawMd = fs.readFileSync(mdPath, 'utf8');
+                        // Strip frontmatter (---...---), HTML comments, and first H1
+                        let body = rawMd.replace(/---[\s\S]*?---/, '').trim();
+                        body = body.replace(/<!--[\s\S]*?-->/g, '');
+                        body = body.replace(/^#[^\n]*\n+/m, '');
+                        globalThis.SEO_BLOG_CONTENT = body.trim();
+                    } else {
+                        globalThis.SEO_BLOG_CONTENT = null;
+                    }
                 } else {
                     globalThis.SEO_BLOG_DATA = null;
+                    globalThis.SEO_BLOG_CONTENT = null;
                 }
 
                 const helmetContext = {};
@@ -113,9 +135,10 @@ async function prerender() {
                 ].join('\n') : '';
 
                 // HYDRATION & TEMPLATE INJECTION
+                // Replace head placeholder and replace entire boot-shell skeleton with prerendered content
                 const html = template
                     .replace('<!--app-head-->', headTags)
-                    .replace('<!--app-html-->', appHtml);
+                    .replace(/<!--app-html-->[\s\S]*?<!--app-html-end-->/, appHtml);
 
                 // Verification logic
                 if (url.includes('/q/')) {

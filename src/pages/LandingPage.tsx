@@ -19,10 +19,13 @@ export const LandingPage = () => {
     const isServer = typeof window === 'undefined';
 
     useEffect(() => {
-        if (!isLoading && isAuthenticated) {
+        // Redirection logic:
+        // 1. If we are authenticated (from cache or listener) AND not loading -> Redirect.
+        // 2. OR if we are authenticated (optimistic snapshot) -> Redirect immediately to avoid flicker.
+        if (isAuthenticated && (!isLoading || !isServer)) {
             navigate('/dashboard', { replace: true });
         }
-    }, [isAuthenticated, isLoading, navigate]);
+    }, [isAuthenticated, isLoading, navigate, isServer]);
 
     // Show loader while checking auth state to prevent flashing
     // But NEVER during SSG — always render full content for crawlers
@@ -56,6 +59,15 @@ export const LandingPage = () => {
                             "name": "Exam Compass",
                             "url": "https://examcompass.web.app",
                             "logo": "https://examcompass.web.app/exa-logo.png",
+                            "founder": {
+                                "@type": "Person",
+                                "name": "Ayush Kumar",
+                                "jobTitle": "Founder & Student Developer",
+                                "sameAs": [
+                                    "https://github.com/thegalaxylegend",
+                                    "https://examcompass.web.app/about"
+                                ]
+                            },
                             "sameAs": [
                                 "https://examcompass.web.app/blog",
                                 "https://examcompass.web.app/about"

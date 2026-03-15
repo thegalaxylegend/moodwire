@@ -2,56 +2,93 @@ import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { ArrowLeft, Loader2, Calendar, User } from 'lucide-react';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+import rehypeRaw from 'rehype-raw';
+import 'katex/dist/katex.min.css';
+import { ArrowLeft, Loader2, Calendar, Download, BookOpen } from 'lucide-react';
 import { SEO } from '../../components/SEO';
 import { BlogSchema } from '../../components/blog/BlogSchema';
 import { BlogCTA } from '../../components/blog/BlogCTA';
 import { Footer } from '../../components/Footer';
-import { blogs } from './BlogIndex'; // Re-use the metadata block
+import { blogs } from '../../data/blogs'; // Re-use the metadata block
+import { SocialShare } from '../../components/SocialShare';
+import { AboutAuthor } from '../../components/seo/AboutAuthor';
+import { Navbar } from '../../components/Navbar';
+
+
 
 export const BlogPostPage: React.FC = () => {
     const { slug } = useParams<{ slug: string }>();
 
-    // Look up meta by slug
-    // During SSR, we use the injected global data
     const ssrMeta = typeof globalThis !== 'undefined' ? (globalThis as any).SEO_BLOG_DATA : null;
     const meta = ssrMeta && ssrMeta.id === slug ? ssrMeta : blogs.find(b => b.id === slug);
 
-    const [content, setContent] = useState<string>('');
-    const [toc, setToc] = useState<{ id: string; text: string; level: number }[]>([]);
-    const [loading, setLoading] = useState(!meta || !ssrMeta); // If we have SSR meta, we don't need to wait for client-side load
+    // SSG HYDRATION: Use pre-rendered markdown content if available (critical for SEO)
+    const ssrContent = (typeof globalThis !== 'undefined' && (globalThis as any).SEO_BLOG_CONTENT) || '';
+    const [content, setContent] = useState<string>(ssrContent);
+    const [loading, setLoading] = useState(!meta || (!ssrMeta && !ssrContent));
     const [error, setError] = useState(false);
+    const [readingProgress, setReadingProgress] = useState(0);
+    const [generatingPdf, setGeneratingPdf] = useState(false);
+
+    const handleDownloadPDF = async () => {
+        setGeneratingPdf(true);
+        try {
+            const { downloadBlogPDF } = await import('../../services/cheatSheetService');
+            await downloadBlogPDF({
+                title: meta.title,
+                category: meta.category,
+                date: meta.date,
+                markdown: content,
+            });
+        } catch (e) {
+            console.error("PDF download failed", e);
+        } finally {
+            setGeneratingPdf(false);
+        }
+    };
 
     useEffect(() => {
+        let ticking = false;
+        const handleScroll = () => {
+            if (!ticking) {
+                window.requestAnimationFrame(() => {
+                    const totalHeight = document.documentElement.scrollHeight - window.innerHeight;
+                    const progress = (window.scrollY / totalHeight) * 100;
+                    setReadingProgress(progress);
+                    ticking = false;
+                });
+                ticking = true;
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll, { passive: true });
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
+    useEffect(() => {
+        // Skip client-side loading if we already have SSG content
+        if (ssrContent) {
+            setLoading(false);
+            return;
+        }
+
         const loadContent = async () => {
             if (!slug) return;
             try {
-                // In Vite, we can dynamically import raw files if configured,
-                // but for static SSG we can fetch the markdown file directly.
-                // Since this is in src, we might need a dynamic import map:
                 const modules = import.meta.glob('../../content/blogs/*.md', { query: '?raw', import: 'default' });
                 const matchingPath = Object.keys(modules).find(path => path.includes(slug));
 
                 if (matchingPath) {
                     const rawContent = await modules[matchingPath]() as string;
-                    // Strip the YAML frontmatter
                     const bodyMatch = rawContent.match(/---[\s\S]*?---([\s\S]*)/);
                     let cleanContent = bodyMatch ? bodyMatch[1].trim() : rawContent.trim();
-
-                    // Strip the first markdown H1 (# Heading) to prevent duplicate titles 
-                    // since we already render it in the React header.
+                    
+                    // Strip HTML comments (e.g., <!-- [AD BREAK SUGGESTION] -->)
+                    cleanContent = cleanContent.replace(/<!--[\s\S]*?-->/g, '');
+                    
                     cleanContent = cleanContent.replace(/^#[^\n]*\n+/m, '');
-
-                    // Extract Table of Contents
-                    const headerRegex = /^(##|###) (.*$)/gm;
-                    const matches = Array.from(cleanContent.matchAll(headerRegex));
-                    const tocItems = matches.map(match => ({
-                        level: match[1].length,
-                        text: match[2],
-                        id: match[2].toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-')
-                    }));
-                    setToc(tocItems);
-
                     setContent(cleanContent);
                 } else {
                     throw new Error("File not found");
@@ -69,18 +106,17 @@ export const BlogPostPage: React.FC = () => {
 
     if (loading) {
         return (
-            <div className="min-h-screen flex items-center justify-center bg-background">
-                <Loader2 className="w-10 h-10 animate-spin text-primary" />
+            <div className="min-h-screen flex items-center justify-center bg-black">
+                <Loader2 className="w-10 h-10 animate-spin text-purple-500" />
             </div>
         );
     }
 
     if (error || !meta) {
         return (
-            <div className="min-h-screen flex flex-col items-center justify-center bg-background text-text-main p-6 text-center">
+            <div className="min-h-screen flex flex-col items-center justify-center bg-black text-white p-6 text-center">
                 <h1 className="text-3xl font-bold mb-4">Article Not Found</h1>
-                <p className="text-text-muted mb-8">The article you're looking for doesn't exist or has been moved.</p>
-                <Link to="/blog" className="px-6 py-2 bg-primary rounded-xl font-bold flex items-center gap-2">
+                <Link to="/blog" className="px-6 py-2 bg-purple-600 rounded-xl font-bold flex items-center gap-2">
                     <ArrowLeft className="w-5 h-5" /> Back to Blog
                 </Link>
             </div>
@@ -88,149 +124,154 @@ export const BlogPostPage: React.FC = () => {
     }
 
     return (
-        <div className="min-h-screen bg-background text-text-main pt-20 pb-20 px-6">
+        <div className="min-h-screen bg-black text-white">
             <SEO
                 title={meta.title}
                 description={meta.description}
                 type="article"
+                canonical={`https://examcompass.web.app/blog/${slug}`}
+                image={meta.image ? `https://examcompass.web.app${meta.image}` : undefined}
                 publishedTime={new Date(meta.date).toISOString()}
+                modifiedTime={new Date(meta.date).toISOString()}
             />
             <BlogSchema
                 title={meta.title}
                 description={meta.description}
-                authorName="Exam Compass Tutors"
+                authorName="Ayush Kumar"
                 publishDate={meta.date}
                 url={`https://examcompass.web.app/blog/${slug}`}
-                imageUrl={meta.image}
+                imageUrl={meta.image ? `https://examcompass.web.app${meta.image}` : undefined}
             />
+            <Navbar />
 
-            <article className="max-w-7xl mx-auto">
-                <Link to="/blog" className="inline-flex items-center gap-2 text-primary hover:text-primary/80 mb-6 transition-colors font-medium">
-                    <ArrowLeft className="w-5 h-5" /> Back to all articles
+            {/* Reading Progress Bar */}
+            <div className="fixed top-0 left-0 w-full h-1 z-50 pointer-events-none">
+                <div 
+                    className="h-full bg-gradient-to-r from-purple-500 via-pink-500 to-purple-500 transition-all duration-100 origin-left"
+                    style={{ width: `${readingProgress}%` }}
+                />
+            </div>
+
+            <article className="pt-32 pb-20 px-6 max-w-4xl mx-auto" style={{ contentVisibility: 'auto' }}>
+                <Link to="/blog" className="inline-flex items-center gap-2 text-gray-400 hover:text-white mb-10 transition-colors font-medium group">
+                    <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" /> Back to all articles
                 </Link>
 
-                <div className="flex flex-col lg:flex-row gap-12">
-                    {/* Main Content */}
-                    <div className="flex-1 min-w-0">
-                        {/* Header */}
-                        <header className="mb-10 p-6 md:p-10 rounded-3xl bg-surface/50 border border-white/5 relative overflow-hidden group">
-                            {/* Background glow effects */}
-                            <div className="absolute -top-32 -right-32 w-64 h-64 bg-primary/20 rounded-full blur-3xl opacity-50 group-hover:opacity-100 transition-opacity duration-700" />
-                            <div className="absolute -bottom-32 -left-32 w-64 h-64 bg-accent/20 rounded-full blur-3xl opacity-50 group-hover:opacity-100 transition-opacity duration-700" />
-
-                            <div className="relative z-10">
-                                <div className="flex items-center gap-3 mb-6">
-                                    <span className="px-4 py-1.5 rounded-full bg-primary/20 text-primary font-bold text-sm tracking-widest uppercase shadow-[0_0_15px_rgba(139,92,246,0.3)] border border-primary/20">
-                                        {meta.category}
-                                    </span>
-                                </div>
-                                <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold font-heading mb-6 leading-tight text-transparent bg-clip-text bg-gradient-to-br from-white via-white to-white/60">
-                                    {meta.title}
-                                </h1>
-                                <div className="flex flex-wrap items-center gap-4 text-text-muted font-medium">
-                                    <div className="flex items-center gap-2 bg-black/20 px-4 py-2 rounded-xl border border-white/5 backdrop-blur-md">
-                                        <User className="w-4 h-4 text-primary" />
-                                        <span className="text-sm md:text-base">Exam Compass Tutors</span>
-                                    </div>
-                                    <div className="flex items-center gap-2 bg-black/20 px-4 py-2 rounded-xl border border-white/5 backdrop-blur-md">
-                                        <Calendar className="w-4 h-4 text-accent" />
-                                        <span className="text-sm md:text-base">{meta.date}</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </header>
-
-                        {/* Markdown Body */}
-                        <div className="prose prose-invert prose-purple md:prose-lg max-w-none 
-                            prose-img:rounded-2xl prose-img:shadow-2xl prose-img:border prose-img:border-border
-                            prose-a:text-primary hover:prose-a:text-primary/80 prose-a:transition-colors
-                            prose-headings:font-heading prose-headings:font-bold prose-headings:text-white
-                            prose-h2:mt-12 prose-h2:mb-6 prose-h2:text-2xl md:prose-h2:text-3xl prose-h2:border-b prose-h2:border-border/50 prose-h2:pb-3
-                            prose-h3:mt-8 prose-h3:text-xl md:prose-h3:text-2xl
-                            prose-p:text-text-muted prose-p:leading-relaxed prose-p:mb-6 prose-p:text-base md:prose-p:text-lg
-                            prose-ul:text-text-muted prose-li:my-1
-                            prose-strong:text-white prose-strong:font-bold
-                            prose-blockquote:border-l-primary prose-blockquote:bg-primary/5 prose-blockquote:px-6 prose-blockquote:py-2 prose-blockquote:rounded-r-xl prose-blockquote:not-italic
-                            prose-code:text-accent prose-code:bg-accent/10 prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded-md prose-code:before:content-none prose-code:after:content-none">
-                            <ReactMarkdown
-                                remarkPlugins={[remarkGfm]}
-                                components={{
-                                    h2: ({ node, children, ...props }) => {
-                                        const text = String(children);
-                                        const id = text.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-');
-                                        return <h2 id={id} {...props}>{children}</h2>;
-                                    },
-                                    h3: ({ node, children, ...props }) => {
-                                        const text = String(children);
-                                        const id = text.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-');
-                                        return <h3 id={id} {...props}>{children}</h3>;
-                                    }
-                                }}
-                            >
-                                {content}
-                            </ReactMarkdown>
-                        </div>
-
-                        {/* Converting CTA Footer */}
-                        <footer className="mt-16 border-t border-border pt-8">
-                            <BlogCTA />
-                        </footer>
+                <header className="mb-16">
+                    <div className="flex items-center justify-between mb-8">
+                        <span className="px-4 py-1.5 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xs tracking-widest uppercase border border-purple-500/30">
+                            {meta.category}
+                        </span>
+                        <SocialShare title={meta.title} />
                     </div>
 
-                    {/* Sidebar */}
-                    <aside className="hidden lg:block w-80 shrink-0">
-                        <div className="sticky top-28 space-y-8">
-                            {/* TOC */}
-                            {toc.length > 0 && (
-                                <div className="p-6 rounded-3xl bg-surface/30 border border-white/5 backdrop-blur-sm">
-                                    <h3 className="text-lg font-bold mb-4 flex items-center gap-2 text-white">
-                                        <div className="w-1 h-6 bg-primary rounded-full" />
-                                        Quick Navigation
-                                    </h3>
-                                    <nav className="space-y-1">
-                                        {toc.map((item, i) => (
-                                            <a
-                                                key={i}
-                                                href={`#${item.id}`}
-                                                className={`block py-2 text-sm transition-all hover:text-primary ${item.level === 3 ? 'pl-6 text-text-muted' : 'font-medium text-text-main'
-                                                    }`}
-                                            >
-                                                {item.text}
-                                            </a>
-                                        ))}
-                                    </nav>
-                                </div>
-                            )}
+                    <h1 className="text-4xl md:text-6xl font-extrabold mb-10 leading-tight">
+                        {meta.title}
+                    </h1>
 
-                            {/* Promotional Card */}
-                            <div className="p-6 rounded-3xl bg-gradient-to-br from-primary/20 to-accent/20 border border-white/10 relative overflow-hidden group">
-                                <div className="absolute top-0 right-0 w-32 h-32 bg-white/5 rounded-full -mr-16 -mt-16 blur-2xl transition-transform group-hover:scale-110" />
-                                <h3 className="text-xl font-bold mb-3 relative z-10">Ace Your Exams with AI</h3>
-                                <p className="text-text-muted text-sm mb-6 relative z-10">Get personalized mock tests and performance trackingpowered by AI.</p>
-                                <Link
-                                    to="/dashboard/mock"
-                                    className="block w-full py-3 bg-white text-black font-bold rounded-xl text-center hover:bg-white/90 transition-colors relative z-10"
-                                >
-                                    Start Free Test
-                                </Link>
+                    <div className="flex flex-wrap items-center justify-between gap-6 mb-12 p-6 rounded-3xl bg-white/5 border border-white/10">
+                        <div className="flex flex-wrap items-center gap-6 text-gray-400 font-medium">
+                            <div className="flex items-center gap-3">
+                                <div className="w-10 h-10 rounded-full bg-purple-500/20 flex items-center justify-center text-purple-400 font-bold border border-purple-500/30">A</div>
+                                <div>
+                                    <p className="text-white text-sm font-bold">Ayush (Founder)</p>
+                                    <p className="text-[10px] uppercase tracking-wider">Exam Strategist</p>
+                                </div>
                             </div>
-
-                            {/* Related Links */}
-                            <div className="p-6 rounded-3xl bg-surface/30 border border-white/5">
-                                <h3 className="text-lg font-bold mb-4 text-white">Browse Categories</h3>
-                                <div className="flex flex-wrap gap-2">
-                                    {['JEE Prep', 'NEET', 'Class 10', 'Class 12', 'Study Hacks', 'UPSC'].map(cat => (
-                                        <button key={cat} className="px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-xs font-medium hover:bg-white/10 transition-colors">
-                                            {cat}
-                                        </button>
-                                    ))}
-                                </div>
+                            <div className="flex items-center gap-2 bg-black/40 py-1.5 px-3 rounded-lg text-xs border border-white/5">
+                                <Calendar className="w-3.5 h-3.5" />
+                                {(() => {
+                                    const postDate = new Date(meta.date);
+                                    const now = new Date();
+                                    const diffDays = Math.floor((now.getTime() - postDate.getTime()) / (1000 * 60 * 60 * 24));
+                                    
+                                    if (diffDays === 0) return 'Today';
+                                    if (diffDays === 1) return 'Yesterday';
+                                    if (diffDays > 0 && diffDays < 14) return `${diffDays} days ago`;
+                                    return meta.date;
+                                })()}
                             </div>
                         </div>
-                    </aside>
+
+                        <button 
+                            onClick={handleDownloadPDF}
+                            disabled={generatingPdf}
+                            className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl font-bold text-sm hover:scale-105 transition-all shadow-lg shadow-purple-500/20 disabled:opacity-50 group"
+                        >
+                            {generatingPdf ? <Loader2 className="w-4 h-4 animate-spin" /> : <Download className="w-4 h-4 group-hover:translate-y-0.5 transition-transform" />}
+                            {generatingPdf ? 'Generating...' : 'Download Revision PDF'}
+                        </button>
+                    </div>
+
+                    {/* Phase 6: Topic Cluster Link (Dynamic for all subjects) */}
+                    {(() => {
+                        // Map category like "Class 11 Physics" to exam path (e.g. jee-mains/physics)
+                        let examBase = 'jee-mains';
+                        let subjectSlug = '';
+                        const catLower = meta.category.toLowerCase();
+                        
+                        if (catLower.includes('neet') || catLower.includes('biology')) examBase = 'neet';
+                        
+                        if (catLower.includes('physics')) subjectSlug = 'physics';
+                        else if (catLower.includes('math')) subjectSlug = 'math';
+                        else if (catLower.includes('chemistry')) subjectSlug = 'chemistry';
+                        else if (catLower.includes('biology')) subjectSlug = 'biology';
+                        else if (catLower.includes('science')) subjectSlug = 'science';
+                        
+                        // Extract plain slug from something like "laws-of-motion-revision-notes"
+                        const pureSlug = slug?.replace(/-revision-notes|-short-notes|-formulas/g, '') || '';
+                        
+                        if (subjectSlug && pureSlug) {
+                            return (
+                                <div className="mb-10">
+                                    <Link 
+                                        to={`/${examBase}/${subjectSlug}/${pureSlug}`}
+                                        className="inline-flex items-center gap-2 text-purple-400 hover:text-purple-300 font-bold text-sm bg-purple-500/5 px-4 py-2 rounded-lg border border-purple-500/10 transition-colors"
+                                    >
+                                        <BookOpen className="w-4 h-4" /> Practice Questions for this chapter →
+                                    </Link>
+                                </div>
+                            );
+                        }
+                        return null;
+                    })()}
+                </header>
+
+                <div className="prose prose-invert prose-purple max-w-none 
+                    prose-p:text-gray-300 prose-p:leading-relaxed prose-p:text-lg prose-p:mb-8
+                    prose-headings:text-white prose-headings:font-bold prose-headings:mb-6
+                    prose-h2:text-3xl prose-h2:mt-12 prose-h2:pb-4 prose-h2:border-b prose-h2:border-white/10
+                    prose-strong:text-white
+                    prose-blockquote:border-l-purple-500 prose-blockquote:bg-purple-500/5 prose-blockquote:py-2 prose-blockquote:px-8 prose-blockquote:rounded-r-2xl prose-blockquote:italic
+                    prose-img:rounded-3xl prose-img:shadow-2xl prose-img:border prose-img:border-white/10">
+                    <ReactMarkdown
+                        remarkPlugins={[remarkGfm, remarkMath]}
+                        rehypePlugins={[rehypeRaw, rehypeKatex]}
+                        components={{
+                            img: ({node, ...props}) => (
+                                <img 
+                                    {...props} 
+                                    loading="lazy" 
+                                    decoding="async" 
+                                    className="rounded-3xl shadow-2xl border border-white/10 my-12" 
+                                />
+                            )
+                        }}
+                    >
+                        {content}
+                    </ReactMarkdown>
                 </div>
+
+                <footer className="mt-20 pt-10 border-t border-white/10">
+                    <AboutAuthor />
+                    <div className="mt-12">
+                        <BlogCTA />
+                    </div>
+                </footer>
             </article>
+
             <Footer />
         </div>
     );
 };
+

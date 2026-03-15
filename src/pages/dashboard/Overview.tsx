@@ -1,13 +1,14 @@
 import { useState, useEffect } from 'react';
 import { useUserStore } from '../../store/userStore';
 import { Link, useNavigate } from 'react-router-dom';
-import { TrendingUp, RefreshCw, Flame, Play, ChevronRight, Target, Sparkles as SparkleIcon } from 'lucide-react';
+import { TrendingUp, RefreshCw, Flame, Play, ChevronRight, Target, Sparkles as SparkleIcon, Brain } from 'lucide-react';
 
 import { getWeakTopics, getStrongTopics, type TopicStat } from '../../services/topicStrengthService';
 import { DailyChallenge } from '../../components/DailyChallenge';
 import { syncHistoricalScoresToLeaderboard, syncSyllabusFromMocks, syncTopicStatsFromMocks } from '../../services/dataSyncService';
 import { RankBadge } from '../../components/gamification/RankBadge';
 import { XPProgress } from '../../components/gamification/XPProgress';
+import { AuthGate } from '../../components/auth/AuthGate';
 
 import { ProficiencyMap } from '../../components/dashboard/ProficiencyMap';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -110,10 +111,10 @@ export const Overview = () => {
 
             // Refresh counts, progress, AND AI Stats
             const { db } = await import('../../lib/firebase');
-            const { collection, query, where, getCountFromServer } = await import('firebase/firestore');
+            const { collection, query, where, getDocs } = await import('firebase/firestore');
             const qMock = query(collection(db, 'mock_attempts'), where('user_id', '==', user.id));
-            const snapshotMock = await getCountFromServer(qMock);
-            setAttempts(snapshotMock.data().count);
+            const snapshotMock = await getDocs(qMock);
+            setAttempts(snapshotMock.size);
 
             // Re-fetch centralized syllabus progress
             await fetchSyllabusProgress();
@@ -358,11 +359,11 @@ export const Overview = () => {
                 let cloudCount = 0;
                 if (!user.isGuest) {
                     const { db } = await import('../../lib/firebase');
-                    const { collection, query, where, getCountFromServer } = await import('firebase/firestore');
+                    const { collection, query, where, getDocs } = await import('firebase/firestore');
                     const mockColl = collection(db, 'mock_attempts');
                     const qMock = query(mockColl, where('user_id', '==', user.id));
-                    const snapshotMock = await getCountFromServer(qMock);
-                    cloudCount = snapshotMock.data().count;
+                    const snapshotMock = await getDocs(qMock);
+                    cloudCount = snapshotMock.size;
                 }
 
                 const localDataRaw = localStorage.getItem('exam_compass_local_history');
@@ -499,7 +500,24 @@ export const Overview = () => {
             <div className="animate-fade-in-up space-y-8">
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
                     <div className="lg:col-span-2 space-y-6 relative z-10">
-                        <DailyChallenge />
+                        <AuthGate
+                            mode="modal"
+                            fallback={
+                                <div className="glass-card oxygen-card p-10 flex flex-col items-center justify-center text-center space-y-6">
+                                    <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center">
+                                        <Brain className="text-primary" size={32} />
+                                    </div>
+                                    <div>
+                                        <h2 className="text-xl font-bold text-text-main">Daily Quick-Fire Locked</h2>
+                                        <p className="text-text-muted mt-2">
+                                            Log in to test your knowledge, earn XP, and build your studying streak daily.
+                                        </p>
+                                    </div>
+                                </div>
+                            }
+                        >
+                            <DailyChallenge />
+                        </AuthGate>
 
                         {user && !user.isGuest && (
                             <DailyMissionCard

@@ -118,7 +118,7 @@ export const StudyPlan = () => {
         `;
 
         try {
-            const response = await askAI("Act as a strict academic mentor. Prioritize the MANDATORY ASSIGNMENT if provided.", prompt, 'groq');
+            const response = await askAI("Act as a strict academic mentor. Prioritize the MANDATORY ASSIGNMENT if provided.", prompt, 'groq', [], { stream: false });
             if (response) {
                 const planData = extractJSON(response);
                 if (planData && Array.isArray(planData)) {

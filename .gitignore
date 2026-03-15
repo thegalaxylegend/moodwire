@@ -25,3 +25,17 @@ dist-ssr
 
 # Large Files
 public/demo.mp4
+
+# Security
+.env
+
+# Tests and Logs
+test*.js
+test_extract.ts
+tmp_url_test.js
+build_log.txt
+vite_log.txt
+top_100_urls.txt
+tsc_output_utf8.txt
+dev-dist/
+.firebase/

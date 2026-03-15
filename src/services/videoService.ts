@@ -9,6 +9,7 @@ export interface Video {
     videoUrl: string;
     duration: string;
     viewCount?: string;
+    user_class?: string; // Optional tagging for bookmarks
 }
 
 export interface Playlist {
@@ -310,9 +311,9 @@ const getFallbackPlaylist = (topicId: string): Playlist => {
 };
 
 // LocalStorage-based caching (User Device Only)
-export const getVideoByTopicIdCached = async (topicId: string, exam: string = 'JEE'): Promise<Playlist | null> => {
-    // V2 Cache key to force refresh after ranking logic update
-    const topicKey = `vid_cache_v2_${topicId.toLowerCase().trim()}_${exam.toLowerCase()}`;
+export const getVideoByTopicIdCached = async (topicId: string, exam: string = 'JEE', userId: string = 'anon'): Promise<Playlist | null> => {
+    // V3 Cache key isolated by userId
+    const topicKey = `vid_cache_v3_${userId}_${topicId.toLowerCase().trim()}_${exam.toLowerCase()}`;
 
     try {
         // 1. Check LocalStorage
@@ -343,6 +344,64 @@ export const getVideoByTopicIdCached = async (topicId: string, exam: string = 'J
     } catch (e) {
         console.error("Cache error:", e);
         return getVideoByTopicId(topicId, exam);
+    }
+};
+
+/**
+ * Advanced Recommendation Engine:
+ * 1. Finds user's weak topics
+ * 2. Fetches best videos for those topics
+ * 3. Filters out already watched videos
+ */
+export const getStrategicVideoRecommendations = async (
+    userId: string, 
+    exam: string, 
+    userClass?: string
+): Promise<Video[]> => {
+    try {
+        const { getWeakTopics } = await import('./topicStrengthService');
+        const { getCompletedVideos } = await import('./videoProgressService');
+        
+        // 1. Get top 3 weak topics
+        const weakTopics = await getWeakTopics(userId, 3, userClass, exam);
+        const completedVideos = getCompletedVideos(userId, userClass, exam).map(v => v.id);
+
+        let recommendedVideos: Video[] = [];
+
+        // 2. Map topics to video fetch promises
+        const fetchPromises = weakTopics.map(topic => getVideoByTopicIdCached(topic.topic, exam, userId));
+        const playlists = await Promise.all(fetchPromises);
+
+        playlists.forEach(playlist => {
+            if (playlist && playlist.videos) {
+                // 3. Filter out watched videos
+                const freshVideos = playlist.videos.filter(v => !completedVideos.includes(v.id));
+                recommendedVideos.push(...freshVideos);
+            }
+        });
+
+        // 4. If we have too few videos from weak topics, add some general ones (JEE/NEET trending)
+        if (recommendedVideos.length < 4) {
+            const generalTopics = ['physics', 'chemistry', 'math'];
+            const generalPlaylists = await Promise.all(
+                generalTopics.map(t => getVideoByTopicIdCached(t, exam, userId))
+            );
+            generalPlaylists.forEach(p => {
+                if (p && p.videos) {
+                    const fresh = p.videos.filter(v => !completedVideos.includes(v.id));
+                    recommendedVideos.push(...fresh);
+                }
+            });
+        }
+
+        // Shuffle and take top 8
+        return recommendedVideos
+            .sort(() => Math.random() - 0.5)
+            .slice(0, 8);
+
+    } catch (e) {
+        console.error('[VideoService] Strategic recommendations failed:', e);
+        return [];
     }
 };
 

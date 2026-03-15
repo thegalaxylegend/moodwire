@@ -1,8 +1,7 @@
 import { Canvas, useThree } from '@react-three/fiber';
-import { Suspense, useState, useEffect } from 'react';
+import { Component, Suspense, useState, useEffect, type ReactNode } from 'react';
 import { OrbitControls, Environment, ContactShadows } from '@react-three/drei';
 import { Model } from './Model';
-import { Component, type ReactNode } from 'react';
 import * as THREE from 'three';
 import { Plus, Minus, ChevronUp, ChevronDown } from 'lucide-react';
 

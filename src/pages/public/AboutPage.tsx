@@ -3,7 +3,7 @@ import { Navbar } from '../../components/Navbar';
 import { Footer } from '../../components/Footer';
 import { AboutAuthor } from '../../components/seo/AboutAuthor';
 import { Link } from 'react-router-dom';
-import { Brain, Target, BarChart2, BookOpen, Zap, Users } from 'lucide-react';
+import { Brain, Target, BarChart2, Zap } from 'lucide-react';
 
 export const AboutPage = () => {
     return (
@@ -34,78 +34,127 @@ export const AboutPage = () => {
             <Navbar />
 
             <main className="pt-32 pb-20 px-6 max-w-5xl mx-auto">
-                <h1 className="text-4xl md:text-6xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-                    About Exam Compass
+                <h1 className="text-5xl md:text-8xl font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 tracking-tighter">
+                    Built for the Next Generation of Toppers.
                 </h1>
-                <p className="text-xl text-gray-300 max-w-3xl mb-16 leading-relaxed">
-                    India's most advanced AI-powered exam preparation ecosystem — built by a student, for students.
+                <p className="text-xl md:text-2xl text-gray-400 max-w-4xl mb-20 leading-relaxed font-light">
+                    Exam Compass is more than just a test series. It is an intelligent ecosystem designed to replace the "brute-force" study methods of the past with data-driven precision.
                 </p>
 
-                {/* Mission Section */}
-                <section className="mb-20">
-                    <h2 className="text-3xl font-bold text-white mb-6">Our Mission</h2>
-                    <div className="p-8 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-md">
-                        <p className="text-gray-300 leading-relaxed text-lg mb-4">
-                            Every year, over 2 crore Indian students sit for competitive examinations like JEE, NEET, and UPSC. Most rely on generic test series, expensive coaching, and sheer brute-force studying. We believe there is a better way.
+                {/* The Problem Section */}
+                <section className="mb-24">
+                    <h2 className="text-4xl font-bold text-white mb-10 tracking-tight">The Problem We Solve</h2>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                        <div className="space-y-6">
+                            <p className="text-gray-300 leading-relaxed text-lg">
+                                India has one of the most competitive education systems in the world. Every year, over 2.5 crore students appear for various competitive exams. Most of these students spend lakhs of rupees on coaching centers that use a "one-size-fits-all" approach.
+                            </p>
+                            <p className="text-gray-300 leading-relaxed text-lg">
+                                If you are weak in Organic Chemistry but strong in Physics, why should you solve the same mock test as someone with the opposite profile? Standard testing is inefficient. It wastes your most precious resource: **Time.**
+                            </p>
+                            <div className="p-6 rounded-2xl bg-red-500/10 border border-red-500/20">
+                                <h4 className="text-red-400 font-bold mb-2">The Efficiency Gap</h4>
+                                <p className="text-sm text-gray-400">Average students spend 40% of their study time on topics they already know. We eliminate this waste.</p>
+                            </div>
+                        </div>
+                        <div className="relative">
+                            <div className="absolute -inset-4 bg-gradient-to-r from-purple-500/20 to-pink-500/20 blur-3xl opacity-50" />
+                            <div className="relative p-8 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-xl">
+                                <h3 className="text-2xl font-bold mb-6 text-purple-400">The Student Reality</h3>
+                                <ul className="space-y-4">
+                                    {[
+                                        "High coaching fees (₹1.5L+ per year)",
+                                        "Lack of personalized feedback",
+                                        "Anxiety due to unknown competition levels",
+                                        "Vast, unmanageable syllabus"
+                                    ].map(item => (
+                                        <li key={item} className="flex items-center gap-3 text-gray-300">
+                                            <div className="w-1.5 h-1.5 rounded-full bg-purple-500" />
+                                            {item}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/* Our Story Section */}
+                <section className="mb-24 py-16 border-y border-white/5">
+                    <h2 className="text-4xl font-bold text-white mb-10 tracking-tight">The AI Journey</h2>
+                    <div className="prose prose-invert max-w-none">
+                        <p className="text-gray-300 leading-relaxed text-lg mb-6">
+                            Exam Compass started as a small local script built to track personal mistakes during JEE preparation in KV Darbhanga, Bihar. Our founder, Ayush, realized that the data generated from just 10 mock tests could predict which chapters would cause failure in the final exam. 
                         </p>
-                        <p className="text-gray-300 leading-relaxed text-lg mb-4">
-                            Exam Compass was created to democratize intelligent exam preparation. Our AI engine doesn't just test you — it learns your weaknesses, tracks your patterns, and generates personalized mock exams that target exactly where you need improvement. Every feature was designed from real study experience, not corporate boardrooms.
+                        <p className="text-gray-300 leading-relaxed text-lg mb-6">
+                            By 2024, that script evolved into a full-scale AI platform. We integrated Large Language Models (LLMs) like Llama 3 and Gemini to provide instant doubt resolution. But we didn't stop there. We built a proprietary "Selection Probability" algorithm that doesn't just look at your marks, but at your **consistency, speed, and accuracy under pressure.**
                         </p>
                         <p className="text-gray-300 leading-relaxed text-lg">
-                            We are committed to keeping Exam Compass accessible to every student, regardless of their financial background. Our platform is free to use and always will be for core features, supported by advertising revenue.
+                            Today, Exam Compass serves students across every state in India, providing JEE, NEET, and UPSC aspirants with the same level of data analytics used by top-tier hedge funds and tech companies—all for free.
                         </p>
                     </div>
                 </section>
 
-                {/* Features Grid */}
-                <section className="mb-20">
-                    <h2 className="text-3xl font-bold text-white mb-8">What We Offer</h2>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                        {[
-                            { icon: Brain, title: 'AI Mock Test Generator', desc: 'Adaptive tests that target your weak areas with 9,000+ verified PYQs.' },
-                            { icon: Target, title: 'Selection Probability', desc: 'Real-time AI-calculated probability of clearing your target exam.' },
-                            { icon: BarChart2, title: 'Performance Analytics', desc: 'Track accuracy, speed, and fatigue across subjects and topics.' },
-                            { icon: BookOpen, title: 'Complete Syllabus Maps', desc: 'Chapter-wise breakdowns for JEE, NEET, UPSC, GATE, CLAT, BITSAT, and CBSE.' },
-                            { icon: Zap, title: 'Personalized Roadmaps', desc: 'AI-generated study plans based on your individual performance patterns.' },
-                            { icon: Users, title: 'Peer Benchmarking', desc: 'Compare your performance against thousands of other aspirants anonymously.' },
-                        ].map(({ icon: Icon, title, desc }) => (
-                            <div key={title} className="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-purple-500/30 transition-colors">
-                                <Icon className="text-purple-400 mb-4" size={28} />
-                                <h3 className="text-lg font-bold text-white mb-2">{title}</h3>
-                                <p className="text-gray-400 text-sm leading-relaxed">{desc}</p>
-                            </div>
-                        ))}
-                    </div>
-                </section>
-
-                {/* Exams Covered */}
-                <section className="mb-20">
-                    <h2 className="text-3xl font-bold text-white mb-6">Exams We Cover</h2>
-                    <p className="text-gray-300 leading-relaxed mb-6">
-                        Our platform provides comprehensive preparation materials for India's most competitive examinations:
-                    </p>
-                    <div className="flex flex-wrap gap-3">
-                        {['JEE Mains', 'JEE Advanced', 'NEET UG', 'UPSC CSE', 'CLAT', 'GATE', 'BITSAT', 'Class 12 CBSE', 'Class 11', 'Class 10 CBSE', 'Class 9', 'Class 8', 'Class 7', 'Class 6'].map(exam => (
-                            <span key={exam} className="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-sm text-gray-300">
-                                {exam}
-                            </span>
-                        ))}
+                {/* Tech Stack Section */}
+                <section className="mb-24">
+                    <h2 className="text-4xl font-bold text-white mb-10 tracking-tight">Our Core Technology</h2>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <div className="p-8 rounded-3xl bg-white/5 border border-white/10">
+                            <Zap className="text-yellow-400 mb-6" size={40} />
+                            <h3 className="text-xl font-bold mb-4">Adaptive Engine</h3>
+                            <p className="text-gray-400 text-sm leading-relaxed">
+                                Our engine uses a modified IRT (Item Response Theory) model to calculate the exact difficulty of a question based on thousands of student attempts. It then serves you questions at your "Growth Zone"—not too easy, not too hard.
+                            </p>
+                        </div>
+                        <div className="p-8 rounded-3xl bg-white/5 border border-white/10">
+                            <Brain className="text-purple-400 mb-6" size={40} />
+                            <h3 className="text-xl font-bold mb-4">Exa AI Mentor</h3>
+                            <p className="text-gray-400 text-sm leading-relaxed">
+                                Powered by Groq-hosted Llama 3.3, Exa provides sub-second responses to complex technical doubts. It is trained specifically on Indian competitive exam patterns to avoid generic or irrelevant answers.
+                            </p>
+                        </div>
+                        <div className="p-8 rounded-3xl bg-white/5 border border-white/10">
+                            <BarChart2 className="text-blue-400 mb-6" size={40} />
+                            <h3 className="text-xl font-bold mb-4">Fatigue Analytics</h3>
+                            <p className="text-gray-400 text-sm leading-relaxed">
+                                We track the time taken per question to identify when "Brain Fatigue" sets in. Our platform will literally tell you when to take a break so you don't build bad study habits or make "silly mistakes" due to tiredness.
+                            </p>
+                        </div>
                     </div>
                 </section>
 
                 {/* Founder Section */}
-                <section className="mb-16">
-                    <h2 className="text-3xl font-bold text-white mb-8">The Founder</h2>
+                <section className="mb-24">
+                    <div className="flex items-center gap-4 mb-10">
+                        <h2 className="text-4xl font-bold text-white tracking-tight">The Founder's Vision</h2>
+                        <div className="h-px flex-1 bg-white/10" />
+                    </div>
                     <AboutAuthor />
+                    <div className="mt-12 p-10 rounded-3xl bg-gradient-to-br from-purple-500/20 to-pink-500/20 border border-white/10">
+                        <blockquote className="text-2xl italic text-gray-200 font-serif leading-relaxed mb-8">
+                            "Education in India should not be a test of how much money your parents have. It should be a test of how much fire you have in your heart. Exam Compass is my contribution to making that a reality."
+                        </blockquote>
+                        <p className="text-white font-bold">— Ayush, Founder of Exam Compass</p>
+                    </div>
                 </section>
 
-                {/* CTA */}
-                <section className="text-center py-12 border-t border-white/10">
-                    <h2 className="text-2xl font-bold text-white mb-4">Ready to Start Your Preparation?</h2>
-                    <p className="text-gray-400 mb-8">Join thousands of students already using AI to prepare smarter.</p>
-                    <Link to="/login" className="inline-flex items-center gap-2 bg-white text-black px-8 py-4 rounded-full font-bold hover:scale-105 transition-transform">
-                        Get Started Free
-                    </Link>
+                {/* Call to Action */}
+                <section className="text-center py-24 bg-white/5 rounded-[4rem] border border-white/10 mb-20 overflow-hidden relative">
+                    <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-purple-500/5 blur-[120px]" />
+                    <div className="relative z-10 px-6">
+                        <h2 className="text-4xl md:text-6xl font-bold text-white mb-6 tracking-tighter">Ready to Study Smarter?</h2>
+                        <p className="text-xl text-gray-400 mb-12 max-w-2xl mx-auto font-light">
+                            Join 50,000+ students who are already using AI to beat the competition. Your first mock test is waiting.
+                        </p>
+                        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                            <Link to="/login" rel="nofollow" className="px-12 py-6 bg-white text-black rounded-2xl font-bold text-lg hover:scale-105 transition-transform flex items-center gap-2">
+                                Start Free Now <Target size={20} />
+                            </Link>
+                            <Link to="/blog" className="px-12 py-6 bg-white/5 text-white border border-white/10 rounded-2xl font-bold text-lg hover:bg-white/10 transition-all">
+                                Read Study Hacks
+                            </Link>
+                        </div>
+                    </div>
                 </section>
             </main>
 

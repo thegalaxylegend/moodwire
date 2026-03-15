@@ -30,90 +30,98 @@ export const TermsOfService = () => {
                 <p className="text-gray-400 text-sm mb-12">Last updated: March 5, 2026</p>
 
                 <article className="prose prose-invert max-w-none space-y-8">
+                <article className="prose prose-invert max-w-none space-y-12 text-gray-300">
                     <section>
-                        <h2 className="text-2xl font-bold text-white mb-4">1. Acceptance of Terms</h2>
-                        <p className="text-gray-300 leading-relaxed">
-                            By accessing and using Exam Compass (examcompass.web.app), you accept and agree to be bound by these Terms of Service. If you do not agree to these terms, you must not use our platform. These terms apply to all visitors, users, and others who access or use the service.
+                        <h2 className="text-3xl font-bold text-white mb-6">1. Contractual Framework</h2>
+                        <p className="leading-relaxed text-lg">
+                            By accessing and using Exam Compass (examcompass.web.app), you are entering into a legally binding agreement with Exam Compass ("we," "our," or "us"). These Terms of Service ("Terms") govern your access to and use of our AI-powered exam preparation services, including all software, data, and content delivered via the platform.
+                        </p>
+                        <p className="leading-relaxed text-lg">
+                            If you are under the age of 18, you represent that you have reviewed these Terms with your parent or legal guardian and that they have consented to your use of the platform. If you do not agree to these Terms in their entirety, you are strictly prohibited from accessing the Site or using any of our services.
                         </p>
                     </section>
 
-                    <section>
-                        <h2 className="text-2xl font-bold text-white mb-4">2. Description of Service</h2>
-                        <p className="text-gray-300 leading-relaxed">
-                            Exam Compass is a free, AI-powered exam preparation platform providing mock tests, previous year question (PYQ) practice, syllabus analytics, and personalized study plans for competitive examinations including JEE Mains, JEE Advanced, NEET, UPSC, CLAT, GATE, BITSAT, and CBSE Class 6–12 board examinations. The platform uses artificial intelligence to generate adaptive content tailored to individual student performance.
+                    <section className="bg-white/5 p-8 rounded-3xl border border-white/10">
+                        <h2 className="text-3xl font-bold text-white mb-6">2. Scope of AI-Driven Services</h2>
+                        <p className="leading-relaxed mb-6">
+                            Exam Compass provides a dynamic, adaptive learning environment. The "Service" includes:
                         </p>
-                    </section>
-
-                    <section>
-                        <h2 className="text-2xl font-bold text-white mb-4">3. User Accounts</h2>
-                        <p className="text-gray-300 leading-relaxed">
-                            To access certain features, you may be required to create an account using Google Authentication or email/password. You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account. You must immediately notify us of any unauthorized use of your account.
-                        </p>
-                    </section>
-
-                    <section>
-                        <h2 className="text-2xl font-bold text-white mb-4">4. Acceptable Use</h2>
-                        <p className="text-gray-300 leading-relaxed mb-4">
-                            You agree not to:
-                        </p>
-                        <ul className="list-disc list-inside text-gray-300 space-y-2">
-                            <li>Use the platform for any unlawful purpose or in violation of any applicable laws</li>
-                            <li>Scrape, copy, or redistribute our question databases, content, or AI-generated materials without explicit written permission</li>
-                            <li>Attempt to interfere with, compromise, or disrupt the platform's infrastructure</li>
-                            <li>Use automated bots or scripts to access the platform without authorization</li>
-                            <li>Impersonate another person or misrepresent your affiliation with any entity</li>
-                            <li>Upload or transmit malicious code, viruses, or harmful software</li>
+                        <ul className="space-y-4 list-none p-0">
+                            {[
+                                "AI-curated mock tests for JEE, NEET, UPSC, and other examinations.",
+                                "Real-time performance analytics and selection probability modeling.",
+                                "Categorized Previous Year Question (PYQ) databases with AI-generated solutions.",
+                                "Personalized study roadmaps driven by Large Language Model (LLM) insights."
+                            ].map(item => (
+                                <li key={item} className="flex gap-3 items-start">
+                                    <div className="mt-1.5 w-2 h-2 rounded-full bg-pink-500 shrink-0" />
+                                    <span>{item}</span>
+                                </li>
+                            ))}
                         </ul>
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-bold text-white mb-4">5. Intellectual Property</h2>
-                        <p className="text-gray-300 leading-relaxed">
-                            All content on Exam Compass — including but not limited to text, graphics, logos, UI design, AI-generated questions, explanations, analytics dashboards, and software — is the property of Exam Compass and is protected by Indian and international intellectual property laws. Previous Year Questions (PYQs) are sourced from publicly available examination papers conducted by NTA, CBSE, and other examination authorities. Our value-addition includes AI-generated explanations, categorization, difficulty analysis, and adaptive test generation.
-                        </p>
+                        <h2 className="text-3xl font-bold text-white mb-6">3. Intellectual Property and Usage Rights</h2>
+                        <div className="space-y-6">
+                            <div>
+                                <h3 className="text-xl font-bold text-blue-400 mb-2">3.1 Proprietary AI Models</h3>
+                                <p className="leading-relaxed">
+                                    All algorithms, including our Selection Probability Engine and Adaptive Difficulty Scaler, are the exclusive intellectual property of Exam Compass. You are granted a limited, non-exclusive, non-transferable license to use these tools for personal, non-commercial educational purposes.
+                                </p>
+                            </div>
+                            <div>
+                                <h3 className="text-xl font-bold text-blue-400 mb-2">3.2 Content Ownership</h3>
+                                <p className="leading-relaxed">
+                                    While PYQs are sourced from public examination bodies (NTA, CBSE, etc.), the structural organization, AI-generated explanations, and unique UI/UX of Exam Compass are protected by copyright laws. Automated scraping or mass-downloading of our question bank is a violation of these terms and will result in an immediate permanent ban.
+                                </p>
+                            </div>
+                        </div>
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-bold text-white mb-4">6. Advertisements</h2>
-                        <p className="text-gray-300 leading-relaxed">
-                            Exam Compass displays third-party advertisements through Google AdSense. These advertisements help support the free operation of our platform. We are not responsible for the content, accuracy, or opinions expressed in third-party advertisements. Your interactions with advertisers found on the Site are solely between you and the advertiser.
+                        <h2 className="text-3xl font-bold text-white mb-6">4. Prohibited Conduct (Anti-Cheating Policy)</h2>
+                        <p className="leading-relaxed mb-6">
+                            To maintain the integrity of our benchmarking and selection probability data, users are strictly prohibited from:
                         </p>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div className="p-6 border border-white/10 rounded-2xl bg-white/5">
+                                <h4 className="font-bold text-red-400 mb-2">Technical Tampering</h4>
+                                <p className="text-sm text-gray-400">Reverse engineering our API, injecting malicious code, or attempting to bypass security layers for unauthorized access to premium analytics.</p>
+                            </div>
+                            <div className="p-6 border border-white/10 rounded-2xl bg-white/5">
+                                <h4 className="font-bold text-red-400 mb-2">Data Manipulation</h4>
+                                <p className="text-sm text-gray-400">Using automated bots to complete mock tests, which skews our global difficulty heatmaps and selection predictors.</p>
+                            </div>
+                        </div>
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-bold text-white mb-4">7. Disclaimer of Warranties</h2>
-                        <p className="text-gray-300 leading-relaxed">
-                            Exam Compass is provided on an "as is" and "as available" basis without any warranties of any kind, either express or implied. We do not warrant that the service will be uninterrupted, error-free, or completely secure. We do not guarantee any specific exam results or outcomes from using our platform. The AI-generated content, probability scores, and study recommendations are for informational and educational purposes only.
-                        </p>
+                        <h2 className="text-3xl font-bold text-white mb-6">5. Disclaimers and Limitation of Liability</h2>
+                        <div className="p-8 rounded-3xl bg-yellow-500/5 border border-yellow-500/20 italic">
+                            <p className="leading-relaxed text-gray-400">
+                                Exam Compass is provided "as is." We utilize highly advanced AI models, but we do not guarantee that the AI-generated explanations are 100% error-free. The Selection Probability score is an estimation based on historical data and current user trends; it is NOT a guarantee of admission to any institution. 
+                            </p>
+                            <p className="mt-4 leading-relaxed text-gray-400">
+                                Exam Compass and its founder shall not be held liable for any academic disappointment, loss of data, or any direct or indirect damages resulting from the use of the platform.
+                            </p>
+                        </div>
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-bold text-white mb-4">8. Limitation of Liability</h2>
-                        <p className="text-gray-300 leading-relaxed">
-                            To the maximum extent permitted by applicable law, Exam Compass and its founder shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of data, loss of profits, or any damages arising from your use or inability to use the platform.
+                        <h2 className="text-3xl font-bold text-white mb-6">6. Monetization and Ads</h2>
+                        <p className="leading-relaxed">
+                            To provide these high-end tools for free, we display ads via Google AdSense. You agree not to use ad-blocking software that intentionally disrupts the platform's ability to generate revenue. Support of the platform's ads is what keeps the AI engine running for students who cannot afford expensive coaching.
                         </p>
                     </section>
 
-                    <section>
-                        <h2 className="text-2xl font-bold text-white mb-4">9. Modifications</h2>
-                        <p className="text-gray-300 leading-relaxed">
-                            We reserve the right to modify or replace these Terms of Service at any time. Material changes will be communicated by posting the updated terms on this page. Your continued use of the platform after any changes constitutes your acceptance of the new terms.
+                    <section className="border-t border-white/10 pt-12">
+                        <h2 className="text-3xl font-bold text-white mb-6">7. Jurisdictional Authority</h2>
+                        <p className="leading-relaxed">
+                            These Terms are governed by the IT Act of India. Any legal proceedings related to Exam Compass shall be handled within the jurisdiction of the courts in Darbhanga, Bihar, India. We reserve the right to modify these terms at any time; continued use of the platform constitutes "Active Consent" to all modifications.
                         </p>
                     </section>
-
-                    <section>
-                        <h2 className="text-2xl font-bold text-white mb-4">10. Governing Law</h2>
-                        <p className="text-gray-300 leading-relaxed">
-                            These Terms of Service are governed by and construed in accordance with the laws of India. Any disputes arising from these terms shall be subject to the exclusive jurisdiction of the courts in Darbhanga, Bihar, India.
-                        </p>
-                    </section>
-
-                    <section>
-                        <h2 className="text-2xl font-bold text-white mb-4">11. Contact</h2>
-                        <p className="text-gray-300 leading-relaxed">
-                            For any questions regarding these Terms of Service, please visit our <a href="/contact" className="text-purple-400 hover:underline">Contact Page</a>.
-                        </p>
-                    </section>
+                </article>
                 </article>
             </main>
 

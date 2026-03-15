@@ -1,0 +1,337 @@
+[
+  {
+    "subject": "Physics",
+    "chapter": "Units and Measurements",
+    "count": 5
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Motion in a Straight Line",
+    "count": 2
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "count": 2
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Laws of Motion",
+    "count": 2
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Work, Energy and Power",
+    "count": 3
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Rotational Motion",
+    "count": 72
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "count": 2
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Solids",
+    "count": 2
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "count": 2
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Thermal Properties of Matter",
+    "count": 2
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Thermodynamics",
+    "count": 2
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Kinetic Theory",
+    "count": 2
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "count": 2
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Waves",
+    "count": 2
+  },
+  {
+    "subject": "Physics",
+    "chapter": "Physical World",
+    "count": 2
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "count": 17
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Structure of The Atom",
+    "count": 2
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Classification of Elements",
+    "count": 2
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Chemical Bonding",
+    "count": 2
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "States of Matter",
+    "count": 2
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Thermodynamics",
+    "count": 0
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Equilibrium",
+    "count": 2
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Redox Reactions",
+    "count": 2
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Hydrogen",
+    "count": 2
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "The S-Block Elements",
+    "count": 2
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "The P-Block Elements (11)",
+    "count": 2
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Organic Chemistry: Basic Principles",
+    "count": 2
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Hydrocarbons",
+    "count": 2
+  },
+  {
+    "subject": "Chemistry",
+    "chapter": "Environmental Chemistry",
+    "count": 2
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Sets",
+    "count": 2
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Relations and Functions",
+    "count": 2
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Trigonometric Functions",
+    "count": 2
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Principle of Mathematical Induction",
+    "count": 2
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Complex Numbers",
+    "count": 2
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Linear Inequalities",
+    "count": 2
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Permutations and Combinations",
+    "count": 3
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Binomial Theorem",
+    "count": 2
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Sequences and Series",
+    "count": 3
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Straight Lines",
+    "count": 2
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Conic Sections",
+    "count": 4
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "3D Geometry (Intro)",
+    "count": 2
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Limits and Derivatives",
+    "count": 2
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Mathematical Reasoning",
+    "count": 2
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Statistics",
+    "count": 2
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Probability (Intro)",
+    "count": 2
+  },
+  {
+    "subject": "Biology",
+    "chapter": "The Living World",
+    "count": 2
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Biological Classification",
+    "count": 2
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Plant Kingdom",
+    "count": 2
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Animal Kingdom",
+    "count": 2
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Morphology of Flowering Plants",
+    "count": 2
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Anatomy of Flowering Plants",
+    "count": 2
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Structural Organisation in Animals",
+    "count": 2
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Cell: The Unit of Life",
+    "count": 2
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Biomolecules",
+    "count": 0
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Cell Cycle and Cell Division",
+    "count": 2
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Transport in Plants",
+    "count": 2
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Mineral Nutrition",
+    "count": 2
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Photosynthesis in Higher Plants",
+    "count": 2
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Respiration in Plants",
+    "count": 2
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Plant Growth and Development",
+    "count": 2
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Digestion and Absorption",
+    "count": 2
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Breathing and Exchange of Gases",
+    "count": 2
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Body Fluids and Circulation",
+    "count": 2
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Excretory Products and Elimination",
+    "count": 2
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Locomotion and Movement",
+    "count": 2
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Neural Control and Coordination",
+    "count": 2
+  },
+  {
+    "subject": "Biology",
+    "chapter": "Chemical Coordination and Integration",
+    "count": 2
+  }
+]

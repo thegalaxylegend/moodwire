@@ -29,39 +29,75 @@ export const DecisionSimulator = () => {
         setIsAnalyzing(true);
         setAnalysis(null);
 
-        const prompt = `
-            Compare ${examA} and ${examB} for an Indian student.
-            Provide a strict JSON output with the following structure:
-            {
-                "examA": {
-                    "seats": "Approx seats",
-                    "applicants": "Approx applicants",
-                    "acceptanceRate": "Percentage string",
-                    "salary": "Avg salary range",
-                    "pros": ["Pro 1", "Pro 2"],
-                    "cons": ["Con 1", "Con 2"]
-                },
-                "examB": {
-                    "seats": "Approx seats",
-                    "applicants": "Approx applicants",
-                    "acceptanceRate": "Percentage string",
-                    "salary": "Avg salary range",
-                    "pros": ["Pro 1", "Pro 2"],
-                    "cons": ["Con 1", "Con 2"]
-                },
-                "verdict": "A brief, unbiased conclusion on who should choose which.",
-                "riskScore": {
-                    "examA": 8, // 1-10 scale
-                    "examB": 6
-                }
-            }
-        `;
+        const contextRules = `
+You are a pure data API. Your ONLY purpose is to compare "${examA}" vs "${examB}".
+You MUST respond with a VALID JSON object and ABSOLUTELY NOTHING ELSE.
+NO markdown block formatting (like \`\`\`json). NO greetings. NO emojis.
+
+EXPECTED JSON SCHEMA:
+{
+    "examA_data": {
+        "seats": "string",
+        "applicants": "string",
+        "acceptanceRate": "string",
+        "salary": "string",
+        "pros": ["string"],
+        "cons": ["string"]
+    },
+    "examB_data": {
+        "seats": "string",
+        "applicants": "string",
+        "acceptanceRate": "string",
+        "salary": "string",
+        "pros": ["string"],
+        "cons": ["string"]
+    },
+    "verdict": "string",
+    "riskScore": {
+        "examA_score": number, // 1 to 10
+        "examB_score": number  // 1 to 10
+    }
+}
+`;
 
         try {
-            const response = await askAI("User is deciding between careers. Be realistic and data-backed.", prompt, 'groq');
+            console.log("Requesting AI Comparison for:", examA, examB);
+            
+            // Append a timestamp to the question to bust the aggressive local caching
+            const timestamp = Date.now();
+            const question = `Compare ${examA} and ${examB}. (CacheBuster: ${timestamp})`;
+
+            const response = await askAI(
+                contextRules, 
+                question, 
+                'groq',
+                [],
+                { 
+                    stream: false,
+                    jsonMode: true,
+                    modelId: "llama-3.1-8b-instant"
+                }
+            );
+            console.log("Raw AI Response:", response);
+            
             if (response) {
                 const data = extractJSON(response);
-                if (data) setAnalysis(data);
+                console.log("Parsed JSON Data:", data);
+                
+                if (data) {
+                    // Map the generic keys back to the specific exams for the UI
+                    const mappedData = {
+                        [examA]: data.examA_data || {},
+                        [examB]: data.examB_data || {},
+                        verdict: data.verdict || "No verdict provided.",
+                        riskScore: {
+                            [examA]: data.riskScore?.examA_score || 0,
+                            [examB]: data.riskScore?.examB_score || 0
+                        }
+                    };
+                    console.log("Mapped Analysis Data:", mappedData);
+                    setAnalysis(mappedData);
+                }
             }
         } catch (error) {
             console.error("Comparison failed", error);
@@ -92,9 +128,9 @@ export const DecisionSimulator = () => {
                 }
             >
                 {/* Comparison Controls */}
-                <div className="glass-card p-6 flex flex-col items-center gap-6">
-                    <div className="flex flex-col md:flex-row items-center gap-4 w-full justify-center max-w-4xl">
-                        <div className="w-full md:w-64">
+                <div className="glass-card overflow-visible p-6 flex flex-col items-center gap-6 relative z-50">
+                    <div className="flex flex-col md:flex-row items-center gap-4 w-full justify-center max-w-4xl relative z-50">
+                        <div className="w-full md:w-64 relative z-50">
                             <CustomSelect
                                 value={examA}
                                 onChange={setExamA}
@@ -103,11 +139,11 @@ export const DecisionSimulator = () => {
                             />
                         </div>
 
-                        <div className="bg-surface p-3 rounded-full border border-border shrink-0 shadow-lg">
+                        <div className="bg-surface p-3 rounded-full border border-border shrink-0 shadow-lg relative z-40">
                             <Scale className="text-primary" />
                         </div>
 
-                        <div className="w-full md:w-64">
+                        <div className="w-full md:w-64 relative z-50">
                             <CustomSelect
                                 value={examB}
                                 onChange={setExamB}
@@ -131,20 +167,20 @@ export const DecisionSimulator = () => {
 
                 {/* Results Grid */}
                 {analysis && (
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 relative animate-fade-in-up">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 relative animate-fade-in-up items-stretch">
                         {/* VS Badge */}
                         <div className="absolute top-8 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden md:flex z-10 w-10 h-10 bg-background border border-border rounded-full items-center justify-center font-bold text-text-muted shadow-xl">
                             VS
                         </div>
 
                         {/* Left Card */}
-                        <ExamCard name={examA} data={analysis.examA || {}} risk={analysis.riskScore?.examA || 0} color="border-t-primary" />
+                        <ExamCard name={examA} data={analysis[examA] || {}} risk={analysis.riskScore?.[examA] || 0} color="border-t-primary" />
 
                         {/* Right Card */}
-                        <ExamCard name={examB} data={analysis.examB || {}} risk={analysis.riskScore?.examB || 0} color="border-t-secondary" />
+                        <ExamCard name={examB} data={analysis[examB] || {}} risk={analysis.riskScore?.[examB] || 0} color="border-t-secondary" />
 
                         {/* Verdict */}
-                        <div className="md:col-span-2 glass-card p-6 border-l-4 border-accent bg-accent/5">
+                        <div className="md:col-span-2 glass-card p-6 border-l-4 border-accent bg-accent/5 mt-4">
                             <h3 className="font-bold text-text-main mb-2 flex items-center gap-2">
                                 <Brain size={18} className="text-accent" /> AI Verdict
                             </h3>
@@ -158,7 +194,7 @@ export const DecisionSimulator = () => {
 };
 
 const ExamCard = ({ name, data, risk, color }: { name: string, data: any, risk: number, color: string }) => (
-    <div className={`glass-card p-6 space-y-6 border-t-4 ${color}`}>
+    <div className={`glass-card p-6 space-y-6 flex flex-col h-full border-t-4 ${color}`}>
         <div className="flex justify-between items-start">
             <h3 className="text-2xl font-bold text-text-main">{name}</h3>
             <div className={`px-3 py-1 rounded text-xs font-bold border ${risk > 7 ? 'bg-red-500/10 border-red-500/20 text-red-500' : 'bg-green-500/10 border-green-500/20 text-green-500'}`}>

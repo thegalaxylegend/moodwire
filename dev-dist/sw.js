@@ -67,7 +67,7 @@ if (!self.define) {
     });
   };
 }
-define(['./workbox-346eee80'], (function (workbox) { 'use strict';
+define(['./workbox-fa6cb374'], (function (workbox) { 'use strict';
 
   self.skipWaiting();
   workbox.clientsClaim();
@@ -78,24 +78,16 @@ define(['./workbox-346eee80'], (function (workbox) { 'use strict';
    * See https://goo.gl/S9QRab
    */
   workbox.precacheAndRoute([{
+    "url": "registerSW.js",
+    "revision": "3ca0b8505b4bec776b69afdba2768812"
+  }, {
     "url": "index.html",
-    "revision": "0.fp0tdo6h36c"
+    "revision": "0.lemjrig2k6s"
   }], {});
   workbox.cleanupOutdatedCaches();
   workbox.registerRoute(new workbox.NavigationRoute(workbox.createHandlerBoundToURL("index.html"), {
-    allowlist: [/^\/$/],
-    denylist: [/^\/sitemap/, /^\/robots\.txt/, /^\/seo-manifest\.json/, /^\/llms\.txt/]
+    allowlist: [/^\/$/]
   }));
-  workbox.registerRoute(({
-    request
-  }) => request.mode === "navigate", new workbox.NetworkFirst({
-    "cacheName": "pages-cache",
-    "networkTimeoutSeconds": 3,
-    plugins: [new workbox.ExpirationPlugin({
-      maxEntries: 50,
-      maxAgeSeconds: 86400
-    })]
-  }), 'GET');
   workbox.registerRoute(/^https:\/\/fonts\.googleapis\.com\/.*/i, new workbox.CacheFirst({
     "cacheName": "google-fonts-cache",
     plugins: [new workbox.ExpirationPlugin({
@@ -114,10 +106,10 @@ define(['./workbox-346eee80'], (function (workbox) { 'use strict';
       statuses: [0, 200]
     })]
   }), 'GET');
-  workbox.registerRoute(/.*\.glb$/i, new workbox.CacheFirst({
-    "cacheName": "3d-models-cache",
+  workbox.registerRoute(/^https:\/\/firebasestorage\.googleapis\.com\/.*/i, new workbox.StaleWhileRevalidate({
+    "cacheName": "firebase-storage-cache",
     plugins: [new workbox.ExpirationPlugin({
-      maxEntries: 5,
+      maxEntries: 50,
       maxAgeSeconds: 2592000
     })]
   }), 'GET');

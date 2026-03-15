@@ -1,12 +1,13 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useUserStore } from '../../store/userStore';
-import { Calendar, CheckCircle2, ArrowRight, GraduationCap } from 'lucide-react';
+import { Calendar, CheckCircle2, ArrowRight, GraduationCap, Loader2 } from 'lucide-react';
 
 export const Onboarding = () => {
     const navigate = useNavigate();
     const updateProfile = useUserStore((state) => state.updateProfile);
     const [step, setStep] = useState(1);
+    const [isSaving, setIsSaving] = useState(false);
 
     const [formData, setFormData] = useState({
         targetExam: '',
@@ -43,6 +44,8 @@ export const Onboarding = () => {
     };
 
     const handleComplete = async () => {
+        if (isSaving) return; // Prevent double-click
+        setIsSaving(true);
         try {
             // Save to store & DB
             await updateProfile({
@@ -54,6 +57,7 @@ export const Onboarding = () => {
             navigate('/dashboard');
         } catch (err: any) {
             console.error("Onboarding failed", err);
+            setIsSaving(false);
             alert("Failed to save profile. Please try again. Error: " + (err.message || "Unknown error"));
         }
     };
@@ -194,6 +198,7 @@ export const Onboarding = () => {
                         <button
                             onClick={handleNext}
                             disabled={
+                                isSaving ||
                                 (step === 1 && !formData.userClass) ||
                                 (step === 2 && !formData.targetExam) ||
                                 (step === 3 && !formData.targetYear) ||
@@ -201,7 +206,11 @@ export const Onboarding = () => {
                             }
                             className="px-8 py-4 bg-primary text-white rounded-xl font-bold flex items-center gap-2 shadow-lg disabled:opacity-50 hover:bg-primary/90 transition-all"
                         >
-                            {step === 4 ? 'Generate My Dashboard' : 'Next Step'} <ArrowRight size={18} />
+                            {isSaving ? (
+                                <><Loader2 size={18} className="animate-spin" /> Saving...</>
+                            ) : (
+                                <>{step === 4 ? 'Generate My Dashboard' : 'Next Step'} <ArrowRight size={18} /></>
+                            )}
                         </button>
                     </div>
                 </div>

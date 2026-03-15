@@ -18,15 +18,19 @@ const COLLECTION_NAME = 'saved_lectures';
  * Saves a lecture video to Firestore.
  * Document ID: userId_videoId
  */
-export const saveLectureToCloud = async (userId: string, video: Video): Promise<void> => {
+export const saveLectureToCloud = async (userId: string, video: Video, userClass?: string, targetExam?: string): Promise<void> => {
     if (!userId || !video.id) return;
 
     try {
-        const docId = `${userId}_${video.id}`;
+        const cleanClass = userClass || 'General';
+        const cleanExam = targetExam || 'General';
+        const docId = `${userId}_${cleanClass}_${cleanExam}_${video.id}`;
         const docRef = doc(db, COLLECTION_NAME, docId);
 
         await setDoc(docRef, {
             user_id: userId,
+            user_class: cleanClass,
+            target_exam: cleanExam,
             video_id: video.id,
             title: video.title,
             channel_name: video.channelName,
@@ -36,7 +40,7 @@ export const saveLectureToCloud = async (userId: string, video: Video): Promise<
             saved_at: new Date().toISOString()
         }, { merge: true });
 
-        console.log(`[savedLectureService] Video ${video.id} saved to cloud for user ${userId}`);
+        console.log(`[savedLectureService] Video ${video.id} saved to cloud for user ${userId} (${cleanClass}/${cleanExam})`);
     } catch (e) {
         console.error('[savedLectureService] Error saving lecture:', e);
         throw e;
@@ -46,13 +50,15 @@ export const saveLectureToCloud = async (userId: string, video: Video): Promise<
 /**
  * Removes a lecture video from Firestore.
  */
-export const removeLectureFromCloud = async (userId: string, videoId: string): Promise<void> => {
+export const removeLectureFromCloud = async (userId: string, videoId: string, userClass?: string, targetExam?: string): Promise<void> => {
     if (!userId || !videoId) return;
 
     try {
-        const docId = `${userId}_${videoId}`;
+        const cleanClass = userClass || 'General';
+        const cleanExam = targetExam || 'General';
+        const docId = `${userId}_${cleanClass}_${cleanExam}_${videoId}`;
         await deleteDoc(doc(db, COLLECTION_NAME, docId));
-        console.log(`[savedLectureService] Video ${videoId} removed from cloud`);
+        console.log(`[savedLectureService] Video ${videoId} removed from cloud (${cleanClass}/${cleanExam})`);
     } catch (e) {
         console.error('[savedLectureService] Error removing lecture:', e);
         throw e;
@@ -62,15 +68,23 @@ export const removeLectureFromCloud = async (userId: string, videoId: string): P
 /**
  * Fetches all saved lectures for a user from Firestore.
  */
-export const getSavedLecturesFromCloud = async (userId: string): Promise<Video[]> => {
+export const getSavedLecturesFromCloud = async (userId: string, userClass?: string, targetExam?: string): Promise<Video[]> => {
     if (!userId) return [];
 
     try {
-        const q = query(
+        let q = query(
             collection(db, COLLECTION_NAME),
-            where('user_id', '==', userId),
-            orderBy('saved_at', 'desc')
+            where('user_id', '==', userId)
         );
+
+        if (userClass) {
+            q = query(q, where('user_class', '==', userClass));
+        }
+        if (targetExam) {
+            q = query(q, where('target_exam', '==', targetExam));
+        }
+
+        q = query(q, orderBy('saved_at', 'desc'));
 
         const snap = await getDocs(q);
         return snap.docs.map(d => {
@@ -81,7 +95,8 @@ export const getSavedLecturesFromCloud = async (userId: string): Promise<Video[]
                 channelName: data.channel_name,
                 thumbnailUrl: data.thumbnail_url,
                 videoUrl: data.video_url,
-                duration: data.duration
+                duration: data.duration,
+                user_class: data.user_class
             } as Video;
         });
     } catch (e) {

@@ -8,8 +8,30 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "redirects": [],
+    "redirects": [
+      {
+        "source": "/:path*/",
+        "destination": "/:path*",
+        "type": 301
+      }
+    ],
     "rewrites": [
+      {
+        "source": "/login",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/onboarding",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/dashboard/**",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/admin/**",
+        "destination": "/index.html"
+      },
       {
         "source": "**",
         "destination": "/index.html"
@@ -38,10 +60,15 @@
           {
             "key": "Referrer-Policy",
             "value": "strict-origin-when-cross-origin"
-          },
+          }
+        ]
+      },
+      {
+        "source": "/dashboard/**",
+        "headers": [
           {
             "key": "X-Robots-Tag",
-            "value": "index, follow"
+            "value": "noindex, nofollow"
           }
         ]
       },

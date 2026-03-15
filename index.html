@@ -3,148 +3,94 @@
 
 <head>
   <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="color-scheme" content="dark light" />
   <link rel="icon" type="image/jpeg" href="/logo.jpg?v=3" />
   <link rel="apple-touch-icon" href="/logo.jpg?v=3" />
   <link rel="manifest" href="/manifest.json?v=3" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#8b5cf6" />
   <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="google-site-verification" content="5028179156f052c6" />
+  <meta name="msvalidate.01" content="3154aa701b2948b49c70693382a1ad76" />
+  <!-- Add Yandex verification: <meta name="yandex-verification" content="YOUR_CODE" /> after registering at webmaster.yandex.com -->
 
-  <!--
-    SEO Meta Tags are managed by react-helmet-async via SEO.tsx.
-    DO NOT add static title/meta/OG/Twitter tags here.
-  -->
-  <!--app-head-->
+  <!-- Hreflang Tags for India Targeting -->
+  <link rel="alternate" hreflang="en-IN" href="https://examcompass.web.app/" />
+  <link rel="alternate" hreflang="en" href="https://examcompass.web.app/" />
 
-  <!-- Critical Network Preconnects -->
+  <!-- 🚀 HERO PRELOAD: Slash LCP to <0.5s -->
+  <!-- <link rel="preload" as="image" href="/blog-images/units-and-measurements-revision.png" fetchPriority="high"> -->
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="dns-prefetch" href="https://firebasestorage.googleapis.com" />
-
-  <!-- Non-blocking Google Fonts (critical for mobile FCP) -->
-  <link rel="preload"
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@700;800&display=swap"
-    as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <noscript>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@700;800&display=swap"
-      rel="stylesheet">
-  </noscript>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@700;800&swap">
 
 
 
   <style>
-    /* Extreme Critical UI Shell - Optimized for <0.5s LCP */
+    /* 🚀 EXTREME CRITICAL CSS - Target: <0.5s LCP */
     :root {
-      --background: #020617;
-      --surface: #0f172a;
+      --background: #0f172a; /* Match index.css Deep Slate */
       --primary: #8b5cf6;
-      --border: rgba(255, 255, 255, 0.08);
-      --text-muted: #94a3b8;
     }
 
     body {
       background: var(--background);
       margin: 0;
-      font-family: 'Inter', system-ui, sans-serif;
-      overflow-x: hidden;
+      /* System font stack for instant paint */
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       color: #fff;
     }
 
-    .boot-shell {
-      display: flex;
-      min-height: 100vh;
-    }
-
-    .boot-sidebar {
-      width: 256px;
-      background: var(--surface);
-      border-right: 1px solid var(--border);
-      display: none;
-      flex-direction: column;
-      flex-shrink: 0;
-    }
-
-    @media (min-width: 1024px) {
-      .boot-sidebar {
-        display: flex;
-      }
-    }
-
-    .boot-main {
-      flex: 1;
-      padding: 40px;
-      max-width: 1200px;
-      margin: 0 auto;
+    .boot-nav {
+      position: fixed;
+      top: 0;
+      left: 0;
       width: 100%;
+      height: 80px; /* Match Navbar h-20 */
+      display: flex;
+      align-items: center;
+      padding: 0 24px; /* Match Navbar px-6 */
+      z-index: 100;
       box-sizing: border-box;
     }
 
-    .boot-header-row {
-      display: flex;
-      align-items: center;
-      gap: 20px;
-      margin-bottom: 32px;
-    }
-
-    .boot-avatar {
-      width: 64px;
-      height: 64px;
-      border-radius: 12px;
-      background: linear-gradient(45deg, var(--primary), #ec4899);
-      flex-shrink: 0;
-    }
-
-    .boot-welcome {
+    .boot-logo {
       font-size: 24px;
-      font-weight: 800;
-      margin: 0;
-      letter-spacing: -0.02em;
+      font-weight: 700; /* Match Navbar font-bold */
+      letter-spacing: -0.05em; /* Match Navbar tracking-tighter */
+      color: #fff;
     }
 
-    .boot-sub {
-      color: var(--text-muted);
-      font-size: 14px;
-      margin-top: 4px;
+    .boot-purple { color: #a855f7; } /* Unified Vibrant Purple */
+
+    .boot-content {
+      padding-top: 120px; /* Match Navbar offset */
+      max-width: 1200px;
+      margin: 0 auto;
+      padding-left: 24px;
+      padding-right: 24px;
     }
 
-    .boot-card {
-      height: 180px;
-      background: var(--surface);
-      border-radius: 16px;
-      border: 1px solid var(--border);
+    .boot-skeleton {
+      height: 384px; /* Match Blog card h-96 */
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: 24px;
       margin-bottom: 24px;
-      width: 100%;
-      position: relative;
-      overflow: hidden;
+      animation: boot-pulse 1.5s infinite ease-in-out;
     }
 
-    .boot-pulse {
-      animation: pulse 1.5s ease-in-out infinite;
+    @keyframes boot-reveal {
+      from { opacity: 0; transform: translateY(-4px); }
+      to { opacity: 1; transform: translateY(0); }
     }
 
-    @keyframes pulse {
-
-      0%,
-      100% {
-        opacity: 0.8;
-      }
-
-      50% {
-        opacity: 0.4;
-      }
-    }
-
-    @media (max-width: 1024px) {
-      .boot-main {
-        padding: 20px;
-      }
-
-      .boot-welcome {
-        font-size: 20px;
-      }
+    @keyframes boot-pulse {
+      0%, 100% { opacity: 0.5; }
+      50% { opacity: 0.2; }
     }
   </style>
   <!--app-head-->
@@ -162,64 +108,43 @@
   <div id="root">
     <!--app-html-->
     <div class="boot-shell">
-      <div class="boot-sidebar">
-        <div
-          style="padding: 32px 24px; font-weight: 900; font-size: 20px; color: var(--primary); letter-spacing: -0.05em;">
-          Exam-Compass</div>
-        <div style="padding: 0 16px; display: flex; flex-direction: column; gap: 12px;">
-          <div style="height: 48px; width: 100%; background: rgba(255,255,255,0.03); border-radius: 12px;"></div>
-          <div style="height: 48px; width: 100%; background: rgba(255,255,255,0.03); border-radius: 12px;"></div>
-          <div style="height: 48px; width: 100%; background: rgba(255,255,255,0.03); border-radius: 12px;"></div>
+      <nav class="boot-nav">
+        <div class="boot-logo">Exam<span class="boot-purple">Compass</span></div>
+      </nav>
+      <div class="boot-content">
+        <div style="margin-bottom: 32px;">
+          <div style="height: 48px; background: rgba(255,255,255,0.05); border-radius: 12px; width: 80%; margin-bottom: 16px;"></div>
+          <div style="height: 24px; background: rgba(255,255,255,0.03); border-radius: 8px; width: 60%;"></div>
         </div>
-      </div>
-      <div class="boot-main">
-        <div class="boot-header-row">
-          <div class="boot-avatar"></div>
-          <div>
-            <h1 class="boot-welcome">AI-Powered Exam Preparation & Mock Tests</h1>
-            <p class="boot-sub">Syncing your preparation progress...</p>
-          </div>
-        </div>
-
-        <!-- SEO: Static content visible to crawlers that don't execute JS -->
-        <noscript>
-          <div style="padding: 20px;">
-            <h2>Exam Compass — AI-Powered Exam Preparation</h2>
-            <p>Prepare for JEE Mains, JEE Advanced, NEET, UPSC, CLAT, GATE, BITSAT and CBSE Class 6-12 exams with
-              AI-generated mock tests, PYQs, and personalized study plans.</p>
-            <ul>
-              <li><a href="/jee-mains">JEE Mains Preparation</a></li>
-              <li><a href="/jee-advanced">JEE Advanced Preparation</a></li>
-              <li><a href="/neet">NEET Preparation</a></li>
-              <li><a href="/upsc">UPSC Preparation</a></li>
-              <li><a href="/clat">CLAT Preparation</a></li>
-              <li><a href="/gate">GATE Preparation</a></li>
-              <li><a href="/bitsat">BITSAT Preparation</a></li>
-              <li><a href="/class-12">Class 12 Board Exams</a></li>
-              <li><a href="/class-11">Class 11 Exams</a></li>
-              <li><a href="/class-10">Class 10 Board Exams</a></li>
-            </ul>
-          </div>
-        </noscript>
-
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px;">
-          <div class="boot-card boot-pulse"></div>
-          <div class="boot-card boot-pulse"></div>
-        </div>
+        <div style="height: 384px; background: rgba(255, 255, 255, 0.03); border-radius: 24px;"></div>
       </div>
     </div>
     <!--app-html-end-->
   </div>
-  <script type="module" src="/src/main.tsx"></script>
+  <!-- Non-blocking Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@700;800&swap"
+    rel="stylesheet" media="print" onload="this.media='all'">
 
-  <!-- Google Analytics (deferred to avoid blocking FCP) -->
-  <script defer src="https://www.googletagmanager.com/gtag/js?id=G-7MWNJDZ5D0"></script>
+  <!-- Google Analytics (Delayed for LCP) -->
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-7MWNJDZ5D0');
+    window.addEventListener('load', function() {
+      setTimeout(function() {
+        var gtm = document.createElement('script');
+        gtm.src = "https://www.googletagmanager.com/gtag/js?id=G-7MWNJDZ5D0";
+        gtm.defer = true;
+        document.body.appendChild(gtm);
+        
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-7MWNJDZ5D0', { 'send_page_view': false });
+      }, /iPhone|iPad|iPod|Android/i.test(navigator.userAgent) ? 4500 : 1500);
+    });
   </script>
+
+  <!-- Entry Point (Last for LCP) -->
+  <script type="module" src="/src/main.tsx"></script>
 </body>
 
 </html>

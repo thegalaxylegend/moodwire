@@ -1,7 +1,7 @@
 // Topic Strength Tracking Service
 // Tracks user's performance per topic in Firestore
 
-import { db } from '../lib/firebase';
+import { db, auth } from '../lib/firebase';
 import {
     collection,
     query,
@@ -87,7 +87,7 @@ export const updateTopicStrength = async (
     } = {}
 ): Promise<void> => {
     const { difficulty, timeSpent, misconceptionTags, userClass, targetExam, errorType } = params;
-    if (!userId || userId === 'guest' || !topic) return;
+    if (!userId || userId === 'guest' || !auth.currentUser || !topic) return;
 
     const cleanTopic = topic.trim();
     const cleanSubject = subject?.trim() || 'General';
@@ -100,8 +100,22 @@ export const updateTopicStrength = async (
     const docRef = doc(db, 'user_topic_stats', docId);
 
     try {
-        // Get existing stats
-        const snap = await import('firebase/firestore').then(mod => mod.getDoc(docRef));
+        // Local Cache Setup
+        const localCacheKey = `local_topic_stat_${docId}`;
+        const localDataStr = localStorage.getItem(localCacheKey);
+        let existing: TopicStat | null = null;
+        let existsInCloud = true;
+
+        if (localDataStr) {
+            existing = JSON.parse(localDataStr) as TopicStat;
+        } else {
+            const snap = await import('firebase/firestore').then(mod => mod.getDoc(docRef));
+            if (snap.exists()) {
+                existing = snap.data() as TopicStat;
+            } else {
+                existsInCloud = false;
+            }
+        }
 
         let correctCount = isCorrect ? 1 : 0;
         let totalAttempts = 1;
@@ -118,8 +132,7 @@ export const updateTopicStrength = async (
             totalErrors: isCorrect ? 0 : 1
         };
 
-        if (snap.exists()) {
-            const existing = snap.data() as TopicStat;
+        if (existing) {
             correctCount = (existing.correct_count || 0) + (isCorrect ? 1 : 0);
             totalAttempts = (existing.total_attempts || 0) + 1;
 
@@ -197,7 +210,25 @@ export const updateTopicStrength = async (
             last_error_type: errorType
         };
 
-        await setDoc(docRef, statData, { merge: true });
+        const isStatusUpgradeToStrong = status === 'strong' && existing?.status !== 'strong';
+        const isMultipleOf4 = totalAttempts % 4 === 0;
+        const forceSync = !existsInCloud || !existing || isStatusUpgradeToStrong || isMultipleOf4;
+
+        // Save to Local Cache ALWAYS
+        localStorage.setItem(localCacheKey, JSON.stringify({id: docId, ...statData}));
+
+        if (forceSync) {
+            await setDoc(docRef, statData, { merge: true });
+            console.log(`[TopicStrength] ☁️ Synced to cloud for ${cleanTopic} (Attempt ${totalAttempts}, Status ${status})`);
+        } else {
+            console.log(`[TopicStrength] 💾 Saved locally for ${cleanTopic} (Attempt ${totalAttempts}, Status ${status})`);
+        }
+
+        // Invalidate cache if topic mastered
+        if (isStatusUpgradeToStrong || status === 'strong') {
+            const { invalidateTopicCache } = await import('./questionEngine');
+            invalidateTopicCache(userId, cleanExam, cleanTopic);
+        }
 
     } catch (e) {
         console.error('Failed to update topic strength:', e);
@@ -248,7 +279,7 @@ export const getWeakTopics = async (
     userClass?: string,
     targetExam?: string
 ): Promise<TopicStat[]> => {
-    if (!userId || userId === 'guest') return [];
+    if (!userId || userId === 'guest' || !auth.currentUser) return [];
 
     try {
         let q = query(
@@ -257,16 +288,42 @@ export const getWeakTopics = async (
         );
 
         // Add optional filters if provided
-        if (userClass) {
-            q = query(q, where('user_class', '==', userClass));
-        }
-
         if (targetExam) {
             q = query(q, where('target_exam', '==', targetExam));
         }
 
+        const isCompetitive = ['JEE', 'NEET'].includes(targetExam || '');
+        if (userClass && !isCompetitive) {
+            q = query(q, where('user_class', '==', userClass));
+        } else if (isCompetitive) {
+            // JEE/NEET: Scope to both 11 and 12
+            q = query(q, where('user_class', 'in', ['Class 11th', 'Class 12th']));
+        }
+
         const snap = await getDocs(q);
-        const allStats = snap.docs.map(d => ({ id: d.id, ...d.data() } as TopicStat));
+        const cloudStats = snap.docs.map(d => ({ id: d.id, ...d.data() } as TopicStat));
+
+        // Merge Local Stats
+        const localStats: TopicStat[] = [];
+        for (let i = 0; i < localStorage.length; i++) {
+            const key = localStorage.key(i);
+            if (key && key.startsWith(`local_topic_stat_${userId}`)) {
+                try {
+                    const parsed = JSON.parse(localStorage.getItem(key)!) as TopicStat;
+                    const isCompetitive = ['JEE', 'NEET'].includes(targetExam || '');
+                    const isCompMatch = isCompetitive ? ['Class 11th', 'Class 12th'].includes(parsed.user_class || '') : parsed.user_class === userClass;
+                    if ((!userClass || isCompMatch) &&
+                        (!targetExam || parsed.target_exam === targetExam)) {
+                        localStats.push(parsed);
+                    }
+                } catch (e) {}
+            }
+        }
+
+        const statMap = new Map<string, TopicStat>();
+        cloudStats.forEach(s => statMap.set(s.topic, s));
+        localStats.forEach(s => statMap.set(s.topic, s));
+        const allStats = Array.from(statMap.values());
 
         // Client-side filtering and sorting by weakness_score (descending)
         return allStats
@@ -288,7 +345,7 @@ export const getStrongTopics = async (
     userClass?: string,
     targetExam?: string
 ): Promise<TopicStat[]> => {
-    if (!userId || userId === 'guest') return [];
+    if (!userId || userId === 'guest' || !auth.currentUser) return [];
 
     try {
         let q = query(
@@ -297,16 +354,40 @@ export const getStrongTopics = async (
         );
 
         // Add optional filters if provided
-        if (userClass) {
-            q = query(q, where('user_class', '==', userClass));
-        }
-
         if (targetExam) {
             q = query(q, where('target_exam', '==', targetExam));
         }
 
+        const isCompetitive = ['JEE', 'NEET'].includes(targetExam || '');
+        if (userClass && !isCompetitive) {
+            q = query(q, where('user_class', '==', userClass));
+        } else if (isCompetitive) {
+            // JEE/NEET: Scope to both 11 and 12
+            q = query(q, where('user_class', 'in', ['Class 11th', 'Class 12th']));
+        }
+
         const snap = await getDocs(q);
-        const allStats = snap.docs.map(d => ({ id: d.id, ...d.data() } as TopicStat));
+        const cloudStats = snap.docs.map(d => ({ id: d.id, ...d.data() } as TopicStat));
+
+        // Merge Local Stats
+        const localStats: TopicStat[] = [];
+        for (let i = 0; i < localStorage.length; i++) {
+            const key = localStorage.key(i);
+            if (key && key.startsWith(`local_topic_stat_${userId}`)) {
+                try {
+                    const parsed = JSON.parse(localStorage.getItem(key)!) as TopicStat;
+                    if ((!userClass || parsed.user_class === userClass) &&
+                        (!targetExam || parsed.target_exam === targetExam)) {
+                        localStats.push(parsed);
+                    }
+                } catch (e) {}
+            }
+        }
+
+        const statMap = new Map<string, TopicStat>();
+        cloudStats.forEach(s => statMap.set(s.topic, s));
+        localStats.forEach(s => statMap.set(s.topic, s));
+        const allStats = Array.from(statMap.values());
 
         // Client-side filtering and sorting
         return allStats
@@ -322,7 +403,7 @@ export const getStrongTopics = async (
 
 // Get all topic stats for a user
 export const getAllTopicStats = async (userId: string): Promise<TopicStat[]> => {
-    if (!userId || userId === 'guest') return [];
+    if (!userId || userId === 'guest' || !auth.currentUser) return [];
 
     try {
         const q = query(
@@ -332,7 +413,26 @@ export const getAllTopicStats = async (userId: string): Promise<TopicStat[]> => 
         );
 
         const snap = await getDocs(q);
-        return snap.docs.map(d => ({ id: d.id, ...d.data() } as TopicStat));
+        const cloudStats = snap.docs.map(d => ({ id: d.id, ...d.data() } as TopicStat));
+
+        // Merge Local Stats
+        const localStats: TopicStat[] = [];
+        for (let i = 0; i < localStorage.length; i++) {
+            const key = localStorage.key(i);
+            if (key && key.startsWith(`local_topic_stat_${userId}`)) {
+                try {
+                    const parsed = JSON.parse(localStorage.getItem(key)!) as TopicStat;
+                    localStats.push(parsed);
+                } catch (e) {}
+            }
+        }
+
+        const statMap = new Map<string, TopicStat>();
+        cloudStats.forEach(s => statMap.set(s.topic, s));
+        localStats.forEach(s => statMap.set(s.topic, s));
+        const allStats = Array.from(statMap.values());
+
+        return allStats.sort((a, b) => new Date(b.last_attempt).getTime() - new Date(a.last_attempt).getTime());
 
     } catch (e) {
         console.error('Failed to get topic stats:', e);

@@ -35,6 +35,24 @@ export const Login = () => {
         }
     }, [isAuthenticated, navigate, user, guestLoginAttempt, location]);
 
+    const persistIntentBeforeAuth = () => {
+        if (isSignUp && selectedClass) {
+            try {
+                const existing = localStorage.getItem('exam_compass_intent');
+                let intent = existing ? JSON.parse(existing) : { savedAt: Date.now() };
+                
+                // Only overwrite if it matches reality
+                intent.class = selectedClass;
+                intent.savedAt = Date.now();
+                
+                localStorage.setItem('exam_compass_intent', JSON.stringify(intent));
+                console.log("📝 [Auth] Persisted signup intent (Class):", selectedClass);
+            } catch (e) {
+                console.error("Failed to persist intent:", e);
+            }
+        }
+    };
+
     if (authLoading) {
         return <div className="min-h-screen flex items-center justify-center bg-background"><Loader2 className="animate-spin text-primary" size={32} /></div>;
     }
@@ -43,6 +61,7 @@ export const Login = () => {
         setLoading(true);
         setError(null);
         try {
+            persistIntentBeforeAuth();
             await setPersistence(auth, browserLocalPersistence);
             await signInWithPopup(auth, googleProvider);
             // DO NOT navigate here. The useUserStore initialize() 
@@ -64,6 +83,7 @@ export const Login = () => {
             await setPersistence(auth, browserLocalPersistence);
 
             if (isSignUp) {
+                persistIntentBeforeAuth();
                 await createUserWithEmailAndPassword(auth, formData.email, formData.password);
                 // Profile will be created by userStore.initialize()
                 setIsSignUp(false);
@@ -97,6 +117,7 @@ export const Login = () => {
                 title="Login"
                 description="Login to Exam Compass to access AI-powered mock tests and analytics."
                 canonical="https://examcompass.web.app/login"
+                noindex={true}
             />
             {/* Background Elements */}
             <div className="absolute top-0 left-0 w-full h-full -z-10 bg-background" />

@@ -1,5 +1,7 @@
 import { getAnalytics, logEvent as firebaseLogEvent, setUserProperties as firebaseSetUserProperties } from "firebase/analytics";
 import { app } from "./firebase";
+import { datadogRum } from '@datadog/browser-rum';
+import { datadogLogs } from '@datadog/browser-logs';
 
 // Initialize Firebase Analytics
 const firebaseAnalytics = typeof window !== 'undefined' ? getAnalytics(app) : null;
@@ -9,10 +11,44 @@ const firebaseAnalytics = typeof window !== 'undefined' ? getAnalytics(app) : nu
 export const initAnalytics = () => {
     if (typeof window === 'undefined') return;
 
+    // Google Analytics Check
     if (!(window as any).gtag) {
         console.warn("[Analytics] gtag not found on window object! Verify index.html");
     } else {
         console.log("[Analytics] Ready via index.html script");
+    }
+
+    // Datadog RUM Initialization
+    const ddAppId = import.meta.env.VITE_DATADOG_APPLICATION_ID;
+    const ddClientToken = import.meta.env.VITE_DATADOG_CLIENT_TOKEN;
+
+    if (ddAppId && ddClientToken && ddAppId !== 'your-datadog-app-id' && !(datadogRum as any).getInitConfiguration?.()) {
+        datadogRum.init({
+            applicationId: ddAppId,
+            clientToken: ddClientToken,
+            site: import.meta.env.VITE_DATADOG_SITE || 'datadoghq.com',
+            service: import.meta.env.VITE_DATADOG_SERVICE || 'exam-compass',
+            env: import.meta.env.VITE_DATADOG_ENV || 'development',
+            sessionSampleRate: 100,
+            sessionReplaySampleRate: 20,
+            trackUserInteractions: true,
+            trackResources: true,
+            trackLongTasks: true,
+            defaultPrivacyLevel: 'mask-user-input',
+        });
+        
+        if (!(datadogLogs as any).getInitConfiguration?.()) {
+            datadogLogs.init({
+                clientToken: ddClientToken,
+                site: import.meta.env.VITE_DATADOG_SITE || 'datadoghq.com',
+                forwardErrorsToLogs: true,
+                sessionSampleRate: 100,
+            });
+        }
+
+        console.log("[Analytics] Datadog RUM & Logs initialized");
+    } else {
+        console.log("[Analytics] Datadog credentials missing. Skipping initialization.");
     }
 };
 
@@ -56,6 +92,13 @@ export const logEvent = (name: string, params?: Record<string, any>) => {
     // Firebase
     if (firebaseAnalytics) {
         firebaseLogEvent(firebaseAnalytics, name, params);
+    }
+
+    // Datadog
+    try {
+        datadogRum.addAction(name, params);
+    } catch (e) {
+        // Datadog might not be initialized
     }
 };
 
@@ -126,6 +169,8 @@ export const trackLectureView = (topic: string, duration_seconds: number) => {
  * Error Tracking (Glitch Detection)
  */
 export const trackGlitch = (error: string | Error, component?: string) => {
+    if (typeof window === 'undefined') return;
+
     const errorMsg = typeof error === 'string' ? error : error.message;
     let stack: string | undefined;
     if (error instanceof Error) {
@@ -143,9 +188,20 @@ export const trackGlitch = (error: string | Error, component?: string) => {
         description: errorMsg,
         fatal: true,
         component_name: component,
-        url: window.location.href,
+        url: typeof window !== 'undefined' ? window.location.href : '',
         timestamp: new Date().toISOString()
     });
+
+    // Datadog Logs
+    try {
+        datadogLogs.logger.error(errorMsg, {
+            component_name: component,
+            stack: stack,
+            url: typeof window !== 'undefined' ? window.location.href : ''
+        });
+    } catch (e) {
+        // Datadog might not be initialized
+    }
 
     console.error(`[Analytics] 🆘 Error caught in ${component || 'unknown'}:`, errorMsg);
 };

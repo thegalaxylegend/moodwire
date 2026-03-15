@@ -1,6 +1,6 @@
-
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig(() => {
   const isSSR = process.argv.includes('--ssr') || process.argv.includes('ssr');
@@ -8,11 +8,87 @@ export default defineConfig(() => {
 
   return {
     plugins: [
-      react()
+      react(),
+      VitePWA({
+        registerType: 'autoUpdate',
+        includeAssets: ['favicon.ico', 'logo.png', 'logo.jpg', 'robots.txt', 'sitemap.xml'],
+        manifest: {
+          name: 'Exam Compass',
+          short_name: 'ExamCompass',
+          description: 'AI-Powered Exam Preparation Platform',
+          theme_color: '#8b5cf6',
+          background_color: '#0a0a0f',
+          display: 'standalone',
+          orientation: 'portrait',
+          icons: [
+            {
+              src: 'logo.png',
+              sizes: '192x192',
+              type: 'image/png',
+              purpose: 'any maskable'
+            },
+            {
+              src: 'logo.png',
+              sizes: '512x512',
+              type: 'image/png',
+              purpose: 'any maskable'
+            }
+          ]
+        },
+        workbox: {
+          globPatterns: ['**/*.{js,css,html,ico,png,svg,jpg,jpeg,json}'],
+          maximumFileSizeToCacheInBytes: 15 * 1024 * 1024, // 15MB for large SEO manifests
+          runtimeCaching: [
+            {
+              urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
+              handler: 'CacheFirst',
+              options: {
+                cacheName: 'google-fonts-cache',
+                expiration: {
+                  maxEntries: 10,
+                  maxAgeSeconds: 60 * 60 * 24 * 365 // <== 365 days
+                },
+                cacheableResponse: {
+                  statuses: [0, 200]
+                }
+              }
+            },
+            {
+              urlPattern: /^https:\/\/fonts\.gstatic\.com\/.*/i,
+              handler: 'CacheFirst',
+              options: {
+                cacheName: 'gstatic-fonts-cache',
+                expiration: {
+                  maxEntries: 10,
+                  maxAgeSeconds: 60 * 60 * 24 * 365 // <== 365 days
+                },
+                cacheableResponse: {
+                  statuses: [0, 200]
+                }
+              }
+            },
+            {
+              urlPattern: /^https:\/\/firebasestorage\.googleapis\.com\/.*/i,
+              handler: 'StaleWhileRevalidate',
+              options: {
+                cacheName: 'firebase-storage-cache',
+                expiration: {
+                  maxEntries: 50,
+                  maxAgeSeconds: 60 * 60 * 24 * 30 // 30 Days
+                }
+              }
+            }
+          ]
+        },
+        devOptions: {
+          enabled: true,
+          type: 'module'
+        }
+      })
     ],
     resolve: {
       alias: {
-        'virtual:pwa-register/react': '/src/mocks/pwa-mock.ts'
+        // Mock removed to allow real PWA registration
       }
     },
     build: {
@@ -46,8 +122,7 @@ export default defineConfig(() => {
       }
     },
     ssr: {
-      noExternal: ['react-helmet-async', 'framer-motion', 'lucide-react', 'react-router-dom', 'react-router']
+      noExternal: ['react-helmet-async', 'framer-motion', 'lucide-react', 'react-router-dom', 'react-router', 'vite-plugin-pwa']
     }
   };
 })
-

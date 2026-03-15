@@ -138,30 +138,19 @@ const VideoListItem = ({
     video,
     idx,
     currentVideo,
-    user,
+    isSaved,
     onSelect
 }: {
     video: Video,
     idx: number,
     currentVideo: Video,
-    playlist: Playlist,
-    user: any,
+    isSaved: boolean,
     onSelect: (v: Video) => void
 }) => {
+    const { user } = useUserStore();
     const isActive = currentVideo.id === video.id;
-    const isCompleted = isVideoFinished(video.id);
-    const [videoIsSaved, setVideoIsSaved] = useState(false);
-
-    useEffect(() => {
-        const checkItem = async () => {
-            if (user?.id) {
-                const cloud = await getSavedLecturesFromCloud(user.id);
-                setVideoIsSaved(cloud.some(v => v.id === video.id));
-            }
-        };
-        checkItem();
-    }, [user?.id, video.id]);
-
+    const isCompleted = user ? isVideoFinished(video.id, user.id, user.userClass, user.targetExam) : false;
+    
     return (
         <div
             onClick={() => onSelect(video)}
@@ -182,7 +171,7 @@ const VideoListItem = ({
 
                 <div className="flex items-center gap-1">
                     {/* Saved indicator */}
-                    {videoIsSaved && (
+                    {isSaved && (
                         <BookmarkCheck size={12} className="text-green-500" />
                     )}
 
@@ -251,6 +240,7 @@ export const VideoLecturePage = () => {
     const [isPlaying, setIsPlaying] = useState(true);
     const [isMuted, setIsMuted] = useState(false);
     const [isSaved, setIsSaved] = useState(false);
+    const [savedVideos, setSavedVideos] = useState<Video[]>([]);
     const [aiMessage, setAiMessage] = useState('');
     const [chatMessages, setChatMessages] = useState<ChatMessage[]>([]);
     const [isAiLoading, setIsAiLoading] = useState(false);
@@ -269,7 +259,11 @@ export const VideoLecturePage = () => {
         window.speechSynthesis.cancel();
 
         // Strip emojis
-        const cleanText = text.replace(/([\u2700-\u27BF]|[\uE000-\uF8FF]|\uD83C[\uDC00-\uDFFF]|\uD83D[\uDC00-\uDFFF]|[\u2011-\u26FF]|\uD83E[\uDD10-\uDDFF])/g, '');
+        let cleanText = text.replace(/([\u2700-\u27BF]|[\uE000-\uF8FF]|\uD83C[\uDC00-\uDFFF]|\uD83D[\uDC00-\uDFFF]|[\u2011-\u26FF]|\uD83E[\uDD10-\uDDFF])/g, '');
+        // Strip LaTeX/math notation: $$...$$ and $...$
+        cleanText = cleanText.replace(/\$\$[\s\S]*?\$\$/g, '').replace(/\$[^$]*?\$/g, '').replace(/\\(text|frac|sqrt|left|right|times|cdot|geq|leq|neq|approx|infty|sum|int|prod|lim|rightarrow|leftarrow|Rightarrow|AA)\b\{?[^}]*\}?/g, '');
+        // Strip markdown formatting: bold (**), italic (*), headers (#), links, code blocks
+        cleanText = cleanText.replace(/\*{1,3}(.*?)\*{1,3}/g, '$1').replace(/_{1,3}(.*?)_{1,3}/g, '$1').replace(/`{1,3}[^`]*`{1,3}/g, '').replace(/^#{1,6}\s+/gm, '').replace(/\[([^\]]*)\]\([^)]*\)/g, '$1').replace(/^[-*+]\s+/gm, '').replace(/^\d+\.\s+/gm, '').replace(/^>\s+/gm, '').replace(/\|/g, '').replace(/---+/g, '').trim();
 
         const utterance = new SpeechSynthesisUtterance(cleanText);
         const voices = window.speechSynthesis.getVoices();
@@ -298,6 +292,16 @@ export const VideoLecturePage = () => {
 
         utterance.onstart = () => setIsSpeaking(true);
         utterance.onend = () => setIsSpeaking(false);
+        utterance.onerror = (e: any) => {
+            // "interrupted" occurs when we cancel speech (e.g. user types a new message)
+            // "canceled" occurs when speech is stopped manually
+            if (e.error === 'interrupted' || e.error === 'canceled' || e.error === 'no-speech') {
+                setIsSpeaking(false);
+                return;
+            }
+            console.warn("SpeechSynthesis error:", e.error, e);
+            setIsSpeaking(false);
+        };
         window.speechSynthesis.speak(utterance);
     };
 
@@ -335,7 +339,7 @@ export const VideoLecturePage = () => {
             setLoading(true);
             try {
                 // Pass the user's target exam to get relevant videos
-                const data = await getVideoByTopicIdCached(topicId || 'physics-kinematics', user?.targetExam || 'JEE');
+                const data = await getVideoByTopicIdCached(topicId || 'physics-kinematics', user?.targetExam || 'JEE', user?.id || 'anon');
                 setPlaylist(data);
 
                 if (data && data.videos.length > 0) {
@@ -384,9 +388,9 @@ export const VideoLecturePage = () => {
                 const data = typeof event.data === 'string' ? JSON.parse(event.data) : event.data;
 
                 // YT.PlayerState.ENDED is 0
-                if (data.event === 'onStateChange' && data.info === 0 && currentVideo) {
+                if (data.event === 'onStateChange' && data.info === 0 && currentVideo && user) {
                     console.log("[VideoLecture] Video ended naturally. Marking as finished.");
-                    markVideoAsFinished(currentVideo.id);
+                    markVideoAsFinished(currentVideo.id, user.id, user.userClass, user.targetExam);
                 }
             } catch (e) {
                 // Ignore non-json messages
@@ -401,7 +405,8 @@ export const VideoLecturePage = () => {
         const checkSaved = async () => {
             if (currentVideo && user?.id) {
                 // First check cloud
-                const cloudSaved = await getSavedLecturesFromCloud(user.id);
+                const cloudSaved = await getSavedLecturesFromCloud(user.id, user.userClass, user.targetExam);
+                setSavedVideos(cloudSaved);
                 const exists = cloudSaved.some(v => v.id === currentVideo.id);
                 setIsSaved(exists);
 
@@ -470,10 +475,10 @@ export const VideoLecturePage = () => {
 
         try {
             if (isSaved) {
-                await removeLectureFromCloud(user.id, currentVideo.id);
+                await removeLectureFromCloud(user.id, currentVideo.id, user.userClass, user.targetExam);
                 setIsSaved(false);
             } else {
-                await saveLectureToCloud(user.id, currentVideo);
+                await saveLectureToCloud(user.id, currentVideo, user.userClass, user.targetExam);
                 setIsSaved(true);
             }
         } catch (e) {
@@ -652,19 +657,19 @@ export const VideoLecturePage = () => {
                                 {/* Mark Finished Button */}
                                 <button
                                     onClick={() => {
-                                        if (currentVideo) {
-                                            markVideoAsFinished(currentVideo.id);
+                                        if (currentVideo && user) {
+                                            markVideoAsFinished(currentVideo.id, user.id, user.userClass, user.targetExam);
                                             // Force re-render to show updated status
                                             setPlaylist({ ...playlist! });
                                         }
                                     }}
-                                    className={`px-4 py-2 rounded-xl text-sm font-medium transition-all flex items-center gap-2 border ${currentVideo && isVideoFinished(currentVideo.id)
+                                    className={`px-4 py-2 rounded-xl text-sm font-medium transition-all flex items-center gap-2 border ${currentVideo && user && isVideoFinished(currentVideo.id, user.id, user.userClass, user.targetExam)
                                         ? 'bg-green-600/20 text-green-400 border-green-500/30'
                                         : 'bg-primary/20 text-primary hover:bg-primary/40 border-primary/20'
                                         }`}
                                 >
                                     <Check size={14} />
-                                    {currentVideo && isVideoFinished(currentVideo.id) ? 'Finished' : 'Mark Finished'}
+                                    {currentVideo && user && isVideoFinished(currentVideo.id, user.id, user.userClass, user.targetExam) ? 'Finished' : 'Mark Finished'}
                                 </button>
 
                                 {/* Save Button */}
@@ -752,8 +757,7 @@ export const VideoLecturePage = () => {
                                         video={video}
                                         idx={idx}
                                         currentVideo={currentVideo}
-                                        playlist={playlist}
-                                        user={user}
+                                        isSaved={savedVideos.some(sv => sv.id === video.id)}
                                         onSelect={(v) => { setCurrentVideo(v); setIsPlaying(true); }}
                                     />
                                 ))}
@@ -947,11 +951,10 @@ export const VideoLecturePage = () => {
                                     setTimeout(() => {
                                         chatContainerRef.current?.scrollTo({ top: chatContainerRef.current.scrollHeight, behavior: 'smooth' });
                                     }, 100);
-
                                     try {
-                                        const context = `You are "Exa". Response mode: INSTANT. Personality: Efficient mentor. Subject: ${currentVideo?.title}. Keep it ultra-short.`;
-                                        const response = await askAI(context, userMsg, 'groq', chatMessages);
-                                        const aiResponse = response || "Thinking failed.";
+                                        const context = `You are "Exa". Response mode: INSTANT. Personality: Efficient mentor. Subject: ${currentVideo?.title}. Provide clear, helpful answers.`;
+                                        const response = await askAI(context, userMsg, 'groq', chatMessages as any);
+                                        const aiResponse = typeof response === 'string' ? response : (response as any).choices?.[0]?.message?.content || "Thinking failed.";
                                         setChatMessages(prev => [...prev, { role: 'assistant', content: aiResponse }]);
                                     } catch (error) {
                                         setChatMessages(prev => [...prev, { role: 'assistant', content: "Sorry, I had trouble answering. Please try again." }]);

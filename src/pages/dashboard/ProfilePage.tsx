@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Save, LogOut, Loader2, Award, BookOpen, TrendingUp, Check } from 'lucide-react';
+import { Save, LogOut, Loader2, Award, BookOpen, TrendingUp, Check, AlertCircle } from 'lucide-react';
 import { useUserStore } from '../../store/userStore';
 import { CustomSelect } from '../../components/CustomSelect';
 import { RankBadge } from '../../components/gamification/RankBadge';
@@ -107,6 +107,28 @@ export const ProfilePage = () => {
         <div className="animate-fade-in space-y-6">
             <h1 className="text-2xl font-bold text-text-main">My Profile</h1>
 
+            {user?.isGuest && (
+                <div className="bg-gradient-to-r from-amber-500/10 to-orange-600/10 border border-amber-500/20 p-6 rounded-3xl flex flex-col md:flex-row items-center justify-between gap-6 relative overflow-hidden">
+                    <div className="absolute top-0 left-0 w-1 h-full bg-amber-500"></div>
+                    <div className="relative z-10 w-full md:w-auto">
+                        <h2 className="text-xl font-bold text-amber-500 mb-1 flex items-center gap-2">
+                            <AlertCircle size={20} /> Guest Account Warning
+                        </h2>
+                        <p className="text-sm text-text-muted">
+                            Your <strong className="text-amber-400">{user?.xp || 0} XP</strong> and <strong className="text-amber-400">{user?.streak || 0}-day streak</strong> are only saved locally. Create an account to permanently backup your progress and access the Global Leaderboard.
+                        </p>
+                    </div>
+                    <button
+                        onClick={async () => {
+                            await logout();
+                        }}
+                        className="relative z-10 w-full md:w-auto whitespace-nowrap px-8 py-3 bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-400 hover:to-orange-500 text-black font-black rounded-xl transition-all shadow-[0_0_15px_rgba(245,158,11,0.2)] hover:shadow-[0_0_20px_rgba(245,158,11,0.4)] hover:-translate-y-0.5"
+                    >
+                        Save My Progress
+                    </button>
+                </div>
+            )}
+
             <div className="bg-surface border border-border rounded-3xl w-full shadow-lg flex flex-col md:flex-row overflow-visible min-h-[500px]">
 
                 {/* LEFT PANEL: Identity (Gradient) - ADDED ROUNDING TO PREVENT SPILL */}
@@ -125,7 +147,12 @@ export const ProfilePage = () => {
 
                         <div className="w-32 h-32 rounded-full border-4 border-surface bg-surface shadow-xl overflow-hidden flex items-center justify-center relative z-10">
                             {user?.avatarUrl ? (
-                                <img src={user.avatarUrl} alt="Avatar" className="w-full h-full object-cover" />
+                                <img 
+                                    src={user.avatarUrl} 
+                                    alt="Avatar" 
+                                    className="w-full h-full object-cover" 
+                                    referrerPolicy="no-referrer"
+                                />
                             ) : (
                                 <div className="w-full h-full bg-gradient-to-br from-primary to-accent flex items-center justify-center text-4xl font-bold text-white">
                                     {user?.name?.[0] || 'U'}

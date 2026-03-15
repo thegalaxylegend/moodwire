@@ -33,7 +33,19 @@ export const AuthGate = ({ children, fallback, mode = 'modal' }: AuthGateProps) 
     }
 
     if (fallback) {
-        return <>{fallback}</>;
+        return (
+            <div className="w-full flex flex-col items-center justify-center relative">
+                {fallback}
+                <div className="w-full flex justify-center mt-6 relative z-10 px-4">
+                    <button
+                        onClick={() => navigate('/login', { state: { from: location } })}
+                        className="w-full max-w-sm py-4 rounded-xl bg-gradient-to-r from-primary to-accent text-white font-black shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/40 hover:-translate-y-1 transition-all outline-none border border-white/20 uppercase tracking-widest text-sm"
+                    >
+                        Sign In / Create Account
+                    </button>
+                </div>
+            </div>
+        );
     }
 
     return (

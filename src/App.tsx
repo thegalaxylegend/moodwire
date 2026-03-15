@@ -3,19 +3,22 @@ import { Suspense, lazy, useEffect, useState, useRef } from 'react';
 import { useUserStore } from './store/userStore';
 import { RouteTracker } from './components/RouteTracker';
 import { AutoSchema } from './components/seo/AutoSchema';
-import { AppShellSkeleton } from './components/skeletons/AppShellSkeleton';
+import { GlobalLoading } from './components/skeletons/GlobalLoading';
+import { BlogSkeleton } from './components/skeletons/BlogSkeleton';
+import { DashboardSkeleton } from './components/skeletons/DashboardSkeleton';
 import { setUserProperties, trackWebVitals, initAnalytics } from './lib/analytics';
 
-// Layouts - Keep synchronous for immediate shell paint
-import { ProtectedLayout } from './layouts/ProtectedLayout';
-import { DashboardLayout } from './layouts/DashboardLayout';
-import { AdminLayout } from './layouts/AdminLayout';
+// Layouts - Lazy for extreme mobile performance
+const ProtectedLayout = lazy(() => import('./layouts/ProtectedLayout').then(module => ({ default: module.ProtectedLayout })));
+const DashboardLayout = lazy(() => import('./layouts/DashboardLayout').then(module => ({ default: module.DashboardLayout })));
+const AdminLayout = lazy(() => import('./layouts/AdminLayout').then(module => ({ default: module.AdminLayout })));
 
-// Public Pages - Keep synchronous for SEO & SSG rendering
+// Public Pages - Synchronous for SSG Pre-rendering
 import { LandingPage } from './pages/LandingPage';
 import { ExamLanding } from './pages/public/ExamLanding';
 import { SubjectPage } from './pages/public/SubjectPage';
 import { TopicPage } from './pages/public/TopicPage';
+import { PyqCollectionPage } from './pages/public/PyqCollectionPage';
 import { QuestionPage } from './pages/public/QuestionPage';
 import { BlogIndex } from './pages/blog/BlogIndex';
 import { BlogPostPage } from './pages/blog/BlogPostPage';
@@ -23,6 +26,7 @@ import { PrivacyPolicy } from './pages/public/PrivacyPolicy';
 import { TermsOfService } from './pages/public/TermsOfService';
 import { AboutPage } from './pages/public/AboutPage';
 import { ContactPage } from './pages/public/ContactPage';
+import { NotFoundPage } from './pages/public/NotFoundPage';
 import { CookieConsent } from './components/CookieConsent';
 
 // Auth - Lazy
@@ -62,21 +66,44 @@ const PWAInstall = lazy(() => import('./components/PWAInstall').then(module => (
 // trackWebVitals and setUserProperties are now imported from src/lib/analytics.ts
 const isServer = typeof window === 'undefined';
 
+const DelayedGlobalComponents = () => {
+  const [show, setShow] = useState(false);
+  
+  useEffect(() => {
+    // Defer non-critical UI to prioritize LCP
+    const delay = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent) ? 1500 : 500;
+    const timer = setTimeout(() => setShow(true), delay);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (!show || isServer) return null;
+
+  return (
+    <>
+      <FloatingUI />
+      <PWAInstall />
+      <CookieConsent />
+    </>
+  );
+};
+
 const FloatingUI = () => {
   const [mounted, setMounted] = useState(false);
   const location = useLocation();
   const { user } = useUserStore();
 
   useEffect(() => {
-    // Delay chatbot loading to prioritize LCP/FCP
+    // Load chatbot with a slight delay
     const loadChatbot = () => {
-      // Use requestIdleCallback to ensure no blocking during paint
-      (window.requestIdleCallback || ((cb) => setTimeout(cb, 200)))(() => {
-        setTimeout(() => setMounted(true), 1500); // Final grace period
-      });
+      if (window.requestIdleCallback) {
+        window.requestIdleCallback(() => setMounted(true));
+      } else {
+        setTimeout(() => setMounted(true), 200);
+      }
     };
 
-    const timer = setTimeout(loadChatbot, 2000);
+    const delay = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent) ? 1500 : 500;
+    const timer = setTimeout(loadChatbot, delay);
     return () => clearTimeout(timer);
   }, []);
 
@@ -125,20 +152,25 @@ function App() {
       const searchParams = new URLSearchParams(window.location.search);
       const intentClass = searchParams.get('class');
       const intentExam = searchParams.get('exam');
-      if (intentClass || intentExam) {
-        const intent = {
-          class: intentClass,
-          exam: intentExam,
-          timestamp: Date.now()
-        };
-        sessionStorage.setItem('exam_compass_intent', JSON.stringify(intent));
-      }
+        if (intentClass || intentExam) {
+          const intent = {
+            class: intentClass,
+            exam: intentExam,
+            savedAt: Date.now()
+          };
+          localStorage.setItem('exam_compass_intent', JSON.stringify(intent));
+          console.log("📝 [App] Captured registration intent (localStorage):", intent);
+        }
 
       // Capture referral code from URL
       const refCode = searchParams.get('ref');
       if (refCode) {
-        sessionStorage.setItem('referral_code', refCode);
-        console.log("🎁 [Referral] Stored referral code:", refCode);
+        const referral = {
+            code: refCode,
+            savedAt: Date.now()
+        };
+        localStorage.setItem('referral_code', JSON.stringify(referral));
+        console.log("🎁 [Referral] Stored referral code (localStorage):", refCode);
       }
     }
   }, []);
@@ -177,64 +209,66 @@ function App() {
       </a>
       <RouteTracker />
       <AutoSchema />
-      <Suspense fallback={<AppShellSkeleton />}>
-        <Routes>
-          <Route path="/" element={<LandingPage />} />
-          <Route path="/login" element={<Login />} />
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/login" element={<Suspense fallback={<GlobalLoading />}><Login /></Suspense>} />
 
-          {/* SEO Public Routes - Synchronous for SSG Pre-rendering */}
-          <Route path="/blog" element={<BlogIndex />} />
-          <Route path="/blog/:slug" element={<BlogPostPage />} />
-          <Route path="/privacy" element={<PrivacyPolicy />} />
-          <Route path="/terms" element={<TermsOfService />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="/:exam" element={<ExamLanding />} />
-          <Route path="/:exam/:subject" element={<SubjectPage />} />
-          <Route path="/:exam/:subject/:topic" element={<TopicPage />} />
-          <Route path="/:exam/q/:slug" element={<QuestionPage />} />
+        {/* SEO Public Routes - Synchronous for SSG Pre-rendering */}
+        <Route path="/blog" element={<Suspense fallback={<BlogSkeleton />}><BlogIndex /></Suspense>} />
+        <Route path="/blog/:slug" element={<Suspense fallback={<BlogSkeleton />}><BlogPostPage /></Suspense>} />
+        <Route path="/privacy" element={<Suspense fallback={<BlogSkeleton />}><PrivacyPolicy /></Suspense>} />
+        <Route path="/terms" element={<Suspense fallback={<BlogSkeleton />}><TermsOfService /></Suspense>} />
+        <Route path="/about" element={<Suspense fallback={<BlogSkeleton />}><AboutPage /></Suspense>} />
+        <Route path="/contact" element={<Suspense fallback={<BlogSkeleton />}><ContactPage /></Suspense>} />
+        <Route path="/:exam" element={<Suspense fallback={<BlogSkeleton />}><ExamLanding /></Suspense>} />
+        <Route path="/:exam/:subject" element={<Suspense fallback={<BlogSkeleton />}><SubjectPage /></Suspense>} />
+        <Route path="/:exam/:subject/:topic" element={<Suspense fallback={<BlogSkeleton />}><TopicPage /></Suspense>} />
+        <Route path="/:exam/:subject/:topic/top-50-pyqs" element={<Suspense fallback={<BlogSkeleton />}><PyqCollectionPage /></Suspense>} />
+        <Route path="/:exam/q/:slug" element={<Suspense fallback={<BlogSkeleton />}><QuestionPage /></Suspense>} />
 
-          {/* Protected Routes (Auth + Onboarding Check) */}
-          <Route element={<ProtectedLayout />}>
-            <Route path="/onboarding" element={<Onboarding />} />
+        {/* Protected Routes (Auth + Onboarding Check) */}
+        <Route element={<Suspense fallback={<DashboardSkeleton />}><ProtectedLayout /></Suspense>}>
+          <Route path="/onboarding" element={<Onboarding />} />
 
-            {/* Video Lecture - Fullscreen without sidebar */}
-            <Route path="/dashboard/lectures/:topicId" element={<VideoLecturePage />} />
+          {/* Video Lecture - Fullscreen without sidebar */}
+          <Route path="/dashboard/lectures/:topicId" element={<VideoLecturePage />} />
 
-            <Route path="/dashboard" element={<DashboardLayout />}>
-              <Route index element={<Overview />} />
-              <Route path="diagnostic" element={<DiagnosticTest />} />
-              <Route path="mock" element={<MockGenerator />} />
-              <Route path="study-plan" element={<StudyPlan />} />
-              <Route path="lectures" element={<Lectures />} />
-              <Route path="peer-benchmarking" element={<PeerBenchmarking />} />
-              <Route path="decision-simulator" element={<DecisionSimulator />} />
-              <Route path="syllabus" element={<Syllabus />} />
-              <Route path="syllabus/:subject" element={<SubjectSyllabus />} />
-              <Route path="saved-lectures" element={<SavedLectures />} />
-              <Route path="timeline" element={<Timeline />} />
-              <Route path="documents" element={<Documents />} />
-              <Route path="analytics" element={<Analytics />} />
-              <Route path="resources" element={<Resources />} />
-              <Route path="test-center" element={<TestCenter />} />
-              <Route path="test-active" element={<ActiveTest />} />
-              <Route path="profile" element={<ProfilePage />} />
-              <Route path="ranks" element={<RankInfo />} />
-            </Route>
+          <Route path="/dashboard" element={<DashboardLayout />}>
+            <Route index element={<Overview />} />
+            <Route path="diagnostic" element={<DiagnosticTest />} />
+            <Route path="mock" element={<MockGenerator />} />
+            <Route path="study-plan" element={<StudyPlan />} />
+            <Route path="lectures" element={<Lectures />} />
+            <Route path="peer-benchmarking" element={<PeerBenchmarking />} />
+            <Route path="decision-simulator" element={<DecisionSimulator />} />
+            <Route path="syllabus" element={<Syllabus />} />
+            <Route path="syllabus/:subject" element={<SubjectSyllabus />} />
+            <Route path="saved-lectures" element={<SavedLectures />} />
+            <Route path="timeline" element={<Timeline />} />
+            <Route path="documents" element={<Documents />} />
+            <Route path="analytics" element={<Analytics />} />
+            <Route path="resources" element={<Resources />} />
+            <Route path="test-center" element={<TestCenter />} />
+            <Route path="test-active" element={<ActiveTest />} />
+            <Route path="profile" element={<ProfilePage />} />
+            <Route path="ranks" element={<RankInfo />} />
           </Route>
+        </Route>
 
-          {/* Admin Routes */}
-          <Route path="/admin" element={<AdminLayout />}>
-            <Route path="question-review" element={<QuestionReview />} />
-            <Route path="upload-syllabus" element={<SyllabusUpload />} />
-          </Route>
+        {/* Admin Routes */}
+        <Route path="/admin" element={<Suspense fallback={<DashboardSkeleton />}><AdminLayout /></Suspense>}>
+          <Route path="question-review" element={<QuestionReview />} />
+          <Route path="upload-syllabus" element={<SyllabusUpload />} />
+        </Route>
 
-        </Routes>
+        {/* 404 Catch-all */}
+        <Route path="*" element={<NotFoundPage />} />
+
+      </Routes>
+
+      <Suspense fallback={null}>
+        <DelayedGlobalComponents />
       </Suspense>
-
-      <FloatingUI />
-      {!isServer && <PWAInstall />}
-      {!isServer && <CookieConsent />}
 
       {showLevelUp && !isServer && (
         <Suspense fallback={null}>

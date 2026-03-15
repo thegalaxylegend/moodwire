@@ -1,4 +1,3 @@
-
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -6,6 +5,7 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const manifestPath = path.join(__dirname, '../public/seo-manifest.json');
 const registryPath = path.join(__dirname, '../public/slug-registry.json');
+const indexNowKeyPath = path.join(__dirname, '../public/3154aa701b2948b49c70693382a1ad76.txt');
 
 async function validateSEOIdentity() {
     console.log('🔒 EXAM COMPASS: STRICT SEO IDENTITY LOCK ACTIVE');
@@ -15,12 +15,21 @@ async function validateSEOIdentity() {
         process.exit(1);
     }
 
+    let errors = [];
     const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
     const registry = JSON.parse(fs.readFileSync(registryPath, 'utf8'));
-
-    let errors = [];
     const routes = Object.keys(manifest);
     const routeCount = routes.length;
+
+    // 0. IndexNow Identity Lock
+    if (!fs.existsSync(indexNowKeyPath)) {
+        errors.push('🛑 INDEXNOW VIOLATION: Verification key file missing in public/ (Expected 3154aa701b2948b49c70693382a1ad76.txt).');
+    } else {
+        const keyVal = fs.readFileSync(indexNowKeyPath, 'utf8').trim();
+        if (keyVal !== '3154aa701b2948b49c70693382a1ad76') {
+            errors.push('🛑 INDEXNOW VIOLATION: Key content mismatch in verification file.');
+        }
+    }
 
     // 1. Route Count Protection
     // Rule: Route count must never decrease without approval

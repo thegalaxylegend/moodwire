@@ -13,7 +13,7 @@ import { ViralShareCard } from '../../components/ViralShareCard';
 import { AuthGate } from '../../components/auth/AuthGate';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { calculatePredictedRank } from '../../services/leaderboardService';
+import { calculatePredictedRank, updateLeaderboard } from '../../services/leaderboardService';
 import { markTopicsAsCompletedFromResults, syncTopicStatsFromMocks } from '../../services/dataSyncService';
 import { trackQuestionTime, trackOptionSwitch } from '../../lib/analytics';
 import { storageService } from '../../services/storageService';
@@ -45,10 +45,16 @@ type Message = {
 };
 
 export const MockGenerator = () => {
-    const { user, authResolved } = useUserStore();
+    const { user, authResolved, addGains, updateProfile } = useUserStore();
     const navigate = useNavigate();
     const [searchParams] = useSearchParams();
     const urlTopic = searchParams.get('topic');
+    const isLocalhost = typeof window !== 'undefined' && (
+        window.location.hostname === 'localhost' ||
+        window.location.hostname === '127.0.0.1' ||
+        window.location.hostname === '::1'
+    );
+    const isTestingUntimed = import.meta.env.DEV || isLocalhost;
 
     const [mode, setMode] = useState<'quick' | 'topic' | 'full' | 'diagnostic'>('quick');
     const [difficulty, setDifficulty] = useState<'Exam_Level' | 'Slightly_Harder' | 'Mains' | 'Advanced'>('Exam_Level');
@@ -69,12 +75,18 @@ export const MockGenerator = () => {
     const [qStartTime, setQStartTime] = useState(Date.now());
     const [generationProgress, setGenerationProgress] = useState(0);
 
+    // Beautiful Alert State
+    const [alertModal, setAlertModal] = useState<{ open: boolean; title: string; message: string; type: 'warning' | 'info' }>({ 
+        open: false, title: "", message: "", type: 'info' 
+    });
+
     // AI 2.0: Fatigue State
     const [sessionHistory, setSessionHistory] = useState<SessionMetric[]>([]);
     const [fatigueNotice, setFatigueNotice] = useState<{ fatigued: boolean; reason?: string }>({ fatigued: false });
 
     // AI 2.0: Adaptive Elo State
     const [currentAbility, setCurrentAbility] = useState<number>(user?.abilityScore || 1000);
+    const isTimedExam = false; // mode !== 'diagnostic' && !isTestingUntimed;
 
     // Refs for global progress tracking to prevent jitter in parallel batches
     const globalFetchedRef = useRef(0);
@@ -94,7 +106,7 @@ export const MockGenerator = () => {
                     setStep(data.step);
                     setMode(data.mode);
                     setDifficulty(data.difficulty);
-                    setTimeRemaining(data.timeRemaining);
+                    setTimeRemaining(isTestingUntimed ? 0 : (data.timeRemaining || 0));
                     setSessionHistory(data.sessionHistory || []);
                     setFatigueNotice(data.fatigueNotice || { fatigued: false });
                     setCurrentAbility(data.currentAbility || user?.abilityScore || 1000);
@@ -113,7 +125,7 @@ export const MockGenerator = () => {
                 sessionStorage.removeItem('active_test_session');
             }
         }
-    }, [user?.id]);
+    }, [user?.id, isTestingUntimed]);
 
     // --- PERSISTENCE: Save state on change ---
     useEffect(() => {
@@ -150,7 +162,19 @@ export const MockGenerator = () => {
     }, [urlTopic, searchParams, navigate]);
 
     useEffect(() => {
+        // 0. Force clear any "Deadlock Caches" that might be sticking from previous failures
+        const clearBrokenCaches = () => {
+             for (let i = 0; i < localStorage.length; i++) {
+                const key = localStorage.key(i);
+                if (key && (key.startsWith('ai_cache_') || key.startsWith('q_engine_cache_'))) {
+                    localStorage.removeItem(key);
+                }
+            }
+            console.log("[MockGenerator] 🧹 Flushed all generation caches to ensure fresh batch.");
+        };
+        
         if (user && authResolved && step === 'config' && questions.length === 0) {
+            clearBrokenCaches();
             checkPrerequisites();
         }
     }, [user, authResolved, urlTopic, searchParams, step, questions.length]);
@@ -217,16 +241,14 @@ export const MockGenerator = () => {
     };
 
     useEffect(() => {
-        if (step === 'exam' && timeRemaining > 0) {
+        if (step === 'exam' && isTimedExam && timeRemaining > 0) {
             const timer = setInterval(() => setTimeRemaining(t => t - 1), 1000);
             return () => clearInterval(timer);
-        } else if (timeRemaining === 0 && step === 'exam') {
+        } else if (isTimedExam && timeRemaining === 0 && step === 'exam') {
             // Only auto-submit for timed tests
-            if (mode !== 'diagnostic') {
-                handleSubmitExam(true);
-            }
+            handleSubmitExam(true);
         }
-    }, [step, timeRemaining, mode]);
+    }, [step, timeRemaining, isTimedExam]);
 
     const handleExit = () => {
         if (questions.length > 0 && step === 'exam') {
@@ -283,8 +305,15 @@ export const MockGenerator = () => {
             };
 
             // 2. Primary Record - Triggers Backend Worker
-            const attemptRef = await addDoc(collection(db, 'mock_attempts'), mockAttemptData);
-            console.log("✅ Mock attempt recorded. Backend worker triggered.", attemptRef.id);
+            let attemptRef = null;
+            let syncError = false;
+            try {
+                attemptRef = await addDoc(collection(db, 'mock_attempts'), mockAttemptData);
+                console.log("✅ Mock attempt recorded. Backend worker triggered.", attemptRef.id);
+            } catch (err) {
+                console.error("❌ Firestore sync failed. Marking for retry.", err);
+                syncError = true;
+            }
 
             // 3. Critical Path: Diagnostic Results (Mandatory for progression)
             if (mode === 'diagnostic' && status === 'completed') {
@@ -299,7 +328,7 @@ export const MockGenerator = () => {
             }
 
             // 4. Local Feedback: Save for Offline History
-            storageService.saveTestAttempt({
+            await storageService.saveTestAttempt({
                 id: Date.now(),
                 score: currentScore,
                 total: questions.length * 4,
@@ -312,9 +341,11 @@ export const MockGenerator = () => {
                 correctCount,
                 wrongCount,
                 totalQuestions: questions.length,
+                pendingSync: syncError, // STORE FAIL STATUS
                 topic: mode === 'topic' ? (urlTopic || 'Specific Topic') : (mode === 'quick' ? 'Quick Test' : 'Full Mock'),
+                user_class: user.userClass || 'General',
                 weakTopics: questions.filter((q, i) => answers[i] !== undefined && answers[i] !== q.correctAnswer).map(q => q.topic)
-            });
+            }, user.id);
 
             // 5. Perceived Speed: Immediate Syllabus Update (Optional but nice)
             if (status === 'completed') {
@@ -322,6 +353,32 @@ export const MockGenerator = () => {
                     topic: q.topic,
                     isCorrect: answers[i] === q.correctAnswer
                 }));
+
+                // --- FRONTEND WORKER: REPLACING BLOCKED FIREBASE FUNCTIONS ---
+                // Update Leaderboard via Client SDK (Transaction)
+                updateLeaderboard(
+                    user.id,
+                    {
+                        displayName: user.name || 'Anonymous Student',
+                        avatar: user.avatarUrl,
+                        xp: user.xp + (currentScore * 10),
+                        rankName: user.prepLevel || 'Aspirant'
+                    },
+                    currentScore,
+                    user.targetExam || 'General'
+                ).catch(err => console.warn("[FrontendWorker] Leaderboard sync failed:", err));
+
+                // Update Local XP and Level (Instant UI Feedback)
+                addGains({
+                    xp: currentScore * 10,
+                    pts: currentScore // 1 point per mark
+                }).catch(() => { });
+
+                // Update Last Test Date
+                updateProfile({
+                    lastTestDate: new Date().toISOString().split('T')[0]
+                }).catch(() => { });
+
                 // Fire and forget updating operations
                 markTopicsAsCompletedFromResults(user.id, questionResults).catch(() => { });
                 syncTopicStatsFromMocks(user.id, user.userClass, user.targetExam).catch(() => { });
@@ -390,25 +447,34 @@ export const MockGenerator = () => {
 
         // 2. Parallel Generation Loop
         let attempts = 0;
-        const MAX_TOTAL_ATTEMPTS = count * 3; // Safety break
+        const MAX_TOTAL_ATTEMPTS = count * 5; // Increased safety break for better reliability
 
         while (collected.length < count && attempts < MAX_TOTAL_ATTEMPTS) {
             const needed = count - collected.length;
-            // Reduced batch size to 2 to prevent hitting Groq's 12000 TPM limit
-            const batchSize = Math.min(needed, 2);
+            // Increased batch size to 5 for faster generation
+            const batchSize = Math.min(needed, 5);
 
             // Create a batch of promises
             const promises = Array(batchSize).fill(0).map(async (_, idx) => {
-                // Stagger requests significantly to avoid parallel token burst
-                await new Promise(r => setTimeout(r, idx * 1500));
-                return getAdaptiveQuestion(
-                    user?.id || 'guest',
-                    urlTopic || subject,
-                    targetExam,
-                    weaknessScore,
-                    subject,
-                    currentAbility
+                // Reduced stagger delay significantly for speed (500ms instead of 2500ms)
+                await new Promise(r => setTimeout(r, idx * 500));
+                
+                // Add a local timeout for each question request
+                const timeoutPromise = new Promise((_, reject) => 
+                    setTimeout(() => reject(new Error("Generation Timeout")), 45000)
                 );
+                
+                return Promise.race([
+                    getAdaptiveQuestion(
+                        user?.id || 'guest',
+                        urlTopic || subject,
+                        targetExam,
+                        weaknessScore,
+                        subject,
+                        currentAbility
+                    ),
+                    timeoutPromise
+                ]);
             });
 
             try {
@@ -422,7 +488,7 @@ export const MockGenerator = () => {
                 for (const res of results) {
                     attempts++;
                     if (res.status === 'fulfilled' && res.value) {
-                        const q = res.value;
+                        const q = res.value as any;
                         const qId = q.id || q.question;
 
                         if (seenQuestions.has(qId)) continue;
@@ -433,6 +499,17 @@ export const MockGenerator = () => {
                         const optionsArray: string[] = Array.isArray(q.options)
                             ? q.options
                             : Object.values(q.options);
+
+                        // Hard check for placeholder options (AI laziness)
+                        const isPlaceholder = optionsArray.every(opt => 
+                            opt?.trim().length <= 1 || 
+                            /^(Option|Opt|Choice)\s?[1-4]$/i.test(opt) ||
+                            /^[A-D]$/i.test(opt)
+                        );
+                        if (isPlaceholder) {
+                            console.warn("Discarding question with placeholder options:", q.question);
+                            continue;
+                        }
 
                         if (typeof q.correct_answer === 'string') {
                             if (q.correct_answer.length === 1 && /[A-D]/.test(q.correct_answer)) {
@@ -464,6 +541,12 @@ export const MockGenerator = () => {
                 }
             } catch (e) {
                 console.error("Batch generation failed", e);
+                attempts += batchSize;
+                // Stop retrying if rate-limited
+                if (e instanceof Error && (e.message.includes('rate limit') || e.message.includes('429') || e.message.includes('Groq rate limited'))) {
+                    console.warn("Rate limited - stopping generation retries.");
+                    break;
+                }
             }
 
             // Minimal pause between batches (reduced for speed)
@@ -501,10 +584,48 @@ export const MockGenerator = () => {
                 const qCount = 10;
                 globalTargetRef.current = qCount;
                 setTimeRemaining(30 * 60);
-                setLoadingMessage(`Generating Quick Test (${qCount} Questions)...`);
-                const subject = isJunior ? "Mathematics and Science" : "Physics, Chemistry, Maths/Bio";
-                const q = await generateQuestionsBatch(subject, 10, `${classContext} Mixed topics.`, 1);
+                
+                const target = user?.targetExam?.toUpperCase() || '';
+                const isNeet = target.includes('NEET');
+                
+                let q: any[] = [];
+                console.log("[QuickTest] Starting Sequential Generation...");
+                
+                if (isJunior) {
+                    q = await generateQuestionsBatch("Mathematics and Science", 10, `${classContext} Mixed topics.`, 1);
+                } else if (isNeet) {
+                    setLoadingMessage("Generating Biology (4/10)...");
+                    const b = await generateQuestionsBatch("Biology", 4, classContext, 1);
+                    setLoadingMessage("Generating Physics (7/10)...");
+                    const p = await generateQuestionsBatch("Physics", 3, classContext, 5);
+                    setLoadingMessage("Generating Chemistry (10/10)...");
+                    const c = await generateQuestionsBatch("Chemistry", 3, classContext, 8);
+                    q = [...b, ...p, ...c];
+                } else {
+                    // JEE Pattern Sequential
+                    setLoadingMessage("Generating Mathematics (4/10)...");
+                    const m = await generateQuestionsBatch("Mathematics", 4, classContext, 1);
+                    setLoadingMessage("Generating Physics (7/10)...");
+                    const p = await generateQuestionsBatch("Physics", 3, classContext, 5);
+                    setLoadingMessage("Generating Chemistry (10/10)...");
+                    const c = await generateQuestionsBatch("Chemistry", 3, classContext, 8);
+                    q = [...m, ...p, ...c];
+                }
+                
+                // Final Check and Minimal Recovery
+                if (q.length < qCount) {
+                    console.warn(`[QuickTest] Final fallthrough recovery for ${qCount - q.length} Qs.`);
+                    const extra = await generateQuestionsBatch("General Science/Maths", qCount - q.length, classContext, q.length + 1);
+                    q = [...q, ...extra];
+                }
+                
                 setQuestions(q);
+                console.log("[QuickTest] Successfully generated questions:", q.length);
+                
+                // Force transition to preview to ensure we don't stall
+                setStep('preview');
+                return; // Guarded return for QuickTest only
+
             } else if (examMode === 'diagnostic') {
                 const qCount = 10;
                 globalTargetRef.current = qCount;
@@ -521,6 +642,15 @@ export const MockGenerator = () => {
                 const q = await generateQuestionsBatch(user?.targetExam || "General", qCount, `Topic: ${topic}. ${classContext}`, 1);
                 setQuestions(q);
             } else if (examMode === 'full') {
+                // TEMPORARY LOCK: Maintenance
+                setAlertModal({
+                    open: true,
+                    title: "Under Maintenance",
+                    message: "Full Mock simulations are currently undergoing system upgrades for better accuracy. Please use Quick Test instead.",
+                    type: 'info'
+                });
+                return;
+                
                 const target = user?.targetExam?.toUpperCase() || '';
                 const isNeet = target.includes('NEET');
                 // const isJee = target.includes('JEE'); // Unused
@@ -608,6 +738,7 @@ export const MockGenerator = () => {
                     setQuestions([...p1, ...p2]);
                 } else {
                     const qCount = 75;
+                    globalTargetRef.current = qCount; // CRITICAL FIX: Set total target for progress bar
                     setTimeRemaining(180 * 60);
                     setLoadingMessage(`Generating Full Mock (${qCount} Questions)...`);
                     const [p1, p2, p3] = await Promise.all([
@@ -632,6 +763,10 @@ export const MockGenerator = () => {
                 throw new Error("No questions were generated successfully.");
             }
 
+            if (isTestingUntimed) {
+                setTimeRemaining(0);
+            }
+
             setStep('preview');
         } catch (e: any) {
             console.error(e);
@@ -644,6 +779,46 @@ export const MockGenerator = () => {
         }
     };
 
+    const alertModalComponent = (
+        <AnimatePresence>
+            {alertModal.open && (
+                <motion.div 
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    className="fixed inset-0 z-[1000] flex items-center justify-center p-4 bg-black/60 backdrop-blur-md"
+                >
+                    <motion.div
+                        initial={{ scale: 0.9, opacity: 0, y: 20 }}
+                        animate={{ scale: 1, opacity: 1, y: 0 }}
+                        exit={{ scale: 0.9, opacity: 0, y: 20 }}
+                        className="bg-surface border border-white/10 p-8 rounded-[2.5rem] max-w-sm w-full shadow-2xl text-center space-y-6 relative overflow-hidden"
+                    >
+                        <div className={`w-20 h-20 mx-auto rounded-full flex items-center justify-center ${alertModal.type === 'warning' ? 'bg-orange-500/20 text-orange-400' : 'bg-primary/20 text-primary'}`}>
+                            {alertModal.type === 'warning' ? <AlertTriangle size={40} /> : <Timer size={40} />}
+                        </div>
+                        
+                        <div className="space-y-2">
+                            <h3 className="text-2xl font-bold text-text-main">{alertModal.title}</h3>
+                            <p className="text-sm text-text-muted leading-relaxed">
+                                {alertModal.message}
+                            </p>
+                        </div>
+
+                        <button
+                            onClick={() => {
+                                setAlertModal(prev => ({ ...prev, open: false }));
+                                navigate('/dashboard/test-center');
+                            }}
+                            className="w-full py-4 bg-primary text-white font-bold rounded-2xl shadow-xl shadow-primary/20 hover:scale-[1.02] active:scale-[0.98] transition-all"
+                        >
+                            Got it
+                        </button>
+                    </motion.div>
+                </motion.div>
+            )}
+        </AnimatePresence>
+    );
 
     const handleAnswer = (optionIdx: number) => {
         const q = questions[currentQ];
@@ -726,7 +901,7 @@ export const MockGenerator = () => {
         `;
 
         try {
-            const response = await askAI("Brilliant Science Tutor", verificationPrompt, 'groq');
+            const response = await askAI("Brilliant Science Tutor", verificationPrompt, 'groq', [], { stream: false });
             const result = extractJSON(response);
 
             if (result && typeof result.solved_index === 'number') {
@@ -800,7 +975,7 @@ export const MockGenerator = () => {
                 USER: ${userMsg}
             `;
 
-            const response = await askAI('Helpful Tutor', context, 'groq');
+            const response = await askAI('Helpful Tutor', context, 'groq', [], { stream: false });
             if (response) {
                 setAiChatHistory(prev => [...prev, { role: 'ai', content: response }]);
             }
@@ -853,9 +1028,10 @@ export const MockGenerator = () => {
         );
     }
 
-    if (step === 'loading') {
+    if (step === 'loading' || step === 'config') {
         return (
             <div className="flex flex-col items-center justify-center min-h-[60vh] space-y-6 max-w-md mx-auto px-4">
+                {alertModalComponent}
                 <div className="relative">
                     <Loader2 size={64} className="text-primary animate-spin opacity-20" />
                     <div className="absolute inset-0 flex items-center justify-center text-primary font-bold">
@@ -888,6 +1064,9 @@ export const MockGenerator = () => {
                     >
                         <ArrowLeft size={18} className="group-hover:-translate-x-1 transition-transform" /> Cancel & Return
                     </button>
+                    {step === 'config' && (
+                         <p className="text-[10px] text-text-muted/30 text-center mt-4">Verifying Credentials & Pattern Isolation...</p>
+                    )}
                 </div>
             </div>
         );
@@ -1083,7 +1262,7 @@ export const MockGenerator = () => {
                     </div>
                     <div className="p-4 rounded-2xl bg-surface border border-border flex flex-col items-center gap-1">
                         <span className="text-xs font-bold text-text-muted uppercase tracking-widest">Time Limit</span>
-                        <span className="text-2xl font-bold text-text-main">{timeLimit > 0 ? `${timeLimit} Min` : 'Untimed'}</span>
+                        <span className="text-2xl font-bold text-text-main">{isTimedExam && timeLimit > 0 ? `${timeLimit} Min` : 'Untimed'}</span>
                     </div>
                     <div className="p-4 rounded-2xl bg-surface border border-border col-span-2 flex flex-col items-center gap-1">
                         <span className="text-xs font-bold text-text-muted uppercase tracking-widest">Subjects</span>
@@ -1100,13 +1279,16 @@ export const MockGenerator = () => {
                     <ul className="text-sm text-text-muted space-y-1 list-disc list-inside">
                         <li>Each question carries +4 marks.</li>
                         <li>-1 mark for incorrect answers (JEE/NEET Pattern).</li>
-                        <li>Timer starts as soon as you click the button below.</li>
+                        <li>{isTimedExam ? 'Timer starts as soon as you click the button below.' : 'Timer is disabled on localhost for testing.'}</li>
                         <li>You can pause the test at any time.</li>
                     </ul>
                 </div>
 
                 <button
                     onClick={() => {
+                        if (isTestingUntimed) {
+                            setTimeRemaining(0);
+                        }
                         setStep('exam');
                         setQStartTime(Date.now());
                     }}
@@ -1172,7 +1354,7 @@ export const MockGenerator = () => {
 
                         <div className="flex items-center gap-4">
                             {step === 'exam' ? (
-                                mode === 'diagnostic' ? (
+                                !isTimedExam ? (
                                     <div className="text-secondary font-bold flex items-center gap-2 text-sm">
                                         <Timer size={18} /> UNTIMED
                                     </div>
@@ -1474,12 +1656,11 @@ export const MockGenerator = () => {
         }} onResume={handleResume} />;
     }
 
+    // This fallback is only reached if state-consistency is lost or in transition
     return (
-        <div className="flex items-center justify-center min-h-[60vh]">
-            <div className="flex flex-col items-center gap-4 text-text-muted">
-                <Brain size={48} className="animate-pulse text-primary/40" />
-                <p className="animate-pulse">{loadingMessage || "Preparing Your Session..."}</p>
-            </div>
+        <div className="flex flex-col items-center justify-center min-h-[60vh] space-y-4">
+            <Loader2 className="animate-spin text-primary" size={32} />
+            <p className="text-text-muted animate-pulse">Synchronizing Session...</p>
         </div>
     );
 };
@@ -1528,6 +1709,11 @@ const MockHistoryView = ({ user, onBack, onResume }: { user: any, onBack: () => 
                             <div className="flex-1">
                                 <div className="flex items-center gap-3 mb-1">
                                     <h4 className="font-bold text-text-main capitalize text-lg">{attempt.type} Test</h4>
+                                    {attempt.user_class && user.userClass !== attempt.user_class && (
+                                        <span className="px-2 py-0.5 bg-primary/10 text-primary text-[10px] font-bold uppercase rounded border border-primary/20">
+                                            {attempt.user_class}
+                                        </span>
+                                    )}
                                     {attempt.status === 'paused' && (
                                         <span className="px-2 py-0.5 bg-yellow-500/20 text-yellow-300 text-[10px] font-bold uppercase rounded border border-yellow-500/30">Paused</span>
                                     )}
