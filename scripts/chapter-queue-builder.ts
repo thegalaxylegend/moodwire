@@ -58,22 +58,33 @@ async function buildQueue() {
         process.exit(1);
     }
 
-    const existingBlogs = fs.readdirSync(BLOG_DIR).map(f => f.replace('.md', ''));
-    const missingTopics = [];
+    const existingBlogs = fs.readdirSync(BLOG_DIR).map(f => (f as string).replace('.md', ''));
+    const missingTopics: any[] = [];
+
+    // Helper: Create a "Core Slug" for 100% accurate comparison
+    // Removes fluff like 'of', 'the', 'class' and focuses on content keywords
+    const getCoreSlug = (text: string) => {
+        return text.toLowerCase()
+            .replace(/[^a-z0-9\s]+/g, ' ')
+            .split(/\s+/)
+            .filter(w => w.length > 2 && !['the', 'and', 'for', 'with', 'class', 'notes', 'revision', 'concepts', 'concepts-of', 'structure', 'classification'].includes(w))
+            .join('-');
+    };
 
     // 2. Identify missing topics
     for (const item of SYLLABUS_FULL_LIST) {
+        const itemCore = getCoreSlug(item.topic);
         const slug1 = slugify(item.topic + "-class-" + item.class.replace('Class ', '') + "-notes");
-        const slug2 = slugify(item.topic + "-revision-notes");
         
-        // Check for various slug patterns
-        const found = existingBlogs.some(blog => 
-            blog.includes(slugify(item.topic)) || 
-            blog === slug1 || 
-            blog === slug2
-        );
+        // Smarter check: Compare core content keywords
+        const isDuplicate = existingBlogs.some((blogName: string) => {
+            const blogCore = getCoreSlug(blogName);
+            return blogCore === itemCore || 
+                   blogName.includes(slugify(item.topic)) || 
+                   blogName === slug1;
+        });
 
-        if (!found) {
+        if (!isDuplicate && itemCore.length > 0) {
             missingTopics.push({
                 subject: item.subject,
                 topic: item.topic,

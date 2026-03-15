@@ -32,6 +32,7 @@ jobs:
         run: npx tsx scripts/blog-generator.ts
 
       - name: Task 3 - Sync Firestore
+        continue-on-error: true
         run: npx tsx scripts/firestore-uploader.ts
 
       - name: Commit and Push New Blogs
