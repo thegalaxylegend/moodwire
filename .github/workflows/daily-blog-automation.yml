@@ -1,0 +1,43 @@
+name: Daily Blog Automation (Jules)
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Every day at midnight UTC
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  jules_bot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install --legacy-peer-deps
+
+      - name: Create service-account.json from secret
+        run: echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT_LEGENDSTECH001 }}' > service-account.json
+
+      - name: Task 1 - Build Queue
+        run: npx tsx scripts/chapter-queue-builder.ts
+
+      - name: Task 2 - Generate Blogs
+        env:
+          VITE_GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: npx tsx scripts/blog-generator.ts
+
+      - name: Task 3 - Sync Firestore
+        run: npx tsx scripts/firestore-uploader.ts
+
+      - name: Commit and Push New Blogs
+        run: |
+          git config --global user.name 'Jules Blog Bot'
+          git config --global user.email 'jules-bot@users.noreply.github.com'
+          git add src/content/blogs/*.md
+          git commit -m "chore: auto-generate 6 blogs by Jules" || echo "No changes to commit"
+          git push origin main

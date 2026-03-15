@@ -39,3 +39,4 @@ top_100_urls.txt
 tsc_output_utf8.txt
 dev-dist/
 .firebase/
+queue.json
