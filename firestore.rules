@@ -69,5 +69,11 @@ service cloud.firestore {
       allow read, delete: if request.auth != null && resource.data.user_id == request.auth.uid;
       allow create, update: if request.auth != null && request.resource.data.user_id == request.auth.uid;
     }
+
+    // Public Blog Metadata (Synced by Jules)
+    match /content_metadata/{docId} {
+      allow read: if true;
+      allow write: if false; // Only Admin SDK (Jules) can write here
+    }
   }
 }

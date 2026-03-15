@@ -51,6 +51,12 @@ async function downloadHeroImage(subject: string, topic: string, slug: string) {
         const imageUrl = `https://pollinations.ai/p/${encodedPrompt}?width=1200&height=630&seed=${Math.floor(Math.random() * 100000)}&model=flux`;
 
         const response = await fetch(imageUrl);
+        const contentType = response.headers.get('content-type');
+        
+        if (!response.ok || !contentType || !contentType.startsWith('image/')) {
+            throw new Error(`Invalid image response: ${response.status} ${contentType}`);
+        }
+
         const buffer = await response.arrayBuffer();
         fs.writeFileSync(imagePath, Buffer.from(buffer));
         
@@ -58,7 +64,7 @@ async function downloadHeroImage(subject: string, topic: string, slug: string) {
         return `/blog-images/${slug}.png`;
     } catch (err) {
         console.error("❌ Image generation failed, using fallback:", err);
-        return "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=1200&h=630"; // High-res physics fallback
+        return "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&q=80&w=1200&h=630"; // Better abstract fallback
     }
 }
 
