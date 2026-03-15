@@ -50,7 +50,14 @@ async function syncFirestore() {
     // Also update individual topic coverage status if needed
     // This part is optional but good for ensuring 100% coverage reporting
     
-    await batch.commit();
+    await batch.commit().catch(err => {
+        if (err.message.includes('PERMISSION_DENIED')) {
+            console.error("\n❌ FIREBASE PERMISSION ERROR:");
+            console.error("The service account used in GITHUB SECRETS does not have 'Cloud Datastore User' role.");
+            console.error("Please go to https://console.cloud.google.com/iam-admin/iam and grant 'Cloud Datastore User' to your service account email.\n");
+        }
+        throw err;
+    });
     console.log(`✅ Firestore sync complete. ${blogList.length} blogs indexed.`);
 }
 

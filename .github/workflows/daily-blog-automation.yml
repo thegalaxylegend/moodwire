@@ -51,6 +51,5 @@ jobs:
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
-          BLOG_COUNT=$(ls -1 src/content/blogs/*.md | wc -l)
-          MESSAGE="🚀 **Jules Blog Bot Update!** 🚀\n\nJules just finished his daily task! \n✅ Created **6 new high-quality blogs** (Class 11/12/Competitive).\n✅ Generated **6 AI-designed hero images**.\n✅ Synced to Firestore & Deployed to Firebase.\n\nCheck them out here: https://legendstech001.web.app/blog"
+          MESSAGE="🚀 **Exam Compass Blog Update!** 🚀\n\nJules just finished his daily task! \n✅ Created **new high-quality blogs**.\n✅ Generated **AI-designed hero images**.\n✅ Synced to Firestore & Deployed to Exam Compass.\n\nCheck them out here: https://examcompass.web.app/blog"
           curl -X POST -H "Content-Type: application/json" -d "{\"content\": \"$MESSAGE\"}" $DISCORD_WEBHOOK
