@@ -18,41 +18,40 @@ const IMAGE_DIR = path.join(__dirname, '../public/blog-images');
 
 const GROQ_MODELS = [
     "llama-3.3-70b-versatile",
-    "mixtral-8x7b-32768",
+    "llama-3.1-70b-versatile",
     "llama-3.1-8b-instant"
 ];
 
-const GROQ_PROMPT_MODEL = "llama-3.1-8b-instant"; // Fast model for image prompts
+const GROQ_PROMPT_MODEL = "llama-3.1-8b-instant"; 
 
 async function downloadHeroImage(subject: string, topic: string, slug: string): Promise<string> {
     const webpPath = path.join(IMAGE_DIR, `${slug}.webp`);
     if (fs.existsSync(webpPath)) return `/blog-images/${slug}.webp`;
 
     console.log(`🎨 Jules: Designing custom artwork for "${topic}"...`);
-
-    const artPromptUser = `Describe a mesmerizing, scientific, 8k cinematic 3D illustration of "${topic}" for a ${subject} student blog. Focus on colors and educational clarity. No text.`;
     
-    let artDirection = `A professional scientific diagram of ${topic} for ${subject} students.`;
-    
-    try {
-        const promptGen = await groq.chat.completions.create({
-            messages: [{ role: "user", content: artPromptUser }],
-            model: GROQ_PROMPT_MODEL, // Use cheaper model for prompts
-            max_tokens: 150
-        });
-        artDirection = promptGen.choices[0]?.message?.content || artDirection;
-    } catch (e) {
-        console.warn("⚠️ Groq prompt gen failed, using fallback art direction.");
-    }
+    // Improved Subject-Specific Fallbacks
+    const fallbacks: Record<string, string> = {
+        'Biology': 'https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=1000',
+        'Physics': 'https://images.unsplash.com/photo-1636466497217-39a814035f42?auto=format&fit=crop&q=80&w=1000',
+        'Chemistry': 'https://images.unsplash.com/photo-1532187875605-18d8d2170e9f?auto=format&fit=crop&q=80&w=1000',
+        'Maths': 'https://images.unsplash.com/photo-1509228468518-180dd48219d8?auto=format&fit=crop&q=80&w=1000',
+        'Mathematics': 'https://images.unsplash.com/photo-1509228468518-180dd48219d8?auto=format&fit=crop&q=80&w=1000'
+    };
 
+    const defaultFallback = fallbacks[subject] || fallbacks['Biology'];
+
+    const artPromptUser = `Scientific illustration of ${topic} for ${subject} students, 8k, vibrant colors, dark background, cinematic lighting. No text.`;
+    
     const seeds = [Math.floor(Math.random() * 10000), 42, 1234];
     const models = ['flux', 'turbo', 'pro'];
 
     for (let i = 0; i < 3; i++) {
         try {
             console.log(`🖌️ Image Attempt ${i + 1}/3 (Model: ${models[i]})...`);
-            const encodedPrompt = encodeURIComponent(artDirection);
-            const imageUrl = `https://pollinations.ai/p/${encodedPrompt}?width=1024&height=563&seed=${seeds[i]}&model=${models[i]}&nologo=true`;
+            const encodedPrompt = encodeURIComponent(artPromptUser);
+            // Try different domain for pollinations which sometimes bypasses IP blocks
+            const imageUrl = `https://image.pollinations.ai/prompt/${encodedPrompt}?width=1000&height=600&seed=${seeds[i]}&model=${models[i]}&nologo=true`;
 
             const response = await fetch(imageUrl);
             const contentType = response.headers.get('content-type');
@@ -64,26 +63,26 @@ async function downloadHeroImage(subject: string, topic: string, slug: string): 
             const bufferBuffer = await response.arrayBuffer();
             const { default: sharp } = await import('sharp');
             await sharp(Buffer.from(bufferBuffer))
-                .resize(1000, 563)
+                .resize(1000, 600)
                 .webp({ quality: 80 })
                 .toFile(webpPath);
 
             console.log(`✅ Image saved: ${slug}.webp`);
             return `/blog-images/${slug}.webp`;
         } catch (err: any) {
-            console.warn(`⚠️ Image attempt ${i + 1} failed: ${err.message}`);
+            console.warn(`⚠️ Image attempt ${i + 1} failed (IP likely blocked).`);
         }
     }
 
-    console.error("❌ All image generation retries failed, using fallback.");
-    return `https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&q=80&w=1200&h=630`;
+    console.error("❌ Pollinations blocked on GitHub. Using high-quality subject fallback.");
+    return defaultFallback;
 }
 
 async function generateBlogs() {
     console.log(`🤖 Jules: Starting Blog Generation (Queued)...`);
 
     if (!fs.existsSync(QUEUE_FILE)) {
-        console.log("📭 No queue found. Run chapter-queue-builder first.");
+        console.log("📭 No queue found.");
         return;
     }
 
@@ -94,26 +93,14 @@ async function generateBlogs() {
         
         const filePath = path.join(BLOG_DIR, `${item.targetSlug}.md`);
         if (fs.existsSync(filePath)) {
-            console.log(`⏩ Skipping ${item.targetSlug} (File already exists).`);
+            console.log(`⏩ Skipping ${item.targetSlug} (Exists).`);
             continue;
         }
 
         const heroImagePath = await downloadHeroImage(item.subject, item.topic, item.targetSlug);
         
-        const systemPrompt = `You are Ayush's senior content editor at Exam Compass. 
-        IDENTITY: Peer mentor, student who cracked JEE/NEET. 
-        STYLE: Peer-to-peer, detailed, data-driven, use LaTeX.
-        RULES: Follow BLOG_RULES.md precisely. Min 2000 words.
-        FORBIDDEN: "In conclusion", "Delve into", "Needless to say", corporate fluff.`;
-
-        const userPrompt = `
-        TOPIC: ${item.topic}
-        SUBJECT: ${item.subject}
-        CLASS: ${item.class}
-        TASK: Generate BODY content for a blog post. START with "Quick Recall Box". 
-        Include: Table of Contents, JEE/NEET data, Core Concepts (Tables/LaTeX), Ayush's Note, Shortcut Formula, Trap Questions, 5-10 Practice MCQs, Related Notes Links, Final Expert Insight.
-        AIM FOR 2500+ WORDS.
-        `;
+        const systemPrompt = `You are Ayush's senior content editor. Peer mentor style. Min 2500 words. Rule: No "In conclusion". Use LaTeX.`;
+        const userPrompt = `TOPIC: ${item.topic}, SUBJECT: ${item.subject}, CLASS: ${item.class}. Generate BODY starting with Quick Recall Box. Include JEE/NEET data, Core Concepts, Formulae, MCQs.`;
 
         let success = false;
         for (const model of GROQ_MODELS) {
@@ -141,7 +128,7 @@ keywords: "${item.topic} notes, ${item.class} ${item.subject}, JEE ${item.topic}
 
 # ${item.topic} ${item.class} Notes for ${item.subject}
 
-![${item.topic} revision notes for ${item.class} students](${heroImagePath})
+![${item.topic} notes for students](${heroImagePath})
 
 *Last Updated: ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}*
 
@@ -151,22 +138,24 @@ ${content}
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 `;
                     fs.writeFileSync(filePath, finalMarkdown);
-                    console.log(`✅ Success: ${item.targetSlug}.md saved (${finalMarkdown.length} chars).`);
+                    console.log(`✅ Success: ${item.targetSlug}.md saved.`);
                     success = true;
+                    
+                    // CRITICAL: Delay 15s to avoid 429 Rate Limit on next blog
+                    console.log("⏳ Cooling down Groq (15s)...");
+                    await new Promise(r => setTimeout(r, 15000));
                     break;
                 }
             } catch (err: any) {
                 if (err?.status === 429) {
                     console.warn(`⚠️ 429 Rate Limit on ${model}. Trying next model...`);
+                    await new Promise(r => setTimeout(r, 5000)); // Short wait on 429
                 } else {
                     console.error(`❌ Error with ${model}:`, err.message);
-                    break; 
                 }
             }
         }
     }
-
-    console.log("\n🎊 Jules: All blogs in queue processed!");
 }
 
 generateBlogs().catch(err => {
