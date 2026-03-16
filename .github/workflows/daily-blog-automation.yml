@@ -37,13 +37,21 @@ jobs:
         continue-on-error: true
         run: npx tsx scripts/firestore-uploader.ts
 
+      - name: Task 4 - Regenerate SEO Manifest
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_LEGENDSTECH001 }}
+        run: npm run seo:regen
+
       - name: Commit and Push New Blogs
         run: |
           git config --global user.name 'Jules Blog Bot'
           git config --global user.email 'jules-bot@users.noreply.github.com'
           git add src/content/blogs/*.md
-          git add public/blog-images/*.png
-          git commit -m "chore: auto-generate 6 blogs by Jules" || echo "No changes to commit"
+          git add public/blog-images/*
+          git add src/data/blogs.ts
+          git add public/seo-manifest.json
+          git add public/slug-registry.json
+          git commit -m "chore: auto-generate blogs and update registries by Jules" || echo "No changes to commit"
           git push origin main
 
       - name: Send Discord Notification
