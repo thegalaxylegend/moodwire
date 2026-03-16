@@ -4,6 +4,11 @@
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>  <url>
+    <loc>https://examcompass.web.app/blog/3d-geometry-intro-class-11-notes</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://examcompass.web.app/blog/ai-exam-prep-future</loc>
     <lastmod>2024-03-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -14,12 +19,57 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://examcompass.web.app/blog/anatomy-of-flowering-plants-class-11-notes</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/blog/animal-kingdom-class-11-notes</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://examcompass.web.app/blog/binomial-theorem-revision-notes</loc>
     <lastmod>2024-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://examcompass.web.app/blog/biological-classification-class-11-notes</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/blog/biomolecules-class-11-notes</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/blog/body-fluids-and-circulation-class-11-notes</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/blog/breathing-and-exchange-of-gases-class-11-notes</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/blog/cell-cycle-and-cell-division-class-11-notes</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/blog/cell-the-unit-of-life-class-11-notes</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://examcompass.web.app/blog/chemical-bonding-class-11-notes</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/blog/chemical-coordination-and-integration-class-11-notes</loc>
     <lastmod>2024-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -59,12 +109,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://examcompass.web.app/blog/digestion-and-absorption-class-11-notes</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://examcompass.web.app/blog/electric-charges-fields-revision-notes</loc>
     <lastmod>2024-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.web.app/blog/electrostatic-potential-capacitance-revision-notes</loc>
+    <loc>https://examcompass.web.app/blog/environmental-chemistry-class-11-notes</loc>
     <lastmod>2024-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -74,7 +129,22 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://examcompass.web.app/blog/excretory-products-and-elimination-class-11-notes</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://examcompass.web.app/blog/gravitation-revision-notes</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/blog/hydrocarbons-class-11-notes</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/blog/hydrogen-class-11-notes</loc>
     <lastmod>2024-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -119,6 +189,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://examcompass.web.app/blog/locomotion-and-movement-class-11-notes</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://examcompass.web.app/blog/mathematical-induction-revision-notes</loc>
     <lastmod>2024-03-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -135,6 +210,16 @@
     <priority>0.8</priority>
   </url>  <url>
     <loc>https://examcompass.web.app/blog/mechanical-properties-of-solids-revision-notes</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/blog/mineral-nutrition-class-11-notes</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/blog/morphology-of-flowering-plants-class-11-notes</loc>
     <lastmod>2024-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -164,6 +249,16 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://examcompass.web.app/blog/neural-control-and-coordination-class-11-notes</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/blog/organic-chemistry-basic-principles-class-11-notes</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://examcompass.web.app/blog/oscillations-revision-notes</loc>
     <lastmod>2024-03-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -174,12 +269,42 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://examcompass.web.app/blog/photosynthesis-in-higher-plants-class-11-notes</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/blog/physical-world-class-11-notes</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/blog/plant-growth-and-development-class-11-notes</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/blog/plant-kingdom-class-11-notes</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://examcompass.web.app/blog/probability-revision-notes</loc>
     <lastmod>2024-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://examcompass.web.app/blog/redox-reactions-class-11-notes</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://examcompass.web.app/blog/relations-functions-revision-notes</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/blog/respiration-in-plants-class-11-notes</loc>
     <lastmod>2024-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -224,6 +349,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://examcompass.web.app/blog/structural-organisation-in-animals-class-11-notes</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://examcompass.web.app/blog/structure-of-atom-revision-notes</loc>
     <lastmod>2024-03-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -231,6 +361,21 @@
   </url>  <url>
     <loc>https://examcompass.web.app/blog/study-12-hours-daily-tips</loc>
     <lastmod>2024-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/blog/the-living-world-class-11-notes</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/blog/the-p-block-elements-11-class-11-notes</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/blog/the-s-block-elements-class-11-notes</loc>
+    <lastmod>2024-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -250,6 +395,11 @@
     <priority>0.8</priority>
   </url>  <url>
     <loc>https://examcompass.web.app/blog/three-dimensional-geometry-revision-notes</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.web.app/blog/transport-in-plants-class-11-notes</loc>
     <lastmod>2024-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

@@ -53,6 +53,17 @@
     "robots": "index, follow",
     "sitemapGroup": "blogs"
   },
+  "/blog/3d-geometry-intro-class-11-notes": {
+    "title": "3d geometry intro class 11 notes | Exam Compass",
+    "description": "Read 3d geometry intro class 11 notes on Exam Compass Blog.",
+    "date": "March 4, 2024",
+    "category": "Exam Prep",
+    "h1": "3D Geometry (Intro) Notes for Class 11",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
   "/blog/ai-exam-prep-future": {
     "title": "AI in Competitive Exam Preparation India: 2026 Guide",
     "description": "Revolutionize your study with AI in competitive exam preparation India. Master JEE, NEET & UPSC using adaptive mock tests and smart tools for success.",
@@ -75,6 +86,28 @@
     "robots": "index, follow",
     "sitemapGroup": "blogs"
   },
+  "/blog/anatomy-of-flowering-plants-class-11-notes": {
+    "title": "anatomy of flowering plants class 11 notes | Exam Compass",
+    "description": "Read anatomy of flowering plants class 11 notes on Exam Compass Blog.",
+    "date": "March 4, 2024",
+    "category": "Exam Prep",
+    "h1": "Anatomy of Flowering Plants Class 11 Notes",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/animal-kingdom-class-11-notes": {
+    "title": "animal kingdom class 11 notes | Exam Compass",
+    "description": "Read animal kingdom class 11 notes on Exam Compass Blog.",
+    "date": "March 4, 2024",
+    "category": "Exam Prep",
+    "h1": "animal-kingdom-class-11-notes",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
   "/blog/binomial-theorem-revision-notes": {
     "title": "Binomial Theorem Class 11 Math Quick Recall / Short Notes",
     "description": "Master Class 11 Math Chapter 8 Binomial Theorem with our detailed revision notes. Learn Binomial expansion, General term, and Middle term formulas.",
@@ -86,12 +119,89 @@
     "robots": "index, follow",
     "sitemapGroup": "blogs"
   },
+  "/blog/biological-classification-class-11-notes": {
+    "title": "biological classification class 11 notes | Exam Compass",
+    "description": "Read biological classification class 11 notes on Exam Compass Blog.",
+    "date": "March 4, 2024",
+    "category": "Exam Prep",
+    "h1": "biological-classification-class-11-notes",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/biomolecules-class-11-notes": {
+    "title": "biomolecules class 11 notes | Exam Compass",
+    "description": "Read biomolecules class 11 notes on Exam Compass Blog.",
+    "date": "March 4, 2024",
+    "category": "Exam Prep",
+    "h1": "biomolecules-class-11-notes",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/body-fluids-and-circulation-class-11-notes": {
+    "title": "Body Fluids and Circulation Class 11 Notes — Exam Compass",
+    "description": "Master Body Fluids and Circulation for Class 11 Biology with peer-mentor notes, JEE/NEET data, and personal tips.",
+    "date": "March 4, 2024",
+    "category": "Exam Prep",
+    "h1": "Body Fluids and Circulation Class 11 Notes for Biology",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/breathing-and-exchange-of-gases-class-11-notes": {
+    "title": "Breathing and Exchange of Gases Class 11 Notes — Exam Compass",
+    "description": "Master Breathing and Exchange of Gases for Class 11 Biology with peer-mentor notes, JEE/NEET data, and personal tips.",
+    "date": "March 4, 2024",
+    "category": "Exam Prep",
+    "h1": "Breathing and Exchange of Gases Class 11 Notes for Biology",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/cell-cycle-and-cell-division-class-11-notes": {
+    "title": "cell cycle and cell division class 11 notes | Exam Compass",
+    "description": "Read cell cycle and cell division class 11 notes on Exam Compass Blog.",
+    "date": "March 4, 2024",
+    "category": "Exam Prep",
+    "h1": "Cell Cycle and Cell Division Class 11 Notes",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/cell-the-unit-of-life-class-11-notes": {
+    "title": "cell the unit of life class 11 notes | Exam Compass",
+    "description": "Read cell the unit of life class 11 notes on Exam Compass Blog.",
+    "date": "March 4, 2024",
+    "category": "Exam Prep",
+    "h1": "Cell: The Unit of Life",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
   "/blog/chemical-bonding-class-11-notes": {
     "title": "Chemical Bonding VSEPR Theory JEE 2026 tricks & Shortcut Formulas",
     "description": "Master hybridization and VSEPR theory shapes with my personal shortcuts for JEE 2026. Includes MOT bond order comparisons (O2, O2+, O2-) and trap questions.",
     "date": "March 4, 2024",
     "category": "Exam Prep",
     "h1": "Chemical Bonding VSEPR Theory JEE 2026 tricks — Hybridization & Shapes",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/chemical-coordination-and-integration-class-11-notes": {
+    "title": "Chemical Coordination and Integration Class 11 Notes — Exam Compass",
+    "description": "Master Chemical Coordination and Integration for Class 11 Biology with peer-mentor notes, JEE/NEET data, and personal tips.",
+    "date": "March 4, 2024",
+    "category": "Exam Prep",
+    "h1": "Chemical Coordination and Integration Class 11 Notes for Biology",
     "type": "blog-post",
     "priority": 0.8,
     "robots": "index, follow",
@@ -174,6 +284,17 @@
     "robots": "index, follow",
     "sitemapGroup": "blogs"
   },
+  "/blog/digestion-and-absorption-class-11-notes": {
+    "title": "Digestion and Absorption Class 11 Notes — Exam Compass",
+    "description": "Master Digestion and Absorption for Class 11 Biology with peer-mentor notes, JEE/NEET data, and personal tips.",
+    "date": "March 4, 2024",
+    "category": "Exam Prep",
+    "h1": "Digestion and Absorption Class 11 Notes for Biology",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
   "/blog/electric-charges-fields-revision-notes": {
     "title": "Electric Charges and Fields Class 12 Physics Quick Recall (Short Notes 2025)",
     "description": "The most complete Class 12 Physics Chapter 1 revision notes. Master Coulomb's Law, Dipole Field Derivations, Gauss's Law Proof, and its Applications for JEE and NEET. 3000+ words of \"Comprehensive\" academic depth.",
@@ -185,12 +306,12 @@
     "robots": "index, follow",
     "sitemapGroup": "blogs"
   },
-  "/blog/electrostatic-potential-capacitance-revision-notes": {
-    "title": "Electrostatic Potential and Capacitance Class 12 Physics Quick Recall (Short Notes 2025)",
-    "description": "The most detailed Class 12 Physics Chapter 2 revision notes. Master Electric Potential Derivations, Parallel Plate Capacitor Proofs, Dielectric Effects, and Energy Storage equations. 3000+ words of \"Comprehensive\" depth.",
+  "/blog/environmental-chemistry-class-11-notes": {
+    "title": "environmental chemistry class 11 notes | Exam Compass",
+    "description": "Read environmental chemistry class 11 notes on Exam Compass Blog.",
     "date": "March 4, 2024",
     "category": "Exam Prep",
-    "h1": "Electrostatic Potential and Capacitance Class 12 Physics Quick Recall (Short Notes 2025)",
+    "h1": "environmental-chemistry-class-11-notes",
     "type": "blog-post",
     "priority": 0.8,
     "robots": "index, follow",
@@ -207,12 +328,45 @@
     "robots": "index, follow",
     "sitemapGroup": "blogs"
   },
+  "/blog/excretory-products-and-elimination-class-11-notes": {
+    "title": "Excretory Products and Elimination Class 11 Notes — Exam Compass",
+    "description": "Master Excretory Products and Elimination for Class 11 Biology with peer-mentor notes, JEE/NEET data, and personal tips.",
+    "date": "March 4, 2024",
+    "category": "Exam Prep",
+    "h1": "Excretory Products and Elimination Class 11 Notes for Biology",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
   "/blog/gravitation-revision-notes": {
     "title": "Gravitation Class 11 Physics Quick Recall Sheet (Short Notes 2026-27)",
     "description": "The most complete Class 11 Physics Chapter 7 revision notes. Master Kepler's Laws, Universal Gravitation, Acceleration due to Gravity Derivations, and Escape Velocity.",
     "date": "March 4, 2024",
     "category": "Exam Prep",
     "h1": "Gravitation Class 11 Physics Quick Recall Sheet (Short Notes 2026-27)",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/hydrocarbons-class-11-notes": {
+    "title": "hydrocarbons class 11 notes | Exam Compass",
+    "description": "Read hydrocarbons class 11 notes on Exam Compass Blog.",
+    "date": "March 4, 2024",
+    "category": "Exam Prep",
+    "h1": "Hydrocarbons Class 11 Notes",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/hydrogen-class-11-notes": {
+    "title": "hydrogen class 11 notes | Exam Compass",
+    "description": "Read hydrogen class 11 notes on Exam Compass Blog.",
+    "date": "March 4, 2024",
+    "category": "Exam Prep",
+    "h1": "hydrogen-class-11-notes",
     "type": "blog-post",
     "priority": 0.8,
     "robots": "index, follow",
@@ -306,6 +460,17 @@
     "robots": "index, follow",
     "sitemapGroup": "blogs"
   },
+  "/blog/locomotion-and-movement-class-11-notes": {
+    "title": "Locomotion and Movement Class 11 Notes — Exam Compass",
+    "description": "Master Locomotion and Movement for Class 11 Biology with peer-mentor notes, JEE/NEET data, and personal tips.",
+    "date": "March 4, 2024",
+    "category": "Exam Prep",
+    "h1": "Locomotion and Movement Class 11 Notes for Biology",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
   "/blog/mathematical-induction-revision-notes": {
     "title": "Mathematical Induction Class 11 Math Quick Recall / Short Notes (2026-27)",
     "description": "Master Class 11 Math Chapter 4 Principle of Mathematical Induction with our detailed revision notes. Learn PMI, Base Case, and Inductive Step.",
@@ -345,6 +510,28 @@
     "date": "March 4, 2024",
     "category": "Exam Prep",
     "h1": "Mechanical Properties of Solids Class 11 Physics Quick Recall (Short Notes 2026-27)",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/mineral-nutrition-class-11-notes": {
+    "title": "mineral nutrition class 11 notes | Exam Compass",
+    "description": "Read mineral nutrition class 11 notes on Exam Compass Blog.",
+    "date": "March 4, 2024",
+    "category": "Exam Prep",
+    "h1": "Mineral Nutrition",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/morphology-of-flowering-plants-class-11-notes": {
+    "title": "morphology of flowering plants class 11 notes | Exam Compass",
+    "description": "Read morphology of flowering plants class 11 notes on Exam Compass Blog.",
+    "date": "March 4, 2024",
+    "category": "Exam Prep",
+    "h1": "Morphology of Flowering Plants",
     "type": "blog-post",
     "priority": 0.8,
     "robots": "index, follow",
@@ -405,6 +592,28 @@
     "robots": "index, follow",
     "sitemapGroup": "blogs"
   },
+  "/blog/neural-control-and-coordination-class-11-notes": {
+    "title": "Neural Control and Coordination Class 11 Notes — Exam Compass",
+    "description": "Master Neural Control and Coordination for Class 11 Biology with peer-mentor notes, JEE/NEET data, and personal tips.",
+    "date": "March 4, 2024",
+    "category": "Exam Prep",
+    "h1": "Neural Control and Coordination Class 11 Notes for Biology",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/organic-chemistry-basic-principles-class-11-notes": {
+    "title": "organic chemistry basic principles class 11 notes | Exam Compass",
+    "description": "Read organic chemistry basic principles class 11 notes on Exam Compass Blog.",
+    "date": "March 4, 2024",
+    "category": "Exam Prep",
+    "h1": "Organic Chemistry: Basic Principles",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
   "/blog/oscillations-revision-notes": {
     "title": "Oscillations Class 11 Physics Quick Recall Sheet (Short Notes 2026-27)",
     "description": "The most complete Class 11 Physics Chapter 13 revision notes. Master Simple Harmonic Motion (SHM), Pendulum Derivations, and Energy in Oscillations.",
@@ -427,6 +636,50 @@
     "robots": "index, follow",
     "sitemapGroup": "blogs"
   },
+  "/blog/photosynthesis-in-higher-plants-class-11-notes": {
+    "title": "photosynthesis in higher plants class 11 notes | Exam Compass",
+    "description": "Read photosynthesis in higher plants class 11 notes on Exam Compass Blog.",
+    "date": "March 4, 2024",
+    "category": "Exam Prep",
+    "h1": "Photosynthesis in Higher Plants Class 11 Notes",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/physical-world-class-11-notes": {
+    "title": "physical world class 11 notes | Exam Compass",
+    "description": "Read physical world class 11 notes on Exam Compass Blog.",
+    "date": "March 4, 2024",
+    "category": "Exam Prep",
+    "h1": "physical-world-class-11-notes",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/plant-growth-and-development-class-11-notes": {
+    "title": "plant growth and development class 11 notes | Exam Compass",
+    "description": "Read plant growth and development class 11 notes on Exam Compass Blog.",
+    "date": "March 4, 2024",
+    "category": "Exam Prep",
+    "h1": "Plant Growth and Development",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/plant-kingdom-class-11-notes": {
+    "title": "plant kingdom class 11 notes | Exam Compass",
+    "description": "Read plant kingdom class 11 notes on Exam Compass Blog.",
+    "date": "March 4, 2024",
+    "category": "Exam Prep",
+    "h1": "Plant Kingdom Class 11 Notes",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
   "/blog/probability-revision-notes": {
     "title": "Probability Class 11 Math Quick Recall / Short Notes (2026-27)",
     "description": "Master Class 11 Math Chapter 16 Probability with our detailed revision notes. Learn Sample Spaces, Events, Mutually Exclusive events, and Axiomatic Probability.",
@@ -438,12 +691,34 @@
     "robots": "index, follow",
     "sitemapGroup": "blogs"
   },
+  "/blog/redox-reactions-class-11-notes": {
+    "title": "redox reactions class 11 notes | Exam Compass",
+    "description": "Read redox reactions class 11 notes on Exam Compass Blog.",
+    "date": "March 4, 2024",
+    "category": "Exam Prep",
+    "h1": "Redox Reactions Class 11 Notes",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
   "/blog/relations-functions-revision-notes": {
     "title": "Relations and Functions Class 11 Math Quick Recall / Short Notes (2026-27)",
     "description": "The ultimate Class 11 Math Chapter 2 guide. Master Cartesian Products, Relations, Domain, Range, and Function types for JEE and CBSE.",
     "date": "March 4, 2024",
     "category": "Exam Prep",
     "h1": "Relations and Functions Class 11 Math Quick Recall / Short Notes (2026-27)",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/respiration-in-plants-class-11-notes": {
+    "title": "respiration in plants class 11 notes | Exam Compass",
+    "description": "Read respiration in plants class 11 notes on Exam Compass Blog.",
+    "date": "March 4, 2024",
+    "category": "Exam Prep",
+    "h1": "Respiration in Plants",
     "type": "blog-post",
     "priority": 0.8,
     "robots": "index, follow",
@@ -537,6 +812,17 @@
     "robots": "index, follow",
     "sitemapGroup": "blogs"
   },
+  "/blog/structural-organisation-in-animals-class-11-notes": {
+    "title": "structural organisation in animals class 11 notes | Exam Compass",
+    "description": "Read structural organisation in animals class 11 notes on Exam Compass Blog.",
+    "date": "March 4, 2024",
+    "category": "Exam Prep",
+    "h1": "Structural Organisation in Animals",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
   "/blog/structure-of-atom-revision-notes": {
     "title": "Structure of Atom Class 11 Chemistry Quick Recall & Quantum Numbers Tricks",
     "description": "Master Bohr's Model, Quantum Numbers, and electronic configuration with my personal Revison Notes for JEE 2026. Includes nodes shortcuts and trap questions.",
@@ -554,6 +840,39 @@
     "date": "March 6, 2024",
     "category": "Study Hacks",
     "h1": "How to Study for 12 Hours Every Day Without Getting Tired (The Easy Way)",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/the-living-world-class-11-notes": {
+    "title": "the living world class 11 notes | Exam Compass",
+    "description": "Read the living world class 11 notes on Exam Compass Blog.",
+    "date": "March 4, 2024",
+    "category": "Exam Prep",
+    "h1": "the-living-world-class-11-notes",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/the-p-block-elements-11-class-11-notes": {
+    "title": "the p block elements 11 class 11 notes | Exam Compass",
+    "description": "Read the p block elements 11 class 11 notes on Exam Compass Blog.",
+    "date": "March 4, 2024",
+    "category": "Exam Prep",
+    "h1": "The P-Block Elements (11) Notes for Class 11",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/the-s-block-elements-class-11-notes": {
+    "title": "the s block elements class 11 notes | Exam Compass",
+    "description": "Read the s block elements class 11 notes on Exam Compass Blog.",
+    "date": "March 4, 2024",
+    "category": "Exam Prep",
+    "h1": "the-s-block-elements-class-11-notes",
     "type": "blog-post",
     "priority": 0.8,
     "robots": "index, follow",
@@ -598,6 +917,17 @@
     "date": "March 4, 2024",
     "category": "Exam Prep",
     "h1": "Three Dimensional Geometry Class 11 Math Quick Recall / Short Notes (2026-27)",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/transport-in-plants-class-11-notes": {
+    "title": "transport in plants class 11 notes | Exam Compass",
+    "description": "Read transport in plants class 11 notes on Exam Compass Blog.",
+    "date": "March 4, 2024",
+    "category": "Exam Prep",
+    "h1": "transport-in-plants-class-11-notes",
     "type": "blog-post",
     "priority": 0.8,
     "robots": "index, follow",

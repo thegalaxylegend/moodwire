@@ -50,11 +50,23 @@ const SUBJECT_GROUPS = {
 
 async function getQuestionsFromAdminSDK() {
     console.log('🔑 Checking for Admin Credentials...');
-    if (!fs.existsSync(serviceAccountPath)) return null;
+    
+    let serviceAccount;
+    if (fs.existsSync(serviceAccountPath)) {
+        serviceAccount = require(serviceAccountPath);
+    } else if (process.env.FIREBASE_SERVICE_ACCOUNT) {
+        try {
+            serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
+            console.log('📝 Found service account in environment variables.');
+        } catch (e) {
+            console.error('❌ Failed to parse FIREBASE_SERVICE_ACCOUNT env var:', e.message);
+        }
+    }
+
+    if (!serviceAccount) return null;
 
     try {
         const admin = require('firebase-admin');
-        const serviceAccount = require(serviceAccountPath);
 
         if (!admin.apps.length) {
             admin.initializeApp({
