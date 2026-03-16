@@ -468,6 +468,69 @@ export const blogs: Blog[] = [
         date: "Mar 14, 2026",
         readTime: "15 min read",
         image: "/blog-images/equilibrium-revision.png"
+    },
+    {
+        id: 'digestion-and-absorption-class-11-notes',
+        title: "Digestion and Absorption Class 11 Notes — Exam Compass",
+        description: "Master Digestion and Absorption for Class 11 Biology with peer-mentor notes, JEE/NEET data, and personal tips.",
+        category: "Class 11 Biology",
+        date: "Mar 16, 2026",
+        readTime: "25 min read",
+        image: "/blog-images/digestion-and-absorption-class-11-notes.webp"
+    },
+    {
+        id: 'breathing-and-exchange-of-gases-class-11-notes',
+        title: "Breathing and Exchange of Gases Class 11 Notes — Exam Compass",
+        description: "Master Breathing and Exchange of Gases for Class 11 Biology with peer-mentor notes, JEE/NEET data, and personal tips.",
+        category: "Class 11 Biology",
+        date: "Mar 16, 2026",
+        readTime: "25 min read",
+        image: "/blog-images/breathing-and-exchange-of-gases-class-11-notes.webp"
+    },
+    {
+        id: 'body-fluids-and-circulation-class-11-notes',
+        title: "Body Fluids and Circulation Class 11 Notes — Exam Compass",
+        description: "Master Body Fluids and Circulation for Class 11 Biology with peer-mentor notes, JEE/NEET data, and personal tips.",
+        category: "Class 11 Biology",
+        date: "Mar 16, 2026",
+        readTime: "25 min read",
+        image: "/blog-images/body-fluids-and-circulation-class-11-notes.webp"
+    },
+    {
+        id: 'excretory-products-and-elimination-class-11-notes',
+        title: "Excretory Products and Elimination Class 11 Notes — Exam Compass",
+        description: "Master Excretory Products and Elimination for Class 11 Biology with peer-mentor notes, JEE/NEET data, and personal tips.",
+        category: "Class 11 Biology",
+        date: "Mar 16, 2026",
+        readTime: "25 min read",
+        image: "/blog-images/excretory-products-and-elimination-class-11-notes.webp"
+    },
+    {
+        id: 'locomotion-and-movement-class-11-notes',
+        title: "Locomotion and Movement Class 11 Notes — Exam Compass",
+        description: "Master Locomotion and Movement for Class 11 Biology with peer-mentor notes, JEE/NEET data, and personal tips.",
+        category: "Class 11 Biology",
+        date: "Mar 16, 2026",
+        readTime: "25 min read",
+        image: "/blog-images/locomotion-and-movement-class-11-notes.webp"
+    },
+    {
+        id: 'neural-control-and-coordination-class-11-notes',
+        title: "Neural Control and Coordination Class 11 Notes — Exam Compass",
+        description: "Master Neural Control and Coordination for Class 11 Biology with peer-mentor notes, JEE/NEET data, and personal tips.",
+        category: "Class 11 Biology",
+        date: "Mar 16, 2026",
+        readTime: "25 min read",
+        image: "/blog-images/neural-control-and-coordination-class-11-notes.webp"
+    },
+    {
+        id: 'chemical-coordination-and-integration-class-11-notes',
+        title: "Chemical Coordination and Integration Class 11 Notes — Exam Compass",
+        description: "Master Chemical Coordination and Integration for Class 11 Biology with peer-mentor notes, JEE/NEET data, and personal tips.",
+        category: "Class 11 Biology",
+        date: "Mar 16, 2026",
+        readTime: "25 min read",
+        image: "/blog-images/chemical-coordination-and-integration-class-11-notes.webp"
     }
 ];
 
