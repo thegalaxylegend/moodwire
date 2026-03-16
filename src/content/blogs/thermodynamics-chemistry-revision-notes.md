@@ -1,13 +1,15 @@
+---
+title: "Thermodynamics Chemistry Revision Notes"
+description: "Ace your JEE/NEET chemistry exam with this comprehensive thermodynamics study guide, covering key concepts and formulas for a strong foundation."
+category: "Physics"
+keywords: "thermodynamics chemistry revision notes, Physics, Exam Compass"
+---
+
+# Thermodynamics Chemistry Revision Notes
+
 # Chemical Thermodynamics — Enthalpy, Entropy & Gibbs Energy Tricks JEE NEET 2026
 
----
-**SEO Metadata**
-- **SEO Title:** Chemical Thermodynamics — Enthalpy, Entropy & Gibbs Energy Tricks JEE NEET 2026
-- **Meta Description:** Crack Hess's Law, Gibbs Free Energy spontaneity, and sign convention traps with Ayush's revision notes. Includes 3 traps and tagged MCQs for JEE NEET 2026.
-- **Keywords:** Chemical Thermodynamics Class 11, First Law of Thermodynamics formula, Hess's Law problems solved, Gibbs Free Energy spontaneity, Enthalpy vs Internal Energy difference, Entropy of universe increases, Bond Enthalpy calculation JEE, Kirchhoff equation
-- **URL Slug:** /blog/thermodynamics-chemistry-revision-notes
-- **Last Updated:** March 14, 2026
----
+
 
 ![Enthalpy and Gibbs Energy diagram for JEE NEET 2026](/blog-images/thermodynamics-chemistry-revision.png)
 
@@ -272,3 +274,6 @@ CBSE loves "Derive the Gibbs-Helmholtz equation" as a 5-mark question. Write the
 
 ---
 *Last Updated: March 14, 2026 | Part of the Class 11 Chemistry Revision Series — NCERT-aligned with JEE/NEET depth.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

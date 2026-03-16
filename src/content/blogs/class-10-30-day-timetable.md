@@ -1,11 +1,11 @@
 ---
 title: "30-Day Timetable for Class 10 Board Exam Prep Guide"
 description: "Master Class 10 boards with our 30-day timetable. Get high-yield study plans, active recall tips, and mock tests for last month success. Plan now!"
-author: "Ayush (Founder, Exam Compass)"
-date: "March 3, 2024"
-category: "Board Exams"
-keywords: ["Class 10 Timetable", "Board Exam Prep", "Last Month Study Plan", "CBSE 10th Guide"]
+category: "Mathematics"
+keywords: "class 10 30 day timetable, Mathematics, Exam Compass"
 ---
+
+# 30-Day Timetable for Class 10 Board Exam Prep Guide
 
 # 30-Day Timetable for Class 10 Board Exam: The Last Month 'Sniper' Prep
 
@@ -79,3 +79,5 @@ Aim for at least 15 mock tests (5 per major subject). This builds the stamina ne
 ### 3. What if I am weak in Mathematics?
 Focus on the "Safe Zone" chapters like Statistics and Probability first. These carry high weightage and are easier to master, ensuring you secure a solid foundation before moving to tougher topics like Trigonometry.
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -129,8 +129,8 @@ export const BlogPostPage: React.FC = () => {
                 title={meta.title}
                 description={meta.description}
                 type="article"
-                canonical={`https://examcompass.web.app/blog/${slug}`}
-                image={meta.image ? `https://examcompass.web.app${meta.image}` : undefined}
+                canonical={`https://examcompass.pages.dev/blog/${slug}`}
+                image={meta.image ? `https://examcompass.pages.dev${meta.image}` : undefined}
                 publishedTime={new Date(meta.date).toISOString()}
                 modifiedTime={new Date(meta.date).toISOString()}
             />
@@ -139,8 +139,8 @@ export const BlogPostPage: React.FC = () => {
                 description={meta.description}
                 authorName="Ayush Kumar"
                 publishDate={meta.date}
-                url={`https://examcompass.web.app/blog/${slug}`}
-                imageUrl={meta.image ? `https://examcompass.web.app${meta.image}` : undefined}
+                url={`https://examcompass.pages.dev/blog/${slug}`}
+                imageUrl={meta.image ? `https://examcompass.pages.dev${meta.image}` : undefined}
             />
             <Navbar />
 

@@ -1,12 +1,15 @@
+---
+title: "Mathematical Reasoning Revision Notes"
+description: "Master JEE/NEET with our comprehensive Mathematics study guide featuring in-depth revision notes on mathematical reasoning."
+category: "Physics"
+keywords: "mathematical reasoning revision notes, Physics, Exam Compass"
+---
+
+# Mathematical Reasoning Revision Notes
+
 # Mathematical Reasoning Class 11 Math Quick Recall / Short Notes (2026-27)
 
----
-**SEO Metadata**
-- **SEO Title:** Mathematical Reasoning Class 11 Math Quick Recall / Short Notes (2026-27)
-- **Meta Description:** Master Class 11 Math Chapter 14 Mathematical Reasoning with our detailed revision notes. Learn Statements, Connectives, Implications, and Contrapositive.
-- **Keywords:** Class 11 Math, Mathematical Reasoning, Statements, Logical Connectives, Quantifiers, Contrapositive, Converse, Logic Notes
-- **URL Slug:** /class-11-math-mathematical-reasoning-revision-notes
----
+
 
 ![Mathematical Logic and Reasoning Flowchart Visual](/blog-images/mathematical-reasoning-revision.png)
 
@@ -98,3 +101,5 @@ Mathematical Reasoning is the "grammar" of mathematics. It ensures that our conc
 
 ---
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

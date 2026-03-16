@@ -10,7 +10,7 @@ const DIST_DIR = path.join(__dirname, '../dist');
 const RSS_NAME = 'rss.xml';
 const MANIFEST_PATH = path.join(PUBLIC_DIR, 'seo-manifest.json');
 
-const BASE_URL = 'https://examcompass.web.app';
+const BASE_URL = 'https://examcompass.pages.dev';
 
 async function generateRSS() {
     console.log('🚀 Generating RSS Feed...');

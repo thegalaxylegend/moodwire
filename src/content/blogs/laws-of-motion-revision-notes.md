@@ -1,12 +1,15 @@
+---
+title: "Laws Of Motion Revision Notes"
+description: "Revised laws of motion notes for JEE & NEET exams, covering 3 laws & inertia with detailed explanations and key formulas."
+category: "Physics"
+keywords: "laws of motion revision notes, Physics, Exam Compass"
+---
+
+# Laws Of Motion Revision Notes
+
 # Laws of Motion Class 11 Physics Quick Recall Sheet (Short Notes 2026-27)
 
----
-**SEO Metadata**
-- **SEO Title:** Laws of Motion Class 11 Physics Quick Recall Sheet (Short Notes 2026-27)
-- **Meta Description:** The most comprehensive Class 11 Physics Chapter 4 revision notes. Master Newton's Laws, Derivation of Banking of Roads, Impulse-Momentum Theorem, and Friction.
-- **Keywords:** Class 11 Physics, Laws of Motion, Newton's Laws Derivation, Banking of Roads Formula, Impulse Momentum Theorem, Friction Physics JEE, NEET Physics Revision
-- **URL Slug:** /class-11-physics-laws-motion-revision-notes
----
+
 
 ![Mechanics Visual: Dynamics, Forces, and Friction](/blog-images/laws-of-motion-revision.png)
 
@@ -118,3 +121,5 @@ Newton’s Laws of Motion provide the fundamental rules of the game of Physics. 
 ---
 **Reference:** [MIT OpenCourseWare: Newton’s Laws](https://ocw.mit.edu/courses/physics/)
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

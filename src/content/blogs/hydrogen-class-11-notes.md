@@ -1,11 +1,13 @@
 ---
-title: Hydrogen Class 11 Notes
-description: Master Hydrogen with our comprehensive Class 11 notes, covering core concepts, shortcuts, and trap questions for JEE and NEET exams.
-slug: hydrogen-class-11-notes
-date: 2026-03-15
+title: "Hydrogen Class 11 Notes"
+description: "Unlock biology success with our comprehensive Hydrogen Class 11 notes - covering essentials, examples, and tips for top scores."
+category: "Biology"
+keywords: "hydrogen class 11 notes, Biology, Exam Compass"
 ---
 
-![Hero Image](https://images.unsplash.com/photo-1532187875605-18d8d2170e9f?auto=format&fit=crop&q=80&w=1200&h=630)
+# Hydrogen Class 11 Notes
+
+![Hydrogen Class 11 Notes Notes](/blog-images/hydrogen-class-11-notes.webp)
 
 ## Quick Recall Box
 * Hydrogen is the lightest and most abundant chemical element in the universe.
@@ -109,3 +111,6 @@ The key points to remember about hydrogen are:
 * It is a key component of water (H2O) and most organic compounds.
 * Hydrogen has a wide range of applications, including energy production, transportation, and industrial processes.
 </div>
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

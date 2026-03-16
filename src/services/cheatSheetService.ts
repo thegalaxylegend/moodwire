@@ -128,7 +128,7 @@ export const downloadBlogPDF = async (input: BlogPDFInput) => {
         doc.setFontSize(7);
         doc.setTextColor(lightGray.r, lightGray.g, lightGray.b);
         doc.setFont("helvetica", "normal");
-        doc.text(`examcompass.web.app  |  ${input.category}  |  Page ${pageNum}`, pw / 2, ph - 12, { align: 'center' });
+        doc.text(`examcompass.pages.dev  |  ${input.category}  |  Page ${pageNum}`, pw / 2, ph - 12, { align: 'center' });
     };
 
     const ensureSpace = (needed: number) => {
@@ -162,7 +162,7 @@ export const downloadBlogPDF = async (input: BlogPDFInput) => {
     doc.setFontSize(8);
     doc.setFont("helvetica", "normal");
     doc.setTextColor(180, 170, 255);
-    doc.text("REVISION NOTES  •  examcompass.web.app", margin, 27);
+    doc.text("REVISION NOTES  •  examcompass.pages.dev", margin, 27);
 
     // Title
     doc.setFontSize(16);
@@ -384,7 +384,7 @@ export const downloadCheatSheetPDF = async (content: CheatSheetContent) => {
         doc.setFontSize(7);
         doc.setTextColor(130, 130, 150);
         doc.setFont("helvetica", "normal");
-        doc.text(`examcompass.web.app  |  Page ${pageNum}`, pw / 2, ph - 12, { align: 'center' });
+        doc.text(`examcompass.pages.dev  |  Page ${pageNum}`, pw / 2, ph - 12, { align: 'center' });
     };
 
     const ensureSpace = (needed: number) => {

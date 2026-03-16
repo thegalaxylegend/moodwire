@@ -1,12 +1,13 @@
 ---
-title: Physical World Class 11 Notes
-description: Comprehensive notes for Physical World, covering all aspects of the chapter for Class 11 students.
-target_slug: physical-world-class-11-notes
-hero_image: /blog-images/physical-world-class-11-notes.png
-date: 2026-03-15
+title: "Physical World Class 11 Notes"
+description: "Unlock physics mastery with our concise & comprehensive Physical World Class 11 study guide, crafted to elevate your exam success."
+category: "Physics"
+keywords: "physical world class 11 notes, Physics, Exam Compass"
 ---
 
-![Hero Image](https://images.unsplash.com/photo-1636466497217-39a814035f42?auto=format&fit=crop&q=80&w=1200&h=630)
+# Physical World Class 11 Notes
+
+![Physical World Class 11 Notes Notes](/blog-images/physical-world-class-11-notes.webp)
 
 ## Quick Recall Box
 * Physical World is a fundamental chapter in Class 11 Physics
@@ -94,3 +95,6 @@ Answer: A) $n = 1 + \log_{10}x$
 
 ## Last Updated Date
 Last Updated: March 15, 2026
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

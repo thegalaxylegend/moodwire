@@ -1,13 +1,15 @@
+---
+title: "Classification Elements Periodicity Revision Notes"
+description: "Accelerate your JEE/NEET prep with our concise & comprehensive classification, elements, periodicity revision notes, tailored for your success."
+category: "Physics"
+keywords: "classification elements periodicity revision notes, Physics, Exam Compass"
+---
+
+# Classification Elements Periodicity Revision Notes
+
 # Classification of Elements & Periodicity — Periodic Trends Tricks JEE NEET 2026
 
----
-**SEO Metadata**
-- **SEO Title:** Classification of Elements & Periodicity — Periodic Trends Tricks JEE NEET 2026
-- **Meta Description:** Crack Ionization Enthalpy anomalies, Electronegativity trends, and Atomic Radius shortcuts with Ayush's Revision Notes. Tagged MCQs for JEE NEET 2026.
-- **Keywords:** Periodic Table Trends JEE 2026, Ionization Enthalpy anomaly N O, Electronegativity Pauling scale, Atomic Radius vs Ionic Radius difference, Electron Gain Enthalpy exceptions, s p d f block elements, diagonal relationship Class 11
-- **URL Slug:** /blog/classification-elements-periodicity-revision-notes
-- **Last Updated:** March 14, 2026
----
+
 
 ![Periodic Table trends diagram for JEE NEET 2026](/blog-images/classification-elements-periodicity-revision.png)
 
@@ -263,3 +265,6 @@ NCERT asks "Explain the trend in Ionization Enthalpy across a period." Always me
 
 ---
 *Last Updated: March 14, 2026 | Part of the Class 11 Chemistry Revision Series — NCERT-aligned with JEE/NEET depth.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

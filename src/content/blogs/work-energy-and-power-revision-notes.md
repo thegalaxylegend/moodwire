@@ -1,12 +1,15 @@
+---
+title: "Work Energy And Power Revision Notes"
+description: "Boost your exam prep with comprehensive work energy & power revision notes, perfect for JEE & NEET students."
+category: "Biology"
+keywords: "work energy and power revision notes, Biology, Exam Compass"
+---
+
+# Work Energy And Power Revision Notes
+
 # Work, Energy and Power Class 11 Physics Quick Recall Sheet (Short Notes 2026-27)
 
----
-**SEO Metadata**
-- **SEO Title:** Work, Energy and Power Class 11 Physics Quick Recall Sheet (Short Notes 2026-27)
-- **Meta Description:** The most detailed Class 11 Physics Chapter 5 revision notes. Master the Work-Energy Theorem Derivation, Spring Potential Energy, and Conservation of Energy.
-- **Keywords:** Class 11 Physics, Work Energy Power, Work Energy Theorem Derivation, Kinetic Energy Proof, Potential Energy of Spring, Collisions Physics JEE, NEET Physics Revision
-- **URL Slug:** /class-11-physics-work-energy-power-revision-notes
----
+
 
 ![Work, Energy, and Power Visuals](/blog-images/work-energy-power-revision.png)
 
@@ -126,3 +129,5 @@ Energy is the invisible currency of the universe. By shifting our perspective fr
 ---
 **Reference:** [Journal of Energy and Power Technology](https://www.lidsen.com/journals/jept)
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

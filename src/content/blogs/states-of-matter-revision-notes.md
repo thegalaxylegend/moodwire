@@ -1,13 +1,15 @@
+---
+title: "States Of Matter Revision Notes"
+description: "Master the 3 states of matter with our concise JEE/NEET prep study guide covering solids, liquids, and gases."
+category: "Physics"
+keywords: "states of matter revision notes, Physics, Exam Compass"
+---
+
+# States Of Matter Revision Notes
+
 # States of Matter — Gas Laws & Real Gases JEE NEET 2026 Tricks
 
----
-**SEO Metadata**
-- **SEO Title:** States of Matter — Gas Laws & Real Gas Deviations JEE NEET 2026 Tricks
-- **Meta Description:** Crack Ideal Gas Equation, van der Waals constants, and Compressibility Factor problems with Ayush's revision notes. Includes 3 traps and tagged MCQs.
-- **Keywords:** States of Matter Class 11, Ideal Gas Equation PV=nRT, van der Waals equation problems, Compressibility Factor Z, Boyle's Law Charles's Law, Graham's Law of Diffusion, Kinetic Molecular Theory postulates, Real vs Ideal gas JEE NEET
-- **URL Slug:** /blog/states-of-matter-revision-notes
-- **Last Updated:** March 14, 2026
----
+
 
 ![Gas Laws and molecular motion diagram for JEE NEET 2026](/blog-images/states-of-matter-revision.png)
 
@@ -273,3 +275,6 @@ In CBSE boards, always draw the $PV$ vs $P$ graph or the $Z$ vs $P$ graph if the
 
 ---
 *Last Updated: March 14, 2026 | Part of the Class 11 Chemistry Revision Series — NCERT-aligned with JEE/NEET depth.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

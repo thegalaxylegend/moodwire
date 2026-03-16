@@ -1,11 +1,11 @@
 ---
 title: "10 Most Common Silly Mistakes in Laws of Motion"
 description: "Stop losing easy marks in Physics. Discover the 10 most common silly mistakes students make while solving Laws of Motion numericals for JEE and NEET."
-category: "JEE & NEET"
-date: "Mar 19, 2026"
-readTime: "7 min read"
-image: "/blog-images/laws-of-motion-revision.png"
+category: "Physics"
+keywords: "laws of motion common mistakes, Physics, Exam Compass"
 ---
+
+# 10 Most Common Silly Mistakes in Laws of Motion
 
 ![10 Common Mistakes in Newton's Laws of Motion Visual](/blog-images/laws-of-motion-mistakes.png)
 
@@ -68,3 +68,5 @@ Mistakes in Physics are rarely mathematical; they are almost always conceptual. 
 
 Jump into our [Laws of Motion Chapter Hub](/neet/physics/laws-of-motion) and solve the Top 50 PYQs while actively avoiding these 10 traps.
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

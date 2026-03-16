@@ -1,12 +1,15 @@
 ---
 title: "Breathing and Exchange of Gases Class 11 Notes — Exam Compass"
-description: "Master Breathing and Exchange of Gases for Class 11 Biology with peer-mentor notes, JEE/NEET data, and personal tips."
-keywords: "Breathing and Exchange of Gases notes, Class 11 Biology, JEE Breathing and Exchange of Gases, NEET Breathing and Exchange of Gases, Exam Compass"
+description: "Master breathing & gas exchange in Biology with our expert JEE/NEET study guide, simplified concepts and practice questions for success."
+category: "Biology"
+keywords: "breathing and exchange of gases class 11 notes, Biology, Exam Compass"
 ---
+
+# Breathing and Exchange of Gases Class 11 Notes — Exam Compass
 
 # Breathing and Exchange of Gases Class 11 Notes for Biology
 
-![Breathing and Exchange of Gases notes for students](https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=1000)
+![Breathing and Exchange of Gases Class 11 Notes — Exam Compass Notes](/blog-images/breathing-and-exchange-of-gases-class-11-notes.webp)
 
 *Last Updated: March 16, 2026*
 
@@ -159,33 +162,8 @@ d) 40 g/mol
 
 Answer: b) 32 g/mol
 
-## LaTeX Code for Equations
-The LaTeX code for the equations used in this chapter is as follows:
-
-```latex
-\documentclass{article}
-\begin{document}
-
-\section{Dalton's Law of Partial Pressures}
-The total pressure of a mixture of gases is equal to the sum of the partial pressures of the individual components:
-\[P_{total} = P_1 + P_2 + ... + P_n\]
-
-\section{Henry's Law}
-The partial pressure of a gas is directly proportional to the concentration of the gas in the liquid:
-\[P = k \times C\]
-
-\section{Fick's Law of Diffusion}
-The rate of diffusion of a gas is proportional to the surface area, the diffusion constant, and the concentration gradient:
-\[\frac{dQ}{dt} = \frac{D \times A}{\Delta x} \times (C_1 - C_2)\]
-
-\section{Graham's Law of Diffusion}
-The rate of diffusion of a gas is inversely proportional to the square root of the molecular weight:
-\[\frac{r_1}{r_2} = \sqrt{\frac{M_2}{M_1}}\]
-
-\end{document}
-```
-
-This LaTeX code can be used to typeset the equations used in this chapter. The equations are formatted using the `equation` environment, and the `latex` package is used to typeset the equations.
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

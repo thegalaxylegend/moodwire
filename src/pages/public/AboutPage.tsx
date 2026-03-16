@@ -11,17 +11,17 @@ export const AboutPage = () => {
             <SEO
                 title="About Exam Compass | AI-Powered Exam Preparation Platform"
                 description="Learn about Exam Compass — an AI-powered exam preparation platform built by a Class 11 student from KV Darbhanga, Bihar. Discover our mission to make exam prep data-driven and accessible."
-                canonical="https://examcompass.web.app/about"
+                canonical="https://examcompass.pages.dev/about"
                 schema={{
                     "@context": "https://schema.org",
                     "@type": "AboutPage",
                     "name": "About Exam Compass",
-                    "url": "https://examcompass.web.app/about",
+                    "url": "https://examcompass.pages.dev/about",
                     "mainEntity": {
                         "@type": "Organization",
                         "name": "Exam Compass",
-                        "url": "https://examcompass.web.app",
-                        "logo": "https://examcompass.web.app/exa-logo.png",
+                        "url": "https://examcompass.pages.dev",
+                        "logo": "https://examcompass.pages.dev/exa-logo.png",
                         "description": "AI-powered exam preparation platform for JEE, NEET, UPSC, and CBSE Class 6-12.",
                         "founder": {
                             "@type": "Person",

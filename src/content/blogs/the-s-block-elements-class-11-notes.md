@@ -1,12 +1,13 @@
 ---
-title: The S-Block Elements
-subject: Chemistry
-class: Class 11
-target_slug: the-s-block-elements-class-11-notes
-hero_image: /blog-images/the-s-block-elements-class-11-notes.png
-date: 2026-03-15
+title: "The S Block Elements Class 11 Notes"
+description: "Crack JEE/NEET with mastery of the s-block elements, Class 11 notes, covering alkali metals, alkaline earth metals, and key concepts for IIT and NEET preparation."
+category: "Physics"
+keywords: "the s block elements class 11 notes, Physics, Exam Compass"
 ---
-![Hero Image](https://images.unsplash.com/photo-1532187875605-18d8d2170e9f?auto=format&fit=crop&q=80&w=1200&h=630)
+
+# The S Block Elements Class 11 Notes
+
+![The S Block Elements Class 11 Notes Notes](/blog-images/the-s-block-elements-class-11-notes.webp)
 ### Quick Recall Box
 * The s-block elements are in Group 1 and 2 of the periodic table.
 * They are also known as the alkali metals and alkaline earth metals.
@@ -115,3 +116,6 @@ For more information on the s-block elements, you can refer to the following not
 
 ## Last Updated Date
 Last Updated: March 15, 2026
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -19,12 +19,12 @@ export const AboutAuthor = ({ compact = false }: AboutAuthorProps) => {
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Ayush Kumar",
-        "url": "https://examcompass.web.app/about",
+        "url": "https://examcompass.pages.dev/about",
         "jobTitle": "Founder & Student Developer",
         "worksFor": {
             "@type": "Organization",
             "name": "Exam Compass",
-            "url": "https://examcompass.web.app"
+            "url": "https://examcompass.pages.dev"
         },
         "alumniOf": {
             "@type": "EducationalOrganization",
@@ -134,10 +134,10 @@ export const AboutAuthor = ({ compact = false }: AboutAuthorProps) => {
                 </div>
 
                 {/* Hidden structured data for crawlers */}
-                <meta itemProp="url" content="https://examcompass.web.app/about" />
+                <meta itemProp="url" content="https://examcompass.pages.dev/about" />
                 <span itemProp="worksFor" itemScope itemType="https://schema.org/Organization" style={{ display: 'none' }}>
                     <meta itemProp="name" content="Exam Compass" />
-                    <meta itemProp="url" content="https://examcompass.web.app" />
+                    <meta itemProp="url" content="https://examcompass.pages.dev" />
                 </span>
             </section>
         </>

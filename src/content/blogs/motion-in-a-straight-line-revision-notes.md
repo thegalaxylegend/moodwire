@@ -1,12 +1,15 @@
+---
+title: "Motion In A Straight Line Revision Notes"
+description: "Master physics with confidence, covering motion in a straight line concepts, formulas, and exam tips in our comprehensive student study guide."
+category: "Physics"
+keywords: "motion in a straight line revision notes, Physics, Exam Compass"
+---
+
+# Motion In A Straight Line Revision Notes
+
 # Motion in a Straight Line Class 11 Physics Quick Recall (Short Notes 2026-27)
 
----
-**SEO Metadata**
-- **SEO Title:** Motion in a Straight Line Class 11 Physics Quick Recall (Short Notes 2026-27)
-- **Meta Description:** The most comprehensive Class 11 Physics Chapter 2 revision notes. Master the Derivation of Kinematic Equations using Calculus, Relative Velocity, and Graph Analysis.
-- **Keywords:** Class 11 Physics, Motion in a Straight Line, Kinematic Equations Derivation, Calculus in Physics, Relative Velocity 1D, NCERT Physics Revision, JEE Kinematics Notes
-- **URL Slug:** /class-11-physics-motion-straight-line-revision-notes
----
+
 
 ![Kinematics Visual: Motion in a Straight Line and Calculus Concepts](/blog-images/motion-straight-line-revision.png)
 
@@ -139,3 +142,5 @@ Motion in a straight line is the foundation upon which all of Mechanical Physics
 ---
 **Reference:** [Khan Academy: Physics Kinematics](https://www.khanacademy.org/science/physics/one-dimensional-motion)
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

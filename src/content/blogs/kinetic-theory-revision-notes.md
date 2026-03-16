@@ -1,12 +1,15 @@
+---
+title: "Kinetic Theory Revision Notes"
+description: "Revise and master Kinetic Theory with our in-depth guide, perfect for JEE/NEET preparation."
+category: "Physics"
+keywords: "kinetic theory revision notes, Physics, Exam Compass"
+---
+
+# Kinetic Theory Revision Notes
+
 # Kinetic Theory of Gases Class 11 Physics Quick Recall (Short Notes 2026-27)
 
----
-**SEO Metadata**
-- **SEO Title:** Kinetic Theory of Gases Class 11 Physics Quick Recall (Short Notes 2026-27)
-- **Meta Description:** The most detailed Class 11 Physics Chapter 12 revision notes. Master the Derivation of Ideal Gas Pressure, Degrees of Freedom, and Mayer's Relation.
-- **Keywords:** Class 11 Physics, Kinetic Theory of Gases, Ideal Gas Pressure Derivation, RMS Velocity Proof, Degree of Freedom Diatomic, Mayer's Relation Derivation, JEE Physics, NEET Physics Revision
-- **URL Slug:** /class-11-physics-kinetic-theory-revision-notes
----
+
 
 ![Molecular Visual: Gas Molecules, Collisions, and Kinetic Dynamics](/blog-images/ktg-revision.png)
 
@@ -119,3 +122,5 @@ The Kinetic Theory of Gases transforms our view of matter from static substances
 ---
 **Reference:** [Encyclopaedia Britannica: Kinetic Theory of Gases](https://www.britannica.com/science/kinetic-theory-of-gases)
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

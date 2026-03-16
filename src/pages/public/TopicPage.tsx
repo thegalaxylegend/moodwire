@@ -96,8 +96,8 @@ export const TopicPage = () => {
             "provider": {
                 "@type": "Organization",
                 "name": "Exam Compass",
-                "sameAs": "https://examcompass.web.app",
-                "url": "https://examcompass.web.app"
+                "sameAs": "https://examcompass.pages.dev",
+                "url": "https://examcompass.pages.dev"
             },
             "hasCourseInstance": {
                 "@type": "CourseInstance",
@@ -111,10 +111,10 @@ export const TopicPage = () => {
         {
             "@type": "BreadcrumbList",
             "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://examcompass.web.app/" },
-                { "@type": "ListItem", "position": 2, "name": formattedExam, "item": `https://examcompass.web.app/${exam}` },
-                { "@type": "ListItem", "position": 3, "name": realSubject, "item": `https://examcompass.web.app/${exam}/${subject}` },
-                { "@type": "ListItem", "position": 4, "name": cleanTopicName, "item": `https://examcompass.web.app/${exam}/${subject}/${topic}` }
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://examcompass.pages.dev/" },
+                { "@type": "ListItem", "position": 2, "name": formattedExam, "item": `https://examcompass.pages.dev/${exam}` },
+                { "@type": "ListItem", "position": 3, "name": realSubject, "item": `https://examcompass.pages.dev/${exam}/${subject}` },
+                { "@type": "ListItem", "position": 4, "name": cleanTopicName, "item": `https://examcompass.pages.dev/${exam}/${subject}/${topic}` }
             ]
         }
     ];
@@ -158,7 +158,7 @@ export const TopicPage = () => {
             "name": `${cleanTopicName} Practice Questions for ${contextName}`,
             "numberOfItems": sampleQuestions.length,
             "itemListElement": sampleQuestions.map((q: any, i: number) => ({
-                "@type": "ListItem", "position": i + 1, "url": `https://examcompass.web.app/${exam}/q/${q.slug}`
+                "@type": "ListItem", "position": i + 1, "url": `https://examcompass.pages.dev/${exam}/q/${q.slug}`
             }))
         });
     }
@@ -191,7 +191,7 @@ export const TopicPage = () => {
             <SEO
                 title={pageTitle}
                 description={seoDescription}
-                canonical={`https://examcompass.web.app/${exam}/${subject}/${topic}`}
+                canonical={`https://examcompass.pages.dev/${exam}/${subject}/${topic}`}
                 keywords={seoKeywords}
                 schema={schemaData}
             />

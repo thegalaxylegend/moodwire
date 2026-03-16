@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
-    <loc>https://examcompass.web.app/sitemap-core.xml</loc>
+    <loc>https://examcompass.pages.dev/sitemap-core.xml</loc>
     <lastmod>2026-03-16</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://examcompass.web.app/sitemap-blogs.xml</loc>
+    <loc>https://examcompass.pages.dev/sitemap-blogs.xml</loc>
     <lastmod>2026-03-16</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://examcompass.web.app/sitemap-topics.xml</loc>
+    <loc>https://examcompass.pages.dev/sitemap-topics.xml</loc>
     <lastmod>2026-03-16</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://examcompass.web.app/sitemap-questions-batch1.xml</loc>
+    <loc>https://examcompass.pages.dev/sitemap-questions-batch1.xml</loc>
     <lastmod>2026-03-16</lastmod>
   </sitemap>
 </sitemapindex>

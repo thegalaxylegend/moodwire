@@ -1,12 +1,15 @@
+---
+title: "Sets Revision Notes"
+description: "Unlock JEE and NEET success with our comprehensive study guide on sets, covering key concepts and formulas for IIT JEE and NEET exam prep."
+category: "Chemistry"
+keywords: "sets revision notes, Chemistry, Exam Compass"
+---
+
+# Sets Revision Notes
+
 # Sets Class 11 Math Quick Recall / Short Notes (2026-27)
 
----
-**SEO Metadata**
-- **SEO Title:** Sets Class 11 Math Quick Recall / Short Notes (2026-27)
-- **Meta Description:** Master Class 11 Math Chapter 1 Sets with our detailed revision notes. Learn Roaster form, Set-builder form, Union, Intersection, and Venn Diagrams.
-- **Keywords:** Class 11 Math, Sets, Set Theory, Venn Diagrams, Union and Intersection, Subsets, JEE Main Math Notes, CBSE Class 11 Math
-- **URL Slug:** /class-11-math-sets-revision-notes
----
+
 
 ![Venn Diagrams and Set Theory Concepts](/blog-images/sets-revision.png)
 
@@ -112,3 +115,5 @@ Sets are more than just lists of numbers; they are the building blocks of logica
 
 ---
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

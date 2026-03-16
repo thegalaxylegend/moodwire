@@ -1,57 +1,64 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import 'dotenv/config';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const blogsDir = path.join(__dirname, '../src/content/blogs');
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
-const fallbacks = {
-    'Biology': 'https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=1200&h=630',
-    'Physics': 'https://images.unsplash.com/photo-1636466497217-39a814035f42?auto=format&fit=crop&q=80&w=1200&h=630',
-    'Chemistry': 'https://images.unsplash.com/photo-1532187875605-18d8d2170e9f?auto=format&fit=crop&q=80&w=1200&h=630',
-    'Maths': 'https://images.unsplash.com/photo-1509228468518-180dd48219d8?auto=format&fit=crop&q=80&w=1200&h=630',
-    'Mathematics': 'https://images.unsplash.com/photo-1509228468518-180dd48219d8?auto=format&fit=crop&q=80&w=1200&h=630'
-};
+const BLOG_DIR = path.join(__dirname, '../src/content/blogs');
+const IMAGE_DIR = path.join(__dirname, '../public/blog-images');
 
-function repair() {
-    console.log('🩹 Jules: Repairing broken image links in blogs...');
+async function downloadHeroImage(topic, slug, subject) {
+    const webpPath = path.join(IMAGE_DIR, `${slug}.webp`);
+    if (fs.existsSync(webpPath)) return;
+
+    console.log(`🎨 Jules: Repairing artwork for "${topic}"...`);
+    const artPromptUser = `Scientific diagram of ${topic}, ${subject} theme, dark background, cyan and purple neon accents, holographic interface style, 16:9 aspect ratio, cinematic lighting, 8k, no text.`;
     
-    const files = fs.readdirSync(blogsDir).filter(f => f.endsWith('.md'));
-    let count = 0;
+    try {
+        const encodedPrompt = encodeURIComponent(artPromptUser);
+        const imageUrl = `https://image.pollinations.ai/prompt/${encodedPrompt}?width=1200&height=630&nologo=true`;
 
-    for (const file of files) {
-        const filePath = path.join(blogsDir, file);
-        let content = fs.readFileSync(filePath, 'utf8');
-        
-        // Find links that point to local files that might be missing or broken
-        const imgRegex = /!\[.*?\]\(\/blog-images\/(.*?)\)/g;
-        let match;
-        let needsUpdate = false;
+        const response = await fetch(imageUrl);
+        if (!response.ok) throw new Error("Pollinations failed");
 
-        while ((match = imgRegex.exec(content)) !== null) {
-            const localPath = path.join(__dirname, '../public/blog-images', match[1]);
-            
-            // If the local image is missing or was the tiny 3KB garbage we just deleted
-            if (!fs.existsSync(localPath)) {
-                // Determine subject for fallback
-                let fallback = fallbacks['Biology'];
-                if (content.toLowerCase().includes('physics')) fallback = fallbacks['Physics'];
-                if (content.toLowerCase().includes('chemistry')) fallback = fallbacks['Chemistry'];
-                if (content.toLowerCase().includes('math')) fallback = fallbacks['Maths'];
+        const bufferBuffer = await response.arrayBuffer();
+        const { default: sharp } = await import('sharp');
+        await sharp(Buffer.from(bufferBuffer))
+            .resize(1200, 630, { fit: 'cover' })
+            .webp({ quality: 85 })
+            .toFile(webpPath);
 
-                content = content.replace(match[0], `![Hero Image](${fallback})`);
-                needsUpdate = true;
-            }
-        }
-
-        if (needsUpdate) {
-            fs.writeFileSync(filePath, content);
-            console.log(`✅ Repaired: ${file}`);
-            count++;
-        }
+        console.log(`✅ Image saved: ${slug}.webp`);
+    } catch (err) {
+        console.warn(`⚠️ Failed to generate image for ${slug}`);
     }
-
-    console.log(`\n🩹 Done! Fixed ${count} blog posts.`);
 }
 
-repair();
+async function repair() {
+    if (!fs.existsSync(IMAGE_DIR)) fs.mkdirSync(IMAGE_DIR, { recursive: true });
+    
+    const blogs = fs.readdirSync(BLOG_DIR).filter(f => f.endsWith('.md'));
+    for (const file of blogs) {
+        const content = fs.readFileSync(path.join(BLOG_DIR, file), 'utf8');
+        const slug = file.replace('.md', '');
+        
+        const titleMatch = content.match(/title:\s*["'](.*?)["']/);
+        const topic = titleMatch ? titleMatch[1] : slug;
+        
+        const catMatch = content.match(/category:\s*["'](.*?)["']/);
+        const subject = catMatch ? catMatch[1] : 'Science';
+
+        const imageMatch = content.match(/\!\[.*?\]\(\/blog-images\/(.*?\.webp)\)/);
+        if (imageMatch) {
+            const imageName = imageMatch[1];
+            const imagePath = path.join(IMAGE_DIR, imageName);
+            if (!fs.existsSync(imagePath)) {
+                await downloadHeroImage(topic, slug, subject);
+            }
+        }
+    }
+}
+
+repair().catch(console.error);

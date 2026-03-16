@@ -1,12 +1,15 @@
+---
+title: "Linear Inequalities Revision Notes"
+description: "Master linear inequalities with expert tips and shortcuts for JEE/NEET exams success - get started now."
+category: "Physics"
+keywords: "linear inequalities revision notes, Physics, Exam Compass"
+---
+
+# Linear Inequalities Revision Notes
+
 # Linear Inequalities Class 11 Math Quick Recall / Short Notes (2026-27)
 
----
-**SEO Metadata**
-- **SEO Title:** Linear Inequalities Class 11 Math Quick Recall / Short Notes (2026-27)
-- **Meta Description:** Master Class 11 Math Chapter 6 Linear Inequalities. Learn the rules for solving inequalities, graphical representation in 2D, and interval notation for JEE/CBSE.
-- **Keywords:** Class 11 Math, Linear Inequalities, Shaded Regions, Interval Notation, Graphical Solution, JEE Math Notes, Class 11 Math Revision
-- **URL Slug:** /class-11-math-linear-inequalities-revision-notes
----
+
 
 ![The Logic of Ranges: Linear Inequalities](/blog-images/linear-inequalities-revision.png)
 
@@ -104,3 +107,5 @@ Linear Inequalities shift your thinking from "points" to "regions." By mastering
 
 ---
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

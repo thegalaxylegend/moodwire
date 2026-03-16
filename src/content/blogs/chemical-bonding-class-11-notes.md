@@ -1,13 +1,15 @@
+---
+title: "Chemical Bonding Class 11 Notes"
+description: "Ace JEE/NEET with comprehensive Class 11 Chemical Bonding notes, covering types, formation, and properties for ultimate exam preparation success."
+category: "Physics"
+keywords: "chemical bonding class 11 notes, Physics, Exam Compass"
+---
+
+# Chemical Bonding Class 11 Notes
+
 # Chemical Bonding VSEPR Theory JEE 2026 tricks — Hybridization & Shapes
 
----
-**SEO Metadata**
-- **SEO Title:** Chemical Bonding VSEPR Theory JEE 2026 tricks & Shortcut Formulas
-- **Meta Description:** Master hybridization and VSEPR theory shapes with my personal shortcuts for JEE 2026. Includes MOT bond order comparisons (O2, O2+, O2-) and trap questions.
-- **Keywords:** Chemical Bonding, VSEPR Theory shapes table, Hybridization shortcut formula JEE, MOT bond order O2 O2+ O2- comparison, JEE NEET 2026 tricks, Chemical bonding exceptions, Fajan's Rule JEE, Dipole Moment shortcuts, Drago's Rule, Lattice Energy, Born-Haber Cycle, Resonance Energy, Diborane Banana Bonds, Heme Bonding CO poisoning
-- **URL Slug:** /blog/chemical-bonding-class-11-notes
-- **Last Updated:** March 14, 2026
----
+
 
 ![VSEPR Theory shapes table for JEE NEET 2026](/blog-images/chemical-bonding-molecular-structure-revision.png)
 
@@ -328,3 +330,6 @@ Don't just memorize the table. Ask yourself "Why does lone pair repulsion decrea
 
 ---
 *Last Updated: March 14, 2026 | Part of the Class 11 Chemistry SEO Dominance Series.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

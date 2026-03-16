@@ -11,7 +11,7 @@ const SITEMAP_INDEX_NAME = 'sitemap.xml';
 const ROBOTS_NAME = 'robots.txt';
 const MANIFEST_PATH = path.join(PUBLIC_DIR, 'seo-manifest.json');
 
-const BASE_URL = 'https://examcompass.web.app';
+const BASE_URL = 'https://examcompass.pages.dev';
 
 async function generateSitemap() {
     console.log('🚀 Generating Sitemaps from Manifest...');

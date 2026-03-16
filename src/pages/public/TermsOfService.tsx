@@ -8,16 +8,16 @@ export const TermsOfService = () => {
             <SEO
                 title="Terms of Service | Exam Compass"
                 description="Read the Exam Compass Terms of Service. Understand the rules and guidelines for using our AI-powered exam preparation platform."
-                canonical="https://examcompass.web.app/terms"
+                canonical="https://examcompass.pages.dev/terms"
                 schema={{
                     "@context": "https://schema.org",
                     "@type": "WebPage",
                     "name": "Terms of Service",
-                    "url": "https://examcompass.web.app/terms",
+                    "url": "https://examcompass.pages.dev/terms",
                     "publisher": {
                         "@type": "Organization",
                         "name": "Exam Compass",
-                        "url": "https://examcompass.web.app"
+                        "url": "https://examcompass.pages.dev"
                     }
                 }}
             />
@@ -34,7 +34,7 @@ export const TermsOfService = () => {
                     <section>
                         <h2 className="text-3xl font-bold text-white mb-6">1. Contractual Framework</h2>
                         <p className="leading-relaxed text-lg">
-                            By accessing and using Exam Compass (examcompass.web.app), you are entering into a legally binding agreement with Exam Compass ("we," "our," or "us"). These Terms of Service ("Terms") govern your access to and use of our AI-powered exam preparation services, including all software, data, and content delivered via the platform.
+                            By accessing and using Exam Compass (examcompass.pages.dev), you are entering into a legally binding agreement with Exam Compass ("we," "our," or "us"). These Terms of Service ("Terms") govern your access to and use of our AI-powered exam preparation services, including all software, data, and content delivered via the platform.
                         </p>
                         <p className="leading-relaxed text-lg">
                             If you are under the age of 18, you represent that you have reviewed these Terms with your parent or legal guardian and that they have consented to your use of the platform. If you do not agree to these Terms in their entirety, you are strictly prohibited from accessing the Site or using any of our services.

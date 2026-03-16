@@ -1,12 +1,15 @@
+---
+title: "Sequences Series Revision Notes"
+description: "A comprehensive sequence & series study guide for JEE/NEET aspirants, covering key concepts & formulas with concise revision notes."
+category: "Mathematics"
+keywords: "sequences series revision notes, Mathematics, Exam Compass"
+---
+
+# Sequences Series Revision Notes
+
 # Sequences and Series Class 11 Math Quick Recall / Short Notes (2026-27)
 
----
-**SEO Metadata**
-- **SEO Title:** Sequences and Series Class 11 Math Quick Recall / Short Notes
-- **Meta Description:** Master Class 11 Math Chapter 9 Sequences and Series. Learn Arithmetic Progression (AP), Geometric Progression (GP), and Arithmetic/Geometric Mean.
-- **Keywords:** Class 11 Math, Sequences and Series, Arithmetic Progression, Geometric Progression, AP Formulas, GP Formulas, AM and GM Relation, JEE Math Prep
-- **URL Slug:** /class-11-math-sequences-series-revision-notes
----
+
 
 ![Visualizing Mathematical Progressions and Series](/blog-images/sequences-series-revision.png)
 
@@ -113,3 +116,5 @@ Sequences and Series are not just lists of numbers; they are the language of gro
 
 ---
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

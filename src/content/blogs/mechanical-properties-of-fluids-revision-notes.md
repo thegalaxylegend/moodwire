@@ -1,12 +1,15 @@
+---
+title: "Mechanical Properties Of Fluids Revision Notes"
+description: "Master fluid mechanics with our comprehensive revision notes on mechanical properties, perfect for JEE/NEET prep."
+category: "Physics"
+keywords: "mechanical properties of fluids revision notes, Physics, Exam Compass"
+---
+
+# Mechanical Properties Of Fluids Revision Notes
+
 # Mechanical Properties of Fluids Class 11 Physics Quick Recall (Short Notes 2026-27)
 
----
-**SEO Metadata**
-- **SEO Title:** Mechanical Properties of Fluids Class 11 Physics Quick Recall (Short Notes 2026-27)
-- **Meta Description:** The most comprehensive Class 11 Physics Chapter 9 revision notes. Master Pascal's Law, Stokes' Law, Bernoulli's Theorem Derivation, and Surface Tension.
-- **Keywords:** Class 11 Physics, Mechanical Properties of Fluids, Bernoulli's Theorem Derivation, Equation of Continuity Proof, Pascal's Law, Terminal Velocity Derivation, Fluid Dynamics JEE, NEET Physics Revision
-- **URL Slug:** /class-11-physics-fluids-revision-notes
----
+
 
 ![Fluid Mechanics and Properties Visual](/blog-images/fluids-revision.png)
 
@@ -125,3 +128,5 @@ The physics of fluids is the physics of flow—from the blood in our veins to th
 ---
 **Reference:** [Physics Classroom: Fluid Mechanics](https://www.physicsclassroom.com/class/fluids)
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

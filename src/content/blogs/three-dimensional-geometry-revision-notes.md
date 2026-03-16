@@ -1,12 +1,15 @@
+---
+title: "Three Dimensional Geometry Revision Notes"
+description: "Unlock JEE/NEET success with our 3D Geometry study guide, covering key concepts and problem-solving strategies for a stronger maths foundation."
+category: "Physics"
+keywords: "three dimensional geometry revision notes, Physics, Exam Compass"
+---
+
+# Three Dimensional Geometry Revision Notes
+
 # Three Dimensional Geometry Class 11 Math Quick Recall / Short Notes (2026-27)
 
----
-**SEO Metadata**
-- **SEO Title:** 3D Geometry Class 11 Math Quick Recall / Short Notes
-- **Meta Description:** Master Class 11 Math Chapter 12 3D Geometry. Learn Coordinate Octants, Distance formula in 3D, and Section formula.
-- **Keywords:** Class 11 Math, 3D Geometry, Octants, Distance Formula in 3D, Section Formula, Coordinate Planes, JEE Math Notes, CBSE Class 11 Math
-- **URL Slug:** /class-11-math-three-dimensional-geometry-revision-notes
----
+
 
 ![Navigating the 3D Cartesian Coordinate System](/blog-images/three-dimensional-geometry-revision.png)
 
@@ -108,3 +111,5 @@ The centroid of a triangle with vertices (x₁, y₁, z₁), (x₂, y₂, z₂),
 
 ---
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -1,12 +1,15 @@
 ---
 title: "Excretory Products and Elimination Class 11 Notes — Exam Compass"
-description: "Master Excretory Products and Elimination for Class 11 Biology with peer-mentor notes, JEE/NEET data, and personal tips."
-keywords: "Excretory Products and Elimination notes, Class 11 Biology, JEE Excretory Products and Elimination, NEET Excretory Products and Elimination, Exam Compass"
+description: "Master Excretory Products and Elimination with JEE/NEET prep, our study guide covers key concepts and strategies for success."
+category: "Biology"
+keywords: "excretory products and elimination class 11 notes, Biology, Exam Compass"
 ---
+
+# Excretory Products and Elimination Class 11 Notes — Exam Compass
 
 # Excretory Products and Elimination Class 11 Notes for Biology
 
-![Excretory Products and Elimination notes for students](https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=1000)
+![Excretory Products and Elimination Class 11 Notes — Exam Compass Notes](/blog-images/excretory-products-and-elimination-class-11-notes.webp)
 
 *Last Updated: March 16, 2026*
 
@@ -106,21 +109,6 @@ The excretory system is also involved in the regulation of the body's acid-base 
 
 The excretory system is also involved in the regulation of the body's electrolyte balance. The kidneys play a crucial role in this process by removing excess electrolytes from the body. The liver also plays a role in electrolyte balance by producing bile and helping to regulate the body's metabolism.
 
-### LaTeX Code
-The following LaTeX code is used to format the equations in this document:
-```latex
-\documentclass{article}
-\begin{document}
-\section{Glomerular filtration rate (GFR)}
-The GFR can be calculated using the following formula:
-$$\text{GFR} = \frac{\text{urine output} \times \text{urea concentration in urine}}{\text{urea concentration in blood}}$$
-\section{Cockcroft-Gault equation}
-The Cockcroft-Gault equation is used to estimate the GFR based on serum creatinine levels, age, sex, and weight:
-$$\text{GFR} = \frac{(140 - \text{age}) \times \text{weight} \times (0.85 \text{ if female})}{72 \times \text{serum creatinine}}$$
-\end{document}
-```
-This LaTeX code is used to format the equations in this document, and to create a professional-looking document.
-
 ### JEE/NEET Data Cont.
 The following JEE/NEET data is relevant to the excretory system:
 
@@ -189,22 +177,8 @@ The following JEE/NEET data is relevant to the excretory system:
 
 This data is essential for understanding the functions of the excretory system, and for success in the JEE and NEET exams.
 
-### LaTeX Code Cont.
-The following LaTeX code is used to format the equations in this document:
-```latex
-\documentclass{article}
-\begin{document}
-\section{Glomerular filtration rate (GFR)}
-The GFR can be calculated using the following formula:
-$$\text{GFR} = \frac{\text{urine output} \times \text{urea concentration in urine}}{\text{urea concentration in blood}}$$
-\section{Cockcroft-Gault equation}
-The Cockcroft-Gault equation is used to estimate the GFR based on serum creatinine levels, age, sex, and weight:
-$$\text{GFR} = \frac{(140 - \text{age}) \times \text{weight} \times (0.85 \text{ if female})}{72 \times \text{serum creatinine}}$$
-\end{document}
-```
-This LaTeX code is used to format the equations in this document, and to create a professional-looking document.
-
-By understanding the core concepts, formulae, and JEE/NEET data relevant to the excretory system, students can develop a deep understanding of the excretory system and its functions, and can prepare for success in the JEE and NEET exams. The excretory system is a complex system that involves the coordination of multiple organs and processes, and is essential for maintaining homeostasis in the body and for overall health and well-being.
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -1,12 +1,15 @@
+---
+title: "Thermal Properties Of Matter Revision Notes"
+description: "Revising thermal properties of matter made easy, comprehensive study guide for JEE/NEET exams"
+category: "Physics"
+keywords: "thermal properties of matter revision notes, Physics, Exam Compass"
+---
+
+# Thermal Properties Of Matter Revision Notes
+
 # Thermal Properties of Matter Class 11 Physics Quick Recall (Short Notes 2026-27)
 
----
-**SEO Metadata**
-- **SEO Title:** Thermal Properties of Matter Class 11 Physics Quick Recall (Short Notes 2026-27)
-- **Meta Description:** The most detailed Class 11 Physics Chapter 10 revision notes. Master Thermal Expansion, Newton's Law of Cooling Derivation, and Calorimetry.
-- **Keywords:** Class 11 Physics, Thermal Properties of Matter, Thermal Expansion Derivations, Newton's Law of Cooling Proof, Specific Heat Capacity, Calorimetry JEE, NEET Physics Revision
-- **URL Slug:** /class-11-physics-thermal-properties-revision-notes
----
+
 
 ![Thermal Properties and Calorimetry Visual](/blog-images/thermal-properties-revision.png)
 
@@ -118,3 +121,5 @@ Thermal properties define the limits of sustainability and efficiency in our wor
 ---
 **Reference:** [NIST: Thermodynamics and Thermal Properties](https://www.nist.gov)
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

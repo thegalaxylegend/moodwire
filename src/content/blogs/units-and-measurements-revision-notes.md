@@ -1,12 +1,15 @@
+---
+title: "Units And Measurements Revision Notes"
+description: "Boost JEE/NEET prep with our concise units & measurements revision notes, covering SI & non-SI systems, precision & uncertainty."
+category: "Physics"
+keywords: "units and measurements revision notes, Physics, Exam Compass"
+---
+
+# Units And Measurements Revision Notes
+
 # Units and Measurement Class 11 Physics Quick Recall / Short Notes (2026-27)
 
----
-**SEO Metadata**
-- **SEO Title:** Units and Measurement Class 11 Physics Quick Recall / Short Notes (2026-27)
-- **Meta Description:** The most detailed Class 11 Physics Chapter 1 revision notes. Master SI units, Advanced Dimensional Analysis Derivations, Error Propagation Proofs, and Precision.
-- **Keywords:** Class 11 Physics, Units and Measurements, Dimensional Analysis Derivations, Error Propagation Formula Proof, SI Units Physics, JEE Main Physics Notes, NEET Physics Prep
-- **URL Slug:** /class-11-physics-units-measurement-revision-notes
----
+
 
 ![Precision Engineering: The Science of Measurement](/blog-images/units-and-measurements-revision.png)
 
@@ -146,3 +149,5 @@ Units and Measurements are not just "entry-level" topics; they are the filter th
 ---
 **Reference:** [BIPM: The International System of Units](https://www.bipm.org/en/measurement-units/)
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

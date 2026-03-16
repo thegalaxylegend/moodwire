@@ -25,4 +25,4 @@ Allow: /
 Disallow: /dashboard/
 
 # Sitemap location
-Sitemap: https://examcompass.web.app/sitemap.xml
+Sitemap: https://examcompass.pages.dev/sitemap.xml

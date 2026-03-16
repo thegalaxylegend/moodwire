@@ -1,5 +1,14 @@
+---
+title: "Plant Kingdom Class 11 Notes"
+description: "Unlock plant kingdom mastery with our comprehensive Class 11 Biology study guide - get instant access to key concepts, diagrams, and exam prep strategies now."
+category: "Biology"
+keywords: "plant kingdom class 11 notes, Biology, Exam Compass"
+---
+
 # Plant Kingdom Class 11 Notes
-![Hero Image](https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=1200&h=630)
+
+# Plant Kingdom Class 11 Notes
+![Plant Kingdom Class 11 Notes Notes](/blog-images/plant-kingdom-class-11-notes.webp)
 Last Updated: March 15, 2026
 
 ## Quick Recall Box
@@ -110,3 +119,6 @@ Answer: d) All of the above
 * [Molecular Biology Class 12 Notes](/blog/molecular-biology-class-12-notes)
 
 Note: The above links are to existing posts only.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

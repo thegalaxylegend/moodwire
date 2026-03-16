@@ -1,12 +1,15 @@
+---
+title: "Mathematical Induction Revision Notes"
+description: "Boost your scores with concise Math induction notes. Master key concepts, problem-solving techniques & common JEE/NEET questions."
+category: "Physics"
+keywords: "mathematical induction revision notes, Physics, Exam Compass"
+---
+
+# Mathematical Induction Revision Notes
+
 # Mathematical Induction Class 11 Math Quick Recall / Short Notes (2026-27)
 
----
-**SEO Metadata**
-- **SEO Title:** Mathematical Induction Class 11 Math Quick Recall / Short Notes (2026-27)
-- **Meta Description:** Master Class 11 Math Chapter 4 Principle of Mathematical Induction with our detailed revision notes. Learn PMI, Base Case, and Inductive Step.
-- **Keywords:** Class 11 Math, Mathematical Induction, PMI, Base Case, Inductive Step, Proving Mathematical Statements, CBSE Class 11 Math Notes
-- **URL Slug:** /class-11-math-mathematical-induction-revision-notes
----
+
 
 ![Principle of Mathematical Induction Concept and Domino Effect Visual](/blog-images/mathematical-induction-revision.png)
 
@@ -95,3 +98,5 @@ Mathematical Induction removes the "guesswork" from general observations. It all
 
 ---
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

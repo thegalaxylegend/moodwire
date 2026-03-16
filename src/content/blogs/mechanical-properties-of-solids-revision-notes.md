@@ -1,12 +1,15 @@
+---
+title: "Mechanical Properties Of Solids Revision Notes"
+description: "Master general mechanics with our simplified JEE/NEET study guide - mechanical properties of solids explained."
+category: "Physics"
+keywords: "mechanical properties of solids revision notes, Physics, Exam Compass"
+---
+
+# Mechanical Properties Of Solids Revision Notes
+
 # Mechanical Properties of Solids Class 11 Physics Quick Recall (Short Notes 2026-27)
 
----
-**SEO Metadata**
-- **SEO Title:** Mechanical Properties of Solids Class 11 Physics Quick Recall (Short Notes 2026-27)
-- **Meta Description:** The most detailed Class 11 Physics Chapter 8 revision notes. Master Stress-Strain Curve, Hooke's Law, and the Derivation of Elastic Potential Energy.
-- **Keywords:** Class 11 Physics, Mechanical Properties of Solids, Elastic Potential Energy Derivation, Stress-Strain Curve, Young's Modulus, Poisson's Ratio, JEE Physics, NEET Physics Revision
-- **URL Slug:** /class-11-physics-solids-revision-notes
----
+
 
 ![Solid Mechanics and Elasticity Visual](/blog-images/solids-revision.png)
 
@@ -124,3 +127,5 @@ The mechanical properties of solids are what allow humans to build the impossibl
 ---
 **Reference:** [Engineering Toolbox: Elastic Properties of Materials](https://www.engineeringtoolbox.com)
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -1,12 +1,15 @@
+---
+title: "Moving Charges Magnetism Revision Notes"
+description: "Boost JEE/NEET prep with our detailed moving charges magnetism notes, covering key concepts, formulas, and practice problems."
+category: "Biology"
+keywords: "moving charges magnetism revision notes, Biology, Exam Compass"
+---
+
+# Moving Charges Magnetism Revision Notes
+
 # Moving Charges and Magnetism Class 12 Physics Quick Recall (Short Notes 2025)
 
----
-**SEO Metadata**
-- **SEO Title:** Moving Charges and Magnetism Class 12 Physics Quick Recall (Short Notes 2025)
-- **Meta Description:** The most complete Class 12 Physics Chapter 4 revision notes. Master Biot-Savart Law, Ampere's Law Proof, Force on Moving Charge, and Galvometer to Ammeter conversions. 3000+ words of "Comprehensive" content.
-- **Keywords:** Class 12 Physics Chapter 4, Moving Charges and Magnetism Notes, Biot-Savart Law Derivation, Ampere Circuital Law Proof, Force on a Charge in Magnetic Field, Cyclotron Principle, Magnetic Field of a Circular Loop Proof, JEE Physics Magnetism, NEET Physics Revision
-- **URL Slug:** /class-12-physics-moving-charges-magnetism-revision-notes
----
+
 
 ![Electromagnetic Visual: Magnetic Field Lines, Moving Charges, and Solenoid Dynamics](/blog-images/electromagnetism-class12-hero.png)
 
@@ -136,3 +139,5 @@ Moving Charges and Magnetism represent the bridge between pure electricity and t
 ---
 **Reference:** [CERN: The Large Hadron Collider (Bending Charges at Peak Energy)](https://home.cern)
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

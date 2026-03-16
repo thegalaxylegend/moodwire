@@ -41,7 +41,7 @@ async function downloadHeroImage(subject: string, topic: string, slug: string): 
 
     const defaultFallback = fallbacks[subject] || fallbacks['Biology'];
 
-    const artPromptUser = `Scientific illustration of ${topic} for ${subject} students, 8k, vibrant colors, dark background, cinematic lighting. No text.`;
+    const artPromptUser = `Scientific diagram of ${topic}, ${subject} theme, dark background, cyan and purple neon accents, holographic interface style, 16:9 aspect ratio, cinematic lighting, 8k, no text.`;
     
     const seeds = [Math.floor(Math.random() * 10000), 42, 1234];
     const models = ['flux', 'turbo', 'pro'];
@@ -50,8 +50,7 @@ async function downloadHeroImage(subject: string, topic: string, slug: string): 
         try {
             console.log(`🖌️ Image Attempt ${i + 1}/3 (Model: ${models[i]})...`);
             const encodedPrompt = encodeURIComponent(artPromptUser);
-            // Try different domain for pollinations which sometimes bypasses IP blocks
-            const imageUrl = `https://image.pollinations.ai/prompt/${encodedPrompt}?width=1000&height=600&seed=${seeds[i]}&model=${models[i]}&nologo=true`;
+            const imageUrl = `https://image.pollinations.ai/prompt/${encodedPrompt}?width=1200&height=630&seed=${seeds[i]}&model=${models[i]}&nologo=true`;
 
             const response = await fetch(imageUrl);
             const contentType = response.headers.get('content-type');
@@ -63,18 +62,18 @@ async function downloadHeroImage(subject: string, topic: string, slug: string): 
             const bufferBuffer = await response.arrayBuffer();
             const { default: sharp } = await import('sharp');
             await sharp(Buffer.from(bufferBuffer))
-                .resize(1000, 600)
-                .webp({ quality: 80 })
+                .resize(1200, 630, { fit: 'cover' })
+                .webp({ quality: 85 })
                 .toFile(webpPath);
 
             console.log(`✅ Image saved: ${slug}.webp`);
             return `/blog-images/${slug}.webp`;
         } catch (err: any) {
-            console.warn(`⚠️ Image attempt ${i + 1} failed (IP likely blocked).`);
+            console.warn(`⚠️ Image attempt ${i + 1} failed.`);
         }
     }
 
-    console.error("❌ Pollinations blocked on GitHub. Using high-quality subject fallback.");
+    console.error("❌ Pollinations blocked. Using high-quality theme fallback.");
     return defaultFallback;
 }
 
@@ -99,8 +98,26 @@ async function generateBlogs() {
 
         const heroImagePath = await downloadHeroImage(item.subject, item.topic, item.targetSlug);
         
-        const systemPrompt = `You are Ayush's senior content editor. Peer mentor style. Min 2500 words. Rule: No "In conclusion". Use LaTeX.`;
-        const userPrompt = `TOPIC: ${item.topic}, SUBJECT: ${item.subject}, CLASS: ${item.class}. Generate BODY starting with Quick Recall Box. Include JEE/NEET data, Core Concepts, Formulae, MCQs.`;
+        // --- STEP 1: GENERATE DYNAMIC SEO DESCRIPTION ---
+        console.log("📑 Jules: Crafting unique SEO description...");
+        let seoDescription = `Master ${item.topic} for ${item.class} ${item.subject} with peer-mentor notes, JEE/NEET data, and personal tips.`;
+        try {
+            const seoCompletion = await groq.chat.completions.create({
+                messages: [{ 
+                    role: "system", 
+                    content: "You are an SEO specialist. Write a high-click-through meta description (max 155 chars) for a blog post. Do not use quotes. Use active voice." 
+                }, { 
+                    role: "user", 
+                    content: `Topic: ${item.topic}, Subject: ${item.subject}, Class: ${item.class}. Target: JEE/NEET students.` 
+                }],
+                model: "llama-3.1-8b-instant",
+                max_tokens: 100
+            });
+            seoDescription = seoCompletion.choices[0]?.message?.content?.replace(/"/g, '').trim() || seoDescription;
+        } catch (e) {}
+
+        const systemPrompt = `You are Ayush's senior content editor. Peer mentor style. Min 2500 words. Rule: No "In conclusion". Use LaTeX. Follow BLOG_RULES.md strictly.`;
+        const userPrompt = `TOPIC: ${item.topic}, SUBJECT: ${item.subject}, CLASS: ${item.class}. Generate BODY starting with Quick Recall Box. Include Ayush's Personal Note (1st person), JEE/NEET data, Core Concepts, Formulae, MCQs.`;
 
         let success = false;
         for (const model of GROQ_MODELS) {
@@ -122,7 +139,8 @@ async function generateBlogs() {
 
                     const finalMarkdown = `---
 title: "${item.topic} ${item.class} Notes — Exam Compass"
-description: "Master ${item.topic} for ${item.class} ${item.subject} with peer-mentor notes, JEE/NEET data, and personal tips."
+description: "${seoDescription}"
+category: "${item.subject}"
 keywords: "${item.topic} notes, ${item.class} ${item.subject}, JEE ${item.topic}, NEET ${item.topic}, Exam Compass"
 ---
 

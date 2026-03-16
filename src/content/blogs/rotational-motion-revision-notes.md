@@ -1,12 +1,15 @@
+---
+title: "Rotational Motion Revision Notes"
+description: "Boost your JEE/NEET exam scores with expert rotational motion revision notes covering torque, angular velocity, and more."
+category: "Physics"
+keywords: "rotational motion revision notes, Physics, Exam Compass"
+---
+
+# Rotational Motion Revision Notes
+
 # Rotational Motion Class 11 Physics Quick Recall Sheet (Short Notes 2026-27)
 
----
-**SEO Metadata**
-- **SEO Title:** Rotational Motion Class 11 Physics Quick Recall Sheet (Short Notes 2026-27)
-- **Meta Description:** The most comprehensive Class 11 Physics Chapter 6 revision notes. Master the Parallel & Perpendicular Axes Theorems, Torque, Angular Momentum, and Rolling Motion.
-- **Keywords:** Class 11 Physics, Rotational Motion, Parallel Axes Theorem Proof, Perpendicular Axes Theorem Proof, Torque and Angular Momentum Relation, Moment of Inertia Derivations, JEE Rotational Physics, NEET Physics Revision
-- **URL Slug:** /class-11-physics-rotational-motion-revision-notes
----
+
 
 ![Engineering Visual: Rotational Dynamics and Gyroscopic Motion](/blog-images/rotational-motion-revision.png)
 
@@ -121,3 +124,5 @@ Rotational Motion is the ultimate test of a physicist's understanding of symmetr
 ---
 **Reference:** [Physics World: The Secrets of Angular Momentum](https://physicsworld.com)
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

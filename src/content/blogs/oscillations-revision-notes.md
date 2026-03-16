@@ -1,12 +1,15 @@
+---
+title: "Oscillations Revision Notes"
+description: "Master JEE/NEET with our comprehensive oscillations study guide, covering key concepts and topics to ace your exams."
+category: "Physics"
+keywords: "oscillations revision notes, Physics, Exam Compass"
+---
+
+# Oscillations Revision Notes
+
 # Oscillations Class 11 Physics Quick Recall Sheet (Short Notes 2026-27)
 
----
-**SEO Metadata**
-- **SEO Title:** Oscillations Class 11 Physics Quick Recall Sheet (Short Notes 2026-27)
-- **Meta Description:** The most complete Class 11 Physics Chapter 13 revision notes. Master Simple Harmonic Motion (SHM), Pendulum Derivations, and Energy in Oscillations.
-- **Keywords:** Class 11 Physics, Oscillations Notes, SHM Equation Derivation, Simple Pendulum Time Period Proof, Energy in SHM Derivation, Spring Mass System Physics, JEE Physics, NEET Physics Revision
-- **URL Slug:** /class-11-physics-oscillations-revision-notes
----
+
 
 ![Vibrational Visual: Oscillations, Simple Harmonic Motion, and Resonance](/blog-images/oscillations-revision.png)
 
@@ -135,3 +138,5 @@ Oscillations are the universal language of physical vibration. By mastering the 
 ---
 **Reference:** [Journal of Sound and Vibration](https://www.journals.elsevier.com/journal-of-sound-and-vibration)
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

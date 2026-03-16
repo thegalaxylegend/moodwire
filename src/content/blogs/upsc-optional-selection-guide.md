@@ -1,11 +1,11 @@
 ---
 title: "Pick the Best UPSC Optional Subject 2026 Guide"
 description: "Master the UPSC optional subject selection for 2026. Use our success rate analysis, syllabus overlap data, and scoring trends to pick the best optional now!"
-author: "Ayush (Founder, Exam Compass)"
-date: "March 5, 2024"
-category: "Civil Services"
-keywords: ["UPSC Optional Subject", "Optional Selection Guide", "Civil Services 2026", "UPSC Mains Strategy"]
+category: "Mathematics"
+keywords: "upsc optional selection guide, Mathematics, Exam Compass"
 ---
+
+# Pick the Best UPSC Optional Subject 2026 Guide
 
 # How to Choose UPSC Optional Subject: The Data-Driven Success Guide 2026
 
@@ -22,7 +22,7 @@ In this guide, I’m breaking down exactly **how to choose UPSC optional subject
 > - **Success Rate Trap**: Why a 10% success rate is better than a 50% success rate in some subjects.
 > - **The Syllabus Squeeze**: Balancing depth vs. breadth of the optional content.
 > - **AI Strategy**: Using data analytics to track your accuracy in **online mock tests**.
-> - **Internal Link**: Master your GS prep with our [UPSC General Studies Hub](https://examcompass.web.app/upsc/gs).
+> - **Internal Link**: Master your GS prep with our [UPSC General Studies Hub](https://examcompass.pages.dev/upsc/gs).
 
 ---
 
@@ -73,3 +73,5 @@ Yes, approximately 70% of successful candidates choose an optional that is diffe
 ### 3. How much time should I dedicate to my optional?
 During the first four months of preparation, dedicate 60–70% of your daily study time to your optional. Once you have covered the syllabus, transition to a split of 30% for your optional and 70% for General Studies and current affairs to maintain overall balance.
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

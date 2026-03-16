@@ -1,12 +1,15 @@
+---
+title: "Permutations Combinations Revision Notes"
+description: "Master Permutations and Combinations with our simplified study guide, perfect for JEE NEET prep, covering key concepts and formulas easily."
+category: "Mathematics"
+keywords: "permutations combinations revision notes, Mathematics, Exam Compass"
+---
+
+# Permutations Combinations Revision Notes
+
 # Permutations and Combinations Class 11 Math Quick Recall / Short Notes (2026-27)
 
----
-**SEO Metadata**
-- **SEO Title:** Permutations and Combinations Class 11 Math Quick Recall / Short Notes (2026-27)
-- **Meta Description:** Master Class 11 Math Chapter 7 Permutations and Combinations. Learn Fundamental Principle of Counting, nPr, nCr, and Factorials for JEE/CBSE.
-- **Keywords:** Class 11 Math, Permutations and Combinations, Factorials, nPr vs nCr, Fundamental Principle of Counting, JEE Math Notes, Class 11 Math Chapter 7
-- **URL Slug:** /class-11-math-permutations-combinations-revision-notes
----
+
 
 ![The Art of Arrangement and Selection: Permutations and Combinations](/blog-images/permutations-combinations-revision.png)
 
@@ -105,3 +108,5 @@ Permutations and Combinations transform the way we see complexity. By mastering 
 
 ---
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -1,12 +1,15 @@
+---
+title: "Current Electricity Revision Notes"
+description: "Achieve IIT/JEE and NEET excellence with our comprehensive & concise current electricity study guide, expertly tailored for top exam results."
+category: "Biology"
+keywords: "current electricity revision notes, Biology, Exam Compass"
+---
+
+# Current Electricity Revision Notes
+
 # Current Electricity Class 12 Physics Quick Recall Sheet (Short Notes 2025)
 
----
-**SEO Metadata**
-- **SEO Title:** Current Electricity Class 12 Physics Quick Recall Sheet (Short Notes 2025)
-- **Meta Description:** The most complete Class 12 Physics Chapter 3 revision notes. Master Drift Velocity Derivations, Ohm's Law Proofs, Kirchhoff's Laws, and Potentiometer applications. 3000+ words of "Comprehensive" quality.
-- **Keywords:** Class 12 Physics Chapter 3, Current Electricity Notes, Drift Velocity Derivation, Ohm Law Microscopic Proof, Kirchhoff Laws Rules, Wheatstone Bridge Condition Proof, Potentiometer why better than Voltmeter, JEE Physics Current Electricity, NEET Physics Revision
-- **URL Slug:** /class-12-physics-current-electricity-revision-notes
----
+
 
 ![Current Electricity Visual: Electron Drift, Circuit Boards, and Potential Gradients](/blog-images/current-electricity-revision.png)
 
@@ -152,3 +155,5 @@ Current Electricity is the foundation of energy conversion and electronics. By m
 ---
 **Reference:** [IEEE Spectrum: Electrotechnology News and Analysis](https://spectrum.ieee.org)
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

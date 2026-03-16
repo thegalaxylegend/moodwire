@@ -7,7 +7,7 @@ const __dirname = path.dirname(__filename);
 
 const MANIFEST_PATH = path.join(__dirname, '../public/seo-manifest.json');
 const KEY_PATH = path.join(__dirname, '../public/3154aa701b2948b49c70693382a1ad76.txt');
-const HOST = 'examcompass.web.app';
+const HOST = 'examcompass.pages.dev';
 const KEY = '3154aa701b2948b49c70693382a1ad76';
 const KEY_LOCATION = `https://${HOST}/3154aa701b2948b49c70693382a1ad76.txt`;
 

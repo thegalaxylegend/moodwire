@@ -1,12 +1,15 @@
+---
+title: "Waves Revision Notes"
+description: "Master wave concepts for JEE & NEET with our concise study guide, covering types, superposition, interference, and more."
+category: "Biology"
+keywords: "waves revision notes, Biology, Exam Compass"
+---
+
+# Waves Revision Notes
+
 # Waves Class 11 Physics Quick Recall Sheet (Short Notes 2026-27)
 
----
-**SEO Metadata**
-- **SEO Title:** Waves Class 11 Physics Quick Recall Sheet (Short Notes 2026-27)
-- **Meta Description:** The most detailed Class 11 Physics Chapter 14 revision notes. Master the Doppler Effect Formula Derivations, Laplace Correction for Sound, Standing Waves in Pipes, and Beats. 3000+ words of "Comprehensive" content.
-- **Keywords:** Class 11 Physics Chapter 14 Waves, Waves Revision Notes, Doppler Effect Formula Derivation, Laplace Correction for Sound, Standing Waves in Open and Closed Pipes, Speed of Transverse Wave on a String, NEET Physics Waves, JEE Physics Notes
-- **URL Slug:** /class-11-physics-waves-revision-notes
----
+
 
 ![Vibrational Visual: Waves, Beats, and the Doppler Effect](/blog-images/waves-revision.png)
 
@@ -188,3 +191,5 @@ Waves are the signature of the universe's energy. By mastering the mathematical 
 ---
 **Reference:** [The Physics Classroom: Sound Waves and Music](https://www.physicsclassroom.com/class/sound)
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -1,12 +1,15 @@
+---
+title: "Trigonometric Functions Revision Notes"
+description: "Master trigonometric functions with our concise JEE/NEET study guide, covering essentials & practice questions for a competitive edge."
+category: "Physics"
+keywords: "trigonometric functions revision notes, Physics, Exam Compass"
+---
+
+# Trigonometric Functions Revision Notes
+
 # Trigonometric Functions Class 11 Math Quick Recall / Short Notes (2026-27)
 
----
-**SEO Metadata**
-- **SEO Title:** Trigonometric Functions Class 11 Math Quick Recall / Short Notes (2026-27)
-- **Meta Description:** Master Class 11 Math Chapter 3 Trigonometry. Learn Degree to Radian conversion, Unit Circle, Domain, Range, and essential Trig Formulas for JEE/NEET.
-- **Keywords:** Class 11 Math, Trigonometry, Sine and Cosine, Unit Circle, Degree to Radian, Trigonometric Identities, JEE Main Trig Notes, Class 11 Math Revision
-- **URL Slug:** /class-11-math-trigonometric-functions-revision-notes
----
+
 
 ![Infinite Waves: The Beauty of Trigonometry](/blog-images/trigonometric-functions-revision.png)
 
@@ -118,3 +121,5 @@ Trigonometry is the bridge between geometry and algebra. By mastery the "Core 10
 
 ---
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

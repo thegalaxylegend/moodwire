@@ -1,12 +1,15 @@
+---
+title: "Electric Charges Fields Revision Notes"
+description: "Revise electric charges & fields fast for JEE/NEET, comprehensive notes & study guide"
+category: "Physics"
+keywords: "electric charges fields revision notes, Physics, Exam Compass"
+---
+
+# Electric Charges Fields Revision Notes
+
 # Electric Charges and Fields Class 12 Physics Quick Recall (Short Notes 2025)
 
----
-**SEO Metadata**
-- **SEO Title:** Electric Charges and Fields Class 12 Physics Quick Recall (Short Notes 2025)
-- **Meta Description:** The most complete Class 12 Physics Chapter 1 revision notes. Master Coulomb's Law, Dipole Field Derivations, Gauss's Law Proof, and its Applications for JEE and NEET. 3000+ words of "Comprehensive" academic depth.
-- **Keywords:** Class 12 Physics Chapter 1, Electric Charges and Fields Notes, Coulomb's Law Vector Form, Electric Dipole Axial and Equatorial Derivation, Gauss Law Proof and Applications, Torque on Dipole Derivation, JEE Physics Class 12, NEET Physics Revision
-- **URL Slug:** /class-12-physics-electric-charges-fields-revision-notes
----
+
 
 ![Electrostatic Visual: Field Lines, Charges, and the Power of Gauss's Law](/blog-images/electric-charges-fields-revision.png)
 
@@ -171,3 +174,5 @@ The field of Electrostatics is the foundation upon which all modern technologyâ€
 ---
 **Reference:** [MIT OpenCourseWare: Electromagnetism](https://ocw.mit.edu)
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

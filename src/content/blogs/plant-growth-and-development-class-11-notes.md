@@ -1,3 +1,12 @@
+---
+title: "Plant Growth And Development Class 11 Notes"
+description: "Unlock your science potential with our comprehensive Class 11 Biology notes on Plant Growth and Development, covering key concepts and exam prep strategies."
+category: "Biology"
+keywords: "plant growth and development class 11 notes, Biology, Exam Compass"
+---
+
+# Plant Growth And Development Class 11 Notes
+
 # Plant Growth and Development
 ## Quick Recall Box
 * Plant growth is the irreversible increase in the size of a plant.
@@ -114,4 +123,7 @@ Answer: A) $\frac{dL}{dt} = k \cdot \frac{dA}{dt}$
 ## Last Updated Date
 Last Updated: March 16, 2026
 
-![Plant Growth and Development notes for Class 11](https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&q=80&w=1200&h=630)
+![Plant Growth And Development Class 11 Notes Notes](/blog-images/plant-growth-and-development-class-11-notes.webp)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

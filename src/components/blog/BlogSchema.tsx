@@ -18,7 +18,7 @@ export const BlogSchema: React.FC<BlogSchemaProps> = ({
     modifiedDate,
     authorName,
     url,
-    imageUrl = 'https://examcompass.web.app/exa-logo.png'
+    imageUrl = 'https://examcompass.pages.dev/exa-logo.png'
 }) => {
     const schema = {
         "@context": "https://schema.org",
@@ -33,14 +33,14 @@ export const BlogSchema: React.FC<BlogSchemaProps> = ({
         "author": {
             "@type": "Person",
             "name": authorName,
-            "url": "https://examcompass.web.app/about"
+            "url": "https://examcompass.pages.dev/about"
         },
         "publisher": {
             "@type": "Organization",
             "name": "Exam Compass",
             "logo": {
                 "@type": "ImageObject",
-                "url": "https://examcompass.web.app/exa-logo.png"
+                "url": "https://examcompass.pages.dev/exa-logo.png"
             }
         },
         "datePublished": new Date(publishDate).toISOString(),

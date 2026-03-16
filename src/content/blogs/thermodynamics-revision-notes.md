@@ -1,12 +1,15 @@
+---
+title: "Thermodynamics Revision Notes"
+description: "Master thermodynamics with our comprehensive JEE/NEET revision notes and ace your exams with confidence, today."
+category: "Biology"
+keywords: "thermodynamics revision notes, Biology, Exam Compass"
+---
+
+# Thermodynamics Revision Notes
+
 # Thermodynamics Class 11 Physics Quick Recall Sheet (Short Notes 2026-27)
 
----
-**SEO Metadata**
-- **SEO Title:** Thermodynamics Class 11 Physics Quick Recall Sheet (Short Notes 2026-27)
-- **Meta Description:** The most comprehensive Class 11 Physics Chapter 11 revision notes. Master the First Law, Isothermal & Adiabatic Derivations, and Carnot Cycle Efficiency.
-- **Keywords:** Class 11 Physics, Thermodynamics Notes, Work Done in Isothermal Derivation, Adiabatic Process Derivation, Carnot Engine Efficiency Proof, First Law of Thermodynamics JEE, NEET Physics Revision
-- **URL Slug:** /class-11-physics-thermodynamics-revision-notes
----
+
 
 ![Energy Visual: Heat Engines, P-V Diagrams, and Entropy](/blog-images/thermodynamics-revision.png)
 
@@ -109,3 +112,5 @@ Thermodynamics is the science of limits. By understanding the mathematical proof
 ---
 **Reference:** [Journal of Thermal Science and Engineering](https://www.journals.elsevier.com)
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

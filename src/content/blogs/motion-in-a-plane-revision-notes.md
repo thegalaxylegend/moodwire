@@ -1,12 +1,15 @@
+---
+title: "Motion In A Plane Revision Notes"
+description: "Unlock motion in a plane with our comprehensive revision notes, covering JEE/NEET essentials, velocity, acceleration, and more."
+category: "Physics"
+keywords: "motion in a plane revision notes, Physics, Exam Compass"
+---
+
+# Motion In A Plane Revision Notes
+
 # Motion in a Plane Class 11 Physics Quick Recall Sheet (Short Notes 2026-27)
 
----
-**SEO Metadata**
-- **SEO Title:** Motion in a Plane Class 11 Physics Quick Recall Sheet (Short Notes 2026-27)
-- **Meta Description:** The most detailed Class 11 Physics Chapter 3 revision notes. Master Projectile Motion Derivations, Centripetal Acceleration Proofs, and 2D Relative Velocity.
-- **Keywords:** Class 11 Physics, Motion in a Plane, Projectile Motion Derivations, Equation of Trajectory Parabola, Centripetal Acceleration Proof, Vector Physics JEE, NEET Physics Revision
-- **URL Slug:** /class-11-physics-motion-plane-revision-notes
----
+
 
 ![Aerospace Visual: 2D Trajectories and Circular Motion](/blog-images/motion-in-a-plane-revision.png)
 
@@ -132,3 +135,5 @@ Motion in a Plane is the first time we truly see the vector nature of the univer
 ---
 **Reference:** [HyperPhysics: 2D Kinematics and Vectors](http://hyperphysics.phy-astr.gsu.edu/hbase/vect.html)
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

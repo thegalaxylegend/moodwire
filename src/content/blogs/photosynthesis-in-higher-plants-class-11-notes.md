@@ -1,3 +1,12 @@
+---
+title: "Photosynthesis In Higher Plants Class 11 Notes"
+description: "Unlock the secrets of photosynthesis with our comprehensive Class 11 Biology study guide. Master higher plant photosynthesis with expert notes and insights. Prepare for exams with confidence."
+category: "Biology"
+keywords: "photosynthesis in higher plants class 11 notes, Biology, Exam Compass"
+---
+
+# Photosynthesis In Higher Plants Class 11 Notes
+
 # Photosynthesis in Higher Plants Class 11 Notes
 ## Quick Recall Box
 * Photosynthesis is the process by which green plants, algae, and some bacteria convert light energy from the sun into chemical energy in the form of organic compounds, such as glucose.
@@ -93,4 +102,7 @@ Answer: A) $6CO_2 + 6H_2O \rightarrow C_6H_{12}O_6 + 6O_2$
 ## Last Updated Date
 Last Updated: March 16, 2026
 
-![Photosynthesis in Higher Plants notes for Class 11](https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&q=80&w=1200&h=630)
+![Photosynthesis In Higher Plants Class 11 Notes Notes](/blog-images/photosynthesis-in-higher-plants-class-11-notes.webp)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

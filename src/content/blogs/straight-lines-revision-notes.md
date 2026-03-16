@@ -1,12 +1,15 @@
+---
+title: "Straight Lines Revision Notes"
+description: "Achieve perfection in geometry with our concise straight lines notes designed specifically for JEE and NEET aspirants."
+category: "Physics"
+keywords: "straight lines revision notes, Physics, Exam Compass"
+---
+
+# Straight Lines Revision Notes
+
 # Straight Lines Class 11 Math Quick Recall / Short Notes (2026-27)
 
----
-**SEO Metadata**
-- **SEO Title:** Straight Lines Class 11 Math Quick Recall / Short Notes
-- **Meta Description:** Master Class 11 Math Chapter 10 Straight Lines. Learn Slope, Distance, Parallel and Perpendicular lines, and all Standard forms of line equations.
-- **Keywords:** Class 11 Math, Straight Lines, Slope of a Line, Equation of a Line, Point-Slope Form, Two-Point Form, Distance Formula, JEE Math Notes
-- **URL Slug:** /class-11-math-straight-lines-revision-notes
----
+
 
 ![Visualizing Equations of Straight Lines on a Coordinate Plane](/blog-images/straight-lines-revision.png)
 
@@ -108,3 +111,5 @@ Straight lines are the ABCs of coordinate geometry. By mastering the various for
 
 ---
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

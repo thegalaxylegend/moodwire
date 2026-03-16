@@ -1,13 +1,15 @@
+---
+title: "Equilibrium Revision Notes"
+description: "Boost JEE/NEET prep with concise equilibrium revision notes, covering Le Chatelier"
+category: "Physics"
+keywords: "equilibrium revision notes, Physics, Exam Compass"
+---
+
+# Equilibrium Revision Notes
+
 # Chemical Equilibrium — Le Chatelier's Principle & pH Tricks JEE NEET 2026
 
----
-**SEO Metadata**
-- **SEO Title:** Chemical Equilibrium — Le Chatelier's Principle & pH Tricks JEE NEET 2026
-- **Meta Description:** Crack Equilibrium Constant, Le Chatelier shifts, pH of 10^-8 M HCl, and Buffer equations with Ayush's revision notes. Includes 3 traps and 5+ tagged MCQs.
-- **Keywords:** Chemical Equilibrium Class 11, Le Chatelier's Principle examples, Equilibrium Constant Kp Kc, pH calculation dilute acid, Solubility Product Ksp, Buffer Solution Henderson equation, Common Ion Effect, Ionic Equilibrium JEE NEET
-- **URL Slug:** /blog/equilibrium-revision-notes
-- **Last Updated:** March 14, 2026
----
+
 
 ![Chemical Equilibrium and Le Chatelier's Principle diagram for JEE NEET 2026](/blog-images/equilibrium-revision.png)
 
@@ -284,3 +286,6 @@ For CBSE, always state Le Chatelier's Principle in full before applying it. Then
 
 ---
 *Last Updated: March 14, 2026 | Part of the Class 11 Chemistry Revision Series — NCERT-aligned with JEE/NEET depth.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

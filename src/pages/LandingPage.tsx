@@ -38,39 +38,39 @@ export const LandingPage = () => {
             <SEO
                 title="Exam Compass | AI-Powered Exam Preparation & Mock Tests"
                 description="The ultimate AI study partner for Class 6-12 board exams, JEE, NEET, and UPSC. Get personalized mock tests, PYQ analytics, and honest roadmaps for Indian aspirants."
-                canonical="https://examcompass.web.app/"
-                image="https://examcompass.web.app/og-image.png"
+                canonical="https://examcompass.pages.dev/"
+                image="https://examcompass.pages.dev/og-image.png"
                 schema={{
                     "@context": "https://schema.org",
                     "@graph": [
                         {
                             "@type": "WebSite",
                             "name": "Exam Compass",
-                            "url": "https://examcompass.web.app",
+                            "url": "https://examcompass.pages.dev",
                             "description": "AI-powered exam preparation platform for JEE, NEET, UPSC, and CBSE Class 6-12.",
                             "potentialAction": {
                                 "@type": "SearchAction",
-                                "target": "https://examcompass.web.app/{search_term_string}",
+                                "target": "https://examcompass.pages.dev/{search_term_string}",
                                 "query-input": "required name=search_term_string"
                             }
                         },
                         {
                             "@type": "Organization",
                             "name": "Exam Compass",
-                            "url": "https://examcompass.web.app",
-                            "logo": "https://examcompass.web.app/exa-logo.png",
+                            "url": "https://examcompass.pages.dev",
+                            "logo": "https://examcompass.pages.dev/exa-logo.png",
                             "founder": {
                                 "@type": "Person",
                                 "name": "Ayush Kumar",
                                 "jobTitle": "Founder & Student Developer",
                                 "sameAs": [
                                     "https://github.com/thegalaxylegend",
-                                    "https://examcompass.web.app/about"
+                                    "https://examcompass.pages.dev/about"
                                 ]
                             },
                             "sameAs": [
-                                "https://examcompass.web.app/blog",
-                                "https://examcompass.web.app/about"
+                                "https://examcompass.pages.dev/blog",
+                                "https://examcompass.pages.dev/about"
                             ]
                         }
                     ]

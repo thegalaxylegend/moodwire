@@ -1,12 +1,15 @@
+---
+title: "Limits Derivatives Revision Notes"
+description: "Achieve perfection in limits & derivatives with our concise & comprehensive study guide, designed to crack JEE & NEET with ease & confidence."
+category: "Physics"
+keywords: "limits derivatives revision notes, Physics, Exam Compass"
+---
+
+# Limits Derivatives Revision Notes
+
 # Limits and Derivatives Class 11 Math Quick Recall / Short Notes (2026-27)
 
----
-**SEO Metadata**
-- **SEO Title:** Limits and Derivatives Class 11 Math Quick Recall / Short Notes
-- **Meta Description:** Master Class 11 Math Chapter 13 Limits and Derivatives. Learn Limits algebra, Sandwich Theorem, and First Principle of Derivatives.
-- **Keywords:** Class 11 Math, Limits and Derivatives, Calculus, Sandwich Theorem, First Principle, Derivative Formulas, JEE Math Prep, CBSE Math Notes
-- **URL Slug:** /class-11-math-limits-derivatives-revision-notes
----
+
 
 ![Introduction to Calculus: Limits and Derivatives Concepts](/blog-images/limits-derivatives-revision.png)
 
@@ -111,3 +114,5 @@ Limits and Derivatives are the tools that allow us to calculate the "slope of a 
 
 ---
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

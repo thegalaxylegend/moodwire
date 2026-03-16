@@ -1,11 +1,13 @@
 ---
-title: Animal Kingdom Class 11 Notes
-description: Comprehensive notes on Animal Kingdom for Class 11 students, covering classification, morphology, and anatomy of animals.
-description: Master Animal Kingdom with our detailed Class 11 notes, including practice questions and explanations.
-keywords: animal kingdom class 11 notes, animal kingdom notes, class 11 biology notes
+title: "Animal Kingdom Class 11 Notes"
+description: "Unlock the fascinating world of biodiversity with our comprehensive Class 11 Biology study guide on Animal Kingdom."
+category: "Biology"
+keywords: "animal kingdom class 11 notes, Biology, Exam Compass"
 ---
 
-![Hero Image](https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=1200&h=630)
+# Animal Kingdom Class 11 Notes
+
+![Animal Kingdom Class 11 Notes Notes](/blog-images/animal-kingdom-class-11-notes.webp)
 
 ## Quick Recall Box
 * Kingdom Animalia includes all multicellular, eukaryotic animals
@@ -104,3 +106,6 @@ To remember the different phyla and classes of animals, you can use the followin
 
 ## Last Updated Date
 Last Updated: March 16, 2026
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

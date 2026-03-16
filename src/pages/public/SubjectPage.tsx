@@ -48,8 +48,8 @@ export const SubjectPage = () => {
                 "provider": {
                     "@type": "Organization",
                     "name": "Exam Compass",
-                    "sameAs": "https://examcompass.web.app",
-                    "url": "https://examcompass.web.app"
+                    "sameAs": "https://examcompass.pages.dev",
+                    "url": "https://examcompass.pages.dev"
                 },
                 "hasCourseInstance": {
                     "@type": "CourseInstance",
@@ -73,15 +73,15 @@ export const SubjectPage = () => {
                     "@type": "ListItem",
                     "position": i + 1,
                     "name": t.topic.replace(/\[.*?\]\s*/g, ''),
-                    "url": `https://examcompass.web.app/${exam}/${subject}/${slugify(t.topic)}`
+                    "url": `https://examcompass.pages.dev/${exam}/${subject}/${slugify(t.topic)}`
                 }))
             },
             {
                 "@type": "BreadcrumbList",
                 "itemListElement": [
-                    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://examcompass.web.app/" },
-                    { "@type": "ListItem", "position": 2, "name": formattedExam, "item": `https://examcompass.web.app/${exam}` },
-                    { "@type": "ListItem", "position": 3, "name": realSubject, "item": `https://examcompass.web.app/${exam}/${subject}` }
+                    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://examcompass.pages.dev/" },
+                    { "@type": "ListItem", "position": 2, "name": formattedExam, "item": `https://examcompass.pages.dev/${exam}` },
+                    { "@type": "ListItem", "position": 3, "name": realSubject, "item": `https://examcompass.pages.dev/${exam}/${subject}` }
                 ]
             }
         ]
@@ -92,7 +92,7 @@ export const SubjectPage = () => {
             <SEO
                 title={`${realSubject} ${formattedExam} Syllabus 2026 - Notes, Formulas & PYQ PDF`}
                 description={`Download ${realSubject} notes and formula PDF for ${formattedExam} 2026. Complete ${topics.length}-chapter syllabus breakdown with topics like ${topicNames.substring(0, 80)}. Practice questions and AI solutions.`}
-                canonical={`https://examcompass.web.app/${exam}/${subject}`}
+                canonical={`https://examcompass.pages.dev/${exam}/${subject}`}
                 keywords={seoKeywords}
                 schema={schemaData}
             />

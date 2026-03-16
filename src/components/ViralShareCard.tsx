@@ -86,7 +86,7 @@ export const ViralShareCard = ({ score, total, topic, username }: ViralShareCard
                     </div>
                     <div className="text-right">
                         <p className="text-white/40 text-[10px] uppercase font-bold">Beat Me At</p>
-                        <p className="text-blue-400 font-bold text-sm">examcompass.web.app</p>
+                        <p className="text-blue-400 font-bold text-sm">examcompass.pages.dev</p>
                     </div>
                 </div>
             </div>

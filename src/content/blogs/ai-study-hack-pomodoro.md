@@ -1,11 +1,11 @@
 ---
 title: "Modified Pomodoro Technique for JEE & NEET 2026 Guide"
 description: "Master the modified Pomodoro technique for JEE & NEET 2026. Build 3-hour exam stamina with data-driven study hacks and mock tests for success."
-author: "Ayush (Founder, Exam Compass)"
-date: "March 4, 2024"
-category: "Study Hacks"
-keywords: ["Pomodoro JEE NEET", "Study Stamina", "Exam Focus Hacks", "Competitive Exam India"]
+category: "Biology"
+keywords: "ai study hack pomodoro, Biology, Exam Compass"
 ---
+
+# Modified Pomodoro Technique for JEE & NEET 2026 Guide
 
 # Modified Pomodoro Technique for JEE & NEET 2026: The 3-Hour Stamina Hack
 
@@ -87,3 +87,5 @@ Eat a protein-rich snack before starting and have water nearby. As the exam appr
 ### 3. What should I do if I lose focus mid-session?
 Instead of quitting, try "Micro-resting." Stand up for 30 seconds, stretch, and immediately sit back down. This resets your focus without breaking the deep work state, helping you finish the session strong.
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

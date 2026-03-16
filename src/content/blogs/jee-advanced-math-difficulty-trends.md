@@ -1,11 +1,13 @@
 ---
 title: "The Shifting Difficulty Curve: JEE Advanced Mathematics (2015-2025 Trends)"
 description: "A deep dive into how JEE Advanced Mathematics has evolved over the last decade, and what aspirants can expect in 2026."
-category: "JEE & NEET"
-date: "Mar 16, 2026"
-readTime: "10 min read"
-image: "/blog-images/modern-physics-weightage.jpg"
+category: "Physics"
+keywords: "jee advanced math difficulty trends, Physics, Exam Compass"
 ---
+
+# The Shifting Difficulty Curve: JEE Advanced Mathematics (2015-2025 Trends)
+
+![The Shifting Difficulty Curve: JEE Advanced Mathematics (2015-2025 Trends) Notes](/blog-images/jee-advanced-math-difficulty-trends.webp)
 
 # The Shifting Difficulty Curve: JEE Advanced Mathematics (2015-2025 Trends)
 
@@ -40,3 +42,5 @@ To adapt to this shifting curve:
 
 Mastering JEE Advanced Mathematics is no longer about doing 500 repetitive problems from a coaching module; it's about doing 50 high-quality, multi-conceptual problems and deeply analyzing the underlying logic.
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

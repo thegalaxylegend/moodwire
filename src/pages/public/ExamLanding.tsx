@@ -104,9 +104,9 @@ export const ExamLanding = () => {
             "provider": {
                 "@type": "Organization",
                 "name": "Exam Compass",
-                "logo": "https://examcompass.web.app/exa-logo.png",
-                "sameAs": "https://examcompass.web.app",
-                "url": "https://examcompass.web.app"
+                "logo": "https://examcompass.pages.dev/exa-logo.png",
+                "sameAs": "https://examcompass.pages.dev",
+                "url": "https://examcompass.pages.dev"
             },
             "hasCourseInstance": {
                 "@type": "CourseInstance",
@@ -128,13 +128,13 @@ export const ExamLanding = () => {
                     "@type": "ListItem",
                     "position": 1,
                     "name": "Home",
-                    "item": "https://examcompass.web.app/"
+                    "item": "https://examcompass.pages.dev/"
                 },
                 {
                     "@type": "ListItem",
                     "position": 2,
                     "name": formattedExam,
-                    "item": `https://examcompass.web.app/${exam}`
+                    "item": `https://examcompass.pages.dev/${exam}`
                 }
             ]
         }
@@ -160,7 +160,7 @@ export const ExamLanding = () => {
             <SEO
                 title={`${formattedExam} Prep ${targetYear}: Syllabus, Notes, PYQ & Mock Test PDF`}
                 description={`Master ${formattedExam} ${targetYear} with AI-powered mock tests, chapter-wise revision notes, and formula PDF. Explore the latest syllabus, practice PYQs, and boost your rank.`}
-                canonical={`https://examcompass.web.app/${exam}`}
+                canonical={`https://examcompass.pages.dev/${exam}`}
                 keywords={`${formattedExam} preparation, ${formattedExam} mock test, ${formattedExam} syllabus pdf, ${formattedExam} revision notes, ${formattedExam} ${targetYear}`}
                 schema={{
                     "@context": "https://schema.org",

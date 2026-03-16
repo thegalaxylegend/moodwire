@@ -8,16 +8,16 @@ export const PrivacyPolicy = () => {
             <SEO
                 title="Privacy Policy | Exam Compass"
                 description="Read the Exam Compass Privacy Policy. Learn how we collect, use, and protect your personal data, including information about cookies, analytics, and third-party advertising."
-                canonical="https://examcompass.web.app/privacy"
+                canonical="https://examcompass.pages.dev/privacy"
                 schema={{
                     "@context": "https://schema.org",
                     "@type": "WebPage",
                     "name": "Privacy Policy",
-                    "url": "https://examcompass.web.app/privacy",
+                    "url": "https://examcompass.pages.dev/privacy",
                     "publisher": {
                         "@type": "Organization",
                         "name": "Exam Compass",
-                        "url": "https://examcompass.web.app"
+                        "url": "https://examcompass.pages.dev"
                     }
                 }}
             />

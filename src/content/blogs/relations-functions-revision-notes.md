@@ -1,12 +1,15 @@
+---
+title: "Relations Functions Revision Notes"
+description: "Master relations and functions for JEE/NEET with our concise revision notes on concepts, formulas, and practice problems."
+category: "Chemistry"
+keywords: "relations functions revision notes, Chemistry, Exam Compass"
+---
+
+# Relations Functions Revision Notes
+
 # Relations and Functions Class 11 Math Quick Recall / Short Notes (2026-27)
 
----
-**SEO Metadata**
-- **SEO Title:** Relations and Functions Class 11 Math Quick Recall / Short Notes (2026-27)
-- **Meta Description:** The ultimate Class 11 Math Chapter 2 guide. Master Cartesian Products, Relations, Domain, Range, and Function types for JEE and CBSE.
-- **Keywords:** Class 11 Math, Relations and Functions, Cartesian Product, Domain and Range, Types of Functions, JEE Math Prep, Class 11 Math Notes
-- **URL Slug:** /class-11-math-relations-functions-revision-notes
----
+
 
 ![Mapping the Mathematical Universe: Relations and Functions](/blog-images/relations-functions-revision.png)
 
@@ -105,3 +108,5 @@ Functions are the heartbeat of Calculus and higher mathematics. By distinguishin
 
 ---
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

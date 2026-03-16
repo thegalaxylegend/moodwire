@@ -1,5 +1,14 @@
+---
+title: "Hydrocarbons Class 11 Notes"
+description: "Achieve academic excellence with our comprehensive Class 11 Chemistry notes on Hydrocarbons, covering key concepts and formulas."
+category: "Chemistry"
+keywords: "hydrocarbons class 11 notes, Chemistry, Exam Compass"
+---
+
 # Hydrocarbons Class 11 Notes
-![Hero Image](https://images.unsplash.com/photo-1532187875605-18d8d2170e9f?auto=format&fit=crop&q=80&w=1200&h=630)
+
+# Hydrocarbons Class 11 Notes
+![Hydrocarbons Class 11 Notes Notes](/blog-images/hydrocarbons-class-11-notes.webp)
 Last Updated: March 15, 2026
 
 ## Quick Recall Box
@@ -101,3 +110,6 @@ Answer: c) Ethyne
 ## Related Notes Links
 - [Alkyl Halides Class 11 Notes](/blog/alkyl-halides-class-11-notes)
 - [Alcohols Class 11 Notes](/blog/alcohols-class-11-notes)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

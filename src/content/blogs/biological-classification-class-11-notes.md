@@ -1,11 +1,13 @@
 ---
-title: Biological Classification Class 11 Notes
-description: Master biological classification for NEET and CBSE exams with our detailed Class 11 notes.
-slug: biological-classification-class-11-notes
-date: 2026-03-15
+title: "Biological Classification Class 11 Notes"
+description: "Unlock the secrets of biological classification: Comprehensive Class 11 study guide & notes for Biology students, covering key concepts & more."
+category: "Biology"
+keywords: "biological classification class 11 notes, Biology, Exam Compass"
 ---
 
-![Hero Image](https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=1200&h=630)
+# Biological Classification Class 11 Notes
+
+![Biological Classification Class 11 Notes Notes](/blog-images/biological-classification-class-11-notes.webp)
 
 ## Quick Recall Box
 * Biological classification is the process of grouping living organisms based on their characteristics and evolutionary relationships.
@@ -122,3 +124,6 @@ Difficulty: Easy
 
 ## Last Updated Date
 Last Updated: March 15, 2026
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

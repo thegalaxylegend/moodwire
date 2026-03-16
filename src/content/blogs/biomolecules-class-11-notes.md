@@ -1,4 +1,13 @@
-![Biomolecules notes for Class 11](https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&q=80&w=1200&h=630)
+---
+title: "Biomolecules Class 11 Notes"
+description: "Master essential concepts of Biomolecules with detailed Class 11 Biology notes and study guides for academic success."
+category: "Biology"
+keywords: "biomolecules class 11 notes, Biology, Exam Compass"
+---
+
+# Biomolecules Class 11 Notes
+
+![Biomolecules Class 11 Notes Notes](/blog-images/biomolecules-class-11-notes.webp)
 ### Biomolecules Class 11 Notes
 #### Quick Recall Box
 * Biomolecules are the building blocks of life.
@@ -109,3 +118,6 @@ I remember when I was preparing for my JEE exam, I used to get confused between 
 
 ### Last Updated Date
 Last Updated: March 16, 2026
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

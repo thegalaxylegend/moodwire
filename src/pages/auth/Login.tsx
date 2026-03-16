@@ -116,7 +116,7 @@ export const Login = () => {
             <SEO
                 title="Login"
                 description="Login to Exam Compass to access AI-powered mock tests and analytics."
-                canonical="https://examcompass.web.app/login"
+                canonical="https://examcompass.pages.dev/login"
                 noindex={true}
             />
             {/* Background Elements */}

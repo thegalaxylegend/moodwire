@@ -1,3 +1,12 @@
+---
+title: "Cell Cycle And Cell Division Class 11 Notes"
+description: "Unlock the secrets of cell growth and reproduction with our comprehensive Class 11 Biology study guide, covering cell cycle, division, and more."
+category: "Biology"
+keywords: "cell cycle and cell division class 11 notes, Biology, Exam Compass"
+---
+
+# Cell Cycle And Cell Division Class 11 Notes
+
 # Cell Cycle and Cell Division Class 11 Notes
 ## Quick Recall Box
 * Cell cycle is the series of events that take place in a cell, leading to its division and duplication.
@@ -97,4 +106,7 @@ Answer: a) Uncontrolled cell growth
 ## Last Updated Date
 Last Updated: March 16, 2026
 
-![Cell Cycle and Cell Division notes for Class 11](https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&q=80&w=1200&h=630)
+![Cell Cycle And Cell Division Class 11 Notes Notes](/blog-images/cell-cycle-and-cell-division-class-11-notes.webp)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -6,7 +6,7 @@ const config: CapacitorConfig = {
     webDir: 'dist',
     server: {
         // This allows the app to automatically update when the website is deployed
-        url: 'https://examcompass.web.app',
+        url: 'https://examcompass.pages.dev',
         cleartext: true
     }
 };

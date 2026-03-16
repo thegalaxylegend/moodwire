@@ -1,12 +1,15 @@
+---
+title: "Gravitation Revision Notes"
+description: "Master gravitation for JEE/NEET with concise notes, formulas, and key concepts, unlocking a strong foundation in physics."
+category: "Physics"
+keywords: "gravitation revision notes, Physics, Exam Compass"
+---
+
+# Gravitation Revision Notes
+
 # Gravitation Class 11 Physics Quick Recall Sheet (Short Notes 2026-27)
 
----
-**SEO Metadata**
-- **SEO Title:** Gravitation Class 11 Physics Quick Recall Sheet (Short Notes 2026-27)
-- **Meta Description:** The most complete Class 11 Physics Chapter 7 revision notes. Master Kepler's Laws, Universal Gravitation, Acceleration due to Gravity Derivations, and Escape Velocity.
-- **Keywords:** Class 11 Physics, Gravitation Notes, Acceleration due to Gravity Derivation, Kepler's Laws Proof, Escape Velocity Formula, Gravitational Potential Energy Derivation, JEE Physics, NEET Physics
-- **URL Slug:** /class-11-physics-gravitation-revision-notes
----
+
 
 ![Gravitation and Planetary Motion Visual](/blog-images/gravitation-revision.png)
 
@@ -119,3 +122,5 @@ Gravitation is the foundational law of the macro-universe. By understanding how 
 ---
 **Reference:** [NASA: Gravity and Orbits Guide](https://www.nasa.gov/audience/forstudents/5-8/features/nasa-knows/what-is-orbit-58.html)
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -1184,13 +1184,13 @@ export const MockGenerator = () => {
                     </button>
                     <button
                         onClick={async () => {
-                            const text = `I just scored ${score} on my ${mode === 'topic' ? urlTopic : (user?.targetExam || 'Exam')} Mock Test on Exam Compass! 🚀\n\nJoin me and crack your exams with AI: https://examcompass.web.app`;
+                            const text = `I just scored ${score} on my ${mode === 'topic' ? urlTopic : (user?.targetExam || 'Exam')} Mock Test on Exam Compass! 🚀\n\nJoin me and crack your exams with AI: https://examcompass.pages.dev`;
                             if (navigator.share) {
                                 try {
                                     await navigator.share({
                                         title: 'My Exam Compass Score',
                                         text: text,
-                                        url: 'https://examcompass.web.app'
+                                        url: 'https://examcompass.pages.dev'
                                     });
                                 } catch (err) {
                                     console.error("Error sharing:", err);

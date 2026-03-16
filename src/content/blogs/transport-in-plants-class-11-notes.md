@@ -1,4 +1,13 @@
-![Transport in Plants notes for Class 11](https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&q=80&w=1200&h=630)
+---
+title: "Transport In Plants Class 11 Notes"
+description: "Unlock plant transport with our comprehensive Class 11 Biology notes. Master transpiration, osmosis, and more with easy-to-understand concepts and examples."
+category: "Biology"
+keywords: "transport in plants class 11 notes, Biology, Exam Compass"
+---
+
+# Transport In Plants Class 11 Notes
+
+![Transport In Plants Class 11 Notes Notes](/blog-images/transport-in-plants-class-11-notes.webp)
 ### Transport in Plants Class 11 Notes
 #### Quick Recall Box
 * Transport in plants is essential for survival
@@ -83,3 +92,6 @@ To remember the difference between diffusion and osmosis, use the following tric
 * [Plant Growth and Development Class 11 Notes](/blog/plant-growth-and-development-class-11-notes)
 ### Last Updated Date
 Last Updated: March 16, 2026
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

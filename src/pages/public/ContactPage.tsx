@@ -9,16 +9,16 @@ export const ContactPage = () => {
             <SEO
                 title="Contact Us | Exam Compass"
                 description="Get in touch with the Exam Compass team. Contact us for questions, feedback, bug reports, or partnership inquiries about our AI-powered exam preparation platform."
-                canonical="https://examcompass.web.app/contact"
+                canonical="https://examcompass.pages.dev/contact"
                 schema={{
                     "@context": "https://schema.org",
                     "@type": "ContactPage",
                     "name": "Contact Exam Compass",
-                    "url": "https://examcompass.web.app/contact",
+                    "url": "https://examcompass.pages.dev/contact",
                     "mainEntity": {
                         "@type": "Organization",
                         "name": "Exam Compass",
-                        "url": "https://examcompass.web.app",
+                        "url": "https://examcompass.pages.dev",
                         "contactPoint": {
                             "@type": "ContactPoint",
                             "contactType": "customer support",

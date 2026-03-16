@@ -1,12 +1,15 @@
+---
+title: "Conic Sections Revision Notes"
+description: "Revise conic sections quickly with comprehensive notes for JEE, NEET & other exams. Master parabolas, ellipses, and hyperbolas with expert summaries."
+category: "Mathematics"
+keywords: "conic sections revision notes, Mathematics, Exam Compass"
+---
+
+# Conic Sections Revision Notes
+
 # Conic Sections Class 11 Math Quick Recall / Short Notes (2026-27)
 
----
-**SEO Metadata**
-- **SEO Title:** Conic Sections Class 11 Math Quick Recall / Short Notes
-- **Meta Description:** Master Class 11 Math Chapter 11 Conic Sections. Learn Circle, Parabola, Ellipse, and Hyperbola with standard equations and properties.
-- **Keywords:** Class 11 Math, Conic Sections, Circle, Parabola, Ellipse, Hyperbola, Eccentricity, Standard Equations, JEE Math Prep
-- **URL Slug:** /class-11-math-conic-sections-revision-notes
----
+
 
 ![Exploring the Geometry of Conic Sections](/blog-images/conic-sections-revision.png)
 
@@ -111,3 +114,5 @@ Conic sections bring geometry to life by connecting algebraic equations with phy
 
 ---
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

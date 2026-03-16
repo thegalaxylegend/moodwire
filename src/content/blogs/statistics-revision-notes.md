@@ -1,12 +1,15 @@
+---
+title: "Statistics Revision Notes"
+description: "Master JEE/NEET with confidence, get comprehensive statistics revision notes & expert study tips, ace your general subject exams."
+category: "Mathematics"
+keywords: "statistics revision notes, Mathematics, Exam Compass"
+---
+
+# Statistics Revision Notes
+
 # Statistics Class 11 Math Quick Recall / Short Notes (2026-27)
 
----
-**SEO Metadata**
-- **SEO Title:** Statistics Class 11 Math Quick Recall / Short Notes (2026-27)
-- **Meta Description:** Master Class 11 Math Chapter 15 Statistics with our detailed revision notes. Learn Mean Deviation, Variance, Standard Deviation, and Frequency Distributions.
-- **Keywords:** Class 11 Math, Statistics, Mean Deviation, Variance, Standard Deviation, Dispersion, Frequency Distribution, JEE Main Math Notes
-- **URL Slug:** /class-11-math-statistics-revision-notes
----
+
 
 ![Statistics Formulas and Measures of Dispersion Concepts](/blog-images/statistics-revision.png)
 
@@ -109,3 +112,5 @@ Statistics in Class 11 moves beyond just finding averages to understanding the r
 
 ---
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

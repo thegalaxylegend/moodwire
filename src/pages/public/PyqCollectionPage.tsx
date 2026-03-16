@@ -66,7 +66,7 @@ export const PyqCollectionPage = () => {
     const { questions } = collectionData;
     const pageTitle = `Top 50 Most Repeated ${formattedTopic} PYQs | ${formattedExam}`;
     const description = `A curated collection of the most important questions from ${formattedTopic}, fully solved with step-by-step concepts to prepare for ${formattedExam}.`;
-    const canonicalUrl = `https://examcompass.web.app/${exam}/${subject}/${topic}/top-50-pyqs`;
+    const canonicalUrl = `https://examcompass.pages.dev/${exam}/${subject}/${topic}/top-50-pyqs`;
 
     return (
         <div className="min-h-screen bg-black text-white selection:bg-purple-500/30">

@@ -15,11 +15,11 @@ function createWindow() {
     });
 
     // Load the live website for automatic updates
-    win.loadURL('https://examcompass.web.app');
+    win.loadURL('https://examcompass.pages.dev');
 
     // Open external links in the system browser
     win.webContents.setWindowOpenHandler(({ url }) => {
-        if (url.startsWith('https://examcompass.web.app')) {
+        if (url.startsWith('https://examcompass.pages.dev')) {
             return { action: 'allow' };
         }
         shell.openExternal(url);

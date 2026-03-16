@@ -1,13 +1,15 @@
+---
+title: "Structure Of Atom Revision Notes"
+description: "Master atomic structure with our concise JEE/NEET study guide covering subatomic particles, electron configuration, and more."
+category: "Physics"
+keywords: "structure of atom revision notes, Physics, Exam Compass"
+---
+
+# Structure Of Atom Revision Notes
+
 # Structure of Atom Class 11 Chemistry Quick Recall — Quantum Numbers & Shortcuts
 
----
-**SEO Metadata**
-- **SEO Title:** Structure of Atom Class 11 Chemistry Quick Recall & Quantum Numbers Tricks
-- **Meta Description:** Master Bohr's Model, Quantum Numbers, and electronic configuration with my personal Revison Notes for JEE 2026. Includes nodes shortcuts and trap questions.
-- **Keywords:** Structure of Atom Class 11, Quantum Numbers tricks, Bohr's Model formula JEE, Heisenberg Uncertainty Principle examples, Electronic configuration exceptions Cr Cu, de Broglie wavelength formula, Schrodinger Wave Equation simplified, Atomic structure JEE NEET revision notes
-- **URL Slug:** /blog/structure-of-atom-revision-notes
-- **Last Updated:** March 14, 2026
----
+
 
 ![Glow of electrons: The quantum nature of the atom](/blog-images/structure-of-atom-revision.png)
 
@@ -287,3 +289,6 @@ For your school exams, always draw the Rydberg series energy level diagram ($n=1
 
 ---
 *Last Updated: March 14, 2026 | Part of the Class 11 Chemistry SEO Dominance Series.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

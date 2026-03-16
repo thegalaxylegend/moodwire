@@ -40,7 +40,7 @@ async function sync() {
             id: slug,
             title: titleMatch ? titleMatch[1] : slug.replace(/-/g, ' '),
             description: descMatch ? descMatch[1] : '',
-            category: catMatch ? catMatch[1].trim() : 'General',
+            category: catMatch ? catMatch[1].trim() : (slug.includes('biology') ? 'Biology' : 'General'),
             date: dateMatch ? dateMatch[1].trim().replace(/\*/g, '') : 'March 16, 2026',
             readTime: '15 min read',
             image: imageMatch ? imageMatch[1] : '/blog-images/default.webp'

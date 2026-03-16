@@ -27,7 +27,7 @@ export const AutoSchema = () => {
         if (['login', 'signup', 'dashboard', 'admin', 'onboarding'].includes(exam || '')) return null;
 
         const schemas: Record<string, any>[] = [];
-        const canonicalUrl = `https://examcompass.web.app${location.pathname.replace(/\/$/, '') || '/'}`;
+        const canonicalUrl = `https://examcompass.pages.dev${location.pathname.replace(/\/$/, '') || '/'}`;
 
         // Skip BreadcrumbList on pages that generate their own (ExamLanding, BlogPostPage, QuestionPage)
         const pageHasOwnBreadcrumb =
@@ -45,7 +45,7 @@ export const AutoSchema = () => {
                         "@type": "ListItem",
                         "position": 1,
                         "name": "Home",
-                        "item": "https://examcompass.web.app"
+                        "item": "https://examcompass.pages.dev"
                     }
                 ]
             };
@@ -54,7 +54,7 @@ export const AutoSchema = () => {
                 "@type": "ListItem",
                 "position": 2,
                 "name": exam.toUpperCase().replace(/-/g, ' '),
-                "item": `https://examcompass.web.app/${exam}`
+                "item": `https://examcompass.pages.dev/${exam}`
             });
 
             if (subjectSlug && !subjectSlug.startsWith('q')) {
@@ -63,7 +63,7 @@ export const AutoSchema = () => {
                     "@type": "ListItem",
                     "position": 3,
                     "name": subjectName,
-                    "item": `https://examcompass.web.app/${exam}/${subjectSlug}`
+                    "item": `https://examcompass.pages.dev/${exam}/${subjectSlug}`
                 });
             }
 
@@ -73,7 +73,7 @@ export const AutoSchema = () => {
                     "@type": "ListItem",
                     "position": 4,
                     "name": topicName,
-                    "item": `https://examcompass.web.app/${exam}/${subjectSlug}/${topicSlug}`
+                    "item": `https://examcompass.pages.dev/${exam}/${subjectSlug}/${topicSlug}`
                 });
             }
 
@@ -97,13 +97,13 @@ export const AutoSchema = () => {
                     "endDate": examMeta.endDate,
                     "location": {
                         "@type": "VirtualLocation",
-                        "url": `https://examcompass.web.app/${exam}`
+                        "url": `https://examcompass.pages.dev/${exam}`
                     },
                     "organizer": {
                         "@type": "Organization",
                         "name": "Exam Compass",
-                        "url": "https://examcompass.web.app",
-                        "logo": "https://examcompass.web.app/logo.jpg"
+                        "url": "https://examcompass.pages.dev",
+                        "logo": "https://examcompass.pages.dev/logo.jpg"
                     },
                     "offers": {
                         "@type": "Offer",
@@ -125,8 +125,8 @@ export const AutoSchema = () => {
                     "provider": {
                         "@type": "Organization",
                         "name": "Exam Compass",
-                        "url": "https://examcompass.web.app",
-                        "logo": "https://examcompass.web.app/logo.jpg"
+                        "url": "https://examcompass.pages.dev",
+                        "logo": "https://examcompass.pages.dev/logo.jpg"
                     },
                     "isAccessibleForFree": true
                 });
@@ -161,9 +161,9 @@ export const AutoSchema = () => {
                         "provider": {
                             "@type": "Organization",
                             "name": "Exam Compass",
-                            "sameAs": "https://examcompass.web.app",
-                            "url": "https://examcompass.web.app",
-                            "logo": "https://examcompass.web.app/logo.jpg"
+                            "sameAs": "https://examcompass.pages.dev",
+                            "url": "https://examcompass.pages.dev",
+                            "logo": "https://examcompass.pages.dev/logo.jpg"
                         },
                         "hasCourseInstance": {
                             "@type": "CourseInstance",
@@ -194,8 +194,8 @@ export const AutoSchema = () => {
                         "provider": {
                             "@type": "Organization",
                             "name": "Exam Compass",
-                            "url": "https://examcompass.web.app",
-                            "logo": "https://examcompass.web.app/logo.jpg"
+                            "url": "https://examcompass.pages.dev",
+                            "logo": "https://examcompass.pages.dev/logo.jpg"
                         },
                         "isAccessibleForFree": true
                     });
@@ -224,10 +224,10 @@ export const AutoSchema = () => {
                 "@context": "https://schema.org",
                 "@type": "WebApplication",
                 "name": "Exam Compass",
-                "url": "https://examcompass.web.app",
+                "url": "https://examcompass.pages.dev",
                 "description": "AI-powered exam preparation platform for JEE, NEET, UPSC, and CBSE Class 6-12 students.",
-                "image": "https://examcompass.web.app/exa-logo.png",
-                "screenshot": "https://examcompass.web.app/og-image.png",
+                "image": "https://examcompass.pages.dev/exa-logo.png",
+                "screenshot": "https://examcompass.pages.dev/og-image.png",
                 "applicationCategory": "EducationalApplication",
                 "operatingSystem": "Web Browser",
                 "featureList": "AI-Generated Mock Tests, Personalized Learning Roadmaps, Chapter-wise PYQs, Real-time Performance Analytics, Adaptive Practice Modules",
@@ -240,7 +240,7 @@ export const AutoSchema = () => {
                 "author": {
                     "@type": "Person",
                     "name": "Ayush Kumar",
-                    "url": "https://examcompass.web.app/about"
+                    "url": "https://examcompass.pages.dev/about"
                 }
             });
         }

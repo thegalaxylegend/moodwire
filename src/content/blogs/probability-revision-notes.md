@@ -1,12 +1,15 @@
+---
+title: "Probability Revision Notes"
+description: "Ace probability concepts for JEE & NEET with expert study guides, comprehensive notes, and practice problems to boost your scores today."
+category: "Mathematics"
+keywords: "probability revision notes, Mathematics, Exam Compass"
+---
+
+# Probability Revision Notes
+
 # Probability Class 11 Math Quick Recall / Short Notes (2026-27)
 
----
-**SEO Metadata**
-- **SEO Title:** Probability Class 11 Math Quick Recall / Short Notes (2026-27)
-- **Meta Description:** Master Class 11 Math Chapter 16 Probability with our detailed revision notes. Learn Sample Spaces, Events, Mutually Exclusive events, and Axiomatic Probability.
-- **Keywords:** Class 11 Math, Probability, Sample Space, Mutually Exclusive Events, Exhaustive Events, Axiomatic Approach, Random Experiment, JEE Math Notes
-- **URL Slug:** /class-11-math-probability-revision-notes
----
+
 
 ![Probability Concepts and Sample Spaces Diagram](/blog-images/probability-revision.png)
 
@@ -108,3 +111,5 @@ Probability teaches us to look at the world through the lens of logic rather tha
 
 ---
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

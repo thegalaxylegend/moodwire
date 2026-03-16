@@ -1,12 +1,15 @@
+---
+title: "Complex Numbers Revision Notes"
+description: "Unlock complex numbers mastery with comprehensive revision notes for JEE/NEET exams success."
+category: "Physics"
+keywords: "complex numbers revision notes, Physics, Exam Compass"
+---
+
+# Complex Numbers Revision Notes
+
 # Complex Numbers and Quadratic Equations Class 11 Math Quick Recall / Short Notes (2026-27)
 
----
-**SEO Metadata**
-- **SEO Title:** Complex Numbers and Quadratic Equations Class 11 Math Quick Recall / Short Notes (2026-27)
-- **Meta Description:** Master Class 11 Math Chapter 5. Learn about Imaginary Unit 'i', Argand Plane, Modulus, Conjugate, and Complex Roots of Quadratic Equations for JEE/CBSE.
-- **Keywords:** Class 11 Math, Complex Numbers, Imaginary Unit i, Argand Plane, Modulus and Conjugate, Quadratic Equations, JEE Math Notes, Class 11 Math Chapter 5
-- **URL Slug:** /class-11-math-complex-numbers-revision-notes
----
+
 
 ![Beyond the Real: The World of Complex Numbers](/blog-images/complex-numbers-revision.png)
 
@@ -106,3 +109,5 @@ Complex numbers expand your mathematical toolkit to include rotation and two-dim
 
 ---
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

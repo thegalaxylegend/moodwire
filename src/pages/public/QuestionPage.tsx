@@ -76,7 +76,7 @@ export const QuestionPage = () => {
 
     // CANONICAL FIX: Use the canonical exam (first exam to claim this question) to prevent duplicate content
     const canonicalExam = question.canonicalExam || exam;
-    const canonicalUrl = `https://examcompass.web.app/${canonicalExam}/q/${slug}`;
+    const canonicalUrl = `https://examcompass.pages.dev/${canonicalExam}/q/${slug}`;
 
     const correctAnswerText = question.options?.[question.correctAnswer] || 'See Solution';
 
@@ -125,13 +125,13 @@ export const QuestionPage = () => {
             {
                 "@type": "BreadcrumbList",
                 "itemListElement": [
-                    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://examcompass.web.app/" },
-                    { "@type": "ListItem", "position": 2, "name": formattedExam, "item": `https://examcompass.web.app/${exam}` },
+                    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://examcompass.pages.dev/" },
+                    { "@type": "ListItem", "position": 2, "name": formattedExam, "item": `https://examcompass.pages.dev/${exam}` },
                     ...(question.subject ? [{
                         "@type": "ListItem",
                         "position": 3,
                         "name": question.subject,
-                        "item": `https://examcompass.web.app/${exam}/${slugify(question.subject)}`
+                        "item": `https://examcompass.pages.dev/${exam}/${slugify(question.subject)}`
                     }] : []),
                     {
                         "@type": "ListItem",

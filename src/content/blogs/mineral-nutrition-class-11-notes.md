@@ -1,8 +1,17 @@
+---
+title: "Mineral Nutrition Class 11 Notes"
+description: "Master Biology Class 11 with our comprehensive Mineral Nutrition study guide, covering key concepts and formulas with easy-to-follow explanations."
+category: "Biology"
+keywords: "mineral nutrition class 11 notes, Biology, Exam Compass"
+---
+
+# Mineral Nutrition Class 11 Notes
+
 # Mineral Nutrition
 ## Class 11 Notes
 ### Last Updated: March 16, 2026
 
-![Mineral Nutrition notes for Class 11](https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&q=80&w=1200&h=630)
+![Mineral Nutrition Class 11 Notes Notes](/blog-images/mineral-nutrition-class-11-notes.webp)
 
 ## Quick Recall Box
 * Mineral nutrition is essential for plant growth and development.
@@ -166,3 +175,6 @@ Answer: b) Stunted growth and purple coloration of leaves
 <div class="quick-summary">
 Mineral nutrition is the study of the essential elements required by plants for growth and development. Plants require 16 essential elements, which are divided into macronutrients and micronutrients. Mineral nutrition is critical for maintaining plant health and preventing diseases.
 </div>
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -1,11 +1,11 @@
 ---
 title: "JEE Mains High Weightage Low Effort Chapters 2026 Guide"
 description: "Master JEE Mains high weightage low effort chapters for 2026. Boost your marks with our data-driven ROI analysis and paper trends for success. Start now!"
-author: "Ayush (Founder, Exam Compass)"
-date: "March 1, 2024"
-category: "JEE & NEET"
-keywords: ["JEE Mains Weightage", "High ROI Chapters", "Sniper Strategy JEE", "2026 Board Prep"]
+category: "Physics"
+keywords: "jee mains high weightage chapters, Physics, Exam Compass"
 ---
+
+# JEE Mains High Weightage Low Effort Chapters 2026 Guide
 
 # JEE Mains High Weightage Low Effort Chapters 2026: The Sniper Strategy
 
@@ -78,3 +78,5 @@ Mathematically, yes. It takes significant time to master and usually yields only
 Chemistry is statistically the easiest and most scorable. Many questions are direct or semi-direct from NCERT. If you know the concept, you get the marks quickly, leaving more time for the calculations required in Physics and Math.
  become your strongest area.
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

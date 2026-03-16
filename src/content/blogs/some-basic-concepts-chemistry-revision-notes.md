@@ -1,13 +1,15 @@
+---
+title: "Some Basic Concepts Chemistry Revision Notes"
+description: "Boost JEE/NEET Chem prep with our concise & comprehensive study notes covering essential concepts & practical applications."
+category: "Chemistry"
+keywords: "some basic concepts chemistry revision notes, Chemistry, Exam Compass"
+---
+
+# Some Basic Concepts Chemistry Revision Notes
+
 # Some Basic Concepts of Chemistry — Mole Concept & Stoichiometry Shortcuts for JEE NEET
 
----
-**SEO Metadata**
-- **SEO Title:** Some Basic Concepts of Chemistry — Mole Concept & Stoichiometry Shortcuts JEE NEET 2026
-- **Meta Description:** Crack Mole Concept, Limiting Reagent, and Concentration terms with Ayush's personal shortcuts. Includes 3 trap questions and 5+ tagged MCQs for JEE NEET 2026.
-- **Keywords:** Mole Concept JEE shortcuts, Stoichiometry tricks, Limiting Reagent problems, Molarity vs Molality difference, n-factor calculation method, Equivalent weight JEE, Class 11 Chemistry Chapter 1, CBSE board exam preparation
-- **URL Slug:** /blog/some-basic-concepts-chemistry-revision-notes
-- **Last Updated:** March 14, 2026
----
+
 
 ![Mole concept and stoichiometry diagram for JEE NEET 2026](/blog-images/some-basic-concepts-chemistry-revision.png)
 
@@ -256,3 +258,6 @@ For your school paper, always show unit conversions step-by-step. Write "$M = \t
 
 ---
 *Last Updated: March 14, 2026 | Part of the Class 11 Chemistry Revision Series — NCERT-aligned with JEE/NEET depth.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
