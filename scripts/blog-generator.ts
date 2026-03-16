@@ -17,55 +17,69 @@ const BLOG_DIR = path.join(__dirname, '../src/content/blogs');
 const IMAGE_DIR = path.join(__dirname, '../public/blog-images');
 
 async function downloadHeroImage(subject: string, topic: string, slug: string) {
-    const imagePath = path.join(IMAGE_DIR, `${slug}.png`);
-    if (fs.existsSync(imagePath)) return `/blog-images/${slug}.png`;
+    const webpPath = path.join(IMAGE_DIR, `${slug}.webp`);
+    if (fs.existsSync(webpPath)) return `/blog-images/${slug}.webp`;
 
-    try {
-        console.log(`🎨 Jules: Designing custom artwork for "${topic}"...`);
-        
-        // 1. Generate a "Master Illustrator" Prompt using Groq
-        const promptGen = await groq.chat.completions.create({
-            messages: [{
-                role: "system",
-                content: "You are a world-class 3D scientific illustrator. Your style is: dark mode, neon-lit, 3D holographic diagrams, cinematic lighting, 8k resolution, minimalist but detailed."
-            }, {
-                role: "user",
-                content: `Generate a detailed midjourney-style image prompt for a hero image about the topic: "${topic}" for ${subject}. 
-                Instructions:
-                - Focus on: A 3D scientific diagram or abstract conceptual illustration.
-                - Colors: Neon cyan, purple, and electric blue.
-                - Background: Dark, deep black, professional.
-                - Style: High-tech, futuristic, educational but stunning.
-                - NO TEXT in the image.
-                - Output ONLY the prompt text, nothing else.`
-            }],
-            model: "llama-3.3-70b-versatile",
-            temperature: 0.7
-        });
+    const MAX_RETRIES = 3;
+    let lastError = null;
 
-        const artPrompt = promptGen.choices[0]?.message?.content || `${topic} scientific diagram, neon, 3D, dark background`;
-        console.log(`✍️ Art Direction: ${artPrompt.substring(0, 100)}...`);
+    for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+        try {
+            console.log(`🎨 Jules: Designing custom artwork for "${topic}" (Attempt ${attempt}/3)...`);
+            
+            // 1. Generate a "Master Illustrator" Prompt using Groq
+            const promptGen = await groq.chat.completions.create({
+                messages: [{
+                    role: "system",
+                    content: "You are a professional 3D scientific illustrator. Style: dark mode, neon holographic diagrams, cinematic lighting, 8k, minimalist."
+                }, {
+                    role: "user",
+                    content: `Generate a short midjourney-style prompt for a hero image: "${topic}" for ${subject}. 
+                    Focus on: 3D scientific diagram, neon cyan/purple/blue, black background. NO TEXT.`
+                }],
+                model: "llama-3.3-70b-versatile",
+                temperature: 0.7
+            });
 
-        // 2. Fetch the image from a high-quality AI provider (Flux / SDXL)
-        const encodedPrompt = encodeURIComponent(artPrompt);
-        const imageUrl = `https://pollinations.ai/p/${encodedPrompt}?width=1200&height=630&seed=${Math.floor(Math.random() * 100000)}&model=flux`;
+            const artPrompt = promptGen.choices[0]?.message?.content || `${topic} scientific diagram, neon, 3D, dark background`;
+            console.log(`✍️ Art Direction: ${artPrompt.substring(0, 80)}...`);
 
-        const response = await fetch(imageUrl);
-        const contentType = response.headers.get('content-type');
-        
-        if (!response.ok || !contentType || !contentType.startsWith('image/')) {
-            throw new Error(`Invalid image response: ${response.status} ${contentType}`);
+            // 2. Fetch the image from a high-quality AI provider
+            const encodedPrompt = encodeURIComponent(artPrompt);
+            // Cycle through models if retrying
+            const models = ['flux', 'turbo', 'pro'];
+            const currentModel = models[(attempt - 1) % models.length];
+            const imageUrl = `https://pollinations.ai/p/${encodedPrompt}?width=1000&height=563&seed=${Math.floor(Math.random() * 100000)}&model=${currentModel}`;
+
+            const response = await fetch(imageUrl);
+            const contentType = response.headers.get('content-type');
+            
+            if (!response.ok || !contentType || !contentType.startsWith('image/')) {
+                const text = await response.text();
+                throw new Error(`Invalid response (${response.status} ${contentType}): ${text.substring(0, 100)}`);
+            }
+
+            const buffer = await response.arrayBuffer();
+            
+            // Use sharp to optimize to WebP
+            const { default: sharp } = await import('sharp');
+            await sharp(Buffer.from(buffer))
+                .resize(1000, 563)
+                .webp({ quality: 75 })
+                .toFile(webpPath);
+            
+            console.log(`✅ Hero image optimized (WebP): ${slug}.webp`);
+            return `/blog-images/${slug}.webp`;
+        } catch (err) {
+            lastError = err;
+            console.error(`⚠️ Attempt ${attempt} failed:`, err instanceof Error ? err.message : err);
+            // Small delay before retry
+            if (attempt < MAX_RETRIES) await new Promise(r => setTimeout(r, 2000));
         }
-
-        const buffer = await response.arrayBuffer();
-        fs.writeFileSync(imagePath, Buffer.from(buffer));
-        
-        console.log(`✅ Hero image created: ${slug}.png`);
-        return `/blog-images/${slug}.png`;
-    } catch (err) {
-        console.error("❌ Image generation failed, using fallback:", err);
-        return "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&q=80&w=1200&h=630"; // Better abstract fallback
     }
+
+    console.error("❌ All image generation retries failed, using fallback.");
+    return "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&q=80&w=1200&h=630";
 }
 
 async function generateBlogs() {
