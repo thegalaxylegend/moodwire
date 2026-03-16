@@ -156,6 +156,15 @@ ${content}
             }
         }
     }
+    
+    // FINAL STEP: Sync the blog registry automatically
+    console.log("\n🔄 Jules: Triggering Registry Sync...");
+    try {
+        const { execSync } = await import('child_process');
+        execSync('node scripts/sync-blogs.js', { stdio: 'inherit' });
+    } catch (e: any) {
+        console.error("⚠️ Registry Sync failed:", e.message);
+    }
 }
 
 generateBlogs().catch(err => {

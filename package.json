@@ -6,10 +6,11 @@
   "main": "electron/main.js",
   "scripts": {
     "dev": "vite",
-    "build": "npm run seo:regen && tsc -b && vite build && npm run build:ssr && node scripts/prerender-all.js && node scripts/generate-sitemap.js && node scripts/generate-rss.js && npm run seo:ping",
+    "build": "npm run blog:sync && npm run seo:regen && tsc -b && vite build && npm run build:ssr && node scripts/prerender-all.js && node scripts/generate-sitemap.js && node scripts/generate-rss.js && npm run seo:ping",
     "build:ssr": "vite build --ssr src/entry-server.tsx --outDir dist/server",
     "ssg": "npm run build",
-    "seo:regen": "node scripts/generate-seo-manifest.js",
+    "blog:sync": "node scripts/sync-blogs.js",
+    "seo:regen": "node scripts/sync-blogs.js && node scripts/generate-seo-manifest.js",
     "seo:ping": "node scripts/ping-indexnow.js",
     "seo:check": "node scripts/validate-seo.js",
     "lint": "eslint .",
