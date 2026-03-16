@@ -44,7 +44,7 @@ export const blogs: Blog[] = [
         "category": "General",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/anatomy-of-flowering-plants-class-11-notes.png"
+        "image": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=1200&h=630"
     },
     {
         "id": "animal-kingdom-class-11-notes",
@@ -53,7 +53,7 @@ export const blogs: Blog[] = [
         "category": "General",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/animal-kingdom-class-11-notes.png"
+        "image": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=1200&h=630"
     },
     {
         "id": "binomial-theorem-revision-notes",
@@ -287,7 +287,7 @@ export const blogs: Blog[] = [
         "category": "General",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/morphology-of-flowering-plants-class-11-notes.png"
+        "image": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=1200&h=630"
     },
     {
         "id": "motion-in-a-plane-revision-notes",
@@ -440,7 +440,7 @@ export const blogs: Blog[] = [
         "category": "General",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/structural-organisation-in-animals-class-11-notes.png"
+        "image": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=1200&h=630"
     },
     {
         "id": "thermal-properties-of-matter-revision-notes",
@@ -521,7 +521,7 @@ export const blogs: Blog[] = [
         "category": "Class 11",
         "date": "March 15, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/3d-geometry-intro-class-11-notes.png"
+        "image": "https://images.unsplash.com/photo-1509228468518-180dd48219d8?auto=format&fit=crop&q=80&w=1200&h=630"
     },
     {
         "id": "biological-classification-class-11-notes",
@@ -530,7 +530,7 @@ export const blogs: Blog[] = [
         "category": "General",
         "date": "March 15, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/biological-classification-class-11-notes.png"
+        "image": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=1200&h=630"
     },
     {
         "id": "environmental-chemistry-class-11-notes",
@@ -539,7 +539,7 @@ export const blogs: Blog[] = [
         "category": "General",
         "date": "March 15, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/environmental-chemistry-class-11-notes.png"
+        "image": "https://images.unsplash.com/photo-1532187875605-18d8d2170e9f?auto=format&fit=crop&q=80&w=1200&h=630"
     },
     {
         "id": "hydrocarbons-class-11-notes",
@@ -548,7 +548,7 @@ export const blogs: Blog[] = [
         "category": "General",
         "date": "March 15, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/hydrocarbons-class-11-notes.png"
+        "image": "https://images.unsplash.com/photo-1532187875605-18d8d2170e9f?auto=format&fit=crop&q=80&w=1200&h=630"
     },
     {
         "id": "hydrogen-class-11-notes",
@@ -557,7 +557,7 @@ export const blogs: Blog[] = [
         "category": "General",
         "date": "March 15, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/hydrogen-class-11-notes.png"
+        "image": "https://images.unsplash.com/photo-1532187875605-18d8d2170e9f?auto=format&fit=crop&q=80&w=1200&h=630"
     },
     {
         "id": "neet-2026-weightage-prediction",
@@ -575,7 +575,7 @@ export const blogs: Blog[] = [
         "category": "General",
         "date": "March 15, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/organic-chemistry-basic-principles-class-11-notes.png"
+        "image": "https://images.unsplash.com/photo-1532187875605-18d8d2170e9f?auto=format&fit=crop&q=80&w=1200&h=630"
     },
     {
         "id": "physical-world-class-11-notes",
@@ -584,7 +584,7 @@ export const blogs: Blog[] = [
         "category": "General",
         "date": "March 15, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/physical-world-class-11-notes.png"
+        "image": "https://images.unsplash.com/photo-1636466497217-39a814035f42?auto=format&fit=crop&q=80&w=1200&h=630"
     },
     {
         "id": "plant-kingdom-class-11-notes",
@@ -593,7 +593,7 @@ export const blogs: Blog[] = [
         "category": "General",
         "date": "March 15, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/plant-kingdom-class-11-notes.png"
+        "image": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=1200&h=630"
     },
     {
         "id": "redox-reactions-class-11-notes",
@@ -602,7 +602,7 @@ export const blogs: Blog[] = [
         "category": "General",
         "date": "March 15, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/redox-reactions-class-11-notes.png"
+        "image": "https://images.unsplash.com/photo-1532187875605-18d8d2170e9f?auto=format&fit=crop&q=80&w=1200&h=630"
     },
     {
         "id": "the-living-world-class-11-notes",
@@ -611,7 +611,7 @@ export const blogs: Blog[] = [
         "category": "General",
         "date": "March 15, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/the-living-world-class-11-notes.png"
+        "image": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=1200&h=630"
     },
     {
         "id": "the-p-block-elements-11-class-11-notes",
@@ -620,7 +620,7 @@ export const blogs: Blog[] = [
         "category": "Class 11",
         "date": "March 15, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/the-p-block-elements-11-class-11-notes.png"
+        "image": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=1200&h=630"
     },
     {
         "id": "the-s-block-elements-class-11-notes",
@@ -629,7 +629,7 @@ export const blogs: Blog[] = [
         "category": "General",
         "date": "March 15, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/the-s-block-elements-class-11-notes.png"
+        "image": "https://images.unsplash.com/photo-1532187875605-18d8d2170e9f?auto=format&fit=crop&q=80&w=1200&h=630"
     },
     {
         "id": "chemical-bonding-class-11-notes",
@@ -719,7 +719,7 @@ export const blogs: Blog[] = [
         "category": "Board Exams",
         "date": "March 5, 2024",
         "readTime": "15 min read",
-        "image": "/blog-images/state-scholarship-infographic.jpg"
+        "image": "https://images.unsplash.com/photo-1509228468518-180dd48219d8?auto=format&fit=crop&q=80&w=1200&h=630"
     },
     {
         "id": "upsc-optional-selection-guide",

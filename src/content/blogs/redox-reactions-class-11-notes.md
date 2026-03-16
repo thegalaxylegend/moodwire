@@ -1,5 +1,5 @@
 # Redox Reactions Class 11 Notes
-![Redox Reactions notes for Class 11](/blog-images/redox-reactions-class-11-notes.png)
+![Hero Image](https://images.unsplash.com/photo-1532187875605-18d8d2170e9f?auto=format&fit=crop&q=80&w=1200&h=630)
 Last Updated: March 15, 2026
 
 ## Quick Recall Box

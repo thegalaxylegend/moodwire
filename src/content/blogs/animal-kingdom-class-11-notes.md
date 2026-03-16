@@ -5,7 +5,7 @@ description: Master Animal Kingdom with our detailed Class 11 notes, including p
 keywords: animal kingdom class 11 notes, animal kingdom notes, class 11 biology notes
 ---
 
-![Animal Kingdom notes for Class 11](/blog-images/animal-kingdom-class-11-notes.png)
+![Hero Image](https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=1200&h=630)
 
 ## Quick Recall Box
 * Kingdom Animalia includes all multicellular, eukaryotic animals

@@ -1,5 +1,5 @@
 # 3D Geometry (Intro) Notes for Class 11
-![3D Geometry (Intro) notes for Class 11](/blog-images/3d-geometry-intro-class-11-notes.png)
+![Hero Image](https://images.unsplash.com/photo-1509228468518-180dd48219d8?auto=format&fit=crop&q=80&w=1200&h=630)
 Last Updated: March 15, 2026
 
 ## Quick Recall Box

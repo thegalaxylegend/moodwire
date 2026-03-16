@@ -1,4 +1,4 @@
-![Environmental Chemistry notes for Class 11](/blog-images/environmental-chemistry-class-11-notes.png)
+![Hero Image](https://images.unsplash.com/photo-1532187875605-18d8d2170e9f?auto=format&fit=crop&q=80&w=1200&h=630)
 ## Environmental Chemistry Class 11 Notes
 Environmental Chemistry is [the study of the chemical and biochemical phenomena that occur in the environment](https://en.wikipedia.org/wiki/Environmental_chemistry). 
 ### Quick Recall Box

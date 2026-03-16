@@ -5,7 +5,7 @@ slug: biological-classification-class-11-notes
 date: 2026-03-15
 ---
 
-![Biological Classification notes for Class 11](/blog-images/biological-classification-class-11-notes.png)
+![Hero Image](https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=1200&h=630)
 
 ## Quick Recall Box
 * Biological classification is the process of grouping living organisms based on their characteristics and evolutionary relationships.

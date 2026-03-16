@@ -1,5 +1,5 @@
 # The P-Block Elements (11) Notes for Class 11
-![The P-Block Elements (11) notes for Class 11](/blog-images/the-p-block-elements-11-class-11-notes.png)
+![Hero Image](https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=1200&h=630)
 Last Updated: March 15, 2026
 
 ## Quick Recall Box

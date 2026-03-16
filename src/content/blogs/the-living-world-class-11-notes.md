@@ -5,7 +5,7 @@ slug: the-living-world-class-11-notes
 date: 2026-03-15
 ---
 
-![The Living World notes for Class 11](/blog-images/the-living-world-class-11-notes.png)
+![Hero Image](https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=1200&h=630)
 
 ## Quick Recall Box
 * The living world encompasses all forms of life, from simple bacteria to complex organisms like humans.

@@ -5,7 +5,7 @@ slug: hydrogen-class-11-notes
 date: 2026-03-15
 ---
 
-![Hydrogen notes for Class 11](/blog-images/hydrogen-class-11-notes.png)
+![Hero Image](https://images.unsplash.com/photo-1532187875605-18d8d2170e9f?auto=format&fit=crop&q=80&w=1200&h=630)
 
 ## Quick Recall Box
 * Hydrogen is the lightest and most abundant chemical element in the universe.

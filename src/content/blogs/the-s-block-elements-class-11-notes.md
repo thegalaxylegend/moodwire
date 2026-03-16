@@ -6,7 +6,7 @@ target_slug: the-s-block-elements-class-11-notes
 hero_image: /blog-images/the-s-block-elements-class-11-notes.png
 date: 2026-03-15
 ---
-![The S-Block Elements notes for Class 11](/blog-images/the-s-block-elements-class-11-notes.png)
+![Hero Image](https://images.unsplash.com/photo-1532187875605-18d8d2170e9f?auto=format&fit=crop&q=80&w=1200&h=630)
 ### Quick Recall Box
 * The s-block elements are in Group 1 and 2 of the periodic table.
 * They are also known as the alkali metals and alkaline earth metals.

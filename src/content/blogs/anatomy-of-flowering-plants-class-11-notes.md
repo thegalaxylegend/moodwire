@@ -1,6 +1,6 @@
 # Anatomy of Flowering Plants Class 11 Notes
 ## Last Updated: March 16, 2026
-![Anatomy of Flowering Plants notes for Class 11](/blog-images/anatomy-of-flowering-plants-class-11-notes.png)
+![Hero Image](https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=1200&h=630)
 
 ## Quick Recall Box
 * The anatomy of flowering plants is a crucial topic in Class 11 Biology.

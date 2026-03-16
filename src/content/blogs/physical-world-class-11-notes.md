@@ -6,7 +6,7 @@ hero_image: /blog-images/physical-world-class-11-notes.png
 date: 2026-03-15
 ---
 
-![Physical World notes for Class 11](/blog-images/physical-world-class-11-notes.png)
+![Hero Image](https://images.unsplash.com/photo-1636466497217-39a814035f42?auto=format&fit=crop&q=80&w=1200&h=630)
 
 ## Quick Recall Box
 * Physical World is a fundamental chapter in Class 11 Physics

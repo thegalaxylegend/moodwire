@@ -112,7 +112,7 @@ Answer: A) Butane
 ## Last Updated Date
 Last Updated: March 15, 2026
 
-![Organic Chemistry: Basic Principles notes for Class 11](/blog-images/organic-chemistry-basic-principles-class-11-notes.png)
+![Hero Image](https://images.unsplash.com/photo-1532187875605-18d8d2170e9f?auto=format&fit=crop&q=80&w=1200&h=630)
 <div class="quick-summary">
 * Organic chemistry is the study of carbon-containing compounds
 * Basic principles include atomic structure, chemical bonding, and molecular structure

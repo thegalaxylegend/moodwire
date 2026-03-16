@@ -94,4 +94,4 @@ Answer: B) To produce bile and digestive enzymes
 ## Last Updated Date
 Last Updated: March 16, 2026
 
-![Structural Organisation in Animals notes for Class 11](/blog-images/structural-organisation-in-animals-class-11-notes.png)
+![Hero Image](https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=1200&h=630)
