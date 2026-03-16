@@ -53,8 +53,11 @@ async function syncFirestore() {
     await batch.commit().catch(err => {
         if (err.message.includes('PERMISSION_DENIED')) {
             console.error("\n❌ FIREBASE PERMISSION ERROR:");
-            console.error("The service account used in GITHUB SECRETS does not have 'Cloud Datastore User' role.");
-            console.error("Please go to https://console.cloud.google.com/iam-admin/iam and grant 'Cloud Datastore User' to your service account email.\n");
+            console.error("The service account used in GITHUB SECRETS does not have sufficient permissions.");
+            console.error("Please go to https://console.cloud.google.com/iam-admin/iam and grant:");
+            console.error("1. 'Cloud Datastore User'");
+            console.error("2. 'Firebase Firestore Admin' (Recommended)");
+            console.error("to your service account email: " + serviceAccount.client_email + "\n");
         }
         throw err;
     });
