@@ -70,10 +70,16 @@ async function downloadHeroImage(subject: string, topic: string, slug: string): 
             return `/blog-images/${slug}.webp`;
         } catch (err: any) {
             console.warn(`⚠️ Image attempt ${i + 1} failed.`);
+            if (i < 2) {
+                console.log("⏳ Waiting 10s before retry...");
+                await new Promise(r => setTimeout(r, 10000));
+            }
         }
     }
 
     console.error("❌ Pollinations blocked. Using high-quality theme fallback.");
+    // Wait anyway before returning fallback to avoid hammering the next blog
+    await new Promise(r => setTimeout(r, 5000));
     return defaultFallback;
 }
 

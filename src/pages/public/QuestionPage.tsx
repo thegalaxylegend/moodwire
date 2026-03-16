@@ -9,6 +9,7 @@ import { KeyTakeaways } from '../../components/KeyTakeaways';
 import { AuthorBio } from '../../components/AuthorBio';
 import { SocialShare } from '../../components/SocialShare';
 import { blogs } from '../../data/blogs';
+import { SITE_URL } from '../../lib/siteConfig';
 
 
 // Type definition for safe global access
@@ -76,7 +77,7 @@ export const QuestionPage = () => {
 
     // CANONICAL FIX: Use the canonical exam (first exam to claim this question) to prevent duplicate content
     const canonicalExam = question.canonicalExam || exam;
-    const canonicalUrl = `https://examcompass.pages.dev/${canonicalExam}/q/${slug}`;
+    const canonicalUrl = `${SITE_URL}/${canonicalExam}/q/${slug}`;
 
     const correctAnswerText = question.options?.[question.correctAnswer] || 'See Solution';
 
@@ -125,13 +126,13 @@ export const QuestionPage = () => {
             {
                 "@type": "BreadcrumbList",
                 "itemListElement": [
-                    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://examcompass.pages.dev/" },
-                    { "@type": "ListItem", "position": 2, "name": formattedExam, "item": `https://examcompass.pages.dev/${exam}` },
+                    { "@type": "ListItem", "position": 1, "name": "Home", "item": `${SITE_URL}/` },
+                    { "@type": "ListItem", "position": 2, "name": formattedExam, "item": `${SITE_URL}/${exam}` },
                     ...(question.subject ? [{
                         "@type": "ListItem",
                         "position": 3,
                         "name": question.subject,
-                        "item": `https://examcompass.pages.dev/${exam}/${slugify(question.subject)}`
+                        "item": `${SITE_URL}/${exam}/${slugify(question.subject)}`
                     }] : []),
                     {
                         "@type": "ListItem",

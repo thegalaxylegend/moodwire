@@ -1,6 +1,7 @@
 import { SEO } from '../../components/SEO';
 import { Navbar } from '../../components/Navbar';
 import { Footer } from '../../components/Footer';
+import { SITE_URL } from '../../lib/siteConfig';
 
 export const PrivacyPolicy = () => {
     return (
@@ -8,16 +9,16 @@ export const PrivacyPolicy = () => {
             <SEO
                 title="Privacy Policy | Exam Compass"
                 description="Read the Exam Compass Privacy Policy. Learn how we collect, use, and protect your personal data, including information about cookies, analytics, and third-party advertising."
-                canonical="https://examcompass.pages.dev/privacy"
+                canonical={`${SITE_URL}/privacy`}
                 schema={{
                     "@context": "https://schema.org",
                     "@type": "WebPage",
                     "name": "Privacy Policy",
-                    "url": "https://examcompass.pages.dev/privacy",
+                    "url": `${SITE_URL}/privacy`,
                     "publisher": {
                         "@type": "Organization",
                         "name": "Exam Compass",
-                        "url": "https://examcompass.pages.dev"
+                        "url": SITE_URL
                     }
                 }}
             />

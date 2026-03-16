@@ -1,27 +1,51 @@
 import { SEO } from '../../components/SEO';
 import { Navbar } from '../../components/Navbar';
 import { Footer } from '../../components/Footer';
-import { Mail, MapPin, Clock, MessageSquare } from 'lucide-react';
+import { Breadcrumbs } from '../../components/seo/Breadcrumbs';
+import { Mail, MapPin, Clock, MessageSquare, HelpCircle } from 'lucide-react';
+import { SITE_URL } from '../../lib/siteConfig';
+
+const FAQ_ITEMS = [
+    { q: 'Is Exam Compass free to use?', a: 'Yes! Exam Compass is completely free. Our AI-powered mock tests, PYQ practice, analytics, and study roadmaps are available at no cost to all students.' },
+    { q: 'Which exams does Exam Compass support?', a: 'We support JEE Mains, JEE Advanced, NEET UG, UPSC CSE, CLAT, GATE, BITSAT, and CBSE board exams for Classes 6 through 12.' },
+    { q: 'How does the AI Mock Test Generator work?', a: 'Our adaptive engine analyzes your past performance to identify weak areas, then generates personalized mock tests from our database of 9,000+ verified Previous Year Questions (PYQs) to maximize your improvement.' },
+    { q: 'Can I use Exam Compass on my phone?', a: 'Absolutely! Exam Compass is a Progressive Web App (PWA) that works on any device — desktop, tablet, or mobile. You can even install it for offline access.' },
+    { q: 'How do I report a bug or suggest a feature?', a: 'Email us at mrayushkr444@gmail.com with details. For bugs, please include steps to reproduce the issue. We typically respond within 24–48 hours.' },
+];
 
 export const ContactPage = () => {
+    const faqSchema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": FAQ_ITEMS.map(item => ({
+            "@type": "Question",
+            "name": item.q,
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": item.a
+            }
+        }))
+    };
+
     return (
         <div className="min-h-screen bg-black text-white selection:bg-purple-500/30">
             <SEO
                 title="Contact Us | Exam Compass"
                 description="Get in touch with the Exam Compass team. Contact us for questions, feedback, bug reports, or partnership inquiries about our AI-powered exam preparation platform."
-                canonical="https://examcompass.pages.dev/contact"
+                canonical={`${SITE_URL}/contact`}
                 schema={{
                     "@context": "https://schema.org",
                     "@type": "ContactPage",
                     "name": "Contact Exam Compass",
-                    "url": "https://examcompass.pages.dev/contact",
+                    "url": `${SITE_URL}/contact`,
                     "mainEntity": {
                         "@type": "Organization",
                         "name": "Exam Compass",
-                        "url": "https://examcompass.pages.dev",
+                        "url": SITE_URL,
                         "contactPoint": {
                             "@type": "ContactPoint",
                             "contactType": "customer support",
+                            "email": "mrayushkr444@gmail.com",
                             "availableLanguage": ["English", "Hindi"]
                         }
                     }
@@ -30,6 +54,9 @@ export const ContactPage = () => {
             <Navbar />
 
             <main className="pt-32 pb-20 px-6 max-w-4xl mx-auto">
+                <div className="mb-6">
+                    <Breadcrumbs />
+                </div>
                 <h1 className="text-4xl md:text-5xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
                     Contact Us
                 </h1>
@@ -97,6 +124,28 @@ export const ContactPage = () => {
                         </div>
                     </div>
                 </div>
+
+                {/* FAQ Section */}
+                <section className="mb-16">
+                    <div className="flex items-center gap-3 mb-8">
+                        <HelpCircle className="text-purple-400" size={24} />
+                        <h2 className="text-2xl font-bold text-white">Frequently Asked Questions</h2>
+                    </div>
+                    <div className="space-y-4">
+                        {FAQ_ITEMS.map((item, i) => (
+                            <details key={i} className="group p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md">
+                                <summary className="text-white font-semibold cursor-pointer list-none flex items-center justify-between">
+                                    {item.q}
+                                    <span className="text-purple-400 group-open:rotate-45 transition-transform text-xl">+</span>
+                                </summary>
+                                <p className="text-gray-300 mt-4 leading-relaxed faq-answer">{item.a}</p>
+                            </details>
+                        ))}
+                    </div>
+                </section>
+
+                {/* FAQ Schema */}
+                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
             </main>
 
             <Footer />

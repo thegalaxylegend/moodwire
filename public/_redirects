@@ -1,1 +1,5 @@
-/* /index.html 200
+# SPA routes that need client-side routing (non-prerendered)
+/dashboard/*  /index.html  200
+/admin/*      /index.html  200
+/login        /index.html  200
+/onboarding   /index.html  200

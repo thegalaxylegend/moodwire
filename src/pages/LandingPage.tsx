@@ -9,6 +9,7 @@ import { Loader2 } from 'lucide-react';
 import { SEO } from '../components/SEO';
 import { AboutAuthor } from '../components/seo/AboutAuthor';
 import { Footer } from '../components/Footer';
+import { SITE_URL, SITE_OG_IMAGE } from '../lib/siteConfig';
 
 export const LandingPage = () => {
     const navigate = useNavigate();
@@ -36,41 +37,41 @@ export const LandingPage = () => {
     return (
         <div className="min-h-screen bg-transparent text-text-main relative overflow-hidden">
             <SEO
-                title="Exam Compass | AI-Powered Exam Preparation & Mock Tests"
+                title="Exam Compass | AI Mock Tests for JEE, NEET, UPSC"
                 description="The ultimate AI study partner for Class 6-12 board exams, JEE, NEET, and UPSC. Get personalized mock tests, PYQ analytics, and honest roadmaps for Indian aspirants."
-                canonical="https://examcompass.pages.dev/"
-                image="https://examcompass.pages.dev/og-image.png"
+                canonical={`${SITE_URL}/`}
+                image={SITE_OG_IMAGE}
                 schema={{
                     "@context": "https://schema.org",
                     "@graph": [
                         {
                             "@type": "WebSite",
                             "name": "Exam Compass",
-                            "url": "https://examcompass.pages.dev",
+                            "url": SITE_URL,
                             "description": "AI-powered exam preparation platform for JEE, NEET, UPSC, and CBSE Class 6-12.",
                             "potentialAction": {
                                 "@type": "SearchAction",
-                                "target": "https://examcompass.pages.dev/{search_term_string}",
+                                "target": `${SITE_URL}/{search_term_string}`,
                                 "query-input": "required name=search_term_string"
                             }
                         },
                         {
                             "@type": "Organization",
                             "name": "Exam Compass",
-                            "url": "https://examcompass.pages.dev",
-                            "logo": "https://examcompass.pages.dev/exa-logo.png",
+                            "url": SITE_URL,
+                            "logo": `${SITE_URL}/exa-logo.png`,
                             "founder": {
                                 "@type": "Person",
                                 "name": "Ayush Kumar",
                                 "jobTitle": "Founder & Student Developer",
                                 "sameAs": [
                                     "https://github.com/thegalaxylegend",
-                                    "https://examcompass.pages.dev/about"
+                                    `${SITE_URL}/about`
                                 ]
                             },
                             "sameAs": [
-                                "https://examcompass.pages.dev/blog",
-                                "https://examcompass.pages.dev/about"
+                                `${SITE_URL}/blog`,
+                                `${SITE_URL}/about`
                             ]
                         }
                     ]

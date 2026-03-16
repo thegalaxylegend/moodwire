@@ -4,6 +4,7 @@ import { Footer } from '../../components/Footer';
 import { AboutAuthor } from '../../components/seo/AboutAuthor';
 import { Link } from 'react-router-dom';
 import { Brain, Target, BarChart2, Zap } from 'lucide-react';
+import { SITE_URL, SITE_LOGO } from '../../lib/siteConfig';
 
 export const AboutPage = () => {
     return (
@@ -11,17 +12,17 @@ export const AboutPage = () => {
             <SEO
                 title="About Exam Compass | AI-Powered Exam Preparation Platform"
                 description="Learn about Exam Compass — an AI-powered exam preparation platform built by a Class 11 student from KV Darbhanga, Bihar. Discover our mission to make exam prep data-driven and accessible."
-                canonical="https://examcompass.pages.dev/about"
+                canonical={`${SITE_URL}/about`}
                 schema={{
                     "@context": "https://schema.org",
                     "@type": "AboutPage",
                     "name": "About Exam Compass",
-                    "url": "https://examcompass.pages.dev/about",
+                    "url": `${SITE_URL}/about`,
                     "mainEntity": {
                         "@type": "Organization",
                         "name": "Exam Compass",
-                        "url": "https://examcompass.pages.dev",
-                        "logo": "https://examcompass.pages.dev/exa-logo.png",
+                        "url": SITE_URL,
+                        "logo": SITE_LOGO,
                         "description": "AI-powered exam preparation platform for JEE, NEET, UPSC, and CBSE Class 6-12.",
                         "founder": {
                             "@type": "Person",

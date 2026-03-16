@@ -1,6 +1,7 @@
 import { SEO } from '../../components/SEO';
 import { Navbar } from '../../components/Navbar';
 import { Footer } from '../../components/Footer';
+import { SITE_URL } from '../../lib/siteConfig';
 
 export const TermsOfService = () => {
     return (
@@ -8,16 +9,16 @@ export const TermsOfService = () => {
             <SEO
                 title="Terms of Service | Exam Compass"
                 description="Read the Exam Compass Terms of Service. Understand the rules and guidelines for using our AI-powered exam preparation platform."
-                canonical="https://examcompass.pages.dev/terms"
+                canonical={`${SITE_URL}/terms`}
                 schema={{
                     "@context": "https://schema.org",
                     "@type": "WebPage",
                     "name": "Terms of Service",
-                    "url": "https://examcompass.pages.dev/terms",
+                    "url": `${SITE_URL}/terms`,
                     "publisher": {
                         "@type": "Organization",
                         "name": "Exam Compass",
-                        "url": "https://examcompass.pages.dev"
+                        "url": SITE_URL
                     }
                 }}
             />

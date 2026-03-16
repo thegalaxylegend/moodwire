@@ -4,6 +4,7 @@ import { SEO } from '../../components/SEO';
 import { Navbar } from '../../components/Navbar';
 import { Suspense, lazy } from 'react';
 import { blogs } from '../../data/blogs';
+import { SITE_URL } from '../../lib/siteConfig';
 
 const Footer = lazy(() => import('../../components/Footer').then(module => ({ default: module.Footer })));
 
@@ -21,6 +22,7 @@ export const BlogIndex: React.FC = () => {
             <SEO
                 title={categoryFilter ? `${categoryFilter} | Exam Compass Blog` : "Exam Compass Blog | AI Exam Prep Tips & Strategies"}
                 description={`Expert strategies, syllabus breakdowns, and exam preparation tips for ${categoryFilter || 'JEE, NEET, UPSC, and CBSE Class 10-12'} students.`}
+                canonical={`${SITE_URL}/blog`}
             />
             <Navbar />
 

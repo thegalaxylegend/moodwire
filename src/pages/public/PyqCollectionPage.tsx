@@ -4,6 +4,7 @@ import { SEO } from '../../components/SEO';
 import { Navbar } from '../../components/Navbar';
 import { Loader2, Brain, CheckCircle } from 'lucide-react';
 import { slugify } from '../../lib/utils';
+import { SITE_URL } from '../../lib/siteConfig';
 
 // Type definition for safe global access
 declare global {
@@ -66,7 +67,7 @@ export const PyqCollectionPage = () => {
     const { questions } = collectionData;
     const pageTitle = `Top 50 Most Repeated ${formattedTopic} PYQs | ${formattedExam}`;
     const description = `A curated collection of the most important questions from ${formattedTopic}, fully solved with step-by-step concepts to prepare for ${formattedExam}.`;
-    const canonicalUrl = `https://examcompass.pages.dev/${exam}/${subject}/${topic}/top-50-pyqs`;
+    const canonicalUrl = `${SITE_URL}/${exam}/${subject}/${topic}/top-50-pyqs`;
 
     return (
         <div className="min-h-screen bg-black text-white selection:bg-purple-500/30">

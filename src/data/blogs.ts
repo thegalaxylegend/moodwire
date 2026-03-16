@@ -332,7 +332,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/jee-advanced-math-difficulty-trends.webp"
+        "image": "/blog-images/jee-advanced-math-trends.png"
     },
     {
         "id": "jee-mains-chemistry-repeated-concepts",
@@ -341,7 +341,7 @@ export const blogs: Blog[] = [
         "category": "Biology",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/jee-mains-chemistry-repeated-concepts.webp"
+        "image": "/blog-images/jee-mains-chemistry-concepts.png"
     },
     {
         "id": "jee-mains-high-weightage-chapters",
@@ -422,7 +422,7 @@ export const blogs: Blog[] = [
         "category": "Biology",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/neet-2026-weightage-prediction.webp"
+        "image": "/blog-images/neet-2026-weightage.png"
     },
     {
         "id": "neet-biology-80-20-rule",
@@ -431,7 +431,7 @@ export const blogs: Blog[] = [
         "category": "Biology",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/neet-biology-80-20-rule.webp"
+        "image": "/blog-images/neet-biology-80-20.png"
     },
     {
         "id": "neural-control-and-coordination-class-11-notes",
@@ -539,7 +539,7 @@ export const blogs: Blog[] = [
         "category": "Biology",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/state-scholarship-guide-2026.webp"
+        "image": "/blog-images/state-scholarship-directory.png"
     },
     {
         "id": "statistics-revision-notes",
@@ -575,7 +575,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/study-12-hours-daily-tips.webp"
+        "image": "/blog-images/study-12-hours-secret.png"
     },
     {
         "id": "thermal-properties-of-matter-revision-notes",

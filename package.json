@@ -10,6 +10,8 @@
     "build:ssr": "vite build --ssr src/entry-server.tsx --outDir dist/server",
     "ssg": "npm run build",
     "blog:sync": "node scripts/sync-blogs.js",
+    "blog:images": "node scripts/repair-images.js",
+    "blog:placeholders": "node scripts/generate-blog-placeholders.js",
     "seo:regen": "node scripts/sync-blogs.js && node scripts/generate-seo-manifest.js",
     "seo:ping": "node scripts/ping-indexnow.js",
     "seo:check": "node scripts/validate-seo.js",

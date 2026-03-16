@@ -57,7 +57,7 @@ syllabus tracking, and a personalized AI study mentor called "Exa".
 - PWA: Vite PWA Plugin
 
 ## Sitemap
-https://examcompass.pages.dev/sitemap-index.xml
+https://examcompass.pages.dev/sitemap.xml
 
 ## Contact
 Website: https://examcompass.pages.dev

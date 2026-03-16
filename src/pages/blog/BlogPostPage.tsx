@@ -14,7 +14,9 @@ import { Footer } from '../../components/Footer';
 import { blogs } from '../../data/blogs'; // Re-use the metadata block
 import { SocialShare } from '../../components/SocialShare';
 import { AboutAuthor } from '../../components/seo/AboutAuthor';
+import { Breadcrumbs } from '../../components/seo/Breadcrumbs';
 import { Navbar } from '../../components/Navbar';
+import { SITE_URL } from '../../lib/siteConfig';
 
 
 
@@ -129,8 +131,8 @@ export const BlogPostPage: React.FC = () => {
                 title={meta.title}
                 description={meta.description}
                 type="article"
-                canonical={`https://examcompass.pages.dev/blog/${slug}`}
-                image={meta.image ? `https://examcompass.pages.dev${meta.image}` : undefined}
+                canonical={`${SITE_URL}/blog/${slug}`}
+                image={meta.image ? `${SITE_URL}${meta.image}` : undefined}
                 publishedTime={new Date(meta.date).toISOString()}
                 modifiedTime={new Date(meta.date).toISOString()}
             />
@@ -139,8 +141,8 @@ export const BlogPostPage: React.FC = () => {
                 description={meta.description}
                 authorName="Ayush Kumar"
                 publishDate={meta.date}
-                url={`https://examcompass.pages.dev/blog/${slug}`}
-                imageUrl={meta.image ? `https://examcompass.pages.dev${meta.image}` : undefined}
+                url={`${SITE_URL}/blog/${slug}`}
+                imageUrl={meta.image ? `${SITE_URL}${meta.image}` : undefined}
             />
             <Navbar />
 
@@ -153,6 +155,9 @@ export const BlogPostPage: React.FC = () => {
             </div>
 
             <article className="pt-32 pb-20 px-6 max-w-4xl mx-auto" style={{ contentVisibility: 'auto' }}>
+                <div className="mb-6">
+                    <Breadcrumbs />
+                </div>
                 <Link to="/blog" className="inline-flex items-center gap-2 text-gray-400 hover:text-white mb-10 transition-colors font-medium group">
                     <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" /> Back to all articles
                 </Link>
@@ -248,9 +253,11 @@ export const BlogPostPage: React.FC = () => {
                         remarkPlugins={[remarkGfm, remarkMath]}
                         rehypePlugins={[rehypeRaw, rehypeKatex]}
                         components={{
-                            img: ({node, ...props}) => (
+                            img: ({node, alt, src, ...props}) => (
                                 <img 
-                                    {...props} 
+                                    {...props}
+                                    src={src}
+                                    alt={alt || meta.title}
                                     loading="lazy" 
                                     decoding="async" 
                                     className="rounded-3xl shadow-2xl border border-white/10 my-12" 

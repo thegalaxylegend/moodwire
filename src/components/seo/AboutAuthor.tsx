@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet-async';
+import { SITE_URL } from '../../lib/siteConfig';
 
 /**
  * AboutAuthor — E-E-A-T Signal Component
@@ -19,12 +20,12 @@ export const AboutAuthor = ({ compact = false }: AboutAuthorProps) => {
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Ayush Kumar",
-        "url": "https://examcompass.pages.dev/about",
+        "url": `${SITE_URL}/about`,
         "jobTitle": "Founder & Student Developer",
         "worksFor": {
             "@type": "Organization",
             "name": "Exam Compass",
-            "url": "https://examcompass.pages.dev"
+            "url": SITE_URL
         },
         "alumniOf": {
             "@type": "EducationalOrganization",
@@ -134,10 +135,10 @@ export const AboutAuthor = ({ compact = false }: AboutAuthorProps) => {
                 </div>
 
                 {/* Hidden structured data for crawlers */}
-                <meta itemProp="url" content="https://examcompass.pages.dev/about" />
+                <meta itemProp="url" content={`${SITE_URL}/about`} />
                 <span itemProp="worksFor" itemScope itemType="https://schema.org/Organization" style={{ display: 'none' }}>
                     <meta itemProp="name" content="Exam Compass" />
-                    <meta itemProp="url" content="https://examcompass.pages.dev" />
+                    <meta itemProp="url" content={SITE_URL} />
                 </span>
             </section>
         </>

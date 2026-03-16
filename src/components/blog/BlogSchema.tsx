@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import { SITE_URL, SITE_LOGO } from '../../lib/siteConfig';
 
 interface BlogSchemaProps {
     title: string;
@@ -18,7 +19,7 @@ export const BlogSchema: React.FC<BlogSchemaProps> = ({
     modifiedDate,
     authorName,
     url,
-    imageUrl = 'https://examcompass.pages.dev/exa-logo.png'
+    imageUrl = SITE_LOGO
 }) => {
     const schema = {
         "@context": "https://schema.org",
@@ -33,14 +34,14 @@ export const BlogSchema: React.FC<BlogSchemaProps> = ({
         "author": {
             "@type": "Person",
             "name": authorName,
-            "url": "https://examcompass.pages.dev/about"
+            "url": `${SITE_URL}/about`
         },
         "publisher": {
             "@type": "Organization",
             "name": "Exam Compass",
             "logo": {
                 "@type": "ImageObject",
-                "url": "https://examcompass.pages.dev/exa-logo.png"
+                "url": SITE_LOGO
             }
         },
         "datePublished": new Date(publishDate).toISOString(),

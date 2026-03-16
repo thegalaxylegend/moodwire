@@ -13,6 +13,7 @@ import { useState } from 'react';
 import { examDates } from '../../config/examDates';
 import { getExamPersonality } from '../../data/examPersonality';
 import { DirectAnswerBlock } from '../../components/seo/DirectAnswerBlock';
+import { SITE_URL, SITE_LOGO } from '../../lib/siteConfig';
 import { StudentTip } from '../../components/seo/StudentTip';
 
 
@@ -104,9 +105,9 @@ export const ExamLanding = () => {
             "provider": {
                 "@type": "Organization",
                 "name": "Exam Compass",
-                "logo": "https://examcompass.pages.dev/exa-logo.png",
-                "sameAs": "https://examcompass.pages.dev",
-                "url": "https://examcompass.pages.dev"
+                "logo": SITE_LOGO,
+                "sameAs": SITE_URL,
+                "url": SITE_URL
             },
             "hasCourseInstance": {
                 "@type": "CourseInstance",
@@ -128,13 +129,13 @@ export const ExamLanding = () => {
                     "@type": "ListItem",
                     "position": 1,
                     "name": "Home",
-                    "item": "https://examcompass.pages.dev/"
+                    "item": `${SITE_URL}/`
                 },
                 {
                     "@type": "ListItem",
                     "position": 2,
                     "name": formattedExam,
-                    "item": `https://examcompass.pages.dev/${exam}`
+                    "item": `${SITE_URL}/${exam}`
                 }
             ]
         }
@@ -160,7 +161,7 @@ export const ExamLanding = () => {
             <SEO
                 title={`${formattedExam} Prep ${targetYear}: Syllabus, Notes, PYQ & Mock Test PDF`}
                 description={`Master ${formattedExam} ${targetYear} with AI-powered mock tests, chapter-wise revision notes, and formula PDF. Explore the latest syllabus, practice PYQs, and boost your rank.`}
-                canonical={`https://examcompass.pages.dev/${exam}`}
+                canonical={`${SITE_URL}/${exam}`}
                 keywords={`${formattedExam} preparation, ${formattedExam} mock test, ${formattedExam} syllabus pdf, ${formattedExam} revision notes, ${formattedExam} ${targetYear}`}
                 schema={{
                     "@context": "https://schema.org",

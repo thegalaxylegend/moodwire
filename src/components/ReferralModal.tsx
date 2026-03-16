@@ -3,6 +3,7 @@ import { useUserStore } from '../store/userStore';
 import { registerReferralCode } from '../services/referralService';
 import { Copy, Check, Share2, Users, Trophy } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { SITE_URL } from '../lib/siteConfig';
 
 interface ReferralModalProps {
     isOpen: boolean;
@@ -32,14 +33,14 @@ export const ReferralModal = ({ isOpen, onClose }: ReferralModalProps) => {
     };
 
     const handleCopy = () => {
-        const link = `https://examcompass.pages.dev/login?ref=${code}`;
+        const link = `${SITE_URL}/login?ref=${code}`;
         navigator.clipboard.writeText(link);
         setCopied(true);
         setTimeout(() => setCopied(false), 2000);
     };
 
     const handleShare = async () => {
-        const link = `https://examcompass.pages.dev/login?ref=${code}`;
+        const link = `${SITE_URL}/login?ref=${code}`;
         const shareData = {
             title: 'Join Exam Compass',
             text: `Join me on Exam Compass to ace your exams! Use my code ${code} to get a head start.`,
@@ -105,7 +106,7 @@ export const ReferralModal = ({ isOpen, onClose }: ReferralModalProps) => {
                                 <label className="text-xs text-white/40 uppercase font-bold ml-1">Your Referral Link</label>
                                 <div className="flex items-center gap-2">
                                     <div className="flex-1 bg-black/50 border border-white/10 rounded-xl p-3 text-white/80 font-mono text-sm truncate">
-                                        https://examcompass.pages.dev/login?ref={code}
+                                        {SITE_URL}/login?ref={code}
                                     </div>
                                     <button
                                         onClick={handleCopy}

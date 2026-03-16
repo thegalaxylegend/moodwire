@@ -1,6 +1,7 @@
 import { useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { SYLLABUS_DB } from '../../lib/constants';
+import { SITE_URL } from '../../lib/siteConfig';
 import { slugify } from '../../lib/utils';
 import { useMemo } from 'react';
 
@@ -27,7 +28,7 @@ export const AutoSchema = () => {
         if (['login', 'signup', 'dashboard', 'admin', 'onboarding'].includes(exam || '')) return null;
 
         const schemas: Record<string, any>[] = [];
-        const canonicalUrl = `https://examcompass.pages.dev${location.pathname.replace(/\/$/, '') || '/'}`;
+        const canonicalUrl = `${SITE_URL}${location.pathname.replace(/\/$/, '') || '/'}`;
 
         // Skip BreadcrumbList on pages that generate their own (ExamLanding, BlogPostPage, QuestionPage)
         const pageHasOwnBreadcrumb =
@@ -45,7 +46,7 @@ export const AutoSchema = () => {
                         "@type": "ListItem",
                         "position": 1,
                         "name": "Home",
-                        "item": "https://examcompass.pages.dev"
+                        "item": SITE_URL
                     }
                 ]
             };
@@ -54,7 +55,7 @@ export const AutoSchema = () => {
                 "@type": "ListItem",
                 "position": 2,
                 "name": exam.toUpperCase().replace(/-/g, ' '),
-                "item": `https://examcompass.pages.dev/${exam}`
+                "item": `${SITE_URL}/${exam}`
             });
 
             if (subjectSlug && !subjectSlug.startsWith('q')) {
@@ -63,7 +64,7 @@ export const AutoSchema = () => {
                     "@type": "ListItem",
                     "position": 3,
                     "name": subjectName,
-                    "item": `https://examcompass.pages.dev/${exam}/${subjectSlug}`
+                    "item": `${SITE_URL}/${exam}/${subjectSlug}`
                 });
             }
 
@@ -73,7 +74,7 @@ export const AutoSchema = () => {
                     "@type": "ListItem",
                     "position": 4,
                     "name": topicName,
-                    "item": `https://examcompass.pages.dev/${exam}/${subjectSlug}/${topicSlug}`
+                    "item": `${SITE_URL}/${exam}/${subjectSlug}/${topicSlug}`
                 });
             }
 
@@ -97,13 +98,13 @@ export const AutoSchema = () => {
                     "endDate": examMeta.endDate,
                     "location": {
                         "@type": "VirtualLocation",
-                        "url": `https://examcompass.pages.dev/${exam}`
+                        "url": `${SITE_URL}/${exam}`
                     },
                     "organizer": {
                         "@type": "Organization",
                         "name": "Exam Compass",
-                        "url": "https://examcompass.pages.dev",
-                        "logo": "https://examcompass.pages.dev/logo.jpg"
+                        "url": SITE_URL,
+                        "logo": `${SITE_URL}/logo.png`
                     },
                     "offers": {
                         "@type": "Offer",
@@ -125,8 +126,8 @@ export const AutoSchema = () => {
                     "provider": {
                         "@type": "Organization",
                         "name": "Exam Compass",
-                        "url": "https://examcompass.pages.dev",
-                        "logo": "https://examcompass.pages.dev/logo.jpg"
+                        "url": SITE_URL,
+                        "logo": `${SITE_URL}/logo.png`
                     },
                     "isAccessibleForFree": true
                 });
@@ -161,9 +162,9 @@ export const AutoSchema = () => {
                         "provider": {
                             "@type": "Organization",
                             "name": "Exam Compass",
-                            "sameAs": "https://examcompass.pages.dev",
-                            "url": "https://examcompass.pages.dev",
-                            "logo": "https://examcompass.pages.dev/logo.jpg"
+                            "sameAs": SITE_URL,
+                            "url": SITE_URL,
+                            "logo": `${SITE_URL}/logo.png`
                         },
                         "hasCourseInstance": {
                             "@type": "CourseInstance",
@@ -194,8 +195,8 @@ export const AutoSchema = () => {
                         "provider": {
                             "@type": "Organization",
                             "name": "Exam Compass",
-                            "url": "https://examcompass.pages.dev",
-                            "logo": "https://examcompass.pages.dev/logo.jpg"
+                            "url": SITE_URL,
+                            "logo": `${SITE_URL}/logo.png`
                         },
                         "isAccessibleForFree": true
                     });
@@ -224,10 +225,10 @@ export const AutoSchema = () => {
                 "@context": "https://schema.org",
                 "@type": "WebApplication",
                 "name": "Exam Compass",
-                "url": "https://examcompass.pages.dev",
+                "url": SITE_URL,
                 "description": "AI-powered exam preparation platform for JEE, NEET, UPSC, and CBSE Class 6-12 students.",
-                "image": "https://examcompass.pages.dev/exa-logo.png",
-                "screenshot": "https://examcompass.pages.dev/og-image.png",
+                "image": `${SITE_URL}/exa-logo.png`,
+                "screenshot": `${SITE_URL}/og-image.png`,
                 "applicationCategory": "EducationalApplication",
                 "operatingSystem": "Web Browser",
                 "featureList": "AI-Generated Mock Tests, Personalized Learning Roadmaps, Chapter-wise PYQs, Real-time Performance Analytics, Adaptive Practice Modules",
@@ -240,7 +241,7 @@ export const AutoSchema = () => {
                 "author": {
                     "@type": "Person",
                     "name": "Ayush Kumar",
-                    "url": "https://examcompass.pages.dev/about"
+                    "url": `${SITE_URL}/about`
                 }
             });
         }

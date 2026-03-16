@@ -13,6 +13,8 @@ import { SocialShare } from '../../components/SocialShare';
 import { blogs } from '../../data/blogs';
 import { examDates } from '../../config/examDates';
 import { DirectAnswerBlock } from '../../components/seo/DirectAnswerBlock';
+import { Breadcrumbs } from '../../components/seo/Breadcrumbs';
+import { SITE_URL } from '../../lib/siteConfig';
 import { StudentTip } from '../../components/seo/StudentTip';
 
 
@@ -96,8 +98,8 @@ export const TopicPage = () => {
             "provider": {
                 "@type": "Organization",
                 "name": "Exam Compass",
-                "sameAs": "https://examcompass.pages.dev",
-                "url": "https://examcompass.pages.dev"
+                "sameAs": SITE_URL,
+                "url": SITE_URL
             },
             "hasCourseInstance": {
                 "@type": "CourseInstance",
@@ -111,10 +113,10 @@ export const TopicPage = () => {
         {
             "@type": "BreadcrumbList",
             "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://examcompass.pages.dev/" },
-                { "@type": "ListItem", "position": 2, "name": formattedExam, "item": `https://examcompass.pages.dev/${exam}` },
-                { "@type": "ListItem", "position": 3, "name": realSubject, "item": `https://examcompass.pages.dev/${exam}/${subject}` },
-                { "@type": "ListItem", "position": 4, "name": cleanTopicName, "item": `https://examcompass.pages.dev/${exam}/${subject}/${topic}` }
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": `${SITE_URL}/` },
+                { "@type": "ListItem", "position": 2, "name": formattedExam, "item": `${SITE_URL}/${exam}` },
+                { "@type": "ListItem", "position": 3, "name": realSubject, "item": `${SITE_URL}/${exam}/${subject}` },
+                { "@type": "ListItem", "position": 4, "name": cleanTopicName, "item": `${SITE_URL}/${exam}/${subject}/${topic}` }
             ]
         }
     ];
@@ -158,7 +160,7 @@ export const TopicPage = () => {
             "name": `${cleanTopicName} Practice Questions for ${contextName}`,
             "numberOfItems": sampleQuestions.length,
             "itemListElement": sampleQuestions.map((q: any, i: number) => ({
-                "@type": "ListItem", "position": i + 1, "url": `https://examcompass.pages.dev/${exam}/q/${q.slug}`
+                "@type": "ListItem", "position": i + 1, "url": `${SITE_URL}/${exam}/q/${q.slug}`
             }))
         });
     }
@@ -191,7 +193,7 @@ export const TopicPage = () => {
             <SEO
                 title={pageTitle}
                 description={seoDescription}
-                canonical={`https://examcompass.pages.dev/${exam}/${subject}/${topic}`}
+                canonical={`${SITE_URL}/${exam}/${subject}/${topic}`}
                 keywords={seoKeywords}
                 schema={schemaData}
             />
@@ -199,11 +201,7 @@ export const TopicPage = () => {
 
             <section className="pt-32 pb-10 px-6 max-w-7xl mx-auto">
                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8">
-                    <div className="text-sm text-gray-300 uppercase tracking-widest">
-                        <Link to={`/${exam}`} className="hover:text-white transition-colors">{formattedExam}</Link> /
-                        <Link to={`/${exam}/${subject}`} className="hover:text-white transition-colors mx-1">{realSubject}</Link> /
-                        <span className="text-purple-400 mx-1">{cleanTopicName}</span>
-                    </div>
+                    <Breadcrumbs />
                     <SocialShare title={`${cleanTopicName} PYQs for ${contextName}`} />
                 </div>
 

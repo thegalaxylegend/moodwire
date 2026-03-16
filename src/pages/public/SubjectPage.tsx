@@ -6,6 +6,8 @@ import { SYLLABUS_DB } from '../../lib/constants';
 import { slugify, getSubjectsForExam } from '../../lib/utils';
 import { Download, Loader2 } from 'lucide-react';
 import { useState } from 'react';
+import { SITE_URL } from '../../lib/siteConfig';
+import { Breadcrumbs } from '../../components/seo/Breadcrumbs';
 
 export const SubjectPage = () => {
     const { exam, subject } = useParams();
@@ -48,8 +50,8 @@ export const SubjectPage = () => {
                 "provider": {
                     "@type": "Organization",
                     "name": "Exam Compass",
-                    "sameAs": "https://examcompass.pages.dev",
-                    "url": "https://examcompass.pages.dev"
+                    "sameAs": SITE_URL,
+                    "url": SITE_URL
                 },
                 "hasCourseInstance": {
                     "@type": "CourseInstance",
@@ -73,15 +75,15 @@ export const SubjectPage = () => {
                     "@type": "ListItem",
                     "position": i + 1,
                     "name": t.topic.replace(/\[.*?\]\s*/g, ''),
-                    "url": `https://examcompass.pages.dev/${exam}/${subject}/${slugify(t.topic)}`
+                    "url": `${SITE_URL}/${exam}/${subject}/${slugify(t.topic)}`
                 }))
             },
             {
                 "@type": "BreadcrumbList",
                 "itemListElement": [
-                    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://examcompass.pages.dev/" },
-                    { "@type": "ListItem", "position": 2, "name": formattedExam, "item": `https://examcompass.pages.dev/${exam}` },
-                    { "@type": "ListItem", "position": 3, "name": realSubject, "item": `https://examcompass.pages.dev/${exam}/${subject}` }
+                    { "@type": "ListItem", "position": 1, "name": "Home", "item": `${SITE_URL}/` },
+                    { "@type": "ListItem", "position": 2, "name": formattedExam, "item": `${SITE_URL}/${exam}` },
+                    { "@type": "ListItem", "position": 3, "name": realSubject, "item": `${SITE_URL}/${exam}/${subject}` }
                 ]
             }
         ]
@@ -92,19 +94,15 @@ export const SubjectPage = () => {
             <SEO
                 title={`${realSubject} ${formattedExam} Syllabus 2026 - Notes, Formulas & PYQ PDF`}
                 description={`Download ${realSubject} notes and formula PDF for ${formattedExam} 2026. Complete ${topics.length}-chapter syllabus breakdown with topics like ${topicNames.substring(0, 80)}. Practice questions and AI solutions.`}
-                canonical={`https://examcompass.pages.dev/${exam}/${subject}`}
+                canonical={`${SITE_URL}/${exam}/${subject}`}
                 keywords={seoKeywords}
                 schema={schemaData}
             />
             <Navbar />
 
             <section className="pt-32 pb-10 px-6 max-w-7xl mx-auto border-b border-white/5">
-                <div className="text-sm text-gray-300 mb-4 uppercase tracking-widest flex items-center space-x-2">
-                    <Link to="/" className="hover:text-white transition-colors">Home</Link>
-                    <span>/</span>
-                    <Link to={`/${exam}`} className="hover:text-white transition-colors">{formattedExam}</Link>
-                    <span>/</span>
-                    <span className="text-white">{realSubject}</span>
+                <div className="mb-4">
+                    <Breadcrumbs />
                 </div>
 
                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8">
