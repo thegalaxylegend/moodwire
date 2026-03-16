@@ -87,7 +87,10 @@ async function buildQueue() {
             return (itemIdentity.length > 0 && blogIdentity.includes(itemIdentity)) || 
                    (blogIdentity.length > 0 && itemIdentity.includes(blogIdentity)) ||
                    blogName.includes(slugify(item.topic)) || 
-                   blogName === slug1;
+                   blogName === slug1 ||
+                   blogName.replace(/-revision-notes$/, '-notes') === slug1 ||
+                   slug1.replace(/-notes$/, '-revision-notes') === blogName ||
+                   blogName.replace(/-class-\d+-notes$/, '-notes') === slug1.replace(/-class-\d+-notes$/, '-notes');
         });
 
         if (!isDuplicate && itemIdentity.length > 0) {
