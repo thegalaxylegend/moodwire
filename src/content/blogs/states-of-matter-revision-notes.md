@@ -7,11 +7,13 @@ keywords: "states of matter revision notes, Physics, Exam Compass"
 
 # States Of Matter Revision Notes
 
+# States Of Matter Revision Notes
+
 # States of Matter — Gas Laws & Real Gases JEE NEET 2026 Tricks
 
 
 
-![Gas Laws and molecular motion diagram for JEE NEET 2026](/blog-images/states-of-matter-revision.png)
+![Gas Laws and molecular motion diagram for JEE NEET 2026](/blog-images/states-of-matter-revision.webp)
 
 <div class="quick-summary">
 **Quick Recall: States of Matter (Gases)**
@@ -274,7 +276,10 @@ In CBSE boards, always draw the $PV$ vs $P$ graph or the $Z$ vs $P$ graph if the
 - [**Chemical Equilibrium — Le Chatelier's Principle Tricks**](/blog/equilibrium-revision-notes)
 
 ---
-*Last Updated: March 14, 2026 | Part of the Class 11 Chemistry Revision Series — NCERT-aligned with JEE/NEET depth.*
+*Last Updated: March 13, 2026*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

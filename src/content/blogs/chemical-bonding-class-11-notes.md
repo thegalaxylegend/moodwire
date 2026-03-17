@@ -7,11 +7,13 @@ keywords: "chemical bonding class 11 notes, Physics, Exam Compass"
 
 # Chemical Bonding Class 11 Notes
 
+# Chemical Bonding Class 11 Notes
+
 # Chemical Bonding VSEPR Theory JEE 2026 tricks — Hybridization & Shapes
 
 
 
-![VSEPR Theory shapes table for JEE NEET 2026](/blog-images/chemical-bonding-molecular-structure-revision.png)
+![VSEPR Theory shapes table for JEE NEET 2026](/blog-images/chemical-bonding-molecular-structure-revision.webp)
 
 <div class="quick-summary">
 **Quick Recall: Chemical Bonding**
@@ -329,7 +331,10 @@ Don't just memorize the table. Ask yourself "Why does lone pair repulsion decrea
 - [**JEE Mains 2026: High Weightage Chapters Analysis**](/blog/jee-mains-high-weightage-chapters)
 
 ---
-*Last Updated: March 14, 2026 | Part of the Class 11 Chemistry SEO Dominance Series.*
+*Last Updated: March 14, 2026*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

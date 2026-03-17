@@ -7,6 +7,8 @@ keywords: "hydrogen class 11 notes, Biology, Exam Compass"
 
 # Hydrogen Class 11 Notes
 
+# Hydrogen Class 11 Notes
+
 ![Hydrogen Class 11 Notes Notes](/blog-images/hydrogen-class-11-notes.webp)
 
 ## Quick Recall Box
@@ -111,6 +113,9 @@ The key points to remember about hydrogen are:
 * It is a key component of water (H2O) and most organic compounds.
 * Hydrogen has a wide range of applications, including energy production, transportation, and industrial processes.
 </div>
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

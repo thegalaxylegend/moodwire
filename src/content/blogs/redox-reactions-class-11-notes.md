@@ -8,6 +8,8 @@ keywords: "redox reactions class 11 notes, Biology, Exam Compass"
 # Redox Reactions Class 11 Notes
 
 # Redox Reactions Class 11 Notes
+
+# Redox Reactions Class 11 Notes
 ![Redox Reactions Class 11 Notes Notes](/blog-images/redox-reactions-class-11-notes.webp)
 Last Updated: March 15, 2026
 
@@ -119,6 +121,9 @@ Solution: a) $\text{Cr}_2\text{O}_7^{2-} + 6\text{Fe}^{2+} + 14\text{H}^+ \right
 ## Related Notes Links
 * [Chemical Bonding Class 11 Notes](/blog/chemical-bonding-class-11-notes)
 * [Electrochemistry Class 12 Notes](/blog/electrochemistry-class-12-notes)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -7,11 +7,13 @@ keywords: "some basic concepts chemistry revision notes, Chemistry, Exam Compass
 
 # Some Basic Concepts Chemistry Revision Notes
 
+# Some Basic Concepts Chemistry Revision Notes
+
 # Some Basic Concepts of Chemistry — Mole Concept & Stoichiometry Shortcuts for JEE NEET
 
 
 
-![Mole concept and stoichiometry diagram for JEE NEET 2026](/blog-images/some-basic-concepts-chemistry-revision.png)
+![Mole concept and stoichiometry diagram for JEE NEET 2026](/blog-images/some-basic-concepts-chemistry-revision.webp)
 
 <div class="quick-summary">
 **Quick Recall: Some Basic Concepts of Chemistry**
@@ -257,7 +259,10 @@ For your school paper, always show unit conversions step-by-step. Write "$M = \t
 - [**JEE Mains 2026: High Weightage Chapters Analysis**](/blog/jee-mains-high-weightage-chapters)
 
 ---
-*Last Updated: March 14, 2026 | Part of the Class 11 Chemistry Revision Series — NCERT-aligned with JEE/NEET depth.*
+*Last Updated: March 13, 2026*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

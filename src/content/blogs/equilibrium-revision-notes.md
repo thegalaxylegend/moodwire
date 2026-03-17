@@ -7,11 +7,13 @@ keywords: "equilibrium revision notes, Physics, Exam Compass"
 
 # Equilibrium Revision Notes
 
+# Equilibrium Revision Notes
+
 # Chemical Equilibrium — Le Chatelier's Principle & pH Tricks JEE NEET 2026
 
 
 
-![Chemical Equilibrium and Le Chatelier's Principle diagram for JEE NEET 2026](/blog-images/equilibrium-revision.png)
+![Chemical Equilibrium and Le Chatelier's Principle diagram for JEE NEET 2026](/blog-images/equilibrium-revision.webp)
 
 <div class="quick-summary">
 **Quick Recall: Chemical Equilibrium**
@@ -285,7 +287,10 @@ For CBSE, always state Le Chatelier's Principle in full before applying it. Then
 - [**Chemical Bonding VSEPR Theory JEE 2026 Tricks**](/blog/chemical-bonding-class-11-notes)
 
 ---
-*Last Updated: March 14, 2026 | Part of the Class 11 Chemistry Revision Series — NCERT-aligned with JEE/NEET depth.*
+*Last Updated: March 14, 2026*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

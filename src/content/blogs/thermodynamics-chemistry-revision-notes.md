@@ -7,11 +7,13 @@ keywords: "thermodynamics chemistry revision notes, Physics, Exam Compass"
 
 # Thermodynamics Chemistry Revision Notes
 
+# Thermodynamics Chemistry Revision Notes
+
 # Chemical Thermodynamics — Enthalpy, Entropy & Gibbs Energy Tricks JEE NEET 2026
 
 
 
-![Enthalpy and Gibbs Energy diagram for JEE NEET 2026](/blog-images/thermodynamics-chemistry-revision.png)
+![Enthalpy and Gibbs Energy diagram for JEE NEET 2026](/blog-images/thermodynamics-chemistry-revision.webp)
 
 <div class="quick-summary">
 **Quick Recall: Chemical Thermodynamics**
@@ -273,7 +275,10 @@ CBSE loves "Derive the Gibbs-Helmholtz equation" as a 5-mark question. Write the
 - [**Some Basic Concepts of Chemistry — Mole Concept & Stoichiometry**](/blog/some-basic-concepts-chemistry-revision-notes)
 
 ---
-*Last Updated: March 14, 2026 | Part of the Class 11 Chemistry Revision Series — NCERT-aligned with JEE/NEET depth.*
+*Last Updated: March 13, 2026*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

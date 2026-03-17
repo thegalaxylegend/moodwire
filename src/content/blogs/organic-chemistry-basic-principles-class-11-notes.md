@@ -1,11 +1,11 @@
 ---
 title: "Organic Chemistry Basic Principles Class 11 Notes"
-description: "Here's a potential meta description:
-
-Mastering Organic Chemistry just got easier. Read our comprehensive Class 11 study guide for all key concepts and formulas."
+description: "Here"
 category: "Physics"
 keywords: "organic chemistry basic principles class 11 notes, Physics, Exam Compass"
 ---
+
+# Organic Chemistry Basic Principles Class 11 Notes
 
 # Organic Chemistry Basic Principles Class 11 Notes
 
@@ -132,6 +132,9 @@ Last Updated: March 15, 2026
 * Chemical reactions involve the breaking and forming of chemical bonds
 * Stereochemistry plays a vital role in understanding the structure and properties of organic compounds
 </div>
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

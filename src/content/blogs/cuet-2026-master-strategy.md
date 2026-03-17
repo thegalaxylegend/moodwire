@@ -7,11 +7,13 @@ keywords: "cuet 2026 master strategy, Biology, Exam Compass"
 
 # CUET 2026 Master Strategy: Niche Domains & Preparation Guide
 
+# CUET 2026 Master Strategy: Niche Domains & Preparation Guide
+
 # CUET 2026 Master Strategy: Mastering Niche Domains & The Foundation Guide
 
 The year 2026 marks a paradigm shift in the Indian higher education landscape. Gone are the days when a 98% in your Board exams was the golden ticket to prestigious institutions like Delhi University (DU), BHU, or JNU. Today, the **Common University Entrance Test (CUET)** stands as the sole gateway to India's premier central universities. This transition has redefined how students approach their high school years, demanding a broader focus beyond traditional rote learning. I’m Ayush, and at Exam Compass, we’ve analyzed the data from previous cycles to build a roadmap that ensures you don't just participate but dominate the competition.
 
-![CUET preparation roadmap showing major milestones from Class 11 to the exam date](/blog-images/cuet-master-strategy.png)
+![CUET preparation roadmap showing major milestones from Class 11 to the exam date](/blog-images/cuet-master-strategy.webp)
 
 Most students make the critical mistake of waiting until their Board exams conclude in March to begin their CUET preparation. With nearly 20 lakh applicants vying for a limited number of seats, this delay can be fatal to your aspirations. To succeed in CUET 2026, you need a strategy that integrates your Board prep with entrance requirements, starting as early as Class 11. This guide will walk you through the nuances of the exam structure, the "Niche Domain" strategy, and the essential timelines you must follow to guarantee your success.
 
@@ -69,6 +71,9 @@ Most major universities, including Delhi University, require you to appear only 
 
 ### 3. How many subjects should I ideally pick for CUET?
 To maximize your eligibility across various courses and universities, we recommend choosing one Language, three or four Domain subjects, and the General Test. This combination (total 5–6 subjects) ensures you meet the criteria for a wide range of degrees, from specialized honors courses to multi-disciplinary vocational programs.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

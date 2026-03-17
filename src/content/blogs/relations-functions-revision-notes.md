@@ -7,11 +7,13 @@ keywords: "relations functions revision notes, Chemistry, Exam Compass"
 
 # Relations Functions Revision Notes
 
+# Relations Functions Revision Notes
+
 # Relations and Functions Class 11 Math Quick Recall / Short Notes (2026-27)
 
 
 
-![Mapping the Mathematical Universe: Relations and Functions](/blog-images/relations-functions-revision.png)
+![Mapping the Mathematical Universe: Relations and Functions](/blog-images/relations-functions-revision.webp)
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -107,6 +109,9 @@ If f and g are two real functions:
 Functions are the heartbeat of Calculus and higher mathematics. By distinguishing between simple relations and precise functions, and by internalizing the graphs of "parent" functions, you build a mental map of mathematical behavior. Always check your domain constraints and visualize your ranges!
 
 ---
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

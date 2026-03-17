@@ -7,11 +7,13 @@ keywords: "sequences series revision notes, Mathematics, Exam Compass"
 
 # Sequences Series Revision Notes
 
+# Sequences Series Revision Notes
+
 # Sequences and Series Class 11 Math Quick Recall / Short Notes (2026-27)
 
 
 
-![Visualizing Mathematical Progressions and Series](/blog-images/sequences-series-revision.png)
+![Visualizing Mathematical Progressions and Series](/blog-images/sequences-series-revision.webp)
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -115,6 +117,9 @@ This formula is the basis for many converging series in higher-level mathematics
 Sequences and Series are not just lists of numbers; they are the language of growth and summation. By mastering the differences between AP and GP and understanding the powerful AM-GM relationship, you prepare yourself for both the algebraic challenges of Board exams and the logical hurdles of competitive tests. Always verify your common ratio and remember that small patterns lead to big sums!
 
 ---
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

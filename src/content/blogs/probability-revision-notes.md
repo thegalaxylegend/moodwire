@@ -7,11 +7,13 @@ keywords: "probability revision notes, Mathematics, Exam Compass"
 
 # Probability Revision Notes
 
+# Probability Revision Notes
+
 # Probability Class 11 Math Quick Recall / Short Notes (2026-27)
 
 
 
-![Probability Concepts and Sample Spaces Diagram](/blog-images/probability-revision.png)
+![Probability Concepts and Sample Spaces Diagram](/blog-images/probability-revision.webp)
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -110,6 +112,9 @@ Instead of just counting outcomes, we assign a number $P(E)$ to an event $E$ tha
 Probability teaches us to look at the world through the lens of logic rather than luck. By mastering the relationships between events and the addition rule, you lay the foundation for advanced statistical modeling and decision-making. Whether you're calculating the odds in a game or analyzing scientific data, these axioms remain your best guide!
 
 ---
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -17,7 +17,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/ai-exam-prep-future-hero.png"
+        "image": "/blog-images/ai-exam-prep-future-hero.webp"
     },
     {
         "id": "ai-study-hack-pomodoro",
@@ -53,7 +53,7 @@ export const blogs: Blog[] = [
         "category": "Mathematics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/binomial-theorem-revision.png"
+        "image": "/blog-images/binomial-theorem-revision.webp"
     },
     {
         "id": "biomolecules-class-11-notes",
@@ -128,13 +128,22 @@ export const blogs: Blog[] = [
         "image": "/blog-images/class-10-science-topics-frequency.jpg"
     },
     {
+        "id": "classification-of-elements-class-11-notes",
+        "title": "Classification of Elements Class 11 Notes — Exam Compass",
+        "description": "Unlock the periodic table secrets: Master classification of elements with our expert guide. Break down compounds and identify elements like a pro.",
+        "category": "Chemistry",
+        "date": "March 16, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/classification-of-elements-class-11-notes.webp"
+    },
+    {
         "id": "complex-numbers-revision-notes",
         "title": "Complex Numbers Revision Notes",
         "description": "Unlock complex numbers mastery with comprehensive revision notes for JEE/NEET exams success.",
         "category": "Physics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/complex-numbers-revision.png"
+        "image": "/blog-images/complex-numbers-revision.webp"
     },
     {
         "id": "conic-sections-revision-notes",
@@ -143,7 +152,16 @@ export const blogs: Blog[] = [
         "category": "Mathematics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/conic-sections-revision.png"
+        "image": "/blog-images/conic-sections-revision.webp"
+    },
+    {
+        "id": "cuet-2026-master-strategy",
+        "title": "CUET 2026 Master Strategy: Niche Domains & Preparation Guide",
+        "description": "Master the CUET 2026 with our comprehensive strategy guide. Learn about niche domains, Class 11 foundations, and the General Test to secure your top college seat.",
+        "category": "Biology",
+        "date": "March 16, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/cuet-master-strategy.webp"
     },
     {
         "id": "current-electricity-revision-notes",
@@ -152,7 +170,7 @@ export const blogs: Blog[] = [
         "category": "Biology",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/current-electricity-revision.png"
+        "image": "/blog-images/current-electricity-revision.webp"
     },
     {
         "id": "digestion-and-absorption-class-11-notes",
@@ -170,7 +188,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/electric-charges-fields-revision.png"
+        "image": "/blog-images/electric-charges-fields-revision.webp"
     },
     {
         "id": "excretory-products-and-elimination-class-11-notes",
@@ -188,142 +206,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/gravitation-revision.png"
-    },
-    {
-        "id": "laws-of-motion-common-mistakes",
-        "title": "10 Most Common Silly Mistakes in Laws of Motion",
-        "description": "Stop losing easy marks in Physics. Discover the 10 most common silly mistakes students make while solving Laws of Motion numericals for JEE and NEET.",
-        "category": "Physics",
-        "date": "March 16, 2026",
-        "readTime": "15 min read",
-        "image": "/blog-images/laws-of-motion-mistakes.png"
-    },
-    {
-        "id": "laws-of-motion-revision-notes",
-        "title": "Laws Of Motion Revision Notes",
-        "description": "Revised laws of motion notes for JEE & NEET exams, covering 3 laws & inertia with detailed explanations and key formulas.",
-        "category": "Physics",
-        "date": "March 16, 2026",
-        "readTime": "15 min read",
-        "image": "/blog-images/laws-of-motion-revision.png"
-    },
-    {
-        "id": "linear-inequalities-revision-notes",
-        "title": "Linear Inequalities Revision Notes",
-        "description": "Master linear inequalities with expert tips and shortcuts for JEE/NEET exams success - get started now.",
-        "category": "Physics",
-        "date": "March 16, 2026",
-        "readTime": "15 min read",
-        "image": "/blog-images/linear-inequalities-revision.png"
-    },
-    {
-        "id": "locomotion-and-movement-class-11-notes",
-        "title": "Locomotion and Movement Class 11 Notes — Exam Compass",
-        "description": "Master locomotion and movement concepts for JEE/NEET with our comprehensive study guide.",
-        "category": "Biology",
-        "date": "March 16, 2026",
-        "readTime": "15 min read",
-        "image": "/blog-images/locomotion-and-movement-class-11-notes.webp"
-    },
-    {
-        "id": "mathematical-induction-revision-notes",
-        "title": "Mathematical Induction Revision Notes",
-        "description": "Boost your scores with concise Math induction notes. Master key concepts, problem-solving techniques & common JEE/NEET questions.",
-        "category": "Physics",
-        "date": "March 16, 2026",
-        "readTime": "15 min read",
-        "image": "/blog-images/mathematical-induction-revision.png"
-    },
-    {
-        "id": "mechanical-properties-of-fluids-revision-notes",
-        "title": "Mechanical Properties Of Fluids Revision Notes",
-        "description": "Master fluid mechanics with our comprehensive revision notes on mechanical properties, perfect for JEE/NEET prep.",
-        "category": "Physics",
-        "date": "March 16, 2026",
-        "readTime": "15 min read",
-        "image": "/blog-images/fluids-revision.png"
-    },
-    {
-        "id": "mechanical-properties-of-solids-revision-notes",
-        "title": "Mechanical Properties Of Solids Revision Notes",
-        "description": "Master general mechanics with our simplified JEE/NEET study guide - mechanical properties of solids explained.",
-        "category": "Physics",
-        "date": "March 16, 2026",
-        "readTime": "15 min read",
-        "image": "/blog-images/solids-revision.png"
-    },
-    {
-        "id": "mineral-nutrition-class-11-notes",
-        "title": "Mineral Nutrition Class 11 Notes",
-        "description": "Master Biology Class 11 with our comprehensive Mineral Nutrition study guide, covering key concepts and formulas with easy-to-follow explanations.",
-        "category": "Biology",
-        "date": "March 16, 2026",
-        "readTime": "15 min read",
-        "image": "/blog-images/mineral-nutrition-class-11-notes.webp"
-    },
-    {
-        "id": "3d-geometry-intro-class-11-notes",
-        "title": "3d Geometry Intro Class 11 Notes",
-        "description": "Master 3D Geometry for Class 11 Physics with expert study notes, covering concepts and formulas in an intuitive and easy-to-understand format.",
-        "category": "Physics",
-        "date": "March 15, 2026",
-        "readTime": "15 min read",
-        "image": "/blog-images/3d-geometry-intro-class-11-notes.webp"
-    },
-    {
-        "id": "biological-classification-class-11-notes",
-        "title": "Biological Classification Class 11 Notes",
-        "description": "Unlock the secrets of biological classification: Comprehensive Class 11 study guide & notes for Biology students, covering key concepts & more.",
-        "category": "Biology",
-        "date": "March 15, 2026",
-        "readTime": "15 min read",
-        "image": "/blog-images/biological-classification-class-11-notes.webp"
-    },
-    {
-        "id": "chemical-bonding-class-11-notes",
-        "title": "Chemical Bonding Class 11 Notes",
-        "description": "Ace JEE/NEET with comprehensive Class 11 Chemical Bonding notes, covering types, formation, and properties for ultimate exam preparation success.",
-        "category": "Physics",
-        "date": "March 14, 2026 | Part of the Class 11 Chemistry SEO Dominance Series.",
-        "readTime": "15 min read",
-        "image": "/blog-images/chemical-bonding-molecular-structure-revision.png"
-    },
-    {
-        "id": "classification-elements-periodicity-revision-notes",
-        "title": "Classification Elements Periodicity Revision Notes",
-        "description": "Accelerate your JEE/NEET prep with our concise & comprehensive classification, elements, periodicity revision notes, tailored for your success.",
-        "category": "Physics",
-        "date": "March 14, 2026 | Part of the Class 11 Chemistry Revision Series — NCERT-aligned with JEE/NEET depth.",
-        "readTime": "15 min read",
-        "image": "/blog-images/classification-elements-periodicity-revision.png"
-    },
-    {
-        "id": "cuet-2026-master-strategy",
-        "title": "CUET 2026 Master Strategy: Niche Domains & Preparation Guide",
-        "description": "Master the CUET 2026 with our comprehensive strategy guide. Learn about niche domains, Class 11 foundations, and the General Test to secure your top college seat.",
-        "category": "Biology",
-        "date": "March 16, 2026",
-        "readTime": "15 min read",
-        "image": "/blog-images/cuet-master-strategy.png"
-    },
-    {
-        "id": "environmental-chemistry-class-11-notes",
-        "title": "Environmental Chemistry Class 11 Notes",
-        "description": "Get ahead in class 11 Biology with our comprehensive Environmental Chemistry notes, covering key concepts and exam prep strategies.",
-        "category": "Biology",
-        "date": "March 15, 2026",
-        "readTime": "15 min read",
-        "image": "/blog-images/environmental-chemistry-class-11-notes.webp"
-    },
-    {
-        "id": "equilibrium-revision-notes",
-        "title": "Equilibrium Revision Notes",
-        "description": "Boost JEE/NEET prep with concise equilibrium revision notes, covering Le Chatelier",
-        "category": "Physics",
-        "date": "March 14, 2026 | Part of the Class 11 Chemistry Revision Series — NCERT-aligned with JEE/NEET depth.",
-        "readTime": "15 min read",
-        "image": "/blog-images/equilibrium-revision.png"
+        "image": "/blog-images/gravitation-revision.webp"
     },
     {
         "id": "jee-advanced-math-difficulty-trends",
@@ -332,7 +215,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/jee-advanced-math-trends.png"
+        "image": "/blog-images/jee-advanced-math-difficulty-trends.webp"
     },
     {
         "id": "jee-mains-chemistry-repeated-concepts",
@@ -341,7 +224,7 @@ export const blogs: Blog[] = [
         "category": "Biology",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/jee-mains-chemistry-concepts.png"
+        "image": "/blog-images/jee-mains-chemistry-repeated-concepts.webp"
     },
     {
         "id": "jee-mains-high-weightage-chapters",
@@ -359,7 +242,25 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/ktg-revision.png"
+        "image": "/blog-images/ktg-revision.webp"
+    },
+    {
+        "id": "laws-of-motion-common-mistakes",
+        "title": "10 Most Common Silly Mistakes in Laws of Motion",
+        "description": "Stop losing easy marks in Physics. Discover the 10 most common silly mistakes students make while solving Laws of Motion numericals for JEE and NEET.",
+        "category": "Physics",
+        "date": "March 16, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/laws-of-motion-mistakes.webp"
+    },
+    {
+        "id": "laws-of-motion-revision-notes",
+        "title": "Laws Of Motion Revision Notes",
+        "description": "Revised laws of motion notes for JEE & NEET exams, covering 3 laws & inertia with detailed explanations and key formulas.",
+        "category": "Physics",
+        "date": "March 16, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/laws-of-motion-revision.webp"
     },
     {
         "id": "limits-derivatives-revision-notes",
@@ -368,7 +269,25 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/limits-derivatives-revision.png"
+        "image": "/blog-images/limits-derivatives-revision.webp"
+    },
+    {
+        "id": "linear-inequalities-revision-notes",
+        "title": "Linear Inequalities Revision Notes",
+        "description": "Master linear inequalities with expert tips and shortcuts for JEE/NEET exams success - get started now.",
+        "category": "Physics",
+        "date": "March 16, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/linear-inequalities-revision.webp"
+    },
+    {
+        "id": "mathematical-induction-revision-notes",
+        "title": "Mathematical Induction Revision Notes",
+        "description": "Boost your scores with concise Math induction notes. Master key concepts, problem-solving techniques & common JEE/NEET questions.",
+        "category": "Physics",
+        "date": "March 16, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/mathematical-induction-revision.webp"
     },
     {
         "id": "mathematical-reasoning-revision-notes",
@@ -377,7 +296,34 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/mathematical-reasoning-revision.png"
+        "image": "/blog-images/mathematical-reasoning-revision.webp"
+    },
+    {
+        "id": "mechanical-properties-of-fluids-revision-notes",
+        "title": "Mechanical Properties Of Fluids Revision Notes",
+        "description": "Master fluid mechanics with our comprehensive revision notes on mechanical properties, perfect for JEE/NEET prep.",
+        "category": "Physics",
+        "date": "March 16, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/fluids-revision.webp"
+    },
+    {
+        "id": "mechanical-properties-of-solids-revision-notes",
+        "title": "Mechanical Properties Of Solids Revision Notes",
+        "description": "Master general mechanics with our simplified JEE/NEET study guide - mechanical properties of solids explained.",
+        "category": "Physics",
+        "date": "March 16, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/solids-revision.webp"
+    },
+    {
+        "id": "mineral-nutrition-class-11-notes",
+        "title": "Mineral Nutrition Class 11 Notes",
+        "description": "Master Biology Class 11 with our comprehensive Mineral Nutrition study guide, covering key concepts and formulas with easy-to-follow explanations.",
+        "category": "Biology",
+        "date": "March 16, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/mineral-nutrition-class-11-notes.webp"
     },
     {
         "id": "morphology-of-flowering-plants-class-11-notes",
@@ -395,7 +341,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/motion-in-a-plane-revision.png"
+        "image": "/blog-images/motion-in-a-plane-revision.webp"
     },
     {
         "id": "motion-in-a-straight-line-revision-notes",
@@ -404,7 +350,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/motion-straight-line-revision.png"
+        "image": "/blog-images/motion-straight-line-revision.webp"
     },
     {
         "id": "moving-charges-magnetism-revision-notes",
@@ -413,7 +359,7 @@ export const blogs: Blog[] = [
         "category": "Biology",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/electromagnetism-class12-hero.png"
+        "image": "/blog-images/electromagnetism-class12-hero.webp"
     },
     {
         "id": "neet-2026-weightage-prediction",
@@ -422,7 +368,7 @@ export const blogs: Blog[] = [
         "category": "Biology",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/neet-2026-weightage.png"
+        "image": "/blog-images/neet-2026-weightage-prediction.webp"
     },
     {
         "id": "neet-biology-80-20-rule",
@@ -431,16 +377,7 @@ export const blogs: Blog[] = [
         "category": "Biology",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/neet-biology-80-20.png"
-    },
-    {
-        "id": "neural-control-and-coordination-class-11-notes",
-        "title": "Neural Control and Coordination Class 11 Notes — Exam Compass",
-        "description": "Master neural control systems with our comprehensive study guide for JEE/NEET, covering physiology, anatomy and key concepts.",
-        "category": "Biology",
-        "date": "March 16, 2026",
-        "readTime": "15 min read",
-        "image": "/blog-images/neural-control-and-coordination-class-11-notes.webp"
+        "image": "/blog-images/neet-biology-80-20-rule.webp"
     },
     {
         "id": "oscillations-revision-notes",
@@ -449,7 +386,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/oscillations-revision.png"
+        "image": "/blog-images/oscillations-revision.webp"
     },
     {
         "id": "permutations-combinations-revision-notes",
@@ -458,7 +395,7 @@ export const blogs: Blog[] = [
         "category": "Mathematics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/permutations-combinations-revision.png"
+        "image": "/blog-images/permutations-combinations-revision.webp"
     },
     {
         "id": "photosynthesis-in-higher-plants-class-11-notes",
@@ -485,7 +422,7 @@ export const blogs: Blog[] = [
         "category": "Mathematics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/probability-revision.png"
+        "image": "/blog-images/probability-revision.webp"
     },
     {
         "id": "relations-functions-revision-notes",
@@ -494,7 +431,7 @@ export const blogs: Blog[] = [
         "category": "Chemistry",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/relations-functions-revision.png"
+        "image": "/blog-images/relations-functions-revision.webp"
     },
     {
         "id": "respiration-in-plants-class-11-notes",
@@ -512,7 +449,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/rotational-motion-revision.png"
+        "image": "/blog-images/rotational-motion-revision.webp"
     },
     {
         "id": "sequences-series-revision-notes",
@@ -521,7 +458,7 @@ export const blogs: Blog[] = [
         "category": "Mathematics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/sequences-series-revision.png"
+        "image": "/blog-images/sequences-series-revision.webp"
     },
     {
         "id": "sets-revision-notes",
@@ -530,7 +467,7 @@ export const blogs: Blog[] = [
         "category": "Chemistry",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/sets-revision.png"
+        "image": "/blog-images/sets-revision.webp"
     },
     {
         "id": "state-scholarship-guide-2026",
@@ -539,7 +476,7 @@ export const blogs: Blog[] = [
         "category": "Biology",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/state-scholarship-directory.png"
+        "image": "/blog-images/state-scholarship-guide-2026.webp"
     },
     {
         "id": "statistics-revision-notes",
@@ -548,7 +485,7 @@ export const blogs: Blog[] = [
         "category": "Mathematics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/statistics-revision.png"
+        "image": "/blog-images/statistics-revision.webp"
     },
     {
         "id": "straight-lines-revision-notes",
@@ -557,7 +494,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/straight-lines-revision.png"
+        "image": "/blog-images/straight-lines-revision.webp"
     },
     {
         "id": "structural-organisation-in-animals-class-11-notes",
@@ -575,7 +512,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/study-12-hours-secret.png"
+        "image": "/blog-images/study-12-hours-daily-tips.webp"
     },
     {
         "id": "thermal-properties-of-matter-revision-notes",
@@ -584,7 +521,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/thermal-properties-revision.png"
+        "image": "/blog-images/thermal-properties-revision.webp"
     },
     {
         "id": "thermodynamics-revision-notes",
@@ -593,7 +530,7 @@ export const blogs: Blog[] = [
         "category": "Biology",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/thermodynamics-revision.png"
+        "image": "/blog-images/thermodynamics-revision.webp"
     },
     {
         "id": "three-dimensional-geometry-revision-notes",
@@ -602,7 +539,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/three-dimensional-geometry-revision.png"
+        "image": "/blog-images/three-dimensional-geometry-revision.webp"
     },
     {
         "id": "transport-in-plants-class-11-notes",
@@ -620,7 +557,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/trigonometric-functions-revision.png"
+        "image": "/blog-images/trigonometric-functions-revision.webp"
     },
     {
         "id": "units-and-measurements-revision-notes",
@@ -629,7 +566,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/units-and-measurements-revision.png"
+        "image": "/blog-images/units-and-measurements-revision.webp"
     },
     {
         "id": "upsc-optional-selection-guide",
@@ -647,7 +584,7 @@ export const blogs: Blog[] = [
         "category": "Biology",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/waves-revision.png"
+        "image": "/blog-images/waves-revision.webp"
     },
     {
         "id": "work-energy-and-power-revision-notes",
@@ -656,13 +593,40 @@ export const blogs: Blog[] = [
         "category": "Biology",
         "date": "March 16, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/work-energy-power-revision.png"
+        "image": "/blog-images/work-energy-power-revision.webp"
+    },
+    {
+        "id": "3d-geometry-intro-class-11-notes",
+        "title": "3d Geometry Intro Class 11 Notes",
+        "description": "Master 3D Geometry for Class 11 Physics with expert study notes, covering concepts and formulas in an intuitive and easy-to-understand format.",
+        "category": "Physics",
+        "date": "March 15, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/3d-geometry-intro-class-11-notes.webp"
+    },
+    {
+        "id": "biological-classification-class-11-notes",
+        "title": "Biological Classification Class 11 Notes",
+        "description": "Unlock the secrets of biological classification: Comprehensive Class 11 study guide & notes for Biology students, covering key concepts & more.",
+        "category": "Biology",
+        "date": "March 15, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/biological-classification-class-11-notes.webp"
+    },
+    {
+        "id": "environmental-chemistry-class-11-notes",
+        "title": "Environmental Chemistry Class 11 Notes",
+        "description": "Get ahead in class 11 Biology with our comprehensive Environmental Chemistry notes, covering key concepts and exam prep strategies.",
+        "category": "Biology",
+        "date": "March 15, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/environmental-chemistry-class-11-notes.webp"
     },
     {
         "id": "hydrocarbons-class-11-notes",
         "title": "Hydrocarbons Class 11 Notes",
         "description": "Achieve academic excellence with our comprehensive Class 11 Chemistry notes on Hydrocarbons, covering key concepts and formulas.",
-        "category": "Chemistry",
+        "category": "Biology",
         "date": "March 15, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/hydrocarbons-class-11-notes.webp"
@@ -713,33 +677,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/redox-reactions-class-11-notes.webp"
     },
     {
-        "id": "some-basic-concepts-chemistry-revision-notes",
-        "title": "Some Basic Concepts Chemistry Revision Notes",
-        "description": "Boost JEE/NEET Chem prep with our concise & comprehensive study notes covering essential concepts & practical applications.",
-        "category": "Chemistry",
-        "date": "March 14, 2026 | Part of the Class 11 Chemistry Revision Series — NCERT-aligned with JEE/NEET depth.",
-        "readTime": "15 min read",
-        "image": "/blog-images/some-basic-concepts-chemistry-revision.png"
-    },
-    {
-        "id": "states-of-matter-revision-notes",
-        "title": "States Of Matter Revision Notes",
-        "description": "Master the 3 states of matter with our concise JEE/NEET prep study guide covering solids, liquids, and gases.",
-        "category": "Physics",
-        "date": "March 14, 2026 | Part of the Class 11 Chemistry Revision Series — NCERT-aligned with JEE/NEET depth.",
-        "readTime": "15 min read",
-        "image": "/blog-images/states-of-matter-revision.png"
-    },
-    {
-        "id": "structure-of-atom-revision-notes",
-        "title": "Structure Of Atom Revision Notes",
-        "description": "Master atomic structure with our concise JEE/NEET study guide covering subatomic particles, electron configuration, and more.",
-        "category": "Physics",
-        "date": "March 14, 2026 | Part of the Class 11 Chemistry SEO Dominance Series.",
-        "readTime": "15 min read",
-        "image": "/blog-images/structure-of-atom-revision.png"
-    },
-    {
         "id": "the-living-world-class-11-notes",
         "title": "The Living World Class 11 Notes",
         "description": "Unlock the Secrets of Biology with Our Comprehensive Class 11 Notes on The Living World - Master key concepts and excel in your exams.",
@@ -767,13 +704,112 @@ export const blogs: Blog[] = [
         "image": "/blog-images/the-s-block-elements-class-11-notes.webp"
     },
     {
+        "id": "chemical-bonding-class-11-notes",
+        "title": "Chemical Bonding Class 11 Notes",
+        "description": "Ace JEE/NEET with comprehensive Class 11 Chemical Bonding notes, covering types, formation, and properties for ultimate exam preparation success.",
+        "category": "Physics",
+        "date": "March 14, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/chemical-bonding-molecular-structure-revision.webp"
+    },
+    {
+        "id": "classification-elements-periodicity-revision-notes",
+        "title": "Classification Elements Periodicity Revision Notes",
+        "description": "Accelerate your JEE/NEET prep with our concise & comprehensive classification, elements, periodicity revision notes, tailored for your success.",
+        "category": "Physics",
+        "date": "March 14, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/classification-elements-periodicity-revision.webp"
+    },
+    {
+        "id": "equilibrium-revision-notes",
+        "title": "Equilibrium Revision Notes",
+        "description": "Boost JEE/NEET prep with concise equilibrium revision notes, covering Le Chatelier",
+        "category": "Physics",
+        "date": "March 14, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/equilibrium-revision.webp"
+    },
+    {
+        "id": "locomotion-and-movement-class-11-notes",
+        "title": "Locomotion and Movement Class 11 Notes — Exam Compass",
+        "description": "Master locomotion and movement concepts for JEE/NEET with our comprehensive study guide.",
+        "category": "Biology",
+        "date": "March 14, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/locomotion-and-movement-class-11-notes.webp"
+    },
+    {
+        "id": "neural-control-and-coordination-class-11-notes",
+        "title": "Neural Control and Coordination Class 11 Notes — Exam Compass",
+        "description": "Master neural control systems with our comprehensive study guide for JEE/NEET, covering physiology, anatomy and key concepts.",
+        "category": "Biology",
+        "date": "March 14, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/neural-control-and-coordination-class-11-notes.webp"
+    },
+    {
+        "id": "ray-optics-class-12-quick-revision-notes",
+        "title": "Ray Optics Class Class 12 Quick Revision Notes & Recap — Exam Compass",
+        "description": "Master Ray Optics in minutes with our quick revision guide - recap key formulas, important notes, and tips for JEE/NEET success now!",
+        "category": "Physics",
+        "date": "March 14, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/ray-optics-class-12-quick-revision-notes.webp"
+    },
+    {
+        "id": "some-basic-concepts-chemistry-revision-notes",
+        "title": "Some Basic Concepts Chemistry Revision Notes",
+        "description": "Boost JEE/NEET Chem prep with our concise & comprehensive study notes covering essential concepts & practical applications.",
+        "category": "Chemistry",
+        "date": "March 13, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/some-basic-concepts-chemistry-revision.webp"
+    },
+    {
+        "id": "some-basic-concepts-of-chemistry-class-11-notes",
+        "title": "Some Basic Concepts of Chemistry Class 11 Notes — Exam Compass",
+        "description": "Master core chemistry concepts for JEE & NEET with our comprehensive guide to Class 11 chemistry principles and formulas, boosting your exam scores today!",
+        "category": "Chemistry",
+        "date": "March 13, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/some-basic-concepts-of-chemistry-class-11-notes.webp"
+    },
+    {
+        "id": "states-of-matter-revision-notes",
+        "title": "States Of Matter Revision Notes",
+        "description": "Master the 3 states of matter with our concise JEE/NEET prep study guide covering solids, liquids, and gases.",
+        "category": "Physics",
+        "date": "March 13, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/states-of-matter-revision.webp"
+    },
+    {
+        "id": "structure-of-atom-revision-notes",
+        "title": "Structure Of Atom Revision Notes",
+        "description": "Master atomic structure with our concise JEE/NEET study guide covering subatomic particles, electron configuration, and more.",
+        "category": "Physics",
+        "date": "March 13, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/structure-of-atom-revision.webp"
+    },
+    {
+        "id": "structure-of-the-atom-class-11-notes",
+        "title": "Structure of The Atom Class 11 Notes — Exam Compass",
+        "description": "Dive into the nucleus: Understand the structure of the atom, its components and the forces that hold them together. Boost your JEE/NEET prep with our chemistry expert-approved guide.",
+        "category": "Chemistry",
+        "date": "March 13, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/structure-of-the-atom-class-11-notes.webp"
+    },
+    {
         "id": "thermodynamics-chemistry-revision-notes",
         "title": "Thermodynamics Chemistry Revision Notes",
         "description": "Ace your JEE/NEET chemistry exam with this comprehensive thermodynamics study guide, covering key concepts and formulas for a strong foundation.",
         "category": "Physics",
-        "date": "March 14, 2026 | Part of the Class 11 Chemistry Revision Series — NCERT-aligned with JEE/NEET depth.",
+        "date": "March 13, 2026",
         "readTime": "15 min read",
-        "image": "/blog-images/thermodynamics-chemistry-revision.png"
+        "image": "/blog-images/thermodynamics-chemistry-revision.webp"
     }
 ];
 

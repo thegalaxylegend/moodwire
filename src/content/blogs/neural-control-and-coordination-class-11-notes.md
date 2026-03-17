@@ -7,11 +7,13 @@ keywords: "neural control and coordination class 11 notes, Biology, Exam Compass
 
 # Neural Control and Coordination Class 11 Notes — Exam Compass
 
+# Neural Control and Coordination Class 11 Notes — Exam Compass
+
 # Neural Control and Coordination Class 11 Notes for Biology
 
 ![Neural Control and Coordination Class 11 Notes — Exam Compass Notes](/blog-images/neural-control-and-coordination-class-11-notes.webp)
 
-*Last Updated: March 16, 2026*
+*Last Updated: March 14, 2026*
 
 ## Quick Recall Box
 To begin with, let's recall some key terms related to neural control and coordination:
@@ -131,6 +133,9 @@ where:
 - $V_{Na}$, $V_K$, and $V_L$ are the equilibrium potentials for sodium, potassium, and leak channels, respectively.
 
 This equation, part of the Hodgkin-Huxley model, demonstrates the complex interplay of ion channels and currents that underlie the generation and propagation of action potentials in neurons. While the mathematical details may be beyond the scope of Class 11 biology, understanding the biological principles behind such equations can deepen your appreciation for the intricate mechanisms of neural control and coordination.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -7,11 +7,13 @@ keywords: "mechanical properties of solids revision notes, Physics, Exam Compass
 
 # Mechanical Properties Of Solids Revision Notes
 
+# Mechanical Properties Of Solids Revision Notes
+
 # Mechanical Properties of Solids Class 11 Physics Quick Recall (Short Notes 2026-27)
 
 
 
-![Solid Mechanics and Elasticity Visual](/blog-images/solids-revision.png)
+![Solid Mechanics and Elasticity Visual](/blog-images/solids-revision.webp)
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -126,6 +128,9 @@ The mechanical properties of solids are what allow humans to build the impossibl
 
 ---
 **Reference:** [Engineering Toolbox: Elastic Properties of Materials](https://www.engineeringtoolbox.com)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

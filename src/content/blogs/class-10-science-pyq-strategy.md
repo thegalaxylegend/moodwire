@@ -7,6 +7,8 @@ keywords: "class 10 science pyq strategy, Biology, Exam Compass"
 
 # CBSE Class 10 Science Most Repeated PYQs 2026 Guide
 
+# CBSE Class 10 Science Most Repeated PYQs 2026 Guide
+
 # CBSE Class 10 Science Most Repeated PYQs 2026: The Data-Driven Roadmap to 95+
 
 If you're reading this, you're probably freaking out about the upcoming science boards. I get it. I was in your shoes last year. I spent months jumping between various EdTech videos and coaching marathons, trying to figure out what actually matters. Here's the truth: the CBSE syllabus is a ocean, but the actual board exam is just a few frequent ponds.
@@ -78,6 +80,9 @@ Focus on the last 5–10 years. However, prioritize the most recent 5 years, as 
 
 ### 3. Which Science chapters have the highest ROI?
 "Our Environment" has the highest ROI (marks per hour of study). For major marks, prioritize "Light," "Electricity," and "Life Processes," as they are consistently high-weightage in the CBSE boards.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

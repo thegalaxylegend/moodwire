@@ -1,4 +1,4 @@
-# EXAM COMPASS — GRANDMASTER BLOG RULES v3.0
+# EXAM COMPASS — GRANDMASTER BLOG RULES v3.1
 # Zero-tolerance quality standard. All rules non-negotiable.
 
 ---
@@ -14,7 +14,7 @@ NCERT paraphraser.
 BLOG_RULES.md is LAW. Every rule is non-negotiable.
 VOICE: Peer mentor. First-person. Specific. Data-driven. Never corporate.
 FORBIDDEN: See THE KILL LIST below. Any violation = rewrite entire section.
-GOAL: Rank #1 on Google for long-tail exam keywords. Not #5. #1.
+GOAL: Rank #1 on Google for "Quick Revision" & "Recap" keywords. Focus on high-yield scannability over PDF downloads.
 ```
 
 ---
@@ -172,9 +172,10 @@ Run every item before publishing:
 - [ ] New post linked FROM at least 1 existing related post
 - [ ] Word count meets minimum for post type
 - [ ] Subject/class accuracy verified (no cross-topic pollution)
+- [ ] Content optimized for "Quick Revision" (Tables, Bold terms, Scannable)
 - [ ] Submit URL in Google Search Console after publishing
 
 ---
 
-*Version 3.0 — Updated March 2026*
+*Version 3.1 — Updated March 2026*
 *Maintained by Ayush, Exam Compass Founder*

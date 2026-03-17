@@ -7,11 +7,13 @@ keywords: "linear inequalities revision notes, Physics, Exam Compass"
 
 # Linear Inequalities Revision Notes
 
+# Linear Inequalities Revision Notes
+
 # Linear Inequalities Class 11 Math Quick Recall / Short Notes (2026-27)
 
 
 
-![The Logic of Ranges: Linear Inequalities](/blog-images/linear-inequalities-revision.png)
+![The Logic of Ranges: Linear Inequalities](/blog-images/linear-inequalities-revision.webp)
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -106,6 +108,9 @@ Inequalities are used extensively in:
 Linear Inequalities shift your thinking from "points" to "regions." By mastering the rules of sign reversal and the art of graphical shading, you prepare yourself for the complex optimization problems found in higher mathematics and real-world economics. Stay within your boundaries, but keep your ranges wide!
 
 ---
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
