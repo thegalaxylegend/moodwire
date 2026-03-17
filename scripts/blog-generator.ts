@@ -380,6 +380,10 @@ async function generateBlogs() {
 
     const queue = JSON.parse(fs.readFileSync(QUEUE_FILE, 'utf8'));
 
+    // Track generated slugs for Discord
+    const generatedSlugsFile = path.join(__dirname, '../generated-slugs.txt');
+    fs.writeFileSync(generatedSlugsFile, ''); // Reset file
+
     for (const item of queue) {
         const publishDate = getShiftedDate();
         console.log(`\n✍️ Generating: ${item.topic} (${item.subject}, ${item.class})`);
@@ -450,6 +454,7 @@ ${content}
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 `;
                     fs.writeFileSync(filePath, finalMarkdown);
+                    fs.appendFileSync(generatedSlugsFile, item.targetSlug + '\n');
                     console.log(`✅ Success: ${item.targetSlug}.md saved.`);
                     success = true;
                     
@@ -493,6 +498,7 @@ ${cleanContent}
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 `;
                 fs.writeFileSync(filePath, finalMarkdown);
+                fs.appendFileSync(generatedSlugsFile, item.targetSlug + '\n');
                 console.log(`✅ Success: ${item.targetSlug}.md saved (via Gemini).`);
                 success = true;
                 

@@ -31,6 +31,8 @@ jobs:
       - name: Task 2 - Generate Blogs
         env:
           VITE_GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GEMINI_BACKUP_KEY: ${{ secrets.GEMINI_BACKUP_KEY }}
+          HF_API_TOKEN: ${{ secrets.HF_API_TOKEN }}
         run: npx tsx scripts/blog-generator.ts
 
       - name: Task 3 - Sync Firestore
@@ -46,6 +48,9 @@ jobs:
         run: node scripts/rehabilitate-blogs.js
 
       - name: Task 6 - Repair Images
+        env:
+          GEMINI_BACKUP_KEY: ${{ secrets.GEMINI_BACKUP_KEY }}
+          HF_API_TOKEN: ${{ secrets.HF_API_TOKEN }}
         run: node scripts/repair-images.js
 
       - name: Commit and Push New Blogs
@@ -65,5 +70,15 @@ jobs:
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
-          MESSAGE="🚀 **Exam Compass Blog Update!** 🚀\n\nJules just finished his daily task! \n✅ Created **new high-quality blogs**.\n✅ Generated **AI-designed hero images**.\n✅ Synced to Firestore & Deployed to Exam Compass.\n\nCheck them out here: https://examcompass.pages.dev/blog"
+          if [ -f generated-slugs.txt ]; then
+            SLUGS=$(cat generated-slugs.txt)
+            if [ -n "$SLUGS" ]; then
+              LIST=$(echo "$SLUGS" | sed 's|^|🔗 https://examcompass.pages.dev/blog/|' | awk '{printf "%s\\n", $0}')
+              MESSAGE="🚀 **Exam Compass Blog Update!** 🚀\n\nJules just finished his daily task! \n\n**New Blogs Created:**\n$LIST\n\n✅ Generated AI Hero Images.\n✅ SEO Optimized for Quick Revision.\n✅ Deployed to Production."
+            else
+              MESSAGE="🚀 **Exam Compass Automation Status** 🚀\n\nJules checked the queue. No new blogs were needed today.\n\n🔗 https://examcompass.pages.dev/blog"
+            fi
+          else
+             MESSAGE="🚀 **Exam Compass Blog Update!** 🚀\n\nJules just finished his daily task!\n\nCheck them out here: https://examcompass.pages.dev/blog"
+          fi
           curl -X POST -H "Content-Type: application/json" -d "{\"content\": \"$MESSAGE\"}" $DISCORD_WEBHOOK
