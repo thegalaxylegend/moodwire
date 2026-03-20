@@ -9,6 +9,8 @@ keywords: "laws of motion common mistakes, Physics, Exam Compass"
 
 # 10 Most Common Silly Mistakes in Laws of Motion
 
+# 10 Most Common Silly Mistakes in Laws of Motion
+
 ![10 Common Mistakes in Newton's Laws of Motion Visual](/blog-images/laws-of-motion-mistakes.webp)
 
 # 10 Most Common Silly Mistakes in Laws of Motion
@@ -69,6 +71,9 @@ Solving problems on a rotating turntable or an accelerating truck without applyi
 Mistakes in Physics are rarely mathematical; they are almost always conceptual. The only cure is to practice deliberately. 
 
 Jump into our [Laws of Motion Chapter Hub](/neet/physics/laws-of-motion) and solve the Top 50 PYQs while actively avoiding these 10 traps.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

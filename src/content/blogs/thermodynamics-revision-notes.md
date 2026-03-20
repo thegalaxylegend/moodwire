@@ -9,6 +9,8 @@ keywords: "thermodynamics revision notes, Biology, Exam Compass"
 
 # Thermodynamics Revision Notes
 
+# Thermodynamics Revision Notes
+
 # Thermodynamics Class 11 Physics Quick Recall Sheet (Short Notes 2026-27)
 
 
@@ -113,6 +115,9 @@ Thermodynamics is the science of limits. By understanding the mathematical proof
 
 ---
 **Reference:** [Journal of Thermal Science and Engineering](https://www.journals.elsevier.com)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

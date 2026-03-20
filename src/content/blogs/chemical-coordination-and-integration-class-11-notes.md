@@ -9,6 +9,8 @@ keywords: "chemical coordination and integration class 11 notes, Biology, Exam C
 
 # Chemical Coordination and Integration Class 11 Notes — Exam Compass
 
+# Chemical Coordination and Integration Class 11 Notes — Exam Compass
+
 # Chemical Coordination and Integration Class 11 Notes for Biology
 
 ![Chemical Coordination and Integration Class 11 Notes — Exam Compass Notes](/blog-images/chemical-coordination-and-integration-class-11-notes.webp)
@@ -118,6 +120,9 @@ Endocrine disorders can have significant effects on bodily functions. Common end
 * **Diabetes**: A disorder characterized by high blood sugar levels due to insulin deficiency or resistance.
 * **Hypothyroidism**: A disorder characterized by low thyroid hormone levels, leading to reduced metabolism.
 * **Hyperthyroidism**: A disorder characterized by high thyroid hormone levels, leading to increased metabolism.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

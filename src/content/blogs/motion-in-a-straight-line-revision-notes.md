@@ -9,6 +9,8 @@ keywords: "motion in a straight line revision notes, Physics, Exam Compass"
 
 # Motion In A Straight Line Revision Notes
 
+# Motion In A Straight Line Revision Notes
+
 # Motion in a Straight Line Class 11 Physics Quick Recall (Short Notes 2026-27)
 
 
@@ -143,6 +145,9 @@ Motion in a straight line is the foundation upon which all of Mechanical Physics
 
 ---
 **Reference:** [Khan Academy: Physics Kinematics](https://www.khanacademy.org/science/physics/one-dimensional-motion)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

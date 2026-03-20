@@ -9,6 +9,8 @@ keywords: "equilibrium revision notes, Physics, Exam Compass"
 
 # Equilibrium Revision Notes
 
+# Equilibrium Revision Notes
+
 # Chemical Equilibrium — Le Chatelier's Principle & pH Tricks JEE NEET 2026
 
 
@@ -288,6 +290,9 @@ For CBSE, always state Le Chatelier's Principle in full before applying it. Then
 
 ---
 *Last Updated: March 14, 2026*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

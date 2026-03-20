@@ -9,6 +9,8 @@ keywords: "excretory products and elimination class 11 notes, Biology, Exam Comp
 
 # Excretory Products and Elimination Class 11 Notes — Exam Compass
 
+# Excretory Products and Elimination Class 11 Notes — Exam Compass
+
 # Excretory Products and Elimination Class 11 Notes for Biology
 
 ![Excretory Products and Elimination Class 11 Notes — Exam Compass Notes](/blog-images/excretory-products-and-elimination-class-11-notes.webp)
@@ -178,6 +180,9 @@ The following JEE/NEET data is relevant to the excretory system:
 * **Lung function**: The lungs remove approximately 200 milliliters of carbon dioxide per minute.
 
 This data is essential for understanding the functions of the excretory system, and for success in the JEE and NEET exams.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

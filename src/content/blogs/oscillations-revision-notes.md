@@ -9,6 +9,8 @@ keywords: "oscillations revision notes, Physics, Exam Compass"
 
 # Oscillations Revision Notes
 
+# Oscillations Revision Notes
+
 # Oscillations Class 11 Physics Quick Recall Sheet (Short Notes 2026-27)
 
 
@@ -139,6 +141,9 @@ Oscillations are the universal language of physical vibration. By mastering the 
 
 ---
 **Reference:** [Journal of Sound and Vibration](https://www.journals.elsevier.com/journal-of-sound-and-vibration)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

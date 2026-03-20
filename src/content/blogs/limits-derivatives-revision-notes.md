@@ -9,6 +9,8 @@ keywords: "limits derivatives revision notes, Physics, Exam Compass"
 
 # Limits Derivatives Revision Notes
 
+# Limits Derivatives Revision Notes
+
 # Limits and Derivatives Class 11 Math Quick Recall / Short Notes (2026-27)
 
 
@@ -115,6 +117,9 @@ This process of finding the derivative using the limit definition is called **Di
 Limits and Derivatives are the tools that allow us to calculate the "slope of a curve" and "instantaneous speed." By mastering the algebra of limits and the core derivative rules (Product, Quotient, and Power), you unlock the door to the vast world of Calculus. Always check your indeterminate forms (0/0) first, and remember that derivatives are just the limit of a secant's slope! Keep your calculations precise and your limits approaching.
 
 ---
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

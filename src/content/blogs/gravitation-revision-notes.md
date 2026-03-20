@@ -9,6 +9,8 @@ keywords: "gravitation revision notes, Physics, Exam Compass"
 
 # Gravitation Revision Notes
 
+# Gravitation Revision Notes
+
 # Gravitation Class 11 Physics Quick Recall Sheet (Short Notes 2026-27)
 
 
@@ -123,6 +125,9 @@ Gravitation is the foundational law of the macro-universe. By understanding how 
 
 ---
 **Reference:** [NASA: Gravity and Orbits Guide](https://www.nasa.gov/audience/forstudents/5-8/features/nasa-knows/what-is-orbit-58.html)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -9,6 +9,8 @@ keywords: "structure of atom revision notes, Physics, Exam Compass"
 
 # Structure Of Atom Revision Notes
 
+# Structure Of Atom Revision Notes
+
 # Structure of Atom Class 11 Chemistry Quick Recall — Quantum Numbers & Shortcuts
 
 
@@ -291,6 +293,9 @@ For your school exams, always draw the Rydberg series energy level diagram ($n=1
 
 ---
 *Last Updated: March 13, 2026*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

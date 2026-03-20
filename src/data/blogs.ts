@@ -11,6 +11,60 @@ export interface Blog {
 
 export const blogs: Blog[] = [
     {
+        "id": "ancient-india-indus-valley-class-11-notes",
+        "title": "Ancient India: Indus Valley Class Class 11 Quick Revision Notes & Recap — Exam Compass",
+        "description": "Master Ancient India",
+        "category": "History",
+        "date": "March 20, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/ancient-india-indus-valley-class-11-notes.webp"
+    },
+    {
+        "id": "ancient-india-mahajanapadas-class-11-notes",
+        "title": "Ancient India: Mahajanapadas Class Class 11 Quick Revision Notes & Recap — Exam Compass",
+        "description": "Unleash your exam acumen with quick revision keys: Learn Mahajanapadas history formulas, concise notes, and crucial exam tips to ace Class 11 exams and JEE/NEET.",
+        "category": "History",
+        "date": "March 20, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/ancient-india-mahajanapadas-class-11-notes.webp"
+    },
+    {
+        "id": "ancient-india-vedic-age-class-11-notes",
+        "title": "Ancient India: Vedic Age Class Class 11 Quick Revision Notes & Recap — Exam Compass",
+        "description": "Boost your scores in Class 11 board exams and JEE/NEET with our quick revision notes on Ancient India",
+        "category": "History",
+        "date": "March 20, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/ancient-india-vedic-age-class-11-notes.webp"
+    },
+    {
+        "id": "art-culture-architecture-class-11-notes",
+        "title": "Art & Culture: Architecture Class Class 11 Quick Revision Notes & Recap — Exam Compass",
+        "description": "Crash revision guide for Class 11 History of Architecture: Get instant recall with key formulas, concise notes, and a quick recap for JEE/NEET success.",
+        "category": "History",
+        "date": "March 20, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/art-culture-architecture-class-11-notes.webp"
+    },
+    {
+        "id": "medieval-india-delhi-sultanate-class-11-notes",
+        "title": "Medieval India: Delhi Sultanate Class Class 11 Quick Revision Notes & Recap — Exam Compass",
+        "description": "Crack your Class 11 History exams with ease. Quickly revise Delhi Sultanate in Medieval India with concise notes, formulas, and key recap points for JEE/NEET success.",
+        "category": "History",
+        "date": "March 20, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/medieval-india-delhi-sultanate-class-11-notes.webp"
+    },
+    {
+        "id": "medieval-india-mughals-class-11-notes",
+        "title": "Medieval India: Mughals Class Class 11 Quick Revision Notes & Recap — Exam Compass",
+        "description": "Boost your scores with our quick revision notes on Medieval India",
+        "category": "History",
+        "date": "March 20, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/medieval-india-mughals-class-11-notes.webp"
+    },
+    {
         "id": "ai-exam-prep-future",
         "title": "AI in Competitive Exam Preparation India: 2026 Guide",
         "description": "Revolutionize your study with AI in competitive exam preparation India. Master JEE, NEET & UPSC using adaptive mock tests and smart tools for success.",

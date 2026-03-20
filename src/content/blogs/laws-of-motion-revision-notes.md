@@ -9,6 +9,8 @@ keywords: "laws of motion revision notes, Physics, Exam Compass"
 
 # Laws Of Motion Revision Notes
 
+# Laws Of Motion Revision Notes
+
 # Laws of Motion Class 11 Physics Quick Recall Sheet (Short Notes 2026-27)
 
 
@@ -122,6 +124,9 @@ Newton’s Laws of Motion provide the fundamental rules of the game of Physics. 
 
 ---
 **Reference:** [MIT OpenCourseWare: Newton’s Laws](https://ocw.mit.edu/courses/physics/)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
