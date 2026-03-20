@@ -45,6 +45,8 @@ jobs:
         run: npm run seo:regen
 
       - name: Task 5 - Rehabilitate Content
+        env:
+          VITE_GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: node scripts/rehabilitate-blogs.js
 
       - name: Task 6 - Repair Images
