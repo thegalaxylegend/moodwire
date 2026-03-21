@@ -6,9 +6,7 @@ export const BlogSkeleton: React.FC = () => {
             {/* Navbar Placeholder */}
             <nav className="fixed top-0 left-0 w-full h-20 flex items-center z-50">
                 <div className="max-w-7xl mx-auto px-4 md:px-6 h-20 flex items-center justify-between w-full">
-                    <div className="text-xl md:text-2xl font-bold text-white tracking-tighter">
-                        Exam<span className="text-[#a855f7]">Compass</span>
-                    </div>
+                    <img src="/logo.jpg" alt="Exam Compass" className="h-8 md:h-10 w-auto opacity-50" />
                     <div className="flex items-center gap-4 md:gap-6">
                         <div className="h-4 w-12 bg-white/5 rounded animate-pulse hidden md:block" />
                         <div className="h-4 w-12 bg-white/5 rounded animate-pulse" />

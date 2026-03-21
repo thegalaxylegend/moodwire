@@ -9,7 +9,7 @@ keywords: "fundamental rights class 11 notes, Physics, Exam Compass"
 
 ![Fundamental Rights notes for students](/blog-images/fallbacks/generic-study.webp)
 
-*Last Updated: March 15, 2026*
+*Last Updated: March 21, 2026*
 
 ## What is Fundamental Rights?
 Fundamental Rights is a set of rights guaranteed by the Indian Constitution to all citizens, ensuring their basic dignity and freedom. It includes the Right to Equality, Right to Freedom, and Right to Life and Personal Liberty. For Class 11 exam prep in 2026, the most important aspect is understanding the scope and limitations of these rights in the context of the Indian polity and governance.

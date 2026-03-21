@@ -23,25 +23,79 @@ export const blogs: Blog[] = [
         "id": "climatology-class-11-notes",
         "title": "Climatology Class 11 Quick Revision Notes & Recap — Exam Compass",
         "description": "Boost your Class 11 Geography score with quick climatology revision, key formulas, and concise notes for JEE/NEET exam success.",
-        "category": "Geography",
+        "category": "Chemistry",
         "date": "March 21, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/climatology-class-11-notes.webp"
     },
     {
+        "id": "constitutional-framework-class-11-notes",
+        "title": "Constitutional Framework Class 11 Quick Recap — MCQs, Key Points & PDF Download",
+        "description": "Get an instant Polity revision edge with key concepts, trick questions, and MCQs covered. Know the key points and ace Class 11 exams with our comprehensive guide plus free PDF download.",
+        "category": "Social Science",
+        "date": "March 21, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/fallbacks/generic-study.webp"
+    },
+    {
+        "id": "dpsp-duties-class-11-notes",
+        "title": "DPSP & Duties Class 11 Quick Recap — MCQs, Key Points & PDF Download",
+        "description": "Master DPSP & Duties in 5 minutes: Get to know the Constitutional Obligations, Key Clauses and important Court Judgments with our expert guide & MCQs, key points, + free PDF download",
+        "category": "Physics",
+        "date": "March 21, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/fallbacks/generic-study.webp"
+    },
+    {
+        "id": "federalism-class-11-notes",
+        "title": "Federalism Class 11 Quick Recap — MCQs, Key Points & PDF Download",
+        "description": "Boost your Polity Class 11 scores with our expert guide to Federalism. Learn key points, potential trap questions, and ace your exams with our concise notes and free PDF download including MCQs",
+        "category": "Social Science",
+        "date": "March 21, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/fallbacks/generic-study.webp"
+    },
+    {
+        "id": "fundamental-rights-class-11-notes",
+        "title": "Fundamental Rights Class 11 Quick Recap — MCQs, Key Points & PDF Download",
+        "description": "Master Fundamental Rights in Polity with our quick revision guide. Stay ahead of Class 11 exams with trap questions, MCQs, key points, + free PDF download.",
+        "category": "Physics",
+        "date": "March 21, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/fallbacks/generic-study.webp"
+    },
+    {
         "id": "geomorphology-class-11-notes",
         "title": "Geomorphology Class 11 Quick Revision Notes & Recap — Exam Compass",
         "description": "Masters Geomorphology in minutes - Recap formulas, key concepts and shortcuts for quick revision in Class 11 Geography, ideal for JEE & NEET exam prep.",
-        "category": "Geography",
+        "category": "Physics",
         "date": "March 21, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/geomorphology-class-11-notes.webp"
     },
     {
+        "id": "indian-geography-climate-class-11-notes",
+        "title": "Indian Geography: Climate Class 11 Quick Recap — MCQs, Key Points & PDF Download",
+        "description": "Master Indian Geography in 11th Class with our quick revision guide covering climate patterns, key geographical facts, and trap questions to ace your exams. MCQs, key points, + free PDF download",
+        "category": "Geography",
+        "date": "March 21, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/fallbacks/geography-terrain.webp"
+    },
+    {
+        "id": "indian-geography-physical-class-11-notes",
+        "title": "Indian Geography: Physical Class 11 Quick Recap — MCQs, Key Points & PDF Download",
+        "description": "Master Indian Geography with ease, Class 11 quick revision tips, trap questions to avoid & score big MCQs, key points + free PDF download",
+        "category": "Geography",
+        "date": "March 21, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/fallbacks/geography-terrain.webp"
+    },
+    {
         "id": "medieval-india-bhakti-sufi-class-11-notes",
         "title": "Medieval India: Bhakti & Sufi Class 11 Quick Revision Notes & Recap — Exam Compass",
         "description": "Boost your class 11 history quick revision with our concise formula recap notes on Medieval India",
-        "category": "History",
+        "category": "General",
         "date": "March 21, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/medieval-india-bhakti-sufi-class-11-notes.webp"
@@ -50,7 +104,7 @@ export const blogs: Blog[] = [
         "id": "oceanography-class-11-notes",
         "title": "Oceanography Class 11 Quick Revision Notes & Recap — Exam Compass",
         "description": "Boost your JEE/NEET prep with our concise oceanography quick revision notes, recapping key formulas & concepts for Class 11 Geography. Learn efficiently, achieve success!",
-        "category": "Geography",
+        "category": "Physics",
         "date": "March 21, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/oceanography-class-11-notes.webp"
@@ -59,7 +113,7 @@ export const blogs: Blog[] = [
         "id": "world-history-industrial-revolution-class-11-notes",
         "title": "World History: Industrial Revolution Class 11 Quick Revision Notes & Recap — Exam Compass",
         "description": "Crunch class 11 history revision in minutes - Industrial revolution quick notes & formulas for JEE/NEET, ace World History in no time.",
-        "category": "History",
+        "category": "Physics",
         "date": "March 21, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/world-history-industrial-revolution-class-11-notes.webp"
@@ -68,7 +122,7 @@ export const blogs: Blog[] = [
         "id": "ancient-india-indus-valley-class-11-notes",
         "title": "Ancient India: Indus Valley Class 11 Quick Revision Notes & Recap — Exam Compass",
         "description": "Master Ancient India",
-        "category": "History",
+        "category": "General",
         "date": "March 20, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/ancient-india-indus-valley-class-11-notes.webp"
@@ -77,7 +131,7 @@ export const blogs: Blog[] = [
         "id": "ancient-india-mahajanapadas-class-11-notes",
         "title": "Ancient India: Mahajanapadas Class 11 Quick Revision Notes & Recap — Exam Compass",
         "description": "Unleash your exam acumen with quick revision keys: Learn Mahajanapadas history formulas, concise notes, and crucial exam tips to ace Class 11 exams and JEE/NEET.",
-        "category": "History",
+        "category": "Mathematics",
         "date": "March 20, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/ancient-india-mahajanapadas-class-11-notes.webp"
@@ -86,7 +140,7 @@ export const blogs: Blog[] = [
         "id": "ancient-india-vedic-age-class-11-notes",
         "title": "Ancient India: Vedic Age Class 11 Quick Revision Notes & Recap — Exam Compass",
         "description": "Boost your scores in Class 11 board exams and JEE/NEET with our quick revision notes on Ancient India",
-        "category": "History",
+        "category": "Mathematics",
         "date": "March 20, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/ancient-india-vedic-age-class-11-notes.webp"
@@ -95,7 +149,7 @@ export const blogs: Blog[] = [
         "id": "art-culture-architecture-class-11-notes",
         "title": "Art & Culture: Architecture Class 11 Quick Revision Notes & Recap — Exam Compass",
         "description": "Crash revision guide for Class 11 History of Architecture: Get instant recall with key formulas, concise notes, and a quick recap for JEE/NEET success.",
-        "category": "History",
+        "category": "Chemistry",
         "date": "March 20, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/art-culture-architecture-class-11-notes.webp"
@@ -104,7 +158,7 @@ export const blogs: Blog[] = [
         "id": "medieval-india-delhi-sultanate-class-11-notes",
         "title": "Medieval India: Delhi Sultanate Class 11 Quick Revision Notes & Recap — Exam Compass",
         "description": "Crack your Class 11 History exams with ease. Quickly revise Delhi Sultanate in Medieval India with concise notes, formulas, and key recap points for JEE/NEET success.",
-        "category": "History",
+        "category": "General",
         "date": "March 20, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/medieval-india-delhi-sultanate-class-11-notes.webp"
@@ -113,7 +167,7 @@ export const blogs: Blog[] = [
         "id": "medieval-india-mughals-class-11-notes",
         "title": "Medieval India: Mughals Class 11 Quick Revision Notes & Recap — Exam Compass",
         "description": "Boost your scores with our quick revision notes on Medieval India",
-        "category": "History",
+        "category": "General",
         "date": "March 20, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/medieval-india-mughals-class-11-notes.webp"
@@ -239,7 +293,7 @@ export const blogs: Blog[] = [
         "id": "classification-of-elements-class-11-notes",
         "title": "Classification of Elements Class 11 Notes — Exam Compass",
         "description": "Unlock the periodic table secrets: Master classification of elements with our expert guide. Break down compounds and identify elements like a pro.",
-        "category": "Chemistry",
+        "category": "Physics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/classification-of-elements-class-11-notes.webp"
@@ -248,7 +302,7 @@ export const blogs: Blog[] = [
         "id": "complex-numbers-revision-notes",
         "title": "Complex Numbers Revision Notes",
         "description": "Unlock complex numbers mastery with comprehensive revision notes for JEE/NEET exams success.",
-        "category": "Mathematics",
+        "category": "Physics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/complex-numbers-revision.webp"
@@ -275,7 +329,7 @@ export const blogs: Blog[] = [
         "id": "current-electricity-revision-notes",
         "title": "Current Electricity Revision Notes",
         "description": "Achieve IIT/JEE and NEET excellence with our comprehensive & concise current electricity study guide, expertly tailored for top exam results.",
-        "category": "Physics",
+        "category": "Biology",
         "date": "March 16, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/current-electricity-revision.webp"
@@ -374,7 +428,7 @@ export const blogs: Blog[] = [
         "id": "limits-derivatives-revision-notes",
         "title": "Limits Derivatives Revision Notes",
         "description": "Achieve perfection in limits & derivatives with our concise & comprehensive study guide, designed to crack JEE & NEET with ease & confidence.",
-        "category": "Mathematics",
+        "category": "Physics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/limits-derivatives-revision.webp"
@@ -383,7 +437,7 @@ export const blogs: Blog[] = [
         "id": "linear-inequalities-revision-notes",
         "title": "Linear Inequalities Revision Notes",
         "description": "Master linear inequalities with expert tips and shortcuts for JEE/NEET exams success - get started now.",
-        "category": "Mathematics",
+        "category": "Physics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/linear-inequalities-revision.webp"
@@ -392,7 +446,7 @@ export const blogs: Blog[] = [
         "id": "mathematical-induction-revision-notes",
         "title": "Mathematical Induction Revision Notes",
         "description": "Boost your scores with concise Math induction notes. Master key concepts, problem-solving techniques & common JEE/NEET questions.",
-        "category": "Mathematics",
+        "category": "Physics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/mathematical-induction-revision.webp"
@@ -401,7 +455,7 @@ export const blogs: Blog[] = [
         "id": "mathematical-reasoning-revision-notes",
         "title": "Mathematical Reasoning Revision Notes",
         "description": "Master JEE/NEET with our comprehensive Mathematics study guide featuring in-depth revision notes on mathematical reasoning.",
-        "category": "Mathematics",
+        "category": "Physics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/mathematical-reasoning-revision.webp"
@@ -464,7 +518,7 @@ export const blogs: Blog[] = [
         "id": "moving-charges-magnetism-revision-notes",
         "title": "Moving Charges Magnetism Revision Notes",
         "description": "Boost JEE/NEET prep with our detailed moving charges magnetism notes, covering key concepts, formulas, and practice problems.",
-        "category": "Physics",
+        "category": "Biology",
         "date": "March 16, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/electromagnetism-class12-hero.webp"
@@ -536,7 +590,7 @@ export const blogs: Blog[] = [
         "id": "relations-functions-revision-notes",
         "title": "Relations Functions Revision Notes",
         "description": "Master relations and functions for JEE/NEET with our concise revision notes on concepts, formulas, and practice problems.",
-        "category": "Mathematics",
+        "category": "Chemistry",
         "date": "March 16, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/relations-functions-revision.webp"
@@ -572,7 +626,7 @@ export const blogs: Blog[] = [
         "id": "sets-revision-notes",
         "title": "Sets Revision Notes",
         "description": "Unlock JEE and NEET success with our comprehensive study guide on sets, covering key concepts and formulas for IIT JEE and NEET exam prep.",
-        "category": "Mathematics",
+        "category": "Chemistry",
         "date": "March 16, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/sets-revision.webp"
@@ -599,7 +653,7 @@ export const blogs: Blog[] = [
         "id": "straight-lines-revision-notes",
         "title": "Straight Lines Revision Notes",
         "description": "Achieve perfection in geometry with our concise straight lines notes designed specifically for JEE and NEET aspirants.",
-        "category": "Mathematics",
+        "category": "Physics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/straight-lines-revision.webp"
@@ -635,7 +689,7 @@ export const blogs: Blog[] = [
         "id": "thermodynamics-revision-notes",
         "title": "Thermodynamics Revision Notes",
         "description": "Master thermodynamics with our comprehensive JEE/NEET revision notes and ace your exams with confidence, today.",
-        "category": "Physics",
+        "category": "Biology",
         "date": "March 16, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/thermodynamics-revision.webp"
@@ -644,7 +698,7 @@ export const blogs: Blog[] = [
         "id": "three-dimensional-geometry-revision-notes",
         "title": "Three Dimensional Geometry Revision Notes",
         "description": "Unlock JEE/NEET success with our 3D Geometry study guide, covering key concepts and problem-solving strategies for a stronger maths foundation.",
-        "category": "Mathematics",
+        "category": "Physics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/three-dimensional-geometry-revision.webp"
@@ -662,7 +716,7 @@ export const blogs: Blog[] = [
         "id": "trigonometric-functions-revision-notes",
         "title": "Trigonometric Functions Revision Notes",
         "description": "Master trigonometric functions with our concise JEE/NEET study guide, covering essentials & practice questions for a competitive edge.",
-        "category": "Mathematics",
+        "category": "Physics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/trigonometric-functions-revision.webp"
@@ -689,7 +743,7 @@ export const blogs: Blog[] = [
         "id": "waves-revision-notes",
         "title": "Waves Revision Notes",
         "description": "Master wave concepts for JEE & NEET with our concise study guide, covering types, superposition, interference, and more.",
-        "category": "Physics",
+        "category": "Biology",
         "date": "March 16, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/waves-revision.webp"
@@ -698,7 +752,7 @@ export const blogs: Blog[] = [
         "id": "work-energy-and-power-revision-notes",
         "title": "Work Energy And Power Revision Notes",
         "description": "Boost your exam prep with comprehensive work energy & power revision notes, perfect for JEE & NEET students.",
-        "category": "Physics",
+        "category": "Biology",
         "date": "March 16, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/work-energy-power-revision.webp"
@@ -707,7 +761,7 @@ export const blogs: Blog[] = [
         "id": "3d-geometry-intro-class-11-notes",
         "title": "3d Geometry Intro Class 11 Notes",
         "description": "Master 3D Geometry for Class 11 Physics with expert study notes, covering concepts and formulas in an intuitive and easy-to-understand format.",
-        "category": "Mathematics",
+        "category": "Physics",
         "date": "March 15, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/3d-geometry-intro-class-11-notes.webp"
@@ -722,55 +776,19 @@ export const blogs: Blog[] = [
         "image": "/blog-images/biological-classification-class-11-notes.webp"
     },
     {
-        "id": "constitutional-framework-class-11-notes",
-        "title": "Constitutional Framework Class 11 Quick Recap — MCQs, Key Points & PDF Download",
-        "description": "Get an instant Polity revision edge with key concepts, trick questions, and MCQs covered. Know the key points and ace Class 11 exams with our comprehensive guide plus free PDF download.",
-        "category": "General",
-        "date": "March 15, 2026",
-        "readTime": "15 min read",
-        "image": "/blog-images/fallbacks/generic-study.webp"
-    },
-    {
-        "id": "dpsp-duties-class-11-notes",
-        "title": "DPSP & Duties Class 11 Quick Recap — MCQs, Key Points & PDF Download",
-        "description": "Master DPSP & Duties in 5 minutes: Get to know the Constitutional Obligations, Key Clauses and important Court Judgments with our expert guide & MCQs, key points, + free PDF download",
-        "category": "General",
-        "date": "March 15, 2026",
-        "readTime": "15 min read",
-        "image": "/blog-images/fallbacks/generic-study.webp"
-    },
-    {
         "id": "environmental-chemistry-class-11-notes",
         "title": "Environmental Chemistry Class 11 Notes",
         "description": "Get ahead in class 11 Biology with our comprehensive Environmental Chemistry notes, covering key concepts and exam prep strategies.",
-        "category": "Chemistry",
+        "category": "Biology",
         "date": "March 15, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/environmental-chemistry-class-11-notes.webp"
     },
     {
-        "id": "federalism-class-11-notes",
-        "title": "Federalism Class 11 Quick Recap — MCQs, Key Points & PDF Download",
-        "description": "Boost your Polity Class 11 scores with our expert guide to Federalism. Learn key points, potential trap questions, and ace your exams with our concise notes and free PDF download including MCQs",
-        "category": "General",
-        "date": "March 15, 2026",
-        "readTime": "15 min read",
-        "image": "/blog-images/fallbacks/generic-study.webp"
-    },
-    {
-        "id": "fundamental-rights-class-11-notes",
-        "title": "Fundamental Rights Class 11 Quick Recap — MCQs, Key Points & PDF Download",
-        "description": "Master Fundamental Rights in Polity with our quick revision guide. Stay ahead of Class 11 exams with trap questions, MCQs, key points, + free PDF download.",
-        "category": "General",
-        "date": "March 15, 2026",
-        "readTime": "15 min read",
-        "image": "/blog-images/fallbacks/generic-study.webp"
-    },
-    {
         "id": "hydrocarbons-class-11-notes",
         "title": "Hydrocarbons Class 11 Notes",
         "description": "Achieve academic excellence with our comprehensive Class 11 Chemistry notes on Hydrocarbons, covering key concepts and formulas.",
-        "category": "Chemistry",
+        "category": "Biology",
         "date": "March 15, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/hydrocarbons-class-11-notes.webp"
@@ -779,28 +797,10 @@ export const blogs: Blog[] = [
         "id": "hydrogen-class-11-notes",
         "title": "Hydrogen Class 11 Notes",
         "description": "Unlock biology success with our comprehensive Hydrogen Class 11 notes - covering essentials, examples, and tips for top scores.",
-        "category": "Chemistry",
+        "category": "Biology",
         "date": "March 15, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/hydrogen-class-11-notes.webp"
-    },
-    {
-        "id": "indian-geography-climate-class-11-notes",
-        "title": "Indian Geography: Climate Class 11 Quick Recap — MCQs, Key Points & PDF Download",
-        "description": "Master Indian Geography in 11th Class with our quick revision guide covering climate patterns, key geographical facts, and trap questions to ace your exams. MCQs, key points, + free PDF download",
-        "category": "Geography",
-        "date": "March 15, 2026",
-        "readTime": "15 min read",
-        "image": "/blog-images/fallbacks/geography-terrain.webp"
-    },
-    {
-        "id": "indian-geography-physical-class-11-notes",
-        "title": "Indian Geography: Physical Class 11 Quick Recap — MCQs, Key Points & PDF Download",
-        "description": "Master Indian Geography with ease, Class 11 quick revision tips, trap questions to avoid & score big MCQs, key points + free PDF download",
-        "category": "Geography",
-        "date": "March 15, 2026",
-        "readTime": "15 min read",
-        "image": "/blog-images/fallbacks/geography-terrain.webp"
     },
     {
         "id": "organic-chemistry-basic-principles-class-11-notes",
@@ -833,7 +833,7 @@ export const blogs: Blog[] = [
         "id": "redox-reactions-class-11-notes",
         "title": "Redox Reactions Class 11 Notes",
         "description": "Elevate your biology grades with our comprehensive Class 11 study guide on Redox Reactions, covering key concepts and reactions in-depth, perfect for exams.",
-        "category": "Chemistry",
+        "category": "Biology",
         "date": "March 15, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/redox-reactions-class-11-notes.webp"
@@ -851,7 +851,7 @@ export const blogs: Blog[] = [
         "id": "the-p-block-elements-11-class-11-notes",
         "title": "The P Block Elements 11 Class 11 Notes",
         "description": "Unlock the P Block Elements with our comprehensive Class 11 study guide, covering essential notes and concepts for Physics exams with ease.",
-        "category": "Chemistry",
+        "category": "Physics",
         "date": "March 15, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/the-p-block-elements-11-class-11-notes.webp"
@@ -860,7 +860,7 @@ export const blogs: Blog[] = [
         "id": "the-s-block-elements-class-11-notes",
         "title": "The S Block Elements Class 11 Notes",
         "description": "Crack JEE/NEET with mastery of the s-block elements, Class 11 notes, covering alkali metals, alkaline earth metals, and key concepts for IIT and NEET preparation.",
-        "category": "Chemistry",
+        "category": "Physics",
         "date": "March 15, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/the-s-block-elements-class-11-notes.webp"
@@ -869,7 +869,7 @@ export const blogs: Blog[] = [
         "id": "chemical-bonding-class-11-notes",
         "title": "Chemical Bonding Class 11 Notes",
         "description": "Ace JEE/NEET with comprehensive Class 11 Chemical Bonding notes, covering types, formation, and properties for ultimate exam preparation success.",
-        "category": "Chemistry",
+        "category": "Physics",
         "date": "March 14, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/chemical-bonding-molecular-structure-revision.webp"
@@ -878,7 +878,7 @@ export const blogs: Blog[] = [
         "id": "classification-elements-periodicity-revision-notes",
         "title": "Classification Elements Periodicity Revision Notes",
         "description": "Accelerate your JEE/NEET prep with our concise & comprehensive classification, elements, periodicity revision notes, tailored for your success.",
-        "category": "Chemistry",
+        "category": "Physics",
         "date": "March 14, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/classification-elements-periodicity-revision.webp"
@@ -887,7 +887,7 @@ export const blogs: Blog[] = [
         "id": "equilibrium-revision-notes",
         "title": "Equilibrium Revision Notes",
         "description": "Boost JEE/NEET prep with concise equilibrium revision notes, covering Le Chatelier",
-        "category": "Chemistry",
+        "category": "Physics",
         "date": "March 14, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/equilibrium-revision.webp"
@@ -932,7 +932,7 @@ export const blogs: Blog[] = [
         "id": "states-of-matter-revision-notes",
         "title": "States Of Matter Revision Notes",
         "description": "Master the 3 states of matter with our concise JEE/NEET prep study guide covering solids, liquids, and gases.",
-        "category": "Chemistry",
+        "category": "Physics",
         "date": "March 13, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/states-of-matter-revision.webp"
@@ -941,7 +941,7 @@ export const blogs: Blog[] = [
         "id": "structure-of-atom-revision-notes",
         "title": "Structure Of Atom Revision Notes",
         "description": "Master atomic structure with our concise JEE/NEET study guide covering subatomic particles, electron configuration, and more.",
-        "category": "Chemistry",
+        "category": "Physics",
         "date": "March 13, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/structure-of-atom-revision.webp"
@@ -950,7 +950,7 @@ export const blogs: Blog[] = [
         "id": "structure-of-the-atom-class-11-notes",
         "title": "Structure of The Atom Class 11 Notes — Exam Compass",
         "description": "Dive into the nucleus: Understand the structure of the atom, its components and the forces that hold them together. Boost your JEE/NEET prep with our chemistry expert-approved guide.",
-        "category": "Chemistry",
+        "category": "Biology",
         "date": "March 13, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/structure-of-the-atom-class-11-notes.webp"
@@ -959,7 +959,7 @@ export const blogs: Blog[] = [
         "id": "thermodynamics-chemistry-revision-notes",
         "title": "Thermodynamics Chemistry Revision Notes",
         "description": "Ace your JEE/NEET chemistry exam with this comprehensive thermodynamics study guide, covering key concepts and formulas for a strong foundation.",
-        "category": "Chemistry",
+        "category": "Physics",
         "date": "March 13, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/thermodynamics-chemistry-revision.webp"

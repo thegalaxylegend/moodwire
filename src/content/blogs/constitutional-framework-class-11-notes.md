@@ -1,7 +1,7 @@
 ---
 title: "Constitutional Framework Class 11 Quick Recap — MCQs, Key Points & PDF Download"
 description: "Get an instant Polity revision edge with key concepts, trick questions, and MCQs covered. Know the key points and ace Class 11 exams with our comprehensive guide plus free PDF download."
-category: "General"
+category: "Social Science"
 keywords: "constitutional framework class 11 notes, General, Exam Compass"
 ---
 
@@ -9,7 +9,7 @@ keywords: "constitutional framework class 11 notes, General, Exam Compass"
 
 ![Constitutional Framework notes for students](/blog-images/fallbacks/generic-study.webp)
 
-*Last Updated: March 15, 2026*
+*Last Updated: March 21, 2026*
 
 ## What is Constitutional Framework?
 Constitutional Framework is a set of rules and principles that govern the functioning of a country's government and institutions. It includes the distribution of power, fundamental rights, and the relationship between the government and citizens. For Class 11 exam prep in 2026, the most important aspect is understanding the key features of the Indian Constitution and its historical context.

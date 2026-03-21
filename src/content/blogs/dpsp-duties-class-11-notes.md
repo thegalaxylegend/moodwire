@@ -9,7 +9,7 @@ keywords: "dpsp duties class 11 notes, Physics, Exam Compass"
 
 ![DPSP & Duties notes for students](/blog-images/fallbacks/generic-study.webp)
 
-*Last Updated: March 15, 2026*
+*Last Updated: March 21, 2026*
 
 ## What is DPSP & Duties?
 DPSP & Duties is a fundamental concept in the Indian Constitution that outlines the directives and responsibilities of the state and citizens towards the promotion of social and economic welfare. It includes the principles of social justice, economic equality, and individual freedoms. For Class 11 exam prep in 2026, the most important aspect is understanding the interplay between the Directive Principles of State Policy (DPSP) and the Fundamental Duties.

@@ -438,6 +438,7 @@
     "robots": "index, follow",
     "sitemapGroup": "blogs"
   },
+<<<<<<< Updated upstream
   "/blog/federalism-class-11-notes": {
     "title": "Federalism Class 11 Quick Recap — MCQs, Key Points & PDF Download",
     "description": "Boost your Polity Class 11 scores with our expert guide to Federalism. Learn key points, potential trap questions, and ace your exams with our concise notes and free PDF download including MCQs",
@@ -460,6 +461,8 @@
     "robots": "index, follow",
     "sitemapGroup": "blogs"
   },
+=======
+>>>>>>> Stashed changes
   "/blog/geomorphology-class-11-notes": {
     "title": "Geomorphology Class 11 Quick Revision Notes & Recap — Exam Compass",
     "description": "Masters Geomorphology in minutes - Recap formulas, key concepts and shortcuts for quick revision in Class 11 Geography, ideal for JEE & NEET exam prep.",

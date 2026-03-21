@@ -1,7 +1,7 @@
 ---
 title: "Federalism Class 11 Quick Recap — MCQs, Key Points & PDF Download"
 description: "Boost your Polity Class 11 scores with our expert guide to Federalism. Learn key points, potential trap questions, and ace your exams with our concise notes and free PDF download including MCQs"
-category: "General"
+category: "Social Science"
 keywords: "federalism class 11 notes, General, Exam Compass"
 ---
 
@@ -9,7 +9,7 @@ keywords: "federalism class 11 notes, General, Exam Compass"
 
 ![Federalism notes for students](/blog-images/fallbacks/generic-study.webp)
 
-*Last Updated: March 15, 2026*
+*Last Updated: March 21, 2026*
 
 ## What is Federalism?
 Federalism is a system of government in which power is divided between a central authority and constituent political units, such as states or provinces. It includes a division of powers, a bicameral legislature, and an independent judiciary. For Class 11 exam prep in 2026, the most important aspect is understanding the principles of federalism and its application in the Indian Constitution.

@@ -1,7 +1,7 @@
 ---
 title: "Indian Geography: Physical Class 11 Quick Recap — MCQs, Key Points & PDF Download"
 description: "Master Indian Geography with ease, Class 11 quick revision tips, trap questions to avoid & score big MCQs, key points + free PDF download"
-category: "General"
+category: "Geography"
 keywords: "indian geography physical class 11 notes, General, Exam Compass"
 ---
 
@@ -9,7 +9,7 @@ keywords: "indian geography physical class 11 notes, General, Exam Compass"
 
 ![Indian Geography: Physical notes for students](/blog-images/fallbacks/geography-terrain.webp)
 
-*Last Updated: March 15, 2026*
+*Last Updated: March 21, 2026*
 
 ## What is Indian Geography: Physical?
 Indian Geography: Physical is the study of the natural features and phenomena of India's landscape. It includes the country's mountains, rivers, climate, and natural resources. For Class 11 exam prep in 2026, the most important aspect is understanding the geographical features and their impact on the country's climate, economy, and population.

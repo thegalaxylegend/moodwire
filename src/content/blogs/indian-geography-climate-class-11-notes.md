@@ -1,7 +1,7 @@
 ---
 title: "Indian Geography: Climate Class 11 Quick Recap — MCQs, Key Points & PDF Download"
 description: "Master Indian Geography in 11th Class with our quick revision guide covering climate patterns, key geographical facts, and trap questions to ace your exams. MCQs, key points, + free PDF download"
-category: "General"
+category: "Geography"
 keywords: "indian geography climate class 11 notes, General, Exam Compass"
 ---
 
@@ -9,7 +9,7 @@ keywords: "indian geography climate class 11 notes, General, Exam Compass"
 
 ![Indian Geography: Climate notes for students](/blog-images/fallbacks/geography-terrain.webp)
 
-*Last Updated: March 15, 2026*
+*Last Updated: March 21, 2026*
 
 ## What is Indian Geography: Climate?
 Indian Geography: Climate is the study of the weather patterns and atmospheric conditions of India. It includes the examination of temperature, precipitation, and wind patterns, as well as the country's diverse geographical features such as mountains, plateaus, and coastal regions. For Class 11 exam prep in 2026, the most important aspect is understanding the regional variations in climate and their impact on the environment and human settlements.
