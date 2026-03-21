@@ -58,8 +58,15 @@ async function rehabilitate() {
             content = content.replace(/^# [^\n]*\n*/, '').trim();
         }
         
-        // Remove ALL existing footers to prevent looping/duplication
-        content = content.replace(/\s*---\s*\*This post was curated by Jules.*?\*/g, '').trim();
+        // Robust Deduplication (Option A) - Strip existing injected elements selectively
+        content = content
+            // 1. Remove duplicate H1 pattern: "# Topic...Quick Revision Notes & Recap..."
+            .replace(/^# .+Quick Revision Notes & Recap.+$/gm, '')
+            // 2. Remove footer loops (any multiple signature lines)
+            .replace(/(---\n\n\*This post was curated by Jules.*\n\n)+/g, '')
+            // 3. Remove leaked instruction text
+            .replace(/Conclusion is not allowed as per the rule.*$/gm, '')
+            .trim();
 
         // 3. Generate unique description if it's generic
         if (frontmatter.description.includes('Master ') && frontmatter.description.includes('with peer-mentor')) {

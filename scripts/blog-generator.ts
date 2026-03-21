@@ -114,9 +114,131 @@ const SUBJECT_FALLBACKS: Record<string, string> = {
     'default':     '/blog-images/fallbacks/generic-study.webp'
 };
 
-// Gemini Image function removed as it fails consistently with SVG parsing and lacks webp quality
-// Local SVG generation function replaced by static fallbacks
+const SUBJECT_CATEGORIES: Record<string, string> = {
+    'History':     'History',
+    'Geography':   'Geography', 
+    'Biology':     'Biology',
+    'Chemistry':   'Chemistry',
+    'Physics':     'Physics',
+    'Mathematics': 'Mathematics',
+    'Civics':      'Social Science',
+    'Art & Culture': 'History'
+};
 
+async function generateCloudflareImage(subject: string, topic: string, webpPath: string): Promise<boolean> {
+    const accountId = process.env.CLOUDFLARE_ACCOUNT_ID;
+    const apiToken = process.env.CLOUDFLARE_API_TOKEN;
+
+    if (!accountId || !apiToken) {
+        console.warn("⚠️ Cloudflare credentials (ACCOUNT_ID/API_TOKEN) missing in .env");
+        return false;
+    }
+
+    try {
+        console.log(`☁️ Jules: Designing custom artwork via Cloudflare Flux...`);
+        const response = await fetch(
+            `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/black-forest-labs/flux-1-schnell`,
+            {
+                method: 'POST',
+                headers: { 
+                    'Authorization': `Bearer ${apiToken}`,
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ 
+                    prompt: `Scientific diagram of ${topic}, ${subject} theme, dark background, cyan neon accents, holographic interface style, 16:9 aspect ratio, cinematic lighting, high-tech visualization, no text overlays` 
+                })
+            }
+        );
+
+        if (!response.ok) throw new Error(`Cloudflare API error: ${response.status}`);
+
+        const imageBuffer = Buffer.from(await response.arrayBuffer());
+        const { default: sharp } = await import('sharp');
+        await sharp(imageBuffer)
+            .resize(1200, 630, { fit: 'cover' })
+            .webp({ quality: 85 })
+            .toFile(webpPath);
+
+        console.log(`✅ Cloudflare FLUX image saved.`);
+        return true;
+    } catch (err: any) {
+        console.warn(`⚠️ Cloudflare failed: ${err.message}`);
+        return false;
+    }
+}
+
+async function generateGeminiImage(subject: string, topic: string, webpPath: string): Promise<boolean> {
+    const key = process.env.GEMINI_BACKUP_KEY || process.env.VITE_GEMINI_API_KEY;
+    if (!key) return false;
+
+    try {
+        console.log(`🚀 Primary APIs down. Asking Gemini to design SVG...`);
+        const prompt = `Generate a beautiful, complex, and modern SVG for a blog cover image. 
+        Topic: ${topic}
+        Subject: ${subject}
+        Style: Dark mode, neon colors, futuristic, scientific diagrams, no text, high detail.
+        Format: Return ONLY the raw SVG code. 1200x630.`;
+
+        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${key}`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                contents: [{ role: "user", parts: [{ text: prompt }] }],
+                generationConfig: { temperature: 0.9 }
+            })
+        });
+
+        const data: any = await response.json();
+        let svg = data.candidates?.[0]?.content?.parts?.[0]?.text || "";
+        svg = svg.replace(/```svg/g, "").replace(/```/g, "").trim();
+
+        if (!svg.includes("<svg")) throw new Error("Invalid SVG from Gemini");
+
+        // Escape dangerous characters to prevent XML parsing failure
+        const safeSvg = svg.replace(/&(?![a-zA-Z0-9#]+;)/g, '&amp;');
+
+        const { default: sharp } = await import('sharp');
+        await sharp(Buffer.from(safeSvg)).resize(1200, 630).webp({ quality: 90 }).toFile(webpPath);
+        
+        console.log(`✅ Gemini SVG image saved.`);
+        return true;
+    } catch (err: any) {
+        console.warn(`⚠️ Gemini SVG failed: ${err.message}`);
+        return false;
+    }
+}
+
+async function generateHuggingFaceImage(subject: string, topic: string, webpPath: string): Promise<boolean> {
+    const hfToken = process.env.HF_API_TOKEN;
+    if (!hfToken) return false;
+
+    try {
+        console.log("🤗 Trying Hugging Face FLUX.1-schnell...");
+        const response = await fetch('https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell', {
+            method: 'POST',
+            headers: {
+                'Authorization': `Bearer ${hfToken}`,
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                inputs: `Scientific diagram of ${topic}, ${subject} theme, dark background, cyan and purple neon accents, 16:9 aspect ratio, no text.`,
+                parameters: { width: 1200, height: 630, num_inference_steps: 4, guidance_scale: 0.0 }
+            })
+        });
+
+        if (!response.ok) throw new Error(`HF error: ${response.status}`);
+
+        const imageBuffer = Buffer.from(await response.arrayBuffer());
+        const { default: sharp } = await import('sharp');
+        await sharp(imageBuffer).resize(1200, 630, { fit: 'cover' }).webp({ quality: 85 }).toFile(webpPath);
+
+        console.log(`✅ HF image saved.`);
+        return true;
+    } catch (err: any) {
+        console.warn(`⚠️ HF failed: ${err.message}`);
+        return false;
+    }
+}
 
 async function downloadHeroImage(subject: string, topic: string, slug: string): Promise<string> {
     const webpPath = path.join(IMAGE_DIR, `${slug}.webp`);
@@ -124,59 +246,20 @@ async function downloadHeroImage(subject: string, topic: string, slug: string): 
 
     console.log(`🎨 Jules: Designing custom artwork for "${topic}"...`);
 
-    const artPromptUser = `Scientific diagram of ${topic}, ${subject} theme, dark background, cyan and purple neon accents, holographic interface style, 16:9 aspect ratio, cinematic lighting, 8k, no text.`;
-    
-    const seeds = [Math.floor(Math.random() * 10000), 42, 1234];
-    const models = ['flux', 'turbo', 'flux-realism'];
+    // Priority 1: Cloudflare Workers AI (Jules Flux)
+    const cfOk = await generateCloudflareImage(subject, topic, webpPath);
+    if (cfOk) return `/blog-images/${slug}.webp`;
 
-    for (let i = 0; i < 3; i++) {
-        try {
-            console.log(`🖌️ Image Attempt ${i + 1}/3 (Model: ${models[i]})...`);
-            const encodedPrompt = encodeURIComponent(artPromptUser);
-            const imageUrl = `https://image.pollinations.ai/prompt/${encodedPrompt}?width=1200&height=630&seed=${seeds[i]}&model=${models[i]}&nologo=true`;
+    // Priority 2: Gemini SVG
+    const geminiOk = await generateGeminiImage(subject, topic, webpPath);
+    if (geminiOk) return `/blog-images/${slug}.webp`;
 
-            const controller = new AbortController();
-            const timeout = setTimeout(() => controller.abort(), 60000);
+    // Priority 3: Hugging Face 
+    const hfOk = await generateHuggingFaceImage(subject, topic, webpPath);
+    if (hfOk) return `/blog-images/${slug}.webp`;
 
-            const response = await fetch(imageUrl, {
-                signal: controller.signal,
-                headers: {
-                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 ExamCompass/1.0',
-                    'Accept': 'image/webp,image/png,image/jpeg,image/*,*/*',
-                    'Referer': 'https://examcompass.pages.dev/'
-                }
-            });
-            clearTimeout(timeout);
-
-            const contentType = response.headers.get('content-type');
-            
-            if (!response.ok || !contentType?.startsWith('image/')) {
-                throw new Error(`Invalid response (${response.status} ${contentType})`);
-            }
-
-            const bufferData = await response.arrayBuffer();
-            if (bufferData.byteLength < 5000) {
-                throw new Error(`Response too small (${bufferData.byteLength} bytes) — likely not a real image`);
-            }
-
-            const { default: sharp } = await import('sharp');
-            await sharp(Buffer.from(bufferData))
-                .resize(1200, 630, { fit: 'cover' })
-                .webp({ quality: 85 })
-                .toFile(webpPath);
-
-            console.log(`✅ Image saved: ${slug}.webp (${(bufferData.byteLength / 1024).toFixed(0)}KB)`);
-            return `/blog-images/${slug}.webp`;
-        } catch (err: any) {
-            console.warn(`⚠️ Image attempt ${i + 1} failed: ${err.message?.substring(0, 80)}`);
-            if (i < 2) {
-                console.log("⏳ Waiting 10s before retry...");
-                await new Promise(r => setTimeout(r, 10000));
-            }
-        }
-    }
-
-    console.log("🎨 Pollinations unavailable. Injecting high-quality static subject fallback...");
+    // Priority 4: Static Subject Fallbacks
+    console.log("🎨 All APIs unavailable. Injecting high-quality static subject fallback...");
     const fallbackImage = SUBJECT_FALLBACKS[subject] || SUBJECT_FALLBACKS['default'];
     return fallbackImage;
 }
@@ -252,10 +335,11 @@ async function generateBlogs() {
                     content = content.replace(/^# .*\n/g, '').trim(); // Remove generated H1
                     const cleanClass = item.class.replace(/class/i, '').trim();
 
+                    const category = SUBJECT_CATEGORIES[item.subject] || 'General';
                     const finalMarkdown = `---
 title: "${item.topic} Class ${cleanClass} Quick Revision Notes & Recap — Exam Compass"
 description: "${seoDescription}"
-category: "${item.subject}"
+category: "${category}"
 keywords: "${item.topic} quick revision, ${item.topic} recap notes, class ${cleanClass} ${item.subject} summary, quick notes, Exam Compass"
 date: "${publishDate}"
 ---
@@ -294,10 +378,11 @@ ${content}
                 const cleanContent = content.replace(/^# .*\n/g, '').trim();
                 const cleanClass = item.class.replace(/class/i, '').trim();
                 
+                const category = SUBJECT_CATEGORIES[item.subject] || 'General';
                 const finalMarkdown = `---
 title: "${item.topic} Class ${cleanClass} Quick Revision Notes & Recap — Exam Compass"
 description: "${seoDescription}"
-category: "${item.subject}"
+category: "${category}"
 keywords: "${item.topic} quick revision, ${item.topic} recap notes, class ${cleanClass} ${item.subject} summary, quick notes, Exam Compass"
 date: "${publishDate}"
 ---

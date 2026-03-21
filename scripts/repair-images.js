@@ -23,6 +23,77 @@ const SUBJECT_FALLBACKS = {
 // SVG image generation removed down to avoid XML parsing crashes
 // Gemini image generation skipped as it produces poor results and 429 errors 
 
+async function generateCloudflareImage(topic, outputPath, subject) {
+    const accountId = process.env.CLOUDFLARE_ACCOUNT_ID;
+    const apiToken = process.env.CLOUDFLARE_API_TOKEN;
+
+    if (!accountId || !apiToken) {
+        console.warn("⚠️ Cloudflare credentials missing.");
+        return false;
+    }
+
+    try {
+        console.log(`☁️ Jules: Designing custom artwork via Cloudflare Flux...`);
+        const response = await fetch(
+            `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/black-forest-labs/flux-1-schnell`,
+            {
+                method: 'POST',
+                headers: { 
+                    'Authorization': `Bearer ${apiToken}`,
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ 
+                    prompt: `Scientific diagram of ${topic}, ${subject} theme, dark background, cyan neon accents, holographic interface style, 16:9 aspect ratio, high-tech visualization, no text overlays` 
+                })
+            }
+        );
+
+        if (!response.ok) throw new Error(`Cloudflare API error: ${response.status}`);
+
+        const buffer = Buffer.from(await response.arrayBuffer());
+        const sharp = (await import('sharp')).default;
+        await sharp(buffer).resize(1200, 630, { fit: 'cover' }).webp({ quality: 85 }).toFile(outputPath);
+        return true;
+    } catch (err) {
+        console.warn(`⚠️ Cloudflare failed: ${err.message}`);
+        return false;
+    }
+}
+
+async function generateGeminiImage(topic, outputPath, subject) {
+    const key = process.env.GEMINI_BACKUP_KEY || process.env.VITE_GEMINI_API_KEY;
+    if (!key) return false;
+
+    try {
+        console.log(`🚀 Primary APIs down. Asking Gemini to design SVG...`);
+        const prompt = `Generate a beautiful, complex, and modern SVG for a blog cover image. Topic: ${topic}, Subject: ${subject}. Format: raw SVG code ONLY. 1200x630. Dark theme.`;
+
+        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${key}`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                contents: [{ role: "user", parts: [{ text: prompt }] }]
+            })
+        });
+
+        const data = await response.json();
+        let svg = data.candidates?.[0]?.content?.parts?.[0]?.text || "";
+        svg = svg.replace(/```svg/g, "").replace(/```/g, "").trim();
+
+        if (!svg.includes("<svg")) throw new Error("Invalid SVG");
+        
+        // Escape &
+        const safeSvg = svg.replace(/&(?![a-zA-Z0-9#]+;)/g, '&amp;');
+
+        const sharp = (await import('sharp')).default;
+        await sharp(Buffer.from(safeSvg)).resize(1200, 630).webp({ quality: 90 }).toFile(outputPath);
+        return true;
+    } catch (err) {
+        console.warn(`⚠️ Gemini SVG failed: ${err.message}`);
+        return false;
+    }
+}
+
 
 async function generateHuggingFaceImage(topic, outputPath, subject) {
     const hfToken = process.env.HF_API_TOKEN;
@@ -69,30 +140,14 @@ async function downloadHeroImage(topic, outputFilename, subject) {
 
     console.log(`🎨 Generating artwork for "${topic}"...`);
     
-    // Attempt 1: Pollinations
-    const models = ['flux', 'turbo'];
-    for (const model of models) {
-        try {
-            const encodedPrompt = encodeURIComponent(`Scientific diagram of ${topic}, ${subject} theme, dark background, cyan and purple neon accents, holographic interface style, 16:9 aspect ratio, no text.`);
-            const imageUrl = `https://image.pollinations.ai/prompt/${encodedPrompt}?width=1200&height=630&model=${model}&seed=${Math.floor(Math.random() * 100000)}&nologo=true`;
+    // Priority 1: Cloudflare Workers AI (Jules Flux)
+    if (await generateCloudflareImage(topic, outputPath, subject)) return true;
 
-            const response = await fetch(imageUrl, {
-                headers: { 'User-Agent': 'Mozilla/5.0 ExamCompass/1.0' }
-            });
+    // Priority 2: Gemini SVG
+    if (await generateGeminiImage(topic, outputPath, subject)) return true;
 
-            if (response.ok) {
-                const buffer = Buffer.from(await response.arrayBuffer());
-                if (buffer.length > 5000) {
-                    const sharp = (await import('sharp')).default;
-                    await sharp(buffer).resize(1200, 630, { fit: 'cover' }).webp({ quality: 85 }).toFile(outputPath);
-                    console.log(`✅ Pollinations image saved: ${path.basename(outputPath)}`);
-                    return true;
-                }
-            }
-        } catch (err) {
-            console.warn(`⚠️ Pollinations ${model} failed.`);
-        }
-    }
+    // Priority 3: Hugging Face 
+    if (await generateHuggingFaceImage(topic, outputPath, subject)) return true;
 
     // Attempt 2: Hugging Face
     if (await generateHuggingFaceImage(topic, outputPath, subject)) return true;

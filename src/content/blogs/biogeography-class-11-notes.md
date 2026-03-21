@@ -7,8 +7,6 @@ keywords: "biogeography class 11 notes, Biology, Exam Compass"
 
 # Biogeography Class Class 11 Quick Revision Notes & Recap — Exam Compass
 
-# Biogeography Class 11 Notes for Geography
-
 ![Biogeography notes for students](/blog-images/biogeography-class-11-notes.webp)
 
 *Last Updated: March 21, 2026*
@@ -130,6 +128,9 @@ By recognizing these connections, I can develop a more nuanced understanding of 
 
 ### Ayush's Personal Note
 As I complete my review of biogeography, I am reminded of the importance of this field in understanding the natural world and addressing conservation challenges. I will continue to apply biogeographical principles in my studies and future endeavors, recognizing the significance of this field in promoting a deeper appreciation for the complex patterns and processes that shape our planet's biodiversity.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

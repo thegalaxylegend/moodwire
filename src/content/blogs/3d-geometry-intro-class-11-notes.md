@@ -118,3 +118,6 @@ Solution: A) $\frac{2}{\sqrt{14}}$
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

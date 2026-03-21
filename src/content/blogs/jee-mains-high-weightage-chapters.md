@@ -78,3 +78,6 @@ Chemistry is statistically the easiest and most scorable. Many questions are dir
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

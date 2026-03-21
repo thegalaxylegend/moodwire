@@ -7,8 +7,6 @@ keywords: "oceanography class 11 notes, Physics, Exam Compass"
 
 # Oceanography Class Class 11 Quick Revision Notes & Recap — Exam Compass
 
-# Oceanography Class 11 Notes for Geography
-
 ![Oceanography notes for students](/blog-images/oceanography-class-11-notes.webp)
 
 *Last Updated: March 21, 2026*
@@ -156,6 +154,9 @@ Before moving on, ensure you can:
 4. **Identify connections**: Between core concepts, formulae, and JEE/NEET data.
 
 By confirming your understanding of these essential areas, you'll be confident in your ability to tackle oceanography and succeed in your studies.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

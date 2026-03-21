@@ -257,3 +257,6 @@ For your school paper, always show unit conversions step-by-step. Write "$M = \t
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

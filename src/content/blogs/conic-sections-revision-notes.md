@@ -112,3 +112,6 @@ Conic sections bring geometry to life by connecting algebraic equations with phy
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

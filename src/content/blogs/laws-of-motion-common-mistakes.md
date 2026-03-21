@@ -70,3 +70,6 @@ Jump into our [Laws of Motion Chapter Hub](/neet/physics/laws-of-motion) and sol
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
