@@ -59,7 +59,7 @@ export const LandingPage = () => {
                             "@type": "Organization",
                             "name": "Exam Compass",
                             "url": SITE_URL,
-                            "logo": `${SITE_URL}/exa-logo.png`,
+                            "logo": `${SITE_URL}/logo.jpg`,
                             "founder": {
                                 "@type": "Person",
                                 "name": "Ayush Kumar",

@@ -10,8 +10,8 @@ export const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-10">
                     {/* Brand */}
                     <div className="md:col-span-1">
-                        <Link to="/" className="inline-block mb-3">
-                            <img src="/logo.jpg" alt="Exam Compass" className="h-8 md:h-10 w-auto" />
+                        <Link to="/" className="text-xl md:text-2xl font-bold text-white tracking-tighter inline-block mb-3">
+                            Exam<span className="text-[#a855f7]">Compass</span>
                         </Link>
                         <p className="text-gray-500 text-sm leading-relaxed">
                             AI-powered exam preparation for Indian students. Practice smarter, not harder.

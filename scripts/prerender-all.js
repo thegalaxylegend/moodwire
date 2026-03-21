@@ -97,7 +97,7 @@ async function prerender() {
                         globalThis.SEO_BLOG_DATA = {
                             title: manifest[url].title,
                             description: manifest[url].description,
-                            date: manifest[url].date || 'March 4, 2024',
+                            date: manifest[url].date || new Date().toISOString().split('T')[0],
                             category: manifest[url].category || 'Exam Prep',
                             id: slug
                         };

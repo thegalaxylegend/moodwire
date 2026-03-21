@@ -42,8 +42,8 @@ export const Navbar = () => {
     return (
         <nav className="fixed top-0 left-0 w-full z-50 bg-black/60 backdrop-blur-lg border-b border-white/10">
             <div className="max-w-7xl mx-auto px-4 md:px-6 h-20 flex items-center justify-between">
-                <Link to="/" className="shrink-0 mr-4">
-                    <img src="/logo.jpg" alt="Exam Compass" className="h-8 md:h-10 w-auto" />
+                <Link to="/" className="text-xl md:text-2xl font-bold text-white tracking-tighter shrink-0 mr-4">
+                    Exam<span className="text-[#a855f7]">Compass</span>
                 </Link>
 
                 <div className="flex items-center gap-3 md:gap-6">

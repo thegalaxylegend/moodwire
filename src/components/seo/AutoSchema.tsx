@@ -107,7 +107,7 @@ export const AutoSchema = () => {
                         "@type": "Organization",
                         "name": "Exam Compass",
                         "url": SITE_URL,
-                        "logo": `${SITE_URL}/logo.png`
+                        "logo": `${SITE_URL}/logo.jpg`
                     },
                     "offers": {
                         "@type": "Offer",
@@ -130,7 +130,7 @@ export const AutoSchema = () => {
                         "@type": "Organization",
                         "name": "Exam Compass",
                         "url": SITE_URL,
-                        "logo": `${SITE_URL}/logo.png`
+                        "logo": `${SITE_URL}/logo.jpg`
                     },
                     "isAccessibleForFree": true
                 });
@@ -167,7 +167,7 @@ export const AutoSchema = () => {
                             "name": "Exam Compass",
                             "sameAs": SITE_URL,
                             "url": SITE_URL,
-                            "logo": `${SITE_URL}/logo.png`
+                            "logo": `${SITE_URL}/logo.jpg`
                         },
                         "hasCourseInstance": {
                             "@type": "CourseInstance",
@@ -199,7 +199,7 @@ export const AutoSchema = () => {
                             "@type": "Organization",
                             "name": "Exam Compass",
                             "url": SITE_URL,
-                            "logo": `${SITE_URL}/logo.png`
+                            "logo": `${SITE_URL}/logo.jpg`
                         },
                         "isAccessibleForFree": true
                     });
@@ -230,7 +230,7 @@ export const AutoSchema = () => {
                 "name": "Exam Compass",
                 "url": SITE_URL,
                 "description": "AI-powered exam preparation platform for JEE, NEET, UPSC, and CBSE Class 6-12 students.",
-                "image": `${SITE_URL}/exa-logo.png`,
+                "image": `${SITE_URL}/logo.jpg`,
                 "screenshot": `${SITE_URL}/og-image.png`,
                 "applicationCategory": "EducationalApplication",
                 "operatingSystem": "Web Browser",

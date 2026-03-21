@@ -31,7 +31,7 @@ export const blogs: Blog[] = [
     {
         "id": "constitutional-framework-class-11-notes",
         "title": "Constitutional Framework Class 11 Quick Recap — MCQs, Key Points & PDF Download",
-        "description": "Get an instant Polity revision edge with key concepts, trick questions, and MCQs covered. Know the key points and ace Class 11 exams with our comprehensive guide plus free PDF download.",
+        "description": "Master key concepts of the Indian Constitutional Framework with our ultimate Class 11 guide, covering key points, tricky questions, including MCQs, key points, + free PDF download",
         "category": "Social Science",
         "date": "March 21, 2026",
         "readTime": "15 min read",
@@ -40,8 +40,8 @@ export const blogs: Blog[] = [
     {
         "id": "dpsp-duties-class-11-notes",
         "title": "DPSP & Duties Class 11 Quick Recap — MCQs, Key Points & PDF Download",
-        "description": "Master DPSP & Duties in 5 minutes: Get to know the Constitutional Obligations, Key Clauses and important Court Judgments with our expert guide & MCQs, key points, + free PDF download",
-        "category": "Physics",
+        "description": "Boost your Class 11 Polity exam prep with quick revision on DPSP & Duties. Master MCQs, key points, and ace tricky questions with our comprehensive guide MCQs, key points, + free PDF download",
+        "category": "Social Science",
         "date": "March 21, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/fallbacks/generic-study.webp"
@@ -49,7 +49,7 @@ export const blogs: Blog[] = [
     {
         "id": "federalism-class-11-notes",
         "title": "Federalism Class 11 Quick Recap — MCQs, Key Points & PDF Download",
-        "description": "Boost your Polity Class 11 scores with our expert guide to Federalism. Learn key points, potential trap questions, and ace your exams with our concise notes and free PDF download including MCQs",
+        "description": "Brush up on Class 11 Polity with our quick federalism revision guide. Master key concepts, avoid traps + score high with our MCQs, key points, + free PDF download.",
         "category": "Social Science",
         "date": "March 21, 2026",
         "readTime": "15 min read",
@@ -58,8 +58,8 @@ export const blogs: Blog[] = [
     {
         "id": "fundamental-rights-class-11-notes",
         "title": "Fundamental Rights Class 11 Quick Recap — MCQs, Key Points & PDF Download",
-        "description": "Master Fundamental Rights in Polity with our quick revision guide. Stay ahead of Class 11 exams with trap questions, MCQs, key points, + free PDF download.",
-        "category": "Physics",
+        "description": "Boost Class 11 Polity exam scores with a quick revision guide on Fundamental Rights. Identify trap questions and ace the exam with MCQs, key points, + free PDF download",
+        "category": "Social Science",
         "date": "March 21, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/fallbacks/generic-study.webp"
@@ -75,8 +75,8 @@ export const blogs: Blog[] = [
     },
     {
         "id": "indian-geography-climate-class-11-notes",
-        "title": "Indian Geography: Climate Class 11 Quick Recap — MCQs, Key Points & PDF Download",
-        "description": "Master Indian Geography in 11th Class with our quick revision guide covering climate patterns, key geographical facts, and trap questions to ace your exams. MCQs, key points, + free PDF download",
+        "title": "Climate Class 11 Quick Recap — MCQs, Key Points & PDF Download",
+        "description": "Boost your Class 11 Geography scores with our quick revision guide. Get to know the trap questions, key concepts & major changes. Prepare with our handy MCQs, key points, + free PDF download",
         "category": "Geography",
         "date": "March 21, 2026",
         "readTime": "15 min read",
@@ -84,8 +84,8 @@ export const blogs: Blog[] = [
     },
     {
         "id": "indian-geography-physical-class-11-notes",
-        "title": "Indian Geography: Physical Class 11 Quick Recap — MCQs, Key Points & PDF Download",
-        "description": "Master Indian Geography with ease, Class 11 quick revision tips, trap questions to avoid & score big MCQs, key points + free PDF download",
+        "title": "Physical Geography Class 11 Quick Recap — MCQs, Key Points & PDF Download",
+        "description": "Boost your Class 11 Geography scores with our quick revision guide. Learn Physical Geography tricks, identify trap questions and ace your exams. Download our free PDF now and start scoring high. MCQs, key points, + free PDF download",
         "category": "Geography",
         "date": "March 21, 2026",
         "readTime": "15 min read",

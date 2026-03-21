@@ -306,7 +306,8 @@ async function generate() {
                 manifest[`/blog/${slug}`] = {
                     title: extractedTitle,
                     description: extractedDesc,
-                    date: dateMatch ? dateMatch[1].trim() : 'March 4, 2024',
+                    date: dateMatch ? dateMatch[1].trim() : new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }),
+
                     category: categoryMatch ? categoryMatch[1].trim() : 'Exam Prep',
                     h1: h1Match ? h1Match[1].trim() : (titleMatch ? titleMatch[1].trim() : slug),
                     type: "blog-post",

@@ -54,8 +54,8 @@ export const MinimizedBubble: React.FC<MinimizedBubbleProps> = ({
                     ${isSpeaking ? 'border-indigo-400' : 'border-white/10 group-hover:border-primary/50'}`}>
                     
                     <img
-                        src="/exa-logo.png"
-                        alt="Exa"
+                        src="/logo.jpg"
+                        alt="Chat"
                         className={`w-[120%] h-[120%] object-cover transition-all duration-500 scale-110 select-none
                             ${isSpeaking ? 'animate-pulse contrast-125' : 'grayscale-[20%] group-hover:grayscale-0'}`}
                         draggable="false"

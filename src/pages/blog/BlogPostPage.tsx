@@ -168,14 +168,21 @@ export const BlogPostPage: React.FC = () => {
                             {meta.category}
                         </span>
                         <div className="flex items-center gap-4">
-                            <a href={`https://wa.me/?text=Check out this interactive quick recap for ${meta.title}: ${SITE_URL}/blog/${slug}`}
-                               target="_blank"
-                               rel="noopener noreferrer"
-                               className="hidden md:flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#25D366]/20 text-[#25D366] font-bold text-xs tracking-widest uppercase border border-[#25D366]/30 hover:bg-[#25D366]/30 transition-colors">
-                                Share on WhatsApp 📲
-                            </a>
+                            {(() => {
+                                const whatsappMessage = `🚀 Just found the best quick recap for ${meta.title}!\n\nIncludes:\n✅ Interactive MCQs with answers\n✅ Key points table\n✅ Trap exceptions\n\nCheck it out: ${SITE_URL}/blog/${slug}`;
+                                const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(whatsappMessage)}`;
+                                return (
+                                    <a href={whatsappUrl}
+                                       target="_blank"
+                                       rel="noopener noreferrer"
+                                       className="hidden md:flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#25D366]/20 text-[#25D366] font-bold text-xs tracking-widest uppercase border border-[#25D366]/30 hover:bg-[#25D366]/30 transition-colors">
+                                        Share on WhatsApp 📲
+                                    </a>
+                                );
+                            })()}
                             <SocialShare title={meta.title} />
                         </div>
+
                     </div>
 
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-10 leading-tight">
@@ -193,8 +200,17 @@ export const BlogPostPage: React.FC = () => {
                             </div>
                             <div className="flex items-center gap-2 bg-black/40 py-1.5 px-3 rounded-lg text-xs border border-white/5">
                                 <Calendar className="w-3.5 h-3.5" />
-                                <span>Last Updated: <time dateTime={new Date(meta.date).toISOString()}>{meta.date}</time></span>
+                                <span>Last Updated: 
+                                    <time dateTime={meta.date} itemProp="dateModified">
+                                        {new Date(meta.date).toLocaleDateString('en-IN', {
+                                            day: 'numeric',
+                                            month: 'long',
+                                            year: 'numeric'
+                                        })}
+                                    </time>
+                                </span>
                             </div>
+
                         </div>
 
                         <button 
@@ -207,38 +223,34 @@ export const BlogPostPage: React.FC = () => {
                         </button>
                     </div>
 
-                    {/* Phase 6: Topic Cluster Link (Dynamic for all subjects) */}
+                    {/* Area 5: Practice Link Routing (Dynamic for all subjects) */}
                     {(() => {
-                        // Map category like "Class 11 Physics" to exam path (e.g. jee-mains/physics)
-                        let examBase = 'jee-mains';
-                        let subjectSlug = '';
-                        const catLower = meta.category.toLowerCase();
+                        const PRACTICE_LINK_MAP: Record<string, string> = {
+                            "Social Science": "/class-11/social-science",
+                            "Geography": "/class-11/geography",
+                            "History": "/class-11/history",
+                            "Physics": "/class-11/physics",
+                            "Chemistry": "/class-11/chemistry",
+                            "Biology": "/class-11/biology",
+                            "Mathematics": "/class-11/mathematics",
+                            "Economics": "/class-11/economics",
+                        };
+
+                        const practiceBase = PRACTICE_LINK_MAP[meta.subject] ?? "/class-11";
+                        const practiceLink = `${practiceBase}/${slug}`;
                         
-                        if (catLower.includes('neet') || catLower.includes('biology')) examBase = 'neet';
-                        
-                        if (catLower.includes('physics')) subjectSlug = 'physics';
-                        else if (catLower.includes('math')) subjectSlug = 'math';
-                        else if (catLower.includes('chemistry')) subjectSlug = 'chemistry';
-                        else if (catLower.includes('biology')) subjectSlug = 'biology';
-                        else if (catLower.includes('science')) subjectSlug = 'science';
-                        
-                        // Extract plain slug from something like "laws-of-motion-revision-notes"
-                        const pureSlug = slug?.replace(/-revision-notes|-short-notes|-formulas/g, '') || '';
-                        
-                        if (subjectSlug && pureSlug) {
-                            return (
-                                <div className="mb-10">
-                                    <Link 
-                                        to={`/${examBase}/${subjectSlug}/${pureSlug}`}
-                                        className="inline-flex items-center gap-2 text-purple-400 hover:text-purple-300 font-bold text-sm bg-purple-500/5 px-4 py-2 rounded-lg border border-purple-500/10 transition-colors"
-                                    >
-                                        <BookOpen className="w-4 h-4" /> Practice Questions for this chapter →
-                                    </Link>
-                                </div>
-                            );
-                        }
-                        return null;
+                        return (
+                            <div className="mb-10">
+                                <Link 
+                                    to={practiceLink}
+                                    className="inline-flex items-center gap-2 text-purple-400 hover:text-purple-300 font-bold text-sm bg-purple-500/5 px-4 py-2 rounded-lg border border-purple-500/10 transition-colors"
+                                >
+                                    <BookOpen className="w-4 h-4" /> Practice Questions for this chapter →
+                                </Link>
+                            </div>
+                        );
                     })()}
+
                 </header>
 
                 <div className="prose prose-invert prose-purple max-w-none 

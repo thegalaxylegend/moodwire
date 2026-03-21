@@ -7,7 +7,9 @@ export const DashboardSkeleton: React.FC = () => {
             {/* Sidebar Skeleton */}
             <aside className="fixed lg:sticky top-0 h-screen bg-surface/95 backdrop-blur-md border-r border-border w-64 hidden lg:flex flex-col z-[70]">
                 <div className="p-6 h-20 flex items-center justify-between shrink-0">
-                    <img src="/logo.jpg" alt="Exam Compass" className="h-8 md:h-10 w-auto opacity-50" />
+                    <span className="text-xl md:text-2xl font-bold text-white tracking-tighter whitespace-nowrap">
+                        Exam<span className="text-[#a855f7]">Compass</span>
+                    </span>
                 </div>
 
                 <div className="flex-1 px-4 space-y-2 mt-4">
@@ -34,7 +36,9 @@ export const DashboardSkeleton: React.FC = () => {
             <main className="flex-1 p-4 lg:p-10 overflow-x-hidden relative w-full pb-24 lg:pb-10 flex flex-col">
                 {/* Mobile Header Skeleton */}
                 <div className="lg:hidden mb-4 h-20 flex items-center justify-between shrink-0 sticky top-0 z-50 -mt-4 -mx-4 px-4">
-                    <img src="/logo.jpg" alt="Exam Compass" className="h-8 md:h-10 w-auto opacity-50" />
+                    <span className="text-xl md:text-2xl font-bold text-white tracking-tighter">
+                        Exam<span className="text-[#a855f7]">Compass</span>
+                    </span>
                     <div className="flex items-center gap-3 opacity-50">
                         <div className="flex items-center gap-1.5 px-3 py-1.5 bg-surface border border-border rounded-lg text-primary font-bold text-sm">
                             <Flame size={16} />

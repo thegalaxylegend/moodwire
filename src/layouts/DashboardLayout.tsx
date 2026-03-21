@@ -208,9 +208,9 @@ export const DashboardLayout = () => {
             >
                 <div className="p-6 flex items-center justify-between shrink-0">
                     {(isSidebarOpen || window.innerWidth < 1024) && (
-                        <div className={`transition-all duration-300 ${!isSidebarOpen && 'lg:hidden opacity-0 w-0'}`}>
-                            <img src="/logo.jpg" alt="Exam Compass" className="h-8 md:h-10 w-auto" />
-                        </div>
+                        <span className={`text-xl md:text-2xl font-bold text-white tracking-tighter whitespace-nowrap transition-all duration-300 ${!isSidebarOpen && 'lg:hidden opacity-0 w-0'}`}>
+                            Exam<span className="text-[#a855f7]">Compass</span>
+                        </span>
                     )}
                     <button
                         onClick={() => setIsSidebarOpen(!isSidebarOpen)}
@@ -267,7 +267,7 @@ export const DashboardLayout = () => {
             {/* Main Content */}
             <main className="flex-1 p-4 lg:p-10 overflow-x-hidden relative w-full pb-24 lg:pb-10 flex flex-col animate-fade-in">
                 <div className="lg:hidden mb-4 h-20 flex items-center justify-between shrink-0 border-b border-white/5 -mt-4 -mx-4 px-4 bg-background/50 backdrop-blur-md sticky top-0 z-50">
-                    <img src="/logo.jpg" alt="Exam Compass" className="h-8 md:h-10 w-auto" />
+                    <span className="text-xl md:text-2xl font-bold text-white tracking-tighter">Exam<span className="text-[#a855f7]">Compass</span></span>
                     <div className="flex items-center gap-3">
                         {/* Streak Display (Mobile) */}
                         <div className="flex items-center gap-1.5 px-3 py-1.5 bg-surface border border-border rounded-lg text-primary font-bold text-sm">
