@@ -167,7 +167,15 @@ export const BlogPostPage: React.FC = () => {
                         <span className="px-4 py-1.5 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xs tracking-widest uppercase border border-purple-500/30">
                             {meta.category}
                         </span>
-                        <SocialShare title={meta.title} />
+                        <div className="flex items-center gap-4">
+                            <a href={`https://wa.me/?text=Check out this interactive quick recap for ${meta.title}: ${SITE_URL}/blog/${slug}`}
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               className="hidden md:flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#25D366]/20 text-[#25D366] font-bold text-xs tracking-widest uppercase border border-[#25D366]/30 hover:bg-[#25D366]/30 transition-colors">
+                                Share on WhatsApp 📲
+                            </a>
+                            <SocialShare title={meta.title} />
+                        </div>
                     </div>
 
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-10 leading-tight">
@@ -185,16 +193,7 @@ export const BlogPostPage: React.FC = () => {
                             </div>
                             <div className="flex items-center gap-2 bg-black/40 py-1.5 px-3 rounded-lg text-xs border border-white/5">
                                 <Calendar className="w-3.5 h-3.5" />
-                                {(() => {
-                                    const postDate = new Date(meta.date);
-                                    const now = new Date();
-                                    const diffDays = Math.floor((now.getTime() - postDate.getTime()) / (1000 * 60 * 60 * 24));
-                                    
-                                    if (diffDays === 0) return 'Today';
-                                    if (diffDays === 1) return 'Yesterday';
-                                    if (diffDays > 0 && diffDays < 14) return `${diffDays} days ago`;
-                                    return meta.date;
-                                })()}
+                                <span>Last Updated: <time dateTime={new Date(meta.date).toISOString()}>{meta.date}</time></span>
                             </div>
                         </div>
 

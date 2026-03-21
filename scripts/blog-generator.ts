@@ -280,7 +280,13 @@ async function generateBlogs() {
 
     for (const item of queue) {
         const publishDate = getShiftedDate();
-        console.log(`\n✍️ Generating: ${item.topic} (${item.subject}, ${item.class})`);
+        
+        // Trick 8: Dynamic Target Year
+        const currentMonth = new Date().getMonth(); // 0 indexed
+        const currentYear = new Date().getFullYear();
+        const targetYear = currentMonth >= 8 ? currentYear + 1 : currentYear;
+
+        console.log(`\n✍️ Generating: ${item.topic} (${item.subject}, Class ${item.class}, Year ${targetYear})`);
         
         const filePath = path.join(BLOG_DIR, `${item.targetSlug}.md`);
         if (fs.existsSync(filePath)) {
@@ -292,15 +298,15 @@ async function generateBlogs() {
         
         // --- STEP 1: GENERATE DYNAMIC SEO DESCRIPTION ---
         console.log("📑 Jules: Crafting unique SEO description...");
-        let seoDescription = `Quick ${item.topic} Revision Notes & Recap for Class ${item.class} ${item.subject}. Peer-mentor notes, high-yield insights, and personal tricks to master the chapter fast.`;
+        let seoDescription = `Interactive quick recap for ${item.topic} Class ${item.class} — MCQs, key points, trap questions + free PDF download.`;
         try {
             const seoCompletion = await groq.chat.completions.create({
                 messages: [{ 
                     role: "system", 
-                    content: "You are an SEO specialist. Write a high-click-through meta description (max 155 chars) for a blog post targeting 'Quick Revision' and 'Recap' keywords. Do not use quotes. Use active voice." 
+                    content: "You are an SEO specialist. Write a high-click-through meta description (max 155 chars) for a blog post. YOU MUST INCLUDE these exact words at the end: 'MCQs, key points, + free PDF download'. Do not use quotes." 
                 }, { 
                     role: "user", 
-                    content: `Topic: ${item.topic}, Subject: ${item.subject}, Class: ${item.class}. Focus: Quick Revision, Formula Recap, Short Notes.` 
+                    content: `Topic: ${item.topic}, Subject: ${item.subject}, Class: ${item.class}. Focus: Quick Revision, Trap Questions.` 
                 }],
                 model: "llama-3.1-8b-instant",
                 max_tokens: 100
@@ -313,8 +319,10 @@ async function generateBlogs() {
             ? 'Include high-yield JEE/NEET data, Core Concepts, Formulae Tables (Use ONLY $ for inline math and $$ for block math. DO NOT duplicate math as plain text before the LaTeX), and MCQs.' 
             : 'Include historical timelines, maps contexts, Core Concepts, and MCQs. DO NOT include any mathematical equations, formulas, or JEE/NEET data.';
             
-        const systemPrompt = `You are Ayush's senior content editor. Peer mentor style. Min 2500 words. Rule: Do not write any conclusion paragraphs. End the article abruptly after the final content section. Content must be high-yield, extremely scannable, and serve as a "Quick Revision & Recap" alternative to traditional PDF notes. Follow BLOG_RULES.md strictly. Focus on tables, bold terms, and quick-scan headers.`;
-        const userPrompt = `TOPIC: ${item.topic}, SUBJECT: ${item.subject}, CLASS: ${item.class}. Generate bodies starting with Quick Recall Box. Style: "Quick Revision & Recap". Include Ayush's Personal Note (1st person), ${promptAdditions} Highlight "Trap Exceptions" for quick review. DO NOT include closing remarks.`;
+        const systemPrompt = `You are Ayush's senior content editor. Peer mentor style. Min 2500 words. Rule: Do not write any conclusion paragraphs. End the article abruptly after the final content section. All content H2s MUST be formulated as direct questions (e.g., "What are the key features of X?") to optimize for SEO Snippets. Exception: structural sections like 'Quick Recall Box', 'MCQs', 'Trap Exceptions', 'Ayush's Tips' MUST keep their original names. Follow BLOG_RULES.md strictly. Focus on tables, bold terms, and quick-scan headers.`;
+        const userPrompt = `TOPIC: ${item.topic}, SUBJECT: ${item.subject}, CLASS: ${item.class}, EXAM TARGET YEAR: ${targetYear}. 
+Start the body with EXACTLY this snippet under the title: "## What is ${item.topic}?\\n\\n${item.topic} is [one sentence definition]. It includes [2-3 key points]. For Class ${item.class} exam prep in ${targetYear}, the most important aspect is [exam-relevant point]." 
+Then generate bodies starting with Quick Recall Box. Style: "Quick Revision & Recap". Include Ayush's Personal Note (1st person), ${promptAdditions} Highlight "Trap Exceptions" for quick review. DO NOT include closing remarks.`;
 
         let success = false;
         for (const model of GROQ_MODELS) {
@@ -337,10 +345,10 @@ async function generateBlogs() {
 
                     const category = SUBJECT_CATEGORIES[item.subject] || 'General';
                     const finalMarkdown = `---
-title: "${item.topic} Class ${cleanClass} Quick Revision Notes & Recap — Exam Compass"
+title: "${item.topic} Class ${cleanClass} Quick Recap — MCQs, Key Points & PDF Download"
 description: "${seoDescription}"
 category: "${category}"
-keywords: "${item.topic} quick revision, ${item.topic} recap notes, class ${cleanClass} ${item.subject} summary, quick notes, Exam Compass"
+keywords: "${item.topic} quick recap, ${item.topic} trap questions, class ${cleanClass} ${item.subject} MCQs, ${item.topic} pdf download, Exam Compass"
 date: "${publishDate}"
 ---
 
@@ -380,10 +388,10 @@ ${content}
                 
                 const category = SUBJECT_CATEGORIES[item.subject] || 'General';
                 const finalMarkdown = `---
-title: "${item.topic} Class ${cleanClass} Quick Revision Notes & Recap — Exam Compass"
+title: "${item.topic} Class ${cleanClass} Quick Recap — MCQs, Key Points & PDF Download"
 description: "${seoDescription}"
 category: "${category}"
-keywords: "${item.topic} quick revision, ${item.topic} recap notes, class ${cleanClass} ${item.subject} summary, quick notes, Exam Compass"
+keywords: "${item.topic} quick recap, ${item.topic} trap questions, class ${cleanClass} ${item.subject} MCQs, ${item.topic} pdf download, Exam Compass"
 date: "${publishDate}"
 ---
 
