@@ -104,250 +104,19 @@ function escapeXml(unsafe: string): string {
     });
 }
 
-function generateNeonSvg(topic: string, subject: string): string {
-    const theme = NEON_THEMES[subject] || NEON_THEMES['default'];
-    const seed = topic.length * 7 + subject.length * 13;
-    
-    // Generate pseudo-random positions for decorative elements
-    const circles = Array.from({ length: 12 }, (_, i) => {
-        const x = ((seed * (i + 1) * 137) % 1100) + 50;
-        const y = ((seed * (i + 1) * 89) % 530) + 50;
-        const r = ((seed * (i + 1) * 23) % 40) + 10;
-        const opacity = 0.1 + ((i % 5) * 0.08);
-        return `<circle cx="${x}" cy="${y}" r="${r}" fill="none" stroke="${i % 2 === 0 ? theme.primary : theme.secondary}" stroke-width="1.5" opacity="${opacity}" />`;
-    }).join('\n    ');
+const SUBJECT_FALLBACKS: Record<string, string> = {
+    'History':     '/blog-images/fallbacks/history-manuscript.webp',
+    'Geography':   '/blog-images/fallbacks/geography-terrain.webp', 
+    'Biology':     '/blog-images/fallbacks/biology-cell.webp',
+    'Chemistry':   '/blog-images/fallbacks/chemistry-molecule.webp',
+    'Physics':     '/blog-images/fallbacks/physics-waves.webp',
+    'Mathematics': '/blog-images/fallbacks/maths-equations.webp',
+    'default':     '/blog-images/fallbacks/generic-study.webp'
+};
 
-    const lines = Array.from({ length: 8 }, (_, i) => {
-        const x1 = ((seed * (i + 3) * 71) % 1200);
-        const y1 = ((seed * (i + 3) * 53) % 630);
-        const x2 = ((seed * (i + 7) * 97) % 1200);
-        const y2 = ((seed * (i + 7) * 41) % 630);
-        const opacity = 0.05 + ((i % 4) * 0.04);
-        return `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="${i % 2 === 0 ? theme.primary : theme.secondary}" stroke-width="0.8" opacity="${opacity}" />`;
-    }).join('\n    ');
+// Gemini Image function removed as it fails consistently with SVG parsing and lacks webp quality
+// Local SVG generation function replaced by static fallbacks
 
-    // Hexagonal grid pattern
-    const hexagons = Array.from({ length: 6 }, (_, i) => {
-        const cx = ((seed * (i + 2) * 113) % 1000) + 100;
-        const cy = ((seed * (i + 2) * 67) % 430) + 100;
-        const size = ((seed * (i + 2) * 31) % 30) + 20;
-        const opacity = 0.08 + ((i % 3) * 0.05);
-        const points = Array.from({ length: 6 }, (_, j) => {
-            const angle = (Math.PI / 3) * j - Math.PI / 6;
-            return `${cx + size * Math.cos(angle)},${cy + size * Math.sin(angle)}`;
-        }).join(' ');
-        return `<polygon points="${points}" fill="none" stroke="${theme.secondary}" stroke-width="1" opacity="${opacity}" />`;
-    }).join('\n    ');
-
-    // Truncate topic text to fit
-    const rawDisplayTopic = topic.length > 35 ? topic.substring(0, 32) + '...' : topic;
-    const displayTopic = escapeXml(rawDisplayTopic);
-    const safeSubject = escapeXml(subject);
-    const fontSize = topic.length > 25 ? 36 : 44;
-
-    return `<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0a0a1a"/>
-      <stop offset="50%" style="stop-color:#0d0d2b"/>
-      <stop offset="100%" style="stop-color:#1a0a2e"/>
-    </linearGradient>
-    <radialGradient id="glow1" cx="30%" cy="40%" r="50%">
-      <stop offset="0%" style="stop-color:${theme.primary};stop-opacity:0.15"/>
-      <stop offset="100%" style="stop-color:${theme.primary};stop-opacity:0"/>
-    </radialGradient>
-    <radialGradient id="glow2" cx="70%" cy="60%" r="45%">
-      <stop offset="0%" style="stop-color:${theme.secondary};stop-opacity:0.12"/>
-      <stop offset="100%" style="stop-color:${theme.secondary};stop-opacity:0"/>
-    </radialGradient>
-    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="textGlow" x="-10%" y="-10%" width="120%" height="120%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
-  
-  <!-- Background -->
-  <rect width="1200" height="630" fill="url(#bg)"/>
-  <rect width="1200" height="630" fill="url(#glow1)"/>
-  <rect width="1200" height="630" fill="url(#glow2)"/>
-  
-  <!-- Grid pattern -->
-  <g opacity="0.06">
-    ${Array.from({ length: 25 }, (_, i) => `<line x1="${i * 50}" y1="0" x2="${i * 50}" y2="630" stroke="${theme.primary}" stroke-width="0.5"/>`).join('\n    ')}
-    ${Array.from({ length: 13 }, (_, i) => `<line x1="0" y1="${i * 50}" x2="1200" y2="${i * 50}" stroke="${theme.primary}" stroke-width="0.5"/>`).join('\n    ')}
-  </g>
-  
-  <!-- Decorative elements -->
-  ${circles}
-  ${lines}
-  ${hexagons}
-  
-  <!-- Central glowing orb -->
-  <circle cx="600" cy="280" r="120" fill="none" stroke="${theme.primary}" stroke-width="1" opacity="0.2" filter="url(#neonGlow)"/>
-  <circle cx="600" cy="280" r="80" fill="none" stroke="${theme.secondary}" stroke-width="1.5" opacity="0.15" filter="url(#neonGlow)"/>
-  <circle cx="600" cy="280" r="40" fill="${theme.primary}" opacity="0.08" filter="url(#neonGlow)"/>
-  
-  <!-- Subject badge -->
-  <rect x="40" y="30" width="${subject.length * 14 + 30}" height="36" rx="18" fill="${theme.primary}" opacity="0.2"/>
-  <text x="${55 + (subject.length * 7)}" y="54" font-family="Arial, sans-serif" font-weight="700" font-size="16" fill="${theme.primary}" text-anchor="middle" letter-spacing="2">${safeSubject.toUpperCase()}</text>
-  
-  <!-- Topic title -->
-  <text x="600" y="480" font-family="Arial, sans-serif" font-weight="800" font-size="${fontSize}" fill="white" text-anchor="middle" filter="url(#textGlow)">${displayTopic}</text>
-  <text x="600" y="520" font-family="Arial, sans-serif" font-weight="400" font-size="18" fill="${theme.primary}" text-anchor="middle" opacity="0.8">Exam Compass — Revision Notes</text>
-  
-  <!-- Bottom accent line -->
-  <line x1="300" y1="560" x2="900" y2="560" stroke="${theme.primary}" stroke-width="2" opacity="0.4" filter="url(#neonGlow)"/>
-  
-  <!-- Corner accents -->
-  <path d="M 30 80 L 30 30 L 80 30" fill="none" stroke="${theme.primary}" stroke-width="2" opacity="0.5"/>
-  <path d="M 1120 80 L 1120 30 L 1170 30" fill="none" stroke="${theme.secondary}" stroke-width="2" opacity="0.5"/>
-  <path d="M 30 550 L 30 600 L 80 600" fill="none" stroke="${theme.secondary}" stroke-width="2" opacity="0.5"/>
-  <path d="M 1120 550 L 1120 600 L 1170 600" fill="none" stroke="${theme.primary}" stroke-width="2" opacity="0.5"/>
-</svg>`;
-}
-
-async function generateGeminiImage(subject: string, topic: string, outputPath: string): Promise<boolean> {
-    const key = process.env.GEMINI_BACKUP_KEY || process.env.VITE_GEMINI_API_KEY;
-    if (!key) {
-        console.warn("⚠️ GEMINI_BACKUP_KEY not found in environment for Image Gen.");
-        return false;
-    }
-
-    try {
-        console.log(`🚀 Using Gemini to design custom SVG for "${topic}"...`);
-        const theme = NEON_THEMES[subject] || NEON_THEMES['default'];
-        const prompt = `Generate a beautiful, complex, and modern SVG for a blog cover image. 
-        Topic: ${topic}
-        Subject: ${subject}
-        Style: Dark mode, neon colors (${theme.primary}, ${theme.secondary}), futuristic, scientific diagrams, no text in the background, high detail.
-        Format: Return ONLY the raw SVG code. No markdown, no explanations. 
-        Dimensions: 1200x630.`;
-
-        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${key}`, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-                contents: [{ role: "user", parts: [{ text: prompt }] }],
-                generationConfig: { temperature: 0.9 }
-            })
-        });
-
-        const data: any = await response.json();
-        let svg = data.candidates?.[0]?.content?.parts?.[0]?.text || "";
-        svg = svg.replace(/```svg/g, "").replace(/```/g, "").trim();
-
-        if (!svg.includes("<svg")) throw new Error("Invalid SVG from Gemini");
-
-        const { default: sharp } = await import('sharp');
-        await sharp(Buffer.from(svg)).resize(1200, 630).webp({ quality: 90 }).toFile(outputPath);
-        
-        console.log(`✅ Gemini SVG image saved: ${path.basename(outputPath)}`);
-        return true;
-    } catch (err: any) {
-        console.warn(`⚠️ Gemini SVG failed: ${err.message}`);
-        return false;
-    }
-}
-
-async function generateHuggingFaceImage(subject: string, topic: string, outputPath: string): Promise<boolean> {
-    const hfToken = process.env.HF_API_TOKEN;
-    if (!hfToken) {
-        console.warn("⚠️ HF_API_TOKEN not found in environment");
-        return false;
-    }
-
-    try {
-        console.log("🤗 Trying Hugging Face FLUX.1-schnell...");
-        const prompt = `Scientific diagram of ${topic}, ${subject} theme, dark background with cyan and purple neon accents, holographic interface style, high-tech visualization, 16:9 aspect ratio, cinematic lighting, no text overlays, digital art`;
-        
-        const response = await fetch('https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell', {
-            method: 'POST',
-            headers: {
-                'Authorization': `Bearer ${hfToken}`,
-                'Content-Type': 'application/json',
-                'User-Agent': 'ExamCompass/1.0'
-            },
-            body: JSON.stringify({
-                inputs: prompt,
-                parameters: {
-                    width: 1200,
-                    height: 630,
-                    num_inference_steps: 4,
-                    guidance_scale: 0.0
-                }
-            })
-        });
-
-        if (response.status === 503) {
-            // Model loading
-            console.warn("🤗 Model loading, trying SDXL backup...");
-            const sdxlResponse = await fetch('https://router.huggingface.co/hf-inference/models/stabilityai/stable-diffusion-xl-base-1.0', {
-                method: 'POST',
-                headers: {
-                    'Authorization': `Bearer ${hfToken}`,
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({ 
-                    inputs: prompt,
-                    parameters: { width: 1024, height: 1024 }
-                })
-            });
-            
-            if (!sdxlResponse.ok) throw new Error(`SDXL failed: ${sdxlResponse.status}`);
-            
-            const imageBuffer = Buffer.from(await sdxlResponse.arrayBuffer());
-            const { default: sharp } = await import('sharp');
-            await sharp(imageBuffer)
-                .resize(1200, 630, { fit: 'cover' })
-                .webp({ quality: 85 })
-                .toFile(outputPath);
-                
-            console.log(`✅ HF SDXL image saved: ${(imageBuffer.length / 1024).toFixed(0)}KB`);
-            return true;
-        }
-
-        if (!response.ok) {
-            throw new Error(`HF API error: ${response.status} - ${await response.text()}`);
-        }
-
-        const imageBuffer = Buffer.from(await response.arrayBuffer());
-        
-        if (imageBuffer.length < 5000) {
-            throw new Error(`HF response too small (${imageBuffer.length} bytes)`);
-        }
-
-        const { default: sharp } = await import('sharp');
-        await sharp(imageBuffer)
-            .resize(1200, 630, { fit: 'cover' })
-            .webp({ quality: 85 })
-            .toFile(outputPath);
-
-        console.log(`✅ HF FLUX image saved: ${(imageBuffer.length / 1024).toFixed(0)}KB`);
-        return true;
-    } catch (err: any) {
-        console.warn(`⚠️ Hugging Face failed: ${err.message?.substring(0, 80)}`);
-        return false;
-    }
-}
-
-async function generateLocalNeonImage(subject: string, topic: string, outputPath: string): Promise<boolean> {
-    try {
-        const svgContent = generateNeonSvg(topic, subject);
-        const { default: sharp } = await import('sharp');
-        await sharp(Buffer.from(svgContent))
-            .resize(1200, 630)
-            .webp({ quality: 90 })
-            .toFile(outputPath);
-        return true;
-    } catch (err: any) {
-        console.error(`⚠️ Local image generation failed: ${err.message}`);
-        return false;
-    }
-}
 
 async function downloadHeroImage(subject: string, topic: string, slug: string): Promise<string> {
     const webpPath = path.join(IMAGE_DIR, `${slug}.webp`);
@@ -407,32 +176,9 @@ async function downloadHeroImage(subject: string, topic: string, slug: string): 
         }
     }
 
-    // Fallback 1: Try Hugging Face
-    console.log("🎨 Pollinations unavailable. Trying Hugging Face...");
-    const hfOk = await generateHuggingFaceImage(subject, topic, webpPath);
-    if (hfOk) {
-        console.log(`✅ HF image saved: ${slug}.webp`);
-        return `/blog-images/${slug}.webp`;
-    }
-
-    // Fallback 2: Generate Gemini SVG Art
-    console.log("🎨 Hugging Face unavailable. Trying Gemini SVG designer...");
-    const geminiOk = await generateGeminiImage(subject, topic, webpPath);
-    if (geminiOk) {
-        return `/blog-images/${slug}.webp`;
-    }
-
-    // Fallback 3: Generate local neon-themed image using Sharp + SVG
-    console.log("🎨 Gemini SVG unavailable. Generating local neon artwork...");
-    const localOk = await generateLocalNeonImage(subject, topic, webpPath);
-    if (localOk) {
-        console.log(`✅ Local neon image saved: ${slug}.webp`);
-        return `/blog-images/${slug}.webp`;
-    }
-
-    // Ultimate fallback — should never reach here since Sharp is installed
-    console.error("❌ All image methods failed. Using placeholder.");
-    return `/blog-images/${slug}.webp`;
+    console.log("🎨 Pollinations unavailable. Injecting high-quality static subject fallback...");
+    const fallbackImage = SUBJECT_FALLBACKS[subject] || SUBJECT_FALLBACKS['default'];
+    return fallbackImage;
 }
 
 async function generateBlogs() {
