@@ -1,7 +1,7 @@
 ---
 title: "Redox Reactions Class 11 Notes"
 description: "Elevate your biology grades with our comprehensive Class 11 study guide on Redox Reactions, covering key concepts and reactions in-depth, perfect for exams."
-category: "Biology"
+category: "Chemistry"
 keywords: "redox reactions class 11 notes, Biology, Exam Compass"
 ---
 

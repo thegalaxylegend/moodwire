@@ -1,11 +1,11 @@
 ---
-title: "Art & Culture: Architecture Class Class 11 Quick Revision Notes & Recap — Exam Compass"
+title: "Art & Culture: Architecture Class 11 Quick Revision Notes & Recap — Exam Compass"
 description: "Crash revision guide for Class 11 History of Architecture: Get instant recall with key formulas, concise notes, and a quick recap for JEE/NEET success."
-category: "Chemistry"
+category: "History"
 keywords: "art culture architecture class 11 notes, Chemistry, Exam Compass"
 ---
 
-# Art & Culture: Architecture Class Class 11 Quick Revision Notes & Recap — Exam Compass
+# Art & Culture: Architecture Class 11 Quick Revision Notes & Recap — Exam Compass
 
 ![Art & Culture: Architecture notes for students](/blog-images/art-culture-architecture-class-11-notes.webp)
 

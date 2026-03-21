@@ -1,7 +1,7 @@
 ---
 title: "Mathematical Reasoning Revision Notes"
 description: "Master JEE/NEET with our comprehensive Mathematics study guide featuring in-depth revision notes on mathematical reasoning."
-category: "Physics"
+category: "Mathematics"
 keywords: "mathematical reasoning revision notes, Physics, Exam Compass"
 ---
 

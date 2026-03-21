@@ -1,7 +1,7 @@
 ---
 title: "Thermodynamics Revision Notes"
 description: "Master thermodynamics with our comprehensive JEE/NEET revision notes and ace your exams with confidence, today."
-category: "Biology"
+category: "Physics"
 keywords: "thermodynamics revision notes, Biology, Exam Compass"
 ---
 

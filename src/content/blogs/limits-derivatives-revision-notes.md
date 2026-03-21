@@ -1,7 +1,7 @@
 ---
 title: "Limits Derivatives Revision Notes"
 description: "Achieve perfection in limits & derivatives with our concise & comprehensive study guide, designed to crack JEE & NEET with ease & confidence."
-category: "Physics"
+category: "Mathematics"
 keywords: "limits derivatives revision notes, Physics, Exam Compass"
 ---
 

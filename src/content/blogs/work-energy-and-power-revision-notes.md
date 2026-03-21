@@ -1,7 +1,7 @@
 ---
 title: "Work Energy And Power Revision Notes"
 description: "Boost your exam prep with comprehensive work energy & power revision notes, perfect for JEE & NEET students."
-category: "Biology"
+category: "Physics"
 keywords: "work energy and power revision notes, Biology, Exam Compass"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Moving Charges Magnetism Revision Notes"
 description: "Boost JEE/NEET prep with our detailed moving charges magnetism notes, covering key concepts, formulas, and practice problems."
-category: "Biology"
+category: "Physics"
 keywords: "moving charges magnetism revision notes, Biology, Exam Compass"
 ---
 

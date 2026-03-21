@@ -1,7 +1,7 @@
 ---
 title: "Structure Of Atom Revision Notes"
 description: "Master atomic structure with our concise JEE/NEET study guide covering subatomic particles, electron configuration, and more."
-category: "Physics"
+category: "Chemistry"
 keywords: "structure of atom revision notes, Physics, Exam Compass"
 ---
 

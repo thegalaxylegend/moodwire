@@ -1,7 +1,7 @@
 ---
 title: "Classification of Elements Class 11 Notes — Exam Compass"
 description: "Unlock the periodic table secrets: Master classification of elements with our expert guide. Break down compounds and identify elements like a pro."
-category: "Physics"
+category: "Chemistry"
 keywords: "classification of elements class 11 notes, Physics, Exam Compass"
 ---
 

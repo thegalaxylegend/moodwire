@@ -1,11 +1,11 @@
 ---
-title: "Medieval India: Bhakti & Sufi Class Class 11 Quick Revision Notes & Recap — Exam Compass"
+title: "Medieval India: Bhakti & Sufi Class 11 Quick Revision Notes & Recap — Exam Compass"
 description: "Boost your class 11 history quick revision with our concise formula recap notes on Medieval India"
-category: "General"
+category: "History"
 keywords: "medieval india bhakti sufi class 11 notes, General, Exam Compass"
 ---
 
-# Medieval India: Bhakti & Sufi Class Class 11 Quick Revision Notes & Recap — Exam Compass
+# Medieval India: Bhakti & Sufi Class 11 Quick Revision Notes & Recap — Exam Compass
 
 ![Medieval India: Bhakti & Sufi notes for students](/blog-images/medieval-india-bhakti-sufi-class-11-notes.webp)
 

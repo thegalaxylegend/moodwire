@@ -1,11 +1,11 @@
 ---
-title: "World History: Industrial Revolution Class Class 11 Quick Revision Notes & Recap — Exam Compass"
+title: "World History: Industrial Revolution Class 11 Quick Revision Notes & Recap — Exam Compass"
 description: "Crunch class 11 history revision in minutes - Industrial revolution quick notes & formulas for JEE/NEET, ace World History in no time."
-category: "Physics"
+category: "History"
 keywords: "world history industrial revolution class 11 notes, Physics, Exam Compass"
 ---
 
-# World History: Industrial Revolution Class Class 11 Quick Revision Notes & Recap — Exam Compass
+# World History: Industrial Revolution Class 11 Quick Revision Notes & Recap — Exam Compass
 
 ![World History: Industrial Revolution notes for students](/blog-images/world-history-industrial-revolution-class-11-notes.webp)
 

@@ -1,11 +1,11 @@
 ---
-title: "Biogeography Class Class 11 Quick Revision Notes & Recap — Exam Compass"
+title: "Biogeography Class 11 Quick Revision Notes & Recap — Exam Compass"
 description: "Boost your exam scores with our quick biogeography revision notes, covering all key formulas, concepts & shortcuts for class 11 JEE & NEET prep."
 category: "Biology"
 keywords: "biogeography class 11 notes, Biology, Exam Compass"
 ---
 
-# Biogeography Class Class 11 Quick Revision Notes & Recap — Exam Compass
+# Biogeography Class 11 Quick Revision Notes & Recap — Exam Compass
 
 ![Biogeography notes for students](/blog-images/biogeography-class-11-notes.webp)
 

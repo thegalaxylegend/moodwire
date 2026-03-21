@@ -1,7 +1,7 @@
 ---
 title: "Thermodynamics Chemistry Revision Notes"
 description: "Ace your JEE/NEET chemistry exam with this comprehensive thermodynamics study guide, covering key concepts and formulas for a strong foundation."
-category: "Physics"
+category: "Chemistry"
 keywords: "thermodynamics chemistry revision notes, Physics, Exam Compass"
 ---
 

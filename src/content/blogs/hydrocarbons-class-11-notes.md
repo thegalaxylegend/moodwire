@@ -1,7 +1,7 @@
 ---
 title: "Hydrocarbons Class 11 Notes"
 description: "Achieve academic excellence with our comprehensive Class 11 Chemistry notes on Hydrocarbons, covering key concepts and formulas."
-category: "Biology"
+category: "Chemistry"
 keywords: "hydrocarbons class 11 notes, Biology, Exam Compass"
 ---
 

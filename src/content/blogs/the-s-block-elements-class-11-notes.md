@@ -1,7 +1,7 @@
 ---
 title: "The S Block Elements Class 11 Notes"
 description: "Crack JEE/NEET with mastery of the s-block elements, Class 11 notes, covering alkali metals, alkaline earth metals, and key concepts for IIT and NEET preparation."
-category: "Physics"
+category: "Chemistry"
 keywords: "the s block elements class 11 notes, Physics, Exam Compass"
 ---
 

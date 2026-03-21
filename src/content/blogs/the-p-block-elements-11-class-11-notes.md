@@ -1,7 +1,7 @@
 ---
 title: "The P Block Elements 11 Class 11 Notes"
 description: "Unlock the P Block Elements with our comprehensive Class 11 study guide, covering essential notes and concepts for Physics exams with ease."
-category: "Physics"
+category: "Chemistry"
 keywords: "the p block elements 11 class 11 notes, Physics, Exam Compass"
 ---
 

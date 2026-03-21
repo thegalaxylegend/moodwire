@@ -1,11 +1,11 @@
 ---
-title: "Medieval India: Delhi Sultanate Class Class 11 Quick Revision Notes & Recap — Exam Compass"
+title: "Medieval India: Delhi Sultanate Class 11 Quick Revision Notes & Recap — Exam Compass"
 description: "Crack your Class 11 History exams with ease. Quickly revise Delhi Sultanate in Medieval India with concise notes, formulas, and key recap points for JEE/NEET success."
-category: "General"
+category: "History"
 keywords: "medieval india delhi sultanate class 11 notes, General, Exam Compass"
 ---
 
-# Medieval India: Delhi Sultanate Class Class 11 Quick Revision Notes & Recap — Exam Compass
+# Medieval India: Delhi Sultanate Class 11 Quick Revision Notes & Recap — Exam Compass
 
 ![Medieval India: Delhi Sultanate notes for students](/blog-images/medieval-india-delhi-sultanate-class-11-notes.webp)
 

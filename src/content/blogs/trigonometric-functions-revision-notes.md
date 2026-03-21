@@ -1,7 +1,7 @@
 ---
 title: "Trigonometric Functions Revision Notes"
 description: "Master trigonometric functions with our concise JEE/NEET study guide, covering essentials & practice questions for a competitive edge."
-category: "Physics"
+category: "Mathematics"
 keywords: "trigonometric functions revision notes, Physics, Exam Compass"
 ---
 

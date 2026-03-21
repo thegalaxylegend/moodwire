@@ -1,7 +1,7 @@
 ---
 title: "Relations Functions Revision Notes"
 description: "Master relations and functions for JEE/NEET with our concise revision notes on concepts, formulas, and practice problems."
-category: "Chemistry"
+category: "Mathematics"
 keywords: "relations functions revision notes, Chemistry, Exam Compass"
 ---
 

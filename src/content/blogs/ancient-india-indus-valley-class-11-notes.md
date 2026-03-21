@@ -1,11 +1,11 @@
 ---
-title: "Ancient India: Indus Valley Class Class 11 Quick Revision Notes & Recap — Exam Compass"
+title: "Ancient India: Indus Valley Class 11 Quick Revision Notes & Recap — Exam Compass"
 description: "Master Ancient India"
-category: "General"
+category: "History"
 keywords: "ancient india indus valley class 11 notes, General, Exam Compass"
 ---
 
-# Ancient India: Indus Valley Class Class 11 Quick Revision Notes & Recap — Exam Compass
+# Ancient India: Indus Valley Class 11 Quick Revision Notes & Recap — Exam Compass
 
 ![Ancient India: Indus Valley notes for students](/blog-images/ancient-india-indus-valley-class-11-notes.webp)
 

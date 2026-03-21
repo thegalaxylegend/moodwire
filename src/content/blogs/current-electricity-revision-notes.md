@@ -1,7 +1,7 @@
 ---
 title: "Current Electricity Revision Notes"
 description: "Achieve IIT/JEE and NEET excellence with our comprehensive & concise current electricity study guide, expertly tailored for top exam results."
-category: "Biology"
+category: "Physics"
 keywords: "current electricity revision notes, Biology, Exam Compass"
 ---
 

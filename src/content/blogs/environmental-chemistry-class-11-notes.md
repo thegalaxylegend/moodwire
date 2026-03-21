@@ -1,7 +1,7 @@
 ---
 title: "Environmental Chemistry Class 11 Notes"
 description: "Get ahead in class 11 Biology with our comprehensive Environmental Chemistry notes, covering key concepts and exam prep strategies."
-category: "Biology"
+category: "Chemistry"
 keywords: "environmental chemistry class 11 notes, Biology, Exam Compass"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Sets Revision Notes"
 description: "Unlock JEE and NEET success with our comprehensive study guide on sets, covering key concepts and formulas for IIT JEE and NEET exam prep."
-category: "Chemistry"
+category: "Mathematics"
 keywords: "sets revision notes, Chemistry, Exam Compass"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Linear Inequalities Revision Notes"
 description: "Master linear inequalities with expert tips and shortcuts for JEE/NEET exams success - get started now."
-category: "Physics"
+category: "Mathematics"
 keywords: "linear inequalities revision notes, Physics, Exam Compass"
 ---
 

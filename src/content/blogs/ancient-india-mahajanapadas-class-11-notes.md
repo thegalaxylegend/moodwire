@@ -1,11 +1,11 @@
 ---
-title: "Ancient India: Mahajanapadas Class Class 11 Quick Revision Notes & Recap — Exam Compass"
+title: "Ancient India: Mahajanapadas Class 11 Quick Revision Notes & Recap — Exam Compass"
 description: "Unleash your exam acumen with quick revision keys: Learn Mahajanapadas history formulas, concise notes, and crucial exam tips to ace Class 11 exams and JEE/NEET."
-category: "Mathematics"
+category: "History"
 keywords: "ancient india mahajanapadas class 11 notes, Mathematics, Exam Compass"
 ---
 
-# Ancient India: Mahajanapadas Class Class 11 Quick Revision Notes & Recap — Exam Compass
+# Ancient India: Mahajanapadas Class 11 Quick Revision Notes & Recap — Exam Compass
 
 ![Ancient India: Mahajanapadas notes for students](/blog-images/ancient-india-mahajanapadas-class-11-notes.webp)
 

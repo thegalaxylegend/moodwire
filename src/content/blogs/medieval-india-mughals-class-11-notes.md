@@ -1,11 +1,11 @@
 ---
-title: "Medieval India: Mughals Class Class 11 Quick Revision Notes & Recap — Exam Compass"
+title: "Medieval India: Mughals Class 11 Quick Revision Notes & Recap — Exam Compass"
 description: "Boost your scores with our quick revision notes on Medieval India"
-category: "General"
+category: "History"
 keywords: "medieval india mughals class 11 notes, General, Exam Compass"
 ---
 
-# Medieval India: Mughals Class Class 11 Quick Revision Notes & Recap — Exam Compass
+# Medieval India: Mughals Class 11 Quick Revision Notes & Recap — Exam Compass
 
 ![Medieval India: Mughals notes for students](/blog-images/medieval-india-mughals-class-11-notes.webp)
 

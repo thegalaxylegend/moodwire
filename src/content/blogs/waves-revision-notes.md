@@ -1,7 +1,7 @@
 ---
 title: "Waves Revision Notes"
 description: "Master wave concepts for JEE & NEET with our concise study guide, covering types, superposition, interference, and more."
-category: "Biology"
+category: "Physics"
 keywords: "waves revision notes, Biology, Exam Compass"
 ---
 

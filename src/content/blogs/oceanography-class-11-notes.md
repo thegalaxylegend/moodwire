@@ -1,11 +1,11 @@
 ---
-title: "Oceanography Class Class 11 Quick Revision Notes & Recap — Exam Compass"
+title: "Oceanography Class 11 Quick Revision Notes & Recap — Exam Compass"
 description: "Boost your JEE/NEET prep with our concise oceanography quick revision notes, recapping key formulas & concepts for Class 11 Geography. Learn efficiently, achieve success!"
-category: "Physics"
+category: "Geography"
 keywords: "oceanography class 11 notes, Physics, Exam Compass"
 ---
 
-# Oceanography Class Class 11 Quick Revision Notes & Recap — Exam Compass
+# Oceanography Class 11 Quick Revision Notes & Recap — Exam Compass
 
 ![Oceanography notes for students](/blog-images/oceanography-class-11-notes.webp)
 

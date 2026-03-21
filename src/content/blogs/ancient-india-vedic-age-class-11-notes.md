@@ -1,11 +1,11 @@
 ---
-title: "Ancient India: Vedic Age Class Class 11 Quick Revision Notes & Recap — Exam Compass"
+title: "Ancient India: Vedic Age Class 11 Quick Revision Notes & Recap — Exam Compass"
 description: "Boost your scores in Class 11 board exams and JEE/NEET with our quick revision notes on Ancient India"
-category: "Mathematics"
+category: "History"
 keywords: "ancient india vedic age class 11 notes, Mathematics, Exam Compass"
 ---
 
-# Ancient India: Vedic Age Class Class 11 Quick Revision Notes & Recap — Exam Compass
+# Ancient India: Vedic Age Class 11 Quick Revision Notes & Recap — Exam Compass
 
 ![Ancient India: Vedic Age notes for students](/blog-images/ancient-india-vedic-age-class-11-notes.webp)
 

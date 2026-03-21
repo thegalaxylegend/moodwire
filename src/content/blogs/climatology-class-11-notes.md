@@ -1,11 +1,11 @@
 ---
-title: "Climatology Class Class 11 Quick Revision Notes & Recap — Exam Compass"
+title: "Climatology Class 11 Quick Revision Notes & Recap — Exam Compass"
 description: "Boost your Class 11 Geography score with quick climatology revision, key formulas, and concise notes for JEE/NEET exam success."
-category: "Chemistry"
+category: "Geography"
 keywords: "climatology class 11 notes, Chemistry, Exam Compass"
 ---
 
-# Climatology Class Class 11 Quick Revision Notes & Recap — Exam Compass
+# Climatology Class 11 Quick Revision Notes & Recap — Exam Compass
 
 ![Climatology notes for students](/blog-images/climatology-class-11-notes.webp)
 

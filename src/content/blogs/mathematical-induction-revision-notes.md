@@ -1,7 +1,7 @@
 ---
 title: "Mathematical Induction Revision Notes"
 description: "Boost your scores with concise Math induction notes. Master key concepts, problem-solving techniques & common JEE/NEET questions."
-category: "Physics"
+category: "Mathematics"
 keywords: "mathematical induction revision notes, Physics, Exam Compass"
 ---
 

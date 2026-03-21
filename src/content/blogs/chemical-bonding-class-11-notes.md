@@ -1,7 +1,7 @@
 ---
 title: "Chemical Bonding Class 11 Notes"
 description: "Ace JEE/NEET with comprehensive Class 11 Chemical Bonding notes, covering types, formation, and properties for ultimate exam preparation success."
-category: "Physics"
+category: "Chemistry"
 keywords: "chemical bonding class 11 notes, Physics, Exam Compass"
 ---
 

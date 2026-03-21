@@ -1,7 +1,7 @@
 ---
 title: "Hydrogen Class 11 Notes"
 description: "Unlock biology success with our comprehensive Hydrogen Class 11 notes - covering essentials, examples, and tips for top scores."
-category: "Biology"
+category: "Chemistry"
 keywords: "hydrogen class 11 notes, Biology, Exam Compass"
 ---
 

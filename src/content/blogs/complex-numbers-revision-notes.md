@@ -1,7 +1,7 @@
 ---
 title: "Complex Numbers Revision Notes"
 description: "Unlock complex numbers mastery with comprehensive revision notes for JEE/NEET exams success."
-category: "Physics"
+category: "Mathematics"
 keywords: "complex numbers revision notes, Physics, Exam Compass"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Straight Lines Revision Notes"
 description: "Achieve perfection in geometry with our concise straight lines notes designed specifically for JEE and NEET aspirants."
-category: "Physics"
+category: "Mathematics"
 keywords: "straight lines revision notes, Physics, Exam Compass"
 ---
 

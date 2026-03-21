@@ -1,7 +1,7 @@
 ---
 title: "States Of Matter Revision Notes"
 description: "Master the 3 states of matter with our concise JEE/NEET prep study guide covering solids, liquids, and gases."
-category: "Physics"
+category: "Chemistry"
 keywords: "states of matter revision notes, Physics, Exam Compass"
 ---
 

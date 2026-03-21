@@ -1,7 +1,7 @@
 ---
 title: "3d Geometry Intro Class 11 Notes"
 description: "Master 3D Geometry for Class 11 Physics with expert study notes, covering concepts and formulas in an intuitive and easy-to-understand format."
-category: "Physics"
+category: "Mathematics"
 keywords: "3d geometry intro class 11 notes, Physics, Exam Compass"
 ---
 

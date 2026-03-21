@@ -1,6 +1,6 @@
 ---
 title: "Organic Chemistry Basic Principles Class 11 Notes"
-description: "Here"
+description: "Quick Organic Chemistry Basic Principles Revision Notes & Recap for Class 11. Core concepts, isomers, and quick formulas."
 category: "Physics"
 keywords: "organic chemistry basic principles class 11 notes, Physics, Exam Compass"
 ---

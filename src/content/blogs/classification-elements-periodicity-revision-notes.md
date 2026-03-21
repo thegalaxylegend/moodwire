@@ -1,7 +1,7 @@
 ---
 title: "Classification Elements Periodicity Revision Notes"
 description: "Accelerate your JEE/NEET prep with our concise & comprehensive classification, elements, periodicity revision notes, tailored for your success."
-category: "Physics"
+category: "Chemistry"
 keywords: "classification elements periodicity revision notes, Physics, Exam Compass"
 ---
 

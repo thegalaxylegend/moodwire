@@ -1,7 +1,7 @@
 ---
 title: "Three Dimensional Geometry Revision Notes"
 description: "Unlock JEE/NEET success with our 3D Geometry study guide, covering key concepts and problem-solving strategies for a stronger maths foundation."
-category: "Physics"
+category: "Mathematics"
 keywords: "three dimensional geometry revision notes, Physics, Exam Compass"
 ---
 

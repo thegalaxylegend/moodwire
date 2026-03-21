@@ -1,11 +1,11 @@
 ---
-title: "Geomorphology Class Class 11 Quick Revision Notes & Recap — Exam Compass"
+title: "Geomorphology Class 11 Quick Revision Notes & Recap — Exam Compass"
 description: "Masters Geomorphology in minutes - Recap formulas, key concepts and shortcuts for quick revision in Class 11 Geography, ideal for JEE & NEET exam prep."
-category: "Physics"
+category: "Geography"
 keywords: "geomorphology class 11 notes, Physics, Exam Compass"
 ---
 
-# Geomorphology Class Class 11 Quick Revision Notes & Recap — Exam Compass
+# Geomorphology Class 11 Quick Revision Notes & Recap — Exam Compass
 
 ![Geomorphology notes for students](/blog-images/geomorphology-class-11-notes.webp)
 

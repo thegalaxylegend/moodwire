@@ -1,7 +1,7 @@
 ---
 title: "Equilibrium Revision Notes"
 description: "Boost JEE/NEET prep with concise equilibrium revision notes, covering Le Chatelier"
-category: "Physics"
+category: "Chemistry"
 keywords: "equilibrium revision notes, Physics, Exam Compass"
 ---
 
