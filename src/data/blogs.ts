@@ -722,6 +722,24 @@ export const blogs: Blog[] = [
         "image": "/blog-images/biological-classification-class-11-notes.webp"
     },
     {
+        "id": "constitutional-framework-class-11-notes",
+        "title": "Constitutional Framework Class 11 Quick Recap — MCQs, Key Points & PDF Download",
+        "description": "Get an instant Polity revision edge with key concepts, trick questions, and MCQs covered. Know the key points and ace Class 11 exams with our comprehensive guide plus free PDF download.",
+        "category": "General",
+        "date": "March 15, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/fallbacks/generic-study.webp"
+    },
+    {
+        "id": "dpsp-duties-class-11-notes",
+        "title": "DPSP & Duties Class 11 Quick Recap — MCQs, Key Points & PDF Download",
+        "description": "Master DPSP & Duties in 5 minutes: Get to know the Constitutional Obligations, Key Clauses and important Court Judgments with our expert guide & MCQs, key points, + free PDF download",
+        "category": "General",
+        "date": "March 15, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/fallbacks/generic-study.webp"
+    },
+    {
         "id": "environmental-chemistry-class-11-notes",
         "title": "Environmental Chemistry Class 11 Notes",
         "description": "Get ahead in class 11 Biology with our comprehensive Environmental Chemistry notes, covering key concepts and exam prep strategies.",
@@ -729,6 +747,24 @@ export const blogs: Blog[] = [
         "date": "March 15, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/environmental-chemistry-class-11-notes.webp"
+    },
+    {
+        "id": "federalism-class-11-notes",
+        "title": "Federalism Class 11 Quick Recap — MCQs, Key Points & PDF Download",
+        "description": "Boost your Polity Class 11 scores with our expert guide to Federalism. Learn key points, potential trap questions, and ace your exams with our concise notes and free PDF download including MCQs",
+        "category": "General",
+        "date": "March 15, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/fallbacks/generic-study.webp"
+    },
+    {
+        "id": "fundamental-rights-class-11-notes",
+        "title": "Fundamental Rights Class 11 Quick Recap — MCQs, Key Points & PDF Download",
+        "description": "Master Fundamental Rights in Polity with our quick revision guide. Stay ahead of Class 11 exams with trap questions, MCQs, key points, + free PDF download.",
+        "category": "General",
+        "date": "March 15, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/fallbacks/generic-study.webp"
     },
     {
         "id": "hydrocarbons-class-11-notes",
@@ -747,6 +783,24 @@ export const blogs: Blog[] = [
         "date": "March 15, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/hydrogen-class-11-notes.webp"
+    },
+    {
+        "id": "indian-geography-climate-class-11-notes",
+        "title": "Indian Geography: Climate Class 11 Quick Recap — MCQs, Key Points & PDF Download",
+        "description": "Master Indian Geography in 11th Class with our quick revision guide covering climate patterns, key geographical facts, and trap questions to ace your exams. MCQs, key points, + free PDF download",
+        "category": "Geography",
+        "date": "March 15, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/fallbacks/geography-terrain.webp"
+    },
+    {
+        "id": "indian-geography-physical-class-11-notes",
+        "title": "Indian Geography: Physical Class 11 Quick Recap — MCQs, Key Points & PDF Download",
+        "description": "Master Indian Geography with ease, Class 11 quick revision tips, trap questions to avoid & score big MCQs, key points + free PDF download",
+        "category": "Geography",
+        "date": "March 15, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/fallbacks/geography-terrain.webp"
     },
     {
         "id": "organic-chemistry-basic-principles-class-11-notes",

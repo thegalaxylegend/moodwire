@@ -1,7 +1,7 @@
 ---
 title: "Medieval India: Mughals Class 11 Quick Revision Notes & Recap — Exam Compass"
 description: "Boost your scores with our quick revision notes on Medieval India"
-category: "History"
+category: "General"
 keywords: "medieval india mughals class 11 notes, General, Exam Compass"
 ---
 
@@ -115,6 +115,9 @@ This code will create a table with the specified columns and rows, using the `ta
 ### Summary
 
 In this quick revision and recap, we covered the key aspects of the Mughal Empire, including its founding, notable rulers, administrative divisions, and revenue systems. We also discussed the core concepts, formulae tables, MCQs, and trap exceptions related to the Mughal Empire. By focusing on these key terms and concepts, you can develop a solid understanding of the Mughal Empire and its significance in medieval Indian history.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -1,7 +1,7 @@
 ---
 title: "3d Geometry Intro Class 11 Notes"
 description: "Master 3D Geometry for Class 11 Physics with expert study notes, covering concepts and formulas in an intuitive and easy-to-understand format."
-category: "Mathematics"
+category: "Physics"
 keywords: "3d geometry intro class 11 notes, Physics, Exam Compass"
 ---
 
@@ -115,6 +115,9 @@ Solution: A) $\frac{2}{\sqrt{14}}$
 ## Related Notes Links
 * [Vectors and Vector Operations](/blog/vectors-and-vector-operations)
 * [Plane Geometry and Equations of Planes](/blog/plane-geometry-and-equations-of-planes)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

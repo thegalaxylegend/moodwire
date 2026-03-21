@@ -1,7 +1,7 @@
 ---
 title: "Work Energy And Power Revision Notes"
 description: "Boost your exam prep with comprehensive work energy & power revision notes, perfect for JEE & NEET students."
-category: "Physics"
+category: "Biology"
 keywords: "work energy and power revision notes, Biology, Exam Compass"
 ---
 
@@ -124,6 +124,9 @@ Energy is the invisible currency of the universe. By shifting our perspective fr
 
 ---
 **Reference:** [Journal of Energy and Power Technology](https://www.lidsen.com/journals/jept)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -1,7 +1,7 @@
 ---
 title: "The P Block Elements 11 Class 11 Notes"
 description: "Unlock the P Block Elements with our comprehensive Class 11 study guide, covering essential notes and concepts for Physics exams with ease."
-category: "Chemistry"
+category: "Physics"
 keywords: "the p block elements 11 class 11 notes, Physics, Exam Compass"
 ---
 
@@ -111,6 +111,9 @@ Solution: B) 150 pm
 * [Periodic Table Notes for Class 11](/blog/periodic-table-class-11-notes)
 
 Note: The word count for this post is 2476 words, which meets the minimum word count requirement for chapter revision notes.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -1,7 +1,7 @@
 ---
 title: "Moving Charges Magnetism Revision Notes"
 description: "Boost JEE/NEET prep with our detailed moving charges magnetism notes, covering key concepts, formulas, and practice problems."
-category: "Physics"
+category: "Biology"
 keywords: "moving charges magnetism revision notes, Biology, Exam Compass"
 ---
 
@@ -134,6 +134,9 @@ Moving Charges and Magnetism represent the bridge between pure electricity and t
 
 ---
 **Reference:** [CERN: The Large Hadron Collider (Bending Charges at Peak Energy)](https://home.cern)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

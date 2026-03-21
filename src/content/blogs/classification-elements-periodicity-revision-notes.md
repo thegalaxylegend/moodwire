@@ -1,7 +1,7 @@
 ---
 title: "Classification Elements Periodicity Revision Notes"
 description: "Accelerate your JEE/NEET prep with our concise & comprehensive classification, elements, periodicity revision notes, tailored for your success."
-category: "Chemistry"
+category: "Physics"
 keywords: "classification elements periodicity revision notes, Physics, Exam Compass"
 ---
 
@@ -261,6 +261,9 @@ NCERT asks "Explain the trend in Ionization Enthalpy across a period." Always me
 
 ---
 *Last Updated: March 14, 2026*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

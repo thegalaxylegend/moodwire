@@ -1,7 +1,7 @@
 ---
 title: "Medieval India: Delhi Sultanate Class 11 Quick Revision Notes & Recap — Exam Compass"
 description: "Crack your Class 11 History exams with ease. Quickly revise Delhi Sultanate in Medieval India with concise notes, formulas, and key recap points for JEE/NEET success."
-category: "History"
+category: "General"
 keywords: "medieval india delhi sultanate class 11 notes, General, Exam Compass"
 ---
 
@@ -104,6 +104,9 @@ By using these equations, we can represent the Delhi Sultanate as a sum of its c
 The Delhi Sultanate was a significant period in Indian history, marked by the rise of Muslim rule and the development of a new administrative system. The Delhi Sultanate was influenced by the **Turkish** and **Persian** cultures, and saw significant developments in **architecture**, **literature**, and **art**. The Delhi Sultanate also played a significant role in the **trade and commerce** of the Indian subcontinent, with trade links with Central Asia, the Middle East, and Europe.
 
 By understanding the historical context of the Delhi Sultanate, we can gain a deeper insight into the cultural, social, and economic developments that took place during this period. This can help us to better appreciate the significance of the Delhi Sultanate in Indian history, and its contributions to the development of Indian culture and society.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

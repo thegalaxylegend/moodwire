@@ -1,7 +1,7 @@
 ---
 title: "Ancient India: Indus Valley Class 11 Quick Revision Notes & Recap — Exam Compass"
 description: "Master Ancient India"
-category: "History"
+category: "General"
 keywords: "ancient india indus valley class 11 notes, General, Exam Compass"
 ---
 
@@ -105,6 +105,9 @@ The Indus Valley Civilization is significant not only because of its advanced ur
 The Indus Valley Civilization has had a lasting impact on the cultural heritage of the Indian subcontinent. The civilization's **art**, **architecture**, and **literature** have influenced the development of later Indian cultures, and its **traditions** and **customs** continue to be celebrated and observed today.
 
 ## 
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -69,3 +69,6 @@ By applying the 80/20 rule, you transform your NEET preparation from an exhausti
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

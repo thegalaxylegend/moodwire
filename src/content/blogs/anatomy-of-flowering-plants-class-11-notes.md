@@ -129,3 +129,6 @@ For more information on plant anatomy, check out our posts on [Plant Physiology]
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

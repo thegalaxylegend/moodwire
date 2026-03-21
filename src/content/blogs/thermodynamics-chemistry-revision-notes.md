@@ -1,7 +1,7 @@
 ---
 title: "Thermodynamics Chemistry Revision Notes"
 description: "Ace your JEE/NEET chemistry exam with this comprehensive thermodynamics study guide, covering key concepts and formulas for a strong foundation."
-category: "Chemistry"
+category: "Physics"
 keywords: "thermodynamics chemistry revision notes, Physics, Exam Compass"
 ---
 
@@ -270,6 +270,9 @@ CBSE loves "Derive the Gibbs-Helmholtz equation" as a 5-mark question. Write the
 
 ---
 *Last Updated: March 13, 2026*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

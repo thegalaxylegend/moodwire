@@ -1,7 +1,7 @@
 ---
 title: "Medieval India: Bhakti & Sufi Class 11 Quick Revision Notes & Recap — Exam Compass"
 description: "Boost your class 11 history quick revision with our concise formula recap notes on Medieval India"
-category: "History"
+category: "General"
 keywords: "medieval india bhakti sufi class 11 notes, General, Exam Compass"
 ---
 
@@ -112,6 +112,9 @@ Remember, a strong foundation in history can significantly enhance your understa
 - **Practice answering MCQs** to test your knowledge and identify areas for improvement.
 
 By following these tips and staying committed to your studies, you'll be well on your way to developing a deep understanding of Medieval India and its significance in the broader context of Indian history.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

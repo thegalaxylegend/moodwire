@@ -1,7 +1,7 @@
 ---
 title: "Environmental Chemistry Class 11 Notes"
 description: "Get ahead in class 11 Biology with our comprehensive Environmental Chemistry notes, covering key concepts and exam prep strategies."
-category: "Chemistry"
+category: "Biology"
 keywords: "environmental chemistry class 11 notes, Biology, Exam Compass"
 ---
 
@@ -107,6 +107,9 @@ Last Updated: March 15, 2026
 
 ## Conclusion
 Environmental chemistry is [the study of the chemical and biochemical phenomena that occur in the environment](https://en.wikipedia.org/wiki/Environmental_chemistry). It involves the study of the sources, reactions, transport, and effects of chemical species in the environment. The main branches of environmental chemistry are air, water, and soil pollution. By understanding the concepts of environmental chemistry, we can develop sustainable solutions for environmental problems and mitigate the impact of human activities on the environment.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

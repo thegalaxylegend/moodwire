@@ -1,7 +1,7 @@
 ---
 title: "Straight Lines Revision Notes"
 description: "Achieve perfection in geometry with our concise straight lines notes designed specifically for JEE and NEET aspirants."
-category: "Mathematics"
+category: "Physics"
 keywords: "straight lines revision notes, Physics, Exam Compass"
 ---
 
@@ -106,6 +106,9 @@ If the origin (0, 0) is shifted to a new point (h, k) without changing the direc
 Straight lines are the ABCs of coordinate geometry. By mastering the various forms of equations and focusing on the relationship between slopes, you can solve any geometry problem involving linear paths. Always sketch your axes first and remember that perpendicular slopes are negative reciprocals! Keep your distance calculations precise and your intercepts well-defined.
 
 ---
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

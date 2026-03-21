@@ -180,3 +180,6 @@ Mineral nutrition is the study of the essential elements required by plants for 
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

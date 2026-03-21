@@ -90,3 +90,6 @@ Instead of quitting, try "Micro-resting." Stand up for 30 seconds, stretch, and 
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

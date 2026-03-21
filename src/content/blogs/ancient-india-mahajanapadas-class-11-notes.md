@@ -1,7 +1,7 @@
 ---
 title: "Ancient India: Mahajanapadas Class 11 Quick Revision Notes & Recap — Exam Compass"
 description: "Unleash your exam acumen with quick revision keys: Learn Mahajanapadas history formulas, concise notes, and crucial exam tips to ace Class 11 exams and JEE/NEET."
-category: "History"
+category: "Mathematics"
 keywords: "ancient india mahajanapadas class 11 notes, Mathematics, Exam Compass"
 ---
 
@@ -84,6 +84,9 @@ While historical data doesn't typically involve mathematical formulae, understan
 - **Urbanization and trade were key features** of the Mahajanapadas, contributing to their economic and cultural development.
 
 Understanding these aspects of the Mahajanapadas provides a comprehensive view of ancient India's political, social, and economic landscape, which is essential for any student of history or those preparing for competitive exams that include history as a component. The interplay between political structures, economic developments, and religious movements during this period laid the groundwork for the complex and diverse society that India is today.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

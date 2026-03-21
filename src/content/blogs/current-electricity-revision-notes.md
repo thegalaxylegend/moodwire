@@ -1,7 +1,7 @@
 ---
 title: "Current Electricity Revision Notes"
 description: "Achieve IIT/JEE and NEET excellence with our comprehensive & concise current electricity study guide, expertly tailored for top exam results."
-category: "Physics"
+category: "Biology"
 keywords: "current electricity revision notes, Biology, Exam Compass"
 ---
 
@@ -150,6 +150,9 @@ Current Electricity is the foundation of energy conversion and electronics. By m
 
 ---
 **Reference:** [IEEE Spectrum: Electrotechnology News and Analysis](https://spectrum.ieee.org)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

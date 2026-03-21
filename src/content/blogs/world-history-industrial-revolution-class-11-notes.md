@@ -1,7 +1,7 @@
 ---
 title: "World History: Industrial Revolution Class 11 Quick Revision Notes & Recap — Exam Compass"
 description: "Crunch class 11 history revision in minutes - Industrial revolution quick notes & formulas for JEE/NEET, ace World History in no time."
-category: "History"
+category: "Physics"
 keywords: "world history industrial revolution class 11 notes, Physics, Exam Compass"
 ---
 
@@ -475,6 +475,9 @@ I, Ayush, have these final reflections and thoughts on the Industrial Revolution
 * **The Industrial Revolution was a significant event in world history**: The Industrial Revolution was a significant event in world history that transformed the way goods were produced, transported, and consumed.
 * **It had far-reaching impacts on the economy, society, and politics of Europe and beyond**: The Industrial Revolution had far-reaching impacts on the economy, society, and politics of Europe and beyond, and its legacy can still be seen today.
 * **I am excited to continue
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

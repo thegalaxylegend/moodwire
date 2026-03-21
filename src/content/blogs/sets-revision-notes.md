@@ -1,7 +1,7 @@
 ---
 title: "Sets Revision Notes"
 description: "Unlock JEE and NEET success with our comprehensive study guide on sets, covering key concepts and formulas for IIT JEE and NEET exam prep."
-category: "Mathematics"
+category: "Chemistry"
 keywords: "sets revision notes, Chemistry, Exam Compass"
 ---
 
@@ -110,6 +110,9 @@ The set can be written as the interval **(-4, 6]**.
 Sets are more than just lists of numbers; they are the building blocks of logical thought in mathematics. By mastering the representations, types, and operations on sets, you gain the clarity needed to tackle more advanced topics like probability and calculus. Keep your Venn diagrams clear and your subsets well-defined!
 
 ---
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -1,7 +1,7 @@
 ---
 title: "Relations Functions Revision Notes"
 description: "Master relations and functions for JEE/NEET with our concise revision notes on concepts, formulas, and practice problems."
-category: "Mathematics"
+category: "Chemistry"
 keywords: "relations functions revision notes, Chemistry, Exam Compass"
 ---
 
@@ -103,6 +103,9 @@ If f and g are two real functions:
 Functions are the heartbeat of Calculus and higher mathematics. By distinguishing between simple relations and precise functions, and by internalizing the graphs of "parent" functions, you build a mental map of mathematical behavior. Always check your domain constraints and visualize your ranges!
 
 ---
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

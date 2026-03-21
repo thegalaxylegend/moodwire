@@ -1,7 +1,7 @@
 ---
 title: "Three Dimensional Geometry Revision Notes"
 description: "Unlock JEE/NEET success with our 3D Geometry study guide, covering key concepts and problem-solving strategies for a stronger maths foundation."
-category: "Mathematics"
+category: "Physics"
 keywords: "three dimensional geometry revision notes, Physics, Exam Compass"
 ---
 
@@ -106,6 +106,9 @@ The centroid of a triangle with vertices (x₁, y₁, z₁), (x₂, y₂, z₂),
 3D Geometry is the gateway to understanding spatial relationships. By mastering the octant signs and adapting the distance and section formulas from 2D to 3D, you build the mental framework required for advanced physics and engineering. Always visualize the point relative to the coordinate planes, and remember that x, y, or z being zero tells you exactly which plane you're on! Keep your spatial orientation clear.
 
 ---
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

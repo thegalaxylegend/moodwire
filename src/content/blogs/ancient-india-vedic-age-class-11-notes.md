@@ -1,7 +1,7 @@
 ---
 title: "Ancient India: Vedic Age Class 11 Quick Revision Notes & Recap — Exam Compass"
 description: "Boost your scores in Class 11 board exams and JEE/NEET with our quick revision notes on Ancient India"
-category: "History"
+category: "Mathematics"
 keywords: "ancient india vedic age class 11 notes, Mathematics, Exam Compass"
 ---
 
@@ -84,6 +84,9 @@ To quickly revise the Vedic Age, focus on the following:
 - **Janapadas**: Small kingdoms or territories, emerged during the Later Vedic Period.
 
 By following these quick revision tips and understanding the core concepts, you can easily recap the Vedic Age and perform well in your examinations.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

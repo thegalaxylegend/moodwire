@@ -1,7 +1,7 @@
 ---
 title: "Structure Of Atom Revision Notes"
 description: "Master atomic structure with our concise JEE/NEET study guide covering subatomic particles, electron configuration, and more."
-category: "Chemistry"
+category: "Physics"
 keywords: "structure of atom revision notes, Physics, Exam Compass"
 ---
 
@@ -285,6 +285,9 @@ For your school exams, always draw the Rydberg series energy level diagram ($n=1
 
 ---
 *Last Updated: March 13, 2026*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

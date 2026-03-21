@@ -123,3 +123,6 @@ Gravitation is the foundational law of the macro-universe. By understanding how 
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

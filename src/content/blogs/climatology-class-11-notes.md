@@ -1,7 +1,7 @@
 ---
 title: "Climatology Class 11 Quick Revision Notes & Recap — Exam Compass"
 description: "Boost your Class 11 Geography score with quick climatology revision, key formulas, and concise notes for JEE/NEET exam success."
-category: "Geography"
+category: "Chemistry"
 keywords: "climatology class 11 notes, Chemistry, Exam Compass"
 ---
 
@@ -118,6 +118,9 @@ Here is a concept map to help you visualize the relationships between different 
 ```
 
 By mastering these core concepts, formulae, and climatic factors, you'll be well-prepared to tackle any question related to climatology in your Class 11 Geography exams and JEE/NEET entrance exams. Remember to practice regularly and stay updated with the latest information to achieve success.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

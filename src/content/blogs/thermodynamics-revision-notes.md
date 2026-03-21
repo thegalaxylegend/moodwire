@@ -1,7 +1,7 @@
 ---
 title: "Thermodynamics Revision Notes"
 description: "Master thermodynamics with our comprehensive JEE/NEET revision notes and ace your exams with confidence, today."
-category: "Physics"
+category: "Biology"
 keywords: "thermodynamics revision notes, Biology, Exam Compass"
 ---
 
@@ -107,6 +107,9 @@ Thermodynamics is the science of limits. By understanding the mathematical proof
 
 ---
 **Reference:** [Journal of Thermal Science and Engineering](https://www.journals.elsevier.com)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

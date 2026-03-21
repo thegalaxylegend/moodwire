@@ -1,7 +1,7 @@
 ---
 title: "Art & Culture: Architecture Class 11 Quick Revision Notes & Recap — Exam Compass"
 description: "Crash revision guide for Class 11 History of Architecture: Get instant recall with key formulas, concise notes, and a quick recap for JEE/NEET success."
-category: "History"
+category: "Chemistry"
 keywords: "art culture architecture class 11 notes, Chemistry, Exam Compass"
 ---
 
@@ -101,6 +101,9 @@ When revising architecture, watch out for these common trap exceptions:
 * **Bauhaus vs. International Style**: While both styles emphasize functionality and simplicity, Bauhaus is characterized by a more experimental and avant-garde approach, whereas International Style is marked by a more minimalist and industrial aesthetic.
 
 By focusing on these key concepts, formulae, and trap exceptions, you'll be well on your way to acing your JEE/NEET exams and developing a deeper appreciation for the world of architecture. As I, Ayush, continue to explore the fascinating world of art and culture, I'm reminded that architecture is not just about buildings - it's about the people, cultures, and histories that shape our built environment.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

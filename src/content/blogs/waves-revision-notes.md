@@ -1,7 +1,7 @@
 ---
 title: "Waves Revision Notes"
 description: "Master wave concepts for JEE & NEET with our concise study guide, covering types, superposition, interference, and more."
-category: "Physics"
+category: "Biology"
 keywords: "waves revision notes, Biology, Exam Compass"
 ---
 
@@ -186,6 +186,9 @@ Waves are the signature of the universe's energy. By mastering the mathematical 
 
 ---
 **Reference:** [The Physics Classroom: Sound Waves and Music](https://www.physicsclassroom.com/class/sound)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

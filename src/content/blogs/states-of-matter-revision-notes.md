@@ -1,7 +1,7 @@
 ---
 title: "States Of Matter Revision Notes"
 description: "Master the 3 states of matter with our concise JEE/NEET prep study guide covering solids, liquids, and gases."
-category: "Chemistry"
+category: "Physics"
 keywords: "states of matter revision notes, Physics, Exam Compass"
 ---
 
@@ -271,6 +271,9 @@ In CBSE boards, always draw the $PV$ vs $P$ graph or the $Z$ vs $P$ graph if the
 
 ---
 *Last Updated: March 13, 2026*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
