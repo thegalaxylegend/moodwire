@@ -11,6 +11,8 @@ keywords: "thermodynamics chemistry revision notes, Physics, Exam Compass"
 
 # Thermodynamics Chemistry Revision Notes
 
+# Thermodynamics Chemistry Revision Notes
+
 # Chemical Thermodynamics — Enthalpy, Entropy & Gibbs Energy Tricks JEE NEET 2026
 
 
@@ -278,6 +280,9 @@ CBSE loves "Derive the Gibbs-Helmholtz equation" as a 5-mark question. Write the
 
 ---
 *Last Updated: March 13, 2026*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

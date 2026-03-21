@@ -11,6 +11,8 @@ keywords: "cuet 2026 master strategy, Biology, Exam Compass"
 
 # CUET 2026 Master Strategy: Niche Domains & Preparation Guide
 
+# CUET 2026 Master Strategy: Niche Domains & Preparation Guide
+
 # CUET 2026 Master Strategy: Mastering Niche Domains & The Foundation Guide
 
 The year 2026 marks a paradigm shift in the Indian higher education landscape. Gone are the days when a 98% in your Board exams was the golden ticket to prestigious institutions like Delhi University (DU), BHU, or JNU. Today, the **Common University Entrance Test (CUET)** stands as the sole gateway to India's premier central universities. This transition has redefined how students approach their high school years, demanding a broader focus beyond traditional rote learning. I’m Ayush, and at Exam Compass, we’ve analyzed the data from previous cycles to build a roadmap that ensures you don't just participate but dominate the competition.
@@ -73,6 +75,9 @@ Most major universities, including Delhi University, require you to appear only 
 
 ### 3. How many subjects should I ideally pick for CUET?
 To maximize your eligibility across various courses and universities, we recommend choosing one Language, three or four Domain subjects, and the General Test. This combination (total 5–6 subjects) ensures you meet the criteria for a wide range of degrees, from specialized honors courses to multi-disciplinary vocational programs.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

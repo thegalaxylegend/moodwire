@@ -11,6 +11,8 @@ keywords: "permutations combinations revision notes, Mathematics, Exam Compass"
 
 # Permutations Combinations Revision Notes
 
+# Permutations Combinations Revision Notes
+
 # Permutations and Combinations Class 11 Math Quick Recall / Short Notes (2026-27)
 
 
@@ -111,6 +113,9 @@ A combination is a selection of items where the order of selection does not matt
 Permutations and Combinations transform the way we see complexity. By mastering the core formulas of nPr and nCr, and understanding when order matters, you gain the power to calculate outcomes in everything from poker hands to the number of ways to sequence DNA. Keep your factorials small and your logic sharp!
 
 ---
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

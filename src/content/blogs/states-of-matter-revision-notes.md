@@ -11,6 +11,8 @@ keywords: "states of matter revision notes, Physics, Exam Compass"
 
 # States Of Matter Revision Notes
 
+# States Of Matter Revision Notes
+
 # States of Matter — Gas Laws & Real Gases JEE NEET 2026 Tricks
 
 
@@ -279,6 +281,9 @@ In CBSE boards, always draw the $PV$ vs $P$ graph or the $Z$ vs $P$ graph if the
 
 ---
 *Last Updated: March 13, 2026*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

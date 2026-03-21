@@ -11,6 +11,8 @@ keywords: "current electricity revision notes, Biology, Exam Compass"
 
 # Current Electricity Revision Notes
 
+# Current Electricity Revision Notes
+
 # Current Electricity Class 12 Physics Quick Recall Sheet (Short Notes 2025)
 
 
@@ -158,6 +160,9 @@ Current Electricity is the foundation of energy conversion and electronics. By m
 
 ---
 **Reference:** [IEEE Spectrum: Electrotechnology News and Analysis](https://spectrum.ieee.org)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

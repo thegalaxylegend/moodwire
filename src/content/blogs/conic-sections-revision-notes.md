@@ -11,6 +11,8 @@ keywords: "conic sections revision notes, Mathematics, Exam Compass"
 
 # Conic Sections Revision Notes
 
+# Conic Sections Revision Notes
+
 # Conic Sections Class 11 Math Quick Recall / Short Notes (2026-27)
 
 
@@ -117,6 +119,9 @@ The eccentricity **e** is the ratio of the distance from the focus to the distan
 Conic sections bring geometry to life by connecting algebraic equations with physical curves. By mastering the standard forms and the role of eccentricity, you bridge the gap between simple straight lines and the complex paths of the universe. Always identify your orientation (horizontal vs. vertical) first, and remember that for a parabola, e is always exactly 1! Keep your foci clear and your axes consistent.
 
 ---
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

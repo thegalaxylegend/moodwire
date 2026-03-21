@@ -11,6 +11,8 @@ keywords: "moving charges magnetism revision notes, Biology, Exam Compass"
 
 # Moving Charges Magnetism Revision Notes
 
+# Moving Charges Magnetism Revision Notes
+
 # Moving Charges and Magnetism Class 12 Physics Quick Recall (Short Notes 2025)
 
 
@@ -142,6 +144,9 @@ Moving Charges and Magnetism represent the bridge between pure electricity and t
 
 ---
 **Reference:** [CERN: The Large Hadron Collider (Bending Charges at Peak Energy)](https://home.cern)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

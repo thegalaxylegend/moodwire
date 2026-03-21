@@ -11,6 +11,8 @@ keywords: "jee mains high weightage chapters, Physics, Exam Compass"
 
 # JEE Mains High Weightage Low Effort Chapters 2026 Guide
 
+# JEE Mains High Weightage Low Effort Chapters 2026 Guide
+
 # JEE Mains High Weightage Low Effort Chapters 2026: The Sniper Strategy
 
 If you're a JEE aspirant, you've probably heard the advice: "Complete the entire syllabus." I'm here to tell you that’s a lie. In a 3-hour exam with a 300-mark ceiling, trying to master everything is the fastest way to master nothing. 
@@ -81,6 +83,9 @@ Mathematically, yes. It takes significant time to master and usually yields only
 ### 3. Which subject is the easiest to score in?
 Chemistry is statistically the easiest and most scorable. Many questions are direct or semi-direct from NCERT. If you know the concept, you get the marks quickly, leaving more time for the calculations required in Physics and Math.
  become your strongest area.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

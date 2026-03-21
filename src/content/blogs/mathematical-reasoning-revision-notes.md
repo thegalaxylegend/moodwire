@@ -11,6 +11,8 @@ keywords: "mathematical reasoning revision notes, Physics, Exam Compass"
 
 # Mathematical Reasoning Revision Notes
 
+# Mathematical Reasoning Revision Notes
+
 # Mathematical Reasoning Class 11 Math Quick Recall / Short Notes (2026-27)
 
 
@@ -104,6 +106,9 @@ Yes, it is a statement because it is a mathematical fact that can be classified 
 Mathematical Reasoning is the "grammar" of mathematics. It ensures that our conclusions follow logically from our assumptions. By mastering the art of negation, implications, and contrapositives, you gain the ability to spot logical errors and construct airtight proofs. Remember: in math, there is no "maybe"—only the clarity of truth and logic!
 
 ---
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

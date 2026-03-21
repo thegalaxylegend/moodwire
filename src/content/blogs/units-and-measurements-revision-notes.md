@@ -11,6 +11,8 @@ keywords: "units and measurements revision notes, Physics, Exam Compass"
 
 # Units And Measurements Revision Notes
 
+# Units And Measurements Revision Notes
+
 # Units and Measurement Class 11 Physics Quick Recall / Short Notes (2026-27)
 
 
@@ -152,6 +154,9 @@ Units and Measurements are not just "entry-level" topics; they are the filter th
 
 ---
 **Reference:** [BIPM: The International System of Units](https://www.bipm.org/en/measurement-units/)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

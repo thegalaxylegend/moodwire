@@ -11,6 +11,8 @@ keywords: "biomolecules class 11 notes, Biology, Exam Compass"
 
 # Biomolecules Class 11 Notes
 
+# Biomolecules Class 11 Notes
+
 ![Biomolecules Class 11 Notes Notes](/blog-images/biomolecules-class-11-notes.webp)
 ### Biomolecules Class 11 Notes
 #### Quick Recall Box
@@ -122,6 +124,9 @@ I remember when I was preparing for my JEE exam, I used to get confused between 
 
 ### Last Updated Date
 Last Updated: March 16, 2026
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -11,6 +11,8 @@ keywords: "waves revision notes, Biology, Exam Compass"
 
 # Waves Revision Notes
 
+# Waves Revision Notes
+
 # Waves Class 11 Physics Quick Recall Sheet (Short Notes 2026-27)
 
 
@@ -194,6 +196,9 @@ Waves are the signature of the universe's energy. By mastering the mathematical 
 
 ---
 **Reference:** [The Physics Classroom: Sound Waves and Music](https://www.physicsclassroom.com/class/sound)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

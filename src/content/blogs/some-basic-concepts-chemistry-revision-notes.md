@@ -11,6 +11,8 @@ keywords: "some basic concepts chemistry revision notes, Chemistry, Exam Compass
 
 # Some Basic Concepts Chemistry Revision Notes
 
+# Some Basic Concepts Chemistry Revision Notes
+
 # Some Basic Concepts of Chemistry — Mole Concept & Stoichiometry Shortcuts for JEE NEET
 
 
@@ -262,6 +264,9 @@ For your school paper, always show unit conversions step-by-step. Write "$M = \t
 
 ---
 *Last Updated: March 13, 2026*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

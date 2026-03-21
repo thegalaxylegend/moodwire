@@ -11,6 +11,8 @@ keywords: "organic chemistry basic principles class 11 notes, Physics, Exam Comp
 
 # Organic Chemistry Basic Principles Class 11 Notes
 
+# Organic Chemistry Basic Principles Class 11 Notes
+
 # Organic Chemistry: Basic Principles
 ## Quick Recall Box
 * Organic chemistry is the study of carbon-containing compounds
@@ -134,6 +136,9 @@ Last Updated: March 15, 2026
 * Chemical reactions involve the breaking and forming of chemical bonds
 * Stereochemistry plays a vital role in understanding the structure and properties of organic compounds
 </div>
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

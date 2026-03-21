@@ -11,6 +11,8 @@ keywords: "electric charges fields revision notes, Physics, Exam Compass"
 
 # Electric Charges Fields Revision Notes
 
+# Electric Charges Fields Revision Notes
+
 # Electric Charges and Fields Class 12 Physics Quick Recall (Short Notes 2025)
 
 
@@ -177,6 +179,9 @@ The field of Electrostatics is the foundation upon which all modern technologyâ€
 
 ---
 **Reference:** [MIT OpenCourseWare: Electromagnetism](https://ocw.mit.edu)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -11,6 +11,8 @@ keywords: "mechanical properties of fluids revision notes, Physics, Exam Compass
 
 # Mechanical Properties Of Fluids Revision Notes
 
+# Mechanical Properties Of Fluids Revision Notes
+
 # Mechanical Properties of Fluids Class 11 Physics Quick Recall (Short Notes 2026-27)
 
 
@@ -131,6 +133,9 @@ The physics of fluids is the physics of flow—from the blood in our veins to th
 
 ---
 **Reference:** [Physics Classroom: Fluid Mechanics](https://www.physicsclassroom.com/class/fluids)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

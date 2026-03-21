@@ -11,6 +11,8 @@ keywords: "kinetic theory revision notes, Physics, Exam Compass"
 
 # Kinetic Theory Revision Notes
 
+# Kinetic Theory Revision Notes
+
 # Kinetic Theory of Gases Class 11 Physics Quick Recall (Short Notes 2026-27)
 
 
@@ -125,6 +127,9 @@ The Kinetic Theory of Gases transforms our view of matter from static substances
 
 ---
 **Reference:** [Encyclopaedia Britannica: Kinetic Theory of Gases](https://www.britannica.com/science/kinetic-theory-of-gases)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

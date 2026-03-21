@@ -11,6 +11,8 @@ keywords: "motion in a plane revision notes, Physics, Exam Compass"
 
 # Motion In A Plane Revision Notes
 
+# Motion In A Plane Revision Notes
+
 # Motion in a Plane Class 11 Physics Quick Recall Sheet (Short Notes 2026-27)
 
 
@@ -138,6 +140,9 @@ Motion in a Plane is the first time we truly see the vector nature of the univer
 
 ---
 **Reference:** [HyperPhysics: 2D Kinematics and Vectors](http://hyperphysics.phy-astr.gsu.edu/hbase/vect.html)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
