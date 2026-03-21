@@ -7,12 +7,6 @@ keywords: "classification elements periodicity revision notes, Physics, Exam Com
 
 # Classification Elements Periodicity Revision Notes
 
-# Classification Elements Periodicity Revision Notes
-
-# Classification of Elements & Periodicity — Periodic Trends Tricks JEE NEET 2026
-
-
-
 ![Periodic Table trends diagram for JEE NEET 2026](/blog-images/classification-elements-periodicity-revision.webp)
 
 <div class="quick-summary">
@@ -267,9 +261,6 @@ NCERT asks "Explain the trend in Ionization Enthalpy across a period." Always me
 
 ---
 *Last Updated: March 14, 2026*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

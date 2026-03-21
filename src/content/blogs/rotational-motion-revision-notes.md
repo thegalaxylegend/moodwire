@@ -7,12 +7,6 @@ keywords: "rotational motion revision notes, Physics, Exam Compass"
 
 # Rotational Motion Revision Notes
 
-# Rotational Motion Revision Notes
-
-# Rotational Motion Class 11 Physics Quick Recall Sheet (Short Notes 2026-27)
-
-
-
 ![Engineering Visual: Rotational Dynamics and Gyroscopic Motion](/blog-images/rotational-motion-revision.webp)
 
 > [!TIP]
@@ -125,9 +119,6 @@ Rotational Motion is the ultimate test of a physicist's understanding of symmetr
 
 ---
 **Reference:** [Physics World: The Secrets of Angular Momentum](https://physicsworld.com)
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -7,12 +7,6 @@ keywords: "work energy and power revision notes, Biology, Exam Compass"
 
 # Work Energy And Power Revision Notes
 
-# Work Energy And Power Revision Notes
-
-# Work, Energy and Power Class 11 Physics Quick Recall Sheet (Short Notes 2026-27)
-
-
-
 ![Work, Energy, and Power Visuals](/blog-images/work-energy-power-revision.webp)
 
 > [!TIP]
@@ -130,9 +124,6 @@ Energy is the invisible currency of the universe. By shifting our perspective fr
 
 ---
 **Reference:** [Journal of Energy and Power Technology](https://www.lidsen.com/journals/jept)
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

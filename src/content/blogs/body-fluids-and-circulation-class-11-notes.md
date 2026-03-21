@@ -7,10 +7,6 @@ keywords: "body fluids and circulation class 11 notes, Biology, Exam Compass"
 
 # Body Fluids and Circulation Class 11 Notes — Exam Compass
 
-# Body Fluids and Circulation Class 11 Notes — Exam Compass
-
-# Body Fluids and Circulation Class 11 Notes for Biology
-
 ![Body Fluids and Circulation Class 11 Notes — Exam Compass Notes](/blog-images/body-fluids-and-circulation-class-11-notes.webp)
 
 *Last Updated: March 16, 2026*
@@ -499,12 +495,6 @@ Moreover, the use of LaTeX can help to create a wide range of visual aids, inclu
 The use of LaTeX can also help to create equations and formulas, such as the equation for blood pressure, and can be used to create a wide range of mathematical expressions. 
 
 In addition to its use in creating visual aids and
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

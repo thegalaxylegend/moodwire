@@ -2,10 +2,10 @@
 title: "Ray Optics Class Class 12 Quick Revision Notes & Recap — Exam Compass"
 description: "Master Ray Optics in minutes with our quick revision guide - recap key formulas, important notes, and tips for JEE/NEET success now!"
 category: "Physics"
-keywords: "Ray Optics quick revision, Ray Optics recap notes, class Class 12 Physics summary, JEE NEET quick notes, Exam Compass"
+keywords: "ray optics class 12 quick revision notes, Physics, Exam Compass"
 ---
 
-# Ray Optics Class 12 Notes for Physics
+# Ray Optics Class Class 12 Quick Revision Notes & Recap — Exam Compass
 
 ![Ray Optics notes for students](/blog-images/ray-optics-class-12-quick-revision-notes.webp)
 

@@ -7,12 +7,6 @@ keywords: "complex numbers revision notes, Physics, Exam Compass"
 
 # Complex Numbers Revision Notes
 
-# Complex Numbers Revision Notes
-
-# Complex Numbers and Quadratic Equations Class 11 Math Quick Recall / Short Notes (2026-27)
-
-
-
 ![Beyond the Real: The World of Complex Numbers](/blog-images/complex-numbers-revision.webp)
 
 > [!TIP]
@@ -110,9 +104,6 @@ In earlier classes, we said D < 0 means "No real roots." Now, we find complex ro
 Complex numbers expand your mathematical toolkit to include rotation and two-dimensional numbers. By mastering the Argand plane and the algebra of 'i', you prepare yourself for advanced topics in physics and engineering. Remember, a complex number is just a vector in a different language!
 
 ---
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -7,9 +7,6 @@ keywords: "respiration in plants class 11 notes, Biology, Exam Compass"
 
 # Respiration In Plants Class 11 Notes
 
-# Respiration In Plants Class 11 Notes
-
-# Respiration in Plants
 ## Quick Recall Box
 * Respiration is a catabolic process that occurs in cells.
 * It involves the breakdown of glucose to produce energy.
@@ -105,9 +102,6 @@ Answer: B) Aerobic respiration occurs in the presence of oxygen, while anaerobic
 Last Updated: March 16, 2026
 
 ![Respiration In Plants Class 11 Notes Notes](/blog-images/respiration-in-plants-class-11-notes.webp)
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

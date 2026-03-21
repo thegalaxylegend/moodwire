@@ -253,6 +253,21 @@ export const BlogPostPage: React.FC = () => {
                         remarkPlugins={[remarkGfm, remarkMath]}
                         rehypePlugins={[rehypeRaw, rehypeKatex]}
                         components={{
+                            h1: 'h2',
+                            a: ({node, href, children, ...props}) => {
+                                const isExternal = href?.startsWith('http') && !href.includes(SITE_URL);
+                                return (
+                                    <a 
+                                        {...props} 
+                                        href={href} 
+                                        target={isExternal ? "_blank" : undefined}
+                                        rel={isExternal ? "noopener external" : undefined}
+                                        className={isExternal ? "text-purple-400 hover:text-purple-300 underline underline-offset-4" : ""}
+                                    >
+                                        {children}
+                                    </a>
+                                );
+                            },
                             img: ({node, alt, src, ...props}) => (
                                 <img 
                                     {...props}

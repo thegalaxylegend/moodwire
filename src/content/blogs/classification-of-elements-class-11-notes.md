@@ -1,11 +1,11 @@
 ---
 title: "Classification of Elements Class 11 Notes — Exam Compass"
 description: "Unlock the periodic table secrets: Master classification of elements with our expert guide. Break down compounds and identify elements like a pro."
-category: "Chemistry"
-keywords: "Classification of Elements notes, Class 11 Chemistry, JEE Classification of Elements, NEET Classification of Elements, Exam Compass"
+category: "Physics"
+keywords: "classification of elements class 11 notes, Physics, Exam Compass"
 ---
 
-# Classification of Elements Class 11 Notes for Chemistry
+# Classification of Elements Class 11 Notes — Exam Compass
 
 ![Classification of Elements notes for students](/blog-images/classification-of-elements-class-11-notes.webp)
 

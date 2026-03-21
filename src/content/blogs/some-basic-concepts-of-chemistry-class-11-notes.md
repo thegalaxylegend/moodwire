@@ -1,11 +1,11 @@
 ---
 title: "Some Basic Concepts of Chemistry Class 11 Notes — Exam Compass"
 description: "Master core chemistry concepts for JEE & NEET with our comprehensive guide to Class 11 chemistry principles and formulas, boosting your exam scores today!"
-category: "Chemistry"
-keywords: "Some Basic Concepts of Chemistry notes, Class 11 Chemistry, JEE Some Basic Concepts of Chemistry, NEET Some Basic Concepts of Chemistry, Exam Compass"
+category: "Physics"
+keywords: "some basic concepts of chemistry class 11 notes, Physics, Exam Compass"
 ---
 
-# Some Basic Concepts of Chemistry Class 11 Notes for Chemistry
+# Some Basic Concepts of Chemistry Class 11 Notes — Exam Compass
 
 ![Some Basic Concepts of Chemistry notes for students](/blog-images/some-basic-concepts-of-chemistry-class-11-notes.webp)
 

@@ -7,12 +7,6 @@ keywords: "mathematical induction revision notes, Physics, Exam Compass"
 
 # Mathematical Induction Revision Notes
 
-# Mathematical Induction Revision Notes
-
-# Mathematical Induction Class 11 Math Quick Recall / Short Notes (2026-27)
-
-
-
 ![Principle of Mathematical Induction Concept and Domino Effect Visual](/blog-images/mathematical-induction-revision.webp)
 
 > [!TIP]
@@ -99,9 +93,6 @@ You can still use induction to prove the statement for $n \geq 5$ by using $n=5$
 Mathematical Induction removes the "guesswork" from general observations. It allows us to climb an infinite ladder by just making sure we can reach the first rung and that each rung leads to the next. Mastering this logic is essential for anyone aiming for a career in mathematics, physics, or computing. Reach for the next rung!
 
 ---
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

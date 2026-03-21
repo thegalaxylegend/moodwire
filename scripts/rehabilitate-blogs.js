@@ -51,10 +51,15 @@ async function rehabilitate() {
             
             // Clean content by removing the old frontmatter for now
             content = content.replace(/---[\s\S]*?---/, '').trim();
-        } else {
-            // No frontmatter. Remove first H1 if it exists so we don't double it
-            content = content.replace(/^# .*\n/g, '').trim();
         }
+        
+        // Remove ALL leading H1s to prevent duplication
+        while (content.startsWith('# ')) {
+            content = content.replace(/^# [^\n]*\n*/, '').trim();
+        }
+        
+        // Remove ALL existing footers to prevent looping/duplication
+        content = content.replace(/\s*---\s*\*This post was curated by Jules.*?\*/g, '').trim();
 
         // 3. Generate unique description if it's generic
         if (frontmatter.description.includes('Master ') && frontmatter.description.includes('with peer-mentor')) {

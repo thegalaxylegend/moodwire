@@ -7,9 +7,6 @@ keywords: "3d geometry intro class 11 notes, Physics, Exam Compass"
 
 # 3d Geometry Intro Class 11 Notes
 
-# 3d Geometry Intro Class 11 Notes
-
-# 3D Geometry (Intro) Notes for Class 11
 ![3d Geometry Intro Class 11 Notes Notes](/blog-images/3d-geometry-intro-class-11-notes.webp)
 Last Updated: March 15, 2026
 
@@ -118,9 +115,6 @@ Solution: A) $\frac{2}{\sqrt{14}}$
 ## Related Notes Links
 * [Vectors and Vector Operations](/blog/vectors-and-vector-operations)
 * [Plane Geometry and Equations of Planes](/blog/plane-geometry-and-equations-of-planes)
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

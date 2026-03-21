@@ -7,12 +7,6 @@ keywords: "trigonometric functions revision notes, Physics, Exam Compass"
 
 # Trigonometric Functions Revision Notes
 
-# Trigonometric Functions Revision Notes
-
-# Trigonometric Functions Class 11 Math Quick Recall / Short Notes (2026-27)
-
-
-
 ![Infinite Waves: The Beauty of Trigonometry](/blog-images/trigonometric-functions-revision.webp)
 
 > [!TIP]
@@ -122,9 +116,6 @@ The definitions of trigonometric functions are extended to all real numbers usin
 Trigonometry is the bridge between geometry and algebra. By mastery the "Core 10" formulas and visualizing the Unit Circle, you unlock the ability to solve complex rotation and wave problems. Keep your radians straight and your ASTC rule handy!
 
 ---
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -7,8 +7,6 @@ keywords: "biological classification class 11 notes, Biology, Exam Compass"
 
 # Biological Classification Class 11 Notes
 
-# Biological Classification Class 11 Notes
-
 ![Biological Classification Class 11 Notes Notes](/blog-images/biological-classification-class-11-notes.webp)
 
 ## Quick Recall Box
@@ -126,9 +124,6 @@ Difficulty: Easy
 
 ## Last Updated Date
 Last Updated: March 15, 2026
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

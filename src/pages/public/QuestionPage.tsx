@@ -10,6 +10,7 @@ import { AuthorBio } from '../../components/AuthorBio';
 import { SocialShare } from '../../components/SocialShare';
 import { blogs } from '../../data/blogs';
 import { SITE_URL } from '../../lib/siteConfig';
+import { examDates } from '../../config/examDates';
 
 
 // Type definition for safe global access
@@ -71,9 +72,13 @@ export const QuestionPage = () => {
     }
 
     // 4. SEO & Metadata Construction (Strict 60-char limit for Bing)
+    const targetYear = examDates.getExamYear(exam || '');
     const topicText = question.topic ? (question.topic.length > 20 ? `${question.topic.substring(0, 20)}...` : question.topic) : 'Practice';
-    const pageTitle = `Q: ${topicText} | ${formattedExam} PDF Solution`;
-    const description = `Practice this ${question.topic} question for ${formattedExam}. Step-by-step solution with concept explanation, exam tip, and free PDF download for 2026 prep.`;
+    const pageTitle = `Q: ${topicText} | ${formattedExam} ${targetYear} PDF Solution`;
+    const description = `Practice this ${question.topic || 'important'} question for ${formattedExam}. Step-by-step solution with concept explanation, exam tip, and free PDF download for ${targetYear} prep.`;
+
+    // SEO Penalty Protection: Noindex thin questions
+    const isThinContent = !question.explanation || question.explanation.length < 150;
 
     // CANONICAL FIX: Use the canonical exam (first exam to claim this question) to prevent duplicate content
     const canonicalExam = question.canonicalExam || exam;
@@ -152,6 +157,7 @@ export const QuestionPage = () => {
                 description={description}
                 canonical={canonicalUrl}
                 schema={schemaData}
+                noindex={isThinContent}
             />
             <Navbar />
 

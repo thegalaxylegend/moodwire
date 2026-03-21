@@ -1,11 +1,11 @@
 ---
 title: "Structure of The Atom Class 11 Notes — Exam Compass"
 description: "Dive into the nucleus: Understand the structure of the atom, its components and the forces that hold them together. Boost your JEE/NEET prep with our chemistry expert-approved guide."
-category: "Chemistry"
-keywords: "Structure of The Atom notes, Class 11 Chemistry, JEE Structure of The Atom, NEET Structure of The Atom, Exam Compass"
+category: "Biology"
+keywords: "structure of the atom class 11 notes, Biology, Exam Compass"
 ---
 
-# Structure of The Atom Class 11 Notes for Chemistry
+# Structure of The Atom Class 11 Notes — Exam Compass
 
 ![Structure of The Atom notes for students](/blog-images/structure-of-the-atom-class-11-notes.webp)
 

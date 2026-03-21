@@ -7,8 +7,6 @@ keywords: "animal kingdom class 11 notes, Biology, Exam Compass"
 
 # Animal Kingdom Class 11 Notes
 
-# Animal Kingdom Class 11 Notes
-
 ![Animal Kingdom Class 11 Notes Notes](/blog-images/animal-kingdom-class-11-notes.webp)
 
 ## Quick Recall Box
@@ -108,9 +106,6 @@ To remember the different phyla and classes of animals, you can use the followin
 
 ## Last Updated Date
 Last Updated: March 16, 2026
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

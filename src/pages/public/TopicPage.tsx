@@ -169,7 +169,7 @@ export const TopicPage = () => {
 
     // SEO: Shorten title if topic is extremely long, but keep primary keywords
     const shortTopic = cleanTopicName ? (cleanTopicName.length > 40 ? `${cleanTopicName.substring(0, 37)}...` : cleanTopicName) : 'Practice Questions';
-    const pageTitle = `${shortTopic} Revision Notes & PYQs | ${contextName} - Formulas + PDF`;
+    const pageTitle = `${shortTopic} Notes for ${contextName} ${targetYear} | ExamCompass`;
 
     // Trick #4: PDF Download feature exposed to public
     const [generatingPdf, setGeneratingPdf] = React.useState(false);

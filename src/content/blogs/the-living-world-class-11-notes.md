@@ -7,8 +7,6 @@ keywords: "the living world class 11 notes, Biology, Exam Compass"
 
 # The Living World Class 11 Notes
 
-# The Living World Class 11 Notes
-
 ![The Living World Class 11 Notes Notes](/blog-images/the-living-world-class-11-notes.webp)
 
 ## Quick Recall Box
@@ -133,9 +131,6 @@ I remember when I was preparing for my Class 11 exams, I struggled to understand
 
 ## Last Updated Date
 Last Updated: March 15, 2026
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

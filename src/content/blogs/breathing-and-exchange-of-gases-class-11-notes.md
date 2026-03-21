@@ -7,10 +7,6 @@ keywords: "breathing and exchange of gases class 11 notes, Biology, Exam Compass
 
 # Breathing and Exchange of Gases Class 11 Notes — Exam Compass
 
-# Breathing and Exchange of Gases Class 11 Notes — Exam Compass
-
-# Breathing and Exchange of Gases Class 11 Notes for Biology
-
 ![Breathing and Exchange of Gases Class 11 Notes — Exam Compass Notes](/blog-images/breathing-and-exchange-of-gases-class-11-notes.webp)
 
 *Last Updated: March 16, 2026*
@@ -163,12 +159,6 @@ c) 28 g/mol
 d) 40 g/mol
 
 Answer: b) 32 g/mol
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

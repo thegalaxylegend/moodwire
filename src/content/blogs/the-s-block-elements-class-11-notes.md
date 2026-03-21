@@ -7,8 +7,6 @@ keywords: "the s block elements class 11 notes, Physics, Exam Compass"
 
 # The S Block Elements Class 11 Notes
 
-# The S Block Elements Class 11 Notes
-
 ![The S Block Elements Class 11 Notes Notes](/blog-images/the-s-block-elements-class-11-notes.webp)
 ### Quick Recall Box
 * The s-block elements are in Group 1 and 2 of the periodic table.
@@ -118,9 +116,6 @@ For more information on the s-block elements, you can refer to the following not
 
 ## Last Updated Date
 Last Updated: March 15, 2026
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -3,3 +3,7 @@
 /admin/*      /index.html  200
 /login        /index.html  200
 /onboarding   /index.html  200
+
+# Proxy OG Image generator to Firebase Function
+/api/og/*  https://us-central1-legendstech001.cloudfunctions.net/ogImage/:splat  200
+/api/og    https://us-central1-legendstech001.cloudfunctions.net/ogImage  200

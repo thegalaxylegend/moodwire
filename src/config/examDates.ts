@@ -15,7 +15,14 @@ export const examDates = {
         const currentYear = new Date().getFullYear();
         const examDate = examDates.dates[examId as keyof typeof examDates.dates];
         if (!examDate) return currentYear;
-        // If today is past the exam date for the current year, target next year
-        return new Date() > examDate ? currentYear + 1 : currentYear;
+        
+        const today = new Date();
+        const diffMonths = (examDate.getFullYear() - today.getFullYear()) * 12 + (examDate.getMonth() - today.getMonth());
+        
+        // If exam is within 3 months, or has already passed, return next year
+        if (diffMonths < 3) {
+            return examDate.getFullYear() + 1;
+        }
+        return examDate.getFullYear();
     }
 };

@@ -7,8 +7,6 @@ keywords: "physical world class 11 notes, Physics, Exam Compass"
 
 # Physical World Class 11 Notes
 
-# Physical World Class 11 Notes
-
 ![Physical World Class 11 Notes Notes](/blog-images/physical-world-class-11-notes.webp)
 
 ## Quick Recall Box
@@ -97,9 +95,6 @@ Answer: A) $n = 1 + \log_{10}x$
 
 ## Last Updated Date
 Last Updated: March 15, 2026
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

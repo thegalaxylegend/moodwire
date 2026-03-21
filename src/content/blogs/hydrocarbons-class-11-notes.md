@@ -7,9 +7,6 @@ keywords: "hydrocarbons class 11 notes, Biology, Exam Compass"
 
 # Hydrocarbons Class 11 Notes
 
-# Hydrocarbons Class 11 Notes
-
-# Hydrocarbons Class 11 Notes
 ![Hydrocarbons Class 11 Notes Notes](/blog-images/hydrocarbons-class-11-notes.webp)
 Last Updated: March 15, 2026
 
@@ -112,9 +109,6 @@ Answer: c) Ethyne
 ## Related Notes Links
 - [Alkyl Halides Class 11 Notes](/blog/alkyl-halides-class-11-notes)
 - [Alcohols Class 11 Notes](/blog/alcohols-class-11-notes)
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

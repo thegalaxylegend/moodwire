@@ -7,12 +7,6 @@ keywords: "statistics revision notes, Mathematics, Exam Compass"
 
 # Statistics Revision Notes
 
-# Statistics Revision Notes
-
-# Statistics Class 11 Math Quick Recall / Short Notes (2026-27)
-
-
-
 ![Statistics Formulas and Measures of Dispersion Concepts](/blog-images/statistics-revision.webp)
 
 > [!TIP]
@@ -113,9 +107,6 @@ Standard Deviation is generally better for advanced mathematical analysis becaus
 Statistics in Class 11 moves beyond just finding averages to understanding the reliability of data. Mastering Mean Deviation and Variance allows you to quantify "risk" and "consistency"—skills used in everything from weather forecasting to the stock market. Keep your calculations precise, and remember: consistency is key (both in data and in your study routine)!
 
 ---
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

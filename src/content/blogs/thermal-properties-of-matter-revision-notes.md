@@ -7,12 +7,6 @@ keywords: "thermal properties of matter revision notes, Physics, Exam Compass"
 
 # Thermal Properties Of Matter Revision Notes
 
-# Thermal Properties Of Matter Revision Notes
-
-# Thermal Properties of Matter Class 11 Physics Quick Recall (Short Notes 2026-27)
-
-
-
 ![Thermal Properties and Calorimetry Visual](/blog-images/thermal-properties-revision.webp)
 
 > [!TIP]
@@ -122,9 +116,6 @@ Thermal properties define the limits of sustainability and efficiency in our wor
 
 ---
 **Reference:** [NIST: Thermodynamics and Thermal Properties](https://www.nist.gov)
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -7,10 +7,6 @@ keywords: "class 10 30 day timetable, Mathematics, Exam Compass"
 
 # 30-Day Timetable for Class 10 Board Exam Prep Guide
 
-# 30-Day Timetable for Class 10 Board Exam Prep Guide
-
-# 30-Day Timetable for Class 10 Board Exam: The Last Month 'Sniper' Prep
-
 Last year, I was juggling my Class 11 orientation while helping my younger cousin build a **30-day timetable for Class 10 board exam** because his coaching center had basically given up on him. 
 
 The truth is, most schools and big coaching brands will give you a generic "study 10 hours" schedule. But that’s useless if you don’t know *what* to study. After building my own AI tool, Exam Compass, I realized that the best students don't work harder—they work smarter. They know how to prioritize the high-yield topics. 
@@ -80,9 +76,6 @@ Aim for at least 15 mock tests (5 per major subject). This builds the stamina ne
 
 ### 3. What if I am weak in Mathematics?
 Focus on the "Safe Zone" chapters like Statistics and Probability first. These carry high weightage and are easier to master, ensuring you secure a solid foundation before moving to tougher topics like Trigonometry.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

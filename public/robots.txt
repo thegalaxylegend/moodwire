@@ -24,5 +24,17 @@ User-agent: Google-Extended
 Allow: /
 Disallow: /dashboard/
 
+User-agent: ClaudeBot
+Allow: /
+Disallow: /dashboard/
+
+User-agent: anthropic-ai
+Allow: /
+Disallow: /dashboard/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /dashboard/
+
 # Sitemap location
 Sitemap: https://examcompass.pages.dev/sitemap.xml

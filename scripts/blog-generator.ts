@@ -91,6 +91,19 @@ const NEON_THEMES: Record<string, { primary: string; secondary: string; glow: st
     'default': { primary: '#00e5ff', secondary: '#7c4dff', glow: '#00e5ff' }
 };
 
+function escapeXml(unsafe: string): string {
+    return unsafe.replace(/[<>&'"]/g, c => {
+        switch (c) {
+            case '<': return '&lt;';
+            case '>': return '&gt;';
+            case '&': return '&amp;';
+            case '\'': return '&apos;';
+            case '"': return '&quot;';
+            default: return c;
+        }
+    });
+}
+
 function generateNeonSvg(topic: string, subject: string): string {
     const theme = NEON_THEMES[subject] || NEON_THEMES['default'];
     const seed = topic.length * 7 + subject.length * 13;
@@ -127,7 +140,9 @@ function generateNeonSvg(topic: string, subject: string): string {
     }).join('\n    ');
 
     // Truncate topic text to fit
-    const displayTopic = topic.length > 35 ? topic.substring(0, 32) + '...' : topic;
+    const rawDisplayTopic = topic.length > 35 ? topic.substring(0, 32) + '...' : topic;
+    const displayTopic = escapeXml(rawDisplayTopic);
+    const safeSubject = escapeXml(subject);
     const fontSize = topic.length > 25 ? 36 : 44;
 
     return `<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
@@ -178,7 +193,7 @@ function generateNeonSvg(topic: string, subject: string): string {
   
   <!-- Subject badge -->
   <rect x="40" y="30" width="${subject.length * 14 + 30}" height="36" rx="18" fill="${theme.primary}" opacity="0.2"/>
-  <text x="${55 + (subject.length * 7)}" y="54" font-family="Arial, sans-serif" font-weight="700" font-size="16" fill="${theme.primary}" text-anchor="middle" letter-spacing="2">${subject.toUpperCase()}</text>
+  <text x="${55 + (subject.length * 7)}" y="54" font-family="Arial, sans-serif" font-weight="700" font-size="16" fill="${theme.primary}" text-anchor="middle" letter-spacing="2">${safeSubject.toUpperCase()}</text>
   
   <!-- Topic title -->
   <text x="600" y="480" font-family="Arial, sans-serif" font-weight="800" font-size="${fontSize}" fill="white" text-anchor="middle" filter="url(#textGlow)">${displayTopic}</text>
@@ -193,6 +208,49 @@ function generateNeonSvg(topic: string, subject: string): string {
   <path d="M 30 550 L 30 600 L 80 600" fill="none" stroke="${theme.secondary}" stroke-width="2" opacity="0.5"/>
   <path d="M 1120 550 L 1120 600 L 1170 600" fill="none" stroke="${theme.primary}" stroke-width="2" opacity="0.5"/>
 </svg>`;
+}
+
+async function generateGeminiImage(subject: string, topic: string, outputPath: string): Promise<boolean> {
+    const key = process.env.GEMINI_BACKUP_KEY || process.env.VITE_GEMINI_API_KEY;
+    if (!key) {
+        console.warn("⚠️ GEMINI_BACKUP_KEY not found in environment for Image Gen.");
+        return false;
+    }
+
+    try {
+        console.log(`🚀 Using Gemini to design custom SVG for "${topic}"...`);
+        const theme = NEON_THEMES[subject] || NEON_THEMES['default'];
+        const prompt = `Generate a beautiful, complex, and modern SVG for a blog cover image. 
+        Topic: ${topic}
+        Subject: ${subject}
+        Style: Dark mode, neon colors (${theme.primary}, ${theme.secondary}), futuristic, scientific diagrams, no text in the background, high detail.
+        Format: Return ONLY the raw SVG code. No markdown, no explanations. 
+        Dimensions: 1200x630.`;
+
+        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${key}`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                contents: [{ role: "user", parts: [{ text: prompt }] }],
+                generationConfig: { temperature: 0.9 }
+            })
+        });
+
+        const data: any = await response.json();
+        let svg = data.candidates?.[0]?.content?.parts?.[0]?.text || "";
+        svg = svg.replace(/```svg/g, "").replace(/```/g, "").trim();
+
+        if (!svg.includes("<svg")) throw new Error("Invalid SVG from Gemini");
+
+        const { default: sharp } = await import('sharp');
+        await sharp(Buffer.from(svg)).resize(1200, 630).webp({ quality: 90 }).toFile(outputPath);
+        
+        console.log(`✅ Gemini SVG image saved: ${path.basename(outputPath)}`);
+        return true;
+    } catch (err: any) {
+        console.warn(`⚠️ Gemini SVG failed: ${err.message}`);
+        return false;
+    }
 }
 
 async function generateHuggingFaceImage(subject: string, topic: string, outputPath: string): Promise<boolean> {
@@ -357,8 +415,15 @@ async function downloadHeroImage(subject: string, topic: string, slug: string): 
         return `/blog-images/${slug}.webp`;
     }
 
-    // Fallback 2: Generate local neon-themed image using Sharp + SVG
-    console.log("🎨 Hugging Face unavailable. Generating local neon artwork...");
+    // Fallback 2: Generate Gemini SVG Art
+    console.log("🎨 Hugging Face unavailable. Trying Gemini SVG designer...");
+    const geminiOk = await generateGeminiImage(subject, topic, webpPath);
+    if (geminiOk) {
+        return `/blog-images/${slug}.webp`;
+    }
+
+    // Fallback 3: Generate local neon-themed image using Sharp + SVG
+    console.log("🎨 Gemini SVG unavailable. Generating local neon artwork...");
     const localOk = await generateLocalNeonImage(subject, topic, webpPath);
     if (localOk) {
         console.log(`✅ Local neon image saved: ${slug}.webp`);
@@ -398,7 +463,7 @@ async function generateBlogs() {
         
         // --- STEP 1: GENERATE DYNAMIC SEO DESCRIPTION ---
         console.log("📑 Jules: Crafting unique SEO description...");
-        let seoDescription = `Quick ${item.topic} Revision Notes & Recap for ${item.class} ${item.subject}. Peer-mentor notes, high-yield JEE/NEET data, and personal tricks to master the chapter fast.`;
+        let seoDescription = `Quick ${item.topic} Revision Notes & Recap for Class ${item.class} ${item.subject}. Peer-mentor notes, high-yield insights, and personal tricks to master the chapter fast.`;
         try {
             const seoCompletion = await groq.chat.completions.create({
                 messages: [{ 
@@ -406,7 +471,7 @@ async function generateBlogs() {
                     content: "You are an SEO specialist. Write a high-click-through meta description (max 155 chars) for a blog post targeting 'Quick Revision' and 'Recap' keywords. Do not use quotes. Use active voice." 
                 }, { 
                     role: "user", 
-                    content: `Topic: ${item.topic}, Subject: ${item.subject}, Class: ${item.class}. Focus: Quick Revision, Formula Recap, Short Notes for JEE/NEET.` 
+                    content: `Topic: ${item.topic}, Subject: ${item.subject}, Class: ${item.class}. Focus: Quick Revision, Formula Recap, Short Notes.` 
                 }],
                 model: "llama-3.1-8b-instant",
                 max_tokens: 100
@@ -414,8 +479,13 @@ async function generateBlogs() {
             seoDescription = seoCompletion.choices[0]?.message?.content?.replace(/"/g, '').trim() || seoDescription;
         } catch (e) {}
 
-        const systemPrompt = `You are Ayush's senior content editor. Peer mentor style. Min 2500 words. Rule: No "In conclusion". Use LaTeX. Content must be high-yield, extremely scannable, and serve as a "Quick Revision & Recap" alternative to traditional PDF notes. Follow BLOG_RULES.md strictly. Focus on tables, bold terms, and quick-scan headers.`;
-        const userPrompt = `TOPIC: ${item.topic}, SUBJECT: ${item.subject}, CLASS: ${item.class}. Generate bodies starting with Quick Recall Box. Style: "Quick Revision & Recap". Include Ayush's Personal Note (1st person), JEE/NEET data, Core Concepts, Formulae Tables, MCQs. Highlight "Trap Exceptions" for quick review.`;
+        const isScience = ['Physics', 'Chemistry', 'Biology', 'Maths', 'Mathematics'].includes(item.subject);
+        const promptAdditions = isScience 
+            ? 'Include high-yield JEE/NEET data, Core Concepts, Formulae Tables (Use ONLY $ for inline math and $$ for block math. DO NOT duplicate math as plain text before the LaTeX), and MCQs.' 
+            : 'Include historical timelines, maps contexts, Core Concepts, and MCQs. DO NOT include any mathematical equations, formulas, or JEE/NEET data.';
+            
+        const systemPrompt = `You are Ayush's senior content editor. Peer mentor style. Min 2500 words. Rule: Do not write any conclusion paragraphs. End the article abruptly after the final content section. Content must be high-yield, extremely scannable, and serve as a "Quick Revision & Recap" alternative to traditional PDF notes. Follow BLOG_RULES.md strictly. Focus on tables, bold terms, and quick-scan headers.`;
+        const userPrompt = `TOPIC: ${item.topic}, SUBJECT: ${item.subject}, CLASS: ${item.class}. Generate bodies starting with Quick Recall Box. Style: "Quick Revision & Recap". Include Ayush's Personal Note (1st person), ${promptAdditions} Highlight "Trap Exceptions" for quick review. DO NOT include closing remarks.`;
 
         let success = false;
         for (const model of GROQ_MODELS) {
@@ -433,25 +503,22 @@ async function generateBlogs() {
 
                 let content = chatCompletion.choices[0]?.message?.content;
                 if (content) {
-                    content = content.replace(/^# .*\n/g, '').trim();
+                    content = content.replace(/^# .*\n/g, '').trim(); // Remove generated H1
+                    const cleanClass = item.class.replace(/class/i, '').trim();
 
                     const finalMarkdown = `---
-title: "${item.topic} Class ${item.class} Quick Revision Notes & Recap — Exam Compass"
+title: "${item.topic} Class ${cleanClass} Quick Revision Notes & Recap — Exam Compass"
 description: "${seoDescription}"
 category: "${item.subject}"
-keywords: "${item.topic} quick revision, ${item.topic} recap notes, class ${item.class} ${item.subject} summary, JEE NEET quick notes, Exam Compass"
+keywords: "${item.topic} quick revision, ${item.topic} recap notes, class ${cleanClass} ${item.subject} summary, quick notes, Exam Compass"
+date: "${publishDate}"
 ---
-
-# ${item.topic} ${item.class} Notes for ${item.subject}
 
 ![${item.topic} notes for students](${heroImagePath})
 
-*Last Updated: ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}*
+*Last Updated: ${publishDate}*
 
 ${content}
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 `;
                     fs.writeFileSync(filePath, finalMarkdown);
                     fs.appendFileSync(generatedSlugsFile, item.targetSlug + '\n');
@@ -479,23 +546,21 @@ ${content}
             const content = await generateWithGemini(systemPrompt, userPrompt);
             if (content) {
                 const cleanContent = content.replace(/^# .*\n/g, '').trim();
+                const cleanClass = item.class.replace(/class/i, '').trim();
+                
                 const finalMarkdown = `---
-title: "${item.topic} Class ${item.class} Quick Revision Notes & Recap — Exam Compass"
+title: "${item.topic} Class ${cleanClass} Quick Revision Notes & Recap — Exam Compass"
 description: "${seoDescription}"
 category: "${item.subject}"
-keywords: "${item.topic} quick revision, ${item.topic} recap notes, class ${item.class} ${item.subject} summary, JEE NEET quick notes, Exam Compass"
+keywords: "${item.topic} quick revision, ${item.topic} recap notes, class ${cleanClass} ${item.subject} summary, quick notes, Exam Compass"
+date: "${publishDate}"
 ---
-
-# ${item.topic} ${item.class} Notes for ${item.subject}
 
 ![${item.topic} notes for students](${heroImagePath})
 
-*Last Updated: ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}*
+*Last Updated: ${publishDate}*
 
 ${cleanContent}
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 `;
                 fs.writeFileSync(filePath, finalMarkdown);
                 fs.appendFileSync(generatedSlugsFile, item.targetSlug + '\n');

@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 import { useLocation } from 'react-router-dom';
-import { SITE_URL, SITE_NAME, SITE_LOGO } from '../lib/siteConfig';
+import { SITE_URL, SITE_NAME } from '../lib/siteConfig';
 
 
 interface SEOProps {
@@ -26,7 +26,6 @@ export const SEO = (props: SEOProps) => {
     // SSR-safe canonical: use explicit prop > useLocation (works in SSR via StaticRouter) > window fallback
     const canonicalUrl = canonical
         || `${SITE_URL}${location.pathname.replace(/\/$/, '') || '/'}`;
-    const imageUrl = image || SITE_LOGO;
     const siteTitle = name || SITE_NAME;
     
     // Smart Title Suffix Logic (Bing 60-char limit optimization)
@@ -39,6 +38,10 @@ export const SEO = (props: SEOProps) => {
             fullTitle = `${title} - EC`;
         }
     }
+
+    const encodedTitle = encodeURIComponent(fullTitle);
+    const encodedSub = encodeURIComponent(SITE_URL.replace('https://', ''));
+    const imageUrl = image || `${SITE_URL}/api/og?title=${encodedTitle}&sub=${encodedSub}`;
 
     return (
         <Helmet defer={false}>

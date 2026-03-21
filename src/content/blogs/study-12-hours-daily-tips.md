@@ -7,8 +7,6 @@ keywords: "study 12 hours daily tips, Physics, Exam Compass"
 
 # Study for 12 Hours Daily Without Tiredness Guide
 
-# Study for 12 Hours Daily Without Tiredness Guide
-
 ![Study for 12 Hours Daily Without Tiredness Guide Notes](/blog-images/study-12-hours-daily-tips.webp)
 
 # How to Study for 12 Hours Every Day Without Getting Tired (The Easy Way)
@@ -76,9 +74,6 @@ Instrumental music or lo-fi beats can help some students maintain a "flow state"
 ### 3. How do I start if I can only study for 2 hours now?
 Don't jump to 12 hours immediately. Start by adding one 30-minute session each day. Within two weeks of consistent additions, you will build the mental stamina required for 12-hour session blocks without feeling overwhelmed.
 *
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

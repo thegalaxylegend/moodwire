@@ -5,15 +5,17 @@ import { SITE_URL } from '../../lib/siteConfig';
 import { slugify } from '../../lib/utils';
 import { useMemo } from 'react';
 
+import { examDates } from '../../config/examDates';
+
 // Exam metadata for EducationEvent schema
 const EXAM_DATES: Record<string, { name: string; startDate: string; endDate: string; level: string }> = {
-    'jee-mains': { name: 'JEE Mains 2026', startDate: '2026-01-20', endDate: '2026-04-15', level: 'Undergraduate' },
-    'jee-advanced': { name: 'JEE Advanced 2026', startDate: '2026-06-01', endDate: '2026-06-30', level: 'Undergraduate' },
-    'neet': { name: 'NEET UG 2026', startDate: '2026-05-01', endDate: '2026-05-31', level: 'Undergraduate' },
-    'upsc': { name: 'UPSC CSE 2026', startDate: '2026-05-25', endDate: '2026-10-15', level: 'Postgraduate' },
-    'clat': { name: 'CLAT 2026', startDate: '2026-12-01', endDate: '2026-12-31', level: 'Undergraduate' },
-    'gate': { name: 'GATE 2026', startDate: '2026-02-01', endDate: '2026-02-28', level: 'Postgraduate' },
-    'bitsat': { name: 'BITSAT 2026', startDate: '2026-05-15', endDate: '2026-06-15', level: 'Undergraduate' },
+    'jee-mains': { name: 'JEE Mains', startDate: '-01-20', endDate: '-04-15', level: 'Undergraduate' },
+    'jee-advanced': { name: 'JEE Advanced', startDate: '-06-01', endDate: '-06-30', level: 'Undergraduate' },
+    'neet': { name: 'NEET UG', startDate: '-05-01', endDate: '-05-31', level: 'Undergraduate' },
+    'upsc': { name: 'UPSC CSE', startDate: '-05-25', endDate: '-10-15', level: 'Postgraduate' },
+    'clat': { name: 'CLAT', startDate: '-12-01', endDate: '-12-31', level: 'Undergraduate' },
+    'gate': { name: 'GATE', startDate: '-02-01', endDate: '-02-28', level: 'Postgraduate' },
+    'bitsat': { name: 'BITSAT', startDate: '-05-15', endDate: '-06-15', level: 'Undergraduate' },
 };
 
 export const AutoSchema = () => {
@@ -85,17 +87,18 @@ export const AutoSchema = () => {
         if (exam && exam !== 'blog' && !subjectSlug && !topicSlug) {
             const examMeta = exam ? EXAM_DATES[exam] : null;
             const isClassPage = exam ? exam.startsWith('class-') : false;
+            const targetYear = exam ? examDates.getExamYear(exam) : new Date().getFullYear();
 
             if (examMeta) {
                 schemas.push({
                     "@context": "https://schema.org",
                     "@type": "EducationEvent",
-                    "name": `${examMeta.name} Preparation`,
-                    "description": `Comprehensive preparation course for ${examMeta.name} with AI-generated mock tests, previous year questions, and personalized study plans.`,
+                    "name": `${examMeta.name} ${targetYear} Preparation`,
+                    "description": `Comprehensive preparation course for ${examMeta.name} ${targetYear} with AI-generated mock tests, previous year questions, and personalized study plans.`,
                     "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                     "eventStatus": "https://schema.org/EventScheduled",
-                    "startDate": examMeta.startDate,
-                    "endDate": examMeta.endDate,
+                    "startDate": `${targetYear}${examMeta.startDate}`,
+                    "endDate": `${targetYear}${examMeta.endDate}`,
                     "location": {
                         "@type": "VirtualLocation",
                         "url": `${SITE_URL}/${exam}`
@@ -137,7 +140,7 @@ export const AutoSchema = () => {
             schemas.push({
                 "@context": "https://schema.org/",
                 "@type": "WebPage",
-                "name": `${(examMeta?.name || exam.toUpperCase().replace(/-/g, ' '))} Complete Guide`,
+                "name": `${(examMeta?.name ? `${examMeta.name} ${targetYear}` : exam.toUpperCase().replace(/-/g, ' '))} Complete Guide`,
                 "speakable": {
                     "@type": "SpeakableSpecification",
                     "cssSelector": [".quick-summary", ".faq-answer", "h1"]

@@ -48,9 +48,39 @@ export const BlogSchema: React.FC<BlogSchemaProps> = ({
         "dateModified": modifiedDate ? new Date(modifiedDate).toISOString() : new Date(publishDate).toISOString(),
     };
 
+    const isStrategy = title.toLowerCase().includes('strategy') || title.toLowerCase().includes('guide') || title.toLowerCase().includes('timetable') || title.toLowerCase().includes('hack');
+    
+    const howToSchema = isStrategy ? {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": title,
+        "description": description,
+        "image": imageUrl,
+        "step": [
+            {
+                "@type": "HowToStep",
+                "name": "Understand the Basics",
+                "text": "Review the core concepts and syllabus requirements outlined in the guide."
+            },
+            {
+                "@type": "HowToStep",
+                "name": "Analyze Patterns",
+                "text": "Identify high-weightage topics and previous year questions trends."
+            },
+            {
+                "@type": "HowToStep",
+                "name": "Execute Plan",
+                "text": "Follow the structured timetable and practice methodology consistently."
+            }
+        ]
+    } : null;
+
     return (
         <Helmet>
             <script type="application/ld+json">{JSON.stringify(schema)}</script>
+            {howToSchema && (
+                <script type="application/ld+json">{JSON.stringify(howToSchema)}</script>
+            )}
         </Helmet>
     );
 };
