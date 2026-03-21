@@ -34,66 +34,209 @@
 
 
   <style>
-    /* 🚀 EXTREME CRITICAL CSS - Target: <0.5s LCP */
-    :root {
-      --background: #0f172a; /* Match index.css Deep Slate */
-      --primary: #8b5cf6;
-    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-    body {
-      background: var(--background);
-      margin: 0;
-      /* System font stack for instant paint */
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      color: #fff;
-    }
+    /* body bg prevents white flash before splash renders */
+    body { background: #0a0a14; }
 
-    .boot-nav {
+    /* ── Splash wrapper ──────────────────────────────────────────── */
+    #launch-screen {
       position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 80px; /* Match Navbar h-20 */
+      inset: 0;
+      z-index: 9999;
+      background: #0a0a14;
       display: flex;
       align-items: center;
-      padding: 0 24px; /* Match Navbar px-6 */
-      z-index: 100;
-      box-sizing: border-box;
+      justify-content: center;
+      overflow: hidden;
+      transition: opacity 0.45s ease, visibility 0.45s ease;
+    }
+    #launch-screen.hidden {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
     }
 
-    .boot-logo {
-      font-size: 24px;
-      font-weight: 700; /* Match Navbar font-bold */
-      letter-spacing: -0.05em; /* Match Navbar tracking-tighter */
-      color: #fff;
+    /* ── Background grid ─────────────────────────────────────────── */
+    .ls-grid {
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(168,85,247,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(168,85,247,0.04) 1px, transparent 1px);
+      background-size: 40px 40px;
+      animation: lsGridFade 2.5s ease forwards;
+      opacity: 0;
+    }
+    @keyframes lsGridFade { to { opacity: 1; } }
+
+    /* ── Ambient orbs ────────────────────────────────────────────── */
+    .ls-orb {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(70px);
+      pointer-events: none;
+    }
+    .ls-orb1 {
+      width: 380px; height: 380px;
+      background: radial-gradient(circle, rgba(168,85,247,0.18) 0%, transparent 70%);
+      top: -80px; left: -80px;
+      animation: lsOrbA 7s ease-in-out infinite alternate;
+    }
+    .ls-orb2 {
+      width: 320px; height: 320px;
+      background: radial-gradient(circle, rgba(99,102,241,0.14) 0%, transparent 70%);
+      bottom: -60px; right: -60px;
+      animation: lsOrbB 8s ease-in-out infinite alternate;
+    }
+    @keyframes lsOrbA { to { transform: translate(40px, 50px); } }
+    @keyframes lsOrbB { to { transform: translate(-40px, -40px); } }
+
+    /* ── Center stack ────────────────────────────────────────────── */
+    .ls-center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 28px;
+      position: relative;
+      z-index: 10;
     }
 
-    .boot-purple { color: #a855f7; } /* Unified Vibrant Purple */
-
-    .boot-content {
-      padding-top: 120px; /* Match Navbar offset */
-      max-width: 1200px;
-      margin: 0 auto;
-      padding-left: 24px;
-      padding-right: 24px;
+    /* ── Logo stage ──────────────────────────────────────────────── */
+    .ls-logo-stage {
+      position: relative;
+      width: 200px;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
-    .boot-skeleton {
-      height: 384px; /* Match Blog card h-96 */
-      background: rgba(255, 255, 255, 0.03);
-      border-radius: 24px;
-      margin-bottom: 24px;
-      animation: boot-pulse 1.5s infinite ease-in-out;
+    /* Expanding entry rings */
+    .ls-ring {
+      position: absolute;
+      border-radius: 50%;
+      border: 1px solid rgba(168,85,247,0.25);
+      opacity: 0;
+      animation: lsRingExpand 2s ease-out forwards;
+    }
+    .ls-ring1 { width: 140px; height: 140px; animation-delay: 0.1s; }
+    .ls-ring2 { width: 170px; height: 170px; animation-delay: 0.4s; }
+    .ls-ring3 { width: 200px; height: 200px; animation-delay: 0.7s; border-color: rgba(168,85,247,0.12); }
+    @keyframes lsRingExpand {
+      0%   { transform: scale(0.4); opacity: 0; }
+      40%  { opacity: 1; }
+      100% { transform: scale(1); opacity: 0.55; }
     }
 
-    @keyframes boot-reveal {
-      from { opacity: 0; transform: translateY(-4px); }
-      to { opacity: 1; transform: translateY(0); }
+    /* Continuous breathing ring after entry */
+    .ls-ring-pulse {
+      position: absolute;
+      width: 130px; height: 130px;
+      border-radius: 50%;
+      border: 1.5px solid rgba(168,85,247,0.45);
+      animation: lsRingPulse 2.4s ease-in-out infinite;
+      animation-delay: 1.2s;
+      opacity: 0;
+    }
+    @keyframes lsRingPulse {
+      0%   { transform: scale(0.88); opacity: 0; }
+      50%  { transform: scale(1.12); opacity: 0.7; }
+      100% { transform: scale(0.88); opacity: 0; }
     }
 
-    @keyframes boot-pulse {
-      0%, 100% { opacity: 0.5; }
-      50% { opacity: 0.2; }
+    /* Particle container — children injected by JS */
+    .ls-particles {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+    }
+    .ls-particle {
+      position: absolute;
+      left: 50%; top: 50%;
+      border-radius: 50%;
+      background: #a855f7;
+      opacity: 0;
+      animation: lsParticleFly var(--dur) ease-out var(--delay) forwards;
+    }
+    @keyframes lsParticleFly {
+      0%   { transform: translate(-50%,-50%) translate(0,0) scale(1); opacity: 0.9; }
+      100% { transform: translate(-50%,-50%) translate(var(--dx),var(--dy)) scale(0); opacity: 0; }
+    }
+
+    /* Logo image — spring entry + continuous glow pulse */
+    .ls-logo-wrap {
+      position: relative;
+      z-index: 5;
+      animation: lsLogoReveal 0.9s cubic-bezier(0.34,1.56,0.64,1) 0.3s both;
+    }
+    @keyframes lsLogoReveal {
+      0%   { transform: scale(0.35) rotate(-18deg); opacity: 0; }
+      100% { transform: scale(1) rotate(0deg); opacity: 1; }
+    }
+    .ls-logo-wrap img {
+      width: 115px;
+      height: 115px;
+      object-fit: contain;
+      filter: drop-shadow(0 0 18px rgba(168,85,247,0.6));
+      animation: lsLogoPulse 2.5s ease-in-out infinite;
+      animation-delay: 1.3s;
+    }
+    @keyframes lsLogoPulse {
+      0%,100% { filter: drop-shadow(0 0 16px rgba(168,85,247,0.5)); }
+      50%      {
+        filter: drop-shadow(0 0 40px rgba(168,85,247,0.95))
+                drop-shadow(0 0 70px rgba(168,85,247,0.25));
+      }
+    }
+
+    /* ── Brand text ──────────────────────────────────────────────── */
+    .ls-brand {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+      animation: lsRise 0.7s cubic-bezier(0.22,1,0.36,1) 0.9s both;
+    }
+    .ls-brand-name {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      font-size: 28px;
+      font-weight: 700;
+      color: #ffffff;
+      letter-spacing: 0.03em;
+      text-shadow: 0 0 32px rgba(168,85,247,0.45);
+    }
+    .ls-brand-name span { color: #a855f7; }
+    .ls-brand-tag {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      font-size: 11px;
+      color: rgba(255,255,255,0.32);
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+    }
+
+    /* ── Progress bar ────────────────────────────────────────────── */
+    .ls-bar-wrap {
+      width: 160px;
+      animation: lsRise 0.7s cubic-bezier(0.22,1,0.36,1) 1.1s both;
+    }
+    .ls-bar-track {
+      width: 100%;
+      height: 2px;
+      background: rgba(168,85,247,0.12);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+    .ls-bar-fill {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, #7c3aed, #a855f7, #c084fc);
+      border-radius: 2px;
+    }
+
+    @keyframes lsRise {
+      0%   { transform: translateY(22px); opacity: 0; }
+      100% { transform: translateY(0); opacity: 1; }
     }
   </style>
   <!--app-head-->
@@ -108,20 +251,39 @@
       }
     })();
   </script>
-  <div id="root">
-    <!--app-html-->
-    <div class="boot-shell">
-      <nav class="boot-nav">
-        <div class="boot-logo">Exam<span class="boot-purple">Compass</span></div>
-      </nav>
-      <div class="boot-content">
-        <div style="margin-bottom: 32px;">
-          <div style="height: 48px; background: rgba(255,255,255,0.05); border-radius: 12px; width: 80%; margin-bottom: 16px;"></div>
-          <div style="height: 24px; background: rgba(255,255,255,0.03); border-radius: 8px; width: 60%;"></div>
+  <div id="launch-screen">
+    <div class="ls-grid"></div>
+    <div class="ls-orb ls-orb1"></div>
+    <div class="ls-orb ls-orb2"></div>
+
+    <div class="ls-center">
+      <div class="ls-logo-stage">
+        <div class="ls-ring ls-ring1"></div>
+        <div class="ls-ring ls-ring2"></div>
+        <div class="ls-ring ls-ring3"></div>
+        <div class="ls-ring-pulse"></div>
+        <div class="ls-particles" id="ls-particles"></div>
+
+        <div class="ls-logo-wrap">
+          <img src="/logo.png" alt="ExamCompass" draggable="false" />
         </div>
-        <div style="height: 384px; background: rgba(255, 255, 255, 0.03); border-radius: 24px;"></div>
+      </div>
+
+      <div class="ls-brand">
+        <div class="ls-brand-name">Exam<span>Compass</span></div>
+        <div class="ls-brand-tag">AI-Powered Exam Prep</div>
+      </div>
+
+      <div class="ls-bar-wrap">
+        <div class="ls-bar-track">
+          <div class="ls-bar-fill" id="ls-bar"></div>
+        </div>
       </div>
     </div>
+  </div>
+
+  <div id="root">
+    <!--app-html-->
     <!--app-html-end-->
   </div>
   <!-- Non-blocking Google Fonts -->
@@ -148,6 +310,74 @@
 
   <!-- Entry Point (Last for LCP) -->
   <script type="module" src="/src/main.tsx"></script>
+
+  <script>
+    /* ── 1. Spawn radial burst particles ────────────────────────── */
+    (function () {
+      var container = document.getElementById('ls-particles');
+      var angles = [0,30,60,90,120,150,180,210,240,270,300,330];
+      angles.forEach(function (deg, i) {
+        var rad  = (deg * Math.PI) / 180;
+        var dist = 72 + Math.random() * 28;
+        var p    = document.createElement('div');
+        p.className = 'ls-particle';
+        var size = (2 + Math.random() * 2).toFixed(1) + 'px';
+        p.style.width  = size;
+        p.style.height = size;
+        p.style.setProperty('--dx',    Math.round(Math.cos(rad) * dist) + 'px');
+        p.style.setProperty('--dy',    Math.round(Math.sin(rad) * dist) + 'px');
+        p.style.setProperty('--delay', (0.3 + i * 0.04) + 's');
+        p.style.setProperty('--dur',   (1.8 + Math.random() * 0.7).toFixed(2) + 's');
+        p.style.background = i % 3 === 0 ? '#c084fc'
+                           : i % 3 === 1 ? '#a855f7'
+                                         : '#818cf8';
+        if (container) container.appendChild(p);
+      });
+    })();
+
+    /* ── 2. Animate loading bar to ~92% while app loads ─────────── */
+    (function () {
+      var bar      = document.getElementById('ls-bar');
+      var start    = null;
+      var duration = 2800;
+      function step(ts) {
+        if (!start) start = ts;
+        var pct = Math.min(((ts - start) / duration) * 100, 92);
+        if (bar) bar.style.width = pct.toFixed(1) + '%';
+        if (pct < 92) requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+    })();
+
+    /* ── 3. Dismiss splash the moment React mounts ──────────────── */
+    (function () {
+      var splash = document.getElementById('launch-screen');
+      var bar    = document.getElementById('ls-bar');
+      if (!splash) return;
+
+      var observer = new MutationObserver(function () {
+        var root = document.getElementById('root');
+        if (root && root.children.length > 0) {
+          observer.disconnect();
+
+          if (bar) {
+            bar.style.transition = 'width 0.25s ease';
+            bar.style.width      = '100%';
+          }
+
+          setTimeout(function () {
+            splash.classList.add('hidden');
+            setTimeout(function () { splash.remove(); }, 500);
+          }, 280);
+        }
+      });
+
+      var rootEl = document.getElementById('root');
+      if (rootEl) {
+        observer.observe(rootEl, { childList: true });
+      }
+    })();
+  </script>
 </body>
 
 </html>

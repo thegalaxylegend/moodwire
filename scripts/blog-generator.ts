@@ -12,33 +12,12 @@ const groq = new Groq({
 });
 
 // --- DATE DISTRIBUTOR ---
+// To guarantee new blogs ALWAYS appear at the top of the grid, 
+// we assign them today's date rather than back-dating them.
 const getShiftedDate = () => {
-    const blogsDir = path.join(__dirname, '../src/content/blogs');
-    if (!fs.existsSync(blogsDir)) return new Date('2026-03-16').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
-    
-    const files = fs.readdirSync(blogsDir).filter(f => f.endsWith('.md'));
-    const dateCounts: Record<string, number> = {};
-    
-    files.forEach(f => {
-        const content = fs.readFileSync(path.join(blogsDir, f), 'utf8');
-        const match = content.match(/\*Last Updated:\s*([A-Za-z]+ \d+, \d{4})/);
-        if (match) {
-            const d = match[1];
-            dateCounts[d] = (dateCounts[d] || 0) + 1;
-        }
-    });
-
-    // Current date is March 17, 2026. Avoid today.
-    let daysBack = 1;
-    while (true) {
-        const d = new Date('2026-03-17'); 
-        d.setDate(d.getDate() - daysBack);
-        const dateStr = d.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
-        if ((dateCounts[dateStr] || 0) < 6) return dateStr;
-        daysBack++;
-        if (daysBack > 100) return dateStr;
-    }
+    return new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
 };
+
 
 // Gemini Backup Helper
 async function generateWithGemini(systemPrompt: string, userPrompt: string): Promise<string | null> {
@@ -117,11 +96,14 @@ const SUBJECT_FALLBACKS: Record<string, string> = {
 const SUBJECT_CATEGORIES: Record<string, string> = {
     'History':     'History',
     'Geography':   'Geography', 
+    'Indian Geography': 'Geography',
+    'World Geography': 'Geography',
     'Biology':     'Biology',
     'Chemistry':   'Chemistry',
     'Physics':     'Physics',
     'Mathematics': 'Mathematics',
     'Civics':      'Social Science',
+    'Indian Constitution': 'Social Science',
     'Art & Culture': 'History'
 };
 
