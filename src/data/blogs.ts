@@ -11,6 +11,114 @@ export interface Blog {
 
 export const blogs: Blog[] = [
     {
+        "id": "biogeography-class-11-notes",
+        "title": "Biogeography Class Class 11 Quick Revision Notes & Recap — Exam Compass",
+        "description": "Boost your exam scores with our quick biogeography revision notes, covering all key formulas, concepts & shortcuts for class 11 JEE & NEET prep.",
+        "category": "Geography",
+        "date": "March 21, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/biogeography-class-11-notes.webp"
+    },
+    {
+        "id": "climatology-class-11-notes",
+        "title": "Climatology Class Class 11 Quick Revision Notes & Recap — Exam Compass",
+        "description": "Boost your Class 11 Geography score with quick climatology revision, key formulas, and concise notes for JEE/NEET exam success.",
+        "category": "Geography",
+        "date": "March 21, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/climatology-class-11-notes.webp"
+    },
+    {
+        "id": "geomorphology-class-11-notes",
+        "title": "Geomorphology Class Class 11 Quick Revision Notes & Recap — Exam Compass",
+        "description": "Masters Geomorphology in minutes - Recap formulas, key concepts and shortcuts for quick revision in Class 11 Geography, ideal for JEE & NEET exam prep.",
+        "category": "Geography",
+        "date": "March 21, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/geomorphology-class-11-notes.webp"
+    },
+    {
+        "id": "medieval-india-bhakti-sufi-class-11-notes",
+        "title": "Medieval India: Bhakti & Sufi Class Class 11 Quick Revision Notes & Recap — Exam Compass",
+        "description": "Boost your class 11 history quick revision with our concise formula recap notes on Medieval India",
+        "category": "History",
+        "date": "March 21, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/medieval-india-bhakti-sufi-class-11-notes.webp"
+    },
+    {
+        "id": "oceanography-class-11-notes",
+        "title": "Oceanography Class Class 11 Quick Revision Notes & Recap — Exam Compass",
+        "description": "Boost your JEE/NEET prep with our concise oceanography quick revision notes, recapping key formulas & concepts for Class 11 Geography. Learn efficiently, achieve success!",
+        "category": "Geography",
+        "date": "March 21, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/oceanography-class-11-notes.webp"
+    },
+    {
+        "id": "world-history-industrial-revolution-class-11-notes",
+        "title": "World History: Industrial Revolution Class Class 11 Quick Revision Notes & Recap — Exam Compass",
+        "description": "Crunch class 11 history revision in minutes - Industrial revolution quick notes & formulas for JEE/NEET, ace World History in no time.",
+        "category": "History",
+        "date": "March 21, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/world-history-industrial-revolution-class-11-notes.webp"
+    },
+    {
+        "id": "ancient-india-indus-valley-class-11-notes",
+        "title": "Ancient India: Indus Valley Class Class 11 Quick Revision Notes & Recap — Exam Compass",
+        "description": "Master Ancient India",
+        "category": "General",
+        "date": "March 20, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/ancient-india-indus-valley-class-11-notes.webp"
+    },
+    {
+        "id": "ancient-india-mahajanapadas-class-11-notes",
+        "title": "Ancient India: Mahajanapadas Class Class 11 Quick Revision Notes & Recap — Exam Compass",
+        "description": "Unleash your exam acumen with quick revision keys: Learn Mahajanapadas history formulas, concise notes, and crucial exam tips to ace Class 11 exams and JEE/NEET.",
+        "category": "Mathematics",
+        "date": "March 20, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/ancient-india-mahajanapadas-class-11-notes.webp"
+    },
+    {
+        "id": "ancient-india-vedic-age-class-11-notes",
+        "title": "Ancient India: Vedic Age Class Class 11 Quick Revision Notes & Recap — Exam Compass",
+        "description": "Boost your scores in Class 11 board exams and JEE/NEET with our quick revision notes on Ancient India",
+        "category": "Mathematics",
+        "date": "March 20, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/ancient-india-vedic-age-class-11-notes.webp"
+    },
+    {
+        "id": "art-culture-architecture-class-11-notes",
+        "title": "Art & Culture: Architecture Class Class 11 Quick Revision Notes & Recap — Exam Compass",
+        "description": "Crash revision guide for Class 11 History of Architecture: Get instant recall with key formulas, concise notes, and a quick recap for JEE/NEET success.",
+        "category": "Chemistry",
+        "date": "March 20, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/art-culture-architecture-class-11-notes.webp"
+    },
+    {
+        "id": "medieval-india-delhi-sultanate-class-11-notes",
+        "title": "Medieval India: Delhi Sultanate Class Class 11 Quick Revision Notes & Recap — Exam Compass",
+        "description": "Crack your Class 11 History exams with ease. Quickly revise Delhi Sultanate in Medieval India with concise notes, formulas, and key recap points for JEE/NEET success.",
+        "category": "General",
+        "date": "March 20, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/medieval-india-delhi-sultanate-class-11-notes.webp"
+    },
+    {
+        "id": "medieval-india-mughals-class-11-notes",
+        "title": "Medieval India: Mughals Class Class 11 Quick Revision Notes & Recap — Exam Compass",
+        "description": "Boost your scores with our quick revision notes on Medieval India",
+        "category": "General",
+        "date": "March 20, 2026",
+        "readTime": "15 min read",
+        "image": "/blog-images/medieval-india-mughals-class-11-notes.webp"
+    },
+    {
         "id": "ai-exam-prep-future",
         "title": "AI in Competitive Exam Preparation India: 2026 Guide",
         "description": "Revolutionize your study with AI in competitive exam preparation India. Master JEE, NEET & UPSC using adaptive mock tests and smart tools for success.",
@@ -131,7 +239,7 @@ export const blogs: Blog[] = [
         "id": "classification-of-elements-class-11-notes",
         "title": "Classification of Elements Class 11 Notes — Exam Compass",
         "description": "Unlock the periodic table secrets: Master classification of elements with our expert guide. Break down compounds and identify elements like a pro.",
-        "category": "Chemistry",
+        "category": "Physics",
         "date": "March 16, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/classification-of-elements-class-11-notes.webp"
@@ -770,7 +878,7 @@ export const blogs: Blog[] = [
         "id": "some-basic-concepts-of-chemistry-class-11-notes",
         "title": "Some Basic Concepts of Chemistry Class 11 Notes — Exam Compass",
         "description": "Master core chemistry concepts for JEE & NEET with our comprehensive guide to Class 11 chemistry principles and formulas, boosting your exam scores today!",
-        "category": "Chemistry",
+        "category": "Physics",
         "date": "March 13, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/some-basic-concepts-of-chemistry-class-11-notes.webp"
@@ -797,7 +905,7 @@ export const blogs: Blog[] = [
         "id": "structure-of-the-atom-class-11-notes",
         "title": "Structure of The Atom Class 11 Notes — Exam Compass",
         "description": "Dive into the nucleus: Understand the structure of the atom, its components and the forces that hold them together. Boost your JEE/NEET prep with our chemistry expert-approved guide.",
-        "category": "Chemistry",
+        "category": "Biology",
         "date": "March 13, 2026",
         "readTime": "15 min read",
         "image": "/blog-images/structure-of-the-atom-class-11-notes.webp"
