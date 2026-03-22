@@ -68,7 +68,7 @@ async function generateGeminiImage(topic, outputPath, subject) {
         console.log(`🚀 Primary APIs down. Asking Gemini to design SVG...`);
         const prompt = `Generate a beautiful, complex, and modern SVG for a blog cover image. Topic: ${topic}, Subject: ${subject}. Format: raw SVG code ONLY. 1200x630. Dark theme.`;
 
-        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${key}`, {
+        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=${key}`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({

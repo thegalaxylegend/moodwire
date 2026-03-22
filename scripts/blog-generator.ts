@@ -3,7 +3,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import Groq from 'groq-sdk';
 import 'dotenv/config';
-import { checkBlogQuality, jsonToMarkdown, BlogPostJSON, QualityReport } from './utils/jules-quality.js';
+import { checkBlogQuality, jsonToMarkdown, BlogPostJSON, QualityReport, Section, MCQ } from './utils/jules-quality.js';
 
 
 const __filename = fileURLToPath(import.meta.url);
@@ -27,8 +27,8 @@ async function generateWithGemini(systemPrompt: string, userPrompt: string): Pro
     if (!key) return null;
 
     try {
-        console.log("🚀 Using Gemini Backup for content generation...");
-        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${key}`, {
+        console.log(`🚀 Calling Gemini Flash for content...`);
+        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=${key}`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
@@ -36,14 +36,22 @@ async function generateWithGemini(systemPrompt: string, userPrompt: string): Pro
                     role: "user", 
                     parts: [{ text: `${systemPrompt}\n\n${userPrompt}` }] 
                 }],
-                generationConfig: { maxOutputTokens: 8000, temperature: 0.7 }
+                generationConfig: { maxOutputTokens: 2000, temperature: 0.7 }
             })
         });
 
+        if (!response.ok) {
+            const errBody = await response.text();
+            console.error(`❌ Gemini API Error (${response.status}): ${errBody}`);
+            return null;
+        }
+
         const data: any = await response.json();
-        return data.candidates?.[0]?.content?.parts?.[0]?.text || null;
-    } catch (err) {
-        console.error("❌ Gemini Backup failed:", err);
+        const text = data.candidates?.[0]?.content?.parts?.[0]?.text || null;
+        if (text) console.log(`✅ Gemini content received (${text.length} chars).`);
+        return text;
+    } catch (err: any) {
+        console.error("❌ Gemini Backup Network Error:", err.message);
         return null;
     }
 }
@@ -169,9 +177,9 @@ async function generateGeminiImage(subject: string, topic: string, webpPath: str
         Topic: ${topic}
         Subject: ${subject}
         Style: Dark mode, neon colors, futuristic, scientific diagrams, no text, high detail.
-        Format: Return ONLY the raw SVG code. 1200x630.`;
+        Format: Return ONLY the raw SVG code starting with <svg. 1200x630. DO NOT use markdown code blocks.`;
 
-        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${key}`, {
+        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=${key}`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
@@ -182,13 +190,15 @@ async function generateGeminiImage(subject: string, topic: string, webpPath: str
 
         const data: any = await response.json();
         let svg = data.candidates?.[0]?.content?.parts?.[0]?.text || "";
-        svg = svg.replace(/```svg/g, "").replace(/```/g, "").trim();
+        // Aggressive cleanup for valid SVG
+        svg = svg.replace(/```svg/gi, "").replace(/```/gi, "").trim();
+        if (svg.includes("<svg") && !svg.startsWith("<svg")) {
+            svg = svg.substring(svg.indexOf("<svg"));
+        }
 
         if (!svg.includes("<svg")) throw new Error("Invalid SVG from Gemini");
 
-        // Escape dangerous characters to prevent XML parsing failure
         const safeSvg = svg.replace(/&(?![a-zA-Z0-9#]+;)/g, '&amp;');
-
         const { default: sharp } = await import('sharp');
         await sharp(Buffer.from(safeSvg)).resize(1200, 630).webp({ quality: 90 }).toFile(webpPath);
         
@@ -256,6 +266,97 @@ async function downloadHeroImage(subject: string, topic: string, slug: string): 
     return fallbackImage;
 }
 
+const GRANDMASTER_IDENTITY = `You are Ayush's senior content editor at Exam Compass. 
+Your voice is that of a PEER MENTOR (a student who cracked the exam helping juniors). 
+Voice: Specific, data-driven, authentic student tone. NO FILLER.`;
+
+const CROSS_SECTION_RULES = `
+RULES:
+1. NO CONCLUSION sections.
+2. NO FILLER PHRASES: "In conclusion", "Delve into", "Important to note", "Master [Topic] today".
+3. Use ONLY $ for inline math and $$ for block math.
+4. Factual Accuracy: Kangchenjunga is highest peak in India. Ganga is longest river.
+`;
+
+// --- SMART RECOVERY WRAPPER ---
+async function callLlmWithFallback(system: string, user: string, isJson: boolean = false): Promise<string> {
+    // 70B for content and outlines, 8B only for structured metadata
+    const isMetadata = user.includes("MCQ") || user.includes("quick_recall");
+    const primaryModel = isMetadata ? "llama-3.1-8b-instant" : "llama-3.3-70b-versatile";
+
+    try {
+        const completion = await groq.chat.completions.create({
+            messages: [{ role: "system", content: system }, { role: "user", content: user }],
+            model: primaryModel,
+            response_format: isJson ? { type: "json_object" } : undefined,
+            temperature: 0.7,
+            max_tokens: 4000
+        });
+        return completion.choices[0]?.message?.content || "";
+    } catch (err: any) {
+        if (err.message.includes("429") || err.message.includes("rate_limit")) {
+            console.log(`🛡️ Rate Limited on ${primaryModel}. Falling back to Gemini...`);
+            const gemini = await generateWithGemini(system + (isJson ? "\nReturn ONLY valid JSON." : ""), user);
+            if (gemini) return gemini;
+        }
+        throw err;
+    }
+}
+
+async function generateOutline(item: any, targetYear: number): Promise<string[]> {
+    console.log(`📑 Jules: Planning massive 10-point outline for ${item.topic}...`);
+    const system = GRANDMASTER_IDENTITY;
+    const user = `Create an EXHAUSTIVE 10-point outline of direct question headings (ending in "?") for a 3000-word revision guide on "${item.topic}".
+    The headings MUST cover every single sub-topic for Class ${String(item.class).replace(/\D/g, '')} in ${targetYear}.
+    MANDATORY: You MUST include exact headings for "What is Ayush's Note on ${item.topic}?", "What is the key Shortcut or Trick for ${item.topic}?", and "What are common Trap Questions for ${item.topic}?".
+    Return ONLY a JSON array of strings. Example: { "headings": ["What is...?", "How does...?", ...] }`;
+    const raw = await callLlmWithFallback(system, user, true);
+    try {
+        const data = JSON.parse(raw);
+        return data.headings || data.outline || Object.values(data)[0] as string[];
+    } catch {
+        return [`What is ${item.topic}?`, `Core concepts of ${item.topic}?`].slice(0, 10);
+    }
+}
+
+async function generateIntro(item: any, targetYear: number, displayClass: string): Promise<string> {
+    console.log(`✍️ Jules: Crafting 500-word Peer Mentor intro...`);
+    const system = `${GRANDMASTER_IDENTITY}\n${CROSS_SECTION_RULES}`;
+    const user = `Write a massive, 500-800 word introduction for "${item.topic}" for ${displayClass} exam prep in ${targetYear}.
+    Structure: Set the stage, explain exam weightage, and provide a personal/conceptual hook.`;
+    
+    return await callLlmWithFallback(system, user, false);
+}
+
+async function generateSection(item: any, heading: string, displayClass: string, targetYear: number): Promise<Section> {
+    console.log(`📖 Jules: Writing 800-word deep-dive: ${heading}...`);
+    const system = `${GRANDMASTER_IDENTITY}\n${CROSS_SECTION_RULES}`;
+    const user = `Write an EXHAUSTIVE, 800-word deep-dive section for the heading: "${heading}".
+    STRICT RULE: The first paragraph must follow this structure: "[Heading Topic] is [one-sentence definition]. It includes [2–3 key components]. For ${displayClass} exam prep in ${targetYear}, the most important aspect is [core exam focus]."
+    Expand with technical depth and tables. Return JSON: { "heading": "${heading}", "body": "...", "table": { "headers": [], "rows": [[]] } }`;
+
+    const raw = await callLlmWithFallback(system, user, true);
+    try {
+        return JSON.parse(raw);
+    } catch {
+        return { heading, body: raw };
+    }
+}
+
+async function generateExtras(item: any): Promise<{ mcqs: MCQ[], recall: string[] }> {
+    console.log(`🎯 Jules: Generating MCQs and Quick Recall...`);
+    const system = GRANDMASTER_IDENTITY;
+    const user = `Generate 5 high-yield MCQs and 7 Quick Recall bullet points for "${item.topic}".
+    Return as JSON: { "mcqs": [...], "quick_recall": [...] }`;
+    const raw = await callLlmWithFallback(system, user, true);
+    try {
+        const data = JSON.parse(raw);
+        return { mcqs: data.mcqs || [], recall: data.quick_recall || [] };
+    } catch {
+        return { mcqs: [], recall: [] };
+    }
+}
+
 async function generateBlogs() {
     console.log(`🤖 Jules: Starting Blog Generation (Queued)...`);
 
@@ -282,100 +383,33 @@ async function generateBlogs() {
     for (const item of queue) {
         // Area 3: Dynamic Target Year (Switch on August 1st)
         const now = new Date();
-        const currentYear = now.getFullYear();
-        const currentMonth = now.getMonth(); // 0-indexed (August = 7)
+        const currentYear = Number(now.getFullYear());
+        const currentMonth = now.getMonth(); 
         const targetYear = currentMonth >= 7 ? currentYear + 1 : currentYear;
 
+        if (targetYear < 2024 || targetYear > 2030) {
+            console.error(`🚨 Bad targetYear: ${targetYear}. Skipping ${item.topic}`);
+            continue;
+        }
 
-        console.log(`\n✍️ Generating: ${item.topic} (${item.subject}, Class ${item.class}, Year ${targetYear})`);
+        const displayClass = item.class.startsWith('Class ') ? item.class : `Class ${item.class}`;
+        const numericClass = Number(item.class.replace(/\D/g, ''));
+
+        console.log(`\n✍️ Generating: ${item.topic} (${item.subject}, ${displayClass}, Year ${targetYear})`);
         
         const filePath = path.join(BLOG_DIR, `${item.targetSlug}.md`);
         
         // --- DATE PRESERVATION LOGIC ---
-        // If the blog already exists, we MUST preserve its original release date.
         let publishDate = getShiftedDate();
         if (fs.existsSync(filePath)) {
             const existingContent = fs.readFileSync(filePath, 'utf8');
             const dateMatch = existingContent.match(/date:\s*["'](.*?)["']/);
-            if (dateMatch) {
-                publishDate = dateMatch[1];
-                console.log(`📅 Preserving original date: ${publishDate}`);
-            }
+            if (dateMatch) publishDate = dateMatch[1];
         }
 
         const heroImagePath = await downloadHeroImage(item.subject, item.topic, item.targetSlug);
 
-        
-        // --- STEP 1: GENERATE DYNAMIC SEO DESCRIPTION ---
-        console.log("📑 Jules: Crafting unique SEO description...");
-        let seoDescription = `Interactive quick recap for ${item.topic} Class ${item.class} — MCQs, key points, trap questions + free PDF download.`;
-        try {
-            const seoCompletion = await groq.chat.completions.create({
-                messages: [{ 
-                    role: "system", 
-                    content: "You are an SEO specialist. Write a high-click-through meta description (max 155 chars) for a blog post. YOU MUST INCLUDE these exact words at the end: 'MCQs, key points, + free PDF download'. Do not use quotes." 
-                }, { 
-                    role: "user", 
-                    content: `Topic: ${item.topic}, Subject: ${item.subject}, Class: ${item.class}. Focus: Quick Revision, Trap Questions.` 
-                }],
-                model: "llama-3.1-8b-instant",
-                max_tokens: 100
-            });
-            seoDescription = seoCompletion.choices[0]?.message?.content?.replace(/"/g, '').trim() || seoDescription;
-        } catch (e) {}
-
-        const isScience = ['Physics', 'Chemistry', 'Biology', 'Maths', 'Mathematics'].includes(item.subject);
-        const promptAdditions = isScience 
-            ? 'Include high-yield JEE/NEET data, Core Concepts, Formulae Tables (Use ONLY $ for inline math and $$ for block math. DO NOT duplicate math as plain text before the LaTeX), and MCQs.' 
-            : 'Include historical timelines, maps contexts, Core Concepts, and MCQs. DO NOT include any mathematical equations, formulas, or JEE/NEET data.';
-        
-        let factCheckRules = '';
-        if (item.subject === 'Geography' || item.topic.toLowerCase().includes('geography')) {
-            factCheckRules = `
-            FACT CHECK RULES FOR GEOGRAPHY:
-            1. Highest Peak in India: Kangchenjunga (NOT Mount Everest).
-            2. Longest River in India: Ganga (NOT Indus).
-            3. Western Ghats are older than Himalayas.
-            4. Tropic of Cancer passes through 8 Indian states.`;
-        }
-            
-        const systemPrompt = `You are Ayush's senior content editor. Return ONLY valid JSON.
-        
-        STRICT RULES — violating any of these will cause the post to be rejected:
-        1. FIRST PARAGRAPH ENFORCEMENT: The very first paragraph under every main H2 heading must follow this structure: "[Topic] is [one-sentence definition]. It includes [2–3 key components]. For Class ${item.class.replace(/\D/g, '')} exam prep in ${targetYear}, the most important aspect is [core exam focus]."
-        2. QUESTION HEADERS: ALL H2 headings must be phrased as direct questions ending in "?". (e.g., "What is ${item.topic}?")
-        3. STRUCTURAL EXCEPTION: Keep these exact H3 labels: "Quick Recall Box", "Trap Exceptions", "Ayush's Tips", "Historical Timelines", "MCQs", "Maps Context", "Core Concepts".
-        4. TABLE CLOSING: Always close a markdown or JSON table completely before starting any Ayush's Tips/notes. A note must never appear as a row inside a table.
-        5. MCQ MANDATE: Every MCQ must include: question, 4 options (a/b/c/d), and a bold "**Answer: [letter]) [Text]** — [One-sentence explanation]."
-        6. FACTUAL ACCURACY: India's highest peak is Kangchenjunga (NOT Everest). India's longest river is the Ganga (NOT Indus).
-        7. NO PREAMBLE: Return ONLY valid JSON.
-        
-        JSON SCHEMA:
-        {
-          "title": "${item.topic} Class ${item.class.replace(/\D/g, '')} Notes for ${targetYear}",
-          "slug": "${item.targetSlug}",
-          "subject": "...",
-          "chapter_name": "${item.topic}",
-          "exam_class": ${item.class.replace(/\D/g, '')},
-          "last_updated": "${new Date().toISOString().split('T')[0]}",
-          "practice_link_path": "...",
-          "hero_image": "${heroImagePath}",
-          "content": {
-            "intro": "...",
-            "sections": [
-              { "heading": "What is ...?", "body": "...", "table": { "headers": ["Col1", "Col2"], "rows": [["val", "val"]] } }
-            ],
-            "mcqs": [
-              { "question": "...", "options": ["a) ...", "b) ...", "c) ...", "d) ..."], "answer": "b", "answer_text": "text" }
-            ],
-            "quick_recall": ["point 1", "point 2"]
-          }
-        }`;
-
-
-        const userPrompt = `TOPIC: ${item.topic}, SUBJECT: ${item.subject}, CLASS: ${item.class}, EXAM TARGET YEAR: ${targetYear}. 
-        Write a deep-dive revision guide. Style: "Quick Revision & Recap". Include Ayush's Personal Note (1st person), ${promptAdditions}. Highlight "Trap Exceptions" for quick review.`;
-
+        // --- MULTI-PASS GENERATION ---
         let finalPost: BlogPostJSON | null = null;
         let qualityReport: QualityReport | null = null;
         let attempts = 0;
@@ -383,99 +417,49 @@ async function generateBlogs() {
 
         while (attempts < maxAttempts && !finalPost) {
             attempts++;
-            console.log(`📡 Attempt ${attempts}/${maxAttempts} for ${item.topic}...`);
+            console.log(`📡 Multi-Pass Attempt ${attempts}/${maxAttempts} for ${item.topic}...`);
 
-            let rawJson = "";
-            let success = false;
+            try {
+                const outline = await generateOutline(item, targetYear);
+                const intro = await generateIntro(item, targetYear, displayClass);
+                
+                const sections: Section[] = [];
+                for (const heading of outline) {
+                    sections.push(await generateSection(item, heading, displayClass, targetYear));
+                    // 3-second delay to avoid rate limits
+                    await new Promise(r => setTimeout(r, 3000));
+                }
 
-            for (const model of GROQ_MODELS) {
-                try {
-                    console.log(`📝 Calling Groq JSON Mode (${model})...`);
-                    const chatCompletion = await groq.chat.completions.create({
-                        messages: [
-                            { role: "system", content: systemPrompt },
-                            { role: "user", content: userPrompt }
-                        ],
-                        model: model,
-                        response_format: { type: "json_object" },
-                        temperature: 0.6,
-                        max_tokens: 8000
-                    });
+                const extras = await generateExtras(item);
 
-                    rawJson = chatCompletion.choices[0]?.message?.content || "";
-                    if (rawJson) {
-                        success = true;
-                        break;
+                const assembled: BlogPostJSON = {
+                    title: `${item.topic} ${displayClass} Notes for ${targetYear} — Grandmaster Revision`,
+                    slug: item.targetSlug,
+                    subject: item.subject,
+                    chapter_name: item.topic,
+                    exam_class: numericClass,
+                    last_updated: new Date().toISOString().split('T')[0],
+                    practice_link_path: "",
+                    hero_image: heroImagePath,
+                    content: {
+                        intro,
+                        sections,
+                        mcqs: extras.mcqs,
+                        quick_recall: extras.recall
                     }
-                } catch (err: any) {
-                    console.warn(`⚠️ Model ${model} failed: ${err.message}`);
-                    await new Promise(r => setTimeout(r, 5000));
+                };
+
+                // --- QUALITY CHECK GATE ---
+                const report = checkBlogQuality(assembled);
+                qualityReport = report;
+
+                if (report.passed) {
+                    finalPost = assembled;
+                } else {
+                    console.log(`❌ QUALITY FAILED (Score: ${report.score}). Errors: ${report.critical_failures.join(', ')}`);
                 }
-            }
-
-            if (!success) {
-                console.log("🛡️ Groq failed. Attempting Gemini Backup (JSON Mode)...");
-                const geminiRaw = await generateWithGemini(systemPrompt + "\nIMPORTANT: Return ONLY valid JSON.", userPrompt);
-                if (geminiRaw) {
-                    rawJson = geminiRaw;
-                    success = true;
-                }
-            }
-
-            if (success && rawJson) {
-                try {
-                    const parsed: BlogPostJSON = JSON.parse(rawJson);
-                    
-                    // --- QUALITY CHECK GATE ---
-                    const report = checkBlogQuality(parsed);
-                    qualityReport = report;
-
-                    if (report.passed) {
-                        console.log(`✅ QUALITY PASSED (Score: ${report.score}/100)`);
-                        finalPost = parsed;
-                    } else if (attempts < maxAttempts) {
-                        console.log(`❌ QUALITY FAILED (Score: ${report.score}). Critical: ${report.critical_failures.join(', ')}`);
-                        
-                        if (report.regenerate_sections.length > 0) {
-                            console.log(`🔧 Attempting targeted regeneration for: ${report.regenerate_sections.join(', ')}`);
-                            const targetPrompt = `The quality check failed. Sections that failed: ${report.regenerate_sections.join(', ')}. Reasons: ${report.critical_failures.join('; ')}. 
-                            Regenerate ONLY these sections for the post "${item.topic}". Return only valid JSON for these specific sections. 
-                            Rules: MCQ must have answer, no personal notes in tables, facts must be 100% correct.`;
-                            
-                            const fixCompletion = await groq.chat.completions.create({
-                                messages: [
-                                    { role: "system", content: systemPrompt },
-                                    { role: "user", content: targetPrompt }
-                                ],
-                                model: GROQ_PROMPT_MODEL,
-                                response_format: { type: "json_object" },
-                                temperature: 0.3
-                            });
-
-                            const fixedData = JSON.parse(fixCompletion.choices[0]?.message?.content || "{}");
-                            // Merge fixes
-                            if (fixedData.content) {
-                                if (fixedData.content.mcqs) parsed.content.mcqs = fixedData.content.mcqs;
-                                if (fixedData.content.sections) {
-                                    fixedData.content.sections.forEach((newSec: any) => {
-                                        const idx = parsed.content.sections.findIndex(s => s.heading === newSec.heading);
-                                        if (idx !== -1) parsed.content.sections[idx] = newSec;
-                                    });
-                                }
-                            }
-                            
-                            // Re-check after partial fix
-                            const secondReport = checkBlogQuality(parsed);
-                            if (secondReport.passed) {
-                                console.log(`✅ POST RECOVERED (Score: ${secondReport.score})`);
-                                finalPost = parsed;
-                                qualityReport = secondReport;
-                            }
-                        }
-                    }
-                } catch (e: any) {
-                    console.error("❌ JSON Parse Failed:", e.message);
-                }
+            } catch (err: any) {
+                console.error(`🚨 Pass failed: ${err.message}`);
             }
         }
 
@@ -485,10 +469,7 @@ async function generateBlogs() {
             slug: item.targetSlug,
             status: finalStatus,
             quality_score: qualityReport?.score || 0,
-            retries: attempts - 1,
-            auto_fixed: qualityReport?.auto_fixed || [],
-            critical_failures: qualityReport?.critical_failures || [],
-            warnings: qualityReport?.warnings || []
+            retries: attempts - 1
         });
 
         if (finalPost && !isDryRun) {
@@ -499,14 +480,10 @@ async function generateBlogs() {
         } else if (finalPost && isDryRun) {
             console.log(`🧪 DRY RUN: ${item.targetSlug} would have been published.`);
         } else {
-
-            const failPath = path.join(FAILED_DIR, `${item.targetSlug}-failed.json`);
-            fs.writeFileSync(failPath, JSON.stringify({ item, report: qualityReport }, null, 2));
-            console.error(`🚨 PIPELINE CRITICAL FAILURE: ${item.topic} failed quality gate after ${maxAttempts} attempts.`);
+            console.error(`🚨 PIPELINE CRITICAL FAILURE: ${item.topic} failed after ${maxAttempts} attempts.`);
         }
 
-        // --- COOLDOWN ---
-        await new Promise(r => setTimeout(r, 10000));
+        await new Promise(r => setTimeout(r, 5000));
     }
 
     // --- SAVE REPORT ---

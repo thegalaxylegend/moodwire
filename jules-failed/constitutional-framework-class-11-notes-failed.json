@@ -1,0 +1,34 @@
+{
+  "item": {
+    "subject": "Polity",
+    "topic": "Constitutional Framework",
+    "class": "Class 11",
+    "targetSlug": "constitutional-framework-class-11-notes"
+  },
+  "report": {
+    "passed": false,
+    "score": 65,
+    "critical_failures": [
+      "Extremely low word count: 1147 words. Minimum 1500+ required for Grandmaster status."
+    ],
+    "warnings": [
+      "Fewer than 3 MCQs (below recommendation).",
+      "Using generic fallback image: /blog-images/fallbacks/generic-study.webp"
+    ],
+    "auto_fixed": [
+      {
+        "field": "subject",
+        "old": "Polity",
+        "new": "Social Science"
+      },
+      {
+        "field": "practice_link_path",
+        "old": "/polity-practice-questions",
+        "new": "/class-11/physics/constitutional-framework-class-11-notes"
+      }
+    ],
+    "regenerate_sections": [
+      "all"
+    ]
+  }
+}

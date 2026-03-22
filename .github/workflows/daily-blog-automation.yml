@@ -33,11 +33,18 @@ jobs:
           VITE_GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GEMINI_BACKUP_KEY: ${{ secrets.GEMINI_BACKUP_KEY }}
           HF_API_TOKEN: ${{ secrets.HF_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: npx tsx scripts/blog-generator.ts
 
       - name: Task 3 - Sync Firestore
+        id: firestore_sync
         continue-on-error: true
         run: npx tsx scripts/firestore-uploader.ts
+
+      - name: Warn on Firestore failure
+        if: steps.firestore_sync.outcome == 'failure'
+        run: echo "⚠️ Firestore sync failed — site may serve stale data"
 
       - name: Task 4 - Regenerate SEO Manifest
         env:
@@ -55,7 +62,12 @@ jobs:
           HF_API_TOKEN: ${{ secrets.HF_API_TOKEN }}
         run: node scripts/repair-images.js
 
+      - name: Cleanup Secrets
+        if: always()
+        run: rm -f service-account.json
+
       - name: Commit and Push New Blogs
+
         run: |
           git config --global user.name 'Jules Blog Bot'
           git config --global user.email 'jules-bot@users.noreply.github.com'
@@ -84,8 +96,8 @@ jobs:
         run: |
           REPORT_FILE=$(ls jules-reports/pipeline-*.json | head -n 1)
           if [ -f "$REPORT_FILE" ]; then
-            # Extract scores and names for the notification
-            SCORE_REPORT=$(jq -r '.[] | "▫️ \(.slug): \(.quality_score)/100 (Status: \(.status))"' "$REPORT_FILE" | awk '{printf "%s\\n", $0}')
+            # Extract scores and names for the notification with clickable links
+            SCORE_REPORT=$(jq -r '.[] | "▫️ [\\(.slug)](https://examcompass.pages.dev/blog/\\(.slug)): \\(.quality_score)/100 (Status: \\(.status))"' "$REPORT_FILE" | awk '{printf "%s\\n", $0}')
             FAILED_COUNT=$(jq '[.[] | select(.status == "failed")] | length' "$REPORT_FILE")
             
             if [ "$FAILED_COUNT" -gt 0 ]; then

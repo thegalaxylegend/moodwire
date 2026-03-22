@@ -102,11 +102,13 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
     }
 
     // Practice link path correction
-    const expectedPrefix = SUBJECT_TO_PATH[post.subject] || "/class-11/physics/";
-    if (!post.practice_link_path.startsWith(expectedPrefix)) {
+    const expectedPrefix = SUBJECT_TO_PATH[post.subject || 'default'] || "/class-11/physics/";
+    if (post.practice_link_path && !post.practice_link_path.startsWith(expectedPrefix)) {
         const newPath = `${expectedPrefix}${post.slug}`;
         report.auto_fixed.push({ field: 'practice_link_path', old: post.practice_link_path, new: newPath });
         post.practice_link_path = newPath;
+    } else if (!post.practice_link_path) {
+        post.practice_link_path = `${expectedPrefix}${post.slug}`;
     }
 
     // --- CRITICAL FAILURES ---
@@ -164,9 +166,12 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
         report.warnings.push("Fewer than 3 MCQs (below recommendation).");
     }
 
-    const wordCount = fullText.split(' ').length;
-    if (wordCount < 500) {
-        report.warnings.push(`Low word count: ${wordCount} words.`);
+    const wordCount = fullText.split(/\s+/).length;
+    if (wordCount < 1500) {
+        report.critical_failures.push(`Extremely low word count: ${wordCount} words. Minimum 1500+ required for Grandmaster status.`);
+        report.regenerate_sections.push("all");
+    } else if (wordCount < 2000) {
+        report.warnings.push(`Word count (${wordCount}) is below the 2000-3500 target range.`);
     }
 
     const genericImages = ["generic-study.webp", "geography-terrain.webp"];
@@ -180,10 +185,10 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
     }
 
     // --- SCORING & FINAL PASS ---
-    score -= (report.critical_failures.length * 20);
+    score -= (report.critical_failures.length * 25);
     score -= (report.warnings.length * 5);
     report.score = Math.max(0, score);
-    report.passed = report.score >= 60 && report.critical_failures.length === 0;
+    report.passed = report.score >= 70 && report.critical_failures.length === 0;
 
     return report;
 }
