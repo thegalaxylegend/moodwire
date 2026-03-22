@@ -1,10 +1,11 @@
 ---
 title: "DPSP & Duties Class 11 Quick Recap — MCQs, Key Points & PDF Download"
 description: "Boost your Class 11 Polity exam prep with quick revision on DPSP & Duties. Master MCQs, key points, and ace tricky questions with our comprehensive guide MCQs, key points, + free PDF download"
-category: "Social Science"
-keywords: "DPSP & Duties quick recap, DPSP & Duties trap questions, class 11 Polity MCQs, DPSP & Duties pdf download, Exam Compass"
-date: "March 21, 2026"
+category: "Physics"
+keywords: "dpsp duties class 11 notes, Physics, Exam Compass"
 ---
+
+# DPSP & Duties Class 11 Quick Recap — MCQs, Key Points & PDF Download
 
 ![DPSP & Duties notes for students](/blog-images/fallbacks/generic-study.webp)
 
@@ -77,3 +78,6 @@ Here are some tips to help you master DPSP & Duties:
 * **Focus on understanding the historical context**: Recognize the significance of key events and leaders in shaping the concept of DPSP & Duties.
 * **Identify the core concepts**: Summarize the key principles and duties outlined in the Directive Principles of State Policy.
 * **Practice MCQs and trap exceptions**: Test your understanding with sample MCQs and watch out for potential trap exceptions to ensure a comprehensive grasp of the subject.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

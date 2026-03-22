@@ -1,10 +1,11 @@
 ---
 title: "Fundamental Rights Class 11 Quick Recap — MCQs, Key Points & PDF Download"
 description: "Boost Class 11 Polity exam scores with a quick revision guide on Fundamental Rights. Identify trap questions and ace the exam with MCQs, key points, + free PDF download"
-category: "Social Science"
-keywords: "Fundamental Rights quick recap, Fundamental Rights trap questions, class 11 Polity MCQs, Fundamental Rights pdf download, Exam Compass"
-date: "March 21, 2026"
+category: "Physics"
+keywords: "fundamental rights class 11 notes, Physics, Exam Compass"
 ---
+
+# Fundamental Rights Class 11 Quick Recap — MCQs, Key Points & PDF Download
 
 ![Fundamental Rights notes for students](/blog-images/fallbacks/generic-study.webp)
 
@@ -70,3 +71,6 @@ The role of the judiciary in protecting Fundamental Rights is crucial. The court
 
 ## Quick Revision & Recap
 To quickly revise and recap the key points related to Fundamental Rights, I've been **creating concept maps** and **summarizing the main provisions** of the Constitution. I've also been **practicing with sample questions** and **assessing my understanding** of the subject. By doing so, I'm able to **retain the information** more effectively and to **develop a deeper understanding** of the subject. I've been **focusing on the key concepts** and **identifying the relationships** between different rights and their applications. As I revise and recap the subject, I'm reminded of the **significance of Fundamental Rights** in shaping the country's democratic framework and **promoting social justice**.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

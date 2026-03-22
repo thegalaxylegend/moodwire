@@ -187,3 +187,6 @@ Now, go ahead and take the next step in your journey to mastering ray optics. St
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

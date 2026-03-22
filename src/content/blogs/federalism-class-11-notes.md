@@ -1,10 +1,11 @@
 ---
 title: "Federalism Class 11 Quick Recap — MCQs, Key Points & PDF Download"
 description: "Brush up on Class 11 Polity with our quick federalism revision guide. Master key concepts, avoid traps + score high with our MCQs, key points, + free PDF download."
-category: "Social Science"
-keywords: "Federalism quick recap, Federalism trap questions, class 11 Polity MCQs, Federalism pdf download, Exam Compass"
-date: "March 21, 2026"
+category: "General"
+keywords: "federalism class 11 notes, General, Exam Compass"
 ---
+
+# Federalism Class 11 Quick Recap — MCQs, Key Points & PDF Download
 
 ![Federalism notes for students](/blog-images/fallbacks/generic-study.webp)
 
@@ -76,3 +77,6 @@ As I prepare for the Class 11 exam in 2026, I need to focus on the key concepts 
 - Understand the core concepts of federalism, including federal principles, unitary features, and state-center relations.
 - Practice MCQs and revise the key features of federalism.
 - Be aware of the trap exceptions, including emergency provisions, centralized tendencies, and state autonomy.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

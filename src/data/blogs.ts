@@ -11,6 +11,60 @@ export interface Blog {
 
 export const blogs: Blog[] = [
     {
+        "id": "agriculture-class-11-notes",
+        "title": "Agriculture Class 11 Notes for 2026",
+        "description": "Agriculture is the practice of cultivating land and breeding plants and animals to provide food, fiber, medicinal plants, and other products to sustain and",
+        "category": "Economy",
+        "date": "2026-03-22",
+        "readTime": "15 min read",
+        "image": "/blog-images/fallbacks/generic-study.webp"
+    },
+    {
+        "id": "local-government-class-11-notes",
+        "title": "Local Government Class 11 Notes for 2026",
+        "description": "",
+        "category": "Social Science",
+        "date": "2026-03-22",
+        "readTime": "15 min read",
+        "image": "/blog-images/fallbacks/generic-study.webp"
+    },
+    {
+        "id": "physics-heat-light-class-11-notes",
+        "title": "Physics: Heat & Light Class 11 Notes for 2026",
+        "description": "",
+        "category": "General Science",
+        "date": "2026-03-22",
+        "readTime": "15 min read",
+        "image": "/blog-images/fallbacks/generic-study.webp"
+    },
+    {
+        "id": "physics-mechanics-class-11-notes",
+        "title": "Physics: Mechanics Class 11 Notes for 2026",
+        "description": "Physics: Mechanics is the study of the motion of objects. It includes kinematics, dynamics, and energy. For Class 11 exam prep in 2026, the most important ",
+        "category": "General Science",
+        "date": "2026-03-22",
+        "readTime": "15 min read",
+        "image": "/blog-images/fallbacks/generic-study.webp"
+    },
+    {
+        "id": "planning-in-india-class-11-notes",
+        "title": "Planning in India Class 11 Notes for 2026",
+        "description": "Planning in India is a process of formulating and implementing plans for the development of the country. It includes the Five-Year Plans, annual plans, and",
+        "category": "Economy",
+        "date": "2026-03-22",
+        "readTime": "15 min read",
+        "image": "/blog-images/fallbacks/generic-study.webp"
+    },
+    {
+        "id": "poverty-unemployment-class-11-notes",
+        "title": "Poverty & Unemployment Class 11 Notes for 2026",
+        "description": "",
+        "category": "Economy",
+        "date": "2026-03-22",
+        "readTime": "15 min read",
+        "image": "/blog-images/fallbacks/generic-study.webp"
+    },
+    {
         "id": "biogeography-class-11-notes",
         "title": "Biogeography Class 11 Quick Revision Notes & Recap — Exam Compass",
         "description": "Boost your exam scores with our quick biogeography revision notes, covering all key formulas, concepts & shortcuts for class 11 JEE & NEET prep.",

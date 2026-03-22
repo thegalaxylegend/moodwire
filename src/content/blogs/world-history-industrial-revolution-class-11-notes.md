@@ -487,3 +487,6 @@ I, Ayush, have these final reflections and thoughts on the Industrial Revolution
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

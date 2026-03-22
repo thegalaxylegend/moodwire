@@ -120,3 +120,6 @@ Sequences and Series are not just lists of numbers; they are the language of gro
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

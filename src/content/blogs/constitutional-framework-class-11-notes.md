@@ -1,10 +1,11 @@
 ---
 title: "Constitutional Framework Class 11 Quick Recap — MCQs, Key Points & PDF Download"
 description: "Master key concepts of the Indian Constitutional Framework with our ultimate Class 11 guide, covering key points, tricky questions, including MCQs, key points, + free PDF download"
-category: "Social Science"
-keywords: "Constitutional Framework quick recap, Constitutional Framework trap questions, class 11 Polity MCQs, Constitutional Framework pdf download, Exam Compass"
-date: "March 21, 2026"
+category: "Physics"
+keywords: "constitutional framework class 11 notes, Physics, Exam Compass"
 ---
+
+# Constitutional Framework Class 11 Quick Recap — MCQs, Key Points & PDF Download
 
 ![Constitutional Framework notes for students](/blog-images/fallbacks/generic-study.webp)
 
@@ -88,3 +89,6 @@ I find it helpful to review these trap exceptions regularly, as they can be tric
 **D)** They are guidelines for the government to follow while making policies and laws
 
 **Answer:** **D)** They are guidelines for the government to follow while making policies and laws. The Directive Principles are guidelines that the government is expected to follow while making policies and laws. They are not enforceable in a court of law, but they provide a framework for the government to work towards the objectives of the Constitution.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

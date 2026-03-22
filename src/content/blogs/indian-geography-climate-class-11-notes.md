@@ -1,10 +1,11 @@
 ---
 title: "Climate Class 11 Quick Recap — MCQs, Key Points & PDF Download"
 description: "Boost your Class 11 Geography scores with our quick revision guide. Get to know the trap questions, key concepts & major changes. Prepare with our handy MCQs, key points, + free PDF download"
-category: "Geography"
-keywords: "Climate quick recap, Climate trap questions, class 11 Geography MCQs, Climate pdf download, Exam Compass"
-date: "March 21, 2026"
+category: "General"
+keywords: "indian geography climate class 11 notes, General, Exam Compass"
 ---
+
+# Climate Class 11 Quick Recap — MCQs, Key Points & PDF Download
 
 ![Climate notes for students](/blog-images/fallbacks/geography-terrain.webp)
 
@@ -79,3 +80,6 @@ The core concepts of climate include **atmospheric circulation**, **ocean curren
 **C)** Paris Agreement
 **D)** All of the above
 **Answer:** **D)** All of the above. The Montreal Protocol, Kyoto Protocol, and Paris Agreement are all international agreements that aim to address climate change. The Montreal Protocol focuses on reducing ozone-depleting substances, while the Kyoto Protocol and Paris Agreement focus on reducing greenhouse gas emissions.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

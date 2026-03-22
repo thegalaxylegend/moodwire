@@ -1,10 +1,11 @@
 ---
 title: "Physical Geography Class 11 Quick Recap — MCQs, Key Points & PDF Download"
 description: "Boost your Class 11 Geography scores with our quick revision guide. Learn Physical Geography tricks, identify trap questions and ace your exams. Download our free PDF now and start scoring high. MCQs, key points, + free PDF download"
-category: "Geography"
-keywords: "Physical Geography quick recap, Physical Geography trap questions, class 11 Geography MCQs, Physical Geography pdf download, Exam Compass"
-date: "March 21, 2026"
+category: "Physics"
+keywords: "indian geography physical class 11 notes, Physics, Exam Compass"
 ---
+
+# Physical Geography Class 11 Quick Recap — MCQs, Key Points & PDF Download
 
 ![Physical Geography notes for students](/blog-images/fallbacks/geography-terrain.webp)
 
@@ -54,3 +55,6 @@ The Earth's surface has undergone significant changes over millions of years. Th
 
 ## What is the context of Maps in Physical Geography?
 Maps are an essential tool in Physical Geography, used to represent the Earth's surface and its features. Maps can be used to study the distribution of landforms, climate, vegetation, and water bodies. The **Tropic of Cancer** is an imaginary line that passes through 8 Indian states, and its location can be represented on a map. Maps can also be used to study the historical context of the Earth's formation, including the movement of tectonic plates and the formation of mountain ranges.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

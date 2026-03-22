@@ -270,3 +270,6 @@ NCERT asks "Explain the trend in Ionization Enthalpy across a period." Always me
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

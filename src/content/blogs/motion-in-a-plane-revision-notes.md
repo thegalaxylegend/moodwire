@@ -139,3 +139,6 @@ Motion in a Plane is the first time we truly see the vector nature of the univer
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

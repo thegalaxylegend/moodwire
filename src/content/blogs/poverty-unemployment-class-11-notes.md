@@ -1,0 +1,70 @@
+---
+title: "Poverty & Unemployment Class 11 Notes for 2026"
+description: ""
+category: "Physics"
+keywords: "poverty unemployment class 11 notes, Physics, Exam Compass"
+---
+
+# Poverty & Unemployment Class 11 Notes for 2026
+
+![Poverty & Unemployment recap](/blog-images/fallbacks/generic-study.webp)
+
+*Last Updated: 2026-03-22*
+
+## What is Poverty & Unemployment?
+
+
+
+
+## What is Poverty & Unemployment?
+
+Poverty & Unemployment is a socio-economic issue. It includes lack of income, unemployment, and underemployment. For Class 11 exam prep in 2026, the most important aspect is understanding the concepts of poverty line and types of unemployment.
+
+
+| Type of Unemployment | Description |
+| --- | --- |
+| Frictional Unemployment | Temporary unemployment due to job transition |
+| Structural Unemployment | Long-term unemployment due to changes in industry |
+| Cyclical Unemployment | Unemployment due to economic downturn |
+
+
+## How to Measure Poverty?
+
+Measuring poverty involves calculating the poverty line, which is the minimum income required to meet basic needs. It includes headcount ratio, poverty gap, and Gini coefficient. For Class 11 exam prep in 2026, the most important aspect is understanding the differences between these measures.
+
+
+| Measure | Description |
+| --- | --- |
+| Headcount Ratio | Percentage of population below poverty line |
+| Poverty Gap | Average distance below poverty line |
+| Gini Coefficient | Income inequality measure |
+
+
+## Quick Recall Box
+
+- Poverty line is the minimum income required to meet basic needs
+- Types of unemployment: frictional, structural, cyclical
+- Measures of poverty: headcount ratio, poverty gap, Gini coefficient
+
+## MCQs
+
+
+**1. What is the main cause of poverty in India?**
+a) Lack of education
+b) Lack of job opportunities
+c) Corruption
+d) All of the above
+
+**Answer:** d) All of the above are contributing factors to poverty in India.
+
+
+**2. Which type of unemployment is caused by economic downturn?**
+a) Frictional Unemployment
+b) Structural Unemployment
+c) Cyclical Unemployment
+d) Seasonal Unemployment
+
+**Answer:** c) Cyclical unemployment is caused by economic downturn.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

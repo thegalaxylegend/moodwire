@@ -50,3 +50,6 @@ Mastering JEE Advanced Mathematics is no longer about doing 500 repetitive probl
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

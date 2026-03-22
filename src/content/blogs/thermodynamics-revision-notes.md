@@ -116,3 +116,6 @@ Thermodynamics is the science of limits. By understanding the mathematical proof
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
