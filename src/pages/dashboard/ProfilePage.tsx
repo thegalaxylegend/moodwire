@@ -38,7 +38,7 @@ export const ProfilePage = () => {
 
     // Handle Class Change Logic
     useEffect(() => {
-        const isJunior = ['Class 6th', 'Class 7th', 'Class 8th', 'Class 9th', 'Class 10th'].includes(userClass);
+        const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(userClass);
         if (isJunior) {
             if (targetExam !== 'School Exams') setTargetExam('School Exams');
         } else {
@@ -263,8 +263,7 @@ export const ProfilePage = () => {
                                         value={userClass}
                                         onChange={setUserClass}
                                         options={[
-                                            { value: 'Class 6th', label: 'Class 6th' },
-                                            { value: 'Class 7th', label: 'Class 7th' },
+
                                             { value: 'Class 8th', label: 'Class 8th' },
                                             { value: 'Class 9th', label: 'Class 9th' },
                                             { value: 'Class 10th', label: 'Class 10th' },
@@ -276,7 +275,7 @@ export const ProfilePage = () => {
                                     />
 
                                     {/* Conditional Exam Selection */}
-                                    {!['Class 6th', 'Class 7th', 'Class 8th', 'Class 9th', 'Class 10th'].includes(userClass) && (
+                                    {!['Class 8th', 'Class 9th', 'Class 10th'].includes(userClass) && (
                                         <CustomSelect
                                             label="Target Exam"
                                             value={targetExam}
@@ -284,10 +283,7 @@ export const ProfilePage = () => {
                                             options={[
                                                 { value: 'JEE Mains', label: 'JEE Mains' },
                                                 { value: 'NEET UG', label: 'NEET UG' },
-                                                { value: 'UPSC CSE', label: 'UPSC CSE' },
-                                                { value: 'BITSAT', label: 'BITSAT' },
-                                                { value: 'CLAT', label: 'CLAT' },
-                                                { value: 'GATE', label: 'GATE' }
+
                                             ]}
                                             placeholder="Select Exam"
                                         />

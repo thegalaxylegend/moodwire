@@ -8,15 +8,7 @@ import { AuthGate } from '../../components/auth/AuthGate';
 const EXAM_OPTIONS = [
     { value: 'JEE Mains', label: 'JEE Mains' },
     { value: 'JEE Advanced', label: 'JEE Advanced' },
-    { value: 'NEET UG', label: 'NEET UG' },
-    { value: 'BITSAT', label: 'BITSAT' },
-    { value: 'VITEEE', label: 'VITEEE' },
-    { value: 'UPSC CSE', label: 'UPSC CSE' },
-    { value: 'CLAT', label: 'CLAT' },
-    { value: 'CAT', label: 'CAT' },
-    { value: 'NDA', label: 'NDA' },
-    { value: 'CUET', label: 'CUET' },
-    { value: 'GATE', label: 'GATE' }
+    { value: 'NEET UG', label: 'NEET UG' }
 ];
 
 export const DecisionSimulator = () => {

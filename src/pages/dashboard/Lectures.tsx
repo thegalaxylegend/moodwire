@@ -38,8 +38,6 @@ export const Lectures = () => {
                 const exam = user?.targetExam?.toLowerCase() || 'jee';
                 if (exam.includes('neet')) {
                     topicsToFetch = ['Cell Cycle and Division', 'Human Physiology', 'Organic Chemistry Basics', 'Genetics'];
-                } else if (exam.includes('clat')) {
-                    topicsToFetch = ['Legal Reasoning', 'Current Affairs', 'Logical Reasoning', 'English Vocabulary'];
                 } else {
                     // Default JEE/General
                     topicsToFetch = ['Physics Kinematics', 'Chemical Bonding', 'Mathematical Induction', 'Modern Physics'];

@@ -58,7 +58,7 @@ export const getActiveRecommendation = async (
 
         // B. Get Video for Topic
         // Search Context depends on class
-        const isJunior = ['Class 6th', 'Class 7th', 'Class 8th', 'Class 9th', 'Class 10th'].includes(userClass || '');
+        const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(userClass || '');
         const searchContext = isJunior ? (userClass || 'Class 10') : (targetExam || 'JEE');
 
         const playlist = await getVideoByTopicIdCached(targetTopic, searchContext, userId);
@@ -123,7 +123,7 @@ export const getRecommendedVideos = async (
             const candidateTopics = weakTopics.filter(t => !existingTopics.has(t.topic));
 
             // Context for search
-            const isJunior = ['Class 6th', 'Class 7th', 'Class 8th', 'Class 9th', 'Class 10th'].includes(userClass || '');
+            const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(userClass || '');
             const searchContext = isJunior ? (userClass || 'Class 10') : (targetExam || 'JEE');
 
             for (const topicStat of candidateTopics) {
@@ -156,7 +156,7 @@ export const getRecommendedVideos = async (
             // Shuffle subjects
             const shuffled = subjects.sort(() => 0.5 - Math.random());
 
-            const isJunior = ['Class 6th', 'Class 7th', 'Class 8th', 'Class 9th', 'Class 10th'].includes(userClass || '');
+            const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(userClass || '');
             const searchContext = isJunior ? (userClass || 'Class 10') : (targetExam || 'JEE');
 
             for (const subject of shuffled) {

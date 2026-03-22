@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-import { SYLLABUS_DB } from '../src/lib/constants';
+import { SYLLABUS_DB } from '../src/lib/constants.js';
 
 // Flatten the SYLLABUS_DB into a list that covers all topics
 // We'll organize it based on the user's requested order: 11, 12, 10, 9, 8, 7, 6, then others.
@@ -14,9 +14,18 @@ const CLASS_ORDER = ["Class 11", "Class 12", "Class 10", "Class 9", "Class 8", "
 function getFullSyllabus() {
     const list: any[] = [];
     
+    const PCMB_CS = ['Physics', 'Chemistry', 'Mathematics', 'Biology', 'Computer Science'];
+    
     // First, add topics from the specified class order
     for (const cls of CLASS_ORDER) {
         for (const [subject, topics] of Object.entries(SYLLABUS_DB)) {
+            const isSenior = ["Class 11", "Class 12"].includes(cls);
+            
+            // Filter: Class 11/12 only gets PCMB + Computer Science
+            if (isSenior && !PCMB_CS.includes(subject)) {
+                continue;
+            }
+
             const filtered = topics.filter(t => t.class === cls);
             filtered.forEach(t => list.push({ ...t, subject }));
         }
@@ -77,7 +86,15 @@ async function buildQueue() {
     // 2. Identify missing topics
     for (const item of SYLLABUS_FULL_LIST) {
         const itemIdentity = getCoreIdentity(item.topic);
-        const slug1 = slugify(item.topic + "-class-" + item.class.replace('Class ', '') + "-notes");
+        const classNum = item.class.replace('Class ', '');
+        const SUBJECT_EXAM_TAG: Record<string, string> = {
+            'Physics': 'jee-neet', 'Chemistry': 'jee-neet',
+            'Mathematics': 'jee', 'Biology': 'neet',
+            'Computer Science': 'gate-boards',
+            'Science': 'cbse', 'Social Science': 'cbse', 'English': 'cbse'
+        };
+        const examTag = SUBJECT_EXAM_TAG[item.subject] || 'cbse';
+        const slug1 = slugify(`${item.topic}-class-${classNum}-revision-notes-${examTag}`);
         
         // Smarter check: Compare core content keywords
         const isDuplicate = existingBlogs.some((blogName: string) => {
@@ -87,10 +104,7 @@ async function buildQueue() {
             return (itemIdentity.length > 0 && blogIdentity.includes(itemIdentity)) || 
                    (blogIdentity.length > 0 && itemIdentity.includes(blogIdentity)) ||
                    blogName.includes(slugify(item.topic)) || 
-                   blogName === slug1 ||
-                   blogName.replace(/-revision-notes$/, '-notes') === slug1 ||
-                   slug1.replace(/-notes$/, '-revision-notes') === blogName ||
-                   blogName.replace(/-class-\d+-notes$/, '-notes') === slug1.replace(/-class-\d+-notes$/, '-notes');
+                   blogName === slug1;
         });
 
         if (!isDuplicate && itemIdentity.length > 0) {

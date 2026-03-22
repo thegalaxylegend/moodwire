@@ -25,9 +25,6 @@ export const Footer = () => {
                             {[
                                 { name: 'JEE Mains', href: '/jee-mains' },
                                 { name: 'NEET', href: '/neet' },
-                                { name: 'UPSC', href: '/upsc' },
-                                { name: 'GATE', href: '/gate' },
-                                { name: 'CLAT', href: '/clat' },
                             ].map(link => (
                                 <li key={link.name}>
                                     <Link to={link.href} className="text-gray-500 hover:text-white text-sm transition-colors">

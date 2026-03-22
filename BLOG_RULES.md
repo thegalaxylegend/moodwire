@@ -26,10 +26,11 @@ GOAL: Rank #1 on Google for "Quick Revision" & "Recap" keywords. Focus on high-y
 - RIGHT: "VSEPR bond angle exceptions JEE NEET 2026" — low competition, high intent
 - Formula: [Specific Concept] + [Exam Name] + [Year/Trick/Exception]
 
-### URL slug — strict format
-- Format: /blog/[primary-keyword] — max 60 characters, no stacking
-- WRONG: /blog/chemical-bonding-class11-revision-notes-short-2026
-- RIGHT: /blog/chemical-bonding-class-11-notes
+### URL slug — SEO Optimized 2026 Standard
+- Format: /blog/[topic]-class-[X]-revision-notes-[exam]
+- Exam tags: `jee-neet` (Physics/Chemistry), `jee` (Math), `neet` (Bio), `cbse` (Junior), `gate-boards` (CS).
+- WRONG: /blog/chemical-bonding-notes
+- RIGHT: /blog/chemical-bonding-class-11-revision-notes-jee-neet
 
 ### Featured snippet target — one per post
 - Immediately after every H2, write: "[Term] is [definition in one sentence]."
@@ -49,12 +50,11 @@ GOAL: Rank #1 on Google for "Quick Revision" & "Recap" keywords. Focus on high-y
 
 | Post Type | Categories | Min Words |
 |---|---|---|
-| Chapter Revision Notes | Class 6–12, JEE, NEET, UPSC | 2,000–3,500 |
+| Chapter Revision Notes | Class 8–12, JEE, NEET | 2,000–3,500 |
 | Exam Strategy / Timetable | Board Exams, Competitive | 1,200–1,800 |
 | Exam Overview | All Exams | 1,500–2,500 |
 | Quick Hack / Shortcut | JEE & NEET, EdTech | 800–1,200 |
-| PYQ Analysis Post | JEE, NEET, UPSC, Boards | 1,500–2,000 |
-| Scholarship / Civil Services | Civil Services, Competitive | 2,000–3,000 |
+| PYQ Analysis Post | JEE, NEET, Boards | 1,500–2,000 |
 
 ---
 
@@ -81,7 +81,9 @@ Every post must have ALL of these sections:
 
 ## 4. CATEGORY-SPECIFIC RULES
 
-### Board Exams (Class 6–12) — Most Important Category
+### Board Exams (Class 6–12) — Content Strategy
+- **Class 11 & 12:** ONLY PCMB (Physics, Chemistry, Maths, Biology) + Computer Science.
+- **Class 6–10:** All subjects and chapters (Science, Social Science, Maths, English).
 - Separate Class 11 and Class 12 chapters STRICTLY — NEVER mix
   (Electrostatics, Current Electricity, Magnetic Effects = Class 12, NOT Class 11)
 - Include CBSE marking scheme: "This question carries 3 marks in board exams"
@@ -96,16 +98,7 @@ Every post must have ALL of these sections:
 - Include NTA paper pattern note where relevant
 - Target "JEE NEET difference" angles — many students prepare for both
 
-### Civil Services (UPSC) — Long-form, Authority Content
-- Minimum 2,500 words
-- Add "Prelims vs Mains" relevance for every concept
-- Current Affairs posts must have month/year in title: "March 2026 Current Affairs UPSC"
 
-### Competitive Exams (GATE, CLAT, BITSAT, CAT)
-- Always state exact exam format in intro
-- BITSAT: Emphasize speed — "48 seconds per question on average"
-- GATE: Focus on previous year questions — highly specific, deeply technical
-- CLAT: Passage-based question format for English and Legal Reasoning posts
 
 ### EdTech Posts — Strategy and How-To Content
 - Ayush's voice must dominate 100%

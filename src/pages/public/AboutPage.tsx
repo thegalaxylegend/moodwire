@@ -23,7 +23,7 @@ export const AboutPage = () => {
                         "name": "Exam Compass",
                         "url": SITE_URL,
                         "logo": SITE_LOGO,
-                        "description": "AI-powered exam preparation platform for JEE, NEET, UPSC, and CBSE Class 6-12.",
+                        "description": "AI-powered exam preparation platform for JEE, NEET, and CBSE Class 8-12.",
                         "founder": {
                             "@type": "Person",
                             "name": "Ayush",
@@ -91,7 +91,7 @@ export const AboutPage = () => {
                             By 2024, that script evolved into a full-scale AI platform. We integrated Large Language Models (LLMs) like Llama 3 and Gemini to provide instant doubt resolution. But we didn't stop there. We built a proprietary "Selection Probability" algorithm that doesn't just look at your marks, but at your **consistency, speed, and accuracy under pressure.**
                         </p>
                         <p className="text-gray-300 leading-relaxed text-lg">
-                            Today, Exam Compass serves students across every state in India, providing JEE, NEET, and UPSC aspirants with the same level of data analytics used by top-tier hedge funds and tech companies—all for free.
+                            Today, Exam Compass serves students across every state in India, providing JEE and NEET aspirants with the same level of data analytics used by top-tier hedge funds and tech companies—all for free.
                         </p>
                     </div>
                 </section>

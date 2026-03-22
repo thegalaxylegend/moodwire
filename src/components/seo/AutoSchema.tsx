@@ -11,11 +11,7 @@ import { examDates } from '../../config/examDates';
 const EXAM_DATES: Record<string, { name: string; startDate: string; endDate: string; level: string }> = {
     'jee-mains': { name: 'JEE Mains', startDate: '-01-20', endDate: '-04-15', level: 'Undergraduate' },
     'jee-advanced': { name: 'JEE Advanced', startDate: '-06-01', endDate: '-06-30', level: 'Undergraduate' },
-    'neet': { name: 'NEET UG', startDate: '-05-01', endDate: '-05-31', level: 'Undergraduate' },
-    'upsc': { name: 'UPSC CSE', startDate: '-05-25', endDate: '-10-15', level: 'Postgraduate' },
-    'clat': { name: 'CLAT', startDate: '-12-01', endDate: '-12-31', level: 'Undergraduate' },
-    'gate': { name: 'GATE', startDate: '-02-01', endDate: '-02-28', level: 'Postgraduate' },
-    'bitsat': { name: 'BITSAT', startDate: '-05-15', endDate: '-06-15', level: 'Undergraduate' },
+    'neet': { name: 'NEET UG', startDate: '-05-01', endDate: '-05-31', level: 'Undergraduate' }
 };
 
 export const AutoSchema = () => {
@@ -107,7 +103,11 @@ export const AutoSchema = () => {
                         "@type": "Organization",
                         "name": "Exam Compass",
                         "url": SITE_URL,
-                        "logo": `${SITE_URL}/logo.jpg`
+                        "logo": `${SITE_URL}/logo.jpg`,
+                        "sameAs": [
+                            "https://www.youtube.com/@moodwire",
+                            "https://twitter.com/examcompass_ai"
+                        ]
                     },
                     "offers": {
                         "@type": "Offer",
@@ -229,7 +229,7 @@ export const AutoSchema = () => {
                 "@type": "WebApplication",
                 "name": "Exam Compass",
                 "url": SITE_URL,
-                "description": "AI-powered exam preparation platform for JEE, NEET, UPSC, and CBSE Class 6-12 students.",
+                "description": "AI-powered exam preparation platform for JEE, NEET, and CBSE Class 8-12 students.",
                 "image": `${SITE_URL}/logo.jpg`,
                 "screenshot": `${SITE_URL}/og-image.png`,
                 "applicationCategory": "EducationalApplication",
@@ -245,6 +245,11 @@ export const AutoSchema = () => {
                     "@type": "Person",
                     "name": "Ayush Kumar",
                     "url": `${SITE_URL}/about`
+                },
+                "potentialAction": {
+                    "@type": "SearchAction",
+                    "target": `${SITE_URL}/search?q={search_term_string}`,
+                    "query-input": "required name=search_term_string"
                 }
             });
         }

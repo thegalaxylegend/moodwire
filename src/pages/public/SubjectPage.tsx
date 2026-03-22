@@ -8,6 +8,7 @@ import { Download, Loader2 } from 'lucide-react';
 import { useState } from 'react';
 import { SITE_URL } from '../../lib/siteConfig';
 import { Breadcrumbs } from '../../components/seo/Breadcrumbs';
+import { examDates } from '../../config/examDates';
 
 export const SubjectPage = () => {
     const { exam, subject } = useParams();
@@ -37,6 +38,7 @@ export const SubjectPage = () => {
     const topicNames = topics.slice(0, 8).map(t => t.topic.replace(/\[.*?\]\s*/g, '')).join(', ');
     const seoKeywords = `${realSubject} for ${formattedExam}, ${formattedExam} ${realSubject} syllabus, ${topicNames}`;
 
+    const targetYear = examDates.getExamYear(exam || '');
     const siblingSubjects = exam ? getSubjectsForExam(exam).filter(s => slugify(s) !== subject) : [];
 
     // Schema Data
@@ -45,12 +47,15 @@ export const SubjectPage = () => {
         "@graph": [
             {
                 "@type": "Course",
-                "name": `${realSubject} Syllabus for ${formattedExam}`,
-                "description": `Complete ${realSubject} syllabus breakdown with ${topics.length} chapters and important topics for ${formattedExam}.`,
+                "name": `${realSubject} Syllabus for ${formattedExam} ${targetYear}`,
+                "description": `Complete ${realSubject} syllabus breakdown with ${topics.length} chapters and important topics for ${formattedExam} ${targetYear}.`,
                 "provider": {
                     "@type": "Organization",
                     "name": "Exam Compass",
-                    "sameAs": SITE_URL,
+                    "sameAs": [
+                        "https://www.youtube.com/@moodwire",
+                        "https://twitter.com/examcompass_ai"
+                    ],
                     "url": SITE_URL
                 },
                 "hasCourseInstance": {
@@ -92,8 +97,8 @@ export const SubjectPage = () => {
     return (
         <div className="min-h-screen bg-black text-white selection:bg-purple-500/30">
             <SEO
-                title={`${realSubject} ${formattedExam} Syllabus 2026 - Notes, Formulas & PYQ PDF`}
-                description={`Download ${realSubject} notes and formula PDF for ${formattedExam} 2026. Complete ${topics.length}-chapter syllabus breakdown with topics like ${topicNames.substring(0, 80)}. Practice questions and AI solutions.`}
+                title={`${realSubject} ${formattedExam} Syllabus ${targetYear} - Notes, Formulas & PYQ PDF`}
+                description={`Download ${realSubject} notes and formula PDF for ${formattedExam} ${targetYear}. Complete ${topics.length}-chapter syllabus breakdown with topics like ${topicNames.substring(0, 80)}. Practice questions and AI solutions.`}
                 canonical={`${SITE_URL}/${exam}/${subject}`}
                 keywords={seoKeywords}
                 schema={schemaData}
@@ -107,7 +112,7 @@ export const SubjectPage = () => {
 
                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8">
                     <h1 className="text-4xl md:text-6xl font-bold text-white tracking-tight">
-                        {realSubject} <span className="text-purple-500/50 block text-2xl mt-2">for {formattedExam}</span>
+                        {realSubject} <span className="text-purple-500/50 block text-2xl mt-2">for {formattedExam} {targetYear}</span>
                     </h1>
                     <button 
                         onClick={handleDownloadPDF}
@@ -125,7 +130,7 @@ export const SubjectPage = () => {
                         Mastering these concepts is absolutely essential for securing a top rank in your upcoming examinations, as {realSubject} often acts as the high-scoring differentiator between top-tier aspirants.
                     </p>
                     <p className="text-gray-300 leading-relaxed text-lg">
-                        Preparing for {realSubject} requires a dual approach: building an unshakeable theoretical foundation and developing rapid problem-solving intuition. For {formattedExam} 2026, the exam pattern suggests a move towards more application-based questions that test how well you can apply basic principles to complex, multi-layered scenarios. Our comprehensive, AI-driven guide breaks down each chapter into its core concepts, providing you with targeted practice questions and structured explanations.
+                        Preparing for {realSubject} requires a dual approach: building an unshakeable theoretical foundation and developing rapid problem-solving intuition. For {formattedExam} {targetYear}, the exam pattern suggests a move towards more application-based questions that test how well you can apply basic principles to complex, multi-layered scenarios. Our comprehensive, AI-driven guide breaks down each chapter into its core concepts, providing you with targeted practice questions and structured explanations.
                     </p>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-10">
                         <div className="p-6 rounded-2xl bg-white/5 border border-white/10">
@@ -210,7 +215,7 @@ export const SubjectPage = () => {
                 <div className="mt-12">
                     <h3 className="text-xl font-bold mb-6 italic text-gray-500">Explore Other Exams</h3>
                     <div className="flex flex-wrap gap-2">
-                        {['JEE Mains', 'NEET', 'UPSC', 'GATE', 'CLAT'].map(e => (
+                        {['JEE Mains', 'NEET'].map(e => (
                             <Link
                                 key={e}
                                 to={`/${slugify(e)}`}
@@ -228,10 +233,10 @@ export const SubjectPage = () => {
                         <div className="space-y-6">
                             <h3 className="text-xl font-bold text-purple-400">The Modern Preparation Approach</h3>
                             <p className="text-gray-300 leading-relaxed">
-                                Mastering {realSubject} in the 2026 cycle is not about how many books you read, but how many different types of problems you can recall during the exam. Our AI-driven analytics show that students who practice at least 15 questions per topic in {realSubject} see a 40% improvement in mock test scores within just three weeks.
+                                Mastering {realSubject} in the {targetYear} cycle is not about how many books you read, but how many different types of problems you can recall during the exam. Our AI-driven analytics show that students who practice at least 15 questions per topic in {realSubject} see a 40% improvement in mock test scores within just three weeks.
                             </p>
                             <p className="text-gray-300 leading-relaxed">
-                                For {formattedExam}, the difficulty curve of {realSubject} has been steadily increasing. Concepts that were once considered 'advanced' are now part of the foundational set. To stay ahead, you must transition from passive reading to active testing. Our question bank for {realSubject} includes both Previous Year Questions (PYQs) and AI-curated challenges that reflect the latest trends from NTA, UPSC, and other testing bodies.
+                                For {formattedExam}, the difficulty curve of {realSubject} has been steadily increasing. Concepts that were once considered 'advanced' are now part of the foundational set. To stay ahead, you must transition from passive reading to active testing. Our question bank for {realSubject} includes both Previous Year Questions (PYQs) and AI-curated challenges that reflect the latest trends from NTA and other testing bodies.
                             </p>
                             <div className="bg-purple-500/5 border border-purple-500/20 p-6 rounded-2xl">
                                 <h4 className="font-bold text-white mb-2">Pro Tip: The MCQ Blitz</h4>

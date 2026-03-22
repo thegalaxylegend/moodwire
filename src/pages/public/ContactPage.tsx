@@ -7,7 +7,7 @@ import { SITE_URL } from '../../lib/siteConfig';
 
 const FAQ_ITEMS = [
     { q: 'Is Exam Compass free to use?', a: 'Yes! Exam Compass is completely free. Our AI-powered mock tests, PYQ practice, analytics, and study roadmaps are available at no cost to all students.' },
-    { q: 'Which exams does Exam Compass support?', a: 'We support JEE Mains, JEE Advanced, NEET UG, UPSC CSE, CLAT, GATE, BITSAT, and CBSE board exams for Classes 6 through 12.' },
+    { q: 'Which exams does Exam Compass support?', a: 'We support JEE Mains, JEE Advanced, NEET UG, and CBSE board exams for Classes 8 through 12.' },
     { q: 'How does the AI Mock Test Generator work?', a: 'Our adaptive engine analyzes your past performance to identify weak areas, then generates personalized mock tests from our database of 9,000+ verified Previous Year Questions (PYQs) to maximize your improvement.' },
     { q: 'Can I use Exam Compass on my phone?', a: 'Absolutely! Exam Compass is a Progressive Web App (PWA) that works on any device — desktop, tablet, or mobile. You can even install it for offline access.' },
     { q: 'How do I report a bug or suggest a feature?', a: 'Email us at mrayushkr444@gmail.com with details. For bugs, please include steps to reproduce the issue. We typically respond within 24–48 hours.' },

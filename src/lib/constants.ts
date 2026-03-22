@@ -1,6 +1,6 @@
 export interface SyllabusTopic {
     topic: string;
-    class: 'Class 6' | 'Class 7' | 'Class 8' | 'Class 9' | 'Class 10' | 'Class 11' | 'Class 12';
+    class: 'Class 8' | 'Class 9' | 'Class 10' | 'Class 11' | 'Class 12';
     weightage: 'High' | 'Medium' | 'Low';
     examPattern: 'Passage' | 'MCQ' | 'Numerical';
     subtopics: string[];
@@ -138,30 +138,7 @@ export const SYLLABUS_DB: Record<string, SyllabusTopic[]> = {
         { topic: "Mensuration", class: "Class 8", weightage: "High", examPattern: "Numerical", subtopics: ["Area", "Volume", "Surface Area"] },
         { topic: "Exponents and Powers", class: "Class 8", weightage: "Medium", examPattern: "Numerical", subtopics: ["Laws of Exponents"] },
         { topic: "Factorisation", class: "Class 8", weightage: "High", examPattern: "Numerical", subtopics: ["Methods", "Division"] },
-        // Class 7
-        { topic: "Integers", class: "Class 7", weightage: "Medium", examPattern: "Numerical", subtopics: ["Properties", "Operations"] },
-        { topic: "Fractions and Decimals", class: "Class 7", weightage: "High", examPattern: "Numerical", subtopics: ["Multiplication", "Division"] },
-        { topic: "Data Handling", class: "Class 7", weightage: "Medium", examPattern: "Numerical", subtopics: ["Mean", "Median", "Mode"] },
-        { topic: "Simple Equations", class: "Class 7", weightage: "High", examPattern: "Numerical", subtopics: ["Solving", "Word Problems"] },
-        { topic: "Lines and Angles", class: "Class 7", weightage: "Medium", examPattern: "Numerical", subtopics: ["Complementary", "Supplementary"] },
-        { topic: "The Triangle and its Properties", class: "Class 7", weightage: "High", examPattern: "Numerical", subtopics: ["Medians", "Altitudes", "Exterior Angle"] },
-        { topic: "Congruence of Triangles", class: "Class 7", weightage: "High", examPattern: "Numerical", subtopics: ["Criteria (SSS, SAS, ASA, RHS)"] },
-        { topic: "Comparing Quantities", class: "Class 7", weightage: "Medium", examPattern: "Numerical", subtopics: ["Ratios", "Percentage"] },
-        { topic: "Rational Numbers", class: "Class 7", weightage: "Medium", examPattern: "Numerical", subtopics: ["Operations", "Number Line"] },
-        { topic: "Perimeter and Area", class: "Class 7", weightage: "High", examPattern: "Numerical", subtopics: ["Square", "Rectangle", "Circle"] },
-        { topic: "Algebraic Expressions", class: "Class 7", weightage: "Medium", examPattern: "Numerical", subtopics: ["Terms", "Factors", "Coefficients"] },
-        // Class 6
-        { topic: "Knowing Our Numbers", class: "Class 6", weightage: "High", examPattern: "Numerical", subtopics: ["Large Numbers", "Estimation"] },
-        { topic: "Whole Numbers", class: "Class 6", weightage: "Medium", examPattern: "Numerical", subtopics: ["Properties", "patterns"] },
-        { topic: "Playing with Numbers", class: "Class 6", weightage: "High", examPattern: "Numerical", subtopics: ["Factors", "Multiples", "HCF/LCM"] },
-        { topic: "Basic Geometrical Ideas", class: "Class 6", weightage: "Medium", examPattern: "Numerical", subtopics: ["Points", "Lines", "Curves"] },
-        { topic: "Integers", class: "Class 6", weightage: "Medium", examPattern: "Numerical", subtopics: ["Number Line", "Addition/Subtraction"] },
-        { topic: "Fractions", class: "Class 6", weightage: "High", examPattern: "Numerical", subtopics: ["Types", "Operations"] },
-        { topic: "Decimals", class: "Class 6", weightage: "Medium", examPattern: "Numerical", subtopics: ["Place Value", "Operations"] },
-        { topic: "Data Handling", class: "Class 6", weightage: "Medium", examPattern: "Numerical", subtopics: ["Recording", "Organization", "Pictograph"] },
-        { topic: "Mensuration", class: "Class 6", weightage: "High", examPattern: "Numerical", subtopics: ["Perimeter", "Area"] },
-        { topic: "Algebra", class: "Class 6", weightage: "Medium", examPattern: "Numerical", subtopics: ["Variables", "Expressions"] },
-        { topic: "Ratio and Proportion", class: "Class 6", weightage: "High", examPattern: "Numerical", subtopics: ["Unitary Method"] }
+
     ],
     Biology: [
         { topic: "The Living World", class: "Class 11", weightage: "High", examPattern: "MCQ", subtopics: ["Taxonomy", "Classification Systems"] },
@@ -203,138 +180,7 @@ export const SYLLABUS_DB: Record<string, SyllabusTopic[]> = {
         { topic: "Biodiversity and Conservation", class: "Class 12", weightage: "High", examPattern: "MCQ", subtopics: ["Loss of Biodiversity", "Conservation Methods"] },
         { topic: "Environmental Issues", class: "Class 12", weightage: "Medium", examPattern: "MCQ", subtopics: ["Pollution", "Ozone Depletion", "Global Warming"] }
     ],
-    "History": [
-        { topic: "Ancient India: Indus Valley", class: "Class 11", weightage: "High", examPattern: "Passage", subtopics: ["Town Planning", "Society", "Decline"] },
-        { topic: "Ancient India: Vedic Age", class: "Class 11", weightage: "High", examPattern: "Passage", subtopics: ["Rig Vedic", "Later Vedic", "Literature"] },
-        { topic: "Ancient India: Mahajanapadas", class: "Class 11", weightage: "Medium", examPattern: "Passage", subtopics: ["16 Mahajanapadas", "Magadha", "Maurya Rise"] },
-        { topic: "Art & Culture: Architecture", class: "Class 11", weightage: "High", examPattern: "Passage", subtopics: ["Temple Arch", "Cave Arch", "Mughal Arch"] },
-        { topic: "Medieval India: Delhi Sultanate", class: "Class 11", weightage: "High", examPattern: "Passage", subtopics: ["Slave Dynasty", "Khiljis", "Tughlaqs"] },
-        { topic: "Medieval India: Mughals", class: "Class 11", weightage: "High", examPattern: "Passage", subtopics: ["Akbar", "Aurangzeb", "Administration"] },
-        { topic: "Medieval India: Bhakti & Sufi", class: "Class 11", weightage: "Medium", examPattern: "Passage", subtopics: ["Saints", "Philosophy", "Impact"] },
-        { topic: "Modern History: 1857 Revolt", class: "Class 12", weightage: "High", examPattern: "Passage", subtopics: ["Causes", "Impact", "Failure"] },
-        { topic: "Modern History: Gandhian Era", class: "Class 12", weightage: "High", examPattern: "Passage", subtopics: ["Non-Cooperation", "Civil Disobedience", "Quit India"] },
-        { topic: "Modern History: Social Reformers", class: "Class 12", weightage: "Medium", examPattern: "Passage", subtopics: ["Raja Ram Mohan Roy", "Ishwar Chandra Vidyasagar"] },
-        { topic: "Modern History: Freedom Struggle", class: "Class 12", weightage: "High", examPattern: "Passage", subtopics: ["Congress Formation", "Extremists/Moderates"] },
-        { topic: "World History: Industrial Revolution", class: "Class 11", weightage: "Medium", examPattern: "Passage", subtopics: ["Causes", "Impact", "Spread"] },
-        { topic: "World History: World Wars", class: "Class 12", weightage: "High", examPattern: "Passage", subtopics: ["WW1", "WW2", "Treaty of Versailles"] },
-        { topic: "World History: Cold War", class: "Class 12", weightage: "Medium", examPattern: "Passage", subtopics: ["US vs USSR", "Proxy Wars", "Collapse"] }
-    ],
-    "Geography": [
-        { topic: "Geomorphology", class: "Class 11", weightage: "High", examPattern: "Passage", subtopics: ["Earth Interior", "Plate Tectonics", "Earthquakes", "Volcanoes"] },
-        { topic: "Climatology", class: "Class 11", weightage: "High", examPattern: "Passage", subtopics: ["Atmosphere", "Insolation", "Cyclones", "Climate Zones"] },
-        { topic: "Oceanography", class: "Class 11", weightage: "High", examPattern: "Passage", subtopics: ["Ocean Floors", "Salinity", "Tides", "Currents"] },
-        { topic: "Biogeography", class: "Class 11", weightage: "Medium", examPattern: "Passage", subtopics: ["Soils", "Vegetation", "Ecosystems"] },
-        { topic: "Indian Geography: Physical", class: "Class 11", weightage: "High", examPattern: "Passage", subtopics: ["Himalayas", "Peninsula", "Plains", "Drainage"] },
-        { topic: "Indian Geography: Climate", class: "Class 11", weightage: "High", examPattern: "Passage", subtopics: ["Monsoon", "Seasons", "Rainfall Distribution"] },
-        { topic: "Indian Geography: Resources", class: "Class 12", weightage: "Medium", examPattern: "Passage", subtopics: ["Minerals", "Energy", "Water"] },
-        { topic: "Indian Geography: Agriculture", class: "Class 12", weightage: "Medium", examPattern: "Passage", subtopics: ["Crops", "Irrigation", "Green Revolution"] },
-        { topic: "Human Geography: Population", class: "Class 12", weightage: "Medium", examPattern: "Passage", subtopics: ["Distribution", "Density", "Migration"] },
-        { topic: "Human Geography: Settlements", class: "Class 12", weightage: "Medium", examPattern: "Passage", subtopics: ["Rural", "Urban", "Urbanization"] },
-        { topic: "Economic Geography", class: "Class 12", weightage: "Medium", examPattern: "Passage", subtopics: ["Industries", "Transport", "Trade"] }
-    ],
-    "Polity": [
-        { topic: "Constitutional Framework", class: "Class 11", weightage: "High", examPattern: "Passage", subtopics: ["Preamble", "Salient Features", "Amendments"] },
-        { topic: "Fundamental Rights", class: "Class 11", weightage: "High", examPattern: "Passage", subtopics: ["Articles 12-35", "Writs", "Exceptions"] },
-        { topic: "DPSP & Duties", class: "Class 11", weightage: "High", examPattern: "Passage", subtopics: ["Principles", "Fundamental Duties"] },
-        { topic: "Parliament", class: "Class 12", weightage: "Medium", examPattern: "Passage", subtopics: ["Lok Sabha", "Rajya Sabha", "Bills", "Committees"] },
-        { topic: "Executive", class: "Class 12", weightage: "High", examPattern: "Passage", subtopics: ["President", "Vice-President", "PM", "Council of Ministers"] },
-        { topic: "Judiciary", class: "Class 12", weightage: "High", examPattern: "Passage", subtopics: ["Supreme Court", "High Court", "Judicial Review"] },
-        { topic: "Federalism", class: "Class 11", weightage: "Medium", examPattern: "Passage", subtopics: ["Centre-State Relations", "Emergency Provisions"] },
-        { topic: "Local Government", class: "Class 11", weightage: "Medium", examPattern: "Passage", subtopics: ["Panchayati Raj", "Municipalities", "73rd/74th Amendment"] },
-        { topic: "Constitutional Bodies", class: "Class 12", weightage: "Medium", examPattern: "Passage", subtopics: ["ECI", "UPSC", "CAG", "Finance Commission"] }
-    ],
-    "Economy": [
-        { topic: "National Income", class: "Class 12", weightage: "High", examPattern: "Passage", subtopics: ["GDP", "GNP", "NNP", "Methods of Calculation"] },
-        { topic: "Inflation", class: "Class 12", weightage: "High", examPattern: "Passage", subtopics: ["Types", "Causes", "Indices (WPI/CPI)", "Control"] },
-        { topic: "Monetary Policy", class: "Class 12", weightage: "High", examPattern: "Passage", subtopics: ["RBI", "Repo Rate", "CRR/SLR", "Tools"] },
-        { topic: "Fiscal Policy", class: "Class 12", weightage: "High", examPattern: "Passage", subtopics: ["Budget", "Deficits", "Taxation", "GST"] },
-        { topic: "Banking System", class: "Class 12", weightage: "Medium", examPattern: "Passage", subtopics: ["Commercial Banks", "NPA", "Basel Norms", "Financial Inclusion"] },
-        { topic: "External Sector", class: "Class 12", weightage: "High", examPattern: "Passage", subtopics: ["BoP", "Forex", "FDI/FII", "Convertibility"] },
-        { topic: "International Orgs", class: "Class 12", weightage: "Medium", examPattern: "Passage", subtopics: ["IMF", "World Bank", "WTO", "Trade Agreements"] },
-        { topic: "Planning in India", class: "Class 11", weightage: "Medium", examPattern: "Passage", subtopics: ["Five Year Plans", "NITI Aayog", "Reforms 1991"] },
-        { topic: "Agriculture", class: "Class 11", weightage: "Medium", examPattern: "Passage", subtopics: ["MSP", "Subsidies", "Food Security", "Issues"] },
-        { topic: "Poverty & Unemployment", class: "Class 11", weightage: "Medium", examPattern: "Passage", subtopics: ["Measurement", "Schemes", "Types"] }
-    ],
-    "General Science": [
-        { topic: "Physics: Mechanics", class: "Class 11", weightage: "Medium", examPattern: "MCQ", subtopics: ["Motion", "Force", "Gravity", "Pressure"] },
-        { topic: "Physics: Heat & Light", class: "Class 11", weightage: "Medium", examPattern: "MCQ", subtopics: ["Optics", "Sound", "Thermodynamics basics"] },
-        { topic: "Physics: Electricity", class: "Class 11", weightage: "Medium", examPattern: "MCQ", subtopics: ["Current", "Magnetism", "Electronics"] },
-        { topic: "Chemistry: Substance", class: "Class 11", weightage: "Medium", examPattern: "MCQ", subtopics: ["Elements", "Compounds", "Mixtures", "Acids/Bases"] },
-        { topic: "Chemistry: Carbon", class: "Class 11", weightage: "Medium", examPattern: "MCQ", subtopics: ["Allotropes", "Hydrocarbons", "Polymers"] },
-        { topic: "Biology: Cell", class: "Class 12", weightage: "High", examPattern: "MCQ", subtopics: ["Structure", "Division", "Genetics"] },
-        { topic: "Biology: Human Body", class: "Class 12", weightage: "High", examPattern: "MCQ", subtopics: ["Systems", "Organs", "Functions"] },
-        { topic: "Biology: Diseases", class: "Class 12", weightage: "High", examPattern: "MCQ", subtopics: ["Viral", "Bacterial", "Vaccines"] },
-        { topic: "Environment: Ecology", class: "Class 12", weightage: "High", examPattern: "MCQ", subtopics: ["Ecosystem", "Food Chain", "Biodiversity"] },
-        { topic: "Environment: Issues", class: "Class 12", weightage: "High", examPattern: "MCQ", subtopics: ["Climate Change", "Pollution", "Conservation"] }
-    ],
-    "English Proficiency": [
-        { topic: "Grammar: Tenses", class: "Class 11", weightage: "High", examPattern: "MCQ", subtopics: ["Past", "Present", "Future", "Conditionals"] },
-        { topic: "Grammar: Prepositions", class: "Class 11", weightage: "High", examPattern: "MCQ", subtopics: ["Time", "Place", "Direction", "Usage"] },
-        { topic: "Grammar: Modals", class: "Class 11", weightage: "Medium", examPattern: "MCQ", subtopics: ["Can", "Could", "Should", "Would"] },
-        { topic: "Grammar: Voice & Speech", class: "Class 11", weightage: "Medium", examPattern: "MCQ", subtopics: ["Active/Passive", "Direct/Indirect"] },
-        { topic: "Vocabulary: Synonyms & Antonyms", class: "Class 11", weightage: "High", examPattern: "MCQ", subtopics: ["Contextual usage", "Root words"] },
-        { topic: "Vocabulary: Idioms & Phrases", class: "Class 11", weightage: "Medium", examPattern: "MCQ", subtopics: ["Common idioms", "Phrasal verbs"] },
-        { topic: "Vocabulary: One Word Substitution", class: "Class 11", weightage: "Medium", examPattern: "MCQ", subtopics: ["Descriptive terms", "Professional terms"] },
-        { topic: "Reading Comprehension", class: "Class 12", weightage: "High", examPattern: "Passage", subtopics: ["Main Idea", "Inference", "Tone", "Vocab in Context"] },
-        { topic: "Composition: Rearrangement", class: "Class 12", weightage: "Medium", examPattern: "MCQ", subtopics: ["ParaJumbles", "Sentence Order"] },
-        { topic: "Composition: Error Detection", class: "Class 12", weightage: "Medium", examPattern: "MCQ", subtopics: ["Spotting Errors", "Sentence Improvement"] },
-        { topic: "Composition: Analogies", class: "Class 12", weightage: "Low", examPattern: "MCQ", subtopics: ["Relationship identification", "Word pairs"] }
-    ],
-    "Logical Reasoning": [
-        { topic: "Verbal: Series Completion", class: "Class 11", weightage: "High", examPattern: "MCQ", subtopics: ["Number Series", "Alphabet Series", "Mixed Series"] },
-        { topic: "Verbal: Analogy", class: "Class 11", weightage: "Medium", examPattern: "MCQ", subtopics: ["Word Analogy", "Number Analogy"] },
-        { topic: "Verbal: Classification", class: "Class 11", weightage: "Medium", examPattern: "MCQ", subtopics: ["Odd one out", "Group selection"] },
-        { topic: "Verbal: Coding-Decoding", class: "Class 11", weightage: "High", examPattern: "MCQ", subtopics: ["Letter Coding", "Substitution", "Pattern"] },
-        { topic: "Verbal: Blood Relations", class: "Class 11", weightage: "High", examPattern: "MCQ", subtopics: ["Family Tree", "Coded Relations"] },
-        { topic: "Verbal: Direction Sense", class: "Class 11", weightage: "Medium", examPattern: "MCQ", subtopics: ["Angles", "Distance", "Shadows"] },
-        { topic: "Non-Verbal: Pattern Completion", class: "Class 11", weightage: "High", examPattern: "MCQ", subtopics: ["Figure Matrix", "Shape Construction"] },
-        { topic: "Non-Verbal: Paper Cutting", class: "Class 11", weightage: "Medium", examPattern: "MCQ", subtopics: ["Folding", "Punching"] },
-        { topic: "Non-Verbal: Figure Series", class: "Class 11", weightage: "Medium", examPattern: "MCQ", subtopics: ["Next figure", "Missing figure"] },
-        { topic: "Critical: Arguments", class: "Class 12", weightage: "High", examPattern: "MCQ", subtopics: ["Strong/Weak arguments", "Forcefulness"] },
-        { topic: "Critical: Assumptions", class: "Class 12", weightage: "High", examPattern: "MCQ", subtopics: ["Implicit assumptions", "Validity"] },
-        { topic: "Critical: Course of Action", class: "Class 12", weightage: "Medium", examPattern: "MCQ", subtopics: ["Problem solving", "Decision making"] },
-        { topic: "Critical: Syllogism", class: "Class 12", weightage: "Medium", examPattern: "MCQ", subtopics: ["Venn Diagrams", "Conclusions"] }
-    ],
-    "Legal Reasoning": [
-        { topic: "Law of Torts", class: "Class 11", weightage: "High", examPattern: "Passage", subtopics: ["Negligence", "Defamation", "Nuisance", "Strict Liability", "Vicarious Liability"] },
-        { topic: "Law of Contracts", class: "Class 11", weightage: "High", examPattern: "Passage", subtopics: ["Offer & Acceptance", "Consideration", "Breach", "Damages", "Void Agreements"] },
-        { topic: "Criminal Law", class: "Class 12", weightage: "High", examPattern: "Passage", subtopics: ["IPC Basics", "Elements of Crime (Mens Rea)", "Theft/Robbery", "Self Defense", "Murder vs Culpable Homicide"] },
-        { topic: "Constitutional Law", class: "Class 12", weightage: "High", examPattern: "Passage", subtopics: ["Fundamental Rights", "Writs", "Directive Principles", "Emergency", "Amendment Process"] },
-        { topic: "Family Law", class: "Class 12", weightage: "Medium", examPattern: "Passage", subtopics: ["Marriage", "Divorce", "Maintenance", "Succession"] },
-        { topic: "International Law", class: "Class 12", weightage: "Medium", examPattern: "Passage", subtopics: ["UN Bodies", "Treaties", "Human Rights", "ICJ"] },
-        { topic: "IPR Basics", class: "Class 12", weightage: "Medium", examPattern: "Passage", subtopics: ["Copyright", "Patents", "Trademarks"] },
-        { topic: "Important Legal Maxims", class: "Class 11", weightage: "Medium", examPattern: "Passage", subtopics: ["Latin Terms", "Terminology", "Usage"] },
-        { topic: "Miscellaneous Laws", class: "Class 12", weightage: "Low", examPattern: "Passage", subtopics: ["Consumer Protection", "Motor Vehicles", "IT Act"] }
-    ],
-    "Current Affairs": [
-        { topic: "National Events", class: "Class 11", weightage: "High", examPattern: "Passage", subtopics: ["Govt Schemes", "Elections", "Bills & Acts", "Awards"] },
-        { topic: "International Events", class: "Class 12", weightage: "High", examPattern: "Passage", subtopics: ["Summits (G20, G7)", "Conflicts", "Appointments", "Treaties"] },
-        { topic: "LegalGK Impact", class: "Class 12", weightage: "Medium", examPattern: "Passage", subtopics: ["Supreme Court Judgments", "Legal Appointments", "Commissions"] },
-        { topic: "Economics & Business", class: "Class 12", weightage: "Medium", examPattern: "Passage", subtopics: ["Budget", "Economic Survey", "Mergers", "Indices"] },
-        { topic: "Science & Tech", class: "Class 12", weightage: "Medium", examPattern: "Passage", subtopics: ["Space Missions", "Defence Tech", "Discoveries"] },
-        { topic: "Sports", class: "Class 11", weightage: "Low", examPattern: "Passage", subtopics: ["Tournaments", "Records", "Awards"] },
-        { topic: "Books & Authors", class: "Class 11", weightage: "Low", examPattern: "Passage", subtopics: ["New Releases", "Prizes"] }
-    ],
-    "Quantitative Techniques": [
-        { topic: "Percentage", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Basics", "Growth/Decay", "Population"] },
-        { topic: "Profit & Loss", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Discounts", "Markup", "False Weights"] },
-        { topic: "Simple & Compound Interest", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Formulas", "Installments"] },
-        { topic: "Ratio & Proportion", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Partnership", "Mixtures", "Ages"] },
-        { topic: "Averages", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Weighted Average", "Properties"] },
-        { topic: "Time & Work", class: "Class 12", weightage: "Medium", examPattern: "Numerical", subtopics: ["Efficiency", "Pipes & Cisterns"] },
-        { topic: "Time, Speed & Distance", class: "Class 12", weightage: "Medium", examPattern: "Numerical", subtopics: ["Trains", "Boats & Streams", "Relative Speed"] },
-        { topic: "Mensuration", class: "Class 12", weightage: "High", examPattern: "Numerical", subtopics: ["Area (2D)", "Volume (3D)", "Surface Area"] },
-        { topic: "Data Interpretation", class: "Class 12", weightage: "High", examPattern: "Numerical", subtopics: ["Bar Graphs", "Pie Charts", "Line Graphs", "Tables", "Caselets"] },
-        { topic: "Probability", class: "Class 12", weightage: "Medium", examPattern: "Numerical", subtopics: ["Basics", "Cards/Dice/Coins"] }
-    ],
-    "Engineering Mathematics": [
-        { topic: "Discrete Mathematics: Sets & Logic", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Propositional Logic", "Predicates", "Sets", "Relations"] },
-        { topic: "Discrete Mathematics: Graph Theory", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Connectivity", "Matching", "Coloring", "Path"] },
-        { topic: "Discrete Mathematics: Combinatorics", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Counting", "Recurrence", "Generating Functions"] },
-        { topic: "Linear Algebra", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Matrices", "Determinants", "Eigenvalues", "LU Decomposition"] },
-        { topic: "Calculus", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Limits", "Continuity", "Differentiation", "Integration", "Max/Min"] },
-        { topic: "Probability", class: "Class 12", weightage: "Medium", examPattern: "Numerical", subtopics: ["Random Variables", "Distributions", "Statistics", "Bayes"] }
-    ],
+
     "Computer Science": [
         { topic: "Data Structures: Linear", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Arrays", "Stacks", "Queues", "Linked Lists"] },
         { topic: "Data Structures: Non-Linear", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Trees", "BST", "Heaps", "Graphs", "Hashing"] },
@@ -404,43 +250,7 @@ export const SYLLABUS_DB: Record<string, SyllabusTopic[]> = {
         { topic: "Stars and the Solar System", class: "Class 8", weightage: "Medium", examPattern: "MCQ", subtopics: ["Moon", "Planets", "Constellations"] },
         { topic: "Pollution of Air and Water", class: "Class 8", weightage: "Medium", examPattern: "MCQ", subtopics: ["Causes", "Effects", "Prevention"] },
 
-        // Class 7
-        { topic: "Nutrition in Plants", class: "Class 7", weightage: "Medium", examPattern: "MCQ", subtopics: ["Autotrophic", "Heterotrophic", "Photosynthesis"] },
-        { topic: "Nutrition in Animals", class: "Class 7", weightage: "Medium", examPattern: "MCQ", subtopics: ["Digestion in Humans", "Ruminants", "Amoeba"] },
-        { topic: "Fibre to Fabric", class: "Class 7", weightage: "Low", examPattern: "MCQ", subtopics: ["Wool", "Silk", "Processing"] },
-        { topic: "Heat", class: "Class 7", weightage: "Medium", examPattern: "MCQ", subtopics: ["Temperature", "Transfer of Heat"] },
-        { topic: "Acids, Bases and Salts", class: "Class 7", weightage: "High", examPattern: "MCQ", subtopics: ["Indicators", "Neutralization"] },
-        { topic: "Physical and Chemical Changes", class: "Class 7", weightage: "Medium", examPattern: "MCQ", subtopics: ["Rusting", "Crystallization"] },
-        { topic: "Weather, Climate and Adaptations", class: "Class 7", weightage: "Medium", examPattern: "MCQ", subtopics: ["Climate Types", "Animal Adaptations"] },
-        { topic: "Winds, Storms and Cyclones", class: "Class 7", weightage: "High", examPattern: "MCQ", subtopics: ["Air Pressure", "Thunderstorms", "Safety"] },
-        { topic: "Soil", class: "Class 7", weightage: "Medium", examPattern: "MCQ", subtopics: ["Profile", "Types", "Crops"] },
-        { topic: "Respiration in Organisms", class: "Class 7", weightage: "High", examPattern: "MCQ", subtopics: ["Breathing", "Cellular Respiration"] },
-        { topic: "Transportation in Animals and Plants", class: "Class 7", weightage: "High", examPattern: "MCQ", subtopics: ["Circulatory System", "Excretion", "Transport in Plants"] },
-        { topic: "Reproduction in Plants", class: "Class 7", weightage: "Medium", examPattern: "MCQ", subtopics: ["Asexual", "Sexual", "Seed Dispersal"] },
-        { topic: "Motion and Time", class: "Class 7", weightage: "High", examPattern: "Numerical", subtopics: ["Speed", "Distance-Time Graphs"] },
-        { topic: "Electric Current and its Effects", class: "Class 7", weightage: "High", examPattern: "MCQ", subtopics: ["Heating Effect", "Magnetic Effect", "Electromagnet"] },
-        { topic: "Light", class: "Class 7", weightage: "High", examPattern: "MCQ", subtopics: ["Lenses", "Mirrors"] },
-        { topic: "Water: A Precious Resource", class: "Class 7", weightage: "Medium", examPattern: "MCQ", subtopics: ["Availability", "Management"] },
-        { topic: "Forests: Our Lifeline", class: "Class 7", weightage: "Medium", examPattern: "MCQ", subtopics: ["Ecosystem", "Conservation"] },
-        { topic: "Wastewater Story", class: "Class 7", weightage: "Low", examPattern: "MCQ", subtopics: ["Sewage Treatment", "Sanitation"] },
 
-        // Class 6
-        { topic: "Food: Where Does it Come From?", class: "Class 6", weightage: "Medium", examPattern: "MCQ", subtopics: ["Ingredients", "Sources"] },
-        { topic: "Components of Food", class: "Class 6", weightage: "High", examPattern: "MCQ", subtopics: ["Nutrients", "Balanced Diet", "Deficiency Diseases"] },
-        { topic: "Fibre to Fabric", class: "Class 6", weightage: "Medium", examPattern: "MCQ", subtopics: ["Spinning", "Weaving", "Knitting"] },
-        { topic: "Sorting Materials into Groups", class: "Class 6", weightage: "Medium", examPattern: "MCQ", subtopics: ["Properties of Materials"] },
-        { topic: "Separation of Substances", class: "Class 6", weightage: "High", examPattern: "MCQ", subtopics: ["Methods of Separation"] },
-        { topic: "Changes Around Us", class: "Class 6", weightage: "Medium", examPattern: "MCQ", subtopics: ["Reversible/Irreversible", "Expansion"] },
-        { topic: "Getting to Know Plants", class: "Class 6", weightage: "High", examPattern: "MCQ", subtopics: ["Herbs", "Shrubs", "Trees", "Parts of Plant"] },
-        { topic: "Body Movements", class: "Class 6", weightage: "High", examPattern: "MCQ", subtopics: ["Joints", "Muscles", "Gait of Animals"] },
-        { topic: "The Living Organisms and Their Surroundings", class: "Class 6", weightage: "Medium", examPattern: "MCQ", subtopics: ["Habitats", "Adaptations", "Living Characteristics"] },
-        { topic: "Motion and Measurement of Distances", class: "Class 6", weightage: "High", examPattern: "Numerical", subtopics: ["Units", "Types of Motion"] },
-        { topic: "Light, Shadows and Reflections", class: "Class 6", weightage: "High", examPattern: "MCQ", subtopics: ["Luminous", "Shadows", "Pinhole Camera"] },
-        { topic: "Electricity and Circuits", class: "Class 6", weightage: "High", examPattern: "MCQ", subtopics: ["Cell", "Bulb", "Switch", "Conductors"] },
-        { topic: "Fun with Magnets", class: "Class 6", weightage: "Medium", examPattern: "MCQ", subtopics: ["Poles", "Attraction/Repulsion"] },
-        { topic: "Water", class: "Class 6", weightage: "Medium", examPattern: "MCQ", subtopics: ["Uses", "Water Cycle", "Conservation"] },
-        { topic: "Air Around Us", class: "Class 6", weightage: "Medium", examPattern: "MCQ", subtopics: ["Composition", "Oxygen", "Uses"] },
-        { topic: "Garbage In, Garbage Out", class: "Class 6", weightage: "Low", examPattern: "MCQ", subtopics: ["Waste Management", "Recycling", "Vermicomposting"] }
     ],
     "Social Science": [
         // Class 10
@@ -516,66 +326,7 @@ export const SYLLABUS_DB: Record<string, SyllabusTopic[]> = {
         { topic: "Public Facilities", class: "Class 8", weightage: "Medium", examPattern: "Passage", subtopics: ["Water", "Sanitation"] },
         { topic: "Law and Social Justice", class: "Class 8", weightage: "Medium", examPattern: "Passage", subtopics: ["Worker Rights", "Bhopal Gas Tragedy"] },
 
-        // Class 7
-        { topic: "Tracing Changes Through a Thousand Years", class: "Class 7", weightage: "Medium", examPattern: "Passage", subtopics: ["New terms", "Historians"] },
-        { topic: "New Kings and Kingdoms", class: "Class 7", weightage: "Medium", examPattern: "Passage", subtopics: ["Cholas", "Administration"] },
-        { topic: "The Delhi Sultans", class: "Class 7", weightage: "High", examPattern: "Passage", subtopics: ["Dynasties", "Administration", "Khaljis", "Tughlaqs"] },
-        { topic: "The Mughal Empire", class: "Class 7", weightage: "High", examPattern: "Passage", subtopics: ["Akbar", "Humayun", "Aurangzeb", "Policies"] },
-        { topic: "Rulers and Buildings", class: "Class 7", weightage: "Medium", examPattern: "Passage", subtopics: ["Temples", "Mosques", "Tombs"] },
-        { topic: "Towns, Traders and Craftspersons", class: "Class 7", weightage: "Medium", examPattern: "Passage", subtopics: ["Hampi", "Surat", "Masulipatnam"] },
-        { topic: "Tribes, Nomads and Settled Communities", class: "Class 7", weightage: "Medium", examPattern: "Passage", subtopics: ["Gonds", "Ahoms"] },
-        { topic: "Devotional Paths to the Divine", class: "Class 7", weightage: "High", examPattern: "Passage", subtopics: ["Bhakti Movement", "Sufism", "Nayanars", "Alvars"] },
-        { topic: "The Making of Regional Cultures", class: "Class 7", weightage: "Medium", examPattern: "Passage", subtopics: ["Kathak", "Miniature Painting", "Bengal"] },
-        { topic: "Eighteenth-Century Political Formations", class: "Class 7", weightage: "Medium", examPattern: "Passage", subtopics: ["Later Mughals", "Marathas", "Sikhs"] },
-        { topic: "Environment", class: "Class 7", weightage: "Medium", examPattern: "Passage", subtopics: ["Components", "Ecosystem"] },
-        { topic: "Inside Our Earth", class: "Class 7", weightage: "High", examPattern: "Passage", subtopics: ["Crust", "Mantle", "Core", "Rocks"] },
-        { topic: "Our Changing Earth", class: "Class 7", weightage: "High", examPattern: "Passage", subtopics: ["Volcanoes", "Earthquakes", "Wind", "Glaciers"] },
-        { topic: "Air", class: "Class 7", weightage: "Medium", examPattern: "Passage", subtopics: ["Atmosphere Composition", "Weather", "Climate"] },
-        { topic: "Water", class: "Class 7", weightage: "Medium", examPattern: "Passage", subtopics: ["Tides", "Currents", "Water Cycle"] },
-        { topic: "Natural Vegetation and Wildlife", class: "Class 7", weightage: "Medium", examPattern: "Passage", subtopics: ["Forests", "Grasslands"] },
-        { topic: "Human Environment – Settlement, Transport", class: "Class 7", weightage: "Low", examPattern: "Passage", subtopics: ["Communication", "Transport types"] },
-        { topic: "Human Environment Interactions", class: "Class 7", weightage: "Medium", examPattern: "Passage", subtopics: ["Amazon Basin", "Ganga-Brahmaputra"] },
-        { topic: "Life in the Temperate Grasslands", class: "Class 7", weightage: "Medium", examPattern: "Passage", subtopics: ["Prairies", "Velds"] },
-        { topic: "Life in the Deserts", class: "Class 7", weightage: "Medium", examPattern: "Passage", subtopics: ["Sahara", "Ladakh"] },
-        { topic: "On Equality", class: "Class 7", weightage: "High", examPattern: "Passage", subtopics: ["Dignity", "Democracy"] },
-        { topic: "Role of the Government in Health", class: "Class 7", weightage: "Medium", examPattern: "Passage", subtopics: ["Public vs Private", "Healthcare"] },
-        { topic: "How the State Government Works", class: "Class 7", weightage: "High", examPattern: "Passage", subtopics: ["MLA", "Debates"] },
-        { topic: "Growing up as Boys and Girls", class: "Class 7", weightage: "Medium", examPattern: "Passage", subtopics: ["Gender Roles"] },
-        { topic: "Women Change the World", class: "Class 7", weightage: "High", examPattern: "Passage", subtopics: ["Education", "Stereotypes"] },
-        { topic: "Understanding Media", class: "Class 7", weightage: "Medium", examPattern: "Passage", subtopics: ["Role", "Impact", "Advertising"] },
-        { topic: "Markets Around Us", class: "Class 7", weightage: "Low", examPattern: "Passage", subtopics: ["Weekly Market", "Malls"] },
-        { topic: "A Shirt in the Market", class: "Class 7", weightage: "Low", examPattern: "Passage", subtopics: ["Chain of Markets"] },
-        { topic: "Struggles for Equality", class: "Class 7", weightage: "Medium", examPattern: "Passage", subtopics: ["Tawa Matsya Sangh"] },
 
-        // Class 6
-        { topic: "What, Where, How and When?", class: "Class 6", weightage: "Medium", examPattern: "Passage", subtopics: ["Sources", "Archaeology"] },
-        { topic: "From Hunting-Gathering to Growing Food", class: "Class 6", weightage: "High", examPattern: "Passage", subtopics: ["Early Humans", "Domestication"] },
-        { topic: "In the Earliest Cities", class: "Class 6", weightage: "High", examPattern: "Passage", subtopics: ["Harappa", "Mohenjodaro"] },
-        { topic: "What Books and Burials Tell Us", class: "Class 6", weightage: "Medium", examPattern: "Passage", subtopics: ["Vedas", "Megaliths"] },
-        { topic: "Kingdoms, Kings and an Early Republic", class: "Class 6", weightage: "High", examPattern: "Passage", subtopics: ["Janapadas", "Mahajanapadas", "Magadha", "Vajji"] },
-        { topic: "New Questions and Ideas", class: "Class 6", weightage: "High", examPattern: "Passage", subtopics: ["Buddhism", "Jainism", "Upanishads"] },
-        { topic: "Ashoka, The Emperor Who Gave Up War", class: "Class 6", weightage: "High", examPattern: "Passage", subtopics: ["Dhamma", "Mauryan Empire"] },
-        { topic: "Vital Villages, Thriving Towns", class: "Class 6", weightage: "Medium", examPattern: "Passage", subtopics: ["Iron Tools", "Agriculture"] },
-        { topic: "Traders, Kings and Pilgrims", class: "Class 6", weightage: "Medium", examPattern: "Passage", subtopics: ["Silk Route", "Bhakti"] },
-        { topic: "New Empires and Kingdoms", class: "Class 6", weightage: "High", examPattern: "Passage", subtopics: ["Guptas", "Harsha", "Pallavas", "Chalukyas"] },
-        { topic: "Buildings, Paintings and Books", class: "Class 6", weightage: "Medium", examPattern: "Passage", subtopics: ["Stupas", "Epics", "Science"] },
-        { topic: "The Earth in the Solar System", class: "Class 6", weightage: "High", examPattern: "Passage", subtopics: ["Planets", "Stars", "Constellations"] },
-        { topic: "Globe: Latitudes and Longitudes", class: "Class 6", weightage: "High", examPattern: "Passage", subtopics: ["Equator", "Zones", "Time"] },
-        { topic: "Motions of the Earth", class: "Class 6", weightage: "High", examPattern: "Passage", subtopics: ["Rotation", "Revolution", "Seasons"] },
-        { topic: "Maps", class: "Class 6", weightage: "Medium", examPattern: "Passage", subtopics: ["Types", "Symbols", "Scale"] },
-        { topic: "Major Domains of the Earth", class: "Class 6", weightage: "High", examPattern: "Passage", subtopics: ["Lithosphere", "Atmosphere", "Hydrosphere", "Biosphere"] },
-        { topic: "Major Landforms of the Earth", class: "Class 6", weightage: "Medium", examPattern: "Passage", subtopics: ["Mountains", "Plateaus", "Plains"] },
-        { topic: "Our Country - India", class: "Class 6", weightage: "High", examPattern: "Passage", subtopics: ["Location", "Neighbors", "Physical Divisions"] },
-        { topic: "India: Climate, Vegetation and Wildlife", class: "Class 6", weightage: "Medium", examPattern: "Passage", subtopics: ["Monsoon", "Forests"] },
-        { topic: "Understanding Diversity", class: "Class 6", weightage: "High", examPattern: "Passage", subtopics: ["Differences", "Unity in Diversity"] },
-        { topic: "Diversity and Discrimination", class: "Class 6", weightage: "High", examPattern: "Passage", subtopics: ["Prejudice", "Stereotypes", "Inequality"] },
-        { topic: "What is Government?", class: "Class 6", weightage: "High", examPattern: "Passage", subtopics: ["Types", "Democratic Government"] },
-        { topic: "Key Elements of a Democratic Government", class: "Class 6", weightage: "High", examPattern: "Passage", subtopics: ["Participation", "Conflict Resolution"] },
-        { topic: "Panchayati Raj", class: "Class 6", weightage: "High", examPattern: "Passage", subtopics: ["Gram Sabha", "Gram Panchayat"] },
-        { topic: "Rural Administration", class: "Class 6", weightage: "Medium", examPattern: "Passage", subtopics: ["Patwari", "Police Station"] },
-        { topic: "Urban Administration", class: "Class 6", weightage: "Medium", examPattern: "Passage", subtopics: ["Municipal Corporation", "Ward Councillor"] },
-        { topic: "Rural Livelihoods", class: "Class 6", weightage: "Medium", examPattern: "Passage", subtopics: ["Farming", "Debt"] },
-        { topic: "Urban Livelihoods", class: "Class 6", weightage: "Medium", examPattern: "Passage", subtopics: ["Street Vendors", "Casual Workers"] }
     ],
     "English": [
         // Class 10 - First Flight & Footprints Without Feet
@@ -617,21 +368,7 @@ export const SYLLABUS_DB: Record<string, SyllabusTopic[]> = {
         { topic: "Adjectives", class: "Class 8", weightage: "Medium", examPattern: "MCQ", subtopics: ["Degrees of Comparison", "Order"] },
         { topic: "Conjunctions", class: "Class 8", weightage: "Medium", examPattern: "MCQ", subtopics: ["Coordinating", "Subordinating"] },
 
-        // Class 7 - Honeycomb & An Alien Hand
-        { topic: "Three Questions", class: "Class 7", weightage: "Medium", examPattern: "Passage", subtopics: ["King's Quest", "Hermit's Wisdom"] },
-        { topic: "A Gift of Chappals", class: "Class 7", weightage: "Medium", examPattern: "Passage", subtopics: ["Kindness", "Street Cat"] },
-        { topic: "Gopal and the Hilsa Fish", class: "Class 7", weightage: "Low", examPattern: "Passage", subtopics: ["Wit and Humour"] },
-        { topic: "The Squirrel", class: "Class 7", weightage: "Low", examPattern: "Passage", subtopics: ["Poem Analysis", "Observation"] },
-        { topic: "Active and Passive Voice (Intro)", class: "Class 7", weightage: "High", examPattern: "MCQ", subtopics: ["Simple Tenses"] },
-        { topic: "Articles", class: "Class 7", weightage: "High", examPattern: "MCQ", subtopics: ["A, An, The usage"] },
 
-        // Class 6 - Honeysuckle & A Pact with the Sun
-        { topic: "Who Did Patrick's Homework?", class: "Class 6", weightage: "Medium", examPattern: "Passage", subtopics: ["Fantasy Story", "Elf"] },
-        { topic: "How the Dog Found Himself a New Master", class: "Class 6", weightage: "Medium", examPattern: "Passage", subtopics: ["Evolution of Bonding"] },
-        { topic: "Taro's Reward", class: "Class 6", weightage: "Medium", examPattern: "Passage", subtopics: ["Filial Devotion", "Magic Waterfall"] },
-        { topic: "A House, A Home", class: "Class 6", weightage: "Low", examPattern: "Passage", subtopics: ["Poem Analysis", "Family Spirit"] },
-        { topic: "Sentences", class: "Class 6", weightage: "High", examPattern: "MCQ", subtopics: ["Types", "Subject vs Predicate"] },
-        { topic: "Antonyms and Synonyms", class: "Class 6", weightage: "Medium", examPattern: "MCQ", subtopics: ["Word Meanings"] }
     ]
 };
 
@@ -639,15 +376,9 @@ export const EXAM_SUBJECT_MAPPING: Record<string, string[]> = {
     'jee-mains': ['Physics', 'Chemistry', 'Mathematics'],
     'jee-advanced': ['Physics', 'Chemistry', 'Mathematics'],
     'neet': ['Physics', 'Chemistry', 'Biology'],
-    'bitsat': ['Physics', 'Chemistry', 'Mathematics', 'English Proficiency', 'Logical Reasoning'],
-    'upsc': ['History', 'Geography', 'Polity', 'Economy', 'General Science', 'Current Affairs'],
-    'clat': ['English Proficiency', 'Current Affairs', 'Legal Reasoning', 'Logical Reasoning', 'Quantitative Techniques'],
-    'gate': ['Engineering Mathematics', 'Logical Reasoning', 'Computer Science'],
     'class-12': ['Physics', 'Chemistry', 'Mathematics', 'Biology', 'English', 'Computer Science'],
     'class-11': ['Physics', 'Chemistry', 'Mathematics', 'Biology', 'English', 'Computer Science'],
     'class-10': ['Mathematics', 'Science', 'Social Science', 'English'],
     'class-9': ['Mathematics', 'Science', 'Social Science', 'English'],
     'class-8': ['Mathematics', 'Science', 'Social Science', 'English'],
-    'class-7': ['Mathematics', 'Science', 'Social Science', 'English'],
-    'class-6': ['Mathematics', 'Science', 'Social Science', 'English'],
 };

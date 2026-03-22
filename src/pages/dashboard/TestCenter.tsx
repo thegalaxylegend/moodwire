@@ -184,7 +184,7 @@ export const TestCenter = () => {
                             <div>
                                 <label className="block text-sm font-medium text-text-muted mb-2">Difficulty Bias</label>
                                 <div className="grid grid-cols-2 gap-3">
-                                    {['Class 6th', 'Class 7th', 'Class 8th', 'Class 9th', 'Class 10th'].includes(user?.userClass || '') ? (
+                                    {['Class 8th', 'Class 9th', 'Class 10th'].includes(user?.userClass || '') ? (
                                         <div className="col-span-2 p-3 bg-primary/10 border border-primary/20 rounded-lg flex items-center justify-center gap-2 text-primary font-bold cursor-default">
                                             <Brain size={18} /> CBSE Pattern (School Level)
                                         </div>
@@ -266,10 +266,10 @@ export const TestCenter = () => {
                                     <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 shrink-0"></span>
                                     <span>
                                         <strong className="text-text-main">
-                                            {['Class 6th', 'Class 7th', 'Class 8th', 'Class 9th', 'Class 10th'].includes(user?.userClass || '')
+                                            {['Class 8th', 'Class 9th', 'Class 10th'].includes(user?.userClass || '')
                                                 ? 'School Syllabus Matching:'
                                                 : 'Strict Syllabus matching:'}
-                                        </strong> {['Class 6th', 'Class 7th', 'Class 8th', 'Class 9th', 'Class 10th'].includes(user?.userClass || '')
+                                        </strong> {['Class 8th', 'Class 9th', 'Class 10th'].includes(user?.userClass || '')
                                             ? 'We follow the official NCERT curriculum for your grade.'
                                             : "We only generate questions that are exactly in your exam's syllabus."}
                                     </span>
@@ -277,9 +277,9 @@ export const TestCenter = () => {
                                 <li className="flex gap-3">
                                     <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 shrink-0"></span>
                                     <span>
-                                        <strong className="text-text-main">Pattern Adherence:</strong> {['Class 6th', 'Class 7th', 'Class 8th', 'Class 9th', 'Class 10th'].includes(user?.userClass || '')
+                                        <strong className="text-text-main">Pattern Adherence:</strong> {['Class 8th', 'Class 9th', 'Class 10th'].includes(user?.userClass || '')
                                             ? 'Tests include school-style MCQs, Fill in the Blanks, and True/False questions.'
-                                            : 'JEE tests will include numericals. NEET tests will be MCQ only. CLAT will be passage-based.'}
+                                            : 'JEE tests will include numericals. NEET tests will be MCQ only.'}
                                     </span>
                                 </li>
                             </ul>

@@ -166,7 +166,7 @@ export const DashboardLayout = () => {
         }
     };
 
-    const isJunior = ['Class 6th', 'Class 7th', 'Class 8th', 'Class 9th', 'Class 10th'].includes(user?.userClass || '');
+    const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(user?.userClass || '');
 
     const navItems = [
         { icon: LayoutDashboard, label: 'Overview', path: '/dashboard' },

@@ -16,7 +16,7 @@ type SyllabusItem = {
     is_completed: boolean;
     mastery_score: number;
     resources: { youtube?: string, pyq?: string, web?: string } | null;
-    classLevel: 'Class 6' | 'Class 7' | 'Class 8' | 'Class 9' | 'Class 10' | 'Class 11' | 'Class 12';
+    classLevel: 'Class 8' | 'Class 9' | 'Class 10' | 'Class 11' | 'Class 12';
     weightage: 'High' | 'Medium' | 'Low';
     examPattern: 'Passage' | 'MCQ' | 'Numerical';
 };
@@ -78,27 +78,15 @@ export const Syllabus = () => {
             // ... Determine Subjects, Class Filter, and Progress Map (logic remains same)
             const exam = displayUser?.targetExam?.toLowerCase() || '';
             const userClass = displayUser?.userClass || '';
-            const isJunior = ['Class 6th', 'Class 7th', 'Class 8th', 'Class 9th', 'Class 10th'].includes(userClass);
+            const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(userClass);
 
             const isJEE = exam.includes('jee');
             const isNEET = exam.includes('neet');
-            const isUPSC = exam.includes('upsc') || exam.includes('psc');
-            const isBITSAT = exam.includes('bitsat');
-            const isCLAT = exam.includes('clat');
-            const isGATE = exam.includes('gate');
 
             let relevantSubjects: string[] = [];
-
+            
             if (isJunior || exam === 'school exams') {
                 relevantSubjects = ['Mathematics', 'Science', 'Social Science', 'English'];
-            } else if (isUPSC) {
-                relevantSubjects = ['History', 'Geography', 'Polity', 'Economy', 'General Science'];
-            } else if (isBITSAT) {
-                relevantSubjects = ['Physics', 'Chemistry', 'Mathematics', 'English Proficiency', 'Logical Reasoning'];
-            } else if (isCLAT) {
-                relevantSubjects = ['English Proficiency', 'Current Affairs', 'Legal Reasoning', 'Logical Reasoning', 'Quantitative Techniques'];
-            } else if (isGATE) {
-                relevantSubjects = ['Engineering Mathematics', 'Logical Reasoning', 'Computer Science'];
             } else {
                 relevantSubjects = ['Physics', 'Chemistry'];
                 if (isJEE) relevantSubjects.push('Mathematics');
@@ -400,7 +388,7 @@ export const Syllabus = () => {
         <div className="space-y-8">
             <SEO
                 title={`Full Syllabus & Progress Tracker (${user?.targetExam || 'General'}) | Exam Compass`}
-                description="Track your exam preparation progress. View detailed syllabus, weightage analysis, and completion status for JEE, NEET, UPSC, and more."
+                description="Track your exam preparation progress. View detailed syllabus, weightage analysis, and completion status for JEE, NEET, and more."
             />
             <header className="flex justify-between items-end">
                 <div>

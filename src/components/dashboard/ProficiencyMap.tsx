@@ -50,12 +50,9 @@ export const ProficiencyMap = () => {
         if (type.includes('jee') || type.includes('engineering') || type.includes('mains') || type.includes('advanced')) {
             return ['Physics', 'Chemistry', 'Mathematics'];
         }
-        if (type.includes('clat') || type.includes('law')) {
-            return ['Legal Reasoning', 'Logical Reasoning', 'Current Affairs', 'English Proficiency'];
-        }
 
         // Match user class/school exams
-        const isJunior = ['Class 6th', 'Class 7th', 'Class 8th', 'Class 9th', 'Class 10th'].includes(user?.userClass || '');
+        const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(user?.userClass || '');
         if (isJunior || type.includes('class') || type.includes('school')) {
             return ['Mathematics', 'Science', 'Social Science', 'English'];
         }

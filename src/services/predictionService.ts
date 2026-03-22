@@ -2,7 +2,7 @@
 // Sophisticated score prediction algorithm provided by DeepSeek (The Logic Specialist)
 // Enhanced heavily with Claude 2024/2025 Realistic Bracket interpolation
 
-export type ExamType = "jee_mains" | "neet" | "jee_advanced" | "bitsat" | "upsc" | "clat" | "gate" | string;
+export type ExamType = "jee_mains" | "neet" | "jee_advanced" | string;
 
 export interface ExamConstants {
     MAX_SCORE: number;
@@ -53,10 +53,7 @@ export const getExamConstants = (examType: string): ExamConstants => {
         case "jee_mains": return { MAX_SCORE: 300, MIN_SCORE: -75, CANDIDATES: 1_400_000, VOLATILITY: 0.15, GROWTH: 0.12 };
         case "neet": return { MAX_SCORE: 720, MIN_SCORE: -180, CANDIDATES: 2_500_000, VOLATILITY: 0.08, GROWTH: 0.10 };
         case "jee_advanced": return { MAX_SCORE: 360, MIN_SCORE: -120, CANDIDATES: 180_000, VOLATILITY: 0.20, GROWTH: 0.15 };
-        case "bitsat": return { MAX_SCORE: 390, MIN_SCORE: -130, CANDIDATES: 300_000, VOLATILITY: 0.12, GROWTH: 0.10 };
-        case "upsc": return { MAX_SCORE: 2025, MIN_SCORE: 0, CANDIDATES: 15_000, VOLATILITY: 0.05, GROWTH: 0.05 };
-        case "clat": return { MAX_SCORE: 120, MIN_SCORE: -40, CANDIDATES: 90_000, VOLATILITY: 0.10, GROWTH: 0.10 };
-        case "gate": return { MAX_SCORE: 100, MIN_SCORE: 0, CANDIDATES: 1_100_000, VOLATILITY: 0.18, GROWTH: 0.12 };
+
         default: return { MAX_SCORE: 100, MIN_SCORE: 0, CANDIDATES: 1_000_000, VOLATILITY: 0.10, GROWTH: 0.10 };
     }
 };
@@ -66,10 +63,7 @@ function resolveExam(examType: string): string {
     if (t.includes("advanced")) return "jee_advanced";
     if (t.includes("mains") || (t.includes("jee") && !t.includes("advanced"))) return "jee_mains";
     if (t.includes("neet") || t.includes("medical")) return "neet";
-    if (t.includes("bitsat") || t.includes("bits")) return "bitsat";
-    if (t.includes("upsc") || t.includes("ias") || t.includes("civil")) return "upsc";
-    if (t.includes("clat") || t.includes("law")) return "clat";
-    if (t.includes("gate")) return "gate";
+
     return "unknown";
 }
 
@@ -113,49 +107,13 @@ const JEE_ADVANCED_BRACKETS: readonly Bracket[] = [
     [140, 47000], [136, 48000], [126, 48248], [0, 48248],
 ];
 
-const BITSAT_BRACKETS: readonly Bracket[] = [
-    [390, 1], [385, 5], [383, 15], [381, 40], [379, 90], [376, 170], [373, 270], [370, 400],
-    [368, 560], [365, 780], [362, 1050], [360, 1350], [357, 1700], [355, 2100], [352, 2600],
-    [350, 3100], [347, 3750], [344, 4500], [341, 5400], [338, 6400], [335, 7500], [332, 8700],
-    [329, 10000], [325, 11500], [322, 13200], [318, 15200], [315, 17400], [310, 20500], [305, 24000],
-    [300, 28000], [295, 33000], [290, 39000], [285, 46000], [280, 54000], [275, 63000], [270, 73000],
-    [265, 84000], [260, 96000], [255, 109000], [250, 123000], [245, 138000], [240, 154000],
-    [235, 171000], [230, 190000], [220, 230000], [210, 255000], [200, 272000], [180, 288000],
-    [0, 300000],
-];
 
-const UPSC_BRACKETS: readonly Bracket[] = [
-    [1100, 1], [1090, 2], [1080, 5], [1070, 10], [1060, 18], [1055, 28], [1050, 40], [1045, 55],
-    [1043, 65], [1040, 80], [1035, 100], [1030, 120], [1025, 145], [1020, 175], [1015, 210],
-    [1010, 250], [1005, 295], [1000, 345], [995, 400], [990, 460], [985, 525], [980, 595],
-    [975, 670], [970, 750], [965, 835], [960, 925], [955, 1009], [947, 1009], [940, 1009],
-    [0, 15000],
-];
-
-const CLAT_BRACKETS: readonly Bracket[] = [
-    [120, 1], [118, 3], [116, 8], [114, 18], [112, 38], [110, 75], [108, 140], [106, 240],
-    [105, 340], [104, 475], [103, 650], [102, 870], [101, 1130], [100, 1440], [99, 1800],
-    [98, 2230], [97, 2730], [96, 3320], [95, 4000], [94, 4790], [93, 5700], [92, 6750],
-    [91, 7950], [90, 9300], [88, 12500], [86, 16500], [84, 21500], [82, 27500], [80, 34500],
-    [78, 43000], [76, 53000], [74, 64000], [72, 75500], [70, 85000], [60, 88000], [0, 90000],
-];
-
-const GATE_BRACKETS: readonly Bracket[] = [
-    [100, 1], [95, 10], [90, 50], [88, 120], [86, 240], [84, 420], [82, 680], [80, 1050],
-    [78, 1580], [76, 2320], [74, 3350], [72, 4800], [70, 6800], [68, 9500], [66, 13000],
-    [64, 17500], [62, 23000], [60, 30000], [58, 38500], [56, 49000], [54, 61500], [52, 76500],
-    [50, 94000], [48, 114000], [46, 136000], [44, 160000], [42, 186000], [40, 214000],
-    [37, 255000], [34, 300000], [30, 370000], [25, 460000], [0, 1100000],
-];
 
 const BRACKET_MAP: Record<string, readonly Bracket[]> = {
     jee_mains: JEE_MAINS_BRACKETS,
     neet: NEET_BRACKETS,
     jee_advanced: JEE_ADVANCED_BRACKETS,
-    bitsat: BITSAT_BRACKETS,
-    upsc: UPSC_BRACKETS,
-    clat: CLAT_BRACKETS,
-    gate: GATE_BRACKETS,
+
 };
 
 function interpolateRank(score: number, brackets: readonly Bracket[]): number {
@@ -183,10 +141,7 @@ function getRankBand(rank: number, score: number, exam: string): { optimistic: n
         case "jee_mains": spread = score >= 280 ? 0.35 : score >= 200 ? 0.22 : 0.17; break;
         case "neet": spread = score >= 715 ? 0.60 : score >= 680 ? 0.20 : score >= 550 ? 0.15 : 0.12; break;
         case "jee_advanced": spread = score >= 300 ? 0.25 : score >= 200 ? 0.18 : 0.15; break;
-        case "bitsat": spread = score >= 360 ? 0.25 : score >= 300 ? 0.15 : 0.12; break;
-        case "upsc": spread = 0.08; break;
-        case "clat": spread = score >= 108 ? 0.30 : score >= 90 ? 0.18 : 0.14; break;
-        case "gate": spread = score >= 80 ? 0.30 : score >= 60 ? 0.22 : 0.18; break;
+
         default: spread = 0.20;
     }
     return {
@@ -231,41 +186,7 @@ function qualificationLabel(rank: number, exam: string, score: number): string {
             if (rank <= 48248) return "📗 Qualified — IIT admission marginal";
             return "⚠️  Qualified but no IIT seat likely";
 
-        case "bitsat":
-            if (rank <= 300) return "🏆 BITS Pilani CS/ECE — top branch secured";
-            if (rank <= 1000) return "🥇 BITS Pilani CS (likely) + top branches Goa";
-            if (rank <= 3000) return "🎯 BITS Pilani ECE/EEE + BITS Goa CS";
-            if (rank <= 8000) return "✅ BITS Hyderabad CS + Goa/Pilani other branches";
-            if (rank <= 18000) return "👍 BITS Hyderabad ECE/EEE, Goa later branches";
-            if (rank <= 50000) return "📘 BITS Hyderabad Pharmacy/Sci + MSc programs";
-            return "⚠️  Below BITS admission bracket (score <~238)";
 
-        case "upsc":
-            if (rank <= 80) return "🏆 IAS (Indian Administrative Service) — IAS very likely";
-            if (rank <= 100) return "🥇 IFS (Indian Foreign Service) territory";
-            if (rank <= 250) return "🎯 IPS (Indian Police Service) — top posts";
-            if (rank <= 600) return "✅ IRS/IRTS/IDAS/IAAS — Group A central services";
-            if (rank <= 1009) return "👍 Group B services — selected in final merit list";
-            return "❌ Below UPSC CSE 2024 final selection cut-off (~947 general)";
-
-        case "clat":
-            if (rank <= 80) return "🏆 NLS Bangalore / NLU Delhi — top choice accessible";
-            if (rank <= 200) return "🥇 NLU Calcutta, NLIU Bhopal, Nalsar Hyderabad";
-            if (rank <= 600) return "🎯 Top 5 NLUs accessible";
-            if (rank <= 2000) return "✅ Top 10 NLUs — strong options";
-            if (rank <= 6000) return "👍 Mid-tier NLUs";
-            if (rank <= 20000) return "📘 Lower NLUs + state law colleges";
-            return "⚠️  Below competitive NLU bracket";
-
-        case "gate":
-            if (rank <= 100) return "🏆 IIT CS/EE direct admission + top PSU shortlist";
-            if (rank <= 500) return "🥇 Top IITs M.Tech (most streams)";
-            if (rank <= 2000) return "🎯 IIT M.Tech (various streams)";
-            if (rank <= 6000) return "✅ Top PSU shortlisting (BHEL, NTPC, ONGC etc.)";
-            if (rank <= 15000) return "👍 NIT M.Tech + mid-tier PSUs";
-            if (rank <= 40000) return "📘 NITs + state college M.Tech";
-            if (rank <= 100000) return "📗 State colleges + GATE score valid for PSU screening";
-            return "⚠️  Below typical PSU / M.Tech shortlisting threshold";
 
         default:
             return "—";

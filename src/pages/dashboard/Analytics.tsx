@@ -45,10 +45,6 @@ export const Analytics = () => {
             // Resolve relevant subjects based on exam or class
             if (exam.includes('jee')) relevantSubjects = ['Physics', 'Chemistry', 'Mathematics'];
             else if (exam.includes('neet') || exam.includes('medical')) relevantSubjects = ['Physics', 'Chemistry', 'Biology'];
-            else if (exam.includes('bitsat')) relevantSubjects = ['Physics', 'Chemistry', 'Mathematics', 'English Proficiency', 'Logical Reasoning'];
-            else if (exam === 'upsc') relevantSubjects = ['History', 'Geography', 'Polity', 'Economy', 'General Science', 'Current Affairs'];
-            else if (exam === 'clat') relevantSubjects = ['English Proficiency', 'Current Affairs', 'Legal Reasoning', 'Logical Reasoning', 'Quantitative Techniques'];
-            else if (exam === 'gate') relevantSubjects = ['Engineering Mathematics', 'Logical Reasoning', 'Computer Science'];
             else if (exam === 'school exams' || exam.includes('class') || exam.includes('board')) {
                 // Map "Class 10th" -> "class-10"
                 const classKey = userCls.replace(/th|st|nd|rd/g, '').replace(' ', '-');

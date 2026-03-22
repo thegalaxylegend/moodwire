@@ -433,7 +433,7 @@ export const Overview = () => {
         ? Math.ceil((new Date(`${displayUser.targetYear}-01-24`).getTime() - new Date().getTime()) / (1000 * 60 * 60 * 24))
         : 365;
 
-    const isJunior = ['Class 6th', 'Class 7th', 'Class 8th', 'Class 9th', 'Class 10th'].includes(displayUser?.userClass || '');
+    const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(displayUser?.userClass || '');
 
     // Hoist Header out of loading state
     const header = (

@@ -23,46 +23,7 @@ const exams = [
         category: 'Medical',
         difficulty: 'Hard'
     },
-    {
-        id: 'clat',
-        name: 'CLAT',
-        desc: 'Common Law Admission Test',
-        nextDate: 'Dec 07, 2026',
-        progress: 90,
-        color: 'bg-accent',
-        category: 'Law',
-        difficulty: 'Medium'
-    },
-    {
-        id: 'upsc',
-        name: 'UPSC CSE',
-        desc: 'Civil Services Examination',
-        nextDate: 'May 26, 2026',
-        progress: 30,
-        color: 'bg-orange-500',
-        category: 'Civil Services',
-        difficulty: 'Nightmare'
-    },
-    {
-        id: 'cat',
-        name: 'CAT',
-        desc: 'Common Admission Test',
-        nextDate: 'Nov 29, 2026',
-        progress: 60,
-        color: 'bg-emerald-500',
-        category: 'Management',
-        difficulty: 'Hard'
-    },
-    {
-        id: 'gate',
-        name: 'GATE',
-        desc: 'Graduate Aptitude Test',
-        nextDate: 'Feb 03, 2026',
-        progress: 10,
-        color: 'bg-rose-500',
-        category: 'Engineering',
-        difficulty: 'Very Hard'
-    },
+
     {
         id: 'class-12',
         name: 'Class 12 Boards',
@@ -85,7 +46,7 @@ const exams = [
     },
     {
         id: 'school-exams',
-        name: 'Junior School (6-10)',
+        name: 'Junior School (8-10)',
         desc: 'CBSE Academic Foundation',
         nextDate: 'Mar 15, 2026',
         progress: 100,
@@ -102,7 +63,7 @@ export const ExamGrid = () => {
         ? exams
         : exams.filter(exam => exam.category === filter);
 
-    const categories = ['All', 'School', 'Engineering', 'Medical', 'Law', 'Civil Services', 'Management'];
+    const categories = ['All', 'School', 'Engineering', 'Medical'];
 
     return (
         <section className="max-w-7xl mx-auto px-6 py-20">

@@ -82,7 +82,7 @@ export const PeerBenchmarking = () => {
             <div className="space-y-8 pb-20">
                 <SEO
                     title={`Global Leaderboard (${season}) | Exam Compass`}
-                    description="Compete with top students globally in JEE, NEET, and UPSC. Track your real-time rankings and analyze peer performance benchmarks."
+                    description="Compete with top students globally in JEE and NEET. Track your real-time rankings and analyze peer performance benchmarks."
                 />
                 <header className="text-center space-y-4">
                     <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-bold">

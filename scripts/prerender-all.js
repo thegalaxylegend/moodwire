@@ -153,9 +153,10 @@ async function prerender() {
                 }
 
                 // Write file
-                const filePath = url === '/'
+                const cleanPath = url.replace(/\/+$/, '').replace(/^\/+/, '');
+                const filePath = cleanPath === ''
                     ? 'index.html'
-                    : `${url.startsWith('/') ? url.slice(1) : url}/index.html`;
+                    : `${cleanPath}/index.html`;
 
                 const targetPath = path.join(outDir, filePath);
                 fs.mkdirSync(path.dirname(targetPath), { recursive: true });

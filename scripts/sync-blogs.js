@@ -29,21 +29,22 @@ async function sync() {
         const content = fs.readFileSync(filePath, 'utf8');
         const slug = file.replace('.md', '');
 
-        // Extract metadata using regex
-        const titleMatch = content.match(/title:\s*["'](.*?)["']/);
-        const descMatch = content.match(/description:\s*["'](.*?)["']/);
-        const catMatch = content.match(/category:\s*["'](.*?)["']/) || content.match(/# .* Notes for (.*)/);
-        const dateMatch = content.match(/Last Updated:\s*(.*)/) || content.match(/date:\s*["'](.*?)["']/);
-        const imageMatch = content.match(/\!\[.*?\]\((.*?)\)/);
+        // Extract metadata using robust regex
+        const titleMatch = content.match(/^title:\s*["'](.*?)["']/m);
+        const descMatch = content.match(/^description:\s*["'](.*?)["']/m);
+        const catMatch = content.match(/^category:\s*["'](.*?)["']/m);
+        const dateMatch = content.match(/^date:\s*["'](.*?)["']/m);
+        const heroMatch = content.match(/^hero_image:\s*["'](.*?)["']/m);
+        const inlineImgMatch = content.match(/\!\[.*?\]\((.*?)\)/);
 
         blogs.push({
             id: slug,
             title: titleMatch ? titleMatch[1] : slug.replace(/-/g, ' '),
-            description: descMatch ? descMatch[1] : '',
-            category: catMatch ? catMatch[1].trim() : (slug.includes('biology') ? 'Biology' : 'General'),
-            date: dateMatch ? dateMatch[1].split('|')[0].trim().replace(/\*/g, '') : 'March 16, 2026',
+            description: descMatch ? descMatch[1] : 'Deep revision guide for class ' + (slug.match(/class-(\d+)/)?.[1] || '11') + ' students.',
+            category: catMatch ? catMatch[1] : 'General',
+            date: dateMatch ? dateMatch[1] : '2026-03-22',
             readTime: '15 min read',
-            image: imageMatch ? imageMatch[1] : '/blog-images/default.webp'
+            image: heroMatch ? heroMatch[1] : (inlineImgMatch ? inlineImgMatch[1] : '/blog-images/fallbacks/generic-study.webp')
         });
     }
 

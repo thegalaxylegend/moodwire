@@ -1,431 +1,566 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">  <url>
-    <loc>https://examcompass.pages.dev/blog</loc>
+    <loc>https://examcompass.pages.dev/blog/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/3d-geometry-intro-class-11-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/3d-geometry-intro-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/ai-exam-prep-future</loc>
-    <lastmod>2024-03-01</lastmod>
+    <loc>https://examcompass.pages.dev/blog/agriculture-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/ai-study-hack-pomodoro</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/anatomy-of-flowering-plants-class-11-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/ai-study-hack-pomodoro-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/animal-kingdom-class-11-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/binomial-theorem-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/ancient-india-indus-valley-class-11-revision-notes-cbse/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/biological-classification-class-11-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/biomolecules-class-11-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/ancient-india-vedic-age-class-11-revision-notes-jee/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/body-fluids-and-circulation-class-11-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/animal-kingdom-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/breathing-and-exchange-of-gases-class-11-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/art-culture-architecture-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/cell-cycle-and-cell-division-class-11-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/binomial-theorem-class-11-revision-notes-jee/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/cell-the-unit-of-life-class-11-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/biogeography-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/chemical-bonding-class-11-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/biological-classification-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/chemical-coordination-and-integration-class-11-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/biomolecules-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/class-10-30-day-timetable</loc>
-    <lastmod>2024-03-02</lastmod>
+    <loc>https://examcompass.pages.dev/blog/body-fluids-and-circulation-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/class-10-science-pyq-strategy</loc>
-    <lastmod>2024-02-27</lastmod>
+    <loc>https://examcompass.pages.dev/blog/breathing-and-exchange-of-gases-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/classification-elements-periodicity-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/complex-numbers-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/cell-the-unit-of-life-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/conic-sections-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/chemical-bonding-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/cuet-2026-master-strategy</loc>
-    <lastmod>2024-03-04</lastmod>
+    <loc>https://examcompass.pages.dev/blog/chemical-coordination-and-integration-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/current-electricity-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/class-10-30-day-timetable-class-10-revision-notes-jee/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/digestion-and-absorption-class-11-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/electric-charges-fields-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/environmental-chemistry-class-11-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/classification-of-elements-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/equilibrium-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/climatology-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/excretory-products-and-elimination-class-11-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/complex-numbers-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/gravitation-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/conic-sections-class-11-revision-notes-jee/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/hydrocarbons-class-11-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/constitutional-framework-class-11-revision-notes-cbse/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/hydrogen-class-11-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/cuet-2026-master-strategy-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/jee-advanced-math-difficulty-trends</loc>
-    <lastmod>2026-03-15</lastmod>
+    <loc>https://examcompass.pages.dev/blog/current-electricity-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/jee-mains-chemistry-repeated-concepts</loc>
-    <lastmod>2026-03-16</lastmod>
+    <loc>https://examcompass.pages.dev/blog/digestion-and-absorption-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/jee-mains-high-weightage-chapters</loc>
-    <lastmod>2024-02-29</lastmod>
+    <loc>https://examcompass.pages.dev/blog/dpsp-duties-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/kinetic-theory-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/electric-charges-fields-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/laws-of-motion-common-mistakes</loc>
-    <lastmod>2026-03-18</lastmod>
+    <loc>https://examcompass.pages.dev/blog/environmental-chemistry-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/laws-of-motion-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/equilibrium-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/limits-derivatives-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/excretory-products-and-elimination-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/linear-inequalities-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/federalism-class-11-revision-notes-cbse/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/locomotion-and-movement-class-11-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/fundamental-rights-class-11-revision-notes-cbse/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/mathematical-induction-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/geomorphology-class-11-revision-notes-cbse/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/mathematical-reasoning-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/gravitation-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/mechanical-properties-of-fluids-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/hydrocarbons-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/mechanical-properties-of-solids-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/hydrogen-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/mineral-nutrition-class-11-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/indian-geography-climate-class-11-revision-notes-cbse/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/morphology-of-flowering-plants-class-11-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/indian-geography-physical-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/motion-in-a-plane-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/jee-advanced-math-difficulty-trends-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/motion-in-a-straight-line-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/moving-charges-magnetism-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/neet-2026-weightage-prediction</loc>
-    <lastmod>2026-03-14</lastmod>
+    <loc>https://examcompass.pages.dev/blog/kinetic-theory-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/neet-biology-80-20-rule</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://examcompass.pages.dev/blog/laws-of-motion-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/neural-control-and-coordination-class-11-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/organic-chemistry-basic-principles-class-11-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/limits-derivatives-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/oscillations-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/linear-inequalities-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/permutations-combinations-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/local-government-class-11-revision-notes-cbse/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/photosynthesis-in-higher-plants-class-11-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/locomotion-and-movement-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/physical-world-class-11-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/mathematical-induction-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/plant-growth-and-development-class-11-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/mathematical-reasoning-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/plant-kingdom-class-11-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/probability-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/redox-reactions-class-11-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/relations-functions-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/medieval-india-delhi-sultanate-class-11-revision-notes-cbse/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/respiration-in-plants-class-11-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/medieval-india-mughals-class-11-revision-notes-cbse/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/rotational-motion-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/mineral-nutrition-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/sequences-series-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/morphology-of-flowering-plants-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/sets-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/motion-in-a-plane-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/some-basic-concepts-chemistry-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/state-scholarship-guide-2026</loc>
-    <lastmod>2024-03-04</lastmod>
+    <loc>https://examcompass.pages.dev/blog/moving-charges-magnetism-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/states-of-matter-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/neet-2026-weightage-prediction-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/statistics-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/neet-biology-80-20-rule-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/straight-lines-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/neural-control-and-coordination-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/structural-organisation-in-animals-class-11-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/oceanography-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/structure-of-atom-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/study-12-hours-daily-tips</loc>
-    <lastmod>2024-03-05</lastmod>
+    <loc>https://examcompass.pages.dev/blog/oscillations-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/the-living-world-class-11-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/permutations-combinations-class-11-revision-notes-jee/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/the-p-block-elements-11-class-11-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/the-s-block-elements-class-11-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/physical-world-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/thermal-properties-of-matter-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/physics-heat-light-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/thermodynamics-chemistry-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/physics-mechanics-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/thermodynamics-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/planning-in-india-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/three-dimensional-geometry-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/plant-growth-and-development-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/transport-in-plants-class-11-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/plant-kingdom-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/trigonometric-functions-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/poverty-unemployment-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/units-and-measurements-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/probability-class-11-revision-notes-jee/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/upsc-optional-selection-guide</loc>
-    <lastmod>2024-03-04</lastmod>
+    <loc>https://examcompass.pages.dev/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/waves-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/redox-reactions-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/blog/work-energy-and-power-revision-notes</loc>
-    <lastmod>2024-03-03</lastmod>
+    <loc>https://examcompass.pages.dev/blog/relations-functions-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/blog/respiration-in-plants-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/blog/rotational-motion-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/blog/sequences-series-class-11-revision-notes-jee/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/blog/sets-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/blog/state-scholarship-guide-2026-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/blog/states-of-matter-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/blog/statistics-class-11-revision-notes-jee/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/blog/straight-lines-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/blog/structural-organisation-in-animals-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/blog/structure-of-atom-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/blog/structure-of-the-atom-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/blog/study-12-hours-daily-tips-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/blog/the-living-world-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/blog/the-s-block-elements-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/blog/thermodynamics-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/blog/three-dimensional-geometry-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/blog/transport-in-plants-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/blog/trigonometric-functions-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/blog/units-and-measurements-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/blog/upsc-optional-selection-guide-class-11-revision-notes-jee/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/blog/waves-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/blog/work-energy-and-power-class-11-revision-notes-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/blog/world-history-industrial-revolution-class-11-revision-notes-jee-neet/</loc>
+    <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

@@ -3,124 +3,132 @@
 Here is a complete list of all blog topics Jules has successfully generated and published so far:
 
 ## 📖 Biology
-- Anatomy Of Flowering Plants Class 11 Notes `(anatomy-of-flowering-plants-class-11-notes.md)`
-- Animal Kingdom Class 11 Notes `(animal-kingdom-class-11-notes.md)`
-- Biological Classification Class 11 Notes `(biological-classification-class-11-notes.md)`
-- Biomolecules Class 11 Notes `(biomolecules-class-11-notes.md)`
-- Body Fluids and Circulation Class 11 Notes — Exam Compass `(body-fluids-and-circulation-class-11-notes.md)`
-- Breathing and Exchange of Gases Class 11 Notes — Exam Compass `(breathing-and-exchange-of-gases-class-11-notes.md)`
-- Cell Cycle And Cell Division Class 11 Notes `(cell-cycle-and-cell-division-class-11-notes.md)`
-- Cell The Unit Of Life Class 11 Notes `(cell-the-unit-of-life-class-11-notes.md)`
-- Chemical Coordination and Integration Class 11 Notes — Exam Compass `(chemical-coordination-and-integration-class-11-notes.md)`
-- Digestion and Absorption Class 11 Notes — Exam Compass `(digestion-and-absorption-class-11-notes.md)`
-- Excretory Products and Elimination Class 11 Notes — Exam Compass `(excretory-products-and-elimination-class-11-notes.md)`
-- High-Yield Topics: The 80/20 Rule for NEET Biology `(neet-biology-80-20-rule.md)`
-- Locomotion and Movement Class 11 Notes — Exam Compass `(locomotion-and-movement-class-11-notes.md)`
-- Mineral Nutrition Class 11 Notes `(mineral-nutrition-class-11-notes.md)`
-- Morphology Of Flowering Plants Class 11 Notes `(morphology-of-flowering-plants-class-11-notes.md)`
-- Neural Control and Coordination Class 11 Notes — Exam Compass `(neural-control-and-coordination-class-11-notes.md)`
-- Photosynthesis In Higher Plants Class 11 Notes `(photosynthesis-in-higher-plants-class-11-notes.md)`
-- Plant Growth And Development Class 11 Notes `(plant-growth-and-development-class-11-notes.md)`
-- Plant Kingdom Class 11 Notes `(plant-kingdom-class-11-notes.md)`
-- Respiration In Plants Class 11 Notes `(respiration-in-plants-class-11-notes.md)`
-- Structural Organisation In Animals Class 11 Notes `(structural-organisation-in-animals-class-11-notes.md)`
-- Transport In Plants Class 11 Notes `(transport-in-plants-class-11-notes.md)`
-- The Living World Class 11 Notes `(the-living-world-class-11-notes.md)`
+- [Agriculture Class 11 Notes for 2026](https://examcompass.pages.dev/blog/agriculture-class-11-revision-notes-neet) `(agriculture-class-11-revision-notes-neet.md)`
+- [Anatomy Of Flowering Plants Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet) `(anatomy-of-flowering-plants-class-11-revision-notes-neet.md)`
+- [Animal Kingdom Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/animal-kingdom-class-11-revision-notes-neet) `(animal-kingdom-class-11-revision-notes-neet.md)`
+- [Biogeography Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/biogeography-class-11-revision-notes-neet) `(biogeography-class-11-revision-notes-neet.md)`
+- [Biological Classification Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/biological-classification-class-11-revision-notes-neet) `(biological-classification-class-11-revision-notes-neet.md)`
+- [Biomolecules Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/biomolecules-class-11-revision-notes-neet) `(biomolecules-class-11-revision-notes-neet.md)`
+- [Body Fluids And Circulation Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/body-fluids-and-circulation-class-11-revision-notes-neet) `(body-fluids-and-circulation-class-11-revision-notes-neet.md)`
+- [Breathing And Exchange Of Gases Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/breathing-and-exchange-of-gases-class-11-revision-notes-neet) `(breathing-and-exchange-of-gases-class-11-revision-notes-neet.md)`
+- [CBSE Class 10 Science Most Repeated PYQs 2026 Guide](https://examcompass.pages.dev/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet) `(class-10-science-pyq-strategy-class-10-revision-notes-neet.md)`
+- [CUET 2026 Master Strategy: Niche Domains & Preparation Guide](https://examcompass.pages.dev/blog/cuet-2026-master-strategy-class-11-revision-notes-neet) `(cuet-2026-master-strategy-class-11-revision-notes-neet.md)`
+- [Cell Cycle And Cell Division Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) `(cell-cycle-and-cell-division-class-11-revision-notes-neet.md)`
+- [Cell The Unit Of Life Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/cell-the-unit-of-life-class-11-revision-notes-neet) `(cell-the-unit-of-life-class-11-revision-notes-neet.md)`
+- [Chemical Coordination And Integration Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) `(chemical-coordination-and-integration-class-11-revision-notes-neet.md)`
+- [Current Electricity Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/current-electricity-class-11-revision-notes-neet) `(current-electricity-class-11-revision-notes-neet.md)`
+- [Digestion And Absorption Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/digestion-and-absorption-class-11-revision-notes-neet) `(digestion-and-absorption-class-11-revision-notes-neet.md)`
+- [Environmental Chemistry Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/environmental-chemistry-class-11-revision-notes-neet) `(environmental-chemistry-class-11-revision-notes-neet.md)`
+- [Excretory Products And Elimination Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/excretory-products-and-elimination-class-11-revision-notes-neet) `(excretory-products-and-elimination-class-11-revision-notes-neet.md)`
+- [Hydrocarbons Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/hydrocarbons-class-11-revision-notes-neet) `(hydrocarbons-class-11-revision-notes-neet.md)`
+- [Hydrogen Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/hydrogen-class-11-revision-notes-neet) `(hydrogen-class-11-revision-notes-neet.md)`
+- [Jee Mains Chemistry Repeated Concepts Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet) `(jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet.md)`
+- [Locomotion And Movement Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/locomotion-and-movement-class-11-revision-notes-neet) `(locomotion-and-movement-class-11-revision-notes-neet.md)`
+- [Mineral Nutrition Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/mineral-nutrition-class-11-revision-notes-neet) `(mineral-nutrition-class-11-revision-notes-neet.md)`
+- [Modified Pomodoro Technique for JEE & NEET 2026 Guide](https://examcompass.pages.dev/blog/ai-study-hack-pomodoro-class-11-revision-notes-neet) `(ai-study-hack-pomodoro-class-11-revision-notes-neet.md)`
+- [Morphology Of Flowering Plants Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) `(morphology-of-flowering-plants-class-11-revision-notes-neet.md)`
+- [Moving Charges Magnetism Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/moving-charges-magnetism-class-11-revision-notes-neet) `(moving-charges-magnetism-class-11-revision-notes-neet.md)`
+- [NEET 2026 Prediction: Chapter-Wise Weightage Analysis (10-Year Data)](https://examcompass.pages.dev/blog/neet-2026-weightage-prediction-class-11-revision-notes-neet) `(neet-2026-weightage-prediction-class-11-revision-notes-neet.md)`
+- [Neet Biology 80 20 Rule Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/neet-biology-80-20-rule-class-11-revision-notes-neet) `(neet-biology-80-20-rule-class-11-revision-notes-neet.md)`
+- [Neural Control And Coordination Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/neural-control-and-coordination-class-11-revision-notes-neet) `(neural-control-and-coordination-class-11-revision-notes-neet.md)`
+- [Photosynthesis In Higher Plants Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) `(photosynthesis-in-higher-plants-class-11-revision-notes-neet.md)`
+- [Plant Growth And Development Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/plant-growth-and-development-class-11-revision-notes-neet) `(plant-growth-and-development-class-11-revision-notes-neet.md)`
+- [Plant Kingdom Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/plant-kingdom-class-11-revision-notes-neet) `(plant-kingdom-class-11-revision-notes-neet.md)`
+- [Redox Reactions Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/redox-reactions-class-11-revision-notes-neet) `(redox-reactions-class-11-revision-notes-neet.md)`
+- [Respiration In Plants Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/respiration-in-plants-class-11-revision-notes-neet) `(respiration-in-plants-class-11-revision-notes-neet.md)`
+- [State-Level Talent & Scholarship Exams 2026 Guide](https://examcompass.pages.dev/blog/state-scholarship-guide-2026-class-11-revision-notes-neet) `(state-scholarship-guide-2026-class-11-revision-notes-neet.md)`
+- [Structural Organisation In Animals Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/structural-organisation-in-animals-class-11-revision-notes-neet) `(structural-organisation-in-animals-class-11-revision-notes-neet.md)`
+- [Structure Of The Atom Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/structure-of-the-atom-class-11-revision-notes-neet) `(structure-of-the-atom-class-11-revision-notes-neet.md)`
+- [The Living World Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/the-living-world-class-11-revision-notes-neet) `(the-living-world-class-11-revision-notes-neet.md)`
+- [Thermodynamics Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/thermodynamics-class-11-revision-notes-neet) `(thermodynamics-class-11-revision-notes-neet.md)`
+- [Transport In Plants Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/transport-in-plants-class-11-revision-notes-neet) `(transport-in-plants-class-11-revision-notes-neet.md)`
+- [Waves Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/waves-class-11-revision-notes-neet) `(waves-class-11-revision-notes-neet.md)`
+- [Work Energy And Power Class 11 Notes — Quick Revision for NEET 2026](https://examcompass.pages.dev/blog/work-energy-and-power-class-11-revision-notes-neet) `(work-energy-and-power-class-11-revision-notes-neet.md)`
 
 ## 📖 Chemistry
-- Chemical Bonding Class 11 Notes `(chemical-bonding-class-11-notes.md)`
-- Classification of Elements Class 11 Notes — Exam Compass `(classification-of-elements-class-11-notes.md)`
-- Environmental Chemistry Class 11 Notes `(environmental-chemistry-class-11-notes.md)`
-- Equilibrium Revision Notes `(equilibrium-revision-notes.md)`
-- Hydrocarbons Class 11 Notes `(hydrocarbons-class-11-notes.md)`
-- Hydrogen Class 11 Notes `(hydrogen-class-11-notes.md)`
-- Organic Chemistry Basic Principles Class 11 Notes `(organic-chemistry-basic-principles-class-11-notes.md)`
-- Redox Reactions Class 11 Notes `(redox-reactions-class-11-notes.md)`
-- Some Basic Concepts of Chemistry Class 11 Notes — Exam Compass `(some-basic-concepts-of-chemistry-class-11-notes.md)`
-- States Of Matter Revision Notes `(states-of-matter-revision-notes.md)`
-- Structure Of Atom Revision Notes `(structure-of-atom-revision-notes.md)`
-- The P Block Elements 11 Class 11 Notes `(the-p-block-elements-11-class-11-notes.md)`
-- The S Block Elements Class 11 Notes `(the-s-block-elements-class-11-notes.md)`
-- Thermodynamics Chemistry Revision Notes `(thermodynamics-chemistry-revision-notes.md)`
+- [Art Culture Architecture Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/art-culture-architecture-class-11-revision-notes-jee-neet) `(art-culture-architecture-class-11-revision-notes-jee-neet.md)`
+- [Climatology Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/climatology-class-11-revision-notes-jee-neet) `(climatology-class-11-revision-notes-jee-neet.md)`
+- [Relations Functions Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/relations-functions-class-11-revision-notes-jee-neet) `(relations-functions-class-11-revision-notes-jee-neet.md)`
+- [Sets Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/sets-class-11-revision-notes-jee-neet) `(sets-class-11-revision-notes-jee-neet.md)`
 
-## 📖 Social Science (Polity/Civics)
-- Constitutional Framework Class 11 Notes `(constitutional-framework-class-11-notes.md)`
-- Fundamental Rights Class 11 Notes `(fundamental-rights-class-11-notes.md)`
-- DPSP & Duties Class 11 Notes `(dpsp-duties-class-11-notes.md)`
-- Federalism Class 11 Notes `(federalism-class-11-notes.md)`
+## 📖 General
+- [Ancient India Indus Valley Class 11 Notes — CBSE 2026 Quick Revision](https://examcompass.pages.dev/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) `(ancient-india-indus-valley-class-11-revision-notes-cbse.md)`
+- [Medieval India Bhakti Sufi Class 11 Notes — CBSE 2026 Quick Revision](https://examcompass.pages.dev/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse) `(medieval-india-bhakti-sufi-class-11-revision-notes-cbse.md)`
+- [Medieval India Delhi Sultanate Class 11 Notes — CBSE 2026 Quick Revision](https://examcompass.pages.dev/blog/medieval-india-delhi-sultanate-class-11-revision-notes-cbse) `(medieval-india-delhi-sultanate-class-11-revision-notes-cbse.md)`
+- [Medieval India Mughals Class 11 Notes — CBSE 2026 Quick Revision](https://examcompass.pages.dev/blog/medieval-india-mughals-class-11-revision-notes-cbse) `(medieval-india-mughals-class-11-revision-notes-cbse.md)`
 
 ## 📖 Geography
-- Indian Geography: Physical Features Class 11 Notes `(indian-geography-physical-class-11-notes.md)`
-- Indian Geography: Climate Class 11 Notes `(indian-geography-climate-class-11-notes.md)`
-- Climatology Class 11 Notes `(climatology-class-11-notes.md)`
-- Oceanography Class 11 Notes `(oceanography-class-11-notes.md)`
-- Biogeography Class 11 Notes `(biogeography-class-11-notes.md)`
-- Geomorphology Class 11 Notes `(geomorphology-class-11-notes.md)`
-
-## 📖 History
-- Ancient India: Indus Valley Class 11 Notes `(ancient-india-indus-valley-class-11-notes.md)`
-- Ancient India: Vedic Age Class 11 Notes `(ancient-india-vedic-age-class-11-notes.md)`
-- Ancient India: Mahajanapadas Class 11 Notes `(ancient-india-mahajanapadas-class-11-notes.md)`
-- Medieval India: Bhakti & Sufi Class 11 Notes `(medieval-india-bhakti-sufi-class-11-notes.md)`
-- Medieval India: Delhi Sultanate Class 11 Notes `(medieval-india-delhi-sultanate-class-11-notes.md)`
-- Medieval India: Mughals Class 11 Notes `(medieval-india-mughals-class-11-notes.md)`
-- Art & Culture: Architecture Class 11 Notes `(art-culture-architecture-class-11-notes.md)`
-- World History: Industrial Revolution Class 11 Notes `(world-history-industrial-revolution-class-11-notes.md)`
+- [Geomorphology Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/geomorphology-class-11-revision-notes-cbse) `(geomorphology-class-11-revision-notes-cbse.md)`
+- [Indian Geography Climate Class 11 Notes — CBSE 2026 Quick Revision](https://examcompass.pages.dev/blog/indian-geography-climate-class-11-revision-notes-cbse) `(indian-geography-climate-class-11-revision-notes-cbse.md)`
 
 ## 📖 Mathematics
-- Binomial Theorem Revision Notes `(binomial-theorem-revision-notes.md)`
-- Complex Numbers Revision Notes `(complex-numbers-revision-notes.md)`
-- Conic Sections Revision Notes `(conic-sections-revision-notes.md)`
-- Limits Derivatives Revision Notes `(limits-derivatives-revision-notes.md)`
-- Linear Inequalities Revision Notes `(linear-inequalities-revision-notes.md)`
-- Mathematical Induction Revision Notes `(mathematical-induction-revision-notes.md)`
-- Mathematical Reasoning Revision Notes `(mathematical-reasoning-revision-notes.md)`
-- Permutations Combinations Revision Notes `(permutations-combinations-revision-notes.md)`
-- Probability Revision Notes `(probability-revision-notes.md)`
-- Relations Functions Revision Notes `(relations-functions-revision-notes.md)`
-- Sequences Series Revision Notes `(sequences-series-revision-notes.md)`
-- Sets Revision Notes `(sets-revision-notes.md)`
-- Statistics Revision Notes `(statistics-revision-notes.md)`
-- Straight Lines Revision Notes `(straight-lines-revision-notes.md)`
-- Three Dimensional Geometry Revision Notes `(three-dimensional-geometry-revision-notes.md)`
-- Trigonometric Functions Revision Notes `(trigonometric-functions-revision-notes.md)`
+- [Ancient India Mahajanapadas Class 11 Notes — Quick Revision for JEE 2026](https://examcompass.pages.dev/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) `(ancient-india-mahajanapadas-class-11-revision-notes-jee.md)`
+- [Ancient India Vedic Age Class 11 Notes — Quick Revision for JEE 2026](https://examcompass.pages.dev/blog/ancient-india-vedic-age-class-11-revision-notes-jee) `(ancient-india-vedic-age-class-11-revision-notes-jee.md)`
+- [Binomial Theorem Class 11 Notes — Quick Revision for JEE 2026](https://examcompass.pages.dev/blog/binomial-theorem-class-11-revision-notes-jee) `(binomial-theorem-class-11-revision-notes-jee.md)`
+- [Class 10 30 Day Timetable Class 10 Notes — CBSE 2026 Quick Revision](https://examcompass.pages.dev/blog/class-10-30-day-timetable-class-10-revision-notes-jee) `(class-10-30-day-timetable-class-10-revision-notes-jee.md)`
+- [Conic Sections Class 11 Notes — Quick Revision for JEE 2026](https://examcompass.pages.dev/blog/conic-sections-class-11-revision-notes-jee) `(conic-sections-class-11-revision-notes-jee.md)`
+- [Permutations Combinations Class 11 Notes — Quick Revision for JEE 2026](https://examcompass.pages.dev/blog/permutations-combinations-class-11-revision-notes-jee) `(permutations-combinations-class-11-revision-notes-jee.md)`
+- [Pick the Best UPSC Optional Subject 2026 Guide](https://examcompass.pages.dev/blog/upsc-optional-selection-guide-class-11-revision-notes-jee) `(upsc-optional-selection-guide-class-11-revision-notes-jee.md)`
+- [Probability Class 11 Notes — Quick Revision for JEE 2026](https://examcompass.pages.dev/blog/probability-class-11-revision-notes-jee) `(probability-class-11-revision-notes-jee.md)`
+- [Sequences Series Class 11 Notes — Quick Revision for JEE 2026](https://examcompass.pages.dev/blog/sequences-series-class-11-revision-notes-jee) `(sequences-series-class-11-revision-notes-jee.md)`
+- [Statistics Class 11 Notes — Quick Revision for JEE 2026](https://examcompass.pages.dev/blog/statistics-class-11-revision-notes-jee) `(statistics-class-11-revision-notes-jee.md)`
 
 ## 📖 Physics
-- Electric Charges Fields Revision Notes `(electric-charges-fields-revision-notes.md)`
-- Current Electricity Revision Notes `(current-electricity-revision-notes.md)`
-- Gravitation Revision Notes `(gravitation-revision-notes.md)`
-- Kinetic Theory Revision Notes `(kinetic-theory-revision-notes.md)`
-- Laws Of Motion Revision Notes `(laws-of-motion-revision-notes.md)`
-- Mechanical Properties Of Fluids Revision Notes `(mechanical-properties-of-fluids-revision-notes.md)`
-- Mechanical Properties Of Solids Revision Notes `(mechanical-properties-of-solids-revision-notes.md)`
-- Motion In A Plane Revision Notes `(motion-in-a-plane-revision-notes.md)`
-- Motion In A Straight Line Revision Notes `(motion-in-a-straight-line-revision-notes.md)`
-- Moving Charges Magnetism Revision Notes `(moving-charges-magnetism-revision-notes.md)`
-- Oscillations Revision Notes `(oscillations-revision-notes.md)`
-- Physical World Class 11 Notes `(physical-world-class-11-notes.md)`
-- Rotational Motion Revision Notes `(rotational-motion-revision-notes.md)`
-- Thermal Properties Of Matter Revision Notes `(thermal-properties-of-matter-revision-notes.md)`
-- Thermodynamics Revision Notes `(thermodynamics-revision-notes.md)`
-- Units And Measurements Revision Notes `(units-and-measurements-revision-notes.md)`
-- Waves Revision Notes `(waves-revision-notes.md)`
-- Work Energy And Power Revision Notes `(work-energy-and-power-revision-notes.md)`
-- Ray Optics Class 12 Quick Revision Notes `(ray-optics-class-12-quick-revision-notes.md)`
+- [3d Geometry Intro Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/3d-geometry-intro-class-11-revision-notes-jee-neet) `(3d-geometry-intro-class-11-revision-notes-jee-neet.md)`
+- [AI in Competitive Exam Preparation India: 2026 Guide](https://examcompass.pages.dev/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet) `(ai-exam-prep-future-class-11-revision-notes-jee-neet.md)`
+- [Chemical Bonding Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/chemical-bonding-class-11-revision-notes-jee-neet) `(chemical-bonding-class-11-revision-notes-jee-neet.md)`
+- [Classification Elements Periodicity Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet) `(classification-elements-periodicity-class-11-revision-notes-jee-neet.md)`
+- [Classification Of Elements Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/classification-of-elements-class-11-revision-notes-jee-neet) `(classification-of-elements-class-11-revision-notes-jee-neet.md)`
+- [Complex Numbers Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/complex-numbers-class-11-revision-notes-jee-neet) `(complex-numbers-class-11-revision-notes-jee-neet.md)`
+- [Dpsp Duties Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/dpsp-duties-class-11-revision-notes-jee-neet) `(dpsp-duties-class-11-revision-notes-jee-neet.md)`
+- [Electric Charges Fields Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/electric-charges-fields-class-11-revision-notes-jee-neet) `(electric-charges-fields-class-11-revision-notes-jee-neet.md)`
+- [Equilibrium Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/equilibrium-class-11-revision-notes-jee-neet) `(equilibrium-class-11-revision-notes-jee-neet.md)`
+- [Gravitation Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/gravitation-class-11-revision-notes-jee-neet) `(gravitation-class-11-revision-notes-jee-neet.md)`
+- [Indian Geography Physical Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/indian-geography-physical-class-11-revision-notes-jee-neet) `(indian-geography-physical-class-11-revision-notes-jee-neet.md)`
+- [JEE Mains High Weightage Low Effort Chapters 2026 Guide](https://examcompass.pages.dev/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) `(jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet.md)`
+- [Jee Advanced Math Difficulty Trends Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/jee-advanced-math-difficulty-trends-class-11-revision-notes-jee-neet) `(jee-advanced-math-difficulty-trends-class-11-revision-notes-jee-neet.md)`
+- [Kinetic Theory Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/kinetic-theory-class-11-revision-notes-jee-neet) `(kinetic-theory-class-11-revision-notes-jee-neet.md)`
+- [Laws Of Motion Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/laws-of-motion-class-11-revision-notes-jee-neet) `(laws-of-motion-class-11-revision-notes-jee-neet.md)`
+- [Laws Of Motion Common Mistakes Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet) `(laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet.md)`
+- [Limits Derivatives Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/limits-derivatives-class-11-revision-notes-jee-neet) `(limits-derivatives-class-11-revision-notes-jee-neet.md)`
+- [Linear Inequalities Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/linear-inequalities-class-11-revision-notes-jee-neet) `(linear-inequalities-class-11-revision-notes-jee-neet.md)`
+- [Mathematical Induction Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/mathematical-induction-class-11-revision-notes-jee-neet) `(mathematical-induction-class-11-revision-notes-jee-neet.md)`
+- [Mathematical Reasoning Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/mathematical-reasoning-class-11-revision-notes-jee-neet) `(mathematical-reasoning-class-11-revision-notes-jee-neet.md)`
+- [Mechanical Properties Of Fluids Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet) `(mechanical-properties-of-fluids-class-11-revision-notes-jee-neet.md)`
+- [Mechanical Properties Of Solids Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) `(mechanical-properties-of-solids-class-11-revision-notes-jee-neet.md)`
+- [Motion In A Plane Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) `(motion-in-a-plane-class-11-revision-notes-jee-neet.md)`
+- [Motion In A Straight Line Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) `(motion-in-a-straight-line-class-11-revision-notes-jee-neet.md)`
+- [Oceanography Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/oceanography-class-11-revision-notes-jee-neet) `(oceanography-class-11-revision-notes-jee-neet.md)`
+- [Organic Chemistry Basic Principles Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) `(organic-chemistry-basic-principles-class-11-revision-notes-jee-neet.md)`
+- [Oscillations Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/oscillations-class-11-revision-notes-jee-neet) `(oscillations-class-11-revision-notes-jee-neet.md)`
+- [Physical World Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/physical-world-class-11-revision-notes-jee-neet) `(physical-world-class-11-revision-notes-jee-neet.md)`
+- [Physics: Heat & Light Class 11 Notes for 2026](https://examcompass.pages.dev/blog/physics-heat-light-class-11-revision-notes-jee-neet) `(physics-heat-light-class-11-revision-notes-jee-neet.md)`
+- [Physics: Mechanics Class 11 Notes for 2026](https://examcompass.pages.dev/blog/physics-mechanics-class-11-revision-notes-jee-neet) `(physics-mechanics-class-11-revision-notes-jee-neet.md)`
+- [Planning in India Class 11 Notes for 2026](https://examcompass.pages.dev/blog/planning-in-india-class-11-revision-notes-jee-neet) `(planning-in-india-class-11-revision-notes-jee-neet.md)`
+- [Poverty & Unemployment Class 11 Notes for 2026](https://examcompass.pages.dev/blog/poverty-unemployment-class-11-revision-notes-jee-neet) `(poverty-unemployment-class-11-revision-notes-jee-neet.md)`
+- [Ray Optics Class 12 Quick Class 12 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) `(ray-optics-class-12-quick-class-12-revision-notes-jee-neet.md)`
+- [Rotational Motion Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/rotational-motion-class-11-revision-notes-jee-neet) `(rotational-motion-class-11-revision-notes-jee-neet.md)`
+- [Some Basic Concepts Of Chemistry Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) `(some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet.md)`
+- [States Of Matter Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/states-of-matter-class-11-revision-notes-jee-neet) `(states-of-matter-class-11-revision-notes-jee-neet.md)`
+- [Straight Lines Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/straight-lines-class-11-revision-notes-jee-neet) `(straight-lines-class-11-revision-notes-jee-neet.md)`
+- [Structure Of Atom Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/structure-of-atom-class-11-revision-notes-jee-neet) `(structure-of-atom-class-11-revision-notes-jee-neet.md)`
+- [Study 12 Hours Daily Tips Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/study-12-hours-daily-tips-class-11-revision-notes-jee-neet) `(study-12-hours-daily-tips-class-11-revision-notes-jee-neet.md)`
+- [The P Block Elements 11 Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) `(the-p-block-elements-11-class-11-revision-notes-jee-neet.md)`
+- [The S Block Elements Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/the-s-block-elements-class-11-revision-notes-jee-neet) `(the-s-block-elements-class-11-revision-notes-jee-neet.md)`
+- [Thermal Properties Of Matter Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet) `(thermal-properties-of-matter-class-11-revision-notes-jee-neet.md)`
+- [Thermodynamics Chemistry Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) `(thermodynamics-chemistry-class-11-revision-notes-jee-neet.md)`
+- [Three Dimensional Geometry Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/three-dimensional-geometry-class-11-revision-notes-jee-neet) `(three-dimensional-geometry-class-11-revision-notes-jee-neet.md)`
+- [Trigonometric Functions Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/trigonometric-functions-class-11-revision-notes-jee-neet) `(trigonometric-functions-class-11-revision-notes-jee-neet.md)`
+- [Units And Measurements Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/units-and-measurements-class-11-revision-notes-jee-neet) `(units-and-measurements-class-11-revision-notes-jee-neet.md)`
+- [World History Industrial Revolution Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/world-history-industrial-revolution-class-11-revision-notes-jee-neet) `(world-history-industrial-revolution-class-11-revision-notes-jee-neet.md)`
 
-## 📖 Exam Strategies & AI Study Hacks
-- 30-Day Timetable for Class 10 Board Exam Prep `(class-10-30-day-timetable.md)`
-- CBSE Class 10 Science Most Repeated PYQs 2026 Guide `(class-10-science-pyq-strategy.md)`
-- CUET 2026 Master Strategy & Preparation Guide `(cuet-2026-master-strategy.md)`
-- NEET 2026 Prediction: Chapter-Wise Weightage Analysis `(neet-2026-weightage-prediction.md)`
-- Pick the Best UPSC Optional Subject 2026 Guide `(upsc-optional-selection-guide.md)`
-- AI in Competitive Exam Preparation India: 2026 Guide `(ai-exam-prep-future.md)`
-- Modified Pomodoro Technique for JEE & NEET 2026 `(ai-study-hack-pomodoro.md)`
-- Study for 12 Hours Daily Without Tiredness `(study-12-hours-daily-tips.md)`
-- State-Level Talent & Scholarship Exams 2026 `(state-scholarship-guide-2026.md)`
-- 10 Most Common Silly Mistakes in Laws of Motion `(laws-of-motion-common-mistakes.md)`
-- JEE Mains High Weightage Low Effort Chapters 2026 `(jee-mains-high-weightage-chapters.md)`
-- Top 15 Most Repeated Concepts in JEE Mains Chemistry `(jee-mains-chemistry-repeated-concepts.md)`
+## 📖 Social Science
+- [Constitutional Framework Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/constitutional-framework-class-11-revision-notes-cbse) `(constitutional-framework-class-11-revision-notes-cbse.md)`
+- [Federalism Class 11 Notes — CBSE 2026 Quick Revision](https://examcompass.pages.dev/blog/federalism-class-11-revision-notes-cbse) `(federalism-class-11-revision-notes-cbse.md)`
+- [Fundamental Rights Class 11 Notes — Quick Revision for JEE & NEET 2026](https://examcompass.pages.dev/blog/fundamental-rights-class-11-revision-notes-cbse) `(fundamental-rights-class-11-revision-notes-cbse.md)`
+- [Local Government Class 11 Notes for 2026](https://examcompass.pages.dev/blog/local-government-class-11-revision-notes-cbse) `(local-government-class-11-revision-notes-cbse.md)`
 
 ---
 
-**Total Blogs Generated by Jules:** 106 
-*(Latest Sync: March 21, 2026 — Jules 2.0 Engine Enabled)*
+**Total Blogs Generated by Jules:** 112
+*(Latest Sync: March 22, 2026 at 10:52:28 PM — Jules 3.0 SEO Engine Enabled)*

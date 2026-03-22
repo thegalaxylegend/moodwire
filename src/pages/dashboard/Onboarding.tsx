@@ -31,7 +31,7 @@ export const Onboarding = () => {
     const handleNext = () => {
         if (step === 1) {
             // Check for Junior Classes
-            const isJunior = ['Class 6th', 'Class 7th', 'Class 8th', 'Class 9th', 'Class 10th'].includes(formData.userClass);
+            const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(formData.userClass);
             if (isJunior) {
                 setFormData({ ...formData, targetExam: 'School Exams', targetYear: new Date().getFullYear() });
                 setStep(4); // Skip Exam Selection (2) AND Attempt Year (3)
@@ -97,7 +97,7 @@ export const Onboarding = () => {
                             </h2>
 
                             <div className="grid grid-cols-3 gap-4 mt-8">
-                                {['Class 6th', 'Class 7th', 'Class 8th', 'Class 9th', 'Class 10th', 'Class 11th', 'Class 12th', 'Dropper'].map((cls) => (
+                                {['Class 8th', 'Class 9th', 'Class 10th', 'Class 11th', 'Class 12th', 'Dropper'].map((cls) => (
                                     <button
                                         key={cls}
                                         onClick={() => setFormData({ ...formData, userClass: cls })}
@@ -122,7 +122,7 @@ export const Onboarding = () => {
                             <p className="text-center text-text-muted">Select the mountain you want to conquer.</p>
 
                             <div className="grid grid-cols-2 gap-4 mt-6">
-                                {['JEE Mains', 'NEET UG', 'UPSC CSE', 'BITSAT', 'CLAT', 'GATE', 'School Exams'].map((exam) => (
+                                {['JEE Mains', 'NEET UG', 'School Exams'].map((exam) => (
                                     <button
                                         key={exam}
                                         onClick={() => setFormData({ ...formData, targetExam: exam })}

@@ -34,8 +34,8 @@ export const Hero = ({ onOpenDemo }: HeroProps) => {
                     </h1>
 
                     <p className="text-lg text-gray-300 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-                        Get real-time probability scores, AI-generated PYQ mocks, and an honest roadmap to your dream college.
-                        <span className="text-text-main font-semibold block mt-2">No fake motivation. Just data.</span>
+                        Adaptive Elo-rated mocks that match YOUR level. Root-cause AI that finds WHY you fail, not just where. Real-time success probability based on 9,000+ PYQs.
+                        <span className="text-text-main font-semibold block mt-2">Not a quiz app. A competitive exam weapon.</span>
                     </p>
 
                     <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
@@ -59,7 +59,7 @@ export const Hero = ({ onOpenDemo }: HeroProps) => {
                             <ShieldCheck size={16} /> Verified Data
                         </div>
                         <div className="flex items-center gap-2 text-text-muted text-sm">
-                            <Globe size={16} /> Class 6-12 & 10+ Exams
+                            <Globe size={16} /> Class 8-12 & JEE/NEET
                         </div>
                     </div>
                 </div>
@@ -93,7 +93,7 @@ export const Hero = ({ onOpenDemo }: HeroProps) => {
                             </div>
 
                             <div className="flex justify-between text-sm pt-2">
-                                <span className="text-text-muted">BITSAT</span>
+                                <span className="text-text-muted">School Exams</span>
                                 <span className="text-blue-400">Very High (91%)</span>
                             </div>
                             <div className="w-full h-2 bg-zinc-800 rounded-full overflow-hidden">

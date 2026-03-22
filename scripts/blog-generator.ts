@@ -432,8 +432,22 @@ async function generateBlogs() {
 
                 const extras = await generateExtras(item);
 
+                const SUBJECT_EXAM: Record<string, string> = {
+                    'Physics': 'JEE & NEET', 'Chemistry': 'JEE & NEET',
+                    'Mathematics': 'JEE', 'Biology': 'NEET',
+                    'Computer Science': 'GATE & Boards',
+                    'Science': 'CBSE Boards', 'Social Science': 'CBSE Boards',
+                    'English': 'CBSE Boards'
+                };
+                const examTag = numericClass >= 11
+                    ? (SUBJECT_EXAM[item.subject] || 'CBSE')
+                    : 'CBSE';
+                const seoTitle = numericClass >= 11
+                    ? `${item.topic} ${displayClass} Notes — Quick Revision for ${examTag} ${targetYear}`
+                    : `${item.topic} ${displayClass} Notes — CBSE ${targetYear} Quick Revision`;
+
                 const assembled: BlogPostJSON = {
-                    title: `${item.topic} ${displayClass} Notes for ${targetYear} — Grandmaster Revision`,
+                    title: seoTitle,
                     slug: item.targetSlug,
                     subject: item.subject,
                     chapter_name: item.topic,

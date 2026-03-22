@@ -35,26 +35,7 @@ const EXAM_FAQS: Record<string, { question: string; answer: string }[]> = {
         { question: "What is a good score in NEET?", answer: "A score above 620+ out of 720 is considered excellent for top government medical colleges. For a general category seat, typically 550+ is needed." },
         { question: "Is NCERT enough for NEET?", answer: "NCERT is the foundation and covers ~90% of NEET Biology. For Physics and Chemistry, supplement NCERT with standard reference books and previous year questions." }
     ],
-    'upsc': [
-        { question: "How to start UPSC preparation?", answer: "Begin with understanding the syllabus and exam pattern. Start with NCERT books for all subjects (Class 6-12), then move to standard references. Read the newspaper daily and practice answer writing." },
-        { question: "How many attempts are allowed in UPSC?", answer: "General category candidates get 6 attempts, OBC gets 9 attempts, and SC/ST candidates have unlimited attempts until the age limit of 32/35/37 years respectively." },
-        { question: "What are the stages of UPSC CSE?", answer: "UPSC Civil Services Examination has three stages: Prelims (MCQ-based screening), Mains (descriptive written exam), and Interview (personality test)." }
-    ],
-    'clat': [
-        { question: "What is CLAT exam?", answer: "CLAT (Common Law Admission Test) is a national-level entrance exam for admission to 22 National Law Universities in India for UG (BA LLB) and PG (LLM) law programs." },
-        { question: "What is the CLAT exam pattern?", answer: "CLAT UG has 120 questions in 120 minutes covering English Language, Current Affairs, Legal Reasoning, Logical Reasoning, and Quantitative Techniques. All questions are passage-based." },
-        { question: "What is a good CLAT score?", answer: "A score of 100+ out of 120 is considered excellent. For top NLUs like NLSIU Bangalore, typically 110+ is needed for general category." }
-    ],
-    'gate': [
-        { question: "What is GATE exam used for?", answer: "GATE (Graduate Aptitude Test in Engineering) scores are used for admissions to M.Tech/PhD programs in IITs/NITs, and for recruitment in PSUs like IOCL, NTPC, ONGC, BHEL, etc." },
-        { question: "How many times can I attempt GATE?", answer: "There is no limit on the number of attempts for GATE. Candidates can appear for GATE any number of times. GATE scores are valid for 3 years from the date of announcement of results." },
-        { question: "Is GATE tough?", answer: "GATE is considered challenging due to its vast syllabus and conceptual depth. Only about 15-17% of candidates qualify, making regular practice and mock tests essential." }
-    ],
-    'bitsat': [
-        { question: "What is BITSAT exam?", answer: "BITSAT (Birla Institute of Technology and Science Admission Test) is an online entrance exam for admission to all BITS campuses — Pilani, Goa, and Hyderabad." },
-        { question: "How many questions are in BITSAT?", answer: "BITSAT has 130 questions in 180 minutes covering Physics (30), Chemistry (30), Mathematics (40), English Proficiency (10), and Logical Reasoning (20)." },
-        { question: "What is the cutoff for BITS Pilani?", answer: "For CS at BITS Pilani, the cutoff is typically 340+ out of 390. For other branches, it ranges from 250-320 depending on the campus and branch." }
-    ]
+
 };
 
 // Generate FAQ schema for class pages
@@ -106,7 +87,10 @@ export const ExamLanding = () => {
                 "@type": "Organization",
                 "name": "Exam Compass",
                 "logo": SITE_LOGO,
-                "sameAs": SITE_URL,
+                "sameAs": [
+                    "https://www.youtube.com/@moodwire",
+                    "https://twitter.com/examcompass_ai"
+                ],
                 "url": SITE_URL
             },
             "hasCourseInstance": {
@@ -171,14 +155,14 @@ export const ExamLanding = () => {
             <Navbar />
 
             <section className="pt-32 pb-20 px-6 max-w-7xl mx-auto">
-                <div className="flex items-center gap-3 text-sm text-gray-300 mb-6 uppercase tracking-widest">
+                <nav className="flex items-center gap-3 text-sm text-gray-300 mb-6 uppercase tracking-widest" aria-label="Breadcrumb">
                     <Link to="/" className="hover:text-white transition-colors">Home</Link>
                     <span>/</span>
-                    <span className="text-white">{formattedExam}</span>
-                </div>
+                    <span className="text-white font-bold">{formattedExam} {targetYear}</span>
+                </nav>
                  <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8">
                     <h1 className="text-4xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-                        Crack {formattedExam}
+                        Crack {formattedExam} {targetYear}
                     </h1>
                     <div className="flex items-center gap-4">
                         <button 
@@ -297,7 +281,7 @@ export const ExamLanding = () => {
                 <div className="mt-20 pt-10 border-t border-white/10">
                     <h2 className="text-2xl font-bold mb-6 italic text-gray-500">Compare with Other Goals</h2>
                     <div className="flex flex-wrap gap-3">
-                        {['JEE Mains', 'NEET', 'UPSC', 'GATE', 'CLAT', 'Class 12'].filter(e => slugify(e) !== exam).map(other => (
+                        {['JEE Mains', 'NEET', 'Class 12', 'Class 11', 'Class 10'].filter(e => slugify(e) !== exam).map(other => (
                             <Link
                                 key={other}
                                 to={`/${slugify(other)}`}

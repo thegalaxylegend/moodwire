@@ -8,11 +8,7 @@ syllabus tracking, and a personalized AI study mentor called "Exa".
 ## Supported Exams
 - JEE Mains & JEE Advanced (Engineering)
 - NEET (Medical)
-- UPSC (Civil Services)
-- CLAT (Law)
-- GATE (Graduate Aptitude)
-- BITSAT (Engineering)
-- CBSE/ICSE School Exams: Classes 6, 7, 8, 9, 10, 11, 12
+- CBSE/ICSE School Exams: Classes 8, 9, 10, 11, 12
 
 ## Core Public Routes
 - / — Homepage / Landing Page
@@ -20,17 +16,13 @@ syllabus tracking, and a personalized AI study mentor called "Exa".
 - /jee-mains — JEE Mains Exam Hub
 - /jee-advanced — JEE Advanced Exam Hub
 - /neet — NEET Exam Hub
-- /upsc — UPSC Exam Hub
-- /clat — CLAT Exam Hub
-- /gate — GATE Exam Hub
-- /bitsat — BITSAT Exam Hub
+
 - /class-12 — Class 12 Board Exam Hub
 - /class-11 — Class 11 Exam Hub
 - /class-10 — Class 10 Board Exam Hub
 - /class-9 — Class 9 Exam Hub
 - /class-8 — Class 8 Exam Hub
-- /class-7 — Class 7 Exam Hub
-- /class-6 — Class 6 Exam Hub
+
 
 ## Route Structure (per exam)
 - /{exam} — Exam landing page with subject list

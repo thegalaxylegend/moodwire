@@ -111,6 +111,69 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
         post.practice_link_path = `${expectedPrefix}${post.slug}`;
     }
 
+    // 2. Word Count (Rules V3.1: 2000-3500, but we'll gate at 1200 for now)
+    const wordCount = (post.content?.intro?.split(' ').length || 0) + (post.content?.sections || []).reduce((acc, s) => acc + (s.body?.split(' ').length || 0), 0);
+    if (wordCount < 1200) {
+        report.score -= 20;
+        report.critical_failures.push(`Low word count: ${wordCount} (Min 1200 expected)`);
+        report.regenerate_sections.push("all");
+    } else if (wordCount < 2000) {
+        report.warnings.push(`Word count (${wordCount}) is below the 2000-3500 target range.`);
+    }
+
+    // 3. Mandatory Sections check
+    const bodyContent = JSON.stringify(post.content).toLowerCase();
+    const hasAyushNote = bodyContent.includes("ayush's note") || bodyContent.includes("ayush note") || bodyContent.includes("mistake i made");
+    const hasTrapQuestions = bodyContent.includes("trap questions") || bodyContent.includes("common mistakes") || bodyContent.includes("exceptions");
+    const hasRecall = (post.content?.quick_recall || []).length >= 3;
+    const mcqCount = (post.content?.mcqs || []).length;
+
+    if (!hasAyushNote) {
+        report.score -= 15;
+        report.critical_failures.push("Missing 'Ayush's Note' (Experience Hook)");
+        report.regenerate_sections.push("sections");
+    }
+    if (!hasTrapQuestions) {
+        report.score -= 15;
+        report.critical_failures.push("Missing 'Trap Questions / Exceptions' section");
+        report.regenerate_sections.push("sections");
+    }
+    if (mcqCount < 5) {
+        report.score -= 10;
+        report.critical_failures.push(`Insufficient MCQs: ${mcqCount} (Min 5 required)`);
+        report.regenerate_sections.push("mcqs");
+    }
+
+    // 4. Kill List Scan (Forbidden Phrases)
+    const killList = [
+        "in conclusion", "delve into", "it is important to note", 
+        "world-best", "comprehensive", "ultimate guide", 
+        "embark on your journey", "needless to say", "master this today"
+    ];
+    for (const phrase of killList) {
+        if (bodyContent.includes(phrase)) {
+            report.score -= 5;
+            report.critical_failures.push(`Forbidden phrase found: "${phrase}"`);
+            report.regenerate_sections.push("all");
+        }
+    }
+
+    // 5. Section Depth
+    if ((post.content?.sections || []).length < 4) {
+        report.score -= 15;
+        report.critical_failures.push("Insufficient section count (Min 4 H2 topics)");
+        report.regenerate_sections.push("sections");
+    }
+
+    // 6. LaTeX Check
+    if (bodyContent.includes('\\frac') || bodyContent.includes('\\sqrt')) {
+        if (!bodyContent.includes('$')) {
+            report.score -= 10;
+            report.critical_failures.push("Potential LaTeX formatting error (Missing delimiters)");
+            report.regenerate_sections.push("sections");
+        }
+    }
+
     // --- CRITICAL FAILURES ---
     
     // MCQ Completeness
@@ -120,11 +183,6 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
             report.regenerate_sections.push("mcqs");
         }
     });
-
-    if (post.content.mcqs.length < 2) {
-        report.critical_failures.push("Post has fewer than 2 MCQs.");
-        report.regenerate_sections.push("mcqs");
-    }
 
     // Table Leak Detection
     post.content.sections.forEach(sec => {
@@ -166,8 +224,8 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
         report.warnings.push("Fewer than 3 MCQs (below recommendation).");
     }
 
-    const wordCount = fullText.split(/\s+/).length;
     if (wordCount < 1500) {
+        report.score -= 20;
         report.critical_failures.push(`Extremely low word count: ${wordCount} words. Minimum 1500+ required for Grandmaster status.`);
         report.regenerate_sections.push("all");
     } else if (wordCount < 2000) {
@@ -184,6 +242,51 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
         report.warnings.push("AI filler phrases detected.");
     }
 
+    // --- SEO QUALITY CHECKS ---
+
+    // Dynamic target year
+    const nowDate = new Date();
+    const curYear = Number(nowDate.getFullYear());
+    const curMonth = nowDate.getMonth();
+    const targetYear = String(curMonth >= 7 ? curYear + 1 : curYear);
+
+    // Title must contain year
+    if (!post.title.includes(targetYear)) {
+        report.warnings.push(`SEO: Title missing target year (${targetYear}).`);
+        // Auto-fix: append year
+        const oldTitle = post.title;
+        post.title = post.title.replace(/\d{4}/g, targetYear);
+        if (!post.title.includes(targetYear)) {
+            post.title = `${post.title} ${targetYear}`;
+        }
+        report.auto_fixed.push({ field: 'title_year', old: oldTitle, new: post.title });
+    }
+
+    // Title length check (50-70 chars ideal)
+    if (post.title.length > 70) {
+        report.warnings.push(`SEO: Title too long (${post.title.length} chars). Target: 50-70.`);
+    } else if (post.title.length < 30) {
+        report.warnings.push(`SEO: Title too short (${post.title.length} chars). Target: 50-70.`);
+    }
+
+    // Kill list phrases in title
+    const titleKillList = ["ultimate guide", "comprehensive", "everything you need", "complete guide", "master today"];
+    const lowerTitle = post.title.toLowerCase();
+    for (const phrase of titleKillList) {
+        if (lowerTitle.includes(phrase)) {
+            report.warnings.push(`SEO: Title contains kill-list phrase: "${phrase}".`);
+        }
+    }
+
+    // Exam name check for Class 11-12 PCMB
+    const PCMB_SUBJECTS = ['Physics', 'Chemistry', 'Mathematics', 'Biology'];
+    if (post.exam_class >= 11 && PCMB_SUBJECTS.includes(post.subject)) {
+        const hasExam = lowerTitle.includes('jee') || lowerTitle.includes('neet') || lowerTitle.includes('gate');
+        if (!hasExam) {
+            report.warnings.push("SEO: Class 11-12 PCMB title missing exam name (JEE/NEET).");
+        }
+    }
+
     // --- SCORING & FINAL PASS ---
     score -= (report.critical_failures.length * 25);
     score -= (report.warnings.length * 5);
@@ -194,11 +297,84 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
 }
 
 export function jsonToMarkdown(post: BlogPostJSON): string {
+    // Dynamic target year
+    const now = new Date();
+    const currentYear = Number(now.getFullYear());
+    const currentMonth = now.getMonth();
+    const targetYear = currentMonth >= 7 ? currentYear + 1 : currentYear;
+
+    // SEO-optimized description (not truncated intro)
+    const SUBJECT_EXAM_DESC: Record<string, string> = {
+        'Physics': 'JEE & NEET', 'Chemistry': 'JEE & NEET',
+        'Mathematics': 'JEE', 'Biology': 'NEET',
+        'Computer Science': 'GATE & Boards',
+        'Science': 'CBSE Boards', 'Social Science': 'CBSE Boards',
+        'English': 'CBSE Boards'
+    };
+    const examTag = post.exam_class >= 11
+        ? (SUBJECT_EXAM_DESC[post.subject] || 'CBSE')
+        : 'CBSE';
+
+    const seoTitle = post.exam_class >= 11
+        ? `${post.chapter_name} Class ${post.exam_class} ${post.subject} Revision — ${examTag} ${targetYear} Grandmaster Guide`
+        : `${post.chapter_name} Class ${post.exam_class} ${post.subject} Recap — CBSE ${targetYear} Quick Guide`;
+
+    const seoDesc = post.exam_class >= 11
+        ? `Comprehensive ${post.chapter_name} revision guide for ${examTag} ${targetYear}. Includes Ayush's personal study hacks, trap questions, and high-yield MCQs for final revision.`
+        : `Learn ${post.chapter_name} for Class ${post.exam_class} CBSE ${targetYear}. Master key concepts with our rapid recap guide, formulas, and NCERT-aligned practice questions.`;
+
+    // CRITICAL: Update the object so YAML uses the new title
+    post.title = seoTitle;
+
+    // SEO keywords
+    const SUBJECT_KW_EXAMS: Record<string, string[]> = {
+        'Physics': ['JEE', 'NEET'], 'Chemistry': ['JEE', 'NEET'],
+        'Mathematics': ['JEE'], 'Biology': ['NEET'],
+        'Computer Science': ['GATE'],
+        'Science': ['CBSE'], 'Social Science': ['CBSE'], 'English': ['CBSE']
+    };
+    const exams = SUBJECT_KW_EXAMS[post.subject] || ['CBSE'];
+    const kwParts = [
+        `${post.chapter_name} class ${post.exam_class} notes`,
+        `${post.chapter_name} quick revision`,
+        `${post.chapter_name} ${targetYear}`,
+        ...exams.map(e => `${post.chapter_name} ${e} ${targetYear}`),
+        ...exams.map(e => `${post.chapter_name} notes for ${e}`),
+        `class ${post.exam_class} ${post.subject} revision`,
+        `${post.chapter_name} formula sheet`,
+        `${post.chapter_name} MCQs`
+    ];
+
+    const sectionsHtml = (post.content?.sections || []).map(sec => `
+## ${sec.heading}
+
+${sec.body}
+
+${(sec.table && Array.isArray(sec.table.headers) && Array.isArray(sec.table.rows)) ? `
+| ${sec.table.headers.join(' | ')} |
+| ${sec.table.headers.map(() => '---').join(' | ')} |
+${sec.table.rows.map(row => Array.isArray(row) ? `| ${row.join(' | ')} |` : '').join('\n')}` : ''}
+`).join('\n');
+
+    const recallHtml = (post.content?.quick_recall || []).map(point => `- ${point}`).join('\n');
+    const mcqsHtml = (post.content?.mcqs || []).map((mcq, i) => {
+        const optionsArr = Array.isArray(mcq.options) 
+            ? mcq.options 
+            : (typeof mcq.options === 'string' ? (mcq.options as string).split('\n') : []);
+
+        return `
+**${i + 1}. ${mcq.question}**
+${optionsArr.join('\n')}
+
+**Answer:** ${mcq.answer}) ${mcq.answer_text}
+`;
+    }).join('\n');
+
     const yaml = `---
 title: "${post.title}"
-description: "${post.content.intro.substring(0, 155)}"
+description: "${seoDesc}"
 category: "${post.subject}"
-keywords: "${post.chapter_name} quick recap, ${post.chapter_name} notes, class ${post.exam_class} ${post.subject} MCQs"
+keywords: "${kwParts.join(', ')}"
 date: "${post.last_updated}"
 practice_link: "${post.practice_link_path}"
 ---
@@ -211,29 +387,15 @@ practice_link: "${post.practice_link_path}"
 
 ${post.content.intro}
 
-${post.content.sections.map(sec => `
-## ${sec.heading}
-
-${sec.body}
-
-${sec.table ? `
-| ${sec.table.headers.join(' | ')} |
-| ${sec.table.headers.map(() => '---').join(' | ')} |
-${sec.table.rows.map(row => `| ${row.join(' | ')} |`).join('\n')}` : ''}
-`).join('\n')}
+${sectionsHtml}
 
 ## Quick Recall Box
 
-${post.content.quick_recall.map(point => `- ${point}`).join('\n')}
+${recallHtml}
 
 ## MCQs
 
-${post.content.mcqs.map((mcq, i) => `
-**${i + 1}. ${mcq.question}**
-${mcq.options.join('\n')}
-
-**Answer:** ${mcq.answer}) ${mcq.answer_text}
-`).join('\n')}
+${mcqsHtml}
 `;
     return yaml;
 }

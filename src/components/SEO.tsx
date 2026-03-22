@@ -23,9 +23,10 @@ export const SEO = (props: SEOProps) => {
     const { title, description, canonical, type, name, image, schema, noindex, robots, keywords, publishedTime, modifiedTime } = props;
     const location = useLocation();
 
-    // SSR-safe canonical: use explicit prop > useLocation (works in SSR via StaticRouter) > window fallback
+    // SSR-safe canonical: include trailing slash to match Cloudflare Pages enforcement
+    const path = location.pathname.replace(/\/$/, '') || '/';
     const canonicalUrl = canonical
-        || `${SITE_URL}${location.pathname.replace(/\/$/, '') || '/'}`;
+        || `${SITE_URL}${path}${path === '/' ? '' : '/'}`;
     const siteTitle = name || SITE_NAME;
     
     // Smart Title Suffix Logic (Bing 60-char limit optimization)

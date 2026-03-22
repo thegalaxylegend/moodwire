@@ -49,7 +49,7 @@ export const TermsOfService = () => {
                         </p>
                         <ul className="space-y-4 list-none p-0">
                             {[
-                                "AI-curated mock tests for JEE, NEET, UPSC, and other examinations.",
+                                "AI-curated mock tests for JEE, NEET, and other examinations.",
                                 "Real-time performance analytics and selection probability modeling.",
                                 "Categorized Previous Year Question (PYQ) databases with AI-generated solutions.",
                                 "Personalized study roadmaps driven by Large Language Model (LLM) insights."

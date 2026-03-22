@@ -329,7 +329,7 @@ export const generateCheatSheetContent = async (topic: string, subject: string):
 
         Requirements:
         1. Summary: Exactly 2 impactful sentences summarizing the core concept.
-        2. High-Yield Points: 5-7 "Must-Know" points that frequently appear in exams like JEE/NEET/UPSC.
+        2. High-Yield Points: 5-7 "Must-Know" points that frequently appear in exams like JEE/NEET.
         3. Formulas/Definitions: List the 4 most critical formulas or definitions with their names.
         4. Viral Pro-Tips: 3 expert shortcuts, mnemonics, or common traps to avoid.
 

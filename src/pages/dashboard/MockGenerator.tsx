@@ -261,7 +261,7 @@ export const MockGenerator = () => {
     const saveProgress = async (status: 'paused' | 'completed') => {
         if (!user) return;
 
-        const isJunior = ['Class 6th', 'Class 7th', 'Class 8th', 'Class 9th', 'Class 10th'].includes(user?.userClass || '');
+        const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(user?.userClass || '');
 
         // Calculate score if completing
         let currentScore = 0;
@@ -572,7 +572,7 @@ export const MockGenerator = () => {
             classContext = "Syllabus: Class 11 & 12 (Full Syllabus).";
         }
 
-        const isJunior = ['Class 6th', 'Class 7th', 'Class 8th', 'Class 9th', 'Class 10th'].includes(user?.userClass || '');
+        const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(user?.userClass || '');
         if (isJunior) {
             const grade = user?.userClass?.replace(/\D/g, '') || '';
             const nextGrade = parseInt(grade) + 1;
@@ -693,49 +693,6 @@ export const MockGenerator = () => {
                         return;
                     }
                     setQuestions(allQs);
-                } else if (target.includes('BITSAT')) {
-                    const qCount = 130;
-                    globalTargetRef.current = qCount;
-                    setTimeRemaining(180 * 60); // 3 Hours
-                    setLoadingMessage(`Generating BITSAT Mock (${qCount} Qs)...`);
-                    const [p1, p2, p3, p4, p5] = await Promise.all([
-                        generateQuestionsBatch("Physics", 30, classContext, 1),
-                        generateQuestionsBatch("Chemistry", 30, classContext, 31),
-                        generateQuestionsBatch("Mathematics", 40, classContext, 61),
-                        generateQuestionsBatch("English Proficiency", 10, classContext, 101),
-                        generateQuestionsBatch("Logical Reasoning", 20, classContext, 111)
-                    ]);
-                    setQuestions([...p1, ...p2, ...p3, ...p4, ...p5]);
-                } else if (target.includes('CLAT')) {
-                    const qCount = 120;
-                    globalTargetRef.current = qCount;
-                    setTimeRemaining(120 * 60); // 2 Hours
-                    setLoadingMessage(`Generating CLAT Mock (${qCount} Qs)...`);
-                    const [p1, p2, p3, p4, p5] = await Promise.all([
-                        generateQuestionsBatch("English Language", 24, "CLAT pattern.", 1),
-                        generateQuestionsBatch("Current Affairs & GK", 28, "CLAT pattern.", 25),
-                        generateQuestionsBatch("Legal Reasoning", 28, "CLAT pattern.", 53),
-                        generateQuestionsBatch("Logical Reasoning", 28, "CLAT pattern.", 81),
-                        generateQuestionsBatch("Quantitative Techniques", 12, "CLAT pattern.", 109)
-                    ]);
-                    setQuestions([...p1, ...p2, ...p3, ...p4, ...p5]);
-                } else if (target.includes('UPSC')) {
-                    const qCount = 100;
-                    globalTargetRef.current = qCount;
-                    setTimeRemaining(120 * 60); // 2 Hours
-                    setLoadingMessage(`Generating UPSC CSE Prelims Mock (${qCount} Qs)...`);
-                    const q = await generateQuestionsBatch("General Studies (History, Geography, Polity, Economy, Science, Env)", 100, "UPSC CSE Prelims Standard.", 1);
-                    setQuestions(q);
-                } else if (target.includes('GATE')) {
-                    const qCount = 65;
-                    globalTargetRef.current = qCount;
-                    setTimeRemaining(180 * 60); // 3 Hours
-                    setLoadingMessage(`Generating GATE Mock (${qCount} Qs)...`);
-                    const [p1, p2] = await Promise.all([
-                        generateQuestionsBatch("General Aptitude", 10, "GATE standards.", 1),
-                        generateQuestionsBatch(user?.targetExam || "Core Engineering Subject", 55, "GATE technical standards.", 11)
-                    ]);
-                    setQuestions([...p1, ...p2]);
                 } else {
                     const qCount = 75;
                     globalTargetRef.current = qCount; // CRITICAL FIX: Set total target for progress bar

@@ -5,8 +5,6 @@ import { CATEGORIES } from '../data/blogs';
 const EXAM_LINKS = [
     { label: 'JEE Mains', to: '/jee-mains' },
     { label: 'NEET', to: '/neet' },
-    { label: 'UPSC', to: '/upsc' },
-    { label: 'GATE', to: '/gate' },
     { label: 'Class 10', to: '/class-10' },
     { label: 'Class 11', to: '/class-11' },
     { label: 'Class 12', to: '/class-12' },

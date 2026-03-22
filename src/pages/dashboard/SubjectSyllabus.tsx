@@ -15,7 +15,7 @@ type SyllabusItem = {
     is_completed: boolean;
     mastery_score: number;
     resources: { youtube?: string, pyq?: string, web?: string } | null;
-    classLevel: 'Class 6' | 'Class 7' | 'Class 8' | 'Class 9' | 'Class 10' | 'Class 11' | 'Class 12';
+    classLevel: 'Class 8' | 'Class 9' | 'Class 10' | 'Class 11' | 'Class 12';
     weightage: 'High' | 'Medium' | 'Low';
     examPattern: 'Passage' | 'MCQ' | 'Numerical';
 };

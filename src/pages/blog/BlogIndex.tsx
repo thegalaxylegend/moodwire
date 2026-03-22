@@ -21,7 +21,7 @@ export const BlogIndex: React.FC = () => {
         <div className="min-h-screen bg-black text-white selection:bg-purple-500/30">
             <SEO
                 title={categoryFilter ? `${categoryFilter} | Exam Compass Blog` : "Exam Compass Blog | AI Exam Prep Tips & Strategies"}
-                description={`Expert strategies, syllabus breakdowns, and exam preparation tips for ${categoryFilter || 'JEE, NEET, UPSC, and CBSE Class 10-12'} students.`}
+                description={`Expert strategies, syllabus breakdowns, and exam preparation tips for ${categoryFilter || 'JEE, NEET, and CBSE Class 8-12'} students.`}
                 canonical={`${SITE_URL}/blog`}
             />
             <Navbar />

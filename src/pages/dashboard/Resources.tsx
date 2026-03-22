@@ -41,7 +41,7 @@ export const Resources = () => {
         <div className="space-y-8 animate-fade-in-up">
             <SEO
                 title="Free JEE & NEET Study Materials | Exam Compass Resources"
-                description="Access AI-curated video lectures, Previous Year Questions (PYQs), and study notes for JEE, NEET, and UPSC. Updated for 2026 syllabus."
+                description="Access AI-curated video lectures, Previous Year Questions (PYQs), and study notes for JEE and NEET. Updated for 2026 syllabus."
             />
             <header>
                 <h1 className="text-3xl font-heading font-bold text-text-main">Study Resources</h1>

@@ -36,11 +36,7 @@ export interface ExamTest {
 
 const EXAM_RULES: Record<string, string> = {
     'JEE': 'Subjects: Physics, Chemistry, Mathematics. Pattern: Mixed MCQ + Numerical. Difficulty: JEE Advanced level. Marking: +4, -1.',
-    'NEET': 'Subjects: Physics, Chemistry, Biology. Pattern: MCQ only. Biology strictly NCERT-based. Marking: +4, -1.',
-    'UPSC': 'Subjects: History, Geography, Polity, Economy, General Science. Pattern: MCQ (Prelims style). Conceptual & analytical.',
-    'BITSAT': 'Subjects: Physics, Chemistry, Mathematics, English, Logical Reasoning. Speed-based MCQs. No negative marking.',
-    'CLAT': 'Subjects: English, Current Affairs, Legal Reasoning, Logical Reasoning, Quantitative Techniques. Passage-based questions.',
-    'GATE': 'Subjects: Engineering Mathematics, General Aptitude, Core Subject (CS/IT). Numerical + MCQ. Graduation-level depth.'
+    'NEET': 'Subjects: Physics, Chemistry, Biology. Pattern: MCQ only. Biology strictly NCERT-based. Marking: +4, -1.'
 };
 
 export const generateTest = async (
@@ -51,7 +47,7 @@ export const generateTest = async (
 ): Promise<ExamTest | null> => {
 
     // 1. Validation
-    const validExams = ['JEE', 'NEET', 'UPSC', 'BITSAT', 'CLAT', 'GATE'];
+    const validExams = ['JEE', 'NEET'];
     const examKey = validExams.find(e => targetExam.toUpperCase().includes(e));
 
     if (!examKey) {
@@ -79,7 +75,7 @@ export const generateTest = async (
     3. DIFFICULTY CALIBRATION:
        - "Hard" = Top 1% of students can solve. (e.g. Rotational Motion + Electrostatics mixed).
        - "Medium" = Standard Exam Level.
-       - "Easy" = Formula based (Only for BITSAT/NEET, never for JEE Adv).
+       - "Easy" = Formula based (Only for NEET, never for JEE Adv).
     4. REVIEWER PERSONA:
        - Act as a strict exam setter. REJECT any question that looks too simple or "school level".
        - If you generate a Class 9 question for JEE, you FAIL.

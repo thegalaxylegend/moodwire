@@ -22,7 +22,7 @@ export const BlogCTA: React.FC = () => {
                 </div>
 
                 <Link
-                    to="/"
+                    to="/dashboard"
                     className="shrink-0 flex items-center gap-2 px-6 py-3 rounded-xl bg-primary text-white font-bold tracking-wide hover:shadow-[0_0_20px_rgba(139,92,246,0.5)] transition-all hover:-translate-y-1 w-full md:w-auto justify-center"
                 >
                     Try Exam Compass Free
