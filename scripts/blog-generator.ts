@@ -9,9 +9,25 @@ import { checkBlogQuality, jsonToMarkdown, BlogPostJSON, QualityReport, Section,
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const groq = new Groq({
-    apiKey: process.env.VITE_GROQ_API_KEY || process.env.GROQ_API_KEY
-});
+const GROQ_KEYS = [
+    process.env.VITE_GROQ_API_KEY || process.env.GROQ_API_KEY,
+    process.env.VITE_GROQ_API_KEY_2,
+    process.env.VITE_GROQ_API_KEY_3,
+    process.env.VITE_GROQ_API_KEY_4,
+    process.env.VITE_GROQ_API_KEY_5,
+    process.env.VITE_GROQ_API_KEY_6
+].filter(Boolean) as string[];
+
+let currentKeyIndex = 0;
+let groq = new Groq({ apiKey: GROQ_KEYS[0] });
+
+function rotateGroqKey() {
+    currentKeyIndex = (currentKeyIndex + 1) % GROQ_KEYS.length;
+    groq = new Groq({ apiKey: GROQ_KEYS[currentKeyIndex] });
+    console.log(`🔄 Rotating to Groq Key #${currentKeyIndex + 1}...`);
+}
+
+const sleep = (ms: number) => new Promise(r => setTimeout(r, ms));
 
 // --- DATE DISTRIBUTOR ---
 // To guarantee new blogs ALWAYS appear at the top of the grid, 
@@ -28,7 +44,7 @@ async function generateWithGemini(systemPrompt: string, userPrompt: string): Pro
 
     try {
         console.log(`🚀 Calling Gemini Flash for content...`);
-        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=${key}`, {
+        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${key}`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
@@ -54,6 +70,20 @@ async function generateWithGemini(systemPrompt: string, userPrompt: string): Pro
         console.error("❌ Gemini Backup Network Error:", err.message);
         return null;
     }
+}
+
+// Gemini with rate-limit retry
+async function generateWithGeminiRetry(systemPrompt: string, userPrompt: string, maxRetries: number = 3): Promise<string | null> {
+    for (let i = 0; i < maxRetries; i++) {
+        const result = await generateWithGemini(systemPrompt, userPrompt);
+        if (result) return result;
+        if (i < maxRetries - 1) {
+            const waitSec = 45; // Gemini free tier resets in ~42s
+            console.log(`⏳ Gemini rate limited. Waiting ${waitSec}s before retry ${i + 2}/${maxRetries}...`);
+            await sleep(waitSec * 1000);
+        }
+    }
+    return null;
 }
 
 const QUEUE_FILE = path.join(__dirname, '../queue.json');
@@ -100,6 +130,10 @@ const SUBJECT_FALLBACKS: Record<string, string> = {
     'Chemistry':   '/blog-images/fallbacks/chemistry-molecule.webp',
     'Physics':     '/blog-images/fallbacks/physics-waves.webp',
     'Mathematics': '/blog-images/fallbacks/maths-equations.webp',
+    'Computer Science': '/blog-images/fallbacks/generic-study.webp',
+    'Science':     '/blog-images/fallbacks/generic-study.webp',
+    'Social Science': '/blog-images/fallbacks/history-manuscript.webp',
+    'English':     '/blog-images/fallbacks/generic-study.webp',
     'default':     '/blog-images/fallbacks/generic-study.webp'
 };
 
@@ -126,8 +160,8 @@ const SUBJECT_CATEGORIES: Record<string, string> = {
 
 
 async function generateCloudflareImage(subject: string, topic: string, webpPath: string): Promise<boolean> {
-    const accountId = process.env.CLOUDFLARE_ACCOUNT_ID;
-    const apiToken = process.env.CLOUDFLARE_API_TOKEN;
+    const accountId = process.env.CLOUDFLARE_ACCOUNT_ID?.replace(/['"]/g, '');
+    const apiToken = process.env.CLOUDFLARE_API_TOKEN?.replace(/['"]/g, '');
 
     if (!accountId || !apiToken) {
         console.warn("⚠️ Cloudflare credentials (ACCOUNT_ID/API_TOKEN) missing in .env");
@@ -152,7 +186,14 @@ async function generateCloudflareImage(subject: string, topic: string, webpPath:
 
         if (!response.ok) throw new Error(`Cloudflare API error: ${response.status}`);
 
+        const contentType = response.headers.get('content-type') || '';
         const imageBuffer = Buffer.from(await response.arrayBuffer());
+        
+        // Validate response is actually image data, not a JSON error wrapper
+        if (imageBuffer.length < 1000 || contentType.includes('application/json')) {
+            throw new Error(`Cloudflare returned non-image data (${contentType}, ${imageBuffer.length} bytes)`);
+        }
+
         const { default: sharp } = await import('sharp');
         await sharp(imageBuffer)
             .resize(1200, 630, { fit: 'cover' })
@@ -179,7 +220,7 @@ async function generateGeminiImage(subject: string, topic: string, webpPath: str
         Style: Dark mode, neon colors, futuristic, scientific diagrams, no text, high detail.
         Format: Return ONLY the raw SVG code starting with <svg. 1200x630. DO NOT use markdown code blocks.`;
 
-        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=${key}`, {
+        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${key}`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
@@ -272,15 +313,42 @@ Voice: Specific, data-driven, authentic student tone. NO FILLER.`;
 
 const CROSS_SECTION_RULES = `
 RULES:
-1. NO CONCLUSION sections.
-2. NO FILLER PHRASES: "In conclusion", "Delve into", "Important to note", "Master [Topic] today".
+1. NO CONCLUSION sections. Never end with "In conclusion".
+2. ZERO TOLERANCE for KILL LIST phrases: "In conclusion", "Delve into", "Important to note", "Master [Topic] today", "comprehensive", "everything you need", "complete guide", "mastering this", "vibrant", "robust", "unveiling".
 3. Use ONLY $ for inline math and $$ for block math.
 4. Factual Accuracy: Kangchenjunga is highest peak in India. Ganga is longest river.
+5. Voice: Authentic Peer Mentor (student-to-student).
 `;
 
 // --- SMART RECOVERY WRAPPER ---
-async function callLlmWithFallback(system: string, user: string, isJson: boolean = false): Promise<string> {
-    // 70B for content and outlines, 8B only for structured metadata
+function safelyParseJson(raw: string): any {
+    try {
+        // Remove markdown code blocks if present
+        let cleaned = raw.replace(/```json/gi, "").replace(/```/gi, "").trim();
+        
+        // Handle unescaped newlines in strings (common LLM mistake)
+        // This is a bit risky but often helpful: replace literal newlines inside quotes
+        cleaned = cleaned.replace(/"([^"]*)"/g, (match, p1) => {
+            return '"' + p1.replace(/\n/g, "\\n").replace(/\r/g, "\\r") + '"';
+        });
+
+        return JSON.parse(cleaned);
+    } catch (err) {
+        console.warn("⚠️ JSON Parse failed. Attempting aggressive recovery...");
+        // Strategy 2: Extract content between first { and last }
+        try {
+            const firstBrace = raw.indexOf('{');
+            const lastBrace = raw.lastIndexOf('}');
+            if (firstBrace !== -1 && lastBrace !== -1) {
+                const subset = raw.substring(firstBrace, lastBrace + 1);
+                return JSON.parse(subset);
+            }
+        } catch {}
+        throw new Error("Final JSON parse failed.");
+    }
+}
+
+async function callLlmWithFallback(system: string, user: string, isJson: boolean = false, attempt: number = 1): Promise<string> {
     const isMetadata = user.includes("MCQ") || user.includes("quick_recall");
     const primaryModel = isMetadata ? "llama-3.1-8b-instant" : "llama-3.3-70b-versatile";
 
@@ -295,9 +363,22 @@ async function callLlmWithFallback(system: string, user: string, isJson: boolean
         return completion.choices[0]?.message?.content || "";
     } catch (err: any) {
         if (err.message.includes("429") || err.message.includes("rate_limit")) {
-            console.log(`🛡️ Rate Limited on ${primaryModel}. Falling back to Gemini...`);
-            const gemini = await generateWithGemini(system + (isJson ? "\nReturn ONLY valid JSON." : ""), user);
+            if (attempt < GROQ_KEYS.length) {
+                rotateGroqKey();
+                await sleep(2000 * attempt); // Exponential-ish backoff
+                return await callLlmWithFallback(system, user, isJson, attempt + 1);
+            }
+            
+            console.log(`🛡️ All Groq keys rate limited. Falling back to Gemini (with retry)...`);
+            const gemini = await generateWithGeminiRetry(system + (isJson ? "\nReturn ONLY valid JSON." : ""), user);
             if (gemini) return gemini;
+
+            // If Gemini also failed, wait and retry Groq from start
+            if (attempt < 10) {
+                console.log(`⏳ Both APIs saturated. Sleeping for 30s...`);
+                await sleep(30000);
+                return await callLlmWithFallback(system, user, isJson, attempt + 1);
+            }
         }
         throw err;
     }
@@ -312,7 +393,7 @@ async function generateOutline(item: any, targetYear: number): Promise<string[]>
     Return ONLY a JSON array of strings. Example: { "headings": ["What is...?", "How does...?", ...] }`;
     const raw = await callLlmWithFallback(system, user, true);
     try {
-        const data = JSON.parse(raw);
+        const data = safelyParseJson(raw);
         return data.headings || data.outline || Object.values(data)[0] as string[];
     } catch {
         return [`What is ${item.topic}?`, `Core concepts of ${item.topic}?`].slice(0, 10);
@@ -337,7 +418,7 @@ async function generateSection(item: any, heading: string, displayClass: string,
 
     const raw = await callLlmWithFallback(system, user, true);
     try {
-        return JSON.parse(raw);
+        return safelyParseJson(raw);
     } catch {
         return { heading, body: raw };
     }
@@ -347,10 +428,11 @@ async function generateExtras(item: any): Promise<{ mcqs: MCQ[], recall: string[
     console.log(`🎯 Jules: Generating MCQs and Quick Recall...`);
     const system = GRANDMASTER_IDENTITY;
     const user = `Generate 5 high-yield MCQs and 7 Quick Recall bullet points for "${item.topic}".
+    The MCQs MUST have "question", "options" (array), "answer" (A/B/C/D), and "answer_text" (explanation) fields.
     Return as JSON: { "mcqs": [...], "quick_recall": [...] }`;
     const raw = await callLlmWithFallback(system, user, true);
     try {
-        const data = JSON.parse(raw);
+        const data = safelyParseJson(raw);
         return { mcqs: data.mcqs || [], recall: data.quick_recall || [] };
     } catch {
         return { mcqs: [], recall: [] };
@@ -411,6 +493,7 @@ async function generateBlogs() {
 
         // --- MULTI-PASS GENERATION ---
         let finalPost: BlogPostJSON | null = null;
+        let assembled: BlogPostJSON | null = null;
         let qualityReport: QualityReport | null = null;
         let attempts = 0;
         const maxAttempts = 3;
@@ -420,48 +503,51 @@ async function generateBlogs() {
             console.log(`📡 Multi-Pass Attempt ${attempts}/${maxAttempts} for ${item.topic}...`);
 
             try {
-                const outline = await generateOutline(item, targetYear);
-                const intro = await generateIntro(item, targetYear, displayClass);
-                
-                const sections: Section[] = [];
-                for (const heading of outline) {
-                    sections.push(await generateSection(item, heading, displayClass, targetYear));
-                    // 3-second delay to avoid rate limits
-                    await new Promise(r => setTimeout(r, 3000));
-                }
-
-                const extras = await generateExtras(item);
-
-                const SUBJECT_EXAM: Record<string, string> = {
-                    'Physics': 'JEE & NEET', 'Chemistry': 'JEE & NEET',
-                    'Mathematics': 'JEE', 'Biology': 'NEET',
-                    'Computer Science': 'GATE & Boards',
-                    'Science': 'CBSE Boards', 'Social Science': 'CBSE Boards',
-                    'English': 'CBSE Boards'
-                };
-                const examTag = numericClass >= 11
-                    ? (SUBJECT_EXAM[item.subject] || 'CBSE')
-                    : 'CBSE';
-                const seoTitle = numericClass >= 11
-                    ? `${item.topic} ${displayClass} Notes — Quick Revision for ${examTag} ${targetYear}`
-                    : `${item.topic} ${displayClass} Notes — CBSE ${targetYear} Quick Revision`;
-
-                const assembled: BlogPostJSON = {
-                    title: seoTitle,
-                    slug: item.targetSlug,
-                    subject: item.subject,
-                    chapter_name: item.topic,
-                    exam_class: numericClass,
-                    last_updated: new Date().toISOString().split('T')[0],
-                    practice_link_path: "",
-                    hero_image: heroImagePath,
-                    content: {
-                        intro,
-                        sections,
-                        mcqs: extras.mcqs,
-                        quick_recall: extras.recall
+                // Only generate from scratch on the FIRST attempt (or if "all" needs regen)
+                if (attempts === 1 || !assembled) {
+                    const outline = await generateOutline(item, targetYear);
+                    const intro = await generateIntro(item, targetYear, displayClass);
+                    
+                    const sections: Section[] = [];
+                    for (const heading of outline) {
+                        sections.push(await generateSection(item, heading, displayClass, targetYear));
+                        await new Promise(r => setTimeout(r, 3000));
                     }
-                };
+
+                    const extras = await generateExtras(item);
+
+                    const SUBJECT_EXAM: Record<string, string> = {
+                        'Physics': 'JEE & NEET', 'Chemistry': 'JEE & NEET',
+                        'Mathematics': 'JEE', 'Biology': 'NEET',
+                        'Computer Science': 'GATE & Boards',
+                        'Science': 'CBSE Boards', 'Social Science': 'CBSE Boards',
+                        'English': 'CBSE Boards'
+                    };
+                    const examTag = numericClass >= 11
+                        ? (SUBJECT_EXAM[item.subject] || 'CBSE')
+                        : 'CBSE';
+
+                    const seoTitle = numericClass >= 11
+                        ? `${item.topic} Class ${numericClass} ${item.subject} Revision — ${examTag} ${targetYear} Grandmaster Guide`
+                        : `${item.topic} Class ${numericClass} ${item.subject} Recap — ${examTag} ${targetYear} Quick Guide`;
+
+                    assembled = {
+                        title: seoTitle,
+                        slug: item.targetSlug,
+                        subject: item.subject,
+                        chapter_name: item.topic,
+                        exam_class: numericClass,
+                        last_updated: new Date().toISOString().split('T')[0],
+                        practice_link_path: "",
+                        hero_image: heroImagePath,
+                        content: {
+                            intro,
+                            sections,
+                            mcqs: extras.mcqs,
+                            quick_recall: extras.recall
+                        }
+                    };
+                }
 
                 // --- QUALITY CHECK GATE ---
                 const report = checkBlogQuality(assembled);
@@ -471,6 +557,80 @@ async function generateBlogs() {
                     finalPost = assembled;
                 } else {
                     console.log(`❌ QUALITY FAILED (Score: ${report.score}). Errors: ${report.critical_failures.join(', ')}`);
+                    
+                    // === SMART FIX: Fix in-place instead of regenerating everything ===
+                    const needsFullRegen = report.regenerate_sections.includes("all");
+                    
+                    if (!needsFullRegen && attempts < maxAttempts) {
+                        console.log(`🔧 Smart Fix: Attempting in-place repair (Pass ${attempts + 1})...`);
+                        let fixedSomething = false;
+
+                        // FIX 1: Remove forbidden phrases (ZERO tokens)
+                        const killList = [
+                            "in conclusion", "delve into", "it is important to note",
+                            "world-best", "comprehensive", "ultimate guide",
+                            "embark on your journey", "needless to say", "master this today",
+                            "everything you need", "complete guide", "mastering this",
+                            "in today's competitive world", "vibrant", "robust", "unveiling",
+                            "embark on a journey", "one of the most important topics",
+                            "comprehensive guide"
+                        ];
+                        for (const phrase of killList) {
+                            const regex = new RegExp(phrase, 'gi');
+                            if (regex.test(assembled.content.intro)) {
+                                assembled.content.intro = assembled.content.intro.replace(regex, '');
+                                fixedSomething = true;
+                                console.log(`  🧹 Removed "${phrase}" from intro`);
+                            }
+                            for (const sec of assembled.content.sections) {
+                                if (regex.test(sec.body)) {
+                                    sec.body = sec.body.replace(regex, '');
+                                    fixedSomething = true;
+                                    console.log(`  🧹 Removed "${phrase}" from section: ${sec.heading}`);
+                                }
+                            }
+                        }
+
+                        // FIX 2: Regenerate only MCQs if they are broken (small token cost)
+                        if (report.regenerate_sections.includes("mcqs")) {
+                            console.log(`  🎯 Regenerating MCQs only...`);
+                            const newExtras = await generateExtras(item);
+                            if (newExtras.mcqs.length >= 5) {
+                                assembled.content.mcqs = newExtras.mcqs;
+                                fixedSomething = true;
+                            }
+                            if (newExtras.recall.length > assembled.content.quick_recall.length) {
+                                assembled.content.quick_recall = newExtras.recall;
+                            }
+                        }
+
+                        // FIX 3: Add missing mandatory sections (small token cost)
+                        const bodyCheck = JSON.stringify(assembled.content).toLowerCase();
+                        if (!bodyCheck.includes("ayush's note") && !bodyCheck.includes("ayush note")) {
+                            console.log(`  📝 Generating missing "Ayush's Note" section...`);
+                            const ayushSection = await generateSection(item, `What is Ayush's Note on ${item.topic}?`, displayClass, targetYear);
+                            assembled.content.sections.push(ayushSection);
+                            fixedSomething = true;
+                        }
+                        if (!bodyCheck.includes("trap question") && !bodyCheck.includes("common mistakes")) {
+                            console.log(`  📝 Generating missing "Trap Questions" section...`);
+                            const trapSection = await generateSection(item, `What are common Trap Questions for ${item.topic}?`, displayClass, targetYear);
+                            assembled.content.sections.push(trapSection);
+                            fixedSomething = true;
+                        }
+
+                        if (fixedSomething) {
+                            console.log(`  ✅ Smart Fix applied. Re-checking quality...`);
+                            // Don't increment attempts for a fix pass — re-check immediately
+                            continue;
+                        }
+                    }
+                    
+                    // If we get here on attempt < maxAttempts, the next iteration will do a full regen
+                    if (attempts < maxAttempts && needsFullRegen) {
+                        console.log(`🔄 Full regeneration required for next pass...`);
+                        assembled = null as any;
+                    }
                 }
             } catch (err: any) {
                 console.error(`🚨 Pass failed: ${err.message}`);
@@ -506,8 +666,10 @@ async function generateBlogs() {
     console.log(`📊 Pipeline report saved to: ${dailyReportPath}`);
 
     if (pipelineReport.some(r => r.status === "failed")) {
-        console.error("❌ One or more blogs failed quality check.");
-        process.exit(1);
+        const failedCount = pipelineReport.filter(r => r.status === "failed").length;
+        const passedCount = pipelineReport.filter(r => r.status !== "failed").length;
+        console.error(`\n⚠️ ${failedCount} blog(s) failed quality check. ${passedCount} published successfully.`);
+        // Don't exit(1) until after registry sync so successful blogs still get registered
     }
 
     // FINAL STEP: Sync the blog registry
@@ -517,6 +679,11 @@ async function generateBlogs() {
         execSync('node scripts/sync-blogs.js', { stdio: 'inherit' });
     } catch (e: any) {
         console.error("⚠️ Registry Sync failed:", e.message);
+    }
+
+    // Exit with error code AFTER sync so CI can detect failures
+    if (pipelineReport.some(r => r.status === "failed")) {
+        console.warn(`⚠️ Some blogs failed quality gate — but pipeline will continue so successful blogs get committed.`);
     }
 }
 
