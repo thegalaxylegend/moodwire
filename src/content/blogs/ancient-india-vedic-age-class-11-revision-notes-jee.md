@@ -1,12 +1,11 @@
 ---
 title: "Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide"
 description: "Deep dive into Ancient India Vedic Age Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
-category: "History"
-keywords: "Ancient India Vedic Age class 11 notes, Ancient India Vedic Age quick revision, Ancient India Vedic Age 2026, Ancient India Vedic Age CBSE 2026, Ancient India Vedic Age notes for CBSE, class 11 History revision, Ancient India Vedic Age formula sheet, Ancient India Vedic Age MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/mathematics/ancient-india-vedic-age-class-11-notes"
-hero_image: "/blog-images/ancient-india-vedic-age-class-11-revision-notes-jee.webp"
+category: "Mathematics"
+keywords: "ancient india vedic age class 11 revision notes jee, Mathematics, Exam Compass"
 ---
+
+# Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide
 
 ![Ancient India Vedic Age recap](/blog-images/ancient-india-vedic-age-class-11-revision-notes-jee.webp)
 
@@ -39,7 +38,7 @@ This section provides a quick revision of the major contributions of ancient Ind
 
 ## What is Ancient India Vedic Age?
 
-# Ancient India: Vedic Age Class 11 Quick Revision Notes & Recap — Exam Compass
+
 
 ![Ancient India: Vedic Age notes for students](/blog-images/ancient-india-vedic-age-class-11-notes.webp)
 
@@ -186,3 +185,5 @@ Ramanujan
 
 **Answer:** A) Aryabhata was credited with the development of the concept of zero in mathematics.
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -1,12 +1,11 @@
 ---
 title: "Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide"
-description: "Master Ancient India Mahajanapadas for History 2026. This Grandmaster Guide includes Ayush's personal revision notes, formula sheets, and top-tier MCQs for final prep."
-category: "History"
-keywords: "Ancient India Mahajanapadas class 11 notes, Ancient India Mahajanapadas quick revision, Ancient India Mahajanapadas 2026, Ancient India Mahajanapadas CBSE 2026, Ancient India Mahajanapadas notes for CBSE, class 11 History revision, Ancient India Mahajanapadas formula sheet, Ancient India Mahajanapadas MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/mathematics/ancient-india-mahajanapadas-class-11-notes"
-hero_image: "/blog-images/ancient-india-mahajanapadas-class-11-revision-notes-jee.webp"
+description: "Master Ancient India Mahajanapadas for History 2026. This Grandmaster Guide includes Ayush"
+category: "Mathematics"
+keywords: "ancient india mahajanapadas class 11 revision notes jee, Mathematics, Exam Compass"
 ---
+
+# Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide
 
 ![Ancient India Mahajanapadas recap](/blog-images/ancient-india-mahajanapadas-class-11-notes.webp)
 
@@ -14,7 +13,7 @@ hero_image: "/blog-images/ancient-india-mahajanapadas-class-11-revision-notes-je
 
 ## What is Ancient India Mahajanapadas?
 
-# Ancient India: Mahajanapadas Class 11 Quick Revision Notes & Recap — Exam Compass
+
 
 ![Ancient India: Mahajanapadas notes for students](/blog-images/ancient-india-mahajanapadas-class-11-notes.webp)
 
@@ -124,4 +123,5 @@ Understanding these aspects of the Mahajanapadas provides a comprehensive view o
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

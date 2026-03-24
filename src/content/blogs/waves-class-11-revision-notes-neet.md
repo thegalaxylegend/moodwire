@@ -2,11 +2,10 @@
 title: "Waves Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "The ultimate Waves revision resource for Biology students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Biology"
-keywords: "Waves class 11 notes, Waves quick revision, Waves 2026, Waves NEET 2026, Waves notes for NEET, class 11 Biology revision, Waves formula sheet, Waves MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/biology/waves-revision-notes"
-hero_image: "/blog-images/waves-class-11-revision-notes-neet.png"
+keywords: "waves class 11 revision notes neet, Biology, Exam Compass"
 ---
+
+# Waves Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Waves Revision Notes recap](/blog-images/waves-revision-notes.webp)
 
@@ -258,4 +257,5 @@ Waves are the signature of the universe's energy. By mastering the mathematical 
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

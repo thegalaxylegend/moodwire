@@ -1,12 +1,11 @@
 ---
 title: "Fundamental Rights Class 11 Social Science Recap — CBSE 2026 Quick Guide"
 description: "Deep dive into Fundamental Rights Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
-category: "Social Science"
-keywords: "Fundamental Rights class 11 notes, Fundamental Rights quick revision, Fundamental Rights 2026, Fundamental Rights CBSE 2026, Fundamental Rights notes for CBSE, class 11 Social Science revision, Fundamental Rights formula sheet, Fundamental Rights MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/fundamental-rights-class-11-notes"
-hero_image: "/blog-images/cell-cycle-and-cell-division-class-11-revision-notes-neet.webp"
+category: "Biology"
+keywords: "fundamental rights class 11 revision notes cbse, Biology, Exam Compass"
 ---
+
+# Fundamental Rights Class 11 Social Science Recap — CBSE 2026 Quick Guide
 
 ![Fundamental Rights recap](/blog-images/fundamental-rights-class-11-notes.webp)
 
@@ -107,4 +106,5 @@ To quickly revise and recap the key points related to Fundamental Rights, I've b
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -1,12 +1,11 @@
 ---
 title: "Geomorphology Class 11 Geography Recap — CBSE 2026 Quick Guide"
 description: "Deep dive into Geomorphology Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
-category: "Geography"
-keywords: "Geomorphology class 11 notes, Geomorphology quick revision, Geomorphology 2026, Geomorphology CBSE 2026, Geomorphology notes for CBSE, class 11 Geography revision, Geomorphology formula sheet, Geomorphology MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/geography/geomorphology-class-11-notes"
-hero_image: "/blog-images/geomorphology-class-11-revision-notes-cbse.webp"
+category: "Physics"
+keywords: "geomorphology class 11 revision notes cbse, Physics, Exam Compass"
 ---
+
+# Geomorphology Class 11 Geography Recap — CBSE 2026 Quick Guide
 
 ![Geomorphology recap](/blog-images/geomorphology-class-11-notes.webp)
 
@@ -14,7 +13,7 @@ hero_image: "/blog-images/geomorphology-class-11-revision-notes-cbse.webp"
 
 ## What is Geomorphology?
 
-# Geomorphology Class 11 Quick Revision Notes & Recap — Exam Compass
+
 
 ![Geomorphology notes for students](/blog-images/geomorphology-class-11-notes.webp)
 
@@ -454,4 +453,5 @@ The **Formulae and Tables** section has provided me with a quick
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

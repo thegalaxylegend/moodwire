@@ -1,12 +1,11 @@
 ---
 title: "Physics Mechanics Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Master Physics Mechanics for Physics 2026. This Grandmaster Guide includes Ayush's personal revision notes, formula sheets, and top-tier MCQs for final prep."
+description: "Master Physics Mechanics for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"
-keywords: "Physics Mechanics class 11 notes, Physics Mechanics quick revision, Physics Mechanics 2026, Physics Mechanics JEE 2026, Physics Mechanics notes for JEE, Physics Mechanics NEET 2026, Physics Mechanics notes for NEET, class 11 Physics revision, Physics Mechanics formula sheet, Physics Mechanics MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/physics-mechanics-class-11-notes"
-hero_image: "/blog-images/fluids-revision.webp"
+keywords: "physics mechanics class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
+# Physics Mechanics Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Physics Mechanics recap](/blog-images/physics-mechanics-class-11-notes.webp)
 
@@ -62,4 +61,5 @@ The key concepts in Physics: Mechanics include motion, forces, energy, and momen
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -2,11 +2,10 @@
 title: "Three Dimensional Geometry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Accelerate your Physics revision with our Three Dimensional Geometry guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Physics"
-keywords: "Three Dimensional Geometry class 11 notes, Three Dimensional Geometry quick revision, Three Dimensional Geometry 2026, Three Dimensional Geometry JEE 2026, Three Dimensional Geometry notes for JEE, Three Dimensional Geometry NEET 2026, Three Dimensional Geometry notes for NEET, class 11 Physics revision, Three Dimensional Geometry formula sheet, Three Dimensional Geometry MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/three-dimensional-geometry-revision-notes"
-hero_image: "/blog-images/three-dimensional-geometry-class-11-revision-notes-jee-neet.png"
+keywords: "three dimensional geometry class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
+# Three Dimensional Geometry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Three Dimensional Geometry Revision Notes recap](/blog-images/three-dimensional-geometry-revision-notes.webp)
 
@@ -170,4 +169,5 @@ The centroid of a triangle with vertices (x₁, y₁, z₁), (x₂, y₂, z₂),
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

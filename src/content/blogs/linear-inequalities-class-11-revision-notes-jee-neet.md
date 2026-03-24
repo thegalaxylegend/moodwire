@@ -2,11 +2,10 @@
 title: "Linear Inequalities Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Accelerate your Physics revision with our Linear Inequalities guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Physics"
-keywords: "Linear Inequalities class 11 notes, Linear Inequalities quick revision, Linear Inequalities 2026, Linear Inequalities JEE 2026, Linear Inequalities notes for JEE, Linear Inequalities NEET 2026, Linear Inequalities notes for NEET, class 11 Physics revision, Linear Inequalities formula sheet, Linear Inequalities MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/linear-inequalities-revision-notes"
-hero_image: "/blog-images/linear-inequalities-class-11-revision-notes-jee-neet.png"
+keywords: "linear inequalities class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
+# Linear Inequalities Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Linear Inequalities Revision Notes recap](/blog-images/linear-inequalities-revision-notes.webp)
 
@@ -166,4 +165,5 @@ Linear Inequalities shift your thinking from "points" to "regions." By mastering
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

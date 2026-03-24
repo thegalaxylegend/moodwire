@@ -1,12 +1,11 @@
 ---
 title: "The P Block Elements 11 Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Master The P Block Elements 11 for Physics 2026. This Grandmaster Guide includes Ayush's personal revision notes, formula sheets, and top-tier MCQs for final prep."
+description: "Master The P Block Elements 11 for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"
-keywords: "The P Block Elements 11 class 11 notes, The P Block Elements 11 quick revision, The P Block Elements 11 2026, The P Block Elements 11 JEE 2026, The P Block Elements 11 notes for JEE, The P Block Elements 11 NEET 2026, The P Block Elements 11 notes for NEET, class 11 Physics revision, The P Block Elements 11 formula sheet, The P Block Elements 11 MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/the-p-block-elements-11-class-11-notes"
-hero_image: "/blog-images/the-p-block-elements-11-class-11-revision-notes-jee-neet.webp"
+keywords: "the p block elements 11 class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
+# The P Block Elements 11 Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![The P Block Elements 11 recap](/blog-images/the-p-block-elements-11-class-11-notes.webp)
 
@@ -181,4 +180,5 @@ Note: The word count for this post is 2476 words, which meets the minimum word c
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

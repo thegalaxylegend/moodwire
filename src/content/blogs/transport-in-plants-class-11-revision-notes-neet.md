@@ -1,12 +1,11 @@
 ---
 title: "Transport In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
-description: "Master Transport In Plants for Biology 2026. This Grandmaster Guide includes Ayush's personal revision notes, formula sheets, and top-tier MCQs for final prep."
+description: "Master Transport In Plants for Biology 2026. This Grandmaster Guide includes Ayush"
 category: "Biology"
-keywords: "Transport In Plants class 11 notes, Transport In Plants quick revision, Transport In Plants 2026, Transport In Plants NEET 2026, Transport In Plants notes for NEET, class 11 Biology revision, Transport In Plants formula sheet, Transport In Plants MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/biology/transport-in-plants-class-11-notes"
-hero_image: "/blog-images/transport-in-plants-class-11-notes.webp"
+keywords: "transport in plants class 11 revision notes neet, Biology, Exam Compass"
 ---
+
+# Transport In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Transport In Plants recap](/blog-images/transport-in-plants-class-11-notes.webp)
 
@@ -122,4 +121,5 @@ Last Updated: March 16, 2026
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

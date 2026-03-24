@@ -2,11 +2,10 @@
 title: "Classification Of Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Accelerate your Physics revision with our Classification Of Elements guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Physics"
-keywords: "Classification Of Elements class 11 notes, Classification Of Elements quick revision, Classification Of Elements 2026, Classification Of Elements JEE 2026, Classification Of Elements notes for JEE, Classification Of Elements NEET 2026, Classification Of Elements notes for NEET, class 11 Physics revision, Classification Of Elements formula sheet, Classification Of Elements MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/classification-of-elements-class-11-notes"
-hero_image: "/blog-images/classification-of-elements-class-11-revision-notes-jee-neet.webp"
+keywords: "classification of elements class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
+# Classification Of Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Classification Of Elements recap](/blog-images/classification-of-elements-class-11-notes.webp)
 
@@ -296,4 +295,5 @@ As I continue to explore the world of chemistry, I realize that the classificati
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

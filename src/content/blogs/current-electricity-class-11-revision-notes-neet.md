@@ -2,11 +2,10 @@
 title: "Current Electricity Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Accelerate your Biology revision with our Current Electricity guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Biology"
-keywords: "Current Electricity class 11 notes, Current Electricity quick revision, Current Electricity 2026, Current Electricity NEET 2026, Current Electricity notes for NEET, class 11 Biology revision, Current Electricity formula sheet, Current Electricity MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/biology/current-electricity-revision-notes"
-hero_image: "/blog-images/current-electricity-class-11-revision-notes-neet.png"
+keywords: "current electricity class 11 revision notes neet, Biology, Exam Compass"
 ---
+
+# Current Electricity Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Current Electricity Revision Notes recap](/blog-images/current-electricity-revision-notes.webp)
 
@@ -226,4 +225,5 @@ Current Electricity is the foundation of energy conversion and electronics. By m
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

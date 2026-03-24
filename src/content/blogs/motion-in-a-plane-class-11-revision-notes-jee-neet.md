@@ -2,11 +2,10 @@
 title: "Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "The ultimate Motion In A Plane revision resource for Physics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Physics"
-keywords: "Motion In A Plane class 11 notes, Motion In A Plane quick revision, Motion In A Plane 2026, Motion In A Plane JEE 2026, Motion In A Plane notes for JEE, Motion In A Plane NEET 2026, Motion In A Plane notes for NEET, class 11 Physics revision, Motion In A Plane formula sheet, Motion In A Plane MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/motion-in-a-plane-revision-notes"
-hero_image: "/blog-images/motion-in-a-plane-class-11-revision-notes-jee-neet.png"
+keywords: "motion in a plane class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
+# Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Motion In A Plane Revision Notes recap](/blog-images/motion-in-a-plane-revision-notes.webp)
 
@@ -190,4 +189,5 @@ Motion in a Plane is the first time we truly see the vector nature of the univer
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

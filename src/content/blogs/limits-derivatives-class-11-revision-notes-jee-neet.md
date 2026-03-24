@@ -2,11 +2,10 @@
 title: "Limits Derivatives Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Accelerate your Physics revision with our Limits Derivatives guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Physics"
-keywords: "Limits Derivatives class 11 notes, Limits Derivatives quick revision, Limits Derivatives 2026, Limits Derivatives JEE 2026, Limits Derivatives notes for JEE, Limits Derivatives NEET 2026, Limits Derivatives notes for NEET, class 11 Physics revision, Limits Derivatives formula sheet, Limits Derivatives MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/limits-derivatives-revision-notes"
-hero_image: "/blog-images/limits-derivatives-class-11-revision-notes-jee-neet.png"
+keywords: "limits derivatives class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
+# Limits Derivatives Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Limits Derivatives Revision Notes recap](/blog-images/limits-derivatives-revision-notes.webp)
 
@@ -173,4 +172,5 @@ Limits and Derivatives are the tools that allow us to calculate the "slope of a 
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

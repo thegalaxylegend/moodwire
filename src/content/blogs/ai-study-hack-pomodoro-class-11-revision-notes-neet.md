@@ -1,12 +1,11 @@
 ---
 title: "Ai Study Hack Pomodoro Class 11 Computer Science Recap — CBSE 2026 Quick Guide"
-description: "Learn Ai Study Hack Pomodoro like a pro. Detailed revision notes, solved examples, and "Trap Questions" that most students miss. Updated for the 2026 syllabus."
-category: "Computer Science"
-keywords: "Ai Study Hack Pomodoro class 11 notes, Ai Study Hack Pomodoro quick revision, Ai Study Hack Pomodoro 2026, Ai Study Hack Pomodoro GATE 2026, Ai Study Hack Pomodoro notes for GATE, class 11 Computer Science revision, Ai Study Hack Pomodoro formula sheet, Ai Study Hack Pomodoro MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/biology/ai-study-hack-pomodoro-class-11-revision-notes-neet"
-hero_image: "/blog-images/anatomy-of-flowering-plants-class-11-notes.webp"
+description: "Learn Ai Study Hack Pomodoro like a pro. Detailed revision notes, solved examples, and "
+category: "Biology"
+keywords: "ai study hack pomodoro class 11 revision notes neet, Biology, Exam Compass"
 ---
+
+# Ai Study Hack Pomodoro Class 11 Computer Science Recap — CBSE 2026 Quick Guide
 
 ![Ai Study Hack Pomodoro recap](/blog-images/ai-study-hack-pomodoro-class-11-revision-notes-neet.webp)
 
@@ -134,3 +133,5 @@ Organisms
 
 **Answer:** Cells) undefined
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

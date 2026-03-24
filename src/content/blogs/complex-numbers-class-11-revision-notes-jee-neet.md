@@ -1,12 +1,11 @@
 ---
 title: "Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Learn Complex Numbers like a pro. Detailed revision notes, solved examples, and "Trap Questions" that most students miss. Updated for the 2026 syllabus."
+description: "Learn Complex Numbers like a pro. Detailed revision notes, solved examples, and "
 category: "Physics"
-keywords: "Complex Numbers class 11 notes, Complex Numbers quick revision, Complex Numbers 2026, Complex Numbers JEE 2026, Complex Numbers notes for JEE, Complex Numbers NEET 2026, Complex Numbers notes for NEET, class 11 Physics revision, Complex Numbers formula sheet, Complex Numbers MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/complex-numbers-revision-notes"
-hero_image: "/blog-images/complex-numbers-class-11-revision-notes-jee-neet.png"
+keywords: "complex numbers class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
+# Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Complex Numbers Revision Notes recap](/blog-images/complex-numbers-revision-notes.webp)
 
@@ -168,4 +167,5 @@ Complex numbers expand your mathematical toolkit to include rotation and two-dim
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

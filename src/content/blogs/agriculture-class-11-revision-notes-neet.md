@@ -2,11 +2,10 @@
 title: "Agriculture Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Accelerate your Biology revision with our Agriculture guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Biology"
-keywords: "Agriculture class 11 notes, Agriculture quick revision, Agriculture 2026, Agriculture NEET 2026, Agriculture notes for NEET, class 11 Biology revision, Agriculture formula sheet, Agriculture MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/biology/agriculture-class-11-revision-notes-neet"
-hero_image: "/blog-images/ai-exam-prep-future-hero.webp"
+keywords: "agriculture class 11 revision notes neet, Biology, Exam Compass"
 ---
+
+# Agriculture Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Agriculture recap](/blog-images/agriculture-class-11-revision-notes-neet.webp)
 
@@ -130,3 +129,5 @@ Organic farming has no role in agriculture
 
 **Answer:** 2. Organic farming avoids the use of synthetic fertilizers and pesticides, while conventional farming uses them) undefined
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

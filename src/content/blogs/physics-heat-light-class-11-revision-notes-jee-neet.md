@@ -1,12 +1,11 @@
 ---
 title: "Physics Heat Light Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Master Physics Heat Light for Physics 2026. This Grandmaster Guide includes Ayush's personal revision notes, formula sheets, and top-tier MCQs for final prep."
+description: "Master Physics Heat Light for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"
-keywords: "Physics Heat Light class 11 notes, Physics Heat Light quick revision, Physics Heat Light 2026, Physics Heat Light JEE 2026, Physics Heat Light notes for JEE, Physics Heat Light NEET 2026, Physics Heat Light notes for NEET, class 11 Physics revision, Physics Heat Light formula sheet, Physics Heat Light MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/physics-heat-light-class-11-notes"
-hero_image: "/blog-images/equilibrium-revision.webp"
+keywords: "physics heat light class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
+# Physics Heat Light Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Physics Heat Light recap](/blog-images/physics-heat-light-class-11-notes.webp)
 
@@ -57,4 +56,5 @@ The core concepts in Physics: Heat & Light include understanding the behavior of
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

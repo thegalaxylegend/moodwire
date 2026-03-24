@@ -1,12 +1,11 @@
 ---
 title: "Mechanical Properties Of Fluids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Master Mechanical Properties Of Fluids for Physics 2026. This Grandmaster Guide includes Ayush's personal revision notes, formula sheets, and top-tier MCQs for final prep."
+description: "Master Mechanical Properties Of Fluids for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"
-keywords: "Mechanical Properties Of Fluids class 11 notes, Mechanical Properties Of Fluids quick revision, Mechanical Properties Of Fluids 2026, Mechanical Properties Of Fluids JEE 2026, Mechanical Properties Of Fluids notes for JEE, Mechanical Properties Of Fluids NEET 2026, Mechanical Properties Of Fluids notes for NEET, class 11 Physics revision, Mechanical Properties Of Fluids formula sheet, Mechanical Properties Of Fluids MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/mechanical-properties-of-fluids-revision-notes"
-hero_image: "/blog-images/cuet-master-strategy.webp"
+keywords: "mechanical properties of fluids class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
+# Mechanical Properties Of Fluids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Mechanical Properties Of Fluids Revision Notes recap](/blog-images/mechanical-properties-of-fluids-revision-notes.webp)
 
@@ -183,4 +182,5 @@ The physics of fluids is the physics of flow—from the blood in our veins to th
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

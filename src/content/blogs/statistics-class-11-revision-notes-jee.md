@@ -2,11 +2,10 @@
 title: "Statistics Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
 description: "Deep dive into Statistics Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Mathematics"
-keywords: "Statistics class 11 notes, Statistics quick revision, Statistics 2026, Statistics JEE 2026, Statistics notes for JEE, class 11 Mathematics revision, Statistics formula sheet, Statistics MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/mathematics/statistics-revision-notes"
-hero_image: "/blog-images/statistics-class-11-revision-notes-jee.png"
+keywords: "statistics class 11 revision notes jee, Mathematics, Exam Compass"
 ---
+
+# Statistics Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
 
 ![Statistics Revision Notes recap](/blog-images/statistics-revision-notes.webp)
 
@@ -167,4 +166,5 @@ Statistics in Class 11 moves beyond just finding averages to understanding the r
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

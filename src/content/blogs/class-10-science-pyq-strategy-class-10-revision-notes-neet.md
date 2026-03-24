@@ -2,11 +2,10 @@
 title: "Class 10 Science Pyq Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide"
 description: "Deep dive into Class 10 Science Pyq Strategy Class 10. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Biology"
-keywords: "Class 10 Science Pyq Strategy class 10 notes, Class 10 Science Pyq Strategy quick revision, Class 10 Science Pyq Strategy 2026, Class 10 Science Pyq Strategy NEET 2026, Class 10 Science Pyq Strategy notes for NEET, class 10 Biology revision, Class 10 Science Pyq Strategy formula sheet, Class 10 Science Pyq Strategy MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/biology/class-10-science-pyq-strategy"
-hero_image: "/blog-images/binomial-theorem-revision.webp"
+keywords: "class 10 science pyq strategy class 10 revision notes neet, Biology, Exam Compass"
 ---
+
+# Class 10 Science Pyq Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide
 
 ![Class 10 Science Pyq Strategy recap](/blog-images/class-10-science-pyq-strategy.webp)
 
@@ -123,4 +122,5 @@ Focus on the last 5–10 years. However, prioritize the most recent 5 years, as 
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

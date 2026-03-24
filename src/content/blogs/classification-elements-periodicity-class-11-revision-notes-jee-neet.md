@@ -1,12 +1,11 @@
 ---
 title: "Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Learn Classification Elements Periodicity like a pro. Detailed revision notes, solved examples, and "Trap Questions" that most students miss. Updated for the 2026 syllabus."
+description: "Learn Classification Elements Periodicity like a pro. Detailed revision notes, solved examples, and "
 category: "Physics"
-keywords: "Classification Elements Periodicity class 11 notes, Classification Elements Periodicity quick revision, Classification Elements Periodicity 2026, Classification Elements Periodicity JEE 2026, Classification Elements Periodicity notes for JEE, Classification Elements Periodicity NEET 2026, Classification Elements Periodicity notes for NEET, class 11 Physics revision, Classification Elements Periodicity formula sheet, Classification Elements Periodicity MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/classification-elements-periodicity-revision-notes"
-hero_image: "/blog-images/classification-elements-periodicity-class-11-revision-notes-jee-neet.png"
+keywords: "classification elements periodicity class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
+# Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Classification Elements Periodicity Revision Notes recap](/blog-images/classification-elements-periodicity-revision-notes.webp)
 
@@ -342,4 +341,5 @@ NCERT asks "Explain the trend in Ionization Enthalpy across a period." Always me
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

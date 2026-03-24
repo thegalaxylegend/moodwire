@@ -1,12 +1,11 @@
 ---
 title: "Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide"
 description: "The ultimate Ancient India Indus Valley revision resource for History students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
-category: "History"
-keywords: "Ancient India Indus Valley class 11 notes, Ancient India Indus Valley quick revision, Ancient India Indus Valley 2026, Ancient India Indus Valley CBSE 2026, Ancient India Indus Valley notes for CBSE, class 11 History revision, Ancient India Indus Valley formula sheet, Ancient India Indus Valley MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/ancient-india-indus-valley-class-11-notes"
-hero_image: "/blog-images/ancient-india-indus-valley-class-11-revision-notes-cbse.webp"
+category: "Physics"
+keywords: "ancient india indus valley class 11 revision notes cbse, Physics, Exam Compass"
 ---
+
+# Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide
 
 ![Ancient India Indus Valley recap](/blog-images/ancient-india-indus-valley-class-11-revision-notes-cbse.webp)
 
@@ -19,7 +18,7 @@ hero_image: "/blog-images/ancient-india-indus-valley-class-11-revision-notes-cbs
 
 ## What is Ancient India Indus Valley?
 
-# Ancient India: Indus Valley Class 11 Quick Revision Notes & Recap — Exam Compass
+
 
 ![Ancient India: Indus Valley notes for students](/blog-images/ancient-india-indus-valley-class-11-notes.webp)
 
@@ -142,10 +141,6 @@ The Indus Valley Civilization has had a lasting impact on the cultural heritage 
 
 
 ## ---
-
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
@@ -196,3 +191,5 @@ Their writing system has not yet been deciphered
 
 **Answer:** B) They used only metals for tools and crafts
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

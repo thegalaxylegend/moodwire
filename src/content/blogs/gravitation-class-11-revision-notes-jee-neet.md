@@ -2,11 +2,10 @@
 title: "Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "The ultimate Gravitation revision resource for Physics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Physics"
-keywords: "Gravitation class 11 notes, Gravitation quick revision, Gravitation 2026, Gravitation JEE 2026, Gravitation notes for JEE, Gravitation NEET 2026, Gravitation notes for NEET, class 11 Physics revision, Gravitation formula sheet, Gravitation MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/gravitation-revision-notes"
-hero_image: "/blog-images/gravitation-class-11-revision-notes-jee-neet.png"
+keywords: "gravitation class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
+# Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Gravitation Revision Notes recap](/blog-images/gravitation-revision-notes.webp)
 
@@ -181,4 +180,5 @@ Gravitation is the foundational law of the macro-universe. By understanding how 
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -1,12 +1,11 @@
 ---
 title: "Federalism Class 11 Social Science Recap — CBSE 2026 Quick Guide"
-description: "Learn Federalism like a pro. Detailed revision notes, solved examples, and "Trap Questions" that most students miss. Updated for the 2026 syllabus."
-category: "Social Science"
-keywords: "Federalism class 11 notes, Federalism quick revision, Federalism 2026, Federalism CBSE 2026, Federalism notes for CBSE, class 11 Social Science revision, Federalism formula sheet, Federalism MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/federalism-class-11-notes"
-hero_image: "/blog-images/breathing-and-exchange-of-gases-class-11-revision-notes-neet.webp"
+description: "Learn Federalism like a pro. Detailed revision notes, solved examples, and "
+category: "Physics"
+keywords: "federalism class 11 revision notes cbse, Physics, Exam Compass"
 ---
+
+# Federalism Class 11 Social Science Recap — CBSE 2026 Quick Guide
 
 ![Federalism recap](/blog-images/federalism-class-11-notes.webp)
 
@@ -97,4 +96,5 @@ As I prepare for the Class 11 exam in 2026, I need to focus on the key concepts 
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

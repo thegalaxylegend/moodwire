@@ -1,12 +1,11 @@
 ---
 title: "Biomolecules Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
-description: "Master Biomolecules for Biology 2026. This Grandmaster Guide includes Ayush's personal revision notes, formula sheets, and top-tier MCQs for final prep."
+description: "Master Biomolecules for Biology 2026. This Grandmaster Guide includes Ayush"
 category: "Biology"
-keywords: "Biomolecules class 11 notes, Biomolecules quick revision, Biomolecules 2026, Biomolecules NEET 2026, Biomolecules notes for NEET, class 11 Biology revision, Biomolecules formula sheet, Biomolecules MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/biology/biomolecules-class-11-notes"
-hero_image: "/blog-images/biomolecules-class-11-notes.webp"
+keywords: "biomolecules class 11 revision notes neet, Biology, Exam Compass"
 ---
+
+# Biomolecules Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Biomolecules recap](/blog-images/biomolecules-class-11-notes.webp)
 
@@ -148,4 +147,5 @@ Last Updated: March 16, 2026
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

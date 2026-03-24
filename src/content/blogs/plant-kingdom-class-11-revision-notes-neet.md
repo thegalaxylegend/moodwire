@@ -1,12 +1,11 @@
 ---
 title: "Plant Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
-description: "Master Plant Kingdom for Biology 2026. This Grandmaster Guide includes Ayush's personal revision notes, formula sheets, and top-tier MCQs for final prep."
+description: "Master Plant Kingdom for Biology 2026. This Grandmaster Guide includes Ayush"
 category: "Biology"
-keywords: "Plant Kingdom class 11 notes, Plant Kingdom quick revision, Plant Kingdom 2026, Plant Kingdom NEET 2026, Plant Kingdom notes for NEET, class 11 Biology revision, Plant Kingdom formula sheet, Plant Kingdom MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/biology/plant-kingdom-class-11-notes"
-hero_image: "/blog-images/plant-kingdom-class-11-revision-notes-neet.webp"
+keywords: "plant kingdom class 11 revision notes neet, Biology, Exam Compass"
 ---
+
+# Plant Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Plant Kingdom recap](/blog-images/plant-kingdom-class-11-notes.webp)
 
@@ -174,4 +173,5 @@ Note: The above links are to existing posts only.
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

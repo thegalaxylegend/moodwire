@@ -2,11 +2,10 @@
 title: "Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
 description: "Deep dive into Permutations Combinations Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Mathematics"
-keywords: "Permutations Combinations class 11 notes, Permutations Combinations quick revision, Permutations Combinations 2026, Permutations Combinations JEE 2026, Permutations Combinations notes for JEE, class 11 Mathematics revision, Permutations Combinations formula sheet, Permutations Combinations MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/mathematics/permutations-combinations-revision-notes"
-hero_image: "/blog-images/permutations-combinations-class-11-revision-notes-jee.png"
+keywords: "permutations combinations class 11 revision notes jee, Mathematics, Exam Compass"
 ---
+
+# Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
 
 ![Permutations Combinations Revision Notes recap](/blog-images/permutations-combinations-revision-notes.webp)
 
@@ -167,4 +166,5 @@ Permutations and Combinations transform the way we see complexity. By mastering 
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

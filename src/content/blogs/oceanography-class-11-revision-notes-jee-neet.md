@@ -1,12 +1,11 @@
 ---
 title: "Oceanography Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Master Oceanography for Physics 2026. This Grandmaster Guide includes Ayush's personal revision notes, formula sheets, and top-tier MCQs for final prep."
+description: "Master Oceanography for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"
-keywords: "Oceanography class 11 notes, Oceanography quick revision, Oceanography 2026, Oceanography JEE 2026, Oceanography notes for JEE, Oceanography NEET 2026, Oceanography notes for NEET, class 11 Physics revision, Oceanography formula sheet, Oceanography MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/oceanography-class-11-notes"
-hero_image: "/blog-images/oceanography-class-11-revision-notes-jee-neet.webp"
+keywords: "oceanography class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
+# Oceanography Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Oceanography recap](/blog-images/oceanography-class-11-notes.webp)
 
@@ -14,7 +13,7 @@ hero_image: "/blog-images/oceanography-class-11-revision-notes-jee-neet.webp"
 
 ## What is Oceanography?
 
-# Oceanography Class 11 Quick Revision Notes & Recap — Exam Compass
+
 
 ![Oceanography notes for students](/blog-images/oceanography-class-11-notes.webp)
 
@@ -191,4 +190,5 @@ By confirming your understanding of these essential areas, you'll be confident i
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

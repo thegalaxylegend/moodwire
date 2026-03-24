@@ -2,11 +2,10 @@
 title: "States Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Deep dive into States Of Matter Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Physics"
-keywords: "States Of Matter class 11 notes, States Of Matter quick revision, States Of Matter 2026, States Of Matter JEE 2026, States Of Matter notes for JEE, States Of Matter NEET 2026, States Of Matter notes for NEET, class 11 Physics revision, States Of Matter formula sheet, States Of Matter MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/states-of-matter-revision-notes"
-hero_image: "/blog-images/states-of-matter-class-11-revision-notes-jee-neet.png"
+keywords: "states of matter class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
+# States Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![States Of Matter Revision Notes recap](/blog-images/states-of-matter-revision-notes.webp)
 
@@ -352,4 +351,5 @@ In CBSE boards, always draw the $PV$ vs $P$ graph or the $Z$ vs $P$ graph if the
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

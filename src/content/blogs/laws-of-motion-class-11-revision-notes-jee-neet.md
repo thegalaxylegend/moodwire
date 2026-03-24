@@ -1,12 +1,11 @@
 ---
 title: "Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Learn Laws Of Motion like a pro. Detailed revision notes, solved examples, and "Trap Questions" that most students miss. Updated for the 2026 syllabus."
+description: "Learn Laws Of Motion like a pro. Detailed revision notes, solved examples, and "
 category: "Physics"
-keywords: "Laws Of Motion class 11 notes, Laws Of Motion quick revision, Laws Of Motion 2026, Laws Of Motion JEE 2026, Laws Of Motion notes for JEE, Laws Of Motion NEET 2026, Laws Of Motion notes for NEET, class 11 Physics revision, Laws Of Motion formula sheet, Laws Of Motion MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/laws-of-motion-revision-notes"
-hero_image: "/blog-images/laws-of-motion-class-11-revision-notes-jee-neet.png"
+keywords: "laws of motion class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
+# Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Laws Of Motion Revision Notes recap](/blog-images/laws-of-motion-revision-notes.webp)
 
@@ -184,4 +183,5 @@ Newton’s Laws of Motion provide the fundamental rules of the game of Physics. 
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

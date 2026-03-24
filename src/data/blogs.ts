@@ -11,6 +11,51 @@ export interface Blog {
 
 export const blogs: Blog[] = [
     {
+        "id": "data-structures-linear-class-11-revision-notes-gate-boards",
+        "title": "Data Structures: Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide",
+        "description": "Master Data Structures: Linear for Computer Science 2026. This Grandmaster Guide includes Ayush",
+        "category": "Computer Science",
+        "date": "2026-03-24",
+        "readTime": "15 min read",
+        "image": "/blog-images/data-structures-linear-class-11-revision-notes-gate-boards.webp"
+    },
+    {
+        "id": "limits-and-derivatives-class-11-revision-notes-jee",
+        "title": "Limits and Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
+        "description": "Master Limits and Derivatives for Mathematics 2026. This Grandmaster Guide includes Ayush",
+        "category": "Mathematics",
+        "date": "2026-03-24",
+        "readTime": "15 min read",
+        "image": "/blog-images/limits-and-derivatives-class-11-revision-notes-jee.webp"
+    },
+    {
+        "id": "permutations-and-combinations-class-11-revision-notes-jee",
+        "title": "Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
+        "description": "Deep dive into Permutations and Combinations Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
+        "category": "Mathematics",
+        "date": "2026-03-24",
+        "readTime": "15 min read",
+        "image": "/blog-images/permutations-and-combinations-class-11-revision-notes-jee.webp"
+    },
+    {
+        "id": "principle-of-mathematical-induction-class-11-revision-notes-jee",
+        "title": "Principle of Mathematical Induction Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
+        "description": "Master Principle of Mathematical Induction for Mathematics 2026. This Grandmaster Guide includes Ayush",
+        "category": "Mathematics",
+        "date": "2026-03-24",
+        "readTime": "15 min read",
+        "image": "/blog-images/principle-of-mathematical-induction-class-11-revision-notes-jee.webp"
+    },
+    {
+        "id": "probability-intro-class-11-revision-notes-jee",
+        "title": "Probability (Intro) Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
+        "description": "Master Probability (Intro) for Mathematics 2026. This Grandmaster Guide includes Ayush",
+        "category": "Mathematics",
+        "date": "2026-03-24",
+        "readTime": "15 min read",
+        "image": "/blog-images/probability-intro-class-11-revision-notes-jee.webp"
+    },
+    {
         "id": "3d-geometry-intro-class-11-revision-notes-jee-neet",
         "title": "3d Geometry Intro Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
         "description": "Accelerate your Mathematics revision with our 3d Geometry Intro guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success.",
@@ -35,7 +80,7 @@ export const blogs: Blog[] = [
         "category": "Computer Science",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/ai-exam-prep-future-class-11-revision-notes-jee-neet.png"
+        "image": "/blog-images/ai-exam-prep-future-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "ai-study-hack-pomodoro-class-11-revision-notes-neet",
@@ -53,7 +98,7 @@ export const blogs: Blog[] = [
         "category": "Biology",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/anatomy-of-flowering-plants-class-11-revision-notes-neet.png"
+        "image": "/blog-images/anatomy-of-flowering-plants-class-11-revision-notes-neet.webp"
     },
     {
         "id": "ancient-india-indus-valley-class-11-revision-notes-cbse",
@@ -107,7 +152,7 @@ export const blogs: Blog[] = [
         "category": "Mathematics",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/binomial-theorem-class-11-revision-notes-jee.png"
+        "image": "/blog-images/binomial-theorem-class-11-revision-notes-jee.webp"
     },
     {
         "id": "biogeography-class-11-revision-notes-neet",
@@ -179,7 +224,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/chemical-bonding-class-11-revision-notes-jee-neet.png"
+        "image": "/blog-images/chemical-bonding-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "chemical-coordination-and-integration-class-11-revision-notes-neet",
@@ -215,7 +260,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/classification-elements-periodicity-class-11-revision-notes-jee-neet.png"
+        "image": "/blog-images/classification-elements-periodicity-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "classification-of-elements-class-11-revision-notes-jee-neet",
@@ -242,7 +287,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/complex-numbers-class-11-revision-notes-jee-neet.png"
+        "image": "/blog-images/complex-numbers-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "conic-sections-class-11-revision-notes-jee",
@@ -251,7 +296,7 @@ export const blogs: Blog[] = [
         "category": "Mathematics",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/conic-sections-class-11-revision-notes-jee.png"
+        "image": "/blog-images/conic-sections-class-11-revision-notes-jee.webp"
     },
     {
         "id": "constitutional-framework-class-11-revision-notes-cbse",
@@ -278,7 +323,7 @@ export const blogs: Blog[] = [
         "category": "Biology",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/current-electricity-class-11-revision-notes-neet.png"
+        "image": "/blog-images/current-electricity-class-11-revision-notes-neet.webp"
     },
     {
         "id": "digestion-and-absorption-class-11-revision-notes-neet",
@@ -305,7 +350,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/electric-charges-fields-class-11-revision-notes-jee-neet.png"
+        "image": "/blog-images/electric-charges-fields-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "environmental-chemistry-class-11-revision-notes-neet",
@@ -323,7 +368,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/equilibrium-class-11-revision-notes-jee-neet.png"
+        "image": "/blog-images/equilibrium-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "excretory-products-and-elimination-class-11-revision-notes-neet",
@@ -368,7 +413,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/gravitation-class-11-revision-notes-jee-neet.png"
+        "image": "/blog-images/gravitation-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "hydrocarbons-class-11-revision-notes-neet",
@@ -449,7 +494,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/laws-of-motion-class-11-revision-notes-jee-neet.png"
+        "image": "/blog-images/laws-of-motion-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet",
@@ -458,7 +503,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet.png"
+        "image": "/blog-images/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "limits-derivatives-class-11-revision-notes-jee-neet",
@@ -467,7 +512,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/limits-derivatives-class-11-revision-notes-jee-neet.png"
+        "image": "/blog-images/limits-derivatives-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "linear-inequalities-class-11-revision-notes-jee-neet",
@@ -476,7 +521,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/linear-inequalities-class-11-revision-notes-jee-neet.png"
+        "image": "/blog-images/linear-inequalities-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "local-government-class-11-revision-notes-cbse",
@@ -503,7 +548,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/mathematical-induction-class-11-revision-notes-jee-neet.png"
+        "image": "/blog-images/mathematical-induction-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "mathematical-reasoning-class-11-revision-notes-jee-neet",
@@ -512,7 +557,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/mathematical-reasoning-class-11-revision-notes-jee-neet.png"
+        "image": "/blog-images/mathematical-reasoning-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "mechanical-properties-of-fluids-class-11-revision-notes-jee-neet",
@@ -584,7 +629,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/motion-in-a-plane-class-11-revision-notes-jee-neet.png"
+        "image": "/blog-images/motion-in-a-plane-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "motion-in-a-straight-line-class-11-revision-notes-jee-neet",
@@ -656,7 +701,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/oscillations-class-11-revision-notes-jee-neet.png"
+        "image": "/blog-images/oscillations-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "permutations-combinations-class-11-revision-notes-jee",
@@ -665,7 +710,7 @@ export const blogs: Blog[] = [
         "category": "Mathematics",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/permutations-combinations-class-11-revision-notes-jee.png"
+        "image": "/blog-images/permutations-combinations-class-11-revision-notes-jee.webp"
     },
     {
         "id": "photosynthesis-in-higher-plants-class-11-revision-notes-neet",
@@ -746,7 +791,7 @@ export const blogs: Blog[] = [
         "category": "Mathematics",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/probability-class-11-revision-notes-jee.png"
+        "image": "/blog-images/probability-class-11-revision-notes-jee.webp"
     },
     {
         "id": "ray-optics-class-12-quick-class-12-revision-notes-jee-neet",
@@ -773,7 +818,7 @@ export const blogs: Blog[] = [
         "category": "Chemistry",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/relations-functions-class-11-revision-notes-jee-neet.png"
+        "image": "/blog-images/relations-functions-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "respiration-in-plants-class-11-revision-notes-neet",
@@ -791,7 +836,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/rotational-motion-class-11-revision-notes-jee-neet.png"
+        "image": "/blog-images/rotational-motion-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "sequences-series-class-11-revision-notes-jee",
@@ -800,7 +845,7 @@ export const blogs: Blog[] = [
         "category": "Mathematics",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/sequences-series-class-11-revision-notes-jee.png"
+        "image": "/blog-images/sequences-series-class-11-revision-notes-jee.webp"
     },
     {
         "id": "sets-class-11-revision-notes-jee-neet",
@@ -809,7 +854,7 @@ export const blogs: Blog[] = [
         "category": "Chemistry",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/sets-class-11-revision-notes-jee-neet.png"
+        "image": "/blog-images/sets-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet",
@@ -836,7 +881,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/states-of-matter-class-11-revision-notes-jee-neet.png"
+        "image": "/blog-images/states-of-matter-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "statistics-class-11-revision-notes-jee",
@@ -845,7 +890,7 @@ export const blogs: Blog[] = [
         "category": "Mathematics",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/statistics-class-11-revision-notes-jee.png"
+        "image": "/blog-images/statistics-class-11-revision-notes-jee.webp"
     },
     {
         "id": "straight-lines-class-11-revision-notes-jee-neet",
@@ -854,7 +899,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/straight-lines-class-11-revision-notes-jee-neet.png"
+        "image": "/blog-images/straight-lines-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "structural-organisation-in-animals-class-11-revision-notes-neet",
@@ -872,7 +917,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/structure-of-atom-class-11-revision-notes-jee-neet.png"
+        "image": "/blog-images/structure-of-atom-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "structure-of-the-atom-class-11-revision-notes-neet",
@@ -935,7 +980,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/thermodynamics-chemistry-class-11-revision-notes-jee-neet.png"
+        "image": "/blog-images/thermodynamics-chemistry-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "thermodynamics-class-11-revision-notes-neet",
@@ -953,7 +998,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/three-dimensional-geometry-class-11-revision-notes-jee-neet.png"
+        "image": "/blog-images/three-dimensional-geometry-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "transport-in-plants-class-11-revision-notes-neet",
@@ -971,7 +1016,7 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/trigonometric-functions-class-11-revision-notes-jee-neet.png"
+        "image": "/blog-images/trigonometric-functions-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "units-and-measurements-class-11-revision-notes-jee-neet",
@@ -980,7 +1025,16 @@ export const blogs: Blog[] = [
         "category": "Physics",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/units-and-measurements-class-11-revision-notes-jee-neet.png"
+        "image": "/blog-images/units-and-measurements-class-11-revision-notes-jee-neet.webp"
+    },
+    {
+        "id": "upsc-optional-selection-guide-class-11-revision-notes-jee",
+        "title": "Upsc Optional Selection Guide Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
+        "description": "The ultimate Upsc Optional Selection Guide revision resource for Mathematics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
+        "category": "Mathematics",
+        "date": "2026-03-22",
+        "readTime": "15 min read",
+        "image": "/blog-images/laws-of-motion-revision.webp"
     },
     {
         "id": "waves-class-11-revision-notes-neet",
@@ -989,7 +1043,7 @@ export const blogs: Blog[] = [
         "category": "Biology",
         "date": "2026-03-22",
         "readTime": "15 min read",
-        "image": "/blog-images/waves-class-11-revision-notes-neet.png"
+        "image": "/blog-images/waves-class-11-revision-notes-neet.webp"
     },
     {
         "id": "work-energy-and-power-class-11-revision-notes-neet",

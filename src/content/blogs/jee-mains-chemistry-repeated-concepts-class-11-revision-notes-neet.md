@@ -1,12 +1,11 @@
 ---
 title: "Jee Mains Chemistry Repeated Concepts Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
-description: "Master Jee Mains Chemistry Repeated Concepts for Biology 2026. This Grandmaster Guide includes Ayush's personal revision notes, formula sheets, and top-tier MCQs for final prep."
+description: "Master Jee Mains Chemistry Repeated Concepts for Biology 2026. This Grandmaster Guide includes Ayush"
 category: "Biology"
-keywords: "Jee Mains Chemistry Repeated Concepts class 11 notes, Jee Mains Chemistry Repeated Concepts quick revision, Jee Mains Chemistry Repeated Concepts 2026, Jee Mains Chemistry Repeated Concepts NEET 2026, Jee Mains Chemistry Repeated Concepts notes for NEET, class 11 Biology revision, Jee Mains Chemistry Repeated Concepts formula sheet, Jee Mains Chemistry Repeated Concepts MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/biology/jee-mains-chemistry-repeated-concepts"
-hero_image: "/blog-images/jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet.webp"
+keywords: "jee mains chemistry repeated concepts class 11 revision notes neet, Biology, Exam Compass"
 ---
+
+# Jee Mains Chemistry Repeated Concepts Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Jee Mains Chemistry Repeated Concepts recap](/blog-images/jee-mains-chemistry-repeated-concepts.webp)
 
@@ -89,4 +88,5 @@ Create a checklist of these 15 topics. Do not proceed to obscure corners of the 
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

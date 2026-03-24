@@ -2,11 +2,10 @@
 title: "Planning In India Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "The ultimate Planning In India revision resource for Physics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Physics"
-keywords: "Planning In India class 11 notes, Planning In India quick revision, Planning In India 2026, Planning In India JEE 2026, Planning In India notes for JEE, Planning In India NEET 2026, Planning In India notes for NEET, class 11 Physics revision, Planning In India formula sheet, Planning In India MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/planning-in-india-class-11-notes"
-hero_image: "/blog-images/gravitation-revision.webp"
+keywords: "planning in india class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
+# Planning In India Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Planning In India recap](/blog-images/planning-in-india-class-11-notes.webp)
 
@@ -60,4 +59,5 @@ Planning in India works through the Five-Year Plans, which are formulated by the
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

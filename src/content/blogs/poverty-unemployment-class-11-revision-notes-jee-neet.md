@@ -2,11 +2,10 @@
 title: "Poverty Unemployment Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Accelerate your Physics revision with our Poverty Unemployment guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Physics"
-keywords: "Poverty Unemployment class 11 notes, Poverty Unemployment quick revision, Poverty Unemployment 2026, Poverty Unemployment JEE 2026, Poverty Unemployment notes for JEE, Poverty Unemployment NEET 2026, Poverty Unemployment notes for NEET, class 11 Physics revision, Poverty Unemployment formula sheet, Poverty Unemployment MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/poverty-unemployment-class-11-notes"
-hero_image: "/blog-images/ktg-revision.webp"
+keywords: "poverty unemployment class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
+# Poverty Unemployment Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Poverty Unemployment recap](/blog-images/poverty-unemployment-class-11-notes.webp)
 
@@ -60,4 +59,5 @@ Measuring poverty involves calculating the poverty line, which is the minimum in
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

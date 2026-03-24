@@ -2,11 +2,10 @@
 title: "Jee Mains High Weightage Chapters Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "The ultimate Jee Mains High Weightage Chapters revision resource for Physics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Physics"
-keywords: "Jee Mains High Weightage Chapters class 11 notes, Jee Mains High Weightage Chapters quick revision, Jee Mains High Weightage Chapters 2026, Jee Mains High Weightage Chapters JEE 2026, Jee Mains High Weightage Chapters notes for JEE, Jee Mains High Weightage Chapters NEET 2026, Jee Mains High Weightage Chapters notes for NEET, class 11 Physics revision, Jee Mains High Weightage Chapters formula sheet, Jee Mains High Weightage Chapters MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/jee-mains-high-weightage-chapters"
-hero_image: "/blog-images/classification-elements-periodicity-revision.webp"
+keywords: "jee mains high weightage chapters class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
+# Jee Mains High Weightage Chapters Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Jee Mains High Weightage Chapters recap](/blog-images/jee-mains-high-weightage-chapters.webp)
 
@@ -122,4 +121,5 @@ Chemistry is statistically the easiest and most scorable. Many questions are dir
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

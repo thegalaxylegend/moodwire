@@ -2,11 +2,10 @@
 title: "Study 12 Hours Daily Tips Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Accelerate your Physics revision with our Study 12 Hours Daily Tips guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Physics"
-keywords: "Study 12 Hours Daily Tips class 11 notes, Study 12 Hours Daily Tips quick revision, Study 12 Hours Daily Tips 2026, Study 12 Hours Daily Tips JEE 2026, Study 12 Hours Daily Tips notes for JEE, Study 12 Hours Daily Tips NEET 2026, Study 12 Hours Daily Tips notes for NEET, class 11 Physics revision, Study 12 Hours Daily Tips formula sheet, Study 12 Hours Daily Tips MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/study-12-hours-daily-tips"
-hero_image: "/blog-images/study-12-hours-daily-tips-class-11-revision-notes-jee-neet.webp"
+keywords: "study 12 hours daily tips class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
+# Study 12 Hours Daily Tips Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Study 12 Hours Daily Tips recap](/blog-images/study-12-hours-daily-tips.webp)
 
@@ -121,4 +120,5 @@ Don't jump to 12 hours immediately. Start by adding one 30-minute session each d
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

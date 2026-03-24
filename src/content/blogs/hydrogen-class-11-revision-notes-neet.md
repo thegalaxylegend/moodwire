@@ -2,11 +2,10 @@
 title: "Hydrogen Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Deep dive into Hydrogen Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Biology"
-keywords: "Hydrogen class 11 notes, Hydrogen quick revision, Hydrogen 2026, Hydrogen NEET 2026, Hydrogen notes for NEET, class 11 Biology revision, Hydrogen formula sheet, Hydrogen MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/biology/hydrogen-class-11-notes"
-hero_image: "/blog-images/hydrogen-class-11-revision-notes-neet.webp"
+keywords: "hydrogen class 11 revision notes neet, Biology, Exam Compass"
 ---
+
+# Hydrogen Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Hydrogen recap](/blog-images/hydrogen-class-11-notes.webp)
 
@@ -189,4 +188,5 @@ The key points to remember about hydrogen are:
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

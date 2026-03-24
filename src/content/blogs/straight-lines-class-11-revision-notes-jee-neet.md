@@ -1,12 +1,11 @@
 ---
 title: "Straight Lines Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Learn Straight Lines like a pro. Detailed revision notes, solved examples, and "Trap Questions" that most students miss. Updated for the 2026 syllabus."
+description: "Learn Straight Lines like a pro. Detailed revision notes, solved examples, and "
 category: "Physics"
-keywords: "Straight Lines class 11 notes, Straight Lines quick revision, Straight Lines 2026, Straight Lines JEE 2026, Straight Lines notes for JEE, Straight Lines NEET 2026, Straight Lines notes for NEET, class 11 Physics revision, Straight Lines formula sheet, Straight Lines MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/straight-lines-revision-notes"
-hero_image: "/blog-images/straight-lines-class-11-revision-notes-jee-neet.png"
+keywords: "straight lines class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
+# Straight Lines Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Straight Lines Revision Notes recap](/blog-images/straight-lines-revision-notes.webp)
 
@@ -170,4 +169,5 @@ Straight lines are the ABCs of coordinate geometry. By mastering the various for
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

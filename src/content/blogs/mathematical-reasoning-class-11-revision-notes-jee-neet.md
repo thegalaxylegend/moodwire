@@ -1,12 +1,11 @@
 ---
 title: "Mathematical Reasoning Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Learn Mathematical Reasoning like a pro. Detailed revision notes, solved examples, and "Trap Questions" that most students miss. Updated for the 2026 syllabus."
+description: "Learn Mathematical Reasoning like a pro. Detailed revision notes, solved examples, and "
 category: "Physics"
-keywords: "Mathematical Reasoning class 11 notes, Mathematical Reasoning quick revision, Mathematical Reasoning 2026, Mathematical Reasoning JEE 2026, Mathematical Reasoning notes for JEE, Mathematical Reasoning NEET 2026, Mathematical Reasoning notes for NEET, class 11 Physics revision, Mathematical Reasoning formula sheet, Mathematical Reasoning MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/mathematical-reasoning-revision-notes"
-hero_image: "/blog-images/mathematical-reasoning-class-11-revision-notes-jee-neet.png"
+keywords: "mathematical reasoning class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
+# Mathematical Reasoning Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Mathematical Reasoning Revision Notes recap](/blog-images/mathematical-reasoning-revision-notes.webp)
 
@@ -156,4 +155,5 @@ Mathematical Reasoning is the "grammar" of mathematics. It ensures that our conc
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -1,12 +1,11 @@
 ---
 title: "Indian Geography Physical Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Learn Indian Geography Physical like a pro. Detailed revision notes, solved examples, and "Trap Questions" that most students miss. Updated for the 2026 syllabus."
+description: "Learn Indian Geography Physical like a pro. Detailed revision notes, solved examples, and "
 category: "Physics"
-keywords: "Indian Geography Physical class 11 notes, Indian Geography Physical quick revision, Indian Geography Physical 2026, Indian Geography Physical JEE 2026, Indian Geography Physical notes for JEE, Indian Geography Physical NEET 2026, Indian Geography Physical notes for NEET, class 11 Physics revision, Indian Geography Physical formula sheet, Indian Geography Physical MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/indian-geography-physical-class-11-notes"
-hero_image: "/blog-images/chemical-bonding-molecular-structure-revision.webp"
+keywords: "indian geography physical class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
+# Indian Geography Physical Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Indian Geography Physical recap](/blog-images/indian-geography-physical-class-11-notes.webp)
 
@@ -86,4 +85,5 @@ Maps are an essential tool in Physical Geography, used to represent the Earth's 
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

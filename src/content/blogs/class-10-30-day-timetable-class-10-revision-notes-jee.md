@@ -1,12 +1,11 @@
 ---
 title: "Class 10 30 Day Timetable Class 10 Mathematics Recap — CBSE 2026 Quick Guide"
-description: "Master Class 10 30 Day Timetable for Mathematics 2026. This Grandmaster Guide includes Ayush's personal revision notes, formula sheets, and top-tier MCQs for final prep."
-category: "Mathematics"
-keywords: "Class 10 30 Day Timetable class 10 notes, Class 10 30 Day Timetable quick revision, Class 10 30 Day Timetable 2026, Class 10 30 Day Timetable JEE 2026, Class 10 30 Day Timetable notes for JEE, class 10 Mathematics revision, Class 10 30 Day Timetable formula sheet, Class 10 30 Day Timetable MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/mathematics/class-10-30-day-timetable"
-hero_image: "/blog-images/anatomy-of-flowering-plants-class-11-revision-notes-neet.webp"
+description: "Master Class 10 30 Day Timetable for Mathematics 2026. This Grandmaster Guide includes Ayush"
+category: "Biology"
+keywords: "class 10 30 day timetable class 10 revision notes jee, Biology, Exam Compass"
 ---
+
+# Class 10 30 Day Timetable Class 10 Mathematics Recap — CBSE 2026 Quick Guide
 
 ![Class 10 30 Day Timetable recap](/blog-images/class-10-30-day-timetable.webp)
 
@@ -123,4 +122,5 @@ Focus on the "Safe Zone" chapters like Statistics and Probability first. These c
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -2,11 +2,10 @@
 title: "Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "The ultimate Electric Charges Fields revision resource for Physics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Physics"
-keywords: "Electric Charges Fields class 11 notes, Electric Charges Fields quick revision, Electric Charges Fields 2026, Electric Charges Fields JEE 2026, Electric Charges Fields notes for JEE, Electric Charges Fields NEET 2026, Electric Charges Fields notes for NEET, class 11 Physics revision, Electric Charges Fields formula sheet, Electric Charges Fields MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/electric-charges-fields-revision-notes"
-hero_image: "/blog-images/electric-charges-fields-class-11-revision-notes-jee-neet.png"
+keywords: "electric charges fields class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
+# Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Electric Charges Fields Revision Notes recap](/blog-images/electric-charges-fields-revision-notes.webp)
 
@@ -240,4 +239,5 @@ The field of Electrostatics is the foundation upon which all modern technology�
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

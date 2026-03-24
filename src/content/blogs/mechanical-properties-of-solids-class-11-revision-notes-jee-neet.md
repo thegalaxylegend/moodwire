@@ -2,11 +2,10 @@
 title: "Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "The ultimate Mechanical Properties Of Solids revision resource for Physics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Physics"
-keywords: "Mechanical Properties Of Solids class 11 notes, Mechanical Properties Of Solids quick revision, Mechanical Properties Of Solids 2026, Mechanical Properties Of Solids JEE 2026, Mechanical Properties Of Solids notes for JEE, Mechanical Properties Of Solids NEET 2026, Mechanical Properties Of Solids notes for NEET, class 11 Physics revision, Mechanical Properties Of Solids formula sheet, Mechanical Properties Of Solids MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/mechanical-properties-of-solids-revision-notes"
-hero_image: "/blog-images/current-electricity-revision.webp"
+keywords: "mechanical properties of solids class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
+# Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Mechanical Properties Of Solids Revision Notes recap](/blog-images/mechanical-properties-of-solids-revision-notes.webp)
 
@@ -186,4 +185,5 @@ The mechanical properties of solids are what allow humans to build the impossibl
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

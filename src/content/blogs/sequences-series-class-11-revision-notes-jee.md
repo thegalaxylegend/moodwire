@@ -1,12 +1,11 @@
 ---
 title: "Sequences Series Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
-description: "Master Sequences Series for Mathematics 2026. This Grandmaster Guide includes Ayush's personal revision notes, formula sheets, and top-tier MCQs for final prep."
+description: "Master Sequences Series for Mathematics 2026. This Grandmaster Guide includes Ayush"
 category: "Mathematics"
-keywords: "Sequences Series class 11 notes, Sequences Series quick revision, Sequences Series 2026, Sequences Series JEE 2026, Sequences Series notes for JEE, class 11 Mathematics revision, Sequences Series formula sheet, Sequences Series MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/mathematics/sequences-series-revision-notes"
-hero_image: "/blog-images/sequences-series-class-11-revision-notes-jee.png"
+keywords: "sequences series class 11 revision notes jee, Mathematics, Exam Compass"
 ---
+
+# Sequences Series Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
 
 ![Sequences Series Revision Notes recap](/blog-images/sequences-series-revision-notes.webp)
 
@@ -175,4 +174,5 @@ Sequences and Series are not just lists of numbers; they are the language of gro
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

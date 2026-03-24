@@ -2,11 +2,10 @@
 title: "Jee Advanced Math Difficulty Trends Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "The ultimate Jee Advanced Math Difficulty Trends revision resource for Physics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Physics"
-keywords: "Jee Advanced Math Difficulty Trends class 11 notes, Jee Advanced Math Difficulty Trends quick revision, Jee Advanced Math Difficulty Trends 2026, Jee Advanced Math Difficulty Trends JEE 2026, Jee Advanced Math Difficulty Trends notes for JEE, Jee Advanced Math Difficulty Trends NEET 2026, Jee Advanced Math Difficulty Trends notes for NEET, class 11 Physics revision, Jee Advanced Math Difficulty Trends formula sheet, Jee Advanced Math Difficulty Trends MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/jee-advanced-math-difficulty-trends"
-hero_image: "/blog-images/jee-advanced-math-difficulty-trends-class-11-revision-notes-jee-neet.webp"
+keywords: "jee advanced math difficulty trends class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
+# Jee Advanced Math Difficulty Trends Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Jee Advanced Math Difficulty Trends recap](/blog-images/jee-advanced-math-difficulty-trends.webp)
 
@@ -94,4 +93,5 @@ Mastering JEE Advanced Mathematics is no longer about doing 500 repetitive probl
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

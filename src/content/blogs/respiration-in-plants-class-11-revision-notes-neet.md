@@ -1,12 +1,11 @@
 ---
 title: "Respiration In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
-description: "Master Respiration In Plants for Biology 2026. This Grandmaster Guide includes Ayush's personal revision notes, formula sheets, and top-tier MCQs for final prep."
+description: "Master Respiration In Plants for Biology 2026. This Grandmaster Guide includes Ayush"
 category: "Biology"
-keywords: "Respiration In Plants class 11 notes, Respiration In Plants quick revision, Respiration In Plants 2026, Respiration In Plants NEET 2026, Respiration In Plants notes for NEET, class 11 Biology revision, Respiration In Plants formula sheet, Respiration In Plants MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/biology/respiration-in-plants-class-11-notes"
-hero_image: "/blog-images/respiration-in-plants-class-11-notes.webp"
+keywords: "respiration in plants class 11 revision notes neet, Biology, Exam Compass"
 ---
+
+# Respiration In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Respiration In Plants recap](/blog-images/respiration-in-plants-class-11-notes.webp)
 
@@ -164,4 +163,5 @@ Last Updated: March 16, 2026
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

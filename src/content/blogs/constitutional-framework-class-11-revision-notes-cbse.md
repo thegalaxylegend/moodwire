@@ -1,12 +1,11 @@
 ---
 title: "Constitutional Framework Class 11 Social Science Recap — CBSE 2026 Quick Guide"
 description: "The ultimate Constitutional Framework revision resource for Social Science students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
-category: "Social Science"
-keywords: "Constitutional Framework class 11 notes, Constitutional Framework quick revision, Constitutional Framework 2026, Constitutional Framework CBSE 2026, Constitutional Framework notes for CBSE, class 11 Social Science revision, Constitutional Framework formula sheet, Constitutional Framework MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/constitutional-framework-class-11-notes"
-hero_image: "/blog-images/constitutional-framework-class-11-revision-notes-cbse.webp"
+category: "Physics"
+keywords: "constitutional framework class 11 revision notes cbse, Physics, Exam Compass"
 ---
+
+# Constitutional Framework Class 11 Social Science Recap — CBSE 2026 Quick Guide
 
 ![Constitutional Framework recap](/blog-images/constitutional-framework-class-11-notes.webp)
 
@@ -94,4 +93,5 @@ I find it helpful to review these trap exceptions regularly, as they can be tric
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

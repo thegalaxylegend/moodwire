@@ -1,12 +1,11 @@
 ---
 title: "Trigonometric Functions Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Learn Trigonometric Functions like a pro. Detailed revision notes, solved examples, and "Trap Questions" that most students miss. Updated for the 2026 syllabus."
+description: "Learn Trigonometric Functions like a pro. Detailed revision notes, solved examples, and "
 category: "Physics"
-keywords: "Trigonometric Functions class 11 notes, Trigonometric Functions quick revision, Trigonometric Functions 2026, Trigonometric Functions JEE 2026, Trigonometric Functions notes for JEE, Trigonometric Functions NEET 2026, Trigonometric Functions notes for NEET, class 11 Physics revision, Trigonometric Functions formula sheet, Trigonometric Functions MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/trigonometric-functions-revision-notes"
-hero_image: "/blog-images/trigonometric-functions-class-11-revision-notes-jee-neet.png"
+keywords: "trigonometric functions class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
+# Trigonometric Functions Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Trigonometric Functions Revision Notes recap](/blog-images/trigonometric-functions-revision-notes.webp)
 
@@ -180,4 +179,5 @@ Trigonometry is the bridge between geometry and algebra. By mastery the "Core 10
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

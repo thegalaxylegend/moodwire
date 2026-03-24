@@ -1,12 +1,11 @@
 ---
 title: "The Living World Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
-description: "Learn The Living World like a pro. Detailed revision notes, solved examples, and "Trap Questions" that most students miss. Updated for the 2026 syllabus."
+description: "Learn The Living World like a pro. Detailed revision notes, solved examples, and "
 category: "Biology"
-keywords: "The Living World class 11 notes, The Living World quick revision, The Living World 2026, The Living World NEET 2026, The Living World notes for NEET, class 11 Biology revision, The Living World formula sheet, The Living World MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/biology/the-living-world-class-11-notes"
-hero_image: "/blog-images/the-living-world-class-11-notes.webp"
+keywords: "the living world class 11 revision notes neet, Biology, Exam Compass"
 ---
+
+# The Living World Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![The Living World recap](/blog-images/the-living-world-class-11-notes.webp)
 
@@ -205,4 +204,5 @@ Last Updated: March 15, 2026
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

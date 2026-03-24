@@ -2,11 +2,10 @@
 title: "Sets Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "The ultimate Sets revision resource for Chemistry students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Chemistry"
-keywords: "Sets class 11 notes, Sets quick revision, Sets 2026, Sets JEE 2026, Sets notes for JEE, Sets NEET 2026, Sets notes for NEET, class 11 Chemistry revision, Sets formula sheet, Sets MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/chemistry/sets-revision-notes"
-hero_image: "/blog-images/sets-class-11-revision-notes-jee-neet.png"
+keywords: "sets class 11 revision notes jee neet, Chemistry, Exam Compass"
 ---
+
+# Sets Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Sets Revision Notes recap](/blog-images/sets-revision-notes.webp)
 
@@ -174,4 +173,5 @@ Sets are more than just lists of numbers; they are the building blocks of logica
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

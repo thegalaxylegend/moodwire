@@ -1,12 +1,11 @@
 ---
 title: "Mineral Nutrition Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
-description: "Master Mineral Nutrition for Biology 2026. This Grandmaster Guide includes Ayush's personal revision notes, formula sheets, and top-tier MCQs for final prep."
+description: "Master Mineral Nutrition for Biology 2026. This Grandmaster Guide includes Ayush"
 category: "Biology"
-keywords: "Mineral Nutrition class 11 notes, Mineral Nutrition quick revision, Mineral Nutrition 2026, Mineral Nutrition NEET 2026, Mineral Nutrition notes for NEET, class 11 Biology revision, Mineral Nutrition formula sheet, Mineral Nutrition MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/biology/mineral-nutrition-class-11-notes"
-hero_image: "/blog-images/mineral-nutrition-class-11-notes.webp"
+keywords: "mineral nutrition class 11 revision notes neet, Biology, Exam Compass"
 ---
+
+# Mineral Nutrition Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Mineral Nutrition recap](/blog-images/mineral-nutrition-class-11-notes.webp)
 
@@ -243,4 +242,5 @@ Mineral nutrition is the study of the essential elements required by plants for 
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

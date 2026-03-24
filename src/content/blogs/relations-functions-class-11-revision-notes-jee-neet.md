@@ -2,11 +2,10 @@
 title: "Relations Functions Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "The ultimate Relations Functions revision resource for Chemistry students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Chemistry"
-keywords: "Relations Functions class 11 notes, Relations Functions quick revision, Relations Functions 2026, Relations Functions JEE 2026, Relations Functions notes for JEE, Relations Functions NEET 2026, Relations Functions notes for NEET, class 11 Chemistry revision, Relations Functions formula sheet, Relations Functions MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/chemistry/relations-functions-revision-notes"
-hero_image: "/blog-images/relations-functions-class-11-revision-notes-jee-neet.png"
+keywords: "relations functions class 11 revision notes jee neet, Chemistry, Exam Compass"
 ---
+
+# Relations Functions Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Relations Functions Revision Notes recap](/blog-images/relations-functions-revision-notes.webp)
 
@@ -167,4 +166,5 @@ Functions are the heartbeat of Calculus and higher mathematics. By distinguishin
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

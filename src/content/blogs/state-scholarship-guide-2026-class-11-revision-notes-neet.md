@@ -1,12 +1,11 @@
 ---
 title: "State Scholarship Guide 2026 Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
-description: "Learn State Scholarship Guide 2026 like a pro. Detailed revision notes, solved examples, and "Trap Questions" that most students miss. Updated for the 2026 syllabus."
+description: "Learn State Scholarship Guide 2026 like a pro. Detailed revision notes, solved examples, and "
 category: "Biology"
-keywords: "State Scholarship Guide 2026 class 11 notes, State Scholarship Guide 2026 quick revision, State Scholarship Guide 2026 2026, State Scholarship Guide 2026 NEET 2026, State Scholarship Guide 2026 notes for NEET, class 11 Biology revision, State Scholarship Guide 2026 formula sheet, State Scholarship Guide 2026 MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/biology/state-scholarship-guide-2026"
-hero_image: "/blog-images/state-scholarship-guide-2026-class-11-revision-notes-neet.webp"
+keywords: "state scholarship guide 2026 class 11 revision notes neet, Biology, Exam Compass"
 ---
+
+# State Scholarship Guide 2026 Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![State Scholarship Guide 2026 recap](/blog-images/state-scholarship-guide-2026.webp)
 
@@ -125,4 +124,5 @@ Yes, typically there is no restriction on appearing for multiple exams as long a
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

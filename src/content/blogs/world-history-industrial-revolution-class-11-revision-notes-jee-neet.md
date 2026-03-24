@@ -1,12 +1,11 @@
 ---
 title: "World History Industrial Revolution Class 11 History Recap — CBSE 2026 Quick Guide"
 description: "Deep dive into World History Industrial Revolution Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
-category: "History"
-keywords: "World History Industrial Revolution class 11 notes, World History Industrial Revolution quick revision, World History Industrial Revolution 2026, World History Industrial Revolution CBSE 2026, World History Industrial Revolution notes for CBSE, class 11 History revision, World History Industrial Revolution formula sheet, World History Industrial Revolution MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/world-history-industrial-revolution-class-11-notes"
-hero_image: "/blog-images/world-history-industrial-revolution-class-11-notes.webp"
+category: "Physics"
+keywords: "world history industrial revolution class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
+# World History Industrial Revolution Class 11 History Recap — CBSE 2026 Quick Guide
 
 ![World History Industrial Revolution recap](/blog-images/world-history-industrial-revolution-class-11-notes.webp)
 
@@ -14,7 +13,7 @@ hero_image: "/blog-images/world-history-industrial-revolution-class-11-notes.web
 
 ## What is World History Industrial Revolution?
 
-# World History: Industrial Revolution Class 11 Quick Revision Notes & Recap — Exam Compass
+
 
 ![World History: Industrial Revolution notes for students](/blog-images/world-history-industrial-revolution-class-11-notes.webp)
 
@@ -589,4 +588,5 @@ I, Ayush, have these final reflections and thoughts on the Industrial Revolution
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

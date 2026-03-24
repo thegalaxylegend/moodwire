@@ -2,11 +2,10 @@
 title: "Redox Reactions Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Deep dive into Redox Reactions Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Biology"
-keywords: "Redox Reactions class 11 notes, Redox Reactions quick revision, Redox Reactions 2026, Redox Reactions NEET 2026, Redox Reactions notes for NEET, class 11 Biology revision, Redox Reactions formula sheet, Redox Reactions MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/biology/redox-reactions-class-11-notes"
-hero_image: "/blog-images/redox-reactions-class-11-revision-notes-neet.webp"
+keywords: "redox reactions class 11 revision notes neet, Biology, Exam Compass"
 ---
+
+# Redox Reactions Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Redox Reactions recap](/blog-images/redox-reactions-class-11-notes.webp)
 
@@ -176,4 +175,5 @@ Solution: a) $\text{Cr}_2\text{O}_7^{2-} + 6\text{Fe}^{2+} + 14\text{H}^+ \right
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

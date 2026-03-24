@@ -1,12 +1,11 @@
 ---
 title: "The S Block Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Master The S Block Elements for Physics 2026. This Grandmaster Guide includes Ayush's personal revision notes, formula sheets, and top-tier MCQs for final prep."
+description: "Master The S Block Elements for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"
-keywords: "The S Block Elements class 11 notes, The S Block Elements quick revision, The S Block Elements 2026, The S Block Elements JEE 2026, The S Block Elements notes for JEE, The S Block Elements NEET 2026, The S Block Elements notes for NEET, class 11 Physics revision, The S Block Elements formula sheet, The S Block Elements MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/the-s-block-elements-class-11-notes"
-hero_image: "/blog-images/the-s-block-elements-class-11-revision-notes-jee-neet.webp"
+keywords: "the s block elements class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
+# The S Block Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![The S Block Elements recap](/blog-images/the-s-block-elements-class-11-notes.webp)
 
@@ -181,4 +180,5 @@ Last Updated: March 15, 2026
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

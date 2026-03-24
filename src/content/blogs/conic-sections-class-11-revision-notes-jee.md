@@ -2,11 +2,10 @@
 title: "Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
 description: "Accelerate your Mathematics revision with our Conic Sections guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Mathematics"
-keywords: "Conic Sections class 11 notes, Conic Sections quick revision, Conic Sections 2026, Conic Sections JEE 2026, Conic Sections notes for JEE, class 11 Mathematics revision, Conic Sections formula sheet, Conic Sections MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/mathematics/conic-sections-revision-notes"
-hero_image: "/blog-images/conic-sections-class-11-revision-notes-jee.png"
+keywords: "conic sections class 11 revision notes jee, Mathematics, Exam Compass"
 ---
+
+# Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
 
 ![Conic Sections Revision Notes recap](/blog-images/conic-sections-revision-notes.webp)
 
@@ -173,4 +172,5 @@ Conic sections bring geometry to life by connecting algebraic equations with phy
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -2,11 +2,10 @@
 title: "Thermal Properties Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Deep dive into Thermal Properties Of Matter Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Physics"
-keywords: "Thermal Properties Of Matter class 11 notes, Thermal Properties Of Matter quick revision, Thermal Properties Of Matter 2026, Thermal Properties Of Matter JEE 2026, Thermal Properties Of Matter notes for JEE, Thermal Properties Of Matter NEET 2026, Thermal Properties Of Matter notes for NEET, class 11 Physics revision, Thermal Properties Of Matter formula sheet, Thermal Properties Of Matter MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/thermal-properties-of-matter-revision-notes"
-hero_image: "/blog-images/laws-of-motion-mistakes.webp"
+keywords: "thermal properties of matter class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
+# Thermal Properties Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Thermal Properties Of Matter Revision Notes recap](/blog-images/thermal-properties-of-matter-revision-notes.webp)
 
@@ -184,4 +183,5 @@ Thermal properties define the limits of sustainability and efficiency in our wor
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

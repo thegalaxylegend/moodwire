@@ -2,11 +2,10 @@
 title: "Dpsp Duties Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Accelerate your Physics revision with our Dpsp Duties guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Physics"
-keywords: "Dpsp Duties class 11 notes, Dpsp Duties quick revision, Dpsp Duties 2026, Dpsp Duties JEE 2026, Dpsp Duties notes for JEE, Dpsp Duties NEET 2026, Dpsp Duties notes for NEET, class 11 Physics revision, Dpsp Duties formula sheet, Dpsp Duties MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/dpsp-duties-class-11-notes"
-hero_image: "/blog-images/body-fluids-and-circulation-class-11-revision-notes-neet.webp"
+keywords: "dpsp duties class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
+# Dpsp Duties Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Dpsp Duties recap](/blog-images/dpsp-duties-class-11-notes.webp)
 
@@ -112,4 +111,5 @@ Here are some tips to help you master DPSP & Duties:
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

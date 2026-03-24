@@ -1,12 +1,11 @@
 ---
 title: "Neet Biology 80 20 Rule Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
-description: "Learn Neet Biology 80 20 Rule like a pro. Detailed revision notes, solved examples, and "Trap Questions" that most students miss. Updated for the 2026 syllabus."
+description: "Learn Neet Biology 80 20 Rule like a pro. Detailed revision notes, solved examples, and "
 category: "Biology"
-keywords: "Neet Biology 80 20 Rule class 11 notes, Neet Biology 80 20 Rule quick revision, Neet Biology 80 20 Rule 2026, Neet Biology 80 20 Rule NEET 2026, Neet Biology 80 20 Rule notes for NEET, class 11 Biology revision, Neet Biology 80 20 Rule formula sheet, Neet Biology 80 20 Rule MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/biology/neet-biology-80-20-rule"
-hero_image: "/blog-images/neet-biology-80-20-rule-class-11-revision-notes-neet.webp"
+keywords: "neet biology 80 20 rule class 11 revision notes neet, Biology, Exam Compass"
 ---
+
+# Neet Biology 80 20 Rule Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Neet Biology 80 20 Rule recap](/blog-images/neet-biology-80-20-rule.webp)
 
@@ -103,4 +102,5 @@ By applying the 80/20 rule, you transform your NEET preparation from an exhausti
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

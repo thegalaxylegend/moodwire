@@ -2,11 +2,10 @@
 title: "Art Culture Architecture Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "The ultimate Art Culture Architecture revision resource for Chemistry students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Chemistry"
-keywords: "Art Culture Architecture class 11 notes, Art Culture Architecture quick revision, Art Culture Architecture 2026, Art Culture Architecture JEE 2026, Art Culture Architecture notes for JEE, Art Culture Architecture NEET 2026, Art Culture Architecture notes for NEET, class 11 Chemistry revision, Art Culture Architecture formula sheet, Art Culture Architecture MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/chemistry/art-culture-architecture-class-11-notes"
-hero_image: "/blog-images/art-culture-architecture-class-11-revision-notes-jee-neet.webp"
+keywords: "art culture architecture class 11 revision notes jee neet, Chemistry, Exam Compass"
 ---
+
+# Art Culture Architecture Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Art Culture Architecture recap](/blog-images/art-culture-architecture-class-11-notes.webp)
 
@@ -14,7 +13,7 @@ hero_image: "/blog-images/art-culture-architecture-class-11-revision-notes-jee-n
 
 ## What is Art Culture Architecture?
 
-# Art & Culture: Architecture Class 11 Quick Revision Notes & Recap — Exam Compass
+
 
 ![Art & Culture: Architecture notes for students](/blog-images/art-culture-architecture-class-11-notes.webp)
 
@@ -124,4 +123,5 @@ By focusing on these key concepts, formulae, and trap exceptions, you'll be well
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

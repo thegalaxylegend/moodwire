@@ -1,12 +1,11 @@
 ---
 title: "Medieval India Delhi Sultanate Class 11 History Recap — CBSE 2026 Quick Guide"
 description: "Accelerate your History revision with our Medieval India Delhi Sultanate guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
-category: "History"
-keywords: "Medieval India Delhi Sultanate class 11 notes, Medieval India Delhi Sultanate quick revision, Medieval India Delhi Sultanate 2026, Medieval India Delhi Sultanate CBSE 2026, Medieval India Delhi Sultanate notes for CBSE, class 11 History revision, Medieval India Delhi Sultanate formula sheet, Medieval India Delhi Sultanate MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/medieval-india-delhi-sultanate-class-11-notes"
-hero_image: "/blog-images/medieval-india-delhi-sultanate-class-11-revision-notes-cbse.webp"
+category: "Physics"
+keywords: "medieval india delhi sultanate class 11 revision notes cbse, Physics, Exam Compass"
 ---
+
+# Medieval India Delhi Sultanate Class 11 History Recap — CBSE 2026 Quick Guide
 
 ![Medieval India Delhi Sultanate recap](/blog-images/medieval-india-delhi-sultanate-class-11-notes.webp)
 
@@ -14,7 +13,7 @@ hero_image: "/blog-images/medieval-india-delhi-sultanate-class-11-revision-notes
 
 ## What is Medieval India Delhi Sultanate?
 
-# Medieval India: Delhi Sultanate Class 11 Quick Revision Notes & Recap — Exam Compass
+
 
 ![Medieval India: Delhi Sultanate notes for students](/blog-images/medieval-india-delhi-sultanate-class-11-notes.webp)
 
@@ -140,4 +139,5 @@ By understanding the historical context of the Delhi Sultanate, we can gain a de
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

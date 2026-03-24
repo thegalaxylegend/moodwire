@@ -1,12 +1,11 @@
 ---
 title: "Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Master Oscillations for Physics 2026. This Grandmaster Guide includes Ayush's personal revision notes, formula sheets, and top-tier MCQs for final prep."
+description: "Master Oscillations for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"
-keywords: "Oscillations class 11 notes, Oscillations quick revision, Oscillations 2026, Oscillations JEE 2026, Oscillations notes for JEE, Oscillations NEET 2026, Oscillations notes for NEET, class 11 Physics revision, Oscillations formula sheet, Oscillations MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/oscillations-revision-notes"
-hero_image: "/blog-images/oscillations-class-11-revision-notes-jee-neet.png"
+keywords: "oscillations class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
+# Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Oscillations Revision Notes recap](/blog-images/oscillations-revision-notes.webp)
 
@@ -201,4 +200,5 @@ Oscillations are the universal language of physical vibration. By mastering the 
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

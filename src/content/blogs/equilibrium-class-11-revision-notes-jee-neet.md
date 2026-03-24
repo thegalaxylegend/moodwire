@@ -2,11 +2,10 @@
 title: "Equilibrium Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "The ultimate Equilibrium revision resource for Physics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Physics"
-keywords: "Equilibrium class 11 notes, Equilibrium quick revision, Equilibrium 2026, Equilibrium JEE 2026, Equilibrium notes for JEE, Equilibrium NEET 2026, Equilibrium notes for NEET, class 11 Physics revision, Equilibrium formula sheet, Equilibrium MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/equilibrium-revision-notes"
-hero_image: "/blog-images/equilibrium-class-11-revision-notes-jee-neet.png"
+keywords: "equilibrium class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
+# Equilibrium Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Equilibrium Revision Notes recap](/blog-images/equilibrium-revision-notes.webp)
 
@@ -367,4 +366,5 @@ For CBSE, always state Le Chatelier's Principle in full before applying it. Then
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

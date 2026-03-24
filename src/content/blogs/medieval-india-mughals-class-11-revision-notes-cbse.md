@@ -1,12 +1,11 @@
 ---
 title: "Medieval India Mughals Class 11 History Recap — CBSE 2026 Quick Guide"
 description: "Deep dive into Medieval India Mughals Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
-category: "History"
-keywords: "Medieval India Mughals class 11 notes, Medieval India Mughals quick revision, Medieval India Mughals 2026, Medieval India Mughals CBSE 2026, Medieval India Mughals notes for CBSE, class 11 History revision, Medieval India Mughals formula sheet, Medieval India Mughals MCQs"
-date: "2026-03-22"
-practice_link: "/class-11/physics/medieval-india-mughals-class-11-notes"
-hero_image: "/blog-images/medieval-india-mughals-class-11-revision-notes-cbse.webp"
+category: "Physics"
+keywords: "medieval india mughals class 11 revision notes cbse, Physics, Exam Compass"
 ---
+
+# Medieval India Mughals Class 11 History Recap — CBSE 2026 Quick Guide
 
 ![Medieval India Mughals recap](/blog-images/medieval-india-mughals-class-11-notes.webp)
 
@@ -14,7 +13,7 @@ hero_image: "/blog-images/medieval-india-mughals-class-11-revision-notes-cbse.we
 
 ## What is Medieval India Mughals?
 
-# Medieval India: Mughals Class 11 Quick Revision Notes & Recap — Exam Compass
+
 
 ![Medieval India: Mughals notes for students](/blog-images/medieval-india-mughals-class-11-notes.webp)
 
@@ -151,4 +150,5 @@ In this quick revision and recap, we covered the key aspects of the Mughal Empir
 
 ## MCQs
 
-
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
