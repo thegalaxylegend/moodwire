@@ -983,15 +983,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/units-and-measurements-class-11-revision-notes-jee-neet.png"
     },
     {
-        "id": "upsc-optional-selection-guide-class-11-revision-notes-jee",
-        "title": "Upsc Optional Selection Guide Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
-        "description": "The ultimate Upsc Optional Selection Guide revision resource for Mathematics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
-        "category": "Mathematics",
-        "date": "2026-03-22",
-        "readTime": "15 min read",
-        "image": "/blog-images/laws-of-motion-revision.webp"
-    },
-    {
         "id": "waves-class-11-revision-notes-neet",
         "title": "Waves Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
         "description": "The ultimate Waves revision resource for Biology students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",

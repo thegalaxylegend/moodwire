@@ -216,6 +216,45 @@ async function generateCloudflareImage(subject: string, topic: string, webpPath:
     }
 }
 
+async function generateGroqSVG(subject: string, topic: string, webpPath: string): Promise<boolean> {
+    try {
+        console.log(`🚀 Using Groq to design SVG artwork...`);
+        const system = "You are an expert SVG artist. Output ONLY valid, raw SVG code. No markdown, no commentary.";
+        const user = `Create a stunning, high-definition 1200x630 SVG for "${topic}" (${subject}). 
+        Style: Professional, dark theme (#0a0a1a), neon cyan accents, scientific geometry. 
+        Ensure the SVG starts with <svg and ends with </svg>.`;
+
+        const svg = await callLlmWithFallback(system, user, false);
+        
+        // Cleanup
+        let cleanSvg = svg.replace(/```(?:svg|xml|html)?\s*/gi, "").replace(/```/gi, "").trim();
+        if (cleanSvg.includes("<svg") && !cleanSvg.startsWith("<svg")) {
+            cleanSvg = cleanSvg.substring(cleanSvg.indexOf("<svg"));
+        }
+        const closingIdx = cleanSvg.lastIndexOf("</svg>");
+        if (closingIdx > 0) {
+            cleanSvg = cleanSvg.substring(0, closingIdx + 6);
+        }
+
+        if (!cleanSvg.startsWith("<svg")) throw new Error("Invalid SVG from Groq");
+
+        // Ensure width/height
+        if (!cleanSvg.includes('width=')) {
+            cleanSvg = cleanSvg.replace('<svg', '<svg width="1200" height="630"');
+        }
+
+        const safeSvg = cleanSvg.replace(/&(?![a-zA-Z0-9#]+;)/g, '&amp;');
+        const { default: sharp } = await import('sharp');
+        await sharp(Buffer.from(safeSvg)).resize(1200, 630).webp({ quality: 90 }).toFile(webpPath);
+        
+        console.log(`✅ Groq SVG image saved.`);
+        return true;
+    } catch (err: any) {
+        console.warn(`⚠️ Groq SVG failed: ${err.message}`);
+        return false;
+    }
+}
+
 async function generateGeminiImage(subject: string, topic: string, webpPath: string): Promise<boolean> {
     const key = process.env.GEMINI_BACKUP_KEY || process.env.VITE_GEMINI_API_KEY;
     if (!key) return false;
@@ -311,7 +350,11 @@ async function downloadHeroImage(subject: string, topic: string, slug: string): 
     const cfOk = await generateCloudflareImage(subject, topic, webpPath);
     if (cfOk) return `/blog-images/${slug}.webp`;
 
-    // Priority 2: Gemini SVG
+    // Priority 2: Groq SVG
+    const groqOk = await generateGroqSVG(subject, topic, webpPath);
+    if (groqOk) return `/blog-images/${slug}.webp`;
+
+    // Priority 3: Gemini SVG
     const geminiOk = await generateGeminiImage(subject, topic, webpPath);
     if (geminiOk) return `/blog-images/${slug}.webp`;
 
@@ -521,8 +564,13 @@ async function generateBlogs() {
             console.log(`📡 Multi-Pass Attempt ${attempts}/${maxAttempts} for ${item.topic}...`);
 
             try {
-                // Only generate from scratch on the FIRST attempt (or if "all" needs regen)
-                if (attempts === 1 || !assembled) {
+                // Determine what needs to be generated/regenerated
+                const needsFullRegen = attempts === 1 || !assembled || qualityReport?.regenerate_sections.includes("all");
+                const needsIntro = needsFullRegen || qualityReport?.regenerate_sections.includes("intro");
+                const needsSections = needsFullRegen || qualityReport?.regenerate_sections.includes("sections");
+                const needsMCQs = needsFullRegen || qualityReport?.regenerate_sections.includes("mcqs");
+                
+                if (needsFullRegen || !assembled) {
                     const outline = await generateOutline(item, targetYear);
                     const intro = await generateIntro(item, targetYear, displayClass);
                     
@@ -565,6 +613,44 @@ async function generateBlogs() {
                             quick_recall: extras.recall
                         }
                     };
+                } else {
+                    // Granular Regen (assembled is guaranteed non-null here)
+                    console.log(`🧠 Jules: Starting granular repair to save tokens...`);
+                    const postToRepair = assembled as BlogPostJSON;
+
+                    if (needsIntro) {
+                        console.log(`  📝 Regenerating Intro...`);
+                        postToRepair.content.intro = await generateIntro(item, targetYear, displayClass);
+                    }
+                    
+                    if (needsSections) {
+                        console.log(`  📝 Regenerating All Sections...`);
+                        const outline = await generateOutline(item, targetYear);
+                        postToRepair.content.sections = [];
+                        for (const heading of outline) {
+                            postToRepair.content.sections.push(await generateSection(item, heading, displayClass, targetYear));
+                            await new Promise(r => setTimeout(r, 2000));
+                        }
+                    } else {
+                        // Check for specific section repairs
+                        for (const tag of qualityReport?.regenerate_sections || []) {
+                            if (tag.startsWith("section: ")) {
+                                const headingToFix = tag.replace("section: ", "");
+                                console.log(`  📝 Repairing specific section: ${headingToFix}`);
+                                const index = postToRepair.content.sections.findIndex(s => s.heading === headingToFix);
+                                if (index !== -1) {
+                                    postToRepair.content.sections[index] = await generateSection(item, headingToFix, displayClass, targetYear);
+                                }
+                            }
+                        }
+                    }
+
+                    if (needsMCQs) {
+                        console.log(`  📝 Regenerating MCQs...`);
+                        const extras = await generateExtras(item);
+                        postToRepair.content.mcqs = extras.mcqs;
+                        postToRepair.content.quick_recall = extras.recall;
+                    }
                 }
 
                 // --- QUALITY CHECK GATE ---

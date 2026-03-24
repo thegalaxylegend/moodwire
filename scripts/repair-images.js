@@ -70,6 +70,50 @@ async function generateCloudflareImage(topic, outputPath, subject) {
     }
 }
 
+async function generateGroqSVG(topic, outputPath, subject) {
+    try {
+        console.log(`🚀 Using Groq to design SVG artwork...`);
+        const Groq = (await import('groq-sdk')).default;
+        const GROQ_KEYS = [
+            process.env.VITE_GROQ_API_KEY || process.env.GROQ_API_KEY,
+            process.env.VITE_GROQ_API_KEY_2,
+            process.env.VITE_GROQ_API_KEY_3,
+            process.env.VITE_GROQ_API_KEY_4,
+            process.env.VITE_GROQ_API_KEY_5,
+            process.env.VITE_GROQ_API_KEY_6
+        ].filter(Boolean);
+
+        if (GROQ_KEYS.length === 0) return false;
+
+        const groq = new Groq({ apiKey: GROQ_KEYS[0] });
+        const completion = await groq.chat.completions.create({
+            messages: [
+                { role: "system", content: "You are an expert SVG artist. Output ONLY valid, raw SVG code." },
+                { role: "user", content: `Create a stunning 1200x630 SVG for "${topic}" (${subject}). Dark theme, neon accents.` }
+            ],
+            model: "llama-3.3-70b-versatile",
+        });
+
+        const svg = completion.choices[0]?.message?.content || "";
+        let cleanSvg = svg.replace(/```(?:svg|xml|html)?\s*/gi, "").replace(/```/gi, "").trim();
+        if (cleanSvg.includes("<svg") && !cleanSvg.startsWith("<svg")) {
+            cleanSvg = cleanSvg.substring(cleanSvg.indexOf("<svg"));
+        }
+        const closingIdx = cleanSvg.lastIndexOf("</svg>");
+        if (closingIdx > 0) cleanSvg = cleanSvg.substring(0, closingIdx + 6);
+
+        if (!cleanSvg.startsWith("<svg")) return false;
+
+        const sharp = (await import('sharp')).default;
+        await sharp(Buffer.from(cleanSvg)).resize(1200, 630).webp({ quality: 90 }).toFile(outputPath);
+        console.log(`✅ Groq SVG image saved.`);
+        return true;
+    } catch (err) {
+        console.warn(`⚠️ Groq SVG failed: ${err.message}`);
+        return false;
+    }
+}
+
 async function generateGeminiImage(topic, outputPath, subject) {
     const key = process.env.GEMINI_BACKUP_KEY || process.env.VITE_GEMINI_API_KEY;
     if (!key) return false;
@@ -153,7 +197,10 @@ async function downloadHeroImage(topic, outputFilename, subject) {
     // Priority 1: Cloudflare Workers AI (Jules Flux)
     if (await generateCloudflareImage(topic, outputPath, subject)) return true;
 
-    // Priority 2: Gemini SVG
+    // Priority 2: Groq SVG
+    if (await generateGroqSVG(topic, outputPath, subject)) return true;
+
+    // Priority 3: Gemini SVG
     if (await generateGeminiImage(topic, outputPath, subject)) return true;
 
     // Priority 3: Hugging Face 
