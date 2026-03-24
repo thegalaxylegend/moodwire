@@ -50,7 +50,17 @@ async function generateCloudflareImage(topic, outputPath, subject) {
 
         if (!response.ok) throw new Error(`Cloudflare API error: ${response.status}`);
 
-        const buffer = Buffer.from(await response.arrayBuffer());
+        const contentType = response.headers.get('content-type') || '';
+        let buffer;
+        if (contentType.includes('application/json')) {
+            const json = await response.json();
+            const b64 = json.result?.image;
+            if (!b64) throw new Error('No image in Cloudflare JSON response');
+            buffer = Buffer.from(b64, 'base64');
+            console.log(`📦 Decoded base64 image (${buffer.length} bytes)`);
+        } else {
+            buffer = Buffer.from(await response.arrayBuffer());
+        }
         const sharp = (await import('sharp')).default;
         await sharp(buffer).resize(1200, 630, { fit: 'cover' }).webp({ quality: 85 }).toFile(outputPath);
         return true;

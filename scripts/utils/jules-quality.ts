@@ -148,13 +148,18 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
     const killList = [
         "in conclusion", "delve into", "it is important to note", 
         "world-best", "comprehensive", "ultimate guide", 
-        "embark on your journey", "needless to say", "master this today"
+        "embark on your journey", "needless to say", "master this today",
+        "everything you need", "complete guide", "mastering this",
+        "in today's competitive world", "vibrant", "robust", "unveiling",
+        "embark on a journey", "one of the most important topics",
+        "written with 10+ years experience", "master [topic] today",
+        "comprehensive guide"
     ];
     for (const phrase of killList) {
         if (bodyContent.includes(phrase)) {
             report.score -= 5;
             report.critical_failures.push(`Forbidden phrase found: "${phrase}"`);
-            report.regenerate_sections.push("all");
+            report.regenerate_sections.push("phrases");
         }
     }
 
@@ -178,8 +183,12 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
     
     // MCQ Completeness
     post.content.mcqs.forEach((mcq, i) => {
-        if (!mcq.answer || !mcq.answer_text) {
-            report.critical_failures.push(`MCQ #${i+1} is missing answer or explanation.`);
+        if (!mcq.answer) {
+            report.critical_failures.push(`MCQ #${i+1} is missing a core answer (A/B/C/D).`);
+            report.regenerate_sections.push("mcqs");
+        }
+        if (!mcq.answer_text) {
+            report.critical_failures.push(`MCQ #${i+1} is missing an explanation (answer_text).`);
             report.regenerate_sections.push("mcqs");
         }
     });
@@ -319,9 +328,16 @@ export function jsonToMarkdown(post: BlogPostJSON): string {
         ? `${post.chapter_name} Class ${post.exam_class} ${post.subject} Revision — ${examTag} ${targetYear} Grandmaster Guide`
         : `${post.chapter_name} Class ${post.exam_class} ${post.subject} Recap — CBSE ${targetYear} Quick Guide`;
 
-    const seoDesc = post.exam_class >= 11
-        ? `Comprehensive ${post.chapter_name} revision guide for ${examTag} ${targetYear}. Includes Ayush's personal study hacks, trap questions, and high-yield MCQs for final revision.`
-        : `Learn ${post.chapter_name} for Class ${post.exam_class} CBSE ${targetYear}. Master key concepts with our rapid recap guide, formulas, and NCERT-aligned practice questions.`;
+    const templates = [
+        `Master ${post.chapter_name} for ${post.subject} ${targetYear}. This Grandmaster Guide includes Ayush's personal revision notes, formula sheets, and top-tier MCQs for final prep.`,
+        `Deep dive into ${post.chapter_name} Class ${post.exam_class}. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.`,
+        `The ultimate ${post.chapter_name} revision resource for ${post.subject} students. Focused on ${targetYear} exam patterns with pyq analysis and quick recall tables.`,
+        `Accelerate your ${post.subject} revision with our ${post.chapter_name} guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success.`,
+        `Learn ${post.chapter_name} like a pro. Detailed revision notes, solved examples, and "Trap Questions" that most students miss. Updated for the ${targetYear} syllabus.`
+    ];
+    // Stable hash based on topic
+    const hash = post.chapter_name.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
+    const seoDesc = templates[hash % templates.length];
 
     // CRITICAL: Update the object so YAML uses the new title
     post.title = seoTitle;

@@ -187,12 +187,20 @@ async function generateCloudflareImage(subject: string, topic: string, webpPath:
         if (!response.ok) throw new Error(`Cloudflare API error: ${response.status}`);
 
         const contentType = response.headers.get('content-type') || '';
-        const imageBuffer = Buffer.from(await response.arrayBuffer());
-        
-        // Validate response is actually image data, not a JSON error wrapper
-        if (imageBuffer.length < 1000 || contentType.includes('application/json')) {
-            throw new Error(`Cloudflare returned non-image data (${contentType}, ${imageBuffer.length} bytes)`);
+        let imageBuffer: Buffer;
+
+        if (contentType.includes('application/json')) {
+            // Cloudflare Workers AI returns JSON with base64-encoded image
+            const json: any = await response.json();
+            const b64 = json.result?.image;
+            if (!b64) throw new Error('No image field in Cloudflare JSON response');
+            imageBuffer = Buffer.from(b64, 'base64');
+            console.log(`📦 Decoded base64 image from Cloudflare JSON (${imageBuffer.length} bytes)`);
+        } else {
+            imageBuffer = Buffer.from(await response.arrayBuffer());
         }
+
+        if (imageBuffer.length < 100) throw new Error('Cloudflare image too small');
 
         const { default: sharp } = await import('sharp');
         await sharp(imageBuffer)
@@ -214,11 +222,11 @@ async function generateGeminiImage(subject: string, topic: string, webpPath: str
 
     try {
         console.log(`🚀 Primary APIs down. Asking Gemini to design SVG...`);
-        const prompt = `Generate a beautiful, complex, and modern SVG for a blog cover image. 
-        Topic: ${topic}
-        Subject: ${subject}
-        Style: Dark mode, neon colors, futuristic, scientific diagrams, no text, high detail.
-        Format: Return ONLY the raw SVG code starting with <svg. 1200x630. DO NOT use markdown code blocks.`;
+        const prompt = `You are an SVG generator. Output ONLY valid SVG code. No explanations, no markdown.
+
+Create a 1200x630 SVG image for: "${topic}" (${subject}).
+Style: Dark background (#0a0a1a), neon cyan/purple accents, geometric shapes, scientific aesthetic.
+Start your response with <svg and end with </svg>. Nothing else.`;
 
         const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${key}`, {
             method: 'POST',
