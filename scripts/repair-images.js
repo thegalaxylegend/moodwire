@@ -24,7 +24,7 @@ const SUBJECT_FALLBACKS = {
 // Gemini image generation skipped as it produces poor results and 429 errors 
 
 async function generateCloudflareImage(topic, outputPath, subject) {
-    const accountId = process.env.CLOUDFLARE_ACCOUNT_ID;
+    const accountId = process.env.CLOUDFLARE_ACCOUNT_ID || '73fdf68d86f206ccbbf0ded01b668bd2';
     const apiToken = process.env.CLOUDFLARE_API_TOKEN;
 
     if (!accountId || !apiToken) {

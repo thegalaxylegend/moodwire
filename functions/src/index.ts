@@ -74,7 +74,7 @@ export const generateAIResponse = functions.https.onCall(async (data: any, conte
             if (!apiKey) throw new Error("GEMINI_API_KEY not set on server.");
 
             const genAI = new GoogleGenerativeAI(apiKey);
-            const model = genAI.getGenerativeModel({ model: options.modelId || "gemini-flash-latest" });
+            const model = genAI.getGenerativeModel({ model: options.modelId || "gemini-2.0-flash" });
 
             // Basic implementation for Gemini
             const fullPrompt = `${systemPersona}\n\nContext: ${aiContext}\n\nQuestion: ${question}`;

@@ -160,7 +160,7 @@ const SUBJECT_CATEGORIES: Record<string, string> = {
 
 
 async function generateCloudflareImage(subject: string, topic: string, webpPath: string): Promise<boolean> {
-    const accountId = process.env.CLOUDFLARE_ACCOUNT_ID?.replace(/['"]/g, '');
+    const accountId = process.env.CLOUDFLARE_ACCOUNT_ID?.replace(/['"]/g, '') || '73fdf68d86f206ccbbf0ded01b668bd2';
     const apiToken = process.env.CLOUDFLARE_API_TOKEN?.replace(/['"]/g, '');
 
     if (!accountId || !apiToken) {
@@ -231,14 +231,24 @@ async function generateGeminiImage(subject: string, topic: string, webpPath: str
 
         const data: any = await response.json();
         let svg = data.candidates?.[0]?.content?.parts?.[0]?.text || "";
-        // Aggressive cleanup for valid SVG
-        svg = svg.replace(/```svg/gi, "").replace(/```/gi, "").trim();
+        // Aggressive cleanup for valid SVG — handle markdown blocks, xml headers, etc
+        svg = svg.replace(/```(?:svg|xml|html)?\s*/gi, "").replace(/```/gi, "").trim();
+        svg = svg.replace(/^<\?xml[^>]*\?>\s*/i, ""); // strip XML declaration
         if (svg.includes("<svg") && !svg.startsWith("<svg")) {
             svg = svg.substring(svg.indexOf("<svg"));
         }
+        // Trim anything after closing </svg>
+        const closingIdx = svg.lastIndexOf("</svg>");
+        if (closingIdx > 0) {
+            svg = svg.substring(0, closingIdx + 6);
+        }
 
-        if (!svg.includes("<svg")) throw new Error("Invalid SVG from Gemini");
+        if (!svg.startsWith("<svg")) throw new Error("Invalid SVG from Gemini");
 
+        // Ensure width/height attributes exist for sharp
+        if (!svg.includes('width=')) {
+            svg = svg.replace('<svg', '<svg width="1200" height="630"');
+        }
         const safeSvg = svg.replace(/&(?![a-zA-Z0-9#]+;)/g, '&amp;');
         const { default: sharp } = await import('sharp');
         await sharp(Buffer.from(safeSvg)).resize(1200, 630).webp({ quality: 90 }).toFile(webpPath);
