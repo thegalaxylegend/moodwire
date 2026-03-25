@@ -59,6 +59,9 @@ async function sync() {
     });
 
     // Generate the TypeScript file content
+    // Strip mtime before writing
+    const cleanBlogs = blogs.map(({ mtime, ...rest }) => rest);
+
     const tsContent = `
 export interface Blog {
     id: string;
@@ -70,7 +73,7 @@ export interface Blog {
     image: string;
 }
 
-export const blogs: Blog[] = ${JSON.stringify(blogs, null, 4)};
+export const blogs: Blog[] = ${JSON.stringify(cleanBlogs, null, 4)};
 
 export const CATEGORIES = Array.from(new Set(blogs.map(b => b.category))).sort();
 `;
