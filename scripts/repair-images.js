@@ -121,6 +121,12 @@ async function repairImages() {
     if (!fs.existsSync(IMAGE_DIR)) fs.mkdirSync(IMAGE_DIR, { recursive: true });
     const files = fs.readdirSync(BLOG_DIR).filter(f => f.endsWith('.md'));
     
+    const GENERIC_IMAGES = ['generic-study.webp', 'geography-terrain.webp', 'biology-cell.webp', 
+                            'chemistry-molecule.webp', 'physics-waves.webp', 'maths-equations.webp',
+                            'history-manuscript.webp'];
+    let repairedCount = 0;
+    let skippedCount = 0;
+
     for (const file of files) {
         const fullPath = path.join(BLOG_DIR, file);
         let content = fs.readFileSync(fullPath, 'utf8');
@@ -128,52 +134,71 @@ async function repairImages() {
         const subjectMatch = content.match(/subject:\s*['"]?([^'"\n]+)['"]?/);
         const titleMatch = content.match(/title:\s*['"]?([^'"\n]+)['"]?/);
         
-        const heroImage = heroMatch ? heroMatch[1] : '';
+        const heroImage = heroMatch ? heroMatch[1].trim() : '';
         const subject = subjectMatch ? subjectMatch[1] : 'default';
         const title = titleMatch ? titleMatch[1] : file.replace('.md', '');
 
-        // Check if image exists
-        const imagePath = path.join(__dirname, '../public', heroImage);
-        if (!heroImage || !fs.existsSync(imagePath) || fs.statSync(imagePath).size < 1000) {
-            console.log(`🛠️ Repairing image for: ${title}`);
-            
-            let newImage = null;
-            
-            // 1. Cloudflare
-            const cfBuffer = await generateCloudflareImage(title, subject);
-            if (cfBuffer) newImage = await saveAndOptimise(cfBuffer, title);
-            
-            // 2. Groq SVG
-            if (!newImage) {
-                const groqBuffer = await generateGroqSVG(title, subject);
-                if (groqBuffer) newImage = await saveAndOptimise(groqBuffer, title, true);
-            }
-            
-            // 3. Gemini SVG
-            if (!newImage) {
-                const geminiBuffer = await generateGeminiSVG(title, subject);
-                if (geminiBuffer) newImage = await saveAndOptimise(geminiBuffer, title, true);
-            }
-            
-            // 4. Fallback
-            if (!newImage) {
+        // Check if image exists on disk
+        const imagePath = heroImage ? path.join(__dirname, '../public', heroImage) : '';
+        const imageExists = imagePath && fs.existsSync(imagePath) && fs.statSync(imagePath).size >= 1000;
+        const isGeneric = GENERIC_IMAGES.some(g => heroImage.includes(g));
+
+        // SKIP: Blog already has a valid, non-generic, unique image — DO NOT touch it
+        if (imageExists && !isGeneric) {
+            skippedCount++;
+            continue;
+        }
+
+        // NEEDS REPAIR: Missing heroImage, file not found on disk, or currently uses a generic fallback
+        console.log(`🛠️ Repairing image for: ${title}`);
+        
+        let newImage = null;
+        
+        // 1. Cloudflare
+        const cfBuffer = await generateCloudflareImage(title, subject);
+        if (cfBuffer) newImage = await saveAndOptimise(cfBuffer, title);
+        
+        // 2. Groq SVG
+        if (!newImage) {
+            const groqBuffer = await generateGroqSVG(title, subject);
+            if (groqBuffer) newImage = await saveAndOptimise(groqBuffer, title, true);
+        }
+        
+        // 3. Gemini SVG
+        if (!newImage) {
+            const geminiBuffer = await generateGeminiSVG(title, subject);
+            if (geminiBuffer) newImage = await saveAndOptimise(geminiBuffer, title, true);
+        }
+        
+        // 4. Fallback — ONLY use generic if blog currently has NO image at all
+        if (!newImage) {
+            if (!imageExists) {
+                // Blog truly has no image — use generic as a last resort
                 newImage = `/blog-images/${SUBJECT_FALLBACKS[subject] || SUBJECT_FALLBACKS['default']}`;
             } else {
-                newImage = `/blog-images/${newImage}`;
+                // Blog has a generic image but all APIs failed — keep existing, don't re-overwrite
+                console.log(`⏭️ All APIs unavailable, keeping existing image for: ${title}`);
+                skippedCount++;
+                continue;
             }
+        } else {
+            newImage = `/blog-images/${newImage}`;
+        }
 
-            if (newImage) {
-                if (content.includes('heroImage:')) {
-                    content = content.replace(/heroImage:.*(\n|$)/, `heroImage: "${newImage}"$1`);
-                } else {
-                    // Inject at the top of frontmatter
-                    content = content.replace(/---/, `---\nheroImage: "${newImage}"`);
-                }
-                fs.writeFileSync(fullPath, content);
-                console.log(`✅ Image repaired: ${newImage}`);
+        if (newImage) {
+            if (content.includes('heroImage:')) {
+                content = content.replace(/heroImage:.*(\n|$)/, `heroImage: "${newImage}"$1`);
+            } else {
+                // Inject at the top of frontmatter
+                content = content.replace(/---/, `---\nheroImage: "${newImage}"`);
             }
+            fs.writeFileSync(fullPath, content);
+            repairedCount++;
+            console.log(`✅ Image repaired: ${newImage}`);
         }
     }
+    
+    console.log(`\n📊 Image Repair Summary: ${repairedCount} repaired, ${skippedCount} already valid.`);
 }
 
 repairImages().catch(console.error);

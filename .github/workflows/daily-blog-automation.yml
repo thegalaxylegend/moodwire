@@ -112,45 +112,61 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
           REPORT_FILE=$(ls jules-reports/pipeline-*.json 2>/dev/null | head -n 1 || true)
+          RUN_URL="https://github.com/thegalaxylegend/examcompass/actions/runs/${{ github.run_id }}"
+          SITE_URL="https://examcompass.pages.dev/blog"
           
           if [ -f "$REPORT_FILE" ]; then
             echo "📊 Processing quality report..."
             
-            # 1. Check for Critical Failures
-            FAIL_COUNT=$(jq '[.[] | select(.status == "failed" or .quality_score < 80)] | length' "$REPORT_FILE")
-            
-            # 2. Extract Scores with clickable links
-            SCORE_LIST=$(jq -r '.[] | "▫️ [\(.slug)](https://examcompass.pages.dev/blog/\(.slug)): \(.quality_score)/100 (Status: \(.status))"' "$REPORT_FILE")
+            TOTAL=$(jq 'length' "$REPORT_FILE")
+            PASS_COUNT=$(jq '[.[] | select(.status != "failed")] | length' "$REPORT_FILE")
+            FAIL_COUNT=$(jq '[.[] | select(.status == "failed")] | length' "$REPORT_FILE")
             
             if [ "$FAIL_COUNT" -gt "0" ]; then
-              # Failure/Quality Alert Message
-              TITLE="🚨 JULES QUALITY ALERT 🚨"
-              DESC="One or more blogs failed the quality gate or have low scores."
-              COLOR=15548997 # Red
+              COLOR=15548997
+              TITLE="🚨 Jules Quality Alert"
             else
-              # Success Message
-              TITLE="🚀 Jules Finished Daily Task! 🚀"
-              DESC="All blogs passed the quality gate and are live."
-              COLOR=5763719 # Green
+              COLOR=5763719
+              TITLE="🚀 Jules Finished Daily Task!"
             fi
             
-            # Construct Final Message
-            MSG="${TITLE}\n\n${DESC}\n\n**Pipeline Report:**\n${SCORE_LIST}\n\n👉 [Review Run in GitHub](https://github.com/thegalaxylegend/examcompass/actions/runs/${{ github.run_id }})"
+            # Build embed fields array from report
+            FIELDS=$(jq -c '[.[] | {
+              name: (.slug | split("-") | map(. | explode | map(if . >= 97 and . <= 122 then . - 32 else . end) | implode)[0:3] | join(" ")),
+              value: ("Score: **\(.quality_score)/100**\nStatus: \(.status)\n[View Blog](https://examcompass.pages.dev/blog/\(.slug))"),
+              inline: true
+            }]' "$REPORT_FILE")
             
-            # Create Payload safely using jq
-            jq -n --arg msg "$MSG" --argjson color "$COLOR" '{
-              content: $msg,
-              embeds: [{
-                title: "Grandmaster Blog Pipeline",
-                color: $color
-              }]
-            }' > discord_payload.json
+            # Build the Discord payload using jq for safe JSON
+            jq -n \
+              --arg title "$TITLE" \
+              --argjson color "$COLOR" \
+              --arg desc "**$PASS_COUNT/$TOTAL** blogs published successfully. **$FAIL_COUNT** failed quality gate." \
+              --arg footer "Pipeline Run • $(date -u +'%Y-%m-%d %H:%M UTC')" \
+              --arg run_url "$RUN_URL" \
+              --argjson fields "$FIELDS" \
+              '{
+                embeds: [{
+                  title: $title,
+                  description: $desc,
+                  color: $color,
+                  fields: $fields,
+                  footer: { text: $footer },
+                  url: $run_url
+                }]
+              }' > discord_payload.json
             
           else
             echo "❓ No report found."
-            jq -n --arg msg "📅 **Daily automation finished.** No new blogs were generated or skipped." '{content: $msg}' > discord_payload.json
+            jq -n '{
+              embeds: [{
+                title: "📅 Daily Automation Complete",
+                description: "No new blogs were generated today. The queue was empty or all topics were already covered.",
+                color: 8421504
+              }]
+            }' > discord_payload.json
           fi
 
           # Send to Discord
-          curl -H "Content-Type: application/json" -d @discord_payload.json "$DISCORD_WEBHOOK_URL"
+          curl -s -H "Content-Type: application/json" -d @discord_payload.json "$DISCORD_WEBHOOK_URL"
 

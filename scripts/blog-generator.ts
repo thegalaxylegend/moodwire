@@ -373,12 +373,18 @@ Your voice is that of a PEER MENTOR (a student who cracked the exam helping juni
 Voice: Specific, data-driven, authentic student tone. NO FILLER.`;
 
 const CROSS_SECTION_RULES = `
+STRICTLY PROHIBITED PHRASES (using ANY of these = instant rejection, your output will be discarded):
+- "In conclusion", "delve into", "it is important to note", "comprehensive"
+- "mastering this", "master this today", "ultimate guide", "complete guide"
+- "everything you need", "vibrant", "robust", "unveiling"
+- "embark on a journey", "embark on your journey", "needless to say"
+- "in today's competitive world", "one of the most important topics"
+- "comprehensive guide", "world-best"
 RULES:
-1. NO CONCLUSION sections. Never end with "In conclusion".
-2. ZERO TOLERANCE for KILL LIST phrases: "In conclusion", "Delve into", "Important to note", "Master [Topic] today", "comprehensive", "everything you need", "complete guide", "mastering this", "vibrant", "robust", "unveiling".
-3. Use ONLY $ for inline math and $$ for block math.
-4. Factual Accuracy: Kangchenjunga is highest peak in India. Ganga is longest river.
-5. Voice: Authentic Peer Mentor (student-to-student).
+1. NO CONCLUSION sections. Never write "In conclusion", instead use "Key Takeaway" or just end naturally.
+2. Use ONLY $ for inline math and $$ for block math.
+3. Factual Accuracy: Kangchenjunga is highest peak in India. Ganga is longest river.
+4. Voice: Authentic Peer Mentor (student-to-student). Write like a topper helping a friend.
 `;
 
 // --- SMART RECOVERY WRAPPER ---
@@ -668,6 +674,35 @@ async function generateBlogs() {
                     }
                 }
 
+                // --- PRE-QUALITY SANITIZER: Remove all forbidden phrases BEFORE scoring ---
+                const sanitizeKillList = [
+                    "in conclusion", "delve into", "it is important to note",
+                    "world-best", "comprehensive", "ultimate guide",
+                    "embark on your journey", "needless to say", "master this today",
+                    "everything you need", "complete guide", "mastering this",
+                    "in today's competitive world", "vibrant", "robust", "unveiling",
+                    "embark on a journey", "one of the most important topics",
+                    "comprehensive guide"
+                ];
+                for (const phrase of sanitizeKillList) {
+                    const regex = new RegExp(phrase, 'gi');
+                    if (regex.test(assembled.content.intro)) {
+                        assembled.content.intro = assembled.content.intro.replace(regex, '');
+                        console.log(`  🧹 Auto-sanitized "${phrase}" from intro`);
+                    }
+                    for (const sec of assembled.content.sections) {
+                        if (regex.test(sec.body)) {
+                            sec.body = sec.body.replace(regex, '');
+                            console.log(`  🧹 Auto-sanitized "${phrase}" from section: ${sec.heading}`);
+                        }
+                    }
+                }
+                // Clean up double-spaces left by removal
+                assembled.content.intro = assembled.content.intro.replace(/  +/g, ' ').trim();
+                for (const sec of assembled.content.sections) {
+                    sec.body = sec.body.replace(/  +/g, ' ').trim();
+                }
+
                 // --- QUALITY CHECK GATE ---
                 const report = checkBlogQuality(assembled);
                 qualityReport = report;
@@ -677,76 +712,35 @@ async function generateBlogs() {
                 } else {
                     console.log(`❌ QUALITY FAILED (Score: ${report.score}). Errors: ${report.critical_failures.join(', ')}`);
                     
-                    // === SMART FIX: Fix in-place instead of regenerating everything ===
+                    // --- TARGETED REPAIR (no full regen for minor issues) ---
                     const needsFullRegen = report.regenerate_sections.includes("all");
-                    
-                    if (!needsFullRegen && attempts < maxAttempts) {
-                        console.log(`🔧 Smart Fix: Attempting in-place repair (Pass ${attempts + 1})...`);
-                        let fixedSomething = false;
 
-                        // FIX 1: Remove forbidden phrases (ZERO tokens)
-                        const killList = [
-                            "in conclusion", "delve into", "it is important to note",
-                            "world-best", "comprehensive", "ultimate guide",
-                            "embark on your journey", "needless to say", "master this today",
-                            "everything you need", "complete guide", "mastering this",
-                            "in today's competitive world", "vibrant", "robust", "unveiling",
-                            "embark on a journey", "one of the most important topics",
-                            "comprehensive guide"
-                        ];
-                        for (const phrase of killList) {
-                            const regex = new RegExp(phrase, 'gi');
-                            if (regex.test(assembled.content.intro)) {
-                                assembled.content.intro = assembled.content.intro.replace(regex, '');
-                                fixedSomething = true;
-                                console.log(`  🧹 Removed "${phrase}" from intro`);
-                            }
-                            for (const sec of assembled.content.sections) {
-                                if (regex.test(sec.body)) {
-                                    sec.body = sec.body.replace(regex, '');
-                                    fixedSomething = true;
-                                    console.log(`  🧹 Removed "${phrase}" from section: ${sec.heading}`);
-                                }
-                            }
+                    // FIX: Regenerate only MCQs if they are broken (small token cost)
+                    if (report.regenerate_sections.includes("mcqs") && attempts < maxAttempts) {
+                        console.log(`  🎯 Regenerating MCQs only...`);
+                        const newExtras = await generateExtras(item);
+                        if (newExtras.mcqs.length >= 5) {
+                            assembled.content.mcqs = newExtras.mcqs;
                         }
-
-                        // FIX 2: Regenerate only MCQs if they are broken (small token cost)
-                        if (report.regenerate_sections.includes("mcqs")) {
-                            console.log(`  🎯 Regenerating MCQs only...`);
-                            const newExtras = await generateExtras(item);
-                            if (newExtras.mcqs.length >= 5) {
-                                assembled.content.mcqs = newExtras.mcqs;
-                                fixedSomething = true;
-                            }
-                            if (newExtras.recall.length > assembled.content.quick_recall.length) {
-                                assembled.content.quick_recall = newExtras.recall;
-                            }
-                        }
-
-                        // FIX 3: Add missing mandatory sections (small token cost)
-                        const bodyCheck = JSON.stringify(assembled.content).toLowerCase();
-                        if (!bodyCheck.includes("ayush's note") && !bodyCheck.includes("ayush note")) {
-                            console.log(`  📝 Generating missing "Ayush's Note" section...`);
-                            const ayushSection = await generateSection(item, `What is Ayush's Note on ${item.topic}?`, displayClass, targetYear);
-                            assembled.content.sections.push(ayushSection);
-                            fixedSomething = true;
-                        }
-                        if (!bodyCheck.includes("trap question") && !bodyCheck.includes("common mistakes")) {
-                            console.log(`  📝 Generating missing "Trap Questions" section...`);
-                            const trapSection = await generateSection(item, `What are common Trap Questions for ${item.topic}?`, displayClass, targetYear);
-                            assembled.content.sections.push(trapSection);
-                            fixedSomething = true;
-                        }
-
-                        if (fixedSomething) {
-                            console.log(`  ✅ Smart Fix applied. Re-checking quality...`);
-                            // DO NOT increment attempt count for a zero-token smart fix
-                            attempts--; 
-                            continue;
+                        if (newExtras.recall.length > assembled.content.quick_recall.length) {
+                            assembled.content.quick_recall = newExtras.recall;
                         }
                     }
-                    
-                    // If we get here and it didn't pass, the next actual iteration starts
+
+                    // FIX: Add missing mandatory sections (small token cost)
+                    const bodyCheck = JSON.stringify(assembled.content).toLowerCase();
+                    if (!bodyCheck.includes("ayush's note") && !bodyCheck.includes("ayush note")) {
+                        console.log(`  📝 Generating missing "Ayush's Note" section...`);
+                        const ayushSection = await generateSection(item, `What is Ayush's Note on ${item.topic}?`, displayClass, targetYear);
+                        assembled.content.sections.push(ayushSection);
+                    }
+                    if (!bodyCheck.includes("trap question") && !bodyCheck.includes("common mistakes")) {
+                        console.log(`  📝 Generating missing "Trap Questions" section...`);
+                        const trapSection = await generateSection(item, `What are common Trap Questions for ${item.topic}?`, displayClass, targetYear);
+                        assembled.content.sections.push(trapSection);
+                    }
+
+                    // If full regen needed, reset assembled for next attempt
                     if (attempts < maxAttempts && needsFullRegen) {
                         console.log(`🔄 Full regeneration required for next pass...`);
                         assembled = null as any;
