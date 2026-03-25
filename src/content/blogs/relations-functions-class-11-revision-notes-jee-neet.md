@@ -168,3 +168,6 @@ Functions are the heartbeat of Calculus and higher mathematics. By distinguishin
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

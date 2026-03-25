@@ -61,3 +61,6 @@ Measuring poverty involves calculating the poverty line, which is the minimum in
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

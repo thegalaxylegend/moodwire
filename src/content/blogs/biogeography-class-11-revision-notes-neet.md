@@ -166,3 +166,6 @@ As I complete my review of biogeography, I am reminded of the importance of this
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

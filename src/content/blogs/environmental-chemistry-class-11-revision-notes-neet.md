@@ -182,3 +182,6 @@ Environmental chemistry is [the study of the chemical and biochemical phenomena 
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

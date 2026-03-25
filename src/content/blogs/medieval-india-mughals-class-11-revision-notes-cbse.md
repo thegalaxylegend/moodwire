@@ -152,3 +152,6 @@ In this quick revision and recap, we covered the key aspects of the Mughal Empir
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

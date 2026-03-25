@@ -259,3 +259,6 @@ Waves are the signature of the universe's energy. By mastering the mathematical 
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
