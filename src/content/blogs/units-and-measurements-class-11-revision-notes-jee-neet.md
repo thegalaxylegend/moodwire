@@ -4,6 +4,8 @@ title: "Units And Measurements Class 11 Physics Revision — JEE & NEET 2026 Gra
 description: "Master Units And Measurements for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"
 keywords: "units and measurements class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
+
+date: "2026-03-22"
 ---
 # Units And Measurements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
@@ -188,31 +190,3 @@ Units and Measurements are not just "entry-level" topics; they are the filter th
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
-
-
-## Quick Recall Box
-
-
-
-## MCQs
-
----
-<<<<<<< HEAD
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-=======
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
->>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada

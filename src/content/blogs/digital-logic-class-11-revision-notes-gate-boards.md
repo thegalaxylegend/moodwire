@@ -4,6 +4,8 @@ description: "Accelerate your Computer Science revision with our Digital Logic g
 category: "Computer Science"
 keywords: "digital logic class 11 revision notes gate boards, Exam Compass, Computer Science, Exam Compass"
 heroImage: "/blog-images/digital-logic-class-11-revision-notes-gate-boards.webp"
+
+date: "2026-03-22"
 ---
 # Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide
 

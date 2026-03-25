@@ -4,6 +4,8 @@ title: "The P Block Elements 11 Class 11 Physics Revision — JEE & NEET 2026 Gr
 description: "Master The P Block Elements 11 for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"
 keywords: "the p block elements 11 class 11 revision notes jee neet, Physics, Exam Compass"
+
+date: "2026-03-22"
 ---
 # The P Block Elements 11 Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
@@ -161,31 +163,3 @@ Note: The word count for this post is 2476 words, which meets the minimum word c
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
-
-
-## Quick Recall Box
-
-
-
-## MCQs
-
----
-<<<<<<< HEAD
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-=======
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
->>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada

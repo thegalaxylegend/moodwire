@@ -4,6 +4,8 @@ title: "Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Gu
 description: "The ultimate Ancient India Indus Valley revision resource for History students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "History"
 keywords: "ancient india indus valley class 11 revision notes cbse, Exam Compass, History, Exam Compass"
+
+date: "2026-03-22"
 ---
 # Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide
 
@@ -142,61 +144,3 @@ The Indus Valley Civilization has had a lasting impact on the cultural heritage 
 
 ## ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
-
-
-## Quick Recall Box
-
-
-
-## MCQs
-
-
-**1. The Indus Valley Civilisation is dated back to approximately how many years?**
-4300-1300 CE
-4300-1300 BCE
-1400-4300 BCE
-1400-4300 CE
-
-**Answer:** B) 4300-1300 BCE
-
-
-**2. Which of the following cities was among the main cities of the Indus Valley Civilisation**
-Agra
-Ajmer
-Amritsar
-Mohenjo-Daro
-
-**Answer:** C) Amritsar
-
-
-**3. What was a characteristic feature of the Indus Valley people in terms of tools and crafts?**
-They used only wood and stone for tools and crafts
-They used only metals for tools and crafts
-They used a combination of wood, stone, and metals for tools and crafts
-Their writing system has not yet been deciphered
-
-**Answer:** B) They used only metals for tools and crafts
-
----
-<<<<<<< HEAD
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-=======
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
->>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada

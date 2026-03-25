@@ -1,9 +1,11 @@
 ---
-heroImage: "/blog-images/upsc-optional-selection-guide.webp"
+heroImage: "/blog-images/upsc-optional-selection-guide-class-11-mathematics-revision-jee-2026-grandmaster-guide-1774408714505.webp"
 title: "Upsc Optional Selection Guide Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
 description: "The ultimate Upsc Optional Selection Guide revision resource for Mathematics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Mathematics"
 keywords: "upsc optional selection guide class 11 revision notes jee, Mathematics, Exam Compass"
+
+date: "2026-03-25"
 ---
 # Upsc Optional Selection Guide Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
 
@@ -97,31 +99,3 @@ During the first four months of preparation, dedicate 60–70% of your daily stu
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
-
-
-## Quick Recall Box
-
-
-
-## MCQs
-
----
-<<<<<<< HEAD
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-=======
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
->>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada

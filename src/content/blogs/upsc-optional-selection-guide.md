@@ -4,6 +4,8 @@ title: "Pick the Best UPSC Optional Subject 2026 Guide"
 description: "Master the UPSC optional subject selection for 2026. Use our success rate analysis, syllabus overlap data, and scoring trends to pick the best optional now!"
 category: "Chemistry"
 keywords: "upsc optional selection guide, Exam Compass, General, Exam Compass, Chemistry, Exam Compass"
+
+date: "2026-03-25"
 ---
 # Pick the Best UPSC Optional Subject 2026 Guide
 
@@ -73,13 +75,3 @@ During the first four months of preparation, dedicate 60–70% of your daily stu
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-<<<<<<< HEAD
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-=======
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
->>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada

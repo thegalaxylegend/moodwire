@@ -1,9 +1,11 @@
 ---
-heroImage: "/blog-images/class-10-30-day-timetable.webp"
+heroImage: "/blog-images/class-10-30-day-timetable-class-10-mathematics-recap-cbse-2026-quick-guide-1774408565648.webp"
 title: "Class 10 30 Day Timetable Class 10 Mathematics Recap — CBSE 2026 Quick Guide"
 description: "Master Class 10 30 Day Timetable for Mathematics 2026. This Grandmaster Guide includes Ayush"
 category: "Mathematics"
 keywords: "class 10 30 day timetable class 10 revision notes jee, Mathematics, Exam Compass"
+
+date: "2026-03-22"
 ---
 # Class 10 30 Day Timetable Class 10 Mathematics Recap — CBSE 2026 Quick Guide
 
@@ -103,31 +105,3 @@ Focus on the "Safe Zone" chapters like Statistics and Probability first. These c
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
-
-
-## Quick Recall Box
-
-
-
-## MCQs
-
----
-<<<<<<< HEAD
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-=======
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
->>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada

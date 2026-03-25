@@ -4,6 +4,8 @@ title: "Oceanography Class 11 Physics Revision — JEE & NEET 2026 Grandmaster G
 description: "Master Oceanography for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"
 keywords: "oceanography class 11 revision notes jee neet, Exam Compass, Exam Compass, Physics, Exam Compass"
+
+date: "2026-03-22"
 ---
 # Oceanography Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
@@ -163,39 +165,3 @@ By confirming your understanding of these essential areas, you'll be confident i
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
-| **Formula** | **Description** |
-| --- | --- |
-| $\rho = \frac{m}{V}$ | Density of seawater |
-| $S = \frac{\text{mass of dissolved salts}}{\text{mass of seawater}} \times 1000$ | Salinity of seawater |
-| $T = \frac{1}{2} \times \rho \times v^2$ | Kinetic energy of ocean currents |
-
-
-## Quick Recall Box
-
-
-
-## MCQs
-
----
-<<<<<<< HEAD
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-=======
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
->>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada

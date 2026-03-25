@@ -4,6 +4,8 @@ title: "Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
 description: "The ultimate Probability revision resource for Mathematics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Mathematics"
 keywords: "probability class 11 revision notes jee, Mathematics, Exam Compass"
+
+date: "2026-03-22"
 ---
 # Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
 
@@ -146,31 +148,3 @@ Probability teaches us to look at the world through the lens of logic rather tha
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
-
-
-## Quick Recall Box
-
-
-
-## MCQs
-
----
-<<<<<<< HEAD
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-=======
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
->>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada

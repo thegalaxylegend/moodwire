@@ -4,6 +4,8 @@ description: "Deep dive into Algorithms: Analysis Class 11. Quick revision notes
 category: "Computer Science"
 keywords: "algorithms analysis class 11 revision notes gate boards, Exam Compass, Computer Science, Exam Compass"
 heroImage: "/blog-images/algorithms-analysis-class-11-revision-notes-gate-boards.webp"
+
+date: "2026-03-22"
 ---
 # Algorithms: Analysis Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide
 

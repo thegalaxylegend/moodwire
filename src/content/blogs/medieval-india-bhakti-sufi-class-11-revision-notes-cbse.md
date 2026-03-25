@@ -4,6 +4,8 @@ title: "Medieval India Bhakti Sufi Class 11 History Recap — CBSE 2026 Quick Gu
 description: "Learn Medieval India Bhakti Sufi like a pro. Detailed revision notes, solved examples, and "
 category: "History"
 keywords: "medieval india bhakti sufi class 11 revision notes cbse, History, Exam Compass"
+
+date: "2026-03-22"
 ---
 # Medieval India Bhakti Sufi Class 11 History Recap — CBSE 2026 Quick Guide
 
@@ -98,34 +100,3 @@ By following these tips and staying committed to your studies, you'll be well on
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
-
-
-## Quick Recall Box
-
-
-
-## MCQs
-
----
-<<<<<<< HEAD
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-=======
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
->>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada

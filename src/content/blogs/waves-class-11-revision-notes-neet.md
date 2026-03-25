@@ -4,6 +4,8 @@ title: "Waves Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "The ultimate Waves revision resource for Biology students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Biology"
 keywords: "waves class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
+
+date: "2026-03-25"
 ---
 # Waves Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
@@ -238,31 +240,3 @@ Waves are the signature of the universe's energy. By mastering the mathematical 
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
-
-
-## Quick Recall Box
-
-
-
-## MCQs
-
----
-<<<<<<< HEAD
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-=======
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
->>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada

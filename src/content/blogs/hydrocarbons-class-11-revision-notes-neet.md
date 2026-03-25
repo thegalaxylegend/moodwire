@@ -4,6 +4,8 @@ title: "Hydrocarbons Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Deep dive into Hydrocarbons Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Biology"
 keywords: "hydrocarbons class 11 revision notes neet, Exam Compass, Exam Compass, Biology, Exam Compass"
+
+date: "2026-03-22"
 ---
 # Hydrocarbons Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
@@ -147,31 +149,3 @@ Answer: c) Ethyne
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
-
-
-## Quick Recall Box
-
-
-
-## MCQs
-
----
-<<<<<<< HEAD
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-=======
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
->>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada

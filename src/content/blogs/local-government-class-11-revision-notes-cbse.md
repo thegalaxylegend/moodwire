@@ -1,9 +1,11 @@
 ---
-heroImage: "/blog-images/local-government-class-11-notes.webp"
+heroImage: "/blog-images/local-government-class-11-social-science-recap-cbse-2026-quick-guide-1774408622219.webp"
 title: "Local Government Class 11 Social Science Recap — CBSE 2026 Quick Guide"
 description: "Accelerate your Social Science revision with our Local Government guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Social Science"
 keywords: "local government class 11 revision notes cbse, Exam Compass, Social Science, Exam Compass"
+
+date: "2026-03-22"
 ---
 # Local Government Class 11 Social Science Recap — CBSE 2026 Quick Guide
 
@@ -57,11 +59,5 @@ Local Government functions through a system of elected representatives and offic
 ## MCQs
 
 ---
-<<<<<<< HEAD
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-=======
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
----
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
->>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada

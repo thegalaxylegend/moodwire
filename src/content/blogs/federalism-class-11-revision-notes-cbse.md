@@ -1,9 +1,11 @@
 ---
-heroImage: "/blog-images/federalism-class-11-notes.webp"
+heroImage: "/blog-images/federalism-class-11-social-science-recap-cbse-2026-quick-guide-1774408595848.webp"
 title: "Federalism Class 11 Social Science Recap — CBSE 2026 Quick Guide"
 description: "Learn Federalism like a pro. Detailed revision notes, solved examples, and "
 category: "Social Science"
 keywords: "federalism class 11 revision notes cbse, Exam Compass, Social Science, Exam Compass"
+
+date: "2026-03-22"
 ---
 # Federalism Class 11 Social Science Recap — CBSE 2026 Quick Guide
 
@@ -84,24 +86,3 @@ As I prepare for the Class 11 exam in 2026, I need to focus on the key concepts 
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
-
-
-## Quick Recall Box
-
-- Federalism is based on the principle of **division of powers** between the central government and the state governments.
-- The Indian Constitution provides for a **federal system** with a strong center and weaker states.
-- The **Seventh Schedule** of the Constitution divides powers between the center and the states.
-
-## MCQs
-
----
-<<<<<<< HEAD
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-=======
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
->>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada

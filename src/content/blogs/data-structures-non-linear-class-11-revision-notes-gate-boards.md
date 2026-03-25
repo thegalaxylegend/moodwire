@@ -4,6 +4,8 @@ description: "Learn Data Structures: Non-Linear like a pro. Detailed revision no
 category: "Computer Science"
 keywords: "data structures non linear class 11 revision notes gate boards, Exam Compass, Computer Science, Exam Compass"
 heroImage: "/blog-images/data-structures-non-linear-class-11-revision-notes-gate-boards.webp"
+
+date: "2026-03-22"
 ---
 # Data Structures: Non-Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide
 

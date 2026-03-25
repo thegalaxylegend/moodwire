@@ -4,6 +4,8 @@ title: "World History Industrial Revolution Class 11 History Recap — CBSE 2026
 description: "Deep dive into World History Industrial Revolution Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "History"
 keywords: "world history industrial revolution class 11 revision notes jee neet, Exam Compass, History, Exam Compass"
+
+date: "2026-03-25"
 ---
 # World History Industrial Revolution Class 11 History Recap — CBSE 2026 Quick Guide
 
@@ -566,34 +568,3 @@ I, Ayush, have these final reflections and thoughts on the Industrial Revolution
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
-
-
-## Quick Recall Box
-
-
-
-## MCQs
-
----
-<<<<<<< HEAD
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-=======
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
->>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada

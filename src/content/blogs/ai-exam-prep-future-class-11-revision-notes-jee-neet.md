@@ -4,6 +4,8 @@ title: "Ai Exam Prep Future Class 11 Computer Science Recap — CBSE 2026 Quick 
 description: "Master Ai Exam Prep Future for Computer Science 2026. This Grandmaster Guide includes Ayush"
 category: "Computer Science"
 keywords: "ai exam prep future class 11 revision notes jee neet, Exam Compass, Computer Science, Exam Compass"
+
+date: "2026-03-22"
 ---
 # Ai Exam Prep Future Class 11 Computer Science Recap — CBSE 2026 Quick Guide
 
@@ -114,11 +116,5 @@ keywords: "ai exam prep future class 11 revision notes jee neet, Exam Compass, C
 **Answer:** 10 J) undefined
 
 ---
-<<<<<<< HEAD
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-=======
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
----
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
->>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada

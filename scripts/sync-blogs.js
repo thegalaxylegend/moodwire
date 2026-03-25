@@ -37,19 +37,26 @@ async function sync() {
         const heroMatch = content.match(/^heroImage:\s*["'](.*?)["']/m) || content.match(/^hero_image:\s*["'](.*?)["']/m);
         const inlineImgMatch = content.match(/\!\[.*?\]\((.*?)\)/);
 
+        const stats = fs.statSync(filePath);
+
         blogs.push({
             id: slug,
             title: titleMatch ? titleMatch[1] : slug.replace(/-/g, ' '),
             description: descMatch ? descMatch[1] : 'Deep revision guide for class ' + (slug.match(/class-(\d+)/)?.[1] || '11') + ' students.',
             category: catMatch ? catMatch[1] : 'General',
-            date: dateMatch ? dateMatch[1] : '2026-03-22',
+            date: dateMatch ? dateMatch[1] : stats.mtime.toISOString().split('T')[0],
             readTime: '15 min read',
-            image: heroMatch ? heroMatch[1] : (inlineImgMatch ? inlineImgMatch[1] : '/blog-images/fallbacks/generic-study.webp')
+            image: heroMatch ? heroMatch[1] : (inlineImgMatch ? inlineImgMatch[1] : '/blog-images/fallbacks/generic-study.webp'),
+            mtime: stats.mtimeMs // Add mtime for sorting
         });
     }
 
-    // Sort by date (newest first)
-    blogs.sort((a, b) => new Date(b.date) - new Date(a.date));
+    // Sort by date (newest first) and then by mtime (newest first)
+    blogs.sort((a, b) => {
+        const dateDiff = new Date(b.date) - new Date(a.date);
+        if (dateDiff !== 0) return dateDiff;
+        return b.mtime - a.mtime; // Tie-breaker: most recently modified file
+    });
 
     // Generate the TypeScript file content
     const tsContent = `

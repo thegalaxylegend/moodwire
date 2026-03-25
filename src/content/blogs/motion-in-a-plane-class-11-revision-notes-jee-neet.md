@@ -4,6 +4,8 @@ title: "Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmas
 description: "The ultimate Motion In A Plane revision resource for Physics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Physics"
 keywords: "motion in a plane class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
+
+date: "2026-03-22"
 ---
 # Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
@@ -170,31 +172,3 @@ Motion in a Plane is the first time we truly see the vector nature of the univer
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
-
-
-## Quick Recall Box
-
-
-
-## MCQs
-
----
-<<<<<<< HEAD
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-=======
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
->>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada

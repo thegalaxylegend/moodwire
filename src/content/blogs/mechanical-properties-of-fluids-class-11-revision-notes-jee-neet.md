@@ -1,9 +1,11 @@
 ---
-heroImage: "/blog-images/mechanical-properties-of-fluids-revision-notes.webp"
+heroImage: "/blog-images/mechanical-properties-of-fluids-class-11-physics-revision-jee-neet-2026-grandmaster-guide-1774408628165.webp"
 title: "Mechanical Properties Of Fluids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Master Mechanical Properties Of Fluids for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"
 keywords: "mechanical properties of fluids class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
+
+date: "2026-03-22"
 ---
 # Mechanical Properties Of Fluids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
@@ -163,31 +165,3 @@ The physics of fluids is the physics of flow—from the blood in our veins to th
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
-
-
-## Quick Recall Box
-
-
-
-## MCQs
-
----
-<<<<<<< HEAD
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-=======
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
->>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada

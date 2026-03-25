@@ -4,6 +4,8 @@ title: "The Living World Class 11 Biology Revision — NEET 2026 Grandmaster Gui
 description: "Learn The Living World like a pro. Detailed revision notes, solved examples, and "
 category: "Biology"
 keywords: "the living world class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
+
+date: "2026-03-22"
 ---
 # The Living World Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
@@ -185,31 +187,3 @@ Last Updated: March 15, 2026
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
-
-
-## Quick Recall Box
-
-
-
-## MCQs
-
----
-<<<<<<< HEAD
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-=======
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
->>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada

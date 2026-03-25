@@ -4,6 +4,8 @@ description: "The ultimate Algorithms: Design revision resource for Computer Sci
 category: "Computer Science"
 keywords: "algorithms design class 11 revision notes gate boards, Exam Compass, Computer Science, Exam Compass"
 heroImage: "/blog-images/algorithms-design-class-11-revision-notes-gate-boards.webp"
+
+date: "2026-03-22"
 ---
 # Algorithms: Design Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide
 

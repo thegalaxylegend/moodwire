@@ -4,6 +4,8 @@ title: "Sequences Series Class 11 Mathematics Revision — JEE 2026 Grandmaster 
 description: "Master Sequences Series for Mathematics 2026. This Grandmaster Guide includes Ayush"
 category: "Mathematics"
 keywords: "sequences series class 11 revision notes jee, Mathematics, Exam Compass"
+
+date: "2026-03-22"
 ---
 # Sequences Series Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
 
@@ -155,31 +157,3 @@ Sequences and Series are not just lists of numbers; they are the language of gro
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
-
-
-## Quick Recall Box
-
-
-
-## MCQs
-
----
-<<<<<<< HEAD
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-=======
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
->>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada

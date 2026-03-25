@@ -4,6 +4,8 @@ title: "Medieval India Delhi Sultanate Class 11 History Recap — CBSE 2026 Quic
 description: "Accelerate your History revision with our Medieval India Delhi Sultanate guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "History"
 keywords: "medieval india delhi sultanate class 11 revision notes cbse, History, Exam Compass"
+
+date: "2026-03-22"
 ---
 # Medieval India Delhi Sultanate Class 11 History Recap — CBSE 2026 Quick Guide
 
@@ -115,36 +117,3 @@ By understanding the historical context of the Delhi Sultanate, we can gain a de
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
-
-## Quick Recall Box
-
-
-
-## MCQs
-
----
-<<<<<<< HEAD
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-=======
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
->>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada

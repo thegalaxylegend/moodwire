@@ -1,9 +1,11 @@
 ---
-heroImage: "/blog-images/fundamental-rights-class-11-notes.webp"
+heroImage: "/blog-images/fundamental-rights-class-11-social-science-recap-cbse-2026-quick-guide-1774408597151.webp"
 title: "Fundamental Rights Class 11 Social Science Recap — CBSE 2026 Quick Guide"
 description: "Deep dive into Fundamental Rights Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Social Science"
 keywords: "fundamental rights class 11 revision notes cbse, Exam Compass, Social Science, Exam Compass"
+
+date: "2026-03-22"
 ---
 # Fundamental Rights Class 11 Social Science Recap — CBSE 2026 Quick Guide
 
@@ -96,22 +98,3 @@ To quickly revise and recap the key points related to Fundamental Rights, I've b
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
-
-
-## Quick Recall Box
-
-
-
-## MCQs
-
----
-<<<<<<< HEAD
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-=======
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
->>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada

@@ -4,6 +4,8 @@ title: "Biological Classification Class 11 Biology Revision — NEET 2026 Grandm
 description: "Deep dive into Biological Classification Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Biology"
 keywords: "biological classification class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
+
+date: "2026-03-22"
 ---
 # Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
@@ -180,49 +182,3 @@ Last Updated: March 15, 2026
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
-
-
-## Quick Recall Box
-
-
-
-## MCQs
-
-
-**1. Which of the following scientists is credited with inventing the modern system of classification?**
-
-
-**Answer:** A) Carolus Linnaeus
-
-
-**2. What is the term for the process of grouping organisms based on their evolutionary history?**
-
-
-**Answer:** A) Phylogeny
-
-
-**3. Which of the following is a characteristic of the kingdom Monera?**
-
-
-**Answer:** D) Absence of mitochondria
-
----
-<<<<<<< HEAD
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-=======
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
->>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada

@@ -4,6 +4,8 @@ title: "Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick G
 description: "Master Ancient India Mahajanapadas for History 2026. This Grandmaster Guide includes Ayush"
 category: "History"
 keywords: "ancient india mahajanapadas class 11 revision notes jee, Exam Compass, History, Exam Compass"
+
+date: "2026-03-22"
 ---
 # Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide
 
@@ -98,37 +100,3 @@ Understanding these aspects of the Mahajanapadas provides a comprehensive view o
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
-
-
-## Quick Recall Box
-
-
-
-## MCQs
-
----
-<<<<<<< HEAD
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-=======
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
->>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada

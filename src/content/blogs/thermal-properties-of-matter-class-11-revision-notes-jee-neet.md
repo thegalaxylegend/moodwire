@@ -1,9 +1,11 @@
 ---
-heroImage: "/blog-images/thermal-properties-of-matter-revision-notes.webp"
+heroImage: "/blog-images/thermal-properties-of-matter-class-11-physics-revision-jee-neet-2026-grandmaster-guide-1774408703966.webp"
 title: "Thermal Properties Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Deep dive into Thermal Properties Of Matter Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Physics"
 keywords: "thermal properties of matter class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
+
+date: "2026-03-22"
 ---
 # Thermal Properties Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
@@ -164,31 +166,3 @@ Thermal properties define the limits of sustainability and efficiency in our wor
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
-
-
-## Quick Recall Box
-
-
-
-## MCQs
-
----
-<<<<<<< HEAD
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-=======
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
->>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada

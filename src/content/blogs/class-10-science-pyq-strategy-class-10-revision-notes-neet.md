@@ -1,9 +1,11 @@
 ---
-heroImage: "/blog-images/class-10-science-pyq-strategy.webp"
+heroImage: "/blog-images/class-10-science-pyq-strategy-class-10-biology-recap-cbse-2026-quick-guide-1774408568041.webp"
 title: "Class 10 Science Pyq Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide"
 description: "Deep dive into Class 10 Science Pyq Strategy Class 10. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Biology"
 keywords: "class 10 science pyq strategy class 10 revision notes neet, Exam Compass, Exam Compass, Biology, Exam Compass"
+
+date: "2026-03-22"
 ---
 # Class 10 Science Pyq Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide
 
@@ -103,31 +105,3 @@ Focus on the last 5–10 years. However, prioritize the most recent 5 years, as 
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
-
-
-## Quick Recall Box
-
-
-
-## MCQs
-
----
-<<<<<<< HEAD
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-=======
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
->>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada

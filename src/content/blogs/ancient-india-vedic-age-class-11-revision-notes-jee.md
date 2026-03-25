@@ -4,6 +4,8 @@ title: "Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide
 description: "Deep dive into Ancient India Vedic Age Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "History"
 keywords: "ancient india vedic age class 11 revision notes jee, Exam Compass, History, Exam Compass"
+
+date: "2026-03-22"
 ---
 # Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide
 
@@ -133,64 +135,3 @@ By following these quick revision tips and understanding the core concepts, you 
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
-
-
-## Quick Recall Box
-
-
-
-## MCQs
-
-
-**1. What was the approximate period of the Vedic Age in India?**
-1200 BCE - 500 BCE
-1500 BCE - 500 BCE
-500 BCE - 1500 CE
-500 BCE - 500 CE
-
-**Answer:** A) The approximate period of the Vedic Age in India was 1500 BCE - 500 BCE.
-
-
-**2. Which ancient Indian Sanskrit text contains knowledge of Vedic Mathematics?**
-Rigveda
-Yajurveda
-Samaveda
-The Sulva Sutras
-
-**Answer:** D) The Sulva Sutras, and the Vedas contain knowledge of Vedic Mathematics.
-
-
-**3. Who was credited with the development of the concept of zero in mathematics?**
-Aryabhata
-Pythagoras
-Baudhayana
-Ramanujan
-
-**Answer:** A) Aryabhata was credited with the development of the concept of zero in mathematics.
-
----
-<<<<<<< HEAD
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-=======
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
->>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada

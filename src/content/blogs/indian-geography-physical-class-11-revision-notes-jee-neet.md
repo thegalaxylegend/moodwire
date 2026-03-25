@@ -1,9 +1,11 @@
 ---
-heroImage: "/blog-images/indian-geography-physical-class-11-notes.webp"
+heroImage: "/blog-images/indian-geography-physical-class-11-physics-revision-jee-neet-2026-grandmaster-guide-1774408607207.webp"
 title: "Indian Geography Physical Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Learn Indian Geography Physical like a pro. Detailed revision notes, solved examples, and "
 category: "Physics"
 keywords: "indian geography physical class 11 revision notes jee neet, Exam Compass, Exam Compass, Physics, Exam Compass"
+
+date: "2026-03-22"
 ---
 # Indian Geography Physical Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
@@ -75,22 +77,3 @@ Maps are an essential tool in Physical Geography, used to represent the Earth's 
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
-
-
-## Quick Recall Box
-
-
-
-## MCQs
-
----
-<<<<<<< HEAD
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-=======
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
->>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada
