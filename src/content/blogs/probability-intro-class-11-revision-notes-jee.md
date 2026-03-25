@@ -359,4 +359,11 @@ What are common Trap Questions for Probability (Intro) is a crucial area of stud
 **Answer:** C) There are 13 hearts in a standard deck of 52 cards.
 
 ---
+<<<<<<< HEAD
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+=======
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+>>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada

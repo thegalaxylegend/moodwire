@@ -47,6 +47,24 @@ export const blogs: Blog[] = [
         "image": "/blog-images/ai-study-hack-pomodoro-class-11-revision-notes-neet.webp"
     },
     {
+        "id": "algorithms-analysis-class-11-revision-notes-gate-boards",
+        "title": "Algorithms: Analysis Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide",
+        "description": "Deep dive into Algorithms: Analysis Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
+        "category": "Computer Science",
+        "date": "2026-03-22",
+        "readTime": "15 min read",
+        "image": "/blog-images/algorithms-analysis-class-11-revision-notes-gate-boards.webp"
+    },
+    {
+        "id": "algorithms-design-class-11-revision-notes-gate-boards",
+        "title": "Algorithms: Design Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide",
+        "description": "The ultimate Algorithms: Design revision resource for Computer Science students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
+        "category": "Computer Science",
+        "date": "2026-03-22",
+        "readTime": "15 min read",
+        "image": "/blog-images/algorithms-design-class-11-revision-notes-gate-boards.webp"
+    },
+    {
         "id": "anatomy-of-flowering-plants-class-11-revision-notes-neet",
         "title": "Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
         "description": "The ultimate Anatomy Of Flowering Plants revision resource for Biology students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
@@ -290,6 +308,15 @@ export const blogs: Blog[] = [
         "image": "/blog-images/data-structures-linear-class-11-revision-notes-gate-boards.webp"
     },
     {
+        "id": "data-structures-non-linear-class-11-revision-notes-gate-boards",
+        "title": "Data Structures: Non-Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide",
+        "description": "Learn Data Structures: Non-Linear like a pro. Detailed revision notes, solved examples, and ",
+        "category": "Computer Science",
+        "date": "2026-03-22",
+        "readTime": "15 min read",
+        "image": "/blog-images/data-structures-non-linear-class-11-revision-notes-gate-boards.webp"
+    },
+    {
         "id": "digestion-and-absorption-class-11-revision-notes-neet",
         "title": "Digestion And Absorption Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
         "description": "Learn Digestion And Absorption like a pro. Detailed revision notes, solved examples, and ",
@@ -297,6 +324,15 @@ export const blogs: Blog[] = [
         "date": "2026-03-22",
         "readTime": "15 min read",
         "image": "/blog-images/digestion-and-absorption-class-11-revision-notes-neet.webp"
+    },
+    {
+        "id": "digital-logic-class-11-revision-notes-gate-boards",
+        "title": "Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide",
+        "description": "Accelerate your Computer Science revision with our Digital Logic guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success.",
+        "category": "Computer Science",
+        "date": "2026-03-22",
+        "readTime": "15 min read",
+        "image": "/blog-images/digital-logic-class-11-revision-notes-gate-boards.webp"
     },
     {
         "id": "dpsp-duties-class-11-revision-notes-jee-neet",

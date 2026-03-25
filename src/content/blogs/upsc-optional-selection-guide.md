@@ -7,10 +7,6 @@ keywords: "upsc optional selection guide, Exam Compass, General, Exam Compass, C
 ---
 # Pick the Best UPSC Optional Subject 2026 Guide
 
-# Pick the Best UPSC Optional Subject 2026 Guide
-
-# Pick the Best UPSC Optional Subject 2026 Guide
-
 If you’re a UPSC aspirant, you know that the "Optional Subject" is where the battle for a top rank is won or lost. It’s 500 marks out of a 1750-mark total in Mains. It’s roughly 30% of your total score, yet it takes up 50% of your mental space. 
 
 I’m Ayush, and while I’m primarily focused on JEE/NEET tools at Exam Compass, I’ve spent months analyzing the UPSC recruitment data to help my older sister navigate this mess. The truth is: most people choose their optional based on "interest" or "senior’s advice." But in the cut-throat world of the Civil Services Exam, interest won't save you if the subject isn't "scoring" or "overlapping."
@@ -79,4 +75,11 @@ During the first four months of preparation, dedicate 60–70% of your daily stu
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
+<<<<<<< HEAD
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+=======
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+>>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada

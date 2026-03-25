@@ -112,4 +112,11 @@ Data shows that 70% of the NEET paper comes from only 35% of the syllabus. If yo
 ## MCQs
 
 ---
+<<<<<<< HEAD
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+=======
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+>>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada

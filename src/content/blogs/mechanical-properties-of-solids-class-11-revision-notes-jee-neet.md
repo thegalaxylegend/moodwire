@@ -186,4 +186,11 @@ The mechanical properties of solids are what allow humans to build the impossibl
 ## MCQs
 
 ---
+<<<<<<< HEAD
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+=======
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+>>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada

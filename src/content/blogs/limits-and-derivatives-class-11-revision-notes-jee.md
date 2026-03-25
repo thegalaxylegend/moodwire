@@ -295,4 +295,11 @@ D. 28x^3 + 6x^2 - 10x + 1 + 0
 **Answer:** A) To find the derivative of the function, we need to apply the power rule, which states that if f(x) = x^n, then f'(x) = nx^(n-1).
 
 ---
+<<<<<<< HEAD
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+=======
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+>>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada

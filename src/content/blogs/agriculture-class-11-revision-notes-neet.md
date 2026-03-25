@@ -130,4 +130,11 @@ Organic farming has no role in agriculture
 **Answer:** 2. Organic farming avoids the use of synthetic fertilizers and pesticides, while conventional farming uses them) undefined
 
 ---
+<<<<<<< HEAD
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+=======
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+>>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada

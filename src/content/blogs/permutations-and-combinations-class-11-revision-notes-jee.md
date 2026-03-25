@@ -320,4 +320,11 @@ How do you solve Higher-Order Permutations and Combinations problems? is a mathe
 **Answer:** A) The total number of ways to choose 5 items from a set of 7 distinct items and then arrange them in a particular order is given by 7C5 * 5P5 = 21 * 120 = 2520, but one of the items is repeated 5 times, so the number is 7C2 * 5! / 5! = 21, and then arrange them in 5P5 = 120 ways, so total number of ways is 21 * 120 = 2520.
 
 ---
+<<<<<<< HEAD
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+=======
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+>>>>>>> bb075c4fff20c0089f5a142666d6d95845e53ada
