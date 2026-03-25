@@ -81,14 +81,15 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
 
     const today = new Date().toISOString().split('T')[0];
 
-    // --- AUTO-FIXES ---
-    // Area 6c: Auto-correct date
+    // ========= AUTO-FIXES (Zero score penalty — silently corrected) =========
+
+    // Auto-fix: Date
     if (post.last_updated !== today) {
         report.auto_fixed.push({ field: 'last_updated', old: post.last_updated, new: today });
         post.last_updated = today;
     }
 
-    // Area 5: Subject correction (strictly Social Science for Polity)
+    // Auto-fix: Subject correction
     let matchedSubject = "";
     for (const [key, sub] of Object.entries(CHAPTER_TO_SUBJECT)) {
         if (post.chapter_name.includes(key) || post.title.includes(key)) {
@@ -101,7 +102,7 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
         post.subject = matchedSubject;
     }
 
-    // Practice link path correction
+    // Auto-fix: Practice link path
     const expectedPrefix = SUBJECT_TO_PATH[post.subject || 'default'] || "/class-11/physics/";
     if (post.practice_link_path && !post.practice_link_path.startsWith(expectedPrefix)) {
         const newPath = `${expectedPrefix}${post.slug}`;
@@ -111,45 +112,10 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
         post.practice_link_path = `${expectedPrefix}${post.slug}`;
     }
 
-    // 2. Word Count (Rules V3.1: 2000-3500, but we'll gate at 1200 for now)
-    const wordCount = (post.content?.intro?.split(' ').length || 0) + (post.content?.sections || []).reduce((acc, s) => acc + (s.body?.split(' ').length || 0), 0);
-    if (wordCount < 1200) {
-        report.score -= 20;
-        report.critical_failures.push(`Low word count: ${wordCount} (Min 1200 expected)`);
-        report.regenerate_sections.push("all");
-    } else if (wordCount < 2000) {
-        report.warnings.push(`Word count (${wordCount}) is below the 2000-3500 target range.`);
-    }
-
-    // 3. Mandatory Sections check
-    const bodyContent = JSON.stringify(post.content).toLowerCase();
-    const hasAyushNote = bodyContent.includes("ayush's note") || bodyContent.includes("ayush note") || bodyContent.includes("mistake i made");
-    const hasTrapQuestions = bodyContent.includes("trap questions") || bodyContent.includes("common mistakes") || bodyContent.includes("exceptions");
-    const hasRecall = (post.content?.quick_recall || []).length >= 3;
-    const mcqCount = (post.content?.mcqs || []).length;
-
-    if (!hasAyushNote) {
-        report.score -= 15;
-        report.critical_failures.push("Missing 'Ayush's Note' (Experience Hook)");
-        report.regenerate_sections.push("sections");
-    }
-    if (!hasTrapQuestions) {
-        report.score -= 15;
-        report.critical_failures.push("Missing 'Trap Questions / Exceptions' section");
-        report.regenerate_sections.push("sections");
-    }
-    if (mcqCount < 5) {
-        report.score -= 10;
-        report.critical_failures.push(`Insufficient MCQs: ${mcqCount} (Min 5 required)`);
-        report.regenerate_sections.push("mcqs");
-    }
-
-    // 4. Kill List Scan (Forbidden Phrases)
-    // NOTE: The generator now auto-sanitizes these before quality check.
-    // If any survive, it's a warning, not a critical failure.
+    // Auto-fix: Kill list phrases (strip silently — no score deduction)
     const killList = [
-        "in conclusion", "delve into", "it is important to note", 
-        "world-best", "comprehensive", "ultimate guide", 
+        "in conclusion", "delve into", "it is important to note",
+        "world-best", "comprehensive", "ultimate guide",
         "embark on your journey", "needless to say", "master this today",
         "everything you need", "complete guide", "mastering this",
         "in today's competitive world", "vibrant", "robust", "unveiling",
@@ -158,144 +124,154 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
         "comprehensive guide"
     ];
     for (const phrase of killList) {
-        if (bodyContent.includes(phrase)) {
-            report.score -= 3;
-            report.warnings.push(`Forbidden phrase survived sanitizer: "${phrase}"`);
+        const regex = new RegExp(phrase, 'gi');
+        if (regex.test(post.content.intro)) {
+            post.content.intro = post.content.intro.replace(regex, '').replace(/  +/g, ' ').trim();
+            report.auto_fixed.push({ field: 'intro_phrase', old: phrase, new: '[removed]' });
+        }
+        for (const sec of post.content.sections) {
+            if (regex.test(sec.body)) {
+                sec.body = sec.body.replace(regex, '').replace(/  +/g, ' ').trim();
+                report.auto_fixed.push({ field: `section_phrase:${sec.heading}`, old: phrase, new: '[removed]' });
+            }
         }
     }
 
-    // 5. Section Depth
+    // Auto-fix: SEO target year
+    const nowDate = new Date();
+    const curYear = Number(nowDate.getFullYear());
+    const curMonth = nowDate.getMonth();
+    const targetYear = String(curMonth >= 7 ? curYear + 1 : curYear);
+    if (!post.title.includes(targetYear)) {
+        const oldTitle = post.title;
+        post.title = post.title.replace(/\d{4}/g, targetYear);
+        if (!post.title.includes(targetYear)) post.title = `${post.title} ${targetYear}`;
+        report.auto_fixed.push({ field: 'title_year', old: oldTitle, new: post.title });
+    }
+
+    // Auto-fix: Title kill-list phrases
+    const titleKillPhrases = ["ultimate guide", "comprehensive", "everything you need", "complete guide", "master today"];
+    for (const phrase of titleKillPhrases) {
+        if (post.title.toLowerCase().includes(phrase)) {
+            const old = post.title;
+            post.title = post.title.replace(new RegExp(phrase, 'gi'), '').replace(/  +/g, ' ').trim();
+            report.auto_fixed.push({ field: 'title_killphrase', old, new: post.title });
+        }
+    }
+
+    // ========= CRITICAL STRUCTURAL CHECKS (Deduct from 100) =========
+
+    const bodyContent = JSON.stringify(post.content).toLowerCase();
+
+    // 1. Word Count
+    const wordCount = (post.content?.intro?.split(' ').length || 0) +
+        (post.content?.sections || []).reduce((acc, s) => acc + (s.body?.split(' ').length || 0), 0);
+    if (wordCount < 1200) {
+        score -= 30;
+        report.critical_failures.push(`Low word count: ${wordCount} (Min 1200)`);
+        report.regenerate_sections.push("all");
+    }
+
+    // 2. Mandatory Sections
+    const hasAyushNote = bodyContent.includes("ayush's note") || bodyContent.includes("ayush note") || bodyContent.includes("mistake i made");
+    const hasTrapQuestions = bodyContent.includes("trap questions") || bodyContent.includes("common mistakes") || bodyContent.includes("exceptions");
+    const mcqCount = (post.content?.mcqs || []).length;
+
+    if (!hasAyushNote) {
+        score -= 20;
+        report.critical_failures.push("Missing 'Ayush's Note' section");
+        report.regenerate_sections.push("sections");
+    }
+    if (!hasTrapQuestions) {
+        score -= 20;
+        report.critical_failures.push("Missing 'Trap Questions' section");
+        report.regenerate_sections.push("sections");
+    }
+    if (mcqCount < 5) {
+        score -= 15;
+        report.critical_failures.push(`Insufficient MCQs: ${mcqCount}/5`);
+        report.regenerate_sections.push("mcqs");
+    }
+
+    // 3. Section Depth
     if ((post.content?.sections || []).length < 4) {
-        report.score -= 15;
-        report.critical_failures.push("Insufficient section count (Min 4 H2 topics)");
+        score -= 20;
+        report.critical_failures.push("Insufficient sections (Min 4)");
         report.regenerate_sections.push("sections");
     }
 
-    // 6. LaTeX Check
+    // 4. LaTeX Formatting
     if (bodyContent.includes('\\frac') || bodyContent.includes('\\sqrt')) {
         if (!bodyContent.includes('$')) {
-            report.score -= 10;
-            report.critical_failures.push("Potential LaTeX formatting error (Missing delimiters)");
+            score -= 10;
+            report.critical_failures.push("LaTeX error (Missing $ delimiters)");
             report.regenerate_sections.push("sections");
         }
     }
 
-    // --- CRITICAL FAILURES ---
-    
-    // MCQ Completeness
+    // 5. MCQ Completeness
     post.content.mcqs.forEach((mcq, i) => {
         if (!mcq.answer) {
-            report.critical_failures.push(`MCQ #${i+1} is missing a core answer (A/B/C/D).`);
+            score -= 5;
+            report.critical_failures.push(`MCQ #${i+1} missing answer`);
             report.regenerate_sections.push("mcqs");
         }
         if (!mcq.answer_text) {
-            report.critical_failures.push(`MCQ #${i+1} is missing an explanation (answer_text).`);
+            score -= 5;
+            report.critical_failures.push(`MCQ #${i+1} missing explanation`);
             report.regenerate_sections.push("mcqs");
         }
     });
 
-    // Table Leak Detection
+    // 6. Table Leak Detection
     post.content.sections.forEach(sec => {
         if (sec.table) {
             const tableStr = JSON.stringify(sec.table).toLowerCase();
             const leaks = ["ayush's tips", "my personal note", "as i recall", "i always"];
             if (leaks.some(l => tableStr.includes(l))) {
-                report.critical_failures.push(`Personal note leakage detected in table: ${sec.heading}`);
+                score -= 10;
+                report.critical_failures.push(`Table leak in: ${sec.heading}`);
                 report.regenerate_sections.push(`section: ${sec.heading}`);
             }
         }
     });
 
-    // Area 2: Question-Format H2 Headers
-    post.content.sections.forEach(sec => {
-        if (!sec.heading.trim().endsWith("?")) {
-            report.warnings.push(`H2 heading is not a question: "${sec.heading}"`);
-            if (!report.regenerate_sections.includes("sections")) {
-                report.regenerate_sections.push("sections");
-            }
-        }
-    });
-
-    // Area 5 & 6: Factual Accuracy (Geography)
+    // 7. Factual Accuracy (Geography)
     const fullText = JSON.stringify(post).toLowerCase();
     if (post.subject === "Geography") {
         if (fullText.includes("mount everest") && (fullText.includes("india") || fullText.includes("highest peak"))) {
-            report.critical_failures.push("Geography Error: Mount Everest incorrectly linked to India's highest peak.");
+            score -= 30;
+            report.critical_failures.push("Everest ≠ India's highest peak");
             report.regenerate_sections.push("all");
         }
         if (fullText.includes("indus") && (fullText.includes("longest river") || fullText.includes("india's longest"))) {
-            report.critical_failures.push("Geography Error: Indus incorrectly linked to India's longest river.");
+            score -= 30;
+            report.critical_failures.push("Indus ≠ India's longest river");
             report.regenerate_sections.push("all");
         }
     }
 
-    // --- WARNINGS ---
-    if (post.content.mcqs.length < 3) {
-        report.warnings.push("Fewer than 3 MCQs (below recommendation).");
-    }
-
-    // (Word count already checked above — no duplicate check here)
-
+    // ========= INFORMATIONAL WARNINGS (No score deduction) =========
+    if (wordCount >= 1200 && wordCount < 2000) report.warnings.push(`Word count ${wordCount} below 2000 target.`);
+    if ((post.content?.mcqs || []).length < 3) report.warnings.push("Fewer than 3 MCQs.");
     const genericImages = ["generic-study.webp", "geography-terrain.webp"];
-    if (genericImages.some(img => post.hero_image.includes(img))) {
-        report.warnings.push(`Using generic fallback image: ${post.hero_image}`);
-    }
-
+    if (genericImages.some(img => post.hero_image.includes(img))) report.warnings.push("Generic fallback image used.");
     const fillerPhrases = ["as i navigate through", "i find it fascinating to explore the nuances", "as i delve deeper into", "i hope this journey helps you"];
-    if (fillerPhrases.some(f => fullText.includes(f))) {
-        report.warnings.push("AI filler phrases detected.");
-    }
-
-    // --- SEO QUALITY CHECKS ---
-
-    // Dynamic target year
-    const nowDate = new Date();
-    const curYear = Number(nowDate.getFullYear());
-    const curMonth = nowDate.getMonth();
-    const targetYear = String(curMonth >= 7 ? curYear + 1 : curYear);
-
-    // Title must contain year
-    if (!post.title.includes(targetYear)) {
-        report.warnings.push(`SEO: Title missing target year (${targetYear}).`);
-        // Auto-fix: append year
-        const oldTitle = post.title;
-        post.title = post.title.replace(/\d{4}/g, targetYear);
-        if (!post.title.includes(targetYear)) {
-            post.title = `${post.title} ${targetYear}`;
-        }
-        report.auto_fixed.push({ field: 'title_year', old: oldTitle, new: post.title });
-    }
-
-    // Title length check (50-70 chars ideal)
-    if (post.title.length > 70) {
-        report.warnings.push(`SEO: Title too long (${post.title.length} chars). Target: 50-70.`);
-    } else if (post.title.length < 30) {
-        report.warnings.push(`SEO: Title too short (${post.title.length} chars). Target: 50-70.`);
-    }
-
-    // Kill list phrases in title
-    const titleKillList = ["ultimate guide", "comprehensive", "everything you need", "complete guide", "master today"];
-    const lowerTitle = post.title.toLowerCase();
-    for (const phrase of titleKillList) {
-        if (lowerTitle.includes(phrase)) {
-            report.warnings.push(`SEO: Title contains kill-list phrase: "${phrase}".`);
-        }
-    }
-
-    // Exam name check for Class 11-12 PCMB
+    if (fillerPhrases.some(f => fullText.includes(f))) report.warnings.push("AI filler phrases detected.");
+    post.content.sections.forEach(sec => {
+        if (!sec.heading.trim().endsWith("?")) report.warnings.push(`H2 not a question: "${sec.heading}"`);
+    });
+    if (post.title.length > 70) report.warnings.push(`Title too long (${post.title.length} chars).`);
+    else if (post.title.length < 30) report.warnings.push(`Title too short (${post.title.length} chars).`);
     const PCMB_SUBJECTS = ['Physics', 'Chemistry', 'Mathematics', 'Biology'];
     if (post.exam_class >= 11 && PCMB_SUBJECTS.includes(post.subject)) {
-        const hasExam = lowerTitle.includes('jee') || lowerTitle.includes('neet') || lowerTitle.includes('gate');
-        if (!hasExam) {
-            report.warnings.push("SEO: Class 11-12 PCMB title missing exam name (JEE/NEET).");
-        }
+        const hasExam = post.title.toLowerCase().includes('jee') || post.title.toLowerCase().includes('neet') || post.title.toLowerCase().includes('gate');
+        if (!hasExam) report.warnings.push("Title missing exam name (JEE/NEET).");
     }
 
-    // --- SCORING & FINAL PASS ---
-    score -= (report.critical_failures.length * 15);
-    score -= (report.warnings.length * 3);
+    // ========= FINAL SCORING: 100/100 required to publish =========
     report.score = Math.max(0, score);
-    report.passed = report.score >= 60 && report.critical_failures.length === 0;
+    report.passed = report.score === 100 && report.critical_failures.length === 0;
 
     return report;
 }

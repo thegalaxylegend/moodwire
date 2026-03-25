@@ -83,8 +83,29 @@ jobs:
         if: always()
         run: rm -f service-account.json
 
-      - name: Commit and Push New Blogs
+      - name: Quality Gate Check
+        id: quality_gate
+        run: |
+          REPORT_FILE=$(ls jules-reports/pipeline-*.json 2>/dev/null | head -n 1 || true)
+          if [ -f "$REPORT_FILE" ]; then
+            TOTAL=$(jq 'length' "$REPORT_FILE")
+            FAILED=$(jq '[.[] | select(.status == "failed" or .quality_score < 100)] | length' "$REPORT_FILE")
+            PERFECT=$(jq '[.[] | select(.quality_score == 100)] | length' "$REPORT_FILE")
+            echo "📊 Quality Gate: $PERFECT/$TOTAL blogs scored 100/100. $FAILED failed."
+            if [ "$FAILED" -gt "0" ]; then
+              echo "🚫 BLOCKED: $FAILED blog(s) did not achieve 100/100. Deployment blocked."
+              echo "gate_passed=false" >> $GITHUB_OUTPUT
+            else
+              echo "✅ All blogs scored 100/100. Deployment approved."
+              echo "gate_passed=true" >> $GITHUB_OUTPUT
+            fi
+          else
+            echo "⚠️ No pipeline report found. Nothing to deploy."
+            echo "gate_passed=false" >> $GITHUB_OUTPUT
+          fi
 
+      - name: Commit and Push New Blogs
+        if: steps.quality_gate.outputs.gate_passed == 'true'
         run: |
           git config --global user.name 'Jules Blog Bot'
           git config --global user.email 'jules-bot@users.noreply.github.com'
@@ -93,8 +114,14 @@ jobs:
           git add src/data/blogs.ts
           git add public/seo-manifest.json
           git add public/slug-registry.json
-          git commit -m "chore: auto-generate blogs and update registries by Jules" || echo "No changes to commit"
+          git commit -m "chore: auto-generate blogs (100/100 quality) by Jules" || echo "No changes to commit"
           git push origin main
+
+      - name: Deployment Blocked Notice
+        if: steps.quality_gate.outputs.gate_passed != 'true'
+        run: |
+          echo "🚫 Deployment was blocked because not all blogs achieved 100/100 quality."
+          echo "🔍 Check the quality reports artifact for details."
 
       - name: Upload Quality Reports
         if: always()
