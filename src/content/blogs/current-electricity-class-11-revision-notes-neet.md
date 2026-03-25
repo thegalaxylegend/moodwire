@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/current-electricity-class-11-revision-notes-neet.webp"
 title: "Current Electricity Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Accelerate your Biology revision with our Current Electricity guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Biology"
-keywords: "current electricity class 11 revision notes neet, Biology, Exam Compass"
+keywords: "current electricity class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
 ---
-
 # Current Electricity Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
-![Current Electricity Revision Notes recap](/blog-images/current-electricity-revision-notes.webp)
+![Hero Image](/blog-images/current-electricity-class-11-revision-notes-neet.webp)
 
 *Last Updated: 2026-03-22*
 

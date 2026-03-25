@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/cell-the-unit-of-life-class-11-notes.webp"
 title: "Cell The Unit Of Life Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Deep dive into Cell The Unit Of Life Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Biology"
-keywords: "cell the unit of life class 11 revision notes neet, Biology, Exam Compass"
+keywords: "cell the unit of life class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
 ---
-
 # Cell The Unit Of Life Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Cell The Unit Of Life recap](/blog-images/cell-the-unit-of-life-class-11-notes.webp)

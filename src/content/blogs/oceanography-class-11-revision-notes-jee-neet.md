@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/oceanography-class-11-revision-notes-jee-neet.webp"
 title: "Oceanography Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Master Oceanography for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"
-keywords: "oceanography class 11 revision notes jee neet, Physics, Exam Compass"
+keywords: "oceanography class 11 revision notes jee neet, Exam Compass, Exam Compass, Physics, Exam Compass"
 ---
-
 # Oceanography Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Oceanography recap](/blog-images/oceanography-class-11-notes.webp)
+![Hero Image](/blog-images/oceanography-class-11-revision-notes-jee-neet.webp)
 
 *Last Updated: 2026-03-22*
 

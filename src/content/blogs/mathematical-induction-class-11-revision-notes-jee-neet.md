@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/mathematical-induction-class-11-revision-notes-jee-neet.webp"
 title: "Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Deep dive into Mathematical Induction Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Physics"
-keywords: "mathematical induction class 11 revision notes jee neet, Physics, Exam Compass"
+keywords: "mathematical induction class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
 ---
-
 # Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Mathematical Induction Revision Notes recap](/blog-images/mathematical-induction-revision-notes.webp)
+![Hero Image](/blog-images/mathematical-induction-class-11-revision-notes-jee-neet.webp)
 
 *Last Updated: 2026-03-22*
 

@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/rotational-motion-class-11-revision-notes-jee-neet.webp"
 title: "Rotational Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "The ultimate Rotational Motion revision resource for Physics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Physics"
-keywords: "rotational motion class 11 revision notes jee neet, Physics, Exam Compass"
+keywords: "rotational motion class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
 ---
-
 # Rotational Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Rotational Motion Revision Notes recap](/blog-images/rotational-motion-revision-notes.webp)
+![Hero Image](/blog-images/rotational-motion-class-11-revision-notes-jee-neet.webp)
 
 *Last Updated: 2026-03-22*
 

@@ -109,23 +109,48 @@ jobs:
       - name: Send Discord Notification
         if: always()
         env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
-          REPORT_FILE=$(ls jules-reports/pipeline-*.json | head -n 1)
+          REPORT_FILE=$(ls jules-reports/pipeline-*.json 2>/dev/null | head -n 1 || true)
+          
           if [ -f "$REPORT_FILE" ]; then
-            # Extract scores and names for the notification with clickable links
-            SCORE_REPORT=$(jq -r '.[] | "▫️ [\\(.slug)](https://examcompass.pages.dev/blog/\\(.slug)): \\(.quality_score)/100 (Status: \\(.status))"' "$REPORT_FILE" | awk '{printf "%s\\n", $0}')
-            FAILED_COUNT=$(jq '[.[] | select(.status == "failed")] | length' "$REPORT_FILE")
+            echo "📊 Processing quality report..."
             
-            if [ "$FAILED_COUNT" -gt 0 ]; then
-                MESSAGE="🚨 **JULES QUALITY ALERT** 🚨\n\nOne or more blogs failed the quality gate!\n\n**Pipeline Report:**\n$SCORE_REPORT\n\n👉 **Review Failures:** See GitHub Artifacts for details.\n🔗 ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            # 1. Check for Critical Failures
+            FAIL_COUNT=$(jq '[.[] | select(.status == "failed" or .quality_score < 80)] | length' "$REPORT_FILE")
+            
+            # 2. Extract Scores with clickable links
+            SCORE_LIST=$(jq -r '.[] | "▫️ [\(.slug)](https://examcompass.pages.dev/blog/\(.slug)): \(.quality_score)/100 (Status: \(.status))"' "$REPORT_FILE")
+            
+            if [ "$FAIL_COUNT" -gt "0" ]; then
+              # Failure/Quality Alert Message
+              TITLE="🚨 JULES QUALITY ALERT 🚨"
+              DESC="One or more blogs failed the quality gate or have low scores."
+              COLOR=15548997 # Red
             else
-                MESSAGE="🚀 **Jules Finished Daily Task!** 🚀\n\n**Quality Scores:**\n$SCORE_REPORT\n\n✅ All posts passed quality gate.\n✅ Deployed to Production."
+              # Success Message
+              TITLE="🚀 Jules Finished Daily Task! 🚀"
+              DESC="All blogs passed the quality gate and are live."
+              COLOR=5763719 # Green
             fi
+            
+            # Construct Final Message
+            MSG="${TITLE}\n\n${DESC}\n\n**Pipeline Report:**\n${SCORE_LIST}\n\n👉 [Review Run in GitHub](https://github.com/thegalaxylegend/examcompass/actions/runs/${{ github.run_id }})"
+            
+            # Create Payload safely using jq
+            jq -n --arg msg "$MSG" --argjson color "$COLOR" '{
+              content: $msg,
+              embeds: [{
+                title: "Grandmaster Blog Pipeline",
+                color: $color
+              }]
+            }' > discord_payload.json
+            
           else
-             MESSAGE="🚀 **Jules finished daily task!**\n\nNo report was generated (possibly no new blogs today)."
+            echo "❓ No report found."
+            jq -n --arg msg "📅 **Daily automation finished.** No new blogs were generated or skipped." '{content: $msg}' > discord_payload.json
           fi
-          # Correctly escape JSON for Discord using jq
-          PAYLOAD=$(jq -n --arg msg "$MESSAGE" '{content: $msg}')
-          curl -X POST -H "Content-Type: application/json" -d "$PAYLOAD" $DISCORD_WEBHOOK
+
+          # Send to Discord
+          curl -H "Content-Type: application/json" -d @discord_payload.json "$DISCORD_WEBHOOK_URL"
 

@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/dpsp-duties-class-11-notes.webp"
 title: "Dpsp Duties Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Accelerate your Physics revision with our Dpsp Duties guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Physics"
-keywords: "dpsp duties class 11 revision notes jee neet, Physics, Exam Compass"
+keywords: "dpsp duties class 11 revision notes jee neet, Exam Compass, Exam Compass, Physics, Exam Compass"
 ---
-
 # Dpsp Duties Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Dpsp Duties recap](/blog-images/dpsp-duties-class-11-notes.webp)

@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/state-scholarship-guide-2026-class-11-revision-notes-neet.webp"
 title: "State Scholarship Guide 2026 Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Learn State Scholarship Guide 2026 like a pro. Detailed revision notes, solved examples, and "
 category: "Biology"
-keywords: "state scholarship guide 2026 class 11 revision notes neet, Biology, Exam Compass"
+keywords: "state scholarship guide 2026 class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
 ---
-
 # State Scholarship Guide 2026 Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
-![State Scholarship Guide 2026 recap](/blog-images/state-scholarship-guide-2026.webp)
+![Hero Image](/blog-images/state-scholarship-guide-2026-class-11-revision-notes-neet.webp)
 
 *Last Updated: 2026-03-22*
 

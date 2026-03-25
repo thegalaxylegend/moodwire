@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/jee-mains-high-weightage-chapters.webp"
 title: "Jee Mains High Weightage Chapters Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "The ultimate Jee Mains High Weightage Chapters revision resource for Physics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Physics"
-keywords: "jee mains high weightage chapters class 11 revision notes jee neet, Physics, Exam Compass"
+keywords: "jee mains high weightage chapters class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
 ---
-
 # Jee Mains High Weightage Chapters Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Jee Mains High Weightage Chapters recap](/blog-images/jee-mains-high-weightage-chapters.webp)

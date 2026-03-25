@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/physics-heat-light-class-11-notes.webp"
 title: "Physics Heat Light Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Master Physics Heat Light for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"
 keywords: "physics heat light class 11 revision notes jee neet, Physics, Exam Compass"
 ---
-
 # Physics Heat Light Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Physics Heat Light recap](/blog-images/physics-heat-light-class-11-notes.webp)

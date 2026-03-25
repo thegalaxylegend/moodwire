@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/organic-chemistry-basic-principles-class-11-notes.webp"
 title: "Organic Chemistry Basic Principles Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Accelerate your Physics revision with our Organic Chemistry Basic Principles guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
-category: "Physics"
-keywords: "organic chemistry basic principles class 11 revision notes jee neet, Physics, Exam Compass"
+category: "Chemistry"
+keywords: "organic chemistry basic principles class 11 revision notes jee neet, Exam Compass, Chemistry, Exam Compass"
 ---
-
 # Organic Chemistry Basic Principles Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Organic Chemistry Basic Principles recap](/blog-images/organic-chemistry-basic-principles-class-11-notes.webp)

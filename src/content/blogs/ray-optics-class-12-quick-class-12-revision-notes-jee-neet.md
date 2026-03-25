@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/ray-optics-class-12-quick-class-12-revision-notes-jee-neet.webp"
 title: "Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Master Ray Optics for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"
-keywords: "ray optics class 12 quick class 12 revision notes jee neet, Physics, Exam Compass"
+keywords: "ray optics class 12 quick class 12 revision notes jee neet, Exam Compass, Physics, Exam Compass"
 ---
-
 # Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Ray Optics Class 12 Quick Revision Notes recap](/blog-images/ray-optics-class-12-quick-revision-notes.webp)
+![Hero Image](/blog-images/ray-optics-class-12-quick-class-12-revision-notes-jee-neet.webp)
 
 *Last Updated: 2026-03-22*
 

@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/upsc-optional-selection-guide.webp"
 title: "Upsc Optional Selection Guide Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
 description: "The ultimate Upsc Optional Selection Guide revision resource for Mathematics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
-category: "Physics"
-keywords: "upsc optional selection guide class 11 revision notes jee, Physics, Exam Compass"
+category: "Mathematics"
+keywords: "upsc optional selection guide class 11 revision notes jee, Mathematics, Exam Compass"
 ---
-
 # Upsc Optional Selection Guide Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
 
 ![Upsc Optional Selection Guide recap](/blog-images/upsc-optional-selection-guide.webp)

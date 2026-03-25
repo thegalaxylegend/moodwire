@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/straight-lines-class-11-revision-notes-jee-neet.webp"
 title: "Straight Lines Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Learn Straight Lines like a pro. Detailed revision notes, solved examples, and "
 category: "Physics"
-keywords: "straight lines class 11 revision notes jee neet, Physics, Exam Compass"
+keywords: "straight lines class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
 ---
-
 # Straight Lines Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Straight Lines Revision Notes recap](/blog-images/straight-lines-revision-notes.webp)
+![Hero Image](/blog-images/straight-lines-class-11-revision-notes-jee-neet.webp)
 
 *Last Updated: 2026-03-22*
 

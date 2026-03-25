@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/poverty-unemployment-class-11-notes.webp"
 title: "Poverty Unemployment Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Accelerate your Physics revision with our Poverty Unemployment guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Physics"
 keywords: "poverty unemployment class 11 revision notes jee neet, Physics, Exam Compass"
 ---
-
 # Poverty Unemployment Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Poverty Unemployment recap](/blog-images/poverty-unemployment-class-11-notes.webp)

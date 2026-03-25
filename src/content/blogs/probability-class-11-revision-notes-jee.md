@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/probability-class-11-revision-notes-jee.webp"
 title: "Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
 description: "The ultimate Probability revision resource for Mathematics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Mathematics"
 keywords: "probability class 11 revision notes jee, Mathematics, Exam Compass"
 ---
-
 # Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
 
-![Probability Revision Notes recap](/blog-images/probability-revision-notes.webp)
+![Hero Image](/blog-images/probability-class-11-revision-notes-jee.webp)
 
 *Last Updated: 2026-03-22*
 

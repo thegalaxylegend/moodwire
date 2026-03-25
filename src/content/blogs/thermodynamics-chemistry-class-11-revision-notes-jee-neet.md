@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/thermodynamics-chemistry-class-11-revision-notes-jee-neet.webp"
 title: "Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Master Thermodynamics Chemistry for Physics 2026. This Grandmaster Guide includes Ayush"
-category: "Physics"
-keywords: "thermodynamics chemistry class 11 revision notes jee neet, Physics, Exam Compass"
+category: "Chemistry"
+keywords: "thermodynamics chemistry class 11 revision notes jee neet, Exam Compass, Chemistry, Exam Compass"
 ---
-
 # Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Thermodynamics Chemistry Revision Notes recap](/blog-images/thermodynamics-chemistry-revision-notes.webp)
+![Hero Image](/blog-images/thermodynamics-chemistry-class-11-revision-notes-jee-neet.webp)
 
 *Last Updated: 2026-03-22*
 

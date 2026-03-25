@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/classification-elements-periodicity-class-11-revision-notes-jee-neet.webp"
 title: "Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Learn Classification Elements Periodicity like a pro. Detailed revision notes, solved examples, and "
 category: "Physics"
-keywords: "classification elements periodicity class 11 revision notes jee neet, Physics, Exam Compass"
+keywords: "classification elements periodicity class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
 ---
-
 # Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Classification Elements Periodicity Revision Notes recap](/blog-images/classification-elements-periodicity-revision-notes.webp)
+![Hero Image](/blog-images/classification-elements-periodicity-class-11-revision-notes-jee-neet.webp)
 
 *Last Updated: 2026-03-22*
 

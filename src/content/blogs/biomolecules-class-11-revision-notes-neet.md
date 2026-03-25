@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/biomolecules-class-11-notes.webp"
 title: "Biomolecules Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Master Biomolecules for Biology 2026. This Grandmaster Guide includes Ayush"
 category: "Biology"
-keywords: "biomolecules class 11 revision notes neet, Biology, Exam Compass"
+keywords: "biomolecules class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
 ---
-
 # Biomolecules Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Biomolecules recap](/blog-images/biomolecules-class-11-notes.webp)

@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/the-s-block-elements-class-11-revision-notes-jee-neet.webp"
 title: "The S Block Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Master The S Block Elements for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"
 keywords: "the s block elements class 11 revision notes jee neet, Physics, Exam Compass"
 ---
-
 # The S Block Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![The S Block Elements recap](/blog-images/the-s-block-elements-class-11-notes.webp)
+![Hero Image](/blog-images/the-s-block-elements-class-11-revision-notes-jee-neet.webp)
 
 *Last Updated: 2026-03-22*
 

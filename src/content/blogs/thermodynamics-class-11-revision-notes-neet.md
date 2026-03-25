@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/thermodynamics-class-11-revision-notes-neet.png"
 title: "Thermodynamics Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Accelerate your Biology revision with our Thermodynamics guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Biology"
-keywords: "thermodynamics class 11 revision notes neet, Biology, Exam Compass"
+keywords: "thermodynamics class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
 ---
-
 # Thermodynamics Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
-![Thermodynamics Revision Notes recap](/blog-images/thermodynamics-revision-notes.webp)
+![Hero Image](/blog-images/thermodynamics-class-11-revision-notes-neet.png)
 
 *Last Updated: 2026-03-22*
 

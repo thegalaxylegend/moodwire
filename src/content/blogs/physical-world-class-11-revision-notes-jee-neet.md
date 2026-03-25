@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/physical-world-class-11-revision-notes-jee-neet.webp"
 title: "Physical World Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Accelerate your Physics revision with our Physical World guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Physics"
-keywords: "physical world class 11 revision notes jee neet, Physics, Exam Compass"
+keywords: "physical world class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
 ---
-
 # Physical World Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Physical World recap](/blog-images/physical-world-class-11-notes.webp)
+![Hero Image](/blog-images/physical-world-class-11-revision-notes-jee-neet.webp)
 
 *Last Updated: 2026-03-22*
 

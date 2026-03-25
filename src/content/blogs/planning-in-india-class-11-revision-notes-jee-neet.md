@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/planning-in-india-class-11-notes.webp"
 title: "Planning In India Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "The ultimate Planning In India revision resource for Physics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Physics"
 keywords: "planning in india class 11 revision notes jee neet, Physics, Exam Compass"
 ---
-
 # Planning In India Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Planning In India recap](/blog-images/planning-in-india-class-11-notes.webp)

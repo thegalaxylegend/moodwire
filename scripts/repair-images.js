@@ -163,7 +163,12 @@ async function repairImages() {
             }
 
             if (newImage) {
-                content = content.replace(/heroImage:.*(\n|$)/, `heroImage: "${newImage}"$1`);
+                if (content.includes('heroImage:')) {
+                    content = content.replace(/heroImage:.*(\n|$)/, `heroImage: "${newImage}"$1`);
+                } else {
+                    // Inject at the top of frontmatter
+                    content = content.replace(/---/, `---\nheroImage: "${newImage}"`);
+                }
                 fs.writeFileSync(fullPath, content);
                 console.log(`✅ Image repaired: ${newImage}`);
             }

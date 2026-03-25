@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/cuet-2026-master-strategy.webp"
 title: "Cuet 2026 Master Strategy Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "The ultimate Cuet 2026 Master Strategy revision resource for Biology students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Biology"
-keywords: "cuet 2026 master strategy class 11 revision notes neet, Biology, Exam Compass"
+keywords: "cuet 2026 master strategy class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
 ---
-
 # Cuet 2026 Master Strategy Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Cuet 2026 Master Strategy recap](/blog-images/cuet-2026-master-strategy.webp)

@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/gs-overlap-infographic.jpg"
 title: "Pick the Best UPSC Optional Subject 2026 Guide"
 description: "Master the UPSC optional subject selection for 2026. Use our success rate analysis, syllabus overlap data, and scoring trends to pick the best optional now!"
-category: "Mathematics"
-keywords: "upsc optional selection guide, Mathematics, Exam Compass"
+category: "Chemistry"
+keywords: "upsc optional selection guide, Exam Compass, General, Exam Compass, Chemistry, Exam Compass"
 ---
-
 # Pick the Best UPSC Optional Subject 2026 Guide
 
 # Pick the Best UPSC Optional Subject 2026 Guide

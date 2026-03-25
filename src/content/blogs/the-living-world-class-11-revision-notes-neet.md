@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/the-living-world-class-11-notes.webp"
 title: "The Living World Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Learn The Living World like a pro. Detailed revision notes, solved examples, and "
 category: "Biology"
-keywords: "the living world class 11 revision notes neet, Biology, Exam Compass"
+keywords: "the living world class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
 ---
-
 # The Living World Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![The Living World recap](/blog-images/the-living-world-class-11-notes.webp)

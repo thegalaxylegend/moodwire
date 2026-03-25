@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/waves-class-11-revision-notes-neet.webp"
 title: "Waves Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "The ultimate Waves revision resource for Biology students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Biology"
-keywords: "waves class 11 revision notes neet, Biology, Exam Compass"
+keywords: "waves class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
 ---
-
 # Waves Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
-![Waves Revision Notes recap](/blog-images/waves-revision-notes.webp)
+![Hero Image](/blog-images/waves-class-11-revision-notes-neet.webp)
 
 *Last Updated: 2026-03-22*
 

@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/trigonometric-functions-class-11-revision-notes-jee-neet.webp"
 title: "Trigonometric Functions Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Learn Trigonometric Functions like a pro. Detailed revision notes, solved examples, and "
 category: "Physics"
-keywords: "trigonometric functions class 11 revision notes jee neet, Physics, Exam Compass"
+keywords: "trigonometric functions class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
 ---
-
 # Trigonometric Functions Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Trigonometric Functions Revision Notes recap](/blog-images/trigonometric-functions-revision-notes.webp)
+![Hero Image](/blog-images/trigonometric-functions-class-11-revision-notes-jee-neet.webp)
 
 *Last Updated: 2026-03-22*
 

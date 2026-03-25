@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/locomotion-and-movement-class-11-notes.webp"
 title: "Locomotion And Movement Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Master Locomotion And Movement for Biology 2026. This Grandmaster Guide includes Ayush"
 category: "Biology"
-keywords: "locomotion and movement class 11 revision notes neet, Biology, Exam Compass"
+keywords: "locomotion and movement class 11 revision notes neet, Exam Compass, Exam Compass, Biology, Exam Compass"
 ---
-
 # Locomotion And Movement Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Locomotion And Movement recap](/blog-images/locomotion-and-movement-class-11-notes.webp)

@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/statistics-class-11-revision-notes-jee.webp"
 title: "Statistics Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
 description: "Deep dive into Statistics Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Mathematics"
 keywords: "statistics class 11 revision notes jee, Mathematics, Exam Compass"
 ---
-
 # Statistics Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
 
-![Statistics Revision Notes recap](/blog-images/statistics-revision-notes.webp)
+![Hero Image](/blog-images/statistics-class-11-revision-notes-jee.webp)
 
 *Last Updated: 2026-03-22*
 

@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/motion-in-a-straight-line-revision-notes.webp"
 title: "Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Accelerate your Physics revision with our Motion In A Straight Line guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Physics"
-keywords: "motion in a straight line class 11 revision notes jee neet, Physics, Exam Compass"
+keywords: "motion in a straight line class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
 ---
-
 # Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Motion In A Straight Line Revision Notes recap](/blog-images/motion-in-a-straight-line-revision-notes.webp)

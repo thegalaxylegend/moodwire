@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet.webp"
 title: "Some Basic Concepts Of Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Master Some Basic Concepts Of Chemistry for Physics 2026. This Grandmaster Guide includes Ayush"
-category: "Physics"
-keywords: "some basic concepts of chemistry class 11 revision notes jee neet, Physics, Exam Compass"
+category: "Chemistry"
+keywords: "some basic concepts of chemistry class 11 revision notes jee neet, Exam Compass, Chemistry, Exam Compass"
 ---
-
 # Some Basic Concepts Of Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Some Basic Concepts Of Chemistry recap](/blog-images/some-basic-concepts-of-chemistry-class-11-notes.webp)
+![Hero Image](/blog-images/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet.webp)
 
 *Last Updated: 2026-03-22*
 

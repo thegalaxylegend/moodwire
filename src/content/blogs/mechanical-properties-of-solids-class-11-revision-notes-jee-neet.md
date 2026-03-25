@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/mechanical-properties-of-solids-revision-notes.webp"
 title: "Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "The ultimate Mechanical Properties Of Solids revision resource for Physics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Physics"
-keywords: "mechanical properties of solids class 11 revision notes jee neet, Physics, Exam Compass"
+keywords: "mechanical properties of solids class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
 ---
-
 # Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Mechanical Properties Of Solids Revision Notes recap](/blog-images/mechanical-properties-of-solids-revision-notes.webp)

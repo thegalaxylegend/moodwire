@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/redox-reactions-class-11-revision-notes-neet.webp"
 title: "Redox Reactions Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Deep dive into Redox Reactions Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Biology"
-keywords: "redox reactions class 11 revision notes neet, Biology, Exam Compass"
+keywords: "redox reactions class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
 ---
-
 # Redox Reactions Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
-![Redox Reactions recap](/blog-images/redox-reactions-class-11-notes.webp)
+![Hero Image](/blog-images/redox-reactions-class-11-revision-notes-neet.webp)
 
 *Last Updated: 2026-03-22*
 

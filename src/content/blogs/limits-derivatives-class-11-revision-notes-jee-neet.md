@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/limits-derivatives-class-11-revision-notes-jee-neet.webp"
 title: "Limits Derivatives Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Accelerate your Physics revision with our Limits Derivatives guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Physics"
-keywords: "limits derivatives class 11 revision notes jee neet, Physics, Exam Compass"
+keywords: "limits derivatives class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
 ---
-
 # Limits Derivatives Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Limits Derivatives Revision Notes recap](/blog-images/limits-derivatives-revision-notes.webp)
+![Hero Image](/blog-images/limits-derivatives-class-11-revision-notes-jee-neet.webp)
 
 *Last Updated: 2026-03-22*
 

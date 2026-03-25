@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/class-10-30-day-timetable.webp"
 title: "Class 10 30 Day Timetable Class 10 Mathematics Recap — CBSE 2026 Quick Guide"
 description: "Master Class 10 30 Day Timetable for Mathematics 2026. This Grandmaster Guide includes Ayush"
-category: "Biology"
-keywords: "class 10 30 day timetable class 10 revision notes jee, Biology, Exam Compass"
+category: "Mathematics"
+keywords: "class 10 30 day timetable class 10 revision notes jee, Mathematics, Exam Compass"
 ---
-
 # Class 10 30 Day Timetable Class 10 Mathematics Recap — CBSE 2026 Quick Guide
 
 ![Class 10 30 Day Timetable recap](/blog-images/class-10-30-day-timetable.webp)

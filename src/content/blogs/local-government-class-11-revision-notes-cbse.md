@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/local-government-class-11-notes.webp"
 title: "Local Government Class 11 Social Science Recap — CBSE 2026 Quick Guide"
 description: "Accelerate your Social Science revision with our Local Government guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
-category: "Physics"
-keywords: "local government class 11 revision notes cbse, Physics, Exam Compass"
+category: "Social Science"
+keywords: "local government class 11 revision notes cbse, Exam Compass, Social Science, Exam Compass"
 ---
-
 # Local Government Class 11 Social Science Recap — CBSE 2026 Quick Guide
 
 ![Local Government recap](/blog-images/local-government-class-11-notes.webp)

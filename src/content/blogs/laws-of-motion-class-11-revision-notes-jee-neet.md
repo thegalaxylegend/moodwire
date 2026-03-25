@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/laws-of-motion-class-11-revision-notes-jee-neet.webp"
 title: "Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Learn Laws Of Motion like a pro. Detailed revision notes, solved examples, and "
 category: "Physics"
-keywords: "laws of motion class 11 revision notes jee neet, Physics, Exam Compass"
+keywords: "laws of motion class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
 ---
-
 # Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Laws Of Motion Revision Notes recap](/blog-images/laws-of-motion-revision-notes.webp)
+![Hero Image](/blog-images/laws-of-motion-class-11-revision-notes-jee-neet.webp)
 
 *Last Updated: 2026-03-22*
 

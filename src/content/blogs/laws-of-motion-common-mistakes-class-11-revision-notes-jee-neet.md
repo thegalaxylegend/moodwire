@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet.webp"
 title: "Laws Of Motion Common Mistakes Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Accelerate your Physics revision with our Laws Of Motion Common Mistakes guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Physics"
-keywords: "laws of motion common mistakes class 11 revision notes jee neet, Physics, Exam Compass"
+keywords: "laws of motion common mistakes class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
 ---
-
 # Laws Of Motion Common Mistakes Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Laws Of Motion Common Mistakes recap](/blog-images/laws-of-motion-common-mistakes.webp)
+![Hero Image](/blog-images/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet.webp)
 
 *Last Updated: 2026-03-22*
 

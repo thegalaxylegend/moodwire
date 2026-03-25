@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/work-energy-and-power-revision-notes.webp"
 title: "Work Energy And Power Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "The ultimate Work Energy And Power revision resource for Biology students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Biology"
-keywords: "work energy and power class 11 revision notes neet, Biology, Exam Compass"
+keywords: "work energy and power class 11 revision notes neet, Exam Compass, Exam Compass, Biology, Exam Compass"
 ---
-
 # Work Energy And Power Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Work Energy And Power Revision Notes recap](/blog-images/work-energy-and-power-revision-notes.webp)

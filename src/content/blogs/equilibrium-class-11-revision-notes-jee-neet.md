@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/equilibrium-class-11-revision-notes-jee-neet.webp"
 title: "Equilibrium Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "The ultimate Equilibrium revision resource for Physics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Physics"
-keywords: "equilibrium class 11 revision notes jee neet, Physics, Exam Compass"
+keywords: "equilibrium class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
 ---
-
 # Equilibrium Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Equilibrium Revision Notes recap](/blog-images/equilibrium-revision-notes.webp)
+![Hero Image](/blog-images/equilibrium-class-11-revision-notes-jee-neet.webp)
 
 *Last Updated: 2026-03-22*
 

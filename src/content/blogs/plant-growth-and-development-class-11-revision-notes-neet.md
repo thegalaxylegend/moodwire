@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/plant-growth-and-development-class-11-revision-notes-neet.webp"
 title: "Plant Growth And Development Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Deep dive into Plant Growth And Development Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Biology"
-keywords: "plant growth and development class 11 revision notes neet, Biology, Exam Compass"
+keywords: "plant growth and development class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
 ---
-
 # Plant Growth And Development Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
-![Plant Growth And Development recap](/blog-images/plant-growth-and-development-class-11-notes.webp)
+![Hero Image](/blog-images/plant-growth-and-development-class-11-revision-notes-neet.webp)
 
 *Last Updated: 2026-03-22*
 

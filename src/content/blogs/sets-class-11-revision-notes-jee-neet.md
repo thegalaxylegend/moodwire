@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/sets-class-11-revision-notes-jee-neet.webp"
 title: "Sets Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "The ultimate Sets revision resource for Chemistry students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Chemistry"
-keywords: "sets class 11 revision notes jee neet, Chemistry, Exam Compass"
+keywords: "sets class 11 revision notes jee neet, Exam Compass, Chemistry, Exam Compass"
 ---
-
 # Sets Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Sets Revision Notes recap](/blog-images/sets-revision-notes.webp)
+![Hero Image](/blog-images/sets-class-11-revision-notes-jee-neet.webp)
 
 *Last Updated: 2026-03-22*
 

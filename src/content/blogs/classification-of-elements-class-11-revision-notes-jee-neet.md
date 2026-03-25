@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/classification-of-elements-class-11-revision-notes-jee-neet.webp"
 title: "Classification Of Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Accelerate your Physics revision with our Classification Of Elements guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Physics"
-keywords: "classification of elements class 11 revision notes jee neet, Physics, Exam Compass"
+keywords: "classification of elements class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
 ---
-
 # Classification Of Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Classification Of Elements recap](/blog-images/classification-of-elements-class-11-notes.webp)
+![Hero Image](/blog-images/classification-of-elements-class-11-revision-notes-jee-neet.webp)
 
 *Last Updated: 2026-03-22*
 

@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/photosynthesis-in-higher-plants-class-11-revision-notes-neet.webp"
 title: "Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "The ultimate Photosynthesis In Higher Plants revision resource for Biology students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Biology"
-keywords: "photosynthesis in higher plants class 11 revision notes neet, Biology, Exam Compass"
+keywords: "photosynthesis in higher plants class 11 revision notes neet, Exam Compass, Exam Compass, Biology, Exam Compass"
 ---
-
 # Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
-![Photosynthesis In Higher Plants recap](/blog-images/photosynthesis-in-higher-plants-class-11-notes.webp)
+![Hero Image](/blog-images/photosynthesis-in-higher-plants-class-11-revision-notes-neet.webp)
 
 *Last Updated: 2026-03-22*
 

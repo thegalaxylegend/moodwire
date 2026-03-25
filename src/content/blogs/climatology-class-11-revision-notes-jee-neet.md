@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/climatology-class-11-revision-notes-jee-neet.webp"
 title: "Climatology Class 11 Geography Recap — CBSE 2026 Quick Guide"
 description: "Accelerate your Geography revision with our Climatology guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
-category: "Chemistry"
-keywords: "climatology class 11 revision notes jee neet, Chemistry, Exam Compass"
+category: "Geography"
+keywords: "climatology class 11 revision notes jee neet, Exam Compass, Geography, Exam Compass"
 ---
-
 # Climatology Class 11 Geography Recap — CBSE 2026 Quick Guide
 
-![Climatology recap](/blog-images/climatology-class-11-notes.webp)
+![Hero Image](/blog-images/climatology-class-11-revision-notes-jee-neet.webp)
 
 *Last Updated: 2026-03-22*
 

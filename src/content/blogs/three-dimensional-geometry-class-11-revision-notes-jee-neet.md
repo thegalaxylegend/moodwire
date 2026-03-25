@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/three-dimensional-geometry-class-11-revision-notes-jee-neet.webp"
 title: "Three Dimensional Geometry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Accelerate your Physics revision with our Three Dimensional Geometry guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Physics"
-keywords: "three dimensional geometry class 11 revision notes jee neet, Physics, Exam Compass"
+keywords: "three dimensional geometry class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
 ---
-
 # Three Dimensional Geometry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Three Dimensional Geometry Revision Notes recap](/blog-images/three-dimensional-geometry-revision-notes.webp)
+![Hero Image](/blog-images/three-dimensional-geometry-class-11-revision-notes-jee-neet.webp)
 
 *Last Updated: 2026-03-22*
 

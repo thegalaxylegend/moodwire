@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/class-10-science-pyq-strategy.webp"
 title: "Class 10 Science Pyq Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide"
 description: "Deep dive into Class 10 Science Pyq Strategy Class 10. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Biology"
-keywords: "class 10 science pyq strategy class 10 revision notes neet, Biology, Exam Compass"
+keywords: "class 10 science pyq strategy class 10 revision notes neet, Exam Compass, Exam Compass, Biology, Exam Compass"
 ---
-
 # Class 10 Science Pyq Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide
 
 ![Class 10 Science Pyq Strategy recap](/blog-images/class-10-science-pyq-strategy.webp)

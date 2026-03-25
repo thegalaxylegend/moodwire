@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/biogeography-class-11-revision-notes-neet.webp"
 title: "Biogeography Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "The ultimate Biogeography revision resource for Biology students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Biology"
-keywords: "biogeography class 11 revision notes neet, Biology, Exam Compass"
+keywords: "biogeography class 11 revision notes neet, Exam Compass, Exam Compass, Biology, Exam Compass"
 ---
-
 # Biogeography Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
-![Biogeography recap](/blog-images/biogeography-class-11-notes.webp)
+![Hero Image](/blog-images/biogeography-class-11-revision-notes-neet.webp)
 
 *Last Updated: 2026-03-22*
 

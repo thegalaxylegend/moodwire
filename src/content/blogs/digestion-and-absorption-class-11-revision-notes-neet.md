@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/digestion-and-absorption-class-11-revision-notes-neet.webp"
 title: "Digestion And Absorption Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Learn Digestion And Absorption like a pro. Detailed revision notes, solved examples, and "
 category: "Biology"
-keywords: "digestion and absorption class 11 revision notes neet, Biology, Exam Compass"
+keywords: "digestion and absorption class 11 revision notes neet, Exam Compass, Exam Compass, Biology, Exam Compass"
 ---
-
 # Digestion And Absorption Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
-![Digestion And Absorption recap](/blog-images/digestion-and-absorption-class-11-notes.webp)
+![Hero Image](/blog-images/digestion-and-absorption-class-11-revision-notes-neet.webp)
 
 *Last Updated: 2026-03-22*
 

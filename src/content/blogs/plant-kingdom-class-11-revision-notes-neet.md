@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/plant-kingdom-class-11-revision-notes-neet.webp"
 title: "Plant Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Master Plant Kingdom for Biology 2026. This Grandmaster Guide includes Ayush"
 category: "Biology"
-keywords: "plant kingdom class 11 revision notes neet, Biology, Exam Compass"
+keywords: "plant kingdom class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
 ---
-
 # Plant Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
-![Plant Kingdom recap](/blog-images/plant-kingdom-class-11-notes.webp)
+![Hero Image](/blog-images/plant-kingdom-class-11-revision-notes-neet.webp)
 
 *Last Updated: 2026-03-22*
 

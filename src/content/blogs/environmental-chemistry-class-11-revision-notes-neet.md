@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/environmental-chemistry-class-11-revision-notes-neet.webp"
 title: "Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Deep dive into Environmental Chemistry Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Biology"
-keywords: "environmental chemistry class 11 revision notes neet, Biology, Exam Compass"
+keywords: "environmental chemistry class 11 revision notes neet, Exam Compass, Exam Compass, Biology, Exam Compass"
 ---
-
 # Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
-![Environmental Chemistry recap](/blog-images/environmental-chemistry-class-11-notes.webp)
+![Hero Image](/blog-images/environmental-chemistry-class-11-revision-notes-neet.webp)
 
 *Last Updated: 2026-03-22*
 

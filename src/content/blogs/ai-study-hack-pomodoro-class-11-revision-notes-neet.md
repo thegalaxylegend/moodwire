@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/ai-study-hack-pomodoro-class-11-revision-notes-neet.webp"
 title: "Ai Study Hack Pomodoro Class 11 Computer Science Recap — CBSE 2026 Quick Guide"
 description: "Learn Ai Study Hack Pomodoro like a pro. Detailed revision notes, solved examples, and "
-category: "Biology"
-keywords: "ai study hack pomodoro class 11 revision notes neet, Biology, Exam Compass"
+category: "Computer Science"
+keywords: "ai study hack pomodoro class 11 revision notes neet, Exam Compass, Exam Compass, Computer Science, Exam Compass"
 ---
-
 # Ai Study Hack Pomodoro Class 11 Computer Science Recap — CBSE 2026 Quick Guide
 
 ![Ai Study Hack Pomodoro recap](/blog-images/ai-study-hack-pomodoro-class-11-revision-notes-neet.webp)

@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/the-p-block-elements-11-class-11-revision-notes-jee-neet.webp"
 title: "The P Block Elements 11 Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Master The P Block Elements 11 for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"
 keywords: "the p block elements 11 class 11 revision notes jee neet, Physics, Exam Compass"
 ---
-
 # The P Block Elements 11 Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![The P Block Elements 11 recap](/blog-images/the-p-block-elements-11-class-11-notes.webp)
+![Hero Image](/blog-images/the-p-block-elements-11-class-11-revision-notes-jee-neet.webp)
 
 *Last Updated: 2026-03-22*
 

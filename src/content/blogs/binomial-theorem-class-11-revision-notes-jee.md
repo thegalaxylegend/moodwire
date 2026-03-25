@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/binomial-theorem-class-11-revision-notes-jee.webp"
 title: "Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
 description: "Deep dive into Binomial Theorem Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Mathematics"
 keywords: "binomial theorem class 11 revision notes jee, Mathematics, Exam Compass"
 ---
-
 # Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
 
 ![Binomial Theorem recap](/blog-images/binomial-theorem-class-11-revision-notes-jee.webp)

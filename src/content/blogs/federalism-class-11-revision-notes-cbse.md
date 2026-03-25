@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/federalism-class-11-notes.webp"
 title: "Federalism Class 11 Social Science Recap — CBSE 2026 Quick Guide"
 description: "Learn Federalism like a pro. Detailed revision notes, solved examples, and "
-category: "Physics"
-keywords: "federalism class 11 revision notes cbse, Physics, Exam Compass"
+category: "Social Science"
+keywords: "federalism class 11 revision notes cbse, Exam Compass, Social Science, Exam Compass"
 ---
-
 # Federalism Class 11 Social Science Recap — CBSE 2026 Quick Guide
 
 ![Federalism recap](/blog-images/federalism-class-11-notes.webp)

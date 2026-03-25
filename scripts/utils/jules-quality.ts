@@ -387,6 +387,7 @@ ${optionsArr.join('\n')}
     }).join('\n');
 
     const yaml = `---
+heroImage: "${post.hero_image}"
 title: "${post.title}"
 description: "${seoDesc}"
 category: "${post.subject}"

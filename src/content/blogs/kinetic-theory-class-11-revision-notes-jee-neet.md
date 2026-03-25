@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/kinetic-theory-revision-notes.webp"
 title: "Kinetic Theory Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Master Kinetic Theory for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"
 keywords: "kinetic theory class 11 revision notes jee neet, Physics, Exam Compass"
 ---
-
 # Kinetic Theory Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Kinetic Theory Revision Notes recap](/blog-images/kinetic-theory-revision-notes.webp)

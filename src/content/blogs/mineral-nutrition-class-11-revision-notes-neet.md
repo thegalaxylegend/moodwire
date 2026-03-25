@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/mineral-nutrition-class-11-notes.webp"
 title: "Mineral Nutrition Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Master Mineral Nutrition for Biology 2026. This Grandmaster Guide includes Ayush"
 category: "Biology"
-keywords: "mineral nutrition class 11 revision notes neet, Biology, Exam Compass"
+keywords: "mineral nutrition class 11 revision notes neet, Exam Compass, Exam Compass, Biology, Exam Compass"
 ---
-
 # Mineral Nutrition Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Mineral Nutrition recap](/blog-images/mineral-nutrition-class-11-notes.webp)

@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/gravitation-class-11-revision-notes-jee-neet.webp"
 title: "Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "The ultimate Gravitation revision resource for Physics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Physics"
-keywords: "gravitation class 11 revision notes jee neet, Physics, Exam Compass"
+keywords: "gravitation class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
 ---
-
 # Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Gravitation Revision Notes recap](/blog-images/gravitation-revision-notes.webp)
+![Hero Image](/blog-images/gravitation-class-11-revision-notes-jee-neet.webp)
 
 *Last Updated: 2026-03-22*
 

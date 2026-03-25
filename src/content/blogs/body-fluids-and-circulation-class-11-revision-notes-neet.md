@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/body-fluids-and-circulation-class-11-revision-notes-neet.webp"
 title: "Body Fluids And Circulation Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "The ultimate Body Fluids And Circulation revision resource for Biology students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Biology"
-keywords: "body fluids and circulation class 11 revision notes neet, Biology, Exam Compass"
+keywords: "body fluids and circulation class 11 revision notes neet, Exam Compass, Exam Compass, Biology, Exam Compass"
 ---
-
 # Body Fluids And Circulation Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Body Fluids And Circulation recap](/blog-images/body-fluids-and-circulation-class-11-revision-notes-neet.webp)

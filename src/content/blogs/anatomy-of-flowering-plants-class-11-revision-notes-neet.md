@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/anatomy-of-flowering-plants-class-11-revision-notes-neet.webp"
 title: "Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "The ultimate Anatomy Of Flowering Plants revision resource for Biology students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Biology"
-keywords: "anatomy of flowering plants class 11 revision notes neet, Biology, Exam Compass"
+keywords: "anatomy of flowering plants class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
 ---
-
 # Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Anatomy Of Flowering Plants recap](/blog-images/anatomy-of-flowering-plants-class-11-revision-notes-neet.webp)

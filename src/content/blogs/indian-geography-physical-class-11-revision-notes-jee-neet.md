@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/indian-geography-physical-class-11-notes.webp"
 title: "Indian Geography Physical Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Learn Indian Geography Physical like a pro. Detailed revision notes, solved examples, and "
 category: "Physics"
-keywords: "indian geography physical class 11 revision notes jee neet, Physics, Exam Compass"
+keywords: "indian geography physical class 11 revision notes jee neet, Exam Compass, Exam Compass, Physics, Exam Compass"
 ---
-
 # Indian Geography Physical Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Indian Geography Physical recap](/blog-images/indian-geography-physical-class-11-notes.webp)

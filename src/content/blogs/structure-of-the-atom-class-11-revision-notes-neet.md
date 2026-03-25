@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/structure-of-the-atom-class-11-revision-notes-neet.webp"
 title: "Structure Of The Atom Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Accelerate your Biology revision with our Structure Of The Atom guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Biology"
-keywords: "structure of the atom class 11 revision notes neet, Biology, Exam Compass"
+keywords: "structure of the atom class 11 revision notes neet, Exam Compass, Exam Compass, Biology, Exam Compass"
 ---
-
 # Structure Of The Atom Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
-![Structure Of The Atom recap](/blog-images/structure-of-the-atom-class-11-notes.webp)
+![Hero Image](/blog-images/structure-of-the-atom-class-11-revision-notes-neet.webp)
 
 *Last Updated: 2026-03-22*
 

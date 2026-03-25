@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/neet-biology-80-20-rule-class-11-revision-notes-neet.webp"
 title: "Neet Biology 80 20 Rule Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Learn Neet Biology 80 20 Rule like a pro. Detailed revision notes, solved examples, and "
 category: "Biology"
-keywords: "neet biology 80 20 rule class 11 revision notes neet, Biology, Exam Compass"
+keywords: "neet biology 80 20 rule class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
 ---
-
 # Neet Biology 80 20 Rule Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
-![Neet Biology 80 20 Rule recap](/blog-images/neet-biology-80-20-rule.webp)
+![Hero Image](/blog-images/neet-biology-80-20-rule-class-11-revision-notes-neet.webp)
 
 *Last Updated: 2026-03-22*
 

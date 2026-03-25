@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/morphology-of-flowering-plants-class-11-revision-notes-neet.webp"
 title: "Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Master Morphology Of Flowering Plants for Biology 2026. This Grandmaster Guide includes Ayush"
 category: "Biology"
-keywords: "morphology of flowering plants class 11 revision notes neet, Biology, Exam Compass"
+keywords: "morphology of flowering plants class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
 ---
-
 # Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
-![Morphology Of Flowering Plants recap](/blog-images/morphology-of-flowering-plants-class-11-notes.webp)
+![Hero Image](/blog-images/morphology-of-flowering-plants-class-11-revision-notes-neet.webp)
 
 *Last Updated: 2026-03-22*
 

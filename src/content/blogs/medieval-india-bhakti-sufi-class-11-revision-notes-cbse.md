@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/medieval-india-bhakti-sufi-class-11-revision-notes-cbse.webp"
 title: "Medieval India Bhakti Sufi Class 11 History Recap — CBSE 2026 Quick Guide"
 description: "Learn Medieval India Bhakti Sufi like a pro. Detailed revision notes, solved examples, and "
-category: "Physics"
-keywords: "medieval india bhakti sufi class 11 revision notes cbse, Physics, Exam Compass"
+category: "History"
+keywords: "medieval india bhakti sufi class 11 revision notes cbse, History, Exam Compass"
 ---
-
 # Medieval India Bhakti Sufi Class 11 History Recap — CBSE 2026 Quick Guide
 
-![Medieval India Bhakti Sufi recap](/blog-images/medieval-india-bhakti-sufi-class-11-notes.webp)
+![Hero Image](/blog-images/medieval-india-bhakti-sufi-class-11-revision-notes-cbse.webp)
 
 *Last Updated: 2026-03-22*
 

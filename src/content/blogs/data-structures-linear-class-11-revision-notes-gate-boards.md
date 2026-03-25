@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/data-structures-linear-class-11-revision-notes-gate-boards.webp"
 title: "Data Structures: Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide"
 description: "Master Data Structures: Linear for Computer Science 2026. This Grandmaster Guide includes Ayush"
-category: "Physics"
-keywords: "data structures linear class 11 revision notes gate boards, Physics, Exam Compass"
+category: "Computer Science"
+keywords: "data structures linear class 11 revision notes gate boards, Exam Compass, Computer Science, Exam Compass"
 ---
-
 # Data Structures: Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide
 
 ![Data Structures: Linear recap](/blog-images/data-structures-linear-class-11-revision-notes-gate-boards.webp)

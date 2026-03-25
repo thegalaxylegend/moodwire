@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/linear-inequalities-class-11-revision-notes-jee-neet.webp"
 title: "Linear Inequalities Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Accelerate your Physics revision with our Linear Inequalities guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Physics"
-keywords: "linear inequalities class 11 revision notes jee neet, Physics, Exam Compass"
+keywords: "linear inequalities class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
 ---
-
 # Linear Inequalities Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Linear Inequalities Revision Notes recap](/blog-images/linear-inequalities-revision-notes.webp)
+![Hero Image](/blog-images/linear-inequalities-class-11-revision-notes-jee-neet.webp)
 
 *Last Updated: 2026-03-22*
 

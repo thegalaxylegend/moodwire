@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/cell-cycle-and-cell-division-class-11-revision-notes-neet.webp"
 title: "Cell Cycle And Cell Division Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Accelerate your Biology revision with our Cell Cycle And Cell Division guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Biology"
-keywords: "cell cycle and cell division class 11 revision notes neet, Biology, Exam Compass"
+keywords: "cell cycle and cell division class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
 ---
-
 # Cell Cycle And Cell Division Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Cell Cycle And Cell Division recap](/blog-images/cell-cycle-and-cell-division-class-11-revision-notes-neet.webp)

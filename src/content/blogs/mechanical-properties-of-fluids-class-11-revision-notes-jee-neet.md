@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/mechanical-properties-of-fluids-revision-notes.webp"
 title: "Mechanical Properties Of Fluids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Master Mechanical Properties Of Fluids for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"
-keywords: "mechanical properties of fluids class 11 revision notes jee neet, Physics, Exam Compass"
+keywords: "mechanical properties of fluids class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
 ---
-
 # Mechanical Properties Of Fluids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Mechanical Properties Of Fluids Revision Notes recap](/blog-images/mechanical-properties-of-fluids-revision-notes.webp)

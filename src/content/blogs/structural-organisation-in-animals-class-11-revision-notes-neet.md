@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/structural-organisation-in-animals-class-11-revision-notes-neet.webp"
 title: "Structural Organisation In Animals Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Master Structural Organisation In Animals for Biology 2026. This Grandmaster Guide includes Ayush"
 category: "Biology"
-keywords: "structural organisation in animals class 11 revision notes neet, Biology, Exam Compass"
+keywords: "structural organisation in animals class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
 ---
-
 # Structural Organisation In Animals Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
-![Structural Organisation In Animals recap](/blog-images/structural-organisation-in-animals-class-11-notes.webp)
+![Hero Image](/blog-images/structural-organisation-in-animals-class-11-revision-notes-neet.webp)
 
 *Last Updated: 2026-03-22*
 

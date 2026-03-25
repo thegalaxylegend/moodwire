@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/neet-2026-weightage-prediction-class-11-revision-notes-neet.webp"
 title: "Neet 2026 Weightage Prediction Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Learn Neet 2026 Weightage Prediction like a pro. Detailed revision notes, solved examples, and "
 category: "Biology"
-keywords: "neet 2026 weightage prediction class 11 revision notes neet, Biology, Exam Compass"
+keywords: "neet 2026 weightage prediction class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
 ---
-
 # Neet 2026 Weightage Prediction Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
-![Neet 2026 Weightage Prediction recap](/blog-images/neet-2026-weightage-prediction.webp)
+![Hero Image](/blog-images/neet-2026-weightage-prediction-class-11-revision-notes-neet.webp)
 
 *Last Updated: 2026-03-22*
 

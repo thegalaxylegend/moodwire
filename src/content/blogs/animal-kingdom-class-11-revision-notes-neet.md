@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/animal-kingdom-class-11-revision-notes-neet.webp"
 title: "Animal Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Accelerate your Biology revision with our Animal Kingdom guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Biology"
-keywords: "animal kingdom class 11 revision notes neet, Biology, Exam Compass"
+keywords: "animal kingdom class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
 ---
-
 # Animal Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Animal Kingdom recap](/blog-images/animal-kingdom-class-11-revision-notes-neet.webp)

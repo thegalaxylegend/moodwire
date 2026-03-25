@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/geomorphology-class-11-revision-notes-cbse.webp"
 title: "Geomorphology Class 11 Geography Recap — CBSE 2026 Quick Guide"
 description: "Deep dive into Geomorphology Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
-category: "Physics"
-keywords: "geomorphology class 11 revision notes cbse, Physics, Exam Compass"
+category: "Geography"
+keywords: "geomorphology class 11 revision notes cbse, Exam Compass, Geography, Exam Compass"
 ---
-
 # Geomorphology Class 11 Geography Recap — CBSE 2026 Quick Guide
 
-![Geomorphology recap](/blog-images/geomorphology-class-11-notes.webp)
+![Hero Image](/blog-images/geomorphology-class-11-revision-notes-cbse.webp)
 
 *Last Updated: 2026-03-22*
 

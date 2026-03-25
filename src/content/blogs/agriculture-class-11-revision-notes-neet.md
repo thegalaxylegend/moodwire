@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/agriculture-class-11-revision-notes-neet.webp"
 title: "Agriculture Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Accelerate your Biology revision with our Agriculture guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Biology"
-keywords: "agriculture class 11 revision notes neet, Biology, Exam Compass"
+keywords: "agriculture class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
 ---
-
 # Agriculture Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Agriculture recap](/blog-images/agriculture-class-11-revision-notes-neet.webp)

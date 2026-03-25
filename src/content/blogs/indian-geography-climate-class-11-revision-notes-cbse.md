@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/indian-geography-climate-class-11-notes.webp"
 title: "Indian Geography Climate Class 11 Geography Recap — CBSE 2026 Quick Guide"
 description: "Master Indian Geography Climate for Geography 2026. This Grandmaster Guide includes Ayush"
-category: "Biology"
-keywords: "indian geography climate class 11 revision notes cbse, Biology, Exam Compass"
+category: "Geography"
+keywords: "indian geography climate class 11 revision notes cbse, Exam Compass, Geography, Exam Compass"
 ---
-
 # Indian Geography Climate Class 11 Geography Recap — CBSE 2026 Quick Guide
 
 ![Indian Geography Climate recap](/blog-images/indian-geography-climate-class-11-notes.webp)

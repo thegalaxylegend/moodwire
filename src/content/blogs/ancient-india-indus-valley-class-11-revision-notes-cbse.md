@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/ancient-india-indus-valley-class-11-revision-notes-cbse.webp"
 title: "Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide"
 description: "The ultimate Ancient India Indus Valley revision resource for History students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
-category: "Physics"
-keywords: "ancient india indus valley class 11 revision notes cbse, Physics, Exam Compass"
+category: "History"
+keywords: "ancient india indus valley class 11 revision notes cbse, Exam Compass, History, Exam Compass"
 ---
-
 # Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide
 
 ![Ancient India Indus Valley recap](/blog-images/ancient-india-indus-valley-class-11-revision-notes-cbse.webp)

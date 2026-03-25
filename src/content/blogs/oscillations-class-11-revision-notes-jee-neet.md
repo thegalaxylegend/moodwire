@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/oscillations-class-11-revision-notes-jee-neet.webp"
 title: "Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Master Oscillations for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"
 keywords: "oscillations class 11 revision notes jee neet, Physics, Exam Compass"
 ---
-
 # Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Oscillations Revision Notes recap](/blog-images/oscillations-revision-notes.webp)
+![Hero Image](/blog-images/oscillations-class-11-revision-notes-jee-neet.webp)
 
 *Last Updated: 2026-03-22*
 

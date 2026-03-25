@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/complex-numbers-class-11-revision-notes-jee-neet.webp"
 title: "Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Learn Complex Numbers like a pro. Detailed revision notes, solved examples, and "
 category: "Physics"
-keywords: "complex numbers class 11 revision notes jee neet, Physics, Exam Compass"
+keywords: "complex numbers class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
 ---
-
 # Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Complex Numbers Revision Notes recap](/blog-images/complex-numbers-revision-notes.webp)
+![Hero Image](/blog-images/complex-numbers-class-11-revision-notes-jee-neet.webp)
 
 *Last Updated: 2026-03-22*
 

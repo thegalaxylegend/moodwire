@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/electric-charges-fields-class-11-revision-notes-jee-neet.webp"
 title: "Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "The ultimate Electric Charges Fields revision resource for Physics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Physics"
-keywords: "electric charges fields class 11 revision notes jee neet, Physics, Exam Compass"
+keywords: "electric charges fields class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
 ---
-
 # Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Electric Charges Fields Revision Notes recap](/blog-images/electric-charges-fields-revision-notes.webp)
+![Hero Image](/blog-images/electric-charges-fields-class-11-revision-notes-jee-neet.webp)
 
 *Last Updated: 2026-03-22*
 

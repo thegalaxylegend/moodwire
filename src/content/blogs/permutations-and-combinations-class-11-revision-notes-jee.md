@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/permutations-and-combinations-class-11-revision-notes-jee.webp"
 title: "Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
 description: "Deep dive into Permutations and Combinations Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Mathematics"
 keywords: "permutations and combinations class 11 revision notes jee, Mathematics, Exam Compass"
 ---
-
 # Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
 
 ![Permutations and Combinations recap](/blog-images/permutations-and-combinations-class-11-revision-notes-jee.webp)

@@ -34,7 +34,7 @@ async function sync() {
         const descMatch = content.match(/^description:\s*["'](.*?)["']/m);
         const catMatch = content.match(/^category:\s*["'](.*?)["']/m);
         const dateMatch = content.match(/^date:\s*["'](.*?)["']/m);
-        const heroMatch = content.match(/^hero_image:\s*["'](.*?)["']/m);
+        const heroMatch = content.match(/^heroImage:\s*["'](.*?)["']/m) || content.match(/^hero_image:\s*["'](.*?)["']/m);
         const inlineImgMatch = content.match(/\!\[.*?\]\((.*?)\)/);
 
         blogs.push({

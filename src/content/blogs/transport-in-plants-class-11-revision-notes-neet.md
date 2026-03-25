@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/transport-in-plants-class-11-notes.webp"
 title: "Transport In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Master Transport In Plants for Biology 2026. This Grandmaster Guide includes Ayush"
 category: "Biology"
-keywords: "transport in plants class 11 revision notes neet, Biology, Exam Compass"
+keywords: "transport in plants class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
 ---
-
 # Transport In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Transport In Plants recap](/blog-images/transport-in-plants-class-11-notes.webp)

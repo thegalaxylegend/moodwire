@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/relations-functions-class-11-revision-notes-jee-neet.webp"
 title: "Relations Functions Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "The ultimate Relations Functions revision resource for Chemistry students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Chemistry"
-keywords: "relations functions class 11 revision notes jee neet, Chemistry, Exam Compass"
+keywords: "relations functions class 11 revision notes jee neet, Exam Compass, Chemistry, Exam Compass"
 ---
-
 # Relations Functions Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Relations Functions Revision Notes recap](/blog-images/relations-functions-revision-notes.webp)
+![Hero Image](/blog-images/relations-functions-class-11-revision-notes-jee-neet.webp)
 
 *Last Updated: 2026-03-22*
 

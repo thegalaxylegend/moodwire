@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet.webp"
 title: "Jee Mains Chemistry Repeated Concepts Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Master Jee Mains Chemistry Repeated Concepts for Biology 2026. This Grandmaster Guide includes Ayush"
 category: "Biology"
-keywords: "jee mains chemistry repeated concepts class 11 revision notes neet, Biology, Exam Compass"
+keywords: "jee mains chemistry repeated concepts class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
 ---
-
 # Jee Mains Chemistry Repeated Concepts Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
-![Jee Mains Chemistry Repeated Concepts recap](/blog-images/jee-mains-chemistry-repeated-concepts.webp)
+![Hero Image](/blog-images/jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet.webp)
 
 *Last Updated: 2026-03-22*
 

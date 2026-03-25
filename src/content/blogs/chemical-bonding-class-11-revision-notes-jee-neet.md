@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/chemical-bonding-class-11-revision-notes-jee-neet.webp"
 title: "Chemical Bonding Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Learn Chemical Bonding like a pro. Detailed revision notes, solved examples, and "
 category: "Physics"
-keywords: "chemical bonding class 11 revision notes jee neet, Physics, Exam Compass"
+keywords: "chemical bonding class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
 ---
-
 # Chemical Bonding Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Chemical Bonding recap](/blog-images/chemical-bonding-class-11-notes.webp)
+![Hero Image](/blog-images/chemical-bonding-class-11-revision-notes-jee-neet.webp)
 
 *Last Updated: 2026-03-22*
 

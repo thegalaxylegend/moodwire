@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/world-history-industrial-revolution-class-11-notes.webp"
 title: "World History Industrial Revolution Class 11 History Recap — CBSE 2026 Quick Guide"
 description: "Deep dive into World History Industrial Revolution Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
-category: "Physics"
-keywords: "world history industrial revolution class 11 revision notes jee neet, Physics, Exam Compass"
+category: "History"
+keywords: "world history industrial revolution class 11 revision notes jee neet, Exam Compass, History, Exam Compass"
 ---
-
 # World History Industrial Revolution Class 11 History Recap — CBSE 2026 Quick Guide
 
 ![World History Industrial Revolution recap](/blog-images/world-history-industrial-revolution-class-11-notes.webp)

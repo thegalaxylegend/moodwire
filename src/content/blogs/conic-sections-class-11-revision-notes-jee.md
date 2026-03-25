@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/conic-sections-class-11-revision-notes-jee.webp"
 title: "Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
 description: "Accelerate your Mathematics revision with our Conic Sections guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Mathematics"
 keywords: "conic sections class 11 revision notes jee, Mathematics, Exam Compass"
 ---
-
 # Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
 
-![Conic Sections Revision Notes recap](/blog-images/conic-sections-revision-notes.webp)
+![Hero Image](/blog-images/conic-sections-class-11-revision-notes-jee.webp)
 
 *Last Updated: 2026-03-22*
 

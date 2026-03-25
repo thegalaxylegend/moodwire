@@ -1,10 +1,10 @@
 ---
+heroImage: "/blog-images/respiration-in-plants-class-11-notes.webp"
 title: "Respiration In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Master Respiration In Plants for Biology 2026. This Grandmaster Guide includes Ayush"
 category: "Biology"
-keywords: "respiration in plants class 11 revision notes neet, Biology, Exam Compass"
+keywords: "respiration in plants class 11 revision notes neet, Exam Compass, Exam Compass, Biology, Exam Compass"
 ---
-
 # Respiration In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Respiration In Plants recap](/blog-images/respiration-in-plants-class-11-notes.webp)

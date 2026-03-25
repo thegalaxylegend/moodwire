@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/structure-of-atom-class-11-revision-notes-jee-neet.webp"
 title: "Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Master Structure Of Atom for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"
-keywords: "structure of atom class 11 revision notes jee neet, Physics, Exam Compass"
+keywords: "structure of atom class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
 ---
-
 # Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Structure Of Atom Revision Notes recap](/blog-images/structure-of-atom-revision-notes.webp)
+![Hero Image](/blog-images/structure-of-atom-class-11-revision-notes-jee-neet.webp)
 
 *Last Updated: 2026-03-22*
 

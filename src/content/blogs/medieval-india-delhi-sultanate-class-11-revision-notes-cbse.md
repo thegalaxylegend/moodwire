@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/medieval-india-delhi-sultanate-class-11-revision-notes-cbse.webp"
 title: "Medieval India Delhi Sultanate Class 11 History Recap — CBSE 2026 Quick Guide"
 description: "Accelerate your History revision with our Medieval India Delhi Sultanate guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
-category: "Physics"
-keywords: "medieval india delhi sultanate class 11 revision notes cbse, Physics, Exam Compass"
+category: "History"
+keywords: "medieval india delhi sultanate class 11 revision notes cbse, History, Exam Compass"
 ---
-
 # Medieval India Delhi Sultanate Class 11 History Recap — CBSE 2026 Quick Guide
 
-![Medieval India Delhi Sultanate recap](/blog-images/medieval-india-delhi-sultanate-class-11-notes.webp)
+![Hero Image](/blog-images/medieval-india-delhi-sultanate-class-11-revision-notes-cbse.webp)
 
 *Last Updated: 2026-03-22*
 

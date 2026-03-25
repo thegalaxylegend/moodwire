@@ -1,13 +1,13 @@
 ---
+heroImage: "/blog-images/mathematical-reasoning-class-11-revision-notes-jee-neet.webp"
 title: "Mathematical Reasoning Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Learn Mathematical Reasoning like a pro. Detailed revision notes, solved examples, and "
 category: "Physics"
-keywords: "mathematical reasoning class 11 revision notes jee neet, Physics, Exam Compass"
+keywords: "mathematical reasoning class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
 ---
-
 # Mathematical Reasoning Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Mathematical Reasoning Revision Notes recap](/blog-images/mathematical-reasoning-revision-notes.webp)
+![Hero Image](/blog-images/mathematical-reasoning-class-11-revision-notes-jee-neet.webp)
 
 *Last Updated: 2026-03-22*
 
