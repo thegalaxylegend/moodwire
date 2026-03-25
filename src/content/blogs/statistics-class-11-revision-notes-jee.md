@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/statistics-class-11-revision-notes-jee.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Statistics Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
 description: "Deep dive into Statistics Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Mathematics"
 keywords: "statistics class 11 revision notes jee, Mathematics, Exam Compass"
-
-date: "2026-03-22"
 ---
+
 # Statistics Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
 
 ![Hero Image](/blog-images/statistics-class-11-revision-notes-jee.webp)
@@ -146,6 +145,9 @@ Standard Deviation is generally better for advanced mathematical analysis becaus
 Statistics in Class 11 moves beyond just finding averages to understanding the reliability of data. Mastering Mean Deviation and Variance allows you to quantify "risk" and "consistency"—skills used in everything from weather forecasting to the stock market. Keep your calculations precise, and remember: consistency is key (both in data and in your study routine)!
 
 ---
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

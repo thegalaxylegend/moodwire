@@ -1,12 +1,11 @@
 ---
+heroImage: "/blog-images/generic-study.webp"
 title: "Data Structures: Non-Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide"
 description: "Learn Data Structures: Non-Linear like a pro. Detailed revision notes, solved examples, and "
-category: "Computer Science"
-keywords: "data structures non linear class 11 revision notes gate boards, Exam Compass, Computer Science, Exam Compass"
-heroImage: "/blog-images/data-structures-non-linear-class-11-revision-notes-gate-boards.webp"
-
-date: "2026-03-22"
+category: "Biology"
+keywords: "data structures non linear class 11 revision notes gate boards, Biology, Exam Compass"
 ---
+
 # Data Structures: Non-Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide
 
 ![Data Structures: Non-Linear recap](/blog-images/data-structures-non-linear-class-11-revision-notes-gate-boards.webp)
@@ -299,6 +298,9 @@ C. To implement a First-In-First-Out (FIFO) data structure
 D. To implement a Last-In-First-Out (LIFO) data structure
 
 **Answer:** C) A Queue data structure is designed to implement a First-In-First-Out (FIFO) data structure, where elements are added to the end and removed from the front.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

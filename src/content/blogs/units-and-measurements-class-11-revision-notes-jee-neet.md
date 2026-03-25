@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/units-and-measurements-class-11-revision-notes-jee-neet.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Units And Measurements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Master Units And Measurements for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"
-keywords: "units and measurements class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
-
-date: "2026-03-22"
+keywords: "units and measurements class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
 # Units And Measurements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Hero Image](/blog-images/units-and-measurements-class-11-revision-notes-jee-neet.webp)
@@ -187,6 +186,9 @@ Units and Measurements are not just "entry-level" topics; they are the filter th
 
 ---
 **Reference:** [BIPM: The International System of Units](https://www.bipm.org/en/measurement-units/)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

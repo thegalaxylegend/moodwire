@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/state-scholarship-guide-2026-class-11-revision-notes-neet.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "State Scholarship Guide 2026 Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Learn State Scholarship Guide 2026 like a pro. Detailed revision notes, solved examples, and "
 category: "Biology"
-keywords: "state scholarship guide 2026 class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
-
-date: "2026-03-22"
+keywords: "state scholarship guide 2026 class 11 revision notes neet, Biology, Exam Compass"
 ---
+
 # State Scholarship Guide 2026 Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Hero Image](/blog-images/state-scholarship-guide-2026-class-11-revision-notes-neet.webp)
@@ -104,6 +103,9 @@ For state-run talent exams, the SAT section is usually based on the State Board 
 
 ### 3. Can I appear for multiple state-level scholarship exams?
 Yes, typically there is no restriction on appearing for multiple exams as long as you meet the individual eligibility criteria for each. For example, a Class 8 student in West Bengal can appear for both the NMMS and the WBMSTSE. Combining these opportunities maximizes your chances of securing at least one reliable source of educational funding.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

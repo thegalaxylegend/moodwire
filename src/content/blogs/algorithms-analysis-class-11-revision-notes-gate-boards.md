@@ -1,12 +1,11 @@
 ---
+heroImage: "/blog-images/generic-study.webp"
 title: "Algorithms: Analysis Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide"
 description: "Deep dive into Algorithms: Analysis Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
-category: "Computer Science"
-keywords: "algorithms analysis class 11 revision notes gate boards, Exam Compass, Computer Science, Exam Compass"
-heroImage: "/blog-images/algorithms-analysis-class-11-revision-notes-gate-boards.webp"
-
-date: "2026-03-22"
+category: "Physics"
+keywords: "algorithms analysis class 11 revision notes gate boards, Physics, Exam Compass"
 ---
+
 # Algorithms: Analysis Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide
 
 ![Algorithms: Analysis recap](/blog-images/algorithms-analysis-class-11-revision-notes-gate-boards.webp)
@@ -347,6 +346,9 @@ O(log n)
 O(1)
 
 **Answer:** C) The time complexity of Binary Search is O(log n), where n is the number of items in the array.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

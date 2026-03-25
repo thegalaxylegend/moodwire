@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/permutations-combinations-class-11-revision-notes-jee.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
 description: "Deep dive into Permutations Combinations Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Mathematics"
 keywords: "permutations combinations class 11 revision notes jee, Mathematics, Exam Compass"
-
-date: "2026-03-22"
 ---
+
 # Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
 
 ![Hero Image](/blog-images/permutations-combinations-class-11-revision-notes-jee.webp)
@@ -146,6 +145,9 @@ A combination is a selection of items where the order of selection does not matt
 Permutations and Combinations transform the way we see complexity. By mastering the core formulas of nPr and nCr, and understanding when order matters, you gain the power to calculate outcomes in everything from poker hands to the number of ways to sequence DNA. Keep your factorials small and your logic sharp!
 
 ---
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

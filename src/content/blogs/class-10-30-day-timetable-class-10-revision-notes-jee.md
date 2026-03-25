@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/class-10-30-day-timetable-class-10-mathematics-recap-cbse-2026-quick-guide-1774408565648.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Class 10 30 Day Timetable Class 10 Mathematics Recap — CBSE 2026 Quick Guide"
 description: "Master Class 10 30 Day Timetable for Mathematics 2026. This Grandmaster Guide includes Ayush"
 category: "Mathematics"
 keywords: "class 10 30 day timetable class 10 revision notes jee, Mathematics, Exam Compass"
-
-date: "2026-03-22"
 ---
+
 # Class 10 30 Day Timetable Class 10 Mathematics Recap — CBSE 2026 Quick Guide
 
 ![Class 10 30 Day Timetable recap](/blog-images/class-10-30-day-timetable.webp)
@@ -102,6 +101,9 @@ Aim for at least 15 mock tests (5 per major subject). This builds the stamina ne
 
 ### 3. What if I am weak in Mathematics?
 Focus on the "Safe Zone" chapters like Statistics and Probability first. These carry high weightage and are easier to master, ensuring you secure a solid foundation before moving to tougher topics like Trigonometry.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Jee Mains Chemistry Repeated Concepts Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Master Jee Mains Chemistry Repeated Concepts for Biology 2026. This Grandmaster Guide includes Ayush"
 category: "Biology"
-keywords: "jee mains chemistry repeated concepts class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
-
-date: "2026-03-22"
+keywords: "jee mains chemistry repeated concepts class 11 revision notes neet, Biology, Exam Compass"
 ---
+
 # Jee Mains Chemistry Repeated Concepts Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Hero Image](/blog-images/jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet.webp)
@@ -68,6 +67,9 @@ Stop memorizing random reactions. NTA tests your understanding of reaction inter
 Create a checklist of these 15 topics. Do not proceed to obscure corners of the syllabus until you can confidently solve the last 5 years' PYQs for these exact subtopics. Your priority should be securing these guaranteed 60 marks before fighting for the remaining 40.
 
 **Practice Tip:** Start solving our [JEE Mains Past Year Questions](/jee-mains) filtered exactly by these chapters to build rapid muscle memory.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

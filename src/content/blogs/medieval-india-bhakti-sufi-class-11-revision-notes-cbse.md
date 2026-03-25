@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/medieval-india-bhakti-sufi-class-11-revision-notes-cbse.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Medieval India Bhakti Sufi Class 11 History Recap — CBSE 2026 Quick Guide"
 description: "Learn Medieval India Bhakti Sufi like a pro. Detailed revision notes, solved examples, and "
-category: "History"
-keywords: "medieval india bhakti sufi class 11 revision notes cbse, History, Exam Compass"
-
-date: "2026-03-22"
+category: "General"
+keywords: "medieval india bhakti sufi class 11 revision notes cbse, General, Exam Compass"
 ---
+
 # Medieval India Bhakti Sufi Class 11 History Recap — CBSE 2026 Quick Guide
 
 ![Hero Image](/blog-images/medieval-india-bhakti-sufi-class-11-revision-notes-cbse.webp)
@@ -97,6 +96,9 @@ Remember, a strong foundation in history can significantly enhance your understa
 - **Practice answering MCQs** to test your knowledge and identify areas for improvement.
 
 By following these tips and staying committed to your studies, you'll be well on your way to developing a deep understanding of Medieval India and its significance in the broader context of Indian history.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

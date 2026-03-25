@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/environmental-chemistry-class-11-revision-notes-neet.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Deep dive into Environmental Chemistry Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Biology"
-keywords: "environmental chemistry class 11 revision notes neet, Exam Compass, Exam Compass, Biology, Exam Compass"
-
-date: "2026-03-22"
+keywords: "environmental chemistry class 11 revision notes neet, Biology, Exam Compass"
 ---
+
 # Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Hero Image](/blog-images/environmental-chemistry-class-11-revision-notes-neet.webp)
@@ -160,6 +159,9 @@ Last Updated: March 15, 2026
 ## Conclusion
 
 Environmental chemistry is [the study of the chemical and biochemical phenomena that occur in the environment](https://en.wikipedia.org/wiki/Environmental_chemistry). It involves the study of the sources, reactions, transport, and effects of chemical species in the environment. The main branches of environmental chemistry are air, water, and soil pollution. By understanding the concepts of environmental chemistry, we can develop sustainable solutions for environmental problems and mitigate the impact of human activities on the environment.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

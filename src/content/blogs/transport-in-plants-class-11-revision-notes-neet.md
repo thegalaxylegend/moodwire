@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/transport-in-plants-class-11-notes.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Transport In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Master Transport In Plants for Biology 2026. This Grandmaster Guide includes Ayush"
 category: "Biology"
-keywords: "transport in plants class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
-
-date: "2026-03-25"
+keywords: "transport in plants class 11 revision notes neet, Biology, Exam Compass"
 ---
+
 # Transport In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Transport In Plants recap](/blog-images/transport-in-plants-class-11-notes.webp)
@@ -102,6 +101,9 @@ To remember the difference between diffusion and osmosis, use the following tric
 * [Plant Growth and Development Class 11 Notes](/blog/plant-growth-and-development-class-11-notes)
 ### Last Updated Date
 Last Updated: March 16, 2026
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

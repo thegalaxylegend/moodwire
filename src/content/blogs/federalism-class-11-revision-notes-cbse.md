@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/federalism-class-11-social-science-recap-cbse-2026-quick-guide-1774408595848.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Federalism Class 11 Social Science Recap — CBSE 2026 Quick Guide"
 description: "Learn Federalism like a pro. Detailed revision notes, solved examples, and "
-category: "Social Science"
-keywords: "federalism class 11 revision notes cbse, Exam Compass, Social Science, Exam Compass"
-
-date: "2026-03-22"
+category: "General"
+keywords: "federalism class 11 revision notes cbse, General, Exam Compass"
 ---
+
 # Federalism Class 11 Social Science Recap — CBSE 2026 Quick Guide
 
 ![Federalism recap](/blog-images/federalism-class-11-notes.webp)
@@ -83,6 +82,9 @@ As I prepare for the Class 11 exam in 2026, I need to focus on the key concepts 
 - Understand the core concepts of federalism, including federal principles, unitary features, and state-center relations.
 - Practice MCQs and revise the key features of federalism.
 - Be aware of the trap exceptions, including emergency provisions, centralized tendencies, and state autonomy.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

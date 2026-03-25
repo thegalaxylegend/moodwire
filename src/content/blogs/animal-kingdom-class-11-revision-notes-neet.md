@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/animal-kingdom-class-11-revision-notes-neet.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Animal Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Accelerate your Biology revision with our Animal Kingdom guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Biology"
-keywords: "animal kingdom class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
-
-date: "2026-03-22"
+keywords: "animal kingdom class 11 revision notes neet, Biology, Exam Compass"
 ---
+
 # Animal Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Animal Kingdom recap](/blog-images/animal-kingdom-class-11-revision-notes-neet.webp)
@@ -162,6 +161,9 @@ To remember the different phyla and classes of animals, you can use the followin
 ## Last Updated Date
 
 Last Updated: March 16, 2026
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

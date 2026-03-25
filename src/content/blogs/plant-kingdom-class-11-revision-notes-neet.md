@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/plant-kingdom-class-11-revision-notes-neet.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Plant Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Master Plant Kingdom for Biology 2026. This Grandmaster Guide includes Ayush"
 category: "Biology"
-keywords: "plant kingdom class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
-
-date: "2026-03-22"
+keywords: "plant kingdom class 11 revision notes neet, Biology, Exam Compass"
 ---
+
 # Plant Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Hero Image](/blog-images/plant-kingdom-class-11-revision-notes-neet.webp)
@@ -153,6 +152,9 @@ Answer: d) All of the above
 * [Molecular Biology Class 12 Notes](/blog/molecular-biology-class-12-notes)
 
 Note: The above links are to existing posts only.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/equilibrium-class-11-revision-notes-jee-neet.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Equilibrium Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "The ultimate Equilibrium revision resource for Physics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Physics"
-keywords: "equilibrium class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
-
-date: "2026-03-22"
+keywords: "equilibrium class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
 # Equilibrium Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Hero Image](/blog-images/equilibrium-class-11-revision-notes-jee-neet.webp)
@@ -346,6 +345,9 @@ For CBSE, always state Le Chatelier's Principle in full before applying it. Then
 
 ---
 *Last Updated: March 14, 2026*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/fundamental-rights-class-11-social-science-recap-cbse-2026-quick-guide-1774408597151.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Fundamental Rights Class 11 Social Science Recap — CBSE 2026 Quick Guide"
 description: "Deep dive into Fundamental Rights Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
-category: "Social Science"
-keywords: "fundamental rights class 11 revision notes cbse, Exam Compass, Social Science, Exam Compass"
-
-date: "2026-03-22"
+category: "General"
+keywords: "fundamental rights class 11 revision notes cbse, General, Exam Compass"
 ---
+
 # Fundamental Rights Class 11 Social Science Recap — CBSE 2026 Quick Guide
 
 ![Fundamental Rights recap](/blog-images/fundamental-rights-class-11-notes.webp)
@@ -95,6 +94,9 @@ The role of the judiciary in protecting Fundamental Rights is crucial. The court
 ## Quick Revision & Recap
 
 To quickly revise and recap the key points related to Fundamental Rights, I've been **creating concept maps** and **summarizing the main provisions** of the Constitution. I've also been **practicing with sample questions** and **assessing my understanding** of the subject. By doing so, I'm able to **retain the information** more effectively and to **develop a deeper understanding** of the subject. I've been **focusing on the key concepts** and **identifying the relationships** between different rights and their applications. As I revise and recap the subject, I'm reminded of the **significance of Fundamental Rights** in shaping the country's democratic framework and **promoting social justice**.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

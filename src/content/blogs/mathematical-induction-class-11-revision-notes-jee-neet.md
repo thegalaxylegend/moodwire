@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/mathematical-induction-class-11-revision-notes-jee-neet.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Deep dive into Mathematical Induction Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Physics"
-keywords: "mathematical induction class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
-
-date: "2026-03-22"
+keywords: "mathematical induction class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
 # Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Hero Image](/blog-images/mathematical-induction-class-11-revision-notes-jee-neet.webp)
@@ -132,6 +131,9 @@ You can still use induction to prove the statement for $n \geq 5$ by using $n=5$
 Mathematical Induction removes the "guesswork" from general observations. It allows us to climb an infinite ladder by just making sure we can reach the first rung and that each rung leads to the next. Mastering this logic is essential for anyone aiming for a career in mathematics, physics, or computing. Reach for the next rung!
 
 ---
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

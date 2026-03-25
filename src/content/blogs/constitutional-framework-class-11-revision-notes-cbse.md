@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/constitutional-framework-class-11-revision-notes-cbse.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Constitutional Framework Class 11 Social Science Recap — CBSE 2026 Quick Guide"
 description: "The ultimate Constitutional Framework revision resource for Social Science students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
-category: "Social Science"
-keywords: "constitutional framework class 11 revision notes cbse, Exam Compass, Social Science, Exam Compass"
-
-date: "2026-03-22"
+category: "General"
+keywords: "constitutional framework class 11 revision notes cbse, General, Exam Compass"
 ---
+
 # Constitutional Framework Class 11 Social Science Recap — CBSE 2026 Quick Guide
 
 ![Hero Image](/blog-images/constitutional-framework-class-11-revision-notes-cbse.webp)
@@ -97,4 +96,7 @@ I find it helpful to review these trap exceptions regularly, as they can be tric
 
 ---
 
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

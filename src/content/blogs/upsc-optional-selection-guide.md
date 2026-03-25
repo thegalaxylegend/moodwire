@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/gs-overlap-infographic.jpg"
+heroImage: "/blog-images/generic-study.webp"
 title: "Pick the Best UPSC Optional Subject 2026 Guide"
 description: "Master the UPSC optional subject selection for 2026. Use our success rate analysis, syllabus overlap data, and scoring trends to pick the best optional now!"
 category: "Chemistry"
-keywords: "upsc optional selection guide, Exam Compass, General, Exam Compass, Chemistry, Exam Compass"
-
-date: "2026-03-25"
+keywords: "upsc optional selection guide, Chemistry, Exam Compass"
 ---
+
 # Pick the Best UPSC Optional Subject 2026 Guide
 
 If you’re a UPSC aspirant, you know that the "Optional Subject" is where the battle for a top rank is won or lost. It’s 500 marks out of a 1750-mark total in Mains. It’s roughly 30% of your total score, yet it takes up 50% of your mental space. 
@@ -72,6 +71,9 @@ Yes, approximately 70% of successful candidates choose an optional that is diffe
 
 ### 3. How much time should I dedicate to my optional?
 During the first four months of preparation, dedicate 60–70% of your daily study time to your optional. Once you have covered the syllabus, transition to a split of 30% for your optional and 70% for General Studies and current affairs to maintain overall balance.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

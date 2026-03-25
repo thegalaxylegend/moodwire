@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/respiration-in-plants-class-11-notes.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Respiration In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Master Respiration In Plants for Biology 2026. This Grandmaster Guide includes Ayush"
 category: "Biology"
-keywords: "respiration in plants class 11 revision notes neet, Exam Compass, Exam Compass, Biology, Exam Compass"
-
-date: "2026-03-22"
+keywords: "respiration in plants class 11 revision notes neet, Biology, Exam Compass"
 ---
+
 # Respiration In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Respiration In Plants recap](/blog-images/respiration-in-plants-class-11-notes.webp)
@@ -143,6 +142,9 @@ Answer: B) Aerobic respiration occurs in the presence of oxygen, while anaerobic
 Last Updated: March 16, 2026
 
 ![Respiration In Plants Class 11 Notes Notes](/blog-images/respiration-in-plants-class-11-notes.webp)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

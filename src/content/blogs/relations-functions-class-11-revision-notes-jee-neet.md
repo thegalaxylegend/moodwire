@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/relations-functions-class-11-revision-notes-jee-neet.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Relations Functions Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "The ultimate Relations Functions revision resource for Chemistry students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Chemistry"
-keywords: "relations functions class 11 revision notes jee neet, Exam Compass, Chemistry, Exam Compass"
-
-date: "2026-03-22"
+keywords: "relations functions class 11 revision notes jee neet, Chemistry, Exam Compass"
 ---
+
 # Relations Functions Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Hero Image](/blog-images/relations-functions-class-11-revision-notes-jee-neet.webp)
@@ -146,6 +145,9 @@ If f and g are two real functions:
 Functions are the heartbeat of Calculus and higher mathematics. By distinguishing between simple relations and precise functions, and by internalizing the graphs of "parent" functions, you build a mental map of mathematical behavior. Always check your domain constraints and visualize your ranges!
 
 ---
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/three-dimensional-geometry-class-11-revision-notes-jee-neet.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Three Dimensional Geometry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Accelerate your Physics revision with our Three Dimensional Geometry guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Physics"
-keywords: "three dimensional geometry class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
-
-date: "2026-03-22"
+keywords: "three dimensional geometry class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
 # Three Dimensional Geometry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Hero Image](/blog-images/three-dimensional-geometry-class-11-revision-notes-jee-neet.webp)
@@ -149,6 +148,9 @@ The centroid of a triangle with vertices (x₁, y₁, z₁), (x₂, y₂, z₂),
 3D Geometry is the gateway to understanding spatial relationships. By mastering the octant signs and adapting the distance and section formulas from 2D to 3D, you build the mental framework required for advanced physics and engineering. Always visualize the point relative to the coordinate planes, and remember that x, y, or z being zero tells you exactly which plane you're on! Keep your spatial orientation clear.
 
 ---
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

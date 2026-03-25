@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/kinetic-theory-class-11-physics-revision-jee-neet-2026-grandmaster-guide-1774408613045.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Kinetic Theory Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Master Kinetic Theory for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"
 keywords: "kinetic theory class 11 revision notes jee neet, Physics, Exam Compass"
-
-date: "2026-03-22"
 ---
+
 # Kinetic Theory Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Kinetic Theory Revision Notes recap](/blog-images/kinetic-theory-revision-notes.webp)
@@ -160,6 +159,9 @@ The Kinetic Theory of Gases transforms our view of matter from static substances
 
 ---
 **Reference:** [Encyclopaedia Britannica: Kinetic Theory of Gases](https://www.britannica.com/science/kinetic-theory-of-gases)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

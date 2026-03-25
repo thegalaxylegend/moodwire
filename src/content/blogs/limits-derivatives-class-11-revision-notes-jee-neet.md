@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/limits-derivatives-class-11-revision-notes-jee-neet.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Limits Derivatives Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Accelerate your Physics revision with our Limits Derivatives guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Physics"
-keywords: "limits derivatives class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
-
-date: "2026-03-22"
+keywords: "limits derivatives class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
 # Limits Derivatives Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Hero Image](/blog-images/limits-derivatives-class-11-revision-notes-jee-neet.webp)
@@ -152,6 +151,9 @@ This process of finding the derivative using the limit definition is called **Di
 Limits and Derivatives are the tools that allow us to calculate the "slope of a curve" and "instantaneous speed." By mastering the algebra of limits and the core derivative rules (Product, Quotient, and Power), you unlock the door to the vast world of Calculus. Always check your indeterminate forms (0/0) first, and remember that derivatives are just the limit of a secant's slope! Keep your calculations precise and your limits approaching.
 
 ---
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Some Basic Concepts Of Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Master Some Basic Concepts Of Chemistry for Physics 2026. This Grandmaster Guide includes Ayush"
-category: "Chemistry"
-keywords: "some basic concepts of chemistry class 11 revision notes jee neet, Exam Compass, Chemistry, Exam Compass"
-
-date: "2026-03-22"
+category: "Physics"
+keywords: "some basic concepts of chemistry class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
 # Some Basic Concepts Of Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Hero Image](/blog-images/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet.webp)
@@ -135,4 +134,7 @@ Here are some essential formulae to remember:
 
 ---
 
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

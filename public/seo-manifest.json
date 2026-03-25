@@ -471,6 +471,28 @@
     "robots": "index, follow",
     "sitemapGroup": "blogs"
   },
+  "/blog/electromagnetic-induction-class-12-revision-notes-jee-neet/": {
+    "title": "Electromagnetic Induction Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+    "description": "Deep dive into Electromagnetic Induction Class 12. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
+    "date": "2026-03-25",
+    "category": "Physics",
+    "h1": "Electromagnetic Induction Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/electrostatics-class-12-revision-notes-jee-neet/": {
+    "title": "Electrostatics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+    "description": "Deep dive into Electrostatics Class 12. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
+    "date": "2026-03-25",
+    "category": "Physics",
+    "h1": "Electrostatics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
   "/blog/environmental-chemistry-class-11-revision-notes-neet/": {
     "title": "Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
     "description": "Deep dive into Environmental Chemistry Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",

@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/biological-classification-class-11-revision-notes-neet.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Deep dive into Biological Classification Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Biology"
-keywords: "biological classification class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
-
-date: "2026-03-22"
+keywords: "biological classification class 11 revision notes neet, Biology, Exam Compass"
 ---
+
 # Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Biological Classification recap](/blog-images/biological-classification-class-11-revision-notes-neet.webp)
@@ -179,6 +178,9 @@ Difficulty: Easy
 ## Last Updated Date
 
 Last Updated: March 15, 2026
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

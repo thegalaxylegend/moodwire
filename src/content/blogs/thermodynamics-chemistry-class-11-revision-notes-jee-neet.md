@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/thermodynamics-chemistry-class-11-revision-notes-jee-neet.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Master Thermodynamics Chemistry for Physics 2026. This Grandmaster Guide includes Ayush"
-category: "Chemistry"
-keywords: "thermodynamics chemistry class 11 revision notes jee neet, Exam Compass, Chemistry, Exam Compass"
-
-date: "2026-03-22"
+category: "Physics"
+keywords: "thermodynamics chemistry class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
 # Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Hero Image](/blog-images/thermodynamics-chemistry-class-11-revision-notes-jee-neet.webp)
@@ -330,6 +329,9 @@ CBSE loves "Derive the Gibbs-Helmholtz equation" as a 5-mark question. Write the
 
 ---
 *Last Updated: March 13, 2026*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

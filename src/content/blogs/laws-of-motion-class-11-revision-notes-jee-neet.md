@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/laws-of-motion-class-11-revision-notes-jee-neet.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Learn Laws Of Motion like a pro. Detailed revision notes, solved examples, and "
 category: "Physics"
-keywords: "laws of motion class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
-
-date: "2026-03-22"
+keywords: "laws of motion class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
 # Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Hero Image](/blog-images/laws-of-motion-class-11-revision-notes-jee-neet.webp)
@@ -163,6 +162,9 @@ Newton’s Laws of Motion provide the fundamental rules of the game of Physics. 
 
 ---
 **Reference:** [MIT OpenCourseWare: Newton’s Laws](https://ocw.mit.edu/courses/physics/)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/thermodynamics-class-11-revision-notes-neet.png"
+heroImage: "/blog-images/generic-study.webp"
 title: "Thermodynamics Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Accelerate your Biology revision with our Thermodynamics guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Biology"
-keywords: "thermodynamics class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
-
-date: "2026-03-22"
+keywords: "thermodynamics class 11 revision notes neet, Biology, Exam Compass"
 ---
+
 # Thermodynamics Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Hero Image](/blog-images/thermodynamics-class-11-revision-notes-neet.png)
@@ -150,6 +149,9 @@ Thermodynamics is the science of limits. By understanding the mathematical proof
 
 ---
 **Reference:** [Journal of Thermal Science and Engineering](https://www.journals.elsevier.com)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

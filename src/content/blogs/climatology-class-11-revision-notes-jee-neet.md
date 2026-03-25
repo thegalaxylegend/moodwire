@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/climatology-class-11-revision-notes-jee-neet.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Climatology Class 11 Geography Recap — CBSE 2026 Quick Guide"
 description: "Accelerate your Geography revision with our Climatology guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
-category: "Geography"
-keywords: "climatology class 11 revision notes jee neet, Exam Compass, Geography, Exam Compass"
-
-date: "2026-03-22"
+category: "Chemistry"
+keywords: "climatology class 11 revision notes jee neet, Chemistry, Exam Compass"
 ---
+
 # Climatology Class 11 Geography Recap — CBSE 2026 Quick Guide
 
 ![Hero Image](/blog-images/climatology-class-11-revision-notes-jee-neet.webp)
@@ -114,6 +113,9 @@ Here is a concept map to help you visualize the relationships between different 
 ```
 
 By mastering these core concepts, formulae, and climatic factors, you'll be well-prepared to tackle any question related to climatology in your Class 11 Geography exams and JEE/NEET entrance exams. Remember to practice regularly and stay updated with the latest information to achieve success.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

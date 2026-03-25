@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/ai-study-hack-pomodoro-class-11-computer-science-recap-cbse-2026-quick-guide-1774408534972.webp"
+heroImage: "/blog-images/ai-study-hack-pomodoro-class-11-computer-science-recap-cbse-2026-quick-guide-1774443497217.webp"
 title: "Ai Study Hack Pomodoro Class 11 Computer Science Recap — CBSE 2026 Quick Guide"
 description: "Learn Ai Study Hack Pomodoro like a pro. Detailed revision notes, solved examples, and "
-category: "Computer Science"
-keywords: "ai study hack pomodoro class 11 revision notes neet, Exam Compass, Exam Compass, Computer Science, Exam Compass"
-
-date: "2026-03-22"
+category: "Biology"
+keywords: "ai study hack pomodoro class 11 revision notes neet, Biology, Exam Compass"
 ---
+
 # Ai Study Hack Pomodoro Class 11 Computer Science Recap — CBSE 2026 Quick Guide
 
 ![Ai Study Hack Pomodoro recap](/blog-images/ai-study-hack-pomodoro-class-11-revision-notes-neet.webp)
@@ -137,4 +136,7 @@ Organisms
 
 ---
 
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

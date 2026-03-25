@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/limits-and-derivatives-class-11-revision-notes-jee.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Limits and Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
 description: "Master Limits and Derivatives for Mathematics 2026. This Grandmaster Guide includes Ayush"
-category: "Mathematics"
-keywords: "limits and derivatives class 11 revision notes jee, Mathematics, Exam Compass"
-
-date: "2026-03-22"
+category: "Biology"
+keywords: "limits and derivatives class 11 revision notes jee, Biology, Exam Compass"
 ---
+
 # Limits and Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
 
 ![Limits and Derivatives recap](/blog-images/limits-and-derivatives-class-11-revision-notes-jee.webp)
@@ -298,4 +297,7 @@ D. 28x^3 + 6x^2 - 10x + 1 + 0
 
 ---
 
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

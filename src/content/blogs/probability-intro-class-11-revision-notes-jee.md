@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/probability-intro-class-11-revision-notes-jee.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Probability (Intro) Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
 description: "Master Probability (Intro) for Mathematics 2026. This Grandmaster Guide includes Ayush"
-category: "Mathematics"
-keywords: "probability intro class 11 revision notes jee, Mathematics, Exam Compass"
-
-date: "2026-03-22"
+category: "Physics"
+keywords: "probability intro class 11 revision notes jee, Physics, Exam Compass"
 ---
+
 # Probability (Intro) Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
 
 ![Probability (Intro) recap](/blog-images/probability-intro-class-11-revision-notes-jee.webp)
@@ -362,4 +361,7 @@ What are common Trap Questions for Probability (Intro) is a crucial area of stud
 
 ---
 
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

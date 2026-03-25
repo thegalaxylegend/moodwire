@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/linear-inequalities-class-11-revision-notes-jee-neet.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Linear Inequalities Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Accelerate your Physics revision with our Linear Inequalities guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Physics"
-keywords: "linear inequalities class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
-
-date: "2026-03-22"
+keywords: "linear inequalities class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
 # Linear Inequalities Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Hero Image](/blog-images/linear-inequalities-class-11-revision-notes-jee-neet.webp)
@@ -145,6 +144,9 @@ Inequalities are used extensively in:
 Linear Inequalities shift your thinking from "points" to "regions." By mastering the rules of sign reversal and the art of graphical shading, you prepare yourself for the complex optimization problems found in higher mathematics and real-world economics. Stay within your boundaries, but keep your ranges wide!
 
 ---
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

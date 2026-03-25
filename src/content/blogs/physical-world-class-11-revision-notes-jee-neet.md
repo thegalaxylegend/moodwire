@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/physical-world-class-11-revision-notes-jee-neet.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Physical World Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Accelerate your Physics revision with our Physical World guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Physics"
-keywords: "physical world class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
-
-date: "2026-03-22"
+keywords: "physical world class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
 # Physical World Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Hero Image](/blog-images/physical-world-class-11-revision-notes-jee-neet.webp)
@@ -136,6 +135,9 @@ Answer: A) $n = 1 + \log_{10}x$
 ## Last Updated Date
 
 Last Updated: March 15, 2026
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

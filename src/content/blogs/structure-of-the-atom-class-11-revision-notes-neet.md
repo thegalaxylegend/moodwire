@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/structure-of-the-atom-class-11-revision-notes-neet.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Structure Of The Atom Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Accelerate your Biology revision with our Structure Of The Atom guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Biology"
-keywords: "structure of the atom class 11 revision notes neet, Exam Compass, Exam Compass, Biology, Exam Compass"
-
-date: "2026-03-22"
+keywords: "structure of the atom class 11 revision notes neet, Biology, Exam Compass"
 ---
+
 # Structure Of The Atom Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Hero Image](/blog-images/structure-of-the-atom-class-11-revision-notes-neet.webp)
@@ -78,4 +77,7 @@ The structure of an atom is a crucial topic for JEE/NEET exams, and it's essenti
 
 ---
 
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

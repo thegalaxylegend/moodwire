@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/motion-in-a-straight-line-class-11-physics-revision-jee-neet-2026-grandmaster-guide-1774408639867.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Accelerate your Physics revision with our Motion In A Straight Line guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Physics"
-keywords: "motion in a straight line class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
-
-date: "2026-03-22"
+keywords: "motion in a straight line class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
 # Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Motion In A Straight Line Revision Notes recap](/blog-images/motion-in-a-straight-line-revision-notes.webp)
@@ -184,6 +183,9 @@ Motion in a straight line is the foundation upon which all of Mechanical Physics
 
 ---
 **Reference:** [Khan Academy: Physics Kinematics](https://www.khanacademy.org/science/physics/one-dimensional-motion)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

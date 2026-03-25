@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/binomial-theorem-class-11-revision-notes-jee.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
 description: "Deep dive into Binomial Theorem Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Mathematics"
 keywords: "binomial theorem class 11 revision notes jee, Mathematics, Exam Compass"
-
-date: "2026-03-22"
 ---
+
 # Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
 
 ![Binomial Theorem recap](/blog-images/binomial-theorem-class-11-revision-notes-jee.webp)
@@ -169,6 +168,9 @@ The middle term depends on whether the index **n** is even or odd:
 The Binomial Theorem simplifies what could otherwise be a mathematical nightmare. By recognizing the symmetry of Pascal's Triangle and mastering the general term formula, you can find any term in an expansion without writing out the whole series. It's about finding patterns in power! Focus on the relationship between the index and the number of terms, and always watch your signs in (a - b)ⁿ expansions.
 
 ---
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

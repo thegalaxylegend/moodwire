@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/breathing-and-exchange-of-gases-class-11-notes.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Breathing And Exchange Of Gases Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Deep dive into Breathing And Exchange Of Gases Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Biology"
-keywords: "breathing and exchange of gases class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
-
-date: "2026-03-22"
+keywords: "breathing and exchange of gases class 11 revision notes neet, Biology, Exam Compass"
 ---
+
 # Breathing And Exchange Of Gases Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Breathing And Exchange Of Gases recap](/blog-images/breathing-and-exchange-of-gases-class-11-notes.webp)
@@ -180,6 +179,9 @@ c) 28 g/mol
 d) 40 g/mol
 
 Answer: b) 32 g/mol
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

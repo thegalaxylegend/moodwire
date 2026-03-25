@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/hydrocarbons-class-11-revision-notes-neet.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Hydrocarbons Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Deep dive into Hydrocarbons Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Biology"
-keywords: "hydrocarbons class 11 revision notes neet, Exam Compass, Exam Compass, Biology, Exam Compass"
-
-date: "2026-03-22"
+keywords: "hydrocarbons class 11 revision notes neet, Biology, Exam Compass"
 ---
+
 # Hydrocarbons Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Hero Image](/blog-images/hydrocarbons-class-11-revision-notes-neet.webp)
@@ -146,6 +145,9 @@ Answer: c) Ethyne
 
 - [Alkyl Halides Class 11 Notes](/blog/alkyl-halides-class-11-notes)
 - [Alcohols Class 11 Notes](/blog/alcohols-class-11-notes)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

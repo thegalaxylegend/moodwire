@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/agriculture-class-11-biology-revision-neet-2026-grandmaster-guide-1774408531755.webp"
+heroImage: "/blog-images/agriculture-class-11-biology-revision-neet-2026-grandmaster-guide-1774443493658.webp"
 title: "Agriculture Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Accelerate your Biology revision with our Agriculture guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Biology"
-keywords: "agriculture class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
-
-date: "2026-03-22"
+keywords: "agriculture class 11 revision notes neet, Biology, Exam Compass"
 ---
+
 # Agriculture Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Agriculture recap](/blog-images/agriculture-class-11-revision-notes-neet.webp)
@@ -133,4 +132,7 @@ Organic farming has no role in agriculture
 
 ---
 
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

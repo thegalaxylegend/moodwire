@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/hydrogen-class-11-revision-notes-neet.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Hydrogen Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Deep dive into Hydrogen Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Biology"
-keywords: "hydrogen class 11 revision notes neet, Exam Compass, Exam Compass, Biology, Exam Compass"
-
-date: "2026-03-22"
+keywords: "hydrogen class 11 revision notes neet, Biology, Exam Compass"
 ---
+
 # Hydrogen Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Hero Image](/blog-images/hydrogen-class-11-revision-notes-neet.webp)
@@ -168,6 +167,9 @@ The key points to remember about hydrogen are:
 * It is a key component of water (H2O) and most organic compounds.
 * Hydrogen has a wide range of applications, including energy production, transportation, and industrial processes.
 </div>
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/data-structures-linear-class-11-revision-notes-gate-boards.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Data Structures: Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide"
 description: "Master Data Structures: Linear for Computer Science 2026. This Grandmaster Guide includes Ayush"
-category: "Computer Science"
-keywords: "data structures linear class 11 revision notes gate boards, Exam Compass, Computer Science, Exam Compass"
-
-date: "2026-03-22"
+category: "Chemistry"
+keywords: "data structures linear class 11 revision notes gate boards, Chemistry, Exam Compass"
 ---
+
 # Data Structures: Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide
 
 ![Data Structures: Linear recap](/blog-images/data-structures-linear-class-11-revision-notes-gate-boards.webp)
@@ -400,4 +399,7 @@ Last-In-First-Out (LIFO) order is maintained
 
 ---
 
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

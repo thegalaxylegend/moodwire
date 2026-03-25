@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/jee-advanced-math-difficulty-trends-class-11-revision-notes-jee-neet.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Jee Advanced Math Difficulty Trends Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "The ultimate Jee Advanced Math Difficulty Trends revision resource for Physics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Physics"
-keywords: "jee advanced math difficulty trends class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
-
-date: "2026-03-22"
+keywords: "jee advanced math difficulty trends class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
 # Jee Advanced Math Difficulty Trends Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Hero Image](/blog-images/jee-advanced-math-difficulty-trends-class-11-revision-notes-jee-neet.webp)
@@ -73,6 +72,9 @@ To adapt to this shifting curve:
 3. **Practice Time Management:** Some problems are deliberately designed as traps to waste your time. Learning when to skip is as crucial as learning how to solve.
 
 Mastering JEE Advanced Mathematics is no longer about doing 500 repetitive problems from a coaching module; it's about doing 50 high-quality, multi-conceptual problems and deeply analyzing the underlying logic.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

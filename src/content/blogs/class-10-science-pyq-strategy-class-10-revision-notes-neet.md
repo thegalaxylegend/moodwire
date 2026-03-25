@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/class-10-science-pyq-strategy-class-10-biology-recap-cbse-2026-quick-guide-1774408568041.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Class 10 Science Pyq Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide"
 description: "Deep dive into Class 10 Science Pyq Strategy Class 10. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Biology"
-keywords: "class 10 science pyq strategy class 10 revision notes neet, Exam Compass, Exam Compass, Biology, Exam Compass"
-
-date: "2026-03-22"
+keywords: "class 10 science pyq strategy class 10 revision notes neet, Biology, Exam Compass"
 ---
+
 # Class 10 Science Pyq Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide
 
 ![Class 10 Science Pyq Strategy recap](/blog-images/class-10-science-pyq-strategy.webp)
@@ -102,6 +101,9 @@ Focus on the last 5–10 years. However, prioritize the most recent 5 years, as 
 
 ### 3. Which Science chapters have the highest ROI?
 "Our Environment" has the highest ROI (marks per hour of study). For major marks, prioritize "Light," "Electricity," and "Life Processes," as they are consistently high-weightage in the CBSE boards.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

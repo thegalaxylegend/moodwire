@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/oscillations-class-11-revision-notes-jee-neet.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Master Oscillations for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"
 keywords: "oscillations class 11 revision notes jee neet, Physics, Exam Compass"
-
-date: "2026-03-22"
 ---
+
 # Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Hero Image](/blog-images/oscillations-class-11-revision-notes-jee-neet.webp)
@@ -180,6 +179,9 @@ Oscillations are the universal language of physical vibration. By mastering the 
 
 ---
 **Reference:** [Journal of Sound and Vibration](https://www.journals.elsevier.com/journal-of-sound-and-vibration)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

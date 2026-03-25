@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/physics-mechanics-class-11-physics-revision-jee-neet-2026-grandmaster-guide-1774408663297.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Physics Mechanics Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Master Physics Mechanics for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"
 keywords: "physics mechanics class 11 revision notes jee neet, Physics, Exam Compass"
-
-date: "2026-03-22"
 ---
+
 # Physics Mechanics Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Physics Mechanics recap](/blog-images/physics-mechanics-class-11-notes.webp)
@@ -65,4 +64,7 @@ The key concepts in Physics: Mechanics include motion, forces, energy, and momen
 
 ---
 
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

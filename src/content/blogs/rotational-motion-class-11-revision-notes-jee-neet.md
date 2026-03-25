@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/rotational-motion-class-11-revision-notes-jee-neet.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Rotational Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "The ultimate Rotational Motion revision resource for Physics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Physics"
-keywords: "rotational motion class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
-
-date: "2026-03-22"
+keywords: "rotational motion class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
 # Rotational Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Hero Image](/blog-images/rotational-motion-class-11-revision-notes-jee-neet.webp)
@@ -162,6 +161,9 @@ Rotational Motion is the ultimate test of a physicist's understanding of symmetr
 
 ---
 **Reference:** [Physics World: The Secrets of Angular Momentum](https://physicsworld.com)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

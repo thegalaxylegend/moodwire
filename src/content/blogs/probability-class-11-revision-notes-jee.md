@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/probability-class-11-revision-notes-jee.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
 description: "The ultimate Probability revision resource for Mathematics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Mathematics"
 keywords: "probability class 11 revision notes jee, Mathematics, Exam Compass"
-
-date: "2026-03-22"
 ---
+
 # Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
 
 ![Hero Image](/blog-images/probability-class-11-revision-notes-jee.webp)
@@ -145,6 +144,9 @@ Instead of just counting outcomes, we assign a number $P(E)$ to an event $E$ tha
 Probability teaches us to look at the world through the lens of logic rather than luck. By mastering the relationships between events and the addition rule, you lay the foundation for advanced statistical modeling and decision-making. Whether you're calculating the odds in a game or analyzing scientific data, these axioms remain your best guide!
 
 ---
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

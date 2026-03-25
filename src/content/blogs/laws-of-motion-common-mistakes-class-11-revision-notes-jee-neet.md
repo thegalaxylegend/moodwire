@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Laws Of Motion Common Mistakes Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Accelerate your Physics revision with our Laws Of Motion Common Mistakes guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Physics"
-keywords: "laws of motion common mistakes class 11 revision notes jee neet, Exam Compass, Physics, Exam Compass"
-
-date: "2026-03-22"
+keywords: "laws of motion common mistakes class 11 revision notes jee neet, Physics, Exam Compass"
 ---
+
 # Laws Of Motion Common Mistakes Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Hero Image](/blog-images/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet.webp)
@@ -88,6 +87,9 @@ Solving problems on a rotating turntable or an accelerating truck without applyi
 Mistakes in Physics are rarely mathematical; they are almost always conceptual. The only cure is to practice deliberately. 
 
 Jump into our [Laws of Motion Chapter Hub](/neet/physics/laws-of-motion) and solve the Top 50 PYQs while actively avoiding these 10 traps.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

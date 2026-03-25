@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/physics-heat-light-class-11-physics-revision-jee-neet-2026-grandmaster-guide-1774408661451.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Physics Heat Light Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Master Physics Heat Light for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"
 keywords: "physics heat light class 11 revision notes jee neet, Physics, Exam Compass"
-
-date: "2026-03-22"
 ---
+
 # Physics Heat Light Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
 ![Physics Heat Light recap](/blog-images/physics-heat-light-class-11-notes.webp)
@@ -60,4 +59,7 @@ The core concepts in Physics: Heat & Light include understanding the behavior of
 
 ---
 
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

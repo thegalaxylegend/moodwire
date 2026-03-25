@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/ancient-india-vedic-age-class-11-revision-notes-jee.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide"
 description: "Deep dive into Ancient India Vedic Age Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
-category: "History"
-keywords: "ancient india vedic age class 11 revision notes jee, Exam Compass, History, Exam Compass"
-
-date: "2026-03-22"
+category: "Mathematics"
+keywords: "ancient india vedic age class 11 revision notes jee, Mathematics, Exam Compass"
 ---
+
 # Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide
 
 ![Ancient India Vedic Age recap](/blog-images/ancient-india-vedic-age-class-11-revision-notes-jee.webp)
@@ -132,6 +131,9 @@ To quickly revise the Vedic Age, focus on the following:
 - **Janapadas**: Small kingdoms or territories, emerged during the Later Vedic Period.
 
 By following these quick revision tips and understanding the core concepts, you can easily recap the Vedic Age and perform well in your examinations.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

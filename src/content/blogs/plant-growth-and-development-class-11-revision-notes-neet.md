@@ -1,12 +1,11 @@
 ---
-heroImage: "/blog-images/plant-growth-and-development-class-11-revision-notes-neet.webp"
+heroImage: "/blog-images/generic-study.webp"
 title: "Plant Growth And Development Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Deep dive into Plant Growth And Development Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Biology"
-keywords: "plant growth and development class 11 revision notes neet, Exam Compass, Biology, Exam Compass"
-
-date: "2026-03-22"
+keywords: "plant growth and development class 11 revision notes neet, Biology, Exam Compass"
 ---
+
 # Plant Growth And Development Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
 ![Hero Image](/blog-images/plant-growth-and-development-class-11-revision-notes-neet.webp)
@@ -164,6 +163,9 @@ Answer: A) $\frac{dL}{dt} = k \cdot \frac{dA}{dt}$
 Last Updated: March 16, 2026
 
 ![Plant Growth And Development Class 11 Notes Notes](/blog-images/plant-growth-and-development-class-11-notes.webp)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
