@@ -384,11 +384,10 @@ RULES:
 // --- SMART RECOVERY WRAPPER ---
 function safelyParseJson(raw: string): any {
     try {
-        // Remove markdown code blocks if present
+        // Strategy 1: Remove markdown blocks and triple backticks
         let cleaned = raw.replace(/```json/gi, "").replace(/```/gi, "").trim();
         
-        // Handle unescaped newlines in strings (common LLM mistake)
-        // This is a bit risky but often helpful: replace literal newlines inside quotes
+        // Handle unescaped newlines in strings
         cleaned = cleaned.replace(/"([^"]*)"/g, (match, p1) => {
             return '"' + p1.replace(/\n/g, "\\n").replace(/\r/g, "\\r") + '"';
         });
@@ -402,10 +401,24 @@ function safelyParseJson(raw: string): any {
             const lastBrace = raw.lastIndexOf('}');
             if (firstBrace !== -1 && lastBrace !== -1) {
                 const subset = raw.substring(firstBrace, lastBrace + 1);
+                // Even more aggressive: remove potential comments
+                const noComments = subset.replace(/\/\/.*$/gm, "");
+                return JSON.parse(noComments);
+            }
+        } catch {}
+        
+        // Strategy 3: Fix common trailing comma issues
+        try {
+            const firstBrace = raw.indexOf('{');
+            const lastBrace = raw.lastIndexOf('}');
+            if (firstBrace !== -1 && lastBrace !== -1) {
+                let subset = raw.substring(firstBrace, lastBrace + 1);
+                subset = subset.replace(/,\s*}/g, "}").replace(/,\s*]/g, "]");
                 return JSON.parse(subset);
             }
         } catch {}
-        throw new Error("Final JSON parse failed.");
+
+        throw new Error("Final JSON parse failed. Raw: " + raw.substring(0, 100) + "...");
     }
 }
 
@@ -623,23 +636,25 @@ async function generateBlogs() {
                         postToRepair.content.intro = await generateIntro(item, targetYear, displayClass);
                     }
                     
-                    if (needsSections) {
-                        console.log(`  📝 Regenerating All Sections...`);
-                        const outline = await generateOutline(item, targetYear);
-                        postToRepair.content.sections = [];
-                        for (const heading of outline) {
-                            postToRepair.content.sections.push(await generateSection(item, heading, displayClass, targetYear));
-                            await new Promise(r => setTimeout(r, 2000));
-                        }
-                    } else {
-                        // Check for specific section repairs
-                        for (const tag of qualityReport?.regenerate_sections || []) {
-                            if (tag.startsWith("section: ")) {
-                                const headingToFix = tag.replace("section: ", "");
-                                console.log(`  📝 Repairing specific section: ${headingToFix}`);
-                                const index = postToRepair.content.sections.findIndex(s => s.heading === headingToFix);
-                                if (index !== -1) {
-                                    postToRepair.content.sections[index] = await generateSection(item, headingToFix, displayClass, targetYear);
+                    if (needsSections || qualityReport?.regenerate_sections.some(s => s.startsWith("section: "))) {
+                        if (needsSections) {
+                            console.log(`  📝 Regenerating All Sections...`);
+                            const outline = await generateOutline(item, targetYear);
+                            postToRepair.content.sections = [];
+                            for (const heading of outline) {
+                                postToRepair.content.sections.push(await generateSection(item, heading, displayClass, targetYear));
+                                await new Promise(r => setTimeout(r, 2000));
+                            }
+                        } else {
+                            // Check for specific section repairs
+                            for (const tag of qualityReport?.regenerate_sections || []) {
+                                if (tag.startsWith("section: ")) {
+                                    const headingToFix = tag.replace("section: ", "");
+                                    console.log(`  📝 Repairing specific section: ${headingToFix}`);
+                                    const index = postToRepair.content.sections.findIndex(s => s.heading === headingToFix);
+                                    if (index !== -1) {
+                                        postToRepair.content.sections[index] = await generateSection(item, headingToFix, displayClass, targetYear);
+                                    }
                                 }
                             }
                         }
@@ -725,12 +740,13 @@ async function generateBlogs() {
 
                         if (fixedSomething) {
                             console.log(`  ✅ Smart Fix applied. Re-checking quality...`);
-                            // Don't increment attempts for a fix pass — re-check immediately
+                            // DO NOT increment attempt count for a zero-token smart fix
+                            attempts--; 
                             continue;
                         }
                     }
                     
-                    // If we get here on attempt < maxAttempts, the next iteration will do a full regen
+                    // If we get here and it didn't pass, the next actual iteration starts
                     if (attempts < maxAttempts && needsFullRegen) {
                         console.log(`🔄 Full regeneration required for next pass...`);
                         assembled = null as any;
