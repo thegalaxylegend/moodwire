@@ -1,4 +1,5 @@
 import { Routes, Route, useLocation } from 'react-router-dom';
+import { SmoothScroll } from './components/SmoothScroll';
 import { Suspense, lazy, useEffect, useState, useRef } from 'react';
 import { useUserStore } from './store/userStore';
 import { RouteTracker } from './components/RouteTracker';
@@ -203,7 +204,7 @@ function App() {
   }, [user?.xp, user?.id]);
 
   return (
-    <>
+    <SmoothScroll>
       <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[9999] focus:p-4 focus:bg-primary focus:text-white focus:rounded-xl focus:font-bold outline-none">
         Skip to main content
       </a>
@@ -278,7 +279,7 @@ function App() {
           />
         </Suspense>
       )}
-    </>
+    </SmoothScroll>
   );
 }
 

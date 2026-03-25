@@ -1,7 +1,7 @@
 {
-    "name": "Exam Compass",
+    "name": "Exam Compass | AI Mock Tests for JEE & NEET",
     "short_name": "ExamCompass",
-    "description": "AI-Powered Prep for JEE, NEET, UPSC",
+    "description": "AI-Powered Prep for JEE & NEET",
     "start_url": "/",
     "display": "standalone",
     "orientation": "portrait",

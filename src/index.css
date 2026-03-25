@@ -129,9 +129,30 @@
 
 /* ===== SMOOTH SCROLLING & PERFORMANCE OPTIMIZATIONS ===== */
 
-/* Enable smooth scrolling globally */
+/* Lenis smooth scrolling integration */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* Optimize text rendering globally */
 html {
-  scroll-behavior: smooth;
   /* Optimize text rendering */
   text-rendering: optimizeSpeed;
   /* Optimize for speed on mobile */
@@ -215,7 +236,7 @@ body {
 
 @layer components {
   .glass-card {
-    @apply bg-surface backdrop-blur-[var(--glass-blur)] border border-border rounded-[var(--card-radius)] shadow-lg transition-all duration-500 relative overflow-hidden;
+    @apply bg-surface/40 backdrop-blur-[var(--glass-blur)] border border-white/10 rounded-[var(--card-radius)] shadow-[0_30px_60px_-15px_rgba(0,0,0,0.7)] transition-all duration-500 relative;
   }
 
   .glass-card::before {
@@ -677,6 +698,123 @@ body {
 
 .animate-spin-slow {
   animation: spin-slow 8s linear infinite;
+}
+
+/* ============================================
+   CINEMATIC LANDING PAGE ANIMATIONS
+   Premium scroll-driven & ambient effects
+   ============================================ */
+
+/* Animated gradient text — continuously shifting colors */
+@keyframes gradient-shift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+.animate-gradient-text {
+  background-size: 200% auto;
+  animation: gradient-shift 4s ease-in-out infinite;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Floating orbs — simplified for high performance */
+@keyframes float-orb {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+  33% { transform: translate3d(10px, -20px, 0) scale(1.02); }
+  66% { transform: translate3d(-5px, -35px, 0) scale(0.98); }
+}
+
+.animate-float-1 { animation: float-orb 8s ease-in-out infinite; }
+.animate-float-2 { animation: float-orb 10s ease-in-out infinite 1s; }
+.animate-float-3 { animation: float-orb 12s ease-in-out infinite 2s; }
+.animate-float-4 { animation: float-orb 9s ease-in-out infinite 0.5s; }
+.animate-float-5 { animation: float-orb 11s ease-in-out infinite 1.5s; }
+.animate-float-6 { animation: float-orb 7s ease-in-out infinite 3s; }
+
+/* Glow pulse — optimized to use opacity instead of box-shadow */
+@keyframes glow-pulse-simple {
+  0%, 100% { opacity: 0.4; transform: scale(1) translate3d(0,0,0); }
+  50% { opacity: 0.8; transform: scale(1.05) translate3d(0,0,0); }
+}
+
+.animate-glow-pulse {
+  position: relative;
+}
+
+.animate-glow-pulse::after {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  background: inherit;
+  filter: blur(8px);
+  z-index: -1;
+  border-radius: inherit;
+  animation: glow-pulse-simple 3s ease-in-out infinite;
+}
+
+/* Logo shimmer — optimized */
+@keyframes logo-shimmer {
+  0% { transform: translate3d(-100%, 0, 0); }
+  100% { transform: translate3d(100%, 0, 0); }
+}
+
+.animate-logo-shimmer {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(
+    90deg,
+    #a855f7 0%,
+    #e9d5ff 50%,
+    #a855f7 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient-shift 3s linear infinite;
+}
+
+/* Gentle float — optimized */
+@keyframes gentle-float {
+  0%, 100% { transform: translate3d(0, 0px, 0); }
+  50% { transform: translate3d(0, -12px, 0); }
+}
+
+.animate-gentle-float {
+  animation: gentle-float 4s ease-in-out infinite;
+}
+
+/* Reveal line — hardware accelerated */
+@keyframes reveal-line {
+  from { transform: scaleX(0) translate3d(0,0,0); }
+  to { transform: scaleX(1) translate3d(0,0,0); }
+}
+
+.animate-reveal-line {
+  transform-origin: left;
+  animation: reveal-line 1.2s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* Breathing glow — hardware accelerated */
+@keyframes breathing-glow {
+  0%, 100% { opacity: 0.3; transform: scale(1) translate3d(0,0,0); }
+  50% { opacity: 0.6; transform: scale(1.05) translate3d(0,0,0); }
+}
+
+.animate-breathing {
+  animation: breathing-glow 6s ease-in-out infinite;
+  will-change: opacity, transform;
+}
+
+/* Bar fill — for progress indicators */
+@keyframes bar-fill {
+  from { width: 0; }
+}
+
+.animate-bar-fill {
+  animation: bar-fill 1.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
 
 /* ===== AI NOTES / PROSE STYLING ===== */

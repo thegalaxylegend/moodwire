@@ -1,44 +1,104 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
+import { motion, useScroll, useInView } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import { useUserStore } from '../store/userStore';
 import { Hero } from '../components/Hero';
 
 import { ExamGrid } from '../components/ExamGrid';
 import { DemoModal } from '../components/DemoModal';
-import { Loader2 } from 'lucide-react';
+import { Zap, Target, Brain, Award, ArrowRight, Rocket } from 'lucide-react';
 import { SEO } from '../components/SEO';
 import { AboutAuthor } from '../components/seo/AboutAuthor';
 import { Footer } from '../components/Footer';
 import { SITE_URL, SITE_OG_IMAGE } from '../lib/siteConfig';
+
+// Animated Counter Hook — optimized for mobile
+const useCountUp = (end: number, duration: number = 2000, startOnView: boolean = true) => {
+    const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
+    const [count, setCount] = useState(isMobile ? end : 0);
+    const ref = useRef<HTMLDivElement>(null);
+    const isInView = useInView(ref, { once: true, margin: '-50px' });
+    const hasStarted = useRef(isMobile); // Skip animation tracking on mobile
+
+    useEffect(() => {
+        if (isMobile || !startOnView || !isInView || hasStarted.current) return;
+        hasStarted.current = true;
+
+        let startTime: number;
+        const animate = (timestamp: number) => {
+            if (!startTime) startTime = timestamp;
+            const progress = Math.min((timestamp - startTime) / duration, 1);
+            const eased = 1 - Math.pow(1 - progress, 4); // easeOutQuart
+            setCount(Math.round(eased * end));
+            if (progress < 1) requestAnimationFrame(animate);
+        };
+        requestAnimationFrame(animate);
+    }, [isInView, end, duration, startOnView, isMobile]);
+
+    return { count, ref };
+};
+
+// Clean parent-level reveal — simplified for mobile
+const TextReveal = ({ children, className = '', delay = 0 }: { children: string; className?: string; delay?: number }) => {
+    const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
+    
+    return (
+        <motion.span
+            initial={isMobile ? { opacity: 0 } : { opacity: 0, y: 15 }}
+            whileInView={isMobile ? { opacity: 1 } : { opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: isMobile ? '-2px' : '-40px' }}
+            transition={isMobile ? { delay: 0, duration: 0.3 } : { delay, duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
+            className={`inline-block ${className}`}
+        >
+            {children}
+        </motion.span>
+    );
+};
 
 export const LandingPage = () => {
     const navigate = useNavigate();
     const { isAuthenticated, isLoading } = useUserStore();
     const [showDemo, setShowDemo] = useState(false);
 
-    // SSR/SSG guard: on the server, never redirect or show spinner
     const isServer = typeof window === 'undefined';
 
     useEffect(() => {
-        // Redirection logic:
-        // 1. If we are authenticated (from cache or listener) AND not loading -> Redirect.
-        // 2. OR if we are authenticated (optimistic snapshot) -> Redirect immediately to avoid flicker.
         if (isAuthenticated && (!isLoading || !isServer)) {
             navigate('/dashboard', { replace: true });
         }
     }, [isAuthenticated, isLoading, navigate, isServer]);
 
-    // Show loader while checking auth state to prevent flashing
-    // But NEVER during SSG — always render full content for crawlers
-    if (!isServer && (isLoading || isAuthenticated)) {
-        return <div className="min-h-screen flex items-center justify-center bg-background"><Loader2 className="animate-spin text-primary" size={32} /></div>;
-    }
+    const { scrollYProgress } = useScroll();
+
+    // Counter hooks for stats
+    const pyqs = useCountUp(9000);
+    const coverage = useCountUp(100);
+
+    // We no longer block the Landing Page with a loader. 
+    // This allows the page to hit LCP/FCP immediately.
+    // Auth-based redirects happen silently in the background.
 
     return (
-        <div className="min-h-screen bg-transparent text-text-main relative overflow-hidden">
+        <div className="min-h-screen bg-black text-white relative overflow-hidden">
+            {/* Scroll Progress Bar */}
+            <motion.div 
+                className="fixed top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-primary via-secondary to-accent z-[100] origin-left will-change-transform"
+                style={{ scaleX: scrollYProgress }}
+            />
+
+            {/* Ambient Background — reduced for mobile performance */}
+            <div className="fixed inset-0 pointer-events-none z-0 bg-[radial-gradient(ellipse_at_50%_30%,#1e1b4b_0%,#0a0118_40%,#000000_100%)]">
+                {/* Single Primary Orb on mobile, multiple on desktop */}
+                <div className="absolute top-[5%] right-[5%] w-[55%] h-[45%] bg-[radial-gradient(circle,rgba(139,92,246,0.08),transparent_70%)] animate-breathing will-change-[opacity]" />
+                
+                {/* Secondary orbs — desktop only to preserve premium look on PC */}
+                <div className="hidden md:block absolute top-[45%] left-[5%] w-[40%] h-[35%] bg-[radial-gradient(circle,rgba(49,46,129,0.12),transparent_70%)] animate-breathing will-change-[opacity]" style={{ animationDelay: '3s' }} />
+                <div className="hidden md:block absolute bottom-[10%] right-[15%] w-[30%] h-[25%] bg-[radial-gradient(circle,rgba(168,85,247,0.05),transparent_70%)] animate-breathing will-change-[opacity]" style={{ animationDelay: '5s' }} />
+            </div>
+
             <SEO
-                title="Exam Compass | AI Mock Tests for JEE & NEET"
-                description="The ultimate AI study partner for Class 8-12 board exams, JEE, and NEET. Get personalized mock tests, PYQ analytics, and honest roadmaps for Indian aspirants."
+                title="Exam Compass | Elite AI-Powered Prep for JEE & NEET"
+                description="Experience the future of competitive exam prep. Adaptive Elo-rated mocks, root-cause AI diagnosis, and predictive analytics for JEE & NEET aspirants."
                 canonical={`${SITE_URL}/`}
                 image={SITE_OG_IMAGE}
                 schema={{
@@ -48,7 +108,7 @@ export const LandingPage = () => {
                             "@type": "WebSite",
                             "name": "Exam Compass",
                             "url": SITE_URL,
-                            "description": "AI-powered exam preparation platform for JEE, NEET, and CBSE Class 8-12.",
+                            "description": "AI-powered exam preparation platform for JEE and NEET.",
                             "potentialAction": {
                                 "@type": "SearchAction",
                                 "target": `${SITE_URL}/{search_term_string}`,
@@ -78,118 +138,263 @@ export const LandingPage = () => {
                 }}
             />
 
-            < Hero onOpenDemo={() => setShowDemo(true)} />
-            < ExamGrid />
+            {/* Hero */}
+            <div className="relative z-10">
+                <Hero onOpenDemo={() => setShowDemo(true)} />
+            </div>
+            
+            {/* ExamGrid with slide-up reveal */}
+            <motion.div
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-30px" }}
+                transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
+            >
+                <ExamGrid />
+            </motion.div>
 
-            {/* Social Proof Stats Bar */}
-            <section className="py-12 px-6 border-t border-white/5">
-                <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-                    <div className="space-y-1">
-                        <p className="text-3xl md:text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">9,000+</p>
-                        <p className="text-xs text-text-muted uppercase tracking-wider font-bold">PYQs Mapped</p>
-                    </div>
-                    <div className="space-y-1">
-                        <p className="text-3xl md:text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-emerald-400">15+</p>
-                        <p className="text-xs text-text-muted uppercase tracking-wider font-bold">Subjects Covered</p>
-                    </div>
-                    <div className="space-y-1">
-                        <p className="text-3xl md:text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-400">Class 8–12</p>
-                        <p className="text-xs text-text-muted uppercase tracking-wider font-bold">Complete Syllabus</p>
-                    </div>
-                    <div className="space-y-1">
-                        <p className="text-3xl md:text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">100%</p>
-                        <p className="text-xs text-text-muted uppercase tracking-wider font-bold">Free Forever</p>
-                    </div>
+            {/* ═══════════ SOCIAL PROOF STATS — Animated Counters ═══════════ */}
+            <section className="py-28 px-6 relative overflow-hidden">
+                {/* Animated gradient divider */}
+                <motion.div 
+                    initial={{ scaleX: 0 }}
+                    whileInView={{ scaleX: 1 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
+                    className="absolute top-0 left-[10%] right-[10%] h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent origin-left"
+                />
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/[0.03] to-transparent" />
+                
+                <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-12 relative z-10">
+                    {[
+                        { label: "PYQs Mapped", value: "9,000+", numValue: 9000, suffix: "+", color: "from-primary to-purple-400", ref: pyqs },
+                        { label: "AI Mock Tests", value: "Unlimited", isText: true, color: "from-cyan-400 to-blue-400" },
+                        { label: "Syllabus Coverage", value: "100%", numValue: 100, suffix: "%", color: "from-emerald-400 to-teal-400", ref: coverage },
+                        { label: "Price", value: "Free", isText: true, color: "from-orange-400 to-yellow-400" }
+                    ].map((stat, i) => (
+                        <motion.div 
+                            key={i}
+                            initial={{ opacity: 0, y: 30 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ delay: i * 0.1, duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+                            className="space-y-2 text-center md:text-left"
+                        >
+                            <div ref={stat.ref?.ref}>
+                                <p className={`text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r ${stat.color}`}>
+                                    {stat.isText ? stat.value : `${stat.ref?.count.toLocaleString()}${stat.suffix}`}
+                                </p>
+                            </div>
+                            <p className="text-xs text-text-muted uppercase tracking-widest font-bold opacity-70">{stat.label}</p>
+                        </motion.div>
+                    ))}
+                </div>
+
+                {/* Bottom divider */}
+                <motion.div 
+                    initial={{ scaleX: 0 }}
+                    whileInView={{ scaleX: 1 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
+                    className="absolute bottom-0 left-[10%] right-[10%] h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent origin-right"
+                />
+            </section>
+
+            {/* ═══════════ FEATURE PROOF — Parallax Cards ═══════════ */}
+            <section className="py-32 px-6 max-w-7xl mx-auto relative">
+                <div className="text-center mb-24">
+                    <motion.h2 
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        viewport={{ once: true }}
+                        className="text-4xl md:text-6xl font-bold text-white mb-6 tracking-tight"
+                    >
+                        <TextReveal>Master the Machine.</TextReveal>
+                    </motion.h2>
+                    <motion.p 
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        transition={{ delay: 0.5 }}
+                        viewport={{ once: true }}
+                        className="text-xl text-gray-400 max-w-2xl mx-auto"
+                    >
+                        <TextReveal delay={0.3}>Not another quiz app. We've built a high-end digital sanctuary for elite aspirants.</TextReveal>
+                    </motion.p>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+                    {[
+                        {
+                            icon: <Target className="text-primary" size={32} />,
+                            title: "Adaptive Elo Rating",
+                            desc: "Our matches question difficulty to your skill in real-time. No more wasting time on 'obvious' or 'impossible' questions.",
+                            gradient: "from-primary/10 via-transparent to-transparent"
+                        },
+                        {
+                            icon: <Brain className="text-secondary" size={32} />,
+                            title: "Root-Cause Analysis",
+                            desc: "Failing Torque? Our AI traces back to find the real gap — usually prerequisites like Vectors or Cross Products. We fix the source.",
+                            gradient: "from-secondary/10 via-transparent to-transparent"
+                        },
+                        {
+                            icon: <Zap className="text-cyan-400" size={32} />,
+                            title: "PYQ Intelligence",
+                            desc: "Mapped 9,000+ Previous Year Questions (2015–2025). We predict high-probability topics for 2026 based on NTA's shifting patterns.",
+                            gradient: "from-cyan-400/10 via-transparent to-transparent"
+                        }
+                    ].map((feature, i) => (
+                        <motion.div 
+                            key={i}
+                            initial={{ opacity: 0, y: 50, rotate: 1 }}
+                            whileInView={{ opacity: 1, y: 0, rotate: 0 }}
+                            viewport={{ once: true, margin: "-50px" }}
+                            transition={{ delay: i * 0.15, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+                            whileHover={{ y: -12, scale: 1.02, transition: { type: 'spring', stiffness: 300, damping: 20 } }}
+                            className="glass-card group relative p-10 overflow-hidden"
+                        >
+                            {/* Hover glow overlay */}
+                            <div className={`absolute inset-0 bg-gradient-to-br ${feature.gradient} opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-[var(--card-radius)]`} />
+                            <div className="relative z-10">
+                                <motion.div 
+                                    whileHover={{ rotate: [0, -10, 10, 0], transition: { duration: 0.5 } }}
+                                    className="w-16 h-16 rounded-2xl bg-white/5 flex items-center justify-center mb-8 group-hover:bg-primary/10 transition-colors duration-300"
+                                >
+                                    {feature.icon}
+                                </motion.div>
+                                <h3 className="text-2xl font-bold text-white mb-4">{feature.title}</h3>
+                                <p className="text-gray-400 leading-relaxed text-lg">{feature.desc}</p>
+                            </div>
+                        </motion.div>
+                    ))}
                 </div>
             </section>
 
-            {/* Why Exam Compass — Feature Proof */}
-            <section className="py-20 px-6 max-w-7xl mx-auto border-t border-white/5">
-                <div className="text-center mb-16">
-                    <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">Why Exam Compass?</h2>
-                    <p className="text-lg text-gray-400 max-w-2xl mx-auto">Not another quiz app. Here's what makes us technically different.</p>
+            {/* ═══════════ HOW IT WORKS — Step Explainer ═══════════ */}
+            <section className="py-32 px-6 max-w-6xl mx-auto relative">
+                {/* Animated divider */}
+                <motion.div 
+                    initial={{ scaleX: 0 }}
+                    whileInView={{ scaleX: 1 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
+                    className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent origin-center"
+                />
+                <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/5 rounded-full blur-[120px] pointer-events-none animate-breathing" />
+                
+                <div className="text-center mb-24 relative z-10">
+                    <motion.h2 
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        viewport={{ once: true }}
+                        className="text-4xl md:text-6xl font-bold text-white mb-6"
+                    >
+                        <TextReveal>Built to Last.</TextReveal>
+                    </motion.h2>
+                    <motion.p 
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        viewport={{ once: true }}
+                        className="text-xl text-gray-400"
+                    >
+                        <TextReveal delay={0.2}>No vague "AI-powered" claims. Here is the architecture of your victory.</TextReveal>
+                    </motion.p>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    {/* Card 1: Elo Rating */}
-                    <div className="group relative p-8 rounded-2xl bg-surface border border-white/5 hover:border-primary/30 transition-all duration-500 overflow-hidden">
-                        <div className="absolute -top-20 -right-20 w-40 h-40 bg-primary/10 rounded-full blur-3xl group-hover:bg-primary/20 transition-colors" />
-                        <div className="relative z-10">
-                            <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                
+                <div className="space-y-8 relative z-10">
+                    {/* Connecting line */}
+                    <div className="absolute left-10 top-10 bottom-10 w-px bg-gradient-to-b from-primary/30 via-secondary/30 to-accent/30 hidden md:block" />
+                    
+                    {[
+                        {
+                            title: "Calibrated Practice",
+                            desc: "AI generates questions matching YOUR current Elo rating. No generic question banks — every test is a precision-strike at your skill level.",
+                            icon: <Target className="text-primary" />,
+                            step: "01"
+                        },
+                        {
+                            title: "Root-Cause Diagnosis",
+                            desc: "Our Concept Graph maps mistakes to their deepest prerequisites. Instead of 'study more,' we tell you exactly which foundation is cracked.",
+                            icon: <Brain className="text-secondary" />,
+                            step: "02"
+                        },
+                        {
+                            title: "The Victory Roadmap",
+                            desc: "Track real-time selection probability and dynamic rank predictions. The system learns from every click, carving your path to a dream college.",
+                            icon: <Award className="text-accent" />,
+                            step: "03"
+                        }
+                    ].map((step, i) => (
+                        <motion.div 
+                            key={i}
+                            initial={{ opacity: 0, x: i % 2 === 0 ? -60 : 60 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            viewport={{ once: true, margin: "-50px" }}
+                            transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
+                            whileHover={{ x: 10, transition: { type: 'spring', stiffness: 300, damping: 20 } }}
+                            className="glass-card flex flex-col md:flex-row gap-8 items-center md:items-start p-10 group relative overflow-hidden"
+                        >
+                            {/* Step number watermark */}
+                            <div className="absolute top-4 right-6 text-[80px] font-black text-white/[0.03] leading-none select-none">
+                                {step.step}
                             </div>
-                            <h3 className="text-xl font-bold text-white mb-3">Adaptive Elo Rating</h3>
-                            <p className="text-sm text-gray-400 leading-relaxed">Every question has a difficulty score. Every student has a skill score. Our Elo algorithm matches them in real-time — so you're always challenged at YOUR level, never wasting time on questions too easy or too hard.</p>
-                        </div>
-                    </div>
-
-                    {/* Card 2: Root-Cause AI */}
-                    <div className="group relative p-8 rounded-2xl bg-surface border border-white/5 hover:border-secondary/30 transition-all duration-500 overflow-hidden">
-                        <div className="absolute -top-20 -right-20 w-40 h-40 bg-secondary/10 rounded-full blur-3xl group-hover:bg-secondary/20 transition-colors" />
-                        <div className="relative z-10">
-                            <div className="w-14 h-14 rounded-xl bg-secondary/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-secondary"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                            <div className="w-20 h-20 rounded-2xl bg-white/5 flex items-center justify-center shrink-0 text-3xl font-black group-hover:scale-110 group-hover:bg-primary/10 transition-all duration-300">
+                                {step.icon}
                             </div>
-                            <h3 className="text-xl font-bold text-white mb-3">Root-Cause Analysis</h3>
-                            <p className="text-sm text-gray-400 leading-relaxed">Failing Torque problems? Our Concept Graph engine traces backwards to find the real gap — maybe it's Cross Products, not Torque. We fix the ROOT of your weakness, not just the symptom.</p>
-                        </div>
-                    </div>
-
-                    {/* Card 3: PYQ Intelligence */}
-                    <div className="group relative p-8 rounded-2xl bg-surface border border-white/5 hover:border-accent/30 transition-all duration-500 overflow-hidden">
-                        <div className="absolute -top-20 -right-20 w-40 h-40 bg-accent/10 rounded-full blur-3xl group-hover:bg-accent/20 transition-colors" />
-                        <div className="relative z-10">
-                            <div className="w-14 h-14 rounded-xl bg-accent/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-accent"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+                            <div className="text-center md:text-left">
+                                <h3 className="text-3xl font-bold text-white mb-4">{step.title}</h3>
+                                <p className="text-gray-400 leading-relaxed text-xl max-w-3xl">{step.desc}</p>
                             </div>
-                            <h3 className="text-xl font-bold text-white mb-3">PYQ Intelligence Engine</h3>
-                            <p className="text-sm text-gray-400 leading-relaxed">We mapped 9,000+ Previous Year Questions (2015–2025). Our engine identifies which chapters NTA repeats, which concepts carry maximum weightage, and predicts high-probability topics for 2026.</p>
-                        </div>
-                    </div>
+                        </motion.div>
+                    ))}
                 </div>
             </section>
 
-            {/* How Our AI Works — 3-Step Explainer */}
-            <section className="py-20 px-6 max-w-5xl mx-auto border-t border-white/5">
-                <div className="text-center mb-16">
-                    <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">How It Actually Works</h2>
-                    <p className="text-lg text-gray-400">No vague "AI-powered" claims. Here are the 3 real steps.</p>
-                </div>
-                <div className="space-y-0 relative">
-                    {/* Connecting Line */}
-                    <div className="absolute left-8 top-12 bottom-12 w-px bg-gradient-to-b from-primary via-secondary to-accent hidden md:block" />
-
-                    {/* Step 1 */}
-                    <div className="flex gap-6 items-start p-6 rounded-2xl hover:bg-white/[0.02] transition-colors">
-                        <div className="w-16 h-16 rounded-2xl bg-primary/10 border border-primary/20 flex items-center justify-center shrink-0 text-2xl font-black text-primary">1</div>
-                        <div>
-                            <h3 className="text-xl font-bold text-white mb-2">Take a Mock Test</h3>
-                            <p className="text-gray-400 leading-relaxed">AI generates questions matching YOUR current Elo rating. No generic question banks — every test is calibrated to push you just beyond your comfort zone.</p>
-                        </div>
-                    </div>
-
-                    {/* Step 2 */}
-                    <div className="flex gap-6 items-start p-6 rounded-2xl hover:bg-white/[0.02] transition-colors">
-                        <div className="w-16 h-16 rounded-2xl bg-secondary/10 border border-secondary/20 flex items-center justify-center shrink-0 text-2xl font-black text-secondary">2</div>
-                        <div>
-                            <h3 className="text-xl font-bold text-white mb-2">Get Root-Cause Diagnosis</h3>
-                            <p className="text-gray-400 leading-relaxed">Our Concept Graph maps your mistakes to their deepest prerequisites. Instead of "study Physics more," you get "revise Vector Cross Products → then retry Torque."</p>
-                        </div>
-                    </div>
-
-                    {/* Step 3 */}
-                    <div className="flex gap-6 items-start p-6 rounded-2xl hover:bg-white/[0.02] transition-colors">
-                        <div className="w-16 h-16 rounded-2xl bg-accent/10 border border-accent/20 flex items-center justify-center shrink-0 text-2xl font-black text-accent">3</div>
-                        <div>
-                            <h3 className="text-xl font-bold text-white mb-2">Watch Your Rank Climb</h3>
-                            <p className="text-gray-400 leading-relaxed">Track real-time selection probability, subject-wise heatmaps, and a predicted All India Rank. The system learns from every attempt and adjusts your preparation roadmap automatically.</p>
-                        </div>
-                    </div>
-                </div>
+            {/* ═══════════ FINAL CTA — Conversion Section ═══════════ */}
+            <section className="py-32 px-6 relative overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/10 via-transparent to-transparent" />
+                <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-primary/10 rounded-full blur-[150px] animate-breathing" />
+                
+                <motion.div 
+                    initial={{ opacity: 0, y: 40 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
+                    className="max-w-3xl mx-auto text-center relative z-10"
+                >
+                    <motion.div 
+                        initial={{ scale: 0 }}
+                        whileInView={{ scale: 1 }}
+                        viewport={{ once: true }}
+                        transition={{ type: 'spring', stiffness: 200, damping: 15 }}
+                        className="w-20 h-20 rounded-2xl bg-primary/20 flex items-center justify-center mx-auto mb-8"
+                    >
+                        <Rocket size={36} className="text-primary" />
+                    </motion.div>
+                    
+                    <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
+                        <TextReveal>Ready to dominate your exams?</TextReveal>
+                    </h2>
+                    <p className="text-xl text-gray-400 mb-10 max-w-xl mx-auto">
+                        <TextReveal delay={0.3}>Join thousands of aspirants who chose precision over guesswork.</TextReveal>
+                    </p>
+                    
+                    <motion.button
+                        onClick={() => navigate('/dashboard')}
+                        whileHover={{ scale: 1.05, y: -3 }}
+                        whileTap={{ scale: 0.97 }}
+                        transition={{ type: 'spring', stiffness: 400, damping: 17 }}
+                        className="px-10 py-5 bg-primary hover:bg-primary/90 text-white rounded-2xl font-bold text-xl animate-glow-pulse transition-all inline-flex items-center gap-3 group"
+                    >
+                        Start for Free <ArrowRight size={24} className="group-hover:translate-x-2 transition-transform duration-300" />
+                    </motion.button>
+                    
+                    <p className="text-sm text-gray-500 mt-6">No credit card required. Forever free tier.</p>
+                </motion.div>
             </section>
 
             <AboutAuthor compact />
             <DemoModal isOpen={showDemo} onClose={() => setShowDemo(false)} />
             <Footer />
-        </div >
+        </div>
     );
 };
