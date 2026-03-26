@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/art-culture-architecture-class-11-revision-notes-jee-neet.webp"
 title: "Art Culture Architecture Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "The ultimate Art Culture Architecture revision resource for Chemistry students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Chemistry"

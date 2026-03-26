@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet.webp"
 title: "Some Basic Concepts Of Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Master Some Basic Concepts Of Chemistry for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"

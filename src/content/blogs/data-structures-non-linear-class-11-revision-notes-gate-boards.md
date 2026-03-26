@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/data-structures-non-linear-class-11-revision-notes-gate-boards.webp"
 title: "Data Structures: Non-Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide"
 description: "Learn Data Structures: Non-Linear like a pro. Detailed revision notes, solved examples, and "
 category: "Biology"

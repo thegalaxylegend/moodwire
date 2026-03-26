@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/thermodynamics-chemistry-class-11-revision-notes-jee-neet.webp"
 title: "Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Master Thermodynamics Chemistry for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"

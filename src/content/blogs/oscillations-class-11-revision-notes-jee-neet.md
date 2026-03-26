@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/oscillations-class-11-revision-notes-jee-neet.webp"
 title: "Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Master Oscillations for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"

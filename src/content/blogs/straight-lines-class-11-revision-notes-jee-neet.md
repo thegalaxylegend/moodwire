@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/straight-lines-class-11-revision-notes-jee-neet.webp"
 title: "Straight Lines Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Learn Straight Lines like a pro. Detailed revision notes, solved examples, and "
 category: "Physics"

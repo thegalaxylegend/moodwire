@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/gravitation-class-11-revision-notes-jee-neet.webp"
 title: "Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "The ultimate Gravitation revision resource for Physics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Physics"

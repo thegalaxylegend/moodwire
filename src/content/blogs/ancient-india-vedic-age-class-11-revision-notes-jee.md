@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/ancient-india-vedic-age-class-11-revision-notes-jee.webp"
 title: "Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide"
 description: "Deep dive into Ancient India Vedic Age Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Mathematics"

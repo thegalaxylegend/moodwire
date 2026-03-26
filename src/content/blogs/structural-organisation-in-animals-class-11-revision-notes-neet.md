@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/structural-organisation-in-animals-class-11-revision-notes-neet.webp"
 title: "Structural Organisation In Animals Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Master Structural Organisation In Animals for Biology 2026. This Grandmaster Guide includes Ayush"
 category: "Biology"

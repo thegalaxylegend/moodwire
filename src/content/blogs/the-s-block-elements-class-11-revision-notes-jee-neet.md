@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/the-s-block-elements-class-11-revision-notes-jee-neet.webp"
 title: "The S Block Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Master The S Block Elements for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"

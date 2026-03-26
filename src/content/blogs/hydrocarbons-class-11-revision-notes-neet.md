@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/hydrocarbons-class-11-revision-notes-neet.webp"
 title: "Hydrocarbons Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Deep dive into Hydrocarbons Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Biology"

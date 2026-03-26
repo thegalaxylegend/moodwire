@@ -98,10 +98,9 @@ async function generateGeminiSVG(topic, subject) {
     } catch { return null; }
 }
 
-async function saveAndOptimise(buffer, topic, isSvg = false) {
+async function saveAndOptimise(buffer, nameSlug, isSvg = false) {
     try {
-        const slug = topic.toLowerCase().replace(/[^a-z0-9]+/g, '-');
-        const fileName = `${slug}-${Date.now()}.webp`;
+        const fileName = `${nameSlug}.webp`;
         const outputPath = path.join(IMAGE_DIR, fileName);
         const sharp = (await import('sharp')).default;
         
@@ -131,12 +130,13 @@ async function repairImages() {
         const fullPath = path.join(BLOG_DIR, file);
         let content = fs.readFileSync(fullPath, 'utf8');
         const heroMatch = content.match(/heroImage:\s*['"]?([^'"\n]+)['"]?/);
-        const subjectMatch = content.match(/subject:\s*['"]?([^'"\n]+)['"]?/);
+        const subjectMatch = content.match(/(?:subject|category):\s*['"]?([^'"\n]+)['"]?/);
         const titleMatch = content.match(/title:\s*['"]?([^'"\n]+)['"]?/);
         
         const heroImage = heroMatch ? heroMatch[1].trim() : '';
-        const subject = subjectMatch ? subjectMatch[1] : 'default';
+        const subject = subjectMatch ? subjectMatch[1].trim() : 'default';
         const title = titleMatch ? titleMatch[1] : file.replace('.md', '');
+        const fileSlug = file.replace('.md', '');
 
         // Check if image exists on disk
         const imagePath = heroImage ? path.join(__dirname, '../public', heroImage) : '';
@@ -156,18 +156,18 @@ async function repairImages() {
         
         // 1. Cloudflare
         const cfBuffer = await generateCloudflareImage(title, subject);
-        if (cfBuffer) newImage = await saveAndOptimise(cfBuffer, title);
+        if (cfBuffer) newImage = await saveAndOptimise(cfBuffer, fileSlug);
         
         // 2. Groq SVG
         if (!newImage) {
             const groqBuffer = await generateGroqSVG(title, subject);
-            if (groqBuffer) newImage = await saveAndOptimise(groqBuffer, title, true);
+            if (groqBuffer) newImage = await saveAndOptimise(groqBuffer, fileSlug, true);
         }
         
         // 3. Gemini SVG
         if (!newImage) {
             const geminiBuffer = await generateGeminiSVG(title, subject);
-            if (geminiBuffer) newImage = await saveAndOptimise(geminiBuffer, title, true);
+            if (geminiBuffer) newImage = await saveAndOptimise(geminiBuffer, fileSlug, true);
         }
         
         // 4. Fallback — ONLY use generic if blog currently has NO image at all

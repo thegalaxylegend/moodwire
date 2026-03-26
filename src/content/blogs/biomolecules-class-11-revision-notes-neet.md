@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/biomolecules-class-11-revision-notes-neet.webp"
 title: "Biomolecules Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Master Biomolecules for Biology 2026. This Grandmaster Guide includes Ayush"
 category: "Biology"

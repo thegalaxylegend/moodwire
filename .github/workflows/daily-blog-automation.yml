@@ -25,6 +25,9 @@ jobs:
       - name: Create service-account.json from secret
         run: echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT_LEGENDSTECH001 }}' > service-account.json
 
+      - name: Clean Old Reports
+        run: rm -f jules-reports/pipeline-*.json
+
       - name: Task 1 - Build Queue
         run: npx tsx scripts/chapter-queue-builder.ts
 
@@ -86,7 +89,7 @@ jobs:
       - name: Quality Gate Check
         id: quality_gate
         run: |
-          REPORT_FILE=$(ls jules-reports/pipeline-*.json 2>/dev/null | head -n 1 || true)
+          REPORT_FILE=$(ls -t jules-reports/pipeline-*.json 2>/dev/null | head -n 1 || true)
           if [ -f "$REPORT_FILE" ]; then
             TOTAL=$(jq 'length' "$REPORT_FILE")
             FAILED=$(jq '[.[] | select(.status == "failed" or .quality_score < 100)] | length' "$REPORT_FILE")
@@ -138,7 +141,7 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
-          REPORT_FILE=$(ls jules-reports/pipeline-*.json 2>/dev/null | head -n 1 || true)
+          REPORT_FILE=$(ls -t jules-reports/pipeline-*.json 2>/dev/null | head -n 1 || true)
           RUN_URL="https://github.com/thegalaxylegend/examcompass/actions/runs/${{ github.run_id }}"
           SITE_URL="https://examcompass.pages.dev/blog"
           

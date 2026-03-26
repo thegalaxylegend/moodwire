@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/electrostatics-class-12-revision-notes-jee-neet.webp"
 title: "Electrostatics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Deep dive into Electrostatics Class 12. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Biology"

@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/morphology-of-flowering-plants-class-11-revision-notes-neet.webp"
 title: "Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Master Morphology Of Flowering Plants for Biology 2026. This Grandmaster Guide includes Ayush"
 category: "Biology"

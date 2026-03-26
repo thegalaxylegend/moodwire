@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/upsc-optional-selection-guide-class-11-mathematics-revision-jee-2026-grandmaster-guide-1774408714505.webp"
 title: "Pick the Best UPSC Optional Subject 2026 Guide"
 description: "Master the UPSC optional subject selection for 2026. Use our success rate analysis, syllabus overlap data, and scoring trends to pick the best optional now!"
 category: "Chemistry"

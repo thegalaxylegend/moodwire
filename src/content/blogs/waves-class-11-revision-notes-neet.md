@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/waves-class-11-revision-notes-neet.webp"
 title: "Waves Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "The ultimate Waves revision resource for Biology students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Biology"

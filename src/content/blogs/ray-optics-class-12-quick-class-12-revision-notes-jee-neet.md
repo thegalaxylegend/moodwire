@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/ray-optics-class-12-quick-class-12-revision-notes-jee-neet.webp"
 title: "Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Master Ray Optics for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"

@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/probability-class-11-revision-notes-jee.webp"
 title: "Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
 description: "The ultimate Probability revision resource for Mathematics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Mathematics"

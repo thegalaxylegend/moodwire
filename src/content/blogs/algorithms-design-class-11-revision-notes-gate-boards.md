@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/algorithms-design-class-11-revision-notes-gate-boards.webp"
 title: "Algorithms: Design Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide"
 description: "The ultimate Algorithms: Design revision resource for Computer Science students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Biology"

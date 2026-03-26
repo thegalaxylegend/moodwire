@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/digestion-and-absorption-class-11-revision-notes-neet.webp"
 title: "Digestion And Absorption Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Learn Digestion And Absorption like a pro. Detailed revision notes, solved examples, and "
 category: "Biology"

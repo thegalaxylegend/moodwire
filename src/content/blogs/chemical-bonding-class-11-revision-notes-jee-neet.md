@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/chemical-bonding-class-11-revision-notes-jee-neet.webp"
 title: "Chemical Bonding Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Learn Chemical Bonding like a pro. Detailed revision notes, solved examples, and "
 category: "Physics"

@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/structure-of-atom-class-11-revision-notes-jee-neet.webp"
 title: "Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Master Structure Of Atom for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"

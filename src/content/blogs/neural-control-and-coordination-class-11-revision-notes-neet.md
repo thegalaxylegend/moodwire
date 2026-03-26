@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/neural-control-and-coordination-class-11-revision-notes-neet.webp"
 title: "Neural Control And Coordination Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Learn Neural Control And Coordination like a pro. Detailed revision notes, solved examples, and "
 category: "Biology"

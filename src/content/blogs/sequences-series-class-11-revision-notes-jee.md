@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/sequences-series-class-11-revision-notes-jee.webp"
 title: "Sequences Series Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
 description: "Master Sequences Series for Mathematics 2026. This Grandmaster Guide includes Ayush"
 category: "Mathematics"

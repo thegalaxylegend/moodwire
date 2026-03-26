@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/medieval-india-mughals-class-11-revision-notes-cbse.webp"
 title: "Medieval India Mughals Class 11 History Recap — CBSE 2026 Quick Guide"
 description: "Deep dive into Medieval India Mughals Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "General"

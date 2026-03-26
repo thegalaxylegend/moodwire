@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/climatology-class-11-revision-notes-jee-neet.webp"
 title: "Climatology Class 11 Geography Recap — CBSE 2026 Quick Guide"
 description: "Accelerate your Geography revision with our Climatology guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Chemistry"

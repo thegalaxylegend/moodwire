@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/ancient-india-mahajanapadas-class-11-revision-notes-jee.webp"
 title: "Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide"
 description: "Master Ancient India Mahajanapadas for History 2026. This Grandmaster Guide includes Ayush"
 category: "Mathematics"

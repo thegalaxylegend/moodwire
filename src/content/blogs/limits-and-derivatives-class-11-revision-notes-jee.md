@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/limits-and-derivatives-class-11-revision-notes-jee.webp"
 title: "Limits and Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
 description: "Master Limits and Derivatives for Mathematics 2026. This Grandmaster Guide includes Ayush"
 category: "Biology"

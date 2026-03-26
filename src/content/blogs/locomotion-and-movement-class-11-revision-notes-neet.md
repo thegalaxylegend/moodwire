@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/locomotion-and-movement-class-11-revision-notes-neet.webp"
 title: "Locomotion And Movement Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Master Locomotion And Movement for Biology 2026. This Grandmaster Guide includes Ayush"
 category: "Biology"

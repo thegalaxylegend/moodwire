@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/mathematical-reasoning-class-11-revision-notes-jee-neet.webp"
 title: "Mathematical Reasoning Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Learn Mathematical Reasoning like a pro. Detailed revision notes, solved examples, and "
 category: "Physics"

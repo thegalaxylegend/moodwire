@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/neet-2026-weightage-prediction-class-11-revision-notes-neet.webp"
 title: "Neet 2026 Weightage Prediction Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Learn Neet 2026 Weightage Prediction like a pro. Detailed revision notes, solved examples, and "
 category: "Biology"

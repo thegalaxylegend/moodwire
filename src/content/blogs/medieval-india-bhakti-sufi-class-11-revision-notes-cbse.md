@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/medieval-india-bhakti-sufi-class-11-revision-notes-cbse.webp"
 title: "Medieval India Bhakti Sufi Class 11 History Recap — CBSE 2026 Quick Guide"
 description: "Learn Medieval India Bhakti Sufi like a pro. Detailed revision notes, solved examples, and "
 category: "General"

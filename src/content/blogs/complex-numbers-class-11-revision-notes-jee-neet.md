@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/complex-numbers-class-11-revision-notes-jee-neet.webp"
 title: "Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Learn Complex Numbers like a pro. Detailed revision notes, solved examples, and "
 category: "Physics"

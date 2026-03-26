@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/neet-biology-80-20-rule-class-11-revision-notes-neet.webp"
 title: "Neet Biology 80 20 Rule Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Learn Neet Biology 80 20 Rule like a pro. Detailed revision notes, solved examples, and "
 category: "Biology"

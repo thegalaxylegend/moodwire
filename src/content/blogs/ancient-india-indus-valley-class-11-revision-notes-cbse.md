@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/ancient-india-indus-valley-class-11-revision-notes-cbse.webp"
 title: "Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide"
 description: "The ultimate Ancient India Indus Valley revision resource for History students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "General"

@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/permutations-combinations-class-11-revision-notes-jee.webp"
 title: "Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
 description: "Deep dive into Permutations Combinations Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Mathematics"

@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/excretory-products-and-elimination-class-11-revision-notes-neet.webp"
 title: "Excretory Products And Elimination Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "The ultimate Excretory Products And Elimination revision resource for Biology students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Biology"

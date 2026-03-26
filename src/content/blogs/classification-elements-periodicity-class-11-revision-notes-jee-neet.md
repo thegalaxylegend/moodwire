@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/classification-elements-periodicity-class-11-revision-notes-jee-neet.webp"
 title: "Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Learn Classification Elements Periodicity like a pro. Detailed revision notes, solved examples, and "
 category: "Physics"

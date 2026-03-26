@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/digital-logic-class-11-revision-notes-gate-boards.webp"
 title: "Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide"
 description: "Accelerate your Computer Science revision with our Digital Logic guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Biology"

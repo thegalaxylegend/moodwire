@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/principle-of-mathematical-induction-class-11-revision-notes-jee.webp"
 title: "Principle of Mathematical Induction Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
 description: "Master Principle of Mathematical Induction for Mathematics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"

@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/geomorphology-class-11-revision-notes-cbse.webp"
 title: "Geomorphology Class 11 Geography Recap — CBSE 2026 Quick Guide"
 description: "Deep dive into Geomorphology Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Physics"

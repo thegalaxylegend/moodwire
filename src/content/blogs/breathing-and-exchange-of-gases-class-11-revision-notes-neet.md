@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/breathing-and-exchange-of-gases-class-11-revision-notes-neet.webp"
 title: "Breathing And Exchange Of Gases Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Deep dive into Breathing And Exchange Of Gases Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Biology"

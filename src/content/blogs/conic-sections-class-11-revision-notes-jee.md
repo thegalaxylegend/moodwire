@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/conic-sections-class-11-revision-notes-jee.webp"
 title: "Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
 description: "Accelerate your Mathematics revision with our Conic Sections guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Mathematics"

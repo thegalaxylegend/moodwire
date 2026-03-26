@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/constitutional-framework-class-11-revision-notes-cbse.webp"
 title: "Constitutional Framework Class 11 Social Science Recap — CBSE 2026 Quick Guide"
 description: "The ultimate Constitutional Framework revision resource for Social Science students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "General"
@@ -16,7 +16,7 @@ keywords: "constitutional framework class 11 revision notes cbse, General, Exam 
 
 # Constitutional Framework Class 11 Quick Recap — MCQs, Key Points & PDF Download
 
-![Constitutional Framework notes for students](/blog-images/fallbacks/generic-study.webp)
+![Constitutional Framework notes for students](/blog-images/constitutional-framework-class-11-revision-notes-cbse.webp)
 
 *Last Updated: March 21, 2026*
 

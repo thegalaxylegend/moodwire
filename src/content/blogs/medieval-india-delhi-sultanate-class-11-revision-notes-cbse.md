@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/medieval-india-delhi-sultanate-class-11-revision-notes-cbse.webp"
 title: "Medieval India Delhi Sultanate Class 11 History Recap — CBSE 2026 Quick Guide"
 description: "Accelerate your History revision with our Medieval India Delhi Sultanate guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "General"

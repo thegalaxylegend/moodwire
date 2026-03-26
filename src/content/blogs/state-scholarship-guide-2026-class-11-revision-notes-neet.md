@@ -1,5 +1,5 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/state-scholarship-guide-2026-class-11-revision-notes-neet.webp"
 title: "State Scholarship Guide 2026 Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Learn State Scholarship Guide 2026 like a pro. Detailed revision notes, solved examples, and "
 category: "Biology"
