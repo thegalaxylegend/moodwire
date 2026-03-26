@@ -136,7 +136,7 @@ async function prerender() {
 
                 // HYDRATION & TEMPLATE INJECTION
                 // Replace head placeholder and replace entire boot-shell skeleton with prerendered content
-                const html = template
+                let html = template
                     .replace('<!--app-head-->', headTags)
                     .replace(/<!--app-html-->[\s\S]*?<!--app-html-end-->/, appHtml);
 

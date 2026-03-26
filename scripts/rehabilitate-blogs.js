@@ -109,13 +109,16 @@ async function rehabilitate() {
         content = content.replace(/^# #/gm, '#');
 
         // Reconstruct
+        const optionalFields = [];
+        if (frontmatter.practice_link_path) {
+            optionalFields.push(`practice_link_path: "${frontmatter.practice_link_path}"`);
+        }
         const newFileContent = `---
 title: "${frontmatter.title}"
 description: "${frontmatter.description}"
 category: "${frontmatter.category}"
 keywords: "${frontmatter.keywords}"
-date: "${frontmatter.date || new Date().toISOString().split('T')[0]}"
-${frontmatter.practice_link_path ? `practice_link_path: "${frontmatter.practice_link_path}"` : ''}
+date: "${frontmatter.date || new Date().toISOString().split('T')[0]}"${optionalFields.length > 0 ? '\n' + optionalFields.join('\n') : ''}
 ---
 
 # ${frontmatter.title}
