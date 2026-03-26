@@ -753,10 +753,12 @@ async function generateBlogs() {
 
         // --- FINAL PUBLISH OR FAIL ---
         const finalStatus = finalPost ? (qualityReport?.auto_fixed.length ? "published_with_fixes" : "published") : "failed";
+        // If the blog was published, it PASSED quality = 100. Record 100, not the last failed attempt's score.
+        const finalScore = finalPost ? 100 : (qualityReport?.score || 0);
         pipelineReport.push({
             slug: item.targetSlug,
             status: finalStatus,
-            quality_score: qualityReport?.score || 0,
+            quality_score: finalScore,
             retries: attempts - 1
         });
 

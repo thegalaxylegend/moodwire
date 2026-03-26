@@ -48,11 +48,15 @@ async function rehabilitate() {
             const descMatch = fmContent.match(/description:\s*["'](.*?)["']/);
             const dateMatch = fmContent.match(/date:\s*["'](.*?)["']/);
             const practiceMatch = fmContent.match(/practice_link_path:\s*["'](.*?)["']/);
+            const heroMatch = fmContent.match(/heroImage:\s*["'](.*?)["']/);
+            const practiceLinkMatch = fmContent.match(/practice_link:\s*["'](.*?)["']/);
             
             if (titleMatch) frontmatter.title = titleMatch[1];
             if (descMatch) frontmatter.description = descMatch[1];
             if (dateMatch) frontmatter.date = dateMatch[1];
             if (practiceMatch) frontmatter.practice_link_path = practiceMatch[1];
+            if (heroMatch) frontmatter.heroImage = heroMatch[1];
+            if (practiceLinkMatch) frontmatter.practice_link = practiceLinkMatch[1];
             
             // Clean content by removing the old frontmatter for now
             content = content.replace(/---[\s\S]*?---/, '').trim();
@@ -110,8 +114,14 @@ async function rehabilitate() {
 
         // Reconstruct
         const optionalFields = [];
+        if (frontmatter.heroImage) {
+            optionalFields.push(`heroImage: "${frontmatter.heroImage}"`);
+        }
         if (frontmatter.practice_link_path) {
             optionalFields.push(`practice_link_path: "${frontmatter.practice_link_path}"`);
+        }
+        if (frontmatter.practice_link) {
+            optionalFields.push(`practice_link: "${frontmatter.practice_link}"`);
         }
         const newFileContent = `---
 title: "${frontmatter.title}"

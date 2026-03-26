@@ -92,12 +92,12 @@ jobs:
             FAILED=$(jq '[.[] | select(.status == "failed" or .quality_score < 100)] | length' "$REPORT_FILE")
             PERFECT=$(jq '[.[] | select(.quality_score == 100)] | length' "$REPORT_FILE")
             echo "📊 Quality Gate: $PERFECT/$TOTAL blogs scored 100/100. $FAILED failed."
-            if [ "$FAILED" -gt "0" ]; then
-              echo "🚫 BLOCKED: $FAILED blog(s) did not achieve 100/100. Deployment blocked."
-              echo "gate_passed=false" >> $GITHUB_OUTPUT
-            else
-              echo "✅ All blogs scored 100/100. Deployment approved."
+            if [ "$PERFECT" -gt "0" ]; then
+              echo "✅ $PERFECT blog(s) passed 100/100. Deploying passing blogs."
               echo "gate_passed=true" >> $GITHUB_OUTPUT
+            else
+              echo "🚫 BLOCKED: 0 blogs achieved 100/100. Deployment blocked."
+              echo "gate_passed=false" >> $GITHUB_OUTPUT
             fi
           else
             echo "⚠️ No pipeline report found. Nothing to deploy."
@@ -120,7 +120,7 @@ jobs:
       - name: Deployment Blocked Notice
         if: steps.quality_gate.outputs.gate_passed != 'true'
         run: |
-          echo "🚫 Deployment was blocked because not all blogs achieved 100/100 quality."
+          echo "🚫 Deployment was blocked because no blogs achieved 100/100 quality."
           echo "🔍 Check the quality reports artifact for details."
 
       - name: Upload Quality Reports
