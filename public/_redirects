@@ -7,3 +7,6 @@
 # Proxy OG Image generator to Firebase Function
 /api/og/*  https://us-central1-legendstech001.cloudfunctions.net/ogImage/:splat  200
 /api/og    https://us-central1-legendstech001.cloudfunctions.net/ogImage  200
+
+# Catch-all for SPA client-side routing
+/*         /index.html  200

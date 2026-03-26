@@ -46,8 +46,13 @@ async function rehabilitate() {
             const fmContent = fmMatch[1];
             const titleMatch = fmContent.match(/title:\s*["'](.*?)["']/);
             const descMatch = fmContent.match(/description:\s*["'](.*?)["']/);
+            const dateMatch = fmContent.match(/date:\s*["'](.*?)["']/);
+            const practiceMatch = fmContent.match(/practice_link_path:\s*["'](.*?)["']/);
+            
             if (titleMatch) frontmatter.title = titleMatch[1];
             if (descMatch) frontmatter.description = descMatch[1];
+            if (dateMatch) frontmatter.date = dateMatch[1];
+            if (practiceMatch) frontmatter.practice_link_path = practiceMatch[1];
             
             // Clean content by removing the old frontmatter for now
             content = content.replace(/---[\s\S]*?---/, '').trim();
@@ -109,6 +114,8 @@ title: "${frontmatter.title}"
 description: "${frontmatter.description}"
 category: "${frontmatter.category}"
 keywords: "${frontmatter.keywords}"
+date: "${frontmatter.date || new Date().toISOString().split('T')[0]}"
+${frontmatter.practice_link_path ? `practice_link_path: "${frontmatter.practice_link_path}"` : ''}
 ---
 
 # ${frontmatter.title}
