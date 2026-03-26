@@ -140,14 +140,73 @@ async function prerender() {
                     .replace('<!--app-head-->', headTags)
                     .replace(/<!--app-html-->[\s\S]*?<!--app-html-end-->/, appHtml);
 
-                // Verification logic
-                if (url.includes('/q/')) {
+                // SSR Fallback Injection for Question Pages
+                if (url.includes('/q/') && questionDb[url]) {
+                    const qData = questionDb[url];
+                    let patched = false;
+
+                    // 1. H1 Fallback: Inject if React SSR missed it
                     if (!html.includes('<h1') && !html.includes('<H1')) {
-                        const hadData = !!questionDb[url];
-                        console.warn(`⚠️ Warning: Question Page ${url} rendered without H1 tag. Data present: ${hadData}`);
+                        const h1Tag = `<h1 class="text-xl md:text-3xl font-bold mb-8 leading-relaxed">${qData.text || 'Practice Question'}</h1>`;
+                        // Inject after the first <article> or <section> or <main> tag
+                        if (html.includes('<article')) {
+                            html = html.replace(/(<article[^>]*>)/, `$1\n${h1Tag}`);
+                        } else if (html.includes('<section')) {
+                            html = html.replace(/(<section[^>]*>)/, `$1\n${h1Tag}`);
+                        } else if (html.includes('<main')) {
+                            html = html.replace(/(<main[^>]*>)/, `$1\n${h1Tag}`);
+                        } else {
+                            // Last resort: inject after opening <div id="root">
+                            html = html.replace(/(<div id="root"[^>]*>)/, `$1\n${h1Tag}`);
+                        }
+                        patched = true;
+                        console.log(`  🩹 Injected H1 fallback for ${url}`);
                     }
+
+                    // 2. Schema Fallback: Inject Quiz + FAQPage JSON-LD if React Helmet missed it
                     if (!html.includes('schema.org')) {
-                        console.warn(`⚠️  Warning: ${url} missing Schema.`);
+                        const correctAnswerText = Array.isArray(qData.options)
+                            ? (qData.options[qData.correctAnswer] || 'See Solution')
+                            : (Object.values(qData.options || {})[qData.correctAnswer] || 'See Solution');
+                        const examName = url.split('/')[1]?.toUpperCase().replace(/-/g, ' ') || 'EXAM';
+
+                        const schemaJson = JSON.stringify({
+                            "@context": "https://schema.org",
+                            "@graph": [
+                                {
+                                    "@type": "Quiz",
+                                    "name": `${qData.topic || 'Practice'} | ${examName}`,
+                                    "educationLevel": "High School",
+                                    "hasPart": {
+                                        "@type": "Question",
+                                        "name": qData.text,
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": correctAnswerText
+                                        }
+                                    }
+                                },
+                                {
+                                    "@type": "FAQPage",
+                                    "mainEntity": [{
+                                        "@type": "Question",
+                                        "name": qData.text,
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": `The correct answer is ${correctAnswerText}. ${qData.explanation || ''}`
+                                        }
+                                    }]
+                                }
+                            ]
+                        });
+                        const schemaTag = `<script type="application/ld+json">${schemaJson}</script>`;
+                        html = html.replace('</head>', `${schemaTag}\n</head>`);
+                        patched = true;
+                        console.log(`  🩹 Injected Schema fallback for ${url}`);
+                    }
+
+                    if (!patched) {
+                        console.log(`  ✅ Question page ${url} rendered correctly by React SSR.`);
                     }
                     verifiedQuestions++;
                 }
