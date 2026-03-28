@@ -120,6 +120,18 @@ jobs:
           git commit -m "chore: auto-generate blogs (Quality Gate 90+) by Jules" || echo "No changes to commit"
           git push origin main
 
+      - name: Trigger Cloudflare Pages Deploy
+        if: steps.quality_gate.outputs.gate_passed == 'true'
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          curl -s -X POST "https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/pages/projects/examcompass/deployments" \
+               -H "Authorization: Bearer ${CLOUDFLARE_API_TOKEN}" \
+               -H "Content-Type: application/json" \
+               -d '{"branch": "main"}'
+          echo "🚀 Triggered Cloudflare Pages deployment for new blogs!"
+
       - name: Deployment Blocked Notice
         if: steps.quality_gate.outputs.gate_passed != 'true'
         run: |
