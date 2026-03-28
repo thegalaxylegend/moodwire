@@ -132,6 +132,12 @@ jobs:
                -d '{"branch": "main"}'
           echo "🚀 Triggered Cloudflare Pages deployment for new blogs!"
 
+      - name: Task 7 - Ping Google Indexing API
+        if: steps.quality_gate.outputs.gate_passed == 'true'
+        env:
+          GOOGLE_INDEXING_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_INDEXING_SERVICE_ACCOUNT }}
+        run: npm run seo:indexing
+
       - name: Deployment Blocked Notice
         if: steps.quality_gate.outputs.gate_passed != 'true'
         run: |
