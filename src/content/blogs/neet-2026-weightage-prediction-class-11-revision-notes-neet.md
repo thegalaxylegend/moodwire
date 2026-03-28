@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/neet-2026-weightage-prediction-class-11-revision-notes-neet.webp"
 title: "Neet 2026 Weightage Prediction Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Learn Neet 2026 Weightage Prediction like a pro. Detailed revision notes, solved examples, and "
 category: "Biology"
 keywords: "neet 2026 weightage prediction class 11 revision notes neet, Biology, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/neet-2026-weightage-prediction-class-11-revision-notes-neet.webp"
 ---
 
 # Neet 2026 Weightage Prediction Class 11 Biology Revision — NEET 2026 Grandmaster Guide
@@ -90,6 +91,9 @@ Data shows that 70% of the NEET paper comes from only 35% of the syllabus. If yo
 <br/>
 
 **Practice Tip:** Don't just read the theory. Apply these concepts by practicing our [NEET Past Year Questions](/neet). Focus heavily on the years 2018–2025, as they represent the modern NTA pattern.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

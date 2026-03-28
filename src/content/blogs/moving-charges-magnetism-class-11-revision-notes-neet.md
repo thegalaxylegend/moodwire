@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
 title: "Moving Charges Magnetism Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Deep dive into Moving Charges Magnetism Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Biology"
 keywords: "moving charges magnetism class 11 revision notes neet, Biology, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/biology-cell.webp"
 ---
 
 # Moving Charges Magnetism Class 11 Biology Revision — NEET 2026 Grandmaster Guide
@@ -180,6 +181,9 @@ Moving Charges and Magnetism represent the bridge between pure electricity and t
 
 ---
 **Reference:** [CERN: The Large Hadron Collider (Bending Charges at Peak Energy)](https://home.cern)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

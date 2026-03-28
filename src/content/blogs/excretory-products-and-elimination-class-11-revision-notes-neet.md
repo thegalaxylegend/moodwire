@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/excretory-products-and-elimination-class-11-revision-notes-neet.webp"
 title: "Excretory Products And Elimination Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "The ultimate Excretory Products And Elimination revision resource for Biology students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Biology"
 keywords: "excretory products and elimination class 11 revision notes neet, Biology, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/excretory-products-and-elimination-class-11-revision-notes-neet.webp"
 ---
 
 # Excretory Products And Elimination Class 11 Biology Revision — NEET 2026 Grandmaster Guide
@@ -171,6 +172,9 @@ The following JEE/NEET data is relevant to the excretory system:
 * **Lung function**: The lungs remove approximately 200 milliliters of carbon dioxide per minute.
 
 This data is essential for understanding the functions of the excretory system, and for success in the JEE and NEET exams.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

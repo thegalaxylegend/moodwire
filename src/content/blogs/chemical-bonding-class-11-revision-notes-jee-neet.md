@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/chemical-bonding-class-11-revision-notes-jee-neet.webp"
 title: "Chemical Bonding Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Learn Chemical Bonding like a pro. Detailed revision notes, solved examples, and "
 category: "Physics"
 keywords: "chemical bonding class 11 revision notes jee neet, Physics, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/chemical-bonding-class-11-revision-notes-jee-neet.webp"
 ---
 
 # Chemical Bonding Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
@@ -405,6 +406,9 @@ Don't just memorize the table. Ask yourself "Why does lone pair repulsion decrea
 
 ---
 *Last Updated: March 14, 2026*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

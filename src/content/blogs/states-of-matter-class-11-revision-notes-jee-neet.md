@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/states-of-matter-class-11-revision-notes-jee-neet.webp"
 title: "States Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Deep dive into States Of Matter Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Physics"
 keywords: "states of matter class 11 revision notes jee neet, Physics, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/states-of-matter-class-11-revision-notes-jee-neet.webp"
 ---
 
 # States Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
@@ -330,6 +331,9 @@ In CBSE boards, always draw the $PV$ vs $P$ graph or the $Z$ vs $P$ graph if the
 
 ---
 *Last Updated: March 13, 2026*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

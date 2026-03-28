@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/mineral-nutrition-class-11-revision-notes-neet.webp"
 title: "Mineral Nutrition Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Master Mineral Nutrition for Biology 2026. This Grandmaster Guide includes Ayush"
 category: "Biology"
 keywords: "mineral nutrition class 11 revision notes neet, Biology, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/mineral-nutrition-class-11-revision-notes-neet.webp"
 ---
 
 # Mineral Nutrition Class 11 Biology Revision — NEET 2026 Grandmaster Guide
@@ -221,6 +222,9 @@ Answer: b) Stunted growth and purple coloration of leaves
 <div class="quick-summary">
 Mineral nutrition is the study of the essential elements required by plants for growth and development. Plants require 16 essential elements, which are divided into macronutrients and micronutrients. Mineral nutrition is critical for maintaining plant health and preventing diseases.
 </div>
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
 title: "Work Energy And Power Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "The ultimate Work Energy And Power revision resource for Biology students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Biology"
 keywords: "work energy and power class 11 revision notes neet, Biology, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/biology-cell.webp"
 ---
 
 # Work Energy And Power Class 11 Biology Revision — NEET 2026 Grandmaster Guide
@@ -170,6 +171,9 @@ Energy is the invisible currency of the universe. By shifting our perspective fr
 
 ---
 **Reference:** [Journal of Energy and Power Technology](https://www.lidsen.com/journals/jept)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

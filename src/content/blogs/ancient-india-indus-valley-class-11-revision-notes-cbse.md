@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/ancient-india-indus-valley-class-11-revision-notes-cbse.webp"
 title: "Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide"
 description: "The ultimate Ancient India Indus Valley revision resource for History students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "General"
 keywords: "ancient india indus valley class 11 revision notes cbse, General, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/ancient-india-indus-valley-class-11-revision-notes-cbse.webp"
 ---
 
 # Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide
@@ -142,6 +143,9 @@ The Indus Valley Civilization has had a lasting impact on the cultural heritage 
 
 
 ## ---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---

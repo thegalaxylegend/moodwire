@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/probability-intro-class-11-revision-notes-jee.webp"
 title: "Probability (Intro) Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
 description: "Master Probability (Intro) for Mathematics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"
 keywords: "probability intro class 11 revision notes jee, Physics, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/probability-intro-class-11-revision-notes-jee.webp"
 ---
 
 # Probability (Intro) Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
@@ -360,7 +361,6 @@ What are common Trap Questions for Probability (Intro) is a crucial area of stud
 **Answer:** C) There are 13 hearts in a standard deck of 52 cards.
 
 ---
-
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---

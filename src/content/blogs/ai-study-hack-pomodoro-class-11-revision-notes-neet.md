@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/ai-study-hack-pomodoro-class-11-computer-science-recap-cbse-2026-quick-guide-1774443497217.webp"
 title: "Ai Study Hack Pomodoro Class 11 Computer Science Recap — CBSE 2026 Quick Guide"
 description: "Learn Ai Study Hack Pomodoro like a pro. Detailed revision notes, solved examples, and "
 category: "Biology"
 keywords: "ai study hack pomodoro class 11 revision notes neet, Biology, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/biology-cell.webp"
 ---
 
 # Ai Study Hack Pomodoro Class 11 Computer Science Recap — CBSE 2026 Quick Guide
@@ -135,7 +136,6 @@ Organisms
 **Answer:** Cells) undefined
 
 ---
-
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---

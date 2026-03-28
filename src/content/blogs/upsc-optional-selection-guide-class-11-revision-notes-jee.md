@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
 title: "Upsc Optional Selection Guide Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
 description: "The ultimate Upsc Optional Selection Guide revision resource for Mathematics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Mathematics"
 keywords: "upsc optional selection guide class 11 revision notes jee, Mathematics, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/maths-equations.webp"
 ---
 
 # Upsc Optional Selection Guide Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
@@ -95,6 +96,9 @@ Yes, approximately 70% of successful candidates choose an optional that is diffe
 
 ### 3. How much time should I dedicate to my optional?
 During the first four months of preparation, dedicate 60–70% of your daily study time to your optional. Once you have covered the syllabus, transition to a split of 30% for your optional and 70% for General Studies and current affairs to maintain overall balance.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

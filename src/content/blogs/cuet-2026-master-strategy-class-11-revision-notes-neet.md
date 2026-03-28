@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
 title: "Cuet 2026 Master Strategy Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "The ultimate Cuet 2026 Master Strategy revision resource for Biology students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Biology"
 keywords: "cuet 2026 master strategy class 11 revision notes neet, Biology, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/biology-cell.webp"
 ---
 
 # Cuet 2026 Master Strategy Class 11 Biology Revision — NEET 2026 Grandmaster Guide
@@ -95,6 +96,9 @@ Most major universities, including Delhi University, require you to appear only 
 
 ### 3. How many subjects should I ideally pick for CUET?
 To maximize your eligibility across various courses and universities, we recommend choosing one Language, three or four Domain subjects, and the General Test. This combination (total 5–6 subjects) ensures you meet the criteria for a wide range of degrees, from specialized honors courses to multi-disciplinary vocational programs.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

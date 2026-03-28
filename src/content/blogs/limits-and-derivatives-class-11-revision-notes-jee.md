@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/limits-and-derivatives-class-11-revision-notes-jee.webp"
 title: "Limits and Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
 description: "Master Limits and Derivatives for Mathematics 2026. This Grandmaster Guide includes Ayush"
 category: "Biology"
 keywords: "limits and derivatives class 11 revision notes jee, Biology, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/limits-and-derivatives-class-11-revision-notes-jee.webp"
 ---
 
 # Limits and Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
@@ -296,7 +297,6 @@ D. 28x^3 + 6x^2 - 10x + 1 + 0
 **Answer:** A) To find the derivative of the function, we need to apply the power rule, which states that if f(x) = x^n, then f'(x) = nx^(n-1).
 
 ---
-
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---

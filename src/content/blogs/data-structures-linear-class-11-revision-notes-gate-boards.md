@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/data-structures-linear-class-11-revision-notes-gate-boards.webp"
 title: "Data Structures: Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide"
 description: "Master Data Structures: Linear for Computer Science 2026. This Grandmaster Guide includes Ayush"
 category: "Chemistry"
 keywords: "data structures linear class 11 revision notes gate boards, Chemistry, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/data-structures-linear-class-11-revision-notes-gate-boards.webp"
 ---
 
 # Data Structures: Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide
@@ -398,7 +399,6 @@ Last-In-First-Out (LIFO) order is maintained
 **Answer:** D) Last-In-First-Out (LIFO) order is maintained because the last element added to the stack is the first one to be removed.
 
 ---
-
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---

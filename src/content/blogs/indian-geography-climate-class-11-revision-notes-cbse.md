@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
 title: "Indian Geography Climate Class 11 Geography Recap — CBSE 2026 Quick Guide"
 description: "Master Indian Geography Climate for Geography 2026. This Grandmaster Guide includes Ayush"
 category: "General"
 keywords: "indian geography climate class 11 revision notes cbse, General, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/generic-study.webp"
 ---
 
 # Indian Geography Climate Class 11 Geography Recap — CBSE 2026 Quick Guide
@@ -84,7 +85,6 @@ The core concepts of climate include **atmospheric circulation**, **ocean curren
 ## MCQs
 
 ---
-
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---

@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/structure-of-atom-class-11-revision-notes-jee-neet.webp"
 title: "Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Master Structure Of Atom for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"
 keywords: "structure of atom class 11 revision notes jee neet, Physics, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/structure-of-atom-class-11-revision-notes-jee-neet.webp"
 ---
 
 # Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
@@ -356,6 +357,9 @@ For your school exams, always draw the Rydberg series energy level diagram ($n=1
 
 ---
 *Last Updated: March 13, 2026*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

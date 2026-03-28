@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/study-12-hours-daily-tips-class-11-revision-notes-jee-neet.webp"
 title: "Study 12 Hours Daily Tips Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Accelerate your Physics revision with our Study 12 Hours Daily Tips guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Physics"
 keywords: "study 12 hours daily tips class 11 revision notes jee neet, Physics, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/study-12-hours-daily-tips-class-11-revision-notes-jee-neet.webp"
 ---
 
 # Study 12 Hours Daily Tips Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
@@ -99,6 +100,9 @@ Instrumental music or lo-fi beats can help some students maintain a "flow state"
 ### 3. How do I start if I can only study for 2 hours now?
 Don't jump to 12 hours immediately. Start by adding one 30-minute session each day. Within two weeks of consistent additions, you will build the mental stamina required for 12-hour session blocks without feeling overwhelmed.
 *
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

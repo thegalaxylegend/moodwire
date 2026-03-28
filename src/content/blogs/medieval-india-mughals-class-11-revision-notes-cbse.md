@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/medieval-india-mughals-class-11-revision-notes-cbse.webp"
 title: "Medieval India Mughals Class 11 History Recap — CBSE 2026 Quick Guide"
 description: "Deep dive into Medieval India Mughals Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "General"
 keywords: "medieval india mughals class 11 revision notes cbse, General, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/medieval-india-mughals-class-11-revision-notes-cbse.webp"
 ---
 
 # Medieval India Mughals Class 11 History Recap — CBSE 2026 Quick Guide
@@ -124,6 +125,9 @@ This code will create a table with the specified columns and rows, using the `ta
 ### Summary
 
 In this quick revision and recap, we covered the key aspects of the Mughal Empire, including its founding, notable rulers, administrative divisions, and revenue systems. We also discussed the core concepts, formulae tables, MCQs, and trap exceptions related to the Mughal Empire. By focusing on these key terms and concepts, you can develop a solid understanding of the Mughal Empire and its significance in medieval Indian history.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

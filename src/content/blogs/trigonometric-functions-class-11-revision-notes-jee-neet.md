@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/trigonometric-functions-class-11-revision-notes-jee-neet.webp"
 title: "Trigonometric Functions Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Learn Trigonometric Functions like a pro. Detailed revision notes, solved examples, and "
 category: "Physics"
 keywords: "trigonometric functions class 11 revision notes jee neet, Physics, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/trigonometric-functions-class-11-revision-notes-jee-neet.webp"
 ---
 
 # Trigonometric Functions Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
@@ -158,6 +159,9 @@ The definitions of trigonometric functions are extended to all real numbers usin
 Trigonometry is the bridge between geometry and algebra. By mastery the "Core 10" formulas and visualizing the Unit Circle, you unlock the ability to solve complex rotation and wave problems. Keep your radians straight and your ASTC rule handy!
 
 ---
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

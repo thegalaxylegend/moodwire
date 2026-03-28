@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/digital-logic-class-11-revision-notes-gate-boards.webp"
 title: "Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide"
 description: "Accelerate your Computer Science revision with our Digital Logic guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Biology"
 keywords: "digital logic class 11 revision notes gate boards, Biology, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/digital-logic-class-11-revision-notes-gate-boards.webp"
 ---
 
 # Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide
@@ -542,6 +543,9 @@ To store and retain a binary state
 To perform memory operations
 
 **Answer:** C) A D-Flip-Flop is a digital circuit that stores and retains a binary state, acting as a memory element, and is triggered by a rising edge of the clock signal.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

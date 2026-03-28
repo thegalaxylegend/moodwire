@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/waves-class-11-revision-notes-neet.webp"
 title: "Waves Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "The ultimate Waves revision resource for Biology students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Biology"
 keywords: "waves class 11 revision notes neet, Biology, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/waves-class-11-revision-notes-neet.webp"
 ---
 
 # Waves Class 11 Biology Revision — NEET 2026 Grandmaster Guide
@@ -236,6 +237,9 @@ Waves are the signature of the universe's energy. By mastering the mathematical 
 
 ---
 **Reference:** [The Physics Classroom: Sound Waves and Music](https://www.physicsclassroom.com/class/sound)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

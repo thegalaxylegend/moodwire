@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/principle-of-mathematical-induction-class-11-revision-notes-jee.webp"
 title: "Principle of Mathematical Induction Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
 description: "Master Principle of Mathematical Induction for Mathematics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"
 keywords: "principle of mathematical induction class 11 revision notes jee, Physics, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/principle-of-mathematical-induction-class-11-revision-notes-jee.webp"
 ---
 
 # Principle of Mathematical Induction Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
@@ -384,7 +385,6 @@ D
 **Answer:** C) To prove P(n) by induction, we need to show that P(1) is true, and that if P(k) is true, then P(k+1) is also true.
 
 ---
-
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---

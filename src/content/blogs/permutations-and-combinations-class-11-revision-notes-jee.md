@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/permutations-and-combinations-class-11-revision-notes-jee.webp"
 title: "Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
 description: "Deep dive into Permutations and Combinations Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Mathematics"
 keywords: "permutations and combinations class 11 revision notes jee, Mathematics, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/permutations-and-combinations-class-11-revision-notes-jee.webp"
 ---
 
 # Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
@@ -321,7 +322,6 @@ How do you solve Higher-Order Permutations and Combinations problems? is a mathe
 **Answer:** A) The total number of ways to choose 5 items from a set of 7 distinct items and then arrange them in a particular order is given by 7C5 * 5P5 = 21 * 120 = 2520, but one of the items is repeated 5 times, so the number is 7C2 * 5! / 5! = 21, and then arrange them in 5P5 = 120 ways, so total number of ways is 21 * 120 = 2520.
 
 ---
-
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---

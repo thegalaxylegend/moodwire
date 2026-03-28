@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/complex-numbers-class-11-revision-notes-jee-neet.webp"
 title: "Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Learn Complex Numbers like a pro. Detailed revision notes, solved examples, and "
 category: "Physics"
 keywords: "complex numbers class 11 revision notes jee neet, Physics, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/complex-numbers-class-11-revision-notes-jee-neet.webp"
 ---
 
 # Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
@@ -146,6 +147,9 @@ In earlier classes, we said D < 0 means "No real roots." Now, we find complex ro
 Complex numbers expand your mathematical toolkit to include rotation and two-dimensional numbers. By mastering the Argand plane and the algebra of 'i', you prepare yourself for advanced topics in physics and engineering. Remember, a complex number is just a vector in a different language!
 
 ---
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

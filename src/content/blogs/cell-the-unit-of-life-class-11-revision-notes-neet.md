@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/cell-the-unit-of-life-class-11-revision-notes-neet.webp"
 title: "Cell The Unit Of Life Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Deep dive into Cell The Unit Of Life Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Biology"
 keywords: "cell the unit of life class 11 revision notes neet, Biology, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/cell-the-unit-of-life-class-11-revision-notes-neet.webp"
 ---
 
 # Cell The Unit Of Life Class 11 Biology Revision — NEET 2026 Grandmaster Guide
@@ -184,6 +185,9 @@ Solution: d) Controlling the cell's genetic material
 Last Updated: March 16, 2026
 
 ![Cell The Unit Of Life Class 11 Notes Notes](/blog-images/cell-the-unit-of-life-class-11-notes.webp)
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
