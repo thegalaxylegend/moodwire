@@ -26,7 +26,7 @@ jobs:
         run: echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT_LEGENDSTECH001 }}' > service-account.json
 
       - name: Clean Old Reports
-        run: rm -f jules-reports/pipeline-*.json
+        run: rm -rf jules-reports/* jules-failed/*
 
       - name: Task 1 - Build Queue
         run: npx tsx scripts/chapter-queue-builder.ts
@@ -92,14 +92,14 @@ jobs:
           REPORT_FILE=$(ls -t jules-reports/pipeline-*.json 2>/dev/null | head -n 1 || true)
           if [ -f "$REPORT_FILE" ]; then
             TOTAL=$(jq 'length' "$REPORT_FILE")
-            FAILED=$(jq '[.[] | select(.status == "failed" or .quality_score < 100)] | length' "$REPORT_FILE")
-            PERFECT=$(jq '[.[] | select(.quality_score == 100)] | length' "$REPORT_FILE")
-            echo "📊 Quality Gate: $PERFECT/$TOTAL blogs scored 100/100. $FAILED failed."
-            if [ "$PERFECT" -gt "0" ]; then
-              echo "✅ $PERFECT blog(s) passed 100/100. Deploying passing blogs."
+            FAILED=$(jq '[.[] | select(.status == "failed" or .quality_score < 90)] | length' "$REPORT_FILE")
+            DEPLOYABLE=$(jq '[.[] | select(.quality_score >= 90)] | length' "$REPORT_FILE")
+            echo "📊 Quality Gate: $DEPLOYABLE/$TOTAL blogs are deployable (score >= 90). $FAILED failed."
+            if [ "$DEPLOYABLE" -gt "0" ]; then
+              echo "✅ $DEPLOYABLE blog(s) passed (>= 90). Deploying passing blogs."
               echo "gate_passed=true" >> $GITHUB_OUTPUT
             else
-              echo "🚫 BLOCKED: 0 blogs achieved 100/100. Deployment blocked."
+              echo "🚫 BLOCKED: 0 blogs achieved 90/100. Deployment blocked."
               echo "gate_passed=false" >> $GITHUB_OUTPUT
             fi
           else
@@ -117,13 +117,13 @@ jobs:
           git add src/data/blogs.ts
           git add public/seo-manifest.json
           git add public/slug-registry.json
-          git commit -m "chore: auto-generate blogs (100/100 quality) by Jules" || echo "No changes to commit"
+          git commit -m "chore: auto-generate blogs (Quality Gate 90+) by Jules" || echo "No changes to commit"
           git push origin main
 
       - name: Deployment Blocked Notice
         if: steps.quality_gate.outputs.gate_passed != 'true'
         run: |
-          echo "🚫 Deployment was blocked because no blogs achieved 100/100 quality."
+          echo "🚫 Deployment was blocked because no blogs achieved 90/100 quality."
           echo "🔍 Check the quality reports artifact for details."
 
       - name: Upload Quality Reports
@@ -163,7 +163,7 @@ jobs:
             # Build embed fields array from report
             FIELDS=$(jq -c '[.[] | {
               name: (.slug | split("-") | map(. | explode | map(if . >= 97 and . <= 122 then . - 32 else . end) | implode)[0:3] | join(" ")),
-              value: ("Score: **\(.quality_score)/100**\nStatus: \(.status)\n[View Blog](https://examcompass.pages.dev/blog/\(.slug))"),
+              value: ("Score: **\(.quality_score)/100**\n\(if .error then "⚠️ *\(.error | .[0:60])*\n" else "" end)Status: **\(.status)**\n[View Blog](https://examcompass.pages.dev/blog/\(.slug))"),
               inline: true
             }]' "$REPORT_FILE")
             

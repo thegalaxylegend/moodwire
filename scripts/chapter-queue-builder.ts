@@ -94,7 +94,7 @@ async function buildQueue() {
             'Science': 'cbse', 'Social Science': 'cbse', 'English': 'cbse'
         };
         const examTag = SUBJECT_EXAM_TAG[item.subject] || 'cbse';
-        const slug1 = slugify(`${item.topic}-class-${classNum}-revision-notes-${examTag}`);
+        const slug1 = slugify(`${item.topic}-class-${classNum}-notes`);
         
         // Smarter check: Compare core content keywords
         const isDuplicate = existingBlogs.some((blogName: string) => {

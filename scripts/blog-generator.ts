@@ -370,7 +370,8 @@ async function downloadHeroImage(subject: string, topic: string, slug: string): 
 
 const GRANDMASTER_IDENTITY = `You are Ayush's senior content editor at Exam Compass. 
 Your voice is that of a PEER MENTOR (a student who cracked the exam helping juniors). 
-Voice: Specific, data-driven, authentic student tone. NO FILLER.`;
+Applicable Subjects: Physics, Chemistry, Biology, Maths, History, Geography, Social Science, English.
+Voice: Specific, data-driven, authentic student tone. NO FILLER. Provide high-yield exam insights.`;
 
 const CROSS_SECTION_RULES = `
 STRICTLY PROHIBITED PHRASES (using ANY of these = instant rejection, your output will be discarded):
@@ -381,10 +382,12 @@ STRICTLY PROHIBITED PHRASES (using ANY of these = instant rejection, your output
 - "in today's competitive world", "one of the most important topics"
 - "comprehensive guide", "world-best"
 RULES:
-1. NO CONCLUSION sections. Never write "In conclusion", instead use "Key Takeaway" or just end naturally.
-2. Use ONLY $ for inline math and $$ for block math.
-3. Factual Accuracy: Kangchenjunga is highest peak in India. Ganga is longest river.
-4. Voice: Authentic Peer Mentor (student-to-student). Write like a topper helping a friend.
+1. NO CONCLUSION sections. Never write "In conclusion", instead use "Key Takeaway" or "Exam Day Summary".
+2. Use ONLY $ for inline math and $$ for block math. Ensure all formulas are wrapped.
+3. Factual Accuracy: Kangchenjunga is highest peak in India. Ganga is longest river. 
+4. Depth: Each section MUST be at least 600-800 words of technical/academic depth.
+5. Voice: Authentic Peer Mentor (student-to-student). Write like a topper helping a friend.
+6. Formatting: Use tables, bold text for key terms, and bullet points for lists.
 `;
 
 // --- SMART RECOVERY WRAPPER ---
@@ -467,34 +470,45 @@ async function callLlmWithFallback(system: string, user: string, isJson: boolean
 async function generateOutline(item: any, targetYear: number): Promise<string[]> {
     console.log(`📑 Jules: Planning massive 10-point outline for ${item.topic}...`);
     const system = GRANDMASTER_IDENTITY;
+    const isScience = ['Physics', 'Chemistry', 'Biology', 'Mathematics'].includes(item.subject);
+    const tipHeading = isScience ? `What is the key Shortcut or Trick for ${item.topic}?` : `What is the best Mnemonic or Timeline Tip for ${item.topic}?`;
+    
     const user = `Create an EXHAUSTIVE 10-point outline of direct question headings (ending in "?") for a 3000-word revision guide on "${item.topic}".
     The headings MUST cover every single sub-topic for Class ${String(item.class).replace(/\D/g, '')} in ${targetYear}.
-    MANDATORY: You MUST include exact headings for "What is Ayush's Note on ${item.topic}?", "What is the key Shortcut or Trick for ${item.topic}?", and "What are common Trap Questions for ${item.topic}?".
+    MANDATORY: You MUST include exact headings for "What is Ayush's Note on ${item.topic}?", "${tipHeading}", and "What are common Trap Questions for ${item.topic}?".
     Return ONLY a JSON array of strings. Example: { "headings": ["What is...?", "How does...?", ...] }`;
     const raw = await callLlmWithFallback(system, user, true);
     try {
         const data = safelyParseJson(raw);
         return data.headings || data.outline || Object.values(data)[0] as string[];
     } catch {
-        return [`What is ${item.topic}?`, `Core concepts of ${item.topic}?`].slice(0, 10);
+        // Robust Rescue Outline (Ensure 5+ sections and mandatory markers)
+        return [
+            `What is ${item.topic}?`,
+            `Key concepts of ${item.topic} for ${targetYear}`,
+            `What is Ayush's Note on ${item.topic}?`,
+            `${tipHeading}`,
+            `What are common Trap Questions for ${item.topic}?`
+        ];
     }
 }
 
 async function generateIntro(item: any, targetYear: number, displayClass: string): Promise<string> {
     console.log(`✍️ Jules: Crafting 500-word Peer Mentor intro...`);
     const system = `${GRANDMASTER_IDENTITY}\n${CROSS_SECTION_RULES}`;
-    const user = `Write a massive, 500-800 word introduction for "${item.topic}" for ${displayClass} exam prep in ${targetYear}.
-    Structure: Set the stage, explain exam weightage, and provide a personal/conceptual hook.`;
+    const user = `Write a massive, 800-1000 word introduction for "${item.topic}" for ${displayClass} exam prep in ${targetYear}.
+    Structure: Set the stage, explain exam weightage, provide a personal/conceptual hook, and mention prerequisites.
+    Ensure the depth is sufficient for a 100/100 quality score. NO FILLER.`;
     
     return await callLlmWithFallback(system, user, false);
 }
 
 async function generateSection(item: any, heading: string, displayClass: string, targetYear: number): Promise<Section> {
-    console.log(`📖 Jules: Writing 800-word deep-dive: ${heading}...`);
+    console.log(`📖 Jules: Writing 500-word deep-dive: ${heading}...`);
     const system = `${GRANDMASTER_IDENTITY}\n${CROSS_SECTION_RULES}`;
-    const user = `Write an EXHAUSTIVE, 800-word deep-dive section for the heading: "${heading}".
+    const user = `Write an EXHAUSTIVE, 500-word deep-dive section for the heading: "${heading}".
     STRICT RULE: The first paragraph must follow this structure: "[Heading Topic] is [one-sentence definition]. It includes [2–3 key components]. For ${displayClass} exam prep in ${targetYear}, the most important aspect is [core exam focus]."
-    Expand with technical depth and tables. Return JSON: { "heading": "${heading}", "body": "...", "table": { "headers": [], "rows": [[]] } }`;
+    Expand with technical depth, comparison tables (if relevant), and a student-centric tip. Return JSON: { "heading": "${heading}", "body": "...", "table": { "headers": [], "rows": [[]] } }`;
 
     const raw = await callLlmWithFallback(system, user, true);
     try {
@@ -575,6 +589,7 @@ async function generateBlogs() {
         let finalPost: BlogPostJSON | null = null;
         let assembled: BlogPostJSON | null = null;
         let qualityReport: QualityReport | null = null;
+        let lastError = "";
         let attempts = 0;
         const maxAttempts = 3;
 
@@ -747,6 +762,7 @@ async function generateBlogs() {
                     }
                 }
             } catch (err: any) {
+                lastError = err.message;
                 console.error(`🚨 Pass failed: ${err.message}`);
             }
         }
@@ -759,7 +775,8 @@ async function generateBlogs() {
             slug: item.targetSlug,
             status: finalStatus,
             quality_score: finalScore,
-            retries: attempts - 1
+            retries: attempts - 1,
+            error: finalPost ? null : (lastError || qualityReport?.critical_failures[0] || "Unknown Failure")
         });
 
         if (finalPost && !isDryRun) {

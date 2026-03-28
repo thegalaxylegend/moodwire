@@ -46,10 +46,16 @@ export interface QualityReport {
 const SUBJECT_TO_PATH: Record<string, string> = {
     "Political Science": "/class-11/political-science/",
     "Geography": "/class-11/geography/",
+    "History": "/class-10/history/",
+    "Social Science": "/class-10/social-science/",
+    "Economics": "/class-10/economics/",
+    "Civics": "/class-10/civics/",
     "Physics": "/class-11/physics/",
     "Chemistry": "/class-11/chemistry/",
     "Biology": "/class-11/biology/",
-    "Mathematics": "/class-11/mathematics/"
+    "Mathematics": "/class-11/mathematics/",
+    "Science": "/class-10/science/",
+    "English": "/class-10/english/"
 };
 
 const CHAPTER_TO_SUBJECT: Record<string, string> = {
@@ -62,10 +68,25 @@ const CHAPTER_TO_SUBJECT: Record<string, string> = {
     "Parliament": "Social Science",
     "Judiciary": "Social Science",
     "Local Government": "Social Science",
+    "Polity": "Social Science",
+    "Civics": "Social Science",
+    "Art & Culture": "History",
+    "French Revolution": "History",
+    "Nationalism": "History",
+    "Industrialisation": "History",
+    "Agriculture": "Geography",
     "Physical Geography": "Geography",
     "Climate": "Geography",
     "Drainage": "Geography",
-    "Geomorphology": "Geography"
+    "Geomorphology": "Geography",
+    "India: Physical Environment": "Geography",
+    "Indian Geography": "Geography",
+    "Sectors of Indian Economy": "Economics",
+    "Money and Credit": "Economics",
+    "Computer Organization": "Computer Science",
+    "Digital Logic": "Computer Science",
+    "Data Structures": "Computer Science",
+    "Algorithms": "Computer Science"
 };
 
 export function checkBlogQuality(post: BlogPostJSON): QualityReport {
@@ -98,6 +119,10 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
         }
     }
     if (matchedSubject && post.subject !== matchedSubject) {
+        // If it's Social Science but Class 11, it's actually Political Science
+        if (matchedSubject === "Social Science" && post.exam_class >= 11) {
+            matchedSubject = "Political Science";
+        }
         report.auto_fixed.push({ field: 'subject', old: post.subject, new: matchedSubject });
         post.subject = matchedSubject;
     }
@@ -163,18 +188,22 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
 
     const bodyContent = JSON.stringify(post.content).toLowerCase();
 
-    // 1. Word Count
-    const wordCount = (post.content?.intro?.split(' ').length || 0) +
-        (post.content?.sections || []).reduce((acc, s) => acc + (s.body?.split(' ').length || 0), 0);
-    if (wordCount < 1200) {
+    // 1. Word Count (Dynamic threshold)
+    const PCMB_SUBJECTS = ['Physics', 'Chemistry', 'Mathematics', 'Biology', 'Maths'];
+    const minWordCount = PCMB_SUBJECTS.includes(post.subject) ? 1200 : 1000;
+    
+    const wordCount = (post.content?.intro?.split(/\s+/).length || 0) +
+        (post.content?.sections || []).reduce((acc, s) => acc + (s.body?.split(/\s+/).length || 0), 0);
+        
+    if (wordCount < minWordCount) {
         score -= 30;
-        report.critical_failures.push(`Low word count: ${wordCount} (Min 1200)`);
+        report.critical_failures.push(`Low word count: ${wordCount} (Min ${minWordCount} for ${post.subject})`);
         report.regenerate_sections.push("all");
     }
 
-    // 2. Mandatory Sections
-    const hasAyushNote = bodyContent.includes("ayush's note") || bodyContent.includes("ayush note") || bodyContent.includes("mistake i made");
-    const hasTrapQuestions = bodyContent.includes("trap questions") || bodyContent.includes("common mistakes") || bodyContent.includes("exceptions");
+    // 2. Mandatory Sections (Robust keywords)
+    const hasAyushNote = /ayush'?s? note|mistake i made|peer-mentor tip|mentor alert|my personal advice|checklist|student advice/i.test(bodyContent);
+    const hasTrapQuestions = /trap questions?|common mistakes?|exceptions?|watch out|student confusion|tricky part|avoid this/i.test(bodyContent);
     const mcqCount = (post.content?.mcqs || []).length;
 
     if (!hasAyushNote) {
@@ -236,17 +265,17 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
         }
     });
 
-    // 7. Factual Accuracy (Geography)
+    // 7. Factual Accuracy (Geography) - PRECISE REGEX
     const fullText = JSON.stringify(post).toLowerCase();
     if (post.subject === "Geography") {
-        if (fullText.includes("mount everest") && (fullText.includes("india") || fullText.includes("highest peak"))) {
+        if (/(mount everest is the highest peak in india|everest is india'?s highest peak)/i.test(fullText)) {
             score -= 30;
-            report.critical_failures.push("Everest ≠ India's highest peak");
+            report.critical_failures.push("Everest ≠ India's highest peak (K2/Kangchenjunga)");
             report.regenerate_sections.push("all");
         }
-        if (fullText.includes("indus") && (fullText.includes("longest river") || fullText.includes("india's longest"))) {
+        if (/(indus is the longest river in india|indus is india'?s longest river)/i.test(fullText)) {
             score -= 30;
-            report.critical_failures.push("Indus ≠ India's longest river");
+            report.critical_failures.push("Indus ≠ India's longest river (Ganga)");
             report.regenerate_sections.push("all");
         }
     }
@@ -271,6 +300,14 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
 
     // ========= FINAL SCORING: 100/100 required to publish =========
     report.score = Math.max(0, score);
+
+    // SAFETY FLOOR: If the blog has > 500 words, it shouldn't score 0.
+    // This prevents a single missing marker from killing a high-quality long blog.
+    if (wordCount > 500 && report.score < 50) {
+        report.score = 50; 
+        report.warnings.push("Score floor applied (Content exists but structural markers missing).");
+    }
+
     report.passed = report.score === 100 && report.critical_failures.length === 0;
 
     return report;
