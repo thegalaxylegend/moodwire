@@ -81,3 +81,6 @@ The structure of an atom is a crucial topic for JEE/NEET exams, and it's essenti
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -301,3 +301,6 @@ D. 28x^3 + 6x^2 - 10x + 1 + 0
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

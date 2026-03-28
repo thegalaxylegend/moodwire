@@ -120,3 +120,6 @@ heroImage: "/blog-images/ai-exam-prep-future-class-11-revision-notes-jee-neet.we
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

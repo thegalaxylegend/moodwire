@@ -123,3 +123,6 @@ By understanding the historical context of the Delhi Sultanate, we can gain a de
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

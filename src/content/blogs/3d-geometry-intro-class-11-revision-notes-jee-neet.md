@@ -43,3 +43,6 @@ heroImage: "/blog-images/3d-geometry-intro-class-11-revision-notes-jee-neet.webp
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

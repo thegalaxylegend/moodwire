@@ -156,3 +156,6 @@ Complex numbers expand your mathematical toolkit to include rotation and two-dim
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

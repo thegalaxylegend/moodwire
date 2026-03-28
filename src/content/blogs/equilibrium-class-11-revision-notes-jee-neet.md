@@ -355,3 +355,6 @@ For CBSE, always state Le Chatelier's Principle in full before applying it. Then
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

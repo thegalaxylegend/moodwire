@@ -190,3 +190,6 @@ Moving Charges and Magnetism represent the bridge between pure electricity and t
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

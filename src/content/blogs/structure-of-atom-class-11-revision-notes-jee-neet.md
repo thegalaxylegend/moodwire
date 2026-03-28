@@ -366,3 +366,6 @@ For your school exams, always draw the Rydberg series energy level diagram ($n=1
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

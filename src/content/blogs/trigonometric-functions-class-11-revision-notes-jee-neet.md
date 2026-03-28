@@ -168,3 +168,6 @@ Trigonometry is the bridge between geometry and algebra. By mastery the "Core 10
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
