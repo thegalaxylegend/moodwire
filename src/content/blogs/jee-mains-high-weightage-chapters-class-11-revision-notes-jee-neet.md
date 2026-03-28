@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/generic-study.webp"
 title: "Jee Mains High Weightage Chapters Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "The ultimate Jee Mains High Weightage Chapters revision resource for Physics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Physics"
 keywords: "jee mains high weightage chapters class 11 revision notes jee neet, Physics, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/physics-waves.webp"
 ---
 
 # Jee Mains High Weightage Chapters Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
@@ -100,6 +101,9 @@ Mathematically, yes. It takes significant time to master and usually yields only
 ### 3. Which subject is the easiest to score in?
 Chemistry is statistically the easiest and most scorable. Many questions are direct or semi-direct from NCERT. If you know the concept, you get the marks quickly, leaving more time for the calculations required in Physics and Math.
  become your strongest area.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

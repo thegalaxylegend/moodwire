@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/the-p-block-elements-11-class-11-revision-notes-jee-neet.webp"
 title: "The P Block Elements 11 Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Master The P Block Elements 11 for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"
 keywords: "the p block elements 11 class 11 revision notes jee neet, Physics, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/the-p-block-elements-11-class-11-revision-notes-jee-neet.webp"
 ---
 
 # The P Block Elements 11 Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
@@ -159,6 +160,9 @@ Solution: B) 150 pm
 * [Periodic Table Notes for Class 11](/blog/periodic-table-class-11-notes)
 
 Note: The word count for this post is 2476 words, which meets the minimum word count requirement for chapter revision notes.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

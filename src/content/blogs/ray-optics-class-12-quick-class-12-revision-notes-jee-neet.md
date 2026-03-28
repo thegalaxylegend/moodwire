@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/ray-optics-class-12-quick-class-12-revision-notes-jee-neet.webp"
 title: "Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Master Ray Optics for Physics 2026. This Grandmaster Guide includes Ayush"
 category: "Physics"
 keywords: "ray optics class 12 quick class 12 revision notes jee neet, Physics, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/ray-optics-class-12-quick-class-12-revision-notes-jee-neet.webp"
 ---
 
 # Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide
@@ -174,6 +175,9 @@ Here's a final summary of the key points:
 By reviewing these key points and practicing with MCQs, you can reinforce your understanding of ray optics and achieve success in your exams.
 
 Now, go ahead and take the next step in your journey to mastering ray optics. Stay focused, stay committed, and you'll achieve your goals in no time.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

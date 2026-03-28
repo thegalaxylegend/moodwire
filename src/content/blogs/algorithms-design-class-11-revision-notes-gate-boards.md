@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/algorithms-design-class-11-revision-notes-gate-boards.webp"
 title: "Algorithms: Design Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide"
 description: "The ultimate Algorithms: Design revision resource for Computer Science students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Biology"
 keywords: "algorithms design class 11 revision notes gate boards, Biology, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/algorithms-design-class-11-revision-notes-gate-boards.webp"
 ---
 
 # Algorithms: Design Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide
@@ -393,6 +394,9 @@ They are used for solving problems having only two possible solutions.
 They always choose the locally optimal solution.
 
 **Answer:** D) Greedy algorithms make the optimal substructure property, but may not always choose the optimal solution. They always choose the locally optimal solution.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/sequences-series-class-11-revision-notes-jee.webp"
 title: "Sequences Series Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
 description: "Master Sequences Series for Mathematics 2026. This Grandmaster Guide includes Ayush"
 category: "Mathematics"
 keywords: "sequences series class 11 revision notes jee, Mathematics, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/sequences-series-class-11-revision-notes-jee.webp"
 ---
 
 # Sequences Series Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
@@ -153,6 +154,9 @@ This formula is the basis for many converging series in higher-level mathematics
 Sequences and Series are not just lists of numbers; they are the language of growth and summation. By mastering the differences between AP and GP and understanding the powerful AM-GM relationship, you prepare yourself for both the algebraic challenges of Board exams and the logical hurdles of competitive tests. Always verify your common ratio and remember that small patterns lead to big sums!
 
 ---
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

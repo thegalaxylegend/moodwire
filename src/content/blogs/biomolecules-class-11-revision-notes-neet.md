@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/biomolecules-class-11-revision-notes-neet.webp"
 title: "Biomolecules Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Master Biomolecules for Biology 2026. This Grandmaster Guide includes Ayush"
 category: "Biology"
 keywords: "biomolecules class 11 revision notes neet, Biology, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/biomolecules-class-11-revision-notes-neet.webp"
 ---
 
 # Biomolecules Class 11 Biology Revision — NEET 2026 Grandmaster Guide
@@ -127,6 +128,9 @@ I remember when I was preparing for my JEE exam, I used to get confused between 
 
 ### Last Updated Date
 Last Updated: March 16, 2026
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/neet-biology-80-20-rule-class-11-revision-notes-neet.webp"
 title: "Neet Biology 80 20 Rule Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Learn Neet Biology 80 20 Rule like a pro. Detailed revision notes, solved examples, and "
 category: "Biology"
 keywords: "neet biology 80 20 rule class 11 revision notes neet, Biology, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/neet-biology-80-20-rule-class-11-revision-notes-neet.webp"
 ---
 
 # Neet Biology 80 20 Rule Class 11 Biology Revision — NEET 2026 Grandmaster Guide
@@ -81,6 +82,9 @@ Your revision cycles should not be linear (Chapter 1 to Chapter 38). They should
 By applying the 80/20 rule, you transform your NEET preparation from an exhausting marathon into a highly targeted sniper operation. 
 
 **Next Steps.** Jump into the [NEET Biology Questions Database](/neet) and filter by "Molecular Basis of Inheritance" to lock in those high-yield concepts immediately.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

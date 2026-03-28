@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/anatomy-of-flowering-plants-class-11-revision-notes-neet.webp"
 title: "Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "The ultimate Anatomy Of Flowering Plants revision resource for Biology students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
 category: "Biology"
 keywords: "anatomy of flowering plants class 11 revision notes neet, Biology, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/anatomy-of-flowering-plants-class-11-revision-notes-neet.webp"
 ---
 
 # Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide
@@ -231,6 +232,9 @@ Answer: A) Fruit
 ## Related Notes Links
 
 For more information on plant anatomy, check out our posts on [Plant Physiology](/blog/plant-physiology-class-11-notes) and [Ecology](/blog/ecology-class-11-notes).
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

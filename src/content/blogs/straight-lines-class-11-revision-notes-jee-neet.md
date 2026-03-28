@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/straight-lines-class-11-revision-notes-jee-neet.webp"
 title: "Straight Lines Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Learn Straight Lines like a pro. Detailed revision notes, solved examples, and "
 category: "Physics"
 keywords: "straight lines class 11 revision notes jee neet, Physics, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/straight-lines-class-11-revision-notes-jee-neet.webp"
 ---
 
 # Straight Lines Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
@@ -148,6 +149,9 @@ If the origin (0, 0) is shifted to a new point (h, k) without changing the direc
 Straight lines are the ABCs of coordinate geometry. By mastering the various forms of equations and focusing on the relationship between slopes, you can solve any geometry problem involving linear paths. Always sketch your axes first and remember that perpendicular slopes are negative reciprocals! Keep your distance calculations precise and your intercepts well-defined.
 
 ---
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

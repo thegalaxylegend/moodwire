@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/electromagnetic-induction-class-12-revision-notes-jee-neet.webp"
 title: "Electromagnetic Induction Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Deep dive into Electromagnetic Induction Class 12. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
 category: "Biology"
 keywords: "electromagnetic induction class 12 revision notes jee neet, Biology, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/electromagnetic-induction-class-12-revision-notes-jee-neet.webp"
 ---
 
 # Electromagnetic Induction Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide
@@ -269,6 +270,9 @@ Increase the current of an AC circuit
 Decrease the current of an AC circuit
 
 **Answer:** A) A transformer uses the principle of electromagnetic induction to increase or decrease the voltage of an AC circuit.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

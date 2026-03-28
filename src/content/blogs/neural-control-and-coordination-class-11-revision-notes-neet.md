@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/neural-control-and-coordination-class-11-revision-notes-neet.webp"
 title: "Neural Control And Coordination Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
 description: "Learn Neural Control And Coordination like a pro. Detailed revision notes, solved examples, and "
 category: "Biology"
 keywords: "neural control and coordination class 11 revision notes neet, Biology, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/neural-control-and-coordination-class-11-revision-notes-neet.webp"
 ---
 
 # Neural Control And Coordination Class 11 Biology Revision — NEET 2026 Grandmaster Guide
@@ -122,6 +123,9 @@ where:
 - $V_{Na}$, $V_K$, and $V_L$ are the equilibrium potentials for sodium, potassium, and leak channels, respectively.
 
 This equation, part of the Hodgkin-Huxley model, demonstrates the complex interplay of ion channels and currents that underlie the generation and propagation of action potentials in neurons. While the mathematical details may be beyond the scope of Class 11 biology, understanding the biological principles behind such equations can deepen your appreciation for the intricate mechanisms of neural control and coordination.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

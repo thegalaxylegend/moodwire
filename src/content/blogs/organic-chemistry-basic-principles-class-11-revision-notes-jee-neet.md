@@ -1,9 +1,10 @@
 ---
-heroImage: "/blog-images/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet.webp"
 title: "Organic Chemistry Basic Principles Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Accelerate your Physics revision with our Organic Chemistry Basic Principles guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
 category: "Physics"
 keywords: "organic chemistry basic principles class 11 revision notes jee neet, Physics, Exam Compass"
+date: "2026-03-28"
+heroImage: "/blog-images/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet.webp"
 ---
 
 # Organic Chemistry Basic Principles Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
@@ -182,6 +183,9 @@ Last Updated: March 15, 2026
 * Chemical reactions involve the breaking and forming of chemical bonds
 * Stereochemistry plays a vital role in understanding the structure and properties of organic compounds
 </div>
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
