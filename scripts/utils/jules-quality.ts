@@ -292,7 +292,6 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
     });
     if (post.title.length > 70) report.warnings.push(`Title too long (${post.title.length} chars).`);
     else if (post.title.length < 30) report.warnings.push(`Title too short (${post.title.length} chars).`);
-    const PCMB_SUBJECTS = ['Physics', 'Chemistry', 'Mathematics', 'Biology'];
     if (post.exam_class >= 11 && PCMB_SUBJECTS.includes(post.subject)) {
         const hasExam = post.title.toLowerCase().includes('jee') || post.title.toLowerCase().includes('neet') || post.title.toLowerCase().includes('gate');
         if (!hasExam) report.warnings.push("Title missing exam name (JEE/NEET).");
