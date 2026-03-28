@@ -138,6 +138,51 @@ jobs:
           echo "🚫 Deployment was blocked because no blogs achieved 90/100 quality."
           echo "🔍 Check the quality reports artifact for details."
 
+      - name: Automated Social Distribution (Discord Community)
+        if: steps.quality_gate.outputs.gate_passed == 'true'
+        env:
+          DISCORD_PUBLIC_WEBHOOK_URL: ${{ secrets.DISCORD_PUBLIC_WEBHOOK_URL }}
+        run: |
+          if [ -z "$DISCORD_PUBLIC_WEBHOOK_URL" ]; then
+            echo "Skipping public distribution: DISCORD_PUBLIC_WEBHOOK_URL secret not set. Please add this to GitHub secrets to enable auto-posting!"
+            exit 0
+          fi
+          
+          REPORT_FILE=$(ls -t jules-reports/pipeline-*.json 2>/dev/null | head -n 1 || true)
+          if [ -f "$REPORT_FILE" ]; then
+            # Extract successfully generated blogs
+            jq -c '.[] | select(.status != "failed")' "$REPORT_FILE" | while read -r blog; do
+              SLUG=$(echo "$blog" | jq -r '.slug')
+              # Convert slug to Title Case
+              TITLE=$(echo "$SLUG" | tr '-' ' ' | awk '{for(i=1;i<=NF;i++)sub(/./,toupper(substr($i,1,1)),$i)}1')
+              URL="https://examcompass.pages.dev/blog/$SLUG"
+              IMG_URL="https://examcompass.pages.dev/blog-images/$SLUG.webp"
+              
+              jq -n \
+                --arg content "🚀 **New Study Guide Just Dropped!**" \
+                --arg title "$TITLE" \
+                --arg url "$URL" \
+                --arg desc "Crush your exams with today's new Grandmaster Guide. Contains Ayush's personal revision notes, trap questions, and high-yield MCQs! 🎯\n\n[**Read the Full Guide Here →**]($url)" \
+                '{
+                  content: $content,
+                  embeds: [{
+                    title: $title,
+                    url: $url,
+                    description: $desc,
+                    color: 3447003,
+                    image: { url: $url }
+                  }]
+                }' > public_payload.json
+              
+              # Fix image url passing
+              jq --arg img "$IMG_URL" '.embeds[0].image.url = $img' public_payload.json > final_payload.json
+              
+              curl -s -H "Content-Type: application/json" -d @final_payload.json "$DISCORD_PUBLIC_WEBHOOK_URL"
+              sleep 2
+            done
+            echo "📢 Successfully broadcasted new blogs to community!"
+          fi
+
       - name: Upload Quality Reports
         if: always()
         uses: actions/upload-artifact@v4
