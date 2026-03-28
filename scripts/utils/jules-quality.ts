@@ -393,6 +393,13 @@ ${optionsArr.join('\n')}
 `;
     }).join('\n');
 
+    const ctaHtml = `
+---
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**${post.chapter_name} Full Mock Test**](${post.practice_link_path}) now and track your progress against thousands of students.
+`;
+
     const yaml = `---
 heroImage: "${post.hero_image}"
 title: "${post.title}"
@@ -420,6 +427,8 @@ ${recallHtml}
 ## MCQs
 
 ${mcqsHtml}
+
+${ctaHtml}
 `;
     return yaml;
 }
