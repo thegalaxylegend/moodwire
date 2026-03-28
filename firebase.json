@@ -10,33 +10,12 @@
     ],
     "redirects": [
       {
-        "source": "/:path*/",
-        "destination": "/:path*",
+        "source": "/:path*",
+        "destination": "https://examcompass.pages.dev/:path",
         "type": 301
       }
     ],
-    "rewrites": [
-      {
-        "source": "/login",
-        "destination": "/index.html"
-      },
-      {
-        "source": "/onboarding",
-        "destination": "/index.html"
-      },
-      {
-        "source": "/dashboard/**",
-        "destination": "/index.html"
-      },
-      {
-        "source": "/admin/**",
-        "destination": "/index.html"
-      },
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
-    ],
+    "rewrites": [],
     "headers": [
       {
         "source": "/**",
