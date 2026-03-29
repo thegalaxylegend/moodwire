@@ -451,6 +451,23 @@ async function callLlmWithFallback(system: string, user: string, isJson: boolean
                 return await callLlmWithFallback(system, user, isJson, attempt + 1);
             }
         }
+
+        // Handle 400 "Failed to generate JSON" error
+        if (isJson && (err.message.includes("400") || err.message.includes("Failed to generate JSON"))) {
+            console.warn(`⚠️ Groq strict JSON mode failed with 400. Retrying without strict format...`);
+            // Retry WITHOUT response_format: "json_object"
+            const nonStrictCompletion = await groq.chat.completions.create({
+                messages: [
+                    { role: "system", content: system + "\nOutput ONLY a valid JSON object. No conversational filler or markdown blocks." },
+                    { role: "user", content: user }
+                ],
+                model: primaryModel,
+                temperature: 0.7,
+                max_tokens: 4000
+            });
+            return nonStrictCompletion.choices[0]?.message?.content || "";
+        }
+
         throw err;
     }
 }
@@ -473,7 +490,8 @@ async function generateIntro(item: any, targetYear: number, displayClass: string
     const user = `Write the "🎯 What WILL Come in Your Exam" section for "${item.topic}" for ${displayClass} in ${targetYear}.
     Rule: Not 'what could come' — what *always* comes. Be incredibly specific. 
     Examples: "1 numerical on Bohr's energy levels — always", "Photoelectric effect graph — NEET favourite".
-    Return ONLY the markdown for this section (no heading, just bullet points). NO INTRODUCTION OR FILLER.`;
+    Return ONLY the markdown for this section (no heading, just bullet points). NO INTRODUCTION OR FILLER.
+    TARGET DEPTH: Write 200+ words of detailed high-yield bullet points.`;
     
     return await callLlmWithFallback(system, user, false);
 }
@@ -502,6 +520,7 @@ async function generateSection(item: any, heading: string, displayClass: string,
     const user = `Write the section for the heading: "${heading}" regarding the topic "${item.topic}".
     STRICT RULE: ${specificDirective}
     Remember LATEX ESCAPING RULES!
+    TARGET LENGTH: Each section MUST be detailed and exhaustive. Aim for 300+ words per section.
     Return JSON: { "heading": "${heading}", "body": "...", "table": { "headers": [], "rows": [[]] } }`;
 
     const raw = await callLlmWithFallback(system, user, true);

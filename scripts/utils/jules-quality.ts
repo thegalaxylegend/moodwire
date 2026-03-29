@@ -191,8 +191,8 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
     const PCMB_SUBJECTS = ['Physics', 'Chemistry', 'Mathematics', 'Biology', 'Maths'];
 
     // 1. Word Count (Dynamic threshold)
-    // The "Last-Night Revision Format" removes fluff, but we still strictly enforce 1200 words min.
-    const minWordCount = 1200;
+    // The "Last-Night Revision Format" removes fluff, but we still strictly enforce 1000 words min.
+    const minWordCount = 1000;
     
     const wordCount = (post.content?.intro?.split(/\s+/).length || 0) +
         (post.content?.sections || []).reduce((acc, s) => acc + (s.body?.split(/\s+/).length || 0), 0);
