@@ -4,11 +4,13 @@ import { motion } from 'framer-motion';
 import { CATEGORIES } from '../data/blogs';
 
 const EXAM_LINKS = [
-    { label: 'JEE Mains', to: '/jee-mains' },
-    { label: 'NEET', to: '/neet' },
-    { label: 'Class 10', to: '/class-10' },
-    { label: 'Class 11', to: '/class-11' },
-    { label: 'Class 12', to: '/class-12' },
+    { label: 'JEE Main & Advanced', to: '/jee-mains' },
+    { label: 'NEET UG', to: '/neet' },
+    { label: 'Class 12 Boards', to: '/class-12' },
+    { label: 'Class 11 Boards', to: '/class-11' },
+    { label: 'Class 10 Boards', to: '/class-10' },
+    { label: 'Class 9 Foundation', to: '/class-9' },
+    { label: 'Class 8 Foundation', to: '/class-8' },
 ];
 
 export const Navbar = () => {

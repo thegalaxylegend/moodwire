@@ -79,8 +79,8 @@ export const Hero = ({ onOpenDemo }: HeroProps) => {
                         variants={itemVariants}
                         className="text-lg text-gray-300 max-w-xl mx-auto lg:mx-0 leading-relaxed"
                     >
-                        Adaptive Elo-rated mocks that match YOUR level. Root-cause AI that finds WHY you fail, not just where. Real-time success probability based on 9,000+ PYQs.
-                        <span className="text-text-main font-semibold block mt-2">Not a quiz app. A competitive exam weapon.</span>
+                        Adaptive Elo-rated mocks that match YOUR level. Root-cause AI that finds WHY you fail, not just where. Real-time mastery analytics based on 9,000+ NTA Verified PYQs.
+                        <span className="text-text-main font-semibold block mt-2">The free analytics companion to your PW / Allen test series.</span>
                     </motion.p>
 
                     {/* CTA buttons — simplified for performance */}
@@ -106,10 +106,10 @@ export const Hero = ({ onOpenDemo }: HeroProps) => {
                         className="flex items-center justify-center lg:justify-start gap-8 pt-4"
                     >
                         <div className="flex items-center gap-2 text-text-muted/70 text-sm">
-                            <ShieldCheck size={16} /> Verified Data
+                            <ShieldCheck size={16} /> Classes 8-12 Foundation
                         </div>
                         <div className="flex items-center gap-2 text-text-muted/70 text-sm">
-                            <Globe size={16} /> JEE & NEET Focus
+                            <Globe size={16} /> JEE (Main & Adv) & NEET
                         </div>
                     </motion.div>
                 </motion.div>
@@ -125,17 +125,17 @@ export const Hero = ({ onOpenDemo }: HeroProps) => {
                     <div className="glass-card p-6 border-zinc-800/50 bg-black/40 backdrop-blur-xl max-w-md mx-auto">
                         <div className="flex justify-between items-center mb-6">
                             <div className="space-y-1">
-                                <h2 className="font-bold text-text-main text-base">Success Probability</h2>
-                                <p className="text-xs text-text-muted">Based on your last 5 mocks</p>
+                                <h2 className="font-bold text-text-main text-base">Syllabus Mastery</h2>
+                                <p className="text-xs text-text-muted">Based on NTA PYQ accuracy</p>
                             </div>
                             <BarChart2 className="text-primary" />
                         </div>
 
                         <div className="space-y-3">
                             {[
-                                { label: 'JEE Mains', value: 82, color: 'bg-green-500', textColor: 'text-green-400', status: 'High' },
-                                { label: 'JEE Advanced', value: 45, color: 'bg-yellow-500', textColor: 'text-yellow-400', status: 'Moderate' },
-                                { label: 'School Exams', value: 91, color: 'bg-blue-500', textColor: 'text-blue-400', status: 'Very High' },
+                                { label: 'JEE Mains', value: 82, color: 'bg-green-500', textColor: 'text-green-400', status: 'Mastered' },
+                                { label: 'JEE Advanced', value: 45, color: 'bg-yellow-500', textColor: 'text-yellow-400', status: 'Review Needed' },
+                                { label: 'School Exams', value: 91, color: 'bg-blue-500', textColor: 'text-blue-400', status: 'Mastered' },
                             ].map((item, i) => (
                                 <div key={item.label}>
                                     <div className="flex justify-between text-sm">
@@ -175,8 +175,8 @@ export const Hero = ({ onOpenDemo }: HeroProps) => {
                             <Brain size={20} className="text-primary" />
                         </div>
                         <div>
-                            <p className="text-xs text-text-muted">AI Insight</p>
-                            <p className="font-bold text-sm text-text-main">Focus on Optics</p>
+                            <p className="text-xs text-text-muted">High Error Rate</p>
+                            <p className="font-bold text-sm text-text-main">Wave Optics (PYQ Avg: 40%)</p>
                         </div>
                     </motion.div>
                 </motion.div>

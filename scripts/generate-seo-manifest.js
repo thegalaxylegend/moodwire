@@ -228,8 +228,8 @@ async function generate() {
 
         // === INJECT HOME ROUTE ===
         manifest['/'] = {
-            title: "Exam Compass | AI-Powered Exam Preparation & Mock Tests",
-            description: "The ultimate AI study partner for Class 6-12 board exams, JEE, NEET, and UPSC. Get personalized mock tests, PYQ analytics, and honest roadmaps for Indian aspirants.",
+            title: "Exam Compass | AI-Powered Prep for JEE Main & Adv, NEET, Boards (8-12)",
+            description: "The ultimate AI study partner for Classes 8-12 board exams, JEE (Main & Advanced), and NEET. Get personalized mock tests, PYQ analytics, and honest roadmaps for Indian aspirants.",
             h1: "AI-Powered Exam Preparation",
             type: "home",
             priority: 1.0,
@@ -279,7 +279,7 @@ async function generate() {
         const blogsDir = path.join(__dirname, '../src/content/blogs');
         manifest['/blog/'] = {
             title: "Exam Compass Blog | AI Exam Prep Tips & Strategies",
-            description: "Expert strategies, syllabus breakdowns, and exam preparation tips for JEE, NEET, UPSC, and CBSE Class 10-12 students.",
+            description: "Expert strategies, syllabus breakdowns, and exam preparation tips for JEE Main & Advanced, NEET, and CBSE Classes 8-12.",
             h1: "Exam Compass Blog",
             type: "blog-index",
             priority: 0.9,

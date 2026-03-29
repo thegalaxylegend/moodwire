@@ -97,8 +97,8 @@ export const LandingPage = () => {
             </div>
 
             <SEO
-                title="Exam Compass | Elite AI-Powered Prep for JEE & NEET"
-                description="Experience the future of competitive exam prep. Adaptive Elo-rated mocks, root-cause AI diagnosis, and predictive analytics for JEE & NEET aspirants."
+                title="Exam Compass | Elite AI-Powered Prep for JEE Main & Adv, NEET, Boards (8-12)"
+                description="Experience the future of competitive exam prep. Adaptive Elo-rated mocks, root-cause AI diagnosis, and predictive analytics for Classes 8-12, JEE & NEET aspirants."
                 canonical={`${SITE_URL}/`}
                 image={SITE_OG_IMAGE}
                 schema={{
@@ -108,7 +108,7 @@ export const LandingPage = () => {
                             "@type": "WebSite",
                             "name": "Exam Compass",
                             "url": SITE_URL,
-                            "description": "AI-powered exam preparation platform for JEE and NEET.",
+                            "description": "AI-powered exam preparation platform for JEE (Main & Advanced), NEET, and CBSE Classes 8-12.",
                             "potentialAction": {
                                 "@type": "SearchAction",
                                 "target": `${SITE_URL}/{search_term_string}`,
@@ -167,10 +167,10 @@ export const LandingPage = () => {
                 
                 <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-12 relative z-10">
                     {[
-                        { label: "PYQs Mapped", value: "9,000+", numValue: 9000, suffix: "+", color: "from-primary to-purple-400", ref: pyqs },
+                        { label: "Verified NTA PYQs", value: "9,000+", numValue: 9000, suffix: "+", color: "from-primary to-purple-400", ref: pyqs },
                         { label: "AI Mock Tests", value: "Unlimited", isText: true, color: "from-cyan-400 to-blue-400" },
                         { label: "Syllabus Coverage", value: "100%", numValue: 100, suffix: "%", color: "from-emerald-400 to-teal-400", ref: coverage },
-                        { label: "Price", value: "Free", isText: true, color: "from-orange-400 to-yellow-400" }
+                        { label: "Price", value: "Always Free", isText: true, color: "from-orange-400 to-yellow-400" }
                     ].map((stat, i) => (
                         <motion.div 
                             key={i}
@@ -218,7 +218,7 @@ export const LandingPage = () => {
                         viewport={{ once: true }}
                         className="text-xl text-gray-400 max-w-2xl mx-auto"
                     >
-                        <TextReveal delay={0.3}>Not another quiz app. We've built a high-end digital sanctuary for elite aspirants.</TextReveal>
+                        <TextReveal delay={0.3}>Not another quiz app. We've built a 100% free analytics companion for your coaching classes.</TextReveal>
                     </motion.p>
                 </div>
 
@@ -226,8 +226,8 @@ export const LandingPage = () => {
                     {[
                         {
                             icon: <Target className="text-primary" size={32} />,
-                            title: "Adaptive Elo Rating",
-                            desc: "Our matches question difficulty to your skill in real-time. No more wasting time on 'obvious' or 'impossible' questions.",
+                            title: "PYQ Mastery Tracker",
+                            desc: "We match PYQ difficulty to your current skill level so you don't waste time on questions that are too easy or too hard.",
                             gradient: "from-primary/10 via-transparent to-transparent"
                         },
                         {
@@ -288,7 +288,7 @@ export const LandingPage = () => {
                         viewport={{ once: true }}
                         className="text-4xl md:text-6xl font-bold text-white mb-6"
                     >
-                        <TextReveal>Built to Last.</TextReveal>
+                        <TextReveal>Data, Not Guesswork.</TextReveal>
                     </motion.h2>
                     <motion.p 
                         initial={{ opacity: 0 }}
@@ -296,7 +296,7 @@ export const LandingPage = () => {
                         viewport={{ once: true }}
                         className="text-xl text-gray-400"
                     >
-                        <TextReveal delay={0.2}>No vague "AI-powered" claims. Here is the architecture of your victory.</TextReveal>
+                        <TextReveal delay={0.2}>No vague "AI Rank Predictions". We give you the raw analytics you need to verify your prep.</TextReveal>
                     </motion.p>
                 </div>
                 
@@ -318,8 +318,8 @@ export const LandingPage = () => {
                             step: "02"
                         },
                         {
-                            title: "The Victory Roadmap",
-                            desc: "Track real-time selection probability and dynamic rank predictions. The system learns from every click, carving your path to a dream college.",
+                            title: "Prove Your Readiness",
+                            desc: "Track real-time topic mastery and NTA pattern alignment. Stop guessing your rank and start measuring your actual PYQ data.",
                             icon: <Award className="text-accent" />,
                             step: "03"
                         }

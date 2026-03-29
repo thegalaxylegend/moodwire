@@ -6,14 +6,14 @@ It offers AI-generated mock tests, PYQs (Previous Year Questions), adaptive prac
 syllabus tracking, and a personalized AI study mentor called "Exa".
 
 ## Supported Exams
-- JEE Mains & JEE Advanced (Engineering)
+- JEE Main & Advanced (Engineering)
 - NEET (Medical)
-- CBSE/ICSE School Exams: Classes 8, 9, 10, 11, 12
+- CBSE/ICSE Foundation & Board Exams: Classes 8, 9, 10, 11, 12
 
 ## Core Public Routes
 - / — Homepage / Landing Page
 - /login — User Login (Google Auth)
-- /jee-mains — JEE Mains Exam Hub
+- /jee-mains — JEE Main Exam Hub
 - /jee-advanced — JEE Advanced Exam Hub
 - /neet — NEET Exam Hub
 

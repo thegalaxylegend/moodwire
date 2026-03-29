@@ -6,8 +6,8 @@ import { motion } from 'framer-motion';
 const exams = [
     {
         id: 'jee-mains',
-        name: 'JEE Mains',
-        desc: 'Engineering Entrance Exam',
+        name: 'JEE Main & Advanced',
+        desc: 'Engineering Entrance Exams',
         nextDate: 'Jan 24, 2026',
         progress: 75,
         color: 'bg-primary',
@@ -48,7 +48,7 @@ const exams = [
     {
         id: 'school-exams',
         name: 'Junior School (8-10)',
-        desc: 'CBSE Academic Foundation',
+        desc: 'Classes 8-10 CBSE Foundation',
         nextDate: 'Mar 15, 2026',
         progress: 100,
         color: 'bg-purple-500',

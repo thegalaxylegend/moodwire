@@ -1,7 +1,7 @@
 {
   "/": {
-    "title": "Exam Compass | AI-Powered Exam Preparation & Mock Tests",
-    "description": "The ultimate AI study partner for Class 6-12 board exams, JEE, NEET, and UPSC. Get personalized mock tests, PYQ analytics, and honest roadmaps for Indian aspirants.",
+    "title": "Exam Compass | AI-Powered Prep for JEE Main & Adv, NEET, Boards (8-12)",
+    "description": "The ultimate AI study partner for Classes 8-12 board exams, JEE (Main & Advanced), and NEET. Get personalized mock tests, PYQ analytics, and honest roadmaps for Indian aspirants.",
     "h1": "AI-Powered Exam Preparation",
     "type": "home",
     "priority": 1,
@@ -46,7 +46,7 @@
   },
   "/blog/": {
     "title": "Exam Compass Blog | AI Exam Prep Tips & Strategies",
-    "description": "Expert strategies, syllabus breakdowns, and exam preparation tips for JEE, NEET, UPSC, and CBSE Class 10-12 students.",
+    "description": "Expert strategies, syllabus breakdowns, and exam preparation tips for JEE Main & Advanced, NEET, and CBSE Classes 8-12.",
     "h1": "Exam Compass Blog",
     "type": "blog-index",
     "priority": 0.9,
@@ -199,7 +199,7 @@
   "/blog/atoms-class-12-notes/": {
     "title": "Atoms Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
     "description": "Deep dive into Atoms Class 12. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
-    "date": "2026-03-28",
+    "date": "2026-03-29",
     "category": "Physics",
     "h1": "Atoms Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
     "type": "blog-post",
@@ -375,7 +375,7 @@
   "/blog/communication-systems-class-12-notes/": {
     "title": "Communication Systems Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
     "description": "Accelerate your Physics revision with our Communication Systems guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success.",
-    "date": "2026-03-28",
+    "date": "2026-03-29",
     "category": "Physics",
     "h1": "Communication Systems Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
     "type": "blog-post",
@@ -507,7 +507,7 @@
   "/blog/dual-nature-of-radiation-class-12-notes/": {
     "title": "Dual Nature of Radiation Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
     "description": "Master Dual Nature of Radiation for Physics 2026. This Grandmaster Guide includes Ayush",
-    "date": "2026-03-28",
+    "date": "2026-03-29",
     "category": "Physics",
     "h1": "Dual Nature of Radiation Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
     "type": "blog-post",
@@ -991,7 +991,7 @@
   "/blog/nuclei-class-12-notes/": {
     "title": "Nuclei Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
     "description": "Accelerate your Physics revision with our Nuclei guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success.",
-    "date": "2026-03-28",
+    "date": "2026-03-29",
     "category": "Physics",
     "h1": "Nuclei Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
     "type": "blog-post",
@@ -1244,7 +1244,7 @@
   "/blog/semiconductor-electronics-class-12-notes/": {
     "title": "Semiconductor Electronics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
     "description": "Learn Semiconductor Electronics like a pro. Detailed revision notes, solved examples, and",
-    "date": "2026-03-28",
+    "date": "2026-03-29",
     "category": "Physics",
     "h1": "Semiconductor Electronics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
     "type": "blog-post",
@@ -1269,6 +1269,17 @@
     "date": "2026-03-28",
     "category": "Chemistry",
     "h1": "Sets Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/solid-state-class-12-notes/": {
+    "title": "Solid State Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
+    "description": "The ultimate Solid State revision resource for Chemistry students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
+    "date": "2026-03-29",
+    "category": "Chemistry",
+    "h1": "Solid State Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
     "type": "blog-post",
     "priority": 0.8,
     "robots": "index, follow",
