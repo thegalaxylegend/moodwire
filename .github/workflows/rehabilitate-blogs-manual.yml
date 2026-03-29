@@ -1,0 +1,34 @@
+name: Manual Blog Rehabilitation
+
+on:
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  rehabilitate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install --legacy-peer-deps
+
+      - name: Rehabilitate Content
+        env:
+          VITE_GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: node scripts/rehabilitate-blogs.js
+
+      - name: Commit and Push Rehabilitated Blogs
+        run: |
+          git config --global user.name 'Jules Blog Bot'
+          git config --global user.email 'jules-bot@users.noreply.github.com'
+          git add src/content/blogs/*.md
+          git commit -m "chore: manual blog rehabilitation by Jules" || echo "No changes to commit"
+          git push origin main

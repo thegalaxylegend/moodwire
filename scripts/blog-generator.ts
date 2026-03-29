@@ -368,71 +368,59 @@ async function downloadHeroImage(subject: string, topic: string, slug: string): 
     return fallbackImage;
 }
 
-const GRANDMASTER_IDENTITY = `You are Ayush's senior content editor at Exam Compass. 
-Your voice is that of a PEER MENTOR (a student who cracked the exam helping juniors). 
-Applicable Subjects: Physics, Chemistry, Biology, Maths, History, Geography, Social Science, English.
-Voice: Specific, data-driven, authentic student tone. NO FILLER. Provide high-yield exam insights.`;
+const GRANDMASTER_IDENTITY = `You are a strict, top 1% JEE/NEET ranker creating a "Last-Night Revision Format" study guide.
+Your sole purpose is to provide exactly what a student needs to read 12 hours before their exam to maximize their score.
+Voice: Specific, data-driven, authentic student tone. NO FILLER. No fluff. No introductions.
+
+Format Rule: A student reads this once, closes the tab, and walks into the exam confident.
+DO NOT use phrases like "In conclusion", "delve into", "comprehensive", "embark on your journey".`;
 
 const CROSS_SECTION_RULES = `
-STRICTLY PROHIBITED PHRASES (using ANY of these = instant rejection, your output will be discarded):
-- "In conclusion", "delve into", "it is important to note", "comprehensive"
-- "mastering this", "master this today", "ultimate guide", "complete guide"
-- "everything you need", "vibrant", "robust", "unveiling"
-- "embark on a journey", "embark on your journey", "needless to say"
-- "in today's competitive world", "one of the most important topics"
-- "comprehensive guide", "world-best"
-RULES:
-1. NO CONCLUSION sections. Never write "In conclusion", instead use "Key Takeaway" or "Exam Day Summary".
-2. Use ONLY $ for inline math and $$ for block math. Ensure all formulas are wrapped.
-3. Factual Accuracy: Kangchenjunga is highest peak in India. Ganga is longest river. 
-4. Depth: Each section MUST be at least 600-800 words of technical/academic depth.
-5. Voice: Authentic Peer Mentor (student-to-student). Write like a topper helping a friend.
-6. Formatting: Use tables, bold text for key terms, and bullet points for lists.
+RULES FOR THE LAST-NIGHT REVISION FORMAT:
+1. NO INTRODUCTIONS. NO DEFINITIONS. NO PREREQUISITES. Start directly with high-yield exam insights.
+2. LATEX ESCAPING: You MUST double-escape all backslashes in LaTeX formulas (e.g., use \\\\frac instead of \\frac, \\\\times instead of \\times, \\\\Delta instead of \\Delta). Failure to double-escape will break the JSON parser and your output will be discarded.
+3. Every formula must be rendered cleanly with ONLY $ for inline math and $$ for block math. Ensure all formulas are wrapped.
+4. Voice: Authentic Peer Mentor (student-to-student). 
+STRICT RULE: Focus entirely on what's examined, not just general knowledge.
 `;
+
 
 // --- SMART RECOVERY WRAPPER ---
 function safelyParseJson(raw: string): any {
+    let jsonStr = raw.replace(/```json/gi, "").replace(/```/gi, "").trim();
+    
+    // Always extract JSON object (handles Llama conversational padding)
+    const firstBrace = jsonStr.indexOf('{');
+    const lastBrace = jsonStr.lastIndexOf('}');
+    if (firstBrace !== -1 && lastBrace !== -1) {
+        jsonStr = jsonStr.substring(firstBrace, lastBrace + 1);
+    }
+
     try {
-        // Strategy 1: Remove markdown blocks and triple backticks
-        let cleaned = raw.replace(/```json/gi, "").replace(/```/gi, "").trim();
-        
-        // Handle unescaped newlines in strings
-        cleaned = cleaned.replace(/"([^"]*)"/g, (match, p1) => {
-            return '"' + p1.replace(/\n/g, "\\n").replace(/\r/g, "\\r") + '"';
+        // Fix unescaped newlines in strings, which is very common
+        let cleaned = jsonStr.replace(/"([^"]*)"/g, (match, p1) => {
+            return '"' + p1.replace(/\n/g, "\\n").replace(/\r/g, "\\r").replace(/\t/g, "\\t") + '"';
         });
+
+        // DO NOT globally replace backslashes because JSON.parse expects standard escapes like \n, \t, etc.
+        // And if Llama output \\frac, it's valid. If Llama output \f, JSON.parse converts to form-feed.
+        // We will just let JSON.parse handle it. If it throws, we check next strategy.
 
         return JSON.parse(cleaned);
     } catch (err) {
-        console.warn("⚠️ JSON Parse failed. Attempting aggressive recovery...");
-        // Strategy 2: Extract content between first { and last }
+        console.warn("⚠️ JSON Parse failed. Attempting aggressive recovery on trailing commas...");
         try {
-            const firstBrace = raw.indexOf('{');
-            const lastBrace = raw.lastIndexOf('}');
-            if (firstBrace !== -1 && lastBrace !== -1) {
-                const subset = raw.substring(firstBrace, lastBrace + 1);
-                // Even more aggressive: remove potential comments
-                const noComments = subset.replace(/\/\/.*$/gm, "");
-                return JSON.parse(noComments);
-            }
-        } catch {}
-        
-        // Strategy 3: Fix common trailing comma issues
-        try {
-            const firstBrace = raw.indexOf('{');
-            const lastBrace = raw.lastIndexOf('}');
-            if (firstBrace !== -1 && lastBrace !== -1) {
-                let subset = raw.substring(firstBrace, lastBrace + 1);
-                subset = subset.replace(/,\s*}/g, "}").replace(/,\s*]/g, "]");
-                return JSON.parse(subset);
-            }
-        } catch {}
-
-        throw new Error("Final JSON parse failed. Raw: " + raw.substring(0, 100) + "...");
+            let subset = jsonStr.replace(/\/\/.*$/gm, ""); // Remove comments
+            subset = subset.replace(/,\s*}/g, "}").replace(/,\s*]/g, "]"); // trailing commas
+            return JSON.parse(subset);
+        } catch {
+            throw new Error("Final JSON parse failed.");
+        }
     }
 }
 
 async function callLlmWithFallback(system: string, user: string, isJson: boolean = false, attempt: number = 1): Promise<string> {
-    const isMetadata = user.includes("MCQ") || user.includes("quick_recall");
+    const isMetadata = user.includes("SEO") || user.includes("slug"); // Removed MCQ from metadata to force 70B for accuracy
     const primaryModel = isMetadata ? "llama-3.1-8b-instant" : "llama-3.3-70b-versatile";
 
     try {
@@ -468,47 +456,53 @@ async function callLlmWithFallback(system: string, user: string, isJson: boolean
 }
 
 async function generateOutline(item: any, targetYear: number): Promise<string[]> {
-    console.log(`📑 Jules: Planning massive 10-point outline for ${item.topic}...`);
-    const system = GRANDMASTER_IDENTITY;
-    const isScience = ['Physics', 'Chemistry', 'Biology', 'Mathematics'].includes(item.subject);
-    const tipHeading = isScience ? `What is the key Shortcut or Trick for ${item.topic}?` : `What is the best Mnemonic or Timeline Tip for ${item.topic}?`;
-    
-    const user = `Create an EXHAUSTIVE 10-point outline of direct question headings (ending in "?") for a 3000-word revision guide on "${item.topic}".
-    The headings MUST cover every single sub-topic for Class ${String(item.class).replace(/\D/g, '')} in ${targetYear}.
-    MANDATORY: You MUST include exact headings for "What is Ayush's Note on ${item.topic}?", "${tipHeading}", and "What are common Trap Questions for ${item.topic}?".
-    Return ONLY a JSON array of strings. Example: { "headings": ["What is...?", "How does...?", ...] }`;
-    const raw = await callLlmWithFallback(system, user, true);
-    try {
-        const data = safelyParseJson(raw);
-        return data.headings || data.outline || Object.values(data)[0] as string[];
-    } catch {
-        // Robust Rescue Outline (Ensure 5+ sections and mandatory markers)
-        return [
-            `What is ${item.topic}?`,
-            `Key concepts of ${item.topic} for ${targetYear}`,
-            `What is Ayush's Note on ${item.topic}?`,
-            `${tipHeading}`,
-            `What are common Trap Questions for ${item.topic}?`
-        ];
-    }
+    console.log(`📑 Jules: Using fixed Last-Night Revision Format for ${item.topic}...`);
+    return [
+        "⚡ Formula Bank",
+        "🪤 The 5 Mistakes That Cost Marks",
+        "✏️ 3 Solved PYQs",
+        "🧠 The One Thing Most Students Get Wrong",
+        "👁️ Ayush's Note",
+        "🔁 Last 5 Minutes Box"
+    ];
 }
 
 async function generateIntro(item: any, targetYear: number, displayClass: string): Promise<string> {
-    console.log(`✍️ Jules: Crafting 500-word Peer Mentor intro...`);
+    console.log(`✍️ Jules: Crafting "What WILL Come" hook...`);
     const system = `${GRANDMASTER_IDENTITY}\n${CROSS_SECTION_RULES}`;
-    const user = `Write a massive, 800-1000 word introduction for "${item.topic}" for ${displayClass} exam prep in ${targetYear}.
-    Structure: Set the stage, explain exam weightage, provide a personal/conceptual hook, and mention prerequisites.
-    Ensure the depth is sufficient for a 100/100 quality score. NO FILLER.`;
+    const user = `Write the "🎯 What WILL Come in Your Exam" section for "${item.topic}" for ${displayClass} in ${targetYear}.
+    Rule: Not 'what could come' — what *always* comes. Be incredibly specific. 
+    Examples: "1 numerical on Bohr's energy levels — always", "Photoelectric effect graph — NEET favourite".
+    Return ONLY the markdown for this section (no heading, just bullet points). NO INTRODUCTION OR FILLER.`;
     
     return await callLlmWithFallback(system, user, false);
 }
 
 async function generateSection(item: any, heading: string, displayClass: string, targetYear: number): Promise<Section> {
-    console.log(`📖 Jules: Writing 500-word deep-dive: ${heading}...`);
+    console.log(`📖 Jules: Writing specific revision section: ${heading}...`);
     const system = `${GRANDMASTER_IDENTITY}\n${CROSS_SECTION_RULES}`;
-    const user = `Write an EXHAUSTIVE, 500-word deep-dive section for the heading: "${heading}".
-    STRICT RULE: The first paragraph must follow this structure: "[Heading Topic] is [one-sentence definition]. It includes [2–3 key components]. For ${displayClass} exam prep in ${targetYear}, the most important aspect is [core exam focus]."
-    Expand with technical depth, comparison tables (if relevant), and a student-centric tip. Return JSON: { "heading": "${heading}", "body": "...", "table": { "headers": [], "rows": [[]] } }`;
+    
+    let specificDirective = "";
+    if (heading.includes("Formula Bank")) {
+         specificDirective = "Provide EVERY formula for this chapter. Rendered clean using LATEX. Variable meaning in one line. NOTHING ELSE. No text paragraphs.";
+    } else if (heading.includes("Mistakes")) {
+         specificDirective = "Provide exactly 5 highly specific errors students make. Format each as: Mistake (e.g. Using lambda = h/mv without converting mass to kg), Costs (e.g. Full 4 marks), Fix (e.g. Always convert grams to kg). No generic traps.";
+    } else if (heading.includes("PYQs")) {
+         specificDirective = "Provide exactly 3 real past year questions (JEE/NEET or CBSE). Format: Q: [exact question]. Trap in this question: [what confuses students]. Solution: [Show full working: given -> formula -> substitution -> answer with units]. Answer: [with units].";
+    } else if (heading.includes("One Thing")) {
+         specificDirective = "Choose ONE deep concept. Explain the specific thing that separates 85% scorers from 95% scorers in this chapter.";
+    } else if (heading.includes("Ayush's Note")) {
+         specificDirective = "Provide a specific pattern only visible after studying 5 years of PYQs. Cannot appear in any standard textbook.";
+    } else if (heading.includes("Last 5 Minutes")) {
+         specificDirective = "This is the final thing they read before sleeping. Provide exactly: 5 formulas maximum, 3 facts maximum, 2 common mistakes maximum. Short bullet points.";
+    } else {
+         specificDirective = "Provide a highly focused, no-nonsense revision summary.";
+    }
+
+    const user = `Write the section for the heading: "${heading}" regarding the topic "${item.topic}".
+    STRICT RULE: ${specificDirective}
+    Remember LATEX ESCAPING RULES!
+    Return JSON: { "heading": "${heading}", "body": "...", "table": { "headers": [], "rows": [[]] } }`;
 
     const raw = await callLlmWithFallback(system, user, true);
     try {

@@ -188,22 +188,25 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
 
     const bodyContent = JSON.stringify(post.content).toLowerCase();
 
-    // 1. Word Count (Dynamic threshold)
     const PCMB_SUBJECTS = ['Physics', 'Chemistry', 'Mathematics', 'Biology', 'Maths'];
-    const minWordCount = PCMB_SUBJECTS.includes(post.subject) ? 1200 : 1000;
+
+    // 1. Word Count (Dynamic threshold)
+    // The "Last-Night Revision Format" removes fluff, but we still strictly enforce 1200 words min.
+    const minWordCount = 1200;
     
     const wordCount = (post.content?.intro?.split(/\s+/).length || 0) +
         (post.content?.sections || []).reduce((acc, s) => acc + (s.body?.split(/\s+/).length || 0), 0);
         
     if (wordCount < minWordCount) {
         score -= 30;
-        report.critical_failures.push(`Low word count: ${wordCount} (Min ${minWordCount} for ${post.subject})`);
+        report.critical_failures.push(`Low word count: ${wordCount} (Min ${minWordCount} for Revision Format)`);
         report.regenerate_sections.push("all");
     }
 
-    // 2. Mandatory Sections (Robust keywords)
-    const hasAyushNote = /ayush'?s? note|mistake i made|peer-mentor tip|mentor alert|my personal advice|checklist|student advice/i.test(bodyContent);
-    const hasTrapQuestions = /trap questions?|common mistakes?|exceptions?|watch out|student confusion|tricky part|avoid this/i.test(bodyContent);
+    // 2. Mandatory Sections (Robust keywords for new format)
+    const hasAyushNote = /ayush'?s? note/i.test(bodyContent);
+    const hasMistakes = /mistakes? that cost marks|trap questions?/i.test(bodyContent);
+    const hasPyqs = /solved pyqs?/i.test(bodyContent);
     const mcqCount = (post.content?.mcqs || []).length;
 
     if (!hasAyushNote) {
@@ -211,9 +214,9 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
         report.critical_failures.push("Missing 'Ayush's Note' section");
         report.regenerate_sections.push("sections");
     }
-    if (!hasTrapQuestions) {
+    if (!hasMistakes) {
         score -= 20;
-        report.critical_failures.push("Missing 'Trap Questions' section");
+        report.critical_failures.push("Missing 'Mistakes' section");
         report.regenerate_sections.push("sections");
     }
     if (mcqCount < 5) {
@@ -410,21 +413,16 @@ date: "${post.last_updated}"
 practice_link: "${post.practice_link_path}"
 ---
 
-![${post.chapter_name} recap](${post.hero_image})
+![${post.chapter_name} revision guide](${post.hero_image})
 
 *Last Updated: ${post.last_updated}*
 
-## What is ${post.chapter_name}?
-
+## 🎯 What WILL Come in Your Exam
 ${post.content.intro}
 
 ${sectionsHtml}
 
-## Quick Recall Box
-
-${recallHtml}
-
-## MCQs
+## 📝 Practice MCQs
 
 ${mcqsHtml}
 

@@ -62,10 +62,6 @@ jobs:
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_LEGENDSTECH001 }}
         run: npm run seo:regen
 
-      - name: Task 5 - Rehabilitate Content
-        env:
-          VITE_GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-        run: node scripts/rehabilitate-blogs.js
 
       - name: Task 6 - Repair Images
         env:
