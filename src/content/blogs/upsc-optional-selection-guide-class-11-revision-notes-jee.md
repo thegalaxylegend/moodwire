@@ -4,7 +4,7 @@ description: "The ultimate Upsc Optional Selection Guide revision resource for M
 category: "Mathematics"
 keywords: "upsc optional selection guide class 11 revision notes jee, Mathematics, Exam Compass"
 date: "2026-03-28"
-heroImage: "/blog-images/maths-equations.webp"
+heroImage: "/blog-images/upsc-optional-selection-guide-class-11-revision-notes-jee.webp"
 ---
 
 # Upsc Optional Selection Guide Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide

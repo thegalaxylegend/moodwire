@@ -4,7 +4,7 @@ description: "Learn Ai Study Hack Pomodoro like a pro. Detailed revision notes, 
 category: "Biology"
 keywords: "ai study hack pomodoro class 11 revision notes neet, Biology, Exam Compass"
 date: "2026-03-28"
-heroImage: "/blog-images/biology-cell.webp"
+heroImage: "/blog-images/ai-study-hack-pomodoro-class-11-revision-notes-neet.webp"
 ---
 
 # Ai Study Hack Pomodoro Class 11 Computer Science Recap — CBSE 2026 Quick Guide

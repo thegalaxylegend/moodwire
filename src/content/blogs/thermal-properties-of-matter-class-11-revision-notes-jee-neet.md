@@ -4,7 +4,7 @@ description: "Deep dive into Thermal Properties Of Matter Class 11. Quick revisi
 category: "Physics"
 keywords: "thermal properties of matter class 11 revision notes jee neet, Physics, Exam Compass"
 date: "2026-03-28"
-heroImage: "/blog-images/physics-waves.webp"
+heroImage: "/blog-images/thermal-properties-of-matter-class-11-revision-notes-jee-neet.webp"
 ---
 
 # Thermal Properties Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide

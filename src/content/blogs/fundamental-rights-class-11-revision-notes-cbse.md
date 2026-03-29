@@ -4,7 +4,7 @@ description: "Deep dive into Fundamental Rights Class 11. Quick revision notes f
 category: "General"
 keywords: "fundamental rights class 11 revision notes cbse, General, Exam Compass"
 date: "2026-03-28"
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/fundamental-rights-class-11-revision-notes-cbse.webp"
 ---
 
 # Fundamental Rights Class 11 Social Science Recap — CBSE 2026 Quick Guide

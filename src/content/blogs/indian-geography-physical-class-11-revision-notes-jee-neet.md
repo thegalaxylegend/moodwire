@@ -4,7 +4,7 @@ description: "Learn Indian Geography Physical like a pro. Detailed revision note
 category: "Physics"
 keywords: "indian geography physical class 11 revision notes jee neet, Physics, Exam Compass"
 date: "2026-03-28"
-heroImage: "/blog-images/physics-waves.webp"
+heroImage: "/blog-images/indian-geography-physical-class-11-revision-notes-jee-neet.webp"
 ---
 
 # Indian Geography Physical Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide

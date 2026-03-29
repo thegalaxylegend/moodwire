@@ -4,7 +4,7 @@ description: "The ultimate Jee Mains High Weightage Chapters revision resource f
 category: "Physics"
 keywords: "jee mains high weightage chapters class 11 revision notes jee neet, Physics, Exam Compass"
 date: "2026-03-28"
-heroImage: "/blog-images/physics-waves.webp"
+heroImage: "/blog-images/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet.webp"
 ---
 
 # Jee Mains High Weightage Chapters Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide

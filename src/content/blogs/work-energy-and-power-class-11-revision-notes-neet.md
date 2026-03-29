@@ -4,7 +4,7 @@ description: "The ultimate Work Energy And Power revision resource for Biology s
 category: "Biology"
 keywords: "work energy and power class 11 revision notes neet, Biology, Exam Compass"
 date: "2026-03-28"
-heroImage: "/blog-images/biology-cell.webp"
+heroImage: "/blog-images/work-energy-and-power-class-11-revision-notes-neet.webp"
 ---
 
 # Work Energy And Power Class 11 Biology Revision — NEET 2026 Grandmaster Guide

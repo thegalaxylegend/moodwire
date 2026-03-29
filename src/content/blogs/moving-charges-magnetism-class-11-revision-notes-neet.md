@@ -4,7 +4,7 @@ description: "Deep dive into Moving Charges Magnetism Class 11. Quick revision n
 category: "Biology"
 keywords: "moving charges magnetism class 11 revision notes neet, Biology, Exam Compass"
 date: "2026-03-28"
-heroImage: "/blog-images/biology-cell.webp"
+heroImage: "/blog-images/moving-charges-magnetism-class-11-revision-notes-neet.webp"
 ---
 
 # Moving Charges Magnetism Class 11 Biology Revision — NEET 2026 Grandmaster Guide

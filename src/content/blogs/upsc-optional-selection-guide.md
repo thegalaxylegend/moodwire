@@ -4,7 +4,7 @@ description: "Master the UPSC optional subject selection for 2026. Use our succe
 category: "Chemistry"
 keywords: "upsc optional selection guide, Chemistry, Exam Compass"
 date: "2026-03-28"
-heroImage: "/blog-images/chemistry-molecule.webp"
+heroImage: "/blog-images/upsc-optional-selection-guide.webp"
 ---
 
 # Pick the Best UPSC Optional Subject 2026 Guide

@@ -4,7 +4,7 @@ description: "Accelerate your Physics revision with our Motion In A Straight Lin
 category: "Physics"
 keywords: "motion in a straight line class 11 revision notes jee neet, Physics, Exam Compass"
 date: "2026-03-28"
-heroImage: "/blog-images/physics-waves.webp"
+heroImage: "/blog-images/motion-in-a-straight-line-class-11-revision-notes-jee-neet.webp"
 ---
 
 # Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide

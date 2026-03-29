@@ -4,7 +4,7 @@ description: "Deep dive into Class 10 Science Pyq Strategy Class 10. Quick revis
 category: "Biology"
 keywords: "class 10 science pyq strategy class 10 revision notes neet, Biology, Exam Compass"
 date: "2026-03-28"
-heroImage: "/blog-images/biology-cell.webp"
+heroImage: "/blog-images/class-10-science-pyq-strategy-class-10-revision-notes-neet.webp"
 ---
 
 # Class 10 Science Pyq Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide

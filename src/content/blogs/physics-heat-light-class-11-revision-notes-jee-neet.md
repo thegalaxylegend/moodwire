@@ -4,7 +4,7 @@ description: "Master Physics Heat Light for Physics 2026. This Grandmaster Guide
 category: "Physics"
 keywords: "physics heat light class 11 revision notes jee neet, Physics, Exam Compass"
 date: "2026-03-28"
-heroImage: "/blog-images/physics-waves.webp"
+heroImage: "/blog-images/physics-heat-light-class-11-revision-notes-jee-neet.webp"
 ---
 
 # Physics Heat Light Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide

@@ -4,7 +4,7 @@ description: "The ultimate Cuet 2026 Master Strategy revision resource for Biolo
 category: "Biology"
 keywords: "cuet 2026 master strategy class 11 revision notes neet, Biology, Exam Compass"
 date: "2026-03-28"
-heroImage: "/blog-images/biology-cell.webp"
+heroImage: "/blog-images/cuet-2026-master-strategy-class-11-revision-notes-neet.webp"
 ---
 
 # Cuet 2026 Master Strategy Class 11 Biology Revision — NEET 2026 Grandmaster Guide

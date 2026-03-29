@@ -4,7 +4,7 @@ description: "Master Kinetic Theory for Physics 2026. This Grandmaster Guide inc
 category: "Physics"
 keywords: "kinetic theory class 11 revision notes jee neet, Physics, Exam Compass"
 date: "2026-03-28"
-heroImage: "/blog-images/physics-waves.webp"
+heroImage: "/blog-images/kinetic-theory-class-11-revision-notes-jee-neet.webp"
 ---
 
 # Kinetic Theory Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide

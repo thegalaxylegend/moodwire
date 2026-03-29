@@ -4,7 +4,7 @@ description: "Accelerate your Social Science revision with our Local Government 
 category: "General"
 keywords: "local government class 11 revision notes cbse, General, Exam Compass"
 date: "2026-03-28"
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/local-government-class-11-revision-notes-cbse.webp"
 ---
 
 # Local Government Class 11 Social Science Recap — CBSE 2026 Quick Guide

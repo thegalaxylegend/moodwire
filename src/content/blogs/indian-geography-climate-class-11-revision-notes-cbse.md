@@ -4,7 +4,7 @@ description: "Master Indian Geography Climate for Geography 2026. This Grandmast
 category: "General"
 keywords: "indian geography climate class 11 revision notes cbse, General, Exam Compass"
 date: "2026-03-28"
-heroImage: "/blog-images/generic-study.webp"
+heroImage: "/blog-images/indian-geography-climate-class-11-revision-notes-cbse.webp"
 ---
 
 # Indian Geography Climate Class 11 Geography Recap — CBSE 2026 Quick Guide
