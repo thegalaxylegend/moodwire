@@ -108,6 +108,17 @@
     "robots": "index, follow",
     "sitemapGroup": "blogs"
   },
+  "/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes/": {
+    "title": "Aldehydes, Ketones and Carboxylic Acids Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
+    "description": "The ultimate Aldehydes, Ketones and Carboxylic Acids revision resource for Chemistry students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
+    "date": "2026-03-30",
+    "category": "Chemistry",
+    "h1": "Aldehydes, Ketones and Carboxylic Acids Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
   "/blog/algorithms-analysis-class-11-revision-notes-gate-boards/": {
     "title": "Algorithms: Analysis Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide",
     "description": "Deep dive into Algorithms: Analysis Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
@@ -136,6 +147,17 @@
     "date": "2026-03-28",
     "category": "Biology",
     "h1": "Alternating Current Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/amines-class-12-notes/": {
+    "title": "Amines Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
+    "description": "Master Amines for Chemistry 2026. This Grandmaster Guide includes Ayush",
+    "date": "2026-03-30",
+    "category": "Chemistry",
+    "h1": "Amines Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
     "type": "blog-post",
     "priority": 0.8,
     "robots": "index, follow",
@@ -334,6 +356,17 @@
     "date": "2026-03-29",
     "category": "Chemistry",
     "h1": "Chemical Kinetics Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/chemistry-in-everyday-life-class-12-notes/": {
+    "title": "Chemistry in Everyday Life Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
+    "description": "Accelerate your Chemistry revision with our Chemistry in Everyday Life guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success.",
+    "date": "2026-03-30",
+    "category": "Chemistry",
+    "h1": "Chemistry in Everyday Life Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
     "type": "blog-post",
     "priority": 0.8,
     "robots": "index, follow",
@@ -724,6 +757,17 @@
     "robots": "index, follow",
     "sitemapGroup": "blogs"
   },
+  "/blog/inverse-trigonometric-functions-class-12-notes/": {
+    "title": "Inverse Trigonometric Functions Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
+    "description": "Deep dive into Inverse Trigonometric Functions Class 12. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
+    "date": "2026-03-30",
+    "category": "Mathematics",
+    "h1": "Inverse Trigonometric Functions Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
   "/blog/jee-advanced-math-difficulty-trends-class-11-revision-notes-jee-neet/": {
     "title": "Jee Advanced Math Difficulty Trends Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
     "description": "The ultimate Jee Advanced Math Difficulty Trends revision resource for Physics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
@@ -884,6 +928,17 @@
     "date": "2026-03-28",
     "category": "Physics",
     "h1": "Mathematical Reasoning Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/matrices-class-12-notes/": {
+    "title": "Matrices Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
+    "description": "Learn Matrices like a pro. Detailed revision notes, solved examples, and",
+    "date": "2026-03-30",
+    "category": "Mathematics",
+    "h1": "Matrices Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
     "type": "blog-post",
     "priority": 0.8,
     "robots": "index, follow",
@@ -1181,6 +1236,17 @@
     "date": "2026-03-28",
     "category": "Biology",
     "h1": "Plant Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/polymers-class-12-notes/": {
+    "title": "Polymers Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
+    "description": "Learn Polymers like a pro. Detailed revision notes, solved examples, and",
+    "date": "2026-03-30",
+    "category": "Chemistry",
+    "h1": "Polymers Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
     "type": "blog-post",
     "priority": 0.8,
     "robots": "index, follow",
