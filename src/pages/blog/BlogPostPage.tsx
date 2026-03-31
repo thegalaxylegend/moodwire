@@ -157,7 +157,7 @@ export const BlogPostPage: React.FC = () => {
                 />
             </div>
 
-            <article className="pt-32 pb-20 px-6 max-w-4xl mx-auto">
+            <article className="pt-28 pb-20 px-4 sm:px-6 max-w-4xl mx-auto overflow-x-hidden">
                 <div className="mb-6">
                     <Breadcrumbs />
                 </div>
@@ -188,7 +188,7 @@ export const BlogPostPage: React.FC = () => {
 
                     </div>
 
-                    <h1 className="text-4xl md:text-6xl font-extrabold mb-10 leading-tight">
+                    <h1 className="text-2xl sm:text-4xl md:text-5xl font-extrabold mb-6 leading-tight">
                         {meta.title}
                     </h1>
 
@@ -256,18 +256,41 @@ export const BlogPostPage: React.FC = () => {
 
                 </header>
 
-                <div className="prose prose-invert prose-purple max-w-none 
-                    prose-p:text-gray-300 prose-p:leading-relaxed prose-p:text-lg prose-p:mb-8
-                    prose-headings:text-white prose-headings:font-bold prose-headings:mb-6
-                    prose-h2:text-3xl prose-h2:mt-12 prose-h2:pb-4 prose-h2:border-b prose-h2:border-white/10
+                <div className="blog-content prose prose-invert prose-purple max-w-none
+                    prose-p:text-gray-300 prose-p:leading-relaxed prose-p:text-base prose-p:mb-4
+                    prose-headings:text-white prose-headings:font-bold prose-headings:mb-4
+                    prose-h2:text-xl prose-h2:sm:text-2xl prose-h2:md:text-3xl prose-h2:mt-10 prose-h2:pb-3 prose-h2:border-b prose-h2:border-white/10
+                    prose-h3:text-base prose-h3:sm:text-lg prose-h3:font-semibold prose-h3:text-purple-300 prose-h3:mt-6 prose-h3:mb-2
+                    prose-li:text-gray-300 prose-li:my-1
+                    prose-ul:my-3 prose-ol:my-3
                     prose-strong:text-white
-                    prose-blockquote:border-l-purple-500 prose-blockquote:bg-purple-500/5 prose-blockquote:py-2 prose-blockquote:px-8 prose-blockquote:rounded-r-2xl prose-blockquote:italic
-                    prose-img:rounded-3xl prose-img:shadow-2xl prose-img:border prose-img:border-white/10">
+                    prose-blockquote:border-l-purple-500 prose-blockquote:bg-purple-500/5 prose-blockquote:py-2 prose-blockquote:px-4 prose-blockquote:rounded-r-xl prose-blockquote:italic
+                    prose-img:rounded-2xl prose-img:shadow-2xl prose-img:border prose-img:border-white/10">
                     <ReactMarkdown
                         remarkPlugins={[remarkGfm, remarkMath]}
                         rehypePlugins={[rehypeRaw, rehypeKatex]}
                         components={{
                             h1: 'h2',
+                            h3: ({node, children, ...props}) => (
+                                <h3 {...props} className="text-base sm:text-lg font-semibold text-purple-300 mt-6 mb-2 border-l-2 border-purple-500 pl-3">
+                                    {children}
+                                </h3>
+                            ),
+                            ul: ({node, children, ...props}) => (
+                                <ul {...props} className="list-disc list-outside pl-4 space-y-1 my-3">
+                                    {children}
+                                </ul>
+                            ),
+                            li: ({node, children, ...props}) => (
+                                <li {...props} className="text-gray-300 text-sm sm:text-base leading-relaxed">
+                                    {children}
+                                </li>
+                            ),
+                            table: ({node, children, ...props}) => (
+                                <div className="overflow-x-auto my-6 rounded-xl border border-white/10">
+                                    <table {...props} className="w-full text-sm text-left">{children}</table>
+                                </div>
+                            ),
                             a: ({node, href, children, ...props}) => {
                                 const isExternal = href?.startsWith('http') && !href.includes(SITE_URL);
                                 return (
@@ -289,7 +312,7 @@ export const BlogPostPage: React.FC = () => {
                                     alt={alt || meta.title}
                                     loading="lazy" 
                                     decoding="async" 
-                                    className="rounded-3xl shadow-2xl border border-white/10 my-12" 
+                                    className="rounded-2xl shadow-2xl border border-white/10 my-8 w-full" 
                                 />
                             )
                         }}

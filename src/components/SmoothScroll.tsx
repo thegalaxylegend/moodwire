@@ -12,8 +12,15 @@ export const SmoothScroll = ({ children }: { children: React.ReactNode }) => {
     // We ensure native scroll behavior is reset to avoid conflicting with Lenis
     document.documentElement.style.scrollBehavior = 'auto';
 
+    // Disable smooth scroll hijacking on heavy blog pages 
+    if (location.pathname.startsWith('/blog')) {
+      return;
+    }
+
+    let rafId: number;
+
     const lenis = new Lenis({
-      duration: 1.4,
+      duration: 1.2,
       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
       orientation: 'vertical',
       gestureOrientation: 'vertical',
@@ -22,19 +29,15 @@ export const SmoothScroll = ({ children }: { children: React.ReactNode }) => {
     });
 
     function raf(time: number) {
-      if (lenis) {
-         lenis.raf(time);
-      }
-      requestAnimationFrame(raf);
+      lenis.raf(time);
+      rafId = requestAnimationFrame(raf);
     }
 
-    const rafId = requestAnimationFrame(raf);
+    rafId = requestAnimationFrame(raf);
 
     return () => {
       cancelAnimationFrame(rafId);
-      if (lenis) {
-        lenis.destroy();
-      }
+      lenis.destroy();
     };
   }, [location.pathname]);
 

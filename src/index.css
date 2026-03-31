@@ -899,3 +899,79 @@ body {
 .prose th {
   background: rgba(var(--primary), 0.05);
 }
+
+/* ===== BLOG CONTENT — MOBILE FIXES ===== */
+
+/* Prevent KaTeX display math from breaking mobile layout */
+.blog-content .katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.25rem 0;
+}
+
+/* Prevent inline KaTeX from overflowing too */
+.blog-content .katex {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+/* Sub-topic H3 headers — purple left-bar accent */
+.blog-content h3 {
+  border-left: 3px solid rgba(139, 92, 246, 0.7);
+  padding-left: 0.75rem;
+  color: #c4b5fd;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Tighter list spacing on mobile */
+.blog-content ul,
+.blog-content ol {
+  padding-left: 1.25rem;
+  margin: 0.5rem 0;
+}
+
+.blog-content li {
+  margin: 0.2rem 0;
+  line-height: 1.6;
+}
+
+/* Section dividers — subtle between ## sections */
+.blog-content h2 {
+  scroll-margin-top: 80px;
+}
+
+/* Prevent any child from causing horizontal bleed */
+.blog-content {
+  overflow-x: hidden;
+  word-break: break-word;
+}
+
+@media (max-width: 640px) {
+  /* Even tighter on very small screens */
+  .blog-content li {
+    font-size: 0.875rem;
+  }
+
+  .blog-content p {
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .blog-content h2 {
+    font-size: 1.15rem !important;
+    margin-top: 2rem !important;
+  }
+
+  .blog-content h3 {
+    font-size: 0.95rem !important;
+  }
+
+  /* Tables scroll horizontally on mobile */
+  .blog-content table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+}

@@ -2,7 +2,7 @@ name: Daily Blog Automation (Jules)
 
 on:
   schedule:
-    - cron: '30 18 * * *' # Midnight India Time (6 hours buffer for 6 AM target)
+    - cron: '0 0 * * *' # Midnight UTC (~5:30 AM IST) - Matches API reset
   workflow_dispatch: # Allows manual trigger
 
 jobs:
