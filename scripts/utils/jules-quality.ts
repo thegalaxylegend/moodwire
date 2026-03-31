@@ -371,37 +371,75 @@ export function jsonToMarkdown(post: BlogPostJSON): string {
         `${post.chapter_name} MCQs`
     ];
 
-    const sectionsHtml = (post.content?.sections || []).map(sec => `
-## ${sec.heading}
+    // Helper: normalize LaTeX in a string for markdown output
+    // After JSON.parse, LaTeX like \\frac becomes \frac (correct for markdown)
+    // But if double-escaped by both LLM AND our parser, we get \\frac in the string
+    // which renders as literal \frac text. Normalize to single backslash.
+    function normalizeLaTeX(text: string): string {
+        if (!text) return '';
+        // Replace \\\\command with \\command (over-escaped LaTeX)
+        let result = text.replace(/\\\\\\\\([a-zA-Z])/g, '\\\\$1');
+        // Ensure line breaks are actual newlines for markdown
+        result = result.replace(/\\n/g, '\n');
+        return result;
+    }
 
-${sec.body}
+    // Helper: check if a table is valid (not empty rows/headers)
+    function isValidTable(table: any): boolean {
+        if (!table) return false;
+        if (!Array.isArray(table.headers) || table.headers.length === 0) return false;
+        if (table.headers.every((h: string) => !h || h.trim() === '')) return false;
+        if (!Array.isArray(table.rows) || table.rows.length === 0) return false;
+        // Check if all rows are empty
+        const hasContent = table.rows.some((row: any) => 
+            Array.isArray(row) && row.some((cell: string) => cell && cell.trim() !== '')
+        );
+        return hasContent;
+    }
 
-${(sec.table && Array.isArray(sec.table.headers) && Array.isArray(sec.table.rows)) ? `
-| ${sec.table.headers.join(' | ')} |
-| ${sec.table.headers.map(() => '---').join(' | ')} |
-${sec.table.rows.map(row => Array.isArray(row) ? `| ${row.join(' | ')} |` : '').join('\n')}` : ''}
-`).join('\n');
+    const sectionsHtml = (post.content?.sections || []).map(sec => {
+        const heading = sec.heading || '';
+        let body = normalizeLaTeX(sec.body || '');
+        
+        // Ensure body has proper paragraph breaks (double newline)
+        // Replace single \n with double \n for markdown paragraph breaks
+        body = body.replace(/([^\n])\n([^\n])/g, '$1\n\n$2');
+        
+        // Format table if valid
+        let tableStr = '';
+        if (isValidTable(sec.table)) {
+            const headers = (sec.table!.headers || []).map((h: string) => normalizeLaTeX(h));
+            const rows = (sec.table!.rows || [])
+                .filter((row: any) => Array.isArray(row) && row.some((c: string) => c && c.trim()))
+                .map((row: any) => row.map((cell: string) => normalizeLaTeX(cell || '')));
+            
+            if (rows.length > 0) {
+                tableStr = `\n| ${headers.join(' | ')} |\n| ${headers.map(() => '---').join(' | ')} |\n${rows.map((row: string[]) => `| ${row.join(' | ')} |`).join('\n')}\n`;
+            }
+        }
 
-    const recallHtml = (post.content?.quick_recall || []).map(point => `- ${point}`).join('\n');
+        return `\n## ${heading}\n\n${body}\n${tableStr}\n`;
+    }).join('\n');
+
+    const recallHtml = (post.content?.quick_recall || []).map(point => `- ${normalizeLaTeX(point)}`).join('\n');
     const mcqsHtml = (post.content?.mcqs || []).map((mcq, i) => {
         const optionsArr = Array.isArray(mcq.options) 
             ? mcq.options 
             : (typeof mcq.options === 'string' ? (mcq.options as string).split('\n') : []);
 
-        return `
-**${i + 1}. ${mcq.question}**
-${optionsArr.join('\n')}
+        const formattedOptions = optionsArr
+            .map((opt: string, idx: number) => {
+                const letter = String.fromCharCode(65 + idx); // A, B, C, D
+                // If option already starts with A), B) etc. don't add again
+                const cleanOpt = opt.replace(/^[A-D]\)\s*/, '').trim();
+                return `- ${letter}) ${normalizeLaTeX(cleanOpt)}`;
+            })
+            .join('\n');
 
-**Answer:** ${mcq.answer}) ${mcq.answer_text}
-`;
-    }).join('\n');
+        return `\n**${i + 1}. ${normalizeLaTeX(mcq.question)}**\n\n${formattedOptions}\n\n**Answer:** ${mcq.answer}) ${normalizeLaTeX(mcq.answer_text)}\n`;
+    }).join('\n---\n');
 
-    const ctaHtml = `
----
-
-### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**${post.chapter_name} Full Mock Test**](${post.practice_link_path}) now and track your progress against thousands of students.
-`;
+    const ctaHtml = `\n---\n\n### 🚀 Ready to Ace Your Exam?\nPut your knowledge to the test! Take the free [**${post.chapter_name} Full Mock Test**](${post.practice_link_path}) now and track your progress against thousands of students.\n`;
 
     const yaml = `---
 heroImage: "${post.hero_image}"
@@ -418,7 +456,8 @@ practice_link: "${post.practice_link_path}"
 *Last Updated: ${post.last_updated}*
 
 ## 🎯 What WILL Come in Your Exam
-${post.content.intro}
+
+${normalizeLaTeX(post.content.intro)}
 
 ${sectionsHtml}
 

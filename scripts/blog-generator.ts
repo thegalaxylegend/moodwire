@@ -381,6 +381,7 @@ RULES FOR THE LAST-NIGHT REVISION FORMAT:
 2. LATEX ESCAPING: You MUST double-escape all backslashes in LaTeX formulas (e.g., use \\\\frac instead of \\frac, \\\\times instead of \\times, \\\\Delta instead of \\Delta). Failure to double-escape will break the JSON parser and your output will be discarded.
 3. Every formula must be rendered cleanly with ONLY $ for inline math and $$ for block math. Ensure all formulas are wrapped.
 4. Voice: Authentic Peer Mentor (student-to-student). 
+5. FORMATTING: NEVER WRITE LONG PARAGRAPHS or walls of text! Everything must be highly structured using bold text, bullet points (- ), and short punchy sentences. Use bullet points for almost everything!
 STRICT RULE: Focus entirely on what's examined, not just general knowledge.
 `;
 
@@ -396,19 +397,52 @@ function safelyParseJson(raw: string): any {
         jsonStr = jsonStr.substring(firstBrace, lastBrace + 1);
     }
 
-    try {
-        // Fix unescaped newlines in strings, which is very common
-        let cleaned = jsonStr.replace(/"([^"]*)"/g, (match, p1) => {
-            return '"' + p1.replace(/\n/g, "\\n").replace(/\r/g, "\\r").replace(/\t/g, "\\t") + '"';
-        });
+    // CRITICAL FIX: Double-escape LaTeX backslash sequences that JSON.parse 
+    // would otherwise interpret as control characters.
+    // \f → form-feed (kills \frac, \phi, \forall)
+    // \t → tab (kills \theta, \times, \text, \tau)
+    // \n → newline (kills \nu, \nabla, \neq)
+    // \r → carriage-return (kills \rho, \rightarrow)
+    // \b → backspace (kills \beta, \bar, \binom)
+    // \a → bell (kills \alpha, \angle)
+    // Only when followed by a lowercase letter (real JSON escapes like \n for newline are NOT followed by [a-z])
+    jsonStr = jsonStr.replace(/\\f(?=[a-z])/g, '\\\\f');
+    jsonStr = jsonStr.replace(/\\t(?=[a-z])/g, '\\\\t');
+    jsonStr = jsonStr.replace(/\\n(?=[a-z])/g, '\\\\n');
+    jsonStr = jsonStr.replace(/\\r(?=[a-z])/g, '\\\\r');
+    jsonStr = jsonStr.replace(/\\b(?=[a-z])/g, '\\\\b');
+    jsonStr = jsonStr.replace(/\\a(?=[a-z])/g, '\\\\a');
+    // Also handle \m for \mathrm, \mathbf etc — \m is not a JSON escape so it usually survives,
+    // but some parsers choke on unknown escapes
+    jsonStr = jsonStr.replace(/\\m(?=[a-z])/g, '\\\\m');
+    jsonStr = jsonStr.replace(/\\s(?=[a-z])/g, '\\\\s');
+    jsonStr = jsonStr.replace(/\\d(?=[a-z])/g, '\\\\d');
+    jsonStr = jsonStr.replace(/\\l(?=[a-z])/g, '\\\\l');
+    jsonStr = jsonStr.replace(/\\c(?=[a-z])/g, '\\\\c');
+    jsonStr = jsonStr.replace(/\\p(?=[a-z])/g, '\\\\p');
+    jsonStr = jsonStr.replace(/\\g(?=[a-z])/g, '\\\\g');
+    jsonStr = jsonStr.replace(/\\v(?=[a-z])/g, '\\\\v');
+    jsonStr = jsonStr.replace(/\\o(?=[a-z])/g, '\\\\o');
+    jsonStr = jsonStr.replace(/\\e(?=[a-z])/g, '\\\\e');
+    jsonStr = jsonStr.replace(/\\i(?=[a-z])/g, '\\\\i');
+    jsonStr = jsonStr.replace(/\\h(?=[a-z])/g, '\\\\h');
+    jsonStr = jsonStr.replace(/\\w(?=[a-z])/g, '\\\\w');
+    jsonStr = jsonStr.replace(/\\k(?=[a-z])/g, '\\\\k');
 
-        // DO NOT globally replace backslashes because JSON.parse expects standard escapes like \n, \t, etc.
-        // And if Llama output \\frac, it's valid. If Llama output \f, JSON.parse converts to form-feed.
-        // We will just let JSON.parse handle it. If it throws, we check next strategy.
+    try {
+        // Fix literal newlines/tabs/carriage-returns inside JSON string values
+        let cleaned = jsonStr.replace(/"([^"]*)"/g, (match, p1) => {
+            return '"' + p1
+                .replace(/\n/g, "\\n")   // literal newline → escaped
+                .replace(/\r/g, "\\r")   // literal CR → escaped
+                .replace(/\t/g, "\\t")   // literal tab → escaped
+                .replace(/\f/g, "\\f")   // literal form-feed → escaped
+                + '"';
+        });
 
         return JSON.parse(cleaned);
     } catch (err) {
-        console.warn("⚠️ JSON Parse failed. Attempting aggressive recovery on trailing commas...");
+        console.warn("⚠️ JSON Parse failed. Attempting aggressive recovery...");
         try {
             let subset = jsonStr.replace(/\/\/.*$/gm, ""); // Remove comments
             subset = subset.replace(/,\s*}/g, "}").replace(/,\s*]/g, "]"); // trailing commas
@@ -502,24 +536,56 @@ async function generateSection(item: any, heading: string, displayClass: string,
     
     let specificDirective = "";
     if (heading.includes("Formula Bank")) {
-         specificDirective = "Provide EVERY formula for this chapter. Rendered clean using LATEX. Variable meaning in one line. NOTHING ELSE. No text paragraphs.";
+         specificDirective = `Provide EVERY important formula for this chapter.
+         The "body" field should contain a bulleted list of all formulas. DO NOT use the "table" field.
+         Format each formula as: "- **[Formula Name]:** $$[LaTeX formula]$$ — [Variable Meanings]"`;
     } else if (heading.includes("Mistakes")) {
-         specificDirective = "Provide exactly 5 highly specific errors students make. Format each as: Mistake (e.g. Using lambda = h/mv without converting mass to kg), Costs (e.g. Full 4 marks), Fix (e.g. Always convert grams to kg). No generic traps.";
+         specificDirective = `Provide exactly 5 highly specific errors students make.
+         The "body" field should contain the mistakes using bullet points. DO NOT use the "table" field.
+         Format each mistake as:
+         
+         - **Mistake [X]:** [Error description]
+           - *Costs:* [Marks lost]
+           - *Fix:* [How to fix it]`;
     } else if (heading.includes("PYQs")) {
-         specificDirective = "Provide exactly 3 real past year questions (JEE/NEET or CBSE). Format: Q: [exact question]. Trap in this question: [what confuses students]. Solution: [Show full working: given -> formula -> substitution -> answer with units]. Answer: [with units].";
+         specificDirective = `Provide exactly 3 real past year questions (JEE/NEET or CBSE).
+         In the "body" field, format EACH question with clear separation using bullet points and indentation:
+         
+         - **Q1:** [exact question text]
+           - **Trap:** [what confuses students]
+           - **Solution:** [Show full step-by-step working with LaTeX]
+           - **Answer:** [answer with units]
+         
+         Keep the "table" field empty: {"headers": [], "rows": []}.`;
     } else if (heading.includes("One Thing")) {
-         specificDirective = "Choose ONE deep concept. Explain the specific thing that separates 85% scorers from 95% scorers in this chapter.";
+         specificDirective = `Choose ONE deep concept. Explain the specific thing that separates 85% scorers from 95% scorers.
+         Do not write a huge paragraph! Use the "body" field and structure it using bullet points:
+         
+         - **The Core Concept:** [Brief explanation]
+         - **What 85% scorers do:** [Common basic approach]
+         - **What 95% scorers do:** [The advanced secret]`;
     } else if (heading.includes("Ayush's Note")) {
-         specificDirective = "Provide a specific pattern only visible after studying 5 years of PYQs. Cannot appear in any standard textbook.";
+         specificDirective = `Provide a specific pattern only visible after studying 5+ years of PYQs. Cannot appear in any standard textbook.
+         Do not write a paragraph. List the insights in the "body" field using bullet points:
+         
+         - **The Hidden Pattern:** [Insight]
+         - **How to Apply It:** [Actionable advice]`;
     } else if (heading.includes("Last 5 Minutes")) {
-         specificDirective = "This is the final thing they read before sleeping. Provide exactly: 5 formulas maximum, 3 facts maximum, 2 common mistakes maximum. Short bullet points.";
+         specificDirective = `This is the LAST thing they read before sleeping. Be extremely concise.
+         In the "body" field, provide EXACTLY:
+         - 5 key formulas as bullet points (each on its own line, starting with "- ")
+         - 3 key facts as bullet points
+         - 2 common mistakes as bullet points
+         
+         Keep the "table" field empty: {"headers": [], "rows": []}.
+         Use markdown bullet points (- ) for every item. Do NOT use a wall of text.`;
     } else {
-         specificDirective = "Provide a highly focused, no-nonsense revision summary.";
+         specificDirective = "Provide a highly focused, no-nonsense revision summary using bullet points extensively.";
     }
 
     const user = `Write the section for the heading: "${heading}" regarding the topic "${item.topic}".
     STRICT RULE: ${specificDirective}
-    Remember LATEX ESCAPING RULES!
+    Remember LATEX ESCAPING RULES! Use $$ for block formulas and $ for inline formulas.
     TARGET LENGTH: Each section MUST be detailed and exhaustive. Aim for 300+ words per section.
     Return JSON: { "heading": "${heading}", "body": "...", "table": { "headers": [], "rows": [[]] } }`;
 
@@ -527,7 +593,47 @@ async function generateSection(item: any, heading: string, displayClass: string,
     try {
         return safelyParseJson(raw);
     } catch {
-        return { heading, body: raw };
+        // Smart fallback: try to extract body from the raw JSON text using regex
+        console.warn(`⚠️ JSON parse failed for section "${heading}". Attempting regex extraction...`);
+        let extractedBody = '';
+        let extractedTable: any = undefined;
+        
+        // Try to extract "body" field value
+        const bodyMatch = raw.match(/"body"\s*:\s*"((?:[^"\\]|\\.)*)"/s);
+        if (bodyMatch) {
+            extractedBody = bodyMatch[1]
+                .replace(/\\n/g, '\n')
+                .replace(/\\"/g, '"')
+                .replace(/\\\\/g, '\\');
+        }
+        
+        // Try to extract table headers and rows
+        const headersMatch = raw.match(/"headers"\s*:\s*\[((?:[^\]]*?))\]/);
+        const rowsMatch = raw.match(/"rows"\s*:\s*(\[[\s\S]*?\]\s*\])/);
+        if (headersMatch) {
+            try {
+                const headers = JSON.parse(`[${headersMatch[1]}]`);
+                const rows = rowsMatch ? JSON.parse(rowsMatch[1]) : [];
+                if (headers.length > 0) {
+                    extractedTable = { headers, rows };
+                }
+            } catch { /* ignore table extraction failure */ }
+        }
+
+        // If body extraction failed, strip JSON syntax from raw text as last resort
+        if (!extractedBody) {
+            extractedBody = raw
+                .replace(/[{}[\]"]/g, '')           // Remove JSON punctuation
+                .replace(/heading\s*:/gi, '')         // Remove field names
+                .replace(/body\s*:/gi, '')
+                .replace(/table\s*:/gi, '')
+                .replace(/headers\s*:/gi, '')
+                .replace(/rows\s*:/gi, '')
+                .replace(/\s+/g, ' ')                // Normalize whitespace
+                .trim();
+        }
+        
+        return { heading, body: extractedBody, table: extractedTable };
     }
 }
 

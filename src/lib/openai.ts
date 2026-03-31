@@ -3,7 +3,8 @@ import OpenAI from "openai";
 let _openai: OpenAI | null = null;
 
 export const getOpenAIClient = () => {
-    const apiKey = import.meta.env.VITE_OPENAI_API_KEY;
+    const env = (typeof import.meta !== 'undefined' && import.meta.env) ? import.meta.env : (typeof process !== 'undefined' ? process.env : {});
+    const apiKey = env.VITE_OPENAI_API_KEY || env.OPENAI_API_KEY;
     if (!apiKey) return null;
     
     if (!_openai) {

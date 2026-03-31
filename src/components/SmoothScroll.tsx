@@ -1,10 +1,16 @@
 import { useEffect } from 'react';
 import Lenis from 'lenis';
+import { useLocation } from 'react-router-dom';
 
 export const SmoothScroll = ({ children }: { children: React.ReactNode }) => {
+  const location = useLocation();
+
   useEffect(() => {
     // Only initialize on client
     if (typeof window === 'undefined') return;
+
+    // We ensure native scroll behavior is reset to avoid conflicting with Lenis
+    document.documentElement.style.scrollBehavior = 'auto';
 
     const lenis = new Lenis({
       duration: 1.4,
@@ -16,16 +22,21 @@ export const SmoothScroll = ({ children }: { children: React.ReactNode }) => {
     });
 
     function raf(time: number) {
-      lenis.raf(time);
+      if (lenis) {
+         lenis.raf(time);
+      }
       requestAnimationFrame(raf);
     }
 
-    requestAnimationFrame(raf);
+    const rafId = requestAnimationFrame(raf);
 
     return () => {
-      lenis.destroy();
+      cancelAnimationFrame(rafId);
+      if (lenis) {
+        lenis.destroy();
+      }
     };
-  }, []);
+  }, [location.pathname]);
 
   return <>{children}</>;
 };

@@ -31,8 +31,8 @@ export const BlogPostPage: React.FC = () => {
     const [content, setContent] = useState<string>(ssrContent);
     const [loading, setLoading] = useState(!meta || (!ssrMeta && !ssrContent));
     const [error, setError] = useState(false);
-    const [readingProgress, setReadingProgress] = useState(0);
     const [generatingPdf, setGeneratingPdf] = useState(false);
+    const progressBarRef = React.useRef<HTMLDivElement>(null);
 
     const handleDownloadPDF = async () => {
         setGeneratingPdf(true);
@@ -56,9 +56,11 @@ export const BlogPostPage: React.FC = () => {
         const handleScroll = () => {
             if (!ticking) {
                 window.requestAnimationFrame(() => {
-                    const totalHeight = document.documentElement.scrollHeight - window.innerHeight;
-                    const progress = (window.scrollY / totalHeight) * 100;
-                    setReadingProgress(progress);
+                    if (progressBarRef.current) {
+                        const totalHeight = document.documentElement.scrollHeight - window.innerHeight;
+                        const progress = (window.scrollY / totalHeight) * 100;
+                        progressBarRef.current.style.width = `${progress}%`;
+                    }
                     ticking = false;
                 });
                 ticking = true;
@@ -149,12 +151,13 @@ export const BlogPostPage: React.FC = () => {
             {/* Reading Progress Bar */}
             <div className="fixed top-0 left-0 w-full h-1 z-50 pointer-events-none">
                 <div 
-                    className="h-full bg-gradient-to-r from-purple-500 via-pink-500 to-purple-500 transition-all duration-100 origin-left"
-                    style={{ width: `${readingProgress}%` }}
+                    ref={progressBarRef}
+                    className="h-full bg-gradient-to-r from-purple-500 via-pink-500 to-purple-500 transition-none origin-left"
+                    style={{ width: '0%' }}
                 />
             </div>
 
-            <article className="pt-32 pb-20 px-6 max-w-4xl mx-auto" style={{ contentVisibility: 'auto' }}>
+            <article className="pt-32 pb-20 px-6 max-w-4xl mx-auto">
                 <div className="mb-6">
                     <Breadcrumbs />
                 </div>

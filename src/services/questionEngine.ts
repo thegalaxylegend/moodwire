@@ -11,13 +11,22 @@ import {
     updateDoc,
     doc,
     increment,
-
 } from 'firebase/firestore';
 import { askAI } from '../lib/ai';
 import { extractJSON } from '../lib/utils';
 import { EloService } from './eloService';
+import { getFormulaSheet } from '../lib/formulaSheets';
+import { checkDerivationConsistency, checkStepConsistency } from '../lib/consistencyCheck';
+import { validateUnits } from '../lib/unitValidator';
+import { checkConceptualQuestion, isNumericalQuestion } from '../lib/factValidator';
 
-// sleep removed for speed improvements
+// Timeout wrapper for API calls
+const withTimeout = <T>(promise: Promise<T>, ms: number): Promise<T> => {
+    const timeout = new Promise<never>((_, reject) =>
+        setTimeout(() => reject(new Error('API_TIMEOUT')), ms)
+    );
+    return Promise.race([promise, timeout]);
+};
 
 export interface StoredQuestion {
     id?: string;
@@ -42,6 +51,23 @@ export interface StoredQuestion {
 
     concept_tags: string[];
     error_trap_type: string;
+    technical_data_sheet?: Record<string, any>;
+    numerical_formula?: string;
+    hidden_derivation?: string;
+
+    // v3.0: Structured validation fields
+    step_by_step_solution?: string[];
+    final_numerical_value?: number;
+    final_unit?: string;
+    formula_used?: string;
+    given_values?: Record<string, string>;
+    verification_details?: {
+        verifier_answer: string;
+        verifier_matches: boolean;
+        consistency_check_passed: boolean;
+        unit_check_passed: boolean;
+    };
+
     hash: string;
     usage_count: number;
     accuracy_rate: number;
@@ -60,47 +86,193 @@ const generateHash = async (text: string): Promise<string> => {
 };
 
 /**
- * Advanced Verification Layer: re-checks the question 3 times for accuracy.
+ * Enhanced Verification Layer: Anti-anchored independent verification.
+ * v3.0: Verifier sees answer AFTER solving, not before.
  */
-/**
- * Fast Verification Layer: Single, robust check.
- */
-const verifyQuestionFast = async (questionData: Partial<StoredQuestion>): Promise<{ verified: boolean; data?: Partial<StoredQuestion> }> => {
+const verifyQuestionFast = async (questionData: Partial<StoredQuestion>): Promise<{ verified: boolean; data?: Partial<StoredQuestion>; isRefixed?: boolean; verifierAnswer?: string; verifierMatches?: boolean }> => {
     const currentData = { ...questionData };
 
-    const verificationPrompt = `
-    Verify MCQ: ${currentData.question}
-    Options: ${JSON.stringify(currentData.options)}
-    Correct: ${currentData.correct_answer}
-    Exam: ${currentData.exam}
+    // ── HEURISTIC SAFETY CHECK: Enhanced placeholder/garbage detection ──
+    const questionText = currentData.question || "";
+    const optionsArr = Array.isArray(currentData.options) ? currentData.options : Object.values(currentData.options || {});
     
-    Checks: accuracy, Grade appropriateness, Option content.
-    Return the result as a JSON object:
-    - If good, return {"status": "APPROVED", "confidence": 1.0}.
-    - If options are placeholders (like "A", "B", "C", "D" with no content), return {"status": "REJECT"}.
-    - If wrong, fix it and return {"status": "REFIXED", "fixed_data": {...}}.
-    - If junk, return {"status": "REJECT"}.
-    `;
+    const questionLower = questionText.toLowerCase();
+    const isPlaceholder = 
+        questionText.length < 80 || 
+        questionLower.includes("placeholder") || 
+        questionLower.includes("lorem ipsum") ||
+        questionLower.includes("best describes the concept") ||
+        questionLower.includes("best describes the core concept") ||
+        questionLower.includes("practice question:") ||
+        questionLower.includes("fundamental principle of") ||
+        questionLower.includes("template question") ||
+        questionLower.includes("sample question") ||
+        optionsArr.some(opt => {
+            const trimmed = typeof opt === 'string' ? opt.trim() : '';
+            return trimmed === "Option A" || trimmed === "Placeholder" ||
+                /^[A-D]$/i.test(trimmed) ||
+                /^[A-D][.:)\s]/i.test(trimmed) ||
+                /^a fundamental principle/i.test(trimmed);
+        });
+
+    if (isPlaceholder) {
+        console.warn(`[QuestionEngine] Heuristic rejection: Quality too low.`);
+        return { verified: false };
+    }
+
+    // Check for duplicate options
+    const normalizedOpts = optionsArr.map(o => (typeof o === 'string' ? o : '').toLowerCase().trim());
+    if (new Set(normalizedOpts).size < optionsArr.length) {
+        console.warn(`[QuestionEngine] Heuristic rejection: Duplicate options detected.`);
+        return { verified: false };
+    }
+
+    // Avg option length check
+    const avgOptLen = optionsArr.reduce((s, o) => s + (typeof o === 'string' ? o.length : 0), 0) / Math.max(optionsArr.length, 1);
+    if (avgOptLen < 10) {
+        console.warn(`[QuestionEngine] Heuristic rejection: Options too short (avg ${avgOptLen.toFixed(0)} chars).`);
+        return { verified: false };
+    }
+
+    // ── ANTI-ANCHORED VERIFICATION PROMPT ──
+    // Key change: answer is shown in STEP 2, AFTER the solve instruction
+    const verificationPrompt = `
+### INDEPENDENT ACCURACY AUDITOR — MATH-ONLY MODE
+
+You are verifying a ${currentData.exam || 'JEE/NEET'} MCQ. You MUST solve this problem from scratch.
+
+═══ STEP 0: SANITY CHECK ═══
+QUESTION: "${currentData.question}"
+OPTIONS: ${JSON.stringify(currentData.options)}
+
+Check: Are ALL necessary variables/data provided in the question to solve it?
+Check: Is the question physically/chemically/mathematically meaningful?
+If NO → return {"status": "REJECT", "logic": "reason"}
+
+═══ STEP 1: SOLVE INDEPENDENTLY ═══
+⚠️ DO NOT look at the stated answer yet. Solve the problem completely:
+1. Identify the relevant formula
+2. List the given quantities with units
+3. Substitute values and calculate step by step
+4. State YOUR answer with units
+
+Write your complete solution in "my_solution".
+
+═══ STEP 2: COMPARE ═══
+Now read the stated answer and compare:
+STATED ANSWER: "${currentData.correct_answer}"
+STATED FORMULA: "${currentData.numerical_formula || 'None'}"
+
+Compare YOUR answer (from Step 1) to the STATED answer.
+
+═══ DECISION RULES ═══
+⚠️ IMPORTANT: Focus ONLY on whether the MATHEMATICAL ANSWER is correct.
+Do NOT reject for:
+- Missing unit labels in explanation text
+- Style or wording choices in the question
+- Not explicitly restating every constant
+- The explanation being "could be improved"
+
+DO reject for:
+1. Your independent answer differs from stated answer by >5%
+2. The formula used is factually wrong
+3. Nuclear reaction violates conservation laws
+4. Stated answer is NOT present in the options list
+5. Question < 80 characters or contains placeholder language
+
+═══ DECISION ═══
+- APPROVED: Your Step 1 numerical answer matches the stated answer (within 5%)
+- REFIXED: Math is correct but stated answer had a minor error. Fix it in "fixed_data"
+- REJECT: The stated answer is MATHEMATICALLY WRONG
+
+OUTPUT (JSON ONLY):
+{
+  "status": "APPROVED | REJECT | REFIXED",
+  "my_solution": "Complete step-by-step work from Step 1",
+  "my_answer": "Your independently derived answer",
+  "my_answer_numerical": 0.0,
+  "stated_answer_numerical": 0.0,
+  "answers_match": true,
+  "logic": "Detailed comparison explanation",
+  "fixed_data": { "correct_answer": "...", "options": ["..."] }
+}
+`;
 
     try {
-        // Using ultra-fast 8B model for verification
-        const response = await askAI("Technical Fact Checker", verificationPrompt, 'groq', [], {
-            jsonMode: true,
-            modelId: 'llama-3.1-8b-instant',
-            temperature: 0.1,
-            stream: false
-        });
-        if (!response) return { verified: true, data: currentData }; // Fail open for speed
+        const response = await withTimeout(
+            askAI("Senior Physics, Chemistry & Mathematics Professor. Strict accuracy auditor. JSON ONLY.", verificationPrompt, 'groq', [], {
+                jsonMode: true,
+                modelId: 'llama-3.3-70b-versatile',
+                temperature: 0.0,  // Maximum determinism for verification
+                stream: false,
+                max_tokens: 2000
+            }),
+            30000 // 30s timeout
+        );
+        if (!response) return { verified: false };
 
         const result = extractJSON(response as string);
 
-        if (result.status === 'REJECT') return { verified: false };
-        if (result.status === 'REFIXED' && result.fixed_data) return { verified: true, data: { ...currentData, ...result.fixed_data } };
+        // ── REJECT handling ──
+        if (result.status === 'REJECT') {
+            console.warn(`[QuestionEngine] Verifier REJECTED: ${result.logic || 'No reason'}`);
+            return { verified: false };
+        }
 
-        return { verified: true, data: currentData };
-    } catch (e) {
-        console.warn(`Verification failed, trusting generation:`, e);
-        return { verified: true, data: currentData };
+        // ── NEW: Numerical answer comparison (anti-anchoring layer) ──
+        let verifierMatches = true;
+        if (result.my_answer_numerical !== undefined && result.stated_answer_numerical !== undefined) {
+            const myNum = Number(result.my_answer_numerical);
+            const statedNum = Number(result.stated_answer_numerical);
+            if (!isNaN(myNum) && !isNaN(statedNum) && (Math.abs(myNum) > 0.001 || Math.abs(statedNum) > 0.001)) {
+                const ref = Math.max(Math.abs(myNum), Math.abs(statedNum));
+                const diff = Math.abs(myNum - statedNum) / ref;
+                if (diff > 0.05) {
+                    verifierMatches = false;
+                    if (result.status === 'APPROVED') {
+                        console.warn(`[QuestionEngine] Override: Verifier said APPROVED but answers differ by ${(diff * 100).toFixed(1)}% (verifier: ${myNum}, stated: ${statedNum}). REJECTING.`);
+                        return { verified: false };
+                    }
+                }
+            }
+        }
+        // Also check the boolean field if provided
+        if (result.answers_match === false && result.status === 'APPROVED') {
+            console.warn(`[QuestionEngine] Override: Verifier said APPROVED but answers_match=false. REJECTING.`);
+            return { verified: false };
+        }
+
+        // ── REFIXED handling ──
+        if (result.status === 'REFIXED' && result.fixed_data) {
+            const fixedOpts = result.fixed_data.options || currentData.options;
+            const fixedAns = result.fixed_data.correct_answer;
+            if (fixedAns && Array.isArray(fixedOpts) && !fixedOpts.includes(fixedAns)) {
+                console.warn(`[QuestionEngine] REFIXED answer not in options. Rejecting.`);
+                return { verified: false };
+            }
+            return { 
+                verified: true, 
+                data: { ...currentData, ...result.fixed_data },
+                isRefixed: true,
+                verifierAnswer: result.my_answer,
+                verifierMatches
+            };
+        }
+
+        return { 
+            verified: true, 
+            data: currentData, 
+            isRefixed: false,
+            verifierAnswer: result.my_answer,
+            verifierMatches
+        };
+    } catch (e: any) {
+        if (e.message === 'API_TIMEOUT') {
+            console.error(`[QuestionEngine] Verification timed out (30s).`);
+        } else {
+            console.error(`Verification failed, rejecting for safety:`, e);
+        }
+        return { verified: false };
     }
 };
 
@@ -136,104 +308,306 @@ export const generateInspiredQuestion = async (
         exam: string,
         subject: string,
         topic: string,
-        difficulty: 'Easy' | 'Medium' | 'Hard'
+        difficulty: 'Easy' | 'Medium' | 'Hard',
+        abilityScore?: number 
     }
 ): Promise<StoredQuestion | null> => {
-    const { exam, subject, topic, difficulty } = params;
+    const { exam, subject, topic, difficulty, abilityScore = 5 } = params;
+
+    // Pre-Generation DB Check — only trust high-confidence questions from post-audit era
+    try {
+        const potentialQuery = query(
+            collection(db, 'engine_questions'), 
+            where('exam', '==', exam),
+            where('topic', '==', topic),
+            where('difficulty', '==', difficulty),
+            limit(5)
+        );
+        const snapshot = await getDocs(potentialQuery);
+        if (!snapshot.empty) {
+            // Only return cached questions that have confidence >= 0.70 AND pass fact validation
+            const validDocs = snapshot.docs.filter(d => {
+                const data = d.data();
+                if (!(data.confidence >= 0.70 && data.question && data.correct_answer)) return false;
+                
+                // Run fact validator on cached content to catch legacy placeholders
+                const factCheck = checkConceptualQuestion(
+                    data.subject || subject,
+                    data.topic || topic,
+                    data.question || '',
+                    data.correct_answer || '',
+                    data.options || []
+                );
+                if (!factCheck.valid) {
+                    console.warn(`[QuestionEngine] Cache rejected (${factCheck.reason}): "${(data.question || '').slice(0, 50)}..."`);
+                    return false;
+                }
+                return true;
+            });
+            if (validDocs.length > 0) {
+                const randomDoc = validDocs[Math.floor(Math.random() * validDocs.length)];
+                console.log(`[QuestionEngine] ⚡ Returning verified DB content for "${topic}".`);
+                const existing = randomDoc.data() as StoredQuestion;
+                return { id: randomDoc.id, ...existing };
+            }
+        }
+    } catch (e) {
+        console.warn("[QuestionEngine] Pre-check failed, proceeding to generation...");
+    }
+
+    // Inject topic-specific formula sheet
+    const formulaSheet = getFormulaSheet(topic, subject);
 
     const generationPrompt = `
-    GENERATE A TOTALLY FRESH AND UNIQUE EXAM QUESTION IN JSON FORMAT. 
-    BatchID: ${Date.now()}-${Math.random().toString(36).substring(7)}
-    
-    EXAM: ${exam}
-    SUBJECT: ${subject}
-    TOPIC: ${topic}
-    DIFFICULTY: ${difficulty}
-    
-    RULES:
-    1. STRICTLY follow ${exam} pattern.
-    2. USE "${exam} PREVIOUS YEAR QUESTION (PYQ)" ARCHIVES for inspiration.
-    3. MODIFY actual PYQ contexts to create "Fresh" problems.
-    4. Provide a "Step-by-Step" solution walkthrough.
-    5. Explain "Why each wrong option is wrong".
-    6. Provide a "Teach me like I'm 12" simplified intuition.
-    7. If question is visual (Physics/Bio/Chem), provide a "diagram_prompt".
-    
-    OUTPUT FORMAT: Return ONLY a valid JSON object. No Markdown, No Prose, No Commentary.
-    {
-      "exam": "${exam}",
-      "subject": "${subject}",
-      "chapter": "Chapter Name",
-      "topic": "${topic}",
-      "type": "MCQ", 
-      "difficulty": "${difficulty}",
-      "question": "The actual question text goes here...",
-      "options": ["Option content 1", "Option content 2", "Option content 3", "Option content 4"],
-      "correct_answer": "Exact text of the correct option",
-      "explanation": "Brief summary",
-      "rich_explanation": {
-         "steps": ["Step 1...", "Step 2..."],
-         "why_others_wrong": {"Option A": "Because...", "Option B": "Faulty logic because...", ...},
-         "teach_me_like_12": "Simplified concept explanation",
-         "diagram_prompt": "educational diagram of..."
-      },
-      "concept_tags": ["tag1", "tag2"],
-      "error_trap_type": "Calculation/Conceptual"
-    }
-    `;
+### PRECISION EXAM QUESTION GENERATOR v3.0
+Generate ONE ${exam} MCQ. MATHEMATICAL ACCURACY IS MANDATORY.
 
-    try {
-        const response = await askAI("Technical Exam Question Agent. JSON ONLY.", generationPrompt, 'groq', [], { 
-            jsonMode: true, 
-            stream: false, 
-            max_tokens: 1800,
-            modelId: 'llama-3.1-8b-instant' // Use 8B for extreme speed (supported by robust repair)
-        });
-        if (!response) return null;
+TOPIC: ${topic}
+SUBJECT: ${subject}
+DIFFICULTY: ${difficulty} (Student Ability: ${abilityScore}/10)
 
-        const rawData = extractJSON(response as string);
+═══ REFERENCE FORMULAS FOR THIS TOPIC ═══
+${formulaSheet}
 
-        // 1. SHA256 Duplication Check
-        const hashText = rawData.question + JSON.stringify(rawData.options);
-        const hash = await generateHash(hashText);
+═══ MANDATORY GENERATION PROTOCOL ═══
 
-        const dupQuery = query(collection(db, 'engine_questions'), where('hash', '==', hash));
-        const dupSnap = await getDocs(dupQuery);
-        if (!dupSnap.empty) {
-            console.warn("[QuestionEngine] Duplicate hash detected. Rejecting.");
-            return null;
+STEP 1 — CHOOSE A FORMULA from the reference list above. Do NOT invent formulas.
+STEP 2 — PICK NUMERICAL VALUES: Use simple integers or common fractions (0.5, 0.25, 0.1).
+STEP 3 — SOLVE COMPLETELY in "step_by_step_solution". Show EVERY substitution step.
+         Your final step must clearly state the numerical answer.
+STEP 4 — SET "final_numerical_value" to the NUMBER from your last solution step.
+STEP 5 — CONSTRUCT THE MCQ with 4 options.
+         Distractors should represent common errors (wrong formula, arithmetic errors, unit errors).
+         "correct_answer" MUST be an EXACT copy of one of the 4 option strings.
+
+⚠️ CRITICAL: "final_numerical_value" MUST MATCH the result from your step_by_step_solution.
+If they don't match, YOUR OUTPUT IS INVALID and will be rejected.
+
+═══ OPTION QUALITY RULES (WILL BE AUTO-CHECKED) ═══
+- Each option MUST be a complete descriptive phrase of at least 15 characters.
+- GOOD options: "The velocity is 20 m/s", "The energy equals 3.4 eV", "The frequency is 5 Hz"
+- BAD options (WILL BE REJECTED): "20 m/s", "3.4 eV", "5 Hz", "A", "B"
+- The question text MUST be at least 80 characters long with specific context and numerical values.
+- NEVER use "Practice Question:", generic templates, or placeholder language.
+
+═══ JSON SAFETY RULES (CRITICAL) ═══
+- All string values MUST use straight double quotes, no curly quotes
+- Do NOT use fractions like 1/3, 8/3 in string values — use decimals: 0.333, 2.667
+- Do NOT use special Unicode characters like √, π in JSON string values — write sqrt(), pi
+- Escape any backslashes in LaTeX: use \\frac not \frac
+- final_numerical_value MUST be a decimal number, NOT a fraction or expression
+
+═══ OUTPUT FORMAT (JSON ONLY) ═══
+{
+  "exam": "${exam}",
+  "subject": "${subject}",
+  "chapter": "Chapter name",
+  "topic": "${topic}",
+  "type": "MCQ",
+  "difficulty": "${difficulty}",
+  "formula_used": "The exact formula from the reference list",
+  "given_values": {"mass": "10 kg", "velocity": "5 m/s"},
+  "step_by_step_solution": [
+    "Step 1: Using formula F = ma",
+    "Step 2: Substituting: F = 10 * 5 = 50 N",
+    "Step 3: Therefore F = 50 N"
+  ],
+  "final_numerical_value": 50,
+  "final_unit": "N",
+  "question": "A 10 kg object is accelerated at 5 m/s squared along a frictionless surface. What is the net force acting on the object?",
+  "options": ["The net force is 50 N", "The net force is 25 N", "The net force is 100 N", "The net force is 15 N"],
+  "correct_answer": "The net force is 50 N",
+  "numerical_formula": "10 * 5 = 50",
+  "explanation": "Clear 2-3 sentence explanation",
+  "concept_tags": ["tag1", "tag2"],
+  "error_trap_type": "e.g. unit conversion, sign error",
+  "hidden_derivation": "Full derivation scratchpad"
+}
+`;
+
+    // Retry loop: up to 3 retries if validation rejects
+    const MAX_GEN_RETRIES = 3;
+    for (let attempt = 0; attempt <= MAX_GEN_RETRIES; attempt++) {
+        try {
+            const response = await withTimeout(
+                askAI(
+                    `You are a Senior ${subject} Professor with 20 years of JEE/NEET paper-setting experience. You MUST solve every problem completely before stating the answer. Use ONLY standard NCERT-aligned formulas. JSON ONLY.`,
+                    generationPrompt, 'groq', [], { 
+                    jsonMode: true, 
+                    stream: false, 
+                    max_tokens: 2500,
+                    modelId: 'llama-3.3-70b-versatile',
+                    temperature: 0.6
+                }),
+                45000 // 45s timeout for generation
+            );
+            if (!response) continue;
+
+            const rawData = extractJSON(response as string);
+
+            // Ensure required fields have defaults
+            if (!rawData.type) rawData.type = 'MCQ';
+            if (!rawData.explanation) rawData.explanation = rawData.hidden_derivation || 'Solution available.';
+            if (!rawData.concept_tags) rawData.concept_tags = [topic];
+            if (!rawData.error_trap_type) rawData.error_trap_type = 'calculation';
+
+            // Code-level correct_answer validation: must exist in options
+            if (Array.isArray(rawData.options) && rawData.correct_answer) {
+                const exactMatch = rawData.options.includes(rawData.correct_answer);
+                if (!exactMatch) {
+                    // Try to find a partial match and fix it
+                    const partialIdx = rawData.options.findIndex((opt: string) => 
+                        opt.includes(rawData.correct_answer) || rawData.correct_answer.includes(opt)
+                    );
+                    if (partialIdx !== -1) {
+                        rawData.correct_answer = rawData.options[partialIdx];
+                    } else {
+                        console.warn(`[QuestionEngine] correct_answer not in options. Attempt ${attempt + 1}. Retrying...`);
+                        continue;
+                    }
+                }
+            }
+
+            // SHA256 Duplication Check
+            const hashText = rawData.question + JSON.stringify(rawData.options);
+            const hash = await generateHash(hashText);
+
+            const dupQuery = query(collection(db, 'engine_questions'), where('hash', '==', hash));
+            const dupSnap = await getDocs(dupQuery);
+            if (!dupSnap.empty) {
+                console.warn("[QuestionEngine] Duplicate hash detected. Retrying...");
+                continue;
+            }
+
+            // ── LAYER 1: LLM Verification ──
+            const verification = await verifyQuestionFast(rawData);
+            if (!verification.verified || !verification.data) {
+                console.warn(`[QuestionEngine] Verifier rejected. Attempt ${attempt + 1}/${MAX_GEN_RETRIES + 1}.`);
+                continue;
+            }
+
+            const verifiedData = verification.data;
+            let confidenceScore = 0.50; // Base score
+            if (verification.verified) confidenceScore += 0.15;
+
+            // ── LAYER 2: Derivation-Answer Consistency Check ──
+            const derivationText = verifiedData.hidden_derivation || verifiedData.explanation || 
+                (verifiedData.step_by_step_solution || []).join(' ') || '';
+            const consistency = checkDerivationConsistency(derivationText, verifiedData.correct_answer || '');
+            
+            if (!consistency.consistent) {
+                if (consistency.correctedAnswer) {
+                    // Verify corrected answer exists in options before accepting the fix
+                    const optsList = Array.isArray(verifiedData.options) ? verifiedData.options : Object.values(verifiedData.options || {});
+                    if (optsList.includes(consistency.correctedAnswer)) {
+                        console.warn(`[QuestionEngine] Consistency fix: ${consistency.reason}`);
+                        verifiedData.correct_answer = consistency.correctedAnswer;
+                        verification.isRefixed = true;
+                        confidenceScore += 0.05; // Partial credit for auto-fixed
+                    } else {
+                        console.warn(`[QuestionEngine] Consistency fix rejected: corrected answer not in options. Retrying.`);
+                        continue;
+                    }
+                } else {
+                    console.warn(`[QuestionEngine] Consistency FAIL (unfixable): ${consistency.reason}. Retrying.`);
+                    continue;
+                }
+            } else {
+                confidenceScore += 0.15; // Full credit for consistent
+            }
+
+            // ── LAYER 2b: Step-solution vs final_numerical_value consistency ──
+            if (verifiedData.step_by_step_solution && verifiedData.final_numerical_value !== undefined) {
+                const stepCheck = checkStepConsistency(
+                    verifiedData.step_by_step_solution,
+                    verifiedData.final_numerical_value
+                );
+                if (!stepCheck.consistent) {
+                    console.warn(`[QuestionEngine] Step consistency FAIL: ${stepCheck.reason}. Retrying.`);
+                    continue;
+                }
+            }
+
+            // ── LAYER 3: Unit Validation ──
+            const unitCheck = validateUnits(
+                verifiedData.topic || topic,
+                verifiedData.correct_answer || '',
+                verifiedData.question || ''
+            );
+            if (!unitCheck.valid) {
+                console.warn(`[QuestionEngine] Unit validation FAIL: ${unitCheck.reason}. Retrying.`);
+                continue;
+            }
+            if (unitCheck.valid) confidenceScore += 0.05;
+
+            // ── LAYER 4: Conceptual/Fact Validation ──
+            const isNumerical = isNumericalQuestion(
+                verifiedData.question || '',
+                verifiedData.subject || subject,
+                Array.isArray(verifiedData.options) ? verifiedData.options : Object.values(verifiedData.options || {})
+            );
+            if (!isNumerical) {
+                const factCheck = checkConceptualQuestion(
+                    verifiedData.subject || subject,
+                    verifiedData.topic || topic,
+                    verifiedData.question || '',
+                    verifiedData.correct_answer || '',
+                    verifiedData.options || []
+                );
+                if (!factCheck.valid) {
+                    console.warn(`[QuestionEngine] Fact/concept validation FAIL: ${factCheck.reason}. Retrying.`);
+                    continue;
+                }
+            }
+
+            // ── LAYER 5: Verifier answer match bonus ──
+            if (verification.verifierMatches) confidenceScore += 0.10;
+            if (!verification.isRefixed) confidenceScore += 0.05;
+
+            // Store verification details
+            verifiedData.verification_details = {
+                verifier_answer: verification.verifierAnswer || '',
+                verifier_matches: verification.verifierMatches ?? true,
+                consistency_check_passed: consistency.consistent,
+                unit_check_passed: unitCheck.valid
+            };
+
+            // Storage Optimization & Save
+            enforceStorageLimit(verifiedData.topic || topic, exam);
+
+            const finalQuestion: Omit<StoredQuestion, 'id'> = {
+                ...verifiedData as StoredQuestion,
+                hash,
+                usage_count: 0,
+                accuracy_rate: 0, // Will be updated from real student data
+                created_at: new Date().toISOString(),
+                confidence: Math.min(confidenceScore, 0.95) // Capped — only human review gets 1.0
+            };
+
+            // Save to DB (Background)
+            if (db) {
+                try {
+                    addDoc(collection(db, 'engine_questions'), finalQuestion).catch(e => {
+                        // Silently catch permission errors in audit/node mode
+                        if (!e.message.includes('PERMISSION_DENIED')) {
+                            console.error("[QuestionEngine] Background DB save failed:", e.message);
+                        }
+                    });
+                } catch (err) {
+                    // Ignore initialization errors in Node environment
+                }
+            }
+
+            console.log(`[QuestionEngine] ✅ Generated & verified (confidence: ${finalQuestion.confidence.toFixed(2)}) for "${topic}"`);
+            return { id: 'live-' + Date.now(), ...finalQuestion };
+
+        } catch (e) {
+            console.error(`Question generation attempt ${attempt + 1} failed`, e);
         }
-
-        // 2. Triple Verification -> Single Fast Verification
-        // await sleep(500); // Throttling removed for speed
-        const verification = await verifyQuestionFast(rawData);
-        if (!verification.verified || !verification.data) {
-            return null;
-        }
-
-        const verifiedData = verification.data;
-
-        // 3. Storage Optimization & Save (Backgorund)
-        enforceStorageLimit(verifiedData.topic || topic, exam);
-
-        const finalQuestion: Omit<StoredQuestion, 'id'> = {
-            ...verifiedData as StoredQuestion,
-            hash,
-            usage_count: 0,
-            accuracy_rate: 100,
-            created_at: new Date().toISOString(),
-            confidence: 0.98
-        };
-
-        // Fire and forget the save - return immediately
-        addDoc(collection(db, 'engine_questions'), finalQuestion);
-
-        return { id: 'live-' + Date.now(), ...finalQuestion };
-
-    } catch (e) {
-        console.error("Question generation/saving failed", e);
-        return null;
     }
+
+    console.error(`[QuestionEngine] All ${MAX_GEN_RETRIES + 1} generation attempts failed for ${topic}.`);
+    return null;
 };
 
 export const invalidateTopicCache = (userId: string, exam: string, topic: string) => {
@@ -259,7 +633,7 @@ const getCache = (key: string): StoredQuestion[] | null => {
         const cached = localStorage.getItem(`q_engine_cache_${key}`);
         if (cached) {
             const parsed = JSON.parse(cached);
-            if (Date.now() - parsed.timestamp < 12 * 60 * 60 * 1000) { // 12h TTL
+            if (Date.now() - parsed.timestamp < 4 * 60 * 60 * 1000) { // 4h TTL (reduced from 12h for safety)
                 return parsed.questions;
             }
         }
@@ -333,17 +707,23 @@ export const getAdaptiveQuestion = async (
 
         const snap = await getDocs(q);
         if (!snap.empty) {
-            const fetchedQuestions = snap.docs.map(doc => ({ id: doc.id, ...doc.data() } as StoredQuestion));
+            // Filter for post-audit quality: only serve questions with confidence >= 0.70
+            const allDocs = snap.docs.map(doc => ({ id: doc.id, ...doc.data() } as StoredQuestion));
+            const fetchedQuestions = allDocs.filter(q => 
+                (q.confidence === undefined || q.confidence >= 0.70) && q.question && q.correct_answer
+            );
 
-            // Populate Cache
-            setCache(cacheKey, fetchedQuestions);
+            if (fetchedQuestions.length > 0) {
+                // Populate Cache
+                setCache(cacheKey, fetchedQuestions);
 
-            const selectedQuestion = fetchedQuestions[Math.floor(Math.random() * fetchedQuestions.length)];
+                const selectedQuestion = fetchedQuestions[Math.floor(Math.random() * fetchedQuestions.length)];
 
-            // Update usage count asynchronously
-            updateDoc(doc(db, 'engine_questions', selectedQuestion.id!), { usage_count: increment(1) });
+                // Update usage count asynchronously
+                updateDoc(doc(db, 'engine_questions', selectedQuestion.id!), { usage_count: increment(1) });
 
-            return selectedQuestion;
+                return selectedQuestion;
+            }
         }
 
         // 3. If not found, Generate Live (Cache Miss)
@@ -356,7 +736,13 @@ export const getAdaptiveQuestion = async (
             finalSubject = !subjectSnap.empty ? subjectSnap.docs[0].data().subject : 'General';
         }
 
-        const generated = await generateInspiredQuestion({ exam, subject: finalSubject, topic, difficulty: targetDifficulty });
+        const generated = await generateInspiredQuestion({ 
+            exam, 
+            subject: finalSubject, 
+            topic, 
+            difficulty: targetDifficulty,
+            abilityScore 
+        });
 
         // Optionally put the generated one into cache too (or let it be found on next DB hit)
         return generated;

@@ -1,5 +1,6 @@
 import { callGroq } from './groq';
-import { callOpenAI } from './openai';
+import { callOpenAI, getOpenAIClient } from './openai';
+import { callGemini } from './gemini';
 import { buildSystemPrompt } from './systemPrompt';
 import type { UserProfile, TestResult } from './systemPrompt';
 import { getImportantMemories, extractAndSaveMemory } from './memoryExtractor';
@@ -79,7 +80,7 @@ export const askAI = async (
         fullMessages.push({ role: "user", content: question });
     }
 
-    // 3. Execution with Fallback
+    // 3. Execution with Fallback Chain: Groq → Gemini → OpenAI
     try {
         const modelId = options.modelId || (imageBase64 ? "llama-3.2-11b-vision-preview" : undefined);
         const isStream = options.stream !== false;
@@ -115,10 +116,50 @@ export const askAI = async (
                     model: modelId,
                     stream: isStream
                 });
-            } catch (groqError) {
-                console.warn("Groq failed after rotation, trying fallback...", groqError);
-                // Fallback to OpenAI
-                response = await callOpenAI(fullMessages as any, { ...options, stream: isStream });
+            } catch (groqError: any) {
+                console.warn("[AI] Groq failed, trying Gemini fallback...", groqError?.message?.slice(0, 80));
+                // Fallback 1: Gemini
+                try {
+                    response = await callGemini(fullMessages as any, {
+                        temperature: options.temperature ?? 0.7,
+                        maxOutputTokens: options.max_tokens ?? 2048,
+                        jsonMode: options.jsonMode ?? false,
+                    });
+                } catch (geminiError: any) {
+                    console.warn("[AI] Gemini fallback failed, trying OpenAI...", geminiError?.message?.slice(0, 80));
+                    // Fallback 2: OpenAI (only if key exists)
+                    if (getOpenAIClient()) {
+                        response = await callOpenAI(fullMessages as any, { ...options, stream: isStream });
+                    } else {
+                        // No OpenAI key — rethrow the original Groq error
+                        throw groqError;
+                    }
+                }
+            }
+        } else if (provider === 'gemini') {
+            try {
+                response = await callGemini(fullMessages as any, {
+                    temperature: options.temperature ?? 0.1,
+                    maxOutputTokens: options.max_tokens ?? 2048,
+                    jsonMode: options.jsonMode ?? false,
+                    model: options.modelId || 'gemini-2.0-flash'
+                });
+            } catch (geminiError: any) {
+                console.warn("[AI] Gemini failed, falling back to Groq...", geminiError?.message?.slice(0, 80));
+                try {
+                    response = await callGroq(fullMessages as any, {
+                        ...options,
+                        model: modelId,
+                        stream: isStream
+                    });
+                } catch (groqError: any) {
+                    // Last resort: OpenAI
+                    if (getOpenAIClient()) {
+                        response = await callOpenAI(fullMessages as any, { ...options, stream: isStream });
+                    } else {
+                        throw geminiError;
+                    }
+                }
             }
         } else if (provider === 'openai') {
             response = await callOpenAI(fullMessages as any, { ...options, stream: isStream });

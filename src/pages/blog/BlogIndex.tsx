@@ -55,7 +55,7 @@ export const BlogIndex: React.FC = () => {
                     )}
                 </header>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10" style={{ contentVisibility: 'auto' }}>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                     {filteredBlogs.map((blog, index) => (
                         <Link
                             to={`/blog/${blog.id}`}

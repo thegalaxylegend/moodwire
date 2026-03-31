@@ -445,14 +445,14 @@ export const MockGenerator = () => {
             }
         }
 
-        // 2. Parallel Generation Loop
+        // 2. Parallel Generation Loop (capped to prevent 429 storms)
         let attempts = 0;
-        const MAX_TOTAL_ATTEMPTS = count * 5; // Increased safety break for better reliability
+        const MAX_TOTAL_ATTEMPTS = count * 3; // Engine now has internal retries, so fewer external retries needed
 
         while (collected.length < count && attempts < MAX_TOTAL_ATTEMPTS) {
             const needed = count - collected.length;
-            // Increased batch size to 5 for faster generation
-            const batchSize = Math.min(needed, 5);
+            // Reduced batch size to 3 to avoid overwhelming API rate limits
+            const batchSize = Math.min(needed, 3);
 
             // Create a batch of promises
             const promises = Array(batchSize).fill(0).map(async (_, idx) => {
