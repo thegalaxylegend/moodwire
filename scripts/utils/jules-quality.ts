@@ -470,11 +470,7 @@ practice_link: "${post.practice_link_path}"
 
 *Last Updated: ${post.last_updated}*
 
-${recallBox}
-
 ${tocMarkdown}
-
-## <a id="what-will-come"></a>🎯 What WILL Come in Your Exam
 
 ${normalizeLaTeX(post.content.intro)}
 
@@ -483,11 +479,6 @@ ${sectionsHtml}
 ## <a id="practice-mcqs"></a>📝 Practice MCQs
 
 ${mcqsHtml}
-
-${ctaHtml}
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 `;
 }
 
@@ -513,29 +504,11 @@ export function standardizeMarkdown(markdown: string, meta: { title: string, her
     // 2. Normalize LaTeX
     body = body.replace(/\\\\\\\\([a-zA-Z])/g, '\\\\$1');
 
-    // 3. Extract Summary Box (if LLM generated it)
-    let summaryContent = "";
-    // More flexible match for summary headers
-    const summaryMatch = body.match(/## (?:🚀 )?(?:Quick Recall|Summary|Last Night Summary)[\s\S]*?(?=##|$)/i);
-    if (summaryMatch) {
-        summaryContent = summaryMatch[0].replace(/## (?:🚀 )?(?:Quick Recall|Summary|Last Night Summary)/i, '').trim();
-        // Remove it from body so we can re-place it
-        body = body.replace(summaryMatch[0], '');
-    } else {
-        // FALLBACK: If no summary box found, try to find bullet points that AREN'T just TOC links
-        const bullets = body.match(/(?:^|\n)(?:-|\*)\s+[^#\[][\s\S]*?(?=\n\n|\n##|$)/g);
-        if (bullets && bullets.length > 0) {
-            // Find first one that doesn't look like a TOC (no [Link](#anchor))
-            const realBullets = bullets.find(b => !b.includes('(#'));
-            if (realBullets) {
-                summaryContent = realBullets.trim();
-            }
-        }
-        
-        if (!summaryContent) {
-            summaryContent = "• High-yield revision guide for competitive exams.\n• Focused on exam patterns and frequent topics.\n• Peer-mentor tips and trap avoidance included.";
-        }
-    }
+    // 3. REMOVE Ayush's Note, Quick Recall, and What WILL Come sections if they exist
+    body = body.replace(/## (?:🚀 )?(?:Quick Recall|Summary|Last Night Summary)[\s\S]*?(?=##|$)/gi, '');
+    body = body.replace(/## (?:👁️ )?(?:Ayush's Note|Ayush Note|Ayush's Secret Note)[\s\S]*?(?=##|$)/gi, '');
+    body = body.replace(/## (?:🎯 )?(?:What WILL Come|What WILL Come in Your Exam)[\s\S]*?(?=##|$)/gi, '');
+    body = body.replace(/<div class="quick-summary">[\s\S]*?<\/div>/gi, '');
 
     // 4. Build TOC and Inject Anchors
     const tocItems: Array<{ title: string, id: string }> = [];
@@ -560,10 +533,6 @@ export function standardizeMarkdown(markdown: string, meta: { title: string, her
     body = body.replace(/---[\s\S]*?curated by Jules[\s\S]*?\*/gi, '').trim();
 
     // 6. Assemble
-    const summaryBox = summaryContent 
-        ? `\n<div class="quick-summary">\n\n### 🚀 Quick Recall — Last Night Summary\n\n${summaryContent}\n\n</div>\n`
-        : '';
-
     const tocMarkdown = tocItems.length > 0
         ? `\n## 📋 Table of Contents\n\n${tocItems.map(item => `- [${item.title}](#${item.id})`).join('\n')}\n`
         : '';
@@ -577,8 +546,6 @@ export function standardizeMarkdown(markdown: string, meta: { title: string, her
     const assembledBody = `![${meta.title}](${meta.heroImage})
 
 *Last Updated: ${meta.lastUpdated}*
-
-${summaryBox}
 
 ${tocMarkdown}
 

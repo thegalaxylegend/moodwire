@@ -13,34 +13,10 @@ practice_link: "/class-11/chemistry/aldehydes-ketones-and-carboxylic-acids-class
 *Last Updated: 2026-03-30*
 
 
-<div class="quick-summary">
-
-### 🚀 Quick Recall — Last Night Summary
-
-— Last Night Summary
-
-- [🎯 What WILL Come in Your Exam](#-what-will-come-in-your-exam)
-- [⚡ Formula Bank](#-formula-bank)
-- [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
-- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
-- [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
-- [👁️ Ayush's Note](#-ayushs-note)
-- [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
-- [📝 Practice MCQs](#-practice-mcqs)
-
-</div>
-
-</div>
-
-
-
 
 <div class="quick-summary">
 
-#- [📋 Table of Contents](#-table-of-contents)
-
-
-## <a id="-table-of-contents"></a>📋 Table of Contents
+### <a id="-table-of-contents"></a>📋 Table of Contents
 
 - [🎯 What WILL Come in Your Exam](#-what-will-come-in-your-exam)
 - [⚡ Formula Bank](#-formula-bank)

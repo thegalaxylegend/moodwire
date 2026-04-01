@@ -8,25 +8,22 @@ date: "2026-04-01"
 practice_link: "/class-11/mathematics/integrals-class-12-notes"
 ---
 
-![Integrals revision guide](/blog-images/integrals-class-12-notes.webp)
+![Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog-images/integrals-class-12-notes.webp)
 
 *Last Updated: 2026-04-01*
 
-## 🎯 What WILL Come in Your Exam
 
-- **Definite Integrals**: 1-2 questions on properties of definite integrals, including $\\int_{a}^{b} f(x) dx = \\int_{a}^{b} f(a+b-x) dx$ and $\\int_{a}^{b} f(x) dx = \\int_{a}^{c} f(x) dx + \\int_{c}^{b} f(x) dx$.
-- **Integration by Parts**: 1 numerical on integration by parts using the formula $\\int u \\times v' dx = u \\times v - \\int u' \\times v dx$.
-- **Integration by Partial Fractions**: 1 question on integration using partial fractions, including $\\frac{1}{x^2 - a^2}$, $\\frac{1}{x^2 + a^2}$, and $\\frac{1}{x^2 - a^2}$ types.
-- **Improper Integrals**: 1 question on improper integrals, including $\\int_{0}^{\\infty} \\frac{1}{x^2 + 1} dx$ and $\\int_{0}^{\\infty} \\frac{1}{\\sqrt{x}} dx$ types.
-- **Area Between Curves**: 1 question on finding the area between two curves using the formula $A = \\int_{a}^{b} [f(x) - g(x)] dx$.
-- **Volume of Solids**: 1 question on finding the volume of a solid using the disk method or washer method, including $V = \\pi \\int_{a}^{b} [f(x)]^2 dx$ and $V = \\pi \\int_{a}^{b} [f(x)]^2 - [g(x)]^2 dx$ types.
-- **Numericals**: 2-3 numericals on evaluating definite integrals, including $\\int_{0}^{\\pi} \\sin^2 x dx$, $\\int_{0}^{1} \\frac{1}{1 + x^2} dx$, and $\\int_{0}^{2} x \\sin x dx$ types.
-- **Graphical Questions**: 1 question on graphical representation of a function and its integral, including identifying the area between the curve and the x-axis.
-- **Properties of Integrals**: 1 question on properties of integrals, including linearity, homogeneity, and additivity, such as $\\int [af(x) + bg(x)] dx = a \\int f(x) dx + b \\int g(x) dx$.
-- **Comparison of Integrals**: 1 question on comparing the values of two or more integrals, including determining which integral is greater or lesser.
+## 📋 Table of Contents
+
+- [⚡ Formula Bank](#-formula-bank)
+- [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
+- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
+- [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
+- [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
+- [📝 Practice MCQs](#-practice-mcqs)
 
 
-## ⚡ Formula Bank
+## <a id="-formula-bank"></a>⚡ Formula Bank
 
 - **Basic Integration Formula:** $$\int a \cdot f(x) dx = a \cdot \int f(x) dx$$ — $a$ is constant, $f(x)$ is function of $x$
 
@@ -60,7 +57,7 @@ eq -1$, $C$ is constant of integration
 
 
 
-## 🪤 The 5 Mistakes That Cost Marks
+## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
 - **Mistake 1:** Forgetting to apply the constant multiple rule when integrating, which states that $\int a \cdot f(x) dx = a \cdot \int f(x) dx$. 
 
@@ -94,7 +91,7 @@ eq -1$, $C$ is constant of integration
 
 
 
-## ✏️ 3 Solved PYQs
+## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 - **Q1:** Evaluate the definite integral: $\int_{0}^{\frac{\pi}{2}} \frac{1}{\sqrt{1 + \sin x}} dx$
 
@@ -172,7 +169,7 @@ eq -1$, $C$ is constant of integration
 
 
 
-## 🧠 The One Thing Most Students Get Wrong
+## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 - **The Core Concept:** The key concept that separates 85% scorers from 95% scorers in Integrals is the application of $\frac{d}{dx}$ and $\int$ operators in the context of parametric and polar equations. Specifically, this involves recognizing when to use the formula $$\int_{a}^{b} r^2 \, d\theta = \int_{a}^{b} (x^2 + y^2) \, d\theta$$ and how it relates to finding areas and arc lengths in parametric and polar coordinates.
 
@@ -200,21 +197,7 @@ eq -1$, $C$ is constant of integration
 
 
 
-## 👁️ Ayush's Note
-
-👁️ Ayush's Note, - **The Hidden Pattern:** After analyzing 5+ years of PYQs, it's observed that Integral questions often follow a specific pattern. For $\\fracddx(\\int_a^x f(t) dt) = f(x)$, the most common $f(x)$ functions are $x^n$, $\\log(x)$, $e^ax$, $\\sin(ax+b)$, and $\\cos(ax+b)$. This is due to their elementary antiderivatives., - **How to Apply It:** For any Integral question, first identify $f(x)$. If $f(x)$ matches one of the above patterns, apply the corresponding antiderivative formula. For instance, $\\int x^n dx = \\fracx^n+1n+1 + C$, $\\int \\log(x) dx = x\\log(x) - x + C$, $\\int e^ax dx = \\frac1ae^ax + C$. For trigonometric functions, use $\\int \\sin(ax+b) dx = -\\frac1a\\cos(ax+b) + C$ and $\\int \\cos(ax+b) dx = \\frac1a\\sin(ax+b) + C$. Be cautious with the constants of integration., - **Special Case 1:** When encountering $\\int \\frac1x dx$, recall that $\\int \\frac1x dx = \\log|x| + C$. This is crucial for many logarithmic and exponential integrals., - **Special Case 2:** For $\\int e^ax \\sin(bx) dx$ or $\\int e^ax \\cos(bx) dx$, utilize integration by parts twice to simplify these into manageable components. The formula for integration by parts is $\\int u dv = uv - \\int v du$. Choose $u$ and $dv$ wisely to simplify the integral., - **Special Case 3:** For integrals involving $\\sin^2(x)$ or $\\cos^2(x)$, use the trigonometric identities $\\sin^2(x) = \\frac1 - \\cos(2x)2$ and $\\cos^2(x) = \\frac1 + \\cos(2x)2$. Then apply the standard integration techniques., - **Common Mistake:** Be mindful of the limits of integration. For definite integrals, the Fundamental Theorem of Calculus states that $\\int_a^b f(x) dx = F(b) - F(a)$, where $F(x)$ is the antiderivative of $f(x)$. Ensure to apply the correct limits to avoid calculation errors., - **Calculating Areas:** For area between curves or area under curves, identify the limits of integration and apply $A = \\int_a^b f(x) - g(x) dx$ for areas between $f(x)$ and $g(x)$, or $A = \\int_a^b f(x) dx$ for areas under $f(x)$. , Integral Type, Formula, Example , $\\int x^n dx$, $\\fracx^n+1n+1 + C$, $\\int x^2 dx = \\fracx^33 + C$ , $\\int \\log(x) dx$, $x\\log(x) - x + C$, $\\int \\log(x) dx = x\\log(x) - x + C$ , $\\int e^ax dx$, $\\frac1ae^ax + C$, $\\int e^2x dx = \\frac12e^2x + C$ , $\\int \\sin(ax+b) dx$, $-\\frac1a\\cos(ax+b) + C$, $\\int \\sin(3x+1) dx = -\\frac13\\cos(3x+1) + C$ , $\\int \\cos(ax+b) dx$, $\\frac1a\\sin(ax+b) + C$, $\\int \\cos(2x-1) dx = \\frac12\\sin(2x-1) + C$
-
-| Integral Type | Formula | Example |
-| --- | --- | --- |
-| $\int x^n dx$ | $\frac{x^{n+1}}{n+1} + C$ | $\int x^2 dx = \frac{x^3}{3} + C$ |
-| $\int \log(x) dx$ | $x\log(x) - x + C$ | $\int \log(x) dx = x\log(x) - x + C$ |
-| $\int e^{ax} dx$ | $\frac{1}{a}e^{ax} + C$ | $\int e^{2x} dx = \frac{1}{2}e^{2x} + C$ |
-| $\int \sin(ax+b) dx$ | $-\frac{1}{a}\cos(ax+b) + C$ | $\int \sin(3x+1) dx = -\frac{1}{3}\cos(3x+1) + C$ |
-| $\int \cos(ax+b) dx$ | $\frac{1}{a}\sin(ax+b) + C$ | $\int \cos(2x-1) dx = \frac{1}{2}\sin(2x-1) + C$ |
-
-
-
-## 🔁 Last 5 Minutes Box
+## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 - $\int (x^n) dx = \frac{x^{n+1}}{n+1} + C$
 
@@ -244,7 +227,7 @@ eq -1$
 
 
 
-## 📝 Practice MCQs
+## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 
 **1. What is the integral of x^2 with respect to x?**
@@ -307,3 +290,11 @@ eq -1$
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Integrals Full Mock Test**](/class-11/mathematics/integrals-class-12-notes) now and track your progress against thousands of students.
 
+
+---
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/integrals-class-12-notes) now and track your progress against thousands of students.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

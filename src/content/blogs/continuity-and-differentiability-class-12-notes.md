@@ -8,45 +8,22 @@ date: "2026-04-01"
 practice_link: "/class-11/mathematics/continuity-and-differentiability-class-12-notes"
 ---
 
-![Continuity and Differentiability revision guide](/blog-images/continuity-and-differentiability-class-12-notes.webp)
+![Continuity and Differentiability Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog-images/continuity-and-differentiability-class-12-notes.webp)
 
 *Last Updated: 2026-04-01*
 
-## 🎯 What WILL Come in Your Exam
 
-* **Continuity**: 1 numerical on checking continuity at a point — always
-* **Differentiability**: 1 numerical on checking differentiability at a point — always
-* **Relation between Continuity and Differentiability**: 
- - Proof or explanation that differentiability implies continuity — frequently asked
- - Counterexample to show continuity does not imply differentiability — expected
-* **Geometric Interpretation**: 
- - Graphical representation of a function to identify points of discontinuity — common
- - Graphical representation of a function to identify points of non-differentiability — common
-* **Types of Discontinuity**: 
- - Numerical on identifying removable discontinuity — frequent
- - Numerical on identifying jump discontinuity — frequent
- - Numerical on identifying infinite discontinuity — occasional
-* **Differentiation Rules**: 
- - Application of product rule, quotient rule, or chain rule to find derivatives — always
- - Finding derivative of a function using first principle — occasionally asked
-* **Analyzing Functions for Differentiability**: 
- - Checking differentiability of a function at a given point using LHD and RHD — frequently asked
- - Finding LHD and RHD for $f(x) = |x|$ or similar functions at $x=0$ — always
-* **Piecewise Functions**: 
- - Checking continuity and differentiability of a piecewise function at the break point — frequently asked
- - Numerical on finding the value of a constant to make a piecewise function continuous and/or differentiable — expected
-* **Graphical Questions**: 
- - $y = |x|$ and its differentiability at $x=0$ — always
- - Graphs to show the relationship between continuity and differentiability — frequently used
-* **Theorem on Differentiability**: 
- - Statement and explanation of the theorem that if a function is differentiable at a point, then it is continuous at that point — expected
- - Counterexample to show that the converse is not always true — occasionally asked
-* **Application-based Questions**: 
- - Numerical on maxima/minima using derivatives — always
- - Relation between continuity, differentiability, and monotonicity of a function — frequently asked
+## 📋 Table of Contents
+
+- [⚡ Formula Bank](#-formula-bank)
+- [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
+- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
+- [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
+- [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
+- [📝 Practice MCQs](#-practice-mcqs)
 
 
-## ⚡ Formula Bank
+## <a id="-formula-bank"></a>⚡ Formula Bank
 
 - **Continuity at a Point:** $$\lim_{x \to a} f(x) = f(a)$$ — $f(x)$ is continuous at $x = a$ if the limit of $f(x)$ as $x$ approaches $a$ is equal to $f(a)$.
 
@@ -72,7 +49,7 @@ practice_link: "/class-11/mathematics/continuity-and-differentiability-class-12-
 
 
 
-## 🪤 The 5 Mistakes That Cost Marks
+## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
 - **Mistake 1:** Forgetting to check the continuity of a function at a point before checking its differentiability.
 
@@ -108,7 +85,7 @@ eq 0$ and is undefined at $x = 0$.
 
 
 
-## ✏️ 3 Solved PYQs
+## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 - **Q1:** If $f(x) = \frac{x^2 - 4}{x - 2}$, then what is $\lim_{x \to 2} f(x)$?
 
@@ -194,7 +171,7 @@ eq \lim_{x \to 1^+} f(x)$, $f(x)$ is not continuous at $x = 1$.
 
 
 
-## 🧠 The One Thing Most Students Get Wrong
+## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 - **The Core Concept:** Continuity and differentiability are two fundamental concepts in calculus that are often misunderstood. A function $f(x)$ is said to be continuous at a point $x=a$ if $lim_{x \to a} f(x) = f(a)$. On the other hand, differentiability implies that the function is smooth and has a tangent line at the given point. 
 
@@ -218,22 +195,7 @@ eq \lim_{x \to 1^+} f(x)$, $f(x)$ is not continuous at $x = 1$.
 
 
 
-## 👁️ Ayush's Note
-
-👁️ Ayush's Note, - **The Hidden Pattern:** For a function $f(x)$ to be continuous at $x = a$, the following must hold: $$\\lim_x \\to a f(x) = f(a)$$. However, a lesser-known pattern is that for a function to be differentiable at $x = a$, it must also satisfy the condition: $$\\lim_h \\to 0 \\fracf(a + h) - f(a - h)2h = \\lim_h \\to 0 \\fracf(a + h) - f(a)h = \\lim_h \\to 0 \\fracf(a) - f(a - h)h$$, which essentially means the left-hand and right-hand derivatives must be equal., - **How to Apply It:** When given a function, first check for continuity by ensuring $$\\lim_x \\to a f(x) = f(a)$$. Then, to check differentiability, apply the formula: $$f'(a) = \\lim_h \\to 0 \\fracf(a + h) - f(a)h$$. If this limit exists, the function is differentiable at $x = a$. Additionally, for functions involving $|x|$ or $x$, analyze the behavior around the point of discontinuity by considering one-sided limits., - **Key Differentiation Formulas:**, - $$(x^n)' = nx^n-1$$ for any real number $n$, - $$(\\sin x)' = \\cos x$$, - $$(\\cos x)' = -\\sin x$$, - $$(\\tan x)' = \\sec^2 x$$, - $$(e^x)' = e^x$$, - $$(\\log x)' = \\frac1x$$, - **Solving Differentiability Questions:** Start by checking if the function is continuous. If it's not, it cannot be differentiable. If it is continuous, check for the existence of the derivative using the limit definition. Pay special attention to points where the function's formula changes, such as with piecewise functions or absolute value functions., - **Common Mistakes:** Not checking for continuity before assuming differentiability. Not applying the limit definition correctly, especially when dealing with trigonometric or exponential functions. Forgetting to consider the domain of the function and its impact on differentiability. , Function, Derivative , $x^n$, $nx^n-1$ , $\\sin x$, $\\cos x$ , $\\cos x$, $-\\sin x$ , $\\tan x$, $\\sec^2 x$ , $e^x$, $e^x$ , $\\log x$, $\\frac1x$
-
-| Function | Derivative |
-| --- | --- |
-| $x^n$ | $nx^{n-1}$ |
-| $\sin x$ | $\cos x$ |
-| $\cos x$ | $-\sin x$ |
-| $\tan x$ | $\sec^2 x$ |
-| $e^x$ | $e^x$ |
-| $\log x$ | $\frac{1}{x}$ |
-
-
-
-## 🔁 Last 5 Minutes Box
+## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 - $\lim_{x\to a} f(x) = f(a)$ for continuity at $x = a$
 
@@ -261,7 +223,7 @@ eq \lim_{x \to 1^+} f(x)$, $f(x)$ is not continuous at $x = 1$.
 
 
 
-## 📝 Practice MCQs
+## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 
 **1. If f(x) = |x|, then at x = 0, the function is**
@@ -324,3 +286,11 @@ eq \lim_{x \to 1^+} f(x)$, $f(x)$ is not continuous at $x = 1$.
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Continuity and Differentiability Full Mock Test**](/class-11/mathematics/continuity-and-differentiability-class-12-notes) now and track your progress against thousands of students.
 
+
+---
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/continuity-and-differentiability-class-12-notes) now and track your progress against thousands of students.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

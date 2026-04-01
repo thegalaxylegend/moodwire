@@ -8,29 +8,22 @@ date: "2026-04-01"
 practice_link: "/class-11/mathematics/differential-equations-class-12-notes"
 ---
 
-![Differential Equations revision guide](/blog-images/differential-equations-class-12-notes.webp)
+![Differential Equations Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog-images/differential-equations-class-12-notes.webp)
 
 *Last Updated: 2026-04-01*
 
-## 🎯 What WILL Come in Your Exam
 
-* 1 numerical on **Separable Differential Equations** — always, involving $\\frac{dy}{dx} = \\frac{f(x)}{g(y)}$.
-* **Linear Differential Equations** of the form $\\frac{dy}{dx} + Py = Q$, where P and Q are functions of x — 1-2 questions.
-* **Homogeneous Differential Equations** of the form $\\frac{dy}{dx} = \\frac{f(y)}{g(x)}$ or $\\frac{dy}{dx} = f(\\frac{y}{x})$ — always, with 1 numerical.
-* **Differential Equations of the form $y = vx$** — 1 question, where $v = \\frac{dy}{dx}$.
-* **Formation of Differential Equations** — 1 question, where a differential equation is to be formed from a given equation involving $x$ and $y$.
-* **Solution of Differential Equations using**:
- - **Separation of Variables** — always, with 1-2 questions.
- - **Integrating Factor** — always, with 1 question.
-* **Graphical Representation** of a differential equation's solution — 1 question.
-* **First Order Linear Differential Equations** with applications — 1 question, involving $\\frac{dy}{dx} + Py = Q$.
-* **Numerical on Newton's Law of Cooling** or similar application — 1 question, involving a differential equation.
-* **First Order Differential Equations** in the form $\\frac{dx}{dy} = f(x,y)$ or $\\frac{dy}{dx} = f(x,y)$ — 1 question.
-* **Short answer question on order and degree** of a differential equation — always.
-* **Modelling of real-life problems** using differential equations — 1 question.
+## 📋 Table of Contents
+
+- [⚡ Formula Bank](#-formula-bank)
+- [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
+- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
+- [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
+- [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
+- [📝 Practice MCQs](#-practice-mcqs)
 
 
-## ⚡ Formula Bank
+## <a id="-formula-bank"></a>⚡ Formula Bank
 
 - **Separable Differential Equations:** $$\frac{dy}{dx} = \frac{f(x)}{g(y)}$$ — $f(x)$ and $g(y)$ are functions of $x$ and $y$ respectively.
 
@@ -54,7 +47,7 @@ practice_link: "/class-11/mathematics/differential-equations-class-12-notes"
 
 
 
-## 🪤 The 5 Mistakes That Cost Marks
+## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
 When solving Differential Equations, students often lose marks due to the following common mistakes:
 
@@ -90,7 +83,7 @@ When solving Differential Equations, students often lose marks due to the follow
 
 
 
-## ✏️ 3 Solved PYQs
+## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 - **Q1:** The differential equation of the family of curves $y = ae^{x/a}$ is
 
@@ -166,7 +159,7 @@ When solving Differential Equations, students often lose marks due to the follow
 
 
 
-## 🧠 The One Thing Most Students Get Wrong
+## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 - **The Core Concept:** The core concept that differentiates 85% scorers from 95% scorers in Differential Equations is the **application of the Laplace Transform to solve higher-order differential equations**. This involves understanding how to apply the Laplace Transform to simplify complex differential equations into algebraic equations that can be solved more easily.
 
@@ -201,20 +194,7 @@ When solving Differential Equations, students often lose marks due to the follow
 
 
 
-## 👁️ Ayush's Note
-
-👁️ Ayush's Note, - **The Hidden Pattern:** In Differential Equations, particularly for JEE/NEET exams, it's observed that problems often involve a specific pattern related to the order and degree of the equation. For instance, if the equation is of the form $y'' + py' + qy = 0$, where $p$ and $q$ are functions of $x$, then the solution involves finding the integrating factor or using the method of undetermined coefficients. However, what's crucial to note is the interplay between the coefficients $p$ and $q$ and how they influence the type of solution one should expect., - **How to Apply It:** To apply this insight, start by identifying the order and degree of the given differential equation. Then, attempt to categorize it into one of the standard forms such as linear, separable, homogeneous, or exact. For equations of the form $y' + P(x)y = Q(x)$, use the integrating factor $e^\\int P(x) dx$. For higher-order linear equations, the method of undetermined coefficients or the use of $D$-operators can be pivotal. Remember, the key to solving differential equations efficiently lies in quickly identifying the type of equation and applying the appropriate method, often involving formulas like $y = \\frac1D^2 + 4 \\sin(2x) = \\frac1-4 + 4 \\sin(2x)$ which simplifies to $y = \\frac-14 \\int\\int \\sin(2x) dx^2$, highlighting the importance of $D$-operator notation and double integration., - **Crucial Formulas:** For revision, focus on formulas such as the solution to the differential equation $y'' + y = 0$, given by $y = c_1 \\cos(x) + c_2 \\sin(x)$, and for $y'' - y = 0$, given by $y = c_1 e^x + c_2 e^-x$. The general solution to $y'' + py' + qy = r(x)$ involves the complementary function and the particular integral, where the complementary function is the solution to $y'' + py' + qy = 0$ and the particular integral is a specific solution that depends on $r(x)$., - **Special Cases:** Be aware of special cases such as when the equation is of the form $y' = f(ax + by)$, which can be solved using the substitution $z = ax + by$, leading to $\\fracdzdx = a$ and thus $y' = \\fracdydz \\cdot \\fracdzdx = \\fracdydz \\cdot a$, simplifying the equation to $\\fracdydz = \\frac1a f(z)$. Another special case is when the equation is exact or can be made exact, where one can use the method of exact equations or the integrating factor to find the solution., - **Practice Strategies:** To maximize your score, practice solving a mix of differential equations types within a set time frame, focusing on accuracy and speed. Start with simpler separable and linear equations, then move on to higher-order linear and exact equations. Use the process of elimination for multiple-choice questions and always attempt to solve the equation to find the correct option. , Type of Differential Equation, Method of Solution , First-order linear, Integrating factor , First-order separable, Separation of variables , Higher-order linear homogeneous, Complementary function , Higher-order linear non-homogeneous, Complementary function + Particular integral
-
-| Type of Differential Equation | Method of Solution |
-| --- | --- |
-| First-order linear | Integrating factor |
-| First-order separable | Separation of variables |
-| Higher-order linear homogeneous | Complementary function |
-| Higher-order linear non-homogeneous | Complementary function + Particular integral |
-
-
-
-## 🔁 Last 5 Minutes Box
+## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 - $\frac{dy}{dx}$ = slope of the tangent to the curve at a given point.
 
@@ -242,7 +222,7 @@ When solving Differential Equations, students often lose marks due to the follow
 
 
 
-## 📝 Practice MCQs
+## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 
 **1. The order of the function y'' + 3y' + 2y = 0 is**
@@ -305,3 +285,11 @@ When solving Differential Equations, students often lose marks due to the follow
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Differential Equations Full Mock Test**](/class-11/mathematics/differential-equations-class-12-notes) now and track your progress against thousands of students.
 
+
+---
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/differential-equations-class-12-notes) now and track your progress against thousands of students.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

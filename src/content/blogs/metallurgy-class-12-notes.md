@@ -13,25 +13,10 @@ practice_link: "/class-11/chemistry/metallurgy-class-12-notes"
 *Last Updated: 2026-03-31*
 
 
+
 <div class="quick-summary">
 
-### 🚀 Quick Recall — Last Night Summary
-
-* Metallurgical processes: Pyrometallurgy, Hydrometallurgy, Electrometallurgy
-* Extraction of metals: Using the reaction $${\Delta}G = {\Delta}H - T{\Delta}S$$
-* Ellingham diagram: Used to plot the Gibbs free energy change of formation of oxides as a function of temperature
-* Reduction methods: Carbon reduction, hydrogen reduction, metal reduction
-* Refining of metals: Zone refining, van Arkel method
-* Thermodynamic principles: Application of $${\Delta}G = {\Delta}H - T{\Delta}S$$ in metallurgy
-* Electrochemical principles: Application of $$E^{\circ}_{cell} = E^{\circ}_{cathode} - E^{\circ}_{anode}$$ in metallurgy
-
-</div>
-
-
-
-## 📋 Table of Contents
-
-- [🎯 What WILL Come](#-what-will-come)
+#- [🎯 What WILL Come](#-what-will-come)
 - [📚 Detailed Revision Notes](#-detailed-revision-notes)
 - [🪤 The 5 Trap Mistakes](#-the-5-trap-mistakes)
 - [✏️ 3 Solved PYQs](#-3-solved-pyqs)

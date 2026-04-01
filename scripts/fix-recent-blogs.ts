@@ -69,36 +69,29 @@ async function fixBlogContent(body: string, title: string, category: string, ret
     .replace(/\*This post was curated by Jules[\s\S]*?\*/gi, '')
     .trim();
 
-  const prompt = `You are a top 1% JEE/NEET ranker (Ayush's senior editor). You are rewriting this blog into the "GRANDMASTER QUICK REVISION" format.
+  const prompt = `You are a top 1% JEE/NEET ranker. You are rewriting this blog into the "GRANDMASTER QUICK REVISION" format.
   
   SUBJECT: ${correctedCategory}
   TOPIC: ${title}
 
   STRICT CONTENT RULES:
-  1. NO LONG PARAGRAPHS. If a paragraph is longer than 3 lines, break it into bullet points.
-  2. SCANNABLE DEPTH: Don't just list topics. Explain the "Why" and "How" using short, punchy sentences.
+  1. NOTES FIRST: Start immediately with high-depth revision notes. NO intro filler.
+  2. NO LONG PARAGRAPHS. Use bullet points for everything.
   3. $$LaTeX$$: Every formula MUST be in LaTeX. Double-escape backslashes (e.g. \\\\frac).
-  4. VOICE: Peer mentor. Mention "I used to get confused by..." or "The trick I used was...".
+  4. DEPTH: Minimum 2,000 words. Explain "Why" and "How" for every sub-topic.
 
   MANDATORY SECTIONS (MUST GENERATE IN THIS ORDER):
 
-  1. "## 🚀 Quick Recall" — EXACTLY 5-7 high-yield bullet points summarizing the entire chapter for 5-minute revision. DO NOT SKIP.
-  
-  2. "## 🎯 What WILL Come" — Specific exam data and frequencies based on last 5 years.
-
-  3. "## 📚 Detailed Revision Notes" — This is the meat.
+  1. "## 📚 Detailed Revision Notes" — This is the main content.
      - Use ### subheadings for every sub-topic.
-     - Under each ###, provide 1-2 punchy theory sentences followed by a bulleted list of 5+ facts/properties.
+     - Under each ###, provide 2-3 punchy theory sentences followed by a massive bulleted list of facts, properties, and exceptions.
      - High-yield formulas in $$LaTeX$$.
-     - "Ayush's Pro-Tip" in italics.
 
-  4. "## 🪤 The 5 Trap Mistakes" — Format: **Mistake:** [Description] | **Fix:** [How to avoid].
+  2. "## 🪤 The 5 Trap Mistakes" — Format: **Mistake:** [Description] | **Fix:** [How to avoid].
 
-  5. "## ✏️ 3 Solved PYQs" — Step-by-step solutions for real past questions.
+  3. "## ✏️ 3 Solved PYQs" — Step-by-step solutions for real past questions.
 
-  6. "## 👁️ Ayush's Note" — A personal story or unique pattern you noticed in last 10 years of papers.
-
-  7. "## 🔁 Last 5 Minutes Box" — 3 hard formulas + 2 final traps.
+  4. "## 🔁 Last 5 Minutes Box" — 3 hard formulas + 2 final traps for immediate pre-exam look.
 
   OUTPUT: Return ONLY markdown body. No frontmatter. No intro text.
 

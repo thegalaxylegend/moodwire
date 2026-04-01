@@ -60,22 +60,19 @@ GOAL: Rank #1 on Google for "Quick Revision" & "Recap" keywords. Focus on high-y
 
 ## 3. MANDATORY STRUCTURE FOR EVERY CHAPTER NOTE
 
-Every post must have ALL of these sections:
+Every post must have ALL of these sections in this order:
 
-1. **Quick Recall Box** — 5–7 bullet summary at top. CSS class: quick-summary
-2. **Table of Contents** — Anchor IDs in raw HTML (NOT JS-injected). Min 5 sections.
-3. **Why This Chapter Matters** — Specific JEE/NEET/Board exam year data.
-   Example: "3 questions in JEE Mains 2025 Session 1 came from this topic."
-4. **Ayush's Note** — 1 personal callout box. First-person. Must include a mistake
-   Ayush made and how he fixed it. This is your E-E-A-T Experience signal.
-5. **Core Concepts** — All H2s keyword-rich. Definition sentence after each H2.
-   Tables and formulas where applicable.
-6. **Shortcut Formula / Trick** — At least 1 unique shortcut BYJU'S/Vedantu don't have.
-7. **Trap Questions / Exceptions** — Min 3 traps.
+1. **Table of Contents** — Anchor IDs in raw HTML (NOT JS-injected). Min 5 sections.
+2. **Detailed Revision Notes** — High-depth (2,000+ words).
+   - Use H3 subheadings for every sub-topic.
+   - Bulleted lists for 80% of properties/facts.
+   - High-yield LaTeX formulas.
+3. **Trap Questions / Exceptions** — Min 3 traps.
    Format: Wrong answer → Right answer → Why students get it wrong.
-8. **Practice MCQs** — 5–10 MCQs with full solutions. Mark Easy/Medium/Hard.
-9. **Related Notes Links** — Link to 2+ EXISTING posts only. Zero broken links.
-10. **Last Updated Date** — Visible at top. Format: "Last Updated: March 15, 2026"
+4. **3 Solved PYQs** — Real past exam questions with step-by-step solutions.
+5. **Practice MCQs** — 5–10 MCQs with full solutions. Mark Easy/Medium/Hard.
+6. **Last 5 Minutes Box** — 3 hard formulas + 2 final traps for immediate pre-exam look.
+7. **Last Updated Date** — Visible at top. Format: "Last Updated: March 15, 2026"
 
 ---
 

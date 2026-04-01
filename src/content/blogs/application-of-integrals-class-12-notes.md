@@ -8,25 +8,22 @@ date: "2026-04-01"
 practice_link: "/class-11/mathematics/application-of-integrals-class-12-notes"
 ---
 
-![Application of Integrals revision guide](/blog-images/application-of-integrals-class-12-notes.webp)
+![Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog-images/application-of-integrals-class-12-notes.webp)
 
 *Last Updated: 2026-04-01*
 
-## 🎯 What WILL Come in Your Exam
 
-* **Area between curves**: 1-2 numericals on finding the area between $y = f(x)$ and $y = g(x)$, always using the formula $A = \int_{a}^{b} |f(x) - g(x)| \, dx$.
-* **Area under curves**: 1 numerical on finding the area under a curve $y = f(x)$ between the limits $a$ and $b$, using the formula $A = \int_{a}^{b} f(x) \, dx$.
-* **Volume of solids**: 1 numerical on finding the volume of a solid formed by revolving a region about the x-axis, using the formula $V = \pi \int_{a}^{b} [f(x)]^2 \, dx$.
-* **Surface area of solids**: 1 numerical on finding the surface area of a solid formed by revolving a region about the x-axis, using the formula $S = 2\pi \int_{a}^{b} f(x) \sqrt{1 + [f'(x)]^2} \, dx$.
-* **Centre of mass**: 1 numerical on finding the centre of mass of a lamina, using the formulas $\bar{x} = \frac{\int_{a}^{b} x \cdot f(x) \, dx}{\int_{a}^{b} f(x) \, dx}$ and $\bar{y} = \frac{\int_{a}^{b} \frac{1}{2} [f(x)]^2 \, dx}{\int_{a}^{b} f(x) \, dx}$.
-* **Moment of inertia**: 1 numerical on finding the moment of inertia of a lamina about the x-axis, using the formula $I_x = \int_{a}^{b} \frac{1}{3} [f(x)]^3 \, dx$.
-* **Graphical questions**: 1-2 questions on graphing $y = \int_{a}^{x} f(t) \, dt$, including finding the area under the curve and the volume of the solid formed by revolving the region about the x-axis.
-* **Definite integral properties**: 1-2 numericals on using the properties of definite integrals, such as $\int_{a}^{b} f(x) \, dx = \int_{a}^{c} f(x) \, dx + \int_{c}^{b} f(x) \, dx$ and $\int_{a}^{b} f(x) \, dx = -\int_{b}^{a} f(x) \, dx$.
-* **Improper integrals**: 1 numerical on evaluating an improper integral, such as $\int_{0}^{\infty} \frac{1}{x^2 + 1} \, dx$ or $\int_{-\infty}^{0} \frac{1}{x^2} \, dx$.
-* **Applications of integrals in physics**: 1-2 numericals on using integrals to solve physics problems, such as finding the work done by a variable force or the centre of mass of a system of particles.
+## 📋 Table of Contents
+
+- [⚡ Formula Bank](#-formula-bank)
+- [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
+- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
+- [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
+- [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
+- [📝 Practice MCQs](#-practice-mcqs)
 
 
-## ⚡ Formula Bank
+## <a id="-formula-bank"></a>⚡ Formula Bank
 
 - **Area Between Two Curves:** $$\int_{a}^{b} [f(x) - g(x)] \,dx$$ — $f(x)$ and $g(x)$ are the two curves, $a$ and $b$ are the limits of integration.
 
@@ -54,7 +51,7 @@ practice_link: "/class-11/mathematics/application-of-integrals-class-12-notes"
 
 
 
-## 🪤 The 5 Mistakes That Cost Marks
+## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
 - **Mistake 1:** Incorrectly applying the formula for the area between two curves, $A = \int_{a}^{b} (f(x) - g(x)) \, dx$, where $f(x) \geq g(x)$ in $[a, b]$.
 
@@ -88,7 +85,7 @@ practice_link: "/class-11/mathematics/application-of-integrals-class-12-notes"
 
 
 
-## ✏️ 3 Solved PYQs
+## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 - **Q1:** Find the area of the region bounded by the curve $y = \frac{1}{x}$, the x-axis, and the lines $x = 1$ and $x = 4$.
 
@@ -134,7 +131,7 @@ practice_link: "/class-11/mathematics/application-of-integrals-class-12-notes"
 
 
 
-## 🧠 The One Thing Most Students Get Wrong
+## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 - **The Core Concept:** The core concept that separates 85% scorers from 95% scorers in the Application of Integrals is the ability to identify and apply the correct method for finding the volume of solids of revolution. This involves understanding the disk method, washer method, shell method, and their respective applications.
 
@@ -172,20 +169,7 @@ practice_link: "/class-11/mathematics/application-of-integrals-class-12-notes"
 
 
 
-## 👁️ Ayush's Note
-
-👁️ Ayush's Note, - **The Hidden Pattern:** After analyzing 5+ years of PYQs, it's evident that the application of integrals can be broadly categorized into two types: $y = f(x)$ and $x = f(y)$. For $y = f(x)$, the area between the curve and the x-axis is given by $$\\int_a^b y \\cdot dx = \\int_a^b f(x) \\cdot dx$$, while for $x = f(y)$, the area is given by $$\\int_c^d x \\cdot dy = \\int_c^d f(y) \\cdot dy$$., - **How to Apply It:** To apply this pattern, first identify the type of function given. If it's $y = f(x)$, use the formula $$\\int_a^b y \\cdot dx$$ to calculate the area. If it's $x = f(y)$, use $$\\int_c^d x \\cdot dy$$. Additionally, pay attention to the limits of integration, as they can change based on the function. For example, if the function is $y = x^2$, the area between the curve and the x-axis from $x = 0$ to $x = 2$ is given by $$\\int_0^2 x^2 \\cdot dx = \\left\\fracx^33\\right_0^2 = \\frac83$$., - **Area Between Two Curves:** The area between two curves $y = f(x)$ and $y = g(x)$ from $x = a$ to $x = b$ is given by $$\\int_a^b |f(x) - g(x)| \\cdot dx$$. This formula can be used to find the area between two curves, regardless of their position relative to each other., - **Volume of Solids:** The volume of a solid formed by rotating a region about the x-axis is given by $$V = \\pi \\int_a^b f(x)^2 \\cdot dx$$, while the volume formed by rotating a region about the y-axis is given by $$V = \\pi \\int_c^d f(y)^2 \\cdot dy$$., - **Surface Area:** The surface area of a solid formed by rotating a region about the x-axis is given by $$S = 2\\pi \\int_a^b f(x) \\cdot \\sqrt1 + \\left(\\fracdydx\\right)^2 \\cdot dx$$, while the surface area formed by rotating a region about the y-axis is given by $$S = 2\\pi \\int_c^d f(y) \\cdot \\sqrt1 + \\left(\\fracdxdy\\right)^2 \\cdot dy$$. , Topic, Formula, Description , Area Under Curve, $$\\int_a^b y \\cdot dx$$, Area between the curve and the x-axis , Area Between Two Curves, $$\\int_a^b |f(x) - g(x)| \\cdot dx$$, Area between two curves , Volume of Solids, $$V = \\pi \\int_a^b f(x)^2 \\cdot dx$$, Volume formed by rotating a region about the x-axis , Surface Area, $$S = 2\\pi \\int_a^b f(x) \\cdot \\sqrt1 + \\left(\\fracdydx\\right)^2 \\cdot dx$$, Surface area formed by rotating a region about the x-axis
-
-| Topic | Formula | Description |
-| --- | --- | --- |
-| Area Under Curve | $$\int_{a}^{b} y \\cdot dx$$ | Area between the curve and the x-axis |
-| Area Between Two Curves | $$\int_{a}^{b} |f(x) - g(x)| \\cdot dx$$ | Area between two curves |
-| Volume of Solids | $$V = \pi \int_{a}^{b} [f(x)]^2 \\cdot dx$$ | Volume formed by rotating a region about the x-axis |
-| Surface Area | $$S = 2\pi \int_{a}^{b} f(x) \\cdot \sqrt{1 + \left(\frac{dy}{dx}\right)^2} \\cdot dx$$ | Surface area formed by rotating a region about the x-axis |
-
-
-
-## 🔁 Last 5 Minutes Box
+## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 - $\int_{a}^{b} f(x) dx = \lim_{h \to 0} \sum_{i=1}^{n} f(x_i) \Delta x$ is the definition of a definite integral.
 
@@ -213,7 +197,7 @@ practice_link: "/class-11/mathematics/application-of-integrals-class-12-notes"
 
 
 
-## 📝 Practice MCQs
+## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 
 **1. The area enclosed by the curve y = x^2, x-axis, and the lines x = 0 and x = 2 is**
@@ -276,3 +260,11 @@ practice_link: "/class-11/mathematics/application-of-integrals-class-12-notes"
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Application of Integrals Full Mock Test**](/class-11/mathematics/application-of-integrals-class-12-notes) now and track your progress against thousands of students.
 
+
+---
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/application-of-integrals-class-12-notes) now and track your progress against thousands of students.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
