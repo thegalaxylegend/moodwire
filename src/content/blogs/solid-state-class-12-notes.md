@@ -8,11 +8,51 @@ date: "2026-03-31"
 practice_link: "/class-11/chemistry/solid-state-class-12-notes"
 ---
 
-![Solid State revision guide](/blog-images/solid-state-class-12-notes.webp)
+![Solid State Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/solid-state-class-12-notes.webp)
 
 *Last Updated: 2026-03-31*
 
-## 🎯 What WILL Come in Your Exam
+
+<div class="quick-summary">
+
+### 🚀 Quick Recall — Last Night Summary
+
+— Last Night Summary
+
+- [🎯 What WILL Come in Your Exam](#-what-will-come-in-your-exam)
+- [⚡ Formula Bank](#-formula-bank)
+- [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
+- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
+- [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
+- [👁️ Ayush's Note](#-ayushs-note)
+- [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
+- [📝 Practice MCQs](#-practice-mcqs)
+
+</div>
+
+</div>
+
+
+
+
+<div class="quick-summary">
+
+#- [📋 Table of Contents](#-table-of-contents)
+
+
+## <a id="-table-of-contents"></a>📋 Table of Contents
+
+- [🎯 What WILL Come in Your Exam](#-what-will-come-in-your-exam)
+- [⚡ Formula Bank](#-formula-bank)
+- [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
+- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
+- [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
+- [👁️ Ayush's Note](#-ayushs-note)
+- [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
+- [📝 Practice MCQs](#-practice-mcqs)
+
+
+## <a id="-what-will-come-in-your-exam"></a>🎯 What WILL Come in Your Exam
 
 * 1-2 **short answer questions** on crystal lattices — always: lattice parameters, unit cell, packing fractions
 * **Numericals** on density of crystal lattice — always: given lattice parameter, find density
@@ -29,7 +69,7 @@ practice_link: "/class-11/chemistry/solid-state-class-12-notes"
 * 1 **numerical** on calculation of lattice energy using Kapustinskii equation — always: $E = \\frac{\\alpha M z^+ z^-}{4\\pi \\epsilon_0 R_0} \\left( 1 - \\frac{34.5}{R_0} \\right)$
 
 
-## ⚡ Formula Bank
+## <a id="-formula-bank"></a>⚡ Formula Bank
 
 - **Density of Crystal Lattice:** $$\rho = \frac{Z \	imes M}{N_A \	imes a^3}$$ — $\rho$ = density, $Z$ = number of atoms per unit cell, $M$ = molar mass, $N_A$ = Avogadro's number, $a$ = edge length of unit cell.
 
@@ -73,7 +113,7 @@ u$ = frequency of radiation.
 
 
 
-## 🪤 The 5 Mistakes That Cost Marks
+## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
 - **Mistake 1:** Incorrectly calculating the packing efficiency of a crystal lattice.
 
@@ -107,7 +147,7 @@ u$ = frequency of radiation.
 
 
 
-## ✏️ 3 Solved PYQs
+## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 - **Q1:** What is the distance between the 100th and 101st layers of a cubic crystal, given that the edge length of the unit cell is 400 pm?
 
@@ -179,7 +219,7 @@ u$ = frequency of radiation.
 
 
 
-## 🧠 The One Thing Most Students Get Wrong
+## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 - **The Core Concept:** The concept of **lattice energy** and its relation to the **stability of ionic solids**. Lattice energy is the energy released when ions in the gaseous state come together to form a solid ionic compound, and it can be calculated using the formula: $U = \frac{A}{4\pi \epsilon_0} \	imes \frac{z^+z^-}{r^+ + r^-} (1 - \frac{1}{n})$, where $U$ is the lattice energy, $A$ is a constant, $\epsilon_0$ is the permittivity of free space, $z^+$ and $z^-$ are the charges on the ions, $r^+$ and $r^-$ are the radii of the ions, and $n$ is a constant that depends on the type of crystal lattice.
 
@@ -198,109 +238,13 @@ u$ = frequency of radiation.
  * Understanding of the relationship between lattice energy and other physical properties of ionic solids
 
 | Property | Lattice Energy | Hydration Energy | Electron Gain Enthalpy |
-| --- | --- | --- | --- |
-| Definition | Energy released when ions come together to form a solid | Energy released when ions interact with water molecules | Energy released when an electron is added to an atom |
-| Formula | $U = \frac{A}{4\pi \epsilon_0} \times \frac{z^+z^-}{r^+ + r^-} (1 - \frac{1}{n})$ | $\Delta H_{hydration} = \frac{z^+z^-}{r^+ + r^-}$ | $\Delta H_{electron\ gain} = -\frac{z^2}{2r}$ |
-| Units | kJ/mol | kJ/mol | kJ/mol |
-
-
-
-## 👁️ Ayush's Note
-
-👁️ Ayush's Note, - **The Hidden Pattern:** In solid state, the most frequently asked topic is the calculation of the number of atoms per unit cell, which can be determined using the formula: $\\fracn \\times \\rho \\times N_AM$, where n is the number of atoms per unit cell, \\rho is the density, $N_A$ is the Avogadro's number, and M is the molar mass. This formula is often used in conjunction with the relationship between the lattice parameter (a) and the radius of the atom (r): $a = 2r$ for a simple cubic lattice, $a = 2r\\sqrt2$ for a face-centered cubic lattice, and $a = 2r\\sqrt3$ for a body-centered cubic lattice., - **How to Apply It:** To apply this pattern, first identify the type of lattice and the given parameters. Then, use the formula to calculate the number of atoms per unit cell. For example, if the density of a metal is given as $\\rho = 10.5 \\times 10^3 kg/m^3$, the molar mass is $M = 63.5 g/mol$, and the lattice parameter is $a = 4.08 \\times 10^-10 m$, we can calculate the number of atoms per unit cell (n) using the formula: $n = \\fraca^3 \\times \\rho \\times N_AM$. This will give us the value of n, which can be used to determine the type of lattice., - **Calculating Lattice Parameter:** The lattice parameter can be calculated using the formula: $a = \\fracn \\times M\\rho \\times N_A$. This formula can be rearranged to solve for n: $n = \\fraca^3 \\times \\rho \\times N_AM$., - **Important Formulas:** The following formulas are essential for solving solid state problems: $$\\frac1d^2 = \\frach^2 + k^2 + l^2a^2$$, where d is the distance between two planes, and h, k, and l are the Miller indices. Another important formula is: $$\\frac1\\rho = \\fracVm = \\fraca^3n \\times M / N_A$$, where V is the volume of the unit cell, m is the mass of the unit cell, and $N_A$ is the Avogadro's number., - **Miller Indices:** The Miller indices are used to determine the orientation of a plane in a crystal lattice. The formula to calculate the distance between two planes is: $d = \\fraca\\sqrth^2 + k^2 + l^2$. The Miller indices are also used to determine the interplanar spacing, which is given by: $d_hkl = \\fraca\\sqrth^2 + k^2 + l^2$., - **X-Ray Diffraction:** The X-ray diffraction technique is used to determine the crystal structure of a material. The Bragg's law is used to calculate the wavelength of the X-rays: $$2d \\sin(\\theta) = n\\lambda$$, where d is the distance between two planes, \\theta is the angle of incidence, n is the order of diffraction, and \\lambda is the wavelength of the X-rays. , Lattice Type, Lattice Parameter (a), Number of Atoms per Unit Cell (n) , Simple Cubic, a = 2r, n = 1 , Face-Centered Cubic, a = 2r\\sqrt2, n = 4 , Body-Centered Cubic, a = 2r\\sqrt3, n = 2
-
-| Lattice Type | Lattice Parameter (a) | Number of Atoms per Unit Cell (n) |
-| --- | --- | --- |
-| Simple Cubic | a = 2r | n = 1 |
-| Face-Centered Cubic | a = 2r\sqrt{2} | n = 4 |
-| Body-Centered Cubic | a = 2r\sqrt{3} | n = 2 |
-
-
-
-## 🔁 Last 5 Minutes Box
-
-- $a = 2r$ for a cubic unit cell where $r$ is the radius of the atom.
-
- - $\frac{a^3}{4 \	imes \frac{4}{3} \pi r^3}$ gives the packing density of a cubic unit cell.
-
- - $Z = \frac{V}{a^3}$ is not a correct formula; instead, the correct formula for the number of atoms per unit cell is specific to each type of unit cell (e.g., $Z = 1$ for a simple cubic unit cell, $Z = 4$ for a face-centered cubic unit cell, $Z = 2$ for a body-centered cubic unit cell).
-
- - $\rho = \frac{Z \	imes M}{N_A \	imes a^3}$ relates the density of a solid to its unit cell parameters, where $\rho$ is density, $Z$ is the number of atoms per unit cell, $M$ is the molar mass, $N_A$ is Avogadro's number, and $a$ is the edge length of the unit cell.
-
- - For a face-centered cubic (FCC) lattice, the relationship between the edge length $a$ and the radius $r$ of the atoms is given by $a = 2\sqrt{2}r$.
-
- - Key fact: Solids can be classified into crystalline, polycrystalline, and amorphous solids based on the arrangement of their constituent particles.
-
- - Key fact: The crystal lattice can be described in terms of its unit cell, which is the smallest three-dimensional portion of a crystal lattice that can be repeated to form the entire lattice.
-
- - Key fact: X-ray diffraction is a technique used to determine the crystal structure of a solid by analyzing how X-rays scatter off the electrons in the crystal lattice.
-
- - Common mistake: Confusing the number of atoms per unit cell (Z) with the coordination number, which is the number of nearest neighbors to a particular atom in the crystal lattice.
-
- - Common mistake: Forgetting that the packing efficiency of different crystal structures (such as simple cubic, body-centered cubic, and face-centered cubic) varies, with face-centered cubic having the highest packing efficiency of about 74%
-
-
-
-## 📝 Practice MCQs
-
-
-**1. What is the coordination number of an atom in a simple cubic unit cell?**
-
-- A) 6
-- B) 8
-- C) 4
-- D) 12
-
-**Answer:** B) In a simple cubic unit cell, each atom is surrounded by 8 nearest neighbors, hence the coordination number is 8.
-
----
-
-**2. Which of the following solids is an example of a molecular solid?**
-
-- A) NaCl
-- B) Ice
-- C) SiO2
-- D) Cu
-
-**Answer:** B) Ice is an example of a molecular solid, where the molecules are held together by weak intermolecular forces like hydrogen bonding.
-
----
-
-**3. What is the type of crystal defect that occurs when an ion is missing from its lattice site?**
-
-- A) Schottky defect
-- B) Frenkel defect
-- C) Interstitial defect
-- D) Vacancy defect
-
-**Answer:** A) A Schottky defect occurs when an equal number of cations and anions are missing from their lattice sites, resulting in a stoichiometric defect.
-
----
-
-**4. Which of the following statements is true about the band gap in a semiconductor?**
-
-- A) It is the energy required to excite an electron from the valence band to the conduction band
-- B) It is the energy released when an electron falls from the conduction band to the valence band
-- C) It is the energy required to break a covalent bond
-- D) It is the energy released when a photon is absorbed
-
-**Answer:** A) The band gap is the energy required to excite an electron from the valence band to the conduction band, and it is a characteristic property of a semiconductor.
-
----
-
-**5. What is the type of crystal structure that has a face-centered cubic arrangement of atoms?**
-
-- A) Body-centered cubic
-- B) Face-centered cubic
-- C) Hexagonal close-packed
-- D) Simple cubic
-
-**Answer:** B) A face-centered cubic arrangement of atoms has atoms at the corners of the cube and at the center of each face, resulting in a close-packed structure.
-
+|
 
 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Solid State Full Mock Test**](/class-11/chemistry/solid-state-class-12-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/solid-state-class-12-notes) now and track your progress against thousands of students.
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

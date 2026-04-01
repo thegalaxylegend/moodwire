@@ -825,7 +825,7 @@ async function generateBlogs() {
                         console.log(`  🧹 Auto-sanitized "${phrase}" from intro`);
                     }
                     for (const sec of assembled.content.sections) {
-                        if (regex.test(sec.body)) {
+                        if (typeof sec.body === 'string' && regex.test(sec.body)) {
                             sec.body = sec.body.replace(regex, '');
                             console.log(`  🧹 Auto-sanitized "${phrase}" from section: ${sec.heading}`);
                         }
@@ -834,7 +834,9 @@ async function generateBlogs() {
                 // Clean up double-spaces left by removal
                 assembled.content.intro = assembled.content.intro.replace(/  +/g, ' ').trim();
                 for (const sec of assembled.content.sections) {
-                    sec.body = sec.body.replace(/  +/g, ' ').trim();
+                    if (typeof sec.body === 'string') {
+                        sec.body = sec.body.replace(/  +/g, ' ').trim();
+                    }
                 }
 
                 // --- QUALITY CHECK GATE ---

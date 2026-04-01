@@ -86,7 +86,53 @@ const CHAPTER_TO_SUBJECT: Record<string, string> = {
     "Computer Organization": "Computer Science",
     "Digital Logic": "Computer Science",
     "Data Structures": "Computer Science",
-    "Algorithms": "Computer Science"
+    "Algorithms": "Computer Science",
+    "Electrostatics": "Physics",
+    "Current Electricity": "Physics",
+    "Magnetism": "Physics",
+    "Optics": "Physics",
+    "Atoms": "Physics",
+    "Nuclei": "Physics",
+    "Thermodynamics": "Physics",
+    "Kinematics": "Physics",
+    "Rotational Motion": "Physics",
+    "Solid State": "Chemistry",
+    "Solutions": "Chemistry",
+    "Electrochemistry": "Chemistry",
+    "Chemical Kinetics": "Chemistry",
+    "Surface Chemistry": "Chemistry",
+    "Metallurgy": "Chemistry",
+    "p-Block": "Chemistry",
+    "d-Block": "Chemistry",
+    "f-Block": "Chemistry",
+    "Coordination Compounds": "Chemistry",
+    "Haloalkanes": "Chemistry",
+    "Phenols": "Chemistry",
+    "Aldehydes": "Chemistry",
+    "Amines": "Chemistry",
+    "Biomolecules": "Chemistry",
+    "Polymers": "Chemistry",
+    "Sets": "Mathematics",
+    "Relations and Functions": "Mathematics",
+    "Trigonometry": "Mathematics",
+    "Induction": "Mathematics",
+    "Complex Numbers": "Mathematics",
+    "Inequalities": "Mathematics",
+    "Permutations": "Mathematics",
+    "Binomial": "Mathematics",
+    "Sequences": "Mathematics",
+    "Straight Lines": "Mathematics",
+    "Conic Sections": "Mathematics",
+    "Limits": "Mathematics",
+    "Derivatives": "Mathematics",
+    "Statistics": "Mathematics",
+    "Probability": "Mathematics",
+    "Matrices": "Mathematics",
+    "Determinants": "Mathematics",
+    "Calculus": "Mathematics",
+    "Integrals": "Mathematics",
+    "Differential Equations": "Mathematics",
+    "Vectors": "Mathematics"
 };
 
 export function checkBlogQuality(post: BlogPostJSON): QualityReport {
@@ -113,7 +159,7 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
     // Auto-fix: Subject correction
     let matchedSubject = "";
     for (const [key, sub] of Object.entries(CHAPTER_TO_SUBJECT)) {
-        if (post.chapter_name.includes(key) || post.title.includes(key)) {
+        if (post.chapter_name.toLowerCase().includes(key.toLowerCase()) || post.title.toLowerCase().includes(key.toLowerCase())) {
             matchedSubject = sub;
             break;
         }
@@ -155,7 +201,7 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
             report.auto_fixed.push({ field: 'intro_phrase', old: phrase, new: '[removed]' });
         }
         for (const sec of post.content.sections) {
-            if (regex.test(sec.body)) {
+            if (typeof sec.body === 'string' && regex.test(sec.body)) {
                 sec.body = sec.body.replace(regex, '').replace(/  +/g, ' ').trim();
                 report.auto_fixed.push({ field: `section_phrase:${sec.heading}`, old: phrase, new: '[removed]' });
             }
@@ -316,13 +362,11 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
 }
 
 export function jsonToMarkdown(post: BlogPostJSON): string {
-    // Dynamic target year
     const now = new Date();
     const currentYear = Number(now.getFullYear());
     const currentMonth = now.getMonth();
     const targetYear = currentMonth >= 7 ? currentYear + 1 : currentYear;
 
-    // SEO-optimized description (not truncated intro)
     const SUBJECT_EXAM_DESC: Record<string, string> = {
         'Physics': 'JEE & NEET', 'Chemistry': 'JEE & NEET',
         'Mathematics': 'JEE', 'Biology': 'NEET',
@@ -345,103 +389,74 @@ export function jsonToMarkdown(post: BlogPostJSON): string {
         `Accelerate your ${post.subject} revision with our ${post.chapter_name} guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success.`,
         `Learn ${post.chapter_name} like a pro. Detailed revision notes, solved examples, and "Trap Questions" that most students miss. Updated for the ${targetYear} syllabus.`
     ];
-    // Stable hash based on topic
     const hash = post.chapter_name.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
     const seoDesc = templates[hash % templates.length];
-
-    // CRITICAL: Update the object so YAML uses the new title
     post.title = seoTitle;
 
-    // SEO keywords
-    const SUBJECT_KW_EXAMS: Record<string, string[]> = {
-        'Physics': ['JEE', 'NEET'], 'Chemistry': ['JEE', 'NEET'],
-        'Mathematics': ['JEE'], 'Biology': ['NEET'],
-        'Computer Science': ['GATE'],
-        'Science': ['CBSE'], 'Social Science': ['CBSE'], 'English': ['CBSE']
-    };
-    const exams = SUBJECT_KW_EXAMS[post.subject] || ['CBSE'];
-    const kwParts = [
-        `${post.chapter_name} class ${post.exam_class} notes`,
-        `${post.chapter_name} quick revision`,
-        `${post.chapter_name} ${targetYear}`,
-        ...exams.map(e => `${post.chapter_name} ${e} ${targetYear}`),
-        ...exams.map(e => `${post.chapter_name} notes for ${e}`),
-        `class ${post.exam_class} ${post.subject} revision`,
-        `${post.chapter_name} formula sheet`,
-        `${post.chapter_name} MCQs`
-    ];
-
-    // Helper: normalize LaTeX in a string for markdown output
-    // After JSON.parse, LaTeX like \\frac becomes \frac (correct for markdown)
-    // But if double-escaped by both LLM AND our parser, we get \\frac in the string
-    // which renders as literal \frac text. Normalize to single backslash.
     function normalizeLaTeX(text: string): string {
         if (!text) return '';
-        // Replace \\\\command with \\command (over-escaped LaTeX)
         let result = text.replace(/\\\\\\\\([a-zA-Z])/g, '\\\\$1');
-        // Ensure line breaks are actual newlines for markdown
         result = result.replace(/\\n/g, '\n');
         return result;
     }
 
-    // Helper: check if a table is valid (not empty rows/headers)
     function isValidTable(table: any): boolean {
         if (!table) return false;
         if (!Array.isArray(table.headers) || table.headers.length === 0) return false;
-        if (table.headers.every((h: string) => !h || h.trim() === '')) return false;
         if (!Array.isArray(table.rows) || table.rows.length === 0) return false;
-        // Check if all rows are empty
-        const hasContent = table.rows.some((row: any) => 
-            Array.isArray(row) && row.some((cell: string) => cell && cell.trim() !== '')
-        );
-        return hasContent;
+        return table.rows.some((row: any) => Array.isArray(row) && row.some((cell: string) => cell && cell.trim() !== ''));
     }
+
+    function slugify(text: string): string {
+        return text.toLowerCase().replace(/[^\w ]+/g, '').replace(/ +/g, '-');
+    }
+
+    // 1. Generate TOC
+    const tocItems = [
+        { title: "🎯 What WILL Come in Your Exam", id: "what-will-come" },
+        ...(post.content?.sections || []).map(s => ({ title: s.heading, id: slugify(s.heading) })),
+        { title: "📝 Practice MCQs", id: "practice-mcqs" }
+    ];
+    const tocMarkdown = `\n## 📋 Table of Contents\n\n${tocItems.map(item => `- [${item.title}](#${item.id})`).join('\n')}\n`;
+
+    // 2. Quick Recall (Summary Box)
+    const recallBox = post.content.quick_recall && post.content.quick_recall.length > 0 
+        ? `\n<div class="quick-summary">\n\n### 🚀 Quick Recall — Last Night Summary\n\n${post.content.quick_recall.map(point => `- ${normalizeLaTeX(point)}`).join('\n')}\n\n</div>\n`
+        : '';
 
     const sectionsHtml = (post.content?.sections || []).map(sec => {
         const heading = sec.heading || '';
+        const id = slugify(heading);
         let body = normalizeLaTeX(sec.body || '');
-        
-        // Ensure body has proper paragraph breaks (double newline)
-        // Replace single \n with double \n for markdown paragraph breaks
         body = body.replace(/([^\n])\n([^\n])/g, '$1\n\n$2');
-        
-        // Format table if valid
         let tableStr = '';
         if (isValidTable(sec.table)) {
             const headers = (sec.table!.headers || []).map((h: string) => normalizeLaTeX(h));
-            const rows = (sec.table!.rows || [])
-                .filter((row: any) => Array.isArray(row) && row.some((c: string) => c && c.trim()))
-                .map((row: any) => row.map((cell: string) => normalizeLaTeX(cell || '')));
-            
-            if (rows.length > 0) {
-                tableStr = `\n| ${headers.join(' | ')} |\n| ${headers.map(() => '---').join(' | ')} |\n${rows.map((row: string[]) => `| ${row.join(' | ')} |`).join('\n')}\n`;
-            }
+            const rows = (sec.table!.rows || []).map((row: any) => row.map((cell: string) => normalizeLaTeX(cell || '')));
+            tableStr = `\n| ${headers.join(' | ')} |\n| ${headers.map(() => '---').join(' | ')} |\n${rows.map((row: string[]) => `| ${row.join(' | ')} |`).join('\n')}\n`;
         }
-
-        return `\n## ${heading}\n\n${body}\n${tableStr}\n`;
+        return `\n## <a id="${id}"></a>${heading}\n\n${body}\n${tableStr}\n`;
     }).join('\n');
 
-    const recallHtml = (post.content?.quick_recall || []).map(point => `- ${normalizeLaTeX(point)}`).join('\n');
     const mcqsHtml = (post.content?.mcqs || []).map((mcq, i) => {
-        const optionsArr = Array.isArray(mcq.options) 
-            ? mcq.options 
-            : (typeof mcq.options === 'string' ? (mcq.options as string).split('\n') : []);
-
-        const formattedOptions = optionsArr
-            .map((opt: string, idx: number) => {
-                const letter = String.fromCharCode(65 + idx); // A, B, C, D
-                // If option already starts with A), B) etc. don't add again
-                const cleanOpt = opt.replace(/^[A-D]\)\s*/, '').trim();
-                return `- ${letter}) ${normalizeLaTeX(cleanOpt)}`;
-            })
-            .join('\n');
-
+        const optionsArr = Array.isArray(mcq.options) ? mcq.options : [];
+        const formattedOptions = optionsArr.map((opt: string, idx: number) => {
+            const letter = String.fromCharCode(65 + idx);
+            return `- ${letter}) ${normalizeLaTeX(opt.replace(/^[A-D]\)\s*/, ''))}`;
+        }).join('\n');
         return `\n**${i + 1}. ${normalizeLaTeX(mcq.question)}**\n\n${formattedOptions}\n\n**Answer:** ${mcq.answer}) ${normalizeLaTeX(mcq.answer_text)}\n`;
     }).join('\n---\n');
 
     const ctaHtml = `\n---\n\n### 🚀 Ready to Ace Your Exam?\nPut your knowledge to the test! Take the free [**${post.chapter_name} Full Mock Test**](${post.practice_link_path}) now and track your progress against thousands of students.\n`;
 
-    const yaml = `---
+    const kwParts = [
+        `${post.chapter_name} class ${post.exam_class} notes`,
+        `${post.chapter_name} quick revision`,
+        `${post.chapter_name} ${targetYear}`,
+        `class ${post.exam_class} ${post.subject} revision`
+    ];
+
+    return `---
 heroImage: "${post.hero_image}"
 title: "${post.title}"
 description: "${seoDesc}"
@@ -455,17 +470,121 @@ practice_link: "${post.practice_link_path}"
 
 *Last Updated: ${post.last_updated}*
 
-## 🎯 What WILL Come in Your Exam
+${recallBox}
+
+${tocMarkdown}
+
+## <a id="what-will-come"></a>🎯 What WILL Come in Your Exam
 
 ${normalizeLaTeX(post.content.intro)}
 
 ${sectionsHtml}
 
-## 📝 Practice MCQs
+## <a id="practice-mcqs"></a>📝 Practice MCQs
 
 ${mcqsHtml}
 
 ${ctaHtml}
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 `;
-    return yaml;
+}
+
+/**
+ * Robustly ensures a markdown string follows the Grandmaster structure:
+ * 1. Image
+ * 2. Last Updated
+ * 3. Quick Summary Box (Recall)
+ * 4. Table of Contents
+ * 5. Content with Anchors
+ * 6. CTA / Footer
+ */
+export function standardizeMarkdown(markdown: string, meta: { title: string, heroImage: string, lastUpdated: string, practiceLink: string }): string {
+    // 1. Separate Frontmatter if present
+    let body = markdown;
+    let frontmatter = '';
+    const fmMatch = markdown.match(/^---[\s\S]*?---\n*/);
+    if (fmMatch) {
+        frontmatter = fmMatch[0];
+        body = markdown.replace(frontmatter, '');
+    }
+
+    // 2. Normalize LaTeX
+    body = body.replace(/\\\\\\\\([a-zA-Z])/g, '\\\\$1');
+
+    // 3. Extract Summary Box (if LLM generated it)
+    let summaryContent = "";
+    // More flexible match for summary headers
+    const summaryMatch = body.match(/## (?:🚀 )?(?:Quick Recall|Summary|Last Night Summary)[\s\S]*?(?=##|$)/i);
+    if (summaryMatch) {
+        summaryContent = summaryMatch[0].replace(/## (?:🚀 )?(?:Quick Recall|Summary|Last Night Summary)/i, '').trim();
+        // Remove it from body so we can re-place it
+        body = body.replace(summaryMatch[0], '');
+    } else {
+        // FALLBACK: If no summary box found, try to find bullet points that AREN'T just TOC links
+        const bullets = body.match(/(?:^|\n)(?:-|\*)\s+[^#\[][\s\S]*?(?=\n\n|\n##|$)/g);
+        if (bullets && bullets.length > 0) {
+            // Find first one that doesn't look like a TOC (no [Link](#anchor))
+            const realBullets = bullets.find(b => !b.includes('(#'));
+            if (realBullets) {
+                summaryContent = realBullets.trim();
+            }
+        }
+        
+        if (!summaryContent) {
+            summaryContent = "• High-yield revision guide for competitive exams.\n• Focused on exam patterns and frequent topics.\n• Peer-mentor tips and trap avoidance included.";
+        }
+    }
+
+    // 4. Build TOC and Inject Anchors
+    const tocItems: Array<{ title: string, id: string }> = [];
+    function slugify(text: string): string {
+        return text.toLowerCase().replace(/[^\w ]+/g, '').replace(/ +/g, '-');
+    }
+
+    // Clean existing TOC headers to avoid duplicates
+    body = body.replace(/## 📋 Table of Contents\n*/gi, '');
+
+    // Replace all H2s that aren't already anchored
+    body = body.replace(/^## (?!<a)(.*)$/gm, (match, title) => {
+        const cleanTitle = title.trim();
+        // Skip certain titles from TOC if needed
+        if (cleanTitle.toLowerCase().includes('table of contents')) return ""; 
+        const id = slugify(cleanTitle);
+        tocItems.push({ title: cleanTitle, id });
+        return `## <a id="${id}"></a>${cleanTitle}`;
+    });
+
+    // 5. Clean redundant footers
+    body = body.replace(/---[\s\S]*?curated by Jules[\s\S]*?\*/gi, '').trim();
+
+    // 6. Assemble
+    const summaryBox = summaryContent 
+        ? `\n<div class="quick-summary">\n\n### 🚀 Quick Recall — Last Night Summary\n\n${summaryContent}\n\n</div>\n`
+        : '';
+
+    const tocMarkdown = tocItems.length > 0
+        ? `\n## 📋 Table of Contents\n\n${tocItems.map(item => `- [${item.title}](#${item.id})`).join('\n')}\n`
+        : '';
+
+    const footer = `\n---\n\n### 🚀 Ready to Ace Your Exam?\nPut your knowledge to the test! Take the free [**Practice Mock Test**](${meta.practiceLink}) now and track your progress against thousands of students.\n\n---\n*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*`;
+
+    // Ensure image and date are at top of body
+    body = body.replace(/!\[.*?\]\(.*?\)/, '').trim(); // Remove image if duplicated
+    body = body.replace(/\*Last Updated:.*?\*/, '').trim(); // Remove date if duplicated
+
+    const assembledBody = `![${meta.title}](${meta.heroImage})
+
+*Last Updated: ${meta.lastUpdated}*
+
+${summaryBox}
+
+${tocMarkdown}
+
+${body}
+
+${footer}`;
+
+    return frontmatter ? `${frontmatter}\n${assembledBody}` : assembledBody;
 }

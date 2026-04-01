@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import Groq from 'groq-sdk';
 import dotenv from 'dotenv';
+import { standardizeMarkdown } from './utils/jules-quality';
 
 dotenv.config();
 
@@ -20,7 +21,6 @@ let groq = new Groq({ apiKey: keys[currentKeyIndex] });
 const CONTENT_DIR = path.join(process.cwd(), 'src/content/blogs');
 
 function parseFile(content: string) {
-  // Handle both \n and \r\n line endings
   const normalized = content.replace(/\r\n/g, '\n');
   const frontmatterRegex = /^---\n([\s\S]*?)\n---\n([\s\S]*)$/;
   const match = normalized.match(frontmatterRegex);
@@ -33,9 +33,13 @@ function parseFile(content: string) {
     const title = titleMatch ? titleMatch[1] : '';
     const categoryMatch = fm.match(/category:\s*["']?(.+?)["']?\s*$/m);
     const category = categoryMatch ? categoryMatch[1].trim() : '';
-    return { frontmatter: `---\n${fm}\n---`, body, date, title, category };
+    const heroMatch = fm.match(/heroImage:\s*["']?(.+?)["']?\s*$/m);
+    const heroImage = heroMatch ? heroMatch[1].trim() : '';
+    const practiceMatch = fm.match(/practice_link:\s*["']?(.+?)["']?\s*$/m);
+    const practice_link = practiceMatch ? practiceMatch[1].trim() : '';
+    return { frontmatter: `---\n${fm}\n---`, body, date, title, category, heroImage, practice_link };
   }
-  return { frontmatter: '', body: content, date: '1970-01-01', title: '', category: '' };
+  return { frontmatter: '', body: content, date: '1970-01-01', title: '', category: '', heroImage: '', practice_link: '' };
 }
 
 function rotateKey() {
@@ -45,81 +49,77 @@ function rotateKey() {
 }
 
 async function fixBlogContent(body: string, title: string, category: string, retries = 5): Promise<string> {
-  // Read BLOG_RULES.md for the system prompt
   const rulesPath = path.join(process.cwd(), 'BLOG_RULES.md');
   const rules = fs.existsSync(rulesPath) ? fs.readFileSync(rulesPath, 'utf-8').slice(0, 2000) : '';
 
-  const prompt = `You are a senior content editor at Exam Compass. You are rewriting a revision blog to meet strict quality standards.
+  // Subject Guard: Force correct category based on title
+  let correctedCategory = category;
+  const lowerTitle = title.toLowerCase();
+  if (lowerTitle.includes('limit') || lowerTitle.includes('derivative') || lowerTitle.includes('matrix') || lowerTitle.includes('determinant') || lowerTitle.includes('integral')) {
+    correctedCategory = 'Mathematics';
+  } else if (lowerTitle.includes('chemistry') || lowerTitle.includes('metallurgy') || lowerTitle.includes('atom') || lowerTitle.includes('solution')) {
+    correctedCategory = 'Chemistry';
+  } else if (lowerTitle.includes('physics') || lowerTitle.includes('current') || lowerTitle.includes('optics') || lowerTitle.includes('motion')) {
+    correctedCategory = 'Physics';
+  }
 
-BLOG RULES (MANDATORY):
-- Minimum 2000 words for chapter revision notes
-- Voice: peer mentor (student-to-student). NOT corporate. NOT AI-sounding.
-- NO phrases: "In conclusion", "delve into", "comprehensive", "embark on your journey", "needless to say"
-- Mix bullet points WITH short explanatory paragraphs (not 100% bullets)
-- Every concept must have enough detail that a student can LEARN from it, not just see a topic name
+  // Pre-processing: Strip redundant footers and AI boilerplate
+  let cleanBody = body
+    .replace(/---[\s\S]*?curated by Jules[\s\S]*?---/gi, '')
+    .replace(/\*This post was curated by Jules[\s\S]*?\*/gi, '')
+    .trim();
 
-CHAPTER: "${title}"
-SUBJECT: "${category}"
+  const prompt = `You are a top 1% JEE/NEET ranker (Ayush's senior editor). You are rewriting this blog into the "GRANDMASTER QUICK REVISION" format.
+  
+  SUBJECT: ${correctedCategory}
+  TOPIC: ${title}
 
-YOUR TASK — Rewrite this blog into a COMPREHENSIVE, DETAILED revision guide:
+  STRICT CONTENT RULES:
+  1. NO LONG PARAGRAPHS. If a paragraph is longer than 3 lines, break it into bullet points.
+  2. SCANNABLE DEPTH: Don't just list topics. Explain the "Why" and "How" using short, punchy sentences.
+  3. $$LaTeX$$: Every formula MUST be in LaTeX. Double-escape backslashes (e.g. \\\\frac).
+  4. VOICE: Peer mentor. Mention "I used to get confused by..." or "The trick I used was...".
 
-1. "## 📖 Chapter Overview" — 5-7 sentence paragraph summarizing what this chapter covers and why it matters for exams. Include specific exam data (e.g. "2-3 questions from this chapter appear every year in JEE Mains").
+  MANDATORY SECTIONS (MUST GENERATE IN THIS ORDER):
 
-2. "## 📚 Detailed Revision Notes" — This is the MAIN section and must be LONG and THOROUGH:
-   - Break into ### sub-topics (e.g. "### Pyrometallurgy", "### Froth Floatation")
-   - Under each sub-topic: 
-     * 2-3 sentence explanation of the concept
-     * Key facts as bullet points (with bold key terms)
-     * Important reactions/formulas in $$LaTeX$$
-     * Example or application (1-2 lines)
-   - AIM: A student reading ONLY this section should be able to answer 80% of exam questions on this chapter.
-   - TARGET: 1200+ words for this section alone.
+  1. "## 🚀 Quick Recall" — EXACTLY 5-7 high-yield bullet points summarizing the entire chapter for 5-minute revision. DO NOT SKIP.
+  
+  2. "## 🎯 What WILL Come" — Specific exam data and frequencies based on last 5 years.
 
-3. Keep ALL existing sections below if they appear in the source (clean them up):
-   "## 🎯 What WILL Come in Your Exam" — keep but make bullets specific with exam citations
-   "## ⚡ Formula Bank" — keep all formulas, ensure $$LaTeX$$ is clean
-   "## 🪤 The 5 Mistakes That Cost Marks" — keep but add 2-3 sentence explanations
-   "## ✏️ 3 Solved PYQs" — keep, ensure full step-by-step solutions (not just answer)
-   "## 🧠 The One Thing Most Students Get Wrong" — keep, expand with a clear example
-   "## 👁️ Ayush's Note" — KEEP THIS. It's required! First-person, specific mistake Ayush made.
-   "## 🔁 Last 5 Minutes Box" — keep, 5 formulas + 3 facts + 2 traps
-   "## 📝 Practice MCQs" — keep all MCQs with full answer explanations
+  3. "## 📚 Detailed Revision Notes" — This is the meat.
+     - Use ### subheadings for every sub-topic.
+     - Under each ###, provide 1-2 punchy theory sentences followed by a bulleted list of 5+ facts/properties.
+     - High-yield formulas in $$LaTeX$$.
+     - "Ayush's Pro-Tip" in italics.
 
-4. QUALITY RULES:
-   - Don't just list topic names — explain them. "Roasting: Heating ores in air" is too short.
-     Better: "Roasting involves heating sulfide ores in excess air to convert them to oxides. For example, copper pyrite (CuFeS₂) is roasted to give Cu₂S. The key reaction is: $$2CuFeS_2 + O_2 \\rightarrow Cu_2S + 2FeS + SO_2$$"
-   - Every formula in the Formula Bank must have variable definitions
-   - PYQ solutions must show working, not just the answer
-   - Mistakes section must explain WHY students make the mistake and HOW to avoid it
+  4. "## 🪤 The 5 Trap Mistakes" — Format: **Mistake:** [Description] | **Fix:** [How to avoid].
 
-5. CRITICAL: The content must be about "${title}" and "${category}" ONLY. Do NOT generate content about a different subject. If the source text has wrong-subject content, write correct content for the actual topic "${title}".
+  5. "## ✏️ 3 Solved PYQs" — Step-by-step solutions for real past questions.
 
-6. OUTPUT: Return ONLY the markdown body. No frontmatter. No "Here is the rewritten blog" commentary.
+  6. "## 👁️ Ayush's Note" — A personal story or unique pattern you noticed in last 10 years of papers.
 
-SOURCE TEXT TO REWRITE:
-${body}`;
+  7. "## 🔁 Last 5 Minutes Box" — 3 hard formulas + 2 final traps.
+
+  OUTPUT: Return ONLY markdown body. No frontmatter. No intro text.
+
+  SOURCE TEXT:
+  ${cleanBody}`;
 
   try {
     const chatCompletion = await groq.chat.completions.create({
       messages: [{ role: 'user', content: prompt }],
       model: 'llama-3.3-70b-versatile',
-      temperature: 0.3,
-      max_tokens: 7500,
+      temperature: 0.2, // Lower temperature for more factual consistency
+      max_tokens: 7800,
     });
     return chatCompletion.choices[0]?.message?.content || body;
   } catch (error: any) {
     const msg = error?.message || '';
     if ((error?.status === 429 || msg.includes('rate_limit')) && retries > 0) {
       rotateKey();
-      await new Promise(r => setTimeout(r, 4000));
+      await new Promise(r => setTimeout(r, 5000));
       return fixBlogContent(body, title, category, retries - 1);
     }
-    if (msg.includes('invalid_api_key') && retries > 0) {
-      rotateKey();
-      await new Promise(r => setTimeout(r, 1000));
-      return fixBlogContent(body, title, category, retries - 1);
-    }
-    console.error('  ❌ Groq error:', msg.slice(0, 200));
     return body;
   }
 }
@@ -135,54 +135,52 @@ async function main() {
   });
 
   fileData.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-  const recent30 = fileData.slice(0, 30);
-  console.log(`\n📝 Found ${files.length} blogs. Reformatting 30 most recent...\n`);
-  console.log('─'.repeat(60));
+  const recent10 = fileData.slice(0, 10);
+  console.log(`\n🚀 Jules: Performing DETAILED QUICK REVISION fix on 10 most recent blogs...\n`);
 
-  let updated = 0, skipped = 0, failed = 0;
+  let updated = 0, failed = 0;
 
-  for (let i = 0; i < recent30.length; i++) {
-    const file = recent30[i];
-    process.stdout.write(`[${String(i + 1).padStart(2)}/30] ${file.name.slice(0, 50).padEnd(52)} `);
+  for (let i = 0; i < recent10.length; i++) {
+    const file = recent10[i];
+    process.stdout.write(`[${i + 1}/10] ${file.name.padEnd(50)} `);
 
-    if (file.body.trim().length < 200) {
-      console.log('⏭ too short');
-      skipped++;
-      continue;
+    let correctedCategory = file.category;
+    const lowerTitle = file.title.toLowerCase();
+    if (lowerTitle.includes('limit') || lowerTitle.includes('derivative') || lowerTitle.includes('matrix') || lowerTitle.includes('determinant') || lowerTitle.includes('integral')) {
+      correctedCategory = 'Mathematics';
     }
 
-    // Skip already processed (has our new structure marker)
-    if (file.body.includes('## 📖 Chapter Overview') && file.body.includes('## 📚 Detailed Revision Notes')) {
-      console.log('✓ done');
-      skipped++;
-      continue;
-    }
+    const fixedBody = await fixBlogContent(file.body, file.title, correctedCategory);
 
-    const fixedBody = await fixBlogContent(file.body, file.title, file.category);
+    if (fixedBody && fixedBody.length > 1000) {
+      let newFm = file.frontmatter;
+      if (correctedCategory !== file.category) {
+        newFm = newFm.replace(/category:\s*(["']?).*?\1/m, `category: "${correctedCategory}"`);
+      }
 
-    // Quality gate: must be at least 1500 chars (prevent thin content)
-    if (fixedBody && fixedBody !== file.body && fixedBody.length > 1500) {
-      const newContent = `${file.frontmatter}\n\n${fixedBody.trim()}\n`;
-      fs.writeFileSync(file.path, newContent, 'utf-8');
-      const wordCount = fixedBody.split(/\s+/).length;
-      console.log(`✅ ${wordCount} words`);
+      // Standardize the content structure
+      const standardizedBody = standardizeMarkdown(fixedBody.trim(), {
+        title: file.title,
+        heroImage: file.heroImage || `/blog-images/${file.name.replace('.md', '.webp')}`,
+        lastUpdated: file.date,
+        practiceLink: file.practice_link || `/class-11/physics/${file.name.replace('.md', '')}`
+      });
+      
+      const fullContent = `${newFm}\n\n${standardizedBody}\n`;
+      fs.writeFileSync(file.path, fullContent, 'utf-8');
+      console.log(`✅ ${standardizedBody.length} chars`);
       updated++;
-    } else if (fixedBody.length <= 1500) {
-      console.log(`⚠ too thin (${fixedBody.length} chars)`);
-      failed++;
     } else {
-      console.log('⚠ no change');
+      console.log('❌ failed');
       failed++;
     }
 
-    // 3.5s throttle
-    await new Promise(r => setTimeout(r, 3500));
+    await new Promise(r => setTimeout(r, 2000));
   }
 
   console.log('\n' + '─'.repeat(60));
   console.log(`✅ Updated : ${updated}`);
-  console.log(`⏭ Skipped : ${skipped}`);
-  console.log(`⚠  Failed  : ${failed}`);
+  console.log(`❌ Failed  : ${failed}`);
   console.log('─'.repeat(60) + '\n');
 }
 
