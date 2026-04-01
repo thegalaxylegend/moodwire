@@ -218,6 +218,17 @@
     "robots": "index, follow",
     "sitemapGroup": "blogs"
   },
+  "/blog/application-of-integrals-class-12-notes/": {
+    "title": "Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
+    "description": "Learn Application of Integrals like a pro. Detailed revision notes, solved examples, and",
+    "date": "2026-04-01",
+    "category": "Mathematics",
+    "h1": "Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
   "/blog/art-culture-architecture-class-11-revision-notes-jee-neet/": {
     "title": "Art Culture Architecture Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
     "description": "The ultimate Art Culture Architecture revision resource for Chemistry students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
@@ -482,6 +493,17 @@
     "robots": "index, follow",
     "sitemapGroup": "blogs"
   },
+  "/blog/continuity-and-differentiability-class-12-notes/": {
+    "title": "Continuity and Differentiability Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
+    "description": "Accelerate your Mathematics revision with our Continuity and Differentiability guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success.",
+    "date": "2026-04-01",
+    "category": "Mathematics",
+    "h1": "Continuity and Differentiability Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
   "/blog/coordination-compounds-class-12-notes/": {
     "title": "Coordination Compounds Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
     "description": "Deep dive into Coordination Compounds Class 12. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
@@ -532,6 +554,28 @@
     "date": "2026-03-28",
     "category": "Biology",
     "h1": "Data Structures: Non-Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/determinants-class-12-notes/": {
+    "title": "Determinants Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
+    "description": "The ultimate Determinants revision resource for Mathematics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
+    "date": "2026-04-01",
+    "category": "Mathematics",
+    "h1": "Determinants Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/differential-equations-class-12-notes/": {
+    "title": "Differential Equations Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
+    "description": "Learn Differential Equations like a pro. Detailed revision notes, solved examples, and",
+    "date": "2026-04-01",
+    "category": "Mathematics",
+    "h1": "Differential Equations Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
     "type": "blog-post",
     "priority": 0.8,
     "robots": "index, follow",
@@ -752,6 +796,17 @@
     "date": "2026-03-28",
     "category": "Physics",
     "h1": "Indian Geography Physical Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/integrals-class-12-notes/": {
+    "title": "Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
+    "description": "The ultimate Integrals revision resource for Mathematics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
+    "date": "2026-04-01",
+    "category": "Mathematics",
+    "h1": "Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
     "type": "blog-post",
     "priority": 0.8,
     "robots": "index, follow",
@@ -1002,7 +1057,7 @@
   "/blog/metallurgy-class-12-notes/": {
     "title": "Metallurgy Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
     "description": "The ultimate Metallurgy revision resource for Chemistry students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
-    "date": "2026-03-29",
+    "date": "2026-03-31",
     "category": "Chemistry",
     "h1": "Metallurgy Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
     "type": "blog-post",
@@ -1398,7 +1453,7 @@
   "/blog/solid-state-class-12-notes/": {
     "title": "Solid State Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
     "description": "The ultimate Solid State revision resource for Chemistry students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
-    "date": "2026-03-29",
+    "date": "2026-03-31",
     "category": "Chemistry",
     "h1": "Solid State Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
     "type": "blog-post",
@@ -1519,7 +1574,7 @@
   "/blog/surface-chemistry-class-12-notes/": {
     "title": "Surface Chemistry Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
     "description": "The ultimate Surface Chemistry revision resource for Chemistry students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
-    "date": "2026-03-29",
+    "date": "2026-03-31",
     "category": "Chemistry",
     "h1": "Surface Chemistry Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
     "type": "blog-post",
