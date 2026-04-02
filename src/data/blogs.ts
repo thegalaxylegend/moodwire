@@ -11,22 +11,40 @@ export interface Blog {
 
 export const blogs: Blog[] = [
     {
-        "id": "differential-equations-class-12-notes",
-        "title": "Differential Equations Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
-        "description": "Learn Differential Equations like a pro. Detailed revision notes, solved examples, and ",
-        "category": "Mathematics",
-        "date": "2026-04-01",
+        "id": "human-reproduction-class-12-notes",
+        "title": "Human Reproduction Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+        "description": "Master Human Reproduction for Biology 2026. This Grandmaster Guide includes Ayush",
+        "category": "Biology",
+        "date": "2026-04-02",
         "readTime": "15 min read",
-        "image": "/blog-images/differential-equations-class-12-notes.webp"
+        "image": "/blog-images/human-reproduction-class-12-notes.webp"
     },
     {
-        "id": "application-of-integrals-class-12-notes",
-        "title": "Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
-        "description": "Learn Application of Integrals like a pro. Detailed revision notes, solved examples, and ",
-        "category": "Mathematics",
-        "date": "2026-04-01",
+        "id": "reproduction-in-organisms-class-12-notes",
+        "title": "Reproduction in Organisms Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+        "description": "Learn Reproduction in Organisms like a pro. Detailed revision notes, solved examples, and ",
+        "category": "Biology",
+        "date": "2026-04-02",
         "readTime": "15 min read",
-        "image": "/blog-images/application-of-integrals-class-12-notes.webp"
+        "image": "/blog-images/reproduction-in-organisms-class-12-notes.webp"
+    },
+    {
+        "id": "vector-algebra-class-12-notes",
+        "title": "Vector Algebra Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
+        "description": "Master Vector Algebra for Mathematics 2026. This Grandmaster Guide includes Ayush",
+        "category": "Mathematics",
+        "date": "2026-04-02",
+        "readTime": "15 min read",
+        "image": "/blog-images/vector-algebra-class-12-notes.webp"
+    },
+    {
+        "id": "application-of-derivatives-class-12-notes",
+        "title": "Application of Derivatives Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
+        "description": "Master Application of Derivatives for Mathematics 2026. This Grandmaster Guide includes Ayush",
+        "category": "Mathematics",
+        "date": "2026-04-02",
+        "readTime": "15 min read",
+        "image": "/blog-images/application-of-derivatives-class-12-notes.webp"
     },
     {
         "id": "integrals-class-12-notes",
@@ -38,15 +56,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/integrals-class-12-notes.webp"
     },
     {
-        "id": "continuity-and-differentiability-class-12-notes",
-        "title": "Continuity and Differentiability Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
-        "description": "Accelerate your Mathematics revision with our Continuity and Differentiability guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success.",
-        "category": "Mathematics",
-        "date": "2026-04-01",
-        "readTime": "15 min read",
-        "image": "/blog-images/continuity-and-differentiability-class-12-notes.webp"
-    },
-    {
         "id": "determinants-class-12-notes",
         "title": "Determinants Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
         "description": "The ultimate Determinants revision resource for Mathematics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
@@ -56,13 +65,31 @@ export const blogs: Blog[] = [
         "image": "/blog-images/determinants-class-12-notes.webp"
     },
     {
-        "id": "solid-state-class-12-notes",
-        "title": "Solid State Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "The ultimate Solid State revision resource for Chemistry students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
-        "category": "Chemistry",
-        "date": "2026-03-31",
+        "id": "differential-equations-class-12-notes",
+        "title": "Differential Equations Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
+        "description": "Learn Differential Equations like a pro. Detailed revision notes, solved examples, and ",
+        "category": "Mathematics",
+        "date": "2026-04-01",
         "readTime": "15 min read",
-        "image": "/blog-images/solid-state-class-12-notes.webp"
+        "image": "/blog-images/differential-equations-class-12-notes.webp"
+    },
+    {
+        "id": "continuity-and-differentiability-class-12-notes",
+        "title": "Continuity and Differentiability Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
+        "description": "Accelerate your Mathematics revision with our Continuity and Differentiability guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success.",
+        "category": "Mathematics",
+        "date": "2026-04-01",
+        "readTime": "15 min read",
+        "image": "/blog-images/continuity-and-differentiability-class-12-notes.webp"
+    },
+    {
+        "id": "application-of-integrals-class-12-notes",
+        "title": "Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
+        "description": "Learn Application of Integrals like a pro. Detailed revision notes, solved examples, and ",
+        "category": "Mathematics",
+        "date": "2026-04-01",
+        "readTime": "15 min read",
+        "image": "/blog-images/application-of-integrals-class-12-notes.webp"
     },
     {
         "id": "surface-chemistry-class-12-notes",
@@ -72,6 +99,15 @@ export const blogs: Blog[] = [
         "date": "2026-03-31",
         "readTime": "15 min read",
         "image": "/blog-images/surface-chemistry-class-12-notes.webp"
+    },
+    {
+        "id": "solid-state-class-12-notes",
+        "title": "Solid State Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
+        "description": "The ultimate Solid State revision resource for Chemistry students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
+        "category": "Chemistry",
+        "date": "2026-03-31",
+        "readTime": "15 min read",
+        "image": "/blog-images/solid-state-class-12-notes.webp"
     },
     {
         "id": "metallurgy-class-12-notes",
@@ -137,15 +173,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/amines-class-12-notes.webp"
     },
     {
-        "id": "solutions-class-12-notes",
-        "title": "Solutions Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Deep dive into Solutions Class 12. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
-        "category": "Chemistry",
-        "date": "2026-03-29",
-        "readTime": "15 min read",
-        "image": "/blog-images/solutions-class-12-notes.webp"
-    },
-    {
         "id": "semiconductor-electronics-class-12-notes",
         "title": "Semiconductor Electronics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
         "description": "Learn Semiconductor Electronics like a pro. Detailed revision notes, solved examples, and ",
@@ -153,6 +180,15 @@ export const blogs: Blog[] = [
         "date": "2026-03-29",
         "readTime": "15 min read",
         "image": "/blog-images/semiconductor-electronics-class-12-notes.webp"
+    },
+    {
+        "id": "solutions-class-12-notes",
+        "title": "Solutions Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
+        "description": "Deep dive into Solutions Class 12. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
+        "category": "Chemistry",
+        "date": "2026-03-29",
+        "readTime": "15 min read",
+        "image": "/blog-images/solutions-class-12-notes.webp"
     },
     {
         "id": "nuclei-class-12-notes",
@@ -182,15 +218,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/dual-nature-of-radiation-class-12-notes.webp"
     },
     {
-        "id": "communication-systems-class-12-notes",
-        "title": "Communication Systems Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Accelerate your Physics revision with our Communication Systems guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success.",
-        "category": "Physics",
-        "date": "2026-03-29",
-        "readTime": "15 min read",
-        "image": "/blog-images/communication-systems-class-12-notes.webp"
-    },
-    {
         "id": "coordination-compounds-class-12-notes",
         "title": "Coordination Compounds Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
         "description": "Deep dive into Coordination Compounds Class 12. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
@@ -200,13 +227,13 @@ export const blogs: Blog[] = [
         "image": "/blog-images/coordination-compounds-class-12-notes.webp"
     },
     {
-        "id": "atoms-class-12-notes",
-        "title": "Atoms Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Deep dive into Atoms Class 12. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
+        "id": "communication-systems-class-12-notes",
+        "title": "Communication Systems Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+        "description": "Accelerate your Physics revision with our Communication Systems guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success.",
         "category": "Physics",
         "date": "2026-03-29",
         "readTime": "15 min read",
-        "image": "/blog-images/atoms-class-12-notes.webp"
+        "image": "/blog-images/communication-systems-class-12-notes.webp"
     },
     {
         "id": "chemical-kinetics-class-12-notes",
@@ -227,6 +254,24 @@ export const blogs: Blog[] = [
         "image": "/blog-images/alcohols-phenols-and-ethers-class-12-notes.webp"
     },
     {
+        "id": "atoms-class-12-notes",
+        "title": "Atoms Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+        "description": "Deep dive into Atoms Class 12. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
+        "category": "Physics",
+        "date": "2026-03-29",
+        "readTime": "15 min read",
+        "image": "/blog-images/atoms-class-12-notes.webp"
+    },
+    {
+        "id": "waves-class-11-revision-notes-neet",
+        "title": "Waves Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
+        "description": "The ultimate Waves revision resource for Biology students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
+        "category": "Biology",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/waves-class-11-revision-notes-neet.webp"
+    },
+    {
         "id": "work-energy-and-power-class-11-revision-notes-neet",
         "title": "Work Energy And Power Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
         "description": "The ultimate Work Energy And Power revision resource for Biology students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
@@ -243,6 +288,42 @@ export const blogs: Blog[] = [
         "date": "2026-03-28",
         "readTime": "15 min read",
         "image": "/blog-images/world-history-industrial-revolution-class-11-revision-notes-jee-neet.webp"
+    },
+    {
+        "id": "structure-of-atom-class-11-revision-notes-jee-neet",
+        "title": "Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+        "description": "Master Structure Of Atom for Physics 2026. This Grandmaster Guide includes Ayush",
+        "category": "Physics",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/structure-of-atom-class-11-revision-notes-jee-neet.webp"
+    },
+    {
+        "id": "structure-of-the-atom-class-11-revision-notes-neet",
+        "title": "Structure Of The Atom Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
+        "description": "Accelerate your Biology revision with our Structure Of The Atom guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success.",
+        "category": "Biology",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/structure-of-the-atom-class-11-revision-notes-neet.webp"
+    },
+    {
+        "id": "study-12-hours-daily-tips-class-11-revision-notes-jee-neet",
+        "title": "Study 12 Hours Daily Tips Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+        "description": "Accelerate your Physics revision with our Study 12 Hours Daily Tips guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success.",
+        "category": "Physics",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/study-12-hours-daily-tips-class-11-revision-notes-jee-neet.webp"
+    },
+    {
+        "id": "the-living-world-class-11-revision-notes-neet",
+        "title": "The Living World Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
+        "description": "Learn The Living World like a pro. Detailed revision notes, solved examples, and ",
+        "category": "Biology",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/the-living-world-class-11-revision-notes-neet.webp"
     },
     {
         "id": "the-p-block-elements-11-class-11-revision-notes-jee-neet",
@@ -353,141 +434,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/wave-optics-class-12-notes.webp"
     },
     {
-        "id": "waves-class-11-revision-notes-neet",
-        "title": "Waves Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "The ultimate Waves revision resource for Biology students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
-        "category": "Biology",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/waves-class-11-revision-notes-neet.webp"
-    },
-    {
-        "id": "some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet",
-        "title": "Some Basic Concepts Of Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Master Some Basic Concepts Of Chemistry for Physics 2026. This Grandmaster Guide includes Ayush",
-        "category": "Physics",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet.webp"
-    },
-    {
-        "id": "state-scholarship-guide-2026-class-11-revision-notes-neet",
-        "title": "State Scholarship Guide 2026 Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Learn State Scholarship Guide 2026 like a pro. Detailed revision notes, solved examples, and ",
-        "category": "Biology",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/state-scholarship-guide-2026-class-11-revision-notes-neet.webp"
-    },
-    {
-        "id": "states-of-matter-class-11-revision-notes-jee-neet",
-        "title": "States Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Deep dive into States Of Matter Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
-        "category": "Physics",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/states-of-matter-class-11-revision-notes-jee-neet.webp"
-    },
-    {
-        "id": "statistics-class-11-revision-notes-jee",
-        "title": "Statistics Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
-        "description": "Deep dive into Statistics Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
-        "category": "Mathematics",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/statistics-class-11-revision-notes-jee.webp"
-    },
-    {
-        "id": "straight-lines-class-11-revision-notes-jee-neet",
-        "title": "Straight Lines Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Learn Straight Lines like a pro. Detailed revision notes, solved examples, and ",
-        "category": "Physics",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/straight-lines-class-11-revision-notes-jee-neet.webp"
-    },
-    {
-        "id": "structural-organisation-in-animals-class-11-revision-notes-neet",
-        "title": "Structural Organisation In Animals Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Master Structural Organisation In Animals for Biology 2026. This Grandmaster Guide includes Ayush",
-        "category": "Biology",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/structural-organisation-in-animals-class-11-revision-notes-neet.webp"
-    },
-    {
-        "id": "structure-of-atom-class-11-revision-notes-jee-neet",
-        "title": "Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Master Structure Of Atom for Physics 2026. This Grandmaster Guide includes Ayush",
-        "category": "Physics",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/structure-of-atom-class-11-revision-notes-jee-neet.webp"
-    },
-    {
-        "id": "structure-of-the-atom-class-11-revision-notes-neet",
-        "title": "Structure Of The Atom Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Accelerate your Biology revision with our Structure Of The Atom guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success.",
-        "category": "Biology",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/structure-of-the-atom-class-11-revision-notes-neet.webp"
-    },
-    {
-        "id": "study-12-hours-daily-tips-class-11-revision-notes-jee-neet",
-        "title": "Study 12 Hours Daily Tips Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Accelerate your Physics revision with our Study 12 Hours Daily Tips guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success.",
-        "category": "Physics",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/study-12-hours-daily-tips-class-11-revision-notes-jee-neet.webp"
-    },
-    {
-        "id": "the-living-world-class-11-revision-notes-neet",
-        "title": "The Living World Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Learn The Living World like a pro. Detailed revision notes, solved examples, and ",
-        "category": "Biology",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/the-living-world-class-11-revision-notes-neet.webp"
-    },
-    {
-        "id": "probability-class-11-revision-notes-jee",
-        "title": "Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
-        "description": "The ultimate Probability revision resource for Mathematics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
-        "category": "Mathematics",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/probability-class-11-revision-notes-jee.webp"
-    },
-    {
-        "id": "probability-intro-class-11-revision-notes-jee",
-        "title": "Probability (Intro) Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
-        "description": "Master Probability (Intro) for Mathematics 2026. This Grandmaster Guide includes Ayush",
-        "category": "Physics",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/probability-intro-class-11-revision-notes-jee.webp"
-    },
-    {
-        "id": "ray-optics-class-12-quick-class-12-revision-notes-jee-neet",
-        "title": "Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Master Ray Optics for Physics 2026. This Grandmaster Guide includes Ayush",
-        "category": "Physics",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/ray-optics-class-12-quick-class-12-revision-notes-jee-neet.webp"
-    },
-    {
-        "id": "redox-reactions-class-11-revision-notes-neet",
-        "title": "Redox Reactions Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Deep dive into Redox Reactions Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
-        "category": "Biology",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/redox-reactions-class-11-revision-notes-neet.webp"
-    },
-    {
         "id": "relations-and-functions-class-11-notes",
         "title": "Relations and Functions Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
         "description": "Learn Relations and Functions like a pro. Detailed revision notes, solved examples, and ",
@@ -542,13 +488,58 @@ export const blogs: Blog[] = [
         "image": "/blog-images/sets-class-11-revision-notes-jee-neet.webp"
     },
     {
-        "id": "oscillations-class-11-revision-notes-jee-neet",
-        "title": "Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Master Oscillations for Physics 2026. This Grandmaster Guide includes Ayush",
+        "id": "some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet",
+        "title": "Some Basic Concepts Of Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+        "description": "Master Some Basic Concepts Of Chemistry for Physics 2026. This Grandmaster Guide includes Ayush",
         "category": "Physics",
         "date": "2026-03-28",
         "readTime": "15 min read",
-        "image": "/blog-images/oscillations-class-11-revision-notes-jee-neet.webp"
+        "image": "/blog-images/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet.webp"
+    },
+    {
+        "id": "state-scholarship-guide-2026-class-11-revision-notes-neet",
+        "title": "State Scholarship Guide 2026 Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
+        "description": "Learn State Scholarship Guide 2026 like a pro. Detailed revision notes, solved examples, and ",
+        "category": "Biology",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/state-scholarship-guide-2026-class-11-revision-notes-neet.webp"
+    },
+    {
+        "id": "states-of-matter-class-11-revision-notes-jee-neet",
+        "title": "States Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+        "description": "Deep dive into States Of Matter Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
+        "category": "Physics",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/states-of-matter-class-11-revision-notes-jee-neet.webp"
+    },
+    {
+        "id": "statistics-class-11-revision-notes-jee",
+        "title": "Statistics Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
+        "description": "Deep dive into Statistics Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
+        "category": "Mathematics",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/statistics-class-11-revision-notes-jee.webp"
+    },
+    {
+        "id": "straight-lines-class-11-revision-notes-jee-neet",
+        "title": "Straight Lines Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+        "description": "Learn Straight Lines like a pro. Detailed revision notes, solved examples, and ",
+        "category": "Physics",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/straight-lines-class-11-revision-notes-jee-neet.webp"
+    },
+    {
+        "id": "structural-organisation-in-animals-class-11-revision-notes-neet",
+        "title": "Structural Organisation In Animals Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
+        "description": "Master Structural Organisation In Animals for Biology 2026. This Grandmaster Guide includes Ayush",
+        "category": "Biology",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/structural-organisation-in-animals-class-11-revision-notes-neet.webp"
     },
     {
         "id": "permutations-and-combinations-class-11-revision-notes-jee",
@@ -648,6 +639,60 @@ export const blogs: Blog[] = [
         "date": "2026-03-28",
         "readTime": "15 min read",
         "image": "/blog-images/principle-of-mathematical-induction-class-11-revision-notes-jee.webp"
+    },
+    {
+        "id": "probability-class-11-revision-notes-jee",
+        "title": "Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
+        "description": "The ultimate Probability revision resource for Mathematics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
+        "category": "Mathematics",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/probability-class-11-revision-notes-jee.webp"
+    },
+    {
+        "id": "probability-intro-class-11-revision-notes-jee",
+        "title": "Probability (Intro) Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
+        "description": "Master Probability (Intro) for Mathematics 2026. This Grandmaster Guide includes Ayush",
+        "category": "Physics",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/probability-intro-class-11-revision-notes-jee.webp"
+    },
+    {
+        "id": "ray-optics-class-12-quick-class-12-revision-notes-jee-neet",
+        "title": "Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+        "description": "Master Ray Optics for Physics 2026. This Grandmaster Guide includes Ayush",
+        "category": "Physics",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/ray-optics-class-12-quick-class-12-revision-notes-jee-neet.webp"
+    },
+    {
+        "id": "redox-reactions-class-11-revision-notes-neet",
+        "title": "Redox Reactions Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
+        "description": "Deep dive into Redox Reactions Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
+        "category": "Biology",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/redox-reactions-class-11-revision-notes-neet.webp"
+    },
+    {
+        "id": "mechanical-properties-of-solids-class-11-revision-notes-jee-neet",
+        "title": "Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+        "description": "The ultimate Mechanical Properties Of Solids revision resource for Physics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
+        "category": "Physics",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/mechanical-properties-of-solids-class-11-revision-notes-jee-neet.webp"
+    },
+    {
+        "id": "medieval-india-bhakti-sufi-class-11-revision-notes-cbse",
+        "title": "Medieval India Bhakti Sufi Class 11 History Recap — CBSE 2026 Quick Guide",
+        "description": "Learn Medieval India Bhakti Sufi like a pro. Detailed revision notes, solved examples, and ",
+        "category": "General",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/medieval-india-bhakti-sufi-class-11-revision-notes-cbse.webp"
     },
     {
         "id": "medieval-india-delhi-sultanate-class-11-revision-notes-cbse",
@@ -758,6 +803,15 @@ export const blogs: Blog[] = [
         "image": "/blog-images/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet.webp"
     },
     {
+        "id": "oscillations-class-11-revision-notes-jee-neet",
+        "title": "Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+        "description": "Master Oscillations for Physics 2026. This Grandmaster Guide includes Ayush",
+        "category": "Physics",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/oscillations-class-11-revision-notes-jee-neet.webp"
+    },
+    {
         "id": "limits-and-derivatives-class-11-revision-notes-jee",
         "title": "Limits and Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
         "description": "Master Limits and Derivatives for Mathematics 2026. This Grandmaster Guide includes Ayush",
@@ -848,33 +902,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet.webp"
     },
     {
-        "id": "mechanical-properties-of-solids-class-11-revision-notes-jee-neet",
-        "title": "Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "The ultimate Mechanical Properties Of Solids revision resource for Physics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
-        "category": "Physics",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/mechanical-properties-of-solids-class-11-revision-notes-jee-neet.webp"
-    },
-    {
-        "id": "medieval-india-bhakti-sufi-class-11-revision-notes-cbse",
-        "title": "Medieval India Bhakti Sufi Class 11 History Recap — CBSE 2026 Quick Guide",
-        "description": "Learn Medieval India Bhakti Sufi like a pro. Detailed revision notes, solved examples, and ",
-        "category": "General",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/medieval-india-bhakti-sufi-class-11-revision-notes-cbse.webp"
-    },
-    {
-        "id": "hydrocarbons-class-11-revision-notes-neet",
-        "title": "Hydrocarbons Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Deep dive into Hydrocarbons Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
-        "category": "Biology",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/hydrocarbons-class-11-revision-notes-neet.webp"
-    },
-    {
         "id": "hydrogen-class-11-revision-notes-neet",
         "title": "Hydrogen Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
         "description": "Deep dive into Hydrogen Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
@@ -956,24 +983,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet.webp"
     },
     {
-        "id": "electromagnetic-induction-class-12-revision-notes-jee-neet",
-        "title": "Electromagnetic Induction Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Deep dive into Electromagnetic Induction Class 12. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
-        "category": "Biology",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/electromagnetic-induction-class-12-revision-notes-jee-neet.webp"
-    },
-    {
-        "id": "electromagnetic-waves-class-12-notes",
-        "title": "Electromagnetic Waves Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Accelerate your Physics revision with our Electromagnetic Waves guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success.",
-        "category": "Biology",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/electromagnetic-waves-class-12-notes.webp"
-    },
-    {
         "id": "electrostatics-class-12-revision-notes-jee-neet",
         "title": "Electrostatics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
         "description": "Deep dive into Electrostatics Class 12. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
@@ -1046,6 +1055,60 @@ export const blogs: Blog[] = [
         "image": "/blog-images/gravitation-class-11-revision-notes-jee-neet.webp"
     },
     {
+        "id": "hydrocarbons-class-11-revision-notes-neet",
+        "title": "Hydrocarbons Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
+        "description": "Deep dive into Hydrocarbons Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
+        "category": "Biology",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/hydrocarbons-class-11-revision-notes-neet.webp"
+    },
+    {
+        "id": "digital-logic-class-11-revision-notes-gate-boards",
+        "title": "Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide",
+        "description": "Accelerate your Computer Science revision with our Digital Logic guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success.",
+        "category": "Biology",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/digital-logic-class-11-revision-notes-gate-boards.webp"
+    },
+    {
+        "id": "dpsp-duties-class-11-revision-notes-jee-neet",
+        "title": "Dpsp Duties Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+        "description": "Accelerate your Physics revision with our Dpsp Duties guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success.",
+        "category": "Physics",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/dpsp-duties-class-11-revision-notes-jee-neet.webp"
+    },
+    {
+        "id": "electric-charges-fields-class-11-revision-notes-jee-neet",
+        "title": "Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+        "description": "The ultimate Electric Charges Fields revision resource for Physics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
+        "category": "Physics",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/electric-charges-fields-class-11-revision-notes-jee-neet.webp"
+    },
+    {
+        "id": "electromagnetic-induction-class-12-revision-notes-jee-neet",
+        "title": "Electromagnetic Induction Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+        "description": "Deep dive into Electromagnetic Induction Class 12. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
+        "category": "Biology",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/electromagnetic-induction-class-12-revision-notes-jee-neet.webp"
+    },
+    {
+        "id": "electromagnetic-waves-class-12-notes",
+        "title": "Electromagnetic Waves Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+        "description": "Accelerate your Physics revision with our Electromagnetic Waves guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success.",
+        "category": "Biology",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/electromagnetic-waves-class-12-notes.webp"
+    },
+    {
         "id": "cuet-2026-master-strategy-class-11-revision-notes-neet",
         "title": "Cuet 2026 Master Strategy Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
         "description": "The ultimate Cuet 2026 Master Strategy revision resource for Biology students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
@@ -1089,51 +1152,6 @@ export const blogs: Blog[] = [
         "date": "2026-03-28",
         "readTime": "15 min read",
         "image": "/blog-images/digestion-and-absorption-class-11-revision-notes-neet.webp"
-    },
-    {
-        "id": "digital-logic-class-11-revision-notes-gate-boards",
-        "title": "Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide",
-        "description": "Accelerate your Computer Science revision with our Digital Logic guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success.",
-        "category": "Biology",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/digital-logic-class-11-revision-notes-gate-boards.webp"
-    },
-    {
-        "id": "dpsp-duties-class-11-revision-notes-jee-neet",
-        "title": "Dpsp Duties Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Accelerate your Physics revision with our Dpsp Duties guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success.",
-        "category": "Physics",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/dpsp-duties-class-11-revision-notes-jee-neet.webp"
-    },
-    {
-        "id": "electric-charges-fields-class-11-revision-notes-jee-neet",
-        "title": "Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "The ultimate Electric Charges Fields revision resource for Physics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
-        "category": "Physics",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/electric-charges-fields-class-11-revision-notes-jee-neet.webp"
-    },
-    {
-        "id": "class-10-30-day-timetable-class-10-revision-notes-jee",
-        "title": "Class 10 30 Day Timetable Class 10 Mathematics Recap — CBSE 2026 Quick Guide",
-        "description": "Master Class 10 30 Day Timetable for Mathematics 2026. This Grandmaster Guide includes Ayush",
-        "category": "Mathematics",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/class-10-30-day-timetable-class-10-revision-notes-jee.webp"
-    },
-    {
-        "id": "class-10-science-pyq-strategy-class-10-revision-notes-neet",
-        "title": "Class 10 Science Pyq Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide",
-        "description": "Deep dive into Class 10 Science Pyq Strategy Class 10. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
-        "category": "Biology",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/class-10-science-pyq-strategy-class-10-revision-notes-neet.webp"
     },
     {
         "id": "classification-elements-periodicity-class-11-revision-notes-jee-neet",
@@ -1199,42 +1217,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/constitutional-framework-class-11-revision-notes-cbse.webp"
     },
     {
-        "id": "art-culture-architecture-class-11-revision-notes-jee-neet",
-        "title": "Art Culture Architecture Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "The ultimate Art Culture Architecture revision resource for Chemistry students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
-        "category": "Chemistry",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/art-culture-architecture-class-11-revision-notes-jee-neet.webp"
-    },
-    {
-        "id": "binomial-theorem-class-11-revision-notes-jee",
-        "title": "Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
-        "description": "Deep dive into Binomial Theorem Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
-        "category": "Mathematics",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/binomial-theorem-class-11-revision-notes-jee.webp"
-    },
-    {
-        "id": "biogeography-class-11-revision-notes-neet",
-        "title": "Biogeography Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "The ultimate Biogeography revision resource for Biology students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
-        "category": "Biology",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/biogeography-class-11-revision-notes-neet.webp"
-    },
-    {
-        "id": "biological-classification-class-11-revision-notes-neet",
-        "title": "Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Deep dive into Biological Classification Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
-        "category": "Biology",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/biological-classification-class-11-revision-notes-neet.webp"
-    },
-    {
         "id": "biomolecules-class-11-revision-notes-neet",
         "title": "Biomolecules Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
         "description": "Master Biomolecules for Biology 2026. This Grandmaster Guide includes Ayush",
@@ -1296,6 +1278,24 @@ export const blogs: Blog[] = [
         "date": "2026-03-28",
         "readTime": "15 min read",
         "image": "/blog-images/chemical-coordination-and-integration-class-11-revision-notes-neet.webp"
+    },
+    {
+        "id": "class-10-30-day-timetable-class-10-revision-notes-jee",
+        "title": "Class 10 30 Day Timetable Class 10 Mathematics Recap — CBSE 2026 Quick Guide",
+        "description": "Master Class 10 30 Day Timetable for Mathematics 2026. This Grandmaster Guide includes Ayush",
+        "category": "Mathematics",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/class-10-30-day-timetable-class-10-revision-notes-jee.webp"
+    },
+    {
+        "id": "class-10-science-pyq-strategy-class-10-revision-notes-neet",
+        "title": "Class 10 Science Pyq Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide",
+        "description": "Deep dive into Class 10 Science Pyq Strategy Class 10. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
+        "category": "Biology",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/class-10-science-pyq-strategy-class-10-revision-notes-neet.webp"
     },
     {
         "id": "agriculture-class-11-revision-notes-neet",
@@ -1395,6 +1395,42 @@ export const blogs: Blog[] = [
         "date": "2026-03-28",
         "readTime": "15 min read",
         "image": "/blog-images/animal-kingdom-class-11-revision-notes-neet.webp"
+    },
+    {
+        "id": "art-culture-architecture-class-11-revision-notes-jee-neet",
+        "title": "Art Culture Architecture Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
+        "description": "The ultimate Art Culture Architecture revision resource for Chemistry students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
+        "category": "Chemistry",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/art-culture-architecture-class-11-revision-notes-jee-neet.webp"
+    },
+    {
+        "id": "binomial-theorem-class-11-revision-notes-jee",
+        "title": "Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
+        "description": "Deep dive into Binomial Theorem Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
+        "category": "Mathematics",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/binomial-theorem-class-11-revision-notes-jee.webp"
+    },
+    {
+        "id": "biogeography-class-11-revision-notes-neet",
+        "title": "Biogeography Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
+        "description": "The ultimate Biogeography revision resource for Biology students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
+        "category": "Biology",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/biogeography-class-11-revision-notes-neet.webp"
+    },
+    {
+        "id": "biological-classification-class-11-revision-notes-neet",
+        "title": "Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
+        "description": "Deep dive into Biological Classification Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
+        "category": "Biology",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/biological-classification-class-11-revision-notes-neet.webp"
     },
     {
         "id": "3d-geometry-intro-class-11-revision-notes-jee-neet",

@@ -218,6 +218,17 @@
     "robots": "index, follow",
     "sitemapGroup": "blogs"
   },
+  "/blog/application-of-derivatives-class-12-notes/": {
+    "title": "Application of Derivatives Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
+    "description": "Master Application of Derivatives for Mathematics 2026. This Grandmaster Guide includes Ayush",
+    "date": "2026-04-02",
+    "category": "Mathematics",
+    "h1": "Application of Derivatives Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
   "/blog/application-of-integrals-class-12-notes/": {
     "title": "Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
     "description": "Learn Application of Integrals like a pro. Detailed revision notes, solved examples, and",
@@ -752,6 +763,17 @@
     "date": "2026-03-29",
     "category": "Chemistry",
     "h1": "Haloalkanes and Haloarenes Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/human-reproduction-class-12-notes/": {
+    "title": "Human Reproduction Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+    "description": "Master Human Reproduction for Biology 2026. This Grandmaster Guide includes Ayush",
+    "date": "2026-04-02",
+    "category": "Biology",
+    "h1": "Human Reproduction Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
     "type": "blog-post",
     "priority": 0.8,
     "robots": "index, follow",
@@ -1395,6 +1417,17 @@
     "robots": "index, follow",
     "sitemapGroup": "blogs"
   },
+  "/blog/reproduction-in-organisms-class-12-notes/": {
+    "title": "Reproduction in Organisms Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+    "description": "Learn Reproduction in Organisms like a pro. Detailed revision notes, solved examples, and",
+    "date": "2026-04-02",
+    "category": "Biology",
+    "h1": "Reproduction in Organisms Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
   "/blog/respiration-in-plants-class-11-revision-notes-neet/": {
     "title": "Respiration In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
     "description": "Master Respiration In Plants for Biology 2026. This Grandmaster Guide includes Ayush",
@@ -1709,6 +1742,17 @@
     "date": "2026-03-28",
     "category": "Chemistry",
     "h1": "Pick the Best UPSC Optional Subject 2026 Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/vector-algebra-class-12-notes/": {
+    "title": "Vector Algebra Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
+    "description": "Master Vector Algebra for Mathematics 2026. This Grandmaster Guide includes Ayush",
+    "date": "2026-04-02",
+    "category": "Mathematics",
+    "h1": "Vector Algebra Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
     "type": "blog-post",
     "priority": 0.8,
     "robots": "index, follow",
