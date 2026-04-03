@@ -15,280 +15,225 @@ practice_link: "/class-11/mathematics/integrals-class-12-notes"
 
 ## 📋 Table of Contents
 
-- [⚡ Formula Bank](#-formula-bank)
-- [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
-- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
-- [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
+  - [⚡ Derivations and Proofs](#-derivations-and-proofs)
+  - [📝 Integration Techniques](#-integration-techniques)
+  - [📊 Applications of Integrals](#-applications-of-integrals)
+  - [🔍 Improper Integrals](#-improper-integrals)
+  - [📝 Multiple Integrals](#-multiple-integrals)
+  - [🔍 Applications of Multiple Integrals](#-applications-of-multiple-integrals)
+  - [📝 Applications of Multiple Integrals](#-applications-of-multiple-integrals)
+- [🪤 The 5 Trap Mistakes](#-the-5-trap-mistakes)
+  - [📝 Advanced Topics in Integrals](#-advanced-topics-in-integrals)
+  - [📝 Master the Test Center — Step-by-Step Learning](#-master-the-test-center-stepbystep-learning)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
-- [📝 Practice MCQs](#-practice-mcqs)
 
 
-## <a id="-formula-bank"></a>⚡ Formula Bank
+### <a id="-derivations-and-proofs"></a>⚡ Derivations and Proofs
+#### Power Rule of Integration
+- Derivation using definition of definite integral:
+  $$\int_{a}^{b} f(x) dx = \lim_{n \to \infty} \sum_{i=1}^{n} f(x_i^*) \Delta x$$
+  For $f(x) = x^n$:
+  $$\int x^n dx = \lim_{n \to \infty} \sum_{i=1}^{n} (x_i^*)^n \Delta x$$
+  Leading to:
+  $$\int x^n dx = \frac{x^{n+1}}{n+1} + C$$
+
+#### Exponential Integration Formula
+- Derivation using definition of exponential function:
+  $$e^x = \lim_{n \to \infty} \left(1 + \frac{x}{n} \right)^n$$
+  Taking derivative and simplifying leads to:
+  $$\int e^x dx = e^x + C$$
+  And more generally:
+  $$\int e^{ax} dx = \frac{1}{a} e^{ax} + C$$
+
+### <a id="-integration-techniques"></a>📝 Integration Techniques
+#### Substitution Method
+- General form:
+  $$\int f(g(x)) \cdot g'(x) dx = \int f(u) du$$
+  Where $u = g(x)$ and $du = g'(x) dx$.
+- Key points:
+  * Substitute $u = g(x)$
+  * Find $du = g'(x) dx$
+  * Integrate with respect to $u$
+
+#### Integration by Parts
+- General form:
+  $$\int u \cdot dv = u \cdot v - \int v \cdot du$$
+- Key points:
+  * Choose $u$ and $dv$
+  * Find $du$ and $v$
+  * Apply formula
+
+#### Partial Fractions Decomposition
+- General form for $\frac{1}{(x-a)(x-b)}$:
+  $$\frac{1}{(x-a)(x-b)} = \frac{A}{x-a} + \frac{B}{x-b}$$
+- Key points:
+  * Decompose rational function
+  * Find common denominator
+  * Equate numerators
+
+### <a id="-applications-of-integrals"></a>📊 Applications of Integrals
+#### Area Between Curves
+- General form:
+  $$A = \int_{a}^{b} (f(x) - g(x)) dx$$
+- Key points:
+  * Define $f(x)$ and $g(x)$
+  * Determine limits $a$ and $b$
+  * Evaluate integral
+
+#### Volume of Solids
+- General form for volume:
+  $$V = \int_{a}^{b} \pi (f(x))^2 dx$$
+- Key points:
+  * Define $f(x)$
+  * Determine limits $a$ and $b$
+  * Evaluate integral
+
+#### Surface Area
+- General form:
+  $$S = \int_{a}^{b} 2 \pi f(x) \sqrt{1 + (f'(x))^2} dx$$
+- Key points:
+  * Define $f(x)$
+  * Determine limits $a$ and $b$
+  * Evaluate integral
+
+### <a id="-improper-integrals"></a>🔍 Improper Integrals
+#### Definition
+- General form:
+  $$\int_{a}^{\infty} f(x) dx = \lim_{b \to \infty} \int_{a}^{b} f(x) dx$$
+- Key points:
+  * Infinite limit of integration
+  * Evaluate limit
+
+#### Convergence
+- Condition for convergence:
+  $$\int_{a}^{\infty} f(x) dx = \lim_{b \to \infty} \int_{a}^{b} f(x) dx = L$$
+  Where $L$ is finite.
+- Key points:
+  * Limit exists and is finite
+
+#### Divergence
+- Condition for divergence:
+  $$\int_{a}^{\infty} f(x) dx = \lim_{b \to \infty} \int_{a}^{b} f(x) dx = \infty$$
+- Key points:
+  * Limit does not exist or is infinite
+
+### <a id="-multiple-integrals"></a>📝 Multiple Integrals
+#### Definition
+- General form:
+  $$\int_{a}^{b} \int_{c}^{d} f(x,y) dy dx$$
+- Key points:
+  * Multiple limits of integration
+  * Evaluate iteratively
+
+#### Evaluation
+- General approach:
+  $$\int_{a}^{b} \int_{c}^{d} f(x,y) dy dx = \int_{a}^{b} \left( \int_{c}^{d} f(x,y) dy \right) dx$$
+- Key points:
+  * Integrate with respect to one variable
+  * Then integrate with respect to the other variable
 
-- **Basic Integration Formula:** $$\int a \cdot f(x) dx = a \cdot \int f(x) dx$$ — $a$ is constant, $f(x)$ is function of $x$
+### <a id="-applications-of-multiple-integrals"></a>🔍 Applications of Multiple Integrals
+#### Volume of Solids
+- General form for volume:
+  $$V = \int \int \int_{D} dV$$
+- Key points:
+  * Define region $D$
+  * Evaluate triple integral
 
- - **Power Rule of Integration:** $$\int x^n dx = \frac{x^{n+1}}{n+1} + C$$ — $n$ is constant, $n \
+#### Surface Area
+- General form:
+  $$S = \int \int_{D} \sqrt{1 + (f_x)^2 + (f_y)^2} dA$$
+- Key points:
+  * Define function $f(x,y)$
+  * Evaluate double integral
 
-eq -1$, $C$ is constant of integration
+#### Moments of Inertia
+- General form:
+  $$I = \int \int_{D} (x^2 + y^2) \rho(x,y) dA$$
+- Key points:
+  * Define density function $\rho(x,y)$
+  * Evaluate double integral
 
- - **Exponential Integration Formula:** $$\int e^{ax} dx = \frac{1}{a} e^{ax} + C$$ — $a$ is constant, $C$ is constant of integration
+### <a id="-applications-of-multiple-integrals"></a>📝 Applications of Multiple Integrals
 
- - **Logarithmic Integration Formula:** $$\int \frac{1}{x} dx = \log |x| + C$$ — $C$ is constant of integration
+#### #### Volume of Solids:
+The volume of a solid can be found using a multiple integral. The general form of the volume of a solid is:
+$$V = \int_{a}^{b} \int_{c}^{d} f(x,y) dy dx$$
+where $f(x,y)$ is the height of the solid at the point $(x,y)$.
 
- - **Trigonometric Integration Formulas:**
+#### #### Surface Area:
+The surface area of a solid can be found using a multiple integral. The general form of the surface area is:
+$$S = \int_{a}^{b} \int_{c}^{d} \sqrt{1 + (f_x(x,y))^2 + (f_y(x,y))^2} dy dx$$
+where $f_x(x,y)$ and $f_y(x,y)$ are the partial derivatives of $f(x,y)$ with respect to $x$ and $y$, respectively.
 
- - $$\int \sin x dx = -\cos x + C$$ — $C$ is constant of integration
+#### #### Center of Mass:
+The center of mass of a solid can be found using a multiple integral. The general form of the center of mass is:
+$$\bar{x} = \frac{\int_{a}^{b} \int_{c}^{d} x \rho(x,y) dy dx}{\int_{a}^{b} \int_{c}^{d} \rho(x,y) dy dx}$$
+where $\rho(x,y)$ is the density of the solid at the point $(x,y)$.
 
- - $$\int \cos x dx = \sin x + C$$ — $C$ is constant of integration
+## <a id="-the-5-trap-mistakes"></a>🪤 The 5 Trap Mistakes
 
- - $$\int \tan x dx = -\log |\cos x| + C$$ — $C$ is constant of integration
+When working with integrals, there are several common mistakes that can lead to incorrect solutions. Here are five trap mistakes to watch out for:
 
- - **Integration by Parts Formula:** $$\int u \cdot dv = u \cdot v - \int v \cdot du$$ — $u$ and $v$ are functions of $x$
+#### #### Mistake 1: Forgetting the Constant of Integration
+When integrating a function, it's easy to forget to include the constant of integration. This can lead to incorrect solutions, especially when working with definite integrals.
 
- - **Substitution Method Formula:** $$\int f(g(x)) \cdot g'(x) dx = \int f(u) du$$ — $u = g(x)$, $du = g'(x) dx$
+#### #### Mistake 2: Incorrectly Applying the Power Rule
+The power rule of integration is a common source of mistakes. Make sure to apply the rule correctly, and don't forget to add 1 to the exponent when integrating.
 
- - **Partial Fractions Decomposition Formula:** $$\int \frac{1}{(x-a)(x-b)} dx = \frac{1}{a-b} \left( \frac{1}{x-b} - \frac{1}{x-a} \right)$$ — $a$ and $b$ are constants
+#### #### Mistake 3: Failing to Check the Limits of Integration
+When working with definite integrals, it's essential to check the limits of integration to ensure that the integral is properly defined. Failing to do so can lead to incorrect solutions.
 
- - **Definite Integral Formula:** $$\int_{a}^{b} f(x) dx = F(b) - F(a)$$ — $F(x)$ is antiderivative of $f(x)$, $a$ and $b$ are limits of integration
+#### #### Mistake 4: Incorrectly Substituting into the Integral
+When using substitution to evaluate an integral, make sure to correctly substitute into the integral. This includes substituting into the limits of integration and the integrand.
 
- - **Improper Integral Formula:** $$\int_{a}^{\infty} f(x) dx = \lim_{b \to \infty} \int_{a}^{b} f(x) dx$$ — $a$ is constant, $b$ approaches infinity
+#### #### Mistake 5: Not Simplifying the Integral
+Finally, make sure to simplify the integral after evaluating it. This can involve combining like terms, canceling out constants, and rearranging the expression to make it more readable.
 
- - **Multiple Integral Formula (Double Integral):** $$\int_{a}^{b} \int_{c}^{d} f(x,y) dy dx = \int_{a}^{b} \left( \int_{c}^{d} f(x,y) dy \right) dx$$ — $a$, $b$, $c$, and $d$ are constants, $f(x,y)$ is function of $x$ and $y$
+By avoiding these common mistakes, you can ensure that your integral solutions are accurate and reliable.
 
+### <a id="-advanced-topics-in-integrals"></a>📝 Advanced Topics in Integrals
 
+- **Dirichlet's Theorem:** 
+Dirichlet's theorem states that a function $f(x)$ is integrable on the interval $[a,b]$ if and only if the set of discontinuities of $f(x)$ has measure zero.
 
-## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
+- **Riemann's Theorem:** 
+Riemann's theorem states that a function $f(x)$ is integrable on the interval $[a,b]$ if and only if the function is bounded and has at most a countable number of discontinuities.
 
-- **Mistake 1:** Forgetting to apply the constant multiple rule when integrating, which states that $\int a \cdot f(x) dx = a \cdot \int f(x) dx$. 
+- **Lebesgue's Theorem:** 
+Lebesgue's theorem states that a function $f(x)$ is integrable on the interval $[a,b]$ if and only if the function is measurable and has a finite integral.
 
- - *Costs:* 2-4 marks per question
+These advanced topics in integrals provide a deeper understanding of the subject and are essential for working with complex functions and applications.
 
- - *Fix:* Always factor out constants before integrating, for example: $\int 3x^2 dx = 3 \cdot \int x^2 dx = 3 \cdot \frac{x^3}{3} = x^3$
+### <a id="-master-the-test-center-stepbystep-learning"></a>📝 Master the Test Center — Step-by-Step Learning
 
- - **Mistake 2:** Not using the correct substitution method for integration, such as forgetting to substitute $dx$ with the corresponding $du$ term. 
+To become a master of integrals, it's essential to practice and apply the concepts learned. The Test Center at /class-11/mathematics/integrals-class-12-notes is an excellent resource to achieve this goal. Here's why:
 
- - *Costs:* 4-6 marks per question
+*   **Comprehensive Practice Questions:** The Test Center offers a wide range of practice questions that cover all aspects of integrals, from basic to advanced topics.
+*   **Personalized Learning:** The Test Center allows you to create a personalized learning plan, focusing on areas where you need improvement.
+*   **Instant Feedback:** After completing a practice test or question, you'll receive instant feedback, including detailed explanations and solutions.
+*   **Progress Tracking:** The Test Center enables you to track your progress, identifying strengths and weaknesses, and adjusting your learning plan accordingly.
+*   **Community Support:** Join a community of like-minded students and educators, sharing knowledge, and learning from one another.
 
- - *Fix:* When using substitution, always replace $dx$ with $du$ and adjust the integral accordingly, for instance: $\int \frac{1}{x} dx = \int \frac{1}{u} \cdot \frac{du}{dx} dx = \int \frac{1}{u} du$
+Using the Test Center at /class-11/mathematics/integrals-class-12-notes will help you:
 
- - **Mistake 3:** Incorrectly applying the power rule of integration, which is $\int x^n dx = \frac{x^{n+1}}{n+1} + C$. 
+*   **Reinforce Concepts:** Practice and reinforce your understanding of integrals, ensuring a strong foundation for further learning.
+*   **Identify Weaknesses:** Recognize areas where you need improvement and focus your efforts on those topics.
+*   **Develop Problem-Solving Skills:** Enhance your problem-solving skills, learning to approach complex integral problems with confidence.
+*   **Improve Time Management:** Practice managing your time effectively, ensuring you can complete tests and exams within the allotted time.
 
- - *Costs:* 1-3 marks per question
-
- - *Fix:* Always check the exponent $n$ and ensure it's not equal to -1, as this would require using the logarithmic rule instead: $\int \frac{1}{x} dx = \int x^{-1} dx = \log|x| + C$
-
- - **Mistake 4:** Not evaluating the limits of integration correctly, such as forgetting to apply the Fundamental Theorem of Calculus (FTC) or misapplying it. 
-
- - *Costs:* 4-8 marks per question
-
- - *Fix:* Always evaluate the integral using the FTC: $\int_a^b f(x) dx = F(b) - F(a)$, where $F(x)$ is the antiderivative of $f(x)$, for example: $\int_0^1 x^2 dx = \frac{x^3}{3} \bigg|_0^1 = \frac{1}{3} - 0 = \frac{1}{3}$
-
- - **Mistake 5:** Forgetting to check for absolute convergence when dealing with improper integrals, which can lead to incorrect results. 
-
- - *Costs:* 6-10 marks per question
-
- - *Fix:* Always check for absolute convergence by evaluating the integral $\int_a^b |f(x)| dx$ and ensuring it converges, for instance: $$\int_0^{\infty} \frac{1}{1+x^2} dx = \lim_{b \to \infty} \int_0^b \frac{1}{1+x^2} dx = \lim_{b \to \infty} \arctan(x) \bigg|_0^b = \frac{\pi}{2}$$
-
-
-
-## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
-
-- **Q1:** Evaluate the definite integral: $\int_{0}^{\frac{\pi}{2}} \frac{1}{\sqrt{1 + \sin x}} dx$
-
- - **Trap:** Forgetting to apply the appropriate trigonometric substitution to simplify the integral.
-
- - **Solution:** 
-
- To solve the integral $\int_{0}^{\frac{\pi}{2}} \frac{1}{\sqrt{1 + \sin x}} dx$, we can use the substitution $\sin x = \frac{2 \tan \frac{x}{2}}{1 + \tan^2 \frac{x}{2}}$. This simplifies the integral to:
-
- $$\int_{0}^{\frac{\pi}{2}} \frac{1}{\sqrt{1 + \frac{2 \tan \frac{x}{2}}{1 + \tan^2 \frac{x}{2}}}} dx$$
-
- Using $u = \tan \frac{x}{2}$, $du = \frac{1}{2} \sec^2 \frac{x}{2} dx$, and adjusting the limits of integration, we get:
-
- $$\int_{0}^{1} \frac{1}{\sqrt{1 + \frac{2u}{1 + u^2}}} \cdot \frac{2}{1 + u^2} du$$
-
- Simplifying this gives:
-
- $$\int_{0}^{1} \frac{2}{\sqrt{(1 + u)^2}} du = \int_{0}^{1} \frac{2}{1 + u} du$$
-
- Evaluating this integral:
-
- $$2 \ln|1 + u| \Big|_{0}^{1} = 2 \ln 2$$
-
- - **Answer:** $2 \ln 2$
-
- - **Q2:** Find the area bounded by the curves $y = \sin x$, $y = \cos x$, and $x = 0$.
-
- - **Trap:** Incorrectly determining the limits of integration or the order of subtraction of the functions.
-
- - **Solution:** 
-
- To find the area bounded by $y = \sin x$ and $y = \cos x$, first determine their intersection points in the region of interest:
-
- $$\sin x = \cos x$$
-
- $$\tan x = 1$$
-
- $$x = \frac{\pi}{4}$$
-
- The area $A$ can be found by:
-
- $$A = \int_{0}^{\frac{\pi}{4}} (\cos x - \sin x) dx$$
-
- Evaluating the integral:
-
- $$A = [\sin x + \cos x]_{0}^{\frac{\pi}{4}}$$
-
- $$A = \left(\frac{\sqrt{2}}{2} + \frac{\sqrt{2}}{2}\right) - (0 + 1)$$
-
- $$A = \sqrt{2} - 1$$
-
- - **Answer:** $\sqrt{2} - 1$
-
- - **Q3:** Evaluate $\int_{-2}^{2} |x| dx$.
-
- - **Trap:** Forgetting to split the integral into parts where the function changes its definition due to the absolute value.
-
- - **Solution:** 
-
- Since $|x|$ changes its definition at $x = 0$, split the integral:
-
- $$\int_{-2}^{2} |x| dx = \int_{-2}^{0} (-x) dx + \int_{0}^{2} x dx$$
-
- Evaluating each integral:
-
- $$= \left[-\frac{x^2}{2}\right]_{-2}^{0} + \left[\frac{x^2}{2}\right]_{0}^{2}$$
-
- $$= 0 - \left(-\frac{(-2)^2}{2}\right) + \frac{2^2}{2} - 0$$
-
- $$= 2 + 2$$
-
- $$= 4$$
-
- - **Answer:** $4$
-
-
-
-## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
-
-- **The Core Concept:** The key concept that separates 85% scorers from 95% scorers in Integrals is the application of $\frac{d}{dx}$ and $\int$ operators in the context of parametric and polar equations. Specifically, this involves recognizing when to use the formula $$\int_{a}^{b} r^2 \, d\theta = \int_{a}^{b} (x^2 + y^2) \, d\theta$$ and how it relates to finding areas and arc lengths in parametric and polar coordinates.
-
- - **What 85% scorers do:** Most students focus on memorizing basic integration formulas, such as $\int x^n \, dx = \frac{x^{n+1}}{n+1} + C$ and $\int \frac{1}{x} \, dx = \ln|x| + C$. They also practice solving straightforward definite integrals using the Fundamental Theorem of Calculus: $$\int_{a}^{b} f(x) \, dx = F(b) - F(a)$$. However, they often struggle to apply these concepts to more complex problems involving parametric or polar equations.
-
- - **What 95% scorers do:** Top scorers, on the other hand, understand that the key to mastering Integrals is recognizing the interplay between $\frac{d}{dx}$ and $\int$ in various contexts. For instance, they can apply the formula $$\int_{a}^{b} \frac{d}{dx} [f(x)] \, dx = f(b) - f(a)$$ to solve problems efficiently. Moreover, they are adept at converting between parametric and polar equations, using formulas like $$x = r \cos(\theta)$$ and $$y = r \sin(\theta)$$, and then applying integration techniques to find areas, arc lengths, and other quantities. They also recognize the importance of checking the orientation of curves and the limits of integration to ensure the correctness of their solutions.
-
- - **Critical Mistake to Avoid:** One critical mistake that 85% scorers often make is forgetting to consider the orientation of the curve when applying the formula $$\int_{C} \mathbf{F} \cdot d\mathbf{r} = \int_{a}^{b} \mathbf{F}(\mathbf{r}(t)) \cdot \mathbf{r}'(t) \, dt$$. Failing to account for the orientation can lead to incorrect signs and, consequently, incorrect answers.
-
- - **Practice Problems:** To improve, practice solving problems that involve:
-
- * Finding areas enclosed by parametric curves
-
- * Calculating arc lengths in polar coordinates
-
- * Applying the Fundamental Theorem of Calculus to solve optimization problems
-
- * Converting between parametric and polar equations and then integrating to find various quantities
-
-| Concept | Formula | Description |
-| --- | --- | --- |
-| Parametric Equations | $x = f(t)$, $y = g(t)$ | Use $\frac{dx}{dt}$ and $\frac{dy}{dt}$ to find $\mathbf{r}'(t)$ |
-| Polar Coordinates | $x = r \cos(\theta)$, $y = r \sin(\theta)$ | Use $\frac{d}{d\theta}$ to find $\frac{dx}{d\theta}$ and $\frac{dy}{d\theta}$ |
-| Arc Length | $L = \int_{a}^{b} \sqrt{\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2} \, dt$ | Use $\frac{dx}{dt}$ and $\frac{dy}{dt}$ to find the arc length |
-
-
+By utilizing the Test Center, you'll be well-prepared for your JEE 2026 exam and develop a deep understanding of integrals, setting yourself up for success in your future academic and professional pursuits.
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- $\int (x^n) dx = \frac{x^{n+1}}{n+1} + C$
+In the last 5 minutes of your study session, take a moment to:
 
- - $\int (a^x) dx = \frac{a^x}{\log(a)} + C$
+*   Review key concepts and formulas
+*   Practice a few practice questions to reinforce your understanding
+*   Plan your next study session, focusing on areas where you need improvement
+*   Take a deep breath, stay focused, and remind yourself that you're one step closer to mastering integrals and acing your JEE 2026 exam.
 
- - $\int \frac{1}{x} dx = \log|x| + C$
-
- - $\int (\sin(x)) dx = -\cos(x) + C$
-
- - $\int (\cos(x)) dx = \sin(x) + C$
-
- - Key facts:
-
- - Integrals can be used to find the area under curves
-
- - The fundamental theorem of calculus relates differentiation and integration
-
- - Integration by parts is a technique used to integrate products of functions
-
- - Common mistakes:
-
- - Forgetting to add the constant of integration
-
- - Incorrectly applying the power rule of integration, which is $\int (x^n) dx = \frac{x^{n+1}}{n+1} + C$ for $n \
-
-eq -1$
-
-
-
-## <a id="-practice-mcqs"></a>📝 Practice MCQs
-
-
-**1. What is the integral of x^2 with respect to x?**
-
-- A) x^2/2
-- B) x^3/3
-- C) x^3/2
-- D) x^2/3
-
-**Answer:** B) The integral of x^2 with respect to x is x^3/3 + C, where C is the constant of integration.
-
----
-
-**2. Evaluate the definite integral of 2x from 0 to 2.**
-
-- A) 2
-- B) 4
-- C) 6
-- D) 8
-
-**Answer:** C) The definite integral of 2x from 0 to 2 is (x^2) from 0 to 2, which equals (2^2) - (0^2) = 4.
-
----
-
-**3. What is the integral of sin(x) with respect to x?**
-
-- A) -cos(x)
-- B) cos(x)
-- C) sin(x)
-- D) tan(x)
-
-**Answer:** A) The integral of sin(x) with respect to x is -cos(x) + C, where C is the constant of integration.
-
----
-
-**4. Evaluate the integral of e^x with respect to x.**
-
-- A) e^x
-- B) e^-x
-- C) ln|x|
-- D) 1/x
-
-**Answer:** A) The integral of e^x with respect to x is e^x + C, where C is the constant of integration.
-
----
-
-**5. What is the integral of 1/x with respect to x?**
-
-- A) ln|x|
-- B) 1/x
-- C) x
-- D) x^2
-
-**Answer:** A) The integral of 1/x with respect to x is ln|x| + C, where C is the constant of integration.
-
-
-
----
-
-### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Integrals Full Mock Test**](/class-11/mathematics/integrals-class-12-notes) now and track your progress against thousands of students.
+Stay motivated, stay consistent, and you'll be a Grandmaster of Integrals in no time. Bookmark this guide and come back daily to reinforce your learning and stay on track. Good luck.
 
 
 ---

@@ -1,0 +1,328 @@
+{
+  "date": "2026-04-03",
+  "targetYear": 2026,
+  "summary": {
+    "fresh": 127,
+    "updated": 22,
+    "needsRegen": 6,
+    "total": 155
+  },
+  "needsRegeneration": [
+    "3d-geometry-intro-class-11-revision-notes-jee-neet",
+    "local-government-class-11-revision-notes-cbse",
+    "physics-heat-light-class-11-revision-notes-jee-neet",
+    "physics-mechanics-class-11-revision-notes-jee-neet",
+    "planning-in-india-class-11-revision-notes-jee-neet",
+    "poverty-unemployment-class-11-revision-notes-jee-neet"
+  ],
+  "details": [
+    {
+      "file": "3d-geometry-intro-class-11-revision-notes-jee-neet.md",
+      "slug": "3d-geometry-intro-class-11-revision-notes-jee-neet",
+      "status": "needs_regen",
+      "changes": [
+        "⚠️ Very thin content (97 words) — needs full regeneration"
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 6,
+      "wordCount": 97
+    },
+    {
+      "file": "anatomy-of-flowering-plants-class-11-revision-notes-neet.md",
+      "slug": "anatomy-of-flowering-plants-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Body text year references updated"
+      ],
+      "yearUpdates": 1,
+      "lastUpdatedAge": 6,
+      "wordCount": 1762
+    },
+    {
+      "file": "biological-classification-class-11-revision-notes-neet.md",
+      "slug": "biological-classification-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Body text year references updated"
+      ],
+      "yearUpdates": 1,
+      "lastUpdatedAge": 6,
+      "wordCount": 991
+    },
+    {
+      "file": "biomolecules-class-11-revision-notes-neet.md",
+      "slug": "biomolecules-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Body text year references updated"
+      ],
+      "yearUpdates": 1,
+      "lastUpdatedAge": 6,
+      "wordCount": 1235
+    },
+    {
+      "file": "cell-the-unit-of-life-class-11-revision-notes-neet.md",
+      "slug": "cell-the-unit-of-life-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Body text year references updated"
+      ],
+      "yearUpdates": 1,
+      "lastUpdatedAge": 6,
+      "wordCount": 1121
+    },
+    {
+      "file": "chemical-bonding-class-11-revision-notes-jee-neet.md",
+      "slug": "chemical-bonding-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Body text year references updated"
+      ],
+      "yearUpdates": 1,
+      "lastUpdatedAge": 6,
+      "wordCount": 2581
+    },
+    {
+      "file": "classification-elements-periodicity-class-11-revision-notes-jee-neet.md",
+      "slug": "classification-elements-periodicity-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Body text year references updated"
+      ],
+      "yearUpdates": 1,
+      "lastUpdatedAge": 6,
+      "wordCount": 2000
+    },
+    {
+      "file": "environmental-chemistry-class-11-revision-notes-neet.md",
+      "slug": "environmental-chemistry-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Body text year references updated"
+      ],
+      "yearUpdates": 1,
+      "lastUpdatedAge": 6,
+      "wordCount": 1145
+    },
+    {
+      "file": "equilibrium-class-11-revision-notes-jee-neet.md",
+      "slug": "equilibrium-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Body text year references updated"
+      ],
+      "yearUpdates": 1,
+      "lastUpdatedAge": 6,
+      "wordCount": 2097
+    },
+    {
+      "file": "hydrocarbons-class-11-revision-notes-neet.md",
+      "slug": "hydrocarbons-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Body text year references updated"
+      ],
+      "yearUpdates": 1,
+      "lastUpdatedAge": 6,
+      "wordCount": 715
+    },
+    {
+      "file": "local-government-class-11-revision-notes-cbse.md",
+      "slug": "local-government-class-11-revision-notes-cbse",
+      "status": "needs_regen",
+      "changes": [
+        "⚠️ Very thin content (253 words) — needs full regeneration"
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 6,
+      "wordCount": 253
+    },
+    {
+      "file": "neet-biology-80-20-rule-class-11-revision-notes-neet.md",
+      "slug": "neet-biology-80-20-rule-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Body text year references updated"
+      ],
+      "yearUpdates": 1,
+      "lastUpdatedAge": 6,
+      "wordCount": 697
+    },
+    {
+      "file": "photosynthesis-in-higher-plants-class-11-revision-notes-neet.md",
+      "slug": "photosynthesis-in-higher-plants-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Body text year references updated"
+      ],
+      "yearUpdates": 1,
+      "lastUpdatedAge": 6,
+      "wordCount": 798
+    },
+    {
+      "file": "physical-world-class-11-revision-notes-jee-neet.md",
+      "slug": "physical-world-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Body text year references updated"
+      ],
+      "yearUpdates": 1,
+      "lastUpdatedAge": 6,
+      "wordCount": 993
+    },
+    {
+      "file": "physics-heat-light-class-11-revision-notes-jee-neet.md",
+      "slug": "physics-heat-light-class-11-revision-notes-jee-neet",
+      "status": "needs_regen",
+      "changes": [
+        "⚠️ Very thin content (264 words) — needs full regeneration"
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 6,
+      "wordCount": 264
+    },
+    {
+      "file": "physics-mechanics-class-11-revision-notes-jee-neet.md",
+      "slug": "physics-mechanics-class-11-revision-notes-jee-neet",
+      "status": "needs_regen",
+      "changes": [
+        "⚠️ Very thin content (314 words) — needs full regeneration"
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 6,
+      "wordCount": 314
+    },
+    {
+      "file": "planning-in-india-class-11-revision-notes-jee-neet.md",
+      "slug": "planning-in-india-class-11-revision-notes-jee-neet",
+      "status": "needs_regen",
+      "changes": [
+        "⚠️ Very thin content (393 words) — needs full regeneration"
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 6,
+      "wordCount": 393
+    },
+    {
+      "file": "plant-kingdom-class-11-revision-notes-neet.md",
+      "slug": "plant-kingdom-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Body text year references updated"
+      ],
+      "yearUpdates": 1,
+      "lastUpdatedAge": 6,
+      "wordCount": 813
+    },
+    {
+      "file": "poverty-unemployment-class-11-revision-notes-jee-neet.md",
+      "slug": "poverty-unemployment-class-11-revision-notes-jee-neet",
+      "status": "needs_regen",
+      "changes": [
+        "⚠️ Very thin content (306 words) — needs full regeneration"
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 6,
+      "wordCount": 306
+    },
+    {
+      "file": "redox-reactions-class-11-revision-notes-neet.md",
+      "slug": "redox-reactions-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Body text year references updated"
+      ],
+      "yearUpdates": 1,
+      "lastUpdatedAge": 6,
+      "wordCount": 1005
+    },
+    {
+      "file": "respiration-in-plants-class-11-revision-notes-neet.md",
+      "slug": "respiration-in-plants-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Body text year references updated"
+      ],
+      "yearUpdates": 1,
+      "lastUpdatedAge": 6,
+      "wordCount": 839
+    },
+    {
+      "file": "states-of-matter-class-11-revision-notes-jee-neet.md",
+      "slug": "states-of-matter-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Body text year references updated"
+      ],
+      "yearUpdates": 1,
+      "lastUpdatedAge": 6,
+      "wordCount": 2073
+    },
+    {
+      "file": "structural-organisation-in-animals-class-11-revision-notes-neet.md",
+      "slug": "structural-organisation-in-animals-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Body text year references updated"
+      ],
+      "yearUpdates": 1,
+      "lastUpdatedAge": 6,
+      "wordCount": 1009
+    },
+    {
+      "file": "structure-of-atom-class-11-revision-notes-jee-neet.md",
+      "slug": "structure-of-atom-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Body text year references updated"
+      ],
+      "yearUpdates": 1,
+      "lastUpdatedAge": 6,
+      "wordCount": 2160
+    },
+    {
+      "file": "the-p-block-elements-11-class-11-revision-notes-jee-neet.md",
+      "slug": "the-p-block-elements-11-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Body text year references updated"
+      ],
+      "yearUpdates": 1,
+      "lastUpdatedAge": 6,
+      "wordCount": 971
+    },
+    {
+      "file": "the-s-block-elements-class-11-revision-notes-jee-neet.md",
+      "slug": "the-s-block-elements-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Body text year references updated"
+      ],
+      "yearUpdates": 1,
+      "lastUpdatedAge": 6,
+      "wordCount": 916
+    },
+    {
+      "file": "thermodynamics-chemistry-class-11-revision-notes-jee-neet.md",
+      "slug": "thermodynamics-chemistry-class-11-revision-notes-jee-neet",
+      "status": "updated",
+      "changes": [
+        "Body text year references updated"
+      ],
+      "yearUpdates": 1,
+      "lastUpdatedAge": 6,
+      "wordCount": 2105
+    },
+    {
+      "file": "transport-in-plants-class-11-revision-notes-neet.md",
+      "slug": "transport-in-plants-class-11-revision-notes-neet",
+      "status": "updated",
+      "changes": [
+        "Body text year references updated"
+      ],
+      "yearUpdates": 1,
+      "lastUpdatedAge": 6,
+      "wordCount": 1103
+    }
+  ]
+}

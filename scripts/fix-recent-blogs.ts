@@ -48,71 +48,81 @@ function rotateKey() {
   groq = new Groq({ apiKey: keys[currentKeyIndex] });
 }
 
-async function fixBlogContent(body: string, title: string, category: string, retries = 5): Promise<string> {
-  const rulesPath = path.join(process.cwd(), 'BLOG_RULES.md');
-  const rules = fs.existsSync(rulesPath) ? fs.readFileSync(rulesPath, 'utf-8').slice(0, 2000) : '';
-
-  // Subject Guard: Force correct category based on title
-  let correctedCategory = category;
-  const lowerTitle = title.toLowerCase();
-  if (lowerTitle.includes('limit') || lowerTitle.includes('derivative') || lowerTitle.includes('matrix') || lowerTitle.includes('determinant') || lowerTitle.includes('integral')) {
-    correctedCategory = 'Mathematics';
-  } else if (lowerTitle.includes('chemistry') || lowerTitle.includes('metallurgy') || lowerTitle.includes('atom') || lowerTitle.includes('solution')) {
-    correctedCategory = 'Chemistry';
-  } else if (lowerTitle.includes('physics') || lowerTitle.includes('current') || lowerTitle.includes('optics') || lowerTitle.includes('motion')) {
-    correctedCategory = 'Physics';
-  }
-
-  // Pre-processing: Strip redundant footers and AI boilerplate
-  let cleanBody = body
-    .replace(/---[\s\S]*?curated by Jules[\s\S]*?---/gi, '')
-    .replace(/\*This post was curated by Jules[\s\S]*?\*/gi, '')
-    .trim();
-
-  const prompt = `You are a top 1% JEE/NEET ranker. You are rewriting this blog into the "GRANDMASTER QUICK REVISION" format.
-  
-  SUBJECT: ${correctedCategory}
-  TOPIC: ${title}
-
-  STRICT CONTENT RULES:
-  1. NOTES FIRST: Start immediately with high-depth revision notes. NO intro filler.
-  2. NO LONG PARAGRAPHS. Use bullet points for everything.
-  3. $$LaTeX$$: Every formula MUST be in LaTeX. Double-escape backslashes (e.g. \\\\frac).
-  4. DEPTH: Minimum 2,000 words. Explain "Why" and "How" for every sub-topic.
-
-  MANDATORY SECTIONS (MUST GENERATE IN THIS ORDER):
-
-  1. "## 📚 Detailed Revision Notes" — This is the main content.
-     - Use ### subheadings for every sub-topic.
-     - Under each ###, provide 2-3 punchy theory sentences followed by a massive bulleted list of facts, properties, and exceptions.
-     - High-yield formulas in $$LaTeX$$.
-
-  2. "## 🪤 The 5 Trap Mistakes" — Format: **Mistake:** [Description] | **Fix:** [How to avoid].
-
-  3. "## ✏️ 3 Solved PYQs" — Step-by-step solutions for real past questions.
-
-  4. "## 🔁 Last 5 Minutes Box" — 3 hard formulas + 2 final traps for immediate pre-exam look.
-
-  OUTPUT: Return ONLY markdown body. No frontmatter. No intro text.
-
-  SOURCE TEXT:
-  ${cleanBody}`;
-
+async function callGroq(prompt: string, temperature = 0.7, retries = 5): Promise<string> {
   try {
     const chatCompletion = await groq.chat.completions.create({
       messages: [{ role: 'user', content: prompt }],
       model: 'llama-3.3-70b-versatile',
-      temperature: 0.2, // Lower temperature for more factual consistency
+      temperature,
       max_tokens: 7800,
     });
-    return chatCompletion.choices[0]?.message?.content || body;
+    return chatCompletion.choices[0]?.message?.content || '';
   } catch (error: any) {
     const msg = error?.message || '';
     if ((error?.status === 429 || msg.includes('rate_limit')) && retries > 0) {
       rotateKey();
       await new Promise(r => setTimeout(r, 5000));
-      return fixBlogContent(body, title, category, retries - 1);
+      return callGroq(prompt, temperature, retries - 1);
     }
+    throw error;
+  }
+}
+
+async function fixBlogContent(body: string, title: string, category: string, practiceLink: string): Promise<string> {
+  // Pre-processing
+  let cleanBody = body
+    .replace(/---[\s\S]*?curated by Jules[\s\S]*?---/gi, '')
+    .replace(/\*This post was curated by Jules[\s\S]*?\*/gi, '')
+    .replace(/<div class="quick-summary">[\s\S]*?<\/div>/gi, '')
+    .replace(/## 📋 Table of Contents[\s\S]*?(?=##|$)/gi, '')
+    .replace(/## (?:🚀 )?(?:Quick Recall|Summary|Last Night Summary)[\s\S]*?(?=##|$)/gi, '')
+    .trim();
+
+  // PASS 1: Granular Theory (0-40%)
+  const part1Prompt = `You are a Grandmaster Educator. Write Part 1 (First 40%) of an ULTRA-DEEP, 3,000-word revision guide for: ${title}.
+  
+  STRICT RULES:
+  1. Use ### for sub-topics and #### for sub-sub-topics.
+  2. Granularity is key. Cover every minor concept.
+  3. Short, punchy bullet points. No long paragraphs.
+  4. Block LaTeX ($$ ... $$) for all formulas.
+  5. NO TOC, NO Intro.
+  
+  SOURCE: ${cleanBody.slice(0, 5000)}`;
+
+  // PASS 2: Granular Theory (41-80%)
+  const part2Prompt = `You are a Grandmaster Educator. Write Part 2 (Middle 40%) of an ULTRA-DEEP, 3,000-word revision guide for: ${title}.
+  
+  STRICT RULES:
+  1. Continue from where Part 1 ends. Use ### and ####.
+  2. Include "## 🪤 The 5 Trap Mistakes" (Deep explanation).
+  3. Every sub-sub-topic must have its own #### header.
+  
+  SOURCE: ${cleanBody.slice(0, 5000)}`;
+
+  // PASS 3: Advanced Theory & Test Center Integration (81-100%)
+  const part3Prompt = `You are a Grandmaster Educator. Write Part 3 (Final 20%) AND the Test Center Integration for: ${title}.
+  
+  RULES:
+  1. Cover remaining advanced concepts.
+  2. MANDATORY: Create a "## 📝 Master the Test Center — Step-by-Step Learning" section.
+  3. Explain WHY they should use the Test Center at ${practiceLink} to learn.
+  4. Use a tone that makes them want to bookmark this and come back daily.
+  5. End with "## 🔁 Last 5 Minutes Box".
+  
+  SOURCE: ${cleanBody.slice(0, 5000)}`;
+
+  try {
+    console.log(`    Step 1: Deep Theory Part 1...`);
+    const part1 = await callGroq(part1Prompt, 0.8);
+    console.log(`    Step 2: Deep Theory Part 2 & Traps...`);
+    const part2 = await callGroq(part2Prompt, 0.8);
+    console.log(`    Step 3: Advanced & Test Center...`);
+    const part3 = await callGroq(part3Prompt, 0.8);
+    
+    return `${part1}\n\n${part2}\n\n${part3}`;
+  } catch (error) {
+    console.error(`      Error in content generation:`, error);
     return body;
   }
 }
@@ -143,7 +153,8 @@ async function main() {
       correctedCategory = 'Mathematics';
     }
 
-    const fixedBody = await fixBlogContent(file.body, file.title, correctedCategory);
+    const practiceLink = file.practice_link || `/class-11/physics/${file.name.replace('.md', '')}`;
+    const fixedBody = await fixBlogContent(file.body, file.title, correctedCategory, practiceLink);
 
     if (fixedBody && fixedBody.length > 1000) {
       let newFm = file.frontmatter;
@@ -156,7 +167,7 @@ async function main() {
         title: file.title,
         heroImage: file.heroImage || `/blog-images/${file.name.replace('.md', '.webp')}`,
         lastUpdated: file.date,
-        practiceLink: file.practice_link || `/class-11/physics/${file.name.replace('.md', '')}`
+        practiceLink: practiceLink
       });
       
       const fullContent = `${newFm}\n\n${standardizedBody}\n`;

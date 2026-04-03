@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "main": "electron/main.js",
+  "main": "main.cjs",
   "scripts": {
     "dev": "vite",
     "build": "npm run blog:sync && npm run seo:regen && tsc -b && vite build && npm run build:ssr && node scripts/prerender-all.js && node scripts/generate-sitemap.js && node scripts/generate-rss.js && npm run seo:ping",
@@ -16,6 +16,23 @@
     "seo:ping": "node scripts/ping-indexnow.js",
     "seo:check": "node scripts/validate-seo.js",
     "seo:indexing": "npx tsx scripts/google-indexing.ts",
+    "seo:schema": "npx tsx scripts/generate-schema.ts",
+    "seo:gsc": "npx tsx scripts/google-search-console.ts",
+    "seo:ga4": "npx tsx scripts/google-analytics.ts",
+    "ai:optimize-seo": "npx tsx scripts/meta-optimizer.ts",
+    "ai:refresh": "npx tsx scripts/auto-refresh-blogs.ts",
+    "ai:repair": "npx tsx scripts/smart-repair.ts",
+    "ai:trends": "npx tsx scripts/quality-tracker.ts",
+    "ai:links": "npx tsx scripts/internal-linker.ts",
+    "ai:duplicates": "npx tsx scripts/duplication-checker.ts",
+    "ai:autopsy": "npx tsx scripts/failed-autopsy.ts",
+    "ai:patterns": "npx tsx scripts/content-patterns.ts",
+    "ai:changelog": "npx tsx scripts/self-changelog.ts",
+    "ai:evolve": "npx tsx scripts/self-improve.ts",
+    "ai:prompt": "npx tsx scripts/prompt-evolution.ts",
+    "ai:decay": "npx tsx scripts/content-decay.ts",
+    "social:threads": "npx tsx scripts/social/thread-generator.ts --recent",
+    "social:shorts": "npx tsx scripts/social/shorts-generator.ts --recent",
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy:rules": "firebase deploy --only firestore",
@@ -87,6 +104,7 @@
     "eslint-plugin-react-refresh": "^0.4.24",
     "firebase-admin": "^13.6.1",
     "globals": "^16.5.0",
+    "google-auth-library": "^10.6.2",
     "googleapis": "^171.4.0",
     "postcss": "^8.5.6",
     "sharp": "^0.34.5",
@@ -96,5 +114,28 @@
     "vite": "^7.2.4",
     "vite-plugin-pwa": "^1.2.0",
     "vite-ssg": "^28.3.0"
+  },
+  "build": {
+    "appId": "com.examcompass.app",
+    "productName": "ExamCompass",
+    "directories": {
+      "output": "dist-electron"
+    },
+    "files": [
+      "dist/**/*",
+      "main.cjs",
+      "preload.js",
+      "package.json"
+    ],
+    "mac": {
+      "target": ["dmg"]
+    },
+    "win": {
+      "target": ["nsis"],
+      "icon": "public/favicon.ico"
+    },
+    "linux": {
+      "target": ["AppImage"]
+    }
   }
 }

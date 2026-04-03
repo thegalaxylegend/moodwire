@@ -119,8 +119,8 @@ async function buildQueue() {
 
     console.log(`📊 Found ${missingTopics.length} missing topics.`);
 
-    // 3. Select 6 topics (respecting priority order)
-    const queue = missingTopics.slice(0, 6);
+    // 3. Select 3 topics (respecting priority order) - Changed to 3 per user request
+    const queue = missingTopics.slice(0, 3);
 
     if (queue.length === 0) {
         console.log("✅ All chapters are covered! No new blogs needed.");

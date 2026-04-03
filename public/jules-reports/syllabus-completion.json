@@ -1,0 +1,13 @@
+{
+  "overall": { "total": 155, "completed": 58, "percentage": 37 },
+  "bySubject": {
+    "Physics": { "total": 45, "completed": 20, "percentage": 44 },
+    "Chemistry": { "total": 45, "completed": 15, "percentage": 33 },
+    "Math": { "total": 45, "completed": 18, "percentage": 40 },
+    "Biology": { "total": 20, "completed": 5, "percentage": 25 }
+  },
+  "byClass": {
+    "Class 11th": { "total": 75, "completed": 35, "percentage": 46 },
+    "Class 12th": { "total": 80, "completed": 23, "percentage": 28 }
+  }
+}

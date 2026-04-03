@@ -1,0 +1,76 @@
+{
+  "overall": {
+    "total": 320,
+    "completed": 123,
+    "percentage": 38
+  },
+  "bySubject": {
+    "Physics": {
+      "total": 29,
+      "completed": 29,
+      "percentage": 100
+    },
+    "Chemistry": {
+      "total": 30,
+      "completed": 27,
+      "percentage": 90
+    },
+    "Mathematics": {
+      "total": 63,
+      "completed": 27,
+      "percentage": 43
+    },
+    "Biology": {
+      "total": 38,
+      "completed": 23,
+      "percentage": 61
+    },
+    "Computer Science": {
+      "total": 11,
+      "completed": 6,
+      "percentage": 55
+    },
+    "Science": {
+      "total": 49,
+      "completed": 6,
+      "percentage": 12
+    },
+    "Social Science": {
+      "total": 67,
+      "completed": 5,
+      "percentage": 7
+    },
+    "English": {
+      "total": 33,
+      "completed": 0,
+      "percentage": 0
+    }
+  },
+  "byClass": {
+    "Class 11": {
+      "total": 73,
+      "completed": 72,
+      "percentage": 99
+    },
+    "Class 12": {
+      "total": 64,
+      "completed": 37,
+      "percentage": 58
+    },
+    "Class 10": {
+      "total": 66,
+      "completed": 7,
+      "percentage": 11
+    },
+    "Class 9": {
+      "total": 53,
+      "completed": 5,
+      "percentage": 9
+    },
+    "Class 8": {
+      "total": 64,
+      "completed": 2,
+      "percentage": 3
+    }
+  }
+}

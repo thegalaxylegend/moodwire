@@ -1,0 +1,239 @@
+{
+  "lastUpdated": "2026-04-03T10:34:48.204Z",
+  "propertyId": "518462579",
+  "totals": {
+    "activeUsers": 165,
+    "sessions": 411,
+    "pageviews": 8522,
+    "engagementRate": "0",
+    "avgEngagementTime": "0"
+  },
+  "devices": [
+    {
+      "category": "desktop",
+      "users": 58
+    },
+    {
+      "category": "mobile",
+      "users": 37
+    }
+  ],
+  "dailyGrowth": [
+    {
+      "date": "20260304",
+      "users": 14,
+      "sessions": 22,
+      "pageviews": 695
+    },
+    {
+      "date": "20260305",
+      "users": 9,
+      "sessions": 18,
+      "pageviews": 633
+    },
+    {
+      "date": "20260306",
+      "users": 7,
+      "sessions": 9,
+      "pageviews": 370
+    },
+    {
+      "date": "20260307",
+      "users": 5,
+      "sessions": 7,
+      "pageviews": 374
+    },
+    {
+      "date": "20260308",
+      "users": 7,
+      "sessions": 17,
+      "pageviews": 527
+    },
+    {
+      "date": "20260309",
+      "users": 17,
+      "sessions": 33,
+      "pageviews": 1309
+    },
+    {
+      "date": "20260310",
+      "users": 4,
+      "sessions": 11,
+      "pageviews": 1107
+    },
+    {
+      "date": "20260311",
+      "users": 7,
+      "sessions": 7,
+      "pageviews": 36
+    },
+    {
+      "date": "20260312",
+      "users": 1,
+      "sessions": 1,
+      "pageviews": 23
+    },
+    {
+      "date": "20260313",
+      "users": 1,
+      "sessions": 1,
+      "pageviews": 10
+    },
+    {
+      "date": "20260314",
+      "users": 6,
+      "sessions": 10,
+      "pageviews": 330
+    },
+    {
+      "date": "20260315",
+      "users": 3,
+      "sessions": 15,
+      "pageviews": 443
+    },
+    {
+      "date": "20260316",
+      "users": 23,
+      "sessions": 52,
+      "pageviews": 282
+    },
+    {
+      "date": "20260317",
+      "users": 3,
+      "sessions": 7,
+      "pageviews": 75
+    },
+    {
+      "date": "20260318",
+      "users": 1,
+      "sessions": 1,
+      "pageviews": 3
+    },
+    {
+      "date": "20260319",
+      "users": 3,
+      "sessions": 5,
+      "pageviews": 12
+    },
+    {
+      "date": "20260320",
+      "users": 1,
+      "sessions": 3,
+      "pageviews": 52
+    },
+    {
+      "date": "20260321",
+      "users": 5,
+      "sessions": 21,
+      "pageviews": 313
+    },
+    {
+      "date": "20260322",
+      "users": 6,
+      "sessions": 23,
+      "pageviews": 244
+    },
+    {
+      "date": "20260323",
+      "users": 6,
+      "sessions": 19,
+      "pageviews": 152
+    },
+    {
+      "date": "20260324",
+      "users": 3,
+      "sessions": 18,
+      "pageviews": 290
+    },
+    {
+      "date": "20260325",
+      "users": 4,
+      "sessions": 12,
+      "pageviews": 58
+    },
+    {
+      "date": "20260326",
+      "users": 3,
+      "sessions": 6,
+      "pageviews": 31
+    },
+    {
+      "date": "20260328",
+      "users": 4,
+      "sessions": 11,
+      "pageviews": 106
+    },
+    {
+      "date": "20260329",
+      "users": 4,
+      "sessions": 21,
+      "pageviews": 239
+    },
+    {
+      "date": "20260330",
+      "users": 2,
+      "sessions": 6,
+      "pageviews": 15
+    },
+    {
+      "date": "20260331",
+      "users": 5,
+      "sessions": 22,
+      "pageviews": 235
+    },
+    {
+      "date": "20260401",
+      "users": 5,
+      "sessions": 8,
+      "pageviews": 56
+    },
+    {
+      "date": "20260403",
+      "users": 6,
+      "sessions": 25,
+      "pageviews": 502
+    }
+  ],
+  "topPages": [
+    {
+      "path": "/dashboard",
+      "views": 1832
+    },
+    {
+      "path": "/blog",
+      "views": 1456
+    },
+    {
+      "path": "/",
+      "views": 889
+    },
+    {
+      "path": "/dashboard/test-center",
+      "views": 617
+    },
+    {
+      "path": "/onboarding",
+      "views": 318
+    },
+    {
+      "path": "/dashboard/study-plan",
+      "views": 290
+    },
+    {
+      "path": "/dashboard/mock",
+      "views": 270
+    },
+    {
+      "path": "/dashboard/syllabus",
+      "views": 198
+    },
+    {
+      "path": "/dashboard/decision-simulator",
+      "views": 196
+    },
+    {
+      "path": "/login",
+      "views": 151
+    }
+  ]
+}

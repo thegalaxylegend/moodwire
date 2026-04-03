@@ -1,0 +1,899 @@
+{
+  "date": "2026-04-03",
+  "summary": {
+    "comparisons": 11935,
+    "highOverlapPairs": 258,
+    "overusedHeadings": 36
+  },
+  "duplicates": [
+    {
+      "blog1": "upsc-optional-selection-guide-class-11-revision-notes-jee",
+      "blog2": "upsc-optional-selection-guide",
+      "overlapPercentage": 100,
+      "sharedSentences": 57,
+      "totalSentences": 57,
+      "examples": [
+        "if you’re a upsc aspirant, you know that the \"optional subject\" is where the battle for a top rank is won or lost",
+        "it’s 500 marks out of a 1750-mark total in mains",
+        "it’s roughly 30% of your total score, yet it takes up 50% of your mental space"
+      ]
+    },
+    {
+      "blog1": "algorithms-analysis-class-11-revision-notes-gate-boards",
+      "blog2": "local-government-class-11-revision-notes-cbse",
+      "overlapPercentage": 40,
+      "sharedSentences": 4,
+      "totalSentences": 10,
+      "examples": [
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush"
+      ]
+    },
+    {
+      "blog1": "algorithms-analysis-class-11-revision-notes-gate-boards",
+      "blog2": "physics-heat-light-class-11-revision-notes-jee-neet",
+      "overlapPercentage": 40,
+      "sharedSentences": 4,
+      "totalSentences": 10,
+      "examples": [
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush"
+      ]
+    },
+    {
+      "blog1": "algorithms-design-class-11-revision-notes-gate-boards",
+      "blog2": "local-government-class-11-revision-notes-cbse",
+      "overlapPercentage": 40,
+      "sharedSentences": 4,
+      "totalSentences": 10,
+      "examples": [
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush"
+      ]
+    },
+    {
+      "blog1": "algorithms-design-class-11-revision-notes-gate-boards",
+      "blog2": "physics-heat-light-class-11-revision-notes-jee-neet",
+      "overlapPercentage": 40,
+      "sharedSentences": 4,
+      "totalSentences": 10,
+      "examples": [
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush"
+      ]
+    },
+    {
+      "blog1": "anatomy-of-flowering-plants-class-11-revision-notes-neet",
+      "blog2": "local-government-class-11-revision-notes-cbse",
+      "overlapPercentage": 40,
+      "sharedSentences": 4,
+      "totalSentences": 10,
+      "examples": [
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush"
+      ]
+    },
+    {
+      "blog1": "anatomy-of-flowering-plants-class-11-revision-notes-neet",
+      "blog2": "physics-heat-light-class-11-revision-notes-jee-neet",
+      "overlapPercentage": 40,
+      "sharedSentences": 4,
+      "totalSentences": 10,
+      "examples": [
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush"
+      ]
+    },
+    {
+      "blog1": "ancient-india-indus-valley-class-11-revision-notes-cbse",
+      "blog2": "local-government-class-11-revision-notes-cbse",
+      "overlapPercentage": 40,
+      "sharedSentences": 4,
+      "totalSentences": 10,
+      "examples": [
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush"
+      ]
+    },
+    {
+      "blog1": "ancient-india-indus-valley-class-11-revision-notes-cbse",
+      "blog2": "physics-heat-light-class-11-revision-notes-jee-neet",
+      "overlapPercentage": 40,
+      "sharedSentences": 4,
+      "totalSentences": 10,
+      "examples": [
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush"
+      ]
+    },
+    {
+      "blog1": "ancient-india-mahajanapadas-class-11-revision-notes-jee",
+      "blog2": "local-government-class-11-revision-notes-cbse",
+      "overlapPercentage": 40,
+      "sharedSentences": 4,
+      "totalSentences": 10,
+      "examples": [
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush"
+      ]
+    },
+    {
+      "blog1": "ancient-india-mahajanapadas-class-11-revision-notes-jee",
+      "blog2": "physics-heat-light-class-11-revision-notes-jee-neet",
+      "overlapPercentage": 40,
+      "sharedSentences": 4,
+      "totalSentences": 10,
+      "examples": [
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush"
+      ]
+    },
+    {
+      "blog1": "ancient-india-vedic-age-class-11-revision-notes-jee",
+      "blog2": "local-government-class-11-revision-notes-cbse",
+      "overlapPercentage": 40,
+      "sharedSentences": 4,
+      "totalSentences": 10,
+      "examples": [
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush"
+      ]
+    },
+    {
+      "blog1": "ancient-india-vedic-age-class-11-revision-notes-jee",
+      "blog2": "physics-heat-light-class-11-revision-notes-jee-neet",
+      "overlapPercentage": 40,
+      "sharedSentences": 4,
+      "totalSentences": 10,
+      "examples": [
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush"
+      ]
+    },
+    {
+      "blog1": "animal-kingdom-class-11-revision-notes-neet",
+      "blog2": "local-government-class-11-revision-notes-cbse",
+      "overlapPercentage": 40,
+      "sharedSentences": 4,
+      "totalSentences": 10,
+      "examples": [
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush"
+      ]
+    },
+    {
+      "blog1": "animal-kingdom-class-11-revision-notes-neet",
+      "blog2": "physics-heat-light-class-11-revision-notes-jee-neet",
+      "overlapPercentage": 40,
+      "sharedSentences": 4,
+      "totalSentences": 10,
+      "examples": [
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush"
+      ]
+    },
+    {
+      "blog1": "art-culture-architecture-class-11-revision-notes-jee-neet",
+      "blog2": "local-government-class-11-revision-notes-cbse",
+      "overlapPercentage": 40,
+      "sharedSentences": 4,
+      "totalSentences": 10,
+      "examples": [
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush"
+      ]
+    },
+    {
+      "blog1": "art-culture-architecture-class-11-revision-notes-jee-neet",
+      "blog2": "physics-heat-light-class-11-revision-notes-jee-neet",
+      "overlapPercentage": 40,
+      "sharedSentences": 4,
+      "totalSentences": 10,
+      "examples": [
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush"
+      ]
+    },
+    {
+      "blog1": "binomial-theorem-class-11-revision-notes-jee",
+      "blog2": "local-government-class-11-revision-notes-cbse",
+      "overlapPercentage": 40,
+      "sharedSentences": 4,
+      "totalSentences": 10,
+      "examples": [
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush"
+      ]
+    },
+    {
+      "blog1": "binomial-theorem-class-11-revision-notes-jee",
+      "blog2": "physics-heat-light-class-11-revision-notes-jee-neet",
+      "overlapPercentage": 40,
+      "sharedSentences": 4,
+      "totalSentences": 10,
+      "examples": [
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush"
+      ]
+    },
+    {
+      "blog1": "biogeography-class-11-revision-notes-neet",
+      "blog2": "local-government-class-11-revision-notes-cbse",
+      "overlapPercentage": 40,
+      "sharedSentences": 4,
+      "totalSentences": 10,
+      "examples": [
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush"
+      ]
+    },
+    {
+      "blog1": "biogeography-class-11-revision-notes-neet",
+      "blog2": "physics-heat-light-class-11-revision-notes-jee-neet",
+      "overlapPercentage": 40,
+      "sharedSentences": 4,
+      "totalSentences": 10,
+      "examples": [
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush"
+      ]
+    },
+    {
+      "blog1": "biological-classification-class-11-revision-notes-neet",
+      "blog2": "local-government-class-11-revision-notes-cbse",
+      "overlapPercentage": 40,
+      "sharedSentences": 4,
+      "totalSentences": 10,
+      "examples": [
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush"
+      ]
+    },
+    {
+      "blog1": "biological-classification-class-11-revision-notes-neet",
+      "blog2": "physics-heat-light-class-11-revision-notes-jee-neet",
+      "overlapPercentage": 40,
+      "sharedSentences": 4,
+      "totalSentences": 10,
+      "examples": [
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush"
+      ]
+    },
+    {
+      "blog1": "biomolecules-class-11-revision-notes-neet",
+      "blog2": "local-government-class-11-revision-notes-cbse",
+      "overlapPercentage": 40,
+      "sharedSentences": 4,
+      "totalSentences": 10,
+      "examples": [
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush"
+      ]
+    },
+    {
+      "blog1": "biomolecules-class-11-revision-notes-neet",
+      "blog2": "physics-heat-light-class-11-revision-notes-jee-neet",
+      "overlapPercentage": 40,
+      "sharedSentences": 4,
+      "totalSentences": 10,
+      "examples": [
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush"
+      ]
+    },
+    {
+      "blog1": "body-fluids-and-circulation-class-11-revision-notes-neet",
+      "blog2": "local-government-class-11-revision-notes-cbse",
+      "overlapPercentage": 40,
+      "sharedSentences": 4,
+      "totalSentences": 10,
+      "examples": [
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush"
+      ]
+    },
+    {
+      "blog1": "body-fluids-and-circulation-class-11-revision-notes-neet",
+      "blog2": "physics-heat-light-class-11-revision-notes-jee-neet",
+      "overlapPercentage": 40,
+      "sharedSentences": 4,
+      "totalSentences": 10,
+      "examples": [
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush"
+      ]
+    },
+    {
+      "blog1": "breathing-and-exchange-of-gases-class-11-revision-notes-neet",
+      "blog2": "local-government-class-11-revision-notes-cbse",
+      "overlapPercentage": 40,
+      "sharedSentences": 4,
+      "totalSentences": 10,
+      "examples": [
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush"
+      ]
+    },
+    {
+      "blog1": "breathing-and-exchange-of-gases-class-11-revision-notes-neet",
+      "blog2": "physics-heat-light-class-11-revision-notes-jee-neet",
+      "overlapPercentage": 40,
+      "sharedSentences": 4,
+      "totalSentences": 10,
+      "examples": [
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush"
+      ]
+    },
+    {
+      "blog1": "cell-cycle-and-cell-division-class-11-revision-notes-neet",
+      "blog2": "local-government-class-11-revision-notes-cbse",
+      "overlapPercentage": 40,
+      "sharedSentences": 4,
+      "totalSentences": 10,
+      "examples": [
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush",
+        "this post was curated by jules, exam compass bot, and edited for accuracy by ayush"
+      ]
+    }
+  ],
+  "overusedHeadings": [
+    {
+      "heading": "table of contents",
+      "count": 36,
+      "blogs": [
+        "aldehydes-ketones-and-carboxylic-acids-class-12-notes",
+        "amines-class-12-notes",
+        "anatomy-of-flowering-plants-class-11-revision-notes-neet",
+        "animal-kingdom-class-11-revision-notes-neet",
+        "application-of-integrals-class-12-notes",
+        "biological-classification-class-11-revision-notes-neet",
+        "cell-cycle-and-cell-division-class-11-revision-notes-neet",
+        "cell-the-unit-of-life-class-11-revision-notes-neet",
+        "chemical-bonding-class-11-revision-notes-jee-neet",
+        "classification-elements-periodicity-class-11-revision-notes-jee-neet",
+        "continuity-and-differentiability-class-12-notes",
+        "determinants-class-12-notes",
+        "differential-equations-class-12-notes",
+        "digestion-and-absorption-class-11-revision-notes-neet",
+        "equilibrium-class-11-revision-notes-jee-neet",
+        "hydrocarbons-class-11-revision-notes-neet",
+        "hydrogen-class-11-revision-notes-neet",
+        "integrals-class-12-notes",
+        "metallurgy-class-12-notes",
+        "mineral-nutrition-class-11-revision-notes-neet",
+        "morphology-of-flowering-plants-class-11-revision-notes-neet",
+        "organic-chemistry-basic-principles-class-11-revision-notes-jee-neet",
+        "photosynthesis-in-higher-plants-class-11-revision-notes-neet",
+        "physical-world-class-11-revision-notes-jee-neet",
+        "plant-growth-and-development-class-11-revision-notes-neet",
+        "plant-kingdom-class-11-revision-notes-neet",
+        "redox-reactions-class-11-revision-notes-neet",
+        "respiration-in-plants-class-11-revision-notes-neet",
+        "solid-state-class-12-notes",
+        "states-of-matter-class-11-revision-notes-jee-neet",
+        "structural-organisation-in-animals-class-11-revision-notes-neet",
+        "structure-of-atom-class-11-revision-notes-jee-neet",
+        "surface-chemistry-class-12-notes",
+        "the-living-world-class-11-revision-notes-neet",
+        "the-p-block-elements-11-class-11-revision-notes-jee-neet",
+        "thermodynamics-chemistry-class-11-revision-notes-jee-neet"
+      ]
+    },
+    {
+      "heading": "introduction",
+      "count": 33,
+      "blogs": [
+        "binomial-theorem-class-11-revision-notes-jee",
+        "complex-numbers-class-11-revision-notes-jee-neet",
+        "conic-sections-class-11-revision-notes-jee",
+        "current-electricity-class-11-revision-notes-neet",
+        "electric-charges-fields-class-11-revision-notes-jee-neet",
+        "gravitation-class-11-revision-notes-jee-neet",
+        "kinetic-theory-class-11-revision-notes-jee-neet",
+        "laws-of-motion-class-11-revision-notes-jee-neet",
+        "limits-derivatives-class-11-revision-notes-jee-neet",
+        "linear-inequalities-class-11-revision-notes-jee-neet",
+        "mathematical-induction-class-11-revision-notes-jee-neet",
+        "mathematical-reasoning-class-11-revision-notes-jee-neet",
+        "mechanical-properties-of-fluids-class-11-revision-notes-jee-neet",
+        "mechanical-properties-of-solids-class-11-revision-notes-jee-neet",
+        "motion-in-a-plane-class-11-revision-notes-jee-neet",
+        "motion-in-a-straight-line-class-11-revision-notes-jee-neet",
+        "moving-charges-magnetism-class-11-revision-notes-neet",
+        "oscillations-class-11-revision-notes-jee-neet",
+        "permutations-combinations-class-11-revision-notes-jee",
+        "probability-class-11-revision-notes-jee",
+        "relations-functions-class-11-revision-notes-jee-neet",
+        "rotational-motion-class-11-revision-notes-jee-neet",
+        "sequences-series-class-11-revision-notes-jee",
+        "sets-class-11-revision-notes-jee-neet",
+        "statistics-class-11-revision-notes-jee",
+        "straight-lines-class-11-revision-notes-jee-neet",
+        "thermal-properties-of-matter-class-11-revision-notes-jee-neet",
+        "thermodynamics-class-11-revision-notes-neet",
+        "three-dimensional-geometry-class-11-revision-notes-jee-neet",
+        "trigonometric-functions-class-11-revision-notes-jee-neet",
+        "units-and-measurements-class-11-revision-notes-jee-neet",
+        "waves-class-11-revision-notes-neet",
+        "work-energy-and-power-class-11-revision-notes-neet"
+      ]
+    },
+    {
+      "heading": "comprehensive exam strategy qa",
+      "count": 33,
+      "blogs": [
+        "binomial-theorem-class-11-revision-notes-jee",
+        "complex-numbers-class-11-revision-notes-jee-neet",
+        "conic-sections-class-11-revision-notes-jee",
+        "current-electricity-class-11-revision-notes-neet",
+        "electric-charges-fields-class-11-revision-notes-jee-neet",
+        "gravitation-class-11-revision-notes-jee-neet",
+        "kinetic-theory-class-11-revision-notes-jee-neet",
+        "laws-of-motion-class-11-revision-notes-jee-neet",
+        "limits-derivatives-class-11-revision-notes-jee-neet",
+        "linear-inequalities-class-11-revision-notes-jee-neet",
+        "mathematical-induction-class-11-revision-notes-jee-neet",
+        "mathematical-reasoning-class-11-revision-notes-jee-neet",
+        "mechanical-properties-of-fluids-class-11-revision-notes-jee-neet",
+        "mechanical-properties-of-solids-class-11-revision-notes-jee-neet",
+        "motion-in-a-plane-class-11-revision-notes-jee-neet",
+        "motion-in-a-straight-line-class-11-revision-notes-jee-neet",
+        "moving-charges-magnetism-class-11-revision-notes-neet",
+        "oscillations-class-11-revision-notes-jee-neet",
+        "permutations-combinations-class-11-revision-notes-jee",
+        "probability-class-11-revision-notes-jee",
+        "relations-functions-class-11-revision-notes-jee-neet",
+        "rotational-motion-class-11-revision-notes-jee-neet",
+        "sequences-series-class-11-revision-notes-jee",
+        "sets-class-11-revision-notes-jee-neet",
+        "statistics-class-11-revision-notes-jee",
+        "straight-lines-class-11-revision-notes-jee-neet",
+        "thermal-properties-of-matter-class-11-revision-notes-jee-neet",
+        "thermodynamics-class-11-revision-notes-neet",
+        "three-dimensional-geometry-class-11-revision-notes-jee-neet",
+        "trigonometric-functions-class-11-revision-notes-jee-neet",
+        "units-and-measurements-class-11-revision-notes-jee-neet",
+        "waves-class-11-revision-notes-neet",
+        "work-energy-and-power-class-11-revision-notes-neet"
+      ]
+    },
+    {
+      "heading": "related revision notes",
+      "count": 33,
+      "blogs": [
+        "binomial-theorem-class-11-revision-notes-jee",
+        "complex-numbers-class-11-revision-notes-jee-neet",
+        "conic-sections-class-11-revision-notes-jee",
+        "current-electricity-class-11-revision-notes-neet",
+        "electric-charges-fields-class-11-revision-notes-jee-neet",
+        "gravitation-class-11-revision-notes-jee-neet",
+        "kinetic-theory-class-11-revision-notes-jee-neet",
+        "laws-of-motion-class-11-revision-notes-jee-neet",
+        "limits-derivatives-class-11-revision-notes-jee-neet",
+        "linear-inequalities-class-11-revision-notes-jee-neet",
+        "mathematical-induction-class-11-revision-notes-jee-neet",
+        "mathematical-reasoning-class-11-revision-notes-jee-neet",
+        "mechanical-properties-of-fluids-class-11-revision-notes-jee-neet",
+        "mechanical-properties-of-solids-class-11-revision-notes-jee-neet",
+        "motion-in-a-plane-class-11-revision-notes-jee-neet",
+        "motion-in-a-straight-line-class-11-revision-notes-jee-neet",
+        "moving-charges-magnetism-class-11-revision-notes-neet",
+        "oscillations-class-11-revision-notes-jee-neet",
+        "permutations-combinations-class-11-revision-notes-jee",
+        "probability-class-11-revision-notes-jee",
+        "relations-functions-class-11-revision-notes-jee-neet",
+        "rotational-motion-class-11-revision-notes-jee-neet",
+        "sequences-series-class-11-revision-notes-jee",
+        "sets-class-11-revision-notes-jee-neet",
+        "statistics-class-11-revision-notes-jee",
+        "straight-lines-class-11-revision-notes-jee-neet",
+        "thermal-properties-of-matter-class-11-revision-notes-jee-neet",
+        "thermodynamics-class-11-revision-notes-neet",
+        "three-dimensional-geometry-class-11-revision-notes-jee-neet",
+        "trigonometric-functions-class-11-revision-notes-jee-neet",
+        "units-and-measurements-class-11-revision-notes-jee-neet",
+        "waves-class-11-revision-notes-neet",
+        "work-energy-and-power-class-11-revision-notes-neet"
+      ]
+    },
+    {
+      "heading": "core concepts",
+      "count": 32,
+      "blogs": [
+        "ancient-india-indus-valley-class-11-revision-notes-cbse",
+        "ancient-india-mahajanapadas-class-11-revision-notes-jee",
+        "ancient-india-vedic-age-class-11-revision-notes-jee",
+        "animal-kingdom-class-11-revision-notes-neet",
+        "art-culture-architecture-class-11-revision-notes-jee-neet",
+        "biological-classification-class-11-revision-notes-neet",
+        "cell-cycle-and-cell-division-class-11-revision-notes-neet",
+        "chemical-coordination-and-integration-class-11-revision-notes-neet",
+        "classification-of-elements-class-11-revision-notes-jee-neet",
+        "climatology-class-11-revision-notes-jee-neet",
+        "environmental-chemistry-class-11-revision-notes-neet",
+        "excretory-products-and-elimination-class-11-revision-notes-neet",
+        "geomorphology-class-11-revision-notes-cbse",
+        "hydrocarbons-class-11-revision-notes-neet",
+        "hydrogen-class-11-revision-notes-neet",
+        "locomotion-and-movement-class-11-revision-notes-neet",
+        "medieval-india-bhakti-sufi-class-11-revision-notes-cbse",
+        "morphology-of-flowering-plants-class-11-revision-notes-neet",
+        "neural-control-and-coordination-class-11-revision-notes-neet",
+        "photosynthesis-in-higher-plants-class-11-revision-notes-neet",
+        "physical-world-class-11-revision-notes-jee-neet",
+        "plant-growth-and-development-class-11-revision-notes-neet",
+        "plant-kingdom-class-11-revision-notes-neet",
+        "ray-optics-class-12-quick-class-12-revision-notes-jee-neet",
+        "redox-reactions-class-11-revision-notes-neet",
+        "some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet",
+        "structural-organisation-in-animals-class-11-revision-notes-neet",
+        "structure-of-the-atom-class-11-revision-notes-neet",
+        "the-living-world-class-11-revision-notes-neet",
+        "the-p-block-elements-11-class-11-revision-notes-jee-neet",
+        "the-s-block-elements-class-11-revision-notes-jee-neet",
+        "world-history-industrial-revolution-class-11-revision-notes-jee-neet"
+      ]
+    },
+    {
+      "heading": "quick recall box",
+      "count": 31,
+      "blogs": [
+        "3d-geometry-intro-class-11-revision-notes-jee-neet",
+        "agriculture-class-11-revision-notes-neet",
+        "ai-exam-prep-future-class-11-revision-notes-jee-neet",
+        "ai-study-hack-pomodoro-class-11-revision-notes-neet",
+        "algorithms-analysis-class-11-revision-notes-gate-boards",
+        "algorithms-design-class-11-revision-notes-gate-boards",
+        "alternating-current-class-12-notes",
+        "computer-organization-class-11-notes",
+        "constitutional-framework-class-11-revision-notes-cbse",
+        "data-structures-linear-class-11-revision-notes-gate-boards",
+        "data-structures-non-linear-class-11-revision-notes-gate-boards",
+        "digital-logic-class-11-revision-notes-gate-boards",
+        "electromagnetic-induction-class-12-revision-notes-jee-neet",
+        "electromagnetic-waves-class-12-notes",
+        "electrostatics-class-12-revision-notes-jee-neet",
+        "indian-geography-climate-class-11-revision-notes-cbse",
+        "limits-and-derivatives-class-11-revision-notes-jee",
+        "local-government-class-11-revision-notes-cbse",
+        "magnetic-effects-of-current-class-12-notes",
+        "magnetism-and-matter-class-12-notes",
+        "permutations-and-combinations-class-11-revision-notes-jee",
+        "physics-heat-light-class-11-revision-notes-jee-neet",
+        "physics-mechanics-class-11-revision-notes-jee-neet",
+        "planning-in-india-class-11-revision-notes-jee-neet",
+        "poverty-unemployment-class-11-revision-notes-jee-neet",
+        "principle-of-mathematical-induction-class-11-revision-notes-jee",
+        "probability-intro-class-11-revision-notes-jee",
+        "relations-and-functions-class-11-notes",
+        "some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet",
+        "structure-of-the-atom-class-11-revision-notes-neet",
+        "wave-optics-class-12-notes"
+      ]
+    },
+    {
+      "heading": "ayushs note",
+      "count": 30,
+      "blogs": [
+        "anatomy-of-flowering-plants-class-11-revision-notes-neet",
+        "animal-kingdom-class-11-revision-notes-neet",
+        "atoms-class-12-notes",
+        "biological-classification-class-11-revision-notes-neet",
+        "cell-cycle-and-cell-division-class-11-revision-notes-neet",
+        "cell-the-unit-of-life-class-11-revision-notes-neet",
+        "chemical-kinetics-class-12-notes",
+        "communication-systems-class-12-notes",
+        "coordination-compounds-class-12-notes",
+        "dual-nature-of-radiation-class-12-notes",
+        "environmental-chemistry-class-11-revision-notes-neet",
+        "haloalkanes-and-haloarenes-class-12-notes",
+        "hydrocarbons-class-11-revision-notes-neet",
+        "hydrogen-class-11-revision-notes-neet",
+        "mineral-nutrition-class-11-revision-notes-neet",
+        "morphology-of-flowering-plants-class-11-revision-notes-neet",
+        "nuclei-class-12-notes",
+        "organic-chemistry-basic-principles-class-11-revision-notes-jee-neet",
+        "photosynthesis-in-higher-plants-class-11-revision-notes-neet",
+        "physical-world-class-11-revision-notes-jee-neet",
+        "plant-growth-and-development-class-11-revision-notes-neet",
+        "plant-kingdom-class-11-revision-notes-neet",
+        "redox-reactions-class-11-revision-notes-neet",
+        "respiration-in-plants-class-11-revision-notes-neet",
+        "semiconductor-electronics-class-12-notes",
+        "solutions-class-12-notes",
+        "structural-organisation-in-animals-class-11-revision-notes-neet",
+        "the-living-world-class-11-revision-notes-neet",
+        "the-p-block-elements-11-class-11-revision-notes-jee-neet",
+        "the-s-block-elements-class-11-revision-notes-jee-neet"
+      ]
+    },
+    {
+      "heading": "practice mcqs",
+      "count": 29,
+      "blogs": [
+        "anatomy-of-flowering-plants-class-11-revision-notes-neet",
+        "animal-kingdom-class-11-revision-notes-neet",
+        "atoms-class-12-notes",
+        "biological-classification-class-11-revision-notes-neet",
+        "cell-cycle-and-cell-division-class-11-revision-notes-neet",
+        "cell-the-unit-of-life-class-11-revision-notes-neet",
+        "chemical-kinetics-class-12-notes",
+        "communication-systems-class-12-notes",
+        "coordination-compounds-class-12-notes",
+        "dual-nature-of-radiation-class-12-notes",
+        "environmental-chemistry-class-11-revision-notes-neet",
+        "haloalkanes-and-haloarenes-class-12-notes",
+        "hydrocarbons-class-11-revision-notes-neet",
+        "hydrogen-class-11-revision-notes-neet",
+        "mineral-nutrition-class-11-revision-notes-neet",
+        "morphology-of-flowering-plants-class-11-revision-notes-neet",
+        "nuclei-class-12-notes",
+        "organic-chemistry-basic-principles-class-11-revision-notes-jee-neet",
+        "photosynthesis-in-higher-plants-class-11-revision-notes-neet",
+        "physical-world-class-11-revision-notes-jee-neet",
+        "plant-growth-and-development-class-11-revision-notes-neet",
+        "plant-kingdom-class-11-revision-notes-neet",
+        "redox-reactions-class-11-revision-notes-neet",
+        "semiconductor-electronics-class-12-notes",
+        "solutions-class-12-notes",
+        "structural-organisation-in-animals-class-11-revision-notes-neet",
+        "the-living-world-class-11-revision-notes-neet",
+        "the-p-block-elements-11-class-11-revision-notes-jee-neet",
+        "the-s-block-elements-class-11-revision-notes-jee-neet"
+      ]
+    },
+    {
+      "heading": "related notes links",
+      "count": 22,
+      "blogs": [
+        "anatomy-of-flowering-plants-class-11-revision-notes-neet",
+        "animal-kingdom-class-11-revision-notes-neet",
+        "biological-classification-class-11-revision-notes-neet",
+        "cell-cycle-and-cell-division-class-11-revision-notes-neet",
+        "cell-the-unit-of-life-class-11-revision-notes-neet",
+        "digestion-and-absorption-class-11-revision-notes-neet",
+        "environmental-chemistry-class-11-revision-notes-neet",
+        "hydrocarbons-class-11-revision-notes-neet",
+        "hydrogen-class-11-revision-notes-neet",
+        "mineral-nutrition-class-11-revision-notes-neet",
+        "morphology-of-flowering-plants-class-11-revision-notes-neet",
+        "organic-chemistry-basic-principles-class-11-revision-notes-jee-neet",
+        "photosynthesis-in-higher-plants-class-11-revision-notes-neet",
+        "physical-world-class-11-revision-notes-jee-neet",
+        "plant-growth-and-development-class-11-revision-notes-neet",
+        "plant-kingdom-class-11-revision-notes-neet",
+        "redox-reactions-class-11-revision-notes-neet",
+        "respiration-in-plants-class-11-revision-notes-neet",
+        "structural-organisation-in-animals-class-11-revision-notes-neet",
+        "the-living-world-class-11-revision-notes-neet",
+        "the-p-block-elements-11-class-11-revision-notes-jee-neet",
+        "the-s-block-elements-class-11-revision-notes-jee-neet"
+      ]
+    },
+    {
+      "heading": "last updated date",
+      "count": 15,
+      "blogs": [
+        "animal-kingdom-class-11-revision-notes-neet",
+        "biological-classification-class-11-revision-notes-neet",
+        "cell-cycle-and-cell-division-class-11-revision-notes-neet",
+        "cell-the-unit-of-life-class-11-revision-notes-neet",
+        "environmental-chemistry-class-11-revision-notes-neet",
+        "hydrogen-class-11-revision-notes-neet",
+        "morphology-of-flowering-plants-class-11-revision-notes-neet",
+        "organic-chemistry-basic-principles-class-11-revision-notes-jee-neet",
+        "photosynthesis-in-higher-plants-class-11-revision-notes-neet",
+        "physical-world-class-11-revision-notes-jee-neet",
+        "plant-growth-and-development-class-11-revision-notes-neet",
+        "respiration-in-plants-class-11-revision-notes-neet",
+        "structural-organisation-in-animals-class-11-revision-notes-neet",
+        "the-living-world-class-11-revision-notes-neet",
+        "the-s-block-elements-class-11-revision-notes-jee-neet"
+      ]
+    },
+    {
+      "heading": "shortcut formula  trick",
+      "count": 14,
+      "blogs": [
+        "animal-kingdom-class-11-revision-notes-neet",
+        "biological-classification-class-11-revision-notes-neet",
+        "cell-the-unit-of-life-class-11-revision-notes-neet",
+        "environmental-chemistry-class-11-revision-notes-neet",
+        "morphology-of-flowering-plants-class-11-revision-notes-neet",
+        "organic-chemistry-basic-principles-class-11-revision-notes-jee-neet",
+        "photosynthesis-in-higher-plants-class-11-revision-notes-neet",
+        "physical-world-class-11-revision-notes-jee-neet",
+        "plant-growth-and-development-class-11-revision-notes-neet",
+        "plant-kingdom-class-11-revision-notes-neet",
+        "structural-organisation-in-animals-class-11-revision-notes-neet",
+        "the-living-world-class-11-revision-notes-neet",
+        "the-p-block-elements-11-class-11-revision-notes-jee-neet",
+        "the-s-block-elements-class-11-revision-notes-jee-neet"
+      ]
+    },
+    {
+      "heading": "trap questions  exceptions",
+      "count": 14,
+      "blogs": [
+        "animal-kingdom-class-11-revision-notes-neet",
+        "biological-classification-class-11-revision-notes-neet",
+        "cell-the-unit-of-life-class-11-revision-notes-neet",
+        "environmental-chemistry-class-11-revision-notes-neet",
+        "morphology-of-flowering-plants-class-11-revision-notes-neet",
+        "organic-chemistry-basic-principles-class-11-revision-notes-jee-neet",
+        "photosynthesis-in-higher-plants-class-11-revision-notes-neet",
+        "physical-world-class-11-revision-notes-jee-neet",
+        "plant-growth-and-development-class-11-revision-notes-neet",
+        "plant-kingdom-class-11-revision-notes-neet",
+        "structural-organisation-in-animals-class-11-revision-notes-neet",
+        "the-living-world-class-11-revision-notes-neet",
+        "the-p-block-elements-11-class-11-revision-notes-jee-neet",
+        "the-s-block-elements-class-11-revision-notes-jee-neet"
+      ]
+    },
+    {
+      "heading": "why this chapter matters",
+      "count": 13,
+      "blogs": [
+        "anatomy-of-flowering-plants-class-11-revision-notes-neet",
+        "biological-classification-class-11-revision-notes-neet",
+        "cell-the-unit-of-life-class-11-revision-notes-neet",
+        "environmental-chemistry-class-11-revision-notes-neet",
+        "hydrogen-class-11-revision-notes-neet",
+        "morphology-of-flowering-plants-class-11-revision-notes-neet",
+        "photosynthesis-in-higher-plants-class-11-revision-notes-neet",
+        "physical-world-class-11-revision-notes-jee-neet",
+        "plant-growth-and-development-class-11-revision-notes-neet",
+        "plant-kingdom-class-11-revision-notes-neet",
+        "structural-organisation-in-animals-class-11-revision-notes-neet",
+        "the-p-block-elements-11-class-11-revision-notes-jee-neet",
+        "the-s-block-elements-class-11-revision-notes-jee-neet"
+      ]
+    },
+    {
+      "heading": "detailed analysis",
+      "count": 12,
+      "blogs": [
+        "agriculture-class-11-revision-notes-neet",
+        "agriculture-class-11-revision-notes-neet",
+        "agriculture-class-11-revision-notes-neet",
+        "agriculture-class-11-revision-notes-neet",
+        "ai-exam-prep-future-class-11-revision-notes-jee-neet",
+        "ai-exam-prep-future-class-11-revision-notes-jee-neet",
+        "ai-exam-prep-future-class-11-revision-notes-jee-neet",
+        "ai-exam-prep-future-class-11-revision-notes-jee-neet",
+        "ai-study-hack-pomodoro-class-11-revision-notes-neet",
+        "ai-study-hack-pomodoro-class-11-revision-notes-neet",
+        "ai-study-hack-pomodoro-class-11-revision-notes-neet",
+        "ai-study-hack-pomodoro-class-11-revision-notes-neet"
+      ]
+    },
+    {
+      "heading": "ayushs personal note",
+      "count": 11,
+      "blogs": [
+        "ancient-india-mahajanapadas-class-11-revision-notes-jee",
+        "ancient-india-vedic-age-class-11-revision-notes-jee",
+        "classification-of-elements-class-11-revision-notes-jee-neet",
+        "constitutional-framework-class-11-revision-notes-cbse",
+        "federalism-class-11-revision-notes-cbse",
+        "fundamental-rights-class-11-revision-notes-cbse",
+        "geomorphology-class-11-revision-notes-cbse",
+        "indian-geography-physical-class-11-revision-notes-jee-neet",
+        "ray-optics-class-12-quick-class-12-revision-notes-jee-neet",
+        "some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet",
+        "world-history-industrial-revolution-class-11-revision-notes-jee-neet"
+      ]
+    },
+    {
+      "heading": "a idthe5trapmistakesa the 5 trap mistakes",
+      "count": 10,
+      "blogs": [
+        "aldehydes-ketones-and-carboxylic-acids-class-12-notes",
+        "amines-class-12-notes",
+        "application-of-integrals-class-12-notes",
+        "continuity-and-differentiability-class-12-notes",
+        "determinants-class-12-notes",
+        "differential-equations-class-12-notes",
+        "integrals-class-12-notes",
+        "metallurgy-class-12-notes",
+        "solid-state-class-12-notes",
+        "surface-chemistry-class-12-notes"
+      ]
+    },
+    {
+      "heading": "a idlast5minutesboxa last 5 minutes box",
+      "count": 10,
+      "blogs": [
+        "aldehydes-ketones-and-carboxylic-acids-class-12-notes",
+        "amines-class-12-notes",
+        "application-of-integrals-class-12-notes",
+        "continuity-and-differentiability-class-12-notes",
+        "determinants-class-12-notes",
+        "differential-equations-class-12-notes",
+        "integrals-class-12-notes",
+        "metallurgy-class-12-notes",
+        "solid-state-class-12-notes",
+        "surface-chemistry-class-12-notes"
+      ]
+    },
+    {
+      "heading": "jeeneet data",
+      "count": 10,
+      "blogs": [
+        "ancient-india-indus-valley-class-11-revision-notes-cbse",
+        "ancient-india-vedic-age-class-11-revision-notes-jee",
+        "chemical-coordination-and-integration-class-11-revision-notes-neet",
+        "classification-of-elements-class-11-revision-notes-jee-neet",
+        "geomorphology-class-11-revision-notes-cbse",
+        "locomotion-and-movement-class-11-revision-notes-neet",
+        "medieval-india-bhakti-sufi-class-11-revision-notes-cbse",
+        "ray-optics-class-12-quick-class-12-revision-notes-jee-neet",
+        "some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet",
+        "structure-of-the-atom-class-11-revision-notes-neet"
+      ]
+    },
+    {
+      "heading": "what will come in your exam",
+      "count": 10,
+      "blogs": [
+        "atoms-class-12-notes",
+        "chemical-kinetics-class-12-notes",
+        "communication-systems-class-12-notes",
+        "coordination-compounds-class-12-notes",
+        "coordination-compounds-class-12-notes",
+        "dual-nature-of-radiation-class-12-notes",
+        "haloalkanes-and-haloarenes-class-12-notes",
+        "nuclei-class-12-notes",
+        "semiconductor-electronics-class-12-notes",
+        "solutions-class-12-notes"
+      ]
+    },
+    {
+      "heading": "formula bank",
+      "count": 9,
+      "blogs": [
+        "atoms-class-12-notes",
+        "chemical-kinetics-class-12-notes",
+        "communication-systems-class-12-notes",
+        "coordination-compounds-class-12-notes",
+        "dual-nature-of-radiation-class-12-notes",
+        "haloalkanes-and-haloarenes-class-12-notes",
+        "nuclei-class-12-notes",
+        "semiconductor-electronics-class-12-notes",
+        "solutions-class-12-notes"
+      ]
+    }
+  ]
+}

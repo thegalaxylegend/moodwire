@@ -36,7 +36,7 @@ export const initAnalytics = () => {
             trackLongTasks: true,
             defaultPrivacyLevel: 'mask-user-input',
         });
-        
+
         if (!(datadogLogs as any).getInitConfiguration?.()) {
             datadogLogs.init({
                 clientToken: ddClientToken,

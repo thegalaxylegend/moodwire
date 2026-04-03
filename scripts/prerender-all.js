@@ -12,6 +12,13 @@ async function prerender() {
     const templatePath = path.join(__dirname, '../dist/index.html');
     const ssrEntryPath = path.join(__dirname, '../dist/server/entry-server.js');
     const outDir = path.join(__dirname, '../dist');
+    const schemaDataPath = path.join(__dirname, '../public/schema-data.json');
+
+    let schemaData = {};
+    if (fs.existsSync(schemaDataPath)) {
+        schemaData = JSON.parse(fs.readFileSync(schemaDataPath, 'utf8'));
+        console.log(`📋 Schema Data loaded: ${Object.keys(schemaData).length} blog schemas.`);
+    }
 
     // 1. Validation
     if (!fs.existsSync(ssrEntryPath)) {
@@ -91,7 +98,7 @@ async function prerender() {
 
                 // 3. For Blog Pages (Inject Blog Metadata + FULL Markdown Content)
                 if (url.startsWith('/blog/') && url !== '/blog') {
-                    const slug = url.split('/').pop();
+                    const slug = url.split('/').filter(Boolean).pop();
                     // Inject metadata from manifest
                     if (manifest[url]) {
                         globalThis.SEO_BLOG_DATA = {
@@ -139,6 +146,15 @@ async function prerender() {
                 let html = template
                     .replace('<!--app-head-->', headTags)
                     .replace(/<!--app-html-->[\s\S]*?<!--app-html-end-->/, appHtml);
+
+                // SCHEMA INJECTION: Inject JSON-LD structured data for blog pages
+                if (url.startsWith('/blog/') && url !== '/blog' && schemaData[url]) {
+                    const schemas = schemaData[url];
+                    const schemaTags = schemas.map(s => 
+                        `<script type="application/ld+json">${JSON.stringify(s)}</script>`
+                    ).join('\n');
+                    html = html.replace('</head>', `${schemaTags}\n</head>`);
+                }
 
                 // SSR Fallback Injection for Question Pages
                 if (url.includes('/q/') && questionDb[url]) {
@@ -215,7 +231,7 @@ async function prerender() {
                 const cleanPath = url.replace(/\/+$/, '').replace(/^\/+/, '');
                 const filePath = cleanPath === ''
                     ? 'index.html'
-                    : `${cleanPath}/index.html`;
+                    : `${cleanPath}.html`;
 
                 const targetPath = path.join(outDir, filePath);
                 fs.mkdirSync(path.dirname(targetPath), { recursive: true });

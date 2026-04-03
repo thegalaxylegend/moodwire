@@ -238,7 +238,7 @@ async function generate() {
         };
 
         // === INJECT POLICY PAGES (Required for AdSense) ===
-        manifest['/privacy/'] = {
+        manifest['/privacy'] = {
             title: "Privacy Policy | Exam Compass",
             description: "Read the Exam Compass Privacy Policy. Learn how we collect, use, and protect your personal data, including information about cookies, analytics, and third-party advertising.",
             h1: "Privacy Policy",
@@ -247,7 +247,7 @@ async function generate() {
             robots: "index, follow",
             sitemapGroup: "core"
         };
-        manifest['/terms/'] = {
+        manifest['/terms'] = {
             title: "Terms of Service | Exam Compass",
             description: "Read the Exam Compass Terms of Service. Understand the rules and guidelines for using our AI-powered exam preparation platform.",
             h1: "Terms of Service",
@@ -256,7 +256,7 @@ async function generate() {
             robots: "index, follow",
             sitemapGroup: "core"
         };
-        manifest['/about/'] = {
+        manifest['/about'] = {
             title: "About Exam Compass | AI-Powered Exam Preparation Platform",
             description: "Learn about Exam Compass — an AI-powered exam preparation platform built by a Class 11 student from KV Darbhanga, Bihar.",
             h1: "About Exam Compass",
@@ -265,7 +265,7 @@ async function generate() {
             robots: "index, follow",
             sitemapGroup: "core"
         };
-        manifest['/contact/'] = {
+        manifest['/contact'] = {
             title: "Contact Us | Exam Compass",
             description: "Get in touch with the Exam Compass team. Contact us for questions, feedback, bug reports, or partnership inquiries.",
             h1: "Contact Us",
@@ -277,7 +277,7 @@ async function generate() {
 
         // === INJECT BLOG ROUTES ===
         const blogsDir = path.join(__dirname, '../src/content/blogs');
-        manifest['/blog/'] = {
+        manifest['/blog'] = {
             title: "Exam Compass Blog | AI Exam Prep Tips & Strategies",
             description: "Expert strategies, syllabus breakdowns, and exam preparation tips for JEE Main & Advanced, NEET, and CBSE Classes 8-12.",
             h1: "Exam Compass Blog",
@@ -303,7 +303,7 @@ async function generate() {
                 const extractedTitle = titleMatch ? titleMatch[1].trim() : `${slug.replace(/-/g, ' ')} | Exam Compass`;
                 const extractedDesc = descMatch ? descMatch[1].trim() : `Read ${slug.replace(/-/g, ' ')} on Exam Compass Blog.`;
 
-                manifest[`/blog/${slug}/`] = {
+                manifest[`/blog/${slug}`] = {
                     title: extractedTitle,
                     description: extractedDesc,
                     date: dateMatch ? dateMatch[1].trim() : new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }),
@@ -322,7 +322,7 @@ async function generate() {
         Object.entries(EXAM_SUBJECT_MAPPING).forEach(([examSlug, subjects]) => {
             const formattedExam = examSlug.replace(/-/g, ' ').toUpperCase();
             const examUrl = `/${examSlug}`;
-            manifest[`${examUrl}/`] = {
+            manifest[`${examUrl}`] = {
                 title: `${formattedExam} Exam Preparation | Mock Tests & PYQs`,
                 description: `Best free resource for ${formattedExam} preparation. Practice mock tests, syllabus analysis, and previous year questions.`,
                 h1: `Crack ${formattedExam}`,
@@ -335,7 +335,7 @@ async function generate() {
             subjects.forEach(subjectName => {
                 const subjectSlug = slugify(subjectName);
                 const subjectUrl = `${examUrl}/${subjectSlug}`;
-                manifest[`${subjectUrl}/`] = {
+                manifest[`${subjectUrl}`] = {
                     title: `${subjectName} for ${formattedExam} | Syllabus & PYQs`,
                     description: `Complete ${subjectName} preparation for your ${formattedExam} exam. Detailed syllabus, weightage and practice sets.`,
                     h1: `${subjectName} for ${formattedExam}`,
@@ -353,7 +353,7 @@ async function generate() {
                     const cleanTopic = topicName.replace(/\[.*?\]\s*/g, '');
                     const shortTopic = cleanTopic.length > 35 ? `${cleanTopic.substring(0, 32)}...` : cleanTopic;
 
-                    manifest[`${topicUrl}/`] = {
+                    manifest[`${topicUrl}`] = {
                         title: `${shortTopic} PYQs | ${formattedExam}`,
                         description: `Study ${topicName} from ${subjectName} for your ${formattedExam} preparation. Practice questions and AI roadmaps.`,
                         h1: topicName,
@@ -401,9 +401,8 @@ async function generate() {
                         robotsRule = "index, follow"; // Priority 2
                     }
 
-                    const qUrlTrailing = qUrl.endsWith('/') ? qUrl : `${qUrl}/`;
-
-                    manifest[qUrlTrailing] = {
+                    const qUrlNoSlash = qUrl.replace(/\/$/, '');
+                    manifest[qUrlNoSlash] = {
                         title: `Q: ${q.text.substring(0, 30)}... | ${formattedExam} Practice`,
                         description: `Detailed solution for ${q.subject} question: ${q.text.substring(0, 100)}... Prepare for ${formattedExam}.`,
                         h1: q.text,
@@ -413,7 +412,7 @@ async function generate() {
                         robots: robotsRule,
                         sitemapGroup: robotsRule === "index, follow" ? "questions" : null
                     };
-                    questionDb[qUrlTrailing] = { ...q, canonicalExam: questionCanonicalMap[q.slug] };
+                    questionDb[qUrlNoSlash] = { ...q, canonicalExam: questionCanonicalMap[q.slug] };
                     
                     // Track Topic Density for Phase 3 Programmatic Collection Creation
                     if (isCanonical && q.subject && q.topic) {
@@ -445,7 +444,7 @@ async function generate() {
                     return;
                 }
 
-                const pyqUrl = `${topicUrl}/top-50-pyqs/`;
+                const pyqUrl = `${topicUrl}/top-50-pyqs`;
                 manifest[pyqUrl] = {
                    title: `Top 50 Most Repeated ${data.topicName} PYQs | ${data.formattedExam}`,
                    description: `A curated collection of the most important questions from ${data.topicName}, fully solved with step-by-step concepts to prepare for ${data.formattedExam}.`,

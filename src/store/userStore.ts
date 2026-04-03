@@ -5,6 +5,7 @@ import { doc, getDoc, setDoc, updateDoc, collection, query, where, limit, getDoc
 import { performDeepMigration } from '../migrationService';
 import { SYLLABUS_DB } from '../lib/constants';
 import type { DailyMission } from '../services/missionService';
+import { DEFAULT_CALIBRATION, type CalibrationProfile } from '../services/eloService';
 import { MissionService } from '../services/missionService';
 import { getCurrentSeason, getCurrentPointCycle } from '../services/gamificationService';
 import { getUserStats } from '../services/leaderboardService';
@@ -48,6 +49,7 @@ export type User = {
     referralCount?: number;
     redeemedReferral?: boolean;
     abilityScore?: number; // Elo Rating
+    calibrationProfile?: CalibrationProfile; // Per-subject difficulty calibration
     dailyMissions?: DailyMission[];
     pendingPublicSync?: boolean; // Flag for public profile mirror retry
     pendingPrompts?: string[]; // e.g., ['exam_reconfirmation']
@@ -135,7 +137,8 @@ const hydrateFromLocal = (uid?: string): User | null => {
             lastStudyDate: profile.last_study_date,
             dailyChallengeCompleted: profile.daily_challenge_completed || false,
             lastStreakIncrementDate: profile.last_streak_increment_date,
-            abilityScore: profile.ability_score || 1000
+            abilityScore: profile.ability_score || 1000,
+            calibrationProfile: profile.calibration_profile || DEFAULT_CALIBRATION
         };
     } catch (e) {
         return null;
@@ -260,7 +263,8 @@ export const useUserStore = create<UserState>((set, get) => ({
                                     created_at: new Date(),
                                     streak: 0,
                                     onboarding_completed: false,
-                                    migration_source: migrationSource
+                                    migration_source: migrationSource,
+                                    role: user.email.toLowerCase() === 'thegalaxylegend2007@gmail.com' ? 'admin' : 'user'
                                 };
                                 await setDoc(docRef, profile, { merge: true });
 
@@ -318,6 +322,12 @@ export const useUserStore = create<UserState>((set, get) => ({
                 }
 
                 console.log(`👤 [Auth] User Detected: ${user.email} (Photo: ${user.photoURL})`);
+                
+                // --- SUPER ADMIN BOOTSTRAP ---
+                if (user.email?.toLowerCase() === 'thegalaxylegend2007@gmail.com') {
+                    console.log("🛡️ [Security] Bootstrap Admin Detected. Elevating privileges.");
+                    if (profile) profile.role = 'admin';
+                }
 
                 // --- RECONCILIATION ---
                 const currentSeason = getCurrentSeason();
@@ -490,7 +500,8 @@ export const useUserStore = create<UserState>((set, get) => ({
                     referralCode: profile?.referral_code,
                     referralCount: profile?.referral_count || 0,
                     redeemedReferral: profile?.redeemed_referral || false,
-                    abilityScore: profile?.ability_score || 1000
+                    abilityScore: profile?.ability_score || 1000,
+                    calibrationProfile: profile?.calibration_profile || DEFAULT_CALIBRATION
                 };
 
                 set({
@@ -607,10 +618,16 @@ export const useUserStore = create<UserState>((set, get) => ({
                 const cachedUser = hydrateFromLocal();
                 if (cachedUser && !cachedUser.isGuest) {
                     // Keep cached user alive for now — wait for potential re-auth
-                    console.log("🔑 [Auth] Null state received but valid cache exists. Keeping cached session for 3s grace period.");
-                    set({ user: cachedUser, isAuthenticated: true, isLoading: false, isInitialized: true, authResolved: true });
+                    console.log("🔑 [Auth] Null state received but valid cache exists. Keeping cached session for 8s grace period.");
+                    set({ 
+                        user: cachedUser, 
+                        isAuthenticated: true, 
+                        isLoading: false, 
+                        isInitialized: true, 
+                        authResolved: true 
+                    });
                     
-                    // Set a delayed check: if after 3s we still have no Firebase user, THEN clear
+                    // Set a delayed check: if after 8s we still have no Firebase user, THEN clear
                     setTimeout(() => {
                         if (!auth.currentUser) {
                             console.log("🔑 [Auth] Grace period expired. No re-auth detected. Clearing session.");
@@ -621,8 +638,10 @@ export const useUserStore = create<UserState>((set, get) => ({
                             } else {
                                 set({ user: null, isAuthenticated: false, isLoading: false, isInitialized: true, authResolved: true });
                             }
+                        } else {
+                            console.log("🔑 [Auth] Re-auth confirmed after grace period. Session preserved.");
                         }
-                    }, 3000);
+                    }, 8000); // Increased to 8s to accommodate slow dev API response
                 } else {
                     // No valid cache: truly logged out
                     localStorage.removeItem('exam_compass_auth_cache');
@@ -802,6 +821,7 @@ export const useUserStore = create<UserState>((set, get) => ({
         if (data.referralCount !== undefined) updates.referral_count = data.referralCount;
         if (data.redeemedReferral !== undefined) updates.redeemed_referral = data.redeemedReferral;
         if (data.abilityScore !== undefined) updates.ability_score = data.abilityScore;
+        if (data.calibrationProfile !== undefined) updates.calibration_profile = data.calibrationProfile;
 
         try {
             if (!user.isGuest) {

@@ -368,14 +368,54 @@ async function downloadHeroImage(subject: string, topic: string, slug: string): 
     return fallbackImage;
 }
 
-const GRANDMASTER_IDENTITY = `You are a strict, top 1% JEE/NEET ranker creating a "Last-Night Revision Format" study guide.
+// ════════════════════════════════════════════════════════════════
+// SELF-IMPROVING PROMPT SYSTEM
+// Reads evolved prompts from the Prompt Evolution Engine.
+// Falls back to hardcoded defaults if evolved prompt unavailable.
+// ════════════════════════════════════════════════════════════════
+
+const EVOLVED_PROMPT_PATH = path.join(__dirname, '../jules-reports/evolved-prompt.json');
+
+interface EvolvedPromptData {
+    evolvedPrompt: string;
+    temperature: number;
+    subjectTargets: Record<string, { minWords: number; maxWords: number; formulaDensity: string; mcqCount: number }>;
+    version: string;
+    confidence: number;
+}
+
+let evolvedPromptData: EvolvedPromptData | null = null;
+let usingEvolvedPrompt = false;
+
+function loadEvolvedPrompt(): void {
+    try {
+        if (fs.existsSync(EVOLVED_PROMPT_PATH)) {
+            const data = JSON.parse(fs.readFileSync(EVOLVED_PROMPT_PATH, 'utf-8'));
+            if (data.evolvedPrompt && data.evolvedPrompt.length > 100 && (data.confidence || 0) >= 0.5) {
+                evolvedPromptData = data;
+                usingEvolvedPrompt = true;
+                console.log(`🧬 EVOLVED PROMPT LOADED (v${data.version?.substring(0, 10) || 'unknown'}, confidence: ${((data.confidence || 0) * 100).toFixed(0)}%)`);
+            } else {
+                console.log('⚠️ Evolved prompt found but confidence too low. Using hardcoded defaults.');
+            }
+        }
+    } catch (err) {
+        console.log('⚠️ Could not load evolved prompt. Using hardcoded defaults.');
+    }
+}
+
+// Load on startup
+loadEvolvedPrompt();
+
+// Hardcoded fallback (original prompt)
+const GRANDMASTER_IDENTITY_DEFAULT = `You are a strict, top 1% JEE/NEET ranker creating a "Last-Night Revision Format" study guide.
 Your sole purpose is to provide exactly what a student needs to read 12 hours before their exam to maximize their score.
 Voice: Specific, data-driven, authentic student tone. NO FILLER. No fluff. No introductions.
 
 Format Rule: A student reads this once, closes the tab, and walks into the exam confident.
 DO NOT use phrases like "In conclusion", "delve into", "comprehensive", "embark on your journey".`;
 
-const CROSS_SECTION_RULES = `
+const CROSS_SECTION_RULES_DEFAULT = `
 RULES FOR THE LAST-NIGHT REVISION FORMAT:
 1. NO INTRODUCTIONS. NO DEFINITIONS. NO PREREQUISITES. Start directly with high-yield exam insights.
 2. LATEX ESCAPING: You MUST double-escape all backslashes in LaTeX formulas (e.g., use \\\\frac instead of \\frac, \\\\times instead of \\times, \\\\Delta instead of \\Delta). Failure to double-escape will break the JSON parser and your output will be discarded.
@@ -384,6 +424,29 @@ RULES FOR THE LAST-NIGHT REVISION FORMAT:
 5. FORMATTING: NEVER WRITE LONG PARAGRAPHS or walls of text! Everything must be highly structured using bold text, bullet points (- ), and short punchy sentences. Use bullet points for almost everything!
 STRICT RULE: Focus entirely on what's examined, not just general knowledge.
 `;
+
+// Dynamic getters — use evolved if available, fallback to hardcoded
+const GRANDMASTER_IDENTITY = usingEvolvedPrompt 
+    ? evolvedPromptData!.evolvedPrompt 
+    : GRANDMASTER_IDENTITY_DEFAULT;
+
+const CROSS_SECTION_RULES = usingEvolvedPrompt 
+    ? '' // Evolved prompt already contains all rules
+    : CROSS_SECTION_RULES_DEFAULT;
+
+// Dynamic temperature — evolved or default 0.7
+const EVOLVED_TEMPERATURE: number = (evolvedPromptData as EvolvedPromptData | null)?.temperature || 0.7;
+
+// Get subject-specific targets from evolved data
+function getSubjectTargets(subject: string): { minWords: number; maxWords: number; mcqCount: number } {
+    if (evolvedPromptData?.subjectTargets) {
+        const targets = evolvedPromptData.subjectTargets[subject];
+        if (targets) return { minWords: targets.minWords, maxWords: targets.maxWords, mcqCount: targets.mcqCount };
+    }
+    // Fallback defaults
+    return { minWords: 2000, maxWords: 4000, mcqCount: 5 };
+}
+
 
 
 // --- SMART RECOVERY WRAPPER ---
@@ -462,7 +525,7 @@ async function callLlmWithFallback(system: string, user: string, isJson: boolean
             messages: [{ role: "system", content: system }, { role: "user", content: user }],
             model: primaryModel,
             response_format: isJson ? { type: "json_object" } : undefined,
-            temperature: 0.7,
+            temperature: EVOLVED_TEMPERATURE,
             max_tokens: 4000
         });
         return completion.choices[0]?.message?.content || "";
@@ -519,15 +582,7 @@ async function generateOutline(item: any, targetYear: number): Promise<string[]>
 }
 
 async function generateIntro(item: any, targetYear: number, displayClass: string): Promise<string> {
-    console.log(`✍️ Jules: Crafting "What WILL Come" hook...`);
-    const system = `${GRANDMASTER_IDENTITY}\n${CROSS_SECTION_RULES}`;
-    const user = `Write the "🎯 What WILL Come in Your Exam" section for "${item.topic}" for ${displayClass} in ${targetYear}.
-    Rule: Not 'what could come' — what *always* comes. Be incredibly specific. 
-    Examples: "1 numerical on Bohr's energy levels — always", "Photoelectric effect graph — NEET favourite".
-    Return ONLY the markdown for this section (no heading, just bullet points). NO INTRODUCTION OR FILLER.
-    TARGET DEPTH: Write 200+ words of detailed high-yield bullet points.`;
-    
-    return await callLlmWithFallback(system, user, false);
+    return ""; // Intro (What WILL Come) removed as per user request — Summary is now the top element.
 }
 
 async function generateSection(item: any, heading: string, displayClass: string, targetYear: number): Promise<Section> {
@@ -638,11 +693,19 @@ async function generateSection(item: any, heading: string, displayClass: string,
 }
 
 async function generateExtras(item: any): Promise<{ mcqs: MCQ[], recall: string[] }> {
-    console.log(`🎯 Jules: Generating MCQs and Quick Recall...`);
+    console.log(`🧠 Jules: Generating MCQs and Quick Recall for ${item.topic}...`);
     const system = GRANDMASTER_IDENTITY;
-    const user = `Generate 5 high-yield MCQs and 7 Quick Recall bullet points for "${item.topic}".
+    const user = `Generate 5 high-yield MCQs and 10 Quick Recall bullet points for "${item.topic}".
+    The "quick_recall" items MUST be highly specific exam predictions. 
+    Format each recall point with frequency tags:
+    - [Sub-topic]: [Prediction] — always
+    - [Sub-topic]: [Prediction] — frequently
+    
+    Example: "Human Eye: 1 diagram-based question on Myopia/Hypermetropia — always"
+    
     The MCQs MUST have "question", "options" (array), "answer" (A/B/C/D), and "answer_text" (explanation) fields.
     Return as JSON: { "mcqs": [...], "quick_recall": [...] }`;
+    
     const raw = await callLlmWithFallback(system, user, true);
     try {
         const data = safelyParseJson(raw);
@@ -653,19 +716,48 @@ async function generateExtras(item: any): Promise<{ mcqs: MCQ[], recall: string[
 }
 
 async function generateBlogs() {
-    console.log(`🤖 Jules: Starting Blog Generation (Queued)...`);
-
-    if (!fs.existsSync(QUEUE_FILE)) {
-        console.log("📭 No queue found.");
-        return;
-    }
+    console.log(`🤖 Jules: Starting Unified 9-Blog Generation...`);
 
     const REPORTS_DIR = path.join(__dirname, '../jules-reports');
     const FAILED_DIR = path.join(__dirname, '../jules-failed');
     if (!fs.existsSync(REPORTS_DIR)) fs.mkdirSync(REPORTS_DIR);
     if (!fs.existsSync(FAILED_DIR)) fs.mkdirSync(FAILED_DIR);
 
-    const queue = JSON.parse(fs.readFileSync(QUEUE_FILE, 'utf8'));
+    // 1. Load New Topics Queue
+    let queue: any[] = [];
+    if (fs.existsSync(QUEUE_FILE)) {
+        queue = JSON.parse(fs.readFileSync(QUEUE_FILE, 'utf8'));
+    }
+
+    // 2. Load Refinement (Decay) Queue
+    const regenFiles = fs.readdirSync(REPORTS_DIR)
+        .filter(f => f.startsWith('regen-queue-') && f.endsWith('.json'))
+        .sort()
+        .reverse();
+    
+    if (regenFiles.length > 0) {
+        const latestRegen = path.join(REPORTS_DIR, regenFiles[0]);
+        const regenQueue = JSON.parse(fs.readFileSync(latestRegen, 'utf8'));
+        console.log(`📂 Found ${regenQueue.length} refinement items in ${regenFiles[0]}`);
+        
+        // Convert regen-queue format to generation format
+        const formattedRegen = regenQueue.map((item: any) => ({
+            topic: item.slug.replace(/-/g, ' '), // Basic topic extraction
+            targetSlug: item.slug,
+            subject: "General", // Will be inferred from existing file frontmatter in buildBlogPostJson logic
+            isRegeneration: true,
+            reason: item.reason
+        }));
+        
+        queue = [...queue, ...formattedRegen];
+    }
+
+    if (queue.length === 0) {
+        console.log("📭 No new or refinement blogs in queue.");
+        return;
+    }
+
+    console.log(`🚀 Processing combined queue: ${queue.length} items (New + Refined)`);
     const pipelineReport: any[] = [];
 
     const isDryRun = process.argv.includes('--dry-run') || process.argv.includes('-dry-run');

@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
-import { Calendar as CalendarIcon, Clock, RefreshCw, Brain } from 'lucide-react';
+import { Calendar as CalendarIcon, Clock, RefreshCw, Brain, Sparkles, Target } from 'lucide-react';
 import { askAI } from '../../lib/ai';
 import { useUserStore } from '../../store/userStore';
-// import { supabase } from '../../lib/supabase'; // REMOVED
 import { extractJSON } from '../../lib/utils';
 import { AuthGate } from '../../components/auth/AuthGate';
+import { EloService, DEFAULT_CALIBRATION } from '../../services/eloService';
 
 export const StudyPlan = () => {
     const { user } = useUserStore();
@@ -13,6 +13,12 @@ export const StudyPlan = () => {
     const [error, setError] = useState<string | null>(null);
     const [weeklyGoals, setWeeklyGoals] = useState<any[]>([]);
     const [generatedFor, setGeneratedFor] = useState<string | null>(null);
+    const [aiInsight, setAiInsight] = useState<string | null>(null);
+    const [insightLoading, setInsightLoading] = useState(false);
+
+    const calibration = user?.calibrationProfile || DEFAULT_CALIBRATION;
+    const summary = EloService.getCalibrationSummary(calibration);
+    const confidence = EloService.getConfidenceLevel(calibration);
 
     useEffect(() => {
         fetchLatestPlan();
@@ -98,14 +104,31 @@ export const StudyPlan = () => {
             console.error("Failed to fetch active recommendation for planner", e);
         }
 
+        // Build calibration-aware context
+        const subjectStrengths = [
+            `Physics: ${calibration.physics} (${EloService.getSubjectDifficulty(calibration, 'physics')})`,
+            `Chemistry: ${calibration.chemistry} (${EloService.getSubjectDifficulty(calibration, 'chemistry')})`,
+            `Math: ${calibration.math} (${EloService.getSubjectDifficulty(calibration, 'math')})`,
+            `Biology: ${calibration.biology} (${EloService.getSubjectDifficulty(calibration, 'biology')})`
+        ].join(', ');
+
         const prompt = `
             STRICT REQUIREMENT: YOUR RESPONSE MUST BE A VALID JSON ARRAY ONLY. 
             NO CONVERSATIONAL TEXT, NO INTRODUCTIONS, NO "HERE IS YOUR PLAN".
             
             Create a realistic daily study schedule for an Indian student preparing for ${exam}.
             Date: ${date}.
-            Student Level: ${user?.prepLevel || 'Intermediate'}.
+            Student Level: ${user?.prepLevel || 'Intermediate'} (Overall Tier: ${summary.overallTier}).
             Focus Areas: ${focusAreas}.
+            Subject Ability Ratings: ${subjectStrengths}.
+            Weak Subjects: ${summary.weakSubjects.length > 0 ? summary.weakSubjects.join(', ') : 'None identified yet'}.
+            Strong Subjects: ${summary.strongSubjects.length > 0 ? summary.strongSubjects.join(', ') : 'None identified yet'}.
+            Total Questions Attempted: ${calibration.totalAttempts}.
+            
+            PRIORITY RULES:
+            1. Allocate MORE time to weak subjects.
+            2. Include at least one practice session for strong subjects to maintain them.
+            3. If total attempts < 20, include a "Diagnostic Practice" slot.
             
             ${videoContext}
             
@@ -184,6 +207,44 @@ export const StudyPlan = () => {
             }
         };
         fetchGoals();
+    }, [user]);
+
+    // AI Insight Generation (Gemini Free Tier)
+    const generateInsight = async () => {
+        if (!user || insightLoading) return;
+        setInsightLoading(true);
+        try {
+            const insightPrompt = `You are a concise study advisor. Given this student's data, write ONE short actionable tip (2-3 sentences max).
+
+Student: ${user.name}, preparing for ${user.targetExam || 'Competitive Exam'}.
+Overall Ability: ${calibration.overall} (${summary.overallTier}).
+Strong: ${summary.strongSubjects.join(', ') || 'Undetermined'}.
+Weak: ${summary.weakSubjects.join(', ') || 'Undetermined'}.
+Attempts: ${calibration.totalAttempts}. Current Streak: ${user.streak} days.
+Calibration Confidence: ${confidence}.
+
+Give a specific, data-driven tip. Mention exact subjects. No generic motivational advice.`;
+
+            const result = await askAI(
+                'You are a brief academic advisor. One paragraph max.',
+                insightPrompt,
+                'gemini',
+                [],
+                { stream: false, noCache: true }
+            );
+            if (result && typeof result === 'string') {
+                setAiInsight(result);
+            }
+        } catch (err) {
+            console.error('[StudyPlan] AI Insight failed:', err);
+            setAiInsight('Focus on your weakest subject today. Even 30 minutes of targeted practice outperforms 2 hours of passive revision.');
+        } finally {
+            setInsightLoading(false);
+        }
+    };
+
+    useEffect(() => {
+        if (user && !aiInsight) generateInsight();
     }, [user]);
 
     return (
@@ -313,21 +374,63 @@ export const StudyPlan = () => {
 
                         <div className="glass-card oxygen-card p-6 bg-gradient-to-br from-primary/10 to-secondary/10 border-primary/20 space-y-3">
                             <h3 className="font-bold text-text-main flex items-center gap-2">
-                                <Brain size={16} /> AI Suggestion
+                                <Sparkles size={16} className="text-primary" /> AI Insight
+                                <span className="text-[10px] px-2 py-0.5 bg-primary/20 text-primary rounded-full font-bold ml-auto">
+                                    {confidence} Confidence
+                                </span>
                             </h3>
-                            <p className="text-sm text-text-muted">
-                                {weeklyGoals.length > 0 && weeklyGoals[0].progress < 30 ? (
-                                    <>
-                                        You've been focusing heavily on other subjects.
-                                        Consider switching to <strong>{weeklyGoals[0].label.replace('Master ', '')}</strong> this weekend to balance your preparation.
-                                    </>
-                                ) : (
-                                    <>
-                                        Great progress! Keep maintaining your streak.
-                                        Try a <strong>Full Mock Test</strong> this weekend to test your retention.
-                                    </>
-                                )}
-                            </p>
+                            {insightLoading ? (
+                                <p className="text-sm text-text-muted animate-pulse">Analyzing your performance data...</p>
+                            ) : aiInsight ? (
+                                <p className="text-sm text-text-muted leading-relaxed">{aiInsight}</p>
+                            ) : (
+                                <p className="text-sm text-text-muted">
+                                    {weeklyGoals.length > 0 && weeklyGoals[0].progress < 30 ? (
+                                        <>
+                                            Consider switching to <strong>{weeklyGoals[0].label.replace('Master ', '')}</strong> this weekend to balance your preparation.
+                                        </>
+                                    ) : (
+                                        <>Keep up the momentum! Take a <strong>Full Mock Test</strong> this weekend.</>
+                                    )}
+                                </p>
+                            )}
+                            <button
+                                onClick={generateInsight}
+                                disabled={insightLoading}
+                                className="w-full mt-2 py-1.5 text-xs font-bold bg-white/5 border border-white/10 rounded-lg hover:bg-white/10 transition-colors text-text-muted flex items-center justify-center gap-1.5"
+                            >
+                                <RefreshCw size={12} className={insightLoading ? 'animate-spin' : ''} />
+                                Refresh Insight
+                            </button>
+                        </div>
+
+                        {/* Calibration Summary Card */}
+                        <div className="glass-card oxygen-card p-6 space-y-3">
+                            <h3 className="font-bold text-text-main flex items-center gap-2">
+                                <Target size={16} className="text-accent" /> Calibration Profile
+                            </h3>
+                            <div className="text-xs text-text-muted space-y-2">
+                                <div className="flex justify-between"><span>Overall</span><span className="font-bold text-text-main">{calibration.overall}</span></div>
+                                {['Physics', 'Chemistry', 'Math', 'Biology'].map(s => {
+                                    const key = s.toLowerCase() as 'physics' | 'chemistry' | 'math' | 'biology';
+                                    const val = calibration[key];
+                                    const color = val > 1200 ? 'text-green-400' : val < 800 ? 'text-red-400' : 'text-text-main';
+                                    return (
+                                        <div key={s} className="flex justify-between items-center">
+                                            <span>{s}</span>
+                                            <div className="flex items-center gap-2">
+                                                <div className="w-16 h-1.5 bg-surface-container rounded-full overflow-hidden">
+                                                    <div className="h-full bg-primary rounded-full" style={{ width: `${Math.min(100, (val / 20))}%` }} />
+                                                </div>
+                                                <span className={`font-bold ${color}`}>{val}</span>
+                                            </div>
+                                        </div>
+                                    );
+                                })}
+                                <div className="pt-2 border-t border-white/10">
+                                    <span className="text-[10px] uppercase tracking-widest">{calibration.totalAttempts} attempts • {summary.overallTier}</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -7,15 +7,9 @@ import { ErrorBoundary } from './components/ErrorBoundary.tsx'
 import './index.css'
 import App from './App.tsx'
 
-// Unregister ALL service workers to prevent precache errors and ghost workers
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.getRegistrations().then(registrations => {
-    for (let registration of registrations) {
-      registration.unregister();
-      console.log('🧹 [PWA] Ghost Service Worker unregistered');
-    }
-  });
-}
+// Service Workers are handled by vite-plugin-pwa (if enabled)
+// Removed manual ghost unregistration to prevent Auth persistence interference.
+
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

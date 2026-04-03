@@ -1,0 +1,42 @@
+[
+  {
+    "date": "2026-03-30",
+    "slug": "solutions-class-12-notes",
+    "failureType": "UNKNOWN_FAILURE",
+    "rootCause": "Unclassified failure for General topic: 401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}",
+    "fix": "Review manually. Consider adding this error pattern to the autopsy categorizer.",
+    "priority": "low"
+  },
+  {
+    "date": "2026-03-30",
+    "slug": "surface-chemistry-class-12-notes",
+    "failureType": "UNKNOWN_FAILURE",
+    "rootCause": "Unclassified failure for Chemistry topic: 401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}",
+    "fix": "Review manually. Consider adding this error pattern to the autopsy categorizer.",
+    "priority": "low"
+  },
+  {
+    "date": "2026-03-30",
+    "slug": "metallurgy-class-12-notes",
+    "failureType": "UNKNOWN_FAILURE",
+    "rootCause": "Unclassified failure for General topic: 401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}",
+    "fix": "Review manually. Consider adding this error pattern to the autopsy categorizer.",
+    "priority": "low"
+  },
+  {
+    "date": "2026-03-30",
+    "slug": "coordination-compounds-class-12-notes",
+    "failureType": "UNKNOWN_FAILURE",
+    "rootCause": "Unclassified failure for General topic: 401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}",
+    "fix": "Review manually. Consider adding this error pattern to the autopsy categorizer.",
+    "priority": "low"
+  },
+  {
+    "date": "2026-03-30",
+    "slug": "haloalkanes-and-haloarenes-class-12-notes",
+    "failureType": "UNKNOWN_FAILURE",
+    "rootCause": "Unclassified failure for General topic: 401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}",
+    "fix": "Review manually. Consider adding this error pattern to the autopsy categorizer.",
+    "priority": "low"
+  }
+]

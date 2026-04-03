@@ -62,17 +62,16 @@ GOAL: Rank #1 on Google for "Quick Revision" & "Recap" keywords. Focus on high-y
 
 Every post must have ALL of these sections in this order:
 
-1. **Table of Contents** — Anchor IDs in raw HTML (NOT JS-injected). Min 5 sections.
-2. **Detailed Revision Notes** — High-depth (2,000+ words).
-   - Use H3 subheadings for every sub-topic.
-   - Bulleted lists for 80% of properties/facts.
+1. **Table of Contents** — Anchor IDs in raw HTML (NOT JS-injected). Min 5 sections. Include `###` and `####` for depth.
+2. **Detailed Revision Notes** — High-depth (2,000–3,500 words).
+   - **Sub-topic Granularity**: Use `###` for main sub-topics and `####` for nested concepts/derivations.
+   - Bulleted lists for 80% of properties/facts (short but comprehensive).
    - High-yield LaTeX formulas.
-3. **Trap Questions / Exceptions** — Min 3 traps.
+3. **Test Center / Practice Section** — Direct call-to-action for students to learn by doing.
+4. **Trap Questions / Exceptions** — Min 3 traps.
    Format: Wrong answer → Right answer → Why students get it wrong.
-4. **3 Solved PYQs** — Real past exam questions with step-by-step solutions.
-5. **Practice MCQs** — 5–10 MCQs with full solutions. Mark Easy/Medium/Hard.
-6. **Last 5 Minutes Box** — 3 hard formulas + 2 final traps for immediate pre-exam look.
-7. **Last Updated Date** — Visible at top. Format: "Last Updated: March 15, 2026"
+5. **Last 5 Minutes Box** — 3 hard formulas + 2 final traps for immediate pre-exam look.
+6. **Last Updated Date** — Visible at top. Format: "Last Updated: March 15, 2026"
 
 ---
 

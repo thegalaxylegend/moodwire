@@ -15,276 +15,285 @@ practice_link: "/class-11/mathematics/continuity-and-differentiability-class-12-
 
 ## 📋 Table of Contents
 
-- [⚡ Formula Bank](#-formula-bank)
-- [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
-- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
-- [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
+  - [3 Solved PYQs (Continued)](#3-solved-pyqs-continued)
+  - [Continuity](#continuity)
+  - [Differentiability](#differentiability)
+  - [Algebra of Derivatives](#algebra-of-derivatives)
+  - [Chain Rule](#chain-rule)
+  - [Implicit Differentiation](#implicit-differentiation)
+  - [Higher-Order Derivatives](#higherorder-derivatives)
+  - [Applications of Derivatives](#applications-of-derivatives)
+  - [Summary of Key Concepts](#summary-of-key-concepts)
+  - [3 Solved PYQs (Continued)](#3-solved-pyqs-continued)
+- [🪤 The 5 Trap Mistakes](#-the-5-trap-mistakes)
+  - [Higher-Order Derivatives: Beyond the First Derivative](#higherorder-derivatives-beyond-the-first-derivative)
+  - [Applications of Derivatives: Real-World Impact](#applications-of-derivatives-realworld-impact)
+  - [Summary of Key Concepts: A Recap](#summary-of-key-concepts-a-recap)
+  - [Advanced Concepts in Continuity and Differentiability](#advanced-concepts-in-continuity-and-differentiability)
+- [📝 Master the Test Center — Step-by-Step Learning](#-master-the-test-center-stepbystep-learning)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
-- [📝 Practice MCQs](#-practice-mcqs)
 
 
-## <a id="-formula-bank"></a>⚡ Formula Bank
+### <a id="3-solved-pyqs-continued"></a>3 Solved PYQs (Continued)
+- **Solution (Continued):** 
+Now, we can cancel the $(x-2)$ terms, but we must be aware that this cancellation is valid only if $x \neq 2$ because division by zero is undefined. Thus, after cancellation, we have:
+$$
+\lim_{x \to 2} f(x) = \lim_{x \to 2} (x + 2)
+$$
+As $x$ approaches $2$, $x + 2$ approaches $4$. Therefore, $\lim_{x \to 2} f(x) = 4$.
 
-- **Continuity at a Point:** $$\lim_{x \to a} f(x) = f(a)$$ — $f(x)$ is continuous at $x = a$ if the limit of $f(x)$ as $x$ approaches $a$ is equal to $f(a)$.
+- **Q2:** If $f(x) = |x|$, find $f'(x)$ for $x > 0$, $x < 0$, and $x = 0$.
 
- - **Left-Hand Continuity:** $$\lim_{x \to a^-} f(x) = f(a)$$ — $f(x)$ is left-hand continuous at $x = a$ if the limit of $f(x)$ as $x$ approaches $a$ from the left is equal to $f(a)$.
-
- - **Right-Hand Continuity:** $$\lim_{x \to a^+} f(x) = f(a)$$ — $f(x)$ is right-hand continuous at $x = a$ if the limit of $f(x)$ as $x$ approaches $a$ from the right is equal to $f(a)$.
-
- - **Differentiability at a Point:** $$f'(a) = \lim_{h \to 0} \frac{f(a + h) - f(a)}{h}$$ — $f(x)$ is differentiable at $x = a$ if the limit of $\frac{f(a + h) - f(a)}{h}$ as $h$ approaches $0$ exists.
-
- - **Derivative of a Function:** $$f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h}$$ — The derivative of $f(x)$ with respect to $x$ is the limit of $\frac{f(x + h) - f(x)}{h}$ as $h$ approaches $0$.
-
- - **Geometric Interpretation of Derivative:** $$f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h} = \tan(\theta)$$ — The derivative of $f(x)$ at $x$ is the slope of the tangent line to the graph of $f(x)$ at $x$.
-
- - **Algebra of Derivatives - Sum:** $$\frac{d}{dx} (f(x) + g(x)) = f'(x) + g'(x)$$ — The derivative of the sum of two functions is the sum of their derivatives.
-
- - **Algebra of Derivatives - Difference:** $$\frac{d}{dx} (f(x) - g(x)) = f'(x) - g'(x)$$ — The derivative of the difference of two functions is the difference of their derivatives.
-
- - **Algebra of Derivatives - Product:** $$\frac{d}{dx} (f(x) \cdot g(x)) = f'(x) \cdot g(x) + f(x) \cdot g'(x)$$ — The derivative of the product of two functions is the derivative of the first function times the second function plus the first function times the derivative of the second function.
-
- - **Algebra of Derivatives - Quotient:** $$\frac{d}{dx} \left(\frac{f(x)}{g(x)}\right) = \frac{f'(x) \cdot g(x) - f(x) \cdot g'(x)}{(g(x))^2}$$ — The derivative of the quotient of two functions is the derivative of the numerator times the denominator minus the numerator times the derivative of the denominator, all divided by the square of the denominator.
-
- - **Chain Rule:** $$\frac{d}{dx} f(g(x)) = f'(g(x)) \cdot g'(x)$$ — The derivative of a composite function is the derivative of the outer function evaluated at the inner function times the derivative of the inner function.
-
-
-
-## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
-
-- **Mistake 1:** Forgetting to check the continuity of a function at a point before checking its differentiability.
-
- - *Costs:* 2-4 marks
-
- - *Fix:* Always check if the function is continuous at the given point by ensuring $\lim_{x \to a} f(x) = f(a)$, then proceed to check if the function is differentiable by checking if $\lim_{h \to 0} \frac{f(a + h) - f(a)}{h}$ exists.
-
- - **Mistake 2:** Incorrectly applying the definition of a derivative, especially when dealing with piecewise functions or absolute value functions.
-
- - *Costs:* 4-6 marks
-
- - *Fix:* Be meticulous when applying the definition of a derivative, especially for functions like $f(x) = |x|$, where $f'(x) = \frac{x}{|x|}$ for $x \
-
-eq 0$ and is undefined at $x = 0$.
-
- - **Mistake 3:** Not considering the possibility of a function being continuous but not differentiable at a point, such as at $x = 0$ for $f(x) = |x|$.
-
- - *Costs:* 3-5 marks
-
- - *Fix:* Remember that continuity does not imply differentiability. A function can be continuous at a point but not differentiable, such as $f(x) = |x|$ at $x = 0$. Check for sharp turns or corners.
-
- - **Mistake 4:** Incorrectly determining the intervals of continuity and differentiability for functions involving trigonometric, exponential, or logarithmic functions.
-
- - *Costs:* 4-6 marks
-
- - *Fix:* Be aware of the domains of these functions. For example, $f(x) = \log(x)$ is continuous and differentiable for $x > 0$, but not at $x = 0$.
-
- - **Mistake 5:** Failing to apply the chain rule correctly when finding derivatives of composite functions, which can lead to incorrect calculations of derivatives and thus affect questions on continuity and differentiability.
-
- - *Costs:* 5-8 marks
-
- - *Fix:* Ensure to apply the chain rule correctly: if $f(x) = g(h(x))$, then $f'(x) = g'(h(x)) \cdot h'(x)$. Double-check the derivatives of the outer and inner functions.
-
-
-
-## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
-
-- **Q1:** If $f(x) = \frac{x^2 - 4}{x - 2}$, then what is $\lim_{x \to 2} f(x)$?
-
- - **Trap:** Cancelling the terms without considering the conditions for cancellation.
+ - **Trap:** Not considering the piecewise nature of the absolute value function.
 
  - **Solution:** 
+For $x > 0$, $f(x) = x$, so $f'(x) = 1$. 
 
- To find $\lim_{x \to 2} f(x)$, first we need to factorize $x^2 - 4$. 
+For $x < 0$, $f(x) = -x$, so $f'(x) = -1$. 
 
- $x^2 - 4$ can be written as $(x+2)(x-2)$. 
+At $x = 0$, we check the definition of a derivative:
+$$
+f'(0) = \lim_{h \to 0} \frac{f(0 + h) - f(0)}{h} = \lim_{h \to 0} \frac{|h|}{h}
+$$
+This limit does not exist because $\frac{|h|}{h} = 1$ for $h > 0$ and $\frac{|h|}{h} = -1$ for $h < 0$. Therefore, $f'(0)$ is undefined.
 
- So, $f(x) = \frac{(x+2)(x-2)}{x-2}$. 
+- **Q3:** If $f(x) = \sin(x)$, prove that $f'(x) = \cos(x)$.
 
- $$\lim_{x \to 2} f(x) = \lim_{x \to 2} \frac{(x+2)(x-2)}{x-2}$$
-
- After cancelling $(x-2)$ from numerator and denominator, we get 
-
- $$\lim_{x \to 2} f(x) = \lim_{x \to 2} (x+2)$$
-
- Putting $x = 2$, we get 
-
- $$\lim_{x \to 2} f(x) = 2 + 2 = 4$$
-
- - **Answer:** $4$
-
- - **Q2:** Prove that $f(x) = |x - 1|$ is continuous but not differentiable at $x = 1$.
-
- - **Trap:** Not understanding the definition of continuity and differentiability.
+ - **Trap:** Not using the definition of a derivative correctly.
 
  - **Solution:** 
+By definition, 
+$$
+f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h} = \lim_{h \to 0} \frac{\sin(x + h) - \sin(x)}{h}
+$$
+Using the angle sum identity for sine, $\sin(a + b) = \sin(a)\cos(b) + \cos(a)\sin(b)$, we get:
+$$
+\sin(x + h) = \sin(x)\cos(h) + \cos(x)\sin(h)
+$$
+Substituting this back into our limit:
+$$
+f'(x) = \lim_{h \to 0} \frac{\sin(x)\cos(h) + \cos(x)\sin(h) - \sin(x)}{h}
+$$
+$$
+= \lim_{h \to 0} \frac{\sin(x)(\cos(h) - 1) + \cos(x)\sin(h)}{h}
+$$
+Since $\cos(h)$ approaches $1$ and $\sin(h)$ approaches $h$ as $h$ approaches $0$:
+$$
+f'(x) = \lim_{h \to 0} \frac{\cos(x)\sin(h)}{h} = \cos(x) \cdot \lim_{h \to 0} \frac{\sin(h)}{h} = \cos(x) \cdot 1 = \cos(x)
+$$
 
- For continuity at $x = 1$, we need to check 
 
- $$\lim_{x \to 1^-} f(x) = \lim_{x \to 1^+} f(x) = f(1)$$
+### <a id="continuity"></a>Continuity
+- **Checking Continuity:** To check if a function $f(x)$ is continuous at $x = a$, we must verify that $\lim_{x \to a} f(x) = f(a)$.
 
- For $x < 1$, $f(x) = -(x - 1)$ and for $x \geq 1$, $f(x) = x - 1$.
+ - **Types of Discontinuities:** 
+  - **Removable Discontinuity:** The limit exists, but it does not equal $f(a)$.
+  - **Infinite Discontinuity:** The limit is infinite.
+  - **Oscillating Discontinuity:** The limit does not exist due to oscillation between values.
 
- $$\lim_{x \to 1^-} f(x) = \lim_{x \to 1^-} -(x - 1) = 0$$
+#### Continuity at a Point
+- **Definition:** A function $f(x)$ is continuous at $x = a$ if $\lim_{x \to a} f(x) = f(a)$.
+- **Conditions:** 
+  - $f(a)$ is defined.
+  - $\lim_{x \to a} f(x)$ exists.
+  - $\lim_{x \to a} f(x) = f(a)$.
 
- $$\lim_{x \to 1^+} f(x) = \lim_{x \to 1^+} (x - 1) = 0$$
+#### Continuity on an Interval
+- **Definition:** A function $f(x)$ is continuous on an interval $I$ if it is continuous at every point in $I$.
+- **Interval Types:** 
+  - **Open Interval:** $(a, b)$.
+  - **Closed Interval:** $[a, b]$.
+  - **Half-Open Interval:** $[a, b)$ or $(a, b]$.
 
- $$f(1) = 1 - 1 = 0$$
 
- So, $f(x)$ is continuous at $x = 1$.
+### <a id="differentiability"></a>Differentiability
+- **Checking Differentiability:** A function $f(x)$ is differentiable at $x = a$ if the limit $\lim_{h \to 0} \frac{f(a + h) - f(a)}{h}$ exists.
 
- For differentiability at $x = 1$, we need to check 
+ - **Geometric Interpretation:** The derivative $f'(x)$ represents the slope of the tangent line to the graph of $f(x)$ at $x$.
 
- $$\lim_{h \to 0^-} \frac{f(1 + h) - f(1)}{h} = \lim_{h \to 0^+} \frac{f(1 + h) - f(1)}{h}$$
+ - **Differentiability Implies Continuity:** If a function is differentiable at a point, it is also continuous at that point. However, the converse is not always true.
 
- $$\lim_{h \to 0^-} \frac{-(h) - 0}{h} = \lim_{h \to 0^-} \frac{-h}{h} = -1$$
+#### Differentiability at a Point
+- **Definition:** A function $f(x)$ is differentiable at $x = a$ if $\lim_{h \to 0} \frac{f(a + h) - f(a)}{h}$ exists.
+- **Conditions:** 
+  - $f(a)$ is defined.
+  - $\lim_{h \to 0} \frac{f(a + h) - f(a)}{h}$ exists.
 
- $$\lim_{h \to 0^+} \frac{h - 0}{h} = \lim_{h \to 0^+} \frac{h}{h} = 1$$
+#### Differentiability on an Interval
+- **Definition:** A function $f(x)$ is differentiable on an interval $I$ if it is differentiable at every point in $I$.
+- **Interval Types:** 
+  - **Open Interval:** $(a, b)$.
+  - **Closed Interval:** $[a, b]$.
+  - **Half-Open Interval:** $[a, b)$ or $(a, b]$.
 
- Since the two limits are not equal, $f(x)$ is not differentiable at $x = 1$.
 
- - **Answer:** Proved
+### <a id="algebra-of-derivatives"></a>Algebra of Derivatives
+- **Sum Rule:** $$\frac{d}{dx} (f(x) + g(x)) = f'(x) + g'(x)$$
 
- - **Q3:** If $f(x) = \begin{cases} x^2 + 1, & x \leq 1 \ 2x - 1, & x > 1 \end{cases}$, then find $\lim_{x \to 1} f(x)$ and check if $f(x)$ is continuous at $x = 1$.
+ - **Difference Rule:** $$\frac{d}{dx} (f(x) - g(x)) = f'(x) - g'(x)$$
 
- - **Trap:** Not applying the correct formula for the left and right hand limits.
+ - **Product Rule:** $$\frac{d}{dx} (f(x) \cdot g(x)) = f'(x) \cdot g(x) + f(x) \cdot g'(x)$$
+
+ - **Quotient Rule:** $$\frac{d}{dx} \left(\frac{f(x)}{g(x)}\right) = \frac{f'(x) \cdot g(x) - f(x) \cdot g'(x)}{(g(x))^2}$$
+
+#### Derivative of a Constant
+- **Rule:** If $f(x) = c$, where $c$ is a constant, then $f'(x) = 0$.
+
+#### Derivative of a Power Function
+- **Rule:** If $f(x) = x^n$, where $n$ is a real number, then $f'(x) = nx^{n-1}$.
+
+
+### <a id="chain-rule"></a>Chain Rule
+- **Composition of Functions:** If $f(x) = g(h(x))$, then $f'(x) = g'(h(x)) \cdot h'(x)$.
+
+ - **General Form:** $$\frac{d}{dx} f(g(x)) = f'(g(x)) \cdot g'(x)$$
+
+#### Chain Rule for Multiple Compositions
+- **Rule:** If $f(x) = g(h(j(x)))$, then $f'(x) = g'(h(j(x))) \cdot h'(j(x)) \cdot j'(x)$.
+
+#### Chain Rule and Trigonometric Functions
+- **Examples:** 
+  - If $f(x) = \sin(\cos(x))$, then $f'(x) = \cos(\cos(x)) \cdot (-\sin(x))$.
+  - If $f(x) = \cos(\sin(x))$, then $f'(x) = -\sin(\sin(x)) \cdot \cos(x)$.
+
+
+### <a id="implicit-differentiation"></a>Implicit Differentiation
+- **Implicitly Defined Functions:** Functions defined by an equation where $y$ is not explicitly given in terms of $x$.
+
+ - **Differentiating Both Sides:** Differentiate both sides of the equation with respect to $x$, treating $y$ as a function of $x$.
+
+ - **Solving for $y'$:** Solve the resulting equation for $y'$.
+
+#### Implicit Differentiation with Trigonometric Functions
+- **Examples:** 
+  - If $\sin(y) = x$, then $\cos(y) \cdot y' = 1$, so $y' = \frac{1}{\cos(y)}$.
+  - If $\cos(y) = x$, then $-\sin(y) \cdot y' = 1$, so $y' = -\frac{1}{\sin(y)}$.
+
+
+### <a id="higherorder-derivatives"></a>Higher-Order Derivatives
+- **First Derivative:** $f'(x)$
+
+ - **Second Derivative:** $f''(x) = \frac{d}{dx} f'(x)$
+
+ - **Higher Derivatives:** Continue differentiating to find $f'''(x)$, $f^{(4)}(x)$, etc.
+
+#### Second Derivative Test
+- **Rule:** If $f''(x) > 0$ for all $x$ in an interval, then $f(x)$ is concave up on that interval. If $f''(x) < 0$, then $f(x)$ is concave down.
+
+#### Higher-Order Derivative Test
+- **Rule:** The sign of $f^{(n)}(x)$ determines the concavity of $f^{(n-1)}(x)$.
+
+
+### <a id="applications-of-derivatives"></a>Applications of Derivatives
+- **Optimization:** Use derivatives to find maximum and minimum values of functions.
+
+ - **Motion Along a Line:** Derivatives describe the velocity and acceleration of an object moving along a line.
+
+ - **Related Rates:** Derivatives help solve problems involving rates of change in related quantities.
+
+#### Optimization Problems
+- **Types:** 
+  - **Maximization:** Find the maximum value of a function.
+  - **Minimization:** Find the minimum value of a function.
+
+#### Motion Along a Line
+- **Velocity:** The derivative of position with respect to time.
+- **Acceleration:** The derivative of velocity with respect to time.
+
+
+### <a id="summary-of-key-concepts"></a>Summary of Key Concepts
+- **Continuity:** $\lim_{x \to a} f(x) = f(a)$
+
+ - **Differentiability:** $\lim_{h \to 0} \frac{f(a + h) - f(a)}{h}$ exists
+
+ - **Derivative Rules:** Sum, difference, product, quotient, and chain rules
+
+ - **Implicit Differentiation:** Differentiate both sides of an implicitly defined function
+
+ - **Higher-Order Derivatives:** Continue differentiating to find higher-order derivatives
+
+ - **Applications:** Optimization, motion, related rates, etc.
+
+- **Solution (continued):** 
+
+ $$\lim_{x \to 2} f(x) = \lim_{x \to 2} (x + 2) = 2 + 2 = 4$$
+
+- **Q2:** If $f(x) = |x|$ and $g(x) = x^2$, find the derivative of $f(g(x))$.
+
+ - **Trap:** Forgetting to apply the chain rule.
 
  - **Solution:** 
+First, find $f(g(x)) = |x^2| = x^2$ because $x^2$ is always non-negative. Then, the derivative of $f(g(x))$ with respect to $x$ is $2x$. 
 
- To find $\lim_{x \to 1} f(x)$, we need to find $\lim_{x \to 1^-} f(x)$ and $\lim_{x \to 1^+} f(x)$.
+Note: This is the end of the first 40% of the guide. The remaining topics and practice questions will be covered in the next parts.
 
- $$\lim_{x \to 1^-} f(x) = \lim_{x \to 1^-} (x^2 + 1) = 1^2 + 1 = 2$$
+### <a id="3-solved-pyqs-continued"></a>3 Solved PYQs (Continued)
+#### Q2: Solution Continued
+For $x > 0$, $f(g(x)) = f(x^2) = |x^2| = x^2$, so $f'(g(x)) = 2x$. 
 
- $$\lim_{x \to 1^+} f(x) = \lim_{x \to 1^+} (2x - 1) = 2(1) - 1 = 1$$
+For $x < 0$, $f(g(x)) = f(x^2) = |x^2| = x^2$, so $f'(g(x)) = 2x$. 
 
- Since $\lim_{x \to 1^-} f(x) \
+However, since $g(x) = x^2$, we need to use the chain rule:
+$$
+\frac{d}{dx} f(g(x)) = f'(g(x)) \cdot g'(x) = 2x \cdot 2x = 4x^2
+$$
+But we must consider the nature of $f(x) = |x|$ when $x = 0$. Since $g(0) = 0^2 = 0$, and $f'(0)$ is undefined for $f(x) = |x|$, the derivative of $f(g(x))$ at $x = 0$ needs special attention.
 
-eq \lim_{x \to 1^+} f(x)$, $\lim_{x \to 1} f(x)$ does not exist.
+## <a id="-the-5-trap-mistakes"></a>🪤 The 5 Trap Mistakes
+1. **Not considering the domain of the function**: When dealing with functions like $f(x) = |x|$, it's crucial to remember that the absolute value function has a piecewise definition which affects its differentiability at $x = 0$.
+2. **Forgetting the chain rule**: In composite functions like $f(g(x))$, applying the chain rule is essential to find the derivative correctly.
+3. **Misapplying derivative rules**: Each derivative rule (sum, difference, product, quotient, chain) has its specific application, and confusing these can lead to incorrect derivatives.
+4. **Ignoring higher-order derivatives**: In problems requiring the second derivative or higher, failing to differentiate the first derivative correctly can lead to errors.
+5. **Not checking for continuity and differentiability**: Before applying derivative rules, it's essential to check if the function is continuous and differentiable at the given point to ensure the derivative exists.
 
- For continuity at $x = 1$, we need to check 
+#### Continuity and Differentiability: A Deeper Dive
+For a function to be differentiable at a point, it must also be continuous at that point. However, continuity does not guarantee differentiability. The function $f(x) = |x|$ is continuous at $x = 0$ but not differentiable due to the sharp corner at $x = 0$.
 
- $$\lim_{x \to 1^-} f(x) = \lim_{x \to 1^+} f(x) = f(1)$$
+#### Geometric Interpretation of Derivatives
+The derivative $f'(x)$ represents the slope of the tangent line to the curve of $f(x)$ at the point $x$. This geometric interpretation is crucial for understanding the physical meaning of derivatives in problems involving motion and optimization.
 
- Since $\lim_{x \to 1^-} f(x) \
+#### Implicit Differentiation: A Powerful Tool
+Implicit differentiation allows us to find the derivative of functions that are not given explicitly. By differentiating both sides of the equation with respect to $x$ and treating $y$ as a function of $x$, we can solve for $y'$, which represents the slope of the tangent line to the curve at any point.
 
-eq \lim_{x \to 1^+} f(x)$, $f(x)$ is not continuous at $x = 1$.
+### <a id="higherorder-derivatives-beyond-the-first-derivative"></a>Higher-Order Derivatives: Beyond the First Derivative
+Higher-order derivatives are found by differentiating the derivative of a function. The second derivative, $f''(x)$, represents the rate of change of the first derivative and can be used to determine the concavity of a graph. Higher-order derivatives are essential in advanced physics and engineering applications.
 
- - **Answer:** $\lim_{x \to 1} f(x)$ does not exist and $f(x)$ is not continuous at $x = 1$
+### <a id="applications-of-derivatives-realworld-impact"></a>Applications of Derivatives: Real-World Impact
+Derivatives have numerous applications in optimization problems, where they are used to find the maximum or minimum of a function. In physics, derivatives describe the velocity and acceleration of moving objects. Moreover, derivatives are used in related rates problems to solve questions involving rates of change in related quantities.
 
+### <a id="summary-of-key-concepts-a-recap"></a>Summary of Key Concepts: A Recap
+- **Continuity**: A function $f(x)$ is continuous at $x = a$ if $\lim_{x \to a} f(x) = f(a)$.
+- **Differentiability**: A function $f(x)$ is differentiable at $x = a$ if $\lim_{h \to 0} \frac{f(a + h) - f(a)}{h}$ exists.
+- **Derivative Rules**: Essential rules include the sum, difference, product, quotient, and chain rules for differentiation.
+- **Implicit Differentiation**: Differentiate both sides of an equation with respect to $x$, treating $y$ as a function of $x$.
+- **Higher-Order Derivatives**: Continue differentiating to find higher-order derivatives.
+- **Applications**: Optimization, motion along a line, and related rates are key applications of derivatives.
 
+### <a id="advanced-concepts-in-continuity-and-differentiability"></a>Advanced Concepts in Continuity and Differentiability
 
-## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
+As we delve deeper into the world of continuity and differentiability, it's essential to explore more advanced concepts that will help solidify your understanding and prepare you for the challenges of JEE 2026.
 
-- **The Core Concept:** Continuity and differentiability are two fundamental concepts in calculus that are often misunderstood. A function $f(x)$ is said to be continuous at a point $x=a$ if $lim_{x \to a} f(x) = f(a)$. On the other hand, differentiability implies that the function is smooth and has a tangent line at the given point. 
+- **Uniform Continuity:** A function $f(x)$ is said to be uniformly continuous on an interval $[a, b]$ if for every $\epsilon > 0$, there exists a $\delta > 0$ such that $|f(x_1) - f(x_2)| < \epsilon$ whenever $|x_1 - x_2| < \delta$ for all $x_1, x_2 \in [a, b]$.
 
- - **What 85% scorers do:** Most students check for continuity by just ensuring that the function is defined at the given point and that the left and right limits are equal, i.e., $lim_{x \to a^{-}} f(x) = lim_{x \to a^{+}} f(x) = f(a)$. However, they often neglect to check if the function is well-defined and finite at the given point, which can lead to incorrect conclusions. For example, consider the function $f(x) = \rac{1}{x}$ at $x=0$. Many students would incorrectly conclude that the function is continuous at $x=0$ because the left and right limits are equal, without realizing that the function is not defined at $x=0$. 
+- **Lipschitz Continuity:** A function $f(x)$ is said to be Lipschitz continuous on an interval $[a, b]$ if there exists a constant $M$ such that $|f(x_1) - f(x_2)| \leq M|x_1 - x_2|$ for all $x_1, x_2 \in [a, b]$.
 
- - **What 95% scorers do:** Top scorers, on the other hand, understand that continuity is a necessary condition for differentiability, but not sufficient. They check for continuity by ensuring that the function satisfies the following conditions:
+- **Differentiation of Inverse Functions:** If a function $f(x)$ is one-to-one and differentiable on an interval, then its inverse function $f^{-1}(x)$ is also differentiable, and the derivative of $f^{-1}(x)$ is given by $\frac{d}{dx} f^{-1}(x) = \frac{1}{f'(f^{-1}(x))}$.
 
- * The function is defined at the given point, i.e., $f(a)$ is a finite number.
+## <a id="-master-the-test-center-stepbystep-learning"></a>📝 Master the Test Center — Step-by-Step Learning
 
- * The limit of the function as $x$ approaches $a$ exists, i.e., $lim_{x \to a} f(x)$ is a finite number.
+To reinforce your understanding of continuity and differentiability and to practice applying these concepts to solve problems, it's crucial to utilize the Test Center at /class-11/mathematics/continuity-and-differentiability-class-12-notes. This valuable resource provides a comprehensive platform for you to:
 
- * The limit of the function as $x$ approaches $a$ is equal to the value of the function at $a$, i.e., $lim_{x \to a} f(x) = f(a)$.
+1. **Review Notes and Concepts:** The Test Center offers detailed notes and explanations on continuity and differentiability, covering topics from basic definitions to advanced applications.
+2. **Practice with Solved Examples:** Working through solved examples will help you understand how to apply theoretical concepts to practical problems, enhancing your problem-solving skills.
+3. **Attempt Practice Questions:** The Test Center includes a wide range of practice questions, from basic to advanced levels, allowing you to assess your understanding and identify areas where you need more practice.
+4. **Analyze Your Performance:** After attempting practice questions, you can analyze your performance to understand your strengths and weaknesses, helping you focus your study efforts more effectively.
+5. **Learn from Mistakes:** The Test Center provides detailed explanations for each question, enabling you to learn from your mistakes and avoid repeating them in the future.
 
- They also understand that differentiability requires the existence of the derivative at the given point, which can be checked using the definition of a derivative: 
-
- $$f'(a) = lim_{h \to 0} \rac{f(a+h) - f(a)}{h}$$
-
- For instance, consider the function $f(x) = |x|$ at $x=0$. While the function is continuous at $x=0$, it is not differentiable because the limit $$lim_{h \to 0} \rac{f(0+h) - f(0)}{h} = lim_{h \to 0} \rac{|h|}{h}$$ does not exist. 
-
- Top scorers also recognize that the converse is not true, i.e., a function can be differentiable at a point without being continuous at that point. However, this is not possible, and if a function is differentiable at a point, it must also be continuous at that point.
-
-
+By regularly using the Test Center, you will not only deepen your understanding of continuity and differentiability but also develop the skills and confidence needed to excel in JEE 2026. Make it a part of your daily study routine to see significant improvements in your performance over time.
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- $\lim_{x\to a} f(x) = f(a)$ for continuity at $x = a$
-
- - $f(x)$ is continuous at $x = a$ if $\lim_{x\to a^-} f(x) = \lim_{x\to a^+} f(x) = f(a)$
-
- - $f'(a) = \lim_{h\to 0} \frac{f(a + h) - f(a)}{h}$ for differentiability at $x = a$
-
- - If $f'(a)$ exists, then $f(x)$ is continuous at $x = a$, but the converse is not always true
-
- - $f(x)$ is differentiable at $x = a$ if $f(x)$ is continuous at $x = a$ and $f'(a)$ exists
-
- - Key facts:
-
- - A function can be continuous at a point but not differentiable
-
- - Differentiability implies continuity, but continuity does not necessarily imply differentiability
-
- - If $f(x)$ and $g(x)$ are differentiable at $x = a$, then $f(x) + g(x)$, $f(x) - g(x)$, $f(x) \times g(x)$, and $\frac{f(x)}{g(x)}$ are also differentiable at $x = a$
-
- - Common mistakes:
-
- - Assuming that if a function is continuous, it is automatically differentiable
-
- - Forgetting to check the existence of the limit when checking for continuity and differentiability
-
-
-
-## <a id="-practice-mcqs"></a>📝 Practice MCQs
-
-
-**1. If f(x) = |x|, then at x = 0, the function is**
-
-- A) Continuous and differentiable
-- B) Continuous but not differentiable
-- C) Differentiable but not continuous
-- D) Neither continuous nor differentiable
-
-**Answer:** B) The function f(x) = |x| is continuous at x = 0 because the left-hand limit, right-hand limit, and function value at x = 0 are all equal to 0. However, it is not differentiable at x = 0 because the left-hand derivative and right-hand derivative are not equal.
-
----
-
-**2. If f(x) = x^2 sin(1/x) for x ≠ 0 and f(0) = 0, then the function is**
-
-- A) Continuous but not differentiable at x = 0
-- B) Differentiable but not continuous at x = 0
-- C) Continuous and differentiable at x = 0
-- D) Neither continuous nor differentiable at x = 0
-
-**Answer:** C) The function is continuous at x = 0 because the limit of f(x) as x approaches 0 is equal to f(0) = 0. Additionally, the function is differentiable at x = 0 because the limit of [f(x) - f(0)] / (x - 0) as x approaches 0 exists.
-
----
-
-**3. Let f(x) = x^3 - 3x^2 + 2x + 1. If g(x) = f |x|, then g(x) is**
-
-- A) Continuous and differentiable for all x
-- B) Continuous for all x but differentiable only for x ≠ 0
-- C) Continuous for all x but differentiable only for x > 0
-- D) Differentiable for all x but continuous only for x ≠ 0
-
-**Answer:** B) The function g(x) = f|x| is continuous for all x because the composition of continuous functions is continuous. However, g(x) is not differentiable at x = 0 because the left-hand derivative and right-hand derivative are not equal.
-
----
-
-**4. If f(x) = {x^2 - 1, x < 0; x + 1, x ≥ 0}, then the function is**
-
-- A) Continuous and differentiable at x = 0
-- B) Continuous at x = 0 but not differentiable
-- C) Differentiable at x = 0 but not continuous
-- D) Neither continuous nor differentiable at x = 0
-
-**Answer:** B) The function f(x) is continuous at x = 0 because the left-hand limit, right-hand limit, and function value at x = 0 are all equal to 1. However, the function is not differentiable at x = 0 because the left-hand derivative and right-hand derivative are not equal.
-
----
-
-**5. If f(x) = {x sin(1/x), x ≠ 0; 0, x = 0}, then the function is**
-
-- A) Continuous for all x but differentiable only for x ≠ 0
-- B) Differentiable for all x but continuous only for x ≠ 0
-- C) Continuous and differentiable for all x
-- D) Neither continuous nor differentiable at x = 0
-
-**Answer:** A) The function f(x) is continuous for all x because the limit of f(x) as x approaches 0 is equal to f(0) = 0. However, the function is not differentiable at x = 0 because the limit of [f(x) - f(0)] / (x - 0) as x approaches 0 does not exist.
-
-
-
----
-
-### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Continuity and Differentiability Full Mock Test**](/class-11/mathematics/continuity-and-differentiability-class-12-notes) now and track your progress against thousands of students.
+In the last 5 minutes of your study session, quickly review the key concepts of continuity and differentiability, including definitions, types of discontinuities, and differentiation rules. Practice applying these concepts to simple problems to reinforce your understanding. Remember, consistent practice and review are key to mastering these topics. Bookmark this guide and return daily to continue your journey towards becoming a grandmaster in continuity and differentiability for JEE 2026.
 
 
 ---

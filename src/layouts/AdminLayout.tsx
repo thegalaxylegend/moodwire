@@ -1,6 +1,6 @@
 import { Navigate, Outlet, useLocation } from 'react-router-dom';
 import { useUserStore } from '../store/userStore';
-import { ShieldCheck, Database, CheckCircle, Home } from 'lucide-react';
+import { ShieldCheck, Database, CheckCircle, Home, Brain, Users, Search, Activity } from 'lucide-react';
 import { SidebarItem } from './DashboardLayout'; // Reusing for consistency
 import { Suspense } from 'react';
 import { AppShellSkeleton } from '../components/skeletons/AppShellSkeleton';
@@ -11,9 +11,8 @@ export const AdminLayout = () => {
 
     if (isLoading) return <AppShellSkeleton />;
 
-    // Simple Admin Check (In production, use Claims)
-    // For now, we trust the frontend role or specific emails
-    const isAdmin = user?.role === 'admin' || user?.email?.includes('admin') || user?.email === 'yuvrajchatfit@gmail.com';
+    // Global Admin Access Control
+    const isAdmin = user?.role === 'admin' || user?.email === 'thegalaxylegend2007@gmail.com';
 
     if (!user || !isAdmin) {
         return <Navigate to="/dashboard" replace />;
@@ -36,10 +35,17 @@ export const AdminLayout = () => {
                 </div>
 
                 <div className="flex-1 overflow-y-auto py-6 px-3 space-y-1 custom-scrollbar">
-                    <div className="px-3 mb-2 text-[10px] font-bold uppercase tracking-widest text-text-muted/50">Core Tools</div>
+                    <div className="px-3 mb-2 text-[10px] font-bold uppercase tracking-widest text-text-muted/50">Command Center</div>
+                    <SidebarItem to="/admin/overview" icon={<Home size={20} />} label="Overview" active={location.pathname === '/admin/overview'} isSidebarOpen={true} />
+                    <SidebarItem to="/admin/traffic" icon={<Activity size={20} />} label="Traffic" active={location.pathname === '/admin/traffic'} isSidebarOpen={true} />
+                    <SidebarItem to="/admin/search" icon={<Search size={20} />} label="Search Intelligence" active={location.pathname === '/admin/search'} isSidebarOpen={true} />
+                    <SidebarItem to="/admin/jules" icon={<Brain size={20} />} label="Jules AI" active={location.pathname === '/admin/jules'} isSidebarOpen={true} />
 
+                    <div className="my-4 border-t border-white/5"></div>
+                    <div className="px-3 mb-2 text-[10px] font-bold uppercase tracking-widest text-text-muted/50">Data & Quality</div>
                     <SidebarItem to="/admin/question-review" icon={<CheckCircle size={20} />} label="Question Review" active={location.pathname === '/admin/question-review'} isSidebarOpen={true} />
-                    <SidebarItem to="/admin/upload-syllabus" icon={<Database size={20} />} label="Syllabus Database" active={location.pathname === '/admin/upload-syllabus'} isSidebarOpen={true} />
+                    <SidebarItem to="/admin/upload-syllabus" icon={<Database size={20} />} label="Syllabus DB" active={location.pathname === '/admin/upload-syllabus'} isSidebarOpen={true} />
+                    <SidebarItem to="/admin/users" icon={<Users size={20} />} label="User Management" active={location.pathname === '/admin/users'} isSidebarOpen={true} />
 
                     <div className="my-4 border-t border-white/5"></div>
 
@@ -48,13 +54,11 @@ export const AdminLayout = () => {
             </aside>
 
             {/* Main Content */}
-            <main className="flex-1 overflow-hidden relative flex flex-col">
-                <div className="flex-1 overflow-y-auto overflow-x-hidden p-4 md:p-8 scroll-smooth custom-scrollbar">
-                    <div className="max-w-7xl mx-auto space-y-8 animate-fade-in">
-                        <Suspense fallback={<div className="h-96 flex items-center justify-center text-text-muted">Loading Admin Tool...</div>}>
-                            <Outlet />
-                        </Suspense>
-                    </div>
+            <main className="flex-1 overflow-y-auto overflow-x-hidden bg-background relative p-4 md:p-8 scroll-smooth custom-scrollbar">
+                <div className="max-w-7xl mx-auto space-y-8 animate-fade-in pb-20">
+                    <Suspense fallback={<div className="h-96 flex items-center justify-center text-text-muted">Loading Admin Tool...</div>}>
+                        <Outlet />
+                    </Suspense>
                 </div>
             </main>
         </div>

@@ -1,0 +1,52 @@
+{
+  "generatedAt": "2026-04-03T12:00:00Z",
+  "dateRange": {
+    "startDate": "2026-03-04",
+    "endDate": "2026-04-03"
+  },
+  "totalRows": 1450,
+  "opportunities": 4,
+  "pages": {
+    "https://examcompass.pages.dev/blogs/trigonometric-functions-class-11-revision-notes-jee-neet": {
+      "impressions": 5200,
+      "clicks": 42,
+      "ctr": 0.8,
+      "position": 12.4,
+      "topQueries": [
+        { "query": "trigonometry class 11 notes for jee", "impressions": 2100, "clicks": 15, "ctr": 0.71, "position": 8.2 },
+        { "query": "class 11 trigonometry revision notes", "impressions": 1500, "clicks": 12, "ctr": 0.8, "position": 14.5 }
+      ],
+      "isOpportunity": true
+    },
+    "https://examcompass.pages.dev/blogs/newtons-laws-of-motion-class-11-revision-notes": {
+      "impressions": 3800,
+      "clicks": 180,
+      "ctr": 4.7,
+      "position": 4.1,
+      "topQueries": [
+        { "query": "newton's laws of motion notes", "impressions": 1200, "clicks": 95, "ctr": 7.9, "position": 2.1 }
+      ],
+      "isOpportunity": false
+    },
+    "https://examcompass.pages.dev/blogs/organic-chemistry-some-basic-principles-and-techniques-notes": {
+      "impressions": 4100,
+      "clicks": 35,
+      "ctr": 0.85,
+      "position": 15.2,
+      "topQueries": [
+        { "query": "organic chemistry basics for jee", "impressions": 1800, "clicks": 10, "ctr": 0.55, "position": 18.1 }
+      ],
+      "isOpportunity": true
+    },
+    "https://examcompass.pages.dev/blogs/ionic-equilibrium-class-11-jee-notes": {
+      "impressions": 2900,
+      "clicks": 22,
+      "ctr": 0.75,
+      "position": 11.8,
+      "topQueries": [
+        { "query": "ionic equilibrium notes", "impressions": 900, "clicks": 5, "ctr": 0.55, "position": 9.2 }
+      ],
+      "isOpportunity": true
+    }
+  }
+}

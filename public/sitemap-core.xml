@@ -4,191 +4,191 @@
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/privacy/</loc>
+    <loc>https://examcompass.pages.dev/privacy</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/terms/</loc>
+    <loc>https://examcompass.pages.dev/terms</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/about/</loc>
+    <loc>https://examcompass.pages.dev/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/contact/</loc>
+    <loc>https://examcompass.pages.dev/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/jee-mains/</loc>
+    <loc>https://examcompass.pages.dev/jee-mains</loc>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/jee-mains/physics/</loc>
+    <loc>https://examcompass.pages.dev/jee-mains/physics</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/jee-mains/chemistry/</loc>
+    <loc>https://examcompass.pages.dev/jee-mains/chemistry</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/jee-mains/mathematics/</loc>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/jee-advanced/</loc>
+    <loc>https://examcompass.pages.dev/jee-advanced</loc>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/jee-advanced/physics/</loc>
+    <loc>https://examcompass.pages.dev/jee-advanced/physics</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/jee-advanced/chemistry/</loc>
+    <loc>https://examcompass.pages.dev/jee-advanced/chemistry</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/jee-advanced/mathematics/</loc>
+    <loc>https://examcompass.pages.dev/jee-advanced/mathematics</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/neet/</loc>
+    <loc>https://examcompass.pages.dev/neet</loc>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/neet/physics/</loc>
+    <loc>https://examcompass.pages.dev/neet/physics</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/neet/chemistry/</loc>
+    <loc>https://examcompass.pages.dev/neet/chemistry</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/neet/biology/</loc>
+    <loc>https://examcompass.pages.dev/neet/biology</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/</loc>
+    <loc>https://examcompass.pages.dev/class-12</loc>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/physics/</loc>
+    <loc>https://examcompass.pages.dev/class-12/physics</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/chemistry/</loc>
+    <loc>https://examcompass.pages.dev/class-12/chemistry</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/mathematics/</loc>
+    <loc>https://examcompass.pages.dev/class-12/mathematics</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/biology/</loc>
+    <loc>https://examcompass.pages.dev/class-12/biology</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/</loc>
+    <loc>https://examcompass.pages.dev/class-12/english</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/computer-science/</loc>
+    <loc>https://examcompass.pages.dev/class-12/computer-science</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/</loc>
+    <loc>https://examcompass.pages.dev/class-11</loc>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/physics/</loc>
+    <loc>https://examcompass.pages.dev/class-11/physics</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/chemistry/</loc>
+    <loc>https://examcompass.pages.dev/class-11/chemistry</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/mathematics/</loc>
+    <loc>https://examcompass.pages.dev/class-11/mathematics</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/biology/</loc>
+    <loc>https://examcompass.pages.dev/class-11/biology</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/</loc>
+    <loc>https://examcompass.pages.dev/class-11/english</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/computer-science/</loc>
+    <loc>https://examcompass.pages.dev/class-11/computer-science</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/</loc>
+    <loc>https://examcompass.pages.dev/class-10</loc>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/mathematics/</loc>
+    <loc>https://examcompass.pages.dev/class-10/mathematics</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/</loc>
+    <loc>https://examcompass.pages.dev/class-10/science</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/social-science/</loc>
+    <loc>https://examcompass.pages.dev/class-10/social-science</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/english/</loc>
+    <loc>https://examcompass.pages.dev/class-10/english</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/</loc>
+    <loc>https://examcompass.pages.dev/class-9</loc>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/mathematics/</loc>
+    <loc>https://examcompass.pages.dev/class-9/mathematics</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/</loc>
+    <loc>https://examcompass.pages.dev/class-9/science</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/social-science/</loc>
+    <loc>https://examcompass.pages.dev/class-9/social-science</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/english/</loc>
+    <loc>https://examcompass.pages.dev/class-9/english</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/</loc>
+    <loc>https://examcompass.pages.dev/class-8</loc>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/mathematics/</loc>
+    <loc>https://examcompass.pages.dev/class-8/mathematics</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/</loc>
+    <loc>https://examcompass.pages.dev/class-8/science</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/social-science/</loc>
+    <loc>https://examcompass.pages.dev/class-8/social-science</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/english/</loc>
+    <loc>https://examcompass.pages.dev/class-8/english</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/jee-mains/physics/electromagnetic-induction/top-50-pyqs/</loc>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/electromagnetic-induction/top-50-pyqs</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/jee-mains/physics/moment-of-inertia/top-50-pyqs/</loc>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/moment-of-inertia/top-50-pyqs</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

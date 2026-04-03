@@ -12,8 +12,8 @@ export const SmoothScroll = ({ children }: { children: React.ReactNode }) => {
     // We ensure native scroll behavior is reset to avoid conflicting with Lenis
     document.documentElement.style.scrollBehavior = 'auto';
 
-    // Disable smooth scroll hijacking on heavy blog pages 
-    if (location.pathname.startsWith('/blog')) {
+    // Disable smooth scroll hijacking on heavy pages and admin dashboards
+    if (location.pathname.startsWith('/blog') || location.pathname.startsWith('/admin')) {
       return;
     }
 

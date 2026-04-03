@@ -1,0 +1,52 @@
+{
+  "overallAvgScore": 65,
+  "totalBlogsAllTime": 18,
+  "totalPassed": 11,
+  "totalFailed": 7,
+  "overallPassRate": 61,
+  "trend": "stable",
+  "trendDelta": 0,
+  "dailyReports": [
+    {
+      "date": "2026-03-23",
+      "totalBlogs": 6,
+      "passed": 4,
+      "failed": 2,
+      "avgScore": 78.3,
+      "passRate": 67,
+      "errors": []
+    },
+    {
+      "date": "2026-03-29",
+      "totalBlogs": 6,
+      "passed": 6,
+      "failed": 0,
+      "avgScore": 100,
+      "passRate": 100,
+      "errors": []
+    },
+    {
+      "date": "2026-03-30",
+      "totalBlogs": 6,
+      "passed": 1,
+      "failed": 5,
+      "avgScore": 16.7,
+      "passRate": 17,
+      "errors": [
+        "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}",
+        "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}",
+        "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}",
+        "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}",
+        "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}"
+      ]
+    }
+  ],
+  "topErrors": [
+    {
+      "error": "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":",
+      "count": 5
+    }
+  ],
+  "alertNeeded": true,
+  "alertMessage": "🚨 Last run had <50% pass rate! Only 1/6 blogs passed."
+}

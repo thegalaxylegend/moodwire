@@ -1,0 +1,50 @@
+[
+  {
+    "date": "2026-04-03T10:59:31.180Z",
+    "totalDuration": 43345,
+    "summary": {
+      "succeeded": 6,
+      "skipped": 0,
+      "failed": 0,
+      "total": 6
+    },
+    "steps": [
+      {
+        "step": "📈 Quality Trends Tracker",
+        "status": "success",
+        "duration": 13360,
+        "output": "\n📈 Quality Trends Tracker v1.0\n\n📂 Found 3 daily report(s)\n\n════════════════════════════════════════════════════════════\n📊 QUALITY TRENDS REPORT\n════════════════════════════════════════════════════════════\n  📅 Reports analyzed:    3 days\n  📄 Total blogs:         18\n  ✅ Passed:              11\n  ❌ Failed:              7\n  📊 Overall pass rate:   61%\n  ⭐ Avg quality score:   65/100\n  ➡️ Trend:               stable (0 points)\n\n  🔴 Most Common Errors:\n     5× 401 {\"error\":{\"message\":\"Invalid AP"
+      },
+      {
+        "step": "🔬 Failed Blog Autopsy",
+        "status": "success",
+        "duration": 10241,
+        "output": "\n🔬 Failed Blog Autopsy System v1.0\nAnalyzing failures and extracting lessons...\n\n📂 Found 3 pipeline report(s)\n\n════════════════════════════════════════════════════════════\n📊 AUTOPSY REPORT\n════════════════════════════════════════════════════════════\n  📂 Reports analyzed:      3\n  🆕 New lessons extracted:  0\n  📚 Total lessons learned:  5\n  🎯 Strategy adjustments:   0\n\n  📋 Failure Type Breakdown:\n     5× UNKNOWN_FAILURE\n\n📄 Lessons saved: C:\\Users\\Admin\\Downloads\\Desktop\\jules-reports\\less"
+      },
+      {
+        "step": "📊 Content Pattern Learner",
+        "status": "success",
+        "duration": 6030,
+        "output": "\n📊 Content Pattern Learner v1.0\nAnalyzing content structure patterns across all blogs...\n\n📂 Analyzing 155 blog files...\n\n════════════════════════════════════════════════════════════\n📊 CONTENT PATTERN ANALYSIS\n════════════════════════════════════════════════════════════\n  📄 Total blogs: 155\n  📝 Total words: 3,08,165\n  📊 Avg word count: 1988\n  📉 Short blogs (<1000 words): 67\n  📈 Long blogs (>5000 words): 23\n  🪤 Has Trap Questions: 97\n  ⏰ Has Last 5 Min Box: 24\n  🔗 Has Related Topics: 1\n\n"
+      },
+      {
+        "step": "🧬 Prompt Evolution Engine",
+        "status": "success",
+        "duration": 5013,
+        "output": "[dotenv@17.3.1] injecting env (30) from .env -- tip: ⚙️  suppress all logs with { quiet: true }\n\n════════════════════════════════════════════════════════════\n🧬 PROMPT EVOLUTION ENGINE v1.0\n════════════════════════════════════════════════════════════\n\n📡 Gathering intelligence from all sources...\n\n  ✅ Content Patterns\n  ✅ Quality Trends\n  ✅ GA4 Traffic Data\n  ✅ Search Intelligence\n  ✅ Generation Strategy\n  ✅ Lessons Learned\n\n🧪 Synthesizing intelligence into actionable insights...\n\n🧬 Evolving s"
+      },
+      {
+        "step": "📉 Content Decay Detector",
+        "status": "success",
+        "duration": 3545,
+        "output": "\n════════════════════════════════════════════════════════════\n📉 CONTENT DECAY DETECTOR v1.0\n════════════════════════════════════════════════════════════\n\n🔍 Scanning for content decay signals...\n\n════════════════════════════════════════════════════════════\n📊 DECAY ANALYSIS REPORT\n════════════════════════════════════════════════════════════\n  🚨 Critical (needs regeneration):  1\n  ⚠️  Warning (needs optimization):   0\n  👀 Monitor (watch list):            0\n\n  🚨 CRITICAL DECAYS:\n     📉 trigon"
+      },
+      {
+        "step": "📝 Self-Documenting Changelog",
+        "status": "success",
+        "duration": 4878,
+        "output": "\n📝 Self-Documenting Changelog v1.0\n\n📝 Today's entry already exists. Updating...\n✅ Changelog updated: C:\\Users\\Admin\\Downloads\\Desktop\\JULES_CHANGELOG.md\n📊 Today's activity:\n   Blogs generated: 0\n   Repairs applied: 237\n   Freshness fixes: 22\n   Links added:     109\n\n✨ Done!\n\n"
+      }
+    ]
+  }
+]

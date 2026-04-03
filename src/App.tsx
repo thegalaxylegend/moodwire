@@ -1,4 +1,4 @@
-import { Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route, useLocation, Navigate } from 'react-router-dom';
 import { SmoothScroll } from './components/SmoothScroll';
 import { Suspense, lazy, useEffect, useState, useRef } from 'react';
 import { useUserStore } from './store/userStore';
@@ -58,6 +58,11 @@ const RankInfo = lazy(() => import('./pages/dashboard/RankInfo').then(module => 
 // Admin Routes - Lazy
 const QuestionReview = lazy(() => import('./pages/admin/QuestionReview').then(module => ({ default: module.QuestionReview })));
 const SyllabusUpload = lazy(() => import('./pages/admin/SyllabusUpload').then(module => ({ default: module.SyllabusUpload })));
+const AdminOverview = lazy(() => import('./pages/admin/dashboard/AdminOverview').then(module => ({ default: module.AdminOverview })));
+const TrafficAnalytics = lazy(() => import('./pages/admin/dashboard/TrafficAnalytics').then(module => ({ default: module.TrafficAnalytics })));
+const SearchAnalytics = lazy(() => import('./pages/admin/dashboard/SearchAnalytics').then(module => ({ default: module.SearchAnalytics })));
+const JulesIntelligence = lazy(() => import('./pages/admin/dashboard/JulesIntelligence').then(module => ({ default: module.JulesIntelligence })));
+const UserManagement = lazy(() => import('./pages/admin/UserManagement').then(module => ({ default: module.UserManagement })));
 
 // Components - Lazy
 const Chatbot = lazy(() => import('./components/Chatbot').then(module => ({ default: module.Chatbot })));
@@ -258,8 +263,14 @@ function App() {
 
         {/* Admin Routes */}
         <Route path="/admin" element={<Suspense fallback={<DashboardSkeleton />}><AdminLayout /></Suspense>}>
+          <Route index element={<Navigate to="/admin/overview" replace />} />
+          <Route path="overview" element={<AdminOverview />} />
+          <Route path="traffic" element={<TrafficAnalytics />} />
+          <Route path="search" element={<SearchAnalytics />} />
+          <Route path="jules" element={<JulesIntelligence />} />
           <Route path="question-review" element={<QuestionReview />} />
           <Route path="upload-syllabus" element={<SyllabusUpload />} />
+          <Route path="users" element={<UserManagement />} />
         </Route>
 
         {/* 404 Catch-all */}

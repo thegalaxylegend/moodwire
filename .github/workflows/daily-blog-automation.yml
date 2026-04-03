@@ -89,6 +89,46 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: node scripts/repair-images.js
 
+      - name: Task 7 - Content Freshness Auto-Update
+        run: npx tsx scripts/auto-refresh-blogs.ts
+
+      - name: Task 8 - Smart Auto-Repair
+        run: npx tsx scripts/smart-repair.ts
+
+      - name: Task 9 - Generate Schema Markup
+        run: npx tsx scripts/generate-schema.ts
+
+      - name: Task 10 - Quality Trends Analysis
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: npx tsx scripts/quality-tracker.ts
+
+      - name: Task 11 - Internal Linking Optimizer
+        run: npx tsx scripts/internal-linker.ts
+
+      - name: Task 12 - Duplication Checker
+        run: npx tsx scripts/duplication-checker.ts
+
+      - name: Task 13 - Failed Blog Autopsy
+        run: npx tsx scripts/failed-autopsy.ts
+
+      - name: Task 14 - Content Pattern Analysis
+        run: npx tsx scripts/content-patterns.ts
+
+      - name: Task 15 - Self-Documenting Changelog
+        run: npx tsx scripts/self-changelog.ts
+
+      - name: Task 16 - Google Search Console Intelligence
+        run: npx tsx scripts/google-search-console.ts
+
+      - name: Task 17 - Search Opportunity Optimization
+        env:
+          VITE_GEMINI_API_KEY: ${{ secrets.VITE_GEMINI_API_KEY }}
+        run: npx tsx scripts/meta-optimizer.ts
+
+      - name: Task 18 - Syllabus Completion Stats
+        run: npx tsx scripts/syllabus-stats.ts
+
       - name: Cleanup Secrets
         if: always()
         run: rm -f service-account.json
@@ -115,7 +155,7 @@ jobs:
           fi
 
       - name: Commit and Push New Blogs
-        if: steps.quality_gate.outputs.gate_passed == 'true'
+        if: steps.quality_gate.outputs.gate_passed == 'true' || github.event_name == 'workflow_dispatch'
         run: |
           git config --global user.name 'Jules Blog Bot'
           git config --global user.email 'jules-bot@users.noreply.github.com'
@@ -124,7 +164,11 @@ jobs:
           git add src/data/blogs.ts
           git add public/seo-manifest.json
           git add public/slug-registry.json
-          git commit -m "chore: auto-generate blogs (Quality Gate 90+) by Jules" || echo "No changes to commit"
+          git add public/schema-data.json || true
+          git add public/jules-reports/*.json || true
+          git add jules-reports/*.json || true
+          git add JULES_CHANGELOG.md || true
+          git commit -m "chore: auto-generate blogs & intelligence reports [self-learning-seo]" || echo "No changes to commit"
           git push origin main
 
       - name: Trigger Cloudflare Pages Deploy

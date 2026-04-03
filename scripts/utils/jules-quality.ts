@@ -240,8 +240,9 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
     // The "Last-Night Revision Format" removes fluff, but we still strictly enforce 1000 words min.
     const minWordCount = 1000;
     
-    const wordCount = (post.content?.intro?.split(/\s+/).length || 0) +
-        (post.content?.sections || []).reduce((acc, s) => acc + (s.body?.split(/\s+/).length || 0), 0);
+    const wordCount = (typeof post.content?.intro === 'string' ? post.content.intro.split(/\s+/).length : 0) +
+        (post.content?.quick_recall || []).reduce((acc, r) => acc + r.split(/\s+/).length, 0) +
+        (post.content?.sections || []).reduce((acc, s) => acc + (typeof s.body === 'string' ? s.body.split(/\s+/).length : 0), 0);
         
     if (wordCount < minWordCount) {
         score -= 30;
@@ -413,7 +414,6 @@ export function jsonToMarkdown(post: BlogPostJSON): string {
 
     // 1. Generate TOC
     const tocItems = [
-        { title: "🎯 What WILL Come in Your Exam", id: "what-will-come" },
         ...(post.content?.sections || []).map(s => ({ title: s.heading, id: slugify(s.heading) })),
         { title: "📝 Practice MCQs", id: "practice-mcqs" }
     ];
@@ -470,9 +470,9 @@ practice_link: "${post.practice_link_path}"
 
 *Last Updated: ${post.last_updated}*
 
-${tocMarkdown}
+${recallBox}
 
-${normalizeLaTeX(post.content.intro)}
+${tocMarkdown}
 
 ${sectionsHtml}
 
@@ -501,47 +501,46 @@ export function standardizeMarkdown(markdown: string, meta: { title: string, her
         body = markdown.replace(frontmatter, '');
     }
 
-    // 2. Normalize LaTeX
-    body = body.replace(/\\\\\\\\([a-zA-Z])/g, '\\\\$1');
-
-    // 3. REMOVE Ayush's Note, Quick Recall, and What WILL Come sections if they exist
-    body = body.replace(/## (?:🚀 )?(?:Quick Recall|Summary|Last Night Summary)[\s\S]*?(?=##|$)/gi, '');
-    body = body.replace(/## (?:👁️ )?(?:Ayush's Note|Ayush Note|Ayush's Secret Note)[\s\S]*?(?=##|$)/gi, '');
-    body = body.replace(/## (?:🎯 )?(?:What WILL Come|What WILL Come in Your Exam)[\s\S]*?(?=##|$)/gi, '');
+    // 2. NUCLEAR CLEAN: Strip ALL existing structural elements that might cause duplication
     body = body.replace(/<div class="quick-summary">[\s\S]*?<\/div>/gi, '');
+    body = body.replace(/## 📋 Table of Contents\n*/gi, '');
+    body = body.replace(/!\[.*?\]\(.*?\)/g, '');
+    body = body.replace(/\*Last Updated:.*?\*/gi, '');
+    body = body.replace(/<a id=".*?"><\/a>/gi, '');
+    body = body.replace(/---[\s\S]*?curated by Jules[\s\S]*?\*/gi, '');
 
-    // 4. Build TOC and Inject Anchors
-    const tocItems: Array<{ title: string, id: string }> = [];
+    // CLEAN DUPLICATE LINKS: Specifically strip any bulleted links at the start of the body
+    body = body.replace(/^[*-] \[[^\]]+\]\(#[^\)]+\)\s*$/gm, '');
+    
+    body = body.trim();
+
+    // 3. Normalizing LaTeX
+    body = body.replace(/\\\\([a-zA-Z])/g, '\\$1');
+
+    // 4. Build TOC and Inject Anchors (Supports H2 and H3 for depth)
+    const tocItems: Array<{ title: string, id: string, level: number }> = [];
     function slugify(text: string): string {
         return text.toLowerCase().replace(/[^\w ]+/g, '').replace(/ +/g, '-');
     }
 
-    // Clean existing TOC headers to avoid duplicates
-    body = body.replace(/## 📋 Table of Contents\n*/gi, '');
-
-    // Replace all H2s that aren't already anchored
-    body = body.replace(/^## (?!<a)(.*)$/gm, (match, title) => {
+    // Replace all H2s and H3s that aren't already anchored
+    body = body.replace(/^(##|###) (.*)$/gm, (match, level, title) => {
         const cleanTitle = title.trim();
-        // Skip certain titles from TOC if needed
         if (cleanTitle.toLowerCase().includes('table of contents')) return ""; 
         const id = slugify(cleanTitle);
-        tocItems.push({ title: cleanTitle, id });
-        return `## <a id="${id}"></a>${cleanTitle}`;
+        tocItems.push({ title: cleanTitle, id, level: level.length });
+        return `${level} <a id="${id}"></a>${cleanTitle}`;
     });
 
-    // 5. Clean redundant footers
-    body = body.replace(/---[\s\S]*?curated by Jules[\s\S]*?\*/gi, '').trim();
+    // 5. Final Cleaning
+    body = body.replace(/^\|.*\|\s*\n^\|[\s-]*\|\s*$(?:\n\s*$)?/gm, '');
 
     // 6. Assemble
     const tocMarkdown = tocItems.length > 0
-        ? `\n## 📋 Table of Contents\n\n${tocItems.map(item => `- [${item.title}](#${item.id})`).join('\n')}\n`
+        ? `\n## 📋 Table of Contents\n\n${tocItems.map(item => `${'  '.repeat(item.level - 2)}- [${item.title}](#${item.id})`).join('\n')}\n`
         : '';
 
     const footer = `\n---\n\n### 🚀 Ready to Ace Your Exam?\nPut your knowledge to the test! Take the free [**Practice Mock Test**](${meta.practiceLink}) now and track your progress against thousands of students.\n\n---\n*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*`;
-
-    // Ensure image and date are at top of body
-    body = body.replace(/!\[.*?\]\(.*?\)/, '').trim(); // Remove image if duplicated
-    body = body.replace(/\*Last Updated:.*?\*/, '').trim(); // Remove date if duplicated
 
     const assembledBody = `![${meta.title}](${meta.heroImage})
 
