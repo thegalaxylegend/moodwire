@@ -944,6 +944,17 @@
     "robots": "index, follow",
     "sitemapGroup": "blogs"
   },
+  "/blog/linear-programming-class-12-notes/": {
+    "title": "Linear Programming Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
+    "description": "Master Linear Programming for Mathematics 2026. This Grandmaster Guide includes Ayush",
+    "date": "2026-04-03",
+    "category": "Mathematics",
+    "h1": "Linear Programming Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
   "/blog/local-government-class-11-revision-notes-cbse/": {
     "title": "Local Government Class 11 Social Science Recap — CBSE 2026 Quick Guide",
     "description": "Accelerate your Social Science revision with our Local Government guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success.",
@@ -1346,6 +1357,17 @@
     "date": "2026-03-28",
     "category": "Physics",
     "h1": "Principle of Mathematical Induction Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/principles-of-inheritance-and-variation-class-12-notes/": {
+    "title": "Principles of Inheritance and Variation Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+    "description": "Accelerate your Biology revision with our Principles of Inheritance and Variation guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success.",
+    "date": "2026-04-03",
+    "category": "Biology",
+    "h1": "Principles of Inheritance and Variation Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
     "type": "blog-post",
     "priority": 0.8,
     "robots": "index, follow",
