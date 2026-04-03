@@ -1,19 +1,14 @@
 import { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
 import { 
   Brain, 
   TrendingUp, 
-  Zap, 
-  Activity,
   Database,
   Wifi,
   Users,
   CheckCircle2,
-  ClipboardList,
-  BookOpen
 } from 'lucide-react';
 import { db } from '../../../lib/firebase';
-import { collection, query, limit, getDocs, getCountFromServer, orderBy } from 'firebase/firestore';
+import { collection, query, limit, getDocs, getCountFromServer } from 'firebase/firestore';
 import { StatCard } from '../../../components/admin/StatCard';
 
 export const AdminOverview = () => {
@@ -28,7 +23,6 @@ export const AdminOverview = () => {
       studyPlans: 0, 
       topics: 0 
   });
-  const [recentUsers, setRecentUsers] = useState<any[]>([]);
   const [indexingHistory, setIndexingHistory] = useState<any[]>([]);
   const [demographics, setDemographics] = useState({
       exams: { JEE: 0, NEET: 0, Other: 0 },
@@ -41,7 +35,6 @@ export const AdminOverview = () => {
         const [
           usersSnap, qSnap, mockSnap, 
           planSnap, topicSnap,
-          recentUsersSnap,
           idxHistoryRes
         ] = await Promise.all([
           getCountFromServer(collection(db, 'profiles')),
@@ -49,12 +42,10 @@ export const AdminOverview = () => {
           getCountFromServer(collection(db, 'mock_attempts')),
           getCountFromServer(collection(db, 'study_plans')),
           getCountFromServer(collection(db, 'user_topic_stats')),
-          getDocs(query(collection(db, 'profiles'), orderBy('created_at', 'desc'), limit(5))),
           fetch('/jules-reports/indexing-history.json')
         ]);
 
         if (idxHistoryRes.ok) setIndexingHistory(await idxHistoryRes.json());
-        setRecentUsers(recentUsersSnap.docs.map((d: any) => ({ id: d.id, ...d.data() })));
         
         const count = (usersSnap as any).data().count || 0;
         setRealStats({
