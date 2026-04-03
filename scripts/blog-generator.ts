@@ -741,13 +741,32 @@ async function generateBlogs() {
         console.log(`📂 Found ${regenQueue.length} refinement items in ${regenFiles[0]}`);
         
         // Convert regen-queue format to generation format
-        const formattedRegen = regenQueue.map((item: any) => ({
-            topic: item.slug.replace(/-/g, ' '), // Basic topic extraction
-            targetSlug: item.slug,
-            subject: "General", // Will be inferred from existing file frontmatter in buildBlogPostJson logic
-            isRegeneration: true,
-            reason: item.reason
-        }));
+        // Infer subject + topic from existing blog frontmatter for accuracy
+        const formattedRegen = regenQueue.map((item: any) => {
+            let subject = 'General';
+            let topic = item.slug.replace(/-/g, ' ');
+            
+            // Read existing blog frontmatter for accurate subject/topic
+            const blogPath = path.join(BLOG_DIR, `${item.slug}.md`);
+            if (fs.existsSync(blogPath)) {
+                try {
+                    const content = fs.readFileSync(blogPath, 'utf-8');
+                    const subjectMatch = content.match(/subject:\s*['"]?([^'"\n]+)/);
+                    const chapterMatch = content.match(/chapter_name:\s*['"]?([^'"\n]+)/);
+                    if (subjectMatch) subject = subjectMatch[1].trim();
+                    if (chapterMatch) topic = chapterMatch[1].trim();
+                    console.log(`  🔍 Inferred: "${topic}" (${subject}) from existing blog`);
+                } catch { /* fallback to slug-derived values */ }
+            }
+            
+            return {
+                topic,
+                targetSlug: item.slug,
+                subject,
+                isRegeneration: true,
+                reason: item.reason
+            };
+        });
         
         queue = [...queue, ...formattedRegen];
     }

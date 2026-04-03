@@ -386,40 +386,68 @@ function saveWithHistory(evolved: any): void {
 
 function shouldRevert(): boolean {
     const trends = loadJSON(path.join(REPORTS_DIR, 'quality-trends.json'));
-    if (!trends) return false;
-
-    // Revert if quality is declining AND score is below 70
-    if (trends.trend === 'declining' && trends.overallAvgScore < 70) {
-        console.log('🚨 SAFETY: Quality declining below 70. Checking if evolved prompt is the cause...');
+    const ga4Data = loadJSON(path.join(PUBLIC_REPORTS, 'ga4-stats.json'));
+    const evolved = loadJSON(EVOLVED_PROMPT_FILE);
+    
+    if (!evolved || !evolved.version) return false;
+    
+    const evolvedDate = new Date(evolved.version);
+    const daysSinceEvolution = (Date.now() - evolvedDate.getTime()) / (1000 * 60 * 60 * 24);
+    
+    // Only check reverts for prompts changed in the last 14 days
+    if (daysSinceEvolution > 14) return false;
+    
+    let shouldRevertNow = false;
+    const reasons: string[] = [];
+    
+    // Check 1: Quality score declining below 70
+    if (trends && trends.trend === 'declining' && trends.overallAvgScore < 70) {
+        reasons.push(`Quality declining (${trends.overallAvgScore}/100)`);
+        shouldRevertNow = true;
+    }
+    
+    // Check 2: High failure rate (>40% blogs failing)
+    if (trends && trends.overallPassRate !== undefined && trends.overallPassRate < 60) {
+        reasons.push(`High failure rate (pass rate: ${trends.overallPassRate}%)`);
+        shouldRevertNow = true;
+    }
+    
+    // Check 3: Traffic-based reversion (if GA4 data available)
+    if (ga4Data && ga4Data.totals) {
+        const avgViewsPerPage = (ga4Data.totals.pageviews || 0) / Math.max(1, ga4Data.topPages?.length || 1);
+        // If average views per page dropped below 5 (extremely low), something is wrong
+        if (avgViewsPerPage < 5 && daysSinceEvolution < 7) {
+            reasons.push(`Traffic collapse (avg ${avgViewsPerPage.toFixed(1)} views/page)`);
+            shouldRevertNow = true;
+        }
+    }
+    
+    if (shouldRevertNow) {
+        console.log('🚨 SAFETY TRIGGERS DETECTED:');
+        reasons.forEach(r => console.log(`   ⚠️ ${r}`));
+        console.log(`   📅 Evolved prompt age: ${daysSinceEvolution.toFixed(1)} days`);
         
-        const evolved = loadJSON(EVOLVED_PROMPT_FILE);
-        if (evolved && evolved.version) {
-            const evolvedDate = new Date(evolved.version);
-            const daysSinceEvolution = (Date.now() - evolvedDate.getTime()) / (1000 * 60 * 60 * 24);
+        // Find and restore the most recent history file
+        if (fs.existsSync(PROMPT_HISTORY_DIR)) {
+            const historyFiles = fs.readdirSync(PROMPT_HISTORY_DIR)
+                .filter(f => f.startsWith('prompt-') && f.endsWith('.json'))
+                .sort()
+                .reverse();
             
-            // If prompt was evolved recently and quality dropped, revert
-            if (daysSinceEvolution < 7) {
-                console.log('⏪ REVERTING: Evolved prompt was applied within last 7 days and quality dropped.');
-                
-                // Find the most recent history file
-                if (fs.existsSync(PROMPT_HISTORY_DIR)) {
-                    const historyFiles = fs.readdirSync(PROMPT_HISTORY_DIR)
-                        .filter(f => f.startsWith('prompt-') && f.endsWith('.json'))
-                        .sort()
-                        .reverse();
-                    
-                    if (historyFiles.length > 0) {
-                        const previousPrompt = loadJSON(path.join(PROMPT_HISTORY_DIR, historyFiles[0]));
-                        if (previousPrompt) {
-                            fs.writeFileSync(EVOLVED_PROMPT_FILE, JSON.stringify(previousPrompt, null, 2));
-                            console.log('✅ Reverted to previous prompt version.');
-                            return true;
-                        }
-                    }
+            if (historyFiles.length > 0) {
+                const previousPrompt = loadJSON(path.join(PROMPT_HISTORY_DIR, historyFiles[0]));
+                if (previousPrompt) {
+                    fs.writeFileSync(EVOLVED_PROMPT_FILE, JSON.stringify(previousPrompt, null, 2));
+                    console.log('✅ REVERTED to previous prompt version.');
+                    console.log(`   📄 Restored from: ${historyFiles[0]}`);
+                    return true;
                 }
             }
         }
+        
+        console.log('⚠️ No history file found to revert to. Continuing with current prompt.');
     }
+    
     return false;
 }
 

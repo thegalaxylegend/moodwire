@@ -282,7 +282,7 @@ async function main() {
     // Regen queue
     const regenQueue = generateRegenQueue(decayResults);
     if (regenQueue.length > 0) {
-        const queuePath = path.join(REPORTS_DIR, `decay-regen-queue.json`);
+        const queuePath = path.join(REPORTS_DIR, `regen-queue-${TODAY}.json`);
         fs.writeFileSync(queuePath, JSON.stringify(regenQueue, null, 2));
         console.log(`  📋 Regen queue: ${queuePath} (${regenQueue.length} pages)`);
     }
