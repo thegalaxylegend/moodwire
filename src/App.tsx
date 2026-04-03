@@ -219,18 +219,13 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/login" element={<Suspense fallback={<GlobalLoading />}><Login /></Suspense>} />
 
-        {/* SEO Public Routes - Synchronous for SSG Pre-rendering */}
+        {/* SEO Public Static Routes */}
         <Route path="/blog" element={<Suspense fallback={<BlogSkeleton />}><BlogIndex /></Suspense>} />
         <Route path="/blog/:slug" element={<Suspense fallback={<BlogSkeleton />}><BlogPostPage /></Suspense>} />
         <Route path="/privacy" element={<Suspense fallback={<BlogSkeleton />}><PrivacyPolicy /></Suspense>} />
         <Route path="/terms" element={<Suspense fallback={<BlogSkeleton />}><TermsOfService /></Suspense>} />
         <Route path="/about" element={<Suspense fallback={<BlogSkeleton />}><AboutPage /></Suspense>} />
         <Route path="/contact" element={<Suspense fallback={<BlogSkeleton />}><ContactPage /></Suspense>} />
-        <Route path="/:exam" element={<Suspense fallback={<BlogSkeleton />}><ExamLanding /></Suspense>} />
-        <Route path="/:exam/:subject" element={<Suspense fallback={<BlogSkeleton />}><SubjectPage /></Suspense>} />
-        <Route path="/:exam/:subject/:topic" element={<Suspense fallback={<BlogSkeleton />}><TopicPage /></Suspense>} />
-        <Route path="/:exam/:subject/:topic/top-50-pyqs" element={<Suspense fallback={<BlogSkeleton />}><PyqCollectionPage /></Suspense>} />
-        <Route path="/:exam/q/:slug" element={<Suspense fallback={<BlogSkeleton />}><QuestionPage /></Suspense>} />
 
         {/* Protected Routes (Auth + Onboarding Check) */}
         <Route element={<Suspense fallback={<DashboardSkeleton />}><ProtectedLayout /></Suspense>}>
@@ -272,6 +267,13 @@ function App() {
           <Route path="upload-syllabus" element={<SyllabusUpload />} />
           <Route path="users" element={<UserManagement />} />
         </Route>
+
+        {/* SEO Public Dynamic Routes - Moved to bottom to prevent hijacking */}
+        <Route path="/:exam" element={<Suspense fallback={<BlogSkeleton />}><ExamLanding /></Suspense>} />
+        <Route path="/:exam/:subject" element={<Suspense fallback={<BlogSkeleton />}><SubjectPage /></Suspense>} />
+        <Route path="/:exam/:subject/:topic" element={<Suspense fallback={<BlogSkeleton />}><TopicPage /></Suspense>} />
+        <Route path="/:exam/:subject/:topic/top-50-pyqs" element={<Suspense fallback={<BlogSkeleton />}><PyqCollectionPage /></Suspense>} />
+        <Route path="/:exam/q/:slug" element={<Suspense fallback={<BlogSkeleton />}><QuestionPage /></Suspense>} />
 
         {/* 404 Catch-all */}
         <Route path="*" element={<NotFoundPage />} />
