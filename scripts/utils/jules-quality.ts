@@ -394,8 +394,21 @@ export function jsonToMarkdown(post: BlogPostJSON): string {
     const seoDesc = templates[hash % templates.length];
     post.title = seoTitle;
 
-    function normalizeLaTeX(text: string): string {
-        if (!text) return '';
+    function normalizeLaTeX(text: any): string {
+        if (text === null || text === undefined) return '';
+        
+        // If it's an array, join its parts (sometimes LLMs return lists for single fields)
+        if (Array.isArray(text)) return text.map(normalizeLaTeX).join(' ');
+        
+        // If it's an object, stringify it to avoid crashes
+        if (typeof text !== 'string') {
+            try {
+                return JSON.stringify(text);
+            } catch {
+                return String(text);
+            }
+        }
+
         let result = text.replace(/\\\\\\\\([a-zA-Z])/g, '\\\\$1');
         result = result.replace(/\\n/g, '\n');
         return result;
