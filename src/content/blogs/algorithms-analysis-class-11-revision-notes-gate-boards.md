@@ -19,7 +19,7 @@ As we step into the realm of Class 11 computer science, one concept stands out f
 
 The weightage of algorithms in the Class 11 exam is substantial, with around 20-25% of the questions dedicated to this topic. The exam typically consists of 3-4 questions that test your understanding of algorithm analysis, including time and space complexity, trade-offs, and optimization techniques. To give you a better idea, the exam pattern usually looks like this: 1-2 short answer questions (around 2-3 marks each) that test your understanding of basic concepts, 1-2 long answer questions (around 5-6 marks each) that test your ability to analyze and optimize algorithms, and 1-2 numerical problems (around 4-5 marks each) that test your ability to apply algorithmic concepts to real-world problems.
 
-Now, let's talk about why algorithm analysis is crucial. When I was preparing for my exams, I used to think that writing code was the most important aspect of computer science. But as I delved deeper, I realized that it's not just about writing code; it's about writing efficient code. And that's where algorithm analysis comes in. It's the process of evaluating an algorithm's performance, identifying its strengths and weaknesses, and optimizing it to solve real-world problems. For instance, consider a simple algorithm like binary search. On the surface, it seems like a straightforward concept, but when you analyze its time complexity ($O(log n)$), you realize that it's much more efficient than a linear search ($O(n)$) for large datasets.
+Now, let's talk about why algorithm analysis is crucial. When I was preparing for my exams, I used to think that writing code was the most important aspect of computer science. But as I delved deeper, I realized that it's not just about writing code; it's about writing efficient code. And that's where algorithm analysis comes in. It's the process of evaluating an algorithm's performance, identifying its strengths and weaknesses, and optimizing it to solve real-world problems. For instance, consider a simple algorithm like binary search. On the surface, it seems like a straightforward concept, but when you analyze its time complexity ($O(log n)$), you realize that it's much more efficient than a [linear](/blog/data-structures-linear-class-11-revision-notes-gate-boards) search ($O(n)$) for large datasets.
 
 One of the most significant challenges I faced while preparing for my exams was understanding the trade-offs between time and space complexity. It's easy to get caught up in optimizing one aspect of an algorithm, only to realize that you've compromised on another. For example, consider a scenario where you're designing an algorithm to sort a large dataset. You could use a quicksort algorithm, which has an average time complexity of $O(n log n)$, but a worst-case time complexity of $O(n^2)$. On the other hand, you could use a mergesort algorithm, which has a time complexity of $O(n log n)$ in all cases, but requires more memory. As you can see, there's no one-size-fits-all solution, and that's what makes algorithm analysis so fascinating.
 
@@ -51,9 +51,7 @@ $$
 &\text{Space Complexity: } O(log n) \\
 &\text{Worst-Case Time Complexity: } O(n^2) \\
 \end{aligned}
-$$
 
-$$
 \begin{aligned}
 &\text{Mergesort Algorithm} \\
 &\text{Time Complexity: } O(n log n) \\
@@ -359,3 +357,15 @@ O(1)
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Algorithms: Design Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-design-class-11-revision-notes-gate-boards)
+- 📖 [Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/digital-logic-class-11-revision-notes-gate-boards)
+- 📖 [Data Structures: Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/data-structures-linear-class-11-revision-notes-gate-boards)
+- 📖 [Data Structures: Non-Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards)

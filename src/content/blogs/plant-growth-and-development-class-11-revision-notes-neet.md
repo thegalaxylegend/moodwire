@@ -42,7 +42,7 @@ Plant growth and development is a fundamental concept in biology that deals with
 
 ## Why This Chapter Matters
 
-This chapter is essential for students preparing for the Class 11 biology exam, as it covers a significant portion of the syllabus. In the 2024 Class 11 biology exam, 3 questions were directly related to plant growth and development. Moreover, this topic is also relevant for competitive exams like JEE and NEET, where questions on plant physiology are frequently asked.
+This chapter is essential for students preparing for the Class 11 biology exam, as it covers a significant portion of the syllabus. In the 2024 Class 11 biology exam, 3 questions were directly related to [plant](/blog/plant-kingdom-class-11-revision-notes-neet) growth and development. Moreover, this topic is also relevant for competitive exams like JEE and NEET, where questions on plant physiology are frequently asked.
 
 
 
@@ -124,7 +124,7 @@ D) Abscisic acid
 
 Answer: B) Gibberellin
 
-3. What is the term for the response of plants to the length of daylight?
+3. What is the term for the response of [plants](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) to the length of daylight?
 A) Photoperiodism
 B) Thermoperiodism
 C) Hydroperiodism
@@ -153,8 +153,8 @@ Answer: A) $\frac{dL}{dt} = k \cdot \frac{dA}{dt}$
 
 ## Related Notes Links
 
-* [Plant Physiology Notes](/blog/plant-physiology-class-11-notes)
-* [Cell Biology Notes](/blog/cell-biology-class-11-notes)
+* Plant Physiology Notes
+* Cell Biology Notes
 
 
 
@@ -176,3 +176,15 @@ Last Updated: March 16, 2026
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Plant Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/plant-kingdom-class-11-revision-notes-neet)
+- 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
+- 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
+- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)

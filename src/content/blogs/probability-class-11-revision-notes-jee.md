@@ -133,8 +133,8 @@ Instead of just counting outcomes, we assign a number $P(E)$ to an event $E$ tha
 
 ## Related Revision Notes
 
-- [**Chapter 15: Statistics**](/blog/class-11-math-statistics-revision-notes)
-- [**Chapter 7: Permutations and Combinations**](/blog/permutations-combinations-revision-notes)
+- **Chapter 15: Statistics**
+- **Chapter 7: Permutations and Combinations**
 - [**External Reference:** [NCERT Class 11 Math Chapter 16](https://ncert.nic.in/textbook.php?kemh1=16-16) (Authoritative Source)]
 
 
@@ -157,3 +157,15 @@ Probability teaches us to look at the world through the lens of logic rather tha
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Sequences Series Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/sequences-series-class-11-revision-notes-jee)
+- 📖 [Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/binomial-theorem-class-11-revision-notes-jee)
+- 📖 [Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/conic-sections-class-11-revision-notes-jee)
+- 📖 [Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-combinations-class-11-revision-notes-jee)

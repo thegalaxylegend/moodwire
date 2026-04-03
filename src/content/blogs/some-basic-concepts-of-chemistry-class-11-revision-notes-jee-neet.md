@@ -53,8 +53,7 @@ The atomic mass of an element is the average mass of its naturally occurring iso
 $$\text{Molecular Mass} = \sum \text{Atomic Mass of Constituent Atoms}$$
 
 For example, the molecular mass of water (H$_2$O) is:
-$$\text{Molecular Mass of H}_2\text{O} = 2 \times \text{Atomic Mass of H} + \text{Atomic Mass of O}$$
-$$\text{Molecular Mass of H}_2\text{O} = 2 \times 1 + 16 = 18$$
+$$\text{Molecular Mass of H}_2\text{O} = 2 \times \text{Atomic Mass of H} + \text{Atomic Mass of O}\text{Molecular Mass of H}_2\text{O} = 2 \times 1 + 16 = 18$$
 
 ### Mole Concept
 The mole concept is a fundamental concept in chemistry. It's defined as the amount of substance that contains as many particles (atoms, molecules, or ions) as there are atoms in 0.012 kg of carbon-12.
@@ -141,3 +140,15 @@ Here are some essential formulae to remember:
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)
+- 📖 [Classification Of Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-of-elements-class-11-revision-notes-jee-neet)
+- 📖 [Organic Chemistry Basic Principles Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet)
+- 📖 [Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet)

@@ -55,7 +55,7 @@ practice_link: "/class-11/mathematics/matrices-class-12-notes"
 ## <a id="-what-will-come-in-your-exam"></a>🎯 What WILL Come in Your Exam
 * 1-2 matrix multiplication problems involving 2\\times2 matrices — always, with a focus on verifying the given result or finding the product of two matrices.
 * Determinant of a 2\\times2 or 3\\times3 matrix — guaranteed, with questions often asking to find the value of x or a constant that makes the determinant equal to a certain value.
-* Inverse of a 2\\times2 matrix — high-yield topic, frequently tested in the form of "find the inverse of matrix A" or "if A^{-1} = ..., find A".
+* Inverse of a 2\\times2 matrix — high-yield topic, frequently tested in the form of "find the [inverse](/blog/inverse-trigonometric-functions-class-12-notes) of matrix A" or "if A^{-1} = ..., find A".
 * System of linear equations using matrices and determinants — always comes, often in the form of 2 or 3 equations with 2 or 3 variables, and students are required to solve for the unknowns using Cramer's rule or matrix inversion.
 * Consistency and inconsistency of systems of linear equations — frequently tested, with questions asking to determine whether a given system has a unique solution, infinite solutions, or no solution.
 * Rank of a matrix — important topic, often tested in conjunction with the system of linear equations, and students need to find the rank of a given matrix to determine the nature of the solution.
@@ -102,3 +102,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Inverse Trigonometric Functions Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/inverse-trigonometric-functions-class-12-notes)
+- 📖 [Alcohols, Phenols and Ethers Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/alcohols-phenols-and-ethers-class-12-notes)
+- 📖 [Chemistry in Everyday Life Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/chemistry-in-everyday-life-class-12-notes)
+- 📖 [Polymers Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/polymers-class-12-notes)

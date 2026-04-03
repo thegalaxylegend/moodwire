@@ -71,7 +71,7 @@ Most students treat this chapter as a bunch of formulas to memorize. I did the s
 
 **Exam data shows that this chapter contributes to roughly 2-3 direct questions in JEE Mains and is a fundamental pillar for Inorganic and Physical Chemistry.**
 
-- **JEE Mains 2024**: In Session 2, Q.14 was a direct calculation of the velocity of an electron in the 3rd orbit of $Li^{2+}$.
+- **JEE Mains 2026**: In Session 2, Q.14 was a direct calculation of the velocity of an electron in the 3rd orbit of $Li^{2+}$.
 - **NEET Weightage**: Expected 2 questions (one on Quantum Numbers, one on Bohr's/Spectrum).
 - **High ROI**: Unlike Organic mechanisms, these are "Plug-and-Play" marks if your unit conversions are correct.
 
@@ -351,9 +351,9 @@ For your school exams, always draw the Rydberg series energy level diagram ($n=1
 ---
 
 **Related Revision Notes:**
-- [**Chemical Bonding VSEPR Theory JEE 2026 tricks — Hybridization & Shapes**](/blog/chemical-bonding-class-11-notes)
-- [**Periodic Table Trends - Master Classification Short Notes**](/blog/classification-elements-periodicity-revision-notes)
-- [**Some Basic Concepts of Chemistry: Mole Concept & Stoichiometry Revision**](/blog/some-basic-concepts-chemistry-revision-notes)
+- **Chemical Bonding VSEPR Theory JEE 2026 tricks — Hybridization & Shapes**
+- **Periodic Table Trends - Master Classification Short Notes**
+- **Some Basic Concepts of Chemistry: Mole Concept & Stoichiometry Revision**
 
 ---
 *Last Updated: March 13, 2026*
@@ -369,3 +369,15 @@ For your school exams, always draw the Rydberg series energy level diagram ($n=1
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Chemical Bonding Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/chemical-bonding-class-11-revision-notes-jee-neet)
+- 📖 [Equilibrium Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/equilibrium-class-11-revision-notes-jee-neet)
+- 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
+- 📖 [States Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/states-of-matter-class-11-revision-notes-jee-neet)

@@ -183,3 +183,15 @@ It becomes negative
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Semiconductor Electronics Full Mock Test**](/class-11/physics/semiconductor-electronics-class-12-notes) now and track your progress against thousands of students.
 
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Atoms Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/atoms-class-12-notes)
+- 📖 [Communication Systems Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/communication-systems-class-12-notes)
+- 📖 [Dual Nature of Radiation Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/dual-nature-of-radiation-class-12-notes)
+- 📖 [Nuclei Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/nuclei-class-12-notes)

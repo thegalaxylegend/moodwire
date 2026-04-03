@@ -44,7 +44,7 @@ Physical World is <span class="quick-summary">the first chapter in the Class 11 
 
 ## Why This Chapter Matters
 
-This chapter is crucial for Class 11 students as it lays the foundation for understanding more complex physics concepts. In the JEE Mains 2025 Session 1, 2 questions came from this topic, highlighting its importance. Additionally, the chapter helps students develop problem-solving skills and understand the significance of measurement and error analysis in scientific experiments.
+This chapter is crucial for Class 11 students as it lays the foundation for understanding more complex physics concepts. In the JEE Mains 2026 Session 1, 2 questions came from this topic, highlighting its importance. Additionally, the chapter helps students develop problem-solving skills and understand the significance of measurement and error analysis in scientific experiments.
 
 
 
@@ -127,8 +127,8 @@ Answer: A) $n = 1 + \log_{10}x$
 
 ## Related Notes Links
 
-* [Units and Measurements Class 11 Notes](/blog/units-and-measurements-class-11-notes)
-* [Motion in a Straight Line Class 11 Notes](/blog/motion-in-a-straight-line-class-11-notes)
+* Units and Measurements Class 11 Notes
+* Motion in a Straight Line Class 11 Notes
 
 
 
@@ -148,3 +148,15 @@ Last Updated: March 15, 2026
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [The P Block Elements 11 Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet)
+- 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
+- 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
+- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)

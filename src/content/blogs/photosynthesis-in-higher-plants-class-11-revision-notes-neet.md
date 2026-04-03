@@ -42,7 +42,7 @@ Photosynthesis is [the process by which green plants, algae, and some bacteria c
 
 ## Why This Chapter Matters
 
-Photosynthesis is a critical topic in the Class 11 biology syllabus, and it has been a popular question in various competitive exams, including JEE and NEET. In the 2022 JEE Mains exam, 2 questions were asked from this topic, and in the 2022 NEET exam, 3 questions were asked. Therefore, it is essential to have a thorough understanding of this topic to score well in these exams.
+Photosynthesis is a critical topic in the Class 11 biology syllabus, and it has been a popular question in various competitive exams, including JEE and NEET. In the 2026 JEE Mains exam, 2 questions were asked from this topic, and in the 2026 NEET exam, 3 questions were asked. Therefore, it is essential to have a thorough understanding of this topic to score well in these exams.
 
 
 
@@ -131,8 +131,8 @@ Answer: A) $6CO_2 + 6H_2O \rightarrow C_6H_{12}O_6 + 6O_2$
 
 ## Related Notes Links
 
-* [Plant Physiology Class 11 Notes](/blog/plant-physiology-class-11-notes)
-* [Cell Biology Class 11 Notes](/blog/cell-biology-class-11-notes)
+* Plant Physiology Class 11 Notes
+* Cell Biology Class 11 Notes
 
 
 
@@ -154,3 +154,15 @@ Last Updated: March 16, 2026
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
+- 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
+- 📖 [Plant Growth And Development Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/plant-growth-and-development-class-11-revision-notes-neet)
+- 📖 [Structural Organisation In Animals Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/structural-organisation-in-animals-class-11-revision-notes-neet)

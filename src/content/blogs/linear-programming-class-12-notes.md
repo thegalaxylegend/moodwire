@@ -161,29 +161,17 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 
  Subtracting the first equation from the second gives:
 
- $$5x = 300$$
-
- $$x = 60$$
+ $$5x = 300x = 60$$
 
  Substituting $x = 60$ into one of the original equations to find $y$:
 
- $$2(60) + 3y = 1200$$
-
- $$120 + 3y = 1200$$
-
- $$3y = 1080$$
-
- $$y = 360$$
+ $$2(60) + 3y = 1200120 + 3y = 12003y = 1080y = 360$$
 
  Thus, the maximum profit occurs at $x = 60$ and $y = 360$.
 
  Substituting these values into the objective function:
 
- $$P = 10(60) + 12(360)$$
-
- $$P = 600 + 4320$$
-
- $$P = 4920$$
+ $$P = 10(60) + 12(360)P = 600 + 4320P = 4920$$
 
  - **Answer:** $4920
 
@@ -231,29 +219,17 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 
  Subtracting the first equation from the second gives:
 
- $$5x = 30$$
-
- $$x = 6$$
+ $$5x = 30x = 6$$
 
  Substituting $x = 6$ into one of the original equations to find $y$:
 
- $$2(6) + 3y = 60$$
-
- $$12 + 3y = 60$$
-
- $$3y = 48$$
-
- $$y = 16$$
+ $$2(6) + 3y = 6012 + 3y = 603y = 48y = 16$$
 
  Thus, the minimum cost occurs at $x = 6$ and $y = 16$.
 
  Substituting these values into the objective function:
 
- $$C = 4(6) + 5(16)$$
-
- $$C = 24 + 80$$
-
- $$C = 104$$
+ $$C = 4(6) + 5(16)C = 24 + 80C = 104$$
 
  - **Answer:** 104
 
@@ -295,31 +271,17 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 
  Subtracting the first equation from this gives:
 
- $$3y = 80$$
-
- $$y = \frac{80}{3}$$
+ $$3y = 80y = \frac{80}{3}$$
 
  Substituting $y = \frac{80}{3}$ into one of the original equations to find $x$:
 
- $$2x + \frac{80}{3} = 120$$
-
- $$6x + 80 = 360$$
-
- $$6x = 280$$
-
- $$x = \frac{280}{6}$$
-
- $$x = \frac{140}{3}$$
+ $$2x + \frac{80}{3} = 1206x + 80 = 3606x = 280x = \frac{280}{6}x = \frac{140}{3}$$
 
  Thus, the maximum profit occurs at $x = \frac{140}{3}$ and $y = \frac{80}{3}$.
 
  Substituting these values into the objective function:
 
- $$P = 20(\frac{140}{3}) + 30(\frac{80}{3})$$
-
- $$P = \frac{2800}{3} + \frac{2400}{3}$$
-
- $$P = \frac{5200}{3}$$
+ $$P = 20(\frac{140}{3}) + 30(\frac{80}{3})P = \frac{2800}{3} + \frac{2400}{3}P = \frac{5200}{3}$$
 
  - **Answer:** $\frac{5200}{3}$
 
@@ -454,3 +416,15 @@ abla f(x) = c$ is used to determine the direction of the objective function.
 
 **Answer:** D) The objective function specifies the direction of optimization, whether it is to maximize or minimize a particular quantity.
 
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Application of Derivatives Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
+- 📖 [Vector Algebra Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/vector-algebra-class-12-notes)
+- 📖 [Human Reproduction Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/human-reproduction-class-12-notes)
+- 📖 [Molecular Basis of Inheritance Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/molecular-basis-of-inheritance-class-12-notes)

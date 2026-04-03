@@ -1,11 +1,11 @@
 {
   "date": "2026-04-03",
   "summary": {
-    "modified": 105,
-    "withWarnings": 141,
-    "clean": 13,
-    "totalFixes": 237,
-    "totalWarnings": 290
+    "modified": 111,
+    "withWarnings": 142,
+    "clean": 16,
+    "totalFixes": 245,
+    "totalWarnings": 291
   },
   "repairs": [
     {
@@ -647,6 +647,14 @@
       "wasModified": true
     },
     {
+      "slug": "human-reproduction-class-12-notes",
+      "fixes": [
+        "Removed 1 kill-list phrases"
+      ],
+      "warnings": [],
+      "wasModified": true
+    },
+    {
       "slug": "hydrocarbons-class-11-revision-notes-neet",
       "fixes": [
         "Removed broken link to: /blog/alkyl-halides-class-11-notes",
@@ -804,6 +812,14 @@
       "wasModified": true
     },
     {
+      "slug": "linear-programming-class-12-notes",
+      "fixes": [
+        "Removed 19 empty LaTeX blocks"
+      ],
+      "warnings": [],
+      "wasModified": true
+    },
+    {
       "slug": "local-government-class-11-revision-notes-cbse",
       "fixes": [
         "Removed duplicate H2: \"## What is Local Government?...\"",
@@ -949,6 +965,14 @@
       "warnings": [
         "Missing \"Last 5 Minutes Box\" section"
       ],
+      "wasModified": true
+    },
+    {
+      "slug": "molecular-basis-of-inheritance-class-12-notes",
+      "fixes": [
+        "Removed 5 empty LaTeX blocks"
+      ],
+      "warnings": [],
       "wasModified": true
     },
     {
@@ -1257,6 +1281,16 @@
       "wasModified": true
     },
     {
+      "slug": "reproduction-in-organisms-class-12-notes",
+      "fixes": [
+        "Removed 2 empty LaTeX blocks"
+      ],
+      "warnings": [
+        "⚠️ Cross-topic pollution: Chemistry content found in Biology blog"
+      ],
+      "wasModified": true
+    },
+    {
       "slug": "respiration-in-plants-class-11-revision-notes-neet",
       "fixes": [
         "Removed broken link to: /blog/photosynthesis-in-plants-class-11-notes",
@@ -1305,6 +1339,15 @@
         "Missing \"Last 5 Minutes Box\" section",
         "Missing Practice MCQs section"
       ],
+      "wasModified": true
+    },
+    {
+      "slug": "sexual-reproduction-in-flowering-plants-class-12-notes",
+      "fixes": [
+        "Removed 1 kill-list phrases",
+        "Removed 1 empty LaTeX blocks"
+      ],
+      "warnings": [],
       "wasModified": true
     },
     {
@@ -1583,6 +1626,15 @@
         "Missing Practice MCQs section"
       ],
       "wasModified": false
+    },
+    {
+      "slug": "vector-algebra-class-12-notes",
+      "fixes": [
+        "Removed 2 empty LaTeX blocks",
+        "Fixed block LaTeX: $...$ → $$...$$"
+      ],
+      "warnings": [],
+      "wasModified": true
     },
     {
       "slug": "wave-optics-class-12-notes",

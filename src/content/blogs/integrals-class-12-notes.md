@@ -243,3 +243,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-integrals-class-12-notes)
+- 📖 [Continuity and Differentiability Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/continuity-and-differentiability-class-12-notes)
+- 📖 [Determinants Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/determinants-class-12-notes)
+- 📖 [Differential Equations Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/differential-equations-class-12-notes)

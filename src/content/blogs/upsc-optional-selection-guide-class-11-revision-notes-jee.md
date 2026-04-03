@@ -108,3 +108,15 @@ During the first four months of preparation, dedicate 60–70% of your daily stu
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Pick the Best UPSC Optional Subject 2026 Guide](/blog/upsc-optional-selection-guide)
+- 📖 [State Scholarship Guide 2026 Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)
+- 📖 [Jee Mains High Weightage Chapters Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)
+- 📖 [Class 10 30 Day Timetable Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/class-10-30-day-timetable-class-10-revision-notes-jee)

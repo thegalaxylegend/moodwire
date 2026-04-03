@@ -142,8 +142,8 @@ This formula is the basis for many converging series in higher-level mathematics
 
 ## Related Revision Notes
 
-- [**Chapter 8: Binomial Theorem**](/blog/binomial-theorem-revision-notes)
-- [**Chapter 10: Straight Lines**](/blog/straight-lines-revision-notes)
+- **Chapter 8: Binomial Theorem**
+- **Chapter 10: Straight Lines**
 - [**External Reference:** [NCERT Class 11 Math Chapter 9](https://ncert.nic.in/textbook.php?kemh1=9-16) (Authoritative Source)]
 
 
@@ -166,3 +166,15 @@ Sequences and Series are not just lists of numbers; they are the language of gro
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-class-11-revision-notes-jee)
+- 📖 [Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/binomial-theorem-class-11-revision-notes-jee)
+- 📖 [Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/conic-sections-class-11-revision-notes-jee)
+- 📖 [Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-combinations-class-11-revision-notes-jee)

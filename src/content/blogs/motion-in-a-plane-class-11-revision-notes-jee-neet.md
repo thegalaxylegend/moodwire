@@ -156,9 +156,9 @@ If rain falls vertically (**v_r**) and a man moves horizontally (**v_m**):
 
 ## Related Revision Notes
 
-- [**Chapter 4: Laws of Motion (Forces & FBD)**](/blog/laws-of-motion-revision-notes)
-- [**Chapter 6: Rotational Motion (Centripetal vs Centrifugal)**](/blog/rotational-motion-revision-notes)
-- [**Interactive Projectile Motion Simulator**](/blog/jee-mains-high-weightage-chapters)
+- **Chapter 4: Laws of Motion (Forces & FBD)**
+- **Chapter 6: Rotational Motion (Centripetal vs Centrifugal)**
+- **Interactive Projectile Motion Simulator**
 
 
 
@@ -181,3 +181,15 @@ Motion in a Plane is the first time we truly see the vector nature of the univer
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
+- 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
+- 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)

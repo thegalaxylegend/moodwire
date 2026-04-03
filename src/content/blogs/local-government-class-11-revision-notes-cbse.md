@@ -22,14 +22,14 @@ heroImage: "/blog-images/local-government-class-11-revision-notes-cbse.webp"
 *Last Updated: 2026-03-22*
 
 
-## What is Local Government?
 
 
 
 
 
 
-## What is Local Government?
+
+
 
 Local Government is a system of government that operates at the local level, including municipalities and panchayats. It includes local councils, ward committees, and district planning committees. For Class 11 exam prep in 2026, the most important aspect is understanding the 73rd and 74th Constitutional Amendments.
 
@@ -66,3 +66,15 @@ Local Government functions through a system of elected representatives and offic
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Constitutional Framework Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/constitutional-framework-class-11-revision-notes-cbse)
+- 📖 [Fundamental Rights Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/fundamental-rights-class-11-revision-notes-cbse)
+- 📖 [Federalism Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/federalism-class-11-revision-notes-cbse)
+- 📖 [Indian Geography Climate Class 11 Geography Recap — CBSE 2026 Quick Guide](/blog/indian-geography-climate-class-11-revision-notes-cbse)

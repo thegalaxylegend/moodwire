@@ -165,7 +165,7 @@ An **Electric Dipole** consists of two equal and opposite charges (**+q, -q**) s
 ### I. Field due to an Infinitely Long Straight Wire
 1.  Assume a Gaussian cylinder of radius **r** and length **L**.
 2.  Flux is only through the curved surface: **Φ = E (2πrL)**.
-3.  Charge enclosed **Q = λ L** (where λ is linear charge density).
+3.  Charge enclosed **Q = λ L** (where λ is [linear](/blog/linear-inequalities-class-11-revision-notes-jee-neet) charge density).
 4.  By Gauss's Law: **E (2πrL) = λL / ε₀**.
 5.  **E = λ / (2πε₀r)**. (Proven)
 
@@ -206,9 +206,9 @@ An **Electric Dipole** consists of two equal and opposite charges (**+q, -q**) s
 
 ## Related Revision Notes
 
-- [**Chapter 2: Electrostatic Potential and Capacitance**](/blog/electrostatic-potential-capacitance-revision-notes)
-- [**Chapter 3: Current Electricity**](/blog/current-electricity-revision-notes)
-- [**Class 12 Physics: JEE/NEET High-Weightage Chapter List**](/blog/jee-mains-high-weightage-chapters)
+- **Chapter 2: Electrostatic Potential and Capacitance**
+- **Chapter 3: Current Electricity**
+- **Class 12 Physics: JEE/NEET High-Weightage Chapter List**
 
 
 
@@ -231,3 +231,15 @@ The field of Electrostatics is the foundation upon which all modern technology�
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Moving Charges Magnetism Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/moving-charges-magnetism-class-11-revision-notes-neet)
+- 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
+- 📖 [Linear Inequalities Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/linear-inequalities-class-11-revision-notes-jee-neet)
+- 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)

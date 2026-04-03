@@ -17,7 +17,7 @@ heroImage: "/blog-images/data-structures-non-linear-class-11-revision-notes-gate
 
 As we dive into the realm of Data Structures for our Class 11 exam prep in 2026, it's crucial to understand that this subject is not just about storing and organizing data, but about doing so efficiently. The Indian curriculum for Computer Science places significant emphasis on Data Structures, with a substantial portion dedicated to Non-Linear Data Structures. In the CBSE Class 11 Computer Science syllabus, Data Structures carry a weightage of around 20-25% in the theory paper, with Non-Linear Data Structures being a major chunk of this. 
 
-For those who are new to this, Non-Linear Data Structures refer to data structures that do not follow a sequential or linear arrangement. This includes trees and graphs, which are fundamental in representing complex relationships between data elements. The exam typically tests your understanding of concepts like tree traversals (inorder, preorder, postorder), binary search trees, AVL trees, graph representations (adjacency matrix and adjacency list), and graph traversal algorithms (DFS and BFS).
+For those who are new to this, Non-Linear Data Structures refer to data structures that do not follow a sequential or linear arrangement. This includes trees and graphs, which are fundamental in representing complex relationships between data elements. The exam typically tests your understanding of concepts like tree traversals (inorder, preorder, postorder), binary search trees, AVL trees, graph representations (adjacency matrix and adjacency list), and graph traversal [algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards) (DFS and BFS).
 
 My personal journey with Non-Linear Data Structures began when I was in your shoes, preparing for my Class 11 exams. Initially, I found the concept of trees and graphs quite daunting, especially when it came to implementing them in programming languages like Python or Java. However, as I delved deeper, I realized that these data structures are not just abstract concepts, but are used in real-world applications like database indexing, file systems, and social network analysis. For instance, understanding how a binary search tree works can help you grasp how databases efficiently retrieve data.
 
@@ -311,3 +311,15 @@ D. To implement a Last-In-First-Out (LIFO) data structure
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Data Structures: Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/data-structures-linear-class-11-revision-notes-gate-boards)
+- 📖 [Algorithms: Design Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-design-class-11-revision-notes-gate-boards)
+- 📖 [Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/digital-logic-class-11-revision-notes-gate-boards)
+- 📖 [Algorithms: Analysis Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-analysis-class-11-revision-notes-gate-boards)

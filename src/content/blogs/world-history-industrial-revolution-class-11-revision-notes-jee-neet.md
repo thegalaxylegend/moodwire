@@ -54,8 +54,7 @@ The following table summarizes the key features of the Industrial Revolution:
 The following formulae are relevant to the Industrial Revolution:
 $$
 \text{Productivity} = \frac{\text{Output}}{\text{Input}}
-$$
-$$
+
 \text{Efficiency} = \frac{\text{Output}}{\text{Cost}}
 $$
 
@@ -140,8 +139,7 @@ The following table summarizes the key features of the Industrial Revolution:
 The following formulae are relevant to the Industrial Revolution:
 $$
 \text{Productivity} = \frac{\text{Output}}{\text{Input}}
-$$
-$$
+
 \text{Efficiency} = \frac{\text{Output}}{\text{Cost}}
 $$
 
@@ -322,7 +320,7 @@ By following this approach, I am confident that I can achieve a good grade in my
 I, Ayush, believe that learning is an ongoing process, and that it is essential to continue learning and revising throughout my academic career. I make sure to review my notes and study materials regularly, and I practice MCQs to assess my knowledge and identify areas for improvement.
 
 ### Future Studies
-I, Ayush, look forward to my future studies, and I am excited to learn more about the Industrial Revolution and its ongoing impact on our world. I believe that understanding the Industrial Revolution is essential for understanding the modern world, and I am committed to continuing my studies and revision throughout my academic career.
+I, Ayush, look forward to my future studies, and I am excited to learn more about the Industrial Revolution and its ongoing impact on our world. I believe that understanding the Industrial Revolution is essential for understanding the modern world, and I am committed to continuing my studies and [revision](/blog/geomorphology-class-11-revision-notes-cbse) throughout my academic career.
 
 #### Ongoing Revision
 I, Ayush, make ongoing revision a priority, and I review my notes and study materials regularly. I practice MCQs to assess my knowledge and identify areas for improvement, and I use LaTeX to format my notes and make them more readable.
@@ -577,3 +575,15 @@ I, Ayush, have these final reflections and thoughts on the Industrial Revolution
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Geomorphology Class 11 Geography Recap — CBSE 2026 Quick Guide](/blog/geomorphology-class-11-revision-notes-cbse)
+- 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
+- 📖 [Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)
+- 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)

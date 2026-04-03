@@ -45,7 +45,7 @@ Biomolecules are classified into four main types: carbohydrates, proteins, lipid
 ### Why Biomolecules Matter
 Biomolecules are essential for the structure and function of cells. They provide the energy and nutrients that cells need to function, and they play a critical role in the transmission of genetic information. Biomolecules are also involved in the regulation of cellular processes, such as metabolism, growth, and differentiation.
 
-In the context of the JEE and NEET exams, biomolecules are an important topic. In the 2022 JEE Mains exam, 3 questions came from this topic, and in the 2022 NEET exam, 5 questions came from this topic. Therefore, it is essential to have a thorough understanding of biomolecules to perform well in these exams.
+In the context of the JEE and NEET exams, biomolecules are an important topic. In the 2026 JEE Mains exam, 3 questions came from this topic, and in the 2026 NEET exam, 5 questions came from this topic. Therefore, it is essential to have a thorough understanding of biomolecules to perform well in these exams.
 
 ### Core Concepts
 #### Carbohydrates
@@ -120,8 +120,8 @@ Answer: A) DNA is composed of deoxyribonucleotides, while RNA is composed of rib
 Difficulty: Medium
 
 ### Related Notes Links
-* [Cell Structure and Function](/blog/cell-structure-and-function-class-11-notes)
-* [Metabolism](/blog/metabolism-class-11-notes)
+* Cell Structure and Function
+* Metabolism
 
 ### Ayush's Note
 I remember when I was preparing for my JEE exam, I used to get confused between the different types of biomolecules. I would often mix up the functions of carbohydrates and proteins. But then I realized that carbohydrates are primarily used for energy storage, while proteins are used for a wide range of cellular processes. I made a mistake in one of my practice exams, where I wrote that proteins are only composed of amino acids. But then I learned that proteins can also contain other molecules, such as lipids and carbohydrates. This experience taught me the importance of being thorough and detailed in my studies.
@@ -140,3 +140,15 @@ Last Updated: March 16, 2026
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Agriculture Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/agriculture-class-11-revision-notes-neet)
+- 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
+- 📖 [Animal Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)
+- 📖 [Biogeography Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biogeography-class-11-revision-notes-neet)

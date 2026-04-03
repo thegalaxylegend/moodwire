@@ -149,9 +149,9 @@ Surface tension is the result of cohesive forces between molecules at the surfac
 
 ## Related Revision Notes
 
-- [**Chapter 8: Mechanical Properties of Solids**](/blog/mechanical-properties-of-solids-revision-notes)
-- [**Chapter 10: Thermal Properties of Matter**](/blog/thermal-properties-of-matter-revision-notes)
-- [**Mastering Hydrodynamics: Advanced Problem Set**](/blog/jee-mains-high-weightage-chapters)
+- **Chapter 8: Mechanical Properties of Solids**
+- **Chapter 10: Thermal Properties of Matter**
+- **Mastering Hydrodynamics: Advanced Problem Set**
 
 
 
@@ -161,7 +161,7 @@ Surface tension is the result of cohesive forces between molecules at the surfac
 The physics of fluids is the physics of flow—from the blood in our veins to the hurricanes in our atmosphere. By mastering the mathematical laws of Bernoulli and the dynamics of terminal velocity, we gain the power to harness fluid energy and design everything from water pumps to spacecraft. Master the derivation of Bernoulli’s Theorem and the nuances of surface tension—these are the fluid principles that keep our world moving. Stay in the flow, watch your Reynolds number, and never let your pressure drop!
 
 ---
-**Reference:** [Physics Classroom: Fluid Mechanics](https://www.physicsclassroom.com/class/fluids)
+**Reference:** [Physics Classroom: Fluid Mechanics](https://www.physics[class](/blog/kinetic-theory-class-11-revision-notes-jee-neet)room.com/class/fluids)
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
@@ -174,3 +174,15 @@ The physics of fluids is the physics of flow—from the blood in our veins to th
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
+- 📖 [Thermal Properties Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet)
+- 📖 [Kinetic Theory Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)
+- 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)

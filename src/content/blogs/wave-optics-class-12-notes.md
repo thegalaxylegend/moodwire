@@ -21,7 +21,7 @@ As we dive into the realm of Wave Optics, it's essential to understand the signi
 
 My personal journey with Wave Optics began when I was preparing for my Class 12 exams. I was fascinated by the way light behaves, and how it can be manipulated to produce stunning effects, such as **rainbows** and **mirages**. As I delved deeper into the subject, I realized that Wave Optics is not just about understanding the behavior of light, but also about developing a strong foundation in physics and mathematics. The concepts and principles learned in Wave Optics have far-reaching implications in various fields, including **optics**, **photonics**, and **telecommunications**.
 
-To appreciate the beauty of Wave Optics, it's essential to have a solid grasp of the underlying principles. The **wave-particle duality** of light, which states that light can exhibit both wave-like and particle-like behavior, is a fundamental concept in Wave Optics. This duality is evident in the way light interacts with matter, producing phenomena such as **diffraction** and **interference**. The **principle of superposition**, which states that the displacement of a wave at a given point is the sum of the displacements of the individual waves, is another crucial concept in Wave Optics.
+To appreciate the beauty of Wave Optics, it's essential to have a solid grasp of the underlying principles. The **wave-particle duality** of light, which states that light can exhibit both wave-like and particle-like behavior, is a fundamental concept in Wave Optics. This duality is evident in the way light interacts with matter, producing phenomena such as **diffraction** and **interference**. The **principle of superposition**, which states that the displacement of a wave at a given point is the sum of the displacements of the individual [waves](/blog/electromagnetic-waves-class-12-notes), is another crucial concept in Wave Optics.
 
 Before diving into the world of Wave Optics, it's essential to have a strong foundation in the following prerequisites:
 
@@ -52,7 +52,7 @@ Throughout this journey, we'll use a combination of theoretical derivations, num
 By focusing on these key concepts and practicing a wide range of problems, you'll be well-prepared to tackle the challenges of Wave Optics and achieve a high score in the Class 12 Physics exam.
 
 
-## What is Wave Optics?
+
 
 Wave Optics is the study of the behavior of light as it travels through a medium, exhibiting wave-like properties. It includes the principles of reflection, refraction, and diffraction. For Class 12 exam prep in 2026, the most important aspect is understanding how these principles apply to various phenomena such as total internal reflection, polarization, and interference.
 
@@ -361,3 +361,15 @@ Put your knowledge to the test! Take the free [**Wave Optics Full Mock Test**](/
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Alternating Current Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/alternating-current-class-12-notes)
+- 📖 [Electromagnetic Induction Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
+- 📖 [Electromagnetic Waves Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-waves-class-12-notes)
+- 📖 [Electrostatics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electrostatics-class-12-revision-notes-jee-neet)

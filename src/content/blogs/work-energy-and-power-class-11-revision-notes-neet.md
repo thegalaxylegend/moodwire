@@ -79,7 +79,7 @@ In physics, **Work (W)** is done only when a force causes a displacement.
 ## 3. Kinetic and Potential Energy
 
 ### I. Kinetic Energy (K)
-The energy possessed by an object due to its motion.
+The energy possessed by an object due to its [motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet).
 **Derivation: K = 1/2 mv²**. (As shown in the WE theorem above).
 
 ### II. Potential Energy (U)
@@ -100,7 +100,7 @@ The "stored" energy due to an object’s position or configuration in a conserva
 
 ## 4. Conservation of Mechanical Energy
 
-**Theorem:** In the presence of only conservative forces, the total mechanical energy (**K + U**) of a system remains constant.
+**Theorem:** In the presence of only conservative forces, the total [mechanical](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) energy (**K + U**) of a system remains constant.
 **Proof (Free Fall):**
 At height H: K=0, U=mgH. Total = **mgH**.
 At descent height x: v² = 2gx. K = 1/2 m(2gx) = mgx. U = mg(H-x). Total = **mgH**.
@@ -158,9 +158,9 @@ At descent height x: v² = 2gx. K = 1/2 m(2gx) = mgx. U = mg(H-x). Total = **mgH
 
 ## Related Revision Notes
 
-- [**Chapter 4: Laws of Motion (Momentum Concepts)**](/blog/laws-of-motion-revision-notes)
-- [**Chapter 6: System of Particles & Rotational Motion**](/blog/rotational-motion-revision-notes)
-- [**Mastering Collision Physics: Numerical Vault**](/blog/jee-mains-high-weightage-chapters)
+- **Chapter 4: Laws of Motion (Momentum Concepts)**
+- **Chapter 6: System of Particles & Rotational Motion**
+- **Mastering Collision Physics: Numerical Vault**
 
 
 
@@ -183,3 +183,15 @@ Energy is the invisible currency of the universe. By shifting our perspective fr
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
+- 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
+- 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
+- 📖 [Current Electricity Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/current-electricity-class-11-revision-notes-neet)

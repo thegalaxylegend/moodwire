@@ -331,3 +331,15 @@ The following table summarizes some common trap questions and their solutions:
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Magnetism and Matter Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetism-and-matter-class-12-notes)
+- 📖 [Electromagnetic Induction Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
+- 📖 [Electrostatics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electrostatics-class-12-revision-notes-jee-neet)
+- 📖 [Alternating Current Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/alternating-current-class-12-notes)

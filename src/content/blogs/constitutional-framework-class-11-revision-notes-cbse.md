@@ -22,7 +22,7 @@ heroImage: "/blog-images/constitutional-framework-class-11-revision-notes-cbse.w
 *Last Updated: March 21, 2026*
 
 
-## What is Constitutional Framework?
+
 
 Constitutional Framework is a set of principles and rules that govern the functioning of a country's government and institutions. It includes the structure of the government, the powers and limitations of the different branches, and the rights and responsibilities of citizens. For Class 11 exam prep in 2026, the most important aspect is understanding the key features of the Indian Constitution and how they impact the country's governance.
 
@@ -103,3 +103,15 @@ I find it helpful to review these trap exceptions regularly, as they can be tric
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Fundamental Rights Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/fundamental-rights-class-11-revision-notes-cbse)
+- 📖 [Federalism Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/federalism-class-11-revision-notes-cbse)
+- 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)
+- 📖 [Indian Geography Climate Class 11 Geography Recap — CBSE 2026 Quick Guide](/blog/indian-geography-climate-class-11-revision-notes-cbse)

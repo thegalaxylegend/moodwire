@@ -24,7 +24,7 @@ heroImage: "/blog-images/the-living-world-class-11-revision-notes-neet.webp"
 
 1. [Introduction to the Living World](#introduction-to-the-living-world)
 2. [Characteristics of Living Organisms](#characteristics-of-living-organisms)
-3. [Classification of Living Organisms](#classification-of-living-organisms)
+3. [Classification of Living Organisms](#[classification](/blog/biological-classification-class-11-revision-notes-neet)-of-living-organisms)
 4. [Binomial Nomenclature](#binomial-nomenclature)
 5. [Species Concept](#species-concept)
 6. [Core Concepts](#core-concepts)
@@ -59,7 +59,7 @@ Living organisms exhibit several key characteristics, including:
 
 ## Classification of Living Organisms
 
-The classification of living organisms is based on their characteristics and evolutionary relationships. The most commonly used system of classification is the five-kingdom system, which includes:
+The classification of living organisms is based on their characteristics and evolutionary relationships. The most commonly used system of classification is the five-[kingdom](/blog/animal-kingdom-class-11-revision-notes-neet) system, which includes:
 * **Monera**: Prokaryotic organisms, such as bacteria and archaea.
 * **Protista**: Eukaryotic organisms that do not fit into any of the other kingdoms, such as protozoa and algae.
 * **Fungi**: Organisms that obtain their nutrients by decomposing organic matter or forming symbiotic relationships with other organisms.
@@ -113,7 +113,7 @@ One shortcut formula that can be used to remember the characteristics of living 
 Some common trap questions or exceptions in the living world include:
 * **Viruses**: Viruses are not considered living organisms because they do not carry out metabolic processes or respond to stimuli.
 * **Prions**: Prions are infectious proteins that can cause disease in animals, but they are not considered living organisms.
-* **Viroids**: Viroids are small, single-stranded RNA molecules that can infect plants, but they are not considered living organisms.
+* **Viroids**: Viroids are small, single-stranded RNA molecules that can infect [plants](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet), but they are not considered living organisms.
 
 
 
@@ -166,8 +166,8 @@ Solution: A) Cosmology
 
 ## Related Notes Links
 
-* [Cell Biology Class 11 Notes](/blog/cell-biology-class-11-notes)
-* [Genetics Class 11 Notes](/blog/genetics-class-11-notes)
+* Cell Biology Class 11 Notes
+* Genetics Class 11 Notes
 
 
 
@@ -196,3 +196,15 @@ Last Updated: March 15, 2026
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Animal Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)
+- 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
+- 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
+- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)

@@ -29,7 +29,7 @@ Planning in India is a process of formulating and implementing plans for the dev
 
 
 
-## What is Planning in India?
+
 
 Planning in India is a process of formulating and implementing plans for the development of the country. It includes the Five-Year Plans, annual plans, and perspective planning. For Class 11 exam prep in 2026, the most important aspect is understanding the role of planning in India's economic development.
 
@@ -49,7 +49,7 @@ Planning in India works through the Five-Year Plans, which are formulated by the
 | Plan | Objectives | Achievements |
 | --- | --- | --- |
 | Fourth Five-Year Plan | Growth with social justice | Increase in national income |
-| Fifth Five-Year Plan | Removal of poverty | Reduction in poverty ratio |
+| Fifth Five-Year Plan | Removal of [poverty](/blog/poverty-unemployment-class-11-revision-notes-jee-neet) | Reduction in poverty ratio |
 | Sixth Five-Year Plan | Growth with stability | Increase in industrial production |
 
 
@@ -69,3 +69,15 @@ Planning in India works through the Five-Year Plans, which are formulated by the
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Physics Heat Light Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/physics-heat-light-class-11-revision-notes-jee-neet)
+- 📖 [Physics Mechanics Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/physics-mechanics-class-11-revision-notes-jee-neet)
+- 📖 [Poverty Unemployment Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/poverty-unemployment-class-11-revision-notes-jee-neet)
+- 📖 [Some Basic Concepts Of Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet)

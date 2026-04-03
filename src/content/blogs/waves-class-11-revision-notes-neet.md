@@ -92,7 +92,7 @@ This equation proves that the shape of the wave remains constant as it propagate
 
 ## 3. Speed of Waves: The Technical Derivations
 
-The speed of a wave depends on the mechanical properties (elasticity and inertia) of the medium.
+The speed of a wave depends on the [mechanical](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) properties (elasticity and inertia) of the medium.
 
 ### I. Speed of Transverse Wave on a Stretched String
 **Theorem:** **v = √(T / μ)**
@@ -224,9 +224,9 @@ Where:
 
 ## Related Revision Notes
 
-- [**Chapter 13: Oscillations (The Prelude to Waves)**](/blog/oscillations-revision-notes)
-- [**Chapter 12: Kinetic Theory of Gases (Sound Speed Factors)**](/blog/kinetic-theory-revision-notes)
-- [**The Ultimate Wave Mechanics Problem Set: Target JEE/NEET**](/blog/jee-mains-high-weightage-chapters)
+- **Chapter 13: Oscillations (The Prelude to Waves)**
+- **Chapter 12: Kinetic Theory of Gases (Sound Speed Factors)**
+- **The Ultimate Wave Mechanics Problem Set: Target JEE/NEET**
 
 
 
@@ -249,3 +249,15 @@ Waves are the signature of the universe's energy. By mastering the mathematical 
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Thermodynamics Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/thermodynamics-class-11-revision-notes-neet)
+- 📖 [Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)
+- 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)

@@ -37,7 +37,7 @@ heroImage: "/blog-images/sets-class-11-revision-notes-jee-neet.webp"
 ## Introduction
 
 **Set theory is the fundamental framework of modern mathematics, providing the language to define collections, functions, and logic. Master the concepts of well-defined collections, subsets, and power sets to build a strong foundation for Calculus and Probability. This guide covers all essential Class 11 Math Chapter 1 formulas and operations for JEE/CBSE exams.**
-Set theory is the foundation of modern mathematics. Developed by Georg Cantor, it provides the language and framework for almost every mathematical structure, from functions and relations to probability and topology. 
+Set theory is the foundation of modern mathematics. Developed by Georg Cantor, it provides the language and framework for almost every mathematical structure, from functions and [relations](/blog/relations-functions-class-11-revision-notes-jee-neet) to probability and topology. 
 
 ---
 
@@ -64,7 +64,7 @@ A set is usually denoted by capital letters (A, B, C...) and its elements by sma
 1.  **Empty Set (Null Set):** A set which does not contain any element. Denoted by Φ or { }.
 2.  **Finite and Infinite Sets:** A set which is empty or consists of a definite number of elements is called finite, otherwise it is infinite.
 3.  **Equal Sets:** Two sets A and B are said to be equal if they have exactly the same elements. Denoted by A = B.
-4.  **Equivalent Sets:** Two finite sets A and B are equivalent if their cardinal numbers are same (n(A) = n(B)).
+4.  **Equivalent Sets:** Two finite sets A and B are equivalent if their cardinal [numbers](/blog/complex-numbers-class-11-revision-notes-jee-neet) are same (n(A) = n(B)).
 
 ---
 
@@ -141,8 +141,8 @@ The set can be written as the interval **(-4, 6]**.
 
 ## Related Revision Notes
 
-- [**Chapter 2: Relations and Functions**](/blog/relations-functions-revision-notes)
-- [**Chapter 3: Trigonometric Functions**](/blog/trigonometric-functions-revision-notes)
+- **Chapter 2: Relations and Functions**
+- **Chapter 3: Trigonometric Functions**
 - [**External Reference:** [NCERT Class 11 Math Chapter 1](https://ncert.nic.in/textbook.php?kemh1=1-16) (Authoritative Source)]
 
 
@@ -165,3 +165,15 @@ Sets are more than just lists of numbers; they are the building blocks of logica
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Relations Functions Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/relations-functions-class-11-revision-notes-jee-neet)
+- 📖 [Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)
+- 📖 [Linear Inequalities Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/linear-inequalities-class-11-revision-notes-jee-neet)
+- 📖 [Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)

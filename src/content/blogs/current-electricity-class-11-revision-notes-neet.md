@@ -44,7 +44,7 @@ While electrostatics deals with charges at rest, **Current Electricity** is the 
 
 ## 1. Electric Current: The Flow of Charge
 
-**Electric Current (I)** is defined as the rate of flow of electric charge through any cross-section of a conductor.
+**Electric Current (I)** is defined as the rate of flow of [electric](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) charge through any cross-section of a conductor.
 **I = dQ / dt**.
 - **Unit:** Ampere (A).
 - **Current Density (J):** Current per unit area. **J = I / A**.
@@ -192,9 +192,9 @@ A voltmeter draws some current from the circuit, thereby measuring a terminal vo
 
 ## Related Revision Notes
 
-- [**Chapter 2: Electrostatical Potential & Capacitive Circuits**](/blog/electrostatic-potential-capacitance-revision-notes)
-- [**Chapter 4: Moving Charges and Magnetism (The Next Milestone)**](/blog/moving-charges-magnetism-revision-notes)
-- [**Mastering Kirchhoff’s Network Analysis: Rank Booster Set**](/blog/jee-mains-high-weightage-chapters)
+- **Chapter 2: Electrostatical Potential & Capacitive Circuits**
+- **Chapter 4: Moving Charges and Magnetism (The Next Milestone)**
+- **Mastering Kirchhoff’s Network Analysis: Rank Booster Set**
 
 
 
@@ -217,3 +217,15 @@ Current Electricity is the foundation of energy conversion and electronics. By m
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Moving Charges Magnetism Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/moving-charges-magnetism-class-11-revision-notes-neet)
+- 📖 [Thermodynamics Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/thermodynamics-class-11-revision-notes-neet)
+- 📖 [Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
+- 📖 [Kinetic Theory Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)

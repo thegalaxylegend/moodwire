@@ -150,9 +150,9 @@ Consider a vehicle of mass **m** on a road banked at angle **θ** with coefficie
 
 ## Related Revision Notes
 
-- [**Chapter 5: Work, Energy, and Power**](/blog/work-energy-and-power-revision-notes)
-- [**Chapter 6: System of Particles (Torque)**](/blog/rotational-motion-revision-notes)
-- [**Mastering FBD: Pulley and Wedge Problems**](/blog/jee-mains-high-weightage-chapters)
+- **Chapter 5: Work, Energy, and Power**
+- **Chapter 6: System of Particles (Torque)**
+- **Mastering FBD: Pulley and Wedge Problems**
 
 
 
@@ -175,3 +175,15 @@ Newton’s Laws of Motion provide the fundamental rules of the game of Physics. 
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Rotational Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/rotational-motion-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
+- 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)

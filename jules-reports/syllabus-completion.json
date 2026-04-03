@@ -1,8 +1,8 @@
 {
   "overall": {
     "total": 320,
-    "completed": 123,
-    "percentage": 38
+    "completed": 132,
+    "percentage": 41
   },
   "bySubject": {
     "Physics": {
@@ -17,13 +17,13 @@
     },
     "Mathematics": {
       "total": 63,
-      "completed": 27,
-      "percentage": 43
+      "completed": 30,
+      "percentage": 48
     },
     "Biology": {
       "total": 38,
-      "completed": 23,
-      "percentage": 61
+      "completed": 29,
+      "percentage": 76
     },
     "Computer Science": {
       "total": 11,
@@ -54,8 +54,8 @@
     },
     "Class 12": {
       "total": 64,
-      "completed": 37,
-      "percentage": 58
+      "completed": 46,
+      "percentage": 72
     },
     "Class 10": {
       "total": 66,

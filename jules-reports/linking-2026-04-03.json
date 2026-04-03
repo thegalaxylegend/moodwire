@@ -1,10 +1,10 @@
 {
   "date": "2026-04-03",
   "summary": {
-    "totalLinksAdded": 109,
-    "relatedSectionsAdded": 155,
-    "orphanPages": 155,
-    "totalBlogs": 155
+    "totalLinksAdded": 127,
+    "relatedSectionsAdded": 164,
+    "orphanPages": 164,
+    "totalBlogs": 164
   },
   "orphans": [
     "3d-geometry-intro-class-11-revision-notes-jee-neet",
@@ -22,6 +22,7 @@
     "ancient-india-mahajanapadas-class-11-revision-notes-jee",
     "ancient-india-vedic-age-class-11-revision-notes-jee",
     "animal-kingdom-class-11-revision-notes-neet",
+    "application-of-derivatives-class-12-notes",
     "application-of-integrals-class-12-notes",
     "art-culture-architecture-class-11-revision-notes-jee-neet",
     "atoms-class-12-notes",
@@ -71,6 +72,7 @@
     "geomorphology-class-11-revision-notes-cbse",
     "gravitation-class-11-revision-notes-jee-neet",
     "haloalkanes-and-haloarenes-class-12-notes",
+    "human-reproduction-class-12-notes",
     "hydrocarbons-class-11-revision-notes-neet",
     "hydrogen-class-11-revision-notes-neet",
     "indian-geography-climate-class-11-revision-notes-cbse",
@@ -86,6 +88,7 @@
     "limits-and-derivatives-class-11-revision-notes-jee",
     "limits-derivatives-class-11-revision-notes-jee-neet",
     "linear-inequalities-class-11-revision-notes-jee-neet",
+    "linear-programming-class-12-notes",
     "local-government-class-11-revision-notes-cbse",
     "locomotion-and-movement-class-11-revision-notes-neet",
     "magnetic-effects-of-current-class-12-notes",
@@ -100,6 +103,7 @@
     "medieval-india-mughals-class-11-revision-notes-cbse",
     "metallurgy-class-12-notes",
     "mineral-nutrition-class-11-revision-notes-neet",
+    "molecular-basis-of-inheritance-class-12-notes",
     "morphology-of-flowering-plants-class-11-revision-notes-neet",
     "motion-in-a-plane-class-11-revision-notes-jee-neet",
     "motion-in-a-straight-line-class-11-revision-notes-jee-neet",
@@ -123,17 +127,21 @@
     "polymers-class-12-notes",
     "poverty-unemployment-class-11-revision-notes-jee-neet",
     "principle-of-mathematical-induction-class-11-revision-notes-jee",
+    "principles-of-inheritance-and-variation-class-12-notes",
     "probability-class-11-revision-notes-jee",
     "probability-intro-class-11-revision-notes-jee",
     "ray-optics-class-12-quick-class-12-revision-notes-jee-neet",
     "redox-reactions-class-11-revision-notes-neet",
     "relations-and-functions-class-11-notes",
     "relations-functions-class-11-revision-notes-jee-neet",
+    "reproduction-in-organisms-class-12-notes",
+    "reproductive-health-class-12-notes",
     "respiration-in-plants-class-11-revision-notes-neet",
     "rotational-motion-class-11-revision-notes-jee-neet",
     "semiconductor-electronics-class-12-notes",
     "sequences-series-class-11-revision-notes-jee",
     "sets-class-11-revision-notes-jee-neet",
+    "sexual-reproduction-in-flowering-plants-class-12-notes",
     "solid-state-class-12-notes",
     "solutions-class-12-notes",
     "some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet",
@@ -158,6 +166,7 @@
     "units-and-measurements-class-11-revision-notes-jee-neet",
     "upsc-optional-selection-guide-class-11-revision-notes-jee",
     "upsc-optional-selection-guide",
+    "vector-algebra-class-12-notes",
     "wave-optics-class-12-notes",
     "waves-class-11-revision-notes-neet",
     "work-energy-and-power-class-11-revision-notes-neet",
@@ -360,7 +369,7 @@
         "updated"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "ancient-india-indus-valley-class-11-revision-notes-cbse",
@@ -432,7 +441,25 @@
         "characteristics"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
+    },
+    {
+      "slug": "application-of-derivatives-class-12-notes",
+      "category": "Mathematics",
+      "keywords": [
+        "application",
+        "derivatives",
+        "mathematics",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "idformulabanka",
+        "formula",
+        "idthe5mistakesthatcostmarksa"
+      ],
+      "incomingLinks": 0,
+      "outgoingLinks": 0
     },
     {
       "slug": "application-of-integrals-class-12-notes",
@@ -504,7 +531,7 @@
         "integral"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "biogeography-class-11-revision-notes-neet",
@@ -538,7 +565,7 @@
         "chapter"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "biomolecules-class-11-revision-notes-neet",
@@ -551,7 +578,7 @@
         "grandmaster"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "body-fluids-and-circulation-class-11-revision-notes-neet",
@@ -605,7 +632,7 @@
         "introduction"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "cell-the-unit-of-life-class-11-revision-notes-neet",
@@ -623,7 +650,7 @@
         "introduction"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "chemical-bonding-class-11-revision-notes-jee-neet",
@@ -641,7 +668,7 @@
         "decider"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 3
+      "outgoingLinks": 0
     },
     {
       "slug": "chemical-coordination-and-integration-class-11-revision-notes-neet",
@@ -749,7 +776,7 @@
         "table"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 3
+      "outgoingLinks": 0
     },
     {
       "slug": "classification-of-elements-class-11-revision-notes-jee-neet",
@@ -821,7 +848,7 @@
         "imaginary"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "computer-organization-class-11-notes",
@@ -857,7 +884,7 @@
         "parabola"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "constitutional-framework-class-11-revision-notes-cbse",
@@ -947,7 +974,7 @@
         "electric"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 3
+      "outgoingLinks": 0
     },
     {
       "slug": "data-structures-linear-class-11-revision-notes-gate-boards",
@@ -1109,7 +1136,7 @@
         "introduction"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 3
+      "outgoingLinks": 0
     },
     {
       "slug": "electromagnetic-induction-class-12-revision-notes-jee-neet",
@@ -1181,7 +1208,7 @@
         "chapter"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "equilibrium-class-11-revision-notes-jee-neet",
@@ -1199,7 +1226,7 @@
         "balancing"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 3
+      "outgoingLinks": 0
     },
     {
       "slug": "excretory-products-and-elimination-class-11-revision-notes-neet",
@@ -1287,7 +1314,7 @@
         "universal"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 3
+      "outgoingLinks": 0
     },
     {
       "slug": "haloalkanes-and-haloarenes-class-12-notes",
@@ -1308,6 +1335,24 @@
       "outgoingLinks": 0
     },
     {
+      "slug": "human-reproduction-class-12-notes",
+      "category": "Biology",
+      "keywords": [
+        "human",
+        "reproduction",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "idformulabanka",
+        "formula"
+      ],
+      "incomingLinks": 0,
+      "outgoingLinks": 0
+    },
+    {
       "slug": "hydrocarbons-class-11-revision-notes-neet",
       "category": "Biology",
       "keywords": [
@@ -1323,7 +1368,7 @@
         "ayushs"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "hydrogen-class-11-revision-notes-neet",
@@ -1341,7 +1386,7 @@
         "extraction"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "indian-geography-climate-class-11-revision-notes-cbse",
@@ -1485,7 +1530,7 @@
         "postulates"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 3
+      "outgoingLinks": 0
     },
     {
       "slug": "laws-of-motion-class-11-revision-notes-jee-neet",
@@ -1503,7 +1548,7 @@
         "newtons"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 3
+      "outgoingLinks": 0
     },
     {
       "slug": "laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet",
@@ -1557,7 +1602,7 @@
         "concept"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "linear-inequalities-class-11-revision-notes-jee-neet",
@@ -1575,7 +1620,25 @@
         "algebraic"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
+    },
+    {
+      "slug": "linear-programming-class-12-notes",
+      "category": "Mathematics",
+      "keywords": [
+        "linear",
+        "programming",
+        "mathematics",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "idformulabanka",
+        "formula",
+        "idthe5mistakesthatcostmarksa"
+      ],
+      "incomingLinks": 0,
+      "outgoingLinks": 0
     },
     {
       "slug": "local-government-class-11-revision-notes-cbse",
@@ -1664,7 +1727,7 @@
         "principle"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "mathematical-reasoning-class-11-revision-notes-jee-neet",
@@ -1682,7 +1745,7 @@
         "statements"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "matrices-class-12-notes",
@@ -1718,7 +1781,7 @@
         "introduction"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 3
+      "outgoingLinks": 0
     },
     {
       "slug": "mechanical-properties-of-solids-class-11-revision-notes-jee-neet",
@@ -1736,7 +1799,7 @@
         "introduction"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 3
+      "outgoingLinks": 0
     },
     {
       "slug": "medieval-india-bhakti-sufi-class-11-revision-notes-cbse",
@@ -1819,7 +1882,25 @@
         "contents"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
+    },
+    {
+      "slug": "molecular-basis-of-inheritance-class-12-notes",
+      "category": "Biology",
+      "keywords": [
+        "molecular",
+        "basis",
+        "inheritance",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "idformulabanka"
+      ],
+      "incomingLinks": 0,
+      "outgoingLinks": 0
     },
     {
       "slug": "morphology-of-flowering-plants-class-11-revision-notes-neet",
@@ -1837,7 +1918,7 @@
         "introduction"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "motion-in-a-plane-class-11-revision-notes-jee-neet",
@@ -1855,7 +1936,7 @@
         "power"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 3
+      "outgoingLinks": 0
     },
     {
       "slug": "motion-in-a-straight-line-class-11-revision-notes-jee-neet",
@@ -1873,7 +1954,7 @@
         "introduction"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 3
+      "outgoingLinks": 0
     },
     {
       "slug": "moving-charges-magnetism-class-11-revision-notes-neet",
@@ -1891,7 +1972,7 @@
         "introduction"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 3
+      "outgoingLinks": 0
     },
     {
       "slug": "neet-2026-weightage-prediction-class-11-revision-notes-neet",
@@ -1997,7 +2078,7 @@
         "contents"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "oscillations-class-11-revision-notes-jee-neet",
@@ -2015,7 +2096,7 @@
         "oscillatory"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 3
+      "outgoingLinks": 0
     },
     {
       "slug": "permutations-and-combinations-class-11-revision-notes-jee",
@@ -2051,7 +2132,7 @@
         "principle"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "photosynthesis-in-higher-plants-class-11-revision-notes-neet",
@@ -2069,7 +2150,7 @@
         "introduction"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "physical-world-class-11-revision-notes-jee-neet",
@@ -2087,7 +2168,7 @@
         "chapter"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "physics-heat-light-class-11-revision-notes-jee-neet",
@@ -2154,7 +2235,7 @@
         "introduction"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "plant-kingdom-class-11-revision-notes-neet",
@@ -2172,7 +2253,7 @@
         "chapter"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "polymers-class-12-notes",
@@ -2228,6 +2309,24 @@
       "outgoingLinks": 0
     },
     {
+      "slug": "principles-of-inheritance-and-variation-class-12-notes",
+      "category": "Biology",
+      "keywords": [
+        "principles",
+        "inheritance",
+        "variation",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "idformulabanka"
+      ],
+      "incomingLinks": 0,
+      "outgoingLinks": 0
+    },
+    {
       "slug": "probability-class-11-revision-notes-jee",
       "category": "Mathematics",
       "keywords": [
@@ -2243,7 +2342,7 @@
         "sample"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "probability-intro-class-11-revision-notes-jee",
@@ -2297,7 +2396,7 @@
         "matter"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "relations-and-functions-class-11-notes",
@@ -2333,7 +2432,43 @@
         "cartesian"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
+    },
+    {
+      "slug": "reproduction-in-organisms-class-12-notes",
+      "category": "Biology",
+      "keywords": [
+        "reproduction",
+        "organisms",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "idformulabanka",
+        "formula"
+      ],
+      "incomingLinks": 0,
+      "outgoingLinks": 0
+    },
+    {
+      "slug": "reproductive-health-class-12-notes",
+      "category": "Biology",
+      "keywords": [
+        "reproductive",
+        "health",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "idformulabanka",
+        "formula"
+      ],
+      "incomingLinks": 0,
+      "outgoingLinks": 0
     },
     {
       "slug": "respiration-in-plants-class-11-revision-notes-neet",
@@ -2351,7 +2486,7 @@
         "matters"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "rotational-motion-class-11-revision-notes-jee-neet",
@@ -2369,7 +2504,7 @@
         "centre"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 3
+      "outgoingLinks": 0
     },
     {
       "slug": "semiconductor-electronics-class-12-notes",
@@ -2405,7 +2540,7 @@
         "arithmetic"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "sets-class-11-revision-notes-jee-neet",
@@ -2423,7 +2558,25 @@
         "types"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
+    },
+    {
+      "slug": "sexual-reproduction-in-flowering-plants-class-12-notes",
+      "category": "Biology",
+      "keywords": [
+        "sexual",
+        "reproduction",
+        "flowering",
+        "plants",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents"
+      ],
+      "incomingLinks": 0,
+      "outgoingLinks": 0
     },
     {
       "slug": "solid-state-class-12-notes",
@@ -2513,7 +2666,7 @@
         "contents"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 3
+      "outgoingLinks": 0
     },
     {
       "slug": "statistics-class-11-revision-notes-jee",
@@ -2531,7 +2684,7 @@
         "deviation"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "straight-lines-class-11-revision-notes-jee-neet",
@@ -2549,7 +2702,7 @@
         "slope"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "structural-organisation-in-animals-class-11-revision-notes-neet",
@@ -2567,7 +2720,7 @@
         "introduction"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "structure-of-atom-class-11-revision-notes-jee-neet",
@@ -2585,7 +2738,7 @@
         "contents"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 3
+      "outgoingLinks": 0
     },
     {
       "slug": "structure-of-the-atom-class-11-revision-notes-neet",
@@ -2657,7 +2810,7 @@
         "characteristics"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "the-p-block-elements-11-class-11-revision-notes-jee-neet",
@@ -2675,7 +2828,7 @@
         "pblock"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "the-s-block-elements-class-11-revision-notes-jee-neet",
@@ -2693,7 +2846,7 @@
         "matters"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "thermal-properties-of-matter-class-11-revision-notes-jee-neet",
@@ -2711,7 +2864,7 @@
         "introduction"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 3
+      "outgoingLinks": 0
     },
     {
       "slug": "thermodynamics-chemistry-class-11-revision-notes-jee-neet",
@@ -2729,7 +2882,7 @@
         "contents"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 3
+      "outgoingLinks": 0
     },
     {
       "slug": "thermodynamics-class-11-revision-notes-neet",
@@ -2747,7 +2900,7 @@
         "systems"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 3
+      "outgoingLinks": 0
     },
     {
       "slug": "three-dimensional-geometry-class-11-revision-notes-jee-neet",
@@ -2765,7 +2918,7 @@
         "introduction"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "transport-in-plants-class-11-revision-notes-neet",
@@ -2779,7 +2932,7 @@
         "grandmaster"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "trigonometric-functions-class-11-revision-notes-jee-neet",
@@ -2797,7 +2950,7 @@
         "measuring"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 2
+      "outgoingLinks": 0
     },
     {
       "slug": "units-and-measurements-class-11-revision-notes-jee-neet",
@@ -2815,7 +2968,7 @@
         "international"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 3
+      "outgoingLinks": 0
     },
     {
       "slug": "upsc-optional-selection-guide-class-11-revision-notes-jee",
@@ -2854,6 +3007,24 @@
       "outgoingLinks": 0
     },
     {
+      "slug": "vector-algebra-class-12-notes",
+      "category": "Mathematics",
+      "keywords": [
+        "vector",
+        "algebra",
+        "mathematics",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "idformulabanka",
+        "formula",
+        "idthe5mistakesthatcostmarksa"
+      ],
+      "incomingLinks": 0,
+      "outgoingLinks": 0
+    },
+    {
       "slug": "wave-optics-class-12-notes",
       "category": "Physics",
       "keywords": [
@@ -2887,7 +3058,7 @@
         "classifications"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 3
+      "outgoingLinks": 0
     },
     {
       "slug": "work-energy-and-power-class-11-revision-notes-neet",
@@ -2905,7 +3076,7 @@
         "introduction"
       ],
       "incomingLinks": 0,
-      "outgoingLinks": 3
+      "outgoingLinks": 0
     },
     {
       "slug": "world-history-industrial-revolution-class-11-revision-notes-jee-neet",

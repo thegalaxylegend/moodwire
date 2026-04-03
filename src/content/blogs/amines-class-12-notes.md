@@ -179,3 +179,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Metallurgy Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/metallurgy-class-12-notes)
+- 📖 [Solid State Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/solid-state-class-12-notes)
+- 📖 [Surface Chemistry Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/surface-chemistry-class-12-notes)
+- 📖 [Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-integrals-class-12-notes)

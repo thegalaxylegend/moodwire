@@ -111,7 +111,7 @@ To further reinforce our understanding, let's consider some examples and derivat
 1. **Snell's Law**: $n_1 \sin \theta_1 = n_2 \sin \theta_2$
 2. **Lens Maker's Formula**: $\frac{1}{f} = (n-1) \left( \frac{1}{R_1} - \frac{1}{R_2} \right)$
 
-By working through these examples and derivations, we can gain a deeper understanding of the concepts and formulae in ray optics.
+By working through these examples and derivations, we can gain a deeper understanding of the [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) and formulae in ray optics.
 
 As we review the material, it's essential to keep track of the key terms and concepts. Here are some **bold terms** to remember:
 
@@ -187,3 +187,15 @@ Now, go ahead and take the next step in your journey to mastering ray optics. St
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Geomorphology Class 11 Geography Recap — CBSE 2026 Quick Guide](/blog/geomorphology-class-11-revision-notes-cbse)
+- 📖 [Some Basic Concepts Of Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet)
+- 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
+- 📖 [Art Culture Architecture Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/art-culture-architecture-class-11-revision-notes-jee-neet)

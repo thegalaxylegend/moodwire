@@ -53,7 +53,7 @@ Environmental chemistry is [the study of the chemical and biochemical phenomena 
 
 ## Why This Chapter Matters
 
-3 questions in JEE Mains 2025 Session 1 came from this topic. Environmental chemistry is important for understanding and mitigating the impact of human activities on the environment. The main goal of environmental chemistry is to develop sustainable solutions for environmental problems.
+3 questions in JEE Mains 2026 Session 1 came from this topic. Environmental chemistry is important for understanding and mitigating the impact of human activities on the environment. The main goal of environmental chemistry is to develop sustainable solutions for environmental problems.
 
 
 
@@ -75,7 +75,7 @@ Air pollution is [the presence of contaminants or pollutant substances in the ai
 ### Water Pollution
 Water pollution is [the presence of contaminants or pollutant substances in water that can harm human health and the environment](https://en.wikipedia.org/wiki/Water_pollution). The main sources of water pollution are industrial activities, agricultural runoff, and domestic waste. The effects of water pollution include the spread of waterborne diseases, the death of aquatic life, and the contamination of drinking water.
 ### Soil Pollution
-Soil pollution is [the presence of contaminants or pollutant substances in soil that can harm human health and the environment](https://en.wikipedia.org/wiki/Soil_pollution). The main sources of soil pollution are industrial activities, agricultural runoff, and domestic waste. The effects of soil pollution include the contamination of groundwater, the death of plants and animals, and the reduction of soil fertility.
+Soil pollution is [the presence of contaminants or pollutant substances in soil that can harm human health and the environment](https://en.wikipedia.org/wiki/Soil_pollution). The main sources of soil pollution are industrial activities, agricultural runoff, and domestic waste. The effects of soil pollution include the contamination of groundwater, the death of [plants](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) and animals, and the reduction of soil fertility.
 
 
 
@@ -134,7 +134,7 @@ D) Natural disasters
 Answer: A) Industrial activities
 5. What is the effect of soil pollution on the environment?
 A) It can cause the contamination of groundwater
-B) It can cause the death of plants and animals
+B) It can cause the death of [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) and animals
 C) It can cause the reduction of soil fertility
 D) All of the above
 Answer: D) All of the above
@@ -144,8 +144,8 @@ Answer: D) All of the above
 
 ## Related Notes Links
 
-* [Chapter Revision Notes: Atomic Structure](/blog/atomic-structure-class-11-notes)
-* [Chapter Revision Notes: Chemical Bonding](/blog/chemical-bonding-class-11-notes)
+* Chapter Revision Notes: Atomic Structure
+* Chapter Revision Notes: Chemical Bonding
 
 
 
@@ -172,3 +172,15 @@ Environmental chemistry is [the study of the chemical and biochemical phenomena 
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
+- 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
+- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)
+- 📖 [Plant Growth And Development Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/plant-growth-and-development-class-11-revision-notes-neet)

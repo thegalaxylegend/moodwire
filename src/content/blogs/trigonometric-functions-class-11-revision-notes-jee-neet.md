@@ -38,7 +38,7 @@ heroImage: "/blog-images/trigonometric-functions-class-11-revision-notes-jee-nee
 ## Introduction
 
 **Trigonometric Functions extend the geometry of right triangles to the circular motion of the Unit Circle, defining the periodic nature of waves and oscillations. Master radian measure, ASTC rules, and the "Core 10" identities to solve complex rotation problems in physics and engineering. This Class 11 Math Chapter 3 guide ensures you have all essential formulas for JEE and Board success.**
-Trigonometry is the study of triangles, but in Chapter 3, it evolves into the study of periodic motion.
+Trigonometry is the study of triangles, but in Chapter 3, it evolves into the study of periodic [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet).
 
 ---
 
@@ -60,7 +60,7 @@ Trigonometry is the study of triangles, but in Chapter 3, it evolves into the st
 
 ## 2. The Unit Circle and ASTC Rule
 
-The definitions of trigonometric functions are extended to all real numbers using a unit circle.
+The definitions of trigonometric functions are extended to all real [numbers](/blog/complex-numbers-class-11-revision-notes-jee-neet) using a unit circle.
 *   **Signs of Functions:**
     *   **Quadrant I:** All (Sin, Cos, Tan, Cot, Sec, Cosec) are Positive.
     *   **Quadrant II:** Sine and Cosecant are Positive.
@@ -81,7 +81,7 @@ The definitions of trigonometric functions are extended to all real numbers usin
 | tan x | R - {(2n+1)π/2} | R |
 | cot x | R - {nπ} | R |
 | sec x | R - {(2n+1)π/2} | (-∞, -1] ∪ [1, ∞) |
-| cosec x | R - {nπ} | (-∞, -1] ∪ [1, ∞) |
+| cosec x | R - {nπ} | (-∞, -1] ∪ 1, ∞) |
 
 ---
 
@@ -147,8 +147,8 @@ The definitions of trigonometric functions are extended to all real numbers usin
 
 ## Related Revision Notes
 
-- [**Chapter 2: Relations and Functions**](/blog/relations-functions-revision-notes)
-- [**Chapter 5: Complex Numbers**](/blog/complex-numbers-revision-notes)
+- [**Chapter 2: Relations and Functions**
+- **Chapter 5: Complex Numbers**
 - [**External Reference:** [NCERT Class 11 Math Chapter 3](https://ncert.nic.in/textbook.php?kemh1=3-16) (Authoritative Source)]
 
 
@@ -171,3 +171,15 @@ Trigonometry is the bridge between geometry and algebra. By mastery the "Core 10
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)
+- 📖 [Kinetic Theory Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)

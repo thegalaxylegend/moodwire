@@ -62,7 +62,7 @@ By mastering these concepts and understanding how they interact with each other,
 On the day of the exam, it's essential to be well-prepared and confident in your understanding of Computer Organization. Make sure to review the key concepts, practice problems, and focus on the weightage of each topic. With a solid foundation in the prerequisites and a deep understanding of the subject matter, you'll be well-equipped to tackle the challenges of the exam and achieve a high score.
 
 
-## What is Computer Organization?
+
 
 Computer Organization is the way in which a computer's hardware and software components are arranged and interact with one another to achieve the desired functionality. It includes the **Central Processing Unit (CPU)**, **Memory**, and **Input/Output (I/O) devices**. For Class 11 exam prep in 2026, the most important aspect is understanding the $CPU$ architecture and its role in executing instructions.
 
@@ -170,7 +170,7 @@ How does the Memory Hierarchy Work in Computer Organization? is a hierarchical s
 
  Here's a student-centric tip: to understand the memory hierarchy, try to visualize it as a series of concentric circles, with the cache memory at the center and the virtual memory at the outermost circle. This will help you to understand how the different levels of the hierarchy interact with each other and how the data and instructions flow through the system.
 
- In terms of exam prep, it's essential to understand the different types of cache mapping techniques, such as direct mapping, indirect mapping, and associative mapping. You should also be familiar with the concepts of cache hit ratio, cache miss ratio, and average memory access time. These concepts are critical in evaluating the performance of the memory hierarchy and optimizing its design.
+ In terms of exam prep, it's essential to understand the different types of cache mapping techniques, such as direct mapping, indirect mapping, and associative mapping. You should also be familiar with the concepts of cache hit ratio, cache miss ratio, and average memory access time. These concepts are critical in evaluating the performance of the memory hierarchy and optimizing its [design](/blog/algorithms-design-class-11-revision-notes-gate-boards).
 
 
 | Level | Access Time | Capacity | Cost |
@@ -188,7 +188,7 @@ What are the Different Types of Computer Instructions? is a set of commands that
 
  **Data Transfer Instructions** are essential for any computational task, as they enable the movement of data between memory locations, registers, and input/output devices. Examples of data transfer instructions include load, store, move, and exchange. These instructions are fundamental in programming, as they allow for the manipulation of data, which is a core aspect of computing.
 
- **Arithmetic Instructions** are another vital category, as they perform the mathematical operations that are the backbone of computational tasks. These instructions can range from simple operations like addition and subtraction to more complex ones like multiplication and division. The efficiency and accuracy of arithmetic instructions are crucial for tasks that require precise numerical computations, such as scientific simulations and data analysis.
+ **Arithmetic Instructions** are another vital category, as they perform the mathematical operations that are the backbone of computational tasks. These instructions can range from simple operations like addition and subtraction to more complex ones like multiplication and division. The efficiency and accuracy of arithmetic instructions are crucial for tasks that require precise numerical computations, such as scientific simulations and data [analysis](/blog/algorithms-analysis-class-11-revision-notes-gate-boards).
 
  **Control Flow Instructions** dictate the sequence of instruction execution, allowing programs to make decisions, repeat tasks, and skip over sections of code. This category includes conditional jump instructions (e.g., if-then statements), unconditional jump instructions (e.g., goto statements), and loop instructions (e.g., for loops, while loops). Mastery of control flow instructions is essential for writing efficient, flexible, and scalable programs.
 
@@ -247,7 +247,7 @@ Computer Organization is the study of the structure and operation of a computer'
 
 ## What are common Trap Questions for Computer Organization?
 
-Computer Organization is the way a computer's hardware and software components interact to achieve computational tasks. It includes the study of data representation, instruction sets, and memory management. For Class 11 exam prep in 2026, the most important aspect is understanding the fundamentals of computer architecture, such as the relationship between the control unit, arithmetic logic unit (ALU), and registers. 
+Computer Organization is the way a computer's hardware and software components interact to achieve computational tasks. It includes the study of data representation, instruction sets, and memory management. For Class 11 exam prep in 2026, the most important aspect is understanding the fundamentals of computer architecture, such as the relationship between the control unit, arithmetic [logic](/blog/digital-logic-class-11-revision-notes-gate-boards) unit (ALU), and registers. 
  
  Trap questions in computer organization often aim to test a student's understanding of these fundamental concepts, particularly in areas where subtle distinctions can significantly impact the correctness of an answer. One common trap question involves the differences between $RISC$ (Reduced Instruction Set Computing) and $CISC$ (Complex Instruction Set Computing) architectures. Students often get confused between these two because they seem similar on the surface but have distinct implications for instruction execution, pipelining, and overall system performance.
  
@@ -354,3 +354,15 @@ To store program and data
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/digital-logic-class-11-revision-notes-gate-boards)
+- 📖 [Algorithms: Analysis Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-analysis-class-11-revision-notes-gate-boards)
+- 📖 [Algorithms: Design Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-design-class-11-revision-notes-gate-boards)
+- 📖 [Data Structures: Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/data-structures-linear-class-11-revision-notes-gate-boards)

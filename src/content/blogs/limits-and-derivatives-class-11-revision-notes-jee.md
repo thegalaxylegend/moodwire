@@ -21,7 +21,7 @@ In terms of exam weightage, Limits and Derivatives constitute a significant port
 
 Personally, I still remember the thrill of discovering the concept of limits for the first time. It was like unlocking a secret door to a new world of mathematical possibilities. The idea that a function can approach a value, but never quite reach it, fascinated me. As I delved deeper into the subject, I realized that limits are not just a theoretical concept, but a fundamental building block of calculus. They help us understand how functions behave, how they change, and how they interact with each other.
 
-The concept of derivatives, on the other hand, is like having a superpower. It allows us to analyze functions, optimize them, and predict their behavior. Derivatives are used in a wide range of fields, from physics and engineering to economics and computer science. They help us model real-world phenomena, make predictions, and solve complex problems. For instance, derivatives are used in physics to describe the motion of objects, in economics to model supply and demand, and in computer science to optimize algorithms.
+The concept of derivatives, on the other hand, is like having a superpower. It allows us to analyze functions, optimize them, and predict their behavior. Derivatives are used in a wide range of fields, from physics and engineering to economics and computer science. They help us model real-world phenomena, make predictions, and solve complex problems. For instance, derivatives are used in physics to describe the motion of objects, in economics to model supply and demand, and in computer science to optimize [algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards).
 
 One of the most significant challenges students face when learning Limits and Derivatives is the abstract nature of the concepts. It's easy to get lost in the sea of formulas and theorems, without fully understanding the underlying principles. However, with the right approach, Limits and Derivatives can be a fascinating and rewarding topic. By focusing on the core concepts, practicing regularly, and applying the concepts to real-world problems, students can develop a deep understanding of the subject.
 
@@ -304,3 +304,15 @@ D. 28x^3 + 6x^2 - 10x + 1 + 0
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-and-combinations-class-11-revision-notes-jee)
+- 📖 [Algorithms: Design Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-design-class-11-revision-notes-gate-boards)
+- 📖 [Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/digital-logic-class-11-revision-notes-gate-boards)
+- 📖 [Electrostatics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electrostatics-class-12-revision-notes-jee-neet)

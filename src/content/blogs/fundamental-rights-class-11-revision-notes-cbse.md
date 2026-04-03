@@ -22,9 +22,9 @@ heroImage: "/blog-images/fundamental-rights-class-11-revision-notes-cbse.webp"
 *Last Updated: March 21, 2026*
 
 
-## What is Fundamental Rights?
 
-Fundamental Rights is a set of rights guaranteed by the Indian Constitution to all citizens, providing them with the freedom to live with dignity and respect. It includes the right to equality, freedom of speech and expression, and protection against exploitation. For Class 11 exam prep in 2026, the most important aspect is understanding the significance of these rights in shaping the country's democratic framework.
+
+Fundamental Rights is a set of rights guaranteed by the Indian Constitution to all citizens, providing them with the freedom to live with dignity and respect. It includes the right to equality, freedom of speech and expression, and protection against exploitation. For Class 11 exam prep in 2026, the most important aspect is understanding the significance of these rights in shaping the country's democratic [framework](/blog/constitutional-framework-class-11-revision-notes-cbse).
 
 
 
@@ -107,3 +107,15 @@ To quickly revise and recap the key points related to Fundamental Rights, I've b
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)
+- 📖 [Constitutional Framework Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/constitutional-framework-class-11-revision-notes-cbse)
+- 📖 [Federalism Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/federalism-class-11-revision-notes-cbse)
+- 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)

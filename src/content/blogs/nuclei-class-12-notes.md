@@ -70,7 +70,7 @@ When solving problems related to nuclei, watch out for these common mistakes:
 ## ✏️ 3 Solved PYQs
 
 Q: The activity of a radioactive substance is $2.0 \times 10^{-6}$ curie. If its half-life is $3.5 \times 10^{9}$ years, then the number of atoms in the sample is $[\lambda = \frac{0.693}{T_{1/2}}]$. 
- Trap in this question: Students often get confused between the units of activity and the process to find the number of atoms.
+ Trap in this question: Students often get confused between the units of activity and the process to find the number of [atoms](/blog/atoms-class-12-notes).
  Solution: 
  $A = \lambda N$, 
  where $A$ is the activity, $\lambda$ is the decay constant, and $N$ is the number of atoms. 
@@ -153,7 +153,7 @@ Key Formulas:
  * $E_{binding} = \Delta mc^2 = (Zm_p + (A-Z)m_n - m_nucleus)c^2$
  * $R = R_0A^{\frac{1}{3}}$
  Key Facts:
- * Nuclear force is the strongest force in nature
+ * Nuclear force is the strongest force in [nature](/blog/dual-nature-of-radiation-class-12-notes)
  * Radioactive decay is a spontaneous process
  * Nuclear reactions release a large amount of energy
  Common Mistakes:
@@ -220,3 +220,15 @@ The time taken for the substance to reach equilibrium
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Nuclei Full Mock Test**](/class-11/physics/nuclei-class-12-notes) now and track your progress against thousands of students.
 
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Atoms Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/atoms-class-12-notes)
+- 📖 [Communication Systems Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/communication-systems-class-12-notes)
+- 📖 [Dual Nature of Radiation Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/dual-nature-of-radiation-class-12-notes)
+- 📖 [Semiconductor Electronics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/semiconductor-electronics-class-12-notes)

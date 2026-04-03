@@ -57,8 +57,8 @@ heroImage: "/blog-images/states-of-matter-class-11-revision-notes-jee-neet.webp"
 This chapter is where Physics and Chemistry merge. If you're comfortable with Thermodynamics and Kinetic Energy in Physics, you'll fly through this. The key challenge isn't the concepts — it's the **unit conversions**. I've seen students who understand Boyle's Law perfectly but get 0 marks because they forgot to convert Celsius to Kelvin.
 
 ### Why This Chapter Matters (Exam Data)
-- **JEE Mains 2025 Session 1**: 1 question on Compressibility Factor ($Z$) and 1 on Graham's Law.
-- **NEET 2024**: 1 question on van der Waals constants and liquefaction ease.
+- **JEE Mains 2026 Session 1**: 1 question on Compressibility Factor ($Z$) and 1 on Graham's Law.
+- **NEET 2026**: 1 question on van der Waals constants and liquefaction ease.
 - **CBSE Boards**: This unit carries 4-5 marks and is often paired with Thermodynamics in the paper.
 
 ---
@@ -139,8 +139,7 @@ From $PV = nRT$ and $n = W/M$: $$PM = dRT$$ where $d$ = density. This is a high-
 
 **Dalton's Law of Partial Pressures states that the total pressure of a mixture of non-reacting gases is equal to the sum of individual partial pressures of each component gas.**
 
-$$P_{total} = P_1 + P_2 + P_3 + ...$$
-$$P_i = X_i \times P_{total}$$ where $X_i$ = mole fraction.
+$$P_{total} = P_1 + P_2 + P_3 + ...P_i = X_i \times P_{total}$$ where $X_i$ = mole fraction.
 
 ### Graham's Law of Diffusion
 
@@ -325,9 +324,9 @@ In CBSE boards, always draw the $PV$ vs $P$ graph or the $Z$ vs $P$ graph if the
 ---
 
 **Related Revision Notes:**
-- [**Chemical Thermodynamics — Enthalpy & Hess's Law**](/blog/thermodynamics-chemistry-revision-notes)
-- [**Some Basic Concepts of Chemistry — Mole Concept & Stoichiometry**](/blog/some-basic-concepts-chemistry-revision-notes)
-- [**Chemical Equilibrium — Le Chatelier's Principle Tricks**](/blog/equilibrium-revision-notes)
+- **Chemical Thermodynamics — Enthalpy & Hess's Law**
+- **Some Basic Concepts of Chemistry — Mole Concept & Stoichiometry**
+- **Chemical Equilibrium — Le Chatelier's Principle Tricks**
 
 ---
 *Last Updated: March 13, 2026*
@@ -343,3 +342,15 @@ In CBSE boards, always draw the $PV$ vs $P$ graph or the $Z$ vs $P$ graph if the
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Equilibrium Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/equilibrium-class-11-revision-notes-jee-neet)
+- 📖 [Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/structure-of-atom-class-11-revision-notes-jee-neet)
+- 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
+- 📖 [Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet)

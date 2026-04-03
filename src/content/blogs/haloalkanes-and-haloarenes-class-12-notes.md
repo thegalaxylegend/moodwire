@@ -16,7 +16,7 @@ practice_link: "/class-11/chemistry/haloalkanes-and-haloarenes-class-12-notes"
 * 1-2 questions on the preparation of haloalkanes from alcohols, always focusing on the mechanism of the reaction, especially the role of $SOCl_2$ and $PCl_5$.
 * At least 1 question on the physical properties of haloalkanes, such as boiling points and densities, highlighting the effect of the size and electronegativity of the halogen atom on these properties.
 * SN1 and SN2 reaction mechanisms - always, with emphasis on the factors affecting the rate of reaction, such as the nature of the halogen, the solvent, and the presence of impurities.
-* 1 question on the stereochemistry of haloalkanes, including the concept of optical activity and the conditions necessary for a compound to be optically active, often involving $CH_3CH(X)Y$ type compounds.
+* 1 question on the stereochemistry of haloalkanes, including the concept of optical activity and the conditions necessary for a compound to be optically active, often involving $CH_3CH(X)Y$ type [compounds](/blog/coordination-compounds-class-12-notes).
 * The reactivity of haloalkanes towards nucleophilic substitution reactions, including the $S_N1$ and $S_N2$ pathways, and the conditions that favor each pathway, such as the use of polar aprotic solvents.
 * Haloarenes - at least 1 question on their preparation, focusing on the Friedel-Crafts alkylation reaction and the use of $AlCl_3$ as a catalyst.
 * The directive influence of halogen atoms in electrophilic aromatic substitution reactions, including the use of $NO_2^+$ and $Br^+$ as electrophiles.
@@ -82,7 +82,7 @@ Fix: Recognize that carbon atoms in haloalkanes are $sp^3$ hybridized, leading t
 
 Mistake: Failing to apply the knowledge of $pK_a$ values to predict the acidity of haloalkanes and the consequences for their reactivity.
 Costs: 4-5 marks for questions involving comparisons of acidities or predicting the outcome of reactions based on acid-base principles.
-Fix: Recall that the acidity of haloalkanes increases with the electronegativity of the halogen due to the stabilization of the conjugate base. This concept is crucial for understanding the reactivity of haloalkanes in various chemical environments.
+Fix: Recall that the acidity of haloalkanes increases with the electronegativity of the halogen due to the stabilization of the conjugate base. This concept is crucial for understanding the reactivity of haloalkanes in various [chemical](/blog/chemical-kinetics-class-12-notes) environments.
 
 
 | Mistake | Costs | Fix |
@@ -217,3 +217,15 @@ Benzamide
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Haloalkanes and Haloarenes Full Mock Test**](/class-11/chemistry/haloalkanes-and-haloarenes-class-12-notes) now and track your progress against thousands of students.
 
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Chemical Kinetics Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/chemical-kinetics-class-12-notes)
+- 📖 [Coordination Compounds Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/coordination-compounds-class-12-notes)
+- 📖 [Solutions Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/solutions-class-12-notes)
+- 📖 [Atoms Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/atoms-class-12-notes)

@@ -152,9 +152,9 @@ In Physics, elasticity is measured by the Modulus (resistance to deformation), n
 
 ## Related Revision Notes
 
-- [**Chapter 9: Mechanical Properties of Fluids**](/blog/mechanical-properties-of-fluids-revision-notes)
-- [**Chapter 5: Work, Energy, and Power (Energy Basics)**](/blog/work-energy-and-power-revision-notes)
-- [**Material Science MCQ Challenge for JEE/NEET**](/blog/jee-mains-high-weightage-chapters)
+- **Chapter 9: Mechanical Properties of Fluids**
+- **Chapter 5: Work, Energy, and Power (Energy Basics)**
+- **Material Science MCQ Challenge for JEE/NEET**
 
 
 
@@ -177,3 +177,15 @@ The mechanical properties of solids are what allow humans to build the impossibl
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
+- 📖 [Mechanical Properties Of Fluids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet)
+- 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
+- 📖 [Thermal Properties Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet)

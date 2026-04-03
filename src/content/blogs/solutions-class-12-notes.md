@@ -80,7 +80,7 @@ Mistake: Using $\lambda = \frac{h}{mv}$ without converting mass to kg. Many stud
  Costs: Full 4 marks. This mistake can lead to a significant loss of marks, especially in questions that involve complex calculations.
  Fix: Always convert grams to kg. Before plugging in values, ensure that the mass is in kilograms to avoid this common mistake.
 
- Mistake: Not considering the van 't Hoff factor when calculating the molality of a solution. The van 't Hoff factor is crucial in determining the molality of a solution, especially when dealing with ionic compounds.
+ Mistake: Not considering the van 't Hoff factor when calculating the molality of a solution. The van 't Hoff factor is crucial in determining the molality of a solution, especially when dealing with ionic [compounds](/blog/coordination-compounds-class-12-notes).
  Costs: 2-3 marks. Failing to consider the van 't Hoff factor can result in incorrect calculations, leading to a loss of marks.
  Fix: Use $i$ = $\frac{\text{Observed molar mass}}{\text{Theoretical molar mass}}$ to calculate the van 't Hoff factor and then use it to calculate the molality.
 
@@ -130,7 +130,7 @@ Q: A solution of $2.44 \text{ g}$ of $mathrm{CuSO_4}$ in $100 \mathrm{ mL}$ of w
  Q: What volume of $0.5 \mathrm{ M}$ $mathrm{H_2SO_4}$ is required to neutralize $1.42 \mathrm{ g}$ of $mathrm{NaOH}$?
  Trap in this question: Students often forget the balanced chemical equation for the reaction and the fact that $mathrm{H_2SO_4}$ is a diprotic acid.
  Solution: 
- First, write the balanced chemical equation: 
+ First, write the balanced [chemical](/blog/chemical-kinetics-class-12-notes) equation: 
  $mathrm{H_2SO_4} + 2mathrm{NaOH} \rightarrow mathrm{Na_2SO_4} + 2mathrm{H_2O}$. 
  Then, calculate the number of moles of $mathrm{NaOH}$: 
  $n = \frac{m}{M} = \frac{1.42 \mathrm{ g}}{40 \mathrm{ g/mol}} = 0.0355 \mathrm{ mol}$. 
@@ -278,3 +278,15 @@ Hypobaric
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Solutions Full Mock Test**](/class-11/chemistry/solutions-class-12-notes) now and track your progress against thousands of students.
 
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Chemical Kinetics Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/chemical-kinetics-class-12-notes)
+- 📖 [Coordination Compounds Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/coordination-compounds-class-12-notes)
+- 📖 [Haloalkanes and Haloarenes Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/haloalkanes-and-haloarenes-class-12-notes)
+- 📖 [Atoms Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/atoms-class-12-notes)

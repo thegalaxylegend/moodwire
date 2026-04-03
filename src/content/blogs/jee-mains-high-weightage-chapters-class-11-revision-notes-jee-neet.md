@@ -19,7 +19,7 @@ heroImage: "/blog-images/jee-mains-high-weightage-chapters-class-11-revision-not
 
 If you're a JEE aspirant, you've probably heard the advice: "Complete the entire syllabus." I'm here to tell you that’s a lie. In a 3-hour exam with a 300-mark ceiling, trying to master everything is the fastest way to master nothing. 
 
-I’m Ayush, and after spending years analyzing thousands of **previous year papers** while building Exam Compass, I discovered a pattern. Roughly 40% of the JEE Mains paper comes from "High-ROI" chapters—topics that take very little time to study but yield massive marks. 
+I’m Ayush, and after spending years analyzing thousands of **previous year papers** while building Exam Compass, I discovered a pattern. Roughly 40% of the JEE Mains paper comes from "High-ROI" chapters—topics that take very little time to [study](/blog/study-12-hours-daily-tips-class-11-revision-notes-jee-neet) but yield massive marks. 
 
 In this guide, I’m sharing the exact list of **JEE Mains high weightage low effort chapters** for 2026 so you can stop studying harder and start studying smarter.
 
@@ -47,7 +47,7 @@ In this guide, I’m sharing the exact list of **JEE Mains high weightage low ef
 
 The JEE syllabus includes roughly 90 chapters. Trying to master all of them in a short timeframe is often counterproductive. Top scorers at IITs succeed because they know what to skip. They focus on trends in **previous year papers** to maintain a balance between difficulty and accuracy.
 
-Exam conductors like the NTA include "easy" chapters like Units and Dimensions to balance the paper. These **JEE Mains high weightage low effort chapters** are low-hanging fruits that yield high marks for minimal effort. According to [U.S. News Education](https://www.usnews.com/education), focusing on high-ROI tasks is a proven strategy for high-stakes examinations.
+Exam conductors like the NTA include "easy" chapters like Units and Dimensions to balance the paper. These **JEE Mains high weightage low effort chapters** are low-hanging fruits that yield high marks for minimal effort. According to [U.S. News Education](https://www.usnews.com/education), focusing on high-ROI tasks is a proven [strategy](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet) for high-stakes examinations.
 
 
 
@@ -113,3 +113,15 @@ Chemistry is statistically the easiest and most scorable. Many questions are dir
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Study 12 Hours Daily Tips Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/study-12-hours-daily-tips-class-11-revision-notes-jee-neet)
+- 📖 [State Scholarship Guide 2026 Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)
+- 📖 [Class 10 Science Pyq Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet)
+- 📖 [Organic Chemistry Basic Principles Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet)

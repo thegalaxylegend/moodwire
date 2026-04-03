@@ -57,8 +57,8 @@ heroImage: "/blog-images/thermodynamics-chemistry-class-11-revision-notes-jee-ne
 Thermodynamics doesn't care about speed — that's Kinetics. Thermodynamics answers the fundamental question: "Will this reaction *ever* happen on its own?" If $\Delta G < 0$, yes. If $\Delta G > 0$, no amount of waiting will make it happen spontaneously.
 
 ### Why This Chapter Matters (Exam Data)
-- **JEE Mains 2024**: 2 questions — one on $\Delta H$ vs $\Delta U$ using $\Delta n_g$, one on Gibbs and spontaneity.
-- **NEET 2024**: 1 question on Hess's Law and 1 on the Third Law.
+- **JEE Mains 2026**: 2 questions — one on $\Delta H$ vs $\Delta U$ using $\Delta n_g$, one on Gibbs and spontaneity.
+- **NEET 2026**: 1 question on Hess's Law and 1 on the Third Law.
 - **CBSE Boards**: This unit carries 7 marks and is a classic long-answer question topic.
 
 ---
@@ -122,7 +122,7 @@ Thermodynamics doesn't care about speed — that's Kinetics. Thermodynamics answ
 | **Irreversible (Const. $P_{ext}$)** | $w = -P_{ext}\Delta V$ | Quick, less work |
 | **Reversible (Isothermal)** | $w = -nRT \ln(V_2/V_1)$ | Slow, maximum work |
 
-**JEE Key**: Work done in reversible expansion is always **greater in magnitude** than irreversible expansion for the same initial and final states.
+**JEE Key**: Work done in reversible expansion is always **greater in magnitude** than irreversible expansion for the same initial and final [states](/blog/states-of-matter-class-11-revision-notes-jee-neet).
 
 ---
 
@@ -162,8 +162,7 @@ This is because Enthalpy is a **State Function** — it depends only on the stat
 
 ### Application: Born-Haber Cycle
 To find the Lattice Enthalpy of $NaCl$:
-$\Delta H_f = \Delta H_{sub} + \Delta H_{IE} + \frac{1}{2}\Delta H_{diss} + \Delta H_{EA} + U_{lattice}$
-
+$$\Delta H_f = \Delta H_{sub} + \Delta H_{IE} + \frac{1}{2}\Delta H_{diss} + \Delta H_{EA} + U_{lattice}$$
 **JEE Trick**: If a question asks you to calculate the enthalpy of a reaction you don't know directly, try:
 1. Reverse a known reaction (flip the sign of $\Delta H$).
 2. Multiply a reaction by a factor (multiply $\Delta H$ by the same factor).
@@ -178,15 +177,14 @@ $\Delta H_f = \Delta H_{sub} + \Delta H_{IE} + \frac{1}{2}\Delta H_{diss} + \Del
 
 ## 7. Standard Enthalpy of Formation, Combustion, and Bond Enthalpy
 
-**Standard Enthalpy of Formation ($\Delta_f H°$) is the enthalpy change when one mole of a compound is formed from its elements in their standard states (298 K, 1 bar).**
+**Standard Enthalpy of Formation ($\Delta_f H°$) is the enthalpy change when one mole of a compound is formed from its [elements](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet) in their standard states (298 K, 1 bar).**
 
 ### Key Values to Memorize
 - $\Delta_f H°$ of elements in standard state = **0** (e.g., $O_2(g)$, $C(\text{graphite})$, $H_2(g)$).
 - $\Delta_f H°$ is **negative** for stable compounds (exothermic formation).
 
 ### Bond Enthalpy Method
-$\Delta H_{rxn} = \sum (\text{Bond Enthalpies of Broken Bonds}) - \sum (\text{Bond Enthalpies of Formed Bonds})$
-
+$$\Delta H_{rxn} = \sum (\text{Bond Enthalpies of Broken Bonds}) - \sum (\text{Bond Enthalpies of Formed Bonds})$$
 Remember: Breaking bonds = **absorbs** energy (+). Forming bonds = **releases** energy (-).
 
 ---
@@ -324,9 +322,9 @@ CBSE loves "Derive the Gibbs-Helmholtz equation" as a 5-mark question. Write the
 ---
 
 **Related Revision Notes:**
-- [**Chemical Equilibrium — Le Chatelier's Principle Tricks**](/blog/equilibrium-revision-notes)
-- [**States of Matter — Gas Laws & Real Gases Tricks**](/blog/states-of-matter-revision-notes)
-- [**Some Basic Concepts of Chemistry — Mole Concept & Stoichiometry**](/blog/some-basic-concepts-chemistry-revision-notes)
+- **Chemical Equilibrium — Le Chatelier's Principle Tricks**
+- **States of Matter — Gas Laws & Real Gases Tricks**
+- **Some Basic Concepts of Chemistry — Mole Concept & Stoichiometry**
 
 ---
 *Last Updated: March 13, 2026*
@@ -342,3 +340,15 @@ CBSE loves "Derive the Gibbs-Helmholtz equation" as a 5-mark question. Write the
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
+- 📖 [Equilibrium Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/equilibrium-class-11-revision-notes-jee-neet)
+- 📖 [States Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/states-of-matter-class-11-revision-notes-jee-neet)
+- 📖 [Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/structure-of-atom-class-11-revision-notes-jee-neet)
