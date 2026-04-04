@@ -73,7 +73,7 @@ This equation represents the $OR$ gate, which produces an output of $1$ when eit
 
 We will also explore the concept of sequential circuits, which are digital circuits that have feedback loops. These circuits are used to perform a wide range of tasks, from simple counting to complex decision-making. 
 
-As we prepare for the Class 11 exam, it is essential to recognize that Digital Logic is not just a theoretical subject, but also a practical one. The exam will test our ability to apply the concepts we have learned to solve problems and design digital circuits. 
+As we prepare for the Class 11 exam, it is essential to recognize that Digital Logic is not just a theoretical subject, but also a practical one. The exam will test our ability to apply the concepts we have learned to solve problems and [design](/blog/algorithms-design-class-11-revision-notes-gate-boards) digital circuits. 
 
 Therefore, it is crucial to practice solving problems and designing circuits to develop a deep understanding of the subject. With persistence and practice, we can develop a deep understanding of Digital Logic and achieve success in the Class 11 exam. 
 

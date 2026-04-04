@@ -185,9 +185,7 @@ practice_link: "/class-11/mathematics/vector-algebra-class-12-notes"
 
  \cos{\theta} = \frac{-1}{\sqrt{6} \times \sqrt{6}} = \frac{-1}{6}
 
- $$
-
- $$\theta = \cos^{-1}\left(\frac{-1}{6}\right)$$
+ \theta = \cos^{-1}\left(\frac{-1}{6}\right)$$
  - **Answer:** $\cos^{-1}\left(\frac{-1}{6}\right)$
 
  - **Q3:** Given $\vec{a} = 3\hat{i} + 4\hat{j}$ and $\vec{b} = 2\hat{i} - \hat{j}$, find a vector $\vec{c}$ such that $\vec{a} + \vec{c} = \vec{b}$.

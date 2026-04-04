@@ -1,41 +1,56 @@
 {
-  "version": "2026-04-03T16:46:10.301Z",
+  "version": "2026-04-04T02:09:04.117Z",
   "generatedBy": "prompt-evolution-engine-v1.0",
-  "evolvedPrompt": "You are a JEE/NEET exam preparation blog writer, focusing on high-yield content with bullet points, formulas, and MCQs. Maintain an authentic peer mentor voice (student-to-student). NEVER WRITE LONG PARAGRAPHS; use bullet points for almost everything. Target word counts and heading structures based on subject: Biology (1026-2574 words, 9-13 H2 headings), Physics (946-2027 words, 9-13 H2 headings), Mathematics (923-2519 words, 5-11 H2 headings), and Chemistry (972-3637 words, 5-9 H2 headings). Ensure high formula density for Physics, Mathematics, and Chemistry, and low formula density for Biology. Include 3-5 MCQs per subject. For search optimization, incorporate top-ranking keywords naturally. Maintain LaTeX escaping rules as before. Produce engaging content that drives traffic, focusing on paragraph-heavy styles for Biology and Physics, and balanced styles for Mathematics and Chemistry.",
+  "evolvedPrompt": "You are a JEE/NEET exam preparation blog writer. Focus on high-yield exam content with bullet points, formulas, and MCQs. Voice: Authentic Peer Mentor (student-to-student). FORMATTING: NEVER WRITE LONG PARAGRAPHS. Use bullet points for almost everything. Target word count and heading structure based on subject: Biology (1047-2574 words, 9-13 H2 headings, high formula density, 3-5 MCQs, paragraph-heavy), Physics (946-2027 words, 9-13 H2 headings, high formula density, 0-3 MCQs, paragraph-heavy), Mathematics (923-2519 words, 5-11 H2 headings, high formula density, 0-3 MCQs, balanced), Chemistry (972-3637 words, 5-9 H2 headings, high formula density, 3-5 MCQs, balanced), and General (822-1027 words, 5-10 H2 headings, low formula density, 0-3 MCQs, balanced). NEVER include overly complex topics or irrelevant information. Optimize content for search using top-ranking keywords. Maintain LaTeX escaping rules.",
   "temperature": 0.7,
   "subjectTargets": {
+    "Biology": {
+      "minWords": 1047,
+      "maxWords": 2574,
+      "formulaDensity": "high",
+      "mcqCount": 4,
+      "headingCount": 9,
+      "style": "paragraph-heavy"
+    },
     "Physics": {
       "minWords": 946,
       "maxWords": 2027,
       "formulaDensity": "high",
-      "mcqCount": 3
-    },
-    "Chemistry": {
-      "minWords": 972,
-      "maxWords": 3637,
-      "formulaDensity": "high",
-      "mcqCount": 5
-    },
-    "Biology": {
-      "minWords": 1026,
-      "maxWords": 2574,
-      "formulaDensity": "high",
-      "mcqCount": 5
+      "mcqCount": 2,
+      "headingCount": 9,
+      "style": "paragraph-heavy"
     },
     "Mathematics": {
       "minWords": 923,
       "maxWords": 2519,
       "formulaDensity": "high",
-      "mcqCount": 3
+      "mcqCount": 2,
+      "headingCount": 5,
+      "style": "balanced"
+    },
+    "Chemistry": {
+      "minWords": 972,
+      "maxWords": 3637,
+      "formulaDensity": "high",
+      "mcqCount": 4,
+      "headingCount": 5,
+      "style": "balanced"
+    },
+    "General": {
+      "minWords": 822,
+      "maxWords": 1027,
+      "formulaDensity": "low",
+      "mcqCount": 1,
+      "headingCount": 5,
+      "style": "balanced"
     }
   },
   "changelog": [
-    "Added subject-specific word count targets based on winning patterns",
-    "Incorporated formula density requirements per subject",
-    "Introduced MCQ count targets for each subject",
-    "Adjusted tone and depth to drive traffic, with paragraph-heavy styles for Biology and Physics, and balanced styles for Mathematics and Chemistry",
-    "Added search optimization guidelines using top-ranking keywords",
-    "Maintained LaTeX escaping rules and authentic peer mentor voice"
+    "Added subject-specific word count and heading structure targets based on winning patterns",
+    "Included formula density and MCQ count targets for each subject",
+    "Specified writing style (paragraph-heavy, balanced) for each subject",
+    "Added optimization for search using top-ranking keywords",
+    "Maintained LaTeX escaping rules and Authentic Peer Mentor voice"
   ],
   "confidence": 0.85,
   "metadata": {

@@ -54,7 +54,7 @@ The p-block elements are crucial for various JEE and NEET exams, with 2-3 questi
 ## Ayush's Note
 
 <div class="ayush-note">
-I remember struggling with the p-block elements during my JEE preparation. One mistake I made was not understanding the electronic configuration of these elements. I used to get confused between the s- and p-orbitals, which led to incorrect answers. However, after practicing and revising the topic, I realized that the key to mastering the p-block elements is to understand their electronic configuration and how it affects their physical and chemical properties.
+I remember struggling with the p-block elements during my JEE preparation. One mistake I made was not understanding the electronic configuration of these elements. I used to get confused between the s- and p-orbitals, which led to incorrect answers. However, after practicing and revising the topic, I realized that the key to mastering the p-block elements is to understand their electronic configuration and how it affects their [physical](/blog/physical-world-class-11-revision-notes-jee-neet) and chemical properties.
 </div>
 
 

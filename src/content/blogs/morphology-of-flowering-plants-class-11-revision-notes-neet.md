@@ -137,7 +137,7 @@ d) Carpels
 
 Answer: c) Stamens
 
-5. What is the term for the mature ovary of a plant, containing seeds?
+5. What is the term for the mature ovary of a [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet), containing seeds?
 a) Fruit
 b) Flower
 c) Leaf

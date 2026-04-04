@@ -64,7 +64,7 @@ In the upcoming sections, we'll explore each of these topics in detail, using a 
 **Common mistakes to avoid:**
 * Confusing AC and DC concepts
 * Incorrectly applying formulas for impedance and phase difference
-* Failing to consider the effects of inductive and capacitive reactance
+* Failing to consider the [effects](/blog/magnetic-effects-of-current-class-12-notes) of inductive and capacitive reactance
 * Not using phasors to simplify complex AC circuit analysis
 
 By following this introduction and the subsequent sections, you'll be well on your way to mastering the concept of Alternating Current and achieving success in the Class 12 exams. Remember to stay focused, practice regularly, and review the key concepts to ensure a deep understanding of the subject. 

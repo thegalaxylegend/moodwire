@@ -77,7 +77,7 @@ What are the Factors Affecting Electromagnetic Induction? is the process by whic
  
  Lenz's law is also essential in understanding electromagnetic induction. It states that the direction of the induced current is such that it opposes the change in the magnetic flux that induced it. This means that if the magnetic flux is increasing, the induced current will flow in a direction that generates a magnetic field opposing the increase in flux. Conversely, if the magnetic flux is decreasing, the induced current will flow in a direction that generates a magnetic field that opposes the decrease in flux. Lenz's law helps in determining the direction of the induced current and is crucial for understanding the principles behind many electromagnetic devices. 
  
- The table below summarizes the key factors affecting electromagnetic induction and their effects on the induced EMF and current. 
+ The table below summarizes the key factors affecting electromagnetic induction and their [effects](/blog/magnetic-effects-of-current-class-12-notes) on the induced EMF and current. 
  
 
 | Factor | Effect on Induced EMF | Effect on Current |

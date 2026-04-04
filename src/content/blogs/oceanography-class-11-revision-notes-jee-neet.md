@@ -30,7 +30,7 @@ Oceanography is the scientific study of the ocean, encompassing its properties, 
 * **Tides**: Periodic rise and fall of the sea level caused by gravitational forces
 
 ### Ayush's Personal Note
-As I the world of oceanography, I realize the importance of understanding the intricacies of our planet's hydrosphere. From the majestic oceanic zones to the fascinating phenomenon of tides, each concept is interconnected and crucial for a comprehensive grasp of the subject. Throughout this revision guide, I'll share my insights and highlight key areas to focus on for a quick and effective recap.
+As I the world of oceanography, I realize the importance of understanding the intricacies of our planet's hydrosphere. From the majestic oceanic zones to the fascinating phenomenon of tides, each concept is interconnected and crucial for a comprehensive grasp of the subject. Throughout this revision guide, I'll share my insights and highlight key areas to focus on for a [quick](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) and effective recap.
 
 ### Core Concepts
 The following core concepts form the foundation of oceanography:

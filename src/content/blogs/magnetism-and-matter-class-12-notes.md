@@ -44,7 +44,7 @@ Some essential formulas to keep in mind:
 In the Class 12 CBSE board exams, magnetism and matter is a significant topic, with a weightage of **10-12%**. Questions can range from straightforward calculations to complex problems that require a deep understanding of the concepts. Some common question types include:
 
 * **Numerical problems**: Calculating magnetic field strengths, magnetic flux, and induced EMFs.
-* **Theoretical questions**: Describing the properties of magnetic materials, explaining the principles of magnetic induction, and discussing the applications of magnetism.
+* **Theoretical questions**: Describing the properties of magnetic materials, explaining the principles of magnetic [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet), and discussing the applications of magnetism.
 * **Graph-based questions**: Analyzing and interpreting graphs related to magnetic fields, magnetic flux, and induced EMFs.
 
 To excel in these questions, it's crucial to develop a strong foundation in the concepts, formulas, and applications of magnetism and matter. With dedication and practice, you'll be well-prepared to tackle the challenges of this topic and achieve a high score in the exams.
@@ -140,7 +140,7 @@ To further illustrate the concept of magnetization, consider the following compa
 
 Ayush's Note on Magnetism and Matter is a study material that explains the magnetic properties of materials. It includes magnetic field, magnetic induction, and magnetization. For Class 12 exam prep in 2026, the most important aspect is understanding the behavior of different materials like diamagnetic, paramagnetic, and ferromagnetic substances under the influence of a magnetic field. 
 
-Magnetism is a fundamental concept in physics that arises due to the interaction between moving charges. The magnetic field is a vector field that surrounds magnetized materials and current-carrying conductors. The strength and direction of the magnetic field can be determined using the $B = rac{mu_0 I}{2 pi r}$ formula for a long straight wire, where $B$ is the magnetic field, $mu_0$ is the permeability of free space, $I$ is the current, and $r$ is the distance from the wire.
+Magnetism is a fundamental concept in physics that arises due to the interaction between moving charges. The magnetic field is a vector field that surrounds magnetized materials and [current](/blog/alternating-current-class-12-notes)-carrying conductors. The strength and direction of the magnetic field can be determined using the $B = rac{mu_0 I}{2 pi r}$ formula for a long straight wire, where $B$ is the magnetic field, $mu_0$ is the permeability of free space, $I$ is the current, and $r$ is the distance from the wire.
 
 The magnetic properties of materials can be classified based on their response to an external magnetic field. Diamagnetic materials, such as copper and zinc, are weakly repelled by a magnetic field. Paramagnetic materials, such as aluminum and platinum, are weakly attracted to a magnetic field. Ferromagnetic materials, such as iron and nickel, are strongly attracted to a magnetic field. The table below summarizes the properties of these materials:
 

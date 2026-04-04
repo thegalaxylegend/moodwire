@@ -54,7 +54,7 @@ A **Wave** is a disturbance that travels through a medium, transporting energy f
 - **Transverse Waves:** Particles of the medium vibrate perpendicular to the direction of wave propagation. They consist of **Crests** and **Troughs**. (e.g., Waves on a string).
   - *Condition:* Can only travel in solids and on the surface of liquids (requires shear strength).
 - **Longitudinal Waves:** Particles vibrate parallel to the direction of wave propagation. They consist of **Compressions** and **Rarefactions**. (e.g., Sound waves).
-  - *Condition:* Can travel in solids, liquids, and gases.
+  - *Condition:* Can travel in [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet), liquids, and gases.
 
 ### III. Fundamental Wave Quantities
 1.  **Amplitude (A):** The maximum displacement of a particle from its mean position.

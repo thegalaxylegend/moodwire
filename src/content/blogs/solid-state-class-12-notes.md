@@ -18,7 +18,7 @@ practice_link: "/class-11/chemistry/solid-state-class-12-notes"
  - [What WILL Come in Your Exam](#what-will-come-in-your-exam)
  - [Formula Bank](#formula-bank)
  - [The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
- - [Solid State Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](#solid-state-class-12-chemistry-revision-jee-neet-2026-grandmaster-guide)
+ - [Solid State Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](#solid-state-class-12-[chemistry](/blog/surface-chemistry-class-12-notes)-revision-jee-neet-2026-grandmaster-guide)
  - [What WILL Come in Your Exam](#what-will-come-in-your-exam)
  - [Formula Bank](#formula-bank)
 - [🪤 The 5 Trap Mistakes](#-the-5-trap-mistakes)

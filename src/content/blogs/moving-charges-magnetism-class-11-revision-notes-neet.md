@@ -70,7 +70,7 @@ The **Magnetic Field (B)** is a vector field that describes the magnetic influen
 
 ## 2. Ampere’s Circuital Law (ACL)
 
-**Statement:** The line integral of the magnetic field **B** around any closed path is equal to **μ₀** times the total current threading through the loop.
+**Statement:** The line integral of the magnetic field **B** around any closed path is equal to **μ₀** times the total [current](/blog/current-electricity-class-11-revision-notes-neet) threading through the loop.
 **∮ B · dl = μ₀ I_enclosed**.
 
 ### I. Application: Magnetic Field of a Solenoid
@@ -153,7 +153,7 @@ To measure potential difference, we connect a high resistance in series.
 ## Comprehensive Exam Strategy (Q&A)
 
 **Q1: Why is a cyclotron not suitable for accelerating electrons?**
-**Answer:** Electrons have very small mass. As they gain speed, they quickly reach relativistic velocities where their mass increases significantly (**m = m₀ / √(1 - v²/c²)**). This changes their time period (**T = 2πm/qB**), causing them to fall out of step with the oscillating electric field.
+**Answer:** Electrons have very small mass. As they gain speed, they quickly reach relativistic velocities where their mass increases significantly (**m = m₀ / √(1 - v²/c²)**). This changes their time period (**T = 2πm/qB**), causing them to fall out of step with the oscillating [electric](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) field.
 
 **Q2: Magnetic force does no work. Why?**
 **Answer:** The magnetic force **F = q(v × B)** is always perpendicular to the velocity **v**. Since work **dW = F · ds = F · v dt**, and the dot product of perpendicular vectors is zero, the work done by a magnetic force on a charge is always zero. It only changes the direction of [motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet), not the speed.

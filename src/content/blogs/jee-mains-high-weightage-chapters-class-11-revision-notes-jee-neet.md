@@ -29,7 +29,7 @@ In this guide, I’m sharing the exact list of **JEE Mains high weightage low ef
 > - **The 80/20 Rule**: 80% of your marks come from 20% of the syllabus.
 > - **Modern Physics**: The undisputed king of ROI in Physics.
 > - **Inorganic Trio**: Why you can score 40+ marks in Chemistry with just NCERT.
-> - **Math Reasoning**: 4 marks for the cost of 2 hours of study.
+> - **Math Reasoning**: 4 marks for the cost of 2 [hours](/blog/study-12-hours-daily-tips-class-11-revision-notes-jee-neet) of study.
 > - **Active Analysis**: Use an **online mock test** to see your accuracy in these specific zones.
 
 ---
@@ -74,7 +74,7 @@ Vector and 3D Geometry is another heavyweight unit. Unlike Calculus, it doesn't 
 
 A tactical approach involves comparing study time to potential marks. For instance, Rotational Motion might take 20 hours for 4 marks (Low ROI), while Mathematical Reasoning takes 2 hours for 4 marks (Extreme ROI). High-ROI chapters should always be your first priority during revision.
 
-Most coaching centers won't tell you to skip chapters because they've sold a "complete" course. However, you only need around 180 marks for a top NIT. That means you can afford to leave 30% of the hardest questions entirely. Use **online mock tests** to validate this strategy and focus on "owning" the high-weightage topics.
+Most coaching centers won't tell you to skip chapters because they've sold a "complete" course. However, you only need around 180 marks for a top NIT. That means you can afford to leave 30% of the hardest questions entirely. Use **online mock tests** to validate this [strategy](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet) and focus on "owning" the high-weightage topics.
 
 
 

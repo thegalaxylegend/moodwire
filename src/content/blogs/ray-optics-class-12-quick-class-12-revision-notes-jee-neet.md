@@ -113,7 +113,7 @@ To further reinforce our understanding, let's consider some examples and derivat
 
 By working through these examples and derivations, we can gain a deeper understanding of the [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) and formulae in ray optics.
 
-As we review the material, it's essential to keep track of the key terms and concepts. Here are some **bold terms** to remember:
+As we review the material, it's essential to keep track of the key terms and [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet). Here are some **bold terms** to remember:
 
 * **Reflection**
 * **Refraction**

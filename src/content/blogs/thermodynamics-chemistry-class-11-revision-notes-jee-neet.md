@@ -285,7 +285,7 @@ A) 1
 B) -1  
 C) 0  
 D) Depends on element  
-*Answer: C (By definition, $\Delta_f H°$ of elements in standard state = 0).*
+*Answer: C (By definition, $\Delta_f H°$ of [elements](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet) in standard state = 0).*
 
 **Q4. $\Delta H_{rxn}$ using bond enthalpies is:** [JEE Hard]  
 A) $\sum$(bonds broken) + $\sum$(bonds formed)  

@@ -39,7 +39,7 @@ Throughout my prep, I realized that practicing problems and past year questions 
 In terms of specific topics, the CBSE Class 11 Computer Science syllabus covers the following under Non-Linear Data Structures:
 
 1. **Trees**: Basic concepts, tree traversals (inorder, preorder, postorder), binary search trees, and AVL trees.
-2. **Graphs**: Basic concepts, graph representations (adjacency matrix and adjacency list), and graph traversal algorithms (DFS and BFS).
+2. **Graphs**: Basic concepts, graph representations (adjacency matrix and adjacency list), and graph traversal [algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards) (DFS and BFS).
 
 To prepare for these topics, I recommend starting with the basics and gradually moving on to more complex concepts. You can use online resources like video lectures, tutorials, and practice problems to supplement your learning. Additionally, make sure to revise and practice regularly, as this will help you retain the concepts and apply them effectively in the exam.
 

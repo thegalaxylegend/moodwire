@@ -768,6 +768,17 @@
     "robots": "index, follow",
     "sitemapGroup": "blogs"
   },
+  "/blog/human-health-and-disease-class-12-notes": {
+    "title": "Human Health and Disease Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+    "description": "Accelerate your Biology revision with our Human Health and Disease guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success.",
+    "date": "2026-04-04",
+    "category": "Biology",
+    "h1": "Human Health and Disease Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
   "/blog/human-reproduction-class-12-notes": {
     "title": "Human Reproduction Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
     "description": "Master Human Reproduction for Biology 2026. This Grandmaster Guide includes Ayush",
@@ -1093,6 +1104,17 @@
     "date": "2026-03-31",
     "category": "Chemistry",
     "h1": "Metallurgy Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/microbes-in-human-welfare-class-12-notes": {
+    "title": "Microbes in Human Welfare Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+    "description": "Deep dive into Microbes in Human Welfare Class 12. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
+    "date": "2026-04-04",
+    "category": "Biology",
+    "h1": "Microbes in Human Welfare Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
     "type": "blog-post",
     "priority": 0.8,
     "robots": "index, follow",
@@ -1610,6 +1632,17 @@
     "date": "2026-03-28",
     "category": "Physics",
     "h1": "Straight Lines Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/strategies-for-enhancement-in-food-production-class-12-notes": {
+    "title": "Strategies for Enhancement in Food Production Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+    "description": "Learn Strategies for Enhancement in Food Production like a pro. Detailed revision notes, solved examples, and",
+    "date": "2026-04-04",
+    "category": "Biology",
+    "h1": "Strategies for Enhancement in Food Production Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
     "type": "blog-post",
     "priority": 0.8,
     "robots": "index, follow",

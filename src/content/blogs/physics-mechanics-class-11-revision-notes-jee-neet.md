@@ -31,7 +31,7 @@ Physics: Mechanics is the study of the motion of objects. It includes kinematics
 
 
 
-Physics: Mechanics is the study of the motion of objects. It includes kinematics, dynamics, and energy. For Class 11 exam prep in 2026, the most important aspect is understanding the concepts of motion and forces.
+Physics: Mechanics is the study of the motion of objects. It includes kinematics, dynamics, and energy. For Class 11 exam prep in 2026, the most important aspect is understanding the [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) of motion and forces.
 
 
 | Concept | Description |

@@ -37,7 +37,7 @@ practice_link: "/class-11/biology/reproduction-in-organisms-class-12-notes"
  - 1 short question on infertility and its causes — frequently
 * **Plant Reproductive System**: 
  - 1 diagram-based question on flower structure (e.g., $\\times$ 4 whorls) — always
- - 1 short question on pollination methods (e.g., $\\frac{1}{3}$ of plants are wind-pollinated) — frequently
+ - 1 short question on pollination methods (e.g., $\\frac{1}{3}$ of [plants](/blog/sexual-reproduction-in-flowering-plants-class-12-notes) are wind-pollinated) — frequently
 * **Asexual and Sexual Reproduction**: 
  - 1 short question on types of asexual reproduction (e.g., binary fission, budding) — always
  - 1 short question on significance of sexual reproduction (e.g., increased genetic diversity) — frequently
@@ -246,7 +246,7 @@ practice_link: "/class-11/biology/reproduction-in-organisms-class-12-notes"
 ## <a id="practice-mcqs"></a>📝 Practice MCQs
 
 
-**1. What is the primary function of the placenta in human reproduction?**
+**1. What is the primary function of the placenta in [human](/blog/human-reproduction-class-12-notes) reproduction?**
 
 - A) to produce hormones
 - B) to filter waste

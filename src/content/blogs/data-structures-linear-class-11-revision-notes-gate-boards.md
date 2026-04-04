@@ -74,7 +74,7 @@ What are the fundamentals of Arrays in Data Structures: Linear? is a foundationa
  
  To illustrate the concept of arrays, consider the following example: suppose we want to store the marks of 10 students in a class. We can use an array to store the marks, where each element of the array represents the mark of a student. We can then use array operations to calculate the average mark, find the highest mark, and so on.
  
- In summary, arrays are a fundamental data structure in computer science that provide an efficient way to store and manipulate collections of elements. Understanding how to declare, initialize, and access array elements is crucial for working with arrays, and the time and space complexity of array operations are important considerations in algorithm design.
+ In summary, arrays are a fundamental data structure in computer science that provide an efficient way to store and manipulate collections of elements. Understanding how to declare, initialize, and access array elements is crucial for working with arrays, and the time and space complexity of array operations are important considerations in algorithm [design](/blog/algorithms-design-class-11-revision-notes-gate-boards).
 
 | Operation | Time Complexity | Space Complexity | Description |
 | --- | --- | --- | --- |
