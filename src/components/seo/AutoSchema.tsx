@@ -1,7 +1,7 @@
 import { useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { SYLLABUS_DB } from '../../lib/constants';
-import { SITE_URL } from '../../lib/siteConfig';
+import { SITE_URL, SITE_LOGO } from '../../lib/siteConfig';
 import { slugify } from '../../lib/utils';
 import { useMemo } from 'react';
 
@@ -103,7 +103,7 @@ export const AutoSchema = () => {
                         "@type": "Organization",
                         "name": "Exam Compass",
                         "url": SITE_URL,
-                        "logo": `${SITE_URL}/logo.jpg`,
+                        "logo": SITE_LOGO,
                         "sameAs": [
                             "https://www.youtube.com/@moodwire",
                             "https://twitter.com/examcompass_ai"
@@ -130,7 +130,7 @@ export const AutoSchema = () => {
                         "@type": "Organization",
                         "name": "Exam Compass",
                         "url": SITE_URL,
-                        "logo": `${SITE_URL}/logo.jpg`
+                        "logo": SITE_LOGO
                     },
                     "isAccessibleForFree": true
                 });
@@ -167,7 +167,7 @@ export const AutoSchema = () => {
                             "name": "Exam Compass",
                             "sameAs": SITE_URL,
                             "url": SITE_URL,
-                            "logo": `${SITE_URL}/logo.jpg`
+                            "logo": SITE_LOGO
                         },
                         "hasCourseInstance": {
                             "@type": "CourseInstance",
@@ -199,7 +199,7 @@ export const AutoSchema = () => {
                             "@type": "Organization",
                             "name": "Exam Compass",
                             "url": SITE_URL,
-                            "logo": `${SITE_URL}/logo.jpg`
+                            "logo": SITE_LOGO
                         },
                         "isAccessibleForFree": true
                     });
@@ -230,7 +230,7 @@ export const AutoSchema = () => {
                 "name": "Exam Compass",
                 "url": SITE_URL,
                 "description": "AI-powered exam preparation platform for JEE, NEET, and CBSE Class 8-12 students.",
-                "image": `${SITE_URL}/logo.jpg`,
+                "image": SITE_LOGO,
                 "screenshot": `${SITE_URL}/og-image.png`,
                 "applicationCategory": "EducationalApplication",
                 "operatingSystem": "Web Browser",
