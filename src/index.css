@@ -116,6 +116,11 @@
     --btn-text: #020617;
   }
 
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
   body {
     @apply bg-background text-text-main font-sans antialiased transition-colors duration-300;
   }

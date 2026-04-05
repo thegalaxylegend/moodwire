@@ -49,11 +49,6 @@ export const MockGenerator = () => {
     const navigate = useNavigate();
     const [searchParams] = useSearchParams();
     const urlTopic = searchParams.get('topic');
-    const isLocalhost = typeof window !== 'undefined' && (
-        window.location.hostname === 'localhost' ||
-        window.location.hostname === '127.0.0.1' ||
-        window.location.hostname === '::1'
-    );
     const isTestingUntimed = false; // Always enabled for user simulation, regardless of localhost
 
     const [mode, setMode] = useState<'quick' | 'topic' | 'full' | 'diagnostic'>('quick');

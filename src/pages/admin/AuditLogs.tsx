@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { db } from '../../lib/firebase';
 import { collection, query, limit, getDocs, orderBy } from 'firebase/firestore';
-import { History, Shield, Activity, Clock, User, MessageSquare, AlertCircle, RotateCw } from 'lucide-react';
-import { StatCardSkeleton, TableRowSkeleton } from '../../components/skeletons/AdminSkeleton';
+import { History, Shield, Activity, User, MessageSquare, AlertCircle, RotateCw } from 'lucide-react';
+import { TableRowSkeleton } from '../../components/skeletons/AdminSkeleton';
 
 interface AuditLog {
     id: string;

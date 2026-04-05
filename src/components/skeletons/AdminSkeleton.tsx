@@ -1,4 +1,4 @@
-import React from 'react';
+// Fixed TS6133 unused imports
 
 export const StatCardSkeleton = () => (
   <div className="glass-card p-6 border border-white/5 flex items-center gap-4 animate-pulse">

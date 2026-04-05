@@ -2,12 +2,11 @@ import { useState, useMemo, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import { 
-  Users, Shield, Activity, Key, LayoutDashboard, 
-  BarChart3, Zap, Globe, FileText, Package, 
-  Settings, Search, Mail, Terminal, 
-  Layout, Layers, AlertTriangle, 
-  ShieldCheck, RefreshCw, Share2, Eye,
-  ArrowRight
+  Users, Shield, Activity, LayoutDashboard, 
+  BarChart3, Zap, Globe, FileText, 
+  Settings, Search, Terminal, 
+  Layout, AlertTriangle, 
+  RefreshCw, Eye, ArrowRight
 } from 'lucide-react';
 import { db } from '../../lib/firebase';
 import { collection, getCountFromServer } from 'firebase/firestore';
