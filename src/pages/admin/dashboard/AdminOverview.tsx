@@ -98,7 +98,7 @@ export const AdminOverview = () => {
   if (loading) return <AdminOverviewSkeleton />;
 
   return (
-    <div className="space-y-10 pb-20">
+    <div className="space-y-6 sm:space-y-10 pb-20">
       <header className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
         <div>
           <div className="flex items-center gap-3 mb-2">
@@ -107,7 +107,7 @@ export const AdminOverview = () => {
             </div>
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-primary/80">System Command</span>
           </div>
-            <h1 className="text-3xl sm:text-4xl font-heading font-black text-text-main tracking-tight">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-heading font-black text-text-main tracking-tight">
             Admin <span className="text-primary">Overview</span>
           </h1>
         </div>
@@ -121,7 +121,7 @@ export const AdminOverview = () => {
       </header>
 
       {/* Main Stats Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
         <StatCard 
           icon={<Users className="text-blue-400" />}
           label="Total Students"
@@ -145,9 +145,9 @@ export const AdminOverview = () => {
         />
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-8">
           {/* Indexing History Panel */}
-          <div className="lg:col-span-2 glass-card p-6 border-white/5 space-y-6">
+          <div className="lg:col-span-2 glass-card p-4 sm:p-6 border-white/5 space-y-4 sm:space-y-6">
               <div className="flex items-center justify-between">
                 <h3 className="text-lg font-bold text-text-main flex items-center gap-2">
                     <Database size={20} className="text-primary" />

@@ -1,6 +1,5 @@
-import { NavLink } from 'react-router-dom';
-import { Home, Brain, CheckCircle, Users, Settings } from 'lucide-react';
-import { useLocation } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
+import { Home, Brain, Users, Settings, CheckCircle } from 'lucide-react';
 
 export const AdminBottomNav = () => {
     const location = useLocation();

@@ -54,7 +54,7 @@ export const MockGenerator = () => {
         window.location.hostname === '127.0.0.1' ||
         window.location.hostname === '::1'
     );
-    const isTestingUntimed = import.meta.env.DEV || isLocalhost;
+    const isTestingUntimed = false; // Always enabled for user simulation, regardless of localhost
 
     const [mode, setMode] = useState<'quick' | 'topic' | 'full' | 'diagnostic'>('quick');
     const [difficulty, setDifficulty] = useState<'Exam_Level' | 'Slightly_Harder' | 'Mains' | 'Advanced'>('Exam_Level');
@@ -1236,7 +1236,7 @@ export const MockGenerator = () => {
                     <ul className="text-sm text-text-muted space-y-1 list-disc list-inside">
                         <li>Each question carries +4 marks.</li>
                         <li>-1 mark for incorrect answers (JEE/NEET Pattern).</li>
-                        <li>{isTimedExam ? 'Timer starts as soon as you click the button below.' : 'Timer is disabled on localhost for testing.'}</li>
+                        <li>{isTimedExam ? 'Timer starts as soon as you click the button below.' : 'Timer is disabled for this practice session.'}</li>
                         <li>You can pause the test at any time.</li>
                     </ul>
                 </div>

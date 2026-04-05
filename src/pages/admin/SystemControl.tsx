@@ -31,33 +31,25 @@ const CONTROL_ITEMS: ControlItem[] = [
   { id: 2, label: "Roles & Permissions", icon: Shield, category: "Users", status: 'Ready', description: "Manage RBAC mappings", dataSource: "RBAC Module", path: "/admin/users" },
   { id: 3, label: "Activity Logs", icon: Activity, category: "Users", status: 'Ready', description: "User login/action history", dataSource: "audit_logs", path: "/admin/audit-logs" },
   { id: 4, label: "Account Bans", icon: AlertTriangle, category: "Users", status: 'Ready', description: "Blacklist malicious users", dataSource: "profiles: is_banned", path: "/admin/users" },
-  { id: 5, label: "Password Tools", icon: Key, category: "Users", status: 'Ready', description: "Trigger secure reset loops", dataSource: "Firebase Auth", path: "/admin/users" },
   
   // 6-10: Analytics
   { id: 6, label: "Dashboard", icon: LayoutDashboard, category: "Analytics", status: 'Ready', description: "System-wide activity heatmaps", dataSource: "Admin Intelligence", path: "/admin/overview" },
   { id: 7, label: "Advanced Charts", icon: BarChart3, category: "Analytics", status: 'Ready', description: "Time-series growth metrics", dataSource: "GA4 Connector", path: "/admin/traffic" },
   { id: 8, label: "Real-time Hub", icon: Zap, category: "Analytics", status: 'Ready', description: "Live session monitoring", dataSource: "Realtime DB", path: "/admin/traffic" },
-  { id: 9, label: "Conversion Funnels", icon: Layers, category: "Analytics", status: 'Service Not Initialized', description: "Track onboarding drop-offs" },
   { id: 10, label: "Top Pages", icon: Eye, category: "Analytics", status: 'Ready', description: "Best performing articles", dataSource: "Jules Reports", path: "/admin/search" },
 
   // 11-15: Content
   { id: 11, label: "Blog Manager", icon: FileText, category: "Content", status: 'Ready', description: "Jules AI Content Pipeline", dataSource: "posts/", path: "/admin/jules" },
   { id: 12, label: "Pages Editor", icon: Layout, category: "Content", status: 'Ready', description: "Static page overrides", dataSource: "Syllabus DB", path: "/admin/upload-syllabus" },
-  { id: 13, label: "Media Library", icon: Package, category: "Content", status: 'Service Not Initialized', description: "Asset & Image optimizer" },
   { id: 14, label: "Taxonomy Hub", icon: Search, category: "Content", status: 'Ready', description: "Managing tags & slugs", dataSource: "Jules SEO", path: "/admin/jules" },
   { id: 15, label: "Moderation", icon: AlertTriangle, category: "Content", status: 'Ready', description: "User review filtering", dataSource: "QuestionReview", path: "/admin/question-review" },
 
-  // 21-25: Site Control
-  { id: 21, label: "General Config", icon: Settings, category: "System", status: 'Ready', description: "Site metadata & branding", dataSource: "siteConfig.ts" },
+  // 21-25: Site / System
   { id: 22, label: "SEO Intelligence", icon: Globe, category: "System", status: 'Ready', description: "Jules Optimization Logs", dataSource: "Jules AI", path: "/admin/search" },
-  { id: 23, label: "SMTP Service", icon: Mail, category: "System", status: 'Service Not Initialized', description: "Transactional email health" },
-  { id: 24, label: "Social Connect", icon: Share2, category: "System", status: 'Ready', description: "Third-party platform links", dataSource: "constants.ts" },
-  { id: 25, label: "Maintenance", icon: AlertTriangle, category: "System", status: 'Ready', description: "Panic button & Bypass mode", dataSource: "Runtime State" },
+  { id: 40, label: "Error Monitor", icon: Terminal, category: "System", status: 'Ready', description: "Jules Error Log tracking", dataSource: "Jules Reports", path: "/admin/jules" },
 
   // 26-30: Security
   { id: 26, label: "Login Logs", icon: Terminal, category: "Security", status: 'Ready', description: "Auth attempt auditing", dataSource: "profiles: logins", path: "/admin/users" },
-  { id: 27, label: "2FA Controller", icon: ShieldCheck, category: "Security", status: 'Ready', description: "MFA enforcement policy", dataSource: "Firebase Auth", path: "/admin/users" },
-  { id: 40, label: "Error Monitor", icon: Terminal, category: "System", status: 'Ready', description: "Jules Error Log tracking", dataSource: "Jules Reports", path: "/admin/jules" },
   { id: 41, label: "Audit Trail", icon: Activity, category: "Security", status: 'Ready', description: "Critical change ledger", dataSource: "audit_logs", path: "/admin/audit-logs" },
 ];
 

@@ -165,7 +165,7 @@ export const UserManagement = () => {
             </header>
 
             {/* Quick Stats */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                 {loading && users.length === 0 ? (
                     <>
                         <StatCardSkeleton />
@@ -197,27 +197,26 @@ export const UserManagement = () => {
             {/* Main Table Card */}
             <div className="glass-card border border-white/10 overflow-hidden flex flex-col">
                 <div className="p-4 border-b border-white/5 flex flex-col gap-4">
-                    <div className="flex flex-wrap items-center gap-2">
+                    <div className="flex items-center gap-2 overflow-x-auto pb-2 custom-scrollbar hide-scrollbar">
                         {['All', 'JEE', 'NEET', '11th', '12th', 'Dropper', 'Gmail', 'Guest', 'Unspecified', 'Banned'].map(filter => (
                             <button
                                 key={filter}
                                 onClick={() => setActiveFilter(filter)}
-                                className={`px-4 py-1.5 rounded-full text-xs font-bold transition-all ${activeFilter === filter ? 'bg-indigo-500 text-white shadow-lg shadow-indigo-500/20' : 'bg-surface border border-white/5 text-text-muted hover:text-white'}`}
+                                className={`px-4 py-1.5 rounded-full text-xs font-bold whitespace-nowrap transition-all shrink-0 ${activeFilter === filter ? 'bg-indigo-500 text-white shadow-lg shadow-indigo-500/20' : 'bg-surface border border-white/5 text-text-muted hover:text-white'}`}
                             >
                                 {filter}
                             </button>
                         ))}
                         
-                        <div className="flex-1" />
+                        <div className="flex-1 hidden sm:block" />
                         
-                        <select 
-                            value={sortOrder}
-                            onChange={(e) => setSortOrder(e.target.value as any)}
-                            className="bg-black/20 border border-white/10 rounded-lg px-3 py-1.5 text-xs text-text-muted focus:outline-none focus:border-indigo-500"
+                        <button
+                            onClick={() => setSortOrder(prev => prev === 'latest' ? 'oldest' : 'latest')}
+                            className="bg-surface border border-white/5 rounded-full px-3 py-1.5 text-xs font-bold text-text-muted hover:text-white transition-all shrink-0 flex items-center gap-1.5"
                         >
-                            <option value="latest">Sort by Latest</option>
-                            <option value="oldest">Sort by Oldest</option>
-                        </select>
+                            <Clock size={12} />
+                            {sortOrder === 'latest' ? 'Sort by Latest' : 'Sort by Oldest'}
+                        </button>
                     </div>
 
                     <div className="relative w-full max-w-md">
