@@ -306,6 +306,28 @@
     "robots": "index, follow",
     "sitemapGroup": "blogs"
   },
+  "/blog/biotechnology-and-its-applications-class-12-notes": {
+    "title": "Biotechnology and its Applications Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+    "description": "Master Biotechnology and its Applications for Biology 2026. This Grandmaster Guide includes Ayush",
+    "date": "2026-04-05",
+    "category": "Biology",
+    "h1": "Biotechnology and its Applications Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/biotechnology-principles-and-processes-class-12-notes": {
+    "title": "Biotechnology: Principles and Processes Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+    "description": "The ultimate Biotechnology: Principles and Processes revision resource for Biology students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
+    "date": "2026-04-05",
+    "category": "Biology",
+    "h1": "Biotechnology: Principles and Processes Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
   "/blog/body-fluids-and-circulation-class-11-revision-notes-neet": {
     "title": "Body Fluids And Circulation Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
     "description": "The ultimate Body Fluids And Circulation revision resource for Biology students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
@@ -1247,6 +1269,17 @@
     "date": "2026-03-28",
     "category": "Physics",
     "h1": "Organic Chemistry Basic Principles Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/organisms-and-populations-class-12-notes": {
+    "title": "Organisms and Populations Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+    "description": "Master Organisms and Populations for Biology 2026. This Grandmaster Guide includes Ayush",
+    "date": "2026-04-05",
+    "category": "Biology",
+    "h1": "Organisms and Populations Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
     "type": "blog-post",
     "priority": 0.8,
     "robots": "index, follow",

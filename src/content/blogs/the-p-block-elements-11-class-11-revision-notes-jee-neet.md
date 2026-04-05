@@ -62,7 +62,7 @@ I remember struggling with the p-block elements during my JEE preparation. One m
 
 ## Electronic Configuration of the P-Block Elements
 
-The electronic configuration of the p-block elements can be represented as $ns^2np^{1-6}$. The p-orbitals are degenerate, meaning they have the same energy level, and can accommodate a maximum of 6 electrons. The p-block elements exhibit a wide range of electronic configurations, which affects their physical and chemical properties.
+The electronic configuration of the p-block elements can be represented as $ns^2np^{1-6}$. The p-orbitals are degenerate, meaning they have the same energy level, and can accommodate a maximum of 6 electrons. The p-block elements exhibit a wide range of electronic configurations, which affects their [physical](/blog/physical-world-class-11-revision-notes-jee-neet) and chemical properties.
 
 
 

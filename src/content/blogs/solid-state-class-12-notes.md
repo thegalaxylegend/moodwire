@@ -208,7 +208,7 @@ Lattice energy is a critical concept in solid-state chemistry, and many students
 #### Mistake 5: Failure to Understand Semiconductor Band Structure
 Semiconductor band structure is a critical concept in solid-state physics, and many students struggle to understand it. To avoid this, it is essential to understand the concept of valence and conduction bands, as well as the Fermi level. The Fermi level is the energy level at which the probability of finding an electron is 50%. It is critical to understand how the Fermi level changes with doping and how it affects the conductivity of a semiconductor.
 
-By understanding and avoiding these common mistakes, students can achieve success in the exam and develop a deep understanding of solid-state chemistry.
+By understanding and avoiding these common mistakes, students can achieve success in the exam and develop a deep understanding of solid-state [chemistry](/blog/surface-chemistry-class-12-notes).
 
 ### <a id="part-3-advanced-concepts-and-applications"></a>Part 3: Advanced Concepts and Applications
 

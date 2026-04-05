@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-04-04T02:08:53.195Z",
-  "totalBlogs": 167,
-  "totalWords": 351849,
-  "avgWordCount": 2107,
+  "generatedAt": "2026-04-05T02:22:11.753Z",
+  "totalBlogs": 170,
+  "totalWords": 359370,
+  "avgWordCount": 2114,
   "patterns": [
     {
       "subject": "Biology",
-      "sampleSize": 60,
-      "avgWordCount": 2336,
-      "medianWordCount": 1295,
+      "sampleSize": 63,
+      "avgWordCount": 2344,
+      "medianWordCount": 1307,
       "avgH2": 10.6,
-      "avgH3": 3,
-      "avgFormulas": 44,
-      "avgMCQs": 1.8,
-      "avgBullets": 21.6,
-      "bulletToParagraphRatio": 0.82,
+      "avgH3": 2.9,
+      "avgFormulas": 48.5,
+      "avgMCQs": 1.9,
+      "avgBullets": 22.8,
+      "bulletToParagraphRatio": 0.87,
       "avgInternalLinks": 6.7,
       "idealTemplate": {
         "wordCountRange": [
           1047,
-          2574
+          2564
         ],
         "headingCount": [
           9,
@@ -44,7 +44,7 @@
       "avgMCQs": 1,
       "avgBullets": 18.4,
       "bulletToParagraphRatio": 0.78,
-      "avgInternalLinks": 6.7,
+      "avgInternalLinks": 6.8,
       "idealTemplate": {
         "wordCountRange": [
           946,
@@ -102,7 +102,7 @@
       "avgMCQs": 1.8,
       "avgBullets": 39.4,
       "bulletToParagraphRatio": 1.95,
-      "avgInternalLinks": 6.8,
+      "avgInternalLinks": 6.9,
       "idealTemplate": {
         "wordCountRange": [
           972,
@@ -347,7 +347,7 @@
       "mcqCount": 5,
       "bulletCount": 43,
       "paragraphCount": 73,
-      "internalLinkCount": 8,
+      "internalLinkCount": 9,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -356,7 +356,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 34735
+      "fileSize": 34787
     },
     {
       "slug": "amines-class-12-notes",
@@ -679,6 +679,52 @@
       "hasLast5Min": false,
       "hasRelated": true,
       "fileSize": 9388
+    },
+    {
+      "slug": "biotechnology-and-its-applications-class-12-notes",
+      "category": "Biology",
+      "classNum": 12,
+      "wordCount": 2564,
+      "h2Count": 9,
+      "h3Count": 1,
+      "h4Count": 0,
+      "formulaCount": 156,
+      "mcqCount": 5,
+      "bulletCount": 46,
+      "paragraphCount": 34,
+      "internalLinkCount": 5,
+      "externalLinkCount": 0,
+      "imageCount": 1,
+      "tableCount": 1,
+      "codeBlockCount": 0,
+      "avgSectionLength": 257,
+      "hasTraps": true,
+      "hasLast5Min": true,
+      "hasRelated": true,
+      "fileSize": 19033
+    },
+    {
+      "slug": "biotechnology-principles-and-processes-class-12-notes",
+      "category": "Biology",
+      "classNum": 12,
+      "wordCount": 2524,
+      "h2Count": 9,
+      "h3Count": 1,
+      "h4Count": 0,
+      "formulaCount": 111,
+      "mcqCount": 5,
+      "bulletCount": 46,
+      "paragraphCount": 26,
+      "internalLinkCount": 5,
+      "externalLinkCount": 0,
+      "imageCount": 1,
+      "tableCount": 1,
+      "codeBlockCount": 0,
+      "avgSectionLength": 253,
+      "hasTraps": true,
+      "hasLast5Min": true,
+      "hasRelated": true,
+      "fileSize": 17973
     },
     {
       "slug": "body-fluids-and-circulation-class-11-revision-notes-neet",
@@ -1221,7 +1267,7 @@
       "mcqCount": 5,
       "bulletCount": 11,
       "paragraphCount": 46,
-      "internalLinkCount": 7,
+      "internalLinkCount": 8,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -1230,7 +1276,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 50191
+      "fileSize": 50254
     },
     {
       "slug": "determinants-class-12-notes",
@@ -1313,7 +1359,7 @@
       "mcqCount": 5,
       "bulletCount": 16,
       "paragraphCount": 106,
-      "internalLinkCount": 7,
+      "internalLinkCount": 8,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -1322,7 +1368,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 59933
+      "fileSize": 59996
     },
     {
       "slug": "dpsp-duties-class-11-revision-notes-jee-neet",
@@ -2509,7 +2555,7 @@
       "mcqCount": 0,
       "bulletCount": 20,
       "paragraphCount": 14,
-      "internalLinkCount": 11,
+      "internalLinkCount": 12,
       "externalLinkCount": 1,
       "imageCount": 2,
       "tableCount": 0,
@@ -2518,7 +2564,7 @@
       "hasTraps": false,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 8975
+      "fileSize": 9033
     },
     {
       "slug": "neet-2026-weightage-prediction-class-11-revision-notes-neet",
@@ -2624,7 +2670,7 @@
       "mcqCount": 0,
       "bulletCount": 14,
       "paragraphCount": 22,
-      "internalLinkCount": 8,
+      "internalLinkCount": 9,
       "externalLinkCount": 0,
       "imageCount": 2,
       "tableCount": 0,
@@ -2633,7 +2679,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 9222
+      "fileSize": 9290
     },
     {
       "slug": "organic-chemistry-basic-principles-class-11-revision-notes-jee-neet",
@@ -2657,6 +2703,29 @@
       "hasLast5Min": false,
       "hasRelated": true,
       "fileSize": 8596
+    },
+    {
+      "slug": "organisms-and-populations-class-12-notes",
+      "category": "Biology",
+      "classNum": 12,
+      "wordCount": 2433,
+      "h2Count": 9,
+      "h3Count": 1,
+      "h4Count": 0,
+      "formulaCount": 152,
+      "mcqCount": 5,
+      "bulletCount": 46,
+      "paragraphCount": 12,
+      "internalLinkCount": 5,
+      "externalLinkCount": 0,
+      "imageCount": 1,
+      "tableCount": 1,
+      "codeBlockCount": 0,
+      "avgSectionLength": 243,
+      "hasTraps": true,
+      "hasLast5Min": true,
+      "hasRelated": true,
+      "fileSize": 17087
     },
     {
       "slug": "oscillations-class-11-revision-notes-jee-neet",
@@ -3038,7 +3107,7 @@
       "mcqCount": 0,
       "bulletCount": 42,
       "paragraphCount": 24,
-      "internalLinkCount": 8,
+      "internalLinkCount": 9,
       "externalLinkCount": 0,
       "imageCount": 2,
       "tableCount": 1,
@@ -3047,7 +3116,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 10202
+      "fileSize": 10277
     },
     {
       "slug": "redox-reactions-class-11-revision-notes-neet",
@@ -3314,7 +3383,7 @@
       "mcqCount": 0,
       "bulletCount": 109,
       "paragraphCount": 17,
-      "internalLinkCount": 8,
+      "internalLinkCount": 9,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 0,
@@ -3323,7 +3392,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 21028
+      "fileSize": 21070
     },
     {
       "slug": "solutions-class-12-notes",
@@ -3475,7 +3544,7 @@
       "mcqCount": 5,
       "bulletCount": 47,
       "paragraphCount": 28,
-      "internalLinkCount": 6,
+      "internalLinkCount": 7,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -3484,7 +3553,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 17862
+      "fileSize": 17911
     },
     {
       "slug": "structural-organisation-in-animals-class-11-revision-notes-neet",
@@ -3636,7 +3705,7 @@
       "mcqCount": 0,
       "bulletCount": 17,
       "paragraphCount": 15,
-      "internalLinkCount": 9,
+      "internalLinkCount": 10,
       "externalLinkCount": 0,
       "imageCount": 2,
       "tableCount": 0,
@@ -3645,7 +3714,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 7781
+      "fileSize": 7838
     },
     {
       "slug": "the-s-block-elements-class-11-revision-notes-jee-neet",
@@ -3912,7 +3981,7 @@
       "mcqCount": 5,
       "bulletCount": 18,
       "paragraphCount": 84,
-      "internalLinkCount": 8,
+      "internalLinkCount": 9,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -3921,7 +3990,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 42089
+      "fileSize": 42135
     },
     {
       "slug": "waves-class-11-revision-notes-neet",
@@ -3935,7 +4004,7 @@
       "mcqCount": 0,
       "bulletCount": 27,
       "paragraphCount": 16,
-      "internalLinkCount": 8,
+      "internalLinkCount": 9,
       "externalLinkCount": 1,
       "imageCount": 2,
       "tableCount": 0,
@@ -3944,7 +4013,7 @@
       "hasTraps": false,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 11905
+      "fileSize": 11979
     },
     {
       "slug": "work-energy-and-power-class-11-revision-notes-neet",

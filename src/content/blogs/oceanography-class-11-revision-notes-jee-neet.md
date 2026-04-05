@@ -58,7 +58,7 @@ For students preparing for JEE and NEET, here are some essential data and facts 
 * **Thermocline**: Layer of water where temperature changes rapidly with depth
 
 ### MCQs
-Test your knowledge with these quick MCQs:
+Test your knowledge with these [quick](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) MCQs:
 
 1. What is the primary factor controlling the salinity of seawater?
 a) Temperature

@@ -74,7 +74,7 @@ The **Magnetic Field (B)** is a vector field that describes the magnetic influen
 **∮ B · dl = μ₀ I_enclosed**.
 
 ### I. Application: Magnetic Field of a Solenoid
-1.  Assume a long solenoid with **n** turns per unit length carrying current **I**.
+1.  Assume a long solenoid with **n** turns per unit length carrying [current](/blog/current-electricity-class-11-revision-notes-neet) **I**.
 2.  Taking a rectangular path (Amperean loop):
 3.  Line integral **∮ B · dl = B L** (field is only inside).
 4.  Charge enclosed **I_en = n L I**.

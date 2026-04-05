@@ -248,7 +248,7 @@ practice_link: "/class-11/biology/strategies-for-enhancement-in-food-production-
 - C) Soil erosion
 - D) Overgrazing
 
-**Answer:** A) Crop rotation is a strategy that involves growing different crops on the same land to maintain soil fertility and reduce pest and disease buildup.
+**Answer:** A) Crop rotation is a strategy that involves growing different crops on the same land to maintain soil fertility and reduce pest and [disease](/blog/human-health-and-disease-class-12-notes) buildup.
 
 ---
 

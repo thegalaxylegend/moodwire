@@ -134,7 +134,7 @@ Let's summarize the key points:
 
 By reviewing these key points and practicing with MCQs, we can reinforce our understanding of ray optics and achieve success in our exams.
 
-To further illustrate the concepts, let's consider some diagrams and illustrations.
+To further illustrate the [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet), let's consider some diagrams and illustrations.
 
 ### Diagrams
 1. **Reflection**: A diagram showing the reflection of light at a surface.

@@ -81,7 +81,7 @@ The key characteristic of AC is that the voltage and current change polarity ove
 
 To understand AC, it's crucial to grasp the concept of **root mean square (RMS) value**, which is a statistical measure of the magnitude of a varying quantity. The RMS value of an AC waveform is the square root of the mean value of the square of the current or voltage over one cycle. This is important because the RMS value is used to calculate the power consumed by a load in an AC circuit.
 
-Another critical concept in AC circuits is **impedance**, which is the total opposition to the flow of an AC current. Impedance is a complex quantity, consisting of resistance and reactance. Resistance is the opposition to the flow of current due to the resistivity of the material, while reactance is the opposition to the flow of current due to the inductive or capacitive effects of the circuit.
+Another critical concept in AC circuits is **impedance**, which is the total opposition to the flow of an AC current. Impedance is a complex quantity, consisting of resistance and reactance. Resistance is the opposition to the flow of current due to the resistivity of the material, while reactance is the opposition to the flow of current due to the inductive or capacitive [effects](/blog/magnetic-effects-of-current-class-12-notes) of the circuit.
 
 A key student-centric tip is to practice solving problems involving AC circuits, including calculating impedance, reactance, and phase shift. This will help you develop a deep understanding of the subject and improve your problem-solving skills. Additionally, make sure to understand the differences between AC and DC, as well as the advantages and disadvantages of each.
 
