@@ -26,6 +26,12 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import Groq from 'groq-sdk';
 import dotenv from 'dotenv';
+import { 
+    hasAyushNoteRegex, 
+    hasMistakesRegex, 
+    hasPyqsRegex, 
+    hasFormulaBankRegex 
+} from './utils/jules-quality.js';
 
 dotenv.config();
 
@@ -451,6 +457,56 @@ function shouldRevert(): boolean {
     return false;
 }
 
+function baselineValidator(): boolean {
+    console.log('🧪 Running Baseline Validator on recent content...');
+    
+    const BLOG_DIR = path.join(__dirname, '../src/content/blogs');
+    const AUDIT_LOG = path.join(REPORTS_DIR, 'prompt-evolution-audit.log');
+    
+    if (!fs.existsSync(BLOG_DIR)) return true; // Nothing to check
+    
+    const files = fs.readdirSync(BLOG_DIR)
+        .filter(f => f.endsWith('.md'))
+        .map(file => {
+            const content = fs.readFileSync(path.join(BLOG_DIR, file), 'utf-8');
+            const match = content.match(/date:\s*["']?([^"'\n]+)["']?/);
+            const time = match ? new Date(match[1]).getTime() : fs.statSync(path.join(BLOG_DIR, file)).mtime.getTime();
+            return { file, time };
+        })
+        .sort((a, b) => b.time - a.time)
+        .slice(0, 10)
+        .map(item => item.file); // Check 10 most recent
+    
+    if (files.length === 0) return true;
+    
+    // Sample 3 random from the 10 most recent
+    const samples = files.sort(() => 0.5 - Math.random()).slice(0, 3);
+    let allPassed = true;
+    const failures: string[] = [];
+
+    for (const file of samples) {
+        const content = fs.readFileSync(path.join(BLOG_DIR, file), 'utf-8');
+        const blogPassed = 
+            hasAyushNoteRegex.test(content) && 
+            (hasMistakesRegex.test(content) || hasPyqsRegex.test(content)); // At least one high-yield section
+            
+        if (!blogPassed) {
+            allPassed = false;
+            failures.push(file);
+        }
+    }
+
+    if (!allPassed) {
+        const msg = `[${new Date().toISOString()}] ❌ Baseline Validation Failed. Prompt evolution blocked. Samples failed: ${failures.join(', ')}\n`;
+        fs.appendFileSync(AUDIT_LOG, msg);
+        console.log(`🚫 ${msg}`);
+    } else {
+        console.log('✅ Baseline Validation passed (samples show structural integrity).');
+    }
+
+    return allPassed;
+}
+
 // ════════════════════════════════════════════════════════
 // MAIN
 // ════════════════════════════════════════════════════════
@@ -472,6 +528,12 @@ async function main() {
     // Synthesize insights
     const insights = synthesizeInsights(intel);
 
+    // Baseline validation before evolution
+    if (!baselineValidator()) {
+        console.log('\n🚫 Evolution blocked: Recent blogs failed structural baseline test.\n');
+        return;
+    }
+
     // Evolve the prompt
     const evolved = await evolvePrompt(intel.currentPrompt, insights);
     
@@ -492,7 +554,7 @@ async function main() {
     console.log(`  🌡️  Temperature: ${evolved.temperature}`);
     console.log(`  📊 Confidence: ${(evolved.confidence * 100).toFixed(0)}%`);
     
-    if (evolved.changelog?.length > 0) {
+    if (Array.isArray(evolved.changelog) && evolved.changelog.length > 0) {
         console.log('\n  📝 Changes made:');
         evolved.changelog.forEach((change: string) => {
             console.log(`     • ${change}`);

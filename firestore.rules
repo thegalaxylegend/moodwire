@@ -2,9 +2,40 @@ rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
     
+    // --- AUTH HELPERS ---
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isAdmin() {
+      return isSignedIn() && 
+             request.auth.token.email != null &&
+             (request.auth.token.email.lower() in [
+               'thegalaxylegend2007@gmail.com', 
+               'harshbardhanthakur2009@gmail.com'
+             ]);
+    }
+
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+
+    function isDataOwner() {
+      return isSignedIn() && resource.data.user_id == request.auth.uid;
+    }
+
+    // --- GLOBAL ADMIN BYPASS ---
+    // This allows authorized admins to read/write EVERYTHING
+    // Placed at root to ensure it catches collection-wide queries
+    match /{path=**} {
+      allow read, write: if isAdmin();
+    }
+
+    // --- COLLECTION RULES ---
+    
     match /engine_questions/{question} {
       allow read: if true;
-      allow write: if request.auth != null; 
+      allow write: if isAdmin(); // Only admins can modify the engine
     }
 
     match /system_ping/{ping} {
@@ -13,72 +44,72 @@ service cloud.firestore {
     }
 
     match /documents/{docId} {
-      allow read, delete: if request.auth != null && resource.data.user_id == request.auth.uid;
-      allow create, update: if request.auth != null && request.resource.data.user_id == request.auth.uid;
+      allow read, delete: if isDataOwner() || isAdmin();
+      allow create, update: if (isSignedIn() && request.resource.data.user_id == request.auth.uid) || isAdmin();
     }
 
     match /user_topic_stats/{stat} {
-      allow read, delete: if request.auth != null && resource.data.user_id == request.auth.uid;
-      allow create, update: if request.auth != null && request.resource.data.user_id == request.auth.uid;
+      allow read, delete: if isDataOwner() || isAdmin();
+      allow create, update: if (isSignedIn() && request.resource.data.user_id == request.auth.uid) || isAdmin();
     }
 
     match /diagnostic_results/{result} {
-      allow read, delete: if request.auth != null && resource.data.user_id == request.auth.uid;
-      allow create, update: if request.auth != null && request.resource.data.user_id == request.auth.uid;
+      allow read, delete: if isDataOwner() || isAdmin();
+      allow create, update: if (isSignedIn() && request.resource.data.user_id == request.auth.uid) || isAdmin();
     }
 
     match /leaderboards/{season}/users/{userId} {
       allow read: if true;
-      allow write: if request.auth != null && request.auth.uid == userId;
+      allow write: if isOwner(userId) || isAdmin();
     }
 
     match /mock_attempts/{attempt} {
-      allow read, delete: if request.auth != null && resource.data.user_id == request.auth.uid;
-      allow create, update: if request.auth != null && request.resource.data.user_id == request.auth.uid;
+      allow read, delete: if isDataOwner() || isAdmin();
+      allow create, update: if (isSignedIn() && request.resource.data.user_id == request.auth.uid) || isAdmin();
     }
 
     match /syllabus/{syllabusItem} {
-      allow read, delete: if request.auth != null && resource.data.user_id == request.auth.uid;
-      allow create, update: if request.auth != null && request.resource.data.user_id == request.auth.uid;
+      allow read, delete: if isDataOwner() || isAdmin();
+      allow create, update: if (isSignedIn() && request.resource.data.user_id == request.auth.uid) || isAdmin();
     }
 
     match /profiles/{userId} {
-      allow read, write: if request.auth != null && request.auth.uid == userId;
+      allow read, write: if isOwner(userId) || isAdmin();
 
       match /archives/{archiveId} {
-        allow read, write: if request.auth != null && request.auth.uid == userId;
+        allow read, write: if isOwner(userId) || isAdmin();
       }
     }
 
     match /public_profiles/{userId} {
       allow read: if true;
-      allow write: if request.auth != null && request.auth.uid == userId;
+      allow write: if isOwner(userId) || isAdmin();
     }
 
     match /saved_lectures/{lecture} {
-      allow read, delete: if request.auth != null && resource.data.user_id == request.auth.uid;
-      allow create, update: if request.auth != null && request.resource.data.user_id == request.auth.uid;
+      allow read, delete: if isDataOwner() || isAdmin();
+      allow create, update: if (isSignedIn() && request.resource.data.user_id == request.auth.uid) || isAdmin();
     }
 
     match /video_progress/{progress} {
-      allow read, delete: if request.auth != null && resource.data.user_id == request.auth.uid;
-      allow create, update: if request.auth != null && request.resource.data.user_id == request.auth.uid;
+      allow read, delete: if isDataOwner() || isAdmin();
+      allow create, update: if (isSignedIn() && request.resource.data.user_id == request.auth.uid) || isAdmin();
     }
 
     match /study_plans/{plan} {
-      allow read, delete: if request.auth != null && resource.data.user_id == request.auth.uid;
-      allow create, update: if request.auth != null && request.resource.data.user_id == request.auth.uid;
+      allow read, delete: if isDataOwner() || isAdmin();
+      allow create, update: if (isSignedIn() && request.resource.data.user_id == request.auth.uid) || isAdmin();
     }
 
     match /user_timelines/{timeline} {
-      allow read, delete: if request.auth != null && resource.data.user_id == request.auth.uid;
-      allow create, update: if request.auth != null && request.resource.data.user_id == request.auth.uid;
+      allow read, delete: if isDataOwner() || isAdmin();
+      allow create, update: if (isSignedIn() && request.resource.data.user_id == request.auth.uid) || isAdmin();
     }
 
     // Public Blog Metadata (Synced by Jules)
     match /content_metadata/{docId} {
       allow read: if true;
-      allow write: if false; // Only Admin SDK (Jules) can write here
+      allow write: if isAdmin(); // Jules AI uses Admin SDK, but we allow admin accounts too
     }
   }
 }

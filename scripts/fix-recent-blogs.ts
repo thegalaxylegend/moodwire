@@ -70,7 +70,7 @@ async function callGroq(prompt: string, temperature = 0.7, retries = 5): Promise
 
 async function fixBlogContent(body: string, title: string, category: string, practiceLink: string): Promise<string> {
   // Pre-processing
-  let cleanBody = body
+  const cleanBody = body
     .replace(/---[\s\S]*?curated by Jules[\s\S]*?---/gi, '')
     .replace(/\*This post was curated by Jules[\s\S]*?\*/gi, '')
     .replace(/<div class="quick-summary">[\s\S]*?<\/div>/gi, '')

@@ -98,7 +98,7 @@ export const storageService = {
         if (!uid) return;
         const key = getStorageKey(uid);
         const raw = localStorage.getItem(key);
-        let history: TestHistoryEntry[] = raw ? JSON.parse(raw) : [];
+        const history: TestHistoryEntry[] = raw ? JSON.parse(raw) : [];
         
         const pending = history.filter(item => item.pendingSync);
         if (pending.length === 0) return;
@@ -185,7 +185,7 @@ export const storageService = {
             
             const key = getStorageKey(uid);
             const rawScoped = localStorage.getItem(key);
-            let scopedHistory: TestHistoryEntry[] = rawScoped ? JSON.parse(rawScoped) : [];
+            const scopedHistory: TestHistoryEntry[] = rawScoped ? JSON.parse(rawScoped) : [];
 
             // Merge and de-duplicate by date
             const merged = [...scopedHistory, ...globalHistory]

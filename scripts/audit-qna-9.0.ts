@@ -107,7 +107,7 @@ async function runQnaAudit() {
         }
 
         // Update count for executive summary
-        let currentMd = fs.readFileSync(reportPath, 'utf8');
+        const currentMd = fs.readFileSync(reportPath, 'utf8');
         let updatedMd = currentMd.replace(/✅ Approved \| \d+/, `✅ Approved | ${correctCount}`);
         updatedMd = updatedMd.replace(/🛠️ Repaired \| \d+/, `🛠️ Repaired | ${repairedCount}`);
         updatedMd = updatedMd.replace(/❌ Rejected \| \d+/, `❌ Rejected | ${rejectedCount}`);

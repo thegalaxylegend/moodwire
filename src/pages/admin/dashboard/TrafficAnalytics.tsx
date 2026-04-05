@@ -5,44 +5,73 @@ import {
   BarChart3,
   Globe,
   Eye,
-  Clock
+  Clock,
+  Users,
+  RotateCw
 } from 'lucide-react';
 import { StatCard } from '../../../components/admin/StatCard';
+import { StatCardSkeleton } from '../../../components/skeletons/AdminSkeleton';
 
 export const TrafficAnalytics = () => {
   const [ga4Data, setGa4Data] = useState<any>(null);
   const [loading, setLoading] = useState(true);
 
+  const fetchData = async (showLoading = true) => {
+    if (showLoading) setLoading(true);
+    try {
+      const res = await fetch('/jules-reports/ga4-stats.json');
+      if (res.ok) setGa4Data(await res.json());
+    } catch (err) {
+      console.error("Failed to load GA4 stats:", err);
+    } finally {
+      setLoading(false);
+    }
+  };
+
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const res = await fetch('/jules-reports/ga4-stats.json');
-        if (res.ok) setGa4Data(await res.json());
-      } catch (err) {
-        console.error("Failed to load GA4 stats:", err);
-      } finally {
-        setLoading(false);
-      }
-    };
     fetchData();
   }, []);
 
-  if (loading) return <div className="p-8 text-text-muted animate-pulse">Synchronizing GA4 Traffic...</div>;
+  if (loading && !ga4Data) return (
+    <div className="space-y-10 pb-20 animate-pulse">
+        <div className="h-10 w-64 bg-white/5 rounded-xl" />
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <StatCardSkeleton />
+            <StatCardSkeleton />
+            <StatCardSkeleton />
+            <StatCardSkeleton />
+        </div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <div className="h-64 bg-white/5 rounded-3xl" />
+            <div className="h-64 bg-white/5 rounded-3xl" />
+        </div>
+    </div>
+  );
 
   const totalDeviceUsers = ga4Data?.devices?.reduce((acc: number, d: any) => acc + d.users, 0) || 1;
 
   return (
     <div className="space-y-10 pb-20">
-      <header>
-        <div className="flex items-center gap-3 mb-2">
-          <div className="p-2 bg-blue-500/10 rounded-lg text-blue-400">
-            <Globe size={24} />
+      <header className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+        <div>
+          <div className="flex items-center gap-3 mb-2">
+            <div className="p-2 bg-blue-500/10 rounded-lg text-blue-400">
+              <Globe size={20} />
+            </div>
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-blue-400/80">Real-Time Traffic</span>
           </div>
-          <span className="text-xs font-bold uppercase tracking-[0.2em] text-blue-400/80">Real-Time Traffic</span>
+          <h1 className="text-3xl sm:text-4xl font-heading font-black text-text-main tracking-tight">
+            Traffic <span className="text-blue-400">Intelligence</span>
+          </h1>
         </div>
-        <h1 className="text-4xl font-heading font-black text-text-main tracking-tight">
-          Traffic <span className="text-blue-400">Intelligence</span>
-        </h1>
+        <button 
+          onClick={() => fetchData(true)}
+          disabled={loading}
+          className="flex items-center gap-2 px-4 py-2 bg-surface border border-white/10 rounded-xl text-sm font-bold text-text-muted hover:text-white hover:border-primary/50 transition-all active:scale-95 disabled:opacity-50"
+        >
+          <RotateCw size={16} className={loading ? 'animate-spin' : ''} />
+          Fetch Latest
+        </button>
       </header>
 
       {/* Main Stats Grid */}
@@ -157,6 +186,3 @@ export const TrafficAnalytics = () => {
     </div>
   );
 };
-
-// Re-using Users icon from internal lucide import for cleanliness
-import { Users } from 'lucide-react';

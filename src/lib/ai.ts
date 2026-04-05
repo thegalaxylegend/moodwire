@@ -27,7 +27,7 @@ export const askAI = async (
     _onSearch?: (searching: boolean) => void
 ) => {
     // 1. Web Search Orchestration (DISABLED TO REDUCE LOAD)
-    let webContext = "";
+    const webContext = "";
     /* 
     if (needsWebSearch(question)) {
         if (onSearch) onSearch(true);

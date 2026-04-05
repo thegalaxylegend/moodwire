@@ -26,7 +26,7 @@ export function extractFinalValue(derivationText: string): number | null {
     if (!derivationText || derivationText.trim().length < 5) return null;
 
     // Normalize: remove LaTeX formatting
-    let text = derivationText
+    const text = derivationText
         .replace(/\$\$/g, '')
         .replace(/\$/g, '')
         .replace(/\\frac\{([^}]+)\}\{([^}]+)\}/g, '($1)/($2)')

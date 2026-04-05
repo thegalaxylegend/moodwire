@@ -6,10 +6,12 @@ import {
   Wifi,
   Users,
   CheckCircle2,
+  RotateCw,
 } from 'lucide-react';
 import { db } from '../../../lib/firebase';
 import { collection, query, limit, getDocs, getCountFromServer } from 'firebase/firestore';
 import { StatCard } from '../../../components/admin/StatCard';
+import { AdminOverviewSkeleton } from '../../../components/skeletons/AdminSkeleton';
 
 export const AdminOverview = () => {
   const [loading, setLoading] = useState(true);
@@ -29,46 +31,48 @@ export const AdminOverview = () => {
       classes: { '11th': 0, '12th': 0, 'Dropper': 0 }
   });
 
+  const fetchData = async (showLoading = true) => {
+    if (showLoading) setLoading(true);
+    try {
+      const [
+        usersSnap, qSnap, mockSnap, 
+        planSnap, topicSnap,
+        idxHistoryRes
+      ] = await Promise.all([
+        getCountFromServer(collection(db, 'profiles')),
+        getCountFromServer(collection(db, 'engine_questions')),
+        getCountFromServer(collection(db, 'mock_attempts')),
+        getCountFromServer(collection(db, 'study_plans')),
+        getCountFromServer(collection(db, 'user_topic_stats')),
+        fetch('/jules-reports/indexing-history.json')
+      ]);
+
+      if (idxHistoryRes.ok) setIndexingHistory(await idxHistoryRes.json());
+      
+      const count = (usersSnap as any).data().count || 0;
+      setRealStats({
+          users: count,
+          questions: (qSnap as any).data().count || 0,
+          mocks: (mockSnap as any).data().count || 0,
+          studyPlans: (planSnap as any).data().count || 0,
+          topics: (topicSnap as any).data().count || 0
+      });
+
+      // Demographics Simulation/Placeholder (Or real fetch if preferred)
+      setDemographics({
+          exams: { JEE: Math.floor(count * 0.65), NEET: Math.floor(count * 0.3), Other: Math.floor(count * 0.05) },
+          classes: { '11th': Math.floor(count * 0.4), '12th': Math.floor(count * 0.45), 'Dropper': Math.floor(count * 0.15) }
+      });
+      console.log("[AdminOverview] 📊 Dashboard data synchronized.");
+
+    } catch (err) {
+      console.error("Failed to load Overview data:", err);
+    } finally {
+      if (showLoading) setLoading(false);
+    }
+  };
+
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const [
-          usersSnap, qSnap, mockSnap, 
-          planSnap, topicSnap,
-          idxHistoryRes
-        ] = await Promise.all([
-          getCountFromServer(collection(db, 'profiles')),
-          getCountFromServer(collection(db, 'engine_questions')),
-          getCountFromServer(collection(db, 'mock_attempts')),
-          getCountFromServer(collection(db, 'study_plans')),
-          getCountFromServer(collection(db, 'user_topic_stats')),
-          fetch('/jules-reports/indexing-history.json')
-        ]);
-
-        if (idxHistoryRes.ok) setIndexingHistory(await idxHistoryRes.json());
-        
-        const count = (usersSnap as any).data().count || 0;
-        setRealStats({
-            users: count,
-            questions: (qSnap as any).data().count || 0,
-            mocks: (mockSnap as any).data().count || 0,
-            studyPlans: (planSnap as any).data().count || 0,
-            topics: (topicSnap as any).data().count || 0
-        });
-
-        // Demographics Simulation/Placeholder (Or real fetch if preferred)
-        // For efficiency, usually we'd use a dedicated aggregate doc, but let's simulate realistic values
-        setDemographics({
-            exams: { JEE: Math.floor(count * 0.65), NEET: Math.floor(count * 0.3), Other: Math.floor(count * 0.05) },
-            classes: { '11th': Math.floor(count * 0.4), '12th': Math.floor(count * 0.45), 'Dropper': Math.floor(count * 0.15) }
-        });
-
-      } catch (err) {
-        console.error("Failed to load Overview data:", err);
-      } finally {
-        setLoading(false);
-      }
-    };
     fetchData();
   }, []);
 
@@ -91,20 +95,29 @@ export const AdminOverview = () => {
     return () => clearInterval(interval);
   }, []);
 
-  if (loading) return <div className="p-8 text-text-muted animate-pulse">Initializing Overview...</div>;
+  if (loading) return <AdminOverviewSkeleton />;
 
   return (
     <div className="space-y-10 pb-20">
-      <header>
-        <div className="flex items-center gap-3 mb-2">
-          <div className="p-2 bg-primary/10 rounded-lg text-primary">
-            <TrendingUp size={24} />
+      <header className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+        <div>
+          <div className="flex items-center gap-3 mb-2">
+            <div className="p-2 bg-primary/10 rounded-lg text-primary">
+              <TrendingUp size={20} />
+            </div>
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-primary/80">System Command</span>
           </div>
-          <span className="text-xs font-bold uppercase tracking-[0.2em] text-primary/80">System Command</span>
+            <h1 className="text-3xl sm:text-4xl font-heading font-black text-text-main tracking-tight">
+            Admin <span className="text-primary">Overview</span>
+          </h1>
         </div>
-        <h1 className="text-4xl font-heading font-black text-text-main tracking-tight">
-          Admin <span className="text-primary">Overview</span>
-        </h1>
+        <button 
+          onClick={() => fetchData(true)}
+          className="flex items-center gap-2 px-4 py-2 bg-surface border border-white/10 rounded-xl text-sm font-bold text-text-muted hover:text-white hover:border-primary/50 transition-all active:scale-95"
+        >
+          <RotateCw size={16} className={loading ? 'animate-spin' : ''} />
+          Fetch Latest Data
+        </button>
       </header>
 
       {/* Main Stats Grid */}
@@ -167,6 +180,7 @@ export const AdminOverview = () => {
                   <h3 className="text-sm font-bold text-text-main mb-4 flex items-center gap-2">
                      <Users size={16} className="text-blue-400" />
                      Exam Distribution
+                     <span className="text-[8px] bg-sky-500/10 text-sky-400 px-1 rounded">MODELED</span>
                   </h3>
                   <div className="space-y-3">
                       {Object.entries(demographics.exams).map(([exam, count]) => (

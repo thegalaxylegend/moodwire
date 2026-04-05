@@ -1,5 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 import { SITE_URL } from '../../lib/siteConfig';
+import { SOCIAL_LINKS } from '../../lib/constants';
 
 /**
  * AboutAuthor — E-E-A-T Signal Component
@@ -21,6 +22,11 @@ export const AboutAuthor = ({ compact = false }: AboutAuthorProps) => {
         "@type": "Person",
         "name": "Ayush Kumar",
         "url": `${SITE_URL}/about`,
+        "sameAs": [
+            SOCIAL_LINKS.twitter.url,
+            SOCIAL_LINKS.threads.url,
+            SOCIAL_LINKS.linkedin.url
+        ],
         "jobTitle": "Founder & Student Developer",
         "worksFor": {
             "@type": "Organization",

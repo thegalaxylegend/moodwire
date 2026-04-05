@@ -1,6 +1,7 @@
 import { Helmet } from 'react-helmet-async';
 import { useLocation } from 'react-router-dom';
 import { SITE_URL, SITE_NAME } from '../lib/siteConfig';
+import { SOCIAL_LINKS } from '../lib/constants';
 
 
 interface SEOProps {
@@ -93,8 +94,8 @@ export const SEO = (props: SEOProps) => {
 
             {/* Twitter */}
             <meta name="twitter:card" content="summary_large_image" />
-            <meta name="twitter:site" content="@examcompass_ai" />
-            <meta name="twitter:creator" content="@ayush_founder" />
+            <meta name="twitter:site" content={SOCIAL_LINKS.twitter.handle} />
+            <meta name="twitter:creator" content={SOCIAL_LINKS.twitter.creator} />
             <meta name="twitter:title" content={fullTitle} />
             <meta name="twitter:description" content={description} />
             <meta name="twitter:image" content={imageUrl} />

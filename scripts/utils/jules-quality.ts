@@ -58,6 +58,12 @@ const SUBJECT_TO_PATH: Record<string, string> = {
     "English": "/class-10/english/"
 };
 
+// Structural Section Regexes (Shared with Prompt Evolution)
+export const hasAyushNoteRegex = /ayush'?s? note/i;
+export const hasMistakesRegex = /mistakes? that cost marks|trap questions?/i;
+export const hasPyqsRegex = /solved pyqs?/i;
+export const hasFormulaBankRegex = /formula bank|key formulas/i;
+
 const CHAPTER_TO_SUBJECT: Record<string, string> = {
     "Constitutional Framework": "Social Science",
     "Fundamental Rights": "Social Science",
@@ -251,9 +257,9 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
     }
 
     // 2. Mandatory Sections (Robust keywords for new format)
-    const hasAyushNote = /ayush'?s? note/i.test(bodyContent);
-    const hasMistakes = /mistakes? that cost marks|trap questions?/i.test(bodyContent);
-    const hasPyqs = /solved pyqs?/i.test(bodyContent);
+    const hasAyushNote = hasAyushNoteRegex.test(bodyContent);
+    const hasMistakes = hasMistakesRegex.test(bodyContent);
+    const hasPyqs = hasPyqsRegex.test(bodyContent);
     const mcqCount = (post.content?.mcqs || []).length;
 
     if (!hasAyushNote) {

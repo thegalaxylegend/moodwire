@@ -231,7 +231,7 @@ async function main() {
     const cumStats = getCumulativeStats();
     
     // Structure: Header → Cumulative Stats → Latest Entry → Previous Entries
-    let previousEntries = existing
+    const previousEntries = existing
         .replace(/^# 🤖 Jules AI.*?\n\n.*?\n\n/s, '') // Strip old header
         .replace(/## 📊 Cumulative Statistics[\s\S]*?(?=## 📅|$)/, '') // Strip old stats
         .trim();

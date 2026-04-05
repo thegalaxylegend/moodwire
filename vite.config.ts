@@ -40,6 +40,7 @@ export default defineConfig(() => {
           clientsClaim: true,
           globPatterns: ['**/*.{js,css,html,ico,png,svg,jpg,jpeg,json}'],
           maximumFileSizeToCacheInBytes: 15 * 1024 * 1024, // 15MB for large SEO manifests
+          navigateFallbackDenylist: [/^\/admin\/.*/, /firestore\.googleapis\.com/],
           runtimeCaching: [
             {
               urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
@@ -70,6 +71,14 @@ export default defineConfig(() => {
               }
             },
             {
+              // External API calls should never be handled by Workbox if not explicitly cached
+              urlPattern: ({ url }) => 
+                url.origin.includes('firestore.googleapis.com') || 
+                url.origin.includes('google-analytics.com') ||
+                url.origin.includes('datadoghq.com'),
+              handler: 'NetworkOnly'
+            },
+            {
               urlPattern: /^https:\/\/firebasestorage\.googleapis\.com\/.*/i,
               handler: 'StaleWhileRevalidate',
               options: {
@@ -83,7 +92,7 @@ export default defineConfig(() => {
           ]
         },
         devOptions: {
-          enabled: true,
+          enabled: false,
           type: 'module'
         }
       })

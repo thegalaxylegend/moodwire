@@ -1,6 +1,6 @@
 import { useParams, Link } from 'react-router-dom';
 import { SEO } from '../../components/SEO';
-import { EXAM_SUBJECT_MAPPING } from '../../lib/constants';
+import { EXAM_SUBJECT_MAPPING, SOCIAL_LINKS } from '../../lib/constants';
 import { Navbar } from '../../components/Navbar';
 import { SYLLABUS_DB } from '../../lib/constants';
 import { slugify, getSubjectsForExam } from '../../lib/utils';
@@ -54,7 +54,8 @@ export const SubjectPage = () => {
                     "name": "Exam Compass",
                     "sameAs": [
                         "https://www.youtube.com/@moodwire",
-                        "https://twitter.com/examcompass_ai"
+                        SOCIAL_LINKS.twitter.url,
+                        SOCIAL_LINKS.threads.url
                     ],
                     "url": SITE_URL
                 },

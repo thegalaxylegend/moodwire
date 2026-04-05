@@ -205,7 +205,7 @@ export const SyllabusUpload = () => {
                         </div>
                         <div className="space-y-4">
                             <h3 className="font-bold text-text-main">Built-in Syllabus Preview:</h3>
-                            <ul className="grid grid-cols-2 gap-4">
+                            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                                 {Object.entries(SYLLABUS_DB).map(([subject, topics]) => (
                                     <li key={subject} className="bg-surface p-3 rounded border border-white/5 flex justify-between">
                                         <span>{subject}</span>
@@ -231,7 +231,7 @@ export const SyllabusUpload = () => {
                                         <X size={12} /> Clear
                                     </button>
                                 </div>
-                                <ul className="grid grid-cols-2 gap-4">
+                                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                                     {Object.entries(groupedImport).map(([subject, topics]) => (
                                         <li key={subject} className="bg-surface p-3 rounded border border-white/5 flex justify-between">
                                             <span>{subject}</span>

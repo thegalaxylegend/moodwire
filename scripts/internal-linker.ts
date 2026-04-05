@@ -60,32 +60,63 @@ function extractKeywords(slug: string, title: string, body: string): string[] {
     return Array.from(keywords);
 }
 
+// Global Inverted Index for O(N) lookup
+const keywordIndex: Map<string, string[]> = new Map();
+const categoryIndex: Map<string, string[]> = new Map();
+
+function buildInvertedIndex(allBlogs: BlogInfo[]) {
+    keywordIndex.clear();
+    categoryIndex.clear();
+    for (const blog of allBlogs) {
+        // Index by category
+        if (!categoryIndex.has(blog.category)) categoryIndex.set(blog.category, []);
+        categoryIndex.get(blog.category)!.push(blog.slug);
+        
+        // Index by keywords
+        for (const kw of blog.keywords) {
+            if (!keywordIndex.has(kw)) keywordIndex.set(kw, []);
+            keywordIndex.get(kw)!.push(blog.slug);
+        }
+    }
+}
+
 function findRelatedBlogs(blog: BlogInfo, allBlogs: BlogInfo[]): Array<{ slug: string; title: string; relevance: number }> {
+    const candidateScores: Map<string, number> = new Map();
+    const blogClass = blog.slug.match(/class-(\d+)/)?.[1];
+    const blogTopicWords = blog.slug.split('-').filter(w => w.length > 3);
+
+    // 1. Same category candidates
+    const sameCat = categoryIndex.get(blog.category) || [];
+    for (const slug of sameCat) {
+        if (slug === blog.slug) continue;
+        candidateScores.set(slug, (candidateScores.get(slug) || 0) + 2);
+    }
+
+    // 2. Keyword overlap candidates (The O(1) lookup part)
+    for (const kw of blog.keywords) {
+        const matchingSlugs = keywordIndex.get(kw) || [];
+        for (const slug of matchingSlugs) {
+            if (slug === blog.slug) continue;
+            candidateScores.set(slug, (candidateScores.get(slug) || 0) + 3);
+        }
+    }
+
+    // 3. Final scoring and mapping
     const related: Array<{ slug: string; title: string; relevance: number }> = [];
-    
-    for (const other of allBlogs) {
-        if (other.slug === blog.slug) continue;
-        
-        let relevance = 0;
-        
-        // Same category bonus
-        if (blog.category === other.category) relevance += 2;
-        
-        // Keyword overlap
-        const overlap = blog.keywords.filter(k => other.keywords.includes(k)).length;
-        relevance += overlap * 3;
-        
-        // Class number match
-        const blogClass = blog.slug.match(/class-(\d+)/)?.[1];
+    const blogLookup = new Map(allBlogs.map(b => [b.slug, b]));
+
+    for (const [slug, score] of candidateScores.entries()) {
+        const other = blogLookup.get(slug);
+        if (!other) continue;
+
+        let relevance = score;
         const otherClass = other.slug.match(/class-(\d+)/)?.[1];
         if (blogClass && otherClass && blogClass === otherClass) relevance += 1;
-        
-        // Topic word match in slug
-        const blogTopicWords = blog.slug.split('-').filter(w => w.length > 3);
+
         const otherTopicWords = other.slug.split('-').filter(w => w.length > 3);
         const slugOverlap = blogTopicWords.filter(w => otherTopicWords.includes(w)).length;
         relevance += slugOverlap * 2;
-        
+
         if (relevance >= 4) {
             related.push({ slug: other.slug, title: other.title, relevance });
         }
@@ -188,13 +219,21 @@ async function main() {
         });
     }
     
-    // Step 2: Count incoming links
-    for (const blog of blogs) {
-        for (const other of blogs) {
-            if (other.slug === blog.slug) continue;
-            if (other.bodyLower.includes(`/blog/${blog.slug}`)) {
-                blog.incomingLinks++;
-            }
+    // Step 2: Build Inverted Index and count incoming links
+    buildInvertedIndex(blogs);
+    
+    // Fast incoming link scan: pre-calculate all link sets
+    const linkMap: Map<string, string[]> = new Map();
+    for (const b of blogs) {
+        const foundLinks = b.bodyLower.match(/\/blog\/([a-z0-9-]+)/g) || [];
+        linkMap.set(b.slug, foundLinks.map(l => l.replace('/blog/', '')));
+    }
+
+    const blogMap = new Map(blogs.map(b => [b.slug, b]));
+    for (const [sourceSlug, links] of linkMap.entries()) {
+        for (const targetSlug of links) {
+            const targetBlog = blogMap.get(targetSlug);
+            if (targetBlog) targetBlog.incomingLinks++;
         }
     }
     
@@ -211,7 +250,7 @@ async function main() {
         if (related.length === 0) continue;
         
         const filePath = path.join(BLOG_DIR, `${blog.slug}.md`);
-        let content = fs.readFileSync(filePath, 'utf-8');
+        const content = fs.readFileSync(filePath, 'utf-8');
         
         // Separate frontmatter and body
         const fmMatch = content.match(/^(---[\s\S]*?---\r?\n)([\s\S]*)$/);

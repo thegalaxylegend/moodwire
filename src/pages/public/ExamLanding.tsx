@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { SEO } from '../../components/SEO';
 import { Navbar } from '../../components/Navbar';
 import { ArrowRight } from 'lucide-react';
-import { SYLLABUS_DB } from '../../lib/constants';
+import { SYLLABUS_DB, SOCIAL_LINKS } from '../../lib/constants';
 import { slugify, getSubjectsForExam } from '../../lib/utils';
 import { Footer } from '../../components/Footer';
 import { SocialShare } from '../../components/SocialShare';
@@ -89,7 +89,8 @@ export const ExamLanding = () => {
                 "logo": SITE_LOGO,
                 "sameAs": [
                     "https://www.youtube.com/@moodwire",
-                    "https://twitter.com/examcompass_ai"
+                    SOCIAL_LINKS.twitter.url,
+                    SOCIAL_LINKS.threads.url
                 ],
                 "url": SITE_URL
             },
@@ -316,8 +317,10 @@ export const ExamLanding = () => {
                             role="Founder & EdTech Visionary"
                             bio="On a mission to make world-class competitive exam preparation accessible to every Indian student through AI. Built ExamCompass to ensure adaptive engines stay ahead of the latest exam patterns."
                             credentials={["Founder, Exam Compass", "AI Strategy Expert", "STEM Education Advocate"]}
-                            linkedin="https://linkedin.com"
-                            twitter="https://twitter.com"
+                            linkedin={SOCIAL_LINKS.linkedin.url}
+                            twitter={SOCIAL_LINKS.twitter.url}
+                            threads={SOCIAL_LINKS.threads.url}
+                            instagram={SOCIAL_LINKS.instagram.url}
                         />
                     </div>
                 </section>

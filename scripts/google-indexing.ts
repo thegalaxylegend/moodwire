@@ -11,6 +11,8 @@ const __dirname = path.dirname(__filename);
 
 const SLUGS_FILE = path.join(__dirname, '../generated-slugs.txt');
 const HOST = 'https://examcompass.pages.dev';
+const MANIFEST_FILE = path.join(__dirname, '../public/seo-manifest.json');
+const MAX_DAILY_INDEXING = 200;
 
 async function indexNewUrls() {
     console.log('🚀 Checking for new URLs to index via Google Indexing API...');
@@ -20,7 +22,10 @@ async function indexNewUrls() {
         return;
     }
 
-    const slugs = fs.readFileSync(SLUGS_FILE, 'utf8')
+    // Remove null bytes caused if powershell generated the UTF-16LE text file
+    const raw = fs.readFileSync(SLUGS_FILE, 'utf8').replace(/\0/g, '').replace(/^\uFEFF/, '');
+    
+    const slugs = raw
         .split('\n')
         .map(s => s.trim())
         .filter(Boolean);
@@ -59,10 +64,27 @@ async function indexNewUrls() {
 
     const indexing = google.indexing({ version: 'v3', auth });
 
+    // Load SEO Manifest to check types
+    let manifest: any = {};
+    if (fs.existsSync(MANIFEST_FILE)) {
+        manifest = JSON.parse(fs.readFileSync(MANIFEST_FILE, 'utf-8'));
+    }
+
     const results: any[] = [];
+    let indexingCount = 0;
+    let sitemapPingSent = false;
+
     for (const slug of slugs) {
         const url = `${HOST}/blog/${slug}`;
-        console.log(`📡 Pinging Google for: ${url}...`);
+        // Directly push blog URLs to the Indexing API instead of basic sitemap pings
+
+        if (indexingCount >= MAX_DAILY_INDEXING) {
+            console.log(`⚠️ Daily Indexing API quota reached (${MAX_DAILY_INDEXING}). Skipping ${slug}.`);
+            results.push({ slug, url, status: 'Quota-Exceeded', timestamp: new Date().toISOString() });
+            continue;
+        }
+
+        console.log(`📡 Pinging Google Indexing API for: ${url}...`);
 
         try {
             const res = await indexing.urlNotifications.publish({
@@ -73,6 +95,7 @@ async function indexNewUrls() {
                 }
             });
             console.log(`✅ Success for ${slug} (Status: ${res.status})`);
+            indexingCount++;
             results.push({ slug, url, status: 'Success', timestamp: new Date().toISOString() });
         } catch (err: any) {
             const errorMsg = err.response?.data?.error?.message || err.message;

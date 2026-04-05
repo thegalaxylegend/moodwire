@@ -34,7 +34,7 @@ async function verifySanityCheck() {
                 noCache: true 
             });
 
-            let statusStr = result ? "✅ APPROVED (Could still be wrong)" : "🛡️ REJECTED (Expected for flawed data)";
+            const statusStr = result ? "✅ APPROVED (Could still be wrong)" : "🛡️ REJECTED (Expected for flawed data)";
             
             let entry = `### Topic: ${test.topic} (${test.desc})\n`;
             entry += `**Status**: ${statusStr}\n\n`;

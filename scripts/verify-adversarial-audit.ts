@@ -39,7 +39,7 @@ async function runAdversarialAudit() {
                 noCache: true 
             });
 
-            let statusStr = result ? "✅ APPROVED (Passed Adversarial Wall)" : "🛡️ REJECTED (Caught by Auditor)";
+            const statusStr = result ? "✅ APPROVED (Passed Adversarial Wall)" : "🛡️ REJECTED (Caught by Auditor)";
             
             let entry = `### Topic: ${test.topic} (${test.desc})\n`;
             entry += `**Status**: ${statusStr}\n\n`;

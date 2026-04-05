@@ -382,3 +382,30 @@ export const EXAM_SUBJECT_MAPPING: Record<string, string[]> = {
     'class-9': ['Mathematics', 'Science', 'Social Science', 'English'],
     'class-8': ['Mathematics', 'Science', 'Social Science', 'English'],
 };
+
+export const SOCIAL_LINKS = {
+    twitter: {
+        id: 'Ayush_thelegend',
+        url: 'https://twitter.com/Ayush_thelegend',
+        handle: '@Ayush_thelegend',
+        creator: '@Ayush_thelegend'
+    },
+    threads: {
+        id: 'mr._.ayush_kr',
+        url: 'https://www.threads.net/@mr._.ayush_kr',
+        handle: '@mr._.ayush_kr'
+    },
+    instagram: {
+        id: 'mr._.ayush_kr',
+        url: 'https://www.instagram.com/mr._.ayush_kr',
+        handle: '@mr._.ayush_kr'
+    },
+    discord: {
+        id: 'hbPWvW3djy',
+        url: 'https://discord.gg/hbPWvW3djy'
+    },
+    linkedin: {
+        url: 'https://linkedin.com/company/examcompass'
+    },
+    email: 'contact@examcompass.pages.dev'
+};

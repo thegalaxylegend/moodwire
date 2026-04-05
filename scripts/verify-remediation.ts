@@ -35,7 +35,7 @@ async function verifyRemediation() {
                 noCache: true // Force new generation to bypass old bad data
             });
 
-            let statusStr = result ? (result.confidence === 0.70 ? "🛠️ REFIXED" : "✅ APPROVED") : "❌ REJECTED (Expected for some)";
+            const statusStr = result ? (result.confidence === 0.70 ? "🛠️ REFIXED" : "✅ APPROVED") : "❌ REJECTED (Expected for some)";
             
             let entry = `### Topic: ${test.topic} (${test.desc})\n`;
             entry += `**Status**: ${statusStr}\n\n`;

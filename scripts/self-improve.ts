@@ -174,7 +174,7 @@ async function main() {
             console.log(`     Version: ${evolved.version?.substring(0, 19) || 'unknown'}`);
             console.log(`     Confidence: ${((evolved.confidence || 0) * 100).toFixed(0)}%`);
             console.log(`     Prompt length: ${evolved.evolvedPrompt?.length || 0} chars`);
-            if (evolved.changelog?.length > 0) {
+            if (Array.isArray(evolved.changelog) && evolved.changelog.length > 0) {
                 console.log(`     Changes: ${evolved.changelog.length}`);
                 evolved.changelog.slice(0, 3).forEach((c: string) => console.log(`       • ${c.substring(0, 70)}`));
             }

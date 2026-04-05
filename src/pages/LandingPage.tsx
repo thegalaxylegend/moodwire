@@ -11,6 +11,7 @@ import { SEO } from '../components/SEO';
 import { AboutAuthor } from '../components/seo/AboutAuthor';
 import { Footer } from '../components/Footer';
 import { SITE_URL, SITE_OG_IMAGE } from '../lib/siteConfig';
+import { SOCIAL_LINKS } from '../lib/constants';
 
 // Animated Counter Hook — optimized for mobile
 const useCountUp = (end: number, duration: number = 2000, startOnView: boolean = true) => {
@@ -130,8 +131,9 @@ export const LandingPage = () => {
                                 ]
                             },
                             "sameAs": [
-                                `${SITE_URL}/blog`,
-                                `${SITE_URL}/about`
+                                SOCIAL_LINKS.twitter.url,
+                                SOCIAL_LINKS.threads.url,
+                                `${SITE_URL}/blog`
                             ]
                         }
                     ]

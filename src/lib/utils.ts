@@ -231,7 +231,7 @@ function repairTruncatedJSON(str: string): string {
 
 function sanitizeJSONString(str: string): string {
     // 1. Remove trailing commas and control chars except newlines (\n), carriage returns (\r), or tabs (\t)
-    let sanitized = str
+    const sanitized = str
         .replace(/,\s*([\]}])/g, '$1') // Remove trailing commas
         .replace(/[\u0000-\u0008\u000B-\u000C\u000E-\u001F\u007F-\u009F]/g, "") // Keep 9 (\t), 10 (\n), 13 (\r)
         .trim();

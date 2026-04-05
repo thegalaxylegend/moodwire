@@ -80,6 +80,7 @@
     "remark-math": "^6.0.0",
     "tailwind-merge": "^3.4.0",
     "three": "^0.182.0",
+    "twitter-api-v2": "^1.29.0",
     "zustand": "^5.0.9"
   },
   "devDependencies": {
@@ -128,14 +129,20 @@
       "package.json"
     ],
     "mac": {
-      "target": ["dmg"]
+      "target": [
+        "dmg"
+      ]
     },
     "win": {
-      "target": ["nsis"],
+      "target": [
+        "nsis"
+      ],
       "icon": "public/favicon.ico"
     },
     "linux": {
-      "target": ["AppImage"]
+      "target": [
+        "AppImage"
+      ]
     }
   }
 }

@@ -39,7 +39,7 @@ export const Login = () => {
         if (isSignUp && selectedClass) {
             try {
                 const existing = localStorage.getItem('exam_compass_intent');
-                let intent = existing ? JSON.parse(existing) : { savedAt: Date.now() };
+                const intent = existing ? JSON.parse(existing) : { savedAt: Date.now() };
                 
                 // Only overwrite if it matches reality
                 intent.class = selectedClass;

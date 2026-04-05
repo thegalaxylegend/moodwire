@@ -10,7 +10,7 @@ import { MissionService } from '../services/missionService';
 import { getCurrentSeason, getCurrentPointCycle } from '../services/gamificationService';
 import { getUserStats } from '../services/leaderboardService';
 import { storageService } from '../services/storageService';
-import { REFERRAL_TTL_MS, TEST_INACTIVITY_TTL_MS, PUBLIC_PROFILE_FIELDS } from '../lib/securityConfig';
+import { REFERRAL_TTL_MS, TEST_INACTIVITY_TTL_MS, PUBLIC_PROFILE_FIELDS, ADMIN_EMAILS } from '../lib/securityConfig';
 
 export type User = {
     id: string;
@@ -264,7 +264,7 @@ export const useUserStore = create<UserState>((set, get) => ({
                                     streak: 0,
                                     onboarding_completed: false,
                                     migration_source: migrationSource,
-                                    role: user.email.toLowerCase() === 'thegalaxylegend2007@gmail.com' ? 'admin' : 'user'
+                                    role: (user.email && ADMIN_EMAILS.includes(user.email.toLowerCase())) ? 'admin' : 'user'
                                 };
                                 await setDoc(docRef, profile, { merge: true });
 
@@ -324,7 +324,7 @@ export const useUserStore = create<UserState>((set, get) => ({
                 console.log(`👤 [Auth] User Detected: ${user.email} (Photo: ${user.photoURL})`);
                 
                 // --- SUPER ADMIN BOOTSTRAP ---
-                if (user.email?.toLowerCase() === 'thegalaxylegend2007@gmail.com') {
+                if (user.email && ADMIN_EMAILS.includes(user.email.toLowerCase())) {
                     console.log("🛡️ [Security] Bootstrap Admin Detected. Elevating privileges.");
                     if (profile) profile.role = 'admin';
                 }

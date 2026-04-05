@@ -494,7 +494,7 @@ function safelyParseJson(raw: string): any {
 
     try {
         // Fix literal newlines/tabs/carriage-returns inside JSON string values
-        let cleaned = jsonStr.replace(/"([^"]*)"/g, (match, p1) => {
+        const cleaned = jsonStr.replace(/"([^"]*)"/g, (match, p1) => {
             return '"' + p1
                 .replace(/\n/g, "\\n")   // literal newline → escaped
                 .replace(/\r/g, "\\r")   // literal CR → escaped

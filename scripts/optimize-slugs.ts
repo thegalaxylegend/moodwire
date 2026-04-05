@@ -30,7 +30,7 @@ function extractClassAndTopic(filename: string) {
     const classMatch = filename.match(/class-(\d+)/i);
     const classNum = classMatch ? parseInt(classMatch[1]) : 11;
     
-    let topic = filename
+    const topic = filename
         .replace(/\.md$/, '')
         .replace(/class-\d+-notes/i, '')
         .replace(/revision-notes/i, '')

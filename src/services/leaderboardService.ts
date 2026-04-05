@@ -71,7 +71,7 @@ export const updateLeaderboard = async (
     try {
         await runTransaction(db, async (transaction) => {
             const leaderboardDoc = await transaction.get(leaderboardRef);
-            let currentStats = leaderboardDoc.exists() ? leaderboardDoc.data() : {
+            const currentStats = leaderboardDoc.exists() ? leaderboardDoc.data() : {
                 totalScore: 0,
                 testsTaken: 0,
                 dailyStats: { date: todayStr, count: 0 }

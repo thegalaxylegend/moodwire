@@ -7,9 +7,11 @@ import {
   Zap, 
   Database,
   Cpu,
-  Sparkles
+  Sparkles,
+  RotateCw
 } from 'lucide-react';
 import { StatCard } from '../../../components/admin/StatCard';
+import { StatCardSkeleton } from '../../../components/skeletons/AdminSkeleton';
 
 import { db } from '../../../lib/firebase';
 import { collection, getCountFromServer, query, where } from 'firebase/firestore';
@@ -28,52 +30,77 @@ export const JulesIntelligence = () => {
       difficulty: { Easy: 0, Medium: 0, Hard: 0 }
   });
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const [syllabusRes, logsRes, totalQ, easyQ, medQ, hardQ] = await Promise.all([
-          fetch('/jules-reports/syllabus-completion.json'),
-          fetch('/jules-reports/seo-optimization-log.json'),
-          getCountFromServer(collection(db, 'engine_questions')),
-          getCountFromServer(query(collection(db, 'engine_questions'), where('difficulty', '==', 'Easy'))),
-          getCountFromServer(query(collection(db, 'engine_questions'), where('difficulty', '==', 'Medium'))),
-          getCountFromServer(query(collection(db, 'engine_questions'), where('difficulty', '==', 'Hard')))
-        ]);
+  const fetchData = async (showLoading = true) => {
+    if (showLoading) setLoading(true);
+    try {
+      const [syllabusRes, logsRes, totalQ, easyQ, medQ, hardQ] = await Promise.all([
+        fetch('/jules-reports/syllabus-completion.json'),
+        fetch('/jules-reports/seo-optimization-log.json'),
+        getCountFromServer(collection(db, 'engine_questions')),
+        getCountFromServer(query(collection(db, 'engine_questions'), where('difficulty', '==', 'Easy'))),
+        getCountFromServer(query(collection(db, 'engine_questions'), where('difficulty', '==', 'Medium'))),
+        getCountFromServer(query(collection(db, 'engine_questions'), where('difficulty', '==', 'Hard')))
+      ]);
 
-        if (syllabusRes.ok) setSyllabusData(await syllabusRes.json());
-        if (logsRes.ok) setLogs(await logsRes.json() || []);
-        
-        setQStats({
-            total: (totalQ as any).data().count,
-            difficulty: {
-                Easy: (easyQ as any).data().count,
-                Medium: (medQ as any).data().count,
-                Hard: (hardQ as any).data().count
-            }
-        });
-      } catch (err) {
-        console.error("Failed to load Jules intelligence data:", err);
-      } finally {
-        setLoading(false);
-      }
-    };
+      if (syllabusRes.ok) setSyllabusData(await syllabusRes.json());
+      if (logsRes.ok) setLogs(await logsRes.json() || []);
+      
+      setQStats({
+          total: (totalQ as any).data().count,
+          difficulty: {
+              Easy: (easyQ as any).data().count,
+              Medium: (medQ as any).data().count,
+              Hard: (hardQ as any).data().count
+          }
+      });
+    } catch (err) {
+      console.error("Failed to load Jules intelligence data:", err);
+    } finally {
+      if (showLoading) setLoading(false);
+    }
+  };
+
+  useEffect(() => {
     fetchData();
   }, []);
 
-  if (loading) return <div className="p-8 text-text-muted animate-pulse">Initializing Jules Subsystems...</div>;
+  if (loading && !syllabusData) return (
+    <div className="space-y-10 pb-20 animate-pulse">
+        <div className="h-10 w-64 bg-white/5 rounded-xl" />
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <StatCardSkeleton />
+            <StatCardSkeleton />
+            <StatCardSkeleton />
+        </div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <div className="h-64 bg-white/5 rounded-3xl" />
+            <div className="h-64 bg-white/5 rounded-3xl" />
+        </div>
+    </div>
+  );
 
   return (
     <div className="space-y-10 pb-20">
-      <header>
-        <div className="flex items-center gap-3 mb-2">
-          <div className="p-2 bg-purple-500/10 rounded-lg text-purple-400">
-            <Brain size={24} />
+      <header className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+        <div>
+          <div className="flex items-center gap-3 mb-2">
+            <div className="p-2 bg-purple-500/10 rounded-lg text-purple-400">
+              <Brain size={20} />
+            </div>
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-purple-400/80">AI Core Monitor</span>
           </div>
-          <span className="text-xs font-bold uppercase tracking-[0.2em] text-purple-400/80">AI Core Monitor</span>
+          <h1 className="text-3xl sm:text-4xl font-heading font-black text-text-main tracking-tight">
+            Jules <span className="text-purple-400">Intelligence</span>
+          </h1>
         </div>
-        <h1 className="text-4xl font-heading font-black text-text-main tracking-tight">
-          Jules <span className="text-purple-400">Intelligence</span>
-        </h1>
+        <button 
+          onClick={() => fetchData(true)}
+          disabled={loading}
+          className="flex items-center gap-2 px-4 py-2 bg-surface border border-white/10 rounded-xl text-sm font-bold text-text-muted hover:text-white hover:border-purple-500/50 transition-all active:scale-95 disabled:opacity-50"
+        >
+          <RotateCw size={16} className={loading ? 'animate-spin' : ''} />
+          Fetch Latest
+        </button>
       </header>
 
       {/* AI Metrics */}

@@ -1,9 +1,10 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { askAI } from '../../lib/ai';
 import { extractJSON } from '../../lib/utils';
 import { db } from '../../lib/firebase';
 import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
-import { Loader2, CheckCircle, Brain, Edit2, Trash2, Database } from 'lucide-react';
+import { Loader2, CheckCircle, Brain, Edit2, Trash2, Database, RotateCw } from 'lucide-react';
+import { getCountFromServer } from 'firebase/firestore';
 import { z } from 'zod';
 
 type Question = {
@@ -36,12 +37,25 @@ export const QuestionReview = () => {
             
             CRITICAL INSTRUCTIONS:
             1. ACCURACY: 100% Correctness required.
-            2. FORMAT: JSON Array.
+            2. FORMAT: Return ONLY a raw JSON Array within a markdown code block.
             3. DIFFICULTY: JEE Main / NEET Level.
             4. PYQ: Prefer Past Year Questions if possible.
 
-            Format:
-            [ { "id": 1, "text": "Question...", "options": ["A", "B", "C", "D"], "correctAnswer": 0, "explanation": "Rationale...", "topic": "${topic}", "difficulty": "Medium", "sourceYear": "2023" } ]
+            Example format:
+            \`\`\`json
+            [
+              {
+                "id": 1,
+                "text": "Question text...",
+                "options": ["Option A", "Option B", "Option C", "Option D"],
+                "correctAnswer": 0,
+                "explanation": "Detailed explanation...",
+                "topic": "${topic}",
+                "difficulty": "Medium",
+                "sourceYear": "2023"
+              }
+            ]
+            \`\`\`
         `;
 
         try {
@@ -65,8 +79,11 @@ export const QuestionReview = () => {
                     const mapped = validation.data.map((q, i) => ({ ...q, id: i + 1, topic }));
                     setGeneratedQuestions(mapped as Question[]);
                 } else {
-                    alert("Validation Failed. AI returned bad data.");
-                    console.error(validation.error);
+                    console.group("❌ AI Data Validation Failed");
+                    console.error("Errors:", validation.error.format());
+                    console.log("Raw Data:", parsed);
+                    console.groupEnd();
+                    alert("Validation Failed. AI returned inconsistent data. Check console for details.");
                 }
             }
         } catch (e) {
@@ -107,24 +124,52 @@ export const QuestionReview = () => {
     const saveEdit = () => {
         if (!editForm) return;
         setGeneratedQuestions(prev => prev.map(q => q.id === editForm.id ? editForm : q));
-        setEditingId(null);
         setEditForm(null);
     };
 
+    const [isRefreshingStats, setIsRefreshingStats] = useState(false);
+
+    const refreshStats = async () => {
+        setIsRefreshingStats(true);
+        try {
+            const snap = await getCountFromServer(collection(db, 'verified_questions'));
+            setApprovedCount((snap as any).data().count || 0);
+        } catch (e) {
+            console.error("Failed to refresh stats", e);
+        } finally {
+            setIsRefreshingStats(false);
+        }
+    };
+
+    // Initial load of stats
+    useEffect(() => {
+        refreshStats();
+    }, []);
+
     return (
         <div className="space-y-6">
-            <header className="flex justify-between items-center">
+            <header className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
                 <div>
-                    <h1 className="text-3xl font-bold text-text-main font-heading">Question Verification</h1>
-                    <p className="text-text-muted">Human-in-the-loop accuracy engine.</p>
+                    <h1 className="text-2xl sm:text-3xl font-bold text-text-main font-heading tracking-tight">Question Verification</h1>
+                    <p className="text-text-muted text-sm sm:text-base">Human-in-the-loop accuracy engine.</p>
                 </div>
-                <div className="text-green-500 font-bold bg-green-500/10 px-4 py-2 rounded-lg border border-green-500/20">
-                    {approvedCount} Questions Verified
+                <div className="flex items-center gap-4">
+                    <button 
+                        onClick={refreshStats}
+                        disabled={isRefreshingStats}
+                        className="p-2 text-text-muted hover:text-white transition-colors"
+                        title="Refresh Stats"
+                    >
+                        <RotateCw size={18} className={isRefreshingStats ? 'animate-spin' : ''} />
+                    </button>
+                    <div className="text-green-500 font-bold bg-green-500/10 px-4 py-2 rounded-lg border border-green-500/20 text-sm whitespace-nowrap">
+                        {approvedCount} Questions Verified
+                    </div>
                 </div>
             </header>
 
             {/* Controls */}
-            <div className="glass-card p-6 flex gap-4 items-end">
+            <div className="glass-card p-4 sm:p-6 flex flex-col sm:flex-row gap-4 items-stretch sm:items-end">
                 <div className="flex-1">
                     <label className="text-xs font-bold text-text-muted uppercase mb-1 block">Topic Focus</label>
                     <input
@@ -134,7 +179,7 @@ export const QuestionReview = () => {
                         className="w-full bg-surface/50 border border-white/10 rounded-lg px-4 py-2 text-text-main focus:border-primary outline-none"
                     />
                 </div>
-                <div className="w-32">
+                <div className="w-full sm:w-32">
                     <label className="text-xs font-bold text-text-muted uppercase mb-1 block">Batch Size</label>
                     <input
                         type="number"
@@ -146,10 +191,10 @@ export const QuestionReview = () => {
                 <button
                     onClick={handleGenerate}
                     disabled={isGenerating}
-                    className="bg-primary text-white px-6 py-2 rounded-lg font-bold flex items-center gap-2 hover:bg-primary-dark transition-colors disabled:opacity-50"
+                    className="bg-primary text-white px-6 py-2 rounded-lg font-bold flex items-center justify-center gap-2 hover:bg-primary-dark transition-colors disabled:opacity-50 h-[42px]"
                 >
                     {isGenerating ? <Loader2 className="animate-spin" size={20} /> : <Brain size={20} />}
-                    {isGenerating ? 'Analyzing...' : 'Generate Batch'}
+                    <span className="whitespace-nowrap">{isGenerating ? 'Analyzing...' : 'Generate Batch'}</span>
                 </button>
             </div>
 
@@ -165,7 +210,7 @@ export const QuestionReview = () => {
                                     onChange={e => setEditForm({ ...editForm, text: e.target.value })}
                                     className="w-full bg-black/20 p-2 rounded border border-white/10 text-white min-h-[80px]"
                                 />
-                                <div className="grid grid-cols-2 gap-2">
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                                     {editForm.options.map((opt, idx) => (
                                         <div key={idx} className="flex gap-2">
                                             <input
@@ -173,6 +218,7 @@ export const QuestionReview = () => {
                                                 name={`correct-${q.id}`}
                                                 checked={editForm.correctAnswer === idx}
                                                 onChange={() => setEditForm({ ...editForm, correctAnswer: idx })}
+                                                className="mt-3 shrink-0"
                                             />
                                             <input
                                                 value={opt}
@@ -181,7 +227,7 @@ export const QuestionReview = () => {
                                                     newOpts[idx] = e.target.value;
                                                     setEditForm({ ...editForm, options: newOpts });
                                                 }}
-                                                className="flex-1 bg-black/20 p-2 rounded border border-white/10 text-white"
+                                                className="flex-1 bg-black/20 p-2 rounded border border-white/10 text-white min-w-0"
                                             />
                                         </div>
                                     ))}
@@ -211,12 +257,12 @@ export const QuestionReview = () => {
                                     </div>
                                 </div>
 
-                                <div className="grid grid-cols-2 gap-3 mb-4">
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-4">
                                     {q.options.map((opt, idx) => (
-                                        <div key={idx} className={`p-3 rounded-lg border ${idx === q.correctAnswer ? 'bg-green-500/10 border-green-500/50' : 'bg-surface border-white/5'} text-sm`}>
-                                            <span className="font-bold opacity-50 mr-2">{String.fromCharCode(65 + idx)}.</span>
-                                            <span className={idx === q.correctAnswer ? 'text-green-400 font-bold' : 'text-text-muted'}>{opt}</span>
-                                            {idx === q.correctAnswer && <CheckCircle size={14} className="inline ml-2 text-green-500" />}
+                                        <div key={idx} className={`p-3 rounded-lg border ${idx === q.correctAnswer ? 'bg-green-500/10 border-green-500/50' : 'bg-surface border-white/5'} text-sm flex gap-2`}>
+                                            <span className="font-bold opacity-50 shrink-0">{String.fromCharCode(65 + idx)}.</span>
+                                            <span className={`flex-1 ${idx === q.correctAnswer ? 'text-green-400 font-bold' : 'text-text-muted'}`}>{opt}</span>
+                                            {idx === q.correctAnswer && <CheckCircle size={14} className="shrink-0 mt-0.5 text-green-500" />}
                                         </div>
                                     ))}
                                 </div>
@@ -239,10 +285,22 @@ export const QuestionReview = () => {
                 ))}
 
                 {generatedQuestions.length === 0 && !isGenerating && (
-                    <div className="text-center py-20 text-text-muted opacity-50">
-                        <Database size={48} className="mx-auto mb-4" />
-                        <p>No questions pending review.</p>
-                        <p className="text-xs">Generate a batch to get started.</p>
+                    <div className="glass-card py-20 text-center border-dashed border-2 border-white/5 bg-transparent">
+                        <div className="max-w-md mx-auto space-y-4">
+                            <div className="w-16 h-16 bg-surface rounded-2xl flex items-center justify-center mx-auto mb-6 text-text-muted/30">
+                                <Database size={32} />
+                            </div>
+                            <h2 className="text-xl font-bold text-text-main">No questions pending review</h2>
+                            <p className="text-text-muted text-sm px-8">
+                                Use the generator above to create a fresh batch of high-quality questions for {topic}.
+                            </p>
+                            <button
+                                onClick={handleGenerate}
+                                className="px-6 py-2 bg-primary/10 text-primary border border-primary/20 rounded-xl font-bold hover:bg-primary/20 transition-all flex items-center gap-2 mx-auto"
+                            >
+                                <Brain size={18} /> Generate Batch Now
+                            </button>
+                        </div>
                     </div>
                 )}
             </div>

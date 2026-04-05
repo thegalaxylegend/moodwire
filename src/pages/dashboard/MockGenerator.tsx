@@ -427,7 +427,7 @@ export const MockGenerator = () => {
     };
 
     const generateQuestionsBatch = async (subject: string, count: number, _context: string, startId: number): Promise<Question[]> => {
-        let collected: Question[] = [];
+        const collected: Question[] = [];
         const targetExam = user?.targetExam || "JEE Mains";
         const seenQuestions = new Set<string>();
 

@@ -33,7 +33,7 @@ const createRanks = (type: 'xp' | 'pts' = 'xp') => {
     const tiers = type === 'xp' ? xpTiers : ptsTiers;
     const gmThreshold = type === 'xp' ? 50000 : 100000;
 
-    let ranks: Rank[] = [];
+    const ranks: Rank[] = [];
 
     tiers.forEach(tier => {
         const range = tier.end - tier.start;

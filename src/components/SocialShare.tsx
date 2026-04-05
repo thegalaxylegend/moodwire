@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Share2, Send, MessageCircle, Copy, Check } from 'lucide-react';
+import { Share2, Send, MessageCircle, Copy, Check, Twitter } from 'lucide-react';
 
 interface SocialShareProps {
     title: string;
@@ -20,7 +20,8 @@ export const SocialShare: React.FC<SocialShareProps> = ({
     const shareData = {
         whatsapp: `https://api.whatsapp.com/send?text=${encodeURIComponent(`${title} - ${url}`)}`,
         telegram: `https://t.me/share/url?url=${encodeURIComponent(url)}&text=${encodeURIComponent(title)}`,
-        twitter: `https://twitter.com/intent/tweet?text=${encodeURIComponent(title)}&url=${encodeURIComponent(url)}`
+        twitter: `https://twitter.com/intent/tweet?text=${encodeURIComponent(title)}&url=${encodeURIComponent(url)}`,
+        threads: `https://www.threads.net/intent/post?text=${encodeURIComponent(`${title} - ${url}`)}`
     };
 
     const copyToClipboard = () => {
@@ -53,6 +54,26 @@ export const SocialShare: React.FC<SocialShareProps> = ({
                 title="Share on Telegram"
             >
                 <Send size={20} />
+            </a>
+
+            <a 
+                href={shareData.twitter} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-2.5 bg-white/5 text-white rounded-xl hover:bg-white/10 transition-colors border border-white/10"
+                title="Share on X"
+            >
+                <Twitter size={20} />
+            </a>
+
+            <a 
+                href={shareData.threads} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-2.5 bg-white/5 text-white rounded-xl hover:bg-white/10 transition-colors border border-white/10"
+                title="Share on Threads"
+            >
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="4"/><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-4 8"/></svg>
             </a>
 
             <button 

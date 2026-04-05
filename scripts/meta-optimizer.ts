@@ -75,7 +75,7 @@ OUTPUT FORMAT (JSON ONLY):
         const optimized = JSON.parse(cleanedJson);
 
         // Update frontmatter
-        let updatedFrontmatter = frontmatter
+        const updatedFrontmatter = frontmatter
             .replace(`title: "${currentTitle}"`, `title: "${optimized.optimizedTitle}"`)
             .replace(`description: "${currentDesc}"`, `description: "${optimized.optimizedDescription}"`);
 

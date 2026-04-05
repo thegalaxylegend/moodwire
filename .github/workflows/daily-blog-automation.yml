@@ -5,6 +5,10 @@ on:
     - cron: '0 0 * * *' # Midnight UTC (~5:30 AM IST) - Matches API reset
   workflow_dispatch: # Allows manual trigger
 
+concurrency:
+  group: blog-automation
+  cancel-in-progress: false
+
 jobs:
   jules_bot:
     runs-on: ubuntu-latest
@@ -143,6 +147,18 @@ jobs:
       - name: Task 20 - Content Decay Detection
         continue-on-error: true
         run: npx tsx scripts/content-decay.ts
+
+      - name: Task 21 - Automated Social Distribution (𝕏 & 🧵)
+        continue-on-error: true
+        env:
+          VITE_GEMINI_API_KEY: ${{ secrets.VITE_GEMINI_API_KEY }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+        run: npm run social:threads -- --recent
 
       - name: Cleanup Secrets
         if: always()

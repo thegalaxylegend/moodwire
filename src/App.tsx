@@ -63,6 +63,8 @@ const TrafficAnalytics = lazy(() => import('./pages/admin/dashboard/TrafficAnaly
 const SearchAnalytics = lazy(() => import('./pages/admin/dashboard/SearchAnalytics').then(module => ({ default: module.SearchAnalytics })));
 const JulesIntelligence = lazy(() => import('./pages/admin/dashboard/JulesIntelligence').then(module => ({ default: module.JulesIntelligence })));
 const UserManagement = lazy(() => import('./pages/admin/UserManagement').then(module => ({ default: module.UserManagement })));
+const SystemControl = lazy(() => import('./pages/admin/SystemControl').then(module => ({ default: module.SystemControl })));
+const AuditLogs = lazy(() => import('./pages/admin/AuditLogs').then(module => ({ default: module.AuditLogs })));
 
 // Components - Lazy
 const Chatbot = lazy(() => import('./components/Chatbot').then(module => ({ default: module.Chatbot })));
@@ -266,6 +268,8 @@ function App() {
           <Route path="question-review" element={<QuestionReview />} />
           <Route path="upload-syllabus" element={<SyllabusUpload />} />
           <Route path="users" element={<UserManagement />} />
+          <Route path="audit-logs" element={<Suspense fallback={<DashboardSkeleton />}><AuditLogs /></Suspense>} />
+          <Route path="system" element={<SystemControl />} />
         </Route>
 
         {/* SEO Public Dynamic Routes - Moved to bottom to prevent hijacking */}

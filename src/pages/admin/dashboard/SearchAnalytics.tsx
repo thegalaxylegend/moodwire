@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-
 import { 
   Search, 
   TrendingUp, 
@@ -7,9 +6,11 @@ import {
   Filter,
   BarChart2,
   MousePointer2,
-  Zap
+  Zap,
+  RotateCw
 } from 'lucide-react';
 import { StatCard } from '../../../components/admin/StatCard';
+import { StatCardSkeleton } from '../../../components/skeletons/AdminSkeleton';
 
 export const SearchAnalytics = () => {
   const [seoData, setSeoData] = useState<any>(null);
@@ -17,21 +18,36 @@ export const SearchAnalytics = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [showFullTable, setShowFullTable] = useState(false);
 
+  const fetchData = async (showLoading = true) => {
+    if (showLoading) setLoading(true);
+    try {
+      const res = await fetch('/jules-reports/search-intelligence.json');
+      if (res.ok) setSeoData(await res.json());
+    } catch (err) {
+      console.error("Failed to load Search intelligence:", err);
+    } finally {
+      setLoading(false);
+    }
+  };
+
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const res = await fetch('/jules-reports/search-intelligence.json');
-        if (res.ok) setSeoData(await res.json());
-      } catch (err) {
-        console.error("Failed to load Search intelligence:", err);
-      } finally {
-        setLoading(false);
-      }
-    };
     fetchData();
   }, []);
 
-  if (loading) return <div className="p-8 text-text-muted animate-pulse">Scanning Search Console Data...</div>;
+  if (loading && !seoData) return (
+    <div className="space-y-10 pb-20 animate-pulse">
+        <div className="h-10 w-64 bg-white/5 rounded-xl" />
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <StatCardSkeleton />
+            <StatCardSkeleton />
+            <StatCardSkeleton />
+        </div>
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div className="h-64 bg-white/5 rounded-3xl" />
+            <div className="lg:col-span-2 h-64 bg-white/5 rounded-3xl" />
+        </div>
+    </div>
+  );
 
   const allPages = seoData ? Object.entries(seoData.pages).map(([url, data]: any) => ({ url, ...data })) : [];
   const filteredPages = allPages
@@ -49,18 +65,26 @@ export const SearchAnalytics = () => {
 
   return (
     <div className="space-y-10 pb-20">
-      <header className="flex flex-col md:flex-row md:items-end justify-between gap-6">
+      <header className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
         <div>
           <div className="flex items-center gap-3 mb-2">
             <div className="p-2 bg-amber-500/10 rounded-lg text-amber-500">
-              <Search size={24} />
+              <Search size={20} />
             </div>
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-amber-500/80">Google Search Console</span>
           </div>
-          <h1 className="text-4xl font-heading font-black text-text-main tracking-tight">
-            Search <span className="text-amber-500">Intelligence</span>
+          <h1 className="text-3xl sm:text-4xl font-heading font-black text-text-main tracking-tight">
+             Search <span className="text-amber-500">Intelligence</span>
           </h1>
         </div>
+        <button 
+          onClick={() => fetchData(true)}
+          disabled={loading}
+          className="flex items-center gap-2 px-4 py-2 bg-surface border border-white/10 rounded-xl text-sm font-bold text-text-muted hover:text-white hover:border-primary/50 transition-all active:scale-95 disabled:opacity-50"
+        >
+          <RotateCw size={16} className={loading ? 'animate-spin' : ''} />
+          Fetch Latest
+        </button>
       </header>
 
       {/* Aggregate Metrics */}
@@ -150,12 +174,12 @@ export const SearchAnalytics = () => {
               <TrendingUp size={20} className="text-primary" />
               Indexed URL Performance
             </h3>
-            <div className="relative">
+            <div className="relative w-full sm:w-64">
               <Filter size={14} className="absolute left-3 top-1/2 -translate-y-1/2 text-text-muted" />
               <input 
                 type="text" 
                 placeholder="Search specific URLs..."
-                className="bg-white/5 border border-white/10 rounded-lg py-2 pl-9 pr-4 text-xs focus:outline-none focus:border-primary/50 transition-all w-64"
+                className="bg-white/5 border border-white/10 rounded-lg py-2 pl-9 pr-4 text-xs focus:outline-none focus:border-primary/50 transition-all w-full"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
               />

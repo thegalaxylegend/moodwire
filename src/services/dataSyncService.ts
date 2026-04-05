@@ -147,7 +147,7 @@ export const syncSyllabusFromMocks = async (userId: string) => {
             if (details && Array.isArray(details.questions) && Array.isArray(details.answers)) {
                 details.questions.forEach((q: any, i: number) => {
                     allResults.push({
-                        topic: q.topic,
+                        topic: q.topic || 'General',
                         isCorrect: details.answers[i] === q.correctAnswer
                     });
                 });
@@ -182,7 +182,7 @@ export const syncTopicStatsFromMocks = async (userId: string, userClass?: string
         }
 
         // Collect all question results from all mocks to reconstruct the AI profile
-        const allQuestionsToSync: Array<{ topic: string, subject?: string, isCorrect: boolean, errorType?: any }> = [];
+        const allQuestionsToSync: Array<{ topic: string, subject?: string, isCorrect: boolean, errorType?: "CONCEPTUAL" | "SILLY" | "TIME" | "MISREAD" | "OVERCONFIDENCE" }> = [];
 
         mockSnap.docs.forEach(d => {
             const data = d.data();

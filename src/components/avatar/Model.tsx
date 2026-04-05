@@ -126,11 +126,11 @@ export const Model = ({ emotion }: { emotion: string }) => {
 
         // 3. ARMS & HANDS (Axis Correction)
         let armZ = 20;    // Safe "A-Pose" gap
-        let armX = 0;     // RESET TWIST (Was causing crossing)
-        let armY = 15;    // NEW SWING (Move hands forward via Y-axis)
+        const armX = 0;     // RESET TWIST (Was causing crossing)
+        const armY = 15;    // NEW SWING (Move hands forward via Y-axis)
         let elbowX = -10; // Natural soft bend
-        let wristX = 0;   // Neutral
-        let wristY = 0;   // Neutral
+        const wristX = 0;   // Neutral
+        const wristY = 0;   // Neutral
 
         if (isTalking) {
             armZ -= 5 * (Math.sin(time * 3) * 0.5 + 0.5);

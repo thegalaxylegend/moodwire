@@ -366,7 +366,7 @@ export const getStrategicVideoRecommendations = async (
         const weakTopics = await getWeakTopics(userId, 3, userClass, exam);
         const completedVideos = getCompletedVideos(userId, userClass, exam).map(v => v.id);
 
-        let recommendedVideos: Video[] = [];
+        const recommendedVideos: Video[] = [];
 
         // 2. Map topics to video fetch promises
         const fetchPromises = weakTopics.map(topic => getVideoByTopicIdCached(topic.topic, exam, userId));

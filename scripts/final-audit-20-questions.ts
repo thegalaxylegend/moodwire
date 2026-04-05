@@ -68,11 +68,11 @@ async function runFinalAudit() {
             if (result) {
                 if (result.confidence === 0.70) {
                     repairedCount++;
-                    let entry = `### ${i+1}. 🛠️ ${t.topic} (${t.class})\n**Status**: REFIXED\n\n> **Question**: ${result.question}\n\n> **Ans**: ${result.correct_answer}\n\n--- \n\n`;
+                    const entry = `### ${i+1}. 🛠️ ${t.topic} (${t.class})\n**Status**: REFIXED\n\n> **Question**: ${result.question}\n\n> **Ans**: ${result.correct_answer}\n\n--- \n\n`;
                     fs.appendFileSync(reportPath, entry);
                 } else {
                     correctCount++;
-                    let entry = `### ${i+1}. ✅ ${t.topic} (${t.class})\n**Status**: APPROVED\n\n> **Question**: ${result.question}\n\n> **Ans**: ${result.correct_answer}\n\n--- \n\n`;
+                    const entry = `### ${i+1}. ✅ ${t.topic} (${t.class})\n**Status**: APPROVED\n\n> **Question**: ${result.question}\n\n> **Ans**: ${result.correct_answer}\n\n--- \n\n`;
                     fs.appendFileSync(reportPath, entry);
                 }
             } else {
