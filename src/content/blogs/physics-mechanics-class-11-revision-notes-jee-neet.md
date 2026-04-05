@@ -24,14 +24,14 @@ heroImage: "/blog-images/physics-mechanics-class-11-revision-notes-jee-neet.webp
 
 ## What is Physics: Mechanics?
 
-Physics: Mechanics is the study of the motion of objects. It includes kinematics, dynamics, and energy. For Class 11 exam prep in 2026, the most important aspect is understanding the concepts of motion and forces.
+Physics: Mechanics is the study of the motion of objects. It includes kinematics, dynamics, and energy. For Class 11 exam prep in 2026, the most important aspect is understanding the [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) of motion and forces.
 
 
 
 
-## What is Physics: Mechanics?
 
-Physics: Mechanics is the study of the motion of objects. It includes kinematics, dynamics, and energy. For Class 11 exam prep in 2026, the most important aspect is understanding the concepts of motion and forces.
+
+Physics: Mechanics is the study of the motion of objects. It includes kinematics, dynamics, and energy. For Class 11 exam prep in 2026, the most important aspect is understanding the [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) of motion and forces.
 
 
 | Concept | Description |
@@ -71,3 +71,15 @@ The key concepts in Physics: Mechanics include motion, forces, energy, and momen
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Physics Heat Light Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/physics-heat-light-class-11-revision-notes-jee-neet)
+- 📖 [Some Basic Concepts Of Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet)
+- 📖 [Planning In India Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/planning-in-india-class-11-revision-notes-jee-neet)
+- 📖 [Poverty Unemployment Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/poverty-unemployment-class-11-revision-notes-jee-neet)

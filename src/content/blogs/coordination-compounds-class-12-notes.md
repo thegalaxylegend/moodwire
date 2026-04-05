@@ -30,7 +30,7 @@ practice_link: "/class-11/chemistry/coordination-compounds-class-12-notes"
 =======
 *Last Updated: 2026-03-31*
 
-## 🎯 What WILL Come in Your Exam
+
 
 - **Isomerism in Coordination Compounds**: at least 1 question on geometrical isomerism, always
 - **Valence Bond Theory (VBT)**: 1 numerical on VBT, focusing on hybridization and magnetic nature, every year
@@ -183,9 +183,7 @@ The following are 3 solved past year questions related to the topic of Coordinat
 
  Therefore, the coordination number of the central metal atom $Pt$ is $4$.
 
- $$\	ext{Coordination Number} = \	ext{Number of } \sigma\	ext{-bonds}$$
-
- $$\	ext{Coordination Number} = 2 + 2 = 4$$
+ $$\	ext{Coordination Number} = \	ext{Number of } \sigma\	ext{-bonds}\	ext{Coordination Number} = 2 + 2 = 4$$
 
  - **Answer:** $4$
 
@@ -205,9 +203,7 @@ The following are 3 solved past year questions related to the topic of Coordinat
 
  Therefore, the complex $left[ Co \left( NH_{3} \right)_{6} \right]^{3+}$ does not show any isomerism.
 
- $$\	ext{Isomerism} = \	ext{Geometrical Isomerism} + \	ext{Optical Isomerism} + \	ext{Ionization Isomerism}$$
-
- $$\	ext{Isomerism} = 0 + 0 + 0 = 0$$
+ $$\	ext{Isomerism} = \	ext{Geometrical Isomerism} + \	ext{Optical Isomerism} + \	ext{Ionization Isomerism}\	ext{Isomerism} = 0 + 0 + 0 = 0$$
 
  - **Answer:** The complex does not show any isomerism.
 
@@ -229,9 +225,7 @@ The following are 3 solved past year questions related to the topic of Coordinat
 
  Therefore, the complex $left[ Ni \left( CN \right)_{4} \right]^{2-}$ is diamagnetic.
 
- $$\mu = \sqrt{n \left( n + 2 \right)}$$
-
- $$\mu = \sqrt{0 \left( 0 + 2 \right)} = 0$$
+ $$\mu = \sqrt{n \left( n + 2 \right)}\mu = \sqrt{0 \left( 0 + 2 \right)} = 0$$
 
  - **Answer:** $0$
 
@@ -247,7 +241,7 @@ The key concept that differentiates 85% scorers from 95% scorers in the chapter 
 
  Optical isomerism, on the other hand, occurs when a complex and its mirror image are not superimposable, a phenomenon known as chirality. In octahedral complexes, this is often due to the presence of bidentate or polydentate ligands that create a chiral center. The $\Delta$ and $\Lambda$ configurations are used to describe the absolute configuration of these chiral complexes, with $\Delta$ referring to a clockwise arrangement of ligands when viewed from a specific perspective and $\Lambda$ referring to a counterclockwise arrangement.
 
- The critical aspect that separates high scorers is their ability to systematically determine the $\Delta$ or $\Lambda$ configuration for any given complex, using the IUPAC rules and prioritization of ligands based on their atomic number. They can apply these rules to predict the optical activity of a complex and to distinguish between diastereomers, which is crucial for understanding the chemical and physical properties of coordination compounds.
+ The critical aspect that separates high scorers is their ability to systematically determine the $\Delta$ or $\Lambda$ configuration for any given complex, using the IUPAC rules and prioritization of ligands based on their atomic number. They can apply these rules to predict the optical activity of a complex and to distinguish between diastereomers, which is crucial for understanding the [chemical](/blog/chemical-kinetics-class-12-notes) and physical properties of coordination compounds.
 
  For instance, in the complex $[Co(en)_2Cl_2]^{+}$, the ethylenediamine (en) ligands create a chiral environment, leading to $\Delta$ and $\Lambda$ isomers. To determine the configuration, one must prioritize the ligands (Cl $>$ en), and then apply the IUPAC rules to assign the configuration based on the arrangement of the ligands in space.
 
@@ -506,3 +500,15 @@ Potassium hexacyanoferrate(II)
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Coordination Compounds Full Mock Test**](/class-11/chemistry/coordination-compounds-class-12-notes) now and track your progress against thousands of students.
 
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Chemical Kinetics Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/chemical-kinetics-class-12-notes)
+- 📖 [Haloalkanes and Haloarenes Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/haloalkanes-and-haloarenes-class-12-notes)
+- 📖 [Solutions Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/solutions-class-12-notes)
+- 📖 [Atoms Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/atoms-class-12-notes)

@@ -147,9 +147,9 @@ Helium has a higher ratio of specific heats than Oxygen.
 
 ## Related Revision Notes
 
-- [**Chapter 11: Thermodynamics (Internal Energy Deep-Dive)**](/blog/thermodynamics-revision-notes)
-- [**Chapter 10: Thermal Properties (Specific Heat Basics)**](/blog/thermal-properties-of-matter-revision-notes)
-- [**KTG and Gas Laws: Advanced Numerical Vault**](/blog/jee-mains-high-weightage-chapters)
+- **Chapter 11: Thermodynamics (Internal Energy Deep-Dive)**
+- **Chapter 10: Thermal Properties (Specific Heat Basics)**
+- **KTG and Gas Laws: Advanced Numerical Vault**
 
 
 
@@ -172,3 +172,15 @@ The Kinetic Theory of Gases transforms our view of matter from static substances
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
+- 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
+- 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
+- 📖 [Thermal Properties Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet)

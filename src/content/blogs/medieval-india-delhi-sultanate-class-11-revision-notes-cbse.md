@@ -104,9 +104,7 @@ The following are some key terms related to the Delhi Sultanate:
 
 ### LaTeX Equations
 The Delhi Sultanate can be represented using the following LaTeX equations:
-$$\text{Delhi Sultanate} = \sum_{i=1}^{5} \text{Dynasties}$$
-$$\text{Dynasties} = \{\text{Slave}, \text{Khalji}, \text{Tughlaq}, \text{Sayyid}, \text{Lodi}\}$$
-$$\text{Iqta System} = \text{Feudal System} \times \text{Land Grant}$$
+$$\text{Delhi Sultanate} = \sum_{i=1}^{5} \text{Dynasties}\text{Dynasties} = \{\text{Slave}, \text{Khalji}, \text{Tughlaq}, \text{Sayyid}, \text{Lodi}\}\text{Iqta System} = \text{Feudal System} \times \text{Land Grant}$$
 
 By using these equations, we can represent the Delhi Sultanate as a sum of its constituent dynasties, and the iqta system as a product of the feudal system and land grant.
 
@@ -126,3 +124,15 @@ By understanding the historical context of the Delhi Sultanate, we can gain a de
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Medieval India Bhakti Sufi Class 11 History Recap — CBSE 2026 Quick Guide](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse)
+- 📖 [Medieval India Mughals Class 11 History Recap — CBSE 2026 Quick Guide](/blog/medieval-india-mughals-class-11-revision-notes-cbse)
+- 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)
+- 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)

@@ -50,7 +50,7 @@ Redox reactions are important in various biological and industrial processes. In
 
 For example, in the human body, redox reactions are involved in the production of energy in cells. The electron transport chain, which is a series of redox reactions, generates ATP, which is the energy currency of the cell. In industry, redox reactions are used in the production of chemicals, such as the production of chlorine and sodium hydroxide through the electrolysis of sodium chloride.
 
-3 questions in JEE Mains 2025 Session 1 came from this topic.
+3 questions in JEE Mains 2026 Session 1 came from this topic.
 
 
 
@@ -153,8 +153,8 @@ Solution: a) $\text{Cr}_2\text{O}_7^{2-} + 6\text{Fe}^{2+} + 14\text{H}^+ \right
 
 ## Related Notes Links
 
-* [Chemical Bonding Class 11 Notes](/blog/chemical-bonding-class-11-notes)
-* [Electrochemistry Class 12 Notes](/blog/electrochemistry-class-12-notes)
+* Chemical Bonding Class 11 Notes
+* Electrochemistry Class 12 Notes
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
@@ -167,3 +167,15 @@ Solution: a) $\text{Cr}_2\text{O}_7^{2-} + 6\text{Fe}^{2+} + 14\text{H}^+ \right
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Cell Cycle And Cell Division Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet)
+- 📖 [Hydrocarbons Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/hydrocarbons-class-11-revision-notes-neet)
+- 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
+- 📖 [Hydrogen Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/hydrogen-class-11-revision-notes-neet)

@@ -54,7 +54,7 @@ A **Wave** is a disturbance that travels through a medium, transporting energy f
 - **Transverse Waves:** Particles of the medium vibrate perpendicular to the direction of wave propagation. They consist of **Crests** and **Troughs**. (e.g., Waves on a string).
   - *Condition:* Can only travel in solids and on the surface of liquids (requires shear strength).
 - **Longitudinal Waves:** Particles vibrate parallel to the direction of wave propagation. They consist of **Compressions** and **Rarefactions**. (e.g., Sound waves).
-  - *Condition:* Can travel in solids, liquids, and gases.
+  - *Condition:* Can travel in [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet), liquids, and gases.
 
 ### III. Fundamental Wave Quantities
 1.  **Amplitude (A):** The maximum displacement of a particle from its mean position.
@@ -92,7 +92,7 @@ This equation proves that the shape of the wave remains constant as it propagate
 
 ## 3. Speed of Waves: The Technical Derivations
 
-The speed of a wave depends on the mechanical properties (elasticity and inertia) of the medium.
+The speed of a wave depends on the [mechanical](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) properties (elasticity and inertia) of the medium.
 
 ### I. Speed of Transverse Wave on a Stretched String
 **Theorem:** **v = √(T / μ)**
@@ -202,7 +202,7 @@ Where:
 
 ## Comprehensive Exam Strategy (Q&A)
 
-**Q1: Why does sound travel faster in solids than in gases?**
+**Q1: Why does sound travel faster in [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than in gases?**
 **Answer:** The speed of sound is **v = √(E / ρ)**. Although solids are much denser than gases (which would decrease speed), their elasticity (E) is significantly higher. Since elasticity dominates the equation, sound travels ~15 times faster in solids than in air.
 
 **Q2: What is Laplace's correction and why was Newton wrong?**
@@ -224,9 +224,9 @@ Where:
 
 ## Related Revision Notes
 
-- [**Chapter 13: Oscillations (The Prelude to Waves)**](/blog/oscillations-revision-notes)
-- [**Chapter 12: Kinetic Theory of Gases (Sound Speed Factors)**](/blog/kinetic-theory-revision-notes)
-- [**The Ultimate Wave Mechanics Problem Set: Target JEE/NEET**](/blog/jee-mains-high-weightage-chapters)
+- **Chapter 13: Oscillations (The Prelude to Waves)**
+- **Chapter 12: Kinetic Theory of Gases (Sound Speed Factors)**
+- **The Ultimate Wave Mechanics Problem Set: Target JEE/NEET**
 
 
 
@@ -249,3 +249,15 @@ Waves are the signature of the universe's energy. By mastering the mathematical 
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Thermodynamics Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/thermodynamics-class-11-revision-notes-neet)
+- 📖 [Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)
+- 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)

@@ -47,7 +47,7 @@ Plugging in mass ($m = 5$ kg) instead of weight ($W = mg = 50$ N) when calculati
 **The Fix:** Always explicitly write $mg$ on your diagrams pointing straight down. Never leave it as just 'm'.
 
 ### 5. Getting the Normal Force Wrong on Inclines
-Assuming Normal Force ($N$) always equals $mg$. On an inclined plane of angle $\theta$, $N = mg \cos\theta$. 
+Assuming Normal Force ($N$) always equals $mg$. On an inclined [plane](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) of angle $\theta$, $N = mg \cos\theta$. 
 **The Fix:** Tilt your coordinate axes so the X-axis is parallel to the incline. Break $mg$ into its sine and cosine components immediately.
 
 
@@ -100,3 +100,15 @@ Jump into our [Laws of Motion Chapter Hub](/neet/physics/laws-of-motion) and sol
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
+- 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)

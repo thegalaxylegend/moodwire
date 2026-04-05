@@ -36,9 +36,9 @@ heroImage: "/blog-images/transport-in-plants-class-11-revision-notes-neet.webp"
 8. [Related Notes Links](#related-notes-links)
 9. [Last Updated Date](#last-updated-date)
 ### Introduction to Transport in Plants
-Transport in plants is the process by which plants move water, minerals, and sugars throughout their bodies. This process is essential for plant survival and is necessary for photosynthesis, growth, and development.
+Transport in plants is the process by which plants move water, minerals, and sugars throughout their bodies. This process is essential for plant survival and is necessary for [photosynthesis](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet), growth, and development.
 ### Why Transport in Plants Matters
-Transport in plants is crucial for plant survival. In the 2022 CBSE Class 11 Biology exam, 4 questions were asked from this topic, with a total of 12 marks. This highlights the importance of understanding transport in plants for students preparing for the CBSE Class 11 Biology exam.
+Transport in plants is crucial for plant survival. In the 2026 CBSE Class 11 Biology exam, 4 questions were asked from this topic, with a total of 12 marks. This highlights the importance of understanding transport in plants for students preparing for the CBSE Class 11 Biology exam.
 ### Ayush's Note
 <div class="callout-box">
 I still remember the mistake I made in my Class 11 Biology exam. I confused the terms "osmosis" and "diffusion". I thought they were the same thing, but they're not. Osmosis is the movement of water molecules from a region of high concentration to a region of low concentration through a partially permeable membrane, while diffusion is the movement of particles from a region of high concentration to a region of low concentration. I learned from my mistake and made sure to understand the difference between these two processes. Now, I can confidently say that I understand transport in plants.
@@ -98,8 +98,8 @@ To remember the difference between diffusion and osmosis, use the following tric
  d) Active transport
  Answer: c) Transpiration
 ### Related Notes Links
-* [Photosynthesis Class 11 Notes](/blog/photosynthesis-class-11-notes)
-* [Plant Growth and Development Class 11 Notes](/blog/plant-growth-and-development-class-11-notes)
+* Photosynthesis Class 11 Notes
+* Plant Growth and Development Class 11 Notes
 ### Last Updated Date
 Last Updated: March 16, 2026
 
@@ -114,3 +114,15 @@ Last Updated: March 16, 2026
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
+- 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
+- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)
+- 📖 [Respiration In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/respiration-in-plants-class-11-revision-notes-neet)

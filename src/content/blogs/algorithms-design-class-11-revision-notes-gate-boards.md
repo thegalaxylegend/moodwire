@@ -21,7 +21,7 @@ To put this into perspective, the CBSE Class 11 computer science syllabus is div
 
 I still remember when I was in your shoes, struggling to understand the concept of recursion. It wasn't until I came across a problem that required me to write a recursive function to calculate the factorial of a number that things started to click. The $n! = n \times (n-1)!$ formula suddenly made sense, and I was able to implement it in a programming language. This experience taught me the importance of practice and application in understanding algorithms. I've seen many students, including myself, initially find algorithms daunting, but with practice and patience, we were able to grasp the concepts and even start enjoying the process of designing and optimizing algorithms.
 
-One of the most significant challenges we'll face in this unit is understanding the trade-offs between different algorithmic approaches. For example, a brute-force algorithm may be simple to implement but inefficient for large datasets, while a more complex algorithm like dynamic programming may be more efficient but harder to understand. We'll need to develop a deep understanding of these trade-offs and learn to choose the most suitable approach for a given problem. The key to success lies in developing a strong foundation in the basics of algorithms, including data structures like arrays, linked lists, and stacks, as well as control structures like loops and conditional statements.
+One of the most significant challenges we'll face in this unit is understanding the trade-offs between different algorithmic approaches. For example, a brute-force algorithm may be simple to implement but inefficient for large datasets, while a more complex algorithm like dynamic programming may be more efficient but harder to understand. We'll need to develop a deep understanding of these trade-offs and learn to choose the most suitable approach for a given problem. The key to success lies in developing a strong foundation in the basics of algorithms, including data [structures](/blog/data-structures-linear-class-11-revision-notes-gate-boards) like arrays, linked lists, and stacks, as well as control structures like loops and conditional statements.
 
 As we progress through this unit, we'll encounter various types of algorithms, including sorting, searching, and graph algorithms. We'll learn to analyze the time and space complexity of these algorithms, using $Big O$ notation to express the upper bound of an algorithm's complexity. For instance, the time complexity of a binary search algorithm is $O(\log n)$, making it much more efficient than a linear search algorithm with a time complexity of $O(n)$. We'll also explore the concept of algorithmic complexity, including the $P$ vs $NP$ problem, which deals with the relationship between computational complexity theory and verifiability.
 
@@ -406,3 +406,15 @@ They always choose the locally optimal solution.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Algorithms: Analysis Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-analysis-class-11-revision-notes-gate-boards)
+- 📖 [Data Structures: Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/data-structures-linear-class-11-revision-notes-gate-boards)
+- 📖 [Data Structures: Non-Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards)
+- 📖 [Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/digital-logic-class-11-revision-notes-gate-boards)

@@ -17,7 +17,7 @@ heroImage: "/blog-images/data-structures-non-linear-class-11-revision-notes-gate
 
 As we dive into the realm of Data Structures for our Class 11 exam prep in 2026, it's crucial to understand that this subject is not just about storing and organizing data, but about doing so efficiently. The Indian curriculum for Computer Science places significant emphasis on Data Structures, with a substantial portion dedicated to Non-Linear Data Structures. In the CBSE Class 11 Computer Science syllabus, Data Structures carry a weightage of around 20-25% in the theory paper, with Non-Linear Data Structures being a major chunk of this. 
 
-For those who are new to this, Non-Linear Data Structures refer to data structures that do not follow a sequential or linear arrangement. This includes trees and graphs, which are fundamental in representing complex relationships between data elements. The exam typically tests your understanding of concepts like tree traversals (inorder, preorder, postorder), binary search trees, AVL trees, graph representations (adjacency matrix and adjacency list), and graph traversal algorithms (DFS and BFS).
+For those who are new to this, Non-Linear Data Structures refer to data structures that do not follow a sequential or linear arrangement. This includes trees and graphs, which are fundamental in representing complex relationships between data elements. The exam typically tests your understanding of concepts like tree traversals (inorder, preorder, postorder), binary search trees, AVL trees, graph representations (adjacency matrix and adjacency list), and graph traversal [algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards) (DFS and BFS).
 
 My personal journey with Non-Linear Data Structures began when I was in your shoes, preparing for my Class 11 exams. Initially, I found the concept of trees and graphs quite daunting, especially when it came to implementing them in programming languages like Python or Java. However, as I delved deeper, I realized that these data structures are not just abstract concepts, but are used in real-world applications like database indexing, file systems, and social network analysis. For instance, understanding how a binary search tree works can help you grasp how databases efficiently retrieve data.
 
@@ -39,7 +39,7 @@ Throughout my prep, I realized that practicing problems and past year questions 
 In terms of specific topics, the CBSE Class 11 Computer Science syllabus covers the following under Non-Linear Data Structures:
 
 1. **Trees**: Basic concepts, tree traversals (inorder, preorder, postorder), binary search trees, and AVL trees.
-2. **Graphs**: Basic concepts, graph representations (adjacency matrix and adjacency list), and graph traversal algorithms (DFS and BFS).
+2. **Graphs**: Basic concepts, graph representations (adjacency matrix and adjacency list), and graph traversal [algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards) (DFS and BFS).
 
 To prepare for these topics, I recommend starting with the basics and gradually moving on to more complex concepts. You can use online resources like video lectures, tutorials, and practice problems to supplement your learning. Additionally, make sure to revise and practice regularly, as this will help you retain the concepts and apply them effectively in the exam.
 
@@ -131,7 +131,7 @@ What is the key Shortcut or Trick for Data Structures: Non-Linear? is understand
    
    Graphs are more complex, with the choice between adjacency matrix and adjacency list representations depending on the graph's density and the operations to be performed. For sparse graphs, adjacency lists are more efficient, while dense graphs might benefit from adjacency matrices, especially for fast edge existence checks.
    
-   In terms of shortcuts or tricks, one of the most useful is recognizing that many problems can be reduced to standard graph or tree problems, such as finding the minimum spanning tree (MST) of a graph, which can be solved using algorithms like Kruskal's or Prim's, or finding the shortest path in a weighted graph, solvable using Dijkstra's or Bellman-Ford algorithms.
+   In terms of shortcuts or tricks, one of the most useful is recognizing that many problems can be reduced to standard graph or tree problems, such as finding the minimum spanning tree (MST) of a graph, which can be solved using [algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards) like Kruskal's or Prim's, or finding the shortest path in a weighted graph, solvable using Dijkstra's or Bellman-Ford algorithms.
    
    Another critical aspect is mastering the trade-offs between different data structures and algorithms. For instance, understanding when to use a hash table versus a binary search tree (BST) can significantly impact the efficiency of a solution. Hash tables offer $O(1)$ average time complexity for search, insert, and delete operations, but can suffer from collisions and may not maintain sorted order, whereas BSTs guarantee $O(log n)$ time for these operations and maintain sorted order but can become unbalanced, leading to $O(n)$ operations in the worst case, unless self-balancing mechanisms like those in AVL trees or Red-Black trees are implemented.
    
@@ -311,3 +311,15 @@ D. To implement a Last-In-First-Out (LIFO) data structure
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Data Structures: Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/data-structures-linear-class-11-revision-notes-gate-boards)
+- 📖 [Algorithms: Design Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-design-class-11-revision-notes-gate-boards)
+- 📖 [Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/digital-logic-class-11-revision-notes-gate-boards)
+- 📖 [Algorithms: Analysis Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-analysis-class-11-revision-notes-gate-boards)

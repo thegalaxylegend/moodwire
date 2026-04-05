@@ -147,9 +147,9 @@ The minimum velocity required for an object to break free from Earth's gravitati
 
 ## Related Revision Notes
 
-- [**Chapter 6: Rotational Motion (Angular Momentum)**](/blog/rotational-motion-revision-notes)
-- [**Chapter 2: Motion in a Straight Line (Free Fall)**](/blog/motion-in-a-straight-line-revision-notes)
-- [**Advanced Orbital Mechanics Simulator**](/blog/jee-mains-high-weightage-chapters)
+- **Chapter 6: Rotational Motion (Angular Momentum)**
+- **Chapter 2: Motion in a Straight Line (Free Fall)**
+- **Advanced Orbital Mechanics Simulator**
 
 
 
@@ -172,3 +172,15 @@ Gravitation is the foundational law of the macro-universe. By understanding how 
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
+- 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Kinetic Theory Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)

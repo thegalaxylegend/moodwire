@@ -173,9 +173,7 @@ practice_link: "/class-11/mathematics/vector-algebra-class-12-notes"
 
  |\vec{a}| = \sqrt{(2)^2 + (-1)^2 + (1)^2} = \sqrt{6}
 
- $$
-
- $$
+ 
 
  |\vec{b}| = \sqrt{(1)^2 + (2)^2 + (-1)^2} = \sqrt{6}
 
@@ -187,10 +185,7 @@ practice_link: "/class-11/mathematics/vector-algebra-class-12-notes"
 
  \cos{\theta} = \frac{-1}{\sqrt{6} \times \sqrt{6}} = \frac{-1}{6}
 
- $$
-
- $\theta = \cos^{-1}\left(\frac{-1}{6}\right)$
-
+ \theta = \cos^{-1}\left(\frac{-1}{6}\right)$$
  - **Answer:** $\cos^{-1}\left(\frac{-1}{6}\right)$
 
  - **Q3:** Given $\vec{a} = 3\hat{i} + 4\hat{j}$ and $\vec{b} = 2\hat{i} - \hat{j}$, find a vector $\vec{c}$ such that $\vec{a} + \vec{c} = \vec{b}$.
@@ -213,9 +208,7 @@ practice_link: "/class-11/mathematics/vector-algebra-class-12-notes"
 
  \vec{c} = (2\hat{i} - \hat{j}) - (3\hat{i} + 4\hat{j}) = (2-3)\hat{i} + (-1-4)\hat{j}
 
- $$
-
- $$
+ 
 
  \vec{c} = -\hat{i} - 5\hat{j}
 
@@ -336,3 +329,15 @@ practice_link: "/class-11/mathematics/vector-algebra-class-12-notes"
 
 **Answer:** B) [a b c] = a . (b x c) = (a x b) . c. We can use the identity a . (b x c) = b . (c x a) = c . (a x b) and the expansion of (a + b + c)^2 to show [a b c] = 0
 
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Application of Derivatives Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
+- 📖 [Linear Programming Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/linear-programming-class-12-notes)
+- 📖 [Human Reproduction Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/human-reproduction-class-12-notes)
+- 📖 [Molecular Basis of Inheritance Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/molecular-basis-of-inheritance-class-12-notes)

@@ -133,8 +133,8 @@ Inequalities are used extensively in:
 
 ## Related Revision Notes
 
-- [**Chapter 5: Complex Numbers**](/blog/complex-numbers-revision-notes)
-- [**Chapter 7: Permutations and Combinations**](/blog/permutations-combinations-revision-notes)
+- **Chapter 5: Complex Numbers**
+- **Chapter 7: Permutations and Combinations**
 - [**External Reference:** [NCERT Class 11 Math Chapter 6](https://ncert.nic.in/textbook.php?kemh1=6-16) (Authoritative Source)]
 
 
@@ -157,3 +157,15 @@ Linear Inequalities shift your thinking from "points" to "regions." By mastering
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)
+- 📖 [Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)

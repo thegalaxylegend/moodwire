@@ -164,8 +164,8 @@ Answer: A) Butane
 
 ## Related Notes Links
 
-* [Inorganic Chemistry Notes for Class 11](/blog/inorganic-chemistry-notes-for-class-11)
-* [Physical Chemistry Notes for Class 11](/blog/physical-chemistry-notes-for-class-11)
+* Inorganic Chemistry Notes for Class 11
+* Physical Chemistry Notes for Class 11
 
 
 
@@ -195,3 +195,15 @@ Last Updated: March 15, 2026
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Physical World Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/physical-world-class-11-revision-notes-jee-neet)
+- 📖 [The P Block Elements 11 Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet)
+- 📖 [Cell The Unit Of Life Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/cell-the-unit-of-life-class-11-revision-notes-neet)
+- 📖 [Animal Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)

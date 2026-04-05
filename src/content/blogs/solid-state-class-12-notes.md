@@ -12,21 +12,19 @@ practice_link: "/class-11/chemistry/solid-state-class-12-notes"
 
 *Last Updated: 2026-03-31*
 
-
 ## 📋 Table of Contents
 
-  - [Solid State Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](#solid-state-class-12-chemistry-revision-jee-neet-2026-grandmaster-guide)
-  - [What WILL Come in Your Exam](#what-will-come-in-your-exam)
-  - [Formula Bank](#formula-bank)
-  - [The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
-  - [Solid State Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](#solid-state-class-12-chemistry-revision-jee-neet-2026-grandmaster-guide)
-  - [What WILL Come in Your Exam](#what-will-come-in-your-exam)
-  - [Formula Bank](#formula-bank)
+ - [Solid State Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](#solid-state-class-12-[chemistry](/blog/surface-chemistry-class-12-notes)-revision-jee-neet-2026-grandmaster-guide)
+ - [What WILL Come in Your Exam](#what-will-come-in-your-exam)
+ - [Formula Bank](#formula-bank)
+ - [The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
+ - [Solid State Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](#solid-state-class-12-[chemistry](/blog/surface-chemistry-class-12-notes)-revision-jee-neet-2026-grandmaster-guide)
+ - [What WILL Come in Your Exam](#what-will-come-in-your-exam)
+ - [Formula Bank](#formula-bank)
 - [🪤 The 5 Trap Mistakes](#-the-5-trap-mistakes)
-  - [Part 3: Advanced Concepts and Applications](#part-3-advanced-concepts-and-applications)
+ - [Part 3: Advanced Concepts and Applications](#part-3-advanced-concepts-and-applications)
 - [📝 Master the Test Center — Step-by-Step Learning](#-master-the-test-center-stepbystep-learning)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
-
 
 ### <a id="solid-state-class-12-chemistry-revision-jee-neet-2026-grandmaster-guide"></a>Solid State Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide
 
@@ -88,68 +86,68 @@ u$ = frequency of radiation.
 
 #### Crystal Lattices
 - **Types of Crystal Lattices:** 
-  - Simple Cubic (SC)
-  - Body-Centered Cubic (BCC)
-  - Face-Centered Cubic (FCC)
+ - Simple Cubic (SC)
+ - Body-Centered Cubic (BCC)
+ - Face-Centered Cubic (FCC)
 - **Lattice Parameters:**
-  - $a$: edge length of unit cell
-  - $r$: radius of atom
+ - $a$: edge length of unit cell
+ - $r$: radius of atom
 - **Packing Fractions:**
-  - SC: $\frac{\pi}{6} \	imes 100\%$
-  - BCC: $\frac{\pi}{3\sqrt{3}} \	imes 100\%$
-  - FCC: $\frac{\pi}{3\sqrt{2}} \	imes 100\%$
+ - SC: $\frac{\pi}{6} \	imes 100\%$
+ - BCC: $\frac{\pi}{3\sqrt{3}} \	imes 100\%$
+ - FCC: $\frac{\pi}{3\sqrt{2}} \	imes 100\%$
 - **Coordination Numbers:**
-  - SC: 6
-  - BCC: 8
-  - FCC: 12
+ - SC: 6
+ - BCC: 8
+ - FCC: 12
 
 #### Crystal Defects
 - **Types of Defects:**
-  - Point defects (Frenkel, Schottky)
-  - Line defects (dislocations)
-  - Planar defects (grain boundaries)
+ - Point defects (Frenkel, Schottky)
+ - Line defects (dislocations)
+ - Planar defects (grain boundaries)
 - **Frenkel Defect:**
-  - Formation energy: $E_{+} + E_{-} + E_{m}$
-  - Migration energy: $E_{m}$
+ - Formation energy: $E_{+} + E_{-} + E_{m}$
+ - Migration energy: $E_{m}$
 - **Schottky Defect:**
-  - Formation energy: $2E_{+} + 2E_{-}$
+ - Formation energy: $2E_{+} + 2E_{-}$
 - **Dislocations:**
-  - Edge dislocation
-  - Screw dislocation
-  - Mixed dislocation
+ - Edge dislocation
+ - Screw dislocation
+ - Mixed dislocation
 
 #### Semiconductors
 - **Types of Semiconductors:**
-  - Intrinsic
-  - Extrinsic ($n$-type, $p$-type)
+ - Intrinsic
+ - Extrinsic ($n$-type, $p$-type)
 - **Fermi Level:**
-  - Intrinsic: $E_F = \frac{E_g}{2}$
-  - Extrinsic: $E_F = \frac{E_g}{2} + \frac{3}{4} k_B T \ln \left( \frac{N_v}{N_c} \right)$
+ - Intrinsic: $E_F = \frac{E_g}{2}$
+ - Extrinsic: $E_F = \frac{E_g}{2} + \frac{3}{4} k_B T \ln \left( \frac{N_v}{N_c} \right)$
 - **Carrier Concentration:**
-  - $n$-type: $n = N_c e^{\frac{E_F - E_c}{k_B T}}$
-  - $p$-type: $p = N_v e^{\frac{E_v - E_F}{k_B T}}$
+ - $n$-type: $n = N_c e^{\frac{E_F - E_c}{k_B T}}$
+ - $p$-type: $p = N_v e^{\frac{E_v - E_F}{k_B T}}$
 
 #### Band Structure
 - **Valence Band:**
-  - Energy range: $E_v \leq E \leq E_F$
-  - Carrier type: holes
+ - Energy range: $E_v \leq E \leq E_F$
+ - Carrier type: holes
 - **Conduction Band:**
-  - Energy range: $E_F \leq E \leq E_c$
-  - Carrier type: electrons
+ - Energy range: $E_F \leq E \leq E_c$
+ - Carrier type: electrons
 - **Band Gap:**
-  - Energy range: $E_v \leq E \leq E_c$
-  - Width: $E_g = E_c - E_v$
+ - Energy range: $E_v \leq E \leq E_c$
+ - Width: $E_g = E_c - E_v$
 
 #### Applications of Solid State
 - **LEDs:**
-  - Working principle: recombination of electrons and holes
-  - Materials used: GaAs, GaP
+ - Working principle: recombination of electrons and holes
+ - Materials used: GaAs, GaP
 - **Solar Cells:**
-  - Working principle: photovoltaic effect
-  - Materials used: Si, GaAs
+ - Working principle: photovoltaic effect
+ - Materials used: Si, GaAs
 - **Transistors:**
-  - Working principle: amplification of signals
-  - Materials used: Si, Ge
+ - Working principle: amplification of signals
+ - Materials used: Si, Ge
 
 ### <a id="solid-state-class-12-chemistry-revision-jee-neet-2026-grandmaster-guide"></a>Solid State Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide
 
@@ -210,7 +208,7 @@ Lattice energy is a critical concept in solid-state chemistry, and many students
 #### Mistake 5: Failure to Understand Semiconductor Band Structure
 Semiconductor band structure is a critical concept in solid-state physics, and many students struggle to understand it. To avoid this, it is essential to understand the concept of valence and conduction bands, as well as the Fermi level. The Fermi level is the energy level at which the probability of finding an electron is 50%. It is critical to understand how the Fermi level changes with doping and how it affects the conductivity of a semiconductor.
 
-By understanding and avoiding these common mistakes, students can achieve success in the exam and develop a deep understanding of solid-state chemistry.
+By understanding and avoiding these common mistakes, students can achieve success in the exam and develop a deep understanding of solid-state [chemistry](/blog/surface-chemistry-class-12-notes).
 
 ### <a id="part-3-advanced-concepts-and-applications"></a>Part 3: Advanced Concepts and Applications
 
@@ -218,7 +216,7 @@ As we delve deeper into the world of solid-state chemistry, it's essential to ex
 
 #### 1. **Semiconductors and their Applications**
 
-Semiconductors are a crucial part of modern technology, and understanding their properties and applications is vital for any aspiring engineer or scientist. We'll explore the different types of semiconductors, including intrinsic and extrinsic semiconductors, and delve into their applications in devices such as LEDs, solar cells, and transistors.
+Semiconductors are a crucial part of modern technology, and understanding their properties and applications is vital for any aspiring engineer or scientist. We'll explore the different types of semiconductors, including intrinsic and extrinsic semiconductors, and their applications in devices such as LEDs, solar cells, and transistors.
 
 #### 2. **Nanostructured Materials and their Properties**
 
@@ -260,7 +258,6 @@ In the last 5 minutes of your study session, take a moment to:
 
 Remember, consistent practice and review are key to mastering solid-state chemistry. Stay focused, stay motivated, and you'll be on your way to becoming a Grandmaster of Chemistry!
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
@@ -268,3 +265,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Amines Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Metallurgy Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/metallurgy-class-12-notes)
+- 📖 [Surface Chemistry Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/surface-chemistry-class-12-notes)
+- 📖 [Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-integrals-class-12-notes)

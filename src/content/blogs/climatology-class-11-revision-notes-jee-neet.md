@@ -47,7 +47,7 @@ Here are some essential formulae related to climatology:
 
 ## Climatic Elements
 
-The following are the primary climatic elements:
+The following are the primary climatic [elements](/blog/classification-of-elements-class-11-revision-notes-jee-neet):
 
 1. **Temperature**: Measured using a **thermometer**.
 2. **Humidity**: Measured using a **hygrometer**.
@@ -86,7 +86,7 @@ For JEE/NEET aspirants, it's essential to remember the following data:
 
 ## Climatic Factors
 
-The following are the key factors that influence climate:
+The following are the key factors that influence [climate](/blog/indian-geography-climate-class-11-revision-notes-cbse):
 
 1. **Latitude**: The distance from the equator.
 2. **Altitude**: The height above sea level.
@@ -126,3 +126,15 @@ By mastering these core concepts, formulae, and climatic factors, you'll be well
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Indian Geography Climate Class 11 Geography Recap — CBSE 2026 Quick Guide](/blog/indian-geography-climate-class-11-revision-notes-cbse)
+- 📖 [Geomorphology Class 11 Geography Recap — CBSE 2026 Quick Guide](/blog/geomorphology-class-11-revision-notes-cbse)
+- 📖 [Classification Of Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-of-elements-class-11-revision-notes-jee-neet)
+- 📖 [Indian Geography Physical Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/indian-geography-physical-class-11-revision-notes-jee-neet)

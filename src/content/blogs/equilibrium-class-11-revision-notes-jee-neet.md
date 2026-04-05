@@ -58,8 +58,8 @@ heroImage: "/blog-images/equilibrium-class-11-revision-notes-jee-neet.webp"
 This chapter is massive — it combines Chemical Equilibrium (Kc, Kp, Le Chatelier) with Ionic Equilibrium (pH, Buffers, Ksp). In JEE, you'll see 2-3 questions from this chapter alone. The trick is to separate the two halves in your head and treat them as distinct sub-chapters.
 
 ### Why This Chapter Matters (Exam Data)
-- **JEE Mains 2024**: 2 questions — one on Le Chatelier with inert gas addition, one on pH of a buffer.
-- **NEET 2024**: 1 question directly on $K_{sp}$ and precipitation.
+- **JEE Mains 2026**: 2 questions — one on Le Chatelier with inert gas addition, one on pH of a buffer.
+- **NEET 2026**: 1 question directly on $K_{sp}$ and precipitation.
 - **CBSE Boards**: This chapter carries 7 marks (combined with Thermodynamics unit in some schemes).
 
 ---
@@ -179,9 +179,7 @@ where $\Delta n_g$ = (moles of gaseous products) - (moles of gaseous reactants).
 
 **pH is the negative logarithm (base 10) of the hydrogen ion concentration ($[H^+]$) in a solution, providing a convenient scale to express acidity.**
 
-$$pH = -\log[H^+]$$
-$$pOH = -\log[OH^-]$$
-$$pH + pOH = pK_w = 14 \text{ (at 298 K)}$$
+$$pH = -\log[H^+]pOH = -\log[OH^-]pH + pOH = pK_w = 14 \text{ (at 298 K)}$$
 
 ### The Autoprotolysis of Water
 $K_w = [H^+][OH^-] = 10^{-14} \text{ at 298 K}$.
@@ -340,9 +338,9 @@ For CBSE, always state Le Chatelier's Principle in full before applying it. Then
 ---
 
 **Related Revision Notes:**
-- [**Chemical Thermodynamics — Enthalpy & Gibbs Energy Tricks**](/blog/thermodynamics-chemistry-revision-notes)
-- [**Some Basic Concepts of Chemistry — Mole Concept & Stoichiometry**](/blog/some-basic-concepts-chemistry-revision-notes)
-- [**Chemical Bonding VSEPR Theory JEE 2026 Tricks**](/blog/chemical-bonding-class-11-notes)
+- **Chemical Thermodynamics — Enthalpy & Gibbs Energy Tricks**
+- **Some Basic Concepts of Chemistry — Mole Concept & Stoichiometry**
+- **Chemical Bonding VSEPR Theory JEE 2026 Tricks**
 
 ---
 *Last Updated: March 14, 2026*
@@ -358,3 +356,15 @@ For CBSE, always state Le Chatelier's Principle in full before applying it. Then
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [States Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/states-of-matter-class-11-revision-notes-jee-neet)
+- 📖 [Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/structure-of-atom-class-11-revision-notes-jee-neet)
+- 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
+- 📖 [Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet)

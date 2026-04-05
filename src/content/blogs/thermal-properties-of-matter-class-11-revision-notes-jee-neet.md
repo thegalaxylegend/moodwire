@@ -42,7 +42,7 @@ Heat is a fundamental form of energy that drives the physical and chemical proce
 
 ## 1. Temperature and Heat
 
-- **Temperature:** A measure of the average kinetic energy of molecules.
+- **Temperature:** A measure of the average [kinetic](/blog/kinetic-theory-class-11-revision-notes-jee-neet) energy of molecules.
 - **Heat:** Energy in transit due to a temperature difference.
 - **Triple Point of Water:** The unique temperature (273.16 K) and pressure where water exists in all three phases in equilibrium.
 
@@ -93,7 +93,7 @@ Most substances expand when heated. We define three coefficients of expansion:
 
 ## 4. Heat Transfer: Conduction, Convection, Radiation
 
-- **Conduction:** Heat flow through solids. **dQ/dt = KA (T1-T2) / d**.
+- **Conduction:** Heat flow through [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet). **dQ/dt = KA (T1-T2) / d**.
 - **Convection:** Heat flow via fluid movement.
 - **Radiation:** Heat flow via electromagnetic waves. (**Prevents need for a medium**).
 
@@ -150,9 +150,9 @@ Most substances expand when heated. We define three coefficients of expansion:
 
 ## Related Revision Notes
 
-- [**Chapter 11: Thermodynamics (Heat Engines)**](/blog/thermodynamics-revision-notes)
-- [**Chapter 12: Kinetic Theory of Gases (Molecular Proofs)**](/blog/kinetic-theory-revision-notes)
-- [**Thermal Physics: JEE Formula Master-Sheet**](/blog/jee-mains-high-weightage-chapters)
+- **Chapter 11: Thermodynamics (Heat Engines)**
+- **Chapter 12: Kinetic Theory of Gases (Molecular Proofs)**
+- **Thermal Physics: JEE Formula Master-Sheet**
 
 
 
@@ -175,3 +175,15 @@ Thermal properties define the limits of sustainability and efficiency in our wor
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
+- 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
+- 📖 [Kinetic Theory Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)
+- 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)

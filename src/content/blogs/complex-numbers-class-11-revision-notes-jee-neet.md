@@ -85,7 +85,7 @@ The symbol **i** was introduced by Euler to solve square roots of negative numbe
 
 ## 4. The Argand Plane and Polar Representation
 
-A complex number z = a + ib can be represented as a point (a, b) in a plane called the **Argand Plane**.
+A complex number z = a + ib can be represented as a point (a, b) in a [plane](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) called the **Argand Plane**.
 *   **x-axis:** Real axis.
 *   **y-axis:** Imaginary axis.
 *   **Polar Form:** z = r(cos θ + i sin θ), where r = |z| and θ is called the **argument** of z.
@@ -135,8 +135,8 @@ In earlier classes, we said D < 0 means "No real roots." Now, we find complex ro
 
 ## Related Revision Notes
 
-- [**Chapter 3: Trigonometric Functions**](/blog/trigonometric-functions-revision-notes)
-- [**Chapter 6: Linear Inequalities**](/blog/linear-inequalities-revision-notes)
+- **Chapter 3: Trigonometric Functions**
+- **Chapter 6: Linear Inequalities**
 - [**External Reference:** [NCERT Class 11 Math Chapter 5](https://ncert.nic.in/textbook.php?kemh1=5-16) (Authoritative Source)]
 
 
@@ -159,3 +159,15 @@ Complex numbers expand your mathematical toolkit to include rotation and two-dim
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Limits Derivatives Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/limits-derivatives-class-11-revision-notes-jee-neet)
+- 📖 [Linear Inequalities Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/linear-inequalities-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)

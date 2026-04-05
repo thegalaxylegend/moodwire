@@ -66,8 +66,7 @@ Mean deviation can be calculated about the **Mean** or the **Median**.
 3.  Calculated the average of these absolute differences.
 
 **Formula for Ungrouped Data:**
-$M.D. (\bar{x}) = \frac{\sum |x_i - \bar{x}|}{n}$
-
+$$M.D. (\bar{x}) = \frac{\sum |x_i - \bar{x}|}{n}$$
 **Formula for Grouped Data:**
 $M.D. (\bar{x}) = \frac{\sum f_i |x_i - \bar{x}|}{N}$ (where $N = \sum f_i$)
 
@@ -87,8 +86,7 @@ The average of the squared deviations from the mean.
 ### Standard Deviation ($\sigma$):
 The square root of the variance. It is preferred because it shares the same units as the original data.
 - **Short Method for Discrete Frequency Distribution:**
-  $\sigma = \frac{1}{N} \sqrt{N \sum f_i x_i^2 - (\sum f_i x_i)^2}$
-
+  $$\sigma = \frac{1}{N} \sqrt{N \sum f_i x_i^2 - (\sum f_i x_i)^2}$$
 ---
 
 
@@ -134,8 +132,8 @@ Standard Deviation is generally better for advanced mathematical analysis becaus
 
 ## Related Revision Notes
 
-- [**Chapter 16: Probability**](/blog/probability-revision-notes)
-- [**Chapter 12: Three Dimensional Geometry**](/blog/three-dimensional-geometry-revision-notes)
+- **Chapter 16: Probability**
+- **Chapter 12: Three Dimensional Geometry**
 - [**External Reference:** [NCERT Class 11 Math Chapter 15](https://ncert.nic.in/textbook.php?kemh1=15-16) (Authoritative Source)]
 
 
@@ -158,3 +156,15 @@ Statistics in Class 11 moves beyond just finding averages to understanding the r
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/binomial-theorem-class-11-revision-notes-jee)
+- 📖 [Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/conic-sections-class-11-revision-notes-jee)
+- 📖 [Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-combinations-class-11-revision-notes-jee)
+- 📖 [Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-class-11-revision-notes-jee)

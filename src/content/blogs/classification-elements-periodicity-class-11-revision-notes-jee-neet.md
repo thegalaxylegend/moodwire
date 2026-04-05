@@ -57,8 +57,8 @@ heroImage: "/blog-images/classification-elements-periodicity-class-11-revision-n
 I used to dread Inorganic Chemistry because it felt like pure memorization. Then I realized that 80% of Inorganic questions in JEE are just Periodic Trend questions in disguise. "Arrange in order of acidic strength" is really "Arrange by electronegativity." "Which oxide is most basic?" is really "Which element has the lowest IE?"
 
 ### Why This Chapter Matters (Exam Data)
-- **JEE Mains 2024**: 2 direct questions on IE anomalies and oxide nature.
-- **NEET 2024**: 1 question on the diagonal relationship of Lithium and Magnesium.
+- **JEE Mains 2026**: 2 direct questions on IE anomalies and oxide nature.
+- **NEET 2026**: 1 question on the diagonal relationship of Lithium and Magnesium.
 - **CBSE Boards**: Expected 5-7 marks under "Classification of Elements" unit.
 
 ---
@@ -172,7 +172,7 @@ Noble gases have positive EGE because their shells are completely filled — for
 
 ## 7. Electronegativity — Pauling, Mulliken, and Allred-Rochow Scales
 
-**Electronegativity is the ability of an atom to attract the shared pair of electrons in a chemical bond towards itself.**
+**Electronegativity is the ability of an atom to attract the shared pair of electrons in a [chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) bond towards itself.**
 
 - **Pauling Scale**: Most commonly used. F = 4.0 (highest).
 - **General Trend**: Increases across period, decreases down group. Same as IE.
@@ -315,9 +315,9 @@ NCERT asks "Explain the trend in Ionization Enthalpy across a period." Always me
 ---
 
 **Related Revision Notes:**
-- [**Chemical Bonding VSEPR Theory JEE 2026 tricks — Hybridization & Shapes**](/blog/chemical-bonding-class-11-notes)
-- [**Structure of Atom — Quantum Numbers & Configuration Shortcuts**](/blog/structure-of-atom-revision-notes)
-- [**Some Basic Concepts of Chemistry — Mole Concept & Stoichiometry**](/blog/some-basic-concepts-chemistry-revision-notes)
+- **Chemical Bonding VSEPR Theory JEE 2026 tricks — Hybridization & Shapes**
+- **Structure of Atom — Quantum Numbers & Configuration Shortcuts**
+- **Some Basic Concepts of Chemistry — Mole Concept & Stoichiometry**
 
 ---
 *Last Updated: March 14, 2026*
@@ -333,3 +333,15 @@ NCERT asks "Explain the trend in Ionization Enthalpy across a period." Always me
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Chemical Bonding Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/chemical-bonding-class-11-revision-notes-jee-neet)
+- 📖 [Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet)
+- 📖 [Equilibrium Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/equilibrium-class-11-revision-notes-jee-neet)
+- 📖 [Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/structure-of-atom-class-11-revision-notes-jee-neet)

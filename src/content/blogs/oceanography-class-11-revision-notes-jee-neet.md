@@ -15,17 +15,14 @@ heroImage: "/blog-images/oceanography-class-11-revision-notes-jee-neet.webp"
 
 ## What is Oceanography?
 
-
-
 ![Oceanography notes for students](/blog-images/oceanography-class-11-notes.webp)
 
 *Last Updated: March 21, 2026*
 
-
 ## Quick Revision & Recap: Oceanography
 
 ### Quick Recall Box
-Oceanography is the scientific study of the ocean, encompassing its properties, phenomena, and life forms. As a geography student, it's essential to grasp the core concepts of oceanography to excel in Class 11 and beyond. Here's a quick recap to get you started:
+Oceanography is the scientific study of the ocean, encompassing its properties, phenomena, and life forms. As a geography student, it's essential to grasp the core concepts of oceanography to excel in Class 11 and beyond. Here's a [quick](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) recap to get you started:
 
 * **Oceanography**: Study of the ocean and its components
 * **Hydrosphere**: The region of the Earth where water is present in all its forms
@@ -33,7 +30,7 @@ Oceanography is the scientific study of the ocean, encompassing its properties, 
 * **Tides**: Periodic rise and fall of the sea level caused by gravitational forces
 
 ### Ayush's Personal Note
-As I delve into the world of oceanography, I realize the importance of understanding the intricacies of our planet's hydrosphere. From the majestic oceanic zones to the fascinating phenomenon of tides, each concept is interconnected and crucial for a comprehensive grasp of the subject. Throughout this revision guide, I'll share my insights and highlight key areas to focus on for a quick and effective recap.
+As I the world of oceanography, I realize the importance of understanding the intricacies of our planet's hydrosphere. From the majestic oceanic zones to the fascinating phenomenon of tides, each concept is interconnected and crucial for a comprehensive grasp of the subject. Throughout this revision guide, I'll share my insights and highlight key areas to focus on for a [quick](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) and effective recap.
 
 ### Core Concepts
 The following core concepts form the foundation of oceanography:
@@ -53,8 +50,6 @@ The following core concepts form the foundation of oceanography:
 ### Formulae Tables
 The following tables summarize key formulae and equations in oceanography:
 
-
-
 ### JEE/NEET Data
 For students preparing for JEE and NEET, here are some essential data and facts to keep in mind:
 
@@ -63,7 +58,7 @@ For students preparing for JEE and NEET, here are some essential data and facts 
 * **Thermocline**: Layer of water where temperature changes rapidly with depth
 
 ### MCQs
-Test your knowledge with these quick MCQs:
+Test your knowledge with these [quick](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) MCQs:
 
 1. What is the primary factor controlling the salinity of seawater?
 a) Temperature
@@ -174,3 +169,15 @@ By confirming your understanding of these essential areas, you'll be confident i
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)
+- 📖 [Art Culture Architecture Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/art-culture-architecture-class-11-revision-notes-jee-neet)
+- 📖 [Biogeography Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biogeography-class-11-revision-notes-neet)
+- 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)

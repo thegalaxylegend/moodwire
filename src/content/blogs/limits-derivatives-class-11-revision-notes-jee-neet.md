@@ -140,8 +140,8 @@ This process of finding the derivative using the limit definition is called **Di
 
 ## Related Revision Notes
 
-- [**Chapter 2: Relations and Functions**](/blog/relations-functions-revision-notes)
-- [**Chapter 14: Mathematical Reasoning**](/blog/mathematical-reasoning-revision-notes)
+- **Chapter 2: Relations and Functions**
+- **Chapter 14: Mathematical Reasoning**
 - [**External Reference:** [NCERT Class 11 Math Chapter 13](https://ncert.nic.in/textbook.php?kemh1=13-16) (Authoritative Source)]
 
 
@@ -164,3 +164,15 @@ Limits and Derivatives are the tools that allow us to calculate the "slope of a 
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)
+- 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
+- 📖 [Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)
+- 📖 [Units And Measurements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/units-and-measurements-class-11-revision-notes-jee-neet)

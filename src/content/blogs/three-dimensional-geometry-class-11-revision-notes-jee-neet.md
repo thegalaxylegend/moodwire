@@ -43,7 +43,7 @@ The transition from 2D to 3D geometry is like going from a flat map to the real 
 
 ## 1. Coordinate Planes and Axes in 3D
 
-In three dimensions, we use three mutually perpendicular lines passing through the origin: the X, Y, and Z axes.
+In three dimensions, we use three mutually perpendicular [lines](/blog/straight-lines-class-11-revision-notes-jee-neet) passing through the origin: the X, Y, and Z axes.
 *   **Coordinate Planes:**
     - **XY Plane:** Contains x and y axes. Equation: **z = 0**.
     - **YZ Plane:** Contains y and z axes. Equation: **x = 0**.
@@ -137,8 +137,8 @@ The centroid of a triangle with vertices (x₁, y₁, z₁), (x₂, y₂, z₂),
 
 ## Related Revision Notes
 
-- [**Chapter 11: Conic Sections**](/blog/conic-sections-revision-notes)
-- [**Chapter 13: Limits and Derivatives**](/blog/limits-derivatives-revision-notes)
+- **Chapter 11: Conic Sections**
+- **Chapter 13: Limits and Derivatives**
 - [**External Reference:** [NCERT Class 11 Math Chapter 12](https://ncert.nic.in/textbook.php?kemh1=12-16) (Authoritative Source)]
 
 
@@ -161,3 +161,15 @@ The centroid of a triangle with vertices (x₁, y₁, z₁), (x₂, y₂, z₂),
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Straight Lines Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/straight-lines-class-11-revision-notes-jee-neet)
+- 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
+- 📖 [Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)

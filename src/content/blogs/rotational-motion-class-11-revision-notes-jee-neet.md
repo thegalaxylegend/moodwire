@@ -149,9 +149,9 @@ If this condition is met, the point of contact is momentarily at rest.
 
 ## Related Revision Notes
 
-- [**Chapter 4: Laws of Motion (Inertia Basics)**](/blog/laws-of-motion-revision-notes)
-- [**Chapter 7: Gravitation (Orbital Angular Momentum)**](/blog/gravitation-notes)
-- [**Mastering Rotational Mechanics: Advanced Problem Set**](/blog/jee-mains-high-weightage-chapters)
+- **Chapter 4: Laws of Motion (Inertia Basics)**
+- **Chapter 7: Gravitation (Orbital Angular Momentum)**
+- **Mastering Rotational Mechanics: Advanced Problem Set**
 
 
 
@@ -174,3 +174,15 @@ Rotational Motion is the ultimate test of a physicist's understanding of symmetr
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
+- 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
+- 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)

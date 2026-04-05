@@ -137,9 +137,9 @@ The Second Law sets the direction of energy transfer and limits efficiency.
 
 ## Related Revision Notes
 
-- [**Chapter 10: Thermal Properties of Matter**](/blog/thermal-properties-of-matter-revision-notes)
-- [**Chapter 12: Kinetic Theory of Gases (Molecular Dynamics)**](/blog/kinetic-theory-revision-notes)
-- [**Thermodynamics P-V Graph Solver Guide**](/blog/jee-mains-high-weightage-chapters)
+- **Chapter 10: Thermal Properties of Matter**
+- **Chapter 12: Kinetic Theory of Gases (Molecular Dynamics)**
+- **Thermodynamics P-V Graph Solver Guide**
 
 
 
@@ -162,3 +162,15 @@ Thermodynamics is the science of limits. By understanding the mathematical proof
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Current Electricity Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/current-electricity-class-11-revision-notes-neet)
+- 📖 [Waves Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/waves-class-11-revision-notes-neet)
+- 📖 [Moving Charges Magnetism Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/moving-charges-magnetism-class-11-revision-notes-neet)
+- 📖 [Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet)

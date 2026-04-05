@@ -47,10 +47,10 @@ Magnetism is not a separate force from electricity; it is the relativistic conse
 
 ## 1. Magnetic Field and the Biot-Savart Law
 
-The **Magnetic Field (B)** is a vector field that describes the magnetic influence on moving electric charges.
+The **Magnetic Field (B)** is a vector field that describes the magnetic influence on moving [electric](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) charges.
 
 ### I. Biot-Savart Law: The Foundation
-**Statement:** The magnetic field **dB** due to a current element **I dl** at a point at distance **r** is:
+**Statement:** The magnetic field **dB** due to a [current](/blog/current-electricity-class-11-revision-notes-neet) element **I dl** at a point at distance **r** is:
 **dB = (μ₀ / 4π) [ I (dl × r̂) / r² ]**
 - **μ₀ (Permittivity of Free Space):** 4π × 10⁻⁷ T m/A.
 - **Direction:** Given by the Right-Hand Thumb Rule.
@@ -70,11 +70,11 @@ The **Magnetic Field (B)** is a vector field that describes the magnetic influen
 
 ## 2. Ampere’s Circuital Law (ACL)
 
-**Statement:** The line integral of the magnetic field **B** around any closed path is equal to **μ₀** times the total current threading through the loop.
+**Statement:** The line integral of the magnetic field **B** around any closed path is equal to **μ₀** times the total [current](/blog/current-electricity-class-11-revision-notes-neet) threading through the loop.
 **∮ B · dl = μ₀ I_enclosed**.
 
 ### I. Application: Magnetic Field of a Solenoid
-1.  Assume a long solenoid with **n** turns per unit length carrying current **I**.
+1.  Assume a long solenoid with **n** turns per unit length carrying [current](/blog/current-electricity-class-11-revision-notes-neet) **I**.
 2.  Taking a rectangular path (Amperean loop):
 3.  Line integral **∮ B · dl = B L** (field is only inside).
 4.  Charge enclosed **I_en = n L I**.
@@ -153,10 +153,10 @@ To measure potential difference, we connect a high resistance in series.
 ## Comprehensive Exam Strategy (Q&A)
 
 **Q1: Why is a cyclotron not suitable for accelerating electrons?**
-**Answer:** Electrons have very small mass. As they gain speed, they quickly reach relativistic velocities where their mass increases significantly (**m = m₀ / √(1 - v²/c²)**). This changes their time period (**T = 2πm/qB**), causing them to fall out of step with the oscillating electric field.
+**Answer:** Electrons have very small mass. As they gain speed, they quickly reach relativistic velocities where their mass increases significantly (**m = m₀ / √(1 - v²/c²)**). This changes their time period (**T = 2πm/qB**), causing them to fall out of step with the oscillating [electric](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) field.
 
 **Q2: Magnetic force does no work. Why?**
-**Answer:** The magnetic force **F = q(v × B)** is always perpendicular to the velocity **v**. Since work **dW = F · ds = F · v dt**, and the dot product of perpendicular vectors is zero, the work done by a magnetic force on a charge is always zero. It only changes the direction of motion, not the speed.
+**Answer:** The magnetic force **F = q(v × B)** is always perpendicular to the velocity **v**. Since work **dW = F · ds = F · v dt**, and the dot product of perpendicular vectors is zero, the work done by a magnetic force on a charge is always zero. It only changes the direction of [motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet), not the speed.
 
 **Q3: Is the magnetic field inside a toroid constant?**
 **Answer:** Inside the hollow space of the toroid, the field is **B = μ₀ n I**, where n is turns per unit length along the mean circumference. However, "n" varies slightly from the inner radius to the outer radius, so the field is not perfectly uniform but is often treated as such for thin toroids.
@@ -168,9 +168,9 @@ To measure potential difference, we connect a high resistance in series.
 
 ## Related Revision Notes
 
-- [**Chapter 3: Current Electricity (The Source of Magnetism)**](/blog/current-electricity-revision-notes)
-- [**Chapter 5: Magnetism and Matter**](/blog/magnetism-matter-revision-notes)
-- [**The Cyclotron & Mass Spectrometer: Technical Deep-Dive**](/blog/jee-mains-high-weightage-chapters)
+- **Chapter 3: Current Electricity (The Source of Magnetism)**
+- **Chapter 5: Magnetism and Matter**
+- **The Cyclotron & Mass Spectrometer: Technical Deep-Dive**
 
 
 
@@ -193,3 +193,15 @@ Moving Charges and Magnetism represent the bridge between pure electricity and t
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
+- 📖 [Current Electricity Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/current-electricity-class-11-revision-notes-neet)
+- 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)

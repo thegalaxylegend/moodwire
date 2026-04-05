@@ -62,7 +62,7 @@ heroImage: "/blog-images/chemical-bonding-class-11-revision-notes-jee-neet.webp"
 I kept getting hybridization wrong in my early mocks because I was trying to draw every single Lewis structure. It was slow, and I always missed a lone pair somewhere. If you're aiming for a top 1000 rank in JEE 2026, you cannot afford to waste 5 minutes on a bonding question. 
 
 ### Why This Chapter Matters (Exam Data)
-- **High Weightage**: In JEE Mains 2025 Session 1, nearly 12% of Inorganic marks came from this chapter alone.
+- **High Weightage**: In JEE Mains 2026 Session 1, nearly 12% of Inorganic marks came from this chapter alone.
 - **NEET Favorite**: Molecular Orbital Theory (MOT) bond order questions have appeared in 8 out of the last 10 NEET papers.
 - **Foundation**: You cannot understand Organic Chemistry mechanisms or Coordination Compounds without mastering the shapes and polarity covered here.
 
@@ -183,7 +183,7 @@ This explains why in $PCl_3F_2$, the two Fluorine atoms always occupy the axial 
 **Fajan's Rule helps predict the covalent character in an ionic bond by analyzing the polarizing power of the cation and the polarizability of the anion.**
 
 Covalent character increases when the cation is small and highly charged, or when the anion is large.
-- **Example**: $LiCl$ is more covalent than $NaCl$. This is why $LiCl$ is soluble in organic solvents like ethanol while $NaCl$ is not.
+- **Example**: $LiCl$ is more covalent than $NaCl$. This is why $LiCl$ is soluble in [organic](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) solvents like ethanol while $NaCl$ is not.
 
 ---
 
@@ -400,9 +400,9 @@ Don't just memorize the table. Ask yourself "Why does lone pair repulsion decrea
 ---
 
 **Related Revision Notes:**
-- [**Structure of Atom - Quantum Numbers & Configuration Shortcuts**](/blog/structure-of-atom-revision-notes)
-- [**Periodic Table Trends - Master Classification Short Notes**](/blog/classification-elements-periodicity-revision-notes)
-- [**JEE Mains 2026: High Weightage Chapters Analysis**](/blog/jee-mains-high-weightage-chapters)
+- **Structure of Atom - Quantum Numbers & Configuration Shortcuts**
+- **Periodic Table Trends - Master Classification Short Notes**
+- **JEE Mains 2026: High Weightage Chapters Analysis**
 
 ---
 *Last Updated: March 14, 2026*
@@ -418,3 +418,15 @@ Don't just memorize the table. Ask yourself "Why does lone pair repulsion decrea
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/structure-of-atom-class-11-revision-notes-jee-neet)
+- 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
+- 📖 [Organic Chemistry Basic Principles Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet)
+- 📖 [Equilibrium Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/equilibrium-class-11-revision-notes-jee-neet)

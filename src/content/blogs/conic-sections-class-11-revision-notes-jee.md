@@ -140,8 +140,8 @@ The eccentricity **e** is the ratio of the distance from the focus to the distan
 
 ## Related Revision Notes
 
-- [**Chapter 10: Straight Lines**](/blog/straight-lines-revision-notes)
-- [**Chapter 12: Three Dimensional Geometry**](/blog/three-dimensional-geometry-revision-notes)
+- **Chapter 10: Straight Lines**
+- **Chapter 12: Three Dimensional Geometry**
 - [**External Reference:** [NCERT Class 11 Math Chapter 11](https://ncert.nic.in/textbook.php?kemh1=11-16) (Authoritative Source)]
 
 
@@ -164,3 +164,15 @@ Conic sections bring geometry to life by connecting algebraic equations with phy
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/binomial-theorem-class-11-revision-notes-jee)
+- 📖 [Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-combinations-class-11-revision-notes-jee)
+- 📖 [Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-class-11-revision-notes-jee)
+- 📖 [Sequences Series Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/sequences-series-class-11-revision-notes-jee)

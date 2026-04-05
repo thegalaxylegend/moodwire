@@ -167,9 +167,9 @@ Starting from **x = A sin(ωt + φ)**:
 
 ## Related Revision Notes
 
-- [**Chapter 2: Motion in a Straight Line (Kinematic Kin)**](/blog/motion-in-a-straight-line-revision-notes)
-- [**Chapter 14: Waves (The Next Step)**](/blog/waves-revision-notes)
-- [**SHM Phase and Phasor Diagram Masterclass**](/blog/jee-mains-high-weightage-chapters)
+- **Chapter 2: Motion in a Straight Line (Kinematic Kin)**
+- **Chapter 14: Waves (The Next Step)**
+- **SHM Phase and Phasor Diagram Masterclass**
 
 
 
@@ -192,3 +192,15 @@ Oscillations are the universal language of physical vibration. By mastering the 
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
+- 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
+- 📖 [Kinetic Theory Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)

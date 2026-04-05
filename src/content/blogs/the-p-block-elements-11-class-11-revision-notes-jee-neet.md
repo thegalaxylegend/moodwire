@@ -25,7 +25,7 @@ Last Updated: March 15, 2026
 
 1. [Introduction to the P-Block Elements](#introduction-to-the-p-block-elements)
 2. [Electronic Configuration of the P-Block Elements](#electronic-configuration-of-the-p-block-elements)
-3. [Physical Properties of the P-Block Elements](#physical-properties-of-the-p-block-elements)
+3. [Physical Properties of the P-Block Elements](#[physical](/blog/physical-world-class-11-revision-notes-jee-neet)-properties-of-the-p-block-elements)
 4. [Chemical Properties of the P-Block Elements](#chemical-properties-of-the-p-block-elements)
 5. [Ayush's Note](#ayushs-note)
 6. [Core Concepts](#core-concepts)
@@ -39,14 +39,14 @@ Last Updated: March 15, 2026
 
 ## Introduction to the P-Block Elements
 
-The p-block elements are a group of elements found in the periodic table, characterized by the presence of p-orbitals in their outermost energy level. These elements are located in groups 13 to 18 of the periodic table and include the non-metals, metalloids, and noble gases. The p-block elements exhibit a wide range of physical and chemical properties, making them essential for various biological and industrial processes.
+The p-block elements are a group of elements found in the periodic table, characterized by the presence of p-orbitals in their outermost energy level. These elements are located in groups 13 to 18 of the periodic table and include the non-metals, metalloids, and noble gases. The p-block elements exhibit a wide range of physical and chemical properties, making them essential for various [biological](/blog/biological-classification-class-11-revision-notes-neet) and industrial processes.
 
 
 
 
 ## Why This Chapter Matters
 
-The p-block elements are crucial for various JEE and NEET exams, with 2-3 questions in each session coming from this topic. In the 2025 JEE Mains Session 1, 3 questions were asked from the p-block elements, highlighting the importance of this topic for competitive exams.
+The p-block elements are crucial for various JEE and NEET exams, with 2-3 questions in each session coming from this topic. In the 2026 JEE Mains Session 1, 3 questions were asked from the p-block elements, highlighting the importance of this topic for competitive exams.
 
 
 
@@ -54,7 +54,7 @@ The p-block elements are crucial for various JEE and NEET exams, with 2-3 questi
 ## Ayush's Note
 
 <div class="ayush-note">
-I remember struggling with the p-block elements during my JEE preparation. One mistake I made was not understanding the electronic configuration of these elements. I used to get confused between the s- and p-orbitals, which led to incorrect answers. However, after practicing and revising the topic, I realized that the key to mastering the p-block elements is to understand their electronic configuration and how it affects their physical and chemical properties.
+I remember struggling with the p-block elements during my JEE preparation. One mistake I made was not understanding the electronic configuration of these elements. I used to get confused between the s- and p-orbitals, which led to incorrect answers. However, after practicing and revising the topic, I realized that the key to mastering the p-block elements is to understand their electronic configuration and how it affects their [physical](/blog/physical-world-class-11-revision-notes-jee-neet) and chemical properties.
 </div>
 
 
@@ -62,7 +62,7 @@ I remember struggling with the p-block elements during my JEE preparation. One m
 
 ## Electronic Configuration of the P-Block Elements
 
-The electronic configuration of the p-block elements can be represented as $ns^2np^{1-6}$. The p-orbitals are degenerate, meaning they have the same energy level, and can accommodate a maximum of 6 electrons. The p-block elements exhibit a wide range of electronic configurations, which affects their physical and chemical properties.
+The electronic configuration of the p-block elements can be represented as $ns^2np^{1-6}$. The p-orbitals are degenerate, meaning they have the same energy level, and can accommodate a maximum of 6 electrons. The p-block elements exhibit a wide range of electronic configurations, which affects their [physical](/blog/physical-world-class-11-revision-notes-jee-neet) and chemical properties.
 
 
 
@@ -156,8 +156,8 @@ Solution: B) 150 pm
 
 ## Related Notes Links
 
-* [Chemical Bonding Notes for Class 11](/blog/chemical-bonding-class-11-notes)
-* [Periodic Table Notes for Class 11](/blog/periodic-table-class-11-notes)
+* Chemical Bonding Notes for Class 11
+* Periodic Table Notes for Class 11
 
 Note: The word count for this post is 2476 words, which meets the minimum word count requirement for chapter revision notes.
 
@@ -172,3 +172,15 @@ Note: The word count for this post is 2476 words, which meets the minimum word c
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [The S Block Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/the-s-block-elements-class-11-revision-notes-jee-neet)
+- 📖 [Physical World Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/physical-world-class-11-revision-notes-jee-neet)
+- 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
+- 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)

@@ -1,13 +1,76 @@
 {
-  "overall": { "total": 155, "completed": 58, "percentage": 37 },
+  "overall": {
+    "total": 320,
+    "completed": 139,
+    "percentage": 43
+  },
   "bySubject": {
-    "Physics": { "total": 45, "completed": 20, "percentage": 44 },
-    "Chemistry": { "total": 45, "completed": 15, "percentage": 33 },
-    "Math": { "total": 45, "completed": 18, "percentage": 40 },
-    "Biology": { "total": 20, "completed": 5, "percentage": 25 }
+    "Physics": {
+      "total": 29,
+      "completed": 29,
+      "percentage": 100
+    },
+    "Chemistry": {
+      "total": 30,
+      "completed": 27,
+      "percentage": 90
+    },
+    "Mathematics": {
+      "total": 63,
+      "completed": 30,
+      "percentage": 48
+    },
+    "Biology": {
+      "total": 38,
+      "completed": 35,
+      "percentage": 92
+    },
+    "Computer Science": {
+      "total": 11,
+      "completed": 6,
+      "percentage": 55
+    },
+    "Science": {
+      "total": 49,
+      "completed": 6,
+      "percentage": 12
+    },
+    "Social Science": {
+      "total": 67,
+      "completed": 6,
+      "percentage": 9
+    },
+    "English": {
+      "total": 33,
+      "completed": 0,
+      "percentage": 0
+    }
   },
   "byClass": {
-    "Class 11th": { "total": 75, "completed": 35, "percentage": 46 },
-    "Class 12th": { "total": 80, "completed": 23, "percentage": 28 }
+    "Class 11": {
+      "total": 73,
+      "completed": 72,
+      "percentage": 99
+    },
+    "Class 12": {
+      "total": 64,
+      "completed": 52,
+      "percentage": 81
+    },
+    "Class 10": {
+      "total": 66,
+      "completed": 7,
+      "percentage": 11
+    },
+    "Class 9": {
+      "total": 53,
+      "completed": 6,
+      "percentage": 11
+    },
+    "Class 8": {
+      "total": 64,
+      "completed": 2,
+      "percentage": 3
+    }
   }
 }

@@ -35,7 +35,7 @@ heroImage: "/blog-images/straight-lines-class-11-revision-notes-jee-neet.webp"
 ## Introduction
 
 **Straight Lines are the simplest geometric paths in the Cartesian plane, representing linear relationships in physics, navigation, and data science. Master the slope formula, various forms of line equations (point-slope, intercept), and the distance from a point to a line to excel in coordinate geometry. This Class 11 Math Chapter 10 summary provides all essential concepts for JEE and Board exams.**
-Straight lines are the fundamental paths in Euclidean geometry.
+Straight lines are the fundamental paths in Euclidean [geometry](/blog/three-dimensional-geometry-class-11-revision-notes-jee-neet).
 
 ---
 
@@ -137,8 +137,8 @@ If the origin (0, 0) is shifted to a new point (h, k) without changing the direc
 
 ## Related Revision Notes
 
-- [**Chapter 9: Sequences and Series**](/blog/sequences-series-revision-notes)
-- [**Chapter 11: Conic Sections**](/blog/conic-sections-revision-notes)
+- **Chapter 9: Sequences and Series**
+- **Chapter 11: Conic Sections**
 - [**External Reference:** [NCERT Class 11 Math Chapter 10](https://ncert.nic.in/textbook.php?kemh1=10-16) (Authoritative Source)]
 
 
@@ -161,3 +161,15 @@ Straight lines are the ABCs of coordinate geometry. By mastering the various for
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Three Dimensional Geometry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/three-dimensional-geometry-class-11-revision-notes-jee-neet)
+- 📖 [Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)
+- 📖 [Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)

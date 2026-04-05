@@ -46,7 +46,7 @@ Why? Because P&C questions are incredibly difficult to "guess" or solve using el
 
 ## 3. Matrices and Determinants: The New Heavyweights
 
-What used to be a scoring, straightforward chapter has transformed. Recent JEE Advanced papers have featured highly abstract problems involving matrix polynomials, eigenvalues (implicit application), and system of equations tied to 3D geometry.
+What used to be a scoring, straightforward chapter has transformed. Recent JEE Advanced papers have featured highly abstract problems involving matrix polynomials, eigenvalues (implicit application), and system of equations tied to 3D [geometry](/blog/three-dimensional-geometry-class-11-revision-notes-jee-neet).
 
 
 
@@ -85,3 +85,15 @@ Mastering JEE Advanced Mathematics is no longer about doing 500 repetitive probl
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Three Dimensional Geometry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/three-dimensional-geometry-class-11-revision-notes-jee-neet)
+- 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
+- 📖 [Classification Of Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-of-elements-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)

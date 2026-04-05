@@ -15,33 +15,26 @@ heroImage: "/blog-images/art-culture-architecture-class-11-revision-notes-jee-ne
 
 ## What is Art Culture Architecture?
 
-
-
 ![Art & Culture: Architecture notes for students](/blog-images/art-culture-architecture-class-11-notes.webp)
 
 *Last Updated: March 20, 2026*
 
-
 ## Quick Revision & Recap: Art & Culture - Architecture
 
 ### Quick Recall Box
-The history of architecture is a vast and fascinating field, spanning thousands of years. As a student of Class 11, it's essential to have a solid grasp of the key concepts, styles, and movements that have shaped the built environment. Here's a quick recall box to get you started:
+The history of architecture is a vast and fascinating field, spanning thousands of years. As a student of Class 11, it's essential to have a solid grasp of the key concepts, styles, and movements that have shaped the built environment. Here's a [quick](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) recall box to get you started:
 * **Ancient Civilizations**: Egyptian, Greek, Roman, Chinese, Indian
 * **Medieval Period**: Gothic, Romanesque, Byzantine
 * **Renaissance**: Revival of classical styles, emergence of new techniques
 * **Modern Era**: Art Nouveau, Art Deco, Bauhaus, International Style
 
-As I, Ayush, delve into the world of architecture, I find it crucial to understand the historical context and cultural influences that have shaped the built environment. My personal note: when revising architecture, focus on the **key features**, **notable examples**, and **influential architects** of each style.
-
-
-
+As I, Ayush, the world of architecture, I find it crucial to understand the historical context and cultural influences that have shaped the built environment. My personal note: when revising architecture, focus on the **key features**, **notable examples**, and **influential architects** of each style.
 
 ## History of Architecture
 
 The history of architecture can be broadly divided into several periods, each with its unique characteristics and styles.
 
 ### Ancient Civilizations
-
 
 | Civilization | Notable Features | Notable Examples |
 | --- | --- | --- |
@@ -66,7 +59,6 @@ The history of architecture can be broadly divided into several periods, each wi
 | **Bauhaus** | functionalism, minimalism, industrial materials | Bauhaus Building, Weissenhof Estate |
 | **International Style** | simplicity, functionality, large windows | Seagram Building, Farnsworth House |
 
-
 ## Core Concepts
 
 To excel in JEE/NEET, it's essential to grasp the core concepts of architecture, including:
@@ -75,9 +67,6 @@ To excel in JEE/NEET, it's essential to grasp the core concepts of architecture,
 * **Symmetry**: The use of identical or similar elements on either side of a central axis
 * **Asymmetry**: The use of non-identical or dissimilar elements on either side of a central axis
 
-
-
-
 ## Formulae Tables
 
 While there are no specific formulae in architecture, understanding the mathematical concepts behind design is crucial. Here are some key formulae to keep in mind:
@@ -85,9 +74,6 @@ While there are no specific formulae in architecture, understanding the mathemat
 * **Volume of a rectangular prism**: $V = l \times w \times h$
 * **Circumference of a circle**: $C = 2\pi r$
 * **Area of a circle**: $A = \pi r^2$
-
-
-
 
 ## Trap Exceptions
 
@@ -109,3 +95,15 @@ By focusing on these key concepts, formulae, and trap exceptions, you'll be well
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)
+- 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)
+- 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
+- 📖 [Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)

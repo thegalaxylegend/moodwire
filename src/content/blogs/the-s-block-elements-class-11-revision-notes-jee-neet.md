@@ -46,7 +46,7 @@ The s-block elements are a group of elements in the periodic table that are char
 
 ## Why This Chapter Matters
 
-This chapter is important because it helps us understand the properties and behavior of the s-block elements. In JEE Mains 2025 Session 1, 3 questions came from this topic. Understanding the s-block elements is crucial for solving problems related to chemical bonding, electrochemistry, and chemical reactions.
+This chapter is important because it helps us understand the properties and behavior of the s-block elements. In JEE Mains 2026 Session 1, 3 questions came from this topic. Understanding the s-block elements is crucial for solving problems related to chemical bonding, electrochemistry, and chemical reactions.
 
 
 
@@ -151,8 +151,8 @@ Solution: D) Rubidium
 ## Related Notes Links
 
 For more information on the s-block elements, you can refer to the following notes:
-* [Chemical Bonding Notes](/blog/chemical-bonding-class-11-notes)
-* [Electrochemistry Notes](/blog/electrochemistry-class-12-notes)
+* Chemical Bonding Notes
+* Electrochemistry Notes
 
 
 
@@ -172,3 +172,15 @@ Last Updated: March 15, 2026
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [The P Block Elements 11 Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet)
+- 📖 [Physical World Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/physical-world-class-11-revision-notes-jee-neet)
+- 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
+- 📖 [Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)

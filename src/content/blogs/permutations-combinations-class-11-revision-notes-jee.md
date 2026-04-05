@@ -134,8 +134,8 @@ A combination is a selection of items where the order of selection does not matt
 
 ## Related Revision Notes
 
-- [**Chapter 6: Linear Inequalities**](/blog/linear-inequalities-revision-notes)
-- [**Chapter 8: Binomial Theorem**](/blog/binomial-theorem-revision-notes)
+- **Chapter 6: Linear Inequalities**
+- **Chapter 8: Binomial Theorem**
 - [**External Reference:** [NCERT Class 11 Math Chapter 7](https://ncert.nic.in/textbook.php?kemh1=7-16) (Authoritative Source)]
 
 
@@ -158,3 +158,15 @@ Permutations and Combinations transform the way we see complexity. By mastering 
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-and-combinations-class-11-revision-notes-jee)
+- 📖 [Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/binomial-theorem-class-11-revision-notes-jee)
+- 📖 [Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/conic-sections-class-11-revision-notes-jee)
+- 📖 [Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-class-11-revision-notes-jee)

@@ -306,6 +306,28 @@
     "robots": "index, follow",
     "sitemapGroup": "blogs"
   },
+  "/blog/biotechnology-and-its-applications-class-12-notes": {
+    "title": "Biotechnology and its Applications Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+    "description": "Master Biotechnology and its Applications for Biology 2026. This Grandmaster Guide includes Ayush",
+    "date": "2026-04-05",
+    "category": "Biology",
+    "h1": "Biotechnology and its Applications Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/biotechnology-principles-and-processes-class-12-notes": {
+    "title": "Biotechnology: Principles and Processes Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+    "description": "The ultimate Biotechnology: Principles and Processes revision resource for Biology students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
+    "date": "2026-04-05",
+    "category": "Biology",
+    "h1": "Biotechnology: Principles and Processes Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
   "/blog/body-fluids-and-circulation-class-11-revision-notes-neet": {
     "title": "Body Fluids And Circulation Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
     "description": "The ultimate Body Fluids And Circulation revision resource for Biology students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
@@ -768,6 +790,20 @@
     "robots": "index, follow",
     "sitemapGroup": "blogs"
   },
+<<<<<<< HEAD
+=======
+  "/blog/human-health-and-disease-class-12-notes": {
+    "title": "Human Health and Disease Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+    "description": "Accelerate your Biology revision with our Human Health and Disease guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success.",
+    "date": "2026-04-04",
+    "category": "Biology",
+    "h1": "Human Health and Disease Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+>>>>>>> a00cdfab6bfbdeb9b05ef186dc56cf7cfb77a67c
   "/blog/human-reproduction-class-12-notes": {
     "title": "Human Reproduction Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
     "description": "Master Human Reproduction for Biology 2026. This Grandmaster Guide includes Ayush",
@@ -1098,12 +1134,34 @@
     "robots": "index, follow",
     "sitemapGroup": "blogs"
   },
+  "/blog/microbes-in-human-welfare-class-12-notes": {
+    "title": "Microbes in Human Welfare Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+    "description": "Deep dive into Microbes in Human Welfare Class 12. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
+    "date": "2026-04-04",
+    "category": "Biology",
+    "h1": "Microbes in Human Welfare Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
   "/blog/mineral-nutrition-class-11-revision-notes-neet": {
     "title": "Mineral Nutrition Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
     "description": "Master Mineral Nutrition for Biology 2026. This Grandmaster Guide includes Ayush",
     "date": "2026-03-28",
     "category": "Biology",
     "h1": "Mineral Nutrition Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/molecular-basis-of-inheritance-class-12-notes": {
+    "title": "Molecular Basis of Inheritance Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+    "description": "Learn Molecular Basis of Inheritance like a pro. Detailed revision notes, solved examples, and",
+    "date": "2026-04-03",
+    "category": "Biology",
+    "h1": "Molecular Basis of Inheritance Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
     "type": "blog-post",
     "priority": 0.8,
     "robots": "index, follow",
@@ -1214,6 +1272,17 @@
     "date": "2026-03-28",
     "category": "Physics",
     "h1": "Organic Chemistry Basic Principles Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/organisms-and-populations-class-12-notes": {
+    "title": "Organisms and Populations Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+    "description": "Master Organisms and Populations for Biology 2026. This Grandmaster Guide includes Ayush",
+    "date": "2026-04-05",
+    "category": "Biology",
+    "h1": "Organisms and Populations Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
     "type": "blog-post",
     "priority": 0.8,
     "robots": "index, follow",
@@ -1450,6 +1519,20 @@
     "robots": "index, follow",
     "sitemapGroup": "blogs"
   },
+<<<<<<< HEAD
+=======
+  "/blog/reproductive-health-class-12-notes": {
+    "title": "Reproductive Health Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+    "description": "Deep dive into Reproductive Health Class 12. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
+    "date": "2026-04-03",
+    "category": "Biology",
+    "h1": "Reproductive Health Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+>>>>>>> a00cdfab6bfbdeb9b05ef186dc56cf7cfb77a67c
   "/blog/respiration-in-plants-class-11-revision-notes-neet": {
     "title": "Respiration In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
     "description": "Master Respiration In Plants for Biology 2026. This Grandmaster Guide includes Ayush",
@@ -1500,6 +1583,17 @@
     "date": "2026-03-28",
     "category": "Chemistry",
     "h1": "Sets Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/sexual-reproduction-in-flowering-plants-class-12-notes": {
+    "title": "Sexual Reproduction in Flowering Plants Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+    "description": "Learn Sexual Reproduction in Flowering Plants like a pro. Detailed revision notes, solved examples, and",
+    "date": "2026-04-03",
+    "category": "Biology",
+    "h1": "Sexual Reproduction in Flowering Plants Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
     "type": "blog-post",
     "priority": 0.8,
     "robots": "index, follow",
@@ -1577,6 +1671,17 @@
     "date": "2026-03-28",
     "category": "Physics",
     "h1": "Straight Lines Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/strategies-for-enhancement-in-food-production-class-12-notes": {
+    "title": "Strategies for Enhancement in Food Production Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+    "description": "Learn Strategies for Enhancement in Food Production like a pro. Detailed revision notes, solved examples, and",
+    "date": "2026-04-04",
+    "category": "Biology",
+    "h1": "Strategies for Enhancement in Food Production Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
     "type": "blog-post",
     "priority": 0.8,
     "robots": "index, follow",
@@ -1747,6 +1852,31 @@
     "robots": "index, follow",
     "sitemapGroup": "blogs"
   },
+<<<<<<< HEAD
+=======
+  "/blog/upsc-optional-selection-guide-class-11-revision-notes-jee": {
+    "title": "Upsc Optional Selection Guide Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
+    "description": "The ultimate Upsc Optional Selection Guide revision resource for Mathematics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables.",
+    "date": "2026-03-28",
+    "category": "Mathematics",
+    "h1": "Upsc Optional Selection Guide Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+  "/blog/upsc-optional-selection-guide": {
+    "title": "Pick the Best UPSC Optional Subject 2026 Guide",
+    "description": "Master the UPSC optional subject selection for 2026. Use our success rate analysis, syllabus overlap data, and scoring trends to pick the best optional now!",
+    "date": "2026-03-28",
+    "category": "Chemistry",
+    "h1": "Pick the Best UPSC Optional Subject 2026 Guide",
+    "type": "blog-post",
+    "priority": 0.8,
+    "robots": "index, follow",
+    "sitemapGroup": "blogs"
+  },
+>>>>>>> a00cdfab6bfbdeb9b05ef186dc56cf7cfb77a67c
   "/blog/vector-algebra-class-12-notes": {
     "title": "Vector Algebra Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
     "description": "Master Vector Algebra for Mathematics 2026. This Grandmaster Guide includes Ayush",

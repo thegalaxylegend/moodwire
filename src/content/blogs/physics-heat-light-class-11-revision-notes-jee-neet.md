@@ -29,9 +29,9 @@ heroImage: "/blog-images/physics-heat-light-class-11-revision-notes-jee-neet.web
 
 
 
-## What is Physics: Heat & Light?
 
-Physics: Heat & Light is the study of heat, its effects, and the properties of light. It includes thermal expansion, specific heat capacity, and reflection of light. For Class 11 exam prep in 2026, the most important aspect is understanding the basic concepts of heat transfer and light properties.
+
+Physics: Heat & Light is the study of heat, its effects, and the properties of light. It includes thermal expansion, specific heat capacity, and reflection of light. For Class 11 exam prep in 2026, the most important aspect is understanding the [basic](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) concepts of heat transfer and light properties.
 
 
 | Topic | Key Concepts |
@@ -66,3 +66,15 @@ The core concepts in Physics: Heat & Light include understanding the behavior of
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Physics Mechanics Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/physics-mechanics-class-11-revision-notes-jee-neet)
+- 📖 [Some Basic Concepts Of Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet)
+- 📖 [Planning In India Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/planning-in-india-class-11-revision-notes-jee-neet)
+- 📖 [Poverty Unemployment Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/poverty-unemployment-class-11-revision-notes-jee-neet)

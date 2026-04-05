@@ -36,15 +36,15 @@ Magnetism and matter is a broad topic, encompassing various concepts, including:
 
 Some essential formulas to keep in mind:
 
-* **Magnetic field due to a current-carrying wire**: $B = \frac{\mu_0 I}{2\pi r}$
+* **Magnetic field due to a [current](/blog/alternating-current-class-12-notes)-carrying wire**: $B = \frac{\mu_0 I}{2\pi r}$
 * **Magnetic flux**: $\Phi = \int \vec{B} \cdot d\vec{A}$
-* **Faraday's law of induction**: $\epsilon = -\frac{d\Phi}{dt}$
+* **Faraday's law of [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)**: $\epsilon = -\frac{d\Phi}{dt}$
 
 **Exam Weightage and Question Types**
 In the Class 12 CBSE board exams, magnetism and matter is a significant topic, with a weightage of **10-12%**. Questions can range from straightforward calculations to complex problems that require a deep understanding of the concepts. Some common question types include:
 
 * **Numerical problems**: Calculating magnetic field strengths, magnetic flux, and induced EMFs.
-* **Theoretical questions**: Describing the properties of magnetic materials, explaining the principles of magnetic induction, and discussing the applications of magnetism.
+* **Theoretical questions**: Describing the properties of magnetic materials, explaining the principles of magnetic [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet), and discussing the applications of magnetism.
 * **Graph-based questions**: Analyzing and interpreting graphs related to magnetic fields, magnetic flux, and induced EMFs.
 
 To excel in these questions, it's crucial to develop a strong foundation in the concepts, formulas, and applications of magnetism and matter. With dedication and practice, you'll be well-prepared to tackle the challenges of this topic and achieve a high score in the exams.
@@ -63,7 +63,7 @@ By understanding the principles of magnetism and matter, you'll gain insight int
 Magnetism and matter is a vital topic in Class 12 physics, with significant weightage in the CBSE board exams. To excel in this topic, it's essential to develop a strong foundation in the concepts, formulas, and applications of magnetism, as well as have a solid understanding of the prerequisites, including electricity, vector algebra, and kinematics and dynamics. With dedication and practice, you'll be well-prepared to tackle the challenges of this topic and achieve a high score in the exams.
 
 
-## What is Magnetism and Matter?
+
 
 Magnetism and Matter is a fundamental concept in physics that describes the interaction between magnetic fields and matter. It includes the study of magnetic fields, magnetic induction, and the properties of magnetic materials. For Class 12 exam prep in 2026, the most important aspect is understanding the behavior of magnetic materials and the application of magnetic fields in various contexts.
 
@@ -140,7 +140,7 @@ To further illustrate the concept of magnetization, consider the following compa
 
 Ayush's Note on Magnetism and Matter is a study material that explains the magnetic properties of materials. It includes magnetic field, magnetic induction, and magnetization. For Class 12 exam prep in 2026, the most important aspect is understanding the behavior of different materials like diamagnetic, paramagnetic, and ferromagnetic substances under the influence of a magnetic field. 
 
-Magnetism is a fundamental concept in physics that arises due to the interaction between moving charges. The magnetic field is a vector field that surrounds magnetized materials and current-carrying conductors. The strength and direction of the magnetic field can be determined using the $B = rac{mu_0 I}{2 pi r}$ formula for a long straight wire, where $B$ is the magnetic field, $mu_0$ is the permeability of free space, $I$ is the current, and $r$ is the distance from the wire.
+Magnetism is a fundamental concept in physics that arises due to the interaction between moving charges. The magnetic field is a vector field that surrounds magnetized materials and [current](/blog/alternating-current-class-12-notes)-carrying conductors. The strength and direction of the magnetic field can be determined using the $B = rac{mu_0 I}{2 pi r}$ formula for a long straight wire, where $B$ is the magnetic field, $mu_0$ is the permeability of free space, $I$ is the current, and $r$ is the distance from the wire.
 
 The magnetic properties of materials can be classified based on their response to an external magnetic field. Diamagnetic materials, such as copper and zinc, are weakly repelled by a magnetic field. Paramagnetic materials, such as aluminum and platinum, are weakly attracted to a magnetic field. Ferromagnetic materials, such as iron and nickel, are strongly attracted to a magnetic field. The table below summarizes the properties of these materials:
 
@@ -353,3 +353,15 @@ Lenz's Law
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Magnetic Effects of Current Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetic-effects-of-current-class-12-notes)
+- 📖 [Electromagnetic Induction Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
+- 📖 [Alternating Current Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/alternating-current-class-12-notes)
+- 📖 [Electromagnetic Waves Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-waves-class-12-notes)

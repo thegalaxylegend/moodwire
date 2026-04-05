@@ -97,7 +97,7 @@ L - Gynoecium (female reproductive organs)
  + Wrong answer: A raceme is a type of spadix.
  + Right answer: A raceme is an unbranched inflorescence with pedicellate flowers, while a spadix is a type of inflorescence with a fleshy axis and sessile flowers.
 * What is the function of the stipules in a leaf?
- + Wrong answer: Stipules are responsible for photosynthesis.
+ + Wrong answer: Stipules are responsible for [photosynthesis](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet).
  + Right answer: Stipules are small structures at the base of the petiole that protect the leaf bud and may also store food.
 
 
@@ -105,7 +105,7 @@ L - Gynoecium (female reproductive organs)
 
 ## Practice MCQs
 
-1. What is the primary function of the root in a plant?
+1. What is the primary function of the root in a [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet)?
 a) Photosynthesis
 b) Absorption of water and minerals
 c) Storage of food
@@ -137,7 +137,7 @@ d) Carpels
 
 Answer: c) Stamens
 
-5. What is the term for the mature ovary of a plant, containing seeds?
+5. What is the term for the mature ovary of a [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet), containing seeds?
 a) Fruit
 b) Flower
 c) Leaf
@@ -150,8 +150,8 @@ Answer: a) Fruit
 
 ## Related Notes Links
 
-* [Anatomy of Flowering Plants](/blog/anatomy-of-flowering-plants-class-11-notes)
-* [Plant Physiology](/blog/plant-physiology-class-11-notes)
+* Anatomy of Flowering Plants
+* Plant Physiology
 
 
 
@@ -172,3 +172,15 @@ Last Updated: March 16, 2026
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)
+- 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
+- 📖 [Plant Growth And Development Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/plant-growth-and-development-class-11-revision-notes-neet)
+- 📖 [Structural Organisation In Animals Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/structural-organisation-in-animals-class-11-revision-notes-neet)

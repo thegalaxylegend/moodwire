@@ -20,7 +20,7 @@ practice_link: "/class-11/mathematics/differential-equations-class-12-notes"
   - [🌐 Homogeneous Differential Equations](#-homogeneous-differential-equations)
   - [📊 Exact Differential Equations](#-exact-differential-equations)
   - [🚀 Linear Differential Equations of Higher Order](#-linear-differential-equations-of-higher-order)
-  - [📈 Application of Differential Equations](#-application-of-differential-equations)
+  - [📈 Application of Differential Equations](#-[application](/blog/application-of-integrals-class-12-notes)-of-differential-equations)
   - [📊 Numerical Methods](#-numerical-methods)
   - [🚀 Higher-Order Linear Differential Equations](#-higherorder-linear-differential-equations)
 - [🪤 The 5 Trap Mistakes](#-the-5-trap-mistakes)
@@ -176,3 +176,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-integrals-class-12-notes)
+- 📖 [Continuity and Differentiability Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/continuity-and-differentiability-class-12-notes)
+- 📖 [Determinants Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/determinants-class-12-notes)
+- 📖 [Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/integrals-class-12-notes)

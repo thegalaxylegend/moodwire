@@ -6,27 +6,22 @@
       "fields": [
         {
           "name": "📊 All-Time Stats",
-          "value": "Total: 18 blogs\nPassed: 11\nFailed: 7\nPass Rate: 61%",
+          "value": "Total: 3 blogs\nPassed: 3\nFailed: 0\nPass Rate: 100%",
           "inline": true
         },
         {
           "name": "📈 Avg Quality Score",
-          "value": "65/100",
+          "value": "100/100",
           "inline": true
         },
         {
           "name": "➡️ Trend",
           "value": "STABLE (0)",
           "inline": true
-        },
-        {
-          "name": "🔴 Top Errors",
-          "value": "• 401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\": (×5)",
-          "inline": false
         }
       ],
       "footer": {
-        "text": "Report generated: 2026-04-03T10:59:01.365Z"
+        "text": "Report generated: 2026-04-05T02:17:30.715Z"
       }
     }
   ]

@@ -114,7 +114,7 @@ If f and g are two real functions:
 
 **Q1: Find the domain and range of the real function f(x) = √(x - 2).**
 **Answer:**
-- **Domain:** For f(x) to be real, x - 2 ≥ 0 => **x ≥ 2**. Domain = [2, ∞).
+- **Domain:** For f(x) to be real, x - 2 ≥ 0 => **x ≥ 2**. Domain = 2, ∞).
 - **Range:** Since the square root is always non-negative, the range is **[0, ∞)**.
 
 **Q2: If A = {1, 2} and B = {3, 4}, how many relations are there from A to B?**
@@ -134,8 +134,8 @@ If f and g are two real functions:
 
 ## Related Revision Notes
 
-- [**Chapter 1: Sets**](/blog/sets-revision-notes)
-- [**Chapter 3: Trigonometric Functions**](/blog/trigonometric-functions-revision-notes)
+- [**Chapter 1: Sets**
+- **Chapter 3: Trigonometric Functions**
 - [**External Reference:** [NCERT Class 11 Math Chapter 2](https://ncert.nic.in/textbook.php?kemh1=2-16) (Authoritative Source)]
 
 
@@ -158,3 +158,15 @@ Functions are the heartbeat of Calculus and higher mathematics. By distinguishin
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Limits Derivatives Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/limits-derivatives-class-11-revision-notes-jee-neet)
+- 📖 [Sets Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/sets-class-11-revision-notes-jee-neet)
+- 📖 [Trigonometric Functions Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/trigonometric-functions-class-11-revision-notes-jee-neet)
+- 📖 [Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)

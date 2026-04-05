@@ -17,7 +17,7 @@ practice_link: "/class-11/physics/alternating-current-class-12-notes"
 ## What is Alternating Current?
 
 **Introduction to Alternating Current**
-As we dive into the realm of Class 12 Physics, it's essential to acknowledge the significance of **Alternating Current (AC)** in the syllabus. With a substantial weightage of approximately **12-15%** in the board exams, AC is a crucial topic that demands attention and thorough understanding. In the 2026 exams, you can expect around **6-8 questions** directly related to AC, with some questions possibly testing your understanding of related concepts like **electromagnetic induction** and **LCR circuits**.
+As we dive into the realm of Class 12 Physics, it's essential to acknowledge the significance of **Alternating Current (AC)** in the syllabus. With a substantial weightage of approximately **12-15%** in the board exams, AC is a crucial topic that demands attention and thorough understanding. In the 2026 exams, you can expect around **6-8 questions** directly related to AC, with some questions possibly testing your understanding of related concepts like **[electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) induction** and **LCR circuits**.
 
 On a personal note, I still remember the initial struggle I faced while grasping the concept of AC. It was during my Class 11 days when I first encountered the term "alternating current." I was fascinated by the fact that the current used in our households is not **direct current (DC)**, but rather AC, which periodically reverses direction. This sparked my curiosity, and I began to explore the world of AC, eventually developing a deep understanding of the subject. Now, as a senior student, I'm excited to share my knowledge with you and help you prepare for the exams.
 
@@ -64,7 +64,7 @@ In the upcoming sections, we'll explore each of these topics in detail, using a 
 **Common mistakes to avoid:**
 * Confusing AC and DC concepts
 * Incorrectly applying formulas for impedance and phase difference
-* Failing to consider the effects of inductive and capacitive reactance
+* Failing to consider the [effects](/blog/magnetic-effects-of-current-class-12-notes) of inductive and capacitive reactance
 * Not using phasors to simplify complex AC circuit analysis
 
 By following this introduction and the subsequent sections, you'll be well on your way to mastering the concept of Alternating Current and achieving success in the Class 12 exams. Remember to stay focused, practice regularly, and review the key concepts to ensure a deep understanding of the subject. 
@@ -73,7 +73,7 @@ By following this introduction and the subsequent sections, you'll be well on yo
 To summarize, Alternating Current is a crucial topic in Class 12 Physics, with a significant weightage in the board exams. To excel in this topic, it's essential to have a solid foundation in electromagnetic induction, LCR circuits, oscillations, and trigonometry. By understanding key concepts like AC waveforms, phasors, impedance, and phase difference, you'll be able to analyze and solve problems involving AC circuits. Stay focused, avoid common mistakes, and practice regularly to achieve success in the exams.
 
 
-## What is Alternating Current?
+
 
 Alternating Current (AC) is a type of electric current that periodically reverses direction, flowing back and forth in a circuit. It includes the source, the load, and the transmission lines. For Class 12 exam prep in 2026, the most important aspect is understanding the principles of AC circuits, including the concepts of impedance, reactance, and phase shift. 
 
@@ -81,7 +81,7 @@ The key characteristic of AC is that the voltage and current change polarity ove
 
 To understand AC, it's crucial to grasp the concept of **root mean square (RMS) value**, which is a statistical measure of the magnitude of a varying quantity. The RMS value of an AC waveform is the square root of the mean value of the square of the current or voltage over one cycle. This is important because the RMS value is used to calculate the power consumed by a load in an AC circuit.
 
-Another critical concept in AC circuits is **impedance**, which is the total opposition to the flow of an AC current. Impedance is a complex quantity, consisting of resistance and reactance. Resistance is the opposition to the flow of current due to the resistivity of the material, while reactance is the opposition to the flow of current due to the inductive or capacitive effects of the circuit.
+Another critical concept in AC circuits is **impedance**, which is the total opposition to the flow of an AC current. Impedance is a complex quantity, consisting of resistance and reactance. Resistance is the opposition to the flow of current due to the resistivity of the material, while reactance is the opposition to the flow of current due to the inductive or capacitive [effects](/blog/magnetic-effects-of-current-class-12-notes) of the circuit.
 
 A key student-centric tip is to practice solving problems involving AC circuits, including calculating impedance, reactance, and phase shift. This will help you develop a deep understanding of the subject and improve your problem-solving skills. Additionally, make sure to understand the differences between AC and DC, as well as the advantages and disadvantages of each.
 
@@ -327,7 +327,7 @@ Inductor
 Capacitor
 Resistor
 
-**Answer:** A) Transformers are used to change the voltage of an Alternating Current by using magnetic induction.
+**Answer:** A) Transformers are used to change the voltage of an Alternating Current by using [magnetic](/blog/magnetic-effects-of-current-class-12-notes) induction.
 
 
 **4. What is the term for the opposition to the flow of Alternating Current due to the reactance of inductive and capacitive components?**
@@ -352,3 +352,15 @@ Pulse Width Modulation
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Magnetic Effects of Current Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetic-effects-of-current-class-12-notes)
+- 📖 [Wave Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/wave-optics-class-12-notes)
+- 📖 [Electromagnetic Induction Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
+- 📖 [Magnetism and Matter Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetism-and-matter-class-12-notes)

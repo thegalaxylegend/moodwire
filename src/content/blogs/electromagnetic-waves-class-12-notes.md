@@ -102,7 +102,7 @@ To prepare for the Class 12 exam, it's essential to practice problems and questi
 
 The Electromagnetic Spectrum is a vast band of energy frequencies that includes various types of electromagnetic radiation. It includes radio waves, microwaves, and gamma rays, among other forms of electromagnetic radiation. For Class 12 exam prep in 2026, the most important aspect is understanding the arrangement and properties of these different types of radiation in the spectrum. 
 
-The Electromagnetic Spectrum is generally divided into seven main regions, each with distinct properties and applications. These regions, from longer wavelengths to shorter wavelengths, are radio waves, microwaves, infrared (IR) radiation, visible light, ultraviolet (UV) radiation, X-rays, and gamma rays. Each of these regions has unique characteristics, such as wavelength, frequency, and energy, which determine their uses and effects on matter. 
+The Electromagnetic Spectrum is generally divided into seven main regions, each with distinct properties and applications. These regions, from longer wavelengths to shorter wavelengths, are radio waves, microwaves, infrared (IR) radiation, visible light, ultraviolet (UV) radiation, X-rays, and gamma rays. Each of these regions has unique characteristics, such as wavelength, frequency, and energy, which determine their uses and effects on [matter](/blog/magnetism-and-matter-class-12-notes). 
 
 Radio waves, for instance, have the longest wavelengths and the lowest energies, and they are used extensively in wireless communication, such as radio broadcasting and mobile phone networks. Microwaves, with wavelengths shorter than radio waves, are used in heating and cooking, as well as in wireless communication technologies like Wi-Fi and Bluetooth. Infrared radiation, which includes heat, is felt as warmth and is used in thermal imaging and heating applications. Visible light, the part of the spectrum that humans can see, spans from approximately 380 nanometers (violet) to 740 nanometers (red) and is crucial for vision and photosynthesis. Ultraviolet radiation, with shorter wavelengths than visible light, is known for causing sunburn and is used in applications such as sterilization and water purification. X-rays, with even shorter wavelengths, are used in medical imaging to visualize the internal structures of the body. Gamma rays have the shortest wavelengths and the highest energies, and they are used in medical treatments, scientific research, and industrial applications.
 
@@ -374,3 +374,15 @@ Absorption
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Magnetism and Matter Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetism-and-matter-class-12-notes)
+- 📖 [Electromagnetic Induction Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
+- 📖 [Wave Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/wave-optics-class-12-notes)
+- 📖 [Alternating Current Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/alternating-current-class-12-notes)

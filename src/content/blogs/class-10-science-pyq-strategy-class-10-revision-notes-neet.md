@@ -101,7 +101,7 @@ PYQs cover about 70% of the paper. To reach 95+, you must also master modern "Co
 Focus on the last 5–10 years. However, prioritize the most recent 5 years, as the board exam pattern shifted significantly after 2020 to include more application-based questions.
 
 ### 3. Which Science chapters have the highest ROI?
-"Our Environment" has the highest ROI (marks per hour of study). For major marks, prioritize "Light," "Electricity," and "Life Processes," as they are consistently high-weightage in the CBSE boards.
+"Our Environment" has the highest ROI (marks per hour of study). For major marks, prioritize "Light," "Electricity," and "Life Processes," as they are consistently high-[weightage](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) in the CBSE boards.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
@@ -114,3 +114,15 @@ Focus on the last 5–10 years. However, prioritize the most recent 5 years, as 
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Cuet 2026 Master Strategy Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)
+- 📖 [Jee Mains High Weightage Chapters Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)
+- 📖 [Class 10 30 Day Timetable Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/class-10-30-day-timetable-class-10-revision-notes-jee)
+- 📖 [State Scholarship Guide 2026 Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)

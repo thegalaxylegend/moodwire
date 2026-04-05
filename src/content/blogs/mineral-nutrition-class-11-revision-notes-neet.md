@@ -54,7 +54,7 @@ Mineral nutrition is [the process by which plants absorb and utilize essential e
 
 ## Essential Elements for Plant Growth
 
-The 16 essential elements required by plants are:
+The 16 essential elements required by [plants](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet) are:
 1. Carbon (C)
 2. Hydrogen (H)
 3. Oxygen (O)
@@ -87,7 +87,7 @@ Macronutrients are required by plants in large quantities. The macronutrients ar
 5. Magnesium (Mg)
 6. Sulfur (S)
 
-These elements are [involved in various physiological processes](https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/macronutrient), such as photosynthesis, respiration, and cell division.
+These elements are [involved in various physiological processes](https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/macronutrient), such as photosynthesis, respiration, and cell [division](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet).
 
 
 
@@ -216,8 +216,8 @@ Answer: b) Stunted growth and purple coloration of leaves
 
 ## Related Notes Links
 
-* [Photosynthesis Class 11 Notes](/blog/photosynthesis-class-11-notes)
-* [Respiration Class 11 Notes](/blog/respiration-class-11-notes)
+* Photosynthesis Class 11 Notes
+* Respiration Class 11 Notes
 
 <div class="quick-summary">
 Mineral nutrition is the study of the essential elements required by plants for growth and development. Plants require 16 essential elements, which are divided into macronutrients and micronutrients. Mineral nutrition is critical for maintaining plant health and preventing diseases.
@@ -234,3 +234,15 @@ Mineral nutrition is the study of the essential elements required by plants for 
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
+- 📖 [Cell Cycle And Cell Division Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet)
+- 📖 [Hydrocarbons Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/hydrocarbons-class-11-revision-notes-neet)
+- 📖 [Hydrogen Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/hydrogen-class-11-revision-notes-neet)
