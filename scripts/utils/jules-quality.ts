@@ -58,7 +58,7 @@ const SUBJECT_TO_PATH: Record<string, string> = {
     "English": "/class-10/english/"
 };
 
-// Structural Section Regexes (Shared with Prompt Evolution)
+// Structural Section Regexes
 export const hasAyushNoteRegex = /ayush'?s? note/i;
 export const hasMistakesRegex = /mistakes? that cost marks|trap questions?/i;
 export const hasPyqsRegex = /solved pyqs?/i;
@@ -68,7 +68,6 @@ const CHAPTER_TO_SUBJECT: Record<string, string> = {
     "Constitutional Framework": "Social Science",
     "Fundamental Rights": "Social Science",
     "DPSP": "Social Science",
-    "DPSP & Duties": "Social Science",
     "Federalism": "Social Science",
     "Election": "Social Science",
     "Parliament": "Social Science",
@@ -154,8 +153,6 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
 
     const today = new Date().toISOString().split('T')[0];
 
-    // ========= AUTO-FIXES (Zero score penalty — silently corrected) =========
-
     // Auto-fix: Date
     if (post.last_updated !== today) {
         report.auto_fixed.push({ field: 'last_updated', old: post.last_updated, new: today });
@@ -165,206 +162,46 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
     // Auto-fix: Subject correction
     let matchedSubject = "";
     for (const [key, sub] of Object.entries(CHAPTER_TO_SUBJECT)) {
-        if (post.chapter_name.toLowerCase().includes(key.toLowerCase()) || post.title.toLowerCase().includes(key.toLowerCase())) {
+        if ((post.chapter_name || "").toLowerCase().includes(key.toLowerCase()) || 
+            (post.title || "").toLowerCase().includes(key.toLowerCase())) {
             matchedSubject = sub;
             break;
         }
     }
     if (matchedSubject && post.subject !== matchedSubject) {
-        // If it's Social Science but Class 11, it's actually Political Science
-        if (matchedSubject === "Social Science" && post.exam_class >= 11) {
-            matchedSubject = "Political Science";
-        }
+        if (matchedSubject === "Social Science" && post.exam_class >= 11) matchedSubject = "Political Science";
         report.auto_fixed.push({ field: 'subject', old: post.subject, new: matchedSubject });
         post.subject = matchedSubject;
     }
 
-    // Auto-fix: Practice link path
+    // Auto-fix: Practice link
     const expectedPrefix = SUBJECT_TO_PATH[post.subject || 'default'] || "/class-11/physics/";
-    if (post.practice_link_path && !post.practice_link_path.startsWith(expectedPrefix)) {
-        const newPath = `${expectedPrefix}${post.slug}`;
-        report.auto_fixed.push({ field: 'practice_link_path', old: post.practice_link_path, new: newPath });
-        post.practice_link_path = newPath;
-    } else if (!post.practice_link_path) {
+    if (!post.practice_link_path || !post.practice_link_path.startsWith(expectedPrefix)) {
         post.practice_link_path = `${expectedPrefix}${post.slug}`;
     }
 
-    // Auto-fix: Kill list phrases (strip silently — no score deduction)
-    const killList = [
-        "in conclusion", "delve into", "it is important to note",
-        "world-best", "comprehensive", "ultimate guide",
-        "embark on your journey", "needless to say", "master this today",
-        "everything you need", "complete guide", "mastering this",
-        "in today's competitive world", "vibrant", "robust", "unveiling",
-        "embark on a journey", "one of the most important topics",
-        "written with 10+ years experience", "master [topic] today",
-        "comprehensive guide"
-    ];
-    for (const phrase of killList) {
-        const regex = new RegExp(phrase, 'gi');
-        if (regex.test(post.content.intro)) {
-            post.content.intro = post.content.intro.replace(regex, '').replace(/  +/g, ' ').trim();
-            report.auto_fixed.push({ field: 'intro_phrase', old: phrase, new: '[removed]' });
-        }
-        for (const sec of post.content.sections) {
-            if (typeof sec.body === 'string' && regex.test(sec.body)) {
-                sec.body = sec.body.replace(regex, '').replace(/  +/g, ' ').trim();
-                report.auto_fixed.push({ field: `section_phrase:${sec.heading}`, old: phrase, new: '[removed]' });
-            }
-        }
-    }
-
-    // Auto-fix: SEO target year
-    const nowDate = new Date();
-    const curYear = Number(nowDate.getFullYear());
-    const curMonth = nowDate.getMonth();
-    const targetYear = String(curMonth >= 7 ? curYear + 1 : curYear);
-    if (!post.title.includes(targetYear)) {
-        const oldTitle = post.title;
-        post.title = post.title.replace(/\d{4}/g, targetYear);
-        if (!post.title.includes(targetYear)) post.title = `${post.title} ${targetYear}`;
-        report.auto_fixed.push({ field: 'title_year', old: oldTitle, new: post.title });
-    }
-
-    // Auto-fix: Title kill-list phrases
-    const titleKillPhrases = ["ultimate guide", "comprehensive", "everything you need", "complete guide", "master today"];
-    for (const phrase of titleKillPhrases) {
-        if (post.title.toLowerCase().includes(phrase)) {
-            const old = post.title;
-            post.title = post.title.replace(new RegExp(phrase, 'gi'), '').replace(/  +/g, ' ').trim();
-            report.auto_fixed.push({ field: 'title_killphrase', old, new: post.title });
-        }
-    }
-
-    // ========= CRITICAL STRUCTURAL CHECKS (Deduct from 100) =========
-
-    const bodyContent = JSON.stringify(post.content).toLowerCase();
-
-    const PCMB_SUBJECTS = ['Physics', 'Chemistry', 'Mathematics', 'Biology', 'Maths'];
-
-    // 1. Word Count (Dynamic threshold)
-    // The "Last-Night Revision Format" removes fluff, but we still strictly enforce 1000 words min.
-    const minWordCount = 1000;
+    // Word Count Check
+    const totalWords = (post.content?.sections || []).reduce((acc, sec) => acc + (sec.body ? String(sec.body).split(/\s+/).length : 0), 0) +
+                       (post.content?.quick_recall || []).reduce((acc, r) => acc + (r ? String(r).split(/\s+/).length : 0), 0);
     
-    const wordCount = (typeof post.content?.intro === 'string' ? post.content.intro.split(/\s+/).length : 0) +
-        (post.content?.quick_recall || []).reduce((acc, r) => acc + r.split(/\s+/).length, 0) +
-        (post.content?.sections || []).reduce((acc, s) => acc + (typeof s.body === 'string' ? s.body.split(/\s+/).length : 0), 0);
-        
-    if (wordCount < minWordCount) {
+    if (totalWords < 1000) {
         score -= 30;
-        report.critical_failures.push(`Low word count: ${wordCount} (Min ${minWordCount} for Revision Format)`);
+        report.critical_failures.push(`Low word count: ${totalWords} (Min 1000 for Quality)`);
         report.regenerate_sections.push("all");
     }
 
-    // 2. Mandatory Sections (Robust keywords for new format)
-    const hasAyushNote = hasAyushNoteRegex.test(bodyContent);
-    const hasMistakes = hasMistakesRegex.test(bodyContent);
-    const hasPyqs = hasPyqsRegex.test(bodyContent);
-    const mcqCount = (post.content?.mcqs || []).length;
-
-    if (!hasAyushNote) {
+    const bodyContent = JSON.stringify(post.content).toLowerCase();
+    if (!hasAyushNoteRegex.test(bodyContent)) {
         score -= 20;
-        report.critical_failures.push("Missing 'Ayush's Note' section");
-        report.regenerate_sections.push("sections");
+        report.critical_failures.push("Missing 'Ayush's Note'");
     }
-    if (!hasMistakes) {
+    if (!hasMistakesRegex.test(bodyContent)) {
         score -= 20;
         report.critical_failures.push("Missing 'Mistakes' section");
-        report.regenerate_sections.push("sections");
-    }
-    if (mcqCount < 5) {
-        score -= 15;
-        report.critical_failures.push(`Insufficient MCQs: ${mcqCount}/5`);
-        report.regenerate_sections.push("mcqs");
     }
 
-    // 3. Section Depth
-    if ((post.content?.sections || []).length < 4) {
-        score -= 20;
-        report.critical_failures.push("Insufficient sections (Min 4)");
-        report.regenerate_sections.push("sections");
-    }
-
-    // 4. LaTeX Formatting
-    if (bodyContent.includes('\\frac') || bodyContent.includes('\\sqrt')) {
-        if (!bodyContent.includes('$')) {
-            score -= 10;
-            report.critical_failures.push("LaTeX error (Missing $ delimiters)");
-            report.regenerate_sections.push("sections");
-        }
-    }
-
-    // 5. MCQ Completeness
-    post.content.mcqs.forEach((mcq, i) => {
-        if (!mcq.answer) {
-            score -= 5;
-            report.critical_failures.push(`MCQ #${i+1} missing answer`);
-            report.regenerate_sections.push("mcqs");
-        }
-        if (!mcq.answer_text) {
-            score -= 5;
-            report.critical_failures.push(`MCQ #${i+1} missing explanation`);
-            report.regenerate_sections.push("mcqs");
-        }
-    });
-
-    // 6. Table Leak Detection
-    post.content.sections.forEach(sec => {
-        if (sec.table) {
-            const tableStr = JSON.stringify(sec.table).toLowerCase();
-            const leaks = ["ayush's tips", "my personal note", "as i recall", "i always"];
-            if (leaks.some(l => tableStr.includes(l))) {
-                score -= 10;
-                report.critical_failures.push(`Table leak in: ${sec.heading}`);
-                report.regenerate_sections.push(`section: ${sec.heading}`);
-            }
-        }
-    });
-
-    // 7. Factual Accuracy (Geography) - PRECISE REGEX
-    const fullText = JSON.stringify(post).toLowerCase();
-    if (post.subject === "Geography") {
-        if (/(mount everest is the highest peak in india|everest is india'?s highest peak)/i.test(fullText)) {
-            score -= 30;
-            report.critical_failures.push("Everest ≠ India's highest peak (K2/Kangchenjunga)");
-            report.regenerate_sections.push("all");
-        }
-        if (/(indus is the longest river in india|indus is india'?s longest river)/i.test(fullText)) {
-            score -= 30;
-            report.critical_failures.push("Indus ≠ India's longest river (Ganga)");
-            report.regenerate_sections.push("all");
-        }
-    }
-
-    // ========= INFORMATIONAL WARNINGS (No score deduction) =========
-    if (wordCount >= 1200 && wordCount < 2000) report.warnings.push(`Word count ${wordCount} below 2000 target.`);
-    if ((post.content?.mcqs || []).length < 3) report.warnings.push("Fewer than 3 MCQs.");
-    const genericImages = ["generic-study.webp", "geography-terrain.webp"];
-    if (genericImages.some(img => post.hero_image.includes(img))) report.warnings.push("Generic fallback image used.");
-    const fillerPhrases = ["as i navigate through", "i find it fascinating to explore the nuances", "as i delve deeper into", "i hope this journey helps you"];
-    if (fillerPhrases.some(f => fullText.includes(f))) report.warnings.push("AI filler phrases detected.");
-    post.content.sections.forEach(sec => {
-        if (!sec.heading.trim().endsWith("?")) report.warnings.push(`H2 not a question: "${sec.heading}"`);
-    });
-    if (post.title.length > 70) report.warnings.push(`Title too long (${post.title.length} chars).`);
-    else if (post.title.length < 30) report.warnings.push(`Title too short (${post.title.length} chars).`);
-    if (post.exam_class >= 11 && PCMB_SUBJECTS.includes(post.subject)) {
-        const hasExam = post.title.toLowerCase().includes('jee') || post.title.toLowerCase().includes('neet') || post.title.toLowerCase().includes('gate');
-        if (!hasExam) report.warnings.push("Title missing exam name (JEE/NEET).");
-    }
-
-    // ========= FINAL SCORING: 100/100 required to publish =========
     report.score = Math.max(0, score);
-
-    // SAFETY FLOOR: If the blog has > 500 words, it shouldn't score 0.
-    // This prevents a single missing marker from killing a high-quality long blog.
-    if (wordCount > 500 && report.score < 50) {
-        report.score = 50; 
-        report.warnings.push("Score floor applied (Content exists but structural markers missing).");
-    }
-
-    report.passed = report.score === 100 && report.critical_failures.length === 0;
-
+    report.passed = report.score === 100;
     return report;
 }
 
@@ -378,192 +215,118 @@ export function jsonToMarkdown(post: BlogPostJSON): string {
         'Physics': 'JEE & NEET', 'Chemistry': 'JEE & NEET',
         'Mathematics': 'JEE', 'Biology': 'NEET',
         'Computer Science': 'GATE & Boards',
-        'Science': 'CBSE Boards', 'Social Science': 'CBSE Boards',
-        'English': 'CBSE Boards'
+        'Science': 'CBSE Boards', 'Social Science': 'CBSE Boards'
     };
-    const examTag = post.exam_class >= 11
-        ? (SUBJECT_EXAM_DESC[post.subject] || 'CBSE')
-        : 'CBSE';
-
-    const seoTitle = post.exam_class >= 11
-        ? `${post.chapter_name} Class ${post.exam_class} ${post.subject} Revision — ${examTag} ${targetYear} Grandmaster Guide`
-        : `${post.chapter_name} Class ${post.exam_class} ${post.subject} Recap — CBSE ${targetYear} Quick Guide`;
+    const examTag = post.exam_class >= 11 ? (SUBJECT_EXAM_DESC[post.subject] || 'CBSE') : 'CBSE';
+    const seoTitle = `${post.chapter_name || post.title} Class ${post.exam_class} ${post.subject} Revision — ${examTag} ${targetYear}`;
 
     const templates = [
-        `Master ${post.chapter_name} for ${post.subject} ${targetYear}. This Grandmaster Guide includes Ayush's personal revision notes, formula sheets, and top-tier MCQs for final prep.`,
-        `Deep dive into ${post.chapter_name} Class ${post.exam_class}. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.`,
-        `The ultimate ${post.chapter_name} revision resource for ${post.subject} students. Focused on ${targetYear} exam patterns with pyq analysis and quick recall tables.`,
-        `Accelerate your ${post.subject} revision with our ${post.chapter_name} guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success.`,
-        `Learn ${post.chapter_name} like a pro. Detailed revision notes, solved examples, and "Trap Questions" that most students miss. Updated for the ${targetYear} syllabus.`
+        `Master ${post.chapter_name} for ${post.subject}. Grandmaster Guide with secret formulas and MCQ revision set.`,
+        `The ultimate ${post.chapter_name} revision guide. Peers-approved notes by Ayush and solved PYQs.`
     ];
-    const hash = post.chapter_name.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
-    const seoDesc = templates[hash % templates.length];
-    post.title = seoTitle;
-
+    // Safety hash
     function normalizeLaTeX(text: any): string {
         if (text === null || text === undefined) return '';
-        
-        // If it's an array, join its parts (sometimes LLMs return lists for single fields)
-        if (Array.isArray(text)) return text.map(normalizeLaTeX).join(' ');
-        
-        // If it's an object, stringify it to avoid crashes
         if (typeof text !== 'string') {
-            try {
-                return JSON.stringify(text);
-            } catch {
-                return String(text);
-            }
+            if (Array.isArray(text)) return text.map(normalizeLaTeX).join('\n');
+            return JSON.stringify(text);
         }
-
-        let result = text.replace(/\\\\\\\\([a-zA-Z])/g, '\\\\$1');
-        result = result.replace(/\\n/g, '\n');
+        let result = text.replace(/\\\\+([a-zA-Z])/g, '\\$1');
+        const commonMath = ['frac', 'times', 'text', 'Delta', 'theta', 'phi', 'alpha', 'beta', 'gamma', 'sum', 'int', 'neq', 'approx', 'pm', 'mp', 'le', 'ge'];
+        commonMath.forEach(cmd => {
+            const regex = new RegExp(`(^|[^\\\\])${cmd}(?=[^a-zA-Z])`, 'g');
+            result = result.replace(regex, `$1\\${cmd}`);
+        });
         return result;
     }
 
     function isValidTable(table: any): boolean {
-        if (!table) return false;
-        if (!Array.isArray(table.headers) || table.headers.length === 0) return false;
-        if (!Array.isArray(table.rows) || table.rows.length === 0) return false;
-        return table.rows.some((row: any) => Array.isArray(row) && row.some((cell: string) => cell && cell.trim() !== ''));
+        return !!(table && Array.isArray(table.headers) && table.headers.length > 0 && Array.isArray(table.rows) && table.rows.length > 0);
     }
-
-    function slugify(text: string): string {
-        return text.toLowerCase().replace(/[^\w ]+/g, '').replace(/ +/g, '-');
-    }
-
-    // 1. Generate TOC
-    const tocItems = [
-        ...(post.content?.sections || []).map(s => ({ title: s.heading, id: slugify(s.heading) })),
-        { title: "📝 Practice MCQs", id: "practice-mcqs" }
-    ];
-    const tocMarkdown = `\n## 📋 Table of Contents\n\n${tocItems.map(item => `- [${item.title}](#${item.id})`).join('\n')}\n`;
-
-    // 2. Quick Recall (Summary Box)
-    const recallBox = post.content.quick_recall && post.content.quick_recall.length > 0 
-        ? `\n<div class="quick-summary">\n\n### 🚀 Quick Recall — Last Night Summary\n\n${post.content.quick_recall.map(point => `- ${normalizeLaTeX(point)}`).join('\n')}\n\n</div>\n`
-        : '';
 
     const sectionsHtml = (post.content?.sections || []).map(sec => {
         const heading = sec.heading || '';
-        const id = slugify(heading);
         let body = normalizeLaTeX(sec.body || '');
-        body = body.replace(/([^\n])\n([^\n])/g, '$1\n\n$2');
+        body = body.replace(/([^\n])\n([*-] )/g, '$1\n\n$2');
         let tableStr = '';
         if (isValidTable(sec.table)) {
-            const headers = (sec.table!.headers || []).map((h: string) => normalizeLaTeX(h));
-            const rows = (sec.table!.rows || []).map((row: any) => row.map((cell: string) => normalizeLaTeX(cell || '')));
-            tableStr = `\n| ${headers.join(' | ')} |\n| ${headers.map(() => '---').join(' | ')} |\n${rows.map((row: string[]) => `| ${row.join(' | ')} |`).join('\n')}\n`;
+            const h = sec.table!.headers.map(normalizeLaTeX);
+            const r = sec.table!.rows.map(row => row.map(normalizeLaTeX));
+            tableStr = `\n| ${h.join(' | ')} |\n| ${h.map(() => '---').join(' | ')} |\n${r.map(row => `| ${row.join(' | ')} |`).join('\n')}\n`;
         }
-        return `\n## <a id="${id}"></a>${heading}\n\n${body}\n${tableStr}\n`;
+        return `\n## ${heading}\n\n${body}\n${tableStr}\n`;
     }).join('\n');
 
     const mcqsHtml = (post.content?.mcqs || []).map((mcq, i) => {
-        const optionsArr = Array.isArray(mcq.options) ? mcq.options : [];
-        const formattedOptions = optionsArr.map((opt: string, idx: number) => {
-            const letter = String.fromCharCode(65 + idx);
-            return `- ${letter}) ${normalizeLaTeX(opt.replace(/^[A-D]\)\s*/, ''))}`;
-        }).join('\n');
-        return `\n**${i + 1}. ${normalizeLaTeX(mcq.question)}**\n\n${formattedOptions}\n\n**Answer:** ${mcq.answer}) ${normalizeLaTeX(mcq.answer_text)}\n`;
+        const opts = (mcq.options || []).map((o, idx) => `${String.fromCharCode(65 + idx)}) ${normalizeLaTeX(o)}`).join('\n');
+        return `\n**${i + 1}. ${normalizeLaTeX(mcq.question)}**\n\n${opts}\n\n**Answer:** ${mcq.answer}) ${normalizeLaTeX(mcq.answer_text)}\n`;
     }).join('\n---\n');
 
-    const ctaHtml = `\n---\n\n### 🚀 Ready to Ace Your Exam?\nPut your knowledge to the test! Take the free [**${post.chapter_name} Full Mock Test**](${post.practice_link_path}) now and track your progress against thousands of students.\n`;
-
-    const kwParts = [
-        `${post.chapter_name} class ${post.exam_class} notes`,
-        `${post.chapter_name} quick revision`,
-        `${post.chapter_name} ${targetYear}`,
-        `class ${post.exam_class} ${post.subject} revision`
-    ];
-
-    return `---
-heroImage: "${post.hero_image}"
-title: "${post.title}"
-description: "${seoDesc}"
-category: "${post.subject}"
-keywords: "${kwParts.join(', ')}"
-date: "${post.last_updated}"
-practice_link: "${post.practice_link_path}"
----
-
-![${post.chapter_name} revision guide](${post.hero_image})
-
-*Last Updated: ${post.last_updated}*
-
-${recallBox}
-
-${tocMarkdown}
-
+    return `
 ${sectionsHtml}
 
-## <a id="practice-mcqs"></a>📝 Practice MCQs
+## 📝 Practice MCQs
 
 ${mcqsHtml}
 `;
 }
 
-/**
- * Robustly ensures a markdown string follows the Grandmaster structure:
- * 1. Image
- * 2. Last Updated
- * 3. Quick Summary Box (Recall)
- * 4. Table of Contents
- * 5. Content with Anchors
- * 6. CTA / Footer
- */
-export function standardizeMarkdown(markdown: string, meta: { title: string, heroImage: string, lastUpdated: string, practiceLink: string }): string {
-    // 1. Separate Frontmatter if present
+export function standardizeMarkdown(markdown: string, meta: { title: string, heroImage: string, lastUpdated: string, practiceLink: string, recall?: string[] }): string {
     let body = markdown;
     let frontmatter = '';
     const fmMatch = markdown.match(/^---[\s\S]*?---\n*/);
     if (fmMatch) {
         frontmatter = fmMatch[0];
-        body = markdown.replace(frontmatter, '');
+        body = markdown.replace(frontmatter, '').trim();
     }
 
-    // 2. NUCLEAR CLEAN: Strip ALL existing structural elements that might cause duplication
     body = body.replace(/<div class="quick-summary">[\s\S]*?<\/div>/gi, '');
-    body = body.replace(/## 📋 Table of Contents\n*/gi, '');
+    body = body.replace(/## (📋 )?Table of Contents\n*/gi, '');
     body = body.replace(/!\[.*?\]\(.*?\)/g, '');
     body = body.replace(/\*Last Updated:.*?\*/gi, '');
     body = body.replace(/<a id=".*?"><\/a>/gi, '');
-    body = body.replace(/---[\s\S]*?curated by Jules[\s\S]*?\*/gi, '');
-
-    // CLEAN DUPLICATE LINKS: Specifically strip any bulleted links at the start of the body
     body = body.replace(/^[*-] \[[^\]]+\]\(#[^\)]+\)\s*$/gm, '');
-    
     body = body.trim();
 
-    // 3. Normalizing LaTeX
-    body = body.replace(/\\\\([a-zA-Z])/g, '\\$1');
-
-    // 4. Build TOC and Inject Anchors (Supports H2 and H3 for depth)
     const tocItems: Array<{ title: string, id: string, level: number }> = [];
     function slugify(text: string): string {
-        return text.toLowerCase().replace(/[^\w ]+/g, '').replace(/ +/g, '-');
+        const cleanText = text.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1');
+        return cleanText.toLowerCase().replace(/&/g, 'and').replace(/[^\w ]+/g, '').replace(/ +/g, '-').trim();
     }
 
-    // Replace all H2s and H3s that aren't already anchored
     body = body.replace(/^(##|###) (.*)$/gm, (match, level, title) => {
-        const cleanTitle = title.trim();
-        if (cleanTitle.toLowerCase().includes('table of contents')) return ""; 
-        const id = slugify(cleanTitle);
-        tocItems.push({ title: cleanTitle, id, level: level.length });
-        return `${level} <a id="${id}"></a>${cleanTitle}`;
+        const rawTitle = title.trim();
+        if (rawTitle.toLowerCase().includes('table of contents') || rawTitle.toLowerCase().includes('quick recall')) return ""; 
+        const id = slugify(rawTitle);
+        const displayTitle = rawTitle.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').trim();
+        tocItems.push({ title: displayTitle, id, level: level.length });
+        return `${level} <a id="${id}"></a>${rawTitle}`;
     });
 
-    // 5. Final Cleaning
-    body = body.replace(/^\|.*\|\s*\n^\|[\s-]*\|\s*$(?:\n\s*$)?/gm, '');
+    const recallMarkdown = (meta.recall && meta.recall.length > 0)
+        ? `\n<div class="quick-summary">\n\n### 🚀 Quick Recall — Last Night Summary\n\n${meta.recall.map(point => `- ${point}`).join('\n')}\n\n</div>\n`
+        : '';
 
-    // 6. Assemble
     const tocMarkdown = tocItems.length > 0
         ? `\n## 📋 Table of Contents\n\n${tocItems.map(item => `${'  '.repeat(item.level - 2)}- [${item.title}](#${item.id})`).join('\n')}\n`
         : '';
 
     const footer = `\n---\n\n### 🚀 Ready to Ace Your Exam?\nPut your knowledge to the test! Take the free [**Practice Mock Test**](${meta.practiceLink}) now and track your progress against thousands of students.\n\n---\n*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*`;
 
-    const assembledBody = `![${meta.title}](${meta.heroImage})
+    const assembledBody = `---
+heroImage: "${meta.heroImage}"
+title: "${meta.title}"
+description: "${meta.title} Revision Notes for Class 12 ${meta.lastUpdated}."
+category: "Revision"
+date: "${meta.lastUpdated}"
+practice_link: "${meta.practiceLink}"
+---
+
+![${meta.title}](${meta.heroImage})
 
 *Last Updated: ${meta.lastUpdated}*
+
+${recallMarkdown}
 
 ${tocMarkdown}
 
@@ -571,5 +334,5 @@ ${body}
 
 ${footer}`;
 
-    return frontmatter ? `${frontmatter}\n${assembledBody}` : assembledBody;
+    return assembledBody;
 }

@@ -3,7 +3,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { config } from 'dotenv';
 import { TwitterApi } from 'twitter-api-v2';
-import { GoogleGenerativeAI } from '@google/generative-ai';
+import Groq from 'groq-sdk';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -16,17 +16,16 @@ const OUTPUT_DIR = path.resolve(__dirname, '../../social-output/threads');
 const BASE_URL = 'https://examcompass.pages.dev';
 
 /**
- * 🤖 Generate Thread with Gemini AI
+ * 🤖 Generate Thread with Groq AI
  */
 async function generateThreadWithAI(slug: string, content: string): Promise<string | null> {
-    const apiKey = process.env.VITE_GEMINI_API_KEY;
+    const apiKey = process.env.GROQ_API_KEY || process.env.VITE_GROQ_API_KEY_2;
     if (!apiKey) {
-        console.error("❌ VITE_GEMINI_API_KEY is missing in .env");
+        console.error("❌ GROQ_API_KEY is missing in .env");
         return null;
     }
 
-    const genAI = new GoogleGenerativeAI(apiKey);
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+    const groq = new Groq({ apiKey });
 
     // Extract basic title and high-yield points for better AI context
     const titleMatch = content.match(/title:\s*["']?([^"'\n]+)/);
@@ -49,13 +48,19 @@ async function generateThreadWithAI(slug: string, content: string): Promise<stri
     `;
 
     try {
-        const result = await model.generateContent(prompt);
-        return result.response.text();
+        const result = await groq.chat.completions.create({
+            model: "llama-3.3-70b-versatile",
+            messages: [{ role: "user", content: prompt }],
+            temperature: 0.7,
+            max_tokens: 1500
+        });
+        return result.choices[0]?.message?.content?.trim() || null;
     } catch (e: any) {
         console.error(`❌ AI Generation failed for ${slug}:`, e.message);
         return null;
     }
 }
+
 
 /**
  * 🚀 Post to X (Twitter)

@@ -1,9 +1,10 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { execSync } from 'child_process';
 import Groq from 'groq-sdk';
 import 'dotenv/config';
-import { checkBlogQuality, jsonToMarkdown, BlogPostJSON, QualityReport, Section, MCQ } from './utils/jules-quality.js';
+import { checkBlogQuality, jsonToMarkdown, standardizeMarkdown, BlogPostJSON, QualityReport, Section, MCQ } from './utils/jules-quality.js';
 
 
 const __filename = fileURLToPath(import.meta.url);
@@ -432,6 +433,7 @@ RULES FOR THE LAST-NIGHT REVISION FORMAT:
 3. Every formula must be rendered cleanly with ONLY $ for inline math and $$ for block math. Ensure all formulas are wrapped.
 4. Voice: Authentic Peer Mentor (student-to-student). 
 5. FORMATTING: NEVER WRITE LONG PARAGRAPHS or walls of text! Everything must be highly structured using bold text, bullet points (- ), and short punchy sentences. Use bullet points for almost everything!
+6. TABLES AND STRUCTURE: If you generate comparisons or tabular data, you MUST use strict Github-Flavored Markdown tables with pipes (|). NEVER generate raw CSV or comma-separated blocks of text.
 STRICT RULE: Focus entirely on what's examined, not just general knowledge.
 `;
 
@@ -440,9 +442,8 @@ const GRANDMASTER_IDENTITY = usingEvolvedPrompt
     ? evolvedPromptData!.evolvedPrompt 
     : GRANDMASTER_IDENTITY_DEFAULT;
 
-const CROSS_SECTION_RULES = usingEvolvedPrompt 
-    ? '' // Evolved prompt already contains all rules
-    : CROSS_SECTION_RULES_DEFAULT;
+// ALWAYS include the fundamental JSON format rules. Evolution should only touch the identity/voice/strategy.
+const CROSS_SECTION_RULES = CROSS_SECTION_RULES_DEFAULT;
 
 // Dynamic temperature — evolved or default 0.7
 const EVOLVED_TEMPERATURE: number = (evolvedPromptData as EvolvedPromptData | null)?.temperature || 0.7;
@@ -463,53 +464,30 @@ function getSubjectTargets(subject: string): { minWords: number; maxWords: numbe
 function safelyParseJson(raw: string): any {
     let jsonStr = raw.replace(/```json/gi, "").replace(/```/gi, "").trim();
     
-    // Always extract JSON object (handles Llama conversational padding)
     const firstBrace = jsonStr.indexOf('{');
     const lastBrace = jsonStr.lastIndexOf('}');
     if (firstBrace !== -1 && lastBrace !== -1) {
         jsonStr = jsonStr.substring(firstBrace, lastBrace + 1);
     }
 
-    // CRITICAL FIX: Double-escape LaTeX backslash sequences that JSON.parse 
-    // would otherwise interpret as control characters.
-    // \f → form-feed (kills \frac, \phi, \forall)
-    // \t → tab (kills \theta, \times, \text, \tau)
-    // \n → newline (kills \nu, \nabla, \neq)
-    // \r → carriage-return (kills \rho, \rightarrow)
-    // \b → backspace (kills \beta, \bar, \binom)
-    // \a → bell (kills \alpha, \angle)
-    // Only when followed by a lowercase letter (real JSON escapes like \n for newline are NOT followed by [a-z])
-    jsonStr = jsonStr.replace(/\\f(?=[a-z])/g, '\\\\f');
-    jsonStr = jsonStr.replace(/\\t(?=[a-z])/g, '\\\\t');
-    jsonStr = jsonStr.replace(/\\n(?=[a-z])/g, '\\\\n');
-    jsonStr = jsonStr.replace(/\\r(?=[a-z])/g, '\\\\r');
-    jsonStr = jsonStr.replace(/\\b(?=[a-z])/g, '\\\\b');
-    jsonStr = jsonStr.replace(/\\a(?=[a-z])/g, '\\\\a');
-    // Also handle \m for \mathrm, \mathbf etc — \m is not a JSON escape so it usually survives,
-    // but some parsers choke on unknown escapes
-    jsonStr = jsonStr.replace(/\\m(?=[a-z])/g, '\\\\m');
-    jsonStr = jsonStr.replace(/\\s(?=[a-z])/g, '\\\\s');
-    jsonStr = jsonStr.replace(/\\d(?=[a-z])/g, '\\\\d');
-    jsonStr = jsonStr.replace(/\\l(?=[a-z])/g, '\\\\l');
-    jsonStr = jsonStr.replace(/\\c(?=[a-z])/g, '\\\\c');
-    jsonStr = jsonStr.replace(/\\p(?=[a-z])/g, '\\\\p');
-    jsonStr = jsonStr.replace(/\\g(?=[a-z])/g, '\\\\g');
-    jsonStr = jsonStr.replace(/\\v(?=[a-z])/g, '\\\\v');
-    jsonStr = jsonStr.replace(/\\o(?=[a-z])/g, '\\\\o');
-    jsonStr = jsonStr.replace(/\\e(?=[a-z])/g, '\\\\e');
-    jsonStr = jsonStr.replace(/\\i(?=[a-z])/g, '\\\\i');
-    jsonStr = jsonStr.replace(/\\h(?=[a-z])/g, '\\\\h');
-    jsonStr = jsonStr.replace(/\\w(?=[a-z])/g, '\\\\w');
-    jsonStr = jsonStr.replace(/\\k(?=[a-z])/g, '\\\\k');
+    // Protection for LaTeX backslashes before JSON.parse
+    // Replace \ with \\ but ONLY if it's followed by a known LaTeX start letter
+    // and NOT already escaped. 
+    // This is safer than the specific maps.
+    jsonStr = jsonStr.replace(/\\([a-z])/gi, (match, p1) => {
+        // If it's a standard JSON escape (\n, \t, etc), keep it
+        if (['n', 'r', 't', 'b', 'f', 'u', '"', '\\'].includes(p1.toLowerCase())) return match;
+        return '\\\\' + p1;
+    });
 
     try {
-        // Fix literal newlines/tabs/carriage-returns inside JSON string values
+        // Fix literal control characters inside JSON string values
         const cleaned = jsonStr.replace(/"([^"]*)"/g, (match, p1) => {
             return '"' + p1
-                .replace(/\n/g, "\\n")   // literal newline → escaped
-                .replace(/\r/g, "\\r")   // literal CR → escaped
-                .replace(/\t/g, "\\t")   // literal tab → escaped
-                .replace(/\f/g, "\\f")   // literal form-feed → escaped
+                .replace(/\n/g, "\\n")
+                .replace(/\r/g, "\\r")
+                .replace(/\t/g, "\\t")
+                .replace(/\f/g, "\\f")
                 + '"';
         });
 
@@ -517,8 +495,8 @@ function safelyParseJson(raw: string): any {
     } catch (err) {
         console.warn("⚠️ JSON Parse failed. Attempting aggressive recovery...");
         try {
-            let subset = jsonStr.replace(/\/\/.*$/gm, ""); // Remove comments
-            subset = subset.replace(/,\s*}/g, "}").replace(/,\s*]/g, "]"); // trailing commas
+            let subset = jsonStr.replace(/\/\/.*$/gm, ""); 
+            subset = subset.replace(/,\s*}/g, "}").replace(/,\s*]/g, "]"); 
             return JSON.parse(subset);
         } catch {
             throw new Error("Final JSON parse failed.");
@@ -604,10 +582,11 @@ async function generateSection(item: any, heading: string, displayClass: string,
     if (heading.includes("Formula Bank")) {
          specificDirective = `Provide EVERY important formula for this chapter.
          The "body" field should contain a bulleted list of all formulas. DO NOT use the "table" field.
-         Format each formula as: "- **[Formula Name]:** $$[LaTeX formula]$$ — [Variable Meanings]"`;
+         Format each formula as: "- **[Formula Name]:** $$[LaTeX formula specifically using curly braces {}]$$ — [Variable Meanings]"`;
     } else if (heading.includes("Mistakes")) {
          specificDirective = `Provide exactly 5 highly specific errors students make.
          The "body" field should contain the mistakes using bullet points. DO NOT use the "table" field.
+         Format each mistake using Markdown bullets. Use braces for ALL LaTeX.
          Format each mistake as:
          
          - **Mistake [X]:** [Error description]
@@ -615,7 +594,8 @@ async function generateSection(item: any, heading: string, displayClass: string,
            - *Fix:* [How to fix it]`;
     } else if (heading.includes("PYQs")) {
          specificDirective = `Provide exactly 3 real past year questions (JEE/NEET or CBSE).
-         In the "body" field, format EACH question with clear separation using bullet points and indentation:
+         In the "body" field, format EACH question with clear separation using bullet points and indentation.
+         CRITICAL: Use proper {braces} for all LaTeX like \\frac{a}{b} and \\Delta{T}.
          
          - **Q1:** [exact question text]
            - **Trap:** [what confuses students]
@@ -632,10 +612,11 @@ async function generateSection(item: any, heading: string, displayClass: string,
          - **What 95% scorers do:** [The advanced secret]`;
     } else if (heading.includes("Ayush's Note")) {
          specificDirective = `Provide a specific pattern only visible after studying 5+ years of PYQs. Cannot appear in any standard textbook.
-         Do not write a paragraph. List the insights in the "body" field using bullet points:
+         Do not write a paragraph. LIST the insights in the "body" field using EXACTLY 3-4 bullet points starting with "- ".
          
          - **The Hidden Pattern:** [Insight]
-         - **How to Apply It:** [Actionable advice]`;
+         - **How to Apply It:** [Actionable advice]
+         - **PYQ-Specific Trend:** [Trend]`;
     } else if (heading.includes("Last 5 Minutes")) {
          specificDirective = `This is the LAST thing they read before sleeping. Be extremely concise.
          In the "body" field, provide EXACTLY:
@@ -644,9 +625,10 @@ async function generateSection(item: any, heading: string, displayClass: string,
          - 2 common mistakes as bullet points
          
          Keep the "table" field empty: {"headers": [], "rows": []}.
-         Use markdown bullet points (- ) for every item. Do NOT use a wall of text.`;
+         Use markdown bullet points (- ) for every item. Do NOT use a wall of text.
+         USE BRACES {} FOR ALL LATEX.`;
     } else {
-         specificDirective = "Provide a highly focused, no-nonsense revision summary using bullet points extensively.";
+         specificDirective = "Provide a highly focused, no-nonsense revision summary using bullet points extensively. USE BRACES {} FOR ALL LATEX.";
     }
 
     const user = `Write the section for the heading: "${heading}" regarding the topic "${item.topic}".

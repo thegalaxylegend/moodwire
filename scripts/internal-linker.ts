@@ -126,38 +126,44 @@ function findRelatedBlogs(blog: BlogInfo, allBlogs: BlogInfo[]): Array<{ slug: s
 }
 
 function injectContextualLinks(body: string, blog: BlogInfo, related: Array<{ slug: string; title: string }>): { newBody: string; linksAdded: number } {
-    let newBody = body;
+    const lines = body.split('\n');
     let linksAdded = 0;
     const MAX_INLINE_LINKS = 3;
-    
-    for (const rel of related.slice(0, MAX_INLINE_LINKS)) {
-        // Find a natural place to inject (after a paragraph that mentions a related keyword)
-        const relKeywords = rel.slug.split('-').filter(w => w.length > 4);
+    const processedRelated = new Set<string>();
+
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
         
-        for (const keyword of relKeywords) {
-            // Look for the keyword in a paragraph (not in a heading or link already)
-            const paragraphRegex = new RegExp(
-                `^([^#\\[\\n].{20,})(\\b${keyword}\\b)([^\\]\\)].{0,50})$`,
-                'im'
-            );
-            
-            const match = newBody.match(paragraphRegex);
-            if (match && !match[0].includes(`/blog/${rel.slug}`) && !match[0].includes('](/')) {
-                // Don't inject if this paragraph already has links
-                if ((match[0].match(/\]\(/g) || []).length < 2) {
-                    const replacement = match[0].replace(
-                        keyword,
-                        `[${keyword}](/blog/${rel.slug})`
-                    );
-                    newBody = newBody.replace(match[0], replacement);
+        // Skip headers, horizontal rules, and already linked lines
+        if (line.startsWith('#') || line.startsWith('---') || line.includes('](/blog/')) continue;
+        if (linksAdded >= MAX_INLINE_LINKS) break;
+
+        for (const rel of related) {
+            if (processedRelated.has(rel.slug)) continue;
+
+            const relKeywords = rel.slug.split('-').filter(w => w.length > 4);
+            for (const keyword of relKeywords) {
+                // Look for keyword not inside an existing link or math block
+                // Case-insensitive, whole word
+                const keywordRegex = new RegExp(`\\b(${keyword})\\b`, 'gi');
+                
+                if (keywordRegex.test(line)) {
+                    // Check if it's already in a link or math
+                    // Simple check: if the line has [ ] ( ) or $ $, skip this line for now
+                    // to be extra safe since this is fully automatic.
+                    if (line.includes('[') || line.includes('$')) continue;
+
+                    lines[i] = line.replace(keywordRegex, (match) => `[${match.toLowerCase()}](/blog/${rel.slug})`);
                     linksAdded++;
-                    break; // One link per related blog
+                    processedRelated.add(rel.slug);
+                    break;
                 }
             }
+            if (linksAdded >= MAX_INLINE_LINKS) break;
         }
     }
     
-    return { newBody, linksAdded };
+    return { newBody: lines.join('\n'), linksAdded };
 }
 
 function generateRelatedSection(related: Array<{ slug: string; title: string; relevance: number }>): string {

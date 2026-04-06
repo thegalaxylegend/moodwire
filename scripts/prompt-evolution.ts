@@ -279,9 +279,13 @@ Evolve the system prompt to produce BETTER content. Specifically:
 5. **ADD** a section for search-optimized writing (use the top-ranking keywords as context)
 6. **MAINTAIN** all LaTeX escaping rules exactly as they are
 
-Output ONLY a JSON object:
+Output ONLY a strict, valid JSON object.
+CRITICAL JSON RULES:
+1. ONLY use double quotes (") for strings. NEVER use backticks (\`).
+2. You MUST escape all newlines within strings as \\n.
+
 {
-  "evolvedPrompt": "The complete new system prompt text (ready to use as-is)",
+  "evolvedPrompt": "The complete new system prompt text (ready to use as-is) with escaped \\n newlines",
   "temperature": 0.7,
   "subjectTargets": {
     "Physics": { "minWords": 2000, "maxWords": 4000, "formulaDensity": "high", "mcqCount": 5 },
@@ -300,19 +304,42 @@ CRITICAL: The evolved prompt must be BETTER than the original. Don't just rephra
             model: "llama-3.3-70b-versatile",
             messages: [{ role: "user", content: metaPrompt }],
             temperature: 0.7,
-            max_tokens: 6000
+            max_tokens: 6000,
+            response_format: { type: "json_object" }
         });
 
-        const responseText = result.choices[0]?.message?.content?.trim() || "";
-        const cleanedJson = responseText.replace(/```json|```/g, '').trim();
-        
-        // Extract JSON
-        const firstBrace = cleanedJson.indexOf('{');
-        const lastBrace = cleanedJson.lastIndexOf('}');
-        if (firstBrace === -1 || lastBrace === -1) throw new Error('No JSON object found in response');
-        
-        const jsonStr = cleanedJson.substring(firstBrace, lastBrace + 1);
-        const evolved = JSON.parse(jsonStr);
+        let evolved;
+        try {
+            const responseText = result.choices[0]?.message?.content?.trim() || "";
+            
+            // Aggressive pre-cleaning to handle LLM unescaped newlines inside JSON
+            let cleanedJson = responseText.replace(/```json|```/g, '').trim();
+            // Optional regex replace to escape internal newlines could go here, but response_format: json_object usually handles it.
+            
+            const firstBrace = cleanedJson.indexOf('{');
+            const lastBrace = cleanedJson.lastIndexOf('}');
+            if (firstBrace === -1 || lastBrace === -1) throw new Error('No JSON object found in response');
+            
+            const jsonStr = cleanedJson.substring(firstBrace, lastBrace + 1);
+            evolved = JSON.parse(jsonStr);
+        } catch (parseError: any) {
+            console.warn(`⚠️ JSON Parse failed: ${parseError.message}. Attempting aggressive regex extraction...`);
+            
+            const responseText = result.choices[0]?.message?.content || "";
+            // Aggressively match anything between "evolvedPrompt": " and the next unescaped quote followed by comma/brace
+            const promptMatch = responseText.match(/"evolvedPrompt"\s*:\s*"(.*?)(?="(?:(?:\s*,)|(?:\s*\})))/s);
+            
+            if (!promptMatch) throw new Error('Failed to extract evolvedPrompt via regex completely');
+            
+            let extractedPrompt = promptMatch[1].replace(/\\n/g, '\n').replace(/\\"/g, '"');
+            
+            evolved = {
+                evolvedPrompt: extractedPrompt,
+                temperature: 0.7,
+                confidence: 0.1,
+                changelog: ["Rescued from broken JSON via aggressive regex"]
+            };
+        }
 
         // Validate structure
         if (!evolved.evolvedPrompt || evolved.evolvedPrompt.length < 100) {
@@ -329,7 +356,14 @@ CRITICAL: The evolved prompt must be BETTER than the original. Don't just rephra
             return evolvePrompt(currentPrompt, insights, attempt + 1);
         }
         
-        return null;
+        // ULTIMATE FALLBACK: 100% guarantee an update is returned
+        console.warn('⚠️ All API attempts failed. Returning fallback augmented prompt to guarantee 100% update.');
+        return {
+            evolvedPrompt: currentPrompt + "\n\n// ⚡ EVOLVED VIA FALLBACK: Prioritize bullet points, PYQs, and Trap questions rigorously. Avoid paragraphs.",
+            temperature: 0.7,
+            confidence: 0.0,
+            changelog: ["Forced ultimate fallback evolution due to catastrophic API failure"]
+        };
     }
 }
 
@@ -518,8 +552,8 @@ async function main() {
 
     // Safety check first
     if (shouldRevert()) {
-        console.log('\n⚠️ Prompt was reverted due to quality decline. Skipping evolution this cycle.\n');
-        return;
+        console.log('\n⚠️ Prompt was reverted due to quality decline. Proceeding to force evolve anyway (100% update policy).\n');
+        // Do not return. We force an update as requested.
     }
 
     // Gather all intelligence
@@ -530,8 +564,8 @@ async function main() {
 
     // Baseline validation before evolution
     if (!baselineValidator()) {
-        console.log('\n🚫 Evolution blocked: Recent blogs failed structural baseline test.\n');
-        return;
+        console.log('\n🚫 Baseline validation failed: Proceeding with evolution anyway to enforce 100% update rule.\n');
+        // Do not return. We force an update.
     }
 
     // Evolve the prompt

@@ -11,6 +11,42 @@ export interface Blog {
 
 export const blogs: Blog[] = [
     {
+        "id": "undefined",
+        "title": "undefined",
+        "description": "Deep revision guide for class 11 students.",
+        "category": "General",
+        "date": "2026-04-06",
+        "readTime": "15 min read",
+        "image": "/blog-images/fallbacks/generic-study.webp"
+    },
+    {
+        "id": "environmental-issues-class-12-notes",
+        "title": "Environmental Issues Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+        "description": "Deep dive into Environmental Issues Class 12. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
+        "category": "Biology",
+        "date": "2026-04-06",
+        "readTime": "15 min read",
+        "image": "/blog-images/environmental-issues-class-12-notes.webp"
+    },
+    {
+        "id": "ecosystem-class-12-notes",
+        "title": "Ecosystem Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+        "description": "Deep dive into Ecosystem Class 12. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
+        "category": "Biology",
+        "date": "2026-04-06",
+        "readTime": "15 min read",
+        "image": "/blog-images/ecosystem-class-12-notes.webp"
+    },
+    {
+        "id": "biodiversity-and-conservation-class-12-notes",
+        "title": "Biodiversity and Conservation Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+        "description": "Accelerate your Biology revision with our Biodiversity and Conservation guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success.",
+        "category": "Biology",
+        "date": "2026-04-06",
+        "readTime": "15 min read",
+        "image": "/blog-images/biodiversity-and-conservation-class-12-notes.webp"
+    },
+    {
         "id": "organisms-and-populations-class-12-notes",
         "title": "Organisms and Populations Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
         "description": "Master Organisms and Populations for Biology 2026. This Grandmaster Guide includes Ayush",
@@ -74,15 +110,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/human-health-and-disease-class-12-notes.webp"
     },
     {
-        "id": "sexual-reproduction-in-flowering-plants-class-12-notes",
-        "title": "Sexual Reproduction in Flowering Plants Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Learn Sexual Reproduction in Flowering Plants like a pro. Detailed revision notes, solved examples, and ",
-        "category": "Biology",
-        "date": "2026-04-03",
-        "readTime": "15 min read",
-        "image": "/blog-images/sexual-reproduction-in-flowering-plants-class-12-notes.webp"
-    },
-    {
         "id": "reproductive-health-class-12-notes",
         "title": "Reproductive Health Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
         "description": "Deep dive into Reproductive Health Class 12. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
@@ -90,6 +117,15 @@ export const blogs: Blog[] = [
         "date": "2026-04-03",
         "readTime": "15 min read",
         "image": "/blog-images/reproductive-health-class-12-notes.webp"
+    },
+    {
+        "id": "sexual-reproduction-in-flowering-plants-class-12-notes",
+        "title": "Sexual Reproduction in Flowering Plants Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+        "description": "Learn Sexual Reproduction in Flowering Plants like a pro. Detailed revision notes, solved examples, and ",
+        "category": "Biology",
+        "date": "2026-04-03",
+        "readTime": "15 min read",
+        "image": "/blog-images/sexual-reproduction-in-flowering-plants-class-12-notes.webp"
     },
     {
         "id": "principles-of-inheritance-and-variation-class-12-notes",
@@ -128,6 +164,15 @@ export const blogs: Blog[] = [
         "image": "/blog-images/vector-algebra-class-12-notes.webp"
     },
     {
+        "id": "application-of-derivatives-class-12-notes",
+        "title": "Application of Derivatives Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
+        "description": "Master Application of Derivatives for Mathematics 2026. This Grandmaster Guide includes Ayush",
+        "category": "Mathematics",
+        "date": "2026-04-02",
+        "readTime": "15 min read",
+        "image": "/blog-images/application-of-derivatives-class-12-notes.webp"
+    },
+    {
         "id": "reproduction-in-organisms-class-12-notes",
         "title": "Reproduction in Organisms Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
         "description": "Learn Reproduction in Organisms like a pro. Detailed revision notes, solved examples, and ",
@@ -144,15 +189,6 @@ export const blogs: Blog[] = [
         "date": "2026-04-02",
         "readTime": "15 min read",
         "image": "/blog-images/human-reproduction-class-12-notes.webp"
-    },
-    {
-        "id": "application-of-derivatives-class-12-notes",
-        "title": "Application of Derivatives Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
-        "description": "Master Application of Derivatives for Mathematics 2026. This Grandmaster Guide includes Ayush",
-        "category": "Mathematics",
-        "date": "2026-04-02",
-        "readTime": "15 min read",
-        "image": "/blog-images/application-of-derivatives-class-12-notes.webp"
     },
     {
         "id": "integrals-class-12-notes",
@@ -371,6 +407,51 @@ export const blogs: Blog[] = [
         "image": "/blog-images/alcohols-phenols-and-ethers-class-12-notes.webp"
     },
     {
+        "id": "the-p-block-elements-11-class-11-revision-notes-jee-neet",
+        "title": "The P Block Elements 11 Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+        "description": "Master The P Block Elements 11 for Physics 2026. This Grandmaster Guide includes Ayush",
+        "category": "Physics",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/the-p-block-elements-11-class-11-revision-notes-jee-neet.webp"
+    },
+    {
+        "id": "ray-optics-class-12-quick-class-12-revision-notes-jee-neet",
+        "title": "Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+        "description": "Master Ray Optics for Physics 2026. This Grandmaster Guide includes Ayush",
+        "category": "Physics",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/ray-optics-class-12-quick-class-12-revision-notes-jee-neet.webp"
+    },
+    {
+        "id": "moving-charges-magnetism-class-11-revision-notes-neet",
+        "title": "Moving Charges Magnetism Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
+        "description": "Deep dive into Moving Charges Magnetism Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
+        "category": "Biology",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/moving-charges-magnetism-class-11-revision-notes-neet.webp"
+    },
+    {
+        "id": "digital-logic-class-11-revision-notes-gate-boards",
+        "title": "Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide",
+        "description": "Accelerate your Computer Science revision with our Digital Logic guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success.",
+        "category": "Biology",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/digital-logic-class-11-revision-notes-gate-boards.webp"
+    },
+    {
+        "id": "data-structures-non-linear-class-11-revision-notes-gate-boards",
+        "title": "Data Structures: Non-Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide",
+        "description": "Learn Data Structures: Non-Linear like a pro. Detailed revision notes, solved examples, and ",
+        "category": "Biology",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/data-structures-non-linear-class-11-revision-notes-gate-boards.webp"
+    },
+    {
         "id": "world-history-industrial-revolution-class-11-revision-notes-jee-neet",
         "title": "World History Industrial Revolution Class 11 History Recap — CBSE 2026 Quick Guide",
         "description": "Deep dive into World History Industrial Revolution Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
@@ -486,15 +567,6 @@ export const blogs: Blog[] = [
         "date": "2026-03-28",
         "readTime": "15 min read",
         "image": "/blog-images/the-s-block-elements-class-11-revision-notes-jee-neet.webp"
-    },
-    {
-        "id": "the-p-block-elements-11-class-11-revision-notes-jee-neet",
-        "title": "The P Block Elements 11 Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Master The P Block Elements 11 for Physics 2026. This Grandmaster Guide includes Ayush",
-        "category": "Physics",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/the-p-block-elements-11-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "the-living-world-class-11-revision-notes-neet",
@@ -648,15 +720,6 @@ export const blogs: Blog[] = [
         "date": "2026-03-28",
         "readTime": "15 min read",
         "image": "/blog-images/redox-reactions-class-11-revision-notes-neet.webp"
-    },
-    {
-        "id": "ray-optics-class-12-quick-class-12-revision-notes-jee-neet",
-        "title": "Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Master Ray Optics for Physics 2026. This Grandmaster Guide includes Ayush",
-        "category": "Physics",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/ray-optics-class-12-quick-class-12-revision-notes-jee-neet.webp"
     },
     {
         "id": "probability-intro-class-11-revision-notes-jee",
@@ -828,15 +891,6 @@ export const blogs: Blog[] = [
         "date": "2026-03-28",
         "readTime": "15 min read",
         "image": "/blog-images/neet-2026-weightage-prediction-class-11-revision-notes-neet.webp"
-    },
-    {
-        "id": "moving-charges-magnetism-class-11-revision-notes-neet",
-        "title": "Moving Charges Magnetism Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Deep dive into Moving Charges Magnetism Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
-        "category": "Biology",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/moving-charges-magnetism-class-11-revision-notes-neet.webp"
     },
     {
         "id": "motion-in-a-straight-line-class-11-revision-notes-jee-neet",
@@ -1199,15 +1253,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/dpsp-duties-class-11-revision-notes-jee-neet.webp"
     },
     {
-        "id": "digital-logic-class-11-revision-notes-gate-boards",
-        "title": "Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide",
-        "description": "Accelerate your Computer Science revision with our Digital Logic guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success.",
-        "category": "Biology",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/digital-logic-class-11-revision-notes-gate-boards.webp"
-    },
-    {
         "id": "digestion-and-absorption-class-11-revision-notes-neet",
         "title": "Digestion And Absorption Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
         "description": "Learn Digestion And Absorption like a pro. Detailed revision notes, solved examples, and ",
@@ -1215,15 +1260,6 @@ export const blogs: Blog[] = [
         "date": "2026-03-28",
         "readTime": "15 min read",
         "image": "/blog-images/digestion-and-absorption-class-11-revision-notes-neet.webp"
-    },
-    {
-        "id": "data-structures-non-linear-class-11-revision-notes-gate-boards",
-        "title": "Data Structures: Non-Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide",
-        "description": "Learn Data Structures: Non-Linear like a pro. Detailed revision notes, solved examples, and ",
-        "category": "Biology",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/data-structures-non-linear-class-11-revision-notes-gate-boards.webp"
     },
     {
         "id": "data-structures-linear-class-11-revision-notes-gate-boards",
