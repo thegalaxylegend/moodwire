@@ -6,7 +6,7 @@ import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 import rehypeRaw from 'rehype-raw';
 import 'katex/dist/katex.min.css';
-import { ArrowLeft, Loader2, Calendar, Download, BookOpen, MessageCircle } from 'lucide-react';
+import { ArrowLeft, Loader2, Calendar, Download, BookOpen } from 'lucide-react';
 import { SEO } from '../../components/SEO';
 import { BlogSchema } from '../../components/blog/BlogSchema';
 import { BlogCTA } from '../../components/blog/BlogCTA';
