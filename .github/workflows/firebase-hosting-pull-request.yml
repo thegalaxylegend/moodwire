@@ -14,6 +14,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: npm install --legacy-peer-deps && npm run build
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_LEGENDSTECH001 }}
+          VITE_GROQ_API_KEY: ${{ secrets.VITE_GROQ_API_KEY }}
+          VITE_GROQ_API_KEY_2: ${{ secrets.VITE_GROQ_API_KEY_2 }}
+          VITE_GROQ_API_KEY_3: ${{ secrets.VITE_GROQ_API_KEY_3 }}
+          VITE_GROQ_API_KEY_4: ${{ secrets.VITE_GROQ_API_KEY_4 }}
+          VITE_GROQ_API_KEY_5: ${{ secrets.VITE_GROQ_API_KEY_5 }}
+          VITE_GEMINI_API_KEY: ${{ secrets.VITE_GEMINI_API_KEY }}
+          VITE_GEMINI_API_KEY_2: ${{ secrets.VITE_GEMINI_API_KEY_2 }}
+          VITE_GEMINI_API_KEY_3: ${{ secrets.VITE_GEMINI_API_KEY_3 }}
+          VITE_GEMINI_API_KEY_4: ${{ secrets.VITE_GEMINI_API_KEY_4 }}
+          VITE_GEMINI_API_KEY_5: ${{ secrets.VITE_GEMINI_API_KEY_5 }}
+          VITE_GEMINI_API_KEY_6: ${{ secrets.VITE_GEMINI_API_KEY_6 }}
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
