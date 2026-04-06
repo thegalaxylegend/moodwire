@@ -95,7 +95,7 @@ export async function callGemini(
             const systemMsg = messages.find(m => m.role === 'system')?.content || '';
             const userMsg = messages.find(m => m.role === 'user')?.content || messages[messages.length - 1]?.content || '';
 
-            const fullPrompt = systemMsg 
+            const fullPrompt = systemMsg
                 ? `${systemMsg}\n\n${userMsg}`
                 : userMsg;
 
@@ -112,7 +112,7 @@ export async function callGemini(
             lastError = error;
 
             // Check for invalid key (permanently dead)
-            if (error?.status === 401 || error?.status === 403 || 
+            if (error?.status === 401 || error?.status === 403 ||
                 error?.message?.includes('API_KEY_INVALID')) {
                 deadGeminiKeyIndices.add(index);
                 console.error(`[Gemini] Key ${index + 1} permanently removed (${error?.status || 'invalid'}). ${clients.length - deadGeminiKeyIndices.size} keys remaining.`);
@@ -121,8 +121,8 @@ export async function callGemini(
             }
 
             // Check for rate limit (429) or quota exceeded
-            if (error?.status === 429 || 
-                error?.message?.includes('rate limit') || 
+            if (error?.status === 429 ||
+                error?.message?.includes('rate limit') ||
                 error?.message?.includes('quota') ||
                 error?.message?.includes('RESOURCE_EXHAUSTED')) {
                 currentGeminiKeyIndex = (index + 1) % clients.length;

@@ -36,10 +36,10 @@ export const MinimizedBubble: React.FC<MinimizedBubbleProps> = ({
         >
             {/* Status Ripples */}
             {(isSpeaking || isThinking || isHolding || isCallActive) && (
-                <div className="absolute inset-0 z-0">
-                    <div className={`absolute inset-0 rounded-full animate-ping [animation-duration:2s] ${isCallActive ? 'bg-indigo-500/40' : 'bg-primary/40'}`} />
-                    <div className={`absolute inset-0 rounded-full animate-ping [animation-duration:3s] [animation-delay:0.5s] ${isCallActive ? 'bg-indigo-500/20' : 'bg-primary/20'}`} />
-                    {(isSpeaking || isCallActive) && <div className="absolute inset-0 bg-indigo-500/30 rounded-full animate-pulse blur-xl" />}
+                <div className="absolute inset-[-8px] z-0 pointer-events-none">
+                    <div className={`absolute inset-0 rounded-full animate-ping [animation-duration:3s] ${isCallActive ? 'bg-[#81ecff]/30' : 'bg-[#5d21df]/30'}`} />
+                    <div className={`absolute inset-0 rounded-full animate-ping [animation-duration:4s] [animation-delay:0.5s] ${isCallActive ? 'bg-[#81ecff]/10' : 'bg-[#5d21df]/10'}`} />
+                    {(isSpeaking || isCallActive) && <div className="absolute inset-2 bg-[#5d21df]/40 rounded-full animate-pulse blur-xl" />}
                 </div>
             )}
 
@@ -49,37 +49,33 @@ export const MinimizedBubble: React.FC<MinimizedBubbleProps> = ({
                 <div className={`absolute -inset-1 rounded-full bg-gradient-to-tr from-primary via-indigo-500 to-purple-500 opacity-0 group-hover:opacity-100 blur-md transition-opacity duration-500`} />
                 
                 {/* Avatar Container */}
-                <div className={`w-14 h-14 md:w-16 md:h-16 rounded-full bg-[#0d0f14] border-2 transition-all duration-300 relative overflow-hidden flex items-center justify-center
-                    ${isCallActive ? 'border-indigo-400 shadow-[0_0_40px_rgba(79,70,229,0.5)] scale-110' : 'shadow-[0_0_30px_rgba(79,70,229,0.3)]'}
-                    ${isSpeaking ? 'border-indigo-400' : 'border-white/10 group-hover:border-primary/50'}`}>
+                <div className={`w-14 h-14 md:w-20 md:h-20 rounded-[28px] bg-gradient-to-br from-[#11131c] to-[#1d1f29] border-2 transition-all duration-500 relative overflow-hidden flex items-center justify-center rotate-3 group-hover:rotate-0
+                    ${isCallActive ? 'border-[#81ecff] shadow-[0_0_50px_rgba(129,236,255,0.4)] scale-110' : 'border-white/10 shadow-[0_20px_40px_rgba(0,0,0,0.4)] shadow-[#5d21df]/10 group-hover:shadow-[#5d21df]/20'}
+                    ${isSpeaking ? 'border-[#5d21df]' : 'group-hover:border-[#5d21df]/50'}`}>
                     
-                    <img
-                        src="/logo.jpg"
-                        alt="Chat"
-                        className={`w-[120%] h-[120%] object-cover transition-all duration-500 scale-110 select-none
-                            ${isSpeaking ? 'animate-pulse contrast-125' : 'grayscale-[20%] group-hover:grayscale-0'}`}
-                        draggable="false"
-                        onContextMenu={(e) => e.preventDefault()}
-                        onDragStart={(e) => e.preventDefault()}
-                        onError={(e) => {
-                            (e.target as HTMLImageElement).src = "https://cdn-icons-png.flaticon.com/512/4712/4712035.png";
-                        }}
+                    <div className="absolute inset-0 bg-gradient-to-br from-[#5d21df]/20 to-[#153ae4]/20 opacity-0 group-hover:opacity-100 transition-opacity" />
+                    
+                    <img 
+                        src="/logo.jpg" 
+                        alt="Exa AI" 
+                        className={`w-full h-full transition-all duration-500 relative z-10 object-cover
+                            ${isSpeaking ? 'animate-pulse scale-105' : 'opacity-100 group-hover:scale-110'}`} 
                     />
 
                     {/* Active Indicators */}
                     {isThinking && (
-                        <div className="absolute inset-0 bg-black/40 backdrop-blur-[1px] flex items-center justify-center">
-                            <div className="flex gap-1">
-                                <span className="w-1.5 h-1.5 bg-primary rounded-full animate-bounce [animation-delay:-0.3s]" />
-                                <span className="w-1.5 h-1.5 bg-primary rounded-full animate-bounce [animation-delay:-0.15s]" />
-                                <span className="w-1.5 h-1.5 bg-primary rounded-full animate-bounce" />
+                        <div className="absolute inset-0 bg-[#11131c]/60 backdrop-blur-[2px] flex items-center justify-center z-20">
+                            <div className="flex gap-1.5">
+                                <span className="w-1.5 h-1.5 bg-[#81ecff] rounded-full animate-bounce [animation-delay:-0.3s]" />
+                                <span className="w-1.5 h-1.5 bg-[#81ecff] rounded-full animate-bounce [animation-delay:-0.15s]" />
+                                <span className="w-1.5 h-1.5 bg-[#81ecff] rounded-full animate-bounce" />
                             </div>
                         </div>
                     )}
                 </div>
 
-                {/* Notification Badge if needed, or Online status */}
-                <div className="absolute bottom-1 right-1 w-3.5 h-3.5 bg-green-500 rounded-full border-2 border-[#0d0f14] shadow-lg shadow-green-500/20" />
+                {/* Online status indicator */}
+                <div className="absolute top-1 right-1 w-4 h-4 bg-[#81ecff] rounded-full border-[3px] border-[#11131c] shadow-[0_0_15px_#81ecff] z-30" />
             </div>
         </div>
     );

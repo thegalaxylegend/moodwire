@@ -80,6 +80,11 @@ ${webContext || "No real-time search context available."}
 - Never refuse a syllabus topic.
 - Format with Markdown, use headers, and bold key terms.
 - Use LaTeX for any formulas (e.g., $E=mc^2$).
+- ALWAYS USE MERMAID.JS for diagrams or visual explanations.
+  - USE VALID SYNTAX ONLY (e.g., \`\`\`mermaid\ngraph TD\n    A["Start"] --> B["Process"]\n    B --> C["End"]\n\`\`\`).
+  - 🚫 ZERO TOLERANCE: Never use dashes '---', equals '===', or '+---+' for visual separation.
+  - 💎 MATH LABELS: If a label contains math, parentheses, or spaces, it MUST be wrapped in double quotes (e.g., A -->|"v0 cos(θ)"| B).
+  - 💎 BLUEPRINT: \`\`\`mermaid\ngraph TD\n    A["Start"] -->|"Initial v0"| B["Decomposition"]\n\`\`\`
 - Keep responses personalized to the student's exam DNA.
 `;
 }

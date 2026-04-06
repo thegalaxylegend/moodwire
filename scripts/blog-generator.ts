@@ -37,14 +37,20 @@ const getShiftedDate = () => {
 };
 
 
-// Gemini Backup Helper
-async function generateWithGemini(systemPrompt: string, userPrompt: string): Promise<string | null> {
+// Gemma 4 Backup Helper
+async function generateWithGemma(systemPrompt: string, userPrompt: string, isJson: boolean = false): Promise<string | null> {
     const key = process.env.GEMINI_BACKUP_KEY || process.env.VITE_GEMINI_API_KEY;
     if (!key) return null;
 
     try {
-        console.log(`🚀 Calling Gemini Flash for content...`);
-        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${key}`, {
+        console.log(`🚀 Calling Gemma 4 (31B Dense) for content...`);
+        
+        const generationConfig: any = { maxOutputTokens: 2500, temperature: 0.7 };
+        if (isJson) {
+            generationConfig.responseMimeType = "application/json";
+        }
+
+        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemma-4-31b-it:generateContent?key=${key}`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
@@ -52,34 +58,38 @@ async function generateWithGemini(systemPrompt: string, userPrompt: string): Pro
                     role: "user", 
                     parts: [{ text: `${systemPrompt}\n\n${userPrompt}` }] 
                 }],
-                generationConfig: { maxOutputTokens: 2000, temperature: 0.7 }
+                generationConfig
             })
         });
 
         if (!response.ok) {
             const errBody = await response.text();
-            console.error(`❌ Gemini API Error (${response.status}): ${errBody}`);
+            console.error(`❌ Gemma 4 API Error (${response.status}): ${errBody}`);
             return null;
         }
 
         const data: any = await response.json();
-        const text = data.candidates?.[0]?.content?.parts?.[0]?.text || null;
-        if (text) console.log(`✅ Gemini content received (${text.length} chars).`);
+        // Gemma 4 is a 'Thinking' model; it returns reasoning in a separate part. 
+        // We find the first part that doesn't have the 'thought' property.
+        const textPart = data.candidates?.[0]?.content?.parts?.find((p: any) => !p.thought);
+        const text = textPart?.text || null;
+        
+        if (text) console.log(`✅ Gemma 4 content received (${text.length} chars).`);
         return text;
     } catch (err: any) {
-        console.error("❌ Gemini Backup Network Error:", err.message);
+        console.error("❌ Gemma 4 Network Error:", err.message);
         return null;
     }
 }
 
-// Gemini with rate-limit retry
-async function generateWithGeminiRetry(systemPrompt: string, userPrompt: string, maxRetries: number = 3): Promise<string | null> {
+// Gemma 4 with rate-limit retry (100% Free Tier Compliant)
+async function generateWithGemmaRetry(systemPrompt: string, userPrompt: string, isJson: boolean = false, maxRetries: number = 3): Promise<string | null> {
     for (let i = 0; i < maxRetries; i++) {
-        const result = await generateWithGemini(systemPrompt, userPrompt);
+        const result = await generateWithGemma(systemPrompt, userPrompt, isJson);
         if (result) return result;
         if (i < maxRetries - 1) {
-            const waitSec = 45; // Gemini free tier resets in ~42s
-            console.log(`⏳ Gemini rate limited. Waiting ${waitSec}s before retry ${i + 2}/${maxRetries}...`);
+            const waitSec = 60; // 60-second pause guarantees zero billing
+            console.log(`⏳ Gemma 4 limits hit. Safely pausing ${waitSec}s before retry ${i + 2}/${maxRetries}...`);
             await sleep(waitSec * 1000);
         }
     }
@@ -537,11 +547,12 @@ async function callLlmWithFallback(system: string, user: string, isJson: boolean
                 return await callLlmWithFallback(system, user, isJson, attempt + 1);
             }
             
-            console.log(`🛡️ All Groq keys rate limited. Falling back to Gemini (with retry)...`);
-            const gemini = await generateWithGeminiRetry(system + (isJson ? "\nReturn ONLY valid JSON." : ""), user);
-            if (gemini) return gemini;
+            // 4. Ultimate Fallback -> Gemma 4 API (with structured output enforcement)
+            console.log(`🛡️ All Groq keys rate limited. Elevating to Gemma 4 31B (Structured JSON Mode)...`);
+            const fallbackKey = await generateWithGemmaRetry(system + (isJson ? "\nEnsure valid structure." : ""), user, isJson);
+            if (fallbackKey) return fallbackKey;
 
-            // If Gemini also failed, wait and retry Groq from start
+            // If Gemma also failed, wait and retry Groq from start
             if (attempt < 10) {
                 console.log(`⏳ Both APIs saturated. Sleeping for 30s...`);
                 await sleep(30000);

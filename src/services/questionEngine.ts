@@ -95,11 +95,11 @@ const verifyQuestionFast = async (questionData: Partial<StoredQuestion>): Promis
     // ── HEURISTIC SAFETY CHECK: Enhanced placeholder/garbage detection ──
     const questionText = currentData.question || "";
     const optionsArr = Array.isArray(currentData.options) ? currentData.options : Object.values(currentData.options || {});
-    
+
     const questionLower = questionText.toLowerCase();
-    const isPlaceholder = 
-        questionText.length < 80 || 
-        questionLower.includes("placeholder") || 
+    const isPlaceholder =
+        questionText.length < 80 ||
+        questionLower.includes("placeholder") ||
         questionLower.includes("lorem ipsum") ||
         questionLower.includes("best describes the concept") ||
         questionLower.includes("best describes the core concept") ||
@@ -127,10 +127,10 @@ const verifyQuestionFast = async (questionData: Partial<StoredQuestion>): Promis
         return { verified: false };
     }
 
-    // Avg option length check
+    // Avg option length check: BACK TO 93% SYSTEM (STRICT)
     const avgOptLen = optionsArr.reduce((s, o) => s + (typeof o === 'string' ? o.length : 0), 0) / Math.max(optionsArr.length, 1);
-    if (avgOptLen < 10) {
-        console.warn(`[QuestionEngine] Heuristic rejection: Options too short (avg ${avgOptLen.toFixed(0)} chars).`);
+    if (avgOptLen < 15) {
+        console.warn(`[QuestionEngine] Heuristic rejection: Options too short (avg ${avgOptLen.toFixed(0)} chars). MUST be descriptive.`);
         return { verified: false };
     }
 
@@ -165,20 +165,14 @@ STATED FORMULA: "${currentData.numerical_formula || 'None'}"
 
 Compare YOUR answer (from Step 1) to the STATED answer.
 
-═══ DECISION RULES ═══
-⚠️ IMPORTANT: Focus ONLY on whether the MATHEMATICAL ANSWER is correct.
-Do NOT reject for:
-- Missing unit labels in explanation text
-- Style or wording choices in the question
-- Not explicitly restating every constant
-- The explanation being "could be improved"
-
-DO reject for:
-1. Your independent answer differs from stated answer by >5%
-2. The formula used is factually wrong
-3. Nuclear reaction violates conservation laws
-4. Stated answer is NOT present in the options list
-5. Question < 80 characters or contains placeholder language
+═══ DECISION RULES (STRICT ACCURACY) ═══
+⚠️ IMPORTANT: You are a senior examiner. Any deviation in physics/math logic is a REJECT.
+REJECT for:
+1. Your independent answer differs from stated answer by >1% (Precision is key)
+2. Stated formula is used incorrectly or is factually wrong
+3. Question contains placeholder language ("Best describes...", "Option A")
+4. Stated answer is NOT present in the options list or lacks units
+5. Nuclear/Chemical reactions violate conservation laws
 
 ═══ DECISION ═══
 - APPROVED: Your Step 1 numerical answer matches the stated answer (within 5%)
@@ -227,7 +221,7 @@ OUTPUT (JSON ONLY):
             if (!isNaN(myNum) && !isNaN(statedNum) && (Math.abs(myNum) > 0.001 || Math.abs(statedNum) > 0.001)) {
                 const ref = Math.max(Math.abs(myNum), Math.abs(statedNum));
                 const diff = Math.abs(myNum - statedNum) / ref;
-                if (diff > 0.05) {
+                if (diff > 0.01) {
                     verifierMatches = false;
                     if (result.status === 'APPROVED') {
                         console.warn(`[QuestionEngine] Override: Verifier said APPROVED but answers differ by ${(diff * 100).toFixed(1)}% (verifier: ${myNum}, stated: ${statedNum}). REJECTING.`);
@@ -250,8 +244,8 @@ OUTPUT (JSON ONLY):
                 console.warn(`[QuestionEngine] REFIXED answer not in options. Rejecting.`);
                 return { verified: false };
             }
-            return { 
-                verified: true, 
+            return {
+                verified: true,
                 data: { ...currentData, ...result.fixed_data },
                 isRefixed: true,
                 verifierAnswer: result.my_answer,
@@ -259,9 +253,9 @@ OUTPUT (JSON ONLY):
             };
         }
 
-        return { 
-            verified: true, 
-            data: currentData, 
+        return {
+            verified: true,
+            data: currentData,
             isRefixed: false,
             verifierAnswer: result.my_answer,
             verifierMatches
@@ -309,7 +303,7 @@ export const generateInspiredQuestion = async (
         subject: string,
         topic: string,
         difficulty: 'Easy' | 'Medium' | 'Hard',
-        abilityScore?: number 
+        abilityScore?: number
     }
 ): Promise<StoredQuestion | null> => {
     const { exam, subject, topic, difficulty, abilityScore = 5 } = params;
@@ -317,7 +311,7 @@ export const generateInspiredQuestion = async (
     // Pre-Generation DB Check — only trust high-confidence questions from post-audit era
     try {
         const potentialQuery = query(
-            collection(db, 'engine_questions'), 
+            collection(db, 'engine_questions'),
             where('exam', '==', exam),
             where('topic', '==', topic),
             where('difficulty', '==', difficulty),
@@ -329,7 +323,7 @@ export const generateInspiredQuestion = async (
             const validDocs = snapshot.docs.filter(d => {
                 const data = d.data();
                 if (!(data.confidence >= 0.70 && data.question && data.correct_answer)) return false;
-                
+
                 // Run fact validator on cached content to catch legacy placeholders
                 const factCheck = checkConceptualQuestion(
                     data.subject || subject,
@@ -432,9 +426,9 @@ If they don't match, YOUR OUTPUT IS INVALID and will be rejected.
             const response = await withTimeout(
                 askAI(
                     `You are a Senior ${subject} Professor with 20 years of JEE/NEET paper-setting experience. You MUST solve every problem completely before stating the answer. Use ONLY standard NCERT-aligned formulas. JSON ONLY.`,
-                    generationPrompt, 'groq', [], { 
-                    jsonMode: true, 
-                    stream: false, 
+                    generationPrompt, 'groq', [], {
+                    jsonMode: true,
+                    stream: false,
                     max_tokens: 2500,
                     modelId: 'llama-3.3-70b-versatile',
                     temperature: 0.6
@@ -456,7 +450,7 @@ If they don't match, YOUR OUTPUT IS INVALID and will be rejected.
                 const exactMatch = rawData.options.includes(rawData.correct_answer);
                 if (!exactMatch) {
                     // Try to find a partial match and fix it
-                    const partialIdx = rawData.options.findIndex((opt: string) => 
+                    const partialIdx = rawData.options.findIndex((opt: string) =>
                         opt.includes(rawData.correct_answer) || rawData.correct_answer.includes(opt)
                     );
                     if (partialIdx !== -1) {
@@ -491,10 +485,10 @@ If they don't match, YOUR OUTPUT IS INVALID and will be rejected.
             if (verification.verified) confidenceScore += 0.15;
 
             // ── LAYER 2: Derivation-Answer Consistency Check ──
-            const derivationText = verifiedData.hidden_derivation || verifiedData.explanation || 
+            const derivationText = verifiedData.hidden_derivation || verifiedData.explanation ||
                 (verifiedData.step_by_step_solution || []).join(' ') || '';
             const consistency = checkDerivationConsistency(derivationText, verifiedData.correct_answer || '');
-            
+
             if (!consistency.consistent) {
                 if (consistency.correctedAnswer) {
                     // Verify corrected answer exists in options before accepting the fix
@@ -612,6 +606,7 @@ If they don't match, YOUR OUTPUT IS INVALID and will be rejected.
 
 export const invalidateTopicCache = (userId: string, exam: string, topic: string) => {
     try {
+        if (typeof localStorage === 'undefined') return;
         const prefix = `q_engine_cache_${userId}_${exam}_${topic}_`;
         const keysToRemove: string[] = [];
         for (let i = 0; i < localStorage.length; i++) {
@@ -630,6 +625,7 @@ export const invalidateTopicCache = (userId: string, exam: string, topic: string
 // Persistent cache for questions to slash costs
 const getCache = (key: string): StoredQuestion[] | null => {
     try {
+        if (typeof localStorage === 'undefined') return null;
         const cached = localStorage.getItem(`q_engine_cache_${key}`);
         if (cached) {
             const parsed = JSON.parse(cached);
@@ -643,6 +639,7 @@ const getCache = (key: string): StoredQuestion[] | null => {
 
 const setCache = (key: string, questions: StoredQuestion[]) => {
     try {
+        if (typeof localStorage === 'undefined') return;
         localStorage.setItem(`q_engine_cache_${key}`, JSON.stringify({
             questions,
             timestamp: Date.now()
@@ -709,7 +706,7 @@ export const getAdaptiveQuestion = async (
         if (!snap.empty) {
             // Filter for post-audit quality: only serve questions with confidence >= 0.70
             const allDocs = snap.docs.map(doc => ({ id: doc.id, ...doc.data() } as StoredQuestion));
-            const fetchedQuestions = allDocs.filter(q => 
+            const fetchedQuestions = allDocs.filter(q =>
                 (q.confidence === undefined || q.confidence >= 0.70) && q.question && q.correct_answer
             );
 
@@ -736,12 +733,12 @@ export const getAdaptiveQuestion = async (
             finalSubject = !subjectSnap.empty ? subjectSnap.docs[0].data().subject : 'General';
         }
 
-        const generated = await generateInspiredQuestion({ 
-            exam, 
-            subject: finalSubject, 
-            topic, 
+        const generated = await generateInspiredQuestion({
+            exam,
+            subject: finalSubject,
+            topic,
             difficulty: targetDifficulty,
-            abilityScore 
+            abilityScore
         });
 
         // Optionally put the generated one into cache too (or let it be found on next DB hit)

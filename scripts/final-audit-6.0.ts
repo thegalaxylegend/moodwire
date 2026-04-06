@@ -1,12 +1,31 @@
-
 import { generateInspiredQuestion, StoredQuestion } from '../src/services/questionEngine';
 import * as fs from 'fs';
 import * as path from 'path';
+import * as dotenv from 'dotenv';
 
-// --- MOCK BROWSER ---
+// Load environment variables
+dotenv.config();
+
+// --- MOCK BROWSER & FIREBASE ---
 if (typeof global.localStorage === 'undefined') {
     (global as any).localStorage = { getItem: () => null, setItem: () => null };
 }
+
+// Mock Firestore for CLI Audit
+import * as firebaseLib from '../src/lib/firebase';
+(firebaseLib as any).db = null; // Disable real DB logic
+
+import * as firestore from 'firebase/firestore';
+(firestore as any).collection = () => ({});
+(firestore as any).query = () => ({});
+(firestore as any).where = () => ({});
+(firestore as any).getDocs = async () => ({ empty: true, size: 0, docs: [] });
+(firestore as any).addDoc = async () => ({ id: 'mock-id' });
+(firestore as any).updateDoc = async () => ({});
+(firestore as any).doc = () => ({});
+(firestore as any).increment = () => 1;
+(firestore as any).limit = () => ({});
+(firestore as any).orderBy = () => ({});
 
 async function runFinalAudit6() {
     console.log("🚀 Starting FINAL AUDIT 6.0 (Sovereign Consistency & Adaptive Difficulty)...");

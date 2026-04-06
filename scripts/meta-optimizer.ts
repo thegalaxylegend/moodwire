@@ -25,9 +25,12 @@ const INTELLIGENCE_FILE = path.join(__dirname, '../jules-reports/search-intellig
 const BLOGS_DIR = path.join(__dirname, '../src/content/blogs');
 const LOG_FILE = path.join(__dirname, '../jules-reports/seo-optimization-log.json');
 
-// Initialize Gemini
+// Initialize Gemma 4
 const genAI = new GoogleGenerativeAI(process.env.VITE_GEMINI_API_KEY || '');
-const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
+const model = genAI.getGenerativeModel({ 
+    model: 'gemma-4-31b-it',
+    generationConfig: { responseMimeType: "application/json" }
+});
 
 async function optimizeMeta(url: string, data: any) {
     const slug = url.split('/').pop() || '';

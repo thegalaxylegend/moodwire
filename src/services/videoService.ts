@@ -240,7 +240,7 @@ export const getVideoByTopicId = async (topicId: string, exam: string = 'JEE'): 
                     id: videoId,
                     title: item.snippet.title,
                     channelName: item.snippet.channelTitle,
-                    thumbnailUrl: item.snippet.thumbnails?.high?.url || item.snippet.thumbnails?.default?.url,
+                    thumbnailUrl: `https://img.youtube.com/vi/${videoId}/mqdefault.jpg`,
                     videoUrl: `https://www.youtube.com/watch?v=${videoId}`,
                     duration: details.duration,
                     viewCount: details.viewCount
@@ -286,7 +286,7 @@ const getFallbackPlaylist = (topicId: string): Playlist => {
                 id: 'ZM8ECpBuQYE',
                 title: 'Motion in a Straight Line | Complete Chapter',
                 channelName: 'Physics Wallah Foundation',
-                thumbnailUrl: 'https://i.ytimg.com/vi/ZM8ECpBuQYE/hqdefault.jpg',
+                thumbnailUrl: 'https://img.youtube.com/vi/ZM8ECpBuQYE/mqdefault.jpg',
                 videoUrl: 'https://www.youtube.com/watch?v=ZM8ECpBuQYE',
                 duration: '2:30:00'
             },
@@ -294,7 +294,7 @@ const getFallbackPlaylist = (topicId: string): Playlist => {
                 id: 'bY7zpwSxQaE',
                 title: 'Physics Complete Course | Class 11 & 12',
                 channelName: 'Unacademy JEE',
-                thumbnailUrl: 'https://i.ytimg.com/vi/bY7zpwSxQaE/hqdefault.jpg',
+                thumbnailUrl: 'https://img.youtube.com/vi/bY7zpwSxQaE/mqdefault.jpg',
                 videoUrl: 'https://www.youtube.com/watch?v=bY7zpwSxQaE',
                 duration: '3:00:00'
             },
@@ -302,7 +302,7 @@ const getFallbackPlaylist = (topicId: string): Playlist => {
                 id: 'pnWvVu4bIxQ',
                 title: 'JEE Main Physics - Important Concepts',
                 channelName: 'Vedantu JEE',
-                thumbnailUrl: 'https://i.ytimg.com/vi/pnWvVu4bIxQ/hqdefault.jpg',
+                thumbnailUrl: 'https://img.youtube.com/vi/pnWvVu4bIxQ/mqdefault.jpg',
                 videoUrl: 'https://www.youtube.com/watch?v=pnWvVu4bIxQ',
                 duration: '1:45:00'
             }

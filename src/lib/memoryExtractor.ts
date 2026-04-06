@@ -34,7 +34,9 @@ export async function extractAndSaveMemory(message: string): Promise<string[]> {
         }
 
         if (facts.length > 0) {
-            // Save to localStorage for persistence
+            // Save to localStorage for persistence (Browser Only)
+            if (typeof localStorage === 'undefined') return facts; 
+
             const existing = JSON.parse(localStorage.getItem('exa_memory') || "[]");
             const updated = Array.from(new Set([...existing, ...facts])).slice(-20);
             localStorage.setItem('exa_memory', JSON.stringify(updated));
@@ -47,6 +49,7 @@ export async function extractAndSaveMemory(message: string): Promise<string[]> {
 }
 
 export function getImportantMemories(): string {
+    if (typeof localStorage === 'undefined') return "";
     const memories = JSON.parse(localStorage.getItem('exa_memory') || "[]");
     return memories.join("\n");
 }

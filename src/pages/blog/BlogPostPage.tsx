@@ -6,7 +6,7 @@ import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 import rehypeRaw from 'rehype-raw';
 import 'katex/dist/katex.min.css';
-import { ArrowLeft, Loader2, Calendar, Download, BookOpen } from 'lucide-react';
+import { ArrowLeft, Loader2, Calendar, Download, BookOpen, MessageCircle } from 'lucide-react';
 import { SEO } from '../../components/SEO';
 import { BlogSchema } from '../../components/blog/BlogSchema';
 import { BlogCTA } from '../../components/blog/BlogCTA';
@@ -166,29 +166,25 @@ export const BlogPostPage: React.FC = () => {
                 </Link>
 
                 <header className="mb-16">
-                    <div className="flex items-center justify-between mb-8">
-                        <span className="px-4 py-1.5 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xs tracking-widest uppercase border border-purple-500/30">
+                    <div className="flex flex-wrap items-center justify-between gap-4 mb-8">
+                        <span className="px-4 py-1.5 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xs tracking-widest uppercase border border-purple-500/30 whitespace-nowrap">
                             {meta.category}
                         </span>
-                        <div className="flex items-center gap-4">
-                            {(() => {
-                                const whatsappMessage = `🚀 Just found the best quick recap for ${meta.title}!\n\nIncludes:\n✅ Interactive MCQs with answers\n✅ Key points table\n✅ Trap exceptions\n\nCheck it out: ${SITE_URL}/blog/${slug}`;
-                                const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(whatsappMessage)}`;
-                                return (
-                                    <a href={whatsappUrl}
-                                       target="_blank"
-                                       rel="noopener noreferrer"
-                                       className="hidden md:flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#25D366]/20 text-[#25D366] font-bold text-xs tracking-widest uppercase border border-[#25D366]/30 hover:bg-[#25D366]/30 transition-colors">
-                                        Share on WhatsApp 📲
-                                    </a>
-                                );
-                            })()}
+                        <div className="flex flex-wrap items-center gap-2 sm:gap-4 ml-auto">
+                            <a 
+                                href={`https://api.whatsapp.com/send?text=${encodeURIComponent(`${meta.title} - ${window.location.href}`)}`}
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="p-2.5 bg-green-500/10 text-green-500 rounded-xl hover:bg-green-500/20 transition-colors border border-green-500/20"
+                                title="Quick Share on WhatsApp"
+                            >
+                                <MessageCircle size={20} />
+                            </a>
                             <SocialShare title={meta.title} />
                         </div>
-
                     </div>
 
-                    <h1 className="text-2xl sm:text-4xl md:text-5xl font-extrabold mb-6 leading-tight">
+                    <h1 className="text-2xl sm:text-4xl md:text-5xl font-extrabold mb-6 leading-tight break-words [overflow-wrap:anywhere]">
                         {meta.title}
                     </h1>
 
@@ -270,9 +266,13 @@ export const BlogPostPage: React.FC = () => {
                         remarkPlugins={[remarkGfm, remarkMath]}
                         rehypePlugins={[rehypeRaw, rehypeKatex]}
                         components={{
-                            h1: 'h2',
+                            h2: ({node, children, ...props}) => (
+                                <h2 {...props} className="text-xl sm:text-2xl font-bold text-white mt-12 mb-6 break-words">
+                                    {children}
+                                </h2>
+                            ),
                             h3: ({node, children, ...props}) => (
-                                <h3 {...props} className="text-base sm:text-lg font-semibold text-purple-300 mt-6 mb-2 border-l-2 border-purple-500 pl-3">
+                                <h3 {...props} className="text-base sm:text-lg font-semibold text-purple-300 mt-6 mb-2 border-l-2 border-purple-500 pl-3 break-words">
                                     {children}
                                 </h3>
                             ),

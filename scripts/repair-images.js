@@ -79,11 +79,11 @@ async function generateGroqSVG(topic, subject) {
     } catch { return null; }
 }
 
-async function generateGeminiSVG(topic, subject) {
+async function generateGemmaSVG(topic, subject) {
     if (!GEMINI_KEY) return null;
     try {
         const prompt = `Output ONLY raw SVG code for a 1200x630 blog cover about "${topic}" (${subject}). Dark mode, professional.`;
-        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_KEY}`, {
+        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemma-4-31b-it:generateContent?key=${GEMINI_KEY}`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] })
@@ -164,10 +164,10 @@ async function repairImages() {
             if (groqBuffer) newImage = await saveAndOptimise(groqBuffer, fileSlug, true);
         }
         
-        // 3. Gemini SVG
+        // 3. Gemma 4 SVG
         if (!newImage) {
-            const geminiBuffer = await generateGeminiSVG(title, subject);
-            if (geminiBuffer) newImage = await saveAndOptimise(geminiBuffer, fileSlug, true);
+            const gemmaBuffer = await generateGemmaSVG(title, subject);
+            if (gemmaBuffer) newImage = await saveAndOptimise(gemmaBuffer, fileSlug, true);
         }
         
         // 4. Fallback — ONLY use generic if blog currently has NO image at all

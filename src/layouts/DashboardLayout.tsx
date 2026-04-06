@@ -14,7 +14,8 @@ import {
     ListChecks,
     TrendingUp,
     Library,
-    Download
+    Download,
+    ShieldCheck
 } from 'lucide-react';
 import { useState } from 'react';
 import { usePWA } from '../hooks/usePWA';
@@ -29,6 +30,7 @@ import { GuestBanner } from '../components/GuestBanner';
 
 import { RankBadge } from '../components/gamification/RankBadge';
 import { usePWAStore } from '../store/pwaStore';
+import { ADMIN_EMAILS } from '../lib/securityConfig';
 
 const UserProfileWidget = ({ isSidebarOpen, onClick, onRankClick }: { isSidebarOpen: boolean; onClick: () => void; onRankClick: () => void }) => {
     const { user, fetchSyllabusProgress } = useUserStore();
@@ -168,8 +170,10 @@ export const DashboardLayout = () => {
 
     const isJunior = ['Class 8th', 'Class 9th', 'Class 10th'].includes(user?.userClass || '');
 
+    const isAdmin = user?.role === 'admin' || (user?.email && ADMIN_EMAILS.includes(user.email.toLowerCase()));
     const navItems = [
         { icon: LayoutDashboard, label: 'Overview', path: '/dashboard' },
+        ...(isAdmin ? [{ icon: ShieldCheck, label: 'Admin Panel', path: '/admin' }] : []),
         { icon: Brain, label: 'Test Center', path: '/dashboard/test-center' },
         { icon: Calendar, label: 'Study Plan', path: '/dashboard/study-plan' },
         { icon: BarChart3, label: 'Benchmarking', path: '/dashboard/peer-benchmarking' },
@@ -186,7 +190,7 @@ export const DashboardLayout = () => {
     });
 
     return (
-        <div className="min-h-screen flex text-text-main">
+        <div className="h-screen flex text-text-main overflow-hidden bg-background">
             <SEO
                 title="Dashboard"
                 description="Your personal exam preparation dashboard."
@@ -265,7 +269,10 @@ export const DashboardLayout = () => {
             </aside>
 
             {/* Main Content */}
-            <main className="flex-1 p-4 lg:p-10 overflow-x-hidden relative w-full pb-24 lg:pb-10 flex flex-col animate-fade-in">
+            <main 
+                data-lenis-prevent
+                className="flex-1 p-4 lg:p-10 overflow-x-hidden overflow-y-auto relative w-full pb-24 lg:pb-10 flex flex-col scrollbar-thin scroll-smooth"
+            >
                 <div className="lg:hidden mb-4 h-20 flex items-center justify-between shrink-0 border-b border-white/5 -mt-4 -mx-4 px-4 bg-background/50 backdrop-blur-md sticky top-0 z-50">
                     <span className="text-xl md:text-2xl font-bold text-white tracking-tighter">Exam<span className="text-[#a855f7]">Compass</span></span>
                     <div className="flex items-center gap-3">

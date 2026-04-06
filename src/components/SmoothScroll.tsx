@@ -13,7 +13,9 @@ export const SmoothScroll = ({ children }: { children: React.ReactNode }) => {
     document.documentElement.style.scrollBehavior = 'auto';
 
     // Disable smooth scroll hijacking on heavy pages and admin dashboards
-    if (location.pathname.startsWith('/blog') || location.pathname.startsWith('/admin')) {
+    if (location.pathname.startsWith('/blog') || 
+        location.pathname.startsWith('/admin') || 
+        location.pathname.startsWith('/dashboard')) {
       return;
     }
 
@@ -28,6 +30,20 @@ export const SmoothScroll = ({ children }: { children: React.ReactNode }) => {
       infinite: false,
     });
 
+    // Handle external scroll locking (e.g. from Chatbot)
+    const observer = new MutationObserver(() => {
+      if (document.documentElement.classList.contains('chat-open')) {
+        lenis.stop();
+      } else {
+        lenis.start();
+      }
+    });
+
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+
+    // Initial check
+    if (document.documentElement.classList.contains('chat-open')) lenis.stop();
+
     function raf(time: number) {
       lenis.raf(time);
       rafId = requestAnimationFrame(raf);
@@ -37,6 +53,7 @@ export const SmoothScroll = ({ children }: { children: React.ReactNode }) => {
 
     return () => {
       cancelAnimationFrame(rafId);
+      observer.disconnect();
       lenis.destroy();
     };
   }, [location.pathname]);

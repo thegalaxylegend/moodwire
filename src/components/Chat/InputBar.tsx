@@ -48,15 +48,15 @@ export const InputBar: React.FC<InputBarProps> = ({
                 </div>
             )}
 
-            <form onSubmit={handleSend} className="relative group">
-                <div className={`flex items-center gap-2 bg-white/5 backdrop-blur-3xl rounded-[28px] p-1.5 transition-all duration-500 min-h-[60px] border border-white/5
-                    ${isThinking ? 'opacity-80' : 'group-focus-within:bg-white/10 group-focus-within:border-purple-500/30 group-focus-within:shadow-[0_0_30px_rgba(139,92,246,0.15)] shadow-xl'}`}>
+            <form onSubmit={handleSend} className="relative group/form">
+                <div className={`w-full flex items-center gap-2 bg-[#32343e]/40 backdrop-blur-3xl rounded-[28px] p-2 md:p-3 transition-all duration-500 min-h-[70px] border border-white/10
+                    ${isThinking ? 'opacity-80' : 'group-focus-within/form:bg-[#32343e]/60 group-focus-within/form:border-[#5d21df]/50 group-focus-within/form:shadow-[0_0_50px_rgba(93,33,223,0.2)] shadow-2xl'}`}>
                     
                     {/* Attachment Button */}
                     <button
                         type="button"
                         onClick={() => fileInputRef.current?.click()}
-                        className="w-11 h-11 flex items-center justify-center text-white/40 hover:text-purple-400 hover:bg-white/5 rounded-full transition-all shrink-0"
+                        className="w-12 h-12 flex items-center justify-center text-white/30 hover:text-[#cdbdff] hover:bg-white/5 rounded-2xl transition-all shrink-0"
                         title="Attach image or PDF"
                     >
                         <Paperclip size={20} className="-rotate-45" />
@@ -72,15 +72,22 @@ export const InputBar: React.FC<InputBarProps> = ({
                     {/* Text Input */}
                     <input
                         type="text"
+                        name="exa-query-unique"
                         value={input}
                         onChange={(e) => setInput(e.target.value)}
                         placeholder={isListening ? "Listening to you..." : "Instant inquiry..."}
                         disabled={isThinking}
-                        className="flex-1 bg-transparent border-none focus:ring-0 outline-none text-[15px] font-medium text-white placeholder-white/20 px-3 leading-relaxed"
+                        autoComplete="off"
+                        autoCorrect="off"
+                        autoCapitalize="off"
+                        spellCheck="false"
+                        enterKeyHint="send"
+                        inputMode="text"
+                        className="flex-1 min-w-0 bg-transparent border-none focus:ring-0 outline-none text-base font-manrope text-white placeholder-white/10 px-4 leading-relaxed"
                     />
                     
                     {/* Right Action Group */}
-                    <div className="flex items-center gap-1.5 pr-0.5">
+                    <div className="flex items-center gap-1">
                         {/* Mic Button */}
                         <motion.button
                             whileHover={{ scale: 1.1 }}
@@ -90,10 +97,10 @@ export const InputBar: React.FC<InputBarProps> = ({
                             onMouseUp={onPTTEnd}
                             onTouchStart={onPTTStart}
                             onTouchEnd={onPTTEnd}
-                            className={`w-11 h-11 flex items-center justify-center rounded-full transition-all duration-300
+                            className={`w-12 h-12 flex items-center justify-center rounded-2xl transition-all duration-300
                                 ${isListening 
-                                    ? 'bg-red-500 text-white shadow-lg shadow-red-500/20 animate-pulse' 
-                                    : 'text-white/40 hover:text-purple-400 hover:bg-white/5'}`}
+                                    ? 'bg-red-500 text-white shadow-[0_0_20px_rgba(239,68,68,0.4)] animate-pulse' 
+                                    : 'text-white/30 hover:text-[#cdbdff] hover:bg-white/5'}`}
                             title="Hold to talk"
                         >
                             <Mic size={20} className={isListening ? "scale-110" : ""} />
@@ -105,10 +112,10 @@ export const InputBar: React.FC<InputBarProps> = ({
                             whileTap={{ scale: 0.95 }}
                             type="submit"
                             disabled={isThinking || (!input.trim() && !selectedImage)}
-                            className={`w-11 h-11 flex items-center justify-center rounded-full transition-all duration-500 shadow-lg
-                                ${isThinking || (!input.trim() && !selectedImage)
-                                    ? 'bg-white/5 text-white/10' 
-                                    : 'bg-indigo-600 text-white shadow-indigo-500/20 hover:shadow-indigo-500/40 hover:bg-indigo-500'}`}
+                            className={`w-12 h-12 flex items-center justify-center rounded-2xl transition-all duration-500 shadow-[0_10px_25px_rgba(93,33,223,0.3)]
+                                 ${isThinking || (!input.trim() && !selectedImage)
+                                    ? 'bg-white/10 text-white/20 cursor-not-allowed shadow-none' 
+                                    : 'bg-gradient-to-br from-[#5d21df] to-[#153ae4] text-white hover:shadow-[0_15px_35px_rgba(93,33,223,0.5)]'}`}
                         >
                             {isThinking ? (
                                 <Loader2 size={18} className="animate-spin" />

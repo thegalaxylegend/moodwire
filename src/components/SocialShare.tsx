@@ -31,7 +31,7 @@ export const SocialShare: React.FC<SocialShareProps> = ({
     };
 
     const containerClasses = orientation === 'horizontal' 
-        ? "flex items-center gap-3" 
+        ? "flex flex-wrap items-center gap-2 sm:gap-3" 
         : "flex flex-col items-center gap-4 py-6";
 
     return (
@@ -40,60 +40,61 @@ export const SocialShare: React.FC<SocialShareProps> = ({
                 href={shareData.whatsapp} 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="p-2.5 bg-[#25D366]/10 text-[#25D366] rounded-xl hover:bg-[#25D366]/20 transition-colors border border-[#25D366]/20"
+                className="p-2 sm:p-2.5 bg-[#25D366]/10 text-[#25D366] rounded-xl hover:bg-[#25D366]/20 transition-colors border border-[#25D366]/20 shrink-0"
                 title="Share on WhatsApp"
             >
-                <MessageCircle size={20} />
+                <MessageCircle size={18} className="sm:w-5 sm:h-5" />
             </a>
             
             <a 
                 href={shareData.telegram} 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="p-2.5 bg-[#0088cc]/10 text-[#0088cc] rounded-xl hover:bg-[#0088cc]/20 transition-colors border border-[#0088cc]/20"
+                className="p-2 sm:p-2.5 bg-[#0088cc]/10 text-[#0088cc] rounded-xl hover:bg-[#0088cc]/20 transition-colors border border-[#0088cc]/20 shrink-0"
                 title="Share on Telegram"
             >
-                <Send size={20} />
+                <Send size={18} className="sm:w-5 sm:h-5" />
             </a>
 
             <a 
                 href={shareData.twitter} 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="p-2.5 bg-white/5 text-white rounded-xl hover:bg-white/10 transition-colors border border-white/10"
+                className="p-2 sm:p-2.5 bg-white/5 text-white rounded-xl hover:bg-white/10 transition-colors border border-white/10 shrink-0"
                 title="Share on X"
             >
-                <Twitter size={20} />
+                <Twitter size={18} className="sm:w-5 sm:h-5" />
             </a>
 
             <a 
                 href={shareData.threads} 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="p-2.5 bg-white/5 text-white rounded-xl hover:bg-white/10 transition-colors border border-white/10"
+                className="p-2 sm:p-2.5 bg-white/5 text-white rounded-xl hover:bg-white/10 transition-colors border border-white/10 shrink-0"
                 title="Share on Threads"
             >
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="4"/><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-4 8"/></svg>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="sm:w-5 sm:h-5"><circle cx="12" cy="12" r="4"/><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-4 8"/></svg>
             </a>
 
             <button 
                 onClick={copyToClipboard}
-                className={`p-2.5 rounded-xl transition-all border flex items-center justify-center ${
+                className={`p-2 sm:p-2.5 rounded-xl transition-all border flex items-center justify-center shrink-0 ${
                     copied 
                     ? "bg-green-500/10 text-green-500 border-green-500/20" 
                     : "bg-white/5 text-gray-400 border-white/10 hover:bg-white/10"
                 }`}
                 title="Copy Link"
             >
-                {copied ? <Check size={20} /> : <Copy size={20} />}
+                {copied ? <Check size={18} className="sm:w-5 sm:h-5" /> : <Copy size={18} className="sm:w-5 sm:h-5" />}
             </button>
             
             {orientation === 'horizontal' && (
-                <span className="text-xs font-bold text-gray-500 uppercase tracking-widest ml-2 flex items-center gap-2">
-                    <Share2 size={14} />
-                    Viral Share
+                <span className="hidden xs:flex text-[10px] sm:text-xs font-bold text-gray-500 uppercase tracking-widest ml-1 sm:ml-2 items-center gap-1 sm:gap-2">
+                    <Share2 size={12} className="sm:w-3.5 sm:h-3.5" />
+                    <span className="hidden sm:inline">Viral</span> Share
                 </span>
             )}
         </div>
     );
 };
+

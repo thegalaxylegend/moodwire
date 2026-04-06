@@ -184,11 +184,555 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/relations-and-functions-12/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/units-and-measurements/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/chemistry/structure-of-the-atom/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/areas-related-to-circles/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/magnetism-and-matter/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/chemistry/chemical-kinetics/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/ray-optics/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/alternating-current/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/chemistry/alcohols-phenols-and-ethers/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/number-systems/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/probability-intro/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/chemistry/mole-concept/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/chemistry/classification-of-elements/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/chemistry/hydrogen/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/communication-systems/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/motion-in-a-plane/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/complex-numbers/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/chemistry/amines/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/conic-sections/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/thermal-properties-of-matter/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/nuclei/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/mensuration/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/basic-geometrical-ideas/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/relations-and-functions/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/atoms/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/torque-and-angular-momentum/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/integrals/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/pair-of-linear-equations/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/rational-numbers/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/straight-lines/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/linear-programming/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/simple-equations/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/work-energy-and-power/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/physical-world/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/chemistry/coordination-compounds/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/playing-with-numbers/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/chemistry/the-p-block-elements-12/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/cubes-and-cube-roots/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/introduction-to-trigonometry/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/chemistry/solid-state/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/squares-and-square-roots/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/chemistry/haloalkanes-and-haloarenes/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/chemistry/rate-of-reaction/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/chemistry/organic-chemistry-basic-principles/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/gravitation/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/direction-cosines-and-direction-ratios/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/permutations-and-combinations/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/oscillations/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/laws-of-motion/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/principle-of-mathematical-induction/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/determinants/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/kinetic-theory/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/coordinate-geometry/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/chemistry/aldehydes-ketones-and-carboxylic-acids/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/quadratic-equations/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/knowing-our-numbers/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/current-electricity/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/linear-inequalities/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/probability/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/algebra/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/integers/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/mechanical-properties-of-fluids/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/mechanical-properties-of-solids/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/induced-emf-and-lenzs-law/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://examcompass.pages.dev/jee-mains/physics/electromagnetic-induction/top-50-pyqs</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/inverse-trigonometric-functions/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/data-handling/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/chemistry/metallurgy/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/perimeter-and-area/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/factorisation/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/sets/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/differential-equations/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/electromagnetic-waves/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/arithmetic-progressions/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/congruence-of-triangles/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/polynomials/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/exponents-and-powers/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/motion-in-a-straight-line/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/statistics/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/linear-equations-in-two-variables/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/applications-of-trigonometry/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/wave-optics/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/decimals/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/whole-numbers/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/electrostatics/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/continuity-and-differentiability/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/lines-and-angles/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/understanding-quadrilaterals/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/limits-and-derivatives/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/surface-areas-and-volumes/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/three-dimensional-geometry/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/magnetic-effects-of-current/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/chemistry/electrochemistry/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/semiconductor-electronics/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/3d-geometry-intro/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/properties-of-electromagnetic-waves/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/chemistry/the-s-block-elements/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/chemistry/equilibrium/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/real-numbers/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/chemistry/redox-reactions/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/comparing-quantities/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/chemistry/hydrocarbons/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/angular-momentum/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/vector-algebra/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/chemistry/chemical-bonding/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/rotational-motion/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/algebraic-expressions/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/chemistry/environmental-chemistry/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/chemistry/the-p-block-elements-11/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/chemistry/biomolecules/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/application-of-derivatives/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/trigonometric-functions/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/chemistry/polymers/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/chemistry/surface-chemistry/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/mathematical-reasoning/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/fractions/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/chemistry/states-of-matter/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/herons-formula/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/binomial-theorem/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/matrices/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/waves/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/chemistry/some-basic-concepts-of-chemistry/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/chemistry/chemistry-in-everyday-life/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/quadrilaterals/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/interference-of-light/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/dual-nature-of-radiation/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/chemistry/d-and-f-block-elements/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/chemistry/solutions/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/circles/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/ratio-and-proportion/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/thermodynamics/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/fractions-and-decimals/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://examcompass.pages.dev/jee-mains/physics/moment-of-inertia/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/triangles/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/linear-equations-in-one-variable/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/application-of-integrals/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/the-triangle-and-its-properties/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/sequences-and-series/top-50-pyqs</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

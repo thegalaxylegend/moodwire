@@ -46,24 +46,38 @@ export const Navbar = () => {
     useEffect(() => {
         setIsFilterOpen(false);
         setIsExamsOpen(false);
+        setIsMobileMenuOpen(false);
     }, [location]);
+
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     return (
         <nav 
-            className={`fixed top-0 left-0 w-full z-50 border-b border-white/10 transition-all duration-300 ${
+            className={`fixed top-0 left-0 w-full z-50 border-b border-white/10 transition-colors duration-300 ${
                 scrolled 
-                    ? 'bg-black/95 h-16' 
-                    : 'bg-black/80 h-20'
-            }`}
+                    ? 'bg-black/95 backdrop-blur-md' 
+                    : 'bg-black/80 backdrop-blur-sm'
+            } h-16 md:h-20`}
         >
             <div 
                 className="max-w-7xl mx-auto px-4 md:px-6 flex items-center justify-between h-full"
             >
                 <Link to="/" className="text-xl md:text-2xl font-bold text-white tracking-tighter shrink-0 mr-4">
-                    Exam<span className="animate-logo-shimmer">Compass</span>
+                    Exam<span className="text-[#a855f7]">Compass</span>
                 </Link>
 
-                <div className="flex items-center gap-3 md:gap-6">
+                {/* Mobile Menu Button */}
+                <button 
+                    onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                    className="md:hidden flex flex-col gap-1.5 p-2 focus:outline-none z-[60]"
+                >
+                    <div className={`w-6 h-0.5 bg-white transition-all duration-300 ${isMobileMenuOpen ? 'rotate-45 translate-y-2' : ''}`} />
+                    <div className={`w-6 h-0.5 bg-white transition-all duration-300 ${isMobileMenuOpen ? 'opacity-0' : ''}`} />
+                    <div className={`w-6 h-0.5 bg-white transition-all duration-300 ${isMobileMenuOpen ? '-rotate-45 -translate-y-2' : ''}`} />
+                </button>
+
+                {/* Desktop Links */}
+                <div className="hidden md:flex items-center gap-3 md:gap-6">
                     {/* Exams Dropdown */}
                     <div className="relative" ref={examsRef}>
                         <button
@@ -188,6 +202,37 @@ export const Navbar = () => {
                     </Link>
                 </div>
             </div>
+
+            {/* Mobile Menu Overlay */}
+            <motion.div
+                initial={{ opacity: 0, height: 0 }}
+                animate={{ 
+                    opacity: isMobileMenuOpen ? 1 : 0,
+                    height: isMobileMenuOpen ? 'auto' : 0 
+                }}
+                className="md:hidden bg-[#050505] border-b border-white/5 overflow-hidden"
+            >
+                <div className="px-6 py-8 flex flex-col gap-6">
+                    <div className="flex flex-col gap-4">
+                        <p className="text-[10px] font-bold text-gray-500 uppercase tracking-widest px-2">Exams</p>
+                        <div className="grid grid-cols-1 gap-2">
+                            {EXAM_LINKS.slice(0, 4).map(exam => (
+                                <Link key={exam.to} to={exam.to} className="text-gray-300 hover:text-white p-2 rounded-xl bg-white/5 transition-colors">
+                                    {exam.label}
+                                </Link>
+                            ))}
+                        </div>
+                    </div>
+                    <Link to="/blog" className="text-lg font-bold text-white px-2">Blog</Link>
+                    <Link 
+                        to="/login" 
+                        className="w-full py-4 text-center rounded-2xl bg-white text-black font-extrabold text-lg shadow-[0_0_20px_rgba(255,255,255,0.1)] active:scale-[0.98] transition-transform"
+                    >
+                        Login
+                    </Link>
+                </div>
+            </motion.div>
         </nav>
     );
 };
+

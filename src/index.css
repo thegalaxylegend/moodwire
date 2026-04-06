@@ -119,6 +119,8 @@
   html, body {
     overflow-x: hidden;
     width: 100%;
+    position: relative;
+    max-width: 100vw;
   }
 
   body {
@@ -204,6 +206,24 @@ body {
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+/* Minimalist thin scrollbar for UI components */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 4px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
 }
 
 /* Global Minimal Scrollbar */
@@ -791,12 +811,27 @@ body {
   animation: gentle-float 4s ease-in-out infinite;
 }
 
-/* Reveal line — hardware accelerated */
-@keyframes reveal-line {
-  from { transform: scaleX(0) translate3d(0,0,0); }
-  to { transform: scaleX(1) translate3d(0,0,0); }
+/* KaTeX Mobile Fix */
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.5rem 0;
+  -webkit-overflow-scrolling: touch;
 }
 
+.katex {
+  font-size: 1em !important;
+}
+
+@media (max-width: 640px) {
+  .katex {
+    font-size: 0.85em !important;
+  }
+}
+
+.prose pre {
+  @apply overflow-x-auto whitespace-pre-wrap break-words;
+}
 .animate-reveal-line {
   transform-origin: left;
   animation: reveal-line 1.2s cubic-bezier(0.22, 1, 0.36, 1) forwards;
