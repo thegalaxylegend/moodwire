@@ -11,15 +11,6 @@ export interface Blog {
 
 export const blogs: Blog[] = [
     {
-        "id": "undefined",
-        "title": "undefined",
-        "description": "Deep revision guide for class 11 students.",
-        "category": "General",
-        "date": "2026-04-06",
-        "readTime": "15 min read",
-        "image": "/blog-images/fallbacks/generic-study.webp"
-    },
-    {
         "id": "environmental-issues-class-12-notes",
         "title": "Environmental Issues Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
         "description": "Deep dive into Environmental Issues Class 12. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets.",
@@ -49,7 +40,7 @@ export const blogs: Blog[] = [
     {
         "id": "organisms-and-populations-class-12-notes",
         "title": "Organisms and Populations Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Master Organisms and Populations for Biology 2026. This Grandmaster Guide includes Ayush",
+        "description": "Master Organisms and Populations for Biology 2026. This Grandmaster Guide includes Ayush's personal revision notes, formula sheets, and top-tier MCQs for final prep.",
         "category": "Biology",
         "date": "2026-04-05",
         "readTime": "15 min read",
@@ -67,7 +58,7 @@ export const blogs: Blog[] = [
     {
         "id": "biotechnology-and-its-applications-class-12-notes",
         "title": "Biotechnology and its Applications Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Master Biotechnology and its Applications for Biology 2026. This Grandmaster Guide includes Ayush",
+        "description": "Master Biotechnology and its Applications for Biology 2026. This Grandmaster Guide includes Ayush's personal revision notes, formula sheets, and top-tier MCQs for final prep.",
         "category": "Biology",
         "date": "2026-04-05",
         "readTime": "15 min read",
@@ -85,7 +76,7 @@ export const blogs: Blog[] = [
     {
         "id": "strategies-for-enhancement-in-food-production-class-12-notes",
         "title": "Strategies for Enhancement in Food Production Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Learn Strategies for Enhancement in Food Production like a pro. Detailed revision notes, solved examples, and ",
+        "description": "Learn Strategies for Enhancement in Food Production like a pro. Detailed revision notes, solved examples, and \"Trap Questions\" that most students miss. Updated for the 2026 syllabus.",
         "category": "Biology",
         "date": "2026-04-04",
         "readTime": "15 min read",
@@ -121,7 +112,7 @@ export const blogs: Blog[] = [
     {
         "id": "sexual-reproduction-in-flowering-plants-class-12-notes",
         "title": "Sexual Reproduction in Flowering Plants Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Learn Sexual Reproduction in Flowering Plants like a pro. Detailed revision notes, solved examples, and ",
+        "description": "Learn Sexual Reproduction in Flowering Plants like a pro. Detailed revision notes, solved examples, and \"Trap Questions\" that most students miss. Updated for the 2026 syllabus.",
         "category": "Biology",
         "date": "2026-04-03",
         "readTime": "15 min read",
@@ -139,7 +130,7 @@ export const blogs: Blog[] = [
     {
         "id": "molecular-basis-of-inheritance-class-12-notes",
         "title": "Molecular Basis of Inheritance Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Learn Molecular Basis of Inheritance like a pro. Detailed revision notes, solved examples, and ",
+        "description": "Learn Molecular Basis of Inheritance like a pro. Detailed revision notes, solved examples, and \"Trap Questions\" that most students miss. Updated for the 2026 syllabus.",
         "category": "Biology",
         "date": "2026-04-03",
         "readTime": "15 min read",
@@ -148,7 +139,7 @@ export const blogs: Blog[] = [
     {
         "id": "linear-programming-class-12-notes",
         "title": "Linear Programming Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
-        "description": "Master Linear Programming for Mathematics 2026. This Grandmaster Guide includes Ayush",
+        "description": "Master Linear Programming for Mathematics 2026. This Grandmaster Guide includes Ayush's personal revision notes, formula sheets, and top-tier MCQs for final prep.",
         "category": "Mathematics",
         "date": "2026-04-03",
         "readTime": "15 min read",
@@ -157,7 +148,7 @@ export const blogs: Blog[] = [
     {
         "id": "vector-algebra-class-12-notes",
         "title": "Vector Algebra Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
-        "description": "Master Vector Algebra for Mathematics 2026. This Grandmaster Guide includes Ayush",
+        "description": "Master Vector Algebra for Mathematics 2026. This Grandmaster Guide includes Ayush's personal revision notes, formula sheets, and top-tier MCQs for final prep.",
         "category": "Mathematics",
         "date": "2026-04-02",
         "readTime": "15 min read",
@@ -166,7 +157,7 @@ export const blogs: Blog[] = [
     {
         "id": "application-of-derivatives-class-12-notes",
         "title": "Application of Derivatives Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
-        "description": "Master Application of Derivatives for Mathematics 2026. This Grandmaster Guide includes Ayush",
+        "description": "Master Application of Derivatives for Mathematics 2026. This Grandmaster Guide includes Ayush's personal revision notes, formula sheets, and top-tier MCQs for final prep.",
         "category": "Mathematics",
         "date": "2026-04-02",
         "readTime": "15 min read",
@@ -175,7 +166,7 @@ export const blogs: Blog[] = [
     {
         "id": "reproduction-in-organisms-class-12-notes",
         "title": "Reproduction in Organisms Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Learn Reproduction in Organisms like a pro. Detailed revision notes, solved examples, and ",
+        "description": "Learn Reproduction in Organisms like a pro. Detailed revision notes, solved examples, and \"Trap Questions\" that most students miss. Updated for the 2026 syllabus.",
         "category": "Biology",
         "date": "2026-04-02",
         "readTime": "15 min read",
@@ -184,7 +175,7 @@ export const blogs: Blog[] = [
     {
         "id": "human-reproduction-class-12-notes",
         "title": "Human Reproduction Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Master Human Reproduction for Biology 2026. This Grandmaster Guide includes Ayush",
+        "description": "Master Human Reproduction for Biology 2026. This Grandmaster Guide includes Ayush's personal revision notes, formula sheets, and top-tier MCQs for final prep.",
         "category": "Biology",
         "date": "2026-04-02",
         "readTime": "15 min read",
@@ -202,7 +193,7 @@ export const blogs: Blog[] = [
     {
         "id": "differential-equations-class-12-notes",
         "title": "Differential Equations Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
-        "description": "Learn Differential Equations like a pro. Detailed revision notes, solved examples, and ",
+        "description": "Learn Differential Equations like a pro. Detailed revision notes, solved examples, and \"Trap Questions\" that most students miss. Updated for the 2026 syllabus.",
         "category": "Mathematics",
         "date": "2026-04-01",
         "readTime": "15 min read",
@@ -229,7 +220,7 @@ export const blogs: Blog[] = [
     {
         "id": "application-of-integrals-class-12-notes",
         "title": "Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
-        "description": "Learn Application of Integrals like a pro. Detailed revision notes, solved examples, and ",
+        "description": "Learn Application of Integrals like a pro. Detailed revision notes, solved examples, and \"Trap Questions\" that most students miss. Updated for the 2026 syllabus.",
         "category": "Mathematics",
         "date": "2026-04-01",
         "readTime": "15 min read",
@@ -265,7 +256,7 @@ export const blogs: Blog[] = [
     {
         "id": "polymers-class-12-notes",
         "title": "Polymers Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Learn Polymers like a pro. Detailed revision notes, solved examples, and ",
+        "description": "Learn Polymers like a pro. Detailed revision notes, solved examples, and \"Trap Questions\" that most students miss. Updated for the 2026 syllabus.",
         "category": "Chemistry",
         "date": "2026-03-30",
         "readTime": "15 min read",
@@ -274,7 +265,7 @@ export const blogs: Blog[] = [
     {
         "id": "matrices-class-12-notes",
         "title": "Matrices Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide",
-        "description": "Learn Matrices like a pro. Detailed revision notes, solved examples, and ",
+        "description": "Learn Matrices like a pro. Detailed revision notes, solved examples, and \"Trap Questions\" that most students miss. Updated for the 2026 syllabus.",
         "category": "Mathematics",
         "date": "2026-03-30",
         "readTime": "15 min read",
@@ -301,7 +292,7 @@ export const blogs: Blog[] = [
     {
         "id": "amines-class-12-notes",
         "title": "Amines Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Master Amines for Chemistry 2026. This Grandmaster Guide includes Ayush",
+        "description": "Master Amines for Chemistry 2026. This Grandmaster Guide includes Ayush's personal revision notes, formula sheets, and top-tier MCQs for final prep.",
         "category": "Chemistry",
         "date": "2026-03-30",
         "readTime": "15 min read",
@@ -328,7 +319,7 @@ export const blogs: Blog[] = [
     {
         "id": "semiconductor-electronics-class-12-notes",
         "title": "Semiconductor Electronics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Learn Semiconductor Electronics like a pro. Detailed revision notes, solved examples, and ",
+        "description": "Learn Semiconductor Electronics like a pro. Detailed revision notes, solved examples, and \"Trap Questions\" that most students miss. Updated for the 2026 syllabus.",
         "category": "Physics",
         "date": "2026-03-29",
         "readTime": "15 min read",
@@ -346,7 +337,7 @@ export const blogs: Blog[] = [
     {
         "id": "haloalkanes-and-haloarenes-class-12-notes",
         "title": "Haloalkanes and Haloarenes Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Master Haloalkanes and Haloarenes for Chemistry 2026. This Grandmaster Guide includes Ayush",
+        "description": "Master Haloalkanes and Haloarenes for Chemistry 2026. This Grandmaster Guide includes Ayush's personal revision notes, formula sheets, and top-tier MCQs for final prep.",
         "category": "Chemistry",
         "date": "2026-03-29",
         "readTime": "15 min read",
@@ -355,7 +346,7 @@ export const blogs: Blog[] = [
     {
         "id": "dual-nature-of-radiation-class-12-notes",
         "title": "Dual Nature of Radiation Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Master Dual Nature of Radiation for Physics 2026. This Grandmaster Guide includes Ayush",
+        "description": "Master Dual Nature of Radiation for Physics 2026. This Grandmaster Guide includes Ayush's personal revision notes, formula sheets, and top-tier MCQs for final prep.",
         "category": "Physics",
         "date": "2026-03-29",
         "readTime": "15 min read",
@@ -445,7 +436,7 @@ export const blogs: Blog[] = [
     {
         "id": "data-structures-non-linear-class-11-revision-notes-gate-boards",
         "title": "Data Structures: Non-Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide",
-        "description": "Learn Data Structures: Non-Linear like a pro. Detailed revision notes, solved examples, and ",
+        "description": "Learn Data Structures: Non-Linear like a pro. Detailed revision notes, solved examples, and",
         "category": "Biology",
         "date": "2026-03-28",
         "readTime": "15 min read",
@@ -508,7 +499,7 @@ export const blogs: Blog[] = [
     {
         "id": "trigonometric-functions-class-11-revision-notes-jee-neet",
         "title": "Trigonometric Functions Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Learn Trigonometric Functions like a pro. Detailed revision notes, solved examples, and ",
+        "description": "Learn Trigonometric Functions like a pro. Detailed revision notes, solved examples, and",
         "category": "Physics",
         "date": "2026-03-28",
         "readTime": "15 min read",
@@ -571,7 +562,7 @@ export const blogs: Blog[] = [
     {
         "id": "the-living-world-class-11-revision-notes-neet",
         "title": "The Living World Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Learn The Living World like a pro. Detailed revision notes, solved examples, and ",
+        "description": "Learn The Living World like a pro. Detailed revision notes, solved examples, and",
         "category": "Biology",
         "date": "2026-03-28",
         "readTime": "15 min read",
@@ -616,7 +607,7 @@ export const blogs: Blog[] = [
     {
         "id": "straight-lines-class-11-revision-notes-jee-neet",
         "title": "Straight Lines Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Learn Straight Lines like a pro. Detailed revision notes, solved examples, and ",
+        "description": "Learn Straight Lines like a pro. Detailed revision notes, solved examples, and",
         "category": "Physics",
         "date": "2026-03-28",
         "readTime": "15 min read",
@@ -643,7 +634,7 @@ export const blogs: Blog[] = [
     {
         "id": "state-scholarship-guide-2026-class-11-revision-notes-neet",
         "title": "State Scholarship Guide 2026 Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Learn State Scholarship Guide 2026 like a pro. Detailed revision notes, solved examples, and ",
+        "description": "Learn State Scholarship Guide 2026 like a pro. Detailed revision notes, solved examples, and",
         "category": "Biology",
         "date": "2026-03-28",
         "readTime": "15 min read",
@@ -706,7 +697,7 @@ export const blogs: Blog[] = [
     {
         "id": "relations-and-functions-class-11-notes",
         "title": "Relations and Functions Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
-        "description": "Learn Relations and Functions like a pro. Detailed revision notes, solved examples, and ",
+        "description": "Learn Relations and Functions like a pro. Detailed revision notes, solved examples, and",
         "category": "Chemistry",
         "date": "2026-03-28",
         "readTime": "15 min read",
@@ -868,7 +859,7 @@ export const blogs: Blog[] = [
     {
         "id": "neural-control-and-coordination-class-11-revision-notes-neet",
         "title": "Neural Control And Coordination Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Learn Neural Control And Coordination like a pro. Detailed revision notes, solved examples, and ",
+        "description": "Learn Neural Control And Coordination like a pro. Detailed revision notes, solved examples, and",
         "category": "Biology",
         "date": "2026-03-28",
         "readTime": "15 min read",
@@ -877,7 +868,7 @@ export const blogs: Blog[] = [
     {
         "id": "neet-biology-80-20-rule-class-11-revision-notes-neet",
         "title": "Neet Biology 80 20 Rule Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Learn Neet Biology 80 20 Rule like a pro. Detailed revision notes, solved examples, and ",
+        "description": "Learn Neet Biology 80 20 Rule like a pro. Detailed revision notes, solved examples, and",
         "category": "Biology",
         "date": "2026-03-28",
         "readTime": "15 min read",
@@ -886,7 +877,7 @@ export const blogs: Blog[] = [
     {
         "id": "neet-2026-weightage-prediction-class-11-revision-notes-neet",
         "title": "Neet 2026 Weightage Prediction Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Learn Neet 2026 Weightage Prediction like a pro. Detailed revision notes, solved examples, and ",
+        "description": "Learn Neet 2026 Weightage Prediction like a pro. Detailed revision notes, solved examples, and",
         "category": "Biology",
         "date": "2026-03-28",
         "readTime": "15 min read",
@@ -949,7 +940,7 @@ export const blogs: Blog[] = [
     {
         "id": "medieval-india-bhakti-sufi-class-11-revision-notes-cbse",
         "title": "Medieval India Bhakti Sufi Class 11 History Recap — CBSE 2026 Quick Guide",
-        "description": "Learn Medieval India Bhakti Sufi like a pro. Detailed revision notes, solved examples, and ",
+        "description": "Learn Medieval India Bhakti Sufi like a pro. Detailed revision notes, solved examples, and",
         "category": "General",
         "date": "2026-03-28",
         "readTime": "15 min read",
@@ -976,7 +967,7 @@ export const blogs: Blog[] = [
     {
         "id": "mathematical-reasoning-class-11-revision-notes-jee-neet",
         "title": "Mathematical Reasoning Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Learn Mathematical Reasoning like a pro. Detailed revision notes, solved examples, and ",
+        "description": "Learn Mathematical Reasoning like a pro. Detailed revision notes, solved examples, and",
         "category": "Physics",
         "date": "2026-03-28",
         "readTime": "15 min read",
@@ -1066,7 +1057,7 @@ export const blogs: Blog[] = [
     {
         "id": "laws-of-motion-class-11-revision-notes-jee-neet",
         "title": "Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Learn Laws Of Motion like a pro. Detailed revision notes, solved examples, and ",
+        "description": "Learn Laws Of Motion like a pro. Detailed revision notes, solved examples, and",
         "category": "Physics",
         "date": "2026-03-28",
         "readTime": "15 min read",
@@ -1111,7 +1102,7 @@ export const blogs: Blog[] = [
     {
         "id": "indian-geography-physical-class-11-revision-notes-jee-neet",
         "title": "Indian Geography Physical Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Learn Indian Geography Physical like a pro. Detailed revision notes, solved examples, and ",
+        "description": "Learn Indian Geography Physical like a pro. Detailed revision notes, solved examples, and",
         "category": "Physics",
         "date": "2026-03-28",
         "readTime": "15 min read",
@@ -1174,7 +1165,7 @@ export const blogs: Blog[] = [
     {
         "id": "federalism-class-11-revision-notes-cbse",
         "title": "Federalism Class 11 Social Science Recap — CBSE 2026 Quick Guide",
-        "description": "Learn Federalism like a pro. Detailed revision notes, solved examples, and ",
+        "description": "Learn Federalism like a pro. Detailed revision notes, solved examples, and",
         "category": "General",
         "date": "2026-03-28",
         "readTime": "15 min read",
@@ -1255,7 +1246,7 @@ export const blogs: Blog[] = [
     {
         "id": "digestion-and-absorption-class-11-revision-notes-neet",
         "title": "Digestion And Absorption Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Learn Digestion And Absorption like a pro. Detailed revision notes, solved examples, and ",
+        "description": "Learn Digestion And Absorption like a pro. Detailed revision notes, solved examples, and",
         "category": "Biology",
         "date": "2026-03-28",
         "readTime": "15 min read",
@@ -1318,7 +1309,7 @@ export const blogs: Blog[] = [
     {
         "id": "complex-numbers-class-11-revision-notes-jee-neet",
         "title": "Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Learn Complex Numbers like a pro. Detailed revision notes, solved examples, and ",
+        "description": "Learn Complex Numbers like a pro. Detailed revision notes, solved examples, and",
         "category": "Physics",
         "date": "2026-03-28",
         "readTime": "15 min read",
@@ -1345,7 +1336,7 @@ export const blogs: Blog[] = [
     {
         "id": "classification-elements-periodicity-class-11-revision-notes-jee-neet",
         "title": "Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Learn Classification Elements Periodicity like a pro. Detailed revision notes, solved examples, and ",
+        "description": "Learn Classification Elements Periodicity like a pro. Detailed revision notes, solved examples, and",
         "category": "Physics",
         "date": "2026-03-28",
         "readTime": "15 min read",
@@ -1381,7 +1372,7 @@ export const blogs: Blog[] = [
     {
         "id": "chemical-bonding-class-11-revision-notes-jee-neet",
         "title": "Chemical Bonding Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Learn Chemical Bonding like a pro. Detailed revision notes, solved examples, and ",
+        "description": "Learn Chemical Bonding like a pro. Detailed revision notes, solved examples, and",
         "category": "Physics",
         "date": "2026-03-28",
         "readTime": "15 min read",
@@ -1543,7 +1534,7 @@ export const blogs: Blog[] = [
     {
         "id": "ai-study-hack-pomodoro-class-11-revision-notes-neet",
         "title": "Ai Study Hack Pomodoro Class 11 Computer Science Recap — CBSE 2026 Quick Guide",
-        "description": "Learn Ai Study Hack Pomodoro like a pro. Detailed revision notes, solved examples, and ",
+        "description": "Learn Ai Study Hack Pomodoro like a pro. Detailed revision notes, solved examples, and",
         "category": "Biology",
         "date": "2026-03-28",
         "readTime": "15 min read",

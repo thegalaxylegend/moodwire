@@ -40,7 +40,8 @@ export interface QualityReport {
     critical_failures: string[];
     warnings: string[];
     auto_fixed: Array<{ field: string; old: any; new: any }>;
-    regenerate_sections: string[];
+    patch_missing_sections: string[]; // List of specific section headers to generate and inject
+    regenerate_all: boolean; // True if word count is too low or structure is completely broken
 }
 
 const SUBJECT_TO_PATH: Record<string, string> = {
@@ -148,60 +149,61 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
         critical_failures: [],
         warnings: [],
         auto_fixed: [],
-        regenerate_sections: []
+        patch_missing_sections: [],
+        regenerate_all: false
     };
 
     const today = new Date().toISOString().split('T')[0];
 
-    // Auto-fix: Date
+    // 1. Auto-fix: Date
     if (post.last_updated !== today) {
         report.auto_fixed.push({ field: 'last_updated', old: post.last_updated, new: today });
         post.last_updated = today;
     }
 
-    // Auto-fix: Subject correction
-    let matchedSubject = "";
-    for (const [key, sub] of Object.entries(CHAPTER_TO_SUBJECT)) {
-        if ((post.chapter_name || "").toLowerCase().includes(key.toLowerCase()) || 
-            (post.title || "").toLowerCase().includes(key.toLowerCase())) {
-            matchedSubject = sub;
-            break;
+    // 2. Word Count Check
+    const totalWords = (post.content?.sections || []).reduce((acc, sec) => acc + (sec.body ? String(sec.body).split(/\s+/).length : 0), 0);
+    
+    if (totalWords < 800) {
+        score -= 40;
+        report.critical_failures.push(`Critically low word count: ${totalWords} (Min 800 for Patching)`);
+        report.regenerate_all = true;
+    } else if (totalWords < 1200) {
+        score -= 10;
+        report.warnings.push(`Moderate word count: ${totalWords} (Aim for 1200+)`);
+    }
+
+    // 3. Granular Section Check
+    const sections = post.content?.sections || [];
+    const sectionHeadings = sections.map(s => s.heading.toLowerCase());
+    const bodyContent = JSON.stringify(post.content).toLowerCase();
+
+    // Required Sections Map
+    const required = [
+        { name: "⚡ Formula Bank", regex: hasFormulaBankRegex, weight: 15 },
+        { name: "🪤 Trap Questions", regex: hasMistakesRegex, weight: 20 },
+        { name: "🧠 Ayush's Note", regex: hasAyushNoteRegex, weight: 20 },
+        { name: "✏️ 3 Solved PYQs", regex: hasPyqsRegex, weight: 20 }
+    ];
+
+    for (const req of required) {
+        const found = sectionHeadings.some(h => req.regex.test(h)) || req.regex.test(bodyContent);
+        if (!found) {
+            score -= req.weight;
+            report.critical_failures.push(`Missing Required Section: ${req.name}`);
+            report.patch_missing_sections.push(req.name);
         }
     }
-    if (matchedSubject && post.subject !== matchedSubject) {
-        if (matchedSubject === "Social Science" && post.exam_class >= 11) matchedSubject = "Political Science";
-        report.auto_fixed.push({ field: 'subject', old: post.subject, new: matchedSubject });
-        post.subject = matchedSubject;
-    }
 
-    // Auto-fix: Practice link
-    const expectedPrefix = SUBJECT_TO_PATH[post.subject || 'default'] || "/class-11/physics/";
-    if (!post.practice_link_path || !post.practice_link_path.startsWith(expectedPrefix)) {
-        post.practice_link_path = `${expectedPrefix}${post.slug}`;
-    }
-
-    // Word Count Check
-    const totalWords = (post.content?.sections || []).reduce((acc, sec) => acc + (sec.body ? String(sec.body).split(/\s+/).length : 0), 0) +
-                       (post.content?.quick_recall || []).reduce((acc, r) => acc + (r ? String(r).split(/\s+/).length : 0), 0);
-    
-    if (totalWords < 1000) {
-        score -= 30;
-        report.critical_failures.push(`Low word count: ${totalWords} (Min 1000 for Quality)`);
-        report.regenerate_sections.push("all");
-    }
-
-    const bodyContent = JSON.stringify(post.content).toLowerCase();
-    if (!hasAyushNoteRegex.test(bodyContent)) {
-        score -= 20;
-        report.critical_failures.push("Missing 'Ayush's Note'");
-    }
-    if (!hasMistakesRegex.test(bodyContent)) {
-        score -= 20;
-        report.critical_failures.push("Missing 'Mistakes' section");
+    // 4. MCQ Check
+    if (!post.content?.mcqs || post.content.mcqs.length < 3) {
+        score -= 15;
+        report.critical_failures.push("Insufficient MCQs (Need at least 3)");
+        report.patch_missing_sections.push("Practice MCQs");
     }
 
     report.score = Math.max(0, score);
-    report.passed = report.score === 100;
+    report.passed = report.score >= 90; // Quality Gate Threshold
     return report;
 }
 

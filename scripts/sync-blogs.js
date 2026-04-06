@@ -21,7 +21,7 @@ async function sync() {
         return;
     }
 
-    const files = fs.readdirSync(blogsDir).filter(f => f.endsWith('.md'));
+    const files = fs.readdirSync(blogsDir).filter(f => f.endsWith('.md') && f !== 'undefined.md');
     const blogs = [];
 
     for (const file of files) {
@@ -30,23 +30,31 @@ async function sync() {
         const slug = file.replace('.md', '');
 
         // Extract metadata using robust regex
-        const titleMatch = content.match(/^title:\s*["'](.*?)["']/m);
-        const descMatch = content.match(/^description:\s*["'](.*?)["']/m);
-        const catMatch = content.match(/^category:\s*["'](.*?)["']/m);
-        const dateMatch = content.match(/^date:\s*["'](.*?)["']/m);
-        const heroMatch = content.match(/^heroImage:\s*["'](.*?)["']/m) || content.match(/^hero_image:\s*["'](.*?)["']/m);
+        // Handles both quoted ("...") and unquoted values
+        const titleMatch = content.match(/^title:\s*["']?(.*?)["']?$/m);
+        const descMatch = content.match(/^description:\s*["']?(.*?)["']?$/m);
+        const catMatch = content.match(/^category:\s*["']?(.*?)["']?$/m);
+        const dateMatch = content.match(/^date:\s*["']?(.*?)["']?$/m);
+        const heroMatch = content.match(/^heroImage:\s*["']?(.*?)["']?$/m) || content.match(/^hero_image:\s*["']?(.*?)["']?$/m);
         const inlineImgMatch = content.match(/\!\[.*?\]\((.*?)\)/);
 
         const stats = fs.statSync(filePath);
+        
+        // Final fallback logic
+        const title = titleMatch?.[1]?.trim() || slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+        const description = descMatch?.[1]?.trim() || 'Deep revision guide for class ' + (slug.match(/class-(\d+)/)?.[1] || '11') + ' students.';
+        const category = catMatch?.[1]?.trim() || 'General';
+        const date = dateMatch?.[1]?.trim() || stats.mtime.toISOString().split('T')[0];
+        const image = heroMatch?.[1]?.trim() || (inlineImgMatch ? inlineImgMatch[1] : '/blog-images/fallbacks/generic-study.webp');
 
         blogs.push({
             id: slug,
-            title: titleMatch ? titleMatch[1] : slug.replace(/-/g, ' '),
-            description: descMatch ? descMatch[1] : 'Deep revision guide for class ' + (slug.match(/class-(\d+)/)?.[1] || '11') + ' students.',
-            category: catMatch ? catMatch[1] : 'General',
-            date: dateMatch ? dateMatch[1] : stats.mtime.toISOString().split('T')[0],
+            title,
+            description,
+            category,
+            date,
             readTime: '15 min read',
-            image: heroMatch ? heroMatch[1] : (inlineImgMatch ? inlineImgMatch[1] : '/blog-images/fallbacks/generic-study.webp'),
+            image,
             mtime: stats.mtimeMs // Add mtime for sorting
         });
     }

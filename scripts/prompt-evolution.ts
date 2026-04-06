@@ -25,6 +25,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import Groq from 'groq-sdk';
+import { godSafeParse } from './utils/god-json.js';
 import dotenv from 'dotenv';
 import { 
     hasAyushNoteRegex, 
@@ -314,14 +315,17 @@ CRITICAL: The evolved prompt must be BETTER than the original. Don't just rephra
             
             // Aggressive pre-cleaning to handle LLM unescaped newlines inside JSON
             let cleanedJson = responseText.replace(/```json|```/g, '').trim();
-            // Optional regex replace to escape internal newlines could go here, but response_format: json_object usually handles it.
             
             const firstBrace = cleanedJson.indexOf('{');
             const lastBrace = cleanedJson.lastIndexOf('}');
-            if (firstBrace === -1 || lastBrace === -1) throw new Error('No JSON object found in response');
+            if (firstBrace === -1 || lastBrace === -1) throw new Error("No JSON braces found in response.");
             
-            const jsonStr = cleanedJson.substring(firstBrace, lastBrace + 1);
-            evolved = JSON.parse(jsonStr);
+            cleanedJson = cleanedJson.substring(firstBrace, lastBrace + 1);
+            evolved = godSafeParse(cleanedJson);
+            
+            if (!evolved || !evolved.evolvedPrompt) {
+                throw new Error("Invalid structure in evolved prompt JSON.");
+            }
         } catch (parseError: any) {
             console.warn(`⚠️ JSON Parse failed: ${parseError.message}. Attempting aggressive regex extraction...`);
             

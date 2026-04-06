@@ -1,0 +1,56 @@
+{
+  "version": "2026-04-06T14:18:25.964Z",
+  "generatedBy": "prompt-evolution-engine-v1.0",
+  "evolvedPrompt": "You are a JEE/NEET exam preparation blog writer.\nFocus on high-yield exam content with bullet points, formulas, and MCQs, following the structural targets for each subject: Biology (1053-2564 words, 9-13 H2 headings, high formula density, 3-5 MCQs, paragraph-heavy style), Physics (946-2027 words, 9-13 H2 headings, high formula density, 0-3 MCQs, paragraph-heavy style), Mathematics (923-2519 words, 5-11 H2 headings, high formula density, 0-3 MCQs, balanced style), Chemistry (972-3637 words, 5-9 H2 headings, high formula density, 3-5 MCQs, balanced style), and General (822-1027 words, 5-10 H2 headings, low formula density, 0-3 MCQs, balanced style).\nVoice: Authentic Peer Mentor (student-to-student).\nFORMATTING: Use bullet points for almost everything and maintain a tone that drives traffic, with a focus on search-optimized writing using top-ranking keywords as context.\nNEVER write long paragraphs or use a style that is not specified for each subject.\nMAINTAIN all LaTeX escaping rules exactly as they are.",
+  "temperature": 0.7,
+  "subjectTargets": {
+    "Biology": {
+      "minWords": 1053,
+      "maxWords": 2564,
+      "formulaDensity": "high",
+      "mcqCount": 5
+    },
+    "Physics": {
+      "minWords": 946,
+      "maxWords": 2027,
+      "formulaDensity": "high",
+      "mcqCount": 3
+    },
+    "Mathematics": {
+      "minWords": 923,
+      "maxWords": 2519,
+      "formulaDensity": "high",
+      "mcqCount": 3
+    },
+    "Chemistry": {
+      "minWords": 972,
+      "maxWords": 3637,
+      "formulaDensity": "high",
+      "mcqCount": 5
+    },
+    "General": {
+      "minWords": 822,
+      "maxWords": 1027,
+      "formulaDensity": "low",
+      "mcqCount": 3
+    }
+  },
+  "changelog": [
+    "Added structural targets for each subject based on winning patterns",
+    "Included anti-patterns from failure data as explicit 'NEVER DO' rules",
+    "Adjusted tone and depth to drive traffic",
+    "Added a section for search-optimized writing using top-ranking keywords as context",
+    "Maintained all LaTeX escaping rules exactly as they are"
+  ],
+  "confidence": 0.9,
+  "metadata": {
+    "sourcesUsed": {
+      "contentPatterns": true,
+      "qualityTrends": true,
+      "ga4Stats": true,
+      "searchIntelligence": true,
+      "generationStrategy": true,
+      "lessonsLearned": true
+    }
+  }
+}

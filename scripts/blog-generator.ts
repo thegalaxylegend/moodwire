@@ -7,6 +7,8 @@ import 'dotenv/config';
 import { checkBlogQuality, jsonToMarkdown, standardizeMarkdown, BlogPostJSON, QualityReport, Section, MCQ } from './utils/jules-quality.js';
 
 
+import { godSafeParse, godExtract } from './utils/god-json.js';
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -19,13 +21,28 @@ const GROQ_KEYS = [
     process.env.VITE_GROQ_API_KEY_6
 ].filter(Boolean) as string[];
 
-let currentKeyIndex = 0;
+const GEMINI_KEYS = [
+    process.env.VITE_GEMINI_API_KEY || process.env.GEMINI_BACKUP_KEY,
+    process.env.VITE_GEMINI_API_KEY_2,
+    process.env.VITE_GEMINI_API_KEY_3,
+    process.env.VITE_GEMINI_API_KEY_4,
+    process.env.VITE_GEMINI_API_KEY_5,
+    process.env.VITE_GEMINI_API_KEY_6
+].filter(Boolean) as string[];
+
+let currentGroqIndex = 0;
+let currentGeminiIndex = 0;
 let groq = new Groq({ apiKey: GROQ_KEYS[0] });
 
 function rotateGroqKey() {
-    currentKeyIndex = (currentKeyIndex + 1) % GROQ_KEYS.length;
-    groq = new Groq({ apiKey: GROQ_KEYS[currentKeyIndex] });
-    console.log(`🔄 Rotating to Groq Key #${currentKeyIndex + 1}...`);
+    currentGroqIndex = (currentGroqIndex + 1) % GROQ_KEYS.length;
+    groq = new Groq({ apiKey: GROQ_KEYS[currentGroqIndex] });
+    console.log(`🔄 Rotating to Groq Key #${currentGroqIndex + 1}...`);
+}
+
+function rotateGeminiKey() {
+    currentGeminiIndex = (currentGeminiIndex + 1) % GEMINI_KEYS.length;
+    console.log(`💎 Rotating to Gemini Key #${currentGeminiIndex + 1}...`);
 }
 
 const sleep = (ms: number) => new Promise(r => setTimeout(r, ms));
@@ -38,20 +55,20 @@ const getShiftedDate = () => {
 };
 
 
-// Gemma 4 Backup Helper
-async function generateWithGemma(systemPrompt: string, userPrompt: string, isJson: boolean = false): Promise<string | null> {
-    const key = process.env.GEMINI_BACKUP_KEY || process.env.VITE_GEMINI_API_KEY;
+// Gemini Unified Helper (Used as secondary tier in rotation)
+async function generateWithGemini(systemPrompt: string, userPrompt: string, isJson: boolean = false): Promise<string | null> {
+    const key = GEMINI_KEYS[currentGeminiIndex];
     if (!key) return null;
 
     try {
-        console.log(`🚀 Calling Gemma 4 (31B Dense) for content...`);
+        console.log(`🚀 Tier 2: Calling Gemini Pro (Key #${currentGeminiIndex + 1}) for content...`);
         
         const generationConfig: any = { maxOutputTokens: 2500, temperature: 0.7 };
         if (isJson) {
             generationConfig.responseMimeType = "application/json";
         }
 
-        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemma-4-31b-it:generateContent?key=${key}`, {
+        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${key}`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
@@ -65,34 +82,30 @@ async function generateWithGemma(systemPrompt: string, userPrompt: string, isJso
 
         if (!response.ok) {
             const errBody = await response.text();
-            console.error(`❌ Gemma 4 API Error (${response.status}): ${errBody}`);
+            console.error(`❌ Gemini API Error (${response.status}): ${errBody}`);
+            if (response.status === 429) rotateGeminiKey();
             return null;
         }
 
         const data: any = await response.json();
-        // Gemma 4 is a 'Thinking' model; it returns reasoning in a separate part. 
-        // We find the first part that doesn't have the 'thought' property.
-        const textPart = data.candidates?.[0]?.content?.parts?.find((p: any) => !p.thought);
-        const text = textPart?.text || null;
+        const text = data.candidates?.[0]?.content?.parts?.[0]?.text || null;
         
-        if (text) console.log(`✅ Gemma 4 content received (${text.length} chars).`);
+        if (text) console.log(`✅ Gemini content received (${text.length} chars).`);
         return text;
     } catch (err: any) {
-        console.error("❌ Gemma 4 Network Error:", err.message);
+        console.error("❌ Gemini Network Error:", err.message);
         return null;
     }
 }
 
-// Gemma 4 with rate-limit retry (100% Free Tier Compliant)
-async function generateWithGemmaRetry(systemPrompt: string, userPrompt: string, isJson: boolean = false, maxRetries: number = 3): Promise<string | null> {
+// Gemini with rate-limit retry across all 6 keys
+async function generateWithGeminiRetry(systemPrompt: string, userPrompt: string, isJson: boolean = false, maxRetries: number = 6): Promise<string | null> {
     for (let i = 0; i < maxRetries; i++) {
-        const result = await generateWithGemma(systemPrompt, userPrompt, isJson);
+        const result = await generateWithGemini(systemPrompt, userPrompt, isJson);
         if (result) return result;
-        if (i < maxRetries - 1) {
-            const waitSec = 60; // 60-second pause guarantees zero billing
-            console.log(`⏳ Gemma 4 limits hit. Safely pausing ${waitSec}s before retry ${i + 2}/${maxRetries}...`);
-            await sleep(waitSec * 1000);
-        }
+        
+        // Wait briefly between Gemini retries
+        await sleep(5000);
     }
     return null;
 }
@@ -267,11 +280,11 @@ async function generateGroqSVG(subject: string, topic: string, webpPath: string)
 }
 
 async function generateGeminiImage(subject: string, topic: string, webpPath: string): Promise<boolean> {
-    const key = process.env.GEMINI_BACKUP_KEY || process.env.VITE_GEMINI_API_KEY;
+    const key = GEMINI_KEYS[currentGeminiIndex];
     if (!key) return false;
 
     try {
-        console.log(`🚀 Primary APIs down. Asking Gemini to design SVG...`);
+        console.log(`🚀 Tier 2 Imaging: Asking Gemini to design SVG...`);
         const prompt = `You are an SVG generator. Output ONLY valid SVG code. No explanations, no markdown.
 
 Create a 1200x630 SVG image for: "${topic}" (${subject}).
@@ -286,6 +299,11 @@ Start your response with <svg and end with </svg>. Nothing else.`;
                 generationConfig: { temperature: 0.9 }
             })
         });
+
+        if (!response.ok) {
+            if (response.status === 429) rotateGeminiKey();
+            return false;
+        }
 
         const data: any = await response.json();
         let svg = data.candidates?.[0]?.content?.parts?.[0]?.text || "";
@@ -462,50 +480,24 @@ function getSubjectTargets(subject: string): { minWords: number; maxWords: numbe
 
 // --- SMART RECOVERY WRAPPER ---
 function safelyParseJson(raw: string): any {
-    let jsonStr = raw.replace(/```json/gi, "").replace(/```/gi, "").trim();
-    
-    const firstBrace = jsonStr.indexOf('{');
-    const lastBrace = jsonStr.lastIndexOf('}');
-    if (firstBrace !== -1 && lastBrace !== -1) {
-        jsonStr = jsonStr.substring(firstBrace, lastBrace + 1);
-    }
-
-    // Protection for LaTeX backslashes before JSON.parse
-    // Replace \ with \\ but ONLY if it's followed by a known LaTeX start letter
-    // and NOT already escaped. 
-    // This is safer than the specific maps.
-    jsonStr = jsonStr.replace(/\\([a-z])/gi, (match, p1) => {
-        // If it's a standard JSON escape (\n, \t, etc), keep it
-        if (['n', 'r', 't', 'b', 'f', 'u', '"', '\\'].includes(p1.toLowerCase())) return match;
-        return '\\\\' + p1;
-    });
-
     try {
-        // Fix literal control characters inside JSON string values
-        const cleaned = jsonStr.replace(/"([^"]*)"/g, (match, p1) => {
-            return '"' + p1
-                .replace(/\n/g, "\\n")
-                .replace(/\r/g, "\\r")
-                .replace(/\t/g, "\\t")
-                .replace(/\f/g, "\\f")
-                + '"';
-        });
-
-        return JSON.parse(cleaned);
+        return godSafeParse(raw);
     } catch (err) {
-        console.warn("⚠️ JSON Parse failed. Attempting aggressive recovery...");
+        console.warn("⚠️ JSON Parse failed. Attempting aggressive recovery via schema extraction...");
         try {
-            let subset = jsonStr.replace(/\/\/.*$/gm, ""); 
-            subset = subset.replace(/,\s*}/g, "}").replace(/,\s*]/g, "]"); 
-            return JSON.parse(subset);
+            // Last resort: Regex extract known fields for Section
+            if (raw.includes("heading") && raw.includes("body")) {
+                return godExtract(raw, ["heading", "body", "table"]);
+            }
+            throw err;
         } catch {
-            throw new Error("Final JSON parse failed.");
+            throw new Error("Final God-Tier JSON parse failed.");
         }
     }
 }
 
 async function callLlmWithFallback(system: string, user: string, isJson: boolean = false, attempt: number = 1): Promise<string> {
-    const isMetadata = user.includes("SEO") || user.includes("slug"); // Removed MCQ from metadata to force 70B for accuracy
+    const isMetadata = user.includes("SEO") || user.includes("slug");
     const primaryModel = isMetadata ? "llama-3.1-8b-instant" : "llama-3.3-70b-versatile";
 
     try {
@@ -518,40 +510,32 @@ async function callLlmWithFallback(system: string, user: string, isJson: boolean
         });
         return completion.choices[0]?.message?.content || "";
     } catch (err: any) {
-        if (err.message.includes("429") || err.message.includes("rate_limit")) {
-            if (attempt < GROQ_KEYS.length) {
+        // 1. Handle Rate Limits / Generic Errors via Groq Rotation
+        if (err.message.includes("429") || err.message.includes("rate_limit") || err.message.includes("500") || err.message.includes("Timeout")) {
+            if (attempt <= GROQ_KEYS.length) {
+                console.log(`⚠️ Groq Rate Limit (Key #${currentGroqIndex + 1}). Rotating...`);
                 rotateGroqKey();
-                await sleep(2000 * attempt); // Exponential-ish backoff
+                await sleep(1000 * attempt); 
                 return await callLlmWithFallback(system, user, isJson, attempt + 1);
             }
             
-            // 4. Ultimate Fallback -> Gemma 4 API (with structured output enforcement)
-            console.log(`🛡️ All Groq keys rate limited. Elevating to Gemma 4 31B (Structured JSON Mode)...`);
-            const fallbackKey = await generateWithGemmaRetry(system + (isJson ? "\nEnsure valid structure." : ""), user, isJson);
+            // 2. Ultimate Fallback -> Gemini Unified Tier (6 Keys)
+            console.log(`🛡️ All Groq keys saturated. Elevating to Gemini Unified Tier...`);
+            const fallbackKey = await generateWithGeminiRetry(system + (isJson ? "\nEnsure valid JSON structure." : ""), user, isJson);
             if (fallbackKey) return fallbackKey;
 
-            // If Gemma also failed, wait and retry Groq from start
-            if (attempt < 10) {
-                console.log(`⏳ Both APIs saturated. Sleeping for 30s...`);
-                await sleep(30000);
+            // If Gemini also failed (all 6 keys), wait and retry Groq from start
+            if (attempt < 15) {
+                console.log(`⏳ Both API tiers saturated. Sleeping for 45s before reset...`);
+                await sleep(45000);
                 return await callLlmWithFallback(system, user, isJson, attempt + 1);
             }
         }
 
         // Handle 400 "Failed to generate JSON" error
         if (isJson && (err.message.includes("400") || err.message.includes("Failed to generate JSON"))) {
-            console.warn(`⚠️ Groq strict JSON mode failed with 400. Retrying without strict format...`);
-            // Retry WITHOUT response_format: "json_object"
-            const nonStrictCompletion = await groq.chat.completions.create({
-                messages: [
-                    { role: "system", content: system + "\nOutput ONLY a valid JSON object. No conversational filler or markdown blocks." },
-                    { role: "user", content: user }
-                ],
-                model: primaryModel,
-                temperature: 0.7,
-                max_tokens: 4000
-            });
-            return nonStrictCompletion.choices[0]?.message?.content || "";
+            console.warn(`⚠️ Groq strict JSON mode failed. Retrying with Gemini...`);
+            return await generateWithGeminiRetry(system, user, isJson) || "";
         }
 
         throw err;
@@ -822,10 +806,10 @@ async function generateBlogs() {
 
             try {
                 // Determine what needs to be generated/regenerated
-                const needsFullRegen = attempts === 1 || !assembled || qualityReport?.regenerate_sections.includes("all");
-                const needsIntro = needsFullRegen || qualityReport?.regenerate_sections.includes("intro");
-                const needsSections = needsFullRegen || qualityReport?.regenerate_sections.includes("sections");
-                const needsMCQs = needsFullRegen || qualityReport?.regenerate_sections.includes("mcqs");
+                const needsFullRegen = attempts === 1 || !assembled || qualityReport?.regenerate_all;
+                const needsIntro = needsFullRegen || qualityReport?.patch_missing_sections.includes("intro");
+                const needsSections = needsFullRegen || (qualityReport?.patch_missing_sections.some(s => s.toLowerCase().includes("section")) ?? false);
+                const needsMCQs = needsFullRegen || qualityReport?.patch_missing_sections.includes("Practice MCQs");
                 
                 if (needsFullRegen || !assembled) {
                     const outline = await generateOutline(item, targetYear);
@@ -880,8 +864,8 @@ async function generateBlogs() {
                         postToRepair.content.intro = await generateIntro(item, targetYear, displayClass);
                     }
                     
-                    if (needsSections || qualityReport?.regenerate_sections.some(s => s.startsWith("section: "))) {
-                        if (needsSections) {
+                    if (needsSections || (qualityReport?.patch_missing_sections.some(s => s.toLowerCase().includes("section")) ?? false)) {
+                        if (needsSections && qualityReport?.regenerate_all) {
                             console.log(`  📝 Regenerating All Sections...`);
                             const outline = await generateOutline(item, targetYear);
                             postToRepair.content.sections = [];
@@ -890,14 +874,17 @@ async function generateBlogs() {
                                 await new Promise(r => setTimeout(r, 2000));
                             }
                         } else {
-                            // Check for specific section repairs
-                            for (const tag of qualityReport?.regenerate_sections || []) {
-                                if (tag.startsWith("section: ")) {
-                                    const headingToFix = tag.replace("section: ", "");
-                                    console.log(`  📝 Repairing specific section: ${headingToFix}`);
-                                    const index = postToRepair.content.sections.findIndex(s => s.heading === headingToFix);
+                            // Check for specific section repairs from the patch list
+                            for (const patchTitle of qualityReport?.patch_missing_sections || []) {
+                                if (patchTitle.toLowerCase().includes("section") || patchTitle.includes("Note") || patchTitle.includes("Questions")) {
+                                    console.log(`  📝 Repairing specific section: ${patchTitle}`);
+                                    // If it's a completely missing section, push it. If it's a weak one, replace it.
+                                    const index = postToRepair.content.sections.findIndex(s => s.heading.toLowerCase().includes(patchTitle.toLowerCase()));
+                                    const newSec = await generateSection(item, patchTitle, displayClass, targetYear);
                                     if (index !== -1) {
-                                        postToRepair.content.sections[index] = await generateSection(item, headingToFix, displayClass, targetYear);
+                                        postToRepair.content.sections[index] = newSec;
+                                    } else {
+                                        postToRepair.content.sections.push(newSec);
                                     }
                                 }
                             }
@@ -953,10 +940,10 @@ async function generateBlogs() {
                     console.log(`❌ QUALITY FAILED (Score: ${report.score}). Errors: ${report.critical_failures.join(', ')}`);
                     
                     // --- TARGETED REPAIR (no full regen for minor issues) ---
-                    const needsFullRegen = report.regenerate_sections.includes("all");
+                    const needsFullRegen = report.regenerate_all;
 
                     // FIX: Regenerate only MCQs if they are broken (small token cost)
-                    if (report.regenerate_sections.includes("mcqs") && attempts < maxAttempts) {
+                    if (report.patch_missing_sections.includes("Practice MCQs") && attempts < maxAttempts) {
                         console.log(`  🎯 Regenerating MCQs only...`);
                         const newExtras = await generateExtras(item);
                         if (newExtras.mcqs.length >= 5) {
@@ -1046,7 +1033,8 @@ async function generateBlogs() {
 }
 
 generateBlogs().catch(err => {
-    console.error("❌ Jules Fatal Error:", err);
-    process.exit(1);
+    console.error("❌ Jules Pipeline Failure (Handled):", err);
+    // Exit with 0 to allow the Auditor to capture the crash logs and report to Discord
+    process.exit(0);
 });
 

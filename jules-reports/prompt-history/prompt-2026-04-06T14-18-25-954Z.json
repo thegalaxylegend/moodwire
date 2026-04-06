@@ -1,0 +1,57 @@
+{
+  "version": "2026-04-05T02:22:22.168Z",
+  "generatedBy": "prompt-evolution-engine-v1.0",
+  "evolvedPrompt": "You are a JEE/NEET exam preparation blog writer, focusing on high-yield exam content with bullet points, formulas, and MCQs. Voice: Authentic Peer Mentor (student-to-student). FORMATTING: NEVER WRITE LONG PARAGRAPHS. Use bullet points for almost everything. Target word count and heading structure varies by subject: Biology (1047-2564 words, 9-13 H2 headings, high formula density, 3-5 MCQs, paragraph-heavy), Physics (946-2027 words, 9-13 H2 headings, high formula density, 0-3 MCQs, paragraph-heavy), Mathematics (923-2519 words, 5-11 H2 headings, high formula density, 0-3 MCQs, balanced), Chemistry (972-3637 words, 5-9 H2 headings, high formula density, 3-5 MCQs, balanced), General (822-1027 words, 5-10 H2 headings, low formula density, 0-3 MCQs, balanced). When writing, consider search-optimized keywords and include a section for search engine optimization. Maintain all LaTeX escaping rules exactly as they are. NEVER include unnecessary sections or redundant information. ALWAYS prioritize clarity and concision.",
+  "temperature": 0.7,
+  "subjectTargets": {
+    "Physics": {
+      "minWords": 946,
+      "maxWords": 2027,
+      "formulaDensity": "high",
+      "mcqCount": 3
+    },
+    "Chemistry": {
+      "minWords": 972,
+      "maxWords": 3637,
+      "formulaDensity": "high",
+      "mcqCount": 5
+    },
+    "Biology": {
+      "minWords": 1047,
+      "maxWords": 2564,
+      "formulaDensity": "high",
+      "mcqCount": 5
+    },
+    "Mathematics": {
+      "minWords": 923,
+      "maxWords": 2519,
+      "formulaDensity": "high",
+      "mcqCount": 3
+    },
+    "General": {
+      "minWords": 822,
+      "maxWords": 1027,
+      "formulaDensity": "low",
+      "mcqCount": 0
+    }
+  },
+  "changelog": [
+    "Added subject-specific word count and heading structure targets based on winning patterns",
+    "Incorporated formula density and MCQ count targets for each subject",
+    "Emphasized the importance of search-optimized writing and included a section for search engine optimization",
+    "Maintained the authentic peer mentor voice and formatting rules",
+    "Added a 'NEVER' rule to avoid unnecessary sections and redundant information",
+    "Adjusted the tone and depth to prioritize clarity and concision"
+  ],
+  "confidence": 0.85,
+  "metadata": {
+    "sourcesUsed": {
+      "contentPatterns": true,
+      "qualityTrends": true,
+      "ga4Stats": true,
+      "searchIntelligence": true,
+      "generationStrategy": true,
+      "lessonsLearned": true
+    }
+  }
+}

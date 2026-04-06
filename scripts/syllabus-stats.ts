@@ -100,6 +100,10 @@ async function main() {
 
     console.log(`\n📄 Stats saved: jules-reports/syllabus-completion.json`);
     console.log(`📄 Public sync: public/jules-reports/syllabus-completion.json\n`);
+    console.log('\n✨ Syllabus completion check complete!');
 }
 
-main();
+main().catch(err => {
+    console.error('❌ Syllabus Stats Failed (Non-Critical):', err.message);
+    process.exit(0); // Never crash the pipeline for stats
+});

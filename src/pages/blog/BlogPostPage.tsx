@@ -171,15 +171,6 @@ export const BlogPostPage: React.FC = () => {
                             {meta.category}
                         </span>
                         <div className="flex flex-wrap items-center gap-2 sm:gap-4 ml-auto">
-                            <a 
-                                href={`https://api.whatsapp.com/send?text=${encodeURIComponent(`${meta.title} - ${window.location.href}`)}`}
-                                target="_blank" 
-                                rel="noopener noreferrer"
-                                className="p-2.5 bg-green-500/10 text-green-500 rounded-xl hover:bg-green-500/20 transition-colors border border-green-500/20"
-                                title="Quick Share on WhatsApp"
-                            >
-                                <MessageCircle size={20} />
-                            </a>
                             <SocialShare title={meta.title} />
                         </div>
                     </div>

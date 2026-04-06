@@ -30,10 +30,12 @@ jobs:
         run: echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT_LEGENDSTECH001 }}' > service-account.json
 
       - name: Clean Old Reports
-        run: rm -rf jules-reports/* jules-failed/*
+        run: |
+          rm -rf jules-reports/* jules-failed/*
+          touch run.log
 
       - name: Task 1 - Build Queue
-        run: npx tsx scripts/chapter-queue-builder.ts
+        run: npx tsx scripts/chapter-queue-builder.ts | tee -a run.log
 
       - name: Task 2 - Generate Blogs
         id: blog_gen
@@ -54,7 +56,23 @@ jobs:
           HF_API_TOKEN: ${{ secrets.HF_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-        run: npx tsx scripts/blog-generator.ts
+        run: npx tsx scripts/blog-generator.ts | tee -a run.log
+
+      - name: Task 2.5 - Patch Generator (Self-Healing)
+        env:
+          VITE_GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          VITE_GROQ_API_KEY_2: ${{ secrets.GROQ_API_KEY_2 }}
+          VITE_GROQ_API_KEY_3: ${{ secrets.GROQ_API_KEY_3 }}
+          VITE_GROQ_API_KEY_4: ${{ secrets.GROQ_API_KEY_4 }}
+          VITE_GROQ_API_KEY_5: ${{ secrets.GROQ_API_KEY_5 }}
+          VITE_GROQ_API_KEY_6: ${{ secrets.GROQ_API_KEY_6 }}
+          VITE_GEMINI_API_KEY: ${{ secrets.VITE_GEMINI_API_KEY }}
+          VITE_GEMINI_API_KEY_2: ${{ secrets.VITE_GEMINI_API_KEY_2 }}
+          VITE_GEMINI_API_KEY_3: ${{ secrets.VITE_GEMINI_API_KEY_3 }}
+          VITE_GEMINI_API_KEY_4: ${{ secrets.VITE_GEMINI_API_KEY_4 }}
+          VITE_GEMINI_API_KEY_5: ${{ secrets.VITE_GEMINI_API_KEY_5 }}
+          VITE_GEMINI_API_KEY_6: ${{ secrets.VITE_GEMINI_API_KEY_6 }}
+        run: npx tsx scripts/patch-generator.ts
 
       - name: Task 3 - Sync Firestore
         id: firestore_sync
@@ -122,30 +140,38 @@ jobs:
         run: npx tsx scripts/quality-tracker.ts
 
       - name: Task 11 - Internal Linking Optimizer
-        run: npx tsx scripts/internal-linker.ts
+        continue-on-error: true
+        run: npx tsx scripts/internal-linker.ts | tee -a run.log
 
       - name: Task 12 - Duplication Checker
-        run: npx tsx scripts/duplication-checker.ts
+        continue-on-error: true
+        run: npx tsx scripts/duplication-checker.ts | tee -a run.log
 
       - name: Task 13 - Failed Blog Autopsy
-        run: npx tsx scripts/failed-autopsy.ts
+        continue-on-error: true
+        run: npx tsx scripts/failed-autopsy.ts | tee -a run.log
 
       - name: Task 14 - Content Pattern Analysis
-        run: npx tsx scripts/content-patterns.ts
+        continue-on-error: true
+        run: npx tsx scripts/content-patterns.ts | tee -a run.log
 
       - name: Task 15 - Self-Documenting Changelog
-        run: npx tsx scripts/self-changelog.ts
+        continue-on-error: true
+        run: npx tsx scripts/self-changelog.ts | tee -a run.log
 
       - name: Task 16 - Google Search Console Intelligence
-        run: npx tsx scripts/google-search-console.ts
+        continue-on-error: true
+        run: npx tsx scripts/google-search-console.ts | tee -a run.log
 
       - name: Task 17 - Search Opportunity Optimization
+        continue-on-error: true
         env:
           VITE_GEMINI_API_KEY: ${{ secrets.VITE_GEMINI_API_KEY }}
-        run: npx tsx scripts/meta-optimizer.ts
+        run: npx tsx scripts/meta-optimizer.ts | tee -a run.log
 
       - name: Task 18 - Syllabus Completion Stats
-        run: npx tsx scripts/syllabus-stats.ts
+        continue-on-error: true
+        run: npx tsx scripts/syllabus-stats.ts | tee -a run.log
 
       - name: Task 19 - Prompt Evolution (THE BRAIN)
         continue-on-error: true
@@ -156,7 +182,7 @@ jobs:
           VITE_GROQ_API_KEY_4: ${{ secrets.GROQ_API_KEY_4 }}
           VITE_GROQ_API_KEY_5: ${{ secrets.GROQ_API_KEY_5 }}
           VITE_GROQ_API_KEY_6: ${{ secrets.GROQ_API_KEY_6 }}
-        run: npx tsx scripts/prompt-evolution.ts
+        run: npx tsx scripts/prompt-evolution.ts | tee -a run.log
 
       - name: Task 20 - Content Decay Detection
         continue-on-error: true
@@ -172,7 +198,11 @@ jobs:
           X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
           THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
-        run: npm run social:threads -- --recent
+        run: npm run social:threads -- --recent | tee -a run.log
+
+      - name: Task 22 - Final Sanity Guard
+        id: sanity_guard
+        run: npx tsx scripts/sanity-guard.ts
 
       - name: Cleanup Secrets
         if: always()
@@ -200,7 +230,7 @@ jobs:
           fi
 
       - name: Commit and Push New Blogs
-        if: steps.quality_gate.outputs.gate_passed == 'true' || github.event_name == 'workflow_dispatch'
+        if: (steps.quality_gate.outputs.gate_passed == 'true' || github.event_name == 'workflow_dispatch') && steps.sanity_guard.outcome == 'success'
         run: |
           git config --global user.name 'Jules Blog Bot'
           git config --global user.email 'jules-bot@users.noreply.github.com'
@@ -295,67 +325,28 @@ jobs:
             jules-failed/
           retention-days: 30
 
-      - name: Send Discord Notification
+      - name: "Task 23 - AI Log Autopsy (Auditor)"
+        if: always()
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          VITE_GROQ_API_KEY_6: ${{ secrets.GROQ_API_KEY_6 }}
+        run: npx tsx scripts/monitor-autopsy.ts
+
+      - name: "Task 24 - Discord Pulse: New Content"
         if: always()
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        run: |
-          REPORT_FILE=$(ls -t jules-reports/pipeline-*.json 2>/dev/null | head -n 1 || true)
-          RUN_URL="https://github.com/thegalaxylegend/examcompass/actions/runs/${{ github.run_id }}"
-          SITE_URL="https://examcompass.pages.dev/blog"
-          
-          if [ -f "$REPORT_FILE" ]; then
-            echo "📊 Processing quality report..."
-            
-            TOTAL=$(jq 'length' "$REPORT_FILE")
-            PASS_COUNT=$(jq '[.[] | select(.status != "failed")] | length' "$REPORT_FILE")
-            FAIL_COUNT=$(jq '[.[] | select(.status == "failed")] | length' "$REPORT_FILE")
-            
-            if [ "$FAIL_COUNT" -gt "0" ]; then
-              COLOR=15548997
-              TITLE="🚨 Jules Quality Alert"
-            else
-              COLOR=5763719
-              TITLE="🚀 Jules Finished Daily Task!"
-            fi
-            
-            # Build embed fields array from report
-            FIELDS=$(jq -c '[.[] | {
-              name: (.slug | split("-") | map(. | explode | map(if . >= 97 and . <= 122 then . - 32 else . end) | implode)[0:3] | join(" ")),
-              value: ("Score: **\(.quality_score)/100**\n\(if .error then "⚠️ *\(.error | .[0:60])*\n" else "" end)Status: **\(.status)**\n[View Blog](https://examcompass.pages.dev/blog/\(.slug))"),
-              inline: true
-            }]' "$REPORT_FILE")
-            
-            # Build the Discord payload using jq for safe JSON
-            jq -n \
-              --arg title "$TITLE" \
-              --argjson color "$COLOR" \
-              --arg desc "**$PASS_COUNT/$TOTAL** blogs published successfully. **$FAIL_COUNT** failed quality gate." \
-              --arg footer "Pipeline Run • $(date -u +'%Y-%m-%d %H:%M UTC')" \
-              --arg run_url "$RUN_URL" \
-              --argjson fields "$FIELDS" \
-              '{
-                embeds: [{
-                  title: $title,
-                  description: $desc,
-                  color: $color,
-                  fields: $fields,
-                  footer: { text: $footer },
-                  url: $run_url
-                }]
-              }' > discord_payload.json
-            
-          else
-            echo "❓ No report found."
-            jq -n '{
-              embeds: [{
-                title: "📅 Daily Automation Complete",
-                description: "No new blogs were generated today. The queue was empty or all topics were already covered.",
-                color: 8421504
-              }]
-            }' > discord_payload.json
-          fi
+        run: npx tsx scripts/utils/discord-pulse.ts --new
 
-          # Send to Discord
-          curl -s -H "Content-Type: application/json" -d @discord_payload.json "$DISCORD_WEBHOOK_URL"
+      - name: "Task 25 - Discord Pulse: Refined Content"
+        if: always()
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: npx tsx scripts/utils/discord-pulse.ts --refined
+
+      - name: "Task 26 - Discord Pulse: System Pulse Audit"
+        if: always()
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: npx tsx scripts/utils/discord-pulse.ts --pulse
 

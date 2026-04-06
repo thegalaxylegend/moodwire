@@ -40,40 +40,40 @@ export const SocialShare: React.FC<SocialShareProps> = ({
                 href={shareData.whatsapp} 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="p-2 sm:p-2.5 bg-[#25D366]/10 text-[#25D366] rounded-xl hover:bg-[#25D366]/20 transition-colors border border-[#25D366]/20 shrink-0"
+                className="p-2 sm:p-2.5 bg-[#25D366]/10 text-[#25D366] rounded-xl hover:bg-[#25D366]/20 transition-all border border-[#25D366]/20 shrink-0"
                 title="Share on WhatsApp"
             >
-                <MessageCircle size={18} className="sm:w-5 sm:h-5" />
+                <MessageCircle className="w-[18px] h-[18px] sm:w-5 sm:h-5" />
             </a>
             
             <a 
                 href={shareData.telegram} 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="p-2 sm:p-2.5 bg-[#0088cc]/10 text-[#0088cc] rounded-xl hover:bg-[#0088cc]/20 transition-colors border border-[#0088cc]/20 shrink-0"
+                className="p-2 sm:p-2.5 bg-[#0088cc]/10 text-[#0088cc] rounded-xl hover:bg-[#0088cc]/20 transition-all border border-[#0088cc]/20 shrink-0"
                 title="Share on Telegram"
             >
-                <Send size={18} className="sm:w-5 sm:h-5" />
+                <Send className="w-[18px] h-[18px] sm:w-5 sm:h-5" />
             </a>
 
             <a 
                 href={shareData.twitter} 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="p-2 sm:p-2.5 bg-white/5 text-white rounded-xl hover:bg-white/10 transition-colors border border-white/10 shrink-0"
+                className="p-2 sm:p-2.5 bg-white/5 text-white rounded-xl hover:bg-white/10 transition-all border border-white/10 shrink-0"
                 title="Share on X"
             >
-                <Twitter size={18} className="sm:w-5 sm:h-5" />
+                <Twitter className="w-[18px] h-[18px] sm:w-5 sm:h-5" />
             </a>
 
             <a 
                 href={shareData.threads} 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="p-2 sm:p-2.5 bg-white/5 text-white rounded-xl hover:bg-white/10 transition-colors border border-white/10 shrink-0"
+                className="p-2 sm:p-2.5 bg-white/5 text-white rounded-xl hover:bg-white/10 transition-all border border-white/10 shrink-0"
                 title="Share on Threads"
             >
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="sm:w-5 sm:h-5"><circle cx="12" cy="12" r="4"/><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-4 8"/></svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-[18px] h-[18px] sm:w-5 sm:h-5"><circle cx="12" cy="12" r="4"/><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-4 8"/></svg>
             </a>
 
             <button 
@@ -85,7 +85,7 @@ export const SocialShare: React.FC<SocialShareProps> = ({
                 }`}
                 title="Copy Link"
             >
-                {copied ? <Check size={18} className="sm:w-5 sm:h-5" /> : <Copy size={18} className="sm:w-5 sm:h-5" />}
+                {copied ? <Check className="w-[18px] h-[18px] sm:w-5 sm:h-5" /> : <Copy className="w-[18px] h-[18px] sm:w-5 sm:h-5" />}
             </button>
             
             {orientation === 'horizontal' && (
