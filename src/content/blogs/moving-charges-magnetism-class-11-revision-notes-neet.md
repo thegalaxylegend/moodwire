@@ -88,7 +88,7 @@ The **Magnetic Field (B)** is a vector field that describes the magnetic influen
 
 ## 3. Motion of a Charge in a Magnetic Field
 
-A charge **q** moving with velocity **v** in a magnetic field **B** experiences a force:
+A charge **q** moving with velocity **v** in a [magnetic](/blog/magnetic-effects-of-current-class-12-notes) field **B** experiences a force:
 **F = q (v × B) = qvB sinθ**.
 
 ### I. Case 1: Velocity Perpendicular to Field (θ = 90°)

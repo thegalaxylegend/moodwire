@@ -117,7 +117,7 @@ This equation represents the $NAND$ gate, which produces an output of $1$ when e
 
 We will also explore the concept of artificial intelligence, which involves the development of computer systems that can perform tasks that typically require human intelligence. This process requires a deep understanding of digital logic and the ability to apply theoretical concepts to practical problems. 
 
-As we prepare for the Class 11 exam, it is essential to recognize that Digital Logic is not just a theoretical subject, but also a practical one. The exam will test our ability to apply the concepts we have learned to solve problems and design digital circuits. 
+As we prepare for the Class 11 exam, it is essential to recognize that Digital Logic is not just a theoretical subject, but also a practical one. The exam will test our ability to apply the concepts we have learned to solve problems and [design](/blog/algorithms-design-class-11-revision-notes-gate-boards) digital circuits. 
 
 Therefore, it is crucial to practice solving problems and designing circuits to develop a deep understanding of the subject. With persistence and practice, we can develop a deep understanding of Digital Logic and achieve success in the Class 11 exam. 
 

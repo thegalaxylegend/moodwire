@@ -32,7 +32,7 @@ $$
 \end{aligned}
 $$
 
-In the context of the Class 11 exam, it's essential to have a solid grasp of these concepts, as questions can range from simple definition-based ones to complex implementation and analysis problems. The exam may ask you to write algorithms for tree traversals, analyze the time and space complexity of graph traversal algorithms, or even design and implement a simple binary search tree.
+In the context of the Class 11 exam, it's essential to have a solid grasp of these concepts, as questions can range from simple definition-based ones to complex implementation and analysis problems. The exam may ask you to write algorithms for tree traversals, analyze the time and space complexity of graph traversal algorithms, or even [design](/blog/algorithms-design-class-11-revision-notes-gate-boards) and implement a simple binary search tree.
 
 Throughout my prep, I realized that practicing problems and past year questions is key to excelling in Non-Linear Data Structures. It's not just about memorizing formulas and concepts, but about understanding how to apply them to solve real-world problems. For instance, you can practice solving problems on platforms like LeetCode or HackerRank, which provide a wide range of questions on Non-Linear Data Structures.
 

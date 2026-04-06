@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-04-05T02:22:11.753Z",
-  "totalBlogs": 170,
-  "totalWords": 359370,
-  "avgWordCount": 2114,
+  "generatedAt": "2026-04-06T02:23:44.047Z",
+  "totalBlogs": 173,
+  "totalWords": 368900,
+  "avgWordCount": 2132,
   "patterns": [
     {
       "subject": "Biology",
-      "sampleSize": 63,
-      "avgWordCount": 2344,
-      "medianWordCount": 1307,
-      "avgH2": 10.6,
-      "avgH3": 2.9,
-      "avgFormulas": 48.5,
-      "avgMCQs": 1.9,
-      "avgBullets": 22.8,
-      "bulletToParagraphRatio": 0.87,
-      "avgInternalLinks": 6.7,
+      "sampleSize": 66,
+      "avgWordCount": 2354,
+      "medianWordCount": 1351,
+      "avgH2": 10.5,
+      "avgH3": 2.8,
+      "avgFormulas": 52.1,
+      "avgMCQs": 2,
+      "avgBullets": 23.8,
+      "bulletToParagraphRatio": 0.91,
+      "avgInternalLinks": 6.8,
       "idealTemplate": {
         "wordCountRange": [
-          1047,
+          1053,
           2564
         ],
         "headingCount": [
@@ -69,7 +69,7 @@
       "medianWordCount": 989,
       "avgH2": 8.1,
       "avgH3": 4.1,
-      "avgFormulas": 74.5,
+      "avgFormulas": 74.4,
       "avgMCQs": 0.9,
       "avgBullets": 33.8,
       "bulletToParagraphRatio": 2.12,
@@ -93,15 +93,15 @@
     },
     {
       "subject": "Chemistry",
-      "sampleSize": 19,
-      "avgWordCount": 2547,
-      "medianWordCount": 2394,
+      "sampleSize": 18,
+      "avgWordCount": 2627,
+      "medianWordCount": 2402,
       "avgH2": 7.5,
-      "avgH3": 5.1,
-      "avgFormulas": 121.1,
-      "avgMCQs": 1.8,
-      "avgBullets": 39.4,
-      "bulletToParagraphRatio": 1.95,
+      "avgH3": 5.2,
+      "avgFormulas": 127.8,
+      "avgMCQs": 1.9,
+      "avgBullets": 41.4,
+      "bulletToParagraphRatio": 2.02,
       "avgInternalLinks": 6.9,
       "idealTemplate": {
         "wordCountRange": [
@@ -508,7 +508,7 @@
       "mcqCount": 5,
       "bulletCount": 54,
       "paragraphCount": 37,
-      "internalLinkCount": 5,
+      "internalLinkCount": 6,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -517,7 +517,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 20350
+      "fileSize": 20409
     },
     {
       "slug": "application-of-integrals-class-12-notes",
@@ -610,6 +610,29 @@
       "hasLast5Min": false,
       "hasRelated": true,
       "fileSize": 6543
+    },
+    {
+      "slug": "biodiversity-and-conservation-class-12-notes",
+      "category": "Biology",
+      "classNum": 12,
+      "wordCount": 2682,
+      "h2Count": 9,
+      "h3Count": 1,
+      "h4Count": 0,
+      "formulaCount": 115,
+      "mcqCount": 5,
+      "bulletCount": 46,
+      "paragraphCount": 24,
+      "internalLinkCount": 6,
+      "externalLinkCount": 0,
+      "imageCount": 1,
+      "tableCount": 1,
+      "codeBlockCount": 0,
+      "avgSectionLength": 268,
+      "hasTraps": true,
+      "hasLast5Min": true,
+      "hasRelated": true,
+      "fileSize": 19166
     },
     {
       "slug": "biogeography-class-11-revision-notes-neet",
@@ -1267,7 +1290,7 @@
       "mcqCount": 5,
       "bulletCount": 11,
       "paragraphCount": 46,
-      "internalLinkCount": 8,
+      "internalLinkCount": 9,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -1276,7 +1299,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 50254
+      "fileSize": 50317
     },
     {
       "slug": "determinants-class-12-notes",
@@ -1359,7 +1382,7 @@
       "mcqCount": 5,
       "bulletCount": 16,
       "paragraphCount": 106,
-      "internalLinkCount": 8,
+      "internalLinkCount": 9,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -1368,7 +1391,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 59996
+      "fileSize": 60059
     },
     {
       "slug": "dpsp-duties-class-11-revision-notes-jee-neet",
@@ -1415,6 +1438,29 @@
       "hasLast5Min": true,
       "hasRelated": true,
       "fileSize": 14025
+    },
+    {
+      "slug": "ecosystem-class-12-notes",
+      "category": "Biology",
+      "classNum": 12,
+      "wordCount": 2507,
+      "h2Count": 9,
+      "h3Count": 1,
+      "h4Count": 0,
+      "formulaCount": 128,
+      "mcqCount": 5,
+      "bulletCount": 46,
+      "paragraphCount": 13,
+      "internalLinkCount": 7,
+      "externalLinkCount": 0,
+      "imageCount": 1,
+      "tableCount": 1,
+      "codeBlockCount": 0,
+      "avgSectionLength": 251,
+      "hasTraps": true,
+      "hasLast5Min": true,
+      "hasRelated": true,
+      "fileSize": 17743
     },
     {
       "slug": "electric-charges-fields-class-11-revision-notes-jee-neet",
@@ -1530,6 +1576,29 @@
       "hasLast5Min": false,
       "hasRelated": true,
       "fileSize": 9601
+    },
+    {
+      "slug": "environmental-issues-class-12-notes",
+      "category": "Biology",
+      "classNum": 12,
+      "wordCount": 2510,
+      "h2Count": 9,
+      "h3Count": 1,
+      "h4Count": 0,
+      "formulaCount": 141,
+      "mcqCount": 5,
+      "bulletCount": 45,
+      "paragraphCount": 27,
+      "internalLinkCount": 7,
+      "externalLinkCount": 0,
+      "imageCount": 1,
+      "tableCount": 1,
+      "codeBlockCount": 0,
+      "avgSectionLength": 251,
+      "hasTraps": true,
+      "hasLast5Min": true,
+      "hasRelated": true,
+      "fileSize": 18248
     },
     {
       "slug": "equilibrium-class-11-revision-notes-jee-neet",
@@ -2417,7 +2486,7 @@
       "mcqCount": 5,
       "bulletCount": 47,
       "paragraphCount": 19,
-      "internalLinkCount": 6,
+      "internalLinkCount": 7,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -2426,7 +2495,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 16186
+      "fileSize": 16245
     },
     {
       "slug": "mineral-nutrition-class-11-revision-notes-neet",
@@ -2555,7 +2624,7 @@
       "mcqCount": 0,
       "bulletCount": 20,
       "paragraphCount": 14,
-      "internalLinkCount": 12,
+      "internalLinkCount": 13,
       "externalLinkCount": 1,
       "imageCount": 2,
       "tableCount": 0,
@@ -2564,7 +2633,7 @@
       "hasTraps": false,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 9033
+      "fileSize": 9085
     },
     {
       "slug": "neet-2026-weightage-prediction-class-11-revision-notes-neet",
@@ -3107,7 +3176,7 @@
       "mcqCount": 0,
       "bulletCount": 42,
       "paragraphCount": 24,
-      "internalLinkCount": 9,
+      "internalLinkCount": 10,
       "externalLinkCount": 0,
       "imageCount": 2,
       "tableCount": 1,
@@ -3116,7 +3185,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 10277
+      "fileSize": 10352
     },
     {
       "slug": "redox-reactions-class-11-revision-notes-neet",
@@ -3222,7 +3291,7 @@
       "mcqCount": 5,
       "bulletCount": 47,
       "paragraphCount": 17,
-      "internalLinkCount": 5,
+      "internalLinkCount": 6,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -3231,7 +3300,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 17736
+      "fileSize": 17799
     },
     {
       "slug": "respiration-in-plants-class-11-revision-notes-neet",
@@ -3540,7 +3609,7 @@
       "h2Count": 9,
       "h3Count": 1,
       "h4Count": 0,
-      "formulaCount": 112,
+      "formulaCount": 111,
       "mcqCount": 5,
       "bulletCount": 47,
       "paragraphCount": 28,
@@ -3553,7 +3622,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 17911
+      "fileSize": 17909
     },
     {
       "slug": "structural-organisation-in-animals-class-11-revision-notes-neet",
@@ -3705,7 +3774,7 @@
       "mcqCount": 0,
       "bulletCount": 17,
       "paragraphCount": 15,
-      "internalLinkCount": 10,
+      "internalLinkCount": 11,
       "externalLinkCount": 0,
       "imageCount": 2,
       "tableCount": 0,
@@ -3714,7 +3783,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 7838
+      "fileSize": 7895
     },
     {
       "slug": "the-s-block-elements-class-11-revision-notes-jee-neet",
@@ -3925,26 +3994,26 @@
     },
     {
       "slug": "upsc-optional-selection-guide",
-      "category": "Chemistry",
+      "category": "Political Science",
       "classNum": 0,
-      "wordCount": 1110,
-      "h2Count": 7,
-      "h3Count": 3,
+      "wordCount": 2941,
+      "h2Count": 14,
+      "h3Count": 4,
       "h4Count": 0,
-      "formulaCount": 0,
-      "mcqCount": 0,
-      "bulletCount": 4,
-      "paragraphCount": 15,
-      "internalLinkCount": 6,
-      "externalLinkCount": 2,
+      "formulaCount": 121,
+      "mcqCount": 5,
+      "bulletCount": 45,
+      "paragraphCount": 28,
+      "internalLinkCount": 8,
+      "externalLinkCount": 1,
       "imageCount": 1,
-      "tableCount": 0,
+      "tableCount": 1,
       "codeBlockCount": 0,
-      "avgSectionLength": 139,
+      "avgSectionLength": 196,
       "hasTraps": true,
-      "hasLast5Min": false,
+      "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 7938
+      "fileSize": 20549
     },
     {
       "slug": "vector-algebra-class-12-notes",
@@ -3954,11 +4023,11 @@
       "h2Count": 9,
       "h3Count": 0,
       "h4Count": 0,
-      "formulaCount": 232,
+      "formulaCount": 231,
       "mcqCount": 5,
       "bulletCount": 51,
       "paragraphCount": 24,
-      "internalLinkCount": 5,
+      "internalLinkCount": 6,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -3967,7 +4036,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 20727
+      "fileSize": 20784
     },
     {
       "slug": "wave-optics-class-12-notes",
@@ -4123,6 +4192,6 @@
   "recommendations": [
     "⚠️ 56 blogs are under 1000 words — consider regenerating them.",
     "⚠️ 58 blogs missing Trap Questions section.",
-    "⚠️ 131 blogs missing Last 5 Min Box."
+    "⚠️ 130 blogs missing Last 5 Min Box."
   ]
 }

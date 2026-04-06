@@ -86,7 +86,7 @@ practice_link: "/class-11/biology/reproductive-health-class-12-notes"
 
  - *Fix:* Understand that $hCG$ is produced by the placenta and serves to maintain the corpus luteum during early pregnancy, ensuring continued production of progesterone, which is essential for the implantation of the embryo and the maintenance of pregnancy.
 
- - **Mistake 3:** Failing to recognize the importance of the $\Delta$-9-desaturase enzyme in the synthesis of oleic acid, which is crucial for the production of prostaglandins involved in reproductive processes.
+ - **Mistake 3:** Failing to recognize the importance of the $\Delta$-9-desaturase enzyme in the synthesis of oleic acid, which is crucial for the production of prostaglandins involved in reproductive [processes](/blog/biotechnology-principles-and-processes-class-12-notes).
 
  - *Costs:* 3-5 marks
 

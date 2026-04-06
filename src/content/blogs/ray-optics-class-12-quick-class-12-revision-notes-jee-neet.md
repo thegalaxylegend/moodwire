@@ -141,7 +141,7 @@ To further illustrate the [concepts](/blog/some-basic-concepts-of-chemistry-clas
 2. **Refraction**: A diagram showing the refraction of light as it passes from one medium to another.
 3. **Total Internal Reflection**: A diagram showing the total internal reflection of light at a surface.
 
-By examining these diagrams, we can visualize the concepts and gain a deeper understanding of the phenomena.
+By examining these diagrams, we can visualize the [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) and gain a deeper understanding of the phenomena.
 
 As we conclude our review of ray optics, remember to stay focused and keep practicing. With dedication and persistence, we can master the concepts and achieve success in our exams.
 

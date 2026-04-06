@@ -26,7 +26,7 @@ practice_link: "/class-11/political-science/upsc-optional-selection-guide"
 - Syllabus Overlap: Identifying areas of overlap between optional subjects and General Studies — always
 - Personal Interest: Selecting subjects that align with personal interests and strengths — frequently
 - Academic Background: Considering one's academic background when choosing an optional subject — always
-- Practice and Revision: Regular practice and revision of each subject to reinforce learning — frequently
+- Practice and Revision: Regular practice and [revision](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee) of each subject to reinforce learning — frequently
 
 </div>
 
@@ -80,7 +80,7 @@ The following formulas are crucial for the UPSC Optional Selection Guide 2026:
 
  - **Mistake 3:** Not developing a deep understanding of the subject matter, relying solely on memorization.
 
- - *Costs:* 15-20% of the total marks as questions often require application and analysis of concepts.
+ - *Costs:* 15-20% of the total marks as questions often require [application](/blog/application-of-derivatives-class-12-notes) and analysis of concepts.
 
  - *Fix:* Focus on understanding the underlying concepts, practice applying them to different scenarios, and engage in discussions or study groups to deepen your knowledge.
 

@@ -69,7 +69,7 @@ The electronic configuration of the p-block elements can be represented as $ns^2
 
 ## Physical Properties of the P-Block Elements
 
-The physical properties of the p-block elements vary widely, depending on the group and period. Some of the key physical properties include:
+The [physical](/blog/physical-world-class-11-revision-notes-jee-neet) properties of the p-block elements vary widely, depending on the group and period. Some of the key physical properties include:
 * Atomic radius: The atomic radius of the p-block elements decreases from left to right across a period and increases down a group.
 * Electronegativity: The electronegativity of the p-block elements increases from left to right across a period and decreases down a group.
 * Ionization energy: The ionization energy of the p-block elements increases from left to right across a period and decreases down a group.

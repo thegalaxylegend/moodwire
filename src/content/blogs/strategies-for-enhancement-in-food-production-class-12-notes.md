@@ -133,7 +133,7 @@ practice_link: "/class-11/biology/strategies-for-enhancement-in-food-production-
 
  To solve this, we need to identify the method that does NOT contribute to plant breeding, such as:
 
- $$\text{Not a method} = \text{Biotechnology}$$
+ $\text{Not a method} = \text{Biotechnology}$
 
  - **Answer:** Biotechnology
 

@@ -192,7 +192,7 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
         - Industrial applications: Production of enzymes, pigments, and other compounds (approx. 45% of questions)
 
-        - **Key Microbes:** Focus on the following microbes and their applications:
+        - **Key Microbes:** Focus on the following microbes and their [applications](/blog/biotechnology-and-its-applications-class-12-notes):
 
           - $Streptomyces$ for antibiotic production
 

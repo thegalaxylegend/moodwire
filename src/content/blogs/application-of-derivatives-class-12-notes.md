@@ -37,7 +37,7 @@ practice_link: "/class-11/mathematics/application-of-derivatives-class-12-notes"
 * **Second Derivative Test**: 1 numerical on using second derivative test to determine nature of maxima/minima - always
 * **Mean Value Theorems**: 1 question on applying Rolle's theorem or Lagrange's mean value theorem - always
 * **Finding Extrema**: 1 numerical on finding extrema (maxima/minima) of a function subject to a constraint - always
-* **Functions of Two Variables**: 1 question on partial derivatives and their applications - always
+* **Functions of Two Variables**: 1 question on partial derivatives and their [applications](/blog/biotechnology-and-its-applications-class-12-notes) - always
 * **Optimization Problems**: 1-2 numericals on optimizing a function (maxima/minima) using $\\frac{dy}{dx}$ - always
 * **Equation of Tangent to Parametric Curves**: 1 numerical on finding equation of tangent to a parametric curve - always
 * **Equation of Normal to Parametric Curves**: 1 numerical on finding equation of normal to a parametric curve - always 
