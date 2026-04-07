@@ -4,6 +4,8 @@ import { Footer } from '../../components/Footer';
 import { Breadcrumbs } from '../../components/seo/Breadcrumbs';
 import { Mail, MapPin, Clock, MessageSquare, HelpCircle } from 'lucide-react';
 import { SITE_URL } from '../../lib/siteConfig';
+import { motion } from 'framer-motion';
+import { usePerformance } from '../../context/PerformanceProvider';
 
 const FAQ_ITEMS = [
     { q: 'Is Exam Compass free to use?', a: 'Yes! Exam Compass is completely free. Our AI-powered mock tests, PYQ practice, analytics, and study roadmaps are available at no cost to all students.' },
@@ -27,8 +29,11 @@ export const ContactPage = () => {
         }))
     };
 
+    const { tier } = usePerformance();
+    const isLow = tier === 'low';
+
     return (
-        <div className="min-h-screen bg-black text-white selection:bg-purple-500/30">
+        <div className={`min-h-screen bg-black text-white selection:bg-purple-500/30 perf-tier-${tier}`}>
             <SEO
                 title="Contact Us | Exam Compass"
                 description="Get in touch with the Exam Compass team. Contact us for questions, feedback, bug reports, or partnership inquiries about our AI-powered exam preparation platform."
@@ -53,7 +58,12 @@ export const ContactPage = () => {
             />
             <Navbar />
 
-            <main className="pt-32 pb-20 px-6 max-w-4xl mx-auto">
+            <motion.main 
+                initial={isLow ? {} : { opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+                className="pt-32 pb-20 px-6 max-w-4xl mx-auto will-change-transform"
+            >
                 <div className="mb-6">
                     <Breadcrumbs />
                 </div>
@@ -146,7 +156,7 @@ export const ContactPage = () => {
 
                 {/* FAQ Schema */}
                 <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-            </main>
+            </motion.main>
 
             <Footer />
         </div>

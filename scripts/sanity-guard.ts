@@ -49,11 +49,24 @@ async function runSanityCheck() {
           // console.warn(`⚠️ [${file}] Possible LaTeX bracket mismatch detected.`);
         }
 
-        // 4. Placeholder Check
-        if (content.includes("undefined") || content.includes("[INSERT ") || content.includes("TODO")) {
-            console.error(`❌ [${file}] Contains placeholders or 'undefined' values!`);
-            errors++;
+        // 4. Placeholder Check (Now smarter: only flags technical placeholders or suspected failed variables)
+        const placeholderRegex = /\[INSERT|TODO/i;
+        const failedVariableRegex = /[ :)]undefined($|\s|[!?.])/i;
+        if (placeholderRegex.test(content) || failedVariableRegex.test(content)) {
+            // Check if it's a valid mathematical sentence (heuristically)
+            const linesWithUndefined = content.split('\n').filter(line => line.includes("undefined"));
+            const looksLikeTechnicalFailure = linesWithUndefined.some(line => 
+                line.includes("): undefined") || 
+                line.includes(") undefined") || 
+                line.trim().toLowerCase() === "undefined"
+            );
+            
+            if (looksLikeTechnicalFailure || placeholderRegex.test(content)) {
+                console.error(`❌ [${file}] Contains technical placeholders or 'undefined' failure patterns!`);
+                errors++;
+            }
         }
+
 
         // 5. Empty Content Check
         if (content.length < 500) {

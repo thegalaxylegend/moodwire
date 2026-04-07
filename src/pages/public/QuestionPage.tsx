@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { SEO } from '../../components/SEO';
 import { Navbar } from '../../components/Navbar';
+import { Footer } from '../../components/Footer';
 import { Loader2, CheckCircle, Brain, Download } from 'lucide-react';
 import { slugify } from '../../lib/utils';
 import { SYLLABUS_DB } from '../../lib/constants';
@@ -11,6 +12,9 @@ import { SocialShare } from '../../components/SocialShare';
 import { blogs } from '../../data/blogs';
 import { SITE_URL } from '../../lib/siteConfig';
 import { examDates } from '../../config/examDates';
+import { NotFoundPage } from './NotFoundPage';
+import { motion } from 'framer-motion';
+import { usePerformance } from '../../context/PerformanceProvider';
 
 
 // Type definition for safe global access
@@ -20,6 +24,8 @@ declare global {
 
 export const QuestionPage = () => {
     const { exam, slug } = useParams();
+    const { tier } = usePerformance();
+    const isLow = tier === 'low';
     const formattedExam = exam?.replace(/-/g, ' ').toUpperCase() || 'EXAM';
 
     // 1. SSG Hydration Strategy
@@ -63,12 +69,7 @@ export const QuestionPage = () => {
     }
 
     if (!question) {
-        return (
-            <div className="min-h-screen bg-black text-white p-20 text-center">
-                <h1 className="text-3xl font-bold mb-4">Question Not Found</h1>
-                <Link to={`/${exam}`} className="text-purple-400 hover:underline">Return to {formattedExam}</Link>
-            </div>
-        );
+        return <NotFoundPage />;
     }
 
     // 4. SEO & Metadata Construction (Strict 60-char limit for Bing)
@@ -151,7 +152,7 @@ export const QuestionPage = () => {
     };
 
     return (
-        <div className="min-h-screen bg-black text-white selection:bg-purple-500/30">
+        <div className={`min-h-screen bg-black text-white selection:bg-purple-500/30 perf-tier-${tier}`}>
             <SEO
                 title={pageTitle}
                 description={description}
@@ -161,7 +162,12 @@ export const QuestionPage = () => {
             />
             <Navbar />
 
-            <section className="pt-32 pb-20 px-6 max-w-4xl mx-auto">
+            <motion.main 
+                initial={isLow ? {} : { opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+                className="pt-20 md:pt-28 pb-20 px-6 max-w-4xl mx-auto will-change-transform"
+            >
                 <nav className="flex gap-2 text-sm text-gray-300 mb-8 overflow-x-auto whitespace-nowrap">
                     <Link to="/" className="hover:text-white transition-colors">Home</Link>
                     <span>/</span>
@@ -357,7 +363,8 @@ export const QuestionPage = () => {
                         Disclaimer: This question is part of the Exam Compass AI-curated practice set for {formattedExam} 2026. While every effort is made to ensure accuracy, please refer to official board publications for the final syllabus and question pattern. Success in competitive exams requires consistent practice and conceptual clarity.
                     </div>
                 </article>
-            </section>
+            </motion.main>
+            <Footer />
         </div>
     );
 };

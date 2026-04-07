@@ -100,7 +100,7 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
 
     return (
         <div className={`flex flex-col h-full bg-[#11131c] backdrop-blur-2xl border border-white/5 
-            rounded-3xl overflow-hidden shadow-[0_32px_64px_-12px_rgba(0,0,0,0.8)] transition-all font-manrope
+            rounded-3xl overflow-hidden shadow-[0_32px_64px_-12px_rgba(0,0,0,0.8)] transition-[border-color,box-shadow,transform] duration-500 font-manrope gpu-layer
             ${isCallMode ? 'ring-2 ring-[#5d21df]/50 shadow-[#5d21df]/20' : ''}`}>
             
             {/* Main Area: Split Layout */}

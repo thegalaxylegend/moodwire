@@ -2,9 +2,13 @@ import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { SEO } from '../../components/SEO';
 import { Navbar } from '../../components/Navbar';
+import { Footer } from '../../components/Footer';
 import { Loader2, Brain, CheckCircle } from 'lucide-react';
 import { slugify } from '../../lib/utils';
 import { SITE_URL } from '../../lib/siteConfig';
+import { motion } from 'framer-motion';
+import { usePerformance } from '../../context/PerformanceProvider';
+import { NotFoundPage } from '../public/NotFoundPage';
 
 // Type definition for safe global access
 declare global {
@@ -13,6 +17,8 @@ declare global {
 
 export const PyqCollectionPage = () => {
     const { exam, subject, topic } = useParams();
+    const { tier } = usePerformance();
+    const isLow = tier === 'low';
     const formattedExam = exam?.replace(/-/g, ' ').toUpperCase() || 'EXAM';
     const formattedTopic = topic?.replace(/-/g, ' ').toUpperCase() || 'TOPIC';
 
@@ -56,12 +62,7 @@ export const PyqCollectionPage = () => {
     }
 
     if (!collectionData || !collectionData.questions || collectionData.questions.length === 0) {
-        return (
-            <div className="min-h-screen bg-black text-white p-20 text-center">
-                <h1 className="text-3xl font-bold mb-4">Collection Not Found</h1>
-                <Link to={`/${exam}`} className="text-purple-400 hover:underline">Return to {formattedExam}</Link>
-            </div>
-        );
+        return <NotFoundPage />;
     }
 
     const { questions } = collectionData;
@@ -70,7 +71,7 @@ export const PyqCollectionPage = () => {
     const canonicalUrl = `${SITE_URL}/${exam}/${subject}/${topic}/top-50-pyqs`;
 
     return (
-        <div className="min-h-screen bg-black text-white selection:bg-purple-500/30">
+        <div className={`min-h-screen bg-black text-white selection:bg-purple-500/30 perf-tier-${tier}`}>
             <SEO
                 title={pageTitle}
                 description={description}
@@ -79,7 +80,12 @@ export const PyqCollectionPage = () => {
             />
             <Navbar />
 
-            <section className="pt-32 pb-20 px-6 max-w-4xl mx-auto">
+            <motion.main 
+                initial={isLow ? {} : { opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+                className="pt-20 md:pt-28 pb-20 px-6 max-w-4xl mx-auto will-change-transform"
+            >
                 <nav className="flex gap-2 text-sm text-gray-300 mb-8 overflow-x-auto whitespace-nowrap">
                     <Link to="/" className="hover:text-white transition-colors">Home</Link>
                     <span>/</span>
@@ -152,7 +158,8 @@ export const PyqCollectionPage = () => {
                         </div>
                     ))}
                 </div>
-            </section>
+            </motion.main>
+            <Footer />
         </div>
     );
 };

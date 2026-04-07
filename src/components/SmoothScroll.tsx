@@ -1,62 +1,89 @@
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import Lenis from 'lenis';
 import { useLocation } from 'react-router-dom';
+import { usePerformance } from '../context/PerformanceProvider';
 
 export const SmoothScroll = ({ children }: { children: React.ReactNode }) => {
   const location = useLocation();
+  const { tier } = usePerformance();
+  const isLow = tier === 'low';
 
   useEffect(() => {
-    // Only initialize on client
     if (typeof window === 'undefined') return;
 
-    // We ensure native scroll behavior is reset to avoid conflicting with Lenis
-    document.documentElement.style.scrollBehavior = 'auto';
-
-    // Disable smooth scroll hijacking on heavy pages and admin dashboards
-    if (location.pathname.startsWith('/blog') || 
-        location.pathname.startsWith('/admin') || 
-        location.pathname.startsWith('/dashboard')) {
-      return;
+    // Detect high-level preference for reduced motion
+    const isReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    
+    // Disable smooth scroll for low-performance/battery mode or if preferred
+    if (isReducedMotion || isLow || location.pathname.startsWith('/admin')) {
+        if (isLow) console.log("🚀 [Performance] Disabling smooth scroll engine for Low-Tier mode.");
+        
+        // CRITICAL: Clean up root element to restore native browser scroll behaviors
+        const root = document.documentElement;
+        root.style.scrollBehavior = '';
+        root.classList.remove('lenis', 'lenis-stopped', 'lenis-smooth', 'menu-open', 'chat-open');
+        return;
     }
 
     let rafId: number;
+    let lenis: Lenis | null = null;
 
-    const lenis = new Lenis({
-      duration: 1.2,
-      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-      orientation: 'vertical',
-      gestureOrientation: 'vertical',
-      smoothWheel: true,
-      infinite: false,
-    });
+    try {
+        const root = document.documentElement;
+        root.style.scrollBehavior = 'auto';
+        
+        lenis = new Lenis({
+          duration: 1.2,
+          easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+          orientation: 'vertical',
+          gestureOrientation: 'vertical',
+          smoothWheel: true,
+          infinite: false,
+        });
 
-    // Handle external scroll locking (e.g. from Chatbot)
-    const observer = new MutationObserver(() => {
-      if (document.documentElement.classList.contains('chat-open')) {
-        lenis.stop();
-      } else {
-        lenis.start();
-      }
-    });
+        // Sync initial state
+        root.classList.add('lenis', 'lenis-smooth');
 
-    observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+        // Handle external scroll locking (e.g. from Chatbot or Mobile Menu)
+        const observer = new MutationObserver(() => {
+          const isMenuOpen = root.classList.contains('menu-open') && window.innerWidth < 768;
+          const isLocked = root.classList.contains('chat-open') || isMenuOpen;
+          
+          if (isLocked) {
+            lenis?.stop();
+          } else {
+            lenis?.start();
+          }
+        });
 
-    // Initial check
-    if (document.documentElement.classList.contains('chat-open')) lenis.stop();
+        observer.observe(root, { attributes: true, attributeFilter: ['class'] });
 
-    function raf(time: number) {
-      lenis.raf(time);
-      rafId = requestAnimationFrame(raf);
+        // Initial check
+        const initialMenuOpen = root.classList.contains('menu-open') && window.innerWidth < 768;
+        const initialLocked = root.classList.contains('chat-open') || initialMenuOpen;
+        if (initialLocked) lenis.stop();
+
+        function raf(time: number) {
+          lenis?.raf(time);
+          rafId = requestAnimationFrame(raf);
+        }
+
+        rafId = requestAnimationFrame(raf);
+
+        return () => {
+          if (rafId) cancelAnimationFrame(rafId);
+          observer.disconnect();
+          lenis?.destroy();
+          
+          // CRITICAL: Reset root on unmount to prevent stale locking
+          root.style.scrollBehavior = '';
+          root.classList.remove('lenis', 'lenis-stopped', 'lenis-smooth', 'menu-open', 'chat-open');
+        };
+    } catch (e) {
+        console.error("Lenis initialization failed:", e);
+        return;
     }
-
-    rafId = requestAnimationFrame(raf);
-
-    return () => {
-      cancelAnimationFrame(rafId);
-      observer.disconnect();
-      lenis.destroy();
-    };
-  }, [location.pathname]);
+  }, [isLow]);
 
   return <>{children}</>;
 };

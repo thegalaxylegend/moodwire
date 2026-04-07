@@ -78,21 +78,15 @@ export const Chatbot = () => {
 
     // Persistent History handled by store actions
 
-    // Body Scroll Lock
+    // Body Scroll Lock signals
     useEffect(() => {
         const shouldLock = (isOpen && !isMinimized) || isCallMode;
         if (shouldLock) {
-            document.body.style.overflow = 'hidden';
-            document.documentElement.style.overflow = 'hidden';
             document.documentElement.classList.add('chat-open');
         } else {
-            document.body.style.overflow = '';
-            document.documentElement.style.overflow = '';
             document.documentElement.classList.remove('chat-open');
         }
         return () => {
-            document.body.style.overflow = '';
-            document.documentElement.style.overflow = '';
             document.documentElement.classList.remove('chat-open');
         };
     }, [isOpen, isMinimized, isCallMode]);
@@ -450,23 +444,32 @@ export const Chatbot = () => {
                 )}
             </AnimatePresence>
 
-            <div className="fixed bottom-20 md:bottom-6 right-4 md:right-8 z-[100] pointer-events-none">
-                {(!isOpen || isMinimized) && (
-                    <div className="pointer-events-auto absolute bottom-0 right-0">
-                        <MinimizedBubble
-                            isHolding={isListening}
-                            isSpeaking={isSpeaking}
-                            isThinking={isThinking}
-                            isCallActive={isCallMode}
-                            onMaximize={() => {
-                                openChat();
-                                setIsMinimized(false);
-                            }}
-                            onPTTStart={onPTTStart}
-                            onPTTEnd={onPTTEnd}
-                        />
-                    </div>
-                )}
+            <div className="fixed bottom-36 md:bottom-6 right-4 md:right-8 z-[100] pointer-events-none">
+                <AnimatePresence mode="wait">
+                    {(!isOpen || isMinimized) && (
+                        <motion.div 
+                            key="minimized-bubble"
+                            initial={{ opacity: 0, scale: 0.5, filter: 'blur(10px)' }}
+                            animate={{ opacity: 1, scale: 1, filter: 'blur(0px)' }}
+                            exit={{ opacity: 0, scale: 0.5, filter: 'blur(10px)' }}
+                            transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
+                            className="pointer-events-auto absolute bottom-0 right-0"
+                        >
+                            <MinimizedBubble
+                                isHolding={isListening}
+                                isSpeaking={isSpeaking}
+                                isThinking={isThinking}
+                                isCallActive={isCallMode}
+                                onMaximize={() => {
+                                    openChat();
+                                    setIsMinimized(false);
+                                }}
+                                onPTTStart={onPTTStart}
+                                onPTTEnd={onPTTEnd}
+                            />
+                        </motion.div>
+                    )}
+                </AnimatePresence>
             </div>
 
             <AnimatePresence>

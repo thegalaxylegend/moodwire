@@ -3,7 +3,10 @@ import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { SEO } from '../../components/SEO';
 import { Navbar } from '../../components/Navbar';
+import { Footer } from '../../components/Footer';
 import { ArrowRight, Download, Loader2 } from 'lucide-react';
+import { motion } from 'framer-motion';
+import { usePerformance } from '../../context/PerformanceProvider';
 import { SYLLABUS_DB } from '../../lib/constants';
 import { slugify } from '../../lib/utils';
 import { useUserStore } from '../../store/userStore';
@@ -18,6 +21,8 @@ import { SITE_URL } from '../../lib/siteConfig';
 import { StudentTip } from '../../components/seo/StudentTip';
 
 
+import { NotFoundPage } from './NotFoundPage';
+
 declare global {
     var SEO_TOPIC_DATA: any[];
     var SEO_TOPIC_CONTENT: any;
@@ -26,14 +31,19 @@ declare global {
 export const TopicPage = () => {
     const { exam, subject, topic } = useParams();
     const { user } = useUserStore();
-
-    const targetYear = examDates.getExamYear(exam || '');
+    const { tier } = usePerformance();
+    const isLow = tier === 'low';
 
     // Data Finding Logic
     const realSubject = Object.keys(SYLLABUS_DB).find(k => slugify(k) === subject);
-    const topicList = SYLLABUS_DB[realSubject as string] || [];
-
+    const topicList = realSubject ? (SYLLABUS_DB[realSubject as string] || []) : [];
     const topicData = topicList.find(t => slugify(t.topic) === topic);
+
+    if (!topicData) {
+        return <NotFoundPage />;
+    }
+
+    const targetYear = examDates.getExamYear(exam || '');
 
     const formattedExam = exam?.replace(/-/g, ' ').toUpperCase();
     const cleanTopicName = topicData?.topic.replace(/\[.*?\]\s*/g, '') || topic?.replace(/-/g, ' ');
@@ -189,7 +199,7 @@ export const TopicPage = () => {
     };
 
     return (
-        <div className="min-h-screen bg-black text-white selection:bg-purple-500/30">
+        <div className={`min-h-screen bg-black text-white selection:bg-purple-500/30 perf-tier-${tier}`}>
             <SEO
                 title={pageTitle}
                 description={seoDescription}
@@ -199,16 +209,24 @@ export const TopicPage = () => {
             />
             <Navbar />
 
-            <section className="pt-32 pb-10 px-6 max-w-7xl mx-auto">
+            <motion.main 
+                initial={isLow ? {} : { opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+                className="pt-20 md:pt-28 pb-10 px-6 max-w-7xl mx-auto will-change-transform"
+            >
                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8">
                     <Breadcrumbs />
                     <SocialShare title={`${cleanTopicName} PYQs for ${contextName}`} />
                 </div>
 
-
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-                    <div>
-                        <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">
+                    <motion.div
+                        initial={isLow ? {} : { opacity: 0, x: -20 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ delay: 0.2, duration: 0.8 }}
+                    >
+                        <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white tracking-tight">
                             {cleanTopicName}
                         </h1>
 
@@ -228,7 +246,13 @@ export const TopicPage = () => {
                         />
 
                         <StudentTip seedText={`${cleanTopicName}-${contextName}`} />
-
+                    </motion.div>
+                    
+                    <motion.div
+                        initial={isLow ? {} : { opacity: 0, x: 20 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ delay: 0.4, duration: 0.8 }}
+                    >
                         {/* Phase 2: Dynamic Topic Content via SSG Injection */}
                         {(() => {
                             const topicContent = (typeof globalThis !== 'undefined' && globalThis.SEO_TOPIC_CONTENT) || null;
@@ -415,10 +439,10 @@ export const TopicPage = () => {
                             credentials={["KV Darbhanga, Bihar", "50+ PYQ Papers Analyzed", "NCERT-Aligned Content"]}
                             linkedin="https://linkedin.com"
                             twitter="https://twitter.com"
-                        />
-                    </div>
+                    />
+                </motion.div>
 
-                </div>
+            </div>
 
                 {/* Internal Linking for SEO - Sample Questions & Related Chapters */}
                 <div className="mt-20 grid grid-cols-1 lg:grid-cols-3 gap-12 border-t border-white/10 pt-10">
@@ -476,7 +500,8 @@ export const TopicPage = () => {
                         </div>
                     </aside>
                 </div>
-            </section>
+            </motion.main>
+            <Footer />
         </div>
     );
 };

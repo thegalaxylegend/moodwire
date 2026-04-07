@@ -243,20 +243,22 @@ jobs:
           git add public/jules-reports/*.json || true
           git add jules-reports/*.json || true
           git add JULES_CHANGELOG.md || true
-          git commit -m "chore: auto-generate blogs & intelligence reports [self-learning-seo]" || echo "No changes to commit"
+          git commit -m "chore: automated blog self-healing [skip ci]" || echo "No changes to commit"
           git push origin main
 
-      - name: Trigger Cloudflare Pages Deploy
-        if: steps.quality_gate.outputs.gate_passed == 'true'
-        env:
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-        run: |
-          curl -s -X POST "https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/pages/projects/examcompass/deployments" \
-               -H "Authorization: Bearer ${CLOUDFLARE_API_TOKEN}" \
-               -H "Content-Type: application/json" \
-               -d '{"branch": "main"}'
-          echo "🚀 Triggered Cloudflare Pages deployment for new blogs!"
+
+      # - name: Trigger Cloudflare Pages Deploy
+      #   if: steps.quality_gate.outputs.gate_passed == 'true'
+      #   env:
+      #     CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      #     CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      #   run: |
+      #     curl -s -X POST "https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/pages/projects/examcompass/deployments" \
+      #          -H "Authorization: Bearer ${CLOUDFLARE_API_TOKEN}" \
+      #          -H "Content-Type: application/json" \
+      #          -d '{"branch": "main"}'
+      #     echo "🚀 Triggered Cloudflare Pages deployment for new blogs!"
+
 
       - name: Task 7 - Ping Google Indexing API
         if: steps.quality_gate.outputs.gate_passed == 'true'

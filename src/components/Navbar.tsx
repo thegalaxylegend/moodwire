@@ -51,6 +51,16 @@ export const Navbar = () => {
 
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
+    // Lock body scroll when mobile menu is open — viewport aware
+    useEffect(() => {
+        const isMobile = window.innerWidth < 768;
+        if (isMobileMenuOpen && isMobile) {
+            document.documentElement.classList.add('menu-open');
+        } else {
+            document.documentElement.classList.remove('menu-open');
+        }
+    }, [isMobileMenuOpen]);
+
     return (
         <nav 
             className={`fixed top-0 left-0 w-full z-50 border-b border-white/10 transition-colors duration-300 ${
@@ -106,7 +116,10 @@ export const Navbar = () => {
                                 className="absolute top-full left-0 mt-4 w-52 glass-card bg-[#0a0a0a]/90 border border-white/10 rounded-2xl overflow-hidden shadow-2xl z-[100]"
                             >
                                 <div className="absolute -top-2 left-6 w-4 h-4 bg-[#0a0a0a]/90 border-t border-l border-white/10 rotate-45" />
-                                <div className="p-2 relative z-10">
+                                <div 
+                                    className="p-2 max-h-[400px] overflow-y-auto relative z-10"
+                                    data-lenis-prevent
+                                >
                                     <div className="px-3 py-2 text-[10px] font-bold text-gray-500 uppercase tracking-widest">
                                         Popular Exams
                                     </div>
@@ -160,7 +173,10 @@ export const Navbar = () => {
                                 {/* Dropdown Arrow */}
                                 <div className="absolute -top-2 left-6 w-4 h-4 bg-[#0a0a0a]/90 border-t border-l border-white/10 rotate-45" />
                                 
-                                <div className="p-2 max-h-[400px] overflow-y-auto relative z-10">
+                                <div 
+                                    className="p-2 max-h-[400px] overflow-y-auto relative z-10"
+                                    data-lenis-prevent
+                                >
                                     <div className="px-3 py-2 text-[10px] font-bold text-gray-500 uppercase tracking-widest">
                                         Categories
                                     </div>
@@ -210,7 +226,7 @@ export const Navbar = () => {
                     opacity: isMobileMenuOpen ? 1 : 0,
                     height: isMobileMenuOpen ? 'auto' : 0 
                 }}
-                className="md:hidden bg-[#050505] border-b border-white/5 overflow-hidden"
+                className="md:hidden bg-[#050505] border-b border-white/5 overflow-y-auto max-h-[calc(100vh-4rem)]"
             >
                 <div className="px-6 py-8 flex flex-col gap-6">
                     <div className="flex flex-col gap-4">
@@ -223,10 +239,27 @@ export const Navbar = () => {
                             ))}
                         </div>
                     </div>
-                    <Link to="/blog" className="text-lg font-bold text-white px-2">Blog</Link>
+                    <div className="flex flex-col gap-4">
+                        <p className="text-[10px] font-bold text-gray-500 uppercase tracking-widest px-2">Categories</p>
+                        <div className="grid grid-cols-2 gap-2">
+                            <Link to="/blog" className={`text-sm p-3 rounded-xl transition-colors font-medium ${!location.search ? 'bg-purple-500 text-white' : 'bg-white/5 text-gray-400'}`}>
+                                All Articles
+                            </Link>
+                            {CATEGORIES.map(category => (
+                                <Link 
+                                    key={category} 
+                                    to={`/blog?category=${encodeURIComponent(category)}`} 
+                                    className={`text-sm p-3 rounded-xl transition-colors font-medium ${location.search.includes(category) ? 'bg-purple-500 text-white' : 'bg-white/5 text-gray-400'}`}
+                                >
+                                    {category}
+                                </Link>
+                            ))}
+                        </div>
+                    </div>
+
                     <Link 
                         to="/login" 
-                        className="w-full py-4 text-center rounded-2xl bg-white text-black font-extrabold text-lg shadow-[0_0_20px_rgba(255,255,255,0.1)] active:scale-[0.98] transition-transform"
+                        className="w-full py-4 text-center rounded-2xl bg-white text-black font-extrabold text-lg shadow-[0_0_20px_rgba(255,255,255,0.1)] active:scale-[0.98] transition-transform mt-2"
                     >
                         Login
                     </Link>

@@ -134,6 +134,80 @@
   }
 }
 
+/* ============================================
+   3-TIER PERFORMANCE ADAPTIVE CLASSES
+   Targeting 120fps -> 60fps -> 45fps
+   ============================================ */
+
+/* Tier 1: Elite (120fps) - Default state, all styles active */
+
+/* Tier 2: Balanced (60fps) - Scaled visuals */
+.perf-tier-balanced {
+  --glass-blur: 8px;
+  --oxygen-page: 250ms;
+  --oxygen-component: 200ms;
+}
+
+/* Tier 3: Low-Power (45fps) - Maximum stability */
+.perf-tier-low {
+  --glass-blur: 0px;
+  --glass-opacity: 0.95;
+  --oxygen-page: 0ms;
+  --oxygen-component: 0ms;
+  --oxygen-micro: 0ms;
+}
+
+/* Optimize hidden content visibility globally */
+.offscreen-content {
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 500px;
+}
+
+/* ============================================
+   ULTRA-SMOOTH PARALLAX & GPU ACCELERATORS
+   ============================================ */
+
+.parallax-layer {
+  @apply pointer-events-none absolute inset-0 -z-10;
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.ghost-glow {
+  background: radial-gradient(circle at center, var(--glow-color, rgba(139, 92, 246, 0.3)), transparent 70%);
+  mask-image: radial-gradient(circle at center, black, transparent 80%);
+  filter: none !important; /* Explicitly disable blur if inherited */
+  will-change: transform;
+}
+
+.mask-radial {
+  mask-image: radial-gradient(circle, black, transparent 70%);
+}
+
+.mask-edge-fade {
+  mask-image: linear-gradient(to bottom, transparent, black 10%, black 90%, transparent);
+}
+
+.gpu-layer {
+  will-change: transform;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.gpu-accelerate {
+  @apply will-change-transform transform-gpu;
+  backface-visibility: hidden;
+}
+
+/* Optimize hidden content visibility globally */
+.offscreen-content {
+  content-visibility: auto;
+  contain-intrinsic-size: 0 500px;
+}
+
 /* ===== SMOOTH SCROLLING & PERFORMANCE OPTIMIZATIONS ===== */
 
 /* Lenis smooth scrolling integration */
@@ -1013,5 +1087,29 @@ body {
     overflow-x: auto;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+  }
+}
+/* ===== GLOBAL PERFORMANCE TIERING & STABILITY ===== */
+.ghost-glow {
+  filter: blur(80px);
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--glow-color, rgba(139, 92, 246, 0.15)), transparent 70%);
+  transition: opacity 1s ease-in-out;
+}
+.gpu-layer {
+  will-change: transform, opacity;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+.perf-tier-low .tier-aware-orb {
+  display: none !important;
+}
+.perf-tier-low .animate-breathing {
+  animation: none !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  .animate-breathing, .gpu-layer {
+    animation: none !important;
+    transition: none !important;
   }
 }

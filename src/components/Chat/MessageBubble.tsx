@@ -175,10 +175,10 @@ export const MessageBubble: React.FC<MessageBubbleProps> = React.memo(({ message
 
                 {/* Message Content Container */}
                 <div className="flex flex-col min-w-0">
-                    <div className={`relative px-4 py-2.5 text-[14px] w-fit leading-relaxed shadow-lg transition-all duration-300 font-manrope
+                    <div className={`relative px-4 pt-3 pb-2 text-[14px] w-fit leading-relaxed shadow-lg transition-all duration-300 font-manrope
                         ${isBot 
-                            ? 'bg-[#32343e]/80 backdrop-blur-md border border-white/5 text-gray-100 rounded-2xl rounded-bl-sm' 
-                            : 'bg-gradient-to-br from-[#5d21df] to-[#4318c4] text-white rounded-2xl rounded-br-sm shadow-indigo-500/20'}
+                            ? 'bg-[#32343e]/80 backdrop-blur-md border border-white/5 text-gray-100 rounded-2xl rounded-bl-sm pr-14' 
+                            : 'bg-gradient-to-br from-[#5d21df] to-[#4318c4] text-white rounded-2xl rounded-br-sm shadow-indigo-500/20 pr-16'}
                         ${!message.text && !message.image ? 'hidden' : ''}`}>
                         
                         {message.image && (
@@ -213,9 +213,9 @@ export const MessageBubble: React.FC<MessageBubbleProps> = React.memo(({ message
                             </Link>
                         )}
                         
-                        {/* Timestamp - Integrated Inside Bubble */}
-                        <div className={`flex justify-end mt-1 ${isBot ? 'ml-6' : 'ml-4'}`}>
-                            <span className={`text-[8px] font-bold tabular-nums uppercase tracking-tight ${isBot ? 'text-white/20' : 'text-white/40'}`}>
+                        {/* Timestamp - Refined Positioning */}
+                        <div className="absolute bottom-1.5 right-2.5 leading-none">
+                            <span className={`text-[9px] font-bold tabular-nums uppercase tracking-tight ${isBot ? 'text-white/20' : 'text-white/40'}`}>
                                 {new Date(message.id).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
                             </span>
                         </div>

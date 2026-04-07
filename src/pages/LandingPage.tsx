@@ -9,9 +9,10 @@ import { DemoModal } from '../components/DemoModal';
 import { Zap, Target, Brain, Award, ArrowRight, Rocket } from 'lucide-react';
 import { SEO } from '../components/SEO';
 import { AboutAuthor } from '../components/seo/AboutAuthor';
-import { Footer } from '../components/Footer';
 import { SITE_URL, SITE_OG_IMAGE } from '../lib/siteConfig';
 import { SOCIAL_LINKS } from '../lib/constants';
+import { usePerformance } from '../context/PerformanceProvider';
+import { Footer } from '../components/Footer';
 
 // Animated Counter Hook — optimized for mobile
 const useCountUp = (end: number, duration: number = 2000, startOnView: boolean = true) => {
@@ -47,8 +48,8 @@ const TextReveal = ({ children, className = '', delay = 0 }: { children: string;
         <motion.span
             initial={isMobile ? { opacity: 0 } : { opacity: 0, y: 15 }}
             whileInView={isMobile ? { opacity: 1 } : { opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: isMobile ? '-2px' : '-40px' }}
-            transition={isMobile ? { delay: 0, duration: 0.3 } : { delay, duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
+            viewport={{ once: true, margin: isMobile ? '-2px' : '-20px' }}
+            transition={isMobile ? { delay: 0, duration: 0.2 } : { delay, duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
             className={`inline-block ${className}`}
         >
             {children}
@@ -60,7 +61,10 @@ export const LandingPage = () => {
     const navigate = useNavigate();
     const { isAuthenticated, isLoading } = useUserStore();
     const [showDemo, setShowDemo] = useState(false);
-
+    const { tier } = usePerformance();
+    
+    // Performance detection
+    const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
     const isServer = typeof window === 'undefined';
 
     useEffect(() => {
@@ -80,22 +84,15 @@ export const LandingPage = () => {
     // Auth-based redirects happen silently in the background.
 
     return (
-        <div className="min-h-screen bg-black text-white relative overflow-hidden">
+        <div className={`min-h-screen bg-black text-white relative overflow-hidden perf-tier-${tier}`}>
             {/* Scroll Progress Bar */}
             <motion.div 
                 className="fixed top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-primary via-secondary to-accent z-[100] origin-left will-change-transform"
                 style={{ scaleX: scrollYProgress }}
+                initial={false}
             />
 
-            {/* Ambient Background — reduced for mobile performance */}
-            <div className="fixed inset-0 pointer-events-none z-0 bg-[radial-gradient(ellipse_at_50%_30%,#1e1b4b_0%,#0a0118_40%,#000000_100%)]">
-                {/* Single Primary Orb on mobile, multiple on desktop */}
-                <div className="absolute top-[5%] right-[5%] w-[55%] h-[45%] bg-[radial-gradient(circle,rgba(139,92,246,0.08),transparent_70%)] animate-breathing will-change-[opacity]" />
-                
-                {/* Secondary orbs — desktop only to preserve premium look on PC */}
-                <div className="hidden md:block absolute top-[45%] left-[5%] w-[40%] h-[35%] bg-[radial-gradient(circle,rgba(49,46,129,0.12),transparent_70%)] animate-breathing will-change-[opacity]" style={{ animationDelay: '3s' }} />
-                <div className="hidden md:block absolute bottom-[10%] right-[15%] w-[30%] h-[25%] bg-[radial-gradient(circle,rgba(168,85,247,0.05),transparent_70%)] animate-breathing will-change-[opacity]" style={{ animationDelay: '5s' }} />
-            </div>
+            {/* Global ParallaxBackground is now managed in App.tsx */}
 
             <SEO
                 title="Exam Compass | Elite AI-Powered Prep for JEE Main & Adv, NEET, Boards (8-12)"
@@ -147,10 +144,10 @@ export const LandingPage = () => {
             
             {/* ExamGrid with slide-up reveal */}
             <motion.div
-                initial={{ opacity: 0, y: 40 }}
+                initial={isMobile ? { opacity: 0 } : { opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-30px" }}
-                transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
+                viewport={{ once: true, margin: "-10px" }}
+                transition={{ duration: isMobile ? 0.3 : 0.8, ease: [0.22, 1, 0.36, 1] }}
             >
                 <ExamGrid />
             </motion.div>
@@ -176,10 +173,10 @@ export const LandingPage = () => {
                     ].map((stat, i) => (
                         <motion.div 
                             key={i}
-                            initial={{ opacity: 0, y: 30 }}
+                            initial={isMobile ? { opacity: 0 } : { opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
-                            transition={{ delay: i * 0.1, duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+                            transition={{ delay: isMobile ? 0 : i * 0.05, duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
                             className="space-y-2 text-center md:text-left"
                         >
                             <div ref={stat.ref?.ref}>
@@ -249,9 +246,9 @@ export const LandingPage = () => {
                             key={i}
                             initial={{ opacity: 0, y: 50, rotate: 1 }}
                             whileInView={{ opacity: 1, y: 0, rotate: 0 }}
-                            viewport={{ once: true, margin: "-50px" }}
-                            transition={{ delay: i * 0.15, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-                            whileHover={{ y: -12, scale: 1.02, transition: { type: 'spring', stiffness: 300, damping: 20 } }}
+                            viewport={{ once: true, margin: "-20px" }}
+                            transition={{ delay: isMobile ? 0 : i * 0.1, duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+                            whileHover={isMobile ? {} : { y: -8, scale: 1.01, transition: { type: 'spring', stiffness: 300, damping: 20 } }}
                             className="glass-card group relative p-10 overflow-hidden"
                         >
                             {/* Hover glow overlay */}

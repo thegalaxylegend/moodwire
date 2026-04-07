@@ -17,6 +17,9 @@ import { AboutAuthor } from '../../components/seo/AboutAuthor';
 import { Breadcrumbs } from '../../components/seo/Breadcrumbs';
 import { Navbar } from '../../components/Navbar';
 import { SITE_URL } from '../../lib/siteConfig';
+import { BlogSkeleton } from '../../components/skeletons/BlogSkeleton';
+import { motion, useScroll, useSpring } from 'framer-motion';
+import { usePerformance } from '../../context/PerformanceProvider';
 
 
 
@@ -32,7 +35,17 @@ export const BlogPostPage: React.FC = () => {
     const [loading, setLoading] = useState(!meta || (!ssrMeta && !ssrContent));
     const [error, setError] = useState(false);
     const [generatingPdf, setGeneratingPdf] = useState(false);
-    const progressBarRef = React.useRef<HTMLDivElement>(null);
+
+    const { tier } = usePerformance();
+    const isLow = tier === 'low';
+
+    const { scrollYProgress } = useScroll();
+    const scaleX = useSpring(scrollYProgress, {
+        stiffness: 100,
+        damping: 30,
+        restDelta: 0.001
+    });
+
 
     const handleDownloadPDF = async () => {
         setGeneratingPdf(true);
@@ -51,25 +64,7 @@ export const BlogPostPage: React.FC = () => {
         }
     };
 
-    useEffect(() => {
-        let ticking = false;
-        const handleScroll = () => {
-            if (!ticking) {
-                window.requestAnimationFrame(() => {
-                    if (progressBarRef.current) {
-                        const totalHeight = document.documentElement.scrollHeight - window.innerHeight;
-                        const progress = (window.scrollY / totalHeight) * 100;
-                        progressBarRef.current.style.width = `${progress}%`;
-                    }
-                    ticking = false;
-                });
-                ticking = true;
-            }
-        };
 
-        window.addEventListener('scroll', handleScroll, { passive: true });
-        return () => window.removeEventListener('scroll', handleScroll);
-    }, []);
 
     useEffect(() => {
         // Skip client-side loading if we already have SSG content
@@ -110,8 +105,11 @@ export const BlogPostPage: React.FC = () => {
 
     if (loading) {
         return (
-            <div className="min-h-screen flex items-center justify-center bg-black">
-                <Loader2 className="w-10 h-10 animate-spin text-purple-500" />
+            <div className="min-h-screen bg-black">
+                <Navbar />
+                <div className="pt-28 pb-20 px-4 sm:px-6 max-w-4xl mx-auto">
+                    <BlogSkeleton />
+                </div>
             </div>
         );
     }
@@ -148,16 +146,20 @@ export const BlogPostPage: React.FC = () => {
             />
             <Navbar />
 
-            {/* Reading Progress Bar */}
+            {/* Reading Progress Bar - Ultra-smooth 120fps physics */}
             <div className="fixed top-0 left-0 w-full h-1 z-50 pointer-events-none">
-                <div 
-                    ref={progressBarRef}
-                    className="h-full bg-gradient-to-r from-purple-500 via-pink-500 to-purple-500 transition-none origin-left"
-                    style={{ width: '0%' }}
+                <motion.div 
+                    className="h-full bg-gradient-to-r from-purple-500 via-pink-500 to-purple-500 origin-left"
+                    style={{ scaleX }}
                 />
             </div>
 
-            <article className="pt-28 pb-20 px-4 sm:px-6 max-w-4xl mx-auto overflow-x-hidden">
+            <motion.article 
+                initial={isLow ? { opacity: 1 } : { opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8 }}
+                className="pt-28 pb-20 px-4 sm:px-6 max-w-4xl mx-auto overflow-x-hidden will-change-transform relative z-10"
+            >
                 <div className="mb-6">
                     <Breadcrumbs />
                 </div>
@@ -318,7 +320,7 @@ export const BlogPostPage: React.FC = () => {
                         <BlogCTA />
                     </div>
                 </footer>
-            </article>
+            </motion.article>
 
             <Footer />
         </div>

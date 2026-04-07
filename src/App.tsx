@@ -1,39 +1,42 @@
 import { Routes, Route, useLocation, Navigate } from 'react-router-dom';
 import { SmoothScroll } from './components/SmoothScroll';
-import { Suspense, lazy, useEffect, useState, useRef } from 'react';
+import { ParallaxBackground } from './components/ParallaxBackground';
+import { PerformanceProvider, usePerformance } from './context/PerformanceProvider';
+import { Suspense, lazy, useEffect, useState } from 'react';
 import { useUserStore } from './store/userStore';
 import { RouteTracker } from './components/RouteTracker';
 import { AutoSchema } from './components/seo/AutoSchema';
 import { GlobalLoading } from './components/skeletons/GlobalLoading';
 import { BlogSkeleton } from './components/skeletons/BlogSkeleton';
 import { DashboardSkeleton } from './components/skeletons/DashboardSkeleton';
-import { setUserProperties, trackWebVitals, initAnalytics } from './lib/analytics';
+import { trackWebVitals, initAnalytics } from './lib/analytics';
+import { ErrorBoundary } from './components/ErrorBoundary';
+import { CookieConsent } from './components/CookieConsent';
 
-// Layouts - Lazy for extreme mobile performance
+// Layouts
 const ProtectedLayout = lazy(() => import('./layouts/ProtectedLayout').then(module => ({ default: module.ProtectedLayout })));
 const DashboardLayout = lazy(() => import('./layouts/DashboardLayout').then(module => ({ default: module.DashboardLayout })));
 const AdminLayout = lazy(() => import('./layouts/AdminLayout').then(module => ({ default: module.AdminLayout })));
 
-// Public Pages - Synchronous for SSG Pre-rendering
-import { LandingPage } from './pages/LandingPage';
-import { ExamLanding } from './pages/public/ExamLanding';
-import { SubjectPage } from './pages/public/SubjectPage';
-import { TopicPage } from './pages/public/TopicPage';
-import { PyqCollectionPage } from './pages/public/PyqCollectionPage';
-import { QuestionPage } from './pages/public/QuestionPage';
-import { BlogIndex } from './pages/blog/BlogIndex';
-import { BlogPostPage } from './pages/blog/BlogPostPage';
-import { PrivacyPolicy } from './pages/public/PrivacyPolicy';
-import { TermsOfService } from './pages/public/TermsOfService';
-import { AboutPage } from './pages/public/AboutPage';
-import { ContactPage } from './pages/public/ContactPage';
-import { NotFoundPage } from './pages/public/NotFoundPage';
-import { CookieConsent } from './components/CookieConsent';
+// Public Pages
+const LandingPage = lazy(() => import('./pages/LandingPage').then(module => ({ default: module.LandingPage })));
+const ExamLanding = lazy(() => import('./pages/public/ExamLanding').then(module => ({ default: module.ExamLanding })));
+const SubjectPage = lazy(() => import('./pages/public/SubjectPage').then(module => ({ default: module.SubjectPage })));
+const TopicPage = lazy(() => import('./pages/public/TopicPage').then(module => ({ default: module.TopicPage })));
+const PyqCollectionPage = lazy(() => import('./pages/public/PyqCollectionPage').then(module => ({ default: module.PyqCollectionPage })));
+const QuestionPage = lazy(() => import('./pages/public/QuestionPage').then(module => ({ default: module.QuestionPage })));
+const BlogIndex = lazy(() => import('./pages/blog/BlogIndex').then(module => ({ default: module.BlogIndex })));
+const BlogPostPage = lazy(() => import('./pages/blog/BlogPostPage').then(module => ({ default: module.BlogPostPage })));
+const PrivacyPolicy = lazy(() => import('./pages/public/PrivacyPolicy').then(module => ({ default: module.PrivacyPolicy })));
+const TermsOfService = lazy(() => import('./pages/public/TermsOfService').then(module => ({ default: module.TermsOfService })));
+const AboutPage = lazy(() => import('./pages/public/AboutPage').then(module => ({ default: module.AboutPage })));
+const ContactPage = lazy(() => import('./pages/public/ContactPage').then(module => ({ default: module.ContactPage })));
+const NotFoundPage = lazy(() => import('./pages/public/NotFoundPage').then(module => ({ default: module.NotFoundPage })));
 
-// Auth - Lazy
+// Auth
 const Login = lazy(() => import('./pages/auth/Login').then(module => ({ default: module.Login })));
 
-// Dashboard Routes - Lazy (Protected)
+// Dashboard Routes
 const Overview = lazy(() => import('./pages/dashboard/Overview').then(module => ({ default: module.Overview })));
 const Syllabus = lazy(() => import('./pages/dashboard/Syllabus').then(module => ({ default: module.Syllabus })));
 const Timeline = lazy(() => import('./pages/dashboard/Timeline').then(module => ({ default: module.Timeline })));
@@ -55,7 +58,7 @@ const ActiveTest = lazy(() => import('./pages/dashboard/ActiveTest').then(module
 const SubjectSyllabus = lazy(() => import('./pages/dashboard/SubjectSyllabus').then(module => ({ default: module.SubjectSyllabus })));
 const RankInfo = lazy(() => import('./pages/dashboard/RankInfo').then(module => ({ default: module.RankInfo })));
 
-// Admin Routes - Lazy
+// Admin Routes
 const QuestionReview = lazy(() => import('./pages/admin/QuestionReview').then(module => ({ default: module.QuestionReview })));
 const SyllabusUpload = lazy(() => import('./pages/admin/SyllabusUpload').then(module => ({ default: module.SyllabusUpload })));
 const AdminOverview = lazy(() => import('./pages/admin/dashboard/AdminOverview').then(module => ({ default: module.AdminOverview })));
@@ -66,26 +69,21 @@ const UserManagement = lazy(() => import('./pages/admin/UserManagement').then(mo
 const SystemControl = lazy(() => import('./pages/admin/SystemControl').then(module => ({ default: module.SystemControl })));
 const AuditLogs = lazy(() => import('./pages/admin/AuditLogs').then(module => ({ default: module.AuditLogs })));
 
-// Components - Lazy
+// Components
 const Chatbot = lazy(() => import('./components/Chatbot').then(module => ({ default: module.Chatbot })));
 const LevelUpModal = lazy(() => import('./components/gamification/LevelUpModal').then(module => ({ default: module.LevelUpModal })));
 const PWAInstall = lazy(() => import('./components/PWAInstall').then(module => ({ default: module.PWAInstall })));
-// SEO Monitoring
-// trackWebVitals and setUserProperties are now imported from src/lib/analytics.ts
+
 const isServer = typeof window === 'undefined';
 
 const DelayedGlobalComponents = () => {
   const [show, setShow] = useState(false);
-  
   useEffect(() => {
-    // Defer non-critical UI to prioritize LCP
     const delay = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent) ? 1500 : 500;
     const timer = setTimeout(() => setShow(true), delay);
     return () => clearTimeout(timer);
   }, []);
-
   if (!show || isServer) return null;
-
   return (
     <>
       <FloatingUI />
@@ -99,39 +97,11 @@ const FloatingUI = () => {
   const [mounted, setMounted] = useState(false);
   const location = useLocation();
   const { user } = useUserStore();
-
   useEffect(() => {
-    // Load chatbot with a slight delay
-    const loadChatbot = () => {
-      if (window.requestIdleCallback) {
-        window.requestIdleCallback(() => setMounted(true));
-      } else {
-        setTimeout(() => setMounted(true), 200);
-      }
-    };
-
-    const delay = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent) ? 1500 : 500;
-    const timer = setTimeout(loadChatbot, delay);
+    const timer = setTimeout(() => setMounted(true), 500);
     return () => clearTimeout(timer);
   }, []);
-
-  // Only show on main dashboard screens after login
-  if (!user || !location.pathname.startsWith('/dashboard')) {
-    return null;
-  }
-
-  // Hide bubble on specific screens that have their own complex UI or integrated AI
-  if (
-    location.pathname.includes('/dashboard/lectures/') ||
-    location.pathname.includes('/dashboard/mock') ||
-    location.pathname.includes('/dashboard/test') ||
-    location.pathname.includes('/dashboard/diagnostic')
-  ) {
-    return null;
-  }
-
-  if (!mounted) return null;
-
+  if (!user || !location.pathname.startsWith('/dashboard') || !mounted) return null;
   return (
     <Suspense fallback={null}>
       <Chatbot />
@@ -139,164 +109,106 @@ const FloatingUI = () => {
   );
 };
 
-function App() {
-  console.log("🚀 [App] Rendering...");
-  const { user, initialize } = useUserStore();
+function AppContent() {
+  const { initialize } = useUserStore();
+  const { tier } = usePerformance();
   const [showLevelUp, setShowLevelUp] = useState(false);
-  const [levelUpXp, setLevelUpXp] = useState(0);
-  const prevRankNameRef = useRef<string | null>(null);
+  const [levelUpXp] = useState(0);
 
   useEffect(() => {
     initialize();
     initAnalytics();
-
-    // Defer non-critical monitoring
     (window.requestIdleCallback || ((cb) => setTimeout(cb, 1000)))(() => {
       trackWebVitals();
     });
-
-    // Capture registration intent from URL
-    if (typeof window !== 'undefined') {
-      const searchParams = new URLSearchParams(window.location.search);
-      const intentClass = searchParams.get('class');
-      const intentExam = searchParams.get('exam');
-        if (intentClass || intentExam) {
-          const intent = {
-            class: intentClass,
-            exam: intentExam,
-            savedAt: Date.now()
-          };
-          localStorage.setItem('exam_compass_intent', JSON.stringify(intent));
-          console.log("📝 [App] Captured registration intent (localStorage):", intent);
-        }
-
-      // Capture referral code from URL
-      const refCode = searchParams.get('ref');
-      if (refCode) {
-        const referral = {
-            code: refCode,
-            savedAt: Date.now()
-        };
-        localStorage.setItem('referral_code', JSON.stringify(referral));
-        console.log("🎁 [Referral] Stored referral code (localStorage):", refCode);
-      }
-    }
   }, []);
-
-  // Level Up Detection Logic
-  useEffect(() => {
-    const checkLevelUp = async () => {
-      if (!user) return;
-
-      const { getRankByValue } = await import('./services/gamificationService');
-      const currentRank = getRankByValue(user.xp);
-
-      if (prevRankNameRef.current && prevRankNameRef.current !== currentRank.name) {
-        console.log(`🎉 [LevelUp] User advanced to ${currentRank.name}!`);
-        setLevelUpXp(user.xp);
-        setShowLevelUp(true);
-      }
-
-      prevRankNameRef.current = currentRank.name;
-
-      setUserProperties({
-        selected_exam: user.targetExam,
-        user_class: user.userClass,
-        xp_level: currentRank.name,
-        auth_status: 'authenticated'
-      });
-    };
-
-    checkLevelUp();
-  }, [user?.xp, user?.id]);
 
   return (
     <SmoothScroll>
-      <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[9999] focus:p-4 focus:bg-primary focus:text-white focus:rounded-xl focus:font-bold outline-none">
-        Skip to main content
-      </a>
-      <RouteTracker />
-      <AutoSchema />
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/login" element={<Suspense fallback={<GlobalLoading />}><Login /></Suspense>} />
+      <div className={`perf-tier-${tier} min-h-screen relative`}>
+        <ParallaxBackground />
+        
+        <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[9999] focus:p-4 focus:bg-primary focus:text-white focus:rounded-xl focus:font-bold outline-none">
+          Skip to main content
+        </a>
+        <RouteTracker />
+        <AutoSchema />
+        
+        <ErrorBoundary>
+          <Routes>
+            <Route path="/" element={<Suspense fallback={<GlobalLoading />}><LandingPage /></Suspense>} />
+            <Route path="/login" element={<Suspense fallback={<GlobalLoading />}><Login /></Suspense>} />
+            <Route path="/blog" element={<Suspense fallback={<BlogSkeleton />}><BlogIndex /></Suspense>} />
+            <Route path="/blog/:slug" element={<Suspense fallback={<BlogSkeleton />}><BlogPostPage /></Suspense>} />
+            <Route path="/privacy" element={<Suspense fallback={<BlogSkeleton />}><PrivacyPolicy /></Suspense>} />
+            <Route path="/terms" element={<Suspense fallback={<BlogSkeleton />}><TermsOfService /></Suspense>} />
+            <Route path="/about" element={<Suspense fallback={<BlogSkeleton />}><AboutPage /></Suspense>} />
+            <Route path="/contact" element={<Suspense fallback={<BlogSkeleton />}><ContactPage /></Suspense>} />
 
-        {/* SEO Public Static Routes */}
-        <Route path="/blog" element={<Suspense fallback={<BlogSkeleton />}><BlogIndex /></Suspense>} />
-        <Route path="/blog/:slug" element={<Suspense fallback={<BlogSkeleton />}><BlogPostPage /></Suspense>} />
-        <Route path="/privacy" element={<Suspense fallback={<BlogSkeleton />}><PrivacyPolicy /></Suspense>} />
-        <Route path="/terms" element={<Suspense fallback={<BlogSkeleton />}><TermsOfService /></Suspense>} />
-        <Route path="/about" element={<Suspense fallback={<BlogSkeleton />}><AboutPage /></Suspense>} />
-        <Route path="/contact" element={<Suspense fallback={<BlogSkeleton />}><ContactPage /></Suspense>} />
+            <Route element={<Suspense fallback={<DashboardSkeleton />}><ProtectedLayout /></Suspense>}>
+              <Route path="/onboarding" element={<Onboarding />} />
+              <Route path="/dashboard/lectures/:topicId" element={<VideoLecturePage />} />
+              <Route path="/dashboard" element={<DashboardLayout />}>
+                <Route index element={<Overview />} />
+                <Route path="diagnostic" element={<DiagnosticTest />} />
+                <Route path="mock" element={<MockGenerator />} />
+                <Route path="study-plan" element={<StudyPlan />} />
+                <Route path="lectures" element={<Lectures />} />
+                <Route path="peer-benchmarking" element={<PeerBenchmarking />} />
+                <Route path="decision-simulator" element={<DecisionSimulator />} />
+                <Route path="syllabus" element={<Syllabus />} />
+                <Route path="syllabus/:subject" element={<SubjectSyllabus />} />
+                <Route path="saved-lectures" element={<SavedLectures />} />
+                <Route path="timeline" element={<Timeline />} />
+                <Route path="documents" element={<Documents />} />
+                <Route path="analytics" element={<Analytics />} />
+                <Route path="resources" element={<Resources />} />
+                <Route path="test-center" element={<TestCenter />} />
+                <Route path="test-active" element={<ActiveTest />} />
+                <Route path="profile" element={<ProfilePage />} />
+                <Route path="ranks" element={<RankInfo />} />
+              </Route>
+            </Route>
 
-        {/* Protected Routes (Auth + Onboarding Check) */}
-        <Route element={<Suspense fallback={<DashboardSkeleton />}><ProtectedLayout /></Suspense>}>
-          <Route path="/onboarding" element={<Onboarding />} />
+            <Route path="/admin" element={<Suspense fallback={<DashboardSkeleton />}><AdminLayout /></Suspense>}>
+              <Route index element={<Navigate to="/admin/overview" replace />} />
+              <Route path="overview" element={<AdminOverview />} />
+              <Route path="traffic" element={<TrafficAnalytics />} />
+              <Route path="search" element={<SearchAnalytics />} />
+              <Route path="jules" element={<JulesIntelligence />} />
+              <Route path="question-review" element={<QuestionReview />} />
+              <Route path="upload-syllabus" element={<SyllabusUpload />} />
+              <Route path="users" element={<UserManagement />} />
+              <Route path="audit-logs" element={<Suspense fallback={<DashboardSkeleton />}><AuditLogs /></Suspense>} />
+              <Route path="system" element={<SystemControl />} />
+            </Route>
 
-          {/* Video Lecture - Fullscreen without sidebar */}
-          <Route path="/dashboard/lectures/:topicId" element={<VideoLecturePage />} />
+            <Route path="/:exam" element={<Suspense fallback={<BlogSkeleton />}><ExamLanding /></Suspense>} />
+            <Route path="/:exam/:subject" element={<Suspense fallback={<BlogSkeleton />}><SubjectPage /></Suspense>} />
+            <Route path="/:exam/:subject/:topic" element={<Suspense fallback={<BlogSkeleton />}><TopicPage /></Suspense>} />
+            <Route path="/:exam/:subject/:topic/top-50-pyqs" element={<Suspense fallback={<BlogSkeleton />}><PyqCollectionPage /></Suspense>} />
+            <Route path="/:exam/q/:slug" element={<Suspense fallback={<BlogSkeleton />}><QuestionPage /></Suspense>} />
+            <Route path="*" element={<NotFoundPage />} />
+          </Routes>
+        </ErrorBoundary>
 
-          <Route path="/dashboard" element={<DashboardLayout />}>
-            <Route index element={<Overview />} />
-            <Route path="diagnostic" element={<DiagnosticTest />} />
-            <Route path="mock" element={<MockGenerator />} />
-            <Route path="study-plan" element={<StudyPlan />} />
-            <Route path="lectures" element={<Lectures />} />
-            <Route path="peer-benchmarking" element={<PeerBenchmarking />} />
-            <Route path="decision-simulator" element={<DecisionSimulator />} />
-            <Route path="syllabus" element={<Syllabus />} />
-            <Route path="syllabus/:subject" element={<SubjectSyllabus />} />
-            <Route path="saved-lectures" element={<SavedLectures />} />
-            <Route path="timeline" element={<Timeline />} />
-            <Route path="documents" element={<Documents />} />
-            <Route path="analytics" element={<Analytics />} />
-            <Route path="resources" element={<Resources />} />
-            <Route path="test-center" element={<TestCenter />} />
-            <Route path="test-active" element={<ActiveTest />} />
-            <Route path="profile" element={<ProfilePage />} />
-            <Route path="ranks" element={<RankInfo />} />
-          </Route>
-        </Route>
-
-        {/* Admin Routes */}
-        <Route path="/admin" element={<Suspense fallback={<DashboardSkeleton />}><AdminLayout /></Suspense>}>
-          <Route index element={<Navigate to="/admin/overview" replace />} />
-          <Route path="overview" element={<AdminOverview />} />
-          <Route path="traffic" element={<TrafficAnalytics />} />
-          <Route path="search" element={<SearchAnalytics />} />
-          <Route path="jules" element={<JulesIntelligence />} />
-          <Route path="question-review" element={<QuestionReview />} />
-          <Route path="upload-syllabus" element={<SyllabusUpload />} />
-          <Route path="users" element={<UserManagement />} />
-          <Route path="audit-logs" element={<Suspense fallback={<DashboardSkeleton />}><AuditLogs /></Suspense>} />
-          <Route path="system" element={<SystemControl />} />
-        </Route>
-
-        {/* SEO Public Dynamic Routes - Moved to bottom to prevent hijacking */}
-        <Route path="/:exam" element={<Suspense fallback={<BlogSkeleton />}><ExamLanding /></Suspense>} />
-        <Route path="/:exam/:subject" element={<Suspense fallback={<BlogSkeleton />}><SubjectPage /></Suspense>} />
-        <Route path="/:exam/:subject/:topic" element={<Suspense fallback={<BlogSkeleton />}><TopicPage /></Suspense>} />
-        <Route path="/:exam/:subject/:topic/top-50-pyqs" element={<Suspense fallback={<BlogSkeleton />}><PyqCollectionPage /></Suspense>} />
-        <Route path="/:exam/q/:slug" element={<Suspense fallback={<BlogSkeleton />}><QuestionPage /></Suspense>} />
-
-        {/* 404 Catch-all */}
-        <Route path="*" element={<NotFoundPage />} />
-
-      </Routes>
-
-      <Suspense fallback={null}>
-        <DelayedGlobalComponents />
-      </Suspense>
-
-      {showLevelUp && !isServer && (
-        <Suspense fallback={null}>
-          <LevelUpModal
-            newXp={levelUpXp}
-            onClose={() => setShowLevelUp(false)}
-          />
-        </Suspense>
-      )}
+        <Suspense fallback={null}><DelayedGlobalComponents /></Suspense>
+        
+        {showLevelUp && !isServer && (
+          <Suspense fallback={null}>
+            <LevelUpModal newXp={levelUpXp} onClose={() => setShowLevelUp(false)} />
+          </Suspense>
+        )}
+      </div>
     </SmoothScroll>
+  );
+}
+
+function App() {
+  return (
+    <PerformanceProvider>
+      <AppContent />
+    </PerformanceProvider>
   );
 }
 

@@ -49,7 +49,7 @@ export const MinimizedBubble: React.FC<MinimizedBubbleProps> = ({
                 <div className={`absolute -inset-1 rounded-full bg-gradient-to-tr from-primary via-indigo-500 to-purple-500 opacity-0 group-hover:opacity-100 blur-md transition-opacity duration-500`} />
                 
                 {/* Avatar Container */}
-                <div className={`w-14 h-14 md:w-20 md:h-20 rounded-[28px] bg-gradient-to-br from-[#11131c] to-[#1d1f29] border-2 transition-all duration-500 relative overflow-hidden flex items-center justify-center rotate-3 group-hover:rotate-0
+                <div className={`w-20 h-20 md:w-20 md:h-20 rounded-[32px] bg-gradient-to-br from-[#11131c] to-[#1d1f29] border-2 transition-all duration-500 relative overflow-hidden flex items-center justify-center rotate-3 group-hover:rotate-0
                     ${isCallActive ? 'border-[#81ecff] shadow-[0_0_50px_rgba(129,236,255,0.4)] scale-110' : 'border-white/10 shadow-[0_20px_40px_rgba(0,0,0,0.4)] shadow-[#5d21df]/10 group-hover:shadow-[#5d21df]/20'}
                     ${isSpeaking ? 'border-[#5d21df]' : 'group-hover:border-[#5d21df]/50'}`}>
                     

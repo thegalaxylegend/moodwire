@@ -225,7 +225,10 @@ export const DashboardLayout = () => {
                     </button>
                 </div>
 
-                <nav className="flex-1 px-4 space-y-2 mt-4 overflow-y-auto overflow-x-hidden no-scrollbar">
+                <nav 
+                    className="flex-1 px-4 space-y-2 mt-4 overflow-y-auto overflow-x-hidden no-scrollbar"
+                    data-lenis-prevent
+                >
                     {navItems.map((item) => (
                         <SidebarItem
                             key={item.path}
@@ -268,26 +271,27 @@ export const DashboardLayout = () => {
                 />
             </aside>
 
+            {/* Mobile Header - Truly Fixed at Top */}
+            <div className="lg:hidden fixed top-0 left-0 right-0 h-16 flex items-center justify-between px-4 bg-background/80 backdrop-blur-md border-b border-white/5 z-[60]">
+                <span className="text-xl md:text-2xl font-bold text-white tracking-tighter">Exam<span className="text-[#a855f7]">Compass</span></span>
+                <div className="flex items-center gap-3">
+                    {/* Streak Display (Mobile) */}
+                    <div className="flex items-center gap-1.5 px-3 py-1.5 bg-surface border border-border rounded-lg text-primary font-bold text-sm">
+                        <Flame size={16} className="fill-primary" />
+                        <span>{user?.streak || 0}</span>
+                    </div>
+                    <button onClick={() => setIsSidebarOpen(true)} className="p-2 rounded-lg bg-surface border border-border" aria-label="Open navigation menu">
+                        <Menu size={24} />
+                    </button>
+                </div>
+            </div>
+
             {/* Main Content */}
             <main 
                 data-lenis-prevent
-                className="flex-1 p-4 lg:p-10 overflow-x-hidden overflow-y-auto relative w-full pb-24 lg:pb-10 flex flex-col scrollbar-thin scroll-smooth"
+                className="flex-1 overflow-x-hidden overflow-y-auto relative w-full flex flex-col scrollbar-thin scroll-smooth min-h-screen"
             >
-                <div className="lg:hidden mb-4 h-20 flex items-center justify-between shrink-0 border-b border-white/5 -mt-4 -mx-4 px-4 bg-background/50 backdrop-blur-md sticky top-0 z-50">
-                    <span className="text-xl md:text-2xl font-bold text-white tracking-tighter">Exam<span className="text-[#a855f7]">Compass</span></span>
-                    <div className="flex items-center gap-3">
-                        {/* Streak Display (Mobile) */}
-                        <div className="flex items-center gap-1.5 px-3 py-1.5 bg-surface border border-border rounded-lg text-primary font-bold text-sm">
-                            <Flame size={16} className="fill-primary" />
-                            <span>{user?.streak || 0}</span>
-                        </div>
-                        <button onClick={() => setIsSidebarOpen(true)} className="p-2 rounded-lg bg-surface border border-border" aria-label="Open navigation menu">
-                            <Menu size={24} />
-                        </button>
-                    </div>
-                </div>
-
-                <div className="max-w-6xl mx-auto flex-1 flex flex-col w-full">
+                <div className="flex-1 flex flex-col p-4 pt-20 lg:p-10 lg:pt-10 pb-32 lg:pb-10 max-w-6xl mx-auto w-full">
                     <GuestBanner />
                     <Outlet />
                 </div>

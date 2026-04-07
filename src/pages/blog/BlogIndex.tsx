@@ -1,14 +1,23 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, Suspense, lazy } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { SEO } from '../../components/SEO';
 import { Navbar } from '../../components/Navbar';
-import { Suspense, lazy } from 'react';
 import { blogs } from '../../data/blogs';
 import { SITE_URL } from '../../lib/siteConfig';
+import { motion, useScroll, useTransform } from 'framer-motion';
+import { usePerformance } from '../../context/PerformanceProvider';
 
 const Footer = lazy(() => import('../../components/Footer').then(module => ({ default: module.Footer })));
 
 export const BlogIndex: React.FC = () => {
+    const { tier } = usePerformance();
+    const isElite = tier === 'elite';
+    const isLow = tier === 'low';
+
+    const { scrollY } = useScroll();
+    const heroY = useTransform(scrollY, [0, 500], [0, isElite ? 80 : 0]);
+    const heroOpacity = useTransform(scrollY, [0, 300], [1, 0]);
+    
     const [searchParams] = useSearchParams();
     const categoryFilter = searchParams.get('category');
 
@@ -18,7 +27,7 @@ export const BlogIndex: React.FC = () => {
     }, [categoryFilter]);
 
     return (
-        <div className="min-h-screen bg-black text-white selection:bg-purple-500/30">
+        <div className={`min-h-screen bg-black text-white selection:bg-purple-500/30 overflow-x-hidden relative perf-tier-${tier}`}>
             <SEO
                 title={categoryFilter ? `${categoryFilter} | Exam Compass Blog` : "Exam Compass Blog | AI Exam Prep Tips & Strategies"}
                 description={`Expert strategies, syllabus breakdowns, and exam preparation tips for ${categoryFilter || 'JEE, NEET, and CBSE Class 8-12'} students.`}
@@ -26,12 +35,18 @@ export const BlogIndex: React.FC = () => {
             />
             <Navbar />
 
-            <main className="pt-32 pb-20 px-6 max-w-7xl mx-auto animate-fade-in">
-                <header className="mb-20 text-center max-w-3xl mx-auto">
-                    <div className="inline-block px-4 py-1.5 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-400 text-xs font-bold tracking-widest uppercase mb-6 animate-fade-in">
+            <main className="pt-16 md:pt-28 pb-20 px-6 max-w-7xl mx-auto animate-fade-in">
+                <motion.header 
+                    style={{ y: heroY, opacity: heroOpacity }}
+                    initial={isLow ? {} : { opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.8, ease: "easeOut" }}
+                    className="mb-20 text-center max-w-3xl mx-auto will-change-transform"
+                >
+                    <div className="inline-block px-4 py-1.5 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-400 text-xs font-bold tracking-widest uppercase mb-6">
                         {categoryFilter || 'Insights & Strategies'}
                     </div>
-                    <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight text-white">
+                    <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight text-white leading-[1.1]">
                         {categoryFilter ? (
                             <>
                                 Focus on <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">{categoryFilter}</span>
@@ -42,7 +57,7 @@ export const BlogIndex: React.FC = () => {
                             </>
                         )}
                     </h1>
-                    <p className="text-xl text-gray-400 leading-relaxed">
+                    <p className="text-xl text-gray-400 leading-relaxed font-medium">
                         {categoryFilter 
                             ? `Explore our latest guides and notes specifically for ${categoryFilter}.`
                             : "Data-driven preparation guides, syllabus deep-dives, and AI-powered study hacks to give you the competitive edge."
@@ -53,15 +68,24 @@ export const BlogIndex: React.FC = () => {
                             ← View all categories
                         </Link>
                     )}
-                </header>
+                </motion.header>
+
+
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                     {filteredBlogs.map((blog, index) => (
-                        <Link
-                            to={`/blog/${blog.id}`}
+                        <motion.div
                             key={blog.id}
-                            className="group relative flex flex-col h-full bg-[#0a0a0a] rounded-[2.5rem] overflow-hidden border border-white/5 hover:border-purple-500/30 transition-all duration-700 hover:scale-[1.01] hover:shadow-[0_45px_100px_-20px_rgba(168,85,247,0.15)]"
+                            initial={isLow ? { opacity: 1 } : { opacity: 0, y: 30 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true, margin: "-10%" }}
+                            transition={{ delay: isLow ? 0 : index * 0.1, duration: 0.8, ease: "circOut" }}
+                            className="h-full"
                         >
+                            <Link
+                                to={`/blog/${blog.id}`}
+                                className="group relative flex flex-col h-full bg-[#0a0a0a] rounded-[2.5rem] overflow-hidden border border-white/5 hover:border-purple-500/30 transition-all duration-700 hover:scale-[1.01] hover:shadow-[0_45px_100px_-20px_rgba(168,85,247,0.15)] will-change-transform"
+                            >
                             {/* Visual Glow Behind Card */}
                             <div className="absolute inset-0 bg-gradient-to-b from-purple-500/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
                             
@@ -128,8 +152,9 @@ export const BlogIndex: React.FC = () => {
                             </div>
 
                             {/* Corner Accent Detail */}
-                            <div className="absolute top-0 right-0 w-24 h-24 bg-purple-500/5 blur-[40px] rounded-full" />
-                        </Link>
+                            {!isLow && <div className="absolute top-0 right-0 w-24 h-24 bg-purple-500/5 blur-[40px] rounded-full group-hover:bg-purple-500/10 transition-colors duration-700" />}
+                            </Link>
+                        </motion.div>
                     ))}
                 </div>
                 {filteredBlogs.length === 0 && (
@@ -146,4 +171,3 @@ export const BlogIndex: React.FC = () => {
         </div>
     );
 };
-

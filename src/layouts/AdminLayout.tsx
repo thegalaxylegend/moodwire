@@ -62,7 +62,10 @@ export const AdminLayout = () => {
                     </button>
                 </div>
 
-                <div className="flex-1 overflow-y-auto py-6 px-3 space-y-1 custom-scrollbar">
+                <div 
+                    className="flex-1 overflow-y-auto py-6 px-3 space-y-1 custom-scrollbar"
+                    data-lenis-prevent
+                >
                     <div className="px-3 mb-2 text-[10px] font-bold uppercase tracking-widest text-text-muted/50">Command Center</div>
                     <SidebarItem to="/admin/overview" icon={<Home size={20} />} label="Overview" active={location.pathname === '/admin/overview'} isSidebarOpen={true} onClick={() => setIsSidebarOpen(false)} />
                     <SidebarItem to="/admin/traffic" icon={<Activity size={20} />} label="Traffic" active={location.pathname === '/admin/traffic'} isSidebarOpen={true} onClick={() => setIsSidebarOpen(false)} />

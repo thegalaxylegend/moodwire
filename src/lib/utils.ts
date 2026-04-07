@@ -302,6 +302,6 @@ export const getSubjectsForExam = (examId: string): string[] => {
         if (subjects.length > 0) return subjects;
     }
 
-    // 3. Default (if nothing matches, return universal subjects)
-    return ['Physics', 'Chemistry', 'Mathematics'];
+    // 3. Default (No match)
+    return [];
 };

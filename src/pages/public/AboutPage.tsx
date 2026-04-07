@@ -5,10 +5,15 @@ import { AboutAuthor } from '../../components/seo/AboutAuthor';
 import { Link } from 'react-router-dom';
 import { Brain, Target, BarChart2, Zap } from 'lucide-react';
 import { SITE_URL, SITE_LOGO } from '../../lib/siteConfig';
+import { motion } from 'framer-motion';
+import { usePerformance } from '../../context/PerformanceProvider';
 
 export const AboutPage = () => {
+    const { tier } = usePerformance();
+    const isLow = tier === 'low';
+
     return (
-        <div className="min-h-screen bg-black text-white selection:bg-purple-500/30">
+        <div className={`min-h-screen bg-black text-white selection:bg-purple-500/30 perf-tier-${tier}`}>
             <SEO
                 title="About Exam Compass | AI-Powered Exam Preparation Platform"
                 description="Learn about Exam Compass — an AI-powered exam preparation platform built by a Class 11 student from KV Darbhanga, Bihar. Discover our mission to make exam prep data-driven and accessible."
@@ -34,7 +39,12 @@ export const AboutPage = () => {
             />
             <Navbar />
 
-            <main className="pt-32 pb-20 px-6 max-w-5xl mx-auto">
+            <motion.main 
+                initial={isLow ? {} : { opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+                className="pt-32 pb-20 px-6 max-w-5xl mx-auto will-change-transform"
+            >
                 <h1 className="text-5xl md:text-8xl font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 tracking-tighter">
                     Built for the Next Generation of Toppers.
                 </h1>
@@ -157,7 +167,7 @@ export const AboutPage = () => {
                         </div>
                     </div>
                 </section>
-            </main>
+            </motion.main>
 
             <Footer />
         </div>

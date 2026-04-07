@@ -67,24 +67,8 @@ async function pingIndexNow() {
 
         console.log('🏁 IndexNow synchronization complete.');
 
-        // ----------------------------------------------------------------------
-        // PHASE 3: GOOGLE INDEXING AUTOMATION
-        // Ping Google directly with the sitemap location to force a rapid re-crawl
-        // ----------------------------------------------------------------------
-        if (!DRY_RUN) {
-            console.log('📡 Pinging Google Search Console with updated sitemap...');
-            try {
-                const sitemapUrl = `https://${HOST}/sitemap.xml`;
-                const gscResponse = await fetch(`https://www.google.com/ping?sitemap=${encodeURIComponent(sitemapUrl)}`);
-                if (gscResponse.ok) {
-                    console.log(`✅ Google successfully notified to re-crawl sitemap.`);
-                } else {
-                    console.warn(`⚠️ Google ping failed (Status: ${gscResponse.status})`);
-                }
-            } catch (err) {
-                console.warn(`⚠️ Google ping error: ${err.message}`);
-            }
-        }
+        // Google and other modern engines now rely on robots.txt and manual GSC submission.
+        console.log('✅ IndexNow notified successfully. Google will crawl via sitemap.xml in robots.txt.');
 
     } catch (error) {
         console.error('❌ IndexNow Error:', error.message);
