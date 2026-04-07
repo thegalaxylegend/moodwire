@@ -58,7 +58,7 @@ practice_link: "/class-11/physics/kinetic-theory-class-11-revision-notes-jee-nee
 
 ## <a id="introduction"></a>Introduction
 
-The Kinetic Theory of Gases (KTG) provides a bridge between the macroscopic properties of gases (Pressure, Volume, Temperature) and the microscopic behavior of individual molecules. It treats a gas as a collection of billions of tiny, rapidly moving particles in constant random motion. Understanding these molecular dynamics is essential for explaining heat, thermodynamics, and the very nature of matter. In this "Comprehensive" guide, we provide exhaustive derivations for the Pressure of an Ideal Gas, the Kinetic Interpretation of Temperature, and the Law of Equipartition of Energy—providing the technical depth required for top-tier performance in JEE and NEET.
+The Kinetic Theory of Gases (KTG) provides a bridge between the macroscopic [properties](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet) of gases (Pressure, Volume, Temperature) and the microscopic behavior of individual molecules. It treats a gas as a collection of billions of tiny, rapidly moving particles in constant random motion. Understanding these molecular dynamics is essential for explaining heat, thermodynamics, and the very nature of matter. In this "Comprehensive" guide, we provide exhaustive derivations for the Pressure of an Ideal Gas, the Kinetic Interpretation of Temperature, and the Law of Equipartition of Energy—providing the technical depth required for top-tier performance in JEE and NEET.
 
 ---
 
@@ -203,7 +203,7 @@ The Kinetic Theory of Gases transforms our view of matter from static substances
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
 - 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
@@ -218,3 +218,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
+- 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
+- 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
+- 📖 [Thermal Properties Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet)

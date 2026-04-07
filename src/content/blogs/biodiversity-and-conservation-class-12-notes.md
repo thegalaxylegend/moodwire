@@ -47,7 +47,7 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
-- **Mistake 1:** Incorrectly identifying the level of biodiversity (species, genetic, ecosystem) in a given scenario.
+- **Mistake 1:** Incorrectly identifying the level of biodiversity (species, genetic, [ecosystem](/blog/ecosystem-class-12-notes)) in a given scenario.
 
  - *Costs:* 2-3 marks for incorrect identification and up to 5 marks if it leads to incorrect conclusions.
 
@@ -91,7 +91,7 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
  $$\text{Biodiversity Loss} = \text{Habitat Destruction} + \text{Overexploitation} + \text{Pollution} + \text{Climate Change}$$
 
- However, when we consider the scale and impact, habitat destruction is the leading cause, often driven by human activities such as deforestation and urbanization. 
+ However, when we consider the scale and impact, habitat destruction is the leading cause, often driven by [human](/blog/human-health-and-disease-class-12-notes) activities such as deforestation and urbanization. 
 
  $${\text{Habitat Destruction}} = {\text{Deforestation}} + {\text{Urbanization}}$$
 
@@ -183,7 +183,7 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 | Topic | Formula/Concept | Relevance to Conservation |
 | --- | --- | --- |
 | Species-Area Relationship | $$S = cA^z$$ | Understanding the relationship between species richness and area is crucial for conservation efforts, especially in the context of habitat fragmentation and reserve design. |
-| Minimum Viable Population (MVP) | MVP size is influenced by factors such as genetic diversity, demographic stochasticity, and environmental variability | Determining the MVP size is essential for developing effective conservation strategies, particularly for endangered species. |
+| Minimum Viable Population (MVP) | MVP size is influenced by factors such as genetic diversity, demographic stochasticity, and [environmental](/blog/environmental-issues-class-12-notes) variability | Determining the MVP size is essential for developing effective conservation strategies, particularly for endangered species. |
 | Metapopulation Concept | A metapopulation consists of subpopulations that interact through migration | The metapopulation concept is vital for understanding the dynamics of species in fragmented habitats and for designing effective conservation corridors. |
 
 
@@ -293,3 +293,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Biotechnology and its Applications Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biotechnology-and-its-applications-class-12-notes)
+- 📖 [Biotechnology: Principles and Processes Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biotechnology-principles-and-processes-class-12-notes)
+- 📖 [Ecosystem Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/ecosystem-class-12-notes)
+- 📖 [Environmental Issues Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-issues-class-12-notes)

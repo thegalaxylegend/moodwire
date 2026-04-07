@@ -98,9 +98,7 @@ practice_link: "/class-10/real-numbers-class-10-notes"
  - Given that $x = \frac{1}{2}(1 + \sqrt{5})$, substituting this into the quadratic equation gives us:
  $$\left(\frac{1}{2}(1 + \sqrt{5})\right)^2 - \frac{1}{2}(1 + \sqrt{5}) - n = 0$$
  Expanding and simplifying, 
- $$\frac{1}{4}(1 + 2\sqrt{5} + 5) - \frac{1}{2}(1 + \sqrt{5}) - n = 0$$
- $$\frac{1}{4}(6 + 2\sqrt{5}) - \frac{1}{2}(1 + \sqrt{5}) - n = 0$$
- $$\frac{3}{2} + \frac{\sqrt{5}}{2} - \frac{1}{2} - \frac{\sqrt{5}}{2} - n = 0$$
+ $$\frac{1}{4}(1 + 2\sqrt{5} + 5) - \frac{1}{2}(1 + \sqrt{5}) - n = 0\frac{1}{4}(6 + 2\sqrt{5}) - \frac{1}{2}(1 + \sqrt{5}) - n = 0\frac{3}{2} + \frac{\sqrt{5}}{2} - \frac{1}{2} - \frac{\sqrt{5}}{2} - n = 0$$
  Simplifying further,
  $$1 - n = 0$$
  Thus, 
@@ -113,8 +111,7 @@ practice_link: "/class-10/real-numbers-class-10-notes"
  - We want to find $ab + bc + ca$.
  - Recall the identity $(a + b + c)^2 = a^2 + b^2 + c^2 + 2ab + 2bc + 2ca$.
  - Substituting the given values, we have: 
- $$(3)^2 = 3 + 2(ab + bc + ca)$$
- $$9 = 3 + 2(ab + bc + ca)$$
+ $$(3)^2 = 3 + 2(ab + bc + ca)9 = 3 + 2(ab + bc + ca)$$
  Subtracting 3 from both sides,
  $$6 = 2(ab + bc + ca)$$
  Dividing by 2,
@@ -227,3 +224,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Arithmetic Progressions Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/arithmetic-progressions-class-10-notes)
+- 📖 [Pair of Linear Equations Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/pair-of-linear-equations-class-10-notes)
+- 📖 [Polynomials Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/polynomials-class-10-notes)
+- 📖 [Triangles Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/triangles-class-10-notes)

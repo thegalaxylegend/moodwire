@@ -40,7 +40,7 @@ practice_link: "/class-11/biology/limits-and-derivatives-class-11-revision-notes
 
 ## <a id="what-is-limits-and-derivatives"></a>What is Limits and Derivatives?
 
-As we dive into the realm of Class 11 mathematics, one concept stands out for its complexity and beauty: Limits and Derivatives. This fundamental idea is the cornerstone of calculus, a branch of mathematics that deals with the study of continuous change. For students preparing for their Class 11 exams in 2026, understanding Limits and Derivatives is not just a requirement, but a crucial stepping stone for success in mathematics and related fields.
+As we dive into the realm of [class](/blog/digital-logic-class-11-revision-notes-gate-boards) 11 mathematics, one concept stands out for its complexity and beauty: Limits and Derivatives. This fundamental idea is the cornerstone of calculus, a branch of mathematics that deals with the study of continuous change. For students preparing for their [class](/blog/digital-logic-class-11-revision-notes-gate-boards) 11 exams in 2026, understanding Limits and Derivatives is not just a requirement, but a crucial stepping stone for success in mathematics and related fields.
 
 In terms of exam weightage, Limits and Derivatives constitute a significant portion of the mathematics syllabus. The NCERT syllabus allocates around 20-25% of the total marks to this topic, making it a high-priority area for students. The exam typically includes a mix of theoretical and problem-based questions, testing students' understanding of concepts, formulas, and applications. With around 40-50 marks dedicated to this topic, it's essential for students to have a strong grasp of Limits and Derivatives to score well in their exams.
 
@@ -350,3 +350,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-and-combinations-class-11-revision-notes-jee)
+- 📖 [Algorithms: Design Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-design-class-11-revision-notes-gate-boards)
+- 📖 [Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/digital-logic-class-11-revision-notes-gate-boards)
+- 📖 [Probability (Intro) Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-intro-class-11-revision-notes-jee)

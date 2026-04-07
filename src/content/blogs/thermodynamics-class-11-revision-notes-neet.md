@@ -59,7 +59,7 @@ practice_link: "/class-11/biology/thermodynamics-class-11-revision-notes-neet"
 
 ## <a id="introduction"></a>Introduction
 
-Thermodynamics is the study of heat, work, and the transformation of energy from one form to another. Unlike mechanics, which focuses on individual particles, thermodynamics deals with large-scale systems and their "State Variables" like pressure, volume, and temperature. This chapter is the heartbeat of modern engineering—from the internal combustion engine in your car to the massive turbines in power plants. In this "Comprehensive" guide, we provide exhaustive derivations for work done in various processes, a step-by-step analysis of the Carnot Cycle, and the rigorous mathematical proofs required for top-tier competitive exams like JEE and NEET.
+[thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) is the study of heat, work, and the transformation of energy from one form to another. Unlike mechanics, which focuses on individual particles, [thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) deals with large-scale systems and their "State Variables" like pressure, volume, and temperature. This chapter is the heartbeat of modern engineering—from the internal combustion engine in your car to the massive turbines in power plants. In this "Comprehensive" guide, we provide exhaustive derivations for work done in various processes, a step-by-step analysis of the Carnot Cycle, and the rigorous mathematical proofs required for top-tier competitive exams like JEE and NEET.
 
 ---
 
@@ -164,7 +164,7 @@ The Second Law sets the direction of energy transfer and limits efficiency.
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 10: Thermal Properties of Matter**
-- **Chapter 12: Kinetic Theory of Gases (Molecular Dynamics)**
+- **Chapter 12: [kinetic](/blog/kinetic-theory-class-11-revision-notes-jee-neet) Theory of Gases (Molecular Dynamics)**
 - **Thermodynamics P-V Graph Solver Guide**
 
 
@@ -194,7 +194,7 @@ Thermodynamics is the science of limits. By understanding the mathematical proof
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/current-electricity-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Current Electricity Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/current-electricity-class-11-revision-notes-neet)
 - 📖 [Waves Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/waves-class-11-revision-notes-neet)
@@ -209,3 +209,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Current Electricity Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/current-electricity-class-11-revision-notes-neet)
+- 📖 [Waves Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/waves-class-11-revision-notes-neet)
+- 📖 [Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet)
+- 📖 [Kinetic Theory Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)

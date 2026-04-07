@@ -211,7 +211,7 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 
  - $\Delta G = \Delta H - T\Delta S$ is vital for understanding the spontaneity of a reaction.
 
- - Human disease can be caused by genetic, environmental, or infectious factors.
+ - [human](/blog/microbes-in-human-welfare-class-12-notes) disease can be caused by genetic, environmental, or infectious factors.
 
  - The human body has various defense mechanisms, including the immune system, to fight against diseases.
 
@@ -300,3 +300,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Human Reproduction Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/human-reproduction-class-12-notes)
+- 📖 [Microbes in Human Welfare Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/microbes-in-human-welfare-class-12-notes)
+- 📖 [Reproductive Health Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/reproductive-health-class-12-notes)
+- 📖 [Biodiversity and Conservation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)

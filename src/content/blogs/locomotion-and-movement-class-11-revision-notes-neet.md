@@ -47,7 +47,7 @@ practice_link: "/class-11/biology/locomotion-and-movement-class-11-revision-note
 
 ## <a id="introduction-to-locomotion-and-movement"></a>Introduction to Locomotion and Movement
 
-Locomotion and movement are vital aspects of an organism's survival and interaction with its environment. The ability to move allows organisms to adapt to changing conditions, find resources, and propagate their species. In this section, we will explore the different types of locomotion and movement, their mechanisms, and the underlying biological principles.
+Locomotion and movement are vital aspects of an organism's survival and interaction with its environment. The ability to move allows organisms to adapt to changing conditions, find resources, and propagate their species. In this section, we will explore the different types of locomotion and movement, their mechanisms, and the underlying [biological](/blog/biological-classification-class-11-revision-notes-neet) principles.
 
 ## <a id="types-of-locomotion-and-movement"></a>Types of Locomotion and Movement
 
@@ -63,7 +63,7 @@ There are several types of locomotion and movement, each with its unique charact
 To understand locomotion and movement, it is essential to grasp some core concepts, including:
 
 * **Muscle Structure and Function**: Muscles are the primary organs responsible for movement and locomotion. They consist of contractile units called sarcomeres, which generate force through the sliding filament theory.
-* **Nervous System Control**: The nervous system in controlling movement and locomotion. It transmits signals from the brain to the muscles, allowing for coordinated and precise movement.
+* **Nervous System [control](/blog/neural-control-and-coordination-class-11-revision-notes-neet)**: The nervous system in controlling movement and locomotion. It transmits signals from the brain to the muscles, allowing for coordinated and precise movement.
 * **Skeletal System Support**: The skeletal system provides support and structure for movement and locomotion. It consists of bones, cartilage, and ligaments that work together to facilitate movement.
 
 ## <a id="formulae-and-equations"></a>Formulae and Equations
@@ -150,7 +150,7 @@ The study of locomotion and movement is a fascinating and complex topic that req
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/animal-kingdom-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Neural Control And Coordination Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/neural-control-and-coordination-class-11-revision-notes-neet)
 - 📖 [Digestion And Absorption Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/digestion-and-absorption-class-11-revision-notes-neet)
@@ -165,3 +165,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Neural Control And Coordination Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/neural-control-and-coordination-class-11-revision-notes-neet)
+- 📖 [Animal Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)
+- 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
+- 📖 [Body Fluids And Circulation Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/body-fluids-and-circulation-class-11-revision-notes-neet)

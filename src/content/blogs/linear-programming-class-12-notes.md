@@ -42,7 +42,7 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 - **Formulation of Linear Programming Problems**: 1-2 questions on formulating real-life problems as linear programming problems — always
 - **Non-Negativity Constraints**: 1 numerical on handling non-negativity constraints in linear programming problems — always
 - **$x \\geq 0$ and $y \\geq 0$**: 1 question on plotting the non-negativity constraints and finding the feasible region — always
-- **Linear Programming Applications**: 1 question on applications of linear programming in real-life scenarios — always
+- **Linear Programming [applications](/blog/biotechnology-and-its-applications-class-12-notes)**: 1 question on [applications](/blog/biotechnology-and-its-applications-class-12-notes) of linear programming in real-life scenarios — always
 - **Maximization and Minimization**: 1 numerical on formulating and solving maximization and minimization problems using linear programming — always
 - **Multiple Optimal Solutions**: 1 question on identifying and handling multiple optimal solutions in linear programming problems — always
 - **Redundant Constraints**: 1 numerical on identifying and handling redundant constraints in linear programming problems — always 
@@ -439,3 +439,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Application of Derivatives Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
+- 📖 [Vector Algebra Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/vector-algebra-class-12-notes)
+- 📖 [Atoms Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/atoms-class-12-notes)
+- 📖 [Biodiversity and Conservation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)

@@ -76,7 +76,7 @@ This chapter is crucial for students preparing for the JEE and NEET exams, as it
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div class="note-box">
+<div [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)="note-box">
 I remember when I was preparing for my JEE exams, I struggled to understand the concept of tissue organisation. I would often get confused between the different types of tissues and their functions. However, after practising numerous questions and making flashcards, I was able to grasp the concept better. One mistake I made was not focusing enough on the functional aspects of tissue organisation, which led to me losing marks in the exams. To avoid this, I recommend that students focus on understanding the functional aspects of tissue organisation and practice questions that test their understanding of these concepts.
 </div>
 
@@ -203,3 +203,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
+- 📖 [Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)
+- 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
+- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)

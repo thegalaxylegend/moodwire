@@ -49,7 +49,7 @@ practice_link: "/class-11/physics/laws-of-motion-class-11-revision-notes-jee-nee
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
-> - **1st Law:** Inertia (object resists change in motion).
+> - **1st Law:** Inertia (object resists change in [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)).
 > - **2nd Law:** F = ma; Force = rate of change of momentum (dp/dt).
 > - **3rd Law:** Action = Reaction (on different bodies).
 > - **Banking of Roads:** v_max = √[rg (μ + tanθ)/(1 - μ tanθ)].
@@ -224,3 +224,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Rotational Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/rotational-motion-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
+- 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)

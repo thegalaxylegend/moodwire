@@ -42,7 +42,7 @@ practice_link: "/class-11/biology/class-10-science-pyq-strategy-class-10-revisio
 
 If you're reading this, you're probably freaking out about the upcoming science boards. I get it. I was in your shoes last year. I spent months jumping between various EdTech videos and coaching marathons, trying to figure out what actually matters. Here's the truth: the CBSE syllabus is a ocean, but the actual board exam is just a few frequent ponds.
 
-We (the team at Exam Compass) analyzed the last 10 years of **CBSE Class 10 Science most repeated PYQs**, and the data doesn't lie. CBSE is surprisingly predictable. If you know which "patterns" they love, you can honestly stop studying 30% of the useless fluff and focus on the goldmines.
+We (the team at Exam Compass) analyzed the last 10 years of **CBSE [class](/blog/class-10-30-day-timetable-class-10-revision-notes-jee) 10 Science most repeated PYQs**, and the data doesn't lie. CBSE is surprisingly predictable. If you know which "patterns" they love, you can honestly stop studying 30% of the useless fluff and focus on the goldmines.
 
 In this guide, I’m breaking down exactly what those patterns are, which chapters carry the most weight, and how you can use AI-powered mock tests to secure your 95+.
 
@@ -158,3 +158,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Cuet 2026 Master Strategy Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)
+- 📖 [Jee Mains High Weightage Chapters Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)
+- 📖 [Class 10 30 Day Timetable Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/class-10-30-day-timetable-class-10-revision-notes-jee)
+- 📖 [Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)

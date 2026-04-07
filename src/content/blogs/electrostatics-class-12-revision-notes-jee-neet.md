@@ -39,7 +39,7 @@ practice_link: "/class-11/biology/electrostatics-class-12-revision-notes-jee-nee
 
 ## <a id="what-is-electrostatics"></a>What is Electrostatics?
 
-As we dive into the world of physics for our Class 12 exam prep in 2026, one topic that stands out for its complexity and sheer weightage in the syllabus is Electrostatics. This branch of physics deals with the study of charges at rest, and trust me, it's a game-changer. The concepts you learn here will not only help you tackle the most challenging problems in your exams but also lay the foundation for more advanced topics like Electrodynamics.
+As we dive into the world of physics for our [class](/blog/wave-optics-class-12-notes) 12 exam prep in 2026, one topic that stands out for its complexity and sheer weightage in the syllabus is Electrostatics. This branch of physics deals with the study of charges at rest, and trust me, it's a game-changer. The concepts you learn here will not only help you tackle the most challenging problems in your exams but also lay the foundation for more advanced topics like Electrodynamics.
 
 Let's talk numbers first. In the Class 12 Physics syllabus, Electrostatics carries a significant weightage of around 15-20% in the theory paper. This means that out of the total 70 marks allocated to the theory section, you can expect at least 10-14 marks to be dedicated to Electrostatics. Now, I know what you're thinking - "That's a lot of marks for a single topic." And you're right, it is. But here's the thing: if you crack Electrostatics, you'll not only secure those 10-14 marks but also gain a solid understanding of the underlying principles that will help you tackle other topics like Current Electricity, Magnetism, and even Optics.
 
@@ -302,3 +302,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Magnetic Effects of Current Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetic-effects-of-current-class-12-notes)
+- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-and-combinations-class-11-revision-notes-jee)
+- 📖 [Wave Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/wave-optics-class-12-notes)
+- 📖 [Electromagnetic Induction Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)

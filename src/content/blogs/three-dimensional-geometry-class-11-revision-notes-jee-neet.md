@@ -56,7 +56,7 @@ practice_link: "/class-11/physics/three-dimensional-geometry-class-11-revision-n
 
 ## <a id="introduction"></a>Introduction
 
-**Three Dimensional Geometry extends the Cartesian coordinate system into space, providing the foundation for engineering, flight navigation, and Vector Algebra. Master the Eight Octants, the 3D distance formula, and section formulas to excel in spatial modeling and advanced physics. This Class 11 Math Chapter 12 summary provides all essential formulas for JEE and Board exam success.**
+**Three Dimensional Geometry extends the Cartesian coordinate system into space, providing the foundation for engineering, flight navigation, and Vector Algebra. Master the Eight Octants, the 3D distance formula, and section formulas to excel in spatial modeling and advanced physics. This [class](/blog/mathematical-induction-class-11-revision-notes-jee-neet) 11 Math Chapter 12 summary provides all essential formulas for JEE and Board exam success.**
 The transition from 2D to 3D geometry is like going from a flat map to the real world.
 
 ---
@@ -205,3 +205,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Straight Lines Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/straight-lines-class-11-revision-notes-jee-neet)
+- 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
+- 📖 [Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)

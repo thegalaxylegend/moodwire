@@ -53,7 +53,7 @@ practice_link: "/class-11/biology/work-energy-and-power-class-11-revision-notes-
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
 > - **Work:** W = Fd cosθ. Work done by constant force = area under F-x graph.
-> - **Work-Energy Theorem:** Work done by all forces = Change in Kinetic Energy (ΔK).
+> - **Work-Energy Theorem:** Work done by all forces = Change in [kinetic](/blog/kinetic-theory-class-11-revision-notes-jee-neet) Energy (ΔK).
 > - **Potential Energy:** Gravitational U = mgh; Spring U = ½kx².
 > - **Power:** P = ΔW/Δt = F · v. Unit: Watt (W).
 > - **Collisions:** Linear momentum is always conserved. Elastic collision: K.E. is also conserved.
@@ -64,7 +64,7 @@ practice_link: "/class-11/biology/work-energy-and-power-class-11-revision-notes-
 
 ## <a id="introduction"></a>Introduction
 
-While forces describe the "how" of motion, **Energy** and **Work** describe the "capability" of a system to undergo change. This chapter introduces the scalar approach to Mechanics, which often simplifies complex vector problems into straightforward energy balances. Whether we are analyzing the energy stored in a compressed spring or the impact of a high-speed collision, the rules of Work and Energy are universal. In this "Comprehensive" guide, we provide exhaustive derivations for the Work-Energy Theorem, Spring Potential Energy, and Power formulas, as well as a deep dive into the mechanics of elastic and inelastic collisions for JEE and NEET excellence.
+While forces describe the "how" of [motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet), **Energy** and **Work** describe the "capability" of a system to undergo change. This chapter introduces the scalar approach to Mechanics, which often simplifies complex vector problems into straightforward energy balances. Whether we are analyzing the energy stored in a compressed spring or the impact of a high-speed collision, the rules of Work and Energy are universal. In this "Comprehensive" guide, we provide exhaustive derivations for the Work-Energy Theorem, Spring Potential Energy, and Power formulas, as well as a deep dive into the mechanics of elastic and inelastic collisions for JEE and NEET excellence.
 
 ---
 
@@ -198,7 +198,7 @@ At descent height x: v² = 2gx. K = 1/2 m(2gx) = mgx. U = mg(H-x). Total = **mgH
 
 ## <a id="conclusion"></a>Conclusion
 
-Energy is the invisible currency of the universe. By shifting our perspective from forces (vectors) to energy (scalars), we unlock a simpler, more powerful way to solve complex physical problems. Master the Work-Energy Theorem and the conservation of mechanical energy—these are the laws that ensure the bridge stands, the rocket launches, and the universe keeps moving. Stay energetic, work with purpose, and always conserve your potential!
+Energy is the invisible currency of the universe. By shifting our perspective from forces (vectors) to energy (scalars), we unlock a simpler, more powerful way to solve complex physical problems. Master the Work-Energy Theorem and the conservation of [mechanical](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) energy—these are the laws that ensure the bridge stands, the rocket launches, and the universe keeps moving. Stay energetic, work with purpose, and always conserve your potential!
 
 ---
 **Reference:** [Journal of Energy and Power Technology](https://www.lidsen.com/journals/jept)
@@ -235,3 +235,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
+- 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
+- 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
+- 📖 [Current Electricity Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/current-electricity-class-11-revision-notes-neet)

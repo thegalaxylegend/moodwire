@@ -44,7 +44,7 @@ practice_link: "/class-11/physics/classification-of-elements-class-11-revision-n
 
 ## <a id="ayushs-personal-note"></a>Ayush's Personal Note
 
-As I prepare for my Class 11 chemistry exams, I realize the importance of understanding the classification of elements. It's not just about memorizing the periodic table, but also about comprehending the underlying principles and concepts. I've found that creating flashcards and concept maps helps me to better retain the information and make connections between different ideas. My teacher has also advised me to practice solving problems and past-year questions to get a feel for the exam pattern.
+As I prepare for my Class 11 chemistry exams, I realize the importance of understanding the classification of [elements](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet). It's not just about memorizing the periodic table, but also about comprehending the underlying principles and concepts. I've found that creating flashcards and concept maps helps me to better retain the information and make connections between different ideas. My teacher has also advised me to practice solving problems and past-year questions to get a feel for the exam pattern.
 
 ## <a id="introduction-to-classification-of-elements"></a>Introduction to Classification of Elements
 
@@ -304,3 +304,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Some Basic Concepts Of Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet)
+- 📖 [Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)
+- 📖 [The P Block Elements 11 Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet)
+- 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)

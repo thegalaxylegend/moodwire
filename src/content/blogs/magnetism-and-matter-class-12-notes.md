@@ -39,8 +39,8 @@ practice_link: "/class-11/biology/magnetism-and-matter-class-12-notes"
 
 ## <a id="what-is-magnetism-and-matter"></a>What is Magnetism and Matter?
 
-**Magnetism and Matter: Unlocking the Secrets of Magnetic Fields**
-As we dive into the realm of physics, it's essential to understand the intricacies of magnetism and its relationship with matter. This chapter is a crucial component of the Class 12 physics syllabus, accounting for approximately **10-12% of the total marks** in the CBSE board exams. With a significant weightage, it's imperative to grasp the concepts, formulas, and applications of magnetism to excel in the exams.
+**Magnetism and Matter: Unlocking the Secrets of [magnetic](/blog/magnetic-effects-of-current-class-12-notes) Fields**
+As we dive into the realm of physics, it's essential to understand the intricacies of magnetism and its relationship with matter. This chapter is a crucial component of the [class](/blog/alternating-current-class-12-notes) 12 physics syllabus, accounting for approximately **10-12% of the total marks** in the CBSE board exams. With a significant weightage, it's imperative to grasp the concepts, formulas, and applications of magnetism to excel in the exams.
 
 Personally, I found magnetism to be a fascinating topic during my own Class 12 journey. The concept of **magnetic fields** and their ability to exert forces on charged particles and other magnets sparked my curiosity. I remember spending hours experimenting with magnets, observing how they interacted with each other and with different materials. This curiosity drove me to delve deeper into the subject, and I soon realized that magnetism is an integral part of our daily lives, from the Earth's magnetic field that guides navigation systems to the magnetic resonance imaging (MRI) machines used in medical diagnostics.
 
@@ -397,3 +397,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Magnetic Effects of Current Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetic-effects-of-current-class-12-notes)
+- 📖 [Electromagnetic Induction Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
+- 📖 [Alternating Current Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/alternating-current-class-12-notes)
+- 📖 [Electromagnetic Waves Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-waves-class-12-notes)

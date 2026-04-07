@@ -38,7 +38,7 @@ practice_link: "/class-11/chemistry/coordination-compounds-class-12-notes"
 * Valence Bond Theory (VBT) and Crystal Field Theory (CFT) will be tested, with 1-2 questions on the splitting of d-orbitals in octahedral and tetrahedral fields, and the resulting spectra.
 * Magnetic moment calculations will be asked, using the formula $\\mu = \\sqrt{n(n+2)}$, where n is the number of unpaired electrons, to determine the number of unpaired electrons in a given complex.
 * 1 numerical on the preparation of a specific coordination compound, such as $[Cu(NH_3)_4]SO_4$ or $K_3[Fe(CN)_6]$, will be included, testing students' understanding of synthetic methods.
-* The importance of coordination compounds in biological systems will be highlighted, with 1 question on the role of metal ions in enzymes, such as carbonic anhydrase or carboxypeptidase, and their interaction with amino acids and other biomolecules.
+* The importance of coordination compounds in biological [systems](/blog/communication-systems-class-12-notes) will be highlighted, with 1 question on the role of metal ions in enzymes, such as carbonic anhydrase or carboxypeptidase, and their interaction with amino acids and other biomolecules.
 * Werner's theory and the concept of primary and secondary valencies will be tested, with 1 question on the structure and properties of a specific complex, such as $[Co(NH_3)_6]Cl_3$, to assess understanding of coordination geometry and ligand field strength.
 * Spectrochemical series and the factors affecting the crystal field splitting energy (\\Delta) will be examined, including 1 question on the effect of ligand field strength on the spectra of transition metal complexes.
 * The stability of coordination compounds, including the chelate effect and the influence of hard and soft acids and bases, will be tested, with 1 question on the relative stability of complexes with different ligands and metal ions.
@@ -269,7 +269,7 @@ The key concept that differentiates 85% scorers from 95% scorers in the chapter 
 | Optical | Presence of a chiral center, leading to non-superimposable mirror images | [Co(en)2Cl2]+ |
 | Staggered and eclipsed conformation in ethane-like complexes | Difference in the dihedral angle between ligands | [Cr(NH3)6]3+ |
 =======
-- **The Core Concept:** The key to mastering coordination compounds lies in understanding the concept of **isomerism**. Isomerism refers to the phenomenon where two or more compounds have the same molecular formula but differ in their structural or spatial arrangement of atoms. In coordination compounds, isomerism can arise due to the difference in the arrangement of ligands around the central metal ion.
+- **The Core Concept:** The key to mastering coordination compounds lies in understanding the concept of **isomerism**. Isomerism refers to the phenomenon where two or more compounds have the same molecular formula but differ in their structural or spatial arrangement of [atoms](/blog/atoms-class-12-notes). In coordination compounds, isomerism can arise due to the difference in the arrangement of ligands around the central metal ion.
 
  - **What 85% scorers do:** Most students are familiar with the basic types of isomerism, such as **geometrical isomerism** (cis-trans isomerism) and **optical isomerism**. However, they often struggle to identify and distinguish between different types of isomers, particularly in complex coordination compounds. They may rely on memorization rather than understanding the underlying principles.
 
@@ -536,3 +536,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Chemical Kinetics Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/chemical-kinetics-class-12-notes)
+- 📖 [Haloalkanes and Haloarenes Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/haloalkanes-and-haloarenes-class-12-notes)
+- 📖 [Solutions Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/solutions-class-12-notes)
+- 📖 [Atoms Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/atoms-class-12-notes)

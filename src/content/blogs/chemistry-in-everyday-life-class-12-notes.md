@@ -28,7 +28,7 @@ practice_link: "/class-11/chemistry/chemistry-in-everyday-life-class-12-notes"
 
 
 
-<div class="quick-summary">
+<div [class](/blog/coordination-compounds-class-12-notes)="quick-summary">
 
 #- [📋 Table of Contents](#-table-of-contents)
 
@@ -121,3 +121,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Alcohols, Phenols and Ethers Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/alcohols-phenols-and-ethers-class-12-notes)
+- 📖 [Chemical Kinetics Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/chemical-kinetics-class-12-notes)
+- 📖 [Coordination Compounds Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/coordination-compounds-class-12-notes)
+- 📖 [Haloalkanes and Haloarenes Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/haloalkanes-and-haloarenes-class-12-notes)

@@ -188,7 +188,7 @@ where $\rho(x,y)$ is the density of the solid at the point $(x,y)$.
 
 ## <a id="-the-5-trap-mistakes"></a>🪤 The 5 Trap Mistakes
 
-When working with integrals, there are several common mistakes that can lead to incorrect solutions. Here are five trap mistakes to watch out for:
+When working with [integrals](/blog/application-of-integrals-class-12-notes), there are several common mistakes that can lead to incorrect solutions. Here are five trap mistakes to watch out for:
 
 #### #### Mistake 1: Forgetting the Constant of Integration
 When integrating a function, it's easy to forget to include the constant of integration. This can lead to incorrect solutions, especially when working with definite integrals.
@@ -222,7 +222,7 @@ These advanced topics in integrals provide a deeper understanding of the subject
 
 ### <a id="-master-the-test-center-stepbystep-learning"></a>📝 Master the Test Center — Step-by-Step Learning
 
-To become a master of integrals, it's essential to practice and apply the concepts learned. The Test Center at /class-11/mathematics/integrals-class-12-notes is an excellent resource to achieve this goal. Here's why:
+To become a master of integrals, it's essential to practice and apply the concepts learned. The Test Center at /[class](/blog/determinants-class-12-notes)-11/mathematics/integrals-[class](/blog/determinants-class-12-notes)-12-notes is an excellent resource to achieve this goal. Here's why:
 
 *   **Comprehensive Practice Questions:** The Test Center offers a wide range of practice questions that cover all aspects of integrals, from basic to advanced topics.
 *   **Personalized Learning:** The Test Center allows you to create a personalized learning plan, focusing on areas where you need improvement.
@@ -279,3 +279,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-integrals-class-12-notes)
+- 📖 [Continuity and Differentiability Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/continuity-and-differentiability-class-12-notes)
+- 📖 [Determinants Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/determinants-class-12-notes)
+- 📖 [Differential Equations Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/differential-equations-class-12-notes)

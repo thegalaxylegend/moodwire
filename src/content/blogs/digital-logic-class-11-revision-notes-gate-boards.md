@@ -39,7 +39,7 @@ practice_link: "/class-11/biology/digital-logic-class-11-revision-notes-gate-boa
 
 ## <a id="what-is-digital-logic"></a>What is Digital Logic?
 
-As we step into the realm of Class 11, our curriculum undergoes a significant shift, particularly in the domain of Computer Science. One of the foundational pillars of this subject is Digital Logic, a fascinating field that forms the backbone of modern computing. For those of us who have always been intrigued by how computers process information, Digital Logic offers a glimpse into the intricate dance of 0s and 1s that power our digital world.
+As we step into the realm of Class 11, our curriculum undergoes a significant shift, particularly in the domain of [computer](/blog/computer-organization-class-11-notes) Science. One of the foundational pillars of this subject is Digital Logic, a fascinating field that forms the backbone of modern computing. For those of us who have always been intrigued by how computers process information, Digital Logic offers a glimpse into the intricate dance of 0s and 1s that power our digital world.
 
 In terms of exam weightage, Digital Logic carries substantial significance in the Class 11 Computer Science syllabus. Typically, it accounts for around 20-25% of the total marks, making it a crucial component that can make or break our overall score. The exam usually tests our understanding of basic concepts such as logic gates, Boolean algebra, and combinational circuits, as well as our ability to apply these principles to solve problems. With a thorough grasp of Digital Logic, we can not only ace this section but also develop a solid foundation for more advanced topics in Computer Science.
 
@@ -568,3 +568,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Algorithms: Analysis Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-analysis-class-11-revision-notes-gate-boards)
+- 📖 [Algorithms: Design Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-design-class-11-revision-notes-gate-boards)
+- 📖 [Computer Organization Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/computer-organization-class-11-notes)
+- 📖 [Data Structures: Non-Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards)

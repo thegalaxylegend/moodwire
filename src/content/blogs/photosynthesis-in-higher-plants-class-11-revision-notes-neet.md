@@ -72,7 +72,7 @@ Photosynthesis is [the process by which green plants, algae, and some bacteria c
 
 ## <a id="why-this-chapter-matters"></a>Why This Chapter Matters
 
-Photosynthesis is a critical topic in the Class 11 biology syllabus, and it has been a popular question in various competitive exams, including JEE and NEET. In the 2026 JEE Mains exam, 2 questions were asked from this topic, and in the 2026 NEET exam, 3 questions were asked. Therefore, it is essential to have a thorough understanding of this topic to score well in these exams.
+Photosynthesis is a critical topic in the [class](/blog/environmental-chemistry-class-11-revision-notes-neet) 11 biology syllabus, and it has been a popular question in various competitive exams, including JEE and NEET. In the 2026 JEE Mains exam, 2 questions were asked from this topic, and in the 2026 NEET exam, 3 questions were asked. Therefore, it is essential to have a thorough understanding of this topic to score well in these exams.
 
 
 
@@ -205,3 +205,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
+- 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
+- 📖 [Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)
+- 📖 [Plant Growth And Development Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/plant-growth-and-development-class-11-revision-notes-neet)

@@ -189,7 +189,7 @@ Some important terms related to body fluids and circulation include:
 - Diastole: the period of relaxation between heartbeats
 - Hypertension: high blood pressure
 - Isotonic: having the same concentration of solutes as blood plasma
-- Osmosis: the movement of water molecules from an area of high concentration to an area of low concentration through a semipermeable membrane
+- Osmosis: the [movement](/blog/locomotion-and-movement-class-11-revision-notes-neet) of water molecules from an area of high concentration to an area of low concentration through a semipermeable membrane
 - Phlebotomy: the removal of blood from the body, often for medical testing or donation
 - Systole: the period of contraction during a heartbeat
 - Thrombosis: the formation of a blood clot within a blood vessel
@@ -210,7 +210,7 @@ Diagrams and illustrations can be helpful in understanding the concepts related 
 
 ## <a id="step-14-case-studies"></a>Step 14: Case Studies
 
-Case studies can provide real-world examples of how body fluids and circulation are affected by different conditions and diseases. Some examples include:
+Case studies can provide real-[world](/blog/the-living-world-class-11-revision-notes-neet) examples of how body fluids and circulation are affected by different conditions and diseases. Some examples include:
 - A patient with hypertension, who must manage their blood pressure through lifestyle changes and medication
 - A person with anemia, who may require blood transfusions to increase their red blood cell count
 - An individual with atherosclerosis, who must manage their condition through lifestyle changes and medication to prevent further buildup of plaque in the arteries
@@ -227,7 +227,7 @@ Recent advances in the field of body fluids and circulation include:
 - The creation of artificial blood vessels and organs, such as artificial hearts and lungs
 - The development of new diagnostic techniques, such as imaging tests and biomarkers, to detect and monitor cardiovascular disease.
 
-By understanding the concepts related to body fluids and circulation, individuals can better appreciate the importance of maintaining a healthy cardiovascular system and take steps to prevent and manage cardiovascular disease. Regular exercise, a balanced diet, and stress management can all help to promote cardiovascular health and reduce the risk of disease. Additionally, staying informed about recent advances and breakthroughs in the field can provide individuals with the knowledge and tools they need to take control of their health and make informed decisions about their care. 
+By understanding the concepts related to body fluids and circulation, individuals can better appreciate the importance of maintaining a healthy cardiovascular system and take steps to prevent and manage cardiovascular disease. Regular exercise, a balanced diet, and stress management can all help to promote cardiovascular health and reduce the risk of disease. Additionally, staying informed about recent advances and breakthroughs in the field can provide individuals with the knowledge and tools they need to take [control](/blog/neural-control-and-coordination-class-11-revision-notes-neet) of their health and make informed decisions about their care. 
 
 The equation for blood pressure can be written in LaTeX as $BP = \frac{CO \times PR}{1}$, and the equation for cardiac output can be written as $CO = SV \times HR$. The structure of the heart can be represented using the following LaTeX equation:
 $\boxed{Heart} = \boxed{Atria} + \boxed{Ventricles} + \boxed{Septa} + \boxed{Valves}$. 
@@ -631,3 +631,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Neural Control And Coordination Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/neural-control-and-coordination-class-11-revision-notes-neet)
+- 📖 [Digestion And Absorption Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/digestion-and-absorption-class-11-revision-notes-neet)
+- 📖 [Locomotion And Movement Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/locomotion-and-movement-class-11-revision-notes-neet)
+- 📖 [The Living World Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/the-living-world-class-11-revision-notes-neet)

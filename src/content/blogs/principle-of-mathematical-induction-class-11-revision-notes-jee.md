@@ -40,7 +40,7 @@ practice_link: "/class-11/physics/principle-of-mathematical-induction-class-11-r
 
 ## <a id="what-is-principle-of-mathematical-induction"></a>What is Principle of Mathematical Induction?
 
-As we dive into the world of mathematics for our Class 11 exam prep in 2026, one concept stands out for its beauty and utility: the Principle of Mathematical Induction (PMI). This powerful tool allows us to prove that a statement is true for all positive integers, making it a cornerstone of discrete mathematics. But before we explore the intricacies of PMI, let's set the stage for its importance in our exam.
+As we dive into the world of mathematics for our [class](/blog/relations-and-functions-class-11-notes) 11 exam prep in 2026, one concept stands out for its beauty and utility: the Principle of Mathematical Induction (PMI). This powerful tool allows us to prove that a statement is true for all positive integers, making it a cornerstone of discrete mathematics. But before we explore the intricacies of PMI, let's set the stage for its importance in our exam.
 
 The Class 11 mathematics syllabus is divided into several key areas, including sets, relations, functions, algebra, and geometry. Within the algebra section, the Principle of Mathematical Induction holds significant weightage, with a dedicated section in the CBSE syllabus. Typically, 2-3 questions are asked in the exam, with a total weightage of around 10-12 marks. This might seem like a small fraction of the overall exam, but trust me, mastering PMI can make all the difference in your overall score.
 
@@ -438,3 +438,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-and-combinations-class-11-revision-notes-jee)
+- 📖 [Electromagnetic Induction Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
+- 📖 [Relations and Functions Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/relations-and-functions-class-11-notes)
+- 📖 [Probability (Intro) Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-intro-class-11-revision-notes-jee)

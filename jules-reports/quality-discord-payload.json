@@ -6,22 +6,27 @@
       "fields": [
         {
           "name": "📊 All-Time Stats",
-          "value": "Total: 3 blogs\nPassed: 3\nFailed: 0\nPass Rate: 100%",
+          "value": "Total: 3 blogs\nPassed: 2\nFailed: 1\nPass Rate: 67%",
           "inline": true
         },
         {
           "name": "📈 Avg Quality Score",
-          "value": "100/100",
+          "value": "86.7/100",
           "inline": true
         },
         {
           "name": "➡️ Trend",
           "value": "STABLE (0)",
           "inline": true
+        },
+        {
+          "name": "🔴 Top Errors",
+          "value": "• Critically low word count: 330 (Min 800 for Patching) (×1)",
+          "inline": false
         }
       ],
       "footer": {
-        "text": "Report generated: 2026-04-06T02:18:48.521Z"
+        "text": "Report generated: 2026-04-07T06:44:12.458Z"
       }
     }
   ]

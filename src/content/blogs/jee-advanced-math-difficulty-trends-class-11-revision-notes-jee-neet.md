@@ -73,7 +73,7 @@ What used to be a scoring, straightforward chapter has transformed. Recent JEE A
 
 ## <a id="4-coordinate-geometry-escaping-the-time-sink"></a>4. Coordinate Geometry: Escaping the Time Sink
 
-Coordinate Geometry traditionally required massive calculations. The recent trend favors questions testing geometric intuition over algebraic bash. If your solution for a conic section problem spans two pages, you are likely missing a geometric property (like director circles, focal chords, or reflection properties).
+Coordinate [geometry](/blog/three-dimensional-geometry-class-11-revision-notes-jee-neet) traditionally required massive calculations. The recent trend favors questions testing geometric intuition over algebraic bash. If your solution for a conic section problem spans two pages, you are likely missing a geometric property (like director circles, focal chords, or reflection properties).
 
 
 
@@ -111,7 +111,7 @@ Mastering JEE Advanced Mathematics is no longer about doing 500 repetitive probl
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/structure-of-atom-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Three Dimensional Geometry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/three-dimensional-geometry-class-11-revision-notes-jee-neet)
 - 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
@@ -126,3 +126,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
+- 📖 [Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/structure-of-atom-class-11-revision-notes-jee-neet)
+- 📖 [Three Dimensional Geometry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/three-dimensional-geometry-class-11-revision-notes-jee-neet)
+- 📖 [Chemical Bonding Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/chemical-bonding-class-11-revision-notes-jee-neet)

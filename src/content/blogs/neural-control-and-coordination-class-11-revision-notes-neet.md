@@ -52,7 +52,7 @@ practice_link: "/class-11/biology/neural-control-and-coordination-class-11-revis
 
 ## <a id="introduction-to-neural-control-and-coordination"></a>Introduction to Neural Control and Coordination
 
-Neural control and coordination are fundamental processes that enable organisms to respond to their environment, maintain homeostasis, and execute voluntary movements. The nervous system, along with the endocrine system, in controlling and coordinating body functions. The nervous system can be broadly classified into two parts: the central nervous system (CNS), which includes the brain and spinal cord, and the peripheral nervous system (PNS), which consists of nerves that connect the CNS to the rest of the body.
+Neural control and [coordination](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) are fundamental processes that enable organisms to respond to their environment, maintain homeostasis, and execute voluntary movements. The nervous system, along with the endocrine system, in controlling and coordinating body functions. The nervous system can be broadly classified into two parts: the central nervous system (CNS), which includes the brain and spinal cord, and the peripheral nervous system (PNS), which consists of nerves that connect the CNS to the rest of the body.
 
 ## <a id="core-concepts"></a>Core Concepts
 
@@ -69,11 +69,11 @@ There are three main types of neurons based on their functions:
 Synaptic transmission is the process by which neurons communicate with each other. It involves the release of neurotransmitters from the axon terminal of one neuron, which then bind to receptors on the dendrite of another neuron. This binding can either excite the neuron (excitatory neurotransmitters) or inhibit it (inhibitory neurotransmitters).
 
 ### <a id="reflex-action"></a>Reflex Action
-A reflex action is an involuntary and immediate movement in response to a stimulus. It involves a reflex arc, which consists of a sensory neuron, a motor neuron, and sometimes an interneuron. The simplest reflex pathway is a monosynaptic reflex, which involves only two neurons: a sensory neuron and a motor neuron.
+A reflex action is an involuntary and immediate [movement](/blog/locomotion-and-movement-class-11-revision-notes-neet) in response to a stimulus. It involves a reflex arc, which consists of a sensory neuron, a motor neuron, and sometimes an interneuron. The simplest reflex pathway is a monosynaptic reflex, which involves only two neurons: a sensory neuron and a motor neuron.
 
 ## <a id="formulae"></a>Formulae
 
-While there aren't direct mathematical formulae for neural control and coordination, understanding the basic principles of action potential is crucial. The action potential can be described by the Hodgkin-Huxley model, which uses differential equations to model how the electrical properties of the neuron's membrane change during an action potential. However, for the purpose of Class 11 biology, focusing on the qualitative aspects of action potential is sufficient.
+While there aren't direct mathematical formulae for neural control and coordination, understanding the basic principles of action potential is crucial. The action potential can be described by the Hodgkin-Huxley model, which uses differential equations to model how the electrical properties of the neuron's membrane change during an action potential. However, for the purpose of [class](/blog/body-fluids-and-circulation-class-11-revision-notes-neet) 11 biology, focusing on the qualitative aspects of action potential is sufficient.
 
 ## <a id="jeeneet-relevance"></a>JEE/NEET Relevance
 
@@ -163,3 +163,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Chemical Coordination And Integration Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet)
+- 📖 [Body Fluids And Circulation Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/body-fluids-and-circulation-class-11-revision-notes-neet)
+- 📖 [Locomotion And Movement Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/locomotion-and-movement-class-11-revision-notes-neet)
+- 📖 [Animal Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)

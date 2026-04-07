@@ -69,7 +69,7 @@ practice_link: "/class-11/mathematics/3d-geometry-intro-class-11-revision-notes-
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/ai-study-hack-pomodoro-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Agriculture Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/agriculture-class-11-revision-notes-neet)
 - 📖 [Ai Exam Prep Future Class 11 Computer Science Recap — CBSE 2026 Quick Guide](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet)
@@ -84,3 +84,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Agriculture Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/agriculture-class-11-revision-notes-neet)
+- 📖 [Ai Exam Prep Future Class 11 Computer Science Recap — CBSE 2026 Quick Guide](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet)
+- 📖 [Ai Study Hack Pomodoro Class 11 Computer Science Recap — CBSE 2026 Quick Guide](/blog/ai-study-hack-pomodoro-class-11-revision-notes-neet)
+- 📖 [Probability (Intro) Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-intro-class-11-revision-notes-jee)

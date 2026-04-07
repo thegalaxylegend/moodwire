@@ -85,13 +85,13 @@ practice_link: "/class-11/biology/ecosystem-class-12-notes"
 
  - **Mistake 4:** Incorrectly applying the concept of ecological succession, especially in distinguishing between primary and secondary succession.
 
- - *Costs:* 3-4 marks for confusing the processes and timelines of primary and secondary succession.
+ - *Costs:* 3-4 marks for confusing the [processes](/blog/biotechnology-principles-and-processes-class-12-notes) and timelines of primary and secondary succession.
 
  - *Fix:* Recall that primary succession occurs in areas where no soil exists (e.g., after a volcanic eruption), while secondary succession happens in areas where soil is already present (e.g., after a forest fire). Understand the stages of each type, including the pioneer species and the climax community.
 
- - **Mistake 5:** Not understanding the impact of human activities on ecosystems, such as pollution, deforestation, and climate change.
+ - **Mistake 5:** Not understanding the impact of [human](/blog/human-health-and-disease-class-12-notes) activities on ecosystems, such as pollution, deforestation, and climate change.
 
- - *Costs:* 4-5 marks for failing to discuss the effects of human activities on ecosystems and potential conservation strategies.
+ - *Costs:* 4-5 marks for failing to discuss the effects of human activities on ecosystems and potential [conservation](/blog/biodiversity-and-conservation-class-12-notes) strategies.
 
  - *Fix:* Study how human actions like pollution and deforestation affect biodiversity, ecosystem services, and the greenhouse effect. Learn about strategies for mitigation and conservation, including sustainable practices, renewable energy sources, and protected areas.
 
@@ -259,3 +259,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Biodiversity and Conservation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
+- 📖 [Biotechnology and its Applications Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biotechnology-and-its-applications-class-12-notes)
+- 📖 [Biotechnology: Principles and Processes Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biotechnology-principles-and-processes-class-12-notes)
+- 📖 [Environmental Issues Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-issues-class-12-notes)

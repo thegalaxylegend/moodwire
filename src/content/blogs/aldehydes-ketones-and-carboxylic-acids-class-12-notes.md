@@ -66,7 +66,7 @@ practice_link: "/class-11/chemistry/aldehydes-ketones-and-carboxylic-acids-class
  - [📝 Daily Practice and Revision](#-daily-practice-and-revision)
 
 ### <a id="-nucleophilic-addition-reactions"></a>🌟 Nucleophilic Addition Reactions
-- Nucleophilic addition reactions are a crucial aspect of aldehyde and ketone chemistry
+- Nucleophilic addition reactions are a crucial aspect of aldehyde and ketone [chemistry](/blog/surface-chemistry-class-12-notes)
 - These reactions involve the addition of a nucleophile to the carbonyl carbon, resulting in the formation of a new bond
 - Examples of nucleophilic addition reactions include:
  - Grignard reaction: $${RCHO + CH_3MgBr \rightarrow RCH(OH)CH_3}$$
@@ -236,7 +236,7 @@ Aldehydes and ketones are both carbonyl compounds, but they differ in their stru
 Aldehydes and ketones have distinct physical properties, such as boiling points, melting points, and solubility. These properties are essential in identifying and separating these compounds.
 
 #### 📊 Chemical Properties
-The chemical properties of aldehydes and ketones are also unique. They undergo various reactions, including nucleophilic addition, reduction, and oxidation. Understanding these reactions is crucial in synthesizing and manipulating these compounds.
+The [chemical](/blog/chemical-kinetics-class-12-notes) properties of aldehydes and ketones are also unique. They undergo various reactions, including nucleophilic addition, reduction, and oxidation. Understanding these reactions is crucial in synthesizing and manipulating these compounds.
 
 ## <a id="-the-5-trap-mistakes"></a>🪤 The 5 Trap Mistakes
 When dealing with aldehydes, ketones, and carboxylic acids, there are common mistakes that students tend to make. These mistakes can be detrimental to their understanding and performance in exams. The 5 trap mistakes are:
@@ -266,7 +266,7 @@ Oxidation of aldehydes to carboxylic acids is a common reaction. This reaction i
 Oxidation of ketones is also possible, resulting in the formation of a new carbon-oxygen bond. This reaction involves the use of an oxidizing agent, such as chromium trioxide, to oxidize the ketone.
 
 ### <a id="-carboxylic-acid-reactions"></a>🌟 Carboxylic Acid Reactions
-Carboxylic acids are another essential class of compounds in organic chemistry. These compounds undergo various reactions, including esterification, hydrolysis, and reduction.
+Carboxylic acids are another essential [class](/blog/amines-class-12-notes) of compounds in organic chemistry. These compounds undergo various reactions, including esterification, hydrolysis, and reduction.
 
 #### 📝 Esterification
 Esterification is a reaction between a carboxylic acid and an alcohol, resulting in the formation of an ester. This reaction is crucial in the synthesis of esters and is often used in perfume and fragrance production.
@@ -348,3 +348,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Amines Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Metallurgy Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/metallurgy-class-12-notes)
+- 📖 [Solid State Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/solid-state-class-12-notes)
+- 📖 [Surface Chemistry Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/surface-chemistry-class-12-notes)

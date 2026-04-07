@@ -70,7 +70,7 @@ practice_link: "/class-11/biology/current-electricity-class-11-revision-notes-ne
 
 ## <a id="introduction"></a>Introduction
 
-While electrostatics deals with charges at rest, **Current Electricity** is the study of charges in motion. It is the lifeblood of modern civilization—the pulse of every microprocessor, the power behind every motor, and the signal in every communication line. This chapter marks the transition from static fields to dynamic energy transfer. In this "Comprehensive" guide, we provide a deep microscopic dive into the behavior of electrons in a lattice, rigorous proofs for Kirchhoff’s Laws, and a technical comparison between bridge circuits and measuring instruments. Whether you are prepping for JEE Main, NEET, or your Board exams, these notes provide the exhaustive detail and mathematical rigor necessary for absolute mastery.
+While electrostatics deals with charges at rest, **Current Electricity** is the study of charges in motion. It is the lifeblood of modern civilization—the pulse of every microprocessor, the power behind every motor, and the signal in every communication line. This chapter marks the transition from static fields to dynamic energy transfer. In this "Comprehensive" guide, we provide a deep microscopic dive into the behavior of electrons in a lattice, rigorous proofs for Kirchhoff’s Laws, and a technical comparison between bridge circuits and measuring instruments. Whether you are prepping for JEE Main, NEET, or your Board exams, these [notes](/blog/kinetic-theory-class-11-revision-notes-jee-neet) provide the exhaustive detail and mathematical rigor necessary for absolute mastery.
 
 ---
 
@@ -273,3 +273,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Moving Charges Magnetism Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/moving-charges-magnetism-class-11-revision-notes-neet)
+- 📖 [Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
+- 📖 [Kinetic Theory Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)

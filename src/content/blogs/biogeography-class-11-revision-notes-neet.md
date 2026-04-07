@@ -53,7 +53,7 @@ practice_link: "/class-11/biology/biogeography-class-11-revision-notes-neet"
 ## <a id="quick-revision-and-recap-biogeography"></a>Quick Revision & Recap: Biogeography
 
 
-Biogeography is the study of the geographical distribution of living organisms. It aims to understand the patterns and processes that have led to the current distribution of species across the globe. Key terms to recall:
+Biogeography is the study of the geographical distribution of living organisms. It aims to understand the patterns and processes that have led to the [current](/blog/current-electricity-class-11-revision-notes-neet) distribution of species across the globe. Key terms to recall:
 * **Endemic species**: species found only in a specific geographical area
 * **Cosmopolitan species**: species found all over the world
 * **Migratory species**: species that move seasonally from one region to another
@@ -182,7 +182,7 @@ As I complete my review of biogeography, I am reminded of the importance of this
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/moving-charges-magnetism-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Art Culture Architecture Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/art-culture-architecture-class-11-revision-notes-jee-neet)
 - 📖 [Oceanography Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oceanography-class-11-revision-notes-jee-neet)
@@ -197,3 +197,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Art Culture Architecture Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/art-culture-architecture-class-11-revision-notes-jee-neet)
+- 📖 [Current Electricity Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/current-electricity-class-11-revision-notes-neet)
+- 📖 [Moving Charges Magnetism Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/moving-charges-magnetism-class-11-revision-notes-neet)
+- 📖 [Oceanography Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oceanography-class-11-revision-notes-jee-neet)

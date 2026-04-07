@@ -40,7 +40,7 @@ practice_link: "/class-11/biology/algorithms-design-class-11-revision-notes-gate
 
 ## <a id="what-is-algorithms-design"></a>What is Algorithms: Design?
 
-As we dive into the world of computer science for our Class 11 exam prep in 2026, it's essential to acknowledge the significance of algorithms in the curriculum. Algorithms are the backbone of computer science, and their design is a crucial aspect of the subject. The Central Board of Secondary Education (CBSE) has allocated a substantial weightage to this topic, with approximately 15-20% of the total marks dedicated to algorithms and their applications.
+As we dive into the world of computer science for our [class](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) 11 exam prep in 2026, it's essential to acknowledge the significance of algorithms in the curriculum. Algorithms are the backbone of computer science, and their design is a crucial aspect of the subject. The Central Board of Secondary Education (CBSE) has allocated a substantial weightage to this topic, with approximately 15-20% of the total marks dedicated to algorithms and their applications.
 
 To put this into perspective, the CBSE Class 11 computer science syllabus is divided into six units, with Unit 4 focusing specifically on algorithms. This unit covers topics such as the introduction to algorithms, algorithmic complexity, and the design of algorithms for various problems. The exam will test our understanding of these concepts, as well as our ability to apply them to real-world scenarios. For instance, we'll be expected to analyze the $O(n^2)$ time complexity of a bubble sort algorithm and compare it to the $O(n \log n)$ time complexity of a merge sort algorithm.
 
@@ -452,3 +452,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Algorithms: Analysis Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-analysis-class-11-revision-notes-gate-boards)
+- 📖 [Data Structures: Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/data-structures-linear-class-11-revision-notes-gate-boards)
+- 📖 [Data Structures: Non-Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards)
+- 📖 [Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/digital-logic-class-11-revision-notes-gate-boards)

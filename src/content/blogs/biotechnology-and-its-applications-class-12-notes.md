@@ -59,7 +59,7 @@ practice_link: "/class-11/biology/biotechnology-and-its-applications-class-12-no
 
 - **Mistake 1:** Confusing the terms $\	ext{transformation}$ and $\	ext{transfection}$. 
 
- - *Costs:* 2-3 marks for incorrect terminology in Biotechnology questions.
+ - *Costs:* 2-3 marks for incorrect terminology in [biotechnology](/blog/biotechnology-principles-and-processes-class-12-notes) questions.
 
  - *Fix:* Remember, $\	ext{transformation}$ refers to the introduction of foreign DNA into a cell, while $\	ext{transfection}$ specifically refers to the introduction of foreign DNA into eukaryotic cells.
 
@@ -112,7 +112,7 @@ ightleftharpoons \	ext{Lac Repressor-Lactose Complex}
 
  - **Answer:** The lac operator is a regulatory DNA sequence that binds to the lac repressor, controlling the transcription of the lac genes.
 
- - **Q2:** A recombinant DNA molecule is constructed by inserting a piece of human DNA into a plasmid vector. What is the purpose of using restriction enzymes in this process?
+ - **Q2:** A recombinant DNA molecule is constructed by inserting a piece of [human](/blog/human-health-and-disease-class-12-notes) DNA into a plasmid vector. What is the purpose of using restriction enzymes in this process?
 
  - **Trap:** Students may think that restriction enzymes are used to ligate the DNA fragments.
 
@@ -325,3 +325,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Biotechnology: Principles and Processes Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biotechnology-principles-and-processes-class-12-notes)
+- 📖 [Biodiversity and Conservation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
+- 📖 [Ecosystem Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/ecosystem-class-12-notes)
+- 📖 [Environmental Issues Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-issues-class-12-notes)

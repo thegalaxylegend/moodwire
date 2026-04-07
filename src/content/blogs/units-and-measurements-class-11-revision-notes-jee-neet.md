@@ -63,7 +63,7 @@ practice_link: "/class-11/physics/units-and-measurements-class-11-revision-notes
 
 ## <a id="introduction"></a>Introduction
 
-Measurement is the cornerstone of all experimental and theoretical sciences. Physics is an exact science that relies on the precise quantification of physical phenomena. Whether we are probing the subatomic scale of a proton or the cosmic scale of a galaxy, we need a , standardized system of units and a rigorous understanding of measurement errors. These "Comprehensive" revision notes provide more than just a summary—they offer deep theoretical insights, mathematical proofs for error propagation, and advanced applications of dimensional analysis. chapter is the first step toward becoming a world-class physicist.
+Measurement is the cornerstone of all experimental and theoretical sciences. Physics is an exact science that relies on the precise quantification of physical phenomena. Whether we are probing the subatomic scale of a proton or the cosmic scale of a galaxy, we need a , standardized system of units and a rigorous understanding of measurement errors. These "Comprehensive" revision notes provide more than just a summary—they offer deep theoretical insights, [mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) proofs for error propagation, and advanced applications of dimensional analysis. chapter is the first step toward becoming a world-class physicist.
 
 ---
 
@@ -226,3 +226,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
+- 📖 [Limits Derivatives Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/limits-derivatives-class-11-revision-notes-jee-neet)
+- 📖 [Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)
+- 📖 [Mathematical Reasoning Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-reasoning-class-11-revision-notes-jee-neet)

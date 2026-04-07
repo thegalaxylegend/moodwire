@@ -73,7 +73,7 @@ Plant Kingdom is a critical topic for JEE and NEET exams, with 3-4 questions ask
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div class="ayush-note">
+<div [class](/blog/environmental-chemistry-class-11-revision-notes-neet)="ayush-note">
 I still remember when I was preparing for JEE, I used to get confused between the different plant groups. I would often mix up the characteristics of Bryophyta and Tracheophyta. But then I realized that the key to understanding Plant Kingdom is to focus on the vascular tissue. Once I understood the difference between vascular and non-vascular plants, I was able to classify plants easily. My advice to you is to practice, practice, practice! Make sure you practice at least 50-60 questions from this topic to get a good grip on it.
 </div>
 
@@ -208,3 +208,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Plant Growth And Development Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/plant-growth-and-development-class-11-revision-notes-neet)
+- 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
+- 📖 [Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)
+- 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)

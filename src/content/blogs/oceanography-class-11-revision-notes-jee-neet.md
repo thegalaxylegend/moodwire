@@ -110,7 +110,7 @@ Be cautious of these common exceptions and misconceptions:
 * **Trap 2**: Confusing salinity with density. While related, these two properties are distinct and have different units.
 * **Trap 3**: Overlooking the importance of marine life in oceanography. Phytoplankton, zooplankton, and benthic organisms are crucial components of the ocean's ecosystem.
 
-By focusing on these core concepts, formulae, and data, you'll be well-prepared to tackle oceanography in your Class 11 geography studies. Remember to review and practice regularly to reinforce your understanding and avoid common pitfalls. Happy learning! 
+By focusing on these core concepts, formulae, and data, you'll be well-prepared to tackle oceanography in your [class](/blog/biogeography-class-11-revision-notes-neet) 11 geography studies. Remember to review and practice regularly to reinforce your understanding and avoid common pitfalls. Happy learning! 
 
 ### <a id="additional-tips-for-quick-revision"></a>Additional Tips for Quick Revision
 To make the most of this revision guide, follow these tips:
@@ -217,3 +217,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)
+- 📖 [Art Culture Architecture Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/art-culture-architecture-class-11-revision-notes-jee-neet)
+- 📖 [Biogeography Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biogeography-class-11-revision-notes-neet)
+- 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)

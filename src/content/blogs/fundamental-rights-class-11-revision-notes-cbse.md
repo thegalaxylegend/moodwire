@@ -62,7 +62,7 @@ The key features of Fundamental Rights are their universality, equality, and jus
 
 ## <a id="what-is-the-historical-context-of-fundamental-rights"></a>What is the historical context of Fundamental Rights?
 
-The concept of Fundamental Rights has its roots in the Indian independence movement. The Indian National Congress, in its Karachi session in 1931, adopted a resolution that emphasized the importance of fundamental rights in a free India. After independence, the Constituent Assembly incorporated these rights into the Indian Constitution, which came into effect on January 26, 1950. The historical timeline of Fundamental Rights is marked by significant events, including the **Constitutional Amendment of 1976**, which added the right to property as a constitutional right, and the **Constitutional Amendment of 2010**, which introduced the right to education as a fundamental right.
+The concept of Fundamental Rights has its roots in the Indian independence movement. The Indian National Congress, in its Karachi session in 1931, adopted a resolution that emphasized the importance of fundamental rights in a free [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee). After independence, the Constituent Assembly incorporated these rights into the Indian Constitution, which came into effect on January 26, 1950. The historical timeline of Fundamental Rights is marked by significant events, including the **Constitutional Amendment of 1976**, which added the right to property as a constitutional right, and the **Constitutional Amendment of 2010**, which introduced the right to education as a fundamental right.
 
 
 
@@ -152,3 +152,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Federalism Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/federalism-class-11-revision-notes-cbse)
+- 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)
+- 📖 [Constitutional Framework Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/constitutional-framework-class-11-revision-notes-cbse)
+- 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)

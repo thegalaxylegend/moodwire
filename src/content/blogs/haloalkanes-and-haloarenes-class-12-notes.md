@@ -39,7 +39,7 @@ practice_link: "/class-11/chemistry/haloalkanes-and-haloarenes-class-12-notes"
 * The directive influence of halogen atoms in electrophilic aromatic substitution reactions, including the use of $NO_2^+$ and $Br^+$ as electrophiles.
 * The comparison of the reactivity of haloalkanes and haloarenes, highlighting the differences in their reaction mechanisms and the factors that influence their reactivity.
 * The use of $NaN_3$ and $NaCN$ as nucleophiles in substitution reactions, including the conditions necessary for these reactions to occur and the products formed.
-* 1-2 questions on the identification of haloalkanes and haloarenes using chemical tests, such as the Beilstein test and the Lassaigne test.
+* 1-2 questions on the identification of haloalkanes and haloarenes using [chemical](/blog/chemical-kinetics-class-12-notes) tests, such as the Beilstein test and the Lassaigne test.
 * The importance of haloalkanes and haloarenes in daily life, including their use as solvents, anesthetics, and pharmaceuticals, and the environmental concerns associated with their use.
 
 
@@ -255,3 +255,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Chemical Kinetics Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/chemical-kinetics-class-12-notes)
+- 📖 [Coordination Compounds Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/coordination-compounds-class-12-notes)
+- 📖 [Solutions Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/solutions-class-12-notes)
+- 📖 [Atoms Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/atoms-class-12-notes)

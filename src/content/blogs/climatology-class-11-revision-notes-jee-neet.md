@@ -91,7 +91,7 @@ Be cautious of the following exceptions:
 
 The following are the main types of climates:
 
-1. **Tropical Climate**: Characterized by high temperatures and high humidity.
+1. **Tropical [climate](/blog/indian-geography-climate-class-11-revision-notes-cbse)**: Characterized by high temperatures and high humidity.
 2. **Desert Climate**: Characterized by low temperatures and low humidity.
 3. **Temperate Climate**: Characterized by moderate temperatures and moderate humidity.
 4. **Polar Climate**: Characterized by low temperatures and low humidity.
@@ -135,7 +135,7 @@ Here is a concept map to help you visualize the relationships between different 
 \end{tikzpicture}
 ```
 
-By mastering these core concepts, formulae, and climatic factors, you'll be well-prepared to tackle any question related to climatology in your Class 11 Geography exams and JEE/NEET entrance exams. Remember to practice regularly and stay updated with the latest information to achieve success.
+By mastering these core concepts, formulae, and climatic factors, you'll be well-prepared to tackle any question related to climatology in your [class](/blog/classification-of-elements-class-11-revision-notes-jee-neet) 11 Geography exams and JEE/NEET entrance exams. Remember to practice regularly and stay updated with the latest information to achieve success.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
@@ -169,3 +169,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Geomorphology Class 11 Geography Recap — CBSE 2026 Quick Guide](/blog/geomorphology-class-11-revision-notes-cbse)
+- 📖 [Indian Geography Climate Class 11 Geography Recap — CBSE 2026 Quick Guide](/blog/indian-geography-climate-class-11-revision-notes-cbse)
+- 📖 [Classification Of Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-of-elements-class-11-revision-notes-jee-neet)
+- 📖 [The P Block Elements 11 Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet)

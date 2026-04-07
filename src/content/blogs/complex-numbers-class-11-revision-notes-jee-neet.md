@@ -57,7 +57,7 @@ practice_link: "/class-11/physics/complex-numbers-class-11-revision-notes-jee-ne
 
 ## <a id="introduction"></a>Introduction
 
-**Complex Numbers expand the real number system by introducing the imaginary unit 'i', enabling the solution of all quadratic equations. Master the Argand plane, modulus, conjugate, and polar representation to solve advanced electrical engineering and rotation problems. This Class 11 Math Chapter 5 summary provides the essential tools for JEE and Board exam success.**
+**Complex Numbers expand the real number system by introducing the imaginary unit 'i', enabling the solution of all quadratic equations. Master the Argand [plane](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet), modulus, conjugate, and polar representation to solve advanced electrical engineering and rotation problems. This Class 11 Math Chapter 5 summary provides the essential tools for JEE and Board exam success.**
 The real number system is not enough to solve all mathematical problems.
 
 ---
@@ -203,3 +203,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Limits Derivatives Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/limits-derivatives-class-11-revision-notes-jee-neet)
+- 📖 [Linear Inequalities Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/linear-inequalities-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)

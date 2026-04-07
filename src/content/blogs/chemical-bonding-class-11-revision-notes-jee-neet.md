@@ -94,12 +94,12 @@ practice_link: "/class-11/physics/chemical-bonding-class-11-revision-notes-jee-n
 
 **Chemical Bonding is the study of how atoms combine to form molecules through the redistribution of electrons.**
 
-I kept getting hybridization wrong in my early mocks because I was trying to draw every single Lewis structure. It was slow, and I always missed a lone pair somewhere. If you're aiming for a top 1000 rank in JEE 2026, you cannot afford to waste 5 minutes on a bonding question. 
+I kept getting hybridization wrong in my early mocks because I was trying to draw every single Lewis [structure](/blog/structure-of-atom-class-11-revision-notes-jee-neet). It was slow, and I always missed a lone pair somewhere. If you're aiming for a top 1000 rank in JEE 2026, you cannot afford to waste 5 minutes on a bonding question. 
 
 ### <a id="why-this-chapter-matters-exam-data"></a>Why This Chapter Matters (Exam Data)
 - **High Weightage**: In JEE Mains 2026 Session 1, nearly 12% of Inorganic marks came from this chapter alone.
 - **NEET Favorite**: Molecular Orbital Theory (MOT) bond order questions have appeared in 8 out of the last 10 NEET papers.
-- **Foundation**: You cannot understand Organic Chemistry mechanisms or Coordination Compounds without mastering the shapes and polarity covered here.
+- **Foundation**: You cannot understand Organic [chemistry](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) mechanisms or Coordination Compounds without mastering the shapes and polarity covered here.
 
 ---
 
@@ -198,7 +198,7 @@ This distinction is critical for JEE because the *hybridization* is different ev
 
 ## <a id="5-bents-rule-the-prolevel-geometric-shortcut"></a>5. Bent's Rule: The Pro-Level Geometric Shortcut
 
-**Bent's Rule states that atomic s-character concentrates in orbitals directed towards electropositive substituents, while p-character concentrates in orbitals directed towards electronegative substituents.**
+**Bent's Rule [states](/blog/states-of-matter-class-11-revision-notes-jee-neet) that atomic s-character concentrates in orbitals directed towards electropositive substituents, while p-character concentrates in orbitals directed towards electronegative substituents.**
 
 For JEE, this means:
 - **Lone Pairs** prefer positions with more $s$-character (Equatorial in TBP).
@@ -474,3 +474,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/structure-of-atom-class-11-revision-notes-jee-neet)
+- 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
+- 📖 [Equilibrium Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/equilibrium-class-11-revision-notes-jee-neet)
+- 📖 [States Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/states-of-matter-class-11-revision-notes-jee-neet)

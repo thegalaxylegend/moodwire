@@ -46,7 +46,7 @@ practice_link: "/class-11/medieval-india-bhakti-sufi-class-11-revision-notes-cbs
 
 ## <a id="core-concepts"></a>Core Concepts
 
-The **Bhakti** movement, which originated in the southern part of India, emphasized the importance of personal devotion to a particular deity. This movement was characterized by the emergence of **Bhakti saints**, such as **Mirabai** and **Tukaram**, who composed devotional songs and poems that expressed their love and longing for the divine.
+The **Bhakti** movement, which originated in the southern part of [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee), emphasized the importance of personal devotion to a particular deity. This movement was characterized by the emergence of **Bhakti saints**, such as **Mirabai** and **Tukaram**, who composed devotional songs and poems that expressed their love and longing for the divine.
 
 
 | **Bhakti Saints** | **Region** | **Deity** |
@@ -152,3 +152,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)
+- 📖 [Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)
+- 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
+- 📖 [Geomorphology Class 11 Geography Recap — CBSE 2026 Quick Guide](/blog/geomorphology-class-11-revision-notes-cbse)

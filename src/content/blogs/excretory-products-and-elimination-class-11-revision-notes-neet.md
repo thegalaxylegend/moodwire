@@ -47,7 +47,7 @@ practice_link: "/class-11/biology/excretory-products-and-elimination-class-11-re
 
 ## <a id="core-concepts"></a>Core Concepts
 
-The excretory system is a complex system that involves the coordination of multiple organs and processes. The main organs involved in the excretory system are:
+The excretory system is a complex system that involves the [coordination](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) of multiple organs and processes. The main organs involved in the excretory system are:
 
 * **Kidneys**: The kidneys are a pair of bean-shaped organs located in the lower back. They filter the blood to remove waste products and excess substances, and produce urine.
 * **Liver**: The liver is a vital organ located in the upper right side of the abdomen. It detoxifies harmful substances, produces bile, and helps to regulate the body's metabolism.
@@ -213,7 +213,7 @@ This data is essential for understanding the functions of the excretory system, 
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/biological-classification-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Animal Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)
@@ -228,3 +228,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Animal Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)
+- 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
+- 📖 [Cell Cycle And Cell Division Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet)
+- 📖 [Chemical Coordination And Integration Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet)

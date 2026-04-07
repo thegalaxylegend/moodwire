@@ -45,7 +45,7 @@ practice_link: "/class-11/physics/indian-geography-physical-class-11-revision-no
 
 ## <a id="what-is-physical-geography"></a>What is Physical Geography?
 
-Physical Geography is the study of the natural features of the Earth's surface. It includes the study of landforms, climate, vegetation, and water bodies. For Class 11 exam prep in 2026, the most important aspect is understanding the interaction between these components and their impact on the environment.
+Physical Geography is the study of the natural features of the Earth's surface. It includes the study of landforms, climate, vegetation, and water bodies. For [class](/blog/classification-of-elements-class-11-revision-notes-jee-neet) 11 exam prep in 2026, the most important aspect is understanding the interaction between these components and their impact on the environment.
 
 ## <a id="what-are-the-key-features-of-landforms"></a>What are the key features of Landforms?
 
@@ -107,3 +107,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)
+- 📖 [Fundamental Rights Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/fundamental-rights-class-11-revision-notes-cbse)
+- 📖 [Classification Of Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-of-elements-class-11-revision-notes-jee-neet)
+- 📖 [Indian Geography Climate Class 11 Geography Recap — CBSE 2026 Quick Guide](/blog/indian-geography-climate-class-11-revision-notes-cbse)

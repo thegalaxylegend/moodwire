@@ -100,7 +100,7 @@ Q: The activity of a radioactive substance is $2.0 \times 10^{-6}$ curie. If its
  Answer: $1.17 \times 10^{22}$ atoms.
  
  Q: The half-life of $^{238}U$ against $\alpha$-decay is $4.5 \times 10^{9}$ years. If the energy released in the decay of one nucleus is $4.15 \times 10^{-12} J$, calculate the total energy released in the decay of all the atoms of $300 g$ of $^{238}U$. 
- Trap in this question: Students often forget to calculate the number of atoms from the given mass.
+ Trap in this question: Students often forget to calculate the number of [atoms](/blog/atoms-class-12-notes) from the given mass.
  Solution: 
  $N = \frac{m}{M} \times N_A$,
  where $N$ is the number of atoms, $m$ is the mass of the substance, $M$ is the molar mass, and $N_A$ is Avogadro's number.
@@ -258,3 +258,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Atoms Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/atoms-class-12-notes)
+- 📖 [Communication Systems Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/communication-systems-class-12-notes)
+- 📖 [Dual Nature of Radiation Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/dual-nature-of-radiation-class-12-notes)
+- 📖 [Semiconductor Electronics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/semiconductor-electronics-class-12-notes)

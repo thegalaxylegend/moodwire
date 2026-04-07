@@ -40,11 +40,11 @@ practice_link: "/class-11/mathematics/upsc-optional-selection-guide-class-11-rev
 
 # Pick the Best UPSC Optional Subject 2026 Guide
 
-If you’re a UPSC aspirant, you know that the "Optional Subject" is where the battle for a top rank is won or lost. It’s 500 marks out of a 1750-mark total in Mains. It’s roughly 30% of your total score, yet it takes up 50% of your mental space. 
+If you’re a UPSC aspirant, you know that the "Optional Subject" is where the battle for a top rank is won or lost. It’s 500 marks out of a 1750-mark total in [mains](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet). It’s roughly 30% of your total score, yet it takes up 50% of your mental space. 
 
 I’m Ayush, and while I’m primarily focused on JEE/NEET tools at Exam Compass, I’ve spent months analyzing the UPSC recruitment data to help my older sister navigate this mess. The truth is: most people choose their optional based on "interest" or "senior’s advice." But in the cut-throat world of the Civil Services Exam, interest won't save you if the subject isn't "scoring" or "overlapping."
 
-In this guide, I’m breaking down exactly **how to choose UPSC optional subject** using data-driven metrics: Success Rates, GS Overlap, and Scoring Potency. 
+In this [guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet), I’m breaking down exactly **how to choose UPSC optional subject** using data-driven metrics: Success Rates, GS Overlap, and Scoring Potency. 
 
 
 
@@ -152,3 +152,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [UPSC Optional Selection Guide 2026 Class 12 Political Science Revision — CBSE 2026 Grandmaster Guide](/blog/upsc-optional-selection-guide)
+- 📖 [State Scholarship Guide 2026 Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)
+- 📖 [Jee Mains High Weightage Chapters Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)
+- 📖 [Class 10 30 Day Timetable Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/class-10-30-day-timetable-class-10-revision-notes-jee)

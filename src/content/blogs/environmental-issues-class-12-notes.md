@@ -184,7 +184,7 @@ ightleftharpoons CH_4 + 2O_2$, and how this relates to the overall energy balanc
 
  - $R = \frac{I}{O}$, where $R$ is the recycling rate, $I$ is the input of materials, and $O$ is the output of materials.
 
- - Key fact: The greenhouse effect is a natural process that warms the Earth’s surface, but human activities have enhanced it, leading to global warming.
+ - Key fact: The greenhouse effect is a natural process that warms the Earth’s surface, but [human](/blog/human-health-and-disease-class-12-notes) activities have enhanced it, leading to global warming.
 
  - Key fact: The main sources of water pollution are agricultural runoff, industrial effluent, and domestic sewage.
 
@@ -243,7 +243,7 @@ ightleftharpoons CH_4 + 2O_2$, and how this relates to the overall energy balanc
 
 ---
 
-**5. What is the term for the reduction of biodiversity in an ecosystem?**
+**5. What is the term for the reduction of biodiversity in an [ecosystem](/blog/ecosystem-class-12-notes)?**
 
 - A) Deforestation
 - B) Habitat fragmentation
@@ -273,3 +273,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Biodiversity and Conservation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
+- 📖 [Biotechnology and its Applications Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biotechnology-and-its-applications-class-12-notes)
+- 📖 [Biotechnology: Principles and Processes Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biotechnology-principles-and-processes-class-12-notes)
+- 📖 [Ecosystem Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/ecosystem-class-12-notes)

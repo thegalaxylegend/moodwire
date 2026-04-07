@@ -52,7 +52,7 @@ I am Ayush, and I used to be just like you. I used to think that people who stud
 
 The secret is simple: **It is not about how hard you work; it is about how you manage your energy.**
 
-In this long guide, I will show you exactly how to study for 12 hours every single day without feeling like a zombie. And the best part? I will use very simple words so you don't need a dictionary to read this.
+In this long [guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet), I will show you exactly how to study for 12 hours every single day without feeling like a zombie. And the best part? I will use very simple words so you don't need a dictionary to read this.
 
 ---
 
@@ -96,7 +96,7 @@ During these blocks, your phone must be in another room. Research shows that eve
 
 When you hit a "wall" with a difficult subject like Physics or Math, don't stare at the page until you burn out. Use a "5-minute reset": stand up, walk around, or look at something far away like a tree. This physical movement pumps fresh blood to your head and signals a mental reset. If a problem is still stuck after 15 minutes, move to another topic and return to it later.
 
-Toppers are often motivated by the "feeling of winning." Success triggers dopamine releases that keep you going. Start each block with easy questions to build momentum. Once you get five right in a row, the "happy feeling" will naturally propel you toward tougher challenges. Mood follows action; start with easy work, and the motivation to continue will follow.
+Toppers are often motivated by the "feeling of winning." Success triggers dopamine releases that keep you going. Start each [block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) with easy questions to build momentum. Once you get five right in a row, the "happy feeling" will naturally propel you toward tougher challenges. Mood follows action; start with easy work, and the motivation to continue will follow.
 
 
 
@@ -141,7 +141,7 @@ Don't jump to 12 hours immediately. Start by adding one 30-minute session each d
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Jee Mains High Weightage Chapters Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)
 - 📖 [State Scholarship Guide 2026 Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)
@@ -156,3 +156,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Jee Mains High Weightage Chapters Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)
+- 📖 [Cuet 2026 Master Strategy Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)
+- 📖 [State Scholarship Guide 2026 Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)
+- 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)

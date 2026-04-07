@@ -58,7 +58,7 @@ practice_link: "/class-11/physics/thermal-properties-of-matter-class-11-revision
 
 ## <a id="introduction"></a>Introduction
 
-Heat is a fundamental form of energy that drives the physical and chemical processes of our universe. From the expansion of railway tracks in summer to the cooling of a cup of tea, the "Thermal Properties of Matter" govern how substances respond to changes in temperature. This chapter transitions from the macro-mechanics of forces to the micro-mechanics of molecular vibrations and energy transfer. In this "Comprehensive" guide, we provide exhaustive derivations for the relationship between thermal expansion coefficients, a rigorous mathematical analysis of Newton’s Law of Cooling, and the foundational principles of Calorimetry—essential for top-tier competitive exams like JEE and NEET.
+Heat is a fundamental form of energy that drives the physical and chemical processes of our universe. From the expansion of railway tracks in summer to the cooling of a cup of tea, the "Thermal [properties](/blog/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet) of Matter" govern how substances respond to changes in temperature. This chapter transitions from the macro-mechanics of forces to the micro-mechanics of molecular vibrations and energy transfer. In this "Comprehensive" guide, we provide exhaustive derivations for the relationship between thermal expansion coefficients, a rigorous mathematical analysis of Newton’s Law of Cooling, and the foundational principles of Calorimetry—essential for top-tier competitive exams like JEE and NEET.
 
 ---
 
@@ -176,7 +176,7 @@ Most substances expand when heated. We define three coefficients of expansion:
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 11: Thermodynamics (Heat Engines)**
-- **Chapter 12: Kinetic Theory of Gases (Molecular Proofs)**
+- **Chapter 12: [kinetic](/blog/kinetic-theory-class-11-revision-notes-jee-neet) Theory of Gases (Molecular Proofs)**
 - **Thermal Physics: JEE Formula Master-Sheet**
 
 
@@ -221,3 +221,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
+- 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
+- 📖 [Kinetic Theory Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)
+- 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)

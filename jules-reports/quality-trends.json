@@ -1,23 +1,30 @@
 {
-  "overallAvgScore": 100,
+  "overallAvgScore": 86.7,
   "totalBlogsAllTime": 3,
-  "totalPassed": 3,
-  "totalFailed": 0,
-  "overallPassRate": 100,
+  "totalPassed": 2,
+  "totalFailed": 1,
+  "overallPassRate": 67,
   "trend": "stable",
   "trendDelta": 0,
   "dailyReports": [
     {
-      "date": "2026-04-06",
+      "date": "2026-04-07",
       "totalBlogs": 3,
-      "passed": 3,
-      "failed": 0,
-      "avgScore": 100,
-      "passRate": 100,
-      "errors": []
+      "passed": 2,
+      "failed": 1,
+      "avgScore": 86.7,
+      "passRate": 67,
+      "errors": [
+        "Critically low word count: 330 (Min 800 for Patching)"
+      ]
     }
   ],
-  "topErrors": [],
+  "topErrors": [
+    {
+      "error": "Critically low word count: 330 (Min 800 for Patching)",
+      "count": 1
+    }
+  ],
   "alertNeeded": false,
   "alertMessage": ""
 }

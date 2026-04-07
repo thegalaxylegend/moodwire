@@ -60,7 +60,7 @@ practice_link: "/class-11/mathematics/statistics-class-11-revision-notes-jee"
 
 ## <a id="introduction"></a>Introduction
 
-**Statistics is the science of data analysis, focusing on Measures of Dispersion which describe how information is spread around a central value. Master Mean Deviation, Variance, and Standard Deviation to excel in data science foundations and probability modeling. This Class 11 Math Chapter 15 guide provides all essential formulas for JEE and CBSE success.**
+**Statistics is the science of data analysis, focusing on Measures of Dispersion which describe how information is spread around a central value. Master Mean Deviation, Variance, and Standard Deviation to excel in data science foundations and probability modeling. This [class](/blog/limits-derivatives-class-11-revision-notes-jee-neet) 11 Math Chapter 15 guide provides all essential formulas for JEE and CBSE success.**
 Statistics is the science of collecting, organizing, and analyzing data to draw meaningful conclusions.
 
 ---
@@ -204,3 +204,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/binomial-theorem-class-11-revision-notes-jee)
+- 📖 [Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/conic-sections-class-11-revision-notes-jee)
+- 📖 [Limits Derivatives Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/limits-derivatives-class-11-revision-notes-jee-neet)
+- 📖 [Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-combinations-class-11-revision-notes-jee)

@@ -63,7 +63,7 @@ practice_link: "/class-11/physics/mechanical-properties-of-fluids-class-11-revis
 
 ## <a id="introduction"></a>Introduction
 
-Fluids—liquids and gases—are materials that have no definite shape and yield to even the slightest external force. The study of fluids is divided into **Hydrostatics** (fluids at rest) and **Hydrodynamics** (fluids in motion). This chapter explores the fundamental laws that explain how airplanes fly, how hydraulic brakes stop a car, and why water droplets form perfect spheres. In this "Comprehensive" guide, we provide exhaustive derivations for Bernoulli’s Theorem, the Equation of Continuity, and Terminal Velocity—providing the technical rigor required for top-tier competitive exams like JEE and NEET.
+Fluids—liquids and gases—are materials that have no definite shape and yield to even the slightest external force. The study of fluids is divided into **Hydrostatics** (fluids at rest) and **Hydrodynamics** (fluids in [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet)). This chapter explores the fundamental laws that explain how airplanes fly, how hydraulic brakes stop a car, and why water droplets form perfect spheres. In this "Comprehensive" guide, we provide exhaustive derivations for Bernoulli’s Theorem, the Equation of Continuity, and Terminal Velocity—providing the technical rigor required for top-tier competitive exams like JEE and NEET.
 
 ---
 
@@ -101,7 +101,7 @@ Fluids—liquids and gases—are materials that have no definite shape and yield
 **Result:** Where the pipe narrows, the velocity increases.
 
 ### <a id="ii-bernoullis-theorem-the-master-derivation"></a>II. Bernoulli’s Theorem (The Master Derivation)
-**Statement:** For an ideal fluid in steady flow, the sum of pressure energy, kinetic energy, and potential energy per unit volume is constant.
+**Statement:** For an ideal fluid in steady flow, the sum of pressure energy, [kinetic](/blog/kinetic-theory-class-11-revision-notes-jee-neet) energy, and potential energy per unit volume is constant.
 **P + 1/2 ρv² + ρgh = Constant**
 
 **Derivation (Based on Work-Energy Theorem):**
@@ -225,3 +225,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
+- 📖 [Thermal Properties Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet)
+- 📖 [Kinetic Theory Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)
+- 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)

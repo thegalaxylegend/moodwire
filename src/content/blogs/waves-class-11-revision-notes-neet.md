@@ -74,7 +74,7 @@ practice_link: "/class-11/biology/waves-class-11-revision-notes-neet"
 
 ## <a id="introduction"></a>Introduction
 
-Waves are the carriers of energy and information across the universe. From the seismic tremors that reshape continents to the electromagnetic signals that power the internet, the movement of energy through a medium (or vacuum) defines our modern reality. This final chapter of Class 11 Physics, "Waves," is the culmination of everything we have learned about mechanics and oscillations. It describes how a disturbance in one part of a medium propagates to another, without the actual transport of matter. In this "Comprehensive" guide, we provide the most exhaustive technical derivations available—from Laplace's correction for the speed of sound to the complex geometry of the Doppler Effect—ensuring you are fully equipped for JEE, NEET, and Board exams.
+Waves are the carriers of energy and information across the universe. From the seismic tremors that reshape continents to the electromagnetic signals that power the internet, the movement of energy through a medium (or vacuum) defines our modern reality. This final chapter of [class](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) 11 Physics, "Waves," is the culmination of everything we have learned about mechanics and oscillations. It describes how a disturbance in one part of a medium propagates to another, without the actual transport of matter. In this "Comprehensive" guide, we provide the most exhaustive technical derivations available—from Laplace's correction for the speed of sound to the complex geometry of the Doppler Effect—ensuring you are fully equipped for JEE, NEET, and Board exams.
 
 ---
 
@@ -309,3 +309,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)
+- 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
+- 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)

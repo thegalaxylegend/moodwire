@@ -126,7 +126,7 @@ Mistake: Using $\lambda = \frac{h}{mv}$ without converting mass to kg. Many stud
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 Q: A solution of $2.44 \text{ g}$ of $mathrm{CuSO_4}$ in $100 \mathrm{ mL}$ of water has a freezing point depression of $0.184^\circ\mathrm{C}$. What is the molality of the solution? 
- Trap in this question: Students often confuse molarity and molality, and also forget to consider the van't Hoff factor for ionic compounds.
+ Trap in this question: Students often confuse molarity and molality, and also forget to consider the van't Hoff factor for ionic [compounds](/blog/coordination-compounds-class-12-notes).
  Solution: 
  First, calculate the molal freezing point depression constant $K_f$ for water: 
  $K_f = 1.86 ^\circ\mathrm{C}/m$. 
@@ -159,7 +159,7 @@ Q: A solution of $2.44 \text{ g}$ of $mathrm{CuSO_4}$ in $100 \mathrm{ mL}$ of w
  Q: $20 \mathrm{ mL}$ of $0.1 \mathrm{ M}$ $mathrm{HCl}$ is mixed with $20 \mathrm{ mL}$ of $0.1 \mathrm{ M}$ $mathrm{NaOH}$ in a thermally insulated container. If the initial temperature is $15^\circ\mathrm{C}$ and the specific heat capacity of the solution is $4.18 \mathrm{ J/g^\circ C}$, what is the final temperature of the solution?
  Trap in this question: Students often forget to calculate the heat of neutralization and the total mass of the solution.
  Solution: 
- First, write the balanced chemical equation: 
+ First, write the balanced [chemical](/blog/chemical-kinetics-class-12-notes) equation: 
  $mathrm{HCl} + mathrm{NaOH} \rightarrow mathrm{NaCl} + mathrm{H_2O}$. 
  The heat of neutralization of a strong acid and a strong base is $-57.3 \mathrm{ kJ/mol}$. 
  Since $n = MV$, the number of moles of $mathrm{HCl}$ and $mathrm{NaOH}$ is $n = 0.1 \mathrm{ M} \times 0.02 \mathrm{ L} = 0.002 \mathrm{ mol}$. 
@@ -316,3 +316,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Chemical Kinetics Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/chemical-kinetics-class-12-notes)
+- 📖 [Coordination Compounds Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/coordination-compounds-class-12-notes)
+- 📖 [Haloalkanes and Haloarenes Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/haloalkanes-and-haloarenes-class-12-notes)
+- 📖 [Atoms Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/atoms-class-12-notes)

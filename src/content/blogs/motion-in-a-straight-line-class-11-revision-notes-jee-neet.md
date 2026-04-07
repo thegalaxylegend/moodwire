@@ -64,7 +64,7 @@ practice_link: "/class-11/physics/motion-in-a-straight-line-class-11-revision-no
 
 ## <a id="introduction"></a>Introduction
 
-Mechanics is the study of motion, and its first branch, **Kinematics**, allows us to describe that motion with mathematical precision. In "Motion in a Straight Line," we focus on 1D motion where an object moves along a single axis. While the basics of distance and speed are intuitive, the real power of Physics comes from using **Calculus** to derive universal laws of motion. These "Comprehensive" revision notes provide a rigorous expansion of Chapter 2, featuring full calculus-based derivations, advanced relative velocity theory, and the graphical mastery required for competitive exams like JEE and NEET.
+Mechanics is the study of motion, and its first branch, **Kinematics**, allows us to describe that motion with mathematical precision. In "Motion in a Straight Line," we focus on 1D motion where an object moves along a single axis. While the basics of distance and speed are intuitive, the real power of Physics comes from using **Calculus** to derive universal laws of motion. These "Comprehensive" [revision](/blog/gravitation-class-11-revision-notes-jee-neet) notes provide a rigorous expansion of Chapter 2, featuring full calculus-based derivations, advanced relative velocity theory, and the graphical mastery required for competitive exams like JEE and NEET.
 
 ---
 
@@ -245,3 +245,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
+- 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
+- 📖 [Straight Lines Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/straight-lines-class-11-revision-notes-jee-neet)

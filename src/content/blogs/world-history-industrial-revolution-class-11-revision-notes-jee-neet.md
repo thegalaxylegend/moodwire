@@ -160,7 +160,7 @@ I, Ayush, make sure to remember these trap exceptions to avoid common mistakes i
 
 ## <a id="ayushs-personal-note"></a>Ayush's Personal Note
 
-As I prepare for my Class 11 History exams, I find it essential to review the key concepts and dates related to the Industrial Revolution. I make sure to remember the core concepts, formulae, and tables, and to watch out for trap exceptions. I also practice MCQs to assess my knowledge and identify areas for improvement. By following this approach, I am confident that I can achieve a good grade in my exams.
+As I prepare for my [class](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) 11 History exams, I find it essential to review the key concepts and dates related to the Industrial Revolution. I make sure to remember the core concepts, formulae, and tables, and to watch out for trap exceptions. I also practice MCQs to assess my knowledge and identify areas for improvement. By following this approach, I am confident that I can achieve a good grade in my exams.
 
 ### <a id="important-terms"></a>Important Terms
 The following are some important terms related to the Industrial Revolution:
@@ -668,3 +668,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Geomorphology Class 11 Geography Recap — CBSE 2026 Quick Guide](/blog/geomorphology-class-11-revision-notes-cbse)
+- 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
+- 📖 [Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)
+- 📖 [Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)

@@ -65,7 +65,7 @@ practice_link: "/class-11/physics/oscillations-class-11-revision-notes-jee-neet"
 
 ## <a id="introduction"></a>Introduction
 
-Nature is rhythmic. From the beating of a heart and the vibration of a guitar string to the atomic oscillations in a crystal lattice, the study of "Oscillations" is the study of repetitive motion. At the heart of this chapter is **Simple Harmonic Motion (SHM)**—a special type of periodic motion where the restoring force is directly proportional to the displacement. Understanding SHM is critical for mastering Waves, Optics, and Alternating Current in Class 12. In this "Comprehensive" guide, we provide exhaustive derivations for SHM equations, energy profiles, and the physics of pendulums and springs—providing the ultimate preparation for JEE, NEET, and Board exams.
+Nature is rhythmic. From the beating of a heart and the vibration of a guitar string to the atomic oscillations in a crystal lattice, the study of "Oscillations" is the study of repetitive motion. At the heart of this chapter is **Simple Harmonic Motion (SHM)**—a special type of periodic motion where the restoring force is directly proportional to the displacement. Understanding SHM is critical for mastering Waves, Optics, and Alternating Current in [class](/blog/kinetic-theory-class-11-revision-notes-jee-neet) 12. In this "Comprehensive" guide, we provide exhaustive derivations for SHM equations, energy profiles, and the physics of pendulums and springs—providing the ultimate preparation for JEE, NEET, and Board exams.
 
 ---
 
@@ -245,3 +245,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
+- 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
+- 📖 [Kinetic Theory Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)

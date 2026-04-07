@@ -60,7 +60,7 @@ practice_link: "/class-11/physics/limits-derivatives-class-11-revision-notes-jee
 
 ## <a id="introduction"></a>Introduction
 
-**Limits and Derivatives mark the birth of Calculus, defining the mathematics of change and instantaneous motion. Master the algebra of limits, the Sandwich Theorem, and the First Principle of differentiation to excel in advanced physical modeling and engineering. This Class 11 Math Chapter 13 guide provides all essential calculus foundations for JEE and CBSE success.**
+**Limits and Derivatives mark the birth of Calculus, defining the mathematics of change and instantaneous motion. Master the algebra of limits, the Sandwich Theorem, and the First Principle of differentiation to excel in advanced physical modeling and engineering. This [class](/blog/mathematical-induction-class-11-revision-notes-jee-neet) 11 Math Chapter 13 guide provides all essential calculus foundations for JEE and CBSE success.**
 Limits and Derivatives mark the birth of Calculus, the mathematics of change.
 
 ---
@@ -210,3 +210,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)
+- 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
+- 📖 [Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)
+- 📖 [Relations Functions Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/relations-functions-class-11-revision-notes-jee-neet)

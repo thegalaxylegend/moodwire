@@ -60,7 +60,7 @@ Physics: Mechanics is the study of the motion of objects. It includes kinematics
 
 ## <a id="what-are-the-key-concepts-in-physics-mechanics"></a>What are the key concepts in Physics: Mechanics?
 
-The key concepts in Physics: Mechanics include motion, forces, energy, and momentum.
+The key [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) in Physics: Mechanics include motion, forces, energy, and momentum.
 
 
 | Concept | Description |
@@ -94,7 +94,7 @@ The key concepts in Physics: Mechanics include motion, forces, energy, and momen
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/classification-of-elements-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Physics Heat Light Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/physics-heat-light-class-11-revision-notes-jee-neet)
 - 📖 [Some Basic Concepts Of Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet)
@@ -109,3 +109,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Physics Heat Light Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/physics-heat-light-class-11-revision-notes-jee-neet)
+- 📖 [Some Basic Concepts Of Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet)
+- 📖 [Classification Of Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-of-elements-class-11-revision-notes-jee-neet)
+- 📖 [Dpsp Duties Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/dpsp-duties-class-11-revision-notes-jee-neet)

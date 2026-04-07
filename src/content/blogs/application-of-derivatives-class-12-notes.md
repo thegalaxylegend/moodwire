@@ -379,3 +379,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Linear Programming Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/linear-programming-class-12-notes)
+- 📖 [Vector Algebra Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/vector-algebra-class-12-notes)
+- 📖 [Atoms Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/atoms-class-12-notes)
+- 📖 [Biodiversity and Conservation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)

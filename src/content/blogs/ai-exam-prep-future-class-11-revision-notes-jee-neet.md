@@ -33,7 +33,7 @@ practice_link: "/class-11/physics/ai-exam-prep-future-class-11-revision-notes-je
 
 ## <a id="what-is-ai-exam-prep-future"></a>What is Ai Exam Prep Future?
 
-{"title":"Unlocking the Secrets of Physics for Class 11","content":"As a Class 11 student, I'm excited to dive into the fascinating world of Physics. This subject is the foundation of all natural sciences, and mastering it will not only help me ace my exams but also unlock the doors to a deeper understanding of the universe. In this study guide, I'll share my approach to tackling the key concepts, common pitfalls, and of course, the most effective strategies for success. From the laws of motion to the mysteries of electromagnetic waves, we'll explore it all. With a focus on NCERT-aligned content, I'll ensure that I'm well-prepared for the exams and beyond. In Physics, the concepts are often interconnected, and understanding the relationships between different topics is crucial. My approach will be to break down the complex topics into manageable chunks, using a combination of theoretical explanations, diagrams, and practice problems to reinforce my learning. By the end of this guide, I aim to have a comprehensive understanding of the Class 11 Physics syllabus and be well-prepared to tackle the challenges that lie ahead. Whether it's understanding the nuances of friction, the behavior of fluids, or the properties of thermodynamics, I'll leave no stone unturned in my pursuit of Physics mastery. With dedication, persistence, and the right guidance, I'm confident that I can achieve my goals and unlock a brighter future for myself.","weightage":"The weightage of Physics in the Class 11 exams is approximately 30-40%, making it a critical subject for success. By focusing on the key concepts and practicing regularly, I can ensure that I maximize my score and achieve my academic goals."}
+{"title":"Unlocking the Secrets of Physics for [class](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet) 11","content":"As a [class](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet) 11 student, I'm excited to dive into the fascinating world of Physics. This subject is the foundation of all natural sciences, and mastering it will not only help me ace my exams but also unlock the doors to a deeper understanding of the universe. In this study guide, I'll share my approach to tackling the key concepts, common pitfalls, and of course, the most effective strategies for success. From the laws of motion to the mysteries of electromagnetic waves, we'll explore it all. With a focus on NCERT-aligned content, I'll ensure that I'm well-prepared for the exams and beyond. In Physics, the concepts are often interconnected, and understanding the relationships between different topics is crucial. My approach will be to break down the complex topics into manageable chunks, using a combination of theoretical explanations, diagrams, and practice problems to reinforce my learning. By the end of this guide, I aim to have a comprehensive understanding of the [class](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet) 11 Physics syllabus and be well-prepared to tackle the challenges that lie ahead. Whether it's understanding the nuances of friction, the behavior of fluids, or the properties of thermodynamics, I'll leave no stone unturned in my pursuit of Physics mastery. With dedication, persistence, and the right guidance, I'm confident that I can achieve my goals and unlock a brighter future for myself.","weightage":"The weightage of Physics in the [class](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet) 11 exams is approximately 30-40%, making it a critical subject for success. By focusing on the key concepts and practicing regularly, I can ensure that I maximize my score and achieve my academic goals."}
 
 
 ## <a id="ayushs-note-the-mistake-i-made"></a>Ayush's Note — The Mistake I Made
@@ -162,3 +162,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Ai Study Hack Pomodoro Class 11 Computer Science Recap — CBSE 2026 Quick Guide](/blog/ai-study-hack-pomodoro-class-11-revision-notes-neet)
+- 📖 [Agriculture Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/agriculture-class-11-revision-notes-neet)
+- 📖 [3d Geometry Intro Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet)
+- 📖 [Algorithms: Analysis Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-analysis-class-11-revision-notes-gate-boards)

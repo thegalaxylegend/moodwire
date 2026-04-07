@@ -40,9 +40,9 @@ practice_link: "/class-11/biology/electromagnetic-waves-class-12-notes"
 
 ## <a id="what-is-electromagnetic-waves"></a>What is Electromagnetic Waves?
 
-**Introduction to Electromagnetic Waves**
+**Introduction to [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) Waves**
 
-As we dive into the realm of physics for our Class 12 exam prep, it's essential to acknowledge the significance of **Electromagnetic Waves** in the syllabus. This topic carries a substantial weightage of around 10-12% in the CBSE Class 12 Physics exam, making it a crucial area of focus for students aiming to score high. The exam typically consists of 5-6 questions related to electromagnetic waves, with a mix of theoretical and numerical problems.
+As we dive into the realm of physics for our [class](/blog/wave-optics-class-12-notes) 12 exam prep, it's essential to acknowledge the significance of **Electromagnetic Waves** in the syllabus. This topic carries a substantial weightage of around 10-12% in the CBSE [class](/blog/wave-optics-class-12-notes) 12 Physics exam, making it a crucial area of focus for students aiming to score high. The exam typically consists of 5-6 questions related to electromagnetic waves, with a mix of theoretical and numerical problems.
 
 To put this into perspective, let's consider the vast array of electromagnetic waves that surround us. From the **radio waves** that enable our mobile phones to communicate with cell towers, to the **microwaves** that heat our food, and the **visible light** that illuminates our daily lives, electromagnetic waves are an integral part of our daily experiences. The fact that these waves can travel through a vacuum and have both electric and magnetic field components makes them a fascinating topic to explore.
 
@@ -419,3 +419,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Magnetism and Matter Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetism-and-matter-class-12-notes)
+- 📖 [Wave Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/wave-optics-class-12-notes)
+- 📖 [Electromagnetic Induction Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
+- 📖 [Alternating Current Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/alternating-current-class-12-notes)

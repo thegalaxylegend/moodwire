@@ -40,8 +40,8 @@ practice_link: "/class-11/biology/magnetic-effects-of-current-class-12-notes"
 
 ## <a id="what-is-magnetic-effects-of-current"></a>What is Magnetic Effects of Current?
 
-**Magnetic Effects of Current: A Foundational Concept in Physics**
-As we dive into the realm of Class 12 Physics, it's essential to acknowledge the significance of **Magnetic Effects of Current** in the CBSE syllabus. This topic holds a substantial weightage of around 10-12% in the board exams, making it a crucial aspect to focus on for any aspiring student. The concepts and principles covered in this unit will not only aid in understanding various phenomena but also lay the groundwork for advanced topics in Physics and Engineering.
+**Magnetic Effects of [current](/blog/alternating-current-class-12-notes): A Foundational Concept in Physics**
+As we dive into the realm of [class](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) 12 Physics, it's essential to acknowledge the significance of **Magnetic Effects of Current** in the CBSE syllabus. This topic holds a substantial weightage of around 10-12% in the board exams, making it a crucial aspect to focus on for any aspiring student. The concepts and principles covered in this unit will not only aid in understanding various phenomena but also lay the groundwork for advanced topics in Physics and Engineering.
 
 From a personal standpoint, I still remember the "aha" moment when I first grasped the concept of **Ampere's Law** and its application in determining the magnetic field around a current-carrying conductor. It was as if the entire puzzle had fallen into place, and I could visualize the intricate relationships between electric currents, magnetic fields, and the resulting forces. This experience not only deepened my understanding of the subject but also sparked a curiosity that drove me to explore the vast expanse of Physics.
 
@@ -376,3 +376,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Magnetism and Matter Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetism-and-matter-class-12-notes)
+- 📖 [Electromagnetic Induction Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
+- 📖 [Electrostatics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electrostatics-class-12-revision-notes-jee-neet)
+- 📖 [Alternating Current Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/alternating-current-class-12-notes)

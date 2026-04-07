@@ -62,7 +62,7 @@ practice_link: "/class-11/physics/organic-chemistry-basic-principles-class-11-re
 
 ## <a id="introduction-to-organic-chemistry"></a>Introduction to Organic Chemistry
 
-Organic chemistry is the study of carbon-containing compounds. It is a vast and complex field that deals with the properties, reactions, and synthesis of organic compounds. Understanding the basic principles of organic chemistry is essential for students preparing for JEE and NEET exams.
+Organic [chemistry](/blog/environmental-chemistry-class-11-revision-notes-neet) is the study of carbon-containing compounds. It is a vast and complex field that deals with the properties, reactions, and synthesis of organic compounds. Understanding the basic principles of organic [chemistry](/blog/environmental-chemistry-class-11-revision-notes-neet) is essential for students preparing for JEE and NEET exams.
 
 Organic chemistry is [the study of carbon-containing compounds](https://en.wikipedia.org/wiki/Organic_chemistry). Organic compounds can be found in all living organisms and are an essential part of our daily lives.
 
@@ -190,7 +190,7 @@ Answer: A) Butane
 
 ## <a id="related-notes-links"></a>Related Notes Links
 
-* Inorganic Chemistry Notes for Class 11
+* Inorganic Chemistry Notes for [class](/blog/physical-world-class-11-revision-notes-jee-neet) 11
 * Physical Chemistry Notes for Class 11
 
 
@@ -235,3 +235,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)
+- 📖 [Cell The Unit Of Life Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/cell-the-unit-of-life-class-11-revision-notes-neet)
+- 📖 [Physical World Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/physical-world-class-11-revision-notes-jee-neet)
+- 📖 [The S Block Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/the-s-block-elements-class-11-revision-notes-jee-neet)

@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "date": "2026-04-07",
+    "slug": "quadratic-equations-class-10-notes",
+    "failureType": "THIN_CONTENT",
+    "rootCause": "Generated content too short. LLM may have truncated output or misunderstood depth requirement.",
+    "fix": "Increase min word count enforcement. Add \"depth expansion\" pass for short sections.",
+    "priority": "high"
+  }
+]

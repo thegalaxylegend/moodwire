@@ -77,7 +77,7 @@ practice_link: "/class-11/biology/strategies-for-enhancement-in-food-production-
 
  - *Costs:* 4-5 marks
 
- - *Fix:* Understand the key differences between organic and inorganic farming methods and be able to identify the advantages and disadvantages of each, including the environmental and health impacts.
+ - *Fix:* Understand the key differences between organic and inorganic farming methods and be able to identify the advantages and disadvantages of each, including the [environmental](/blog/environmental-issues-class-12-notes) and health impacts.
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
@@ -101,7 +101,7 @@ practice_link: "/class-11/biology/strategies-for-enhancement-in-food-production-
 
  - **Q2:** Which of the following is NOT a method of plant breeding for enhancing food production?
 
- - **Trap:** Students often confuse between the different methods of plant breeding and their applications.
+ - **Trap:** Students often confuse between the different methods of plant breeding and their [applications](/blog/biotechnology-and-its-applications-class-12-notes).
 
  - **Solution:** 
 
@@ -123,7 +123,7 @@ practice_link: "/class-11/biology/strategies-for-enhancement-in-food-production-
 
  $\text{Not a method} = \text{Biotechnology}$
 
- - **Answer:** Biotechnology
+ - **Answer:** [biotechnology](/blog/biotechnology-principles-and-processes-class-12-notes)
 
  - **Q3:** What is the role of the 'National Seeds Corporation' in enhancing food production?
 
@@ -303,3 +303,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Biodiversity and Conservation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
+- 📖 [Biotechnology and its Applications Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biotechnology-and-its-applications-class-12-notes)
+- 📖 [Biotechnology: Principles and Processes Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biotechnology-principles-and-processes-class-12-notes)
+- 📖 [Ecosystem Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/ecosystem-class-12-notes)
