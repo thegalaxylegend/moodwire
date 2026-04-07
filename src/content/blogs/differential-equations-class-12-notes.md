@@ -155,7 +155,7 @@ Differential equations can be used to model a wide range of real-world phenomena
 
 ### <a id="-master-the-test-center-stepbystep-learning"></a>📝 Master the Test Center — Step-by-Step Learning
 
-As we conclude our journey through the world of differential equations, it's time to put your knowledge to the test. The Test Center at /class-11/mathematics/differential-equations-class-12-notes is your ultimate destination for practicing and perfecting your skills. Here's why you should use the Test Center to learn:
+As we conclude our journey through the world of differential equations, it's time to put your knowledge to the test. The Test Center at /[class](/blog/determinants-class-12-notes)-11/mathematics/differential-equations-[class](/blog/determinants-class-12-notes)-12-notes is your ultimate destination for practicing and perfecting your skills. Here's why you should use the Test Center to learn:
 
 1. **Comprehensive Question Bank**: The Test Center offers a vast collection of questions that cover all aspects of differential equations, from basic concepts to advanced topics.
 2. **Personalized Learning**: The Test Center adapts to your learning style and pace, providing you with a tailored learning experience that helps you focus on areas where you need improvement.
@@ -212,3 +212,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-integrals-class-12-notes)
+- 📖 [Continuity and Differentiability Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/continuity-and-differentiability-class-12-notes)
+- 📖 [Determinants Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/determinants-class-12-notes)
+- 📖 [Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/integrals-class-12-notes)

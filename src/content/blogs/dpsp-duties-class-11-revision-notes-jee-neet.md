@@ -44,7 +44,7 @@ practice_link: "/class-11/physics/dpsp-duties-class-11-revision-notes-jee-neet"
 
 ## <a id="what-is-dpsp-and-duties"></a>What is DPSP & Duties?
 
-DPSP & Duties is a fundamental concept in Indian Polity that outlines the Directive Principles of State Policy and the duties of citizens. It includes the principles of social and economic justice, the organization of village panchayats, and the promotion of international peace and security. For Class 11 exam prep in 2026, the most important aspect is understanding the significance of these principles in the context of Indian democracy and governance.
+DPSP & Duties is a fundamental concept in Indian Polity that outlines the Directive Principles of State Policy and the duties of citizens. It includes the principles of social and economic justice, the organization of village panchayats, and the promotion of international peace and security. For [class](/blog/physical-world-class-11-revision-notes-jee-neet) 11 exam prep in 2026, the most important aspect is understanding the significance of these principles in the context of Indian democracy and governance.
 
 
 
@@ -153,3 +153,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Chemical Bonding Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/chemical-bonding-class-11-revision-notes-jee-neet)
+- 📖 [Indian Geography Physical Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/indian-geography-physical-class-11-revision-notes-jee-neet)
+- 📖 [Physical World Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/physical-world-class-11-revision-notes-jee-neet)
+- 📖 [Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/structure-of-atom-class-11-revision-notes-jee-neet)

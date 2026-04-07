@@ -85,7 +85,7 @@ practice_link: "/class-11/physics/thermodynamics-chemistry-class-11-revision-not
 
 ## <a id="1-why-thermodynamics-is-the-judge-of-chemistry"></a>1. Why Thermodynamics is the "Judge" of Chemistry
 
-**Chemical Thermodynamics is the study of energy changes (heat and work) associated with chemical reactions and physical transformations.**
+**[chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Thermodynamics is the study of energy changes (heat and work) associated with [chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) reactions and physical transformations.**
 
 Thermodynamics doesn't care about speed — that's Kinetics. Thermodynamics answers the fundamental question: "Will this reaction *ever* happen on its own?" If $\Delta G < 0$, yes. If $\Delta G > 0$, no amount of waiting will make it happen spontaneously.
 
@@ -189,7 +189,7 @@ where $\Delta n_g$ = (moles of gaseous products) - (moles of gaseous reactants).
 
 ## <a id="6-hesss-law-the-circle-of-enthalpy"></a>6. Hess's Law: The Circle of Enthalpy
 
-**Hess's Law states that the total enthalpy change for a reaction is the same whether it occurs in one step or in multiple steps, as long as the initial and final states are the same.**
+**Hess's Law [states](/blog/states-of-matter-class-11-revision-notes-jee-neet) that the total enthalpy change for a reaction is the same whether it occurs in one step or in multiple steps, as long as the initial and final [states](/blog/states-of-matter-class-11-revision-notes-jee-neet) are the same.**
 
 This is because Enthalpy is a **State Function** — it depends only on the state, not the path.
 
@@ -354,7 +354,7 @@ CBSE loves "Derive the Gibbs-Helmholtz equation" as a 5-mark question. Write the
 
 ---
 
-**Related Revision Notes:**
+**Related [revision](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet) Notes:**
 - **Chemical Equilibrium — Le Chatelier's Principle Tricks**
 - **States of Matter — Gas Laws & Real Gases Tricks**
 - **Some Basic Concepts of Chemistry — Mole Concept & Stoichiometry**
@@ -394,3 +394,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
+- 📖 [States Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/states-of-matter-class-11-revision-notes-jee-neet)
+- 📖 [Equilibrium Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/equilibrium-class-11-revision-notes-jee-neet)
+- 📖 [Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/structure-of-atom-class-11-revision-notes-jee-neet)

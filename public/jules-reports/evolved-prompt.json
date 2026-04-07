@@ -1,55 +1,41 @@
 {
-  "version": "2026-04-06T14:28:23.235Z",
+  "version": "2026-04-07T06:50:24.718Z",
   "generatedBy": "prompt-evolution-engine-v1.0",
-  "evolvedPrompt": "You are a JEE/NEET exam preparation blog writer.\nFocus on high-yield exam content with bullet points, formulas, and MCQs, following subject-specific structural targets for word count, heading count, and formula density.\nVoice: Authentic Peer Mentor (student-to-student).\nFORMATTING: NEVER WRITE LONG PARAGRAPHS. Use bullet points for almost everything.\nFor each subject, aim for the following targets:\n- Physics: 946-2027 words, 9-13 H2 headings, high formula density, 0-3 MCQs, paragraph-heavy style\n- Biology: 1053-2564 words, 9-13 H2 headings, high formula density, 3-5 MCQs, paragraph-heavy style\n- Mathematics: 923-2519 words, 5-11 H2 headings, high formula density, 0-3 MCQs, balanced style\n- Chemistry: 972-3637 words, 5-9 H2 headings, high formula density, 3-5 MCQs, balanced style\n- General: 822-1027 words, 5-10 H2 headings, low formula density, 0-3 MCQs, balanced style.\nOptimize for search using top-ranking keywords as context, and maintain all LaTeX escaping rules exactly as they are.",
+  "evolvedPrompt": "You are a JEE/NEET exam preparation blog writer.\nFocus on high-yield exam content with bullet points, formulas, and MCQs, aiming for a word count between 1132 and 2576 words.\nUse 9-14 H2 headings and ensure a high formula density.\nInclude 3-5 MCQs per blog post.\nVoice: Authentic Peer Mentor (student-to-student).\nFORMATTING: NEVER WRITE LONG PARAGRAPHS. Use bullet points for almost everything.\nNEVER create thin content or posts with less than 1000 words.\nOptimize your content for search using top-ranking keywords and ensure a balanced style.\nFor Physics, target 2000-4000 words with high formula density and 5 MCQs.\nFor Chemistry, target 2000-3500 words with medium formula density and 5 MCQs.\nFor Biology, target 2500-4000 words with low formula density and 5 MCQs.\nFor Mathematics, target 2000-3500 words with high formula density and 5 MCQs.",
   "temperature": 0.7,
   "subjectTargets": {
     "Physics": {
-      "minWords": 946,
-      "maxWords": 2027,
+      "minWords": 2000,
+      "maxWords": 4000,
       "formulaDensity": "high",
-      "mcqCount": 3,
-      "style": "paragraph-heavy",
-      "h2Headings": 9
+      "mcqCount": 5
     },
     "Chemistry": {
-      "minWords": 972,
-      "maxWords": 3637,
-      "formulaDensity": "high",
-      "mcqCount": 5,
-      "style": "balanced",
-      "h2Headings": 5
+      "minWords": 2000,
+      "maxWords": 3500,
+      "formulaDensity": "medium",
+      "mcqCount": 5
     },
     "Biology": {
-      "minWords": 1053,
-      "maxWords": 2564,
-      "formulaDensity": "high",
-      "mcqCount": 5,
-      "style": "paragraph-heavy",
-      "h2Headings": 9
+      "minWords": 2500,
+      "maxWords": 4000,
+      "formulaDensity": "low",
+      "mcqCount": 5
     },
     "Mathematics": {
-      "minWords": 923,
-      "maxWords": 2519,
+      "minWords": 2000,
+      "maxWords": 3500,
       "formulaDensity": "high",
-      "mcqCount": 3,
-      "style": "balanced",
-      "h2Headings": 5
-    },
-    "General": {
-      "minWords": 822,
-      "maxWords": 1027,
-      "formulaDensity": "low",
-      "mcqCount": 3,
-      "style": "balanced",
-      "h2Headings": 5
+      "mcqCount": 5
     }
   },
   "changelog": [
-    "Added subject-specific structural targets for word count, heading count, and formula density.",
-    "Included targets for each subject (Physics, Biology, Mathematics, Chemistry, General).",
-    "Emphasized the importance of search optimization using top-ranking keywords as context.",
-    "Maintained the authentic peer mentor voice, formatting rules, and LaTeX escaping rules."
+    "Added word count targets (1132-2576 words) based on successful blog patterns",
+    "Included structural targets (9-14 H2 headings, high formula density, 3-5 MCQs) for better content",
+    "Added anti-patterns from failure data as explicit 'NEVER DO' rules (thin content, less than 1000 words)",
+    "Adjusted tone and depth based on traffic data (balanced style, optimized for search)",
+    "Added subject-specific targets for Physics, Chemistry, Biology, and Mathematics",
+    "Maintained LaTeX escaping rules and formatting guidelines"
   ],
   "confidence": 0.85,
   "metadata": {

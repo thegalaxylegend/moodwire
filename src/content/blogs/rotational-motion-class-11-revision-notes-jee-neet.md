@@ -57,7 +57,7 @@ practice_link: "/class-11/physics/rotational-motion-class-11-revision-notes-jee-
 > - **Theorems:** 
 >   - Parallel: I = I_cm + Md²
 >   - Perpendicular: I_z = I_x + I_y
-> - **Rolling Motion:** v_cm = ωR. Total K.E. = ½mv_cm² + ½Iω².
+> - **Rolling [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet):** v_cm = ωR. Total K.E. = ½mv_cm² + ½Iω².
 > [**📥 Download 1-Page Short Notes PDF (Zero-Friction)**](#)
 
 ---
@@ -225,3 +225,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
+- 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
+- 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)

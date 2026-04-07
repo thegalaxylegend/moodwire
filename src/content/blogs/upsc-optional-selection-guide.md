@@ -37,7 +37,7 @@ practice_link: "/class-11/upsc-optional-selection-guide"
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-The following formulas are crucial for the UPSC Optional Selection Guide 2026:
+The following formulas are crucial for the UPSC [optional](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee) Selection Guide 2026:
 
  - **Herfindahl-Hirschman Index (HHI):** $$HHI = sum_{i=1}^{n} left( \frac{x_i}{X} \right)^2 \times 10,000$$ — where $x_i$ is the market share of the $i^{th}$ firm, $X$ is the total market share, and $n$ is the number of firms.
 
@@ -358,3 +358,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Upsc Optional Selection Guide Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee)
+- 📖 [Application of Derivatives Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
+- 📖 [Atoms Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/atoms-class-12-notes)
+- 📖 [Biodiversity and Conservation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)

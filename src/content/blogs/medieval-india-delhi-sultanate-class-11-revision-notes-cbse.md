@@ -54,7 +54,7 @@ The Delhi Sultanate was a Muslim kingdom that ruled over a large part of the Ind
 * **Administration**: The Delhi Sultanate was divided into provinces called **iqtas**, which were governed by **muqtis**.
 
 ### <a id="ayushs-personal-note"></a>Ayush's Personal Note
-As I prepare for my Class 11 History exams, I find it essential to have a quick recap of the key concepts and events of the Delhi Sultanate. The Delhi Sultanate was a significant period in Indian history, marked by the rise of Muslim rule and the development of a new administrative system. I will focus on the **core concepts**, **formulae**, and **trap exceptions** to ensure that I have a thorough understanding of the topic.
+As I prepare for my [class](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) 11 History exams, I find it essential to have a quick recap of the key concepts and events of the Delhi Sultanate. The Delhi Sultanate was a significant period in Indian history, marked by the rise of Muslim rule and the development of a new administrative system. I will focus on the **core concepts**, **formulae**, and **trap exceptions** to ensure that I have a thorough understanding of the topic.
 
 ### <a id="core-concepts"></a>Core Concepts
 The following are the core concepts related to the Delhi Sultanate:
@@ -169,3 +169,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Medieval India Bhakti Sufi Class 11 History Recap — CBSE 2026 Quick Guide](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse)
+- 📖 [Medieval India Mughals Class 11 History Recap — CBSE 2026 Quick Guide](/blog/medieval-india-mughals-class-11-revision-notes-cbse)
+- 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)
+- 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)

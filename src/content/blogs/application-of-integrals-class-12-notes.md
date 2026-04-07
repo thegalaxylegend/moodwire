@@ -163,7 +163,7 @@ practice_link: "/class-11/mathematics/application-of-integrals-class-12-notes"
 
 #### Surface Area of a Solid
 - The surface area of a solid can be found using $S = \int_{a}^{b} 2\pi f(x) \,dx$.
-- This formula is used when the solid is formed by a curve.
+- This formula is used when the [solid](/blog/solid-state-class-12-notes) is formed by a curve.
 - The surface area has numerous applications.
 - For example, it can be used to find the surface area of a sphere, the surface area of a cylinder, and the surface area of a cone.
 - Key points to remember:
@@ -236,7 +236,7 @@ The moment of inertia of a region can be found using $I = \int_{a}^{b} [f(x)]^2 
 The work done by a force can be found using $W = \int_{a}^{b} F(x) \,dx$. This formula is used when the force is a function of x. The work done has numerous applications, including finding the work done by a constant force, variable force, and force in a given direction.
 
 ## <a id="-master-the-test-center-stepbystep-learning"></a>📝 Master the Test Center — Step-by-Step Learning
-To master the application of integrals, it is essential to practice regularly and consistently. The Test Center at /class-11/mathematics/application-of-integrals-class-12-notes is an excellent resource to help you achieve this goal. Here's why:
+To master the application of integrals, it is essential to practice regularly and consistently. The Test Center at /[class](/blog/determinants-class-12-notes)-11/mathematics/application-of-integrals-[class](/blog/determinants-class-12-notes)-12-notes is an excellent resource to help you achieve this goal. Here's why:
 
 *   **Comprehensive Practice Problems**: The Test Center offers a wide range of practice problems, covering all aspects of the application of integrals, from basic to advanced concepts.
 *   **Step-by-Step Solutions**: Each problem comes with a step-by-step solution, explaining the thought process and calculations involved in solving the problem.
@@ -284,3 +284,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Continuity and Differentiability Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/continuity-and-differentiability-class-12-notes)
+- 📖 [Determinants Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/determinants-class-12-notes)
+- 📖 [Amines Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Metallurgy Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/metallurgy-class-12-notes)

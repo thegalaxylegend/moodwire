@@ -85,14 +85,14 @@ practice_link: "/class-11/physics/equilibrium-class-11-revision-notes-jee-neet"
 
 ## <a id="1-why-equilibrium-is-the-balancing-act-of-chemistry"></a>1. Why Equilibrium is the "Balancing Act" of Chemistry
 
-**Chemical Equilibrium is the state in a reversible reaction where the rate of the forward reaction equals the rate of the backward reaction, and the concentrations of reactants and products remain constant over time.**
+**[chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Equilibrium is the state in a reversible reaction where the rate of the forward reaction equals the rate of the backward reaction, and the concentrations of reactants and products remain constant over time.**
 
 This chapter is massive — it combines Chemical Equilibrium (Kc, Kp, Le Chatelier) with Ionic Equilibrium (pH, Buffers, Ksp). In JEE, you'll see 2-3 questions from this chapter alone. The trick is to separate the two halves in your head and treat them as distinct sub-chapters.
 
 ### <a id="why-this-chapter-matters-exam-data"></a>Why This Chapter Matters (Exam Data)
 - **JEE Mains 2026**: 2 questions — one on Le Chatelier with inert gas addition, one on pH of a buffer.
 - **NEET 2026**: 1 question directly on $K_{sp}$ and precipitation.
-- **CBSE Boards**: This chapter carries 7 marks (combined with Thermodynamics unit in some schemes).
+- **CBSE Boards**: This chapter carries 7 marks (combined with [thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) unit in some schemes).
 
 ---
 
@@ -167,7 +167,7 @@ where $\Delta n_g$ = (moles of gaseous products) - (moles of gaseous reactants).
 
 ## <a id="5-le-chateliers-principle-the-stress-response"></a>5. Le Chatelier's Principle: The Stress Response
 
-**Le Chatelier's Principle states that if a system at equilibrium is subjected to a disturbance (change in concentration, pressure, or temperature), the equilibrium shifts in a direction that tends to counteract the disturbance.**
+**Le Chatelier's Principle [states](/blog/states-of-matter-class-11-revision-notes-jee-neet) that if a system at equilibrium is subjected to a disturbance (change in concentration, pressure, or temperature), the equilibrium shifts in a direction that tends to counteract the disturbance.**
 
 | Stress | Le Chatelier Response |
 |:---|:---|
@@ -409,3 +409,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [States Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/states-of-matter-class-11-revision-notes-jee-neet)
+- 📖 [Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/structure-of-atom-class-11-revision-notes-jee-neet)
+- 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
+- 📖 [Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet)

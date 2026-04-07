@@ -47,7 +47,7 @@ practice_link: "/class-11/local-government-class-11-revision-notes-cbse"
 
 
 
-Local Government is a system of government that operates at the local level, including municipalities and panchayats. It includes local councils, ward committees, and district planning committees. For Class 11 exam prep in 2026, the most important aspect is understanding the 73rd and 74th Constitutional Amendments.
+Local Government is a system of government that operates at the local level, including municipalities and panchayats. It includes local councils, ward committees, and district planning committees. For [class](/blog/fundamental-rights-class-11-revision-notes-cbse) 11 exam prep in 2026, the most important aspect is understanding the 73rd and 74th Constitutional Amendments.
 
 
 | Level | Institutions |
@@ -103,3 +103,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Constitutional Framework Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/constitutional-framework-class-11-revision-notes-cbse)
+- 📖 [Federalism Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/federalism-class-11-revision-notes-cbse)
+- 📖 [Fundamental Rights Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/fundamental-rights-class-11-revision-notes-cbse)
+- 📖 [Ai Exam Prep Future Class 11 Computer Science Recap — CBSE 2026 Quick Guide](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet)

@@ -228,7 +228,7 @@ practice_link: "/class-11/mathematics/vector-algebra-class-12-notes"
 
  - **What 95% scorers do:** Students who score 95% or higher not only memorize the vector triple product formula but also understand its derivation and can apply it in various contexts. They recognize that the vector triple product can be used to find the area of a parallelogram formed by two vectors, $\mathbf{b} \times \mathbf{c}$, and then take the cross product of $\mathbf{a}$ with this area to find the volume of the parallelepiped. They are adept at using the formula to solve problems involving the moment of a force, torque, and other [applications](/blog/biotechnology-and-its-applications-class-12-notes) in physics and engineering. Furthermore, they can manipulate the vector triple product to simplify complex expressions, such as $\mathbf{a} \times (\mathbf{b} \times \mathbf{c}) + \mathbf{c} \times (\mathbf{a} \times \mathbf{b}) = \mathbf{b}(\mathbf{a} \cdot \mathbf{c}) - \mathbf{c}(\mathbf{a} \cdot \mathbf{b}) + \mathbf{c}(\mathbf{a} \cdot \mathbf{b}) - \mathbf{b}(\mathbf{a} \cdot \mathbf{c}) = 0$, demonstrating a deep understanding of vector algebra and its applications.
 
-| Concept | Formula | Application |
+| Concept | Formula | [application](/blog/application-of-derivatives-class-12-notes) |
 | --- | --- | --- |
 | Vector Triple Product | $\mathbf{a} \times (\mathbf{b} \times \mathbf{c}) = \mathbf{b}(\mathbf{a} \cdot \mathbf{c}) - \mathbf{c}(\mathbf{a} \cdot \mathbf{b})$ | Finding area and volume, moment of a force, torque |
 | Derivation of Vector Triple Product | $\begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \ a_1 & a_2 & a_3 \ (b_2c_3 - b_3c_2) & (b_3c_1 - b_1c_3) & (b_1c_2 - b_2c_1) \ \end{vmatrix}$ | Simplifying complex vector expressions |
@@ -352,3 +352,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Application of Derivatives Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
+- 📖 [Linear Programming Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/linear-programming-class-12-notes)
+- 📖 [Atoms Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/atoms-class-12-notes)
+- 📖 [Biodiversity and Conservation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)

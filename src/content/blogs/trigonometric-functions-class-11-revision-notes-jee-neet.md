@@ -62,7 +62,7 @@ practice_link: "/class-11/physics/trigonometric-functions-class-11-revision-note
 
 ## <a id="introduction"></a>Introduction
 
-**Trigonometric Functions extend the geometry of right triangles to the circular motion of the Unit Circle, defining the periodic nature of waves and oscillations. Master radian measure, ASTC rules, and the "Core 10" identities to solve complex rotation problems in physics and engineering. This Class 11 Math Chapter 3 guide ensures you have all essential formulas for JEE and Board success.**
+**Trigonometric Functions extend the geometry of right triangles to the circular [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) of the Unit Circle, defining the periodic nature of waves and oscillations. Master radian measure, ASTC rules, and the "Core 10" identities to solve complex rotation problems in physics and engineering. This Class 11 Math Chapter 3 guide ensures you have all essential formulas for JEE and Board success.**
 Trigonometry is the study of triangles, but in Chapter 3, it evolves into the study of periodic [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet).
 
 ---
@@ -217,3 +217,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)
+- 📖 [Kinetic Theory Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Relations Functions Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/relations-functions-class-11-revision-notes-jee-neet)

@@ -40,7 +40,7 @@ practice_link: "/class-11/physics/jee-mains-high-weightage-chapters-class-11-rev
 
 # JEE Mains High Weightage Low Effort Chapters 2026 Guide
 
-If you're a JEE aspirant, you've probably heard the advice: "Complete the entire syllabus." I'm here to tell you that’s a lie. In a 3-hour exam with a 300-mark ceiling, trying to master everything is the fastest way to master nothing. 
+If you're a JEE aspirant, you've probably heard the advice: "Complete the entire syllabus." I'm here to tell you that’s a lie. In a 3-hour exam with a 300-mark ceiling, trying to [master](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet) everything is the fastest way to [master](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet) nothing. 
 
 I’m Ayush, and after spending years analyzing thousands of **previous year papers** while building Exam Compass, I discovered a pattern. Roughly 40% of the JEE Mains paper comes from "High-ROI" chapters—topics that take very little time to [study](/blog/study-12-hours-daily-tips-class-11-revision-notes-jee-neet) but yield massive marks. 
 
@@ -51,7 +51,7 @@ In this guide, I’m sharing the exact list of **JEE Mains high weightage low ef
 > **Key Takeaways**
 > - **The 80/20 Rule**: 80% of your marks come from 20% of the syllabus.
 > - **Modern Physics**: The undisputed king of ROI in Physics.
-> - **Inorganic Trio**: Why you can score 40+ marks in Chemistry with just NCERT.
+> - **Inorganic Trio**: Why you can score 40+ marks in [chemistry](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) with just NCERT.
 > - **Math Reasoning**: 4 marks for the cost of 2 [hours](/blog/study-12-hours-daily-tips-class-11-revision-notes-jee-neet) of study.
 > - **Active Analysis**: Use an **online mock test** to see your accuracy in these specific zones.
 
@@ -157,3 +157,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Study 12 Hours Daily Tips Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/study-12-hours-daily-tips-class-11-revision-notes-jee-neet)
+- 📖 [Class 10 Science Pyq Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet)
+- 📖 [Cuet 2026 Master Strategy Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)
+- 📖 [Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)

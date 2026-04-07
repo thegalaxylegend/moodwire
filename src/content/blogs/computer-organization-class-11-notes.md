@@ -40,7 +40,7 @@ practice_link: "/class-11/physics/computer-organization-class-11-notes"
 ## <a id="what-is-computer-organization"></a>What is Computer Organization?
 
 **Introduction to Computer Organization**
-As we dive into the realm of computer science, it's essential to understand the underlying architecture that enables computers to process information. Computer Organization is a fundamental subject that deals with the way computers are designed, built, and operated. In the Class 11 exam, Computer Organization carries a significant weightage, accounting for approximately **20-25% of the total marks**. This subject is crucial in understanding how computers execute instructions, manage data, and interact with peripherals.
+As we dive into the realm of computer science, it's essential to understand the underlying architecture that enables computers to process information. Computer Organization is a fundamental subject that deals with the way computers are designed, built, and operated. In the [class](/blog/algorithms-design-class-11-revision-notes-gate-boards) 11 exam, Computer Organization carries a significant weightage, accounting for approximately **20-25% of the total marks**. This subject is crucial in understanding how computers execute instructions, manage data, and interact with peripherals.
 
 From a personal perspective, I still remember the first time I disassembled a computer and was amazed by the intricate components that worked together in harmony. The **Central Processing Unit (CPU)**, **Memory**, and **Input/Output (I/O) devices** all played a vital role in executing instructions and producing desired outputs. As I delved deeper into the subject, I realized that Computer Organization is not just about understanding individual components, but also about how they interact and communicate with each other. This fascination with computer architecture sparked my interest in pursuing a career in computer science.
 
@@ -398,3 +398,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/digital-logic-class-11-revision-notes-gate-boards)
+- 📖 [Algorithms: Analysis Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-analysis-class-11-revision-notes-gate-boards)
+- 📖 [Algorithms: Design Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-design-class-11-revision-notes-gate-boards)
+- 📖 [Data Structures: Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/data-structures-linear-class-11-revision-notes-gate-boards)

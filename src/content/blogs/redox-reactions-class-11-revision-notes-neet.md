@@ -88,7 +88,7 @@ For example, in the human body, redox reactions are involved in the production o
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div class="note-box">
+<div [class](/blog/hydrogen-class-11-revision-notes-neet)="note-box">
 I still remember the time when I was preparing for my JEE exams. I was struggling to understand the concept of redox reactions. I used to get confused between the terms oxidation and reduction. But then I realized that oxidation is the loss of electrons, while reduction is the gain of electrons. This simple trick helped me to understand the concept of redox reactions and I was able to solve the questions with ease.
 </div>
 
@@ -219,3 +219,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Cell Cycle And Cell Division Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet)
+- 📖 [Hydrocarbons Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/hydrocarbons-class-11-revision-notes-neet)
+- 📖 [Hydrogen Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/hydrogen-class-11-revision-notes-neet)
+- 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)

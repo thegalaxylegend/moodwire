@@ -43,7 +43,7 @@ practice_link: "/class-11/chemistry/relations-and-functions-class-11-notes"
 ## <a id="what-is-relations-and-functions"></a>What is Relations and Functions?
 
 **Introduction to Relations and Functions**
-As we step into the realm of Class 11 mathematics, it's essential to recognize the significance of **Relations and Functions** in the CBSE syllabus. This topic holds a substantial weightage of approximately 10-12% in the final exam, making it a crucial component of your overall preparation. In the 2026 exam, you can expect around 20-25 marks to be dedicated to this topic, with a mix of short answer and long answer questions.
+As we step into the realm of [class](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) 11 mathematics, it's essential to recognize the significance of **Relations and Functions** in the CBSE syllabus. This topic holds a substantial weightage of approximately 10-12% in the final exam, making it a crucial component of your overall preparation. In the 2026 exam, you can expect around 20-25 marks to be dedicated to this topic, with a mix of short answer and long answer questions.
 
 To set the stage, let's consider a real-life scenario where you're planning a trip with your friends. You want to book a hotel room, and the manager tells you that the cost of the room is directly proportional to the number of days you stay. This can be represented as a **function**, where the input is the number of days, and the output is the cost. However, if you want to find the number of rooms available on a specific date, you'll need to consider the **relation** between the date and the availability of rooms. This interplay between relations and functions is a fundamental concept in mathematics, and it's essential to grasp it to excel in the Class 11 exam.
 
@@ -402,3 +402,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Data Structures: Non-Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards)
+- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-and-combinations-class-11-revision-notes-jee)
+- 📖 [Principle of Mathematical Induction Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee)
+- 📖 [Probability (Intro) Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-intro-class-11-revision-notes-jee)

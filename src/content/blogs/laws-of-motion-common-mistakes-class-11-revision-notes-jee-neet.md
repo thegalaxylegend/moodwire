@@ -49,7 +49,7 @@ practice_link: "/class-11/physics/laws-of-motion-common-mistakes-class-11-revisi
 
 # 10 Most Common Silly Mistakes in Laws of Motion
 
-"Laws of Motion" (Newtonian Mechanics) is the definitive foundation for the entirety of classical physics. If your Free Body Diagrams (FBDs) are flawed here, you will inevitably struggle in Work-Power-Energy, Rotational Dynamics, and even Electrostatics (when charged particles are subjected to forces).
+"Laws of [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)" (Newtonian Mechanics) is the definitive foundation for the entirety of classical physics. If your Free Body Diagrams (FBDs) are flawed here, you will inevitably struggle in Work-Power-Energy, Rotational Dynamics, and even Electrostatics (when charged particles are subjected to forces).
 
 Despite knowing the theory (F=ma), thousands of JEE and NEET aspirants bleed negative marks in this chapter due to recurring, predictable errors. 
 
@@ -149,3 +149,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
+- 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
+- 📖 [Electromagnetic Induction Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)

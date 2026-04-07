@@ -86,7 +86,7 @@ practice_link: "/class-11/physics/structure-of-atom-class-11-revision-notes-jee-
 
 **Atomic Structure is the study of the composition, arrangement, and behavior of subatomic particles within an atom.**
 
-Most students treat this chapter as a bunch of formulas to memorize. I did the same until I realized that every single formula (like Bohr's energy or de Broglie's wavelength) is a tool to solve a specific type of JEE problem. You don't need to be a theoretical physicist; you just need to understand the *transition* from classical models that failed (like Rutherford's) to the quantum reality that defines modern chemistry.
+Most students treat this chapter as a bunch of formulas to memorize. I did the same until I realized that every single formula (like Bohr's energy or de Broglie's wavelength) is a tool to solve a specific type of JEE problem. You don't need to be a theoretical physicist; you just need to understand the *transition* from classical models that failed (like Rutherford's) to the quantum reality that defines modern [chemistry](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet).
 
 ---
 
@@ -112,7 +112,7 @@ Most students treat this chapter as a bunch of formulas to memorize. I did the s
 
 ## <a id="3-bohrs-atomic-model-the-mathematics-of-orbits"></a>3. Bohr's Atomic Model: The Mathematics of Orbits
 
-**Bohr's Model is a semi-classical theory proposing that electrons revolve around the nucleus in fixed, quantized energy levels called stationary states.**
+**Bohr's Model is a semi-classical theory proposing that electrons revolve around the nucleus in fixed, quantized energy levels called stationary [states](/blog/states-of-matter-class-11-revision-notes-jee-neet).**
 
 ### <a id="core-postulates"></a>Core Postulates
 1. Electrons orbit in circular paths without radiating energy.
@@ -378,7 +378,7 @@ For your school exams, always draw the Rydberg series energy level diagram ($n=1
 
 ---
 
-**Related Revision Notes:**
+**Related [revision](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Notes:**
 - **Chemical Bonding VSEPR Theory JEE 2026 tricks — Hybridization & Shapes**
 - **Periodic Table Trends - Master Classification Short Notes**
 - **Some Basic Concepts of Chemistry: Mole Concept & Stoichiometry Revision**
@@ -418,3 +418,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Chemical Bonding Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/chemical-bonding-class-11-revision-notes-jee-neet)
+- 📖 [Equilibrium Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/equilibrium-class-11-revision-notes-jee-neet)
+- 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
+- 📖 [States Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/states-of-matter-class-11-revision-notes-jee-neet)

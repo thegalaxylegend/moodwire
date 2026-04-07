@@ -63,7 +63,7 @@ practice_link: "/class-11/chemistry/sets-class-11-revision-notes-jee-neet"
 
 ## <a id="introduction"></a>Introduction
 
-**Set theory is the fundamental framework of modern mathematics, providing the language to define collections, functions, and logic. Master the concepts of well-defined collections, subsets, and power sets to build a strong foundation for Calculus and Probability. This guide covers all essential Class 11 Math Chapter 1 formulas and operations for JEE/CBSE exams.**
+**Set theory is the fundamental framework of modern mathematics, providing the language to define collections, functions, and logic. Master the concepts of well-defined collections, subsets, and power sets to build a strong foundation for Calculus and Probability. This guide covers all essential [class](/blog/mathematical-induction-class-11-revision-notes-jee-neet) 11 Math Chapter 1 formulas and operations for JEE/CBSE exams.**
 Set theory is the foundation of modern mathematics. Developed by Georg Cantor, it provides the language and framework for almost every mathematical structure, from functions and [relations](/blog/relations-functions-class-11-revision-notes-jee-neet) to probability and topology. 
 
 ---
@@ -213,3 +213,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)
+- 📖 [Linear Inequalities Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/linear-inequalities-class-11-revision-notes-jee-neet)
+- 📖 [Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)

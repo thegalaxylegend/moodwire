@@ -71,14 +71,14 @@ The p-block elements are a group of elements found in the periodic table, charac
 
 ## <a id="why-this-chapter-matters"></a>Why This Chapter Matters
 
-The p-block elements are crucial for various JEE and NEET exams, with 2-3 questions in each session coming from this topic. In the 2026 JEE Mains Session 1, 3 questions were asked from the p-block elements, highlighting the importance of this topic for competitive exams.
+The p-[block](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) elements are crucial for various JEE and NEET exams, with 2-3 questions in each session coming from this topic. In the 2026 JEE Mains Session 1, 3 questions were asked from the p-[block](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) elements, highlighting the importance of this topic for competitive exams.
 
 
 
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div class="ayush-note">
+<div [class](/blog/biological-classification-class-11-revision-notes-neet)="ayush-note">
 I remember struggling with the p-block elements during my JEE preparation. One mistake I made was not understanding the electronic configuration of these elements. I used to get confused between the s- and p-orbitals, which led to incorrect answers. However, after practicing and revising the topic, I realized that the key to mastering the p-block elements is to understand their electronic configuration and how it affects their [physical](/blog/physical-world-class-11-revision-notes-jee-neet) and chemical properties.
 </div>
 
@@ -218,3 +218,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [The S Block Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/the-s-block-elements-class-11-revision-notes-jee-neet)
+- 📖 [Physical World Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/physical-world-class-11-revision-notes-jee-neet)
+- 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
+- 📖 [Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)

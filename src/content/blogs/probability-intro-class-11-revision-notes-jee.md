@@ -39,7 +39,7 @@ practice_link: "/class-11/physics/probability-intro-class-11-revision-notes-jee"
 
 ## <a id="what-is-probability-intro"></a>What is Probability (Intro)?
 
-As we begin our journey through the realm of probability, it's essential to understand the significance of this concept in our daily lives and its weightage in the Class 11 exam. Probability is a fundamental concept in mathematics that deals with chance events, and its applications are vast and diverse. From predicting the outcome of a coin toss to analyzing complex data in fields like medicine and finance, probability .
+As we begin our journey through the realm of probability, it's essential to understand the significance of this concept in our daily lives and its weightage in the [class](/blog/limits-and-derivatives-class-11-revision-notes-jee) 11 exam. Probability is a fundamental concept in mathematics that deals with chance events, and its applications are vast and diverse. From predicting the outcome of a coin toss to analyzing complex data in fields like medicine and finance, probability .
 
 In the Class 11 exam, probability carries a significant weightage of around 10-12% in the mathematics paper. This means that out of the total 100 marks, 10-12 marks are allocated to probability-related questions. The questions can range from simple probability problems to more complex ones involving conditional probability, independence, and the concept of random variables. The exam typically includes a mix of theoretical and numerical problems, with some questions requiring the application of probability concepts to real-life scenarios.
 
@@ -377,3 +377,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Relations and Functions Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/relations-and-functions-class-11-notes)
+- 📖 [Algorithms: Analysis Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-analysis-class-11-revision-notes-gate-boards)
+- 📖 [Limits and Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/limits-and-derivatives-class-11-revision-notes-jee)
+- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-and-combinations-class-11-revision-notes-jee)

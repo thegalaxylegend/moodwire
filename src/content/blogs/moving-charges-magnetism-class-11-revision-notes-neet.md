@@ -69,7 +69,7 @@ practice_link: "/class-11/biology/moving-charges-magnetism-class-11-revision-not
 
 ## <a id="introduction"></a>Introduction
 
-Magnetism is not a separate force from electricity; it is the relativistic consequence of electric charges in motion. Chapter 4 of Class 12 Physics, "Moving Charges and Magnetism," explores this profound connection—how a simple flow of electrons creates the invisible fields that power our motors, define our MRI machines, and protect our planet from solar radiation. In this "Comprehensive" guide, we provide exhaustive derivations for the magnetic field of various current distributions, the rigorous analysis of the Lorentz force, and the technical principles of measuring instruments. This is the ultimate academic resource for those targeting top scores in JEE, NEET, and Board exams.
+Magnetism is not a separate force from electricity; it is the relativistic consequence of electric charges in [motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet). Chapter 4 of Class 12 Physics, "Moving Charges and Magnetism," explores this profound connection—how a simple flow of electrons creates the invisible fields that power our motors, define our MRI machines, and protect our planet from solar radiation. In this "Comprehensive" guide, we provide exhaustive derivations for the magnetic field of various current distributions, the rigorous analysis of the Lorentz force, and the technical principles of measuring instruments. This is the ultimate academic resource for those targeting top scores in JEE, NEET, and Board exams.
 
 ---
 
@@ -245,3 +245,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
+- 📖 [Current Electricity Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/current-electricity-class-11-revision-notes-neet)
+- 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)

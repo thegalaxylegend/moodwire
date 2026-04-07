@@ -87,7 +87,7 @@ practice_link: "/class-11/physics/states-of-matter-class-11-revision-notes-jee-n
 
 **States of Matter describes how the physical behavior of substances (particularly gases) is governed by temperature, pressure, and volume, and how these variables interact through mathematical laws.**
 
-This chapter is where Physics and Chemistry merge. If you're comfortable with Thermodynamics and Kinetic Energy in Physics, you'll fly through this. The key challenge isn't the concepts — it's the **unit conversions**. I've seen students who understand Boyle's Law perfectly but get 0 marks because they forgot to convert Celsius to Kelvin.
+This chapter is where Physics and Chemistry merge. If you're comfortable with [thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) and Kinetic Energy in Physics, you'll fly through this. The key challenge isn't the concepts — it's the **unit conversions**. I've seen students who understand Boyle's Law perfectly but get 0 marks because they forgot to convert Celsius to Kelvin.
 
 ### <a id="why-this-chapter-matters-exam-data"></a>Why This Chapter Matters (Exam Data)
 - **JEE Mains 2026 Session 1**: 1 question on Compressibility Factor ($Z$) and 1 on Graham's Law.
@@ -356,7 +356,7 @@ In CBSE boards, always draw the $PV$ vs $P$ graph or the $Z$ vs $P$ graph if the
 
 ---
 
-**Related Revision Notes:**
+**Related [revision](/blog/structure-of-atom-class-11-revision-notes-jee-neet) Notes:**
 - **Chemical Thermodynamics — Enthalpy & Hess's Law**
 - **Some Basic Concepts of Chemistry — Mole Concept & Stoichiometry**
 - **Chemical Equilibrium — Le Chatelier's Principle Tricks**
@@ -396,3 +396,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Equilibrium Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/equilibrium-class-11-revision-notes-jee-neet)
+- 📖 [Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/structure-of-atom-class-11-revision-notes-jee-neet)
+- 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
+- 📖 [Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet)

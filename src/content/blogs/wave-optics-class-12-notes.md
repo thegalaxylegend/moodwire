@@ -41,7 +41,7 @@ practice_link: "/class-11/physics/wave-optics-class-12-notes"
 ## <a id="what-is-wave-optics"></a>What is Wave Optics?
 
 **Wave Optics: the Mysteries of Light**
-As we dive into the realm of Wave Optics, it's essential to understand the significance of this topic in the Class 12 physics syllabus. Wave Optics accounts for approximately 15-20% of the total marks in the CBSE Class 12 Physics exam, making it a crucial area of focus for students aiming to score high. The exam weightage is distributed across various topics, including **Huygens' Principle**, **Refraction and Total Internal Reflection**, **Polarization**, **Diffraction**, and **Interference**.
+As we dive into the realm of Wave Optics, it's essential to understand the significance of this topic in the [class](/blog/electromagnetic-waves-class-12-notes) 12 physics syllabus. Wave Optics accounts for approximately 15-20% of the total marks in the CBSE [class](/blog/electromagnetic-waves-class-12-notes) 12 Physics exam, making it a crucial area of focus for students aiming to score high. The exam weightage is distributed across various topics, including **Huygens' Principle**, **Refraction and Total Internal Reflection**, **Polarization**, **Diffraction**, and **Interference**.
 
 My personal journey with Wave Optics began when I was preparing for my Class 12 exams. I was fascinated by the way light behaves, and how it can be manipulated to produce stunning effects, such as **rainbows** and **mirages**. As I delved deeper into the subject, I realized that Wave Optics is not just about understanding the behavior of light, but also about developing a strong foundation in physics and mathematics. The concepts and principles learned in Wave Optics have far-reaching implications in various fields, including **optics**, **photonics**, and **telecommunications**.
 
@@ -406,3 +406,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Alternating Current Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/alternating-current-class-12-notes)
+- 📖 [Electromagnetic Induction Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
+- 📖 [Electromagnetic Waves Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-waves-class-12-notes)
+- 📖 [Electrostatics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electrostatics-class-12-revision-notes-jee-neet)

@@ -64,7 +64,7 @@ practice_link: "/class-11/physics/physical-world-class-11-revision-notes-jee-nee
 
 ## <a id="introduction-to-physical-world"></a>Introduction to Physical World
 
-Physical World is <span class="quick-summary">the first chapter in the Class 11 Physics syllabus</span>. It sets the stage for understanding the principles of physics and its applications. The chapter covers various topics such as the scientific method, measurement, error analysis, dimensions, units, scalars, and vectors.
+Physical World is <span [class](/blog/environmental-chemistry-class-11-revision-notes-neet)="quick-summary">the first chapter in the [class](/blog/environmental-chemistry-class-11-revision-notes-neet) 11 Physics syllabus</span>. It sets the stage for understanding the principles of physics and its applications. The chapter covers various topics such as the scientific method, measurement, error analysis, dimensions, units, scalars, and vectors.
 
 
 
@@ -196,3 +196,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [The S Block Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/the-s-block-elements-class-11-revision-notes-jee-neet)
+- 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
+- 📖 [Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)
+- 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)

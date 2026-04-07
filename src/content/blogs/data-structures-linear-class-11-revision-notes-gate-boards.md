@@ -40,7 +40,7 @@ practice_link: "/class-11/chemistry/data-structures-linear-class-11-revision-not
 
 ## <a id="what-is-data-structures-linear"></a>What is Data Structures: Linear?
 
-As we step into the realm of Class 11 computer science, it's clear that our exam preparation has shifted. The CBSE curriculum has undergone significant changes, and one of the most critical components of this new landscape is the study of Data Structures. Within this vast and intricate domain, Linear Data Structures stand out as a fundamental building block, laying the groundwork for more complex concepts that will be explored in the subsequent years. 
+As we step into the realm of [class](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) 11 computer science, it's clear that our exam preparation has shifted. The CBSE curriculum has undergone significant changes, and one of the most critical components of this new landscape is the study of Data Structures. Within this vast and intricate domain, Linear Data Structures stand out as a fundamental building block, laying the groundwork for more complex concepts that will be explored in the subsequent years. 
 
 The weightage of Data Structures in the Class 11 exam is substantial, with approximately 15-20% of the total marks allocated to this section. This significant allocation underscores the importance of grasping these concepts, not just for the exam but for the foundational understanding they provide for future studies in computer science. The linear data structures, including arrays, linked lists, stacks, and queues, form the backbone of programming and are essential for any aspiring computer scientist or software developer.
 
@@ -421,3 +421,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Data Structures: Non-Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards)
+- 📖 [Algorithms: Design Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-design-class-11-revision-notes-gate-boards)
+- 📖 [Algorithms: Analysis Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-analysis-class-11-revision-notes-gate-boards)
+- 📖 [Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/digital-logic-class-11-revision-notes-gate-boards)

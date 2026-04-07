@@ -59,7 +59,7 @@ practice_link: "/class-11/physics/ray-optics-class-12-quick-class-12-revision-no
 - **Snell's Law**: $n_1 \sin \theta_1 = n_2 \sin \theta_2$, where $n_1$ and $n_2$ are refractive indices of the two media and $\theta_1$ and $\theta_2$ are the angles of incidence and refraction.
 - **Mirror Formula**: $\frac{1}{v} + \frac{1}{u} = \frac{1}{f}$, where $v$ is the image distance, $u$ is the object distance, and $f$ is the focal length.
 
-As I, Ayush, prepare for my JEE/NEET exams, I find it crucial to have a solid grasp of ray optics. In this quick revision and recap, we'll cover the core concepts, formulae, and some practice questions to help reinforce our understanding.
+As I, Ayush, prepare for my JEE/NEET exams, I find it crucial to have a solid grasp of ray optics. In this quick [revision](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) and recap, we'll cover the core concepts, formulae, and some practice questions to help reinforce our understanding.
 
 
 
@@ -236,3 +236,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Art Culture Architecture Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/art-culture-architecture-class-11-revision-notes-jee-neet)
+- 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
+- 📖 [Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)
+- 📖 [Geomorphology Class 11 Geography Recap — CBSE 2026 Quick Guide](/blog/geomorphology-class-11-revision-notes-cbse)

@@ -169,7 +169,7 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
 - **The Hidden Pattern:** In Microbes in Human Welfare, the pattern of questioning is often based on the application of microbes in various fields such as medicine, agriculture, and industry. It is observed that $\rac{1}{3}$ of the questions are from the medical applications of microbes, $\rac{1}{4}$ from agricultural applications, and $\rac{5}{12}$ from industrial applications. - **How to Apply It:** To maximize score, focus on the following key areas: 
 
-        - Medical applications: Antibiotics, vaccines, and diagnosis (approx. 30% of questions)
+        - Medical [applications](/blog/biotechnology-and-its-applications-class-12-notes): Antibiotics, vaccines, and diagnosis (approx. 30% of questions)
 
         - Agricultural applications: Biofertilizers, biopesticides, and plant [disease](/blog/human-health-and-disease-class-12-notes) control (approx. 25% of questions)
 
@@ -197,7 +197,7 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
           - $$\Delta G = \Delta H - T\Delta S$$ for understanding the thermodynamics of microbial reactions
 
-        - **Key Processes:** Understand the following processes and their applications:
+        - **Key [processes](/blog/biotechnology-principles-and-processes-class-12-notes):** Understand the following [processes](/blog/biotechnology-principles-and-processes-class-12-notes) and their applications:
 
           - Fermentation for the production of antibiotics, vaccines, and other compounds
 
@@ -320,3 +320,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Human Health and Disease Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/human-health-and-disease-class-12-notes)
+- 📖 [Human Reproduction Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/human-reproduction-class-12-notes)
+- 📖 [Biodiversity and Conservation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
+- 📖 [Biotechnology and its Applications Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biotechnology-and-its-applications-class-12-notes)

@@ -46,7 +46,7 @@ practice_link: "/class-10/polynomials-class-10-notes"
 - **Mistake 1:** Incorrectly applying the remainder theorem to polynomials.
  - *Costs:* 4-6 marks
  - *Fix:* When using the remainder theorem, which states that $f(a) = {\frac{P(a)}{Q(a)}}$ is the remainder when $P(x)$ is divided by $(x-a)$, ensure you are evaluating $f(a)$ correctly and not misinterpreting the theorem's application. For instance, if $f(x) = x^2 + 2x - 3$, to find the remainder when $f(x)$ is divided by $(x+1)$, you would calculate $f(-1) = (-1)^2 + 2(-1) - 3 = 1 - 2 - 3 = -4$. This is the remainder, not the result of the division itself.
- - **Mistake 2:** Failing to factorize polynomials correctly before solving equations.
+ - **Mistake 2:** Failing to factorize polynomials correctly before solving [equations](/blog/pair-of-linear-equations-class-10-notes).
  - *Costs:* 5-8 marks
  - *Fix:* Always attempt to factorize polynomials using methods like finding common factors, difference of squares ($a^2 - b^2 = (a+b)(a-b)$), \sum or difference of cubes ($a^3 \pm b^3 = (a \pm b)(a^2 \mp ab + b^2)$), or grouping. For examp\le, to solve $x^2 + 5x + 6 = 0$, recognize it can be factored into $(x+3)(x+2) = 0$, leading to solutions $x = -3$ and $x = -2$.
  - **Mistake 3:** Incorrectly adding or subtracting polynomials.
@@ -216,3 +216,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Arithmetic Progressions Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/arithmetic-progressions-class-10-notes)
+- 📖 [Pair of Linear Equations Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/pair-of-linear-equations-class-10-notes)
+- 📖 [Real Numbers Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/real-numbers-class-10-notes)
+- 📖 [Triangles Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/triangles-class-10-notes)

@@ -170,7 +170,7 @@ By avoiding the 5 trap mistakes and practicing a wide range of questions, you ca
 ### <a id="10-conclusion-and-final-preparation"></a>10. Conclusion and Final Preparation
 - **Revision of Key Concepts**: Reiterate the importance of understanding the structure, properties, and reactions of amines for success in JEE and NEET exams.
 - **Practice and Consistency**: Emphasize the need for consistent practice and review of amines and their reactions to reinforce learning and build problem-solving skills.
-- **Test Center Integration**: Direct students to utilize the Test Center at /class-11/chemistry/amines-class-12-notes for comprehensive practice and assessment, highlighting its benefits in identifying knowledge gaps and improving exam readiness.
+- **Test Center Integration**: Direct students to utilize the Test Center at /class-11/[chemistry](/blog/surface-chemistry-class-12-notes)/amines-class-12-notes for comprehensive practice and assessment, highlighting its benefits in identifying knowledge gaps and improving exam readiness.
 
 ## <a id="-master-the-test-center-stepbystep-learning"></a>📝 Master the Test Center — Step-by-Step Learning
 To master the concepts of amines and perform exceptionally in JEE and NEET exams, it is crucial to integrate the Test Center into your study routine. Here’s how you can do it effectively:
@@ -217,3 +217,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Metallurgy Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/metallurgy-class-12-notes)
+- 📖 [Solid State Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/solid-state-class-12-notes)
+- 📖 [Surface Chemistry Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/surface-chemistry-class-12-notes)
+- 📖 [Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-integrals-class-12-notes)

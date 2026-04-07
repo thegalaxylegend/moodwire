@@ -58,7 +58,7 @@ practice_link: "/class-11/mathematics/permutations-combinations-class-11-revisio
 
 ## <a id="introduction"></a>Introduction
 
-**Permutations and Combinations provide the mathematical toolkit for counting possibilities and arrangements in complex systems. Master the Fundamental Principle of Counting, nPr for ordered arrangements, and nCr for selections to excel in probability and cryptography. This Class 11 Math Chapter 7 guide covers all essential factorial logic for JEE and CBSE exams.**
+**Permutations and Combinations provide the mathematical toolkit for counting possibilities and arrangements in complex systems. Master the Fundamental Principle of Counting, nPr for ordered arrangements, and nCr for selections to excel in probability and cryptography. This [class](/blog/conic-sections-class-11-revision-notes-jee) 11 Math Chapter 7 guide covers all essential factorial logic for JEE and CBSE exams.**
 Mathematics is not just about numbers; it's about possibilities.
 
 ---
@@ -202,3 +202,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-and-combinations-class-11-revision-notes-jee)
+- 📖 [Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/binomial-theorem-class-11-revision-notes-jee)
+- 📖 [Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/conic-sections-class-11-revision-notes-jee)
+- 📖 [Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)

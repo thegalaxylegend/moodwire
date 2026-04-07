@@ -88,7 +88,7 @@ Environmental chemistry is [the study of the chemical and biochemical phenomena 
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div class="ayush-note">
+<div [class](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)="ayush-note">
 I once made a mistake in my JEE preparation by not giving enough importance to environmental chemistry. I used to think that it's a simple topic and doesn't require much practice. But, I realized my mistake when I saw the weightage of environmental chemistry in the JEE exam. I had to work hard to catch up and make sure I didn't make the same mistake again. My advice to you is to not underestimate the importance of environmental chemistry and to practice it regularly.
 </div>
 
@@ -221,3 +221,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
+- 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
+- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)
+- 📖 [Plant Growth And Development Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/plant-growth-and-development-class-11-revision-notes-neet)

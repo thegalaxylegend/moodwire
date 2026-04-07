@@ -39,7 +39,7 @@ practice_link: "/class-11/biology/electromagnetic-induction-class-12-revision-no
 
 ## <a id="what-is-electromagnetic-induction"></a>What is Electromagnetic Induction?
 
-As we dive into the realm of physics for our Class 12 exam prep in 2026, one concept that stands out for its intriguing applications and significant weightage in the exam is Electromagnetic Induction. This phenomenon, discovered by Michael Faraday in 1831, is a fundamental principle behind the operation of numerous devices we use daily, from power generators and motors to transformers and inductors.
+As we dive into the realm of physics for our [class](/blog/alternating-current-class-12-notes) 12 exam prep in 2026, one concept that stands out for its intriguing applications and significant weightage in the exam is Electromagnetic Induction. This phenomenon, discovered by Michael Faraday in 1831, is a fundamental principle behind the operation of numerous devices we use daily, from power generators and motors to transformers and inductors.
 
 The Class 12 physics syllabus is divided into several key areas, and Electro[magnetic](/blog/magnetic-effects-of-current-class-12-notes) Induction falls under the broader topic of Electricity and Magnetism, which typically carries a significant weightage of around 25-30% in the board exams. Within this section, questions related to Electromagnetic Induction can appear in various forms, including theoretical explanations, numerical problems, and sometimes as a part of a combination of concepts. For instance, you might be asked to calculate the induced emf in a coil using the formula $e = -N\frac{d\Phi}{dt}$, where $e$ is the induced emf, $N$ is the number of turns in the coil, and $\frac{d\Phi}{dt}$ is the rate of change of magnetic flux.
 
@@ -299,3 +299,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Magnetic Effects of Current Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetic-effects-of-current-class-12-notes)
+- 📖 [Magnetism and Matter Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetism-and-matter-class-12-notes)
+- 📖 [Alternating Current Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/alternating-current-class-12-notes)
+- 📖 [Principle of Mathematical Induction Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee)

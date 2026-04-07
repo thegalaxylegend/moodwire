@@ -40,7 +40,7 @@ practice_link: "/class-11/mathematics/permutations-and-combinations-class-11-rev
 
 ## <a id="what-is-permutations-and-combinations"></a>What is Permutations and Combinations?
 
-As we dive into the realm of Class 11 mathematics, one topic stands out for its sheer complexity and beauty: Permutations and Combinations. For many students, this subject can seem daunting, but trust me, it's a game-changer. I still remember when I first encountered this topic during my Class 11 exam prep - it was like a puzzle waiting to be solved. The concepts of arrangements, selections, and calculations seemed overwhelming, but as I delved deeper, I realized the significance of Permutations and Combinations in not just mathematics, but also in real-life scenarios.
+As we dive into the realm of [class](/blog/electrostatics-class-12-revision-notes-jee-neet) 11 mathematics, one topic stands out for its sheer complexity and beauty: Permutations and Combinations. For many students, this subject can seem daunting, but trust me, it's a game-changer. I still remember when I first encountered this topic during my [class](/blog/electrostatics-class-12-revision-notes-jee-neet) 11 exam prep - it was like a puzzle waiting to be solved. The concepts of arrangements, selections, and calculations seemed overwhelming, but as I delved deeper, I realized the significance of Permutations and Combinations in not just mathematics, but also in real-life scenarios.
 
 The weightage of Permutations and Combinations in the Class 11 exam is substantial, with a dedicated chapter in the CBSE mathematics syllabus. The topic accounts for around 10-15% of the total marks in the mathematics paper, making it a crucial area of focus for students aiming to score high. The exam typically includes 2-3 questions from this chapter, ranging from straightforward calculations to complex problems that require a deep understanding of the concepts. For instance, a question might ask you to find the number of ways to arrange 5 people in a row, or to determine the number of combinations of 3 items from a set of 10. These questions may seem straightforward, but they require a solid grasp of the underlying principles.
 
@@ -375,3 +375,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Limits and Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/limits-and-derivatives-class-11-revision-notes-jee)
+- 📖 [Principle of Mathematical Induction Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee)
+- 📖 [Electrostatics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electrostatics-class-12-revision-notes-jee-neet)
+- 📖 [Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-combinations-class-11-revision-notes-jee)

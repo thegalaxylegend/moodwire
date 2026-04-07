@@ -61,7 +61,7 @@ practice_link: "/class-11/mathematics/sequences-series-class-11-revision-notes-j
 
 ## <a id="introduction"></a>Introduction
 
-**Sequences and Series describe mathematical patterns and progressions, forming the basis for growth modeling and summation in calculus and finance. Master Arithmetic Progression (AP), Geometric Progression (GP), and the powerful AM-GM relationship to solve complex numerical patterns in competitive exams. This Class 11 Math Chapter 9 summary provides all essential formulas for JEE and CBSE success.**
+**Sequences and Series describe mathematical patterns and progressions, forming the basis for growth modeling and summation in calculus and finance. Master Arithmetic Progression (AP), Geometric Progression (GP), and the powerful AM-GM relationship to solve complex numerical patterns in competitive exams. This [class](/blog/conic-sections-class-11-revision-notes-jee) 11 Math Chapter 9 summary provides all essential formulas for JEE and CBSE success.**
 Sequences and Series are the mathematical representation of progression and patterns.
 
 ---
@@ -212,3 +212,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-class-11-revision-notes-jee)
+- 📖 [Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/binomial-theorem-class-11-revision-notes-jee)
+- 📖 [Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/conic-sections-class-11-revision-notes-jee)
+- 📖 [Moving Charges Magnetism Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/moving-charges-magnetism-class-11-revision-notes-neet)

@@ -29,7 +29,7 @@ practice_link: "/class-11/biology/human-reproduction-class-12-notes"
 
 * 1-2 short answer questions on **menstrual cycle phases** — always, focusing on $\\Delta$ changes in FSH, LH, estrogen, and progesterone levels
 * 1 numerical on **spermatogenesis vs oogenesis** — comparing the number of sperm and egg cells produced, using $2^n$ formula
-* Photo of **human female reproductive system** — identify and label parts: ovary, fallopian tube, uterus, cervix, vagina
+* Photo of **[human](/blog/microbes-in-human-welfare-class-12-notes) female reproductive system** — identify and label parts: ovary, fallopian tube, uterus, cervix, vagina
 * **Fertility and infertility** causes — always, including $\\frac{1}{4}$ chances of passing on genetic disorders
 * 1-2 short answer questions on **contraceptive methods** — focusing on $\\times$ effectiveness, advantages, and disadvantages
 * Diagram of **sperm structure** — label and explain functions of acrosome, mitochondria, nucleus
@@ -189,7 +189,7 @@ practice_link: "/class-11/biology/human-reproduction-class-12-notes"
 
 | Topic | Subtopic | Weightage |
 | --- | --- | --- |
-| Human Reproduction | Menstrual Cycle | 12 |
+| Human [reproduction](/blog/reproduction-in-organisms-class-12-notes) | Menstrual Cycle | 12 |
 | Human Reproduction | Fertilization and Implantation | 10 |
 | Human Reproduction | Pregnancy and Childbirth | 8 |
 | Human Reproduction | Contraception and Infertility | 6 |
@@ -293,3 +293,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Human Health and Disease Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/human-health-and-disease-class-12-notes)
+- 📖 [Microbes in Human Welfare Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/microbes-in-human-welfare-class-12-notes)
+- 📖 [Reproduction in Organisms Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/reproduction-in-organisms-class-12-notes)
+- 📖 [Sexual Reproduction in Flowering Plants Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/sexual-reproduction-in-flowering-plants-class-12-notes)

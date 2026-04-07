@@ -231,3 +231,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Atoms Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/atoms-class-12-notes)
+- 📖 [Dual Nature of Radiation Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/dual-nature-of-radiation-class-12-notes)
+- 📖 [Nuclei Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/nuclei-class-12-notes)
+- 📖 [Semiconductor Electronics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/semiconductor-electronics-class-12-notes)

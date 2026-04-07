@@ -57,7 +57,7 @@ practice_link: "/class-11/physics/mathematical-induction-class-11-revision-notes
 
 ## <a id="introduction"></a>Introduction
 
-**Mathematical Induction is a powerful logical proof technique used to verify the truth of infinite statements starting from a base case. Master the three-step process—Checking n=1, Assuming n=k, and Proving n=k+1—to solve rigorous identity proofs in algebra and sequence theory. This Class 11 Math Chapter 4 summary provides the deductive logic essential for JEE level problem-solving.**
+**Mathematical Induction is a powerful logical proof technique used to verify the truth of infinite statements starting from a base case. Master the three-step process—Checking n=1, Assuming n=k, and Proving n=k+1—to solve rigorous identity proofs in algebra and sequence theory. This [class](/blog/limits-derivatives-class-11-revision-notes-jee-neet) 11 Math Chapter 4 summary provides the deductive logic essential for JEE level problem-solving.**
 Mathematical Induction is a powerful "proof technique" used to establish the truth of mathematical statements for all natural numbers.
 
 ---
@@ -168,3 +168,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Mathematical Reasoning Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-reasoning-class-11-revision-notes-jee-neet)
+- 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
+- 📖 [Limits Derivatives Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/limits-derivatives-class-11-revision-notes-jee-neet)
+- 📖 [Three Dimensional Geometry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/three-dimensional-geometry-class-11-revision-notes-jee-neet)

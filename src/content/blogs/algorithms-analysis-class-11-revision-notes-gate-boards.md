@@ -40,7 +40,7 @@ practice_link: "/class-11/physics/algorithms-analysis-class-11-revision-notes-ga
 
 ## <a id="what-is-algorithms-analysis"></a>What is Algorithms: Analysis?
 
-As we step into the realm of Class 11 computer science, one concept stands out for its sheer complexity and significance: Algorithms. The term itself might seem daunting, but trust me, it's a game-changer. I still remember my first encounter with algorithms - it was like trying to solve a puzzle blindfolded. But as I progressed, I realized that algorithms are the backbone of computer science, and analyzing them is an art that can make or break your exam prep.
+As we step into the realm of [class](/blog/data-structures-linear-class-11-revision-notes-gate-boards) 11 computer science, one concept stands out for its sheer complexity and significance: Algorithms. The term itself might seem daunting, but trust me, it's a game-changer. I still remember my first encounter with algorithms - it was like trying to solve a puzzle blindfolded. But as I progressed, I realized that algorithms are the backbone of computer science, and analyzing them is an art that can make or break your exam prep.
 
 The weightage of algorithms in the Class 11 exam is substantial, with around 20-25% of the questions dedicated to this topic. The exam typically consists of 3-4 questions that test your understanding of algorithm analysis, including time and space complexity, trade-offs, and optimization techniques. To give you a better idea, the exam pattern usually looks like this: 1-2 short answer questions (around 2-3 marks each) that test your understanding of basic concepts, 1-2 long answer questions (around 5-6 marks each) that test your ability to analyze and optimize algorithms, and 1-2 numerical problems (around 4-5 marks each) that test your ability to apply algorithmic concepts to real-world problems.
 
@@ -403,3 +403,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Algorithms: Design Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-design-class-11-revision-notes-gate-boards)
+- 📖 [Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/digital-logic-class-11-revision-notes-gate-boards)
+- 📖 [Data Structures: Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/data-structures-linear-class-11-revision-notes-gate-boards)
+- 📖 [Data Structures: Non-Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards)

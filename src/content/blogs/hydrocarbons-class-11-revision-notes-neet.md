@@ -63,7 +63,7 @@ Last Updated: March 15, 2026
 
 ## <a id="introduction-to-hydrocarbons"></a>Introduction to Hydrocarbons
 
-Hydrocarbons are organic compounds that consist only of hydrogen and carbon atoms. Hydrocarbons can be classified into two main categories: aliphatic and aromatic. Aliphatic hydrocarbons can be further divided into saturated (alkanes) and unsaturated (alkenes and alkynes) hydrocarbons. Aromatic hydrocarbons, on the other hand, contain a benzene ring.
+Hydrocarbons are organic compounds that consist only of [hydrogen](/blog/hydrogen-class-11-revision-notes-neet) and carbon atoms. Hydrocarbons can be classified into two main categories: aliphatic and aromatic. Aliphatic hydrocarbons can be further divided into saturated (alkanes) and unsaturated (alkenes and alkynes) hydrocarbons. Aromatic hydrocarbons, on the other hand, contain a benzene ring.
 
 
 
@@ -77,7 +77,7 @@ Hydrocarbons are an essential topic in organic chemistry, and understanding them
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div class="callout-box">
+<div [class](/blog/redox-reactions-class-11-revision-notes-neet)="callout-box">
 I still remember when I was preparing for my JEE exams, I used to get confused between alkanes, alkenes, and alkynes. One mistake I made was not being able to distinguish between the general formula of alkanes (CnH2n+2) and alkenes (CnH2n). However, I realized that understanding the general formula and the structural differences between these compounds is crucial. I made a cheat sheet with the general formulas and structures of different hydrocarbons, which helped me to quickly identify and solve problems.
 </div>
 
@@ -205,3 +205,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Cell Cycle And Cell Division Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet)
+- 📖 [Redox Reactions Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/redox-reactions-class-11-revision-notes-neet)
+- 📖 [Hydrogen Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/hydrogen-class-11-revision-notes-neet)
+- 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)

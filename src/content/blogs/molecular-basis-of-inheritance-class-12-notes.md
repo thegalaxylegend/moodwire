@@ -41,7 +41,7 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 
 - **Sutton's Law of Incomplete Dominance:** No specific formula, but it states that one allele does not completely dominance the other, resulting in a blending of traits.
 
-- **Polygenic Inheritance:** No specific formula, but it states that one character is controlled by multiple genes.
+- **Polygenic [inheritance](/blog/principles-of-inheritance-and-variation-class-12-notes):** No specific formula, but it states that one character is controlled by multiple genes.
 
 - **Lethal Genes and Semilethals:** No specific formula, but they are genes that cause the death of an organism if an individual is homozygous recessive for the gene.
 
@@ -288,3 +288,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Principles of Inheritance and Variation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/principles-of-inheritance-and-variation-class-12-notes)
+- 📖 [Biodiversity and Conservation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
+- 📖 [Biotechnology and its Applications Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biotechnology-and-its-applications-class-12-notes)
+- 📖 [Biotechnology: Principles and Processes Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biotechnology-principles-and-processes-class-12-notes)

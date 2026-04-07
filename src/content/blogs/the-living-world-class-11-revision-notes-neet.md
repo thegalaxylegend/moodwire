@@ -64,7 +64,7 @@ practice_link: "/class-11/biology/the-living-world-class-11-revision-notes-neet"
 
 ## <a id="introduction-to-the-living-world"></a>Introduction to the Living World
 
-The living world is a vast and diverse array of organisms that inhabit our planet. From the simplest bacteria to the most complex forms of life, all living organisms share certain characteristics that set them apart from non-living matter. Understanding these characteristics and the principles of classification is essential for studying biology.
+The living world is a vast and diverse array of organisms that inhabit our planet. From the simplest bacteria to the most complex forms of life, all living organisms share certain characteristics that set them apart from non-living matter. Understanding these characteristics and the principles of [classification](/blog/biological-classification-class-11-revision-notes-neet) is essential for studying biology.
 
 
 
@@ -129,7 +129,7 @@ One shortcut formula that can be used to remember the characteristics of living 
 * **G**: Growth and development
 * **R**: Reproduction
 * **E**: Evolution
-* **P**: Photosynthesis (in plants)
+* **P**: Photosynthesis (in [plants](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet))
 
 
 
@@ -243,3 +243,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Physical World Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/physical-world-class-11-revision-notes-jee-neet)
+- 📖 [Animal Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)
+- 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
+- 📖 [Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)

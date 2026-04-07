@@ -60,7 +60,7 @@ practice_link: "/class-11/physics/linear-inequalities-class-11-revision-notes-je
 
 ## <a id="introduction"></a>Introduction
 
-**Linear Inequalities define the boundaries and ranges of mathematical solutions, forming the basis for optimization and Linear Programming. Master the rules of sign reversal, interval notation, and graphical shading in two variables to solve real-world economic and engineering constraints. This Class 11 Math Chapter 6 guide provides the logic required for JEE and CBSE exams.**
+**Linear Inequalities define the boundaries and ranges of mathematical solutions, forming the basis for optimization and Linear Programming. Master the rules of sign reversal, interval notation, and graphical shading in two variables to solve real-world economic and engineering constraints. This [class](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) 11 Math Chapter 6 guide provides the logic required for JEE and CBSE exams.**
 Not every problem in mathematics results in a single "equal" answer.
 
 ---
@@ -201,3 +201,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)
+- 📖 [Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)

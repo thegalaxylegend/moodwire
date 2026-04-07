@@ -38,7 +38,7 @@ practice_link: "/class-11/biology/ai-study-hack-pomodoro-class-11-revision-notes
 
 ## <a id="ayushs-note-the-mistake-i-made"></a>Ayush's Note — The Mistake I Made
 
-{"personal_mistake":"One of the most significant mistakes I made during my Class 11 Biology studies was not effectively utilizing the Pomodoro Technique in conjunction with AI study hacks early on. I often found myself overwhelmed with the vast amount of material to cover, leading to inefficient study sessions and burnout. It wasn't until I started integrating the Pomodoro Technique with AI tools that I saw a marked improvement in my productivity and understanding of complex biological concepts.","hack":"My personal hack now involves not only using the Pomodoro Technique but also leveraging AI to analyze my weakest areas in Biology. This approach allows me to focus my Pomodoro sessions on topics where I need the most improvement, thereby maximizing the effectiveness of my study time."}
+{"personal_mistake":"One of the most significant mistakes I made during my [class](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet) 11 Biology studies was not effectively utilizing the Pomodoro Technique in conjunction with AI study hacks early on. I often found myself overwhelmed with the vast amount of material to cover, leading to inefficient study sessions and burnout. It wasn't until I started integrating the Pomodoro Technique with AI tools that I saw a marked improvement in my productivity and understanding of complex biological concepts.","hack":"My personal hack now involves not only using the Pomodoro Technique but also leveraging AI to analyze my weakest areas in Biology. This approach allows me to focus my Pomodoro sessions on topics where I need the most improvement, thereby maximizing the effectiveness of my study time."}
 
 
 
@@ -148,3 +148,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Ai Exam Prep Future Class 11 Computer Science Recap — CBSE 2026 Quick Guide](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet)
+- 📖 [Agriculture Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/agriculture-class-11-revision-notes-neet)
+- 📖 [3d Geometry Intro Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet)
+- 📖 [Algorithms: Analysis Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-analysis-class-11-revision-notes-gate-boards)

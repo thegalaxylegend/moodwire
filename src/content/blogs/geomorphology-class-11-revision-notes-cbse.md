@@ -57,7 +57,7 @@ practice_link: "/class-11/physics/geomorphology-class-11-revision-notes-cbse"
 * **Exogenic forces**: External forces that shape the Earth's surface, e.g., weathering, erosion, deposition.
 * **Denudation**: Process of wearing away the Earth's surface.
 
-As I, Ayush, prepare for my Class 11 Geography exam, I want to make sure I have a solid grasp of the key concepts in Geomorphology. In this quick revision and recap, I'll be covering the core concepts, formulae, and tables that I need to know.
+As I, Ayush, prepare for my [class](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) 11 Geography exam, I want to make sure I have a solid grasp of the key concepts in Geomorphology. In this quick revision and recap, I'll be covering the core concepts, formulae, and tables that I need to know.
 
 
 
@@ -490,3 +490,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)
+- 📖 [World History Industrial Revolution Class 11 History Recap — CBSE 2026 Quick Guide](/blog/world-history-industrial-revolution-class-11-revision-notes-jee-neet)
+- 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)
+- 📖 [Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)

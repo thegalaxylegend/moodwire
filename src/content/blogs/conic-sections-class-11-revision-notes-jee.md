@@ -61,7 +61,7 @@ practice_link: "/class-11/mathematics/conic-sections-class-11-revision-notes-jee
 
 ## <a id="introduction"></a>Introduction
 
-**Conic Sections represent the curved paths of celestial bodies and projectiles, defined by the intersection of a plane and a cone. Master the standard equations of Circles, Parabolas, Ellipses, and Hyperbolas along with their focal properties and eccentricity to excel in advanced coordinate geometry. This Class 11 Math Chapter 11 guide provides all essential derivations for JEE and Board exams.**
+**Conic Sections represent the curved paths of celestial bodies and projectiles, defined by the intersection of a plane and a cone. Master the standard equations of Circles, Parabolas, Ellipses, and Hyperbolas along with their focal properties and eccentricity to excel in advanced coordinate geometry. This [class](/blog/probability-class-11-revision-notes-jee) 11 Math Chapter 11 guide provides all essential derivations for JEE and Board exams.**
 Conic sections are the various shapes created when a plane intersects a double-napped cone.
 
 ---
@@ -211,3 +211,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/binomial-theorem-class-11-revision-notes-jee)
+- 📖 [Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-combinations-class-11-revision-notes-jee)
+- 📖 [Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-class-11-revision-notes-jee)
+- 📖 [Sequences Series Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/sequences-series-class-11-revision-notes-jee)

@@ -40,7 +40,7 @@ practice_link: "/class-11/mathematics/class-10-30-day-timetable-class-10-revisio
 
 # 30-Day Timetable for Class 10 Board Exam Prep Guide
 
-Last year, I was juggling my Class 11 orientation while helping my younger cousin build a **30-day timetable for Class 10 board exam** because his coaching center had basically given up on him. 
+Last year, I was juggling my [class](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee) 11 orientation while helping my younger cousin build a **30-day timetable for [class](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee) 10 board exam** because his coaching center had basically given up on him. 
 
 The truth is, most schools and big coaching brands will give you a generic "study 10 hours" schedule. But that’s useless if you don’t know *what* to study. After building my own AI tool, Exam Compass, I realized that the best students don't work harder—they work smarter. They know how to prioritize the high-yield topics. 
 
@@ -158,3 +158,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Class 10 Science Pyq Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet)
+- 📖 [Cuet 2026 Master Strategy Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)
+- 📖 [Upsc Optional Selection Guide Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee)
+- 📖 [Jee Mains High Weightage Chapters Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)

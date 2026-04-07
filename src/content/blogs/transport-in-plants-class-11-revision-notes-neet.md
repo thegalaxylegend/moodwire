@@ -44,7 +44,7 @@ practice_link: "/class-11/biology/transport-in-plants-class-11-revision-notes-ne
 
 ### <a id="transport-in-plants-class-11-notes"></a>Transport in Plants Class 11 Notes
 #### Quick Recall Box
-* Transport in plants is essential for survival
+* Transport in [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) is essential for survival
 * It involves the movement of water, minerals, and sugars throughout the plant
 * There are two main types of transport in plants: passive and active transport
 * Passive transport includes diffusion, osmosis, and transpiration
@@ -159,3 +159,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
+- 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
+- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)
+- 📖 [Respiration In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/respiration-in-plants-class-11-revision-notes-neet)

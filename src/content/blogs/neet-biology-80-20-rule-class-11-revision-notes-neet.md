@@ -43,7 +43,7 @@ practice_link: "/class-11/biology/neet-biology-80-20-rule-class-11-revision-note
 
 # High-Yield Topics: The 80/20 Rule for NEET Biology
 
-With Botany and Zoology accounting for exactly 50% of your total NEET score, Biological Sciences is the absolute kingmaker in medical admissions. However, trying to memorize every line of the voluminous NCERT textbooks with equal intensity is a recipe for burnout.
+With Botany and Zoology accounting for exactly 50% of your total NEET score, [biological](/blog/biological-classification-class-11-revision-notes-neet) Sciences is the absolute kingmaker in medical admissions. However, trying to memorize every line of the voluminous NCERT textbooks with equal intensity is a recipe for burnout.
 
 Enter the Pareto Principle, commonly known as the **80/20 Rule**. In the context of the National Eligibility cum Entrance Test, data proves that roughly 80% of your Biology marks are generated from just 20% of the syllabus chapters. 
 
@@ -52,7 +52,7 @@ Here is the exact breakdown of the "20% High-Yield" topics that guarantee a 340+
 
 ## <a id="the-highyield-matrix-the-20-syllabus"></a>The High-Yield Matrix (The 20% Syllabus)
 
-Based on frequency analysis from the 2018–2026 NTA papers, the following chapters must form the core of your revision strategy.
+Based on frequency analysis from the 2018–2026 NTA papers, the following chapters must form the core of your [revision](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet) strategy.
 
 ### <a id="1-genetics-and-evolution-1518-questions"></a>1. Genetics and Evolution (15-18 Questions)
 This unit is the undisputed heavyweight champion of NEET. 
@@ -137,3 +137,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Agriculture Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/agriculture-class-11-revision-notes-neet)
+- 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
+- 📖 [Animal Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)
+- 📖 [Biogeography Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biogeography-class-11-revision-notes-neet)

@@ -87,7 +87,7 @@ practice_link: "/class-11/physics/classification-elements-periodicity-class-11-r
 
 **Periodicity is the systematic, repeating variation of elemental properties (like radius, IE, and electronegativity) as a function of atomic number.**
 
-I used to dread Inorganic Chemistry because it felt like pure memorization. Then I realized that 80% of Inorganic questions in JEE are just Periodic Trend questions in disguise. "Arrange in order of acidic strength" is really "Arrange by electronegativity." "Which oxide is most basic?" is really "Which element has the lowest IE?"
+I used to dread Inorganic [chemistry](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) because it felt like pure memorization. Then I realized that 80% of Inorganic questions in JEE are just Periodic Trend questions in disguise. "Arrange in order of acidic strength" is really "Arrange by electronegativity." "Which oxide is most basic?" is really "Which element has the lowest IE?"
 
 ### <a id="why-this-chapter-matters-exam-data"></a>Why This Chapter Matters (Exam Data)
 - **JEE Mains 2026**: 2 direct questions on IE anomalies and oxide nature.
@@ -103,7 +103,7 @@ I used to dread Inorganic Chemistry because it felt like pure memorization. Then
 
 ## <a id="2-modern-periodic-law-and-table-layout"></a>2. Modern Periodic Law and Table Layout
 
-**The Modern Periodic Law states that the physical and chemical properties of elements are periodic functions of their atomic numbers.**
+**The Modern Periodic Law [states](/blog/states-of-matter-class-11-revision-notes-jee-neet) that the physical and chemical properties of elements are periodic functions of their atomic numbers.**
 
 ### <a id="structure-of-the-table"></a>Structure of the Table
 - **7 Periods** (Horizontal rows): Period number = Number of shells.
@@ -387,3 +387,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet)
+- 📖 [Chemical Bonding Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/chemical-bonding-class-11-revision-notes-jee-neet)
+- 📖 [Equilibrium Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/equilibrium-class-11-revision-notes-jee-neet)
+- 📖 [Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/structure-of-atom-class-11-revision-notes-jee-neet)

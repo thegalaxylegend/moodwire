@@ -262,7 +262,7 @@ But we must consider the nature of $f(x) = |x|$ when $x = 0$. Since $g(0) = 0^2 
 ## <a id="-the-5-trap-mistakes"></a>🪤 The 5 Trap Mistakes
 1. **Not considering the domain of the function**: When dealing with functions like $f(x) = |x|$, it's crucial to remember that the absolute value function has a piecewise definition which affects its differentiability at $x = 0$.
 2. **Forgetting the chain rule**: In composite functions like $f(g(x))$, applying the chain rule is essential to find the derivative correctly.
-3. **Misapplying derivative rules**: Each derivative rule (sum, difference, product, quotient, chain) has its specific application, and confusing these can lead to incorrect derivatives.
+3. **Misapplying derivative rules**: Each derivative rule (sum, difference, product, quotient, chain) has its specific [application](/blog/application-of-integrals-class-12-notes), and confusing these can lead to incorrect derivatives.
 4. **Ignoring higher-order derivatives**: In problems requiring the second derivative or higher, failing to differentiate the first derivative correctly can lead to errors.
 5. **Not checking for continuity and differentiability**: Before applying derivative rules, it's essential to check if the function is continuous and differentiable at the given point to ensure the derivative exists.
 
@@ -301,7 +301,7 @@ As we delve deeper into the world of continuity and differentiability, it's esse
 
 ## <a id="-master-the-test-center-stepbystep-learning"></a>📝 Master the Test Center — Step-by-Step Learning
 
-To reinforce your understanding of continuity and differentiability and to practice applying these concepts to solve problems, it's crucial to utilize the Test Center at /class-11/mathematics/continuity-and-differentiability-class-12-notes. This valuable resource provides a comprehensive platform for you to:
+To reinforce your understanding of continuity and differentiability and to practice applying these concepts to solve problems, it's crucial to utilize the Test Center at /[class](/blog/amines-class-12-notes)-11/mathematics/continuity-and-differentiability-[class](/blog/amines-class-12-notes)-12-notes. This valuable resource provides a comprehensive platform for you to:
 
 1. **Review Notes and Concepts:** The Test Center offers detailed notes and explanations on continuity and differentiability, covering topics from basic definitions to advanced applications.
 2. **Practice with Solved Examples:** Working through solved examples will help you understand how to apply theoretical concepts to practical problems, enhancing your problem-solving skills.
@@ -344,3 +344,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-integrals-class-12-notes)
+- 📖 [Determinants Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/determinants-class-12-notes)
+- 📖 [Amines Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Metallurgy Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/metallurgy-class-12-notes)

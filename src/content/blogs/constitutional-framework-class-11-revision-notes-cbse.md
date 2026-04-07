@@ -44,7 +44,7 @@ practice_link: "/class-11/constitutional-framework-class-11-revision-notes-cbse"
 
 
 
-Constitutional Framework is a set of principles and rules that govern the functioning of a country's government and institutions. It includes the structure of the government, the powers and limitations of the different branches, and the rights and responsibilities of citizens. For Class 11 exam prep in 2026, the most important aspect is understanding the key features of the Indian Constitution and how they impact the country's governance.
+Constitutional Framework is a set of principles and rules that govern the functioning of a country's government and institutions. It includes the structure of the government, the powers and limitations of the different branches, and the rights and responsibilities of citizens. For Class 11 exam prep in 2026, the most important aspect is understanding the key features of the [indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Constitution and how they impact the country's governance.
 
 
 
@@ -144,3 +144,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Federalism Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/federalism-class-11-revision-notes-cbse)
+- 📖 [Fundamental Rights Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/fundamental-rights-class-11-revision-notes-cbse)
+- 📖 [Indian Geography Physical Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/indian-geography-physical-class-11-revision-notes-jee-neet)
+- 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)

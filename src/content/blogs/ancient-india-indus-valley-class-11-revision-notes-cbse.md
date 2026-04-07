@@ -51,7 +51,7 @@ practice_link: "/class-11/ancient-india-indus-valley-class-11-revision-notes-cbs
 
 ## <a id="introduction-to-ancient-india"></a>Introduction to Ancient India
 
-As I the history of Ancient India, I find myself fascinated by the richness and diversity of this ancient civilization. **My Personal Note**: I believe that understanding the history of Ancient India is crucial for appreciating the cultural heritage of the Indian subcontinent. The Indus Valley Civilization is a significant part of this history, and it is essential to learn about its key features, such as its **urban planning**, **architecture**, and **water management systems**.
+As I the history of Ancient [india](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse), I find myself fascinated by the richness and diversity of this ancient civilization. **My Personal Note**: I believe that understanding the history of Ancient [india](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse) is crucial for appreciating the cultural heritage of the Indian subcontinent. The Indus Valley Civilization is a significant part of this history, and it is essential to learn about its key features, such as its **urban planning**, **architecture**, and **water management systems**.
 
 ## <a id="key-features-of-the-indus-valley-civilization"></a>Key Features of the Indus Valley Civilization
 
@@ -163,3 +163,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
+- 📖 [Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)
+- 📖 [Medieval India Bhakti Sufi Class 11 History Recap — CBSE 2026 Quick Guide](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse)
+- 📖 [Fundamental Rights Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/fundamental-rights-class-11-revision-notes-cbse)

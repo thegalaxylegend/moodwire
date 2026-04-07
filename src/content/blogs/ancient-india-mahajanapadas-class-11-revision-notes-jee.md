@@ -47,7 +47,7 @@ practice_link: "/class-11/mathematics/ancient-india-mahajanapadas-class-11-revis
 ## <a id="quick-revision-and-recap-ancient-india-mahajanapadas"></a>Quick Revision & Recap: Ancient India - Mahajanapadas
 
 
-The **Mahajanapadas** were 16 powerful kingdoms that emerged in ancient India during the 6th century BCE. These kingdoms played a significant role in shaping the history of India. The following are the key points to recall:
+The **Mahajanapadas** were 16 powerful kingdoms that emerged in [ancient](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) India during the 6th century BCE. These kingdoms played a significant role in shaping the history of India. The following are the key points to recall:
 - **Number of Mahajanapadas**: 16
 - **Time Period**: 6th century BCE to 4th century BCE
 - **Notable Mahajanapadas**: Magadha, Kosala, Kasi, Vrijji, Malla, Chedi, Vatsa, Kaushambi, Panchala, Matsya, Kurukshetra, Gandhara, Kamboja, Shakya, Lichchhavi, and Avanti
@@ -137,7 +137,7 @@ Understanding these aspects of the Mahajanapadas provides a comprehensive view o
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)
 - 📖 [Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)
@@ -152,3 +152,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)
+- 📖 [Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)
+- 📖 [Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)
+- 📖 [Fundamental Rights Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/fundamental-rights-class-11-revision-notes-cbse)

@@ -67,7 +67,7 @@ practice_link: "/class-11/biology/organisms-and-populations-class-12-notes"
 
  - *Fix:* Understand the characteristics of $r$-strategists (high reproductive rate, small body size) and $K$-strategists (low reproductive rate, large body size), and practice identifying examples of each.
 
- - **Mistake 3:** Not recognizing the importance of species interactions, such as predation, competition, and symbiosis, in shaping community structure and ecosystem function.
+ - **Mistake 3:** Not recognizing the importance of species interactions, such as predation, competition, and symbiosis, in shaping community structure and [ecosystem](/blog/ecosystem-class-12-notes) function.
 
  - *Costs:* 5-7 marks in questions related to community ecology and species interactions.
 
@@ -95,7 +95,7 @@ practice_link: "/class-11/biology/organisms-and-populations-class-12-notes"
 
  - **Solution:** 
 
- - r-strategists are organisms that produce a large number of offspring, with little parental investment in each one. They typically thrive in unstable environments.
+ - r-strategists are [organisms](/blog/reproduction-in-organisms-class-12-notes) that produce a large number of offspring, with little parental investment in each one. They typically thrive in unstable environments.
 
  - K-strategists are organisms that produce a small number of offspring, but with significant parental investment in each one. They typically thrive in stable environments.
 
@@ -272,3 +272,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Reproduction in Organisms Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/reproduction-in-organisms-class-12-notes)
+- 📖 [Biodiversity and Conservation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
+- 📖 [Biotechnology and its Applications Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biotechnology-and-its-applications-class-12-notes)
+- 📖 [Biotechnology: Principles and Processes Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biotechnology-principles-and-processes-class-12-notes)

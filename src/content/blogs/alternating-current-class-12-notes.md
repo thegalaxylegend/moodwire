@@ -39,10 +39,10 @@ practice_link: "/class-11/biology/alternating-current-class-12-notes"
 
 ## <a id="what-is-alternating-current"></a>What is Alternating Current?
 
-**Introduction to Alternating Current**
+**Introduction to Alternating [current](/blog/magnetic-effects-of-current-class-12-notes)**
 As we dive into the realm of Class 12 Physics, it's essential to acknowledge the significance of **Alternating Current (AC)** in the syllabus. With a substantial weightage of approximately **12-15%** in the board exams, AC is a crucial topic that demands attention and thorough understanding. In the 2026 exams, you can expect around **6-8 questions** directly related to AC, with some questions possibly testing your understanding of related concepts like **[electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) induction** and **LCR circuits**.
 
-On a personal note, I still remember the initial struggle I faced while grasping the concept of AC. It was during my Class 11 days when I first encountered the term "alternating current." I was fascinated by the fact that the current used in our households is not **direct current (DC)**, but rather AC, which periodically reverses direction. This sparked my curiosity, and I began to explore the world of AC, eventually developing a deep understanding of the subject. Now, as a senior student, I'm excited to share my knowledge with you and help you prepare for the exams.
+On a personal note, I still remember the initial struggle I faced while grasping the concept of AC. It was during my [class](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) 11 days when I first encountered the term "alternating current." I was fascinated by the fact that the current used in our households is not **direct current (DC)**, but rather AC, which periodically reverses direction. This sparked my curiosity, and I began to explore the world of AC, eventually developing a deep understanding of the subject. Now, as a senior student, I'm excited to share my knowledge with you and help you prepare for the exams.
 
 To truly appreciate the concept of AC, it's essential to have a solid foundation in the following prerequisites:
 * **Electromagnetic induction**: Understanding how a changing magnetic field induces an electromotive force (EMF) in a conductor is crucial for grasping AC concepts.
@@ -396,3 +396,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Wave Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/wave-optics-class-12-notes)
+- 📖 [Magnetic Effects of Current Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetic-effects-of-current-class-12-notes)
+- 📖 [Electromagnetic Induction Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
+- 📖 [Magnetism and Matter Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetism-and-matter-class-12-notes)

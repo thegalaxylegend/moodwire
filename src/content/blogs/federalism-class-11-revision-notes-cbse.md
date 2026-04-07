@@ -44,7 +44,7 @@ practice_link: "/class-11/federalism-class-11-revision-notes-cbse"
 
 
 
-Federalism is a system of government in which power is divided between a central authority and constituent political units. It includes a clear division of powers, independent judiciary, and dual citizenship. For Class 11 exam prep in 2026, the most important aspect is understanding the principles of federalism and its application in the Indian context.
+Federalism is a system of government in which power is divided between a central authority and constituent political units. It includes a clear division of powers, independent judiciary, and dual citizenship. For [class](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) 11 exam prep in 2026, the most important aspect is understanding the principles of federalism and its application in the Indian context.
 
 
 
@@ -136,3 +136,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Fundamental Rights Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/fundamental-rights-class-11-revision-notes-cbse)
+- 📖 [Constitutional Framework Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/constitutional-framework-class-11-revision-notes-cbse)
+- 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
+- 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)

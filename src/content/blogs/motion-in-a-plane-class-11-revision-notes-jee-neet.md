@@ -52,7 +52,7 @@ practice_link: "/class-11/physics/motion-in-a-plane-class-11-revision-notes-jee-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
-> - **Projectile Motion:** Max Height H = (u² sin²θ)/2g; Range R = (u² sin2θ)/g; Time of Flight T = (2u sinθ)/g.
+> - **Projectile [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet):** Max Height H = (u² sin²θ)/2g; Range R = (u² sin2θ)/g; Time of Flight T = (2u sinθ)/g.
 > - **Max Range:** Occurs at θ = 45°.
 > - **Equation of Trajectory:** y = x tanθ - [gx² / (2u² cos²θ)].
 > - **Uniform Circular Motion:** Centripetal Acceleration a_c = v²/r = ω²r.
@@ -233,3 +233,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
+- 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
+- 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)

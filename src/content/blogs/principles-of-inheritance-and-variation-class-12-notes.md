@@ -27,7 +27,7 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 - [📚 Related Topics](#-related-topics)
 
 
-* **Mendel's Laws of Inheritance**: 1-2 short answer questions on the Law of Segregation and Law of Independent Assortment — always
+* **Mendel's Laws of [inheritance](/blog/molecular-basis-of-inheritance-class-12-notes)**: 1-2 short answer questions on the Law of Segregation and Law of Independent Assortment — always
 * **Monohybrid and Dihybrid Cross**: 1 numerical on monohybrid cross and 1 on dihybrid cross — always
 * **Incomplete Dominance and Co-dominance**: 1 short answer question on the difference between incomplete dominance and co-dominance — always
 * **Blood Group System**: 1 short answer question on the ABO blood group system, including the genotypes and phenotypes of the different blood groups — always
@@ -181,7 +181,7 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
-- **The Core Concept:** The concept of **incomplete dominance** and **co-dominance** in Mendelian genetics. This concept is crucial for understanding the principles of inheritance and variation.
+- **The Core Concept:** The concept of **incomplete dominance** and **co-dominance** in Mendelian genetics. This concept is crucial for understanding the [principles](/blog/biotechnology-principles-and-processes-class-12-notes) of inheritance and variation.
 
  - **What 85% scorers do:** Most students can solve simple Mendelian genetics problems but struggle with complex problems involving multiple alleles and incomplete dominance. They often:
 
@@ -326,3 +326,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Biotechnology: Principles and Processes Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biotechnology-principles-and-processes-class-12-notes)
+- 📖 [Molecular Basis of Inheritance Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/molecular-basis-of-inheritance-class-12-notes)
+- 📖 [Biodiversity and Conservation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
+- 📖 [Biotechnology and its Applications Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biotechnology-and-its-applications-class-12-notes)

@@ -72,7 +72,7 @@ practice_link: "/class-11/physics/electric-charges-fields-class-11-revision-note
 
 ## <a id="introduction"></a>Introduction
 
-The universe is fundamentally electric. From the bonds that hold DNA together to the lightning that tears through the sky, the interaction of electric charges is the primary driver of the physical world. Class 12 Physics begins with **Electrostatics**—the study of charges at rest. This first chapter, "Electric Charges and Fields," serves as the cornerstone for the entire field of Electromagnetism. In this "Comprehensive" guide, we transcend simple summaries to provide rigorous proofs for every major theorem, including the field of a dipole and the exhaustive applications of Gauss's Law. Whether you are aiming for a perfect score in Board exams or a top rank in JEE/NEET, these notes provide the technical precision and conceptual clarity required for academic mastery.
+The universe is fundamentally electric. From the bonds that hold DNA together to the lightning that tears through the sky, the interaction of electric charges is the primary driver of the physical world. [class](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 12 Physics begins with **Electrostatics**—the study of charges at rest. This first chapter, "Electric Charges and Fields," serves as the cornerstone for the entire field of Electromagnetism. In this "Comprehensive" guide, we transcend simple summaries to provide rigorous proofs for every major theorem, including the field of a dipole and the exhaustive applications of Gauss's Law. Whether you are aiming for a perfect score in Board exams or a top rank in JEE/NEET, these notes provide the technical precision and conceptual clarity required for academic mastery.
 
 ---
 
@@ -288,3 +288,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Moving Charges Magnetism Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/moving-charges-magnetism-class-11-revision-notes-neet)
+- 📖 [Current Electricity Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/current-electricity-class-11-revision-notes-neet)
+- 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
+- 📖 [Linear Inequalities Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/linear-inequalities-class-11-revision-notes-jee-neet)

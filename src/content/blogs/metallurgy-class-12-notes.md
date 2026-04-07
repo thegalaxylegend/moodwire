@@ -71,7 +71,7 @@ practice_link: "/class-11/chemistry/metallurgy-class-12-notes"
 
 ### <a id="ellingham-diagram"></a>Ellingham Diagram
 - Ellingham diagram is used to plot the Gibbs free energy change of formation of oxides as a function of temperature.
-- Application of Ellingham diagram: 
+- [application](/blog/application-of-integrals-class-12-notes) of Ellingham diagram: 
  - Determining the feasibility of metal extraction processes: the Ellingham diagram is used to determine the feasibility of metal extraction processes.
 - $$\Delta G = \Delta H - T\Delta S$$: equation used to calculate the Gibbs free energy change.
 #### Key Features of Ellingham Diagram
@@ -194,14 +194,14 @@ As we continue to explore the world of metallurgy, it is essential to understand
 Some additional advanced topics that are not covered in this guide include:
 
 * Phase diagrams and their application in metallurgy
-* Defect chemistry and its impact on metal properties
+* Defect [chemistry](/blog/surface-chemistry-class-12-notes) and its impact on metal properties
 * Advanced extraction methods, such as bioleaching and hydrometallurgy
 * Nanotechnology and its application in metallurgy
 
 These topics are critical for students who want to pursue a career in metallurgy or materials science.
 
 ## <a id="-master-the-test-center-stepbystep-learning"></a>📝 Master the Test Center — Step-by-Step Learning
-To master the concepts of metallurgy, it is essential to practice and apply the knowledge gained. The Test Center at /class-11/chemistry/metallurgy-class-12-notes is an excellent resource for students to test their knowledge and identify areas where they need to focus.
+To master the concepts of metallurgy, it is essential to practice and apply the knowledge gained. The Test Center at /[class](/blog/amines-class-12-notes)-11/chemistry/metallurgy-[class](/blog/amines-class-12-notes)-12-notes is an excellent resource for students to test their knowledge and identify areas where they need to focus.
 
 By using the Test Center, students can:
 
@@ -257,3 +257,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Amines Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Solid State Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/solid-state-class-12-notes)
+- 📖 [Surface Chemistry Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/surface-chemistry-class-12-notes)
+- 📖 [Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-integrals-class-12-notes)

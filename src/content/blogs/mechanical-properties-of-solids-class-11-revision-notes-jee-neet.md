@@ -61,7 +61,7 @@ practice_link: "/class-11/physics/mechanical-properties-of-solids-class-11-revis
 
 ## <a id="introduction"></a>Introduction
 
-While the Previous chapters treated bodies as "rigid," in reality, every solid can be deformed under the action of a force. The study of how materials respond to external loads—stretching, compressing, or twisting—is the foundation of civil and mechanical engineering. This chapter, "Mechanical Properties of Solids," explores the atomic-level forces that allow a building to stand or a bridge to support thousands of tons. In this "Comprehensive" guide, we provide exhaustive derivations for elastic potential energy, the rigorous analysis of the stress-strain curve, and the comparative physics of materials used in modern infrastructure.
+While the Previous chapters treated bodies as "rigid," in reality, every solid can be deformed under the action of a force. The study of how materials respond to external loads—stretching, compressing, or twisting—is the foundation of civil and mechanical engineering. This chapter, "Mechanical [properties](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet) of Solids," explores the atomic-level forces that allow a building to stand or a bridge to support thousands of tons. In this "Comprehensive" guide, we provide exhaustive derivations for elastic potential energy, the rigorous analysis of the stress-strain curve, and the comparative physics of materials used in modern infrastructure.
 
 ---
 
@@ -211,7 +211,7 @@ The mechanical properties of solids are what allow humans to build the impossibl
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
 - 📖 [Mechanical Properties Of Fluids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet)
@@ -226,3 +226,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
+- 📖 [Mechanical Properties Of Fluids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet)
+- 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
+- 📖 [Thermal Properties Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet)

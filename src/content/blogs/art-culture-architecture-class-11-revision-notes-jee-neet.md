@@ -43,7 +43,7 @@ practice_link: "/class-11/chemistry/art-culture-architecture-class-11-revision-n
 
 
 The history of architecture is a vast and fascinating field, spanning thousands of years. As a student of Class 11, it's essential to have a solid grasp of the key concepts, styles, and movements that have shaped the built environment. Here's a [quick](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) recall box to get you started:
-* **Ancient Civilizations**: Egyptian, Greek, Roman, Chinese, Indian
+* **[ancient](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) Civilizations**: Egyptian, Greek, Roman, Chinese, Indian
 * **Medieval Period**: Gothic, Romanesque, Byzantine
 * **Renaissance**: Revival of classical styles, emergence of new techniques
 * **Modern Era**: Art Nouveau, Art Deco, Bauhaus, International Style
@@ -136,3 +136,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)
+- 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)
+- 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
+- 📖 [Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)
