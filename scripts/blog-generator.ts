@@ -428,18 +428,54 @@ let usingEvolvedPrompt = false;
 
 function loadEvolvedPrompt(): void {
     try {
-        if (fs.existsSync(EVOLVED_PROMPT_PATH)) {
-            const data = JSON.parse(fs.readFileSync(EVOLVED_PROMPT_PATH, 'utf-8'));
-            if (data.evolvedPrompt && data.evolvedPrompt.length > 100 && (data.confidence || 0) >= 0.5) {
-                evolvedPromptData = data;
-                usingEvolvedPrompt = true;
-                console.log(`🧬 EVOLVED PROMPT LOADED (v${data.version?.substring(0, 10) || 'unknown'}, confidence: ${((data.confidence || 0) * 100).toFixed(0)}%)`);
-            } else {
-                console.log('⚠️ Evolved prompt found but confidence too low. Using hardcoded defaults.');
-            }
+        if (!fs.existsSync(EVOLVED_PROMPT_PATH)) return;
+        
+        const raw = fs.readFileSync(EVOLVED_PROMPT_PATH, 'utf-8');
+        
+        // Structural integrity checks before parsing
+        if (raw.includes('<<<<<<<') || raw.includes('>>>>>>>') || raw.includes('=======')) {
+            console.error('🚫 Evolved prompt corrupted by git merge conflict! Using hardcoded defaults.');
+            return;
         }
-    } catch (err) {
-        console.log('⚠️ Could not load evolved prompt. Using hardcoded defaults.');
+        
+        const data = JSON.parse(raw);
+        
+        // Validate required fields exist
+        if (!data.evolvedPrompt || typeof data.evolvedPrompt !== 'string') {
+            console.warn('⚠️ Evolved prompt missing "evolvedPrompt" field. Using defaults.');
+            return;
+        }
+        
+        // Validate prompt isn't too short (likely corrupted/truncated)
+        if (data.evolvedPrompt.length < 100) {
+            console.warn(`⚠️ Evolved prompt too short (${data.evolvedPrompt.length} chars). Using defaults.`);
+            return;
+        }
+        
+        // Validate prompt isn't HTML/garbage
+        if (data.evolvedPrompt.includes('<html') || data.evolvedPrompt.includes('<!DOCTYPE')) {
+            console.error('🚫 Evolved prompt contains HTML garbage! Using defaults.');
+            return;
+        }
+        
+        // Validate confidence threshold
+        if ((data.confidence || 0) < 0.5) {
+            console.warn(`⚠️ Evolved prompt confidence too low (${(data.confidence * 100).toFixed(0)}%). Using defaults.`);
+            return;
+        }
+        
+        // Validate temperature is in sane range
+        if (data.temperature !== undefined && (data.temperature < 0.1 || data.temperature > 1.5)) {
+            console.warn(`⚠️ Evolved prompt has extreme temperature (${data.temperature}). Clamping to 0.7.`);
+            data.temperature = 0.7;
+        }
+        
+        // All checks passed
+        evolvedPromptData = data;
+        usingEvolvedPrompt = true;
+        console.log(`🧬 EVOLVED PROMPT LOADED (v${data.version?.substring(0, 10) || 'unknown'}, confidence: ${((data.confidence || 0) * 100).toFixed(0)}%, temp: ${data.temperature})`);
+    } catch (err: any) {
+        console.warn(`⚠️ Could not load evolved prompt (${err.message}). Using hardcoded defaults.`);
     }
 }
 

@@ -56,12 +56,11 @@ export function godSafeParse(raw: string): any {
         return '\\\\' + p1;
     });
 
-    // 5. Aggressive Quote Repair
-    // Fixes cases like: "body": "This is a "trap" question" 
-    // Logic: If a quote is not preceded by [ : , { ] and not followed by [ : , } ]
-    // it's likely an unescaped internal quote.
-    // This is a heuristic.
-    jsonStr = jsonStr.replace(/([^\s:\[,{])"([^\s:\]},])/g, '$1\\"$2');
+    // 5. Safe Quote Repair (context-aware)
+    // Instead of blindly replacing across the entire JSON (which can corrupt valid structures),
+    // we only apply repair INSIDE string values by processing key-value pairs individually.
+    // The old regex `([^\s:\[,{])"([^\s:\]},])` was too aggressive and could corrupt valid JSON.
+    // Now we defer quote repair to the catch block below where we process strings individually.
 
     // 6. Fix trailing commas before closing braces/brackets
     jsonStr = jsonStr.replace(/,\s*}/g, "}").replace(/,\s*]/g, "]");

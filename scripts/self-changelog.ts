@@ -169,27 +169,54 @@ function getCumulativeStats(): string {
     
     if (!fs.existsSync(REPORTS_DIR)) return stats + '- No data yet\n';
     
-    const pipelineReports = fs.readdirSync(REPORTS_DIR)
+    // Collect pipeline reports from both current dir and archive
+    const allPipelineFiles: string[] = [];
+    
+    // Current directory
+    const currentFiles = fs.readdirSync(REPORTS_DIR)
         .filter(f => f.startsWith('pipeline-') && f.endsWith('.json'));
+    for (const f of currentFiles) {
+        allPipelineFiles.push(path.join(REPORTS_DIR, f));
+    }
+    
+    // Archive directories
+    const archiveDir = path.join(REPORTS_DIR, 'archive');
+    if (fs.existsSync(archiveDir)) {
+        const archiveDirs = fs.readdirSync(archiveDir)
+            .filter(d => {
+                try { return fs.statSync(path.join(archiveDir, d)).isDirectory(); } catch { return false; }
+            });
+        for (const dir of archiveDirs) {
+            const dirPath = path.join(archiveDir, dir);
+            const files = fs.readdirSync(dirPath)
+                .filter(f => f.startsWith('pipeline-') && f.endsWith('.json'));
+            for (const f of files) {
+                allPipelineFiles.push(path.join(dirPath, f));
+            }
+        }
+    }
     
     let totalGenerated = 0;
     let totalPassed = 0;
     let totalFailed = 0;
+    const uniqueDates = new Set<string>();
     
-    for (const file of pipelineReports) {
+    for (const filePath of allPipelineFiles) {
         try {
-            const data = JSON.parse(fs.readFileSync(path.join(REPORTS_DIR, file), 'utf-8'));
+            const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
             if (Array.isArray(data)) {
                 totalGenerated += data.length;
                 totalPassed += data.filter((e: any) => e.status !== 'failed').length;
                 totalFailed += data.filter((e: any) => e.status === 'failed').length;
+                const dateMatch = path.basename(filePath).match(/pipeline-(\d{4}-\d{2}-\d{2})/);
+                if (dateMatch) uniqueDates.add(dateMatch[1]);
             }
         } catch { /* ignore */ }
     }
     
     stats += `| Metric | Value |\n`;
     stats += `|---|---|\n`;
-    stats += `| Pipeline runs | ${pipelineReports.length} |\n`;
+    stats += `| Pipeline runs | ${uniqueDates.size} |\n`;
     stats += `| Total blogs generated | ${totalGenerated} |\n`;
     stats += `| Quality gate pass rate | ${totalGenerated > 0 ? Math.round((totalPassed / totalGenerated) * 100) : 0}% |\n`;
     stats += `| Total failures | ${totalFailed} |\n`;

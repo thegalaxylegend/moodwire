@@ -122,8 +122,9 @@ export const askAI = async (
                 try {
                     response = await callGemini(fullMessages as any, {
                         temperature: options.temperature ?? 0.7,
-                        maxOutputTokens: options.max_tokens ?? 2048,
+                        maxOutputTokens: options.max_tokens ?? 8192,
                         jsonMode: options.jsonMode ?? false,
+                        stream: options.stream ?? false,
                     });
                 } catch (geminiError: any) {
                     console.warn("[AI] Gemini fallback failed, trying OpenAI...", geminiError?.message?.slice(0, 80));
@@ -140,9 +141,10 @@ export const askAI = async (
             try {
                 response = await callGemini(fullMessages as any, {
                     temperature: options.temperature ?? 0.1,
-                    maxOutputTokens: options.max_tokens ?? 2048,
+                    maxOutputTokens: options.max_tokens ?? 8192,
                     jsonMode: options.jsonMode ?? false,
-                    model: options.modelId || 'gemini-2.0-flash'
+                    stream: options.stream ?? false,
+                    model: options.modelId || 'gemini-1.5-flash'
                 });
             } catch (geminiError: any) {
                 console.warn("[AI] Gemini failed, falling back to Groq...", geminiError?.message?.slice(0, 80));

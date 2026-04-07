@@ -122,9 +122,12 @@ async function generateSitemap() {
             });
         }
 
-        // Generate Sitemap Index
+        // Generate Sitemap Index - Include all generated sitemaps for 100% indexing coverage
         const indexEntries = categorySitemaps.map(name => {
-            return `  <sitemap>\n    <loc>${BASE_URL}/${name}</loc>\n    <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>\n  </sitemap>`;
+            return `  <sitemap>
+    <loc>${BASE_URL}/${name}</loc>
+    <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>
+  </sitemap>`;
         });
 
         const indexContent = `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${indexEntries.join('\n')}\n</sitemapindex>`;

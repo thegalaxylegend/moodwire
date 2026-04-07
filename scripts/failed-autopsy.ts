@@ -52,93 +52,107 @@ interface StrategyAdjustment {
     impactedSubjects: string[];
 }
 
-// Categorize errors into actionable failure types
+// Self-extending error pattern registry
+const ERROR_PATTERNS_FILE = path.join(REPORTS_DIR, 'error-patterns.json');
+
+interface ErrorPattern {
+    type: string;
+    keywords: string[];
+    rootCause: string;
+    fix: string;
+    priority: 'critical' | 'high' | 'medium' | 'low';
+    learnedFrom?: string; // slug that first triggered this pattern
+    addedDate?: string;
+}
+
+function loadErrorPatterns(): ErrorPattern[] {
+    try {
+        if (fs.existsSync(ERROR_PATTERNS_FILE)) {
+            return JSON.parse(fs.readFileSync(ERROR_PATTERNS_FILE, 'utf-8'));
+        }
+    } catch { /* start fresh */ }
+    return [];
+}
+
+function saveErrorPatterns(patterns: ErrorPattern[]): void {
+    if (!fs.existsSync(REPORTS_DIR)) fs.mkdirSync(REPORTS_DIR, { recursive: true });
+    fs.writeFileSync(ERROR_PATTERNS_FILE, JSON.stringify(patterns, null, 2));
+}
+
+// Built-in patterns (always available as baseline)
+const BUILTIN_PATTERNS: ErrorPattern[] = [
+    { type: 'JSON_PARSE_FAILURE', keywords: ['json', 'parse', 'syntax', 'unexpected token'], rootCause: 'LLM returned malformed JSON. Likely exceeded token limit or included markdown in JSON body.', fix: 'Reduce max_tokens or add stricter JSON validation. Add JSON repair fallback.', priority: 'critical' },
+    { type: 'THIN_CONTENT', keywords: ['word count', 'too short', 'thin content'], rootCause: 'Generated content too short. LLM may have truncated output.', fix: 'Increase min word count enforcement. Add depth expansion pass.', priority: 'high' },
+    { type: 'KILL_LIST_VIOLATION', keywords: ['kill', 'banned', 'phrase'], rootCause: 'LLM used banned AI-sounding phrases.', fix: 'Add kill-list to system prompt as negative examples.', priority: 'medium' },
+    { type: 'LATEX_ERROR', keywords: ['latex', 'formula', 'math', 'katex', 'render'], rootCause: 'LaTeX formulas malformed or unrenderable.', fix: 'Add LaTeX validation pass. Use simpler formula syntax.', priority: 'high' },
+    { type: 'MCQ_QUALITY_FAILURE', keywords: ['mcq', 'question', 'option', 'answer'], rootCause: 'Generated MCQs had incorrect answers or duplicate options.', fix: 'Add MCQ-specific validation. Use dedicated MCQ prompt.', priority: 'high' },
+    { type: 'API_RATE_LIMIT', keywords: ['rate_limit', '429', 'quota', 'too many requests'], rootCause: 'All API keys exhausted. Too many requests.', fix: 'Add delay between requests. Reduce batch size.', priority: 'critical' },
+    { type: 'NETWORK_TIMEOUT', keywords: ['timeout', 'timed out', 'network', 'econnreset', 'fetch failed'], rootCause: 'API request timed out. Server overload or network instability.', fix: 'Increase timeout. Add exponential backoff.', priority: 'medium' },
+    { type: 'MISSING_SECTION', keywords: ['section', 'missing', 'trap', 'last 5'], rootCause: 'Required blog section was not generated.', fix: 'Generate missing sections in a separate pass.', priority: 'medium' },
+    { type: 'CONTEXT_LENGTH', keywords: ['context_length', 'context length', 'token limit', 'max_tokens', 'too long'], rootCause: 'Input or output exceeded model context window.', fix: 'Reduce prompt size or split generation into multiple calls.', priority: 'high' },
+    { type: 'MODEL_ERROR', keywords: ['model not found', 'model_not_found', 'deprecated', 'unavailable'], rootCause: 'Requested model is unavailable or deprecated.', fix: 'Update model ID in configuration. Add model fallback chain.', priority: 'critical' },
+    { type: 'CONTENT_POLICY', keywords: ['content_policy', 'safety', 'blocked', 'filtered', 'harmful'], rootCause: 'Content was blocked by model safety filter.', fix: 'Rephrase prompt to avoid triggering safety filters.', priority: 'high' },
+];
+
+// Categorize errors — checks custom patterns first, then built-in, then auto-learns
 function categorizeFailure(error: string, slug: string): { type: string; rootCause: string; fix: string; priority: 'critical' | 'high' | 'medium' | 'low' } {
     const errorLower = error.toLowerCase();
     
-    if (errorLower.includes('json') || errorLower.includes('parse') || errorLower.includes('syntax')) {
-        return {
-            type: 'JSON_PARSE_FAILURE',
-            rootCause: 'LLM returned malformed JSON. Likely exceeded token limit or included markdown in JSON body.',
-            fix: 'Reduce max_tokens or add stricter JSON validation. Add JSON repair fallback (extract between { and }).',
-            priority: 'critical'
-        };
+    // Load custom learned patterns (checked first — they may be more specific)
+    const customPatterns = loadErrorPatterns();
+    
+    // Check custom patterns first
+    for (const pattern of customPatterns) {
+        if (pattern.keywords.some(kw => errorLower.includes(kw.toLowerCase()))) {
+            return { type: pattern.type, rootCause: pattern.rootCause, fix: pattern.fix, priority: pattern.priority };
+        }
     }
     
-    if (errorLower.includes('word count') || errorLower.includes('too short') || errorLower.includes('thin content')) {
-        return {
-            type: 'THIN_CONTENT',
-            rootCause: 'Generated content too short. LLM may have truncated output or misunderstood depth requirement.',
-            fix: 'Increase min word count enforcement. Add "depth expansion" pass for short sections.',
-            priority: 'high'
-        };
+    // Check built-in patterns
+    for (const pattern of BUILTIN_PATTERNS) {
+        if (pattern.keywords.some(kw => errorLower.includes(kw.toLowerCase()))) {
+            return { type: pattern.type, rootCause: pattern.rootCause, fix: pattern.fix, priority: pattern.priority };
+        }
     }
     
-    if (errorLower.includes('kill') || errorLower.includes('banned') || errorLower.includes('phrase')) {
-        return {
-            type: 'KILL_LIST_VIOLATION',
-            rootCause: 'LLM used banned AI-sounding phrases despite prompt instructions.',  
-            fix: 'Add kill-list to system prompt as negative examples. Run post-generation sanitizer.',
-            priority: 'medium'
-        };
-    }
-    
-    if (errorLower.includes('latex') || errorLower.includes('formula') || errorLower.includes('math')) {
-        return {
-            type: 'LATEX_ERROR',
-            rootCause: 'LaTeX formulas malformed or unrenderable. Common with Groq models.',
-            fix: 'Add LaTeX validation pass. Use simpler formula syntax. Fallback to text representation.',
-            priority: 'high'
-        };
-    }
-    
-    if (errorLower.includes('mcq') || errorLower.includes('question')) {
-        return {
-            type: 'MCQ_QUALITY_FAILURE',
-            rootCause: 'Generated MCQs had incorrect answers, duplicate options, or nonsensical questions.',
-            fix: 'Add MCQ-specific validation (4 unique options, answer exists in options). Use dedicated MCQ prompt.',
-            priority: 'high'
-        };
-    }
-    
-    if (errorLower.includes('rate_limit') || errorLower.includes('429') || errorLower.includes('quota')) {
-        return {
-            type: 'API_RATE_LIMIT',
-            rootCause: 'All API keys exhausted. Too many requests in generation window.',
-            fix: 'Add delay between requests. Reduce batch size. Add more API keys or use backup model.',
-            priority: 'critical'
-        };
-    }
-    
-    if (errorLower.includes('timeout') || errorLower.includes('timed out') || errorLower.includes('network')) {
-        return {
-            type: 'NETWORK_TIMEOUT',
-            rootCause: 'API request timed out. Server overload or network instability.',
-            fix: 'Increase timeout. Add exponential backoff. Cache partial results.',
-            priority: 'medium'
-        };
-    }
-    
-    if (errorLower.includes('section') || errorLower.includes('missing')) {
-        return {
-            type: 'MISSING_SECTION',
-            rootCause: 'Required blog section (Trap Questions, Last 5 Min Box, etc) was not generated.',
-            fix: 'Generate missing sections in a separate pass. Add section-specific prompts.',
-            priority: 'medium'
-        };
-    }
-    
-    // Subject-specific patterns
+    // UNKNOWN — auto-register this error signature for future categorization
     const subjectFromSlug = slug.includes('physics') ? 'Physics' 
         : slug.includes('chemistry') ? 'Chemistry'
         : slug.includes('biology') ? 'Biology'
         : slug.includes('math') ? 'Mathematics'
         : 'General';
     
+    // Extract key words from the error for future matching
+    const errorWords = errorLower
+        .replace(/[^a-z0-9\s_]/g, ' ')
+        .split(/\s+/)
+        .filter(w => w.length > 4)
+        .slice(0, 5);
+    
+    if (errorWords.length > 0) {
+        const newPattern: ErrorPattern = {
+            type: `LEARNED_${errorWords[0].toUpperCase()}`,
+            keywords: errorWords,
+            rootCause: `Auto-learned pattern from ${subjectFromSlug} failure: ${error.substring(0, 120)}`,
+            fix: 'Review this auto-learned pattern and refine the fix recommendation.',
+            priority: 'medium',
+            learnedFrom: slug,
+            addedDate: new Date().toISOString().split('T')[0]
+        };
+        
+        // Don't add duplicates
+        const existingTypes = new Set(customPatterns.map(p => p.type));
+        if (!existingTypes.has(newPattern.type)) {
+            customPatterns.push(newPattern);
+            saveErrorPatterns(customPatterns);
+            console.log(`   🧠 Auto-learned new error pattern: ${newPattern.type}`);
+        }
+    }
+    
     return {
         type: 'UNKNOWN_FAILURE',
         rootCause: `Unclassified failure for ${subjectFromSlug} topic: ${error.substring(0, 100)}`,
-        fix: 'Review manually. Consider adding this error pattern to the autopsy categorizer.',
+        fix: 'Review error-patterns.json — a new pattern may have been auto-registered.',
         priority: 'low'
     };
 }

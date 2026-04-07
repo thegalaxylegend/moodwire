@@ -551,13 +551,14 @@ function baselineValidator(): boolean {
 
 async function main() {
     console.log('\n' + '═'.repeat(60));
-    console.log('🧬 PROMPT EVOLUTION ENGINE v1.0');
+    console.log('🧬 PROMPT EVOLUTION ENGINE v2.0');
     console.log('═'.repeat(60) + '\n');
 
-    // Safety check first
+    // Safety check first — if quality is declining, revert and STOP
     if (shouldRevert()) {
-        console.log('\n⚠️ Prompt was reverted due to quality decline. Proceeding to force evolve anyway (100% update policy).\n');
-        // Do not return. We force an update as requested.
+        console.log('\n⚠️ Prompt was reverted due to quality decline. Skipping evolution this cycle to stabilize.\n');
+        console.log('   ℹ️  The previous prompt has been restored. Evolution will resume once quality stabilizes.\n');
+        return;
     }
 
     // Gather all intelligence
@@ -566,10 +567,11 @@ async function main() {
     // Synthesize insights
     const insights = synthesizeInsights(intel);
 
-    // Baseline validation before evolution
+    // Baseline validation before evolution — if content quality is bad, DO NOT evolve
     if (!baselineValidator()) {
-        console.log('\n🚫 Baseline validation failed: Proceeding with evolution anyway to enforce 100% update rule.\n');
-        // Do not return. We force an update.
+        console.log('\n🚫 Baseline validation FAILED. Evolution BLOCKED to prevent bad prompt propagation.');
+        console.log('   ℹ️  Fix the structural issues in recent blogs before the next evolution cycle.\n');
+        return;
     }
 
     // Evolve the prompt

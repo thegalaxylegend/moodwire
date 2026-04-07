@@ -29,10 +29,34 @@ jobs:
       - name: Create service-account.json from secret
         run: echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT_LEGENDSTECH001 }}' > service-account.json
 
-      - name: Clean Old Reports
+      - name: Archive & Clean Reports
         run: |
-          rm -rf jules-reports/* jules-failed/*
+          # Archive previous reports instead of destroying them
+          if [ -d "jules-reports" ] && [ "$(ls -A jules-reports/ 2>/dev/null)" ]; then
+            ARCHIVE_DIR="jules-reports/archive/$(date -u +%Y-%m-%d)"
+            mkdir -p "$ARCHIVE_DIR"
+            # Move pipeline reports (critical for trend analysis) to archive
+            mv jules-reports/pipeline-*.json "$ARCHIVE_DIR/" 2>/dev/null || true
+            mv jules-reports/repair-*.json "$ARCHIVE_DIR/" 2>/dev/null || true
+            mv jules-reports/decay-*.json "$ARCHIVE_DIR/" 2>/dev/null || true
+            mv jules-reports/linking-*.json "$ARCHIVE_DIR/" 2>/dev/null || true
+            mv jules-reports/duplication-*.json "$ARCHIVE_DIR/" 2>/dev/null || true
+            mv jules-reports/freshness-*.json "$ARCHIVE_DIR/" 2>/dev/null || true
+            # Clean transient files that are regenerated each run
+            rm -f jules-reports/*-discord-payload.json 2>/dev/null || true
+            rm -f jules-reports/autopsy-report.json 2>/dev/null || true
+            rm -f jules-reports/regen-queue-*.json 2>/dev/null || true
+            # Keep persistent intelligence files: quality-trends, lessons-learned, 
+            # generation-strategy, content-patterns, evolved-prompt, self-improve-log
+            echo "📦 Archived previous reports to $ARCHIVE_DIR"
+          fi
+          # Keep only last 14 archive directories to prevent unbounded growth
+          if [ -d "jules-reports/archive" ]; then
+            ls -dt jules-reports/archive/*/ 2>/dev/null | tail -n +15 | xargs rm -rf 2>/dev/null || true
+          fi
+          rm -rf jules-failed/*
           touch run.log
+          echo "[]" > jules-reports/dead-letter-queue.json
 
       - name: Task 1 - Build Queue
         run: npx tsx scripts/chapter-queue-builder.ts | tee -a run.log
@@ -140,41 +164,64 @@ jobs:
         run: npx tsx scripts/quality-tracker.ts
 
       - name: Task 11 - Internal Linking Optimizer
-        continue-on-error: true
-        run: npx tsx scripts/internal-linker.ts | tee -a run.log
+        run: |
+          npx tsx scripts/internal-linker.ts 2>&1 | tee -a run.log || {
+            echo "{\"task\":\"internal-linker\",\"exitCode\":$?,\"time\":\"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"}" >> jules-reports/dead-letter-queue.json
+            echo "⚠️ Task 11 failed — logged to dead-letter-queue"
+          }
 
       - name: Task 12 - Duplication Checker
-        continue-on-error: true
-        run: npx tsx scripts/duplication-checker.ts | tee -a run.log
+        run: |
+          npx tsx scripts/duplication-checker.ts 2>&1 | tee -a run.log || {
+            echo "{\"task\":\"duplication-checker\",\"exitCode\":$?,\"time\":\"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"}" >> jules-reports/dead-letter-queue.json
+            echo "⚠️ Task 12 failed — logged to dead-letter-queue"
+          }
 
       - name: Task 13 - Failed Blog Autopsy
-        continue-on-error: true
-        run: npx tsx scripts/failed-autopsy.ts | tee -a run.log
+        run: |
+          npx tsx scripts/failed-autopsy.ts 2>&1 | tee -a run.log || {
+            echo "{\"task\":\"failed-autopsy\",\"exitCode\":$?,\"time\":\"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"}" >> jules-reports/dead-letter-queue.json
+            echo "⚠️ Task 13 failed — logged to dead-letter-queue"
+          }
 
       - name: Task 14 - Content Pattern Analysis
-        continue-on-error: true
-        run: npx tsx scripts/content-patterns.ts | tee -a run.log
+        run: |
+          npx tsx scripts/content-patterns.ts 2>&1 | tee -a run.log || {
+            echo "{\"task\":\"content-patterns\",\"exitCode\":$?,\"time\":\"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"}" >> jules-reports/dead-letter-queue.json
+            echo "⚠️ Task 14 failed — logged to dead-letter-queue"
+          }
 
       - name: Task 15 - Self-Documenting Changelog
-        continue-on-error: true
-        run: npx tsx scripts/self-changelog.ts | tee -a run.log
+        run: |
+          npx tsx scripts/self-changelog.ts 2>&1 | tee -a run.log || {
+            echo "{\"task\":\"self-changelog\",\"exitCode\":$?,\"time\":\"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"}" >> jules-reports/dead-letter-queue.json
+            echo "⚠️ Task 15 failed — logged to dead-letter-queue"
+          }
 
       - name: Task 16 - Google Search Console Intelligence
-        continue-on-error: true
-        run: npx tsx scripts/google-search-console.ts | tee -a run.log
+        run: |
+          npx tsx scripts/google-search-console.ts 2>&1 | tee -a run.log || {
+            echo "{\"task\":\"google-search-console\",\"exitCode\":$?,\"time\":\"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"}" >> jules-reports/dead-letter-queue.json
+            echo "⚠️ Task 16 failed — logged to dead-letter-queue"
+          }
 
       - name: Task 17 - Search Opportunity Optimization
-        continue-on-error: true
         env:
           VITE_GEMINI_API_KEY: ${{ secrets.VITE_GEMINI_API_KEY }}
-        run: npx tsx scripts/meta-optimizer.ts | tee -a run.log
+        run: |
+          npx tsx scripts/meta-optimizer.ts 2>&1 | tee -a run.log || {
+            echo "{\"task\":\"meta-optimizer\",\"exitCode\":$?,\"time\":\"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"}" >> jules-reports/dead-letter-queue.json
+            echo "⚠️ Task 17 failed — logged to dead-letter-queue"
+          }
 
       - name: Task 18 - Syllabus Completion Stats
-        continue-on-error: true
-        run: npx tsx scripts/syllabus-stats.ts | tee -a run.log
+        run: |
+          npx tsx scripts/syllabus-stats.ts 2>&1 | tee -a run.log || {
+            echo "{\"task\":\"syllabus-stats\",\"exitCode\":$?,\"time\":\"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"}" >> jules-reports/dead-letter-queue.json
+            echo "⚠️ Task 18 failed — logged to dead-letter-queue"
+          }
 
       - name: Task 19 - Prompt Evolution (THE BRAIN)
-        continue-on-error: true
         env:
           VITE_GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           VITE_GROQ_API_KEY_2: ${{ secrets.GROQ_API_KEY_2 }}
@@ -182,14 +229,20 @@ jobs:
           VITE_GROQ_API_KEY_4: ${{ secrets.GROQ_API_KEY_4 }}
           VITE_GROQ_API_KEY_5: ${{ secrets.GROQ_API_KEY_5 }}
           VITE_GROQ_API_KEY_6: ${{ secrets.GROQ_API_KEY_6 }}
-        run: npx tsx scripts/prompt-evolution.ts | tee -a run.log
+        run: |
+          npx tsx scripts/prompt-evolution.ts 2>&1 | tee -a run.log || {
+            echo "{\"task\":\"prompt-evolution\",\"exitCode\":$?,\"time\":\"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"}" >> jules-reports/dead-letter-queue.json
+            echo "⚠️ Task 19 failed — logged to dead-letter-queue"
+          }
 
       - name: Task 20 - Content Decay Detection
-        continue-on-error: true
-        run: npx tsx scripts/content-decay.ts
+        run: |
+          npx tsx scripts/content-decay.ts 2>&1 | tee -a run.log || {
+            echo "{\"task\":\"content-decay\",\"exitCode\":$?,\"time\":\"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"}" >> jules-reports/dead-letter-queue.json
+            echo "⚠️ Task 20 failed — logged to dead-letter-queue"
+          }
 
       - name: Task 21 - Automated Social Distribution (𝕏 & 🧵)
-        continue-on-error: true
         env:
           VITE_GEMINI_API_KEY: ${{ secrets.VITE_GEMINI_API_KEY }}
           X_API_KEY: ${{ secrets.X_API_KEY }}
@@ -198,7 +251,11 @@ jobs:
           X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
           THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
-        run: npm run social:threads -- --recent | tee -a run.log
+        run: |
+          npm run social:threads -- --recent 2>&1 | tee -a run.log || {
+            echo "{\"task\":\"social-distribution\",\"exitCode\":$?,\"time\":\"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"}" >> jules-reports/dead-letter-queue.json
+            echo "⚠️ Task 21 failed — logged to dead-letter-queue"
+          }
 
       - name: Task 22 - Final Sanity Guard
         id: sanity_guard
@@ -242,8 +299,20 @@ jobs:
           git add public/schema-data.json || true
           git add public/jules-reports/*.json || true
           git add jules-reports/*.json || true
+          git add jules-reports/archive/ || true
           git add JULES_CHANGELOG.md || true
-          git commit -m "chore: automated blog self-healing [skip ci]" || echo "No changes to commit"
+          
+          # Build descriptive commit message with run context
+          RUN_DATE=$(date -u +"%Y-%m-%d")
+          REPORT_FILE=$(ls -t jules-reports/pipeline-*.json 2>/dev/null | head -n 1 || true)
+          BLOG_COUNT=0
+          AVG_SCORE=0
+          if [ -f "$REPORT_FILE" ]; then
+            BLOG_COUNT=$(jq 'length' "$REPORT_FILE" 2>/dev/null || echo "0")
+            AVG_SCORE=$(jq '[.[].quality_score // 0] | add / length | floor' "$REPORT_FILE" 2>/dev/null || echo "0")
+          fi
+          
+          git commit -m "chore(jules): ${RUN_DATE} — ${BLOG_COUNT} blogs (avg ${AVG_SCORE}/100) [skip ci]" || echo "No changes to commit"
           git push origin main
 
 

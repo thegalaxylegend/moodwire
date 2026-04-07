@@ -173,6 +173,9 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
     } else if (totalWords < 1200) {
         score -= 10;
         report.warnings.push(`Moderate word count: ${totalWords} (Aim for 1200+)`);
+    } else if (totalWords < 1500) {
+        score -= 3;
+        report.warnings.push(`Word count acceptable but could be deeper: ${totalWords}`);
     }
 
     // 3. Granular Section Check
@@ -202,6 +205,81 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
         score -= 15;
         report.critical_failures.push("Insufficient MCQs (Need at least 3)");
         report.patch_missing_sections.push("Practice MCQs");
+    } else {
+        // Check MCQ quality — do all MCQs have valid options and answers?
+        const invalidMcqs = (post.content.mcqs || []).filter(m =>
+            !m.question || m.question.length < 10 ||
+            !m.options || m.options.length < 4 ||
+            !m.answer || !m.answer_text
+        );
+        if (invalidMcqs.length > 0) {
+            score -= 5;
+            report.warnings.push(`${invalidMcqs.length} MCQ(s) have incomplete data`);
+        }
+    }
+
+    // 5. Individual Section Quality Check (NEW)
+    let thinSectionCount = 0;
+    for (const sec of sections) {
+        const bodyLen = (sec.body || '').length;
+        const wordCount = (sec.body || '').split(/\s+/).filter(w => w.length > 0).length;
+        
+        if (wordCount < 30 && !sec.needsReview) {
+            thinSectionCount++;
+        }
+    }
+    if (thinSectionCount > 0) {
+        score -= Math.min(15, thinSectionCount * 5);
+        report.warnings.push(`${thinSectionCount} section(s) have very thin content (<30 words)`);
+    }
+
+    // 6. Kill-List Phrase Detection (NEW)
+    const killListPhrases = [
+        'delve into', 'embark on', 'comprehensive guide', 'in conclusion',
+        'without further ado', 'game-changer', 'cutting-edge', 'groundbreaking',
+        'unlock the secrets', 'dive deep', 'explore the world', 'journey through',
+        'let\'s explore', 'in the realm of', 'it\'s important to note',
+        'in today\'s world', 'as we navigate'
+    ];
+    const contentStr = JSON.stringify(post.content).toLowerCase();
+    const foundKillPhrases = killListPhrases.filter(phrase => contentStr.includes(phrase));
+    if (foundKillPhrases.length > 0) {
+        score -= Math.min(10, foundKillPhrases.length * 2);
+        report.warnings.push(`AI filler phrases detected: ${foundKillPhrases.join(', ')}`);
+    }
+
+    // 7. Empty LaTeX Block Detection (NEW)
+    const emptyLatex = (contentStr.match(/\$\$\s*\$\$/g) || []).length;
+    if (emptyLatex > 0) {
+        score -= emptyLatex * 3;
+        report.warnings.push(`${emptyLatex} empty LaTeX block(s) ($$$$) found`);
+    }
+
+    // 8. Quick Recall Quality (NEW)
+    if (!post.content?.quick_recall || post.content.quick_recall.length < 3) {
+        score -= 5;
+        report.warnings.push("Quick recall section missing or has fewer than 3 items");
+    }
+
+    // 9. Duplicate Heading Detection (NEW)
+    const headingSet = new Set<string>();
+    let dupHeadingCount = 0;
+    for (const h of sectionHeadings) {
+        if (headingSet.has(h)) {
+            dupHeadingCount++;
+        }
+        headingSet.add(h);
+    }
+    if (dupHeadingCount > 0) {
+        score -= dupHeadingCount * 5;
+        report.warnings.push(`${dupHeadingCount} duplicate section heading(s)`);
+    }
+
+    // 10. NeedsReview Sections (NEW - penalize sections marked for review)
+    const reviewSections = sections.filter(s => s.needsReview);
+    if (reviewSections.length > 0) {
+        score -= reviewSections.length * 3;
+        report.warnings.push(`${reviewSections.length} section(s) marked as needing review`);
     }
 
     report.score = Math.max(0, score);

@@ -258,9 +258,9 @@ export const Chatbot = () => {
         }
         
         // Detect Visual Learning Intent
-        const isVisualRequest = userText.toLowerCase().match(/diagram|draw|visual|map|flowchart|chart|explanation/);
+        const isVisualRequest = userText.toLowerCase().match(/diagram|draw|visual|map|flowchart|chart|explanation|graph/);
         const promptOverride = isVisualRequest 
-            ? "[PROTOCOL: CRYSTALLINE DIAGRAM] Use professional Mermaid.js code only. No ASCII art. No decorative dashes. Quote all labels like A[\"Text\"]. " 
+            ? `[PROTOCOL: CRYSTALLINE DIAGRAM] Use professional Mermaid.js code only. No ASCII art. For 2D/math graphs (e.g. v-t graphs, equations), use exactly this syntax:\n\`\`\`mermaid\nxychart-beta\n  x-axis [0, 1, 2, 3, 4, 5, 6]\n  y-axis "Label" 0 --> 20\n  line [0, 2, 4, 6, 8, 10, 12]\n\`\`\`\nCRITICAL RULES:\n1. NEVER use 2D arrays like [[0,0], [1,1]]. You MUST use two separate flat arrays.\n2. Calculate high-resolution coordinates (at least 5-8 points) for smooth mathematical curves.\n3. NEVER use 'note' or flowchart commands.\n4. ALWAYS put a newline before x-axis, y-axis, and line. Do not use graph TD for coordinate graphs.`
             : "";
 
         setIsThinking(true);

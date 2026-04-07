@@ -1,4 +1,4 @@
-import React, { useMemo, useRef, useEffect } from 'react';
+import React, { useMemo, useRef, useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import remarkMath from 'remark-math';
@@ -76,7 +76,39 @@ const sanitizeMermaid = (chart: string) => {
 
     // 3. Ensure a header exists (default to graph TD if first non-empty line isn't a header)
     const firstContent = lines.find(l => l.trim().length > 0)?.trim() || "";
-    const headers = ['graph', 'flowchart', 'sequenceDiagram', 'pie', 'classDiagram', 'stateDiagram', 'erDiagram', 'gantt', 'journey', 'gitGraph', 'mindmap', 'timeline'];
+    
+    // Critical: xychart-beta relies heavily on native brackets [x,y] for plotting arrays.
+    if (firstContent.startsWith('xychart-beta')) {
+        let safeChart = cleanChart;
+        // Anti-Hallucination 1: Strip flow-chart 'notes'
+        safeChart = safeChart.split('\n').filter(line => !line.toLowerCase().includes('note ')).join('\n');
+        // Anti-Hallucination 2: Force newlines between core tags (AI sometimes collapses them)
+        safeChart = safeChart.replace(/\s+(x-axis|y-axis|line|title)\s+/g, '\n$1 ');
+        // Anti-Hallucination 3: The AI sometimes brackets its Y-axis or Title e.g. y-axis ["Text"]
+        safeChart = safeChart.replace(/(y-axis|title)\s+\["?(.*?)"?\]/g, '$1 "$2"');
+        // Anti-Hallucination 4: The AI sometimes completely hallucinates 2D arrays (e.g. line [[0, 0], [1, 2]])
+        const match2D = safeChart.match(/line\s+(\[\[[\s\S]*?\]\])/);
+        if (match2D) {
+            try {
+                // Safely parse the hallucinated 2D array matrix into JS native arrays
+                const points = JSON.parse(match2D[1].replace(/'/g, '"'));
+                if (Array.isArray(points) && points.length > 0 && Array.isArray(points[0])) {
+                    const xCoords = points.map(p => p[0]);
+                    const yCoords = points.map(p => p[1]);
+                    // Delete any pre-existing broken x-axis lines to prevent duplicates
+                    safeChart = safeChart.replace(/x-axis.*?(\n|$)/g, '');
+                    // Re-inject the perfectly unwrapped separate flat arrays into the chart structure
+                    safeChart = safeChart.replace(match2D[0], `x-axis [${xCoords.join(', ')}]\nline [${yCoords.join(', ')}]`);
+                }
+            } catch (e) {
+                // If it fails to parse, we gracefully ignore and let the LLM fail natively.
+            }
+        }
+
+        return safeChart;
+    }
+    
+    const headers = ['graph', 'flowchart', 'sequenceDiagram', 'pie', 'classDiagram', 'stateDiagram', 'erDiagram', 'gantt', 'journey', 'gitGraph', 'mindmap', 'timeline', 'xychart-beta'];
     const hasHeader = headers.some(h => firstContent.startsWith(h));
     
     if (!hasHeader && lines.length > 0) {
@@ -88,6 +120,7 @@ const sanitizeMermaid = (chart: string) => {
 
 const Mermaid = ({ chart }: { chart: string }) => {
     const ref = useRef<HTMLDivElement>(null);
+    const [renderError, setRenderError] = useState(false);
 
     useEffect(() => {
         if (ref.current && chart) {
@@ -109,16 +142,22 @@ const Mermaid = ({ chart }: { chart: string }) => {
                     }
                 });
                 mermaid.render(`mermaid-${Math.random().toString(36).substring(2, 9)}`, cleanChart).then(({ svg }) => {
+                    if (svg.includes('mermaid-error') || svg.includes('Syntax error') || svg.includes('failed to render')) {
+                        setRenderError(true);
+                        return;
+                    }
                     if (ref.current) {
                         ref.current.innerHTML = svg;
                     }
-                }).catch(err => {
-                    console.error("Mermaid Render Error:", err);
-                    if (ref.current) ref.current.innerHTML = `<pre class="text-red-400 text-[10px]">Failed to render diagram: ${err.message}</pre>`;
+                }).catch(() => {
+                    console.warn("Mermaid dynamic render failed");
+                    setRenderError(true);
                 });
             });
         }
     }, [chart]);
+
+    if (renderError) return null;
 
     return (
         <div className="my-4 p-6 bg-white/[0.02] border border-white/10 rounded-3xl overflow-x-auto no-scrollbar shadow-2xl backdrop-blur-xl">

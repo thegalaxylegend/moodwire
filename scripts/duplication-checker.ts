@@ -165,18 +165,76 @@ async function main() {
         .filter(([_, slugs]) => slugs.length > 3)
         .sort((a, b) => b[1].length - a[1].length);
     
+    // ═══════════════════════════════════════════
+    // Step 4: TAKE ACTION on severe duplicates
+    // ═══════════════════════════════════════════
+    const SEVERE_THRESHOLD = 60; // 60%+ overlap = needs action
+    const severeDuplicates = duplicates.filter(d => d.overlapPercentage >= SEVERE_THRESHOLD);
+    let flaggedCount = 0;
+    const redirectCandidates: { from: string; to: string; overlap: number; reason: string }[] = [];
+    const alreadyFlagged = new Set<string>();
+    
+    for (const dup of severeDuplicates) {
+        // Determine which blog is "weaker" (shorter content = less unique value)
+        const path1 = path.join(BLOG_DIR, `${dup.blog1}.md`);
+        const path2 = path.join(BLOG_DIR, `${dup.blog2}.md`);
+        
+        if (!fs.existsSync(path1) || !fs.existsSync(path2)) continue;
+        
+        const content1 = fs.readFileSync(path1, 'utf-8');
+        const content2 = fs.readFileSync(path2, 'utf-8');
+        
+        // Weaker = shorter body content
+        const body1Len = content1.replace(/^---[\s\S]*?---\n*/m, '').length;
+        const body2Len = content2.replace(/^---[\s\S]*?---\n*/m, '').length;
+        const weakerSlug = body1Len < body2Len ? dup.blog1 : dup.blog2;
+        const strongerSlug = body1Len < body2Len ? dup.blog2 : dup.blog1;
+        const weakerPath = body1Len < body2Len ? path1 : path2;
+        const weakerContent = body1Len < body2Len ? content1 : content2;
+        
+        // Flag the weaker blog for manual review (inject frontmatter tag)
+        if (!alreadyFlagged.has(weakerSlug)) {
+            // Only flag if not already flagged
+            if (!weakerContent.includes('needs_manual_review:')) {
+                const updatedContent = weakerContent.replace(
+                    /^(---\s*\n)/m,
+                    `---\nneeds_manual_review: true\ndup_overlap_with: "${strongerSlug}"\ndup_overlap_pct: ${dup.overlapPercentage}\n`
+                );
+                
+                // Safety: make sure we didn't corrupt the file
+                if (updatedContent.includes('needs_manual_review: true') && updatedContent.length > 200) {
+                    fs.writeFileSync(weakerPath, updatedContent);
+                    flaggedCount++;
+                    console.log(`  🏷️ Flagged: ${weakerSlug} (${dup.overlapPercentage}% overlap with ${strongerSlug})`);
+                }
+            }
+            alreadyFlagged.add(weakerSlug);
+        }
+        
+        // Add to redirect candidates
+        redirectCandidates.push({
+            from: weakerSlug,
+            to: strongerSlug,
+            overlap: dup.overlapPercentage,
+            reason: `${dup.overlapPercentage}% content overlap — ${weakerSlug} is shorter (${Math.min(body1Len, body2Len)} vs ${Math.max(body1Len, body2Len)} chars)`
+        });
+    }
+    
     // Report
     console.log('═'.repeat(60));
     console.log('📊 DUPLICATION REPORT');
     console.log('═'.repeat(60));
     console.log(`  🔄 Comparisons made: ${comparisons}`);
-    console.log(`  🚨 High overlap pairs: ${duplicates.length}`);
+    console.log(`  🚨 High overlap pairs (>${OVERLAP_THRESHOLD*100}%): ${duplicates.length}`);
+    console.log(`  🔴 Severe pairs (>${SEVERE_THRESHOLD}%): ${severeDuplicates.length}`);
+    console.log(`  🏷️ Blogs flagged for review: ${flaggedCount}`);
     console.log(`  📋 Overused headings: ${duplicateHeadings.length}`);
     
     if (duplicates.length > 0) {
         console.log('\n  🚨 Content Overlap Detected:');
         duplicates.slice(0, 15).forEach(d => {
-            console.log(`\n  ${d.overlapPercentage}% overlap:`);
+            const severity = d.overlapPercentage >= SEVERE_THRESHOLD ? '🔴' : '🟡';
+            console.log(`\n  ${severity} ${d.overlapPercentage}% overlap:`);
             console.log(`     📄 ${d.blog1}`);
             console.log(`     📄 ${d.blog2}`);
             console.log(`     (${d.sharedSentences}/${d.totalSentences} sentences shared)`);
@@ -193,15 +251,35 @@ async function main() {
         });
     }
     
+    if (flaggedCount > 0) {
+        console.log(`\n  ✅ ACTION TAKEN: ${flaggedCount} blogs flagged with 'needs_manual_review: true'`);
+        console.log(`  📄 Redirect candidates saved for SEO consolidation.`);
+    }
+    
     // Save report
     if (!fs.existsSync(REPORTS_DIR)) fs.mkdirSync(REPORTS_DIR, { recursive: true });
     const report = {
         date: TODAY,
-        summary: { comparisons, highOverlapPairs: duplicates.length, overusedHeadings: duplicateHeadings.length },
+        summary: {
+            comparisons,
+            highOverlapPairs: duplicates.length,
+            severeOverlapPairs: severeDuplicates.length,
+            blogsFlagged: flaggedCount,
+            overusedHeadings: duplicateHeadings.length
+        },
         duplicates: duplicates.slice(0, 30),
+        redirectCandidates: redirectCandidates.slice(0, 50),
         overusedHeadings: duplicateHeadings.slice(0, 20).map(([h, slugs]) => ({ heading: h, count: slugs.length, blogs: slugs }))
     };
     fs.writeFileSync(path.join(REPORTS_DIR, `duplication-${TODAY}.json`), JSON.stringify(report, null, 2));
+    
+    // Save redirect candidates separately for easy consumption
+    if (redirectCandidates.length > 0) {
+        fs.writeFileSync(
+            path.join(REPORTS_DIR, 'redirect-candidates.json'),
+            JSON.stringify(redirectCandidates, null, 2)
+        );
+    }
     
     console.log(`\n📄 Report saved: jules-reports/duplication-${TODAY}.json`);
     console.log('✨ Duplication check complete!\n');

@@ -182,7 +182,7 @@ export const DashboardLayout = () => {
         { icon: FileText, label: 'Blogs', path: '/blog' },
         { icon: Bookmark, label: 'Saved Lectures', path: '/dashboard/saved-lectures' },
         { icon: Library, label: 'Timeline', path: '/dashboard/timeline' },
-        { icon: FileText, label: 'Documents', path: '/dashboard/documents' },
+        { icon: FileText, label: 'Notes', path: '/dashboard/notes' },
         { icon: TrendingUp, label: 'Analytics', path: '/dashboard/analytics' },
     ].filter(item => {
         if (isJunior && item.label === 'Timeline') return false;

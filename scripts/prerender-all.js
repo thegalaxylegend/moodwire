@@ -227,11 +227,11 @@ async function prerender() {
                     verifiedQuestions++;
                 }
 
-                // Write file
+                // Write file: Use directory/index.html structure for pretty URLs and Cloudflare compatibility
                 const cleanPath = url.replace(/\/+$/, '').replace(/^\/+/, '');
                 const filePath = cleanPath === ''
                     ? 'index.html'
-                    : `${cleanPath}.html`;
+                    : path.join(cleanPath, 'index.html');
 
                 const targetPath = path.join(outDir, filePath);
                 fs.mkdirSync(path.dirname(targetPath), { recursive: true });

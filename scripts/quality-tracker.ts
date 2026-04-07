@@ -57,22 +57,41 @@ function loadReports(): Map<string, PipelineEntry[]> {
     const reports = new Map<string, PipelineEntry[]>();
     
     if (!fs.existsSync(REPORTS_DIR)) return reports;
-    
-    const files = fs.readdirSync(REPORTS_DIR)
-        .filter(f => f.startsWith('pipeline-') && f.endsWith('.json'))
-        .sort();
-    
-    for (const file of files) {
-        const dateMatch = file.match(/pipeline-(\d{4}-\d{2}-\d{2})/);
-        if (!dateMatch) continue;
+
+    // Helper to load pipeline files from a directory
+    const loadFromDir = (dir: string) => {
+        if (!fs.existsSync(dir)) return;
+        const files = fs.readdirSync(dir)
+            .filter(f => f.startsWith('pipeline-') && f.endsWith('.json'))
+            .sort();
         
-        try {
-            const data = JSON.parse(fs.readFileSync(path.join(REPORTS_DIR, file), 'utf-8'));
-            if (Array.isArray(data)) {
-                reports.set(dateMatch[1], data);
+        for (const file of files) {
+            const dateMatch = file.match(/pipeline-(\d{4}-\d{2}-\d{2})/);
+            if (!dateMatch) continue;
+            if (reports.has(dateMatch[1])) continue; // Don't overwrite newer data
+            
+            try {
+                const data = JSON.parse(fs.readFileSync(path.join(dir, file), 'utf-8'));
+                if (Array.isArray(data)) {
+                    reports.set(dateMatch[1], data);
+                }
+            } catch {
+                // Skip corrupted reports
             }
-        } catch {
-            // Skip corrupted reports
+        }
+    };
+    
+    // Load from main reports directory (today's reports)
+    loadFromDir(REPORTS_DIR);
+    
+    // Load from archive directories (historical reports)
+    const archiveDir = path.join(REPORTS_DIR, 'archive');
+    if (fs.existsSync(archiveDir)) {
+        const archiveDirs = fs.readdirSync(archiveDir)
+            .filter(d => fs.statSync(path.join(archiveDir, d)).isDirectory())
+            .sort();
+        for (const dir of archiveDirs) {
+            loadFromDir(path.join(archiveDir, dir));
         }
     }
     

@@ -40,7 +40,7 @@ const Login = lazy(() => import('./pages/auth/Login').then(module => ({ default:
 const Overview = lazy(() => import('./pages/dashboard/Overview').then(module => ({ default: module.Overview })));
 const Syllabus = lazy(() => import('./pages/dashboard/Syllabus').then(module => ({ default: module.Syllabus })));
 const Timeline = lazy(() => import('./pages/dashboard/Timeline').then(module => ({ default: module.Timeline })));
-const Documents = lazy(() => import('./pages/dashboard/Documents').then(module => ({ default: module.Documents })));
+const Notes = lazy(() => import('./pages/dashboard/Notes').then(module => ({ default: module.Notes })));
 const Analytics = lazy(() => import('./pages/dashboard/Analytics').then(module => ({ default: module.Analytics })));
 const MockGenerator = lazy(() => import('./pages/dashboard/MockGenerator').then(module => ({ default: module.MockGenerator })));
 const StudyPlan = lazy(() => import('./pages/dashboard/StudyPlan').then(module => ({ default: module.StudyPlan })));
@@ -160,7 +160,7 @@ function AppContent() {
                 <Route path="syllabus/:subject" element={<SubjectSyllabus />} />
                 <Route path="saved-lectures" element={<SavedLectures />} />
                 <Route path="timeline" element={<Timeline />} />
-                <Route path="documents" element={<Documents />} />
+                <Route path="notes" element={<Notes />} />
                 <Route path="analytics" element={<Analytics />} />
                 <Route path="resources" element={<Resources />} />
                 <Route path="test-center" element={<TestCenter />} />

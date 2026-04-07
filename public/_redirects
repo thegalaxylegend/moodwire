@@ -8,5 +8,12 @@
 /api/og/*  https://us-central1-legendstech001.cloudfunctions.net/ogImage/:splat  200
 /api/og    https://us-central1-legendstech001.cloudfunctions.net/ogImage  200
 
+# SEO Static Files (Explicit 200 to ensure they bypass the catch-all)
+/sitemap.xml   /sitemap.xml   200
+/sitemap-*.xml /sitemap-*.xml 200
+/robots.txt    /robots.txt    200
+/rss.xml       /rss.xml       200
+/ads.txt       /ads.txt       200
+
 # Catch-all for SPA client-side routing
 /*         /index.html  200
