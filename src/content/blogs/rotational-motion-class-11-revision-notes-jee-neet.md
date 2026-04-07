@@ -1,23 +1,53 @@
 ---
-title: "Rotational Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "The ultimate Rotational Motion revision resource for Physics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
-category: "Physics"
-keywords: "rotational motion class 11 revision notes jee neet, Physics, Exam Compass"
-date: "2026-03-28"
 heroImage: "/blog-images/rotational-motion-class-11-revision-notes-jee-neet.webp"
+title: "Rotational Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
+description: "Rotational Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+category: "Revision"
+date: "2026-03-28"
+practice_link: "/class-11/physics/rotational-motion-class-11-revision-notes-jee-neet"
 ---
+
+
+![Rotational Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/rotational-motion-class-11-revision-notes-jee-neet.webp)
+
+*Last Updated: 2026-03-28*
+
+
+
+
+## 📋 Table of Contents
+
+- [What is Rotational Motion Revision Notes?](#what-is-rotational-motion-revision-notes)
+- [Introduction](#introduction)
+- [1. Centre of Mass (CoM)](#1-centre-of-mass-com)
+  - [Derivation: CoM of a 2-Particle System](#derivation-com-of-a-2particle-system)
+- [2. Torque and Angular Momentum](#2-torque-and-angular-momentum)
+  - [I. Torque (τ) - The Rotational Force](#i-torque-the-rotational-force)
+  - [II. Angular Momentum (L)](#ii-angular-momentum-l)
+  - [III. Proof: τ = dL/dt (Rotational Newton's 2nd Law)](#iii-proof-dldt-rotational-newtons-2nd-law)
+- [3. Moment of Inertia (I): Rotational Mass](#3-moment-of-inertia-i-rotational-mass)
+  - [Parallel Axes Theorem (Proof)](#parallel-axes-theorem-proof)
+  - [Perpendicular Axes Theorem (Proof)](#perpendicular-axes-theorem-proof)
+- [4. Moment of Inertia Master-Sheet](#4-moment-of-inertia-mastersheet)
+- [5. Dynamics of Rolling Motion](#5-dynamics-of-rolling-motion)
+  - [Condition for Pure Rolling:](#condition-for-pure-rolling)
+- [Comprehensive Exam Strategy (Q&A)](#comprehensive-exam-strategy-qanda)
+- [Related Revision Notes](#related-revision-notes)
+- [Conclusion](#conclusion)
+- [📚 Related Topics](#-related-topics)
+
 
 # Rotational Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Hero Image](/blog-images/rotational-motion-class-11-revision-notes-jee-neet.webp)
 
-*Last Updated: 2026-03-22*
 
-## What is Rotational Motion Revision Notes?
+
+
+## <a id="what-is-rotational-motion-revision-notes"></a>What is Rotational Motion Revision Notes?
 
 # Rotational Motion Revision Notes
 
-![Engineering Visual: Rotational Dynamics and Gyroscopic Motion](/blog-images/rotational-motion-revision.webp)
+
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -33,7 +63,7 @@ heroImage: "/blog-images/rotational-motion-class-11-revision-notes-jee-neet.webp
 ---
 
 
-## Introduction
+## <a id="introduction"></a>Introduction
 
 While the previous chapters dealt with the motion of "point masses," reality involves systems of particles and extended "rigid bodies." In Rotational Motion, every point on a body moves in a circle around an axis, creating a symphony of motion that requires new concepts: **Centre of Mass**, **Torque**, and **Moment of Inertia**. This chapter is widely considered one of the most challenging in Class 11 Physics, but it is also the most rewarding for those aiming for top scores in JEE and NEET. In this "Comprehensive" guide, we provide exhaustive derivations for the Parallel and Perpendicular Axes Theorems, the relation between Torque and Angular Momentum, and the physics of pure rolling motion.
 
@@ -42,11 +72,11 @@ While the previous chapters dealt with the motion of "point masses," reality inv
 
 
 
-## 1. Centre of Mass (CoM)
+## <a id="1-centre-of-mass-com"></a>1. Centre of Mass (CoM)
 
 The Centre of Mass is the unique point where the entire mass of a system may be considered to be concentrated for describing its translational motion.
 
-### Derivation: CoM of a 2-Particle System
+### <a id="derivation-com-of-a-2particle-system"></a>Derivation: CoM of a 2-Particle System
 Consider two masses **m1** and **m2** at positions **x1** and **x2**.
 The position of the CoM is defined as:
 **X_com = (m1 x1 + m2 x2) / (m1 + m2)**
@@ -57,20 +87,20 @@ The position of the CoM is defined as:
 
 
 
-## 2. Torque and Angular Momentum
+## <a id="2-torque-and-angular-momentum"></a>2. Torque and Angular Momentum
 
-### I. Torque (τ) - The Rotational Force
+### <a id="i-torque-the-rotational-force"></a>I. Torque (τ) - The Rotational Force
 Torque is the "turning effect" of a force.
 **Formula: τ = r × F = r F sinθ**.
 **Derivation in Cartesian Coordinates:**
 1.  Let **r = x î + y ĵ** and **F = Fx î + Fy ĵ**.
 2.  **τ = r × F = (x Fy - y Fx) k̂**.
 
-### II. Angular Momentum (L)
+### <a id="ii-angular-momentum-l"></a>II. Angular Momentum (L)
 The rotational equivalent of linear momentum.
 **Formula: L = r × p = I ω**.
 
-### III. Proof: τ = dL/dt (Rotational Newton's 2nd Law)
+### <a id="iii-proof-dldt-rotational-newtons-2nd-law"></a>III. Proof: τ = dL/dt (Rotational Newton's 2nd Law)
 1.  **L = r × p**.
 2.  Differentiating wrt time: **dL/dt = d(r × p)/dt**.
 3.  **dL/dt = (dr/dt × p) + (r × dp/dt)**.
@@ -83,17 +113,17 @@ The rotational equivalent of linear momentum.
 
 
 
-## 3. Moment of Inertia (I): Rotational Mass
+## <a id="3-moment-of-inertia-i-rotational-mass"></a>3. Moment of Inertia (I): Rotational Mass
 
 Moment of Inertia resists changes in rotational motion.
 **Formula: I = Σ mi ri² = ∫ r² dm**.
 
-### Parallel Axes Theorem (Proof)
+### <a id="parallel-axes-theorem-proof"></a>Parallel Axes Theorem (Proof)
 **Theorem:** **I = I_com + Ma²**
 (where **I_com** is the MoI about an axis through the CoM, and **a** is the distance between axes).
 1.  **Proof Logic:** By expanding the integral **∫ (x + a)² dm** and noting that **∫ x dm = 0** for an axis passing through the CoM, we arrive at the result.
 
-### Perpendicular Axes Theorem (Proof)
+### <a id="perpendicular-axes-theorem-proof"></a>Perpendicular Axes Theorem (Proof)
 **Theorem:** **Iz = Ix + Iy** (Only for 2D laminar bodies).
 1.  **Proof Logic:** Since **r² = x² + y²**, integrating both sides yields **∫ r² dm = ∫ x² dm + ∫ y² dm**, which corresponds to **Iz = Iy + Ix**.
 
@@ -102,7 +132,7 @@ Moment of Inertia resists changes in rotational motion.
 
 
 
-## 4. Moment of Inertia Master-Sheet
+## <a id="4-moment-of-inertia-mastersheet"></a>4. Moment of Inertia Master-Sheet
 
 | Body | Axis | MoI (I) |
 | :--- | :--- | :--- |
@@ -117,12 +147,12 @@ Moment of Inertia resists changes in rotational motion.
 
 
 
-## 5. Dynamics of Rolling Motion
+## <a id="5-dynamics-of-rolling-motion"></a>5. Dynamics of Rolling Motion
 
 When an object rolls, it has both translational and rotational kinetic energy.
 **K_total = K_trans + K_rot = 1/2 Mv² + 1/2 Iω²**
 
-### Condition for Pure Rolling:
+### <a id="condition-for-pure-rolling"></a>Condition for Pure Rolling:
 For a body rolling without slipping: **v = R ω**.
 If this condition is met, the point of contact is momentarily at rest.
 
@@ -131,7 +161,7 @@ If this condition is met, the point of contact is momentarily at rest.
 
 
 
-## Comprehensive Exam Strategy (Q&A)
+## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
 **Q1: Why are the spokes of a bicycle wheel made thin?**
 **Answer:** The bulk of the mass is concentrated at the **rim** (far from the axis). According to **I = mr²**, this maximizes the Moment of Inertia for a given weight, providing the wheel with greater stability and helping it maintain motion once started.
@@ -147,7 +177,7 @@ If this condition is met, the point of contact is momentarily at rest.
 
 
 
-## Related Revision Notes
+## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 4: Laws of Motion (Inertia Basics)**
 - **Chapter 7: Gravitation (Orbital Angular Momentum)**
@@ -156,7 +186,7 @@ If this condition is met, the point of contact is momentarily at rest.
 
 
 
-## Conclusion
+## <a id="conclusion"></a>Conclusion
 
 Rotational Motion is the ultimate test of a physicist's understanding of symmetry and conservation laws. By mastering the mathematical bridge between linear and angular quantities, you gain the ability to analyze everything from a spinning top to the rotation of entire galaxies. Master the parallel axes theorem and the conservation of angular momentum—these are the pillars of advanced mechanics and mechanical engineering. Stay centered, keep your torque high, and maintain your momentum!
 
@@ -178,7 +208,7 @@ Rotational Motion is the ultimate test of a physicist's understanding of symmetr
 
 ---
 
-## 📚 Related Topics
+## <a id="-related-topics"></a>📚 Related Topics
 
 Continue your revision with these related guides:
 
@@ -186,3 +216,12 @@ Continue your revision with these related guides:
 - 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
 - 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
 - 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
+
+
+---
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/rotational-motion-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

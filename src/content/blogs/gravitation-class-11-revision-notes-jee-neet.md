@@ -1,23 +1,48 @@
 ---
-title: "Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "The ultimate Gravitation revision resource for Physics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
-category: "Physics"
-keywords: "gravitation class 11 revision notes jee neet, Physics, Exam Compass"
-date: "2026-03-28"
 heroImage: "/blog-images/gravitation-class-11-revision-notes-jee-neet.webp"
+title: "Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
+description: "Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+category: "Revision"
+date: "2026-03-28"
+practice_link: "/class-11/physics/gravitation-class-11-revision-notes-jee-neet"
 ---
+
+
+![Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/gravitation-class-11-revision-notes-jee-neet.webp)
+
+*Last Updated: 2026-03-28*
+
+
+
+
+## 📋 Table of Contents
+
+- [What is Gravitation Revision Notes?](#what-is-gravitation-revision-notes)
+- [Introduction](#introduction)
+- [1. Newton's Law of Universal Gravitation](#1-newtons-law-of-universal-gravitation)
+- [2. Derivation Master-Sheet: Variations in 'g'](#2-derivation-mastersheet-variations-in-g)
+  - [I. Variation with Altitude (h)](#i-variation-with-altitude-h)
+  - [II. Variation with Depth (d)](#ii-variation-with-depth-d)
+- [3. Gravitational Potential Energy (U)](#3-gravitational-potential-energy-u)
+- [4. Escape Velocity (v_e)](#4-escape-velocity-v_e)
+- [5. Kepler’s Laws of Planetary Motion](#5-keplers-laws-of-planetary-motion)
+- [Comprehensive Exam Strategy (Q&A)](#comprehensive-exam-strategy-qanda)
+- [Related Revision Notes](#related-revision-notes)
+- [Conclusion](#conclusion)
+- [📚 Related Topics](#-related-topics)
+
 
 # Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Hero Image](/blog-images/gravitation-class-11-revision-notes-jee-neet.webp)
 
-*Last Updated: 2026-03-22*
 
-## What is Gravitation Revision Notes?
+
+
+## <a id="what-is-gravitation-revision-notes"></a>What is Gravitation Revision Notes?
 
 # Gravitation Revision Notes
 
-![Gravitation and Planetary Motion Visual](/blog-images/gravitation-revision.webp)
+
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -31,7 +56,7 @@ heroImage: "/blog-images/gravitation-class-11-revision-notes-jee-neet.webp"
 ---
 
 
-## Introduction
+## <a id="introduction"></a>Introduction
 
 Gravitation is the universal force of attraction that binds the universe together. From the simple falling of an apple observed by Newton to the complex orbital dance of the planets described by Kepler, gravitation is the invisible thread of cosmic order. In this "Comprehensive" guide, we provide a mathematically rigorous expansion of Chapter 7, featuring formal derivations for the variation of 'g', gravitational potential energy, and the physics of satellites—providing the depth required for high-stakes exams like JEE and NEET.
 
@@ -40,7 +65,7 @@ Gravitation is the universal force of attraction that binds the universe togethe
 
 
 
-## 1. Newton's Law of Universal Gravitation
+## <a id="1-newtons-law-of-universal-gravitation"></a>1. Newton's Law of Universal Gravitation
 
 Every particle in the universe attracts every other particle with a force that is:
 1.  Directly proportional to the product of their masses (**m1 m2**).
@@ -55,18 +80,18 @@ Every particle in the universe attracts every other particle with a force that i
 
 
 
-## 2. Derivation Master-Sheet: Variations in 'g'
+## <a id="2-derivation-mastersheet-variations-in-g"></a>2. Derivation Master-Sheet: Variations in 'g'
 
 The acceleration due to gravity (**g = GM/R²**) is not a constant; it varies with altitude and depth.
 
-### I. Variation with Altitude (h)
+### <a id="i-variation-with-altitude-h"></a>I. Variation with Altitude (h)
 Let **g** be the acceleration at surface and **gh** at height **h**.
 1.  **gh = GM / (R + h)²**
 2.  **gh = (GM/R²) · [R² / (R + h)²] = g [1 + h/R]⁻²**
 3.  For **h ≪ R**, using Binomial Expansion:
     - **gh = g (1 - 2h/R)**. (Proven)
 
-### II. Variation with Depth (d)
+### <a id="ii-variation-with-depth-d"></a>II. Variation with Depth (d)
 Let **gd** be acceleration at depth **d**.
 1.  Mass of Earth interior to depth **d** is **M' = M [(R-d)/R]³**.
 2.  **gd = G M' / (R-d)² = G M (R-d) / R³**
@@ -79,7 +104,7 @@ Let **gd** be acceleration at depth **d**.
 
 
 
-## 3. Gravitational Potential Energy (U)
+## <a id="3-gravitational-potential-energy-u"></a>3. Gravitational Potential Energy (U)
 
 **Derivation:** The work done in bringing a mass **m** from infinity to a point **r**.
 1.  **dW = F dr = (GMm / r²) dr**.
@@ -94,7 +119,7 @@ Let **gd** be acceleration at depth **d**.
 
 
 
-## 4. Escape Velocity (v_e)
+## <a id="4-escape-velocity-v_e"></a>4. Escape Velocity (v_e)
 
 The minimum velocity required for an object to break free from Earth's gravitational pull.
 **Derivation:**
@@ -109,7 +134,7 @@ The minimum velocity required for an object to break free from Earth's gravitati
 
 
 
-## 5. Kepler’s Laws of Planetary Motion
+## <a id="5-keplers-laws-of-planetary-motion"></a>5. Kepler’s Laws of Planetary Motion
 
 1.  **Law of Orbits:** Planets move in elliptical orbits with the Sun at one focus.
 2.  **Law of Areas:** A line joining a planet and the Sun sweeps out equal areas in equal intervals of time. (**Proves Conservation of Angular Momentum**).
@@ -126,7 +151,7 @@ The minimum velocity required for an object to break free from Earth's gravitati
 
 
 
-## Comprehensive Exam Strategy (Q&A)
+## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
 **Q1: Where is the weight of a body zero?**
 **Answer:**
@@ -145,7 +170,7 @@ The minimum velocity required for an object to break free from Earth's gravitati
 
 
 
-## Related Revision Notes
+## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 6: Rotational Motion (Angular Momentum)**
 - **Chapter 2: Motion in a Straight Line (Free Fall)**
@@ -154,7 +179,7 @@ The minimum velocity required for an object to break free from Earth's gravitati
 
 
 
-## Conclusion
+## <a id="conclusion"></a>Conclusion
 
 Gravitation is the foundational law of the macro-universe. By understanding how gravity changes with position and how energy is stored in gravitational fields, we can unlock the secrets of satellite technology, space exploration, and the very structure of the cosmos. Master the derivations of 'g' and escape velocity—these are the equations that humanity used to reach the Moon and beyond. Stay grounded, but keep looking up!
 
@@ -176,7 +201,7 @@ Gravitation is the foundational law of the macro-universe. By understanding how 
 
 ---
 
-## 📚 Related Topics
+## <a id="-related-topics"></a>📚 Related Topics
 
 Continue your revision with these related guides:
 
@@ -184,3 +209,12 @@ Continue your revision with these related guides:
 - 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
 - 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
 - 📖 [Kinetic Theory Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)
+
+
+---
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/gravitation-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

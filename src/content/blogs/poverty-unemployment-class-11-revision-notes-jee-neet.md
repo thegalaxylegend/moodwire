@@ -1,28 +1,45 @@
 ---
-title: "Poverty Unemployment Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Accelerate your Physics revision with our Poverty Unemployment guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
-category: "Physics"
-keywords: "poverty unemployment class 11 revision notes jee neet, Physics, Exam Compass"
-date: "2026-03-28"
 heroImage: "/blog-images/poverty-unemployment-class-11-revision-notes-jee-neet.webp"
+title: "Poverty Unemployment Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
+description: "Poverty Unemployment Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+category: "Revision"
+date: "2026-03-28"
+practice_link: "/class-11/physics/poverty-unemployment-class-11-revision-notes-jee-neet"
 ---
+
+
+![Poverty Unemployment Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/poverty-unemployment-class-11-revision-notes-jee-neet.webp)
+
+*Last Updated: 2026-03-28*
+
+
+
+
+## 📋 Table of Contents
+
+- [What is Poverty Unemployment?](#what-is-poverty-unemployment)
+- [What is Poverty & Unemployment?](#what-is-poverty-and-unemployment)
+- [How to Measure Poverty?](#how-to-measure-poverty)
+- [MCQs](#mcqs)
+- [📚 Related Topics](#-related-topics)
+
 
 # Poverty Unemployment Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Poverty Unemployment recap](/blog-images/poverty-unemployment-class-11-notes.webp)
 
-*Last Updated: 2026-03-22*
 
-## What is Poverty Unemployment?
+
+
+## <a id="what-is-poverty-unemployment"></a>What is Poverty Unemployment?
 
 # Poverty & Unemployment Class 11 Notes for 2026
 
-![Poverty & Unemployment recap](/blog-images/fallbacks/generic-study.webp)
-
-*Last Updated: 2026-03-22*
 
 
-## What is Poverty & Unemployment?
+
+
+
+## <a id="what-is-poverty-and-unemployment"></a>What is Poverty & Unemployment?
 
 
 
@@ -41,7 +58,7 @@ Poverty & Unemployment is a socio-economic issue. It includes lack of income, un
 | Cyclical Unemployment | Unemployment due to economic downturn |
 
 
-## How to Measure Poverty?
+## <a id="how-to-measure-poverty"></a>How to Measure Poverty?
 
 Measuring poverty involves calculating the poverty line, which is the minimum income required to meet basic needs. It includes headcount ratio, poverty gap, and Gini coefficient. For Class 11 exam prep in 2026, the most important aspect is understanding the differences between these measures.
 
@@ -53,13 +70,13 @@ Measuring poverty involves calculating the poverty line, which is the minimum in
 | Gini Coefficient | Income inequality measure |
 
 
-## Quick Recall Box
+
 
 - Poverty line is the minimum income required to meet basic needs
 - Types of unemployment: frictional, structural, cyclical
 - Measures of poverty: headcount ratio, poverty gap, Gini coefficient
 
-## MCQs
+## <a id="mcqs"></a>MCQs
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
@@ -73,7 +90,7 @@ Measuring poverty involves calculating the poverty line, which is the minimum in
 
 ---
 
-## 📚 Related Topics
+## <a id="-related-topics"></a>📚 Related Topics
 
 Continue your revision with these related guides:
 
@@ -81,3 +98,12 @@ Continue your revision with these related guides:
 - 📖 [Physics Mechanics Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/physics-mechanics-class-11-revision-notes-jee-neet)
 - 📖 [Planning In India Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/planning-in-india-class-11-revision-notes-jee-neet)
 - 📖 [Some Basic Concepts Of Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet)
+
+
+---
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/poverty-unemployment-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

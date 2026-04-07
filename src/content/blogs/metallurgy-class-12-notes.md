@@ -1,20 +1,41 @@
 ---
 heroImage: "/blog-images/metallurgy-class-12-notes.webp"
 title: "Metallurgy Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "The ultimate Metallurgy revision resource for Chemistry students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
-category: "Chemistry"
-keywords: "Metallurgy class 12 notes, Metallurgy quick revision, Metallurgy 2026, Metallurgy JEE 2026, Metallurgy NEET 2026, Metallurgy notes for JEE, Metallurgy notes for NEET, class 12 Chemistry revision, Metallurgy formula sheet, Metallurgy MCQs"
+description: "Metallurgy Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-31."
+category: "Revision"
 date: "2026-03-31"
 practice_link: "/class-11/chemistry/metallurgy-class-12-notes"
 ---
+
 
 ![Metallurgy Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/metallurgy-class-12-notes.webp)
 
 *Last Updated: 2026-03-31*
 
+
+
+
 ## 📋 Table of Contents
 
- - [Metallurgical Processes](#metallurgical-processes)
+  - [Metallurgical Processes](#metallurgical-processes)
+  - [Extraction of Metals](#extraction-of-metals)
+  - [Ellingham Diagram](#ellingham-diagram)
+  - [Reduction Methods](#reduction-methods)
+  - [Refining of Metals](#refining-of-metals)
+  - [Thermodynamic Principles](#thermodynamic-principles)
+  - [Electrochemical Principles](#electrochemical-principles)
+  - [Electrolytic Reduction](#electrolytic-reduction)
+  - [Roasting and Calcination](#roasting-and-calcination)
+  - [Metallurgical Processes](#metallurgical-processes)
+- [🪤 The 5 Trap Mistakes](#-the-5-trap-mistakes)
+  - [Conclusion and Advanced Topics](#conclusion-and-advanced-topics)
+- [📝 Master the Test Center — Step-by-Step Learning](#-master-the-test-center-stepbystep-learning)
+- [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
+  - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
+- [📚 Related Topics](#-related-topics)
+
+
+- [Metallurgical Processes](#metallurgical-processes)
  - [Extraction of Metals](#extraction-of-metals)
  - [Ellingham Diagram](#ellingham-diagram)
  - [Reduction Methods](#reduction-methods)
@@ -24,10 +45,9 @@ practice_link: "/class-11/chemistry/metallurgy-class-12-notes"
  - [Electrolytic Reduction](#electrolytic-reduction)
  - [Roasting and Calcination](#roasting-and-calcination)
  - [Metallurgical Processes](#metallurgical-processes)
-- [🪤 The 5 Trap Mistakes](#-the-5-trap-mistakes)
+
  - [Conclusion and Advanced Topics](#conclusion-and-advanced-topics)
-- [📝 Master the Test Center — Step-by-Step Learning](#-master-the-test-center-stepbystep-learning)
-- [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
+
 
 ### <a id="metallurgical-processes"></a>Metallurgical Processes
 - Metallurgical processes involve the extraction of metals from their ores.
@@ -211,7 +231,7 @@ By reviewing what you have learned and reinforcing your understanding, you can e
 
 ---
 
-### 🚀 Ready to Ace Your Exam?
+### <a id="-ready-to-ace-your-exam"></a>🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/metallurgy-class-12-notes) now and track your progress against thousands of students.
 
 ---
@@ -220,7 +240,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 
-## 📚 Related Topics
+## <a id="-related-topics"></a>📚 Related Topics
 
 Continue your revision with these related guides:
 
@@ -228,3 +248,12 @@ Continue your revision with these related guides:
 - 📖 [Solid State Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/solid-state-class-12-notes)
 - 📖 [Surface Chemistry Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/surface-chemistry-class-12-notes)
 - 📖 [Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-integrals-class-12-notes)
+
+
+---
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/metallurgy-class-12-notes) now and track your progress against thousands of students.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

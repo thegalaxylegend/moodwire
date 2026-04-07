@@ -1,23 +1,50 @@
 ---
-title: "Statistics Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
-description: "Deep dive into Statistics Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
-category: "Mathematics"
-keywords: "statistics class 11 revision notes jee, Mathematics, Exam Compass"
-date: "2026-03-28"
 heroImage: "/blog-images/statistics-class-11-revision-notes-jee.webp"
+title: "Statistics Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
+description: "Statistics Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+category: "Revision"
+date: "2026-03-28"
+practice_link: "/class-11/mathematics/statistics-class-11-revision-notes-jee"
 ---
+
+
+![Statistics Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog-images/statistics-class-11-revision-notes-jee.webp)
+
+*Last Updated: 2026-03-28*
+
+
+
+
+## 📋 Table of Contents
+
+- [What is Statistics Revision Notes?](#what-is-statistics-revision-notes)
+- [Introduction](#introduction)
+- [1. Measures of Dispersion](#1-measures-of-dispersion)
+  - [Key Measures:](#key-measures)
+- [2. Mean Deviation (M.D.)](#2-mean-deviation-md)
+  - [Calculation Steps:](#calculation-steps)
+- [3. Variance and Standard Deviation](#3-variance-and-standard-deviation)
+  - [Variance ($\sigma^2$):](#variance-sigma2)
+  - [Standard Deviation ($\sigma$):](#standard-deviation-sigma)
+- [4. Analysis of Frequency Distributions](#4-analysis-of-frequency-distributions)
+  - [Coefficient of Variation (C.V.):](#coefficient-of-variation-cv)
+- [Comprehensive Exam Strategy (Q&A)](#comprehensive-exam-strategy-qanda)
+- [Related Revision Notes](#related-revision-notes)
+- [Conclusion](#conclusion)
+- [📚 Related Topics](#-related-topics)
+
 
 # Statistics Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
 
-![Hero Image](/blog-images/statistics-class-11-revision-notes-jee.webp)
 
-*Last Updated: 2026-03-22*
 
-## What is Statistics Revision Notes?
+
+
+## <a id="what-is-statistics-revision-notes"></a>What is Statistics Revision Notes?
 
 # Statistics Revision Notes
 
-![Statistics Formulas and Measures of Dispersion Concepts](/blog-images/statistics-revision.webp)
+
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -31,7 +58,7 @@ heroImage: "/blog-images/statistics-class-11-revision-notes-jee.webp"
 ---
 
 
-## Introduction
+## <a id="introduction"></a>Introduction
 
 **Statistics is the science of data analysis, focusing on Measures of Dispersion which describe how information is spread around a central value. Master Mean Deviation, Variance, and Standard Deviation to excel in data science foundations and probability modeling. This Class 11 Math Chapter 15 guide provides all essential formulas for JEE and CBSE success.**
 Statistics is the science of collecting, organizing, and analyzing data to draw meaningful conclusions.
@@ -41,11 +68,11 @@ Statistics is the science of collecting, organizing, and analyzing data to draw 
 
 
 
-## 1. Measures of Dispersion
+## <a id="1-measures-of-dispersion"></a>1. Measures of Dispersion
 
 Dispersion refers to the scattering of data around a central value. Two sets of data can have the same mean but look completely different based on how far the values are from the mean.
 
-### Key Measures:
+### <a id="key-measures"></a>Key Measures:
 1.  **Range:** The difference between the maximum and minimum values (Max - Min).
 2.  **Quartile Deviation:** (Not in latest NCERT syllabus, but useful for competition).
 3.  **Mean Deviation:** The arithmetic mean of the absolute deviations of the observations from an average.
@@ -56,11 +83,11 @@ Dispersion refers to the scattering of data around a central value. Two sets of 
 
 
 
-## 2. Mean Deviation (M.D.)
+## <a id="2-mean-deviation-md"></a>2. Mean Deviation (M.D.)
 
 Mean deviation can be calculated about the **Mean** or the **Median**.
 
-### Calculation Steps:
+### <a id="calculation-steps"></a>Calculation Steps:
 1.  Find the Mean ($\bar{x}$) or Median ($M$) of the data.
 2.  Find the absolute differences $|x_i - \bar{x}|$ or $|x_i - M|$.
 3.  Calculated the average of these absolute differences.
@@ -75,15 +102,15 @@ $M.D. (\bar{x}) = \frac{\sum f_i |x_i - \bar{x}|}{N}$ (where $N = \sum f_i$)
 
 
 
-## 3. Variance and Standard Deviation
+## <a id="3-variance-and-standard-deviation"></a>3. Variance and Standard Deviation
 
 While Mean Deviation uses absolute values, Variance uses **squares** of deviations to avoid negative signs.
 
-### Variance ($\sigma^2$):
+### <a id="variance-sigma2"></a>Variance ($\sigma^2$):
 The average of the squared deviations from the mean.
 - **Formula:** $\sigma^2 = \frac{1}{n} \sum (x_i - \bar{x})^2$
 
-### Standard Deviation ($\sigma$):
+### <a id="standard-deviation-sigma"></a>Standard Deviation ($\sigma$):
 The square root of the variance. It is preferred because it shares the same units as the original data.
 - **Short Method for Discrete Frequency Distribution:**
   $$\sigma = \frac{1}{N} \sqrt{N \sum f_i x_i^2 - (\sum f_i x_i)^2}$$
@@ -92,11 +119,11 @@ The square root of the variance. It is preferred because it shares the same unit
 
 
 
-## 4. Analysis of Frequency Distributions
+## <a id="4-analysis-of-frequency-distributions"></a>4. Analysis of Frequency Distributions
 
 Sometimes we need to compare two different series (like marks of two students in different subjects) to see which is more consistent.
 
-### Coefficient of Variation (C.V.):
+### <a id="coefficient-of-variation-cv"></a>Coefficient of Variation (C.V.):
 To compare dispersion between two sets with different means or units, we use C.V.
 - **Formula:** $C.V. = \frac{\sigma}{\bar{x}} \times 100$
 - **Consistency Rule:** The series with a **lower C.V.** is said to be more stable or consistent.
@@ -106,7 +133,7 @@ To compare dispersion between two sets with different means or units, we use C.V
 
 
 
-## Comprehensive Exam Strategy (Q&A)
+## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
 **Q1: Find the mean deviation about the mean for the data: 6, 7, 10, 12, 13, 4, 8, 12.**
 **Answer:**
@@ -130,7 +157,7 @@ Standard Deviation is generally better for advanced mathematical analysis becaus
 
 
 
-## Related Revision Notes
+## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 16: Probability**
 - **Chapter 12: Three Dimensional Geometry**
@@ -139,7 +166,7 @@ Standard Deviation is generally better for advanced mathematical analysis becaus
 
 
 
-## Conclusion
+## <a id="conclusion"></a>Conclusion
 
 Statistics in Class 11 moves beyond just finding averages to understanding the reliability of data. Mastering Mean Deviation and Variance allows you to quantify "risk" and "consistency"—skills used in everything from weather forecasting to the stock market. Keep your calculations precise, and remember: consistency is key (both in data and in your study routine)!
 
@@ -160,7 +187,7 @@ Statistics in Class 11 moves beyond just finding averages to understanding the r
 
 ---
 
-## 📚 Related Topics
+## <a id="-related-topics"></a>📚 Related Topics
 
 Continue your revision with these related guides:
 
@@ -168,3 +195,12 @@ Continue your revision with these related guides:
 - 📖 [Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/conic-sections-class-11-revision-notes-jee)
 - 📖 [Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-combinations-class-11-revision-notes-jee)
 - 📖 [Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-class-11-revision-notes-jee)
+
+
+---
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/statistics-class-11-revision-notes-jee) now and track your progress against thousands of students.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

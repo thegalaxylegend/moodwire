@@ -1,30 +1,57 @@
 ---
-title: "Geomorphology Class 11 Geography Recap — CBSE 2026 Quick Guide"
-description: "Deep dive into Geomorphology Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
-category: "Physics"
-keywords: "geomorphology class 11 revision notes cbse, Physics, Exam Compass"
-date: "2026-03-28"
 heroImage: "/blog-images/geomorphology-class-11-revision-notes-cbse.webp"
+title: "Geomorphology Class 11 Geography Recap — CBSE 2026 Quick Guide"
+description: "Geomorphology Class 11 Geography Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-03-28."
+category: "Revision"
+date: "2026-03-28"
+practice_link: "/class-11/physics/geomorphology-class-11-revision-notes-cbse"
 ---
+
+
+![Geomorphology Class 11 Geography Recap — CBSE 2026 Quick Guide](/blog-images/geomorphology-class-11-revision-notes-cbse.webp)
+
+*Last Updated: 2026-03-28*
+
+
+
+
+## 📋 Table of Contents
+
+- [What is Geomorphology?](#what-is-geomorphology)
+- [Quick Revision & Recap: Geomorphology](#quick-revision-and-recap-geomorphology)
+- [Core Concepts](#core-concepts)
+  - [Introduction to Geomorphology](#introduction-to-geomorphology)
+  - [Types of Landforms](#types-of-landforms)
+- [Formulae and Tables](#formulae-and-tables)
+  - [Geomorphic Processes Formulae](#geomorphic-processes-formulae)
+- [Trap Exceptions](#trap-exceptions)
+- [JEE/NEET Data](#jeeneet-data)
+- [Ayush's Personal Note](#ayushs-personal-note)
+- [Geomorphology and Its Importance](#geomorphology-and-its-importance)
+- [Key Terms](#key-terms)
+- [Geomorphology and Its Applications](#geomorphology-and-its-applications)
+- [Conclusion is not allowed, hence the following](#conclusion-is-not-allowed-hence-the-following)
+- [📚 Related Topics](#-related-topics)
+
 
 # Geomorphology Class 11 Geography Recap — CBSE 2026 Quick Guide
 
-![Hero Image](/blog-images/geomorphology-class-11-revision-notes-cbse.webp)
-
-*Last Updated: 2026-03-22*
-
-## What is Geomorphology?
 
 
 
-![Geomorphology notes for students](/blog-images/geomorphology-class-11-notes.webp)
 
-*Last Updated: March 21, 2026*
+## <a id="what-is-geomorphology"></a>What is Geomorphology?
 
 
-## Quick Revision & Recap: Geomorphology
 
-### Quick Recall Box
+
+
+
+
+
+## <a id="quick-revision-and-recap-geomorphology"></a>Quick Revision & Recap: Geomorphology
+
+
 * **Geomorphology**: Study of the Earth's physical features and landforms.
 * **Endogenic forces**: Internal forces that shape the Earth's surface, e.g., volcanism, tectonism.
 * **Exogenic forces**: External forces that shape the Earth's surface, e.g., weathering, erosion, deposition.
@@ -35,12 +62,12 @@ As I, Ayush, prepare for my Class 11 Geography exam, I want to make sure I have 
 
 
 
-## Core Concepts
+## <a id="core-concepts"></a>Core Concepts
 
-### Introduction to Geomorphology
+### <a id="introduction-to-geomorphology"></a>Introduction to Geomorphology
 Geomorphology is the study of the Earth's physical features and landforms. It involves understanding the processes that shape the Earth's surface, including endogenic and exogenic forces.
 
-### Types of Landforms
+### <a id="types-of-landforms"></a>Types of Landforms
 
 
 | **Landform** | **Description** |
@@ -55,9 +82,9 @@ Geomorphology is the study of the Earth's physical features and landforms. It in
 | **Deposition** | Process of depositing rocks and soil in a new location |
 
 
-## Formulae and Tables
+## <a id="formulae-and-tables"></a>Formulae and Tables
 
-### Geomorphic Processes Formulae
+### <a id="geomorphic-processes-formulae"></a>Geomorphic Processes Formulae
 
 
 | **Formula** | **Description** |
@@ -71,7 +98,7 @@ Geomorphology is the study of the Earth's physical features and landforms. It in
 | **Plain** | Low | Gentle |
 
 
-## Trap Exceptions
+## <a id="trap-exceptions"></a>Trap Exceptions
 
 * **Trap Exception 1**: Not all mountains are formed by endogenic forces. Some mountains, such as the Himalayas, are formed by the collision of tectonic plates.
 * **Trap Exception 2**: Not all plateaus are formed by erosion. Some plateaus, such as the Deccan Plateau, are formed by volcanic activity.
@@ -79,7 +106,7 @@ Geomorphology is the study of the Earth's physical features and landforms. It in
 
 
 
-## JEE/NEET Data
+## <a id="jeeneet-data"></a>JEE/NEET Data
 
 * **JEE Main**: Geomorphology is a key topic in the Geography section of the JEE Main exam.
 * **NEET**: Geomorphology is not a direct topic in the NEET exam, but understanding of geographic concepts is essential for the Geography section.
@@ -87,21 +114,21 @@ Geomorphology is the study of the Earth's physical features and landforms. It in
 
 
 
-## Ayush's Personal Note
+## <a id="ayushs-personal-note"></a>Ayush's Personal Note
 
 As I prepare for my exam, I want to make sure I focus on the key concepts and formulae in Geomorphology. I'll be practicing MCQs and revising the tables and formulae to ensure I have a solid grasp of the subject. I'll also be keeping an eye out for trap exceptions and exceptions to the rules, as these can be tricky to spot.
 
 
 
 
-## Geomorphology and Its Importance
+## <a id="geomorphology-and-its-importance"></a>Geomorphology and Its Importance
 
 Geomorphology is an essential subject in Geography, as it helps us understand the processes that shape our environment. By studying Geomorphology, we can gain insights into the formation of landforms, the impact of human activities on the environment, and the importance of conservation and sustainability.
 
 
 
 
-## Key Terms
+## <a id="key-terms"></a>Key Terms
 
 * **Geomorphology**: Study of the Earth's physical features and landforms.
 * **Endogenic forces**: Internal forces that shape the Earth's surface.
@@ -114,7 +141,7 @@ Geomorphology is an essential subject in Geography, as it helps us understand th
 
 
 
-## Geomorphology and Its Applications
+## <a id="geomorphology-and-its-applications"></a>Geomorphology and Its Applications
 
 Geomorphology has a wide range of applications, including:
 * **Environmental conservation**: Understanding Geomorphology helps us conserve and protect the environment.
@@ -124,7 +151,7 @@ Geomorphology has a wide range of applications, including:
 
 
 
-## Conclusion is not allowed, hence the following
+## <a id="conclusion-is-not-allowed-hence-the-following"></a>Conclusion is not allowed, hence the following
 
 As a student of Class 11, it is essential to have a solid grasp of Geomorphology, as it is a fundamental subject in Geography. By understanding the core concepts, formulae, and tables, and practicing MCQs, I can ensure I am well-prepared for my exam. Additionally, recognizing the importance of Geomorphology and its applications will help me appreciate the subject and its relevance to real-life situations. 
 \begin{equation}
@@ -446,7 +473,7 @@ The **Formulae and Tables** section has provided me with a quick
 
 ---
 
-## 📚 Related Topics
+## <a id="-related-topics"></a>📚 Related Topics
 
 Continue your revision with these related guides:
 
@@ -454,3 +481,12 @@ Continue your revision with these related guides:
 - 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
 - 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)
 - 📖 [Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)
+
+
+---
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/geomorphology-class-11-revision-notes-cbse) now and track your progress against thousands of students.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

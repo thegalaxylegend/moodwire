@@ -1,18 +1,35 @@
 ---
 heroImage: "/blog-images/atoms-class-12-notes.webp"
 title: "Atoms Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Deep dive into Atoms Class 12. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
-category: "Physics"
-keywords: "Atoms class 12 notes, Atoms quick revision, Atoms 2026, Atoms JEE 2026, Atoms NEET 2026, Atoms notes for JEE, Atoms notes for NEET, class 12 Physics revision, Atoms formula sheet, Atoms MCQs"
+description: "Atoms Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-29."
+category: "Revision"
 date: "2026-03-29"
 practice_link: "/class-11/physics/atoms-class-12-notes"
 ---
 
-![Atoms revision guide](/blog-images/atoms-class-12-notes.webp)
+
+![Atoms Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/atoms-class-12-notes.webp)
 
 *Last Updated: 2026-03-29*
 
-## 🎯 What WILL Come in Your Exam
+
+
+
+## 📋 Table of Contents
+
+- [🎯 What WILL Come in Your Exam](#-what-will-come-in-your-exam)
+- [⚡ Formula Bank](#-formula-bank)
+- [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
+- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
+- [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
+- [👁️ Ayush's Note](#-ayushs-note)
+- [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
+- [📝 Practice MCQs](#-practice-mcqs)
+  - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
+- [📚 Related Topics](#-related-topics)
+
+
+## <a id="-what-will-come-in-your-exam"></a>🎯 What WILL Come in Your Exam
 * 1 numerical on Bohr's energy levels — always
 * Photoelectric effect graph — NEET favourite
 * $E = \\frac{-13.6}{n^2}$ eV — must know for Bohr's model
@@ -23,7 +40,7 @@ practice_link: "/class-11/physics/atoms-class-12-notes"
 * Wave-particle duality — experiment-based question, usually 2 marks
 
 
-## ⚡ Formula Bank
+## <a id="-formula-bank"></a>⚡ Formula Bank
 
 $$\Delta E = \frac{(-13.6)}{n^2} eV$$: Energy of electron in nth orbit, 
  $R_H = \frac{(2.18 \times 10^{-18})}{(1.6 \times 10^{-19})^2} m^{-1}$: Rydberg constant, 
@@ -43,7 +60,7 @@ $$\Delta E = \frac{(-13.6)}{n^2} eV$$: Energy of electron in nth orbit,
 | $$E_n = \frac{(-13.6)}{n^2} eV$$ | Energy of electron in nth orbit |
 
 
-## 🪤 The 5 Mistakes That Cost Marks
+## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
 When dealing with atoms, students often make the following mistakes: 
  Mistake 1: Using $\lambda = \frac{h}{mv}$ without converting mass to kg, 
@@ -72,7 +89,7 @@ When dealing with atoms, students often make the following mistakes:
 | Forgetting to calculate the number of moles using $n = \frac{m}{M}$ before applying the ideal gas law $PV = nRT$ | Full 4 marks | Always calculate moles $n = \frac{m}{M}$ before applying the ideal gas law |
 
 
-## ✏️ 3 Solved PYQs
+## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 Q: What is the value of $\Delta E$ for the electron transitioning from $n=3$ to $n=2$ in a hydrogen atom? (Given: $R_H = 1.097 \times 10^7$ m$^{-1}$). 
  Trap in this question: Forgetting to use the correct formula for $\Delta E$ and the value of $R_H$.
@@ -116,7 +133,7 @@ Q: What is the value of $\Delta E$ for the electron transitioning from $n=3$ to 
 | 3 | The radius of the $n^{th}$ orbit of hydrogen atom is $r_n$. The radius of the $n^{th}$ orbit of $He^+$ is $r_{He}$ | Forgetting the relationship between the radius of hydrogen and helium | $r_n = \frac{n^2 h^2}{\pi m e^2 Z}$ | $r_n = 2 \times r_{He}$ |
 
 
-## 🧠 The One Thing Most Students Get Wrong
+## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 Most students struggle to understand the concept of atomic radius and how it relates to the size of an atom. The key concept that separates 85% scorers from 95% scorers is the distinction between $r_{\text{covalent}}$ and $r_{\text{van der Waals}}$. The covalent radius $r_{\text{covalent}}$ is the distance between the nucleus of an atom and the point where the electron cloud of a covalently bonded atom meets the electron cloud of another atom. On the other hand, the van der Waals radius $r_{\text{van der Waals}}$ is the distance between the nucleus of an atom and the point of contact with another atom that is not covalently bonded. This distinction is crucial in understanding the size of an atom and its interactions with other atoms, and is often a point of confusion for many students.
 
@@ -127,7 +144,7 @@ Most students struggle to understand the concept of atomic radius and how it rel
 | $r_{\text{van der Waals}}$ | Distance between nucleus and non-covalently bonded atom |
 
 
-## 👁️ Ayush's Note
+## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
 For JEE/NEET, Atoms questions often follow a pattern where $\Delta E = \frac{hc}{\lambda}$ is used to calculate energy transitions. Notice that when given electron jump from n = 1 to n = 3, the energy absorbed is $\Delta E_{13} = 12.09 \times 10^{-19} J$. However, when calculating energy for $n^{th}$ orbit using $E_n = \frac{-13.6}{n^2} eV$, remember to convert eV to Joules for consistency, as 1 eV = $1.602 \times 10^{-19} J$. Furthermore, when solving problems related to atoms, particularly for atomic spectra, utilize the formula $\frac{1}{\lambda} = R \times (\frac{1}{n_l^2} - \frac{1}{n_h^2})$ where $R = 1.097 \times 10^7 m^{-1}$, $n_l$ is lower energy level, and $n_h$ is higher energy level. This formula is especially useful for calculating wavelengths in the Lyman, Balmer, and Paschen series.
 
@@ -139,7 +156,7 @@ For JEE/NEET, Atoms questions often follow a pattern where $\Delta E = \frac{hc}
 | Paschen | 750 nm - 1400 nm | n = 3 to n = 4, 5, 6, ... |
 
 
-## 🔁 Last 5 Minutes Box
+## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 Formulas:
  * $E = -\frac{13.6}{n^2}$ eV (energy of electron)
@@ -161,7 +178,7 @@ Formulas:
 |  |
 
 
-## 📝 Practice MCQs
+## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 
 **1. What is the smallest unit of matter that still retains the properties of an element?**
@@ -212,14 +229,14 @@ f-orbital
 
 ---
 
-### 🚀 Ready to Ace Your Exam?
+### <a id="-ready-to-ace-your-exam"></a>🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Atoms Full Mock Test**](/class-11/physics/atoms-class-12-notes) now and track your progress against thousands of students.
 
 
 
 ---
 
-## 📚 Related Topics
+## <a id="-related-topics"></a>📚 Related Topics
 
 Continue your revision with these related guides:
 
@@ -227,3 +244,12 @@ Continue your revision with these related guides:
 - 📖 [Dual Nature of Radiation Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/dual-nature-of-radiation-class-12-notes)
 - 📖 [Nuclei Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/nuclei-class-12-notes)
 - 📖 [Semiconductor Electronics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/semiconductor-electronics-class-12-notes)
+
+
+---
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/atoms-class-12-notes) now and track your progress against thousands of students.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

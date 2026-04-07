@@ -1,20 +1,49 @@
 ---
 heroImage: "/blog-images/aldehydes-ketones-and-carboxylic-acids-class-12-notes.webp"
 title: "Aldehydes, Ketones and Carboxylic Acids Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "The ultimate Aldehydes, Ketones and Carboxylic Acids revision resource for Chemistry students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
-category: "Chemistry"
-keywords: "Aldehydes, Ketones and Carboxylic Acids class 12 notes, Aldehydes, Ketones and Carboxylic Acids quick revision, Aldehydes, Ketones and Carboxylic Acids 2026, Aldehydes, Ketones and Carboxylic Acids JEE 2026, Aldehydes, Ketones and Carboxylic Acids NEET 2026, Aldehydes, Ketones and Carboxylic Acids notes for JEE, Aldehydes, Ketones and Carboxylic Acids notes for NEET, class 12 Chemistry revision, Aldehydes, Ketones and Carboxylic Acids formula sheet, Aldehydes, Ketones and Carboxylic Acids MCQs"
+description: "Aldehydes, Ketones and Carboxylic Acids Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-30."
+category: "Revision"
 date: "2026-03-30"
 practice_link: "/class-11/chemistry/aldehydes-ketones-and-carboxylic-acids-class-12-notes"
 ---
+
 
 ![Aldehydes, Ketones and Carboxylic Acids Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/aldehydes-ketones-and-carboxylic-acids-class-12-notes.webp)
 
 *Last Updated: 2026-03-30*
 
+
+
+
 ## 📋 Table of Contents
 
- - [🌟 Nucleophilic Addition Reactions](#-nucleophilic-addition-reactions)
+  - [🌟 Nucleophilic Addition Reactions](#-nucleophilic-addition-reactions)
+  - [⬇ Reduction Reactions](#-reduction-reactions)
+  - [⬆ Oxidation Reactions](#-oxidation-reactions)
+  - [🌈 Aldol Condensation](#-aldol-condensation)
+  - [🌟 Cannizzaro Reaction](#-cannizzaro-reaction)
+  - [💡 Haloform Reaction](#-haloform-reaction)
+  - [🌈 Reactions with $${NH_2OH}$$, $${NH_2NH_2}$$, and $${H_2N-NH_2}$$](#-reactions-with-nh_2oh-nh_2nh_2-and-h_2nnh_2)
+  - [⬇ Reduction of Carboxylic Acids to Aldehydes](#-reduction-of-carboxylic-acids-to-aldehydes)
+  - [🌟 Carboxylic Acid Reactions with $${SOCl_2}$$, $${P_2O_5}$$, and $${P_4O_10}$$](#-carboxylic-acid-reactions-with-socl_2-p_2o_5-and-p_4o_10)
+  - [💧 Hydrolysis and Esterification of Carboxylic Acids](#-hydrolysis-and-esterification-of-carboxylic-acids)
+  - [🌟 Introduction to Aldehydes, Ketones, and Carboxylic Acids](#-introduction-to-aldehydes-ketones-and-carboxylic-acids)
+  - [🌈 Properties of Aldehydes and Ketones](#-properties-of-aldehydes-and-ketones)
+- [🪤 The 5 Trap Mistakes](#-the-5-trap-mistakes)
+  - [⬇ Reduction Reactions of Aldehydes and Ketones](#-reduction-reactions-of-aldehydes-and-ketones)
+  - [🌈 Oxidation Reactions of Aldehydes and Ketones](#-oxidation-reactions-of-aldehydes-and-ketones)
+  - [🌟 Carboxylic Acid Reactions](#-carboxylic-acid-reactions)
+  - [🌈 Ring-Chain Tautomerism](#-ringchain-tautomerism)
+  - [🌟 Conclusion and Final Thoughts](#-conclusion-and-final-thoughts)
+  - [📝 Master the Test Center — Step-by-Step Learning](#-master-the-test-center-stepbystep-learning)
+  - [📊 Why Use the Test Center?](#-why-use-the-test-center)
+  - [📝 Daily Practice and Revision](#-daily-practice-and-revision)
+- [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
+  - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
+- [📚 Related Topics](#-related-topics)
+
+
+- [🌟 Nucleophilic Addition Reactions](#-nucleophilic-addition-reactions)
  - [⬇ Reduction Reactions](#-reduction-reactions)
  - [⬆ Oxidation Reactions](#-oxidation-reactions)
  - [🌈 Aldol Condensation](#-aldol-condensation)
@@ -26,7 +55,7 @@ practice_link: "/class-11/chemistry/aldehydes-ketones-and-carboxylic-acids-class
  - [💧 Hydrolysis and Esterification of Carboxylic Acids](#-hydrolysis-and-esterification-of-carboxylic-acids)
  - [🌟 Introduction to Aldehydes, Ketones, and Carboxylic Acids](#-introduction-to-aldehydes-ketones-and-carboxylic-acids)
  - [🌈 Properties of Aldehydes and Ketones](#-properties-of-aldehydes-and-ketones)
-- [🪤 The 5 Trap Mistakes](#-the-5-trap-mistakes)
+
  - [⬇ Reduction Reactions of Aldehydes and Ketones](#-reduction-reactions-of-aldehydes-and-ketones)
  - [🌈 Oxidation Reactions of Aldehydes and Ketones](#-oxidation-reactions-of-aldehydes-and-ketones)
  - [🌟 Carboxylic Acid Reactions](#-carboxylic-acid-reactions)
@@ -35,7 +64,6 @@ practice_link: "/class-11/chemistry/aldehydes-ketones-and-carboxylic-acids-class
  - [📝 Master the Test Center — Step-by-Step Learning](#-master-the-test-center-stepbystep-learning)
  - [📊 Why Use the Test Center?](#-why-use-the-test-center)
  - [📝 Daily Practice and Revision](#-daily-practice-and-revision)
-- [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
 
 ### <a id="-nucleophilic-addition-reactions"></a>🌟 Nucleophilic Addition Reactions
 - Nucleophilic addition reactions are a crucial aspect of aldehyde and ketone chemistry
@@ -294,7 +322,7 @@ By taking a few minutes each day to review and reflect, you can reinforce your l
 
 ---
 
-### 🚀 Ready to Ace Your Exam?
+### <a id="-ready-to-ace-your-exam"></a>🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/aldehydes-ketones-and-carboxylic-acids-class-12-notes) now and track your progress against thousands of students.
 
 ---
@@ -303,7 +331,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 
-## 📚 Related Topics
+## <a id="-related-topics"></a>📚 Related Topics
 
 Continue your revision with these related guides:
 
@@ -311,3 +339,12 @@ Continue your revision with these related guides:
 - 📖 [Metallurgy Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/metallurgy-class-12-notes)
 - 📖 [Solid State Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/solid-state-class-12-notes)
 - 📖 [Surface Chemistry Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/surface-chemistry-class-12-notes)
+
+
+---
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/aldehydes-ketones-and-carboxylic-acids-class-12-notes) now and track your progress against thousands of students.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

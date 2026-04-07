@@ -1,18 +1,35 @@
 ---
 heroImage: "/blog-images/chemical-kinetics-class-12-notes.webp"
 title: "Chemical Kinetics Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Accelerate your Chemistry revision with our Chemical Kinetics guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
-category: "Chemistry"
-keywords: "Chemical Kinetics class 12 notes, Chemical Kinetics quick revision, Chemical Kinetics 2026, Chemical Kinetics JEE 2026, Chemical Kinetics NEET 2026, Chemical Kinetics notes for JEE, Chemical Kinetics notes for NEET, class 12 Chemistry revision, Chemical Kinetics formula sheet, Chemical Kinetics MCQs"
+description: "Chemical Kinetics Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-29."
+category: "Revision"
 date: "2026-03-29"
 practice_link: "/class-11/chemistry/chemical-kinetics-class-12-notes"
 ---
 
-![Chemical Kinetics revision guide](/blog-images/chemical-kinetics-class-12-notes.webp)
+
+![Chemical Kinetics Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/chemical-kinetics-class-12-notes.webp)
 
 *Last Updated: 2026-03-29*
 
-## 🎯 What WILL Come in Your Exam
+
+
+
+## 📋 Table of Contents
+
+- [🎯 What WILL Come in Your Exam](#-what-will-come-in-your-exam)
+- [⚡ Formula Bank](#-formula-bank)
+- [⬤ The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
+- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
+- [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
+- [👁️ Ayush's Note](#-ayushs-note)
+- [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
+- [📝 Practice MCQs](#-practice-mcqs)
+  - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
+- [📚 Related Topics](#-related-topics)
+
+
+## <a id="-what-will-come-in-your-exam"></a>🎯 What WILL Come in Your Exam
 * 1 numerical on rate law expression — always, focusing on $\\frac{dx}{dt} = k[A]^m[B]^n$ 
 * Graph of first-order reaction — JEE favourite, with $t_{1/2} = \\frac{0.693}{k}$ 
 * 1 question on Arrhenius equation — always, with $k = Ae^{\\frac{-E_a}{RT}}$ 
@@ -24,7 +41,7 @@ practice_link: "/class-11/chemistry/chemical-kinetics-class-12-notes"
 * Half-life of first-order reaction — JEE/NEET favourite, with $t_{1/2} = \\frac{0.693}{k}$ and $t_{1/2} = \\frac{0.693}{k} = \\frac{0.693}{Ae^{\\frac{-E_a}{RT}}}$
 
 
-## ⚡ Formula Bank
+## <a id="-formula-bank"></a>⚡ Formula Bank
 
 
 
@@ -38,7 +55,7 @@ practice_link: "/class-11/chemistry/chemical-kinetics-class-12-notes"
 | $$x = [A]_0 \	imes (1 - e^{-kt})$$ | x: concentration at time t, [A]_0: initial concentration, k: rate constant, t: time |
 
 
-## ⬤ The 5 Mistakes That Cost Marks
+## <a id="-the-5-mistakes-that-cost-marks"></a>⬤ The 5 Mistakes That Cost Marks
 
 To maximize scores in Chemical Kinetics, avoid these common errors:
 
@@ -52,7 +69,7 @@ To maximize scores in Chemical Kinetics, avoid these common errors:
 | Using $\Delta G = \Delta H - T\Delta S$ without considering the temperature at which $\Delta G$ is being calculated | 3-4 marks | Specify the temperature when using $\Delta G = \Delta H - T\Delta S$ for kinetics problems |
 
 
-## ✏️ 3 Solved PYQs
+## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 Q: For a reaction $2A + B \rightarrow 3C$, the rate of reaction is given by $\frac{-d[A]}{2dt} = \frac{-d[B]}{dt} = \frac{d[C]}{3dt} = k[A][B]$. If $k = 2.0 \times 10^{-5} mol^{-1}Ls^{-1}$, $[A]_0 = 2.0 molL^{-1}$ and $[B]_0 = 1.0 molL^{-1}$, then the rate of reaction when $[A] = 0.5 molL^{-1}$ is: 
  Trap in this question: Students often forget to apply the given rate equation and instead try to use the integrated rate equations directly. 
@@ -161,7 +178,7 @@ Q: For a reaction $2A + B \rightarrow 3C$, the rate of reaction is given by $\fr
 | 2017 | The rate of a certain reaction is given by $\frac{dx}{dt} = k(4.0 - x)^2$, where $x$ is the amount of reactant consumed at time $t$. If $k = 2.0 \times 10^{-3} mol^{-2}L^2s^{-1}$ and $x = 2.0$ after $5.0$ minutes, then the initial amount of the reactant is:  | $4.0$ mol |
 
 
-## 🧠 The One Thing Most Students Get Wrong
+## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 The one thing that separates 85% scorers from 95% scorers in Chemical Kinetics is the understanding of the $\frac{d[A]}{dt}$ vs $\frac{d[B]}{dt}$ in a reaction mechanism, specifically for reactions involving multiple steps. Most students fail to recognize that the rate of disappearance of reactants is not always equal to the rate of appearance of products, due to the presence of intermediates. For instance, in the reaction $A \rightarrow B \rightarrow C$, the rate of disappearance of $A$ ($\frac{d[A]}{dt}$) is not equal to the rate of appearance of $C$ ($\frac{d[C]}{dt}$) because $B$ is an intermediate. This concept is crucial in solving complex kinetics problems and is often overlooked by students, leading to incorrect calculations of rate constants and reaction orders.
 
@@ -173,7 +190,7 @@ The one thing that separates 85% scorers from 95% scorers in Chemical Kinetics i
 | Rate Constants and Reaction Orders | Often miscalculates | Accurately calculates, considering the role of intermediates |
 
 
-## 👁️ Ayush's Note
+## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
 For Chemical Kinetics, focus on the pattern of $\frac{1}{t}$ vs $\frac{1}{[A]}$ for first-order reactions and $\frac{1}{[A]^2}$ vs $t$ for second-order reactions. The key formula is $t_{1/2} = \frac{0.693}{k}$ for first-order reactions. Also, remember that for a zero-order reaction, the half-life is $t_{1/2} = \frac{[A]_0}{2k}$. For integrated rate laws, the equation $[A] = [A]_0 e^{-kt}$ is crucial for first-order reactions. For second-order reactions, $\frac{1}{[A]} = \frac{1}{[A]_0} + kt$ is the key. For determining the order of reaction, use $x = \log\frac{k_2}{k_1}$, where $x$ is the order and $k_1$ and $k_2$ are rate constants at different temperatures. The Arrhenius equation $k = Ae^{\frac{-E_a}{RT}}$ helps in calculating the activation energy $E_a$.
 
@@ -185,7 +202,7 @@ For Chemical Kinetics, focus on the pattern of $\frac{1}{t}$ vs $\frac{1}{[A]}$ 
 | Zero-order | $\frac{d[A]}{dt} = -k$ | $[A] = [A]_0 - kt$ | $t_{1/2} = \frac{[A]_0}{2k}$ |
 
 
-## 🔁 Last 5 Minutes Box
+## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 Chemical Kinetics key points: 
  * $k = Ae^{-\frac{E_a}{RT}}$ (Arrhenius equation)
@@ -207,7 +224,7 @@ Chemical Kinetics key points:
 |  |
 
 
-## 📝 Practice MCQs
+## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 
 **1. What is the unit of rate constant for a first-order reaction?**
@@ -258,14 +275,14 @@ It speeds up the reverse reaction more than the forward reaction
 
 ---
 
-### 🚀 Ready to Ace Your Exam?
+### <a id="-ready-to-ace-your-exam"></a>🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Chemical Kinetics Full Mock Test**](/class-11/chemistry/chemical-kinetics-class-12-notes) now and track your progress against thousands of students.
 
 
 
 ---
 
-## 📚 Related Topics
+## <a id="-related-topics"></a>📚 Related Topics
 
 Continue your revision with these related guides:
 
@@ -273,3 +290,12 @@ Continue your revision with these related guides:
 - 📖 [Haloalkanes and Haloarenes Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/haloalkanes-and-haloarenes-class-12-notes)
 - 📖 [Solutions Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/solutions-class-12-notes)
 - 📖 [Atoms Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/atoms-class-12-notes)
+
+
+---
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/chemical-kinetics-class-12-notes) now and track your progress against thousands of students.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

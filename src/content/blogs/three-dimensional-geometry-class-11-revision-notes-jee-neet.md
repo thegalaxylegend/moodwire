@@ -1,23 +1,46 @@
 ---
-title: "Three Dimensional Geometry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Accelerate your Physics revision with our Three Dimensional Geometry guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
-category: "Physics"
-keywords: "three dimensional geometry class 11 revision notes jee neet, Physics, Exam Compass"
-date: "2026-03-28"
 heroImage: "/blog-images/three-dimensional-geometry-class-11-revision-notes-jee-neet.webp"
+title: "Three Dimensional Geometry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
+description: "Three Dimensional Geometry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+category: "Revision"
+date: "2026-03-28"
+practice_link: "/class-11/physics/three-dimensional-geometry-class-11-revision-notes-jee-neet"
 ---
+
+
+![Three Dimensional Geometry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/three-dimensional-geometry-class-11-revision-notes-jee-neet.webp)
+
+*Last Updated: 2026-03-28*
+
+
+
+
+## 📋 Table of Contents
+
+- [What is Three Dimensional Geometry Revision Notes?](#what-is-three-dimensional-geometry-revision-notes)
+- [Introduction](#introduction)
+- [1. Coordinate Planes and Axes in 3D](#1-coordinate-planes-and-axes-in-3d)
+- [2. Coordinates of a Point and Octants](#2-coordinates-of-a-point-and-octants)
+- [3. Distance Formula in 3D](#3-distance-formula-in-3d)
+- [4. Section Formula](#4-section-formula)
+- [5. Centroid of a Triangle](#5-centroid-of-a-triangle)
+- [Comprehensive Exam Strategy (Q&A)](#comprehensive-exam-strategy-qanda)
+- [Related Revision Notes](#related-revision-notes)
+- [Conclusion](#conclusion)
+- [📚 Related Topics](#-related-topics)
+
 
 # Three Dimensional Geometry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Hero Image](/blog-images/three-dimensional-geometry-class-11-revision-notes-jee-neet.webp)
 
-*Last Updated: 2026-03-22*
 
-## What is Three Dimensional Geometry Revision Notes?
+
+
+## <a id="what-is-three-dimensional-geometry-revision-notes"></a>What is Three Dimensional Geometry Revision Notes?
 
 # Three Dimensional Geometry Revision Notes
 
-![Navigating the 3D Cartesian Coordinate System](/blog-images/three-dimensional-geometry-revision.webp)
+
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -31,7 +54,7 @@ heroImage: "/blog-images/three-dimensional-geometry-class-11-revision-notes-jee-
 ---
 
 
-## Introduction
+## <a id="introduction"></a>Introduction
 
 **Three Dimensional Geometry extends the Cartesian coordinate system into space, providing the foundation for engineering, flight navigation, and Vector Algebra. Master the Eight Octants, the 3D distance formula, and section formulas to excel in spatial modeling and advanced physics. This Class 11 Math Chapter 12 summary provides all essential formulas for JEE and Board exam success.**
 The transition from 2D to 3D geometry is like going from a flat map to the real world.
@@ -41,7 +64,7 @@ The transition from 2D to 3D geometry is like going from a flat map to the real 
 
 
 
-## 1. Coordinate Planes and Axes in 3D
+## <a id="1-coordinate-planes-and-axes-in-3d"></a>1. Coordinate Planes and Axes in 3D
 
 In three dimensions, we use three mutually perpendicular [lines](/blog/straight-lines-class-11-revision-notes-jee-neet) passing through the origin: the X, Y, and Z axes.
 *   **Coordinate Planes:**
@@ -54,7 +77,7 @@ In three dimensions, we use three mutually perpendicular [lines](/blog/straight-
 
 
 
-## 2. Coordinates of a Point and Octants
+## <a id="2-coordinates-of-a-point-and-octants"></a>2. Coordinates of a Point and Octants
 
 A point P in space is represented by (x, y, z). These axes divide the space into **8 octants**.
 *   **Sign Convention for Octants:**
@@ -72,7 +95,7 @@ A point P in space is represented by (x, y, z). These axes divide the space into
 
 
 
-## 3. Distance Formula in 3D
+## <a id="3-distance-formula-in-3d"></a>3. Distance Formula in 3D
 
 The distance between two points P₁(x₁, y₁, z₁) and P₂(x₂, y₂, z₂) is given by:
 **d = √[(x₂ - x₁)² + (y₂ - y₁)² + (z₂ - z₁)²]**
@@ -83,7 +106,7 @@ This formula is an extension of the Pythagorean theorem into three dimensions.
 
 
 
-## 4. Section Formula
+## <a id="4-section-formula"></a>4. Section Formula
 
 If a point R divides the line segment joining P(x₁, y₁, z₁) and Q(x₂, y₂, z₂) in the ratio **m : n**:
 1.  **Internal Division:**
@@ -98,7 +121,7 @@ If a point R divides the line segment joining P(x₁, y₁, z₁) and Q(x₂, y�
 
 
 
-## 5. Centroid of a Triangle
+## <a id="5-centroid-of-a-triangle"></a>5. Centroid of a Triangle
 
 The centroid of a triangle with vertices (x₁, y₁, z₁), (x₂, y₂, z₂), and (x₃, y₃, z₃) is:
 **G = [(x₁ + x₂ + x₃) / 3, (y₁ + y₂ + y₃) / 3, (z₁ + z₃ + z₃) / 3]**
@@ -108,7 +131,7 @@ The centroid of a triangle with vertices (x₁, y₁, z₁), (x₂, y₂, z₂),
 
 
 
-## Comprehensive Exam Strategy (Q&A)
+## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
 **Q1: Name the octant in which the point (-3, 1, -2) lies.**
 **Answer:**
@@ -135,7 +158,7 @@ The centroid of a triangle with vertices (x₁, y₁, z₁), (x₂, y₂, z₂),
 
 
 
-## Related Revision Notes
+## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 11: Conic Sections**
 - **Chapter 13: Limits and Derivatives**
@@ -144,7 +167,7 @@ The centroid of a triangle with vertices (x₁, y₁, z₁), (x₂, y₂, z₂),
 
 
 
-## Conclusion
+## <a id="conclusion"></a>Conclusion
 
 3D Geometry is the gateway to understanding spatial relationships. By mastering the octant signs and adapting the distance and section formulas from 2D to 3D, you build the mental framework required for advanced physics and engineering. Always visualize the point relative to the coordinate planes, and remember that x, y, or z being zero tells you exactly which plane you're on! Keep your spatial orientation clear.
 
@@ -165,7 +188,7 @@ The centroid of a triangle with vertices (x₁, y₁, z₁), (x₂, y₂, z₂),
 
 ---
 
-## 📚 Related Topics
+## <a id="-related-topics"></a>📚 Related Topics
 
 Continue your revision with these related guides:
 
@@ -173,3 +196,12 @@ Continue your revision with these related guides:
 - 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
 - 📖 [Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)
 - 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
+
+
+---
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/three-dimensional-geometry-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

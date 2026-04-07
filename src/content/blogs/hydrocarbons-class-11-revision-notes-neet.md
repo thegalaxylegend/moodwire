@@ -1,27 +1,53 @@
 ---
-title: "Hydrocarbons Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
-description: "Deep dive into Hydrocarbons Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
-category: "Biology"
-keywords: "hydrocarbons class 11 revision notes neet, Biology, Exam Compass"
-date: "2026-03-28"
 heroImage: "/blog-images/hydrocarbons-class-11-revision-notes-neet.webp"
+title: "Hydrocarbons Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
+description: "Hydrocarbons Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+category: "Revision"
+date: "2026-03-28"
+practice_link: "/class-11/biology/hydrocarbons-class-11-revision-notes-neet"
 ---
+
+
+![Hydrocarbons Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog-images/hydrocarbons-class-11-revision-notes-neet.webp)
+
+*Last Updated: 2026-03-28*
+
+
+
+
+## 📋 Table of Contents
+
+- [What is Hydrocarbons?](#what-is-hydrocarbons)
+- [Introduction to Hydrocarbons](#introduction-to-hydrocarbons)
+- [Why Hydrocarbons Matter](#why-hydrocarbons-matter)
+- [Ayush's Note](#ayushs-note)
+- [Core Concepts](#core-concepts)
+  - [Alkanes](#alkanes)
+  - [Alkenes](#alkenes)
+  - [Alkynes](#alkynes)
+  - [Aromatic Hydrocarbons](#aromatic-hydrocarbons)
+- [Shortcut Formula/Trick](#shortcut-formulatrick)
+- [Trap Questions/Exceptions](#trap-questionsexceptions)
+- [Practice MCQs](#practice-mcqs)
+- [Related Notes Links](#related-notes-links)
+- [📚 Related Topics](#-related-topics)
+
 
 # Hydrocarbons Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
-![Hero Image](/blog-images/hydrocarbons-class-11-revision-notes-neet.webp)
 
-*Last Updated: 2026-03-22*
 
-## What is Hydrocarbons?
+
+
+## <a id="what-is-hydrocarbons"></a>What is Hydrocarbons?
 
 # Hydrocarbons Class 11 Notes
 
-![Hydrocarbons Class 11 Notes Notes](/blog-images/hydrocarbons-class-11-notes.webp)
+
 Last Updated: March 15, 2026
 
 
-## Table of Contents
+
 
 1. [Introduction to Hydrocarbons](#introduction-to-hydrocarbons)
 2. [Why Hydrocarbons Matter](#why-hydrocarbons-matter)
@@ -35,21 +61,21 @@ Last Updated: March 15, 2026
 
 
 
-## Introduction to Hydrocarbons
+## <a id="introduction-to-hydrocarbons"></a>Introduction to Hydrocarbons
 
 Hydrocarbons are organic compounds that consist only of hydrogen and carbon atoms. Hydrocarbons can be classified into two main categories: aliphatic and aromatic. Aliphatic hydrocarbons can be further divided into saturated (alkanes) and unsaturated (alkenes and alkynes) hydrocarbons. Aromatic hydrocarbons, on the other hand, contain a benzene ring.
 
 
 
 
-## Why Hydrocarbons Matter
+## <a id="why-hydrocarbons-matter"></a>Why Hydrocarbons Matter
 
 Hydrocarbons are an essential topic in organic chemistry, and understanding them is crucial for students preparing for JEE and NEET exams. In the 2026 JEE Mains Session 1, 4 questions came from this topic. Hydrocarbons are also relevant in various industries, such as petroleum and pharmaceuticals.
 
 
 
 
-## Ayush's Note
+## <a id="ayushs-note"></a>Ayush's Note
 
 <div class="callout-box">
 I still remember when I was preparing for my JEE exams, I used to get confused between alkanes, alkenes, and alkynes. One mistake I made was not being able to distinguish between the general formula of alkanes (CnH2n+2) and alkenes (CnH2n). However, I realized that understanding the general formula and the structural differences between these compounds is crucial. I made a cheat sheet with the general formulas and structures of different hydrocarbons, which helped me to quickly identify and solve problems.
@@ -58,24 +84,24 @@ I still remember when I was preparing for my JEE exams, I used to get confused b
 
 
 
-## Core Concepts
+## <a id="core-concepts"></a>Core Concepts
 
-### Alkanes
+### <a id="alkanes"></a>Alkanes
 Alkanes are saturated hydrocarbons with the general formula CnH2n+2. They can be further divided into two categories: linear and branched alkanes.
 
-### Alkenes
+### <a id="alkenes"></a>Alkenes
 Alkenes are unsaturated hydrocarbons with the general formula CnH2n. They contain at least one double bond between two carbon atoms.
 
-### Alkynes
+### <a id="alkynes"></a>Alkynes
 Alkynes are unsaturated hydrocarbons with the general formula CnH2n-2. They contain at least one triple bond between two carbon atoms.
 
-### Aromatic Hydrocarbons
+### <a id="aromatic-hydrocarbons"></a>Aromatic Hydrocarbons
 Aromatic hydrocarbons contain a benzene ring, which is a planar, ring-shaped molecule with six carbon atoms. The general formula for benzene is C6H6.
 
 
 
 
-## Shortcut Formula/Trick
+## <a id="shortcut-formulatrick"></a>Shortcut Formula/Trick
 
 To quickly identify the type of hydrocarbon, you can use the following trick:
 - If the general formula is CnH2n+2, it's an alkane.
@@ -85,7 +111,7 @@ To quickly identify the type of hydrocarbon, you can use the following trick:
 
 
 
-## Trap Questions/Exceptions
+## <a id="trap-questionsexceptions"></a>Trap Questions/Exceptions
 
 - Wrong answer: Alkanes are unsaturated hydrocarbons.
 - Right answer: Alkanes are saturated hydrocarbons.
@@ -97,7 +123,7 @@ To quickly identify the type of hydrocarbon, you can use the following trick:
 
 
 
-## Practice MCQs
+## <a id="practice-mcqs"></a>Practice MCQs
 
 1. What is the general formula for alkanes?
 a) CnH2n
@@ -142,7 +168,7 @@ Answer: c) Ethyne
 
 
 
-## Related Notes Links
+## <a id="related-notes-links"></a>Related Notes Links
 
 - Alkyl Halides Class 11 Notes
 - Alcohols Class 11 Notes
@@ -162,7 +188,7 @@ Answer: c) Ethyne
 
 ---
 
-## 📚 Related Topics
+## <a id="-related-topics"></a>📚 Related Topics
 
 Continue your revision with these related guides:
 
@@ -170,3 +196,12 @@ Continue your revision with these related guides:
 - 📖 [Redox Reactions Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/redox-reactions-class-11-revision-notes-neet)
 - 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Hydrogen Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/hydrogen-class-11-revision-notes-neet)
+
+
+---
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/hydrocarbons-class-11-revision-notes-neet) now and track your progress against thousands of students.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

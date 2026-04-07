@@ -1,30 +1,58 @@
 ---
-title: "Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Master Ray Optics for Physics 2026. This Grandmaster Guide includes Ayush"
-category: "Physics"
-keywords: "ray optics class 12 quick class 12 revision notes jee neet, Physics, Exam Compass"
-date: "2026-03-28"
 heroImage: "/blog-images/ray-optics-class-12-quick-class-12-revision-notes-jee-neet.webp"
+title: "Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
+description: "Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+category: "Revision"
+date: "2026-03-28"
+practice_link: "/class-11/physics/ray-optics-class-12-quick-class-12-revision-notes-jee-neet"
 ---
+
+
+![Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/ray-optics-class-12-quick-class-12-revision-notes-jee-neet.webp)
+
+*Last Updated: 2026-03-28*
+
+
+
+
+## 📋 Table of Contents
+
+- [What is Ray Optics Class 12 Quick Revision Notes?](#what-is-ray-optics-class-12-quick-revision-notes)
+- [Quick Revision & Recap: Ray Optics](#quick-revision-and-recap-ray-optics)
+- [Ayush's Personal Note](#ayushs-personal-note)
+- [JEE/NEET Data](#jeeneet-data)
+- [Core Concepts](#core-concepts)
+  - [Reflection](#reflection)
+  - [Refraction](#refraction)
+  - [Lenses](#lenses)
+- [Formulae Tables](#formulae-tables)
+  - [Reflection](#reflection)
+- [Trap Exceptions](#trap-exceptions)
+  - [Examples](#examples)
+  - [Derivations](#derivations)
+  - [Diagrams](#diagrams)
+  - [LaTeX Examples](#latex-examples)
+- [📚 Related Topics](#-related-topics)
+
 
 # Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Hero Image](/blog-images/ray-optics-class-12-quick-class-12-revision-notes-jee-neet.webp)
-
-*Last Updated: 2026-03-22*
-
-## What is Ray Optics Class 12 Quick Revision Notes?
 
 
 
-![Ray Optics notes for students](/blog-images/ray-optics-class-12-quick-revision-notes.webp)
 
-*Last Updated: March 14, 2026*
+## <a id="what-is-ray-optics-class-12-quick-revision-notes"></a>What is Ray Optics Class 12 Quick Revision Notes?
 
 
-## Quick Revision & Recap: Ray Optics
 
-### Quick Recall Box
+
+
+
+
+
+## <a id="quick-revision-and-recap-ray-optics"></a>Quick Revision & Recap: Ray Optics
+
+
 - **Reflection**: Change in direction of light at a surface that causes it to bounce back.
 - **Refraction**: Bending of light as it passes from one medium to another.
 - **Total Internal Reflection**: A phenomenon where light is completely reflected back into the first medium.
@@ -36,14 +64,14 @@ As I, Ayush, prepare for my JEE/NEET exams, I find it crucial to have a solid gr
 
 
 
-## Ayush's Personal Note
+## <a id="ayushs-personal-note"></a>Ayush's Personal Note
 
 I've found that understanding the basics of reflection, refraction, and total internal reflection is key to solving problems in ray optics. Practicing with MCQs and remembering the formulae tables has been incredibly helpful for me. Don't forget to review the **Trap Exceptions** section for those tricky questions that often appear in exams.
 
 
 
 
-## JEE/NEET Data
+## <a id="jeeneet-data"></a>JEE/NEET Data
 
 - **Reflection and Refraction**: 1-2 questions in JEE Main, 1 question in JEE Advanced, and 1-2 questions in NEET.
 - **Mirrors and Lenses**: 2-3 questions in JEE Main, 1-2 questions in JEE Advanced, and 2-3 questions in NEET.
@@ -52,28 +80,28 @@ I've found that understanding the basics of reflection, refraction, and total in
 
 
 
-## Core Concepts
+## <a id="core-concepts"></a>Core Concepts
 
-### Reflection
+### <a id="reflection"></a>Reflection
 - **Law of Reflection**: The angle of incidence is equal to the angle of reflection.
 - **Types of Mirrors**: Plane mirror, concave mirror, convex mirror.
 - **Mirror Formula**: $\frac{1}{v} + \frac{1}{u} = \frac{1}{f}$.
 
-### Refraction
+### <a id="refraction"></a>Refraction
 - **Snell's Law**: $n_1 \sin \theta_1 = n_2 \sin \theta_2$.
 - **Total Internal Reflection**: $\theta_1 > \theta_c$, where $\theta_c$ is the critical angle.
 - **Refraction through a Prism**: $\delta = i + e - A$, where $\delta$ is the angle of deviation, $i$ is the angle of incidence, $e$ is the angle of emergence, and $A$ is the angle of the prism.
 
-### Lenses
+### <a id="lenses"></a>Lenses
 - **Lens Maker's Formula**: $\frac{1}{f} = (n-1) \left( \frac{1}{R_1} - \frac{1}{R_2} \right)$, where $f$ is the focal length, $n$ is the refractive index, and $R_1$ and $R_2$ are the radii of curvature.
 - **Lens Formula**: $\frac{1}{v} - \frac{1}{u} = \frac{1}{f}$.
 
 
 
 
-## Formulae Tables
+## <a id="formulae-tables"></a>Formulae Tables
 
-### Reflection
+### <a id="reflection"></a>Reflection
 
 
 | Formula | Description |
@@ -93,7 +121,7 @@ I've found that understanding the basics of reflection, refraction, and total in
 | $m = -\frac{v}{u}$ | Magnification |
 
 
-## Trap Exceptions
+## <a id="trap-exceptions"></a>Trap Exceptions
 
 - **Total Internal Reflection**: When $\theta_1 > \theta_c$, light is completely reflected back into the first medium.
 - **Critical Angle**: $\theta_c = \sin^{-1} \left( \frac{n_2}{n_1} \right)$, where $n_1$ and $n_2$ are the refractive indices of the two media.
@@ -103,11 +131,11 @@ By focusing on these key concepts, formulae, and practice questions, I'm confide
 
 To further reinforce our understanding, let's consider some examples and derivations of the formulae.
 
-### Examples
+### <a id="examples"></a>Examples
 1. A ray of light passes from air into a glass prism with an angle of incidence of $30^\circ$. If the refractive index of the glass is $1.5$, find the angle of refraction.
 2. A concave mirror has a focal length of $20$ cm. If an object is placed $30$ cm in front of the mirror, find the image distance and magnification.
 
-### Derivations
+### <a id="derivations"></a>Derivations
 1. **Snell's Law**: $n_1 \sin \theta_1 = n_2 \sin \theta_2$
 2. **Lens Maker's Formula**: $\frac{1}{f} = (n-1) \left( \frac{1}{R_1} - \frac{1}{R_2} \right)$
 
@@ -136,7 +164,7 @@ By reviewing these key points and practicing with MCQs, we can reinforce our und
 
 To further illustrate the [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet), let's consider some diagrams and illustrations.
 
-### Diagrams
+### <a id="diagrams"></a>Diagrams
 1. **Reflection**: A diagram showing the reflection of light at a surface.
 2. **Refraction**: A diagram showing the refraction of light as it passes from one medium to another.
 3. **Total Internal Reflection**: A diagram showing the total internal reflection of light at a surface.
@@ -155,7 +183,7 @@ By utilizing these resources and staying committed to your studies, you can achi
 
 Now, let's review some of the key concepts and formulae using LaTeX:
 
-### LaTeX Examples
+### <a id="latex-examples"></a>LaTeX Examples
 1. **Snell's Law**: $n_1 \sin \theta_1 = n_2 \sin \theta_2$
 2. **Lens Maker's Formula**: $\frac{1}{f} = (n-1) \left( \frac{1}{R_1} - \frac{1}{R_2} \right)$
 3. **Mirror Formula**: $\frac{1}{v} + \frac{1}{u} = \frac{1}{f}$
@@ -191,7 +219,7 @@ Now, go ahead and take the next step in your journey to mastering ray optics. St
 
 ---
 
-## 📚 Related Topics
+## <a id="-related-topics"></a>📚 Related Topics
 
 Continue your revision with these related guides:
 
@@ -199,3 +227,12 @@ Continue your revision with these related guides:
 - 📖 [Some Basic Concepts Of Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet)
 - 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
 - 📖 [Art Culture Architecture Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/art-culture-architecture-class-11-revision-notes-jee-neet)
+
+
+---
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) now and track your progress against thousands of students.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

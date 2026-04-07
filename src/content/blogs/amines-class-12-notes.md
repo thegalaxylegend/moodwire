@@ -1,16 +1,18 @@
 ---
 heroImage: "/blog-images/amines-class-12-notes.webp"
 title: "Amines Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Master Amines for Chemistry 2026. This Grandmaster Guide includes Ayush's personal revision notes, formula sheets, and top-tier MCQs for final prep."
-category: "Chemistry"
-keywords: "Amines class 12 notes, Amines quick revision, Amines 2026, Amines JEE 2026, Amines NEET 2026, Amines notes for JEE, Amines notes for NEET, class 12 Chemistry revision, Amines formula sheet, Amines MCQs"
+description: "Amines Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-30."
+category: "Revision"
 date: "2026-03-30"
 practice_link: "/class-11/chemistry/amines-class-12-notes"
 ---
 
+
 ![Amines Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/amines-class-12-notes.webp)
 
 *Last Updated: 2026-03-30*
+
+
 
 
 ## 📋 Table of Contents
@@ -28,6 +30,21 @@ practice_link: "/class-11/chemistry/amines-class-12-notes"
   - [10. Conclusion and Final Preparation](#10-conclusion-and-final-preparation)
 - [📝 Master the Test Center — Step-by-Step Learning](#-master-the-test-center-stepbystep-learning)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
+  - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
+- [📚 Related Topics](#-related-topics)
+
+
+- [6. Reactions with Aldehydes and Ketones](#6-reactions-with-aldehydes-and-ketones)
+  - [7. Reactions with Acid Chlorides](#7-reactions-with-acid-chlorides)
+  - [8. Reactions with Isocyanates](#8-reactions-with-isocyanates)
+  - [9. Electrophilic Aromatic Substitution](#9-electrophilic-aromatic-substitution)
+  - [10. Spectroscopy](#10-spectroscopy)
+  - [11. Biochemical Importance](#11-biochemical-importance)
+  - [12. Environmental and Industrial Applications](#12-environmental-and-industrial-applications)
+  - [10. Spectroscopy of Amines (Continued)](#10-spectroscopy-of-amines-continued)
+
+  - [15. Practice Questions and Solutions](#15-practice-questions-and-solutions)
+  - [10. Conclusion and Final Preparation](#10-conclusion-and-final-preparation)
 
 
 ### <a id="6-reactions-with-aldehydes-and-ketones"></a>6. Reactions with Aldehydes and Ketones
@@ -174,7 +191,7 @@ By incorporating the Test Center into your daily study routine and following the
 
 ---
 
-### 🚀 Ready to Ace Your Exam?
+### <a id="-ready-to-ace-your-exam"></a>🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/amines-class-12-notes) now and track your progress against thousands of students.
 
 ---
@@ -183,7 +200,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 
-## 📚 Related Topics
+## <a id="-related-topics"></a>📚 Related Topics
 
 Continue your revision with these related guides:
 
@@ -191,3 +208,12 @@ Continue your revision with these related guides:
 - 📖 [Solid State Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/solid-state-class-12-notes)
 - 📖 [Surface Chemistry Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/surface-chemistry-class-12-notes)
 - 📖 [Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-integrals-class-12-notes)
+
+
+---
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/amines-class-12-notes) now and track your progress against thousands of students.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

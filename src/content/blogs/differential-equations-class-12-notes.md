@@ -1,16 +1,18 @@
 ---
 heroImage: "/blog-images/differential-equations-class-12-notes.webp"
 title: "Differential Equations Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide"
-description: "Learn Differential Equations like a pro. Detailed revision notes, solved examples, and "Trap Questions" that most students miss. Updated for the 2026 syllabus."
-category: "Mathematics"
-keywords: "Differential Equations class 12 notes, Differential Equations quick revision, Differential Equations 2026, Differential Equations JEE 2026, Differential Equations notes for JEE, class 12 Mathematics revision, Differential Equations formula sheet, Differential Equations MCQs"
+description: "Differential Equations Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-01."
+category: "Revision"
 date: "2026-04-01"
 practice_link: "/class-11/mathematics/differential-equations-class-12-notes"
 ---
 
+
 ![Differential Equations Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog-images/differential-equations-class-12-notes.webp)
 
 *Last Updated: 2026-04-01*
+
+
 
 
 ## 📋 Table of Contents
@@ -20,13 +22,26 @@ practice_link: "/class-11/mathematics/differential-equations-class-12-notes"
   - [🌐 Homogeneous Differential Equations](#-homogeneous-differential-equations)
   - [📊 Exact Differential Equations](#-exact-differential-equations)
   - [🚀 Linear Differential Equations of Higher Order](#-linear-differential-equations-of-higher-order)
-  - [📈 Application of Differential Equations](#-[application](/blog/application-of-integrals-class-12-notes)-of-differential-equations)
+  - [📈 Application of Differential Equations](#-application-of-differential-equations)
   - [📊 Numerical Methods](#-numerical-methods)
   - [🚀 Higher-Order Linear Differential Equations](#-higherorder-linear-differential-equations)
 - [🪤 The 5 Trap Mistakes](#-the-5-trap-mistakes)
   - [📝 Master the Test Center — Step-by-Step Learning](#-master-the-test-center-stepbystep-learning)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
+  - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
+- [📚 Related Topics](#-related-topics)
 
+
+- [🔍 Derivation of Formula](#-derivation-of-formula)
+  - [📝 Integrating Factor](#-integrating-factor)
+  - [🌐 Homogeneous Differential Equations](#-homogeneous-differential-equations)
+  - [📊 Exact Differential Equations](#-exact-differential-equations)
+  - [🚀 Linear Differential Equations of Higher Order](#-linear-differential-equations-of-higher-order)
+  - [📈 Application of Differential Equations](#-[application](/blog/application-of-integrals-class-12-notes)-of-differential-equations)
+  - [📊 Numerical Methods](#-numerical-methods)
+  - [🚀 Higher-Order Linear Differential Equations](#-higherorder-linear-differential-equations)
+
+  - [📝 Master the Test Center — Step-by-Step Learning](#-master-the-test-center-stepbystep-learning)
 
 ### <a id="-derivation-of-formula"></a>🔍 Derivation of Formula
 
@@ -171,7 +186,7 @@ Remember, mastering differential equations takes time and practice. Stay committ
 
 ---
 
-### 🚀 Ready to Ace Your Exam?
+### <a id="-ready-to-ace-your-exam"></a>🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/differential-equations-class-12-notes) now and track your progress against thousands of students.
 
 ---
@@ -180,7 +195,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 
-## 📚 Related Topics
+## <a id="-related-topics"></a>📚 Related Topics
 
 Continue your revision with these related guides:
 
@@ -188,3 +203,12 @@ Continue your revision with these related guides:
 - 📖 [Continuity and Differentiability Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/continuity-and-differentiability-class-12-notes)
 - 📖 [Determinants Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/determinants-class-12-notes)
 - 📖 [Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/integrals-class-12-notes)
+
+
+---
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/differential-equations-class-12-notes) now and track your progress against thousands of students.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

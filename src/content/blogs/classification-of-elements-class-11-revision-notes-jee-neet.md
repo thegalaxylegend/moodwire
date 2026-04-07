@@ -1,35 +1,56 @@
 ---
-title: "Classification Of Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Accelerate your Physics revision with our Classification Of Elements guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
-category: "Physics"
-keywords: "classification of elements class 11 revision notes jee neet, Physics, Exam Compass"
-date: "2026-03-28"
 heroImage: "/blog-images/classification-of-elements-class-11-revision-notes-jee-neet.webp"
+title: "Classification Of Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
+description: "Classification Of Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+category: "Revision"
+date: "2026-03-28"
+practice_link: "/class-11/physics/classification-of-elements-class-11-revision-notes-jee-neet"
 ---
+
+
+![Classification Of Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/classification-of-elements-class-11-revision-notes-jee-neet.webp)
+
+*Last Updated: 2026-03-28*
+
+
+
+
+## 📋 Table of Contents
+
+- [What is Classification Of Elements?](#what-is-classification-of-elements)
+- [Ayush's Personal Note](#ayushs-personal-note)
+- [Introduction to Classification of Elements](#introduction-to-classification-of-elements)
+- [JEE/NEET Data](#jeeneet-data)
+- [Core Concepts](#core-concepts)
+- [Formulae](#formulae)
+- [Trends in Physical and Chemical Properties](#trends-in-physical-and-chemical-properties)
+- [LaTeX Equations](#latex-equations)
+- [📚 Related Topics](#-related-topics)
+
 
 # Classification Of Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Hero Image](/blog-images/classification-of-elements-class-11-revision-notes-jee-neet.webp)
 
-*Last Updated: 2026-03-22*
 
-## What is Classification Of Elements?
+
+
+## <a id="what-is-classification-of-elements"></a>What is Classification Of Elements?
 
 # Classification of Elements Class 11 Notes — Exam Compass
 
-![Classification of Elements notes for students](/blog-images/classification-of-elements-class-11-notes.webp)
 
-*Last Updated: March 16, 2026*
 
-## Ayush's Personal Note
+
+
+## <a id="ayushs-personal-note"></a>Ayush's Personal Note
 
 As I prepare for my Class 11 chemistry exams, I realize the importance of understanding the classification of elements. It's not just about memorizing the periodic table, but also about comprehending the underlying principles and concepts. I've found that creating flashcards and concept maps helps me to better retain the information and make connections between different ideas. My teacher has also advised me to practice solving problems and past-year questions to get a feel for the exam pattern.
 
-## Introduction to Classification of Elements
+## <a id="introduction-to-classification-of-elements"></a>Introduction to Classification of Elements
 
 The classification of elements is based on their electronic configuration, which determines their chemical properties. The periodic table is divided into different blocks, such as the s-block, p-block, d-block, and f-block, depending on the orbital that is being filled. The s-block elements are in group 1 and 2, and are typically highly reactive. The p-block elements are in groups 13 to 18, and exhibit a range of properties. The d-block elements are in the transition metal series, and are known for their ability to form ions with different charges. The f-block elements are in the lanthanide and actinide series, and are characterized by their unique magnetic properties.
 
-## JEE/NEET Data
+## <a id="jeeneet-data"></a>JEE/NEET Data
 
 For students preparing for JEE and NEET, it's essential to have a thorough understanding of the classification of elements. The periodic table is a crucial tool for predicting the properties and behavior of elements, and is often tested in exams. According to the JEE and NEET syllabus, students should be able to:
 
@@ -38,7 +59,7 @@ For students preparing for JEE and NEET, it's essential to have a thorough under
 * Explain the trends in physical and chemical properties of elements
 * Predict the chemical properties of an element based on its position in the periodic table
 
-## Core Concepts
+## <a id="core-concepts"></a>Core Concepts
 
 The core concepts in the classification of elements include:
 
@@ -49,7 +70,7 @@ The core concepts in the classification of elements include:
 * Groups: The vertical columns in the periodic table are called groups
 * Periods: The horizontal rows in the periodic table are called periods
 
-## Formulae
+## <a id="formulae"></a>Formulae
 
 Some important formulae related to the classification of elements include:
 
@@ -57,7 +78,7 @@ Some important formulae related to the classification of elements include:
 * $A = p + n$, where $A$ is the mass number
 * $\lambda = \frac{h}{mv}$, where $\lambda$ is the wavelength, $h$ is Planck's constant, $m$ is the mass, and $v$ is the velocity
 
-## Trends in Physical and Chemical Properties
+## <a id="trends-in-physical-and-chemical-properties"></a>Trends in Physical and Chemical Properties
 
 The classification of elements also helps us to understand the trends in physical and chemical properties. For example:
 
@@ -65,7 +86,7 @@ The classification of elements also helps us to understand the trends in physica
 * Electronegativity: The electronegativity increases from left to right across a period, and decreases from top to bottom down a group
 * Ionization energy: The ionization energy increases from left to right across a period, and decreases from top to bottom down a group
 
-## LaTeX Equations
+## <a id="latex-equations"></a>LaTeX Equations
 
 Here are some examples of LaTeX equations related to the classification of elements:
 
@@ -266,7 +287,7 @@ As I continue to explore the world of chemistry, I realize that the classificati
 
 ---
 
-## 📚 Related Topics
+## <a id="-related-topics"></a>📚 Related Topics
 
 Continue your revision with these related guides:
 
@@ -274,3 +295,12 @@ Continue your revision with these related guides:
 - 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
 - 📖 [Some Basic Concepts Of Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet)
 - 📖 [Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)
+
+
+---
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/classification-of-elements-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

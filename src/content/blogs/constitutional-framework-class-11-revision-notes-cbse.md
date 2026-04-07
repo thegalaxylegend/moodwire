@@ -1,25 +1,45 @@
 ---
-title: "Constitutional Framework Class 11 Social Science Recap — CBSE 2026 Quick Guide"
-description: "The ultimate Constitutional Framework revision resource for Social Science students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
-category: "General"
-keywords: "constitutional framework class 11 revision notes cbse, General, Exam Compass"
-date: "2026-03-28"
 heroImage: "/blog-images/constitutional-framework-class-11-revision-notes-cbse.webp"
+title: "Constitutional Framework Class 11 Social Science Recap — CBSE 2026 Quick Guide"
+description: "Constitutional Framework Class 11 Social Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-03-28."
+category: "Revision"
+date: "2026-03-28"
+practice_link: "/class-11/constitutional-framework-class-11-revision-notes-cbse"
 ---
+
+
+![Constitutional Framework Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog-images/constitutional-framework-class-11-revision-notes-cbse.webp)
+
+*Last Updated: 2026-03-28*
+
+
+
+
+## 📋 Table of Contents
+
+- [What is Constitutional Framework?](#what-is-constitutional-framework)
+- [What are the Key Features of the Indian Constitution?](#what-are-the-key-features-of-the-indian-constitution)
+- [What is the Significance of the Preamble?](#what-is-the-significance-of-the-preamble)
+- [What are the Core Concepts of the Constitutional Framework?](#what-are-the-core-concepts-of-the-constitutional-framework)
+- [Ayush's Personal Note](#ayushs-personal-note)
+- [What are the Trap Exceptions?](#what-are-the-trap-exceptions)
+- [MCQs](#mcqs)
+- [📚 Related Topics](#-related-topics)
+
 
 # Constitutional Framework Class 11 Social Science Recap — CBSE 2026 Quick Guide
 
-![Hero Image](/blog-images/constitutional-framework-class-11-revision-notes-cbse.webp)
 
-*Last Updated: 2026-03-22*
 
-## What is Constitutional Framework?
+
+
+## <a id="what-is-constitutional-framework"></a>What is Constitutional Framework?
 
 # Constitutional Framework Class 11 Quick Recap — MCQs, Key Points & PDF Download
 
-![Constitutional Framework notes for students](/blog-images/constitutional-framework-class-11-revision-notes-cbse.webp)
 
-*Last Updated: March 21, 2026*
+
+
 
 
 
@@ -29,7 +49,7 @@ Constitutional Framework is a set of principles and rules that govern the functi
 
 
 
-## What are the Key Features of the Indian Constitution?
+## <a id="what-are-the-key-features-of-the-indian-constitution"></a>What are the Key Features of the Indian Constitution?
 
 The Indian Constitution is a unique document that reflects the country's diverse culture, history, and geography. Some of the key features of the Constitution include:
 * **Federalism**: The division of power between the central government and the states
@@ -42,7 +62,7 @@ As I delve deeper into these features, I notice that the Constitution has underg
 
 
 
-## What is the Significance of the Preamble?
+## <a id="what-is-the-significance-of-the-preamble"></a>What is the Significance of the Preamble?
 
 The Preamble is a crucial part of the Constitution, as it sets out the objectives and ideals of the Indian state. It reads: "We, the people of India, having solemnly resolved to constitute India into a Sovereign, Socialist, Secular, Democratic Republic..." The Preamble is significant because it:
 * **Defines the nature of the Indian state**: Sovereign, Socialist, Secular, Democratic Republic
@@ -54,7 +74,7 @@ I find it interesting to note that the Preamble has been amended only once, in 1
 
 
 
-## What are the Core Concepts of the Constitutional Framework?
+## <a id="what-are-the-core-concepts-of-the-constitutional-framework"></a>What are the Core Concepts of the Constitutional Framework?
 
 The Constitutional Framework is based on several core concepts, including:
 
@@ -70,14 +90,14 @@ As I review these concepts, I realize how important it is to understand the hist
 | **Federalism** | The division of power between the central government and the states |
 
 
-## Ayush's Personal Note
+## <a id="ayushs-personal-note"></a>Ayush's Personal Note
 
 As I prepare for the Class 11 exam in 2026, I find it helpful to create a timeline of the major events in Indian history. This helps me to understand the context in which the Constitution was drafted and how it has evolved over time. I also make sure to review the key features of the Constitution, including the Preamble, the Fundamental Rights, and the Directive Principles.
 
 
 
 
-## What are the Trap Exceptions?
+## <a id="what-are-the-trap-exceptions"></a>What are the Trap Exceptions?
 
 **Trap Exceptions** are concepts or provisions that are often misunderstood or overlooked. Some examples of trap exceptions in the Constitutional Framework include:
 * **The concept of "reasonable restrictions"**: The idea that the government can impose restrictions on individual rights, but only if they are reasonable and in the interest of the public
@@ -89,14 +109,11 @@ I find it helpful to review these trap exceptions regularly, as they can be tric
 
 
 
-## Quick Recall Box
 
 
 
-## MCQs
 
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+## <a id="mcqs"></a>MCQs
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
@@ -104,10 +121,13 @@ I find it helpful to review these trap exceptions regularly, as they can be tric
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
 
 ---
 
-## 📚 Related Topics
+## <a id="-related-topics"></a>📚 Related Topics
 
 Continue your revision with these related guides:
 
@@ -115,3 +135,12 @@ Continue your revision with these related guides:
 - 📖 [Federalism Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/federalism-class-11-revision-notes-cbse)
 - 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)
 - 📖 [Indian Geography Climate Class 11 Geography Recap — CBSE 2026 Quick Guide](/blog/indian-geography-climate-class-11-revision-notes-cbse)
+
+
+---
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/constitutional-framework-class-11-revision-notes-cbse) now and track your progress against thousands of students.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

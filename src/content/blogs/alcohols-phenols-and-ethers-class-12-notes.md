@@ -1,34 +1,27 @@
 ---
 heroImage: "/blog-images/alcohols-phenols-and-ethers-class-12-notes.webp"
 title: "Alcohols, Phenols and Ethers Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Deep dive into Alcohols, Phenols and Ethers Class 12. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
-category: "Chemistry"
-keywords: "Alcohols, Phenols and Ethers class 12 notes, Alcohols, Phenols and Ethers quick revision, Alcohols, Phenols and Ethers 2026, Alcohols, Phenols and Ethers JEE 2026, Alcohols, Phenols and Ethers NEET 2026, Alcohols, Phenols and Ethers notes for JEE, Alcohols, Phenols and Ethers notes for NEET, class 12 Chemistry revision, Alcohols, Phenols and Ethers formula sheet, Alcohols, Phenols and Ethers MCQs"
+description: "Alcohols, Phenols and Ethers Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-29."
+category: "Revision"
 date: "2026-03-29"
 practice_link: "/class-11/chemistry/alcohols-phenols-and-ethers-class-12-notes"
 ---
+
 
 ![Alcohols, Phenols and Ethers Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/alcohols-phenols-and-ethers-class-12-notes.webp)
 
 *Last Updated: 2026-03-29*
 
 
-<div class="quick-summary">
 
-### 🚀 Quick Recall — Last Night Summary
 
-— Last Night Summary
+## 📋 Table of Contents
 
 - [🎯 What WILL Come in Your Exam](#-what-will-come-in-your-exam)
 - [⚡ Formula Bank](#-formula-bank)
-- [⨤ The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
-- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
-- [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
-- [👁️ Ayush's Note](#-ayushs-note)
-- [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
-- [📝 Practice MCQs](#-practice-mcqs)
+  - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
+- [📚 Related Topics](#-related-topics)
 
-</div>
 
 </div>
 
@@ -40,16 +33,14 @@ practice_link: "/class-11/chemistry/alcohols-phenols-and-ethers-class-12-notes"
 #- [📋 Table of Contents](#-table-of-contents)
 
 
-## <a id="-table-of-contents"></a>📋 Table of Contents
 
-- [🎯 What WILL Come in Your Exam](#-what-will-come-in-your-exam)
-- [⚡ Formula Bank](#-formula-bank)
-- [⨤ The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
-- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
-- [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
-- [👁️ Ayush's Note](#-ayushs-note)
-- [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
-- [📝 Practice MCQs](#-practice-mcqs)
+
+
+
+
+
+
+
 
 
 ## <a id="-what-will-come-in-your-exam"></a>🎯 What WILL Come in Your Exam
@@ -120,7 +111,7 @@ $RCH(OH) + PCl_5 \rightarrow RCOCl + POCl_3 + HCl$ - Conversion of alcohol to ac
 
 ---
 
-### 🚀 Ready to Ace Your Exam?
+### <a id="-ready-to-ace-your-exam"></a>🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/alcohols-phenols-and-ethers-class-12-notes) now and track your progress against thousands of students.
 
 ---
@@ -129,7 +120,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 
-## 📚 Related Topics
+## <a id="-related-topics"></a>📚 Related Topics
 
 Continue your revision with these related guides:
 
@@ -137,3 +128,12 @@ Continue your revision with these related guides:
 - 📖 [Polymers Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/polymers-class-12-notes)
 - 📖 [Inverse Trigonometric Functions Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/inverse-trigonometric-functions-class-12-notes)
 - 📖 [Matrices Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/matrices-class-12-notes)
+
+
+---
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/alcohols-phenols-and-ethers-class-12-notes) now and track your progress against thousands of students.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

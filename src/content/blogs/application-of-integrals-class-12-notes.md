@@ -1,16 +1,18 @@
 ---
 heroImage: "/blog-images/application-of-integrals-class-12-notes.webp"
 title: "Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide"
-description: "Learn Application of Integrals like a pro. Detailed revision notes, solved examples, and "Trap Questions" that most students miss. Updated for the 2026 syllabus."
-category: "Mathematics"
-keywords: "Application of Integrals class 12 notes, Application of Integrals quick revision, Application of Integrals 2026, Application of Integrals JEE 2026, Application of Integrals notes for JEE, class 12 Mathematics revision, Application of Integrals formula sheet, Application of Integrals MCQs"
+description: "Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-01."
+category: "Revision"
 date: "2026-04-01"
 practice_link: "/class-11/mathematics/application-of-integrals-class-12-notes"
 ---
 
+
 ![Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog-images/application-of-integrals-class-12-notes.webp)
 
 *Last Updated: 2026-04-01*
+
+
 
 
 ## 📋 Table of Contents
@@ -28,6 +30,21 @@ practice_link: "/class-11/mathematics/application-of-integrals-class-12-notes"
   - [Work Done](#work-done)
 - [📝 Master the Test Center — Step-by-Step Learning](#-master-the-test-center-stepbystep-learning)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
+  - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
+- [📚 Related Topics](#-related-topics)
+
+
+- [Centroid](#centroid)
+  - [Moments of Inertia](#moments-of-inertia)
+  - [Work Done](#work-done)
+  - [Hydrostatic Force](#hydrostatic-force)
+  - [Center of Mass](#center-of-mass)
+  - [Important Formulas](#important-formulas)
+
+  - [Advanced Concepts](#advanced-concepts)
+  - [Centroid](#centroid)
+  - [Moments of Inertia](#moments-of-inertia)
+  - [Work Done](#work-done)
 
 
 ### <a id="centroid"></a>Centroid
@@ -241,7 +258,7 @@ Take the last 5 minutes to review the key concepts and formulas covered in this 
 
 ---
 
-### 🚀 Ready to Ace Your Exam?
+### <a id="-ready-to-ace-your-exam"></a>🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/application-of-integrals-class-12-notes) now and track your progress against thousands of students.
 
 ---
@@ -250,7 +267,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 
-## 📚 Related Topics
+## <a id="-related-topics"></a>📚 Related Topics
 
 Continue your revision with these related guides:
 
@@ -258,3 +275,12 @@ Continue your revision with these related guides:
 - 📖 [Determinants Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/determinants-class-12-notes)
 - 📖 [Amines Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/amines-class-12-notes)
 - 📖 [Metallurgy Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/metallurgy-class-12-notes)
+
+
+---
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/application-of-integrals-class-12-notes) now and track your progress against thousands of students.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

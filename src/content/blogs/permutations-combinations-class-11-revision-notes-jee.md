@@ -1,23 +1,46 @@
 ---
-title: "Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
-description: "Deep dive into Permutations Combinations Class 11. Quick revision notes featuring trap questions, peer-mentor tips from Ayush, and NCERT-aligned practice sets."
-category: "Mathematics"
-keywords: "permutations combinations class 11 revision notes jee, Mathematics, Exam Compass"
-date: "2026-03-28"
 heroImage: "/blog-images/permutations-combinations-class-11-revision-notes-jee.webp"
+title: "Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
+description: "Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+category: "Revision"
+date: "2026-03-28"
+practice_link: "/class-11/mathematics/permutations-combinations-class-11-revision-notes-jee"
 ---
+
+
+![Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog-images/permutations-combinations-class-11-revision-notes-jee.webp)
+
+*Last Updated: 2026-03-28*
+
+
+
+
+## 📋 Table of Contents
+
+- [What is Permutations Combinations Revision Notes?](#what-is-permutations-combinations-revision-notes)
+- [Introduction](#introduction)
+- [1. Fundamental Principle of Counting (FPC)](#1-fundamental-principle-of-counting-fpc)
+- [2. Factorials (n!)](#2-factorials-n)
+- [3. Permutations (Arrangements)](#3-permutations-arrangements)
+- [4. Combinations (Selections)](#4-combinations-selections)
+- [5. Difference: Permutation vs Combination](#5-difference-permutation-vs-combination)
+- [Comprehensive Exam Strategy (Q&A)](#comprehensive-exam-strategy-qanda)
+- [Related Revision Notes](#related-revision-notes)
+- [Conclusion](#conclusion)
+- [📚 Related Topics](#-related-topics)
+
 
 # Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
 
-![Hero Image](/blog-images/permutations-combinations-class-11-revision-notes-jee.webp)
 
-*Last Updated: 2026-03-22*
 
-## What is Permutations Combinations Revision Notes?
+
+
+## <a id="what-is-permutations-combinations-revision-notes"></a>What is Permutations Combinations Revision Notes?
 
 # Permutations Combinations Revision Notes
 
-![The Art of Arrangement and Selection: Permutations and Combinations](/blog-images/permutations-combinations-revision.webp)
+
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -33,7 +56,7 @@ heroImage: "/blog-images/permutations-combinations-class-11-revision-notes-jee.w
 ---
 
 
-## Introduction
+## <a id="introduction"></a>Introduction
 
 **Permutations and Combinations provide the mathematical toolkit for counting possibilities and arrangements in complex systems. Master the Fundamental Principle of Counting, nPr for ordered arrangements, and nCr for selections to excel in probability and cryptography. This Class 11 Math Chapter 7 guide covers all essential factorial logic for JEE and CBSE exams.**
 Mathematics is not just about numbers; it's about possibilities.
@@ -43,7 +66,7 @@ Mathematics is not just about numbers; it's about possibilities.
 
 
 
-## 1. Fundamental Principle of Counting (FPC)
+## <a id="1-fundamental-principle-of-counting-fpc"></a>1. Fundamental Principle of Counting (FPC)
 
 This is the base of all counting techniques.
 1.  **Multiplication Principle:** If an event occurs in **m** different ways, following which another event occurs in **n** different ways, then the total number of occurrence of the events in the given order is **m × n**.
@@ -54,7 +77,7 @@ This is the base of all counting techniques.
 
 
 
-## 2. Factorials (n!)
+## <a id="2-factorials-n"></a>2. Factorials (n!)
 
 The product of first **n** natural numbers is called n-factorial.
 *   **n! = 1 × 2 × 3 × ... × n**.
@@ -66,7 +89,7 @@ The product of first **n** natural numbers is called n-factorial.
 
 
 
-## 3. Permutations (Arrangements)
+## <a id="3-permutations-arrangements"></a>3. Permutations (Arrangements)
 
 A permutation is an arrangement in a definite order of a number of objects taken some or all at a time.
 *   **Theorem 1:** The number of permutations of n different objects taken r at a time (0 < r ≤ n) and objects do not repeat is **nPr = n! / (n - r)!**.
@@ -78,7 +101,7 @@ A permutation is an arrangement in a definite order of a number of objects taken
 
 
 
-## 4. Combinations (Selections)
+## <a id="4-combinations-selections"></a>4. Combinations (Selections)
 
 A combination is a selection of items where the order of selection does not matter.
 *   **Theorem:** The number of combinations of n different objects taken r at a time is **nCr = n! / [r!(n - r)!]**.
@@ -92,7 +115,7 @@ A combination is a selection of items where the order of selection does not matt
 
 
 
-## 5. Difference: Permutation vs Combination
+## <a id="5-difference-permutation-vs-combination"></a>5. Difference: Permutation vs Combination
 
 | Feature | Permutation | Combination |
 | :--- | :--- | :--- |
@@ -106,7 +129,7 @@ A combination is a selection of items where the order of selection does not matt
 
 
 
-## Comprehensive Exam Strategy (Q&A)
+## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
 **Q1: How many 3-digit numbers can be formed from the digits 1, 2, 3, 4, 5 assuming that repetition of digits is allowed?**
 **Answer:**
@@ -132,7 +155,7 @@ A combination is a selection of items where the order of selection does not matt
 
 
 
-## Related Revision Notes
+## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 6: Linear Inequalities**
 - **Chapter 8: Binomial Theorem**
@@ -141,7 +164,7 @@ A combination is a selection of items where the order of selection does not matt
 
 
 
-## Conclusion
+## <a id="conclusion"></a>Conclusion
 
 Permutations and Combinations transform the way we see complexity. By mastering the core formulas of nPr and nCr, and understanding when order matters, you gain the power to calculate outcomes in everything from poker hands to the number of ways to sequence DNA. Keep your factorials small and your logic sharp!
 
@@ -162,7 +185,7 @@ Permutations and Combinations transform the way we see complexity. By mastering 
 
 ---
 
-## 📚 Related Topics
+## <a id="-related-topics"></a>📚 Related Topics
 
 Continue your revision with these related guides:
 
@@ -170,3 +193,12 @@ Continue your revision with these related guides:
 - 📖 [Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/binomial-theorem-class-11-revision-notes-jee)
 - 📖 [Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/conic-sections-class-11-revision-notes-jee)
 - 📖 [Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-class-11-revision-notes-jee)
+
+
+---
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/permutations-combinations-class-11-revision-notes-jee) now and track your progress against thousands of students.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

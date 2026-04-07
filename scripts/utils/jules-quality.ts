@@ -11,6 +11,7 @@ export interface MCQ {
 export interface Section {
     heading: string;
     body: string;
+    needsReview?: boolean;
     table?: {
         headers: string[];
         rows: string[][];
@@ -26,6 +27,7 @@ export interface BlogPostJSON {
     last_updated: string;
     practice_link_path: string;
     hero_image: string;
+    manual_review?: boolean;
     content: {
         intro: string;
         sections: Section[];
@@ -273,14 +275,18 @@ ${mcqsHtml}
 `;
 }
 
-export function standardizeMarkdown(markdown: string, meta: { title: string, heroImage: string, lastUpdated: string, practiceLink: string, recall?: string[] }): string {
+export function standardizeMarkdown(markdown: string, meta: { title: string, heroImage: string, lastUpdated: string, practiceLink: string, manualReview?: boolean, recall?: string[] }): string {
     let body = markdown;
     let frontmatter = '';
-    const fmMatch = markdown.match(/^---[\s\S]*?---\n*/);
-    if (fmMatch) {
-        frontmatter = fmMatch[0];
-        body = markdown.replace(frontmatter, '').trim();
-    }
+    // Aggressively strip legacy metadata patterns
+    body = markdown.replace(/^---[\s\S]*?---\n*/, '').trim(); 
+    body = body.replace(/category:\s*"(.*?)"/g, '');
+    body = body.replace(/keywords:\s*"(.*?)"/g, '');
+    body = body.replace(/slug:\s*"(.*?)"/g, '');
+    body = body.replace(/subject:\s*"(.*?)"/g, '');
+    body = body.replace(/exam_class:\s*"(.*?)"/g, '');
+    body = body.replace(/chapter_name:\s*"(.*?)"/g, '');
+
 
     body = body.replace(/<div class="quick-summary">[\s\S]*?<\/div>/gi, '');
     body = body.replace(/## (📋 )?Table of Contents\n*/gi, '');
@@ -318,11 +324,12 @@ export function standardizeMarkdown(markdown: string, meta: { title: string, her
     const assembledBody = `---
 heroImage: "${meta.heroImage}"
 title: "${meta.title}"
-description: "${meta.title} Revision Notes for Class 12 ${meta.lastUpdated}."
+description: "${meta.title} Revision Notes. Last Updated: ${meta.lastUpdated}."
 category: "Revision"
 date: "${meta.lastUpdated}"
 practice_link: "${meta.practiceLink}"
----
+${meta.manualReview ? 'manual_review: true\n' : ''}---
+
 
 ![${meta.title}](${meta.heroImage})
 
@@ -338,3 +345,55 @@ ${footer}`;
 
     return assembledBody;
 }
+
+/**
+ * Aggressively purges AI-filler phrases like "Certainly! Here is..."
+ */
+export function sanitizeAiText(text: string): string {
+    const aiFiller = [
+        /^Certainly!.*?\n/gi,
+        /^Here is.*?\n/gi,
+        /^Please note.*?\n/gi,
+        /^In this section.*?\n/gi,
+        /^I hope this helps.*?\n/gi,
+        /^Let me know if you need anything else.*?\n/gi,
+        /^(Certainly|Absolutely|Sure)!/gi,
+        /As an AI language model,/gi,
+        /I am unable to generate/gi,
+        /I apologize, but/gi
+    ];
+    let cleaned = text;
+    for (const pattern of aiFiller) {
+        cleaned = cleaned.replace(pattern, '').trim();
+    }
+    return cleaned;
+}
+
+/**
+ * Ensures LaTeX delimiters are balanced to prevent UI breakage.
+ */
+export function checkLatexIntegrity(text: string): string {
+    if (!text) return "";
+
+    // 1. Logic for $$ (Block Math)
+    const blockMathCount = (text.match(/\$\$/g) || []).length;
+    if (blockMathCount % 2 !== 0) {
+        text += ' $$'; // Close dangling block math
+    }
+
+    // 2. Logic for $ (Inline Math)
+    const inlineMathCount = (text.match(/(?<!\$)\$(?!\$)/g) || []).length;
+    if (inlineMathCount % 2 !== 0) {
+        text += ' $';
+    }
+
+    // 3. Simple Brace check for \frac{}{}
+    const openBraces = (text.match(/\{/g) || []).length;
+    const closeBraces = (text.match(/\}/g) || []).length;
+    if (openBraces > closeBraces) {
+        text += '}'.repeat(openBraces - closeBraces);
+    }
+
+    return text;
+}
+

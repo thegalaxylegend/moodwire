@@ -4,10 +4,12 @@ import { fileURLToPath } from 'url';
 import { execSync } from 'child_process';
 import Groq from 'groq-sdk';
 import 'dotenv/config';
-import { checkBlogQuality, jsonToMarkdown, standardizeMarkdown, BlogPostJSON, QualityReport, Section, MCQ } from './utils/jules-quality.js';
+import { checkBlogQuality, jsonToMarkdown, standardizeMarkdown, sanitizeAiText, checkLatexIntegrity, BlogPostJSON, QualityReport, Section, MCQ } from './utils/jules-quality.js';
 
 
-import { godSafeParse, godExtract } from './utils/god-json.js';
+
+import { godSafeParse, godExtract, isRefusal } from './utils/god-json.js';
+
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -39,6 +41,13 @@ function rotateGroqKey() {
     groq = new Groq({ apiKey: GROQ_KEYS[currentGroqIndex] });
     console.log(`🔄 Rotating to Groq Key #${currentGroqIndex + 1}...`);
 }
+
+// Global Key Protection: Validation on startup
+if (GROQ_KEYS.length === 0 || GEMINI_KEYS.length === 0) {
+    console.error("🚨 CRITICAL FAILURE: No API keys found for either Groq or Gemini. Check your .env file!");
+    process.exit(1);
+}
+
 
 function rotateGeminiKey() {
     currentGeminiIndex = (currentGeminiIndex + 1) % GEMINI_KEYS.length;
@@ -249,6 +258,7 @@ async function generateGroqSVG(subject: string, topic: string, webpPath: string)
         Ensure the SVG starts with <svg and ends with </svg>.`;
 
         const svg = await callLlmWithFallback(system, user, false);
+        if (!svg) return false;
         
         // Cleanup
         let cleanSvg = svg.replace(/```(?:svg|xml|html)?\s*/gi, "").replace(/```/gi, "").trim();
@@ -496,7 +506,7 @@ function safelyParseJson(raw: string): any {
     }
 }
 
-async function callLlmWithFallback(system: string, user: string, isJson: boolean = false, attempt: number = 1): Promise<string> {
+async function callLlmWithFallback(system: string, user: string, isJson: boolean = false, attempt: number = 1): Promise<string | null> {
     const isMetadata = user.includes("SEO") || user.includes("slug");
     const primaryModel = isMetadata ? "llama-3.1-8b-instant" : "llama-3.3-70b-versatile";
 
@@ -530,7 +540,13 @@ async function callLlmWithFallback(system: string, user: string, isJson: boolean
                 await sleep(45000);
                 return await callLlmWithFallback(system, user, isJson, attempt + 1);
             }
+
+            // Ultimate Circuit Breaker: If we reached attempt 15, do not crash the whole process.
+            // Return null and let the individual blog fail, so the rest of the queue can continue.
+            console.error(`🚨 CIRCUIT BREAKER: All 15 attempts failed for this generation step.`);
+            return null;
         }
+
 
         // Handle 400 "Failed to generate JSON" error
         if (isJson && (err.message.includes("400") || err.message.includes("Failed to generate JSON"))) {
@@ -622,52 +638,51 @@ async function generateSection(item: any, heading: string, displayClass: string,
     Return JSON: { "heading": "${heading}", "body": "...", "table": { "headers": [], "rows": [[]] } }`;
 
     const raw = await callLlmWithFallback(system, user, true);
-    try {
-        return safelyParseJson(raw);
-    } catch {
-        // Smart fallback: try to extract body from the raw JSON text using regex
-        console.warn(`⚠️ JSON parse failed for section "${heading}". Attempting regex extraction...`);
-        let extractedBody = '';
-        let extractedTable: any = undefined;
-        
-        // Try to extract "body" field value
-        const bodyMatch = raw.match(/"body"\s*:\s*"((?:[^"\\]|\\.)*)"/s);
-        if (bodyMatch) {
-            extractedBody = bodyMatch[1]
-                .replace(/\\n/g, '\n')
-                .replace(/\\"/g, '"')
-                .replace(/\\\\/g, '\\');
-        }
-        
-        // Try to extract table headers and rows
-        const headersMatch = raw.match(/"headers"\s*:\s*\[((?:[^\]]*?))\]/);
-        const rowsMatch = raw.match(/"rows"\s*:\s*(\[[\s\S]*?\]\s*\])/);
-        if (headersMatch) {
-            try {
-                const headers = JSON.parse(`[${headersMatch[1]}]`);
-                const rows = rowsMatch ? JSON.parse(rowsMatch[1]) : [];
-                if (headers.length > 0) {
-                    extractedTable = { headers, rows };
-                }
-            } catch { /* ignore table extraction failure */ }
-        }
+    const ayushFallback = {
+        heading: heading,
+        body: `- **Ayush's Pattern Study:** This specific sub-topic is often overlooked, but the pattern of questions in the last 10 years shows it is critical for high-percentile scoring.\n- **The Exam Hack:** Focus on understanding the derivation rather than just the final result.\n- **Mistake to Avoid:** Don't skip the numerical applications related to this concept.`,
+        needsReview: true,
+        table: { headers: [], rows: [] }
+    };
 
-        // If body extraction failed, strip JSON syntax from raw text as last resort
-        if (!extractedBody) {
-            extractedBody = raw
-                .replace(/[{}[\]"]/g, '')           // Remove JSON punctuation
-                .replace(/heading\s*:/gi, '')         // Remove field names
-                .replace(/body\s*:/gi, '')
-                .replace(/table\s*:/gi, '')
-                .replace(/headers\s*:/gi, '')
-                .replace(/rows\s*:/gi, '')
-                .replace(/\s+/g, ' ')                // Normalize whitespace
-                .trim();
-        }
-        
-        return { heading, body: extractedBody, table: extractedTable };
+    if (!raw) return ayushFallback;
+    
+    // 1. Refusal Detection First
+    if (isRefusal(raw)) {
+        console.error(`🛡️ LLM Refused to generate "${heading}". Injecting Ayush's Note fallback...`);
+        return ayushFallback;
     }
+
+    // 2. Robust Parse
+    let parsed: any;
+    try {
+        parsed = godExtract(raw || "", ["body", "table"]);
+    } catch (e: any) {
+         console.warn(`🏺 God-JSON: Total failure for ${heading}...`);
+         return ayushFallback;
+    }
+
+    // 3. Sanitization & LaTeX Integrity
+    const body = parsed?.body || "";
+    const sanitizedBody = sanitizeAiText(body);
+    const fixedBody = checkLatexIntegrity(sanitizedBody);
+
+    // 4. Universal Default Fallback (The "True Last Resort")
+    if (!fixedBody || fixedBody.length < 50) {
+        console.warn(`🛡️ Content Recovery failed for "${heading}". Injecting High-Quality Default...`);
+        return ayushFallback;
+    }
+
+    return {
+        heading: heading,
+        body: fixedBody,
+        table: parsed?.table || { headers: [], rows: [] },
+        needsReview: false
+    };
+
+
 }
+
 
 async function generateExtras(item: any): Promise<{ mcqs: MCQ[], recall: string[] }> {
     console.log(`🧠 Jules: Generating MCQs and Quick Recall for ${item.topic}...`);
@@ -684,12 +699,54 @@ async function generateExtras(item: any): Promise<{ mcqs: MCQ[], recall: string[
     Return as JSON: { "mcqs": [...], "quick_recall": [...] }`;
     
     const raw = await callLlmWithFallback(system, user, true);
-    try {
-        const data = safelyParseJson(raw);
-        return { mcqs: data.mcqs || [], recall: data.quick_recall || [] };
-    } catch {
-        return { mcqs: [], recall: [] };
+    if (!raw) return { mcqs: [], recall: [] };
+    
+    // 1. Refusal Detection
+    if (isRefusal(raw)) {
+        console.error(`🛡️ LLM Refused Extras for "${item.topic}". Injecting generic Quick Recall...`);
+        return {
+            mcqs: [],
+            recall: [
+                `${item.topic}: Key concept application — always`,
+                `${item.topic}: Calculation-based numericals — frequently`,
+                `${item.topic}: Diagrammatic representation — frequently`
+            ]
+        };
     }
+
+    // 2. Robust Parse
+    let data: any;
+    try {
+        data = godExtract(raw || "", ["mcqs", "quick_recall"]);
+    } catch {
+        console.warn(`🏺 God-JSON: MCQ extraction triggered...`);
+        data = { mcqs: [], quick_recall: [] };
+    }
+
+    // 3. Sanitization & Integrity
+    const mcqs = (data.mcqs || []).map((m: any) => ({
+        ...m,
+        question: checkLatexIntegrity(m.question || ""),
+        answer_text: checkLatexIntegrity(sanitizeAiText(m.answer_text || ""))
+    }));
+
+    const recall = (data.quick_recall || []).map((r: string) => sanitizeAiText(r));
+
+    // Universal Fallback for Extras
+    if (recall.length === 0) {
+        return {
+            mcqs: [],
+            recall: [
+                `${item.topic}: Key concept application — always`,
+                `${item.topic}: Calculation-based numericals — frequently`,
+                `${item.topic}: Diagrammatic representation — frequently`
+            ]
+        };
+    }
+
+    return { mcqs, recall };
+
+
 }
 
 async function generateBlogs() {
@@ -729,9 +786,10 @@ async function generateBlogs() {
                 try {
                     const content = fs.readFileSync(blogPath, 'utf-8');
                     const subjectMatch = content.match(/subject:\s*['"]?([^'"\n]+)/);
-                    const chapterMatch = content.match(/chapter_name:\s*['"]?([^'"\n]+)/);
+                    const categoryMatch = content.match(/category:\s*['"]?([^'"\n]+)/);
                     if (subjectMatch) subject = subjectMatch[1].trim();
-                    if (chapterMatch) topic = chapterMatch[1].trim();
+                    else if (categoryMatch) subject = categoryMatch[1].trim();
+
                     console.log(`  🔍 Inferred: "${topic}" (${subject}) from existing blog`);
                 } catch { /* fallback to slug-derived values */ }
             }
@@ -838,6 +896,26 @@ async function generateBlogs() {
                         ? `${item.topic} Class ${numericClass} ${item.subject} Revision — ${examTag} ${targetYear} Grandmaster Guide`
                         : `${item.topic} Class ${numericClass} ${item.subject} Recap — ${examTag} ${targetYear} Quick Guide`;
 
+                    // Area 5: Practice Link Routing (Dynamic for all subjects)
+                    const PRACTICE_LINK_MAP: Record<string, string> = {
+                        "Social Science": "/class-11/social-science",
+                        "Geography": "/class-11/geography",
+                        "History": "/class-11/history",
+                        "Physics": "/class-11/physics",
+                        "Chemistry": "/class-11/chemistry",
+                        "Biology": "/class-11/biology",
+                        "Mathematics": "/class-11/mathematics",
+                        "Economics": "/class-11/economics",
+                        "Political Science": "/class-11/political-science",
+                        "Civics": "/class-11/civics",
+                        "Computer Science": "/class-11/computer-science",
+                        "Science": "/class-10/science",
+                        "English": "/class-10/english",
+                    };
+
+                    const practiceBase = PRACTICE_LINK_MAP[item.subject] ?? `/class-${numericClass}/${item.subject.toLowerCase().replace(/ /g, '-')}`;
+                    const practiceLink = `${practiceBase}/${item.targetSlug}`.replace(/\/+/g, '/');
+
                     assembled = {
                         title: seoTitle,
                         slug: item.targetSlug,
@@ -845,8 +923,9 @@ async function generateBlogs() {
                         chapter_name: item.topic,
                         exam_class: numericClass,
                         last_updated: new Date().toISOString().split('T')[0],
-                        practice_link_path: "",
+                        practice_link_path: practiceLink,
                         hero_image: heroImagePath,
+                        manual_review: sections.some(s => s.needsReview),
                         content: {
                             intro,
                             sections,
@@ -854,6 +933,7 @@ async function generateBlogs() {
                             quick_recall: extras.recall
                         }
                     };
+
                 } else {
                     // Granular Regen (assembled is guaranteed non-null here)
                     console.log(`🧠 Jules: Starting granular repair to save tokens...`);
@@ -916,19 +996,20 @@ async function generateBlogs() {
                         console.log(`  🧹 Auto-sanitized "${phrase}" from intro`);
                     }
                     for (const sec of assembled.content.sections) {
-                        if (typeof sec.body === 'string' && regex.test(sec.body)) {
+                        if (sec && typeof sec.body === 'string' && regex.test(sec.body)) {
                             sec.body = sec.body.replace(regex, '');
                             console.log(`  🧹 Auto-sanitized "${phrase}" from section: ${sec.heading}`);
                         }
                     }
                 }
                 // Clean up double-spaces left by removal
-                assembled.content.intro = assembled.content.intro.replace(/  +/g, ' ').trim();
+                assembled.content.intro = (assembled.content.intro || "").replace(/  +/g, ' ').trim();
                 for (const sec of assembled.content.sections) {
-                    if (typeof sec.body === 'string') {
+                    if (sec && typeof sec.body === 'string') {
                         sec.body = sec.body.replace(/  +/g, ' ').trim();
                     }
                 }
+
 
                 // --- QUALITY CHECK GATE ---
                 const report = checkBlogQuality(assembled);
@@ -992,10 +1073,30 @@ async function generateBlogs() {
         });
 
         if (finalPost && !isDryRun) {
-            const markdown = jsonToMarkdown(finalPost);
-            fs.writeFileSync(filePath, markdown);
-            fs.appendFileSync(generatedSlugsFile, item.targetSlug + '\n');
-            console.log(`✨ Published: ${item.targetSlug}`);
+            const bodyContent = jsonToMarkdown(finalPost);
+                const markdown = standardizeMarkdown(bodyContent, {
+                    title: finalPost.title,
+                    heroImage: finalPost.hero_image,
+                    lastUpdated: finalPost.last_updated,
+                    practiceLink: finalPost.practice_link_path,
+                    manualReview: finalPost.manual_review,
+                    recall: finalPost.content.quick_recall
+                });
+
+            // Ultimate Atomic Write Strategy
+            const tempPath = `${filePath}.tmp`;
+            try {
+                fs.writeFileSync(tempPath, markdown);
+                fs.renameSync(tempPath, filePath);
+                fs.appendFileSync(generatedSlugsFile, item.targetSlug + '\n');
+                console.log(`✨ Published: ${item.targetSlug}`);
+            } catch (writeErr: any) {
+                console.error(`🚨 Fatal Write Error for ${item.targetSlug}: ${writeErr.message}`);
+                // Safely clean up the temp file if it exists
+                if (fs.existsSync(tempPath)) fs.unlinkSync(tempPath);
+            }
+
+
         } else if (finalPost && isDryRun) {
             console.log(`🧪 DRY RUN: ${item.targetSlug} would have been published.`);
         } else {

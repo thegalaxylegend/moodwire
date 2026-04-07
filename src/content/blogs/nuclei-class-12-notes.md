@@ -1,18 +1,35 @@
 ---
 heroImage: "/blog-images/nuclei-class-12-notes.webp"
 title: "Nuclei Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Accelerate your Physics revision with our Nuclei guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
-category: "Physics"
-keywords: "Nuclei class 12 notes, Nuclei quick revision, Nuclei 2026, Nuclei JEE 2026, Nuclei NEET 2026, Nuclei notes for JEE, Nuclei notes for NEET, class 12 Physics revision, Nuclei formula sheet, Nuclei MCQs"
+description: "Nuclei Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-29."
+category: "Revision"
 date: "2026-03-29"
 practice_link: "/class-11/physics/nuclei-class-12-notes"
 ---
 
-![Nuclei revision guide](/blog-images/nuclei-class-12-notes.webp)
+
+![Nuclei Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/nuclei-class-12-notes.webp)
 
 *Last Updated: 2026-03-29*
 
-## 🎯 What WILL Come in Your Exam
+
+
+
+## 📋 Table of Contents
+
+- [🎯 What WILL Come in Your Exam](#-what-will-come-in-your-exam)
+- [⚡ Formula Bank](#-formula-bank)
+- [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
+- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
+- [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
+- [👁️ Ayush's Note](#-ayushs-note)
+- [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
+- [📝 Practice MCQs](#-practice-mcqs)
+  - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
+- [📚 Related Topics](#-related-topics)
+
+
+## <a id="-what-will-come-in-your-exam"></a>🎯 What WILL Come in Your Exam
 * 1 numerical on binding energy per nucleon — always
 * Nuclear stability curve — JEE favourite, expect a graph-based question
 * $E = \\Delta mc^2$ derivation and application — high-yield topic
@@ -23,7 +40,7 @@ practice_link: "/class-11/physics/nuclei-class-12-notes"
 * Nuclear reactions with $Q$-value — 1 numerical, always
 
 
-## ⚡ Formula Bank
+## <a id="-formula-bank"></a>⚡ Formula Bank
 
 
 
@@ -38,7 +55,7 @@ practice_link: "/class-11/physics/nuclei-class-12-notes"
 | $$T_{\frac{1}{2}} = \frac{0.693}{\lambda}$$ | $T_{\frac{1}{2}}$: Half-life, \lambda: Decay constant |
 
 
-## 🪤 The 5 Mistakes That Cost Marks
+## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
 When solving problems related to nuclei, watch out for these common mistakes: 
  Mistake: Using $E = mc^2$ without converting mass to kg, 
@@ -67,7 +84,7 @@ When solving problems related to nuclei, watch out for these common mistakes:
 | Ignoring units in nuclear radius calculation | 2 marks | Ensure units are in meters |
 
 
-## ✏️ 3 Solved PYQs
+## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 Q: The activity of a radioactive substance is $2.0 \times 10^{-6}$ curie. If its half-life is $3.5 \times 10^{9}$ years, then the number of atoms in the sample is $[\lambda = \frac{0.693}{T_{1/2}}]$. 
  Trap in this question: Students often get confused between the units of activity and the process to find the number of [atoms](/blog/atoms-class-12-notes).
@@ -111,7 +128,7 @@ Q: The activity of a radioactive substance is $2.0 \times 10^{-6}$ curie. If its
 |  |
 
 
-## 🧠 The One Thing Most Students Get Wrong
+## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 The key concept that differentiates 85% scorers from 95% scorers in the topic of Nuclei is the understanding of nuclear stability in terms of binding energy per nucleon, given by the equation $\frac{\Delta E}{A}$, where $\Delta E$ is the binding energy and $A$ is the mass number. Most students fail to recognize that a higher binding energy per nucleon $\left(\frac{\Delta E}{A}\right)$ indicates a more stable nucleus. The curve of binding energy per nucleon versus mass number has a peak around iron ($_{26}Fe^{56}$), which is the most stable nucleus. Students often mistakenly assume that the nucleus with the highest binding energy is the most stable, rather than the one with the highest binding energy per nucleon.
 
@@ -123,7 +140,7 @@ The key concept that differentiates 85% scorers from 95% scorers in the topic of
 | $_{92}U^{238}$ | $\approx 7.6$ MeV |
 
 
-## 👁️ Ayush's Note
+## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
 For Nuclei, remember the pattern of $\beta$ decay and its relation to the neutron-proton ratio. The stability curve can be expressed as $Z = \frac{A}{2.24 + 0.0075A^{2/3}}$. Note that for every 10 units of $A$, $\Delta Z$ is approximately 0.35 units, as observed from the last 5 years of PYQs. For nuclei with $A > 20$, the binding energy per nucleon can be calculated using $\frac{\Delta E}{A} = 15.7 - \frac{17.8}{A^{1/3}} - \frac{0.7Z^{2}}{A^{4/3}} + \frac{23.7(Z-2A/5)^{2}}{A^{2}}$
 
@@ -144,7 +161,7 @@ For Nuclei, remember the pattern of $\beta$ decay and its relation to the neutro
 | 8 | 5 | 3 | Unstable |
 
 
-## 🔁 Last 5 Minutes Box
+## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 Key Formulas:
  * $E = \Delta mc^2$
@@ -166,7 +183,7 @@ Key Formulas:
 |  |
 
 
-## 📝 Practice MCQs
+## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 
 **1. What is the binding energy per nucleon for deuteron (1H2)?**
@@ -217,14 +234,14 @@ The time taken for the substance to reach equilibrium
 
 ---
 
-### 🚀 Ready to Ace Your Exam?
+### <a id="-ready-to-ace-your-exam"></a>🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Nuclei Full Mock Test**](/class-11/physics/nuclei-class-12-notes) now and track your progress against thousands of students.
 
 
 
 ---
 
-## 📚 Related Topics
+## <a id="-related-topics"></a>📚 Related Topics
 
 Continue your revision with these related guides:
 
@@ -232,3 +249,12 @@ Continue your revision with these related guides:
 - 📖 [Communication Systems Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/communication-systems-class-12-notes)
 - 📖 [Dual Nature of Radiation Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/dual-nature-of-radiation-class-12-notes)
 - 📖 [Semiconductor Electronics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/semiconductor-electronics-class-12-notes)
+
+
+---
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/nuclei-class-12-notes) now and track your progress against thousands of students.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

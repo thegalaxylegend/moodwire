@@ -1,28 +1,45 @@
 ---
-title: "Planning In India Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "The ultimate Planning In India revision resource for Physics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
-category: "Physics"
-keywords: "planning in india class 11 revision notes jee neet, Physics, Exam Compass"
-date: "2026-03-28"
 heroImage: "/blog-images/planning-in-india-class-11-revision-notes-jee-neet.webp"
+title: "Planning In India Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
+description: "Planning In India Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+category: "Revision"
+date: "2026-03-28"
+practice_link: "/class-11/physics/planning-in-india-class-11-revision-notes-jee-neet"
 ---
+
+
+![Planning In India Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/planning-in-india-class-11-revision-notes-jee-neet.webp)
+
+*Last Updated: 2026-03-28*
+
+
+
+
+## 📋 Table of Contents
+
+- [What is Planning In India?](#what-is-planning-in-india)
+- [What is Planning in India?](#what-is-planning-in-india)
+- [How does Planning work in India?](#how-does-planning-work-in-india)
+- [MCQs](#mcqs)
+- [📚 Related Topics](#-related-topics)
+
 
 # Planning In India Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Planning In India recap](/blog-images/planning-in-india-class-11-notes.webp)
 
-*Last Updated: 2026-03-22*
 
-## What is Planning In India?
+
+
+## <a id="what-is-planning-in-india"></a>What is Planning In India?
 
 # Planning in India Class 11 Notes for 2026
 
-![Planning in India recap](/blog-images/fallbacks/generic-study.webp)
-
-*Last Updated: 2026-03-22*
 
 
-## What is Planning in India?
+
+
+
+## <a id="what-is-planning-in-india"></a>What is Planning in India?
 
 Planning in India is a process of formulating and implementing plans for the development of the country. It includes the Five-Year Plans, annual plans, and perspective planning. For Class 11 exam prep in 2026, the most important aspect is understanding the role of planning in India's economic development.
 
@@ -41,7 +58,7 @@ Planning in India is a process of formulating and implementing plans for the dev
 | Third Five-Year Plan | 1961-1966 | Growth with stability |
 
 
-## How does Planning work in India?
+## <a id="how-does-planning-work-in-india"></a>How does Planning work in India?
 
 Planning in India works through the Five-Year Plans, which are formulated by the Planning Commission of India. The plans are implemented by the central and state governments, and the progress is monitored by the Planning Commission.
 
@@ -53,13 +70,13 @@ Planning in India works through the Five-Year Plans, which are formulated by the
 | Sixth Five-Year Plan | Growth with stability | Increase in industrial production |
 
 
-## Quick Recall Box
+
 
 - Planning in India is a process of formulating and implementing plans for the development of the country.
 - The Five-Year Plans are formulated by the Planning Commission of India.
 - The plans are implemented by the central and state governments.
 
-## MCQs
+## <a id="mcqs"></a>MCQs
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
@@ -73,7 +90,7 @@ Planning in India works through the Five-Year Plans, which are formulated by the
 
 ---
 
-## 📚 Related Topics
+## <a id="-related-topics"></a>📚 Related Topics
 
 Continue your revision with these related guides:
 
@@ -81,3 +98,12 @@ Continue your revision with these related guides:
 - 📖 [Physics Mechanics Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/physics-mechanics-class-11-revision-notes-jee-neet)
 - 📖 [Poverty Unemployment Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/poverty-unemployment-class-11-revision-notes-jee-neet)
 - 📖 [Some Basic Concepts Of Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet)
+
+
+---
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/planning-in-india-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

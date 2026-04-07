@@ -1,23 +1,47 @@
 ---
-title: "Straight Lines Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Learn Straight Lines like a pro. Detailed revision notes, solved examples, and "
-category: "Physics"
-keywords: "straight lines class 11 revision notes jee neet, Physics, Exam Compass"
-date: "2026-03-28"
 heroImage: "/blog-images/straight-lines-class-11-revision-notes-jee-neet.webp"
+title: "Straight Lines Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
+description: "Straight Lines Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+category: "Revision"
+date: "2026-03-28"
+practice_link: "/class-11/physics/straight-lines-class-11-revision-notes-jee-neet"
 ---
+
+
+![Straight Lines Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/straight-lines-class-11-revision-notes-jee-neet.webp)
+
+*Last Updated: 2026-03-28*
+
+
+
+
+## 📋 Table of Contents
+
+- [What is Straight Lines Revision Notes?](#what-is-straight-lines-revision-notes)
+- [Introduction](#introduction)
+- [1. Slope of a Line](#1-slope-of-a-line)
+- [2. Various Forms of the Equation of a Line](#2-various-forms-of-the-equation-of-a-line)
+- [3. General Equation of a Line](#3-general-equation-of-a-line)
+- [4. Distance of a Point from a Line](#4-distance-of-a-point-from-a-line)
+  - [Distance Between Parallel Lines:](#distance-between-parallel-lines)
+- [5. Shifting of Origin](#5-shifting-of-origin)
+- [Comprehensive Exam Strategy (Q&A)](#comprehensive-exam-strategy-qanda)
+- [Related Revision Notes](#related-revision-notes)
+- [Conclusion](#conclusion)
+- [📚 Related Topics](#-related-topics)
+
 
 # Straight Lines Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Hero Image](/blog-images/straight-lines-class-11-revision-notes-jee-neet.webp)
 
-*Last Updated: 2026-03-22*
 
-## What is Straight Lines Revision Notes?
+
+
+## <a id="what-is-straight-lines-revision-notes"></a>What is Straight Lines Revision Notes?
 
 # Straight Lines Revision Notes
 
-![Visualizing Equations of Straight Lines on a Coordinate Plane](/blog-images/straight-lines-revision.webp)
+
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -32,7 +56,7 @@ heroImage: "/blog-images/straight-lines-class-11-revision-notes-jee-neet.webp"
 ---
 
 
-## Introduction
+## <a id="introduction"></a>Introduction
 
 **Straight Lines are the simplest geometric paths in the Cartesian plane, representing linear relationships in physics, navigation, and data science. Master the slope formula, various forms of line equations (point-slope, intercept), and the distance from a point to a line to excel in coordinate geometry. This Class 11 Math Chapter 10 summary provides all essential concepts for JEE and Board exams.**
 Straight lines are the fundamental paths in Euclidean [geometry](/blog/three-dimensional-geometry-class-11-revision-notes-jee-neet).
@@ -42,7 +66,7 @@ Straight lines are the fundamental paths in Euclidean [geometry](/blog/three-dim
 
 
 
-## 1. Slope of a Line
+## <a id="1-slope-of-a-line"></a>1. Slope of a Line
 
 The slope (also called gradient) of a non-vertical line passing through (x₁, y₁) and (x₂, y₂) is given by:
 **m = (y₂ - y₁) / (x₂ - x₁)**
@@ -56,7 +80,7 @@ The slope (also called gradient) of a non-vertical line passing through (x₁, y
 
 
 
-## 2. Various Forms of the Equation of a Line
+## <a id="2-various-forms-of-the-equation-of-a-line"></a>2. Various Forms of the Equation of a Line
 
 Depending on the given information, we use different forms:
 1.  **Horizontal Line:** y = b.
@@ -72,7 +96,7 @@ Depending on the given information, we use different forms:
 
 
 
-## 3. General Equation of a Line
+## <a id="3-general-equation-of-a-line"></a>3. General Equation of a Line
 
 The general form of a linear equation is **Ax + By + C = 0**.
 *   Slope (m) = -A/B.
@@ -84,12 +108,12 @@ The general form of a linear equation is **Ax + By + C = 0**.
 
 
 
-## 4. Distance of a Point from a Line
+## <a id="4-distance-of-a-point-from-a-line"></a>4. Distance of a Point from a Line
 
 The perpendicular distance (d) from a point P(x₁, y₁) to the line Ax + By + C = 0 is:
 **d = |Ax₁ + By₁ + C| / √(A² + B²)**
 
-### Distance Between Parallel Lines:
+### <a id="distance-between-parallel-lines"></a>Distance Between Parallel Lines:
 The distance between two parallel lines Ax + By + C₁ = 0 and Ax + By + C₂ = 0 is:
 **d = |C₁ - C₂| / √(A² + B²)**
 
@@ -98,7 +122,7 @@ The distance between two parallel lines Ax + By + C₁ = 0 and Ax + By + C₂ = 
 
 
 
-## 5. Shifting of Origin
+## <a id="5-shifting-of-origin"></a>5. Shifting of Origin
 
 If the origin (0, 0) is shifted to a new point (h, k) without changing the direction of axes, then the new coordinates (x', y') are related to the old coordinates (x, y) by:
 **x = x' + h** and **y = y' + k**
@@ -108,7 +132,7 @@ If the origin (0, 0) is shifted to a new point (h, k) without changing the direc
 
 
 
-## Comprehensive Exam Strategy (Q&A)
+## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
 **Q1: Find the equation of the line passing through (2, 3) and parallel to the line 3x - 4y + 5 = 0.**
 **Answer:**
@@ -135,7 +159,7 @@ If the origin (0, 0) is shifted to a new point (h, k) without changing the direc
 
 
 
-## Related Revision Notes
+## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 9: Sequences and Series**
 - **Chapter 11: Conic Sections**
@@ -144,7 +168,7 @@ If the origin (0, 0) is shifted to a new point (h, k) without changing the direc
 
 
 
-## Conclusion
+## <a id="conclusion"></a>Conclusion
 
 Straight lines are the ABCs of coordinate geometry. By mastering the various forms of equations and focusing on the relationship between slopes, you can solve any geometry problem involving linear paths. Always sketch your axes first and remember that perpendicular slopes are negative reciprocals! Keep your distance calculations precise and your intercepts well-defined.
 
@@ -165,7 +189,7 @@ Straight lines are the ABCs of coordinate geometry. By mastering the various for
 
 ---
 
-## 📚 Related Topics
+## <a id="-related-topics"></a>📚 Related Topics
 
 Continue your revision with these related guides:
 
@@ -173,3 +197,12 @@ Continue your revision with these related guides:
 - 📖 [Three Dimensional Geometry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/three-dimensional-geometry-class-11-revision-notes-jee-neet)
 - 📖 [Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 - 📖 [Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
+
+
+---
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/straight-lines-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

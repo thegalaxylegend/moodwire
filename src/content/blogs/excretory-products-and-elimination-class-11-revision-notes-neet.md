@@ -1,28 +1,51 @@
 ---
-title: "Excretory Products And Elimination Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
-description: "The ultimate Excretory Products And Elimination revision resource for Biology students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
-category: "Biology"
-keywords: "excretory products and elimination class 11 revision notes neet, Biology, Exam Compass"
-date: "2026-03-28"
 heroImage: "/blog-images/excretory-products-and-elimination-class-11-revision-notes-neet.webp"
+title: "Excretory Products And Elimination Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
+description: "Excretory Products And Elimination Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+category: "Revision"
+date: "2026-03-28"
+practice_link: "/class-11/biology/excretory-products-and-elimination-class-11-revision-notes-neet"
 ---
+
+
+![Excretory Products And Elimination Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog-images/excretory-products-and-elimination-class-11-revision-notes-neet.webp)
+
+*Last Updated: 2026-03-28*
+
+
+
+
+## 📋 Table of Contents
+
+- [What is Excretory Products And Elimination?](#what-is-excretory-products-and-elimination)
+- [Core Concepts](#core-concepts)
+  - [Formulae](#formulae)
+  - [JEE/NEET Data](#jeeneet-data)
+  - [MCQs](#mcqs)
+  - [Core Concepts Cont.](#core-concepts-cont)
+  - [JEE/NEET Data Cont.](#jeeneet-data-cont)
+  - [MCQs Cont.](#mcqs-cont)
+  - [Core Concepts Cont.](#core-concepts-cont)
+  - [JEE/NEET Data Cont.](#jeeneet-data-cont)
+- [📚 Related Topics](#-related-topics)
+
 
 # Excretory Products And Elimination Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
-![Hero Image](/blog-images/excretory-products-and-elimination-class-11-revision-notes-neet.webp)
 
-*Last Updated: 2026-03-22*
 
-## What is Excretory Products And Elimination?
+
+
+## <a id="what-is-excretory-products-and-elimination"></a>What is Excretory Products And Elimination?
 
 # Excretory Products and Elimination Class 11 Notes — Exam Compass
 
-![Excretory Products and Elimination Class 11 Notes — Exam Compass Notes](/blog-images/excretory-products-and-elimination-class-11-notes.webp)
-
-*Last Updated: March 16, 2026*
 
 
-## Core Concepts
+
+
+
+## <a id="core-concepts"></a>Core Concepts
 
 The excretory system is a complex system that involves the coordination of multiple organs and processes. The main organs involved in the excretory system are:
 
@@ -37,7 +60,7 @@ The excretory system also involves the coordination of multiple processes, inclu
 * **Reabsorption**: The process of returning nutrients and substances to the bloodstream.
 * **Secretion**: The process of adding waste products to the urine.
 
-### Formulae
+### <a id="formulae"></a>Formulae
 The following formulae are relevant to the excretory system:
 
 * **Glomerular filtration rate (GFR)**: The rate at which the kidneys filter the blood to remove waste products and excess substances. The GFR can be calculated using the following formula:
@@ -48,14 +71,14 @@ $$\text{GFR} = \frac{\text{urine output} \times \text{urea concentration in urin
 
 $$\text{GFR} = \frac{(140 - \text{age}) \times \text{weight} \times (0.85 \text{ if female})}{72 \times \text{serum creatinine}}$$
 
-### JEE/NEET Data
+### <a id="jeeneet-data"></a>JEE/NEET Data
 The excretory system is an important topic in the JEE and NEET exams. The following data is relevant to the excretory system:
 
 * **Kidney function**: The kidneys filter approximately 180 liters of blood per day, and produce approximately 1.5 liters of urine.
 * **Liver function**: The liver detoxifies approximately 1 liter of blood per minute.
 * **Lung function**: The lungs remove approximately 200 milliliters of carbon dioxide per minute.
 
-### MCQs
+### <a id="mcqs"></a>MCQs
 The following MCQs are relevant to the excretory system:
 
 1. What is the main function of the kidneys?
@@ -100,12 +123,12 @@ Answer: d) All of the above
 
 The excretory system is a complex system that involves the coordination of multiple organs and processes. Understanding the core concepts, formulae, and JEE/NEET data relevant to the excretory system is essential for success in the JEE and NEET exams. By practicing MCQs and reviewing the relevant data, students can develop a deep understanding of the excretory system and its functions.
 
-### Core Concepts Cont.
+### <a id="core-concepts-cont"></a>Core Concepts Cont.
 The excretory system is also involved in the regulation of the body's acid-base balance. The kidneys play a crucial role in this process by removing excess hydrogen ions from the body. The liver also plays a role in acid-base balance by detoxifying harmful substances and producing bile.
 
 The excretory system is also involved in the regulation of the body's electrolyte balance. The kidneys play a crucial role in this process by removing excess electrolytes from the body. The liver also plays a role in electrolyte balance by producing bile and helping to regulate the body's metabolism.
 
-### JEE/NEET Data Cont.
+### <a id="jeeneet-data-cont"></a>JEE/NEET Data Cont.
 The following JEE/NEET data is relevant to the excretory system:
 
 * **Kidney function**: The kidneys filter approximately 180 liters of blood per day, and produce approximately 1.5 liters of urine.
@@ -114,7 +137,7 @@ The following JEE/NEET data is relevant to the excretory system:
 
 This data is essential for understanding the functions of the excretory system, and for success in the JEE and NEET exams.
 
-### MCQs Cont.
+### <a id="mcqs-cont"></a>MCQs Cont.
 The following MCQs are relevant to the excretory system:
 
 1. What is the main function of the kidneys?
@@ -159,12 +182,12 @@ Answer: d) All of the above
 
 By practicing these MCQs, students can develop a deep understanding of the excretory system and its functions, and can prepare for success in the JEE and NEET exams.
 
-### Core Concepts Cont.
+### <a id="core-concepts-cont"></a>Core Concepts Cont.
 The excretory system is a complex system that involves the coordination of multiple organs and processes. The kidneys, liver, lungs, and skin all play important roles in the excretory system, and work together to remove waste products and excess substances from the body. The excretory system is also involved in the regulation of the body's acid-base balance and electrolyte balance.
 
 The excretory system is essential for maintaining homeostasis in the body, and for overall health and well-being. Understanding the core concepts, formulae, and JEE/NEET data relevant to the excretory system is essential for success in the JEE and NEET exams, and for a career in medicine or a related field.
 
-### JEE/NEET Data Cont.
+### <a id="jeeneet-data-cont"></a>JEE/NEET Data Cont.
 The following JEE/NEET data is relevant to the excretory system:
 
 * **Kidney function**: The kidneys filter approximately 180 liters of blood per day, and produce approximately 1.5 liters of urine.
@@ -188,7 +211,7 @@ This data is essential for understanding the functions of the excretory system, 
 
 ---
 
-## 📚 Related Topics
+## <a id="-related-topics"></a>📚 Related Topics
 
 Continue your revision with these related guides:
 
@@ -196,3 +219,12 @@ Continue your revision with these related guides:
 - 📖 [Animal Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)
 - 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
 - 📖 [Body Fluids And Circulation Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/body-fluids-and-circulation-class-11-revision-notes-neet)
+
+
+---
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/excretory-products-and-elimination-class-11-revision-notes-neet) now and track your progress against thousands of students.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

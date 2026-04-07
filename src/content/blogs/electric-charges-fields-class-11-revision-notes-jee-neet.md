@@ -1,23 +1,59 @@
 ---
-title: "Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "The ultimate Electric Charges Fields revision resource for Physics students. Focused on 2026 exam patterns with pyq analysis and quick recall tables."
-category: "Physics"
-keywords: "electric charges fields class 11 revision notes jee neet, Physics, Exam Compass"
-date: "2026-03-28"
 heroImage: "/blog-images/electric-charges-fields-class-11-revision-notes-jee-neet.webp"
+title: "Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
+description: "Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+category: "Revision"
+date: "2026-03-28"
+practice_link: "/class-11/physics/electric-charges-fields-class-11-revision-notes-jee-neet"
 ---
+
+
+![Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/electric-charges-fields-class-11-revision-notes-jee-neet.webp)
+
+*Last Updated: 2026-03-28*
+
+
+
+
+## 📋 Table of Contents
+
+- [What is Electric Charges Fields Revision Notes?](#what-is-electric-charges-fields-revision-notes)
+- [Introduction](#introduction)
+- [1. Electric Charge: The Fundamental Property](#1-electric-charge-the-fundamental-property)
+  - [I. Key Properties of Charge](#i-key-properties-of-charge)
+  - [II. Conductors vs. Insulators](#ii-conductors-vs-insulators)
+- [2. Coulomb’s Law: The Force of Interaction](#2-coulombs-law-the-force-of-interaction)
+  - [I. Scalar Form](#i-scalar-form)
+  - [II. Vector Form Derivation (The Absolute Proof)](#ii-vector-form-derivation-the-absolute-proof)
+- [3. Electric Field: The Sphere of Influence](#3-electric-field-the-sphere-of-influence)
+  - [I. Electric Field Lines](#i-electric-field-lines)
+- [4. The Electric Dipole: A System of Two Charges](#4-the-electric-dipole-a-system-of-two-charges)
+  - [I. Derivation: Field on the Axial Line](#i-derivation-field-on-the-axial-line)
+  - [II. Derivation: Field on the Equatorial Line](#ii-derivation-field-on-the-equatorial-line)
+- [5. Torque on a Dipole in a Uniform Electric Field](#5-torque-on-a-dipole-in-a-uniform-electric-field)
+- [6. Gauss’s Law: The Revolutionary Tool](#6-gausss-law-the-revolutionary-tool)
+  - [I. Derivation (Proof using Coulomb’s Law)](#i-derivation-proof-using-coulombs-law)
+- [7. Applications of Gauss’s Law (Technical Mastery)](#7-applications-of-gausss-law-technical-mastery)
+  - [I. Field due to an Infinitely Long Straight Wire](#i-field-due-to-an-infinitely-long-straight-wire)
+  - [II. Field due to an Infinite Uniformly Charged Plane Sheet](#ii-field-due-to-an-infinite-uniformly-charged-plane-sheet)
+  - [III. Field due to a Uniformly Charged Thin Spherical Shell](#iii-field-due-to-a-uniformly-charged-thin-spherical-shell)
+- [Comprehensive Exam Strategy (Q&A)](#comprehensive-exam-strategy-qanda)
+- [Related Revision Notes](#related-revision-notes)
+- [Conclusion](#conclusion)
+- [📚 Related Topics](#-related-topics)
+
 
 # Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Hero Image](/blog-images/electric-charges-fields-class-11-revision-notes-jee-neet.webp)
 
-*Last Updated: 2026-03-22*
 
-## What is Electric Charges Fields Revision Notes?
+
+
+## <a id="what-is-electric-charges-fields-revision-notes"></a>What is Electric Charges Fields Revision Notes?
 
 # Electric Charges Fields Revision Notes
 
-![Electrostatic Visual: Field Lines, Charges, and the Power of Gauss's Law](/blog-images/electric-charges-fields-revision.webp)
+
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -34,7 +70,7 @@ heroImage: "/blog-images/electric-charges-fields-class-11-revision-notes-jee-nee
 ---
 
 
-## Introduction
+## <a id="introduction"></a>Introduction
 
 The universe is fundamentally electric. From the bonds that hold DNA together to the lightning that tears through the sky, the interaction of electric charges is the primary driver of the physical world. Class 12 Physics begins with **Electrostatics**—the study of charges at rest. This first chapter, "Electric Charges and Fields," serves as the cornerstone for the entire field of Electromagnetism. In this "Comprehensive" guide, we transcend simple summaries to provide rigorous proofs for every major theorem, including the field of a dipole and the exhaustive applications of Gauss's Law. Whether you are aiming for a perfect score in Board exams or a top rank in JEE/NEET, these notes provide the technical precision and conceptual clarity required for academic mastery.
 
@@ -43,16 +79,16 @@ The universe is fundamentally electric. From the bonds that hold DNA together to
 
 
 
-## 1. Electric Charge: The Fundamental Property
+## <a id="1-electric-charge-the-fundamental-property"></a>1. Electric Charge: The Fundamental Property
 
 **Electric Charge** is an intrinsic property of elementary particles that gives rise to electric forces.
 
-### I. Key Properties of Charge
+### <a id="i-key-properties-of-charge"></a>I. Key Properties of Charge
 1.  **Quantization of Charge:** Charge exists only in integral multiples of the elementary charge **e** (1.602 × 10⁻¹⁹ C). **Q = ±ne**.
 2.  **Additivity of Charges:** The total charge of a system is the algebraic sum of individual charges.
 3.  **Conservation of Charge:** The total charge of an isolated system remains constant.
 
-### II. Conductors vs. Insulators
+### <a id="ii-conductors-vs-insulators"></a>II. Conductors vs. Insulators
 - **Conductors:** Allow easy flow of electricity due to free electrons (e.g., Metals, Earth, Human body).
 - **Insulators:** High resistance to charge flow (e.g., Glass, Plastic, Dry wood).
 
@@ -61,16 +97,16 @@ The universe is fundamentally electric. From the bonds that hold DNA together to
 
 
 
-## 2. Coulomb’s Law: The Force of Interaction
+## <a id="2-coulombs-law-the-force-of-interaction"></a>2. Coulomb’s Law: The Force of Interaction
 
 **Statement:** The magnitude of the electrostatic force between two point charges is directly proportional to the product of the charges and inversely proportional to the square of the distance between them.
 
-### I. Scalar Form
+### <a id="i-scalar-form"></a>I. Scalar Form
 **F = k |q1 q2| / r²**
 Where **k = 1 / (4πε₀)** ≈ 9 × 10⁹ N m²/C².
 **ε₀ (Permittivity of Free Space)** = 8.854 × 10⁻¹² C² N⁻¹ m⁻².
 
-### II. Vector Form Derivation (The Absolute Proof)
+### <a id="ii-vector-form-derivation-the-absolute-proof"></a>II. Vector Form Derivation (The Absolute Proof)
 Let **r1** and **r2** be the position vectors of charges **q1** and **q2**.
 1.  Relative vector **r_21 = r2 - r1**.
 2.  Distance **r = |r_21|**.
@@ -84,12 +120,12 @@ Let **r1** and **r2** be the position vectors of charges **q1** and **q2**.
 
 
 
-## 3. Electric Field: The Sphere of Influence
+## <a id="3-electric-field-the-sphere-of-influence"></a>3. Electric Field: The Sphere of Influence
 
 An **Electric Field (E)** is the region around a charged particle where another charge experiences a force.
 **E = F / q₀ = [1 / (4πε₀)] [q / r²] r̂**.
 
-### I. Electric Field Lines
+### <a id="i-electric-field-lines"></a>I. Electric Field Lines
 - Path along which a positive test charge would move.
 - Directed away from positive charges and toward negative charges.
 - The density of lines indicates field strength.
@@ -100,12 +136,12 @@ An **Electric Field (E)** is the region around a charged particle where another 
 
 
 
-## 4. The Electric Dipole: A System of Two Charges
+## <a id="4-the-electric-dipole-a-system-of-two-charges"></a>4. The Electric Dipole: A System of Two Charges
 
 An **Electric Dipole** consists of two equal and opposite charges (**+q, -q**) separated by a small distance (**2a**).
 **Dipole Moment (p): p = q × (2a)**. (Directed from -q to +q).
 
-### I. Derivation: Field on the Axial Line
+### <a id="i-derivation-field-on-the-axial-line"></a>I. Derivation: Field on the Axial Line
 1.  Let point P be at distance **r** from the center of the dipole on its axis.
 2.  **E_axial = E_positive - E_negative**
 3.  **E_axial = [q / (4πε₀)] [ 1/(r-a)² - 1/(r+a)² ]**
@@ -114,7 +150,7 @@ An **Electric Dipole** consists of two equal and opposite charges (**+q, -q**) s
 6.  For a short dipole (**r ≫ a**):
     - **E_axial = [ 1 / (4πε₀) ] [ 2p / r³ ]**. (Proven)
 
-### II. Derivation: Field on the Equatorial Line
+### <a id="ii-derivation-field-on-the-equatorial-line"></a>II. Derivation: Field on the Equatorial Line
 1.  Let point P be at distance **r** on the perpendicular bisector.
 2.  The vertical components of fields from +q and -q cancel out.
 3.  The horizontal components add up: **E_equatorial = 2 E cosθ**.
@@ -129,7 +165,7 @@ An **Electric Dipole** consists of two equal and opposite charges (**+q, -q**) s
 
 
 
-## 5. Torque on a Dipole in a Uniform Electric Field
+## <a id="5-torque-on-a-dipole-in-a-uniform-electric-field"></a>5. Torque on a Dipole in a Uniform Electric Field
 
 1.  Force on +q: **qE** (in direction of E).
 2.  Force on -q: **-qE** (opposite to E).
@@ -143,12 +179,12 @@ An **Electric Dipole** consists of two equal and opposite charges (**+q, -q**) s
 
 
 
-## 6. Gauss’s Law: The Revolutionary Tool
+## <a id="6-gausss-law-the-revolutionary-tool"></a>6. Gauss’s Law: The Revolutionary Tool
 
 **Statement:** The total electric flux through any closed surface is equal to **1/ε₀** times the net charge enclosed by the surface.
 **∮ E · dA = Q_enclosed / ε₀**.
 
-### I. Derivation (Proof using Coulomb’s Law)
+### <a id="i-derivation-proof-using-coulombs-law"></a>I. Derivation (Proof using Coulomb’s Law)
 1.  Consider a point charge **q** at the center of a sphere of radius **r**.
 2.  **E = [1 / 4πε₀] [q / r²]**.
 3.  Flux **Φ = ∮ E dA cos 0° = E ∮ dA**.
@@ -160,16 +196,16 @@ An **Electric Dipole** consists of two equal and opposite charges (**+q, -q**) s
 
 
 
-## 7. Applications of Gauss’s Law (Technical Mastery)
+## <a id="7-applications-of-gausss-law-technical-mastery"></a>7. Applications of Gauss’s Law (Technical Mastery)
 
-### I. Field due to an Infinitely Long Straight Wire
+### <a id="i-field-due-to-an-infinitely-long-straight-wire"></a>I. Field due to an Infinitely Long Straight Wire
 1.  Assume a Gaussian cylinder of radius **r** and length **L**.
 2.  Flux is only through the curved surface: **Φ = E (2πrL)**.
 3.  Charge enclosed **Q = λ L** (where λ is [linear](/blog/linear-inequalities-class-11-revision-notes-jee-neet) charge density).
 4.  By Gauss's Law: **E (2πrL) = λL / ε₀**.
 5.  **E = λ / (2πε₀r)**. (Proven)
 
-### II. Field due to an Infinite Uniformly Charged Plane Sheet
+### <a id="ii-field-due-to-an-infinite-uniformly-charged-plane-sheet"></a>II. Field due to an Infinite Uniformly Charged Plane Sheet
 1.  Assume a Gaussian pillbox passing through the sheet.
 2.  Flux through two ends: **Φ = 2EA**.
 3.  Charge enclosed **Q = σ A** (where σ is surface charge density).
@@ -178,7 +214,7 @@ An **Electric Dipole** consists of two equal and opposite charges (**+q, -q**) s
 > [!NOTE]
 > **Key Insight:** The electric field of an infinite sheet is independent of the distance **r**.
 
-### III. Field due to a Uniformly Charged Thin Spherical Shell
+### <a id="iii-field-due-to-a-uniformly-charged-thin-spherical-shell"></a>III. Field due to a Uniformly Charged Thin Spherical Shell
 1.  **Outside (r > R):** **E = [1 / 4πε₀] [q / r²]**. (Behaves like a point charge at center).
 2.  **At the surface (r = R):** **E = σ / ε₀**.
 3.  **Inside (r < R):** Since enclosed charge is zero, **E = 0**. (Proven)
@@ -188,7 +224,7 @@ An **Electric Dipole** consists of two equal and opposite charges (**+q, -q**) s
 
 
 
-## Comprehensive Exam Strategy (Q&A)
+## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
 **Q1: Why is Gauss's Law valid only for closed surfaces?**
 **Answer:** The concept of "enclosing" a charge requires a surface that divides space into an "inside" and an "outside." Flux through an open surface depends on the specific geometry and position of the charge, whereas for a closed surface, the reciprocal relationship between E and Area (r² vs 1/r²) ensures the total flux is invariant to the surface's size.
@@ -204,7 +240,7 @@ An **Electric Dipole** consists of two equal and opposite charges (**+q, -q**) s
 
 
 
-## Related Revision Notes
+## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 2: Electrostatic Potential and Capacitance**
 - **Chapter 3: Current Electricity**
@@ -213,7 +249,7 @@ An **Electric Dipole** consists of two equal and opposite charges (**+q, -q**) s
 
 
 
-## Conclusion
+## <a id="conclusion"></a>Conclusion
 
 The field of Electrostatics is the foundation upon which all modern technology—from smartphones to medical imaging—is built. By mastering the mathematical derivations of Gauss's Law and the intricate geometry of dipoles, you move from being a student of physics to a practitioner of electrical science. Master these proofs, understand the symmetry of fields, and you will find that the rest of Class 12 Physics flows with logical elegance. Keep your potential high, your flux constant, and always stay grounded in the truth!
 
@@ -235,7 +271,7 @@ The field of Electrostatics is the foundation upon which all modern technology�
 
 ---
 
-## 📚 Related Topics
+## <a id="-related-topics"></a>📚 Related Topics
 
 Continue your revision with these related guides:
 
@@ -243,3 +279,12 @@ Continue your revision with these related guides:
 - 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
 - 📖 [Linear Inequalities Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/linear-inequalities-class-11-revision-notes-jee-neet)
 - 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
+
+
+---
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/electric-charges-fields-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

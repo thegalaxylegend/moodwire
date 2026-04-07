@@ -1,23 +1,49 @@
 ---
-title: "Thermodynamics Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
-description: "Accelerate your Biology revision with our Thermodynamics guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
-category: "Biology"
-keywords: "thermodynamics class 11 revision notes neet, Biology, Exam Compass"
-date: "2026-03-28"
 heroImage: "/blog-images/thermodynamics-class-11-revision-notes-neet.png"
+title: "Thermodynamics Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
+description: "Thermodynamics Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+category: "Revision"
+date: "2026-03-28"
+practice_link: "/class-11/biology/thermodynamics-class-11-revision-notes-neet"
 ---
+
+
+![Thermodynamics Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog-images/thermodynamics-class-11-revision-notes-neet.png)
+
+*Last Updated: 2026-03-28*
+
+
+
+
+## 📋 Table of Contents
+
+- [What is Thermodynamics Revision Notes?](#what-is-thermodynamics-revision-notes)
+- [Introduction](#introduction)
+- [1. Thermodynamic Systems and State](#1-thermodynamic-systems-and-state)
+- [2. The First Law of Thermodynamics](#2-the-first-law-of-thermodynamics)
+- [3. Derivations: Work Done in Different Processes](#3-derivations-work-done-in-different-processes)
+  - [I. Isothermal Process (T = Constant)](#i-isothermal-process-t-constant)
+  - [II. Adiabatic Process (Q = Constant)](#ii-adiabatic-process-q-constant)
+- [4. The Carnot Cycle: The Ideal Heat Engine](#4-the-carnot-cycle-the-ideal-heat-engine)
+  - [Derivation: Efficiency (η)](#derivation-efficiency-)
+- [5. The Second Law of Thermodynamics](#5-the-second-law-of-thermodynamics)
+- [Comprehensive Exam Strategy (Q&A)](#comprehensive-exam-strategy-qanda)
+- [Related Revision Notes](#related-revision-notes)
+- [Conclusion](#conclusion)
+- [📚 Related Topics](#-related-topics)
+
 
 # Thermodynamics Class 11 Biology Revision — NEET 2026 Grandmaster Guide
 
-![Hero Image](/blog-images/thermodynamics-class-11-revision-notes-neet.png)
 
-*Last Updated: 2026-03-22*
 
-## What is Thermodynamics Revision Notes?
+
+
+## <a id="what-is-thermodynamics-revision-notes"></a>What is Thermodynamics Revision Notes?
 
 # Thermodynamics Revision Notes
 
-![Energy Visual: Heat Engines, P-V Diagrams, and Entropy](/blog-images/thermodynamics-revision.webp)
+
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -31,7 +57,7 @@ heroImage: "/blog-images/thermodynamics-class-11-revision-notes-neet.png"
 ---
 
 
-## Introduction
+## <a id="introduction"></a>Introduction
 
 Thermodynamics is the study of heat, work, and the transformation of energy from one form to another. Unlike mechanics, which focuses on individual particles, thermodynamics deals with large-scale systems and their "State Variables" like pressure, volume, and temperature. This chapter is the heartbeat of modern engineering—from the internal combustion engine in your car to the massive turbines in power plants. In this "Comprehensive" guide, we provide exhaustive derivations for work done in various processes, a step-by-step analysis of the Carnot Cycle, and the rigorous mathematical proofs required for top-tier competitive exams like JEE and NEET.
 
@@ -40,7 +66,7 @@ Thermodynamics is the study of heat, work, and the transformation of energy from
 
 
 
-## 1. Thermodynamic Systems and State
+## <a id="1-thermodynamic-systems-and-state"></a>1. Thermodynamic Systems and State
 
 - **System:** The part of the universe under study. (Open, Closed, or Isolated).
 - **State Variables:** P, V, T, n, U.
@@ -51,7 +77,7 @@ Thermodynamics is the study of heat, work, and the transformation of energy from
 
 
 
-## 2. The First Law of Thermodynamics
+## <a id="2-the-first-law-of-thermodynamics"></a>2. The First Law of Thermodynamics
 
 **Statement:** The heat supplied to a system (**ΔQ**) is equal to the sum of the increase in its internal energy (**ΔU**) and the work done by the system (**ΔW**).
 **Formula: ΔQ = ΔU + ΔW**
@@ -63,18 +89,18 @@ Thermodynamics is the study of heat, work, and the transformation of energy from
 
 
 
-## 3. Derivations: Work Done in Different Processes
+## <a id="3-derivations-work-done-in-different-processes"></a>3. Derivations: Work Done in Different Processes
 
 Work done by a gas is given by the integral: **W = ∫ P dV**.
 
-### I. Isothermal Process (T = Constant)
+### <a id="i-isothermal-process-t-constant"></a>I. Isothermal Process (T = Constant)
 1.  For an ideal gas: **P = nRT / V**.
 2.  **W = ∫ [V1 to V2] (nRT / V) dV**
 3.  **W = nRT [ln V]_V1^V2**
 4.  **W = nRT ln(V2 / V1)**. (Proven)
 - **Log Base 10:** **W = 2.303 nRT log(V2 / V1)**.
 
-### II. Adiabatic Process (Q = Constant)
+### <a id="ii-adiabatic-process-q-constant"></a>II. Adiabatic Process (Q = Constant)
 In an adiabatic process, **PVᵞ = K** (where γ = Cp/Cv).
 1.  **P = K / Vᵞ**.
 2.  **W = ∫ [V1 to V2] (K / Vᵞ) dV = K [V⁻ᵞ⁺¹ / (1-γ)]_V1^V2**
@@ -87,7 +113,7 @@ In an adiabatic process, **PVᵞ = K** (where γ = Cp/Cv).
 
 
 
-## 4. The Carnot Cycle: The Ideal Heat Engine
+## <a id="4-the-carnot-cycle-the-ideal-heat-engine"></a>4. The Carnot Cycle: The Ideal Heat Engine
 
 The Carnot Cycle is a theoretical cycle consisting of four reversible steps:
 1.  **Isothermal Expansion (Step 1):** Heat **Q1** is absorbed at **T1**.
@@ -95,7 +121,7 @@ The Carnot Cycle is a theoretical cycle consisting of four reversible steps:
 3.  **Isothermal Compression (Step 3):** Heat **Q2** is rejected at **T2**.
 4.  **Adiabatic Compression (Step 4):** Temperature rises back to **T1**.
 
-### Derivation: Efficiency (η)
+### <a id="derivation-efficiency-"></a>Derivation: Efficiency (η)
 1.  **Efficiency (η) = Work Done / Heat Supplied = (Q1 - Q2) / Q1**.
 2.  **η = 1 - (Q2 / Q1)**.
 3.  For a Carnot Cycle, it is mathematically proven that **Q2 / Q1 = T2 / T1**.
@@ -107,7 +133,7 @@ The Carnot Cycle is a theoretical cycle consisting of four reversible steps:
 
 
 
-## 5. The Second Law of Thermodynamics
+## <a id="5-the-second-law-of-thermodynamics"></a>5. The Second Law of Thermodynamics
 
 The Second Law sets the direction of energy transfer and limits efficiency.
 - **Kelvin-Planck Statement:** No engine can extract heat from a reservoir and convert it entirely into work without some loss to a sink. (**Perfect efficiency is impossible**).
@@ -118,7 +144,7 @@ The Second Law sets the direction of energy transfer and limits efficiency.
 
 
 
-## Comprehensive Exam Strategy (Q&A)
+## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
 **Q1: Why is an adiabatic process faster than an isothermal one?**
 **Answer:** An **Adiabatic process** involves no heat exchange, requiring excellent insulation or extreme speed so that heat has no time to flow. An **Isothermal process** requires slow movement to allow heat exchange with the surroundings to maintain constant temperature.
@@ -135,7 +161,7 @@ The Second Law sets the direction of energy transfer and limits efficiency.
 
 
 
-## Related Revision Notes
+## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 10: Thermal Properties of Matter**
 - **Chapter 12: Kinetic Theory of Gases (Molecular Dynamics)**
@@ -144,7 +170,7 @@ The Second Law sets the direction of energy transfer and limits efficiency.
 
 
 
-## Conclusion
+## <a id="conclusion"></a>Conclusion
 
 Thermodynamics is the science of limits. By understanding the mathematical proofs behind heat engines and energy conversion, you gain the ability to optimize complex systems and understand the fundamental constraints of our universe. Master the derivations for Isothermal and Adiabatic work—these are the pillars upon which the entire industrial world is built. Stay efficient, watch your entropy, and always respect the Second Law!
 
@@ -166,7 +192,7 @@ Thermodynamics is the science of limits. By understanding the mathematical proof
 
 ---
 
-## 📚 Related Topics
+## <a id="-related-topics"></a>📚 Related Topics
 
 Continue your revision with these related guides:
 
@@ -174,3 +200,12 @@ Continue your revision with these related guides:
 - 📖 [Waves Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/waves-class-11-revision-notes-neet)
 - 📖 [Moving Charges Magnetism Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/moving-charges-magnetism-class-11-revision-notes-neet)
 - 📖 [Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet)
+
+
+---
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/thermodynamics-class-11-revision-notes-neet) now and track your progress against thousands of students.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

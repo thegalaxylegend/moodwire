@@ -1,28 +1,50 @@
 ---
-title: "Climatology Class 11 Geography Recap — CBSE 2026 Quick Guide"
-description: "Accelerate your Geography revision with our Climatology guide. Includes my secret study hacks, conceptual maps, and high-yield MCQs for last-minute success."
-category: "Chemistry"
-keywords: "climatology class 11 revision notes jee neet, Chemistry, Exam Compass"
-date: "2026-03-28"
 heroImage: "/blog-images/climatology-class-11-revision-notes-jee-neet.webp"
+title: "Climatology Class 11 Geography Recap — CBSE 2026 Quick Guide"
+description: "Climatology Class 11 Geography Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-03-28."
+category: "Revision"
+date: "2026-03-28"
+practice_link: "/class-11/chemistry/climatology-class-11-revision-notes-jee-neet"
 ---
+
+
+![Climatology Class 11 Geography Recap — CBSE 2026 Quick Guide](/blog-images/climatology-class-11-revision-notes-jee-neet.webp)
+
+*Last Updated: 2026-03-28*
+
+
+
+
+## 📋 Table of Contents
+
+- [What is Climatology?](#what-is-climatology)
+- [Core Concepts](#core-concepts)
+  - [Formulae Tables](#formulae-tables)
+- [Climatic Elements](#climatic-elements)
+  - [Trap Exceptions](#trap-exceptions)
+- [Types of Climates](#types-of-climates)
+  - [JEE/NEET Data](#jeeneet-data)
+- [Climatic Factors](#climatic-factors)
+  - [Core Concept Map](#core-concept-map)
+- [📚 Related Topics](#-related-topics)
+
 
 # Climatology Class 11 Geography Recap — CBSE 2026 Quick Guide
 
-![Hero Image](/blog-images/climatology-class-11-revision-notes-jee-neet.webp)
-
-*Last Updated: 2026-03-22*
-
-## What is Climatology?
 
 
 
-![Climatology notes for students](/blog-images/climatology-class-11-notes.webp)
 
-*Last Updated: March 21, 2026*
+## <a id="what-is-climatology"></a>What is Climatology?
 
 
-## Core Concepts
+
+
+
+
+
+
+## <a id="core-concepts"></a>Core Concepts
 
 The following are the key concepts in climatology:
 
@@ -32,7 +54,7 @@ The following are the key concepts in climatology:
 4. **Wind**: The movement of air from high to low-pressure areas.
 5. **Precipitation**: Water that falls to the Earth's surface, including **rain**, **snow**, **sleet**, and **hail**.
 
-### Formulae Tables
+### <a id="formulae-tables"></a>Formulae Tables
 Here are some essential formulae related to climatology:
 
 
@@ -45,7 +67,7 @@ Here are some essential formulae related to climatology:
 | $P = \frac{m}{V}$ | Precipitation |
 
 
-## Climatic Elements
+## <a id="climatic-elements"></a>Climatic Elements
 
 The following are the primary climatic [elements](/blog/classification-of-elements-class-11-revision-notes-jee-neet):
 
@@ -55,7 +77,7 @@ The following are the primary climatic [elements](/blog/classification-of-elemen
 4. **Wind**: Measured using an **anemometer**.
 5. **Precipitation**: Measured using a **rain gauge**.
 
-### Trap Exceptions
+### <a id="trap-exceptions"></a>Trap Exceptions
 Be cautious of the following exceptions:
 
 * **Temperature Inversion**: A phenomenon where temperature increases with altitude.
@@ -65,7 +87,7 @@ Be cautious of the following exceptions:
 
 
 
-## Types of Climates
+## <a id="types-of-climates"></a>Types of Climates
 
 The following are the main types of climates:
 
@@ -74,7 +96,7 @@ The following are the main types of climates:
 3. **Temperate Climate**: Characterized by moderate temperatures and moderate humidity.
 4. **Polar Climate**: Characterized by low temperatures and low humidity.
 
-### JEE/NEET Data
+### <a id="jeeneet-data"></a>JEE/NEET Data
 For JEE/NEET aspirants, it's essential to remember the following data:
 
 * The **troposphere** is the lowest layer of the atmosphere, extending up to 12 km.
@@ -84,7 +106,7 @@ For JEE/NEET aspirants, it's essential to remember the following data:
 
 
 
-## Climatic Factors
+## <a id="climatic-factors"></a>Climatic Factors
 
 The following are the key factors that influence [climate](/blog/indian-geography-climate-class-11-revision-notes-cbse):
 
@@ -93,7 +115,7 @@ The following are the key factors that influence [climate](/blog/indian-geograph
 3. **Ocean Currents**: The movement of water in the oceans.
 4. **Landforms**: The shape and features of the land.
 
-### Core Concept Map
+### <a id="core-concept-map"></a>Core Concept Map
 Here is a concept map to help you visualize the relationships between different climatic factors:
 
 ```latex
@@ -130,7 +152,7 @@ By mastering these core concepts, formulae, and climatic factors, you'll be well
 
 ---
 
-## 📚 Related Topics
+## <a id="-related-topics"></a>📚 Related Topics
 
 Continue your revision with these related guides:
 
@@ -138,3 +160,12 @@ Continue your revision with these related guides:
 - 📖 [Geomorphology Class 11 Geography Recap — CBSE 2026 Quick Guide](/blog/geomorphology-class-11-revision-notes-cbse)
 - 📖 [Classification Of Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-of-elements-class-11-revision-notes-jee-neet)
 - 📖 [Indian Geography Physical Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/indian-geography-physical-class-11-revision-notes-jee-neet)
+
+
+---
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/climatology-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

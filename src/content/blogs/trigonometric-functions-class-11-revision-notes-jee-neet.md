@@ -1,23 +1,48 @@
 ---
-title: "Trigonometric Functions Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Learn Trigonometric Functions like a pro. Detailed revision notes, solved examples, and "
-category: "Physics"
-keywords: "trigonometric functions class 11 revision notes jee neet, Physics, Exam Compass"
-date: "2026-03-28"
 heroImage: "/blog-images/trigonometric-functions-class-11-revision-notes-jee-neet.webp"
+title: "Trigonometric Functions Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
+description: "Trigonometric Functions Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+category: "Revision"
+date: "2026-03-28"
+practice_link: "/class-11/physics/trigonometric-functions-class-11-revision-notes-jee-neet"
 ---
+
+
+![Trigonometric Functions Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/trigonometric-functions-class-11-revision-notes-jee-neet.webp)
+
+*Last Updated: 2026-03-28*
+
+
+
+
+## 📋 Table of Contents
+
+- [What is Trigonometric Functions Revision Notes?](#what-is-trigonometric-functions-revision-notes)
+- [Introduction](#introduction)
+- [1. Measuring Angles: Degrees vs Radians](#1-measuring-angles-degrees-vs-radians)
+- [2. The Unit Circle and ASTC Rule](#2-the-unit-circle-and-astc-rule)
+- [3. Domain and Range of Trig Functions](#3-domain-and-range-of-trig-functions)
+- [4. Essential Trigonometric Formulas](#4-essential-trigonometric-formulas)
+  - [Sum and Difference of Angles:](#sum-and-difference-of-angles)
+  - [Double Angle Formulas:](#double-angle-formulas)
+- [5. Trigonometric Equations](#5-trigonometric-equations)
+- [Comprehensive Exam Strategy (Q&A)](#comprehensive-exam-strategy-qanda)
+- [Related Revision Notes](#related-revision-notes)
+- [Conclusion](#conclusion)
+- [📚 Related Topics](#-related-topics)
+
 
 # Trigonometric Functions Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
 
-![Hero Image](/blog-images/trigonometric-functions-class-11-revision-notes-jee-neet.webp)
 
-*Last Updated: 2026-03-22*
 
-## What is Trigonometric Functions Revision Notes?
+
+
+## <a id="what-is-trigonometric-functions-revision-notes"></a>What is Trigonometric Functions Revision Notes?
 
 # Trigonometric Functions Revision Notes
 
-![Infinite Waves: The Beauty of Trigonometry](/blog-images/trigonometric-functions-revision.webp)
+
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -35,7 +60,7 @@ heroImage: "/blog-images/trigonometric-functions-class-11-revision-notes-jee-nee
 ---
 
 
-## Introduction
+## <a id="introduction"></a>Introduction
 
 **Trigonometric Functions extend the geometry of right triangles to the circular motion of the Unit Circle, defining the periodic nature of waves and oscillations. Master radian measure, ASTC rules, and the "Core 10" identities to solve complex rotation problems in physics and engineering. This Class 11 Math Chapter 3 guide ensures you have all essential formulas for JEE and Board success.**
 Trigonometry is the study of triangles, but in Chapter 3, it evolves into the study of periodic [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet).
@@ -45,7 +70,7 @@ Trigonometry is the study of triangles, but in Chapter 3, it evolves into the st
 
 
 
-## 1. Measuring Angles: Degrees vs Radians
+## <a id="1-measuring-angles-degrees-vs-radians"></a>1. Measuring Angles: Degrees vs Radians
 
 1.  **Degree Measure:** If a rotation is 1/360th of a revolution, the angle is 1°.
 2.  **Radian Measure:** Angle subtended at the center by an arc of length 1 unit in a unit circle.
@@ -58,7 +83,7 @@ Trigonometry is the study of triangles, but in Chapter 3, it evolves into the st
 
 
 
-## 2. The Unit Circle and ASTC Rule
+## <a id="2-the-unit-circle-and-astc-rule"></a>2. The Unit Circle and ASTC Rule
 
 The definitions of trigonometric functions are extended to all real [numbers](/blog/complex-numbers-class-11-revision-notes-jee-neet) using a unit circle.
 *   **Signs of Functions:**
@@ -72,7 +97,7 @@ The definitions of trigonometric functions are extended to all real [numbers](/b
 
 
 
-## 3. Domain and Range of Trig Functions
+## <a id="3-domain-and-range-of-trig-functions"></a>3. Domain and Range of Trig Functions
 
 | Function | Domain | Range |
 | :--- | :--- | :--- |
@@ -88,14 +113,14 @@ The definitions of trigonometric functions are extended to all real [numbers](/b
 
 
 
-## 4. Essential Trigonometric Formulas
+## <a id="4-essential-trigonometric-formulas"></a>4. Essential Trigonometric Formulas
 
-### Sum and Difference of Angles:
+### <a id="sum-and-difference-of-angles"></a>Sum and Difference of Angles:
 *   sin(x ± y) = sin x cos y ± cos x sin y
 *   cos(x ± y) = cos x cos y ∓ sin x sin y
 *   tan(x ± y) = (tan x ± tan y) / (1 ∓ tan x tan y)
 
-### Double Angle Formulas:
+### <a id="double-angle-formulas"></a>Double Angle Formulas:
 *   sin 2x = 2 sin x cos x = 2 tan x / (1 + tan²x)
 *   cos 2x = cos²x - sin²x = 2 cos²x - 1 = 1 - 2 sin²x = (1 - tan²x) / (1 + tan²x)
 *   tan 2x = 2 tan x / (1 - tan²x)
@@ -105,7 +130,7 @@ The definitions of trigonometric functions are extended to all real [numbers](/b
 
 
 
-## 5. Trigonometric Equations
+## <a id="5-trigonometric-equations"></a>5. Trigonometric Equations
 
 1.  **sin x = 0** => x = nπ, where n ∈ Z.
 2.  **cos x = 0** => x = (2n + 1)π/2.
@@ -119,7 +144,7 @@ The definitions of trigonometric functions are extended to all real [numbers](/b
 
 
 
-## Comprehensive Exam Strategy (Q&A)
+## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
 **Q1: Find the value of sin(765°).**
 **Answer:**
@@ -145,7 +170,7 @@ The definitions of trigonometric functions are extended to all real [numbers](/b
 
 
 
-## Related Revision Notes
+## <a id="related-revision-notes"></a>Related Revision Notes
 
 - [**Chapter 2: Relations and Functions**
 - **Chapter 5: Complex Numbers**
@@ -154,7 +179,7 @@ The definitions of trigonometric functions are extended to all real [numbers](/b
 
 
 
-## Conclusion
+## <a id="conclusion"></a>Conclusion
 
 Trigonometry is the bridge between geometry and algebra. By mastery the "Core 10" formulas and visualizing the Unit Circle, you unlock the ability to solve complex rotation and wave problems. Keep your radians straight and your ASTC rule handy!
 
@@ -175,7 +200,7 @@ Trigonometry is the bridge between geometry and algebra. By mastery the "Core 10
 
 ---
 
-## 📚 Related Topics
+## <a id="-related-topics"></a>📚 Related Topics
 
 Continue your revision with these related guides:
 
@@ -183,3 +208,12 @@ Continue your revision with these related guides:
 - 📖 [Kinetic Theory Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)
 - 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
 - 📖 [Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
+
+
+---
+
+### 🚀 Ready to Ace Your Exam?
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/trigonometric-functions-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
+
+---
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

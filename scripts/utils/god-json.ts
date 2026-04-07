@@ -16,12 +16,30 @@ export function godSafeParse(raw: string): any {
 
     let jsonStr = raw.trim();
 
-    // 1. Extract JSON block from markdown if present
-    const firstBrace = jsonStr.indexOf('{');
-    const lastBrace = jsonStr.lastIndexOf('}');
-    if (firstBrace !== -1 && lastBrace !== -1) {
+    // 1. Extract JSON block from markdown/garbage if present
+    // First, check if it's an array-wrapped JSON
+    let firstBrace = jsonStr.indexOf('{');
+    let lastBrace = jsonStr.lastIndexOf('}');
+    const firstBracket = jsonStr.indexOf('[');
+    const lastBracket = jsonStr.lastIndexOf(']');
+
+    if (firstBracket !== -1 && firstBracket < (firstBrace === -1 ? Infinity : firstBrace) && lastBracket > lastBrace) {
+        // It's likely array-wrapped, take the first object inside the array
+        if (firstBrace !== -1 && lastBrace !== -1) {
+            jsonStr = jsonStr.substring(firstBrace, lastBrace + 1);
+        }
+    } else if (firstBrace !== -1 && lastBrace !== -1) {
+        // Standard object extraction
         jsonStr = jsonStr.substring(firstBrace, lastBrace + 1);
+    } else {
+        // No braces found? Attempt to treat the whole string as a refusal check
+        if (isRefusal(raw) || raw.includes("<html")) {
+            return { refusal: true, original: raw };
+        }
+        throw new Error("No JSON braces found in input");
     }
+
+
 
     // 2. Remove comments (common in some LLM outputs)
     jsonStr = jsonStr.replace(/\/\/.*$/gm, "").replace(/\/\*[\s\S]*?\*\//g, "");
@@ -49,7 +67,11 @@ export function godSafeParse(raw: string): any {
     jsonStr = jsonStr.replace(/,\s*}/g, "}").replace(/,\s*]/g, "]");
 
     try {
-        return JSON.parse(jsonStr);
+        const cleaned = jsonStr.replace(/"([^"]*)"/g, (match, p1) => {
+            return '"' + p1.replace(/\n|(?<!\\)"/g, (m: string) => m === '\n' ? '\\n' : '\\"') + '"';
+        });
+        return JSON.parse(cleaned);
+
     } catch (err) {
         console.warn("🏺 God-JSON: Standard parse failed. Attempting structural recovery...");
         
@@ -61,22 +83,65 @@ export function godSafeParse(raw: string): any {
             });
             return JSON.parse(fixedNewlines);
         } catch (innerErr: any) {
+            // LAST RESORT: Check for refusal before giving up
+            if (isRefusal(raw) || raw.includes("<html") || raw.includes("500 Internal")) {
+                return { refusal: true, original: raw };
+            }
+
+            // Multi-block recovery: try to find any valid JSON block if the first extraction failed
+            const allBlocks = raw.match(/{[\s\S]*?}/g) || [];
+            for (const block of allBlocks) {
+                try { return JSON.parse(block); } catch { continue; }
+            }
+
             console.error("🏺 God-JSON: Recovery failed. Length:", jsonStr.length);
             throw new Error(`God-JSON Parse Failure: ${innerErr.message}`);
         }
+
     }
 }
+
+/**
+ * Detects if the LLM returned a refusal or policy warning instead of data.
+ */
+export function isRefusal(text: string): boolean {
+    const refusalPatterns = [
+        /I am sorry/i,
+        /I apologize/i,
+        /cannot fulfill/i,
+        /against my policy/i,
+        /restricted/i,
+        /not allowed to generate/i,
+        /ethical/i,
+        /I cannot provide/i
+    ];
+    return refusalPatterns.some(p => p.test(text));
+}
+
 
 /**
  * Higher-level wrapper that takes a "schema-first" approach.
  * If the parse fails, it attempts to extract key fields via regex.
  */
 export function godExtract(raw: string, fields: string[]): Record<string, any> {
+    const result: Record<string, any> = {};
+    
+    // Initialize with safe defaults based on field name patterns
+    for (const field of fields) {
+        if (field.includes("mcqs") || field.includes("recall") || field.includes("options") || field.includes("rows") || field.includes("headers")) {
+            result[field] = [];
+        } else {
+            result[field] = "";
+        }
+    }
+
     try {
         const parsed = godSafeParse(raw);
-        return parsed;
+        if (parsed && typeof parsed === 'object') {
+            return { ...result, ...parsed };
+        }
+        return result;
     } catch {
-        const result: Record<string, any> = {};
         for (const field of fields) {
             const regex = new RegExp(`"${field}"\\s*:\\s*"((?:[^"\\\\]|\\\\.)*)"`, 's');
             const match = raw.match(regex);
