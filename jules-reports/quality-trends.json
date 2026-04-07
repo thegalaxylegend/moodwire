@@ -1,23 +1,88 @@
 {
-  "overallAvgScore": 100,
-  "totalBlogsAllTime": 3,
-  "totalPassed": 3,
-  "totalFailed": 0,
-  "overallPassRate": 100,
-  "trend": "stable",
-  "trendDelta": 0,
+  "overallAvgScore": 77.5,
+  "totalBlogsAllTime": 28,
+  "totalPassed": 21,
+  "totalFailed": 7,
+  "overallPassRate": 75,
+  "trend": "improving",
+  "trendDelta": 26.3,
   "dailyReports": [
     {
-      "date": "2026-04-06",
+      "date": "2026-03-23",
+      "totalBlogs": 6,
+      "passed": 4,
+      "failed": 2,
+      "avgScore": 78.3,
+      "passRate": 67,
+      "errors": []
+    },
+    {
+      "date": "2026-03-29",
+      "totalBlogs": 6,
+      "passed": 6,
+      "failed": 0,
+      "avgScore": 100,
+      "passRate": 100,
+      "errors": []
+    },
+    {
+      "date": "2026-03-30",
+      "totalBlogs": 6,
+      "passed": 1,
+      "failed": 5,
+      "avgScore": 16.7,
+      "passRate": 17,
+      "errors": [
+        "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}",
+        "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}",
+        "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}",
+        "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}",
+        "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}"
+      ]
+    },
+    {
+      "date": "2026-04-03",
       "totalBlogs": 3,
       "passed": 3,
       "failed": 0,
       "avgScore": 100,
       "passRate": 100,
       "errors": []
+    },
+    {
+      "date": "2026-04-04",
+      "totalBlogs": 3,
+      "passed": 3,
+      "failed": 0,
+      "avgScore": 100,
+      "passRate": 100,
+      "errors": []
+    },
+    {
+      "date": "2026-04-05",
+      "totalBlogs": 3,
+      "passed": 3,
+      "failed": 0,
+      "avgScore": 100,
+      "passRate": 100,
+      "errors": []
+    },
+    {
+      "date": "2026-04-06",
+      "totalBlogs": 1,
+      "passed": 1,
+      "failed": 0,
+      "avgScore": 100,
+      "passRate": 100,
+      "errors": []
     }
   ],
-  "topErrors": [],
+  "topErrors": [
+    {
+      "error": "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":",
+      "count": 5
+    }
+  ],
   "alertNeeded": false,
   "alertMessage": ""
 }
