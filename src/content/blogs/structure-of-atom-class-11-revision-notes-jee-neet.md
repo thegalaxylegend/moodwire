@@ -97,7 +97,7 @@ Most students treat this chapter as a bunch of formulas to memorize. I did the s
 
 ## <a id="2-why-structure-of-atom-is-your-jee-score-booster"></a>2. Why Structure of Atom is Your JEE Score Booster
 
-**Exam data shows that this chapter contributes to roughly 2-3 direct questions in JEE Mains and is a fundamental pillar for Inorganic and Physical Chemistry.**
+**Exam data shows that this chapter contributes to roughly 2-3 direct questions in JEE Mains and is a fundamental pillar for Inorganic and Physical [chemistry](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet).**
 
 - **JEE Mains 2026**: In Session 2, Q.14 was a direct calculation of the velocity of an electron in the 3rd orbit of $Li^{2+}$.
 - **NEET Weightage**: Expected 2 questions (one on Quantum Numbers, one on Bohr's/Spectrum).
@@ -162,7 +162,7 @@ Where $R = 109677 \text{ cm}^{-1}$ (or roughly $1.1 \times 10^7 \text{ m}^{-1}$)
 
 ## <a id="5-dual-nature-of-matter-de-broglies-revolutionary-idea"></a>5. Dual Nature of Matter: de Broglie's Revolutionary Idea
 
-**The Dual Nature of Matter describes how every moving particle, from a cricket ball to an electron, exhibits both wave-like and particle-like properties.**
+**The Dual Nature of [matter](/blog/states-of-matter-class-11-revision-notes-jee-neet) describes how every moving particle, from a cricket ball to an electron, exhibits both wave-like and particle-like properties.**
 
 $$\lambda = \frac{h}{mv} = \frac{h}{p}$$
 
@@ -379,7 +379,7 @@ For your school exams, always draw the Rydberg series energy level diagram ($n=1
 ---
 
 **Related [revision](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Notes:**
-- **Chemical Bonding VSEPR Theory JEE 2026 tricks — Hybridization & Shapes**
+- **[chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Bonding VSEPR Theory JEE 2026 tricks — Hybridization & Shapes**
 - **Periodic Table Trends - Master Classification Short Notes**
 - **Some Basic Concepts of Chemistry: Mole Concept & Stoichiometry Revision**
 

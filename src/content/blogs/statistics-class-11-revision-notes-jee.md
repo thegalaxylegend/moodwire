@@ -159,7 +159,7 @@ Standard Deviation is generally better for advanced mathematical analysis becaus
 
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
-- **Chapter 16: Probability**
+- **Chapter 16: [probability](/blog/probability-class-11-revision-notes-jee)**
 - **Chapter 12: Three Dimensional Geometry**
 - [**External Reference:** [NCERT Class 11 Math Chapter 15](https://ncert.nic.in/textbook.php?kemh1=15-16) (Authoritative Source)]
 
@@ -168,7 +168,7 @@ Standard Deviation is generally better for advanced mathematical analysis becaus
 
 ## <a id="conclusion"></a>Conclusion
 
-Statistics in Class 11 moves beyond just finding averages to understanding the reliability of data. Mastering Mean Deviation and Variance allows you to quantify "risk" and "consistency"—skills used in everything from weather forecasting to the stock market. Keep your calculations precise, and remember: consistency is key (both in data and in your study routine)!
+Statistics in [class](/blog/conic-sections-class-11-revision-notes-jee) 11 moves beyond just finding averages to understanding the reliability of data. Mastering Mean Deviation and Variance allows you to quantify "risk" and "consistency"—skills used in everything from weather forecasting to the stock market. Keep your calculations precise, and remember: consistency is key (both in data and in your study routine)!
 
 ---
 

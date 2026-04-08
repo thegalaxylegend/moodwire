@@ -38,7 +38,7 @@ practice_link: "/class-11/physics/ai-exam-prep-future-class-11-revision-notes-je
 
 ## <a id="ayushs-note-the-mistake-i-made"></a>Ayush's Note — The Mistake I Made
 
-{"title":"My Personal Hack for Mastering Physics","content":"One mistake I used to make was trying to memorize formulas and equations without understanding the underlying concepts. However, I soon realized that this approach was not only ineffective but also led to a lot of confusion. My hack is to focus on understanding the derivation of each formula and equation, which helps me to remember them more easily and apply them to different situations. Additionally, I make sure to practice a variety of problems, including those that involve conceptual understanding, numerical calculations, and graphical analysis. By doing so, I've been able to develop a deeper understanding of Physics and improve my problem-solving skills significantly.","tip":"Always try to derive the formulas and equations from first principles, and practice a variety of problems to reinforce your learning."}
+{"title":"My Personal Hack for Mastering Physics","content":"One mistake I used to make was trying to memorize formulas and equations without understanding the underlying concepts. However, I soon realized that this approach was not only ineffective but also led to a lot of confusion. My hack is to focus on understanding the derivation of each formula and equation, which helps me to remember them more easily and apply them to different situations. Additionally, I make sure to practice a variety of problems, including those that involve conceptual understanding, numerical calculations, and graphical [analysis](/blog/algorithms-analysis-class-11-revision-notes-gate-boards). By doing so, I've been able to develop a deeper understanding of Physics and improve my problem-solving skills significantly.","tip":"Always try to derive the formulas and equations from first principles, and practice a variety of problems to reinforce your learning."}
 
 
 
@@ -147,7 +147,7 @@ practice_link: "/class-11/physics/ai-exam-prep-future-class-11-revision-notes-je
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/agriculture-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Ai Study Hack Pomodoro Class 11 Computer Science Recap — CBSE 2026 Quick Guide](/blog/ai-study-hack-pomodoro-class-11-revision-notes-neet)
 - 📖 [Agriculture Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/agriculture-class-11-revision-notes-neet)

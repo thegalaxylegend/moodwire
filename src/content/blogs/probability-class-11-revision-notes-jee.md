@@ -60,7 +60,7 @@ practice_link: "/class-11/mathematics/probability-class-11-revision-notes-jee"
 ## <a id="introduction"></a>Introduction
 
 **Probability is the mathematical measurement of uncertainty, providing the framework for analyzing random experiments and events. Master the Axiomatic Approach, Sample Spaces, and the Addition Rule of sets to excel in advanced statistical modeling and Bayes' Theorem. This [class](/blog/conic-sections-class-11-revision-notes-jee) 11 Math Chapter 16 guide ensures you have all the essential foundations for JEE and CBSE exams.**
-Probability is the mathematical way of measuring uncertainty.
+Probability is the [mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) way of measuring uncertainty.
 
 ---
 
@@ -188,7 +188,7 @@ Probability teaches us to look at the world through the lens of logic rather tha
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/binomial-theorem-class-11-revision-notes-jee) with these related guides:
 
 - 📖 [Sequences Series Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/sequences-series-class-11-revision-notes-jee)
 - 📖 [Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/binomial-theorem-class-11-revision-notes-jee)

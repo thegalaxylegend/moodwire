@@ -59,7 +59,7 @@ As I, Ayush, recall from my history lessons, the Mahajanapadas marked a signific
 
 ## <a id="ayushs-personal-note"></a>Ayush's Personal Note
 
-During my preparation for competitive exams like JEE and NEET, I found that understanding the historical context of ancient India, including the Mahajanapadas, helped me grasp the broader socio-cultural and economic developments of the time. It's fascinating to see how these ancient kingdoms laid the foundation for the diverse cultural, religious, and political landscape of India today.
+During my preparation for competitive exams like JEE and NEET, I found that understanding the historical context of [ancient](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) India, including the Mahajanapadas, helped me grasp the broader socio-cultural and economic developments of the time. It's fascinating to see how these [ancient](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) kingdoms laid the foundation for the diverse cultural, religious, and political landscape of India today.
 
 
 
@@ -158,7 +158,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)
 - 📖 [Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)

@@ -113,7 +113,7 @@ Be cautious of these common exceptions and misconceptions:
 By focusing on these core concepts, formulae, and data, you'll be well-prepared to tackle oceanography in your [class](/blog/biogeography-class-11-revision-notes-neet) 11 geography studies. Remember to review and practice regularly to reinforce your understanding and avoid common pitfalls. Happy learning! 
 
 ### <a id="additional-tips-for-quick-revision"></a>Additional Tips for Quick Revision
-To make the most of this revision guide, follow these tips:
+To make the most of this [revision](/blog/biogeography-class-11-revision-notes-neet) guide, follow these tips:
 
 1. **Create Concept Maps**: Visualize the relationships between different concepts and ideas.
 2. **Make Flashcards**: Summarize key terms and definitions on flashcards for quick review.

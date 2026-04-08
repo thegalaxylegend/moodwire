@@ -45,7 +45,7 @@ As we dive into the realm of Class 12 Physics, it's essential to acknowledge the
 On a personal note, I still remember the initial struggle I faced while grasping the concept of AC. It was during my [class](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) 11 days when I first encountered the term "alternating current." I was fascinated by the fact that the current used in our households is not **direct current (DC)**, but rather AC, which periodically reverses direction. This sparked my curiosity, and I began to explore the world of AC, eventually developing a deep understanding of the subject. Now, as a senior student, I'm excited to share my knowledge with you and help you prepare for the exams.
 
 To truly appreciate the concept of AC, it's essential to have a solid foundation in the following prerequisites:
-* **Electromagnetic induction**: Understanding how a changing magnetic field induces an electromotive force (EMF) in a conductor is crucial for grasping AC concepts.
+* **[electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) induction**: Understanding how a changing magnetic field induces an electromotive force (EMF) in a conductor is crucial for grasping AC concepts.
 * **LCR circuits**: Familiarity with the behavior of resistors, inductors, and capacitors in circuits is necessary for analyzing AC circuits.
 * **Oscillations**: Knowledge of simple harmonic motion and oscillations will help you understand the periodic nature of AC.
 * **Trigonometry**: A good grasp of trigonometric concepts, such as **sine**, **cosine**, and **phasors**, is required for representing and analyzing AC circuits.
@@ -75,7 +75,7 @@ To help you better understand these concepts, let's consider a few examples:
 * **Generators**: Machines that convert mechanical energy into electrical energy, typically producing AC power.
 * **Motors**: Devices that convert electrical energy into mechanical energy, often using AC power.
 
-In the upcoming sections, we'll explore each of these topics in detail, using a combination of theoretical explanations, mathematical derivations, and practical examples. By the end of this journey, you'll have a deep understanding of AC and be well-prepared to tackle the challenges of the Class 12 exams.
+In the upcoming sections, we'll explore each of these topics in detail, using a combination of theoretical explanations, mathematical derivations, and practical examples. By the end of this journey, you'll have a deep understanding of AC and be well-prepared to tackle the challenges of the [class](/blog/wave-optics-class-12-notes) 12 exams.
 
 **Key concepts to focus on:**
 * Understanding the differences between AC and DC

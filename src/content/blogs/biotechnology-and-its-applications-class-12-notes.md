@@ -236,7 +236,7 @@ ightarrow \	ext{Recombinant DNA}
 
  - $pH = pK_a + \log \frac{[A^-]}{[HA]}$ for relating pH to acid dissociation constant.
 
- - Key fact: Biotechnology involves the use of biological systems to develop new products.
+ - Key fact: [biotechnology](/blog/biotechnology-principles-and-processes-class-12-notes) involves the use of biological systems to develop new products.
 
  - Key fact: Cloning vectors are used to transfer genes between organisms.
 

@@ -95,7 +95,7 @@ eq c_1/c_2\}$$ — where $a_1x + b_1y + c_1 = 0$ and $a_2x + b_2y + c_2 = 0$ are
  - **Q3:** Find the ratio of the areas of the triangles formed by the lines $x + y - 4 = 0$, $3x - 4y - 12 = 0$, and $x - y + 1 = 0$.
  - **Trap:** Students often find it difficult to determine the vertices of the [triangles](/blog/triangles-class-10-notes).
  - **Solution:** 
- - First, we need to find the points of intersection of the lines to determine the vertices of the triangles.
+ - First, we need to find the points of intersection of the lines to determine the vertices of the [triangles](/blog/triangles-class-10-notes).
  - The lines $x + y - 4 = 0$ and $3x - 4y - 12 = 0$ intersect at the po\int $(x_1, y_1)$, where:
  - $x_1 + y_1 - 4 = 0$
  - $3x_1 - 4y_1 - 12 = 0$
@@ -157,7 +157,7 @@ eq \frac{b_1}{b_2}}$$: Condition for a unique solution.
  - $${\Delta = a_1b_2 - a_2b_1}$$: Determinant for a pair of linear equations.
  - Key facts:
  - A pair of [linear](/blog/linear-programming-class-12-notes) equations can have a unique solution, infinitely many solutions, or no solution.
- - The graph of a pair of linear equations is a pair of lines that can intersect, be parallel, or coincide.
+ - The graph of a pair of [linear](/blog/linear-programming-class-12-notes) equations is a pair of lines that can intersect, be parallel, or coincide.
  - The method of substitution or elimination can be used to solve a pair of linear equations.
  - Common mistakes:
  - Forgetting to check the condition for a unique solution or infinitely many solutions.

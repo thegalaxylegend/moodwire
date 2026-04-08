@@ -51,7 +51,7 @@ practice_link: "/class-11/chemistry/chemistry-in-everyday-life-class-12-notes"
 * Drug-target interaction: 2-3 marks question on how a specific drug interacts with its target (e.g. enzyme, receptor, etc.) — high yield topic
 * Soaps and detergents: always includes a question on the difference between soap and detergent or asks for an example of a soap or detergent
 * 1 numerical on $C_{n}H_{2n+1}COOH$ (soaps) or $C_{n}H_{2n+1}SO_{4}Na$ (detergents) — always
-* Medicinal chemistry: 2-3 marks question on the structure-activity relationship of a specific drug or a class of drugs (e.g. NSAIDs, antibiotics, etc.)
+* Medicinal chemistry: 2-3 marks question on the structure-activity relationship of a specific drug or a [class](/blog/coordination-compounds-class-12-notes) of drugs (e.g. NSAIDs, antibiotics, etc.)
 * 1 mark question on drug nomenclature: always asks for the IUPAC name of a specific drug
 * Chemicals in medicine: 2 marks question on a specific application of a chemical in medicine (e.g. use of $N_{2}O$ as an anesthetic, etc.)
 * $pH$ of a solution of a weak acid or base: 1-2 marks numerical — always

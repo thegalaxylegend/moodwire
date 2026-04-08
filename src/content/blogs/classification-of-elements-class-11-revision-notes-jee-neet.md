@@ -48,7 +48,7 @@ As I prepare for my Class 11 chemistry exams, I realize the importance of unders
 
 ## <a id="introduction-to-classification-of-elements"></a>Introduction to Classification of Elements
 
-The classification of elements is based on their electronic configuration, which determines their chemical properties. The periodic table is divided into different blocks, such as the s-block, p-block, d-block, and f-block, depending on the orbital that is being filled. The s-block elements are in group 1 and 2, and are typically highly reactive. The p-block elements are in groups 13 to 18, and exhibit a range of properties. The d-block elements are in the transition metal series, and are known for their ability to form ions with different charges. The f-block elements are in the lanthanide and actinide series, and are characterized by their unique magnetic properties.
+The classification of elements is based on their electronic configuration, which determines their [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) properties. The periodic table is divided into different blocks, such as the s-block, p-block, d-block, and f-block, depending on the orbital that is being filled. The s-block elements are in group 1 and 2, and are typically highly reactive. The p-block elements are in groups 13 to 18, and exhibit a range of properties. The d-block elements are in the transition metal series, and are known for their ability to form ions with different charges. The f-block elements are in the lanthanide and actinide series, and are characterized by their unique magnetic properties.
 
 ## <a id="jeeneet-data"></a>JEE/NEET Data
 

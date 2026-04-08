@@ -45,7 +45,7 @@ practice_link: "/class-11/mathematics/ancient-india-vedic-age-class-11-revision-
 
 Quick Revision: Mathematics in Ancient [india](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse) - Vedic Age
 
-The Vedic Age in Ancient India marked the beginning of a significant transition in the mathematical understanding and practices. This period is characterized by the development of Vedic mathematics, which was an early form of mathematical thought. The Vedic texts, such as the Yajurveda, Atharvaveda, and the Rigveda, contain numerous mathematical concepts and theorems.
+The Vedic Age in Ancient [india](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse) marked the beginning of a significant transition in the mathematical understanding and practices. This period is characterized by the development of Vedic mathematics, which was an early form of mathematical thought. The Vedic texts, such as the Yajurveda, Atharvaveda, and the Rigveda, contain numerous mathematical concepts and theorems.
 
 Some notable contributions of the Vedic Age include the concept of zero, the decimal system, and the use of algebraic techniques. The concept of zero enabled the representation of large and small numbers using a single unit, the decimal system allowed for efficient calculations, and algebraic techniques were applied to solve various problems.
 

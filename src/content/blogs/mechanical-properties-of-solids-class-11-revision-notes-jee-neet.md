@@ -180,7 +180,7 @@ In Physics, elasticity is measured by the Modulus (resistance to deformation), n
 
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
-- **Chapter 9: Mechanical Properties of Fluids**
+- **Chapter 9: Mechanical [properties](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet) of Fluids**
 - **Chapter 5: Work, Energy, and Power (Energy Basics)**
 - **Material Science MCQ Challenge for JEE/NEET**
 
@@ -232,7 +232,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
 - 📖 [Mechanical Properties Of Fluids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet)

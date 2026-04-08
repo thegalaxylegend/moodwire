@@ -41,9 +41,9 @@ practice_link: "/class-11/biology/jee-mains-chemistry-repeated-concepts-class-11
 
 While Physics demands conceptual intuition and Mathematics requires intense practice, JEE [mains](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) Chemistry is entirely about pattern recognition.
 
-After breaking down every single shift of the JEE Mains exam from 2019 to 2025, we discovered a stunning reality: **The National Testing Agency (NTA) repeats the same 15 exact concepts in over 85% of their papers.** 
+After breaking down every single shift of the JEE [mains](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) exam from 2019 to 2025, we discovered a stunning reality: **The National Testing Agency (NTA) repeats the same 15 exact concepts in over 85% of their papers.** 
 
-If you master these specific subtopics, scoring 80+ in Chemistry becomes a mathematical certainty.
+If you master these specific subtopics, scoring 80+ in [chemistry](/blog/environmental-chemistry-class-11-revision-notes-neet) becomes a mathematical certainty.
 
 
 ## <a id="physical-chemistry-the-high-roi-formulae"></a>Physical Chemistry: The High ROI Formulae

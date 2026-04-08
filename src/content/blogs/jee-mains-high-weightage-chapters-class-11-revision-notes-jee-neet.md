@@ -68,7 +68,7 @@ In this guide, I’m sharing the exact list of **JEE Mains high weightage low ef
 
 ## <a id="the-philosophy-of-highroi-preparation"></a>The Philosophy of High-ROI Preparation
 
-The JEE syllabus includes roughly 90 chapters. Trying to master all of them in a short timeframe is often counterproductive. Top scorers at IITs succeed because they know what to skip. They focus on trends in **previous year papers** to maintain a balance between difficulty and accuracy.
+The JEE syllabus includes roughly 90 chapters. Trying to [master](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet) all of them in a short timeframe is often counterproductive. Top scorers at IITs succeed because they know what to skip. They focus on trends in **previous year papers** to maintain a balance between difficulty and accuracy.
 
 Exam conductors like the NTA include "easy" chapters like Units and Dimensions to balance the paper. These **JEE Mains high weightage low effort chapters** are low-hanging fruits that yield high marks for minimal effort. According to [U.S. News Education](https://www.usnews.com/education), focusing on high-ROI tasks is a proven [strategy](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet) for high-stakes examinations.
 
@@ -77,9 +77,9 @@ Exam conductors like the NTA include "easy" chapters like Units and Dimensions t
 
 ## <a id="physics-and-chemistry-the-formula-goldmines"></a>Physics and Chemistry: The Formula Goldmines
 
-In Physics, "Modern Physics" is the undisputed king of ROI. It covers Dual Nature, Atoms, and Nuclei, often providing up to 16 marks for just a few hours of study. Similarly, Semiconductors and Communication Systems offer binary results—either you know the logic gate or you don't—without requiring complex calculations.
+In Physics, "Modern Physics" is the undisputed king of ROI. It covers Dual Nature, Atoms, and Nuclei, often providing up to 16 marks for just a few hours of [study](/blog/study-12-hours-daily-tips-class-11-revision-notes-jee-neet). Similarly, Semiconductors and Communication Systems offer binary results—either you know the logic gate or you don't—without requiring complex calculations.
 
-Chemistry is where you secure your rank. Chapters like Environmental Chemistry and Biomolecules take very little time to master using **NCERT solutions**. By reading these "memory-based" chapters a week before the exam, you ensure the information is fresh and ready for immediate retrieval during the test.
+Chemistry is where you secure your rank. Chapters like [environmental](/blog/environmental-chemistry-class-11-revision-notes-neet) Chemistry and Biomolecules take very little time to master using **NCERT solutions**. By reading these "memory-based" chapters a week before the exam, you ensure the information is fresh and ready for immediate retrieval during the test.
 
 
 

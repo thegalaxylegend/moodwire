@@ -17,7 +17,7 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
 
 ### 🚀 Quick Recall — Last Night Summary
 
-- Arithmetic Mean: AM of two numbers a, b is (a+b)/2 — always
+- Arithmetic Mean: AM of two [numbers](/blog/real-numbers-class-10-notes) a, b is (a+b)/2 — always
 - Common Difference: d = an - an-1 — always
 - General Term: an = a + (n-1)d — always
 - Sum of n Terms: Sn = n/2 * (a + l) — frequently
@@ -66,7 +66,7 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
  - **Mistake 3:** Incorrectly calculating the \sum of the first n terms of an AP using the formula $S_n = \frac{n}{2}(a_1 + a_n)$ or $S_n = \frac{n}{2}[2a_1 + (n-1)d]$, which can result from misidentifying $a_1$, $a_n$, or $d$.
  - *Costs:* 3-4 marks per question
  - *Fix:* Verify that $a_1$, $a_n$, and $d$ are correctly identified before applying the \sum formula. For examp\le, to find the \sum of the first 5 terms of an AP with $a_1 = 2$ and $d = 3$, first find $a_5 = 2 + (5-1)\times 3 = 14$, then calculate $S_5 = \frac{5}{2}(2 + 14) = \frac{5}{2} \times 16 = 40$.
- - **Mistake 4:** Not checking for the correct application of the formula for the \sum of an AP when the number of terms is not explicitly given but can be found using other information provided in the problem.
+ - **Mistake 4:** Not checking for the correct [application](/blog/application-of-derivatives-class-12-notes) of the formula for the \sum of an AP when the number of terms is not explicitly given but can be found using other information provided in the problem.
  - *Costs:* 2-3 marks per question
  - *Fix:* Ensure that if $n$ is not directly provided, it can be calculated using the information given. For examp\le, if an AP has $a_1 = 5$, $d = 2$, and $a_n = 17$, solve for $n$ using $17 = 5 + (n-1)\times 2$ to find $n$, then apply the \sum formula.
  - **Mistake 5:** Failing to recognize when an AP is not applicab\le to a given scenario, such as trying to apply AP formulas to a sequence that is not arithmetic.
@@ -84,7 +84,7 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
  $$
  \frac{n}{2} [2a + (n - 1)d] = 225 quad 	ext{and} quad \frac{2n}{2} [2a + (2n - 1)d] = 525
  $$
- Simplifying these equations, we get:
+ Simplifying these [equations](/blog/pair-of-linear-equations-class-10-notes), we get:
  $$
  2a + (n - 1)d = \frac{450}{n} quad 	ext{and} quad 2a + (2n - 1)d = \frac{525}{n}
  $$

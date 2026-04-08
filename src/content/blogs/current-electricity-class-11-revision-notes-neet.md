@@ -91,7 +91,7 @@ While electrostatics deals with charges at rest, **Current Electricity** is the 
 
 ## <a id="2-microscopic-view-of-current-drift-velocity"></a>2. Microscopic View of Current: Drift Velocity
 
-In the absence of an electric field, free electrons move randomly with high thermal speeds (~10⁵ m/s). When an external field **E** is applied, they acquire a small net velocity called **Drift Velocity (v_d)**.
+In the absence of an [electric](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) field, free electrons move randomly with high thermal speeds (~10⁵ m/s). When an external field **E** is applied, they acquire a small net velocity called **Drift Velocity (v_d)**.
 
 ### <a id="i-derivation-expression-for-drift-velocity"></a>I. Derivation: Expression for Drift Velocity
 1.  Acceleration of an electron: **a = F / m = -eE / m**.
@@ -228,7 +228,7 @@ A voltmeter draws some current from the circuit, thereby measuring a terminal vo
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 2: Electrostatical Potential & Capacitive Circuits**
-- **Chapter 4: Moving Charges and Magnetism (The Next Milestone)**
+- **Chapter 4: [moving](/blog/moving-charges-magnetism-class-11-revision-notes-neet) Charges and Magnetism (The Next Milestone)**
 - **Mastering Kirchhoff’s Network Analysis: Rank Booster Set**
 
 
@@ -236,7 +236,7 @@ A voltmeter draws some current from the circuit, thereby measuring a terminal vo
 
 ## <a id="conclusion"></a>Conclusion
 
-Current Electricity is the foundation of energy conversion and electronics. By mastering the microscopic derivations of Ohm’s Law and the sophisticated rules of Kirchhoff, you gain the ability to analyze and design the complex circuits that define our era. This completes the first unit of Class 12 Electromagnetism! Master the potentiometer principles and the Wheatstone bridge—these are the bridge-builders to advanced electrical engineering. Keep your current steady, your resistance managed, and your potential always at its peak!
+Current Electricity is the foundation of energy conversion and electronics. By mastering the microscopic derivations of Ohm’s Law and the sophisticated rules of Kirchhoff, you gain the ability to analyze and design the complex circuits that define our era. This completes the first unit of [class](/blog/kinetic-theory-class-11-revision-notes-jee-neet) 12 Electromagnetism! Master the potentiometer principles and the Wheatstone bridge—these are the bridge-builders to advanced electrical engineering. Keep your current steady, your resistance managed, and your potential always at its peak!
 
 ---
 **Reference:** [IEEE Spectrum: Electrotechnology News and Analysis](https://spectrum.ieee.org)

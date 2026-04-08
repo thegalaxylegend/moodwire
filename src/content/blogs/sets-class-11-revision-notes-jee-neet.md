@@ -168,7 +168,7 @@ The set can be written as the interval **(-4, 6]**.
 
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
-- **Chapter 2: Relations and Functions**
+- **Chapter 2: [relations](/blog/relations-functions-class-11-revision-notes-jee-neet) and Functions**
 - **Chapter 3: Trigonometric Functions**
 - [**External Reference:** [NCERT Class 11 Math Chapter 1](https://ncert.nic.in/textbook.php?kemh1=1-16) (Authoritative Source)]
 
@@ -177,7 +177,7 @@ The set can be written as the interval **(-4, 6]**.
 
 ## <a id="conclusion"></a>Conclusion
 
-Sets are more than just lists of numbers; they are the building blocks of logical thought in mathematics. By mastering the representations, types, and operations on sets, you gain the clarity needed to tackle more advanced topics like probability and calculus. Keep your Venn diagrams clear and your subsets well-defined!
+Sets are more than just lists of [numbers](/blog/complex-numbers-class-11-revision-notes-jee-neet); they are the building blocks of logical thought in mathematics. By mastering the representations, types, and operations on sets, you gain the clarity needed to tackle more advanced topics like probability and calculus. Keep your Venn diagrams clear and your subsets well-defined!
 
 ---
 
@@ -198,7 +198,7 @@ Sets are more than just lists of numbers; they are the building blocks of logica
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/linear-inequalities-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Relations Functions Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/relations-functions-class-11-revision-notes-jee-neet)
 - 📖 [Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)

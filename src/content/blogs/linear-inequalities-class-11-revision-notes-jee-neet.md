@@ -71,7 +71,7 @@ Not every problem in mathematics results in a single "equal" answer.
 ## <a id="1-algebraic-solutions-of-linear-inequalities"></a>1. Algebraic Solutions of Linear Inequalities
 
 Solving an inequality is very similar to solving an equation, with one critical difference.
-1.  **Rule 1:** Equal numbers may be added to (or subtracted from) both sides without affecting the sign.
+1.  **Rule 1:** Equal [numbers](/blog/complex-numbers-class-11-revision-notes-jee-neet) may be added to (or subtracted from) both sides without affecting the sign.
 2.  **Rule 2:** Both sides can be multiplied/divided by the same **positive** number.
 3.  **Rule 3:** If both sides are multiplied/divided by a **negative** number, the inequality sign is **reversed**.
     *Example:* -2x < 6 => x > -3.
@@ -186,7 +186,7 @@ Linear Inequalities shift your thinking from "points" to "regions." By mastering
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 - 📖 [Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)

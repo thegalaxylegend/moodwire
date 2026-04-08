@@ -237,7 +237,7 @@ Semiconductors are a crucial part of modern technology, and understanding their 
 
 #### 2. **Nanostructured Materials and their Properties**
 
-Nanostructured materials have revolutionized various fields, from medicine to energy. We'll discuss the unique properties of these materials, such as their high surface area, reactivity, and conductivity. You'll learn how to calculate the band gap energy and conductivity of nanostructured materials and understand their potential applications.
+Nanostructured materials have revolutionized various fields, from medicine to energy. We'll discuss the unique properties of these materials, such as their high [surface](/blog/surface-chemistry-class-12-notes) area, reactivity, and conductivity. You'll learn how to calculate the band gap energy and conductivity of nanostructured materials and understand their potential applications.
 
 #### 3. **Crystal Defects and their Impact on Material Properties**
 

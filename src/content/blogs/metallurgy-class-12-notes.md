@@ -189,7 +189,7 @@ Electrochemical principles involve the application of $$E^{\circ}_{cell} = E^{\c
 As we continue to explore the world of metallurgy, it is essential to understand the principles and processes involved in the extraction and refining of metals. By avoiding common mistakes and applying thermodynamic and electrochemical principles, we can optimize metal extraction processes and produce high-purity metals.
 
 ### <a id="conclusion-and-advanced-topics"></a>Conclusion and Advanced Topics
-, metallurgy is a complex and fascinating field that involves the extraction, refining, and application of metals. The advanced topics covered in this guide, including thermodynamic principles, electrochemical principles, electrolytic reduction, and roasting and calcination, are crucial for understanding the intricacies of metallurgical processes.
+, metallurgy is a complex and fascinating field that involves the extraction, refining, and [application](/blog/application-of-integrals-class-12-notes) of metals. The advanced topics covered in this guide, including thermodynamic principles, electrochemical principles, electrolytic reduction, and roasting and calcination, are crucial for understanding the intricacies of metallurgical processes.
 
 Some additional advanced topics that are not covered in this guide include:
 

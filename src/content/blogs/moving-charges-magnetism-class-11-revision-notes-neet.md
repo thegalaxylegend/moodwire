@@ -151,7 +151,7 @@ If the velocity makes an angle **θ** with the field, the charge follows a helic
 
 ## <a id="5-torque-on-a-current-loop-in-a-uniform-magnetic-field"></a>5. Torque on a Current Loop in a Uniform Magnetic Field
 
-1.  Magnetic Dipole Moment **m = NIA**. (Direction perpendicular to plane).
+1.  Magnetic Dipole Moment **m = NIA**. (Direction perpendicular to [plane](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)).
 2.  **Torque (τ) = m × B = mB sinθ**. (Proven)
 - This torque is the working principle of the **Moving Coil Galvanometer**.
 
@@ -166,7 +166,7 @@ A device used to detect and measure small currents.
 - **Restoring Torque:** τ_rest = kφ (where k is torsional constant).
 - **Deflecting Torque:** τ_def = NIAB.
 - At equilibrium: **NIAB = kφ** => **φ = (NAB/k) I**.
-- **Current Sensitivity:** φ/I = NAB/k.
+- **[current](/blog/current-electricity-class-11-revision-notes-neet) Sensitivity:** φ/I = NAB/k.
 
 ### <a id="i-conversion-to-ammeter"></a>I. Conversion to Ammeter
 To measure larger currents, we connect a low resistance (**Shunt**) in parallel.
@@ -208,7 +208,7 @@ To measure potential difference, we connect a high resistance in series.
 
 ## <a id="conclusion"></a>Conclusion
 
-Moving Charges and Magnetism represent the bridge between pure electricity and the complex world of electromagnetics. By mastering the Biot-Savart Law and the nuances of the Lorentz force, you unlock the ability to understand everything from the aurora borealis to the high-speed trains of the future. Master these derivations, understand the geometry of fields, and you will find that the study of magnetism is a gateway to the most exciting frontiers of modern physics. Keep your velocity perpendicular, your flux enclosed, and always stay magnetic in your pursuit of excellence!
+Moving [charges](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) and Magnetism represent the bridge between pure electricity and the complex world of electromagnetics. By mastering the Biot-Savart Law and the nuances of the Lorentz force, you unlock the ability to understand everything from the aurora borealis to the high-speed trains of the future. Master these derivations, understand the geometry of fields, and you will find that the study of magnetism is a gateway to the most exciting frontiers of modern physics. Keep your velocity perpendicular, your flux enclosed, and always stay magnetic in your pursuit of excellence!
 
 ---
 **Reference:** [CERN: The Large Hadron Collider (Bending Charges at Peak Energy)](https://home.cern)

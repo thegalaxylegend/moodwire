@@ -61,7 +61,7 @@ The selection process for NMMS is standardized across states, consisting of the 
 
 ## <a id="statelevel-talent-search-exams-a-comprehensive-directory"></a>State-Level Talent Search Exams: A Comprehensive Directory
 
-Every state has its own unique heritage of talent identification. For instance, Maharashtra holds the MSCE Pune Scholarship (PUP/PSS) for Classes 5 and 8, focusing heavily on intelligence and language proficiency. Delhi’s JSTSE is a prestigious gateway for Class 9 students, offering a rigorous test of general awareness and science. In the south, Tamil Nadu offers the TRUST and VSTS exams, specifically designed to identify and support bright minds from rural local bodies who might lack access to urban coaching centers.
+Every state has its own unique heritage of talent identification. For instance, Maharashtra holds the MSCE Pune Scholarship (PUP/PSS) for Classes 5 and 8, focusing heavily on intelligence and language proficiency. Delhi’s JSTSE is a prestigious gateway for [class](/blog/study-12-hours-daily-tips-class-11-revision-notes-jee-neet) 9 students, offering a rigorous test of general awareness and science. In the south, Tamil Nadu offers the TRUST and VSTS exams, specifically designed to identify and support bright minds from rural local bodies who might lack access to urban coaching centers.
 
 | State | Primary Exam Name | Eligible Classes | Key Subjects |
 | :--- | :--- | :--- | :--- |

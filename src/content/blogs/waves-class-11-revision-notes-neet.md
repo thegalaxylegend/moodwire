@@ -86,7 +86,7 @@ Waves are the carriers of energy and information across the universe. From the s
 A **Wave** is a disturbance that travels through a medium, transporting energy from one point to another without causing permanent displacement of the particles of the medium.
 
 ### <a id="i-mechanical-vs-nonmechanical-waves"></a>I. Mechanical vs. Non-Mechanical Waves
-- **Mechanical Waves:** Require a material medium (Elasticity and Inertia) for propagation (e.g., Sound, Water waves).
+- **[mechanical](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) Waves:** Require a material medium (Elasticity and Inertia) for propagation (e.g., Sound, Water waves).
 - **Non-Mechanical (Electromagnetic) Waves:** Do not require a medium; they propagate via oscillating electric and magnetic fields (e.g., Light, Radio waves).
 
 ### <a id="ii-transverse-vs-longitudinal-waves"></a>II. Transverse vs. Longitudinal Waves
@@ -98,7 +98,7 @@ A **Wave** is a disturbance that travels through a medium, transporting energy f
 ### <a id="iii-fundamental-wave-quantities"></a>III. Fundamental Wave Quantities
 1.  **Amplitude (A):** The maximum displacement of a particle from its mean position.
 2.  **Wavelength (λ):** Distance between two consecutive crests or compressions.
-3.  **Frequency (ν):** Number of oscillations per second. **ν = 1 / T**.
+3.  **Frequency (ν):** Number of [oscillations](/blog/oscillations-class-11-revision-notes-jee-neet) per second. **ν = 1 / T**.
 4.  **Wave Velocity (v):** Distance traveled by the wave per unit time. **v = ν λ**.
 5.  **Angular Wave Number (k):** **k = 2π / λ**.
 6.  **Angular Frequency (ω):** **ω = 2π ν = 2π / T**.
@@ -216,7 +216,7 @@ Formed by the superposition of two waves of slightly different frequencies (**ν
 
 ## <a id="7-the-doppler-effect-master-derivation"></a>7. The Doppler Effect (Master Derivation)
 
-The apparent change in frequency of a wave due to the relative motion between the source and the observer.
+The apparent change in frequency of a wave due to the relative [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) between the source and the observer.
 
 ### <a id="i-the-general-formula"></a>I. The General Formula
 **f' = f [ (v ± v_o) / (v ∓ v_s) ]**

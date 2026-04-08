@@ -118,7 +118,7 @@ Explore our [Sitemap](/sitemap.xml) for more resources.
 Yes, as long as you are prioritizing 7 hours of sleep and regular breaks. The goal is active, high-quality studying, not just sitting at a desk. If you feel extreme physical pain or mental burnout, reduce the intensity and focus on quality over quantity.
 
 ### <a id="2-can-i-use-music-while-studying-for-long-hours"></a>2. Can I use music while studying for long hours?
-Instrumental music or lo-fi beats can help some students maintain a "flow state" by blocking out background noise. However, music with lyrics often consumes the same brain parts used for reading, which can reduce your overall comprehension speed.
+Instrumental music or lo-fi beats can help some students maintain a "flow [state](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)" by blocking out background noise. However, music with lyrics often consumes the same brain parts used for reading, which can reduce your overall comprehension speed.
 
 ### <a id="3-how-do-i-start-if-i-can-only-study-for-2-hours-now"></a>3. How do I start if I can only study for 2 hours now?
 Don't jump to 12 hours immediately. Start by adding one 30-minute session each day. Within two weeks of consistent additions, you will build the mental stamina required for 12-hour session blocks without feeling overwhelmed.
@@ -162,7 +162,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Jee Mains High Weightage Chapters Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)
 - 📖 [Cuet 2026 Master Strategy Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)

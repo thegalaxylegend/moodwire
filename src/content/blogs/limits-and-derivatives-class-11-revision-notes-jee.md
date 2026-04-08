@@ -54,7 +54,7 @@ To illustrate the concept of limits, consider the function $f(x) = \frac{1}{x}$ 
 
 Similarly, derivatives can be used to analyze functions and optimize them. For instance, the derivative of the function $f(x) = x^2$ is $f'(x) = 2x$. This can be used to find the maximum or minimum value of the function, which is essential in a wide range of applications. By applying the concept of derivatives, students can develop a deeper understanding of how functions behave and how they can be optimized.
 
-In the context of the Class 11 exam, students are expected to have a strong grasp of the following topics:
+In the context of the [class](/blog/digital-logic-class-11-revision-notes-gate-boards) 11 exam, students are expected to have a strong grasp of the following topics:
 
 * Limits: concept of limits, theorems on limits, and calculation of limits
 * Derivatives: concept of derivatives, rules of differentiation, and geometric interpretation of derivatives

@@ -175,7 +175,7 @@ practice_link: "/class-11/mathematics/application-of-integrals-class-12-notes"
 
 #### Volume of a Solid
 - The volume of a solid can be found using $V = \int_{a}^{b} \pi [f(x)]^2 \,dx$.
-- This formula is used when the solid is formed by a curve.
+- This formula is used when the [solid](/blog/solid-state-class-12-notes) is formed by a curve.
 - The volume has numerous applications.
 - For example, it can be used to find the volume of a sphere, the volume of a cylinder, and the volume of a cone.
 - Key points to remember:

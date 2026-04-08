@@ -213,7 +213,7 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 
  - [human](/blog/microbes-in-human-welfare-class-12-notes) disease can be caused by genetic, environmental, or infectious factors.
 
- - The human body has various defense mechanisms, including the immune system, to fight against diseases.
+ - The [human](/blog/microbes-in-human-welfare-class-12-notes) body has various defense mechanisms, including the immune system, to fight against diseases.
 
  - Maintaining a healthy lifestyle, including a balanced diet and regular exercise, is essential for preventing diseases.
 

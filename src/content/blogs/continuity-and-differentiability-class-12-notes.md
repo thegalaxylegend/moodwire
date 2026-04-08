@@ -303,7 +303,7 @@ As we delve deeper into the world of continuity and differentiability, it's esse
 
 To reinforce your understanding of continuity and differentiability and to practice applying these concepts to solve problems, it's crucial to utilize the Test Center at /[class](/blog/amines-class-12-notes)-11/mathematics/continuity-and-differentiability-[class](/blog/amines-class-12-notes)-12-notes. This valuable resource provides a comprehensive platform for you to:
 
-1. **Review Notes and Concepts:** The Test Center offers detailed notes and explanations on continuity and differentiability, covering topics from basic definitions to advanced applications.
+1. **Review [notes](/blog/amines-class-12-notes) and Concepts:** The Test Center offers detailed [notes](/blog/amines-class-12-notes) and explanations on continuity and differentiability, covering topics from basic definitions to advanced applications.
 2. **Practice with Solved Examples:** Working through solved examples will help you understand how to apply theoretical concepts to practical problems, enhancing your problem-solving skills.
 3. **Attempt Practice Questions:** The Test Center includes a wide range of practice questions, from basic to advanced levels, allowing you to assess your understanding and identify areas where you need more practice.
 4. **Analyze Your Performance:** After attempting practice questions, you can analyze your performance to understand your strengths and weaknesses, helping you focus your study efforts more effectively.

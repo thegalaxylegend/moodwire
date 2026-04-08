@@ -154,7 +154,7 @@ By understanding the historical context of the Delhi Sultanate, we can gain a de
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) with these related guides:
 
 - 📖 [Medieval India Bhakti Sufi Class 11 History Recap — CBSE 2026 Quick Guide](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse)
 - 📖 [Medieval India Mughals Class 11 History Recap — CBSE 2026 Quick Guide](/blog/medieval-india-mughals-class-11-revision-notes-cbse)

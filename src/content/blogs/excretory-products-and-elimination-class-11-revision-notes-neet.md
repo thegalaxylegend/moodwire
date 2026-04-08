@@ -54,7 +54,7 @@ The excretory system is a complex system that involves the [coordination](/blog/
 * **Lungs**: The lungs are a pair of organs located in the chest cavity. They remove carbon dioxide from the body through exhalation.
 * **Skin**: The skin is the largest organ in the body, and it plays a role in excretion by removing waste products through sweating.
 
-The excretory system also involves the coordination of multiple processes, including:
+The excretory system also involves the [coordination](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) of multiple processes, including:
 
 * **Filtration**: The process of removing waste products and excess substances from the blood.
 * **Reabsorption**: The process of returning nutrients and substances to the bloodstream.
@@ -234,7 +234,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/biological-classification-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Animal Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)
 - 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)

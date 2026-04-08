@@ -426,7 +426,7 @@ H2O
 C2O42-
 CO
 
-**Answer:** C) C2O42- (oxalate ion) is an example of a bidentate ligand because it has two oxygen atoms that can bind to a central metal atom.
+**Answer:** C) C2O42- (oxalate ion) is an example of a bidentate ligand because it has two oxygen [atoms](/blog/atoms-class-12-notes) that can bind to a central metal atom.
 
 
 **3. What is the name of the complex [Cr(H2O)6]Cl3?**

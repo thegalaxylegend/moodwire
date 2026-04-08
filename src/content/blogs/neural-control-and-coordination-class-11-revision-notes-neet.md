@@ -77,7 +77,7 @@ While there aren't direct mathematical formulae for neural control and coordinat
 
 ## <a id="jeeneet-relevance"></a>JEE/NEET Relevance
 
-Understanding neural control and coordination is essential for students preparing for JEE and NEET. Questions related to the structure and function of neurons, types of neurons, synaptic transmission, and reflex actions are frequently asked in these exams. Additionally, knowledge of the human nervous system and its functions can help in solving problems related to physiology and neurology.
+Understanding neural control and [coordination](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) is essential for students preparing for JEE and NEET. Questions related to the structure and function of neurons, types of neurons, synaptic transmission, and reflex actions are frequently asked in these exams. Additionally, knowledge of the human nervous system and its functions can help in solving problems related to physiology and neurology.
 
 ## <a id="detailed-explanation-of-key-concepts"></a>Detailed Explanation of Key Concepts
 
@@ -85,7 +85,7 @@ Understanding neural control and coordination is essential for students preparin
 The human nervous system is a complex system that controls and coordinates body activities. It consists of the central nervous system (CNS), which includes the brain and spinal cord, and the peripheral nervous system (PNS), which consists of nerves that connect the CNS to the rest of the body.
 
 ### <a id="brain"></a>Brain
-The brain is the control center of the body. It processes sensory information, controls movement, and manages functions such as heartbeat, breathing, digestion, and temperature regulation. The brain can be divided into different parts, each with distinct functions:
+The brain is the control center of the body. It processes sensory information, controls [movement](/blog/locomotion-and-movement-class-11-revision-notes-neet), and manages functions such as heartbeat, breathing, digestion, and temperature regulation. The brain can be divided into different parts, each with distinct functions:
 - **Cerebrum**: The largest part of the brain, responsible for processing sensory information, controlling movement, managing higher-level cognitive functions such as thought, action, and emotion.
 - **Cerebellum**: Located at the back of the brain, it coordinates voluntary movements such as posture, balance, coordination, and speech, resulting in smooth and balanced muscular activity.
 - **Brainstem**: Connects the cerebrum with the spinal cord, regulating basic functions such as breathing, heartbeat, and blood pressure.
@@ -129,7 +129,7 @@ where:
 - $g_{Na}$, $g_K$, and $g_L$ are the conductances for sodium, potassium, and leak channels, respectively,
 - $V_{Na}$, $V_K$, and $V_L$ are the equilibrium potentials for sodium, potassium, and leak channels, respectively.
 
-This equation, part of the Hodgkin-Huxley model, demonstrates the complex interplay of ion channels and currents that underlie the generation and propagation of action potentials in neurons. While the mathematical details may be beyond the scope of Class 11 biology, understanding the biological principles behind such equations can deepen your appreciation for the intricate mechanisms of neural control and coordination.
+This equation, part of the Hodgkin-Huxley model, demonstrates the complex interplay of ion channels and currents that underlie the generation and propagation of action potentials in neurons. While the mathematical details may be beyond the scope of [class](/blog/body-fluids-and-circulation-class-11-revision-notes-neet) 11 biology, understanding the biological principles behind such equations can deepen your appreciation for the intricate mechanisms of neural control and coordination.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

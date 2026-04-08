@@ -102,7 +102,7 @@ practice_link: "/class-11/biology/human-reproduction-class-12-notes"
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
-- **Q1:** What is the primary function of FSH in the human female reproductive cycle?
+- **Q1:** What is the primary function of FSH in the [human](/blog/microbes-in-human-welfare-class-12-notes) female reproductive cycle?
 
  - **Trap:** Students often confuse FSH with LH and their roles in the menstrual cycle.
 
@@ -190,7 +190,7 @@ practice_link: "/class-11/biology/human-reproduction-class-12-notes"
 | Topic | Subtopic | Weightage |
 | --- | --- | --- |
 | Human [reproduction](/blog/reproduction-in-organisms-class-12-notes) | Menstrual Cycle | 12 |
-| Human Reproduction | Fertilization and Implantation | 10 |
+| Human [reproduction](/blog/reproduction-in-organisms-class-12-notes) | Fertilization and Implantation | 10 |
 | Human Reproduction | Pregnancy and Childbirth | 8 |
 | Human Reproduction | Contraception and Infertility | 6 |
 | Human Reproduction | Sexually Transmitted Diseases | 4 |

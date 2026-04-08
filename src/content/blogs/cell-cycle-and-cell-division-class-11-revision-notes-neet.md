@@ -79,7 +79,7 @@ Cell cycle and cell division are essential processes in living organisms, and th
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-I still remember when I was preparing for my Class 11 exams, I used to struggle with understanding the cell cycle and cell division. I would often get confused between the different stages of mitosis and cytokinesis. One mistake I made was not practicing enough diagrams and flowcharts, which made it difficult for me to visualize the process. However, after practicing consistently and using online resources, I was able to grasp the concept and score well in my exams. My advice to students would be to practice regularly and use visual aids to understand complex concepts.
+I still remember when I was preparing for my [class](/blog/hydrocarbons-class-11-revision-notes-neet) 11 exams, I used to struggle with understanding the cell cycle and cell division. I would often get confused between the different stages of mitosis and cytokinesis. One mistake I made was not practicing enough diagrams and flowcharts, which made it difficult for me to visualize the process. However, after practicing consistently and using online resources, I was able to grasp the concept and score well in my exams. My advice to students would be to practice regularly and use visual aids to understand complex concepts.
 ```markdown
 <div class="note-box">
   <p>Ayush's Tip: Practice consistently and use visual aids to understand complex concepts.</p>

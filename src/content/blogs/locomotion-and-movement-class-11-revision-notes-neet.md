@@ -88,7 +88,7 @@ Some important JEE/NEET questions related to locomotion and movement include:
 
 ## <a id="core-concepts-and-formulae-summary"></a>Core Concepts and Formulae Summary
 
-To summarize, the core concepts related to locomotion and movement include muscle structure and function, nervous system control, and skeletal system support. The formulae and equations relevant to this topic include force, work, and power. Understanding these concepts and formulae is essential for answering JEE/NEET questions related to locomotion and movement.
+To summarize, the core concepts related to locomotion and movement include muscle structure and function, nervous system [control](/blog/neural-control-and-coordination-class-11-revision-notes-neet), and skeletal system support. The formulae and equations relevant to this topic include force, work, and power. Understanding these concepts and formulae is essential for answering JEE/NEET questions related to locomotion and movement.
 
 ## <a id="practice-questions"></a>Practice Questions
 
@@ -131,7 +131,7 @@ To prepare for JEE/NEET exams, it is essential to have a thorough understanding 
 
 By following these tips and practicing regularly, you can improve your understanding of locomotion and movement and perform well in JEE/NEET exams. 
 
-The study of locomotion and movement is a fascinating and complex topic that requires a deep understanding of biological principles and concepts. By topic, you can gain a better appreciation for the intricate mechanisms that govern life and movement in living organisms. As you continue to explore this topic, remember to stay focused, persistent, and curious, and you will be well on your way to achieving success in your academic and professional pursuits.
+The study of locomotion and movement is a fascinating and complex topic that requires a deep understanding of [biological](/blog/biological-classification-class-11-revision-notes-neet) principles and concepts. By topic, you can gain a better appreciation for the intricate mechanisms that govern life and movement in living organisms. As you continue to explore this topic, remember to stay focused, persistent, and curious, and you will be well on your way to achieving success in your academic and professional pursuits.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
@@ -171,7 +171,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/animal-kingdom-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Neural Control And Coordination Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/neural-control-and-coordination-class-11-revision-notes-neet)
 - 📖 [Animal Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)

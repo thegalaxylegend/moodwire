@@ -60,7 +60,7 @@ Poverty & Unemployment is a socio-economic issue. It includes lack of income, un
 
 ## <a id="how-to-measure-poverty"></a>How to Measure Poverty?
 
-Measuring poverty involves calculating the poverty line, which is the minimum income required to meet basic needs. It includes headcount ratio, poverty gap, and Gini coefficient. For Class 11 exam prep in 2026, the most important aspect is understanding the differences between these measures.
+Measuring poverty involves calculating the poverty line, which is the minimum income required to meet basic needs. It includes headcount ratio, poverty gap, and Gini coefficient. For [class](/blog/planning-in-india-class-11-revision-notes-jee-neet) 11 exam prep in 2026, the most important aspect is understanding the differences between these measures.
 
 
 | Measure | Description |

@@ -268,7 +268,7 @@ The sum equals the $\Delta H_f$. This cycle is a favorite for numerical question
 
 ## <a id="9-resonance-the-myth-of-the-single-bond"></a>9. Resonance: The Myth of the Single Bond
 
-**Resonance describes molecules where bonding cannot be expressed by a single Lewis structure, leading to delocalized electrons and intermediate bond lengths.**
+**Resonance describes molecules where bonding cannot be expressed by a single Lewis [structure](/blog/structure-of-atom-class-11-revision-notes-jee-neet), leading to delocalized electrons and intermediate bond lengths.**
 
 In $O_3$, both bond lengths are identical (128 pm) despite one being "double" and one "single" in a traditional Lewis dot structure. Resonance energy is the difference in energy between the real hybrid and the most stable canonical form. The higher the resonance energy, the more stable the molecule.
 
@@ -434,7 +434,7 @@ Don't just memorize the table. Ask yourself "Why does lone pair repulsion decrea
 
 ---
 
-**Related Revision Notes:**
+**Related [revision](/blog/equilibrium-class-11-revision-notes-jee-neet) Notes:**
 - **Structure of Atom - Quantum Numbers & Configuration Shortcuts**
 - **Periodic Table Trends - Master Classification Short Notes**
 - **JEE Mains 2026: High Weightage Chapters Analysis**

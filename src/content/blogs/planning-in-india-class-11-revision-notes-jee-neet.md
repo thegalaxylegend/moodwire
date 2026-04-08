@@ -48,7 +48,7 @@ Planning in India is a process of formulating and implementing plans for the dev
 
 
 
-Planning in India is a process of formulating and implementing plans for the development of the country. It includes the Five-Year Plans, annual plans, and perspective planning. For Class 11 exam prep in 2026, the most important aspect is understanding the role of planning in India's economic development.
+Planning in India is a process of formulating and implementing plans for the development of the country. It includes the Five-Year Plans, annual plans, and perspective planning. For [class](/blog/poverty-unemployment-class-11-revision-notes-jee-neet) 11 exam prep in 2026, the most important aspect is understanding the role of planning in India's economic development.
 
 
 | Plan | Duration | Focus |

@@ -196,7 +196,7 @@ To achieve a good grade in the exams, I, Ayush, follow these final tips:
 * **Review the key concepts and dates**: Make sure to review the core concepts, formulae, and tables related to the Industrial Revolution.
 * **Practice MCQs**: Practice MCQs to assess your knowledge and identify areas for improvement.
 * **Watch out for trap exceptions**: Watch out for trap exceptions to avoid common mistakes.
-* **Use LaTeX to format your notes**: Use LaTeX to format your notes and make them more readable.
+* **Use LaTeX to format your [notes](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)**: Use LaTeX to format your [notes](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) and make them more readable.
 
 By following these tips, I am confident that I can achieve a good grade in my exams.
 

@@ -111,7 +111,7 @@ The concept of species is fundamental in understanding biodiversity and evolutio
 
 ## <a id="core-concepts"></a>Core Concepts
 
-The living world is characterized by several core concepts, including:
+The living [world](/blog/physical-world-class-11-revision-notes-jee-neet) is characterized by several core concepts, including:
 * **Cell Theory**: The cell theory states that all living organisms are composed of cells, and that cells are the basic structural and functional units of life.
 * **Gene Theory**: The gene theory states that genes are the basic units of heredity, and that they carry information from one generation to the next.
 * **Evolution**: Evolution is the process by which living organisms change over time through the accumulation of genetic variations.
@@ -192,7 +192,7 @@ Solution: A) Cosmology
 
 ## <a id="related-notes-links"></a>Related Notes Links
 
-* Cell Biology Class 11 Notes
+* Cell Biology [class](/blog/biological-classification-class-11-revision-notes-neet) 11 Notes
 * Genetics Class 11 Notes
 
 

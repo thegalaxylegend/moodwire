@@ -46,7 +46,7 @@ practice_link: "/class-11/physics/the-s-block-elements-class-11-revision-notes-j
 
 * The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements are in Group 1 and 2 of the periodic table.
 * They are also known as the alkali metals and alkaline earth metals.
-* These elements have a tendency to lose electrons to form positive ions.
+* These [elements](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) have a tendency to lose electrons to form positive ions.
 * The s-block elements are highly reactive.
 * They are soft and have low melting points.
 
@@ -175,7 +175,7 @@ Solution: D) Rubidium
 
 ## <a id="related-notes-links"></a>Related Notes Links
 
-For more information on the s-block elements, you can refer to the following notes:
+For more information on the s-block elements, you can refer to the following [notes](/blog/biological-classification-class-11-revision-notes-neet):
 * Chemical Bonding Notes
 * Electrochemistry Notes
 

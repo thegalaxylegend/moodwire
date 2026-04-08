@@ -71,7 +71,7 @@ Physical World is <span [class](/blog/environmental-chemistry-class-11-revision-
 
 ## <a id="why-this-chapter-matters"></a>Why This Chapter Matters
 
-This chapter is crucial for Class 11 students as it lays the foundation for understanding more complex physics concepts. In the JEE Mains 2026 Session 1, 2 questions came from this topic, highlighting its importance. Additionally, the chapter helps students develop problem-solving skills and understand the significance of measurement and error analysis in scientific experiments.
+This chapter is crucial for [class](/blog/environmental-chemistry-class-11-revision-notes-neet) 11 students as it lays the foundation for understanding more complex physics concepts. In the JEE Mains 2026 Session 1, 2 questions came from this topic, highlighting its importance. Additionally, the chapter helps students develop problem-solving skills and understand the significance of measurement and error analysis in scientific experiments.
 
 
 

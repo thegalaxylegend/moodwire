@@ -158,8 +158,8 @@ In earlier classes, we said D < 0 means "No real roots." Now, we find complex ro
 
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
-- **Chapter 3: Trigonometric Functions**
-- **Chapter 6: Linear Inequalities**
+- **Chapter 3: [trigonometric](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) Functions**
+- **Chapter 6: [linear](/blog/linear-inequalities-class-11-revision-notes-jee-neet) Inequalities**
 - [**External Reference:** [NCERT Class 11 Math Chapter 5](https://ncert.nic.in/textbook.php?kemh1=5-16) (Authoritative Source)]
 
 
@@ -167,7 +167,7 @@ In earlier classes, we said D < 0 means "No real roots." Now, we find complex ro
 
 ## <a id="conclusion"></a>Conclusion
 
-Complex numbers expand your mathematical toolkit to include rotation and two-dimensional numbers. By mastering the Argand plane and the algebra of 'i', you prepare yourself for advanced topics in physics and engineering. Remember, a complex number is just a vector in a different language!
+Complex numbers expand your mathematical toolkit to include rotation and two-dimensional numbers. By mastering the Argand [plane](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) and the algebra of 'i', you prepare yourself for advanced topics in physics and engineering. Remember, a complex number is just a vector in a different language!
 
 ---
 

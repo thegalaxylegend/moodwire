@@ -74,7 +74,7 @@ Nature is rhythmic. From the beating of a heart and the vibration of a guitar st
 
 ## <a id="1-periodic-and-oscillatory-motion"></a>1. Periodic and Oscillatory Motion
 
-- **Periodic Motion:** Motion that repeats itself at regular intervals of time (e.g., Earth's orbit).
+- **Periodic [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet):** [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) that repeats itself at regular intervals of time (e.g., Earth's orbit).
 - **Oscillatory Motion:** To-and-fro motion about a fixed mean position (e.g., Pendulum).
 - **Note:** Every oscillatory motion is periodic, but not every periodic motion is oscillatory.
 
@@ -187,7 +187,7 @@ Starting from **x = A sin(ωt + φ)**:
 - **Phase Difference = π/2 (or 90°)**. Acceleration leads velocity by 90°.
 
 **Q2: Does the total energy of an oscillator depend on its position 'x'?**
-**Answer:** **No.** While Kinetic and Potential Energy individually change with **x**, their sum **E = 1/2 mω² A²** only depends on the mass, frequency, and amplitude of the oscillation.
+**Answer:** **No.** While [kinetic](/blog/kinetic-theory-class-11-revision-notes-jee-neet) and Potential Energy individually change with **x**, their sum **E = 1/2 mω² A²** only depends on the mass, frequency, and amplitude of the oscillation.
 
 **Q3: A clock based on a spring-mass system is taken to the Moon. Does it run slow?**
 **Answer:** **No.** The time period of a spring-mass system **T = 2π√(m/k)** is independent of gravity. However, a pendulum clock **T = 2π√(L/g)** would run slower because **g** is smaller on the Moon.

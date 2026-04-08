@@ -46,7 +46,7 @@ practice_link: "/class-11/biology/transport-in-plants-class-11-revision-notes-ne
 #### Quick Recall Box
 * Transport in [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) is essential for survival
 * It involves the movement of water, minerals, and sugars throughout the plant
-* There are two main types of transport in plants: passive and active transport
+* There are two main types of transport in [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet): passive and active transport
 * Passive transport includes diffusion, osmosis, and transpiration
 * Active transport involves the use of energy to move substances against their concentration gradient
 ##

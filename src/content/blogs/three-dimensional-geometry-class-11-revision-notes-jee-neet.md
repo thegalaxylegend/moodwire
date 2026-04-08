@@ -144,7 +144,7 @@ The centroid of a triangle with vertices (x₁, y₁, z₁), (x₂, y₂, z₂),
 - d = √[(-4 - 1)² + (1 - (-3))² + (2 - 4)²]
 - d = √[(-5)² + (4)² + (-2)²]
 - d = √[25 + 16 + 4] = √45
-- **d = 3√5 units**.
+- **d = 3√5 [units](/blog/units-and-measurements-class-11-revision-notes-jee-neet)**.
 
 **Q3: Find the coordinates of the point which divides the line joining (1, -2, 3) and (3, 4, -5) internally in the ratio 2 : 3.**
 **Answer:**
@@ -190,7 +190,7 @@ The centroid of a triangle with vertices (x₁, y₁, z₁), (x₂, y₂, z₂),
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Straight Lines Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/straight-lines-class-11-revision-notes-jee-neet)
 - 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)

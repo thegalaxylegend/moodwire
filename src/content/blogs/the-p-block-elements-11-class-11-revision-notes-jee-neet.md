@@ -95,7 +95,7 @@ The electronic configuration of the p-block elements can be represented as $ns^2
 ## <a id="physical-properties-of-the-pblock-elements"></a>Physical Properties of the P-Block Elements
 
 The [physical](/blog/physical-world-class-11-revision-notes-jee-neet) properties of the p-block elements vary widely, depending on the group and period. Some of the key physical properties include:
-* Atomic radius: The atomic radius of the p-block elements decreases from left to right across a period and increases down a group.
+* Atomic radius: The atomic radius of the p-[block](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) elements decreases from left to right across a period and increases down a group.
 * Electronegativity: The electronegativity of the p-block elements increases from left to right across a period and decreases down a group.
 * Ionization energy: The ionization energy of the p-block elements increases from left to right across a period and decreases down a group.
 
@@ -117,7 +117,7 @@ The chemical properties of the p-block elements are also varied, depending on th
 The p-block elements exhibit a wide range of core concepts, including:
 * The p-block elements are characterized by the presence of p-orbitals in their outermost energy level.
 * The electronic configuration of the p-block elements can be represented as $ns^2np^{1-6}$.
-* The p-block elements exhibit a wide range of physical and chemical properties.
+* The p-block elements exhibit a wide range of [physical](/blog/physical-world-class-11-revision-notes-jee-neet) and chemical properties.
 
 
 
@@ -181,7 +181,7 @@ Solution: B) 150 pm
 
 ## <a id="related-notes-links"></a>Related Notes Links
 
-* Chemical Bonding Notes for Class 11
+* Chemical Bonding Notes for [class](/blog/biological-classification-class-11-revision-notes-neet) 11
 * Periodic Table Notes for Class 11
 
 Note: The word count for this post is 2476 words, which meets the minimum word count requirement for chapter revision notes.

@@ -55,7 +55,7 @@ practice_link: "/class-11/physics/motion-in-a-plane-class-11-revision-notes-jee-
 > - **Projectile [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet):** Max Height H = (u² sin²θ)/2g; Range R = (u² sin2θ)/g; Time of Flight T = (2u sinθ)/g.
 > - **Max Range:** Occurs at θ = 45°.
 > - **Equation of Trajectory:** y = x tanθ - [gx² / (2u² cos²θ)].
-> - **Uniform Circular Motion:** Centripetal Acceleration a_c = v²/r = ω²r.
+> - **Uniform Circular [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet):** Centripetal Acceleration a_c = v²/r = ω²r.
 > - **Vectors:** Resolution R = √(A² + B² + 2AB cosθ).
 > [**📥 Download 1-Page Short Notes PDF (Zero-Friction)**](#)
 

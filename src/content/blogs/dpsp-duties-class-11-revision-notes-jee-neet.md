@@ -51,7 +51,7 @@ DPSP & Duties is a fundamental concept in Indian Polity that outlines the Direct
 
 ## <a id="what-are-the-historical-developments-of-dpsp-and-duties"></a>What are the Historical Developments of DPSP & Duties?
 
-The concept of DPSP & Duties has its roots in the Indian independence movement. The **Indian National Congress** played a significant role in shaping these principles, with leaders like **Jawaharlal Nehru** and **Mahatma Gandhi** advocating for social and economic justice. The **Constitution of India**, adopted in 1950, enshrined these principles in the Directive Principles of State Policy.
+The concept of DPSP & Duties has its roots in the [indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) independence movement. The **[indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) National Congress** played a significant role in shaping these principles, with leaders like **Jawaharlal Nehru** and **Mahatma Gandhi** advocating for social and economic justice. The **Constitution of India**, adopted in 1950, enshrined these principles in the Directive Principles of State Policy.
 
 Here's a brief timeline of key events:
 
@@ -109,7 +109,7 @@ As I review the concepts and principles, I identify some potential trap exceptio
 * **Confusing DPSP with Fundamental Rights**: While both concepts are essential in Indian Polity, they serve distinct purposes. DPSP outlines the principles of social and economic justice, whereas Fundamental Rights guarantee individual freedoms and protections.
 * **Overlooking the historical context**: Understanding the historical developments and context in which DPSP & Duties were introduced is crucial for a deeper appreciation of these principles.
 
-Ayush's Personal Note: As I prepare for the Class 11 exam in 2026, I recognize the importance of mastering the concepts and principles of DPSP & Duties. By understanding the historical context, core concepts, and trap exceptions, I can develop a comprehensive understanding of Indian Polity and perform well in the exam.
+Ayush's Personal Note: As I prepare for the [class](/blog/physical-world-class-11-revision-notes-jee-neet) 11 exam in 2026, I recognize the importance of mastering the concepts and principles of DPSP & Duties. By understanding the historical context, core concepts, and trap exceptions, I can develop a comprehensive understanding of Indian Polity and perform well in the exam.
 
 
 

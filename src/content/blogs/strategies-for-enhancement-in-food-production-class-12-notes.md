@@ -217,9 +217,9 @@ practice_link: "/class-11/biology/strategies-for-enhancement-in-food-production-
 
  - Crop rotation enhances soil fertility and reduces pest buildup.
 
- - Monoculture can lead to soil degradation and reduced biodiversity.
+ - Monoculture can lead to soil degradation and reduced [biodiversity](/blog/biodiversity-and-conservation-class-12-notes).
 
- - Organic farming methods can improve soil health and ecosystem services.
+ - Organic farming methods can improve soil health and [ecosystem](/blog/ecosystem-class-12-notes) services.
 
  - Common mistakes:
 

@@ -58,7 +58,7 @@ practice_link: "/class-11/physics/mathematical-induction-class-11-revision-notes
 ## <a id="introduction"></a>Introduction
 
 **Mathematical Induction is a powerful logical proof technique used to verify the truth of infinite statements starting from a base case. Master the three-step process—Checking n=1, Assuming n=k, and Proving n=k+1—to solve rigorous identity proofs in algebra and sequence theory. This [class](/blog/limits-derivatives-class-11-revision-notes-jee-neet) 11 Math Chapter 4 summary provides the deductive logic essential for JEE level problem-solving.**
-Mathematical Induction is a powerful "proof technique" used to establish the truth of mathematical statements for all natural numbers.
+[mathematical](/blog/mathematical-reasoning-class-11-revision-notes-jee-neet) Induction is a powerful "proof technique" used to establish the truth of [mathematical](/blog/mathematical-reasoning-class-11-revision-notes-jee-neet) statements for all natural numbers.
 
 ---
 
@@ -74,7 +74,7 @@ If both conditions are satisfied, then $P(n)$ is true for all natural numbers $n
 
 ## <a id="2-the-three-pillars-of-execution"></a>2. The Three Pillars of Execution
 
-To solve any induction problem, you must follow these three formal steps:
+To solve any induction problem, you must follow these [three](/blog/three-dimensional-geometry-class-11-revision-notes-jee-neet) formal steps:
 
 ### <a id="pillar-1-the-base-case"></a>Pillar 1: The Base Case
 Check if the result holds for the smallest value of $n$ (usually $n=1$).
@@ -153,7 +153,7 @@ Mathematical Induction removes the "guesswork" from general observations. It all
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Mathematical Reasoning Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-reasoning-class-11-revision-notes-jee-neet)
 - 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)

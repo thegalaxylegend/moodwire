@@ -52,7 +52,7 @@ The nucleus contains protons and neutrons, which are collectively known as nucle
 
 ## <a id="core-concepts"></a>Core Concepts
 
-To master the structure of an atom, it's essential to understand the following core concepts:
+To master the structure of an atom, it's essential to understand the following core [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet):
 
 1. **Atomic Number (Z)**: The atomic number is the number of protons in an atom's nucleus, and it determines the element of an atom. It's denoted by the symbol Z.
 2. **Mass Number (A)**: The mass number is the sum of protons and neutrons in an atom's nucleus. It's denoted by the symbol A.
@@ -130,7 +130,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/classification-of-elements-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Chemical Coordination And Integration Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet)
 - 📖 [Some Basic Concepts Of Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet)

@@ -77,13 +77,13 @@ Chemistry in NEET is split into Physical, Organic, and Inorganic. The transition
 - **Coordination Compounds:** 3-4 questions are standard. Master Isomerism, VBT, and CFT.
 - **[chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Bonding & Molecular Structure:** The foundation of inorganic chemistry. Expect 3 questions primarily on VSEPR and MOT.
 - **[equilibrium](/blog/equilibrium-class-11-revision-notes-jee-neet):** Ionic [equilibrium](/blog/equilibrium-class-11-revision-notes-jee-neet) (pH calculations, solubility product) is heavily tested.
-- **Aldehydes, Ketones, and Carboxylic Acids:** The highest weightage organic chapter. Focus on name reactions and acidic strength orders.
+- **Aldehydes, Ketones, and Carboxylic Acids:** The highest [weightage](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) organic chapter. Focus on name reactions and acidic strength orders.
 
 ### <a id="moderateweightage-chapters"></a>Moderate-Weightage Chapters:
 - Solutions and Electrochemistry
 - Thermodynamics
 - Hydrocarbons
-- p-Block Elements (Focus strictly on NCERT trends)
+- p-Block [elements](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet) (Focus strictly on NCERT trends)
 
 
 
@@ -109,7 +109,7 @@ Biology constitutes 50% of the NEET paper. The recent trend shows an increase in
 
 ## <a id="the-strategy-for-2026"></a>The Strategy for 2026
 
-Data shows that 70% of the NEET paper comes from only 35% of the syllabus. If you are starting late, focus exclusively on the high-weightage chapters listed above. If you are aiming for a top 1000 rank, use this list to structure your final revision iterations.
+Data shows that 70% of the NEET paper comes from only 35% of the syllabus. If you are starting late, focus exclusively on the high-weightage chapters listed above. If you are aiming for a top 1000 rank, use this list to structure your final [revision](/blog/equilibrium-class-11-revision-notes-jee-neet) iterations.
 
 <br/>
 <br/>

@@ -71,7 +71,7 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
  - *Fix:* Understand that sustainable use refers to the use of species or ecosystems in a way that maintains their viability, while conservation focuses on protecting and preserving species and ecosystems. Recognize that sustainable use can be a part of conservation strategies but is not synonymous with it.
 
- - **Mistake 5:** Not considering the impact of invasive species on native biodiversity when discussing ecosystem conservation.
+ - **Mistake 5:** Not considering the impact of invasive species on native biodiversity when discussing [ecosystem](/blog/ecosystem-class-12-notes) conservation.
 
  - *Costs:* 3-4 marks for overlooking this critical factor in conservation.
 
@@ -145,7 +145,7 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
  $$
 
- They also consider the role of other factors such as habitat diversity, climate, and human activities in shaping biodiversity. Furthermore, they can apply the concept of Island Biogeography to real-world scenarios, such as the design of nature reserves and the conservation of endangered species.
+ They also consider the role of other factors such as habitat diversity, climate, and [human](/blog/human-health-and-disease-class-12-notes) activities in shaping biodiversity. Furthermore, they can apply the concept of Island Biogeography to real-world scenarios, such as the design of nature reserves and the conservation of endangered species.
 
  - **Key Formulas:**
 

@@ -74,7 +74,7 @@ Understanding the core [concepts](/blog/some-basic-concepts-of-chemistry-class-1
 
 ## <a id="formulae"></a>Formulae
 
-While there are no specific formulae to remember in chemical coordination and integration, understanding the relationships between different hormones and their regulatory mechanisms is crucial. For example:
+While there are no specific formulae to remember in chemical [coordination](/blog/neural-control-and-coordination-class-11-revision-notes-neet) and integration, understanding the relationships between different hormones and their regulatory mechanisms is crucial. For example:
 
 * The regulation of blood sugar levels by insulin and glucagon can be represented by the following equation:
 $$
@@ -92,7 +92,7 @@ Chemical coordination and integration is a critical topic for JEE/NEET aspirants
 * Endocrine disorders
 * Neuroendocrine functions
 
-In the JEE/NEET exam, chemical coordination and integration is covered in the biology section, which accounts for 50% of the total marks. The biology section consists of 45 questions, each carrying 4 marks. The questions are designed to test the candidate's understanding of biological concepts, including chemical coordination and integration.
+In the JEE/NEET exam, chemical coordination and integration is covered in the biology section, which accounts for 50% of the total marks. The biology section consists of 45 questions, each carrying 4 marks. The questions are designed to test the candidate's understanding of biological [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet), including chemical coordination and integration.
 
 ## <a id="core-concepts-in-depth"></a>Core Concepts in Depth
 
@@ -156,7 +156,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/classification-of-elements-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Neural Control And Coordination Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/neural-control-and-coordination-class-11-revision-notes-neet)
 - 📖 [Classification Of Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-of-elements-class-11-revision-notes-jee-neet)

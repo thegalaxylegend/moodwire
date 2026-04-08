@@ -69,7 +69,7 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 
  - *Fix:* Use the formula $2^n$ for calculating the number of possible genotypes and $3^n$ for the number of possible phenotypes in a monohybrid cross.
 
- - **Mistake 3:** Failing to understand the difference between linked and unlinked genes, leading to incorrect assumptions about gene inheritance.
+ - **Mistake 3:** Failing to understand the difference between linked and unlinked genes, leading to incorrect assumptions about gene [inheritance](/blog/principles-of-inheritance-and-variation-class-12-notes).
 
  - *Costs:* 3-4 marks for each incorrect assumption.
 

@@ -227,7 +227,7 @@ practice_link: "/class-11/chemistry/aldehydes-ketones-and-carboxylic-acids-class
  - $${C_6H_5COOH + CH_3CH_2OH \rightarrow C_6H_5COOCH_2CH_3 + H_2O}$$
 
 ### <a id="-introduction-to-aldehydes-ketones-and-carboxylic-acids"></a>🌟 Introduction to Aldehydes, Ketones, and Carboxylic Acids
-Continuing from where we left off, it's essential to delve deeper into the world of aldehydes, ketones, and carboxylic acids. These compounds are crucial in organic chemistry, and understanding their properties, reactions, and mechanisms is vital for any aspiring chemist.
+Continuing from where we left off, it's essential to delve deeper into the world of aldehydes, ketones, and carboxylic acids. These compounds are crucial in organic [chemistry](/blog/surface-chemistry-class-12-notes), and understanding their properties, reactions, and mechanisms is vital for any aspiring chemist.
 
 ### <a id="-properties-of-aldehydes-and-ketones"></a>🌈 Properties of Aldehydes and Ketones
 Aldehydes and ketones are both carbonyl compounds, but they differ in their structure and properties. Aldehydes have a carbonyl group (C=O) bonded to a hydrogen atom, while ketones have a carbonyl group bonded to two alkyl groups. This difference in structure affects their reactivity and properties.
@@ -284,7 +284,7 @@ Examples of ring-chain tautomerism include the tautomerism between a ring and a 
 , aldehydes, ketones, and carboxylic acids are essential compounds in organic chemistry, and understanding their properties, reactions, and mechanisms is crucial for success in JEE and NEET exams. This guide has covered the key concepts, including nucleophilic addition reactions, reduction reactions, oxidation reactions, aldol condensation, Cannizzaro reaction, haloform reaction, and more.
 
 ### <a id="-master-the-test-center-stepbystep-learning"></a>📝 Master the Test Center — Step-by-Step Learning
-To master the concepts of aldehydes, ketones, and carboxylic acids, we recommend using the Test Center at /class-11/chemistry/aldehydes-ketones-and-carboxylic-acids-class-12-notes. This resource offers a comprehensive and structured approach to learning, with step-by-step explanations, practice questions, and mock tests. By using the Test Center, you can:
+To master the concepts of aldehydes, ketones, and carboxylic acids, we recommend using the Test Center at /[class](/blog/metallurgy-class-12-notes)-11/chemistry/aldehydes-ketones-and-carboxylic-acids-[class](/blog/metallurgy-class-12-notes)-12-notes. This resource offers a comprehensive and structured approach to learning, with step-by-step explanations, practice questions, and mock tests. By using the Test Center, you can:
 
 1. **Review and practice** key concepts and reactions
 2. **Identify and address** weaknesses and areas of improvement

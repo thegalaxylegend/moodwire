@@ -64,7 +64,7 @@ The following are some of the key features of the Indus Valley Civilization:
 
 ## <a id="jeeneet-data"></a>JEE/NEET Data
 
-For students preparing for JEE/NEET, it is essential to understand the historical context of Ancient India. The following data is relevant for JEE/NEET:
+For students preparing for JEE/NEET, it is essential to understand the historical context of Ancient [india](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse). The following data is relevant for JEE/NEET:
 
 | Topic | Description |
 | --- | --- |

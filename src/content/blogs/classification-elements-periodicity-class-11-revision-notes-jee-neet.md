@@ -339,7 +339,7 @@ D) Ge
 I created a single A4 sheet I called the "Trend Map." Here's what was on it:
 
 1. **The Arrow Diagram**: I drew 4 arrows on a mini periodic table — one for Radius, one for IE, one for EGE, one for EN. Each arrow pointed in the direction of increase. I looked at this before every mock.
-2. **The Anomaly List**: I wrote down every anomaly (N>O for IE, Cl>F for EGE, noble gas radius) on sticky notes and pasted them on my desk.
+2. **The Anomaly List**: I wrote down every anomaly (N>O for IE, Cl>F for EGE, noble gas radius) on sticky [notes](/blog/equilibrium-class-11-revision-notes-jee-neet) and pasted them on my desk.
 3. **The Isoelectronic Drill**: I practiced ordering isoelectronic species ($N^{3-}, O^{2-}, F^-, Ne, Na^+, Mg^{2+}, Al^{3+}$) by radius until it was automatic.
 
 ### <a id="board-exam-tip"></a>Board Exam Tip:

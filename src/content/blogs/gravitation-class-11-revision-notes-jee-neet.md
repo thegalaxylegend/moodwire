@@ -173,7 +173,7 @@ The minimum velocity required for an object to break free from Earth's gravitati
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 6: Rotational [motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet) (Angular Momentum)**
-- **Chapter 2: Motion in a Straight Line (Free Fall)**
+- **Chapter 2: [motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet) in a Straight Line (Free Fall)**
 - **Advanced Orbital Mechanics Simulator**
 
 
@@ -224,7 +224,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
 - 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)

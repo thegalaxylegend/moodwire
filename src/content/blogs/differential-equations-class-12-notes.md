@@ -170,7 +170,7 @@ By using the Test Center, you'll be able to:
 * Improve your time management and test-taking skills
 * Build confidence and fluency in differential equations
 
-So, what are you waiting for? Head over to the Test Center at /class-11/mathematics/differential-equations-class-12-notes and start mastering differential equations today!
+So, what are you waiting for? Head over to the Test Center at /[class](/blog/determinants-class-12-notes)-11/mathematics/differential-equations-[class](/blog/determinants-class-12-notes)-12-notes and start mastering differential equations today!
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 

@@ -82,7 +82,7 @@ To quickly grasp the key concepts related to the **Bhakti** and **Sufi** movemen
 
 ## <a id="jeeneet-data"></a>JEE/NEET Data
 
-For students preparing for JEE/NEET, understanding the historical context of Medieval India can be useful in answering questions related to the cultural and social heritage of India.
+For students preparing for JEE/NEET, understanding the historical context of Medieval [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) can be useful in answering questions related to the cultural and social heritage of [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee).
 
 * **JEE Main** : 2-3 questions per year related to Medieval India
 * **JEE Advanced** : 1-2 questions per year related to Medieval India

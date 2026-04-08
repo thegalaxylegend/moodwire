@@ -48,7 +48,7 @@ The year 2026 marks a paradigm shift in the Indian higher education landscape. G
 Most students make the critical mistake of waiting until their Board exams conclude in March to begin their CUET preparation. With nearly 20 lakh applicants vying for a limited number of seats, this delay can be fatal to your aspirations. To succeed in CUET 2026, you need a strategy that integrates your Board prep with entrance requirements, starting as early as [class](/blog/environmental-chemistry-class-11-revision-notes-neet) 11. This guide will walk you through the nuances of the exam structure, the "Niche Domain" strategy, and the essential timelines you must follow to guarantee your success.
 
 > **Key Takeaways**
-> - **Early Start**: Building foundations in Class 11 is crucial for both Domains and the General Test.
+> - **Early Start**: Building foundations in [class](/blog/environmental-chemistry-class-11-revision-notes-neet) 11 is crucial for both Domains and the General Test.
 > - **Niche Selection**: Choosing less saturated domain subjects can lower the percentile barrier.
 > - **Aptitude Focus**: Section III (General Test) requires months of consistent practice to master.
 > - **Mock Integration**: Regular **online mock tests** are the primary tool for gauging readiness.

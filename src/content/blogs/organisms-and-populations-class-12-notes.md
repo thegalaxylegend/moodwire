@@ -81,7 +81,7 @@ practice_link: "/class-11/biology/organisms-and-populations-class-12-notes"
 
  - **Mistake 5:** Not considering the impact of environmental factors, such as temperature, precipitation, and pH, on population and community dynamics.
 
- - *Costs:* 5-7 marks in questions related to environmental factors and ecosystem function.
+ - *Costs:* 5-7 marks in questions related to environmental factors and [ecosystem](/blog/ecosystem-class-12-notes) function.
 
  - *Fix:* Study the effects of different environmental factors on population growth, species interactions, and ecosystem function, and practice analyzing their impacts on ecosystem dynamics.
 
@@ -97,7 +97,7 @@ practice_link: "/class-11/biology/organisms-and-populations-class-12-notes"
 
  - r-strategists are [organisms](/blog/reproduction-in-organisms-class-12-notes) that produce a large number of offspring, with little parental investment in each one. They typically thrive in unstable environments.
 
- - K-strategists are organisms that produce a small number of offspring, but with significant parental investment in each one. They typically thrive in stable environments.
+ - K-strategists are [organisms](/blog/reproduction-in-organisms-class-12-notes) that produce a small number of offspring, but with significant parental investment in each one. They typically thrive in stable environments.
 
  - The main difference lies in their reproductive strategies and the type of environment they are adapted to.
 

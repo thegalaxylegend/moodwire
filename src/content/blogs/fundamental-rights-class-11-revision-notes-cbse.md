@@ -69,7 +69,7 @@ The concept of Fundamental Rights has its roots in the Indian independence movem
 
 ## <a id="ayushs-tips"></a>Ayush's Tips
 
-As a student preparing for the Class 11 exam in 2026, it's essential to have a thorough understanding of the Fundamental Rights enshrined in the Indian Constitution. I always make it a point to **read the Constitution** and **analyze the provisions** related to each right. I also **create concept maps** to visualize the relationships between different rights and their applications. By doing so, I'm able to **identify the key concepts** and **retain the information** more effectively.
+As a student preparing for the [class](/blog/constitutional-framework-class-11-revision-notes-cbse) 11 exam in 2026, it's essential to have a thorough understanding of the Fundamental Rights enshrined in the Indian Constitution. I always make it a point to **read the Constitution** and **analyze the provisions** related to each right. I also **create concept maps** to visualize the relationships between different rights and their applications. By doing so, I'm able to **identify the key concepts** and **retain the information** more effectively.
 
 
 

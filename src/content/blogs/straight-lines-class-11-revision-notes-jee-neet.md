@@ -170,7 +170,7 @@ If the origin (0, 0) is shifted to a new point (h, k) without changing the direc
 
 ## <a id="conclusion"></a>Conclusion
 
-Straight lines are the ABCs of coordinate geometry. By mastering the various forms of equations and focusing on the relationship between slopes, you can solve any geometry problem involving linear paths. Always sketch your axes first and remember that perpendicular slopes are negative reciprocals! Keep your distance calculations precise and your intercepts well-defined.
+Straight lines are the ABCs of coordinate [geometry](/blog/three-dimensional-geometry-class-11-revision-notes-jee-neet). By mastering the various forms of equations and focusing on the relationship between slopes, you can solve any [geometry](/blog/three-dimensional-geometry-class-11-revision-notes-jee-neet) problem involving linear paths. Always sketch your axes first and remember that perpendicular slopes are negative reciprocals! Keep your distance calculations precise and your intercepts well-defined.
 
 ---
 
@@ -191,7 +191,7 @@ Straight lines are the ABCs of coordinate geometry. By mastering the various for
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/complex-numbers-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
 - 📖 [Three Dimensional Geometry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/three-dimensional-geometry-class-11-revision-notes-jee-neet)

@@ -72,7 +72,7 @@ The Animal Kingdom is a vast and diverse group of multicellular eukaryotic organ
 
 ## <a id="introduction-to-animal-kingdom"></a>Introduction to Animal Kingdom
 
-Animal Kingdom is a vast and diverse group of organisms that includes all multicellular, eukaryotic animals. The kingdom is divided into several phyla, each with distinct characteristics and body structures. In this post, we will explore the classification, morphology, and anatomy of animals, and provide practice questions to help you master the topic.
+Animal Kingdom is a vast and diverse group of organisms that includes all multicellular, eukaryotic animals. The kingdom is divided into several phyla, each with distinct characteristics and body structures. In this post, we will explore the classification, [morphology](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet), and anatomy of animals, and provide practice questions to help you master the topic.
 
 
 

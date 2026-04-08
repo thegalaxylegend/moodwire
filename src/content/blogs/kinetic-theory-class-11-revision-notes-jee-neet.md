@@ -122,7 +122,7 @@ To model an "Ideal Gas," we assume:
 - **Diatomic (H2, O2):** 3 Translational + 2 Rotational. **f = 5**.
 - **Polyatomic:** 3 Translational + 3 Rotational + Vibrational. **f > 6**.
 
-**Law of Equipartition of Energy:** In thermal equilibrium, the total energy is equally distributed among all degrees of freedom, and the energy associated with each degree is **1/2 kT**.
+**Law of Equipartition of Energy:** In [thermal](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet) equilibrium, the total energy is equally distributed among all degrees of freedom, and the energy associated with each degree is **1/2 kT**.
 
 ---
 
@@ -173,7 +173,7 @@ Helium has a higher ratio of specific heats than Oxygen.
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 11: Thermodynamics (Internal Energy Deep-Dive)**
-- **Chapter 10: Thermal Properties (Specific Heat Basics)**
+- **Chapter 10: Thermal [properties](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) (Specific Heat Basics)**
 - **KTG and Gas Laws: Advanced Numerical Vault**
 
 
@@ -224,7 +224,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
 - 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)

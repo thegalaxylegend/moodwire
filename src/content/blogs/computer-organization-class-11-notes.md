@@ -48,9 +48,9 @@ To grasp the concepts of Computer Organization, it's essential to have a solid f
 
 * **Binary Number System**: Understanding how numbers are represented in binary format, including **binary arithmetic**, **signed and unsigned numbers**, and **binary codes**.
 * **Data Representation**: Familiarity with how data is represented in computers, including **numeric**, **character**, and **string data types**.
-* **Basic Programming Concepts**: Knowledge of programming fundamentals, including **variables**, **data types**, **control structures**, and **functions**.
+* **Basic Programming Concepts**: Knowledge of programming fundamentals, including **variables**, **data types**, **control [structures](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards)**, and **functions**.
 
-The Class 11 exam will test your understanding of Computer Organization through a combination of theoretical and practical questions. The exam will cover topics such as:
+The [class](/blog/digital-logic-class-11-revision-notes-gate-boards) 11 exam will test your understanding of Computer Organization through a combination of theoretical and practical questions. The exam will cover topics such as:
 
 | Topic | Weightage |
 | --- | --- |

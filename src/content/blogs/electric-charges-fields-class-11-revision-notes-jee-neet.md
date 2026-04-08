@@ -85,11 +85,11 @@ The universe is fundamentally electric. From the bonds that hold DNA together to
 
 ### <a id="i-key-properties-of-charge"></a>I. Key Properties of Charge
 1.  **Quantization of Charge:** Charge exists only in integral multiples of the elementary charge **e** (1.602 × 10⁻¹⁹ C). **Q = ±ne**.
-2.  **Additivity of Charges:** The total charge of a system is the algebraic sum of individual charges.
+2.  **Additivity of [charges](/blog/moving-charges-magnetism-class-11-revision-notes-neet):** The total charge of a system is the algebraic sum of individual [charges](/blog/moving-charges-magnetism-class-11-revision-notes-neet).
 3.  **Conservation of Charge:** The total charge of an isolated system remains constant.
 
 ### <a id="ii-conductors-vs-insulators"></a>II. Conductors vs. Insulators
-- **Conductors:** Allow easy flow of electricity due to free electrons (e.g., Metals, Earth, Human body).
+- **Conductors:** Allow easy flow of [electricity](/blog/current-electricity-class-11-revision-notes-neet) due to free electrons (e.g., Metals, Earth, Human body).
 - **Insulators:** High resistance to charge flow (e.g., Glass, Plastic, Dry wood).
 
 ---
@@ -244,7 +244,7 @@ An **Electric Dipole** consists of two equal and opposite charges (**+q, -q**) s
 
 - **Chapter 2: Electrostatic Potential and Capacitance**
 - **Chapter 3: Current Electricity**
-- **Class 12 Physics: JEE/NEET High-Weightage Chapter List**
+- **[class](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 12 Physics: JEE/NEET High-Weightage Chapter List**
 
 
 

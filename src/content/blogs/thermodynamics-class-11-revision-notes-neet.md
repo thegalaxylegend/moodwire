@@ -150,7 +150,7 @@ The Second Law sets the direction of energy transfer and limits efficiency.
 **Answer:** An **Adiabatic process** involves no heat exchange, requiring excellent insulation or extreme speed so that heat has no time to flow. An **Isothermal process** requires slow movement to allow heat exchange with the surroundings to maintain constant temperature.
 
 **Q2: Can a heat engine have 100% efficiency?**
-**Answer:** **No.** According to the **Carnot Efficiency η = 1 - T2/T1**, for η to be 1 (100%), the sink temperature **T2** must be **Absolute Zero (0 K)**. According to the Third Law of Thermodynamics, reaching absolute zero is physically impossible.
+**Answer:** **No.** According to the **Carnot Efficiency η = 1 - T2/T1**, for η to be 1 (100%), the sink temperature **T2** must be **Absolute Zero (0 K)**. According to the Third Law of [thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet), reaching absolute zero is physically impossible.
 
 **Q3: Refrigerator vs Heat Engine: What is the COP?**
 **Answer:** A refrigerator is a "reverse heat engine." Instead of efficiency, we measure the **Coefficient of Performance (COP)**.
@@ -215,7 +215,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/waves-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Current Electricity Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/current-electricity-class-11-revision-notes-neet)
 - 📖 [Waves Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/waves-class-11-revision-notes-neet)

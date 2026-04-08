@@ -20,15 +20,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/triangles-class-10-notes.webp"
     },
     {
-        "id": "arithmetic-progressions-class-10-notes",
-        "title": "Arithmetic Progressions Class 10 Mathematics Recap — CBSE 2026 Quick Guide",
-        "description": "Arithmetic Progressions Class 10 Mathematics Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-07.",
-        "category": "Revision",
-        "date": "2026-04-07",
-        "readTime": "15 min read",
-        "image": "/blog-images/arithmetic-progressions-class-10-notes.webp"
-    },
-    {
         "id": "real-numbers-class-10-notes",
         "title": "Real Numbers Class 10 Mathematics Recap — CBSE 2026 Quick Guide",
         "description": "Real Numbers Class 10 Mathematics Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-07.",
@@ -56,13 +47,13 @@ export const blogs: Blog[] = [
         "image": "/blog-images/pair-of-linear-equations-class-10-notes.webp"
     },
     {
-        "id": "environmental-issues-class-12-notes",
-        "title": "Environmental Issues Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Environmental Issues Class 12 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-06.",
+        "id": "arithmetic-progressions-class-10-notes",
+        "title": "Arithmetic Progressions Class 10 Mathematics Recap — CBSE 2026 Quick Guide",
+        "description": "Arithmetic Progressions Class 10 Mathematics Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-07.",
         "category": "Revision",
-        "date": "2026-04-06",
+        "date": "2026-04-07",
         "readTime": "15 min read",
-        "image": "/blog-images/environmental-issues-class-12-notes.webp"
+        "image": "/blog-images/arithmetic-progressions-class-10-notes.webp"
     },
     {
         "id": "ecosystem-class-12-notes",
@@ -72,6 +63,15 @@ export const blogs: Blog[] = [
         "date": "2026-04-06",
         "readTime": "15 min read",
         "image": "/blog-images/ecosystem-class-12-notes.webp"
+    },
+    {
+        "id": "environmental-issues-class-12-notes",
+        "title": "Environmental Issues Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+        "description": "Environmental Issues Class 12 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-06.",
+        "category": "Revision",
+        "date": "2026-04-06",
+        "readTime": "15 min read",
+        "image": "/blog-images/environmental-issues-class-12-notes.webp"
     },
     {
         "id": "biodiversity-and-conservation-class-12-notes",
@@ -92,15 +92,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/organisms-and-populations-class-12-notes.webp"
     },
     {
-        "id": "biotechnology-and-its-applications-class-12-notes",
-        "title": "Biotechnology and its Applications Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Biotechnology and its Applications Class 12 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-05.",
-        "category": "Revision",
-        "date": "2026-04-05",
-        "readTime": "15 min read",
-        "image": "/blog-images/biotechnology-and-its-applications-class-12-notes.webp"
-    },
-    {
         "id": "biotechnology-principles-and-processes-class-12-notes",
         "title": "Biotechnology: Principles and Processes Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
         "description": "Biotechnology: Principles and Processes Class 12 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-05.",
@@ -108,6 +99,15 @@ export const blogs: Blog[] = [
         "date": "2026-04-05",
         "readTime": "15 min read",
         "image": "/blog-images/biotechnology-principles-and-processes-class-12-notes.webp"
+    },
+    {
+        "id": "biotechnology-and-its-applications-class-12-notes",
+        "title": "Biotechnology and its Applications Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+        "description": "Biotechnology and its Applications Class 12 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-05.",
+        "category": "Revision",
+        "date": "2026-04-05",
+        "readTime": "15 min read",
+        "image": "/blog-images/biotechnology-and-its-applications-class-12-notes.webp"
     },
     {
         "id": "upsc-optional-selection-guide",
@@ -146,15 +146,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/human-health-and-disease-class-12-notes.webp"
     },
     {
-        "id": "sexual-reproduction-in-flowering-plants-class-12-notes",
-        "title": "Sexual Reproduction in Flowering Plants Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Sexual Reproduction in Flowering Plants Class 12 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-03.",
-        "category": "Revision",
-        "date": "2026-04-03",
-        "readTime": "15 min read",
-        "image": "/blog-images/sexual-reproduction-in-flowering-plants-class-12-notes.webp"
-    },
-    {
         "id": "reproductive-health-class-12-notes",
         "title": "Reproductive Health Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
         "description": "Reproductive Health Class 12 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-03.",
@@ -162,6 +153,15 @@ export const blogs: Blog[] = [
         "date": "2026-04-03",
         "readTime": "15 min read",
         "image": "/blog-images/reproductive-health-class-12-notes.webp"
+    },
+    {
+        "id": "sexual-reproduction-in-flowering-plants-class-12-notes",
+        "title": "Sexual Reproduction in Flowering Plants Class 12 Biology Revision — NEET 2026 Grandmaster Guide",
+        "description": "Sexual Reproduction in Flowering Plants Class 12 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-03.",
+        "category": "Revision",
+        "date": "2026-04-03",
+        "readTime": "15 min read",
+        "image": "/blog-images/sexual-reproduction-in-flowering-plants-class-12-notes.webp"
     },
     {
         "id": "principles-of-inheritance-and-variation-class-12-notes",
@@ -443,6 +443,33 @@ export const blogs: Blog[] = [
         "image": "/blog-images/alcohols-phenols-and-ethers-class-12-notes.webp"
     },
     {
+        "id": "wave-optics-class-12-notes",
+        "title": "Wave Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+        "description": "Wave Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
+        "category": "Revision",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/wave-optics-class-12-notes.webp"
+    },
+    {
+        "id": "waves-class-11-revision-notes-neet",
+        "title": "Waves Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
+        "description": "Waves Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
+        "category": "Revision",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/waves-class-11-revision-notes-neet.webp"
+    },
+    {
+        "id": "work-energy-and-power-class-11-revision-notes-neet",
+        "title": "Work Energy And Power Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
+        "description": "Work Energy And Power Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
+        "category": "Revision",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/work-energy-and-power-class-11-revision-notes-neet.webp"
+    },
+    {
         "id": "world-history-industrial-revolution-class-11-revision-notes-jee-neet",
         "title": "World History Industrial Revolution Class 11 History Recap — CBSE 2026 Quick Guide",
         "description": "World History Industrial Revolution Class 11 History Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-03-28.",
@@ -450,6 +477,15 @@ export const blogs: Blog[] = [
         "date": "2026-03-28",
         "readTime": "15 min read",
         "image": "/blog-images/world-history-industrial-revolution-class-11-revision-notes-jee-neet.webp"
+    },
+    {
+        "id": "thermodynamics-chemistry-class-11-revision-notes-jee-neet",
+        "title": "Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+        "description": "Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
+        "category": "Revision",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/thermodynamics-chemistry-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "thermodynamics-class-11-revision-notes-neet",
@@ -506,31 +542,22 @@ export const blogs: Blog[] = [
         "image": "/blog-images/upsc-optional-selection-guide-class-11-revision-notes-jee.webp"
     },
     {
-        "id": "wave-optics-class-12-notes",
-        "title": "Wave Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Wave Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
+        "id": "states-of-matter-class-11-revision-notes-jee-neet",
+        "title": "States Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+        "description": "States Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
         "category": "Revision",
         "date": "2026-03-28",
         "readTime": "15 min read",
-        "image": "/blog-images/wave-optics-class-12-notes.webp"
+        "image": "/blog-images/states-of-matter-class-11-revision-notes-jee-neet.webp"
     },
     {
-        "id": "waves-class-11-revision-notes-neet",
-        "title": "Waves Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Waves Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
+        "id": "statistics-class-11-revision-notes-jee",
+        "title": "Statistics Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
+        "description": "Statistics Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
         "category": "Revision",
         "date": "2026-03-28",
         "readTime": "15 min read",
-        "image": "/blog-images/waves-class-11-revision-notes-neet.webp"
-    },
-    {
-        "id": "work-energy-and-power-class-11-revision-notes-neet",
-        "title": "Work Energy And Power Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Work Energy And Power Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
-        "category": "Revision",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/work-energy-and-power-class-11-revision-notes-neet.webp"
+        "image": "/blog-images/statistics-class-11-revision-notes-jee.webp"
     },
     {
         "id": "straight-lines-class-11-revision-notes-jee-neet",
@@ -614,13 +641,13 @@ export const blogs: Blog[] = [
         "image": "/blog-images/thermal-properties-of-matter-class-11-revision-notes-jee-neet.webp"
     },
     {
-        "id": "thermodynamics-chemistry-class-11-revision-notes-jee-neet",
-        "title": "Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
+        "id": "respiration-in-plants-class-11-revision-notes-neet",
+        "title": "Respiration In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
+        "description": "Respiration In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
         "category": "Revision",
         "date": "2026-03-28",
         "readTime": "15 min read",
-        "image": "/blog-images/thermodynamics-chemistry-class-11-revision-notes-jee-neet.webp"
+        "image": "/blog-images/respiration-in-plants-class-11-revision-notes-neet.webp"
     },
     {
         "id": "rotational-motion-class-11-revision-notes-jee-neet",
@@ -666,24 +693,6 @@ export const blogs: Blog[] = [
         "date": "2026-03-28",
         "readTime": "15 min read",
         "image": "/blog-images/state-scholarship-guide-2026-class-11-revision-notes-neet.webp"
-    },
-    {
-        "id": "states-of-matter-class-11-revision-notes-jee-neet",
-        "title": "States Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "States Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
-        "category": "Revision",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/states-of-matter-class-11-revision-notes-jee-neet.webp"
-    },
-    {
-        "id": "statistics-class-11-revision-notes-jee",
-        "title": "Statistics Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
-        "description": "Statistics Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
-        "category": "Revision",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/statistics-class-11-revision-notes-jee.webp"
     },
     {
         "id": "probability-class-11-revision-notes-jee",
@@ -738,24 +747,6 @@ export const blogs: Blog[] = [
         "date": "2026-03-28",
         "readTime": "15 min read",
         "image": "/blog-images/relations-functions-class-11-revision-notes-jee-neet.webp"
-    },
-    {
-        "id": "respiration-in-plants-class-11-revision-notes-neet",
-        "title": "Respiration In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Respiration In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
-        "category": "Revision",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/respiration-in-plants-class-11-revision-notes-neet.webp"
-    },
-    {
-        "id": "permutations-combinations-class-11-revision-notes-jee",
-        "title": "Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
-        "description": "Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
-        "category": "Revision",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/permutations-combinations-class-11-revision-notes-jee.webp"
     },
     {
         "id": "photosynthesis-in-higher-plants-class-11-revision-notes-neet",
@@ -839,15 +830,6 @@ export const blogs: Blog[] = [
         "image": "/blog-images/principle-of-mathematical-induction-class-11-revision-notes-jee.webp"
     },
     {
-        "id": "moving-charges-magnetism-class-11-revision-notes-neet",
-        "title": "Moving Charges Magnetism Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Moving Charges Magnetism Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
-        "category": "Revision",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/moving-charges-magnetism-class-11-revision-notes-neet.webp"
-    },
-    {
         "id": "neet-2026-weightage-prediction-class-11-revision-notes-neet",
         "title": "Neet 2026 Weightage Prediction Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
         "description": "Neet 2026 Weightage Prediction Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
@@ -911,13 +893,13 @@ export const blogs: Blog[] = [
         "image": "/blog-images/permutations-and-combinations-class-11-revision-notes-jee.webp"
     },
     {
-        "id": "mechanical-properties-of-fluids-class-11-revision-notes-jee-neet",
-        "title": "Mechanical Properties Of Fluids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Mechanical Properties Of Fluids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
+        "id": "permutations-combinations-class-11-revision-notes-jee",
+        "title": "Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
+        "description": "Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
         "category": "Revision",
         "date": "2026-03-28",
         "readTime": "15 min read",
-        "image": "/blog-images/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet.webp"
+        "image": "/blog-images/permutations-combinations-class-11-revision-notes-jee.webp"
     },
     {
         "id": "mechanical-properties-of-solids-class-11-revision-notes-jee-neet",
@@ -992,22 +974,13 @@ export const blogs: Blog[] = [
         "image": "/blog-images/motion-in-a-straight-line-class-11-revision-notes-jee-neet.webp"
     },
     {
-        "id": "limits-and-derivatives-class-11-revision-notes-jee",
-        "title": "Limits and Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
-        "description": "Limits and Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
+        "id": "moving-charges-magnetism-class-11-revision-notes-neet",
+        "title": "Moving Charges Magnetism Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
+        "description": "Moving Charges Magnetism Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
         "category": "Revision",
         "date": "2026-03-28",
         "readTime": "15 min read",
-        "image": "/blog-images/limits-and-derivatives-class-11-revision-notes-jee.webp"
-    },
-    {
-        "id": "limits-derivatives-class-11-revision-notes-jee-neet",
-        "title": "Limits Derivatives Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Limits Derivatives Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
-        "category": "Revision",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/limits-derivatives-class-11-revision-notes-jee-neet.webp"
+        "image": "/blog-images/moving-charges-magnetism-class-11-revision-notes-neet.webp"
     },
     {
         "id": "linear-inequalities-class-11-revision-notes-jee-neet",
@@ -1073,13 +1046,13 @@ export const blogs: Blog[] = [
         "image": "/blog-images/mathematical-reasoning-class-11-revision-notes-jee-neet.webp"
     },
     {
-        "id": "hydrocarbons-class-11-revision-notes-neet",
-        "title": "Hydrocarbons Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Hydrocarbons Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
+        "id": "mechanical-properties-of-fluids-class-11-revision-notes-jee-neet",
+        "title": "Mechanical Properties Of Fluids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+        "description": "Mechanical Properties Of Fluids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
         "category": "Revision",
         "date": "2026-03-28",
         "readTime": "15 min read",
-        "image": "/blog-images/hydrocarbons-class-11-revision-notes-neet.webp"
+        "image": "/blog-images/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "hydrogen-class-11-revision-notes-neet",
@@ -1163,22 +1136,22 @@ export const blogs: Blog[] = [
         "image": "/blog-images/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet.webp"
     },
     {
-        "id": "electrostatics-class-12-revision-notes-jee-neet",
-        "title": "Electrostatics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Electrostatics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
+        "id": "limits-and-derivatives-class-11-revision-notes-jee",
+        "title": "Limits and Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide",
+        "description": "Limits and Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
         "category": "Revision",
         "date": "2026-03-28",
         "readTime": "15 min read",
-        "image": "/blog-images/electrostatics-class-12-revision-notes-jee-neet.webp"
+        "image": "/blog-images/limits-and-derivatives-class-11-revision-notes-jee.webp"
     },
     {
-        "id": "environmental-chemistry-class-11-revision-notes-neet",
-        "title": "Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
+        "id": "limits-derivatives-class-11-revision-notes-jee-neet",
+        "title": "Limits Derivatives Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+        "description": "Limits Derivatives Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
         "category": "Revision",
         "date": "2026-03-28",
         "readTime": "15 min read",
-        "image": "/blog-images/environmental-chemistry-class-11-revision-notes-neet.webp"
+        "image": "/blog-images/limits-derivatives-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "equilibrium-class-11-revision-notes-jee-neet",
@@ -1235,22 +1208,13 @@ export const blogs: Blog[] = [
         "image": "/blog-images/gravitation-class-11-revision-notes-jee-neet.webp"
     },
     {
-        "id": "digital-logic-class-11-revision-notes-gate-boards",
-        "title": "Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide",
-        "description": "Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
+        "id": "hydrocarbons-class-11-revision-notes-neet",
+        "title": "Hydrocarbons Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
+        "description": "Hydrocarbons Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
         "category": "Revision",
         "date": "2026-03-28",
         "readTime": "15 min read",
-        "image": "/blog-images/digital-logic-class-11-revision-notes-gate-boards.webp"
-    },
-    {
-        "id": "dpsp-duties-class-11-revision-notes-jee-neet",
-        "title": "Dpsp Duties Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Dpsp Duties Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
-        "category": "Revision",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/dpsp-duties-class-11-revision-notes-jee-neet.webp"
+        "image": "/blog-images/hydrocarbons-class-11-revision-notes-neet.webp"
     },
     {
         "id": "electric-charges-fields-class-11-revision-notes-jee-neet",
@@ -1280,13 +1244,22 @@ export const blogs: Blog[] = [
         "image": "/blog-images/electromagnetic-waves-class-12-notes.webp"
     },
     {
-        "id": "cuet-2026-master-strategy-class-11-revision-notes-neet",
-        "title": "Cuet 2026 Master Strategy Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Cuet 2026 Master Strategy Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
+        "id": "electrostatics-class-12-revision-notes-jee-neet",
+        "title": "Electrostatics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+        "description": "Electrostatics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
         "category": "Revision",
         "date": "2026-03-28",
         "readTime": "15 min read",
-        "image": "/blog-images/cuet-2026-master-strategy-class-11-revision-notes-neet.webp"
+        "image": "/blog-images/electrostatics-class-12-revision-notes-jee-neet.webp"
+    },
+    {
+        "id": "environmental-chemistry-class-11-revision-notes-neet",
+        "title": "Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
+        "description": "Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
+        "category": "Revision",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/environmental-chemistry-class-11-revision-notes-neet.webp"
     },
     {
         "id": "current-electricity-class-11-revision-notes-neet",
@@ -1325,13 +1298,22 @@ export const blogs: Blog[] = [
         "image": "/blog-images/digestion-and-absorption-class-11-revision-notes-neet.webp"
     },
     {
-        "id": "classification-elements-periodicity-class-11-revision-notes-jee-neet",
-        "title": "Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-        "description": "Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
+        "id": "digital-logic-class-11-revision-notes-gate-boards",
+        "title": "Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide",
+        "description": "Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
         "category": "Revision",
         "date": "2026-03-28",
         "readTime": "15 min read",
-        "image": "/blog-images/classification-elements-periodicity-class-11-revision-notes-jee-neet.webp"
+        "image": "/blog-images/digital-logic-class-11-revision-notes-gate-boards.webp"
+    },
+    {
+        "id": "dpsp-duties-class-11-revision-notes-jee-neet",
+        "title": "Dpsp Duties Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+        "description": "Dpsp Duties Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
+        "category": "Revision",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/dpsp-duties-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "classification-of-elements-class-11-revision-notes-jee-neet",
@@ -1386,6 +1368,15 @@ export const blogs: Blog[] = [
         "date": "2026-03-28",
         "readTime": "15 min read",
         "image": "/blog-images/constitutional-framework-class-11-revision-notes-cbse.webp"
+    },
+    {
+        "id": "cuet-2026-master-strategy-class-11-revision-notes-neet",
+        "title": "Cuet 2026 Master Strategy Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
+        "description": "Cuet 2026 Master Strategy Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
+        "category": "Revision",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/cuet-2026-master-strategy-class-11-revision-notes-neet.webp"
     },
     {
         "id": "body-fluids-and-circulation-class-11-revision-notes-neet",
@@ -1460,31 +1451,13 @@ export const blogs: Blog[] = [
         "image": "/blog-images/class-10-science-pyq-strategy-class-10-revision-notes-neet.webp"
     },
     {
-        "id": "ancient-india-mahajanapadas-class-11-revision-notes-jee",
-        "title": "Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide",
-        "description": "Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-03-28.",
+        "id": "classification-elements-periodicity-class-11-revision-notes-jee-neet",
+        "title": "Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
+        "description": "Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
         "category": "Revision",
         "date": "2026-03-28",
         "readTime": "15 min read",
-        "image": "/blog-images/ancient-india-mahajanapadas-class-11-revision-notes-jee.webp"
-    },
-    {
-        "id": "ancient-india-vedic-age-class-11-revision-notes-jee",
-        "title": "Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide",
-        "description": "Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-03-28.",
-        "category": "Revision",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/ancient-india-vedic-age-class-11-revision-notes-jee.webp"
-    },
-    {
-        "id": "animal-kingdom-class-11-revision-notes-neet",
-        "title": "Animal Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
-        "description": "Animal Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
-        "category": "Revision",
-        "date": "2026-03-28",
-        "readTime": "15 min read",
-        "image": "/blog-images/animal-kingdom-class-11-revision-notes-neet.webp"
+        "image": "/blog-images/classification-elements-periodicity-class-11-revision-notes-jee-neet.webp"
     },
     {
         "id": "art-culture-architecture-class-11-revision-notes-jee-neet",
@@ -1602,6 +1575,33 @@ export const blogs: Blog[] = [
         "date": "2026-03-28",
         "readTime": "15 min read",
         "image": "/blog-images/ancient-india-indus-valley-class-11-revision-notes-cbse.webp"
+    },
+    {
+        "id": "ancient-india-mahajanapadas-class-11-revision-notes-jee",
+        "title": "Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide",
+        "description": "Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-03-28.",
+        "category": "Revision",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/ancient-india-mahajanapadas-class-11-revision-notes-jee.webp"
+    },
+    {
+        "id": "ancient-india-vedic-age-class-11-revision-notes-jee",
+        "title": "Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide",
+        "description": "Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-03-28.",
+        "category": "Revision",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/ancient-india-vedic-age-class-11-revision-notes-jee.webp"
+    },
+    {
+        "id": "animal-kingdom-class-11-revision-notes-neet",
+        "title": "Animal Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide",
+        "description": "Animal Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
+        "category": "Revision",
+        "date": "2026-03-28",
+        "readTime": "15 min read",
+        "image": "/blog-images/animal-kingdom-class-11-revision-notes-neet.webp"
     },
     {
         "id": "3d-geometry-intro-class-11-revision-notes-jee-neet",

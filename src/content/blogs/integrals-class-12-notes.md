@@ -191,7 +191,7 @@ where $\rho(x,y)$ is the density of the solid at the point $(x,y)$.
 When working with [integrals](/blog/application-of-integrals-class-12-notes), there are several common mistakes that can lead to incorrect solutions. Here are five trap mistakes to watch out for:
 
 #### #### Mistake 1: Forgetting the Constant of Integration
-When integrating a function, it's easy to forget to include the constant of integration. This can lead to incorrect solutions, especially when working with definite integrals.
+When integrating a function, it's easy to forget to include the constant of integration. This can lead to incorrect solutions, especially when working with definite [integrals](/blog/application-of-integrals-class-12-notes).
 
 #### #### Mistake 2: Incorrectly Applying the Power Rule
 The power rule of integration is a common source of mistakes. Make sure to apply the rule correctly, and don't forget to add 1 to the exponent when integrating.
@@ -230,7 +230,7 @@ To become a master of integrals, it's essential to practice and apply the concep
 *   **Progress Tracking:** The Test Center enables you to track your progress, identifying strengths and weaknesses, and adjusting your learning plan accordingly.
 *   **Community Support:** Join a community of like-minded students and educators, sharing knowledge, and learning from one another.
 
-Using the Test Center at /class-11/mathematics/integrals-class-12-notes will help you:
+Using the Test Center at /[class](/blog/determinants-class-12-notes)-11/mathematics/integrals-[class](/blog/determinants-class-12-notes)-12-notes will help you:
 
 *   **Reinforce Concepts:** Practice and reinforce your understanding of integrals, ensuring a strong foundation for further learning.
 *   **Identify Weaknesses:** Recognize areas where you need improvement and focus your efforts on those topics.

@@ -250,7 +250,7 @@ ightleftharpoons CH_4 + 2O_2$, and how this relates to the overall energy balanc
 - C) Species extinction
 - D) Biological degradation
 
-**Answer:** C) Species extinction refers to the reduction of biodiversity in an ecosystem, as it results in the loss of unique species and the degradation of ecosystem services.
+**Answer:** C) Species extinction refers to the reduction of biodiversity in an [ecosystem](/blog/ecosystem-class-12-notes), as it results in the loss of unique species and the degradation of [ecosystem](/blog/ecosystem-class-12-notes) services.
 
 
 

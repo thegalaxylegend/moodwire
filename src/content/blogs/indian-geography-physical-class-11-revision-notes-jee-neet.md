@@ -53,7 +53,7 @@ Landforms are the natural features of the Earth's surface, including mountains, 
 
 ## <a id="ayushs-personal-note"></a>Ayush's Personal Note
 
-As I was studying Physical Geography, I realized the importance of understanding the historical context of the Earth's formation. The Earth's surface has undergone significant changes over millions of years, shaped by tectonic forces, weathering, and erosion. The Tropic of Cancer passes through 8 Indian states, including Gujarat, Madhya Pradesh, and West Bengal.
+As I was studying [physical](/blog/physical-world-class-11-revision-notes-jee-neet) Geography, I realized the importance of understanding the historical context of the Earth's formation. The Earth's surface has undergone significant changes over millions of years, shaped by tectonic forces, weathering, and erosion. The Tropic of Cancer passes through 8 Indian states, including Gujarat, Madhya Pradesh, and West Bengal.
 
 ## <a id="what-is-the-significance-of-climate-in-physical-geography"></a>What is the significance of Climate in Physical Geography?
 
@@ -92,7 +92,7 @@ Maps are an essential tool in Physical Geography, used to represent the Earth's 
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Physical World Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/physical-world-class-11-revision-notes-jee-neet)
 - 📖 [Classification Of Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-of-elements-class-11-revision-notes-jee-neet)

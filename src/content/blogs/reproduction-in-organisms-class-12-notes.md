@@ -41,7 +41,7 @@ practice_link: "/class-11/biology/reproduction-in-organisms-class-12-notes"
  - 1 diagram-based question on flower structure (e.g., $\\times$ 4 whorls) — always
  - 1 short question on pollination methods (e.g., $\\frac{1}{3}$ of [plants](/blog/sexual-reproduction-in-flowering-plants-class-12-notes) are wind-pollinated) — frequently
 * **Asexual and [sexual](/blog/sexual-reproduction-in-flowering-plants-class-12-notes) Reproduction**: 
- - 1 short question on types of asexual reproduction (e.g., binary fission, budding) — always
+ - 1 short question on types of asexual [reproduction](/blog/sexual-reproduction-in-flowering-plants-class-12-notes) (e.g., binary fission, budding) — always
  - 1 short question on significance of sexual reproduction (e.g., increased genetic diversity) — frequently
 * **Numerical Problems**: 
  - 1 numerical on human population growth rate — frequently
@@ -237,7 +237,7 @@ ightarrow (2n) \	ext{Offspring}$$
 
  - Key facts:
 
- - The process of reproduction in organisms involves the transmission of genetic material from one generation to the next.
+ - The process of reproduction in [organisms](/blog/organisms-and-populations-class-12-notes) involves the transmission of genetic material from one generation to the next.
 
  - The two main types of reproduction are sexual and asexual reproduction.
 

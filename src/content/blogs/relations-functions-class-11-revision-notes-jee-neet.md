@@ -59,7 +59,7 @@ practice_link: "/class-11/chemistry/relations-functions-class-11-revision-notes-
 ## <a id="introduction"></a>Introduction
 
 **Relations and Functions describe how sets of [numbers](/blog/complex-numbers-class-11-revision-notes-jee-neet) interact, forming the core of algebraic modeling and calculus. Master Cartesian products, domain, range, and various types of functions like signum and modulus to excel in coordinate geometry and advanced math. This comprehensive Chapter 2 summary provides the mapping logic required for top-tier JEE and CBSE performance.**
-Relations and Functions are the "verbs" of mathematics.
+Relations and [functions](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) are the "verbs" of mathematics.
 
 ---
 
@@ -209,7 +209,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/complex-numbers-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Limits Derivatives Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/limits-derivatives-class-11-revision-notes-jee-neet)
 - 📖 [Trigonometric Functions Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/trigonometric-functions-class-11-revision-notes-jee-neet)

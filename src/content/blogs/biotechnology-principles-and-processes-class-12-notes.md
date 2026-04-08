@@ -85,7 +85,7 @@ practice_link: "/class-11/biology/biotechnology-principles-and-processes-class-1
 
  - *Fix:* Upstream processing involves all the steps before the product is harvested (e.g., fermentation), while downstream processing involves the purification and packaging of the product after harvesting. Know the key steps and technologies involved in each phase.
 
- - **Mistake 5:** Inability to explain the applications of biotechnology in medicine and agriculture.
+ - **Mistake 5:** Inability to explain the applications of [biotechnology](/blog/biotechnology-and-its-applications-class-12-notes) in medicine and agriculture.
 
  - *Costs:* 6-8 marks
 

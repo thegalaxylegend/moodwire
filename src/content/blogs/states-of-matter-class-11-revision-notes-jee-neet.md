@@ -92,7 +92,7 @@ This chapter is where Physics and Chemistry merge. If you're comfortable with [t
 ### <a id="why-this-chapter-matters-exam-data"></a>Why This Chapter Matters (Exam Data)
 - **JEE Mains 2026 Session 1**: 1 question on Compressibility Factor ($Z$) and 1 on Graham's Law.
 - **NEET 2026**: 1 question on van der Waals constants and liquefaction ease.
-- **CBSE Boards**: This unit carries 4-5 marks and is often paired with Thermodynamics in the paper.
+- **CBSE Boards**: This unit carries 4-5 marks and is often paired with [thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) in the paper.
 
 ---
 
@@ -357,9 +357,9 @@ In CBSE boards, always draw the $PV$ vs $P$ graph or the $Z$ vs $P$ graph if the
 ---
 
 **Related [revision](/blog/structure-of-atom-class-11-revision-notes-jee-neet) Notes:**
-- **Chemical Thermodynamics — Enthalpy & Hess's Law**
+- **[chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Thermodynamics — Enthalpy & Hess's Law**
 - **Some Basic Concepts of Chemistry — Mole Concept & Stoichiometry**
-- **Chemical Equilibrium — Le Chatelier's Principle Tricks**
+- **Chemical [equilibrium](/blog/equilibrium-class-11-revision-notes-jee-neet) — Le Chatelier's Principle Tricks**
 
 ---
 

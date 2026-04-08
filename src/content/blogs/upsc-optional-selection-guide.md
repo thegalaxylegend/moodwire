@@ -57,7 +57,7 @@ The following formulas are crucial for the UPSC [optional](/blog/upsc-optional-s
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
-- **Mistake 1:** Not understanding the syllabus and exam pattern of the chosen optional subject.
+- **Mistake 1:** Not understanding the syllabus and exam pattern of the chosen [optional](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee) subject.
 
  - *Costs:* 10-15% of the total marks due to lack of focus on key areas.
 

@@ -71,7 +71,7 @@ Organic chemistry is [the study of carbon-containing compounds](https://en.wikip
 
 ## <a id="atomic-structure"></a>Atomic Structure
 
-Atomic structure is the foundation of organic chemistry. It deals with the properties of atoms, including their atomic number, mass number, and electron configuration. Understanding atomic structure is crucial for understanding how atoms bond with each other to form molecules.
+Atomic structure is the foundation of organic [chemistry](/blog/environmental-chemistry-class-11-revision-notes-neet). It deals with the properties of atoms, including their atomic number, mass number, and electron configuration. Understanding atomic structure is crucial for understanding how atoms bond with each other to form molecules.
 
 The atomic structure of an atom consists of a nucleus surrounded by electrons. The nucleus contains protons and neutrons, while the electrons occupy specific energy levels or orbitals. The [atomic number](https://en.wikipedia.org/wiki/Atomic_number) of an atom is defined as the number of protons in its nucleus.
 
@@ -191,7 +191,7 @@ Answer: A) Butane
 ## <a id="related-notes-links"></a>Related Notes Links
 
 * Inorganic Chemistry Notes for [class](/blog/physical-world-class-11-revision-notes-jee-neet) 11
-* Physical Chemistry Notes for Class 11
+* [physical](/blog/physical-world-class-11-revision-notes-jee-neet) Chemistry Notes for Class 11
 
 
 

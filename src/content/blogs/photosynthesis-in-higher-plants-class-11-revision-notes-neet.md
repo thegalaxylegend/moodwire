@@ -79,7 +79,7 @@ Photosynthesis is a critical topic in the [class](/blog/environmental-chemistry-
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div class="callout-box">
+<div [class](/blog/environmental-chemistry-class-11-revision-notes-neet)="callout-box">
 I still remember when I was preparing for my JEE exam, I used to get confused between the light-dependent and light-independent reactions. I would often mix up the equations and the reactants. But then I realized that the light-dependent reactions are all about generating ATP and NADPH, while the light-independent reactions are all about fixing CO2 into glucose. Once I understood this, the entire process became much clearer, and I was able to answer questions with confidence. My advice to you would be to focus on understanding the concepts rather than just memorizing the equations.
 </div>
 

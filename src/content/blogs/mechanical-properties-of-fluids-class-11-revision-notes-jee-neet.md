@@ -106,7 +106,7 @@ Fluids—liquids and gases—are materials that have no definite shape and yield
 
 **Derivation (Based on Work-Energy Theorem):**
 1.  **Work done by Pressure forces (W_p):** (P1 - P2) ΔV.
-2.  **Change in Kinetic Energy (ΔK):** 1/2 ρ ΔV (v2² - v1²).
+2.  **Change in [kinetic](/blog/kinetic-theory-class-11-revision-notes-jee-neet) Energy (ΔK):** 1/2 ρ ΔV (v2² - v1²).
 3.  **Change in Potential Energy (ΔU):** ρ ΔV g (h2 - h1).
 4.  By Work-Energy Theorem: **W_p = ΔK + ΔU**.
 5.  **(P1 - P2) ΔV = 1/2 ρ ΔV (v2² - v1²) + ρ ΔV g (h2 - h1)**.
@@ -179,7 +179,7 @@ Surface tension is the result of cohesive forces between molecules at the surfac
 
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
-- **Chapter 8: Mechanical Properties of Solids**
+- **Chapter 8: Mechanical [properties](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet) of Solids**
 - **Chapter 10: Thermal Properties of Matter**
 - **Mastering Hydrodynamics: Advanced Problem Set**
 

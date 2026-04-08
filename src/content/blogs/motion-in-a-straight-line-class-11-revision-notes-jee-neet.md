@@ -74,7 +74,7 @@ Mechanics is the study of motion, and its first branch, **Kinematics**, allows u
 ## <a id="1-the-language-of-motion-fundamentals"></a>1. The Language of Motion: Fundamentals
 
 Before deriving equations, we must be precise with our definitions.
-- **Frame of Reference:** A coordinate system with a clock used to observe motion.
+- **Frame of Reference:** A coordinate system with a clock used to observe [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet).
 - **Distance (Path Length):** The total length covered. It is a **Scalar** and always positive.
 - **Displacement (Δx):** The change in position (**X_final - X_initial**). It is a **Vector** and can be positive, negative, or zero.
 
@@ -208,7 +208,7 @@ When an object is dropped from height **H**, it experiences a constant accelerat
 
 ## <a id="conclusion"></a>Conclusion
 
-Motion in a straight line is the foundation upon which all of Mechanical Physics is built. By mastering the transition from simple algebraic equations to rigorous calculus derivations, you gain the ability to model the universe accurately. Whether you are calculating the braking distance of a train or the launch of a rocket, these principles remain constant. Stay accelerated, keep your slopes steep, and always watch your frame of reference!
+Motion in a [straight](/blog/straight-lines-class-11-revision-notes-jee-neet) line is the foundation upon which all of Mechanical Physics is built. By mastering the transition from simple algebraic equations to rigorous calculus derivations, you gain the ability to model the universe accurately. Whether you are calculating the braking distance of a train or the launch of a rocket, these principles remain constant. Stay accelerated, keep your slopes steep, and always watch your frame of reference!
 
 ---
 **Reference:** [Khan Academy: Physics Kinematics](https://www.khanacademy.org/science/physics/one-dimensional-motion)

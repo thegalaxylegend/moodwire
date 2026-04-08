@@ -87,7 +87,7 @@ practice_link: "/class-11/physics/equilibrium-class-11-revision-notes-jee-neet"
 
 **[chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Equilibrium is the state in a reversible reaction where the rate of the forward reaction equals the rate of the backward reaction, and the concentrations of reactants and products remain constant over time.**
 
-This chapter is massive — it combines Chemical Equilibrium (Kc, Kp, Le Chatelier) with Ionic Equilibrium (pH, Buffers, Ksp). In JEE, you'll see 2-3 questions from this chapter alone. The trick is to separate the two halves in your head and treat them as distinct sub-chapters.
+This chapter is massive — it combines [chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Equilibrium (Kc, Kp, Le Chatelier) with Ionic Equilibrium (pH, Buffers, Ksp). In JEE, you'll see 2-3 questions from this chapter alone. The trick is to separate the two halves in your head and treat them as distinct sub-chapters.
 
 ### <a id="why-this-chapter-matters-exam-data"></a>Why This Chapter Matters (Exam Data)
 - **JEE Mains 2026**: 2 questions — one on Le Chatelier with inert gas addition, one on pH of a buffer.
@@ -369,7 +369,7 @@ For CBSE, always state Le Chatelier's Principle in full before applying it. Then
 
 ---
 
-**Related Revision Notes:**
+**Related [revision](/blog/structure-of-atom-class-11-revision-notes-jee-neet) Notes:**
 - **Chemical Thermodynamics — Enthalpy & Gibbs Energy Tricks**
 - **Some Basic Concepts of Chemistry — Mole Concept & Stoichiometry**
 - **Chemical Bonding VSEPR Theory JEE 2026 Tricks**

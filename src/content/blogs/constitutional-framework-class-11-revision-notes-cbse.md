@@ -51,8 +51,8 @@ Constitutional Framework is a set of principles and rules that govern the functi
 
 ## <a id="what-are-the-key-features-of-the-indian-constitution"></a>What are the Key Features of the Indian Constitution?
 
-The Indian Constitution is a unique document that reflects the country's diverse culture, history, and geography. Some of the key features of the Constitution include:
-* **Federalism**: The division of power between the central government and the states
+The [indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Constitution is a unique document that reflects the country's diverse culture, history, and geography. Some of the key features of the Constitution include:
+* **[federalism](/blog/federalism-class-11-revision-notes-cbse)**: The division of power between the central government and the states
 * **Parliamentary Democracy**: The system of government in which the executive is accountable to the legislature
 * **Independence of the Judiciary**: The separation of the judiciary from the other branches of government
 * **Secularism**: The principle of separating religion from the state
@@ -64,7 +64,7 @@ As I delve deeper into these features, I notice that the Constitution has underg
 
 ## <a id="what-is-the-significance-of-the-preamble"></a>What is the Significance of the Preamble?
 
-The Preamble is a crucial part of the Constitution, as it sets out the objectives and ideals of the Indian state. It reads: "We, the people of India, having solemnly resolved to constitute India into a Sovereign, Socialist, Secular, Democratic Republic..." The Preamble is significant because it:
+The Preamble is a crucial part of the Constitution, as it sets out the objectives and ideals of the Indian state. It reads: "We, the people of [india](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse), having solemnly resolved to constitute [india](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) into a Sovereign, Socialist, Secular, Democratic Republic..." The Preamble is significant because it:
 * **Defines the nature of the Indian state**: Sovereign, Socialist, Secular, Democratic Republic
 * **Outlines the objectives of the Constitution**: Justice, Liberty, Equality, Fraternity
 * **Provides a framework for governance**: The principles of democracy, socialism, and secularism

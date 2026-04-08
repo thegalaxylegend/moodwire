@@ -6,27 +6,27 @@
       "fields": [
         {
           "name": "📊 All-Time Stats",
-          "value": "Total: 28 blogs\nPassed: 21\nFailed: 7\nPass Rate: 75%",
+          "value": "Total: 34 blogs\nPassed: 23\nFailed: 11\nPass Rate: 68%",
           "inline": true
         },
         {
           "name": "📈 Avg Quality Score",
-          "value": "77.5/100",
+          "value": "74.3/100",
           "inline": true
         },
         {
           "name": "📈 Trend",
-          "value": "IMPROVING (+26.3)",
+          "value": "IMPROVING (+31.2)",
           "inline": true
         },
         {
           "name": "🔴 Top Errors",
-          "value": "• 401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\": (×5)",
+          "value": "• 401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\": (×6)\n• Critically low word count: 330 (Min 800 for Patching) (×2)\n• Critically low word count: 714 (Min 800 for Patching) (×1)",
           "inline": false
         }
       ],
       "footer": {
-        "text": "Report generated: 2026-04-07T16:47:19.884Z"
+        "text": "Report generated: 2026-04-08T08:42:05.662Z"
       }
     }
   ]

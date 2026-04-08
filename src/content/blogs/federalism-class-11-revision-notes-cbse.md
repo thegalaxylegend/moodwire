@@ -58,13 +58,13 @@ The key features of federalism include:
 | --- | --- |
 | **Division of Powers** | Clear division of powers between the central government and the state governments |
 | **Independent Judiciary** | An independent judiciary to interpret the Constitution and resolve disputes |
-| **Dual Citizenship** | Citizens have dual citizenship, with rights and obligations at both the central and state levels |
+| **Dual Citizenship** | Citizens have dual citizenship, with [rights](/blog/fundamental-rights-class-11-revision-notes-cbse) and obligations at both the central and state levels |
 | **Bicameral Legislature** | A bicameral legislature with two houses, one representing the states and the other representing the people |
 
 
 ## <a id="what-is-the-historical-context-of-federalism-in-india"></a>What is the Historical Context of Federalism in India?
 
-The historical context of federalism in India dates back to the **British colonial period**, when the British government introduced the **Government of India Act, 1935**, which provided for a federal system with a strong center and weaker provinces. After independence, the **Constituent Assembly** drafted the Indian Constitution, which established a federal system with a strong center and weaker states. The **States Reorganisation Act, 1956**, further reorganized the states on a linguistic basis.
+The historical context of federalism in [india](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) dates back to the **British colonial period**, when the British government introduced the **Government of [india](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) Act, 1935**, which provided for a federal system with a strong center and weaker provinces. After independence, the **Constituent Assembly** drafted the Indian Constitution, which established a federal system with a strong center and weaker states. The **States Reorganisation Act, 1956**, further reorganized the states on a linguistic basis.
 
 
 

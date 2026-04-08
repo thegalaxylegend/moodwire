@@ -53,7 +53,7 @@ practice_link: "/class-11/physics/laws-of-motion-class-11-revision-notes-jee-nee
 > - **2nd Law:** F = ma; Force = rate of change of momentum (dp/dt).
 > - **3rd Law:** Action = Reaction (on different bodies).
 > - **Banking of Roads:** v_max = √[rg (μ + tanθ)/(1 - μ tanθ)].
-> - **Friction:** f_s ≤ μ_s N; f_k = μ_k N. Friction always opposes relative motion.
+> - **Friction:** f_s ≤ μ_s N; f_k = μ_k N. Friction always opposes relative [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet).
 > [**📥 Download 1-Page Short Notes PDF (Zero-Friction)**](#)
 
 ---

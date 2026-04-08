@@ -75,13 +75,13 @@ In 1971, the General Conference on Weights and Measures (CGPM) established the S
 1. **Length (Metre, m):** Defined by the distance light travels in a vacuum in 1/299,792,458 of a second.
 2. **Mass (Kilogram, kg):** Defined by fixing the numerical value of the Planck constant **h** to be 6.62607015 × 10⁻³⁴ J·s.
 3. **Time (Second, s):** Defined by the frequency of radiation from the transition between hyperfine levels of the ground state of the Cesium-133 atom.
-4. **Electric Current (Ampere, A):** Defined by the elementary charge **e**.
+4. **[electric](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) Current (Ampere, A):** Defined by the elementary charge **e**.
 5. **Thermodynamic Temperature (Kelvin, K):** Defined by the Boltzmann constant **k**.
 6. **Amount of Substance (Mole, mol):** Contains exactly 6.02214076 × 10²³ elementary entities (Avogadro number).
 7. **Luminous Intensity (Candela, cd):** Measures the perceived power of light.
 
 ### <a id="supplementary-units"></a>Supplementary Units:
-- **Plane Angle (θ):** Measured in **Radian (rad)**. θ = Arc / Radius.
+- **[plane](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) Angle (θ):** Measured in **Radian (rad)**. θ = Arc / Radius.
 - **Solid Angle (Ω):** Measured in **Steradian (sr)**. Ω = Area / Radius².
 
 ---
@@ -189,7 +189,7 @@ This is the standard approach for competitive exams like JEE Main.
 
 ## <a id="conclusion"></a>Conclusion
 
-Units and Measurements are not just "entry-level" topics; they are the filter through which all physical truth must pass. By mastering the mathematical proofs of error propagation and the power of dimensional analysis, you move from merely memorizing formulas to understanding the underlying logic of Physics. Stay precise, keep your dimensions balanced, and minimize your errors!
+Units and Measurements are not just "entry-level" topics; they are the filter through which all physical truth must pass. By mastering the [mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) proofs of error propagation and the power of dimensional analysis, you move from merely memorizing formulas to understanding the underlying logic of Physics. Stay precise, keep your dimensions balanced, and minimize your errors!
 
 ---
 **Reference:** [BIPM: The International System of Units](https://www.bipm.org/en/measurement-units/)

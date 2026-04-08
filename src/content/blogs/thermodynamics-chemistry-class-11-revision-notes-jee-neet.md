@@ -355,8 +355,8 @@ CBSE loves "Derive the Gibbs-Helmholtz equation" as a 5-mark question. Write the
 ---
 
 **Related [revision](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet) Notes:**
-- **Chemical Equilibrium — Le Chatelier's Principle Tricks**
-- **States of Matter — Gas Laws & Real Gases Tricks**
+- **[chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Equilibrium — Le Chatelier's Principle Tricks**
+- **[states](/blog/states-of-matter-class-11-revision-notes-jee-neet) of Matter — Gas Laws & Real Gases Tricks**
 - **Some Basic Concepts of Chemistry — Mole Concept & Stoichiometry**
 
 ---

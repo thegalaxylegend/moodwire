@@ -173,7 +173,7 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
         - Agricultural applications: Biofertilizers, biopesticides, and plant [disease](/blog/human-health-and-disease-class-12-notes) control (approx. 25% of questions)
 
-        - Industrial applications: Production of enzymes, pigments, and other compounds (approx. 45% of questions)
+        - Industrial [applications](/blog/biotechnology-and-its-applications-class-12-notes): Production of enzymes, pigments, and other compounds (approx. 45% of questions)
 
         - **Key Microbes:** Focus on the following microbes and their [applications](/blog/biotechnology-and-its-applications-class-12-notes):
 

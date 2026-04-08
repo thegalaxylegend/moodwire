@@ -31,7 +31,7 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 * **Monohybrid and Dihybrid Cross**: 1 numerical on monohybrid cross and 1 on dihybrid cross — always
 * **Incomplete Dominance and Co-dominance**: 1 short answer question on the difference between incomplete dominance and co-dominance — always
 * **Blood Group System**: 1 short answer question on the ABO blood group system, including the genotypes and phenotypes of the different blood groups — always
-* **Sickle Cell Anaemia**: 1 short answer question on the genetics of sickle cell anaemia, including the cause, symptoms, and inheritance pattern — always
+* **Sickle Cell Anaemia**: 1 short answer question on the genetics of sickle cell anaemia, including the cause, symptoms, and [inheritance](/blog/molecular-basis-of-inheritance-class-12-notes) pattern — always
 * **Chromosomal Disorders**: 1 short answer question on Down's syndrome, including the cause, symptoms, and karyotype — always
 * **Polygenic Inheritance**: 1 short answer question on polygenic inheritance, including the concept of multiple genes controlling a single trait — always
 * **Multiple Alleles**: 1 numerical on multiple alleles, including the ABO blood group system — always
@@ -189,7 +189,7 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 
  * Do not understand how to calculate the probability of certain genotypes and phenotypes in complex crosses.
 
- * Rely on rote memorization rather than applying the underlying principles to solve problems.
+ * Rely on rote memorization rather than applying the underlying [principles](/blog/biotechnology-principles-and-processes-class-12-notes) to solve problems.
 
  - **What 95% scorers do:** Top scorers have a deep understanding of the principles of inheritance and variation, including:
 

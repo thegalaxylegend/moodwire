@@ -84,7 +84,7 @@ Biotech has the highest "Questions-per-Page" ratio in the entire biology syllabu
 
 ## <a id="the-lowyield-time-sink-matrix"></a>The Low-Yield "Time Sink" Matrix
 
-The following chapters require massive memorization but yield very few questions (typically 1-2 each). Study them, but **do not let them consume your primary revision cycle**:
+The following chapters require massive memorization but yield very few questions (typically 1-2 each). Study them, but **do not let them consume your primary [revision](/blog/animal-kingdom-class-11-revision-notes-neet) cycle**:
 * Plant Kingdom (heavy memorization of examples)
 * Animal Kingdom (focus only on defining phylum characteristics)
 * Morphology of Flowering Plants (extreme rote learning required for floral formulas)

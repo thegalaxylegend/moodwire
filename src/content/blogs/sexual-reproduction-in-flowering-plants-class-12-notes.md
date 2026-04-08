@@ -260,7 +260,7 @@ ightarrow n$ transition during meiosis and its implications for seed formation. 
 - C) Regeneration
 - D) Apomixis
 
-**Answer:** D) Apomixis is a type of asexual reproduction in plants where seeds are produced without fertilization.
+**Answer:** D) Apomixis is a type of asexual [reproduction](/blog/reproduction-in-organisms-class-12-notes) in plants where seeds are produced without fertilization.
 
 ---
 

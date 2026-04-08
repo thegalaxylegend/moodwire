@@ -69,7 +69,7 @@ Mathematics is built on a foundation of absolute truth and rigorous logic.
 
 ## <a id="1-mathematical-statements"></a>1. Mathematical Statements
 
-Not every sentence is a "statement" in the mathematical sense. 
+Not every sentence is a "statement" in the [mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) sense. 
 - **Is a Statement:** "10 is an even number" (True), "The sum of angles in a triangle is 180°" (True).
 - **NOT a Statement:** "How are you?" (Question), "Mathematics is difficult" (Subjective), "Open the door" (Command), "He is a tall man" (Relative).
 
@@ -177,7 +177,7 @@ Mathematical Reasoning is the "grammar" of mathematics. It ensures that our conc
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/complex-numbers-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)
 - 📖 [Units And Measurements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/units-and-measurements-class-11-revision-notes-jee-neet)

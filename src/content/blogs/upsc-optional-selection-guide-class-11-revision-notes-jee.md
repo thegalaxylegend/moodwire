@@ -42,7 +42,7 @@ practice_link: "/class-11/mathematics/upsc-optional-selection-guide-class-11-rev
 
 If you’re a UPSC aspirant, you know that the "Optional Subject" is where the battle for a top rank is won or lost. It’s 500 marks out of a 1750-mark total in [mains](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet). It’s roughly 30% of your total score, yet it takes up 50% of your mental space. 
 
-I’m Ayush, and while I’m primarily focused on JEE/NEET tools at Exam Compass, I’ve spent months analyzing the UPSC recruitment data to help my older sister navigate this mess. The truth is: most people choose their optional based on "interest" or "senior’s advice." But in the cut-throat world of the Civil Services Exam, interest won't save you if the subject isn't "scoring" or "overlapping."
+I’m Ayush, and while I’m primarily focused on JEE/NEET tools at Exam Compass, I’ve spent months analyzing the UPSC recruitment data to help my older sister navigate this mess. The truth is: most people choose their [optional](/blog/upsc-optional-selection-guide) based on "interest" or "senior’s advice." But in the cut-throat world of the Civil Services Exam, interest won't save you if the subject isn't "scoring" or "overlapping."
 
 In this [guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet), I’m breaking down exactly **how to choose UPSC optional subject** using data-driven metrics: Success Rates, GS Overlap, and Scoring Potency. 
 
@@ -52,7 +52,7 @@ In this [guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)
 > - **GS Overlap is King**: Subjects like PSIR and Sociology save you 30% time in GS.
 > - **Success Rate Trap**: Why a 10% success rate is better than a 50% success rate in some subjects.
 > - **The Syllabus Squeeze**: Balancing depth vs. breadth of the optional content.
-> - **AI Strategy**: Using data analytics to track your accuracy in **online mock tests**.
+> - **AI [strategy](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)**: Using data analytics to track your accuracy in **online mock tests**.
 > - **Internal Link**: Master your GS prep with our [UPSC General Studies Hub](https://examcompass.pages.dev/upsc/gs).
 
 ---
@@ -70,7 +70,7 @@ In this [guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)
 
 Choosing an optional subject is a long-term commitment that requires deliberate planning. You will live with this subject for months, often dedicating 10 hours a day to its mastery. While many suggest following your "passion," a purely interest-based approach can fail if there is no study material or **NCERT solutions** available.
 
-Our framework uses three pillars: Success Rate (how many candidates qualify), Overlap (how much it aids your General Studies papers), and Manageability (if the syllabus fits within a 4-month preparation window). Balancing these three ensures that your optional becomes a scoring asset rather than an overwhelming burden during the peak of Mains preparation.
+Our framework uses three pillars: Success Rate (how many candidates qualify), Overlap (how much it aids your General Studies papers), and Manageability (if the syllabus fits within a 4-month preparation window). Balancing these three ensures that your optional becomes a scoring asset rather than an overwhelming burden during the peak of [mains](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) preparation.
 
 
 

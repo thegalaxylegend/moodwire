@@ -67,7 +67,7 @@ Students often cancel out action and reaction pairs (Newton's 3rd Law) to assume
 **The Fix:** Remember that action and reaction forces *always act on different bodies*. They can never cancel each other out on the *same* Free Body Diagram.
 
 ### <a id="3-misjudging-the-direction-of-friction"></a>3. Misjudging the Direction of Friction
-Friction opposes *relative* sliding motion between two surfaces, not necessarily the direction of travel. For example, when you walk forward, static friction on your shoe points *forward*, propelling you.
+Friction opposes *relative* sliding [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) between two surfaces, not necessarily the direction of travel. For example, when you walk forward, static friction on your shoe points *forward*, propelling you.
 **The Fix:** Ask yourself: "If there was no friction here (ice), which way would the surfaces slip?" Friction points opposite to that imaginary slip.
 
 ### <a id="4-mass-vs-weight-confusion-in-formulas"></a>4. Mass vs Weight Confusion in Formulas

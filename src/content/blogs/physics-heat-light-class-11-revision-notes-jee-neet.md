@@ -1,4 +1,7 @@
 ---
+needs_manual_review: true
+dup_overlap_with: "classification-elements-periodicity-class-11-revision-notes-jee-neet"
+dup_overlap_pct: 67
 heroImage: "/blog-images/physics-heat-light-class-11-revision-notes-jee-neet.webp"
 title: "Physics Heat Light Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
 description: "Physics Heat Light Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
@@ -110,7 +113,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/classification-of-elements-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Physics Mechanics Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/physics-mechanics-class-11-revision-notes-jee-neet)
 - 📖 [Some Basic Concepts Of Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet)

@@ -93,7 +93,7 @@ practice_link: "/class-11/biology/ecosystem-class-12-notes"
 
  - *Costs:* 4-5 marks for failing to discuss the effects of human activities on ecosystems and potential [conservation](/blog/biodiversity-and-conservation-class-12-notes) strategies.
 
- - *Fix:* Study how human actions like pollution and deforestation affect biodiversity, ecosystem services, and the greenhouse effect. Learn about strategies for mitigation and conservation, including sustainable practices, renewable energy sources, and protected areas.
+ - *Fix:* Study how [human](/blog/human-health-and-disease-class-12-notes) actions like pollution and deforestation affect biodiversity, ecosystem services, and the greenhouse effect. Learn about strategies for mitigation and conservation, including sustainable practices, renewable energy sources, and protected areas.
 
 
 

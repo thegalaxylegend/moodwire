@@ -99,7 +99,7 @@ practice_link: "/class-10/polynomials-class-10-notes"
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
-- **The Core Concept:** The core concept that separates 85% scorers from 95% scorers in Polynomials is the ability to apply the **Remainder Theorem** and **Factor Theorem** to solve complex polynomial equations. 
+- **The Core Concept:** The core concept that separates 85% scorers from 95% scorers in Polynomials is the ability to apply the **Remainder Theorem** and **Factor Theorem** to solve complex polynomial [equations](/blog/pair-of-linear-equations-class-10-notes). 
  - **What 85% scorers do:** Most students focus on basic polynomial operations like addition, subtraction, and multiplication, and they often strugg\le with dividing polynomials. They also tend to memorize formulas without understanding the underlying principles, which can lead to mistakes in applying theorems.
  - **What 95% scorers do:** Top-scoring students, on the other hand, have a deep understanding of the relationship between the Remainder Theorem and the Factor Theorem. They can apply these theorems to:
  * Factorize polynomials using $\gcd$ (Greatest Common Divisor) and $\lcm$ (Least Common Multip\le)

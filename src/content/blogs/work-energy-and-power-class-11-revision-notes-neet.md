@@ -90,7 +90,7 @@ In physics, **Work (W)** is done only when a force causes a displacement.
 
 ## <a id="2-the-workenergy-theorem-we-theorem"></a>2. The Work-Energy Theorem (WE Theorem)
 
-**Theorem:** The work done by the net force on an object is equal to the change in its kinetic energy.
+**Theorem:** The work done by the net force on an object is equal to the change in its [kinetic](/blog/kinetic-theory-class-11-revision-notes-jee-neet) energy.
 **Work_net = ΔK = K_final - K_initial**
 
 ### <a id="derivation-for-variable-force"></a>Derivation (For Variable Force):
@@ -189,7 +189,7 @@ At descent height x: v² = 2gx. K = 1/2 m(2gx) = mgx. U = mg(H-x). Total = **mgH
 
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
-- **Chapter 4: Laws of Motion (Momentum Concepts)**
+- **Chapter 4: Laws of [motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet) (Momentum Concepts)**
 - **Chapter 6: System of Particles & Rotational Motion**
 - **Mastering Collision Physics: Numerical Vault**
 
@@ -220,7 +220,7 @@ Energy is the invisible currency of the universe. By shifting our perspective fr
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
 - 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)

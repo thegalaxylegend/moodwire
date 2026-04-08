@@ -50,7 +50,7 @@ Climate is a long-term average of atmospheric conditions in a particular region,
 
 The key factors that influence climate include **latitude**, **altitude**, **ocean currents**, and **land use patterns**. Latitude in determining the amount of solar radiation a region receives, with regions near the equator receiving more radiation than those near the poles. Altitude also affects climate, with higher elevations generally being cooler and receiving more precipitation than lower elevations. Ocean currents can warm or cool a region, depending on the direction of the current, while land use patterns, such as deforestation or urbanization, can also impact local climate conditions.
 
-As I sit here thinking about climate, I am reminded of my own experiences with different climates. **Ayush's Personal Note**: I have had the opportunity to visit various parts of the country, from the hot and humid climate of Mumbai to the cold and dry climate of Leh. Each region has its unique climate, shaped by a combination of factors, including geography, ocean currents, and human activities.
+As I sit here thinking about climate, I am reminded of my own experiences with different climates. **Ayush's Personal Note**: I have had the opportunity to visit various parts of the country, from the hot and humid climate of Mumbai to the cold and dry climate of Leh. Each region has its unique climate, shaped by a combination of factors, including [geography](/blog/indian-geography-physical-class-11-revision-notes-jee-neet), ocean currents, and human activities.
 
 ## <a id="what-are-the-different-types-of-climate"></a>What are the different types of Climate?
 
@@ -65,7 +65,7 @@ There are several types of climate, including **tropical**, **desert**, **temper
 
 ## <a id="what-is-the-historical-context-of-climate-change"></a>What is the historical context of Climate Change?
 
-The concept of climate change is not new, with **historical records** showing that climate has been changing for thousands of years. The ancient Greeks and Romans recognized the importance of climate, with philosophers such as Aristotle and Seneca writing about the topic. In the 19th century, scientists such as **Louis Agassiz** and **John Tyndall** began to study climate change, recognizing the role of human activities in shaping the climate. The following timeline highlights some of the key events in the history of climate change research:
+The concept of climate change is not new, with **historical records** showing that climate has been changing for thousands of years. The [ancient](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) Greeks and Romans recognized the importance of climate, with philosophers such as Aristotle and Seneca writing about the topic. In the 19th century, scientists such as **Louis Agassiz** and **John Tyndall** began to study climate change, recognizing the role of human activities in shaping the climate. The following timeline highlights some of the key events in the history of climate change research:
 
 | Year | Event |
 | --- | --- |
@@ -100,7 +100,7 @@ The core concepts of climate include **atmospheric circulation**, **ocean curren
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/fundamental-rights-class-11-revision-notes-cbse) with these related guides:
 
 - 📖 [Fundamental Rights Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/fundamental-rights-class-11-revision-notes-cbse)
 - 📖 [Indian Geography Physical Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/indian-geography-physical-class-11-revision-notes-jee-neet)

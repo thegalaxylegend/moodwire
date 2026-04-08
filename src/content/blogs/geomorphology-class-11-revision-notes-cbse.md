@@ -153,7 +153,7 @@ Geomorphology has a wide range of applications, including:
 
 ## <a id="conclusion-is-not-allowed-hence-the-following"></a>Conclusion is not allowed, hence the following
 
-As a student of Class 11, it is essential to have a solid grasp of Geomorphology, as it is a fundamental subject in Geography. By understanding the core concepts, formulae, and tables, and practicing MCQs, I can ensure I am well-prepared for my exam. Additionally, recognizing the importance of Geomorphology and its applications will help me appreciate the subject and its relevance to real-life situations. 
+As a student of [class](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) 11, it is essential to have a solid grasp of Geomorphology, as it is a fundamental subject in Geography. By understanding the core concepts, formulae, and tables, and practicing MCQs, I can ensure I am well-prepared for my exam. Additionally, recognizing the importance of Geomorphology and its applications will help me appreciate the subject and its relevance to real-life situations. 
 \begin{equation}
 E = \sum_{i=1}^{n} (R_i \times S_i)
 \end{equation}

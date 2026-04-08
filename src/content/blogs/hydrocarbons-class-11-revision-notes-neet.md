@@ -170,7 +170,7 @@ Answer: c) Ethyne
 
 ## <a id="related-notes-links"></a>Related Notes Links
 
-- Alkyl Halides Class 11 Notes
+- Alkyl Halides [class](/blog/hydrogen-class-11-revision-notes-neet) 11 Notes
 - Alcohols Class 11 Notes
 
 ---

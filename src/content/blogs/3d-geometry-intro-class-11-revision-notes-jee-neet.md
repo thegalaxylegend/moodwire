@@ -1,4 +1,7 @@
 ---
+needs_manual_review: true
+dup_overlap_with: "agriculture-class-11-revision-notes-neet"
+dup_overlap_pct: 89
 heroImage: "/blog-images/3d-geometry-intro-class-11-revision-notes-jee-neet.webp"
 title: "3d Geometry Intro Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
 description: "3d Geometry Intro Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
@@ -90,7 +93,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/ai-study-hack-pomodoro-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Agriculture Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/agriculture-class-11-revision-notes-neet)
 - 📖 [Ai Exam Prep Future Class 11 Computer Science Recap — CBSE 2026 Quick Guide](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet)

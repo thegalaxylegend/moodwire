@@ -46,11 +46,11 @@ practice_link: "/class-11/mathematics/inverse-trigonometric-functions-class-12-n
 ## <a id="-what-will-come-in-your-exam"></a>🎯 What WILL Come in Your Exam
 * 1 numerical on $\\sin^{-1}x$ and its range — always, focusing on finding the value of $\\sin^{-1}(\\frac{1}{2})$ or similar.
 * Graph of $y = \\sin^{-1}x$ — JEE favourite, including identification of its domain and range.
-* 1 question on properties of inverse trigonometric functions, specifically:
+* 1 question on properties of inverse trigonometric [functions](/blog/relations-and-functions-class-11-notes), specifically:
  + $\\sin^{-1}(\\sin x) = x$ if $x \\in [\\frac{-\\pi}{2}, \\frac{\\pi}{2}]$
  + $\\cos^{-1}(\\cos x) = x$ if $x \\in [0, \\pi]$
  + $\\tan^{-1}(\\tan x) = x$ if $x \\in [\\frac{-\\pi}{2}, \\frac{\\pi}{2}]$
-* Derivatives of inverse trigonometric functions — always, including:
+* [derivatives](/blog/application-of-derivatives-class-12-notes) of inverse trigonometric functions — always, including:
  + $\\frac{d}{dx}(\\sin^{-1}x) = \\frac{1}{\\sqrt{1-x^2}}$
  + $\\frac{d}{dx}(\\cos^{-1}x) = \\frac{-1}{\\sqrt{1-x^2}}$
  + $\\frac{d}{dx}(\\tan^{-1}x) = \\frac{1}{1+x^2}$

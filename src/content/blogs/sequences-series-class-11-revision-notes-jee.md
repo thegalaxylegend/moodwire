@@ -167,7 +167,7 @@ This formula is the basis for many converging series in higher-level mathematics
 
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
-- **Chapter 8: Binomial Theorem**
+- **Chapter 8: [binomial](/blog/binomial-theorem-class-11-revision-notes-jee) Theorem**
 - **Chapter 10: Straight Lines**
 - [**External Reference:** [NCERT Class 11 Math Chapter 9](https://ncert.nic.in/textbook.php?kemh1=9-16) (Authoritative Source)]
 
@@ -197,7 +197,7 @@ Sequences and Series are not just lists of numbers; they are the language of gro
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/conic-sections-class-11-revision-notes-jee) with these related guides:
 
 - 📖 [Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-class-11-revision-notes-jee)
 - 📖 [Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/binomial-theorem-class-11-revision-notes-jee)

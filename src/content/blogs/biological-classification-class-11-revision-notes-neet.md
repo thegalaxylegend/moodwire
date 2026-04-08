@@ -88,7 +88,7 @@ Biological classification is the process of grouping living organisms based on t
 
 ## <a id="why-this-chapter-matters"></a>Why This Chapter Matters
 
-Biological classification is an important topic for Class 11 students, as it is a fundamental concept in biology. In the NEET exam, questions related to biological classification are often asked, and a good understanding of this topic can help students score well. For example, in the NEET 2026 exam, 5 questions were asked from this topic.
+Biological classification is an important topic for [class](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) 11 students, as it is a fundamental concept in biology. In the NEET exam, questions related to biological classification are often asked, and a good understanding of this topic can help students score well. For example, in the NEET 2026 exam, 5 questions were asked from this topic.
 
 
 

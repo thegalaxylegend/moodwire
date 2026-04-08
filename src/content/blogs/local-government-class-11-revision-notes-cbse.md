@@ -58,7 +58,7 @@ Local Government is a system of government that operates at the local level, inc
 
 ## <a id="how-does-local-government-function"></a>How Does Local Government Function?
 
-Local Government functions through a system of elected representatives and officials. It includes local planning, taxation, and service delivery. For Class 11 exam prep in 2026, the most important aspect is understanding the roles and responsibilities of local governments.
+Local Government functions through a system of elected representatives and officials. It includes local planning, taxation, and service delivery. For [class](/blog/fundamental-rights-class-11-revision-notes-cbse) 11 exam prep in 2026, the most important aspect is understanding the roles and responsibilities of local governments.
 
 
 | Function | Institution |

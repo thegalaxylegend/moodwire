@@ -55,7 +55,7 @@ I still remember my school days when I struggled to understand the mole concept.
 
 ## <a id="jeeneet-data"></a>JEE/NEET Data
 
-For students preparing for JEE/NEET, it's essential to understand the importance of these concepts. According to the JEE/NEET syllabus, some basic concepts of chemistry carry a significant weightage. Here's a breakdown of the topics and their weightage:
+For students preparing for JEE/NEET, it's essential to understand the importance of these concepts. According to the JEE/NEET syllabus, some basic concepts of [chemistry](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet) carry a significant weightage. Here's a breakdown of the topics and their weightage:
 - Atomic [structure](/blog/structure-of-the-atom-class-11-revision-notes-neet): 10-12%
 - [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) bonding: 8-10%
 - Thermodynamics: 8-10%
@@ -91,7 +91,7 @@ For example, the number of moles of 10 g of sodium (Na) is:
 $$\text{Number of Moles of Na} = \frac{10}{23} = 0.434 \text{ moles}$$
 
 ### <a id="stoichiometry"></a>Stoichiometry
-Stoichiometry is the study of the quantitative relationships between reactants and products in chemical reactions. It's used to calculate the amount of reactants required or the amount of products formed in a reaction.
+Stoichiometry is the study of the quantitative relationships between reactants and products in [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) reactions. It's used to calculate the amount of reactants required or the amount of products formed in a reaction.
 
 The law of conservation of mass states that matter cannot be created or destroyed in a chemical reaction. This means that the total mass of the reactants is equal to the total mass of the products.
 
@@ -170,7 +170,7 @@ Here are some essential formulae to remember:
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/classification-of-elements-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)
 - 📖 [Classification Of Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-of-elements-class-11-revision-notes-jee-neet)

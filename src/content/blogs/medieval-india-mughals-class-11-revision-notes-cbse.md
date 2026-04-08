@@ -50,12 +50,12 @@ practice_link: "/class-11/medieval-india-mughals-class-11-revision-notes-cbse"
 
 
 * **Mughal Empire**: Founded by **Babur** in 1526
-* **Capital**: Agra, later shifted to Delhi
+* **Capital**: Agra, later shifted to [delhi](/blog/medieval-india-delhi-sultanate-class-11-revision-notes-cbse)
 * **Notable Rulers**: Babur, Humayun, Akbar, Jahangir, Shah Jahan, Aurangzeb
 * **Administrative Divisions**: Subas (provinces), Sarkars (districts), Parganas (sub-districts)
 * **Revenue System**: Mansabdari, Jagirdari, Zamindari
 
-As I, Ayush, recall my history lessons, I realize that the Mughal Empire was a vast and complex entity that played a significant role in shaping medieval India. In this quick revision and recap, we will cover the key aspects of the Mughal Empire, including its founding, notable rulers, administrative divisions, and revenue system.
+As I, Ayush, recall my history lessons, I realize that the Mughal Empire was a vast and complex entity that played a significant role in shaping medieval [india](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse). In this quick revision and recap, we will cover the key aspects of the Mughal Empire, including its founding, notable rulers, administrative divisions, and revenue system.
 
 ### <a id="ayushs-personal-note"></a>Ayush's Personal Note
 

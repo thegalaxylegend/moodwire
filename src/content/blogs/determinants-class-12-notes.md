@@ -74,7 +74,7 @@ practice_link: "/class-11/mathematics/determinants-class-12-notes"
 
 #### Multiplicative Property
 - **Formula:** $$\det(kA) = k^n \cdot \det(A)$$ — $k$ is a scalar, $A$ is an $n \times n$ matrix.
-- **Application:** Used to calculate the determinant of a scaled matrix.
+- **[application](/blog/application-of-integrals-class-12-notes):** Used to calculate the determinant of a scaled matrix.
 
 ### <a id="-core-concept-3-expansion-by-minors"></a>⚡ Core Concept 3: Expansion by Minors
 

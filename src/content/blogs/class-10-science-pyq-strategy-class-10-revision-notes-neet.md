@@ -44,14 +44,14 @@ If you're reading this, you're probably freaking out about the upcoming science 
 
 We (the team at Exam Compass) analyzed the last 10 years of **CBSE [class](/blog/class-10-30-day-timetable-class-10-revision-notes-jee) 10 Science most repeated PYQs**, and the data doesn't lie. CBSE is surprisingly predictable. If you know which "patterns" they love, you can honestly stop studying 30% of the useless fluff and focus on the goldmines.
 
-In this guide, I’m breaking down exactly what those patterns are, which chapters carry the most weight, and how you can use AI-powered mock tests to secure your 95+.
+In this [guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet), I’m breaking down exactly what those patterns are, which chapters carry the most weight, and how you can use AI-powered mock tests to secure your 95+.
 
 
 
 > **Key Takeaways**
 > - **Predictability**: 60% of the paper follows patterns from the last 5 years of **previous year papers**.
 > - **Physics ROI**: Light and Electricity are the "High-Yield" zones for numericals.
-> - **Chemistry Patterns**: Carbon and its Compounds is the king of marks.
+> - **[chemistry](/blog/environmental-chemistry-class-11-revision-notes-neet) Patterns**: Carbon and its Compounds is the king of marks.
 > - **Biology Strategy**: Diagram-based questions are guaranteed marks if you know the labeling.
 > - **Active Practice**: Stop reading, start solving. Take an **online mock test** every Sunday.
 

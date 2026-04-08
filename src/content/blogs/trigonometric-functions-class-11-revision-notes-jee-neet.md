@@ -86,7 +86,7 @@ Trigonometry is the study of triangles, but in Chapter 3, it evolves into the st
 ## <a id="2-the-unit-circle-and-astc-rule"></a>2. The Unit Circle and ASTC Rule
 
 The definitions of trigonometric functions are extended to all real [numbers](/blog/complex-numbers-class-11-revision-notes-jee-neet) using a unit circle.
-*   **Signs of Functions:**
+*   **Signs of [functions](/blog/relations-functions-class-11-revision-notes-jee-neet):**
     *   **Quadrant I:** All (Sin, Cos, Tan, Cot, Sec, Cosec) are Positive.
     *   **Quadrant II:** Sine and Cosecant are Positive.
     *   **Quadrant III:** Tangent and Cotangent are Positive.
@@ -173,7 +173,7 @@ The definitions of trigonometric functions are extended to all real [numbers](/b
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - [**Chapter 2: Relations and Functions**
-- **Chapter 5: Complex Numbers**
+- **Chapter 5: [complex](/blog/complex-numbers-class-11-revision-notes-jee-neet) Numbers**
 - [**External Reference:** [NCERT Class 11 Math Chapter 3](https://ncert.nic.in/textbook.php?kemh1=3-16) (Authoritative Source)]
 
 
@@ -181,7 +181,7 @@ The definitions of trigonometric functions are extended to all real [numbers](/b
 
 ## <a id="conclusion"></a>Conclusion
 
-Trigonometry is the bridge between geometry and algebra. By mastery the "Core 10" formulas and visualizing the Unit Circle, you unlock the ability to solve complex rotation and wave problems. Keep your radians straight and your ASTC rule handy!
+Trigonometry is the bridge between geometry and algebra. By mastery the "Core 10" formulas and visualizing the Unit Circle, you unlock the ability to solve complex rotation and wave problems. Keep your radians [straight](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) and your ASTC rule handy!
 
 ---
 

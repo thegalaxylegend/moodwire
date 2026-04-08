@@ -72,7 +72,7 @@ Respiration in [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div class="callout-box">
+<div [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)="callout-box">
 I once struggled to understand the difference between aerobic and anaerobic respiration. I thought that plants only underwent anaerobic respiration, but that's not true. Plants, like animals, require oxygen for aerobic respiration. I realized my mistake when I was solving a practice question that asked about the byproducts of aerobic respiration in plants. Now, I make sure to clearly distinguish between the two types of respiration.
 </div>
 

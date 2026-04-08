@@ -184,7 +184,7 @@ Solution: a) $\text{Cr}_2\text{O}_7^{2-} + 6\text{Fe}^{2+} + 14\text{H}^+ \right
 
 ## <a id="related-notes-links"></a>Related Notes Links
 
-* Chemical Bonding Class 11 Notes
+* Chemical Bonding [class](/blog/hydrogen-class-11-revision-notes-neet) 11 Notes
 * Electrochemistry Class 12 Notes
 
 ---

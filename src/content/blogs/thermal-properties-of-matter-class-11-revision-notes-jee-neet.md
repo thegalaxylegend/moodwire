@@ -184,7 +184,7 @@ Most substances expand when heated. We define three coefficients of expansion:
 
 ## <a id="conclusion"></a>Conclusion
 
-Thermal properties define the limits of sustainability and efficiency in our world. By mastering the mathematical relationships between expansion, cooling, and radiation, you gain the ability to predict how materials will behave in extreme environments. Master the derivation of Newton’s Law of Cooling and the coefficients of expansion—these are the core thermal principles that power everything from thermometers to heat shields. Stay cool, keep your internal energy balanced, and never reach thermal equilibrium!
+Thermal [properties](/blog/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet) define the limits of sustainability and efficiency in our world. By mastering the mathematical relationships between expansion, cooling, and radiation, you gain the ability to predict how materials will behave in extreme environments. Master the derivation of Newton’s Law of Cooling and the coefficients of expansion—these are the core thermal principles that power everything from thermometers to heat shields. Stay cool, keep your internal energy balanced, and never reach thermal equilibrium!
 
 ---
 **Reference:** [NIST: Thermodynamics and Thermal Properties](https://www.nist.gov)
@@ -206,7 +206,7 @@ Thermal properties define the limits of sustainability and efficiency in our wor
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
 - 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)

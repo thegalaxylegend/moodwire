@@ -37,7 +37,7 @@ practice_link: "/class-11/biology/agriculture-class-11-revision-notes-neet"
 
 ## <a id="ayushs-note-the-mistake-i-made"></a>Ayush's Note — The Mistake I Made
 
-{"title":"Personal Mistake/Hack","note":"One of the most significant mistakes I made while preparing for my Class 11 Biology exams was not giving enough attention to the agricultural practices and their impact on the environment. I used to think that agriculture was just about farming, but it's so much more than that. My hack is to always keep a note of the key terms and concepts related to agriculture, such as crop rotation, irrigation, and fertilizers, and to revise them regularly.","hack":"To make the most of this topic, create flashcards with key terms on one side and their definitions on the other, and quiz yourself regularly."}
+{"title":"Personal Mistake/Hack","note":"One of the most significant mistakes I made while preparing for my [class](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet) 11 Biology exams was not giving enough attention to the agricultural practices and their impact on the environment. I used to think that agriculture was just about farming, but it's so much more than that. My hack is to always keep a note of the key terms and concepts related to agriculture, such as crop rotation, irrigation, and fertilizers, and to revise them regularly.","hack":"To make the most of this topic, create flashcards with key terms on one side and their definitions on the other, and quiz yourself regularly."}
 
 ## <a id="detailed-analysis"></a>Detailed Analysis
 

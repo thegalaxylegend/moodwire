@@ -184,8 +184,8 @@ To master the concepts of amines and perform exceptionally in JEE and NEET exams
 By incorporating the Test Center into your daily study routine and following these steps, you will not only deepen your understanding of amines but also enhance your overall preparation for the JEE and NEET exams. This integrated approach will help you stay on track, identify and address knowledge gaps, and build the confidence you need to excel in your exams.
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
-- **Quick Recap**: Amines are crucial in organic chemistry, with applications in pharmaceuticals, dyes, and as neurotransmitters. Their reactions, including imine formation, acylation, and oxidation, are vital for JEE and NEET exams.
-- **Final Tip**: Use the Test Center at /class-11/chemistry/amines-class-12-notes daily to practice and review. It’s your key to mastering amines and acing your exams.
+- **Quick Recap**: Amines are crucial in organic [chemistry](/blog/surface-chemistry-class-12-notes), with applications in pharmaceuticals, dyes, and as neurotransmitters. Their reactions, including imine formation, acylation, and oxidation, are vital for JEE and NEET exams.
+- **Final Tip**: Use the Test Center at /[class](/blog/solid-state-class-12-notes)-11/chemistry/amines-[class](/blog/solid-state-class-12-notes)-12-notes daily to practice and review. It’s your key to mastering amines and acing your exams.
 - **Motivation**: You’ve made it this far, and with consistent effort, you can achieve your goals. Stay focused, keep practicing, and believe in yourself. Success in JEE and NEET is within your reach.
 
 
