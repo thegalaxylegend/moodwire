@@ -14,23 +14,27 @@ const REPORTS_DIR = path.join(__dirname, '../jules-reports');
 const RUN_LOG = path.join(__dirname, '../run.log');
 const AUTOPSY_REPORT = path.join(REPORTS_DIR, 'autopsy-report.json');
 
-// Multi-key rotation (matches other scripts)
+// Multi-key rotation — healthy keys FIRST, invalid Key 6 LAST
 const GROQ_KEYS = [
-    process.env.VITE_GROQ_API_KEY_6,
-    process.env.GROQ_API_KEY,
-    process.env.VITE_GROQ_API_KEY_2,
-    process.env.VITE_GROQ_API_KEY_3,
-    process.env.VITE_GROQ_API_KEY_4,
-    process.env.VITE_GROQ_API_KEY_5,
+    process.env.VITE_GROQ_API_KEY,    // Key 1 (healthy)
+    process.env.VITE_GROQ_API_KEY_2,   // Key 2 (healthy)
+    process.env.VITE_GROQ_API_KEY_3,   // Key 3 (healthy)
+    process.env.VITE_GROQ_API_KEY_4,   // Key 4 (healthy)
+    process.env.VITE_GROQ_API_KEY_5,   // Key 5 (healthy)
+    process.env.GROQ_API_KEY,          // Alias for Key 1
+    process.env.VITE_GROQ_API_KEY_6,   // Key 6 (known invalid — last resort)
 ].filter(Boolean) as string[];
 
+// Deduplicate keys in case aliases point to the same value
+const uniqueKeys = [...new Set(GROQ_KEYS)];
+
 let currentKeyIndex = 0;
-let groq = new Groq({ apiKey: GROQ_KEYS[0] });
+let groq = new Groq({ apiKey: uniqueKeys[0] });
 
 function rotateKey() {
-    currentKeyIndex = (currentKeyIndex + 1) % GROQ_KEYS.length;
-    groq = new Groq({ apiKey: GROQ_KEYS[currentKeyIndex] });
-    console.log(`🔄 Rotating to Groq Key #${currentKeyIndex + 1}...`);
+    currentKeyIndex = (currentKeyIndex + 1) % uniqueKeys.length;
+    groq = new Groq({ apiKey: uniqueKeys[currentKeyIndex] });
+    console.log(`🔄 Rotating to Groq Key #${currentKeyIndex + 1}/${uniqueKeys.length}...`);
 }
 
 const sleep = (ms: number) => new Promise(r => setTimeout(r, ms));
@@ -68,8 +72,8 @@ Return ONLY a valid JSON object:
 
 Be professional and concise.`;
 
-    // Retry with key rotation (up to 3 attempts)
-    const MAX_ATTEMPTS = Math.min(3, GROQ_KEYS.length);
+    // Retry with key rotation — try ALL unique keys before giving up
+    const MAX_ATTEMPTS = uniqueKeys.length;
     
     for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
         try {
@@ -90,17 +94,22 @@ Be professional and concise.`;
             report.overall_health = report.overall_health || "Unknown";
             report.audited_at = new Date().toISOString();
             report.log_length = logContent.length;
+            report.key_used = currentKeyIndex + 1;
             
             fs.writeFileSync(AUTOPSY_REPORT, JSON.stringify(report, null, 2));
             console.log(`✅ Auditor: Autopsy report generated (Health: ${report.overall_health})`);
             return;
         } catch (err: any) {
-            const isRateLimit = err.message?.includes('429') || err.message?.includes('rate_limit') || err.message?.includes('503');
+            const isRetryable = err.message?.includes('429') || err.message?.includes('rate_limit') || 
+                                err.message?.includes('503') || err.message?.includes('401') || 
+                                err.message?.includes('Invalid API Key');
             
-            if (isRateLimit && attempt < MAX_ATTEMPTS) {
-                console.warn(`⚠️ Rate limited on key #${currentKeyIndex + 1}. Rotating...`);
+            if (isRetryable && attempt < MAX_ATTEMPTS) {
+                const reason = err.message?.includes('401') || err.message?.includes('Invalid API Key') 
+                    ? 'Invalid API Key' : 'Rate limited';
+                console.warn(`⚠️ ${reason} on key #${currentKeyIndex + 1}. Rotating...`);
                 rotateKey();
-                await sleep(2000 * attempt);
+                await sleep(1500 * attempt);
                 continue;
             }
             

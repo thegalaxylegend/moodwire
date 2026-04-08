@@ -385,24 +385,24 @@ async function downloadHeroImage(subject: string, topic: string, slug: string): 
 
     console.log(`🎨 Jules: Designing custom artwork for "${topic}"...`);
 
-    // Priority 1: Cloudflare Workers AI (Jules Flux)
+    // Priority 1: HuggingFace FLUX (free tier)
+    const hfOk = await generateHuggingFaceImage(subject, topic, webpPath);
+    if (hfOk) return `/blog-images/${slug}.webp`;
+
+    // Priority 2: Cloudflare Workers AI (Jules Flux)
     const cfOk = await generateCloudflareImage(subject, topic, webpPath);
     if (cfOk) return `/blog-images/${slug}.webp`;
-
-    // Priority 2: Groq SVG
-    const groqOk = await generateGroqSVG(subject, topic, webpPath);
-    if (groqOk) return `/blog-images/${slug}.webp`;
 
     // Priority 3: Gemini SVG
     const geminiOk = await generateGeminiImage(subject, topic, webpPath);
     if (geminiOk) return `/blog-images/${slug}.webp`;
 
-    // Priority 3: Hugging Face 
-    const hfOk = await generateHuggingFaceImage(subject, topic, webpPath);
-    if (hfOk) return `/blog-images/${slug}.webp`;
+    // Priority 4: Groq SVG (LAST RESORT — preserves website quota)
+    const groqOk = await generateGroqSVG(subject, topic, webpPath);
+    if (groqOk) return `/blog-images/${slug}.webp`;
 
-    // Priority 4: Static Subject Fallbacks
-    console.log("🎨 All APIs unavailable. Injecting high-quality static subject fallback...");
+    // Priority 5: Static Subject Fallbacks
+    console.log("🎨 All image APIs unavailable. Injecting high-quality static subject fallback...");
     const fallbackImage = SUBJECT_FALLBACKS[subject] || SUBJECT_FALLBACKS['default'];
     return fallbackImage;
 }

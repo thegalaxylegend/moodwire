@@ -428,6 +428,11 @@ ${footer}`;
  * Aggressively purges AI-filler phrases like "Certainly! Here is..."
  */
 export function sanitizeAiText(text: string): string {
+    // Type guard: prevent 'cleaned.replace is not a function' crash
+    if (text === null || text === undefined) return '';
+    if (typeof text !== 'string') {
+        try { return String(text); } catch { return ''; }
+    }
     const aiFiller = [
         /^Certainly!.*?\n/gi,
         /^Here is.*?\n/gi,

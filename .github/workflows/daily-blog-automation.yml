@@ -153,9 +153,11 @@ jobs:
         run: npx tsx scripts/auto-refresh-blogs.ts
 
       - name: Task 8 - Smart Auto-Repair
+        continue-on-error: true
         run: npx tsx scripts/smart-repair.ts
 
       - name: Task 9 - Generate Schema Markup
+        continue-on-error: true
         run: npx tsx scripts/generate-schema.ts
 
       - name: Task 10 - Quality Trends Analysis
@@ -243,7 +245,14 @@ jobs:
           }
 
       - name: Task 21 - Automated Social Distribution (𝕏 & 🧵)
+        continue-on-error: true
         env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          VITE_GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          VITE_GROQ_API_KEY_2: ${{ secrets.GROQ_API_KEY_2 }}
+          VITE_GROQ_API_KEY_3: ${{ secrets.GROQ_API_KEY_3 }}
+          VITE_GROQ_API_KEY_4: ${{ secrets.GROQ_API_KEY_4 }}
+          VITE_GROQ_API_KEY_5: ${{ secrets.GROQ_API_KEY_5 }}
           VITE_GEMINI_API_KEY: ${{ secrets.VITE_GEMINI_API_KEY }}
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
@@ -398,9 +407,14 @@ jobs:
 
       - name: "Task 23 - AI Log Autopsy (Auditor)"
         if: always()
+        continue-on-error: true
         env:
+          VITE_GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          VITE_GROQ_API_KEY_2: ${{ secrets.GROQ_API_KEY_2 }}
+          VITE_GROQ_API_KEY_3: ${{ secrets.GROQ_API_KEY_3 }}
+          VITE_GROQ_API_KEY_4: ${{ secrets.GROQ_API_KEY_4 }}
+          VITE_GROQ_API_KEY_5: ${{ secrets.GROQ_API_KEY_5 }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          VITE_GROQ_API_KEY_6: ${{ secrets.GROQ_API_KEY_6 }}
         run: npx tsx scripts/monitor-autopsy.ts
 
       - name: "Task 24 - Discord Pulse: New Content"
