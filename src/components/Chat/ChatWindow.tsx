@@ -8,11 +8,13 @@ interface VoicePreset {
     id: string;
     name: string;
     gender: 'female' | 'male';
+    isNeural?: boolean;
 }
 
 interface ChatWindowProps {
     messages: any[];
     isThinking: boolean;
+    isTTSLoading?: boolean;
     isSearching?: boolean;
     suggestions?: string[];
     onSelectSuggestion?: (text: string) => void;
@@ -43,6 +45,7 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
     messages,
     isThinking,
     isSearching,
+    isTTSLoading,
     suggestions = [],
     onSelectSuggestion = () => {},
     onClearHistory = () => {},
@@ -360,7 +363,7 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
                                     </div>
                                 )}
                                 
-                                {isThinking && (
+                                 {(isThinking || isTTSLoading) && (
                                     <div className="flex w-full justify-start mb-6 animate-in fade-in slide-in-from-left-2 duration-500">
                                         <div className="flex items-end gap-4 max-w-[80%]">
                                             <div className="w-8 h-8 rounded-full bg-indigo-600/20 flex items-center justify-center border border-indigo-500/20 animate-pulse">
@@ -373,7 +376,9 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
                                                         <div className="w-1.5 h-1.5 bg-[#81ecff]/60 rounded-full animate-bounce [animation-delay:-0.15s]"></div>
                                                         <div className="w-1.5 h-1.5 bg-[#81ecff]/30 rounded-full animate-bounce"></div>
                                                     </div>
-                                                    <span className="text-[10px] font-black text-white/30 uppercase tracking-widest ml-3">Neural Synthesis</span>
+                                                    <span className="text-[10px] font-black text-white/30 uppercase tracking-widest ml-3">
+                                                        {isTTSLoading ? 'Neural Voice Syncing...' : 'Neural Synthesis'}
+                                                    </span>
                                                 </div>
                                             </div>
                                         </div>

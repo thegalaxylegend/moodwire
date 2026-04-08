@@ -28,7 +28,7 @@ const LOG_FILE = path.join(__dirname, '../jules-reports/seo-optimization-log.jso
 // Initialize Gemma 4
 const genAI = new GoogleGenerativeAI(process.env.VITE_GEMINI_API_KEY || '');
 const model = genAI.getGenerativeModel({ 
-    model: 'gemma-4-31b-it',
+    model: 'gemini-2.0-flash',
     generationConfig: { responseMimeType: "application/json" }
 });
 
@@ -98,6 +98,10 @@ ${updatedFrontmatter.trim()}
         };
 
     } catch (error: any) {
+        if (error?.message?.includes('429') || error?.status === 429) {
+            console.error(`🚨 FATAL QUOTA EXHAUSTION: API limit reached. Triggering hard stop.`);
+            process.exit(1);
+        }
         console.error(`❌ Optimization failed for ${slug}:`, error.message);
         return null;
     }
@@ -121,11 +125,18 @@ async function main() {
         return;
     }
 
-    console.log(`🎯 Found ${opportunities.length} opportunities to optimize.\n`);
+    const MAX_OPTS = 6;
+    let opsToProcess = opportunities;
+    if (opportunities.length > MAX_OPTS) {
+        console.log(`⚠️ SAFETY VALVE: Found ${opportunities.length} opportunities, but limiting to ${MAX_OPTS} per run to protect quota.`);
+        opsToProcess = opportunities.slice(0, MAX_OPTS);
+    } else {
+        console.log(`🎯 Found ${opportunities.length} opportunities to optimize.\n`);
+    }
 
     const logs: any[] = fs.existsSync(LOG_FILE) ? JSON.parse(fs.readFileSync(LOG_FILE, 'utf-8')) : [];
     
-    for (const opt of opportunities) {
+    for (const opt of opsToProcess) {
         const result = await optimizeMeta(opt.url, opt);
         if (result) {
             logs.push({

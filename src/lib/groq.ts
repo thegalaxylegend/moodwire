@@ -29,14 +29,15 @@ let rateLimitedUntil = 0; // Timestamp when we can retry after 429
 
 export async function callGroq(
     messages: { role: string; content: string }[],
-    options: { model?: string; temperature?: number; max_tokens?: number; stream?: boolean; jsonMode?: boolean } = {}
+    options: { model?: string; temperature?: number; max_tokens?: number; stream?: boolean; jsonMode?: boolean; signal?: AbortSignal } = {}
 ) {
     const { 
         model = "llama-3.3-70b-versatile", 
         temperature = 0.7, 
         max_tokens = 2048, 
         stream = true,
-        jsonMode = false
+        jsonMode = false,
+        signal
     } = options;
 
     const clients = getGroqClients();
@@ -74,8 +75,8 @@ export async function callGroq(
                 temperature,
                 max_tokens,
                 stream,
-                ...(jsonMode && !stream ? { response_format: { type: 'json_object' } } : {})
-            });
+                ...(jsonMode && !stream ? { response_format: { type: 'json_object' } } : {}),
+            }, { signal });
             // Success! Update index for next time to balance load
             currentKeyIndex = (index + 1) % clients.length;
             allRateLimited = false;
@@ -102,7 +103,7 @@ export async function callGroq(
 
     // If every alive key hit 429, set a 60s cooldown to stop retry storms
     if (allRateLimited) {
-        rateLimitedUntil = Date.now() + 30_000;
+        rateLimitedUntil = Date.now() + 60_000;
     }
 
     throw lastError || new Error("All Groq API keys failed.");

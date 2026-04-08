@@ -63,7 +63,7 @@ export const Navbar = () => {
 
     return (
         <nav 
-            className={`fixed top-0 left-0 w-full z-50 border-b border-white/10 transition-colors duration-300 ${
+            className={`fixed top-0 left-0 w-full z-50 border-b border-white/5 transition-colors duration-300 ${
                 scrolled 
                     ? 'bg-black/95 backdrop-blur-md' 
                     : 'bg-black/80 backdrop-blur-sm'
@@ -113,9 +113,9 @@ export const Navbar = () => {
                                 animate={{ opacity: 1, y: 0, scale: 1 }}
                                 exit={{ opacity: 0, y: -8, scale: 0.95 }}
                                 transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
-                                className="absolute top-full left-0 mt-4 w-52 glass-card bg-[#0a0a0a]/90 border border-white/10 rounded-2xl overflow-hidden shadow-2xl z-[100]"
+                                className="absolute top-full left-0 mt-4 w-52 glass-card bg-[#0a0a0a]/95 border border-white/5 rounded-2xl overflow-hidden shadow-2xl z-[100]"
                             >
-                                <div className="absolute -top-2 left-6 w-4 h-4 bg-[#0a0a0a]/90 border-t border-l border-white/10 rotate-45" />
+                                <div className="absolute -top-2 left-6 w-4 h-4 bg-[#0a0a0a]/95 border-t border-l border-white/5 rotate-45" />
                                 <div 
                                     className="p-2 max-h-[400px] overflow-y-auto relative z-10"
                                     data-lenis-prevent
@@ -168,10 +168,10 @@ export const Navbar = () => {
                                 animate={{ opacity: 1, y: 0, scale: 1 }}
                                 exit={{ opacity: 0, y: -8, scale: 0.95 }}
                                 transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
-                                className="absolute top-full left-0 mt-4 w-64 glass-card bg-[#0a0a0a]/90 border border-white/10 rounded-2xl overflow-hidden shadow-2xl z-[100]"
+                                className="absolute top-full left-0 mt-4 w-64 glass-card bg-[#0a0a0a]/95 border border-white/5 rounded-2xl overflow-hidden shadow-2xl z-[100]"
                             >
                                 {/* Dropdown Arrow */}
-                                <div className="absolute -top-2 left-6 w-4 h-4 bg-[#0a0a0a]/90 border-t border-l border-white/10 rotate-45" />
+                                <div className="absolute -top-2 left-6 w-4 h-4 bg-[#0a0a0a]/95 border-t border-l border-white/5 rotate-45" />
                                 
                                 <div 
                                     className="p-2 max-h-[400px] overflow-y-auto relative z-10"
@@ -212,7 +212,7 @@ export const Navbar = () => {
                     <Link 
                         to="/login" 
                         rel="nofollow" 
-                        className="px-4 md:px-6 py-1.5 md:py-2 text-sm md:text-base rounded-full bg-white text-black font-bold hover:bg-gray-200 transition-all duration-300 transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-white/20 shadow-lg shadow-white/5"
+                        className="px-4 md:px-6 py-1.5 md:py-2 text-sm md:text-base rounded-full bg-white text-black font-bold hover:bg-gray-200 transition-all duration-300 transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-white/20 shadow-xl"
                     >
                         Login
                     </Link>
@@ -226,7 +226,7 @@ export const Navbar = () => {
                     opacity: isMobileMenuOpen ? 1 : 0,
                     height: isMobileMenuOpen ? 'auto' : 0 
                 }}
-                className="md:hidden bg-[#050505] border-b border-white/5 overflow-y-auto max-h-[calc(100vh-4rem)]"
+                className="md:hidden bg-[#050505] border-b border-white/[0.03] overflow-y-auto max-h-[calc(100vh-4rem)]"
             >
                 <div className="px-6 py-8 flex flex-col gap-6">
                     <div className="flex flex-col gap-4">
@@ -259,7 +259,7 @@ export const Navbar = () => {
 
                     <Link 
                         to="/login" 
-                        className="w-full py-4 text-center rounded-2xl bg-white text-black font-extrabold text-lg shadow-[0_0_20px_rgba(255,255,255,0.1)] active:scale-[0.98] transition-transform mt-2"
+                        className="w-full py-4 text-center rounded-2xl bg-white text-black font-extrabold text-lg shadow-[0_0_20px_rgba(168,85,247,0.2)] active:scale-[0.98] transition-transform mt-2"
                     >
                         Login
                     </Link>

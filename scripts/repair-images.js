@@ -83,7 +83,7 @@ async function generateGemmaSVG(topic, subject) {
     if (!GEMINI_KEY) return null;
     try {
         const prompt = `Output ONLY raw SVG code for a 1200x630 blog cover about "${topic}" (${subject}). Dark mode, professional.`;
-        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemma-4-31b-it:generateContent?key=${GEMINI_KEY}`, {
+        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_KEY}`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] })

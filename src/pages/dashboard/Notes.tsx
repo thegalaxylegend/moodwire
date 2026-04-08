@@ -8,7 +8,8 @@ import {
     Download, 
     Layout,
     Search, 
-    Zap
+    Zap,
+    AlertCircle
 } from 'lucide-react';
 import { askAI } from '../../lib/ai';
 import { useUserStore } from '../../store/userStore';
@@ -26,122 +27,10 @@ type Doc = {
     title: string;
     content: string; // Markdown
     pyqs: string[] | null;
-    diagram?: string | null; // Mermaid Diagram Code
     created_at: string;
 };
 
-// Extremely Robust Mermaid component
-const Mermaid = ({ chart, isPrint = false }: { chart: string, isPrint?: boolean }) => {
-    const ref = useRef<HTMLDivElement>(null);
-    const [renderError, setRenderError] = useState(false);
 
-    useEffect(() => {
-        const renderChart = async () => {
-            if (ref.current && chart) {
-                try {
-                    const mermaid = (await import('mermaid')).default;
-                    mermaid.initialize({ 
-                        startOnLoad: false, 
-                        theme: isPrint ? 'neutral' : 'dark', 
-                        securityLevel: 'loose',
-                        fontFamily: 'Inter, sans-serif',
-                        themeVariables: isPrint ? {} : {
-                            primaryColor: '#5d21df',
-                            primaryTextColor: '#fff',
-                            primaryBorderColor: '#5d21df',
-                            lineColor: '#5d21df',
-                            secondaryColor: '#153ae4',
-                            tertiaryColor: '#1d1f29'
-                        }
-                    });
-                    
-                    let cleanChart = chart
-                        .replace(/```mermaid/g, '')
-                        .replace(/```/g, '')
-                        .trim();
-                    
-                    const isXYChart = cleanChart.startsWith('xychart-beta');
-                    
-                    if (isXYChart) {
-                        // Anti-Hallucination 1: Strip flow-chart 'notes' (habitual failure point)
-                        cleanChart = cleanChart.split('\n').filter(line => !line.toLowerCase().includes('note ')).join('\n');
-                        // Anti-Hallucination 2: Force newlines between core tags (AI collapses them into one line)
-                        cleanChart = cleanChart.replace(/\s+(x-axis|y-axis|line|title)\s+/g, '\n$1 ');
-                        // Anti-Hallucination 3: Un-bracket hallucinated labels on Y-axis or Title e.g. [Velocity] -> "Velocity"
-                        cleanChart = cleanChart.replace(/(y-axis|title)\s+\["?(.*?)"?\]/g, '$1 "$2"');
-                        
-                        // Anti-Hallucination 4: The AI sometimes completely hallucinates 2D arrays (e.g. line [[0, 0], [1, 2]])
-                        const match2D = cleanChart.match(/line\s+(\[\[[\s\S]*?\]\])/);
-                        if (match2D) {
-                            try {
-                                // Safely parse the hallucinated 2D array matrix into JS native arrays
-                                const points = JSON.parse(match2D[1].replace(/'/g, '"'));
-                                if (Array.isArray(points) && points.length > 0 && Array.isArray(points[0])) {
-                                    const xCoords = points.map(p => p[0]);
-                                    const yCoords = points.map(p => p[1]);
-                                    // Delete any pre-existing broken x-axis lines to prevent duplicates
-                                    cleanChart = cleanChart.replace(/x-axis.*?(\n|$)/g, '');
-                                    // Re-inject the perfectly unwrapped separate flat arrays into the chart structure
-                                    cleanChart = cleanChart.replace(match2D[0], `x-axis [${xCoords.join(', ')}]\nline [${yCoords.join(', ')}]`);
-                                }
-                            } catch (e) {
-                                // If it fails to parse, we gracefully ignore and let the LLM fail natively.
-                            }
-                        }
-                    } else {
-                        // Protect flowchart nodes but do NOT run this on xychart arrays (e.g., line [0, 1, 2])
-                        cleanChart = cleanChart.replace(/\[(.*?)\]/g, (_, p1) => `["${p1.replace(/["[\](){}]/g, '')}"]`);
-                        cleanChart = cleanChart.replace(/\{(.*?)\}/g, (_, p1) => `{"${p1.replace(/["[\](){}]/g, '')}"}`);
-                        
-                        if (!cleanChart.match(/^(graph|flowchart|sequenceDiagram|pie|classDiagram|stateDiagram|erDiagram|gantt|journey|gitGraph|mindmap|timeline)/)) {
-                            cleanChart = 'graph TD\n' + cleanChart;
-                        }
-                    }
-                    
-                    // Abort empty or "blank" successful graphs (e.g. LLM just spitting out "graph TD" with no nodes)
-                    if (cleanChart.length < 15 || cleanChart.replace(/\s+/g, '') === 'graphTD' || cleanChart.replace(/\s+/g, '') === 'xychart-beta') {
-                        setRenderError(true);
-                        return;
-                    }
-
-                    const id = `mermaid-${Math.random().toString(36).substr(2, 9)}`;
-                    const { svg } = await mermaid.render(id, cleanChart);
-                    
-                    // Mermaid often swallows syntax errors into an embedded error SVG without throwing a JS exception.
-                    // If we detect error vectors inside the output, abort the entire render so it doesn't leave an empty ghost box.
-                    if (svg.includes('mermaid-error') || svg.includes('Syntax error') || svg.includes('failed to render')) {
-                        setRenderError(true);
-                        return;
-                    }
-                    
-                    if (ref.current) {
-                        ref.current.innerHTML = svg;
-                        setRenderError(false);
-                    }
-                } catch (e) {
-                    console.warn("Mermaid dynamic render failed", e);
-                    setRenderError(true);
-                }
-            }
-        };
-        renderChart();
-    }, [chart, isPrint]);
-
-    if (renderError) return null;
-
-    return (
-        <div className={`relative group ${isPrint ? 'my-4' : 'my-12'}`}>
-            <div ref={ref} className={`flex justify-center rounded-[3rem] overflow-hidden ${isPrint ? 'bg-transparent p-0 border-none' : 'bg-white/2 p-10 border border-white/5 shadow-inner'}`} />
-            <style dangerouslySetInnerHTML={{ __html: `
-                .mermaid-error, #dmermaid-error, div[id^="dmermaid-"], .error-icon, .error-text { 
-                    display: none !important; 
-                    opacity: 0 !important; 
-                    visibility: hidden !important; 
-                }
-            ` }} />
-        </div>
-    );
-};
 
 export const Notes = () => {
     const { user } = useUserStore();
@@ -154,8 +43,32 @@ export const Notes = () => {
     const [viewMode, setViewMode] = useState<'edit' | 'view'>('edit');
     const [isSidebarOpen, setIsSidebarOpen] = useState(true);
     const [searchQuery, setSearchQuery] = useState('');
+    const [noteType, setNoteType] = useState<'full' | 'exam'>('full');
+    const [quotaExhausted, setQuotaExhausted] = useState<{ isExhausted: boolean; message?: string }>({ isExhausted: false });
+    const abortControllerRef = useRef<AbortController | null>(null);
 
     const shadowPrintRef = useRef<HTMLDivElement>(null);
+
+    const getNoteColor = (title: string, index: number) => {
+        const colors = [
+            { text: 'text-indigo-400', bg: 'bg-indigo-500/20', border: 'border-l-indigo-500', glow: 'shadow-indigo-500/10' },
+            { text: 'text-emerald-400', bg: 'bg-emerald-500/20', border: 'border-l-emerald-500', glow: 'shadow-emerald-500/10' },
+            { text: 'text-rose-400', bg: 'bg-rose-500/20', border: 'border-l-rose-500', glow: 'shadow-rose-500/10' },
+            { text: 'text-amber-400', bg: 'bg-amber-500/20', border: 'border-l-amber-500', glow: 'shadow-amber-500/10' },
+            { text: 'text-cyan-400', bg: 'bg-cyan-500/20', border: 'border-l-cyan-500', glow: 'shadow-cyan-500/10' },
+            { text: 'text-fuchsia-400', bg: 'bg-fuchsia-500/20', border: 'border-l-fuchsia-500', glow: 'shadow-fuchsia-500/10' }
+        ];
+
+        // Specific overrides based on title hints
+        const lower = title.toLowerCase();
+        if (lower.includes('phys')) return colors[0]; // Physics -> Indigo
+        if (lower.includes('chem')) return colors[1]; // Chem -> Emerald
+        if (lower.includes('bio')) return colors[2];  // Bio -> Rose
+        if (lower.includes('math')) return colors[5]; // Math -> Fuchsia
+        if (lower.includes('revision')) return colors[3]; // Revision -> Amber
+
+        return colors[index % colors.length];
+    };
 
     useEffect(() => {
         if (user) fetchDocuments();
@@ -176,15 +89,35 @@ export const Notes = () => {
         }
     };
 
+    const handleAbort = () => {
+        if (abortControllerRef.current) {
+            abortControllerRef.current.abort();
+            abortControllerRef.current = null;
+            setLoading(false);
+            setProgressStatus('Generation Terminated.');
+        }
+    };
+
     const handleSummarize = async () => {
         if (!input.trim()) return;
         setLoading(true);
         setProgressStatus('Neural Alignment Initiated...');
         
+        // Auto-detect mode from input
+        const lowerInput = input.toLowerCase();
+        const detectedMode = (lowerInput.includes('revision') || lowerInput.includes('short') || lowerInput.includes('summary')) ? 'exam' : noteType;
+
         try {
+            abortControllerRef.current = new AbortController();
+            
             setProgressStatus('Archiving Metadata...');
-            const metaPrompt = `Topic: "${input}". Return JSON: {"title": "Title", "pyqs": ["Q1", "Q2", "Q3", "Q4", "Q5"], "diagram": "graph TD; A[Main] --> B[Sub];"}`;
-            const metaResponse = await askAI(metaPrompt, '', 'groq', [], { temperature: 0.1, jsonMode: true, stream: false });
+            const metaPrompt = `Topic: "${input}". Return JSON: {"title": "Title", "pyqs": ["Q1", "Q2", "Q3", "Q4", "Q5"]}`;
+            const metaResponse = await askAI(metaPrompt, '', 'groq', [], { 
+                temperature: 0.1, 
+                jsonMode: true, 
+                stream: false,
+                signal: abortControllerRef.current.signal 
+            });
             const metaData = extractJSON(metaResponse);
 
             if (!metaData) throw new Error("Metadata synthesis failed");
@@ -194,7 +127,6 @@ export const Notes = () => {
                 title: metaData.title || 'Untitled Archive',
                 content: '> *Decoding Deep Theoretical Layers...*',
                 pyqs: metaData.pyqs || [],
-                diagram: metaData.diagram || null,
                 created_at: new Date().toISOString()
             };
 
@@ -202,37 +134,73 @@ export const Notes = () => {
             setViewMode('view');
             setInput('');
 
-            setProgressStatus('Exhaustive Textbook Generation...');
-            const chapterPrompt = `Generate EXHAUSTIVE Class 12 standard chapter on: "${input}". Use block math $$...$$. 3000 words. Density mandatory. 
-CRITICAL RULES FOR DIAGRAMS/GRAPHS: For flowcharts, use standard mermaid \`graph TD\`. For ANY mathematical graphs, curves, or explicit X-Y plots (like v-t graphs, x=y^2), you MUST use mermaid \`xychart-beta\` using EXACTLY this syntax:
-\`\`\`mermaid
-xychart-beta
-  x-axis [0, 1, 2, 3, 4, 5, 6]
-  y-axis "Label" 0 --> 20
-  line [0, 2, 4, 6, 8, 10, 12]
-\`\`\`
-1. NEVER use 2D point arrays like [[0,0], [1,1]]. You MUST use two separate flat arrays.
-2. NEVER use 'note' or flowchart commands syntax inside mathematical plots.
-3. Calculate high-resolution coordinates (at least 5-8 points) for smooth mathematical curves.
-4. Lengths of x-axis array and line array MUST match exactly. Do NOT use graph TD for mapping equations.`;
+            setProgressStatus(detectedMode === 'exam' ? 'Synthesizing Revision Excellence...' : 'Exhaustive Textbook Generation...');
+            
+            const chapterPrompt = detectedMode === 'exam' 
+                ? `INSTRUCTION: ${input}. 
+                   PRIORITY: Respect the user's specific formatting or content requests above. 
+                   FALLBACK (If not clearly specified):
+                   - Use STRICT bullet points for all theoretical concepts.
+                   - NO LONG PARAGRAPHS. Max 1-2 lines per point. 
+                   - Use Bold for ALL critical terms/values.
+                   - Focus on high-yield facts: "More knowledge in less time".
+                   - Include "Must-Know Formulas", "Common Pitfalls", and "Mnemonics".
+                   - Class: ${user?.userClass || 'Class 12th'}.
+                   CRITICAL: END STRICTLY WITH CONTENT. NO CONVERSATIONAL FILLER.`
+                : `INSTRUCTION: ${input}. 
+                   PRIORITY: Respect the user's specific formatting or content requests above. 
+                   FALLBACK (If not clearly specified):
+                   - NO STORYTELLING. NO FLUFF. NO CONVERSATIONAL FILLER.
+                   - ZERO-OMISSION POLICY: You MUST map and cover EVERY single sub-topic, formula, derivation, numerical application, and curriculum detail for this chapter. Missing a sub-topic is a failure.
+                   - FORMAT: Use a dense, point-wise structure. Break complex concepts into multiple detailed points.
+                   - DENSITY: Target maximum technical depth. Expand on EVERY definition and law.
+                   - Use block math $$...$$. TARGET: 3000-5000 words.
+                   - Structure: H1 for Chapter, H2 for Major Topics, H3 for Sub-topics. 
+                   - Class: ${user?.userClass || 'Class 12th'}.
+                   CRITICAL: END STRICTLY WITH CONTENT.`;
 
             const stream = await askAI(
                 chapterPrompt, 
                 '', 
                 'groq', 
                 [], 
-                { stream: true, modelId: "llama-3.3-70b-versatile", max_tokens: 8192 }
+                { 
+                    stream: true, 
+                    modelId: "llama-3.3-70b-versatile", 
+                    max_tokens: 8192,
+                    signal: abortControllerRef.current.signal 
+                }
             );
 
             let fullContent = '';
+            let lastUpdate = Date.now();
+
             if (stream && typeof stream !== 'string') {
                 for await (const chunk of stream) {
                     const text = chunk.choices?.[0]?.delta?.content || "";
                     if (text) {
                         fullContent += text;
-                        setSelectedDoc(prev => prev ? { ...prev, content: fullContent } : null);
+                        
+                        // Repetition Detection (Guardian Logic)
+                        // If the last 300 chars repeated verbatim elsewhere in a large doc, it's likely a loop
+                        if (fullContent.length > 1000) {
+                            const tail = fullContent.slice(-300);
+                            const body = fullContent.slice(0, -300);
+                            if (body.includes(tail)) {
+                                console.warn("🚨 [AI] Repetition loop detected. Hard-breaking stream.");
+                                break;
+                            }
+                        }
+
+                        // Buffered UI Update (Throttle to every 100ms for performance)
+                        if (Date.now() - lastUpdate > 100) {
+                            setSelectedDoc(prev => prev ? { ...prev, content: fullContent } : null);
+                            lastUpdate = Date.now();
+                        }
                     }
                 }
+                // Final flush
+                setSelectedDoc(prev => prev ? { ...prev, content: fullContent } : null);
             } else if (typeof stream === 'string') {
                 fullContent = stream;
                 setSelectedDoc(prev => prev ? { ...prev, content: fullContent } : null);
@@ -246,7 +214,7 @@ xychart-beta
                 title: protoDoc.title,
                 content: fullContent,
                 pyqs: protoDoc.pyqs,
-                diagram: protoDoc.diagram,
+                note_type: detectedMode,
                 created_at: new Date().toISOString()
             };
 
@@ -255,12 +223,25 @@ xychart-beta
 
             setDocuments(prev => [saved, ...prev.filter(d => !d.id.startsWith('temp-'))]);
             setSelectedDoc(saved);
+            abortControllerRef.current = null;
 
-        } catch (e) {
-            console.error("Synthesis error:", e);
-        } finally {
+            } catch (e: any) {
+                if (e.name === 'AbortError') {
+                    console.log("Stream aborted by user.");
+                } else {
+                    const errorMsg = e.message || String(e);
+                    console.error("Synthesis error:", errorMsg);
+                    
+                    if (errorMsg.includes('DAILY_LIMIT_REACHED')) {
+                        setQuotaExhausted({ isExhausted: true, message: errorMsg.replace('DAILY_LIMIT_REACHED: ', '') });
+                        setProgressStatus('Daily Limit Reached.');
+                    } else {
+                        setProgressStatus('Synthesis Failed.');
+                    }
+                }
+            } finally {
             setLoading(false);
-            setProgressStatus('');
+            if (progressStatus !== 'Generation Terminated.') setProgressStatus('');
         }
     };
 
@@ -297,38 +278,105 @@ xychart-beta
             // preventing the right-side box-sizing truncation problem completely.
             // MATH & GRAPH FIX: Injected KaTeX CSS explicitly to prevent fraction bars from collapsing into strikethroughs, and forced Mermaid SVGs to width: 100% to fix tiny graphs.
             const syntheticHtml = `
-                <div id="pdf-shadow-renderer" style="background-color: #ffffff; color: #000000; padding: 10px 40px; box-sizing: border-box; overflow-wrap: break-word;">
+                <div id="pdf-shadow-renderer" style="background-color: #ffffff; color: #000000; box-sizing: border-box; overflow-wrap: break-word; width: 100%;">
                     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
                     <style>
-                        #pdf-shadow-renderer .mermaid svg, #pdf-shadow-renderer .mermaid-container svg { width: 100% !important; max-width: 100% !important; height: auto !important; }
-                        /* CRITICAL MATH FIX: Fix fraction bar (strikethrough) alignment by forcing KaTeX vertical alignment tokens */
-                        #pdf-shadow-renderer .katex .mfrac .frac-line { 
+                        /* COVER PAGE STYLING */
+                        #pdf-cover {
+                            height: 297mm; /* A4 Height */
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            text-align: center;
+                            padding: 40px;
+                            page-break-after: always;
+                            border: 20px solid #f8fafc;
+                        }
+                        #pdf-cover .logo { font-size: 48pt; font-weight: 900; color: #4338ca; margin-bottom: 20px; letter-spacing: -2px; }
+                        #pdf-cover .chapter { font-size: 36pt; font-weight: 800; color: #1e293b; margin-bottom: 60px; line-height: 1.2; }
+                        #pdf-cover .meta-box { background: #f1f5f9; padding: 40px; border-radius: 40px; width: 80%; }
+                        #pdf-cover .meta-item { margin: 15px 0; font-size: 16pt; font-weight: 700; color: #475569; }
+                        #pdf-cover .session { color: #6366f1; text-transform: uppercase; letter-spacing: 4px; font-size: 12pt; margin-top: 40px; }
+
+                        /* CONTENT STYLING */
+                        .content-body { padding: 40px 60px; }
+                        .mermaid svg, .mermaid-container svg { width: 100% !important; max-width: 100% !important; height: auto !important; }
+                        .katex .mfrac .frac-line { 
                             border-bottom-width: 1.5pt !important; 
                             position: static !important;
                             display: block !important;
                             margin: 2px 0 !important;
                         }
-                        #pdf-shadow-renderer .katex .vlist-t { vertical-align: middle !important; }
+                        .katex .vlist-t { vertical-align: middle !important; }
+                        h1, h2, h3 { color: #1e1b4b; margin-top: 40px; }
+                        p, li { font-size: 12pt; line-height: 1.8; color: #334155; text-align: justify; }
                     </style>
-                    ${shadowPrintRef.current.innerHTML}
+
+                    <!-- PAGE 1: COVER PAGE -->
+                    <div id="pdf-cover" style="height: 290mm; page-break-after: always; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 40px; border: 20px solid #f8fafc; box-sizing: border-box;">
+                        <div class="logo">EXAM COMPASS</div>
+                        <div class="chapter">${doc.title.replace(/notes/gi, '').trim()}</div>
+                        <div class="meta-box">
+                            <div class="meta-item">Academic Archive: ${doc.title}</div>
+                            <div class="meta-item">Prepared for: ${user?.name || 'Scholar'}</div>
+                            <div class="meta-item">Curriculum: ${user?.userClass || 'Class 12th'}</div>
+                            <div class="meta-item">Format: ${(doc as any).note_type === 'exam' ? 'Revision Mastery' : 'Exhaustive Theory'}</div>
+                        </div>
+                        <div class="session">Session ${user?.targetYear || new Date().getFullYear()}-${(user?.targetYear || new Date().getFullYear()) + 1}</div>
+                        <div style="margin-top: 100px; font-weight: 900; opacity: 0.1; font-size: 80pt;">CONFIDENTIAL</div>
+                    </div>
+
+                    <!-- PAGE 2+: CONTENT -->
+                    <div class="content-body">
+                        ${shadowPrintRef.current.innerHTML.replace(/<h1[^>]*>.*?<\/h1>/i, '')}
+                    </div>
                 </div>
             `;
             
             const options = {
-                margin: [15, 10, 15, 10], // Slightly tighter horizontal margin to maximize A4 real estate
+                margin: [15, 10, 15, 10] as [number, number, number, number],
                 filename: `${doc.title.replace(/\s+/g, '_').toLowerCase()}.pdf`,
-                image: { type: 'jpeg', quality: 0.98 },
+                image: { type: 'jpeg' as const, quality: 0.98 },
                 html2canvas: { 
                     scale: 2, 
                     useCORS: true, 
                     logging: false,
                     letterRendering: true
                 },
-                jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait', compress: true },
-                pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }
+                jsPDF: { unit: 'mm' as const, format: 'a4' as const, orientation: 'portrait' as const, compress: true },
+                pagebreak: { mode: ['avoid-all', 'css', 'legacy'] as const }
             };
 
-            await (html2pdf() as any).set(options).from(syntheticHtml).save();
+            const worker = html2pdf().set(options).from(syntheticHtml).toPdf();
+            const pdf = await worker.get('pdf');
+            const totalPages = pdf.internal.getNumberOfPages();
+
+            for (let i = 1; i <= totalPages; i++) {
+                pdf.setPage(i);
+                
+                // Add Footer (Page Numbers)
+                pdf.setFontSize(10);
+                pdf.setTextColor(150);
+                pdf.text(
+                    `Page ${i} of ${totalPages}`, 
+                    pdf.internal.pageSize.getWidth() / 2, 
+                    pdf.internal.pageSize.getHeight() - 10, 
+                    { align: 'center' }
+                );
+
+                // Add Header (Clean Chapter Name) - Skip on cover page
+                if (i > 1) {
+                    pdf.setFontSize(8);
+                    pdf.text(
+                        `${doc.title.replace(/notes/gi, '').trim()} | AI Premium Archive`, 
+                        15, 
+                        10
+                    );
+                }
+            }
+
+            pdf.save(`${doc.title.replace(/\s+/g, '_').toLowerCase()}.pdf`);
             setDownloadingId(null);
         } catch (e) {
             console.error("Ironclad export failed", e);
@@ -341,35 +389,35 @@ xychart-beta
     );
 
     return (
-        <div className="h-[calc(100vh-7.5rem)] lg:h-[calc(100vh-3rem)] flex flex-col bg-[#0a0a0f] overflow-hidden rounded-[2.5rem] border border-white/10 animate-fade-in shadow-2xl relative">
-            <header className="px-8 lg:px-10 py-5 border-b border-white/5 bg-[#0f0f18]/60 backdrop-blur-3xl flex items-center justify-between shrink-0 relative z-50">
-                <main className="flex items-center gap-6">
-                    <div className="p-3 bg-primary/10 rounded-2xl border border-primary/20 text-primary shadow-2xl shadow-primary/5">
-                        <BookOpen size={20} />
+        <div className="h-[calc(100vh-7.5rem)] lg:h-[calc(100vh-3rem)] flex flex-col bg-[#0a0a0f] overflow-hidden rounded-[2.5rem] border border-white/5 animate-fade-in shadow-2xl relative">
+            <header className="px-4 sm:px-8 lg:px-10 py-4 lg:py-5 border-b border-white/5 bg-[#0f0f18]/60 backdrop-blur-3xl flex items-center justify-between shrink-0 relative z-50">
+                <div className="flex items-center gap-3 sm:gap-6">
+                    <div className="p-2 sm:p-3 bg-primary/10 rounded-xl sm:rounded-2xl border border-primary/20 text-primary shadow-xl shadow-black/20">
+                        <BookOpen size={18} className="sm:w-5 sm:h-5" />
                     </div>
                     <div>
-                        <div className="flex items-center gap-3">
-                            <h1 className="text-xl lg:text-3xl font-heading font-black text-white tracking-tight">
+                        <div className="flex items-center gap-2 sm:gap-3">
+                            <h1 className="text-base sm:text-2xl lg:text-3xl font-heading font-black text-white tracking-tight">
                                 My Notebook
                             </h1>
-                            <span className="text-[9px] lg:text-[10px] px-2.5 py-1 bg-primary/20 text-primary rounded-full font-black uppercase tracking-[0.2em] border border-primary/30">AI Premium</span>
+                            <span className="hidden xs:inline-block text-[8px] lg:text-[10px] px-2 py-0.5 bg-primary/20 text-primary rounded-full font-black uppercase tracking-[0.1em] sm:tracking-[0.2em] border border-primary/30">AI Premium</span>
                         </div>
                     </div>
-                </main>
+                </div>
                 
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-2 sm:gap-4">
                     <button
                         onClick={() => { setSelectedDoc(null); setViewMode('edit'); }}
-                        className="px-5 lg:px-6 py-2.5 lg:py-3 bg-white text-black text-xs lg:text-sm font-black rounded-2xl hover:bg-primary hover:text-white transition-all flex items-center gap-2.5 shadow-xl group border-2 border-primary/10"
+                        className="p-2.5 sm:px-6 sm:py-3 bg-white text-black text-xs lg:text-sm font-black rounded-xl sm:rounded-2xl hover:bg-primary hover:text-white transition-all flex items-center gap-2.5 shadow-xl group border-2 border-primary/10"
                     >
                         <Plus size={18} className="group-hover:rotate-90 transition-transform duration-300" /> 
                         <span className="hidden sm:inline">New Draft</span>
                     </button>
                     <button 
                         onClick={() => setIsSidebarOpen(!isSidebarOpen)}
-                        className="p-2.5 text-text-muted hover:text-white bg-white/5 rounded-2xl border border-white/10 transition-colors"
+                        className="p-2 sm:p-2.5 text-text-muted hover:text-white bg-white/5 rounded-xl sm:rounded-2xl border border-white/10 transition-colors"
                     >
-                        <Layout size={20} />
+                        <Layout size={18} className="sm:w-5 sm:h-5" />
                     </button>
                 </div>
             </header>
@@ -393,98 +441,142 @@ xychart-beta
                     </div>
 
                     <div className="flex-1 overflow-y-auto px-4 pb-20 space-y-4 custom-scrollbar">
-                        {filteredDocs.map(doc => (
-                            <button
-                                key={doc.id}
-                                onClick={() => { setSelectedDoc(doc); setViewMode('view'); if(window.innerWidth < 1024) setIsSidebarOpen(false); }}
-                                className={`w-full p-6 rounded-[1.75rem] text-left border-2 transition-all active:scale-[0.98] ${selectedDoc?.id === doc.id ? 'bg-primary/5 border-primary/40 shadow-2xl' : 'bg-white/2 hover:bg-white/5 border-transparent hover:border-white/10'}`}
-                            >
-                                <div className="flex justify-between items-start gap-4">
-                                    <h3 className={`font-black text-sm lg:text-base leading-snug flex-1 ${selectedDoc?.id === doc.id ? 'text-primary' : 'text-text-main'}`}>{doc.title}</h3>
-                                    <div className="w-8 h-8 rounded-xl bg-red-500/10 hover:bg-red-500/20 text-red-500 opacity-20 hover:opacity-100 transition-all flex items-center justify-center scale-90 hover:scale-100" onClick={(e) => handleDelete(doc.id, e)}>
-                                        <Trash2 size={14} />
-                                    </div>
-                                </div>
-                                <p className="text-xs text-text-muted mt-3 line-clamp-2 opacity-50 font-bold leading-relaxed">{doc.content.substring(0, 50).replace(/[#*`]/g, '')}...</p>
-                            </button>
-                        ))}
+                        {filteredDocs.map((doc, idx) => {
+                            const colors = getNoteColor(doc.title, idx);
+                            const isSelected = selectedDoc?.id === doc.id;
+                            const isExam = (doc as any).note_type === 'exam' || doc.title.toLowerCase().includes('revision');
+
+                            return (
+                                <button
+                                    key={doc.id}
+                                    onClick={() => { setSelectedDoc(doc); setViewMode('view'); if(window.innerWidth < 1024) setIsSidebarOpen(false); }}
+                                    className={`w-full p-6 rounded-r-[1.75rem] rounded-l-lg text-left border-2 transition-all active:scale-[0.98] border-l-[6px] ${isSelected ? `bg-white/10 border-white/30 ${colors.border} ${colors.glow} shadow-2xl scale-[1.02]` : `bg-black/40 hover:bg-white/5 border-white/10 hover:border-white/20 ${colors.border}/20`}`}
+                                >
+                                        <div className="flex justify-between items-start gap-4">
+                                            <div className="flex-1">
+                                                <div className="flex items-center gap-2 mb-2">
+                                                    <span className={`text-[8px] px-2 py-0.5 rounded-md font-black uppercase tracking-tighter ${isExam ? 'bg-amber-500/20 text-amber-500' : `${colors.bg} ${colors.text}`}`}>
+                                                        {isExam ? 'Exam Revision' : 'Full Theory'}
+                                                    </span>
+                                                    {doc.title.toLowerCase().includes('class 12') && <span className="text-[7px] text-white/40 font-black uppercase tracking-widest px-1 border border-white/10 rounded">Grade 12</span>}
+                                                </div>
+                                                <h3 className={`font-black text-sm lg:text-base leading-snug ${isSelected ? 'text-white' : 'text-text-main'}`}>{doc.title}</h3>
+                                            </div>
+                                            <div className="w-8 h-8 rounded-xl bg-red-500/10 hover:bg-red-500/20 text-red-500 opacity-20 hover:opacity-100 transition-all flex items-center justify-center scale-90 hover:scale-100" onClick={(e) => handleDelete(doc.id, e)}>
+                                                <Trash2 size={14} />
+                                            </div>
+                                        </div>
+                                    <p className="text-xs text-text-muted mt-3 line-clamp-2 opacity-50 font-bold leading-relaxed">{doc.content.substring(0, 50).replace(/[#*`]/g, '')}...</p>
+                                </button>
+                            );
+                        })}
                     </div>
                 </aside>
 
                 <main className="flex-1 flex flex-col min-h-0 bg-[#10101a]/30 overflow-hidden relative">
                     <div className="flex-1 overflow-y-auto custom-scrollbar scroll-smooth">
                         {viewMode === 'edit' || !selectedDoc ? (
-                            <div className="max-w-3xl mx-auto px-6 py-24 space-y-12">
+                            <div className="max-w-3xl mx-auto px-4 sm:px-6 py-12 lg:py-24 space-y-8 lg:space-y-12">
                                 <div className="text-center space-y-4">
-                                    <h2 className="text-5xl lg:text-7xl font-heading font-black text-white tracking-tighter italic">Intelligence.</h2>
-                                    <p className="text-text-muted text-base lg:text-lg font-bold opacity-40">Synthesize board-ready chapters instantly.</p>
+                                    <h2 className="text-3xl sm:text-5xl lg:text-7xl font-heading font-black text-white tracking-tighter italic">Intelligence.</h2>
+                                    <p className="text-text-muted text-sm sm:text-lg font-bold opacity-40 uppercase tracking-widest">Synthesize board-ready chapters</p>
+                                </div>
+
+                                <div className="flex justify-center scale-90 sm:scale-100">
+                                    <div className="bg-black/40 p-1.5 rounded-[2rem] border border-white/5 flex gap-1 sm:gap-2">
+                                        <button 
+                                            onClick={() => setNoteType('exam')}
+                                            className={`px-4 sm:px-8 py-2.5 sm:py-3 rounded-full text-[10px] sm:text-xs font-black uppercase tracking-widest transition-all ${noteType === 'exam' ? 'bg-amber-500 text-black shadow-[0_10px_30px_-5px_rgba(245,158,11,0.3)]' : 'text-text-muted hover:text-white'}`}
+                                        >
+                                            Revision
+                                        </button>
+                                        <button 
+                                            onClick={() => setNoteType('full')}
+                                            className={`px-4 sm:px-8 py-2.5 sm:py-3 rounded-full text-[10px] sm:text-xs font-black uppercase tracking-widest transition-all ${noteType === 'full' ? 'bg-white text-black shadow-2xl' : 'text-text-muted hover:text-white'}`}
+                                        >
+                                            Detailed
+                                        </button>
+                                    </div>
                                 </div>
                                 <textarea
-                                    className="w-full bg-black/60 border-2 border-white/10 rounded-[2.5rem] p-10 text-lg lg:text-2xl text-white font-bold focus:outline-none focus:border-primary/40 transition-all font-mono leading-relaxed h-[300px] resize-none"
-                                    placeholder="Enter topic..."
+                                    className="w-full bg-black/60 border-2 border-white/10 rounded-[2rem] lg:rounded-[2.5rem] p-6 lg:p-10 text-base sm:text-lg lg:text-2xl text-white font-bold focus:outline-none focus:border-primary/40 transition-all font-mono leading-relaxed h-[200px] lg:h-[300px] resize-none"
+                                    placeholder="e.g. 'Photoelectric Effect in 20 points' or just 'Quadratic Equations' (will use direct-point format)"
                                     value={input}
                                     onChange={(e) => setInput(e.target.value)}
                                 />
                                 <button
                                     onClick={handleSummarize}
-                                    disabled={loading || !input}
-                                    className="w-full py-8 bg-white text-black font-black text-xl rounded-[2.25rem] hover:bg-primary hover:text-white transition-all shadow-2xl flex items-center justify-center gap-6"
+                                    disabled={loading || !input || quotaExhausted.isExhausted}
+                                    className={`w-full py-6 lg:py-8 font-black text-lg lg:text-xl rounded-[1.75rem] lg:rounded-[2.25rem] transition-all shadow-2xl flex flex-col sm:flex-row items-center justify-center gap-2 lg:gap-6 ${
+                                        quotaExhausted.isExhausted 
+                                            ? 'bg-red-500/20 text-red-500 border-2 border-red-500/30 cursor-not-allowed' 
+                                            : 'bg-white text-black hover:bg-primary hover:text-white'
+                                    }`}
                                 >
-                                    {loading ? <div className="flex items-center gap-4"><Loader2 className="animate-spin" size={28} /> <span>{progressStatus || 'Synthesizing...'}</span></div> : <>Generate Advanced Archives <Sparkles size={24} /></>}
+                                    {loading ? (
+                                        <div className="flex items-center gap-6">
+                                            <Loader2 className="animate-spin" size={28} /> 
+                                            <span>{progressStatus || 'Synthesizing...'}</span>
+                                            <div 
+                                                onClick={(e) => { e.stopPropagation(); handleAbort(); }}
+                                                className="ml-4 px-4 py-2 bg-red-500 text-white text-[10px] rounded-full hover:bg-red-600 transition-colors uppercase tracking-tighter cursor-pointer"
+                                            >
+                                                Stop Generation
+                                            </div>
+                                        </div>
+                                    ) : (
+                                        <>{noteType === 'exam' ? 'Generate Exam Revision' : 'Generate Exhaustive Archive'} <Sparkles size={24} /></>
+                                    )}
                                 </button>
+
+                                {quotaExhausted.isExhausted && (
+                                    <div className="p-6 bg-red-500/10 border border-red-500/20 rounded-[2rem] flex items-center gap-4 animate-pulse">
+                                        <AlertCircle className="text-red-500 shrink-0" size={24} />
+                                        <div className="flex-1">
+                                            <p className="text-red-500 font-bold text-sm lg:text-base">{quotaExhausted.message}</p>
+                                            <p className="text-red-500/60 text-xs font-medium uppercase tracking-widest mt-1">Limits reset daily at 12:00 AM UTC</p>
+                                        </div>
+                                    </div>
+                                )}
                             </div>
                         ) : (
                             <div className="max-w-4xl mx-auto px-6 lg:px-24 py-16 space-y-16">
-                                <div className="text-center space-y-8 pb-12 border-b border-white/5">
-                                    <h1 className="text-3xl lg:text-5xl font-heading font-black text-white leading-tight">{selectedDoc.title}</h1>
+                                <div className="text-center space-y-4 lg:space-y-8 pb-8 lg:pb-12 border-b border-white/5">
+                                    <div className="flex justify-center mb-4">
+                                        <span className={`text-[10px] px-3 py-1 rounded-full font-black uppercase tracking-[0.2em] border ${((selectedDoc as any).note_type === 'exam' || selectedDoc.title.toLowerCase().includes('revision')) ? 'bg-amber-500/20 text-amber-500 border-amber-500/30' : 'bg-primary/20 text-primary border-primary/30'}`}>
+                                            {((selectedDoc as any).note_type === 'exam' || selectedDoc.title.toLowerCase().includes('revision')) ? 'Revision Mastery' : 'Full Archive'}
+                                        </span>
+                                    </div>
+                                    <h1 className="text-2xl sm:text-3xl lg:text-5xl font-heading font-black text-white leading-tight">{selectedDoc.title}</h1>
                                     <button
                                         onClick={() => handleDownload(selectedDoc)}
                                         disabled={downloadingId === selectedDoc.id}
-                                        className="px-10 py-4 bg-white text-black hover:bg-primary hover:text-white font-black text-xs uppercase tracking-widest rounded-2xl transition-all flex items-center gap-3 mx-auto shadow-2xl border-2 border-primary/20"
+                                        className={`px-8 lg:px-10 py-3 lg:py-4 font-black text-[10px] lg:text-xs uppercase tracking-widest rounded-2xl transition-all flex items-center gap-3 mx-auto shadow-2xl border-2 ${((selectedDoc as any).note_type === 'exam' || selectedDoc.title.toLowerCase().includes('revision')) ? 'bg-amber-500 text-black border-amber-500/20 hover:bg-white' : 'bg-white text-black hover:bg-primary hover:text-white border-primary/20'}`}
                                     >
-                                        {downloadingId === selectedDoc.id ? <Loader2 className="animate-spin" /> : <Download size={20} />}
+                                        {downloadingId === selectedDoc.id ? <Loader2 className="animate-spin" /> : <Download size={18} />}
                                         {downloadingId === selectedDoc.id ? 'Securing Archive...' : 'Export Final PDF'}
                                     </button>
                                 </div>
 
-                                {selectedDoc.diagram && <Mermaid chart={selectedDoc.diagram} />}
-                                <article className="prose prose-invert max-w-none prose-headings:text-white prose-p:text-xl text-text-muted/80 leading-relaxed font-serif">
                                     <ReactMarkdown 
                                         remarkPlugins={[remarkGfm, remarkMath]} 
                                         rehypePlugins={[rehypeKatex]}
-                                        components={{
-                                            code({ node, inline, className, children, ...props }: any) {
-                                                const content = String(children).trim();
-                                                const isMermaid = /language-(mermaid|xychart-beta)/.test(className || '') || content.startsWith('xychart-beta') || content.startsWith('graph TD');
-                                                
-                                                if (!inline && isMermaid) {
-                                                    return <Mermaid chart={content.replace(/```mermaid\n?|```/g, '')} />;
-                                                }
-                                                
-                                                return (
-                                                    <code className={className} {...props}>
-                                                        {children}
-                                                    </code>
-                                                );
-                                            }
-                                        }}
                                     >
                                         {selectedDoc.content}
                                     </ReactMarkdown>
-                                </article>
 
                                 {selectedDoc.pyqs && selectedDoc.pyqs.length > 0 && (
-                                    <div className="p-16 bg-white/2 rounded-[3.5rem] border border-white/5 relative overflow-hidden">
-                                        <h3 className="text-3xl font-heading font-black text-white mb-12 flex items-center gap-5">
-                                            <div className="w-14 h-14 bg-primary rounded-xl flex items-center justify-center text-black shadow-2xl shrink-0">
-                                                <Zap size={24} />
+                                    <div className={`p-8 lg:p-16 rounded-[2.5rem] lg:rounded-[3.5rem] border relative overflow-hidden ${((selectedDoc as any).note_type === 'exam' || selectedDoc.title.toLowerCase().includes('revision')) ? 'bg-amber-500/5 border-amber-500/10' : 'bg-white/2 border-white/5'}`}>
+                                        <h3 className="text-xl lg:text-3xl font-heading font-black text-white mb-8 lg:text-12 flex items-center gap-3 lg:gap-5">
+                                            <div className={`w-10 lg:w-14 h-10 lg:h-14 rounded-xl flex items-center justify-center text-black shadow-2xl shrink-0 ${((selectedDoc as any).note_type === 'exam' || selectedDoc.title.toLowerCase().includes('revision')) ? 'bg-amber-500' : 'bg-primary'}`}>
+                                                <Zap size={20} />
                                             </div>
                                             Critical Reflection
                                         </h3>
                                         <div className="grid grid-cols-1 gap-6">
                                             {selectedDoc.pyqs.map((q, i) => (
-                                                <div key={i} className="p-8 bg-black/40 border border-white/5 rounded-[2rem] text-white hover:border-primary/50 transition-all font-bold text-xl leading-normal">
-                                                    <span className="text-primary opacity-20 mr-4 font-mono">0{i+1}</span> {q}
+                                                <div key={i} className={`p-6 lg:p-8 bg-black/40 border rounded-[1.5rem] lg:rounded-[2rem] text-white transition-all font-bold text-sm lg:text-xl leading-normal ${((selectedDoc as any).note_type === 'exam' || selectedDoc.title.toLowerCase().includes('revision')) ? 'hover:border-amber-500/50 border-white/5' : 'hover:border-primary/50 border-white/5'}`}>
+                                                    <span className={`${((selectedDoc as any).note_type === 'exam' || selectedDoc.title.toLowerCase().includes('revision')) ? 'text-amber-500' : 'text-primary'} opacity-20 mr-4 font-mono`}>0{i+1}</span> {q}
                                                 </div>
                                             ))}
                                         </div>
@@ -518,8 +610,7 @@ xychart-beta
                         #pdf-shadow-renderer th, #pdf-shadow-renderer td { border: 1px solid #e2e8f0; padding: 12px; font-size: 11pt; }
                         #pdf-shadow-renderer th { background: #f8fafc; font-weight: 800; }
                     ` }} />
-                    <div style={{ backgroundColor: '#ffffff', minHeight: '100%' }}>
-                        <h1>{selectedDoc.title}</h1>
+                    <div style={{ backgroundColor: '#ffffff' }}>
                         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '50px', paddingBottom: '20px', borderBottom: '3px solid #e2e8f0' }}>
                             <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
                                 <div style={{ fontSize: '15pt', fontWeight: 900, color: '#4338ca', letterSpacing: '2px', textTransform: 'uppercase', fontFamily: 'sans-serif' }}>
@@ -544,27 +635,10 @@ xychart-beta
                                 </div>
                             </div>
                         </div>
-                        {selectedDoc.diagram && <Mermaid chart={selectedDoc.diagram} isPrint={true} />}
                         <div className="prose-print" style={{ backgroundColor: '#ffffff' }}>
                             <ReactMarkdown 
                                 remarkPlugins={[remarkGfm, remarkMath]} 
                                 rehypePlugins={[rehypeKatex]}
-                                components={{
-                                    code({ node, inline, className, children, ...props }: any) {
-                                        const content = String(children).trim();
-                                        const isMermaid = /language-(mermaid|xychart-beta)/.exec(className || '') || content.startsWith('xychart-beta') || content.startsWith('graph TD');
-                                        
-                                        if (!inline && isMermaid) {
-                                            return <Mermaid chart={content.replace(/```mermaid\n?|```/g, '')} isPrint={true} />;
-                                        }
-                                        
-                                        return (
-                                            <code className={className} {...props}>
-                                                {children}
-                                            </code>
-                                        );
-                                    }
-                                }}
                             >
                                 {selectedDoc.content}
                             </ReactMarkdown>

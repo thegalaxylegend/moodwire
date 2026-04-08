@@ -231,7 +231,7 @@ export const ExamLanding = () => {
                         </p>
 
                         <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start mb-12">
-                            <Link to={`/dashboard/mock?exam=${exam}`} className="group relative px-8 py-5 bg-white text-black rounded-2xl font-black text-lg hover:scale-105 transition-all shadow-[0_0_40px_rgba(255,255,255,0.3)] flex items-center gap-2">
+                            <Link to={`/dashboard/mock?exam=${exam}`} className="group relative px-8 py-5 bg-white text-black rounded-2xl font-black text-lg hover:scale-105 transition-all shadow-[0_20px_40px_rgba(168,85,247,0.25)] flex items-center gap-2">
                                 Start Your AI Mock Test 
                                 <Icons.ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
                             </Link>
@@ -512,8 +512,8 @@ export const ExamLanding = () => {
                     </div>
                 </motion.section>
 
-                <div className="flex flex-col items-center gap-8 py-20 bg-gradient-to-b from-transparent to-purple-900/10 rounded-[4rem] border border-white/5">
-                    <Link to={`/dashboard/mock?exam=${exam}`} rel="nofollow" className="inline-flex items-center gap-2 bg-white text-black px-12 py-7 rounded-2xl font-black hover:scale-105 transition-transform w-full md:w-auto justify-center text-xl shadow-[0_0_50px_rgba(255,255,255,0.2)]">
+                <div className="flex flex-col items-center gap-8 py-20 bg-gradient-to-b from-transparent to-purple-900/10 rounded-[4rem] border border-white/[0.03]">
+                    <Link to={`/dashboard/mock?exam=${exam}`} rel="nofollow" className="inline-flex items-center gap-2 bg-white text-black px-12 py-7 rounded-2xl font-black hover:scale-105 transition-transform w-full md:w-auto justify-center text-xl shadow-[0_25px_50px_rgba(0,0,0,0.4)]">
                         Start Your AI Mock Journey <Icons.ArrowRight size={24} />
                     </Link>
                     <div className="flex items-center gap-4 text-gray-500 font-bold uppercase tracking-[0.2em] text-xs">
@@ -528,7 +528,7 @@ export const ExamLanding = () => {
 
             {/* FOUNDER'S MISSION */}
             <section className="py-20 px-6 max-w-7xl mx-auto">
-                <div className="p-12 md:p-20 rounded-[4rem] bg-zinc-950 border border-white/10 relative overflow-hidden group">
+                <div className="p-12 md:p-20 rounded-[4rem] bg-zinc-950 border border-white/5 relative overflow-hidden group">
                     <div className="absolute top-0 right-0 p-12">
                         <Icons.Compass className="w-32 h-32 text-white/5 group-hover:text-purple-500/10 transition-colors rotate-12" />
                     </div>
@@ -546,7 +546,7 @@ export const ExamLanding = () => {
                                     <div className="text-white font-black text-xl">Ayush</div>
                                     <div className="text-purple-400 text-sm font-bold uppercase tracking-widest">Founder & Visionary</div>
                                 </div>
-                                <div className="flex gap-4 ml-6 pl-6 border-l border-white/10">
+                                <div className="flex gap-4 ml-6 pl-6 border-l border-white/5">
                                     <a href={SOCIAL_LINKS.twitter.url} className="text-gray-500 hover:text-white transition-colors"><Icons.Twitter size={24}/></a>
                                     <a href={SOCIAL_LINKS.linkedin.url} className="text-gray-500 hover:text-white transition-colors"><Icons.Linkedin size={24}/></a>
                                 </div>

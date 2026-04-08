@@ -34,12 +34,21 @@ const GEMINI_KEYS = [
 
 let currentGroqIndex = 0;
 let currentGeminiIndex = 0;
+const deadGroqKeyIndices = new Set<number>();
+const deadGeminiKeyIndices = new Set<number>();
 let groq = new Groq({ apiKey: GROQ_KEYS[0] });
 
 function rotateGroqKey() {
-    currentGroqIndex = (currentGroqIndex + 1) % GROQ_KEYS.length;
-    groq = new Groq({ apiKey: GROQ_KEYS[currentGroqIndex] });
-    console.log(`🔄 Rotating to Groq Key #${currentGroqIndex + 1}...`);
+    deadGroqKeyIndices.add(currentGroqIndex);
+    const aliveIndices = GROQ_KEYS.map((_, i) => i).filter(i => !deadGroqKeyIndices.has(i));
+    
+    if (aliveIndices.length > 0) {
+        currentGroqIndex = aliveIndices[0];
+        groq = new Groq({ apiKey: GROQ_KEYS[currentGroqIndex] });
+        console.log(`🔄 Rotating to Groq Key #${currentGroqIndex + 1}...`);
+    } else {
+        console.warn("🚨 ALL GROQ KEYS EXHAUSTED.");
+    }
 }
 
 // Global Key Protection: Validation on startup
@@ -50,8 +59,15 @@ if (GROQ_KEYS.length === 0 || GEMINI_KEYS.length === 0) {
 
 
 function rotateGeminiKey() {
-    currentGeminiIndex = (currentGeminiIndex + 1) % GEMINI_KEYS.length;
-    console.log(`💎 Rotating to Gemini Key #${currentGeminiIndex + 1}...`);
+    deadGeminiKeyIndices.add(currentGeminiIndex);
+    const aliveIndices = GEMINI_KEYS.map((_, i) => i).filter(i => !deadGeminiKeyIndices.has(i));
+    
+    if (aliveIndices.length > 0) {
+        currentGeminiIndex = aliveIndices[0];
+        console.log(`💎 Rotating to Gemini Key #${currentGeminiIndex + 1}...`);
+    } else {
+        console.warn("🚨 ALL GEMINI KEYS EXHAUSTED.");
+    }
 }
 
 const sleep = (ms: number) => new Promise(r => setTimeout(r, ms));
@@ -570,17 +586,9 @@ async function callLlmWithFallback(system: string, user: string, isJson: boolean
             const fallbackKey = await generateWithGeminiRetry(system + (isJson ? "\nEnsure valid JSON structure." : ""), user, isJson);
             if (fallbackKey) return fallbackKey;
 
-            // If Gemini also failed (all 6 keys), wait and retry Groq from start
-            if (attempt < 15) {
-                console.log(`⏳ Both API tiers saturated. Sleeping for 45s before reset...`);
-                await sleep(45000);
-                return await callLlmWithFallback(system, user, isJson, attempt + 1);
-            }
-
-            // Ultimate Circuit Breaker: If we reached attempt 15, do not crash the whole process.
-            // Return null and let the individual blog fail, so the rest of the queue can continue.
-            console.error(`🚨 CIRCUIT BREAKER: All 15 attempts failed for this generation step.`);
-            return null;
+            // If Gemini also failed (all 6 keys), trigger Hard Stop to prevent Token Burn
+            console.error(`🚨 FATAL QUOTA EXHAUSTION: Both API tiers saturated. Triggering hard stop to protect limits.`);
+            process.exit(1);
         }
 
 
@@ -845,6 +853,12 @@ async function generateBlogs() {
     if (queue.length === 0) {
         console.log("📭 No new or refinement blogs in queue.");
         return;
+    }
+
+    const MAX_BLOGS_PER_RUN = 3;
+    if (queue.length > MAX_BLOGS_PER_RUN) {
+        console.log(`⚠️ SAFETY VALVE: Truncating queue from ${queue.length} down to ${MAX_BLOGS_PER_RUN} max items.`);
+        queue = queue.slice(0, MAX_BLOGS_PER_RUN);
     }
 
     console.log(`🚀 Processing combined queue: ${queue.length} items (New + Refined)`);

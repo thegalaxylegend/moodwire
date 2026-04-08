@@ -15,13 +15,39 @@ const BLOG_DIR = path.resolve(__dirname, '../../src/content/blogs');
 const OUTPUT_DIR = path.resolve(__dirname, '../../social-output/threads');
 const BASE_URL = 'https://examcompass.pages.dev';
 
+const GROQ_KEYS = [
+    process.env.VITE_GROQ_API_KEY || process.env.GROQ_API_KEY,
+    process.env.VITE_GROQ_API_KEY_2,
+    process.env.VITE_GROQ_API_KEY_3,
+    process.env.VITE_GROQ_API_KEY_4,
+    process.env.VITE_GROQ_API_KEY_5,
+    process.env.VITE_GROQ_API_KEY_6
+].filter(Boolean) as string[];
+
+let currentGroqIndex = 0;
+const deadGroqKeys = new Set<number>();
+
+function getNextGroqKey() {
+    if (deadGroqKeys.size >= GROQ_KEYS.length) return null;
+    let index = currentGroqIndex;
+    while (deadGroqKeys.has(index)) {
+        index = (index + 1) % GROQ_KEYS.length;
+    }
+    return GROQ_KEYS[index];
+}
+
+function rotateGroqKey() {
+    deadGroqKeys.add(currentGroqIndex);
+    currentGroqIndex = (currentGroqIndex + 1) % GROQ_KEYS.length;
+}
+
 /**
  * 🤖 Generate Thread with Groq AI
  */
 async function generateThreadWithAI(slug: string, content: string): Promise<string | null> {
-    const apiKey = process.env.GROQ_API_KEY || process.env.VITE_GROQ_API_KEY_2;
+    const apiKey = getNextGroqKey();
     if (!apiKey) {
-        console.error("❌ GROQ_API_KEY is missing in .env");
+        console.error("❌ All GROQ keys exhausted or missing.");
         return null;
     }
 
@@ -57,6 +83,12 @@ async function generateThreadWithAI(slug: string, content: string): Promise<stri
         return result.choices[0]?.message?.content?.trim() || null;
     } catch (e: any) {
         console.error(`❌ AI Generation failed for ${slug}:`, e.message);
+        if (e.message.includes('429') || e.message.includes('rate_limit')) {
+            console.log("🔄 Rate limit hit, rotating key...");
+            rotateGroqKey();
+            // Retry once with new key
+            return generateThreadWithAI(slug, content);
+        }
         return null;
     }
 }

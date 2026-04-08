@@ -4,8 +4,29 @@ import { callGemini } from './gemini';
 import { buildSystemPrompt } from './systemPrompt';
 import type { UserProfile, TestResult } from './systemPrompt';
 import { getImportantMemories, extractAndSaveMemory } from './memoryExtractor';
-
 export type AIProvider = 'groq' | 'openai' | 'gemini';
+
+/**
+ * 🛠️ Formats raw API errors into human-readable strings.
+ * Detects 429 Rate Limits and parses "retry in" strings.
+ */
+function formatAIError(error: any): string {
+    const msg = error?.message || error?.data?.error?.message || String(error);
+    const lowMsg = msg.toLowerCase();
+
+    if (lowMsg.includes('rate limit') || lowMsg.includes('429') || lowMsg.includes('resource_exhausted') || lowMsg.includes('quota')) {
+        // Extract time if present (e.g. "try again in 30.5s")
+        const timeMatch = msg.match(/(\d+\.?\d*)\s*(s|m|h)/i);
+        const timeStr = timeMatch ? ` Try again in ${timeMatch[0]}.` : "";
+        return `DAILY_LIMIT_REACHED: Your daily AI quota has been exhausted.${timeStr}`;
+    }
+
+    if (lowMsg.includes('invalid api key') || lowMsg.includes('401')) {
+        return "AUTH_ERROR: API authentication failed. Please check your keys.";
+    }
+
+    return msg;
+}
 
 const CACHE_TTL = 24 * 60 * 60 * 1000; // 24 hours
 
@@ -114,7 +135,8 @@ export const askAI = async (
                 response = await callGroq(fullMessages as any, { 
                     ...options, 
                     model: modelId,
-                    stream: isStream
+                    stream: isStream,
+                    signal: options.signal
                 });
             } catch (groqError: any) {
                 console.warn("[AI] Groq failed, trying Gemini fallback...", groqError?.message?.slice(0, 80));
@@ -144,7 +166,7 @@ export const askAI = async (
                     maxOutputTokens: options.max_tokens ?? 8192,
                     jsonMode: options.jsonMode ?? false,
                     stream: options.stream ?? false,
-                    model: options.modelId || 'gemini-1.5-flash'
+                    model: options.modelId || 'gemini-2.0-flash'
                 });
             } catch (geminiError: any) {
                 console.warn("[AI] Gemini failed, falling back to Groq...", geminiError?.message?.slice(0, 80));
@@ -186,9 +208,9 @@ export const askAI = async (
         }
 
         return response;
-    } catch (error) {
-        console.error("All AI providers failed:", error);
-        throw error;
+    } catch (error: any) {
+        const formatted = formatAIError(error);
+        console.error("All AI providers failed:", formatted);
+        throw new Error(formatted);
     }
-    return "I'm sorry, I'm having trouble processing that right now.";
 };

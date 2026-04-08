@@ -74,42 +74,53 @@ const sanitizeMermaid = (chart: string) => {
         return processed;
     });
 
-    // 3. Ensure a header exists (default to graph TD if first non-empty line isn't a header)
-    const firstContent = lines.find(l => l.trim().length > 0)?.trim() || "";
+    // 3. AUTO-REPAIR: Brackets and Quotes (Hallucination Guard)
+    lines = lines.map(line => {
+        let l = line;
+        
+        // Auto-close unclosed node brackets [ ( {
+        const counts = { '[': 0, ']': 0, '(': 0, ')': 0, '{': 0, '}': 0 };
+        for (let char of l) { if (counts.hasOwnProperty(char)) counts[char as keyof typeof counts]++; }
+        if (counts['['] > counts[']']) l += ']'.repeat(counts['['] - counts[']']);
+        if (counts['('] > counts[')']) l += ')'.repeat(counts['('] - counts[')']);
+        if (counts['{'] > counts['}']) l += '}'.repeat(counts['{'] - counts['}']);
+
+        // Fix unquoted labels containing special chars (v0 cos theta) -> "v0 cos theta"
+        l = l.replace(/\[\s*([^"\]\n]*?[\(\)\-\+\*\/][^"\]\n]*?)\s*\]/g, '["$1"]');
+        l = l.replace(/\(\s*([^"\]\n]*?[\(\)\-\+\*\/][^"\]\n]*?)\s*\)/g, '("$1")');
+
+        return l;
+    });
+
+    // 4. Ensure a header exists (default to graph TD if first non-empty line isn't a header)
+    const firstContentLine = lines.find(l => l.trim().length > 0)?.trim() || "";
     
     // Critical: xychart-beta relies heavily on native brackets [x,y] for plotting arrays.
-    if (firstContent.startsWith('xychart-beta')) {
+    if (firstContentLine.startsWith('xychart-beta')) {
         let safeChart = cleanChart;
-        // Anti-Hallucination 1: Strip flow-chart 'notes'
+        // Anti-Hallucination: Strip flow-chart junk and force spacing
         safeChart = safeChart.split('\n').filter(line => !line.toLowerCase().includes('note ')).join('\n');
-        // Anti-Hallucination 2: Force newlines between core tags (AI sometimes collapses them)
         safeChart = safeChart.replace(/\s+(x-axis|y-axis|line|title)\s+/g, '\n$1 ');
-        // Anti-Hallucination 3: The AI sometimes brackets its Y-axis or Title e.g. y-axis ["Text"]
         safeChart = safeChart.replace(/(y-axis|title)\s+\["?(.*?)"?\]/g, '$1 "$2"');
-        // Anti-Hallucination 4: The AI sometimes completely hallucinates 2D arrays (e.g. line [[0, 0], [1, 2]])
+        
+        // Anti-Hallucination: Unwrap 2D arrays line [[0,0],[1,1]] -> x-axis [0,1] line [0,1]
         const match2D = safeChart.match(/line\s+(\[\[[\s\S]*?\]\])/);
         if (match2D) {
             try {
-                // Safely parse the hallucinated 2D array matrix into JS native arrays
                 const points = JSON.parse(match2D[1].replace(/'/g, '"'));
                 if (Array.isArray(points) && points.length > 0 && Array.isArray(points[0])) {
                     const xCoords = points.map(p => p[0]);
                     const yCoords = points.map(p => p[1]);
-                    // Delete any pre-existing broken x-axis lines to prevent duplicates
                     safeChart = safeChart.replace(/x-axis.*?(\n|$)/g, '');
-                    // Re-inject the perfectly unwrapped separate flat arrays into the chart structure
                     safeChart = safeChart.replace(match2D[0], `x-axis [${xCoords.join(', ')}]\nline [${yCoords.join(', ')}]`);
                 }
-            } catch (e) {
-                // If it fails to parse, we gracefully ignore and let the LLM fail natively.
-            }
+            } catch (e) {}
         }
-
         return safeChart;
     }
     
     const headers = ['graph', 'flowchart', 'sequenceDiagram', 'pie', 'classDiagram', 'stateDiagram', 'erDiagram', 'gantt', 'journey', 'gitGraph', 'mindmap', 'timeline', 'xychart-beta'];
-    const hasHeader = headers.some(h => firstContent.startsWith(h));
+    const hasHeader = headers.some(h => firstContentLine.toLowerCase().startsWith(h.toLowerCase()));
     
     if (!hasHeader && lines.length > 0) {
         lines.unshift('graph TD');
@@ -142,16 +153,23 @@ const Mermaid = ({ chart }: { chart: string }) => {
                     }
                 });
                 mermaid.render(`mermaid-${Math.random().toString(36).substring(2, 9)}`, cleanChart).then(({ svg }) => {
-                    if (svg.includes('mermaid-error') || svg.includes('Syntax error') || svg.includes('failed to render')) {
+                    // SILENT FAILURE: If Mermaid returns an error icon or syntax bomb, hide the component completely
+                    if (svg.includes('mermaid-error') || 
+                        svg.includes('Syntax error') || 
+                        svg.includes('error-icon') || 
+                        svg.includes('failed to render') ||
+                        svg.toLowerCase().includes('bomb')) {
                         setRenderError(true);
+                        if (ref.current) ref.current.innerHTML = '';
                         return;
                     }
                     if (ref.current) {
                         ref.current.innerHTML = svg;
                     }
-                }).catch(() => {
-                    console.warn("Mermaid dynamic render failed");
+                }).catch((err) => {
+                    console.warn("Mermaid dynamic render failed:", err);
                     setRenderError(true);
+                    if (ref.current) ref.current.innerHTML = '';
                 });
             });
         }

@@ -48,7 +48,10 @@ async function callGemini(system: string, user: string): Promise<string | null> 
             })
         });
         if (!response.ok) {
-            if (response.status === 429) currentGeminiIndex = (currentGeminiIndex + 1) % GEMINI_KEYS.length;
+            if (response.status === 429) {
+                console.error(`🚨 FATAL QUOTA EXHAUSTION: Gemini API limit reached in Patch Generator. Triggering hard stop.`);
+                process.exit(1);
+            }
             return null;
         }
         const data: any = await response.json();
@@ -71,7 +74,11 @@ async function generatePatch(topic: string, sectionName: string): Promise<any> {
             response_format: { type: "json_object" }
         });
         return godSafeParse(completion.choices[0]?.message?.content || "");
-    } catch {
+    } catch (err: any) {
+        if (err?.status === 429 || err?.message?.includes('429')) {
+             console.error(`🚨 FATAL QUOTA EXHAUSTION: Groq API limit reached in Patch Generator. Triggering hard stop.`);
+             process.exit(1);
+        }
         rotateGroq();
         const gem = await callGemini(system, user);
         return gem ? godSafeParse(gem) : null;

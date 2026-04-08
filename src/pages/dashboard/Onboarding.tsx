@@ -146,19 +146,22 @@ export const Onboarding = () => {
                             </h2>
 
                             <div className="grid grid-cols-3 gap-4 mt-8">
-                                {[2026, 2027, 2028, 2029, 2030].map((year) => (
-                                    <button
-                                        key={year}
-                                        onClick={() => setFormData({ ...formData, targetYear: year })}
-                                        className={`p-6 rounded-xl border text-center transition-all ${formData.targetYear === year
-                                            ? 'bg-accent/20 border-accent text-accent shadow-[0_0_20px_rgba(236,72,153,0.2)]'
-                                            : 'bg-surface border-border text-text-muted hover:bg-white/5'
-                                            }`}
-                                    >
-                                        <Calendar className="mx-auto mb-3" />
-                                        <span className="font-bold text-xl">{year}</span>
-                                    </button>
-                                ))}
+                                {[0, 1, 2, 3, 4].map((offset) => {
+                                    const year = new Date().getFullYear() + offset;
+                                    return (
+                                        <button
+                                            key={year}
+                                            onClick={() => setFormData({ ...formData, targetYear: year })}
+                                            className={`p-6 rounded-xl border text-center transition-all ${formData.targetYear === year
+                                                ? 'bg-accent/20 border-accent text-accent shadow-[0_0_20px_rgba(236,72,153,0.2)]'
+                                                : 'bg-surface border-border text-text-muted hover:bg-white/5'
+                                                }`}
+                                        >
+                                            <Calendar className="mx-auto mb-3" />
+                                            <span className="font-bold text-xl">{year}</span>
+                                        </button>
+                                    );
+                                })}
                             </div>
                         </div>
                     )}

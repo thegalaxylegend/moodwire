@@ -9,6 +9,7 @@ import { ChatWindow } from './Chat/ChatWindow';
 import { InputBar } from './Chat/InputBar';
 import { CallOverlay } from './Chat/CallOverlay';
 import { AnimatePresence, motion } from 'framer-motion';
+import { ttsManager } from '../lib/tts/TTSManager';
 
 // Emotion Definitions
 type ExaEmotion = 'neutral' | 'listening' | 'thinking' | 'speaking' | 'excited' | 'shy';
@@ -20,6 +21,7 @@ interface VoicePreset {
     gender: 'female' | 'male';
     pitch: number;
     rate: number;
+    isNeural?: boolean;
 }
 
 const DYNAMIC_GREETINGS = [
@@ -30,6 +32,7 @@ const DYNAMIC_GREETINGS = [
 ];
 
 const VOICE_PRESETS: VoicePreset[] = [
+    { id: 'amy_neural', name: 'Exa (Real Talk)', gender: 'female', pitch: 1.0, rate: 1.0, isNeural: true },
     { id: 'girl_sweet', name: 'Exa (Sweet)', gender: 'female', pitch: 1.15, rate: 1.05 },
     { id: 'girl_calm', name: 'Exa (Calm)', gender: 'female', pitch: 1.0, rate: 0.95 },
     { id: 'girl_playful', name: 'Exa (Playful)', gender: 'female', pitch: 1.1, rate: 1.1 },
@@ -57,7 +60,8 @@ export const Chatbot = () => {
     const [isMuted, setIsMuted] = useState(false);
     const [, ] = useState<ExaEmotion>('neutral');
     const [isMicMuted, setIsMicMuted] = useState(false);
-    const [selectedPresetId, setSelectedPresetId] = useState<string>(() => localStorage.getItem('exa_voice_id') || localStorage.getItem('exa_voice_preset_id') || "girl_sweet");
+    const [isTTSLoading, setIsTTSLoading] = useState(false);
+    const [selectedPresetId, setSelectedPresetId] = useState<string>(() => localStorage.getItem('exa_voice_id') || localStorage.getItem('exa_voice_preset_id') || "amy_neural");
     const [suggestions, setSuggestions] = useState<string[]>([]);
 
     const recognitionRef = useRef<any>(null);
@@ -190,13 +194,40 @@ export const Chatbot = () => {
         }
     };
 
-    const speak = (text: string, cancelPending = false) => {
-        if (!window.speechSynthesis) return;
+    const speak = async (text: string, cancelPending = false) => {
         let cleanText = text.replace(/([\u2700-\u27BF]|[\uE000-\uF8FF]|\uD83C[\uDC00-\uDFFF]|\uD83D[\uDC00-\uDFFF]|[\u2011-\u26FF]|\uD83E[\uDD10-\uDDFF])/g, '');
         cleanText = cleanText.replace(/\$\$[\s\S]*?\$\$/g, '').replace(/\$[^$]*?\$/g, '').replace(/\\(text|frac|sqrt|left|right|times|cdot|geq|leq|neq|approx|infty|sum|int|prod|lim|rightarrow|leftarrow|Rightarrow|AA)\b\{?[^}]*\}?/g, '');
         cleanText = cleanText.replace(/\*{1,3}(.*?)\*{1,3}/g, '$1').replace(/_{1,3}(.*?)_{1,3}/g, '$1').replace(/`{1,3}[^`]*`{1,3}/g, '').replace(/^#{1,6}\s+/gm, '').replace(/\[([^\]]*)\]\([^)]*\)/g, '$1').replace(/^[-*+]\s+/gm, '').replace(/^\d+\.\s+/gm, '').replace(/^>\s+/gm, '').replace(/\|/g, '').replace(/---+/g, '').trim();
 
         if (isMuted || !cleanText) return;
+
+        const preset = VOICE_PRESETS.find(p => p.id === selectedPresetId) || VOICE_PRESETS[0];
+
+        // NEW: Neural Engine Logic / Modified for Loading Feedback
+        if (preset.isNeural) {
+            try {
+                if (cancelPending) ttsManager.stop();
+                
+                // Only show loading if engine needs initialization
+                if (!isTTSLoading) { // Guard against rapid toggles
+                   setIsTTSLoading(true);
+                }
+                
+                await ttsManager.init(); 
+                setIsTTSLoading(false);
+                
+                setIsSpeaking(true);
+                await ttsManager.speak(cleanText, preset.rate);
+                setIsSpeaking(false);
+                return; 
+            } catch (err) {
+                console.warn("[Chatbot] Neural TTS failed, shifting to system fallback:", err);
+                setIsTTSLoading(false);
+            }
+        }
+
+        // --- System Fallback (window.speechSynthesis) ---
+        if (!window.speechSynthesis) return;
 
         if (window.speechSynthesis.getVoices().length === 0) {
             const handleVoicesChanged = () => {
@@ -209,7 +240,6 @@ export const Chatbot = () => {
 
         const utterance = new SpeechSynthesisUtterance(cleanText);
         const voices = window.speechSynthesis.getVoices();
-        const preset = VOICE_PRESETS.find(p => p.id === selectedPresetId) || VOICE_PRESETS[0];
 
         let systemVoice: SpeechSynthesisVoice | undefined;
         const findByName = (keywords: string[]) => voices.find(v => keywords.some(k => v.name.includes(k)));
@@ -490,6 +520,7 @@ export const Chatbot = () => {
                         <ChatWindow
                             messages={messages}
                             isThinking={isThinking}
+                            isTTSLoading={isTTSLoading}
                             isSearching={isSearching}
                             suggestions={suggestions}
                             onSelectSuggestion={(text) => {
@@ -509,11 +540,24 @@ export const Chatbot = () => {
                             setIsMuted={setIsMuted}
                             voicePresets={VOICE_PRESETS as any}
                             selectedPresetId={selectedPresetId}
-                            onSelectPreset={(id) => {
-                                setSelectedPresetId(id);
-                                localStorage.setItem('exa_voice_id', id);
-                                speak("How do I sound?");
-                            }}
+                             onSelectPreset={(id) => {
+                                 const preset = VOICE_PRESETS.find(p => p.id === id);
+                                 setSelectedPresetId(id);
+                                 localStorage.setItem('exa_voice_id', id);
+                                 
+                                 if (preset?.isNeural) {
+                                     setIsTTSLoading(true);
+                                     ttsManager.init().then(() => {
+                                         setIsTTSLoading(false);
+                                         speak("How do I sound now? This is my neural voice synthesis engine.");
+                                     }).catch(() => {
+                                         setIsTTSLoading(false);
+                                         speak("Something went wrong with my high-quality voice. Using basic voice instead.");
+                                     });
+                                 } else {
+                                     speak("How do I sound?");
+                                 }
+                             }}
                             sessions={sessions}
                             currentSessionId={currentSessionId}
                             onSwitchSession={switchSession}

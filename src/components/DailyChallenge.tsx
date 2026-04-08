@@ -83,9 +83,9 @@ export const DailyChallenge = () => {
                     </div>
                 </div>
 
-                <div className="mt-8 pt-6 border-t border-white/5 flex items-center justify-between relative z-10">
+                <div className="mt-8 pt-6 border-t border-white/[0.03] flex items-center justify-between relative z-10">
                     <div className="flex items-center gap-4">
-                        <div className="p-2 bg-white/5 rounded-lg border border-white/10">
+                        <div className="p-2 bg-white/5 rounded-lg border border-white/5">
                             <Gift size={16} className="text-primary" />
                         </div>
                         <div>

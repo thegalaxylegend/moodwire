@@ -88,7 +88,7 @@ export const ScorePredictor = () => {
                             <h3 className="text-xs font-black text-gray-500 uppercase tracking-[0.2em] mb-2 font-mono">
                                 {isSchoolExam ? "Target Status" : "2026 Estimated AIR"}
                             </h3>
-                            <div className="text-6xl font-black text-white tracking-tighter mb-4 tabular-nums drop-shadow-[0_0_15px_rgba(255,255,255,0.2)]">
+                            <div className="text-6xl font-black text-white tracking-tighter mb-4 tabular-nums drop-shadow-[0_0_15px_rgba(139,92,246,0.5)]">
                                 {isSchoolExam ? (mockScore >= 95 ? 'Elite' : mockScore >= 80 ? 'Good' : 'Avg') : `#${prediction.predictedRank.toLocaleString()}`}
                             </div>
 

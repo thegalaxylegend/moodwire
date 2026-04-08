@@ -17,7 +17,7 @@
     /* Lavender */
     --text-main: #f8fafc;
     --text-muted: #94a3b8;
-    --border: rgba(255, 255, 255, 0.1);
+    --border: rgba(255, 255, 255, 0.02); /* Ultra-softened to eliminate white glow feel */
 
     --glass-opacity: 0.7;
     --glass-blur: 16px;
@@ -108,7 +108,7 @@
     /* Pink */
     --text-main: #ffffff;
     --text-muted: #94a3b8;
-    --border: rgba(255, 255, 255, 0.08);
+    --border: rgba(255, 255, 255, 0.03);
 
     --glass-opacity: 0.2;
     --glass-blur: 40px;
@@ -335,16 +335,11 @@ body {
 
 @layer components {
   .glass-card {
-    @apply bg-surface/40 backdrop-blur-[var(--glass-blur)] border border-white/10 rounded-[var(--card-radius)] shadow-[0_30px_60px_-15px_rgba(0,0,0,0.7)] transition-all duration-500 relative;
+    @apply bg-surface/40 backdrop-blur-[var(--glass-blur)] border border-white/5 rounded-[var(--card-radius)] shadow-[0_40px_80px_-15px_rgba(0,0,0,0.8)] transition-all duration-500 relative;
   }
 
   .glass-card::before {
-    content: '';
-    @apply absolute inset-0 bg-gradient-to-br from-white/5 to-transparent opacity-0 transition-opacity duration-500 pointer-events-none;
-  }
-
-  .glass-card:hover::before {
-    @apply opacity-100;
+    display: none; /* Removed white highlight gradient entirely */
   }
 
   .active-glow {
@@ -359,6 +354,13 @@ body {
 
   .active-glow:hover::after {
     @apply opacity-100;
+  }
+
+  .liquid-glass {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.01));
+    @apply backdrop-blur-[45px] backdrop-saturate-[2.5] backdrop-brightness-125 backdrop-contrast-125;
+    @apply border border-white/20 shadow-[0_25px_80px_-15px_rgba(0,0,0,0.6),inset_0_1px_1px_0_rgba(255,255,255,0.15)];
+    @apply transition-all duration-500 relative;
   }
 
   .premium-border {

@@ -32,7 +32,7 @@ async function generateScriptWithAI(slug: string, content: string): Promise<stri
     }
 
     const genAI = new GoogleGenerativeAI(apiKey);
-    const model = genAI.getGenerativeModel({ model: "gemma-4-31b-it" });
+    const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
 
     const prompt = `
     You are an expert YouTube Shorts and TikTok content creator specialized in EdTech.
@@ -93,7 +93,7 @@ async function main() {
             continue;
         }
         
-        console.log(`🤖 Prompting Gemma 4 (31B) for ${slug}...`);
+        console.log(`🤖 Prompting Gemini for ${slug}...`);
         const content = fs.readFileSync(filePath, 'utf-8');
         const script = await generateScriptWithAI(slug, content);
         

@@ -1,0 +1,169 @@
+// src/lib/tts/TTSManager.ts
+
+export interface TTSConfig {
+    model: ArrayBuffer;
+    tokens: ArrayBuffer;
+    lexicon?: ArrayBuffer;
+    sampleRate: number;
+}
+
+export class TTSManager {
+    private static instance: TTSManager;
+    private worker: Worker | null = null;
+    private isInitialized = false;
+    private audioContext: AudioContext | null = null;
+    private activeSources: AudioBufferSourceNode[] = [];
+    private initializationPromise: Promise<void> | null = null;
+
+    // Config for Amy (Friendly Female)
+    private readonly MODEL_URL = 'https://huggingface.co/csukuangfj/sherpa-onnx-vits-en-amy-low/resolve/main/model.onnx';
+    private readonly TOKENS_URL = 'https://huggingface.co/csukuangfj/sherpa-onnx-vits-en-amy-low/resolve/main/tokens.txt';
+
+    private constructor() {}
+
+    static getInstance() {
+        if (!this.instance) {
+            this.instance = new TTSManager();
+        }
+        return this.instance;
+    }
+
+    async init() {
+        if (this.isInitialized) return;
+        if (this.initializationPromise) return this.initializationPromise;
+
+        this.initializationPromise = (async () => {
+            try {
+                // 1. Fetch models (using cache if available)
+                const [model, tokens] = await Promise.all([
+                    this.fetchWithCache(this.MODEL_URL),
+                    this.fetchWithCache(this.TOKENS_URL)
+                ]);
+
+                // 2. Initialize Worker
+                this.worker = new Worker(new URL('./sherpa-worker.ts', import.meta.url), { type: 'module' });
+                
+                return new Promise<void>((resolve, reject) => {
+                    if (!this.worker) return reject('Worker failed to start');
+
+                    this.worker.onmessage = (e) => {
+                        if (e.data.type === 'INIT_DONE') {
+                            this.isInitialized = true;
+                            resolve();
+                        } else if (e.data.type === 'ERROR') {
+                            reject(e.data.payload);
+                        }
+                    };
+
+                    this.worker.postMessage({
+                        type: 'INIT',
+                        payload: {
+                            model,
+                            tokens,
+                            sampleRate: 22050
+                        }
+                    });
+                });
+            } catch (error) {
+                console.error('[TTSManager] Initialization failed:', error);
+                this.initializationPromise = null;
+                throw error;
+            }
+        })();
+
+        return this.initializationPromise;
+    }
+
+    private async fetchWithCache(url: string): Promise<ArrayBuffer> {
+        // Simple Cache API implementation
+        const cacheName = 'exa-tts-models-v1';
+        const cache = await caches.open(cacheName);
+        const cachedResponse = await cache.match(url);
+
+        if (cachedResponse) {
+            console.log(`[TTSManager] Loading from cache: ${url}`);
+            return await cachedResponse.arrayBuffer();
+        }
+
+        console.log(`[TTSManager] Downloading model: ${url}`);
+        const response = await fetch(url);
+        if (!response.ok) throw new Error(`Failed to fetch ${url}`);
+        
+        // Clone response before consuming for cache
+        const responseToCache = response.clone();
+        await cache.put(url, responseToCache);
+        
+        return await response.arrayBuffer();
+    }
+
+    async speak(text: string, speed = 1.0) {
+        if (!this.isInitialized) {
+            await this.init();
+        }
+
+        return new Promise<void>((resolve, reject) => {
+            if (!this.worker) return reject('Worker not available');
+
+            const handleMessage = (e: MessageEvent) => {
+                if (e.data.type === 'GENERATE_DONE') {
+                    this.worker?.removeEventListener('message', handleMessage);
+                    this.playAudio(e.data.payload.samples, e.data.payload.sampleRate)
+                        .then(resolve)
+                        .catch(reject);
+                } else if (e.data.type === 'ERROR') {
+                    this.worker?.removeEventListener('message', handleMessage);
+                    reject(e.data.payload);
+                }
+            };
+
+            this.worker.addEventListener('message', handleMessage);
+            this.worker.postMessage({
+                type: 'GENERATE',
+                payload: { text, speed }
+            });
+        });
+    }
+
+    private async playAudio(samples: Float32Array, sampleRate: number) {
+        if (!this.audioContext) {
+            this.audioContext = new (window.AudioContext || (window as any).webkitAudioContext)({
+                latencyHint: 'interactive'
+            });
+        }
+
+        if (this.audioContext.state === 'suspended') {
+            await this.audioContext.resume();
+        }
+
+        const buffer = this.audioContext.createBuffer(1, samples.length, sampleRate);
+        buffer.getChannelData(0).set(samples);
+
+        const source = this.audioContext.createBufferSource();
+        source.buffer = buffer;
+        source.connect(this.audioContext.destination);
+        
+        this.activeSources.push(source);
+        source.start();
+
+        return new Promise<void>((resolve) => {
+            source.onended = () => {
+                this.activeSources = this.activeSources.filter(s => s !== source);
+                resolve();
+            };
+        });
+    }
+
+    stop() {
+        // Stop all active sources instead of closing the context
+        this.activeSources.forEach(source => {
+            try { source.stop(); } catch (e) {}
+        });
+        this.activeSources = [];
+        
+        if (this.audioContext?.state === 'running') {
+            this.audioContext.suspend();
+        }
+    }
+}
+
+export const ttsManager = TTSManager.getInstance();
