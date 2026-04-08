@@ -5,7 +5,7 @@
 >
 > 🚀 **Read our [World-Class SEO Strategy (REED.md)](file:///c:/Users/Admin/Downloads/Desktop/REED.md)**
 > 🥇 **Learn how to [Rank Top 1-2 on Google (RANKING_GUIDE.md)](file:///c:/Users/Admin/Downloads/Desktop/RANKING_GUIDE.md)**
-> 🔥 **Discover our [Growth Hacks for 1M+ Views (GROWTH_HACKS.md)](file:///c:/Users/Admin/Downloads/Desktop/GROWTH_HACKS.md)**
+> 🔥 **Monitor the [Jules Autonomous Pipeline (jules_self_healing_system.md)](file:///c:/Users/Admin/Downloads/Desktop/jules_self_healing_system.md)**
 
 
 
@@ -32,10 +32,18 @@ Exam Compass is a next-generation EdTech platform designed to crack competitive 
     4.  **Storage:** Only verified questions are saved to Firestore.
 *   **Adaptive Difficulty:** The engine tracks user performance (weakness score) per topic and dynamically adjusts the specificty and difficulty of generated questions.
 
-### 4. 🔍 Strict Technical SEO
-*   **Manifest-Driven Generation:** A custom script (`scripts/generate-seo-manifest.js`) builds a massive JSON map of every possible route (Subject -> Topic -> Question).
-*   **Programmatic SEO:** We generate thousands of unique, indexable pages for every micro-topic (e.g., "Rotational Motion", "Electrostatics").
-*   **Schema Richness:** Every page includes automated JSON-LD `BreadcrumbList` and `Quiz` schemas.
+### 4. 🤖 Jules: Autonomous AI Pipeline
+*   **Self-Healing Architecture:** Detects and repairs broken images, malformed metadata, and broken links autonomously.
+*   **Multi-Agent Orchestration:** Dispatches specialized tasks to Claude (Creative), DeepSeek (Technical), and Perplexity (Research).
+*   **Sanity Guard:** Every deployment passes through a 178-point validation gate ensuring 100% data integrity.
+
+### 5. 🎙️ Neural Voice Interactive Hub
+*   **On-Device TTS:** Integrated Sherpa-ONNX neural engine for lag-free, high-fidelity academic narration.
+*   **Adaptive Tutoring:** AI-driven voice interactions for solving complex Physics/Math problems in real-time.
+
+### 6. 🔍 Strict Technical SEO & Programmatic Pages
+*   **Manifest-Driven Generation:** A custom script (`scripts/generate-seo-manifest.js`) builds a massive JSON map of every possible route.
+*   **Programmatic SEO:** Thousands of unique, indexable pages for every micro-topic (e.g., "Rotational Motion").
 
 ---
 
@@ -87,7 +95,15 @@ Uses the Admin SDK to bulk-generate questions for specific exams/subjects using 
 ```bash
 firebase deploy
 ```
-Uploads the `dist` folder to Firebase Hosting. The `firebase.json` is configured to serve static HTML files first, falling back to the SPA `index.html` only for unknown routes.
+Uploads the `dist` folder to Firebase Hosting. The `firebase.json` is configured to serve static HTML files first.
+
+### 5. Run Jules Autonomous Pipeline
+```bash
+npm run jules:audit    # Full system sanity check
+npm run jules:blog     # Orchestrate blog generation
+npm run jules:healing  # Execute self-healing protocols
+```
+Processes the automated content queue, validates output quality, and pushes updates to production.
 
 ---
 
@@ -97,21 +113,25 @@ Uploads the `dist` folder to Firebase Hosting. The `firebase.json` is configured
 ├── public/
 │   ├── seo-manifest.json     # The "Brain" of our SEO strategy
 │   └── sitemap.xml           # Generated map for Googlebot
+├── .agent/
+│   └── skills/               # Specialized AI Capability Sets
 ├── scripts/
-│   ├── prerender-all.js      # The SSG Engine
-│   ├── generate-seo-manifest.js # Taxonomy Builder
-│   └── populate-questions.ts # AI Question Generator
+│   ├── social/               # Auto-Social (Shorts, Threads, Reels)
+│   ├── blog-generator.ts     # Jules Core Orchestrator
+│   ├── meta-optimizer.ts     # SEO Fine-Tuning
+│   └── patch-generator.ts    # Self-Healing Script
 ├── src/
 │   ├── components/
-│   │   ├── content/          # Core layout components
-│   │   └── skeletons/        # Loading states
+│   │   ├── Chat/             # Exa AI Interface
+│   │   └── seo/              # Auto-Schema & JSON-LD
+│   ├── lib/
+│   │   ├── tts/              # Sherpa-ONNX Voice Core
+│   │   └── ai.ts             # LLM Switching Layer
 │   ├── pages/
-│   │   ├── public/           # Static landing pages (SSG Targets)
-│   │   └── dashboard/        # Interactive app pages (SPA Targets)
-│   ├── services/
-│   │   └── questionEngine.ts # The AI Logic core
-│   └── App.tsx               # Main Router
-├── index.html                # Contains the Zero-Latency Shell
+│   │   ├── public/           # SSG Targets
+│   │   └── dashboard/        # SPA Targets
+│   └── App.tsx               # Primary Router
+├── jules_self_healing_system.md # Operational Manual
 └── firebase.json             # Hosting configuration
 ```
 
