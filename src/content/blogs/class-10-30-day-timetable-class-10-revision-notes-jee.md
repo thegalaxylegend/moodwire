@@ -10,7 +10,7 @@ practice_link: "/class-11/mathematics/class-10-30-day-timetable-class-10-revisio
 
 ![Class 10 30 Day Timetable Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog-images/class-10-30-day-timetable-class-10-revision-notes-jee.webp)
 
-*Last Updated: 2026-03-28*
+*Last Updated: [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)-03-28*
 
 
 
@@ -42,7 +42,7 @@ practice_link: "/class-11/mathematics/class-10-30-day-timetable-class-10-revisio
 
 Last year, I was juggling my [class](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee) 11 orientation while helping my younger cousin build a **30-day timetable for [class](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee) 10 board exam** because his coaching center had basically given up on him. 
 
-The truth is, most schools and big coaching brands will give you a generic "study 10 hours" schedule. But that’s useless if you don’t know *what* to study. After building my own AI tool, Exam Compass, I realized that the best students don't work harder—they work smarter. They know how to prioritize the high-yield topics. 
+The truth is, most schools and big coaching brands will give you a generic "study 10 hours" schedule. But that’s useless if you don’t know *what* to study. After building my own AI tool, Exam Compass, I realized that the best students don't work harder—they work smarter. They know how to prioritize the [high](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)-yield topics. 
 
 In this [guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet), I’m sharing the exact 30-day blueprint that helped my cousin move from a predicted 75% to a solid 94% in his boards. 
 

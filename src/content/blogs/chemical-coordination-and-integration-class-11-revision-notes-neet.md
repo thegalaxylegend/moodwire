@@ -85,7 +85,7 @@ $$
 
 ## <a id="jeeneet-data"></a>JEE/NEET Data
 
-Chemical coordination and integration is a critical topic for JEE/NEET aspirants. According to the JEE/NEET syllabus, the following topics are covered under chemical coordination and integration:
+Chemical coordination and integration is a critical topic for JEE/[neet](/blog/structure-of-the-atom-class-11-revision-notes-neet) aspirants. According to the JEE/[neet](/blog/structure-of-the-atom-class-11-revision-notes-neet) syllabus, the following topics are covered under chemical coordination and integration:
 
 * Endocrine glands and hormones
 * Hormone regulation and feedback mechanisms

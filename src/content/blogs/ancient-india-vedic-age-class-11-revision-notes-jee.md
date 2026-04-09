@@ -56,7 +56,7 @@ Cheat Sheet:
 * Famous mathematicians: Baudhayana, Apastambha, Kanada
 * Important texts: Sulva Sultras, Yajurveda
 
-This section provides a quick revision of the major contributions of ancient India during the Vedic period.
+This section provides a quick revision of the major contributions of ancient [india](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse) during the Vedic period.
 
 
 

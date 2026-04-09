@@ -99,7 +99,7 @@ The universe is fundamentally electric. From the bonds that hold DNA together to
 
 ## <a id="2-coulombs-law-the-force-of-interaction"></a>2. Coulomb’s Law: The Force of Interaction
 
-**Statement:** The magnitude of the electrostatic force between two point charges is directly proportional to the product of the charges and inversely proportional to the square of the distance between them.
+**Statement:** The magnitude of the electrostatic force between two point [charges](/blog/moving-charges-magnetism-class-11-revision-notes-neet) is directly proportional to the product of the [charges](/blog/moving-charges-magnetism-class-11-revision-notes-neet) and inversely proportional to the square of the distance between them.
 
 ### <a id="i-scalar-form"></a>I. Scalar Form
 **F = k |q1 q2| / r²**
@@ -243,7 +243,7 @@ An **Electric Dipole** consists of two equal and opposite charges (**+q, -q**) s
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 2: Electrostatic Potential and Capacitance**
-- **Chapter 3: Current Electricity**
+- **Chapter 3: [current](/blog/current-electricity-class-11-revision-notes-neet) Electricity**
 - **[class](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 12 Physics: JEE/NEET High-Weightage Chapter List**
 
 
@@ -251,7 +251,7 @@ An **Electric Dipole** consists of two equal and opposite charges (**+q, -q**) s
 
 ## <a id="conclusion"></a>Conclusion
 
-The field of Electrostatics is the foundation upon which all modern technology—from smartphones to medical imaging—is built. By mastering the mathematical derivations of Gauss's Law and the intricate geometry of dipoles, you move from being a student of physics to a practitioner of electrical science. Master these proofs, understand the symmetry of fields, and you will find that the rest of Class 12 Physics flows with logical elegance. Keep your potential high, your flux constant, and always stay grounded in the truth!
+The field of Electrostatics is the foundation upon which all modern technology—from smartphones to medical imaging—is built. By mastering the mathematical derivations of Gauss's Law and the intricate geometry of dipoles, you move from being a student of physics to a practitioner of electrical science. Master these proofs, understand the symmetry of fields, and you will find that the rest of [class](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 12 Physics flows with logical elegance. Keep your potential high, your flux constant, and always stay grounded in the truth!
 
 ---
 **Reference:** [MIT OpenCourseWare: Electromagnetism](https://ocw.mit.edu)

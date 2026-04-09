@@ -78,7 +78,7 @@ The following core concepts form the foundation of oceanography:
 The following tables summarize key formulae and equations in oceanography:
 
 ### <a id="jeeneet-data"></a>JEE/NEET Data
-For students preparing for JEE and NEET, here are some essential data and facts to keep in mind:
+For students preparing for JEE and [neet](/blog/biogeography-class-11-revision-notes-neet), here are some essential data and facts to keep in mind:
 
 * **Oceanic Zones**: 5 zones - Intertidal, Subtidal, Bathyal, Abyssal, and Hadal
 * **Tidal Range**: Difference between high and low tide marks

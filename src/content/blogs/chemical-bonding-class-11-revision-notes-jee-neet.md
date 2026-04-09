@@ -98,7 +98,7 @@ I kept getting hybridization wrong in my early mocks because I was trying to dra
 
 ### <a id="why-this-chapter-matters-exam-data"></a>Why This Chapter Matters (Exam Data)
 - **High Weightage**: In JEE Mains 2026 Session 1, nearly 12% of Inorganic marks came from this chapter alone.
-- **NEET Favorite**: Molecular Orbital Theory (MOT) bond order questions have appeared in 8 out of the last 10 NEET papers.
+- **[neet](/blog/equilibrium-class-11-revision-notes-jee-neet) Favorite**: Molecular Orbital Theory (MOT) bond order questions have appeared in 8 out of the last 10 [neet](/blog/equilibrium-class-11-revision-notes-jee-neet) papers.
 - **Foundation**: You cannot understand Organic [chemistry](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) mechanisms or Coordination Compounds without mastering the shapes and polarity covered here.
 
 ---

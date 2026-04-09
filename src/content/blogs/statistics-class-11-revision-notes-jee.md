@@ -189,7 +189,7 @@ Statistics in [class](/blog/conic-sections-class-11-revision-notes-jee) 11 moves
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/limits-derivatives-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/binomial-theorem-class-11-revision-notes-jee)
 - 📖 [Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/conic-sections-class-11-revision-notes-jee)

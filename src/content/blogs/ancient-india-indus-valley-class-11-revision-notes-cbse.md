@@ -69,7 +69,7 @@ For students preparing for JEE/NEET, it is essential to understand the historica
 | Topic | Description |
 | --- | --- |
 | **Indus Valley Civilization** | 3300 BCE - 1300 BCE |
-| **Vedic Period** | 1500 BCE - 500 BCE |
+| **[vedic](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) Period** | 1500 BCE - 500 BCE |
 | **Mauryan Empire** | 322 BCE - 185 BCE |
 | **Gupta Empire** | 320 CE - 550 CE |
 
@@ -90,7 +90,7 @@ The following tables summarize some of the key concepts related to the Indus Val
 | --- | --- | --- |
 | Harappa | Punjab, Pakistan | Broad streets, public baths, advanced drainage systems |
 | Mohenjo-Daro | Sindh, Pakistan | Great Bath, kiln-fired bricks, flat roofs |
-| Lothal | Gujarat, India | Dockyard, warehouses, irrigation system |
+| Lothal | Gujarat, [india](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse) | Dockyard, warehouses, irrigation system |
 
 ## <a id="trap-exceptions"></a>Trap Exceptions
 

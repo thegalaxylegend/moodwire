@@ -187,7 +187,7 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
           - $Saccharomyces$ for pigment production
 
-        - **Key Reactions:** Be familiar with the following reactions and their applications:
+        - **Key Reactions:** Be familiar with the following reactions and their [applications](/blog/biotechnology-and-its-applications-class-12-notes):
 
           - $CO_2$ fixation in microbes for biofuel production
 

@@ -120,7 +120,7 @@ These elements are [involved in various physiological processes](https://www.sci
 
 ## <a id="micronutrients"></a>Micronutrients
 
-Micronutrients are required by plants in small quantities. The micronutrients are:
+Micronutrients are required by [plants](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet) in small quantities. The micronutrients are:
 1. Iron (Fe)
 2. Manganese (Mn)
 3. Copper (Cu)
@@ -139,7 +139,7 @@ These elements are [involved in various physiological processes](https://www.sci
 Deficiency of essential elements can lead to various disorders in plants. Some common mineral deficiency disorders are:
 1. Nitrogen deficiency: causes yellowing of leaves
 2. Phosphorus deficiency: causes stunted [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet) and purple coloration of leaves
-3. Potassium deficiency: causes scorching of leaves and reduced growth
+3. Potassium deficiency: causes scorching of leaves and reduced [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet)
 4. Calcium deficiency: causes curling of leaves and reduced growth
 5. Magnesium deficiency: causes yellowing of leaves and reduced growth
 
@@ -152,7 +152,7 @@ These disorders can be [diagnosed and managed](https://www.ncbi.nlm.nih.gov/pmc/
 
 I remember when I was preparing for my [class](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) 11 exams, I struggled to understand the concept of mineral nutrition. I used to think that plants only require water, sunlight, and air to grow. However, I soon realized that plants require a range of essential elements to maintain their health and prevent diseases. One of the mistakes I made was not understanding the difference between macronutrients and micronutrients. I used to think that all essential elements are required in the same quantity, which is not true. Macronutrients are required in large quantities, while micronutrients are required in small quantities. Once I understood this concept, I was able to grasp the topic of mineral nutrition better.
 
-<div class="callout-box">
+<div [class](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet)="callout-box">
 Ayush's Tip: Make sure to understand the difference between macronutrients and micronutrients. Macronutrients are required in large quantities, while micronutrients are required in small quantities.
 </div>
 

@@ -54,7 +54,7 @@ Locomotion and movement are vital aspects of an organism's survival and interact
 There are several types of locomotion and movement, each with its unique characteristics and advantages. These include:
 
 * **Walking and Running**: These are the most common forms of locomotion in humans and many animals. Walking involves the alternating movement of legs, while running involves a more rapid and energetic movement.
-* **Jumping**: Jumping is a form of locomotion that involves the use of powerful leg muscles to propel the body into the air. Examples of jumping animals include frogs, grasshoppers, and kangaroos.
+* **Jumping**: Jumping is a form of locomotion that involves the use of powerful leg muscles to propel the [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet) into the air. Examples of jumping animals include frogs, grasshoppers, and kangaroos.
 * **Flying**: Flying is a unique form of locomotion that involves the use of wings to generate lift and propel the body through the air. Examples of flying animals include birds, insects, and bats.
 * **Swimming**: Swimming is a form of locomotion that involves the use of flippers, fins, or other appendages to propel the body through water. Examples of swimming animals include fish, dolphins, and whales.
 
@@ -78,7 +78,7 @@ $$F = maW = FdP = \frac{W}{t}$$
 
 ## <a id="jeeneet-data"></a>JEE/NEET Data
 
-Locomotion and movement are essential topics in the JEE and NEET exams. According to the JEE syllabus, the topic of locomotion and movement is covered under the section of biology, with a weightage of 10-15% in the overall exam. In the NEET exam, the topic of locomotion and movement is also covered under the section of biology, with a weightage of 15-20% in the overall exam.
+Locomotion and movement are essential topics in the JEE and [neet](/blog/animal-kingdom-class-11-revision-notes-neet) exams. According to the JEE syllabus, the topic of locomotion and movement is covered under the section of biology, with a weightage of 10-15% in the overall exam. In the [neet](/blog/animal-kingdom-class-11-revision-notes-neet) exam, the topic of locomotion and movement is also covered under the section of biology, with a weightage of 15-20% in the overall exam.
 
 Some important JEE/NEET questions related to locomotion and movement include:
 

@@ -10,7 +10,7 @@ practice_link: "/class-11/mathematics/upsc-optional-selection-guide-class-11-rev
 
 ![Upsc Optional Selection Guide Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog-images/upsc-optional-selection-guide-class-11-revision-notes-jee.webp)
 
-*Last Updated: 2026-03-28*
+*Last Updated: [2026](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)-03-28*
 
 
 
@@ -51,7 +51,7 @@ In this [guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)
 > **Key Takeaways**
 > - **GS Overlap is King**: Subjects like PSIR and Sociology save you 30% time in GS.
 > - **Success Rate Trap**: Why a 10% success rate is better than a 50% success rate in some subjects.
-> - **The Syllabus Squeeze**: Balancing depth vs. breadth of the optional content.
+> - **The Syllabus Squeeze**: Balancing depth vs. breadth of the [optional](/blog/upsc-optional-selection-guide) content.
 > - **AI [strategy](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)**: Using data analytics to track your accuracy in **online mock tests**.
 > - **Internal Link**: Master your GS prep with our [UPSC General Studies Hub](https://examcompass.pages.dev/upsc/gs).
 

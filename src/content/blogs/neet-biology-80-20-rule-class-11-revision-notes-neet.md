@@ -55,7 +55,7 @@ Here is the exact breakdown of the "20% High-Yield" topics that guarantee a 340+
 Based on frequency analysis from the 2018–2026 NTA papers, the following chapters must form the core of your [revision](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet) strategy.
 
 ### <a id="1-genetics-and-evolution-1518-questions"></a>1. Genetics and Evolution (15-18 Questions)
-This unit is the undisputed heavyweight champion of NEET. 
+This unit is the undisputed heavyweight champion of [neet](/blog/animal-kingdom-class-11-revision-notes-neet). 
 * **Principles of Inheritance and Variation:** Focus on Mendelian disorders (pedigree analysis), chromosomal disorders, and co-dominance.
 * **Molecular Basis of Inheritance:** Extremely high ROI. Master the DNA replication fork, transcription unit (promoter, structural gene, terminator), and the Lac Operon model.
 

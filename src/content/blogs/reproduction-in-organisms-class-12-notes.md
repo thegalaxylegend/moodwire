@@ -42,7 +42,7 @@ practice_link: "/class-11/biology/reproduction-in-organisms-class-12-notes"
  - 1 short question on pollination methods (e.g., $\\frac{1}{3}$ of [plants](/blog/sexual-reproduction-in-flowering-plants-class-12-notes) are wind-pollinated) — frequently
 * **Asexual and [sexual](/blog/sexual-reproduction-in-flowering-plants-class-12-notes) Reproduction**: 
  - 1 short question on types of asexual [reproduction](/blog/sexual-reproduction-in-flowering-plants-class-12-notes) (e.g., binary fission, budding) — always
- - 1 short question on significance of sexual reproduction (e.g., increased genetic diversity) — frequently
+ - 1 short question on significance of [sexual](/blog/sexual-reproduction-in-flowering-plants-class-12-notes) reproduction (e.g., increased genetic diversity) — frequently
 * **Numerical Problems**: 
  - 1 numerical on human population growth rate — frequently
  - 1 numerical on reproductive potential of an organism (e.g., $2^n$ offspring) — frequently

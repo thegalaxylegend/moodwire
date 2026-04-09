@@ -182,7 +182,7 @@ In Physics, elasticity is measured by the Modulus (resistance to deformation), n
 
 - **Chapter 9: Mechanical [properties](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet) of Fluids**
 - **Chapter 5: Work, Energy, and Power (Energy Basics)**
-- **Material Science MCQ Challenge for JEE/NEET**
+- **Material Science MCQ Challenge for JEE/[neet](/blog/oscillations-class-11-revision-notes-jee-neet)**
 
 
 

@@ -51,7 +51,7 @@ practice_link: "/class-11/physics/laws-of-motion-common-mistakes-class-11-revisi
 
 "Laws of [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)" (Newtonian Mechanics) is the definitive foundation for the entirety of classical physics. If your Free Body Diagrams (FBDs) are flawed here, you will inevitably struggle in Work-Power-Energy, Rotational Dynamics, and even Electrostatics (when charged particles are subjected to forces).
 
-Despite knowing the theory (F=ma), thousands of JEE and NEET aspirants bleed negative marks in this chapter due to recurring, predictable errors. 
+Despite knowing the theory (F=ma), thousands of JEE and [neet](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) aspirants bleed negative marks in this chapter due to recurring, predictable errors. 
 
 Here are the 10 most common "silly mistakes" you are probably making, and exactly how to fix them.
 

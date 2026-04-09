@@ -72,7 +72,7 @@ $$\text{GFR} = \frac{\text{urine output} \times \text{urea concentration in urin
 $$\text{GFR} = \frac{(140 - \text{age}) \times \text{weight} \times (0.85 \text{ if female})}{72 \times \text{serum creatinine}}$$
 
 ### <a id="jeeneet-data"></a>JEE/NEET Data
-The excretory system is an important topic in the JEE and NEET exams. The following data is relevant to the excretory system:
+The excretory system is an important topic in the JEE and [neet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) exams. The following data is relevant to the excretory system:
 
 * **Kidney function**: The kidneys filter approximately 180 liters of blood per day, and produce approximately 1.5 liters of urine.
 * **Liver function**: The liver detoxifies approximately 1 liter of blood per minute.

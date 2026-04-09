@@ -91,7 +91,7 @@ Thermodynamics doesn't care about speed — that's Kinetics. Thermodynamics answ
 
 ### <a id="why-this-chapter-matters-exam-data"></a>Why This Chapter Matters (Exam Data)
 - **JEE Mains 2026**: 2 questions — one on $\Delta H$ vs $\Delta U$ using $\Delta n_g$, one on Gibbs and spontaneity.
-- **NEET 2026**: 1 question on Hess's Law and 1 on the Third Law.
+- **[neet](/blog/equilibrium-class-11-revision-notes-jee-neet) 2026**: 1 question on Hess's Law and 1 on the Third Law.
 - **CBSE Boards**: This unit carries 7 marks and is a classic long-answer question topic.
 
 ---

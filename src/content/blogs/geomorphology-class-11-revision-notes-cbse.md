@@ -109,7 +109,7 @@ Geomorphology is the study of the Earth's physical features and landforms. It in
 ## <a id="jeeneet-data"></a>JEE/NEET Data
 
 * **JEE Main**: Geomorphology is a key topic in the Geography section of the JEE Main exam.
-* **NEET**: Geomorphology is not a direct topic in the NEET exam, but understanding of geographic concepts is essential for the Geography section.
+* **[neet](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)**: Geomorphology is not a direct topic in the [neet](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) exam, but understanding of geographic concepts is essential for the Geography section.
 
 
 
@@ -162,7 +162,7 @@ I will make sure to review the **Trap Exceptions** and focus on the **Key Terms*
 By following the **JEE/NEET data** and **Ayush's Personal Note**, I will be able to stay on track and achieve my goals. 
 The **Geomorphology and Its Importance** section has helped me understand the significance of the subject, and I will make sure to apply this knowledge in my future studies. 
 The **Key Terms** section has provided me with a quick reference guide to the essential vocabulary in Geomorphology. 
-Overall, this quick revision and recap has been extremely helpful in preparing me for my exam, and I am confident that I will do well. 
+Overall, this quick [revision](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) and recap has been extremely helpful in preparing me for my exam, and I am confident that I will do well. 
 Using LaTeX has made the equations and tables look neat and easy to read. 
 The **Quick Recall Box** has provided me with a quick summary of the key concepts, and I will make sure to review it regularly. 
 The **Core Concepts** section has given me a solid understanding of the subject, and I will make sure to build on this foundation. 

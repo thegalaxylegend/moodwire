@@ -91,7 +91,7 @@ I used to dread Inorganic [chemistry](/blog/thermodynamics-chemistry-class-11-re
 
 ### <a id="why-this-chapter-matters-exam-data"></a>Why This Chapter Matters (Exam Data)
 - **JEE Mains 2026**: 2 direct questions on IE anomalies and oxide nature.
-- **NEET 2026**: 1 question on the diagonal relationship of Lithium and Magnesium.
+- **[neet](/blog/equilibrium-class-11-revision-notes-jee-neet) 2026**: 1 question on the diagonal relationship of Lithium and Magnesium.
 - **CBSE Boards**: Expected 5-7 marks under "Classification of Elements" unit.
 
 ---

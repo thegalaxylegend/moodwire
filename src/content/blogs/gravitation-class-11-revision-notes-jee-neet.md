@@ -58,7 +58,7 @@ practice_link: "/class-11/physics/gravitation-class-11-revision-notes-jee-neet"
 
 ## <a id="introduction"></a>Introduction
 
-Gravitation is the universal force of attraction that binds the universe together. From the simple falling of an apple observed by Newton to the complex orbital dance of the planets described by Kepler, gravitation is the invisible thread of cosmic order. In this "Comprehensive" guide, we provide a mathematically rigorous expansion of Chapter 7, featuring formal derivations for the variation of 'g', gravitational potential energy, and the physics of satellites—providing the depth required for high-stakes exams like JEE and NEET.
+Gravitation is the universal force of attraction that binds the universe together. From the simple falling of an apple observed by Newton to the complex orbital dance of the planets described by Kepler, gravitation is the invisible thread of cosmic order. In this "Comprehensive" guide, we provide a mathematically rigorous expansion of Chapter 7, featuring formal derivations for the variation of 'g', gravitational potential energy, and the physics of satellites—providing the depth required for high-stakes exams like JEE and [neet](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet).
 
 ---
 

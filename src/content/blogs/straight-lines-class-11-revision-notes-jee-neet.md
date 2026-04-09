@@ -68,7 +68,7 @@ Straight lines are the fundamental paths in Euclidean [geometry](/blog/three-dim
 
 ## <a id="1-slope-of-a-line"></a>1. Slope of a Line
 
-The slope (also called gradient) of a non-vertical line passing through (x₁, y₁) and (x₂, y₂) is given by:
+The slope (also called gradient) of a non-vertical [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) passing through (x₁, y₁) and (x₂, y₂) is given by:
 **m = (y₂ - y₁) / (x₂ - x₁)**
 *   **Angle of Inclination (θ):** If θ is the angle with the positive x-axis, then **m = tan θ**.
 *   **Conditions:**
@@ -212,7 +212,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/complex-numbers-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
 - 📖 [Three Dimensional Geometry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/three-dimensional-geometry-class-11-revision-notes-jee-neet)

@@ -136,7 +136,7 @@ One shortcut formula that can be used to remember the characteristics of living 
 
 ## <a id="trap-questions-exceptions"></a>Trap Questions / Exceptions
 
-Some common trap questions or exceptions in the living world include:
+Some common trap questions or exceptions in the living [world](/blog/physical-world-class-11-revision-notes-jee-neet) include:
 * **Viruses**: Viruses are not considered living organisms because they do not carry out metabolic processes or respond to stimuli.
 * **Prions**: Prions are infectious proteins that can cause disease in animals, but they are not considered living organisms.
 * **Viroids**: Viroids are small, single-stranded RNA molecules that can infect [plants](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet), but they are not considered living organisms.
@@ -193,7 +193,7 @@ Solution: A) Cosmology
 ## <a id="related-notes-links"></a>Related Notes Links
 
 * Cell Biology [class](/blog/biological-classification-class-11-revision-notes-neet) 11 Notes
-* Genetics Class 11 Notes
+* Genetics [class](/blog/biological-classification-class-11-revision-notes-neet) 11 Notes
 
 
 

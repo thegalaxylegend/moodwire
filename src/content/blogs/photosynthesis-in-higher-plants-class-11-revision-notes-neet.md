@@ -161,7 +161,7 @@ Answer: A) $6CO_2 + 6H_2O \rightarrow C_6H_{12}O_6 + 6O_2$
 
 ## <a id="related-notes-links"></a>Related Notes Links
 
-* Plant Physiology Class 11 Notes
+* Plant Physiology [class](/blog/environmental-chemistry-class-11-revision-notes-neet) 11 Notes
 * Cell Biology Class 11 Notes
 
 

@@ -73,7 +73,7 @@ I've found that understanding the basics of reflection, refraction, and total in
 
 ## <a id="jeeneet-data"></a>JEE/NEET Data
 
-- **Reflection and Refraction**: 1-2 questions in JEE Main, 1 question in JEE Advanced, and 1-2 questions in NEET.
+- **Reflection and Refraction**: 1-2 questions in JEE Main, 1 question in JEE Advanced, and 1-2 questions in [neet](/blog/art-culture-architecture-class-11-revision-notes-jee-neet).
 - **Mirrors and Lenses**: 2-3 questions in JEE Main, 1-2 questions in JEE Advanced, and 2-3 questions in NEET.
 - **Optical Instruments**: 1-2 questions in JEE Main, 1 question in JEE Advanced, and 1-2 questions in NEET.
 
@@ -242,7 +242,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) with these related guides:
 
 - 📖 [Art Culture Architecture Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/art-culture-architecture-class-11-revision-notes-jee-neet)
 - 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)

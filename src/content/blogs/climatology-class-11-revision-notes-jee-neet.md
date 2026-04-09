@@ -93,11 +93,11 @@ The following are the main types of climates:
 
 1. **Tropical [climate](/blog/indian-geography-climate-class-11-revision-notes-cbse)**: Characterized by high temperatures and high humidity.
 2. **Desert [climate](/blog/indian-geography-climate-class-11-revision-notes-cbse)**: Characterized by low temperatures and low humidity.
-3. **Temperate Climate**: Characterized by moderate temperatures and moderate humidity.
+3. **Temperate [climate](/blog/indian-geography-climate-class-11-revision-notes-cbse)**: Characterized by moderate temperatures and moderate humidity.
 4. **Polar Climate**: Characterized by low temperatures and low humidity.
 
 ### <a id="jeeneet-data"></a>JEE/NEET Data
-For JEE/NEET aspirants, it's essential to remember the following data:
+For JEE/[neet](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) aspirants, it's essential to remember the following data:
 
 * The **troposphere** is the lowest layer of the atmosphere, extending up to 12 km.
 * The **stratosphere** is the second layer of the atmosphere, extending from 12 km to 50 km.

@@ -94,7 +94,7 @@ Plant hormones are chemical messengers that regulate plant growth and developmen
 The formula for auxin-induced cell elongation is: $\frac{dL}{dt} = k \cdot \frac{dA}{dt}$, where $L$ is the cell length, $A$ is the auxin concentration, and $k$ is a constant.
 
 ### <a id="photoperiodism"></a>Photoperiodism
-Photoperiodism is the response of plants to the length of daylight. Plants can be classified into three categories based on their photoperiodic response:
+Photoperiodism is the response of [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) to the length of daylight. [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) can be classified into three categories based on their photoperiodic response:
 * Short-day plants: flower in response to short days
 * Long-day plants: flower in response to long days
 * Day-neutral plants: flower regardless of day length
@@ -178,7 +178,7 @@ Answer: A) $\frac{dL}{dt} = k \cdot \frac{dA}{dt}$
 
 ## <a id="related-notes-links"></a>Related Notes Links
 
-* Plant Physiology Notes
+* Plant Physiology [notes](/blog/biological-classification-class-11-revision-notes-neet)
 * Cell Biology Notes
 
 

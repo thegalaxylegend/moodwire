@@ -173,7 +173,7 @@ Answer: D) All of the above
 ## <a id="related-notes-links"></a>Related Notes Links
 
 * Chapter [revision](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) Notes: Atomic Structure
-* Chapter Revision Notes: Chemical Bonding
+* Chapter [revision](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) Notes: Chemical Bonding
 
 
 

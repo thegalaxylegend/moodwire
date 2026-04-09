@@ -52,7 +52,7 @@ To give you a better idea, let's consider a simple example. Suppose you're build
 
 $$
 \begin{aligned}
-&\text{Linear Search Time Complexity: } O(n) \\
+&\text{[linear](/blog/data-structures-linear-class-11-revision-notes-gate-boards) Search Time Complexity: } O(n) \\
 &\text{Binary Search Tree Time Complexity: } O(log n)
 \end{aligned}
 $$
@@ -61,7 +61,7 @@ In the context of the Class 11 exam, it's essential to have a solid grasp of the
 
 Throughout my prep, I realized that practicing problems and past year questions is key to excelling in Non-Linear Data Structures. It's not just about memorizing formulas and concepts, but about understanding how to apply them to solve real-world problems. For instance, you can practice solving problems on platforms like LeetCode or HackerRank, which provide a wide range of questions on Non-Linear Data Structures.
 
-In terms of specific topics, the CBSE Class 11 Computer Science syllabus covers the following under Non-Linear Data Structures:
+In terms of specific topics, the CBSE [class](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) 11 Computer Science syllabus covers the following under Non-Linear Data Structures:
 
 1. **Trees**: Basic concepts, tree traversals (inorder, preorder, postorder), binary search trees, and AVL trees.
 2. **Graphs**: Basic concepts, graph representations (adjacency matrix and adjacency list), and graph traversal [algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards) (DFS and BFS).

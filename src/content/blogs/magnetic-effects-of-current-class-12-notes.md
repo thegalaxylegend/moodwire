@@ -45,7 +45,7 @@ As we dive into the realm of [class](/blog/electromagnetic-induction-class-12-re
 
 From a personal standpoint, I still remember the "aha" moment when I first grasped the concept of **Ampere's Law** and its application in determining the magnetic field around a [current](/blog/alternating-current-class-12-notes)-carrying conductor. It was as if the entire puzzle had fallen into place, and I could visualize the intricate relationships between electric currents, magnetic fields, and the resulting forces. This experience not only deepened my understanding of the subject but also sparked a curiosity that drove me to explore the vast expanse of Physics.
 
-To truly appreciate the **Magnetic Effects of Current**, it's essential to have a solid foundation in the following prerequisites:
+To truly appreciate the **Magnetic Effects of [current](/blog/alternating-current-class-12-notes)**, it's essential to have a solid foundation in the following prerequisites:
 * **Electric Current**: A thorough understanding of electric current, including the concepts of current density, drift velocity, and the behavior of free electrons in a conductor.
 * **Magnetic Fields**: Familiarity with the basics of magnetic fields, including the properties of magnetic field lines, the right-hand rule, and the behavior of magnetic fields around permanent magnets and current-carrying conductors.
 * **[electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) Induction**: A basic understanding of [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) induction, including the concepts of induced emf, Lenz's Law, and the behavior of inductors in AC circuits.
@@ -54,7 +54,7 @@ With these prerequisites in place, we can now embark on an in-depth exploration 
 * **Magnetic Field Around a Current-Carrying Conductor**: This includes the study of the magnetic field around a straight wire, a circular coil, and a solenoid. We'll the mathematical derivations of the magnetic field strength and direction using **Ampere's Law** and the **Biot-Savart Law**.
 * **Force on a Current-Carrying Conductor**: Here, we'll examine the forces exerted on a current-carrying conductor when placed in a magnetic field. This includes the **Lorentz Force Equation** and the **Force on a Moving Charge**.
 * **Torque on a Current Loop**: We'll investigate the torque experienced by a current loop when placed in a magnetic field, including the **Torque on a Current Loop Equation** and its applications.
-* **Magnetic Moment and Magnetic Induction**: This subtopic covers the concepts of magnetic moment, magnetic induction, and the behavior of magnetic materials in the presence of magnetic fields.
+* **Magnetic Moment and Magnetic [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)**: This subtopic covers the concepts of magnetic moment, magnetic [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet), and the behavior of magnetic materials in the presence of magnetic fields.
 
 To better understand these concepts, let's consider a few key terms and formulas:
 * **Magnetic Field Strength (B)**: The magnetic field strength is a measure of the magnetic field's magnitude and direction. It's typically measured in Teslas (T) and can be calculated using the **Biot-Savart Law**: $B = \frac{\mu_0 I}{2 \pi r}$
@@ -80,7 +80,7 @@ By mastering these concepts and formulas, you'll be well-equipped to tackle the 
 
 By being aware of these common pitfalls and focusing on the key concepts, you'll be able to navigate the complexities of **Magnetic Effects of Current** with confidence. As we delve deeper into this topic, remember to stay curious, ask questions, and seek clarification when needed. With persistence and practice, you'll be well on your way to achieving excellence in Physics. 
 
-**Exam Day Summary:** On the exam day, make sure to allocate sufficient time to questions related to **Magnetic Effects of Current**. Focus on applying the concepts and formulas to solve problems, and don't hesitate to use diagrams and illustrations to support your answers. With a solid understanding of the subject matter and a strategic approach to problem-solving, you'll be able to tackle the challenges of **Magnetic Effects of Current** with confidence and precision.
+**Exam Day Summary:** On the exam day, make sure to allocate sufficient time to questions related to **Magnetic Effects of Current**. Focus on applying the concepts and formulas to solve problems, and don't hesitate to use diagrams and illustrations to support your answers. With a solid understanding of the subject [matter](/blog/magnetism-and-matter-class-12-notes) and a strategic approach to problem-solving, you'll be able to tackle the challenges of **Magnetic Effects of Current** with confidence and precision.
 
 
 ## <a id="what-is-the-magnetic-field-and-how-is-it-generated"></a>What is the Magnetic Field and How is it Generated?

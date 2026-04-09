@@ -64,7 +64,7 @@ practice_link: "/class-11/physics/motion-in-a-plane-class-11-revision-notes-jee-
 
 ## <a id="introduction"></a>Introduction
 
-While 1D motion is the "alphabet" of physics, 2D motion—**Motion in a Plane**—is where reality truly unfolds. From the curved path of a football kicked into the air to the constant orbiting of a satellite, the laws of 2D kinematics govern how objects navigate our three-dimensional world. This chapter introduces the power of **Vectors** to split complex motion into independent horizontal and vertical components. In this "Comprehensive" guide, we provide exhaustive derivations for Projectile Motion, proving why every trajectory is a parabola, and deriving the fundamental laws of Circular Motion—all essential for top-tier performance in JEE, NEET, and Board exams.
+While 1D motion is the "alphabet" of physics, 2D motion—**Motion in a Plane**—is where reality truly unfolds. From the curved path of a football kicked into the air to the constant orbiting of a satellite, the laws of 2D kinematics govern how objects navigate our three-dimensional world. This chapter introduces the power of **Vectors** to split complex motion into independent horizontal and vertical components. In this "Comprehensive" guide, we provide exhaustive derivations for Projectile Motion, proving why every trajectory is a parabola, and deriving the fundamental laws of Circular Motion—all essential for top-tier performance in JEE, [neet](/blog/gravitation-class-11-revision-notes-jee-neet), and Board exams.
 
 ---
 

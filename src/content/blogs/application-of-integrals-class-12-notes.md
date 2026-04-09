@@ -214,7 +214,7 @@ practice_link: "/class-11/mathematics/application-of-integrals-class-12-notes"
 
 #### Using the Correct Formula
 - Using the correct formula is an essential step in application of integrals.
-- It is used to find the area between two curves, the volume of a solid, and the surface area of a solid.
+- It is used to find the area between two curves, the volume of a [solid](/blog/solid-state-class-12-notes), and the surface area of a [solid](/blog/solid-state-class-12-notes).
 - For example, the formula for the area between two curves is $A = \int_{a}^{b} [f(x) - g(x)] \,dx$.
 - Key points to remember:
   - Using the correct formula is an essential step in application of integrals.

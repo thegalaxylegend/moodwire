@@ -66,7 +66,7 @@ During my preparation for competitive exams like JEE and NEET, I found that unde
 
 ## <a id="jeeneet-data-and-historical-context"></a>JEE/NEET Data and Historical Context
 
-While JEE and NEET primarily focus on science and mathematics, having a basic understanding of historical periods can provide a well-rounded perspective, especially when considering the evolution of scientific thought and cultural influences on knowledge systems. For instance, the **Mahajanapadas period** saw significant advancements in **metallurgy**, **agriculture**, and **architecture**, which are relevant to understanding the technological and scientific developments of ancient India.
+While JEE and [neet](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) primarily focus on science and mathematics, having a basic understanding of historical periods can provide a well-rounded perspective, especially when considering the evolution of scientific thought and cultural influences on knowledge systems. For instance, the **Mahajanapadas period** saw significant advancements in **metallurgy**, **agriculture**, and **architecture**, which are relevant to understanding the technological and scientific developments of ancient India.
 
 
 

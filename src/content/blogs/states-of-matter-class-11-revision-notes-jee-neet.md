@@ -91,7 +91,7 @@ This chapter is where Physics and Chemistry merge. If you're comfortable with [t
 
 ### <a id="why-this-chapter-matters-exam-data"></a>Why This Chapter Matters (Exam Data)
 - **JEE Mains 2026 Session 1**: 1 question on Compressibility Factor ($Z$) and 1 on Graham's Law.
-- **NEET 2026**: 1 question on van der Waals constants and liquefaction ease.
+- **[neet](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet) 2026**: 1 question on van der Waals constants and liquefaction ease.
 - **CBSE Boards**: This unit carries 4-5 marks and is often paired with [thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) in the paper.
 
 ---

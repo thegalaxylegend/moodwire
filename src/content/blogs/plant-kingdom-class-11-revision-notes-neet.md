@@ -82,8 +82,8 @@ I still remember when I was preparing for JEE, I used to get confused between th
 
 ## <a id="core-concepts"></a>Core Concepts
 
-Plant Kingdom is divided into several divisions based on characteristics such as vascular tissue, seeds, and flowers. The main divisions are:
-* Bryophyta: Non-vascular plants such as mosses and liverworts.
+[plant](/blog/plant-growth-and-development-class-11-revision-notes-neet) Kingdom is divided into several divisions based on characteristics such as vascular tissue, seeds, and flowers. The main divisions are:
+* Bryophyta: Non-vascular [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) such as mosses and liverworts.
 * Tracheophyta: Vascular plants such as ferns, conifers, and flowering plants.
 * Pteridophyta: Vascular plants that produce spores, such as ferns.
 * Gymnosperms: Vascular plants that produce seeds, such as conifers.

@@ -61,7 +61,7 @@ Biogeography is the study of the geographical distribution of living organisms. 
 As I, Ayush, recall my studies on biogeography, I note that understanding the principles of biogeography is crucial for conservation efforts and predicting how species may respond to environmental changes.
 
 ### <a id="jeeneet-data"></a>JEE/NEET Data
-For JEE and NEET aspirants, biogeography is an essential topic in the geography and biology sections. Key data points to remember:
+For JEE and [neet](/blog/moving-charges-magnetism-class-11-revision-notes-neet) aspirants, biogeography is an essential topic in the geography and biology sections. Key data points to remember:
 * **Types of biogeographical realms**: 8 realms, including Nearctic, Palearctic, Afrotropic, etc.
 * **Importance of biogeography**: understanding species distribution, conservation, and environmental management
 * **Key biogeographers**: Alfred Russel Wallace, Charles Darwin, and Philip Darlington

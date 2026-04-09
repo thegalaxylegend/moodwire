@@ -54,7 +54,7 @@ practice_link: "/class-11/mathematics/inverse-trigonometric-functions-class-12-n
  + $\\frac{d}{dx}(\\sin^{-1}x) = \\frac{1}{\\sqrt{1-x^2}}$
  + $\\frac{d}{dx}(\\cos^{-1}x) = \\frac{-1}{\\sqrt{1-x^2}}$
  + $\\frac{d}{dx}(\\tan^{-1}x) = \\frac{1}{1+x^2}$
-* 1 question on simplification of expressions involving inverse trigonometric functions, such as:
+* 1 question on simplification of expressions involving inverse trigonometric [functions](/blog/relations-and-functions-class-11-notes), such as:
  + $\\sin^{-1}(\\sin (\\frac{\\pi}{6}))$
  + $\\cos^{-1}(\\cos (\\frac{\\pi}{4}))$
 * 1 numerical on inverse trigonometric functions as limits — always, focusing on evaluating limits of the form $\\lim_{x \\to 0} \\frac{\\sin^{-1}x}{x}$.

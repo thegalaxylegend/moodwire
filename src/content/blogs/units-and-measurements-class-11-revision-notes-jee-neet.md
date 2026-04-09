@@ -183,7 +183,7 @@ This is the standard approach for competitive exams like JEE Main.
 
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
-- **Chapter 2: Motion in a Straight Line (Kinematics)**
+- **Chapter 2: [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) in a Straight Line (Kinematics)**
 - **Chapter 3: Motion in a Plane (Vectors)**
 - **Advanced Error Analysis Calculator**
 
@@ -211,7 +211,7 @@ Units and Measurements are not just "entry-level" topics; they are the filter th
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/limits-derivatives-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
 - 📖 [Limits Derivatives Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/limits-derivatives-class-11-revision-notes-jee-neet)

@@ -83,7 +83,7 @@ This chapter is very important for students of [class](/blog/environmental-chemi
 ## <a id="ayushs-note"></a>Ayush's Note
 
 <div [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)="ayush-note">
-I still remember when I was in Class 11, I found it very difficult to understand the structure of a cell. My teacher told me to focus on the functions of different parts of the cell, and that really helped me. I used to make a table of all the parts of the cell and their functions, which made it easier for me to remember. 
+I still remember when I was in [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) 11, I found it very difficult to understand the structure of a cell. My teacher told me to focus on the functions of different parts of the cell, and that really helped me. I used to make a table of all the parts of the cell and their functions, which made it easier for me to remember. 
 </div>
 
 

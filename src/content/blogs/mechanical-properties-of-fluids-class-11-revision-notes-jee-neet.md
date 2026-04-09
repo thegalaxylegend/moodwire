@@ -166,7 +166,7 @@ Surface tension is the result of cohesive forces between molecules at the surfac
 
 **Q2: What happens to the viscosity of (a) Liquids and (b) Gases as temperature increases?**
 **Answer:**
-- **Liquids:** Viscosity **decreases**. Molecular bonds weaken as kinetic energy increases, allowing layers to slide more easily.
+- **Liquids:** Viscosity **decreases**. Molecular bonds weaken as [kinetic](/blog/kinetic-theory-class-11-revision-notes-jee-neet) energy increases, allowing layers to slide more easily.
 - **Gases:** Viscosity **increases**. Molecular collisions (which cause gas viscosity) become more frequent at higher temperatures.
 
 **Q3: Why are raindrops spherical?**
@@ -180,7 +180,7 @@ Surface tension is the result of cohesive forces between molecules at the surfac
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 8: Mechanical [properties](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet) of Solids**
-- **Chapter 10: Thermal Properties of Matter**
+- **Chapter 10: [thermal](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet) Properties of Matter**
 - **Mastering Hydrodynamics: Advanced Problem Set**
 
 

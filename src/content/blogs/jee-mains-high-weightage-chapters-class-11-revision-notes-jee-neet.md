@@ -10,7 +10,7 @@ practice_link: "/class-11/physics/jee-mains-high-weightage-chapters-class-11-rev
 
 ![Jee Mains High Weightage Chapters Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet.webp)
 
-*Last Updated: 2026-03-28*
+*Last Updated: [2026](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)-03-28*
 
 
 
@@ -95,7 +95,7 @@ Vector and 3D Geometry is another heavyweight unit. Unlike Calculus, it doesn't 
 
 ## <a id="effort-vs-marks-a-tactical-comparison"></a>Effort vs. Marks: A Tactical Comparison
 
-A tactical approach involves comparing study time to potential marks. For instance, Rotational Motion might take 20 hours for 4 marks (Low ROI), while Mathematical Reasoning takes 2 hours for 4 marks (Extreme ROI). High-ROI chapters should always be your first priority during revision.
+A tactical approach involves comparing study time to potential marks. For instance, Rotational Motion might take 20 hours for 4 marks (Low ROI), while Mathematical Reasoning takes 2 hours for 4 marks (Extreme ROI). High-ROI chapters should always be your first priority during [revision](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet).
 
 Most coaching centers won't tell you to skip chapters because they've sold a "complete" course. However, you only need around 180 marks for a top NIT. That means you can afford to leave 30% of the hardest questions entirely. Use **online mock tests** to validate this [strategy](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet) and focus on "owning" the high-weightage topics.
 

@@ -57,7 +57,7 @@ Neural control and [coordination](/blog/chemical-coordination-and-integration-cl
 ## <a id="core-concepts"></a>Core Concepts
 
 ### <a id="structure-of-a-neuron"></a>Structure of a Neuron
-A neuron consists of three main parts: dendrites, cell body, and axon. Dendrites receive signals from other neurons, the cell body contains the nucleus and the machinery for protein synthesis, and the axon transmits signals away from the cell body. The axon terminal is specialized for the release of neurotransmitters.
+A neuron consists of three main parts: dendrites, cell [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet), and axon. Dendrites receive signals from other neurons, the cell [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet) contains the nucleus and the machinery for protein synthesis, and the axon transmits signals away from the cell [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet). The axon terminal is specialized for the release of neurotransmitters.
 
 ### <a id="types-of-neurons"></a>Types of Neurons
 There are three main types of neurons based on their functions:
@@ -86,8 +86,8 @@ The human nervous system is a complex system that controls and coordinates body 
 
 ### <a id="brain"></a>Brain
 The brain is the control center of the body. It processes sensory information, controls [movement](/blog/locomotion-and-movement-class-11-revision-notes-neet), and manages functions such as heartbeat, breathing, digestion, and temperature regulation. The brain can be divided into different parts, each with distinct functions:
-- **Cerebrum**: The largest part of the brain, responsible for processing sensory information, controlling movement, managing higher-level cognitive functions such as thought, action, and emotion.
-- **Cerebellum**: Located at the back of the brain, it coordinates voluntary movements such as posture, balance, coordination, and speech, resulting in smooth and balanced muscular activity.
+- **Cerebrum**: The largest part of the brain, responsible for processing sensory information, controlling [movement](/blog/locomotion-and-movement-class-11-revision-notes-neet), managing higher-level cognitive functions such as thought, action, and emotion.
+- **Cerebellum**: Located at the back of the brain, it coordinates voluntary movements such as posture, balance, [coordination](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet), and speech, resulting in smooth and balanced muscular activity.
 - **Brainstem**: Connects the cerebrum with the spinal cord, regulating basic functions such as breathing, heartbeat, and blood pressure.
 
 ### <a id="spinal-cord"></a>Spinal Cord

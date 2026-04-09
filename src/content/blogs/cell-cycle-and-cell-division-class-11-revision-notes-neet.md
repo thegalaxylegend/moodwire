@@ -65,7 +65,7 @@ Quick [revision](/blog/hydrocarbons-class-11-revision-notes-neet) is key to achi
 
 ## <a id="introduction-to-cell-cycle-and-cell-division"></a>Introduction to Cell Cycle and Cell Division
 
-Cell cycle and cell division are two closely related processes that occur in living cells. The cell cycle is the series of events that take place in a cell, leading to its division and duplication. It consists of three main stages: interphase, mitosis, and cytokinesis. Interphase is the longest stage of the cell cycle, during which the cell grows, replicates its DNA, and prepares for cell division. Mitosis is the process of cell division that results in two daughter cells with the same number of chromosomes as the parent cell. Cytokinesis is the final stage of cell division, during which the cytoplasm divides and the cell splits into two daughter cells.
+[cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) cycle and [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) division are two closely related processes that occur in living cells. The [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) cycle is the series of events that take place in a [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet), leading to its division and duplication. It consists of three main stages: interphase, mitosis, and cytokinesis. Interphase is the longest stage of the [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) cycle, during which the [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) grows, replicates its DNA, and prepares for [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) division. Mitosis is the process of [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) division that results in two daughter cells with the same number of chromosomes as the parent [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet). Cytokinesis is the final stage of [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) division, during which the cytoplasm divides and the [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) splits into two daughter cells.
 
 
 
@@ -81,7 +81,7 @@ Cell cycle and cell division are essential processes in living organisms, and th
 
 I still remember when I was preparing for my [class](/blog/hydrocarbons-class-11-revision-notes-neet) 11 exams, I used to struggle with understanding the cell cycle and cell division. I would often get confused between the different stages of mitosis and cytokinesis. One mistake I made was not practicing enough diagrams and flowcharts, which made it difficult for me to visualize the process. However, after practicing consistently and using online resources, I was able to grasp the concept and score well in my exams. My advice to students would be to practice regularly and use visual aids to understand complex concepts.
 ```markdown
-<div class="note-box">
+<div [class](/blog/hydrocarbons-class-11-revision-notes-neet)="note-box">
   <p>Ayush's Tip: Practice consistently and use visual aids to understand complex concepts.</p>
 </div>
 ```

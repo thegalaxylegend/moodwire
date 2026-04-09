@@ -57,11 +57,11 @@ As I was studying [physical](/blog/physical-world-class-11-revision-notes-jee-ne
 
 ## <a id="what-is-the-significance-of-climate-in-physical-geography"></a>What is the significance of Climate in Physical Geography?
 
-Climate in shaping the Earth's surface and supporting life. The climate of a region is determined by its latitude, altitude, and proximity to the ocean. The climate of India is diverse, ranging from tropical in the south to temperate in the north. The **Ganga** is the longest river in India and flows through a variety of climate zones.
+[climate](/blog/indian-geography-climate-class-11-revision-notes-cbse) in shaping the Earth's surface and supporting life. The [climate](/blog/indian-geography-climate-class-11-revision-notes-cbse) of a region is determined by its latitude, altitude, and proximity to the ocean. The [climate](/blog/indian-geography-climate-class-11-revision-notes-cbse) of India is diverse, ranging from tropical in the south to temperate in the north. The **Ganga** is the longest river in India and flows through a variety of [climate](/blog/indian-geography-climate-class-11-revision-notes-cbse) zones.
 
 ## <a id="trap-exceptions"></a>Trap Exceptions
 
-When studying Physical Geography, it's essential to be aware of the exceptions to general rules. For example, while the Himalayas are the youngest mountain range in India, the Western Ghats are older. Another exception is the **Tropic of Cancer**, which passes through 8 Indian states, despite being an imaginary line.
+When studying [physical](/blog/physical-world-class-11-revision-notes-jee-neet) Geography, it's essential to be aware of the exceptions to general rules. For example, while the Himalayas are the youngest mountain range in India, the Western Ghats are older. Another exception is the **Tropic of Cancer**, which passes through 8 Indian states, despite being an imaginary line.
 
 ## <a id="what-are-the-core-concepts-in-physical-geography"></a>What are the Core Concepts in Physical Geography?
 
@@ -113,7 +113,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)
 - 📖 [Fundamental Rights Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/fundamental-rights-class-11-revision-notes-cbse)

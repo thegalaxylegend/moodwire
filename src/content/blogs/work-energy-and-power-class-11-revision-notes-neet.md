@@ -160,7 +160,7 @@ At descent height x: v² = 2gx. K = 1/2 m(2gx) = mgx. U = mg(H-x). Total = **mgH
 ## <a id="6-collisions-momentum-meets-energy"></a>6. Collisions: Momentum Meets Energy
 
 ### <a id="i-elastic-collision-1d"></a>I. Elastic Collision (1D)
-- Both Momentum and Kinetic Energy are conserved.
+- Both Momentum and [kinetic](/blog/kinetic-theory-class-11-revision-notes-jee-neet) Energy are conserved.
 - **Coefficient of Restitution (e) = 1**.
 ### <a id="ii-inelastic-collision"></a>II. Inelastic Collision
 - Only Momentum is conserved; some K.E. is lost (as heat/sound).
@@ -190,7 +190,7 @@ At descent height x: v² = 2gx. K = 1/2 m(2gx) = mgx. U = mg(H-x). Total = **mgH
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 4: Laws of [motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet) (Momentum Concepts)**
-- **Chapter 6: System of Particles & Rotational Motion**
+- **Chapter 6: System of Particles & Rotational [motion](/blog/laws-of-motion-class-11-revision-notes-jee-neet)**
 - **Mastering Collision Physics: Numerical Vault**
 
 
@@ -241,7 +241,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
 - 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)

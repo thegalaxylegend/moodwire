@@ -1,7 +1,7 @@
 {
   "overall": {
     "total": 320,
-    "completed": 149,
+    "completed": 150,
     "percentage": 47
   },
   "bySubject": {
@@ -17,8 +17,8 @@
     },
     "Mathematics": {
       "total": 63,
-      "completed": 37,
-      "percentage": 59
+      "completed": 38,
+      "percentage": 60
     },
     "Biology": {
       "total": 38,
@@ -59,8 +59,8 @@
     },
     "Class 10": {
       "total": 66,
-      "completed": 12,
-      "percentage": 18
+      "completed": 13,
+      "percentage": 20
     },
     "Class 9": {
       "total": 53,

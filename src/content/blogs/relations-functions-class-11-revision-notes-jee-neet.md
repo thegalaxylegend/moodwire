@@ -68,7 +68,7 @@ Relations and [functions](/blog/trigonometric-functions-class-11-revision-notes-
 
 ## <a id="1-cartesian-product-of-sets"></a>1. Cartesian Product of Sets
 
-Given two non-empty sets A and B, the Cartesian product **A × B** is the set of all ordered pairs of elements from A and B.
+Given two non-empty [sets](/blog/sets-class-11-revision-notes-jee-neet) A and B, the Cartesian product **A × B** is the set of all ordered pairs of elements from A and B.
 *   **Formula:** A × B = {(a, b) : a ∈ A, b ∈ B}.
 *   If n(A) = p and n(B) = q, then **n(A × B) = pq**.
 *   **Note:** Ordered pairs have a specific sequence; (a, b) ≠ (b, a) unless a = b.
@@ -107,7 +107,7 @@ A relation **f** from a set A to a set B is called a function if every element o
 
 ## <a id="4-some-standard-functions-and-their-graphs"></a>4. Some Standard Functions and Their Graphs
 
-Understanding the "shape" of functions is key to visualizing mathematics.
+Understanding the "shape" of [functions](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) is key to visualizing mathematics.
 1.  **Identity Function:** f(x) = x. (A straight line through the origin at 45°).
 2.  **Constant Function:** f(x) = c. (A horizontal line).
 3.  **Polynomial Function:** f(x) = x² (Parabola), f(x) = x³ (Cubic).

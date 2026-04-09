@@ -44,7 +44,7 @@ As we dive into the realm of physics, it's essential to understand the intricaci
 
 Personally, I found magnetism to be a fascinating topic during my own [class](/blog/alternating-current-class-12-notes) 12 journey. The concept of **magnetic fields** and their ability to exert forces on charged particles and other magnets sparked my curiosity. I remember spending hours experimenting with magnets, observing how they interacted with each other and with different materials. This curiosity drove me to delve deeper into the subject, and I soon realized that magnetism is an integral part of our daily lives, from the Earth's magnetic field that guides navigation systems to the magnetic resonance imaging (MRI) machines used in medical diagnostics.
 
-To truly comprehend magnetism and its effects on matter, it's essential to have a solid foundation in the following prerequisites:
+To truly comprehend magnetism and its [effects](/blog/magnetic-effects-of-current-class-12-notes) on matter, it's essential to have a solid foundation in the following prerequisites:
 
 * **Electricity**: A thorough understanding of electric charges, electric fields, and potential is necessary to appreciate the relationship between electricity and magnetism.
 * **Vector Algebra**: Familiarity with vector operations, such as addition, subtraction, and cross products, is crucial for representing and calculating magnetic fields.
@@ -54,7 +54,7 @@ To truly comprehend magnetism and its effects on matter, it's essential to have 
 Magnetism and matter is a broad topic, encompassing various concepts, including:
 
 * **Magnetic Fields**: Represented by the symbol **B**, magnetic fields are created by the motion of charged particles or changing electric fields. The unit of magnetic field strength is the **tesla (T)**.
-* **Magnetic Induction**: The process by which a changing magnetic field induces an electromotive force (EMF) in a conductor. This phenomenon is described by **Faraday's law of induction**, which states that the induced EMF is proportional to the rate of change of the magnetic flux.
+* **Magnetic [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)**: The process by which a changing magnetic field induces an electromotive force (EMF) in a conductor. This phenomenon is described by **Faraday's law of [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)**, which states that the induced EMF is proportional to the rate of change of the magnetic flux.
 * **Magnetic Materials**: Different materials exhibit unique magnetic properties, such as **ferromagnetism**, **paramagnetism**, and **diamagnetism**. Understanding these properties is essential for applications like magnetic storage and magnetic resonance imaging.
 
 Some essential formulas to keep in mind:
@@ -64,7 +64,7 @@ Some essential formulas to keep in mind:
 * **Faraday's law of [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)**: $\epsilon = -\frac{d\Phi}{dt}$
 
 **Exam Weightage and Question Types**
-In the Class 12 CBSE board exams, magnetism and matter is a significant topic, with a weightage of **10-12%**. Questions can range from straightforward calculations to complex problems that require a deep understanding of the concepts. Some common question types include:
+In the [class](/blog/alternating-current-class-12-notes) 12 CBSE board exams, magnetism and matter is a significant topic, with a weightage of **10-12%**. Questions can range from straightforward calculations to complex problems that require a deep understanding of the concepts. Some common question types include:
 
 * **Numerical problems**: Calculating magnetic field strengths, magnetic flux, and induced EMFs.
 * **Theoretical questions**: Describing the properties of magnetic materials, explaining the principles of magnetic [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet), and discussing the applications of magnetism.

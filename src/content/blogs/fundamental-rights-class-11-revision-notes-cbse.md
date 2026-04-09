@@ -76,7 +76,7 @@ As a student preparing for the [class](/blog/constitutional-framework-class-11-r
 
 ## <a id="what-are-the-core-concepts-related-to-fundamental-rights"></a>What are the Core Concepts related to Fundamental Rights?
 
-The Core Concepts related to Fundamental Rights include **equality**, **liberty**, and **justice**. These concepts are intertwined and form the foundation of the Indian Constitution. Understanding these concepts is crucial for appreciating the significance of Fundamental Rights and their role in shaping the country's democratic framework. As I delve deeper into the subject, I realize that **social justice** and **human dignity** are also essential aspects of Fundamental Rights.
+The Core Concepts related to Fundamental Rights include **equality**, **liberty**, and **justice**. These concepts are intertwined and form the foundation of the Indian Constitution. Understanding these concepts is crucial for appreciating the significance of Fundamental Rights and their role in shaping the country's democratic [framework](/blog/constitutional-framework-class-11-revision-notes-cbse). As I delve deeper into the subject, I realize that **social justice** and **human dignity** are also essential aspects of Fundamental Rights.
 
 
 
@@ -97,7 +97,7 @@ The implications of Fundamental Rights on Indian society are far-reaching and pr
 
 ## <a id="ayushs-personal-note"></a>Ayush's Personal Note
 
-As I prepare for the Class 11 exam in 2026, I'm reminded of the importance of Fundamental Rights in shaping the country's democratic framework. I've been studying the subject for several months now, and I'm beginning to appreciate the **complexities and nuances** of these rights. I've been **creating flashcards** to help me remember key concepts and **practicing with sample questions** to assess my understanding. By doing so, I'm confident that I'll be able to **excel in the exam** and **develop a deeper understanding** of the subject. I've also been **exploring historical timelines** and **maps contexts** to gain a better understanding of the subject.
+As I prepare for the [class](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) 11 exam in 2026, I'm reminded of the importance of Fundamental Rights in shaping the country's democratic framework. I've been studying the subject for several months now, and I'm beginning to appreciate the **complexities and nuances** of these rights. I've been **creating flashcards** to help me remember key concepts and **practicing with sample questions** to assess my understanding. By doing so, I'm confident that I'll be able to **excel in the exam** and **develop a deeper understanding** of the subject. I've also been **exploring historical timelines** and **maps contexts** to gain a better understanding of the subject.
 
 
 

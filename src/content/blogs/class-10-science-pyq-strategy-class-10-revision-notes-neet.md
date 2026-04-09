@@ -10,7 +10,7 @@ practice_link: "/class-11/biology/class-10-science-pyq-strategy-class-10-revisio
 
 ![Class 10 Science Pyq Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide](/blog-images/class-10-science-pyq-strategy-class-10-revision-notes-neet.webp)
 
-*Last Updated: 2026-03-28*
+*Last Updated: [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)-03-28*
 
 
 
@@ -50,7 +50,7 @@ In this [guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)
 
 > **Key Takeaways**
 > - **Predictability**: 60% of the paper follows patterns from the last 5 years of **previous year papers**.
-> - **Physics ROI**: Light and Electricity are the "High-Yield" zones for numericals.
+> - **Physics ROI**: Light and Electricity are the "[high](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)-Yield" zones for numericals.
 > - **[chemistry](/blog/environmental-chemistry-class-11-revision-notes-neet) Patterns**: Carbon and its Compounds is the king of marks.
 > - **Biology Strategy**: Diagram-based questions are guaranteed marks if you know the labeling.
 > - **Active Practice**: Stop reading, start solving. Take an **online mock test** every Sunday.

@@ -172,7 +172,7 @@ practice_link: "/class-11/biology/ecosystem-class-12-notes"
 
  - Energy flow is unidirectional in ecosystems.
 
- - Nutrient cycling is essential for ecosystem health.
+ - Nutrient cycling is essential for ecosystem [health](/blog/human-health-and-disease-class-12-notes).
 
  - Common mistakes:
 

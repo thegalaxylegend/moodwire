@@ -358,7 +358,7 @@ D) $pK_a - \log[\text{Salt}]/[\text{Acid}]$
 
 ## <a id="13-ayushs-equilibrium-strategy"></a>13. Ayush's Equilibrium Strategy
 
-Equilibrium is a 2-headed beast: Chemical Equilibrium and Ionic Equilibrium. I treated them as completely separate sub-chapters.
+Equilibrium is a 2-headed beast: [chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Equilibrium and Ionic Equilibrium. I treated them as completely separate sub-chapters.
 
 1. **Le Chatelier Flash Cards**: I made 10 flash cards, each with a different "stress" scenario. I shuffled and tested myself daily. After 5 days, my responses became instant.
 2. **The pH Ladder**: I drew a vertical pH scale from 0 to 14 on my wall. I plotted common solutions (HCl 1M → pH 0, Lemon juice → pH 2, Water → pH 7, Bleach → pH 12, NaOH 1M → pH 14). This ladder made pH intuitive.
@@ -370,7 +370,7 @@ For CBSE, always state Le Chatelier's Principle in full before applying it. Then
 ---
 
 **Related [revision](/blog/structure-of-atom-class-11-revision-notes-jee-neet) Notes:**
-- **Chemical Thermodynamics — Enthalpy & Gibbs Energy Tricks**
+- **Chemical [thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) — Enthalpy & Gibbs Energy Tricks**
 - **Some Basic Concepts of Chemistry — Mole Concept & Stoichiometry**
 - **Chemical Bonding VSEPR Theory JEE 2026 Tricks**
 
@@ -394,7 +394,7 @@ For CBSE, always state Le Chatelier's Principle in full before applying it. Then
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/states-of-matter-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [States Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/states-of-matter-class-11-revision-notes-jee-neet)
 - 📖 [Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/structure-of-atom-class-11-revision-notes-jee-neet)

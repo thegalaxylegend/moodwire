@@ -49,7 +49,7 @@ To appreciate the beauty of Wave Optics, it's essential to have a solid grasp of
 
 Before diving into the world of Wave Optics, it's essential to have a strong foundation in the following prerequisites:
 
-* **Class 11 Physics**: A thorough understanding of the concepts learned in Class 11 Physics, including **kinematics**, **dynamics**, **thermodynamics**, and **electromagnetic induction**, is necessary to appreciate the principles of Wave Optics.
+* **Class 11 Physics**: A thorough understanding of the concepts learned in Class 11 Physics, including **kinematics**, **dynamics**, **thermodynamics**, and **[electromagnetic](/blog/electromagnetic-waves-class-12-notes) induction**, is necessary to appreciate the principles of Wave Optics.
 * **Mathematics**: A strong grasp of mathematical concepts, including **trigonometry**, **calculus**, and **vector algebra**, is essential to understand the derivations and proofs in Wave Optics.
 * **Optics**: A basic understanding of **geometrical optics**, including **reflection**, **refraction**, and **lenses**, is necessary to appreciate the wave nature of light.
 

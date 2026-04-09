@@ -180,7 +180,7 @@ Answer: D) All of the above
 ## <a id="related-notes-links"></a>Related Notes Links
 
 * Chemical Bonding [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) 11 Notes
-* Thermodynamics Class 11 Notes
+* Thermodynamics [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) 11 Notes
 
 
 

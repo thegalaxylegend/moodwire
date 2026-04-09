@@ -81,7 +81,7 @@ The history of architecture can be broadly divided into several periods, each wi
 
 ## <a id="core-concepts"></a>Core Concepts
 
-To excel in JEE/NEET, it's essential to grasp the core concepts of architecture, including:
+To excel in JEE/[neet](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet), it's essential to grasp the core concepts of architecture, including:
 * **Proportion**: The relationship between the size of different parts of a building
 * **Scale**: The relationship between the size of a building and its surroundings
 * **Symmetry**: The use of identical or similar elements on either side of a central axis
@@ -142,7 +142,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) with these related guides:
 
 - 📖 [Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)
 - 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)

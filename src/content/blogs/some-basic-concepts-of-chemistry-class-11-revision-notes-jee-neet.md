@@ -62,7 +62,7 @@ For students preparing for JEE/NEET, it's essential to understand the importance
 - Kinetics: 6-8%
 - Equilibrium: 6-8%
 
-It's clear that a strong foundation in these concepts is essential for performing well in JEE/NEET.
+It's clear that a strong foundation in these concepts is essential for performing well in JEE/[neet](/blog/structure-of-the-atom-class-11-revision-notes-neet).
 
 
 

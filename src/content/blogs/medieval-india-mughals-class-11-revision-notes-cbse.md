@@ -63,7 +63,7 @@ I remember my teacher emphasizing the importance of understanding the **Mughal E
 
 ### <a id="jeeneet-data"></a>JEE/NEET Data
 
-For JEE and NEET aspirants, it's essential to be familiar with the **historical context** of medieval India, including the Mughal Empire. While history is not a direct part of the JEE or NEET syllabus, it can help you develop a broader understanding of the social and cultural context of India.
+For JEE and NEET aspirants, it's essential to be familiar with the **historical context** of medieval [india](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse), including the Mughal Empire. While history is not a direct part of the JEE or NEET syllabus, it can help you develop a broader understanding of the social and cultural context of [india](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse).
 
 ### <a id="core-concepts"></a>Core Concepts
 

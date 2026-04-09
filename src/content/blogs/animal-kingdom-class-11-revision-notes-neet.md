@@ -79,21 +79,21 @@ Animal Kingdom is a vast and diverse group of organisms that includes all multic
 
 ## <a id="characteristics-of-animals"></a>Characteristics of Animals
 
-Animals are multicellular, eukaryotic organisms that are heterotrophic, meaning they cannot produce their own food. They have a complex body structure, with specialized cells, tissues, and organs that work together to maintain homeostasis. Animals also have a nervous system, which allows them to respond to stimuli and coordinate their movements.
+[animals](/blog/structural-organisation-in-animals-class-11-revision-notes-neet) are multicellular, eukaryotic organisms that are heterotrophic, meaning they cannot produce their own food. They have a complex body structure, with specialized cells, tissues, and organs that work together to maintain homeostasis. [animals](/blog/structural-organisation-in-animals-class-11-revision-notes-neet) also have a nervous system, which allows them to respond to stimuli and coordinate their movements.
 
 
 
 
 ## <a id="classification-of-animals"></a>Classification of Animals
 
-The classification of animals is based on their characteristics, such as body structure, development, and evolution. The most widely used system of classification is the Linnaean system, which divides animals into kingdoms, phyla, classes, orders, families, genera, and species.
+The [classification](/blog/biological-classification-class-11-revision-notes-neet) of animals is based on their characteristics, such as body structure, development, and evolution. The most widely used system of [classification](/blog/biological-classification-class-11-revision-notes-neet) is the Linnaean system, which divides animals into kingdoms, phyla, classes, orders, families, genera, and species.
 
 
 
 
 ## <a id="morphology-and-anatomy-of-animals"></a>Morphology and Anatomy of Animals
 
-The morphology and anatomy of animals vary greatly, depending on their phylum, class, and order. For example, animals in the phylum Chordata have a notochord, dorsal nerve cord, and pharyngeal slits, while animals in the class Mammalia have hair, mammary glands, and produce milk to feed their young.
+The morphology and anatomy of animals vary greatly, depending on their phylum, [class](/blog/environmental-chemistry-class-11-revision-notes-neet), and order. For example, animals in the phylum Chordata have a notochord, dorsal nerve cord, and pharyngeal slits, while animals in the [class](/blog/environmental-chemistry-class-11-revision-notes-neet) Mammalia have hair, mammary glands, and produce milk to feed their young.
 
 
 

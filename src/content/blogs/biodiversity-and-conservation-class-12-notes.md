@@ -87,7 +87,7 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
  - **Solution:** 
 
- The primary cause of biodiversity loss can be determined by analyzing the main drivers of ecosystem disruption. 
+ The primary cause of biodiversity loss can be determined by analyzing the main drivers of [ecosystem](/blog/ecosystem-class-12-notes) disruption. 
 
  $$\text{Biodiversity Loss} = \text{Habitat Destruction} + \text{Overexploitation} + \text{Pollution} + \text{Climate Change}$$
 
@@ -159,7 +159,7 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
  - Ignoring the effects of habitat diversity and climate on biodiversity.
 
- - Failing to consider the impact of human activities on species extinction and immigration rates.
+ - Failing to consider the impact of [human](/blog/human-health-and-disease-class-12-notes) activities on species extinction and immigration rates.
 
  - **Advanced Concepts:** 
 

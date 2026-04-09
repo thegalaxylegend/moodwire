@@ -48,10 +48,10 @@ To put this into perspective, let's consider the vast array of electromagnetic w
 
 On a personal note, I still remember the first time I learned about the **electromagnetic spectrum**. It was during my [class](/blog/magnetism-and-matter-class-12-notes) 11 physics lessons, and our teacher used a simple diagram to illustrate the different types of electromagnetic waves, ranging from **gamma rays** to **radio waves**. What struck me was the vast range of wavelengths and frequencies that these waves can have, and how each type of wave has its unique properties and applications.
 
-To truly grasp the concept of electromagnetic waves, it's essential to have a solid foundation in the following prerequisites:
+To truly grasp the concept of [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) waves, it's essential to have a solid foundation in the following prerequisites:
 
 * **Electric field**: Understanding the concept of electric field, electric field lines, and the behavior of charges in an electric field.
-* **Magnetic field**: Familiarity with the concept of magnetic field, magnetic field lines, and the behavior of charges in a magnetic field.
+* **[magnetic](/blog/magnetic-effects-of-current-class-12-notes) field**: Familiarity with the concept of [magnetic](/blog/magnetic-effects-of-current-class-12-notes) field, [magnetic](/blog/magnetic-effects-of-current-class-12-notes) field lines, and the behavior of charges in a [magnetic](/blog/magnetic-effects-of-current-class-12-notes) field.
 * **Oscillations and waves**: Knowledge of the basic principles of oscillations and waves, including amplitude, frequency, wavelength, and speed.
 * **Maxwell's equations**: Familiarity with Maxwell's equations, which form the foundation of classical electromagnetism.
 
@@ -69,7 +69,7 @@ With these prerequisites in mind, let's the world of electromagnetic waves. The 
 
 Some of the key concepts related to electromagnetic waves that we'll be exploring in this topic include:
 
-* **Wave propagation**: The way electromagnetic waves travel through a medium, including the speed of propagation and the behavior of waves at boundaries.
+* **[wave](/blog/wave-optics-class-12-notes) propagation**: The way electromagnetic waves travel through a medium, including the speed of propagation and the behavior of waves at boundaries.
 * **Reflection and refraction**: The behavior of electromagnetic waves when they encounter a surface or a change in medium, including the laws of reflection and refraction.
 * **Interference and diffraction**: The ways in which electromagnetic waves can interact with each other and with obstacles, resulting in interference patterns and diffraction effects.
 * **Polarization**: The property of electromagnetic waves that describes the orientation of the electric field vector, including linear, circular, and elliptical polarization.

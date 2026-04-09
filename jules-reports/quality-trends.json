@@ -1,22 +1,21 @@
 {
-  "overallAvgScore": 74.3,
-  "totalBlogsAllTime": 34,
-  "totalPassed": 23,
-  "totalFailed": 11,
-  "overallPassRate": 68,
+  "overallAvgScore": 71,
+  "totalBlogsAllTime": 37,
+  "totalPassed": 24,
+  "totalFailed": 13,
+  "overallPassRate": 65,
   "trend": "improving",
-  "trendDelta": 31.2,
+  "trendDelta": 18.1,
   "dailyReports": [
     {
-      "date": "2026-04-08",
+      "date": "2026-04-09",
       "totalBlogs": 3,
-      "passed": 0,
-      "failed": 3,
-      "avgScore": 32.3,
-      "passRate": 0,
+      "passed": 1,
+      "failed": 2,
+      "avgScore": 33.3,
+      "passRate": 33,
       "errors": [
-        "Critically low word count: 330 (Min 800 for Patching)",
-        "Critically low word count: 714 (Min 800 for Patching)",
+        "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}",
         "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}"
       ]
     },
@@ -99,12 +98,25 @@
       "errors": [
         "Critically low word count: 330 (Min 800 for Patching)"
       ]
+    },
+    {
+      "date": "2026-04-08",
+      "totalBlogs": 3,
+      "passed": 0,
+      "failed": 3,
+      "avgScore": 32.3,
+      "passRate": 0,
+      "errors": [
+        "Critically low word count: 330 (Min 800 for Patching)",
+        "Critically low word count: 714 (Min 800 for Patching)",
+        "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}"
+      ]
     }
   ],
   "topErrors": [
     {
       "error": "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":",
-      "count": 6
+      "count": 8
     },
     {
       "error": "Critically low word count: 330 (Min 800 for Patching)",
@@ -115,6 +127,6 @@
       "count": 1
     }
   ],
-  "alertNeeded": false,
-  "alertMessage": ""
+  "alertNeeded": true,
+  "alertMessage": "🚨 Last run had <50% pass rate! Only 0/3 blogs passed."
 }

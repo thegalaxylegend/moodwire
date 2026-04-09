@@ -193,7 +193,7 @@ As we continue to explore the world of metallurgy, it is essential to understand
 
 Some additional advanced topics that are not covered in this guide include:
 
-* Phase diagrams and their application in metallurgy
+* Phase diagrams and their [application](/blog/application-of-integrals-class-12-notes) in metallurgy
 * Defect [chemistry](/blog/surface-chemistry-class-12-notes) and its impact on metal properties
 * Advanced extraction methods, such as bioleaching and hydrometallurgy
 * Nanotechnology and its application in metallurgy

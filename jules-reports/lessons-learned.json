@@ -30,5 +30,21 @@
     "rootCause": "Unclassified failure for General topic: 401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}",
     "fix": "Review error-patterns.json — a new pattern may have been auto-registered.",
     "priority": "low"
+  },
+  {
+    "date": "2026-04-09",
+    "slug": "coordinate-geometry-class-10-notes",
+    "failureType": "LEARNED_ERROR",
+    "rootCause": "Auto-learned pattern from General failure: 401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}",
+    "fix": "Review this auto-learned pattern and refine the fix recommendation.",
+    "priority": "medium"
+  },
+  {
+    "date": "2026-04-09",
+    "slug": "introduction-to-trigonometry-class-10-notes",
+    "failureType": "LEARNED_ERROR",
+    "rootCause": "Auto-learned pattern from General failure: 401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}",
+    "fix": "Review this auto-learned pattern and refine the fix recommendation.",
+    "priority": "medium"
   }
 ]

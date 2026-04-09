@@ -75,7 +75,7 @@ The mechanism of breathing involves the following steps:
 2. **Exhalation**: The diaphragm relaxes, decreasing the volume of the thoracic cavity and increasing the pressure inside the lungs. As a result, air is pushed out of the lungs through the nose or mouth.
 
 ### <a id="jeeneet-data"></a>JEE/NEET Data
-According to the JEE/NEET syllabus, the topic of breathing and exchange of gases is covered under the section of "Respiratory System" in the Biology paper. The weightage of this topic is approximately 5-7% of the total marks.
+According to the JEE/[neet](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet) syllabus, the topic of breathing and exchange of gases is covered under the section of "Respiratory System" in the Biology paper. The weightage of this topic is approximately 5-7% of the total marks.
 
 ### <a id="formulae"></a>Formulae
 The following formulae are relevant to the topic of breathing and exchange of gases:
