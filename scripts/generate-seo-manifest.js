@@ -437,14 +437,19 @@ async function generate() {
         let collectionsCreated = 0;
         Object.entries(topicQuestionCounts).forEach(([topicUrl, data]) => {
             if (data.count >= 20) {
-                // Skip malformed URLs where subject and topic slugs are identical (e.g., /physics/physics)
+                // Fix: Detect doubled slugs (e.g. /physics/physics) and collapse them
                 const urlParts = topicUrl.split('/').filter(Boolean);
-                if (urlParts.length >= 3 && urlParts[1] === urlParts[2]) {
-                    console.warn(`⚠️ Skipping malformed PYQ collection URL: ${topicUrl}/top-50-pyqs`);
-                    return;
+                let normalizedUrl = topicUrl;
+
+                if (urlParts.length >= 3 && urlParts[1].toLowerCase() === urlParts[2].toLowerCase()) {
+                    console.warn(`🧹 Normalizing doubled slug for PYQ collection: ${topicUrl}`);
+                    // Collapse /subject/subject/topic to /subject/topic
+                    normalizedUrl = `/${urlParts[0]}/${urlParts[1]}`;
+                    // Special case: if it was exam/subject/subject, it becomes exam/subject
                 }
 
-                const pyqUrl = `${topicUrl}/top-50-pyqs`;
+                const pyqUrl = `${normalizedUrl}/top-50-pyqs`.replace(/\/+/g, '/');
+                
                 manifest[pyqUrl] = {
                    title: `Top 50 Most Repeated ${data.topicName} PYQs | ${data.formattedExam}`,
                    description: `A curated collection of the most important questions from ${data.topicName}, fully solved with step-by-step concepts to prepare for ${data.formattedExam}.`,

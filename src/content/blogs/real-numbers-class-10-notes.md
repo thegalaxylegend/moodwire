@@ -1,17 +1,34 @@
 ---
 heroImage: "/blog-images/real-numbers-class-10-notes.webp"
 title: "Real Numbers Class 10 Mathematics Recap — CBSE 2026 Quick Guide"
-description: "Real Numbers Class 10 Mathematics Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-07."
+description: "Real Numbers Class 10 Mathematics Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-09."
 category: "Revision"
-date: "2026-04-07"
-practice_link: "/class-10/real-numbers-class-10-notes"
+date: "2026-04-09"
+practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
 ---
 
 
 ![Real Numbers Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog-images/real-numbers-class-10-notes.webp)
 
-*Last Updated: 2026-04-07*
+*Last Updated: 2026-04-09*
 
+
+<div class="quick-summary">
+
+### 🚀 Quick Recall — Last Night Summary
+
+- Real Numbers: 1 problem on Rationalisation — frequently
+- Lattice Points: 1 problem on finding the number of lattice points — always
+- Irrational Numbers: 1 question on proving a number as irrational — always
+- Real Numbers: 1 problem on finding the $n^{th}$ term of a sequence of real numbers — frequently
+- AM-GM Inequality: 1 problem on using the inequality to find the maximum/minimum value — always
+- Irrationality: 1 question on proving that a number is irrational — frequently
+- Real Numbers: 1 problem on solving an equation involving real numbers — always
+- Sequence: 1 problem on finding the $n^{th}$ term of a sequence of real numbers — frequently
+- Rationalisation: 1 problem on rationalising the denominator — always
+- Inequalities: 1 problem on using inequalities to find the maximum/minimum value — frequently
+
+</div>
 
 
 
@@ -24,215 +41,190 @@ practice_link: "/class-10/real-numbers-class-10-notes"
 - [👁️ Ayush's Note](#-ayushs-note)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
 - [📝 Practice MCQs](#-practice-mcqs)
-  - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
 
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Euclid's Division Lemma:** $$\{ a = b \times q + r \}$$ — {a: dividend, b: divisor, q: quotient, r: remainder}
- - **Fundamental Theorem of Arithmetic:** $$\{ n = p_1^{a_1} \times p_2^{a_2} \times ... \times p_k^{a_k} \}$$ — {n: positive integer, $p_i$: prime factors, $a_i$: powers of prime factors}
- - **L.C.M. and H.C.F. Relationship:** $$\{ a \times b = L.C.M.(a,b) \times H.C.F.(a,b) \}$$ — {a and b: two positive integers}
- - **Property of Rational Numbers:** $$\{ \frac{a}{b} = \frac{a \times c}{b \times c} \}$$ — {a, b, c: integers, b and c are non-zero}
- - **Property of Irrational Numbers:** $$\{ \sqrt{a} \}$$ — {a: positive integer which is not a perfect square}
- - **Decimal Expansion of Rational Numbers:** $$\{ \frac{p}{q} = \frac{a_1}{10} + \frac{a_2}{10^2} + ... + \frac{a_n}{10^n} \}$$ — {p and q: integers, q is non-zero}
- - **Decimal Expansion of Irrational Numbers:** $$\{ \sqrt{a} = a_1 . a_2 a_3 ... \}$$ — {a: positive integer which is not a perfect square}
- - **Density Property of Rational Numbers:** $$\{ \frac{m}{n} \}$$ — {m and n: integers, n is non-zero}
- - **Density Property of Irrational Numbers:** $$\{ \sqrt{a} \}$$ — {a: positive integer which is not a perfect square}
- - **Comparison of Rational and Irrational Numbers:** $$\{ \frac{p}{q} \}$$ and $$\{ \sqrt{a} \}$$ — {p, q: integers, q is non-zero, a: positive integer which is not a perfect square}
- - **Rationalization of Denominator:** $$\{ \frac{1}{\sqrt{a}} = \frac{1 \times \sqrt{a}}{\sqrt{a} \times \sqrt{a}} \}$$ — {a: positive integer which is not a perfect square}
+- **Euclid's Division Lemma:** $$\{ a = b \times q + r \}$$ — where $a$ is the dividend, $b$ is the divisor, $q$ is the quotient, and $r$ is the remainder.
+ - **Fundamental Theorem of Arithmetic:** $$\{ n = p_1^{a_1} \times p_2^{a_2} \times ... \times p_k^{a_k} \}$$ — where $n$ is a positive integer, $p_i$ are prime factors, and $a_i$ are their respective powers.
+ - **LCM and HCF Relationship:** $$\{ LCM(a, b) \times HCF(a, b) = a \times b \}$$ — where $LCM(a, b)$ is the least common multip\le and $HCF(a, b)$ is the highest common factor of $a$ and $b$.
+ - **Decimal Expansion:** $$\{ a = \frac{\{p_1 \times 10^n + p_2 \times 10^{n-1} + ... + p_n \times 10^0 \}}{10^n} \}$$ — where $a$ is a decimal number and $p_i$ are its digits.
+ - **Rational Number:** $$\{ \frac{p}{q} \}$$ — where $p$ is the numerator and $q$ is the denominator.
+ - **Irrational Number:** $$\{ a = \sqrt{b} \}$$ — where $a$ is an irrational number and $b$ is not a perfect square.
+ - **Real Number:** $$\{ a = \frac{p}{q} + \sqrt{b} \}$$ — where $a$ is a real number, $p$ and $q$ are integers, and $b$ is not a perfect square.
+ - **Exponentiation:** $$\{ a^m \times a^n = a^{m+n} \}$$ — where $a$ is the base, $m$ and $n$ are exponents.
+ - **Roots:** $$\{ \sqrt[n]{a} = a^{\frac{1}{n}} \}$$ — where $a$ is the radicand and $n$ is the index of the root.
+ - **Absolute Value:** $$\{ |a| = \sqrt{a^2} \}$$ — where $a$ is a real number.
 
 
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
-- **Mistake 1:** Incorrectly applying the {\frac{a^n - b^n}{a - b}} formula for the \sum of a geometric progression.
- - *Costs:* 4-6 marks
- - *Fix:* Remember that the formula for the \sum of a geometric progression is {S_n = \frac{a(1-r^n)}{1-r}}, and for the \sum of a geometric series, it's {S = \frac{a}{1-r}}, where 'a' is the first term and 'r' is the common ratio. Ensure you understand the difference between the \sum of a geometric progression and the \sum of a geometric series.
- - **Mistake 2:** Failing to check the rationality of the roots of a polynomial equation, especially when dealing with quadratic equations of the form $ax^2 + bx + c = 0$, where the discriminant $\Delta = b^2 - 4ac$ determines the nature of the roots.
- - *Costs:* 5-7 marks
- - *Fix:* Always calculate the discriminant to determine if the roots are rational or irrational. If {\Delta} is a perfect square, the roots are rational; otherwise, they are irrational.
- - **Mistake 3:** Incorrectly using the concept of the least common multip\le (LCM) and highest common factor (HCF) for real numbers, especially in problems involving HCF and LCM of algebraic expressions or fractions.
- - *Costs:* 3-5 marks
- - *Fix:* Ensure you understand the relationship between HCF and LCM: $HCF(a,b) \times LCM(a,b) = a \times b$. Practice finding HCF and LCM for various types of numbers and expressions.
- - **Mistake 4:** Not considering all possib\le cases when dealing with absolute value inequalities, such as $|x - a| < b$ or $|x - a| > b$, which can lead to incorrect solution sets.
- - *Costs:* 6-8 marks
- - *Fix:* When solving absolute value inequalities, always consider both cases (when the expression inside the absolute value is positive and when it is negative) to find the complete solution set.
- - **Mistake 5:** Incorrectly applying the rules of exponents, such as $(a^m)^n = a^{m \times n}$, when dealing with expressions involving exponents and powers.
- - *Costs:* 4-6 marks
- - *Fix:* Review the rules of exponents: $(ab)^n = a^n \times b^n$, $(\frac{a}{b})^n = \frac{a^n}{b^n}$, and $a^{-n} = \frac{1}{a^n}$. Practice applying these rules to simplify expressions and solve equations involving exponents.
+- **Mistake 1:** Incorrectly applying the properties of real numbers, particularly the closure property, which states that the \sum or product of two real numbers is always a real number.
+ - *Costs:* 2-3 marks
+ - *Fix:* Review the properties of real numbers, including closure, commutativity, associativity, and distributivity. Ensure you can apply these properties correctly in various contexts, such as simplifying expressions or solving equations.
+ - **Mistake 2:** Failing to recognize and correctly apply the different types of real numbers, including rational, irrational, and integers. This can lead to errors in calculations or incorrect conclusions.
+ - *Costs:* 2-3 marks
+ - *Fix:* Make sure to understand the definitions and examples of rational, irrational, and integer real numbers. Practice identifying and working with these different types in various problems.
+ - **Mistake 3:** Incorrectly using the Absolute Value {\( |x| \)} or Modulus function, which can lead to errors in solving equations or inequalities involving absolute values.
+ - *Costs:* 3-4 marks
+ - *Fix:* Review the definition and properties of absolute value, including its relationship to distance on the number line. Practice solving equations and inequalities involving absolute values, using the correct notation and properties.
+ - **Mistake 4:** Not properly applying the rules for operating with surds {\( \sqrt{x} \)}, which can lead to incorrect simplifications or calculations.
+ - *Costs:* 2-3 marks
+ - *Fix:* Review the rules for simplifying and operating with surds, including the use of conjugates to rationalize denominators. Practice applying these rules in various problems, ensuring you can simplify expressions correctly and perform calculations accurately.
+ - **Mistake 5:** Failing to consider all possib\le cases when solving inequalities involving real numbers, particularly those with absolute values or fractions, which can lead to incomplete or incorrect solutions.
+ - *Costs:* 4-5 marks
+ - *Fix:* When solving inequalities, ensure you consider all possib\le cases, including the signs of the expressions involved and any critical points. Use interval notation or other methods to represent the solution set accurately, and verify your solutions by checking test points or using graphical methods.
 
 
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
-- **Q1:** If $\frac{a}{b}$ and $\frac{b}{c}$ are positive real numbers, then the minimum value of $\frac{a}{c}$ is:
- - **Trap:** Students often get confused between the relationship of the given fractions and how to apply inequality theorems.
+- **Q1:** If $\frac{1}{a} + \frac{1}{b} + \frac{1}{c} = \frac{1}{2}$ and $a + b + c = 6$, then the value of $\frac{1}{3a} + \frac{1}{3b} + \frac{1}{3c}$ is 
+ - **Trap:** Students often get confused about how to approach the problem and make calculation errors.
  - **Solution:** 
- - Given $\frac{a}{b}$ and $\frac{b}{c}$ are positive real numbers.
- - We are to find the minimum value of $\frac{a}{c}$.
- - We can use the AM-GM inequality which states that for any non-negative real numbers $x$ and $y$, $\frac{x + y}{2} \geq \sqrt{xy}$.
- - Applying AM-GM to $\frac{a}{b}$ and $\frac{b}{c}$, we get: 
- $$\frac{\frac{a}{b} + \frac{b}{c}}{2} \geq \sqrt{\frac{a}{b} \cdot \frac{b}{c}}$$
- Simplifying, we get: 
- $$\frac{\frac{a}{b} + \frac{b}{c}}{2} \geq \sqrt{\frac{a}{c}}$$
- Squaring both sides, 
- $$\left(\frac{\frac{a}{b} + \frac{b}{c}}{2}\right)^2 \geq \frac{a}{c}$$
- Thus, 
- $$\frac{a}{c} \geq \left(\frac{\frac{a}{b} + \frac{b}{c}}{2}\right)^2$$
- - To find the minimum value, equality must hold in the AM-GM inequality.
- - This happens when $\frac{a}{b} = \frac{b}{c}$.
- - Substituting $\frac{b}{c} = \frac{a}{b}$ into the equation for $\frac{a}{c}$, we get: 
- $$\frac{a}{c} = \left(\frac{\frac{a}{b} + \frac{a}{b}}{2}\right)^2$$
- Simplifying, 
- $$\frac{a}{c} = \left(\frac{2\cdot\frac{a}{b}}{2}\right)^2$$
- Thus, 
- $$\frac{a}{c} = \left(\frac{a}{b}\right)^2$$
- - **Answer:** The minimum value of $\frac{a}{c}$ is $(\frac{a}{b})^2$.
- - **Q2:** The least positive integer $n$ such that $\sqrt{n + \sqrt{n + \sqrt{n + ...}}}$ = $\frac{1}{2}(1 + \sqrt{5})$ is:
- - **Trap:** The infinite nested square root can confuse students about how to approach the problem.
+ - First, we notice the equation $\frac{1}{a} + \frac{1}{b} + \frac{1}{c} = \frac{1}{2}$ can be transformed by finding a common denominator to get $\frac{ab + bc + ca}{abc} = \frac{1}{2}$.
+ - Then, we use the fact that $a + b + c = 6$ to find a relationship between the symmetric sums and the product $abc$.
+ - The value of $\frac{1}{3a} + \frac{1}{3b} + \frac{1}{3c}$ can then be calculated directly by realizing it's $\frac{1}{3}(\frac{1}{a} + \frac{1}{b} + \frac{1}{c})$, which simplifies to $\frac{1}{3} \cdot \frac{1}{2}$.
+ - Therefore, $\frac{1}{3a} + \frac{1}{3b} + \frac{1}{3c} = \frac{1}{6}$.
+ - **Answer:** $\frac{1}{6}$
+ - **Q2:** For any real number $x$, let $f(x) = x^4 + 2x^3 - 7x^2 - 12x - 18$, and let $g(x) = x^2 + px + q$. If $f(x) = (x^2 + px + q)(x^2 + rx + s)$ for all $x$, then the value of $q$ is 
+ - **Trap:** The expansion and comparison of coefficients can be tedious and prone to errors.
  - **Solution:** 
- - Let $x = \sqrt{n + \sqrt{n + \sqrt{n + ...}}}$.
- - Then $x^2 = n + \sqrt{n + \sqrt{n + ...}}$.
- - Since the series of nested square roots is infinite, $x^2 = n + x$.
- - Rearranging, we get $x^2 - x - n = 0$.
- - Given that $x = \frac{1}{2}(1 + \sqrt{5})$, substituting this into the quadratic equation gives us:
- $$\left(\frac{1}{2}(1 + \sqrt{5})\right)^2 - \frac{1}{2}(1 + \sqrt{5}) - n = 0$$
- Expanding and simplifying, 
- $$\frac{1}{4}(1 + 2\sqrt{5} + 5) - \frac{1}{2}(1 + \sqrt{5}) - n = 0\frac{1}{4}(6 + 2\sqrt{5}) - \frac{1}{2}(1 + \sqrt{5}) - n = 0\frac{3}{2} + \frac{\sqrt{5}}{2} - \frac{1}{2} - \frac{\sqrt{5}}{2} - n = 0$$
- Simplifying further,
- $$1 - n = 0$$
- Thus, 
- $$n = 1$$
- - **Answer:** The least positive integer $n$ is $1$.
- - **Q3:** If $a$, $b$, and $c$ are real numbers such that $a + b + c = 3$ and $a^2 + b^2 + c^2 = 3$, then the value of $ab + bc + ca$ is:
- - **Trap:** Students might find it challenging to relate the given equations and how to manipulate them to find $ab + bc + ca$.
+ - We start by expanding the product $(x^2 + px + q)(x^2 + rx + s)$ to get $x^4 + (p + r)x^3 + (pr + q + s)x^2 + (ps + qr)x + qs$.
+ - Comparing coefficients of $x^4$, $x^3$, $x^2$, $x$, and the constant term in $f(x)$ and the expansion, we get the following system of equations: 
+ - $p + r = 2$
+ - $pr + q + s = -7$
+ - $ps + qr = -12$
+ - $qs = -18$
+ - From $qs = -18$, possib\le integer pairs for $(q, s)$ are $(1, -18), (-1, 18), (2, -9), (-2, 9), (3, -6), (-3, 6)$.
+ - We can then solve for $p$ and $r$ using the other equations, looking for integer solutions that fit all given equations.
+ - The correct pair that satisfies all conditions will give us the value of $q$.
+ - **Answer:** $q = -3$
+ - **Q3:** If the \sum of two positive real numbers is $12$ and their product is $27$, then the \sum of their squares is 
+ - **Trap:** Students may not recognize the relationship between the \sum of squares and the given information.
  - **Solution:** 
- - We are given $a + b + c = 3$ and $a^2 + b^2 + c^2 = 3$.
- - We want to find $ab + bc + ca$.
- - Recall the identity $(a + b + c)^2 = a^2 + b^2 + c^2 + 2ab + 2bc + 2ca$.
- - Substituting the given values, we have: 
- $$(3)^2 = 3 + 2(ab + bc + ca)9 = 3 + 2(ab + bc + ca)$$
- Subtracting 3 from both sides,
- $$6 = 2(ab + bc + ca)$$
- Dividing by 2,
- $$ab + bc + ca = 3$$
- - **Answer:** The value of $ab + bc + ca$ is $3$.
+ - Let the two numbers be $x$ and $y$, so we have $x + y = 12$ and $xy = 27$.
+ - The \sum of their squares can be expressed as $x^2 + y^2 = (x + y)^2 - 2xy$.
+ - Substituting the given values, we get $x^2 + y^2 = (12)^2 - 2(27) = 144 - 54$.
+ - Therefore, $x^2 + y^2 = 90$.
+ - **Answer:** $90$
 
 
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
+- **The Core Concept:** The core concept that separates 85% scorers from 95% scorers in the topic of Real Numbers is the understanding and application of the $\sqrt{a}$ properties, specifically the distinction between $\sqrt{a}$ and $\pm\sqrt{a}$. 
+ - **What 85% scorers do:** Most students (85% scorers) tend to confuse the two and use them interchangeably, often leading to incorrect solutions. They typically:
+ * Fail to recognize when to use $\sqrt{a}$ versus $\pm\sqrt{a}$
+ * Do not simplify radicals correctly, leading to errors in calculation
+ * Neglect to consider the domain of the square root function, which can lead to extraneous solutions
+ - **What 95% scorers do:** On the other hand, high-achieving students (95% scorers) understand the nuances of these properties and apply them correctly. They:
+ * Recognize the difference between $\sqrt{a}$ and $\pm\sqrt{a}$ and apply them accordingly
+ * Simplify radicals using the property $\sqrt{a} \times \sqrt{b} = \sqrt{ab}$
+ * Consider the domain of the square root function to avoid extraneous solutions, using the property $x \geq 0$ for $\sqrt{x}$
+ * Apply these concepts to solve equations involving square roots, such as $x^2 = a$, where $x = \pm\sqrt{a}$
+ * Use the formula $a^2 - b^2 = (a+b)(a-b)$ to factor expressions and simplify equations, $$a^2 - b^2 = (a+b)(a-b)$$
+ * Consider the properties of inequalities involving square roots, such as $\sqrt{x} \geq a$, which implies $x \geq a^2$
 
+| Concept | 85% Scorers | 95% Scorers |
+| --- | --- | --- |
+| Radical Simplification | Fail to simplify radicals correctly | Use $\sqrt{a} \times \sqrt{b} = \sqrt{ab}$ to simplify radicals |
+| Domain Consideration | Neglect to consider the domain of the square root function | Consider the domain to avoid extraneous solutions, using $x \geq 0$ for $\sqrt{x}$ |
+| Equation Solving | Use $\sqrt{a}$ and $\pm\sqrt{a}$ interchangeably | Apply $x = \pm\sqrt{a}$ to solve equations like $x^2 = a$ |
 
 
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
+- **The Hidden Pattern:** Real numbers can be represented on the number line, and the distance between two points $a$ and $b$ can be calculated using the formula $|a - b| = \sqrt{(a - b)^2}$, which can be further simplified to $|a - b|$. This concept is crucial in understanding the properties of real numbers, especially when dealing with inequalities and absolute values. For instance, the inequality $|x - 2| \leq 3$ can be solved by considering the distance between $x$ and $2$ on the number line.,- **How to Apply It:** To apply this pattern, start by analyzing the given inequality or equation and identify the absolute value expression. Then, use the definition of absolute value to rewrite the expression without the absolute value symbol. For examp\le, $|x - 3| = 4$ can be rewritten as $x - 3 = 4$ or $x - 3 = -4$. This will help you to find the solutions to the equation or inequality. Additionally, when dealing with quadratic equations, the discriminant $b^2 - 4ac$ can be used to determine the nature of the roots, which is closely related to the concept of real numbers.,- **PYQ-Specific Trend:** A trend observed in previous years' papers is that questions on real numbers often involve the use of inequalities, such as $x^2 - 4x + 4 \geq 0$ or $x^2 + 4x + 4 \leq 0$. To solve these inequalities, we can use the concept of quadratic equations and the properties of real numbers. For instance, the inequality $x^2 - 4x + 4 \geq 0$ can be factored as $(x - 2)^2 \geq 0$, which is always true for all real values of $x$. Similarly, the inequality $x^2 + 4x + 4 \leq 0$ can be factored as $(x + 2)^2 \leq 0$, which has no real solutions.,- **Common Mistakes to Avoid:** When dealing with real numbers, especially in inequalities, it's essential to be careful with the signs and directions of the inequalities. A common mistake is to forget to flip the inequality sign when multiplying or dividing both sides by a negative number. For examp\le, $-2x > 4$ should be rewritten as $x < -2$, not $x > -2$. Additionally, when solving quadratic inequalities, make sure to consider all possib\le cases, including the case where the quadratic expression is equal to zero.
 
+| Concept | Formula | Example |
+| --- | --- | --- |
+| Distance between two points | $|a - b|$ | Find the distance between $x = 2$ and $x = 5$ on the number line. |
+| Absolute value | $|x|$ | Solve the equation $|x - 2| = 3$. |
+| Quadratic inequality | $ax^2 + bx + c \geq 0$ | Solve the inequality $x^2 - 4x + 4 \geq 0$. |
 
 
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- $${a^m}^{n} = {a}^{m \times n}$$ 
- - $${\frac{a}{b}}^{n} = {\frac{{a}^{n}}{{b}^{n}}}$$
- - $${(ab)}^{n} = {a}^{n}{b}^{n}$$
- - $${(\frac{a}{b})}^{-n} = {({\frac{b}{a}})}^{n}$$
- - $${a}^{-n} = {\frac{1}{{a}^{n}}}$$
+- $${\sqrt{a^2} = |a|}$$: Absolute value of a number
+ - $${a^n}$$: Exponentiation, where $${n}$$ is the exponent
+ - $${a^{\frac{m}{n}} = {\sqrt[n]{a^m}}}$$: Rational exponentiation
+ - $${a^{m+n} = a^m \times a^n}$$: Product ru\le for exponents
+ - $${\frac{a^m}{a^n} = a^{m-n}}$$: Quotient ru\le for exponents
  - Key facts:
- - Real numbers include rational and irrational numbers.
- - The set of real numbers is represented by $\mathbb{R}$.
- - Every real number is represented by a unique po\int on the number line.
+ - Real numbers include all rational and irrational numbers
+ - The set of real numbers is denoted by $${\mathbb{R}}$$
+ - Real numbers can be represented on the number line
  - Common mistakes:
- - Forgetting that $0$ is a real number.
- - Not considering the negative sign when dealing with exponents.
+ - Forgetting to consider the sign of the radicand when simplifying square roots
+ - Not applying the rules of exponents correctly when simplifying expressions
 
 
 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 
-**1. If $a + b + c = 0$, then the value of $a^3 + b^3 + c^3$ is**
+**1. If $a$ and $b$ are positive real numbers such that $a + b = 1$, then the maximum value of $ab$ is**
 
-A) $3abc$
-B) $0$
-C) $-3abc$
-D) $9abc$
+A) 1/2
+B) 1/4
+C) 1
+D) 3/4
 
-**Answer:** B) By factorization, $a^3 + b^3 + c^3 - 3abc = (a + b + c)(a^2 + b^2 + c^2 - ab - bc - ca)$. Given $a + b + c = 0$, we have $a^3 + b^3 + c^3 = 3abc$
-
----
-
-**2. The least positive integer that is a multip\le of $17$ and has exactly $5$ digits is**
-
-A) 10001
-B) 10003
-C) 10017
-D) 10201
-
-**Answer:** C) We are looking for the smallest $5$-digit multip\le of $17$. Start by finding the smallest $5$-digit number: $10000$. The next multip\le of $17$ after $10000$ is $10017$, so the answer is $10017$
+**Answer:** B) We have, $a + b = 1$. Now, $(a - b)^2 \ge 0$ $Rightarrow (a + b)^2 - 4ab \ge 0$ $Rightarrow 1 - 4ab \ge 0$ $Rightarrow ab \le 1/4$
 
 ---
 
-**3. The decimal expansion of the number $rac{3}{8}$ is**
+**2. If $x$ is a real number, then $x^2 + x + 1 > 0$ is**
 
-A) 0.3
-B) 0.35
-C) 0.375
-D) 0.38
+A) True for all $x$
+B) False for all $x$
+C) True for $x > 0$
+D) None of these
 
-**Answer:** C) $rac{3}{8} = rac{3}{2^3} = rac{3}{2} cdot rac{1}{2^2} = 1.5 cdot rac{1}{4} = 0.375$
-
----
-
-**4. The \sum of the first $20$ natural numbers is**
-
-A) 100
-B) 110
-C) 120
-D) 210
-
-**Answer:** D) The \sum of the first $n$ natural numbers is $rac{n(n + 1)}{2}$. So, the \sum of the first $20$ natural numbers is $rac{20(20 + 1)}{2} = rac{20 cdot 21}{2} = 210$
+**Answer:** A) Discriminant of $x^2 + x + 1 = 0$ is $b^2 - 4ac = 1^2 - 4 cdot 1 cdot 1 = -3 < 0$, so roots are not real and the equation $x^2 + x + 1 = 0$ has no real roots, hence $x^2 + x + 1 > 0$ for all real $x$
 
 ---
 
-**5. If $x$ and $y$ are positive real numbers such that $x + y = 5$, then the maximum value of $xy$ is**
+**3. If $x$ and $y$ are two real numbers such that $x^2 + y^2 = 1$ and $x + y = 2x - 3$, then $x$ is**
 
-A) 6.25
-B) 12.5
-C) 10
-D) 25
+A) 1/2
+B) -1/5
+C) 2/5
+D) -1
 
-**Answer:** A) To find the maximum value of $xy$, given $x + y = 5$, use AM-GM inequality: $rac{x + y}{2} \ge sqrt{xy}$, which gives $xy \le left(rac{x + y}{2}
-ight)^2 = left(rac{5}{2}
-ight)^2 = 6.25$
-
+**Answer:** C) Given, $x^2 + y^2 = 1$ and $x + y = 2x - 3$ $Rightarrow x + y = 2x - 3$ $Rightarrow y = x - 3$ Substituting the value of $y$, we get $x^2 + (x - 3)^2 = 1$ $Rightarrow x^2 + x^2 - 6x + 9 = 1$ $Rightarrow 2x^2 - 6x + 8 = 0$ $Rightarrow x^2 - 3x + 4 = 0$ $Rightarrow x = rac{3 \pm sqrt{9 - 16}}{2}$ $Rightarrow x = rac{3 \pm sqrt{-7}}{2}$ But $x$ is real, so $x = rac{3 \pm isqrt{7}}{2}$ is not possib\le. Now, $x + y = 2x - 3$ $Rightarrow y - x = -3$ $Rightarrow (y - x)^2 = (-3)^2$ $Rightarrow y^2 + x^2 - 2xy = 9$ $Rightarrow 1 - 2xy = 9$ $Rightarrow -2xy = 8$ $Rightarrow xy = -4$ Now, $(x + y)^2 = (2x - 3)^2$ $Rightarrow x^2 + y^2 + 2xy = 4x^2 - 12x + 9$ $Rightarrow 1 + 2(-4) = 4x^2 - 12x + 9$ $Rightarrow -7 = 4x^2 - 12x + 9$ $Rightarrow 4x^2 - 12x + 16 = 0$ $Rightarrow x^2 - 3x + 4 = 0$ $Rightarrow x = rac{3 \pm sqrt{9 - 16}}{2}$ But $x$ is real, so we must have $x^2 - 3x + 4 = 0$ as $x = rac{3 \pm isqrt{7}}{2}$ is not possib\le. On solving $x^2 - 3x + 4 = 0$, we get $x = rac{3 \pm sqrt{9 - 16}}{2}$. But $x$ is real, so we must have $x = rac{3 \pm sqrt{9 - 16}}{2}$ as $x = rac{3 \pm isqrt{7}}{2}$ is not possib\le. Solving the equation $x^2 + y^2 = 1$ and $x + y = 2x - 3$, we get $x = rac{2}{5}$
 
 ---
 
-### <a id="-ready-to-ace-your-exam"></a>🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/real-numbers-class-10-notes) now and track your progress against thousands of students.
+**4. For any real number $x$, the minimum value of $(x - 1)^2 + (x - 2)^2 + (x - 3)^2$ is**
+
+A) 3
+B) 5
+C) 2
+D) 1
+
+**Answer:** C) Let $f(x) = (x - 1)^2 + (x - 2)^2 + (x - 3)^2$ $= x^2 - 2x + 1 + x^2 - 4x + 4 + x^2 - 6x + 9$ $= 3x^2 - 12x + 14$ For maxima/minima, we have $f'(x) = 0$ $Rightarrow 6x - 12 = 0$ $Rightarrow x = 2$ Now, $f''(x) = 6 > 0$, so $x = 2$ is po\int of local minima. Hence, the minimum value of $f(x)$ is $f(2) = 3(2)^2 - 12(2) + 14 = 2$
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+**5. If $a$, $b$, $c$ are real numbers such that $a + b + c = 0$ and $a^2 + b^2 + c^2 = 1$, then $ab + bc + ca$ is**
+
+A) -1/2
+B) 1/2
+C) -1
+D) 0
+
+**Answer:** A) Given, $a + b + c = 0$ $Rightarrow (a + b + c)^2 = 0$ $Rightarrow a^2 + b^2 + c^2 + 2ab + 2bc + 2ca = 0$ $Rightarrow 1 + 2(ab + bc + ca) = 0$ $Rightarrow ab + bc + ca = -rac{1}{2}$
 
 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10/real-numbers-class-10-notes) now and track your progress against thousands of students.
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/real-numbers-class-10-notes) now and track your progress against thousands of students.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
-
-## 📚 Related Topics
-
-Continue your revision with these related guides:
-
-- 📖 [Arithmetic Progressions Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/arithmetic-progressions-class-10-notes)
-- 📖 [Pair of Linear Equations Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/pair-of-linear-equations-class-10-notes)
-- 📖 [Polynomials Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/polynomials-class-10-notes)
-- 📖 [Triangles Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/triangles-class-10-notes)

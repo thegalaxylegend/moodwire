@@ -117,7 +117,7 @@ function findRelatedBlogs(blog: BlogInfo, allBlogs: BlogInfo[]): Array<{ slug: s
         const slugOverlap = blogTopicWords.filter(w => otherTopicWords.includes(w)).length;
         relevance += slugOverlap * 2;
 
-        if (relevance >= 4) {
+        if (relevance >= 3) {
             related.push({ slug: other.slug, title: other.title, relevance });
         }
     }
@@ -141,7 +141,7 @@ function injectContextualLinks(body: string, blog: BlogInfo, related: Array<{ sl
         for (const rel of related) {
             if (processedRelated.has(rel.slug)) continue;
 
-            const relKeywords = rel.slug.split('-').filter(w => w.length > 4);
+            const relKeywords = rel.slug.split('-').filter(w => w.length >= 4);
             for (const keyword of relKeywords) {
                 // Look for keyword not inside an existing link or math block
                 // Case-insensitive, whole word

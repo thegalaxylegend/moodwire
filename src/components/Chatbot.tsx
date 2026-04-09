@@ -22,6 +22,8 @@ interface VoicePreset {
     pitch: number;
     rate: number;
     isNeural?: boolean;
+    modelUrl?: string;
+    tokensUrl?: string;
 }
 
 const DYNAMIC_GREETINGS = [
@@ -32,13 +34,48 @@ const DYNAMIC_GREETINGS = [
 ];
 
 const VOICE_PRESETS: VoicePreset[] = [
-    { id: 'amy_neural', name: 'Exa (Real Talk)', gender: 'female', pitch: 1.0, rate: 1.0, isNeural: true },
+    { 
+        id: 'kristin_neural', 
+        name: 'Exa (Natural)', 
+        gender: 'female', 
+        pitch: 1.0, 
+        rate: 1.0, 
+        isNeural: true,
+        modelUrl: 'https://huggingface.co/csukuangfj/sherpa-onnx-vits-en-us-kristin-medium/resolve/main/en_US-kristin-medium.onnx',
+        tokensUrl: 'https://huggingface.co/csukuangfj/sherpa-onnx-vits-en-us-kristin-medium/resolve/main/tokens.txt'
+    },
+    { 
+        id: 'lessac_neural', 
+        name: 'Exa (Tutor)', 
+        gender: 'female', 
+        pitch: 1.0, 
+        rate: 1.0, 
+        isNeural: true,
+        modelUrl: 'https://huggingface.co/csukuangfj/sherpa-onnx-vits-en-us-lessac-low/resolve/main/en_US-lessac-low.onnx',
+        tokensUrl: 'https://huggingface.co/csukuangfj/sherpa-onnx-vits-en-us-lessac-low/resolve/main/tokens.txt'
+    },
+    { 
+        id: 'southern_neural', 
+        name: 'Exa (British)', 
+        gender: 'female', 
+        pitch: 1.0, 
+        rate: 1.0, 
+        isNeural: true,
+        modelUrl: 'https://huggingface.co/csukuangfj/sherpa-onnx-vits-en-gb-southern_english_female-low/resolve/main/en_GB-southern_english_female-low.onnx',
+        tokensUrl: 'https://huggingface.co/csukuangfj/sherpa-onnx-vits-en-gb-southern_english_female-low/resolve/main/tokens.txt'
+    },
+    { 
+        id: 'amy_neural', 
+        name: 'Exa (Friendly)', 
+        gender: 'female', 
+        pitch: 1.0, 
+        rate: 1.0, 
+        isNeural: true,
+        modelUrl: 'https://huggingface.co/csukuangfj/sherpa-onnx-vits-en-amy-low/resolve/main/model.onnx',
+        tokensUrl: 'https://huggingface.co/csukuangfj/sherpa-onnx-vits-en-amy-low/resolve/main/tokens.txt'
+    },
     { id: 'girl_sweet', name: 'Exa (Sweet)', gender: 'female', pitch: 1.15, rate: 1.05 },
-    { id: 'girl_calm', name: 'Exa (Calm)', gender: 'female', pitch: 1.0, rate: 0.95 },
-    { id: 'girl_playful', name: 'Exa (Playful)', gender: 'female', pitch: 1.1, rate: 1.1 },
     { id: 'boy_chill', name: 'Exa (Chill)', gender: 'male', pitch: 1.0, rate: 0.95 },
-    { id: 'boy_deep', name: 'Exa (Deep)', gender: 'male', pitch: 0.9, rate: 0.9 },
-    { id: 'boy_brisk', name: 'Exa (Brisk)', gender: 'male', pitch: 1.0, rate: 1.1 },
 ];
 
 export const Chatbot = () => {
@@ -61,7 +98,7 @@ export const Chatbot = () => {
     const [, ] = useState<ExaEmotion>('neutral');
     const [isMicMuted, setIsMicMuted] = useState(false);
     const [isTTSLoading, setIsTTSLoading] = useState(false);
-    const [selectedPresetId, setSelectedPresetId] = useState<string>(() => localStorage.getItem('exa_voice_id') || localStorage.getItem('exa_voice_preset_id') || "amy_neural");
+    const [selectedPresetId, setSelectedPresetId] = useState<string>(() => localStorage.getItem('exa_voice_id') || localStorage.getItem('exa_voice_preset_id') || "kristin_neural");
     const [suggestions, setSuggestions] = useState<string[]>([]);
 
     const recognitionRef = useRef<any>(null);
@@ -213,11 +250,11 @@ export const Chatbot = () => {
                    setIsTTSLoading(true);
                 }
                 
-                await ttsManager.init(); 
+                await ttsManager.init(preset.modelUrl, preset.tokensUrl); 
                 setIsTTSLoading(false);
                 
                 setIsSpeaking(true);
-                await ttsManager.speak(cleanText, preset.rate);
+                await ttsManager.speak(cleanText, preset.rate, preset.modelUrl, preset.tokensUrl);
                 setIsSpeaking(false);
                 return; 
             } catch (err) {
@@ -547,9 +584,9 @@ export const Chatbot = () => {
                                  
                                  if (preset?.isNeural) {
                                      setIsTTSLoading(true);
-                                     ttsManager.init().then(() => {
+                                     ttsManager.init(preset.modelUrl, preset.tokensUrl).then(() => {
                                          setIsTTSLoading(false);
-                                         speak("How do I sound now? This is my neural voice synthesis engine.");
+                                         speak("How do I sound now? I'm using my new natural voice engine.");
                                      }).catch(() => {
                                          setIsTTSLoading(false);
                                          speak("Something went wrong with my high-quality voice. Using basic voice instead.");

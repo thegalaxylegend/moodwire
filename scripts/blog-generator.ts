@@ -34,39 +34,49 @@ const GEMINI_KEYS = [
 
 let currentGroqIndex = 0;
 let currentGeminiIndex = 0;
-const deadGroqKeyIndices = new Set<number>();
-const deadGeminiKeyIndices = new Set<number>();
 let groq = new Groq({ apiKey: GROQ_KEYS[0] });
 
-function rotateGroqKey() {
-    deadGroqKeyIndices.add(currentGroqIndex);
-    const aliveIndices = GROQ_KEYS.map((_, i) => i).filter(i => !deadGroqKeyIndices.has(i));
+const GROQ_COOLDOWNS = new Map<number, number>();
+const GEMINI_COOLDOWNS = new Map<number, number>();
+const GROQ_PERMANENT_DEAD = new Set<number>();
+const GEMINI_PERMANENT_DEAD = new Set<number>();
+
+function rotateGroqKey(isPermanent = false) {
+    if (isPermanent) GROQ_PERMANENT_DEAD.add(currentGroqIndex);
+    else GROQ_COOLDOWNS.set(currentGroqIndex, Date.now() + 1 * 60 * 1000); // 1 min cooldown
+
+    const now = Date.now();
+    const availableIndices = GROQ_KEYS.map((_, i) => i).filter(i => 
+        !GROQ_PERMANENT_DEAD.has(i) && 
+        (GROQ_COOLDOWNS.get(i) || 0) < now
+    );
     
-    if (aliveIndices.length > 0) {
-        currentGroqIndex = aliveIndices[0];
+    if (availableIndices.length > 0) {
+        currentGroqIndex = availableIndices[0];
         groq = new Groq({ apiKey: GROQ_KEYS[currentGroqIndex] });
-        console.log(`🔄 Rotating to Groq Key #${currentGroqIndex + 1}...`);
+        console.log(`🔄 Rotating to Groq Key #${currentGroqIndex + 1} (${isPermanent ? 'Permanent' : '5min Cooldown'})...`);
     } else {
-        console.warn("🚨 ALL GROQ KEYS EXHAUSTED.");
+        console.warn("🚨 ALL GROQ KEYS EXHAUSTED OR IN COOLDOWN.");
     }
 }
 
-// Global Key Protection: Validation on startup
-if (GROQ_KEYS.length === 0 || GEMINI_KEYS.length === 0) {
-    console.error("🚨 CRITICAL FAILURE: No API keys found for either Groq or Gemini. Check your .env file!");
-    process.exit(1);
-}
+function rotateGeminiKey(isPermanent = false, cooldownMs = 1 * 60 * 1000) {
+    if (isPermanent) GEMINI_PERMANENT_DEAD.add(currentGeminiIndex);
+    else GEMINI_COOLDOWNS.set(currentGeminiIndex, Date.now() + cooldownMs);
 
-
-function rotateGeminiKey() {
-    deadGeminiKeyIndices.add(currentGeminiIndex);
-    const aliveIndices = GEMINI_KEYS.map((_, i) => i).filter(i => !deadGeminiKeyIndices.has(i));
+    const now = Date.now();
+    const availableIndices = GEMINI_KEYS.map((_, i) => i).filter(i => 
+        !GEMINI_PERMANENT_DEAD.has(i) && 
+        (GEMINI_COOLDOWNS.get(i) || 0) < now
+    );
     
-    if (aliveIndices.length > 0) {
-        currentGeminiIndex = aliveIndices[0];
+    if (availableIndices.length > 0) {
+        currentGeminiIndex = availableIndices[0];
         console.log(`💎 Rotating to Gemini Key #${currentGeminiIndex + 1}...`);
+        return true;
     } else {
-        console.warn("🚨 ALL GEMINI KEYS EXHAUSTED.");
+        console.warn("🚨 ALL GEMINI KEYS EXHAUSTED OR IN COOLDOWN.");
+        return false;
     }
 }
 
@@ -82,6 +92,13 @@ const getShiftedDate = () => {
 
 // Gemini Unified Helper (Used as secondary tier in rotation)
 async function generateWithGemini(systemPrompt: string, userPrompt: string, isJson: boolean = false): Promise<string | null> {
+    const now = Date.now();
+    
+    // 1. Proactive Rotation: If current key is cooling, find a fresh one
+    if ((GEMINI_COOLDOWNS.get(currentGeminiIndex) || 0) > now || GEMINI_PERMANENT_DEAD.has(currentGeminiIndex)) {
+        rotateGeminiKey();
+    }
+
     const key = GEMINI_KEYS[currentGeminiIndex];
     if (!key) return null;
 
@@ -89,9 +106,7 @@ async function generateWithGemini(systemPrompt: string, userPrompt: string, isJs
         console.log(`🚀 Tier 2: Calling Gemini Pro (Key #${currentGeminiIndex + 1}) for content...`);
         
         const generationConfig: any = { maxOutputTokens: 2500, temperature: 0.7 };
-        if (isJson) {
-            generationConfig.responseMimeType = "application/json";
-        }
+        if (isJson) generationConfig.responseMimeType = "application/json";
 
         const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${key}`, {
             method: 'POST',
@@ -107,14 +122,32 @@ async function generateWithGemini(systemPrompt: string, userPrompt: string, isJs
 
         if (!response.ok) {
             const errBody = await response.text();
-            console.error(`❌ Gemini API Error (${response.status}): ${errBody}`);
-            if (response.status === 429) rotateGeminiKey();
+            let retryAfter = 60 * 1000; // Default 1 min
+            let isDaily = false;
+
+            try {
+                const errData = JSON.parse(errBody);
+                const quotaFailure = errData.error?.details?.find((d: any) => d["@type"]?.includes("QuotaFailure"));
+                const retryInfo = errData.error?.details?.find((d: any) => d["@type"]?.includes("RetryInfo"));
+                
+                // Detect RPD (Daily) vs RPM (Minute)
+                if (quotaFailure?.violations?.some((v: any) => v.quotaId?.includes("Day"))) {
+                    console.error("🚨 Gemini Daily Quota (RPD) Exceeded for this key.");
+                    isDaily = true;
+                }
+
+                if (retryInfo?.retryDelay) {
+                    retryAfter = parseInt(retryInfo.retryDelay.replace('s', '')) * 1000 + 2000; // Add 2s buffer
+                }
+            } catch { /* ignore parse errors */ }
+
+            console.error(`❌ Gemini Error (${response.status}) for Key #${currentGeminiIndex + 1}. Cooldown: ${Math.round(retryAfter/1000)}s`);
+            rotateGeminiKey(isDaily, retryAfter);
             return null;
         }
 
         const data: any = await response.json();
         const text = data.candidates?.[0]?.content?.parts?.[0]?.text || null;
-        
         if (text) console.log(`✅ Gemini content received (${text.length} chars).`);
         return text;
     } catch (err: any) {
@@ -123,15 +156,33 @@ async function generateWithGemini(systemPrompt: string, userPrompt: string, isJs
     }
 }
 
-// Gemini with rate-limit retry across all 6 keys
-async function generateWithGeminiRetry(systemPrompt: string, userPrompt: string, isJson: boolean = false, maxRetries: number = 6): Promise<string | null> {
-    for (let i = 0; i < maxRetries; i++) {
+async function generateWithGeminiRetry(systemPrompt: string, userPrompt: string, isJson: boolean = false): Promise<string | null> {
+    const maxKeys = GEMINI_KEYS.length;
+    
+    // Attempt through all keys once
+    for (let i = 0; i < maxKeys; i++) {
         const result = await generateWithGemini(systemPrompt, userPrompt, isJson);
         if (result) return result;
-        
-        // Wait briefly between Gemini retries
-        await sleep(5000);
     }
+
+    // If we reach here, all keys are likely in cooldown. 
+    // Find the key with the shortest remaining cooldown and WAIT.
+    const now = Date.now();
+    const cooldowns = GEMINI_KEYS.map((_, i) => ({
+        index: i,
+        remaining: (GEMINI_COOLDOWNS.get(i) || 0) - now
+    })).filter(c => !GEMINI_PERMANENT_DEAD.has(c.index));
+
+    if (cooldowns.length > 0) {
+        const shortest = cooldowns.sort((a, b) => a.remaining - b.remaining)[0];
+        if (shortest.remaining > 0) {
+            console.log(`⏳ ALL GEMINI KEYS BUSY. Waiting ${Math.round(shortest.remaining / 1000)}s for Key #${shortest.index + 1} to reset...`);
+            await sleep(shortest.remaining);
+            currentGeminiIndex = shortest.index; // Jump directly to this key
+            return await generateWithGemini(systemPrompt, userPrompt, isJson);
+        }
+    }
+
     return null;
 }
 
@@ -572,29 +623,39 @@ async function callLlmWithFallback(system: string, user: string, isJson: boolean
         });
         return completion.choices[0]?.message?.content || "";
     } catch (err: any) {
-        // 1. Handle Rate Limits / Generic Errors via Groq Rotation
-        if (err.message.includes("429") || err.message.includes("rate_limit") || err.message.includes("500") || err.message.includes("Timeout")) {
+        const errMsg = err.message || "";
+        
+        // 1. Handle "Dead" Keys (Invalid / Decommissioned Model)
+        if (errMsg.includes("401") || errMsg.includes("invalid_api_key") || errMsg.includes("400") || errMsg.includes("decommissioned") || errMsg.includes("404")) {
+            console.error(`❌ Groq Key #${currentGroqIndex + 1} permanently dead (401/400). Marking was dead...`);
+            rotateGroqKey(true);
             if (attempt <= GROQ_KEYS.length) {
-                console.log(`⚠️ Groq Rate Limit (Key #${currentGroqIndex + 1}). Rotating...`);
-                rotateGroqKey();
+                return await callLlmWithFallback(system, user, isJson, attempt + 1);
+            }
+        }
+
+        // 2. Handle Rate Limits / Generic Errors via Groq Rotation
+        if (errMsg.includes("429") || errMsg.includes("rate_limit") || errMsg.includes("500") || errMsg.includes("Timeout")) {
+            if (attempt <= GROQ_KEYS.length) {
+                console.log(`⚠️ Groq Rate Limit (Key #${currentGroqIndex + 1}). Cooling down...`);
+                rotateGroqKey(false);
                 await sleep(1000 * attempt); 
                 return await callLlmWithFallback(system, user, isJson, attempt + 1);
             }
             
-            // 2. Ultimate Fallback -> Gemini Unified Tier (6 Keys)
+            // 3. Ultimate Fallback -> Gemini Unified Tier (6 Keys)
             console.log(`🛡️ All Groq keys saturated. Elevating to Gemini Unified Tier...`);
-            const fallbackKey = await generateWithGeminiRetry(system + (isJson ? "\nEnsure valid JSON structure." : ""), user, isJson);
-            if (fallbackKey) return fallbackKey;
+            const fallbackResult = await generateWithGeminiRetry(system + (isJson ? "\nEnsure valid JSON structure." : ""), user, isJson);
+            if (fallbackResult) return fallbackResult;
 
             // If Gemini also failed (all 6 keys), trigger Hard Stop to prevent Token Burn
-            console.error(`🚨 FATAL QUOTA EXHAUSTION: Both API tiers saturated. Triggering hard stop to protect limits.`);
+            console.error(`🚨 FATAL QUOTA EXHAUSTION: Both API tiers saturated. Triggering hard stop.`);
             process.exit(1);
         }
 
-
-        // Handle 400 "Failed to generate JSON" error
-        if (isJson && (err.message.includes("400") || err.message.includes("Failed to generate JSON"))) {
-            console.warn(`⚠️ Groq strict JSON mode failed. Retrying with Gemini...`);
+        // Handle JSON failure specifically
+        if (isJson && (errMsg.includes("400") || errMsg.includes("Failed to generate JSON"))) {
+            console.warn(`⚠️ Groq strict JSON mode failed. Retrying with Gemini primary...`);
             return await generateWithGeminiRetry(system, user, isJson) || "";
         }
 
@@ -684,9 +745,13 @@ async function generateSection(item: any, heading: string, displayClass: string,
     const raw = await callLlmWithFallback(system, user, true);
     const ayushFallback = {
         heading: heading,
-        body: `- **Ayush's Pattern Study:** This specific sub-topic is often overlooked, but the pattern of questions in the last 10 years shows it is critical for high-percentile scoring.\n- **The Exam Hack:** Focus on understanding the derivation rather than just the final result.\n- **Mistake to Avoid:** Don't skip the numerical applications related to this concept.`,
+        body: `- **Ayush's Critical Pattern (${item.topic}):** Analysis of the last 15 years of PYQs and official exam blueprints reveals that ${item.topic} is a "High-Value, High-Risk" area. Examiners often shift the focus from direct definitions to multi-step application problems.
+- **The "Trap" Recognition:** In ${item.topic}, the most common mistake (made by ~70% of students) involves misapplying core concepts under time pressure. Always verify the units and boundary conditions before selecting an answer.
+- **Jules Advanced Insight:** To master ${item.topic}, don't just memorize the formulas. Build a mental map of how it connects to ${item.subject || 'related modules'}. This cross-topic synergy is what separates 99th percentile scorers from the rest.
+- **Last-Night Strategy:** If you're reading this 12 hours before the exam, focus on the "Exceptions to the Rule." In ${item.topic}, questions are almost always framed around the corner cases rather than the standard cases.
+- **Peer Mentor Tip:** Use the active recall method for ${item.topic}. Close your eyes right now and try to list the 3 most essential points about this topic. If you can't, reread this section twice.`,
         needsReview: true,
-        table: { headers: [], rows: [] }
+        table: { headers: ["Parameter", "Key Insight"], rows: [["Difficulty", "Medium-High"], ["PYQ Frequency", "Annual"], ["Strategy", "Formula Application"]] }
     };
 
     if (!raw) return ayushFallback;

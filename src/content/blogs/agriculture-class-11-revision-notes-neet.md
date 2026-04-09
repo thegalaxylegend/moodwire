@@ -140,3 +140,29 @@ Continue your revision with these related guides:
 - 📖 [Ai Study Hack Pomodoro Class 11 Computer Science Recap — CBSE 2026 Quick Guide](/blog/ai-study-hack-pomodoro-class-11-revision-notes-neet)
 - 📖 [3d Geometry Intro Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet)
 - 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
+
+
+## 🔁 Last 5 Minutes Box
+
+
+   * Crop: plants grown on large scale for food, fodder or commercial purposes
+   * Crop variety: crop grown for specific feature/characteristic
+   * Intercropping: growing two or more crops simultaneously on same field
+   * Crop rotation: growing different crops on same field in sequential seasons
+   * Organic farming: farming using natural/organic sources for crop growth
+   * Soil erosion: removal of top layer of soil by natural/artificial forces
+   * Nutrient deficiency: lack of essential nutrients in soil for plant growth
+   * Soil testing: analysis of soil for pH/nutrient content
+   * Fertilizers: inorganic/chemical substances to add nutrients to soil
+   * Manures: organic substances to add nutrients to soil
+   * Irrigation: artificial application of water for plant growth
+   * Drainage: removal of excess water from soil
+   * Tillage: preparation of soil for sowing seeds
+   * Sowing: placing seeds in soil for germination
+   * Nursery: place for raising young plants
+   * Transplantation: transferring plants from one place to another
+   * Threshing: separation of grains from chaff
+   * Winnowing: separation of grains from chaff using wind
+   * Weeding: removal of unwanted plants from field
+   * Pruning: cutting/removal of plant parts for healthy growth
+   

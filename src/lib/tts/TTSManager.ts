@@ -14,10 +14,10 @@ export class TTSManager {
     private audioContext: AudioContext | null = null;
     private activeSources: AudioBufferSourceNode[] = [];
     private initializationPromise: Promise<void> | null = null;
+    private loadedModelUrl: string | null = null;
 
-    // Config for Amy (Friendly Female)
-    private readonly MODEL_URL = 'https://huggingface.co/csukuangfj/sherpa-onnx-vits-en-amy-low/resolve/main/model.onnx';
-    private readonly TOKENS_URL = 'https://huggingface.co/csukuangfj/sherpa-onnx-vits-en-amy-low/resolve/main/tokens.txt';
+    // Default URLs
+    private readonly DEFAULT_TOKENS_URL = 'https://huggingface.co/csukuangfj/sherpa-onnx-vits-en-amy-low/resolve/main/tokens.txt';
 
     private constructor() {}
 
@@ -28,16 +28,25 @@ export class TTSManager {
         return this.instance;
     }
 
-    async init() {
-        if (this.isInitialized) return;
-        if (this.initializationPromise) return this.initializationPromise;
+    async init(modelUrl?: string, tokensUrl?: string) {
+        const urlToLoad = modelUrl || 'https://huggingface.co/csukuangfj/sherpa-onnx-vits-en-amy-low/resolve/main/model.onnx';
+        const tokensToLoad = tokensUrl || this.DEFAULT_TOKENS_URL;
+
+        if (this.isInitialized && this.loadedModelUrl === urlToLoad) return;
+        
+        // If switching models, we need to reset
+        if (this.loadedModelUrl && this.loadedModelUrl !== urlToLoad) {
+            this.isInitialized = false;
+            if (this.worker) this.worker.terminate();
+            this.worker = null;
+        }
 
         this.initializationPromise = (async () => {
             try {
                 // 1. Fetch models (using cache if available)
                 const [model, tokens] = await Promise.all([
-                    this.fetchWithCache(this.MODEL_URL),
-                    this.fetchWithCache(this.TOKENS_URL)
+                    this.fetchWithCache(urlToLoad),
+                    this.fetchWithCache(tokensToLoad)
                 ]);
 
                 // 2. Initialize Worker
@@ -49,6 +58,7 @@ export class TTSManager {
                     this.worker.onmessage = (e) => {
                         if (e.data.type === 'INIT_DONE') {
                             this.isInitialized = true;
+                            this.loadedModelUrl = urlToLoad;
                             resolve();
                         } else if (e.data.type === 'ERROR') {
                             reject(e.data.payload);
@@ -96,9 +106,9 @@ export class TTSManager {
         return await response.arrayBuffer();
     }
 
-    async speak(text: string, speed = 1.0) {
-        if (!this.isInitialized) {
-            await this.init();
+    async speak(text: string, speed = 1.0, modelUrl?: string, tokensUrl?: string) {
+        if (!this.isInitialized || (modelUrl && modelUrl !== this.loadedModelUrl)) {
+            await this.init(modelUrl, tokensUrl);
         }
 
         return new Promise<void>((resolve, reject) => {
