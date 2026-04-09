@@ -159,7 +159,7 @@ For students preparing for the Class 12 exam, a deep understanding of Huygens' P
 
 In comparison to other principles in physics, Huygens' Principle offers a unique perspective on wave propagation. While principles like Snell's Law provide a quantitative approach to understanding refraction, Huygens' Principle gives a qualitative insight into how and why [waves](/blog/electromagnetic-waves-class-12-notes) propagate and interact with their environment.
 
-The mathematical formulation of Huygens' Principle involves the concept of the wave equation and how each point on the wavefront contributes to the propagation of the wave. This can be expressed using the formula $u(P) = rac{1}{4pi} int rac{u(Q)}{r} , dS$, where $u(P)$ is the disturbance at point $P$, $u(Q)$ is the disturbance at point $Q$ on the wavefront, and $r$ is the distance between points $P$ and $Q$. This formulation provides a quantitative basis for understanding the principle and applying it to solve problems in wave optics.
+The mathematical formulation of Huygens' Principle involves the concept of the wave equation and how each point on the wavefront contributes to the propagation of the wave. This can be expressed using the formula $u(P) = \frac{1}{4pi} int \frac{u(Q)}{r} , dS$, where $u(P)$ is the disturbance at point $P$, $u(Q)$ is the disturbance at point $Q$ on the wavefront, and $r$ is the distance between points $P$ and $Q$. This formulation provides a quantitative basis for understanding the principle and applying it to solve problems in wave optics.
 
 To further illustrate the concept and its applications, let's consider a comparison between Huygens' Principle and other principles in wave optics:
 
@@ -279,11 +279,11 @@ What are the types of polarization in Wave Optics? is a phenomenon where the vib
 
 Wave Optics is the study of the behavior of light as it interacts with matter, including phenomena such as diffraction, interference, and superposition. It includes the principles of Huygens' principle, the wave nature of light, and the concept of wavefronts. For Class 12 exam prep in 2026, the most important aspect is understanding how to apply these principles to solve problems related to Young's double-slit experiment, diffraction gratings, and optical instruments like spectrometers.
 
- A key shortcut or trick for Wave Optics involves recognizing patterns and relationships between different quantities in wave-related phenomena. This can be particularly useful in problems involving the calculation of fringe widths, intensities, or wavelengths. By memorizing key formulas such as $d sin 	heta = n lambda$ for diffraction gratings and $S = rac{lambda D}{d}$ for Young's double-slit experiment, students can quickly solve problems without having to derive the equations from first principles every time.
+ A key shortcut or trick for Wave Optics involves recognizing patterns and relationships between different quantities in wave-related phenomena. This can be particularly useful in problems involving the calculation of fringe widths, intensities, or wavelengths. By memorizing key formulas such as $d sin 	heta = n lambda$ for diffraction gratings and $S = \frac{lambda D}{d}$ for Young's double-slit experiment, students can quickly solve problems without having to derive the equations from first principles every time.
 
  Another crucial aspect of Wave Optics is understanding the concept of **coherence**, which refers to the ability of two or more light waves to interfere with each other. Coherence is characterized by the **coherence length**, which is the maximum distance over which the phase of a wave remains correlated with itself. In the context of Young's double-slit experiment, coherence is essential for observing interference patterns. A student-centric tip for remembering this concept is to associate coherence with the idea of 'correlated phases' and to recall that it is a necessary condition for interference to occur.
 
- When it comes to solving problems in Wave Optics, a useful trick is to identify the type of problem and then apply the relevant formula or principle. For example, if the problem involves a diffraction grating, the student should recall the formula $d sin 	heta = n lambda$ and use it to solve for the required quantity. Similarly, for problems involving Young's double-slit experiment, the formula $S = rac{lambda D}{d}$ can be used. By recognizing the type of problem and applying the relevant formula, students can save time and improve their chances of getting the correct answer.
+ When it comes to solving problems in Wave Optics, a useful trick is to identify the type of problem and then apply the relevant formula or principle. For example, if the problem involves a diffraction grating, the student should recall the formula $d sin 	heta = n lambda$ and use it to solve for the required quantity. Similarly, for problems involving Young's double-slit experiment, the formula $S = \frac{lambda D}{d}$ can be used. By recognizing the type of problem and applying the relevant formula, students can save time and improve their chances of getting the correct answer.
 
  The following table summarizes some key formulas and principles in Wave Optics:
 
@@ -291,7 +291,7 @@ Wave Optics is the study of the behavior of light as it interacts with matter, i
 | Phenomenon | Formula | Description |
 | --- | --- | --- |
 | Diffraction Gratings | $d sin 	heta = n lambda$ | Relates the distance between slits, the angle of diffraction, and the wavelength of light |
-| Young's Double-Slit Experiment | $S = rac{lambda D}{d}$ | Relates the fringe width, the wavelength of light, the distance between the slits, and the distance from the slits to the screen |
+| Young's Double-Slit Experiment | $S = \frac{lambda D}{d}$ | Relates the fringe width, the wavelength of light, the distance between the slits, and the distance from the slits to the screen |
 | Single-Slit Diffraction | $a sin 	heta = n lambda$ | Relates the width of the slit, the angle of diffraction, and the wavelength of light |
 
 
@@ -307,14 +307,14 @@ Wave Optics is the study of the behavior of light as it interacts with matter, i
 
  When dealing with trap questions, a useful strategy is to first identify the key concepts involved and then carefully read the question to understand what is being asked. For instance, if a question mentions 'a beam of light passing through two closely spaced slits,' it's likely testing understanding of interference or diffraction. A student-centric tip is to practice drawing diagrams for different scenarios, as visualizing the situation can help clarify the concepts and make it easier to choose the correct answer.
 
- To reinforce understanding and avoid falling into traps, students should review the principles of wave optics thoroughly and practice applying them to various scenarios. This includes understanding the mathematical formulations behind these phenomena, such as the equation for the location of bright fringes in a double-slit experiment: $x = rac{nlambda D}{d}$, where $x$ is the distance from the central fringe to the $n^{th}$ bright fringe, $lambda$ is the wavelength of the light, $D$ is the distance from the slits to the screen, and $d$ is the distance between the slits.
+ To reinforce understanding and avoid falling into traps, students should review the principles of wave optics thoroughly and practice applying them to various scenarios. This includes understanding the mathematical formulations behind these phenomena, such as the equation for the location of bright fringes in a double-slit experiment: $x = \frac{nlambda D}{d}$, where $x$ is the distance from the central fringe to the $n^{th}$ bright fringe, $lambda$ is the wavelength of the light, $D$ is the distance from the slits to the screen, and $d$ is the distance between the slits.
 
  Finally, recognizing that wave optics is a fundamental area of physics with numerous practical applications, from optical communications to medical imaging, can motivate students to delve deeper into the subject and master its concepts, thereby avoiding common pitfalls in exams.
 
 
 | Concept | Definition | Key Points to Remember |
 | --- | --- | --- |
-| Interference | Overlap of two or more waves in the same medium | Coherent sources, superposition principle, $x = rac{nlambda D}{d}$ for double-slit experiment |
+| Interference | Overlap of two or more waves in the same medium | Coherent sources, superposition principle, $x = \frac{nlambda D}{d}$ for double-slit experiment |
 | Diffraction | Bending of waves around obstacles or through small openings | Single-slit experiment, spreading of waves, $a sin 	heta = nlambda$ for minima |
 | Polarization | Orientation of electric field vector in light waves | Polarized and unpolarized light, reflection, refraction, and polarizing filters |
 

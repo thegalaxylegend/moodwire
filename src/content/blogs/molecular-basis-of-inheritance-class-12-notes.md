@@ -189,11 +189,11 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 
  - $2pq$ gives the frequency of the heterozygous genotype in a population.
 
- - $$\rac{p^2 + q^2 + 2pq}{(p + q)^2} = 1$$ is the Hardy-Weinberg principle equation for the sum of genotypic frequencies.
+ - $$\\frac{p^2 + q^2 + 2pq}{(p + q)^2} = 1$$ is the Hardy-Weinberg principle equation for the sum of genotypic frequencies.
 
  - $p + q = 1$ is the equation for the sum of allelic frequencies in a population.
 
- - $q = \rac{\	ext{number of recessive alleles}}{\	ext{total number of alleles}}$ calculates the frequency of the recessive allele.
+ - $q = \\frac{\	ext{number of recessive alleles}}{\	ext{total number of alleles}}$ calculates the frequency of the recessive allele.
 
  - Key facts:
 

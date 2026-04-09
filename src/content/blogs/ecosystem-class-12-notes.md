@@ -75,7 +75,7 @@ practice_link: "/class-11/biology/ecosystem-class-12-notes"
 
  - *Costs:* 4-5 marks for incorrect explanations of energy flow, particularly in food chains and webs.
 
- - *Fix:* Remember that only about $10\%$ of energy is transferred from one trophic level to the next, with the remaining $90\%$ being lost as heat. Use the formula for energy transfer efficiency: $$\	ext{Energy Transfer Efficiency} = \rac{\	ext{Energy at Next Trophic Level}}{\	ext{Energy at Current Trophic Level}} \	imes 100$$
+ - *Fix:* Remember that only about $10\%$ of energy is transferred from one trophic level to the next, with the remaining $90\%$ being lost as heat. Use the formula for energy transfer efficiency: $$\	ext{Energy Transfer Efficiency} = \\frac{\	ext{Energy at Next Trophic Level}}{\	ext{Energy at Current Trophic Level}} \	imes 100$$
 
  - **Mistake 3:** Not recognizing the importance of decomposers and their role in nutrient cycling within ecosystems.
 
@@ -129,7 +129,7 @@ practice_link: "/class-11/biology/ecosystem-class-12-notes"
 
 - **The Core Concept:** Energy flow and nutrient cycling within ecosystems are fundamental processes. However, a deep understanding of $\Delta$G (Gibbs free energy change) and its implications on ecosystem productivity and resilience is often overlooked. 
 
- - **What 85% scorers do:** They memorize the basic structure of energy flow (producers to consumers) and nutrient cycles (e.g., carbon, nitrogen, phosphorus) without fully grasping the thermodynamic principles underlying these processes. They may recognize that ecosystems tend towards equilibrium but fail to apply $\rac{\Delta G}{\Delta t}$ (change in Gibbs free energy over time) to predict ecosystem responses to disturbances.
+ - **What 85% scorers do:** They memorize the basic structure of energy flow (producers to consumers) and nutrient cycles (e.g., carbon, nitrogen, phosphorus) without fully grasping the thermodynamic principles underlying these processes. They may recognize that ecosystems tend towards equilibrium but fail to apply $\\frac{\Delta G}{\Delta t}$ (change in Gibbs free energy over time) to predict ecosystem responses to disturbances.
 
  - **What 95% scorers do:** They apply the concept of Gibbs free energy ($$\Delta G = \Delta H - T\Delta S$$) to understand how energy transformations within ecosystems influence productivity, diversity, and stability. For instance, they recognize that a negative $\Delta G$ indicates a spontaneous reaction, which is crucial for understanding primary production and decomposition processes. They also consider the impact of external factors (like temperature, $T$, and entropy, $\Delta S$) on $\Delta G$, allowing them to reason about ecosystem resilience and response to environmental changes. Furthermore, they can relate the second law of thermodynamics ($$\Delta S_{universe} = \Delta S_{system} + \Delta S_{surroundings}$$) to ecosystem development and the principle of maximum entropy production to understand ecosystem evolution towards a state of maximum dissipation of energy.
 
@@ -137,7 +137,7 @@ practice_link: "/class-11/biology/ecosystem-class-12-notes"
 | --- | --- | --- |
 | Energy Flow | Memorize basic structure | Apply thermodynamic [principles](/blog/biotechnology-principles-and-processes-class-12-notes) |
 | Nutrient Cycling | Recognize basic cycles | Understand implications of $\Delta G$ on cycles |
-| Ecosystem Resilience | Tend towards equilibrium | Predict responses using $\rac{\Delta G}{\Delta t}$ |
+| Ecosystem Resilience | Tend towards equilibrium | Predict responses using $\\frac{\Delta G}{\Delta t}$ |
 
 
 

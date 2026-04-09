@@ -316,8 +316,9 @@ export function jsonToMarkdown(post: BlogPostJSON): string {
         let result = text.replace(/\\\\+([a-zA-Z])/g, '\\$1');
         const commonMath = ['frac', 'times', 'text', 'Delta', 'theta', 'phi', 'alpha', 'beta', 'gamma', 'sum', 'int', 'neq', 'approx', 'pm', 'mp', 'le', 'ge'];
         commonMath.forEach(cmd => {
-            const regex = new RegExp(`(^|[^\\\\])${cmd}(?=[^a-zA-Z])`, 'g');
-            result = result.replace(regex, `$1\\${cmd}`);
+            // Updated regex: Ensure it's not preceded by a letter/backslash AND not followed by a letter
+            const regex = new RegExp(`(?<![a-zA-Z\\\\])${cmd}(?![a-zA-Z])`, 'g');
+            result = result.replace(regex, `\\${cmd}`);
         });
         return result;
     }

@@ -124,31 +124,31 @@ practice_link: "/class-11/mathematics/application-of-derivatives-class-12-notes"
 
  $$
 
- \rac{d}{dx}f(x) = \rac{d}{dx}(10x^2 - x^3) = 20x - 3x^2
+ \\frac{d}{dx}f(x) = \\frac{d}{dx}(10x^2 - x^3) = 20x - 3x^2
 
  $$
 
  Setting the derivative equal to zero gives us $20x - 3x^2 = 0$.
 
- Factoring out $x$, we get $x(20 - 3x) = 0$, which yields $x = 0$ or $x = \rac{20}{3}$.
+ Factoring out $x$, we get $x(20 - 3x) = 0$, which yields $x = 0$ or $x = \\frac{20}{3}$.
 
  To determine which of these gives a maximum, we examine the second derivative:
 
  $$
 
- \rac{d^2}{dx^2}f(x) = \rac{d}{dx}(20x - 3x^2) = 20 - 6x
+ \\frac{d^2}{dx^2}f(x) = \\frac{d}{dx}(20x - 3x^2) = 20 - 6x
 
  $$
 
- Evaluating the second derivative at $x = \rac{20}{3}$, we get $20 - 6(\rac{20}{3}) = 20 - 40 = -20$.
+ Evaluating the second derivative at $x = \\frac{20}{3}$, we get $20 - 6(\\frac{20}{3}) = 20 - 40 = -20$.
 
- Since the second derivative is negative, $x = \rac{20}{3}$ corresponds to a maximum.
+ Since the second derivative is negative, $x = \\frac{20}{3}$ corresponds to a maximum.
 
- Substituting $x = \rac{20}{3}$ back into $y = 10 - x$, we find $y = 10 - \rac{20}{3} = \rac{10}{3}$.
+ Substituting $x = \\frac{20}{3}$ back into $y = 10 - x$, we find $y = 10 - \\frac{20}{3} = \\frac{10}{3}$.
 
- Therefore, the maximum value of $x^2y$ is $(\rac{20}{3})^2(\rac{10}{3}) = \rac{4000}{27}$.
+ Therefore, the maximum value of $x^2y$ is $(\\frac{20}{3})^2(\\frac{10}{3}) = \\frac{4000}{27}$.
 
- - **Answer:** $\rac{4000}{27}$
+ - **Answer:** $\\frac{4000}{27}$
 
  - **Q2:** A particle moves along the x-axis with its position given by $x(t) = 2t^2 + 3t + 1$. Find its velocity and acceleration at $t = 2$ seconds.
 
@@ -160,7 +160,7 @@ practice_link: "/class-11/mathematics/application-of-derivatives-class-12-notes"
 
  $$
 
- v(t) = \rac{d}{dt}x(t) = \rac{d}{dt}(2t^2 + 3t + 1) = 4t + 3
+ v(t) = \\frac{d}{dt}x(t) = \\frac{d}{dt}(2t^2 + 3t + 1) = 4t + 3
 
  $$
 
@@ -168,7 +168,7 @@ practice_link: "/class-11/mathematics/application-of-derivatives-class-12-notes"
 
  $$
 
- a(t) = \rac{d}{dt}v(t) = \rac{d}{dt}(4t + 3) = 4
+ a(t) = \\frac{d}{dt}v(t) = \\frac{d}{dt}(4t + 3) = 4
 
  $$
 
@@ -188,7 +188,7 @@ practice_link: "/class-11/mathematics/application-of-derivatives-class-12-notes"
 
  $$
 
- \rac{dy}{dx} = \rac{d}{dx}(x^3 - 2x^2 + x + 1) = 3x^2 - 4x + 1
+ \\frac{dy}{dx} = \\frac{d}{dx}(x^3 - 2x^2 + x + 1) = 3x^2 - 4x + 1
 
  $$
 
@@ -196,7 +196,7 @@ practice_link: "/class-11/mathematics/application-of-derivatives-class-12-notes"
 
  $$
 
- m = \rac{dy}{dx}\Big|_{x=1} = 3(1)^2 - 4(1) + 1 = 3 - 4 + 1 = 0
+ m = \\frac{dy}{dx}\Big|_{x=1} = 3(1)^2 - 4(1) + 1 = 3 - 4 + 1 = 0
 
  $$
 

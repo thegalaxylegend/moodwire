@@ -127,7 +127,7 @@ B) 4
 C) 6
 D) 8
 
-**Answer:** B) Area of an equilateral triang\le = $rac{sqrt{3}}{4} 	imes (side)^2$. Given area = $16sqrt{3}$, we can solve for the side length.
+**Answer:** B) Area of an equilateral triang\le = $\frac{sqrt{3}}{4} 	imes (side)^2$. Given area = $16sqrt{3}$, we can solve for the side length.
 
 ---
 

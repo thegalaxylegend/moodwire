@@ -167,7 +167,7 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-- **The Hidden Pattern:** In Microbes in Human Welfare, the pattern of questioning is often based on the application of microbes in various fields such as medicine, agriculture, and industry. It is observed that $\rac{1}{3}$ of the questions are from the medical applications of microbes, $\rac{1}{4}$ from agricultural applications, and $\rac{5}{12}$ from industrial applications. - **How to Apply It:** To maximize score, focus on the following key areas: 
+- **The Hidden Pattern:** In Microbes in Human Welfare, the pattern of questioning is often based on the application of microbes in various fields such as medicine, agriculture, and industry. It is observed that $\\frac{1}{3}$ of the questions are from the medical applications of microbes, $\\frac{1}{4}$ from agricultural applications, and $\\frac{5}{12}$ from industrial applications. - **How to Apply It:** To maximize score, focus on the following key areas: 
 
         - Medical [applications](/blog/biotechnology-and-its-applications-class-12-notes): Antibiotics, vaccines, and diagnosis (approx. 30% of questions)
 

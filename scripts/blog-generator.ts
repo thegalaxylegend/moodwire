@@ -568,16 +568,34 @@ RULES FOR THE LAST-NIGHT REVISION FORMAT:
 STRICT RULE: Focus entirely on what's examined, not just general knowledge.
 `;
 
-// Dynamic getters — use evolved if available, fallback to hardcoded
-const GRANDMASTER_IDENTITY = usingEvolvedPrompt 
-    ? evolvedPromptData!.evolvedPrompt 
-    : GRANDMASTER_IDENTITY_DEFAULT;
-
-// ALWAYS include the fundamental JSON format rules. Evolution should only touch the identity/voice/strategy.
-const CROSS_SECTION_RULES = CROSS_SECTION_RULES_DEFAULT;
-
 // Dynamic temperature — evolved or default 0.7
 const EVOLVED_TEMPERATURE: number = (evolvedPromptData as EvolvedPromptData | null)?.temperature || 0.7;
+
+/**
+ * NEW: Generates a grade-specific academic identity to prevent scope creep (Class 10) 
+ * while allowing maximum depth for Entrance Prep (Class 11-12).
+ */
+function getAcademicIdentity(numericClass: number, subject: string): string {
+    const baseStyle = usingEvolvedPrompt ? evolvedPromptData!.evolvedPrompt : GRANDMASTER_IDENTITY_DEFAULT;
+    
+    let boundaryRule = "";
+    if (numericClass <= 10) {
+        boundaryRule = `
+STRICT ACADEMIC BOUNDARY (CLASS ${numericClass}): 
+- You are a CBSE Board Exam Specialist. 
+- You MUST stay 100% within the NCERT/CBSE School Syllabus. 
+- DO NOT include JEE Advanced, NEET, or College-level theorems (like Cardano's, Descartes' Rule, or complex Calculus). 
+- If a student reads this, they should feel it is perfectly aligned with their school textbook.`;
+    } else {
+        boundaryRule = `
+STRICT ACADEMIC DEPTH (CLASS ${numericClass}): 
+- You are a JEE Advanced & NEET Grandmaster. 
+- You ARE ALLOWED and encouraged to use any advanced shortcut, theorem, or high-level concept that helps with JEE Advanced or NEET exams. 
+- Provide maximum mathematical/scientific depth while maintaining board-level clarity.`;
+    }
+
+    return `${baseStyle}\n${boundaryRule}\n\n${CROSS_SECTION_RULES_DEFAULT}`;
+}
 
 // Get subject-specific targets from evolved data
 function getSubjectTargets(subject: string): { minWords: number; maxWords: number; mcqCount: number } {
@@ -645,7 +663,7 @@ async function callLlmWithFallback(system: string, user: string, isJson: boolean
             
             // 3. Ultimate Fallback -> Gemini Unified Tier (6 Keys)
             console.log(`🛡️ All Groq keys saturated. Elevating to Gemini Unified Tier...`);
-            const fallbackResult = await generateWithGeminiRetry(system + (isJson ? "\nEnsure valid JSON structure." : ""), user, isJson);
+            const fallbackResult = await generateWithGeminiRetry(system + (isMetadata ? "" : (isJson ? "\nEnsure valid JSON structure." : "")), user, isJson);
             if (fallbackResult) return fallbackResult;
 
             // If Gemini also failed (all 6 keys), trigger Hard Stop to prevent Token Burn
@@ -681,7 +699,8 @@ async function generateIntro(item: any, targetYear: number, displayClass: string
 
 async function generateSection(item: any, heading: string, displayClass: string, targetYear: number): Promise<Section> {
     console.log(`📖 Jules: Writing specific revision section: ${heading}...`);
-    const system = `${GRANDMASTER_IDENTITY}\n${CROSS_SECTION_RULES}`;
+    const numericClass = Number(item.class.replace(/\D/g, ''));
+    const system = getAcademicIdentity(numericClass, item.subject);
     
     let specificDirective = "";
     if (heading.includes("Formula Bank")) {
@@ -795,7 +814,8 @@ async function generateSection(item: any, heading: string, displayClass: string,
 
 async function generateExtras(item: any): Promise<{ mcqs: MCQ[], recall: string[] }> {
     console.log(`🧠 Jules: Generating MCQs and Quick Recall for ${item.topic}...`);
-    const system = GRANDMASTER_IDENTITY;
+    const numericClass = Number(item.class.replace(/\D/g, ''));
+    const system = getAcademicIdentity(numericClass, item.subject);
     const user = `Generate 5 high-yield MCQs and 10 Quick Recall bullet points for "${item.topic}".
     The "quick_recall" items MUST be highly specific exam predictions. 
     Format each recall point with frequency tags:

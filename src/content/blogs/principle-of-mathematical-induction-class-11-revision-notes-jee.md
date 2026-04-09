@@ -117,9 +117,9 @@ Principle of Mathematical Induction is a fundamental concept in mathematics that
 
 The principle of mathematical induction can be defined as a method of proof that involves two main steps: the base case and the inductive step. The base case involves proving that the statement is true for the smallest possible value, usually $n = 1$. The inductive step involves assuming that the statement is true for $n = k$ and then proving that it is true for $n = k + 1$. This process can be continued indefinitely, allowing us to prove that the statement is true for all positive integers. 
 
-To illustrate this concept, consider the statement $1 + 2 + 3 + ldots + n = rac{n(n+1)}{2}$. To prove this using mathematical induction, we first prove the base case, which is $n = 1$. In this case, the left-hand side of the equation is $1$ and the right-hand side is $rac{1(1+1)}{2} = 1$, so the statement is true for $n = 1$. Next, we assume that the statement is true for $n = k$, i.e., $1 + 2 + 3 + ldots + k = rac{k(k+1)}{2}$. Then, we need to prove that the statement is true for $n = k + 1$, i.e., $1 + 2 + 3 + ldots + k + (k + 1) = rac{(k+1)(k+2)}{2}$. 
+To illustrate this concept, consider the statement $1 + 2 + 3 + ldots + n = \frac{n(n+1)}{2}$. To prove this using mathematical induction, we first prove the base case, which is $n = 1$. In this case, the left-hand side of the equation is $1$ and the right-hand side is $\frac{1(1+1)}{2} = 1$, so the statement is true for $n = 1$. Next, we assume that the statement is true for $n = k$, i.e., $1 + 2 + 3 + ldots + k = \frac{k(k+1)}{2}$. Then, we need to prove that the statement is true for $n = k + 1$, i.e., $1 + 2 + 3 + ldots + k + (k + 1) = \frac{(k+1)(k+2)}{2}$. 
 
-We can rewrite the left-hand side of the equation as $(1 + 2 + 3 + ldots + k) + (k + 1)$, and using the inductive hypothesis, we can substitute $rac{k(k+1)}{2}$ for $1 + 2 + 3 + ldots + k$. This gives us $rac{k(k+1)}{2} + (k + 1)$, which can be simplified to $rac{k^2 + k + 2k + 2}{2} = rac{k^2 + 3k + 2}{2} = rac{(k+1)(k+2)}{2}$. This shows that the statement is true for $n = k + 1$, and therefore, by mathematical induction, the statement is true for all positive integers $n$. 
+We can rewrite the left-hand side of the equation as $(1 + 2 + 3 + ldots + k) + (k + 1)$, and using the inductive hypothesis, we can substitute $\frac{k(k+1)}{2}$ for $1 + 2 + 3 + ldots + k$. This gives us $\frac{k(k+1)}{2} + (k + 1)$, which can be simplified to $\frac{k^2 + k + 2k + 2}{2} = \frac{k^2 + 3k + 2}{2} = \frac{(k+1)(k+2)}{2}$. This shows that the statement is true for $n = k + 1$, and therefore, by mathematical induction, the statement is true for all positive integers $n$. 
 
 Mathematical induction has numerous applications in mathematics, computer science, and other fields. It is used to prove the correctness of algorithms, to establish the validity of mathematical statements, and to solve complex problems. In computer science, mathematical induction is used to prove the correctness of recursive algorithms and to establish the complexity of algorithms. 
 
@@ -128,9 +128,9 @@ Here is a table summarizing the key components of the principle of mathematical 
 
 | Component | Description | Example |
 | --- | --- | --- |
-| Base Case | Proving the statement is true for the smallest possible value | Proving $1 = rac{1(1+1)}{2}$ |
-| Inductive Hypothesis | Assuming the statement is true for $n = k$ | Assuming $1 + 2 + 3 + ldots + k = rac{k(k+1)}{2}$ |
-| Inductive Step | Proving the statement is true for $n = k + 1$ | Proving $1 + 2 + 3 + ldots + k + (k + 1) = rac{(k+1)(k+2)}{2}$ |
+| Base Case | Proving the statement is true for the smallest possible value | Proving $1 = \frac{1(1+1)}{2}$ |
+| Inductive Hypothesis | Assuming the statement is true for $n = k$ | Assuming $1 + 2 + 3 + ldots + k = \frac{k(k+1)}{2}$ |
+| Inductive Step | Proving the statement is true for $n = k + 1$ | Proving $1 + 2 + 3 + ldots + k + (k + 1) = \frac{(k+1)(k+2)}{2}$ |
 
 
 ## <a id="what-are-the-key-steps-involved-in-the-principle-of-mathematical-induction"></a>What are the key steps involved in the Principle of Mathematical Induction?
@@ -160,14 +160,14 @@ Here's a step-by-step breakdown of how to apply weak and strong induction:
 - **Inductive Hypothesis**: For weak induction, assume the statement is true for $n=k$. For strong induction, assume it is true for all $n leq k$.
 - **Inductive Step**: Use the inductive hypothesis to prove the statement is true for $n=k+1$.
 
-Let's use the formula for the sum of the first $n$ positive integers, $S_n = rac{n(n+1)}{2}$, as an example to demonstrate weak induction. 
-1. **Base Case**: For $n=1$, $S_1 = 1 = rac{1(1+1)}{2}$, so the formula holds.
-2. **Inductive Hypothesis**: Assume for $n=k$, $S_k = rac{k(k+1)}{2}$.
-3. **Inductive Step**: We must prove that $S_{k+1} = rac{(k+1)(k+2)}{2}$. 
+Let's use the formula for the sum of the first $n$ positive integers, $S_n = \frac{n(n+1)}{2}$, as an example to demonstrate weak induction. 
+1. **Base Case**: For $n=1$, $S_1 = 1 = \frac{1(1+1)}{2}$, so the formula holds.
+2. **Inductive Hypothesis**: Assume for $n=k$, $S_k = \frac{k(k+1)}{2}$.
+3. **Inductive Step**: We must prove that $S_{k+1} = \frac{(k+1)(k+2)}{2}$. 
    - $S_{k+1} = S_k + (k+1)$, by definition.
-   - $= rac{k(k+1)}{2} + (k+1)$, using the inductive hypothesis.
-   - $= rac{k(k+1) + 2(k+1)}{2}$.
-   - $= rac{(k+1)(k+2)}{2}$, which is what we wanted to prove.
+   - $= \frac{k(k+1)}{2} + (k+1)$, using the inductive hypothesis.
+   - $= \frac{k(k+1) + 2(k+1)}{2}$.
+   - $= \frac{(k+1)(k+2)}{2}$, which is what we wanted to prove.
 
 For strong induction, consider proving that every positive integer $n$ can be represented as a sum of distinct powers of $2$ (unique binary representation). 
 1. **Base Case**: $1 = 2^0$, so it's true for $n=1$.
@@ -197,31 +197,31 @@ Here is a comparison table for weak and strong induction:
 
    The principle of mathematical induction is based on two main steps: the base case and the inductive step. The base case involves verifying that the statement is true for the smallest possible value, usually $n = 1$. The inductive step involves assuming that the statement is true for some arbitrary positive integer $k$ (this is known as the inductive hypothesis) and then proving that it is true for $k + 1$. This process demonstrates that if the statement is true for $1$ and if its truth for $k$ implies its truth for $k + 1$, then the statement is true for all positive integers.
 
-   To apply mathematical induction effectively, one must carefully consider the statement to be proven and determine the appropriate base case and inductive step. This involves understanding the structure of the statement and identifying how it can be broken down into a base case and an inductive hypothesis. For example, consider the statement $1 + 2 + cdots + n = rac{n(n + 1)}{2}$. To prove this using induction, one would first verify the base case ($n = 1$), which gives $1 = rac{1(1 + 1)}{2}$, thus confirming the statement for $n = 1$. Then, one would assume the inductive hypothesis, that $1 + 2 + cdots + k = rac{k(k + 1)}{2}$ is true for some $k$, and use this assumption to prove that $1 + 2 + cdots + k + (k + 1) = rac{(k + 1)(k + 2)}{2}$, which would confirm the statement for $k + 1$.
+   To apply mathematical induction effectively, one must carefully consider the statement to be proven and determine the appropriate base case and inductive step. This involves understanding the structure of the statement and identifying how it can be broken down into a base case and an inductive hypothesis. For example, consider the statement $1 + 2 + cdots + n = \frac{n(n + 1)}{2}$. To prove this using induction, one would first verify the base case ($n = 1$), which gives $1 = \frac{1(1 + 1)}{2}$, thus confirming the statement for $n = 1$. Then, one would assume the inductive hypothesis, that $1 + 2 + cdots + k = \frac{k(k + 1)}{2}$ is true for some $k$, and use this assumption to prove that $1 + 2 + cdots + k + (k + 1) = \frac{(k + 1)(k + 2)}{2}$, which would confirm the statement for $k + 1$.
 
-   The following table illustrates the steps involved in a proof by mathematical induction, using the example of $1 + 2 + cdots + n = rac{n(n + 1)}{2}$:
+   The following table illustrates the steps involved in a proof by mathematical induction, using the example of $1 + 2 + cdots + n = \frac{n(n + 1)}{2}$:
    
 
 
 | Step | Description | Example |
 | --- | --- | --- |
-| 1. Understand the statement | Identify what needs to be proven | Prove $1 + 2 + cdots + n = rac{n(n + 1)}{2}$ for all positive integers $n$ |
-| 2. Establish the base case | Verify the statement for the smallest value ($n = 1$) | Show $1 = rac{1(1 + 1)}{2}$ |
-| 3. Assume the inductive hypothesis | Assume the statement is true for some $k$ | Assume $1 + 2 + cdots + k = rac{k(k + 1)}{2}$ |
-| 4. Prove the inductive step | Use the inductive hypothesis to prove the statement for $k + 1$ | Prove $1 + 2 + cdots + k + (k + 1) = rac{(k + 1)(k + 2)}{2}$ |
-| 5. Conclude the proof | State that the statement is true for all positive integers by induction | Thus, $1 + 2 + cdots + n = rac{n(n + 1)}{2}$ is true for all positive integers $n$ |
+| 1. Understand the statement | Identify what needs to be proven | Prove $1 + 2 + cdots + n = \frac{n(n + 1)}{2}$ for all positive integers $n$ |
+| 2. Establish the base case | Verify the statement for the smallest value ($n = 1$) | Show $1 = \frac{1(1 + 1)}{2}$ |
+| 3. Assume the inductive hypothesis | Assume the statement is true for some $k$ | Assume $1 + 2 + cdots + k = \frac{k(k + 1)}{2}$ |
+| 4. Prove the inductive step | Use the inductive hypothesis to prove the statement for $k + 1$ | Prove $1 + 2 + cdots + k + (k + 1) = \frac{(k + 1)(k + 2)}{2}$ |
+| 5. Conclude the proof | State that the statement is true for all positive integers by induction | Thus, $1 + 2 + cdots + n = \frac{n(n + 1)}{2}$ is true for all positive integers $n$ |
 
 
 ## <a id="what-are-the-limitations-and-pitfalls-of-the-principle-of-mathematical-induction"></a>What are the limitations and pitfalls of the Principle of Mathematical Induction?
 
-What are the limitations and pitfalls of the Principle of Mathematical Induction? is a crucial aspect of discrete mathematics that involves identifying the constraints and potential errors of the principle. It includes understanding the basis step, inductive step, and the process of generalization. For Class 11 exam prep in 2026, the most important aspect is recognizing the common pitfalls such as incorrect basis step, flawed inductive hypothesis, and improper generalization. The principle of mathematical induction is a powerful tool for proving statements about the set of positive integers, but it has several limitations and pitfalls that must be understood to apply it correctly. One of the primary limitations is that it can only be used to prove statements about positive integers, and it does not provide a method for discovering proofs. Additionally, the principle of mathematical induction requires a rigorous and systematic approach to avoid common pitfalls such as assuming the inductive step is true without properly verifying it. The following are some key limitations and pitfalls to watch out for: incorrect basis step, flawed inductive hypothesis, and failure to properly generalize the statement. To illustrate this, consider the statement $P(n): 1 + 2 + ldots + n = rac{n(n+1)}{2}$, which is true for all positive integers $n$. However, if we try to prove it using mathematical induction without properly verifying the basis step, we may end up with an incorrect proof. Similarly, if we assume a flawed inductive hypothesis, such as $P(k): 1 + 2 + ldots + k = rac{k(k+1)}{2} + 1$, we may not be able to properly generalize the statement. Furthermore, the principle of mathematical induction can be tricky to apply when dealing with statements that involve multiple variables or complex expressions. For instance, consider the statement $P(m,n): m + n = n + m$, which is true for all positive integers $m$ and $n$. To prove this statement using mathematical induction, we need to carefully consider the basis step and inductive step for both variables $m$ and $n$. The table below summarizes some common pitfalls to watch out for when applying the principle of mathematical induction: 
+What are the limitations and pitfalls of the Principle of Mathematical Induction? is a crucial aspect of discrete mathematics that involves identifying the constraints and potential errors of the principle. It includes understanding the basis step, inductive step, and the process of generalization. For Class 11 exam prep in 2026, the most important aspect is recognizing the common pitfalls such as incorrect basis step, flawed inductive hypothesis, and improper generalization. The principle of mathematical induction is a powerful tool for proving statements about the set of positive integers, but it has several limitations and pitfalls that must be understood to apply it correctly. One of the primary limitations is that it can only be used to prove statements about positive integers, and it does not provide a method for discovering proofs. Additionally, the principle of mathematical induction requires a rigorous and systematic approach to avoid common pitfalls such as assuming the inductive step is true without properly verifying it. The following are some key limitations and pitfalls to watch out for: incorrect basis step, flawed inductive hypothesis, and failure to properly generalize the statement. To illustrate this, consider the statement $P(n): 1 + 2 + ldots + n = \frac{n(n+1)}{2}$, which is true for all positive integers $n$. However, if we try to prove it using mathematical induction without properly verifying the basis step, we may end up with an incorrect proof. Similarly, if we assume a flawed inductive hypothesis, such as $P(k): 1 + 2 + ldots + k = \frac{k(k+1)}{2} + 1$, we may not be able to properly generalize the statement. Furthermore, the principle of mathematical induction can be tricky to apply when dealing with statements that involve multiple variables or complex expressions. For instance, consider the statement $P(m,n): m + n = n + m$, which is true for all positive integers $m$ and $n$. To prove this statement using mathematical induction, we need to carefully consider the basis step and inductive step for both variables $m$ and $n$. The table below summarizes some common pitfalls to watch out for when applying the principle of mathematical induction: 
 
 
 | Pitfall | Description | Example |
 | --- | --- | --- |
-| Incorrect basis step | Failing to properly verify the basis step, which can lead to an incorrect proof. | $P(1): 1 = rac{1(1+1)}{2} + 1$ |
-| Flawed inductive hypothesis | Assuming an incorrect inductive hypothesis, which can lead to a flawed proof. | $P(k): 1 + 2 + ldots + k = rac{k(k+1)}{2} + 1$ |
-| Failure to properly generalize | Failing to properly generalize the statement, which can lead to an incomplete proof. | $P(n): 1 + 2 + ldots + n = rac{n(n+1)}{2}$ for $n leq 10$ |
+| Incorrect basis step | Failing to properly verify the basis step, which can lead to an incorrect proof. | $P(1): 1 = \frac{1(1+1)}{2} + 1$ |
+| Flawed inductive hypothesis | Assuming an incorrect inductive hypothesis, which can lead to a flawed proof. | $P(k): 1 + 2 + ldots + k = \frac{k(k+1)}{2} + 1$ |
+| Failure to properly generalize | Failing to properly generalize the statement, which can lead to an incomplete proof. | $P(n): 1 + 2 + ldots + n = \frac{n(n+1)}{2}$ for $n leq 10$ |
 | Ignoring the domain of the statement | Failing to consider the domain of the statement, which can lead to an incorrect proof. | $P(x): x^2 + 1 = 0$ for all real numbers $x$ |
 
 
@@ -233,11 +233,11 @@ What is Ayush's Note on Principle of Mathematical Induction? is a study guide th
    
    First, we define the statement $P(n)$ that we want to prove. Then, we prove the base case $P(1)$ to show that the statement is true for $n = 1$. Next, we assume that $P(k)$ is true for some arbitrary value $k$ and prove that $P(k + 1)$ is also true. This completes the inductive step. 
    
-   To illustrate this process, consider the statement $P(n): 1 + 2 + ldots + n = rac{n(n+1)}{2}$. To prove this statement using mathematical induction, we start with the base case $P(1)$, which states that $1 = rac{1(1+1)}{2}$. This is clearly true, so we have verified the base case. 
+   To illustrate this process, consider the statement $P(n): 1 + 2 + ldots + n = \frac{n(n+1)}{2}$. To prove this statement using mathematical induction, we start with the base case $P(1)$, which states that $1 = \frac{1(1+1)}{2}$. This is clearly true, so we have verified the base case. 
    
-   Next, we assume that $P(k)$ is true for some arbitrary value $k$, which means that $1 + 2 + ldots + k = rac{k(k+1)}{2}$. Then, we want to prove that $P(k + 1)$ is also true, which means that $1 + 2 + ldots + k + (k + 1) = rac{(k+1)(k+2)}{2}$. We can start with the left-hand side of the equation and use the inductive hypothesis to simplify it: 
+   Next, we assume that $P(k)$ is true for some arbitrary value $k$, which means that $1 + 2 + ldots + k = \frac{k(k+1)}{2}$. Then, we want to prove that $P(k + 1)$ is also true, which means that $1 + 2 + ldots + k + (k + 1) = \frac{(k+1)(k+2)}{2}$. We can start with the left-hand side of the equation and use the inductive hypothesis to simplify it: 
    
-   $1 + 2 + ldots + k + (k + 1) = (1 + 2 + ldots + k) + (k + 1) = rac{k(k+1)}{2} + (k + 1) = rac{k(k+1) + 2(k + 1)}{2} = rac{(k+1)(k+2)}{2}$. 
+   $1 + 2 + ldots + k + (k + 1) = (1 + 2 + ldots + k) + (k + 1) = \frac{k(k+1)}{2} + (k + 1) = \frac{k(k+1) + 2(k + 1)}{2} = \frac{(k+1)(k+2)}{2}$. 
    
    This shows that $P(k + 1)$ is true, which completes the inductive step. Therefore, by the principle of mathematical induction, the statement $P(n)$ is true for all positive integers $n$. 
    
@@ -276,9 +276,9 @@ How to identify and prove the base case in Mathematical Induction is a methodolo
 
 | Concept | Description | Example |
 | --- | --- | --- |
-| Base Case | The smallest value of $n$ for which the statement is verified to be true | For the statement $1 + 2 + cdots + n = rac{n(n+1)}{2}$, the base case is $n=1$ |
-| Inductive Hypothesis | The assumption that the statement is true for $n=k$ | Assuming $1 + 2 + cdots + k = rac{k(k+1)}{2}$ is true |
-| Inductive Step | Proving the statement is true for $n=k+1$ based on the inductive hypothesis | Proving $1 + 2 + cdots + (k+1) = rac{(k+1)(k+2)}{2}$ using the hypothesis |
+| Base Case | The smallest value of $n$ for which the statement is verified to be true | For the statement $1 + 2 + cdots + n = \frac{n(n+1)}{2}$, the base case is $n=1$ |
+| Inductive Hypothesis | The assumption that the statement is true for $n=k$ | Assuming $1 + 2 + cdots + k = \frac{k(k+1)}{2}$ is true |
+| Inductive Step | Proving the statement is true for $n=k+1$ based on the inductive hypothesis | Proving $1 + 2 + cdots + (k+1) = \frac{(k+1)(k+2)}{2}$ using the hypothesis |
 
 
 ## <a id="what-are-common-trap-questions-for-principle-of-mathematical-induction"></a>What are common Trap Questions for Principle of Mathematical Induction?
@@ -311,9 +311,9 @@ Mathematical Induction is a method used to prove that a statement is true for al
 
 To start with, let's break down the process of mathematical induction. The base case involves verifying that the statement is true for the smallest possible value, usually $n = 1$. The inductive hypothesis is the assumption that the statement is true for some positive integer $k$, and the inductive step involves proving that if the statement is true for $n = k$, then it is also true for $n = k + 1$. 
 
-Let's consider an example to illustrate this process. Suppose we want to prove that $1 + 2 + 3 + cdots + n = rac{n(n + 1)}{2}$ for all positive integers $n$. We would start by verifying the base case, which is $n = 1$. In this case, the left-hand side is $1$ and the right-hand side is $rac{1(1 + 1)}{2} = 1$, so the statement is true for $n = 1$.
+Let's consider an example to illustrate this process. Suppose we want to prove that $1 + 2 + 3 + cdots + n = \frac{n(n + 1)}{2}$ for all positive integers $n$. We would start by verifying the base case, which is $n = 1$. In this case, the left-hand side is $1$ and the right-hand side is $\frac{1(1 + 1)}{2} = 1$, so the statement is true for $n = 1$.
 
-Next, we would assume the inductive hypothesis, which is that $1 + 2 + 3 + cdots + k = rac{k(k + 1)}{2}$ for some positive integer $k$. Then, we would use this hypothesis to prove that the statement is true for $n = k + 1$. This involves showing that $1 + 2 + 3 + cdots + k + (k + 1) = rac{(k + 1)(k + 2)}{2}$.
+Next, we would assume the inductive hypothesis, which is that $1 + 2 + 3 + cdots + k = \frac{k(k + 1)}{2}$ for some positive integer $k$. Then, we would use this hypothesis to prove that the statement is true for $n = k + 1$. This involves showing that $1 + 2 + 3 + cdots + k + (k + 1) = \frac{(k + 1)(k + 2)}{2}$.
 
 By applying mathematical induction, we can prove a wide range of inequalities and equations. For instance, we can use it to prove that $2^n > n^2$ for all integers $n geq 4$, or that $n! > 2^n$ for all integers $n geq 4$. 
 
@@ -335,8 +335,8 @@ Some common applications of mathematical induction include:
 In terms of exam prep, it's essential to practice applying mathematical induction to a variety of problems, including inequalities and equations. This will help you develop a deeper understanding of the subject and improve your problem-solving skills.
 
 Here are some examples of mathematical induction problems:
-- Prove that $1^2 + 2^2 + 3^2 + cdots + n^2 = rac{n(n + 1)(2n + 1)}{6}$ for all positive integers $n$.
-- Prove that $1 + 2 + 3 + cdots + n = rac{n(n + 1)}{2}$ for all positive integers $n$.
+- Prove that $1^2 + 2^2 + 3^2 + cdots + n^2 = \frac{n(n + 1)(2n + 1)}{6}$ for all positive integers $n$.
+- Prove that $1 + 2 + 3 + cdots + n = \frac{n(n + 1)}{2}$ for all positive integers $n$.
 - Prove that $2^n > n^2$ for all integers $n geq 4$.
 
 By working through these examples and practicing applying mathematical induction, you can develop a strong foundation in discrete mathematics and improve your performance on the Class 11 exam.
@@ -347,7 +347,7 @@ The table below summarizes some key points about mathematical induction:
 
 | Statement | Base Case | Inductive Hypothesis | Inductive Step |
 | --- | --- | --- | --- |
-| $1 + 2 + 3 + cdots + n = rac{n(n + 1)}{2}$ | $n = 1$ | $1 + 2 + 3 + cdots + k = rac{k(k + 1)}{2}$ | $1 + 2 + 3 + cdots + k + (k + 1) = rac{(k + 1)(k + 2)}{2}$ |
+| $1 + 2 + 3 + cdots + n = \frac{n(n + 1)}{2}$ | $n = 1$ | $1 + 2 + 3 + cdots + k = \frac{k(k + 1)}{2}$ | $1 + 2 + 3 + cdots + k + (k + 1) = \frac{(k + 1)(k + 2)}{2}$ |
 | $2^n > n^2$ | $n = 4$ | $2^k > k^2$ | $2^{k + 1} > (k + 1)^2$ |
 | $n! > 2^n$ | $n = 4$ | $k! > 2^k$ | $(k + 1)! > 2^{k + 1}$ |
 

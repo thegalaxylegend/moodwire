@@ -176,7 +176,7 @@ The Chain Rule is a fundamental principle in calculus that enables us to differe
 
 To grasp the Chain Rule, let's first understand the concept of composite functions. A composite function is a function of the form $f(g(x))$, where $f$ and $g$ are two separate functions. The Chain Rule states that the derivative of a composite function $f(g(x))$ is given by $f'(g(x)) cdot g'(x)$. This can be expressed mathematically as: 
 $$
-rac{d}{dx}f(g(x)) = f'(g(x)) cdot g'(x)
+\frac{d}{dx}f(g(x)) = f'(g(x)) cdot g'(x)
 $$
 
 To apply the Chain Rule, we need to identify the outer and inner functions. The outer function is the function $f$ that is being applied to the inner function $g(x)$. For example, in the composite function $f(g(x)) = sin(x^2)$, the outer function is $sin(u)$ and the inner function is $u = x^2$.
@@ -230,7 +230,7 @@ What are common Trap Questions for Limits and Derivatives? is a critical aspect 
 
 To tackle these questions, it's essential to have a solid grasp of basic limit and derivative properties, including linearity, homogeneity, and the chain rule. Many students struggle with applying these properties correctly, especially when dealing with complex functions or trigonometric expressions. For instance, when evaluating the limit of a function as $x$ approaches infinity, students often forget to consider the behavior of the function's numerator and denominator separately.
 
-One common trap question involves evaluating the limit of a function that appears to be in an indeterminate form. Consider the function $f(x) = rac{sin x}{x}$ as $x$ approaches 0. Many students might incorrectly apply L'Hospital's rule, which states that for certain types of indeterminate forms, the limit can be evaluated by taking the derivative of the numerator and denominator separately. However, in this case, the function is not in an indeterminate form, and the limit can be evaluated directly using the fundamental trigonometric limit $lim_{x 	o 0} rac{sin x}{x} = 1$.
+One common trap question involves evaluating the limit of a function that appears to be in an indeterminate form. Consider the function $f(x) = \frac{sin x}{x}$ as $x$ approaches 0. Many students might incorrectly apply L'Hospital's rule, which states that for certain types of indeterminate forms, the limit can be evaluated by taking the derivative of the numerator and denominator separately. However, in this case, the function is not in an indeterminate form, and the limit can be evaluated directly using the fundamental trigonometric limit $lim_{x 	o 0} \frac{sin x}{x} = 1$.
 
 Another common pitfall is misunderstanding the concept of continuity and its relationship to limits. A function $f(x)$ is said to be continuous at a point $x = a$ if the following conditions are met: (1) $f(a)$ is defined, (2) $lim_{x 	o a} f(x)$ exists, and (3) $lim_{x 	o a} f(x) = f(a)$. Students often struggle to apply these conditions correctly, especially when dealing with piecewise functions or functions with removable discontinuities.
 
@@ -245,10 +245,10 @@ The following table summarizes some common trap questions for limits and derivat
 
 | Trap Question | Common Mistake | Correct Approach |
 | --- | --- | --- |
-| Evaluating the limit of $f(x) = rac{sin x}{x}$ as $x$ approaches 0 | Applying L'Hospital's rule incorrectly | Using the fundamental trigonometric limit $lim_{x 	o 0} rac{sin x}{x} = 1$ |
+| Evaluating the limit of $f(x) = \frac{sin x}{x}$ as $x$ approaches 0 | Applying L'Hospital's rule incorrectly | Using the fundamental trigonometric limit $lim_{x 	o 0} \frac{sin x}{x} = 1$ |
 | Determining the continuity of a piecewise function | Forgetting to check the conditions for continuity | Verifying that $f(a)$ is defined, $lim_{x 	o a} f(x)$ exists, and $lim_{x 	o a} f(x) = f(a)$ |
 | Applying the chain rule to find the derivative of $f(x) = (2x + 1)^3$ | Forgetting to multiply the outer derivative by the inner derivative | Using the correct chain rule formula: $f'(x) = 3(2x + 1)^2 cdot 2 = 6(2x + 1)^2$ |
-| Evaluating the limit of $f(x) = rac{1}{x}$ as $x$ approaches infinity | Forgetting to consider the behavior of the function's numerator and denominator | Recognizing that the limit approaches 0 as $x$ approaches infinity |
+| Evaluating the limit of $f(x) = \frac{1}{x}$ as $x$ approaches infinity | Forgetting to consider the behavior of the function's numerator and denominator | Recognizing that the limit approaches 0 as $x$ approaches infinity |
 
 
 ## <a id="how-to-solve-higher-order-derivatives-and-its-applications"></a>How to solve Higher Order Derivatives and its applications?

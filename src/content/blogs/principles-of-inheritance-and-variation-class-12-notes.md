@@ -75,13 +75,13 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 
  - *Costs:* 4-6 marks per question
 
- - *Fix:* Always start by identifying the alleles and their interactions, then use a Punnett square to calculate the probability of each genotype and phenotype. Remember that the $\rac{1}{2}$ and $\rac{1}{4}$ rules for monohybrid crosses only apply when one parent is homozygous dominant and the other is homozygous recessive.
+ - *Fix:* Always start by identifying the alleles and their interactions, then use a Punnett square to calculate the probability of each genotype and phenotype. Remember that the $\\frac{1}{2}$ and $\\frac{1}{4}$ rules for monohybrid crosses only apply when one parent is homozygous dominant and the other is homozygous recessive.
 
  - **Mistake 2:** Forgetting to account for multiple alleles or incomplete dominance when calculating the expected phenotypic ratios in a cross.
 
  - *Costs:* 5-8 marks per question
 
- - *Fix:* Be aware of the different types of interactions between alleles, such as codominance, incomplete dominance, and multiple alleles. Use the correct formulas, like the $\rac{9}{16}$, $\rac{3}{16}$, and $\rac{4}{16}$ rules for dihybrid crosses, and consider the impact of each type of interaction on the expected phenotypic ratios.
+ - *Fix:* Be aware of the different types of interactions between alleles, such as codominance, incomplete dominance, and multiple alleles. Use the correct formulas, like the $\\frac{9}{16}$, $\\frac{3}{16}$, and $\\frac{4}{16}$ rules for dihybrid crosses, and consider the impact of each type of interaction on the expected phenotypic ratios.
 
  - **Mistake 3:** Confusing between the different types of DNA variations, such as mutations, genetic recombination, and gene flow, and their effects on the evolution of populations.
 

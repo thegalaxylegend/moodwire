@@ -31,31 +31,31 @@ practice_link: "/class-11/biology/biotechnology-principles-and-processes-class-1
 
 - **Restriction Endonuclease Recognition Site:** $$\	ext{Recognition site} = \	ext{Palindromic sequence}$$ — Recognized sequence where the enzyme cuts the DNA.
 
- - **DNA Replication Initiation:** $$\	ext{Initiation} = \rac{\	ext{Unwinding of double helix}}{\	ext{Binding of initiation proteins}}$$ — Start of DNA replication process.
+ - **DNA Replication Initiation:** $$\	ext{Initiation} = \\frac{\	ext{Unwinding of double helix}}{\	ext{Binding of initiation proteins}}$$ — Start of DNA replication process.
 
- - **Polymerase Chain Reaction (PCR):** $$\	ext{PCR efficiency} = \rac{\	ext{Number of amplified fragments}}{\	ext{Number of initial template molecules}}$$ — Efficiency of PCR in amplifying DNA sequences.
+ - **Polymerase Chain Reaction (PCR):** $$\	ext{PCR efficiency} = \\frac{\	ext{Number of amplified fragments}}{\	ext{Number of initial template molecules}}$$ — Efficiency of PCR in amplifying DNA sequences.
 
- - **Gel Electrophoresis:** $$\	ext{Migration velocity} = \rac{\	ext{Charge of the molecule}}{\	ext{Size of the molecule}}$$ — Velocity of DNA/RNA fragments in gel electrophoresis.
+ - **Gel Electrophoresis:** $$\	ext{Migration velocity} = \\frac{\	ext{Charge of the molecule}}{\	ext{Size of the molecule}}$$ — Velocity of DNA/RNA fragments in gel electrophoresis.
 
- - **Southern Blotting:** $$\	ext{Hybridization signal} = \rac{\	ext{Concentration of labeled probe}}{\	ext{Concentration of target DNA}}$$ — Strength of signal in Southern blotting.
+ - **Southern Blotting:** $$\	ext{Hybridization signal} = \\frac{\	ext{Concentration of labeled probe}}{\	ext{Concentration of target DNA}}$$ — Strength of signal in Southern blotting.
 
- - **DNA Sequencing:** $$\	ext{Sequence read length} = \rac{\	ext{Number of nucleotides}}{\	ext{Number of sequencing cycles}}$$ — Length of the sequence that can be read.
+ - **DNA Sequencing:** $$\	ext{Sequence read length} = \\frac{\	ext{Number of nucleotides}}{\	ext{Number of sequencing cycles}}$$ — Length of the sequence that can be read.
 
- - **Gene Expression:** $$\	ext{Gene expression level} = \rac{\	ext{mRNA transcript level}}{\	ext{Gene copy number}}$$ — Level of expression of a particular gene.
+ - **Gene Expression:** $$\	ext{Gene expression level} = \\frac{\	ext{mRNA transcript level}}{\	ext{Gene copy number}}$$ — Level of expression of a particular gene.
 
- - **Plasmid Copy Number:** $$\	ext{Copy number} = \rac{\	ext{Number of plasmid molecules}}{\	ext{Number of host cells}}$$ — Average number of plasmid copies per host cell.
+ - **Plasmid Copy Number:** $$\	ext{Copy number} = \\frac{\	ext{Number of plasmid molecules}}{\	ext{Number of host cells}}$$ — Average number of plasmid copies per host cell.
 
- - **Transformation Efficiency:** $$\	ext{Transformation efficiency} = \rac{\	ext{Number of transformed cells}}{\	ext{Number of host cells}}$$ — Efficiency of transformation process.
+ - **Transformation Efficiency:** $$\	ext{Transformation efficiency} = \\frac{\	ext{Number of transformed cells}}{\	ext{Number of host cells}}$$ — Efficiency of transformation process.
 
- - **Transfection Efficiency:** $$\	ext{Transfection efficiency} = \rac{\	ext{Number of transfected cells}}{\	ext{Number of host cells}}$$ — Efficiency of transfection process.
+ - **Transfection Efficiency:** $$\	ext{Transfection efficiency} = \\frac{\	ext{Number of transfected cells}}{\	ext{Number of host cells}}$$ — Efficiency of transfection process.
 
- - **Western Blotting:** $$\	ext{Signal intensity} = \rac{\	ext{Concentration of antibody}}{\	ext{Concentration of antigen}}$$ — Strength of signal in Western blotting.
+ - **Western Blotting:** $$\	ext{Signal intensity} = \\frac{\	ext{Concentration of antibody}}{\	ext{Concentration of antigen}}$$ — Strength of signal in Western blotting.
 
- - **Chromatography:** $$\	ext{Retention time} = \rac{\	ext{Affinity of molecule for stationary phase}}{\	ext{Flow rate of mobile phase}}$$ — Time taken for a molecule to pass through the column.
+ - **Chromatography:** $$\	ext{Retention time} = \\frac{\	ext{Affinity of molecule for stationary phase}}{\	ext{Flow rate of mobile phase}}$$ — Time taken for a molecule to pass through the column.
 
- - **Fermentation:** $$\	ext{Biomass yield} = \rac{\	ext{Mass of biomass}}{\	ext{Mass of substrate consumed}}$$ — Yield of biomass from the substrate.
+ - **Fermentation:** $$\	ext{Biomass yield} = \\frac{\	ext{Mass of biomass}}{\	ext{Mass of substrate consumed}}$$ — Yield of biomass from the substrate.
 
- - **Downstream Processing:** $$\	ext{Purity of product} = \rac{\	ext{Concentration of product}}{\	ext{Concentration of impurities}}$$ — Purity of the product after processing.
+ - **Downstream Processing:** $$\	ext{Purity of product} = \\frac{\	ext{Concentration of product}}{\	ext{Concentration of impurities}}$$ — Purity of the product after processing.
 
 
 
@@ -165,7 +165,7 @@ ightarrow \	ext{Step 3: Extension}
 
  $$
 
- \rac{\	ext{moles of insert}}{\	ext{moles of vector}} = \rac{\	ext{length of insert (bp)}}{\	ext{length of vector (bp)}}
+ \\frac{\	ext{moles of insert}}{\	ext{moles of vector}} = \\frac{\	ext{length of insert (bp)}}{\	ext{length of vector (bp)}}
 
  $$
 

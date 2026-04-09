@@ -47,7 +47,7 @@ practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
 
 - **Euclid's Division Lemma:** $$\{ a = b \times q + r \}$$ — where $a$ is the dividend, $b$ is the divisor, $q$ is the quotient, and $r$ is the remainder.
  - **Fundamental Theorem of Arithmetic:** $$\{ n = p_1^{a_1} \times p_2^{a_2} \times ... \times p_k^{a_k} \}$$ — where $n$ is a positive integer, $p_i$ are prime factors, and $a_i$ are their respective powers.
- - **LCM and HCF Relationship:** $$\{ LCM(a, b) \times HCF(a, b) = a \times b \}$$ — where $LCM(a, b)$ is the least common multip\le and $HCF(a, b)$ is the highest common factor of $a$ and $b$.
+ - **LCM and HCF Relationship:** $$\{ LCM(a, b) \times HCF(a, b) = a \times b \}$$ — where $LCM(a, b)$ is the least common multiple and $HCF(a, b)$ is the highest common factor of $a$ and $b$.
  - **Decimal Expansion:** $$\{ a = \frac{\{p_1 \times 10^n + p_2 \times 10^{n-1} + ... + p_n \times 10^0 \}}{10^n} \}$$ — where $a$ is a decimal number and $p_i$ are its digits.
  - **Rational Number:** $$\{ \frac{p}{q} \}$$ — where $p$ is the numerator and $q$ is the denominator.
  - **Irrational Number:** $$\{ a = \sqrt{b} \}$$ — where $a$ is an irrational number and $b$ is not a perfect square.
@@ -72,9 +72,9 @@ practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
  - **Mistake 4:** Not properly applying the rules for operating with surds {\( \sqrt{x} \)}, which can lead to incorrect simplifications or calculations.
  - *Costs:* 2-3 marks
  - *Fix:* Review the rules for simplifying and operating with surds, including the use of conjugates to rationalize denominators. Practice applying these rules in various problems, ensuring you can simplify expressions correctly and perform calculations accurately.
- - **Mistake 5:** Failing to consider all possib\le cases when solving inequalities involving real numbers, particularly those with absolute values or fractions, which can lead to incomplete or incorrect solutions.
+ - **Mistake 5:** Failing to consider all possible cases when solving inequalities involving real numbers, particularly those with absolute values or fractions, which can lead to incomplete or incorrect solutions.
  - *Costs:* 4-5 marks
- - *Fix:* When solving inequalities, ensure you consider all possib\le cases, including the signs of the expressions involved and any critical points. Use interval notation or other methods to represent the solution set accurately, and verify your solutions by checking test points or using graphical methods.
+ - *Fix:* When solving inequalities, ensure you consider all possible cases, including the signs of the expressions involved and any critical points. Use interval notation or other methods to represent the solution set accurately, and verify your solutions by checking test points or using graphical methods.
 
 
 
@@ -97,7 +97,7 @@ practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
  - $pr + q + s = -7$
  - $ps + qr = -12$
  - $qs = -18$
- - From $qs = -18$, possib\le integer pairs for $(q, s)$ are $(1, -18), (-1, 18), (2, -9), (-2, 9), (3, -6), (-3, 6)$.
+ - From $qs = -18$, possible integer pairs for $(q, s)$ are $(1, -18), (-1, 18), (2, -9), (-2, 9), (3, -6), (-3, 6)$.
  - We can then solve for $p$ and $r$ using the other equations, looking for integer solutions that fit all given equations.
  - The correct pair that satisfies all conditions will give us the value of $q$.
  - **Answer:** $q = -3$
@@ -137,7 +137,7 @@ practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-- **The Hidden Pattern:** Real numbers can be represented on the number line, and the distance between two points $a$ and $b$ can be calculated using the formula $|a - b| = \sqrt{(a - b)^2}$, which can be further simplified to $|a - b|$. This concept is crucial in understanding the properties of real numbers, especially when dealing with inequalities and absolute values. For instance, the inequality $|x - 2| \leq 3$ can be solved by considering the distance between $x$ and $2$ on the number line.,- **How to Apply It:** To apply this pattern, start by analyzing the given inequality or equation and identify the absolute value expression. Then, use the definition of absolute value to rewrite the expression without the absolute value symbol. For examp\le, $|x - 3| = 4$ can be rewritten as $x - 3 = 4$ or $x - 3 = -4$. This will help you to find the solutions to the equation or inequality. Additionally, when dealing with quadratic equations, the discriminant $b^2 - 4ac$ can be used to determine the nature of the roots, which is closely related to the concept of real numbers.,- **PYQ-Specific Trend:** A trend observed in previous years' papers is that questions on real numbers often involve the use of inequalities, such as $x^2 - 4x + 4 \geq 0$ or $x^2 + 4x + 4 \leq 0$. To solve these inequalities, we can use the concept of quadratic equations and the properties of real numbers. For instance, the inequality $x^2 - 4x + 4 \geq 0$ can be factored as $(x - 2)^2 \geq 0$, which is always true for all real values of $x$. Similarly, the inequality $x^2 + 4x + 4 \leq 0$ can be factored as $(x + 2)^2 \leq 0$, which has no real solutions.,- **Common Mistakes to Avoid:** When dealing with real numbers, especially in inequalities, it's essential to be careful with the signs and directions of the inequalities. A common mistake is to forget to flip the inequality sign when multiplying or dividing both sides by a negative number. For examp\le, $-2x > 4$ should be rewritten as $x < -2$, not $x > -2$. Additionally, when solving quadratic inequalities, make sure to consider all possib\le cases, including the case where the quadratic expression is equal to zero.
+- **The Hidden Pattern:** Real numbers can be represented on the number line, and the distance between two points $a$ and $b$ can be calculated using the formula $|a - b| = \sqrt{(a - b)^2}$, which can be further simplified to $|a - b|$. This concept is crucial in understanding the properties of real numbers, especially when dealing with inequalities and absolute values. For instance, the inequality $|x - 2| \leq 3$ can be solved by considering the distance between $x$ and $2$ on the number line.,- **How to Apply It:** To apply this pattern, start by analyzing the given inequality or equation and identify the absolute value expression. Then, use the definition of absolute value to rewrite the expression without the absolute value symbol. For examp\le, $|x - 3| = 4$ can be rewritten as $x - 3 = 4$ or $x - 3 = -4$. This will help you to find the solutions to the equation or inequality. Additionally, when dealing with quadratic equations, the discriminant $b^2 - 4ac$ can be used to determine the nature of the roots, which is closely related to the concept of real numbers.,- **PYQ-Specific Trend:** A trend observed in previous years' papers is that questions on real numbers often involve the use of inequalities, such as $x^2 - 4x + 4 \geq 0$ or $x^2 + 4x + 4 \leq 0$. To solve these inequalities, we can use the concept of quadratic equations and the properties of real numbers. For instance, the inequality $x^2 - 4x + 4 \geq 0$ can be factored as $(x - 2)^2 \geq 0$, which is always true for all real values of $x$. Similarly, the inequality $x^2 + 4x + 4 \leq 0$ can be factored as $(x + 2)^2 \leq 0$, which has no real solutions.,- **Common Mistakes to Avoid:** When dealing with real numbers, especially in inequalities, it's essential to be careful with the signs and directions of the inequalities. A common mistake is to forget to flip the inequality sign when multiplying or dividing both sides by a negative number. For examp\le, $-2x > 4$ should be rewritten as $x < -2$, not $x > -2$. Additionally, when solving quadratic inequalities, make sure to consider all possible cases, including the case where the quadratic expression is equal to zero.
 
 | Concept | Formula | Example |
 | --- | --- | --- |
@@ -196,7 +196,7 @@ B) -1/5
 C) 2/5
 D) -1
 
-**Answer:** C) Given, $x^2 + y^2 = 1$ and $x + y = 2x - 3$ $Rightarrow x + y = 2x - 3$ $Rightarrow y = x - 3$ Substituting the value of $y$, we get $x^2 + (x - 3)^2 = 1$ $Rightarrow x^2 + x^2 - 6x + 9 = 1$ $Rightarrow 2x^2 - 6x + 8 = 0$ $Rightarrow x^2 - 3x + 4 = 0$ $Rightarrow x = rac{3 \pm sqrt{9 - 16}}{2}$ $Rightarrow x = rac{3 \pm sqrt{-7}}{2}$ But $x$ is real, so $x = rac{3 \pm isqrt{7}}{2}$ is not possib\le. Now, $x + y = 2x - 3$ $Rightarrow y - x = -3$ $Rightarrow (y - x)^2 = (-3)^2$ $Rightarrow y^2 + x^2 - 2xy = 9$ $Rightarrow 1 - 2xy = 9$ $Rightarrow -2xy = 8$ $Rightarrow xy = -4$ Now, $(x + y)^2 = (2x - 3)^2$ $Rightarrow x^2 + y^2 + 2xy = 4x^2 - 12x + 9$ $Rightarrow 1 + 2(-4) = 4x^2 - 12x + 9$ $Rightarrow -7 = 4x^2 - 12x + 9$ $Rightarrow 4x^2 - 12x + 16 = 0$ $Rightarrow x^2 - 3x + 4 = 0$ $Rightarrow x = rac{3 \pm sqrt{9 - 16}}{2}$ But $x$ is real, so we must have $x^2 - 3x + 4 = 0$ as $x = rac{3 \pm isqrt{7}}{2}$ is not possib\le. On solving $x^2 - 3x + 4 = 0$, we get $x = rac{3 \pm sqrt{9 - 16}}{2}$. But $x$ is real, so we must have $x = rac{3 \pm sqrt{9 - 16}}{2}$ as $x = rac{3 \pm isqrt{7}}{2}$ is not possib\le. Solving the equation $x^2 + y^2 = 1$ and $x + y = 2x - 3$, we get $x = rac{2}{5}$
+**Answer:** C) Given, $x^2 + y^2 = 1$ and $x + y = 2x - 3$ $Rightarrow x + y = 2x - 3$ $Rightarrow y = x - 3$ Substituting the value of $y$, we get $x^2 + (x - 3)^2 = 1$ $Rightarrow x^2 + x^2 - 6x + 9 = 1$ $Rightarrow 2x^2 - 6x + 8 = 0$ $Rightarrow x^2 - 3x + 4 = 0$ $Rightarrow x = \frac{3 \pm sqrt{9 - 16}}{2}$ $Rightarrow x = \frac{3 \pm \sqrt{-7}}{2}$ But $x$ is real, so $x = \frac{3 \pm isqrt{7}}{2}$ is not possible. Now, $x + y = 2x - 3$ $Rightarrow y - x = -3$ $Rightarrow (y - x)^2 = (-3)^2$ $Rightarrow y^2 + x^2 - 2xy = 9$ $Rightarrow 1 - 2xy = 9$ $Rightarrow -2xy = 8$ $Rightarrow xy = -4$ Now, $(x + y)^2 = (2x - 3)^2$ $Rightarrow x^2 + y^2 + 2xy = 4x^2 - 12x + 9$ $Rightarrow 1 + 2(-4) = 4x^2 - 12x + 9$ $Rightarrow -7 = 4x^2 - 12x + 9$ $Rightarrow 4x^2 - 12x + 16 = 0$ $Rightarrow x^2 - 3x + 4 = 0$ $Rightarrow x = \frac{3 \pm sqrt{9 - 16}}{2}$ But $x$ is real, so we must have $x^2 - 3x + 4 = 0$ as $x = \frac{3 \pm isqrt{7}}{2}$ is not possible. On solving $x^2 - 3x + 4 = 0$, we get $x = \frac{3 \pm sqrt{9 - 16}}{2}$. But $x$ is real, so we must have $x = \frac{3 \pm sqrt{9 - 16}}{2}$ as $x = \frac{3 \pm isqrt{7}}{2}$ is not possible. Solving the equation $x^2 + y^2 = 1$ and $x + y = 2x - 3$, we get $x = \frac{2}{5}$
 
 ---
 
@@ -207,7 +207,7 @@ B) 5
 C) 2
 D) 1
 
-**Answer:** C) Let $f(x) = (x - 1)^2 + (x - 2)^2 + (x - 3)^2$ $= x^2 - 2x + 1 + x^2 - 4x + 4 + x^2 - 6x + 9$ $= 3x^2 - 12x + 14$ For maxima/minima, we have $f'(x) = 0$ $Rightarrow 6x - 12 = 0$ $Rightarrow x = 2$ Now, $f''(x) = 6 > 0$, so $x = 2$ is po\int of local minima. Hence, the minimum value of $f(x)$ is $f(2) = 3(2)^2 - 12(2) + 14 = 2$
+**Answer:** C) Let $f(x) = (x - 1)^2 + (x - 2)^2 + (x - 3)^2$ $= x^2 - 2x + 1 + x^2 - 4x + 4 + x^2 - 6x + 9$ $= 3x^2 - 12x + 14$ For maxima/minima, we have $f'(x) = 0$ $Rightarrow 6x - 12 = 0$ $Rightarrow x = 2$ Now, $f''(x) = 6 > 0$, so $x = 2$ is point of local minima. Hence, the minimum value of $f(x)$ is $f(2) = 3(2)^2 - 12(2) + 14 = 2$
 
 ---
 
@@ -218,7 +218,7 @@ B) 1/2
 C) -1
 D) 0
 
-**Answer:** A) Given, $a + b + c = 0$ $Rightarrow (a + b + c)^2 = 0$ $Rightarrow a^2 + b^2 + c^2 + 2ab + 2bc + 2ca = 0$ $Rightarrow 1 + 2(ab + bc + ca) = 0$ $Rightarrow ab + bc + ca = -rac{1}{2}$
+**Answer:** A) Given, $a + b + c = 0$ $Rightarrow (a + b + c)^2 = 0$ $Rightarrow a^2 + b^2 + c^2 + 2ab + 2bc + 2ca = 0$ $Rightarrow 1 + 2(ab + bc + ca) = 0$ $Rightarrow ab + bc + ca = -\frac{1}{2}$
 
 
 ---

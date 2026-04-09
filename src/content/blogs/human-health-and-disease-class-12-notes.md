@@ -31,25 +31,25 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 
 - **Basal Metabolic Rate (BMR):** $$\	ext{BMR} = 66 + (6.2 \	imes \	ext{weight in lbs}) + (12.7 \	imes \	ext{height in inches}) - (6.8 \	imes \	ext{age in years})$$ — Weight in lbs, height in inches, age in years
 
- - **Body Mass Index (BMI):** $$\	ext{BMI} = \rac{\	ext{weight in kg}}{\	ext{height in meters}^2}$$ — Weight in kg, height in meters
+ - **Body Mass Index (BMI):** $$\	ext{BMI} = \\frac{\	ext{weight in kg}}{\	ext{height in meters}^2}$$ — Weight in kg, height in meters
 
  - **Daily Energy Expenditure:** $$\	ext{DEE} = \	ext{BMR} \	imes \	ext{activity factor}$$ — BMR, activity factor
 
- - **Respiratory Quotient (RQ):** $$\	ext{RQ} = \rac{\	ext{volume of CO}_2 \	ext{produced}}{\	ext{volume of O}_2 \	ext{consumed}}$$ — Volume of CO2 produced, volume of O2 consumed
+ - **Respiratory Quotient (RQ):** $$\	ext{RQ} = \\frac{\	ext{volume of CO}_2 \	ext{produced}}{\	ext{volume of O}_2 \	ext{consumed}}$$ — Volume of CO2 produced, volume of O2 consumed
 
  - **Arteriovenous Oxygen Difference:** $$\	ext{a-v O}_2 \	ext{ difference} = \	ext{CaO}_2 - \	ext{CvO}_2$$ — CaO2 (arterial oxygen content), CvO2 (venous oxygen content)
 
  - **Cardiac Output (CO):** $$\	ext{CO} = \	ext{HR} \	imes \	ext{SV}$$ — HR (heart rate), SV (stroke volume)
 
- - **Mean Arterial Pressure (MAP):** $$\	ext{MAP} = \rac{2 \	imes \	ext{diastolic blood pressure} + \	ext{systolic blood pressure}}{3}$$ — Diastolic blood pressure, systolic blood pressure
+ - **Mean Arterial Pressure (MAP):** $$\	ext{MAP} = \\frac{2 \	imes \	ext{diastolic blood pressure} + \	ext{systolic blood pressure}}{3}$$ — Diastolic blood pressure, systolic blood pressure
 
  - **Cerebral Perfusion Pressure (CPP):** $$\	ext{CPP} = \	ext{MAP} - \	ext{ICP}$$ — MAP (mean arterial pressure), ICP (intracranial pressure)
 
- - **Glomerular Filtration Rate (GFR):** $$\	ext{GFR} = \rac{\	ext{urine flow rate} \	imes \	ext{urine concentration}}{\	ext{plasma concentration}}$$ — Urine flow rate, urine concentration, plasma concentration
+ - **Glomerular Filtration Rate (GFR):** $$\	ext{GFR} = \\frac{\	ext{urine flow rate} \	imes \	ext{urine concentration}}{\	ext{plasma concentration}}$$ — Urine flow rate, urine concentration, plasma concentration
 
- - **Half-life of a Substance:** $$t_{1/2} = \rac{0.693}{k}$$ — k (elimination rate constant)
+ - **Half-life of a Substance:** $$t_{1/2} = \\frac{0.693}{k}$$ — k (elimination rate constant)
 
- - **Michaelis-Menten Kinetics:** $$v = \rac{V_{\	ext{max}} \	imes [S]}{K_m + [S]}$$ — v (reaction velocity), Vmax (maximum velocity), [S] (substrate concentration), Km (Michaelis constant)
+ - **Michaelis-Menten Kinetics:** $$v = \\frac{V_{\	ext{max}} \	imes [S]}{K_m + [S]}$$ — v (reaction velocity), Vmax (maximum velocity), [S] (substrate concentration), Km (Michaelis constant)
 
 
 
@@ -65,7 +65,7 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 
  - *Costs:* 5-8 marks per question
 
- - *Fix:* Use the formula for herd immunity threshold: $1 - \rac{1}{R_0}$, where $R_0$ is the basic reproduction number. Practice calculating the threshold for different diseases and vaccines, considering factors like vaccine efficacy and population density.
+ - *Fix:* Use the formula for herd immunity threshold: $1 - \\frac{1}{R_0}$, where $R_0$ is the basic reproduction number. Practice calculating the threshold for different diseases and vaccines, considering factors like vaccine efficacy and population density.
 
  - **Mistake 3:** Confusing the terms 'incubation period' and 'latent period'. This confusion can lead to incorrect interpretations of epidemiological data and misunderstandings of disease transmission.
 

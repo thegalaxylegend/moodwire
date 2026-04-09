@@ -135,13 +135,13 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
 - **The Core Concept:** The concept of Island Biogeography, which explains the relationship between species richness and island size. This concept is crucial in understanding biodiversity and conservation, as it helps predict the number of species that can coexist on an island.
 
- - **What 85% scorers do:** Most students understand that the number of species on an island is a function of the island's size and its distance from the mainland. However, they often fail to apply the $S = \rac{I}{E}$ formula correctly, where $S$ is the number of species, $I$ is the immigration rate, and $E$ is the extinction rate. They also tend to oversimplify the relationship between species richness and island size.
+ - **What 85% scorers do:** Most students understand that the number of species on an island is a function of the island's size and its distance from the mainland. However, they often fail to apply the $S = \\frac{I}{E}$ formula correctly, where $S$ is the number of species, $I$ is the immigration rate, and $E$ is the extinction rate. They also tend to oversimplify the relationship between species richness and island size.
 
- - **What 95% scorers do:** Top scorers recognize that the relationship between species richness and island size is more complex. They understand that the $S = \rac{I}{E}$ formula is a simplification and that the actual relationship is governed by the following equation: 
+ - **What 95% scorers do:** Top scorers recognize that the relationship between species richness and island size is more complex. They understand that the $S = \\frac{I}{E}$ formula is a simplification and that the actual relationship is governed by the following equation: 
 
  $$
 
- \rac{dS}{dt} = I - ES
+ \\frac{dS}{dt} = I - ES
 
  $$
 
@@ -151,7 +151,7 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
  - Species-Area Curve: $S = cA^z$, where $S$ is the number of species, $A$ is the area, $c$ is a constant, and $z$ is the slope of the curve.
 
- - Immigration and Extinction Rates: $I = \rac{I_0}{A}$ and $E = \rac{E_0}{A}$, where $I_0$ and $E_0$ are constants.
+ - Immigration and Extinction Rates: $I = \\frac{I_0}{A}$ and $E = \\frac{E_0}{A}$, where $I_0$ and $E_0$ are constants.
 
  - **Common Pitfalls:** 
 
@@ -172,7 +172,7 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 | Concept | Formula | Description |
 | --- | --- | --- |
 | Species-Area Curve | $S = cA^z$ | Describes the relationship between species richness and island size |
-| Immigration and Extinction Rates | $I = \rac{I_0}{A}$ and $E = \rac{E_0}{A}$ | Describe the rates at which species immigrate to and go extinct on an island |
+| Immigration and Extinction Rates | $I = \\frac{I_0}{A}$ and $E = \\frac{E_0}{A}$ | Describe the rates at which species immigrate to and go extinct on an island |
 
 
 

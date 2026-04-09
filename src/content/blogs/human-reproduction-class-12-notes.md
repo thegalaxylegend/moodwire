@@ -197,15 +197,15 @@ practice_link: "/class-11/biology/human-reproduction-class-12-notes"
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- $F_{1}$ = $\rac{1}{4} \	imes (\	ext{Number of parental gene combinations})$ for a monohybrid cross.
+- $F_{1}$ = $\\frac{1}{4} \	imes (\	ext{Number of parental gene combinations})$ for a monohybrid cross.
 
- - $q = \rac{\	ext{Number of recessive alleles}}{\	ext{Total number of alleles}}$ for calculating allele frequency.
+ - $q = \\frac{\	ext{Number of recessive alleles}}{\	ext{Total number of alleles}}$ for calculating allele frequency.
 
- - $p = \rac{\	ext{Number of dominant alleles}}{\	ext{Total number of alleles}}$ for calculating allele frequency.
+ - $p = \\frac{\	ext{Number of dominant alleles}}{\	ext{Total number of alleles}}$ for calculating allele frequency.
 
  - $H = 1 - (p^2 + q^2)$ for calculating the frequency of heterozygotes in a population.
 
- - $\Delta p = \rac{pQ - pq}{p + q}$ for calculating the change in allele frequency.
+ - $\Delta p = \\frac{pQ - pq}{p + q}$ for calculating the change in allele frequency.
 
  - Human reproduction involves the fusion of a sperm and an egg, resulting in a zygote with a unique combination of genetic traits.
 
