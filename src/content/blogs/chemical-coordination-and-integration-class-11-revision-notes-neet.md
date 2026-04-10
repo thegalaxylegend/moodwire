@@ -85,7 +85,7 @@ $$
 
 ## <a id="jeeneet-data"></a>JEE/NEET Data
 
-Chemical coordination and integration is a critical topic for JEE/NEET aspirants. According to the JEE/NEET syllabus, the following topics are covered under chemical coordination and integration:
+Chemical coordination and integration is a critical topic for JEE/[neet](/blog/structure-of-the-atom-class-11-revision-notes-neet) aspirants. According to the JEE/[neet](/blog/structure-of-the-atom-class-11-revision-notes-neet) syllabus, the following topics are covered under chemical coordination and integration:
 
 * Endocrine glands and hormones
 * Hormone regulation and feedback mechanisms
@@ -96,7 +96,7 @@ In the JEE/NEET exam, chemical coordination and integration is covered in the bi
 
 ## <a id="core-concepts-in-depth"></a>Core Concepts in Depth
 
-Let's dive deeper into some of the core concepts of chemical coordination and integration.
+Let's dive deeper into [some](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) of the core concepts of chemical coordination and integration.
 
 ### <a id="feedback-mechanisms"></a>Feedback Mechanisms
 Feedback mechanisms are essential for regulating hormone secretion. There are two types of feedback mechanisms: negative feedback and positive feedback.

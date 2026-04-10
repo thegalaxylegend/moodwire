@@ -69,7 +69,7 @@ Structural organisation in animals refers to the way in which cells, tissues, or
 
 ## <a id="why-this-chapter-matters"></a>Why This Chapter Matters
 
-This chapter is crucial for students preparing for the JEE and NEET exams, as it provides a foundation for understanding the structure and function of the human body. In the JEE Mains 2026 Session 1, 3 questions came from this topic, highlighting its importance. Additionally, understanding the structural organisation of the human body is essential for careers in medicine, research, and healthcare.
+This chapter is crucial for students preparing for the JEE and [neet](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) exams, as it provides a foundation for understanding the structure and function of the human body. In the JEE Mains 2026 Session 1, 3 questions came from this topic, highlighting its importance. Additionally, understanding the structural organisation of the human body is essential for careers in medicine, research, and healthcare.
 
 
 
@@ -160,7 +160,7 @@ Answer: B) To produce bile and digestive enzymes
 ## <a id="related-notes-links"></a>Related Notes Links
 
 * Human Physiology [notes](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
-* Cell Biology Notes
+* Cell Biology [notes](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
 
 
 

@@ -60,7 +60,7 @@ In the context of the [class](/blog/digital-logic-class-11-revision-notes-gate-b
 * Derivatives: concept of derivatives, rules of differentiation, and geometric interpretation of derivatives
 * Applications: optimization problems, motion along a line, and related rates
 
-To prepare for the exam, students should focus on developing a deep understanding of the core concepts, rather than just memorizing formulas and theorems. This can be achieved by practicing regularly, solving problems, and applying the concepts to real-world scenarios. With dedication and persistence, students can master the topic of Limits and Derivatives, and set themselves up for success in their Class 11 exams and beyond.
+To prepare for the exam, students should focus on developing a deep understanding of the core concepts, rather than just memorizing formulas and theorems. This can be achieved by practicing regularly, solving problems, and applying the concepts to real-world scenarios. With dedication and persistence, students can master the topic of Limits and Derivatives, and set themselves up for success in their [class](/blog/digital-logic-class-11-revision-notes-gate-boards) 11 exams and beyond.
 
 By breaking down complex concepts into manageable chunks, and providing a clear and concise explanation of the topics, students can develop a strong foundation in Limits and Derivatives. This will not only help them perform well in their exams but also provide a solid base for further studies in mathematics and related fields. As students embark on this journey, they will discover the beauty and power of calculus, and how it can be used to solve complex problems and model real-world phenomena.
 
@@ -79,7 +79,7 @@ What is the concept of Limits in Mathematics? is a fundamental concept in calcul
 
 ## <a id="how-to-evaluate-limits-using-algebraic-manipulation"></a>How to evaluate Limits using Algebraic Manipulation?
 
-How to evaluate Limits using Algebraic Manipulation? is a method to find the limit of a function by simplifying it using algebraic techniques. It includes factoring, canceling common factors, and rationalizing the numerator or denominator. For Class 11 exam prep in 2026, the most important aspect is understanding how to apply these techniques to solve limit problems, especially for trigonometric and rational functions. 
+How to evaluate Limits using Algebraic Manipulation? is a method to find the limit of a function by simplifying it using algebraic techniques. It includes factoring, canceling common factors, and rationalizing the numerator or denominator. For [class](/blog/digital-logic-class-11-revision-notes-gate-boards) 11 exam prep in 2026, the most important aspect is understanding how to apply these techniques to solve limit problems, especially for trigonometric and rational functions. 
    
    To evaluate limits using algebraic manipulation, one must first identify the type of function involved. For rational functions, the goal is to factor and cancel common factors in the numerator and denominator. If the function involves radicals, rationalizing the numerator or denominator may be necessary. 
    

@@ -33,7 +33,7 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 * **Blood Group System**: 1 short answer question on the ABO blood group system, including the genotypes and phenotypes of the different blood groups — always
 * **Sickle Cell Anaemia**: 1 short answer question on the genetics of sickle cell anaemia, including the cause, symptoms, and [inheritance](/blog/molecular-basis-of-inheritance-class-12-notes) pattern — always
 * **Chromosomal Disorders**: 1 short answer question on Down's syndrome, including the cause, symptoms, and karyotype — always
-* **Polygenic Inheritance**: 1 short answer question on polygenic inheritance, including the concept of multiple genes controlling a single trait — always
+* **Polygenic [inheritance](/blog/molecular-basis-of-inheritance-class-12-notes)**: 1 short answer question on polygenic [inheritance](/blog/molecular-basis-of-inheritance-class-12-notes), including the concept of multiple genes controlling a single trait — always
 * **Multiple Alleles**: 1 numerical on multiple alleles, including the ABO blood group system — always
 * **Genetic Drift**: 1 short answer question on genetic drift, including the definition, causes, and effects — always
 * **Gene Pool and Gene Frequency**: 1 numerical on gene pool and gene frequency, including the Hardy-Weinberg principle — always
@@ -191,7 +191,7 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 
  * Rely on rote memorization rather than applying the underlying [principles](/blog/biotechnology-principles-and-processes-class-12-notes) to solve problems.
 
- - **What 95% scorers do:** Top scorers have a deep understanding of the principles of inheritance and variation, including:
+ - **What 95% scorers do:** Top scorers have a deep understanding of the [principles](/blog/biotechnology-principles-and-processes-class-12-notes) of inheritance and variation, including:
 
  * The ability to apply the **$\chi^2$** test to verify the goodness of fit of the observed data to the expected Mendelian ratios.
 
@@ -237,7 +237,7 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 
  - $$H = 1 - \sum p^2$$ : Expected heterozygosity.
 
- - Mendel's laws are used to explain the inheritance patterns of traits.
+ - Mendel's laws are used to explain the [inheritance](/blog/molecular-basis-of-inheritance-class-12-notes) patterns of traits.
 
  - Polygenic inheritance involves multiple genes controlling a single trait.
 

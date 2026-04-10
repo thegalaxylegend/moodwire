@@ -79,7 +79,7 @@ This chapter is crucial for students preparing for [class](/blog/biological-clas
 ## <a id="ayushs-note"></a>Ayush's Note
 
 <div [class](/blog/environmental-chemistry-class-11-revision-notes-neet)="note-box">
-I still remember the mistake I made in my Class 11 exams. I confused the terms "raceme" and "spadix" while describing the inflorescence of a plant. It cost me 2 marks, but it taught me a valuable lesson. Always make sure to revise your notes thoroughly, and practice drawing diagrams of different plant structures. It will help you retain the information better and avoid silly mistakes.
+I still remember the mistake I made in my [class](/blog/environmental-chemistry-class-11-revision-notes-neet) 11 exams. I confused the terms "raceme" and "spadix" while describing the inflorescence of a plant. It cost me 2 marks, but it taught me a valuable lesson. Always make sure to revise your notes thoroughly, and practice drawing diagrams of different plant structures. It will help you retain the information better and avoid silly mistakes.
 </div>
 
 
@@ -88,13 +88,13 @@ I still remember the mistake I made in my Class 11 exams. I confused the terms "
 ## <a id="core-concepts"></a>Core Concepts
 
 ### <a id="root"></a>Root
-The root is the underground part of the plant, responsible for anchorage, absorption, and storage of food. It is typically negatively geotropic, meaning it grows downwards in response to gravity.
+The root is the underground part of the [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet), responsible for anchorage, absorption, and storage of food. It is typically negatively geotropic, meaning it grows downwards in response to gravity.
 
 ### <a id="stem"></a>Stem
 The stem is the above-ground part of the plant, responsible for supporting the leaves, flowers, and fruits. It is typically positively phototropic, meaning it grows towards light.
 
 ### <a id="leaf"></a>Leaf
-The leaf is the organ responsible for photosynthesis, the process by which plants convert light energy into chemical energy. It consists of a lamina (blade), petiole (stalk), and a pair of stipules (small structures at the base of the petiole).
+The leaf is the organ responsible for [photosynthesis](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet), the process by which plants convert light energy into chemical energy. It consists of a lamina (blade), petiole (stalk), and a pair of stipules (small structures at the base of the petiole).
 
 ### <a id="inflorescence"></a>Inflorescence
 The inflorescence is the arrangement of flowers on a plant. There are several types of inflorescences, including raceme, spike, umbel, and corymb.
@@ -207,7 +207,7 @@ Last Updated: March 16, 2026
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/biological-classification-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)
 - 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)

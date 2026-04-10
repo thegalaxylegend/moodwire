@@ -199,7 +199,7 @@ To measure potential difference, we connect a high resistance in series.
 
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
-- **Chapter 3: Current Electricity (The Source of Magnetism)**
+- **Chapter 3: [current](/blog/current-electricity-class-11-revision-notes-neet) Electricity (The Source of Magnetism)**
 - **Chapter 5: Magnetism and Matter**
 - **The Cyclotron & Mass Spectrometer: Technical Deep-Dive**
 
@@ -230,7 +230,7 @@ Moving [charges](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
 - 📖 [Current Electricity Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/current-electricity-class-11-revision-notes-neet)
@@ -251,7 +251,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
 - 📖 [Current Electricity Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/current-electricity-class-11-revision-notes-neet)

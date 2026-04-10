@@ -10,7 +10,7 @@ practice_link: "/class-11/physics/study-12-hours-daily-tips-class-11-revision-no
 
 ![Study 12 Hours Daily Tips Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/study-12-hours-daily-tips-class-11-revision-notes-jee-neet.webp)
 
-*Last Updated: 2026-03-28*
+*Last Updated: [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)-03-28*
 
 
 
@@ -46,7 +46,7 @@ practice_link: "/class-11/physics/study-12-hours-daily-tips-class-11-revision-no
 
 Do you feel lazy when you open your books? Do you start checking your phone every 5 minutes? Do you feel like your brain is "full" after just 1 hour of study? 
 
-If you said yes, don't worry. You are not alone. Most students in India feel exactly like this. They want to study for 10 or 12 hours to crack exams like JEE, NEET, or Boards, but their body says "no." 
+If you said yes, don't worry. You are not alone. Most students in India feel exactly like this. They want to study for 10 or 12 hours to crack exams like JEE, [neet](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet), or Boards, but their body says "no." 
 
 I am Ayush, and I used to be just like you. I used to think that people who study for 12 hours are some kind of "aliens" or "geniuses." But after building Exam Compass and talking to many toppers, I found the secret. 
 
@@ -78,7 +78,7 @@ Focus on one task at a time. When you are studying Physics, don't worry about Ch
 
 Many students mistakenly believe that studying for 12 hours requires cutting back on sleep. In reality, a foggy, sleep-deprived brain takes three times longer to process the same information. Sleep is your "charging time"; aiming for a consistent 7-hour cycle (like 11 PM to 6 AM) ensures your brain is primed for memory retention and focus.
 
-Nutrition plays an equally vital role. Heavy, oily meals induce "food comas" where your body redirects energy to the stomach for digestion, leaving your brain sluggish. To maintain high alertness, eat light meals like fruits, nuts, and lentils. Keep your stomach about 70% full, and stay hydrated throughout the day to keep blood flowing to your brain.
+Nutrition plays an equally vital role. Heavy, oily meals induce "food comas" where your body redirects energy to the stomach for digestion, leaving your brain sluggish. To maintain [high](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) alertness, eat light meals like fruits, nuts, and lentils. Keep your stomach about 70% full, and stay hydrated throughout the day to keep blood flowing to your brain.
 
 
 

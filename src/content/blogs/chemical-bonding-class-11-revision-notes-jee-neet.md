@@ -98,7 +98,7 @@ I kept getting hybridization wrong in my early mocks because I was trying to dra
 
 ### <a id="why-this-chapter-matters-exam-data"></a>Why This Chapter Matters (Exam Data)
 - **High Weightage**: In JEE Mains 2026 Session 1, nearly 12% of Inorganic marks came from this chapter alone.
-- **NEET Favorite**: Molecular Orbital Theory (MOT) bond order questions have appeared in 8 out of the last 10 NEET papers.
+- **[neet](/blog/equilibrium-class-11-revision-notes-jee-neet) Favorite**: Molecular Orbital Theory (MOT) bond order questions have appeared in 8 out of the last 10 [neet](/blog/equilibrium-class-11-revision-notes-jee-neet) papers.
 - **Foundation**: You cannot understand Organic [chemistry](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) mechanisms or Coordination Compounds without mastering the shapes and polarity covered here.
 
 ---
@@ -178,7 +178,7 @@ Instead of drawing structures, use my "Go-To" **Steric Number (H) formula**:
 $$H = \frac{1}{2} [V + M - C + A]$$
 
 Where:
-- **V** = Valence electrons on central atom (e.g., C=4, N=5, O=6).
+- **V** = Valence electrons on central [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet) (e.g., C=4, N=5, O=6).
 - **M** = Number of monovalent atoms (H, F, Cl, Br, I). *Ignore O, S (divalent).*
 - **C** = Cation charge (subtract).
 - **A** = Anion charge (add).
@@ -436,7 +436,7 @@ Don't just memorize the table. Ask yourself "Why does lone pair repulsion decrea
 
 **Related [revision](/blog/equilibrium-class-11-revision-notes-jee-neet) Notes:**
 - **Structure of Atom - Quantum Numbers & Configuration Shortcuts**
-- **Periodic Table Trends - Master Classification Short Notes**
+- **Periodic Table Trends - Master Classification Short [notes](/blog/equilibrium-class-11-revision-notes-jee-neet)**
 - **JEE Mains 2026: High Weightage Chapters Analysis**
 
 ---

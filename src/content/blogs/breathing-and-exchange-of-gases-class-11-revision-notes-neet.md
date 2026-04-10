@@ -75,7 +75,7 @@ The mechanism of breathing involves the following steps:
 2. **Exhalation**: The diaphragm relaxes, decreasing the volume of the thoracic cavity and increasing the pressure inside the lungs. As a result, air is pushed out of the lungs through the nose or mouth.
 
 ### <a id="jeeneet-data"></a>JEE/NEET Data
-According to the JEE/NEET syllabus, the topic of breathing and exchange of gases is covered under the section of "Respiratory System" in the Biology paper. The weightage of this topic is approximately 5-7% of the total marks.
+According to the JEE/[neet](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet) syllabus, the topic of breathing and exchange of gases is covered under the section of "Respiratory System" in the Biology paper. The weightage of this topic is approximately 5-7% of the total marks.
 
 ### <a id="formulae"></a>Formulae
 The following formulae are relevant to the topic of breathing and exchange of gases:
@@ -126,14 +126,14 @@ The exchange of gases is affected by the following factors:
 * **Blood Flow**: The greater the blood flow to the lungs, the more efficient is the exchange of gases.
 
 ### <a id="regulation-of-breathing"></a>Regulation of Breathing
-Breathing is regulated by the brain, which receives feedback from various sensors in the body. The main regulators of breathing are:
+Breathing is regulated by the brain, which receives feedback from various sensors in the [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet). The main regulators of breathing are:
 
 * **Chemoreceptors**: Sensors that detect changes in the levels of oxygen, carbon dioxide, and pH in the blood.
 * **Stretch Receptors**: Sensors that detect changes in the volume of the lungs.
 * **Proprioceptors**: Sensors that detect changes in the position and movement of the body.
 
 ### <a id="jeeneet-data"></a>JEE/NEET Data
-According to the JEE/NEET syllabus, the topic of regulation of breathing is covered under the section of "Respiratory System" in the Biology paper. The weightage of this topic is approximately 3-5% of the total marks.
+According to the JEE/[neet](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet) syllabus, the topic of regulation of breathing is covered under the section of "Respiratory System" in the Biology paper. The weightage of this topic is approximately 3-5% of the total marks.
 
 ### <a id="formulae"></a>Formulae
 The following formulae are relevant to the topic of regulation of breathing:

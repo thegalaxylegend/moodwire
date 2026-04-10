@@ -101,7 +101,7 @@ $$
 
 ## <a id="ayushs-note-key-points-for-jeeneet"></a>Ayush's Note: Key Points for JEE/NEET
 
-For JEE/NEET aspirants, it's crucial to remember the following key points related to digestion and absorption:
+For JEE/[neet](/blog/environmental-chemistry-class-11-revision-notes-neet) aspirants, it's crucial to remember the following key points related to digestion and absorption:
 - The digestive system includes the mouth, esophagus, stomach, small intestine, and large intestine.
 - Digestion begins in the mouth with the action of amylase on carbohydrates.
 - The stomach secretes gastric juice containing pepsin and hydrochloric acid, which breaks down proteins.
@@ -170,7 +170,7 @@ For further reading and practice, refer to the following links:
 
 ## <a id="final-expert-insight"></a>Final Expert Insight
 
-Understanding the processes of digestion and absorption is crucial not only for JEE/NEET aspirants but also for anyone interested in human health and nutrition. By grasping the core concepts and mechanisms involved, individuals can better appreciate the complexity of the human body and the importance of a balanced diet for maintaining optimal health. Remember, digestion and absorption are not just about breaking down food; they are about providing the body with the necessary nutrients for energy, growth, and repair.
+Understanding the processes of digestion and absorption is crucial not only for JEE/[neet](/blog/environmental-chemistry-class-11-revision-notes-neet) aspirants but also for anyone interested in human health and nutrition. By grasping the core concepts and mechanisms involved, individuals can better appreciate the complexity of the human body and the importance of a balanced diet for maintaining optimal health. Remember, digestion and absorption are not just about breaking down food; they are about providing the body with the necessary nutrients for energy, growth, and repair.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

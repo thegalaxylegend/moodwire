@@ -13,15 +13,15 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
 *Last Updated: 2026-04-09*
 
 
-<div class="quick-summary">
+<div [class](/blog/quadratic-equations-class-10-notes)="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
 - Polynomial: 1 question on the relationship between the coefficients and the roots of the polynomial — always
 - Polynomial: 1 question on the division algorithm for polynomials — frequently
-- Remainder Theorem: 1 question on the application of remainder theorem to find the remainder when a polynomial is divided by a linear polynomial — always
+- Remainder Theorem: 1 question on the application of remainder theorem to find the remainder when a polynomial is divided by a [linear](/blog/pair-of-linear-equations-class-10-notes) polynomial — always
 - Polynomial: 1 question on the factor theorem and its application to factorize polynomials — frequently
-- Polynomial: 1 question on the relationship between the coefficients and the roots of a quadratic equation — always
+- Polynomial: 1 question on the relationship between the coefficients and the roots of a [quadratic](/blog/quadratic-equations-class-10-notes) equation — always
 - Polynomial: 1 question on the use of polynomial division to find the roots of a polynomial equation — frequently
 - Polynomial: 1 question on the use of Descartes' rule of signs to determine the number of positive and negative roots of a polynomial equation — frequently
 - Polynomial: 1 question on the use of the rational root theorem to find the rational roots of a polynomial equation — always
@@ -131,7 +131,7 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
 
 | Scorer Category | Approach to Remainder Theorem | Synthetic Division Skills | Polynomial Equation Solving |
 | --- | --- | --- | --- |
-| 85% Scorers | Basic application, struggles with higher degrees | Limited, especially with negative numbers or non-standard divisors | Difficulty in finding all roots, especially complex or repeated ones |
+| 85% Scorers | Basic application, struggles with higher degrees | Limited, especially with negative [numbers](/blog/real-numbers-class-10-notes) or non-standard divisors | Difficulty in finding all roots, especially complex or repeated ones |
 | 95% Scorers | Advanced application, mastery of theorem | Proficient, including with negative numbers and non-standard divisors | Systematic approach, combining multiple algebraic techniques |
 
 
@@ -228,3 +228,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Arithmetic Progressions Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/arithmetic-progressions-class-10-notes)
+- 📖 [Pair of Linear Equations Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/pair-of-linear-equations-class-10-notes)
+- 📖 [Quadratic Equations Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/quadratic-equations-class-10-notes)
+- 📖 [Real Numbers Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/real-numbers-class-10-notes)

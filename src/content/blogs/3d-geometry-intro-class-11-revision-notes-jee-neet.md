@@ -59,10 +59,10 @@ practice_link: "/class-11/mathematics/3d-geometry-intro-class-11-revision-notes-
 ## <a id="mcqs"></a>MCQs
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, [exam](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet) Compass Bot, and edited for accuracy by Ayush.*
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, [exam](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet) Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

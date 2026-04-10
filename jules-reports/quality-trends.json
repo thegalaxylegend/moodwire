@@ -1,24 +1,20 @@
 {
-  "overallAvgScore": 74.3,
-  "totalBlogsAllTime": 34,
-  "totalPassed": 23,
+  "overallAvgScore": 78.2,
+  "totalBlogsAllTime": 40,
+  "totalPassed": 29,
   "totalFailed": 11,
-  "overallPassRate": 68,
-  "trend": "improving",
-  "trendDelta": 31.2,
+  "overallPassRate": 73,
+  "trend": "stable",
+  "trendDelta": 1.3,
   "dailyReports": [
     {
-      "date": "2026-04-08",
+      "date": "2026-04-10",
       "totalBlogs": 3,
-      "passed": 0,
-      "failed": 3,
-      "avgScore": 32.3,
-      "passRate": 0,
-      "errors": [
-        "Critically low word count: 330 (Min 800 for Patching)",
-        "Critically low word count: 714 (Min 800 for Patching)",
-        "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}"
-      ]
+      "passed": 3,
+      "failed": 0,
+      "avgScore": 100,
+      "passRate": 100,
+      "errors": []
     },
     {
       "date": "2026-03-23",
@@ -99,6 +95,28 @@
       "errors": [
         "Critically low word count: 330 (Min 800 for Patching)"
       ]
+    },
+    {
+      "date": "2026-04-08",
+      "totalBlogs": 3,
+      "passed": 0,
+      "failed": 3,
+      "avgScore": 32.3,
+      "passRate": 0,
+      "errors": [
+        "Critically low word count: 330 (Min 800 for Patching)",
+        "Critically low word count: 714 (Min 800 for Patching)",
+        "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}"
+      ]
+    },
+    {
+      "date": "2026-04-09",
+      "totalBlogs": 3,
+      "passed": 3,
+      "failed": 0,
+      "avgScore": 100,
+      "passRate": 100,
+      "errors": []
     }
   ],
   "topErrors": [

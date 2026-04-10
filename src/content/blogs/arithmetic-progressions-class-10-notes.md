@@ -23,7 +23,7 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
 - Sum of n Terms: Sn = n/2 * (a + l) — frequently
 - Number of Terms: n = (l - a)/d + 1 — frequently
 - Sum of Squares of n Terms: Sn = n/2 * (2a^2 + (n-1)2ad + (n-1)(n-2)d^2/3) — frequently
-- Harmonic Mean: HM of two numbers a, b is 2ab/(a+b) — frequently
+- Harmonic Mean: HM of two [numbers](/blog/real-numbers-class-10-notes) a, b is 2ab/(a+b) — frequently
 - Arithmetic Progression: If a1, a2, a3, ..., an are in AP, then a1 + an = a2 + an-1 = ... = a(n/2) + a(n/2 + 1) — frequently
 - Sum of Interior Terms: Sum of interior terms = Sn - (a + l) — frequently
 - Product of Terms: Product of n terms = a * (a+d) * ... * (a + (n-1)d) — frequently
@@ -284,7 +284,7 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
-- **The Core Concept:** The concept of arithmetic progressions (AP) and its application in solving problems is a crucial topic in mathematics. One deep concept that separates 85% scorers from 95% scorers is the understanding of the relationship between the terms of an AP and the ability to apply it to complex problems. 
+- **The Core Concept:** The concept of arithmetic progressions (AP) and its [application](/blog/application-of-derivatives-class-12-notes) in solving problems is a crucial topic in mathematics. One deep concept that separates 85% scorers from 95% scorers is the understanding of the relationship between the terms of an AP and the ability to apply it to complex problems. 
  - **What 85% scorers do:** Most students can solve basic problems related to AP, such as finding the $n^{th}$ term, the \sum of $n$ terms, and the relationship between the terms. However, they often strugg\le with complex problems that involve the application of AP concepts to real-world scenarios or abstract mathematical problems. They might use the basic formulas such as $a_n = a_1 + (n-1)d$ and $S_n = \frac{n}{2}(a_1 + a_n)$, but they might not fully understand the implications of these formulas or how to apply them in novel situations.
  - **What 95% scorers do:** Top scorers, on the other hand, have a deep understanding of the AP concepts and can apply them to a wide ran\ge of problems. They can recognize the relationship between AP and other mathematical concepts, such as geometry, algebra, and calculus. They can also derive complex formulas and relationships, such as the formula for the \sum of an infinite geometric series: $$S = \frac{a}{1 - r}$$, and apply them to solve problems. Moreover, they can analyze problems from different perspectives and identify the most efficient approach to solve them. For examp\le, they can use the formula $a_n = a_1 + (n-1)d$ to find the $n^{th}$ term of an AP, and then use the formula $S_n = \frac{n}{2}(a_1 + a_n)$ to find the \sum of the first $n$ terms. They can also use the concept of AP to solve problems related to real-world scenarios, such as population growth, financial transactions, and scientific measurements.
  - **Key Formulas and Relationships:** Some key formulas and relationships that 95% scorers use to solve AP problems include:

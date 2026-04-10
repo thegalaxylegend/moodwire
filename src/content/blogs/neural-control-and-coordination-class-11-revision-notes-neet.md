@@ -57,7 +57,7 @@ Neural control and [coordination](/blog/chemical-coordination-and-integration-cl
 ## <a id="core-concepts"></a>Core Concepts
 
 ### <a id="structure-of-a-neuron"></a>Structure of a Neuron
-A neuron consists of three main parts: dendrites, cell body, and axon. Dendrites receive signals from other neurons, the cell body contains the nucleus and the machinery for protein synthesis, and the axon transmits signals away from the cell body. The axon terminal is specialized for the release of neurotransmitters.
+A neuron consists of three main parts: dendrites, cell [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet), and axon. Dendrites receive signals from other neurons, the cell [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet) contains the nucleus and the machinery for protein synthesis, and the axon transmits signals away from the cell [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet). The axon terminal is specialized for the release of neurotransmitters.
 
 ### <a id="types-of-neurons"></a>Types of Neurons
 There are three main types of neurons based on their functions:
@@ -82,12 +82,12 @@ Understanding neural control and [coordination](/blog/chemical-coordination-and-
 ## <a id="detailed-explanation-of-key-concepts"></a>Detailed Explanation of Key Concepts
 
 ### <a id="human-nervous-system"></a>Human Nervous System
-The human nervous system is a complex system that controls and coordinates body activities. It consists of the central nervous system (CNS), which includes the brain and spinal cord, and the peripheral nervous system (PNS), which consists of nerves that connect the CNS to the rest of the body.
+The human nervous system is a complex system that controls and coordinates [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet) activities. It consists of the central nervous system (CNS), which includes the brain and spinal cord, and the peripheral nervous system (PNS), which consists of nerves that connect the CNS to the rest of the [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet).
 
 ### <a id="brain"></a>Brain
 The brain is the control center of the body. It processes sensory information, controls [movement](/blog/locomotion-and-movement-class-11-revision-notes-neet), and manages functions such as heartbeat, breathing, digestion, and temperature regulation. The brain can be divided into different parts, each with distinct functions:
-- **Cerebrum**: The largest part of the brain, responsible for processing sensory information, controlling movement, managing higher-level cognitive functions such as thought, action, and emotion.
-- **Cerebellum**: Located at the back of the brain, it coordinates voluntary movements such as posture, balance, coordination, and speech, resulting in smooth and balanced muscular activity.
+- **Cerebrum**: The largest part of the brain, responsible for processing sensory information, controlling [movement](/blog/locomotion-and-movement-class-11-revision-notes-neet), managing higher-level cognitive functions such as thought, action, and emotion.
+- **Cerebellum**: Located at the back of the brain, it coordinates voluntary movements such as posture, balance, [coordination](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet), and speech, resulting in smooth and balanced muscular activity.
 - **Brainstem**: Connects the cerebrum with the spinal cord, regulating basic functions such as breathing, heartbeat, and blood pressure.
 
 ### <a id="spinal-cord"></a>Spinal Cord
@@ -97,7 +97,7 @@ The spinal cord is a long, thin, tube-like structure made up of nervous tissue, 
 
 - **Sensory Receptors**: These are specialized structures that can detect changes in the environment, such as light, sound, temperature, and touch, and send signals to the CNS.
 - **Effectors**: These are muscles and glands that respond to signals from the CNS, leading to movements or secretion of substances.
-- **Neurotransmitters**: Chemical messengers that transmit signals from one neuron to another or from neurons to muscles or glands.
+- **Neurotransmitters**: [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) messengers that transmit signals from one neuron to another or from neurons to muscles or glands.
 
 ## <a id="practice-questions-for-jeeneet"></a>Practice Questions for JEE/NEET
 
@@ -111,7 +111,7 @@ The spinal cord is a long, thin, tube-like structure made up of nervous tissue, 
 
 - **Understand the Basics**: Make sure you have a clear understanding of the structure and function of neurons, types of neurons, synaptic transmission, and reflex actions.
 - **Practice with Diagrams**: Drawing and labeling diagrams of neurons and the brain can help reinforce your understanding of these complex structures.
-- **Solve Previous Year Questions**: Practice solving questions from previous years' JEE and NEET exams to get familiar with the exam pattern and difficulty level.
+- **Solve Previous Year Questions**: Practice solving questions from previous years' JEE and [neet](/blog/locomotion-and-movement-class-11-revision-notes-neet) exams to get familiar with the exam pattern and difficulty level.
 - **Focus on Key Concepts**: Identify the most important topics and focus your study efforts on those areas.
 - **Use Online Resources**: Utilize online resources such as videos, animations, and interactive quizzes to make your study sessions more engaging and effective.
 

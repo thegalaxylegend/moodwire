@@ -61,7 +61,7 @@ practice_link: "/class-11/physics/laws-of-motion-class-11-revision-notes-jee-nee
 
 ## <a id="introduction"></a>Introduction
 
-If Kinematics is the "What" of motion, Dynamics is the "Why." Newton's Laws of Motion are the foundation upon which the entire edifice of Classical Mechanics stands. They allow us to predict the trajectory of objects ranging from a pebble on the beach to the motion of celestial bodies. This chapter transitions from describing motion to identifying its causes: **Forces**. These "Comprehensive" revision notes provide exhaustive theoretical depth, including the proof that Newton's Second Law is the "Real Law," the derivation of the Banking of Roads, and advanced Free Body Diagram (FBD) strategies for competitive exams like JEE and NEET.
+If Kinematics is the "What" of [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet), Dynamics is the "Why." Newton's Laws of [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) are the foundation upon which the entire edifice of Classical Mechanics stands. They allow us to predict the trajectory of objects ranging from a pebble on the beach to the [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) of celestial bodies. This chapter transitions from describing [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) to identifying its causes: **Forces**. These "Comprehensive" revision notes provide exhaustive theoretical depth, including the proof that Newton's Second Law is the "Real Law," the derivation of the Banking of Roads, and advanced Free Body Diagram (FBD) strategies for competitive exams like JEE and NEET.
 
 ---
 
@@ -71,7 +71,7 @@ If Kinematics is the "What" of motion, Dynamics is the "Why." Newton's Laws of M
 ## <a id="1-newtons-three-laws-the-principles-of-force"></a>1. Newton's Three Laws: The Principles of Force
 
 ### <a id="i-first-law-law-of-inertia"></a>I. First Law (Law of Inertia)
-**Theorem:** An object remains in its state of rest or uniform motion unless acted upon by an external unbalanced force.
+**Theorem:** An object remains in its state of rest or uniform [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) unless acted upon by an external unbalanced force.
 - **Inertia:** The inherent property of matter that resists change.
 - **Types:** Inertia of Rest, Motion, and Direction.
 

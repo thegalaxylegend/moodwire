@@ -169,7 +169,7 @@ The set can be written as the interval **(-4, 6]**.
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 2: [relations](/blog/relations-functions-class-11-revision-notes-jee-neet) and Functions**
-- **Chapter 3: Trigonometric Functions**
+- **Chapter 3: Trigonometric [functions](/blog/relations-functions-class-11-revision-notes-jee-neet)**
 - [**External Reference:** [NCERT Class 11 Math Chapter 1](https://ncert.nic.in/textbook.php?kemh1=1-16) (Authoritative Source)]
 
 
@@ -219,7 +219,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/linear-inequalities-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 - 📖 [Linear Inequalities Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/linear-inequalities-class-11-revision-notes-jee-neet)

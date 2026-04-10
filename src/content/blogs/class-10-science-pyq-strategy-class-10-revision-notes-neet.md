@@ -10,7 +10,7 @@ practice_link: "/class-11/biology/class-10-science-pyq-strategy-class-10-revisio
 
 ![Class 10 Science Pyq Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide](/blog-images/class-10-science-pyq-strategy-class-10-revision-notes-neet.webp)
 
-*Last Updated: 2026-03-28*
+*Last Updated: [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)-03-28*
 
 
 
@@ -50,9 +50,9 @@ In this [guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)
 
 > **Key Takeaways**
 > - **Predictability**: 60% of the paper follows patterns from the last 5 years of **previous year papers**.
-> - **Physics ROI**: Light and Electricity are the "High-Yield" zones for numericals.
+> - **Physics ROI**: Light and Electricity are the "[high](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)-Yield" zones for numericals.
 > - **[chemistry](/blog/environmental-chemistry-class-11-revision-notes-neet) Patterns**: Carbon and its Compounds is the king of marks.
-> - **Biology Strategy**: Diagram-based questions are guaranteed marks if you know the labeling.
+> - **Biology [strategy](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)**: Diagram-based questions are guaranteed marks if you know the labeling.
 > - **Active Practice**: Stop reading, start solving. Take an **online mock test** every Sunday.
 
 ---
@@ -70,7 +70,7 @@ In this [guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)
 
 ## <a id="why-pyqs-are-essential-for-class-10-science"></a>Why PYQs are Essential for Class 10 Science
 
-Textbook reading is often passive and low-yield. The **CBSE Class 10 Science most repeated PYQs** act as a roadmap, revealing the examiner's psychology and the concepts that reappear year after year. For example, the lens formula is asked frequently because it tests both conceptual depth and mathematical precision.
+Textbook reading is often passive and low-yield. The **CBSE [class](/blog/class-10-30-day-timetable-class-10-revision-notes-jee) 10 Science most repeated PYQs** act as a roadmap, revealing the examiner's psychology and the concepts that reappear year after year. For example, the lens formula is asked frequently because it tests both conceptual depth and mathematical precision.
 
 Data shows that 60% of the exam is an indirect repeat of concepts from the last five years. According to researchers at [Harvard Education](https://www.gse.harvard.edu), retrieval practice through testing is far superior to re-reading. By focusing on **online mock tests** that target these specific patterns, you essentially prepare for the exam before the paper is even designed.
 

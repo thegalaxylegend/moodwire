@@ -143,7 +143,7 @@ Why students get it wrong: Students often confuse the different types of isomeri
 
 ## <a id="practice-mcqs"></a>Practice MCQs
 
-Here are five practice MCQs to help you test your understanding of organic chemistry:
+Here are five practice MCQs to help you test your understanding of organic [chemistry](/blog/environmental-chemistry-class-11-revision-notes-neet):
 
 1. What is the atomic number of carbon?
 A) 6
@@ -220,7 +220,7 @@ Last Updated: March 15, 2026
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/physical-world-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Physical World Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/physical-world-class-11-revision-notes-jee-neet)
 - 📖 [The P Block Elements 11 Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet)
@@ -241,7 +241,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/physical-world-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)
 - 📖 [Cell The Unit Of Life Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/cell-the-unit-of-life-class-11-revision-notes-neet)

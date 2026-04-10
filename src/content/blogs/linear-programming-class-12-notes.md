@@ -29,7 +29,7 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 
 - **Graphical Method**: 1 question on plotting the feasible region using [linear](/blog/pair-of-linear-equations-class-10-notes) inequalities — always
 - **Corner Point Method**: 1 numerical on finding the optimal solution using corner points of the feasible region — always
-- **Linear Programming Problems**: 1-2 problems on formulating and solving linear programming problems using graphical or corner point method — always
+- **[linear](/blog/pair-of-linear-equations-class-10-notes) Programming Problems**: 1-2 problems on formulating and solving [linear](/blog/pair-of-linear-equations-class-10-notes) programming problems using graphical or corner point method — always
 - **Objective Function**: 1 numerical on finding the maximum or minimum value of the objective function — always
 - **Constraints**: 1 question on plotting the constraints and finding the feasible region — always
 - **Feasible Region**: 1 numerical on identifying the feasible region and finding the optimal solution — always

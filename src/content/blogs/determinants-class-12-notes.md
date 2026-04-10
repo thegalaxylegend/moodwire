@@ -79,11 +79,11 @@ practice_link: "/class-11/mathematics/determinants-class-12-notes"
 ### <a id="-core-concept-3-expansion-by-minors"></a>⚡ Core Concept 3: Expansion by Minors
 
 - **Formula:** $$\begin{vmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{vmatrix} = a_{11} \begin{vmatrix} a_{22} & a_{23} \\ a_{32} & a_{33} \end{vmatrix} - a_{12} \begin{vmatrix} a_{21} & a_{23} \\ a_{31} & a_{33} \end{vmatrix} + a_{13} \begin{vmatrix} a_{21} & a_{22} \\ a_{31} & a_{32} \end{vmatrix}$$ — $a_{ij}$ are elements of the matrix.
-- **Application:** Used to calculate the determinant of a matrix by expanding along a row or column.
+- **[application](/blog/application-of-integrals-class-12-notes):** Used to calculate the determinant of a matrix by expanding along a row or column.
 
 #### Expansion Along a Row
 - **Formula:** $$\det(A) = a_{i1}C_{i1} + a_{i2}C_{i2} + \cdots + a_{in}C_{in}$$ — $a_{ij}$ are elements of the matrix, $C_{ij}$ are cofactors.
-- **Application:** Used to calculate the determinant of a matrix by expanding along a row.
+- **[application](/blog/application-of-integrals-class-12-notes):** Used to calculate the determinant of a matrix by expanding along a row.
 
 ### <a id="-core-concept-4-cofactor-expansion"></a>⚡ Core Concept 4: Cofactor Expansion
 

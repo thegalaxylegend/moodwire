@@ -50,8 +50,8 @@ practice_link: "/class-11/physics/linear-inequalities-class-11-revision-notes-je
 >   - (a, b) -> x is between a and b (excluding a, b).
 >   - [a, b] -> x is between a and b (including a, b).
 > - **Graphical Solution:** 
->   - Use a dashed line for < or >.
->   - Use a solid line for ≤ or ≥.
+>   - Use a dashed [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) for < or >.
+>   - Use a solid [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) for ≤ or ≥.
 >   - Shade the region that satisfies the inequality.
 > [**📥 Download 1-Page Short Notes PDF (Zero-Friction)**](#)
 
@@ -156,7 +156,7 @@ Inequalities are used extensively in:
 
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
-- **Chapter 5: Complex Numbers**
+- **Chapter 5: [complex](/blog/complex-numbers-class-11-revision-notes-jee-neet) Numbers**
 - **Chapter 7: Permutations and Combinations**
 - [**External Reference:** [NCERT Class 11 Math Chapter 6](https://ncert.nic.in/textbook.php?kemh1=6-16) (Authoritative Source)]
 
@@ -165,7 +165,7 @@ Inequalities are used extensively in:
 
 ## <a id="conclusion"></a>Conclusion
 
-Linear Inequalities shift your thinking from "points" to "regions." By mastering the rules of sign reversal and the art of graphical shading, you prepare yourself for the complex optimization problems found in higher mathematics and real-world economics. Stay within your boundaries, but keep your ranges wide!
+Linear Inequalities shift your thinking from "points" to "regions." By mastering the rules of sign reversal and the art of graphical shading, you prepare yourself for the [complex](/blog/complex-numbers-class-11-revision-notes-jee-neet) optimization problems found in higher mathematics and real-world economics. Stay within your boundaries, but keep your ranges wide!
 
 ---
 
@@ -207,7 +207,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/electric-charges-fields-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 - 📖 [Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)

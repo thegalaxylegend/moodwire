@@ -56,7 +56,7 @@ Cheat Sheet:
 * Famous mathematicians: Baudhayana, Apastambha, Kanada
 * Important texts: Sulva Sultras, Yajurveda
 
-This section provides a quick revision of the major contributions of ancient India during the Vedic period.
+This section provides a quick revision of the major contributions of ancient [india](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse) during the Vedic period.
 
 
 
@@ -66,11 +66,11 @@ This section provides a quick revision of the major contributions of ancient Ind
 
 ## <a id="introduction-to-vedic-age"></a>Introduction to Vedic Age
 
-The Vedic Age is named after the **Vedas**, which are ancient Indian texts that contain hymns, prayers, and philosophical discussions. These texts are considered some of the most sacred in Hinduism. The Vedas are divided into four main categories: the **Rigveda**, **Yajurveda**, **Samaveda**, and **Atharvaveda**.
+The Vedic Age is named after the **Vedas**, which are [ancient](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) Indian texts that contain hymns, prayers, and philosophical discussions. These texts are considered some of the most sacred in Hinduism. The Vedas are divided into four main categories: the **Rigveda**, **Yajurveda**, **Samaveda**, and **Atharvaveda**.
 
 ## <a id="ayushs-personal-note"></a>Ayush's Personal Note
 
-As I the world of Ancient India, I find the Vedic Age to be particularly fascinating. The **social hierarchy** of this period, which was based on the **Varnashrama System**, is a complex topic that requires careful analysis. The system divided society into four varnas: **Brahmins**, **Kshatriyas**, **Vaishyas**, and **Shudras**. Understanding this system is crucial for grasping the social dynamics of the Vedic Age.
+As I the world of Ancient [india](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse), I find the Vedic Age to be particularly fascinating. The **social hierarchy** of this period, which was based on the **Varnashrama System**, is a complex topic that requires careful analysis. The system divided society into four varnas: **Brahmins**, **Kshatriyas**, **Vaishyas**, and **Shudras**. Understanding this system is crucial for grasping the social dynamics of the Vedic Age.
 
 ## <a id="core-concepts"></a>Core Concepts
 

@@ -108,7 +108,7 @@ The circulatory system is driven by the heart's pumping action, which creates bl
 
 ## <a id="step-7-jeeneet-data"></a>Step 7: JEE/NEET Data
 
-For JEE and NEET aspirants, it is essential to have a thorough understanding of the concepts related to body fluids and circulation. Some key points to focus on include:
+For JEE and [neet](/blog/locomotion-and-movement-class-11-revision-notes-neet) aspirants, it is essential to have a thorough understanding of the concepts related to body fluids and circulation. Some key points to focus on include:
 - The structure and function of the heart, including the atria, ventricles, septa, and valves.
 - The different types of blood vessels, such as arteries, veins, and capillaries, and their respective functions.
 - The composition and functions of blood, including plasma, RBCs, WBCs, and platelets.
@@ -172,7 +172,7 @@ To better understand the concepts related to body fluids and circulation, it is 
 
 ## <a id="step-11-practice-questions"></a>Step 11: Practice Questions
 
-To reinforce understanding and prepare for JEE and NEET exams, practice questions and past-year papers should be solved regularly. Some sample practice questions include:
+To reinforce understanding and prepare for JEE and [neet](/blog/locomotion-and-movement-class-11-revision-notes-neet) exams, practice questions and past-year papers should be solved regularly. Some sample practice questions include:
 1. Describe the structure and function of the heart, including the atria, ventricles, septa, and valves.
 2. Explain the different types of blood vessels, including arteries, veins, and capillaries, and their respective functions.
 3. What is the composition and function of blood, including plasma, RBCs, WBCs, and platelets?

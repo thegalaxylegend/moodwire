@@ -72,7 +72,7 @@ Measuring poverty involves calculating the poverty line, which is the minimum in
 
 
 
-- Poverty line is the minimum income required to meet basic needs
+- Poverty line is the minimum income required to meet [basic](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) needs
 - Types of unemployment: frictional, structural, cyclical
 - Measures of poverty: headcount ratio, poverty gap, Gini coefficient
 
@@ -92,7 +92,7 @@ Measuring poverty involves calculating the poverty line, which is the minimum in
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/physics-mechanics-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Physics Heat Light Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/physics-heat-light-class-11-revision-notes-jee-neet)
 - 📖 [Physics Mechanics Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/physics-mechanics-class-11-revision-notes-jee-neet)
@@ -113,7 +113,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/planning-in-india-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Physics Heat Light Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/physics-heat-light-class-11-revision-notes-jee-neet)
 - 📖 [Physics Mechanics Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/physics-mechanics-class-11-revision-notes-jee-neet)

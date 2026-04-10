@@ -181,7 +181,7 @@ Helium has a higher ratio of specific heats than Oxygen.
 
 ## <a id="conclusion"></a>Conclusion
 
-The Kinetic Theory of Gases transforms our view of matter from static substances to a dynamic dance of particles. By mastering the molecular derivations of pressure and energy, you gain the ability to predict the macroscopic behavior of any gas from its microscopic components. Master the derivation of the Pressure of an Ideal Gas and the Law of Equipartition—these are the tools that allow us to understand the atmosphere, chemical reactions, and the physics of the stars themselves. Stay fast, stay elastic, and keep your degrees of freedom wide!
+The Kinetic Theory of Gases transforms our view of [matter](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet) from static substances to a dynamic dance of particles. By mastering the molecular derivations of pressure and energy, you gain the ability to predict the macroscopic behavior of any gas from its microscopic components. Master the derivation of the Pressure of an Ideal Gas and the Law of Equipartition—these are the tools that allow us to understand the atmosphere, chemical reactions, and the physics of the stars themselves. Stay fast, stay elastic, and keep your degrees of freedom wide!
 
 ---
 **Reference:** [Encyclopaedia Britannica: Kinetic Theory of Gases](https://www.britannica.com/science/kinetic-theory-of-gases)

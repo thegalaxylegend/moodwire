@@ -132,7 +132,7 @@ You can still use induction to prove the statement for $n \geq 5$ by using $n=5$
 
 ## <a id="conclusion"></a>Conclusion
 
-Mathematical Induction removes the "guesswork" from general observations. It allows us to climb an infinite ladder by just making sure we can reach the first rung and that each rung leads to the next. logic is essential for anyone aiming for a career in mathematics, physics, or computing. Reach for the next rung!
+[mathematical](/blog/mathematical-reasoning-class-11-revision-notes-jee-neet) Induction removes the "guesswork" from general observations. It allows us to climb an infinite ladder by just making sure we can reach the first rung and that each rung leads to the next. logic is essential for anyone aiming for a career in mathematics, physics, or computing. Reach for the next rung!
 
 ---
 
@@ -174,7 +174,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/limits-derivatives-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Mathematical Reasoning Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-reasoning-class-11-revision-notes-jee-neet)
 - 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)

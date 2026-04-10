@@ -87,11 +87,11 @@ A **Wave** is a disturbance that travels through a medium, transporting energy f
 
 ### <a id="i-mechanical-vs-nonmechanical-waves"></a>I. Mechanical vs. Non-Mechanical Waves
 - **[mechanical](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) Waves:** Require a material medium (Elasticity and Inertia) for propagation (e.g., Sound, Water waves).
-- **Non-Mechanical (Electromagnetic) Waves:** Do not require a medium; they propagate via oscillating electric and magnetic fields (e.g., Light, Radio waves).
+- **Non-[mechanical](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) (Electromagnetic) Waves:** Do not require a medium; they propagate via oscillating electric and magnetic fields (e.g., Light, Radio waves).
 
 ### <a id="ii-transverse-vs-longitudinal-waves"></a>II. Transverse vs. Longitudinal Waves
 - **Transverse Waves:** Particles of the medium vibrate perpendicular to the direction of wave propagation. They consist of **Crests** and **Troughs**. (e.g., Waves on a string).
-  - *Condition:* Can only travel in solids and on the surface of liquids (requires shear strength).
+  - *Condition:* Can only travel in [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) and on the surface of liquids (requires shear strength).
 - **Longitudinal Waves:** Particles vibrate parallel to the direction of wave propagation. They consist of **Compressions** and **Rarefactions**. (e.g., Sound waves).
   - *Condition:* Can travel in [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet), liquids, and gases.
 
@@ -263,16 +263,16 @@ Where:
 
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
-- **Chapter 13: Oscillations (The Prelude to Waves)**
+- **Chapter 13: [oscillations](/blog/oscillations-class-11-revision-notes-jee-neet) (The Prelude to Waves)**
 - **Chapter 12: Kinetic Theory of Gases (Sound Speed Factors)**
-- **The Ultimate Wave Mechanics Problem Set: Target JEE/NEET**
+- **The Ultimate Wave Mechanics Problem Set: Target JEE/[neet](/blog/mathematical-induction-class-11-revision-notes-jee-neet)**
 
 
 
 
 ## <a id="conclusion"></a>Conclusion
 
-Waves are the signature of the universe's energy. By mastering the mathematical laws of wave propagation, the nuances of string dynamics, and the powerful Doppler Effect, you gain the ability to analyze everything from music to radar systems. Master the Laplace correction and the standing wave patterns—these are the principles that bridge the gap between pure physics and applied engineering. You have now completed the entire Class 11 Physics syllabus! Stay tuned as we embark on the journey of Class 12 Electromagnetism. Keep your frequency high, your phase constant, and always stay resonant with excellence!
+Waves are the signature of the universe's energy. By mastering the mathematical laws of wave propagation, the nuances of string dynamics, and the powerful Doppler Effect, you gain the ability to analyze everything from music to radar systems. Master the Laplace correction and the standing wave patterns—these are the principles that bridge the gap between pure physics and applied engineering. You have now completed the entire [class](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) 11 Physics syllabus! Stay tuned as we embark on the journey of [class](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) 12 Electromagnetism. Keep your frequency high, your phase constant, and always stay resonant with excellence!
 
 ---
 **Reference:** [The Physics Classroom: Sound Waves and Music](https://www.physicsclassroom.com/class/sound)

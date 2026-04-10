@@ -70,7 +70,7 @@ Hydrocarbons are organic compounds that consist only of [hydrogen](/blog/hydroge
 
 ## <a id="why-hydrocarbons-matter"></a>Why Hydrocarbons Matter
 
-Hydrocarbons are an essential topic in organic chemistry, and understanding them is crucial for students preparing for JEE and NEET exams. In the 2026 JEE Mains Session 1, 4 questions came from this topic. Hydrocarbons are also relevant in various industries, such as petroleum and pharmaceuticals.
+Hydrocarbons are an essential topic in organic chemistry, and understanding them is crucial for students preparing for JEE and [neet](/blog/hydrogen-class-11-revision-notes-neet) exams. In the 2026 JEE Mains Session 1, 4 questions came from this topic. Hydrocarbons are also relevant in various industries, such as petroleum and pharmaceuticals.
 
 
 
@@ -171,7 +171,7 @@ Answer: c) Ethyne
 ## <a id="related-notes-links"></a>Related Notes Links
 
 - Alkyl Halides [class](/blog/hydrogen-class-11-revision-notes-neet) 11 Notes
-- Alcohols Class 11 Notes
+- Alcohols [class](/blog/hydrogen-class-11-revision-notes-neet) 11 Notes
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

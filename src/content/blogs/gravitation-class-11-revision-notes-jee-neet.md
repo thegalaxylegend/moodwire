@@ -58,7 +58,7 @@ practice_link: "/class-11/physics/gravitation-class-11-revision-notes-jee-neet"
 
 ## <a id="introduction"></a>Introduction
 
-Gravitation is the universal force of attraction that binds the universe together. From the simple falling of an apple observed by Newton to the complex orbital dance of the planets described by Kepler, gravitation is the invisible thread of cosmic order. In this "Comprehensive" guide, we provide a mathematically rigorous expansion of Chapter 7, featuring formal derivations for the variation of 'g', gravitational potential energy, and the physics of satellites—providing the depth required for high-stakes exams like JEE and NEET.
+Gravitation is the universal force of attraction that binds the universe together. From the simple falling of an apple observed by Newton to the complex orbital dance of the planets described by Kepler, gravitation is the invisible thread of cosmic order. In this "Comprehensive" guide, we provide a mathematically rigorous expansion of Chapter 7, featuring formal derivations for the variation of 'g', gravitational potential energy, and the physics of satellites—providing the depth required for high-stakes exams like JEE and [neet](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet).
 
 ---
 
@@ -137,7 +137,7 @@ The minimum velocity required for an object to break free from Earth's gravitati
 ## <a id="5-keplers-laws-of-planetary-motion"></a>5. Kepler’s Laws of Planetary Motion
 
 1.  **Law of Orbits:** Planets move in elliptical orbits with the Sun at one focus.
-2.  **Law of Areas:** A line joining a planet and the Sun sweeps out equal areas in equal intervals of time. (**Proves Conservation of Angular Momentum**).
+2.  **Law of Areas:** A [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) joining a planet and the Sun sweeps out equal areas in equal intervals of time. (**Proves Conservation of Angular Momentum**).
 3.  **Law of Periods (T² ∝ R³):**
     **Derivation for Circular Orbits:**
     - Centripetal Force = Gravitational Force

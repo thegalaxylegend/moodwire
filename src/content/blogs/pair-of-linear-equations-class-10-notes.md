@@ -13,11 +13,11 @@ practice_link: "/class-11/mathematics/pair-of-linear-equations-class-10-notes"
 *Last Updated: 2026-04-09*
 
 
-<div class="quick-summary">
+<div [class](/blog/arithmetic-progressions-class-10-notes)="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
-- Linear Equations: 1 question on solving a pair of linear equations using the substitution method — always
+- [linear](/blog/linear-programming-class-12-notes) Equations: 1 question on solving a pair of [linear](/blog/linear-programming-class-12-notes) equations using the substitution method — always
 - Linear Equations: 1 question on solving a pair of linear equations using the elimination method — frequently
 - Pair of Linear Equations: Graphical representation of a pair of linear equations — always
 - Linear Equations in Two Variables: Finding the solution to a pair of linear equations by graphical method — frequently
@@ -256,3 +256,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Quadratic Equations Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/quadratic-equations-class-10-notes)
+- 📖 [Linear Programming Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/linear-programming-class-12-notes)
+- 📖 [Arithmetic Progressions Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/arithmetic-progressions-class-10-notes)
+- 📖 [Polynomials Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/polynomials-class-10-notes)

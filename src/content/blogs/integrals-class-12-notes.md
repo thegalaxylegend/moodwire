@@ -197,7 +197,7 @@ When integrating a function, it's easy to forget to include the constant of inte
 The power rule of integration is a common source of mistakes. Make sure to apply the rule correctly, and don't forget to add 1 to the exponent when integrating.
 
 #### #### Mistake 3: Failing to Check the Limits of Integration
-When working with definite integrals, it's essential to check the limits of integration to ensure that the integral is properly defined. Failing to do so can lead to incorrect solutions.
+When working with definite [integrals](/blog/application-of-integrals-class-12-notes), it's essential to check the limits of integration to ensure that the integral is properly defined. Failing to do so can lead to incorrect solutions.
 
 #### #### Mistake 4: Incorrectly Substituting into the Integral
 When using substitution to evaluate an integral, make sure to correctly substitute into the integral. This includes substituting into the limits of integration and the integrand.
@@ -218,7 +218,7 @@ Riemann's theorem states that a function $f(x)$ is integrable on the interval $[
 - **Lebesgue's Theorem:** 
 Lebesgue's theorem states that a function $f(x)$ is integrable on the interval $[a,b]$ if and only if the function is measurable and has a finite integral.
 
-These advanced topics in integrals provide a deeper understanding of the subject and are essential for working with complex functions and applications.
+These advanced topics in [integrals](/blog/application-of-integrals-class-12-notes) provide a deeper understanding of the subject and are essential for working with complex functions and applications.
 
 ### <a id="-master-the-test-center-stepbystep-learning"></a>📝 Master the Test Center — Step-by-Step Learning
 

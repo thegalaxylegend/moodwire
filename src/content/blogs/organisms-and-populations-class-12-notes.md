@@ -83,7 +83,7 @@ practice_link: "/class-11/biology/organisms-and-populations-class-12-notes"
 
  - *Costs:* 5-7 marks in questions related to environmental factors and [ecosystem](/blog/ecosystem-class-12-notes) function.
 
- - *Fix:* Study the effects of different environmental factors on population growth, species interactions, and ecosystem function, and practice analyzing their impacts on ecosystem dynamics.
+ - *Fix:* Study the effects of different environmental factors on population growth, species interactions, and [ecosystem](/blog/ecosystem-class-12-notes) function, and practice analyzing their impacts on [ecosystem](/blog/ecosystem-class-12-notes) dynamics.
 
 
 
@@ -183,7 +183,7 @@ practice_link: "/class-11/biology/organisms-and-populations-class-12-notes"
 
  - $K = \frac{r}{d}$ 
 
- - Organisms have optimal temperature ranges for survival.
+ - [organisms](/blog/reproduction-in-organisms-class-12-notes) have optimal temperature ranges for survival.
 
  - Species interaction can be mutualism, commensalism, parasitism, competition, or amensalism.
 
@@ -242,7 +242,7 @@ practice_link: "/class-11/biology/organisms-and-populations-class-12-notes"
 
 ---
 
-**5. What is the term for the study of the distribution and abundance of organisms in an environment?**
+**5. What is the term for the study of the distribution and abundance of [organisms](/blog/reproduction-in-organisms-class-12-notes) in an environment?**
 
 - A) A. Ecology
 - B) B. Biogeography

@@ -108,7 +108,7 @@ This formula is an extension of the Pythagorean theorem into three dimensions.
 
 ## <a id="4-section-formula"></a>4. Section Formula
 
-If a point R divides the line segment joining P(x₁, y₁, z₁) and Q(x₂, y₂, z₂) in the ratio **m : n**:
+If a point R divides the [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) segment joining P(x₁, y₁, z₁) and Q(x₂, y₂, z₂) in the ratio **m : n**:
 1.  **Internal Division:**
     R = [(mx₂ + nx₁) / (m+n), (my₂ + ny₁) / (m+n), (mz₂ + nz₁) / (m+n)]
 2.  **External Division:**
@@ -146,7 +146,7 @@ The centroid of a triangle with vertices (x₁, y₁, z₁), (x₂, y₂, z₂),
 - d = √[25 + 16 + 4] = √45
 - **d = 3√5 [units](/blog/units-and-measurements-class-11-revision-notes-jee-neet)**.
 
-**Q3: Find the coordinates of the point which divides the line joining (1, -2, 3) and (3, 4, -5) internally in the ratio 2 : 3.**
+**Q3: Find the coordinates of the point which divides the [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) joining (1, -2, 3) and (3, 4, -5) internally in the ratio 2 : 3.**
 **Answer:**
 - x = [2(3) + 3(1)] / 5 = 9/5
 - y = [2(4) + 3(-2)] / 5 = 2/5
@@ -211,7 +211,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Straight Lines Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/straight-lines-class-11-revision-notes-jee-neet)
 - 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)

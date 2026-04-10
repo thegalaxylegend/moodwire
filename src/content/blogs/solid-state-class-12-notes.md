@@ -252,7 +252,7 @@ To fully understand the properties of solid-state materials, it's essential to b
 To become a master of solid-state chemistry, you need to practice consistently and track your progress. Our Test Center at /[class](/blog/metallurgy-class-12-notes)-11/chemistry/solid-state-[class](/blog/metallurgy-class-12-notes)-12-notes is designed to help you achieve your goals. Here's why you should use it:
 
 1. **Personalized Learning**: Our Test Center provides you with a personalized learning experience, allowing you to focus on areas where you need improvement.
-2. **Comprehensive Practice**: With a vast collection of questions and problems, you'll be able to practice and reinforce your understanding of solid-state chemistry concepts.
+2. **Comprehensive Practice**: With a vast collection of questions and problems, you'll be able to practice and reinforce your understanding of solid-state [chemistry](/blog/surface-chemistry-class-12-notes) concepts.
 3. **Real-Time Feedback**: Our Test Center provides instant feedback and explanations, helping you understand where you went wrong and how to improve.
 4. **Progress Tracking**: Track your progress and identify areas where you need to focus your efforts.
 5. **Community Support**: Join our community of learners and discuss concepts, ask questions, and learn from others.
@@ -260,7 +260,7 @@ To become a master of solid-state chemistry, you need to practice consistently a
 By using our Test Center, you'll be able to:
 
 * Identify and fill knowledge gaps
-* Develop a deep understanding of solid-state chemistry concepts
+* Develop a deep understanding of solid-state [chemistry](/blog/surface-chemistry-class-12-notes) concepts
 * Improve your problem-solving skills and speed
 * Enhance your confidence and performance in exams
 

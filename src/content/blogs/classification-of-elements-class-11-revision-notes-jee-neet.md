@@ -52,11 +52,11 @@ The classification of elements is based on their electronic configuration, which
 
 ## <a id="jeeneet-data"></a>JEE/NEET Data
 
-For students preparing for JEE and NEET, it's essential to have a thorough understanding of the classification of elements. The periodic table is a crucial tool for predicting the properties and behavior of elements, and is often tested in exams. According to the JEE and NEET syllabus, students should be able to:
+For students preparing for JEE and NEET, it's essential to have a thorough understanding of the classification of [elements](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet). The periodic table is a crucial tool for predicting the properties and behavior of [elements](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet), and is often tested in exams. According to the JEE and NEET syllabus, students should be able to:
 
 * Identify the position of an element in the periodic table
 * Describe the electronic configuration of an element
-* Explain the trends in physical and chemical properties of elements
+* Explain the trends in physical and [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) properties of elements
 * Predict the chemical properties of an element based on its position in the periodic table
 
 ## <a id="core-concepts"></a>Core Concepts

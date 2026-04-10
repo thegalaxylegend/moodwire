@@ -59,7 +59,7 @@ If you master these specific subtopics, scoring 80+ in [chemistry](/blog/environ
 
 ## <a id="inorganic-chemistry-the-ncert-monopoly"></a>Inorganic Chemistry: The NCERT Monopoly
 
-Inorganic chemistry questions are directly lifted—word for word—from NCERT. Do not waste time on advanced reference books.
+Inorganic [chemistry](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) questions are directly lifted—word for word—from NCERT. Do not waste time on advanced reference books.
 6. **Coordination Compounds (VBT and CFT):** Predicting magnetic moments (spin-only formula) and identifying hybridization (inner vs outer orbital complexes).
 7. **Chemical Bonding (Molecular Orbital Theory - MOT):** Bond order calculations and identifying paramagnetic/diamagnetic nature for homonuclear diatomic molecules (like O2, N2, and their ions).
 8. **Periodic Table Trends (Ionization Energy Exceptions):** Focus heavily on the anomalies caused by half-filled and fully-filled orbitals (e.g., Nitrogen vs Oxygen).
@@ -75,7 +75,7 @@ Stop memorizing random reactions. NTA tests your understanding of reaction inter
 11. **SN1 vs SN2 Mechanisms:** Predicting the major product based on carbocation stability (for SN1) or steric hindrance (for SN2).
 12. **Aldol Condensation & Cannizzaro Reaction:** The alpha-hydrogen rule. Expect cross-aldol products or identifying which reactant undergoes Cannizzaro.
 13. **Electrophilic Aromatic Substitution (EAS):** Activating vs deactivating groups on a benzene ring and predicting ortho/para vs meta directors (especially nitration of aniline).
-14. **Acidic/Basic Strength:** Comparing the basicity of aliphatic vs aromatic amines in aqueous vs gaseous phase, or acidity of phenols.
+14. **Acidic/[basic](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) Strength:** Comparing the basicity of aliphatic vs aromatic amines in aqueous vs gaseous phase, or acidity of phenols.
 15. **Biomolecules (Carbohydrates & Amino Acids):** Identifying reducing vs non-reducing sugars, or predicting the isoelectric point of an amino acid.
 
 
@@ -104,7 +104,7 @@ Create a checklist of these 15 topics. Do not proceed to obscure corners of the 
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/body-fluids-and-circulation-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)
 - 📖 [Some Basic Concepts Of Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet)
@@ -125,7 +125,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/body-fluids-and-circulation-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)
 - 📖 [Some Basic Concepts Of Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet)

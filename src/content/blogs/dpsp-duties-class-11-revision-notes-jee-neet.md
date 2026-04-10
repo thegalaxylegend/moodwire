@@ -61,7 +61,7 @@ As I reflect on these historical developments, I am reminded of the significance
 
 | Year | Event |
 | --- | --- |
-| 1931 | The Indian National Congress adopts the **Karachi Resolution**, which outlines the principles of social and economic justice |
+| 1931 | The [indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) National Congress adopts the **Karachi Resolution**, which outlines the principles of social and economic justice |
 | 1947 | India gains independence, and the **Constituent Assembly** is formed to draft the Constitution |
 | 1950 | The **Constitution of India** is adopted, enshrining the Directive Principles of State Policy |
 
@@ -71,7 +71,7 @@ As I reflect on these historical developments, I am reminded of the significance
 The core concepts of DPSP & Duties can be summarized as follows:
 
 
-As I delve deeper into these concepts, I realize the importance of understanding the relationship between DPSP & Duties and other aspects of Indian Polity. It's crucial to recognize how these principles interact with other concepts, such as **Fundamental Rights** and **Parliamentary Democracy**.
+As I delve deeper into these concepts, I realize the importance of understanding the relationship between DPSP & Duties and other aspects of [indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Polity. It's crucial to recognize how these principles interact with other concepts, such as **Fundamental Rights** and **Parliamentary Democracy**.
 
 
 | Concept | Description |
@@ -138,7 +138,7 @@ Here are some tips to help you master DPSP & Duties:
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/physical-world-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Indian Geography Physical Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/indian-geography-physical-class-11-revision-notes-jee-neet)
 - 📖 [Physical World Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/physical-world-class-11-revision-notes-jee-neet)
@@ -159,7 +159,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/physical-world-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Chemical Bonding Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/chemical-bonding-class-11-revision-notes-jee-neet)
 - 📖 [Indian Geography Physical Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/indian-geography-physical-class-11-revision-notes-jee-neet)

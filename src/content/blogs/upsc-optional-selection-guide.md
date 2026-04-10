@@ -75,7 +75,7 @@ The following formulas are crucial for the UPSC [optional](/blog/upsc-optional-s
 
  - *Fix:* Focus on understanding the underlying concepts, practice applying them to different scenarios, and engage in discussions or study groups to deepen your knowledge.
 
- - **Mistake 4:** Failure to stay updated with current events and developments relevant to the optional subject.
+ - **Mistake 4:** Failure to stay updated with current events and developments relevant to the [optional](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee) subject.
 
  - *Costs:* 10-15% of the total marks, especially in subjects like politics, economics, or environment.
 
@@ -223,7 +223,7 @@ The following formulas are crucial for the UPSC [optional](/blog/upsc-optional-s
 
  - Key facts:
 
- - UPSC has a list of 48 optional subjects.
+ - [upsc](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee) has a list of 48 optional subjects.
 
  - Choosing the right optional subject can greatly impact scores.
 

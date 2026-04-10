@@ -217,7 +217,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/probability-class-11-revision-notes-jee) with these related guides:
 
 - 📖 [Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/binomial-theorem-class-11-revision-notes-jee)
 - 📖 [Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-combinations-class-11-revision-notes-jee)

@@ -47,18 +47,18 @@ As we step into the realm of [class](/blog/principle-of-mathematical-induction-c
 
 To set the stage, let's consider a real-life scenario where you're planning a trip with your friends. You want to book a hotel room, and the manager tells you that the cost of the room is directly proportional to the number of days you stay. This can be represented as a **function**, where the input is the number of days, and the output is the cost. However, if you want to find the number of rooms available on a specific date, you'll need to consider the **relation** between the date and the availability of rooms. This interplay between relations and functions is a fundamental concept in mathematics, and it's essential to grasp it to excel in the [class](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) 11 exam.
 
-On a personal note, I still remember struggling to understand the difference between a relation and a function when I was in Class 11. My teacher used a simple example to illustrate the concept: consider a relation between the number of hours you study and the marks you score in a test. While there might be a relation between the two, it's not necessarily a function, as studying for 2 hours might not always result in the same marks. This example helped me understand the concept, and I'm confident that with the right approach, you'll be able to grasp it as well.
+On a personal note, I still remember struggling to understand the difference between a relation and a function when I was in [class](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) 11. My teacher used a simple example to illustrate the concept: consider a relation between the number of hours you study and the marks you score in a test. While there might be a relation between the two, it's not necessarily a function, as studying for 2 hours might not always result in the same marks. This example helped me understand the concept, and I'm confident that with the right approach, you'll be able to grasp it as well.
 
 To tackle the topic of Relations and Functions, it's essential to have a solid foundation in the following prerequisites:
 
 * **Set theory**: You should be familiar with the basics of set theory, including the definition of a set, union, intersection, and difference of sets.
 * **Cartesian product**: Understanding the concept of the Cartesian product of two sets is crucial, as it forms the basis of relations.
-* **Basic algebra**: A good grasp of algebraic concepts, such as solving linear equations and graphing, will help you to better comprehend functions.
+* **Basic algebra**: A good grasp of algebraic concepts, such as solving [linear](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) equations and graphing, will help you to better comprehend functions.
 
 The topic of Relations and Functions can be broadly divided into two main sections: **Relations** and **Functions**.
 
 ### <a id="relations"></a>Relations
-A **relation** is a subset of the Cartesian product of two sets. In simpler terms, it's a way of associating elements from one set with elements from another set. For example, consider a relation between the set of students in a class and the set of their favorite sports. This relation can be represented as a subset of the Cartesian product of the two sets.
+A **relation** is a subset of the Cartesian product of two sets. In simpler terms, it's a way of associating elements from one set with elements from another set. For example, consider a relation between the set of students in a [class](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) and the set of their favorite sports. This relation can be represented as a subset of the Cartesian product of the two sets.
 
 Some key concepts related to relations include:
 

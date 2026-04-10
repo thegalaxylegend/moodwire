@@ -223,7 +223,7 @@ practice_link: "/class-11/biology/strategies-for-enhancement-in-food-production-
 
  - Common mistakes:
 
- - Overlooking the importance of soil conservation in agricultural productivity.
+ - Overlooking the importance of soil [conservation](/blog/biodiversity-and-conservation-class-12-notes) in agricultural productivity.
 
  - Failing to consider the impact of climate change on crop yields and food security.
 

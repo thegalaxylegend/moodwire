@@ -81,7 +81,7 @@ The history of architecture can be broadly divided into several periods, each wi
 
 ## <a id="core-concepts"></a>Core Concepts
 
-To excel in JEE/NEET, it's essential to grasp the core concepts of architecture, including:
+To excel in JEE/[neet](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet), it's essential to grasp the core concepts of architecture, including:
 * **Proportion**: The relationship between the size of different parts of a building
 * **Scale**: The relationship between the size of a building and its surroundings
 * **Symmetry**: The use of identical or similar elements on either side of a central axis
@@ -102,7 +102,7 @@ When revising architecture, watch out for these common trap exceptions:
 * **Art Nouveau vs. Art Deco**: Art Nouveau is characterized by sinuous lines and organic forms, whereas Art Deco is marked by geometric shapes and metallic materials.
 * **Bauhaus vs. International Style**: While both styles emphasize functionality and simplicity, Bauhaus is characterized by a more experimental and avant-garde approach, whereas International Style is marked by a more minimalist and industrial aesthetic.
 
-By focusing on these key concepts, formulae, and trap exceptions, you'll be well on your way to acing your JEE/NEET exams and developing a deeper appreciation for the world of architecture. As I, Ayush, continue to explore the fascinating world of art and culture, I'm reminded that architecture is not just about buildings - it's about the people, cultures, and histories that shape our built environment.
+By focusing on these key concepts, formulae, and trap exceptions, you'll be well on your way to acing your JEE/[neet](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) exams and developing a deeper appreciation for the world of architecture. As I, Ayush, continue to explore the fascinating world of art and culture, I'm reminded that architecture is not just about buildings - it's about the people, cultures, and histories that shape our built environment.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
@@ -142,7 +142,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) with these related guides:
 
 - 📖 [Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)
 - 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)

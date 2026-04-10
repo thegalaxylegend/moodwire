@@ -73,7 +73,7 @@ Respiration in [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-
 ## <a id="ayushs-note"></a>Ayush's Note
 
 <div [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)="callout-box">
-I once struggled to understand the difference between aerobic and anaerobic respiration. I thought that plants only underwent anaerobic respiration, but that's not true. Plants, like animals, require oxygen for aerobic respiration. I realized my mistake when I was solving a practice question that asked about the byproducts of aerobic respiration in plants. Now, I make sure to clearly distinguish between the two types of respiration.
+I once struggled to understand the difference between aerobic and anaerobic respiration. I thought that [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) only underwent anaerobic respiration, but that's not true. [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet), like animals, require oxygen for aerobic respiration. I realized my mistake when I was solving a practice question that asked about the byproducts of aerobic respiration in [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet). Now, I make sure to clearly distinguish between the two types of respiration.
 </div>
 
 
@@ -81,7 +81,7 @@ I once struggled to understand the difference between aerobic and anaerobic resp
 
 ## <a id="core-concepts-of-respiration-in-plants"></a>Core Concepts of Respiration in Plants
 
-Respiration in plants occurs in three stages: glycolysis, citric acid cycle, and oxidative phosphorylation.
+Respiration in [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) occurs in three stages: glycolysis, citric acid cycle, and oxidative phosphorylation.
 * **Glycolysis**: This stage occurs in the cytosol of the cell and involves the breakdown of glucose into pyruvate.
 * **Citric Acid Cycle**: This stage occurs in the mitochondria and involves the breakdown of pyruvate into acetyl-CoA, which then enters the citric acid cycle.
 * **Oxidative Phosphorylation**: This stage occurs in the mitochondria and involves the transfer of electrons through a series of electron transport chains, resulting in the production of ATP.

@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "data-structures-linear-class-11-notes",
+    "status": "published",
+    "quality_score": 95,
+    "retries": 0
+  },
+  {
+    "slug": "data-structures-non-linear-class-11-notes",
+    "status": "published",
+    "quality_score": 90,
+    "retries": 2
+  },
+  {
+    "slug": "algorithms-analysis-class-11-notes",
+    "status": "published",
+    "quality_score": 90,
+    "retries": 1
+  },
+  {
+    "slug": "algorithms-design-class-11-notes",
+    "status": "failed",
+    "quality_score": 65,
+    "retries": 2
+  },
+  {
+    "slug": "digital-logic-class-11-notes",
+    "status": "failed",
+    "quality_score": 40,
+    "retries": 2
+  },
+  {
+    "slug": "computer-organization-class-11-notes",
+    "status": "published",
+    "quality_score": 90,
+    "retries": 0
+  }
+]

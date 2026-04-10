@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-04-08T08:48:01.796Z",
-  "lessonsApplied": 4,
+  "lastUpdated": "2026-04-10T02:34:33.828Z",
+  "lessonsApplied": 6,
   "adjustments": [
     {
       "rule": "MIN_WORD_ENFORCEMENT: If any section < 150 words, trigger targeted expansion pass.",
       "reason": "3 thin content failures detected.",
-      "appliedDate": "2026-04-08",
+      "appliedDate": "2026-04-10",
       "impactedSubjects": [
         "All"
       ]

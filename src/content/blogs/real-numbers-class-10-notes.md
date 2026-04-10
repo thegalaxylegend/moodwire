@@ -13,7 +13,7 @@ practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
 *Last Updated: 2026-04-09*
 
 
-<div class="quick-summary">
+<div [class](/blog/polynomials-class-10-notes)="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
@@ -62,7 +62,7 @@ practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
 
 - **Mistake 1:** Incorrectly applying the properties of real numbers, particularly the closure property, which states that the \sum or product of two real numbers is always a real number.
  - *Costs:* 2-3 marks
- - *Fix:* Review the properties of real numbers, including closure, commutativity, associativity, and distributivity. Ensure you can apply these properties correctly in various contexts, such as simplifying expressions or solving equations.
+ - *Fix:* Review the properties of real numbers, including closure, commutativity, associativity, and distributivity. Ensure you can apply these properties correctly in various contexts, such as simplifying expressions or solving [equations](/blog/quadratic-equations-class-10-notes).
  - **Mistake 2:** Failing to recognize and correctly apply the different types of real numbers, including rational, irrational, and integers. This can lead to errors in calculations or incorrect conclusions.
  - *Costs:* 2-3 marks
  - *Fix:* Make sure to understand the definitions and examples of rational, irrational, and integer real numbers. Practice identifying and working with these different types in various problems.
@@ -228,3 +228,15 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Arithmetic Progressions Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/arithmetic-progressions-class-10-notes)
+- 📖 [Pair of Linear Equations Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/pair-of-linear-equations-class-10-notes)
+- 📖 [Polynomials Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/polynomials-class-10-notes)
+- 📖 [Quadratic Equations Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/quadratic-equations-class-10-notes)

@@ -74,7 +74,7 @@ While the previous chapters dealt with the motion of "point masses," reality inv
 
 ## <a id="1-centre-of-mass-com"></a>1. Centre of Mass (CoM)
 
-The Centre of Mass is the unique point where the entire mass of a system may be considered to be concentrated for describing its translational motion.
+The Centre of Mass is the unique point where the entire mass of a system may be considered to be concentrated for describing its translational [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet).
 
 ### <a id="derivation-com-of-a-2particle-system"></a>Derivation: CoM of a 2-Particle System
 Consider two masses **m1** and **m2** at positions **x1** and **x2**.
@@ -115,7 +115,7 @@ The rotational equivalent of linear momentum.
 
 ## <a id="3-moment-of-inertia-i-rotational-mass"></a>3. Moment of Inertia (I): Rotational Mass
 
-Moment of Inertia resists changes in rotational motion.
+Moment of Inertia resists changes in rotational [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet).
 **Formula: I = Σ mi ri² = ∫ r² dm**.
 
 ### <a id="parallel-axes-theorem-proof"></a>Parallel Axes Theorem (Proof)

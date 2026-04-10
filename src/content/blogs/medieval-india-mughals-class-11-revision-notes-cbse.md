@@ -63,7 +63,7 @@ I remember my teacher emphasizing the importance of understanding the **Mughal E
 
 ### <a id="jeeneet-data"></a>JEE/NEET Data
 
-For JEE and NEET aspirants, it's essential to be familiar with the **historical context** of medieval India, including the Mughal Empire. While history is not a direct part of the JEE or NEET syllabus, it can help you develop a broader understanding of the social and cultural context of India.
+For JEE and NEET aspirants, it's essential to be familiar with the **historical context** of medieval [india](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse), including the Mughal Empire. While history is not a direct part of the JEE or NEET syllabus, it can help you develop a broader understanding of the social and cultural context of [india](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse).
 
 ### <a id="core-concepts"></a>Core Concepts
 
@@ -136,7 +136,7 @@ By understanding these trap exceptions, you can avoid common mistakes and develo
 * **Jagir**: A land assignment for revenue collection
 * **Zamindar**: A local landlord or chieftain responsible for revenue collection
 
-By focusing on these key terms and concepts, you can develop a solid understanding of the Mughal Empire and its significance in medieval Indian history.
+By focusing on these key terms and concepts, you can develop a solid understanding of the Mughal Empire and its significance in [medieval](/blog/medieval-india-delhi-sultanate-class-11-revision-notes-cbse) Indian history.
 
 Zamindar & A local landlord or chieftain responsible for revenue collection & - \\
 Pargana & A sub-district administrative unit & - \\
@@ -147,7 +147,7 @@ This code will create a table with the specified columns and rows, using the `ta
 
 ### <a id="summary"></a>Summary
 
-In this quick revision and recap, we covered the key aspects of the Mughal Empire, including its founding, notable rulers, administrative divisions, and revenue systems. We also discussed the core concepts, formulae tables, MCQs, and trap exceptions related to the Mughal Empire. By focusing on these key terms and concepts, you can develop a solid understanding of the Mughal Empire and its significance in medieval Indian history.
+In this quick [revision](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) and recap, we covered the key aspects of the Mughal Empire, including its founding, notable rulers, administrative divisions, and revenue systems. We also discussed the core concepts, formulae tables, MCQs, and trap exceptions related to the Mughal Empire. By focusing on these key terms and concepts, you can develop a solid understanding of the Mughal Empire and its significance in medieval Indian history.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

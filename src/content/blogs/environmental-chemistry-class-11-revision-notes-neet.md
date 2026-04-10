@@ -173,7 +173,7 @@ Answer: D) All of the above
 ## <a id="related-notes-links"></a>Related Notes Links
 
 * Chapter [revision](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) Notes: Atomic Structure
-* Chapter Revision Notes: Chemical Bonding
+* Chapter [revision](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) Notes: Chemical Bonding
 
 
 
@@ -206,7 +206,7 @@ Environmental chemistry is [the study of the chemical and biochemical phenomena 
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
 - 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)

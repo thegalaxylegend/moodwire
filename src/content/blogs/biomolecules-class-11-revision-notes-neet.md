@@ -69,7 +69,7 @@ Biomolecules are classified into four main types: carbohydrates, proteins, lipid
 ### <a id="why-biomolecules-matter"></a>Why Biomolecules Matter
 Biomolecules are essential for the structure and function of cells. They provide the energy and nutrients that cells need to function, and they play a critical role in the transmission of genetic information. Biomolecules are also involved in the regulation of cellular processes, such as metabolism, growth, and differentiation.
 
-In the context of the JEE and NEET exams, biomolecules are an important topic. In the 2026 JEE Mains exam, 3 questions came from this topic, and in the 2026 NEET exam, 5 questions came from this topic. Therefore, it is essential to have a thorough understanding of biomolecules to perform well in these exams.
+In the context of the JEE and [neet](/blog/animal-kingdom-class-11-revision-notes-neet) exams, biomolecules are an important topic. In the 2026 JEE Mains exam, 3 questions came from this topic, and in the 2026 [neet](/blog/animal-kingdom-class-11-revision-notes-neet) exam, 5 questions came from this topic. Therefore, it is essential to have a thorough understanding of biomolecules to perform well in these exams.
 
 ### <a id="core-concepts"></a>Core Concepts
 #### Carbohydrates

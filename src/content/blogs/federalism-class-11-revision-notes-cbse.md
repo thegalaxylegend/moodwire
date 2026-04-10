@@ -71,7 +71,7 @@ The historical context of federalism in [india](/blog/ancient-india-indus-valley
 
 ## <a id="ayushs-personal-note"></a>Ayush's Personal Note
 
-As I prepare for the Class 11 exam in 2026, I realize the importance of understanding the principles of federalism and its application in the Indian context. I need to focus on the key features of federalism, including the division of powers, independent judiciary, and dual citizenship. I also need to study the historical context of federalism in India, including the British colonial period and the post-independence era.
+As I prepare for the Class 11 exam in 2026, I realize the importance of understanding the principles of federalism and its application in the Indian context. I need to focus on the key features of federalism, including the division of powers, independent judiciary, and dual citizenship. I also need to study the historical context of federalism in [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee), including the British colonial period and the post-independence era.
 
 
 
@@ -98,7 +98,7 @@ Trap Exceptions:
 
 ## <a id="ayushs-tips"></a>Ayush's Tips
 
-As I prepare for the Class 11 exam in 2026, I need to focus on the key concepts and principles of federalism. I should:
+As I prepare for the [class](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) 11 exam in 2026, I need to focus on the key concepts and principles of federalism. I should:
 - Study the historical context of federalism in India.
 - Understand the core concepts of federalism, including federal principles, unitary features, and state-center relations.
 - Practice MCQs and revise the key features of federalism.

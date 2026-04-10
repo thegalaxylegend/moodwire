@@ -53,9 +53,9 @@ To truly appreciate the concept of AC, it's essential to have a solid foundation
 As we progress through this topic, you'll discover that AC is not just a simple concept, but rather a complex and fascinating subject that has numerous applications in our daily lives. From the **transmission of electrical power** over long distances to the **operation of electronic devices**, AC plays a vital role in modern technology.
 
 To set the stage for our exploration of AC, let's consider a few key terms:
-* **Alternating current (AC)**: An electric current that periodically reverses direction, typically used in households and industries.
+* **Alternating [current](/blog/magnetic-effects-of-current-class-12-notes) (AC)**: An electric [current](/blog/magnetic-effects-of-current-class-12-notes) that periodically reverses direction, typically used in households and industries.
 * **Peak voltage**: The maximum voltage attained by an AC waveform.
-* **Root mean square (RMS) value**: The equivalent DC value of an AC waveform, which represents the effective voltage or current.
+* **Root mean square (RMS) value**: The equivalent DC value of an AC waveform, which represents the effective voltage or [current](/blog/magnetic-effects-of-current-class-12-notes).
 * **Phasor**: A mathematical representation of an AC waveform using complex numbers, which helps in analyzing and visualizing AC circuits.
 
 Some essential concepts that we'll cover in our journey through AC include:
@@ -71,7 +71,7 @@ As we the world of AC, you'll encounter various types of AC circuits, including:
 * **LC circuits**: Circuits consisting of an inductor and capacitor connected in series or parallel.
 
 To help you better understand these concepts, let's consider a few examples:
-* **Transformers**: Devices that use electromagnetic induction to step up or step down AC voltages, which are essential for efficient power transmission.
+* **Transformers**: Devices that use [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) induction to step up or step down AC voltages, which are essential for efficient power transmission.
 * **Generators**: Machines that convert mechanical energy into electrical energy, typically producing AC power.
 * **Motors**: Devices that convert electrical energy into mechanical energy, often using AC power.
 
@@ -88,9 +88,9 @@ In the upcoming sections, we'll explore each of these topics in detail, using a 
 * Confusing AC and DC concepts
 * Incorrectly applying formulas for impedance and phase difference
 * Failing to consider the [effects](/blog/magnetic-effects-of-current-class-12-notes) of inductive and capacitive reactance
-* Not using phasors to simplify complex AC circuit analysis
+* Not using phasors to simplify complex AC circuit [analysis](/blog/algorithms-analysis-class-11-revision-notes-gate-boards)
 
-By following this introduction and the subsequent sections, you'll be well on your way to mastering the concept of Alternating Current and achieving success in the Class 12 exams. Remember to stay focused, practice regularly, and review the key concepts to ensure a deep understanding of the subject. 
+By following this introduction and the subsequent sections, you'll be well on your way to mastering the concept of Alternating Current and achieving success in the [class](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) 12 exams. Remember to stay focused, practice regularly, and review the key concepts to ensure a deep understanding of the subject. 
 
 **Exam Day Summary:**
 To summarize, Alternating Current is a crucial topic in Class 12 Physics, with a significant weightage in the board exams. To excel in this topic, it's essential to have a solid foundation in electromagnetic induction, LCR circuits, oscillations, and trigonometry. By understanding key concepts like AC waveforms, phasors, impedance, and phase difference, you'll be able to analyze and solve problems involving AC circuits. Stay focused, avoid common mistakes, and practice regularly to achieve success in the exams.

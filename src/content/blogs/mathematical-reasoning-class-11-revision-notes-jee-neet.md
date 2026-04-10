@@ -138,7 +138,7 @@ The contrapositive is: **"If $x$ is not odd, then $x$ is not a prime number."**
 
 **Q3: Is '$\sqrt{2}$ is irrational' a statement?**
 **Answer:**
-Yes, it is a statement because it is a mathematical fact that can be classified as True.
+Yes, it is a statement because it is a [mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) fact that can be classified as True.
 
 ---
 
@@ -147,7 +147,7 @@ Yes, it is a statement because it is a mathematical fact that can be classified 
 
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
-- **Chapter 4: Mathematical Induction**
+- **Chapter 4: [mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) Induction**
 - **Chapter 1: Sets**
 - [**External Reference:** [NCERT Class 11 Math Chapter 14](https://ncert.nic.in/textbook.php?kemh1=14-16) (Authoritative Source)]
 
@@ -198,7 +198,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/complex-numbers-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)
 - 📖 [Units And Measurements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/units-and-measurements-class-11-revision-notes-jee-neet)

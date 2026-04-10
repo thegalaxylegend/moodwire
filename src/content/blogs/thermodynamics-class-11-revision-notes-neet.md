@@ -165,14 +165,14 @@ The Second Law sets the direction of energy transfer and limits efficiency.
 
 - **Chapter 10: Thermal Properties of Matter**
 - **Chapter 12: [kinetic](/blog/kinetic-theory-class-11-revision-notes-jee-neet) Theory of Gases (Molecular Dynamics)**
-- **Thermodynamics P-V Graph Solver Guide**
+- **[thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) P-V Graph Solver Guide**
 
 
 
 
 ## <a id="conclusion"></a>Conclusion
 
-Thermodynamics is the science of limits. By understanding the mathematical proofs behind heat engines and energy conversion, you gain the ability to optimize complex systems and understand the fundamental constraints of our universe. Master the derivations for Isothermal and Adiabatic work—these are the pillars upon which the entire industrial world is built. Stay efficient, watch your entropy, and always respect the Second Law!
+[thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) is the science of limits. By understanding the mathematical proofs behind heat engines and energy conversion, you gain the ability to optimize complex systems and understand the fundamental constraints of our universe. Master the derivations for Isothermal and Adiabatic work—these are the pillars upon which the entire industrial world is built. Stay efficient, watch your entropy, and always respect the Second Law!
 
 ---
 **Reference:** [Journal of Thermal Science and Engineering](https://www.journals.elsevier.com)

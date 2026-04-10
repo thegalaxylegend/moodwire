@@ -69,7 +69,7 @@ For students preparing for JEE/NEET, it is essential to understand the historica
 | Topic | Description |
 | --- | --- |
 | **Indus Valley Civilization** | 3300 BCE - 1300 BCE |
-| **Vedic Period** | 1500 BCE - 500 BCE |
+| **[vedic](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) Period** | 1500 BCE - 500 BCE |
 | **Mauryan Empire** | 322 BCE - 185 BCE |
 | **Gupta Empire** | 320 CE - 550 CE |
 
@@ -90,14 +90,14 @@ The following tables summarize some of the key concepts related to the Indus Val
 | --- | --- | --- |
 | Harappa | Punjab, Pakistan | Broad streets, public baths, advanced drainage systems |
 | Mohenjo-Daro | Sindh, Pakistan | Great Bath, kiln-fired bricks, flat roofs |
-| Lothal | Gujarat, India | Dockyard, warehouses, irrigation system |
+| Lothal | Gujarat, [india](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse) | Dockyard, warehouses, irrigation system |
 
 ## <a id="trap-exceptions"></a>Trap Exceptions
 
 The following are some trap exceptions to watch out for when studying the Indus Valley Civilization:
 
-* **Do not confuse** the Indus Valley Civilization with the Vedic Period or the Mauryan Empire.
-* **Be aware** of the differences between the Indus Valley Civilization and other ancient civilizations, such as the Egyptian or Mesopotamian civilizations.
+* **Do not confuse** the Indus Valley Civilization with the [vedic](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) Period or the Mauryan Empire.
+* **Be aware** of the differences between the Indus Valley Civilization and other [ancient](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) civilizations, such as the Egyptian or Mesopotamian civilizations.
 * **Note** that the Indus Valley Civilization is also known as the Harappan Civilization.
 
 ## <a id="ayushs-tips"></a>Ayush's Tips
@@ -125,7 +125,7 @@ where $P$ is the population, $r$ is the growth rate, and $K$ is the carrying cap
 
 ## <a id="historical-context"></a>Historical Context
 
-The Indus Valley Civilization is significant not only because of its advanced urban planning and architecture but also because of its historical context. The civilization flourished during a time of great change and upheaval in the Indian subcontinent, and its legacy can still be seen in the modern-day cultures of Pakistan and India.
+The Indus Valley Civilization is significant not only because of its advanced urban planning and architecture but also because of its historical context. The civilization flourished during a time of great change and upheaval in the Indian subcontinent, and its legacy can still be seen in the modern-day cultures of Pakistan and [india](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse).
 
 ## <a id="cultural-significance"></a>Cultural Significance
 

@@ -45,7 +45,7 @@ practice_link: "/class-11/biology/neet-2026-weightage-prediction-class-11-revisi
 
 # NEET 2026 Prediction: Chapter-Wise Weightage Analysis (10-Year Data)
 
-The National Eligibility cum Entrance Test (NEET) is the definitive gateway to medical education in India. With competition growing fiercer each year, preparing blindly is no longer an option. To secure a rank in 2026, you need to think like the examiner.
+The National Eligibility cum Entrance Test ([neet](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)) is the definitive gateway to medical education in India. With competition growing fiercer each year, preparing blindly is no longer an option. To secure a rank in 2026, you need to think like the examiner.
 
 By analyzing the past 10 years of question papers, we have developed a data-driven model to predict the **chapter-wise [weightage](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) for NEET 2026**.
 
@@ -56,7 +56,7 @@ Historically, Physics is where top rankers pull ahead. Over the last decade, the
 
 ### <a id="highweightage-chapters-expected-34-questions-each"></a>High-Weightage Chapters (Expected 3-4 Questions Each):
 - **Optics (Ray and Wave):** A consistent heavy-hitter. Expect questions integrating interference with classical optics.
-- **Modern Physics:** Dual Nature, Atoms, and Nuclei are "low effort, high yield." Never skip these.
+- **Modern Physics:** Dual Nature, Atoms, and Nuclei are "low effort, [high](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) yield." Never skip these.
 - **Thermodynamics & KTG:** Highly conceptual; frequently features graphical questions.
 - **Current Electricity:** Expect circuit-solving questions combined with measuring instruments (potentiometer, meter bridge).
 
@@ -71,7 +71,7 @@ Historically, Physics is where top rankers pull ahead. Over the last decade, the
 
 ## <a id="2-chemistry-the-balancing-act"></a>2. Chemistry: The Balancing Act
 
-Chemistry in NEET is split into Physical, Organic, and Inorganic. The transition towards NCERT-centric questions has made scoring 160+ highly achievable.
+Chemistry in [neet](/blog/states-of-matter-class-11-revision-notes-jee-neet) is split into Physical, Organic, and Inorganic. The transition towards NCERT-centric questions has made scoring 160+ highly achievable.
 
 ### <a id="highweightage-chapters"></a>High-Weightage Chapters:
 - **Coordination Compounds:** 3-4 questions are standard. Master Isomerism, VBT, and CFT.

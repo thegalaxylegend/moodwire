@@ -91,7 +91,7 @@ Thermodynamics doesn't care about speed — that's Kinetics. Thermodynamics answ
 
 ### <a id="why-this-chapter-matters-exam-data"></a>Why This Chapter Matters (Exam Data)
 - **JEE Mains 2026**: 2 questions — one on $\Delta H$ vs $\Delta U$ using $\Delta n_g$, one on Gibbs and spontaneity.
-- **NEET 2026**: 1 question on Hess's Law and 1 on the Third Law.
+- **[neet](/blog/equilibrium-class-11-revision-notes-jee-neet) 2026**: 1 question on Hess's Law and 1 on the Third Law.
 - **CBSE Boards**: This unit carries 7 marks and is a classic long-answer question topic.
 
 ---
@@ -379,7 +379,7 @@ CBSE loves "Derive the Gibbs-Helmholtz equation" as a 5-mark question. Write the
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/equilibrium-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
 - 📖 [Equilibrium Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/equilibrium-class-11-revision-notes-jee-neet)

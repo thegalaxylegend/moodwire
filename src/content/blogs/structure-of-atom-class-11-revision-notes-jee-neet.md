@@ -100,7 +100,7 @@ Most students treat this chapter as a bunch of formulas to memorize. I did the s
 **Exam data shows that this chapter contributes to roughly 2-3 direct questions in JEE Mains and is a fundamental pillar for Inorganic and Physical [chemistry](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet).**
 
 - **JEE Mains 2026**: In Session 2, Q.14 was a direct calculation of the velocity of an electron in the 3rd orbit of $Li^{2+}$.
-- **NEET Weightage**: Expected 2 questions (one on Quantum Numbers, one on Bohr's/Spectrum).
+- **[neet](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet) Weightage**: Expected 2 questions (one on Quantum Numbers, one on Bohr's/Spectrum).
 - **High ROI**: Unlike Organic mechanisms, these are "Plug-and-Play" marks if your unit conversions are correct.
 
 ---
@@ -380,7 +380,7 @@ For your school exams, always draw the Rydberg series energy level diagram ($n=1
 
 **Related [revision](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Notes:**
 - **[chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Bonding VSEPR Theory JEE 2026 tricks — Hybridization & Shapes**
-- **Periodic Table Trends - Master Classification Short Notes**
+- **Periodic Table Trends - Master [classification](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet) Short Notes**
 - **Some Basic Concepts of Chemistry: Mole Concept & Stoichiometry Revision**
 
 ---
