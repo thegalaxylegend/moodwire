@@ -83,7 +83,7 @@ practice_link: "/class-11/mathematics/determinants-class-12-notes"
 
 #### Expansion Along a Row
 - **Formula:** $$\det(A) = a_{i1}C_{i1} + a_{i2}C_{i2} + \cdots + a_{in}C_{in}$$ — $a_{ij}$ are elements of the matrix, $C_{ij}$ are cofactors.
-- **Application:** Used to calculate the determinant of a matrix by expanding along a row.
+- **[application](/blog/application-of-integrals-class-12-notes):** Used to calculate the determinant of a matrix by expanding along a row.
 
 ### <a id="-core-concept-4-cofactor-expansion"></a>⚡ Core Concept 4: Cofactor Expansion
 

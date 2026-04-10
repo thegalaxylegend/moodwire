@@ -96,7 +96,7 @@ Biological classification is an important topic for [class](/blog/photosynthesis
 ## <a id="ayushs-note"></a>Ayush's Note
 
 <div [class](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)="callout-box">
-I still remember when I was preparing for my NEET exam, I used to get confused between the different levels of classification. I would often mix up the order of the levels, and it would lead to mistakes in my exams. But then I realized that if I just remembered the sentence "Some Genera Have Incredible Names" (Kingdom, Phylum, Class, Order, Family, Genus, Species), I could easily recall the correct order. This trick helped me a lot, and I was able to answer questions related to biological classification with confidence.
+I still remember when I was preparing for my NEET exam, I used to get confused between the different levels of classification. I would often mix up the order of the levels, and it would lead to mistakes in my exams. But then I realized that if I just remembered the sentence "Some Genera Have Incredible Names" (Kingdom, Phylum, [class](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet), Order, Family, Genus, Species), I could easily recall the correct order. This trick helped me a lot, and I was able to answer questions related to biological classification with confidence.
 </div>
 
 

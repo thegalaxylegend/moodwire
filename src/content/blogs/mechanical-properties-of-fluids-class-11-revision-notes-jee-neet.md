@@ -188,7 +188,7 @@ Surface tension is the result of cohesive forces between molecules at the surfac
 
 ## <a id="conclusion"></a>Conclusion
 
-The physics of fluids is the physics of flow—from the blood in our veins to the hurricanes in our atmosphere. By mastering the mathematical laws of Bernoulli and the dynamics of terminal velocity, we gain the power to harness fluid energy and design everything from water pumps to spacecraft. Master the derivation of Bernoulli’s Theorem and the nuances of surface tension—these are the fluid principles that keep our world moving. Stay in the flow, watch your Reynolds number, and never let your pressure drop!
+The physics of fluids is the physics of flow—from the blood in our veins to the hurricanes in our atmosphere. By mastering the mathematical [laws](/blog/laws-of-motion-class-11-revision-notes-jee-neet) of Bernoulli and the dynamics of terminal velocity, we gain the power to harness fluid energy and design everything from water pumps to spacecraft. Master the derivation of Bernoulli’s Theorem and the nuances of surface tension—these are the fluid principles that keep our world moving. Stay in the flow, watch your Reynolds number, and never let your pressure drop!
 
 ---
 **Reference:** [Physics Classroom: Fluid Mechanics](https://www.physics[class](/blog/kinetic-theory-class-11-revision-notes-jee-neet)room.com/class/fluids)
@@ -210,7 +210,7 @@ The physics of fluids is the physics of flow—from the blood in our veins to th
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
 - 📖 [Thermal Properties Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet)

@@ -107,7 +107,7 @@ Where **k = 1 / (4πε₀)** ≈ 9 × 10⁹ N m²/C².
 **ε₀ (Permittivity of Free Space)** = 8.854 × 10⁻¹² C² N⁻¹ m⁻².
 
 ### <a id="ii-vector-form-derivation-the-absolute-proof"></a>II. Vector Form Derivation (The Absolute Proof)
-Let **r1** and **r2** be the position vectors of charges **q1** and **q2**.
+Let **r1** and **r2** be the position vectors of [charges](/blog/moving-charges-magnetism-class-11-revision-notes-neet) **q1** and **q2**.
 1.  Relative vector **r_21 = r2 - r1**.
 2.  Distance **r = |r_21|**.
 3.  Unit vector **r̂_21 = r_21 / r**.
@@ -273,7 +273,7 @@ The field of Electrostatics is the foundation upon which all modern technology�
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Moving Charges Magnetism Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/moving-charges-magnetism-class-11-revision-notes-neet)
 - 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)

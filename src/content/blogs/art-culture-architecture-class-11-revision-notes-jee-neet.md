@@ -102,7 +102,7 @@ When revising architecture, watch out for these common trap exceptions:
 * **Art Nouveau vs. Art Deco**: Art Nouveau is characterized by sinuous lines and organic forms, whereas Art Deco is marked by geometric shapes and metallic materials.
 * **Bauhaus vs. International Style**: While both styles emphasize functionality and simplicity, Bauhaus is characterized by a more experimental and avant-garde approach, whereas International Style is marked by a more minimalist and industrial aesthetic.
 
-By focusing on these key concepts, formulae, and trap exceptions, you'll be well on your way to acing your JEE/NEET exams and developing a deeper appreciation for the world of architecture. As I, Ayush, continue to explore the fascinating world of art and culture, I'm reminded that architecture is not just about buildings - it's about the people, cultures, and histories that shape our built environment.
+By focusing on these key concepts, formulae, and trap exceptions, you'll be well on your way to acing your JEE/[neet](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) exams and developing a deeper appreciation for the world of architecture. As I, Ayush, continue to explore the fascinating world of art and culture, I'm reminded that architecture is not just about buildings - it's about the people, cultures, and histories that shape our built environment.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

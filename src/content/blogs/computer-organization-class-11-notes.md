@@ -47,7 +47,7 @@ From a personal perspective, I still remember the first time I disassembled a co
 To grasp the concepts of Computer Organization, it's essential to have a solid foundation in **binary number system**, **[data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) representation**, and **basic programming concepts**. A thorough understanding of these prerequisites will enable you to comprehend the intricacies of computer architecture and appreciate the complexity of modern computing systems. The following topics are considered essential prerequisites for studying Computer Organization:
 
 * **Binary Number System**: Understanding how numbers are represented in binary format, including **binary arithmetic**, **signed and unsigned numbers**, and **binary codes**.
-* **Data Representation**: Familiarity with how data is represented in computers, including **numeric**, **character**, and **string data types**.
+* **[data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) Representation**: Familiarity with how [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) is represented in computers, including **numeric**, **character**, and **string [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) types**.
 * **Basic Programming Concepts**: Knowledge of programming fundamentals, including **variables**, **data types**, **control [structures](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards)**, and **functions**.
 
 The [class](/blog/digital-logic-class-11-revision-notes-gate-boards) 11 exam will test your understanding of Computer Organization through a combination of theoretical and practical questions. The exam will cover topics such as:
@@ -79,7 +79,7 @@ As you begin your journey in Computer Organization, it's essential to focus on t
 * **Input/Output operations**: The ways in which a computer interacts with the outside world, including **input devices**, **output devices**, and **communication protocols**.
 * **Parallel processing**: The use of multiple processing units to improve the performance of a computer.
 
-By mastering these concepts and understanding how they interact with each other, you'll develop a deep appreciation for the complexity and beauty of computer organization. As we progress through this subject, we'll explore these topics in greater detail, using a combination of theoretical explanations, examples, and practice problems to help you prepare for the Class 11 exam.
+By mastering these concepts and understanding how they interact with each other, you'll develop a deep appreciation for the complexity and beauty of computer organization. As we progress through this subject, we'll explore these topics in greater detail, using a combination of theoretical explanations, examples, and practice problems to help you prepare for the [class](/blog/digital-logic-class-11-revision-notes-gate-boards) 11 exam.
 
 **Exam Day Summary**
 On the day of the exam, it's essential to be well-prepared and confident in your understanding of Computer Organization. Make sure to review the key concepts, practice problems, and focus on the weightage of each topic. With a solid foundation in the prerequisites and a deep understanding of the subject matter, you'll be well-equipped to tackle the challenges of the exam and achieve a high score.

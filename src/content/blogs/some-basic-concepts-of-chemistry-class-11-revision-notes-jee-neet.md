@@ -80,7 +80,7 @@ For example, the molecular mass of water (H$_2$O) is:
 $$\text{Molecular Mass of H}_2\text{O} = 2 \times \text{Atomic Mass of H} + \text{Atomic Mass of O}\text{Molecular Mass of H}_2\text{O} = 2 \times 1 + 16 = 18$$
 
 ### <a id="mole-concept"></a>Mole Concept
-The mole concept is a fundamental concept in chemistry. It's defined as the amount of substance that contains as many particles (atoms, molecules, or ions) as there are atoms in 0.012 kg of carbon-12.
+The mole concept is a fundamental concept in [chemistry](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet). It's defined as the amount of substance that contains as many particles (atoms, molecules, or ions) as there are atoms in 0.012 kg of carbon-12.
 
 $$1 \text{ mole} = 6.022 \times 10^{23} \text{ particles}$$
 
@@ -93,7 +93,7 @@ $$\text{Number of Moles of Na} = \frac{10}{23} = 0.434 \text{ moles}$$
 ### <a id="stoichiometry"></a>Stoichiometry
 Stoichiometry is the study of the quantitative relationships between reactants and products in [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) reactions. It's used to calculate the amount of reactants required or the amount of products formed in a reaction.
 
-The law of conservation of mass states that matter cannot be created or destroyed in a chemical reaction. This means that the total mass of the reactants is equal to the total mass of the products.
+The law of conservation of mass states that matter cannot be created or destroyed in a [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) reaction. This means that the total mass of the reactants is equal to the total mass of the products.
 
 $$\text{Mass of Reactants} = \text{Mass of Products}$$
 
@@ -191,7 +191,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/classification-of-elements-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Classification Of Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-of-elements-class-11-revision-notes-jee-neet)
 - 📖 [Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)

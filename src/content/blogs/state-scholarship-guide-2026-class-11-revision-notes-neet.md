@@ -49,7 +49,7 @@ In this , we will break down the hidden world of state scholarships for 2026. We
 
 > **Key Takeaways**
 > - **Hidden Opportunities**: State exams often have higher success rates than national competitive tests.
-> - **Financial Support**: Programs like NMMS offer consistent funding through high school.
+> - **Financial Support**: Programs like NMMS offer consistent funding through [high](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) school.
 > - **Dual Preparation**: State syllabus often overlaps perfectly with these scholarship patterns.
 > - **Profile Building**: Winning a state-level merit list is a significant achievement for college applications.
 
@@ -81,9 +81,9 @@ In contrast, Maharashtra’s PUP and PSS exams are deeply cultural, testing logi
 
 ## <a id="preparation-roadmap-mastering-mat-and-sat-sections"></a>Preparation Roadmap: Mastering MAT and SAT Sections
 
-Success in these regional exams typically depends on mastering two sections: the Scholastic Ability Test (SAT) and the Mental Ability Test (MAT). The SAT is usually a direct reflection of your State Board or NCERT textbooks. The secret here is not to search for advanced reference books but to master the exercises at the end of each textbook chapter. Multiple readings of the Science and Social Science chapters are essential for identifying the tiny factual details that often form the basis of scholarship MCQs.
+Success in these regional exams typically depends on mastering two sections: the Scholastic Ability Test (SAT) and the Mental Ability Test (MAT). The SAT is usually a direct reflection of your State Board or NCERT textbooks. The secret here is not to search for advanced reference books but to [master](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet) the exercises at the end of each textbook chapter. Multiple readings of the Science and Social Science chapters are essential for identifying the tiny factual details that often form the basis of scholarship MCQs.
 
-The MAT (Mental Ability Test), however, is where approximately 70% of students face challenges because it is not typically part of the school curriculum. This section tests logical reasoning through series completion, coding-decoding, and spatial visualization (like mirror images). To excel in MAT, consistent 30-minute daily practice sessions are more effective than marathon weekend sessions. Using our **online mock tests** for mental ability can help you build the necessary speed to solve these puzzles accurately under the intense pressure of exam day.
+The MAT (Mental Ability Test), however, is where approximately 70% of students face challenges because it is not typically part of the school curriculum. This section tests logical reasoning through series completion, coding-decoding, and spatial visualization (like mirror images). To excel in MAT, consistent 30-minute [daily](/blog/study-12-hours-daily-tips-class-11-revision-notes-jee-neet) practice sessions are more effective than marathon weekend sessions. Using our **online mock tests** for mental ability can help you build the necessary speed to solve these puzzles accurately under the intense pressure of exam day.
 
 ## <a id="administrative-protips-for-students-and-parents"></a>Administrative Pro-Tips for Students and Parents
 

@@ -57,7 +57,7 @@ In the context of the exam, it's essential to practice solving numerical problem
 
 To summarize, Electromagnetic Induction is a fundamental concept in physics that has numerous applications in our daily lives. Understanding the principles of Electromagnetic Induction, including magnetic flux, induced emf, self-induction, and mutual induction, is crucial for appreciating the science behind many modern technologies. As we prepare for the [class](/blog/alternating-current-class-12-notes) 12 exams, it's essential to have a solid grasp of these concepts and be able to apply them to solve numerical problems and derive equations and formulas. By doing so, we can not only score well in the physics paper but also develop a deeper understanding of the world around us. 
 
-Some of the key formulas and equations related to Electromagnetic Induction include:
+Some of the key formulas and equations related to Electromagnetic [induction](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) include:
 
 * $e = -N\frac{d\Phi}{dt}$: the induced emf in a coil
 * $\Phi = BA\cos\theta$: the magnetic flux
@@ -68,7 +68,7 @@ These formulas and equations are essential in solving numerical problems and und
 
 
 
-Electromagnetic induction is a fundamental concept in physics where an electric current is generated in a conductor by changing the magnetic field around it. It includes the magnetic field, the conductor, and the relative motion between them. For Class 12 exam prep in 2026, the most important aspect is understanding the relationship between the magnetic flux and the induced electromotive force (emf) as it forms the basis of many applications and is a key area of focus in the syllabus. 
+Electromagnetic induction is a fundamental concept in physics where an electric current is generated in a conductor by changing the magnetic field around it. It includes the magnetic field, the conductor, and the relative motion between them. For [class](/blog/magnetism-and-matter-class-12-notes) 12 exam prep in 2026, the most important aspect is understanding the relationship between the magnetic flux and the induced electromotive force (emf) as it forms the basis of many applications and is a key area of focus in the syllabus. 
  
  The discovery of electromagnetic induction is attributed to Michael Faraday, who in 1831, observed that a changing magnetic environment around a coil produced an electric current. This breakthrough led to a deeper understanding of the relationship between electricity and magnetism, unifying the previously separate theories of electricity and magnetism into a single, coherent theory of electromagnetism. The principle of electromagnetic induction is widely used in generators, motors, transformers, and inductive sensors, making it a crucial concept for engineering and technological applications.
  

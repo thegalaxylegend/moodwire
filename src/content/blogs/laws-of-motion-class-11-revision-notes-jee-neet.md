@@ -71,7 +71,7 @@ If Kinematics is the "What" of [motion](/blog/motion-in-a-plane-class-11-revisio
 ## <a id="1-newtons-three-laws-the-principles-of-force"></a>1. Newton's Three Laws: The Principles of Force
 
 ### <a id="i-first-law-law-of-inertia"></a>I. First Law (Law of Inertia)
-**Theorem:** An object remains in its state of rest or uniform motion unless acted upon by an external unbalanced force.
+**Theorem:** An object remains in its state of rest or uniform [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) unless acted upon by an external unbalanced force.
 - **Inertia:** The inherent property of matter that resists change.
 - **Types:** Inertia of Rest, Motion, and Direction.
 

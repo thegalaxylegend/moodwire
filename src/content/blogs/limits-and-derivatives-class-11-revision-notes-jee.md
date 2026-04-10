@@ -79,7 +79,7 @@ What is the concept of Limits in Mathematics? is a fundamental concept in calcul
 
 ## <a id="how-to-evaluate-limits-using-algebraic-manipulation"></a>How to evaluate Limits using Algebraic Manipulation?
 
-How to evaluate Limits using Algebraic Manipulation? is a method to find the limit of a function by simplifying it using algebraic techniques. It includes factoring, canceling common factors, and rationalizing the numerator or denominator. For Class 11 exam prep in 2026, the most important aspect is understanding how to apply these techniques to solve limit problems, especially for trigonometric and rational functions. 
+How to evaluate Limits using Algebraic Manipulation? is a method to find the limit of a function by simplifying it using algebraic techniques. It includes factoring, canceling common factors, and rationalizing the numerator or denominator. For [class](/blog/digital-logic-class-11-revision-notes-gate-boards) 11 exam prep in 2026, the most important aspect is understanding how to apply these techniques to solve limit problems, especially for trigonometric and rational functions. 
    
    To evaluate limits using algebraic manipulation, one must first identify the type of function involved. For rational functions, the goal is to factor and cancel common factors in the numerator and denominator. If the function involves radicals, rationalizing the numerator or denominator may be necessary. 
    

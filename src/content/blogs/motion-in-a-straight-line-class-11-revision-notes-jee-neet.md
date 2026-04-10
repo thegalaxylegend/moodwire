@@ -200,7 +200,7 @@ When an object is dropped from height **H**, it experiences a constant accelerat
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 3: [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) in a Plane (Projectile Theory)**
-- **Chapter 4: Laws of Motion (Force Dynamics)**
+- **Chapter 4: Laws of [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) (Force Dynamics)**
 - **Mastering Kinematics Practice Problems**
 
 
@@ -251,7 +251,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
 - 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)

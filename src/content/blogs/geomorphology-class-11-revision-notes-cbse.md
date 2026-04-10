@@ -159,7 +159,7 @@ E = \sum_{i=1}^{n} (R_i \times S_i)
 \end{equation}
 where $E$ is the total erosion, $R_i$ is the runoff, and $S_i$ is the slope. 
 I will make sure to review the **Trap Exceptions** and focus on the **Key Terms** to excel in the subject. 
-By following the **JEE/NEET data** and **Ayush's Personal Note**, I will be able to stay on track and achieve my goals. 
+By following the **JEE/[neet](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) data** and **Ayush's Personal Note**, I will be able to stay on track and achieve my goals. 
 The **Geomorphology and Its Importance** section has helped me understand the significance of the subject, and I will make sure to apply this knowledge in my future studies. 
 The **Key Terms** section has provided me with a quick reference guide to the essential vocabulary in Geomorphology. 
 Overall, this quick [revision](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) and recap has been extremely helpful in preparing me for my exam, and I am confident that I will do well. 
@@ -172,7 +172,7 @@ I will make sure to use this guide to help me solve problems and answer question
 The **MCQs** section has provided me with a chance to practice my knowledge and identify areas where I need to improve. 
 I will continue to practice and review the material to ensure I am well-prepared for my exam. 
 The **Trap Exceptions** section has helped me identify potential pitfalls and exceptions to the rules, and I will make sure to be aware of these as I study. 
-Overall, this quick revision and recap has been extremely helpful, and I am confident that I will do well in my exam. 
+Overall, this quick [revision](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) and recap has been extremely helpful, and I am confident that I will do well in my exam. 
 I will continue to review and practice the material to ensure I am well-prepared. 
 The **Geomorphology and Its Applications** section has helped me understand the significance of the subject and its relevance to real-life situations. 
 I will make sure to apply this knowledge in my future studies. 

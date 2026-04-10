@@ -205,7 +205,7 @@ Solution: d) Controlling the cell's genetic material
 
 ## <a id="related-notes-links"></a>Related Notes Links
 
-* Cell Biology Notes for Class 11
+* Cell Biology Notes for [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) 11
 * Biology Notes for Class 11
 
 

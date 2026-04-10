@@ -83,7 +83,7 @@ The slope (also called gradient) of a non-vertical [line](/blog/motion-in-a-stra
 ## <a id="2-various-forms-of-the-equation-of-a-line"></a>2. Various Forms of the Equation of a Line
 
 Depending on the given information, we use different forms:
-1.  **Horizontal Line:** y = b.
+1.  **Horizontal [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet):** y = b.
 2.  **Vertical Line:** x = a.
 3.  **Point-Slope Form:** (y - y₁) = m(x - x₁).
 4.  **Two-Point Form:** (y - y₁) / (y₂ - y₁) = (x - x₁) / (x₂ - x₁).

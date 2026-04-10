@@ -62,9 +62,9 @@ Some of the key concepts and formulas that you should be familiar with before st
 | **Brewster's Law** | $\tan \theta_B = \frac{n_2}{n_1}$ |
 | **Malus' Law** | $I = I_0 \cos^2 \theta$ |
 
-As we explore the world of Wave Optics, we'll encounter various types of waves, including **transverse waves** and **longitudinal waves**. We'll also learn about the different types of **polarization**, including **linear polarization**, **circular polarization**, and **elliptical polarization**. The **Fresnel's equations**, which describe the reflection and transmission of light at a boundary between two media, will be derived and applied to various problems.
+As we explore the world of Wave Optics, we'll encounter various types of [waves](/blog/electromagnetic-waves-class-12-notes), including **transverse [waves](/blog/electromagnetic-waves-class-12-notes)** and **longitudinal [waves](/blog/electromagnetic-waves-class-12-notes)**. We'll also learn about the different types of **polarization**, including **linear polarization**, **circular polarization**, and **elliptical polarization**. The **Fresnel's equations**, which describe the reflection and transmission of light at a boundary between two media, will be derived and applied to various problems.
 
-Throughout this journey, we'll use a combination of theoretical derivations, numerical problems, and conceptual questions to reinforce our understanding of Wave Optics. We'll also explore the various applications of Wave Optics, including **optical communication systems**, **medical imaging**, and **spectroscopy**. By the end of this module, you'll have a deep understanding of the principles and concepts of Wave Optics, and be well-prepared to tackle the challenges of the Class 12 Physics exam.
+Throughout this journey, we'll use a combination of theoretical derivations, numerical problems, and conceptual questions to reinforce our understanding of Wave Optics. We'll also explore the various applications of Wave Optics, including **optical communication systems**, **medical imaging**, and **spectroscopy**. By the end of this module, you'll have a deep understanding of the principles and concepts of Wave Optics, and be well-prepared to tackle the challenges of the [class](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) 12 Physics exam.
 
 **Key Concepts to Focus On:**
 

@@ -101,11 +101,11 @@ The morphology and anatomy of animals vary greatly, depending on their phylum, [
 ## <a id="core-concepts"></a>Core Concepts
 
 ### <a id="phylum-chordata"></a>Phylum Chordata
-Phylum Chordata is a group of animals that have a notochord, dorsal nerve cord, and pharyngeal slits. This phylum includes vertebrates such as humans, fish, and birds, as well as some invertebrates such as tunicates and lancelets.
+Phylum Chordata is a group of [animals](/blog/structural-organisation-in-animals-class-11-revision-notes-neet) that have a notochord, dorsal nerve cord, and pharyngeal slits. This phylum includes vertebrates such as humans, fish, and birds, as well as some invertebrates such as tunicates and lancelets.
 Phylum Chordata is defined as a group of animals with a notochord, dorsal nerve cord, and pharyngeal slits.
 
 ### <a id="class-mammalia"></a>Class Mammalia
-Class Mammalia is a group of warm-blooded animals that have hair and mammary glands. This class includes humans, monkeys, and other primates, as well as carnivores, rodents, and many other groups of mammals.
+[class](/blog/environmental-chemistry-class-11-revision-notes-neet) Mammalia is a group of warm-blooded animals that have hair and mammary glands. This [class](/blog/environmental-chemistry-class-11-revision-notes-neet) includes humans, monkeys, and other primates, as well as carnivores, rodents, and many other groups of mammals.
 Class Mammalia is defined as a group of warm-blooded animals with hair and mammary glands.
 
 

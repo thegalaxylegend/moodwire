@@ -237,7 +237,7 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 
  - $$H = 1 - \sum p^2$$ : Expected heterozygosity.
 
- - Mendel's laws are used to explain the inheritance patterns of traits.
+ - Mendel's laws are used to explain the [inheritance](/blog/molecular-basis-of-inheritance-class-12-notes) patterns of traits.
 
  - Polygenic inheritance involves multiple genes controlling a single trait.
 

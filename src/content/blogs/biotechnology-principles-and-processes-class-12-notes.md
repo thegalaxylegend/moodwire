@@ -174,7 +174,7 @@ ightarrow \	ext{Step 3: Extension}
 | Concept | 85% Scorers | 95% Scorers |
 | --- | --- | --- |
 | Recombinant DNA Technology | Basic understanding of steps involved | Deep understanding of process and [applications](/blog/biotechnology-and-its-applications-class-12-notes) |
-| Restriction Endonucleases | Recognition of function | Ability to choose correct enzymes for specific applications |
+| Restriction Endonucleases | Recognition of function | Ability to choose correct enzymes for specific [applications](/blog/biotechnology-and-its-applications-class-12-notes) |
 | DNA Ligation | Basic understanding of reaction | Optimization of reaction conditions for efficient ligation |
 
 

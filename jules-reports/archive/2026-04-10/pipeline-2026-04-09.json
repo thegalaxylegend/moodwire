@@ -1,0 +1,23 @@
+[
+  {
+    "slug": "quadratic-equations-class-10-notes",
+    "status": "published",
+    "quality_score": 100,
+    "retries": 0,
+    "error": null
+  },
+  {
+    "slug": "coordinate-geometry-class-10-notes",
+    "status": "failed",
+    "quality_score": 0,
+    "retries": 2,
+    "error": "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}"
+  },
+  {
+    "slug": "introduction-to-trigonometry-class-10-notes",
+    "status": "failed",
+    "quality_score": 0,
+    "retries": 2,
+    "error": "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}"
+  }
+]

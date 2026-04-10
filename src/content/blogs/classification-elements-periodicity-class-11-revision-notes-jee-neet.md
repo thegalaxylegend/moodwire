@@ -140,7 +140,7 @@ I used to dread Inorganic [chemistry](/blog/thermodynamics-chemistry-class-11-re
 
 ## <a id="4-atomic-radius-vs-ionic-radius-the-size-story"></a>4. Atomic Radius vs Ionic Radius — The Size Story
 
-**Atomic Radius is the distance from the nucleus to the outermost electron cloud of a neutral atom, while Ionic Radius is the effective radius of an ion in a crystal lattice.**
+**Atomic Radius is the distance from the nucleus to the outermost electron cloud of a neutral [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet), while Ionic Radius is the effective radius of an ion in a crystal lattice.**
 
 ### <a id="trends"></a>Trends
 - **Across Period**: Decreases. Why? $Z_{eff}$ increases → electrons pulled closer.
@@ -347,7 +347,7 @@ NCERT asks "Explain the trend in Ionization Enthalpy across a period." Always me
 
 ---
 
-**Related Revision Notes:**
+**Related [revision](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Notes:**
 - **Chemical Bonding VSEPR Theory JEE 2026 tricks — Hybridization & Shapes**
 - **Structure of Atom — Quantum Numbers & Configuration Shortcuts**
 - **Some Basic Concepts of Chemistry — Mole Concept & Stoichiometry**

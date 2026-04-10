@@ -68,7 +68,7 @@ In this [guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)
 
 ## <a id="the-3pillar-framework-for-optional-selection"></a>The 3-Pillar Framework for Optional Selection
 
-Choosing an optional subject is a long-term commitment that requires deliberate planning. You will live with this subject for months, often dedicating 10 hours a day to its mastery. While many suggest following your "passion," a purely interest-based approach can fail if there is no study material or **NCERT solutions** available.
+Choosing an [optional](/blog/upsc-optional-selection-guide) subject is a long-term commitment that requires deliberate planning. You will live with this subject for months, often dedicating 10 hours a day to its mastery. While many suggest following your "passion," a purely interest-based approach can fail if there is no study material or **NCERT solutions** available.
 
 Our framework uses three pillars: Success Rate (how many candidates qualify), Overlap (how much it aids your General Studies papers), and Manageability (if the syllabus fits within a 4-month preparation window). Balancing these three ensures that your optional becomes a scoring asset rather than an overwhelming burden during the peak of [mains](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) preparation.
 
@@ -77,7 +77,7 @@ Our framework uses three pillars: Success Rate (how many candidates qualify), Ov
 
 ## <a id="success-rates-and-gs-overlap-mastery"></a>Success Rates and GS Overlap Mastery
 
-Don't just look at how many people *take* a subject; look at who *qualifies*. For instance, Anthropology and Sociology have consistently high success rates (around 9–11%) because their syllabi are structured and predictable. Public Administration, while popular, has seen fluctuations in success due to more technical leaning in recent exam cycles.
+Don't just look at how many people *take* a subject; look at who *qualifies*. For instance, Anthropology and Sociology have consistently [high](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) success rates (around 9–11%) because their syllabi are structured and predictable. Public Administration, while popular, has seen fluctuations in success due to more technical leaning in recent exam cycles.
 
 GS overlap is the most practical advantage you can gain. Subjects like Political Science (PSIR) overlap significantly with GS Paper 2 (Polity and IR) and Paper 4 (Ethics). According to research at [Oxford Academic](https://academic.oup.com), cross-disciplinary study enhances retention and application. This overlap saves hundreds of hours of GS study, allowing you to focus on developing an analytical "perspective" required for high marks.
 
@@ -88,7 +88,7 @@ GS overlap is the most practical advantage you can gain. Subjects like Political
 
 Interest is the fuel that keeps you motivated during the "syllabus squeeze." If you find social structures fascinating, Sociology will feel like less of a chore. Use **previous year papers** as a litmus test: read questions from the last three years. If they spark curiosity, you have interest; if they cause friction, reconsider your choice.
 
-Strategic comparisons are vital. A high-overlap subject like PSIR might take 4 months to master and save you 250 hours of GS prep. A standalone subject like Mathematics requires 6+ months and offers zero GS overlap, necessitating a near-perfect score to justify the time investment. Weigh your choice against your background and your ability to sustain long-term focus.
+Strategic comparisons are vital. A high-overlap subject like PSIR might take 4 months to [master](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet) and save you 250 hours of GS prep. A standalone subject like Mathematics requires 6+ months and offers zero GS overlap, necessitating a near-perfect score to justify the time investment. Weigh your choice against your background and your ability to sustain long-term focus.
 
 
 

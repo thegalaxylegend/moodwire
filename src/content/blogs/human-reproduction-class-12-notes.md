@@ -146,7 +146,7 @@ practice_link: "/class-11/biology/human-reproduction-class-12-notes"
 
  - **Solution:** 
 
- - hCG, or human Chorionic Gonadotropin, is a hormone produced by the placenta during pregnancy.
+ - hCG, or [human](/blog/microbes-in-human-welfare-class-12-notes) Chorionic Gonadotropin, is a hormone produced by the placenta during pregnancy.
 
  - Its primary role is to maintain the corpus luteum, which is responsible for producing progesterone, during the first trimester of pregnancy.
 
@@ -192,7 +192,7 @@ practice_link: "/class-11/biology/human-reproduction-class-12-notes"
 | Human [reproduction](/blog/reproduction-in-organisms-class-12-notes) | Menstrual Cycle | 12 |
 | Human [reproduction](/blog/reproduction-in-organisms-class-12-notes) | Fertilization and Implantation | 10 |
 | Human [reproduction](/blog/reproduction-in-organisms-class-12-notes) | Pregnancy and Childbirth | 8 |
-| Human Reproduction | Contraception and Infertility | 6 |
+| Human [reproduction](/blog/reproduction-in-organisms-class-12-notes) | Contraception and Infertility | 6 |
 | Human Reproduction | Sexually Transmitted Diseases | 4 |
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box

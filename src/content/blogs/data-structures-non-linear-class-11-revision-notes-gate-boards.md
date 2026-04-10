@@ -59,7 +59,7 @@ $$
 
 In the context of the Class 11 exam, it's essential to have a solid grasp of these concepts, as questions can range from simple definition-based ones to complex implementation and analysis problems. The exam may ask you to write algorithms for tree traversals, analyze the time and space complexity of graph traversal algorithms, or even [design](/blog/algorithms-design-class-11-revision-notes-gate-boards) and implement a simple binary search tree.
 
-Throughout my prep, I realized that practicing problems and past year questions is key to excelling in Non-Linear Data Structures. It's not just about memorizing formulas and concepts, but about understanding how to apply them to solve real-world problems. For instance, you can practice solving problems on platforms like LeetCode or HackerRank, which provide a wide range of questions on Non-Linear Data Structures.
+Throughout my prep, I realized that practicing problems and past year questions is key to excelling in Non-Linear [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) Structures. It's not just about memorizing formulas and concepts, but about understanding how to apply them to solve real-world problems. For instance, you can practice solving problems on platforms like LeetCode or HackerRank, which provide a wide range of questions on Non-Linear [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) Structures.
 
 In terms of specific topics, the CBSE [class](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) 11 Computer Science syllabus covers the following under Non-Linear Data Structures:
 
@@ -68,7 +68,7 @@ In terms of specific topics, the CBSE [class](/blog/algorithms-analysis-class-11
 
 To prepare for these topics, I recommend starting with the basics and gradually moving on to more complex concepts. You can use online resources like video lectures, tutorials, and practice problems to supplement your learning. Additionally, make sure to revise and practice regularly, as this will help you retain the concepts and apply them effectively in the exam.
 
-By the end of this prep, you should be able to write efficient algorithms for tree and graph traversals, analyze the time and space complexity of these algorithms, and apply Non-Linear Data Structures to solve real-world problems. With consistent practice and dedication, you can master Non-Linear Data Structures and excel in the Class 11 exam.
+By the end of this prep, you should be able to write efficient [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) for tree and graph traversals, analyze the time and space complexity of these [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards), and apply Non-Linear Data Structures to solve real-world problems. With consistent practice and dedication, you can master Non-Linear Data Structures and excel in the Class 11 exam.
 
 
 ## <a id="what-is-ayushs-note-on-data-structures-nonlinear"></a>What is Ayush's Note on Data Structures: Non-Linear?

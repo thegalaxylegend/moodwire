@@ -371,8 +371,8 @@ For CBSE, always state Le Chatelier's Principle in full before applying it. Then
 
 **Related [revision](/blog/structure-of-atom-class-11-revision-notes-jee-neet) Notes:**
 - **Chemical [thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) — Enthalpy & Gibbs Energy Tricks**
-- **Some Basic Concepts of Chemistry — Mole Concept & Stoichiometry**
-- **Chemical Bonding VSEPR Theory JEE 2026 Tricks**
+- **Some Basic Concepts of [chemistry](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) — Mole Concept & Stoichiometry**
+- **[chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Bonding VSEPR Theory JEE 2026 Tricks**
 
 ---
 
@@ -415,7 +415,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/states-of-matter-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [States Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/states-of-matter-class-11-revision-notes-jee-neet)
 - 📖 [Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/structure-of-atom-class-11-revision-notes-jee-neet)

@@ -71,7 +71,7 @@ As I reflect on these historical developments, I am reminded of the significance
 The core concepts of DPSP & Duties can be summarized as follows:
 
 
-As I delve deeper into these concepts, I realize the importance of understanding the relationship between DPSP & Duties and other aspects of Indian Polity. It's crucial to recognize how these principles interact with other concepts, such as **Fundamental Rights** and **Parliamentary Democracy**.
+As I delve deeper into these concepts, I realize the importance of understanding the relationship between DPSP & Duties and other aspects of [indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Polity. It's crucial to recognize how these principles interact with other concepts, such as **Fundamental Rights** and **Parliamentary Democracy**.
 
 
 | Concept | Description |
@@ -159,7 +159,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/physical-world-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Chemical Bonding Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/chemical-bonding-class-11-revision-notes-jee-neet)
 - 📖 [Indian Geography Physical Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/indian-geography-physical-class-11-revision-notes-jee-neet)

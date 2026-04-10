@@ -44,7 +44,7 @@ If you're a JEE aspirant, you've probably heard the advice: "Complete the entire
 
 I’m Ayush, and after spending years analyzing thousands of **previous year papers** while building Exam Compass, I discovered a pattern. Roughly 40% of the JEE Mains paper comes from "High-ROI" chapters—topics that take very little time to [study](/blog/study-12-hours-daily-tips-class-11-revision-notes-jee-neet) but yield massive marks. 
 
-In this guide, I’m sharing the exact list of **JEE Mains high weightage low effort chapters** for 2026 so you can stop studying harder and start studying smarter.
+In this guide, I’m sharing the exact list of **JEE Mains high weightage low effort chapters** for [2026](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet) so you can stop studying harder and start studying smarter.
 
 
 
@@ -104,7 +104,7 @@ Most coaching centers won't tell you to skip chapters because they've sold a "co
 
 ## <a id="conclusion"></a>Conclusion
 
-Success in JEE Mains 2026 depends on your ability to prioritize high-yield chapters over a "complete but shallow" syllabus coverage. By mastering the Sniper Strategy, you can maximize your marks with optimized effort. Combine these high-ROI topics with disciplined practice and regular **online mock tests** to secure your seat in an elite institution.
+Success in JEE Mains 2026 depends on your ability to prioritize high-yield chapters over a "complete but shallow" syllabus coverage. By mastering the Sniper [strategy](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet), you can maximize your marks with optimized effort. Combine these high-ROI topics with disciplined practice and regular **online mock tests** to secure your seat in an elite institution.
 
 
 
@@ -122,7 +122,7 @@ Yes, for qualification purposes. However, to secure a top rank in an NIT or qual
 Mathematically, yes. It takes significant time to master and usually yields only 1–2 questions. While it helps with overall Physics intuition, it should not be your priority if you are short on preparation time.
 
 ### <a id="3-which-subject-is-the-easiest-to-score-in"></a>3. Which subject is the easiest to score in?
-Chemistry is statistically the easiest and most scorable. Many questions are direct or semi-direct from NCERT. If you know the concept, you get the marks quickly, leaving more time for the calculations required in Physics and Math.
+[chemistry](/blog/environmental-chemistry-class-11-revision-notes-neet) is statistically the easiest and most scorable. Many questions are direct or semi-direct from NCERT. If you know the concept, you get the marks quickly, leaving more time for the calculations required in Physics and Math.
  become your strongest area.
 
 ---

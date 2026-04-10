@@ -53,12 +53,12 @@ To tackle the topic of Relations and Functions, it's essential to have a solid f
 
 * **Set theory**: You should be familiar with the basics of set theory, including the definition of a set, union, intersection, and difference of sets.
 * **Cartesian product**: Understanding the concept of the Cartesian product of two sets is crucial, as it forms the basis of relations.
-* **Basic algebra**: A good grasp of algebraic concepts, such as solving linear equations and graphing, will help you to better comprehend functions.
+* **Basic algebra**: A good grasp of algebraic concepts, such as solving [linear](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) equations and graphing, will help you to better comprehend functions.
 
 The topic of Relations and Functions can be broadly divided into two main sections: **Relations** and **Functions**.
 
 ### <a id="relations"></a>Relations
-A **relation** is a subset of the Cartesian product of two sets. In simpler terms, it's a way of associating elements from one set with elements from another set. For example, consider a relation between the set of students in a class and the set of their favorite sports. This relation can be represented as a subset of the Cartesian product of the two sets.
+A **relation** is a subset of the Cartesian product of two sets. In simpler terms, it's a way of associating elements from one set with elements from another set. For example, consider a relation between the set of students in a [class](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) and the set of their favorite sports. This relation can be represented as a subset of the Cartesian product of the two sets.
 
 Some key concepts related to relations include:
 

@@ -146,7 +146,7 @@ The centroid of a triangle with vertices (x₁, y₁, z₁), (x₂, y₂, z₂),
 - d = √[25 + 16 + 4] = √45
 - **d = 3√5 [units](/blog/units-and-measurements-class-11-revision-notes-jee-neet)**.
 
-**Q3: Find the coordinates of the point which divides the line joining (1, -2, 3) and (3, 4, -5) internally in the ratio 2 : 3.**
+**Q3: Find the coordinates of the point which divides the [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) joining (1, -2, 3) and (3, 4, -5) internally in the ratio 2 : 3.**
 **Answer:**
 - x = [2(3) + 3(1)] / 5 = 9/5
 - y = [2(4) + 3(-2)] / 5 = 2/5

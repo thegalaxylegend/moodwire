@@ -189,7 +189,7 @@ In Physics, elasticity is measured by the Modulus (resistance to deformation), n
 
 ## <a id="conclusion"></a>Conclusion
 
-The mechanical properties of solids are what allow humans to build the impossible. By understanding the mathematical relationship between stress, strain, and stored energy, we can engineer safer buildings, more efficient machines, and resilient infrastructure. Master the derivation of elastic potential energy and the nuances of the stress-strain curve—these are the core principles of structural integrity. Stay resilient, stay grounded, and always operate within your elastic limit!
+The mechanical [properties](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet) of solids are what allow humans to build the impossible. By understanding the mathematical relationship between stress, strain, and stored energy, we can engineer safer buildings, more efficient machines, and resilient infrastructure. Master the derivation of elastic potential energy and the nuances of the stress-strain curve—these are the core principles of structural integrity. Stay resilient, stay grounded, and always operate within your elastic limit!
 
 ---
 **Reference:** [Engineering Toolbox: Elastic Properties of Materials](https://www.engineeringtoolbox.com)

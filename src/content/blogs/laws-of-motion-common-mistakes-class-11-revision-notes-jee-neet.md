@@ -134,7 +134,7 @@ Jump into our [Laws of Motion Chapter Hub](/neet/physics/laws-of-motion) and sol
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
 - 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)

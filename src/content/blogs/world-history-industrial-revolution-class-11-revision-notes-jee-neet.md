@@ -323,7 +323,7 @@ I, Ayush, am excited to learn more about the Industrial Revolution and its ongoi
 
 ## <a id="final-thoughts"></a>Final Thoughts
 
-The Industrial Revolution was a complex and multifaceted phenomenon that transformed the way goods were produced, transported, and consumed. It had far-reaching impacts on the economy, society, and politics of Europe and beyond, and its legacy can still be seen today. As I, Ayush, prepare for my Class 11 History exams, I find it essential to recall the key points and concepts related to the Industrial Revolution, and to understand its ongoing impact on our world. 
+The Industrial Revolution was a complex and multifaceted phenomenon that transformed the way goods were produced, transported, and consumed. It had far-reaching impacts on the economy, society, and politics of Europe and beyond, and its legacy can still be seen today. As I, Ayush, prepare for my [class](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) 11 History exams, I find it essential to recall the key points and concepts related to the Industrial Revolution, and to understand its ongoing impact on our world. 
 
 ### <a id="more-on-the-industrial-revolution"></a>More on the Industrial Revolution
 The Industrial Revolution was a time of significant change and transformation, as new machines and manufacturing technologies were developed and new industries emerged. It was also a time of great social and economic change, as the growth of factories and the expansion of transportation networks led to the growth of cities and the development of new social classes.

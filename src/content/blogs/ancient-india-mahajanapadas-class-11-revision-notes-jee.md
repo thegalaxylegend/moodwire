@@ -80,7 +80,7 @@ The following table lists the 16 Mahajanapadas, their capitals, and notable rule
 ### <a id="key-features-of-mahajanapadas"></a>Key Features of Mahajanapadas
 - **Republics and Monarchies**: Some Mahajanapadas, like the Vrijji and Lichchhavi, were republics, while others, such as Magadha, were monarchies.
 - **Economic Developments**: The period saw significant economic growth, with the development of **irrigation systems**, **trade**, and **crafts**.
-- **Religious Movements**: The rise of Buddhism and Jainism, which challenged the traditional Vedic religion, was a hallmark of this period.
+- **Religious Movements**: The rise of Buddhism and Jainism, which challenged the traditional [vedic](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) religion, was a hallmark of this period.
 
 
 | Mahajanapada | Capital | Notable Rulers/Features |
@@ -118,7 +118,7 @@ While historical data doesn't typically involve mathematical formulae, understan
 - **The Mahajanapadas period saw the emergence of new religious movements**, challenging traditional beliefs.
 - **Urbanization and trade were key features** of the Mahajanapadas, contributing to their economic and cultural development.
 
-Understanding these aspects of the Mahajanapadas provides a comprehensive view of ancient India's political, social, and economic landscape, which is essential for any student of history or those preparing for competitive exams that include history as a component. The interplay between political structures, economic developments, and religious movements during this period laid the groundwork for the complex and diverse society that India is today.
+Understanding these aspects of the Mahajanapadas provides a comprehensive view of [ancient](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) India's political, social, and economic landscape, which is essential for any student of history or those preparing for competitive exams that include history as a component. The interplay between political structures, economic developments, and religious movements during this period laid the groundwork for the complex and diverse society that India is today.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

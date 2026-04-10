@@ -1,32 +1,32 @@
 {
   "embeds": [
     {
-      "title": "📈 Jules Quality Trends Report",
-      "color": 5763719,
+      "title": "➡️ Jules Quality Trends Report",
+      "color": 8421504,
       "fields": [
         {
           "name": "📊 All-Time Stats",
-          "value": "Total: 37 blogs\nPassed: 24\nFailed: 13\nPass Rate: 65%",
+          "value": "Total: 40 blogs\nPassed: 29\nFailed: 11\nPass Rate: 73%",
           "inline": true
         },
         {
           "name": "📈 Avg Quality Score",
-          "value": "71/100",
+          "value": "78.2/100",
           "inline": true
         },
         {
-          "name": "📈 Trend",
-          "value": "IMPROVING (+18.1)",
+          "name": "➡️ Trend",
+          "value": "STABLE (+1.3)",
           "inline": true
         },
         {
           "name": "🔴 Top Errors",
-          "value": "• 401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\": (×8)\n• Critically low word count: 330 (Min 800 for Patching) (×2)\n• Critically low word count: 714 (Min 800 for Patching) (×1)",
+          "value": "• 401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\": (×6)\n• Critically low word count: 330 (Min 800 for Patching) (×2)\n• Critically low word count: 714 (Min 800 for Patching) (×1)",
           "inline": false
         }
       ],
       "footer": {
-        "text": "Report generated: 2026-04-09T13:50:45.618Z"
+        "text": "Report generated: 2026-04-10T02:28:22.924Z"
       }
     }
   ]

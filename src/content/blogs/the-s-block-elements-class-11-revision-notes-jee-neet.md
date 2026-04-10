@@ -64,7 +64,7 @@ practice_link: "/class-11/physics/the-s-block-elements-class-11-revision-notes-j
 
 ## <a id="introduction-to-the-sblock-elements"></a>Introduction to the S-Block Elements
 
-The s-block elements are a group of elements in the periodic table that are characterized by the filling of the s-orbitals. They are located in Group 1 and 2 of the periodic table and are also known as the alkali metals and alkaline earth metals. The s-block elements are highly reactive and have a tendency to lose electrons to form positive ions.
+The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements are a group of elements in the periodic table that are characterized by the filling of the s-orbitals. They are located in Group 1 and 2 of the periodic table and are also known as the alkali metals and alkaline earth metals. The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements are highly reactive and have a tendency to lose electrons to form positive ions.
 
 
 
@@ -177,7 +177,7 @@ Solution: D) Rubidium
 
 For more information on the s-block elements, you can refer to the following [notes](/blog/biological-classification-class-11-revision-notes-neet):
 * Chemical Bonding [notes](/blog/biological-classification-class-11-revision-notes-neet)
-* Electrochemistry Notes
+* Electrochemistry [notes](/blog/biological-classification-class-11-revision-notes-neet)
 
 
 

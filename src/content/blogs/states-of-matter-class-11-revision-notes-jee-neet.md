@@ -358,7 +358,7 @@ In CBSE boards, always draw the $PV$ vs $P$ graph or the $Z$ vs $P$ graph if the
 
 **Related [revision](/blog/structure-of-atom-class-11-revision-notes-jee-neet) Notes:**
 - **[chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Thermodynamics — Enthalpy & Hess's Law**
-- **Some Basic Concepts of Chemistry — Mole Concept & Stoichiometry**
+- **Some Basic Concepts of [chemistry](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) — Mole Concept & Stoichiometry**
 - **Chemical [equilibrium](/blog/equilibrium-class-11-revision-notes-jee-neet) — Le Chatelier's Principle Tricks**
 
 ---
@@ -381,7 +381,7 @@ In CBSE boards, always draw the $PV$ vs $P$ graph or the $Z$ vs $P$ graph if the
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/structure-of-atom-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Equilibrium Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/equilibrium-class-11-revision-notes-jee-neet)
 - 📖 [Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/structure-of-atom-class-11-revision-notes-jee-neet)

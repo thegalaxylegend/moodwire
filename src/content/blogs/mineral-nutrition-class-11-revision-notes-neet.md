@@ -136,11 +136,11 @@ These elements are [involved in various physiological processes](https://www.sci
 
 ## <a id="mineral-deficiency-disorders"></a>Mineral Deficiency Disorders
 
-Deficiency of essential elements can lead to various disorders in plants. Some common mineral deficiency disorders are:
+Deficiency of essential elements can lead to various disorders in [plants](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet). Some common mineral deficiency disorders are:
 1. Nitrogen deficiency: causes yellowing of leaves
 2. Phosphorus deficiency: causes stunted [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet) and purple coloration of leaves
 3. Potassium deficiency: causes scorching of leaves and reduced [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet)
-4. Calcium deficiency: causes curling of leaves and reduced growth
+4. Calcium deficiency: causes curling of leaves and reduced [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet)
 5. Magnesium deficiency: causes yellowing of leaves and reduced growth
 
 These disorders can be [diagnosed and managed](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7123155/) by providing the deficient element.
@@ -163,7 +163,7 @@ Ayush's Tip: Make sure to understand the difference between macronutrients and m
 
 One of the shortcuts to remember the essential elements is to use the acronym "C HOPKINGS":
 C - Carbon
-H - Hydrogen
+H - [hydrogen](/blog/hydrogen-class-11-revision-notes-neet)
 O - Oxygen
 P - Phosphorus
 K - Potassium

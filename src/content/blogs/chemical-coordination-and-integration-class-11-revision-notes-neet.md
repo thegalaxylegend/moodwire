@@ -96,7 +96,7 @@ In the JEE/NEET exam, chemical coordination and integration is covered in the bi
 
 ## <a id="core-concepts-in-depth"></a>Core Concepts in Depth
 
-Let's dive deeper into some of the core concepts of chemical coordination and integration.
+Let's dive deeper into [some](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) of the core concepts of chemical coordination and integration.
 
 ### <a id="feedback-mechanisms"></a>Feedback Mechanisms
 Feedback mechanisms are essential for regulating hormone secretion. There are two types of feedback mechanisms: negative feedback and positive feedback.

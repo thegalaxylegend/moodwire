@@ -98,7 +98,7 @@ Trap Exceptions:
 
 ## <a id="ayushs-tips"></a>Ayush's Tips
 
-As I prepare for the Class 11 exam in 2026, I need to focus on the key concepts and principles of federalism. I should:
+As I prepare for the [class](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) 11 exam in 2026, I need to focus on the key concepts and principles of federalism. I should:
 - Study the historical context of federalism in India.
 - Understand the core concepts of federalism, including federal principles, unitary features, and state-center relations.
 - Practice MCQs and revise the key features of federalism.

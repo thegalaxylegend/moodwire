@@ -208,7 +208,7 @@ Last Updated: March 15, 2026
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Respiration In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/respiration-in-plants-class-11-revision-notes-neet)

@@ -242,7 +242,7 @@ practice_link: "/class-11/biology/organisms-and-populations-class-12-notes"
 
 ---
 
-**5. What is the term for the study of the distribution and abundance of organisms in an environment?**
+**5. What is the term for the study of the distribution and abundance of [organisms](/blog/reproduction-in-organisms-class-12-notes) in an environment?**
 
 - A) A. Ecology
 - B) B. Biogeography

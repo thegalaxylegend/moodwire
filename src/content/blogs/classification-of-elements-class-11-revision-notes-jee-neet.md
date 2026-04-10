@@ -56,7 +56,7 @@ For students preparing for JEE and NEET, it's essential to have a thorough under
 
 * Identify the position of an element in the periodic table
 * Describe the electronic configuration of an element
-* Explain the trends in physical and chemical properties of elements
+* Explain the trends in physical and [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) properties of elements
 * Predict the chemical properties of an element based on its position in the periodic table
 
 ## <a id="core-concepts"></a>Core Concepts

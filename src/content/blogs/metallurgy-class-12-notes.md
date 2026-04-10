@@ -196,7 +196,7 @@ Some additional advanced topics that are not covered in this guide include:
 * Phase diagrams and their [application](/blog/application-of-integrals-class-12-notes) in metallurgy
 * Defect [chemistry](/blog/surface-chemistry-class-12-notes) and its impact on metal properties
 * Advanced extraction methods, such as bioleaching and hydrometallurgy
-* Nanotechnology and its application in metallurgy
+* Nanotechnology and its [application](/blog/application-of-integrals-class-12-notes) in metallurgy
 
 These topics are critical for students who want to pursue a career in metallurgy or materials science.
 

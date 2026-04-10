@@ -123,7 +123,7 @@ Understanding the "shape" of [functions](/blog/trigonometric-functions-class-11-
 
 ## <a id="5-algebra-of-real-functions"></a>5. Algebra of Real Functions
 
-If f and g are two real functions:
+If f and g are two real [functions](/blog/trigonometric-functions-class-11-revision-notes-jee-neet):
 *   (f + g)(x) = f(x) + g(x)
 *   (f - g)(x) = f(x) - g(x)
 *   (f · g)(x) = f(x) · g(x)

@@ -17,7 +17,7 @@ practice_link: "/class-11/mathematics/pair-of-linear-equations-class-10-notes"
 
 ### 🚀 Quick Recall — Last Night Summary
 
-- Linear Equations: 1 question on solving a pair of linear equations using the substitution method — always
+- [linear](/blog/linear-programming-class-12-notes) Equations: 1 question on solving a pair of [linear](/blog/linear-programming-class-12-notes) equations using the substitution method — always
 - Linear Equations: 1 question on solving a pair of linear equations using the elimination method — frequently
 - Pair of Linear Equations: Graphical representation of a pair of linear equations — always
 - Linear Equations in Two Variables: Finding the solution to a pair of linear equations by graphical method — frequently

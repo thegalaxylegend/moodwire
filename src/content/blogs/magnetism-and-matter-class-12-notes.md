@@ -47,7 +47,7 @@ Personally, I found magnetism to be a fascinating topic during my own [class](/b
 To truly comprehend magnetism and its [effects](/blog/magnetic-effects-of-current-class-12-notes) on matter, it's essential to have a solid foundation in the following prerequisites:
 
 * **Electricity**: A thorough understanding of electric charges, electric fields, and potential is necessary to appreciate the relationship between electricity and magnetism.
-* **Vector Algebra**: Familiarity with vector operations, such as addition, subtraction, and cross products, is crucial for representing and calculating magnetic fields.
+* **Vector Algebra**: Familiarity with vector operations, such as addition, subtraction, and cross products, is crucial for representing and calculating [magnetic](/blog/magnetic-effects-of-current-class-12-notes) fields.
 * **Kinematics and Dynamics**: Knowledge of motion, force, and energy is essential for understanding the interactions between magnetic fields and charged particles or objects.
 
 **Key Concepts and Formulas**
@@ -83,7 +83,7 @@ Magnetism and matter have numerous practical applications in various fields, inc
 By understanding the principles of magnetism and matter, you'll gain insight into the workings of these technologies and appreciate the significance of this topic in our daily lives.
 
 **Key Takeaway**
-Magnetism and matter is a vital topic in Class 12 physics, with significant weightage in the CBSE board exams. To excel in this topic, it's essential to develop a strong foundation in the concepts, formulas, and applications of magnetism, as well as have a solid understanding of the prerequisites, including electricity, vector algebra, and kinematics and dynamics. With dedication and practice, you'll be well-prepared to tackle the challenges of this topic and achieve a high score in the exams.
+Magnetism and matter is a vital topic in [class](/blog/alternating-current-class-12-notes) 12 physics, with significant weightage in the CBSE board exams. To excel in this topic, it's essential to develop a strong foundation in the concepts, formulas, and applications of magnetism, as well as have a solid understanding of the prerequisites, including electricity, vector algebra, and kinematics and dynamics. With dedication and practice, you'll be well-prepared to tackle the challenges of this topic and achieve a high score in the exams.
 
 
 

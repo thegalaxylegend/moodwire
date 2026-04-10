@@ -51,7 +51,7 @@ practice_link: "/class-11/physics/linear-inequalities-class-11-revision-notes-je
 >   - [a, b] -> x is between a and b (including a, b).
 > - **Graphical Solution:** 
 >   - Use a dashed [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) for < or >.
->   - Use a solid line for ≤ or ≥.
+>   - Use a solid [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) for ≤ or ≥.
 >   - Shade the region that satisfies the inequality.
 > [**📥 Download 1-Page Short Notes PDF (Zero-Friction)**](#)
 
@@ -165,7 +165,7 @@ Inequalities are used extensively in:
 
 ## <a id="conclusion"></a>Conclusion
 
-Linear Inequalities shift your thinking from "points" to "regions." By mastering the rules of sign reversal and the art of graphical shading, you prepare yourself for the complex optimization problems found in higher mathematics and real-world economics. Stay within your boundaries, but keep your ranges wide!
+Linear Inequalities shift your thinking from "points" to "regions." By mastering the rules of sign reversal and the art of graphical shading, you prepare yourself for the [complex](/blog/complex-numbers-class-11-revision-notes-jee-neet) optimization problems found in higher mathematics and real-world economics. Stay within your boundaries, but keep your ranges wide!
 
 ---
 

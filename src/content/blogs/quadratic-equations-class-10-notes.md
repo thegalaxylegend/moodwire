@@ -17,10 +17,10 @@ practice_link: "/class-11/mathematics/quadratic-equations-class-10-notes"
 
 ### 🚀 Quick Recall — Last Night Summary
 
-- - Quadratic Equations: 1 question on forming a quadratic equation from given roots — always
+- - Quadratic [equations](/blog/pair-of-linear-equations-class-10-notes): 1 question on forming a quadratic equation from given roots — always
 - - Quadratic Equations: 1 question on solving a quadratic equation by factorization — frequently
 - - Quadratic Equations: Relation between roots and coefficients ($\alpha + \beta = -\frac{b}{a}$, $\alpha \beta = \frac{c}{a}$) — always
-- - Quadratic Equations: 1 question on the nature of roots (real and distinct, real and equal, imaginary) — frequently
+- - Quadratic Equations: 1 question on the nature of roots ([real](/blog/real-numbers-class-10-notes) and distinct, [real](/blog/real-numbers-class-10-notes) and equal, imaginary) — frequently
 - - Quadratic Equations: Quadratic formula ($x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$) — always
 - - Quadratic Equations: 1 question on solving a quadratic equation using the quadratic formula — frequently
 - - Quadratic Equations: Graph of a quadratic function ($y = ax^2 + bx + c$) — frequently

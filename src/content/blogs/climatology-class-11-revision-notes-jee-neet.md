@@ -94,7 +94,7 @@ The following are the main types of climates:
 1. **Tropical [climate](/blog/indian-geography-climate-class-11-revision-notes-cbse)**: Characterized by high temperatures and high humidity.
 2. **Desert [climate](/blog/indian-geography-climate-class-11-revision-notes-cbse)**: Characterized by low temperatures and low humidity.
 3. **Temperate [climate](/blog/indian-geography-climate-class-11-revision-notes-cbse)**: Characterized by moderate temperatures and moderate humidity.
-4. **Polar Climate**: Characterized by low temperatures and low humidity.
+4. **Polar [climate](/blog/indian-geography-climate-class-11-revision-notes-cbse)**: Characterized by low temperatures and low humidity.
 
 ### <a id="jeeneet-data"></a>JEE/NEET Data
 For JEE/[neet](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) aspirants, it's essential to remember the following data:
@@ -175,7 +175,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/classification-of-elements-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Geomorphology Class 11 Geography Recap — CBSE 2026 Quick Guide](/blog/geomorphology-class-11-revision-notes-cbse)
 - 📖 [Indian Geography Climate Class 11 Geography Recap — CBSE 2026 Quick Guide](/blog/indian-geography-climate-class-11-revision-notes-cbse)

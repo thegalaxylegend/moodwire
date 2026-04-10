@@ -81,7 +81,7 @@ Switching to "Output Mode" is essential. Reading notes is passive and often lead
 
 Days 1 to 5 should center on a "Diagnostic Audit." You cannot fix what you do not measure. Take three full-length **online mock tests** for Math, [science](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet), and SST. Mark them mercilessly and identify why you lost every single mark. This list of weaknesses becomes your actual syllabus for the next two weeks.
 
-From Days 6 to 20, rotate your subjects to respect your biological clock. Use the morning for Logic (Mathematics), the mid-day for Theory (Science), and the afternoon for Memory (Social Science). This prevents burnout and ensures you are studying the hardest topics when your cognitive function is highest.
+From Days 6 to 20, rotate your subjects to respect your biological clock. Use the morning for Logic (Mathematics), the mid-day for Theory ([science](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet)), and the afternoon for Memory (Social [science](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet)). This prevents burnout and ensures you are studying the hardest topics when your cognitive function is highest.
 
 
 
@@ -106,7 +106,7 @@ In the final 48 hours, stop taking new tests. Review your "Mistake Journal," loo
 
 ## <a id="conclusion"></a>Conclusion
 
-A successful **30-day timetable for Class 10 board exam** is about precision and endurance. By auditing your weaknesses, rotating subjects effectively, and simulating exam conditions, you can achieve remarkable results in just one month. Stay disciplined, use the right tools, and you will see your scores soar. Good luck!
+A successful **30-day timetable for [class](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee) 10 board exam** is about precision and endurance. By auditing your weaknesses, rotating subjects effectively, and simulating exam conditions, you can achieve remarkable results in just one month. Stay disciplined, use the right tools, and you will see your scores soar. Good luck!
 
 
 

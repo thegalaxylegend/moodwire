@@ -200,7 +200,7 @@ Solution: A) Cosmology
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div class="callout-box">
+<div [class](/blog/biological-classification-class-11-revision-notes-neet)="callout-box">
 I remember when I was preparing for my Class 11 exams, I struggled to understand the concept of species. I thought that it was just a matter of identifying organisms that looked similar, but I soon realized that it was much more complex than that. The species concept is fundamental in understanding biodiversity and evolutionary processes, and it requires a deep understanding of the characteristics and evolutionary relationships of organisms. My mistake was not taking the time to thoroughly understand the concept, and I ended up losing marks in the exam. However, I learned from my mistake and made sure to thoroughly prepare for my next exam.
 </div>
 

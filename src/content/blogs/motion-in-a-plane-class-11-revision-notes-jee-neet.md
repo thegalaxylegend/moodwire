@@ -73,7 +73,7 @@ While 1D motion is the "alphabet" of physics, 2D motion—**Motion in a Plane**�
 
 ## <a id="1-the-power-of-vectors"></a>1. The Power of Vectors
 
-In 2D motion, we deal with quantities that have both magnitude and direction.
+In 2D [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet), we deal with quantities that have both magnitude and direction.
 - **Position Vector (r):** **r = x î + y ĵ**.
 - **Velocity Vector (v):** **v = vx î + vy ĵ**.
 

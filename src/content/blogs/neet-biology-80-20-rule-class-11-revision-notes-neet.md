@@ -85,9 +85,9 @@ Biotech has the highest "Questions-per-Page" ratio in the entire biology syllabu
 ## <a id="the-lowyield-time-sink-matrix"></a>The Low-Yield "Time Sink" Matrix
 
 The following chapters require massive memorization but yield very few questions (typically 1-2 each). Study them, but **do not let them consume your primary [revision](/blog/animal-kingdom-class-11-revision-notes-neet) cycle**:
-* Plant Kingdom (heavy memorization of examples)
+* Plant [kingdom](/blog/animal-kingdom-class-11-revision-notes-neet) (heavy memorization of examples)
 * Animal Kingdom (focus only on defining phylum characteristics)
-* Morphology of Flowering Plants (extreme rote learning required for floral formulas)
+* Morphology of [flowering](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet) Plants (extreme rote learning required for floral formulas)
 * Anatomy of Flowering Plants
 
 
@@ -95,7 +95,7 @@ The following chapters require massive memorization but yield very few questions
 
 ## <a id="applying-the-8020-rule-in-2026"></a>Applying the 80/20 Rule in 2026
 
-Your revision cycles should not be linear (Chapter 1 to Chapter 38). They should be prioritized.
+Your [revision](/blog/agriculture-class-11-revision-notes-neet) cycles should not be linear (Chapter 1 to Chapter 38). They should be prioritized.
 
 1. **Iteration 1.** Master the High-Yield Matrix (Genetics, Physiology, Cell, Biotech, Ecology). This secures your first 280-300 marks.
 2. **Iteration 2.** Cover the moderate yield topics (Reproduction, Microbes, Human Health).

@@ -56,7 +56,7 @@ Historically, Physics is where top rankers pull ahead. Over the last decade, the
 
 ### <a id="highweightage-chapters-expected-34-questions-each"></a>High-Weightage Chapters (Expected 3-4 Questions Each):
 - **Optics (Ray and Wave):** A consistent heavy-hitter. Expect questions integrating interference with classical optics.
-- **Modern Physics:** Dual Nature, Atoms, and Nuclei are "low effort, high yield." Never skip these.
+- **Modern Physics:** Dual Nature, Atoms, and Nuclei are "low effort, [high](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) yield." Never skip these.
 - **Thermodynamics & KTG:** Highly conceptual; frequently features graphical questions.
 - **Current Electricity:** Expect circuit-solving questions combined with measuring instruments (potentiometer, meter bridge).
 
@@ -71,7 +71,7 @@ Historically, Physics is where top rankers pull ahead. Over the last decade, the
 
 ## <a id="2-chemistry-the-balancing-act"></a>2. Chemistry: The Balancing Act
 
-Chemistry in NEET is split into Physical, Organic, and Inorganic. The transition towards NCERT-centric questions has made scoring 160+ highly achievable.
+Chemistry in [neet](/blog/states-of-matter-class-11-revision-notes-jee-neet) is split into Physical, Organic, and Inorganic. The transition towards NCERT-centric questions has made scoring 160+ highly achievable.
 
 ### <a id="highweightage-chapters"></a>High-Weightage Chapters:
 - **Coordination Compounds:** 3-4 questions are standard. Master Isomerism, VBT, and CFT.

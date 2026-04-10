@@ -243,7 +243,7 @@ When dealing with aldehydes, ketones, and carboxylic acids, there are common mis
 
 1. **Confusing aldehydes and ketones**: Many students struggle to differentiate between aldehydes and ketones. This confusion can lead to incorrect reactions and mechanisms.
 2. **Misidentifying nucleophilic addition reactions**: Nucleophilic addition reactions are common in aldehyde and ketone [chemistry](/blog/surface-chemistry-class-12-notes). However, students often misidentify these reactions, leading to incorrect products and mechanisms.
-3. **Not considering stereochemistry**: Stereochemistry is crucial in organic chemistry, especially when dealing with aldehydes and ketones. Ignoring stereochemistry can lead to incorrect predictions of reaction outcomes.
+3. **Not considering stereochemistry**: Stereochemistry is crucial in organic [chemistry](/blog/surface-chemistry-class-12-notes), especially when dealing with aldehydes and ketones. Ignoring stereochemistry can lead to incorrect predictions of reaction outcomes.
 4. **Overlooking the importance of pH**: pH plays a significant role in many reactions involving aldehydes, ketones, and carboxylic acids. Students often overlook the importance of pH, leading to incorrect reaction conditions and outcomes.
 5. **Not practicing, practicing, practicing**: Practice is key to mastering aldehyde, ketone, and carboxylic acid chemistry. Students who don't practice regularly often struggle to apply their knowledge to complex problems and reactions.
 

@@ -62,7 +62,7 @@ practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
 
 - **Mistake 1:** Incorrectly applying the properties of real numbers, particularly the closure property, which states that the \sum or product of two real numbers is always a real number.
  - *Costs:* 2-3 marks
- - *Fix:* Review the properties of real numbers, including closure, commutativity, associativity, and distributivity. Ensure you can apply these properties correctly in various contexts, such as simplifying expressions or solving equations.
+ - *Fix:* Review the properties of real numbers, including closure, commutativity, associativity, and distributivity. Ensure you can apply these properties correctly in various contexts, such as simplifying expressions or solving [equations](/blog/quadratic-equations-class-10-notes).
  - **Mistake 2:** Failing to recognize and correctly apply the different types of real numbers, including rational, irrational, and integers. This can lead to errors in calculations or incorrect conclusions.
  - *Costs:* 2-3 marks
  - *Fix:* Make sure to understand the definitions and examples of rational, irrational, and integer real numbers. Practice identifying and working with these different types in various problems.

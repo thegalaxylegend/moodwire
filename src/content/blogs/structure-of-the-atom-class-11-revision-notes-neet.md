@@ -80,7 +80,7 @@ where Z is the atomic number, e is the elementary charge, $\epsilon_0$ is the va
 The structure of an atom is a crucial topic for JEE/[neet](/blog/classification-of-elements-class-11-revision-notes-jee-neet) exams, and it's essential to have a strong grasp of the concepts. Here are some key statistics:
 
 * The average weightage of the structure of an atom in JEE mains is around 10-15%.
-* The average weightage of the structure of an atom in NEET is around 12-18%.
+* The average weightage of the structure of an atom in [neet](/blog/classification-of-elements-class-11-revision-notes-jee-neet) is around 12-18%.
 * The most common topics asked in JEE/NEET exams are atomic number, mass number, isotopes, and electron configuration.
 
 

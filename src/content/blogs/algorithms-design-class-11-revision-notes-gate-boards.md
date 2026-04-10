@@ -62,7 +62,7 @@ The world of algorithms is vast and fascinating, with new developments and innov
 
 Ayush's Note on Algorithms: Design is a systematic approach to creating efficient and effective algorithms for solving computational problems. It includes problem definition, algorithmic techniques, and analysis of time and space complexity. For [class](/blog/data-structures-linear-class-11-revision-notes-gate-boards) 11 exam prep in 2026, the most important aspect is understanding the trade-offs between different algorithmic approaches and their applications in real-world scenarios.
 
-Algorithm design involves several key steps, starting with the definition of the problem to be solved. This includes identifying the input, output, and any constraints that must be satisfied. Next, the algorithmic technique to be used must be selected, such as divide-and-conquer, dynamic programming, or greedy algorithms. Finally, the algorithm must be analyzed to determine its time and space complexity, which is typically expressed using Big O notation.
+Algorithm design involves several key steps, starting with the definition of the problem to be solved. This includes identifying the input, output, and any constraints that must be satisfied. Next, the algorithmic technique to be used must be selected, such as divide-and-conquer, dynamic programming, or greedy [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards). Finally, the algorithm must be analyzed to determine its time and space complexity, which is typically expressed using Big O notation.
 
 One of the most critical components of algorithm design is the analysis of time complexity. This involves determining the amount of time an algorithm takes to complete as a function of the size of the input. The most common time complexities are $O(1)$, $O(log n)$, $O(n)$, $O(n log n)$, and $O(n^2)$, where $n$ is the size of the input. Understanding the time complexity of an algorithm is essential for predicting its performance on large datasets.
 
@@ -88,7 +88,7 @@ The following table summarizes some common algorithmic techniques and their time
 
 ## <a id="what-are-the-fundamentals-of-algorithm-design"></a>What are the fundamentals of Algorithm Design?
 
-Algorithm Design is the process of developing a well-structured and efficient set of instructions to solve a specific problem. It includes problem definition, algorithmic thinking, and data structures. For Class 11 exam prep in 2026, the most important aspect is understanding the trade-offs between different algorithmic approaches and analyzing their time and space complexities. 
+Algorithm Design is the process of developing a well-structured and efficient set of instructions to solve a specific problem. It includes problem definition, algorithmic thinking, and [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structures. For Class 11 exam prep in 2026, the most important aspect is understanding the trade-offs between different algorithmic approaches and analyzing their time and space complexities. 
    
    To begin with, problem definition is crucial as it involves identifying the problem, understanding the constraints, and determining the desired output. This step is essential because it lays the foundation for the entire algorithm design process. A well-defined problem statement helps in developing an efficient algorithm. 
    

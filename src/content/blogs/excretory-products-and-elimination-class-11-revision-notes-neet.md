@@ -121,7 +121,7 @@ d) All of the above
 
 Answer: d) All of the above
 
-The excretory system is a complex system that involves the coordination of multiple organs and processes. Understanding the core concepts, formulae, and JEE/NEET data relevant to the excretory system is essential for success in the JEE and NEET exams. By practicing MCQs and reviewing the relevant data, students can develop a deep understanding of the excretory system and its functions.
+The excretory system is a complex system that involves the coordination of multiple organs and processes. Understanding the core concepts, formulae, and JEE/[neet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) data relevant to the excretory system is essential for success in the JEE and [neet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) exams. By practicing MCQs and reviewing the relevant data, students can develop a deep understanding of the excretory system and its functions.
 
 ### <a id="core-concepts-cont"></a>Core Concepts Cont.
 The excretory system is also involved in the regulation of the body's acid-base balance. The kidneys play a crucial role in this process by removing excess hydrogen ions from the body. The liver also plays a role in acid-base balance by detoxifying harmful substances and producing bile.

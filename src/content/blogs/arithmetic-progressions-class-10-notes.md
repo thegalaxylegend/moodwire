@@ -23,7 +23,7 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
 - Sum of n Terms: Sn = n/2 * (a + l) — frequently
 - Number of Terms: n = (l - a)/d + 1 — frequently
 - Sum of Squares of n Terms: Sn = n/2 * (2a^2 + (n-1)2ad + (n-1)(n-2)d^2/3) — frequently
-- Harmonic Mean: HM of two numbers a, b is 2ab/(a+b) — frequently
+- Harmonic Mean: HM of two [numbers](/blog/real-numbers-class-10-notes) a, b is 2ab/(a+b) — frequently
 - Arithmetic Progression: If a1, a2, a3, ..., an are in AP, then a1 + an = a2 + an-1 = ... = a(n/2) + a(n/2 + 1) — frequently
 - Sum of Interior Terms: Sum of interior terms = Sn - (a + l) — frequently
 - Product of Terms: Product of n terms = a * (a+d) * ... * (a + (n-1)d) — frequently

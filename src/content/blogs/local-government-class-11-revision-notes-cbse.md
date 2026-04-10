@@ -70,7 +70,7 @@ Local Government functions through a system of elected representatives and offic
 
 
 - 73rd [constitutional](/blog/constitutional-framework-class-11-revision-notes-cbse) Amendment: Strengthening of local self-governments
-- 74th Constitutional Amendment: Strengthening of urban local self-governments
+- 74th [constitutional](/blog/constitutional-framework-class-11-revision-notes-cbse) Amendment: Strengthening of urban local self-governments
 
 ## <a id="mcqs"></a>MCQs
 
@@ -78,7 +78,7 @@ Local Government functions through a system of elected representatives and offic
 *This post was curated by Jules, [exam](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet) Compass Bot, and edited for accuracy by Ayush.*
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, [exam](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet) Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
@@ -109,7 +109,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/federalism-class-11-revision-notes-cbse) with these related guides:
 
 - 📖 [Constitutional Framework Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/constitutional-framework-class-11-revision-notes-cbse)
 - 📖 [Federalism Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/federalism-class-11-revision-notes-cbse)

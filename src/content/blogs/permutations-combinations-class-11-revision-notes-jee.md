@@ -94,7 +94,7 @@ The product of first **n** natural numbers is called n-factorial.
 A permutation is an arrangement in a definite order of a number of objects taken some or all at a time.
 *   **[theorem](/blog/binomial-theorem-class-11-revision-notes-jee) 1:** The number of permutations of n different objects taken r at a time (0 < r ≤ n) and objects do not repeat is **nPr = n! / (n - r)!**.
 *   **[theorem](/blog/binomial-theorem-class-11-revision-notes-jee) 2:** If repetition is allowed, the number of permutations is **nʳ**.
-*   **Theorem 3:** If out of n objects, p are of one kind, q of another, and the rest are different, number of permutations = **n! / (p!q!)**.
+*   **[theorem](/blog/binomial-theorem-class-11-revision-notes-jee) 3:** If out of n objects, p are of one kind, q of another, and the rest are different, number of permutations = **n! / (p!q!)**.
 
 ---
 

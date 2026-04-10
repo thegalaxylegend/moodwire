@@ -260,7 +260,7 @@ To become a master of solid-state chemistry, you need to practice consistently a
 By using our Test Center, you'll be able to:
 
 * Identify and fill knowledge gaps
-* Develop a deep understanding of solid-state chemistry concepts
+* Develop a deep understanding of solid-state [chemistry](/blog/surface-chemistry-class-12-notes) concepts
 * Improve your problem-solving skills and speed
 * Enhance your confidence and performance in exams
 

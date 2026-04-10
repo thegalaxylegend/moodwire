@@ -55,7 +55,7 @@ To truly grasp the concept of [electromagnetic](/blog/electromagnetic-induction-
 * **Oscillations and waves**: Knowledge of the basic principles of oscillations and waves, including amplitude, frequency, wavelength, and speed.
 * **Maxwell's equations**: Familiarity with Maxwell's equations, which form the foundation of classical electromagnetism.
 
-With these prerequisites in mind, let's the world of electromagnetic waves. The **electromagnetic spectrum** is typically divided into several regions, each corresponding to a specific range of wavelengths and frequencies. The main regions of the electromagnetic spectrum are:
+With these prerequisites in mind, let's the world of [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) waves. The **[electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) spectrum** is typically divided into several regions, each corresponding to a specific range of wavelengths and frequencies. The main regions of the [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) spectrum are:
 
 | Region | Wavelength Range | Frequency Range |
 | --- | --- | --- |
@@ -71,7 +71,7 @@ Some of the key concepts related to electromagnetic waves that we'll be explorin
 
 * **[wave](/blog/wave-optics-class-12-notes) propagation**: The way electromagnetic waves travel through a medium, including the speed of propagation and the behavior of waves at boundaries.
 * **Reflection and refraction**: The behavior of electromagnetic waves when they encounter a surface or a change in medium, including the laws of reflection and refraction.
-* **Interference and diffraction**: The ways in which electromagnetic waves can interact with each other and with obstacles, resulting in interference patterns and diffraction effects.
+* **Interference and diffraction**: The ways in which electromagnetic waves can interact with each other and with obstacles, resulting in interference patterns and diffraction [effects](/blog/magnetic-effects-of-current-class-12-notes).
 * **Polarization**: The property of electromagnetic waves that describes the orientation of the electric field vector, including linear, circular, and elliptical polarization.
 
 Some of the key terms and formulas that we'll be using in this topic include:
@@ -81,7 +81,7 @@ Some of the key terms and formulas that we'll be using in this topic include:
 * **Wave number**: $k = \frac{2 \pi}{\lambda}$
 * **Frequency**: $f = \frac{c}{\lambda}$
 
-As we explore the world of electromagnetic waves, we'll be using a combination of theoretical concepts, mathematical derivations, and practical examples to deepen our understanding of this fascinating topic. By the end of this journey, you'll have a solid grasp of the principles of electromagnetic waves and be well-prepared to tackle the challenges of the Class 12 Physics exam. 
+As we explore the world of electromagnetic waves, we'll be using a combination of theoretical concepts, mathematical derivations, and practical examples to deepen our understanding of this fascinating topic. By the end of this journey, you'll have a solid grasp of the principles of electromagnetic waves and be well-prepared to tackle the challenges of the [class](/blog/magnetism-and-matter-class-12-notes) 12 Physics exam. 
 
 **Key Takeaway**: Electromagnetic waves are a crucial topic in Class 12 Physics, with a significant weightage in the exam. To succeed in this topic, it's essential to have a strong foundation in the prerequisites, including electric and magnetic fields, oscillations and waves, and Maxwell's equations. By mastering the concepts of electromagnetic waves, including wave propagation, reflection and refraction, interference and diffraction, and polarization, you'll be well-equipped to tackle the challenges of the exam and achieve a high score.
 

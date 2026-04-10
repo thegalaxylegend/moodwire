@@ -65,7 +65,7 @@ When studying [physical](/blog/physical-world-class-11-revision-notes-jee-neet) 
 
 ## <a id="what-are-the-core-concepts-in-physical-geography"></a>What are the Core Concepts in Physical Geography?
 
-The core concepts in Physical Geography include the study of the Earth's systems, including the lithosphere, atmosphere, hydrosphere, and biosphere. Understanding these concepts is crucial for understanding the Earth's processes and phenomena. The **Himalayan mountain range** is a significant feature of the Indian subcontinent, formed as a result of the collision between the Indian and Eurasian plates.
+The core concepts in [physical](/blog/physical-world-class-11-revision-notes-jee-neet) Geography include the study of the Earth's systems, including the lithosphere, atmosphere, hydrosphere, and biosphere. Understanding these concepts is crucial for understanding the Earth's processes and phenomena. The **Himalayan mountain range** is a significant feature of the Indian subcontinent, formed as a result of the collision between the Indian and Eurasian plates.
 
 ## <a id="historical-timelines"></a>Historical Timelines
 

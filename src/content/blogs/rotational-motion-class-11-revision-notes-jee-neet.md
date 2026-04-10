@@ -115,7 +115,7 @@ The rotational equivalent of linear momentum.
 
 ## <a id="3-moment-of-inertia-i-rotational-mass"></a>3. Moment of Inertia (I): Rotational Mass
 
-Moment of Inertia resists changes in rotational motion.
+Moment of Inertia resists changes in rotational [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet).
 **Formula: I = Σ mi ri² = ∫ r² dm**.
 
 ### <a id="parallel-axes-theorem-proof"></a>Parallel Axes Theorem (Proof)

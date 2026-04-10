@@ -160,7 +160,7 @@ Answer: B) To produce bile and digestive enzymes
 ## <a id="related-notes-links"></a>Related Notes Links
 
 * Human Physiology [notes](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
-* Cell Biology Notes
+* Cell Biology [notes](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
 
 
 

@@ -1,23 +1,20 @@
 {
-  "overallAvgScore": 71,
-  "totalBlogsAllTime": 37,
-  "totalPassed": 24,
-  "totalFailed": 13,
-  "overallPassRate": 65,
-  "trend": "improving",
-  "trendDelta": 18.1,
+  "overallAvgScore": 78.2,
+  "totalBlogsAllTime": 40,
+  "totalPassed": 29,
+  "totalFailed": 11,
+  "overallPassRate": 73,
+  "trend": "stable",
+  "trendDelta": 1.3,
   "dailyReports": [
     {
-      "date": "2026-04-09",
+      "date": "2026-04-10",
       "totalBlogs": 3,
-      "passed": 1,
-      "failed": 2,
-      "avgScore": 33.3,
-      "passRate": 33,
-      "errors": [
-        "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}",
-        "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}"
-      ]
+      "passed": 3,
+      "failed": 0,
+      "avgScore": 100,
+      "passRate": 100,
+      "errors": []
     },
     {
       "date": "2026-03-23",
@@ -111,12 +108,21 @@
         "Critically low word count: 714 (Min 800 for Patching)",
         "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}"
       ]
+    },
+    {
+      "date": "2026-04-09",
+      "totalBlogs": 3,
+      "passed": 3,
+      "failed": 0,
+      "avgScore": 100,
+      "passRate": 100,
+      "errors": []
     }
   ],
   "topErrors": [
     {
       "error": "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":",
-      "count": 8
+      "count": 6
     },
     {
       "error": "Critically low word count: 330 (Min 800 for Patching)",
@@ -127,6 +133,6 @@
       "count": 1
     }
   ],
-  "alertNeeded": true,
-  "alertMessage": "🚨 Last run had <50% pass rate! Only 0/3 blogs passed."
+  "alertNeeded": false,
+  "alertMessage": ""
 }

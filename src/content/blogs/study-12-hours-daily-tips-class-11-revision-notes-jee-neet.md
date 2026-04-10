@@ -78,7 +78,7 @@ Focus on one task at a time. When you are studying Physics, don't worry about Ch
 
 Many students mistakenly believe that studying for 12 hours requires cutting back on sleep. In reality, a foggy, sleep-deprived brain takes three times longer to process the same information. Sleep is your "charging time"; aiming for a consistent 7-hour cycle (like 11 PM to 6 AM) ensures your brain is primed for memory retention and focus.
 
-Nutrition plays an equally vital role. Heavy, oily meals induce "food comas" where your body redirects energy to the stomach for digestion, leaving your brain sluggish. To maintain high alertness, eat light meals like fruits, nuts, and lentils. Keep your stomach about 70% full, and stay hydrated throughout the day to keep blood flowing to your brain.
+Nutrition plays an equally vital role. Heavy, oily meals induce "food comas" where your body redirects energy to the stomach for digestion, leaving your brain sluggish. To maintain [high](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) alertness, eat light meals like fruits, nuts, and lentils. Keep your stomach about 70% full, and stay hydrated throughout the day to keep blood flowing to your brain.
 
 
 

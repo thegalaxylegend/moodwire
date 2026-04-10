@@ -113,7 +113,7 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
  - **Answer:** 50%
 
- - **Q3:** A forest ecosystem has a pyramid of numbers with 1000 primary producers, 100 primary consumers, and 10 secondary consumers. What is the trophic level of the secondary consumers?
+ - **Q3:** A forest [ecosystem](/blog/ecosystem-class-12-notes) has a pyramid of numbers with 1000 primary producers, 100 primary consumers, and 10 secondary consumers. What is the trophic level of the secondary consumers?
 
  - **Trap:** Identifying the correct trophic level based on the position in the food chain can be confusing.
 

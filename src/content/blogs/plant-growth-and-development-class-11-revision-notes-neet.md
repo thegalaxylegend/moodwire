@@ -95,7 +95,7 @@ The formula for auxin-induced cell elongation is: $\frac{dL}{dt} = k \cdot \frac
 
 ### <a id="photoperiodism"></a>Photoperiodism
 Photoperiodism is the response of [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) to the length of daylight. [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) can be classified into three categories based on their photoperiodic response:
-* Short-day plants: flower in response to short days
+* Short-day [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet): flower in response to short days
 * Long-day plants: flower in response to long days
 * Day-neutral plants: flower regardless of day length
 
@@ -179,7 +179,7 @@ Answer: A) $\frac{dL}{dt} = k \cdot \frac{dA}{dt}$
 ## <a id="related-notes-links"></a>Related Notes Links
 
 * Plant Physiology [notes](/blog/biological-classification-class-11-revision-notes-neet)
-* Cell Biology Notes
+* Cell Biology [notes](/blog/biological-classification-class-11-revision-notes-neet)
 
 
 

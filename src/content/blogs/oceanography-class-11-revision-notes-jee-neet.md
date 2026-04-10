@@ -116,7 +116,7 @@ By focusing on these core concepts, formulae, and data, you'll be well-prepared 
 To make the most of this [revision](/blog/biogeography-class-11-revision-notes-neet) guide, follow these tips:
 
 1. **Create Concept Maps**: Visualize the relationships between different concepts and ideas.
-2. **Make Flashcards**: Summarize key terms and definitions on flashcards for quick review.
+2. **Make Flashcards**: Summarize key terms and definitions on flashcards for [quick](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) review.
 3. **Practice Past-Year Questions**: Familiarize yourself with the exam format and question types.
 4. **Join Study Groups**: Collaborate with peers to discuss and learn from one another.
 
@@ -127,7 +127,7 @@ To deepen your understanding of oceanography, explore the connections between co
 
 1. **Oceanic Water and Marine Life**: Understand how water properties (salinity, density, temperature) affect marine life and ecosystems.
 2. **Ocean Currents and Tides**: Recognize the interplay between surface and deep-water currents, as well as tidal forces, in shaping our ocean.
-3. **Hydrosphere and Oceanic Zones**: Appreciate the complex relationships between the hydrosphere, oceanic zones, and the Earth's climate system.
+3. **Hydrosphere and Oceanic Zones**: Appreciate the [complex](/blog/complex-numbers-class-11-revision-notes-jee-neet) relationships between the hydrosphere, oceanic zones, and the Earth's climate system.
 
 By recognizing these connections, you'll develop a more nuanced and comprehensive understanding of oceanography, enabling you to tackle complex questions and problems with ease. 
 
@@ -163,7 +163,7 @@ d) No change in temperature with depth
 
 Answer: a) Rapid change in temperature with depth
 
-By practicing these questions, you'll become more familiar with the exam format and develop the skills and confidence needed to succeed in JEE and NEET. 
+By practicing these questions, you'll become more familiar with the exam format and develop the skills and confidence needed to succeed in JEE and [neet](/blog/art-culture-architecture-class-11-revision-notes-jee-neet). 
 
 ### <a id="ayushs-advice"></a>Ayush's Advice
 As you revise and practice oceanography, keep the following tips in mind:

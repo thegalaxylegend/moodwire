@@ -92,7 +92,7 @@ As I review these concepts, I realize how important it is to understand the hist
 
 ## <a id="ayushs-personal-note"></a>Ayush's Personal Note
 
-As I prepare for the Class 11 exam in 2026, I find it helpful to create a timeline of the major events in Indian history. This helps me to understand the context in which the Constitution was drafted and how it has evolved over time. I also make sure to review the key features of the Constitution, including the Preamble, the Fundamental Rights, and the Directive Principles.
+As I prepare for the Class 11 exam in 2026, I find it helpful to create a timeline of the major events in [indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) history. This helps me to understand the context in which the Constitution was drafted and how it has evolved over time. I also make sure to review the key features of the Constitution, including the Preamble, the Fundamental Rights, and the Directive Principles.
 
 
 

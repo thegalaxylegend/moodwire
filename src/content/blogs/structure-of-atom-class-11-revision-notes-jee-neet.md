@@ -380,7 +380,7 @@ For your school exams, always draw the Rydberg series energy level diagram ($n=1
 
 **Related [revision](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Notes:**
 - **[chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Bonding VSEPR Theory JEE 2026 tricks — Hybridization & Shapes**
-- **Periodic Table Trends - Master Classification Short Notes**
+- **Periodic Table Trends - Master [classification](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet) Short Notes**
 - **Some Basic Concepts of Chemistry: Mole Concept & Stoichiometry Revision**
 
 ---

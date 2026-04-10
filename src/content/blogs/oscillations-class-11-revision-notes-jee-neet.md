@@ -76,7 +76,7 @@ Nature is rhythmic. From the beating of a heart and the vibration of a guitar st
 
 - **Periodic [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet):** [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) that repeats itself at regular intervals of time (e.g., Earth's orbit).
 - **Oscillatory [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet):** To-and-fro [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) about a fixed mean position (e.g., Pendulum).
-- **Note:** Every oscillatory motion is periodic, but not every periodic motion is oscillatory.
+- **Note:** Every oscillatory [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) is periodic, but not every periodic [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) is oscillatory.
 
 ---
 
@@ -251,7 +251,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
 - 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
