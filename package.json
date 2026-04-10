@@ -53,6 +53,7 @@
     "@types/three": "^0.182.0",
     "canvas-confetti": "^1.9.4",
     "clsx": "^2.1.1",
+    "exa-js": "^2.11.0",
     "firebase": "^12.7.0",
     "framer-motion": "^12.24.10",
     "groq-sdk": "^0.37.0",
@@ -81,6 +82,7 @@
     "remark-math": "^6.0.0",
     "sherpa-onnx": "^1.12.36",
     "tailwind-merge": "^3.4.0",
+    "tesseract.js": "^7.0.0",
     "three": "^0.182.0",
     "twitter-api-v2": "^1.29.0",
     "zustand": "^5.0.9"

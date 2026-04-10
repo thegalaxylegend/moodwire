@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -20,6 +20,7 @@ import { SITE_URL } from '../../lib/siteConfig';
 import { BlogSkeleton } from '../../components/skeletons/BlogSkeleton';
 import { motion, useScroll, useSpring } from 'framer-motion';
 import { usePerformance } from '../../context/PerformanceProvider';
+import { useUserStore } from '../../store/userStore';
 
 
 
@@ -35,6 +36,8 @@ export const BlogPostPage: React.FC = () => {
     const [loading, setLoading] = useState(!meta || (!ssrMeta && !ssrContent));
     const [error, setError] = useState(false);
     const [generatingPdf, setGeneratingPdf] = useState(false);
+    const { user } = useUserStore();
+    const shadowPrintRef = useRef<HTMLDivElement>(null);
 
     const { tier } = usePerformance();
     const isLow = tier === 'low';
@@ -48,14 +51,22 @@ export const BlogPostPage: React.FC = () => {
 
 
     const handleDownloadPDF = async () => {
+        if (!shadowPrintRef.current) return;
         setGeneratingPdf(true);
         try {
+            await new Promise(resolve => setTimeout(resolve, 1000));
+            if (!shadowPrintRef.current) return;
+
             const { downloadBlogPDF } = await import('../../services/cheatSheetService');
             await downloadBlogPDF({
                 title: meta.title,
                 category: meta.category,
                 date: meta.date,
                 markdown: content,
+                contentHtml: shadowPrintRef.current.innerHTML.replace(/<h1[^>]*>.*?<\/h1>/i, ''),
+                userName: user?.name || 'Scholar',
+                userClass: user?.userClass || 'Class 12th',
+                targetYear: user?.targetYear || new Date().getFullYear()
             });
         } catch (e) {
             console.error("PDF download failed", e);
@@ -173,7 +184,7 @@ export const BlogPostPage: React.FC = () => {
                             {meta.category}
                         </span>
                         <div className="flex flex-wrap items-center gap-2 sm:gap-4 ml-auto">
-                            <SocialShare title={meta.title} />
+                            {/* Primary Viral Share moved to footer for cleaner layout */}
                         </div>
                     </div>
 
@@ -323,6 +334,48 @@ export const BlogPostPage: React.FC = () => {
             </motion.article>
 
             <Footer />
+
+            {/* HIGH-QUALITY SHADOW RENDERER (DNA FROM NOTES) */}
+            <div 
+                ref={shadowPrintRef}
+                className="absolute top-0 left-0 w-[800px] bg-white text-black p-16 -z-10 pointer-events-none opacity-0"
+                style={{ visibility: 'hidden' }}
+            >
+                <div style={{ backgroundColor: '#ffffff' }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '50px', paddingBottom: '20px', borderBottom: '3px solid #e2e8f0' }}>
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                            <div style={{ fontSize: '15pt', fontWeight: 900, color: '#4338ca', letterSpacing: '2px', textTransform: 'uppercase', fontFamily: 'sans-serif' }}>
+                                Exam Compass
+                            </div>
+                            <div style={{ fontSize: '9pt', fontWeight: 800, color: '#10b981', letterSpacing: '1px', textTransform: 'uppercase' }}>
+                                Premium Article • blog.examcompass.dev
+                            </div>
+                            <div style={{ fontSize: '8pt', fontWeight: 600, color: '#64748b', marginTop: '2px', fontStyle: 'italic' }}>
+                                Empowering Students with AI-Driven Engineering.
+                            </div>
+                        </div>
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '4px', textAlign: 'right' }}>
+                            <div style={{ fontSize: '11pt', fontWeight: 800, color: '#1e293b' }}>
+                                Prepared for {user?.name || 'Scholar'}
+                            </div>
+                            <div style={{ fontSize: '9pt', fontWeight: 700, color: '#3b82f6', textTransform: 'uppercase' }}>
+                                Date: {meta.date}
+                            </div>
+                            <div style={{ fontSize: '8pt', fontWeight: 600, color: '#94a3b8', fontFamily: 'monospace', marginTop: '4px' }}>
+                                CATEGORY: {meta.category}
+                            </div>
+                        </div>
+                    </div>
+                    <div className="prose-print" style={{ backgroundColor: '#ffffff' }}>
+                        <ReactMarkdown 
+                            remarkPlugins={[remarkGfm, remarkMath]} 
+                            rehypePlugins={[rehypeRaw, rehypeKatex]}
+                        >
+                            {content}
+                        </ReactMarkdown>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };

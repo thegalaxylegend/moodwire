@@ -3,6 +3,10 @@ export interface BlogPDFInput {
     category: string;
     date: string;
     markdown: string;
+    contentHtml?: string; // High-quality pre-rendered HTML
+    userName?: string;
+    userClass?: string;
+    targetYear?: number;
 }
 
 interface PDFSection {
@@ -103,6 +107,22 @@ function cleanMarkdown(text: string): string {
 }
 
 export const downloadBlogPDF = async (input: BlogPDFInput) => {
+    // If we have high-quality HTML, use the premium exporter (Notes DNA)
+    if (input.contentHtml) {
+        const { exportPremiumPDF } = await import('../lib/pdfExporter');
+        return await exportPremiumPDF({
+            title: input.title,
+            filename: `${input.title.replace(/[^a-zA-Z0-9\s]/g, '').replace(/\s+/g, '_')}_ExamCompass.pdf`,
+            category: 'Revision Guide',
+            userName: input.userName,
+            userClass: input.userClass,
+            targetYear: input.targetYear,
+            isExamMode: true,
+            contentHtml: input.contentHtml
+        });
+    }
+
+    // FALLBACK: Legacy Manual jsPDF logic (kept for robustness)
     const { default: jsPDF } = await import('jspdf');
     const doc = new jsPDF();
     const pw = doc.internal.pageSize.getWidth();

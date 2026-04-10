@@ -17,6 +17,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import zlib from 'zlib';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -27,8 +28,13 @@ const TODAY = new Date().toISOString().split('T')[0];
 
 import Groq from 'groq-sdk';
 import 'dotenv/config';
-import { godSafeParse, godExtract, isRefusal } from './utils/god-json.js';
-import { sanitizeAiText, checkLatexIntegrity } from './utils/jules-quality.js';
+import { godSafeParse, godExtract, isRefusal } from './utils/god-json.ts';
+import { sanitizeAiText, checkLatexIntegrity } from './utils/jules-quality.ts';
+import { auditGrammar } from './utils/grammar-audit.ts';
+import { extractTextFromImage } from './utils/ocr-tool.ts';
+import { fetchWikiSummary, buildWikiCallout } from './utils/wikipedia-enricher.ts';
+import { buildChemistryTable } from './utils/pubchem-verifier.ts';
+import { findAcademicPapers, buildCitationSection } from './utils/openalex-citations.ts';
 
 const GROQ_KEYS = [
     process.env.VITE_GROQ_API_KEY || process.env.GROQ_API_KEY,
@@ -59,7 +65,7 @@ const GEMINI_PERMANENT_DEAD = new Set<number>();
 
 function rotateGroqKey(isPermanent = false) {
     if (isPermanent) GROQ_PERMANENT_DEAD.add(currentGroqIndex);
-    else GROQ_COOLDOWNS.set(currentGroqIndex, Date.now() + 1 * 60 * 1000); // 1 min cooldown
+    else GROQ_COOLDOWNS.set(currentGroqIndex, Date.now() + 2 * 60 * 1000); // 2 min timeout for errors
 
     const now = Date.now();
     const availableIndices = GROQ_KEYS.map((_, i) => i).filter(i => 
@@ -70,10 +76,34 @@ function rotateGroqKey(isPermanent = false) {
     if (availableIndices.length > 0) {
         currentGroqIndex = availableIndices[0];
         groq = new Groq({ apiKey: GROQ_KEYS[currentGroqIndex] });
-        console.log(`🔄 Rotating to Groq Key #${currentGroqIndex + 1} (${isPermanent ? 'Permanent' : '5min Cooldown'})...`);
+        console.log(`🔄 Rotating to Groq Key #${currentGroqIndex + 1} (${isPermanent ? 'Permanent' : '2min Timeout'})...`);
+        return true;
     } else {
-        console.warn("🚨 ALL GROQ KEYS EXHAUSTED OR IN COOLDOWN.");
+        console.warn("⚠️ ALL GROQ KEYS EXHAUSTED OR IN COOLDOWN.");
+        return false;
     }
+}
+
+/**
+ * Polling strategy to check for key recovery every 2 minutes.
+ * Total wait: 10 minutes (5 attempts).
+ */
+async function pollForAvailableKey(): Promise<boolean> {
+    for (let i = 1; i <= 5; i++) {
+        console.log(`📡 Polling for key recovery (Attempt ${i}/5)... Waiting 2 mins.`);
+        await sleep(120000); // 2 minutes
+        const now = Date.now();
+        const available = GROQ_KEYS.map((_, idx) => idx).filter(idx => 
+            !GROQ_PERMANENT_DEAD.has(idx) && (GROQ_COOLDOWNS.get(idx) || 0) < now
+        );
+        if (available.length > 0) {
+            currentGroqIndex = available[0];
+            groq = new Groq({ apiKey: GROQ_KEYS[currentGroqIndex] });
+            console.log(`✅ Key Recovered: Groq Key #${currentGroqIndex + 1} is back online.`);
+            return true;
+        }
+    }
+    return false;
 }
 
 function rotateGeminiKey(isPermanent = false, cooldownMs = 1 * 60 * 1000) {
@@ -176,34 +206,44 @@ async function callLlm(system: string, user: string, attempt: number = 1): Promi
         });
         return completion.choices[0]?.message?.content || "";
     } catch (err: any) {
-        const errMsg = err.message || "";
+        const errMsg = (err.message || "").toLowerCase();
         
-        // 1. Permanent Failures (Invalid Key / Model)
-        if (errMsg.includes("401") || errMsg.includes("invalid_api_key") || errMsg.includes("400") || errMsg.includes("decommissioned") || errMsg.includes("404")) {
-            console.error(`❌ Groq Key #${currentGroqIndex + 1} dead (401/400). Marking permanent...`);
+        // 1. Permanent Failures (401)
+        if (errMsg.includes("401") || errMsg.includes("invalid_api_key")) {
+            console.error(`❌ Groq Key #${currentGroqIndex + 1} INVALID (401). Marking permanent...`);
             rotateGroqKey(true);
+            await sleep(2000);
             if (attempt <= GROQ_KEYS.length) {
                 return await callLlm(system, user, attempt + 1);
             }
         }
 
-        // 2. Transient Failures (Rate Limit / 500)
-        if ((errMsg.includes("429") || errMsg.includes("rate_limit") || errMsg.includes("500")) && attempt <= GROQ_KEYS.length) {
-            console.log(`⚠️ Groq Rate Limit (Key #${currentGroqIndex + 1}). Cooling down...`);
-            rotateGroqKey(false);
-            await sleep(1000 * attempt);
-            return callLlm(system, user, attempt + 1);
+        // 2. Temporary Failures (400, 429, 500, Timeout)
+        if (errMsg.includes("429") || errMsg.includes("rate_limit") || errMsg.includes("400") || errMsg.includes("500") || errMsg.includes("timeout") || errMsg.includes("overloaded")) {
+            console.warn(`⚠️ Groq Key #${currentGroqIndex + 1} Temporary Error (${errMsg.includes("429") ? "Rate Limit" : "Bad Request/Server"}).`);
+            
+            const rotated = rotateGroqKey(false);
+            if (!rotated && attempt <= GROQ_KEYS.length) {
+                // All keys are currently waiting - trigger Polling Mode
+                const recovered = await pollForAvailableKey();
+                if (recovered) return await callLlm(system, user, attempt);
+            } else if (rotated) {
+                await sleep(2000 * attempt); // Progressive safety delay
+                return await callLlm(system, user, attempt + 1);
+            }
+            
+            // 3. Fallback to Gemini
+            console.log(`🛡️ Transitioning to Gemini fallback tier for repair generation...`);
+            const geminiResult = await generateWithGeminiRetry(system, user);
+            if (geminiResult) {
+                console.log(`✅ Gemini repair content received.`);
+                return geminiResult;
+            }
+
+            return null;
         }
 
-        // 3. Fallback to Gemini
-        console.log(`🛡️ Transitioning to Gemini fallback tier for repair generation...`);
-        const geminiResult = await generateWithGemini(system, user);
-        if (geminiResult) {
-            console.log(`✅ Gemini repair content received.`);
-            return geminiResult;
-        }
-
-        return null;
+        throw err;
     }
 }
 
@@ -223,6 +263,17 @@ const KILL_LIST = [
     "in the ever-evolving", "in this day and age"
 ];
 
+/**
+ * Encodes a diagram string for Kroki.io (Deflate + Base64 Safe)
+ */
+function encodeKroki(diagram: string): string {
+    const data = Buffer.from(diagram, 'utf8');
+    const compressed = zlib.deflateSync(data, { level: 9 });
+    return compressed.toString('base64')
+        .replace(/\+/g, '-')
+        .replace(/\//g, '_');
+}
+
 interface RepairResult {
     slug: string;
     fixes: string[];
@@ -230,7 +281,7 @@ interface RepairResult {
     wasModified: boolean;
 }
 
-async function repairBlog(filePath: string, isDryRun: boolean, canUseAi: boolean): Promise<RepairResult> {
+async function repairBlog(filePath: string, isDryRun: boolean, canUseAi: boolean, canUseGrammar: boolean = false): Promise<RepairResult> {
     const slug = path.basename(filePath, '.md');
     let content = fs.readFileSync(filePath, 'utf-8');
     const originalContent = content;
@@ -290,6 +341,36 @@ async function repairBlog(filePath: string, isDryRun: boolean, canUseAi: boolean
         seen.add(normalized);
     }
 
+
+
+    // ========= FIX 5: Kroki Diagram Enhancement =========
+    // FIX: Collect ALL matches FIRST with matchAll(), THEN replace.
+    // The old while+exec() loop was modifying `body` mid-iteration, causing
+    // stale lastIndex and re-processing of Mermaid code inside <details> tags.
+    const diagramMatches = [...body.matchAll(/```mermaid\s*([\s\S]*?)```/gi)];
+    let diagCount = 0;
+    // Iterate in REVERSE so string replacements don't shift earlier offsets
+    for (const diagramMatch of [...diagramMatches].reverse()) {
+        const originalBlock = diagramMatch[0];
+        const diagramCode = diagramMatch[1].trim();
+        
+        if (diagramCode.length > 20) { // Only process significant diagrams
+            const encoded = encodeKroki(diagramCode);
+            const krokiUrl = `https://kroki.io/mermaid/svg/${encoded}`;
+            
+            // Skip if a Kroki link for this exact diagram already exists
+            if (!body.includes(krokiUrl)) {
+                // Inject SVG image ABOVE and keep the source in <details> for SEO/accessibility
+                const replacement = `\n![Diagram Concept](${krokiUrl})\n\n<details>\n<summary>View Diagram Source</summary>\n\n${originalBlock}\n\n</details>\n`;
+                body = body.replace(originalBlock, replacement);
+                diagCount++;
+            }
+        }
+    }
+    if (diagCount > 0) {
+        fixes.push(`Enhanced ${diagCount} diagrams with Kroki.io SVGs`);
+    }
+
     // ========= FIX 6: ACTIVE SECTION REPAIR (AI-POWERED) =========
     const bodyLower = body.toLowerCase();
     
@@ -330,6 +411,99 @@ async function repairBlog(filePath: string, isDryRun: boolean, canUseAi: boolean
         if (!/practice\s*mcqs?|mcq/i.test(bodyLower)) warnings.push('Missing Practice MCQs section');
     }
 
+    // ========= FIX 7: LanguageTool Academic Audit =========
+    // ONLY runs if canUseGrammar=true (tied to repairLimit, capped at ~9 blogs/run)
+    // This prevents 178 API calls/day and avoids LanguageTool rate limits (20 req/min)
+    if (canUseGrammar && body.length > 100 && body.length < 75000) {
+        const auditedBody: string = await auditGrammar(body);
+        if (auditedBody && auditedBody !== body) {
+            body = auditedBody;
+            fixes.push('Applied LanguageTool academic grammar enhancements');
+        }
+    }
+
+    // ========= FIX 8: OCR Context Extraction (Academic Intelligence) =========
+    // FIX: Use matchAll() instead of exec() loop, and resolve multiple possible image paths.
+    // Blog markdown uses /blog-images/ paths (verified from actual files).
+    const imgMatches = [...body.matchAll(/!\[(.*?)\]\((.*?)\)/g)];
+    for (const imgMatch of imgMatches) {
+        const altText = imgMatch[1];
+        const imgPath = imgMatch[2];
+        
+        // Only process local paths with generic or missing alt text
+        if ((!altText || altText === 'Diagram' || altText === 'Image') && imgPath && !imgPath.startsWith('http')) {
+            // Try multiple candidate paths — blog-images is the primary store
+            const candidatePaths = [
+                path.join(__dirname, '../public', imgPath),              // /public/blog-images/x.webp
+                path.join(__dirname, '../public/blog-images', path.basename(imgPath)), // fallback by filename
+                path.join(__dirname, '../public/assets/blogs', path.basename(imgPath)) // legacy
+            ];
+            const absoluteImgPath = candidatePaths.find(p => fs.existsSync(p));
+            if (absoluteImgPath) {
+                console.log(`👁️ OCR scanning image for context: ${imgPath}`);
+                const extractedText = await extractTextFromImage(absoluteImgPath);
+                if (extractedText && extractedText.length > 10) {
+                    const cleanAlt = extractedText.substring(0, 50).replace(/\n/g, ' ') + '...';
+                    body = body.replace(imgMatch[0], `![OCR Extract: ${cleanAlt}](${imgPath})`);
+                    fixes.push(`Generated Alt-Text via OCR for ${imgPath}`);
+                }
+            }
+        }
+    }
+
+    // ========= FIX 9: Wikipedia Verified Intro (Authority Signal) =========
+    // Adds a verified Wikipedia callout after the first H2 heading to boost E-E-A-T.
+    // Only runs on blogs being actively repaired (canUseGrammar gate).
+    if (canUseGrammar && !body.includes('📖 **Wikipedia Says:**')) {
+        const wikiSummary = await fetchWikiSummary(title);
+        if (wikiSummary && wikiSummary.extract) {
+            // Inject after the first H2 heading for natural placement
+            const firstH2 = body.match(/^## .+$/m);
+            if (firstH2) {
+                const insertAt = body.indexOf(firstH2[0]) + firstH2[0].length;
+                const callout = buildWikiCallout(wikiSummary);
+                body = body.substring(0, insertAt) + callout + body.substring(insertAt);
+                fixes.push(`Injected Wikipedia verified intro for: ${wikiSummary.title}`);
+            }
+        }
+    }
+
+    // ========= FIX 10: PubChem Chemistry Table (Science Verification) =========
+    // For Chemistry blogs: inject a verified compound table from NIH PubChem.
+    // Checks subject frontmatter to avoid running on non-chemistry content.
+    const isChemistryBlog = /chemistry|chemical|organic|inorganic|compound|mol/i.test(frontmatter + title);
+    if (canUseGrammar && isChemistryBlog && !body.includes('Chemical Quick Reference')) {
+        const chemTable = await buildChemistryTable(body);
+        if (chemTable) {
+            // Inject before the footer/references section
+            const footerMatch = body.indexOf('\n---\n');
+            if (footerMatch !== -1) {
+                body = body.substring(0, footerMatch) + chemTable + body.substring(footerMatch);
+            } else {
+                body += chemTable;
+            }
+            fixes.push('Injected PubChem verified chemistry reference table');
+        }
+    }
+
+    // ========= FIX 11: OpenAlex Academic Citations (E-E-A-T Boost) =========
+    // Adds a real peer-reviewed citations section from OpenAlex (250M+ papers).
+    // Only for blogs that don't already have an Academic References section.
+    if (canUseGrammar && !body.includes('## 📚 Academic References')) {
+        const papers = await findAcademicPapers(title, 3);
+        if (papers.length > 0) {
+            const citationSection = buildCitationSection(papers);
+            // Insert before the final footer
+            const footerMatch = body.lastIndexOf('\n---\n');
+            if (footerMatch !== -1) {
+                body = body.substring(0, footerMatch) + citationSection + body.substring(footerMatch);
+            } else {
+                body += citationSection;
+            }
+            fixes.push(`Added ${papers.length} OpenAlex academic citations`);
+        }
+    }
+
     content = frontmatter + body;
     const wasModified = content !== originalContent;
     if (wasModified && !isDryRun) fs.writeFileSync(filePath, content, 'utf-8');
@@ -362,7 +536,10 @@ async function main() {
 
     for (const file of files) {
         const canUseAi = aiRepairsPerformed < repairLimit;
-        const result = await repairBlog(path.join(BLOG_DIR, file), isDryRun, canUseAi);
+        // Grammar audit is also capped to repairLimit blogs (same as AI), preventing
+        // 178 LanguageTool API calls/day. Only blogs being actively repaired get audited.
+        const canUseGrammar = canUseAi;
+        const result = await repairBlog(path.join(BLOG_DIR, file), isDryRun, canUseAi, canUseGrammar);
         
         if (result.fixes.some(f => f.includes('Generated'))) {
             aiRepairsPerformed++;

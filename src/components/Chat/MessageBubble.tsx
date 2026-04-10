@@ -143,6 +143,7 @@ const Mermaid = ({ chart }: { chart: string }) => {
                     theme: 'dark',
                     securityLevel: 'loose',
                     fontFamily: 'Manrope',
+                    suppressErrorRendering: true, // Hide default Mermaid error UI
                     themeVariables: {
                         primaryColor: '#5d21df',
                         primaryTextColor: '#fff',
@@ -153,12 +154,14 @@ const Mermaid = ({ chart }: { chart: string }) => {
                     }
                 });
                 mermaid.render(`mermaid-${Math.random().toString(36).substring(2, 9)}`, cleanChart).then(({ svg }) => {
-                    // SILENT FAILURE: If Mermaid returns an error icon or syntax bomb, hide the component completely
-                    if (svg.includes('mermaid-error') || 
-                        svg.includes('Syntax error') || 
-                        svg.includes('error-icon') || 
-                        svg.includes('failed to render') ||
-                        svg.toLowerCase().includes('bomb')) {
+                    // SILENT FAILURE: Catch version-specific error markers and syntax bombs
+                    const lowerSvg = svg.toLowerCase();
+                    if (lowerSvg.includes('mermaid-error') || 
+                        lowerSvg.includes('syntax error') || 
+                        lowerSvg.includes('error-icon') || 
+                        lowerSvg.includes('failed to render') ||
+                        lowerSvg.includes('bomb') ||
+                        lowerSvg.includes('parsing error')) {
                         setRenderError(true);
                         if (ref.current) ref.current.innerHTML = '';
                         return;

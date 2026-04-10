@@ -11,6 +11,7 @@ import {
     Zap,
     AlertCircle
 } from 'lucide-react';
+import { exportPremiumPDF } from '../../lib/pdfExporter';
 import { askAI } from '../../lib/ai';
 import { useUserStore } from '../../store/userStore';
 import { extractJSON } from '../../lib/utils';
@@ -267,116 +268,22 @@ export const Notes = () => {
         setDownloadingId(doc.id);
         
         try {
-            const html2pdf = (await import('html2pdf.js')).default;
-
             await new Promise(resolve => setTimeout(resolve, 1500));
             
             if (!shadowPrintRef.current) return;
             
-            // CRITICAL FIX: Extracting the fully mounted HTML. No explicit width/windowWidth constraints are placed 
-            // to allow html2canvas to capture the native responsive size exactly as rendered and gracefully scale it to JS-PDF's A4 width,
-            // preventing the right-side box-sizing truncation problem completely.
-            // MATH & GRAPH FIX: Injected KaTeX CSS explicitly to prevent fraction bars from collapsing into strikethroughs, and forced Mermaid SVGs to width: 100% to fix tiny graphs.
-            const syntheticHtml = `
-                <div id="pdf-shadow-renderer" style="background-color: #ffffff; color: #000000; box-sizing: border-box; overflow-wrap: break-word; width: 100%;">
-                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
-                    <style>
-                        /* COVER PAGE STYLING */
-                        #pdf-cover {
-                            height: 297mm; /* A4 Height */
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: center;
-                            align-items: center;
-                            text-align: center;
-                            padding: 40px;
-                            page-break-after: always;
-                            border: 20px solid #f8fafc;
-                        }
-                        #pdf-cover .logo { font-size: 48pt; font-weight: 900; color: #4338ca; margin-bottom: 20px; letter-spacing: -2px; }
-                        #pdf-cover .chapter { font-size: 36pt; font-weight: 800; color: #1e293b; margin-bottom: 60px; line-height: 1.2; }
-                        #pdf-cover .meta-box { background: #f1f5f9; padding: 40px; border-radius: 40px; width: 80%; }
-                        #pdf-cover .meta-item { margin: 15px 0; font-size: 16pt; font-weight: 700; color: #475569; }
-                        #pdf-cover .session { color: #6366f1; text-transform: uppercase; letter-spacing: 4px; font-size: 12pt; margin-top: 40px; }
-
-                        /* CONTENT STYLING */
-                        .content-body { padding: 40px 60px; }
-                        .mermaid svg, .mermaid-container svg { width: 100% !important; max-width: 100% !important; height: auto !important; }
-                        .katex .mfrac .frac-line { 
-                            border-bottom-width: 1.5pt !important; 
-                            position: static !important;
-                            display: block !important;
-                            margin: 2px 0 !important;
-                        }
-                        .katex .vlist-t { vertical-align: middle !important; }
-                        h1, h2, h3 { color: #1e1b4b; margin-top: 40px; }
-                        p, li { font-size: 12pt; line-height: 1.8; color: #334155; text-align: justify; }
-                    </style>
-
-                    <!-- PAGE 1: COVER PAGE -->
-                    <div id="pdf-cover" style="height: 290mm; page-break-after: always; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 40px; border: 20px solid #f8fafc; box-sizing: border-box;">
-                        <div class="logo">EXAM COMPASS</div>
-                        <div class="chapter">${doc.title.replace(/notes/gi, '').trim()}</div>
-                        <div class="meta-box">
-                            <div class="meta-item">Academic Archive: ${doc.title}</div>
-                            <div class="meta-item">Prepared for: ${user?.name || 'Scholar'}</div>
-                            <div class="meta-item">Curriculum: ${user?.userClass || 'Class 12th'}</div>
-                            <div class="meta-item">Format: ${(doc as any).note_type === 'exam' ? 'Revision Mastery' : 'Exhaustive Theory'}</div>
-                        </div>
-                        <div class="session">Session ${user?.targetYear || new Date().getFullYear()}-${(user?.targetYear || new Date().getFullYear()) + 1}</div>
-                        <div style="margin-top: 100px; font-weight: 900; opacity: 0.1; font-size: 80pt;">CONFIDENTIAL</div>
-                    </div>
-
-                    <!-- PAGE 2+: CONTENT -->
-                    <div class="content-body">
-                        ${shadowPrintRef.current.innerHTML.replace(/<h1[^>]*>.*?<\/h1>/i, '')}
-                    </div>
-                </div>
-            `;
-            
-            const options = {
-                margin: [15, 10, 15, 10] as [number, number, number, number],
+            await exportPremiumPDF({
+                title: doc.title,
                 filename: `${doc.title.replace(/\s+/g, '_').toLowerCase()}.pdf`,
-                image: { type: 'jpeg' as const, quality: 0.98 },
-                html2canvas: { 
-                    scale: 2, 
-                    useCORS: true, 
-                    logging: false,
-                    letterRendering: true
-                },
-                jsPDF: { unit: 'mm' as const, format: 'a4' as const, orientation: 'portrait' as const, compress: true },
-                pagebreak: { mode: ['avoid-all', 'css', 'legacy'] as const }
-            };
+                category: 'Academic Archive',
+                userName: user?.name || 'Scholar',
+                userClass: user?.userClass || 'Class 12th',
+                targetYear: user?.targetYear,
+                docId: doc.id,
+                isExamMode: (doc as any).note_type === 'exam' || doc.title.toLowerCase().includes('revision'),
+                contentHtml: shadowPrintRef.current.innerHTML.replace(/<h1[^>]*>.*?<\/h1>/i, '') // Remote duplicate H1 as exporter adds its own or we handle it in style
+            });
 
-            const worker = html2pdf().set(options).from(syntheticHtml).toPdf();
-            const pdf = await worker.get('pdf');
-            const totalPages = pdf.internal.getNumberOfPages();
-
-            for (let i = 1; i <= totalPages; i++) {
-                pdf.setPage(i);
-                
-                // Add Footer (Page Numbers)
-                pdf.setFontSize(10);
-                pdf.setTextColor(150);
-                pdf.text(
-                    `Page ${i} of ${totalPages}`, 
-                    pdf.internal.pageSize.getWidth() / 2, 
-                    pdf.internal.pageSize.getHeight() - 10, 
-                    { align: 'center' }
-                );
-
-                // Add Header (Clean Chapter Name) - Skip on cover page
-                if (i > 1) {
-                    pdf.setFontSize(8);
-                    pdf.text(
-                        `${doc.title.replace(/notes/gi, '').trim()} | AI Premium Archive`, 
-                        15, 
-                        10
-                    );
-                }
-            }
-
-            pdf.save(`${doc.title.replace(/\s+/g, '_').toLowerCase()}.pdf`);
             setDownloadingId(null);
         } catch (e) {
             console.error("Ironclad export failed", e);
