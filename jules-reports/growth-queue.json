@@ -1,0 +1,47 @@
+{
+    "strategy": "Prioritize closing critical curriculum gaps in core JEE/NEET subjects like Mathematics and Chemistry, based on demonstrated high search volume for similar topics. Simultaneously, leverage significant content opportunities in CBSE Class 9/10 Science and Social Science to capture high-intent board exam traffic.",
+    "queue": [
+        {
+            "topic": "Limits and Derivatives",
+            "subject": "Mathematics",
+            "priority": 10,
+            "reason": "Mathematics has a 65% completion rate, indicating many missing topics. 'Limits and Derivatives' is a foundational Class 11/12 Calculus topic, highly crucial for JEE, and attracts very high-intent search queries based on GSC insights for similar Class 11 topics."
+        },
+        {
+            "topic": "Chemical Bonding and Molecular Structure",
+            "subject": "Chemistry",
+            "priority": 9,
+            "reason": "Chemistry has a 90% completion rate, with some key topics missing. This Class 11 topic is fundamental for understanding advanced chemistry concepts for JEE/NEET and consistently sees high search volume for revision notes."
+        },
+        {
+            "topic": "Quadratic Equations",
+            "subject": "Mathematics",
+            "priority": 9,
+            "reason": "A fundamental topic spanning Class 10 and 11, crucial for JEE/NEET. It serves as a bedrock for many other mathematical concepts and is highly searched by students across different academic levels."
+        },
+        {
+            "topic": "Light - Reflection and Refraction",
+            "subject": "Science",
+            "priority": 8,
+            "reason": "The 'Science' syllabus is only 12% complete, representing a massive content gap. This is a major Class 10 Physics chapter, attracting high-intent search traffic from CBSE board students seeking specific study material."
+        },
+        {
+            "topic": "Introduction to Python Programming",
+            "subject": "Computer Science",
+            "priority": 7,
+            "reason": "Computer Science is 55% complete, indicating a moderate gap. Python is a highly popular and relevant topic for Class 11/12 Computer Science students, with consistently high search demand for introductory and practical guides."
+        },
+        {
+            "topic": "The Rise of Nationalism in Europe",
+            "subject": "Social Science",
+            "priority": 7,
+            "reason": "Social Science has only 9% completion, a significant gap. This is a key Class 10 History chapter, highly relevant for CBSE board exams, ensuring high-intent traffic from students preparing for specific curriculum topics."
+        },
+        {
+            "topic": "Tenses and Modals for CBSE Class 10",
+            "subject": "English",
+            "priority": 6,
+            "reason": "English has 0% completion, offering a full slate of content opportunities. Targeting foundational grammar topics like Tenses and Modals for CBSE Class 10 will attract consistent, high-intent traffic from students focusing on language proficiency for board exams."
+        }
+    ]
+}

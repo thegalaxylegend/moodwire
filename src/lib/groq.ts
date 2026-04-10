@@ -47,6 +47,19 @@ export async function callGroq(
     if (!client) throw new Error(`Groq Client #${keyIndex} not found.`);
 
     try {
+        // --- CLOUDFLARE WORKER ROUTING (PRODUCTION) ---
+        // If we are in production and running on Cloudflare, we proxy through the Worker
+        // to keep API keys secure and use the zero-cost backend.
+        if (import.meta.env.PROD && !import.meta.env.VITE_DEV_AI) {
+            const response = await fetch('/api/ai', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ messages, tier: 'T4', options: { ...options, provider: 'groq' } })
+            });
+            if (!response.ok) throw new Error(`Cloudflare Proxy Error: ${response.statusText}`);
+            return await response.json();
+        }
+
         const completion = await client.chat.completions.create({
             model: model,
             messages: messages as any,

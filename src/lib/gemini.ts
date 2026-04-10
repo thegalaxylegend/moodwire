@@ -63,6 +63,18 @@ export async function callGemini(
     const systemMsg = messages.find(m => m.role === 'system')?.content || '';
     const userMsg = messages.find(m => m.role === 'user')?.content || messages[messages.length - 1]?.content || '';
     const fullPrompt = systemMsg ? `${systemMsg}\n\n${userMsg}` : userMsg;
+    
+    // --- CLOUDFLARE WORKER ROUTING (PRODUCTION) ---
+    // Use the zero-cost Cloudflare backend to hide secrets and manage rotation.
+    if (import.meta.env.PROD && !import.meta.env.VITE_DEV_AI) {
+        const response = await fetch('/api/ai', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ messages, tier: 'T4', options: { ...options, provider: 'gemini' } })
+        });
+        if (!response.ok) throw new Error(`Cloudflare Proxy Error: ${response.statusText}`);
+        return await response.json();
+    }
 
     if (stream) {
         const result = await genModel.generateContentStream(fullPrompt);

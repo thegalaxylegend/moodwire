@@ -1,0 +1,23 @@
+[
+  {
+    "subject": "Mathematics",
+    "topic": "Real Numbers",
+    "class": "Class 10",
+    "targetSlug": "real-numbers-class-10-notes",
+    "priorityScore": 65
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Polynomials",
+    "class": "Class 10",
+    "targetSlug": "polynomials-class-10-notes",
+    "priorityScore": 65
+  },
+  {
+    "subject": "Mathematics",
+    "topic": "Pair of Linear Equations",
+    "class": "Class 10",
+    "targetSlug": "pair-of-linear-equations-class-10-notes",
+    "priorityScore": 65
+  }
+]
