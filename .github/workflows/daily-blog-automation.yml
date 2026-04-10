@@ -55,6 +55,7 @@ jobs:
             ls -dt jules-reports/archive/*/ 2>/dev/null | tail -n +15 | xargs rm -rf 2>/dev/null || true
           fi
           rm -rf jules-failed/*
+          rm -f generated-slugs.txt 2>/dev/null || true
           touch run.log
           echo "[]" > jules-reports/dead-letter-queue.json
 
@@ -80,9 +81,9 @@ jobs:
           HF_API_TOKEN: ${{ secrets.HF_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-        run: npx tsx scripts/blog-generator.ts | tee -a run.log
+        run: npx tsx scripts/blog-generator.ts --new-only | tee -a run.log
 
-      - name: Task 2.1 - Refinement-Only Pass (Uncapped)
+      - name: Task 2.1 - Refinement-Only Pass (6 Refinements)
         id: refine_pass
         continue-on-error: true
         env:

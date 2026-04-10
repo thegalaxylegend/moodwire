@@ -962,7 +962,12 @@ async function generateExtras(item: any, researchContext: string): Promise<{ mcq
 
 async function generateBlogs() {
     const isRefineOnly = process.argv.includes('--refine-only');
-    const modeLabel = isRefineOnly ? 'Refinement-Only' : 'Unified';
+    const isNewOnly = process.argv.includes('--new-only');
+    
+    let modeLabel = 'Unified';
+    if (isRefineOnly) modeLabel = 'Refinement-Only';
+    if (isNewOnly) modeLabel = 'New-Only';
+    
     console.log(`🤖 Jules: Starting ${modeLabel} Blog Generation...`);
 
     const REPORTS_DIR = path.join(__dirname, '../jules-reports');
@@ -970,7 +975,7 @@ async function generateBlogs() {
     if (!fs.existsSync(REPORTS_DIR)) fs.mkdirSync(REPORTS_DIR);
     if (!fs.existsSync(FAILED_DIR)) fs.mkdirSync(FAILED_DIR);
 
-    // 1. Load New Topics Queue (skipped in --refine-only mode)
+    // 1. Load New Topics Queue
     let queue: any[] = [];
     if (!isRefineOnly && fs.existsSync(QUEUE_FILE)) {
         queue = JSON.parse(fs.readFileSync(QUEUE_FILE, 'utf8'));
@@ -988,13 +993,10 @@ async function generateBlogs() {
         console.log(`📂 Found ${regenQueue.length} refinement items in ${regenFiles[0]}`);
         
         // Convert regen-queue format to generation format
-        // Infer subject + topic from existing blog frontmatter for accuracy
         const formattedRegen = regenQueue.map((item: any) => {
             let subject = 'General';
             let topic = item.slug.replace(/-/g, ' ');
-            
-            // Read existing blog frontmatter for accurate subject/topic/class
-            let examClass = '10'; // Default
+            let examClass = '10';
             const blogPath = path.join(BLOG_DIR, `${item.slug}.md`);
             if (fs.existsSync(blogPath)) {
                 try {
@@ -1002,23 +1004,12 @@ async function generateBlogs() {
                     const subjectMatch = content.match(/subject:\s*['"]?([^'"\n]+)/);
                     const categoryMatch = content.match(/category:\s*['"]?([^'"\n]+)/);
                     const classMatch = content.match(/exam_class:\s*(\d+)/) || content.match(/class:\s*(\d+)/);
-                    
                     if (subjectMatch) subject = subjectMatch[1].trim();
                     else if (categoryMatch) subject = categoryMatch[1].trim();
                     if (classMatch) examClass = classMatch[1].trim();
-
-                    console.log(`  🔍 Inferred: "${topic}" (${subject}, Class ${examClass}) from existing blog`);
-                } catch { /* fallback to slug-derived values */ }
+                } catch { }
             }
-            
-            return {
-                topic,
-                targetSlug: item.slug,
-                subject,
-                class: examClass,
-                isRegeneration: true,
-                reason: item.reason
-            };
+            return { topic, targetSlug: item.slug, subject, class: examClass, isRegeneration: true, reason: item.reason };
         });
         
         queue = [...queue, ...formattedRegen];
@@ -1029,39 +1020,36 @@ async function generateBlogs() {
         return;
     }
 
-    // --- Mode-dependent slot allocation ---
+    // --- Slot allocation ---
     const MAX_NEW_PER_RUN = 3;
-    const MAX_REGEN_PER_RUN = isRefineOnly ? 5 : 3;  // Refinement-only gets 5 dedicated slots
-    const MAX_BLOGS_PER_RUN = isRefineOnly ? MAX_REGEN_PER_RUN : (MAX_NEW_PER_RUN + MAX_REGEN_PER_RUN);
+    const MAX_REGEN_PER_RUN = isRefineOnly ? 6 : 3; // 6 slots if refining only
+    const MAX_BLOGS_PER_RUN = isRefineOnly ? MAX_REGEN_PER_RUN : (MAX_NEW_PER_RUN + (isNewOnly ? 0 : MAX_REGEN_PER_RUN));
 
     let newQueue: any[];
     let regenQueue: any[];
 
     if (isRefineOnly) {
-        // --refine-only: ONLY process refinements, skip all new topics
         newQueue = [];
         regenQueue = queue.filter((item: any) => item.isRegeneration).slice(0, MAX_REGEN_PER_RUN);
-        console.log(`🔧 Refinement-Only Mode: Processing ${regenQueue.length} refinements (max ${MAX_REGEN_PER_RUN}, no new blogs)`);
+    } else if (isNewOnly) {
+        newQueue = queue.filter((item: any) => !item.isRegeneration).slice(0, MAX_NEW_PER_RUN);
+        regenQueue = [];
     } else {
-        // Normal mode: 3 new + 3 refined
         newQueue = queue.filter((item: any) => !item.isRegeneration).slice(0, MAX_NEW_PER_RUN);
         regenQueue = queue.filter((item: any) => item.isRegeneration).slice(0, MAX_REGEN_PER_RUN);
     }
     queue = [...newQueue, ...regenQueue];
 
-    if (newQueue.length + regenQueue.length > 0) {
-        console.log(`🎯 Queue allocation: ${newQueue.length} new + ${regenQueue.length} refinements (max ${MAX_BLOGS_PER_RUN} total)`);
-    }
-
-    console.log(`🚀 Processing combined queue: ${queue.length} items (New + Refined)`);
+    console.log(`🎯 Queue allocation: ${newQueue.length} new + ${regenQueue.length} refinements`);
+    console.log(`🚀 Processing combined queue: ${queue.length} items`);
     const pipelineReport: any[] = [];
 
     const isDryRun = process.argv.includes('--dry-run') || process.argv.includes('-dry-run');
-    if (isDryRun) console.log("🧪 DRY RUN MODE ENABLED — No files will be written.");
+    if (isDryRun) console.log("🧪 DRY RUN MODE ENABLED");
 
-    // Track generated slugs for Discord
     const generatedSlugsFile = path.join(__dirname, '../generated-slugs.txt');
-    fs.writeFileSync(generatedSlugsFile, ''); // Reset file
+    // NOTE: We no longer reset the file here to allow accumulation in multi-step workflows.
+    // Resetting should happen at the start of the CI job.
 
     for (const item of queue) {
         // Area 3: Dynamic Target Year (Switch on August 1st)
@@ -1351,10 +1339,28 @@ async function generateBlogs() {
         await new Promise(r => setTimeout(r, 5000));
     }
 
-    // --- SAVE REPORT ---
+    // --- SAVE REPORT WITH MERGE ---
     const dailyReportPath = path.join(REPORTS_DIR, `pipeline-${new Date().toISOString().split('T')[0]}.json`);
-    fs.writeFileSync(dailyReportPath, JSON.stringify(pipelineReport, null, 2));
-    console.log(`📊 Pipeline report saved to: ${dailyReportPath}`);
+    
+    let finalReport = pipelineReport;
+    if (fs.existsSync(dailyReportPath)) {
+        try {
+            const existingContent = fs.readFileSync(dailyReportPath, 'utf8');
+            const existingData = JSON.parse(existingContent);
+            if (Array.isArray(existingData)) {
+                // Deduplicate reports if the same blog was processed twice (unlikely but safe)
+                const existingSlugs = new Set(existingData.map(r => r.slug));
+                const newResults = pipelineReport.filter(r => !existingSlugs.has(r.slug));
+                finalReport = [...existingData, ...newResults];
+                console.log(`🔄 Merged ${newResults.length} results into existing daily report (${existingData.length} existing).`);
+            }
+        } catch (e: any) {
+            console.warn(`⚠️ Could not merge existing report: ${e.message}`);
+        }
+    }
+
+    fs.writeFileSync(dailyReportPath, JSON.stringify(finalReport, null, 2));
+    console.log(`📊 Pipeline report saved: ${dailyReportPath}`);
 
     if (pipelineReport.some(r => r.status === "failed")) {
         const failedCount = pipelineReport.filter(r => r.status === "failed").length;
