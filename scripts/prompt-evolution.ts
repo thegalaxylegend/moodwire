@@ -346,8 +346,8 @@ CRITICAL: The evolved prompt must be BETTER than the original. Don't just rephra
         }
 
         // Validate structure
-        if (!evolved.evolvedPrompt || evolved.evolvedPrompt.length < 100) {
-            throw new Error('Evolved prompt is too short or missing');
+        if (!evolved.evolvedPrompt || evolved.evolvedPrompt.length < 500) {
+            throw new Error(`Evolved prompt is too short (${evolved.evolvedPrompt?.length || 0} chars, min 500) — likely corrupted or over-condensed`);
         }
 
         return evolved;

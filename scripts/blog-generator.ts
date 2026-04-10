@@ -9,6 +9,7 @@ import { checkBlogQuality, jsonToMarkdown, standardizeMarkdown, sanitizeAiText, 
 
 
 import { godSafeParse, godExtract, isRefusal } from './utils/god-json.js';
+import { ExternalApiService } from '../src/services/externalApiService.js';
 
 
 const __filename = fileURLToPath(import.meta.url);
@@ -43,7 +44,7 @@ const GEMINI_PERMANENT_DEAD = new Set<number>();
 
 function rotateGroqKey(isPermanent = false) {
     if (isPermanent) GROQ_PERMANENT_DEAD.add(currentGroqIndex);
-    else GROQ_COOLDOWNS.set(currentGroqIndex, Date.now() + 1 * 60 * 1000); // 1 min cooldown
+    else GROQ_COOLDOWNS.set(currentGroqIndex, Date.now() + 2 * 60 * 1000); // 2 min timeout for errors
 
     const now = Date.now();
     const availableIndices = GROQ_KEYS.map((_, i) => i).filter(i => 
@@ -54,10 +55,34 @@ function rotateGroqKey(isPermanent = false) {
     if (availableIndices.length > 0) {
         currentGroqIndex = availableIndices[0];
         groq = new Groq({ apiKey: GROQ_KEYS[currentGroqIndex] });
-        console.log(`🔄 Rotating to Groq Key #${currentGroqIndex + 1} (${isPermanent ? 'Permanent' : '5min Cooldown'})...`);
+        console.log(`🔄 Rotating to Groq Key #${currentGroqIndex + 1} (${isPermanent ? 'Permanent' : '2min Timeout'})...`);
+        return true;
     } else {
-        console.warn("🚨 ALL GROQ KEYS EXHAUSTED OR IN COOLDOWN.");
+        console.warn("⚠️ ALL GROQ KEYS EXHAUSTED OR IN COOLDOWN.");
+        return false;
     }
+}
+
+/**
+ * NEW: Polling strategy to check for key recovery every 2 minutes.
+ * Total wait: 10 minutes (5 attempts).
+ */
+async function pollForAvailableKey(): Promise<boolean> {
+    for (let i = 1; i <= 5; i++) {
+        console.log(`📡 Polling for key recovery (Attempt ${i}/5)... Waiting 2 mins.`);
+        await sleep(120000); // 2 minutes
+        const now = Date.now();
+        const available = GROQ_KEYS.map((_, idx) => idx).filter(idx => 
+            !GROQ_PERMANENT_DEAD.has(idx) && (GROQ_COOLDOWNS.get(idx) || 0) < now
+        );
+        if (available.length > 0) {
+            currentGroqIndex = available[0];
+            groq = new Groq({ apiKey: GROQ_KEYS[currentGroqIndex] });
+            console.log(`✅ Key Recovered: Groq Key #${currentGroqIndex + 1} is back online.`);
+            return true;
+        }
+    }
+    return false;
 }
 
 function rotateGeminiKey(isPermanent = false, cooldownMs = 1 * 60 * 1000) {
@@ -513,9 +538,9 @@ function loadEvolvedPrompt(): void {
             return;
         }
         
-        // Validate prompt isn't too short (likely corrupted/truncated)
-        if (data.evolvedPrompt.length < 100) {
-            console.warn(`⚠️ Evolved prompt too short (${data.evolvedPrompt.length} chars). Using defaults.`);
+        // Validate prompt isn't too short (likely corrupted/truncated or over-condensed)
+        if (data.evolvedPrompt.length < 500) {
+            console.warn(`⚠️ Evolved prompt too short (${data.evolvedPrompt.length} chars, min 500). Using defaults.`);
             return;
         }
         
@@ -607,6 +632,55 @@ function getSubjectTargets(subject: string): { minWords: number; maxWords: numbe
     return { minWords: 2000, maxWords: 4000, mcqCount: 5 };
 }
 
+/**
+ * NEW: Research Phase
+ * Uses Exa AI and Jina to fetch real-world CBSE/NCERT data before generation.
+ */
+async function researchTopic(item: any, targetYear: number): Promise<string> {
+    console.log(`🔍 Jules: Starting Neural Research for "${item.topic}"...`);
+    
+    // Safety check for class
+    const displayClass = (item.class || '10').replace(/\D/g, '');
+    const query = `CBSE Class ${displayClass} ${item.subject} ${item.topic} official syllabus and important questions ${targetYear}`;
+    const searchResults = await ExternalApiService.searchWeb(query, 2);
+    
+    if (!searchResults || searchResults.length === 0) {
+        console.warn("⚠️ Research Phase: No search results found. Proceeding with AI internal knowledge.");
+        return "";
+    }
+
+    let contextBuffer = "--- RESEARCH CONTEXT (ACTUAL EXAM DATA 2026) ---\n";
+    
+    for (const result of searchResults) {
+        console.log(`   📄 Reading: ${result.title}...`);
+        // Try to get highlighting first (fast)
+        if (result.highlights && result.highlights.length > 0) {
+            contextBuffer += `[Source: ${result.title}]\n${result.highlights.join('\n')}\n\n`;
+        } else {
+            // Fallback to Jina for full page reading (slower)
+            const content = await ExternalApiService.getMarkdownFromUrl(result.url);
+            if (content) {
+                contextBuffer += `[Source: ${result.title}]\n${content.substring(0, 1500)}...\n\n`;
+            }
+        }
+    }
+
+    // Optional: Add Wolfram context for Math/Science
+    if (['Physics', 'Chemistry', 'Mathematics', 'Science'].includes(item.subject)) {
+        console.log(`   🔢 Checking Wolfram Alpha for precision data...`);
+        const wolfram = await ExternalApiService.getWolframResults(item.topic);
+        if (wolfram && wolfram.pods) {
+            const primary = wolfram.pods.find((p: any) => p.id === 'Definition' || p.id === 'Result');
+            if (primary) {
+                contextBuffer += `[Wolfram Alpha Precision Data]: ${primary.subpods[0].plaintext}\n\n`;
+            }
+        }
+    }
+
+    console.log(`✅ Research Phase complete (${contextBuffer.length} chars gathered).`);
+    return contextBuffer;
+}
+
 
 
 // --- SMART RECOVERY WRAPPER ---
@@ -641,23 +715,29 @@ async function callLlmWithFallback(system: string, user: string, isJson: boolean
         });
         return completion.choices[0]?.message?.content || "";
     } catch (err: any) {
-        const errMsg = err.message || "";
+        const errMsg = (err.message || "").toLowerCase();
         
-        // 1. Handle "Dead" Keys (Invalid / Decommissioned Model)
-        if (errMsg.includes("401") || errMsg.includes("invalid_api_key") || errMsg.includes("400") || errMsg.includes("decommissioned") || errMsg.includes("404")) {
-            console.error(`❌ Groq Key #${currentGroqIndex + 1} permanently dead (401/400). Marking was dead...`);
+        // 1. Handle Permanent Key Failure (401)
+        if (errMsg.includes("401") || errMsg.includes("invalid_api_key")) {
+            console.error(`❌ Groq Key #${currentGroqIndex + 1} INVALID (401). Killing key.`);
             rotateGroqKey(true);
+            await sleep(2000); // Mandatory 2s breather
             if (attempt <= GROQ_KEYS.length) {
                 return await callLlmWithFallback(system, user, isJson, attempt + 1);
             }
         }
 
-        // 2. Handle Rate Limits / Generic Errors via Groq Rotation
-        if (errMsg.includes("429") || errMsg.includes("rate_limit") || errMsg.includes("500") || errMsg.includes("Timeout")) {
-            if (attempt <= GROQ_KEYS.length) {
-                console.log(`⚠️ Groq Rate Limit (Key #${currentGroqIndex + 1}). Cooling down...`);
-                rotateGroqKey(false);
-                await sleep(1000 * attempt); 
+        // 2. Handle Temporary Failures (400, 429, 500, Timeout)
+        if (errMsg.includes("429") || errMsg.includes("rate_limit") || errMsg.includes("400") || errMsg.includes("500") || errMsg.includes("timeout") || errMsg.includes("overloaded")) {
+            console.warn(`⚠️ Groq Key #${currentGroqIndex + 1} Temporary Error (${errMsg.includes("429") ? "Rate Limit" : "Bad Request/Server"}).`);
+            
+            const rotated = rotateGroqKey(false);
+            if (!rotated && attempt <= GROQ_KEYS.length) {
+                // All keys are currently waiting - trigger Polling Mode
+                const recovered = await pollForAvailableKey();
+                if (recovered) return await callLlmWithFallback(system, user, isJson, attempt);
+            } else if (rotated) {
+                await sleep(2000 * attempt); // Progressive safety delay
                 return await callLlmWithFallback(system, user, isJson, attempt + 1);
             }
             
@@ -671,18 +751,14 @@ async function callLlmWithFallback(system: string, user: string, isJson: boolean
             process.exit(1);
         }
 
-        // Handle JSON failure specifically
-        if (isJson && (errMsg.includes("400") || errMsg.includes("Failed to generate JSON"))) {
-            console.warn(`⚠️ Groq strict JSON mode failed. Retrying with Gemini primary...`);
-            return await generateWithGeminiRetry(system, user, isJson) || "";
-        }
-
         throw err;
     }
 }
 
-async function generateOutline(item: any, targetYear: number): Promise<string[]> {
+async function generateOutline(item: any, targetYear: number, researchContext: string): Promise<string[]> {
     console.log(`📑 Jules: Using fixed Last-Night Revision Format for ${item.topic}...`);
+    // Research context can be used here to dynamically adjust the outline if needed,
+    // but for now we stick to the proven high-conversion layout.
     return [
         "⚡ Formula Bank",
         "🪤 The 5 Mistakes That Cost Marks",
@@ -693,14 +769,17 @@ async function generateOutline(item: any, targetYear: number): Promise<string[]>
     ];
 }
 
-async function generateIntro(item: any, targetYear: number, displayClass: string): Promise<string> {
-    return ""; // Intro (What WILL Come) removed as per user request — Summary is now the top element.
+async function generateIntro(item: any, targetYear: number, displayClass: string, researchContext: string): Promise<string> {
+    return ""; // Intro removed as per layout rules
 }
 
-async function generateSection(item: any, heading: string, displayClass: string, targetYear: number): Promise<Section> {
+async function generateSection(item: any, heading: string, displayClass: string, targetYear: number, researchContext: string): Promise<Section> {
     console.log(`📖 Jules: Writing specific revision section: ${heading}...`);
     const numericClass = Number(item.class.replace(/\D/g, ''));
     const system = getAcademicIdentity(numericClass, item.subject);
+    
+    // Inject Research Context into the User Prompt
+    let contextHeader = researchContext ? `\n\nUSE THIS ACTUAL 2026 EXAM DATA AS YOUR BIBLE:\n${researchContext}\n\n` : "";
     
     let specificDirective = "";
     if (heading.includes("Formula Bank")) {
@@ -755,7 +834,7 @@ async function generateSection(item: any, heading: string, displayClass: string,
          specificDirective = "Provide a highly focused, no-nonsense revision summary using bullet points extensively. USE BRACES {} FOR ALL LATEX.";
     }
 
-    const user = `Write the section for the heading: "${heading}" regarding the topic "${item.topic}".
+    const user = `${contextHeader}Write the section for the heading: "${heading}" regarding the topic "${item.topic}".
     STRICT RULE: ${specificDirective}
     Remember LATEX ESCAPING RULES! Use $$ for block formulas and $ for inline formulas.
     TARGET LENGTH: Each section MUST be detailed and exhaustive. Aim for 300+ words per section.
@@ -812,12 +891,15 @@ async function generateSection(item: any, heading: string, displayClass: string,
 }
 
 
-async function generateExtras(item: any): Promise<{ mcqs: MCQ[], recall: string[] }> {
+async function generateExtras(item: any, researchContext: string): Promise<{ mcqs: MCQ[], recall: string[] }> {
     console.log(`🧠 Jules: Generating MCQs and Quick Recall for ${item.topic}...`);
     const numericClass = Number(item.class.replace(/\D/g, ''));
     const system = getAcademicIdentity(numericClass, item.subject);
-    const user = `Generate 5 high-yield MCQs and 10 Quick Recall bullet points for "${item.topic}".
-    The "quick_recall" items MUST be highly specific exam predictions. 
+    
+    let contextHeader = researchContext ? `\n\nUSE THESE REAL PYQs/DATA FROM RESEARCH:\n${researchContext}\n\n` : "";
+
+    const user = `${contextHeader}Generate 5 high-yield MCQs and 10 Quick Recall bullet points for "${item.topic}".
+    The "quick_recall" items MUST be highly specific exam predictions based on the research data provided if available. 
     Format each recall point with frequency tags:
     - [Sub-topic]: [Prediction] — always
     - [Sub-topic]: [Prediction] — frequently
@@ -909,17 +991,21 @@ async function generateBlogs() {
             let subject = 'General';
             let topic = item.slug.replace(/-/g, ' ');
             
-            // Read existing blog frontmatter for accurate subject/topic
+            // Read existing blog frontmatter for accurate subject/topic/class
+            let examClass = '10'; // Default
             const blogPath = path.join(BLOG_DIR, `${item.slug}.md`);
             if (fs.existsSync(blogPath)) {
                 try {
                     const content = fs.readFileSync(blogPath, 'utf-8');
                     const subjectMatch = content.match(/subject:\s*['"]?([^'"\n]+)/);
                     const categoryMatch = content.match(/category:\s*['"]?([^'"\n]+)/);
+                    const classMatch = content.match(/exam_class:\s*(\d+)/) || content.match(/class:\s*(\d+)/);
+                    
                     if (subjectMatch) subject = subjectMatch[1].trim();
                     else if (categoryMatch) subject = categoryMatch[1].trim();
+                    if (classMatch) examClass = classMatch[1].trim();
 
-                    console.log(`  🔍 Inferred: "${topic}" (${subject}) from existing blog`);
+                    console.log(`  🔍 Inferred: "${topic}" (${subject}, Class ${examClass}) from existing blog`);
                 } catch { /* fallback to slug-derived values */ }
             }
             
@@ -927,6 +1013,7 @@ async function generateBlogs() {
                 topic,
                 targetSlug: item.slug,
                 subject,
+                class: examClass,
                 isRegeneration: true,
                 reason: item.reason
             };
@@ -940,10 +1027,18 @@ async function generateBlogs() {
         return;
     }
 
-    const MAX_BLOGS_PER_RUN = 3;
-    if (queue.length > MAX_BLOGS_PER_RUN) {
-        console.log(`⚠️ SAFETY VALVE: Truncating queue from ${queue.length} down to ${MAX_BLOGS_PER_RUN} max items.`);
-        queue = queue.slice(0, MAX_BLOGS_PER_RUN);
+    const MAX_NEW_PER_RUN = 3;
+    const MAX_REGEN_PER_RUN = 3;
+    const MAX_BLOGS_PER_RUN = MAX_NEW_PER_RUN + MAX_REGEN_PER_RUN;
+
+    // Smart slot allocation: new topics get first 3 slots, refinements get next 3
+    // This ensures refinements are never crowded out by new topic overflow
+    const newQueue = queue.filter((item: any) => !item.isRegeneration).slice(0, MAX_NEW_PER_RUN);
+    const regenQueue = queue.filter((item: any) => item.isRegeneration).slice(0, MAX_REGEN_PER_RUN);
+    queue = [...newQueue, ...regenQueue];
+
+    if (newQueue.length + regenQueue.length > 0) {
+        console.log(`🎯 Queue allocation: ${newQueue.length} new + ${regenQueue.length} refinements (max ${MAX_BLOGS_PER_RUN} total)`);
     }
 
     console.log(`🚀 Processing combined queue: ${queue.length} items (New + Refined)`);
@@ -985,6 +1080,9 @@ async function generateBlogs() {
 
         const heroImagePath = await downloadHeroImage(item.subject, item.topic, item.targetSlug);
 
+        // --- NEW: RESEARCH PHASE ---
+        const researchContext = await researchTopic(item, targetYear);
+
         // --- MULTI-PASS GENERATION ---
         let finalPost: BlogPostJSON | null = null;
         let assembled: BlogPostJSON | null = null;
@@ -1005,16 +1103,16 @@ async function generateBlogs() {
                 const needsMCQs = needsFullRegen || qualityReport?.patch_missing_sections.includes("Practice MCQs");
                 
                 if (needsFullRegen || !assembled) {
-                    const outline = await generateOutline(item, targetYear);
-                    const intro = await generateIntro(item, targetYear, displayClass);
+                    const outline = await generateOutline(item, targetYear, researchContext);
+                    const intro = await generateIntro(item, targetYear, displayClass, researchContext);
                     
                     const sections: Section[] = [];
                     for (const heading of outline) {
-                        sections.push(await generateSection(item, heading, displayClass, targetYear));
+                        sections.push(await generateSection(item, heading, displayClass, targetYear, researchContext));
                         await new Promise(r => setTimeout(r, 3000));
                     }
 
-                    const extras = await generateExtras(item);
+                    const extras = await generateExtras(item, researchContext);
 
                     const SUBJECT_EXAM: Record<string, string> = {
                         'Physics': 'JEE & NEET', 'Chemistry': 'JEE & NEET',
@@ -1076,16 +1174,16 @@ async function generateBlogs() {
 
                     if (needsIntro) {
                         console.log(`  📝 Regenerating Intro...`);
-                        postToRepair.content.intro = await generateIntro(item, targetYear, displayClass);
+                        postToRepair.content.intro = await generateIntro(item, targetYear, displayClass, researchContext);
                     }
                     
                     if (needsSections || (qualityReport?.patch_missing_sections.some(s => s.toLowerCase().includes("section")) ?? false)) {
                         if (needsSections && qualityReport?.regenerate_all) {
                             console.log(`  📝 Regenerating All Sections...`);
-                            const outline = await generateOutline(item, targetYear);
+                            const outline = await generateOutline(item, targetYear, researchContext);
                             postToRepair.content.sections = [];
                             for (const heading of outline) {
-                                postToRepair.content.sections.push(await generateSection(item, heading, displayClass, targetYear));
+                                postToRepair.content.sections.push(await generateSection(item, heading, displayClass, targetYear, researchContext));
                                 await new Promise(r => setTimeout(r, 2000));
                             }
                         } else {
@@ -1095,7 +1193,7 @@ async function generateBlogs() {
                                     console.log(`  📝 Repairing specific section: ${patchTitle}`);
                                     // If it's a completely missing section, push it. If it's a weak one, replace it.
                                     const index = postToRepair.content.sections.findIndex(s => s.heading.toLowerCase().includes(patchTitle.toLowerCase()));
-                                    const newSec = await generateSection(item, patchTitle, displayClass, targetYear);
+                                    const newSec = await generateSection(item, patchTitle, displayClass, targetYear, researchContext);
                                     if (index !== -1) {
                                         postToRepair.content.sections[index] = newSec;
                                     } else {
@@ -1108,7 +1206,7 @@ async function generateBlogs() {
 
                     if (needsMCQs) {
                         console.log(`  📝 Regenerating MCQs...`);
-                        const extras = await generateExtras(item);
+                        const extras = await generateExtras(item, researchContext);
                         postToRepair.content.mcqs = extras.mcqs;
                         postToRepair.content.quick_recall = extras.recall;
                     }
@@ -1161,7 +1259,7 @@ async function generateBlogs() {
                     // FIX: Regenerate only MCQs if they are broken (small token cost)
                     if (report.patch_missing_sections.includes("Practice MCQs") && attempts < maxAttempts) {
                         console.log(`  🎯 Regenerating MCQs only...`);
-                        const newExtras = await generateExtras(item);
+                        const newExtras = await generateExtras(item, researchContext);
                         if (newExtras.mcqs.length >= 5) {
                             assembled.content.mcqs = newExtras.mcqs;
                         }
@@ -1174,12 +1272,12 @@ async function generateBlogs() {
                     const bodyCheck = JSON.stringify(assembled.content).toLowerCase();
                     if (!bodyCheck.includes("ayush's note") && !bodyCheck.includes("ayush note")) {
                         console.log(`  📝 Generating missing "Ayush's Note" section...`);
-                        const ayushSection = await generateSection(item, `What is Ayush's Note on ${item.topic}?`, displayClass, targetYear);
+                        const ayushSection = await generateSection(item, `What is Ayush's Note on ${item.topic}?`, displayClass, targetYear, researchContext);
                         assembled.content.sections.push(ayushSection);
                     }
                     if (!bodyCheck.includes("trap question") && !bodyCheck.includes("common mistakes")) {
                         console.log(`  📝 Generating missing "Trap Questions" section...`);
-                        const trapSection = await generateSection(item, `What are common Trap Questions for ${item.topic}?`, displayClass, targetYear);
+                        const trapSection = await generateSection(item, `What are common Trap Questions for ${item.topic}?`, displayClass, targetYear, researchContext);
                         assembled.content.sections.push(trapSection);
                     }
 

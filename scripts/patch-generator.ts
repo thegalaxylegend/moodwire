@@ -106,6 +106,11 @@ async function patchSystem() {
 
     console.log(`🔍 Found ${patchable.length} patchable blogs.`);
 
+    // Always write patch-report.json so Discord --refined pulse has something to read
+    if (!fs.existsSync(REPORTS_DIR)) fs.mkdirSync(REPORTS_DIR, { recursive: true });
+    const patchReportPath = path.join(REPORTS_DIR, 'patch-report.json');
+    const patchedBlogsList: any[] = [];
+
     for (const blog of patchable) {
         const filePath = path.join(BLOG_DIR, `${blog.slug}.md`);
         if (!fs.existsSync(filePath)) continue;
@@ -146,10 +151,23 @@ async function patchSystem() {
             
             // Update report status (Local only)
             blog.status = "patched";
+            patchedBlogsList.push({
+                slug: blog.slug,
+                sections: blog.quality_report.patch_missing_sections,
+                patchedAt: new Date().toISOString()
+            });
         }
     }
 
     fs.writeFileSync(reportPath, JSON.stringify(reportList, null, 2));
+
+    // Always write patch-report.json (even if empty) so Discord pulse can read it
+    fs.writeFileSync(patchReportPath, JSON.stringify({
+        date: new Date().toISOString().split('T')[0],
+        refined_blogs: patchedBlogsList,
+        total: patchedBlogsList.length
+    }, null, 2));
+    console.log(`📄 Patch report saved: ${patchReportPath}`);
     console.log("\n✨ Self-Healing cycle complete.");
 }
 
