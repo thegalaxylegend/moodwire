@@ -961,16 +961,18 @@ async function generateExtras(item: any, researchContext: string): Promise<{ mcq
 }
 
 async function generateBlogs() {
-    console.log(`🤖 Jules: Starting Unified 9-Blog Generation...`);
+    const isRefineOnly = process.argv.includes('--refine-only');
+    const modeLabel = isRefineOnly ? 'Refinement-Only' : 'Unified';
+    console.log(`🤖 Jules: Starting ${modeLabel} Blog Generation...`);
 
     const REPORTS_DIR = path.join(__dirname, '../jules-reports');
     const FAILED_DIR = path.join(__dirname, '../jules-failed');
     if (!fs.existsSync(REPORTS_DIR)) fs.mkdirSync(REPORTS_DIR);
     if (!fs.existsSync(FAILED_DIR)) fs.mkdirSync(FAILED_DIR);
 
-    // 1. Load New Topics Queue
+    // 1. Load New Topics Queue (skipped in --refine-only mode)
     let queue: any[] = [];
-    if (fs.existsSync(QUEUE_FILE)) {
+    if (!isRefineOnly && fs.existsSync(QUEUE_FILE)) {
         queue = JSON.parse(fs.readFileSync(QUEUE_FILE, 'utf8'));
     }
 
@@ -1027,14 +1029,24 @@ async function generateBlogs() {
         return;
     }
 
+    // --- Mode-dependent slot allocation ---
     const MAX_NEW_PER_RUN = 3;
-    const MAX_REGEN_PER_RUN = 3;
-    const MAX_BLOGS_PER_RUN = MAX_NEW_PER_RUN + MAX_REGEN_PER_RUN;
+    const MAX_REGEN_PER_RUN = isRefineOnly ? 5 : 3;  // Refinement-only gets 5 dedicated slots
+    const MAX_BLOGS_PER_RUN = isRefineOnly ? MAX_REGEN_PER_RUN : (MAX_NEW_PER_RUN + MAX_REGEN_PER_RUN);
 
-    // Smart slot allocation: new topics get first 3 slots, refinements get next 3
-    // This ensures refinements are never crowded out by new topic overflow
-    const newQueue = queue.filter((item: any) => !item.isRegeneration).slice(0, MAX_NEW_PER_RUN);
-    const regenQueue = queue.filter((item: any) => item.isRegeneration).slice(0, MAX_REGEN_PER_RUN);
+    let newQueue: any[];
+    let regenQueue: any[];
+
+    if (isRefineOnly) {
+        // --refine-only: ONLY process refinements, skip all new topics
+        newQueue = [];
+        regenQueue = queue.filter((item: any) => item.isRegeneration).slice(0, MAX_REGEN_PER_RUN);
+        console.log(`🔧 Refinement-Only Mode: Processing ${regenQueue.length} refinements (max ${MAX_REGEN_PER_RUN}, no new blogs)`);
+    } else {
+        // Normal mode: 3 new + 3 refined
+        newQueue = queue.filter((item: any) => !item.isRegeneration).slice(0, MAX_NEW_PER_RUN);
+        regenQueue = queue.filter((item: any) => item.isRegeneration).slice(0, MAX_REGEN_PER_RUN);
+    }
     queue = [...newQueue, ...regenQueue];
 
     if (newQueue.length + regenQueue.length > 0) {
