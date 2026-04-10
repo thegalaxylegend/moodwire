@@ -23,7 +23,6 @@ export const exportPremiumPDF = async (options: PDFExportOptions) => {
         userName = 'Scholar',
         userClass = 'Class 12th',
         targetYear = new Date().getFullYear(),
-        docId = 'REF-' + Math.random().toString(36).substring(2, 10).toUpperCase(),
         isExamMode = false,
         contentHtml
     } = options;

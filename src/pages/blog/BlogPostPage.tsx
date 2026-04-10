@@ -12,7 +12,6 @@ import { BlogSchema } from '../../components/blog/BlogSchema';
 import { BlogCTA } from '../../components/blog/BlogCTA';
 import { Footer } from '../../components/Footer';
 import { blogs } from '../../data/blogs'; // Re-use the metadata block
-import { SocialShare } from '../../components/SocialShare';
 import { AboutAuthor } from '../../components/seo/AboutAuthor';
 import { Breadcrumbs } from '../../components/seo/Breadcrumbs';
 import { Navbar } from '../../components/Navbar';

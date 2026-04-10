@@ -1,7 +1,8 @@
 
 import { callGroq, GROQ_KEY_COUNT } from './groq';
 import { callGemini, GEMINI_KEY_COUNT } from './gemini';
-import { MODELS, WATERFALL_CHAINS, TaskTier, Provider } from './routingConfig';
+import { MODELS, WATERFALL_CHAINS } from './routingConfig';
+import type { TaskTier, Provider } from './routingConfig';
 
 interface UsageStats {
   requests: number;

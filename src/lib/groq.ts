@@ -2,7 +2,6 @@
 import Groq from "groq-sdk";
 
 let _groqClients: (Groq | null)[] = [];
-const deadKeyIndices = new Set<number>();
 
 const getEnvKeys = () => {
     const env = (typeof import.meta !== 'undefined' && import.meta.env) ? import.meta.env : (typeof process !== 'undefined' ? process.env : {});
