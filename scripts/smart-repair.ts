@@ -35,6 +35,8 @@ import { extractTextFromImage } from './utils/ocr-tool.ts';
 import { fetchWikiSummary, buildWikiCallout } from './utils/wikipedia-enricher.ts';
 import { buildChemistryTable } from './utils/pubchem-verifier.ts';
 import { findAcademicPapers, buildCitationSection } from './utils/openalex-citations.ts';
+import { fetchExamNews, buildNewsBlock } from './utils/news-api.ts';
+import { fetchSearchIntelligence, buildPAAContext } from './utils/serper-api.ts';
 
 const GROQ_KEYS = [
     process.env.VITE_GROQ_API_KEY || process.env.GROQ_API_KEY,
@@ -141,7 +143,7 @@ async function generateWithGemini(systemPrompt: string, userPrompt: string, isJs
         const generationConfig: any = { maxOutputTokens: 2500, temperature: 0.7 };
         if (isJson) generationConfig.responseMimeType = "application/json";
 
-        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${key}`, {
+        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=${key}`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
@@ -501,6 +503,54 @@ async function repairBlog(filePath: string, isDryRun: boolean, canUseAi: boolean
                 body += citationSection;
             }
             fixes.push(`Added ${papers.length} OpenAlex academic citations`);
+        }
+    }
+
+    // ========= FIX 12: Live Exam Pulse Injection (Freshness Signal) =========
+    // Scans for 'hot' exam topics (JEE, NEET, CBSE) and fetches recent headlines.
+    const isHotTopic = /jee|neet|cbse|board|exam|result|registration|syllabus/i.test(title + slug);
+    if (canUseGrammar && isHotTopic && !body.includes('Live Exam Pulse')) {
+        const headlines = await fetchExamNews(title);
+        if (headlines.length > 0) {
+            const newsBlock = buildNewsBlock(headlines);
+            // Append to bottom, just above the citations or footer
+            const anchor = body.includes('## 📚 Academic References') ? '## 📚 Academic References' : '---';
+            const splitIdx = body.lastIndexOf(anchor);
+            if (splitIdx !== -1) {
+                body = body.substring(0, splitIdx) + newsBlock + '\n\n' + body.substring(splitIdx);
+            } else {
+                body += newsBlock;
+            }
+            fixes.push(`Injected Live Exam Pulse with ${headlines.length} headlines`);
+        }
+    }
+
+    // ========= FIX 13: SEO FAQ Enrichment (Serper.dev Intelligence) =========
+    // Fetches real 'People Also Ask' from Google to generate grounded FAQs.
+    // Only runs if the blog doesn't already have an FAQ section.
+    if (canUseAi && !body.includes('Frequently Asked Questions') && !body.includes('## FAQ')) {
+        console.log(`🕵️ SEO Scout: Fetching Google PAA intelligence for ${slug}...`);
+        const intel = await fetchSearchIntelligence(title);
+        if (intel && intel.peopleAlsoAsk.length > 0) {
+            const paaContext = buildPAAContext(intel);
+            const faqRepair = await callLlm(
+                "You are an SEO expert. Generate a structured 'Frequently Asked Questions' section based on real Google 'People Also Ask' data. Keep answers crisp and academic.",
+                `${paaContext}\nTopic: ${title}. Return JSON: {"body": "markdown faq section with h2"}`
+            );
+            if (faqRepair) {
+                const parsed = godSafeParse(faqRepair);
+                if (parsed?.body) {
+                    // Inject before references/news
+                    const anchor = body.includes('## 📡 Live Exam') ? '## 📡 Live Exam' : (body.includes('## 📚 Academic') ? '## 📚 Academic' : '---');
+                    const splitIdx = body.lastIndexOf(anchor);
+                    if (splitIdx !== -1) {
+                        body = body.substring(0, splitIdx) + `\n\n${parsed.body}\n\n` + body.substring(splitIdx);
+                    } else {
+                        body += `\n\n${parsed.body}`;
+                    }
+                    fixes.push('Enriched blog with Google-grounded FAQ section');
+                }
+            }
         }
     }
 

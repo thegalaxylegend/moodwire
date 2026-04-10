@@ -1,35 +1,61 @@
-import { callGroq } from './groq';
+
 import { callOpenAI, getOpenAIClient } from './openai';
-import { callGemini } from './gemini';
 import { buildSystemPrompt } from './systemPrompt';
 import type { UserProfile, TestResult } from './systemPrompt';
 import { getImportantMemories, extractAndSaveMemory } from './memoryExtractor';
-export type AIProvider = 'groq' | 'openai' | 'gemini';
+import { modelRouter } from './modelRouter';
+import type { TaskTier } from './routingConfig';
+
+export type AIProvider = 'groq' | 'openai' | 'gemini' | 'auto';
 
 /**
- * 🛠️ Formats raw API errors into human-readable strings.
- * Detects 429 Rate Limits and parses "retry in" strings.
+ * 🧠 Refined Academic Complexity Detection.
+ * Maps input text to Task Tiers T1-T5.
  */
+function detectTier(text: string, hasImage: boolean, context: string = ''): TaskTier {
+    if (hasImage) return 'T4'; // Vision usually requires reasoning
+    
+    const lowText = (text + ' ' + context).toLowerCase();
+    
+    // T5: Expert / Advanced STEM
+    const expertKeywords = [
+        'derive', 'proof', 'advanced', 'jee advanced', 'organic mechanism', 
+        'schrodinger', 'calculus', 'integration by parts', 'maxwell'
+    ];
+    if (expertKeywords.some(k => lowText.includes(k))) return 'T5';
+
+    // T4: Complex / High-school STEM
+    const complexKeywords = [
+        'calculate', 'solve', 'physics', 'chemistry', 'mathematics',
+        '\\frac', '\\sqrt', '\\sum', '\\int', '$', 'formula', 'stoichiometry'
+    ];
+    const numCount = (text.match(/\d/g) || []).length;
+    if (complexKeywords.some(k => lowText.includes(k)) || numCount > 15) return 'T4';
+
+    // T1: Trivial (Check for intent)
+    if (text.length < 30 && !lowText.includes('?')) {
+        const trivialKeywords = ['hi', 'hello', 'thanks', 'bye', 'ok', 'cool'];
+        if (trivialKeywords.some(k => lowText.includes(k))) return 'T1';
+    }
+
+    // T2: Simple (Factual)
+    if (text.length < 100 && !complexKeywords.some(k => lowText.includes(k))) return 'T2';
+
+    // Default: T3 (Moderate Academic)
+    return 'T3';
+}
+
 function formatAIError(error: any): string {
     const msg = error?.message || error?.data?.error?.message || String(error);
     const lowMsg = msg.toLowerCase();
 
-    if (lowMsg.includes('rate limit') || lowMsg.includes('429') || lowMsg.includes('resource_exhausted') || lowMsg.includes('quota')) {
-        // Extract time if present (e.g. "try again in 30.5s")
-        const timeMatch = msg.match(/(\d+\.?\d*)\s*(s|m|h)/i);
-        const timeStr = timeMatch ? ` Try again in ${timeMatch[0]}.` : "";
-        return `DAILY_LIMIT_REACHED: Your daily AI quota has been exhausted.${timeStr}`;
+    if (lowMsg.includes('rate limit') || lowMsg.includes('429') || lowMsg.includes('quota')) {
+        return "DAILY_LIMIT_REACHED: Your daily AI quota has been exhausted. Please try again tomorrow.";
     }
-
-    if (lowMsg.includes('invalid api key') || lowMsg.includes('401')) {
-        return "AUTH_ERROR: API authentication failed. Please check your keys.";
-    }
-
     return msg;
 }
 
-const CACHE_TTL = 24 * 60 * 60 * 1000; // 24 hours
-
+const CACHE_TTL = 24 * 60 * 60 * 1000;
 const getCacheKey = (question: string, context: string, history: any[]) => {
     return `ai_cache_${btoa(unescape(encodeURIComponent(question + context + JSON.stringify(history)))).slice(0, 32)}`;
 };
@@ -37,45 +63,27 @@ const getCacheKey = (question: string, context: string, history: any[]) => {
 export const askAI = async (
     context: string,
     question: string,
-    provider: AIProvider = 'groq',
+    provider: AIProvider = 'auto',
     chatHistory: { role: 'user' | 'assistant', content: string }[] = [],
     options: any = {},
     adaptiveProfile?: UserProfile,
-    _isVoiceContext: boolean = false,
+    isVoiceContext: boolean = false,
     imageBase64?: string,
     manualMemories?: string,
     testResults: TestResult[] = [],
     _onSearch?: (searching: boolean) => void
 ) => {
-    // 1. Web Search Orchestration (DISABLED TO REDUCE LOAD)
-    const webContext = "";
-    /* 
-    if (needsWebSearch(question)) {
-        if (onSearch) onSearch(true);
-        const results = await searchWeb(question);
-        if (onSearch) onSearch(false);
-        if (results) {
-            webContext = formatSearchResults(results);
-        }
-    }
-    */
-
-    // 2. Build System Persona
+    // 1. Build Persona
     const memories = manualMemories || getImportantMemories();
     let systemPersona = buildSystemPrompt({
         userProfile: adaptiveProfile || { id: 'guest', name: 'Student' },
         memories,
         testResults,
-        webContext
+        webContext: ""
     });
 
-    // Voice Context Optimization
-    if (_isVoiceContext) {
-        systemPersona += `\n\nVOICE MODE ACTIVE:
-1. Be concise but thorough if the user asks for a solution or explanation.
-2. Use natural, conversational language. Avoid long bullet points if possible.
-3. Pronounce LaTeX or formulas in plain English if they appear.
-4. Focus on the direct answer to the user's question, but provide the necessary steps for understanding.`;
+    if (isVoiceContext) {
+        systemPersona += `\nVOICE MODE: Be concise. Avoid long lists. Speak LaTeX as plain English.`;
     }
 
     const fullMessages = [
@@ -88,12 +96,11 @@ export const askAI = async (
         ...chatHistory.map(m => ({ role: m.role, content: m.content })),
     ];
 
-    // Handle Vision
     if (imageBase64) {
         fullMessages.push({
             role: "user",
             content: [
-                { type: "text", text: question || "Solve this problem." } as any,
+                { type: "text", text: question || "Identify this image." } as any,
                 { type: "image_url", image_url: { url: imageBase64.startsWith('data:') ? imageBase64 : `data:image/png;base64,${imageBase64}` } } as any
             ]
         } as any);
@@ -101,116 +108,54 @@ export const askAI = async (
         fullMessages.push({ role: "user", content: question });
     }
 
-    // 3. Execution with Fallback Chain: Groq → Gemini → OpenAI
+    const isStream = options.stream !== false;
+    const cacheKey = getCacheKey(question, context, chatHistory);
+
+    // 2. Cache Check
+    if (!isStream && !imageBase64 && !options.noCache && question.length < 200) {
+        const cached = localStorage.getItem(cacheKey);
+        if (cached) {
+            const { response, timestamp } = JSON.parse(cached);
+            if (Date.now() - timestamp < CACHE_TTL) return response;
+        }
+    }
+
+    // 3. Routing Layer
     try {
-        const modelId = options.modelId || (imageBase64 ? "llama-3.2-11b-vision-preview" : undefined);
-        const isStream = options.stream !== false;
-        
-        // 4. Cache Check (Non-streaming only)
-        const isInternalPrompt = 
-            question.length > 200 ||
-            options.jsonMode === true ||
-            question.includes('GENERATE') ||
-            question.includes('OUTPUT FORMAT') ||
-            question.includes('JSON ONLY');
-
-        if (!isStream && !imageBase64 && !options.noCache && !isInternalPrompt) {
-            const cacheKey = getCacheKey(question, context, chatHistory);
-            const cached = localStorage.getItem(cacheKey);
-            if (cached) {
-                const { response, timestamp } = JSON.parse(cached);
-                if (Date.now() - timestamp < CACHE_TTL) {
-                    console.log("[AI] Returning cached response for:", question.slice(0, 50) + "...");
-                    if (question.length > 30) {
-                        extractAndSaveMemory(question);
-                    }
-                    return response;
-                }
-            }
-        }
-        
         let response: any;
-        if (provider === 'groq') {
-            try {
-                response = await callGroq(fullMessages as any, { 
-                    ...options, 
-                    model: modelId,
-                    stream: isStream,
-                    signal: options.signal
-                });
-            } catch (groqError: any) {
-                console.warn("[AI] Groq failed, trying Gemini fallback...", groqError?.message?.slice(0, 80));
-                // Fallback 1: Gemini
-                try {
-                    response = await callGemini(fullMessages as any, {
-                        temperature: options.temperature ?? 0.7,
-                        maxOutputTokens: options.max_tokens ?? 8192,
-                        jsonMode: options.jsonMode ?? false,
-                        stream: options.stream ?? false,
-                    });
-                } catch (geminiError: any) {
-                    console.warn("[AI] Gemini fallback failed, trying OpenAI...", geminiError?.message?.slice(0, 80));
-                    // Fallback 2: OpenAI (only if key exists)
-                    if (getOpenAIClient()) {
-                        response = await callOpenAI(fullMessages as any, { ...options, stream: isStream });
-                    } else {
-                        // No OpenAI key — rethrow the original Groq error
-                        throw groqError;
-                    }
-                }
-            }
-        } else if (provider === 'gemini') {
-            try {
-                response = await callGemini(fullMessages as any, {
-                    temperature: options.temperature ?? 0.1,
-                    maxOutputTokens: options.max_tokens ?? 8192,
-                    jsonMode: options.jsonMode ?? false,
-                    stream: options.stream ?? false,
-                    model: options.modelId || 'gemini-2.0-flash'
-                });
-            } catch (geminiError: any) {
-                console.warn("[AI] Gemini failed, falling back to Groq...", geminiError?.message?.slice(0, 80));
-                try {
-                    response = await callGroq(fullMessages as any, {
-                        ...options,
-                        model: modelId,
-                        stream: isStream
-                    });
-                } catch (groqError: any) {
-                    // Last resort: OpenAI
-                    if (getOpenAIClient()) {
-                        response = await callOpenAI(fullMessages as any, { ...options, stream: isStream });
-                    } else {
-                        throw geminiError;
-                    }
-                }
-            }
-        } else if (provider === 'openai') {
+        
+        if (provider === 'openai') {
             response = await callOpenAI(fullMessages as any, { ...options, stream: isStream });
+        } else {
+            // "auto", "groq", or "gemini" all go through the specialized ModelRouter waterfall
+            const tier = options.tier || detectTier(question, !!imageBase64, context);
+            console.log(`[AI Orchestrator] Routing task to ${tier} Waterfall...`);
+            
+            response = await modelRouter.route(fullMessages as any, tier, options);
         }
 
-        // 5. Extract content for non-streaming responses (ChatCompletion objects)
+        // 4. Formatting & Cache Save
         if (!isStream && response && typeof response !== 'string') {
-            // Non-streaming Groq/OpenAI returns { choices: [{ message: { content: "..." } }] }
-            const extractedContent = response?.choices?.[0]?.message?.content;
-            if (extractedContent) {
-                response = extractedContent;
-            }
+            response = response?.choices?.[0]?.message?.content || response;
         }
 
-        // 6. Save to Cache
-        if (!isStream && !imageBase64 && response && typeof response === 'string' && !options.noCache && !isInternalPrompt) {
-            const cacheKey = getCacheKey(question, context, chatHistory);
-            localStorage.setItem(cacheKey, JSON.stringify({
-                response,
-                timestamp: Date.now()
-            }));
+        if (!isStream && response && typeof response === 'string' && !options.noCache) {
+            localStorage.setItem(cacheKey, JSON.stringify({ response, timestamp: Date.now() }));
+            if (question.length > 50) extractAndSaveMemory(question);
         }
 
         return response;
+
     } catch (error: any) {
         const formatted = formatAIError(error);
-        console.error("All AI providers failed:", formatted);
+        
+        // Final fallback: OpenAI
+        if (getOpenAIClient() && !isStream) {
+            try {
+                return await callOpenAI(fullMessages as any, { ...options, stream: false });
+            } catch { /* Silence */ }
+        }
+        
         throw new Error(formatted);
     }
 };

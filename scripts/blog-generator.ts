@@ -15,203 +15,18 @@ import { ExternalApiService } from '../src/services/externalApiService.js';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const GROQ_KEYS = [
-    process.env.VITE_GROQ_API_KEY || process.env.GROQ_API_KEY,
-    process.env.VITE_GROQ_API_KEY_2,
-    process.env.VITE_GROQ_API_KEY_3,
-    process.env.VITE_GROQ_API_KEY_4,
-    process.env.VITE_GROQ_API_KEY_5,
-    process.env.VITE_GROQ_API_KEY_6
-].filter(Boolean) as string[];
-
-const GEMINI_KEYS = [
-    process.env.VITE_GEMINI_API_KEY || process.env.GEMINI_BACKUP_KEY,
-    process.env.VITE_GEMINI_API_KEY_2,
-    process.env.VITE_GEMINI_API_KEY_3,
-    process.env.VITE_GEMINI_API_KEY_4,
-    process.env.VITE_GEMINI_API_KEY_5,
-    process.env.VITE_GEMINI_API_KEY_6
-].filter(Boolean) as string[];
-
-let currentGroqIndex = 0;
-let currentGeminiIndex = 0;
-let groq = new Groq({ apiKey: GROQ_KEYS[0] });
-
-const GROQ_COOLDOWNS = new Map<number, number>();
-const GEMINI_COOLDOWNS = new Map<number, number>();
-const GROQ_PERMANENT_DEAD = new Set<number>();
-const GEMINI_PERMANENT_DEAD = new Set<number>();
-
-function rotateGroqKey(isPermanent = false) {
-    if (isPermanent) GROQ_PERMANENT_DEAD.add(currentGroqIndex);
-    else GROQ_COOLDOWNS.set(currentGroqIndex, Date.now() + 2 * 60 * 1000); // 2 min timeout for errors
-
-    const now = Date.now();
-    const availableIndices = GROQ_KEYS.map((_, i) => i).filter(i => 
-        !GROQ_PERMANENT_DEAD.has(i) && 
-        (GROQ_COOLDOWNS.get(i) || 0) < now
-    );
-    
-    if (availableIndices.length > 0) {
-        currentGroqIndex = availableIndices[0];
-        groq = new Groq({ apiKey: GROQ_KEYS[currentGroqIndex] });
-        console.log(`🔄 Rotating to Groq Key #${currentGroqIndex + 1} (${isPermanent ? 'Permanent' : '2min Timeout'})...`);
-        return true;
-    } else {
-        console.warn("⚠️ ALL GROQ KEYS EXHAUSTED OR IN COOLDOWN.");
-        return false;
-    }
-}
-
-/**
- * NEW: Polling strategy to check for key recovery every 2 minutes.
- * Total wait: 10 minutes (5 attempts).
- */
-async function pollForAvailableKey(): Promise<boolean> {
-    for (let i = 1; i <= 5; i++) {
-        console.log(`📡 Polling for key recovery (Attempt ${i}/5)... Waiting 2 mins.`);
-        await sleep(120000); // 2 minutes
-        const now = Date.now();
-        const available = GROQ_KEYS.map((_, idx) => idx).filter(idx => 
-            !GROQ_PERMANENT_DEAD.has(idx) && (GROQ_COOLDOWNS.get(idx) || 0) < now
-        );
-        if (available.length > 0) {
-            currentGroqIndex = available[0];
-            groq = new Groq({ apiKey: GROQ_KEYS[currentGroqIndex] });
-            console.log(`✅ Key Recovered: Groq Key #${currentGroqIndex + 1} is back online.`);
-            return true;
-        }
-    }
-    return false;
-}
-
-function rotateGeminiKey(isPermanent = false, cooldownMs = 1 * 60 * 1000) {
-    if (isPermanent) GEMINI_PERMANENT_DEAD.add(currentGeminiIndex);
-    else GEMINI_COOLDOWNS.set(currentGeminiIndex, Date.now() + cooldownMs);
-
-    const now = Date.now();
-    const availableIndices = GEMINI_KEYS.map((_, i) => i).filter(i => 
-        !GEMINI_PERMANENT_DEAD.has(i) && 
-        (GEMINI_COOLDOWNS.get(i) || 0) < now
-    );
-    
-    if (availableIndices.length > 0) {
-        currentGeminiIndex = availableIndices[0];
-        console.log(`💎 Rotating to Gemini Key #${currentGeminiIndex + 1}...`);
-        return true;
-    } else {
-        console.warn("🚨 ALL GEMINI KEYS EXHAUSTED OR IN COOLDOWN.");
-        return false;
-    }
-}
+// API Orchestration using shared NodeRouter
+import { nodeRouter } from './utils/nodeRouter.js';
+import { TaskTier } from '../src/lib/routingConfig.js';
 
 const sleep = (ms: number) => new Promise(r => setTimeout(r, ms));
 
-// --- DATE DISTRIBUTOR ---
-// To guarantee new blogs ALWAYS appear at the top of the grid, 
-// we assign them today's date rather than back-dating them.
 const getShiftedDate = () => {
     return new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
 };
 
-
-// Gemini Unified Helper (Used as secondary tier in rotation)
-async function generateWithGemini(systemPrompt: string, userPrompt: string, isJson: boolean = false): Promise<string | null> {
-    const now = Date.now();
-    
-    // 1. Proactive Rotation: If current key is cooling, find a fresh one
-    if ((GEMINI_COOLDOWNS.get(currentGeminiIndex) || 0) > now || GEMINI_PERMANENT_DEAD.has(currentGeminiIndex)) {
-        rotateGeminiKey();
-    }
-
-    const key = GEMINI_KEYS[currentGeminiIndex];
-    if (!key) return null;
-
-    try {
-        console.log(`🚀 Tier 2: Calling Gemini Pro (Key #${currentGeminiIndex + 1}) for content...`);
-        
-        const generationConfig: any = { maxOutputTokens: 2500, temperature: 0.7 };
-        if (isJson) generationConfig.responseMimeType = "application/json";
-
-        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${key}`, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-                contents: [{ 
-                    role: "user", 
-                    parts: [{ text: `${systemPrompt}\n\n${userPrompt}` }] 
-                }],
-                generationConfig
-            })
-        });
-
-        if (!response.ok) {
-            const errBody = await response.text();
-            let retryAfter = 60 * 1000; // Default 1 min
-            let isDaily = false;
-
-            try {
-                const errData = JSON.parse(errBody);
-                const quotaFailure = errData.error?.details?.find((d: any) => d["@type"]?.includes("QuotaFailure"));
-                const retryInfo = errData.error?.details?.find((d: any) => d["@type"]?.includes("RetryInfo"));
-                
-                // Detect RPD (Daily) vs RPM (Minute)
-                if (quotaFailure?.violations?.some((v: any) => v.quotaId?.includes("Day"))) {
-                    console.error("🚨 Gemini Daily Quota (RPD) Exceeded for this key.");
-                    isDaily = true;
-                }
-
-                if (retryInfo?.retryDelay) {
-                    retryAfter = parseInt(retryInfo.retryDelay.replace('s', '')) * 1000 + 2000; // Add 2s buffer
-                }
-            } catch { /* ignore parse errors */ }
-
-            console.error(`❌ Gemini Error (${response.status}) for Key #${currentGeminiIndex + 1}. Cooldown: ${Math.round(retryAfter/1000)}s`);
-            rotateGeminiKey(isDaily, retryAfter);
-            return null;
-        }
-
-        const data: any = await response.json();
-        const text = data.candidates?.[0]?.content?.parts?.[0]?.text || null;
-        if (text) console.log(`✅ Gemini content received (${text.length} chars).`);
-        return text;
-    } catch (err: any) {
-        console.error("❌ Gemini Network Error:", err.message);
-        return null;
-    }
-}
-
-async function generateWithGeminiRetry(systemPrompt: string, userPrompt: string, isJson: boolean = false): Promise<string | null> {
-    const maxKeys = GEMINI_KEYS.length;
-    
-    // Attempt through all keys once
-    for (let i = 0; i < maxKeys; i++) {
-        const result = await generateWithGemini(systemPrompt, userPrompt, isJson);
-        if (result) return result;
-    }
-
-    // If we reach here, all keys are likely in cooldown. 
-    // Find the key with the shortest remaining cooldown and WAIT.
-    const now = Date.now();
-    const cooldowns = GEMINI_KEYS.map((_, i) => ({
-        index: i,
-        remaining: (GEMINI_COOLDOWNS.get(i) || 0) - now
-    })).filter(c => !GEMINI_PERMANENT_DEAD.has(c.index));
-
-    if (cooldowns.length > 0) {
-        const shortest = cooldowns.sort((a, b) => a.remaining - b.remaining)[0];
-        if (shortest.remaining > 0) {
-            console.log(`⏳ ALL GEMINI KEYS BUSY. Waiting ${Math.round(shortest.remaining / 1000)}s for Key #${shortest.index + 1} to reset...`);
-            await sleep(shortest.remaining);
-            currentGeminiIndex = shortest.index; // Jump directly to this key
-            return await generateWithGemini(systemPrompt, userPrompt, isJson);
-        }
-    }
-
-    return null;
-}
-
 const QUEUE_FILE = path.join(__dirname, '../queue.json');
+const GROWTH_QUEUE_FILE = path.join(__dirname, '../jules-reports/growth-queue.json');
 const BLOG_RULES_FILE = path.join(__dirname, '../BLOG_RULES.md');
 const BLOG_DIR = path.join(__dirname, '../src/content/blogs');
 const IMAGE_DIR = path.join(__dirname, '../public/blog-images');
@@ -382,9 +197,6 @@ async function generateGroqSVG(subject: string, topic: string, webpPath: string)
 }
 
 async function generateGeminiImage(subject: string, topic: string, webpPath: string): Promise<boolean> {
-    const key = GEMINI_KEYS[currentGeminiIndex];
-    if (!key) return false;
-
     try {
         console.log(`🚀 Tier 2 Imaging: Asking Gemini to design SVG...`);
         const prompt = `You are an SVG generator. Output ONLY valid SVG code. No explanations, no markdown.
@@ -393,41 +205,27 @@ Create a 1200x630 SVG image for: "${topic}" (${subject}).
 Style: Dark background (#0a0a1a), neon cyan/purple accents, geometric shapes, scientific aesthetic.
 Start your response with <svg and end with </svg>. Nothing else.`;
 
-        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${key}`, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-                contents: [{ role: "user", parts: [{ text: prompt }] }],
-                generationConfig: { temperature: 0.9 }
-            })
-        });
-
-        if (!response.ok) {
-            if (response.status === 429) rotateGeminiKey();
-            return false;
+        const svg = await nodeRouter.route([{ role: "user", content: prompt }], 'T3');
+        if (!svg) return false;
+        
+        // Aggressive cleanup for valid SVG
+        let cleanSvg = svg.replace(/```(?:svg|xml|html)?\s*/gi, "").replace(/```/gi, "").trim();
+        cleanSvg = cleanSvg.replace(/^<\?xml[^>]*\?>\s*/i, ""); // strip XML declaration
+        if (cleanSvg.includes("<svg") && !cleanSvg.startsWith("<svg")) {
+            cleanSvg = cleanSvg.substring(cleanSvg.indexOf("<svg"));
         }
-
-        const data: any = await response.json();
-        let svg = data.candidates?.[0]?.content?.parts?.[0]?.text || "";
-        // Aggressive cleanup for valid SVG — handle markdown blocks, xml headers, etc
-        svg = svg.replace(/```(?:svg|xml|html)?\s*/gi, "").replace(/```/gi, "").trim();
-        svg = svg.replace(/^<\?xml[^>]*\?>\s*/i, ""); // strip XML declaration
-        if (svg.includes("<svg") && !svg.startsWith("<svg")) {
-            svg = svg.substring(svg.indexOf("<svg"));
-        }
-        // Trim anything after closing </svg>
-        const closingIdx = svg.lastIndexOf("</svg>");
+        const closingIdx = cleanSvg.lastIndexOf("</svg>");
         if (closingIdx > 0) {
-            svg = svg.substring(0, closingIdx + 6);
+            cleanSvg = cleanSvg.substring(0, closingIdx + 6);
         }
 
-        if (!svg.startsWith("<svg")) throw new Error("Invalid SVG from Gemini");
+        if (!cleanSvg.startsWith("<svg")) throw new Error("Invalid SVG from Gemini");
 
         // Ensure width/height attributes exist for sharp
-        if (!svg.includes('width=')) {
-            svg = svg.replace('<svg', '<svg width="1200" height="630"');
+        if (!cleanSvg.includes('width=')) {
+            cleanSvg = cleanSvg.replace('<svg', '<svg width="1200" height="630"');
         }
-        const safeSvg = svg.replace(/&(?![a-zA-Z0-9#]+;)/g, '&amp;');
+        const safeSvg = cleanSvg.replace(/&(?![a-zA-Z0-9#]+;)/g, '&amp;');
         const { default: sharp } = await import('sharp');
         await sharp(Buffer.from(safeSvg)).resize(1200, 630).webp({ quality: 90 }).toFile(webpPath);
         
@@ -701,57 +499,21 @@ function safelyParseJson(raw: string): any {
     }
 }
 
-async function callLlmWithFallback(system: string, user: string, isJson: boolean = false, attempt: number = 1): Promise<string | null> {
-    const isMetadata = user.includes("SEO") || user.includes("slug");
-    const primaryModel = isMetadata ? "llama-3.1-8b-instant" : "llama-3.3-70b-versatile";
+async function callLlmWithFallback(system: string, user: string, isJson: boolean = false): Promise<string | null> {
+    const isMetadata = user.includes("SEO") || user.includes("slug") || user.includes("recall");
+    const isHardScience = user.includes("Physics") || user.includes("Chemistry") || user.includes("Math") || user.includes("Formula");
+    
+    // Tiered Target Selection
+    let tier: TaskTier = isMetadata ? 'T1' : (isHardScience ? 'T4' : 'T3');
 
     try {
-        const completion = await groq.chat.completions.create({
-            messages: [{ role: "system", content: system }, { role: "user", content: user }],
-            model: primaryModel,
-            response_format: isJson ? { type: "json_object" } : undefined,
-            temperature: EVOLVED_TEMPERATURE,
-            max_tokens: 4000
+        return await nodeRouter.route([{ role: "system", content: system }, { role: "user", content: user }], tier, {
+             jsonMode: isJson,
+             temperature: EVOLVED_TEMPERATURE
         });
-        return completion.choices[0]?.message?.content || "";
     } catch (err: any) {
-        const errMsg = (err.message || "").toLowerCase();
-        
-        // 1. Handle Permanent Key Failure (401)
-        if (errMsg.includes("401") || errMsg.includes("invalid_api_key")) {
-            console.error(`❌ Groq Key #${currentGroqIndex + 1} INVALID (401). Killing key.`);
-            rotateGroqKey(true);
-            await sleep(2000); // Mandatory 2s breather
-            if (attempt <= GROQ_KEYS.length) {
-                return await callLlmWithFallback(system, user, isJson, attempt + 1);
-            }
-        }
-
-        // 2. Handle Temporary Failures (400, 429, 500, Timeout)
-        if (errMsg.includes("429") || errMsg.includes("rate_limit") || errMsg.includes("400") || errMsg.includes("500") || errMsg.includes("timeout") || errMsg.includes("overloaded")) {
-            console.warn(`⚠️ Groq Key #${currentGroqIndex + 1} Temporary Error (${errMsg.includes("429") ? "Rate Limit" : "Bad Request/Server"}).`);
-            
-            const rotated = rotateGroqKey(false);
-            if (!rotated && attempt <= GROQ_KEYS.length) {
-                // All keys are currently waiting - trigger Polling Mode
-                const recovered = await pollForAvailableKey();
-                if (recovered) return await callLlmWithFallback(system, user, isJson, attempt);
-            } else if (rotated) {
-                await sleep(2000 * attempt); // Progressive safety delay
-                return await callLlmWithFallback(system, user, isJson, attempt + 1);
-            }
-            
-            // 3. Ultimate Fallback -> Gemini Unified Tier (6 Keys)
-            console.log(`🛡️ All Groq keys saturated. Elevating to Gemini Unified Tier...`);
-            const fallbackResult = await generateWithGeminiRetry(system + (isMetadata ? "" : (isJson ? "\nEnsure valid JSON structure." : "")), user, isJson);
-            if (fallbackResult) return fallbackResult;
-
-            // If Gemini also failed (all 6 keys), trigger Hard Stop to prevent Token Burn
-            console.error(`🚨 FATAL QUOTA EXHAUSTION: Both API tiers saturated. Triggering hard stop.`);
-            process.exit(1);
-        }
-
-        throw err;
+        console.error(`🚨 Jules: Generation Tier ${tier} FAILED even after full rotation/waterfall.`);
+        return null;
     }
 }
 
@@ -979,6 +741,20 @@ async function generateBlogs() {
     let queue: any[] = [];
     if (!isRefineOnly && fs.existsSync(QUEUE_FILE)) {
         queue = JSON.parse(fs.readFileSync(QUEUE_FILE, 'utf8'));
+    }
+
+    // 1.1 Load SEO Growth Queue (High Yield Topics)
+    if (!isRefineOnly && fs.existsSync(GROWTH_QUEUE_FILE)) {
+        try {
+            const growthData = JSON.parse(fs.readFileSync(GROWTH_QUEUE_FILE, 'utf8'));
+            if (growthData?.queue) {
+                console.log(`📈 Loaded ${growthData.queue.length} Golden Topics from SEO Growth Queue.`);
+                // Merge into main queue
+                queue = [...queue, ...growthData.queue];
+            }
+        } catch (e) {
+            console.warn("⚠️ Failed to parse Growth Queue, skipping SEO topics.");
+        }
     }
 
     // 2. Load Refinement (Decay) Queue

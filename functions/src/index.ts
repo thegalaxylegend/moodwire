@@ -7,9 +7,23 @@ admin.initializeApp();
 
 const db = admin.firestore();
 
-// We'll use environment variables or Secret Manager for keys in production.
-// For this implementation, we'll look for them in the process environment.
-// Users should set these using 'firebase functions:secrets:set' or environment variables.
+// 6-Key Rotation Logic for Serverless
+const getRotatedKey = (provider: "groq" | "gemini"): string => {
+    const keys = [];
+    const baseKey = provider === "groq" ? "GROQ_API_KEY" : "GEMINI_API_KEY";
+    
+    // Check primary and _2 to _6
+    const primary = process.env[baseKey];
+    if (primary) keys.push(primary);
+    
+    for (let i = 2; i <= 6; i++) {
+        const key = process.env[`${baseKey}_${i}`];
+        if (key) keys.push(key);
+    }
+    
+    if (keys.length === 0) return "";
+    return keys[Math.floor(Math.random() * keys.length)];
+};
 
 export const generateAIResponse = functions.https.onCall(async (data: any, context: functions.https.CallableContext) => {
     // 1. Authentication Check
@@ -32,8 +46,7 @@ export const generateAIResponse = functions.https.onCall(async (data: any, conte
 
     try {
         if (provider === "groq") {
-            // In a real environment, you'd rotate keys or use a pool here too.
-            const apiKey = process.env.GROQ_API_KEY;
+            const apiKey = getRotatedKey("groq");
             if (!apiKey) throw new Error("GROQ_API_KEY not set on server.");
 
             const groq = new Groq({ apiKey });
@@ -70,7 +83,7 @@ export const generateAIResponse = functions.https.onCall(async (data: any, conte
         }
 
         if (provider === "gemini") {
-            const apiKey = process.env.GEMINI_API_KEY;
+            const apiKey = getRotatedKey("gemini");
             if (!apiKey) throw new Error("GEMINI_API_KEY not set on server.");
 
             const genAI = new GoogleGenerativeAI(apiKey);

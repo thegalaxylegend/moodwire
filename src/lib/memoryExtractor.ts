@@ -1,4 +1,4 @@
-import { callGroq } from './groq';
+import { modelRouter } from './modelRouter';
 import { extractJSON } from './utils';
 
 export async function extractAndSaveMemory(message: string): Promise<string[]> {
@@ -14,14 +14,13 @@ export async function extractAndSaveMemory(message: string): Promise<string[]> {
     `;
 
     try {
-        const completion = await callGroq([{ role: "user", content: extractionPrompt }], {
-            model: "llama-3.1-8b-instant",
+        const response = await modelRouter.route([{ role: "user", content: extractionPrompt }], 'T1', {
             temperature: 0,
             max_tokens: 500,
             stream: false
         });
 
-        const content = (completion as any).choices[0]?.message?.content || "[]";
+        const content = (typeof response === 'string' ? response : response?.choices?.[0]?.message?.content) || "[]";
         let facts: string[] = [];
         try {
             const data = extractJSON(content);

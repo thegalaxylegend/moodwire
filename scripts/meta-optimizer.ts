@@ -12,8 +12,8 @@
 
 import fs from 'fs';
 import path from 'path';
-import { GoogleGenerativeAI } from '@google/generative-ai';
 import { fileURLToPath } from 'url';
+import { nodeRouter } from './utils/nodeRouter.js';
 import dotenv from 'dotenv';
 
 dotenv.config();
@@ -24,13 +24,6 @@ const __dirname = path.dirname(__filename);
 const INTELLIGENCE_FILE = path.join(__dirname, '../jules-reports/search-intelligence.json');
 const BLOGS_DIR = path.join(__dirname, '../src/content/blogs');
 const LOG_FILE = path.join(__dirname, '../jules-reports/seo-optimization-log.json');
-
-// Initialize Gemma 4
-const genAI = new GoogleGenerativeAI(process.env.VITE_GEMINI_API_KEY || '');
-const model = genAI.getGenerativeModel({ 
-    model: 'gemini-2.0-flash',
-    generationConfig: { responseMimeType: "application/json" }
-});
 
 async function optimizeMeta(url: string, data: any) {
     const slug = url.split('/').pop() || '';
@@ -72,10 +65,11 @@ OUTPUT FORMAT (JSON ONLY):
     console.log(`🤖 Optimizing [${slug}] for query: "${data.topQuery}"...`);
 
     try {
-        const result = await model.generateContent(prompt);
-        const responseText = result.response.text().trim();
-        const cleanedJson = responseText.replace(/```json|```/g, '');
-        const optimized = JSON.parse(cleanedJson);
+        const responseText = await nodeRouter.route([{ role: "user", content: prompt }], 'T2', { 
+            jsonMode: true 
+        });
+        
+        const optimized = JSON.parse(responseText);
 
         // Update frontmatter
         const updatedFrontmatter = frontmatter

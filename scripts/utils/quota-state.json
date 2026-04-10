@@ -1,0 +1,22 @@
+{
+  "llama-3.1-8b-instant_0": {
+    "requests": 1,
+    "lastReset": 1775838608221
+  },
+  "llama-3.1-8b-instant_1": {
+    "requests": 1,
+    "lastReset": 1775838608365
+  },
+  "llama-3.1-8b-instant_2": {
+    "requests": 1,
+    "lastReset": 1775838608502
+  },
+  "llama-3.1-8b-instant_3": {
+    "requests": 1,
+    "lastReset": 1775838608647
+  },
+  "llama-3.1-8b-instant_4": {
+    "requests": 1,
+    "lastReset": 1775838608803
+  }
+}

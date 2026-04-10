@@ -33,7 +33,7 @@ async function testGroqKeys() {
 }
 
 async function testGeminiKeys() {
-    console.log('\n--- Testing Gemini Keys ---');
+    console.log('\n--- Testing Gemini 2.5 Series ---');
     const keys = [
         process.env.VITE_GEMINI_API_KEY,
         process.env.VITE_GEMINI_API_KEY_2,
@@ -43,15 +43,25 @@ async function testGeminiKeys() {
         process.env.VITE_GEMINI_API_KEY_6,
     ].filter(Boolean) as string[];
 
+    const models = [
+        { id: 'gemini-2.5-pro', name: 'Pro' },
+        { id: 'gemini-2.5-flash', name: 'Flash' },
+        { id: 'gemini-2.5-flash-lite', name: 'Flash-Lite' }
+    ];
+
     for (let i = 0; i < keys.length; i++) {
+        console.log(`\n🔑 Key #${i + 1}:`);
         const genAI = new GoogleGenerativeAI(keys[i]);
-        try {
-            const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
-            const start = Date.now();
-            await model.generateContent('hi');
-            console.log(`✅ Gemini Key #${i + 1}: Working (${Date.now() - start}ms)`);
-        } catch (err: any) {
-            console.log(`❌ Gemini Key #${i + 1}: Failed - ${err.message?.slice(0, 100)}`);
+        
+        for (const modelInfo of models) {
+            try {
+                const model = genAI.getGenerativeModel({ model: modelInfo.id });
+                const start = Date.now();
+                await model.generateContent('ping');
+                console.log(`   ✅ ${modelInfo.name}: Working (${Date.now() - start}ms)`);
+            } catch (err: any) {
+                console.log(`   ❌ ${modelInfo.name}: Failed - ${err.message?.slice(0, 100)}`);
+            }
         }
     }
 }

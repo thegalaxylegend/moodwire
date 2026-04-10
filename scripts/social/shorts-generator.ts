@@ -11,11 +11,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { config } from 'dotenv';
-// Load environment variables for the standalone script
-config({ path: path.join(path.dirname(fileURLToPath(import.meta.url)), '../../.env') });
-
-import { GoogleGenerativeAI } from '@google/generative-ai';
+import { nodeRouter } from '../utils/nodeRouter.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -25,15 +21,6 @@ const OUTPUT_DIR = path.join(__dirname, '../../social-output/shorts');
 const BASE_URL = 'https://examcompass.pages.dev';
 
 async function generateScriptWithAI(slug: string, content: string): Promise<string | null> {
-    const apiKey = process.env.VITE_GEMINI_API_KEY;
-    if (!apiKey) {
-        console.error("❌ VITE_GEMINI_API_KEY is missing in .env");
-        return null;
-    }
-
-    const genAI = new GoogleGenerativeAI(apiKey);
-    const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
-
     const prompt = `
     You are an expert YouTube Shorts and TikTok content creator specialized in EdTech.
     Your objective is to convert the following academic study material into an engaging, 
@@ -52,8 +39,8 @@ async function generateScriptWithAI(slug: string, content: string): Promise<stri
     `;
 
     try {
-        const result = await model.generateContent(prompt);
-        return result.response.text();
+        console.log(`🎬 Requesting High-Energy Script Generator (Tier: T3)...`);
+        return await nodeRouter.route([{ role: "user", content: prompt }], 'T3');
     } catch (e: any) {
         console.error(`❌ AI Generation failed for ${slug}:`, e.message);
         return null;

@@ -194,10 +194,10 @@ OUTPUT (JSON ONLY):
 
     try {
         const response = await withTimeout(
-            askAI("Senior Physics, Chemistry & Mathematics Professor. Strict accuracy auditor. JSON ONLY.", verificationPrompt, 'groq', [], {
+            askAI("Senior Physics, Chemistry & Mathematics Professor. Strict accuracy auditor. JSON ONLY.", verificationPrompt, 'auto', [], {
                 jsonMode: true,
-                modelId: 'llama-3.3-70b-versatile',
-                temperature: 0.0,  // Maximum determinism for verification
+                tier: 'T5', // Expert Verifier
+                temperature: 0.0,
                 stream: false,
                 max_tokens: 2000
             }),
@@ -426,11 +426,11 @@ If they don't match, YOUR OUTPUT IS INVALID and will be rejected.
             const response = await withTimeout(
                 askAI(
                     `You are a Senior ${subject} Professor with 20 years of JEE/NEET paper-setting experience. You MUST solve every problem completely before stating the answer. Use ONLY standard NCERT-aligned formulas. JSON ONLY.`,
-                    generationPrompt, 'groq', [], {
+                    generationPrompt, 'auto', [], {
                     jsonMode: true,
                     stream: false,
                     max_tokens: 2500,
-                    modelId: 'llama-3.3-70b-versatile',
+                    tier: 'T4', // Complex Generator
                     temperature: 0.6
                 }),
                 45000 // 45s timeout for generation
