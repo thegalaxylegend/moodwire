@@ -1,14 +1,14 @@
 ---
 heroImage: "/blog-images/electrostatics-class-12-revision-notes-jee-neet.webp"
-title: "Electrostatics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Electrostatics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Electrostatics Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide"
+description: "Electrostatics Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/biology/electrostatics-class-12-revision-notes-jee-neet"
 ---
 
 
-![Electrostatics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/electrostatics-class-12-revision-notes-jee-neet.webp)
+![Electrostatics Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/electrostatics-class-12-revision-notes-jee-neet.webp)
 
 *Last Updated: 2026-03-28*
 
@@ -31,7 +31,7 @@ practice_link: "/class-11/biology/electrostatics-class-12-revision-notes-jee-nee
 - [📚 Related Topics](#-related-topics)
 
 
-# Electrostatics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide
+# Electrostatics Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide
 
 
 
@@ -289,9 +289,9 @@ D W = q^2V
 
 Continue your revision with these related guides:
 
-- 📖 [Magnetic Effects of Current Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetic-effects-of-current-class-12-notes)
+- 📖 [Magnetic Effects of Current Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetic-effects-of-current-class-12-notes)
 - 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-and-combinations-class-11-revision-notes-jee)
-- 📖 [Electromagnetic Induction Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
+- 📖 [Electromagnetic Induction Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
 - 📖 [Limits and Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/limits-and-derivatives-class-11-revision-notes-jee)
 
 
@@ -310,7 +310,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 Continue your revision with these related guides:
 
-- 📖 [Magnetic Effects of Current Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetic-effects-of-current-class-12-notes)
+- 📖 [Magnetic Effects of Current Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetic-effects-of-current-class-12-notes)
 - 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-and-combinations-class-11-revision-notes-jee)
-- 📖 [Wave Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/wave-optics-class-12-notes)
-- 📖 [Electromagnetic Induction Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
+- 📖 [Wave Optics Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/wave-optics-class-12-notes)
+- 📖 [Electromagnetic Induction Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)

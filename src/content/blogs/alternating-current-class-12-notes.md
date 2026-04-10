@@ -1,14 +1,14 @@
 ---
 heroImage: "/blog-images/alternating-current-class-12-notes.webp"
-title: "Alternating Current Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Alternating Current Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Alternating Current Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide"
+description: "Alternating Current Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/biology/alternating-current-class-12-notes"
 ---
 
 
-![Alternating Current Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/alternating-current-class-12-notes.webp)
+![Alternating Current Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/alternating-current-class-12-notes.webp)
 
 *Last Updated: 2026-03-28*
 
@@ -31,7 +31,7 @@ practice_link: "/class-11/biology/alternating-current-class-12-notes"
 - [📚 Related Topics](#-related-topics)
 
 
-# Alternating Current Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide
+# Alternating Current Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide
 
 
 
@@ -383,10 +383,10 @@ Pulse Width Modulation
 
 Continue your revision with these related guides:
 
-- 📖 [Magnetic Effects of Current Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetic-effects-of-current-class-12-notes)
-- 📖 [Wave Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/wave-optics-class-12-notes)
-- 📖 [Electromagnetic Induction Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
-- 📖 [Magnetism and Matter Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetism-and-matter-class-12-notes)
+- 📖 [Magnetic Effects of Current Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetic-effects-of-current-class-12-notes)
+- 📖 [Wave Optics Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/wave-optics-class-12-notes)
+- 📖 [Electromagnetic Induction Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
+- 📖 [Magnetism and Matter Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetism-and-matter-class-12-notes)
 
 
 ---
@@ -404,7 +404,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 Continue your revision with these related guides:
 
-- 📖 [Wave Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/wave-optics-class-12-notes)
-- 📖 [Magnetic Effects of Current Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetic-effects-of-current-class-12-notes)
-- 📖 [Electromagnetic Induction Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
-- 📖 [Magnetism and Matter Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetism-and-matter-class-12-notes)
+- 📖 [Wave Optics Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/wave-optics-class-12-notes)
+- 📖 [Magnetic Effects of Current Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetic-effects-of-current-class-12-notes)
+- 📖 [Electromagnetic Induction Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
+- 📖 [Magnetism and Matter Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetism-and-matter-class-12-notes)

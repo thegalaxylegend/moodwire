@@ -368,5 +368,9 @@ Continue your revision with these related guides:
 
 - 📖 [Upsc Optional Selection Guide Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee)
 - 📖 [Application of Derivatives Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
-- 📖 [Atoms Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/atoms-class-12-notes)
+- 📖 [Atoms Class 12 Upsc Optional Selection Guide"
+   
+
+
+![UPSC Optional Selection Guide 2026 Class 12 Political Science Revision — CBSE 2026 Grandmaster Guide]( Recap — CBSE Boards 2026 Grandmaster Guide](/blog/atoms-class-12-notes)
 - 📖 [Biodiversity and Conservation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)

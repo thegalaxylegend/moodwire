@@ -217,7 +217,7 @@ The Binomial Theorem simplifies what could otherwise be a mathematical nightmare
 Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/conic-sections-class-11-revision-notes-jee)
-- 📖 [Mechanical Properties Of Fluids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet)
+- 📖 [Mechanical Properties Of Fluids Class 11 Mathematics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet)
 - 📖 [Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-combinations-class-11-revision-notes-jee)
 - 📖 [Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-class-11-revision-notes-jee)
 
@@ -238,6 +238,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/conic-sections-class-11-revision-notes-jee)
-- 📖 [Mechanical Properties Of Fluids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet)
-- 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
-- 📖 [Limits Derivatives Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/limits-derivatives-class-11-revision-notes-jee-neet)
+- 📖 [Mechanical Properties Of Fluids Class 11 Mathematics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet)
+- 📖 [Laws Of Motion Class 11 Mathematics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
+- 📖 [Limits Derivatives Class 11 Mathematics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/limits-derivatives-class-11-revision-notes-jee-neet)

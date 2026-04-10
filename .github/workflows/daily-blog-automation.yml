@@ -102,7 +102,8 @@ jobs:
           HF_API_TOKEN: ${{ secrets.HF_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-        run: npx tsx scripts/blog-generator.ts --refine-only | tee -a run.log
+        # run: npx tsx scripts/blog-generator.ts --refine-only | tee -a run.log
+        run: echo "Skipping full regeneration in favor of smart-repair refinement."
 
       - name: Task 2.2 - Sync Blog Registry
         run: |
@@ -124,7 +125,8 @@ jobs:
           VITE_GEMINI_API_KEY_4: ${{ secrets.VITE_GEMINI_API_KEY_4 }}
           VITE_GEMINI_API_KEY_5: ${{ secrets.VITE_GEMINI_API_KEY_5 }}
           VITE_GEMINI_API_KEY_6: ${{ secrets.VITE_GEMINI_API_KEY_6 }}
-        run: npx tsx scripts/patch-generator.ts
+        # run: npx tsx scripts/patch-generator.ts
+        run: echo "Skipping patch-generator in favor of smart-repair."
 
       - name: Task 3 - Sync Firestore
         id: firestore_sync

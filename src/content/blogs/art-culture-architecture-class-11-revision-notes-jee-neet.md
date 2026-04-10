@@ -1,14 +1,14 @@
 ---
 heroImage: "/blog-images/art-culture-architecture-class-11-revision-notes-jee-neet.webp"
-title: "Art Culture Architecture Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Art Culture Architecture Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Art Culture Architecture Class 11 Chemistry Revision — CBSE Boards 2026 Grandmaster Guide"
+description: "Art Culture Architecture Class 11 Chemistry Revision — CBSE Boards 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/chemistry/art-culture-architecture-class-11-revision-notes-jee-neet"
 ---
 
 
-![Art Culture Architecture Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/art-culture-architecture-class-11-revision-notes-jee-neet.webp)
+![Art Culture Architecture Class 11 Chemistry Revision — CBSE Boards 2026 Grandmaster Guide](/blog-images/art-culture-architecture-class-11-revision-notes-jee-neet.webp)
 
 *Last Updated: 2026-03-28*
 
@@ -27,7 +27,7 @@ practice_link: "/class-11/chemistry/art-culture-architecture-class-11-revision-n
 - [📚 Related Topics](#-related-topics)
 
 
-# Art Culture Architecture Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide
+# Art Culture Architecture Class 11 Chemistry Revision — CBSE Boards 2026 Grandmaster Guide
 
 
 
@@ -123,7 +123,7 @@ By focusing on these key concepts, formulae, and trap exceptions, you'll be well
 
 Continue your [revision](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) with these related guides:
 
-- 📖 [Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)
+- 📖 [Ray Optics Class 12 Chemistry Revision — CBSE Boards 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)
 - 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)
 - 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
 - 📖 [Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)
@@ -144,7 +144,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 Continue your [revision](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) with these related guides:
 
-- 📖 [Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)
+- 📖 [Ray Optics Class 12 Chemistry Revision — CBSE Boards 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)
 - 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)
 - 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
 - 📖 [Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)

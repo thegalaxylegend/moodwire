@@ -184,8 +184,8 @@ As I complete my review of biogeography, I am reminded of the importance of this
 
 Continue your [revision](/blog/moving-charges-magnetism-class-11-revision-notes-neet) with these related guides:
 
-- 📖 [Art Culture Architecture Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/art-culture-architecture-class-11-revision-notes-jee-neet)
-- 📖 [Oceanography Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oceanography-class-11-revision-notes-jee-neet)
+- 📖 [Art Culture Architecture Class 11 Chemistry Revision — CBSE Boards 2026 Grandmaster Guide](/blog/art-culture-architecture-class-11-revision-notes-jee-neet)
+- 📖 [Oceanography Class 11 Biology Revision — CBSE Boards 2026 Grandmaster Guide](/blog/oceanography-class-11-revision-notes-jee-neet)
 - 📖 [Agriculture Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/agriculture-class-11-revision-notes-neet)
 - 📖 [Body Fluids And Circulation Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/body-fluids-and-circulation-class-11-revision-notes-neet)
 
@@ -205,7 +205,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 Continue your [revision](/blog/moving-charges-magnetism-class-11-revision-notes-neet) with these related guides:
 
-- 📖 [Art Culture Architecture Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/art-culture-architecture-class-11-revision-notes-jee-neet)
+- 📖 [Art Culture Architecture Class 11 Chemistry Revision — CBSE Boards 2026 Grandmaster Guide](/blog/art-culture-architecture-class-11-revision-notes-jee-neet)
 - 📖 [Current Electricity Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/current-electricity-class-11-revision-notes-neet)
 - 📖 [Moving Charges Magnetism Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/moving-charges-magnetism-class-11-revision-notes-neet)
-- 📖 [Oceanography Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oceanography-class-11-revision-notes-jee-neet)
+- 📖 [Oceanography Class 11 Biology Revision — CBSE Boards 2026 Grandmaster Guide](/blog/oceanography-class-11-revision-notes-jee-neet)

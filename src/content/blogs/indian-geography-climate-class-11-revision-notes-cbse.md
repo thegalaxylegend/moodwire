@@ -103,7 +103,11 @@ The core concepts of climate include **atmospheric circulation**, **ocean curren
 Continue your [revision](/blog/fundamental-rights-class-11-revision-notes-cbse) with these related guides:
 
 - 📖 [Fundamental Rights Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/fundamental-rights-class-11-revision-notes-cbse)
-- 📖 [Indian Geography Physical Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/indian-geography-physical-class-11-revision-notes-jee-neet)
+- 📖 [Indian Geography Physical Class 11 Indian Geography Climate Class 11 Revision Notes Cbse"
+   
+
+
+![Indian Geography Climate Class 11 Geography Recap — CBSE 2026 Quick Guide]( Revision — CBSE Boards 2026 Grandmaster Guide](/blog/indian-geography-physical-class-11-revision-notes-jee-neet)
 - 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)
 - 📖 [Constitutional Framework Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/constitutional-framework-class-11-revision-notes-cbse)
 
@@ -123,7 +127,11 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 Continue your [revision](/blog/constitutional-framework-class-11-revision-notes-cbse) with these related guides:
 
-- 📖 [Indian Geography Physical Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/indian-geography-physical-class-11-revision-notes-jee-neet)
+- 📖 [Indian Geography Physical Class 11 Indian Geography Climate Class 11 Revision Notes Cbse"
+   
+
+
+![Indian Geography Climate Class 11 Geography Recap — CBSE 2026 Quick Guide]( Revision — CBSE Boards 2026 Grandmaster Guide](/blog/indian-geography-physical-class-11-revision-notes-jee-neet)
 - 📖 [Fundamental Rights Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/fundamental-rights-class-11-revision-notes-cbse)
 - 📖 [Constitutional Framework Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/constitutional-framework-class-11-revision-notes-cbse)
 - 📖 [Federalism Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/federalism-class-11-revision-notes-cbse)

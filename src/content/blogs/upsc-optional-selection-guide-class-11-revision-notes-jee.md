@@ -141,7 +141,7 @@ Continue your revision with these related guides:
 
 - 📖 [Pick the Best UPSC Optional Subject 2026 Guide](/blog/upsc-optional-selection-guide)
 - 📖 [State Scholarship Guide 2026 Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)
-- 📖 [Jee Mains High Weightage Chapters Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)
+- 📖 [Jee Mains High Weightage Chapters Class 11 Mathematics Revision — CBSE Boards 2026 Grandmaster Guide](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)
 - 📖 [Class 10 30 Day Timetable Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/class-10-30-day-timetable-class-10-revision-notes-jee)
 
 
@@ -162,5 +162,5 @@ Continue your revision with these related guides:
 
 - 📖 [UPSC Optional Selection Guide 2026 Class 12 Political Science Revision — CBSE 2026 Grandmaster Guide](/blog/upsc-optional-selection-guide)
 - 📖 [State Scholarship Guide 2026 Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)
-- 📖 [Jee Mains High Weightage Chapters Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)
+- 📖 [Jee Mains High Weightage Chapters Class 11 Mathematics Revision — CBSE Boards 2026 Grandmaster Guide](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)
 - 📖 [Class 10 30 Day Timetable Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/class-10-30-day-timetable-class-10-revision-notes-jee)

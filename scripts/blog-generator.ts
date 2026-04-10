@@ -895,7 +895,10 @@ async function generateBlogs() {
                         'Mathematics': 'JEE', 'Biology': 'NEET',
                         'Computer Science': 'GATE & Boards',
                         'Science': 'CBSE Boards', 'Social Science': 'CBSE Boards',
-                        'English': 'CBSE Boards'
+                        'English': 'CBSE Boards',
+                        'History': 'CBSE Boards', 'Geography': 'CBSE Boards',
+                        'Civics': 'CBSE Boards', 'Economics': 'CBSE Boards',
+                        'Political Science': 'CBSE Boards'
                     };
                     const examTag = numericClass >= 11
                         ? (SUBJECT_EXAM[item.subject] || 'CBSE')
@@ -920,6 +923,8 @@ async function generateBlogs() {
                         "Computer Science": "/class-11/computer-science",
                         "Science": "/class-10/science",
                         "English": "/class-10/english",
+                        "Business Studies": "/class-12/business-studies",
+                        "Accountancy": "/class-12/accountancy",
                     };
 
                     const practiceBase = PRACTICE_LINK_MAP[item.subject] ?? `/class-${numericClass}/${item.subject.toLowerCase().replace(/ /g, '-')}`;

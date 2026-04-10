@@ -154,5 +154,9 @@ Continue your revision with these related guides:
 
 - 📖 [Federalism Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/federalism-class-11-revision-notes-cbse)
 - 📖 [Fundamental Rights Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/fundamental-rights-class-11-revision-notes-cbse)
-- 📖 [Indian Geography Physical Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/indian-geography-physical-class-11-revision-notes-jee-neet)
+- 📖 [Indian Geography Physical Class 11 Constitutional Framework Class 11 Revision Notes Cbse"
+   
+
+
+![Constitutional Framework Class 11 Social Science Recap — CBSE 2026 Quick Guide]( Revision — CBSE Boards 2026 Grandmaster Guide](/blog/indian-geography-physical-class-11-revision-notes-jee-neet)
 - 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)

@@ -8,8 +8,8 @@ const __dirname = path.dirname(__filename);
 import { SYLLABUS_DB } from '../src/lib/constants.js';
 
 // Flatten the SYLLABUS_DB into a list that covers all topics
-// We'll organize it based on the user's requested order: 11, 12, 10, 9, 8, 7, 6, then others.
-const CLASS_ORDER = ["Class 11", "Class 12", "Class 10", "Class 9", "Class 8", "Class 7", "Class 6"];
+// We'll organize it based on the user's requested order: 11, 12, 10, 9, 8.
+const CLASS_ORDER = ["Class 11", "Class 12", "Class 10", "Class 9", "Class 8"];
 
 function getFullSyllabus() {
     const list: any[] = [];

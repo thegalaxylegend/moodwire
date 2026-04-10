@@ -554,6 +554,40 @@ async function repairBlog(filePath: string, isDryRun: boolean, canUseAi: boolean
         }
     }
 
+    // ========= FIX 14: Deduplication & Empty Content Cleanup =========
+    // 1. Remove duplicate "Related Topics" sections
+    const relatedSectionRegex = /\n\n---\n\n## (📚 )?Related Topics[\s\S]*?(?=\n\n---\n\n##|$)/gi;
+    const relatedMatches = [...body.matchAll(relatedSectionRegex)];
+    if (relatedMatches.length > 1) {
+        // Keep only the last match (usually the most updated) and remove others
+        for (let i = 0; i < relatedMatches.length - 1; i++) {
+            body = body.replace(relatedMatches[i][0], '');
+        }
+        fixes.push('Removed duplicate "Related Topics" sections');
+    }
+
+    // 2. Remove duplicate "curated by Jules" signatures
+    const signatureRegex = /\n\s*---\s*\n\*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush\.\*/gi;
+    const sigMatches = body.match(signatureRegex);
+    if (sigMatches && sigMatches.length > 1) {
+        let first = true;
+        body = body.replace(signatureRegex, (match) => {
+            if (first) { first = false; return match; }
+            return "";
+        });
+        fixes.push(`Deduplicated Jules footers (removed ${sigMatches.length - 1} extras)`);
+    }
+
+    // 3. Clean up empty/broken LaTeX blocks like $$$$ or $ $
+    const emptyLatexRegex = /\$\$\s*\$\$|\$\s*\$/g;
+    if (emptyLatexRegex.test(body)) {
+        body = body.replace(emptyLatexRegex, '');
+        fixes.push('Cleaned up empty LaTeX blocks');
+    }
+
+    // 4. Final Body Polish: Remove triple newlines
+    body = body.replace(/\n{3,}/g, '\n\n');
+
     content = frontmatter + body;
     const wasModified = content !== originalContent;
     if (wasModified && !isDryRun) fs.writeFileSync(filePath, content, 'utf-8');
@@ -576,8 +610,14 @@ async function main() {
         process.exit(1);
     }
 
-    const files = fs.readdirSync(BLOG_DIR).filter(f => f.endsWith('.md'));
-    console.log(`📂 Scanning ${files.length} blog files...\n`);
+    const allFiles = fs.readdirSync(BLOG_DIR).filter(f => f.endsWith('.md'));
+    const files = allFiles.filter(f => {
+        const classMatch = f.match(/class-(\d+)/);
+        if (!classMatch) return true; // Include if class is unknown to be safe
+        const classNum = parseInt(classMatch[1]);
+        return classNum >= 8 && classNum <= 12;
+    });
+    console.log(`📂 Scanning ${files.length} blog files (filtered for Classes 8-12 from ${allFiles.length} total)...\n`);
 
     const results: RepairResult[] = [];
     let totalFixes = 0;

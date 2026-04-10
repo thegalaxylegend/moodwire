@@ -190,10 +190,10 @@ Functions are the heartbeat of Calculus and higher mathematics. By distinguishin
 
 Continue your [revision](/blog/limits-derivatives-class-11-revision-notes-jee-neet) with these related guides:
 
-- 📖 [Limits Derivatives Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/limits-derivatives-class-11-revision-notes-jee-neet)
+- 📖 [Limits Derivatives Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/limits-derivatives-class-11-revision-notes-jee-neet)
 - 📖 [Sets Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/sets-class-11-revision-notes-jee-neet)
-- 📖 [Trigonometric Functions Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/trigonometric-functions-class-11-revision-notes-jee-neet)
-- 📖 [Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)
+- 📖 [Trigonometric Functions Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/trigonometric-functions-class-11-revision-notes-jee-neet)
+- 📖 [Complex Numbers Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 
 
 ---
@@ -211,7 +211,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 Continue your [revision](/blog/complex-numbers-class-11-revision-notes-jee-neet) with these related guides:
 
-- 📖 [Limits Derivatives Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/limits-derivatives-class-11-revision-notes-jee-neet)
-- 📖 [Trigonometric Functions Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/trigonometric-functions-class-11-revision-notes-jee-neet)
-- 📖 [Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)
+- 📖 [Limits Derivatives Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/limits-derivatives-class-11-revision-notes-jee-neet)
+- 📖 [Trigonometric Functions Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/trigonometric-functions-class-11-revision-notes-jee-neet)
+- 📖 [Complex Numbers Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 - 📖 [Sets Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/sets-class-11-revision-notes-jee-neet)
