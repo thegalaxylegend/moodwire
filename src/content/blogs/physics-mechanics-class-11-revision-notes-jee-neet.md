@@ -12,9 +12,6 @@ practice_link: "/class-11/physics/physics-mechanics-class-11-revision-notes-jee-
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Physics Mechanics?](#what-is-physics-mechanics)
@@ -23,33 +20,17 @@ practice_link: "/class-11/physics/physics-mechanics-class-11-revision-notes-jee-
 - [MCQs](#mcqs)
 - [📚 Related Topics](#-related-topics)
 
-
 # Physics Mechanics Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-physics-mechanics"></a>What is Physics Mechanics?
 
 # Physics: Mechanics Class 11 Notes for 2026
 
-
-
-
-
-
 ## <a id="what-is-physics-mechanics"></a>What is Physics: Mechanics?
 
 Physics: Mechanics is the study of the motion of objects. It includes kinematics, dynamics, and energy. For Class 11 exam prep in 2026, the most important aspect is understanding the [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) of motion and forces.
 
-
-
-
-
-
 Physics: Mechanics is the study of the motion of objects. It includes kinematics, dynamics, and energy. For Class 11 exam prep in 2026, the most important aspect is understanding the [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) of motion and forces.
-
 
 | Concept | Description |
 | --- | --- |
@@ -57,11 +38,9 @@ Physics: Mechanics is the study of the motion of objects. It includes kinematics
 | Dynamics | Study of motion considering forces |
 | Energy | Ability to do work |
 
-
 ## <a id="what-are-the-key-concepts-in-physics-mechanics"></a>What are the key concepts in Physics: Mechanics?
 
 The key [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) in Physics: Mechanics include motion, forces, energy, and momentum.
-
 
 | Concept | Description |
 | --- | --- |
@@ -69,9 +48,6 @@ The key [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-note
 | Forces | Push or pull that causes motion |
 | Energy | Ability to do work |
 | Momentum | Product of mass and velocity |
-
-
-
 
 - Motion is the change in position of an object
 - Forces are pushes or pulls that cause motion
@@ -84,13 +60,6 @@ The key [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-note
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
@@ -101,15 +70,10 @@ Continue your [revision](/blog/classification-of-elements-class-11-revision-note
 - 📖 [Planning In India Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/planning-in-india-class-11-revision-notes-jee-neet)
 - 📖 [Poverty Unemployment Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/poverty-unemployment-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/physics-mechanics-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

@@ -12,9 +12,6 @@ practice_link: "/class-11/physics/trigonometric-functions-class-11-revision-note
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Trigonometric Functions Revision Notes?](#what-is-trigonometric-functions-revision-notes)
@@ -31,18 +28,11 @@ practice_link: "/class-11/physics/trigonometric-functions-class-11-revision-note
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Trigonometric Functions Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-trigonometric-functions-revision-notes"></a>What is Trigonometric Functions Revision Notes?
 
 # Trigonometric Functions Revision Notes
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -59,16 +49,12 @@ practice_link: "/class-11/physics/trigonometric-functions-class-11-revision-note
 
 ---
 
-
 ## <a id="introduction"></a>Introduction
 
 **Trigonometric Functions extend the geometry of right triangles to the circular [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) of the Unit Circle, defining the periodic nature of waves and oscillations. Master radian measure, ASTC rules, and the "Core 10" identities to solve complex rotation problems in physics and engineering. This Class 11 Math Chapter 3 guide ensures you have all essential formulas for JEE and Board success.**
 Trigonometry is the study of triangles, but in Chapter 3, it evolves into the study of periodic [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet).
 
 ---
-
-
-
 
 ## <a id="1-measuring-angles-degrees-vs-radians"></a>1. Measuring Angles: Degrees vs Radians
 
@@ -80,9 +66,6 @@ Trigonometry is the study of triangles, but in Chapter 3, it evolves into the st
 
 ---
 
-
-
-
 ## <a id="2-the-unit-circle-and-astc-rule"></a>2. The Unit Circle and ASTC Rule
 
 The definitions of trigonometric functions are extended to all real [numbers](/blog/complex-numbers-class-11-revision-notes-jee-neet) using a unit circle.
@@ -93,9 +76,6 @@ The definitions of trigonometric functions are extended to all real [numbers](/b
     *   **Quadrant IV:** Cosine and Secant are Positive.
 
 ---
-
-
-
 
 ## <a id="3-domain-and-range-of-trig-functions"></a>3. Domain and Range of Trig Functions
 
@@ -109,9 +89,6 @@ The definitions of trigonometric functions are extended to all real [numbers](/b
 | cosec x | R - {nπ} | (-∞, -1] ∪ 1, ∞) |
 
 ---
-
-
-
 
 ## <a id="4-essential-trigonometric-formulas"></a>4. Essential Trigonometric Formulas
 
@@ -127,9 +104,6 @@ The definitions of trigonometric functions are extended to all real [numbers](/b
 
 ---
 
-
-
-
 ## <a id="5-trigonometric-equations"></a>5. Trigonometric Equations
 
 1.  **sin x = 0** => x = nπ, where n ∈ Z.
@@ -140,9 +114,6 @@ The definitions of trigonometric functions are extended to all real [numbers](/b
     *   tan x = tan y => x = nπ + y.
 
 ---
-
-
-
 
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
@@ -167,17 +138,11 @@ The definitions of trigonometric functions are extended to all real [numbers](/b
 
 ---
 
-
-
-
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - [**Chapter 2: Relations and Functions**
 - **Chapter 5: [complex](/blog/complex-numbers-class-11-revision-notes-jee-neet) Numbers**
 - [**External Reference:** [NCERT Class 11 Math Chapter 3](https://ncert.nic.in/textbook.php?kemh1=3-16) (Authoritative Source)]
-
-
-
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -187,16 +152,6 @@ Trigonometry is the bridge between geometry and algebra. By mastery the "Core 10
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 
@@ -209,15 +164,10 @@ Continue your [revision](/blog/motion-in-a-straight-line-class-11-revision-notes
 - 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
 - 📖 [Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/trigonometric-functions-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

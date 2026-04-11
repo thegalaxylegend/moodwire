@@ -12,9 +12,6 @@ practice_link: "/class-11/mathematics/matrices-class-12-notes"
 
 *Last Updated: 2026-03-30*
 
-
-
-
 ## 📋 Table of Contents
 
 - [🎯 What WILL Come in Your Exam](#-what-will-come-in-your-exam)
@@ -22,26 +19,11 @@ practice_link: "/class-11/mathematics/matrices-class-12-notes"
   - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
 - [📚 Related Topics](#-related-topics)
 
-
 </div>
-
-
-
 
 <div [class](/blog/application-of-derivatives-class-12-notes)="quick-summary">
 
 #- [📋 Table of Contents](#-table-of-contents)
-
-
-
-
-
-
-
-
-
-
-
 
 ## <a id="-what-will-come-in-your-exam"></a>🎯 What WILL Come in Your Exam
 * 1-2 matrix multiplication problems involving 2\\times2 matrices — always, with a focus on verifying the given result or finding the product of two matrices.
@@ -51,10 +33,9 @@ practice_link: "/class-11/mathematics/matrices-class-12-notes"
 * Consistency and inconsistency of systems of linear equations — frequently tested, with questions asking to determine whether a given system has a unique solution, infinite solutions, or no solution.
 * Rank of a matrix — important topic, often tested in conjunction with the system of linear equations, and students need to find the rank of a given matrix to determine the nature of the solution.
 * Linear dependence and independence of vectors — always comes, with questions asking to determine whether a set of vectors is linearly independent or dependent, often using the concept of rank and determinant.
-* $$(A^T)^{-1} = (A^{-1})^T$$ and $$(AB)^{-1} = B^{-1}A^{-1}$$ — key formulas that are frequently used in matrix problems.
-* Finding the adjoint of a matrix — high-yield topic, often required to find the inverse of a matrix using the formula $$A^{-1} = \\frac{1}{|A|} \times adj(A)$$.
+* (A^T)^{-1} = (A^{-1})^T and (AB)^{-1} = B^{-1}A^{-1} — key formulas that are frequently used in matrix problems.
+* Finding the adjoint of a matrix — high-yield topic, often required to find the [inverse](/blog/inverse-trigonometric-functions-class-12-notes) of a matrix using the formula A^{-1} = \\frac{1}{|A|} \times adj(A).
 * Solving systems of linear equations using the matrix method, including finding the solution using the normal form $AX = B$, where A, X, and B are matrices — always comes, with a focus on applying the concepts of matrix multiplication, [inverse](/blog/inverse-trigonometric-functions-class-12-notes), and determinant to solve the system.
-
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
@@ -81,10 +62,8 @@ $A = \begin{bmatrix} a_{11} & a_{12} & \cdots & a_{1n} \ a_{21} & a_{22} & \cdot
  $|I_n| = 1$: Determinant of identity matrix. 
  $|O| = 0$: Determinant of null matrix.
 
-
 | Matrix Operation | Formula | Description |
 |
-
 
 ---
 
@@ -93,7 +72,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 
@@ -106,15 +84,10 @@ Continue your revision with these related guides:
 - 📖 [Chemistry in Everyday Life Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/chemistry-in-everyday-life-class-12-notes)
 - 📖 [Polymers Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/polymers-class-12-notes)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/matrices-class-12-notes) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

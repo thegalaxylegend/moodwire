@@ -12,9 +12,6 @@ practice_link: "/class-11/physics/units-and-measurements-class-11-revision-notes
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Units And Measurements Revision Notes?](#what-is-units-and-measurements-revision-notes)
@@ -37,18 +34,11 @@ practice_link: "/class-11/physics/units-and-measurements-class-11-revision-notes
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Units And Measurements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-units-and-measurements-revision-notes"></a>What is Units And Measurements Revision Notes?
 
 # Units And Measurements Revision Notes
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -198,16 +188,6 @@ Units and Measurements are not just "entry-level" topics; they are the filter th
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
@@ -218,15 +198,10 @@ Continue your [revision](/blog/limits-derivatives-class-11-revision-notes-jee-ne
 - 📖 [Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)
 - 📖 [Mathematical Reasoning Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-reasoning-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/units-and-measurements-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

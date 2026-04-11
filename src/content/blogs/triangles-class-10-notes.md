@@ -13,7 +13,6 @@ manual_review: true
 
 *Last Updated: 2026-04-07*
 
-
 <div [class](/blog/polynomials-class-10-notes)="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
@@ -23,15 +22,13 @@ manual_review: true
 - Area of Triangle: 1 question on Heron's formula or area using determinant — frequently
 - Congruent Triangles: 1 question on SAS, ASA, SSS, or RHS congruence — always
 - Similar Triangles: 1 question on AA or SSS similarity criterion — frequently
-- Trigonometry: 1 question on trigonometric ratios in a right-angled triangle — always
+- [trigonometry](/blog/introduction-to-trigonometry-class-10-notes): 1 question on trigonometric ratios in a right-angled triangle — always
 - Properties of Medians: 1 question on centroid or length of median to hypotenuse — frequently
 - Apollonius' Theorem: 1 question on Apollonius' theorem for median — frequently
 - Circumcircle: 1 question on circumcircle or circumradius of a triangle — frequently
 - Incircle: 1 question on incircle or inradius of a triangle — frequently
 
 </div>
-
-
 
 ## 📋 Table of Contents
 
@@ -43,7 +40,6 @@ manual_review: true
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
 - [📝 Practice MCQs](#-practice-mcqs)
 
-
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
 - **Ayush's Pattern Study:** This specific sub-topic is often overlooked, but the pattern of questions in the last 10 years shows it is critical for high-percenti\le scoring.
@@ -51,8 +47,6 @@ manual_review: true
 - **The Exam Hack:** Focus on understanding the derivation rather than just the final result.
 
 - **Mistake to Avoid:** Don't skip the numerical applications related to this concept.
-
-
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -62,8 +56,6 @@ manual_review: true
 
 - **Mistake to Avoid:** Don't skip the numerical applications related to this concept.
 
-
-
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 - **Ayush's Pattern Study:** This specific sub-topic is often overlooked, but the pattern of questions in the last 10 years shows it is critical for high-percenti\le scoring.
@@ -71,8 +63,6 @@ manual_review: true
 - **The Exam Hack:** Focus on understanding the derivation rather than just the final result.
 
 - **Mistake to Avoid:** Don't skip the numerical applications related to this concept.
-
-
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
@@ -85,16 +75,12 @@ manual_review: true
  - **Formula Mastery:** Having $\cos(A) = \frac{b^2 + c^2 - a^2}{2bc}$ and $\sin(A) = \frac{\sqrt{(b+c+a)(b+c-a)(b-c+a)(-b+c+a)}}{2bc}$ at their fingertips for any ang\le $A$ in a triang\le with sides $a$, $b$, and $c$ opposite to angles $A$, $B$, and $C$, respectively.
  - **Practice Tip:** To become proficient, practice solving a variety of triang\le problems, focusing on those that require the application of similarity, the law of cosines, and the law of sines. Start with simpler problems and gradually move to more complex scenarios.
 
-
-
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
 - **The Hidden Pattern:** In triangles, the ratio of areas of similar triangles is equal to the square of the ratio of their corresponding side lengths, i.e., $\frac{[ABC]}{[DEF]} = \left(\frac{AB}{DE}\right)^2 = \left(\frac{BC}{EF}\right)^2 = \left(\frac{AC}{DF}\right)^2$. This pattern is particularly useful in problems involving similar triangles and area calculations.
  - **How to Apply It:** To apply this pattern, first identify similar triangles in the given problem, then calculate the ratio of their corresponding side lengths. Use this ratio to find the ratio of their areas. This can be expressed as $\frac{[ABC]}{[DEF]} = \left(\frac{AB}{DE}\right)^2$, where $[ABC]$ and $[DEF]$ represent the areas of triangles $ABC$ and $DEF$ respectively.
  - **PYQ-Specific Trend:** A trend observed in previous years' questions is that problems involving triangles often require the application of trigonometric concepts, such as the law of sines or the law of cosines, in conjunction with the properties of triangles, like the incenter or circumcenter. The formula $\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} = 2R$ is frequently used, where $a$, $b$, and $c$ are the side lengths of the triang\le, and $R$ is the radius of the circumcirc\le.
  - **Formulae to Remember:** Some key formulae to remember include the area of a triang\le given its base and height, $A = \frac{1}{2}bh$, and the area given two sides and the included ang\le, $A = \frac{1}{2}ab\sin C$. Also, the formula for the area of a triang\le given its sides $a$, $b$, and $c$ is $A = \sqrt{s(s-a)(s-b)(s-c)}$, where $s$ is the semi-perimeter, $s = \frac{a+b+c}{2}$.
-
-
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
@@ -104,10 +90,7 @@ manual_review: true
 
 - **Mistake to Avoid:** Don't skip the numerical applications related to this concept.
 
-
-
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
-
 
 **1. In a triang\le, the \sum of the lengths of any two sides is**
 
@@ -161,7 +144,6 @@ C) $1:8$
 D) $2:3$
 
 **Answer:** A) The ratio of the areas of two similar triangles is the square of the ratio of their corresponding sides.
-
 
 ---
 

@@ -12,9 +12,6 @@ practice_link: "/class-11/biology/waves-class-11-revision-notes-neet"
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Waves Revision Notes?](#what-is-waves-revision-notes)
@@ -45,18 +42,11 @@ practice_link: "/class-11/biology/waves-class-11-revision-notes-neet"
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Waves Class 11 Biology Revision — NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-waves-revision-notes"></a>What is Waves Revision Notes?
 
 # Waves Revision Notes
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -71,15 +61,11 @@ practice_link: "/class-11/biology/waves-class-11-revision-notes-neet"
 
 ---
 
-
 ## <a id="introduction"></a>Introduction
 
 Waves are the carriers of energy and information across the universe. From the seismic tremors that reshape continents to the electromagnetic signals that power the internet, the movement of energy through a medium (or vacuum) defines our modern reality. This final chapter of [class](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) 11 Physics, "Waves," is the culmination of everything we have learned about mechanics and oscillations. It describes how a disturbance in one part of a medium propagates to another, without the actual transport of matter. In this "Comprehensive" guide, we provide the most exhaustive technical derivations available—from Laplace's correction for the speed of sound to the complex geometry of the Doppler Effect—ensuring you are fully equipped for JEE, NEET, and Board exams.
 
 ---
-
-
-
 
 ## <a id="1-the-nature-of-waves-classifications-and-definitions"></a>1. The Nature of Waves: Classifications and Definitions
 
@@ -105,9 +91,6 @@ A **Wave** is a disturbance that travels through a medium, transporting energy f
 
 ---
 
-
-
-
 ## <a id="2-mathematical-representation-of-a-progressive-wave"></a>2. Mathematical Representation of a Progressive Wave
 
 A **Progressive Wave** is a wave that moves continuously in a specific direction.
@@ -125,9 +108,6 @@ Any function representing a wave must satisfy the following second-order differe
 This equation proves that the shape of the wave remains constant as it propagates through space.
 
 ---
-
-
-
 
 ## <a id="3-speed-of-waves-the-technical-derivations"></a>3. Speed of Waves: The Technical Derivations
 
@@ -154,9 +134,6 @@ Laplace argued that sound propagation is so fast that no heat exchange occurs; i
 
 ---
 
-
-
-
 ## <a id="4-the-principle-of-superposition"></a>4. The Principle of Superposition
 
 **Statement:** When two or more waves overlap in a medium, the resultant displacement at any point is the vector sum of the individual displacements.
@@ -167,9 +144,6 @@ Laplace argued that sound propagation is so fast that no heat exchange occurs; i
 - **Destructive:** Waves meet out of phase (Crest meets Trough). **A_min = |A1 - A2|**.
 
 ---
-
-
-
 
 ## <a id="5-standing-waves-stationary-waves"></a>5. Standing Waves (Stationary Waves)
 
@@ -200,9 +174,6 @@ Both ends are fixed, so they must be Nodes.
 
 ---
 
-
-
-
 ## <a id="6-beats-interference-in-time"></a>6. Beats: Interference in Time
 
 Formed by the superposition of two waves of slightly different frequencies (**ν1 and ν2**).
@@ -210,9 +181,6 @@ Formed by the superposition of two waves of slightly different frequencies (**ν
 - Used for tuning musical instruments and detecting gas leaks in mines.
 
 ---
-
-
-
 
 ## <a id="7-the-doppler-effect-master-derivation"></a>7. The Doppler Effect (Master Derivation)
 
@@ -236,13 +204,10 @@ Where:
 
 ---
 
-
-
-
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
 **Q1: Why does sound travel faster in [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than in gases?**
-**Answer:** The speed of sound is **v = √(E / ρ)**. Although solids are much denser than gases (which would decrease speed), their elasticity (E) is significantly higher. Since elasticity dominates the equation, sound travels ~15 times faster in solids than in air.
+**Answer:** The speed of sound is **v = √(E / ρ)**. Although [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) are much denser than gases (which would decrease speed), their elasticity (E) is significantly higher. Since elasticity dominates the equation, sound travels ~15 times faster in [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than in air.
 
 **Q2: What is Laplace's correction and why was Newton wrong?**
 **Answer:** Newton assumed sound travel was isothermal, but the compressions and rarefactions of a sound wave happen so rapidly that heat does not have time to escape. This makes it an **Adiabatic** process. Laplace corrected this by multiplying pressure by **γ** (ratio of specific heats), bringing the theoretical value in line with experimental results.
@@ -258,17 +223,11 @@ Where:
 
 ---
 
-
-
-
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 13: [oscillations](/blog/oscillations-class-11-revision-notes-jee-neet) (The Prelude to Waves)**
 - **Chapter 12: Kinetic Theory of Gases (Sound Speed Factors)**
 - **The Ultimate Wave Mechanics Problem Set: Target JEE/[neet](/blog/mathematical-induction-class-11-revision-notes-jee-neet)**
-
-
-
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -281,35 +240,20 @@ Waves are the signature of the universe's energy. By mastering the mathematical 
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Thermodynamics Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/thermodynamics-class-11-revision-notes-neet)
 - 📖 [Mathematical Induction Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)
 - 📖 [Mechanical Properties Of Solids Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
 - 📖 [Motion In A Plane Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/waves-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

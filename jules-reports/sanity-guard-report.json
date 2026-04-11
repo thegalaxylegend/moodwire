@@ -1,25 +1,10 @@
 {
-  "date": "2026-04-10T02:35:03.404Z",
+  "date": "2026-04-11T02:19:51.748Z",
   "summary": {
-    "total": 182,
+    "total": 185,
     "errors": 0,
-    "warnings": 2,
-    "clean": 180
+    "warnings": 0,
+    "clean": 185
   },
-  "issues": [
-    {
-      "file": "applications-of-trigonometry-class-10-notes.md",
-      "errors": [],
-      "warnings": [
-        "2 empty LaTeX block(s) ($$$$)"
-      ]
-    },
-    {
-      "file": "introduction-to-trigonometry-class-10-notes.md",
-      "errors": [],
-      "warnings": [
-        "8 empty LaTeX block(s) ($$$$)"
-      ]
-    }
-  ]
+  "issues": []
 }

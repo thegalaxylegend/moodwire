@@ -12,9 +12,6 @@ practice_link: "/class-11/physics/thermodynamics-chemistry-class-11-revision-not
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Thermodynamics Chemistry Revision Notes?](#what-is-thermodynamics-chemistry-revision-notes)
@@ -47,23 +44,11 @@ practice_link: "/class-11/physics/thermodynamics-chemistry-class-11-revision-not
   - [Board Exam Tip:](#board-exam-tip)
 - [📚 Related Topics](#-related-topics)
 
-
 # Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-thermodynamics-chemistry-revision-notes"></a>What is Thermodynamics Chemistry Revision Notes?
 
 # Thermodynamics Chemistry Revision Notes
-
-
-
-
-
-
-
 
 1. [Why Thermodynamics is the "Judge" of Chemistry](#intro)
 2. [Systems, Surroundings, and Types of Processes](#systems)
@@ -78,11 +63,6 @@ practice_link: "/class-11/physics/thermodynamics-chemistry-class-11-revision-not
 11. [Practice MCQs (JEE/NEET Level)](#mcqs)
 12. [Ayush's Thermodynamics Strategy](#ayush-strategy)
 
-
-
-
-
-
 ## <a id="1-why-thermodynamics-is-the-judge-of-chemistry"></a>1. Why Thermodynamics is the "Judge" of Chemistry
 
 **[chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Thermodynamics is the study of energy changes (heat and work) associated with [chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) reactions and physical transformations.**
@@ -95,11 +75,6 @@ Thermodynamics doesn't care about speed — that's Kinetics. Thermodynamics answ
 - **CBSE Boards**: This unit carries 7 marks and is a classic long-answer question topic.
 
 ---
-
-
-
-
-
 
 ## <a id="2-systems-surroundings-and-types-of-processes"></a>2. Systems, Surroundings, and Types of Processes
 
@@ -119,11 +94,6 @@ Thermodynamics doesn't care about speed — that's Kinetics. Thermodynamics answ
 
 ---
 
-
-
-
-
-
 ## <a id="3-the-first-law-energy-conservation-in-action"></a>3. The First Law: Energy Conservation in Action
 
 **The First Law of Thermodynamics states that energy can be converted from one form to another, but it cannot be created or destroyed ($\Delta U = q + w$).**
@@ -140,11 +110,6 @@ Thermodynamics doesn't care about speed — that's Kinetics. Thermodynamics answ
 
 ---
 
-
-
-
-
-
 ## <a id="4-work-done-in-reversible-vs-irreversible-expansion"></a>4. Work Done in Reversible vs Irreversible Expansion
 
 **Expansion work is the energy transferred when a gas changes volume against an external pressure.**
@@ -159,11 +124,6 @@ Thermodynamics doesn't care about speed — that's Kinetics. Thermodynamics answ
 
 ---
 
-
-
-
-
-
 ## <a id="5-enthalpy-h-and-the-delta-h-vs-delta-u-relationship"></a>5. Enthalpy ($H$) and the $\Delta H$ vs $\Delta U$ Relationship
 
 **Enthalpy ($H$) is a thermodynamic state function defined as $H = U + PV$, representing the total heat content of a system at constant pressure.**
@@ -172,7 +132,7 @@ At constant pressure: $\Delta H = q_p$.
 At constant volume: $\Delta U = q_v$.
 
 ### <a id="the-bridge-formula"></a>The Bridge Formula
-$$\Delta H = \Delta U + \Delta n_g RT$$
+\Delta H = \Delta U + \Delta n_g RT
 where $\Delta n_g$ = (moles of gaseous products) - (moles of gaseous reactants).
 
 **Example**: $CH_4(g) + 2O_2(g) \rightarrow CO_2(g) + 2H_2O(l)$:
@@ -182,11 +142,6 @@ where $\Delta n_g$ = (moles of gaseous products) - (moles of gaseous reactants).
 
 ---
 
-
-
-
-
-
 ## <a id="6-hesss-law-the-circle-of-enthalpy"></a>6. Hess's Law: The Circle of Enthalpy
 
 **Hess's Law [states](/blog/states-of-matter-class-11-revision-notes-jee-neet) that the total enthalpy change for a reaction is the same whether it occurs in one step or in multiple steps, as long as the initial and final [states](/blog/states-of-matter-class-11-revision-notes-jee-neet) are the same.**
@@ -195,18 +150,13 @@ This is because Enthalpy is a **State Function** — it depends only on the stat
 
 ### <a id="application-bornhaber-cycle"></a>Application: Born-Haber Cycle
 To find the Lattice Enthalpy of $NaCl$:
-$$\Delta H_f = \Delta H_{sub} + \Delta H_{IE} + \frac{1}{2}\Delta H_{diss} + \Delta H_{EA} + U_{lattice}$$
+\Delta H_f = \Delta H_{sub} + \Delta H_{IE} + \frac{1}{2}\Delta H_{diss} + \Delta H_{EA} + U_{lattice}
 **JEE Trick**: If a question asks you to calculate the enthalpy of a reaction you don't know directly, try:
 1. Reverse a known reaction (flip the sign of $\Delta H$).
 2. Multiply a reaction by a factor (multiply $\Delta H$ by the same factor).
 3. Add the modified reactions to get the target reaction.
 
 ---
-
-
-
-
-
 
 ## <a id="7-standard-enthalpy-of-formation-combustion-and-bond-enthalpy"></a>7. Standard Enthalpy of Formation, Combustion, and Bond Enthalpy
 
@@ -217,15 +167,10 @@ $$\Delta H_f = \Delta H_{sub} + \Delta H_{IE} + \frac{1}{2}\Delta H_{diss} + \De
 - $\Delta_f H°$ is **negative** for stable compounds (exothermic formation).
 
 ### <a id="bond-enthalpy-method"></a>Bond Enthalpy Method
-$$\Delta H_{rxn} = \sum (\text{Bond Enthalpies of Broken Bonds}) - \sum (\text{Bond Enthalpies of Formed Bonds})$$
+\Delta H_{rxn} = \sum (\text{Bond Enthalpies of Broken Bonds}) - \sum (\text{Bond Enthalpies of Formed Bonds})
 Remember: Breaking bonds = **absorbs** energy (+). Forming bonds = **releases** energy (-).
 
 ---
-
-
-
-
-
 
 ## <a id="8-entropy-s-and-the-second-law"></a>8. Entropy ($S$) and the Second Law
 
@@ -240,11 +185,6 @@ For any spontaneous process: $\Delta S_{universe} = \Delta S_{sys} + \Delta S_{s
 - For phase transitions: $\Delta S = \Delta H / T$ (at equilibrium).
 
 ---
-
-
-
-
-
 
 ## <a id="9-gibbs-free-energy-g-the-spontaneity-predictor"></a>9. Gibbs Free Energy ($G$): The Spontaneity Predictor
 
@@ -263,11 +203,6 @@ At equilibrium: $\Delta G = 0$, so $\Delta H = T_{eq} \Delta S$, giving $T_{eq} 
 Also: $\Delta G° = -RT \ln K$.
 
 ---
-
-
-
-
-
 
 ## <a id="10-the-trap-section-sign-convention-nightmares"></a>10. The "Trap" Section: Sign Convention Nightmares
 
@@ -289,11 +224,6 @@ Also: $\Delta G° = -RT \ln K$.
 - **Why**: Spontaneity is a thermodynamic property ($\Delta G$). Catalysts affect kinetics ($E_a$), not thermodynamics.
 
 ---
-
-
-
-
-
 
 ## <a id="11-practice-mcqs-jeeneet-level"></a>11. Practice MCQs (JEE/NEET Level)
 
@@ -336,11 +266,6 @@ D) $\Delta U = 0$
 
 ---
 
-
-
-
-
-
 ## <a id="12-ayushs-thermodynamics-strategy"></a>12. Ayush's Thermodynamics Strategy
 
 This chapter has a split personality. Half is conceptual (Laws, Spontaneity), half is numerical (Hess's Law, $\Delta n_g$ problems). Here's how I tackled it:
@@ -361,19 +286,8 @@ CBSE loves "Derive the Gibbs-Helmholtz equation" as a 5-mark question. Write the
 
 ---
 
-
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 
@@ -386,21 +300,16 @@ Continue your [revision](/blog/equilibrium-class-11-revision-notes-jee-neet) wit
 - 📖 [States Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/states-of-matter-class-11-revision-notes-jee-neet)
 - 📖 [Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/structure-of-atom-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/thermodynamics-chemistry-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/equilibrium-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
 - 📖 [States Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/states-of-matter-class-11-revision-notes-jee-neet)

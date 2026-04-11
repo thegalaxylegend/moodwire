@@ -12,9 +12,6 @@ practice_link: "/class-11/physics/probability-intro-class-11-revision-notes-jee"
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Probability (Intro)?](#what-is-probability-intro)
@@ -30,12 +27,7 @@ practice_link: "/class-11/physics/probability-intro-class-11-revision-notes-jee"
 - [MCQs](#mcqs)
 - [📚 Related Topics](#-related-topics)
 
-
 # Probability (Intro) Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-probability-intro"></a>What is Probability (Intro)?
 
@@ -82,7 +74,7 @@ In the next section, we'll explore the concept of conditional probability and ho
 
 For now, let's summarize what we've learned so far. We've introduced the concept of probability and its importance in mathematics and real-life applications. We've also explored some simple examples and problems to illustrate the concept of probability. As we move forward, we'll encounter more complex concepts and problems, but the basic idea of probability will remain the same. With practice and persistence, you'll become proficient in solving probability problems and be able to apply the concepts to a wide range of scenarios. 
 
-So, let's keep moving forward and explore the fascinating world of probability together. We'll encounter many more examples, problems, and concepts, and we'll develop a deep understanding of the subject. With dedication and persistence, you'll be able to master the concepts of probability and perform well in the Class 11 exam. 
+So, let's keep moving forward and explore the fascinating world of probability together. We'll encounter many more examples, problems, and concepts, and we'll develop a deep understanding of the subject. With dedication and persistence, you'll be able to master the concepts of probability and perform well in the [class](/blog/limits-and-derivatives-class-11-revision-notes-jee) 11 exam. 
 
 Now, let's consider another example to illustrate the concept of probability. Suppose we have a bag containing 10 balls, each with a different number from 1 to 10. If we randomly select a ball from the bag, what is the probability that the number on the ball is greater than 5? We can use the formula for probability to solve this problem: $P(event) = \frac{Number\ of\ favorable\ outcomes}{Total\ number\ of\ outcomes}$. In this case, the number of favorable outcomes is 5 (the numbers 6, 7, 8, 9, and 10), and the total number of outcomes is 10 (the total number of balls). Therefore, the probability of selecting a ball with a number greater than 5 is: $P(number > 5) = \frac{5}{10} = \frac{1}{2}$. 
 
@@ -139,8 +131,6 @@ So, let's keep moving forward and explore the fascinating world of probability t
 Now, let's summarize what we've learned so far. We've introduced the concept of probability and its importance in mathematics and real-life applications. We've also explored some simple examples and problems to illustrate the concept of probability. As we move forward, we'll encounter more complex concepts and problems, but the basic idea of probability will remain the same. With practice and persistence, you'll become proficient in solving probability problems and be able to apply the concepts to a wide range of scenarios. 
 
 So, let's keep moving forward and explore the fascinating world of probability together. We'll encounter many more examples, problems, and concepts, and we'll develop a deep understanding of the subject. With dedication and persistence, you'll be able to
-
-
 
 What is Probability (Intro) is a measure of the likelihood of an event occurring. It includes the concept of randomness, the idea of events, and the notion of probability measures. For Class 11 exam prep in 2026, the most important aspect is understanding the fundamental principles of probability and its application to real-life problems. The concept of probability is crucial as it helps us make informed decisions under uncertainty. Probability theory is a branch of mathematics that deals with the study of chance events. The probability of an event is a number between 0 and 1, where 0 indicates that the event is impossible and 1 indicates that the event is certain. The probability of an event $E$ is denoted by $P(E)$ and is defined as the ratio of the number of favorable outcomes to the total number of possible outcomes. The probability of an event can be calculated using the formula: $P(E) = \frac{\text{Number of favorable outcomes}}{\text{Total number of possible outcomes}}$. This concept is essential for understanding the basics of probability and will be explored in more depth throughout this section.
 
@@ -296,8 +286,6 @@ What are common Trap Questions for Probability (Intro) is a crucial area of stud
 | Mutually Exclusive Events | Confusing between mutually exclusive and non-mutually exclusive events, affecting the addition rule for probabilities. | What is the probability of drawing either a heart or a diamond from a deck of cards? (Students might incorrectly apply the addition rule.) |
 | Probability of Complementary Events | Not utilizing the concept that the probability of an event plus the probability of its complement equals 1. | What is the probability that a number selected from 1 to 10 is not a prime number? (Students might not use the complement rule for a quicker solution.) |
 
-
-
 - Probability is a branch of mathematics that deals with the study of chance events and their likelihood of occurrence.
 - The probability of an event is measured on a scale from 0 to 1, where 0 represents impossibility and 1 represents certainty.
 - The probability of an event happening is calculated by dividing the number of favorable outcomes by the total number of possible outcomes.
@@ -352,13 +340,6 @@ What are common Trap Questions for Probability (Intro) is a crucial area of stud
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
@@ -369,15 +350,10 @@ Continue your revision with these related guides:
 - 📖 [Relations and Functions Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/relations-and-functions-class-11-notes)
 - 📖 [Limits and Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/limits-and-derivatives-class-11-revision-notes-jee)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/probability-intro-class-11-revision-notes-jee) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

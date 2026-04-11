@@ -12,9 +12,6 @@ practice_link: "/class-11/biology/plant-kingdom-class-11-revision-notes-neet"
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Plant Kingdom?](#what-is-plant-kingdom)
@@ -28,22 +25,13 @@ practice_link: "/class-11/biology/plant-kingdom-class-11-revision-notes-neet"
 - [Related Notes Links](#related-notes-links)
 - [📚 Related Topics](#-related-topics)
 
-
 # Plant Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-plant-kingdom"></a>What is Plant Kingdom?
 
 # Plant Kingdom Class 11 Notes
 
-
 Last Updated: March 15, 2026
-
-
-
 
 1. [Introduction to Plant Kingdom](#introduction-to-plant-kingdom)
 2. [Why This Chapter Matters](#why-this-chapter-matters)
@@ -54,22 +42,13 @@ Last Updated: March 15, 2026
 7. [Practice MCQs](#practice-mcqs)
 8. [Related Notes Links](#related-notes-links)
 
-
-
-
 ## <a id="introduction-to-plant-kingdom"></a>Introduction to Plant Kingdom
 
 Plant Kingdom is a taxonomic rank that includes all plants. It is a diverse group of organisms that includes everything from simple mosses to complex [flowering](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) plants. The Plant Kingdom is divided into two main groups: Bryophyta and Tracheophyta. Bryophyta includes non-vascular plants such as mosses and liverworts, while Tracheophyta includes vascular plants such as ferns, conifers, and flowering plants.
 
-
-
-
 ## <a id="why-this-chapter-matters"></a>Why This Chapter Matters
 
 Plant Kingdom is a critical topic for JEE and NEET exams, with 3-4 questions asked every year. In JEE Mains 2026 Session 1, 3 questions came from this topic. Understanding the classification and characteristics of different plant groups is essential for answering questions in this topic. Additionally, knowledge of plant anatomy and physiology is crucial for understanding many [biological](/blog/biological-classification-class-11-revision-notes-neet) processes.
-
-
-
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
@@ -77,15 +56,12 @@ Plant Kingdom is a critical topic for JEE and NEET exams, with 3-4 questions ask
 I still remember when I was preparing for JEE, I used to get confused between the different plant groups. I would often mix up the characteristics of Bryophyta and Tracheophyta. But then I realized that the key to understanding Plant Kingdom is to focus on the vascular tissue. Once I understood the difference between vascular and non-vascular [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet), I was able to classify [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) easily. My advice to you is to practice, practice, practice! Make sure you practice at least 50-60 questions from this topic to get a good grip on it.
 </div>
 
-
-
-
 ## <a id="core-concepts"></a>Core Concepts
 
 [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet) Kingdom is divided into several divisions based on characteristics such as vascular tissue, seeds, and flowers. The main divisions are:
 * Bryophyta: Non-vascular [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) such as mosses and liverworts.
 * Tracheophyta: Vascular [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) such as ferns, conifers, and flowering [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet).
-* Pteridophyta: Vascular plants that produce spores, such as ferns.
+* Pteridophyta: Vascular [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) that produce spores, such as ferns.
 * Gymnosperms: Vascular plants that produce seeds, such as conifers.
 * Angiosperms: Vascular plants that produce flowers and seeds, such as flowering plants.
 
@@ -94,20 +70,14 @@ The [classification](/blog/biological-classification-class-11-revision-notes-nee
 * Seeds: Presence or absence of seeds.
 * Flowers: Presence or absence of flowers.
 
-
-
-
 ## <a id="shortcut-formula-trick"></a>Shortcut Formula / Trick
 
-To remember the different plant groups, you can use the following trick:
+To remember the different [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet) groups, you can use the following trick:
 * Bryophyta: Non-vascular plants, no seeds, no flowers.
 * Tracheophyta: Vascular plants, may or may not have seeds, may or may not have flowers.
 * Pteridophyta: Vascular plants, produce spores.
 * Gymnosperms: Vascular plants, produce seeds, no flowers.
 * Angiosperms: Vascular plants, produce flowers and seeds.
-
-
-
 
 ## <a id="trap-questions-exceptions"></a>Trap Questions / Exceptions
 
@@ -120,9 +90,6 @@ Why students get it wrong: Students often assume that all plants produce flowers
 * Wrong answer: Bryophyta is a type of vascular plant.
 Right answer: Bryophyta is a type of non-vascular plant.
 Why students get it wrong: Students often confuse the different plant groups and assume that Bryophyta is a type of vascular plant.
-
-
-
 
 ## <a id="practice-mcqs"></a>Practice MCQs
 
@@ -166,9 +133,6 @@ d) All of the above
 
 Answer: d) All of the above
 
-
-
-
 ## <a id="related-notes-links"></a>Related Notes Links
 
 * Cell Biology Class 11 Notes
@@ -178,16 +142,6 @@ Note: The above links are to existing posts only.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 
@@ -200,15 +154,10 @@ Continue your revision with these related guides:
 - 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/plant-kingdom-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

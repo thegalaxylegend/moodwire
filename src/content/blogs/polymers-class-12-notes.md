@@ -12,9 +12,6 @@ practice_link: "/class-11/chemistry/polymers-class-12-notes"
 
 *Last Updated: 2026-03-30*
 
-
-
-
 ## 📋 Table of Contents
 
 - [🎯 What WILL Come in Your Exam](#-what-will-come-in-your-exam)
@@ -22,26 +19,11 @@ practice_link: "/class-11/chemistry/polymers-class-12-notes"
   - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
 - [📚 Related Topics](#-related-topics)
 
-
 </div>
-
-
-
 
 <div [class](/blog/chemistry-in-everyday-life-class-12-notes)="quick-summary">
 
 #- [📋 Table of Contents](#-table-of-contents)
-
-
-
-
-
-
-
-
-
-
-
 
 ## <a id="-what-will-come-in-your-exam"></a>🎯 What WILL Come in Your Exam
 * 1-2 short-answer questions on classification of polymers (natural, synthetic, semi-synthetic) — always
@@ -59,12 +41,10 @@ practice_link: "/class-11/chemistry/polymers-class-12-notes"
 * Effect of $T_g$ (glass transition temperature) and $T_m$ (melting point) on polymer properties — expect a short-answer or numerical question
 * Plastic, fibre, and elastomer classification based on intermolecular forces — high-yield, with emphasis on examples of each type
 
-
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-$$
  \Delta E = \Delta H - T\Delta S
- $$
+ 
  Internal Energy Change. $\Delta E$: Change in internal energy, $\Delta H$: Change in enthalpy, $T$: Temperature in Kelvin, $\Delta S$: Change in entropy.
  
  $
@@ -142,10 +122,8 @@ $$
  $
  Glass transition temperature. $T_g$: Glass transition temperature, $T_m$: Melting point, $\Delta S$: Change in entropy, $\Delta C_p$: Change in specific heat capacity.
 
-
 | Formula | Variable | Description |
 |
-
 
 ---
 
@@ -154,7 +132,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 
@@ -167,15 +144,10 @@ Continue your revision with these related guides:
 - 📖 [Inverse Trigonometric Functions Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/inverse-trigonometric-functions-class-12-notes)
 - 📖 [Matrices Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/matrices-class-12-notes)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/polymers-class-12-notes) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

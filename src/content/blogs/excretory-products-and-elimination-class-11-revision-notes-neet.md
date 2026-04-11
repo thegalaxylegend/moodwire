@@ -12,9 +12,6 @@ practice_link: "/class-11/biology/excretory-products-and-elimination-class-11-re
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Excretory Products And Elimination?](#what-is-excretory-products-and-elimination)
@@ -29,21 +26,11 @@ practice_link: "/class-11/biology/excretory-products-and-elimination-class-11-re
   - [JEE/NEET Data Cont.](#jeeneet-data-cont)
 - [📚 Related Topics](#-related-topics)
 
-
 # Excretory Products And Elimination Class 11 Biology Revision — NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-excretory-products-and-elimination"></a>What is Excretory Products And Elimination?
 
 # Excretory Products and Elimination Class 11 Notes — Exam Compass
-
-
-
-
-
 
 ## <a id="core-concepts"></a>Core Concepts
 
@@ -65,11 +52,11 @@ The following formulae are relevant to the excretory system:
 
 * **Glomerular filtration rate (GFR)**: The rate at which the kidneys filter the blood to remove waste products and excess substances. The GFR can be calculated using the following formula:
 
-$$\text{GFR} = \frac{\text{urine output} \times \text{urea concentration in urine}}{\text{urea concentration in blood}}$$
+\text{GFR} = \frac{\text{urine output} \times \text{urea concentration in urine}}{\text{urea concentration in blood}}
 
 * **Cockcroft-Gault equation**: An equation used to estimate the GFR based on serum creatinine levels, age, sex, and weight:
 
-$$\text{GFR} = \frac{(140 - \text{age}) \times \text{weight} \times (0.85 \text{ if female})}{72 \times \text{serum creatinine}}$$
+\text{GFR} = \frac{(140 - \text{age}) \times \text{weight} \times (0.85 \text{ if female})}{72 \times \text{serum creatinine}}
 
 ### <a id="jeeneet-data"></a>JEE/NEET Data
 The excretory system is an important topic in the JEE and [neet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) exams. The following data is relevant to the excretory system:
@@ -129,7 +116,7 @@ The excretory system is also involved in the regulation of the body's acid-base 
 The excretory system is also involved in the regulation of the body's electrolyte balance. The kidneys play a crucial role in this process by removing excess electrolytes from the body. The liver also plays a role in electrolyte balance by producing bile and helping to regulate the body's metabolism.
 
 ### <a id="jeeneet-data-cont"></a>JEE/NEET Data Cont.
-The following JEE/NEET data is relevant to the excretory system:
+The following JEE/[neet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) data is relevant to the excretory system:
 
 * **Kidney function**: The kidneys filter approximately 180 liters of blood per day, and produce approximately 1.5 liters of urine.
 * **Liver function**: The liver detoxifies approximately 1 liter of blood per minute.
@@ -200,16 +187,6 @@ This data is essential for understanding the functions of the excretory system, 
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
@@ -220,15 +197,10 @@ Continue your [revision](/blog/biological-classification-class-11-revision-notes
 - 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
 - 📖 [Body Fluids And Circulation Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/body-fluids-and-circulation-class-11-revision-notes-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/excretory-products-and-elimination-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

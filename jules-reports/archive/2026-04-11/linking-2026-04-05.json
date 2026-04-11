@@ -1,0 +1,3084 @@
+{
+  "date": "2026-04-05",
+  "summary": {
+    "totalLinksAdded": 50,
+    "relatedSectionsAdded": 3,
+    "orphanPages": 19,
+    "totalBlogs": 170
+  },
+  "orphans": [
+    "aldehydes-ketones-and-carboxylic-acids-class-12-notes",
+    "biomolecules-class-11-revision-notes-neet",
+    "biotechnology-and-its-applications-class-12-notes",
+    "biotechnology-principles-and-processes-class-12-notes",
+    "breathing-and-exchange-of-gases-class-11-revision-notes-neet",
+    "climatology-class-11-revision-notes-jee-neet",
+    "excretory-products-and-elimination-class-11-revision-notes-neet",
+    "jee-advanced-math-difficulty-trends-class-11-revision-notes-jee-neet",
+    "jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet",
+    "laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet",
+    "local-government-class-11-revision-notes-cbse",
+    "mineral-nutrition-class-11-revision-notes-neet",
+    "neet-2026-weightage-prediction-class-11-revision-notes-neet",
+    "neet-biology-80-20-rule-class-11-revision-notes-neet",
+    "organisms-and-populations-class-12-notes",
+    "statistics-class-11-revision-notes-jee",
+    "strategies-for-enhancement-in-food-production-class-12-notes",
+    "transport-in-plants-class-11-revision-notes-neet",
+    "work-energy-and-power-class-11-revision-notes-neet"
+  ],
+  "knowledgeGraph": [
+    {
+      "slug": "3d-geometry-intro-class-11-revision-notes-jee-neet",
+      "category": "Mathematics",
+      "keywords": [
+        "geometry",
+        "intro",
+        "mathematics",
+        "2026",
+        "grandmaster",
+        "ayushs",
+        "mistake",
+        "questions",
+        "exceptions",
+        "watch"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "agriculture-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "agriculture",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "ayushs",
+        "mistake",
+        "detailed",
+        "analysis",
+        "questions"
+      ],
+      "incomingLinks": 6,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "ai-exam-prep-future-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "exam",
+        "prep",
+        "future",
+        "computer",
+        "science",
+        "cbse",
+        "2026",
+        "ayushs",
+        "mistake",
+        "detailed"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "ai-study-hack-pomodoro-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "study",
+        "hack",
+        "pomodoro",
+        "computer",
+        "science",
+        "cbse",
+        "2026",
+        "ayushs",
+        "mistake",
+        "detailed"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "alcohols-phenols-and-ethers-class-12-notes",
+      "category": "Chemistry",
+      "keywords": [
+        "alcohols",
+        "phenols",
+        "ethers",
+        "chemistry",
+        "neet",
+        "2026",
+        "grandmaster",
+        "idtableofcontentsa",
+        "table",
+        "contents"
+      ],
+      "incomingLinks": 4,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "aldehydes-ketones-and-carboxylic-acids-class-12-notes",
+      "category": "Chemistry",
+      "keywords": [
+        "aldehydes",
+        "ketones",
+        "carboxylic",
+        "acids",
+        "chemistry",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents"
+      ],
+      "incomingLinks": 0,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "algorithms-analysis-class-11-revision-notes-gate-boards",
+      "category": "Physics",
+      "keywords": [
+        "algorithms",
+        "analysis",
+        "computer",
+        "science",
+        "gate",
+        "boards",
+        "2026",
+        "grandmaster",
+        "ayushs",
+        "fundamentals"
+      ],
+      "incomingLinks": 8,
+      "outgoingLinks": 5
+    },
+    {
+      "slug": "algorithms-design-class-11-revision-notes-gate-boards",
+      "category": "Biology",
+      "keywords": [
+        "algorithms",
+        "design",
+        "computer",
+        "science",
+        "gate",
+        "boards",
+        "2026",
+        "grandmaster",
+        "ayushs",
+        "fundamentals"
+      ],
+      "incomingLinks": 6,
+      "outgoingLinks": 5
+    },
+    {
+      "slug": "alternating-current-class-12-notes",
+      "category": "Biology",
+      "keywords": [
+        "alternating",
+        "current",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "advantages",
+        "direct",
+        "circuit",
+        "difference"
+      ],
+      "incomingLinks": 5,
+      "outgoingLinks": 7
+    },
+    {
+      "slug": "amines-class-12-notes",
+      "category": "Chemistry",
+      "keywords": [
+        "amines",
+        "chemistry",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "idthe5trapmistakesa",
+        "mistakes",
+        "idmasterthetestcenterstepbysteplearninga"
+      ],
+      "incomingLinks": 7,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "anatomy-of-flowering-plants-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "anatomy",
+        "flowering",
+        "plants",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "ayushs",
+        "mistake",
+        "updated"
+      ],
+      "incomingLinks": 11,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "ancient-india-indus-valley-class-11-revision-notes-cbse",
+      "category": "General",
+      "keywords": [
+        "ancient",
+        "india",
+        "indus",
+        "valley",
+        "history",
+        "cbse",
+        "2026",
+        "introduction",
+        "features",
+        "civilization"
+      ],
+      "incomingLinks": 12,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "ancient-india-mahajanapadas-class-11-revision-notes-jee",
+      "category": "Mathematics",
+      "keywords": [
+        "ancient",
+        "india",
+        "mahajanapadas",
+        "history",
+        "cbse",
+        "2026",
+        "quick",
+        "revision",
+        "recap",
+        "ayushs"
+      ],
+      "incomingLinks": 11,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "ancient-india-vedic-age-class-11-revision-notes-jee",
+      "category": "Mathematics",
+      "keywords": [
+        "ancient",
+        "india",
+        "vedic",
+        "history",
+        "cbse",
+        "2026",
+        "introduction",
+        "ayushs",
+        "personal",
+        "concepts"
+      ],
+      "incomingLinks": 5,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "animal-kingdom-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "animal",
+        "kingdom",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "introduction",
+        "characteristics"
+      ],
+      "incomingLinks": 8,
+      "outgoingLinks": 6
+    },
+    {
+      "slug": "application-of-derivatives-class-12-notes",
+      "category": "Mathematics",
+      "keywords": [
+        "application",
+        "derivatives",
+        "mathematics",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "idformulabanka",
+        "formula",
+        "idthe5mistakesthatcostmarksa"
+      ],
+      "incomingLinks": 2,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "application-of-integrals-class-12-notes",
+      "category": "Mathematics",
+      "keywords": [
+        "application",
+        "integrals",
+        "mathematics",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "idthe5trapmistakesa",
+        "mistakes",
+        "idmasterthetestcenterstepbysteplearninga"
+      ],
+      "incomingLinks": 8,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "art-culture-architecture-class-11-revision-notes-jee-neet",
+      "category": "Chemistry",
+      "keywords": [
+        "culture",
+        "architecture",
+        "chemistry",
+        "neet",
+        "2026",
+        "grandmaster",
+        "quick",
+        "revision",
+        "recap",
+        "history"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 5
+    },
+    {
+      "slug": "atoms-class-12-notes",
+      "category": "Physics",
+      "keywords": [
+        "atoms",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "formula",
+        "mistakes",
+        "marks",
+        "solved",
+        "thing"
+      ],
+      "incomingLinks": 8,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "binomial-theorem-class-11-revision-notes-jee",
+      "category": "Mathematics",
+      "keywords": [
+        "binomial",
+        "theorem",
+        "mathematics",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction",
+        "positive",
+        "integral"
+      ],
+      "incomingLinks": 5,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "biogeography-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "biogeography",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "quick",
+        "revision",
+        "recap",
+        "related",
+        "topics"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "biological-classification-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "biological",
+        "classification",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "introduction",
+        "chapter"
+      ],
+      "incomingLinks": 16,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "biomolecules-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "biomolecules",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "related",
+        "topics"
+      ],
+      "incomingLinks": 0,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "biotechnology-and-its-applications-class-12-notes",
+      "category": "Biology",
+      "keywords": [
+        "biotechnology",
+        "applications",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "idformulabanka",
+        "formula"
+      ],
+      "incomingLinks": 0,
+      "outgoingLinks": 0
+    },
+    {
+      "slug": "biotechnology-principles-and-processes-class-12-notes",
+      "category": "Biology",
+      "keywords": [
+        "biotechnology",
+        "principles",
+        "processes",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "idformulabanka"
+      ],
+      "incomingLinks": 0,
+      "outgoingLinks": 0
+    },
+    {
+      "slug": "body-fluids-and-circulation-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "body",
+        "fluids",
+        "circulation",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "quick",
+        "recall",
+        "concepts"
+      ],
+      "incomingLinks": 7,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "breathing-and-exchange-of-gases-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "breathing",
+        "exchange",
+        "gases",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "introduction",
+        "mechanism",
+        "respiratory"
+      ],
+      "incomingLinks": 0,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "cell-cycle-and-cell-division-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "cell",
+        "cycle",
+        "division",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "introduction"
+      ],
+      "incomingLinks": 4,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "cell-the-unit-of-life-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "cell",
+        "unit",
+        "life",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "introduction"
+      ],
+      "incomingLinks": 2,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "chemical-bonding-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "chemical",
+        "bonding",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "introduction",
+        "decider"
+      ],
+      "incomingLinks": 2,
+      "outgoingLinks": 5
+    },
+    {
+      "slug": "chemical-coordination-and-integration-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "chemical",
+        "coordination",
+        "integration",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "introduction",
+        "endocrine",
+        "glands"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "chemical-kinetics-class-12-notes",
+      "category": "Chemistry",
+      "keywords": [
+        "chemical",
+        "kinetics",
+        "chemistry",
+        "neet",
+        "2026",
+        "grandmaster",
+        "formula",
+        "mistakes",
+        "marks",
+        "solved"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "chemistry-in-everyday-life-class-12-notes",
+      "category": "Chemistry",
+      "keywords": [
+        "chemistry",
+        "everyday",
+        "life",
+        "neet",
+        "2026",
+        "grandmaster",
+        "idtableofcontentsa",
+        "table",
+        "contents",
+        "idwhatwillcomeinyourexama"
+      ],
+      "incomingLinks": 4,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "class-10-30-day-timetable-class-10-revision-notes-jee",
+      "category": "Mathematics",
+      "keywords": [
+        "timetable",
+        "mathematics",
+        "cbse",
+        "2026",
+        "class",
+        "developing",
+        "taskoriented",
+        "strategy",
+        "diagnostic",
+        "audit"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "class-10-science-pyq-strategy-class-10-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "science",
+        "strategy",
+        "biology",
+        "cbse",
+        "2026",
+        "class",
+        "essential",
+        "mastering",
+        "physics",
+        "chemistry"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 5
+    },
+    {
+      "slug": "classification-elements-periodicity-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "classification",
+        "elements",
+        "periodicity",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "table"
+      ],
+      "incomingLinks": 8,
+      "outgoingLinks": 5
+    },
+    {
+      "slug": "classification-of-elements-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "classification",
+        "elements",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "ayushs",
+        "personal",
+        "introduction",
+        "jeeneet"
+      ],
+      "incomingLinks": 5,
+      "outgoingLinks": 6
+    },
+    {
+      "slug": "climatology-class-11-revision-notes-jee-neet",
+      "category": "Chemistry",
+      "keywords": [
+        "climatology",
+        "geography",
+        "cbse",
+        "2026",
+        "concepts",
+        "climatic",
+        "elements",
+        "types",
+        "climates",
+        "factors"
+      ],
+      "incomingLinks": 0,
+      "outgoingLinks": 6
+    },
+    {
+      "slug": "communication-systems-class-12-notes",
+      "category": "Physics",
+      "keywords": [
+        "communication",
+        "systems",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "formula",
+        "mistakes",
+        "marks",
+        "solved"
+      ],
+      "incomingLinks": 4,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "complex-numbers-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "complex",
+        "numbers",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction",
+        "imaginary"
+      ],
+      "incomingLinks": 7,
+      "outgoingLinks": 5
+    },
+    {
+      "slug": "computer-organization-class-11-notes",
+      "category": "Physics",
+      "keywords": [
+        "computer",
+        "organization",
+        "science",
+        "gate",
+        "boards",
+        "2026",
+        "grandmaster",
+        "basic",
+        "components",
+        "central"
+      ],
+      "incomingLinks": 1,
+      "outgoingLinks": 7
+    },
+    {
+      "slug": "conic-sections-class-11-revision-notes-jee",
+      "category": "Mathematics",
+      "keywords": [
+        "conic",
+        "sections",
+        "mathematics",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction",
+        "circle",
+        "parabola"
+      ],
+      "incomingLinks": 5,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "constitutional-framework-class-11-revision-notes-cbse",
+      "category": "General",
+      "keywords": [
+        "constitutional",
+        "framework",
+        "social",
+        "science",
+        "cbse",
+        "2026",
+        "features",
+        "indian",
+        "constitution",
+        "significance"
+      ],
+      "incomingLinks": 4,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "continuity-and-differentiability-class-12-notes",
+      "category": "Mathematics",
+      "keywords": [
+        "continuity",
+        "differentiability",
+        "mathematics",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "idthe5trapmistakesa",
+        "mistakes",
+        "idmasterthetestcenterstepbysteplearninga"
+      ],
+      "incomingLinks": 4,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "coordination-compounds-class-12-notes",
+      "category": "Chemistry",
+      "keywords": [
+        "coordination",
+        "compounds",
+        "chemistry",
+        "neet",
+        "2026",
+        "grandmaster",
+        "formula",
+        "mistakes",
+        "marks",
+        "solved"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 5
+    },
+    {
+      "slug": "cuet-2026-master-strategy-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "cuet",
+        "2026",
+        "master",
+        "strategy",
+        "biology",
+        "neet",
+        "grandmaster",
+        "understanding",
+        "structure",
+        "niche"
+      ],
+      "incomingLinks": 6,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "current-electricity-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "current",
+        "electricity",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction",
+        "electric"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 5
+    },
+    {
+      "slug": "data-structures-linear-class-11-revision-notes-gate-boards",
+      "category": "Chemistry",
+      "keywords": [
+        "data",
+        "structures",
+        "linear",
+        "computer",
+        "science",
+        "gate",
+        "boards",
+        "2026",
+        "grandmaster",
+        "ayushs"
+      ],
+      "incomingLinks": 4,
+      "outgoingLinks": 7
+    },
+    {
+      "slug": "data-structures-non-linear-class-11-revision-notes-gate-boards",
+      "category": "Biology",
+      "keywords": [
+        "data",
+        "structures",
+        "linear",
+        "nonlinear",
+        "computer",
+        "science",
+        "gate",
+        "boards",
+        "2026",
+        "grandmaster"
+      ],
+      "incomingLinks": 5,
+      "outgoingLinks": 6
+    },
+    {
+      "slug": "determinants-class-12-notes",
+      "category": "Mathematics",
+      "keywords": [
+        "determinants",
+        "mathematics",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "idthe5trapmistakesa",
+        "mistakes",
+        "idmasterthetestcenterstepbysteplearninga",
+        "master"
+      ],
+      "incomingLinks": 4,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "differential-equations-class-12-notes",
+      "category": "Mathematics",
+      "keywords": [
+        "differential",
+        "equations",
+        "mathematics",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "idthe5trapmistakesa",
+        "mistakes",
+        "idlast5minutesboxa"
+      ],
+      "incomingLinks": 1,
+      "outgoingLinks": 5
+    },
+    {
+      "slug": "digestion-and-absorption-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "digestion",
+        "absorption",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "introduction",
+        "concepts"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "digital-logic-class-11-revision-notes-gate-boards",
+      "category": "Biology",
+      "keywords": [
+        "digital",
+        "logic",
+        "computer",
+        "science",
+        "gate",
+        "boards",
+        "2026",
+        "grandmaster",
+        "basic",
+        "components"
+      ],
+      "incomingLinks": 6,
+      "outgoingLinks": 6
+    },
+    {
+      "slug": "dpsp-duties-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "dpsp",
+        "duties",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "historical",
+        "developments",
+        "concepts",
+        "exceptions"
+      ],
+      "incomingLinks": 1,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "dual-nature-of-radiation-class-12-notes",
+      "category": "Physics",
+      "keywords": [
+        "dual",
+        "nature",
+        "radiation",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "formula",
+        "mistakes",
+        "marks"
+      ],
+      "incomingLinks": 4,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "electric-charges-fields-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "electric",
+        "charges",
+        "fields",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction"
+      ],
+      "incomingLinks": 7,
+      "outgoingLinks": 5
+    },
+    {
+      "slug": "electromagnetic-induction-class-12-revision-notes-jee-neet",
+      "category": "Biology",
+      "keywords": [
+        "electromagnetic",
+        "induction",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "factors",
+        "affecting",
+        "difference",
+        "between"
+      ],
+      "incomingLinks": 7,
+      "outgoingLinks": 7
+    },
+    {
+      "slug": "electromagnetic-waves-class-12-notes",
+      "category": "Biology",
+      "keywords": [
+        "electromagnetic",
+        "waves",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "spectrum",
+        "propagate",
+        "speed",
+        "vacuum"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 5
+    },
+    {
+      "slug": "electrostatics-class-12-revision-notes-jee-neet",
+      "category": "Biology",
+      "keywords": [
+        "electrostatics",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "fundamental",
+        "principles",
+        "concept",
+        "electric",
+        "charge"
+      ],
+      "incomingLinks": 4,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "environmental-chemistry-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "environmental",
+        "chemistry",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "class",
+        "notes",
+        "introduction",
+        "chapter"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 6
+    },
+    {
+      "slug": "equilibrium-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "equilibrium",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "table",
+        "contents",
+        "balancing"
+      ],
+      "incomingLinks": 6,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "excretory-products-and-elimination-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "excretory",
+        "products",
+        "elimination",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "concepts",
+        "related",
+        "topics"
+      ],
+      "incomingLinks": 0,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "federalism-class-11-revision-notes-cbse",
+      "category": "General",
+      "keywords": [
+        "federalism",
+        "social",
+        "science",
+        "cbse",
+        "2026",
+        "features",
+        "historical",
+        "context",
+        "india",
+        "ayushs"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "fundamental-rights-class-11-revision-notes-cbse",
+      "category": "General",
+      "keywords": [
+        "fundamental",
+        "rights",
+        "social",
+        "science",
+        "cbse",
+        "2026",
+        "features",
+        "historical",
+        "context",
+        "ayushs"
+      ],
+      "incomingLinks": 6,
+      "outgoingLinks": 5
+    },
+    {
+      "slug": "geomorphology-class-11-revision-notes-cbse",
+      "category": "Physics",
+      "keywords": [
+        "geomorphology",
+        "geography",
+        "cbse",
+        "2026",
+        "quick",
+        "revision",
+        "recap",
+        "concepts",
+        "formulae",
+        "tables"
+      ],
+      "incomingLinks": 7,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "gravitation-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "gravitation",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction",
+        "newtons",
+        "universal"
+      ],
+      "incomingLinks": 10,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "haloalkanes-and-haloarenes-class-12-notes",
+      "category": "Chemistry",
+      "keywords": [
+        "haloalkanes",
+        "haloarenes",
+        "chemistry",
+        "neet",
+        "2026",
+        "grandmaster",
+        "formula",
+        "mistakes",
+        "marks",
+        "solved"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 6
+    },
+    {
+      "slug": "human-health-and-disease-class-12-notes",
+      "category": "Biology",
+      "keywords": [
+        "human",
+        "health",
+        "disease",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "idformulabanka"
+      ],
+      "incomingLinks": 2,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "human-reproduction-class-12-notes",
+      "category": "Biology",
+      "keywords": [
+        "human",
+        "reproduction",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "idformulabanka",
+        "formula"
+      ],
+      "incomingLinks": 11,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "hydrocarbons-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "hydrocarbons",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "introduction",
+        "matter",
+        "ayushs"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "hydrogen-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "hydrogen",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "introduction",
+        "occurrence",
+        "extraction"
+      ],
+      "incomingLinks": 6,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "indian-geography-climate-class-11-revision-notes-cbse",
+      "category": "General",
+      "keywords": [
+        "indian",
+        "geography",
+        "climate",
+        "cbse",
+        "2026",
+        "factors",
+        "influencing",
+        "different",
+        "types",
+        "historical"
+      ],
+      "incomingLinks": 4,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "indian-geography-physical-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "indian",
+        "geography",
+        "physical",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "features",
+        "landforms",
+        "ayushs"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "integrals-class-12-notes",
+      "category": "Mathematics",
+      "keywords": [
+        "integrals",
+        "mathematics",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "idthe5trapmistakesa",
+        "mistakes",
+        "idlast5minutesboxa",
+        "minutes"
+      ],
+      "incomingLinks": 1,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "inverse-trigonometric-functions-class-12-notes",
+      "category": "Mathematics",
+      "keywords": [
+        "inverse",
+        "trigonometric",
+        "functions",
+        "mathematics",
+        "2026",
+        "grandmaster",
+        "idtableofcontentsa",
+        "table",
+        "contents",
+        "idwhatwillcomeinyourexama"
+      ],
+      "incomingLinks": 4,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "jee-advanced-math-difficulty-trends-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "advanced",
+        "math",
+        "difficulty",
+        "trends",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "decline",
+        "calculus"
+      ],
+      "incomingLinks": 0,
+      "outgoingLinks": 5
+    },
+    {
+      "slug": "jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "mains",
+        "chemistry",
+        "repeated",
+        "concepts",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "physical",
+        "formulae"
+      ],
+      "incomingLinks": 0,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "mains",
+        "high",
+        "weightage",
+        "chapters",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "philosophy",
+        "highroi"
+      ],
+      "incomingLinks": 6,
+      "outgoingLinks": 8
+    },
+    {
+      "slug": "kinetic-theory-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "kinetic",
+        "theory",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction",
+        "postulates"
+      ],
+      "incomingLinks": 6,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "laws-of-motion-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "laws",
+        "motion",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction",
+        "newtons"
+      ],
+      "incomingLinks": 11,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "laws",
+        "motion",
+        "common",
+        "mistakes",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "kinematics",
+        "force"
+      ],
+      "incomingLinks": 0,
+      "outgoingLinks": 5
+    },
+    {
+      "slug": "limits-and-derivatives-class-11-revision-notes-jee",
+      "category": "Biology",
+      "keywords": [
+        "limits",
+        "derivatives",
+        "mathematics",
+        "2026",
+        "grandmaster",
+        "concept",
+        "evaluate",
+        "using",
+        "algebraic",
+        "manipulation"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 5
+    },
+    {
+      "slug": "limits-derivatives-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "limits",
+        "derivatives",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction",
+        "concept"
+      ],
+      "incomingLinks": 4,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "linear-inequalities-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "linear",
+        "inequalities",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction",
+        "algebraic"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "linear-programming-class-12-notes",
+      "category": "Mathematics",
+      "keywords": [
+        "linear",
+        "programming",
+        "mathematics",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "idformulabanka",
+        "formula",
+        "idthe5mistakesthatcostmarksa"
+      ],
+      "incomingLinks": 2,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "local-government-class-11-revision-notes-cbse",
+      "category": "General",
+      "keywords": [
+        "local",
+        "government",
+        "social",
+        "science",
+        "cbse",
+        "2026",
+        "function",
+        "quick",
+        "recall",
+        "related"
+      ],
+      "incomingLinks": 0,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "locomotion-and-movement-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "locomotion",
+        "movement",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "introduction",
+        "types",
+        "concepts",
+        "formulae"
+      ],
+      "incomingLinks": 4,
+      "outgoingLinks": 5
+    },
+    {
+      "slug": "magnetic-effects-of-current-class-12-notes",
+      "category": "Biology",
+      "keywords": [
+        "magnetic",
+        "effects",
+        "current",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "field",
+        "generated",
+        "biotsavart"
+      ],
+      "incomingLinks": 4,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "magnetism-and-matter-class-12-notes",
+      "category": "Biology",
+      "keywords": [
+        "magnetism",
+        "matter",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "characteristics",
+        "magnetic",
+        "materials",
+        "magnetization"
+      ],
+      "incomingLinks": 4,
+      "outgoingLinks": 8
+    },
+    {
+      "slug": "mathematical-induction-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "mathematical",
+        "induction",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction",
+        "principle"
+      ],
+      "incomingLinks": 6,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "mathematical-reasoning-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "mathematical",
+        "reasoning",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction",
+        "statements"
+      ],
+      "incomingLinks": 2,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "matrices-class-12-notes",
+      "category": "Mathematics",
+      "keywords": [
+        "matrices",
+        "mathematics",
+        "2026",
+        "grandmaster",
+        "idtableofcontentsa",
+        "table",
+        "contents",
+        "idwhatwillcomeinyourexama",
+        "idformulabanka",
+        "formula"
+      ],
+      "incomingLinks": 4,
+      "outgoingLinks": 6
+    },
+    {
+      "slug": "mechanical-properties-of-fluids-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "mechanical",
+        "properties",
+        "fluids",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction"
+      ],
+      "incomingLinks": 2,
+      "outgoingLinks": 5
+    },
+    {
+      "slug": "mechanical-properties-of-solids-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "mechanical",
+        "properties",
+        "solids",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction"
+      ],
+      "incomingLinks": 8,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "medieval-india-bhakti-sufi-class-11-revision-notes-cbse",
+      "category": "General",
+      "keywords": [
+        "medieval",
+        "india",
+        "bhakti",
+        "sufi",
+        "history",
+        "cbse",
+        "2026",
+        "concepts",
+        "formulae",
+        "tables"
+      ],
+      "incomingLinks": 2,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "medieval-india-delhi-sultanate-class-11-revision-notes-cbse",
+      "category": "General",
+      "keywords": [
+        "medieval",
+        "india",
+        "delhi",
+        "sultanate",
+        "history",
+        "cbse",
+        "2026",
+        "related",
+        "topics"
+      ],
+      "incomingLinks": 1,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "medieval-india-mughals-class-11-revision-notes-cbse",
+      "category": "General",
+      "keywords": [
+        "medieval",
+        "india",
+        "mughals",
+        "history",
+        "cbse",
+        "2026",
+        "related",
+        "topics"
+      ],
+      "incomingLinks": 1,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "metallurgy-class-12-notes",
+      "category": "Chemistry",
+      "keywords": [
+        "metallurgy",
+        "chemistry",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "idthe5trapmistakesa",
+        "mistakes",
+        "idmasterthetestcenterstepbysteplearninga"
+      ],
+      "incomingLinks": 7,
+      "outgoingLinks": 5
+    },
+    {
+      "slug": "microbes-in-human-welfare-class-12-notes",
+      "category": "Biology",
+      "keywords": [
+        "microbes",
+        "human",
+        "welfare",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "idformulabanka"
+      ],
+      "incomingLinks": 2,
+      "outgoingLinks": 5
+    },
+    {
+      "slug": "mineral-nutrition-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "mineral",
+        "nutrition",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "class",
+        "notes",
+        "table",
+        "contents"
+      ],
+      "incomingLinks": 0,
+      "outgoingLinks": 6
+    },
+    {
+      "slug": "molecular-basis-of-inheritance-class-12-notes",
+      "category": "Biology",
+      "keywords": [
+        "molecular",
+        "basis",
+        "inheritance",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "idformulabanka"
+      ],
+      "incomingLinks": 11,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "morphology-of-flowering-plants-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "morphology",
+        "flowering",
+        "plants",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "introduction"
+      ],
+      "incomingLinks": 15,
+      "outgoingLinks": 7
+    },
+    {
+      "slug": "motion-in-a-plane-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "motion",
+        "plane",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction",
+        "power"
+      ],
+      "incomingLinks": 8,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "motion-in-a-straight-line-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "motion",
+        "straight",
+        "line",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction"
+      ],
+      "incomingLinks": 10,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "moving-charges-magnetism-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "moving",
+        "charges",
+        "magnetism",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 9
+    },
+    {
+      "slug": "neet-2026-weightage-prediction-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "2026",
+        "weightage",
+        "prediction",
+        "neet",
+        "biology",
+        "grandmaster",
+        "physics",
+        "decider",
+        "chemistry",
+        "balancing"
+      ],
+      "incomingLinks": 0,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "neet-biology-80-20-rule-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "biology",
+        "rule",
+        "neet",
+        "2026",
+        "grandmaster",
+        "highyield",
+        "matrix",
+        "syllabus",
+        "lowyield",
+        "applying"
+      ],
+      "incomingLinks": 0,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "neural-control-and-coordination-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "neural",
+        "control",
+        "coordination",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "introduction",
+        "concepts",
+        "formulae"
+      ],
+      "incomingLinks": 4,
+      "outgoingLinks": 5
+    },
+    {
+      "slug": "nuclei-class-12-notes",
+      "category": "Physics",
+      "keywords": [
+        "nuclei",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "formula",
+        "mistakes",
+        "marks",
+        "solved",
+        "thing"
+      ],
+      "incomingLinks": 4,
+      "outgoingLinks": 6
+    },
+    {
+      "slug": "oceanography-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "oceanography",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "quick",
+        "revision",
+        "recap",
+        "related",
+        "topics"
+      ],
+      "incomingLinks": 1,
+      "outgoingLinks": 6
+    },
+    {
+      "slug": "organic-chemistry-basic-principles-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "organic",
+        "chemistry",
+        "basic",
+        "principles",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "organisms-and-populations-class-12-notes",
+      "category": "Biology",
+      "keywords": [
+        "organisms",
+        "populations",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "idformulabanka",
+        "formula"
+      ],
+      "incomingLinks": 0,
+      "outgoingLinks": 0
+    },
+    {
+      "slug": "oscillations-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "oscillations",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction",
+        "periodic",
+        "oscillatory"
+      ],
+      "incomingLinks": 8,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "permutations-and-combinations-class-11-revision-notes-jee",
+      "category": "Mathematics",
+      "keywords": [
+        "permutations",
+        "combinations",
+        "mathematics",
+        "2026",
+        "grandmaster",
+        "fundamental",
+        "counting",
+        "principle",
+        "formula",
+        "calculating"
+      ],
+      "incomingLinks": 5,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "permutations-combinations-class-11-revision-notes-jee",
+      "category": "Mathematics",
+      "keywords": [
+        "permutations",
+        "combinations",
+        "mathematics",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction",
+        "fundamental",
+        "principle"
+      ],
+      "incomingLinks": 5,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "photosynthesis-in-higher-plants-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "photosynthesis",
+        "higher",
+        "plants",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "introduction"
+      ],
+      "incomingLinks": 13,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "physical-world-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "physical",
+        "world",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "introduction",
+        "chapter"
+      ],
+      "incomingLinks": 5,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "physics-heat-light-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "physics",
+        "heat",
+        "light",
+        "neet",
+        "2026",
+        "grandmaster",
+        "concepts",
+        "quick",
+        "recall",
+        "related"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 5
+    },
+    {
+      "slug": "physics-mechanics-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "physics",
+        "mechanics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "concepts",
+        "quick",
+        "recall",
+        "related",
+        "topics"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 6
+    },
+    {
+      "slug": "planning-in-india-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "planning",
+        "india",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "quick",
+        "recall",
+        "related",
+        "topics"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 5
+    },
+    {
+      "slug": "plant-growth-and-development-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "plant",
+        "growth",
+        "development",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "introduction"
+      ],
+      "incomingLinks": 7,
+      "outgoingLinks": 6
+    },
+    {
+      "slug": "plant-kingdom-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "plant",
+        "kingdom",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "introduction",
+        "chapter"
+      ],
+      "incomingLinks": 1,
+      "outgoingLinks": 6
+    },
+    {
+      "slug": "polymers-class-12-notes",
+      "category": "Chemistry",
+      "keywords": [
+        "polymers",
+        "chemistry",
+        "neet",
+        "2026",
+        "grandmaster",
+        "idtableofcontentsa",
+        "table",
+        "contents",
+        "idwhatwillcomeinyourexama",
+        "idformulabanka"
+      ],
+      "incomingLinks": 4,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "poverty-unemployment-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "poverty",
+        "unemployment",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "measure",
+        "quick",
+        "recall",
+        "related"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "principle-of-mathematical-induction-class-11-revision-notes-jee",
+      "category": "Physics",
+      "keywords": [
+        "principle",
+        "mathematical",
+        "induction",
+        "mathematics",
+        "2026",
+        "grandmaster",
+        "definition",
+        "steps",
+        "involved",
+        "difference"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "principles-of-inheritance-and-variation-class-12-notes",
+      "category": "Biology",
+      "keywords": [
+        "principles",
+        "inheritance",
+        "variation",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "idformulabanka"
+      ],
+      "incomingLinks": 6,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "probability-class-11-revision-notes-jee",
+      "category": "Mathematics",
+      "keywords": [
+        "probability",
+        "mathematics",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction",
+        "random",
+        "experiments",
+        "sample"
+      ],
+      "incomingLinks": 5,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "probability-intro-class-11-revision-notes-jee",
+      "category": "Physics",
+      "keywords": [
+        "probability",
+        "intro",
+        "mathematics",
+        "2026",
+        "grandmaster",
+        "basic",
+        "concepts",
+        "defined",
+        "terms",
+        "experiments"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 5
+    },
+    {
+      "slug": "ray-optics-class-12-quick-class-12-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "optics",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "class",
+        "quick",
+        "revision",
+        "notes",
+        "recap"
+      ],
+      "incomingLinks": 5,
+      "outgoingLinks": 6
+    },
+    {
+      "slug": "redox-reactions-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "redox",
+        "reactions",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "introduction",
+        "matter"
+      ],
+      "incomingLinks": 1,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "relations-and-functions-class-11-notes",
+      "category": "Chemistry",
+      "keywords": [
+        "relations",
+        "functions",
+        "mathematics",
+        "2026",
+        "grandmaster",
+        "relation",
+        "different",
+        "types",
+        "determine",
+        "reflexive"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 6
+    },
+    {
+      "slug": "relations-functions-class-11-revision-notes-jee-neet",
+      "category": "Chemistry",
+      "keywords": [
+        "relations",
+        "functions",
+        "chemistry",
+        "neet",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction",
+        "cartesian"
+      ],
+      "incomingLinks": 1,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "reproduction-in-organisms-class-12-notes",
+      "category": "Biology",
+      "keywords": [
+        "reproduction",
+        "organisms",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "idformulabanka",
+        "formula"
+      ],
+      "incomingLinks": 5,
+      "outgoingLinks": 8
+    },
+    {
+      "slug": "reproductive-health-class-12-notes",
+      "category": "Biology",
+      "keywords": [
+        "reproductive",
+        "health",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "idformulabanka",
+        "formula"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "respiration-in-plants-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "respiration",
+        "plants",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "introduction",
+        "matters"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "rotational-motion-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "rotational",
+        "motion",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction",
+        "centre"
+      ],
+      "incomingLinks": 1,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "semiconductor-electronics-class-12-notes",
+      "category": "Physics",
+      "keywords": [
+        "semiconductor",
+        "electronics",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "formula",
+        "mistakes",
+        "marks",
+        "solved"
+      ],
+      "incomingLinks": 4,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "sequences-series-class-11-revision-notes-jee",
+      "category": "Mathematics",
+      "keywords": [
+        "sequences",
+        "series",
+        "mathematics",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction",
+        "basics",
+        "arithmetic"
+      ],
+      "incomingLinks": 2,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "sets-class-11-revision-notes-jee-neet",
+      "category": "Chemistry",
+      "keywords": [
+        "sets",
+        "chemistry",
+        "neet",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction",
+        "representation",
+        "types"
+      ],
+      "incomingLinks": 1,
+      "outgoingLinks": 6
+    },
+    {
+      "slug": "sexual-reproduction-in-flowering-plants-class-12-notes",
+      "category": "Biology",
+      "keywords": [
+        "sexual",
+        "reproduction",
+        "flowering",
+        "plants",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents"
+      ],
+      "incomingLinks": 2,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "solid-state-class-12-notes",
+      "category": "Chemistry",
+      "keywords": [
+        "solid",
+        "state",
+        "chemistry",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "idthe5trapmistakesa",
+        "mistakes"
+      ],
+      "incomingLinks": 4,
+      "outgoingLinks": 6
+    },
+    {
+      "slug": "solutions-class-12-notes",
+      "category": "Chemistry",
+      "keywords": [
+        "solutions",
+        "chemistry",
+        "neet",
+        "2026",
+        "grandmaster",
+        "formula",
+        "mistakes",
+        "marks",
+        "solved",
+        "thing"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 6
+    },
+    {
+      "slug": "some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "some",
+        "basic",
+        "concepts",
+        "chemistry",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "ayushs",
+        "personal"
+      ],
+      "incomingLinks": 7,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "state-scholarship-guide-2026-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "state",
+        "scholarship",
+        "guide",
+        "2026",
+        "biology",
+        "neet",
+        "grandmaster",
+        "powerhouse",
+        "universal",
+        "funding"
+      ],
+      "incomingLinks": 6,
+      "outgoingLinks": 6
+    },
+    {
+      "slug": "states-of-matter-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "states",
+        "matter",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "table",
+        "contents"
+      ],
+      "incomingLinks": 4,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "statistics-class-11-revision-notes-jee",
+      "category": "Mathematics",
+      "keywords": [
+        "statistics",
+        "mathematics",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction",
+        "measures",
+        "dispersion",
+        "deviation"
+      ],
+      "incomingLinks": 0,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "straight-lines-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "straight",
+        "lines",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction",
+        "slope"
+      ],
+      "incomingLinks": 2,
+      "outgoingLinks": 5
+    },
+    {
+      "slug": "strategies-for-enhancement-in-food-production-class-12-notes",
+      "category": "Biology",
+      "keywords": [
+        "strategies",
+        "enhancement",
+        "food",
+        "production",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents"
+      ],
+      "incomingLinks": 0,
+      "outgoingLinks": 5
+    },
+    {
+      "slug": "structural-organisation-in-animals-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "structural",
+        "organisation",
+        "animals",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "introduction"
+      ],
+      "incomingLinks": 4,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "structure-of-atom-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "structure",
+        "atom",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "table",
+        "contents"
+      ],
+      "incomingLinks": 5,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "structure-of-the-atom-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "structure",
+        "atom",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "introduction",
+        "concepts",
+        "formulae",
+        "jeeneet"
+      ],
+      "incomingLinks": 2,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "study-12-hours-daily-tips-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "study",
+        "hours",
+        "daily",
+        "tips",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "simple",
+        "truth"
+      ],
+      "incomingLinks": 2,
+      "outgoingLinks": 5
+    },
+    {
+      "slug": "surface-chemistry-class-12-notes",
+      "category": "Chemistry",
+      "keywords": [
+        "surface",
+        "chemistry",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "idthe5trapmistakesa",
+        "mistakes",
+        "idmasterthetestcenterstepbysteplearninga"
+      ],
+      "incomingLinks": 4,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "the-living-world-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "living",
+        "world",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "introduction",
+        "characteristics"
+      ],
+      "incomingLinks": 1,
+      "outgoingLinks": 7
+    },
+    {
+      "slug": "the-p-block-elements-11-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "block",
+        "elements",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "introduction",
+        "pblock"
+      ],
+      "incomingLinks": 5,
+      "outgoingLinks": 7
+    },
+    {
+      "slug": "the-s-block-elements-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "block",
+        "elements",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "introduction",
+        "sblock",
+        "chapter",
+        "matters"
+      ],
+      "incomingLinks": 2,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "thermal-properties-of-matter-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "thermal",
+        "properties",
+        "matter",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 6
+    },
+    {
+      "slug": "thermodynamics-chemistry-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "thermodynamics",
+        "chemistry",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "table",
+        "contents"
+      ],
+      "incomingLinks": 5,
+      "outgoingLinks": 7
+    },
+    {
+      "slug": "thermodynamics-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "thermodynamics",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction",
+        "thermodynamic",
+        "systems"
+      ],
+      "incomingLinks": 2,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "three-dimensional-geometry-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "three",
+        "dimensional",
+        "geometry",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 5
+    },
+    {
+      "slug": "transport-in-plants-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "transport",
+        "plants",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "related",
+        "topics"
+      ],
+      "incomingLinks": 0,
+      "outgoingLinks": 5
+    },
+    {
+      "slug": "trigonometric-functions-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "trigonometric",
+        "functions",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction",
+        "measuring"
+      ],
+      "incomingLinks": 1,
+      "outgoingLinks": 6
+    },
+    {
+      "slug": "units-and-measurements-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "units",
+        "measurements",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction",
+        "international"
+      ],
+      "incomingLinks": 2,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "upsc-optional-selection-guide-class-11-revision-notes-jee",
+      "category": "Mathematics",
+      "keywords": [
+        "upsc",
+        "optional",
+        "selection",
+        "guide",
+        "mathematics",
+        "2026",
+        "grandmaster",
+        "3pillar",
+        "framework",
+        "success"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "upsc-optional-selection-guide",
+      "category": "Chemistry",
+      "keywords": [
+        "upsc",
+        "optional",
+        "selection",
+        "guide",
+        "pick",
+        "best",
+        "subject",
+        "2026",
+        "3pillar",
+        "framework"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 5
+    },
+    {
+      "slug": "vector-algebra-class-12-notes",
+      "category": "Mathematics",
+      "keywords": [
+        "vector",
+        "algebra",
+        "mathematics",
+        "2026",
+        "grandmaster",
+        "table",
+        "contents",
+        "idformulabanka",
+        "formula",
+        "idthe5mistakesthatcostmarksa"
+      ],
+      "incomingLinks": 2,
+      "outgoingLinks": 4
+    },
+    {
+      "slug": "wave-optics-class-12-notes",
+      "category": "Physics",
+      "keywords": [
+        "wave",
+        "optics",
+        "physics",
+        "neet",
+        "2026",
+        "grandmaster",
+        "basic",
+        "principles",
+        "difference",
+        "between"
+      ],
+      "incomingLinks": 2,
+      "outgoingLinks": 6
+    },
+    {
+      "slug": "waves-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "waves",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction",
+        "nature",
+        "classifications"
+      ],
+      "incomingLinks": 2,
+      "outgoingLinks": 6
+    },
+    {
+      "slug": "work-energy-and-power-class-11-revision-notes-neet",
+      "category": "Biology",
+      "keywords": [
+        "work",
+        "energy",
+        "power",
+        "biology",
+        "neet",
+        "2026",
+        "grandmaster",
+        "revision",
+        "notes",
+        "introduction"
+      ],
+      "incomingLinks": 0,
+      "outgoingLinks": 6
+    },
+    {
+      "slug": "world-history-industrial-revolution-class-11-revision-notes-jee-neet",
+      "category": "Physics",
+      "keywords": [
+        "world",
+        "history",
+        "industrial",
+        "revolution",
+        "cbse",
+        "2026",
+        "introduction",
+        "concepts",
+        "jeeneet",
+        "relevance"
+      ],
+      "incomingLinks": 3,
+      "outgoingLinks": 5
+    }
+  ]
+}

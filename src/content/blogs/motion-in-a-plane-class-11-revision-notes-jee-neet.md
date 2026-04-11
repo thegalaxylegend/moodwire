@@ -12,9 +12,6 @@ practice_link: "/class-11/physics/motion-in-a-plane-class-11-revision-notes-jee-
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Motion In A Plane Revision Notes?](#what-is-motion-in-a-plane-revision-notes)
@@ -37,18 +34,11 @@ practice_link: "/class-11/physics/motion-in-a-plane-class-11-revision-notes-jee-
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-motion-in-a-plane-revision-notes"></a>What is Motion In A Plane Revision Notes?
 
 # Motion In A Plane Revision Notes
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -61,15 +51,11 @@ practice_link: "/class-11/physics/motion-in-a-plane-class-11-revision-notes-jee-
 
 ---
 
-
 ## <a id="introduction"></a>Introduction
 
 While 1D motion is the "alphabet" of physics, 2D motion—**Motion in a Plane**—is where reality truly unfolds. From the curved path of a football kicked into the air to the constant orbiting of a satellite, the laws of 2D kinematics govern how objects navigate our three-dimensional world. This chapter introduces the power of **Vectors** to split complex motion into independent horizontal and vertical components. In this "Comprehensive" guide, we provide exhaustive derivations for Projectile Motion, proving why every trajectory is a parabola, and deriving the fundamental laws of Circular Motion—all essential for top-tier performance in JEE, [neet](/blog/gravitation-class-11-revision-notes-jee-neet), and Board exams.
 
 ---
-
-
-
 
 ## <a id="1-the-power-of-vectors"></a>1. The Power of Vectors
 
@@ -82,9 +68,6 @@ In 2D [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet), we dea
 2.  **Cross Product (A × B):** AB sinθ n̂. (Result is a vector, e.g., Torque).
 
 ---
-
-
-
 
 ## <a id="2-projectile-motion-the-master-derivations"></a>2. Projectile Motion: The Master Derivations
 
@@ -120,9 +103,6 @@ Distance covered horizontally in time T.
 
 ---
 
-
-
-
 ## <a id="3-uniform-circular-motion-ucm"></a>3. Uniform Circular Motion (UCM)
 
 When an object moves in a circle at a constant speed, its direction changes continuously, meaning it is **accelerating**.
@@ -142,9 +122,6 @@ Consider a particle moving from P to Q in time Δt.
 
 ---
 
-
-
-
 ## <a id="4-relative-velocity-in-two-dimensions"></a>4. Relative Velocity in Two Dimensions
 
 When two objects A and B move in a plane:
@@ -161,9 +138,6 @@ If rain falls vertically (**v_r**) and a man moves horizontally (**v_m**):
 
 ---
 
-
-
-
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
 **Q1: Two projectiles are thrown at angles θ and (90-θ). Compare their ranges.**
@@ -173,7 +147,7 @@ If rain falls vertically (**v_r**) and a man moves horizontally (**v_m**):
 - **Conclusion:** The Horizontal Range is identical for complementary angles.
 
 **Q2: Why is centripetal acceleration called 'center-seeking'?**
-**Answer:** In Uniform Circular Motion, while the speed is constant, the velocity vector is always changing its direction to turn the object. This change (Δv) always points toward the center of the circle, as derived using vector subtraction.
+**Answer:** In Uniform Circular [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet), while the speed is constant, the velocity vector is always changing its direction to turn the object. This change (Δv) always points toward the center of the circle, as derived using vector subtraction.
 
 **Q3: A ball is dropped from a moving train. What is its trajectory as seen from (a) ground, (b) inside train?**
 **Answer:**
@@ -182,17 +156,11 @@ If rain falls vertically (**v_r**) and a man moves horizontally (**v_m**):
 
 ---
 
-
-
-
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 4: Laws of Motion (Forces & FBD)**
 - **Chapter 6: Rotational Motion (Centripetal vs Centrifugal)**
 - **Interactive Projectile Motion Simulator**
-
-
-
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -205,16 +173,6 @@ Motion in a Plane is the first time we truly see the vector nature of the univer
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
@@ -225,15 +183,10 @@ Continue your revision with these related guides:
 - 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
 - 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/motion-in-a-plane-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

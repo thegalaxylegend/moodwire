@@ -12,9 +12,6 @@ practice_link: "/class-11/mathematics/statistics-class-11-revision-notes-jee"
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Statistics Revision Notes?](#what-is-statistics-revision-notes)
@@ -33,18 +30,11 @@ practice_link: "/class-11/mathematics/statistics-class-11-revision-notes-jee"
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Statistics Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-statistics-revision-notes"></a>What is Statistics Revision Notes?
 
 # Statistics Revision Notes
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -57,16 +47,12 @@ practice_link: "/class-11/mathematics/statistics-class-11-revision-notes-jee"
 
 ---
 
-
 ## <a id="introduction"></a>Introduction
 
 **Statistics is the science of data analysis, focusing on Measures of Dispersion which describe how information is spread around a central value. Master Mean Deviation, Variance, and Standard Deviation to excel in data science foundations and probability modeling. This [class](/blog/limits-derivatives-class-11-revision-notes-jee-neet) 11 Math Chapter 15 guide provides all essential formulas for JEE and CBSE success.**
 Statistics is the science of collecting, organizing, and analyzing data to draw meaningful conclusions.
 
 ---
-
-
-
 
 ## <a id="1-measures-of-dispersion"></a>1. Measures of Dispersion
 
@@ -80,9 +66,6 @@ Dispersion refers to the scattering of data around a central value. Two sets of 
 
 ---
 
-
-
-
 ## <a id="2-mean-deviation-md"></a>2. Mean Deviation (M.D.)
 
 Mean deviation can be calculated about the **Mean** or the **Median**.
@@ -93,14 +76,11 @@ Mean deviation can be calculated about the **Mean** or the **Median**.
 3.  Calculated the average of these absolute differences.
 
 **Formula for Ungrouped Data:**
-$$M.D. (\bar{x}) = \frac{\sum |x_i - \bar{x}|}{n}$$
+M.D. (\bar{x}) = \frac{\sum |x_i - \bar{x}|}{n}
 **Formula for Grouped Data:**
 $M.D. (\bar{x}) = \frac{\sum f_i |x_i - \bar{x}|}{N}$ (where $N = \sum f_i$)
 
 ---
-
-
-
 
 ## <a id="3-variance-and-standard-deviation"></a>3. Variance and Standard Deviation
 
@@ -113,11 +93,8 @@ The average of the squared deviations from the mean.
 ### <a id="standard-deviation-sigma"></a>Standard Deviation ($\sigma$):
 The square root of the variance. It is preferred because it shares the same units as the original data.
 - **Short Method for Discrete Frequency Distribution:**
-  $$\sigma = \frac{1}{N} \sqrt{N \sum f_i x_i^2 - (\sum f_i x_i)^2}$$
+  \sigma = \frac{1}{N} \sqrt{N \sum f_i x_i^2 - (\sum f_i x_i)^2}
 ---
-
-
-
 
 ## <a id="4-analysis-of-frequency-distributions"></a>4. Analysis of Frequency Distributions
 
@@ -129,9 +106,6 @@ To compare dispersion between two sets with different means or units, we use C.V
 - **Consistency Rule:** The series with a **lower C.V.** is said to be more stable or consistent.
 
 ---
-
-
-
 
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
@@ -154,17 +128,11 @@ Standard Deviation is generally better for advanced mathematical analysis becaus
 
 ---
 
-
-
-
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 16: [probability](/blog/probability-class-11-revision-notes-jee)**
 - **Chapter 12: Three Dimensional Geometry**
 - [**External Reference:** [NCERT Class 11 Math Chapter 15](https://ncert.nic.in/textbook.php?kemh1=15-16) (Authoritative Source)]
-
-
-
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -174,16 +142,6 @@ Statistics in [class](/blog/conic-sections-class-11-revision-notes-jee) 11 moves
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 
@@ -196,15 +154,10 @@ Continue your [revision](/blog/limits-derivatives-class-11-revision-notes-jee-ne
 - 📖 [Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-combinations-class-11-revision-notes-jee)
 - 📖 [Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-class-11-revision-notes-jee)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/statistics-class-11-revision-notes-jee) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

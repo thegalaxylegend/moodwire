@@ -12,9 +12,6 @@ practice_link: "/class-11/physics/laws-of-motion-class-11-revision-notes-jee-nee
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Laws Of Motion Revision Notes?](#what-is-laws-of-motion-revision-notes)
@@ -34,18 +31,11 @@ practice_link: "/class-11/physics/laws-of-motion-class-11-revision-notes-jee-nee
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-laws-of-motion-revision-notes"></a>What is Laws Of Motion Revision Notes?
 
 # Laws Of Motion Revision Notes
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -58,22 +48,18 @@ practice_link: "/class-11/physics/laws-of-motion-class-11-revision-notes-jee-nee
 
 ---
 
-
 ## <a id="introduction"></a>Introduction
 
 If Kinematics is the "What" of [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet), Dynamics is the "Why." Newton's Laws of [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) are the foundation upon which the entire edifice of Classical Mechanics stands. They allow us to predict the trajectory of objects ranging from a pebble on the beach to the [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) of celestial bodies. This chapter transitions from describing [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) to identifying its causes: **Forces**. These "Comprehensive" revision notes provide exhaustive theoretical depth, including the proof that Newton's Second Law is the "Real Law," the derivation of the Banking of Roads, and advanced Free Body Diagram (FBD) strategies for competitive exams like JEE and NEET.
 
 ---
 
-
-
-
 ## <a id="1-newtons-three-laws-the-principles-of-force"></a>1. Newton's Three Laws: The Principles of Force
 
 ### <a id="i-first-law-law-of-inertia"></a>I. First Law (Law of Inertia)
 **Theorem:** An object remains in its state of rest or uniform [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) unless acted upon by an external unbalanced force.
 - **Inertia:** The inherent property of matter that resists change.
-- **Types:** Inertia of Rest, Motion, and Direction.
+- **Types:** Inertia of Rest, [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet), and Direction.
 
 ### <a id="ii-second-law-the-law-of-dynamics"></a>II. Second Law (The Law of Dynamics)
 **Derivation:** The rate of change of momentum is directly proportional to the applied force.
@@ -89,9 +75,6 @@ If Kinematics is the "What" of [motion](/blog/motion-in-a-plane-class-11-revisio
 
 ---
 
-
-
-
 ## <a id="2-proof-the-second-law-is-the-real-law"></a>2. Proof: The Second Law is the "Real Law"
 
 **Proof:**
@@ -99,9 +82,6 @@ If Kinematics is the "What" of [motion](/blog/motion-in-a-plane-class-11-revisio
 2.  **Second Law contains Third Law:** By using the conservation of momentum (derived from F = dp/dt) for an isolated system, we can prove that **F_ab = -F_ba**.
 
 ---
-
-
-
 
 ## <a id="3-impulse-and-momentum"></a>3. Impulse and Momentum
 
@@ -114,9 +94,6 @@ If Kinematics is the "What" of [motion](/blog/motion-in-a-plane-class-11-revisio
 
 ---
 
-
-
-
 ## <a id="4-equilibrium-of-forces-and-lamis-theorem"></a>4. Equilibrium of Forces & Lami’s Theorem
 
 When multiple forces act on a particle such that the net force is zero, the particle is in equilibrium.
@@ -126,9 +103,6 @@ When multiple forces act on a particle such that the net force is zero, the part
 
 ---
 
-
-
-
 ## <a id="5-the-physics-of-friction"></a>5. The Physics of Friction
 
 Friction is a self-adjusting contact force that opposes relative motion.
@@ -137,9 +111,6 @@ Friction is a self-adjusting contact force that opposes relative motion.
 - **Angle of Friction (θ):** **tanθ = μ**.
 
 ---
-
-
-
 
 ## <a id="6-circular-dynamics-banking-of-roads"></a>6. Circular Dynamics: Banking of Roads
 
@@ -157,9 +128,6 @@ Consider a vehicle of mass **m** on a road banked at angle **θ** with coefficie
 
 ---
 
-
-
-
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
 **Q1: Why is it easier to pull a lawnmower than to push it?**
@@ -173,17 +141,11 @@ Consider a vehicle of mass **m** on a road banked at angle **θ** with coefficie
 
 ---
 
-
-
-
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 5: Work, Energy, and Power**
 - **Chapter 6: System of Particles (Torque)**
 - **Mastering FBD: Pulley and Wedge Problems**
-
-
-
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -196,16 +158,6 @@ Newton’s Laws of Motion provide the fundamental rules of the game of Physics. 
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
@@ -216,15 +168,10 @@ Continue your revision with these related guides:
 - 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
 - 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/laws-of-motion-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

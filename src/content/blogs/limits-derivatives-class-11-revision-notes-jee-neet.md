@@ -12,9 +12,6 @@ practice_link: "/class-11/physics/limits-derivatives-class-11-revision-notes-jee
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Limits Derivatives Revision Notes?](#what-is-limits-derivatives-revision-notes)
@@ -31,18 +28,11 @@ practice_link: "/class-11/physics/limits-derivatives-class-11-revision-notes-jee
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Limits Derivatives Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-limits-derivatives-revision-notes"></a>What is Limits Derivatives Revision Notes?
 
 # Limits Derivatives Revision Notes
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -57,16 +47,12 @@ practice_link: "/class-11/physics/limits-derivatives-class-11-revision-notes-jee
 
 ---
 
-
 ## <a id="introduction"></a>Introduction
 
 **Limits and Derivatives mark the birth of Calculus, defining the mathematics of change and instantaneous motion. Master the algebra of limits, the Sandwich Theorem, and the First Principle of differentiation to excel in advanced physical modeling and engineering. This [class](/blog/mathematical-induction-class-11-revision-notes-jee-neet) 11 Math Chapter 13 guide provides all essential calculus foundations for JEE and CBSE success.**
 Limits and Derivatives mark the birth of Calculus, the mathematics of change.
 
 ---
-
-
-
 
 ## <a id="1-concept-of-limits"></a>1. Concept of Limits
 
@@ -78,9 +64,6 @@ A limit describes the behavior of a function f(x) as x gets closer and closer to
 
 ---
 
-
-
-
 ## <a id="2-algebra-of-limits"></a>2. Algebra of Limits
 
 If limₓ→ₐ f(x) and limₓ→ₐ g(x) exist:
@@ -90,9 +73,6 @@ If limₓ→ₐ f(x) and limₓ→ₐ g(x) exist:
 4.  **Constant Multiple:** lim [k · f(x)] = k · lim f(x)
 
 ---
-
-
-
 
 ## <a id="3-standard-limits-and-sandwich-theorem"></a>3. Standard Limits and Sandwich Theorem
 
@@ -108,9 +88,6 @@ If f(x) ≤ g(x) ≤ h(x) for all x in an interval, and limₓ→ₐ f(x) = lim�
 
 ---
 
-
-
-
 ## <a id="4-derivatives-first-principle"></a>4. Derivatives (First Principle)
 
 The derivative of a function f at x is defined as:
@@ -118,9 +95,6 @@ The derivative of a function f at x is defined as:
 This process of finding the derivative using the limit definition is called **Differentiation from First Principle**.
 
 ---
-
-
-
 
 ## <a id="5-basic-derivative-rules"></a>5. Basic Derivative Rules
 
@@ -132,9 +106,6 @@ This process of finding the derivative using the limit definition is called **Di
     - d/dx (tan x) = sec² x
 
 ---
-
-
-
 
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
@@ -160,17 +131,11 @@ This process of finding the derivative using the limit definition is called **Di
 
 ---
 
-
-
-
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 2: [relations](/blog/relations-functions-class-11-revision-notes-jee-neet) and Functions**
 - **Chapter 14: [mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) Reasoning**
 - [**External Reference:** [NCERT Class 11 Math Chapter 13](https://ncert.nic.in/textbook.php?kemh1=13-16) (Authoritative Source)]
-
-
-
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -180,16 +145,6 @@ Limits and Derivatives are the tools that allow us to calculate the "slope of a 
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 
@@ -202,15 +157,10 @@ Continue your [revision](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 - 📖 [Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)
 - 📖 [Units And Measurements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/units-and-measurements-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/limits-derivatives-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

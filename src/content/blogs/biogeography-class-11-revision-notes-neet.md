@@ -12,9 +12,6 @@ practice_link: "/class-11/biology/biogeography-class-11-revision-notes-neet"
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Biogeography?](#what-is-biogeography)
@@ -34,24 +31,11 @@ practice_link: "/class-11/biology/biogeography-class-11-revision-notes-neet"
   - [Ayush's Personal Note](#ayushs-personal-note)
 - [📚 Related Topics](#-related-topics)
 
-
 # Biogeography Class 11 Biology Revision — NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-biogeography"></a>What is Biogeography?
 
-
-
-
-
-
-
-
 ## <a id="quick-revision-and-recap-biogeography"></a>Quick Revision & Recap: Biogeography
-
 
 Biogeography is the study of the geographical distribution of living organisms. It aims to understand the patterns and processes that have led to the [current](/blog/current-electricity-class-11-revision-notes-neet) distribution of species across the globe. Key terms to recall:
 * **Endemic species**: species found only in a specific geographical area
@@ -77,10 +61,8 @@ The core concepts in biogeography can be summarized as follows:
 Some key formulae and tables to remember in biogeography include:
 * **Species richness**: the number of species in a given area
 * **Species diversity**: the variety of species in a given area, calculated using the Shannon-Wiener index:
-$$H = -\sum_{i=1}^{S}p_i \ln p_i$$
+H = -\sum_{i=1}^{S}p_i \ln p_i
 where $H$ is the Shannon-Wiener index, $S$ is the number of species, and $p_i$ is the proportion of individuals of species $i$
-
-
 
 ### <a id="mcqs"></a>MCQs
 Some practice MCQs to test your understanding of biogeography:
@@ -169,16 +151,6 @@ As I complete my review of biogeography, I am reminded of the importance of this
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
@@ -189,15 +161,10 @@ Continue your [revision](/blog/moving-charges-magnetism-class-11-revision-notes-
 - 📖 [Agriculture Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/agriculture-class-11-revision-notes-neet)
 - 📖 [Body Fluids And Circulation Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/body-fluids-and-circulation-class-11-revision-notes-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/biogeography-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

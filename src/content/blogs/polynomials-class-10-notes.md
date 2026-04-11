@@ -12,7 +12,6 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
 
 *Last Updated: 2026-04-09*
 
-
 <div [class](/blog/quadratic-equations-class-10-notes)="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
@@ -26,11 +25,9 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
 - Polynomial: 1 question on the use of Descartes' rule of signs to determine the number of positive and negative roots of a polynomial equation — frequently
 - Polynomial: 1 question on the use of the rational root theorem to find the rational roots of a polynomial equation — always
 - Polynomial: 1 question on the relationship between the coefficients and the roots of a cubic equation — frequently
-- Polynomial: 1 question on the use of synthetic division to divide a polynomial by a linear polynomial — frequently
+- Polynomial: 1 question on the use of synthetic division to divide a polynomial by a [linear](/blog/pair-of-linear-equations-class-10-notes) polynomial — frequently
 
 </div>
-
-
 
 ## 📋 Table of Contents
 
@@ -42,21 +39,18 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
 - [📝 Practice MCQs](#-practice-mcqs)
 
-
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Remainder Theorem:** $$\frac{p(x)}{x - a} = q(x) + \frac{p(a)}{x - a}$$ — p(x) is the polynomial, q(x) is the quotient, and p(a) is the remainder when p(x) is divided by (x - a).
- - **Factor Theorem:** $$p(a) = 0 \Rightarrow (x - a) \text{ is a factor of } p(x)$$ — p(x) is the polynomial and a is the root.
- - **Polynomial Division:** $$p(x) = d(x)q(x) + r(x)$$ — p(x) is the dividend, d(x) is the divisor, q(x) is the quotient, and r(x) is the remainder.
- - **Degree of Polynomial:** $$\text{Degree of } p(x) = n$$ — n is the highest power of x in p(x).
- - **Zero of Polynomial:** $$p(a) = 0 \Rightarrow a \text{ is a zero of } p(x)$$ — p(x) is the polynomial and a is the zero.
- - **Quadratic Formula:** $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$ — a, b, and c are coefficients of the quadratic equation $ax^2 + bx + c = 0$.
- - **Sum and Product of Roots:** $$x_1 + x_2 = -\frac{b}{a} \text{ and } x_1x_2 = \frac{c}{a}$$ — $x_1$ and $x_2$ are the roots of the quadratic equation $ax^2 + bx + c = 0$.
- - **Cubic Formula:** $$x = \sqrt[3]{-\frac{q}{2} + \sqrt{\frac{q^2}{4} + \frac{p^3}{27}}} + \sqrt[3]{-\frac{q}{2} - \sqrt{\frac{q^2}{4} + \frac{p^3}{27}}}$$ — p and q are coefficients of the cubic equation $x^3 + px + q = 0$.
- - **Descartes' Ru\le of Signs:** $$\text{Number of positive roots} = \text{number of sign changes in } p(x)$$ — p(x) is the polynomial.
- - **Intermediate Value Theorem:** $$\text{If } p(a) < 0 \text{ and } p(b) > 0, \text{ then } \exists c \in (a, b) \text{ such that } p(c) = 0$$ — p(x) is the polynomial and a and b are real numbers.
-
-
+- **Remainder Theorem:** \frac{p(x)}{x - a} = q(x) + \frac{p(a)}{x - a} — p(x) is the polynomial, q(x) is the quotient, and p(a) is the remainder when p(x) is divided by (x - a).
+ - **Factor Theorem:** p(a) = 0 \Rightarrow (x - a) \text{ is a factor of } p(x) — p(x) is the polynomial and a is the root.
+ - **Polynomial Division:** p(x) = d(x)q(x) + r(x) — p(x) is the dividend, d(x) is the divisor, q(x) is the quotient, and r(x) is the remainder.
+ - **Degree of Polynomial:** \text{Degree of } p(x) = n — n is the highest power of x in p(x).
+ - **Zero of Polynomial:** p(a) = 0 \Rightarrow a \text{ is a zero of } p(x) — p(x) is the polynomial and a is the zero.
+ - **Quadratic Formula:** x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} — a, b, and c are coefficients of the quadratic equation $ax^2 + bx + c = 0$.
+ - **Sum and Product of Roots:** x_1 + x_2 = -\frac{b}{a} \text{ and } x_1x_2 = \frac{c}{a} — $x_1$ and $x_2$ are the roots of the quadratic equation $ax^2 + bx + c = 0$.
+ - **Cubic Formula:** x = \sqrt[3]{-\frac{q}{2} + \sqrt{\frac{q^2}{4} + \frac{p^3}{27}}} + \sqrt[3]{-\frac{q}{2} - \sqrt{\frac{q^2}{4} + \frac{p^3}{27}}} — p and q are coefficients of the cubic equation $x^3 + px + q = 0$.
+ - **Descartes' Ru\le of Signs:** \text{Number of positive roots} = \text{number of sign changes in } p(x) — p(x) is the polynomial.
+ - **Intermediate Value Theorem:** \text{If } p(a) < 0 \text{ and } p(b) > 0, \text{ then } \exists c \in (a, b) \text{ such that } p(c) = 0 — p(x) is the polynomial and a and b are real numbers.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -75,8 +69,6 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
  - **Mistake 5:** Not simplifying polynomial expressions fully before solving.
  - *Costs:* 4-6 marks
  - *Fix:* Always simplify expressions like $\frac{x^2 - 4}{x + 2}$ by factoring the numerator to get $\frac{(x + 2)(x - 2)}{x + 2}$, and then cancel common factors to simplify further to $x - 2$. This step is crucial for solving equations and other applications of polynomials.
-
-
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
@@ -108,11 +100,9 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
  - Simplifying further yields $P(2) = 0$.
  - **Answer:** 0
 
-
-
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
-- **The Core Concept:** The core concept that separates high scorers from the rest in the topic of polynomials is the understanding of **remainder theorem and its applications**. This includes the ability to apply the remainder theorem to find roots, to use synthetic division for polynomial division, and to apply these concepts in solving complex polynomial equations.
+- **The Core Concept:** The core concept that separates high scorers from the rest in the topic of polynomials is the understanding of **remainder theorem and its [applications](/blog/applications-of-trigonometry-class-10-notes)**. This includes the ability to apply the remainder theorem to find roots, to use synthetic division for polynomial division, and to apply these concepts in solving complex polynomial equations.
  - **What 85% scorers do:** 
  * They can apply the remainder theorem to find the remainder when a polynomial $p(x)$ is divided by $(x - a)$.
  * They know that if $p(a) = 0$, then $(x - a)$ is a factor of $p(x)$.
@@ -134,38 +124,31 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
 | 85% Scorers | Basic application, struggles with higher degrees | Limited, especially with negative [numbers](/blog/real-numbers-class-10-notes) or non-standard divisors | Difficulty in finding all roots, especially complex or repeated ones |
 | 95% Scorers | Advanced application, mastery of theorem | Proficient, including with negative numbers and non-standard divisors | Systematic approach, combining multiple algebraic techniques |
 
-
-
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-- **The Hidden Pattern:** In the realm of polynomials, a specific pattern emerges when analyzing the roots of a quadratic equation $ax^2 + bx + c = 0$. The roots can be found using the quadratic formula: $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$. Upon closer inspection, it becomes apparent that the nature of the roots (real and distinct, real and equal, or complex) is determined by the discriminant $b^2 - 4ac$. This pattern can be extended to polynomial equations of higher degrees, where the nature of the roots is influenced by the coefficients of the polynomial.,- **How to Apply It:** To apply this pattern, first identify the coefficients of the polynomial and then analyze the discriminant to determine the nature of the roots. For instance, given a polynomial $x^3 + px^2 + qx + r = 0$, the roots can be found using Cardano's formula, which involves the discriminant $\Delta = 18pqr - 4p^3r + p^2q^2 - 4q^3 - 27r^2$. By examining the discriminant, one can infer the nature of the roots and proceed with solving the polynomial equation.,- **PYQ-Specific Trend:** Upon analyzing previous years' questions (PYQs), a trend emerges where polynomial equations with specific coefficients are used to test the candidate's understanding of the roots' nature. For examp\le, equations of the form $x^2 + px + q = 0$ with $p$ and $q$ being integers often appear, requiring the candidate to determine the nature of the roots and find the values of $p$ and $q$ that satisfy certain conditions. This trend is also visible in higher-degree polynomial equations, where the coefficients are chosen to test the candidate's ability to apply the pattern and find the roots.,- **Solving Strategy:** When faced with a polynomial equation, first identify the degree of the polynomial and then apply the relevant formula to find the roots. For quadratic equations, use the quadratic formula, while for higher-degree equations, use formulas like Cardano's formula or synthetic division. Remember to analyze the discriminant to determine the nature of the roots and proceed accordingly. With practice and patience, one can master the art of solving polynomial equations and tack\le even the most challenging problems with ease.
+- **The Hidden Pattern:** polynomials, a specific pattern emerges when analyzing the roots of a quadratic equation $ax^2 + bx + c = 0$. The roots can be found using the quadratic formula: x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}. Upon closer inspection, it becomes apparent that the nature of the roots (real and distinct, real and equal, or complex) is determined by the discriminant $b^2 - 4ac$. This pattern can be extended to polynomial equations of higher degrees, where the nature of the roots is influenced by the coefficients of the polynomial.,- **How to Apply It:** To apply this pattern, first identify the coefficients of the polynomial and then analyze the discriminant to determine the nature of the roots. For instance, given a polynomial $x^3 + px^2 + qx + r = 0$, the roots can be found using Cardano's formula, which involves the discriminant $\Delta = 18pqr - 4p^3r + p^2q^2 - 4q^3 - 27r^2$. By examining the discriminant, one can infer the nature of the roots and proceed with solving the polynomial equation.,- **PYQ-Specific Trend:** Upon analyzing previous years' questions (PYQs), a trend emerges where polynomial equations with specific coefficients are used to test the candidate's understanding of the roots' nature. For examp\le, equations of the form $x^2 + px + q = 0$ with $p$ and $q$ being integers often appear, requiring the candidate to determine the nature of the roots and find the values of $p$ and $q$ that satisfy certain conditions. This trend is also visible in higher-degree polynomial equations, where the coefficients are chosen to test the candidate's ability to apply the pattern and find the roots.,- **Solving Strategy:** When faced with a polynomial equation, first identify the degree of the polynomial and then apply the relevant formula to find the roots. For quadratic equations, use the quadratic formula, while for higher-degree equations, use formulas like Cardano's formula or synthetic division. Remember to analyze the discriminant to determine the nature of the roots and proceed accordingly. With practice and patience, one can master the art of solving polynomial equations and tack\le even the most challenging problems with ease.
 
 | Polynomial Degree | Formula | Discriminant |
 | --- | --- | --- |
 | Quadratic ($ax^2 + bx + c = 0$) | $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$ | $b^2 - 4ac$ |
 | Cubic ($x^3 + px^2 + qx + r = 0$) | Cardano's formula | $18pqr - 4p^3r + p^2q^2 - 4q^3 - 27r^2$ |
 
-
-
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- $${\rm If}\ {a_n} = 0$, then $${x - {\alpha}_1}$$ is a factor of $${f(x)}$$, where $${\alpha}_1}$$ is a root.
- - $${f(x)} = {a_n}{x^n} + {a_{n-1}}{x^{n-1}} + {a_{n-2}}{x^{n-2}} + ... + {a_1}x + {a_0}$$ 
- - $${(x + y)}^n = {\binom{n}{0}}{x^n} + {\binom{n}{1}}{x^{n-1}}y + {\binom{n}{2}}{x^{n-2}}{y^2} + ... + {\binom{n}{n}}{y^n}$$ 
- - $${(x - y)}^n = {\binom{n}{0}}{x^n} - {\binom{n}{1}}{x^{n-1}}y + {\binom{n}{2}}{x^{n-2}}{y^2} - ... + {(-1)}^n{\binom{n}{n}}{y^n}$$ 
- - $${a_n}{x^n} + {a_{n-1}}{x^{n-1}} + {a_{n-2}}{x^{n-2}} + ... + {a_1}x + {a_0} = 0$$ has $${n}$$ roots.
+- {\rm If}\ {a_n} = 0$, then {x - {\alpha}_1} is a factor of {f(x)}, where {\alpha}_1} is a root.
+ - {f(x)} = {a_n}{x^n} + {a_{n-1}}{x^{n-1}} + {a_{n-2}}{x^{n-2}} + ... + {a_1}x + {a_0} 
+ - {(x + y)}^n = {\binom{n}{0}}{x^n} + {\binom{n}{1}}{x^{n-1}}y + {\binom{n}{2}}{x^{n-2}}{y^2} + ... + {\binom{n}{n}}{y^n} 
+ - {(x - y)}^n = {\binom{n}{0}}{x^n} - {\binom{n}{1}}{x^{n-1}}y + {\binom{n}{2}}{x^{n-2}}{y^2} - ... + {(-1)}^n{\binom{n}{n}}{y^n} 
+ - {a_n}{x^n} + {a_{n-1}}{x^{n-1}} + {a_{n-2}}{x^{n-2}} + ... + {a_1}x + {a_0} = 0 has {n} roots.
  - Key facts:
- - When a polynomial $${f(x)}$$ is divided by $${(x - {\alpha})}$$, the remainder is $${f({\alpha})}$$.
- - The polynomial $${f(x)}$$ has $${n}$$ roots.
- - If the degree of $${f(x)}$$ is $${n}$$, then the number of turning points is $${n-1}$$.
+ - When a polynomial {f(x)} is divided by {(x - {\alpha})}, the remainder is {f({\alpha})}.
+ - The polynomial {f(x)} has {n} roots.
+ - If the degree of {f(x)} is {n}, then the number of turning points is {n-1}.
  - Common mistakes:
- - Forgetting that if $${a_n} = 0$$, then $${x}$$ is a factor of $${f(x)}$$.
- - Not checking the degree of the remainder when dividing polynomials. $$ $
-
-
+ - Forgetting that if {a_n} = 0, then {x} is a factor of {f(x)}.
+ - Not checking the degree of the remainder when dividing polynomials.  $
 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
-
 
 **1. If $p(x)$ is a polynomial of degree 4, and $p(1) = 5$, $p(2) = 10$, $p(3) = 17$, $p(4) = 26$, then $p(5)$ is equal to**
 
@@ -220,7 +203,6 @@ D) $3$
 
 **Answer:** C) Given that, $f'(x) = 3ax^2 + 2bx + c = 2x + 1$. Equating the coefficients, we get, $3a = 0$, $2b = 2$, $c = 1$. Thus, $f(x) = x^2 + x + d$. Since, $x = -2$ is a point of local maxima, $f''(-2) < 0$. We have, $f''(x) = 2$. Hence, we must have $f'(x) = 0$ at $x = -2$. Thus, $f'(-2) = -4 + 1 = -3 = 0$, which is not possible. Hence, the given condition is not sufficient to determine the value of $c$
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
@@ -228,7 +210,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

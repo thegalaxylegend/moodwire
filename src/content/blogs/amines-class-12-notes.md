@@ -12,9 +12,6 @@ practice_link: "/class-11/chemistry/amines-class-12-notes"
 
 *Last Updated: 2026-03-30*
 
-
-
-
 ## 📋 Table of Contents
 
   - [6. Reactions with Aldehydes and Ketones](#6-reactions-with-aldehydes-and-ketones)
@@ -33,7 +30,6 @@ practice_link: "/class-11/chemistry/amines-class-12-notes"
   - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
 - [📚 Related Topics](#-related-topics)
 
-
 - [6. Reactions with Aldehydes and Ketones](#6-reactions-with-aldehydes-and-ketones)
   - [7. Reactions with Acid Chlorides](#7-reactions-with-acid-chlorides)
   - [8. Reactions with Isocyanates](#8-reactions-with-isocyanates)
@@ -45,7 +41,6 @@ practice_link: "/class-11/chemistry/amines-class-12-notes"
 
   - [15. Practice Questions and Solutions](#15-practice-questions-and-solutions)
   - [10. Conclusion and Final Preparation](#10-conclusion-and-final-preparation)
-
 
 ### <a id="6-reactions-with-aldehydes-and-ketones"></a>6. Reactions with Aldehydes and Ketones
 - **Imine Formation**: Reaction of $1^\circ$ amines with aldehydes/ketones to form imines (Schiff's bases).
@@ -94,8 +89,8 @@ practice_link: "/class-11/chemistry/amines-class-12-notes"
 - **Nuclear Magnetic Resonance (NMR) Spectroscopy**: Used to determine the structure of amines.
 - **Mass Spectrometry (MS)**: Used to determine the molecular weight and fragmentation pattern of amines.
 - **Key Points**:
-    - IR: $N-H$ stretch ($$3300-3500 \, \text{cm}^{-1}$$), $C-N$ stretch ($$1000-1200 \, \text{cm}^{-1}$$)
-    - NMR: $N-H$ signal ($$0-5 \, \text{ppm}$$), $C-H$ signal ($$1-4 \, \text{ppm}$$)
+    - IR: $N-H$ stretch (3300-3500 \, \text{cm}^{-1}), $C-N$ stretch (1000-1200 \, \text{cm}^{-1})
+    - NMR: $N-H$ signal (0-5 \, \text{ppm}), $C-H$ signal (1-4 \, \text{ppm})
     - MS: Molecular ion peak, fragmentation peaks
 - **Interpretation**:
     - IR: Identify functional groups, determine molecular structure
@@ -188,7 +183,6 @@ By incorporating the Test Center into your daily study routine and following the
 - **Final Tip**: Use the Test Center at /[class](/blog/solid-state-class-12-notes)-11/chemistry/amines-[class](/blog/solid-state-class-12-notes)-12-notes daily to practice and review. It’s your key to mastering amines and acing your exams.
 - **Motivation**: You’ve made it this far, and with consistent effort, you can achieve your goals. Stay focused, keep practicing, and believe in yourself. Success in JEE and NEET is within your reach.
 
-
 ---
 
 ### <a id="-ready-to-ace-your-exam"></a>🚀 Ready to Ace Your Exam?
@@ -196,7 +190,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 
@@ -209,15 +202,10 @@ Continue your revision with these related guides:
 - 📖 [Surface Chemistry Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/surface-chemistry-class-12-notes)
 - 📖 [Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-integrals-class-12-notes)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/amines-class-12-notes) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

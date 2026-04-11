@@ -12,9 +12,6 @@ practice_link: "/class-11/physics/kinetic-theory-class-11-revision-notes-jee-nee
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Kinetic Theory Revision Notes?](#what-is-kinetic-theory-revision-notes)
@@ -31,18 +28,11 @@ practice_link: "/class-11/physics/kinetic-theory-class-11-revision-notes-jee-nee
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Kinetic Theory Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-kinetic-theory-revision-notes"></a>What is Kinetic Theory Revision Notes?
 
 # Kinetic Theory Revision Notes
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -55,15 +45,11 @@ practice_link: "/class-11/physics/kinetic-theory-class-11-revision-notes-jee-nee
 
 ---
 
-
 ## <a id="introduction"></a>Introduction
 
 The Kinetic Theory of Gases (KTG) provides a bridge between the macroscopic [properties](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet) of gases (Pressure, Volume, Temperature) and the microscopic behavior of individual molecules. It treats a gas as a collection of billions of tiny, rapidly moving particles in constant random motion. Understanding these molecular dynamics is essential for explaining heat, thermodynamics, and the very nature of matter. In this "Comprehensive" guide, we provide exhaustive derivations for the Pressure of an Ideal Gas, the Kinetic Interpretation of Temperature, and the Law of Equipartition of Energy—providing the technical depth required for top-tier performance in JEE and NEET.
 
 ---
-
-
-
 
 ## <a id="1-postulates-of-the-kinetic-theory"></a>1. Postulates of the Kinetic Theory
 
@@ -75,9 +61,6 @@ To model an "Ideal Gas," we assume:
 5.  Collisions are perfectly elastic and instantaneous.
 
 ---
-
-
-
 
 ## <a id="2-derivation-mastersheet-pressure-of-an-ideal-gas"></a>2. Derivation Master-Sheet: Pressure of an Ideal Gas
 
@@ -97,9 +80,6 @@ To model an "Ideal Gas," we assume:
 
 ---
 
-
-
-
 ## <a id="3-kinetic-interpretation-of-temperature"></a>3. Kinetic Interpretation of Temperature
 
 **Derivation:**
@@ -112,9 +92,6 @@ To model an "Ideal Gas," we assume:
 
 ---
 
-
-
-
 ## <a id="4-degrees-of-freedom-and-equipartition"></a>4. Degrees of Freedom and Equipartition
 
 **Degree of Freedom (f):** The number of independent ways in which a molecule can possess energy.
@@ -125,9 +102,6 @@ To model an "Ideal Gas," we assume:
 **Law of Equipartition of Energy:** In [thermal](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet) equilibrium, the total energy is equally distributed among all degrees of freedom, and the energy associated with each degree is **1/2 kT**.
 
 ---
-
-
-
 
 ## <a id="5-specific-heat-capacities-and-mayers-relation"></a>5. Specific Heat Capacities & Mayer's Relation
 
@@ -148,9 +122,6 @@ To model an "Ideal Gas," we assume:
 
 ---
 
-
-
-
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
 **Q1: Why does the root-mean-square (rms) velocity increase with temperature?**
@@ -167,17 +138,11 @@ Helium has a higher ratio of specific heats than Oxygen.
 
 ---
 
-
-
-
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 11: Thermodynamics (Internal Energy Deep-Dive)**
 - **Chapter 10: Thermal [properties](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) (Specific Heat Basics)**
 - **KTG and Gas Laws: Advanced Numerical Vault**
-
-
-
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -190,16 +155,6 @@ The Kinetic Theory of Gases transforms our view of [matter](/blog/thermal-proper
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
@@ -210,15 +165,10 @@ Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) wit
 - 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
 - 📖 [Thermal Properties Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/kinetic-theory-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

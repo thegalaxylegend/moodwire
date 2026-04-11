@@ -12,9 +12,6 @@ practice_link: "/class-11/physics/mechanical-properties-of-fluids-class-11-revis
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Mechanical Properties Of Fluids Revision Notes?](#what-is-mechanical-properties-of-fluids-revision-notes)
@@ -36,18 +33,11 @@ practice_link: "/class-11/physics/mechanical-properties-of-fluids-class-11-revis
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Mechanical Properties Of Fluids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-mechanical-properties-of-fluids-revision-notes"></a>What is Mechanical Properties Of Fluids Revision Notes?
 
 # Mechanical Properties Of Fluids Revision Notes
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -60,15 +50,11 @@ practice_link: "/class-11/physics/mechanical-properties-of-fluids-class-11-revis
 
 ---
 
-
 ## <a id="introduction"></a>Introduction
 
 Fluids—liquids and gases—are materials that have no definite shape and yield to even the slightest external force. The study of fluids is divided into **Hydrostatics** (fluids at rest) and **Hydrodynamics** (fluids in [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet)). This chapter explores the fundamental laws that explain how airplanes fly, how hydraulic brakes stop a car, and why water droplets form perfect spheres. In this "Comprehensive" guide, we provide exhaustive derivations for Bernoulli’s Theorem, the Equation of Continuity, and Terminal Velocity—providing the technical rigor required for top-tier competitive exams like JEE and NEET.
 
 ---
-
-
-
 
 ## <a id="1-fluid-statics-pressure-and-pascals-law"></a>1. Fluid Statics: Pressure and Pascal's Law
 
@@ -85,9 +71,6 @@ Fluids—liquids and gases—are materials that have no definite shape and yield
 **Application:** Hydraulic Lift. **F1 / A1 = F2 / A2**.
 
 ---
-
-
-
 
 ## <a id="2-fluid-dynamics-the-laws-of-flow"></a>2. Fluid Dynamics: The Laws of Flow
 
@@ -115,9 +98,6 @@ Fluids—liquids and gases—are materials that have no definite shape and yield
 
 ---
 
-
-
-
 ## <a id="3-viscosity-and-stokes-law"></a>3. Viscosity and Stokes’ Law
 
 Viscosity is the internal friction between fluid layers.
@@ -137,9 +117,6 @@ When a body falls through a viscous medium, it eventually reaches a constant spe
 
 ---
 
-
-
-
 ## <a id="4-surface-tension-and-capillarity"></a>4. Surface Tension and Capillarity
 
 Surface tension is the result of cohesive forces between molecules at the surface of a liquid.
@@ -156,9 +133,6 @@ Surface tension is the result of cohesive forces between molecules at the surfac
 
 ---
 
-
-
-
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
 **Q1: Why do airplanes fly?**
@@ -174,17 +148,11 @@ Surface tension is the result of cohesive forces between molecules at the surfac
 
 ---
 
-
-
-
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 8: Mechanical [properties](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet) of Solids**
 - **Chapter 10: [thermal](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet) Properties of Matter**
 - **Mastering Hydrodynamics: Advanced Problem Set**
-
-
-
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -197,16 +165,6 @@ The physics of fluids is the physics of flow—from the blood in our veins to th
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
@@ -217,21 +175,16 @@ Continue your [revision](/blog/thermal-properties-of-matter-class-11-revision-no
 - 📖 [Kinetic Theory Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)
 - 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/kinetic-theory-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
 - 📖 [Thermal Properties Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet)

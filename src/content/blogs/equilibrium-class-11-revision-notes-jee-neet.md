@@ -12,9 +12,6 @@ practice_link: "/class-11/physics/equilibrium-class-11-revision-notes-jee-neet"
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Equilibrium Revision Notes?](#what-is-equilibrium-revision-notes)
@@ -46,23 +43,11 @@ practice_link: "/class-11/physics/equilibrium-class-11-revision-notes-jee-neet"
   - [Board Exam Tip:](#board-exam-tip)
 - [📚 Related Topics](#-related-topics)
 
-
 # Equilibrium Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-equilibrium-revision-notes"></a>What is Equilibrium Revision Notes?
 
 # Equilibrium Revision Notes
-
-
-
-
-
-
-
 
 1. [Why Equilibrium is the "Balancing Act" of Chemistry](#intro)
 2. [Physical vs Chemical Equilibrium: The Dynamic State](#types)
@@ -78,11 +63,6 @@ practice_link: "/class-11/physics/equilibrium-class-11-revision-notes-jee-neet"
 12. [Practice MCQs (JEE/NEET Level)](#mcqs)
 13. [Ayush's Equilibrium Strategy](#ayush-strategy)
 
-
-
-
-
-
 ## <a id="1-why-equilibrium-is-the-balancing-act-of-chemistry"></a>1. Why Equilibrium is the "Balancing Act" of Chemistry
 
 **[chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Equilibrium is the state in a reversible reaction where the rate of the forward reaction equals the rate of the backward reaction, and the concentrations of reactants and products remain constant over time.**
@@ -95,11 +75,6 @@ This chapter is massive — it combines [chemical](/blog/chemical-bonding-class-
 - **CBSE Boards**: This chapter carries 7 marks (combined with [thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) unit in some schemes).
 
 ---
-
-
-
-
-
 
 ## <a id="2-physical-vs-chemical-equilibrium-the-dynamic-state"></a>2. Physical vs Chemical Equilibrium: The Dynamic State
 
@@ -115,20 +90,15 @@ This chapter is massive — it combines [chemical](/blog/chemical-bonding-class-
 
 ---
 
-
-
-
-
-
 ## <a id="3-the-equilibrium-constant-k_c-and-k_p-the-math-of-balance"></a>3. The Equilibrium Constant ($K_c$ and $K_p$): The Math of Balance
 
 **The Equilibrium Constant ($K$) is a dimensionless quantity that expresses the ratio of product concentrations to reactant concentrations, each raised to the power of their stoichiometric coefficients, at equilibrium.**
 
 For $aA + bB \rightleftharpoons cC + dD$:
-$$K_c = \frac{[C]^c [D]^d}{[A]^a [B]^b}$$
+K_c = \frac{[C]^c [D]^d}{[A]^a [B]^b}
 
 ### <a id="k_p-vs-k_c-relationship"></a>$K_p$ vs $K_c$ Relationship
-$$K_p = K_c (RT)^{\Delta n_g}$$
+K_p = K_c (RT)^{\Delta n_g}
 where $\Delta n_g$ = (moles of gaseous products) - (moles of gaseous reactants).
 
 ### <a id="rules-for-manipulating-k"></a>Rules for Manipulating K
@@ -143,11 +113,6 @@ where $\Delta n_g$ = (moles of gaseous products) - (moles of gaseous reactants).
 
 ---
 
-
-
-
-
-
 ## <a id="4-reaction-quotient-q-vs-k-predicting-the-shift"></a>4. Reaction Quotient ($Q$) vs $K$: Predicting the Shift
 
 **The Reaction Quotient ($Q$) has the same mathematical form as $K$ but is calculated using the current (non-equilibrium) concentrations of reactants and products.**
@@ -159,11 +124,6 @@ where $\Delta n_g$ = (moles of gaseous products) - (moles of gaseous reactants).
 | $Q = K$ | No shift | System is at equilibrium |
 
 ---
-
-
-
-
-
 
 ## <a id="5-le-chateliers-principle-the-stress-response"></a>5. Le Chatelier's Principle: The Stress Response
 
@@ -185,11 +145,6 @@ where $\Delta n_g$ = (moles of gaseous products) - (moles of gaseous reactants).
 
 ---
 
-
-
-
-
-
 ## <a id="6-acids-bases-and-their-definitions-arrhenius-vs-bronsted-vs-lewis"></a>6. Acids, Bases, and Their Definitions: Arrhenius vs Bronsted vs Lewis
 
 **Acids are substances that can donate protons ($H^+$) or accept electron pairs, while Bases are substances that can accept protons or donate electron pairs, depending on the theory applied.**
@@ -202,16 +157,11 @@ where $\Delta n_g$ = (moles of gaseous products) - (moles of gaseous reactants).
 
 ---
 
-
-
-
-
-
 ## <a id="7-ph-poh-and-the-ionic-product-of-water-k_w"></a>7. pH, pOH, and the Ionic Product of Water ($K_w$)
 
 **pH is the negative logarithm (base 10) of the hydrogen ion concentration ($[H^+]$) in a solution, providing a convenient scale to express acidity.**
 
-$$pH = -\log[H^+]pOH = -\log[OH^-]pH + pOH = pK_w = 14 \text{ (at 298 K)}$$
+pH = -\log[H^+]pOH = -\log[OH^-]pH + pOH = pK_w = 14 \text{ (at 298 K)}
 
 ### <a id="the-autoprotolysis-of-water"></a>The Autoprotolysis of Water
 $K_w = [H^+][OH^-] = 10^{-14} \text{ at 298 K}$.
@@ -220,11 +170,6 @@ At neutral pH: $[H^+] = [OH^-] = 10^{-7} M$, so $pH = 7$.
 ### <a id="very-dilute-acid-the-108-m-hcl-trap-see-traps-section"></a>Very Dilute Acid: The $10^{-8}$ M HCl Trap (See Traps Section)
 
 ---
-
-
-
-
-
 
 ## <a id="8-ostwalds-dilution-law-and-degree-of-dissociation-alpha"></a>8. Ostwald's Dilution Law and Degree of Dissociation ($\alpha$)
 
@@ -236,11 +181,6 @@ This means: **Lower concentration → Higher dissociation**. This is counterintu
 
 ---
 
-
-
-
-
-
 ## <a id="9-buffer-solutions-and-hendersonhasselbalch-equation"></a>9. Buffer Solutions and Henderson-Hasselbalch Equation
 
 **A Buffer Solution is a solution that resists changes in pH upon the addition of small amounts of acid or base.**
@@ -250,17 +190,12 @@ This means: **Lower concentration → Higher dissociation**. This is counterintu
 - **Basic Buffer**: Weak Base + Conjugate Acid Salt ($NH_4OH + NH_4Cl$).
 
 ### <a id="hendersonhasselbalch-equation"></a>Henderson-Hasselbalch Equation
-$$pH = pK_a + \log \frac{[\text{Salt}]}{[\text{Acid}]}$$ (Acidic Buffer)
-$$pOH = pK_b + \log \frac{[\text{Salt}]}{[\text{Base}]}$$ (Basic Buffer)
+pH = pK_a + \log \frac{[\text{Salt}]}{[\text{Acid}]} (Acidic Buffer)
+pOH = pK_b + \log \frac{[\text{Salt}]}{[\text{Base}]} (Basic Buffer)
 
 **JEE Trick**: Buffer capacity is maximum when $[\text{Salt}] = [\text{Acid}]$, i.e., when $pH = pK_a$.
 
 ---
-
-
-
-
-
 
 ## <a id="10-solubility-product-k_sp-and-common-ion-effect"></a>10. Solubility Product ($K_{sp}$) and Common Ion Effect
 
@@ -278,11 +213,6 @@ For $AgCl(s) \rightleftharpoons Ag^+(aq) + Cl^-(aq)$: $K_{sp} = [Ag^+][Cl^-]$.
 Adding a common ion (e.g., $NaCl$ to a saturated $AgCl$ solution) suppresses the solubility of $AgCl$ because $[Cl^-]$ increases, pushing the equilibrium backward.
 
 ---
-
-
-
-
-
 
 ## <a id="11-the-trap-section-equilibrium-pitfalls-that-cost-marks"></a>11. The "Trap" Section: Equilibrium Pitfalls That Cost Marks
 
@@ -304,11 +234,6 @@ Adding a common ion (e.g., $NaCl$ to a saturated $AgCl$ solution) suppresses the
 - **Why**: Partial pressures and concentrations remain unchanged. Only total pressure increase has no thermodynamic effect.
 
 ---
-
-
-
-
-
 
 ## <a id="12-practice-mcqs-jeeneet-level"></a>12. Practice MCQs (JEE/NEET Level)
 
@@ -351,11 +276,6 @@ D) $pK_a - \log[\text{Salt}]/[\text{Acid}]$
 
 ---
 
-
-
-
-
-
 ## <a id="13-ayushs-equilibrium-strategy"></a>13. Ayush's Equilibrium Strategy
 
 Equilibrium is a 2-headed beast: [chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Equilibrium and Ionic Equilibrium. I treated them as completely separate sub-chapters.
@@ -376,19 +296,8 @@ For CBSE, always state Le Chatelier's Principle in full before applying it. Then
 
 ---
 
-
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 
@@ -401,15 +310,10 @@ Continue your [revision](/blog/states-of-matter-class-11-revision-notes-jee-neet
 - 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
 - 📖 [Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/equilibrium-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

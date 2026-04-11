@@ -8,12 +8,9 @@ practice_link: "/class-11/biology/agriculture-class-11-revision-notes-neet"
 ---
 
 
-![Agriculture Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog-images/agriculture-class-11-revision-notes-neet.webp)
+![Agriculture Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog-images/agriculture-class-11-revision-notes-neet.webp)
 
 *Last Updated: 2026-03-28*
-
-
-
 
 ## 📋 Table of Contents
 
@@ -24,18 +21,13 @@ practice_link: "/class-11/biology/agriculture-class-11-revision-notes-neet"
 - [MCQs](#mcqs)
 - [📚 Related Topics](#-related-topics)
 
-
-# Agriculture Class 11 Biology Revision — NEET 2026 Grandmaster Guide
-
-
-
-
+# Agriculture Class 11 Biology Revision — MEET 2026 Grandmaster Guide
 
 ## <a id="what-is-agriculture"></a>What is Agriculture?
 
-{"title":"Introduction to Agriculture","content":"Agriculture is the backbone of our economy, providing food, shelter, and livelihood to millions of people. It is a vital sector that contributes significantly to the GDP of our country. The study of agriculture is crucial for understanding the principles and practices of crop production, soil management, and livestock farming. In this chapter, we will the world of agriculture, exploring its importance, types, and techniques. We will also examine the factors affecting crop production, such as climate, soil, and water. through this study guide, we will discover the intricacies of agriculture and its significance in our daily lives.","weightage":"The weightage of this topic in the [class](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet) 11 Biology syllabus is around 10%, making it a crucial aspect to focus on for the exams.","context":"The context of agriculture is not just limited to farming; it also encompasses the social, economic, and environmental aspects. As we progress through this study guide, we will analyze the complexities of agriculture and its far-reaching implications."}
+{"title":"Introduction to Agriculture","content":"Agriculture is the backbone of our economy, providing food, shelter, and livelihood to millions of people. It is a vital sector that contributes significantly to the GDP of our country. The study of agriculture is crucial for understanding the principles and practices of crop production, soil management, and livestock farming. In this chapter, we will the world of agriculture, exploring its importance, types, and techniques. We will also examine the factors affecting crop production, such as climate, soil, and water. Through this study guide, we will discover the intricacies of agriculture and its significance in our daily lives.","weightage":"The weightage of this topic in the [class](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet) 11 Biology syllabus is around 10%, making it a crucial aspect to focus on for the exams.","context":"The context of agriculture is not just limited to farming; it also encompasses the social, economic, and environmental aspects. As we progress through this study guide, we will analyze the complexities of agriculture and its far-reaching implications."}
 
-## <a id="ayushs-note-the-mistake-i-made"></a>Ayush's Note — The Mistake I Made
+## <a id="Ayush-note-the-mistake-i-made"></a>Ayush's Note — The Mistake I Made
 
 {"title":"Personal Mistake/Hack","note":"One of the most significant mistakes I made while preparing for my [class](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet) 11 Biology exams was not giving enough attention to the agricultural practices and their impact on the environment. I used to think that agriculture was just about farming, but it's so much more than that. My hack is to always keep a note of the key terms and concepts related to agriculture, such as crop rotation, irrigation, and fertilizers, and to revise them regularly.","hack":"To make the most of this topic, create flashcards with key terms on one side and their definitions on the other, and quiz yourself regularly."}
 
@@ -53,11 +45,9 @@ practice_link: "/class-11/biology/agriculture-class-11-revision-notes-neet"
 
 {"question1":{"question":"What is the primary difference between subsistence farming and commercial farming?","trap":"Many students get confused between these two types of farming. Subsistence farming is for personal consumption, while commercial farming is for profit.","answer":"Subsistence farming is for personal consumption, while commercial farming is for profit."},"question2":{"question":"What is the role of soil management in agriculture?","trap":"Soil management is often overlooked, but it is crucial for maintaining soil fertility and health. It involves practices like crop rotation, addition of organic matter, and conservation tillage.","answer":"Soil management is vital for maintaining soil fertility and health."},"question3":{"question":"What is the significance of crop rotation in agriculture?","trap":"Crop rotation is often misunderstood, but it is essential for breaking disease and pest cycles, improving soil fertility, and increasing crop yields.","answer":"Crop rotation is essential for breaking disease and pest cycles, improving soil fertility, and increasing crop yields."}}
 
-
-
 - Agriculture is the backbone of our economy.,There are several types of agriculture, including subsistence farming, commercial farming, and organic farming.,Crop production is a critical aspect of agriculture.,Soil management is vital for maintaining soil fertility and health.,Livestock farming involves the rearing of animals for food and other products.
 
-## <a id="mcqs"></a>MCQs
+## <a id="MCQs"></a>MCQs
 
 **1. What is the primary goal of subsistence farming?**
 To produce crops for sale
@@ -106,8 +96,7 @@ Organic farming has no role in agriculture
 *This post was curated by Jules, [exam](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet) Compass Bot, and edited for accuracy by Ayush.*
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
+*This post was curated by Jules, [exam](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet) Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 
@@ -118,17 +107,12 @@ Continue your [revision](/blog/3d-geometry-intro-class-11-revision-notes-jee-nee
 - 📖 [Ai Study Hack Pomodoro Class 11 Computer Science Recap — CBSE 2026 Quick Guide](/blog/ai-study-hack-pomodoro-class-11-revision-notes-neet)
 - 📖 [Ai Exam Prep Future Class 11 Computer Science Recap — CBSE 2026 Quick Guide](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet)
 - 📖 [3d Geometry Intro Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet)
-- 📖 [Animal Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)
-
+- 📖 [Animal Kingdom Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)
 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/agriculture-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 
@@ -139,11 +123,9 @@ Continue your [revision](/blog/3d-geometry-intro-class-11-revision-notes-jee-nee
 - 📖 [Ai Exam Prep Future Class 11 Computer Science Recap — CBSE 2026 Quick Guide](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet)
 - 📖 [Ai Study Hack Pomodoro Class 11 Computer Science Recap — CBSE 2026 Quick Guide](/blog/ai-study-hack-pomodoro-class-11-revision-notes-neet)
 - 📖 [3d Geometry Intro Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet)
-- 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
-
+- 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
 
 ## 🔁 Last 5 Minutes Box
-
 
    * Crop: plants grown on large scale for food, fodder or commercial purposes
    * Crop variety: crop grown for specific feature/characteristic

@@ -12,9 +12,6 @@ practice_link: "/class-11/physics/mathematical-induction-class-11-revision-notes
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Mathematical Induction Revision Notes?](#what-is-mathematical-induction-revision-notes)
@@ -31,18 +28,11 @@ practice_link: "/class-11/physics/mathematical-induction-class-11-revision-notes
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-mathematical-induction-revision-notes"></a>What is Mathematical Induction Revision Notes?
 
 # Mathematical Induction Revision Notes
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -140,16 +130,6 @@ You can still use induction to prove the statement for $n \geq 5$ by using $n=5$
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
@@ -160,15 +140,10 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 - 📖 [Limits Derivatives Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/limits-derivatives-class-11-revision-notes-jee-neet)
 - 📖 [Three Dimensional Geometry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/three-dimensional-geometry-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/mathematical-induction-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

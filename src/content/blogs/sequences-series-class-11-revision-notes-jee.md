@@ -12,9 +12,6 @@ practice_link: "/class-11/mathematics/sequences-series-class-11-revision-notes-j
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Sequences Series Revision Notes?](#what-is-sequences-series-revision-notes)
@@ -31,18 +28,11 @@ practice_link: "/class-11/mathematics/sequences-series-class-11-revision-notes-j
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Sequences Series Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-sequences-series-revision-notes"></a>What is Sequences Series Revision Notes?
 
 # Sequences Series Revision Notes
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -58,16 +48,12 @@ practice_link: "/class-11/mathematics/sequences-series-class-11-revision-notes-j
 
 ---
 
-
 ## <a id="introduction"></a>Introduction
 
 **Sequences and Series describe mathematical patterns and progressions, forming the basis for growth modeling and summation in calculus and finance. Master Arithmetic Progression (AP), Geometric Progression (GP), and the powerful AM-GM relationship to solve complex numerical patterns in competitive exams. This [class](/blog/conic-sections-class-11-revision-notes-jee) 11 Math Chapter 9 summary provides all essential formulas for JEE and CBSE success.**
 Sequences and Series are the mathematical representation of progression and patterns.
 
 ---
-
-
-
 
 ## <a id="1-sequences-and-series-basics"></a>1. Sequences and Series Basics
 
@@ -76,9 +62,6 @@ Sequences and Series are the mathematical representation of progression and patt
 *   **Finite vs. Infinite:** If the number of terms is limited, it's finite; otherwise, it's infinite.
 
 ---
-
-
-
 
 ## <a id="2-arithmetic-progression-ap"></a>2. Arithmetic Progression (AP)
 
@@ -91,9 +74,6 @@ A sequence in which each term after the first is obtained by adding a fixed numb
     *   If A₁, A₂, ..., Aₙ are n numbers between a and b such that a, A₁, A₂, ..., Aₙ, b is an AP, then the common difference d = (b-a)/(n+1).
 
 ---
-
-
-
 
 ## <a id="3-geometric-progression-gp"></a>3. Geometric Progression (GP)
 
@@ -109,9 +89,6 @@ A sequence in which the ratio of any term to its preceding term is a constant **
 
 ---
 
-
-
-
 ## <a id="4-relationship-between-am-and-gm"></a>4. Relationship Between AM and GM
 
 For any two positive real numbers **a** and **b**:
@@ -121,9 +98,6 @@ Equality holds only if a = b. This principle is extremely useful in solving ineq
 
 ---
 
-
-
-
 ## <a id="5-infinite-geometric-series"></a>5. Infinite Geometric Series
 
 If |r| < 1, the sum of an infinite geometric progression is finite and given by:
@@ -131,9 +105,6 @@ If |r| < 1, the sum of an infinite geometric progression is finite and given by:
 This formula is the basis for many converging series in higher-level mathematics.
 
 ---
-
-
-
 
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
@@ -162,17 +133,11 @@ This formula is the basis for many converging series in higher-level mathematics
 
 ---
 
-
-
-
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 8: [binomial](/blog/binomial-theorem-class-11-revision-notes-jee) Theorem**
 - **Chapter 10: Straight Lines**
 - [**External Reference:** [NCERT Class 11 Math Chapter 9](https://ncert.nic.in/textbook.php?kemh1=9-16) (Authoritative Source)]
-
-
-
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -182,16 +147,6 @@ Sequences and Series are not just lists of numbers; they are the language of gro
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 
@@ -204,15 +159,10 @@ Continue your [revision](/blog/conic-sections-class-11-revision-notes-jee) with 
 - 📖 [Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/conic-sections-class-11-revision-notes-jee)
 - 📖 [Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-combinations-class-11-revision-notes-jee)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/sequences-series-class-11-revision-notes-jee) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

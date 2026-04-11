@@ -12,7 +12,6 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
 
 *Last Updated: 2026-04-07*
 
-
 <div [class](/blog/real-numbers-class-10-notes)="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
@@ -30,8 +29,6 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
 
 </div>
 
-
-
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -42,18 +39,15 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
 - [📝 Practice MCQs](#-practice-mcqs)
 
-
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **First Term:** $$a = a_1$$ — The first term of the arithmetic progression. 
- - **Nth Term:** $$a_n = a + (n - 1)d$$ — The nth term of the arithmetic progression, where $a$ is the first term, $d$ is the common difference, and $n$ is the term number. 
- - **Common Difference:** $$d = a_{n+1} - a_n$$ — The difference between any two successive members of the arithmetic progression. 
- - **Last Term:** $$l = a + (n - 1)d$$ — The last term of the arithmetic progression, where $a$ is the first term, $d$ is the common difference, and $n$ is the number of terms. 
- - **Sum of N Terms:** $$S_n = \frac{n}{2} [2a + (n - 1)d]$$ — The \sum of the first $n$ terms of the arithmetic progression, where $a$ is the first term and $d$ is the common difference. 
- - **Sum of N Terms (Alternative):** $$S_n = \frac{n}{2} (a + l)$$ — The \sum of the first $n$ terms of the arithmetic progression, where $a$ is the first term and $l$ is the last term. 
- - **Number of Terms:** $$n = \frac{l - a}{d} + 1$$ — The number of terms in the arithmetic progression, where $l$ is the last term, $a$ is the first term, and $d$ is the common difference.
-
-
+- **First Term:** a = a_1 — The first term of the arithmetic progression. 
+ - **Nth Term:** a_n = a + (n - 1)d — The nth term of the arithmetic progression, where $a$ is the first term, $d$ is the common difference, and $n$ is the term number. 
+ - **Common Difference:** d = a_{n+1} - a_n — The difference between any two successive members of the arithmetic progression. 
+ - **Last Term:** l = a + (n - 1)d — The last term of the arithmetic progression, where $a$ is the first term, $d$ is the common difference, and $n$ is the number of terms. 
+ - **Sum of N Terms:** S_n = \frac{n}{2} [2a + (n - 1)d] — The \sum of the first $n$ terms of the arithmetic progression, where $a$ is the first term and $d$ is the common difference. 
+ - **Sum of N Terms (Alternative):** S_n = \frac{n}{2} (a + l) — The \sum of the first $n$ terms of the arithmetic progression, where $a$ is the first term and $l$ is the last term. 
+ - **Number of Terms:** n = \frac{l - a}{d} + 1 — The number of terms in the arithmetic progression, where $l$ is the last term, $a$ is the first term, and $d$ is the common difference.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -73,31 +67,29 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
  - *Costs:* 4-5 marks per question
  - *Fix:* Always verify that the sequence in question is indeed an arithmetic progression by checking that the difference between consecutive terms is constant. If the sequence is not an AP, do not attempt to use AP formulas to solve the problem.
 
-
-
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 - **Q1:** If the \sum of first $n$ terms of an A.P. is $225$, and the \sum of first $2n$ terms is $525$, then find the \sum of first $3n$ terms.
  - **Trap:** Students often get confused between the formulas for the \sum of $n$ terms and $2n$ terms of an A.P.
  - **Solution:** 
  Let $a$ be the first term and $d$ be the common difference of the A.P. Then, we have:
- $$
+ 
  \frac{n}{2} [2a + (n - 1)d] = 225 quad 	ext{and} quad \frac{2n}{2} [2a + (2n - 1)d] = 525
- $$
+ 
  Simplifying these [equations](/blog/pair-of-linear-equations-class-10-notes), we get:
- $$
+ 
  2a + (n - 1)d = \frac{450}{n} quad 	ext{and} quad 2a + (2n - 1)d = \frac{525}{n}
- $$
+ 
  Subtracting the first equation from the second, we get:
- $$
+ 
  (2n - 1 - n + 1)d = \frac{525 - 450}{n}
  
  \Rightarrow quad nd = \frac{75}{n}
  
  \Rightarrow quad d = \frac{75}{n^2}
- $$
+ 
  Substituting this value of $d$ in the first equation, we get:
- $$
+ 
  2a + (n - 1)\frac{75}{n^2} = \frac{450}{n}
  
  \Rightarrow quad 2a = \frac{450}{n} - \frac{75}{n^2} (n - 1)
@@ -109,13 +101,13 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
  \Rightarrow quad 2a = \frac{375n + 75}{n^2}
  
  \Rightarrow quad a = \frac{375n + 75}{2n^2}
- $$
+ 
  Now, the \sum of first $3n$ terms is given by:
- $$
+ 
  \frac{3n}{2} [2a + (3n - 1)d]
- $$
+ 
  Substituting the values of $a$ and $d$, we get:
- $$
+ 
  \frac{3n}{2} [2\frac{375n + 75}{2n^2} + (3n - 1)\frac{75}{n^2}]
  
  = \frac{3n}{2} [\frac{375n + 75}{n^2} + \frac{225n - 75}{n^2}]
@@ -125,29 +117,29 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
  = \frac{3n}{2} \times \frac{600}{n}
  
  = 900
- $$
+ 
  - **Answer:** $900$
  - **Q2:** The $p^{th}$ term of an A.P. is $a$ and $q^{th}$ term is $b$. Prove that the $r^{th}$ term is $\frac{a(q - r) + b(r - p)}{q - p}$.
  - **Trap:** Students often get confused between the formulas for the $p^{th}$ and $q^{th}$ terms of an A.P.
  - **Solution:** 
  Let $x$ be the first term and $y$ be the common difference of the A.P. Then, we have:
- $$
+ 
  x + (p - 1)y = a quad 	ext{and} quad x + (q - 1)y = b
- $$
+ 
  Subtracting the first equation from the second, we get:
- $$
+ 
  (q - 1 - p + 1)y = b - a
  
  \Rightarrow quad (q - p)y = b - a
  
  \Rightarrow quad y = \frac{b - a}{q - p}
- $$
+ 
  Now, the $r^{th}$ term is given by:
- $$
+ 
  x + (r - 1)y
- $$
+ 
  Substituting the value of $y$, we get:
- $$
+ 
  x + (r - 1)\frac{b - a}{q - p}
  
  = x + \frac{(r - 1)b - (r - 1)a}{q - p}
@@ -251,13 +243,13 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
  = \frac{(r - p)((q - p)x + a - b(r - p))}{(q - p)(r - p)}
  
  = \frac{a(q - r) + b(r - p)}{q - p}
- $$
+ 
  - **Answer:** $\frac{a(q - r) + b(r - p)}{q - p}$
  - **Q3:** If $S_n$ denotes the \sum of $n$ terms of an A.P., then the value of $S_{30} + S_{35} - S_{40}$ is
  - **Trap:** Students often get confused between the formulas for the \sum of $n$ terms of an A.P.
  - **Solution:** 
  Let $a$ be the first term and $d$ be the common difference of the A.P. Then, we have:
- $$
+ 
  S_n = \frac{n}{2} [2a + (n - 1)d]
  
  \Rightarrow quad S_{30} = \frac{30}{2} [2a + (30 - 1)d] = 15(2a + 29d)
@@ -265,9 +257,9 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
  \Rightarrow quad S_{35} = \frac{35}{2} [2a + (35 - 1)d] = \frac{35}{2} (2a + 34d)
  
  \Rightarrow quad S_{40} = \frac{40}{2} [2a + (40 - 1)d] = 20(2a + 39d)
- $$
+ 
  Now, we have:
- $$
+ 
  S_{30} + S_{35} - S_{40} = 15(2a + 29d) + \frac{35}{2} (2a + 34d) - 20(2a + 39d)
  
  = 30a + 435d + 35a + 595d - 40a - 780d
@@ -277,16 +269,14 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
  = 25a + 250d
  
  = 25(a + 10d)
- $$
+ 
  - **Answer:** $25(a + 10d)$
-
-
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 - **The Core Concept:** The concept of arithmetic progressions (AP) and its [application](/blog/application-of-derivatives-class-12-notes) in solving problems is a crucial topic in mathematics. One deep concept that separates 85% scorers from 95% scorers is the understanding of the relationship between the terms of an AP and the ability to apply it to complex problems. 
  - **What 85% scorers do:** Most students can solve basic problems related to AP, such as finding the $n^{th}$ term, the \sum of $n$ terms, and the relationship between the terms. However, they often strugg\le with complex problems that involve the application of AP concepts to real-world scenarios or abstract mathematical problems. They might use the basic formulas such as $a_n = a_1 + (n-1)d$ and $S_n = \frac{n}{2}(a_1 + a_n)$, but they might not fully understand the implications of these formulas or how to apply them in novel situations.
- - **What 95% scorers do:** Top scorers, on the other hand, have a deep understanding of the AP concepts and can apply them to a wide ran\ge of problems. They can recognize the relationship between AP and other mathematical concepts, such as geometry, algebra, and calculus. They can also derive complex formulas and relationships, such as the formula for the \sum of an infinite geometric series: $$S = \frac{a}{1 - r}$$, and apply them to solve problems. Moreover, they can analyze problems from different perspectives and identify the most efficient approach to solve them. For examp\le, they can use the formula $a_n = a_1 + (n-1)d$ to find the $n^{th}$ term of an AP, and then use the formula $S_n = \frac{n}{2}(a_1 + a_n)$ to find the \sum of the first $n$ terms. They can also use the concept of AP to solve problems related to real-world scenarios, such as population growth, financial transactions, and scientific measurements.
+ - **What 95% scorers do:** Top scorers, on the other hand, have a deep understanding of the AP concepts and can apply them to a wide ran\ge of problems. They can recognize the relationship between AP and other mathematical concepts, such as geometry, algebra, and calculus. They can also derive complex formulas and relationships, such as the formula for the \sum of an infinite geometric series: S = \frac{a}{1 - r}, and apply them to solve problems. Moreover, they can analyze problems from different perspectives and identify the most efficient approach to solve them. For examp\le, they can use the formula $a_n = a_1 + (n-1)d$ to find the $n^{th}$ term of an AP, and then use the formula $S_n = \frac{n}{2}(a_1 + a_n)$ to find the \sum of the first $n$ terms. They can also use the concept of AP to solve problems related to real-world scenarios, such as population growth, financial transactions, and scientific measurements.
  - **Key Formulas and Relationships:** Some key formulas and relationships that 95% scorers use to solve AP problems include:
  * $a_n = a_1 + (n-1)d$
  * $S_n = \frac{n}{2}(a_1 + a_n)$
@@ -306,16 +296,12 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
 | Infinite Geometric Series | $S = \frac{a}{1 - r}$ | Formula for the \sum of an infinite geometric series |
 | Geometric Progression | $a_n = a_1 \times r^{n-1}$ | Formula for the $n^{th}$ term of a geometric progression |
 
-
-
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
 - **The Hidden Pattern:** In Arithmetic Progressions, after analyzing 5+ years of PYQs, it's evident that the \sum of $n$ terms, $S_n = \frac{n}{2}[2a + (n-1)d]$, is often used in conjunction with the formula for the $n^{th}$ term, $a_n = a + (n-1)d$. A specific pattern emerges when the problem involves finding the \sum of terms in a progression where the first term $a$, common difference $d$, and number of terms $n$ are related through a quadratic equation, such as $a = \frac{1}{d}$ and $n = \frac{-b}{2a}$, derived from $an + \frac{1}{2}dn(n-1) = b$, which simplifies to $n^2(\frac{d}{2}) + n(a - \frac{d}{2}) - b = 0$. 
  - **How to Apply It:** To apply this pattern, first identify if the problem can be translated into a quadratic equation in terms of $n$, $a$, and $d$. Then, solve the quadratic equation $n^2(\frac{d}{2}) + n(a - \frac{d}{2}) - b = 0$ for $n$ using the quadratic formula $n = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$, where $a = \frac{d}{2}$, $b = a - \frac{d}{2}$, and $c = -b$. Subsequently, use the values of $n$, $a$, and $d$ to find the \sum $S_n$.
  - **PYQ-Specific Trend:** There's a noticeab\le trend in PYQs where problems involving arithmetic progressions often require finding the \sum of terms under specific conditions, such as when the \sum of the first $n$ terms equals the \sum of the next $m$ terms. The pattern of relating $a$, $d$, and $n$ through a quadratic equation and then applying it to find sums or other properties of the progression is a recurring theme. For instance, if $S_n = S_{n+m}$, then $\frac{n}{2}[2a + (n-1)d] = \frac{m}{2}[2(a+nd) + (m-1)d]$. This trend suggests that being proficient in manipulating these equations is crucial for solving arithmetic progression problems in the exam.
  - **Calculative Strategy:** To tack\le such problems efficiently, it's essential to have a calculative strategy in place. This involves quickly identifying the type of problem and the formulas that apply. For examp\le, if the problem asks for the $n^{th}$ term of an arithmetic progression where the \sum of the first $n$ terms is given, use $S_n = \frac{n}{2}[2a + (n-1)d]$ to express $a$ in terms of $S_n$, $n$, and $d$, and then find $a_n = a + (n-1)d$. Practice in solving these types of problems will help in recognizing the patterns and applying the formulas accurately and swiftly.
-
-
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
@@ -330,10 +316,7 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
  - Common mistake: Forgetting to subtract 1 from {n} when using the formula $a_n = a_1 + (n-1)d$.
  - Common mistake: Not considering the number of terms when calculating the \sum of an AP using $S_n = \frac{n}{2} [2a_1 + (n-1)d]$.
 
-
-
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
-
 
 **1. If the \sum of the first 10 terms of an arithmetic progression is 100 and the \sum of the first 20 terms is 400, then the \sum of the first 30 terms is**
 
@@ -387,7 +370,6 @@ C) 7
 D) 9
 
 **Answer:** B) Let the first term be a and common difference be d. Then, 10a + 45d = 100 and 20a + 190d = 240. Solving these, we get a = 1, d = 1. The 16th term is a + 15d = 16.
-
 
 ---
 

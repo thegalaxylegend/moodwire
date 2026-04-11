@@ -12,9 +12,6 @@ practice_link: "/class-11/biology/redox-reactions-class-11-revision-notes-neet"
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Redox Reactions?](#what-is-redox-reactions)
@@ -37,22 +34,13 @@ practice_link: "/class-11/biology/redox-reactions-class-11-revision-notes-neet"
 - [Related Notes Links](#related-notes-links)
 - [📚 Related Topics](#-related-topics)
 
-
 # Redox Reactions Class 11 Biology Revision — NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-redox-reactions"></a>What is Redox Reactions?
 
 # Redox Reactions Class 11 Notes
 
-
 Last Updated: March 15, 2026
-
-
-
 
 1. [Introduction to Redox Reactions](#introduction-to-redox-reactions)
 2. [Why Redox Reactions Matter](#why-redox-reactions-matter)
@@ -63,17 +51,11 @@ Last Updated: March 15, 2026
 7. [Practice MCQs](#practice-mcqs)
 8. [Related Notes Links](#related-notes-links)
 
-
-
-
 ## <a id="introduction-to-redox-reactions"></a>Introduction to Redox Reactions
 
 Redox reactions are chemical reactions that involve the transfer of electrons between species. This transfer of electrons results in a change in the oxidation state of the species involved. Redox reactions are also known as oxidation-reduction reactions.
 
 Redox reactions are characterized by the presence of an oxidizing agent and a reducing agent. The oxidizing agent is the species that gains electrons, while the reducing agent is the species that loses electrons. The oxidizing agent is said to be reduced, while the reducing agent is said to be oxidized.
-
-
-
 
 ## <a id="why-redox-reactions-matter"></a>Why Redox Reactions Matter
 
@@ -83,17 +65,11 @@ For example, in the human body, redox reactions are involved in the production o
 
 3 questions in JEE Mains 2026 Session 1 came from this topic.
 
-
-
-
 ## <a id="ayushs-note"></a>Ayush's Note
 
 <div [class](/blog/hydrogen-class-11-revision-notes-neet)="note-box">
 I still remember the time when I was preparing for my JEE exams. I was struggling to understand the concept of redox reactions. I used to get confused between the terms oxidation and reduction. But then I realized that oxidation is the loss of electrons, while reduction is the gain of electrons. This simple trick helped me to understand the concept of redox reactions and I was able to solve the questions with ease.
 </div>
-
-
-
 
 ## <a id="core-concepts"></a>Core Concepts
 
@@ -107,32 +83,23 @@ The half-equation method is a method used to balance redox reactions. In this me
 Oxidation numbers are used to keep track of the electrons in a redox reaction. The oxidation number of an element is the charge that the element would have if the electrons in the bond were assigned to the more electronegative atom.
 
 The formula to calculate the oxidation number is:
-$$\text{Oxidation Number} = \text{Number of electrons gained or lost}$$
+\text{Oxidation Number} = \text{Number of electrons gained or lost}
 
 For example, in the reaction:
-$$\text{Fe}^{2+} \rightarrow \text{Fe}^{3+} + \text{e}^-$$
+\text{Fe}^{2+} \rightarrow \text{Fe}^{3+} + \text{e}^-
 The oxidation number of iron increases from +2 to +3, indicating that iron has lost an electron.
-
-
-
 
 ## <a id="shortcut-formulatrick"></a>Shortcut Formula/Trick
 
 To balance a redox reaction, we can use the following shortcut formula:
-$$\text{Redox Reaction} = \text{Oxidation Half-Equation} + \text{Reduction Half-Equation}$$
+\text{Redox Reaction} = \text{Oxidation Half-Equation} + \text{Reduction Half-Equation}
 This formula helps us to balance the reaction by combining the oxidation and reduction half-equations.
-
-
-
 
 ## <a id="trap-questionsexceptions"></a>Trap Questions/Exceptions
 
 ### <a id="wrong-answer-textfe2-is-the-reducing-agent-in-the-reaction-textfe2-rightarrow-textfe3-texte"></a>Wrong Answer: $\text{Fe}^{2+}$ is the reducing agent in the reaction $\text{Fe}^{2+} \rightarrow \text{Fe}^{3+} + \text{e}^-$.
 ### <a id="right-answer-textfe2-is-the-oxidizing-agent-in-the-reaction-textfe2-rightarrow-textfe3-texte-but-it-is-being-oxidized-so-it-is-the-species-being-oxidized"></a>Right Answer: $\text{Fe}^{2+}$ is the oxidizing agent in the reaction $\text{Fe}^{2+} \rightarrow \text{Fe}^{3+} + \text{e}^-$, but it is being oxidized, so it is the species being oxidized.
 ### <a id="why-students-get-it-wrong-students-often-get-confused-between-the-terms-oxidation-and-reduction-they-think-that-the-species-that-loses-electrons-is-the-reducing-agent-but-it-is-actually-the-oxidizing-agent-that-gains-electrons"></a>Why Students Get it Wrong: Students often get confused between the terms oxidation and reduction. They think that the species that loses electrons is the reducing agent, but it is actually the oxidizing agent that gains electrons.
-
-
-
 
 ## <a id="practice-mcqs"></a>Practice MCQs
 
@@ -179,9 +146,6 @@ d) $\text{Cr}_2\text{O}_7^{2-} + \text{Fe}^{2+} \rightarrow 2\text{Cr}^{3+} + \t
 
 Solution: a) $\text{Cr}_2\text{O}_7^{2-} + 6\text{Fe}^{2+} + 14\text{H}^+ \rightarrow 2\text{Cr}^{3+} + 6\text{Fe}^{3+} + 7\text{H}_2\text{O}$
 
-
-
-
 ## <a id="related-notes-links"></a>Related Notes Links
 
 * Chemical Bonding [class](/blog/hydrogen-class-11-revision-notes-neet) 11 Notes
@@ -189,16 +153,6 @@ Solution: a) $\text{Cr}_2\text{O}_7^{2-} + 6\text{Fe}^{2+} + 14\text{H}^+ \right
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 
@@ -211,21 +165,16 @@ Continue your [revision](/blog/hydrogen-class-11-revision-notes-neet) with these
 - 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Hydrogen Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/hydrogen-class-11-revision-notes-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/redox-reactions-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/hydrogen-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Cell Cycle And Cell Division Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet)
 - 📖 [Hydrocarbons Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/hydrocarbons-class-11-revision-notes-neet)

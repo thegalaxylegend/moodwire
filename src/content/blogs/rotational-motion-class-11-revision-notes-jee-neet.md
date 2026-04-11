@@ -12,9 +12,6 @@ practice_link: "/class-11/physics/rotational-motion-class-11-revision-notes-jee-
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Rotational Motion Revision Notes?](#what-is-rotational-motion-revision-notes)
@@ -36,18 +33,11 @@ practice_link: "/class-11/physics/rotational-motion-class-11-revision-notes-jee-
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Rotational Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-rotational-motion-revision-notes"></a>What is Rotational Motion Revision Notes?
 
 # Rotational Motion Revision Notes
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -62,15 +52,11 @@ practice_link: "/class-11/physics/rotational-motion-class-11-revision-notes-jee-
 
 ---
 
-
 ## <a id="introduction"></a>Introduction
 
 While the previous chapters dealt with the motion of "point masses," reality involves systems of particles and extended "rigid bodies." In Rotational Motion, every point on a body moves in a circle around an axis, creating a symphony of motion that requires new concepts: **Centre of Mass**, **Torque**, and **Moment of Inertia**. This chapter is widely considered one of the most challenging in [class](/blog/oscillations-class-11-revision-notes-jee-neet) 11 Physics, but it is also the most rewarding for those aiming for top scores in JEE and NEET. In this "Comprehensive" guide, we provide exhaustive derivations for the Parallel and Perpendicular Axes Theorems, the relation between Torque and Angular Momentum, and the physics of pure rolling motion.
 
 ---
-
-
-
 
 ## <a id="1-centre-of-mass-com"></a>1. Centre of Mass (CoM)
 
@@ -83,9 +69,6 @@ The position of the CoM is defined as:
 - For an extended body (continuous mass), use integration: **X_com = (1/M) ∫ x dm**.
 
 ---
-
-
-
 
 ## <a id="2-torque-and-angular-momentum"></a>2. Torque and Angular Momentum
 
@@ -110,9 +93,6 @@ The rotational equivalent of linear momentum.
 
 ---
 
-
-
-
 ## <a id="3-moment-of-inertia-i-rotational-mass"></a>3. Moment of Inertia (I): Rotational Mass
 
 Moment of Inertia resists changes in rotational [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet).
@@ -129,9 +109,6 @@ Moment of Inertia resists changes in rotational [motion](/blog/motion-in-a-strai
 
 ---
 
-
-
-
 ## <a id="4-moment-of-inertia-mastersheet"></a>4. Moment of Inertia Master-Sheet
 
 | Body | Axis | MoI (I) |
@@ -144,9 +121,6 @@ Moment of Inertia resists changes in rotational [motion](/blog/motion-in-a-strai
 
 ---
 
-
-
-
 ## <a id="5-dynamics-of-rolling-motion"></a>5. Dynamics of Rolling Motion
 
 When an object rolls, it has both translational and rotational kinetic energy.
@@ -158,13 +132,10 @@ If this condition is met, the point of contact is momentarily at rest.
 
 ---
 
-
-
-
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
 **Q1: Why are the spokes of a bicycle wheel made thin?**
-**Answer:** The bulk of the mass is concentrated at the **rim** (far from the axis). According to **I = mr²**, this maximizes the Moment of Inertia for a given weight, providing the wheel with greater stability and helping it maintain motion once started.
+**Answer:** The bulk of the mass is concentrated at the **rim** (far from the axis). According to **I = mr²**, this maximizes the Moment of Inertia for a given weight, providing the wheel with greater stability and helping it maintain [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) once started.
 
 **Q2: A ballet dancer pulls her arms in while spinning. Why does her speed increase?**
 **Answer:** According to the **Law of Conservation of Angular Momentum (L = Iω = Constant)**, when she pulls her arms in, her mass moves closer to the axis, decreasing her **Moment of Inertia (I)**. To keep **L** constant, her angular velocity **(ω)** must increase.
@@ -174,17 +145,11 @@ If this condition is met, the point of contact is momentarily at rest.
 
 ---
 
-
-
-
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 4: Laws of Motion (Inertia Basics)**
 - **Chapter 7: Gravitation (Orbital Angular Momentum)**
 - **Mastering Rotational Mechanics: Advanced Problem Set**
-
-
-
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -197,16 +162,6 @@ Rotational Motion is the ultimate test of a physicist's understanding of symmetr
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
@@ -217,15 +172,10 @@ Continue your revision with these related guides:
 - 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
 - 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/rotational-motion-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

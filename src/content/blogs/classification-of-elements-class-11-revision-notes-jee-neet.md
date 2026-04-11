@@ -12,9 +12,6 @@ practice_link: "/class-11/physics/classification-of-elements-class-11-revision-n
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Classification Of Elements?](#what-is-classification-of-elements)
@@ -27,20 +24,11 @@ practice_link: "/class-11/physics/classification-of-elements-class-11-revision-n
 - [LaTeX Equations](#latex-equations)
 - [📚 Related Topics](#-related-topics)
 
-
 # Classification Of Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-classification-of-elements"></a>What is Classification Of Elements?
 
 # Classification of Elements Class 11 Notes — Exam Compass
-
-
-
-
 
 ## <a id="ayushs-personal-note"></a>Ayush's Personal Note
 
@@ -57,11 +45,11 @@ For students preparing for JEE and NEET, it's essential to have a thorough under
 * Identify the position of an element in the periodic table
 * Describe the electronic configuration of an element
 * Explain the trends in physical and [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) properties of elements
-* Predict the chemical properties of an element based on its position in the periodic table
+* Predict the [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) properties of an element based on its position in the periodic table
 
 ## <a id="core-concepts"></a>Core Concepts
 
-The core concepts in the classification of elements include:
+The core concepts in the classification of [elements](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) include:
 
 * Atomic number: The number of protons in the nucleus of an atom
 * Electronic configuration: The arrangement of electrons in an atom
@@ -276,16 +264,6 @@ As I continue to explore the world of chemistry, I realize that the classificati
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
@@ -296,15 +274,10 @@ Continue your revision with these related guides:
 - 📖 [Some Basic Concepts Of Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet)
 - 📖 [Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/classification-of-elements-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

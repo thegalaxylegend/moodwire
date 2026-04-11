@@ -12,9 +12,6 @@ practice_link: "/class-11/mathematics/conic-sections-class-11-revision-notes-jee
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Conic Sections Revision Notes?](#what-is-conic-sections-revision-notes)
@@ -32,18 +29,11 @@ practice_link: "/class-11/mathematics/conic-sections-class-11-revision-notes-jee
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-conic-sections-revision-notes"></a>What is Conic Sections Revision Notes?
 
 # Conic Sections Revision Notes
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -58,16 +48,12 @@ practice_link: "/class-11/mathematics/conic-sections-class-11-revision-notes-jee
 
 ---
 
-
 ## <a id="introduction"></a>Introduction
 
 **Conic Sections represent the curved paths of celestial bodies and projectiles, defined by the intersection of a plane and a cone. Master the standard equations of Circles, Parabolas, Ellipses, and Hyperbolas along with their focal properties and eccentricity to excel in advanced coordinate geometry. This [class](/blog/probability-class-11-revision-notes-jee) 11 Math Chapter 11 guide provides all essential derivations for JEE and Board exams.**
 Conic sections are the various shapes created when a plane intersects a double-napped cone.
 
 ---
-
-
-
 
 ## <a id="1-the-circle"></a>1. The Circle
 
@@ -76,9 +62,6 @@ A circle is the set of all points in a plane that are at a constant distance (ra
 *   **Simple Case (Center at (0, 0)):** x² + y² = r²
 
 ---
-
-
-
 
 ## <a id="2-the-parabola"></a>2. The Parabola
 
@@ -92,9 +75,6 @@ A parabola is the set of all points in a plane that are equidistant from a fixed
 
 ---
 
-
-
-
 ## <a id="3-the-ellipse"></a>3. The Ellipse
 
 An ellipse is the set of all points in a plane, the sum of whose distances from two fixed points (foci) is a constant.
@@ -106,9 +86,6 @@ An ellipse is the set of all points in a plane, the sum of whose distances from 
 5.  **Length of Latus Rectum:** 2b²/a.
 
 ---
-
-
-
 
 ## <a id="4-the-hyperbola"></a>4. The Hyperbola
 
@@ -122,9 +99,6 @@ A hyperbola is the set of all points in a plane, the difference of whose distanc
 
 ---
 
-
-
-
 ## <a id="5-eccentricity-and-general-conic"></a>5. Eccentricity and General Conic
 
 The eccentricity **e** is the ratio of the distance from the focus to the distance from the directrix.
@@ -134,9 +108,6 @@ The eccentricity **e** is the ratio of the distance from the focus to the distan
 *   **Hyperbola:** e > 1
 
 ---
-
-
-
 
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
@@ -161,17 +132,11 @@ The eccentricity **e** is the ratio of the distance from the focus to the distan
 
 ---
 
-
-
-
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 10: Straight Lines**
 - **Chapter 12: Three Dimensional Geometry**
 - [**External Reference:** [NCERT Class 11 Math Chapter 11](https://ncert.nic.in/textbook.php?kemh1=11-16) (Authoritative Source)]
-
-
-
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -181,16 +146,6 @@ Conic sections bring geometry to life by connecting algebraic equations with phy
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 
@@ -203,15 +158,10 @@ Continue your [revision](/blog/probability-class-11-revision-notes-jee) with the
 - 📖 [Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-class-11-revision-notes-jee)
 - 📖 [Sequences Series Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/sequences-series-class-11-revision-notes-jee)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/conic-sections-class-11-revision-notes-jee) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

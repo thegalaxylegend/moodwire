@@ -12,9 +12,6 @@ practice_link: "/class-11/biology/biotechnology-principles-and-processes-class-1
 
 *Last Updated: 2026-04-05*
 
-
-
-
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -26,38 +23,35 @@ practice_link: "/class-11/biology/biotechnology-principles-and-processes-class-1
 - [📝 Practice MCQs](#-practice-mcqs)
 - [📚 Related Topics](#-related-topics)
 
-
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Restriction Endonuclease Recognition Site:** $$\	ext{Recognition site} = \	ext{Palindromic sequence}$$ — Recognized sequence where the enzyme cuts the DNA.
+- **Restriction Endonuclease Recognition Site:** \	ext{Recognition site} = \	ext{Palindromic sequence} — Recognized sequence where the enzyme cuts the DNA.
 
- - **DNA Replication Initiation:** $$\	ext{Initiation} = \\frac{\	ext{Unwinding of double helix}}{\	ext{Binding of initiation proteins}}$$ — Start of DNA replication process.
+ - **DNA Replication Initiation:** \	ext{Initiation} = \\frac{\	ext{Unwinding of double helix}}{\	ext{Binding of initiation proteins}} — Start of DNA replication process.
 
- - **Polymerase Chain Reaction (PCR):** $$\	ext{PCR efficiency} = \\frac{\	ext{Number of amplified fragments}}{\	ext{Number of initial template molecules}}$$ — Efficiency of PCR in amplifying DNA sequences.
+ - **Polymerase Chain Reaction (PCR):** \	ext{PCR efficiency} = \\frac{\	ext{Number of amplified fragments}}{\	ext{Number of initial template molecules}} — Efficiency of PCR in amplifying DNA sequences.
 
- - **Gel Electrophoresis:** $$\	ext{Migration velocity} = \\frac{\	ext{Charge of the molecule}}{\	ext{Size of the molecule}}$$ — Velocity of DNA/RNA fragments in gel electrophoresis.
+ - **Gel Electrophoresis:** \	ext{Migration velocity} = \\frac{\	ext{Charge of the molecule}}{\	ext{Size of the molecule}} — Velocity of DNA/RNA fragments in gel electrophoresis.
 
- - **Southern Blotting:** $$\	ext{Hybridization signal} = \\frac{\	ext{Concentration of labeled probe}}{\	ext{Concentration of target DNA}}$$ — Strength of signal in Southern blotting.
+ - **Southern Blotting:** \	ext{Hybridization signal} = \\frac{\	ext{Concentration of labeled probe}}{\	ext{Concentration of target DNA}} — Strength of signal in Southern blotting.
 
- - **DNA Sequencing:** $$\	ext{Sequence read length} = \\frac{\	ext{Number of nucleotides}}{\	ext{Number of sequencing cycles}}$$ — Length of the sequence that can be read.
+ - **DNA Sequencing:** \	ext{Sequence read length} = \\frac{\	ext{Number of nucleotides}}{\	ext{Number of sequencing cycles}} — Length of the sequence that can be read.
 
- - **Gene Expression:** $$\	ext{Gene expression level} = \\frac{\	ext{mRNA transcript level}}{\	ext{Gene copy number}}$$ — Level of expression of a particular gene.
+ - **Gene Expression:** \	ext{Gene expression level} = \\frac{\	ext{mRNA transcript level}}{\	ext{Gene copy number}} — Level of expression of a particular gene.
 
- - **Plasmid Copy Number:** $$\	ext{Copy number} = \\frac{\	ext{Number of plasmid molecules}}{\	ext{Number of host cells}}$$ — Average number of plasmid copies per host cell.
+ - **Plasmid Copy Number:** \	ext{Copy number} = \\frac{\	ext{Number of plasmid molecules}}{\	ext{Number of host cells}} — Average number of plasmid copies per host cell.
 
- - **Transformation Efficiency:** $$\	ext{Transformation efficiency} = \\frac{\	ext{Number of transformed cells}}{\	ext{Number of host cells}}$$ — Efficiency of transformation process.
+ - **Transformation Efficiency:** \	ext{Transformation efficiency} = \\frac{\	ext{Number of transformed cells}}{\	ext{Number of host cells}} — Efficiency of transformation process.
 
- - **Transfection Efficiency:** $$\	ext{Transfection efficiency} = \\frac{\	ext{Number of transfected cells}}{\	ext{Number of host cells}}$$ — Efficiency of transfection process.
+ - **Transfection Efficiency:** \	ext{Transfection efficiency} = \\frac{\	ext{Number of transfected cells}}{\	ext{Number of host cells}} — Efficiency of transfection process.
 
- - **Western Blotting:** $$\	ext{Signal intensity} = \\frac{\	ext{Concentration of antibody}}{\	ext{Concentration of antigen}}$$ — Strength of signal in Western blotting.
+ - **Western Blotting:** \	ext{Signal intensity} = \\frac{\	ext{Concentration of antibody}}{\	ext{Concentration of antigen}} — Strength of signal in Western blotting.
 
- - **Chromatography:** $$\	ext{Retention time} = \\frac{\	ext{Affinity of molecule for stationary phase}}{\	ext{Flow rate of mobile phase}}$$ — Time taken for a molecule to pass through the column.
+ - **Chromatography:** \	ext{Retention time} = \\frac{\	ext{Affinity of molecule for stationary phase}}{\	ext{Flow rate of mobile phase}} — Time taken for a molecule to pass through the column.
 
- - **Fermentation:** $$\	ext{Biomass yield} = \\frac{\	ext{Mass of biomass}}{\	ext{Mass of substrate consumed}}$$ — Yield of biomass from the substrate.
+ - **Fermentation:** \	ext{Biomass yield} = \\frac{\	ext{Mass of biomass}}{\	ext{Mass of substrate consumed}} — Yield of biomass from the substrate.
 
- - **Downstream Processing:** $$\	ext{Purity of product} = \\frac{\	ext{Concentration of product}}{\	ext{Concentration of impurities}}$$ — Purity of the product after processing.
-
-
+ - **Downstream Processing:** \	ext{Purity of product} = \\frac{\	ext{Concentration of product}}{\	ext{Concentration of impurities}} — Purity of the product after processing.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -91,8 +85,6 @@ practice_link: "/class-11/biology/biotechnology-principles-and-processes-class-1
 
  - *Fix:* Be prepared to discuss examples such as the production of insulin, vaccines, and diagnostic kits in medicine, and pest-resistant crops, biofertilizers, and micropropagation in agriculture. Understand the role of $Bt$ toxin in pest control and how $\Delta$-endotoxins work.
 
-
-
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 - **Q1:** The process of transferring a gene from one organism to another using a vector is known as
@@ -109,13 +101,13 @@ practice_link: "/class-11/biology/biotechnology-principles-and-processes-class-1
 
  - **Solution:** The steps involved in a PCR cycle are:
 
- $$
+ 
 
  \	ext{Step 1: Denaturation} \
 ightarrow \	ext{Step 2: Annealing} \
 ightarrow \	ext{Step 3: Extension}
 
- $$
+ 
 
  Any option that does not match these steps is the answer.
 
@@ -128,8 +120,6 @@ ightarrow \	ext{Step 3: Extension}
  - **Solution:** The enzyme used for synthesizing cDNA from mRNA is $\	ext{reverse transcriptase}$, as it can synthesize a DNA copy from an RNA template.
 
  - **Answer:** Reverse transcriptase
-
-
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
@@ -163,11 +153,11 @@ ightarrow \	ext{Step 3: Extension}
 
  - **Mathematical Representation:** The process of ligation can be represented mathematically as:
 
- $$
+ 
 
  \\frac{\	ext{moles of insert}}{\	ext{moles of vector}} = \\frac{\	ext{length of insert (bp)}}{\	ext{length of vector (bp)}}
 
- $$
+ 
 
  This ratio is critical in determining the efficiency of the ligation reaction and the likelihood of obtaining the desired recombinant molecule.
 
@@ -176,8 +166,6 @@ ightarrow \	ext{Step 3: Extension}
 | Recombinant DNA Technology | Basic understanding of steps involved | Deep understanding of process and [applications](/blog/biotechnology-and-its-applications-class-12-notes) |
 | Restriction Endonucleases | Recognition of function | Ability to choose correct enzymes for specific [applications](/blog/biotechnology-and-its-applications-class-12-notes) |
 | DNA Ligation | Basic understanding of reaction | Optimization of reaction conditions for efficient ligation |
-
-
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
@@ -191,8 +179,6 @@ ightarrow \	ext{Step 3: Extension}
 | $K_m$ | Michaelis constant | $mg/L$ or $M$ | $V = \frac{V_{max} \	imes [S]}{K_m + [S]}$ |
 | $V_{max}$ | Maximum rate | $mg/L/h$ or $M/h$ | $V = \frac{V_{max} \	imes [S]}{K_m + [S]}$ |
 
-
-
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 - $E = \frac{-RT}{nF} \ln(Q)$: Relationship between cell potential, temperature, and reaction quotient.
@@ -205,7 +191,7 @@ ightarrow \	ext{Step 3: Extension}
 
  - $\lambda_{max} = \frac{hc}{\Delta E}$: Relationship between wavelength of maximum absorption and energy difference.
 
- - Biotechnology involves the use of biological systems to develop new products and technologies.
+ - [biotechnology](/blog/biotechnology-and-its-applications-class-12-notes) involves the use of biological systems to develop new products and technologies.
 
  - Plasmids are small, self-replicating circular DNA molecules used as vectors in genetic engineering.
 
@@ -215,10 +201,7 @@ ightarrow \	ext{Step 3: Extension}
 
  - Forgetting to consider the effects of temperature on reaction rates and equilibria can result in incorrect predictions of biotechnological processes.
 
-
-
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
-
 
 **1. What is the primary function of the lac operator in the lac operon?**
 
@@ -273,8 +256,6 @@ ightarrow \	ext{Step 3: Extension}
 
 **Answer:** B) RNAi is a mechanism that represses gene expression by degrading specific mRNA molecules, thereby preventing their translation into protein.
 
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -286,7 +267,6 @@ Continue your revision with these related guides:
 - 📖 [Human Health and Disease Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/human-health-and-disease-class-12-notes)
 - 📖 [Human Reproduction Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/human-reproduction-class-12-notes)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
@@ -294,7 +274,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

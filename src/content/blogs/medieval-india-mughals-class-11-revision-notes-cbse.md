@@ -12,9 +12,6 @@ practice_link: "/class-11/medieval-india-mughals-class-11-revision-notes-cbse"
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Medieval India Mughals?](#what-is-medieval-india-mughals)
@@ -29,25 +26,12 @@ practice_link: "/class-11/medieval-india-mughals-class-11-revision-notes-cbse"
   - [Summary](#summary)
 - [📚 Related Topics](#-related-topics)
 
-
 # Medieval India Mughals Class 11 History Recap — CBSE 2026 Quick Guide
-
-
-
-
 
 ## <a id="what-is-medieval-india-mughals"></a>What is Medieval India Mughals?
 
-
-
-
-
-
-
 **Quick Revision & Recap: Medieval [india](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) - Mughals**
 =====================================================
-
-
 
 * **Mughal Empire**: Founded by **Babur** in 1526
 * **Capital**: Agra, later shifted to [delhi](/blog/medieval-india-delhi-sultanate-class-11-revision-notes-cbse)
@@ -153,35 +137,20 @@ In this quick [revision](/blog/ancient-india-indus-valley-class-11-revision-note
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) with these related guides:
 
 - 📖 [Medieval India Bhakti Sufi Class 11 History Recap — CBSE 2026 Quick Guide](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse)
 - 📖 [Medieval India Delhi Sultanate Class 11 History Recap — CBSE 2026 Quick Guide](/blog/medieval-india-delhi-sultanate-class-11-revision-notes-cbse)
 - 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)
 - 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/medieval-india-mughals-class-11-revision-notes-cbse) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

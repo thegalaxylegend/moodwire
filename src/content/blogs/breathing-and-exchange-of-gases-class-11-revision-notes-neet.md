@@ -12,9 +12,6 @@ practice_link: "/class-11/biology/breathing-and-exchange-of-gases-class-11-revis
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Breathing And Exchange Of Gases?](#what-is-breathing-and-exchange-of-gases)
@@ -36,21 +33,11 @@ practice_link: "/class-11/biology/breathing-and-exchange-of-gases-class-11-revis
   - [MCQs](#mcqs)
 - [📚 Related Topics](#-related-topics)
 
-
 # Breathing And Exchange Of Gases Class 11 Biology Revision — NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-breathing-and-exchange-of-gases"></a>What is Breathing And Exchange Of Gases?
 
 # Breathing and Exchange of Gases Class 11 Notes — Exam Compass
-
-
-
-
-
 
 ## <a id="introduction-to-breathing-and-exchange-of-gases"></a>Introduction to Breathing and Exchange of Gases
 
@@ -63,9 +50,6 @@ The core concepts involved in breathing and exchange of gases include:
 * **Diffusion**: The process by which oxygen and carbon dioxide move from an area of higher concentration to an area of lower concentration.
 * **Partial Pressure**: The pressure exerted by a single component of a mixture of gases.
 * **Oxygen-Hemoglobin Dissociation Curve**: A graph that shows the relationship between the partial pressure of oxygen and the percentage saturation of hemoglobin with oxygen.
-
-
-
 
 ## <a id="mechanism-of-breathing"></a>Mechanism of Breathing
 
@@ -110,9 +94,6 @@ d) 80 mmHg
 
 Answer: c) 40 mmHg
 
-
-
-
 ## <a id="exchange-of-gases"></a>Exchange of Gases
 
 The exchange of gases occurs in the alveoli, where oxygen from the inhaled air diffuses into the blood and carbon dioxide from the blood diffuses into the exhaled air. The exchange of gases is a passive process that occurs due to the difference in partial pressures of the gases.
@@ -130,7 +111,7 @@ Breathing is regulated by the brain, which receives feedback from various sensor
 
 * **Chemoreceptors**: Sensors that detect changes in the levels of oxygen, carbon dioxide, and pH in the blood.
 * **Stretch Receptors**: Sensors that detect changes in the volume of the lungs.
-* **Proprioceptors**: Sensors that detect changes in the position and movement of the body.
+* **Proprioceptors**: Sensors that detect changes in the position and movement of the [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet).
 
 ### <a id="jeeneet-data"></a>JEE/NEET Data
 According to the JEE/[neet](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet) syllabus, the topic of regulation of breathing is covered under the section of "Respiratory System" in the Biology paper. The weightage of this topic is approximately 3-5% of the total marks.
@@ -168,15 +149,12 @@ d) 80 mmHg
 
 Answer: a) 40 mmHg
 
-
-
-
 ## <a id="respiratory-system"></a>Respiratory System
 
 The respiratory system consists of the nose, trachea, bronchi, bronchioles, and lungs. The main function of the respiratory system is to bring oxygen-rich air into the body and remove carbon dioxide-rich air from the body.
 
 ### <a id="jeeneet-data"></a>JEE/NEET Data
-According to the JEE/NEET syllabus, the topic of respiratory system is covered under the section of "Respiratory System" in the Biology paper. The weightage of this topic is approximately 10-12% of the total marks.
+According to the JEE/[neet](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet) syllabus, the topic of respiratory system is covered under the section of "Respiratory System" in the Biology paper. The weightage of this topic is approximately 10-12% of the total marks.
 
 ### <a id="formulae"></a>Formulae
 The following formulae are relevant to the topic of respiratory system:
@@ -215,16 +193,6 @@ Answer: b) 32 g/mol
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
@@ -235,15 +203,10 @@ Continue your [revision](/blog/anatomy-of-flowering-plants-class-11-revision-not
 - 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
 - 📖 [Body Fluids And Circulation Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/body-fluids-and-circulation-class-11-revision-notes-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/breathing-and-exchange-of-gases-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

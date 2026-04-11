@@ -12,9 +12,6 @@ practice_link: "/class-11/biology/human-reproduction-class-12-notes"
 
 *Last Updated: 2026-04-02*
 
-
-
-
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -25,7 +22,6 @@ practice_link: "/class-11/biology/human-reproduction-class-12-notes"
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
 - [📝 Practice MCQs](#-practice-mcqs)
 - [📚 Related Topics](#-related-topics)
-
 
 * 1-2 short answer questions on **menstrual cycle phases** — always, focusing on $\\Delta$ changes in FSH, LH, estrogen, and progesterone levels
 * 1 numerical on **spermatogenesis vs oogenesis** — comparing the number of sperm and egg cells produced, using $2^n$ formula
@@ -44,29 +40,29 @@ practice_link: "/class-11/biology/human-reproduction-class-12-notes"
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Fertility Rate:** $$\frac{\text{Number of Live Births}}{\text{Number of Women of Childbearing Age}}$$ — Measures the number of live births per 1000 women of childbearing age.
+- **Fertility Rate:** \frac{\text{Number of Live Births}}{\text{Number of Women of Childbearing Age}} — Measures the number of live births per 1000 women of childbearing age.
 
- - **Birth Rate:** $$\frac{\text{Number of Live Births}}{\text{Total Population}} \times 1000$$ — Measures the number of live births per 1000 people in the population.
+ - **Birth Rate:** \frac{\text{Number of Live Births}}{\text{Total Population}} \times 1000 — Measures the number of live births per 1000 people in the population.
 
- - **Death Rate:** $$\frac{\text{Number of Deaths}}{\text{Total Population}} \times 1000$$ — Measures the number of deaths per 1000 people in the population.
+ - **Death Rate:** \frac{\text{Number of Deaths}}{\text{Total Population}} \times 1000 — Measures the number of deaths per 1000 people in the population.
 
- - **Population Growth Rate:** $$\frac{\text{Birth Rate} - \text{Death Rate}}{10}$$ — Measures the rate at which the population is growing or declining.
+ - **Population Growth Rate:** \frac{\text{Birth Rate} - \text{Death Rate}}{10} — Measures the rate at which the population is growing or declining.
 
- - **Sex Ratio:** $$\frac{\text{Number of Females}}{\text{Number of Males}} \times 1000$$ — Measures the number of females per 1000 males in the population.
+ - **Sex Ratio:** \frac{\text{Number of Females}}{\text{Number of Males}} \times 1000 — Measures the number of females per 1000 males in the population.
 
- - **Menstrual Cycle Length:** $$28 \pm 7 \text{ days}$$ — Average length of a menstrual cycle, with a normal range of 21 to 35 days.
+ - **Menstrual Cycle Length:** 28 \pm 7 \text{ days} — Average length of a menstrual cycle, with a normal range of 21 to 35 days.
 
- - **Fertilization Probability:** $$\frac{\text{Number of Sperm Reaching the Egg}}{\text{Total Number of Sperm Released}}$$ — Measures the likelihood of successful fertilization.
+ - **Fertilization Probability:** \frac{\text{Number of Sperm Reaching the Egg}}{\text{Total Number of Sperm Released}} — Measures the likelihood of successful fertilization.
 
- - **Embryo Implantation Rate:** $$\frac{\text{Number of Embryos Implanted}}{\text{Number of Embryos Transferred}} \times 100$$ — Measures the percentage of embryos that successfully implant in the uterus.
+ - **Embryo Implantation Rate:** \frac{\text{Number of Embryos Implanted}}{\text{Number of Embryos Transferred}} \times 100 — Measures the percentage of embryos that successfully implant in the uterus.
 
- - **Pregnancy Success Rate:** $$\frac{\text{Number of Successful Pregnancies}}{\text{Total Number of Pregnancies}} \times 100$$ — Measures the percentage of pregnancies that result in a live birth.
+ - **Pregnancy Success Rate:** \frac{\text{Number of Successful Pregnancies}}{\text{Total Number of Pregnancies}} \times 100 — Measures the percentage of pregnancies that result in a live birth.
 
- - **Gonadal Sex Differentiation:** $$\text{Genetic Sex} \rightarrow \text{Gonadal Sex} \rightarrow \text{Phenotypic Sex}$$ — Describes the process of sex determination and differentiation in humans.
+ - **Gonadal Sex Differentiation:** \text{Genetic Sex} \rightarrow \text{Gonadal Sex} \rightarrow \text{Phenotypic Sex} — Describes the process of sex determination and differentiation in humans.
 
- - **Follicular Growth Rate:** $$\frac{\text{Increase in Follicle Size}}{\text{Time}}$$ — Measures the rate at which follicles grow and mature in the ovaries.
+ - **Follicular Growth Rate:** \frac{\text{Increase in Follicle Size}}{\text{Time}} — Measures the rate at which follicles grow and mature in the ovaries.
 
- - **Spermatogenesis Efficiency:** $$\frac{\text{Number of Mature Sperm}}{\text{Total Number of Sperm Produced}} \times 100$$ — Measures the percentage of sperm that mature and become functional.
+ - **Spermatogenesis Efficiency:** \frac{\text{Number of Mature Sperm}}{\text{Total Number of Sperm Produced}} \times 100 — Measures the percentage of sperm that mature and become functional.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -74,31 +70,31 @@ practice_link: "/class-11/biology/human-reproduction-class-12-notes"
 
  - *Costs:* 4-6 marks
 
- - *Fix:* Remember that $FSH$ stimulates follicular growth, while $LH$ triggers ovulation. Use the formula: $$\text{Menstrual Cycle} = \text{Follicular Phase} + \text{Ovulation} + \text{Luteal Phase}$$ to keep track of hormone functions.
+ - *Fix:* Remember that $FSH$ stimulates follicular growth, while $LH$ triggers ovulation. Use the formula: \text{Menstrual Cycle} = \text{Follicular Phase} + \text{Ovulation} + \text{Luteal Phase} to keep track of hormone functions.
 
  - **Mistake 2:** Forgetting the difference between $\mitosis$ and $\meiosis$ in reproductive cells.
 
  - *Costs:* 5-7 marks
 
- - *Fix:* Recall that $\mitosis$ results in $2$ daughter cells with $46$ chromosomes, while $\meiosis$ results in $4$ daughter cells with $23$ chromosomes: $$2^{\mitosis} = 2 \times 46$$ and $$2^{\meiosis} = 4 \times 23$$.
+ - *Fix:* Recall that $\mitosis$ results in $2$ daughter cells with $46$ chromosomes, while $\meiosis$ results in $4$ daughter cells with $23$ chromosomes: 2^{\mitosis} = 2 \times 46 and 2^{\meiosis} = 4 \times 23.
 
  - **Mistake 3:** Not understanding the significance of $hCG$ in pregnancy.
 
  - *Costs:* 3-5 marks
 
- - *Fix:* Remember that human chorionic gonadotropin ($hCG$) is produced by the placenta and maintains the corpus luteum during early pregnancy: $$hCG \propto \text{placental development}$$.
+ - *Fix:* Remember that human chorionic gonadotropin ($hCG$) is produced by the placenta and maintains the corpus luteum during early pregnancy: hCG \propto \text{placental development}.
 
  - **Mistake 4:** Incorrectly describing the process of $\fertilization$.
 
  - *Costs:* 6-8 marks
 
- - *Fix:* Review the steps of fertilization: $$\text{Fertilization} = \text{Acrosome Reaction} + \text{Zona Pellucida Binding} + \text{Cortical Reaction}$$.
+ - *Fix:* Review the steps of fertilization: \text{Fertilization} = \text{Acrosome Reaction} + \text{Zona Pellucida Binding} + \text{Cortical Reaction}.
 
  - **Mistake 5:** Confusing the roles of $\estrogen$ and $\progestogen$ in the menstrual cycle.
 
  - *Costs:* 5-7 marks
 
- - *Fix:* Understand that $\estrogen$ promotes follicular growth and $\progestogen$ prepares the uterus for implantation: $$\text{Menstrual Cycle} = \text{Estrogen} \times \text{Progestogen}$$.
+ - *Fix:* Understand that $\estrogen$ promotes follicular growth and $\progestogen$ prepares the uterus for implantation: \text{Menstrual Cycle} = \text{Estrogen} \times \text{Progestogen}.
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
@@ -116,7 +112,7 @@ practice_link: "/class-11/biology/human-reproduction-class-12-notes"
 
  - $FSH$ stimulates the production of $estrogen$ by the follicles, which in turn causes the thickening of the endometrium and the proliferation of the glandular epithelium.
 
- - The process can be represented as: $$FSH \times Receptor \rightarrow G_{s} \alpha \rightarrow \Delta cAMP$$
+ - The process can be represented as: FSH \times Receptor \rightarrow G_{s} \alpha \rightarrow \Delta cAMP
 
  - Where $G_{s} \alpha$ is the G protein alpha subunit that stimulates adenylate cyclase to produce $cAMP$.
 
@@ -150,7 +146,7 @@ practice_link: "/class-11/biology/human-reproduction-class-12-notes"
 
  - Its primary role is to maintain the corpus luteum, which is responsible for producing progesterone, during the first trimester of pregnancy.
 
- - $hCG$ can be represented by the following formula: $$hCG = \frac{\beta-hCG}{\alpha-hCG}$$
+ - $hCG$ can be represented by the following formula: hCG = \frac{\beta-hCG}{\alpha-hCG}
 
  - Where $\beta-hCG$ and $\alpha-hCG$ are the beta and alpha subunits of hCG respectively.
 
@@ -166,7 +162,7 @@ practice_link: "/class-11/biology/human-reproduction-class-12-notes"
 
  - **What 95% scorers do:** Top scorers recognize that the key to mastering human reproduction lies in understanding the intricate feedback loops, such as the negative feedback of $estrogen$ and $progesterone$ on $FSH$ release, and the positive feedback of $estrogen$ on $LH$ release, leading to the $LH$ surge. They can:
 
- * Apply the formula for the $LH$ surge: $$\Delta LH = \eta_0 + \eta_1 \	imes Estrogen$$
+ * Apply the formula for the $LH$ surge: \Delta LH = \eta_0 + \eta_1 \	imes Estrogen
 
  * Explain how disruptions in these feedback mechanisms can lead to infertility or menstrual irregularities.
 
@@ -193,7 +189,7 @@ practice_link: "/class-11/biology/human-reproduction-class-12-notes"
 | Human [reproduction](/blog/reproduction-in-organisms-class-12-notes) | Fertilization and Implantation | 10 |
 | Human [reproduction](/blog/reproduction-in-organisms-class-12-notes) | Pregnancy and Childbirth | 8 |
 | Human [reproduction](/blog/reproduction-in-organisms-class-12-notes) | Contraception and Infertility | 6 |
-| Human Reproduction | Sexually Transmitted Diseases | 4 |
+| Human [reproduction](/blog/reproduction-in-organisms-class-12-notes) | Sexually Transmitted Diseases | 4 |
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
@@ -272,8 +268,6 @@ practice_link: "/class-11/biology/human-reproduction-class-12-notes"
 
 **Answer:** A) Implantation refers to the process by which a blastocyst attaches to the uterine lining.
 
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -285,7 +279,6 @@ Continue your revision with these related guides:
 - 📖 [Molecular Basis of Inheritance Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/molecular-basis-of-inheritance-class-12-notes)
 - 📖 [Principles of Inheritance and Variation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/principles-of-inheritance-and-variation-class-12-notes)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
@@ -293,7 +286,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

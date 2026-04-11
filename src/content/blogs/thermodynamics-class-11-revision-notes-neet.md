@@ -12,9 +12,6 @@ practice_link: "/class-11/biology/thermodynamics-class-11-revision-notes-neet"
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Thermodynamics Revision Notes?](#what-is-thermodynamics-revision-notes)
@@ -32,18 +29,11 @@ practice_link: "/class-11/biology/thermodynamics-class-11-revision-notes-neet"
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Thermodynamics Class 11 Biology Revision — NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-thermodynamics-revision-notes"></a>What is Thermodynamics Revision Notes?
 
 # Thermodynamics Revision Notes
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -56,15 +46,11 @@ practice_link: "/class-11/biology/thermodynamics-class-11-revision-notes-neet"
 
 ---
 
-
 ## <a id="introduction"></a>Introduction
 
 [thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) is the study of heat, work, and the transformation of energy from one form to another. Unlike mechanics, which focuses on individual particles, [thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) deals with large-scale systems and their "State Variables" like pressure, volume, and temperature. This chapter is the heartbeat of modern engineering—from the internal combustion engine in your car to the massive turbines in power plants. In this "Comprehensive" guide, we provide exhaustive derivations for work done in various processes, a step-by-step analysis of the Carnot Cycle, and the rigorous mathematical proofs required for top-tier competitive exams like JEE and NEET.
 
 ---
-
-
-
 
 ## <a id="1-thermodynamic-systems-and-state"></a>1. Thermodynamic Systems and State
 
@@ -74,9 +60,6 @@ practice_link: "/class-11/biology/thermodynamics-class-11-revision-notes-neet"
 
 ---
 
-
-
-
 ## <a id="2-the-first-law-of-thermodynamics"></a>2. The First Law of Thermodynamics
 
 **Statement:** The heat supplied to a system (**ΔQ**) is equal to the sum of the increase in its internal energy (**ΔU**) and the work done by the system (**ΔW**).
@@ -85,9 +68,6 @@ practice_link: "/class-11/biology/thermodynamics-class-11-revision-notes-neet"
 - **Sign Convention:** Work done *by* the system is Positive (+); Work done *on* the system is Negative (-).
 
 ---
-
-
-
 
 ## <a id="3-derivations-work-done-in-different-processes"></a>3. Derivations: Work Done in Different Processes
 
@@ -110,9 +90,6 @@ In an adiabatic process, **PVᵞ = K** (where γ = Cp/Cv).
 
 ---
 
-
-
-
 ## <a id="4-the-carnot-cycle-the-ideal-heat-engine"></a>4. The Carnot Cycle: The Ideal Heat Engine
 
 The Carnot Cycle is a theoretical cycle consisting of four reversible steps:
@@ -130,9 +107,6 @@ The Carnot Cycle is a theoretical cycle consisting of four reversible steps:
 
 ---
 
-
-
-
 ## <a id="5-the-second-law-of-thermodynamics"></a>5. The Second Law of Thermodynamics
 
 The Second Law sets the direction of energy transfer and limits efficiency.
@@ -140,9 +114,6 @@ The Second Law sets the direction of energy transfer and limits efficiency.
 - **Clausius Statement:** Heat cannot flow spontaneously from a colder body to a hotter body without external work.
 
 ---
-
-
-
 
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
@@ -158,17 +129,11 @@ The Second Law sets the direction of energy transfer and limits efficiency.
 
 ---
 
-
-
-
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 10: Thermal Properties of Matter**
 - **Chapter 12: [kinetic](/blog/kinetic-theory-class-11-revision-notes-jee-neet) Theory of Gases (Molecular Dynamics)**
 - **[thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) P-V Graph Solver Guide**
-
-
-
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -181,16 +146,6 @@ The Second Law sets the direction of energy transfer and limits efficiency.
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
@@ -201,15 +156,10 @@ Continue your [revision](/blog/current-electricity-class-11-revision-notes-neet)
 - 📖 [Moving Charges Magnetism Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/moving-charges-magnetism-class-11-revision-notes-neet)
 - 📖 [Thermodynamics Chemistry Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/thermodynamics-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

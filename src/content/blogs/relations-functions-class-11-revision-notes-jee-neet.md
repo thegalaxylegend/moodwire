@@ -12,9 +12,6 @@ practice_link: "/class-11/chemistry/relations-functions-class-11-revision-notes-
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Relations Functions Revision Notes?](#what-is-relations-functions-revision-notes)
@@ -30,18 +27,11 @@ practice_link: "/class-11/chemistry/relations-functions-class-11-revision-notes-
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Relations Functions Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-relations-functions-revision-notes"></a>What is Relations Functions Revision Notes?
 
 # Relations Functions Revision Notes
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -55,16 +45,12 @@ practice_link: "/class-11/chemistry/relations-functions-class-11-revision-notes-
 
 ---
 
-
 ## <a id="introduction"></a>Introduction
 
 **Relations and Functions describe how sets of [numbers](/blog/complex-numbers-class-11-revision-notes-jee-neet) interact, forming the core of algebraic modeling and calculus. Master Cartesian products, domain, range, and various types of functions like signum and modulus to excel in coordinate geometry and advanced math. This comprehensive Chapter 2 summary provides the mapping logic required for top-tier JEE and CBSE performance.**
 Relations and [functions](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) are the "verbs" of mathematics.
 
 ---
-
-
-
 
 ## <a id="1-cartesian-product-of-sets"></a>1. Cartesian Product of Sets
 
@@ -74,9 +60,6 @@ Given two non-empty [sets](/blog/sets-class-11-revision-notes-jee-neet) A and B,
 *   **Note:** Ordered pairs have a specific sequence; (a, b) ≠ (b, a) unless a = b.
 
 ---
-
-
-
 
 ## <a id="2-relations"></a>2. Relations
 
@@ -91,9 +74,6 @@ A relation **R** from a non-empty set A to a non-empty set B is a subset of the 
 
 ---
 
-
-
-
 ## <a id="3-functions"></a>3. Functions
 
 A relation **f** from a set A to a set B is called a function if every element of set A has one and only one image in set B.
@@ -101,9 +81,6 @@ A relation **f** from a set A to a set B is called a function if every element o
 *   If (a, b) ∈ f, then f(a) = b, where **b** is the image of **a** and **a** is the pre-image of **b**.
 
 ---
-
-
-
 
 ## <a id="4-some-standard-functions-and-their-graphs"></a>4. Some Standard Functions and Their Graphs
 
@@ -118,9 +95,6 @@ Understanding the "shape" of [functions](/blog/trigonometric-functions-class-11-
 
 ---
 
-
-
-
 ## <a id="5-algebra-of-real-functions"></a>5. Algebra of Real Functions
 
 If f and g are two real [functions](/blog/trigonometric-functions-class-11-revision-notes-jee-neet):
@@ -130,9 +104,6 @@ If f and g are two real [functions](/blog/trigonometric-functions-class-11-revis
 *   (f / g)(x) = f(x) / g(x), provided g(x) ≠ 0.
 
 ---
-
-
-
 
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
@@ -153,17 +124,11 @@ If f and g are two real [functions](/blog/trigonometric-functions-class-11-revis
 
 ---
 
-
-
-
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - [**Chapter 1: Sets**
-- **Chapter 3: Trigonometric Functions**
+- **Chapter 3: [trigonometric](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) Functions**
 - [**External Reference:** [NCERT Class 11 Math Chapter 2](https://ncert.nic.in/textbook.php?kemh1=2-16) (Authoritative Source)]
-
-
-
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -173,16 +138,6 @@ Functions are the heartbeat of Calculus and higher mathematics. By distinguishin
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 
@@ -195,15 +150,10 @@ Continue your [revision](/blog/limits-derivatives-class-11-revision-notes-jee-ne
 - 📖 [Trigonometric Functions Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/trigonometric-functions-class-11-revision-notes-jee-neet)
 - 📖 [Complex Numbers Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/relations-functions-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

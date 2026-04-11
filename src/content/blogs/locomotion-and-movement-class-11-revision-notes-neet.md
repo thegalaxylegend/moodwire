@@ -12,9 +12,6 @@ practice_link: "/class-11/biology/locomotion-and-movement-class-11-revision-note
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Locomotion And Movement?](#what-is-locomotion-and-movement)
@@ -30,20 +27,11 @@ practice_link: "/class-11/biology/locomotion-and-movement-class-11-revision-note
 - [JEE/NEET Preparation Tips](#jeeneet-preparation-tips)
 - [📚 Related Topics](#-related-topics)
 
-
 # Locomotion And Movement Class 11 Biology Revision — NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-locomotion-and-movement"></a>What is Locomotion And Movement?
 
 # Locomotion and Movement Class 11 Notes — Exam Compass
-
-
-
-
 
 ## <a id="introduction-to-locomotion-and-movement"></a>Introduction to Locomotion and Movement
 
@@ -56,7 +44,7 @@ There are several types of locomotion and movement, each with its unique charact
 * **Walking and Running**: These are the most common forms of locomotion in humans and many animals. Walking involves the alternating movement of legs, while running involves a more rapid and energetic movement.
 * **Jumping**: Jumping is a form of locomotion that involves the use of powerful leg muscles to propel the [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet) into the air. Examples of jumping animals include frogs, grasshoppers, and kangaroos.
 * **Flying**: Flying is a unique form of locomotion that involves the use of wings to generate lift and propel the [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet) through the air. Examples of flying animals include birds, insects, and bats.
-* **Swimming**: Swimming is a form of locomotion that involves the use of flippers, fins, or other appendages to propel the body through water. Examples of swimming animals include fish, dolphins, and whales.
+* **Swimming**: Swimming is a form of locomotion that involves the use of flippers, fins, or other appendages to propel the [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet) through water. Examples of swimming animals include fish, dolphins, and whales.
 
 ## <a id="core-concepts"></a>Core Concepts
 
@@ -74,7 +62,7 @@ Several formulae and equations are relevant to the study of locomotion and movem
 * **Work (W) = Force (F) x Distance (d)**: This equation describes the relationship between work, force, and distance.
 * **Power (P) = Work (W) / Time (t)**: This equation describes the relationship between power, work, and time.
 
-$$F = maW = FdP = \frac{W}{t}$$
+F = maW = FdP = \frac{W}{t}
 
 ## <a id="jeeneet-data"></a>JEE/NEET Data
 
@@ -118,7 +106,7 @@ To summarize, the key points related to locomotion and movement include:
 * There are several types of locomotion and movement, including walking, running, jumping, flying, and swimming.
 * The core concepts related to locomotion and movement include muscle structure and function, nervous system [control](/blog/neural-control-and-coordination-class-11-revision-notes-neet), and skeletal system support.
 * The formulae and equations relevant to this topic include force, work, and power.
-* Understanding these concepts and formulae is essential for answering JEE/NEET questions related to locomotion and movement.
+* Understanding these concepts and formulae is essential for answering JEE/[neet](/blog/animal-kingdom-class-11-revision-notes-neet) questions related to locomotion and movement.
 
 ## <a id="jeeneet-preparation-tips"></a>JEE/NEET Preparation Tips
 
@@ -137,16 +125,6 @@ The study of locomotion and movement is a fascinating and complex topic that req
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
@@ -157,15 +135,10 @@ Continue your [revision](/blog/animal-kingdom-class-11-revision-notes-neet) with
 - 📖 [Body Fluids And Circulation Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/body-fluids-and-circulation-class-11-revision-notes-neet)
 - 📖 [World History Industrial Revolution Class 11 History Recap — CBSE 2026 Quick Guide](/blog/world-history-industrial-revolution-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/locomotion-and-movement-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

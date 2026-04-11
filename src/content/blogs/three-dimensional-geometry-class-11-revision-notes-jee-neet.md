@@ -12,9 +12,6 @@ practice_link: "/class-11/physics/three-dimensional-geometry-class-11-revision-n
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Three Dimensional Geometry Revision Notes?](#what-is-three-dimensional-geometry-revision-notes)
@@ -29,18 +26,11 @@ practice_link: "/class-11/physics/three-dimensional-geometry-class-11-revision-n
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Three Dimensional Geometry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-three-dimensional-geometry-revision-notes"></a>What is Three Dimensional Geometry Revision Notes?
 
 # Three Dimensional Geometry Revision Notes
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -53,16 +43,12 @@ practice_link: "/class-11/physics/three-dimensional-geometry-class-11-revision-n
 
 ---
 
-
 ## <a id="introduction"></a>Introduction
 
 **Three Dimensional Geometry extends the Cartesian coordinate system into space, providing the foundation for engineering, flight navigation, and Vector Algebra. Master the Eight Octants, the 3D distance formula, and section formulas to excel in spatial modeling and advanced physics. This [class](/blog/mathematical-induction-class-11-revision-notes-jee-neet) 11 Math Chapter 12 summary provides all essential formulas for JEE and Board exam success.**
 The transition from 2D to 3D geometry is like going from a flat map to the real world.
 
 ---
-
-
-
 
 ## <a id="1-coordinate-planes-and-axes-in-3d"></a>1. Coordinate Planes and Axes in 3D
 
@@ -73,9 +59,6 @@ In three dimensions, we use three mutually perpendicular [lines](/blog/straight-
     - **ZX Plane:** Contains z and x axes. Equation: **y = 0**.
 
 ---
-
-
-
 
 ## <a id="2-coordinates-of-a-point-and-octants"></a>2. Coordinates of a Point and Octants
 
@@ -92,9 +75,6 @@ A point P in space is represented by (x, y, z). These axes divide the space into
 
 ---
 
-
-
-
 ## <a id="3-distance-formula-in-3d"></a>3. Distance Formula in 3D
 
 The distance between two points P₁(x₁, y₁, z₁) and P₂(x₂, y₂, z₂) is given by:
@@ -102,9 +82,6 @@ The distance between two points P₁(x₁, y₁, z₁) and P₂(x₂, y₂, z₂
 This formula is an extension of the Pythagorean theorem into three dimensions.
 
 ---
-
-
-
 
 ## <a id="4-section-formula"></a>4. Section Formula
 
@@ -118,18 +95,12 @@ If a point R divides the [line](/blog/motion-in-a-straight-line-class-11-revisio
 
 ---
 
-
-
-
 ## <a id="5-centroid-of-a-triangle"></a>5. Centroid of a Triangle
 
 The centroid of a triangle with vertices (x₁, y₁, z₁), (x₂, y₂, z₂), and (x₃, y₃, z₃) is:
 **G = [(x₁ + x₂ + x₃) / 3, (y₁ + y₂ + y₃) / 3, (z₁ + z₃ + z₃) / 3]**
 
 ---
-
-
-
 
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
@@ -155,17 +126,11 @@ The centroid of a triangle with vertices (x₁, y₁, z₁), (x₂, y₂, z₂),
 
 ---
 
-
-
-
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 11: Conic Sections**
 - **Chapter 13: Limits and Derivatives**
 - [**External Reference:** [NCERT Class 11 Math Chapter 12](https://ncert.nic.in/textbook.php?kemh1=12-16) (Authoritative Source)]
-
-
-
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -175,16 +140,6 @@ The centroid of a triangle with vertices (x₁, y₁, z₁), (x₂, y₂, z₂),
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 
@@ -197,15 +152,10 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 - 📖 [Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)
 - 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/three-dimensional-geometry-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

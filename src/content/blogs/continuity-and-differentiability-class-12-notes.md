@@ -12,9 +12,6 @@ practice_link: "/class-11/mathematics/continuity-and-differentiability-class-12-
 
 *Last Updated: 2026-04-01*
 
-
-
-
 ## 📋 Table of Contents
 
   - [3 Solved PYQs (Continued)](#3-solved-pyqs-continued)
@@ -37,7 +34,6 @@ practice_link: "/class-11/mathematics/continuity-and-differentiability-class-12-
   - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
 - [📚 Related Topics](#-related-topics)
 
-
 - [3 Solved PYQs (Continued)](#3-solved-pyqs-continued)
   - [Continuity](#continuity)
   - [Differentiability](#differentiability)
@@ -54,13 +50,12 @@ practice_link: "/class-11/mathematics/continuity-and-differentiability-class-12-
   - [Summary of Key Concepts: A Recap](#summary-of-key-concepts-a-recap)
   - [Advanced Concepts in Continuity and Differentiability](#advanced-concepts-in-continuity-and-differentiability)
 
-
 ### <a id="3-solved-pyqs-continued"></a>3 Solved PYQs (Continued)
 - **Solution (Continued):** 
 Now, we can cancel the $(x-2)$ terms, but we must be aware that this cancellation is valid only if $x \neq 2$ because division by zero is undefined. Thus, after cancellation, we have:
-$$
+
 \lim_{x \to 2} f(x) = \lim_{x \to 2} (x + 2)
-$$
+
 As $x$ approaches $2$, $x + 2$ approaches $4$. Therefore, $\lim_{x \to 2} f(x) = 4$.
 
 - **Q2:** If $f(x) = |x|$, find $f'(x)$ for $x > 0$, $x < 0$, and $x = 0$.
@@ -73,9 +68,9 @@ For $x > 0$, $f(x) = x$, so $f'(x) = 1$.
 For $x < 0$, $f(x) = -x$, so $f'(x) = -1$. 
 
 At $x = 0$, we check the definition of a derivative:
-$$
+
 f'(0) = \lim_{h \to 0} \frac{f(0 + h) - f(0)}{h} = \lim_{h \to 0} \frac{|h|}{h}
-$$
+
 This limit does not exist because $\frac{|h|}{h} = 1$ for $h > 0$ and $\frac{|h|}{h} = -1$ for $h < 0$. Therefore, $f'(0)$ is undefined.
 
 - **Q3:** If $f(x) = \sin(x)$, prove that $f'(x) = \cos(x)$.
@@ -84,24 +79,22 @@ This limit does not exist because $\frac{|h|}{h} = 1$ for $h > 0$ and $\frac{|h|
 
  - **Solution:** 
 By definition, 
-$$
+
 f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h} = \lim_{h \to 0} \frac{\sin(x + h) - \sin(x)}{h}
-$$
+
 Using the angle sum identity for sine, $\sin(a + b) = \sin(a)\cos(b) + \cos(a)\sin(b)$, we get:
-$$
+
 \sin(x + h) = \sin(x)\cos(h) + \cos(x)\sin(h)
-$$
+
 Substituting this back into our limit:
-$$
+
 f'(x) = \lim_{h \to 0} \frac{\sin(x)\cos(h) + \cos(x)\sin(h) - \sin(x)}{h}
 
 = \lim_{h \to 0} \frac{\sin(x)(\cos(h) - 1) + \cos(x)\sin(h)}{h}
-$$
-Since $\cos(h)$ approaches $1$ and $\sin(h)$ approaches $h$ as $h$ approaches $0$:
-$$
-f'(x) = \lim_{h \to 0} \frac{\cos(x)\sin(h)}{h} = \cos(x) \cdot \lim_{h \to 0} \frac{\sin(h)}{h} = \cos(x) \cdot 1 = \cos(x)
-$$
 
+Since $\cos(h)$ approaches $1$ and $\sin(h)$ approaches $h$ as $h$ approaches $0$:
+
+f'(x) = \lim_{h \to 0} \frac{\cos(x)\sin(h)}{h} = \cos(x) \cdot \lim_{h \to 0} \frac{\sin(h)}{h} = \cos(x) \cdot 1 = \cos(x)
 
 ### <a id="continuity"></a>Continuity
 - **Checking Continuity:** To check if a function $f(x)$ is continuous at $x = a$, we must verify that $\lim_{x \to a} f(x) = f(a)$.
@@ -125,7 +118,6 @@ $$
   - **Closed Interval:** $[a, b]$.
   - **Half-Open Interval:** $[a, b)$ or $(a, b]$.
 
-
 ### <a id="differentiability"></a>Differentiability
 - **Checking Differentiability:** A function $f(x)$ is differentiable at $x = a$ if the limit $\lim_{h \to 0} \frac{f(a + h) - f(a)}{h}$ exists.
 
@@ -146,15 +138,14 @@ $$
   - **Closed Interval:** $[a, b]$.
   - **Half-Open Interval:** $[a, b)$ or $(a, b]$.
 
-
 ### <a id="algebra-of-derivatives"></a>Algebra of Derivatives
-- **Sum Rule:** $$\frac{d}{dx} (f(x) + g(x)) = f'(x) + g'(x)$$
+- **Sum Rule:** \frac{d}{dx} (f(x) + g(x)) = f'(x) + g'(x)
 
- - **Difference Rule:** $$\frac{d}{dx} (f(x) - g(x)) = f'(x) - g'(x)$$
+ - **Difference Rule:** \frac{d}{dx} (f(x) - g(x)) = f'(x) - g'(x)
 
- - **Product Rule:** $$\frac{d}{dx} (f(x) \cdot g(x)) = f'(x) \cdot g(x) + f(x) \cdot g'(x)$$
+ - **Product Rule:** \frac{d}{dx} (f(x) \cdot g(x)) = f'(x) \cdot g(x) + f(x) \cdot g'(x)
 
- - **Quotient Rule:** $$\frac{d}{dx} \left(\frac{f(x)}{g(x)}\right) = \frac{f'(x) \cdot g(x) - f(x) \cdot g'(x)}{(g(x))^2}$$
+ - **Quotient Rule:** \frac{d}{dx} \left(\frac{f(x)}{g(x)}\right) = \frac{f'(x) \cdot g(x) - f(x) \cdot g'(x)}{(g(x))^2}
 
 #### Derivative of a Constant
 - **Rule:** If $f(x) = c$, where $c$ is a constant, then $f'(x) = 0$.
@@ -162,11 +153,10 @@ $$
 #### Derivative of a Power Function
 - **Rule:** If $f(x) = x^n$, where $n$ is a real number, then $f'(x) = nx^{n-1}$.
 
-
 ### <a id="chain-rule"></a>Chain Rule
 - **Composition of Functions:** If $f(x) = g(h(x))$, then $f'(x) = g'(h(x)) \cdot h'(x)$.
 
- - **General Form:** $$\frac{d}{dx} f(g(x)) = f'(g(x)) \cdot g'(x)$$
+ - **General Form:** \frac{d}{dx} f(g(x)) = f'(g(x)) \cdot g'(x)
 
 #### Chain Rule for Multiple Compositions
 - **Rule:** If $f(x) = g(h(j(x)))$, then $f'(x) = g'(h(j(x))) \cdot h'(j(x)) \cdot j'(x)$.
@@ -175,7 +165,6 @@ $$
 - **Examples:** 
   - If $f(x) = \sin(\cos(x))$, then $f'(x) = \cos(\cos(x)) \cdot (-\sin(x))$.
   - If $f(x) = \cos(\sin(x))$, then $f'(x) = -\sin(\sin(x)) \cdot \cos(x)$.
-
 
 ### <a id="implicit-differentiation"></a>Implicit Differentiation
 - **Implicitly Defined Functions:** Functions defined by an equation where $y$ is not explicitly given in terms of $x$.
@@ -189,7 +178,6 @@ $$
   - If $\sin(y) = x$, then $\cos(y) \cdot y' = 1$, so $y' = \frac{1}{\cos(y)}$.
   - If $\cos(y) = x$, then $-\sin(y) \cdot y' = 1$, so $y' = -\frac{1}{\sin(y)}$.
 
-
 ### <a id="higherorder-derivatives"></a>Higher-Order Derivatives
 - **First Derivative:** $f'(x)$
 
@@ -202,7 +190,6 @@ $$
 
 #### Higher-Order Derivative Test
 - **Rule:** The sign of $f^{(n)}(x)$ determines the concavity of $f^{(n-1)}(x)$.
-
 
 ### <a id="applications-of-derivatives"></a>Applications of Derivatives
 - **Optimization:** Use derivatives to find maximum and minimum values of functions.
@@ -220,7 +207,6 @@ $$
 - **Velocity:** The derivative of position with respect to time.
 - **Acceleration:** The derivative of velocity with respect to time.
 
-
 ### <a id="summary-of-key-concepts"></a>Summary of Key Concepts
 - **Continuity:** $\lim_{x \to a} f(x) = f(a)$
 
@@ -236,7 +222,7 @@ $$
 
 - **Solution (continued):** 
 
- $$\lim_{x \to 2} f(x) = \lim_{x \to 2} (x + 2) = 2 + 2 = 4$$
+ \lim_{x \to 2} f(x) = \lim_{x \to 2} (x + 2) = 2 + 2 = 4
 
 - **Q2:** If $f(x) = |x|$ and $g(x) = x^2$, find the derivative of $f(g(x))$.
 
@@ -254,9 +240,9 @@ For $x > 0$, $f(g(x)) = f(x^2) = |x^2| = x^2$, so $f'(g(x)) = 2x$.
 For $x < 0$, $f(g(x)) = f(x^2) = |x^2| = x^2$, so $f'(g(x)) = 2x$. 
 
 However, since $g(x) = x^2$, we need to use the chain rule:
-$$
+
 \frac{d}{dx} f(g(x)) = f'(g(x)) \cdot g'(x) = 2x \cdot 2x = 4x^2
-$$
+
 But we must consider the nature of $f(x) = |x|$ when $x = 0$. Since $g(0) = 0^2 = 0$, and $f'(0)$ is undefined for $f(x) = |x|$, the derivative of $f(g(x))$ at $x = 0$ needs special attention.
 
 ## <a id="-the-5-trap-mistakes"></a>🪤 The 5 Trap Mistakes
@@ -315,7 +301,6 @@ By regularly using the Test Center, you will not only deepen your understanding 
 
 In the last 5 minutes of your study session, quickly review the key concepts of continuity and differentiability, including definitions, types of discontinuities, and differentiation rules. Practice applying these concepts to simple problems to reinforce your understanding. Remember, consistent practice and review are key to mastering these topics. Bookmark this guide and return daily to continue your journey towards becoming a grandmaster in continuity and differentiability for JEE 2026.
 
-
 ---
 
 ### <a id="-ready-to-ace-your-exam"></a>🚀 Ready to Ace Your Exam?
@@ -323,7 +308,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 
@@ -336,15 +320,10 @@ Continue your revision with these related guides:
 - 📖 [Amines Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/amines-class-12-notes)
 - 📖 [Metallurgy Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/metallurgy-class-12-notes)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/continuity-and-differentiability-class-12-notes) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

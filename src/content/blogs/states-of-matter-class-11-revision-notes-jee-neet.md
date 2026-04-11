@@ -12,9 +12,6 @@ practice_link: "/class-11/physics/states-of-matter-class-11-revision-notes-jee-n
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is States Of Matter Revision Notes?](#what-is-states-of-matter-revision-notes)
@@ -47,23 +44,11 @@ practice_link: "/class-11/physics/states-of-matter-class-11-revision-notes-jee-n
   - [Board Exam Tip:](#board-exam-tip)
 - [📚 Related Topics](#-related-topics)
 
-
 # States Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-states-of-matter-revision-notes"></a>What is States Of Matter Revision Notes?
 
 # States Of Matter Revision Notes
-
-
-
-
-
-
-
 
 1. [Why States of Matter is Your "Physics in Chemistry" Chapter](#intro)
 2. [Intermolecular Forces: The Root Cause of Physical States](#imf)
@@ -78,11 +63,6 @@ practice_link: "/class-11/physics/states-of-matter-class-11-revision-notes-jee-n
 11. [Practice MCQs (JEE/NEET Level)](#mcqs)
 12. [Ayush's Gas Laws Strategy](#ayush-strategy)
 
-
-
-
-
-
 ## <a id="1-why-states-of-matter-is-your-physics-in-chemistry-chapter"></a>1. Why States of Matter is Your "Physics in Chemistry" Chapter
 
 **States of Matter describes how the physical behavior of substances (particularly gases) is governed by temperature, pressure, and volume, and how these variables interact through mathematical laws.**
@@ -95,11 +75,6 @@ This chapter is where Physics and Chemistry merge. If you're comfortable with [t
 - **CBSE Boards**: This unit carries 4-5 marks and is often paired with [thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) in the paper.
 
 ---
-
-
-
-
-
 
 ## <a id="2-intermolecular-forces-the-root-cause-of-physical-states"></a>2. Intermolecular Forces: The Root Cause of Physical States
 
@@ -114,11 +89,6 @@ This chapter is where Physics and Chemistry merge. If you're comfortable with [t
 | **London Dispersion** | Weakest | Non-polar + Non-polar | $He$, $CH_4$ |
 
 ---
-
-
-
-
-
 
 ## <a id="3-boyles-charless-and-gay-lussacs-laws-the-foundation"></a>3. Boyle's, Charles's, and Gay Lussac's Laws — The Foundation
 
@@ -142,11 +112,6 @@ $V \propto n$. Equal volumes of all gases at same T and P contain equal number o
 
 ---
 
-
-
-
-
-
 ## <a id="4-the-ideal-gas-equation-combining-everything-pvnrt"></a>4. The Ideal Gas Equation: Combining Everything ($PV=nRT$)
 
 **The Ideal Gas Equation ($PV=nRT$) is a single equation that combines Boyle's, Charles's, and Avogadro's laws to describe the state of a hypothetical "ideal" gas.**
@@ -159,35 +124,25 @@ $V \propto n$. Equal volumes of all gases at same T and P contain equal number o
 | $2$ | $\text{cal mol}^{-1}\text{ K}^{-1}$ | Energy in calories |
 
 ### <a id="the-density-shortcut"></a>The Density Shortcut
-From $PV = nRT$ and $n = W/M$: $$PM = dRT$$ where $d$ = density. This is a high-yield JEE formula for "find the molar mass of a gas" questions.
+From $PV = nRT$ and $n = W/M$: PM = dRT where $d$ = density. This is a high-yield JEE formula for "find the molar mass of a gas" questions.
 
 ---
-
-
-
-
-
 
 ## <a id="5-daltons-law-and-grahams-law-mixtures-and-diffusion"></a>5. Dalton's Law & Graham's Law: Mixtures and Diffusion
 
 **Dalton's Law of Partial Pressures states that the total pressure of a mixture of non-reacting gases is equal to the sum of individual partial pressures of each component gas.**
 
-$$P_{total} = P_1 + P_2 + P_3 + ...P_i = X_i \times P_{total}$$ where $X_i$ = mole fraction.
+P_{total} = P_1 + P_2 + P_3 + ...P_i = X_i \times P_{total} where $X_i$ = mole fraction.
 
 ### <a id="grahams-law-of-diffusion"></a>Graham's Law of Diffusion
 
 **Graham's Law states that the rate of diffusion or effusion of a gas is inversely proportional to the square root of its molar mass.**
 
-$$\frac{r_1}{r_2} = \sqrt{\frac{M_2}{M_1}}$$
+\frac{r_1}{r_2} = \sqrt{\frac{M_2}{M_1}}
 
 **JEE Trick**: This means lighter gases diffuse faster. $H_2$ diffuses 4× faster than $O_2$ (since $\sqrt{32/2} = 4$).
 
 ---
-
-
-
-
-
 
 ## <a id="6-kinetic-molecular-theory-kmt-the-microscopic-view"></a>6. Kinetic Molecular Theory (KMT): The Microscopic View
 
@@ -211,17 +166,12 @@ $$\frac{r_1}{r_2} = \sqrt{\frac{M_2}{M_1}}$$
 
 ---
 
-
-
-
-
-
 ## <a id="7-real-gases-vs-ideal-gases-when-reality-breaks-the-rules"></a>7. Real Gases vs Ideal Gases: When Reality Breaks the Rules
 
 **Real Gases are actual gases that deviate from ideal gas behavior due to intermolecular attractions and the finite volume of gas molecules.**
 
 ### <a id="the-compressibility-factor-z"></a>The Compressibility Factor (Z)
-$$Z = \frac{PV}{nRT}$$
+Z = \frac{PV}{nRT}
 
 | Z Value | Meaning | Dominant Force | Condition |
 |:---:|:---|:---|:---|
@@ -233,16 +183,11 @@ $$Z = \frac{PV}{nRT}$$
 
 ---
 
-
-
-
-
-
 ## <a id="8-the-van-der-waals-equation-correcting-for-reality"></a>8. The van der Waals Equation: Correcting for Reality
 
 **The van der Waals Equation is a modified form of the ideal gas equation that accounts for the finite size of molecules (volume correction 'b') and intermolecular attractions (pressure correction 'a').**
 
-$$\left[P + \frac{an^2}{V^2}\right](V - nb) = nRT$$
+\left[P + \frac{an^2}{V^2}\right](V - nb) = nRT
 
 | Constant | Meaning | Higher value means |
 |:---|:---|:---|
@@ -250,11 +195,6 @@ $$\left[P + \frac{an^2}{V^2}\right](V - nb) = nRT$$
 | **b** | Physical volume of molecules | Larger molecules |
 
 ---
-
-
-
-
-
 
 ## <a id="9-critical-temperature-boyle-temperature-and-liquefaction"></a>9. Critical Temperature, Boyle Temperature, and Liquefaction
 
@@ -265,11 +205,6 @@ $$\left[P + \frac{an^2}{V^2}\right](V - nb) = nRT$$
 - **Gases with higher $T_c$** (like $NH_3, CO_2$) are easier to liquefy because they have stronger IMF.
 
 ---
-
-
-
-
-
 
 ## <a id="10-the-trap-section-gas-law-pitfalls"></a>10. The "Trap" Section: Gas Law Pitfalls
 
@@ -291,11 +226,6 @@ $$\left[P + \frac{an^2}{V^2}\right](V - nb) = nRT$$
 - **Why**: The law is strictly for **non-reacting** gas mixtures.
 
 ---
-
-
-
-
-
 
 ## <a id="11-practice-mcqs-jeeneet-level"></a>11. Practice MCQs (JEE/NEET Level)
 
@@ -338,11 +268,6 @@ D) $a/27b^2$
 
 ---
 
-
-
-
-
-
 ## <a id="12-ayushs-gas-laws-strategy"></a>12. Ayush's Gas Laws Strategy
 
 This chapter is one of the easiest to score full marks in if you have your basics right.
@@ -363,19 +288,8 @@ In CBSE boards, always draw the $PV$ vs $P$ graph or the $Z$ vs $P$ graph if the
 
 ---
 
-
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 
@@ -388,21 +302,16 @@ Continue your [revision](/blog/structure-of-atom-class-11-revision-notes-jee-nee
 - 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
 - 📖 [Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/states-of-matter-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Equilibrium Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/equilibrium-class-11-revision-notes-jee-neet)
 - 📖 [Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/structure-of-atom-class-11-revision-notes-jee-neet)

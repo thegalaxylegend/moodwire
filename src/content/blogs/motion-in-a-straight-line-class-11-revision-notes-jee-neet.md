@@ -12,9 +12,6 @@ practice_link: "/class-11/physics/motion-in-a-straight-line-class-11-revision-no
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Motion In A Straight Line Revision Notes?](#what-is-motion-in-a-straight-line-revision-notes)
@@ -34,18 +31,11 @@ practice_link: "/class-11/physics/motion-in-a-straight-line-class-11-revision-no
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-motion-in-a-straight-line-revision-notes"></a>What is Motion In A Straight Line Revision Notes?
 
 # Motion In A Straight Line Revision Notes
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -61,15 +51,11 @@ practice_link: "/class-11/physics/motion-in-a-straight-line-class-11-revision-no
 
 ---
 
-
 ## <a id="introduction"></a>Introduction
 
 Mechanics is the study of motion, and its first branch, **Kinematics**, allows us to describe that motion with mathematical precision. In "Motion in a Straight Line," we focus on 1D motion where an object moves along a single axis. While the basics of distance and speed are intuitive, the real power of Physics comes from using **Calculus** to derive universal laws of motion. These "Comprehensive" [revision](/blog/gravitation-class-11-revision-notes-jee-neet) notes provide a rigorous expansion of Chapter 2, featuring full calculus-based derivations, advanced relative velocity theory, and the graphical mastery required for competitive exams like JEE and NEET.
 
 ---
-
-
-
 
 ## <a id="1-the-language-of-motion-fundamentals"></a>1. The Language of Motion: Fundamentals
 
@@ -84,9 +70,6 @@ Before deriving equations, we must be precise with our definitions.
 - **Instantaneous Velocity:** The velocity at a specific moment in time. Defined as the limit: **v = dx/dt**.
 
 ---
-
-
-
 
 ## <a id="2-derivation-of-kinematic-equations-calculus-method"></a>2. Derivation of Kinematic Equations (Calculus Method)
 
@@ -120,9 +103,6 @@ Before deriving equations, we must be precise with our definitions.
 
 ---
 
-
-
-
 ## <a id="3-distance-covered-in-the-nth-second"></a>3. Distance Covered in the nth Second
 
 **Derivation:**
@@ -134,9 +114,6 @@ We want the distance covered specifically between t = (n-1) and t = n.
 - **S_n = u + a/2 (2n - 1)**.
 
 ---
-
-
-
 
 ## <a id="4-graphical-mastery-the-visual-proof"></a>4. Graphical Mastery: The Visual Proof
 
@@ -151,9 +128,6 @@ Graphs are not just diagrams; they are data visualizations that provide geometri
 
 ---
 
-
-
-
 ## <a id="5-relative-velocity-in-one-dimension"></a>5. Relative Velocity in One Dimension
 
 Relative velocity is the velocity of one object as observed by another moving object.
@@ -163,9 +137,6 @@ Relative velocity is the velocity of one object as observed by another moving ob
 
 ---
 
-
-
-
 ## <a id="6-motion-under-gravity-free-fall"></a>6. Motion Under Gravity (Free Fall)
 
 When an object is dropped from height **H**, it experiences a constant acceleration **g ≈ 9.8 m/s²**.
@@ -173,9 +144,6 @@ When an object is dropped from height **H**, it experiences a constant accelerat
 - **Impact Velocity:** **v = √(2gH)**.
 
 ---
-
-
-
 
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
@@ -194,17 +162,11 @@ When an object is dropped from height **H**, it experiences a constant accelerat
 
 ---
 
-
-
-
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 3: [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) in a Plane (Projectile Theory)**
 - **Chapter 4: Laws of [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) (Force Dynamics)**
 - **Mastering Kinematics Practice Problems**
-
-
-
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -217,16 +179,6 @@ Motion in a [straight](/blog/straight-lines-class-11-revision-notes-jee-neet) li
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
@@ -237,15 +189,10 @@ Continue your [revision](/blog/gravitation-class-11-revision-notes-jee-neet) wit
 - 📖 [Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/gravitation-class-11-revision-notes-jee-neet)
 - 📖 [Straight Lines Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/straight-lines-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/motion-in-a-straight-line-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

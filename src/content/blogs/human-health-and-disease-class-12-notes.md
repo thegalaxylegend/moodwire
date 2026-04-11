@@ -12,9 +12,6 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 
 *Last Updated: 2026-04-04*
 
-
-
-
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -26,32 +23,29 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 - [📝 Practice MCQs](#-practice-mcqs)
 - [📚 Related Topics](#-related-topics)
 
-
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Basal Metabolic Rate (BMR):** $$\	ext{BMR} = 66 + (6.2 \	imes \	ext{weight in lbs}) + (12.7 \	imes \	ext{height in inches}) - (6.8 \	imes \	ext{age in years})$$ — Weight in lbs, height in inches, age in years
+- **Basal Metabolic Rate (BMR):** \	ext{BMR} = 66 + (6.2 \	imes \	ext{weight in lbs}) + (12.7 \	imes \	ext{height in inches}) - (6.8 \	imes \	ext{age in years}) — Weight in lbs, height in inches, age in years
 
- - **Body Mass Index (BMI):** $$\	ext{BMI} = \\frac{\	ext{weight in kg}}{\	ext{height in meters}^2}$$ — Weight in kg, height in meters
+ - **Body Mass Index (BMI):** \	ext{BMI} = \\frac{\	ext{weight in kg}}{\	ext{height in meters}^2} — Weight in kg, height in meters
 
- - **Daily Energy Expenditure:** $$\	ext{DEE} = \	ext{BMR} \	imes \	ext{activity factor}$$ — BMR, activity factor
+ - **Daily Energy Expenditure:** \	ext{DEE} = \	ext{BMR} \	imes \	ext{activity factor} — BMR, activity factor
 
- - **Respiratory Quotient (RQ):** $$\	ext{RQ} = \\frac{\	ext{volume of CO}_2 \	ext{produced}}{\	ext{volume of O}_2 \	ext{consumed}}$$ — Volume of CO2 produced, volume of O2 consumed
+ - **Respiratory Quotient (RQ):** \	ext{RQ} = \\frac{\	ext{volume of CO}_2 \	ext{produced}}{\	ext{volume of O}_2 \	ext{consumed}} — Volume of CO2 produced, volume of O2 consumed
 
- - **Arteriovenous Oxygen Difference:** $$\	ext{a-v O}_2 \	ext{ difference} = \	ext{CaO}_2 - \	ext{CvO}_2$$ — CaO2 (arterial oxygen content), CvO2 (venous oxygen content)
+ - **Arteriovenous Oxygen Difference:** \	ext{a-v O}_2 \	ext{ difference} = \	ext{CaO}_2 - \	ext{CvO}_2 — CaO2 (arterial oxygen content), CvO2 (venous oxygen content)
 
- - **Cardiac Output (CO):** $$\	ext{CO} = \	ext{HR} \	imes \	ext{SV}$$ — HR (heart rate), SV (stroke volume)
+ - **Cardiac Output (CO):** \	ext{CO} = \	ext{HR} \	imes \	ext{SV} — HR (heart rate), SV (stroke volume)
 
- - **Mean Arterial Pressure (MAP):** $$\	ext{MAP} = \\frac{2 \	imes \	ext{diastolic blood pressure} + \	ext{systolic blood pressure}}{3}$$ — Diastolic blood pressure, systolic blood pressure
+ - **Mean Arterial Pressure (MAP):** \	ext{MAP} = \\frac{2 \	imes \	ext{diastolic blood pressure} + \	ext{systolic blood pressure}}{3} — Diastolic blood pressure, systolic blood pressure
 
- - **Cerebral Perfusion Pressure (CPP):** $$\	ext{CPP} = \	ext{MAP} - \	ext{ICP}$$ — MAP (mean arterial pressure), ICP (intracranial pressure)
+ - **Cerebral Perfusion Pressure (CPP):** \	ext{CPP} = \	ext{MAP} - \	ext{ICP} — MAP (mean arterial pressure), ICP (intracranial pressure)
 
- - **Glomerular Filtration Rate (GFR):** $$\	ext{GFR} = \\frac{\	ext{urine flow rate} \	imes \	ext{urine concentration}}{\	ext{plasma concentration}}$$ — Urine flow rate, urine concentration, plasma concentration
+ - **Glomerular Filtration Rate (GFR):** \	ext{GFR} = \\frac{\	ext{urine flow rate} \	imes \	ext{urine concentration}}{\	ext{plasma concentration}} — Urine flow rate, urine concentration, plasma concentration
 
- - **Half-life of a Substance:** $$t_{1/2} = \\frac{0.693}{k}$$ — k (elimination rate constant)
+ - **Half-life of a Substance:** t_{1/2} = \\frac{0.693}{k} — k (elimination rate constant)
 
- - **Michaelis-Menten Kinetics:** $$v = \\frac{V_{\	ext{max}} \	imes [S]}{K_m + [S]}$$ — v (reaction velocity), Vmax (maximum velocity), [S] (substrate concentration), Km (Michaelis constant)
-
-
+ - **Michaelis-Menten Kinetics:** v = \\frac{V_{\	ext{max}} \	imes [S]}{K_m + [S]} — v (reaction velocity), Vmax (maximum velocity), [S] (substrate concentration), Km (Michaelis constant)
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -85,8 +79,6 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 
  - *Fix:* Create a table to compare the characteristics of different diagnostic tests, including their sensitivity ($\	ext{TP} / (\	ext{TP} + \	ext{FN})$), specificity ($\	ext{TN} / (\	ext{TN} + \	ext{FP})$), positive predictive value ($\	ext{PPV} = \	ext{TP} / (\	ext{TP} + \	ext{FP})$), and negative predictive value ($\	ext{NPV} = \	ext{TN} / (\	ext{TN} + \	ext{FN})$). Practice calculating these values using sample data and understand their clinical implications.
 
-
-
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 - **Q1:** What is the primary cause of the disease sickle cell anemia?
@@ -97,7 +89,7 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 
  Sickle cell anemia is caused by a mutation in the $\beta$-globin chain of hemoglobin, leading to the production of abnormal hemoglobin known as sickle hemoglobin or hemoglobin S. This mutation results in the substitution of valine for glutamic acid at the sixth position of the $\beta$-globin chain. The abnormal hemoglobin causes red blood cells to become sickle-shaped under low oxygen conditions, leading to various health issues.
 
- $$
+ 
 
  \text{Normal hemoglobin: } \alpha_2 \beta_2 
 
@@ -105,7 +97,7 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 
  \text{Sickle hemoglobin: } \alpha_2 \beta^{S}_2 
 
- $$
+ 
 
  - **Answer:** Mutation in the $\beta$-globin chain of hemoglobin.
 
@@ -117,11 +109,11 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 
  A person with blood group AB is a universal recipient but can only donate to individuals with the same blood group AB. This is because AB blood has both A and B antigens on the surface of the red blood cells and no antibodies against A or B in the plasma. 
 
- $$
+ 
 
  \text{Blood group AB: } \text{Antigens: A, B; Antibodies: None}
 
- $$
+ 
 
  - **Answer:** AB blood group.
 
@@ -133,15 +125,13 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 
  Peptic ulcer disease is primarily caused by the bacteria $Helicobacter\ pylori$ and not by a virus. Other factors such as the use of non-steroidal anti-inflammatory drugs (NSAIDs) and stress can also contribute to the development of peptic ulcers.
 
- $$
+ 
 
  \text{Causative agent of peptic ulcer: } Helicobacter\ pylori
 
- $$
+ 
 
  - **Answer:** Peptic ulcer disease.
-
-
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
@@ -165,9 +155,7 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 | --- | --- | --- |
 | Autoimmune Diseases (Rheumatoid Arthritis) | Overactive immune response | $\uparrow$ Pro-inflammatory cytokines ($\text{IL-1}$, $\text{TNF-}\alpha$) |
 | Immunodeficiency Diseases (HIV/AIDS) | Underactive immune response | $\downarrow$ CD4$^+$ T cells |
-| Asthma | Imbalance in $\text{Th1/Th2}$ response | $\uparrow$ $\text{Th2}$ response, $\downarrow$ $\text{Th1}$ response |
-
-
+| Asthma | Imbalance in $\text{Th1/Th2}$ response | $\uparrow\text{Th2}$ response, $\downarrow\text{Th1}$ response |
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
@@ -197,8 +185,6 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 
  - Practice applying $\sum$-type formulas to calculate total risk factors for non-communicable diseases.
 
-
-
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 - $E = \frac{-0.0591}{n} \log_{10} \frac{[Red]}{[Ox]}$ is crucial for calculating the electrode potential.
@@ -221,10 +207,7 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 
  - Forgetting to use the correct number of significant figures while calculating pH or pOH values can lead to errors.
 
-
-
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
-
 
 **1. What is the primary cause of atherosclerosis?**
 
@@ -279,8 +262,6 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 
 **Answer:** A) The primary function of the spleen is to filter the blood, removing old, damaged red blood cells and recycling the components.
 
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -292,7 +273,6 @@ Continue your revision with these related guides:
 - 📖 [Reproductive Health Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/reproductive-health-class-12-notes)
 - 📖 [Molecular Basis of Inheritance Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/molecular-basis-of-inheritance-class-12-notes)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
@@ -300,7 +280,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

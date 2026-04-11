@@ -12,9 +12,6 @@ practice_link: "/class-11/physics/ray-optics-class-12-quick-class-12-revision-no
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Ray Optics Class 12 Quick Revision Notes?](#what-is-ray-optics-class-12-quick-revision-notes)
@@ -34,24 +31,11 @@ practice_link: "/class-11/physics/ray-optics-class-12-quick-class-12-revision-no
   - [LaTeX Examples](#latex-examples)
 - [📚 Related Topics](#-related-topics)
 
-
 # Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-ray-optics-class-12-quick-revision-notes"></a>What is Ray Optics Class 12 Quick Revision Notes?
 
-
-
-
-
-
-
-
 ## <a id="quick-revision-and-recap-ray-optics"></a>Quick Revision & Recap: Ray Optics
-
 
 - **Reflection**: Change in direction of light at a surface that causes it to bounce back.
 - **Refraction**: Bending of light as it passes from one medium to another.
@@ -61,24 +45,15 @@ practice_link: "/class-11/physics/ray-optics-class-12-quick-class-12-revision-no
 
 As I, Ayush, prepare for my JEE/NEET exams, I find it crucial to have a solid grasp of ray optics. In this quick [revision](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) and recap, we'll cover the core concepts, formulae, and some practice questions to help reinforce our understanding.
 
-
-
-
 ## <a id="ayushs-personal-note"></a>Ayush's Personal Note
 
 I've found that understanding the basics of reflection, refraction, and total internal reflection is key to solving problems in ray optics. Practicing with MCQs and remembering the formulae tables has been incredibly helpful for me. Don't forget to review the **Trap Exceptions** section for those tricky questions that often appear in exams.
-
-
-
 
 ## <a id="jeeneet-data"></a>JEE/NEET Data
 
 - **Reflection and Refraction**: 1-2 questions in JEE Main, 1 question in JEE Advanced, and 1-2 questions in [neet](/blog/art-culture-architecture-class-11-revision-notes-jee-neet).
 - **Mirrors and Lenses**: 2-3 questions in JEE Main, 1-2 questions in JEE Advanced, and 2-3 questions in [neet](/blog/art-culture-architecture-class-11-revision-notes-jee-neet).
-- **Optical Instruments**: 1-2 questions in JEE Main, 1 question in JEE Advanced, and 1-2 questions in NEET.
-
-
-
+- **Optical Instruments**: 1-2 questions in JEE Main, 1 question in JEE Advanced, and 1-2 questions in [neet](/blog/art-culture-architecture-class-11-revision-notes-jee-neet).
 
 ## <a id="core-concepts"></a>Core Concepts
 
@@ -96,13 +71,9 @@ I've found that understanding the basics of reflection, refraction, and total in
 - **Lens Maker's Formula**: $\frac{1}{f} = (n-1) \left( \frac{1}{R_1} - \frac{1}{R_2} \right)$, where $f$ is the focal length, $n$ is the refractive index, and $R_1$ and $R_2$ are the radii of curvature.
 - **Lens Formula**: $\frac{1}{v} - \frac{1}{u} = \frac{1}{f}$.
 
-
-
-
 ## <a id="formulae-tables"></a>Formulae Tables
 
 ### <a id="reflection"></a>Reflection
-
 
 | Formula | Description |
 | --- | --- |
@@ -119,7 +90,6 @@ I've found that understanding the basics of reflection, refraction, and total in
 | $\frac{1}{f} = (n-1) \left( \frac{1}{R_1} - \frac{1}{R_2} \right)$ | Lens maker's formula |
 | $\frac{1}{v} - \frac{1}{u} = \frac{1}{f}$ | Lens formula |
 | $m = -\frac{v}{u}$ | Magnification |
-
 
 ## <a id="trap-exceptions"></a>Trap Exceptions
 
@@ -208,16 +178,6 @@ Now, go ahead and take the next step in your journey to mastering ray optics. St
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
@@ -228,15 +188,10 @@ Continue your [revision](/blog/ancient-india-vedic-age-class-11-revision-notes-j
 - 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
 - 📖 [Art Culture Architecture Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/art-culture-architecture-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

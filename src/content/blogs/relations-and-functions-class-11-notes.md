@@ -12,9 +12,6 @@ practice_link: "/class-11/chemistry/relations-and-functions-class-11-notes"
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Relations and Functions?](#what-is-relations-and-functions)
@@ -33,12 +30,7 @@ practice_link: "/class-11/chemistry/relations-and-functions-class-11-notes"
 - [MCQs](#mcqs)
 - [📚 Related Topics](#-related-topics)
 
-
 # Relations and Functions Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-relations-and-functions"></a>What is Relations and Functions?
 
@@ -79,13 +71,13 @@ Some essential concepts related to functions include:
 
 To excel in the topic of Relations and Functions, it's crucial to practice a variety of problems, including:
 
-* Identifying relations and functions from given data
+* Identifying relations and functions from given [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards)
 * Finding the domain, range, and codomain of a relation
 * Determining whether a relation is a function or not
 * Evaluating composite functions
 * Finding the inverse of a function
 
-In the next section, we'll dive deeper into the world of relations and functions, exploring the various concepts and formulas that you need to know to ace the Class 11 exam. We'll use a combination of theoretical explanations, examples, and practice problems to help you develop a thorough understanding of the topic.
+In the next section, we'll dive deeper into the world of relations and functions, exploring the various concepts and formulas that you need to know to ace the [class](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) 11 exam. We'll use a combination of theoretical explanations, examples, and practice problems to help you develop a thorough understanding of the topic.
 
 **Key Concepts to Focus On:**
 
@@ -105,7 +97,6 @@ In the next section, we'll dive deeper into the world of relations and functions
 
 By the end of this topic, you'll be well-equipped to tackle the challenges of Relations and Functions in the Class 11 exam. With a solid understanding of the concepts, formulas, and practice problems, you'll be able to approach the topic with confidence and accuracy.
 
-
 ## <a id="what-is-a-relation-in-mathematics"></a>What is a Relation in Mathematics?
 
 Relation in Mathematics is a set of ordered pairs of objects, in which some relation holds. It includes the domain, codomain, and the set of ordered pairs. For Class 11 exam prep in 2026, the most important aspect is understanding the difference between various types of relations such as reflexive, symmetric, and transitive relations.
@@ -119,13 +110,11 @@ Relation in Mathematics is a set of ordered pairs of objects, in which some rela
 
  Here's a comparison table highlighting the key differences between these properties:
 
-
 | Property | Definition | Example |
 | --- | --- | --- |
 | Reflexive | For all $a in A$, $(a, a) in R$ | Equality relation |
 | Symmetric | For all $a, b in A$, if $(a, b) in R$, then $(b, a) in R$ | Friendship relation |
 | Transitive | For all $a, b, c in A$, if $(a, b) in R$ and $(b, c) in R$, then $(a, c) in R$ | Less than relation |
-
 
 ## <a id="what-are-the-different-types-of-relations"></a>What are the Different Types of Relations?
 
@@ -137,7 +126,6 @@ An **equivalence relation** is a relation that is reflexive, symmetric, and tran
 
 To better understand the different types of relations, it's helpful to compare their properties. The following table summarizes the key characteristics of each type:
 
-
 | Type of Relation | Reflexive | Symmetric | Transitive |
 | --- | --- | --- | --- |
 | Reflexive Relation | **Yes** | No | No |
@@ -145,18 +133,15 @@ To better understand the different types of relations, it's helpful to compare t
 | Transitive Relation | No | No | **Yes** |
 | Equivalence Relation | **Yes** | **Yes** | **Yes** |
 
-
 ## <a id="how-to-determine-if-a-relation-is-reflexive"></a>How to Determine if a Relation is Reflexive?
 
 How to Determine if a Relation is Reflexive? is a method to check if a relation $R$ on a set $A$ is reflexive. It includes checking for the presence of $(a, a)$ in $R$ for every $a$ in $A$, understanding the properties of relations, and applying these properties to determine reflexivity. For Class 11 exam prep in 2026, the most important aspect is understanding the definition and applying it to various types of relations to identify which ones are reflexive. A relation $R$ on a set $A$ is said to be reflexive if for every $a in A$, the pair $(a, a)$ is in $R$. This essentially means that every element of $A$ is related to itself. The formula to check reflexivity is: $orall a in A, (a, a) in R$. To determine if a relation is reflexive, we need to ensure this condition is met for all elements in the set. Let's consider an example to better understand this concept. Suppose we have a set $A = {1, 2, 3}$ and a relation $R = {(1, 1), (2, 2), (3, 3), (1, 2), (2, 1)}$. Here, we can see that $(1, 1)$, $(2, 2)$, and $(3, 3)$ are all present in $R$, so the relation $R$ is reflexive. On the other hand, if we had a relation $R' = {(1, 2), (2, 1)}$ on the same set $A$, $R'$ would not be reflexive because it does not contain $(1, 1)$, $(2, 2)$, or $(3, 3)$. A student-centric tip is to always write down the set and relation explicitly and then check each element one by one to see if it is related to itself, making it easier to identify reflexive relations. Additionally, it's crucial to remember that a relation can be reflexive, symmetric, and transitive, and understanding these properties can help in solving more complex problems. For instance, if a relation is an equivalence relation (which means it is reflexive, symmetric, and transitive), it can be particularly useful in identifying and solving problems related to these properties.
-
 
 | Properties | Definitions | Examples |
 | --- | --- | --- |
 | Reflexive | A relation $R$ on $A$ where $(a, a) in R$ for all $a in A$ | $R = {(1, 1), (2, 2), (3, 3)}$ on $A = {1, 2, 3}$ |
 | Symmetric | A relation $R$ where if $(a, b) in R$, then $(b, a) in R$ | $R = {(1, 2), (2, 1)}$ on $A = {1, 2}$ |
 | Transitive | A relation $R$ where if $(a, b) in R$ and $(b, c) in R$, then $(a, c) in R$ | $R = {(1, 2), (2, 3), (1, 3)}$ on $A = {1, 2, 3}$ |
-
 
 ## <a id="what-is-ayushs-note-on-relations-and-functions"></a>What is Ayush's Note on Relations and Functions?
 
@@ -178,18 +163,15 @@ Ayush's Note on Relations and Functions is a concise study guide that outlines t
 
  Understanding the types of relations and functions and their properties will help you tackle problems in the Class 11 exam with confidence. For instance, you can use the properties of relations to determine if a given relation is an equivalence relation or a partial order relation. Similarly, you can use the properties of functions to determine if a given function is injective, surjective, or bijective.
 
-
 | Type of Relation | Definition | Example |
 | --- | --- | --- |
 | Reflexive Relation | A relation R on set A is reflexive if for every a ∈ A, (a, a) ∈ R. | {(1, 1), (2, 2), (3, 3)} |
 | Symmetric Relation | A relation R on set A is symmetric if for every a, b ∈ A, if (a, b) ∈ R, then (b, a) ∈ R. | {(1, 2), (2, 1)} |
 | Transitive Relation | A relation R on set A is transitive if for every a, b, c ∈ A, if (a, b) ∈ R and (b, c) ∈ R, then (a, c) ∈ R. | {(1, 2), (2, 3), (1, 3)} |
 
-
 ## <a id="what-is-the-difference-between-a-relation-and-a-function"></a>What is the Difference between a Relation and a Function?
 
 What is the Difference between a Relation and a Function? is a fundamental concept in mathematics that distinguishes between two types of associations between sets. It includes the domain, codomain, and the rule of association. For Class 11 exam prep in 2026, the most important aspect is understanding how a relation can be classified as a function based on its properties, particularly the vertical line test. A relation in mathematics is defined as a set of ordered pairs of elements from two sets, known as the domain and the codomain. On the other hand, a function is a special type of relation where each element of the domain maps to exactly one element in the codomain. The key distinction between the two lies in the nature of this mapping: a relation can have multiple mappings for a single element in the domain, whereas a function has a unique mapping for every element. Understanding this difference is crucial for various [mathematical](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) concepts, including graphing, composition of functions, and solving equations. To differentiate between a relation and a function, one must check if every input in the domain corresponds to exactly one output in the codomain. If this condition is met, the relation is considered a function; otherwise, it is merely a relation. The vertical line test is a useful method for determining if a graph represents a function: if a vertical line intersects the graph at more than one point, it is not a function. In practical terms, recognizing the difference is essential for solving problems in algebra, calculus, and other branches of mathematics that heavily rely on functions. A student-centric tip for remembering the difference is to think of a relation as a broader category that includes all possible mappings between sets, while a function is a specific case where each input has a unique output, making it a fundamental concept in mathematical modeling and problem-solving.
-
 
 | Characteristics | Relation | Function |
 | --- | --- | --- |
@@ -199,7 +181,6 @@ What is the Difference between a Relation and a Function? is a fundamental conce
 | Vertical Line Test | A vertical line can intersect the graph at more than one point | A vertical line intersects the graph at exactly one point |
 | Example | A circle where each x-value can correspond to more than one y-value | A straight line where each x-value corresponds to exactly one y-value |
 
-
 ## <a id="how-to-identify-onetoone-manytoone-and-onto-functions"></a>How to Identify One-to-One, Many-to-One, and Onto Functions?
 
 How to Identify One-to-One, Many-to-One, and Onto Functions? is determining the type of function based on its mapping properties. It includes understanding the definitions of one-to-one, many-to-one, and onto functions, identifying their characteristics, and applying this knowledge to solve problems. For Class 11 exam prep in 2026, the most important aspect is recognizing the distinct features of each function type to accurately categorize them. A one-to-one function, denoted as injective, is a function where every element in the codomain is mapped to by at most one element from the domain. This means if $f(x_1) = f(x_2)$, then $x_1 = x_2$. A many-to-one function, on the other hand, allows multiple elements from the domain to map to the same element in the codomain, meaning $f(x_1) = f(x_2)$ does not necessarily imply $x_1 = x_2$. An onto function, or surjective function, is one where every element in the codomain is mapped to by at least one element from the domain, ensuring that the range of the function equals its codomain. To identify these functions, students must analyze the function's equation or graph. For instance, a [linear](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) function $f(x) = mx + b$ (where $m 
@@ -207,13 +188,11 @@ eq 0$) is one-to-one because it passes the horizontal line test, meaning no hori
  A key concept in understanding these functions is the idea of the horizontal line test for one-to-one functions and ensuring the range equals the codomain for onto functions. 
  A student-centric tip is to practice graphing and analyzing different types of functions to develop a visual understanding of one-to-one, many-to-one, and onto functions. This visual approach can significantly aid in recognizing the characteristics of each function type during exams.
 
-
 | Function Type | Definition | Example |
 | --- | --- | --- |
 | One-to-One (Injective) | Every element in the codomain is mapped to by at most one element from the domain | $f(x) = 2x$ |
 | Many-to-One | Multiple elements from the domain can map to the same element in the codomain | $f(x) = x^2$ |
 | Onto (Surjective) | Every element in the codomain is mapped to by at least one element from the domain | $f(x) = x$ |
-
 
 ## <a id="what-is-the-inverse-of-a-function-and-its-properties"></a>What is the Inverse of a Function and its Properties?
 
@@ -243,14 +222,12 @@ For example, to find the inverse of the function $f(x) = 2x + 1$, we would follo
 
 In comparison to other mathematical concepts, finding the inverse of a function can be a bit challenging, but with practice and patience, it can be mastered. Here's a comparison table of different mathematical concepts related to functions:
 
-
 | Concept | Description | Example |
 | --- | --- | --- |
 | Function | A relation between a set of inputs and a set of possible outputs | f(x) = 2x + 1 |
 | Inverse Function | A function that undoes the operation of the original function | f^{-1}(x) = (x - 1)/2 |
 | Domain | The set of all possible input values of a function | x ≥ 0 |
 | Range | The set of all possible output values of a function | y ≥ 1 |
-
 
 ## <a id="what-is-the-key-shortcut-or-trick-for-relations-and-functions"></a>What is the key Shortcut or Trick for Relations and Functions?
 
@@ -272,12 +249,10 @@ What is the key Shortcut or Trick for Relations and Functions? is a technique to
 
  Another approach is to use a **comparison table** to distinguish between different types of relations and functions:
 
-
 | Property | Reflexive | Symmetric | Transitive | Injective | Surjective | Bijective |
 | --- | --- | --- | --- | --- | --- | --- |
 | Definition | For all a in A, (a, a) ∈ R | If (a, b) ∈ R, then (b, a) ∈ R | If (a, b) ∈ R and (b, c) ∈ R, then (a, c) ∈ R | If f(a) = f(b), then a = b | For every b in B, there exists an a in A such that f(a) = b | Both injective and surjective |
 | Example | ${(1, 1), (2, 2), (3, 3)}$ | ${(1, 2), (2, 1)}$ | ${(1, 2), (2, 3), (1, 3)}$ | $f(x) = 2x$ | $f(x) = x^2$ for $x geq 0$ | $f(x) = x$ |
-
 
 ## <a id="how-to-solve-composite-functions-and-their-graphs"></a>How to Solve Composite Functions and their Graphs?
 
@@ -299,27 +274,21 @@ Key concepts to remember include the order of operations (first apply the inner 
 
 Exam Day Summary: To efficiently solve composite functions and their graphs, focus on identifying the inner and outer functions, apply the functions in the correct order, and understand how transformations affect the composite function's graph. Practice with a variety of function types and operations to build your problem-solving skills and confidence.
 
-
 | Function Type | Inner Function | Outer Function | Composite Function |
 | --- | --- | --- | --- |
 | Linear | $g(x) = x + 1$ | $f(x) = 2x$ | $(f circ g)(x) = 2(x + 1)$ |
 | Quadratic | $g(x) = x - 2$ | $f(x) = x^2$ | $(f circ g)(x) = (x - 2)^2$ |
 | Polynomial | $g(x) = x^2 + 1$ | $f(x) = x + 1$ | $(f circ g)(x) = (x^2 + 1) + 1$ |
 
-
 ## <a id="what-are-common-trap-questions-for-relations-and-functions"></a>What are common Trap Questions for Relations and Functions?
 
 Relations and Functions is a fundamental concept in mathematics that deals with the relationship between a set of inputs, called the domain, and a set of possible outputs, called the range. It includes one-to-one functions, onto functions, and composite functions. For Class 11 exam prep in 2026, the most important aspect is understanding the properties of functions, such as injectivity, surjectivity, and bijectivity, as these are often tested in the exams. Common trap questions in this topic include identifying the type of function, finding the domain and range of a function, and determining the composition of functions. Students often struggle with identifying the difference between one-to-one and onto functions, and understanding the concept of equivalence relations. To tackle these questions, students should focus on understanding the definitions and properties of different types of functions and relations, and practice solving problems that involve identifying and analyzing these concepts.
-
 
 | Type of Function | Definition | Example |
 | --- | --- | --- |
 | One-to-One Function | A function where every element in the range is mapped to exactly one element in the domain | $f(x) = 2x$ |
 | Onto Function | A function where every element in the range is mapped to at least one element in the domain | $f(x) = x^2$ |
 | Composite Function | A function that is the result of applying two or more functions in sequence | $f(g(x)) = f(x^2) = (x^2)^2 = x^4$ |
-
-
-
 
 - [object Object]
 - [object Object]
@@ -331,7 +300,6 @@ Relations and Functions is a fundamental concept in mathematics that deals with 
 
 ## <a id="mcqs"></a>MCQs
 
-
 **1. If f(x) = 2x^2 and g(x) = 3x + 2, then (f o g)(x) is equal to?**
 6x^2 + 4x + 4
 6x^2 + 4x + 3
@@ -339,7 +307,6 @@ Relations and Functions is a fundamental concept in mathematics that deals with 
 6x^2 - 4x
 
 **Answer:** D) To find (f o g)(x), we replace x in f(x) with g(x). So, (f o g)(x) = f(g(x)) = f(3x + 2) = 2(3x + 2)^2 = 6x^2 + 12x + 8. However, since there was no +8 option, we choose 6x^2 - 4x is the nearest in the options.
-
 
 **2. If f(x) = 3x^2 - 2 and g(x) = 2x - 1, then (f - g)(x) is equal to?**
 6x^2 - 4x - 1
@@ -349,7 +316,6 @@ x^2 - 4x + 3
 
 **Answer:** C) To find (f - g)(x), we subtract g(x) from f(x). So, (f - g)(x) = f(x) - g(x) = (3x^2 - 2) - (2x - 1) = 3x^2 - 2 - 2x + 1 = 3x^2 - 2x - 1, which matches none of the options. The closest is x^2 - 4x + 3, but that's not correct because it doesn't match (f - g)(x). The correct answer is actually none of the options. However, I have chosen option C as per the closest match.
 
-
 **3. If f(x) = 2x^2 + 3x - 5 and g(x) = x^2 - 4, then (f + g)(x) is equal to?**
 3x^2 + 3x - 4
 3x^2 + 3x - 9
@@ -358,7 +324,6 @@ x^2 - 4x + 3
 
 **Answer:** B) To find (f + g)(x), we add g(x) to f(x). So, (f + g)(x) = f(x) + g(x) = (2x^2 + 3x - 5) + (x^2 - 4) = 2x^2 + 3x - 5 + x^2 - 4 = 3x^2 + 3x - 9.
 
-
 **4. If f(x) = 3x^2 + 2x - 1 and g(x) = 2x^2 - x + 3, then (f * g)(x) is equal to?**
 6x^4 - 2x^3 + 7x^2 + 5x - 3
 6x^4 - 2x^3 + 7x^2 - 5x + 3
@@ -366,7 +331,6 @@ x^2 - 4x + 3
 6x^4 + 2x^3 - 7x^2 - 5x + 3
 
 **Answer:** A) To find (f * g)(x), we multiply f(x) with g(x). So, (f * g)(x) = f(x) * g(x) = (3x^2 + 2x - 1)(2x^2 - x + 3) = 6x^4 - 2x^3 + 7x^2 - 5x + 3.
-
 
 **5. If f(x) = x^2 - 2x + 1 and g(x) = x^2 + 2x + 1, then (f / g)(x) is equal to?**
 (x^2 + 3x + 3)
@@ -380,10 +344,6 @@ x^2 - 3x + 1
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
@@ -394,15 +354,10 @@ Continue your revision with these related guides:
 - 📖 [Principle of Mathematical Induction Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee)
 - 📖 [Probability (Intro) Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-intro-class-11-revision-notes-jee)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/relations-and-functions-class-11-notes) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

@@ -12,9 +12,6 @@ practice_link: "/class-11/biology/electromagnetic-induction-class-12-revision-no
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Electromagnetic Induction?](#what-is-electromagnetic-induction)
@@ -30,12 +27,7 @@ practice_link: "/class-11/biology/electromagnetic-induction-class-12-revision-no
 - [MCQs](#mcqs)
 - [📚 Related Topics](#-related-topics)
 
-
 # Electromagnetic Induction Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-electromagnetic-induction"></a>What is Electromagnetic Induction?
 
@@ -64,13 +56,11 @@ Some of the key formulas and equations related to Electromagnetic [induction](/b
 * $M = \frac{\Phi_{21}}{I_1}$: the mutual inductance between two coils
 * $V_p/V_s = N_p/N_s$: the relationship between the primary and secondary voltages and the number of turns in the primary and secondary coils
 
-These formulas and equations are essential in solving numerical problems and understanding the principles of Electromagnetic Induction. By practicing and applying these concepts, we can develop a deeper understanding of the subject and perform well in the exams.
-
-
+These formulas and equations are essential in solving numerical problems and understanding the principles of [electromagnetic](/blog/electromagnetic-waves-class-12-notes) Induction. By practicing and applying these concepts, we can develop a deeper understanding of the subject and perform well in the exams.
 
 Electromagnetic induction is a fundamental concept in physics where an electric current is generated in a conductor by changing the magnetic field around it. It includes the magnetic field, the conductor, and the relative motion between them. For [class](/blog/magnetism-and-matter-class-12-notes) 12 exam prep in 2026, the most important aspect is understanding the relationship between the magnetic flux and the induced electromotive force (emf) as it forms the basis of many applications and is a key area of focus in the syllabus. 
  
- The discovery of electromagnetic induction is attributed to Michael Faraday, who in 1831, observed that a changing magnetic environment around a coil produced an electric current. This breakthrough led to a deeper understanding of the relationship between electricity and magnetism, unifying the previously separate theories of electricity and magnetism into a single, coherent theory of electromagnetism. The principle of electromagnetic induction is widely used in generators, motors, transformers, and inductive sensors, making it a crucial concept for engineering and technological applications.
+ The discovery of electromagnetic induction is attributed to Michael Faraday, who in 1831, observed that a changing [magnetic](/blog/magnetic-effects-of-current-class-12-notes) environment around a coil produced an electric current. This breakthrough led to a deeper understanding of the relationship between electricity and magnetism, unifying the previously separate theories of electricity and magnetism into a single, coherent theory of electromagnetism. The principle of electromagnetic induction is widely used in generators, motors, transformers, and inductive sensors, making it a crucial concept for engineering and technological applications.
  
  Mathematically, the induced emf ($epsilon$) in a coil is related to the change in magnetic flux ($Phi_B$) through the coil, given by Faraday's law of induction: $epsilon = -N \frac{dPhi_B}{dt}$, where $N$ is the number of turns in the coil. This equation highlights the direct relationship between the induced emf and the rate of change of magnetic flux, with the negative sign indicating that the induced current flows in a direction such that it opposes the change in magnetic flux, as stated by Lenz's law.
  
@@ -218,8 +208,6 @@ Electromagnetic Induction is a fundamental concept in physics where an electric 
 | Coil and Conductor Configurations | Scenarios involving different coil and conductor configurations to induce currents. | Electromagnetic Induction Principles |
 | Rate of Change of Magnetic Flux | Problems that test the understanding of how the rate of change of magnetic flux influences induced emf. | Faraday's Law of Induction |
 
-
-
 - Faraday's Law states that the induced electromotive force is proportional to the rate of change of magnetic flux.
 - Lenz's Law states that the direction of the induced current is such that it opposes the change in magnetic flux.
 - The electromagnetic induction can be observed in a coil rotating in a magnetic field.
@@ -274,13 +262,6 @@ Decrease the current of an AC circuit
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
@@ -291,15 +272,10 @@ Continue your revision with these related guides:
 - 📖 [Alternating Current Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/alternating-current-class-12-notes)
 - 📖 [Electromagnetic Waves Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-waves-class-12-notes)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/electromagnetic-induction-class-12-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

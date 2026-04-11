@@ -12,7 +12,6 @@ practice_link: "/class-11/mathematics/applications-of-trigonometry-class-10-note
 
 *Last Updated: 2026-04-10*
 
-
 <div [class](/blog/coordinate-geometry-class-10-notes)="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
@@ -30,8 +29,6 @@ practice_link: "/class-11/mathematics/applications-of-trigonometry-class-10-note
 
 </div>
 
-
-
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -42,22 +39,19 @@ practice_link: "/class-11/mathematics/applications-of-trigonometry-class-10-note
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
 - [📝 Practice MCQs](#-practice-mcqs)
 
-
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Trigonometric Ratios:** $$\{ sin(\theta) = \frac{opposite}{hypotenuse}, cos(\theta) = \frac{adjacent}{hypotenuse}, tan(\theta) = \frac{opposite}{adjacent} \}$$ — Where $\theta$ is the angle in a right-angled triangle.
- - **Pythagorean Identity:** $$\{ sin^2(\theta) + cos^2(\theta) = 1 \}$$ — Relates the sine and cosine of an angle.
- - **Tan(\theta) in Terms of Sin and Cos:** $$\{ tan(\theta) = \frac{sin(\theta)}{cos(\theta)} \}$$ — Relates tangent to sine and cosine.
- - **Sin(\theta) in Terms of Tan:** $$\{ sin(\theta) = \frac{tan(\theta)}{\sqrt{1 + tan^2(\theta)}} \}$$ — Expresses sine in terms of tangent.
- - **Cos(\theta) in Terms of Tan:** $$\{ cos(\theta) = \frac{1}{\sqrt{1 + tan^2(\theta)}} \}$$ — Expresses cosine in terms of tangent.
- - **Elevation Formula:** $$\{ h = \sqrt{d^2 - b^2} \}$$ — Calculates height $h$ given distance $d$ and base $b$ in a right-angled triangle.
- - **Distance Formula:** $$\{ d = \sqrt{h^2 + b^2} \}$$ — Calculates distance $d$ given height $h$ and base $b$ in a right-angled triangle.
- - **Angle of Elevation:** $$\{ \theta = tan^{-1}(\frac{h}{b}) \}$$ — Calculates the angle of elevation given height $h$ and base $b$.
- - **Height of the Object:** $$\{ h = b \times tan(\theta) \}$$ — Calculates height $h$ given base $b$ and angle of elevation $\theta$.
- - **Distance from the Object:** $$\{ d = \frac{h}{sin(\theta)} \}$$ — Calculates distance $d$ given height $h$ and angle of elevation $\theta$.
- - **Shadow Length Formula:** $$\{ \frac{shadow\ length}{height} = \frac{1}{tan(\theta)} \}$$ — Relates shadow length to height and angle of elevation $\theta$.
-
-
+- **Trigonometric Ratios:** \{ sin(\theta) = \frac{opposite}{hypotenuse}, cos(\theta) = \frac{adjacent}{hypotenuse}, tan(\theta) = \frac{opposite}{adjacent} \} — Where $\theta$ is the angle in a right-angled triangle.
+ - **Pythagorean Identity:** \{ sin^2(\theta) + cos^2(\theta) = 1 \} — Relates the sine and cosine of an angle.
+ - **Tan(\theta) in Terms of Sin and Cos:** \{ tan(\theta) = \frac{sin(\theta)}{cos(\theta)} \} — Relates tangent to sine and cosine.
+ - **Sin(\theta) in Terms of Tan:** \{ sin(\theta) = \frac{tan(\theta)}{\sqrt{1 + tan^2(\theta)}} \} — Expresses sine in terms of tangent.
+ - **Cos(\theta) in Terms of Tan:** \{ cos(\theta) = \frac{1}{\sqrt{1 + tan^2(\theta)}} \} — Expresses cosine in terms of tangent.
+ - **Elevation Formula:** \{ h = \sqrt{d^2 - b^2} \} — Calculates height $h$ given distance $d$ and base $b$ in a right-angled triangle.
+ - **Distance Formula:** \{ d = \sqrt{h^2 + b^2} \} — Calculates distance $d$ given height $h$ and base $b$ in a right-angled triangle.
+ - **Angle of Elevation:** \{ \theta = tan^{-1}(\frac{h}{b}) \} — Calculates the angle of elevation given height $h$ and base $b$.
+ - **Height of the Object:** \{ h = b \times tan(\theta) \} — Calculates height $h$ given base $b$ and angle of elevation $\theta$.
+ - **Distance from the Object:** \{ d = \frac{h}{sin(\theta)} \} — Calculates distance $d$ given height $h$ and angle of elevation $\theta$.
+ - **Shadow Length Formula:** \{ \frac{shadow\ length}{height} = \frac{1}{tan(\theta)} \} — Relates shadow length to height and angle of elevation $\theta$.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -73,11 +67,9 @@ practice_link: "/class-11/mathematics/applications-of-trigonometry-class-10-note
  - **Mistake 4:** Failing to use the correct trigonometric ratio when solving problems involving right triangles, such as using {${\sin(\theta)}$} instead of {${\cos(\theta)}$}.
  - *Costs:* 1-2 marks
  - *Fix:* Identify the known sides and angles of the triangle, and apply the appropriate trigonometric ratio, using the definitions of the ratios to guide your decision.
- - **Mistake 5:** Not checking the units of the answer when solving problems involving trigonometry, such as finding the length of a side or the measure of an angle.
+ - **Mistake 5:** Not checking the units of the answer when solving problems involving [trigonometry](/blog/introduction-to-trigonometry-class-10-notes), such as finding the length of a side or the measure of an angle.
  - *Costs:* 1 mark
  - *Fix:* Always check the units of the answer to ensure they match the context of the problem, and use unit conversions if necessary to obtain the correct units.
-
-
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
@@ -117,8 +109,6 @@ practice_link: "/class-11/mathematics/applications-of-trigonometry-class-10-note
  - Solving for $h$, we get $h = \frac{15\sqrt{3}}{\sqrt{3} - 1}$.
  - **Answer:** $\frac{15\sqrt{3}}{\sqrt{3} - 1}$ m
 
-
-
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 - **The Core Concept:** The core concept that separates 85% scorers from 95% scorers in Applications of Trigonometry is the ability to apply trigonometric ratios and principles to solve complex problems in various contexts, such as heights and distances, navigation, and physics. 
@@ -136,17 +126,13 @@ practice_link: "/class-11/mathematics/applications-of-trigonometry-class-10-note
  + Solving navigation problems, such as finding the course and distance to a destination
  + Applying trigonometric principles to physics problems, such as projectile motion and circular motion
  * Use $\sin(\theta)$, $\cos(\theta)$, and $\tan(\theta)$ to solve problems, and can derive and apply more complex formulas, such as:
- $$\sin(A+B) = \sin(A)\cos(B) + \cos(A)\sin(B)$$
- $$\cos(A+B) = \cos(A)\cos(B) - \sin(A)\sin(B)$$
- $$\tan(A+B) = \frac{\tan(A) + \tan(B)}{1 - \tan(A)\tan(B)}$$
+ \sin(A+B) = \sin(A)\cos(B) + \cos(A)\sin(B)\cos(A+B) = \cos(A)\cos(B) - \sin(A)\sin(B)\tan(A+B) = \frac{\tan(A) + \tan(B)}{1 - \tan(A)\tan(B)}
 
 | Concept | 85% Scorers | 95% Scorers |
 | --- | --- | --- |
 | Trigonometric Ratios | Memorize formulas | Understand underlying principles |
 | Problem-Solving | Struggle to visualize and break down complex problems | Can visualize and break down complex problems into manageable parts |
 | Contextual Application | Limited to simple problems | Can apply trigonometric concepts to a variety of contexts |
-
-
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
@@ -156,8 +142,6 @@ practice_link: "/class-11/mathematics/applications-of-trigonometry-class-10-note
 | --- | --- | --- |
 | Height and Distance | 20 | $\frac{2}{3}$ |
 | Other Topics | 10 | $\frac{1}{3}$ |
-
-
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
@@ -174,10 +158,7 @@ practice_link: "/class-11/mathematics/applications-of-trigonometry-class-10-note
  - Forgetting to consider the quadrant in which the angle lies when using trigonometric functions.
  - Not using the correct trigonometric identity for the given problem.
 
-
-
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
-
 
 **1. The length of the shadow of a tower is $\sqrt{3}$ \times the height of the tower. The angle of elevation of the sun is**
 
@@ -231,7 +212,6 @@ C) 15$\times (\sqrt{3} + 1)$ m
 D) 15$\times (\sqrt{3} - 1)$ m
 
 **Answer:** C) Let the height of the tower be $h$. Then, $\tan 45° = \frac{h}{x}$ and $\tan 60° = \frac{h}{x - 15}$. Solving, we get $h = 15(\sqrt{3} + 1)$ m.
-
 
 ---
 

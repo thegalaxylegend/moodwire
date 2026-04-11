@@ -12,9 +12,6 @@ practice_link: "/class-11/physics/poverty-unemployment-class-11-revision-notes-j
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Poverty Unemployment?](#what-is-poverty-unemployment)
@@ -23,33 +20,15 @@ practice_link: "/class-11/physics/poverty-unemployment-class-11-revision-notes-j
 - [MCQs](#mcqs)
 - [📚 Related Topics](#-related-topics)
 
-
 # Poverty Unemployment Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-poverty-unemployment"></a>What is Poverty Unemployment?
 
 # Poverty & Unemployment Class 11 Notes for 2026
 
-
-
-
-
-
 ## <a id="what-is-poverty-and-unemployment"></a>What is Poverty & Unemployment?
 
-
-
-
-
-
-
-
 Poverty & Unemployment is a socio-economic issue. It includes lack of income, unemployment, and underemployment. For [class](/blog/planning-in-india-class-11-revision-notes-jee-neet) 11 exam prep in 2026, the most important aspect is understanding the concepts of poverty line and types of unemployment.
-
 
 | Type of Unemployment | Description |
 | --- | --- |
@@ -57,20 +36,15 @@ Poverty & Unemployment is a socio-economic issue. It includes lack of income, un
 | Structural Unemployment | Long-term unemployment due to changes in industry |
 | Cyclical Unemployment | Unemployment due to economic downturn |
 
-
 ## <a id="how-to-measure-poverty"></a>How to Measure Poverty?
 
 Measuring poverty involves calculating the poverty line, which is the minimum income required to meet basic needs. It includes headcount ratio, poverty gap, and Gini coefficient. For [class](/blog/planning-in-india-class-11-revision-notes-jee-neet) 11 exam prep in 2026, the most important aspect is understanding the differences between these measures.
-
 
 | Measure | Description |
 | --- | --- |
 | Headcount Ratio | Percentage of population below poverty line |
 | Poverty Gap | Average distance below poverty line |
 | Gini Coefficient | Income inequality measure |
-
-
-
 
 - Poverty line is the minimum income required to meet [basic](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) needs
 - Types of unemployment: frictional, structural, cyclical
@@ -80,13 +54,6 @@ Measuring poverty involves calculating the poverty line, which is the minimum in
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 
@@ -99,15 +66,10 @@ Continue your [revision](/blog/physics-mechanics-class-11-revision-notes-jee-nee
 - 📖 [Planning In India Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/planning-in-india-class-11-revision-notes-jee-neet)
 - 📖 [Some Basic Concepts Of Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/poverty-unemployment-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

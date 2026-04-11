@@ -12,9 +12,6 @@ practice_link: "/class-11/physics/mathematical-reasoning-class-11-revision-notes
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Mathematical Reasoning Revision Notes?](#what-is-mathematical-reasoning-revision-notes)
@@ -30,18 +27,11 @@ practice_link: "/class-11/physics/mathematical-reasoning-class-11-revision-notes
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Mathematical Reasoning Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-mathematical-reasoning-revision-notes"></a>What is Mathematical Reasoning Revision Notes?
 
 # Mathematical Reasoning Revision Notes
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -56,16 +46,12 @@ practice_link: "/class-11/physics/mathematical-reasoning-class-11-revision-notes
 
 ---
 
-
 ## <a id="introduction"></a>Introduction
 
 **Mathematical Reasoning provides the formal logic required to verify mathematical truths and construct rigorous proofs. Master inductive and deductive reasoning, logical connectives like 'and'/'or', and contrapositive statements to sharpen your analytical thinking for competitive exams. This [class](/blog/complex-numbers-class-11-revision-notes-jee-neet) 11 Math Chapter 14 summary ensures you understand the fundamental language of mathematical certainty for JEE and Boards.**
 Mathematics is built on a foundation of absolute truth and rigorous logic.
 
 ---
-
-
-
 
 ## <a id="1-mathematical-statements"></a>1. Mathematical Statements
 
@@ -78,9 +64,6 @@ Denial of a statement. If $p$ is "The number 2 is prime," then $\sim p$ is "The 
 
 ---
 
-
-
-
 ## <a id="2-logical-connectives"></a>2. Logical Connectives
 
 We use specific words to join two or more simple statements into a **Compound Statement**.
@@ -91,9 +74,6 @@ We use specific words to join two or more simple statements into a **Compound St
     *   **Inclusive OR:** "A student can take Physics or Math" (Both allowed).
 
 ---
-
-
-
 
 ## <a id="3-implications-and-conditional-statements"></a>3. Implications and Conditional Statements
 
@@ -110,9 +90,6 @@ For an implication $p \Rightarrow q$:
 
 ---
 
-
-
-
 ## <a id="4-validating-mathematical-statements"></a>4. Validating Mathematical Statements
 
 How do we prove a statement is true?
@@ -122,9 +99,6 @@ How do we prove a statement is true?
 4.  **Counter-example:** To prove a statement is **false**, you only need to show **one** case where it doesn't work.
 
 ---
-
-
-
 
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
@@ -142,36 +116,20 @@ Yes, it is a statement because it is a [mathematical](/blog/mathematical-inducti
 
 ---
 
-
-
-
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 4: [mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) Induction**
 - **Chapter 1: Sets**
 - [**External Reference:** [NCERT Class 11 Math Chapter 14](https://ncert.nic.in/textbook.php?kemh1=14-16) (Authoritative Source)]
 
-
-
-
 ## <a id="conclusion"></a>Conclusion
 
-Mathematical Reasoning is the "grammar" of mathematics. It ensures that our conclusions follow logically from our assumptions. By mastering the art of negation, implications, and contrapositives, you gain the ability to spot logical errors and construct airtight proofs. Remember: in math, there is no "maybe"—only the clarity of truth and logic!
+[mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) Reasoning is the "grammar" of mathematics. It ensures that our conclusions follow logically from our assumptions. By mastering the art of negation, implications, and contrapositives, you gain the ability to spot logical errors and construct airtight proofs. Remember: in math, there is no "maybe"—only the clarity of truth and logic!
 
 ---
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 
@@ -184,15 +142,10 @@ Continue your [revision](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 - 📖 [Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 - 📖 [Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/mathematical-reasoning-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

@@ -12,9 +12,6 @@ practice_link: "/class-11/medieval-india-delhi-sultanate-class-11-revision-notes
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Medieval India Delhi Sultanate?](#what-is-medieval-india-delhi-sultanate)
@@ -30,20 +27,9 @@ practice_link: "/class-11/medieval-india-delhi-sultanate-class-11-revision-notes
   - [Historical Context](#historical-context)
 - [📚 Related Topics](#-related-topics)
 
-
 # Medieval India Delhi Sultanate Class 11 History Recap — CBSE 2026 Quick Guide
 
-
-
-
-
 ## <a id="what-is-medieval-india-delhi-sultanate"></a>What is Medieval India Delhi Sultanate?
-
-
-
-
-
-
 
 **Quick Recall Box**
 ### <a id="medieval-india-delhi-sultanate"></a>Medieval India: Delhi Sultanate
@@ -128,7 +114,7 @@ The following are some key terms related to the Delhi Sultanate:
 
 ### <a id="latex-equations"></a>LaTeX Equations
 The Delhi Sultanate can be represented using the following LaTeX equations:
-$$\text{Delhi Sultanate} = \sum_{i=1}^{5} \text{Dynasties}\text{Dynasties} = \{\text{Slave}, \text{Khalji}, \text{Tughlaq}, \text{Sayyid}, \text{Lodi}\}\text{Iqta System} = \text{Feudal System} \times \text{Land Grant}$$
+\text{Delhi Sultanate} = \sum_{i=1}^{5} \text{Dynasties}\text{Dynasties} = \{\text{Slave}, \text{Khalji}, \text{Tughlaq}, \text{Sayyid}, \text{Lodi}\}\text{Iqta System} = \text{Feudal System} \times \text{Land Grant}
 
 By using these equations, we can represent the Delhi Sultanate as a sum of its constituent dynasties, and the iqta system as a product of the feudal system and land grant.
 
@@ -141,16 +127,6 @@ By understanding the historical context of the Delhi Sultanate, we can gain a de
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
@@ -161,15 +137,10 @@ Continue your [revision](/blog/ancient-india-indus-valley-class-11-revision-note
 - 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)
 - 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/medieval-india-delhi-sultanate-class-11-revision-notes-cbse) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

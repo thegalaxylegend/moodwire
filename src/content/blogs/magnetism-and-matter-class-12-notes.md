@@ -12,9 +12,6 @@ practice_link: "/class-11/biology/magnetism-and-matter-class-12-notes"
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Magnetism and Matter?](#what-is-magnetism-and-matter)
@@ -30,12 +27,7 @@ practice_link: "/class-11/biology/magnetism-and-matter-class-12-notes"
 - [MCQs](#mcqs)
 - [📚 Related Topics](#-related-topics)
 
-
 # Magnetism and Matter Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-magnetism-and-matter"></a>What is Magnetism and Matter?
 
@@ -48,7 +40,7 @@ To truly comprehend magnetism and its [effects](/blog/magnetic-effects-of-curren
 
 * **Electricity**: A thorough understanding of electric charges, electric fields, and potential is necessary to appreciate the relationship between electricity and magnetism.
 * **Vector Algebra**: Familiarity with vector operations, such as addition, subtraction, and cross products, is crucial for representing and calculating [magnetic](/blog/magnetic-effects-of-current-class-12-notes) fields.
-* **Kinematics and Dynamics**: Knowledge of motion, force, and energy is essential for understanding the interactions between magnetic fields and charged particles or objects.
+* **Kinematics and Dynamics**: Knowledge of motion, force, and energy is essential for understanding the interactions between [magnetic](/blog/magnetic-effects-of-current-class-12-notes) fields and charged particles or objects.
 
 **Key Concepts and Formulas**
 Magnetism and matter is a broad topic, encompassing various concepts, including:
@@ -78,29 +70,24 @@ Magnetism and matter have numerous practical applications in various fields, inc
 * **Medical Imaging**: MRI machines use strong magnetic fields to create detailed images of the body.
 * **Energy Generation**: Magnetic fields are used in power plants to generate electricity.
 * **Transportation**: Magnetic levitation (maglev) trains use magnetic fields to propel and guide the train.
-* **Data Storage**: Magnetic materials are used in hard drives and magnetic tapes to store digital data.
+* **[data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) Storage**: Magnetic materials are used in hard drives and magnetic tapes to store digital [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards).
 
 By understanding the principles of magnetism and matter, you'll gain insight into the workings of these technologies and appreciate the significance of this topic in our daily lives.
 
 **Key Takeaway**
 Magnetism and matter is a vital topic in [class](/blog/alternating-current-class-12-notes) 12 physics, with significant weightage in the CBSE board exams. To excel in this topic, it's essential to develop a strong foundation in the concepts, formulas, and applications of magnetism, as well as have a solid understanding of the prerequisites, including electricity, vector algebra, and kinematics and dynamics. With dedication and practice, you'll be well-prepared to tackle the challenges of this topic and achieve a high score in the exams.
 
-
-
-
-Magnetism and Matter is a fundamental concept in physics that describes the interaction between magnetic fields and matter. It includes the study of magnetic fields, magnetic induction, and the properties of magnetic materials. For Class 12 exam prep in 2026, the most important aspect is understanding the behavior of magnetic materials and the application of magnetic fields in various contexts.
+Magnetism and Matter is a fundamental concept in physics that describes the interaction between magnetic fields and matter. It includes the study of magnetic fields, magnetic [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet), and the properties of magnetic materials. For Class 12 exam prep in 2026, the most important aspect is understanding the behavior of magnetic materials and the application of magnetic fields in various contexts.
 
 The concept of magnetism is closely related to the concept of electricity, and it is essential to understand the relationship between electric currents and magnetic fields. The $B$ field, or magnetic field, is a vector field that describes the magnetic influence on moving electric charges and currents. The SI unit of the magnetic field is the tesla ($T$), and it is defined as $1 T = 1 kg/s^2A$.
 
 Magnetic materials can be classified into three main categories: diamagnetic, paramagnetic, and ferromagnetic materials. Diamagnetic materials are weakly repelled by magnetic fields, while paramagnetic materials are weakly attracted. Ferromagnetic materials, on the other hand, are strongly attracted to magnetic fields and can retain their magnetic properties even after the external field is removed. The following table summarizes the properties of these materials:
-
 
 | Material Type | Magnetic Behavior | Examples |
 | --- | --- | --- |
 | Diamagnetic | Weakly repelled | Copper, Water, Glass |
 | Paramagnetic | Weakly attracted | Aluminum, Oxygen, Tungsten |
 | Ferromagnetic | Strongly attracted | Iron, Nickel, Cobalt |
-
 
 ## <a id="what-are-the-characteristics-of-magnetic-materials"></a>What are the Characteristics of Magnetic Materials?
 
@@ -118,7 +105,6 @@ For students preparing for the Class 12 exam in 2026, it is essential to underst
 
 To differentiate between various types of magnetic materials, students can use the following comparison table:
 
-
 | Material Type | Magnetic Behavior | Examples |
 | --- | --- | --- |
 | Diamagnetic | Weakly repelled by magnetic field | Copper, Water |
@@ -126,7 +112,6 @@ To differentiate between various types of magnetic materials, students can use t
 | Ferromagnetic | Strongly attracted to magnetic field | Iron, Nickel, Cobalt |
 | Antiferromagnetic | Magnetic moments aligned in opposite directions | Manganese, Chromium |
 | Ferrimagnetic | Magnetic moments aligned in opposite directions, but with different strengths | Magnetite, Ferrite |
-
 
 ## <a id="how-does-magnetization-occur-in-materials"></a>How does Magnetization occur in Materials?
 
@@ -150,14 +135,12 @@ A student-centric tip for understanding magnetization is to practice visualizing
 
 To further illustrate the concept of magnetization, consider the following comparison of different types of magnetic materials:
 
-
 | Material | Magnetic Properties | Examples |
 | --- | --- | --- |
 | Ferromagnetic | Spontaneous magnetization, high susceptibility | Iron, Nickel, Cobalt |
 | Paramagnetic | No spontaneous magnetization, low susceptibility | Oxygen, Nitrogen, Aluminum |
 | Diamagnetic | No spontaneous magnetization, negative susceptibility | Copper, Zinc, Silicon |
 | Antiferromagnetic | Spontaneous magnetization, low susceptibility | Manganese, Chromium, Nickel Oxide |
-
 
 ## <a id="what-is-ayushs-note-on-magnetism-and-matter"></a>What is Ayush's Note on Magnetism and Matter?
 
@@ -167,13 +150,11 @@ Magnetism is a fundamental concept in physics that arises due to the interaction
 
 The magnetic properties of materials can be classified based on their response to an external magnetic field. Diamagnetic materials, such as copper and zinc, are weakly repelled by a magnetic field. Paramagnetic materials, such as aluminum and platinum, are weakly attracted to a magnetic field. Ferromagnetic materials, such as iron and nickel, are strongly attracted to a magnetic field. The table below summarizes the properties of these materials:
 
-
 | Material Type | Magnetic Behavior | Examples |
 | --- | --- | --- |
 | Diamagnetic | Weakly repelled | Copper, Zinc |
 | Paramagnetic | Weakly attracted | Aluminum, Platinum |
 | Ferromagnetic | Strongly attracted | Iron, Nickel |
-
 
 ## <a id="what-is-the-difference-between-diamagnetic-paramagnetic-and-ferromagnetic-materials"></a>What is the difference between Diamagnetic, Paramagnetic, and Ferromagnetic Materials?
 
@@ -193,13 +174,11 @@ In terms of applications, diamagnetic materials are used in magnetic resonance i
 
 The behavior of these materials can be summarized in the following table:
 
-
 | Material Type | Magnetic Susceptibility | Magnetic Moment | Examples | Applications |
 | --- | --- | --- | --- | --- |
 | Diamagnetic | Negative | No net magnetic moment | Copper, zinc, silicon | Magnetic resonance imaging (MRI) machines |
 | Paramagnetic | Positive | Net magnetic moment | Oxygen, aluminum, tungsten | Magnetic separators |
 | Ferromagnetic | Strong positive | Aligned magnetic moments | Iron, nickel, cobalt | Permanent magnets, electromagnets, magnetic storage devices |
-
 
 ## <a id="how-does-temperature-affect-magnetic-properties"></a>How does Temperature affect Magnetic Properties?
 
@@ -213,14 +192,12 @@ The magnetic susceptibility of a material, $chi$, is a measure of how easily the
 
 A comparison of the magnetic properties of different materials at various temperatures is shown in the table below.
 
-
 | Material | Curie Temperature (K) | Magnetic Susceptibility at 300 K |
 | --- | --- | --- |
 | Iron | 1043 | 200 |
 | Nickel | 631 | 110 |
 | Cobalt | 1394 | 70 |
 | Gadolinium | 293 | 0.01 |
-
 
 ## <a id="what-are-the-applications-of-magnetism-in-daily-life"></a>What are the Applications of Magnetism in Daily Life?
 
@@ -234,7 +211,6 @@ What are the Applications of Magnetism in Daily Life? is the practical usage of 
 
  The following table compares the different applications of magnetism in daily life:
 
-
 | **Application** | **Description** | **Examples** |
 | --- | --- | --- |
 | **Electric Motors** | Conversion of electrical energy into mechanical energy | Fans, Pumps, Power Tools, Industrial Machinery |
@@ -242,7 +218,6 @@ What are the Applications of Magnetism in Daily Life? is the practical usage of 
 | **Magnetic Resonance Imaging (MRI)** | Creation of detailed images of the body | Medical Imaging, Diagnostic Tools |
 | **Data Storage Devices** | Storage of data using magnetic materials | Hard Disk Drives, Magnetic Strips on Credit Cards |
 | **Transportation Systems** | Use of magnetic fields for levitation and braking | Magnetic Levitation Trains, Magnetic Braking Systems |
-
 
 ## <a id="what-is-the-key-shortcut-or-trick-for-magnetism-and-matter"></a>What is the key Shortcut or Trick for Magnetism and Matter?
 
@@ -256,13 +231,11 @@ In addition to these tricks, it's essential to practice solving problems using t
 
 Here's a comparison table that summarizes the key differences between ferromagnetism, paramagnetism, and diamagnetism:
 
-
 | Type of Magnetism | Properties | Examples |
 | --- | --- | --- |
 | Ferromagnetism | Spontaneous magnetization, high susceptibility | Iron, Nickel, Cobalt |
 | Paramagnetism | Weak attraction to magnetic fields, low susceptibility | Oxygen, Nitrogen, Aluminum |
 | Diamagnetism | Weak repulsion from magnetic fields, negative susceptibility | Copper, Zinc, Silicon |
-
 
 ## <a id="what-are-common-trap-questions-for-magnetism-and-matter"></a>What are common Trap Questions for Magnetism and Matter?
 
@@ -274,13 +247,11 @@ What are common Trap Questions for Magnetism and Matter? is a crucial aspect of 
 
  A comparison of the key concepts related to magnetism and matter is provided in the table below.
 
-
 | Concept | Description | Formula |
 | --- | --- | --- |
 | Magnetic Field Lines | Continuous, closed loops | $\vec{B} = \frac{\mu_0I}{2\pi r}$ |
 | Electric Field Lines | Originate from positive charges, terminate on negative charges | $\vec{E} = \frac{kQ}{r^2}$ |
 | Magnetic Induction | Induced current flows to oppose change in magnetic field | $\epsilon = -N\frac{d\Phi}{dt}$ |
-
 
 ## <a id="how-to-approach-numerical-problems-in-magnetism-and-matter-for-class-12"></a>How to approach Numerical Problems in Magnetism and Matter for Class 12?
 
@@ -305,16 +276,12 @@ Key concepts and formulas to focus on for the Class 12 exam include:
 
 By following these steps and focusing on the core concepts and formulas, you'll be well-prepared to tackle numerical problems in Magnetism and Matter for your Class 12 exam.
 
-
 | Concept | Formula | Description |
 | --- | --- | --- |
 | Magnetic Field due to a Straight Wire | $B = \frac{mu_0 I}{2pi r}$ | Gives the magnetic field at a distance r from a straight wire carrying current I |
 | Ampere's Law | $oint B cdot dl = mu_0 I_{enc}$ | Relates the magnetic field around a closed loop to the current enclosed by the loop |
 | Biot-Savart Law | $dB = \frac{mu_0}{4pi} \frac{Idl 	imes hat{r}}{r^2}$ | Describes the magnetic field due to a small element of a current-carrying wire |
 | Magnetic Flux | $Phi_B = int B cdot dA$ | Defines the magnetic flux through a surface as the integral of the magnetic field over the area |
-
-
-
 
 - Ferromagnetic materials are those that are strongly attracted to magnets.
 - Paramagnetic materials are weakly attracted to magnets.
@@ -326,7 +293,6 @@ By following these steps and focusing on the core concepts and formulas, you'll 
 
 ## <a id="mcqs"></a>MCQs
 
-
 **1. A bar magnet is placed in a time-varying magnetic field. What happens to its magnetic moment?**
 Increases
 Decreases
@@ -334,7 +300,6 @@ Remains Constant
 Oscillates
 
 **Answer:** C) The magnetic moment of a bar magnet remains constant, regardless of the time-varying magnetic field.
-
 
 **2. What is the strength of a magnetic field measured in?**
 Volts
@@ -344,7 +309,6 @@ Watts
 
 **Answer:** C) The strength of a magnetic field is measured in Tesla.
 
-
 **3. A solenoid is made up of how many turns of wire per unit length?**
 10
 100
@@ -353,7 +317,6 @@ Variable
 
 **Answer:** C) A solenoid is typically made up of thousands of turns of wire per unit length.
 
-
 **4. What is the effect of increasing the temperature on the magnetic susceptibility of a material?**
 Increases
 Decreases
@@ -361,7 +324,6 @@ Remains Constant
 May Increase or Decrease
 
 **Answer:** B) Increasing the temperature typically decreases the magnetic susceptibility of a material.
-
 
 **5. What is the term for the phenomenon where a magnetic field is induced in a material by changing the current in a nearby conductor?**
 Electromagnetic Induction
@@ -375,10 +337,6 @@ Lenz's Law
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
@@ -389,15 +347,10 @@ Continue your revision with these related guides:
 - 📖 [Alternating Current Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/alternating-current-class-12-notes)
 - 📖 [Electromagnetic Waves Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-waves-class-12-notes)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/magnetism-and-matter-class-12-notes) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

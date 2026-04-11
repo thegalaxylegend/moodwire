@@ -12,9 +12,6 @@ practice_link: "/class-11/physics/straight-lines-class-11-revision-notes-jee-nee
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Straight Lines Revision Notes?](#what-is-straight-lines-revision-notes)
@@ -30,18 +27,11 @@ practice_link: "/class-11/physics/straight-lines-class-11-revision-notes-jee-nee
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Straight Lines Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-straight-lines-revision-notes"></a>What is Straight Lines Revision Notes?
 
 # Straight Lines Revision Notes
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -55,16 +45,12 @@ practice_link: "/class-11/physics/straight-lines-class-11-revision-notes-jee-nee
 
 ---
 
-
 ## <a id="introduction"></a>Introduction
 
 **Straight Lines are the simplest geometric paths in the Cartesian plane, representing linear relationships in physics, navigation, and data science. Master the slope formula, various forms of line equations (point-slope, intercept), and the distance from a point to a line to excel in coordinate geometry. This [class](/blog/complex-numbers-class-11-revision-notes-jee-neet) 11 Math Chapter 10 summary provides all essential concepts for JEE and Board exams.**
 Straight lines are the fundamental paths in Euclidean [geometry](/blog/three-dimensional-geometry-class-11-revision-notes-jee-neet).
 
 ---
-
-
-
 
 ## <a id="1-slope-of-a-line"></a>1. Slope of a Line
 
@@ -77,14 +63,11 @@ The slope (also called gradient) of a non-vertical [line](/blog/motion-in-a-stra
 
 ---
 
-
-
-
 ## <a id="2-various-forms-of-the-equation-of-a-line"></a>2. Various Forms of the Equation of a Line
 
 Depending on the given information, we use different forms:
 1.  **Horizontal [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet):** y = b.
-2.  **Vertical Line:** x = a.
+2.  **Vertical [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet):** x = a.
 3.  **Point-Slope Form:** (y - y₁) = m(x - x₁).
 4.  **Two-Point Form:** (y - y₁) / (y₂ - y₁) = (x - x₁) / (x₂ - x₁).
 5.  **Slope-Intercept Form:** y = mx + c (where c is the y-intercept).
@@ -92,9 +75,6 @@ Depending on the given information, we use different forms:
 7.  **Normal Form:** x cos ω + y sin ω = p (p is the perpendicular distance from the origin).
 
 ---
-
-
-
 
 ## <a id="3-general-equation-of-a-line"></a>3. General Equation of a Line
 
@@ -104,9 +84,6 @@ The general form of a linear equation is **Ax + By + C = 0**.
 *   x-intercept = -C/A.
 
 ---
-
-
-
 
 ## <a id="4-distance-of-a-point-from-a-line"></a>4. Distance of a Point from a Line
 
@@ -119,18 +96,12 @@ The distance between two parallel lines Ax + By + C₁ = 0 and Ax + By + C₂ = 
 
 ---
 
-
-
-
 ## <a id="5-shifting-of-origin"></a>5. Shifting of Origin
 
 If the origin (0, 0) is shifted to a new point (h, k) without changing the direction of axes, then the new coordinates (x', y') are related to the old coordinates (x, y) by:
 **x = x' + h** and **y = y' + k**
 
 ---
-
-
-
 
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
@@ -156,17 +127,11 @@ If the origin (0, 0) is shifted to a new point (h, k) without changing the direc
 
 ---
 
-
-
-
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 9: Sequences and Series**
 - **Chapter 11: Conic Sections**
 - [**External Reference:** [NCERT Class 11 Math Chapter 10](https://ncert.nic.in/textbook.php?kemh1=10-16) (Authoritative Source)]
-
-
-
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -176,16 +141,6 @@ Straight lines are the ABCs of coordinate [geometry](/blog/three-dimensional-geo
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 
@@ -198,15 +153,10 @@ Continue your [revision](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 - 📖 [Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/complex-numbers-class-11-revision-notes-jee-neet)
 - 📖 [Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/straight-lines-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

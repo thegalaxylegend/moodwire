@@ -12,9 +12,6 @@ practice_link: "/class-11/physics/nuclei-class-12-notes"
 
 *Last Updated: 2026-03-29*
 
-
-
-
 ## 📋 Table of Contents
 
 - [🎯 What WILL Come in Your Exam](#-what-will-come-in-your-exam)
@@ -28,7 +25,6 @@ practice_link: "/class-11/physics/nuclei-class-12-notes"
   - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
 - [📚 Related Topics](#-related-topics)
 
-
 ## <a id="-what-will-come-in-your-exam"></a>🎯 What WILL Come in Your Exam
 * 1 numerical on binding energy per nucleon — always
 * Nuclear stability curve — JEE favourite, expect a graph-based question
@@ -39,21 +35,16 @@ practice_link: "/class-11/physics/nuclei-class-12-notes"
 * $\\frac{N}{Z}$ ratio and its relation to nuclear stability — NEET favourite, expect a short-answer question
 * Nuclear reactions with $Q$-value — 1 numerical, always
 
-
 ## <a id="-formula-bank"></a>⚡ Formula Bank
-
-
-
 
 | Formula | Variable Meaning |
 | --- | --- |
-| $$E = \Delta mc^2$$ | E: Energy, \Delta m: Mass defect, c: Speed of light |
-| $$\lambda = \frac{h}{m v}$$ | \lambda: De Broglie wavelength, h: Planck's constant, m: Mass, v: Velocity |
-| $$R = R_0 A^{\frac{1}{3}}$$ | R: Nuclear radius, $R_0$: Constant, A: Mass number |
-| $$E_{binding} = \frac{3}{5} \frac{3 Z^2 e^2}{4 \pi \epsilon_0 R}$$ | $E_{binding}$: Binding energy, Z: Atomic number, e: Charge, $\epsilon_0$: Permittivity |
-| $$\frac{N}{N_0} = e^{-\lambda t}$$ | N: Number of nuclei, $N_0$: Initial number, \lambda: Decay constant, t: Time |
-| $$T_{\frac{1}{2}} = \frac{0.693}{\lambda}$$ | $T_{\frac{1}{2}}$: Half-life, \lambda: Decay constant |
-
+| E = \Delta mc^2 | E: Energy, \Delta m: Mass defect, c: Speed of light |
+| \lambda = \frac{h}{m v} | \lambda: De Broglie wavelength, h: Planck's constant, m: Mass, v: Velocity |
+| R = R_0 A^{\frac{1}{3}} | R: Nuclear radius, $R_0$: Constant, A: Mass number |
+| E_{binding} = \frac{3}{5} \frac{3 Z^2 e^2}{4 \pi \epsilon_0 R} | $E_{binding}$: Binding energy, Z: Atomic number, e: Charge, $\epsilon_0$: Permittivity |
+| \frac{N}{N_0} = e^{-\lambda t} | N: Number of nuclei, $N_0$: Initial number, \lambda: Decay constant, t: Time |
+| T_{\frac{1}{2}} = \frac{0.693}{\lambda} | $T_{\frac{1}{2}}$: Half-life, \lambda: Decay constant |
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -74,7 +65,6 @@ When solving problems related to nuclei, watch out for these common mistakes:
  Costs: 2 marks, 
  Fix: Ensure the units are in meters.
 
-
 | Mistake | Costs | Fix |
 | --- | --- | --- |
 | Using $E = mc^2$ without converting mass to kg | Full 4 marks | Always convert grams to kg |
@@ -82,7 +72,6 @@ When solving problems related to nuclei, watch out for these common mistakes:
 | Not balancing mass and atomic numbers | 2 marks | Ensure $A_i = A_f$ and $Z_i = Z_f$ |
 | Incorrect binding energy per nucleon calculation | 4 marks | Calculate $\Delta m$ first then apply $B.E. = (\Delta m) \\times c^2$ |
 | Ignoring units in nuclear radius calculation | 2 marks | Ensure units are in meters |
-
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
@@ -122,16 +111,13 @@ Q: The activity of a radioactive substance is $2.0 \times 10^{-6}$ curie. If its
  $m = \frac{0.5}{2^4} = \frac{0.5}{16} = 0.03125 g$.
  Answer: $0.03125 g$.
 
-
 |  |
 |  |
 |  |
-
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 The key concept that differentiates 85% scorers from 95% scorers in the topic of Nuclei is the understanding of nuclear stability in terms of binding energy per nucleon, given by the equation $\frac{\Delta E}{A}$, where $\Delta E$ is the binding energy and $A$ is the mass number. Most students fail to recognize that a higher binding energy per nucleon $\left(\frac{\Delta E}{A}\right)$ indicates a more stable nucleus. The curve of binding energy per nucleon versus mass number has a peak around iron ($_{26}Fe^{56}$), which is the most stable nucleus. Students often mistakenly assume that the nucleus with the highest binding energy is the most stable, rather than the one with the highest binding energy per nucleon.
-
 
 | Nucleus | Binding Energy per Nucleon |
 | --- | --- |
@@ -139,11 +125,9 @@ The key concept that differentiates 85% scorers from 95% scorers in the topic of
 | $_{1}H^{1}$ | $0$ MeV |
 | $_{92}U^{238}$ | $\approx 7.6$ MeV |
 
-
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
 For Nuclei, remember the pattern of $\beta$ decay and its relation to the neutron-proton ratio. The stability curve can be expressed as $Z = \frac{A}{2.24 + 0.0075A^{2/3}}$. Note that for every 10 units of $A$, $\Delta Z$ is approximately 0.35 units, as observed from the last 5 years of PYQs. For nuclei with $A > 20$, the binding energy per nucleon can be calculated using $\frac{\Delta E}{A} = 15.7 - \frac{17.8}{A^{1/3}} - \frac{0.7Z^{2}}{A^{4/3}} + \frac{23.7(Z-2A/5)^{2}}{A^{2}}$
-
 
 | Mass Number (A) | Proton Number (Z) | Neutron Number (N) | Stability |
 | --- | --- | --- | --- |
@@ -159,7 +143,6 @@ For Nuclei, remember the pattern of $\beta$ decay and its relation to the neutro
 | 7 | 4 | 3 | Stable |
 | 8 | 4 | 4 | Stable |
 | 8 | 5 | 3 | Unstable |
-
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
@@ -177,14 +160,11 @@ Key Formulas:
  * Confusing nuclear fission and fusion
  * Forgetting to use $A^{\frac{1}{3}}$ in calculations for nuclear radius
 
-
 |  |
 |  |
 |  |
-
 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
-
 
 **1. What is the binding energy per nucleon for deuteron (1H2)?**
 1.1 MeV
@@ -194,7 +174,6 @@ Key Formulas:
 
 **Answer:** A) Deuteron has a binding energy of 2.2 MeV
 
-
 **2. Which of the following radioactive decay modes involves the emission of an alpha particle?**
 Beta minus decay
 Beta plus decay
@@ -202,7 +181,6 @@ Gamma decay
 Alpha decay
 
 **Answer:** D) Alpha decay involves the emission of an alpha particle (2 protons and 2 neutrons) from the nucleus
-
 
 **3. The process by which two or more atomic nuclei combine to form a single, heavier nucleus is called**
 Nuclear fission
@@ -212,7 +190,6 @@ Nuclear reaction
 
 **Answer:** B) Nuclear fusion is the process where two or more nuclei combine to form a heavier nucleus
 
-
 **4. The nuclear reaction 2H2 + 2H2 → 3H2 + 1H1 + Energy is an example of**
 Nuclear fission
 Nuclear fusion
@@ -220,7 +197,6 @@ Radioactive decay
 Nuclear reaction
 
 **Answer:** B) This reaction represents the combination of nuclei to form a heavier nucleus, which is nuclear fusion
-
 
 **5. The half-life of a radioactive substance is**
 The time taken for the substance to decay completely
@@ -230,14 +206,10 @@ The time taken for the substance to reach equilibrium
 
 **Answer:** B) Half-life is defined as the time required for half of the initial amount of the substance to decay
 
-
-
 ---
 
 ### <a id="-ready-to-ace-your-exam"></a>🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Nuclei Full Mock Test**](/class-11/physics/nuclei-class-12-notes) now and track your progress against thousands of students.
-
-
 
 ---
 
@@ -250,7 +222,6 @@ Continue your revision with these related guides:
 - 📖 [Dual Nature of Radiation Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/dual-nature-of-radiation-class-12-notes)
 - 📖 [Semiconductor Electronics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/semiconductor-electronics-class-12-notes)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
@@ -258,7 +229,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

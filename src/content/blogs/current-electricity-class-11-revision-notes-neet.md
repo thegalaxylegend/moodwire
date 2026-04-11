@@ -12,9 +12,6 @@ practice_link: "/class-11/biology/current-electricity-class-11-revision-notes-ne
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Current Electricity Revision Notes?](#what-is-current-electricity-revision-notes)
@@ -41,18 +38,11 @@ practice_link: "/class-11/biology/current-electricity-class-11-revision-notes-ne
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Current Electricity Class 11 Biology Revision — NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-current-electricity-revision-notes"></a>What is Current Electricity Revision Notes?
 
 # Current Electricity Revision Notes
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -67,15 +57,11 @@ practice_link: "/class-11/biology/current-electricity-class-11-revision-notes-ne
 
 ---
 
-
 ## <a id="introduction"></a>Introduction
 
 While electrostatics deals with charges at rest, **Current Electricity** is the study of charges in motion. It is the lifeblood of modern civilization—the pulse of every microprocessor, the power behind every motor, and the signal in every communication line. This chapter marks the transition from static fields to dynamic energy transfer. In this "Comprehensive" guide, we provide a deep microscopic dive into the behavior of electrons in a lattice, rigorous proofs for Kirchhoff’s Laws, and a technical comparison between bridge circuits and measuring instruments. Whether you are prepping for JEE Main, NEET, or your Board exams, these [notes](/blog/kinetic-theory-class-11-revision-notes-jee-neet) provide the exhaustive detail and mathematical rigor necessary for absolute mastery.
 
 ---
-
-
-
 
 ## <a id="1-electric-current-the-flow-of-charge"></a>1. Electric Current: The Flow of Charge
 
@@ -85,9 +71,6 @@ While electrostatics deals with charges at rest, **Current Electricity** is the 
 - **Current Density (J):** Current per unit area. **J = I / A**.
 
 ---
-
-
-
 
 ## <a id="2-microscopic-view-of-current-drift-velocity"></a>2. Microscopic View of Current: Drift Velocity
 
@@ -109,9 +92,6 @@ Where **τ** (tau) is the **Relaxation Time**—the average time between two suc
 
 ---
 
-
-
-
 ## <a id="3-ohms-law-the-microscopic-proof"></a>3. Ohm’s Law: The Microscopic Proof
 
 **Theorem:** For constant physical conditions (like temperature), the current flow is directly proportional to the potential difference. **V = IR**.
@@ -130,18 +110,12 @@ Where **τ** (tau) is the **Relaxation Time**—the average time between two suc
 
 ---
 
-
-
-
 ## <a id="4-temperature-dependence-of-resistivity"></a>4. Temperature Dependence of Resistivity
 
 - **For Metals:** As temperature increases, the lattice vibrates more, decreasing the relaxation time **τ**. Thus, resistivity **ρ** **increases**.
 - **For Semiconductors:** As temperature increases, more covalent bonds break, increasing the number of free charge carriers **n**. Thus, resistivity **ρ** **decreases**.
 
 ---
-
-
-
 
 ## <a id="5-cells-emf-and-internal-resistance"></a>5. Cells, EMF, and Internal Resistance
 
@@ -154,9 +128,6 @@ Where **τ** (tau) is the **Relaxation Time**—the average time between two suc
 3.  **r = [ (ε/V) - 1 ] R**.
 
 ---
-
-
-
 
 ## <a id="6-kirchhoffs-laws-the-circuit-rules"></a>6. Kirchhoff’s Laws: The Circuit Rules
 
@@ -174,9 +145,6 @@ Used for solving complex electrical networks where Ohm’s Law alone is insuffic
 
 ---
 
-
-
-
 ## <a id="7-the-wheatstone-bridge"></a>7. The Wheatstone Bridge
 
 A bridge of four resistors (**P, Q, R, S**) used to measure an unknown resistance.
@@ -189,9 +157,6 @@ Using KVL:
 3.  Dividing: **P / Q = R / S**. (Proven)
 
 ---
-
-
-
 
 ## <a id="8-the-potentiometer-the-ideal-voltmeter"></a>8. The Potentiometer: The Ideal Voltmeter
 
@@ -206,9 +171,6 @@ A voltmeter draws some current from the circuit, thereby measuring a terminal vo
 
 ---
 
-
-
-
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
 **Q1: How does the drift velocity change if the cross-sectional area of a wire is doubled for a constant current?**
@@ -222,17 +184,11 @@ A voltmeter draws some current from the circuit, thereby measuring a terminal vo
 
 ---
 
-
-
-
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 2: Electrostatical Potential & Capacitive Circuits**
 - **Chapter 4: [moving](/blog/moving-charges-magnetism-class-11-revision-notes-neet) Charges and Magnetism (The Next Milestone)**
 - **Mastering Kirchhoff’s Network Analysis: Rank Booster Set**
-
-
-
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -245,16 +201,6 @@ Current Electricity is the foundation of energy conversion and electronics. By m
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
@@ -265,15 +211,10 @@ Continue your [revision](/blog/kinetic-theory-class-11-revision-notes-jee-neet) 
 - 📖 [Electric Charges Fields Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electric-charges-fields-class-11-revision-notes-jee-neet)
 - 📖 [Kinetic Theory Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/current-electricity-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

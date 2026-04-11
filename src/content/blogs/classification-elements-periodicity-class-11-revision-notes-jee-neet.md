@@ -12,9 +12,6 @@ practice_link: "/class-11/physics/classification-elements-periodicity-class-11-r
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Classification Elements Periodicity Revision Notes?](#what-is-classification-elements-periodicity-revision-notes)
@@ -47,23 +44,11 @@ practice_link: "/class-11/physics/classification-elements-periodicity-class-11-r
   - [Board Exam Tip:](#board-exam-tip)
 - [📚 Related Topics](#-related-topics)
 
-
 # Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-classification-elements-periodicity-revision-notes"></a>What is Classification Elements Periodicity Revision Notes?
 
 # Classification Elements Periodicity Revision Notes
-
-
-
-
-
-
-
 
 1. [Why Periodicity is the "Cheat Code" of Inorganic Chemistry](#intro)
 2. [Modern Periodic Law and Table Layout](#periodic-law)
@@ -78,11 +63,6 @@ practice_link: "/class-11/physics/classification-elements-periodicity-class-11-r
 11. [Practice MCQs (JEE/NEET Level)](#mcqs)
 12. [Ayush's "Trend Map" Strategy](#ayush-strategy)
 
-
-
-
-
-
 ## <a id="1-why-periodicity-is-the-cheat-code-of-inorganic-chemistry"></a>1. Why Periodicity is the "Cheat Code" of Inorganic Chemistry
 
 **Periodicity is the systematic, repeating variation of elemental properties (like radius, IE, and electronegativity) as a function of atomic number.**
@@ -96,11 +76,6 @@ I used to dread Inorganic [chemistry](/blog/thermodynamics-chemistry-class-11-re
 
 ---
 
-
-
-
-
-
 ## <a id="2-modern-periodic-law-and-table-layout"></a>2. Modern Periodic Law and Table Layout
 
 **The Modern Periodic Law [states](/blog/states-of-matter-class-11-revision-notes-jee-neet) that the physical and chemical properties of elements are periodic functions of their atomic numbers.**
@@ -111,11 +86,6 @@ I used to dread Inorganic [chemistry](/blog/thermodynamics-chemistry-class-11-re
 - Period 1 has 2 elements. Period 2 and 3 have 8 each. Period 4 and 5 have 18 each. Period 6 has 32.
 
 ---
-
-
-
-
-
 
 ## <a id="3-blocks-of-the-periodic-table-s-p-d-f"></a>3. Blocks of the Periodic Table (s, p, d, f)
 
@@ -132,11 +102,6 @@ I used to dread Inorganic [chemistry](/blog/thermodynamics-chemistry-class-11-re
 > When asked "Why are d-block elements called Transition elements?", the correct reason is: They transition between the highly electropositive s-block and the electronegative p-block metals. Not just "because they have d-electrons."
 
 ---
-
-
-
-
-
 
 ## <a id="4-atomic-radius-vs-ionic-radius-the-size-story"></a>4. Atomic Radius vs Ionic Radius — The Size Story
 
@@ -157,14 +122,9 @@ Order: $O^{2-} > F^- > Ne > Na^+ > Mg^{2+}$.
 
 ---
 
-
-
-
-
-
 ## <a id="5-ionization-enthalpy-ie-the-energy-to-steal-an-electron"></a>5. Ionization Enthalpy (IE) — The Energy to Steal an Electron
 
-**Ionization Enthalpy is the minimum energy required to remove the most loosely bound electron from an isolated gaseous atom in its ground state.**
+**Ionization Enthalpy is the minimum energy required to remove the most loosely bound electron from an isolated gaseous [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet) in its ground state.**
 
 ### <a id="general-trend"></a>General Trend
 - **Across Period**: Increases (higher $Z_{eff}$).
@@ -180,11 +140,6 @@ Order: $O^{2-} > F^- > Ne > Na^+ > Mg^{2+}$.
 
 ---
 
-
-
-
-
-
 ## <a id="6-electron-gain-enthalpy-ege-why-chlorine-beats-fluorine"></a>6. Electron Gain Enthalpy (EGE) — Why Chlorine Beats Fluorine
 
 **Electron Gain Enthalpy is the enthalpy change when an electron is added to an isolated gaseous atom to form a negative ion.**
@@ -198,11 +153,6 @@ Noble gases have positive EGE because their shells are completely filled — for
 
 ---
 
-
-
-
-
-
 ## <a id="7-electronegativity-pauling-mulliken-and-allredrochow-scales"></a>7. Electronegativity — Pauling, Mulliken, and Allred-Rochow Scales
 
 **Electronegativity is the ability of an atom to attract the shared pair of electrons in a [chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) bond towards itself.**
@@ -215,11 +165,6 @@ Noble gases have positive EGE because their shells are completely filled — for
 F (4.0) > O (3.5) > Cl (3.0) > N (3.0) > Br (2.8) > C (2.5) > H (2.1)
 
 ---
-
-
-
-
-
 
 ## <a id="8-chemical-reactivity-and-metallic-character-trends"></a>8. Chemical Reactivity and Metallic Character Trends
 
@@ -238,11 +183,6 @@ F (4.0) > O (3.5) > Cl (3.0) > N (3.0) > Br (2.8) > C (2.5) > H (2.1)
 
 ---
 
-
-
-
-
-
 ## <a id="9-the-diagonal-relationship-a-jee-advanced-favorite"></a>9. The Diagonal Relationship — A JEE Advanced Favorite
 
 **The Diagonal Relationship describes the similarity in properties between an element and the element diagonally below and to its right in the periodic table.**
@@ -256,11 +196,6 @@ This happens because moving right increases IE ($Z_{eff}$) while moving down dec
 | **B ~ Si** | Both form acidic oxides. Both hydrides are covalent and electron-deficient. |
 
 ---
-
-
-
-
-
 
 ## <a id="10-the-trap-section-anomalies-that-examiners-love"></a>10. The "Trap" Section: Anomalies That Examiners Love
 
@@ -282,11 +217,6 @@ This happens because moving right increases IE ($Z_{eff}$) while moving down dec
 - **Why**: Different measurement methods give different radii.
 
 ---
-
-
-
-
-
 
 ## <a id="11-practice-mcqs-jeeneet-level"></a>11. Practice MCQs (JEE/NEET Level)
 
@@ -329,11 +259,6 @@ D) Ge
 
 ---
 
-
-
-
-
-
 ## <a id="12-ayushs-trend-map-strategy"></a>12. Ayush's "Trend Map" Strategy
 
 I created a single A4 sheet I called the "Trend Map." Here's what was on it:
@@ -348,25 +273,14 @@ NCERT asks "Explain the trend in Ionization Enthalpy across a period." Always me
 ---
 
 **Related [revision](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Notes:**
-- **Chemical Bonding VSEPR Theory JEE 2026 tricks — Hybridization & Shapes**
+- **[chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Bonding VSEPR Theory JEE 2026 tricks — Hybridization & Shapes**
 - **Structure of Atom — Quantum Numbers & Configuration Shortcuts**
-- **Some Basic Concepts of Chemistry — Mole Concept & Stoichiometry**
+- **Some Basic Concepts of [chemistry](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) — Mole Concept & Stoichiometry**
 
 ---
-
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 
@@ -379,15 +293,10 @@ Continue your revision with these related guides:
 - 📖 [Equilibrium Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/equilibrium-class-11-revision-notes-jee-neet)
 - 📖 [Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/structure-of-atom-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/classification-elements-periodicity-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

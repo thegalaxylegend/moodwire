@@ -12,9 +12,6 @@ practice_link: "/class-11/mathematics/ancient-india-vedic-age-class-11-revision-
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Ancient India Vedic Age?](#what-is-ancient-india-vedic-age)
@@ -30,18 +27,11 @@ practice_link: "/class-11/mathematics/ancient-india-vedic-age-class-11-revision-
 - [Quick Revision Tips](#quick-revision-tips)
 - [📚 Related Topics](#-related-topics)
 
-
 # Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide
-
-
-
-
 
 ## <a id="what-is-ancient-india-vedic-age"></a>What is Ancient India Vedic Age?
 
 [object Object]
-
-
 
 Quick Revision: Mathematics in Ancient [india](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse) - Vedic Age
 
@@ -58,12 +48,6 @@ Cheat Sheet:
 
 This section provides a quick revision of the major contributions of ancient [india](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse) during the Vedic period.
 
-
-
-
-
-
-
 ## <a id="introduction-to-vedic-age"></a>Introduction to Vedic Age
 
 The Vedic Age is named after the **Vedas**, which are [ancient](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) Indian texts that contain hymns, prayers, and philosophical discussions. These texts are considered some of the most sacred in Hinduism. The Vedas are divided into four main categories: the **Rigveda**, **Yajurveda**, **Samaveda**, and **Atharvaveda**.
@@ -77,7 +61,7 @@ As I the world of Ancient [india](/blog/medieval-india-bhakti-sufi-class-11-revi
 The following are key concepts related to the Vedic Age:
 - **Rig Vedic Period**: Characterized by the composition of the Rigveda and the establishment of the Vedic religion.
 - **Later Vedic Period**: Saw the development of the Varnashrama System and the rise of Janapadas.
-- **Vedas**: Ancient Indian texts that are considered sacred in Hinduism.
+- **Vedas**: [ancient](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) Indian texts that are considered sacred in Hinduism.
 - **Varnashrama System**: A social hierarchy that divided society into four varnas.
 - **Janapadas**: Small kingdoms or territories that emerged during the Later Vedic Period.
 
@@ -93,7 +77,7 @@ While there are no specific mathematical formulae related to the Vedic Age, the 
 
 ## <a id="jeeneet-data"></a>JEE/NEET Data
 
-For students preparing for JEE/NEET, it's essential to note that the Vedic Age is not directly related to the syllabus. However, understanding the historical context of India can help in developing a broader perspective, which can be beneficial in various aspects of the examination, including the general knowledge section.
+For students preparing for JEE/NEET, it's essential to note that the Vedic Age is not directly related to the syllabus. However, understanding the historical context of [india](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse) can help in developing a broader perspective, which can be beneficial in various aspects of the examination, including the general knowledge section.
 
 ## <a id="trap-exceptions"></a>Trap Exceptions
 
@@ -126,16 +110,6 @@ By following these quick revision tips and understanding the core concepts, you 
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
@@ -146,15 +120,10 @@ Continue your revision with these related guides:
 - 📖 [Geomorphology Class 11 Geography Recap — CBSE 2026 Quick Guide](/blog/geomorphology-class-11-revision-notes-cbse)
 - 📖 [World History Industrial Revolution Class 11 History Recap — CBSE 2026 Quick Guide](/blog/world-history-industrial-revolution-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/ancient-india-vedic-age-class-11-revision-notes-jee) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

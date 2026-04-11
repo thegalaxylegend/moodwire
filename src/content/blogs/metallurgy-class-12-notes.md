@@ -12,9 +12,6 @@ practice_link: "/class-11/chemistry/metallurgy-class-12-notes"
 
 *Last Updated: 2026-03-31*
 
-
-
-
 ## 📋 Table of Contents
 
   - [Metallurgical Processes](#metallurgical-processes)
@@ -34,7 +31,6 @@ practice_link: "/class-11/chemistry/metallurgy-class-12-notes"
   - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
 - [📚 Related Topics](#-related-topics)
 
-
 - [Metallurgical Processes](#metallurgical-processes)
  - [Extraction of Metals](#extraction-of-metals)
  - [Ellingham Diagram](#ellingham-diagram)
@@ -48,7 +44,6 @@ practice_link: "/class-11/chemistry/metallurgy-class-12-notes"
 
  - [Conclusion and Advanced Topics](#conclusion-and-advanced-topics)
 
-
 ### <a id="metallurgical-processes"></a>Metallurgical Processes
 - Metallurgical processes involve the extraction of metals from their ores.
 - The process involves several steps, including mining, crushing, grinding, and flotation.
@@ -61,7 +56,7 @@ practice_link: "/class-11/chemistry/metallurgy-class-12-notes"
  - Refining of metals: metallurgical processes are used to purify metals.
 
 ### <a id="extraction-of-metals"></a>Extraction of Metals
-- Extraction of metals involves the use of the reaction $$\Delta G = \Delta H - T\Delta S$$ to determine the feasibility of the extraction process.
+- Extraction of metals involves the use of the reaction \Delta G = \Delta H - T\Delta S to determine the feasibility of the extraction process.
 - Types of extraction methods: 
  - Carbon reduction: involves the use of carbon to reduce metal oxides to metals.
  - Hydrogen reduction: involves the use of hydrogen to reduce metal oxides to metals.
@@ -73,7 +68,7 @@ practice_link: "/class-11/chemistry/metallurgy-class-12-notes"
 - Ellingham diagram is used to plot the Gibbs free energy change of formation of oxides as a function of temperature.
 - [application](/blog/application-of-integrals-class-12-notes) of Ellingham diagram: 
  - Determining the feasibility of metal extraction processes: the Ellingham diagram is used to determine the feasibility of metal extraction processes.
-- $$\Delta G = \Delta H - T\Delta S$$: equation used to calculate the Gibbs free energy change.
+- \Delta G = \Delta H - T\Delta S: equation used to calculate the Gibbs free energy change.
 #### Key Features of Ellingham Diagram
 - It helps in predicting the stability of oxides.
 - It helps in determining the temperature required for the reduction of metal oxides.
@@ -106,7 +101,7 @@ practice_link: "/class-11/chemistry/metallurgy-class-12-notes"
 - It is based on the principle of fractional crystallization.
 
 ### <a id="thermodynamic-principles"></a>Thermodynamic Principles
-- Thermodynamic principles involve the application of $$\Delta G = \Delta H - T\Delta S$$ in metallurgy.
+- Thermodynamic principles involve the [application](/blog/application-of-integrals-class-12-notes) of \Delta G = \Delta H - T\Delta S in metallurgy.
 - Types of thermodynamic principles: 
  - Gibbs free energy change: involves the change in Gibbs free energy during a reaction.
  - Enthalpy change: involves the change in enthalpy during a reaction.
@@ -114,17 +109,17 @@ practice_link: "/class-11/chemistry/metallurgy-class-12-notes"
 - Applications of thermodynamic principles: 
  - Determining the feasibility of metal extraction processes: thermodynamic principles are used to determine the feasibility of metal extraction processes.
 #### Equilibrium Constant
-- It is related to the Gibbs free energy change by the equation: $$\Delta G = -RT\ln K$$
+- It is related to the Gibbs free energy change by the equation: \Delta G = -RT\ln K
 
 ### <a id="electrochemical-principles"></a>Electrochemical Principles
-- Electrochemical principles involve the application of $$E^{\circ}_{cell} = E^{\circ}_{cathode} - E^{\circ}_{anode}$$ in metallurgy.
+- Electrochemical principles involve the application of E^{\circ}_{cell} = E^{\circ}_{cathode} - E^{\circ}_{anode} in metallurgy.
 - Types of electrochemical principles: 
  - Electrode potential: involves the potential of an electrode during a reaction.
  - Cell potential: involves the potential of a cell during a reaction.
 - Applications of electrochemical principles: 
  - Determining the feasibility of metal extraction processes: electrochemical principles are used to determine the feasibility of metal extraction processes.
 #### Nernst Equation
-- It is used to calculate the electrode potential: $$E = E^{\circ} - \frac{RT}{nF}\ln Q$$
+- It is used to calculate the electrode potential: E = E^{\circ} - \frac{RT}{nF}\ln Q
 
 ### <a id="electrolytic-reduction"></a>Electrolytic Reduction
 - Electrolytic reduction involves the use of electricity to reduce metal ions to metals.
@@ -146,8 +141,8 @@ practice_link: "/class-11/chemistry/metallurgy-class-12-notes"
 - Applications of roasting and calcination: 
  - Extraction of metals: roasting and calcination are used to extract metals from their ores.
 #### Chemical Reactions Involved
-- Roasting: $$2ZnS + 3O_2 \rightarrow 2ZnO + 2SO_2$$
-- Calcination: $$ZnCO_3 \rightarrow ZnO + CO_2$$
+- Roasting: 2ZnS + 3O_2 \rightarrow 2ZnO + 2SO_2
+- Calcination: ZnCO_3 \rightarrow ZnO + CO_2
 
 ### <a id="metallurgical-processes"></a>Metallurgical Processes
 As we continue from where Part 1 ends, let's dive deeper into the world of metallurgical processes. These processes involve the extraction of metals from their ores, which is a crucial step in the production of metals. The process involves several steps, including mining, crushing, grinding, and flotation. There are several types of metallurgical processes, including pyrometallurgy, hydrometallurgy, and electrometallurgy.
@@ -170,9 +165,9 @@ When it comes to metallurgical processes, there are several common mistakes that
 5. **Lack of quality control**: Quality control is essential in metallurgical processes. If the metal is not properly inspected, it can contain defects that can affect its properties.
 
 #### Extraction of Metals
-Extraction of metals involves the use of the reaction $$\Delta G = \Delta H - T\Delta S$$ to determine the feasibility of the extraction process. This equation is used to calculate the Gibbs free energy change, which is a measure of the energy change that occurs during a reaction. The equation is as follows:
-$$\Delta G = \Delta H - T\Delta S$$
-where $$\Delta G$$ is the Gibbs free energy change, $$\Delta H$$ is the enthalpy change, $$T$$ is the temperature, and $$\Delta S$$ is the entropy change.
+Extraction of metals involves the use of the reaction \Delta G = \Delta H - T\Delta S to determine the feasibility of the extraction process. This equation is used to calculate the Gibbs free energy change, which is a measure of the energy change that occurs during a reaction. The equation is as follows:
+\Delta G = \Delta H - T\Delta S
+where \Delta G is the Gibbs free energy change, \Delta H is the enthalpy change, T is the temperature, and \Delta S is the entropy change.
 
 #### Reduction Methods
 Reduction methods involve the use of a reducing agent to extract metals from their ores. There are several types of reduction methods, including carbon reduction, hydrogen reduction, and metal reduction. Each of these methods has its own advantages and disadvantages, and the choice of method depends on the type of metal being extracted.
@@ -181,10 +176,10 @@ Reduction methods involve the use of a reducing agent to extract metals from the
 Refining of metals involves the use of zone refining or van Arkel method to purify metals. Zone refining involves the use of a molten zone to purify metals, while the van Arkel method involves the use of a reactor to purify metals. Both of these methods are used to remove impurities from the metal and produce high-purity metals.
 
 #### Thermodynamic Principles
-Thermodynamic principles involve the application of $$\Delta G = \Delta H - T\Delta S$$ in metallurgy. This equation is used to determine the feasibility of metal extraction processes. The Gibbs free energy change is a measure of the energy change that occurs during a reaction, and it can be used to determine whether a reaction is spontaneous or not.
+Thermodynamic principles involve the application of \Delta G = \Delta H - T\Delta S in metallurgy. This equation is used to determine the feasibility of metal extraction processes. The Gibbs free energy change is a measure of the energy change that occurs during a reaction, and it can be used to determine whether a reaction is spontaneous or not.
 
 #### Electrochemical Principles
-Electrochemical principles involve the application of $$E^{\circ}_{cell} = E^{\circ}_{cathode} - E^{\circ}_{anode}$$ in metallurgy. This equation is used to determine the feasibility of metal extraction processes. The cell potential is a measure of the potential difference between the cathode and anode, and it can be used to determine whether a reaction is spontaneous or not.
+Electrochemical principles involve the application of E^{\circ}_{cell} = E^{\circ}_{cathode} - E^{\circ}_{anode} in metallurgy. This equation is used to determine the feasibility of metal extraction processes. The cell potential is a measure of the potential difference between the cathode and anode, and it can be used to determine whether a reaction is spontaneous or not.
 
 As we continue to explore the world of metallurgy, it is essential to understand the principles and processes involved in the extraction and refining of metals. By avoiding common mistakes and applying thermodynamic and electrochemical principles, we can optimize metal extraction processes and produce high-purity metals.
 
@@ -237,7 +232,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -249,15 +243,10 @@ Continue your revision with these related guides:
 - 📖 [Surface Chemistry Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/surface-chemistry-class-12-notes)
 - 📖 [Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-integrals-class-12-notes)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/metallurgy-class-12-notes) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

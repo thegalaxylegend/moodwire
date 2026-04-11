@@ -12,9 +12,6 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 
 *Last Updated: 2026-04-03*
 
-
-
-
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -26,18 +23,17 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 - [📝 Practice MCQs](#-practice-mcqs)
 - [📚 Related Topics](#-related-topics)
 
-
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Mendel's Law of Segregation:** $$\frac{1}{2}$$ of the gametes will have one allele and the other $$\frac{1}{2}$$ will have the other allele — where the allele is a variant of a gene. 
+- **Mendel's Law of Segregation:** \frac{1}{2} of the gametes will have one allele and the other \frac{1}{2} will have the other allele — where the allele is a variant of a gene. 
 
-- **Mendel's Law of Independent Assortment:** $$\frac{1}{4}AB$$, $$\frac{1}{4}Ab$$, $$\frac{1}{4}aB$$, $$\frac{1}{4}ab$$ — where $$A$$ and $$a$$ are alleles of one gene, and $$B$$ and $$b$$ are alleles of another gene.
+- **Mendel's Law of Independent Assortment:** \frac{1}{4}AB, \frac{1}{4}Ab, \frac{1}{4}aB, \frac{1}{4}ab — where A and a are alleles of one gene, and B and b are alleles of another gene.
 
-- **Hardy-Weinberg Principle:** $$p^2 + 2pq + q^2 = 1$$ — where $$p$$ is the frequency of one allele, $$q$$ is the frequency of the other allele, $$p^2$$ is the frequency of the $$AA$$ genotype, $$2pq$$ is the frequency of the $$Aa$$ genotype, and $$q^2$$ is the frequency of the $$aa$$ genotype.
+- **Hardy-Weinberg Principle:** p^2 + 2pq + q^2 = 1 — where p is the frequency of one allele, q is the frequency of the other allele, p^2 is the frequency of the AA genotype, 2pq is the frequency of the Aa genotype, and q^2 is the frequency of the aa genotype.
 
-- **Chi-Squared Test:** $$\chi^2 = \sum \frac{(observed - expected)^2}{expected}$$ — where $$\chi^2$$ is the chi-squared statistic, $$observed$$ is the observed frequency, and $$expected$$ is the expected frequency.
+- **Chi-Squared Test:** \chi^2 = \sum \frac{(observed - expected)^2}{expected} — where \chi^2 is the chi-squared statistic, observed is the observed frequency, and expected is the expected frequency.
 
-- **Linkage and Recombination Frequency:** $$RF = \frac{number\ of\ recombinants}{total\ number\ of\ offspring}$$ — where $$RF$$ is the recombination frequency.
+- **Linkage and Recombination Frequency:** RF = \frac{number\ of\ recombinants}{total\ number\ of\ offspring} — where RF is the recombination frequency.
 
 - **Sutton's Law of Incomplete Dominance:** No specific formula, but it states that one allele does not completely dominance the other, resulting in a blending of traits.
 
@@ -45,15 +41,13 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 
 - **Lethal Genes and Semilethals:** No specific formula, but they are genes that cause the death of an organism if an individual is homozygous recessive for the gene.
 
-- **Multiple Alleles:** $$\frac{n!}{n_1!n_2!...n_k!}$$ — where $$n$$ is the total number of alleles and $$n_1, n_2, ... n_k$$ are the number of each type of allele.
+- **Multiple Alleles:** \frac{n!}{n_1!n_2!...n_k!} — where n is the total number of alleles and n_1, n_2, ... n_k are the number of each type of allele.
 
-- **Punnett Square Probability:** $$\frac{number\ of\ favorable\ outcomes}{total\ number\ of\ possible\ outcomes}$$ — where the probability of an event is calculated by dividing the number of favorable outcomes by the total number of possible outcomes.
+- **Punnett Square Probability:** \frac{number\ of\ favorable\ outcomes}{total\ number\ of\ possible\ outcomes} — where the probability of an event is calculated by dividing the number of favorable outcomes by the total number of possible outcomes.
 
-- **Gene Frequency:** $$p = \frac{2N_A + N_{Aa}}{2N}$$ — where $$p$$ is the frequency of allele $$A$$, $$N_A$$ is the number of individuals with genotype $$AA$$, $$N_{Aa}$$ is the number of individuals with genotype $$Aa$$, and $$N$$ is the total number of individuals in the population.
+- **Gene Frequency:** p = \frac{2N_A + N_{Aa}}{2N} — where p is the frequency of allele A, N_A is the number of individuals with genotype AA, N_{Aa} is the number of individuals with genotype Aa, and N is the total number of individuals in the population.
 
-- **Genotype Frequency:** $$P(AA) = p^2$$, $$P(Aa) = 2pq$$, $$P(aa) = q^2$$ — where $$p$$ is the frequency of allele $$A$$ and $$q$$ is the frequency of allele $$a$$,
-
-
+- **Genotype Frequency:** P(AA) = p^2, P(Aa) = 2pq, P(aa) = q^2 — where p is the frequency of allele A and q is the frequency of allele a,
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -87,8 +81,6 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 
  - *Fix:* Understand that $\Delta$ represents a change in the DNA sequence and recognize its implications on gene function and protein structure.
 
-
-
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 - **Q1:** What is the distance between two consecutive nucleosomes in a eukaryotic chromosome?
@@ -99,15 +91,15 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 
  The distance between two consecutive nucleosomes is given by the length of the linker DNA, which is approximately $20$ to $80$ base pairs. 
 
- $$\text{Distance} = \text{Length of linker DNA} + \text{Length of DNA in a nucleosome}= 20 \text{ to } 80 \text{ bp} + 7 \times 20 \text{ bp (for the 7 turns of DNA around the histone)}$$
+ \text{Distance} = \text{Length of linker DNA} + \text{Length of DNA in a nucleosome}= 20 \text{ to } 80 \text{ bp} + 7 \times 20 \text{ bp (for the 7 turns of DNA around the histone)}
 
  Considering the average length of linker DNA as $50$ bp, 
 
- $$\text{Distance} = 50 \text{ bp} + 140 \text{ bp} = 190 \text{ bp}$$
+ \text{Distance} = 50 \text{ bp} + 140 \text{ bp} = 190 \text{ bp}
 
  Given that $1$ bp $= 0.34$ nm, 
 
- $$\text{Distance} = 190 \times 0.34 = 64.6 \text{ nm}$$
+ \text{Distance} = 190 \times 0.34 = 64.6 \text{ nm}
 
  - **Answer:** $64.6$ nm
 
@@ -119,11 +111,11 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 
  The lac operon is a negatively regulated operon. In the absence of lactose, 
 
- $$\text{Lactose} + \text{lac permease} \rightarrow \text{Lactose-lac permease complex}$$
+ \text{Lactose} + \text{lac permease} \rightarrow \text{Lactose-lac permease complex}
 
  The lac repressor binds to the operator region, preventing RNA polymerase from transcribing the lac genes. 
 
- $$\text{Lac repressor} + \text{Operator} \rightarrow \text{Lac repressor-Operator complex}$$
+ \text{Lac repressor} + \text{Operator} \rightarrow \text{Lac repressor-Operator complex}
 
  Therefore, in the absence of lactose, the lac genes are not transcribed.
 
@@ -139,7 +131,7 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 
  The possible genotypes of the offspring are:
 
- $$\begin{array}{c|c|c}
+ \begin{array}{c|c|c}
 
  & C & c \hline
 
@@ -147,13 +139,11 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 
  c & Cc & cc \hline
 
- \end{array}$$
+ \end{array}
 
  The probability of the child having cystic fibrosis ($cc$) is $\frac{1}{4}$.
 
  - **Answer:** $25\%$
-
-
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
@@ -161,7 +151,7 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 
  - **What 85% scorers do:** They often memorize the basic structure and function of the lac operon without fully understanding the underlying molecular mechanisms. They may be able to describe the basic components of the lac operon, such as the promoter, operator, and structural genes, but struggle to explain how the system is regulated in response to lactose. They may also have difficulty applying this knowledge to predict the outcomes of different mutations or experimental conditions.
 
- - **What 95% scorers do:** They have a deep understanding of the molecular mechanisms that regulate the lac operon, including the binding of the lac repressor protein to the operator region, the role of CAP (catabolite activator protein) in enhancing transcription, and the effects of different mutations on the system. They can apply this knowledge to predict the outcomes of different experimental conditions, such as the effects of inducers or repressors on lac operon activity. For example, they can explain how the addition of allolactose, a lactose metabolite, binds to the lac repressor protein and causes a conformational change that releases the repressor from the operator region, allowing transcription to occur: $$\Delta G = \Delta G^0 + RT \ln(Q)$$ where $\Delta G$ is the change in free energy, $\Delta G^0$ is the standard free energy change, $R$ is the gas constant, $T$ is the temperature in Kelvin, and $Q$ is the reaction quotient. They can also analyze the effects of different mutations, such as a mutation in the lac repressor gene that prevents it from binding to the operator region, or a mutation in the promoter region that affects the binding of RNA polymerase.
+ - **What 95% scorers do:** They have a deep understanding of the molecular mechanisms that regulate the lac operon, including the binding of the lac repressor protein to the operator region, the role of CAP (catabolite activator protein) in enhancing transcription, and the effects of different mutations on the system. They can apply this knowledge to predict the outcomes of different experimental conditions, such as the effects of inducers or repressors on lac operon activity. For example, they can explain how the addition of allolactose, a lactose metabolite, binds to the lac repressor protein and causes a conformational change that releases the repressor from the operator region, allowing transcription to occur: \Delta G = \Delta G^0 + RT \ln(Q) where $\Delta G$ is the change in free energy, $\Delta G^0$ is the standard free energy change, $R$ is the gas constant, $T$ is the temperature in Kelvin, and $Q$ is the reaction quotient. They can also analyze the effects of different mutations, such as a mutation in the lac repressor gene that prevents it from binding to the operator region, or a mutation in the promoter region that affects the binding of RNA polymerase.
 
 | Component | Function | Regulation |
 | --- | --- | --- |
@@ -169,11 +159,9 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 | CAP (catabolite activator protein) | Enhances transcription by binding to promoter region | Activated by cAMP |
 | RNA polymerase | Transcribes structural genes | Bound to promoter region |
 
-
-
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-👁️ Ayush's Note, - **The Hidden Pattern:** While studying the Molecular Basis of Inheritance, I noticed that for every 5 questions on DNA structure and replication, there are 3 questions on gene expression and regulation, and 2 questions on the lac operon and related concepts., - **How to Apply It:** Focus on understanding the $\\Delta G$ equation for DNA replication and transcription: $\\Delta G = \\Delta H - T\\Delta S$. Also, learn to derive the $K_m$ and $V_max$ equations for enzyme kinetics: $$K_m = \\frack_2 + k_3k_1$$ and $$V_max = k_3E_0$$, where $E_0$ is the initial enzyme concentration., - **Key Concepts:** Be thorough with the following concepts and be able to apply them in different scenarios: , - DNA structure and replication: Know the differences between $A$, $B$, and $Z$ DNA, and be able to calculate the $T_m$ of a given DNA sequence using the formula: $T_m = \\frac\\Delta H\\Delta S$, - Gene expression and regulation: Learn the $\\lambda$ phage life cycle and understand how the $\\lambda$ repressor binds to the operator region to regulate gene expression: $$K_d = \\fracRORO$$, where $K_d$ is the dissociation constant., - Lac operon: Focus on understanding the role of the $lac$ repressor, $\\beta$-galactosidase, and lactose in the regulation of the lac operon: $LacZ$ encodes $\\beta$-galactosidase, $LacY$ encodes $\\beta$-galactoside permease, and $LacA$ encodes thiogalactoside transacetylase, - **Previous Year Questions:** Familiarize yourself with the pattern of PYQs and practice solving them: 2019 - 5 questions on DNA replication, 3 questions on gene expression, and 2 questions on the lac operon; 2020 - 4 questions on DNA structure, 4 questions on gene regulation, and 1 question on the lac operon, - **Important Equations:** Make sure to remember and be able to apply the following equations: $pH = -\\log_10H^+$, $pOH = -\\log_10OH^-$, and the $Hill$ equation for cooperative binding: $$\\fracYY_max = \\fracL^nK_d + L^n$$, where $Y$ is the fractional saturation, $Y_max$ is the maximum saturation, $L$ is the ligand concentration, $K_d$ is the dissociation constant, and $n$ is the Hill coefficient , Topic, Number of Questions, Weightage , DNA Structure and Replication, 5, 25% , Gene Expression and Regulation, 3, 15% , Lac Operon, 2, 10%
+👁️ Ayush's Note, - **The Hidden Pattern:** While studying the Molecular Basis of Inheritance, I noticed that for every 5 questions on DNA structure and replication, there are 3 questions on gene expression and regulation, and 2 questions on the lac operon and related concepts., - **How to Apply It:** Focus on understanding the $\\Delta G$ equation for DNA replication and transcription: $\\Delta G = \\Delta H - T\\Delta S$. Also, learn to derive the $K_m$ and $V_max$ equations for enzyme kinetics: K_m = \\frack_2 + k_3k_1 and V_max = k_3E_0, where $E_0$ is the initial enzyme concentration., - **Key Concepts:** Be thorough with the following concepts and be able to apply them in different scenarios: , - DNA structure and replication: Know the differences between $A$, $B$, and $Z$ DNA, and be able to calculate the $T_m$ of a given DNA sequence using the formula: $T_m = \\frac\\Delta H\\Delta S$, - Gene expression and regulation: Learn the $\\lambda$ phage life cycle and understand how the $\\lambda$ repressor binds to the operator region to regulate gene expression: K_d = \\fracRORO, where $K_d$ is the dissociation constant., - Lac operon: Focus on understanding the role of the $lac$ repressor, $\\beta$-galactosidase, and lactose in the regulation of the lac operon: $LacZ$ encodes $\\beta$-galactosidase, $LacY$ encodes $\\beta$-galactoside permease, and $LacA$ encodes thiogalactoside transacetylase, - **Previous Year Questions:** Familiarize yourself with the pattern of PYQs and practice solving them: 2019 - 5 questions on DNA replication, 3 questions on gene expression, and 2 questions on the lac operon; 2020 - 4 questions on DNA structure, 4 questions on gene regulation, and 1 question on the lac operon, - **Important Equations:** Make sure to remember and be able to apply the following equations: $pH = -\\log_10H^+$, $pOH = -\\log_10OH^-$, and the $Hill$ equation for cooperative binding: \\fracYY_max = \\fracL^nK_d + L^n, where $Y$ is the fractional saturation, $Y_max$ is the maximum saturation, $L$ is the ligand concentration, $K_d$ is the dissociation constant, and $n$ is the Hill coefficient , Topic, Number of Questions, Weightage , DNA Structure and Replication, 5, 25% , Gene Expression and Regulation, 3, 15% , Lac Operon, 2, 10%
 
 | Topic | Number of Questions | Weightage |
 | --- | --- | --- |
@@ -181,15 +169,13 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 | Gene Expression and Regulation | 3 | 15% |
 | Lac Operon | 2 | 10% |
 
-
-
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 - $p \	imes q$ represents the probability of getting the recessive allele in a monohybrid cross.
 
  - $2pq$ gives the frequency of the heterozygous genotype in a population.
 
- - $$\\frac{p^2 + q^2 + 2pq}{(p + q)^2} = 1$$ is the Hardy-Weinberg principle equation for the sum of genotypic frequencies.
+ - \\frac{p^2 + q^2 + 2pq}{(p + q)^2} = 1 is the Hardy-Weinberg principle equation for the sum of genotypic frequencies.
 
  - $p + q = 1$ is the equation for the sum of allelic frequencies in a population.
 
@@ -209,10 +195,7 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 
  - Not understanding the difference between genotypic and allelic frequencies in the Hardy-Weinberg principle.
 
-
-
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
-
 
 **1. What is the function of the enzyme helicase during DNA replication?**
 
@@ -267,8 +250,6 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 
 **Answer:** B) The lac operator is a DNA sequence that binds to the lac repressor protein, preventing the transcription of the lac genes.
 
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -280,7 +261,6 @@ Continue your revision with these related guides:
 - 📖 [Reproduction in Organisms Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/reproduction-in-organisms-class-12-notes)
 - 📖 [Reproductive Health Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/reproductive-health-class-12-notes)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
@@ -288,7 +268,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

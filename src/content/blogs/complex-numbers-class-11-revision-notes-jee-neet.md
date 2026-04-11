@@ -12,9 +12,6 @@ practice_link: "/class-11/physics/complex-numbers-class-11-revision-notes-jee-ne
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Complex Numbers Revision Notes?](#what-is-complex-numbers-revision-notes)
@@ -29,18 +26,11 @@ practice_link: "/class-11/physics/complex-numbers-class-11-revision-notes-jee-ne
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-complex-numbers-revision-notes"></a>What is Complex Numbers Revision Notes?
 
 # Complex Numbers Revision Notes
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -54,16 +44,12 @@ practice_link: "/class-11/physics/complex-numbers-class-11-revision-notes-jee-ne
 
 ---
 
-
 ## <a id="introduction"></a>Introduction
 
 **Complex Numbers expand the real number system by introducing the imaginary unit 'i', enabling the solution of all quadratic equations. Master the Argand [plane](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet), modulus, conjugate, and polar representation to solve advanced electrical engineering and rotation problems. This Class 11 Math Chapter 5 summary provides the essential tools for JEE and Board exam success.**
 The real number system is not enough to solve all mathematical problems.
 
 ---
-
-
-
 
 ## <a id="1-the-imaginary-unit-i"></a>1. The Imaginary Unit (i)
 
@@ -77,9 +63,6 @@ The symbol **i** was introduced by Euler to solve square roots of negative numbe
 
 ---
 
-
-
-
 ## <a id="2-algebra-of-complex-numbers"></a>2. Algebra of Complex Numbers
 
 1.  **Addition:** (a + ib) + (c + id) = (a + c) + i(b + d).
@@ -88,9 +71,6 @@ The symbol **i** was introduced by Euler to solve square roots of negative numbe
 4.  **Division:** (a + ib) / (c + id) = Multiply numerator and denominator by the conjugate (c - id).
 
 ---
-
-
-
 
 ## <a id="3-modulus-and-conjugate"></a>3. Modulus and Conjugate
 
@@ -103,9 +83,6 @@ The symbol **i** was introduced by Euler to solve square roots of negative numbe
 
 ---
 
-
-
-
 ## <a id="4-the-argand-plane-and-polar-representation"></a>4. The Argand Plane and Polar Representation
 
 A complex number z = a + ib can be represented as a point (a, b) in a [plane](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) called the **Argand Plane**.
@@ -115,9 +92,6 @@ A complex number z = a + ib can be represented as a point (a, b) in a [plane](/b
 
 ---
 
-
-
-
 ## <a id="5-quadratic-equations-with-complex-roots"></a>5. Quadratic Equations with Complex Roots
 
 In earlier classes, we said D < 0 means "No real roots." Now, we find complex roots.
@@ -126,9 +100,6 @@ In earlier classes, we said D < 0 means "No real roots." Now, we find complex ro
     **x = [-b ± i√(4ac - b²)] / 2a**.
 
 ---
-
-
-
 
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
@@ -153,17 +124,11 @@ In earlier classes, we said D < 0 means "No real roots." Now, we find complex ro
 
 ---
 
-
-
-
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 3: [trigonometric](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) Functions**
 - **Chapter 6: [linear](/blog/linear-inequalities-class-11-revision-notes-jee-neet) Inequalities**
 - [**External Reference:** [NCERT Class 11 Math Chapter 5](https://ncert.nic.in/textbook.php?kemh1=5-16) (Authoritative Source)]
-
-
-
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -173,16 +138,6 @@ Complex numbers expand your mathematical toolkit to include rotation and two-dim
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 
@@ -195,15 +150,10 @@ Continue your [revision](/blog/motion-in-a-plane-class-11-revision-notes-jee-nee
 - 📖 [Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
 - 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/complex-numbers-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

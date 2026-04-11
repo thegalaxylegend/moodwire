@@ -12,9 +12,6 @@ practice_link: "/class-11/chemistry/chemistry-in-everyday-life-class-12-notes"
 
 *Last Updated: 2026-03-30*
 
-
-
-
 ## 📋 Table of Contents
 
 - [🎯 What WILL Come in Your Exam](#-what-will-come-in-your-exam)
@@ -22,26 +19,11 @@ practice_link: "/class-11/chemistry/chemistry-in-everyday-life-class-12-notes"
   - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
 - [📚 Related Topics](#-related-topics)
 
-
 </div>
-
-
-
 
 <div [class](/blog/coordination-compounds-class-12-notes)="quick-summary">
 
 #- [📋 Table of Contents](#-table-of-contents)
-
-
-
-
-
-
-
-
-
-
-
 
 ## <a id="-what-will-come-in-your-exam"></a>🎯 What WILL Come in Your Exam
 * 1-2 marks question on classification of drugs: always asks for type of drug (e.g. analgesic, antacid, etc.) or classification of a specific drug
@@ -60,7 +42,6 @@ practice_link: "/class-11/chemistry/chemistry-in-everyday-life-class-12-notes"
 * 2 marks question on the importance of $pH$ in everyday life (e.g. $pH$ of soil, $pH$ of blood, etc.)
 * 1 numerical on $\\frac{K_{w}}{K_{a}}$ or $\\frac{K_{w}}{K_{b}}$ — always
 * Medicinal application of coordination compounds: 2 marks question on the use of coordination compounds in medicine (e.g. $cis$-platin, etc.)
-
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
@@ -88,10 +69,8 @@ $pK_{a} = -\log_{10}[H^{+}]$ : Acid dissociation constant,
  $E_{cell} = E^{\circ}_{cell} - \frac{0.0591}{n}\log_{10}Q$ : Nernst equation for cell potential calculation, 
  $\log_{10}K = \frac{\Delta H^{\circ}}{2.303R}\left(\frac{1}{T_{2}} - \frac{1}{T_{1}}\right)$ : Van 't Hoff equation for temperature dependence of equilibrium constant,
 
-
 | Formula | Description |
 |
-
 
 ---
 
@@ -100,7 +79,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 
@@ -113,15 +91,10 @@ Continue your revision with these related guides:
 - 📖 [Inverse Trigonometric Functions Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/inverse-trigonometric-functions-class-12-notes)
 - 📖 [Matrices Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/matrices-class-12-notes)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/chemistry-in-everyday-life-class-12-notes) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

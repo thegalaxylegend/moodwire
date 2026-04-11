@@ -12,9 +12,6 @@ practice_link: "/class-11/biology/transport-in-plants-class-11-revision-notes-ne
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Transport In Plants?](#what-is-transport-in-plants)
@@ -30,17 +27,11 @@ practice_link: "/class-11/biology/transport-in-plants-class-11-revision-notes-ne
   - [Last Updated Date](#last-updated-date)
 - [📚 Related Topics](#-related-topics)
 
-
 # Transport In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-transport-in-plants"></a>What is Transport In Plants?
 
 # Transport In Plants Class 11 Notes
-
 
 ### <a id="transport-in-plants-class-11-notes"></a>Transport in Plants Class 11 Notes
 #### Quick Recall Box
@@ -65,7 +56,7 @@ Transport in plants is the process by which plants move water, minerals, and sug
 Transport in [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) is crucial for plant survival. In the 2026 CBSE Class 11 Biology exam, 4 questions were asked from this topic, with a total of 12 marks. This highlights the importance of understanding transport in [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) for students preparing for the CBSE Class 11 Biology exam.
 ### <a id="ayushs-note"></a>Ayush's Note
 <div [class](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)="callout-box">
-I still remember the mistake I made in my Class 11 Biology exam. I confused the terms "osmosis" and "diffusion". I thought they were the same thing, but they're not. Osmosis is the movement of water molecules from a region of high concentration to a region of low concentration through a partially permeable membrane, while diffusion is the movement of particles from a region of high concentration to a region of low concentration. I learned from my mistake and made sure to understand the difference between these two processes. Now, I can confidently say that I understand transport in plants.
+I still remember the mistake I made in my Class 11 Biology exam. I confused the terms "osmosis" and "diffusion". I thought they were the same thing, but they're not. Osmosis is the movement of water molecules from a region of high concentration to a region of low concentration through a partially permeable membrane, while diffusion is the movement of particles from a region of high concentration to a region of low concentration. I learned from my mistake and made sure to understand the difference between these two processes. Now, I can confidently say that I understand transport in [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet).
 </div>
 ### <a id="core-concepts"></a>Core Concepts
 Transport in plants involves the movement of water, minerals, and sugars throughout the plant. There are two main types of transport in plants: passive and active transport. Passive transport includes diffusion, osmosis, and transpiration, while active transport involves the use of energy to move substances against their concentration gradient.
@@ -131,16 +122,6 @@ Last Updated: March 16, 2026
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
@@ -151,15 +132,10 @@ Continue your revision with these related guides:
 - 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)
 - 📖 [Respiration In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/respiration-in-plants-class-11-revision-notes-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/transport-in-plants-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

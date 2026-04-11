@@ -12,9 +12,6 @@ practice_link: "/class-11/chemistry/sets-class-11-revision-notes-jee-neet"
 
 *Last Updated: 2026-03-28*
 
-
-
-
 ## 📋 Table of Contents
 
 - [What is Sets Revision Notes?](#what-is-sets-revision-notes)
@@ -33,18 +30,11 @@ practice_link: "/class-11/chemistry/sets-class-11-revision-notes-jee-neet"
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
 
-
 # Sets Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide
-
-
-
-
 
 ## <a id="what-is-sets-revision-notes"></a>What is Sets Revision Notes?
 
 # Sets Revision Notes
-
-
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
@@ -60,16 +50,12 @@ practice_link: "/class-11/chemistry/sets-class-11-revision-notes-jee-neet"
 
 ---
 
-
 ## <a id="introduction"></a>Introduction
 
 **Set theory is the fundamental framework of modern mathematics, providing the language to define collections, functions, and logic. Master the concepts of well-defined collections, subsets, and power sets to build a strong foundation for Calculus and Probability. This guide covers all essential [class](/blog/mathematical-induction-class-11-revision-notes-jee-neet) 11 Math Chapter 1 formulas and operations for JEE/CBSE exams.**
 Set theory is the foundation of modern mathematics. Developed by Georg Cantor, it provides the language and framework for almost every mathematical structure, from functions and [relations](/blog/relations-functions-class-11-revision-notes-jee-neet) to probability and topology. 
 
 ---
-
-
-
 
 ## <a id="1-representation-of-sets"></a>1. Representation of Sets
 
@@ -83,9 +69,6 @@ A set is usually denoted by capital letters (A, B, C...) and its elements by sma
 
 ---
 
-
-
-
 ## <a id="2-types-of-sets"></a>2. Types of Sets
 
 1.  **Empty Set (Null Set):** A set which does not contain any element. Denoted by Φ or { }.
@@ -94,9 +77,6 @@ A set is usually denoted by capital letters (A, B, C...) and its elements by sma
 4.  **Equivalent Sets:** Two finite sets A and B are equivalent if their cardinal [numbers](/blog/complex-numbers-class-11-revision-notes-jee-neet) are same (n(A) = n(B)).
 
 ---
-
-
-
 
 ## <a id="3-subsets-and-power-sets"></a>3. Subsets and Power Sets
 
@@ -111,9 +91,6 @@ The collection of all subsets of a set A is called the power set of A, denoted b
 
 ---
 
-
-
-
 ## <a id="4-operations-on-sets"></a>4. Operations on Sets
 
 1.  **Union of Sets (A ∪ B):** The set of all those elements which belong either to A or to B or to both.
@@ -123,9 +100,6 @@ The collection of all subsets of a set A is called the power set of A, denoted b
 5.  **Complement of a Set (A'):** Let U be the universal set. Then A' = U - A.
 
 ---
-
-
-
 
 ## <a id="5-venn-diagrams"></a>5. Venn Diagrams
 
@@ -139,9 +113,6 @@ Venn diagrams are geometric representations use to illustrate the relationships 
 *   **n(A ∪ B ∪ C) = n(A) + n(B) + n(C) - n(A ∩ B) - n(B ∩ C) - n(A ∩ C) + n(A ∩ B ∩ C)**
 
 ---
-
-
-
 
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
@@ -163,17 +134,11 @@ The set can be written as the interval **(-4, 6]**.
 
 ---
 
-
-
-
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 2: [relations](/blog/relations-functions-class-11-revision-notes-jee-neet) and Functions**
 - **Chapter 3: Trigonometric [functions](/blog/relations-functions-class-11-revision-notes-jee-neet)**
 - [**External Reference:** [NCERT Class 11 Math Chapter 1](https://ncert.nic.in/textbook.php?kemh1=1-16) (Authoritative Source)]
-
-
-
 
 ## <a id="conclusion"></a>Conclusion
 
@@ -183,16 +148,6 @@ Sets are more than just lists of [numbers](/blog/complex-numbers-class-11-revisi
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 
@@ -205,15 +160,10 @@ Continue your [revision](/blog/linear-inequalities-class-11-revision-notes-jee-n
 - 📖 [Linear Inequalities Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/linear-inequalities-class-11-revision-notes-jee-neet)
 - 📖 [Mathematical Induction Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/sets-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 
