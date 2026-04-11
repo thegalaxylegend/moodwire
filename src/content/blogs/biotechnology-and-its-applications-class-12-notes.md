@@ -12,9 +12,6 @@ practice_link: "/class-11/biology/biotechnology-and-its-applications-class-12-no
 
 *Last Updated: 2026-04-05*
 
-
-
-
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -25,7 +22,6 @@ practice_link: "/class-11/biology/biotechnology-and-its-applications-class-12-no
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
 - [📝 Practice MCQs](#-practice-MCQs)
 - [📚 Related Topics](#-related-topics)
-
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
@@ -53,7 +49,9 @@ practice_link: "/class-11/biology/biotechnology-and-its-applications-class-12-no
 
  - **Protein Purification:** \text{Purity} = \franc{\text{concentration of target protein}}{\text{total protein concentration}} — The purity of a protein is directly proportional to the concentration of the target protein and inversely proportional to the total protein concentration.
 
+ - **Gene Expression:** \text{Gene expression level} = \frac{\text{mRNA concentration}}{\text{cell density}} — The level of gene expression is directly proportional to the concentration of mRNA per cell.
 
+ - **Protein Purification:** \text{Purity} = \frac{\text{concentration of target protein}}{\text{total protein concentration}} — The purity of a protein is directly proportional to the concentration of the target protein and inversely proportional to the total protein concentration.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -162,8 +160,6 @@ harrow \	ext{Recombinant DNA}
 
  - **Answer:** Monoclonal antibodies recognize a single epitope, while polyclonal antibodies recognize multiple epitopes on an antigen.
 
-
-
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 - **The Core Concept:** Biotechnology and its Applications, specifically the concept of Recombinant DNA Technology (RDT), is a crucial aspect of the syllabus. This involves the use of $\vector{plasmids}$ as $\text{cloning vectors}$ to produce large quantities of $\text{proteins}$.
@@ -222,8 +218,6 @@ harrow \	ext{Recombinant DNA}
 | Principles of Biotechnology | $\franc{1}{3}$ | EDNA, RNA, proteins, gene expression and regulation |
 | Biotechnology Techniques | $\franc{1}{6}$ | $\text it{gel electrophoresis}$, $\text it{chromatography}$, $\text it{spectroscopy}$ |
 
-
-
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 - HE = \franc{-0.0592}{n} \log \franc{[Red]}{[Ox]}$ for calculating the reduction potential.
@@ -249,7 +243,6 @@ harrow \	ext{Recombinant DNA}
 
 
 ## <a id="-practice-MCQs"></a>📝 Practice MCQs
-
 
 **1. What is the primary function of the lac operator in the lac operon?**
 
@@ -324,8 +317,6 @@ D) Genetic engineering
 
 **Answer:** A) DNA sequencing is the process of determining the order of nucleotides in a DNA molecule, which is essential for understanding the genetic code and its applications.
 
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -337,7 +328,6 @@ Continue your revision with these related guides:
 - 📖 [Human Reproduction Class 12 Biology Revision — MEET 2026 Grandmaster Guide](/blog/human-reproduction-class-12-notes)
 - 📖 [Microbes in Human Welfare Class 12 Biology Revision — MEET 2026 Grandmaster Guide](/blog/microbes-in-human-welfare-class-12-notes)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
@@ -345,7 +335,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

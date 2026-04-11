@@ -12,9 +12,6 @@ practice_link: "/class-11/mathematics/application-of-derivatives-class-12-notes"
 
 *Last Updated: 2026-04-02*
 
-
-
-
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -25,7 +22,6 @@ practice_link: "/class-11/mathematics/application-of-derivatives-class-12-notes"
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
 - [📝 Practice MCQs](#-practice-mcqs)
 - [📚 Related Topics](#-related-topics)
-
 
 * **Tangent and Normal**: 1 numerical on finding equation of tangent and normal to a curve - always
 * **Monotonicity**: 1 question on determining intervals of increase/decrease for a given function using $\frac{dy}{dx}$ - always
@@ -44,7 +40,6 @@ practice_link: "/class-11/mathematics/application-of-derivatives-class-12-notes"
 * **Equation of Tangent to Parametric Curves**: 1 numerical on finding equation of tangent to a parametric curve - always
 * **Equation of Normal to Parametric Curves**: 1 numerical on finding equation of normal to a parametric curve - always 
 * **Tangent and Normal to Polar Curves**: 1 numerical on finding equation of tangent and normal to a polar curve - always
-
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
@@ -76,7 +71,9 @@ practice_link: "/class-11/mathematics/application-of-derivatives-class-12-notes"
 
 
 
+ - **Volume of Solid of Revolution (Disk Method):** V = \pi \int_{a}^{b} [f(x)]^2 dx — Calculates the volume of the solid formed by revolving the region about the x-axis.
 
+ - **Volume of Solid of Revolution (Shell Method):** V = 2\pi \int_{a}^{b} x \cdot f(x) dx — Alternative method for calculating volumes of solids of revolution.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -109,8 +106,6 @@ practice_link: "/class-11/mathematics/application-of-derivatives-class-12-notes"
  - *Costs:* 5-8 marks per question
 
  - *Fix:* Always evaluate $f(x)$ at the endpoints of the interval $[a,b]$ and compare these values with the critical points to correctly identify absolute extrema.
-
-
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
@@ -226,8 +221,6 @@ m = \frac{dy}{dx}\Big|_{x=1} = 3(1)^2 - 4(1) + 1 = 3 - 4 + 1 = 0
 
  - **Answer:** $y = 1$
 
-
-
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 - **The Core Concept:** The core concept that separates 85% scorers from 95% scorers in the Application of Derivatives is the **optimization of functions using derivatives**. This involves finding the maximum or minimum value of a function, which is crucial in various fields such as physics, engineering, and economics.
@@ -266,8 +259,6 @@ abla g(x)
 | Constrained optimization | Struggle with applying concepts to real-world problems | Use Lagrange multipliers and consider physical constraints |
 | Analysis of function behavior | Limited ability to analyze behavior near critical points | Use first and second derivative tests to determine global maxima or minima |
 
-
-
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
 👁️ Ayush's Note, - **The Hidden Pattern:** In the application of derivatives, a specific pattern emerges when analyzing the past 5+ years of PYQs. It is observed that the maximum and minimum values of a function are often related to the roots of its derivative, given by $\fracdydx = 0$. Furthermore, the nature of these roots (maxima or minima) can be determined by the second derivative test, which states that if $\fracd^2ydx^2 > 0$ at the root, it's a minima, and if $\fracd^2ydx^2 < 0$, it's a maxima., - **How to Apply It:** To apply this pattern, first identify the function and its derivative. Then, set the derivative equal to zero and solve for the roots. Next, apply the second derivative test to determine the nature of these roots. Additionally, it's crucial to consider the domain of the function and any points of discontinuity. For instance, given a function $y = \fracx^2 - 4x - 2$, the derivative $\fracdydx$ can be found using the quotient rule: $\fracdydx = \frac(x - 2)(2x) - (x^2 - 4)(1)(x - 2)^2$. Simplifying this yields $\fracdydx = \fracx^2 - 4x(x - 2)^2$, which can be further simplified to $\fracdydx = \fracx(x - 4)(x - 2)^2$. Setting $\fracdydx = 0$ gives the roots $x = 0$ and $x = 4$. Applying the second derivative test, $\fracd^2ydx^2 = \frac(x - 2)^2(2x - 4) - x(x - 4)(2)(x - 2)(x - 2)^4$, which simplifies to $\fracd^2ydx^2 = \frac(x - 2)(2x - 4)(x - 2) - 2x(x - 4)(x - 2)^3$. Evaluating $\fracd^2ydx^2$ at $x = 0$ and $x = 4$ determines the nature of the roots., - **Critical Points:** It's also essential to consider critical points where the derivative is undefined. These points can also be potential maxima or minima. For example, given $y = \sqrtx^2 + 1$, the derivative $\fracdydx = \fracx\sqrtx^2 + 1$ is undefined at $x = 0$ due to division by zero in the original function's domain consideration, but here it's defined. However, for $y = \sqrtx$, the derivative $\fracdydx = \frac12\sqrtx$ is undefined at $x = 0$, indicating a critical point., - **Increasing/Decreasing:** The sign of the derivative $\fracdydx$ can also indicate where the function is increasing or decreasing. If $\fracdydx > 0$, the function is increasing; if $\fracdydx < 0$, it's decreasing. This information can be used to sketch the graph of the function or to determine intervals where the function is increasing or decreasing., - **First Derivative Test:** Another method to determine the nature of critical points is the first derivative test. It states that if the derivative changes sign from positive to negative at a critical point, the point is a local maximum. If the derivative changes sign from negative to positive, the point is a local minimum. For instance, given $y = x^3 - 6x^2 + 9x + 2$, the derivative $\fracdydx = 3x^2 - 12x + 9$ can be used to find critical points by setting $\fracdydx = 0$. Solving $3x^2 - 12x + 9 = 0$ yields $x = 1$ and $x = 3$. By examining the sign of $\fracdydx$ around these points, we can determine their nature., - **Second Derivative Test for Inflection Points:** Inflection points occur where the concavity of the function changes, which can be found using the second derivative. If $\fracd^2ydx^2 = 0$ and changes sign at a point, that point is an inflection point. For example, given $y = x^4 - 6x^2$, the first derivative is $\fracdydx = 4x^3 - 12x$, and the second derivative is $\fracd^2ydx^2 = 12x^2 - 12$. Setting $\fracd^2ydx^2 = 0$ gives $12x^2 - 12 = 0$, which simplifies to $x^2 = 1$. Thus, $x = 1$ and $x = -1$ are potential inflection points. , Function, Derivative, Second Derivative, Roots of Derivative, Nature of Roots , $y = x^2$, $\fracdydx = 2x$, $\fracd^2ydx^2 = 2$, $x = 0$, Minima , $y = x^3 - 6x^2 + 9x + 2$, $\fracdydx = 3x^2 - 12x + 9$, $\fracd^2ydx^2 = 6x - 12$, $x = 1, x = 3$, Local Max/Min , $y = \sqrtx^2 + 1$, $\fracdydx = \fracx\sqrtx^2 + 1$, $\fracd^2ydx^2 = \frac1(x^2 + 1)^3/2$, -, -
@@ -277,8 +268,6 @@ abla g(x)
 | $y = x^2$ | $\frac{dy}{dx} = 2x$ | $\frac{d^2y}{dx^2} = 2$ | $x = 0$ | Minima |
 | $y = x^3 - 6x^2 + 9x + 2$ | $\frac{dy}{dx} = 3x^2 - 12x + 9$ | $\frac{d^2y}{dx^2} = 6x - 12$ | $x = 1, x = 3$ | Local Max/Min |
 | $y = \sqrt{x^2 + 1}$ | $\frac{dy}{dx} = \frac{x}{\sqrt{x^2 + 1}}$ | $\frac{d^2y}{dx^2} = \frac{1}{(x^2 + 1)^{3/2}}$ | - | - |
-
-
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
@@ -309,10 +298,7 @@ abla g(x)
 
  - Not checking if the function is differentiable at the given point before applying the derivative formulas.
 
-
-
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
-
 
 **1. What is the primary application of derivatives in functions?**
 
@@ -387,8 +373,6 @@ D) Fundamental Theorem of Calculus
 
 **Answer:** A) The Mean Value Theorem is a fundamental theorem in calculus that relates the derivative of a function to the slope of the tangent line.
 
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -400,7 +384,6 @@ Continue your revision with these related guides:
 - 📖 [Human Reproduction Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/human-reproduction-class-12-notes)
 - 📖 [Molecular Basis of Inheritance Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/molecular-basis-of-inheritance-class-12-notes)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
@@ -408,7 +391,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

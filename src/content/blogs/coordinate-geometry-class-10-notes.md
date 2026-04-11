@@ -12,7 +12,6 @@ practice_link: "/class-11/mathematics/coordinate-geometry-class-10-notes"
 
 *Last Updated: 2026-04-10*
 
-
 <div [class](/blog/introduction-to-trigonometry-class-10-notes)="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
@@ -30,8 +29,6 @@ practice_link: "/class-11/mathematics/coordinate-geometry-class-10-notes"
 
 </div>
 
-
-
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -41,7 +38,6 @@ practice_link: "/class-11/mathematics/coordinate-geometry-class-10-notes"
 - [👁️ Ayush's Note](#-ayushs-note)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
 - [📝 Practice MCQs](#-practice-mcqs)
-
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
@@ -81,8 +77,6 @@ practice_link: "/class-11/mathematics/coordinate-geometry-class-10-notes"
  - *Costs:* 4-5 marks
  - *Fix:* To convert from slope-intercept form to standard form, multiply both sides by a suitable constant to eliminate the fraction and rearrange terms. For example, the equation $y = 2x - 3$ can be rewritten as $2x - y = 3$ by subtracting $2x$ from both sides and multiplying by $-1$,
 
-
-
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 - **Q1:** The equation of the line passing through the points (1, 2) and (3, 4) is:
@@ -102,12 +96,10 @@ practice_link: "/class-11/mathematics/coordinate-geometry-class-10-notes"
  The standard form of the equation of a circle with center $(h, k)$ and radius $r$ is $(x - h)^2 + (y - k)^2 = r^2$. Substituting the values, we get $(x - 0)^2 + (y - 0)^2 = 5^2$, which simplifies to $x^2 + y^2 = 25$.
  - **Answer:** $x^2 + y^2 = 25$
 
-
-
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 - **The Core Concept:** The core concept that separates 85% scorers from 95% scorers in Coordinate Geometry is the ability to effectively apply the concept of the equation of a line in various forms, particularly the slope-intercept form $y = mx + c$, where $m$ is the slope and $c$ is the y-intercept.
- - **What 85% scorers do:** Most students who score around 85% tend to memorize the formulas for the equation of a line without fully understanding the implications of the slope and y-intercept. They can solve basic problems involving the equation of a line but often struggle with more complex applications, such as:
+ - **What 85% scorers do:** Most students who score around 85% tend to memorize the formulas for the equation of a line without fully understanding the implications of the slope and y-intercept. They can solve basic problems involving the equation of a line but often struggle with more complex [applications](/blog/applications-of-trigonometry-class-10-notes), such as:
  * Finding the equation of a line given two points
  * Determining the slope and y-intercept from a given equation
  * Applying the concept to solve word problems
@@ -125,8 +117,6 @@ practice_link: "/class-11/mathematics/coordinate-geometry-class-10-notes"
 | Slope and Y-Intercept | Struggle to find slope and y-intercept from given equation | Effectively use slope and y-intercept to solve problems |
 | Word Problems | Difficulty in applying equation of a line to real-world scenarios | Confidently apply equation of a line to solve word problems |
 
-
-
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
 - **The Hidden Pattern:** In Coordinate Geometry, a specific pattern emerges when analyzing the previous years' questions (PYQs). It is observed that the equations of circles, $x^2 + y^2 + 2gx + 2fy + c = 0$, and the equations of lines, $y = mx + c$, are frequently used to solve problems. By recognizing this pattern, students can focus on mastering these equations and their applications.,- **How to Apply It:** To apply this pattern, students should practice solving problems that involve the intersection of circles and lines, the equation of a circle passing through a given point, and the equation of a line passing through a given point. This can be achieved by using the equation of a circle, $x^2 + y^2 + 2gx + 2fy + c = 0$, and the equation of a line, $y = mx + c$. For example, the equation of a circle with center $(h, k)$ and radius $r$ is given by $(x - h)^2 + (y - k)^2 = r^2$. By using these formulas and practicing various problems, students can develop a deep understanding of Coordinate Geometry.,- **PYQ-Specific Trend:** A trend observed in PYQs is the frequent use of the distance formula, $\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$, and the section formula, $\frac{mx_2 + nx_1}{m + n}, \frac{my_2 + ny_1}{m + n}$. These formulas are used to find the distance between two points and the coordinates of a point that divides a line segment in a given ratio. By recognizing this trend, students can focus on mastering these formulas and their applications, ultimately improving their performance in the examination.,- **Additional Tip:** Another important aspect to focus on is the equation of a pair of lines, $a_1x^2 + 2h_1xy + b_1y^2 = 0$. This equation represents two lines, and by using it, students can solve problems related to the angle between two lines, the distance between two lines, and the equation of a line passing through the point of intersection of two lines. By mastering these concepts and formulas, students can confidently tackle problems in Coordinate Geometry.
@@ -137,8 +127,6 @@ practice_link: "/class-11/mathematics/coordinate-geometry-class-10-notes"
 | Line | $y = mx + c$ | Equation of a line, intersection of two lines |
 | Distance Formula | $\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$ | Distance between two points |
 | Section Formula | $\frac{mx_2 + nx_1}{m + n}, \frac{my_2 + ny_1}{m + n}$ | Coordinates of a point dividing a line segment |
-
-
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
@@ -153,10 +141,7 @@ practice_link: "/class-11/mathematics/coordinate-geometry-class-10-notes"
  - Always check the signs of the coordinates and the equation of the line or circle to avoid errors.
  - Make sure to double-check the calculations for the distance, midpoint, and slope to avoid mistakes.
 
-
-
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
-
 
 **1. The equation of the line passing through the points (1, 1) and (2, 3) is**
 A) 2x - y - 1 = 0
@@ -205,7 +190,6 @@ C) y = -2x + 3
 D) y = 3x + 2
 
 **Answer:** A) The slope-intercept form of a line is $y = mx + c$, where m is the slope and c is the y-intercept. Substituting the given values, we get $y = 2x + 3$.
-
 
 ---
 

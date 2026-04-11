@@ -12,9 +12,6 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 
 *Last Updated: 2026-04-03*
 
-
-
-
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -25,7 +22,6 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
 - [📝 Practice MCQs](#-practice-mcqs)
 - [📚 Related Topics](#-related-topics)
-
 
 - **Graphical Method**: 1 question on plotting the feasible region using [linear](/blog/pair-of-linear-equations-class-10-notes) inequalities — always
 - **Corner Point Method**: 1 numerical on finding the optimal solution using corner points of the feasible region — always
@@ -47,7 +43,6 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 - **Multiple Optimal Solutions**: 1 question on identifying and handling multiple optimal solutions in linear programming problems — always
 - **Redundant Constraints**: 1 numerical on identifying and handling redundant constraints in linear programming problems — always 
 - **Binding Constraints**: 1 question on identifying and handling binding constraints in linear programming problems — always
-
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
@@ -81,7 +76,9 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 
  - **Reduced Cost:** \bar{c}_j = c_j - \sum_{i=1}^{m} y_i a_{ij} — where $\bar{c}_j$ is the reduced cost of $x_j$, $c_j$ is the coefficient of $x_j$, $y_i$ is the dual variable for the $i^{th}$ constraint, $a_{ij}$ is the coefficient of $x_j$ in the $i^{th}$ constraint.
 
+ - **Shadow Price:** \Delta Z = \sum_{i=1}^{m} y_i \Delta b_i — where $\Delta Z$ is the change in the objective function value, $y_i$ is the dual variable for the $i^{th}$ constraint, $\Delta b_i$ is the change in the right-hand side value of the $i^{th}$ constraint.
 
+ - **Reduced Cost:** \bar{c}_j = c_j - \sum_{i=1}^{m} y_i a_{ij} — where $\bar{c}_j$ is the reduced cost of $x_j$, $c_j$ is the coefficient of $x_j$, $y_i$ is the dual variable for the $i^{th}$ constraint, $a_{ij}$ is the coefficient of $x_j$ in the $i^{th}$ constraint.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -114,8 +111,6 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
  - *Costs:* 8-10 marks
 
  - *Fix:* Double-check the calculations when using the simplex method, ensuring that each iteration correctly applies the formula $x_{j} = \frac{b_{i} - \sum_{j=1}^{n} a_{ij}x_{j}}{a_{ij}}$. Also, verify that the solution obtained satisfies all the constraints of the problem.
-
-
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
@@ -287,8 +282,6 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 
  - **Answer:** $\frac{5200}{3}$
 
-
-
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 - **The Core Concept:** The core concept that separates 85% scorers from 95% scorers in Linear Programming is the ability to efficiently solve problems using the $\Delta$-method for sensitivity analysis, specifically understanding how to calculate the range of values for which the solution remains optimal. This involves understanding how changes in the objective function coefficients ($c_j$) or the right-hand side values ($b_i$) affect the feasibility and optimality of the solution.
@@ -330,8 +323,6 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 | $y \geq 0$ | (0, 4) | 8 |
 | Intersection of $x + y \leq 4$ and $2x + y \leq 5$ | (2, 2) | 10 |
 
-
-
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 - $\Delta x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$ is not directly used, but $x = \frac{-b}{2a}$ is crucial for vertex form in Linear Programming.
@@ -360,10 +351,7 @@ abla f(x) = c$ is used to determine the direction of the objective function.
 
  - Failing to identify all vertices of the feasible region.
 
-
-
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
-
 
 **1. What is the main goal of linear programming?**
 
@@ -438,8 +426,6 @@ D) To specify the direction of optimization
 
 **Answer:** D) The objective function specifies the direction of optimization, whether it is to maximize or minimize a particular quantity.
 
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -451,7 +437,6 @@ Continue your revision with these related guides:
 - 📖 [Human Reproduction Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/human-reproduction-class-12-notes)
 - 📖 [Molecular Basis of Inheritance Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/molecular-basis-of-inheritance-class-12-notes)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
@@ -459,7 +444,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

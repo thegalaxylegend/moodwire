@@ -12,9 +12,6 @@ practice_link: "/class-11/biology/biotechnology-principles-and-processes-class-1
 
 *Last Updated: 2026-04-05*
 
-
-
-
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -25,7 +22,6 @@ practice_link: "/class-11/biology/biotechnology-principles-and-processes-class-1
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
 - [📝 Practice MCQs](#-practice-MCQs)
 - [📚 Related Topics](#-related-topics)
-
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
@@ -57,7 +53,9 @@ practice_link: "/class-11/biology/biotechnology-principles-and-processes-class-1
 
  - **Downstream Processing:** \	ext{Purity of product} = \franc{\	ext{Concentration of product}}{\	ext{Concentration of impurities}} — Purity of the product after processing.
 
+ - **Fermentation:** \	ext{Biomass yield} = \\frac{\	ext{Mass of biomass}}{\	ext{Mass of substrate consumed}} — Yield of biomass from the substrate.
 
+ - **Downstream Processing:** \	ext{Purity of product} = \\frac{\	ext{Concentration of product}}{\	ext{Concentration of impurities}} — Purity of the product after processing.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -129,8 +127,6 @@ harrow \	ext{Step 3: Extension}
 
  - **Answer:** Reverse transcriptase
 
-
-
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 - **The Core Concept:** The core concept that differentiates high scorers from the rest in Biotechnology: Principles and Processes is the understanding of **recombinant DNA technology**. This involves the use of $\	ext{restriction endonucleases}$ to cut DNA at specific sequences, and $\	ext{DNA ligase}$ to join fragments together.
@@ -189,8 +185,6 @@ harrow \	ext{Step 3: Extension}
 | OK_me | Michaelis constant | BMG/(suggestion limit reached) or (suggestion limit reached) | (suggestion limit reached) = \(suggestion limit reached){V_{max} \	(suggestion limit reached) [S]}{K_m + [S]}$ |
 | (suggestion limit reached)_{max}$ | Maximum rate | (suggestion limit reached)/L/(suggestion limit reached) or (suggestion limit reached)/(suggestion limit reached) | (suggestion limit reached) = \(suggestion limit reached){V_{max} \	(suggestion limit reached) [S]}{K_m + [S]}$ |
 
-
-
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 - HE = \franc{-RT}{nF} \ln(Q)$: Relationship between cell potential, temperature, and reaction quotient.
@@ -203,7 +197,7 @@ harrow \	ext{Step 3: Extension}
 
  - $\lambda_{max} = \franc{hc}{\Delta E}$: Relationship between wavelength of maximum absorption and energy difference.
 
- - Biotechnology involves the use of biological systems to develop new products and technologies.
+ - [biotechnology](/blog/biotechnology-and-its-applications-class-12-notes) involves the use of biological systems to develop new products and technologies.
 
  - Plasmids are small, self-replicating circular DNA molecules used as vectors in genetic engineering.
 
@@ -216,7 +210,6 @@ harrow \	ext{Step 3: Extension}
 
 
 ## <a id="-practice-MCQs"></a>📝 Practice MCQs
-
 
 **1. What is the primary function of the lac operator in the lac operon?**
 
@@ -291,8 +284,6 @@ D) To reduce mRNA stability
 
 **Answer:** B) RNA is a mechanism that represses gene expression by degrading specific mRNA molecules, thereby preventing their translation into protein.
 
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -304,7 +295,6 @@ Continue your revision with these related guides:
 - 📖 [Human Health and Disease Class 12 Biology Revision — MEET 2026 Grandmaster Guide](/blog/human-health-and-disease-class-12-notes)
 - 📖 [Human Reproduction Class 12 Biology Revision — MEET 2026 Grandmaster Guide](/blog/human-reproduction-class-12-notes)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
@@ -312,7 +302,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

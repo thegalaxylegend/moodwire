@@ -12,9 +12,6 @@ practice_link: "/class-11/biology/sexual-reproduction-in-flowering-plants-class-
 
 *Last Updated: 2026-04-03*
 
-
-
-
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -25,7 +22,6 @@ practice_link: "/class-11/biology/sexual-reproduction-in-flowering-plants-class-
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
 - [📝 Practice MCQs](#-practice-mcqs)
 - [📚 Related Topics](#-related-topics)
-
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
@@ -293,8 +289,6 @@ D) Double Fertilization
 
 **Answer:** C) Fertilization is the fusion of the male and female gametes to form a zygote.
 
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -306,7 +300,6 @@ Continue your revision with these related guides:
 - 📖 [Molecular Basis of Inheritance Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/molecular-basis-of-inheritance-class-12-notes)
 - 📖 [Principles of Inheritance and Variation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/principles-of-inheritance-and-variation-class-12-notes)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
@@ -314,7 +307,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

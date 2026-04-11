@@ -12,7 +12,6 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
 
 *Last Updated: 2026-04-09*
 
-
 <div [class](/blog/quadratic-equations-class-10-notes)="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
@@ -26,11 +25,9 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
 - Polynomial: 1 question on the use of Descartes' rule of signs to determine the number of positive and negative roots of a polynomial equation — frequently
 - Polynomial: 1 question on the use of the rational root theorem to find the rational roots of a polynomial equation — always
 - Polynomial: 1 question on the relationship between the coefficients and the roots of a cubic equation — frequently
-- Polynomial: 1 question on the use of synthetic division to divide a polynomial by a linear polynomial — frequently
+- Polynomial: 1 question on the use of synthetic division to divide a polynomial by a [linear](/blog/pair-of-linear-equations-class-10-notes) polynomial — frequently
 
 </div>
-
-
 
 ## 📋 Table of Contents
 
@@ -41,7 +38,6 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
 - [👁️ Ayush's Note](#-ayushs-note)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
 - [📝 Practice MCQs](#-practice-mcqs)
-
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
@@ -76,8 +72,6 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
  - *Costs:* 4-6 marks
  - *Fix:* Always simplify expressions like $\frac{x^2 - 4}{x + 2}$ by factoring the numerator to get $\frac{(x + 2)(x - 2)}{x + 2}$, and then cancel common factors to simplify further to $x - 2$. This step is crucial for solving equations and other applications of polynomials.
 
-
-
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 - **Q1:** If $a$ and $b$ are the roots of the quadratic equation $x^2 - 6x + 2 = 0$, then find the value of $(a^2 + b^2)$.
@@ -108,11 +102,9 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
  - Simplifying further yields $P(2) = 0$.
  - **Answer:** 0
 
-
-
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
-- **The Core Concept:** The core concept that separates high scorers from the rest in the topic of polynomials is the understanding of **remainder theorem and its applications**. This includes the ability to apply the remainder theorem to find roots, to use synthetic division for polynomial division, and to apply these concepts in solving complex polynomial equations.
+- **The Core Concept:** The core concept that separates high scorers from the rest in the topic of polynomials is the understanding of **remainder theorem and its [applications](/blog/applications-of-trigonometry-class-10-notes)**. This includes the ability to apply the remainder theorem to find roots, to use synthetic division for polynomial division, and to apply these concepts in solving complex polynomial equations.
  - **What 85% scorers do:** 
  * They can apply the remainder theorem to find the remainder when a polynomial $p(x)$ is divided by $(x - a)$.
  * They know that if $p(a) = 0$, then $(x - a)$ is a factor of $p(x)$.
@@ -134,8 +126,6 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
 | 85% Scorers | Basic application, struggles with higher degrees | Limited, especially with negative [numbers](/blog/real-numbers-class-10-notes) or non-standard divisors | Difficulty in finding all roots, especially complex or repeated ones |
 | 95% Scorers | Advanced application, mastery of theorem | Proficient, including with negative numbers and non-standard divisors | Systematic approach, combining multiple algebraic techniques |
 
-
-
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
 - **The Hidden Pattern:** polynomials, a specific pattern emerges when analyzing the roots of a quadratic equation $ax^2 + bx + c = 0$. The roots can be found using the quadratic formula: x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}. Upon closer inspection, it becomes apparent that the nature of the roots (real and distinct, real and equal, or complex) is determined by the discriminant $b^2 - 4ac$. This pattern can be extended to polynomial equations of higher degrees, where the nature of the roots is influenced by the coefficients of the polynomial.,- **How to Apply It:** To apply this pattern, first identify the coefficients of the polynomial and then analyze the discriminant to determine the nature of the roots. For instance, given a polynomial $x^3 + px^2 + qx + r = 0$, the roots can be found using Cardano's formula, which involves the discriminant $\Delta = 18pqr - 4p^3r + p^2q^2 - 4q^3 - 27r^2$. By examining the discriminant, one can infer the nature of the roots and proceed with solving the polynomial equation.,- **PYQ-Specific Trend:** Upon analyzing previous years' questions (PYQs), a trend emerges where polynomial equations with specific coefficients are used to test the candidate's understanding of the roots' nature. For examp\le, equations of the form $x^2 + px + q = 0$ with $p$ and $q$ being integers often appear, requiring the candidate to determine the nature of the roots and find the values of $p$ and $q$ that satisfy certain conditions. This trend is also visible in higher-degree polynomial equations, where the coefficients are chosen to test the candidate's ability to apply the pattern and find the roots.,- **Solving Strategy:** When faced with a polynomial equation, first identify the degree of the polynomial and then apply the relevant formula to find the roots. For quadratic equations, use the quadratic formula, while for higher-degree equations, use formulas like Cardano's formula or synthetic division. Remember to analyze the discriminant to determine the nature of the roots and proceed accordingly. With practice and patience, one can master the art of solving polynomial equations and tack\le even the most challenging problems with ease.
@@ -144,8 +134,6 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
 | --- | --- | --- |
 | Quadratic ($ax^2 + bx + c = 0$) | $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$ | $b^2 - 4ac$ |
 | Cubic ($x^3 + px^2 + qx + r = 0$) | Cardano's formula | $18pqr - 4p^3r + p^2q^2 - 4q^3 - 27r^2$ |
-
-
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
@@ -165,7 +153,6 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
 
 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
-
 
 **1. If $p(x)$ is a polynomial of degree 4, and $p(1) = 5$, $p(2) = 10$, $p(3) = 17$, $p(4) = 26$, then $p(5)$ is equal to**
 A) 37
@@ -215,7 +202,6 @@ D) $3$
 
 **Answer:** C) Given that, $f'(x) = 3ax^2 + 2bx + c = 2x + 1$. Equating the coefficients, we get, $3a = 0$, $2b = 2$, $c = 1$. Thus, $f(x) = x^2 + x + d$. Since, $x = -2$ is a point of local maxima, $f''(-2) < 0$. We have, $f''(x) = 2$. Hence, we must have $f'(x) = 0$ at $x = -2$. Thus, $f'(-2) = -4 + 1 = -3 = 0$, which is not possible. Hence, the given condition is not sufficient to determine the value of $c$
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
@@ -223,7 +209,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

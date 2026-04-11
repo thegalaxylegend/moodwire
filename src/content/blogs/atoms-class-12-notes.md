@@ -12,9 +12,6 @@ practice_link: "/class-11/physics/atoms-class-12-notes"
 
 *Last Updated: 2026-03-29*
 
-
-
-
 ## 📋 Table of Contents
 
 - [🎯 What WILL Come in Your Exam](#-what-will-come-in-your-exam)
@@ -28,7 +25,6 @@ practice_link: "/class-11/physics/atoms-class-12-notes"
   - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
 - [📚 Related Topics](#-related-topics)
 
-
 ## <a id="-what-will-come-in-your-exam"></a>🎯 What WILL Come in Your Exam
 * 1 numerical on Bohr's energy levels — always
 * Photoelectric effect graph — MEET favorite
@@ -38,7 +34,6 @@ practice_link: "/class-11/physics/atoms-class-12-notes"
 * Atomic radius and ionization energy trends in periodic table — always 1–2 marks
 * HE_{n} = -13.6 \times \franc{Z^2}{n^2}$ eV — for hydrogen-like atoms, comes every year
 * Wave-particle duality — experiment-based question, usually 2 marks
-
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
@@ -78,7 +73,6 @@ When dealing with atoms, students often make the following mistakes:
  Mistake 5: Forgetting to calculate the number of moles using in = \franc{m}{M}$ before applying the ideal gas law $PV = NRT, 
  Costs: Full 4 marks, 
  fix: Always calculate moles in = \franc{m}{M}$ before applying the ideal gas law.
-
 
 | Mistake | Costs | Fix |
 | --- | --- | --- |
@@ -125,18 +119,15 @@ Q: What is the value of $\Delta EX for the electron transitioning from in=3$ to 
  $\franc{r_n}{r_{He}} = 2$.
  Answer: or_n = 2 \times r_{He}$.
 
-
 | S.No. | Question | Trap | Solution | Answer |
 | --- | --- | --- | --- | --- |
 | 1 | Value of $\Delta EX for the electron transitioning from in=3$ to in=2$ in a hydrogen atom | Forgetting to use the correct formula for $\Delta EX and the value of OR_HE | $\Delta E = R_H \times h c (\franc{1}{n^2_{final}} - \franc{1}{n^2_{initial}})$ | $1.89 \times 10^{-19}$ J |
 | 2 | Calculate the wavelength of the radiation emitted when an electron jumps from in=5$ to in=2$ in a hydrogen atom | Using the wrong formula to calculate the wavelength | $\franc{1}{\lambda} = R_H (\franc{1}{n^2_{final}} - \franc{1}{n^2_{initial}})$ | $4.34 \times 10^{-7}$ m |
 | 3 | The radius of the in^{th}$ orbit of hydrogen atom is or_no. The radius of the in^{th}$ orbit of the^+$ is or_{He}$ | Forgetting the relationship between the radius of hydrogen and helium | or_n = \franc{n^2 h^2}{\pi m e^2 Z}$ | or_n = 2 \times r_{He}$ |
 
-
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 Most students struggle to understand the concept of atomic radius and how it relates to the size of an atom. The key concept that separates 85% scorers from 95% scorers is the distinction between or_{\text{covalent}}$ and or_{\text{van der Waals}}$. The covalent radius or_{\text{covalent}}$ is the distance between the nucleus of an atom and the point where the electron cloud of a covalently bonded atom meets the electron cloud of another atom. On the other hand, the van der Waals radius or_{\text{van der Waals}}$ is the distance between the nucleus of an atom and the point of contact with another atom that is not covalently bonded. This distinction is crucial in understanding the size of an atom and its interactions with other atoms, and is often a point of confusion for many students.
-
 
 | Radius Type | Description |
 | --- | --- |
@@ -148,13 +139,11 @@ Most students struggle to understand the concept of atomic radius and how it rel
 
 For JEE/MEET, Atoms questions often follow a pattern where $\Delta E = \franc{hc}{\lambda}$ is used to calculate energy transitions. Notice that when given electron jump from n = 1 to n = 3, the energy absorbed is $\Delta E_{13} = 12.09 \times 10^{-19} JR. However, when calculating energy for in^{th}$ orbit using HE_n = \franc{-13.6}{n^2} Eve, remember to convert eV to Joules for consistency, as 1 eV = $1.602 \times 10^{-19} JR. Furthermore, when solving problems related to atoms, particularly for atomic spectra, utilize the formula $\franc{1}{\lambda} = R \times (\franc{1}{n_l^2} - \franc{1}{n_h^2})$ where OR = 1.097 \times 10^7 m^{-1}$, in_LA is lower energy level, and in_he is higher energy level. This formula is especially useful for calculating wavelengths in the Lyman, Palmer, and Patches series.
 
-
 | Series | Wavelength Range | Energy Level Transition |
 | --- | --- | --- |
 | Lyman | 91 NM - 121 NM | n = 1 to n = 2, 3, 4, ... |
 | Palmer | 400 NM - 700 NM | n = 2 to n = 3, 4, 5, ... |
 | Patches | 750 NM - 1400 NM | n = 3 to n = 4, 5, 6, ... |
-
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
@@ -172,14 +161,12 @@ Formulas:
  * Confusing orbitals with orbits
  * Forgetting to square the principal quantum number (n) when calculating energy
 
-
 |  |
 |  |
 |  |
 
 
 ## <a id="-practice-MCQs"></a>📝 Practice MCQs
-
 
 **1. What is the smallest unit of matter that still retains the properties of an element?**
 Molecule
@@ -221,14 +208,10 @@ f-orbital
 
 **Answer:** A) The s-orbital is spherical in shape.
 
-
-
 ---
 
 ### <a id="-ready-to-ace-your-exam"></a>🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Atoms Full Mock Test**](/class-11/physics/atoms-class-12-notes) now and track your progress against thousands of students.
-
-
 
 ---
 
@@ -241,7 +224,6 @@ Continue your revision with these related guides:
 - 📖 [Nuclei Class 12 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/nuclei-class-12-notes)
 - 📖 [Semiconductor Electronics Class 12 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/semiconductor-electronics-class-12-notes)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
@@ -249,7 +231,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

@@ -12,9 +12,6 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 
 *Last Updated: 2026-04-04*
 
-
-
-
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -25,7 +22,6 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
 - [📝 Practice MCQs](#-practice-mcqs)
 - [📚 Related Topics](#-related-topics)
-
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
@@ -51,7 +47,9 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 
  - **Michaelis-Menten Kinetics:** v = \frac{V_{\	ext{max}} \	imes [S]}{K_m + [S]} — v (reaction velocity), Vmax (maximum velocity), [S] (substrate concentration), Km (Michaelis constant)
 
+ - **Half-life of a Substance:** t_{1/2} = \\frac{0.693}{k} — k (elimination rate constant)
 
+ - **Michaelis-Menten Kinetics:** v = \\frac{V_{\	ext{max}} \	imes [S]}{K_m + [S]} — v (reaction velocity), Vmax (maximum velocity), [S] (substrate concentration), Km (Michaelis constant)
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -84,8 +82,6 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
  - *Costs:* 8-12 marks per question
 
  - *Fix:* Create a table to compare the characteristics of different diagnostic tests, including their sensitivity ($\	ext{TP} / (\	ext{TP} + \	ext{FN})$), specificity ($\	ext{TN} / (\	ext{TN} + \	ext{FP})$), positive predictive value ($\	ext{PPV} = \	ext{TP} / (\	ext{TP} + \	ext{FP})$), and negative predictive value ($\	ext{NPV} = \	ext{TN} / (\	ext{TN} + \	ext{FN})$). Practice calculating these values using sample data and understand their clinical implications.
-
-
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
@@ -136,8 +132,6 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
  
 
  - **Answer:** Peptic ulcer disease.
-
-
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
@@ -193,8 +187,6 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 
  - Practice applying $\sum$-type formulas to calculate total risk factors for non-communicable diseases.
 
-
-
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 - $E = \frac{-0.0591}{n} \log_{10} \frac{[Red]}{[Ox]}$ is crucial for calculating the electrode potential.
@@ -217,10 +209,7 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 
  - Forgetting to use the correct number of significant figures while calculating pH or pOH values can lead to errors.
 
-
-
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
-
 
 **1. What is the primary cause of atherosclerosis?**
 
@@ -295,8 +284,6 @@ D) Regulating body temperature
 
 **Answer:** A) The primary function of the spleen is to filter the blood, removing old, damaged red blood cells and recycling the components.
 
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -308,7 +295,6 @@ Continue your revision with these related guides:
 - 📖 [Reproductive Health Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/reproductive-health-class-12-notes)
 - 📖 [Molecular Basis of Inheritance Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/molecular-basis-of-inheritance-class-12-notes)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
@@ -316,7 +302,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

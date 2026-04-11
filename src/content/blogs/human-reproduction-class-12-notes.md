@@ -12,9 +12,6 @@ practice_link: "/class-11/biology/human-reproduction-class-12-notes"
 
 *Last Updated: 2026-04-02*
 
-
-
-
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -193,7 +190,7 @@ practice_link: "/class-11/biology/human-reproduction-class-12-notes"
 | Human [reproduction](/blog/reproduction-in-organisms-class-12-notes) | Fertilization and Implantation | 10 |
 | Human [reproduction](/blog/reproduction-in-organisms-class-12-notes) | Pregnancy and Childbirth | 8 |
 | Human [reproduction](/blog/reproduction-in-organisms-class-12-notes) | Contraception and Infertility | 6 |
-| Human Reproduction | Sexually Transmitted Diseases | 4 |
+| Human [reproduction](/blog/reproduction-in-organisms-class-12-notes) | Sexually Transmitted Diseases | 4 |
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
@@ -292,8 +289,6 @@ D) Parturition
 
 **Answer:** A) Implantation refers to the process by which a blastocyst attaches to the uterine lining.
 
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -305,7 +300,6 @@ Continue your revision with these related guides:
 - 📖 [Molecular Basis of Inheritance Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/molecular-basis-of-inheritance-class-12-notes)
 - 📖 [Principles of Inheritance and Variation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/principles-of-inheritance-and-variation-class-12-notes)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
@@ -313,7 +307,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

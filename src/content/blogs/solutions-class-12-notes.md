@@ -12,9 +12,6 @@ practice_link: "/class-11/chemistry/solutions-class-12-notes"
 
 *Last Updated: 2026-03-29*
 
-
-
-
 ## 📋 Table of Contents
 
 - [🎯 What WILL Come in Your Exam](#-what-will-come-in-your-exam)
@@ -27,7 +24,6 @@ practice_link: "/class-11/chemistry/solutions-class-12-notes"
 - [📝 Practice MCQs](#-practice-mcqs)
   - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
 - [📚 Related Topics](#-related-topics)
-
 
 ## <a id="-what-will-come-in-your-exam"></a>🎯 What WILL Come in Your Exam
 * 1 numerical on molarity and molality — always, involving $\frac{\text{mass of solute}}{\text{mass of solvent}}$ and $\frac{\text{moles of solute}}{\text{mass of solvent in kg}}$
@@ -43,7 +39,6 @@ practice_link: "/class-11/chemistry/solutions-class-12-notes"
 * 1 question on normality and molarity relationship — involving the formula $N = \frac{M}{n}$, where $n$ is the number of replaceable $H^{+}$ or $OH^{-}$ ions
 * Numerical on $pH$ and $pOH$ calculation — always, using the formulas $pH + pOH = 14$ and $pH = -\log[H^{+}]$ 
 * Ionic equilibria — at least 1 question on common ion effect, solubility product, or buffer solutions, involving $K_{sp} = [A^{+}][B^{-}]$ and $pH = pK_{a} + \log\frac{[Salt]}{[Acid]}$
-
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
@@ -67,7 +62,6 @@ $M = \frac{w}{m}$, where $M$ is Molarity, $w$ is mass of solute, $m$ is molar ma
  $\chi = \frac{m}{M + m}$, where $\chi$ is mole fraction of solute, $m$ is molar mass of solute, $M$ is molar mass of solvent. 
  $X = \frac{w_s}{w_s + w_t}$, where $X$ is mole fraction of solute, $w_s$ is mass of solute, $w_t$ is total mass.
 
-
 | Formula | Variables | Unit |
 | --- | --- | --- |
 | $M = \frac{w}{m}$ | M: Molarity, w: mass of solute, m: molar mass of solute | M: $M$, w: $g$, m: $g/mol$ |
@@ -89,7 +83,6 @@ $M = \frac{w}{m}$, where $M$ is Molarity, $w$ is mass of solute, $m$ is molar ma
 | $\chi = \frac{n}{N + n}$ | $\chi$: mole fraction of solute, n: number of moles of solute, N: number of moles of solvent | $\chi$: $-$, n: $mol$, N: $mol$ |
 | $\chi = \frac{m}{M + m}$ | $\chi$: mole fraction of solute, m: molar mass of solute, M: molar mass of solvent | $\chi$: $-$, m: $g/mol$, M: $g/mol$ |
 | $X = \frac{w_s}{w_s + w_t}$ | X: mole fraction of solute, $w_s$: mass of solute, $w_t$: total mass | X: $-$, $w_s$: $g$, $w_t$: $g$ |
-
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -113,7 +106,6 @@ Mistake: Using $\lambda = \frac{h}{mv}$ without converting mass to kg. Many stud
  Costs: 2-3 marks. Failing to consider the effect of temperature can result in incorrect calculations, leading to a loss of marks.
  Fix: Use $P = \frac{nRT}{V}$ and consider the effect of temperature on the solubility of gases. Ensure that the values are correctly calculated and that the temperature is taken into account.
 
-
 | Mistake | Costs | Fix |
 | --- | --- | --- |
 | Using $\lambda = \frac{h}{mv}$ without converting mass to kg | Full 4 marks | Always convert grams to kg |
@@ -121,7 +113,6 @@ Mistake: Using $\lambda = \frac{h}{mv}$ without converting mass to kg. Many stud
 | Writing the expression for the freezing point depression as $\Delta T = \frac{K_f}{m}$ | 3 marks | Use $\Delta T = K_f \times m$ |
 | Forgetting to use $\Delta H_{sol} = \Delta H_{lattice} + \Delta H_{hydration}$ | Full 5 marks | Always use $\Delta H_{sol} = \Delta H_{lattice} + \Delta H_{hydration}$ |
 | Not considering the effect of temperature on the solubility of gases | 2-3 marks | Use $P = \frac{nRT}{V}$ and consider the effect of temperature |
-
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
@@ -172,7 +163,6 @@ Q: A solution of $2.44 \text{ g}$ of $mathrm{CuSO_4}$ in $100 \mathrm{ mL}$ of w
  The final temperature is $T = 15^\circ\mathrm{C} + 0.687^\circ\mathrm{C} = 15.687^\circ\mathrm{C}$. 
  Answer: $15.687^\circ\mathrm{C}$.
 
-
 | S. No. | Question | Trap in the question | Answer |
 | --- | --- | --- | --- |
 | 1 | A solution of $2.44 \text{ g}$ of $mathrm{CuSO_4}$ in $100 \mathrm{ mL}$ of water has a freezing point depression of $0.184^\circ\mathrm{C}$. What is the molality of the solution? | Students often confuse molarity and molality, and also forget to consider the van't Hoff factor for ionic compounds. | $0.153 m$ |
@@ -184,7 +174,6 @@ Q: A solution of $2.44 \text{ g}$ of $mathrm{CuSO_4}$ in $100 \mathrm{ mL}$ of w
 
 When it comes to the topic of Solutions, one crucial concept that differentiates 85% scorers from 95% scorers is the ability to accurately calculate and apply the van't Hoff factor (i) in various scenarios. The van't Hoff factor is given by the formula $i = \frac{\Delta n}{n}$, where $\Delta n$ is the change in the number of moles of particles and $n$ is the number of moles of solute. Most students struggle with applying this concept to solutes that dissociate or associate in solution, leading to incorrect calculations of colligative properties such as freezing point depression, boiling point elevation, and osmotic pressure. For instance, in the case of a strong electrolyte like $NaCl$, which completely dissociates into $Na^+$ and $Cl^-$ ions, the van't Hoff factor is $i = 2$ because one mole of $NaCl$ produces two moles of particles in solution. On the other hand, for a weak electrolyte like $CH_3COOH$, which only partially dissociates, the van't Hoff factor will be less than 2, depending on the degree of dissociation. Students who can accurately determine the van't Hoff factor for different types of solutes and apply it to calculate colligative properties are more likely to score higher. Furthermore, understanding how the van't Hoff factor relates to the degree of dissociation or association is critical. For example, the degree of dissociation ($\alpha$) of a weak electrolyte can be related to the van't Hoff factor by the equation $i = 1 - \alpha + \alpha n$, where $n$ is the number of ions produced per formula unit of the electrolyte. Mastering these concepts and being able to apply them to a variety of problems is what sets high scorers apart.
 
-
 | Type of Solute | Dissociation/Association | van't Hoff Factor (i) |
 | --- | --- | --- |
 | Strong Electrolyte (e.g., $NaCl$) | Complete Dissociation | 2 |
@@ -192,18 +181,15 @@ When it comes to the topic of Solutions, one crucial concept that differentiates
 | Nonelectrolyte (e.g., $Sugar$) | No Dissociation | 1 |
 | Colloidal Solution | Association | Less than 1 |
 
-
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
 When dealing with solutions, a pattern emerges after analyzing 5 years of PYQs. This pattern is related to the $\Delta G$ of a reaction. For a reaction to be spontaneous, $\Delta G$ must be negative. The equation for $\Delta G$ is given by $\Delta G = \Delta H - T\Delta S$, where $\Delta H$ is the enthalpy change, $T$ is the temperature in Kelvin, and $\Delta S$ is the entropy change. To maximize the score, focus on the interplay between $\Delta H$ and $\Delta S$. Note that $\Delta G = \Delta G^\circ + RT\ln(Q)$, where $\Delta G^\circ$ is the standard free energy change, $R$ is the gas constant, and $Q$ is the reaction quotient. For a reaction at equilibrium, $\Delta G = 0$, and $Q = K$, where $K$ is the equilibrium constant. This relationship can be expressed as $\Delta G^\circ = -RT\ln(K)$. To solve problems related to solutions, practice calculating $\Delta G$ for various reactions and determining the spontaneity of a reaction based on the sign of $\Delta G$. Also, focus on the $\Delta G^\circ$ values for common reactions and learn to apply them to solve problems. A key insight is that $\Delta G$ is a state function, meaning its value is independent of the path taken. This is crucial for solving problems involving multiple steps. For instance, if a reaction involves multiple steps, the overall $\Delta G$ can be calculated by summing the $\Delta G$ values for each step. This pattern is not explicitly mentioned in standard textbooks but is evident after analyzing PYQs. By recognizing this pattern and applying the related formulas, such as $K = \frac{[C]^c[D]^d}{[A]^a[B]^b}$ for the reaction $aA + bB \rightleftharpoons cC + dD$, you can maximize your score in the exam. Remember that $K$ is related to $\Delta G^\circ$ by the equation $\Delta G^\circ = -RT\ln(K)$. Therefore, practice solving problems that involve calculating $K$ from $\Delta G^\circ$ and vice versa.
-
 
 | Reaction | $\Delta G^\circ$ (kJ/mol) | $\Delta H^\circ$ (kJ/mol) | $\Delta S^\circ$ (J/(mol·K)) | Equilibrium Constant ($K$) |
 | --- | --- | --- | --- | --- |
 | $2H_2 + O_2 \rightleftharpoons 2H_2O$ | -474.5 | -572.0 | -156.9 | 1.3 \times 10^{83} |
 | $N_2 + 3H_2 \rightleftharpoons 2NH_3$ | -33.4 | -45.9 | -199.5 | 5.5 \times 10^5 |
 | $CaCO_3 \rightleftharpoons CaO + CO_2$ | 130.4 | 178.3 | 160.5 | 2.0 \times 10^{-6} |
-
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
@@ -233,16 +219,13 @@ Before sleeping, make sure to go through these crucial points for the topic of S
  <br/>
  Review these key points to ensure a strong grasp of the topic and maximize your score on the exam. Focus on understanding and applying these concepts to solve problems efficiently.
 
-
 | Type | Formula | Description |
 | --- | --- | --- |
 | Concentration | $c = \frac{\rho}{m}$ | Mass of solute per mass of solvent |
 | Dilution | $M_1V_1 = M_2V_2$ | Molarity and volume relationship for dilution |
 | Freezing Point Depression | $\Delta T = K_f \times m$ | Freezing point change due to solute presence |
 
-
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
-
 
 **1. What is the molality of a solution containing 18g of glucose in 1000g of water?**
 0.1m
@@ -284,14 +267,10 @@ Hypobaric
 
 **Answer:** C) When the solubility of a gas increases with an increase in pressure, it is due to the increased pressure forcing more gas molecules into the solution. This type of solution is called hyperbaric.
 
-
-
 ---
 
 ### <a id="-ready-to-ace-your-exam"></a>🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Solutions Full Mock Test**](/class-11/chemistry/solutions-class-12-notes) now and track your progress against thousands of students.
-
-
 
 ---
 
@@ -304,7 +283,6 @@ Continue your revision with these related guides:
 - 📖 [Haloalkanes and Haloarenes Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/haloalkanes-and-haloarenes-class-12-notes)
 - 📖 [Atoms Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/atoms-class-12-notes)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
@@ -312,7 +290,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

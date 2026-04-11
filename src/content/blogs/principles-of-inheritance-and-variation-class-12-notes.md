@@ -12,9 +12,6 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 
 *Last Updated: 2026-04-03*
 
-
-
-
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -25,7 +22,6 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
 - [📝 Practice MCQs](#-practice-mcqs)
 - [📚 Related Topics](#-related-topics)
-
 
 * **Mendel's Laws of [inheritance](/blog/molecular-basis-of-inheritance-class-12-notes)**: 1-2 short answer questions on the Law of Segregation and Law of Independent Assortment — always
 * **Monohybrid and Dihybrid Cross**: 1 numerical on monohybrid cross and 1 on dihybrid cross — always
@@ -43,7 +39,6 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 * **Genotype and Phenotype**: 1 short answer question on the relationship between genotype and phenotype, including the concept of expressivity and penetrance — always
 * **Quantitative Traits**: 1 short answer question on quantitative traits, including the concept of continuous variation and the role of multiple genes — always
 * **Heritability**: 1 numerical on heritability, including the calculation and interpretation of heritability estimates — always
-
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
@@ -67,7 +62,9 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 
 - **Coefficient of Inbreeding:** F = \frac{Number\ of\ common\ ancestors}{Total\ number\ of\ ancestors} — where $F$ is the coefficient of inbreeding, which measures the probability that two alleles at a locus are identical by descent.
 
+- **Chi-Squared Test for Genetic Data:** \chi^2 = \sum \frac{(Observed - Expected)^2}{Expected} — where the observed values are the actual numbers of each phenotype or genotype, and the expected values are the numbers predicted by the null hypothesis. 
 
+- **Coefficient of Inbreeding:** F = \frac{Number\ of\ common\ ancestors}{Total\ number\ of\ ancestors} — where $F$ is the coefficient of inbreeding, which measures the probability that two alleles at a locus are identical by descent.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -100,8 +97,6 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
  - *Costs:* 8-12 marks per question
 
  - *Fix:* Learn to identify the characteristics of each type of selection, including the $\Delta$-shift in the mean of a trait under directional selection, the reduction in variance under stabilizing selection, and the increase in variance under disruptive selection. Understand how each type of selection can influence the evolution of a population over time.
-
-
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
@@ -177,8 +172,6 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 
  - **Answer:** $0.18
 
-
-
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 - **The Core Concept:** The concept of **incomplete dominance** and **co-dominance** in Mendelian genetics. This concept is crucial for understanding the [principles](/blog/biotechnology-principles-and-processes-class-12-notes) of inheritance and variation.
@@ -239,7 +232,7 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 
  - Mendel's laws are used to explain the [inheritance](/blog/molecular-basis-of-inheritance-class-12-notes) patterns of traits.
 
- - Polygenic inheritance involves multiple genes controlling a single trait.
+ - Polygenic [inheritance](/blog/molecular-basis-of-inheritance-class-12-notes) involves multiple genes controlling a single trait.
 
  - Epistasis is the interaction between genes that affects the expression of a trait.
 
@@ -247,10 +240,7 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 
  - Forgetting to calculate the frequencies of alleles and genotypes can lead to mistakes in predicting offspring genotypes and phenotypes.
 
-
-
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
-
 
 **1. What is the term for the physical appearance of a trait?**
 
@@ -325,8 +315,6 @@ D) Genetic drift
 
 **Answer:** A) Pleiotropy refers to the phenomenon where a single gene affects multiple traits, resulting in multiple effects on the phenotype.
 
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -338,7 +326,6 @@ Continue your revision with these related guides:
 - 📖 [Reproduction in Organisms Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/reproduction-in-organisms-class-12-notes)
 - 📖 [Reproductive Health Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/reproductive-health-class-12-notes)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
@@ -346,7 +333,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

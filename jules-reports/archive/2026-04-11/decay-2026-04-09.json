@@ -1,0 +1,28 @@
+{
+  "date": "2026-04-09",
+  "summary": {
+    "critical": 1,
+    "warning": 0,
+    "monitor": 0
+  },
+  "results": [
+    {
+      "slug": "trigonometric-functions-class-11-revision-notes-jee-neet",
+      "url": "https://examcompass.pages.dev/blogs/trigonometric-functions-class-11-revision-notes-jee-neet",
+      "signals": [
+        "Low CTR: 0.8% on 5200 impressions → title/meta needs optimization",
+        "Orphan traffic: indexed with 5200 impressions but 0 GA4 views → possible crawl/render issue",
+        "Thin content: only 1186 words → expand with deeper explanations"
+      ],
+      "severity": "critical",
+      "metrics": {
+        "impressions": 5200,
+        "clicks": 42,
+        "ctr": 0.8,
+        "avgPosition": 0,
+        "ga4Views": 0
+      },
+      "recommended_action": "REGENERATE: Full content overhaul with deeper theory + updated meta tags"
+    }
+  ]
+}

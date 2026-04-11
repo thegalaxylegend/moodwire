@@ -12,13 +12,12 @@ practice_link: "/class-11/mathematics/quadratic-equations-class-10-notes"
 
 *Last Updated: 2026-04-09*
 
-
 <div [class](/blog/polynomials-class-10-notes)="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
 - - Quadratic [equations](/blog/pair-of-linear-equations-class-10-notes): 1 question on forming a quadratic equation from given roots — always
-- - Quadratic Equations: 1 question on solving a quadratic equation by factorization — frequently
+- - Quadratic [equations](/blog/pair-of-linear-equations-class-10-notes): 1 question on solving a quadratic equation by factorization — frequently
 - - Quadratic Equations: Relation between roots and coefficients ($\alpha + \beta = -\frac{b}{a}$, $\alpha \beta = \frac{c}{a}$) — always
 - - Quadratic Equations: 1 question on the nature of roots ([real](/blog/real-numbers-class-10-notes) and distinct, [real](/blog/real-numbers-class-10-notes) and equal, imaginary) — frequently
 - - Quadratic Equations: Quadratic formula ($x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$) — always
@@ -30,8 +29,6 @@ practice_link: "/class-11/mathematics/quadratic-equations-class-10-notes"
 
 </div>
 
-
-
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -41,7 +38,6 @@ practice_link: "/class-11/mathematics/quadratic-equations-class-10-notes"
 - [👁️ Ayush's Note](#-ayushs-note)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
 - [📝 Practice MCQs](#-practice-mcqs)
-
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
@@ -61,8 +57,6 @@ practice_link: "/class-11/mathematics/quadratic-equations-class-10-notes"
  - **Vertex Form to Standard Form Conversion:** y = a(x - h)^2 + k = ax^2 - 2ahx + ah^2 + k = ax^2 + bx + c 
  — where $b = -2ah$ and $c = ah^2 + k$.
 
-
-
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
 - **Mistake 1:** Not checking if the given equation is indeed quadratic.
@@ -80,8 +74,6 @@ practice_link: "/class-11/mathematics/quadratic-equations-class-10-notes"
  - **Mistake 5:** Failing to check the nature of the roots (real and distinct, real and equal, or complex) based on the discriminant ${b^2 - 4ac}$.
  - *Costs:* 2-4 marks
  - *Fix:* Use the discriminant ${b^2 - 4ac}$ to determine the nature of the roots. If ${b^2 - 4ac > 0}$, the roots are real and distinct. If ${b^2 - 4ac = 0}$, the roots are real and equal. If ${b^2 - 4ac < 0}$, the roots are complex.
-
-
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
@@ -142,8 +134,6 @@ x = 2 - \sqrt{3}
 
  - **Answer:** $9 - 7\sqrt{3}$
 
-
-
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 - **The Core Concept:** The core concept in quadratic equations that separates high scorers from the rest is the **discriminant**, $b^2 - 4ac$, which determines the nature of the roots of a quadratic equation $ax^2 + bx + c = 0$. 
@@ -169,13 +159,9 @@ x = 2 - \sqrt{3}
 | $b^2 - 4ac = 0$ | Real and Equal |
 | $b^2 - 4ac < 0$ | Complex and Conjugate |
 
-
-
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
 - **The Hidden Pattern:** In quadratic equations of the form $ax^2 + bx + c = 0$, where $a$, $b$, and $c$ are constants, a specific pattern emerges when analyzing the roots. This pattern is related to the discriminant, $\Delta = b^2 - 4ac$. For equations where $\Delta$ is a perfect square, the roots are often simple and easy to find. For instance, equations like $x^2 - 7x + 12 = 0$ have roots that can be found using factorization, but recognizing the pattern in $\Delta$ can simplify the process.,- **How to Apply It:** To apply this pattern, first, identify if $\Delta$ is a perfect square. If it is, then the roots of the equation can be expressed as $\frac{-b \pm \sqrt{\Delta}}{2a}$, which simplifies to $\frac{-b \pm \sqrt{m^2}}{2a}$, where $m$ is an integer. This simplification to $\frac{-b \pm m}{2a}$ can significantly ease the calculation of roots, especially in timed exams. Additionally, recognizing that the \sum of the roots equals $-\frac{b}{a}$ and the product of the roots equals $\frac{c}{a}$ can help in solving equations without directly computing the roots.,- **PYQ-Specific Trend:** A trend observed in previous years' questions (PYQs) is that quadratic equations are often used to test the understanding of relationships between roots and coefficients rather than just finding the roots. Questions may ask for the \sum or product of the roots, or they might require determining the nature of the roots based on the discriminant. Another trend is the use of quadratic equations in word problems, where the equation itself is not directly given but must be derived from the problem statement. Being able to quickly identify and apply the hidden pattern in quadratic equations can significantly improve performance in such questions.,- **Solving Strategy:** When encountering a quadratic equation in an exam, a strategic approach is to first calculate the discriminant $\Delta$ to understand the nature of the roots. If $\Delta > 0$ and is a perfect square, the roots are real and distinct, and can be easily found. If $\Delta = 0$, there is one real root. If $\Delta < 0$, the roots are complex. Recognizing these patterns and applying the appropriate formulas can streamline the solving process and reduce errors.
-
-
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
@@ -195,7 +181,6 @@ x = 2 - \sqrt{3}
 
 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
-
 
 **1. What is the nature of the roots of the quadratic equation $x^2 + 4x + 4 = 0$?**
 A) Real and distinct
@@ -245,7 +230,6 @@ C) $x = \frac{-5 \pm \sqrt{5^2 - 4(2)(3)}}{2(2)}$
 D) $x = \frac{-5 \pm \sqrt{5^2 + 4(2)(3)}}{2(2)}$
 
 **Answer:** A) Using the quadratic formula $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$, we get $x = \frac{-5 \pm \sqrt{5^2 - 4(2)(-3)}}{2(2)}$.
-
 
 ---
 

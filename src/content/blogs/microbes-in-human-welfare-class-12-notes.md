@@ -12,9 +12,6 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
 *Last Updated: 2026-04-04*
 
-
-
-
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -25,7 +22,6 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
 - [📝 Practice MCQs](#-practice-mcqs)
 - [📚 Related Topics](#-related-topics)
-
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
@@ -51,7 +47,9 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
  - **Death Phase:** \frac{dN}{dt} = -k_d N — $N$ is the number of microorganisms, $k_d$ is the death rate constant, $t$ is time.
 
+ - **Stationary Phase:** \frac{dN}{dt} = 0 — $N$ is the number of microorganisms, $t$ is time.
 
+ - **Death Phase:** \frac{dN}{dt} = -k_d N — $N$ is the number of microorganisms, $k_d$ is the death rate constant, $t$ is time.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -143,8 +141,6 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
  - **Answer:** The role of *Rhizobium* is to fix atmospheric nitrogen into a form that can be used by the legume plant.
 
-
-
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 - **The Core Concept:** The role of microbes in human welfare, specifically in the production of antibiotics, is a crucial concept. Most students misunderstand the application of $\mu$ (specific growth rate) in determining the optimal conditions for antibiotic production. 
@@ -162,8 +158,6 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 | $\mu$ (specific growth rate) | Measure of how quickly a microbe grows | Optimizing $\mu$ can maximize antibiotic yield |
 | $K_s$ (Monod constant) | Substrate concentration at which growth rate is half of $\mu_{max}$ | Influences the efficiency of substrate utilization for antibiotic production |
 | $\Delta G$ (Gibbs free energy change) | Measure of the spontaneity of a metabolic reaction | Affects the equilibrium and efficiency of metabolic reactions involved in antibiotic synthesis |
-
-
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
@@ -213,8 +207,6 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 | $Aspergillus$ | Enzyme production | Industry |
 | $Saccharomyces$ | Pigment production | Industry |
 
-
-
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 - $pH = -\log_{10}[H^+]$ 
@@ -241,10 +233,7 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
  - Overlooking that not all microorganisms are harmful to humans, many are beneficial
 
-
-
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
-
 
 **1. Which of the following microbes is used in the production of Statin, a cholesterol-lowering drug?**
 
@@ -319,8 +308,6 @@ D) Clostridium
 
 **Answer:** A) Lactobacillus is involved in the production of curd from milk.
 
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -332,7 +319,6 @@ Continue your revision with these related guides:
 - 📖 [Molecular Basis of Inheritance Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/molecular-basis-of-inheritance-class-12-notes)
 - 📖 [Principles of Inheritance and Variation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/principles-of-inheritance-and-variation-class-12-notes)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
@@ -340,7 +326,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

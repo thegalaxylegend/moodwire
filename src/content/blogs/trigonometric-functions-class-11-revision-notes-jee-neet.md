@@ -269,7 +269,6 @@ practice_link: "/class-10/revision/trigonometric-functions-class-11-revision-not
 
 **Answer:** A) The correct option is the formula for the tangent of an angle in a right-angled triangle.
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?

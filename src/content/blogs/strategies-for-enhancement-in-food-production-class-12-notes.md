@@ -12,9 +12,6 @@ practice_link: "/class-11/biology/strategies-for-enhancement-in-food-production-
 
 *Last Updated: 2026-04-04*
 
-
-
-
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -25,7 +22,6 @@ practice_link: "/class-11/biology/strategies-for-enhancement-in-food-production-
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
 - [📝 Practice MCQs](#-practice-mcqs)
 - [📚 Related Topics](#-related-topics)
-
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
@@ -296,8 +292,6 @@ D) Soil erosion
 
 **Answer:** A) Selective breeding is a strategy used in animal husbandry to improve the quality and quantity of animal products, such as milk and meat.
 
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -309,7 +303,6 @@ Continue your revision with these related guides:
 - 📖 [Microbes in Human Welfare Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/microbes-in-human-welfare-class-12-notes)
 - 📖 [Molecular Basis of Inheritance Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/molecular-basis-of-inheritance-class-12-notes)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
@@ -317,7 +310,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

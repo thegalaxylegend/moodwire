@@ -12,9 +12,6 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
 *Last Updated: 2026-04-06*
 
-
-
-
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -25,7 +22,6 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
 - [📝 Practice MCQs](#-practice-MCQs)
 - [📚 Related Topics](#-related-topics)
-
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
@@ -43,7 +39,9 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
  - **Accord Similarity Index:** DJs = \franc{C}{A+B-C} — Where JSA is the Accord similarity index, ACT is the number of species common to both samples, A is the number of species in the first sample, and BY is the number of species in the second sample.
 
+ - **Sorensen Similarity Index:** SS = \frac{2C}{A+B} — Where $SS$ is the Sorensen similarity index, $C$ is the number of species common to both samples, $A$ is the number of species in the first sample, and $B$ is the number of species in the second sample.
 
+ - **Jaccard Similarity Index:** JS = \frac{C}{A+B-C} — Where $JS$ is the Jaccard similarity index, $C$ is the number of species common to both samples, $A$ is the number of species in the first sample, and $B$ is the number of species in the second sample.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -129,8 +127,6 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
  - **Answer:** 3
 
-
-
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 - **The Core Concept:** The concept of Island Biogeography, which explains the relationship between species richness and island size. This concept is crucial in understanding biodiversity and conservation, as it helps predict the number of species that can coexist on an island.
@@ -184,8 +180,6 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 | Minimum Viable Population (MVP) | MVP size is influenced by factors such as genetic diversity, demographic stochastic, and [environmental](/blog/environmental-issues-class-12-notes) variability | Determining the MVP size is essential for developing effective conservation strategies, particularly for endangered species. |
 | Metapopulation Concept | A metapopulation consists of subpopulations that interact through migration | The metapopulation concept is vital for understanding the dynamics of species in fragmented habitats and for designing effective conservation corridors. |
 
-
-
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 - IS = \franc{N!}{(N - n)!}$, where IS is the number of species and AND is the total number of individuals.
@@ -200,7 +194,7 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
  - Key facts:
 
- - Biodiversity is the variety of different species of plants, animals, and microorganisms that live in an ecosystem or on Earth as a whole.
+ - Biodiversity is the variety of different species of plants, animals, and microorganisms that live in an [ecosystem](/blog/ecosystem-class-12-notes) or on Earth as a whole.
 
  - Conservation is the act of preserving or protecting something, especially the natural environment.
 
@@ -215,7 +209,6 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
 
 ## <a id="-practice-MCQs"></a>📝 Practice MCQs
-
 
 **1. What is the primary cause of biodiversity loss in ecosystems?**
 
@@ -290,8 +283,6 @@ D) Taxonomy
 
 **Answer:** B) Biogeography is the study of the distribution and abundance of species in an ecosystem, often focusing on the geographic patterns of species diversity.
 
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -303,7 +294,6 @@ Continue your revision with these related guides:
 - 📖 [Ecosystem Class 12 Biology Revision — MEET 2026 Grandmaster Guide](/blog/ecosystem-class-12-notes)
 - 📖 [Environmental Issues Class 12 Biology Revision — MEET 2026 Grandmaster Guide](/blog/environmental-issues-class-12-notes)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
@@ -311,7 +301,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

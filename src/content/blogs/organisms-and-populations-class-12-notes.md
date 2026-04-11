@@ -12,9 +12,6 @@ practice_link: "/class-11/biology/organisms-and-populations-class-12-notes"
 
 *Last Updated: 2026-04-05*
 
-
-
-
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -25,7 +22,6 @@ practice_link: "/class-11/biology/organisms-and-populations-class-12-notes"
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
 - [📝 Practice MCQs](#-practice-mcqs)
 - [📚 Related Topics](#-related-topics)
-
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
@@ -51,7 +47,9 @@ practice_link: "/class-11/biology/organisms-and-populations-class-12-notes"
 
  - **Death Rate:** D = \frac{\Delta N}{\Delta t} — $D$ is the death rate, $\Delta N$ is the change in population size, $\Delta t$ is the time interval.
 
+ - **Birth Rate:** B = \frac{\Delta N}{\Delta t} — $B$ is the birth rate, $\Delta N$ is the change in population size, $\Delta t$ is the time interval.
 
+ - **Death Rate:** D = \frac{\Delta N}{\Delta t} — $D$ is the death rate, $\Delta N$ is the change in population size, $\Delta t$ is the time interval.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -84,8 +82,6 @@ practice_link: "/class-11/biology/organisms-and-populations-class-12-notes"
  - *Costs:* 5-7 marks in questions related to environmental factors and [ecosystem](/blog/ecosystem-class-12-notes) function.
 
  - *Fix:* Study the effects of different environmental factors on population growth, species interactions, and [ecosystem](/blog/ecosystem-class-12-notes) function, and practice analyzing their impacts on [ecosystem](/blog/ecosystem-class-12-notes) dynamics.
-
-
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
@@ -133,8 +129,6 @@ practice_link: "/class-11/biology/organisms-and-populations-class-12-notes"
 
  - **Answer:** $R_0 = 2$
 
-
-
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 - **The Core Concept:** Understanding the concept of population growth and the factors that influence it, specifically the difference between $r$-selection and $K$-selection.
@@ -157,8 +151,6 @@ practice_link: "/class-11/biology/organisms-and-populations-class-12-notes"
 | --- | --- | --- |
 | $r$-selection | High reproductive rate, early reproduction, many offspring, little parental care | Bacteria, insects, fish |
 | $K$-selection | Low reproductive rate, late reproduction, few offspring, extensive parental care | Elephants, humans, birds |
-
-
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
@@ -193,10 +185,7 @@ practice_link: "/class-11/biology/organisms-and-populations-class-12-notes"
 
  - Confusing the intrinsic growth rate with the actual growth rate can result in incorrect calculations.
 
-
-
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
-
 
 **1. What is the primary factor that determines the population density of a species in a given area?**
 
@@ -289,9 +278,7 @@ C. Population biology
 D)
 D. Community ecology
 
-**Answer:** B) Biogeography is the study of the distribution and abundance of organisms in an environment, which helps us understand how species are distributed across the globe.
-
-
+**Answer:** B) Biogeography is the study of the distribution and abundance of [organisms](/blog/reproduction-in-organisms-class-12-notes) in an environment, which helps us understand how species are distributed across the globe.
 
 ---
 
@@ -304,7 +291,6 @@ Continue your revision with these related guides:
 - 📖 [Biotechnology: Principles and Processes Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biotechnology-principles-and-processes-class-12-notes)
 - 📖 [Human Health and Disease Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/human-health-and-disease-class-12-notes)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
@@ -312,7 +298,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

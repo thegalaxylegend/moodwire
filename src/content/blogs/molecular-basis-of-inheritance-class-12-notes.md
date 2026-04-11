@@ -12,9 +12,6 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 
 *Last Updated: 2026-04-03*
 
-
-
-
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -25,7 +22,6 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
 - [📝 Practice MCQs](#-practice-mcqs)
 - [📚 Related Topics](#-related-topics)
-
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
@@ -53,7 +49,9 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 
 - **Genotype Frequency:** P(AA) = p^2, P(Aa) = 2pq, P(aa) = q^2 — where p is the frequency of allele A and q is the frequency of allele a,
 
+- **Gene Frequency:** p = \frac{2N_A + N_{Aa}}{2N} — where p is the frequency of allele A, N_A is the number of individuals with genotype AA, N_{Aa} is the number of individuals with genotype Aa, and N is the total number of individuals in the population.
 
+- **Genotype Frequency:** P(AA) = p^2, P(Aa) = 2pq, P(aa) = q^2 — where p is the frequency of allele A and q is the frequency of allele a,
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -86,8 +84,6 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
  - *Costs:* 2-3 marks for each incorrect conclusion.
 
  - *Fix:* Understand that $\Delta$ represents a change in the DNA sequence and recognize its implications on gene function and protein structure.
-
-
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
@@ -153,8 +149,6 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 
  - **Answer:** $25\%$
 
-
-
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 - **The Core Concept:** The lac operon is a genetic regulatory system that controls the metabolism of lactose in Escherichia coli (E. coli). It consists of a promoter, an operator, and three structural genes: $lacZ$, $lacY$, and $lacA$. The lac operon is typically repressed by the lac repressor protein, which binds to the operator region, preventing RNA polymerase from transcribing the structural genes.
@@ -169,8 +163,6 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 | CAP (catabolite activator protein) | Enhances transcription by binding to promoter region | Activated by cAMP |
 | RNA polymerase | Transcribes structural genes | Bound to promoter region |
 
-
-
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
 👁️ Ayush's Note, - **The Hidden Pattern:** While studying the Molecular Basis of Inheritance, I noticed that for every 5 questions on DNA structure and replication, there are 3 questions on gene expression and regulation, and 2 questions on the lac operon and related concepts., - **How to Apply It:** Focus on understanding the $\Delta G$ equation for DNA replication and transcription: $\Delta G = \Delta H - T\Delta S$. Also, learn to derive the $K_m$ and $V_max$ equations for enzyme kinetics: K_m = \frack_2 + k_3k_1 and V_max = k_3E_0, where $E_0$ is the initial enzyme concentration., - **Key Concepts:** Be thorough with the following concepts and be able to apply them in different scenarios: , - DNA structure and replication: Know the differences between $A$, $B$, and $Z$ DNA, and be able to calculate the $T_m$ of a given DNA sequence using the formula: $T_m = \frac\Delta H\Delta S$, - Gene expression and regulation: Learn the $\lambda$ phage life cycle and understand how the $\lambda$ repressor binds to the operator region to regulate gene expression: K_d = \fracRORO, where $K_d$ is the dissociation constant., - Lac operon: Focus on understanding the role of the $lac$ repressor, $\beta$-galactosidase, and lactose in the regulation of the lac operon: $LacZ$ encodes $\beta$-galactosidase, $LacY$ encodes $\beta$-galactoside permease, and $LacA$ encodes thiogalactoside transacetylase, - **Previous Year Questions:** Familiarize yourself with the pattern of PYQs and practice solving them: 2019 - 5 questions on DNA replication, 3 questions on gene expression, and 2 questions on the lac operon; 2020 - 4 questions on DNA structure, 4 questions on gene regulation, and 1 question on the lac operon, - **Important Equations:** Make sure to remember and be able to apply the following equations: $pH = -\log_10H^+$, $pOH = -\log_10OH^-$, and the $Hill$ equation for cooperative binding: \fracYY_max = \fracL^nK_d + L^n, where $Y$ is the fractional saturation, $Y_max$ is the maximum saturation, $L$ is the ligand concentration, $K_d$ is the dissociation constant, and $n$ is the Hill coefficient , Topic, Number of Questions, Weightage , DNA Structure and Replication, 5, 25% , Gene Expression and Regulation, 3, 15% , Lac Operon, 2, 10%
@@ -180,8 +172,6 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 | DNA Structure and Replication | 5 | 25% |
 | Gene Expression and Regulation | 3 | 15% |
 | Lac Operon | 2 | 10% |
-
-
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
@@ -209,10 +199,7 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 
  - Not understanding the difference between genotypic and allelic frequencies in the Hardy-Weinberg principle.
 
-
-
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
-
 
 **1. What is the function of the enzyme helicase during DNA replication?**
 
@@ -287,8 +274,6 @@ D) To transcribe the lac DNA into RNA
 
 **Answer:** B) The lac operator is a DNA sequence that binds to the lac repressor protein, preventing the transcription of the lac genes.
 
-
-
 ---
 
 ## <a id="-related-topics"></a>📚 Related Topics
@@ -300,7 +285,6 @@ Continue your revision with these related guides:
 - 📖 [Reproduction in Organisms Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/reproduction-in-organisms-class-12-notes)
 - 📖 [Reproductive Health Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/reproductive-health-class-12-notes)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
@@ -308,7 +292,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 ---
 

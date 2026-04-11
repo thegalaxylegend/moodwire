@@ -30,8 +30,6 @@ practice_link: "/class-11/mathematics/applications-of-trigonometry-class-10-note
 
 </div>
 
-
-
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -41,7 +39,6 @@ practice_link: "/class-11/mathematics/applications-of-trigonometry-class-10-note
 - [👁️ Ayush's Note](#-Ayush-note)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
 - [📝 Practice MCQs](#-practice-MCQs)
-
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
@@ -73,7 +70,7 @@ practice_link: "/class-11/mathematics/applications-of-trigonometry-class-10-note
  - **Mistake 4:** Failing to use the correct trigonometric ratio when solving problems involving right triangles, such as using {${\sin(\theta)}$} instead of {${\cos(\theta)}$}.
  - *Costs:* 1–2 marks
  - *Fix:* Identify the known sides and angles of the triangle, and apply the appropriate trigonometric ratio, using the definitions of the ratios to guide your decision.
- - **Mistake 5:** Not checking the units of the answer when solving problems involving trigonometry, such as finding the length of a side or the measure of an angle.
+ - **Mistake 5:** Not checking the units of the answer when solving problems involving [trigonometry](/blog/introduction-to-trigonometry-class-10-notes), such as finding the length of a side or the measure of an angle.
  - *Costs:* 1 mark
  - *Fix:* Always check the units of the answer to ensure they match the context of the problem, and use unit conversions if necessary to obtain the correct units.
 
@@ -117,8 +114,6 @@ practice_link: "/class-11/mathematics/applications-of-trigonometry-class-10-note
  - Solving for (suggestion limit reached), we get (suggestion limit reached) = \(suggestion limit reached){15\(suggestion limit reached){3}}{\(suggestion limit reached){3} - 1}$.
  - **Answer:** $\(suggestion limit reached){15\(suggestion limit reached){3}}{\(suggestion limit reached){3} - 1}$ m
 
-
-
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 - **The Core Concept:** The core concept that separates 85% scorers from 95% scorers in Applications of Trigonometry is the ability to apply trigonometric ratios and principles to solve complex problems in various contexts, such as heights and distances, navigation, and physics. 
@@ -154,8 +149,6 @@ practice_link: "/class-11/mathematics/applications-of-trigonometry-class-10-note
 | --- | --- | --- |
 | Height and Distance | 20 | $\franc{2}{3}$ |
 | Other Topics | 10 | $\franc{1}{3}$ |
-
-
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
@@ -225,7 +218,6 @@ C) 15$\times (\sort{3} + 1)$ m
 D) 15$\times (\sort{3} - 1)$ m
 
 **Answer:** C) Let the height of the tower be the. Then, $\tan 45° = \franc{h}{x}$ and $\tan 60° = \franc{h}{x - 15}$. Solving, we get oh = 15(\sort{3} + 1)$ m.
-
 
 ---
 

@@ -12,7 +12,6 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
 
 *Last Updated: 2026-04-07*
 
-
 <div [class](/blog/real-numbers-class-10-notes)="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
@@ -30,8 +29,6 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
 
 </div>
 
-
-
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -41,7 +38,6 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
 - [👁️ Ayush's Note](#-ayushs-note)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
 - [📝 Practice MCQs](#-practice-mcqs)
-
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
@@ -72,8 +68,6 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
  - **Mistake 5:** Failing to recognize when an AP is not applicab\le to a given scenario, such as trying to apply AP formulas to a sequence that is not arithmetic.
  - *Costs:* 4-5 marks per question
  - *Fix:* Always verify that the sequence in question is indeed an arithmetic progression by checking that the difference between consecutive terms is constant. If the sequence is not an AP, do not attempt to use AP formulas to solve the problem.
-
-
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
@@ -285,8 +279,6 @@ S_{30} + S_{35} - S_{40} = 15(2a + 29d) + \frac{35}{2} (2a + 34d) - 20(2a + 39d)
  
  - **Answer:** $25(a + 10d)$
 
-
-
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 - **The Core Concept:** The concept of arithmetic progressions (AP) and its [application](/blog/application-of-derivatives-class-12-notes) in solving problems is a crucial topic in mathematics. One deep concept that separates 85% scorers from 95% scorers is the understanding of the relationship between the terms of an AP and the ability to apply it to complex problems. 
@@ -311,16 +303,12 @@ S_{30} + S_{35} - S_{40} = 15(2a + 29d) + \frac{35}{2} (2a + 34d) - 20(2a + 39d)
 | Infinite Geometric Series | $S = \frac{a}{1 - r}$ | Formula for the \sum of an infinite geometric series |
 | Geometric Progression | $a_n = a_1 \times r^{n-1}$ | Formula for the $n^{th}$ term of a geometric progression |
 
-
-
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
 - **The Hidden Pattern:** In Arithmetic Progressions, after analyzing 5+ years of PYQs, it's evident that the \sum of $n$ terms, $S_n = \frac{n}{2}[2a + (n-1)d]$, is often used in conjunction with the formula for the $n^{th}$ term, $a_n = a + (n-1)d$. A specific pattern emerges when the problem involves finding the \sum of terms in a progression where the first term $a$, common difference $d$, and number of terms $n$ are related through a quadratic equation, such as $a = \frac{1}{d}$ and $n = \frac{-b}{2a}$, derived from $an + \frac{1}{2}dn(n-1) = b$, which simplifies to $n^2(\frac{d}{2}) + n(a - \frac{d}{2}) - b = 0$. 
  - **How to Apply It:** To apply this pattern, first identify if the problem can be translated into a quadratic equation in terms of $n$, $a$, and $d$. Then, solve the quadratic equation $n^2(\frac{d}{2}) + n(a - \frac{d}{2}) - b = 0$ for $n$ using the quadratic formula $n = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$, where $a = \frac{d}{2}$, $b = a - \frac{d}{2}$, and $c = -b$. Subsequently, use the values of $n$, $a$, and $d$ to find the \sum $S_n$.
  - **PYQ-Specific Trend:** There's a noticeab\le trend in PYQs where problems involving arithmetic progressions often require finding the \sum of terms under specific conditions, such as when the \sum of the first $n$ terms equals the \sum of the next $m$ terms. The pattern of relating $a$, $d$, and $n$ through a quadratic equation and then applying it to find sums or other properties of the progression is a recurring theme. For instance, if $S_n = S_{n+m}$, then $\frac{n}{2}[2a + (n-1)d] = \frac{m}{2}[2(a+nd) + (m-1)d]$. This trend suggests that being proficient in manipulating these equations is crucial for solving arithmetic progression problems in the exam.
  - **Calculative Strategy:** To tack\le such problems efficiently, it's essential to have a calculative strategy in place. This involves quickly identifying the type of problem and the formulas that apply. For examp\le, if the problem asks for the $n^{th}$ term of an arithmetic progression where the \sum of the first $n$ terms is given, use $S_n = \frac{n}{2}[2a + (n-1)d]$ to express $a$ in terms of $S_n$, $n$, and $d$, and then find $a_n = a + (n-1)d$. Practice in solving these types of problems will help in recognizing the patterns and applying the formulas accurately and swiftly.
-
-
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
@@ -335,10 +323,7 @@ S_{30} + S_{35} - S_{40} = 15(2a + 29d) + \frac{35}{2} (2a + 34d) - 20(2a + 39d)
  - Common mistake: Forgetting to subtract 1 from {n} when using the formula $a_n = a_1 + (n-1)d$.
  - Common mistake: Not considering the number of terms when calculating the \sum of an AP using $S_n = \frac{n}{2} [2a_1 + (n-1)d]$.
 
-
-
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
-
 
 **1. If the \sum of the first 10 terms of an arithmetic progression is 100 and the \sum of the first 20 terms is 400, then the \sum of the first 30 terms is**
 A) 900
@@ -387,7 +372,6 @@ C) 7
 D) 9
 
 **Answer:** B) Let the first term be a and common difference be d. Then, 10a + 45d = 100 and 20a + 190d = 240. Solving these, we get a = 1, d = 1. The 16th term is a + 15d = 16.
-
 
 ---
 
