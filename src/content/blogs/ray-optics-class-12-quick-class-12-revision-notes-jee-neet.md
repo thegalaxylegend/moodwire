@@ -205,16 +205,7 @@ By reviewing these key points and practicing with MCQs, you can reinforce your u
 Now, go ahead and take the next step in your journey to mastering ray optics. Stay focused, stay committed, and you'll achieve your goals in no time.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -232,10 +223,7 @@ Continue your [revision](/blog/ancient-india-vedic-age-class-11-revision-notes-j
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 
 ---

@@ -44,27 +44,27 @@ practice_link: "/class-11/mathematics/inverse-trigonometric-functions-class-12-n
 
 
 ## <a id="-what-will-come-in-your-exam"></a>🎯 What WILL Come in Your Exam
-* 1 numerical on $\\sin^{-1}x$ and its range — always, focusing on finding the value of $\\sin^{-1}(\\frac{1}{2})$ or similar.
-* Graph of $y = \\sin^{-1}x$ — JEE favourite, including identification of its domain and range.
+* 1 numerical on $\sin^{-1}x$ and its range — always, focusing on finding the value of $\sin^{-1}(\frac{1}{2})$ or similar.
+* Graph of $y = \sin^{-1}x$ — JEE favourite, including identification of its domain and range.
 * 1 question on properties of inverse trigonometric [functions](/blog/relations-and-functions-class-11-notes), specifically:
- + $\\sin^{-1}(\\sin x) = x$ if $x \\in [\\frac{-\\pi}{2}, \\frac{\\pi}{2}]$
- + $\\cos^{-1}(\\cos x) = x$ if $x \\in [0, \\pi]$
- + $\\tan^{-1}(\\tan x) = x$ if $x \\in [\\frac{-\\pi}{2}, \\frac{\\pi}{2}]$
+ + $\sin^{-1}(\sin x) = x$ if $x \in [\frac{-\pi}{2}, \frac{\pi}{2}]$
+ + $\cos^{-1}(\cos x) = x$ if $x \in [0, \pi]$
+ + $\tan^{-1}(\tan x) = x$ if $x \in [\frac{-\pi}{2}, \frac{\pi}{2}]$
 * [derivatives](/blog/application-of-derivatives-class-12-notes) of inverse trigonometric functions — always, including:
- + $\\frac{d}{dx}(\\sin^{-1}x) = \\frac{1}{\\sqrt{1-x^2}}$
- + $\\frac{d}{dx}(\\cos^{-1}x) = \\frac{-1}{\\sqrt{1-x^2}}$
- + $\\frac{d}{dx}(\\tan^{-1}x) = \\frac{1}{1+x^2}$
+ + $\frac{d}{dx}(\sin^{-1}x) = \frac{1}{\sqrt{1-x^2}}$
+ + $\frac{d}{dx}(\cos^{-1}x) = \frac{-1}{\sqrt{1-x^2}}$
+ + $\frac{d}{dx}(\tan^{-1}x) = \frac{1}{1+x^2}$
 * 1 question on simplification of expressions involving inverse trigonometric [functions](/blog/relations-and-functions-class-11-notes), such as:
- + $\\sin^{-1}(\\sin (\\frac{\\pi}{6}))$
- + $\\cos^{-1}(\\cos (\\frac{\\pi}{4}))$
-* 1 numerical on inverse trigonometric functions as limits — always, focusing on evaluating limits of the form $\\lim_{x \\to 0} \\frac{\\sin^{-1}x}{x}$.
+ + $\sin^{-1}(\sin (\frac{\pi}{6}))$
+ + $\cos^{-1}(\cos (\frac{\pi}{4}))$
+* 1 numerical on inverse trigonometric functions as limits — always, focusing on evaluating limits of the form $\lim_{x \to 0} \frac{\sin^{-1}x}{x}$.
 * Comparison of inverse trigonometric [functions](/blog/relations-and-functions-class-11-notes) — JEE favourite, including comparison of their ranges, domains, and graphical representations.
 * 1 question on using inverse trigonometric functions to solve trigonometric equations, such as:
- + Solving $\\sin x = \\frac{1}{2}$ using $\\sin^{-1}x$
- + Solving $\\cos x = \\frac{1}{2}$ using $\\cos^{-1}x$
+ + Solving $\sin x = \frac{1}{2}$ using $\sin^{-1}x$
+ + Solving $\cos x = \frac{1}{2}$ using $\cos^{-1}x$
 * Inverse trigonometric functions in terms of logarithms — always, including expressions like:
- + $\\tan^{-1}x = \\frac{i}{2} \\ln \\frac{1+ix}{1-ix}$
- + $\\sin^{-1}x = \\frac{i}{2} \\ln(i(x+\\sqrt{1-x^2})) - \\frac{i}{2} \\ln(i(x-\\sqrt{1-x^2}))$
+ + $\tan^{-1}x = \frac{i}{2} \ln \frac{1+ix}{1-ix}$
+ + $\sin^{-1}x = \frac{i}{2} \ln(i(x+\sqrt{1-x^2})) - \frac{i}{2} \ln(i(x-\sqrt{1-x^2}))$
 
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
@@ -125,10 +125,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/inverse-trigonometric-functions-class-12-notes) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/inverse-trigonometric-functions-class-12-notes) now and track your progress against thousands of students.
 
 
 ---

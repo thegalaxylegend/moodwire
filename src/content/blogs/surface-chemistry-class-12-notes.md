@@ -63,8 +63,8 @@ practice_link: "/class-11/chemistry/surface-chemistry-class-12-notes"
 
 * **Adsorption** is a surface phenomenon where a substance (adsorbate) accumulates on the surface of another substance (adsorbent).
 * **Adsorption isotherms** describe the relationship between the amount of adsorbate and the pressure of the adsorbate at a constant temperature.
-* **Langmuir adsorption isotherm**: $$\theta = \frac{bP}{1 + bP}$$, where $\theta$ is the surface coverage, $b$ is a constant, and $P$ is the pressure of the adsorbate.
-* **Freundlich adsorption isotherm**: $$\frac{x}{m} = kP^\frac{1}{n}$$, where $x$ is the amount of adsorbate, $m$ is the mass of the adsorbent, $k$ and $n$ are constants, and $P$ is the pressure of the adsorbate.
+* **Langmuir adsorption isotherm**: \theta = \frac{bP}{1 + bP}, where $\theta$ is the surface coverage, $b$ is a constant, and $P$ is the pressure of the adsorbate.
+* **Freundlich adsorption isotherm**: \frac{x}{m} = kP^\frac{1}{n}, where $x$ is the amount of adsorbate, $m$ is the mass of the adsorbent, $k$ and $n$ are constants, and $P$ is the pressure of the adsorbate.
 * **Key characteristics of adsorption isotherms**:
  + **Reversible**: adsorption isotherms can be reversible or irreversible.
  + **Specific**: adsorption isotherms can be specific or non-specific.
@@ -92,7 +92,7 @@ practice_link: "/class-11/chemistry/surface-chemistry-class-12-notes"
 
 * **Surface tension**: the force that acts along the surface of a liquid, causing it to behave as if it has an "elastic skin" at its surface.
 * **Surface energy**: the energy associated with the surface of a substance.
-* **Relationship between surface tension and surface energy**: $$E = \gamma A$$, where $E$ is the surface energy, $\gamma$ is the surface tension, and $A$ is the surface area.
+* **Relationship between surface tension and surface energy**: E = \gamma A, where $E$ is the surface energy, $\gamma$ is the surface tension, and $A$ is the surface area.
 * **Factors that affect surface tension**:
  + Temperature
  + Presence of impurities
@@ -197,8 +197,8 @@ practice_link: "/class-11/chemistry/surface-chemistry-class-12-notes"
 
 #### 🌈 Adsorption Isotherms
 
-* **Langmuir adsorption isotherm**: $$\theta = \frac{bP}{1 + bP}$$, where $\theta$ is the surface coverage, $b$ is a constant, and $P$ is the pressure of the adsorbate.
-* **Freundlich adsorption isotherm**: $$\frac{x}{m} = kP^\frac{1}{n}$$, where $x$ is the amount of adsorbate, $m$ is the mass of the adsorbent, $k$ and $n$ are constants, and $P$ is the pressure of the adsorbate.
+* **Langmuir adsorption isotherm**: \theta = \frac{bP}{1 + bP}, where $\theta$ is the surface coverage, $b$ is a constant, and $P$ is the pressure of the adsorbate.
+* **Freundlich adsorption isotherm**: \frac{x}{m} = kP^\frac{1}{n}, where $x$ is the amount of adsorbate, $m$ is the mass of the adsorbent, $k$ and $n$ are constants, and $P$ is the pressure of the adsorbate.
 * **Factors that affect adsorption isotherms**:
  + Temperature
  + Presence of impurities
@@ -228,17 +228,17 @@ practice_link: "/class-11/chemistry/surface-chemistry-class-12-notes"
 
 ## <a id="-the-5-trap-mistakes"></a>🪤 The 5 Trap Mistakes
 
-* **Mistake 1:** Incorrectly applying the formula for the amount of adsorption, using $$\frac{x}{m}$$ instead of $$\frac{x}{m} = \frac{a}{V}$$, where $$x$$ is the mass of gas adsorbed, $$m$$ is the mass of the adsorbent, $$a$$ is the volume of the gas, and $$V$$ is the volume of the adsorbent.
-* **Mistake 2:** Not considering the effect of temperature on adsorption, using $$\frac{x}{m} = kP^\frac{1}{n}$$ instead of $$\frac{x}{m} = k(T)P^\frac{1}{n}$$, where $$k(T)$$ is the temperature-dependent constant.
-* **Mistake 3:** Not considering the effect of surface roughness on adsorption, using $$\frac{x}{m} = kP^\frac{1}{n}$$ instead of $$\frac{x}{m} = k(S)P^\frac{1}{n}$$, where $$k(S)$$ is the surface-roughness-dependent constant.
-* **Mistake 4:** Not considering the effect of impurities on adsorption, using $$\frac{x}{m} = kP^\frac{1}{n}$$ instead of $$\frac{x}{m} = k(I)P^\frac{1}{n}$$, where $$k(I)$$ is the impurity-dependent constant.
-* **Mistake 5:** Not considering the effect of particle size on adsorption, using $$\frac{x}{m} = kP^\frac{1}{n}$$ instead of $$\frac{x}{m} = k(P)P^\frac{1}{n}$$, where $$k(P)$$ is the particle-size-dependent constant.
+* **Mistake 1:** Incorrectly applying the formula for the amount of adsorption, using \frac{x}{m} instead of \frac{x}{m} = \frac{a}{V}, where x is the mass of gas adsorbed, m is the mass of the adsorbent, a is the volume of the gas, and V is the volume of the adsorbent.
+* **Mistake 2:** Not considering the effect of temperature on adsorption, using \frac{x}{m} = kP^\frac{1}{n} instead of \frac{x}{m} = k(T)P^\frac{1}{n}, where k(T) is the temperature-dependent constant.
+* **Mistake 3:** Not considering the effect of surface roughness on adsorption, using \frac{x}{m} = kP^\frac{1}{n} instead of \frac{x}{m} = k(S)P^\frac{1}{n}, where k(S) is the surface-roughness-dependent constant.
+* **Mistake 4:** Not considering the effect of impurities on adsorption, using \frac{x}{m} = kP^\frac{1}{n} instead of \frac{x}{m} = k(I)P^\frac{1}{n}, where k(I) is the impurity-dependent constant.
+* **Mistake 5:** Not considering the effect of particle size on adsorption, using \frac{x}{m} = kP^\frac{1}{n} instead of \frac{x}{m} = k(P)P^\frac{1}{n}, where k(P) is the particle-size-dependent constant.
 
 ### <a id="-understanding-the-5-trap-mistakes"></a>📝 Understanding the 5 Trap Mistakes
 The 5 trap mistakes are common errors that students make when studying surface chemistry. These mistakes can be costly, as they can lead to a lack of understanding of key concepts and a poor performance on exams.
 
 #### 📊 Mistake 1: Incorrect Application of Adsorption Formula
-The first mistake is incorrectly applying the formula for the amount of adsorption. The correct formula is $$\frac{x}{m} = \frac{a}{V}$$, where $$x$$ is the mass of gas adsorbed, $$m$$ is the mass of the adsorbent, $$a$$ is the surface area of the adsorbent, and $$V$$ is the volume of the gas. However, many students mistakenly use $$\frac{x}{m}$$ instead, which is incorrect.
+The first mistake is incorrectly applying the formula for the amount of adsorption. The correct formula is \frac{x}{m} = \frac{a}{V}, where x is the mass of gas adsorbed, m is the mass of the adsorbent, a is the surface area of the adsorbent, and V is the volume of the gas. However, many students mistakenly use \frac{x}{m} instead, which is incorrect.
 
 #### 📝 Mistake 2: Confusing Adsorption and Absorption
 The second mistake is confusing adsorption and absorption. Adsorption is the accumulation of a substance on the surface of another substance, while absorption is the uptake of a substance into the bulk of another substance. Many students fail to understand the difference between these two concepts, leading to confusion and mistakes.
@@ -331,10 +331,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/surface-chemistry-class-12-notes) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/surface-chemistry-class-12-notes) now and track your progress against thousands of students.
 
 
 ---

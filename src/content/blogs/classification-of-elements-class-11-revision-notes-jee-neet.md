@@ -273,16 +273,7 @@ By mastering the classification of elements, I can develop a strong foundation i
 As I continue to explore the world of chemistry, I realize that the classification of elements is a fundamental concept that underlies many of the principles and reactions that we study. By understanding the periodic table and the trends in physical and
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -300,10 +291,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/classification-of-elements-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/classification-of-elements-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 
 ---

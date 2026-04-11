@@ -124,11 +124,11 @@ The following table summarizes the key features of the Industrial Revolution:
 
 
 The following formulae are relevant to the Industrial Revolution:
-$$
+
 \text{Productivity} = \frac{\text{Output}}{\text{Input}}
 
 \text{Efficiency} = \frac{\text{Output}}{\text{Cost}}
-$$
+
 
 These formulae help me, Ayush, understand the economic aspects of the Industrial Revolution.
 
@@ -209,11 +209,11 @@ The following table summarizes the key features of the Industrial Revolution:
 
 
 The following formulae are relevant to the Industrial Revolution:
-$$
+
 \text{Productivity} = \frac{\text{Output}}{\text{Input}}
 
 \text{Efficiency} = \frac{\text{Output}}{\text{Cost}}
-$$
+
 
 These formulae and tables help me, Ayush, understand the economic and technological aspects of the Industrial Revolution.
 
@@ -637,16 +637,7 @@ I, Ayush, have these final reflections and thoughts on the Industrial Revolution
 * **I am excited to continue
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -664,10 +655,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/world-history-industrial-revolution-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/world-history-industrial-revolution-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 
 ---

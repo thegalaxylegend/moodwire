@@ -314,8 +314,8 @@ What are common Trap Questions for Probability (Intro) is a crucial area of stud
 8
 12
 
-**Answer:** D) Since each toss has 2 outcomes (H/T), the total number of outcomes for 3 tosses is 2^3 = 8, but considering the question is asking for possible outcomes considering the sequence (which also includes TTH), it is 2*2*2=8. However, we must consider the possibilities of all 3 coins being heads or all 3 being tails. Hence it is 8
-
+**Answer:**
+D) Since each toss has 2 outcomes (H/T), the total number of outcomes for 3 tosses is 2^3 = 8, but considering the question is asking for possible outcomes considering the sequence (which also includes TTH), it is 2*2*2=8. However, we must consider the possibilities of all 3 coins being heads or all 3 being tails. Hence it is 8
 **2. A die is rolled. What is the probability of getting an odd number?**
 1/3
 1/4
@@ -330,8 +330,8 @@ What are common Trap Questions for Probability (Intro) is a crucial area of stud
 1/15
 2/5
 
-**Answer:** C) There are 5 students with blue eyes and 15 students in total.
-
+**Answer:**
+C) There are 5 students with blue eyes and 15 students in total.
 **4. A bag contains 4 red marbles and 6 blue marbles. What is the probability of drawing a red marble at random?**
 2/5
 3/5
@@ -349,13 +349,7 @@ What are common Trap Questions for Probability (Intro) is a crucial area of stud
 **Answer:** C) There are 13 hearts in a standard deck of 52 cards.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -373,10 +367,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/probability-intro-class-11-revision-notes-jee) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/probability-intro-class-11-revision-notes-jee) now and track your progress against thousands of students.
 
 
 ---

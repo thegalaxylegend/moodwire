@@ -110,7 +110,6 @@ manual_review: true
 
 
 **1. In a triang\le, the \sum of the lengths of any two sides is**
-
 A) less than the length of the third side
 B) greater than the length of the third side
 C) equal to the length of the third side
@@ -121,7 +120,6 @@ D) less than or equal to the length of the third side
 ---
 
 **2. If the area of an equilateral triang\le is $16sqrt{3}$, then the length of its side is**
-
 A) 2
 B) 4
 C) 6
@@ -132,7 +130,6 @@ D) 8
 ---
 
 **3. The length of the median to the hypotenuse of a right-angled triang\le is**
-
 A) equal to the length of the hypotenuse
 B) half the length of the hypotenuse
 C) equal to the \sum of the lengths of the other two sides
@@ -143,7 +140,6 @@ D) half the \sum of the lengths of the other two sides
 ---
 
 **4. In a triang\le, if $a$, $b$, and $c$ are the lengths of the sides opposite to angles $A$, $B$, and $C$ respectively, then**
-
 A) $a+b=c$
 B) $a+b>c$
 C) $a+b<c$
@@ -154,7 +150,6 @@ D) $a^2+b^2=c^2$
 ---
 
 **5. If the ratio of the areas of two similar triangles is $1:4$, then the ratio of their corresponding sides is**
-
 A) $1:2$
 B) $1:4$
 C) $1:8$
@@ -181,3 +176,4 @@ Continue your revision with these related guides:
 - 📖 [Pair of Linear Equations Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/pair-of-linear-equations-class-10-notes)
 - 📖 [Polynomials Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/polynomials-class-10-notes)
 - 📖 [Real Numbers Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/real-numbers-class-10-notes)
+

@@ -117,14 +117,14 @@ Q: Consider the reaction of $CH_3CH_2Cl$ with $AgNO_3$ in ethanol. If $25\%$ of 
 
  Q: The reaction of $CH_3CH_2Br$ with $KOH$ in ethanol produces $CH_3CH_2OH$. If $20$ g of $CH_3CH_2Br$ is treated with excess $KOH$ and the density of the resulting solution is $0.93$ g/mL, what is the concentration of $CH_3CH_2OH$ in the solution in $mol/L$? (Molar mass of $CH_3CH_2Br = 109$ g/mol). Trap in this question: Students often forget to account for the molar mass of $CH_3CH_2Br$. Solution: The number of moles of $CH_3CH_2Br = \frac{20}{109} = 0.183$ mol. Since $CH_3CH_2Br$ reacts with $KOH$ to form $CH_3CH_2OH$, the number of moles of $CH_3CH_2OH$ formed is also $0.183$ mol. Let $V$ be the volume of the solution. Then, $V \times 0.93 = 20 + 18.04 \times 0.183$ (since molar mass of $CH_3CH_2OH = 46$ g/mol and $KOH$ is in excess). Therefore, $V = \frac{20 + 3.32}{0.93} = \frac{23.32}{0.93} = 25.08$ mL $= 0.02508$ L. So, the concentration of $CH_3CH_2OH = \frac{0.183}{0.02508} = 7.3$ M. Answer: $7.3$ M.
 
- Q: The standard enthalpy of combustion of $CH_4$ is $-804.3$ kJ/mol. The standard enthalpy of formation of $CH_3Cl$ is $-25.3$ kJ/mol. What is the $C-Cl$ bond energy in $CH_3Cl$? Given: $\Delta H_{f}^{\circ}$ of $CH_3$ radical $= 35.1$ kJ/mol and $\Delta H_{f}^{\circ}$ of $Cl$ radical $= 121.7$ kJ/mol. Trap in this question: Students often forget to calculate the standard enthalpy of formation of $CH_3$ radical. Solution: $CH_4 + 2O_2 \rightarrow CO_2 + 2H_2O$; $\Delta H = -804.3$ kJ/mol. $CH_3Cl \rightarrow CH_3 + Cl$; let $\Delta H = x$ kJ/mol. Then, $\Delta H_{f}^{\circ}$ of $CH_3Cl = \Delta H_{f}^{\circ}$ of $CH_3$ radical $+ \Delta H_{f}^{\circ}$ of $Cl$ radical $- \Delta H$ $= 35.1 + 121.7 - x$. Given that $\Delta H_{f}^{\circ}$ of $CH_3Cl = -25.3$ kJ/mol. Therefore, $-25.3 = 35.1 + 121.7 - x$ and $x = 157.1 + 25.3 = 182.4$ kJ/mol. Answer: $182.4$ kJ/mol.
+ Q: The standard enthalpy of combustion of $CH_4$ is $-804.3$ kJ/mol. The standard enthalpy of formation of $CH_3Cl$ is $-25.3$ kJ/mol. What is the $C-Cl$ bond energy in $CH_3Cl$? Given: $\Delta H_{f}^{\circ}$ of $CH_3$ radical $= 35.1$ kJ/mol and $\Delta H_{f}^{\circ}$ of $Cl$ radical $= 121.7$ kJ/mol. Trap in this question: Students often forget to calculate the standard enthalpy of formation of $CH_3$ radical. Solution: $CH_4 + 2O_2 \rightarrow CO_2 + 2H_2O$; $\Delta H = -804.3$ kJ/mol. $CH_3Cl \rightarrow CH_3 + Cl$; let $\Delta H = x$ kJ/mol. Then, $\Delta H_{f}^{\circ}$ of $CH_3Cl = \Delta H_{f}^{\circ}$ of $CH_3$ radical $+ \Delta H_{f}^{\circ}$ of $Cl$ radical $- \Delta H= 35.1 + 121.7 - x$. Given that $\Delta H_{f}^{\circ}$ of $CH_3Cl = -25.3$ kJ/mol. Therefore, $-25.3 = 35.1 + 121.7 - x$ and $x = 157.1 + 25.3 = 182.4$ kJ/mol. Answer: $182.4$ kJ/mol.
 
 
 | Question | Trap | Solution | Answer |
 | --- | --- | --- | --- |
 | Consider the reaction of $CH_3CH_2Cl$ with $AgNO_3$ in ethanol. If $25\%$ of $CH_3CH_2Cl$ reacts, what is the molar concentration of $CH_3CH_2Cl$ left behind in the solution? Given: initial concentration of $CH_3CH_2Cl = 1.0$ M. | Students often forget that $AgNO_3$ is a weak electrolyte and $CH_3CH_2Cl$ can react with $AgNO_3$ to form $CH_3CH_2NO_3$. | First, let's write down the reaction: $CH_3CH_2Cl + AgNO_3 \rightarrow CH_3CH_2NO_3 + AgCl$. From the given reaction, $25\%$ of $CH_3CH_2Cl$ reacts. So the concentration of $CH_3CH_2Cl$ left behind is $1.0 - (0.25 \times 1.0) = 0.75$ M. | $0.75$ M. |
 | The reaction of $CH_3CH_2Br$ with $KOH$ in ethanol produces $CH_3CH_2OH$. If $20$ g of $CH_3CH_2Br$ is treated with excess $KOH$ and the density of the resulting solution is $0.93$ g/mL, what is the concentration of $CH_3CH_2OH$ in the solution in $mol/L$? (Molar mass of $CH_3CH_2Br = 109$ g/mol). | Students often forget to account for the molar mass of $CH_3CH_2Br$. | The number of moles of $CH_3CH_2Br = \frac{20}{109} = 0.183$ mol. Since $CH_3CH_2Br$ reacts with $KOH$ to form $CH_3CH_2OH$, the number of moles of $CH_3CH_2OH$ formed is also $0.183$ mol. Let $V$ be the volume of the solution. Then, $V \times 0.93 = 20 + 18.04 \times 0.183$ (since molar mass of $CH_3CH_2OH = 46$ g/mol and $KOH$ is in excess). Therefore, $V = \frac{20 + 3.32}{0.93} = \frac{23.32}{0.93} = 25.08$ mL $= 0.02508$ L. So, the concentration of $CH_3CH_2OH = \frac{0.183}{0.02508} = 7.3$ M. | $7.3$ M. |
-| The standard enthalpy of combustion of $CH_4$ is $-804.3$ kJ/mol. The standard enthalpy of formation of $CH_3Cl$ is $-25.3$ kJ/mol. What is the $C-Cl$ bond energy in $CH_3Cl$? Given: $\Delta H_{f}^{\circ}$ of $CH_3$ radical $= 35.1$ kJ/mol and $\Delta H_{f}^{\circ}$ of $Cl$ radical $= 121.7$ kJ/mol. | Students often forget to calculate the standard enthalpy of formation of $CH_3$ radical. | $CH_4 + 2O_2 \rightarrow CO_2 + 2H_2O$; $\Delta H = -804.3$ kJ/mol. $CH_3Cl \rightarrow CH_3 + Cl$; let $\Delta H = x$ kJ/mol. Then, $\Delta H_{f}^{\circ}$ of $CH_3Cl = \Delta H_{f}^{\circ}$ of $CH_3$ radical $+ \Delta H_{f}^{\circ}$ of $Cl$ radical $- \Delta H$ $= 35.1 + 121.7 - x$. Given that $\Delta H_{f}^{\circ}$ of $CH_3Cl = -25.3$ kJ/mol. Therefore, $-25.3 = 35.1 + 121.7 - x$ and $x = 157.1 + 25.3 = 182.4$ kJ/mol. | $182.4$ kJ/mol. |
+| The standard enthalpy of combustion of $CH_4$ is $-804.3$ kJ/mol. The standard enthalpy of formation of $CH_3Cl$ is $-25.3$ kJ/mol. What is the $C-Cl$ bond energy in $CH_3Cl$? Given: $\Delta H_{f}^{\circ}$ of $CH_3$ radical $= 35.1$ kJ/mol and $\Delta H_{f}^{\circ}$ of $Cl$ radical $= 121.7$ kJ/mol. | Students often forget to calculate the standard enthalpy of formation of $CH_3$ radical. | $CH_4 + 2O_2 \rightarrow CO_2 + 2H_2O$; $\Delta H = -804.3$ kJ/mol. $CH_3Cl \rightarrow CH_3 + Cl$; let $\Delta H = x$ kJ/mol. Then, $\Delta H_{f}^{\circ}$ of $CH_3Cl = \Delta H_{f}^{\circ}$ of $CH_3$ radical $+ \Delta H_{f}^{\circ}$ of $Cl$ radical $- \Delta H= 35.1 + 121.7 - x$. Given that $\Delta H_{f}^{\circ}$ of $CH_3Cl = -25.3$ kJ/mol. Therefore, $-25.3 = 35.1 + 121.7 - x$ and $x = 157.1 + 25.3 = 182.4$ kJ/mol. | $182.4$ kJ/mol. |
 
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
@@ -189,9 +189,8 @@ To answer questions quickly and accurately, make sure you can identify the type 
 3° > 1° > 2°
 2° > 1° > 3°
 
-**Answer:** A) The order of reactivity of haloalkanes towards SN1 reaction is 3° > 2° > 1° because the stability of the carbocation intermediate increases with the degree of substitution.
-
-
+**Answer:**
+A) The order of reactivity of haloalkanes towards SN1 reaction is 3° > 2° > 1° because the stability of the carbocation intermediate increases with the degree of substitution.
 **2. Which of the following is the most stable conformation of chloroethane?**
 Staggered, with Cl atom in front
 Eclipsed, with Cl atom in front
@@ -200,16 +199,14 @@ Eclipsed, with Cl atom behind
 
 **Answer:** A) The most stable conformation of chloroethane is the staggered conformation with the Cl atom in front, due to the minimization of torsional strain and electrostatic repulsions.
 
-
 **3. What is the product of the reaction of bromobenzene with NaOH at high temperature and pressure?**
 Phenol
 Benzene
 Benzoic acid
 Bromophenol
 
-**Answer:** A) The product of the reaction of bromobenzene with NaOH at high temperature and pressure is phenol, due to the nucleophilic aromatic substitution reaction.
-
-
+**Answer:**
+A) The product of the reaction of bromobenzene with NaOH at high temperature and pressure is phenol, due to the nucleophilic aromatic substitution reaction.
 **4. Which of the following haloalkanes is most reactive towards SN2 reaction?**
 1-bromopropane
 2-bromopropane
@@ -217,7 +214,6 @@ Bromophenol
 2-chloropropane
 
 **Answer:** C) The most reactive haloalkane towards SN2 reaction is 1-chloropropane, due to the primary nature of the halide and the absence of steric hindrance.
-
 
 **5. What is the major product of the reaction of chlorobenzene with excess of ammonia?**
 Aniline

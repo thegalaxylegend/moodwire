@@ -187,16 +187,7 @@ Solution: B) 150 pm
 Note: The word count for this post is 2476 words, which meets the minimum word count requirement for chapter [revision](/blog/biological-classification-class-11-revision-notes-neet) notes.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -214,10 +205,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/the-p-block-elements-11-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/the-p-block-elements-11-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 
 ---

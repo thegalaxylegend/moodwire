@@ -70,13 +70,13 @@ The process of digestion can be summarized in the following table:
 
 The chemical reactions involved in digestion can be represented by the following equations:
 
-$$
+
 \text{Carbohydrates} \xrightarrow{\text{Amylase}} \text{Maltose} \xrightarrow{\text{Maltase}} \text{Glucose}
 
 \text{Proteins} \xrightarrow{\text{Pepsin}} \text{Peptides} \xrightarrow{\text{Trypsin}} \text{Amino Acids}
 
 \text{Fats} \xrightarrow{\text{Lipase}} \text{Fatty Acids} + \text{Glycerol}
-$$
+
 
 | **Organ** | **Digestive Enzymes** | **Function** |
 | --- | --- | --- |
@@ -95,9 +95,9 @@ The process of absorption primarily occurs in the small intestine and can be sum
 
 The absorption of nutrients can be represented by the following equation:
 
-$$
+
 \text{Nutrient}_{\text{intestinal lumen}} \xrightarrow{\text{Transport Proteins}} \text{Nutrient}_{\text{bloodstream}}
-$$
+
 
 ## <a id="ayushs-note-key-points-for-jeeneet"></a>Ayush's Note: Key Points for JEE/NEET
 
@@ -112,15 +112,15 @@ For JEE/[neet](/blog/environmental-chemistry-class-11-revision-notes-neet) aspir
 
 To calculate the amount of a nutrient absorbed, you can use the following formula:
 
-$$
+
 \text{Nutrient Uptake} = \text{Total Nutrient Intake} \times \text{Absorption Efficiency}
-$$
+
 
 For example, if the total carbohydrate intake is 300g and the absorption efficiency is 90%, the amount of carbohydrate absorbed would be:
 
-$$
+
 \text{Carbohydrate Absorption} = 300g \times 0.9 = 270g
-$$
+
 
 ## <a id="trap-questions-common-misconceptions"></a>Trap Questions: Common Misconceptions
 
@@ -173,16 +173,7 @@ For further reading and practice, refer to the following links:
 Understanding the processes of digestion and absorption is crucial not only for JEE/[neet](/blog/environmental-chemistry-class-11-revision-notes-neet) aspirants but also for anyone interested in human health and nutrition. By grasping the core concepts and mechanisms involved, individuals can better appreciate the complexity of the human body and the importance of a balanced diet for maintaining optimal health. Remember, digestion and absorption are not just about breaking down food; they are about providing the body with the necessary nutrients for energy, growth, and repair.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -200,10 +191,7 @@ Continue your [revision](/blog/environmental-chemistry-class-11-revision-notes-n
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/digestion-and-absorption-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/digestion-and-absorption-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
 
 ---

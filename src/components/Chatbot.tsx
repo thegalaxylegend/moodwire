@@ -10,6 +10,7 @@ import { InputBar } from './Chat/InputBar';
 import { CallOverlay } from './Chat/CallOverlay';
 import { AnimatePresence, motion } from 'framer-motion';
 import { ttsManager } from '../lib/tts/TTSManager';
+import { usePerformanceLevel } from '../hooks/usePerformanceLevel';
 
 // Emotion Definitions
 type ExaEmotion = 'neutral' | 'listening' | 'thinking' | 'speaking' | 'excited' | 'shy';
@@ -74,16 +75,28 @@ const VOICE_PRESETS: VoicePreset[] = [
         modelUrl: 'https://huggingface.co/csukuangfj/sherpa-onnx-vits-en-amy-low/resolve/main/model.onnx',
         tokensUrl: 'https://huggingface.co/csukuangfj/sherpa-onnx-vits-en-amy-low/resolve/main/tokens.txt'
     },
+    { 
+        id: 'hindi_neural', 
+        name: 'Exa (Bharat)', 
+        gender: 'female', 
+        pitch: 1.0,
+        rate: 1.0,
+        isNeural: true,
+        modelUrl: 'https://huggingface.co/csukuangfj/sherpa-onnx-vits-hi-p302-low/resolve/main/hi_p302_low.onnx',
+        tokensUrl: 'https://huggingface.co/csukuangfj/sherpa-onnx-vits-hi-p302-low/resolve/main/tokens.txt'
+    },
     { id: 'girl_sweet', name: 'Exa (Sweet)', gender: 'female', pitch: 1.15, rate: 1.05 },
     { id: 'boy_chill', name: 'Exa (Chill)', gender: 'male', pitch: 1.0, rate: 0.95 },
 ];
 
 export const Chatbot = () => {
+    const perfTier = usePerformanceLevel();
     const { 
         isOpen, openChat, closeChat, initialMessage, 
         messages, setMessages, isThinking, setIsThinking,
         isSearching, setIsSearching, addMessage,
-        sessions, currentSessionId, switchSession, deleteSession, createSession
+        sessions, currentSessionId, switchSession, deleteSession, createSession,
+        selectedLanguage, setLanguage
     } = useChatStore();
     
     const { user } = useUserStore();
@@ -94,7 +107,7 @@ export const Chatbot = () => {
     const [isMinimized, setIsMinimized] = useState(false);
     const [isSpeaking, setIsSpeaking] = useState(false);
     const [isCallMode, setIsCallMode] = useState(false);
-    const [isMuted, setIsMuted] = useState(false);
+    const [isMuted, setIsMuted] = useState(true);
     const [, ] = useState<ExaEmotion>('neutral');
     const [isMicMuted, setIsMicMuted] = useState(false);
     const [isTTSLoading, setIsTTSLoading] = useState(false);
@@ -240,8 +253,14 @@ export const Chatbot = () => {
 
         const preset = VOICE_PRESETS.find(p => p.id === selectedPresetId) || VOICE_PRESETS[0];
 
-        // NEW: Neural Engine Logic / Modified for Loading Feedback
-        if (preset.isNeural) {
+        // AUTO-SWITCH TO HINDI MODEL IF LANG IS HI
+        const isHindiMode = selectedLanguage === 'hi';
+        const finalModelId = isHindiMode ? 'hindi_neural' : selectedPresetId;
+        const finalPreset = VOICE_PRESETS.find(p => p.id === finalModelId) || preset;
+
+        // NEW: Neural Engine Logic / Modified for Loading Feedback + Thermal Safety
+        const isThermalThrottling = perfTier === 'low';
+        if (finalPreset.isNeural && !isThermalThrottling) {
             try {
                 if (cancelPending) ttsManager.stop();
                 
@@ -250,11 +269,11 @@ export const Chatbot = () => {
                    setIsTTSLoading(true);
                 }
                 
-                await ttsManager.init(preset.modelUrl, preset.tokensUrl); 
+                await ttsManager.init(finalPreset.modelUrl, finalPreset.tokensUrl); 
                 setIsTTSLoading(false);
                 
                 setIsSpeaking(true);
-                await ttsManager.speak(cleanText, preset.rate, preset.modelUrl, preset.tokensUrl);
+                await ttsManager.speak(cleanText, finalPreset.rate || 1.0, finalPreset.modelUrl, finalPreset.tokensUrl);
                 setIsSpeaking(false);
                 return; 
             } catch (err) {
@@ -357,7 +376,8 @@ export const Chatbot = () => {
                     userImg || undefined,
                     undefined,
                     [],
-                    (searching: boolean) => setIsSearching(searching)
+                    (searching: boolean) => setIsSearching(searching),
+                    { language: selectedLanguage } // Pass Language Mode
                 );
             } catch (firstTryErr) {
                 console.warn("[Chatbot] First AI attempt failed, retrying with Gemini fallback directly...");
@@ -373,7 +393,8 @@ export const Chatbot = () => {
                     userImg || undefined,
                     undefined,
                     [],
-                    (searching: boolean) => setIsSearching(searching)
+                    (searching: boolean) => setIsSearching(searching),
+                    { language: selectedLanguage } // Pass Language Mode
                 );
             }
 
@@ -390,15 +411,24 @@ export const Chatbot = () => {
                     lastUpdateRef.current = Date.now();
                     spokenUpToRef.current = 0;
 
-                    const speakPending = () => {
+                    const speakPending = (isFinal = false) => {
+                        if (isMuted) return; // Silent Buffer: Don't even process if muted
+
                         const text = streamingTextRef.current;
                         const spoken = spokenUpToRef.current;
                         const remaining = text.slice(spoken);
+
+                        // Only speak when a full sentence is ready
                         const match = remaining.match(/^[\s\S]*?[.!?।](?=\s|$)/);
+                        
                         if (match) {
                             const sentence = match[0].trim();
                             if (sentence) speak(sentence);
                             spokenUpToRef.current = spoken + match[0].length;
+                        } else if (isFinal && remaining.trim()) {
+                            // Only speak the final remainder if it's not empty
+                            speak(remaining.trim());
+                            spokenUpToRef.current = spoken + remaining.length;
                         }
                     };
 
@@ -425,6 +455,7 @@ export const Chatbot = () => {
                         }
                     }
                     fullText = streamingTextRef.current;
+                    speakPending(true); // Final check for any remaining text
                 } else {
                     fullText = (response as any).choices?.[0]?.message?.content || "";
                 }
@@ -478,7 +509,7 @@ export const Chatbot = () => {
     };
 
     return (
-        <>
+        <div className={`perf-tier-${perfTier}`}>
             <AnimatePresence>
                 {isOpen && !isMinimized && !isCallMode && (
                     <motion.div
@@ -543,16 +574,35 @@ export const Chatbot = () => {
                 {isOpen && !isMinimized && (
                     <motion.div
                         key="chatwindow"
-                        initial={{ opacity: 0, scale: 0.8, y: 100, filter: 'blur(10px)' }}
-                        animate={{ opacity: 1, scale: 1, y: 0, filter: 'blur(0px)' }}
-                        exit={{ opacity: 0, scale: 0.8, y: 100, filter: 'blur(10px)' }}
-                        transition={{ 
-                            type: 'spring',
-                            stiffness: 300,
-                            damping: 30,
-                            mass: 1
+                        initial={{ 
+                            opacity: 0, 
+                            scale: 0.95, 
+                            y: 20, 
+                            filter: perfTier === 'elite' ? 'blur(10px)' : 'blur(0px)' 
                         }}
-                        className="fixed inset-2 md:inset-6 lg:inset-x-[6%] lg:inset-y-[5%] z-[100] pointer-events-auto flex flex-col"
+                        animate={{ 
+                            opacity: 1, 
+                            scale: 1, 
+                            y: 0, 
+                            filter: 'blur(0px)' 
+                        }}
+                        exit={{ 
+                            opacity: 0, 
+                            scale: 0.95, 
+                            y: 20, 
+                            filter: perfTier === 'elite' ? 'blur(10px)' : 'blur(0px)' 
+                        }}
+                        transition={
+                            perfTier === 'low' 
+                                ? { type: 'tween', duration: 0.25, ease: 'easeOut' }
+                                : { 
+                                    type: 'spring',
+                                    stiffness: perfTier === 'elite' ? 400 : 300,
+                                    damping: perfTier === 'elite' ? 40 : 35,
+                                    mass: 0.8
+                                }
+                        }
+                        className={`fixed inset-2 md:inset-6 lg:inset-x-[6%] lg:inset-y-[5%] z-[100] pointer-events-auto flex flex-col perf-tier-${perfTier}`}
                     >
                         <ChatWindow
                             messages={messages}
@@ -575,24 +625,32 @@ export const Chatbot = () => {
                             setIsCallMode={setIsCallMode}
                             isMuted={isMuted}
                             setIsMuted={setIsMuted}
-                            voicePresets={VOICE_PRESETS as any}
-                            selectedPresetId={selectedPresetId}
+                            selectedLanguage={selectedLanguage}
+                            onSelectLanguage={setLanguage}
+                            voicePresets={VOICE_PRESETS.filter(v => {
+                                if (selectedLanguage === 'hi') return v.id === 'hindi_neural';
+                                return v.id !== 'hindi_neural';
+                            })}
+                            selectedPresetId={selectedLanguage === 'hi' ? 'hindi_neural' : selectedPresetId}
                              onSelectPreset={(id) => {
                                  const preset = VOICE_PRESETS.find(p => p.id === id);
+                                 if (!preset) return;
+                                 
                                  setSelectedPresetId(id);
                                  localStorage.setItem('exa_voice_id', id);
                                  
-                                 if (preset?.isNeural) {
+                                 if (preset.isNeural) {
                                      setIsTTSLoading(true);
                                      ttsManager.init(preset.modelUrl, preset.tokensUrl).then(() => {
                                          setIsTTSLoading(false);
-                                         speak("How do I sound now? I'm using my new natural voice engine.");
-                                     }).catch(() => {
+                                         speak(selectedLanguage === 'hi' ? "Namaste! Meri awaaz kaisi hai?" : "How do I sound now? I'm using my new natural voice engine.");
+                                     }).catch((err) => {
+                                         console.error("Neural Voice Init Error:", err);
                                          setIsTTSLoading(false);
-                                         speak("Something went wrong with my high-quality voice. Using basic voice instead.");
+                                         speak(selectedLanguage === 'hi' ? "Maaf kijiye, kuch error hai." : "Something went wrong with my high-quality voice. Using basic voice instead.");
                                      });
                                  } else {
-                                     speak("How do I sound?");
+                                     speak(selectedLanguage === 'hi' ? "Ab ye voice kaisa hai?" : "How do I sound now?");
                                  }
                              }}
                             sessions={sessions}
@@ -617,6 +675,6 @@ export const Chatbot = () => {
                     </motion.div>
                 )}
             </AnimatePresence>
-        </>
+        </div>
     );
 };

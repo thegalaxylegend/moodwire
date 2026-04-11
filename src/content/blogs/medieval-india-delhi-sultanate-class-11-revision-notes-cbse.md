@@ -128,7 +128,7 @@ The following are some key terms related to the Delhi Sultanate:
 
 ### <a id="latex-equations"></a>LaTeX Equations
 The Delhi Sultanate can be represented using the following LaTeX equations:
-$$\text{Delhi Sultanate} = \sum_{i=1}^{5} \text{Dynasties}\text{Dynasties} = \{\text{Slave}, \text{Khalji}, \text{Tughlaq}, \text{Sayyid}, \text{Lodi}\}\text{Iqta System} = \text{Feudal System} \times \text{Land Grant}$$
+\text{Delhi Sultanate} = \sum_{i=1}^{5} \text{Dynasties}\text{Dynasties} = \{\text{Slave}, \text{Khalji}, \text{Tughlaq}, \text{Sayyid}, \text{Lodi}\}\text{Iqta System} = \text{Feudal System} \times \text{Land Grant}
 
 By using these equations, we can represent the Delhi Sultanate as a sum of its constituent dynasties, and the iqta system as a product of the feudal system and land grant.
 
@@ -138,16 +138,7 @@ The Delhi Sultanate was a significant period in Indian history, marked by the ri
 By understanding the historical context of the Delhi Sultanate, we can gain a deeper insight into the cultural, social, and economic developments that took place during this period. This can help us to better appreciate the significance of the Delhi Sultanate in Indian history, and its contributions to the development of Indian culture and society.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -165,10 +156,7 @@ Continue your [revision](/blog/ancient-india-indus-valley-class-11-revision-note
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/medieval-india-delhi-sultanate-class-11-revision-notes-cbse) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/medieval-india-delhi-sultanate-class-11-revision-notes-cbse) now and track your progress against thousands of students.
 
 
 ---

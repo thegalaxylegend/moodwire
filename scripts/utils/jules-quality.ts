@@ -282,9 +282,33 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
         report.warnings.push(`${reviewSections.length} section(s) marked as needing review`);
     }
 
-    report.score = Math.max(0, score);
     report.passed = report.score >= 90; // Quality Gate Threshold
     return report;
+}
+
+export function reconstructBullets(text: string): string {
+    if (!text) return "";
+    
+    // Detect flattened list markers like ".,-", ",-", or even just " - " after a sentence
+    let processed = text
+        .replace(/([\.!\?])\s*[,\-]\s*/g, '$1\n- ') // Fix "Statement. - Next" -> "Statement.\n- Next"
+        .replace(/([\.!\?])\s*([A-Z][^.!?]*:)\s*/g, '$1\n- **$2** ') // Fix "Pattern. Hidden Pattern: Insight"
+        .replace(/,\s*- /g, '\n- ') // Fix ",- " -> "\n- "
+        .replace(/[:]\s*,\s*-/g, ':\n-'); // Fix ": ,-"
+
+    // Clean up double bullets "- - " -> "- "
+    processed = processed.replace(/^- - /gm, '- ');
+    processed = processed.replace(/\n- - /g, '\n- ');
+
+    // Ensure there's a newline before every "- " that isn't already preceded by one
+    // But ONLY if it's not inside a table (roughly checked by pipe characters)
+    const lines = processed.split('\n');
+    const filteredLines = lines.map(line => {
+        if (line.trim().startsWith('|')) return line; // Skip tables
+        return line.replace(/([^\n])\n*(- )/g, '$1\n$2');
+    });
+
+    return filteredLines.join('\n').trim();
 }
 
 export function jsonToMarkdown(post: BlogPostJSON): string {
@@ -311,12 +335,21 @@ export function jsonToMarkdown(post: BlogPostJSON): string {
         if (text === null || text === undefined) return '';
         if (typeof text !== 'string') {
             if (Array.isArray(text)) return text.map(normalizeLaTeX).join('\n');
-            return JSON.stringify(text);
+            try { return JSON.stringify(text); } catch { return String(text); }
         }
-        let result = text.replace(/\\\\+([a-zA-Z])/g, '\\$1');
+        
+        // --- NEW: Raw LaTeX Wrapping Fix ---
+        // If it looks like a raw block but lacks delimiters, add them
+        let processed = text.trim();
+        if (processed.includes('\\displaystyle') || (processed.startsWith('{') && processed.endsWith('}') && processed.includes('\\'))) {
+             if (!processed.startsWith('$')) {
+                 processed = `$$\n${processed}\n$$`;
+             }
+        }
+
+        let result = processed.replace(/\\\\+([a-zA-Z])/g, '\\$1');
         const commonMath = ['frac', 'times', 'text', 'Delta', 'theta', 'phi', 'alpha', 'beta', 'gamma', 'sum', 'int', 'neq', 'approx', 'pm', 'mp', 'le', 'ge'];
         commonMath.forEach(cmd => {
-            // Updated regex: Ensure it's not preceded by a letter/backslash AND not followed by a letter
             const regex = new RegExp(`(?<![a-zA-Z\\\\])${cmd}(?![a-zA-Z])`, 'g');
             result = result.replace(regex, `\\${cmd}`);
         });
@@ -327,9 +360,16 @@ export function jsonToMarkdown(post: BlogPostJSON): string {
         return !!(table && Array.isArray(table.headers) && table.headers.length > 0 && Array.isArray(table.rows) && table.rows.length > 0);
     }
 
+
     const sectionsHtml = (post.content?.sections || []).map(sec => {
         const heading = sec.heading || '';
         let body = normalizeLaTeX(sec.body || '');
+        
+        // --- NEW: Restore missing line changes for Academic Notes ---
+        if (heading.includes("Note") || heading.includes("Box") || heading.includes("Mistakes") || heading.includes("Thing")) {
+            body = reconstructBullets(body);
+        }
+
         body = body.replace(/([^\n])\n([*-] )/g, '$1\n\n$2');
         let tableStr = '';
         if (isValidTable(sec.table)) {
@@ -340,8 +380,20 @@ export function jsonToMarkdown(post: BlogPostJSON): string {
         return `\n## ${heading}\n\n${body}\n${tableStr}\n`;
     }).join('\n');
 
+    // Helper to clean option prefixes
+    function cleanOption(opt: string): string {
+        if (!opt) return "";
+        // Remove "A)", "A.", "1)", "1.", "Option A:", etc.
+        return opt.replace(/^[A-Z0-9][\.\)\:]\s*/i, '').replace(/^[A-Z][0-9][\.\)\:]\s*/i, '').trim();
+    }
+
     const mcqsHtml = (post.content?.mcqs || []).map((mcq, i) => {
-        const opts = (mcq.options || []).map((o, idx) => `${String.fromCharCode(65 + idx)}) ${normalizeLaTeX(o)}`).join('\n');
+        const opts = (mcq.options || []).map((o, idx) => {
+            const letter = String.fromCharCode(65 + idx);
+            const bodyContent = normalizeLaTeX(cleanOption(o));
+            return `**${letter})** ${bodyContent}  `; // Two spaces for hard break
+        }).join('\n');
+        
         return `\n**${i + 1}. ${normalizeLaTeX(mcq.question)}**\n\n${opts}\n\n**Answer:** ${mcq.answer}) ${normalizeLaTeX(mcq.answer_text)}\n`;
     }).join('\n---\n');
 
@@ -390,8 +442,15 @@ export function standardizeMarkdown(markdown: string, meta: { title: string, her
         return `${level} <a id="${id}"></a>${rawTitle}`;
     });
 
-    const recallMarkdown = (meta.recall && meta.recall.length > 0)
-        ? `\n<div class="quick-summary">\n\n### 🚀 Quick Recall — Last Night Summary\n\n${meta.recall.map(point => `- ${point}`).join('\n')}\n\n</div>\n`
+    const recallItems = Array.isArray(meta.recall) 
+        ? meta.recall.map(point => {
+            if (typeof point === 'object') return JSON.stringify(point);
+            return String(point);
+          })
+        : [];
+
+    const recallMarkdown = (recallItems.length > 0)
+        ? `\n<div class="quick-summary">\n\n### 🚀 Quick Recall — Last Night Summary\n\n${recallItems.map(point => `- ${point}`).join('\n')}\n\n</div>\n`
         : '';
 
     const tocMarkdown = tocItems.length > 0
@@ -479,5 +538,56 @@ export function checkLatexIntegrity(text: string): string {
     }
 
     return text;
+}
+
+/**
+ * REPAIR Logic: Normalizes MCQs in a full markdown body.
+ * Ensures options A, B, C, D are on new lines with proper spacing.
+ */
+export function normalizeMarkdownMCQs(body: string): string {
+    if (!body) return "";
+
+    // 1. Find MCQ blocks across multiple lines
+    // Looks for a number followed by a question, then options, then Answer:
+    const mcqBlockRegex = /(\*\*?\d+[\.\)][\s\S]*?)(\s*\*?\*?[A-D][\)\.][\s\S]*?)(\*\*Answer:\*\*[\s\S]*?)(?=\n\n|\n\*\*?\d+[\.\)]|$)/gi;
+
+    return body.replace(mcqBlockRegex, (match, head, optionsBody, answer) => {
+        // Ensure each option starts on a new line
+        const optionStarterRegex = /(\n?\s*\*?\*?[A-D][\)\.]\s*\*?\*?)/g;
+        
+        let repairedOptions = optionsBody.trim()
+            .replace(optionStarterRegex, (m: string) => `\n${m.trim()} `)
+            .split('\n')
+            .map((l: string) => l.trim())
+            .filter((l: string) => l.length > 0)
+            .join('\n');
+
+        return `${head.trim()}\n${repairedOptions}\n\n${answer.trim()}\n\n`;
+    });
+}
+
+/**
+ * REPAIR Logic: Ensures raw LaTeX blocks (like those starting with \displaystyle)
+ * are wrapped in $$ delimiters for proper browser rendering.
+ */
+export function normalizeMarkdownLaTeX(body: string): string {
+    if (!body) return "";
+
+    // 1. Wrap \begin{...} \end{...} blocks
+    const envRegex = /(?<!\$)\s*(\\begin\{[\s\S]*?\\end\{.*?\})\s*(?!\$)/gi;
+    let processed = body.replace(envRegex, (match, env) => `\n\n$$\n${env.trim()}\n$$\n\n`);
+
+    // 2. Wrap single lines starting with common LaTeX commands if not wrapped
+    const lineRegex = /^(?!\s*[\$\!])(.*(?:\\displaystyle|\\frac\{|\\sqrt\{|\\sum\_|\\int\_|\\alpha|\\beta|\\gamma|\\Delta).*)$/gm;
+    processed = processed.replace(lineRegex, (match, math) => {
+         if (math.includes('\\') && math.length > 5 && !math.includes('$')) {
+            return `\n$$\n${math.trim()}\n$$\n`;
+        }
+        return match;
+    });
+
+    // 3. Fix Double-Slash escapes and clean up spacing
+    processed = processed.replace(/\\\\([a-zA-Z])/g, '\\$1');
+    return processed.replace(/\n{3,}/g, '\n\n');
 }
 

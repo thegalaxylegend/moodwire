@@ -139,7 +139,7 @@ Most students treat this chapter as a bunch of formulas to memorize. I did the s
 **The Hydrogen Spectrum is the series of discrete wavelengths emitted when an excited electron jumps back to a lower energy level.**
 
 ### <a id="rydberg-formula"></a>Rydberg Formula
-$$\frac{1}{\lambda} = R_Z^2 \left[ \frac{1}{n_1^2} - \frac{1}{n_2^2} \right]$$
+\frac{1}{\lambda} = R_Z^2 \left[ \frac{1}{n_1^2} - \frac{1}{n_2^2} \right]
 Where $R = 109677 \text{ cm}^{-1}$ (or roughly $1.1 \times 10^7 \text{ m}^{-1}$).
 
 ### <a id="spectral-series-table"></a>Spectral Series Table
@@ -164,7 +164,7 @@ Where $R = 109677 \text{ cm}^{-1}$ (or roughly $1.1 \times 10^7 \text{ m}^{-1}$)
 
 **The Dual Nature of [matter](/blog/states-of-matter-class-11-revision-notes-jee-neet) describes how every moving particle, from a cricket ball to an electron, exhibits both wave-like and particle-like properties.**
 
-$$\lambda = \frac{h}{mv} = \frac{h}{p}$$
+\lambda = \frac{h}{mv} = \frac{h}{p}
 
 For a microscopic electron, $\lambda$ is significant ($\sim$ atomic dimensions), but for a macroscopic ball, $\lambda$ is $10^{-34}$ m, making its wave nature undetectable.
 - **JEE Trick**: If kinetic energy ($K$) is given, $\lambda = \frac{h}{\sqrt{2mK}}$.
@@ -180,7 +180,7 @@ For a microscopic electron, $\lambda$ is significant ($\sim$ atomic dimensions),
 
 **Heisenberg's Uncertainty Principle states that it is impossible to simultaneously measure the exact position ($\Delta x$) and exact momentum ($\Delta p$) of a subatomic particle with absolute precision.**
 
-$$\Delta x \cdot \Delta p \geq \frac{h}{4\pi}$$
+\Delta x \cdot \Delta p \geq \frac{h}{4\pi}
 
 This isn't about "bad microscopes." It's a fundamental property of the universe. If you try to see an electron (by hitting it with a photon), the photon's energy shifts the electron's position. You can either know *where* it is or *how fast* it's moving, but never both.
 
@@ -264,8 +264,8 @@ For an orbital with quantum numbers $n$ and $l$:
 
 **Configuration Exceptions occur when an atom achieves a lower energy state (higher stability) by slightly deviating from the Aufbau energy order.**
 
-- **Chromium ($Z=24$):** Expected $[Ar] 4s^2 3d^4$ $\rightarrow$ **Actual $[Ar] 4s^1 3d^5$**.
-- **Copper ($Z=29$):** Expected $[Ar] 4s^2 3d^9$ $\rightarrow$ **Actual $[Ar] 4s^1 3d^{10}$**.
+- **Chromium ($Z=24$):** Expected $[Ar] 4s^2 3d^4\rightarrow$ **Actual $[Ar] 4s^1 3d^5$**.
+- **Copper ($Z=29$):** Expected $[Ar] 4s^2 3d^9\rightarrow$ **Actual $[Ar] 4s^1 3d^{10}$**.
 
 **Why?**
 1. **Symmetry**: Half-filled and fully-filled shells are more symmetric, reducing internal repulsion.
@@ -387,16 +387,7 @@ For your school exams, always draw the Rydberg series energy level diagram ($n=1
 
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -414,10 +405,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/structure-of-atom-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/structure-of-atom-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 
 ---

@@ -195,16 +195,7 @@ Units and Measurements are not just "entry-level" topics; they are the filter th
 **Reference:** [BIPM: The International System of Units](https://www.bipm.org/en/measurement-units/)
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -222,10 +213,7 @@ Continue your [revision](/blog/limits-derivatives-class-11-revision-notes-jee-ne
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/units-and-measurements-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/units-and-measurements-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 
 ---

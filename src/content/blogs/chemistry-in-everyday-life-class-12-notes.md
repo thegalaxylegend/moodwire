@@ -55,10 +55,10 @@ practice_link: "/class-11/chemistry/chemistry-in-everyday-life-class-12-notes"
 * 1 mark question on drug nomenclature: always asks for the IUPAC name of a specific drug
 * Chemicals in medicine: 2 marks question on a specific application of a chemical in medicine (e.g. use of $N_{2}O$ as an anesthetic, etc.)
 * $pH$ of a solution of a weak acid or base: 1-2 marks numerical — always
-* Relationship between $pH$, $pOH$, and $pK_{w}$: $pH + pOH = 14$ or $pK_{w} = 14$ at $25^{\\circ}C$ — must know
+* Relationship between $pH$, $pOH$, and $pK_{w}$: $pH + pOH = 14$ or $pK_{w} = 14$ at $25^{\circ}C$ — must know
 * 1 mark question on buffer solution: always asks for the $pH$ of a buffer solution or asks to identify a buffer solution
 * 2 marks question on the importance of $pH$ in everyday life (e.g. $pH$ of soil, $pH$ of blood, etc.)
-* 1 numerical on $\\frac{K_{w}}{K_{a}}$ or $\\frac{K_{w}}{K_{b}}$ — always
+* 1 numerical on $\frac{K_{w}}{K_{a}}$ or $\frac{K_{w}}{K_{b}}$ — always
 * Medicinal application of coordination compounds: 2 marks question on the use of coordination compounds in medicine (e.g. $cis$-platin, etc.)
 
 
@@ -117,10 +117,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/chemistry-in-everyday-life-class-12-notes) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/chemistry-in-everyday-life-class-12-notes) now and track your progress against thousands of students.
 
 
 ---

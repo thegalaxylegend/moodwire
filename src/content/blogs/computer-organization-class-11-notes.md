@@ -247,7 +247,7 @@ Computer Organization is the study of the structure and operation of a computer'
 
  A student-centric tip for remembering these concepts and their applications is to relate them to real-world scenarios. For example, understanding how a web browser uses cache to quickly reload previously visited pages can make the concept of cache memory more tangible and easier to remember. Similarly, recognizing how multitasking on a computer relies on virtual memory to allocate sufficient memory for running multiple applications simultaneously can deepen one's understanding of virtual memory.
 
- In terms of mnemonics, creating personalized and meaningful associations can be highly effective. For instance, to remember the basic components of a computer system (Control Unit, Arithmetic Logic Unit, Registers, and Input/Output devices), one could use the sentence $CU$ $ALWAYS$ $ROCKS$, where each word corresponds to the first letter of each component.
+ In terms of mnemonics, creating personalized and meaningful associations can be highly effective. For instance, to remember the basic components of a computer system (Control Unit, Arithmetic Logic Unit, Registers, and Input/Output devices), one could use the sentence $CUALWAYSROCKS$, where each word corresponds to the first letter of each component.
 
  **Comparison of Memory Types:**
  | Memory Type | Access Time | Capacity | Cost |
@@ -334,9 +334,8 @@ To execute instructions
 To manage data transfer between devices
 To regulate and manage the flow of data
 
-**Answer:** D) The Control Unit regulates and manages the flow of data by fetching instructions, decoding them, and then executing them. It is responsible for controlling the flow of data within the computer system.
-
-
+**Answer:**
+D) The Control Unit regulates and manages the flow of data by fetching instructions, decoding them, and then executing them. It is responsible for controlling the flow of data within the computer system.
 **2. Which of the following is NOT a characteristic of Von Neumann architecture?**
 Fetch-Decode-Execute cycle
 Use of a Control Unit
@@ -345,16 +344,14 @@ Use of a single bus for data and address
 
 **Answer:** A) The Fetch-Decode-Execute cycle is a characteristic of Von Neumann architecture. It involves fetching an instruction from memory, decoding it, and then executing it. The other options are not characteristics of Von Neumann architecture.
 
-
 **3. What is the primary function of the Arithmetic Logic Unit (ALU) in a computer system?**
 To perform data transfer operations
 To execute instructions
 To perform arithmetic and logical operations
 To manage the flow of data
 
-**Answer:** C) The Arithmetic Logic Unit (ALU) is responsible for performing arithmetic and logical operations such as addition, subtraction, multiplication, division, AND, OR, etc.
-
-
+**Answer:**
+C) The Arithmetic Logic Unit (ALU) is responsible for performing arithmetic and logical operations such as addition, subtraction, multiplication, division, AND, OR, etc.
 **4. Which of the following is an advantage of Hardwired Logic?**
 Flexibility
 High speed
@@ -362,7 +359,6 @@ Low power consumption
 Easy to implement
 
 **Answer:** B) Hardwired Logic is an advantage in terms of speed as it involves direct wiring of circuits, which results in faster execution of instructions.
-
 
 **5. What is the purpose of the Bus in a computer system?**
 To manage data transfer between devices
@@ -373,10 +369,7 @@ To store program and data
 **Answer:** A) The Bus is a communication pathway that allows devices to transfer data to and from the Central Processing Unit (CPU). It manages data transfer between devices and peripherals.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -394,10 +387,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/computer-organization-class-11-notes) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/computer-organization-class-11-notes) now and track your progress against thousands of students.
 
 
 ---

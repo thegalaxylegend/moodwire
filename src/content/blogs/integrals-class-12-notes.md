@@ -46,24 +46,24 @@ practice_link: "/class-11/mathematics/integrals-class-12-notes"
 ### <a id="-derivations-and-proofs"></a>⚡ Derivations and Proofs
 #### Power Rule of Integration
 - Derivation using definition of definite integral:
-  $$\int_{a}^{b} f(x) dx = \lim_{n \to \infty} \sum_{i=1}^{n} f(x_i^*) \Delta x$$
+  \int_{a}^{b} f(x) dx = \lim_{n \to \infty} \sum_{i=1}^{n} f(x_i^*) \Delta x
   For $f(x) = x^n$:
-  $$\int x^n dx = \lim_{n \to \infty} \sum_{i=1}^{n} (x_i^*)^n \Delta x$$
+  \int x^n dx = \lim_{n \to \infty} \sum_{i=1}^{n} (x_i^*)^n \Delta x
   Leading to:
-  $$\int x^n dx = \frac{x^{n+1}}{n+1} + C$$
+  \int x^n dx = \frac{x^{n+1}}{n+1} + C
 
 #### Exponential Integration Formula
 - Derivation using definition of exponential function:
-  $$e^x = \lim_{n \to \infty} \left(1 + \frac{x}{n} \right)^n$$
+  e^x = \lim_{n \to \infty} \left(1 + \frac{x}{n} \right)^n
   Taking derivative and simplifying leads to:
-  $$\int e^x dx = e^x + C$$
+  \int e^x dx = e^x + C
   And more generally:
-  $$\int e^{ax} dx = \frac{1}{a} e^{ax} + C$$
+  \int e^{ax} dx = \frac{1}{a} e^{ax} + C
 
 ### <a id="-integration-techniques"></a>📝 Integration Techniques
 #### Substitution Method
 - General form:
-  $$\int f(g(x)) \cdot g'(x) dx = \int f(u) du$$
+  \int f(g(x)) \cdot g'(x) dx = \int f(u) du
   Where $u = g(x)$ and $du = g'(x) dx$.
 - Key points:
   * Substitute $u = g(x)$
@@ -72,7 +72,7 @@ practice_link: "/class-11/mathematics/integrals-class-12-notes"
 
 #### Integration by Parts
 - General form:
-  $$\int u \cdot dv = u \cdot v - \int v \cdot du$$
+  \int u \cdot dv = u \cdot v - \int v \cdot du
 - Key points:
   * Choose $u$ and $dv$
   * Find $du$ and $v$
@@ -80,7 +80,7 @@ practice_link: "/class-11/mathematics/integrals-class-12-notes"
 
 #### Partial Fractions Decomposition
 - General form for $\frac{1}{(x-a)(x-b)}$:
-  $$\frac{1}{(x-a)(x-b)} = \frac{A}{x-a} + \frac{B}{x-b}$$
+  \frac{1}{(x-a)(x-b)} = \frac{A}{x-a} + \frac{B}{x-b}
 - Key points:
   * Decompose rational function
   * Find common denominator
@@ -89,7 +89,7 @@ practice_link: "/class-11/mathematics/integrals-class-12-notes"
 ### <a id="-applications-of-integrals"></a>📊 Applications of Integrals
 #### Area Between Curves
 - General form:
-  $$A = \int_{a}^{b} (f(x) - g(x)) dx$$
+  A = \int_{a}^{b} (f(x) - g(x)) dx
 - Key points:
   * Define $f(x)$ and $g(x)$
   * Determine limits $a$ and $b$
@@ -97,7 +97,7 @@ practice_link: "/class-11/mathematics/integrals-class-12-notes"
 
 #### Volume of Solids
 - General form for volume:
-  $$V = \int_{a}^{b} \pi (f(x))^2 dx$$
+  V = \int_{a}^{b} \pi (f(x))^2 dx
 - Key points:
   * Define $f(x)$
   * Determine limits $a$ and $b$
@@ -105,7 +105,7 @@ practice_link: "/class-11/mathematics/integrals-class-12-notes"
 
 #### Surface Area
 - General form:
-  $$S = \int_{a}^{b} 2 \pi f(x) \sqrt{1 + (f'(x))^2} dx$$
+  S = \int_{a}^{b} 2 \pi f(x) \sqrt{1 + (f'(x))^2} dx
 - Key points:
   * Define $f(x)$
   * Determine limits $a$ and $b$
@@ -114,35 +114,35 @@ practice_link: "/class-11/mathematics/integrals-class-12-notes"
 ### <a id="-improper-integrals"></a>🔍 Improper Integrals
 #### Definition
 - General form:
-  $$\int_{a}^{\infty} f(x) dx = \lim_{b \to \infty} \int_{a}^{b} f(x) dx$$
+  \int_{a}^{\infty} f(x) dx = \lim_{b \to \infty} \int_{a}^{b} f(x) dx
 - Key points:
   * Infinite limit of integration
   * Evaluate limit
 
 #### Convergence
 - Condition for convergence:
-  $$\int_{a}^{\infty} f(x) dx = \lim_{b \to \infty} \int_{a}^{b} f(x) dx = L$$
+  \int_{a}^{\infty} f(x) dx = \lim_{b \to \infty} \int_{a}^{b} f(x) dx = L
   Where $L$ is finite.
 - Key points:
   * Limit exists and is finite
 
 #### Divergence
 - Condition for divergence:
-  $$\int_{a}^{\infty} f(x) dx = \lim_{b \to \infty} \int_{a}^{b} f(x) dx = \infty$$
+  \int_{a}^{\infty} f(x) dx = \lim_{b \to \infty} \int_{a}^{b} f(x) dx = \infty
 - Key points:
   * Limit does not exist or is infinite
 
 ### <a id="-multiple-integrals"></a>📝 Multiple Integrals
 #### Definition
 - General form:
-  $$\int_{a}^{b} \int_{c}^{d} f(x,y) dy dx$$
+  \int_{a}^{b} \int_{c}^{d} f(x,y) dy dx
 - Key points:
   * Multiple limits of integration
   * Evaluate iteratively
 
 #### Evaluation
 - General approach:
-  $$\int_{a}^{b} \int_{c}^{d} f(x,y) dy dx = \int_{a}^{b} \left( \int_{c}^{d} f(x,y) dy \right) dx$$
+  \int_{a}^{b} \int_{c}^{d} f(x,y) dy dx = \int_{a}^{b} \left( \int_{c}^{d} f(x,y) dy \right) dx
 - Key points:
   * Integrate with respect to one variable
   * Then integrate with respect to the other variable
@@ -150,21 +150,21 @@ practice_link: "/class-11/mathematics/integrals-class-12-notes"
 ### <a id="-applications-of-multiple-integrals"></a>🔍 Applications of Multiple Integrals
 #### Volume of Solids
 - General form for volume:
-  $$V = \int \int \int_{D} dV$$
+  V = \int \int \int_{D} dV
 - Key points:
   * Define region $D$
   * Evaluate triple integral
 
 #### Surface Area
 - General form:
-  $$S = \int \int_{D} \sqrt{1 + (f_x)^2 + (f_y)^2} dA$$
+  S = \int \int_{D} \sqrt{1 + (f_x)^2 + (f_y)^2} dA
 - Key points:
   * Define function $f(x,y)$
   * Evaluate double integral
 
 #### Moments of Inertia
 - General form:
-  $$I = \int \int_{D} (x^2 + y^2) \rho(x,y) dA$$
+  I = \int \int_{D} (x^2 + y^2) \rho(x,y) dA
 - Key points:
   * Define density function $\rho(x,y)$
   * Evaluate double integral
@@ -173,17 +173,17 @@ practice_link: "/class-11/mathematics/integrals-class-12-notes"
 
 #### #### Volume of Solids:
 The volume of a solid can be found using a multiple integral. The general form of the volume of a solid is:
-$$V = \int_{a}^{b} \int_{c}^{d} f(x,y) dy dx$$
+V = \int_{a}^{b} \int_{c}^{d} f(x,y) dy dx
 where $f(x,y)$ is the height of the solid at the point $(x,y)$.
 
 #### #### Surface Area:
 The surface area of a solid can be found using a multiple integral. The general form of the surface area is:
-$$S = \int_{a}^{b} \int_{c}^{d} \sqrt{1 + (f_x(x,y))^2 + (f_y(x,y))^2} dy dx$$
+S = \int_{a}^{b} \int_{c}^{d} \sqrt{1 + (f_x(x,y))^2 + (f_y(x,y))^2} dy dx
 where $f_x(x,y)$ and $f_y(x,y)$ are the partial derivatives of $f(x,y)$ with respect to $x$ and $y$, respectively.
 
 #### #### Center of Mass:
 The center of mass of a solid can be found using a multiple integral. The general form of the center of mass is:
-$$\bar{x} = \frac{\int_{a}^{b} \int_{c}^{d} x \rho(x,y) dy dx}{\int_{a}^{b} \int_{c}^{d} \rho(x,y) dy dx}$$
+\bar{x} = \frac{\int_{a}^{b} \int_{c}^{d} x \rho(x,y) dy dx}{\int_{a}^{b} \int_{c}^{d} \rho(x,y) dy dx}
 where $\rho(x,y)$ is the density of the solid at the point $(x,y)$.
 
 ## <a id="-the-5-trap-mistakes"></a>🪤 The 5 Trap Mistakes
@@ -275,10 +275,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/integrals-class-12-notes) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/integrals-class-12-notes) now and track your progress against thousands of students.
 
 
 ---

@@ -91,9 +91,9 @@ The s-block elements are characterized by the filling of the s-orbitals. The s-o
 
 ### <a id="electronic-configuration-of-sblock-elements"></a>Electronic Configuration of S-Block Elements
 The electronic configuration of the s-block elements can be written as:
-$$ns^1$$
+ns^1
 for the alkali metals and
-$$ns^2$$
+ns^2
 for the alkaline earth metals, where n is the principal quantum number.
 
 ### <a id="properties-of-sblock-elements"></a>Properties of S-Block Elements
@@ -105,7 +105,7 @@ The s-block elements have several properties that make them unique. They are hig
 ## <a id="shortcut-formula-trick"></a>Shortcut Formula / Trick
 
 One shortcut formula that can be used to remember the properties of the s-block elements is:
-$$\text{Reactivity} \propto \frac{1}{\text{Ionization Energy}}$$
+\text{Reactivity} \propto \frac{1}{\text{Ionization Energy}}
 This formula states that the reactivity of an element is inversely proportional to its ionization energy. This means that elements with low ionization energy are highly reactive, while elements with high ionization energy are less reactive.
 
 
@@ -187,16 +187,7 @@ For more information on the s-block elements, you can refer to the following [no
 Last Updated: March 15, 2026
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -214,10 +205,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/the-s-block-elements-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/the-s-block-elements-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 
 ---

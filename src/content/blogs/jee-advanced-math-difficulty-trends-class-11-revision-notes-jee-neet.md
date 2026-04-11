@@ -95,16 +95,7 @@ To adapt to this shifting curve:
 Mastering JEE Advanced Mathematics is no longer about doing 500 repetitive problems from a coaching module; it's about doing 50 high-quality, multi-conceptual problems and deeply analyzing the underlying logic.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -122,10 +113,7 @@ Continue your [revision](/blog/structure-of-atom-class-11-revision-notes-jee-nee
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/jee-advanced-math-difficulty-trends-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/jee-advanced-math-difficulty-trends-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 
 ---

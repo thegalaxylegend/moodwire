@@ -127,16 +127,7 @@ Aim for at least 15 mock tests (5 per major subject). This builds the stamina ne
 Focus on the "Safe Zone" chapters like Statistics and Probability first. These carry high weightage and are easier to master, ensuring you secure a solid foundation before moving to tougher topics like Trigonometry.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -154,10 +145,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/class-10-30-day-timetable-class-10-revision-notes-jee) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/class-10-30-day-timetable-class-10-revision-notes-jee) now and track your progress against thousands of students.
 
 
 ---

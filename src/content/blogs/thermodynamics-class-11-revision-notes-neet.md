@@ -178,16 +178,7 @@ The Second Law sets the direction of energy transfer and limits efficiency.
 **Reference:** [Journal of Thermal Science and Engineering](https://www.journals.elsevier.com)
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -205,10 +196,7 @@ Continue your [revision](/blog/current-electricity-class-11-revision-notes-neet)
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/thermodynamics-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/thermodynamics-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
 
 ---

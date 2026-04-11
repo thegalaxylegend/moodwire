@@ -121,16 +121,7 @@ Remember, a strong foundation in history can significantly enhance your understa
 By following these tips and staying committed to your studies, you'll be well on your way to developing a deep understanding of Medieval India and its significance in the broader context of Indian history.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -148,10 +139,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/medieval-india-bhakti-sufi-class-11-revision-notes-cbse) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/medieval-india-bhakti-sufi-class-11-revision-notes-cbse) now and track your progress against thousands of students.
 
 
 ---

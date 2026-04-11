@@ -30,12 +30,12 @@ practice_link: "/class-11/physics/dual-nature-of-radiation-class-12-notes"
 
 
 ## <a id="-what-will-come-in-your-exam"></a>🎯 What WILL Come in Your Exam
-* 1 numerical on $E = h\\nu$ and $E = \\frac{hc}{\\lambda}$ — always
-* Photoelectric effect graph — NEET favourite, expect a question on finding work function ($\\phi$) or threshold wavelength ($\\lambda_0$)
-* 1 question on Einstein's photoelectric equation: $K_{\\max} = h\\nu - \\phi$, with a twist (e.g., finding $h$ or $\\phi$)
-* Dual nature of radiation — expect 1 MCQ on wave-particle duality, comparing $\\lambda$ and $\\nu$ of radiation
-* Compton scattering — 1 question on $\\Delta \\lambda$ and its relation to scattering angle ($\\theta$), using $\\Delta \\lambda = \\frac{h}{m_0c}(1 - \\cos\\theta)$
-* Numerical on de Broglie wavelength ($\\lambda = \\frac{h}{p}$) of particles — expect 1 question, possibly with a relativistic twist ($\\lambda = \\frac{h}{\\gamma m_0v}$)
+* 1 numerical on $E = h\nu$ and $E = \frac{hc}{\lambda}$ — always
+* Photoelectric effect graph — NEET favourite, expect a question on finding work function ($\phi$) or threshold wavelength ($\lambda_0$)
+* 1 question on Einstein's photoelectric equation: $K_{\max} = h\nu - \phi$, with a twist (e.g., finding $h$ or $\phi$)
+* Dual nature of radiation — expect 1 MCQ on wave-particle duality, comparing $\lambda$ and $\nu$ of radiation
+* Compton scattering — 1 question on $\Delta \lambda$ and its relation to scattering angle ($\theta$), using $\Delta \lambda = \frac{h}{m_0c}(1 - \cos\theta)$
+* Numerical on de Broglie wavelength ($\lambda = \frac{h}{p}$) of particles — expect 1 question, possibly with a relativistic twist ($\lambda = \frac{h}{\gamma m_0v}$)
 
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
@@ -165,9 +165,8 @@ Compton scattering
 Interference
 Diffraction
 
-**Answer:** A) The photoelectric effect is a phenomenon where light hitting a metal surface can cause electrons to be emitted. This effect demonstrates the particle nature of light, as it shows that light can behave as particles (now called photons) with discrete energies.
-
-
+**Answer:**
+A) The photoelectric effect is a phenomenon where light hitting a metal surface can cause electrons to be emitted. This effect demonstrates the particle nature of light, as it shows that light can behave as particles (now called photons) with discrete energies.
 **2. The dual nature of radiation was proposed by**
 Louis de Broglie
 Albert Einstein
@@ -176,16 +175,14 @@ Max Planck
 
 **Answer:** A) Louis de Broglie proposed the dual nature of radiation, stating that not only does light have both wave-like and particle-like properties, but particles such as electrons also exhibit wave-like behavior.
 
-
 **3. What is the de Broglie wavelength of a particle?**
 λ = h / (2mv)
 λ = h / (mv)
 λ = h / p
 λ = 2h / p
 
-**Answer:** C) The de Broglie wavelength of a particle is given by λ = h / p, where λ is the wavelength, h is Planck's constant, and p is the momentum of the particle.
-
-
+**Answer:**
+C) The de Broglie wavelength of a particle is given by λ = h / p, where λ is the wavelength, h is Planck's constant, and p is the momentum of the particle.
 **4. The wave nature of radiation is demonstrated by**
 Photoelectric effect
 Compton scattering
@@ -193,7 +190,6 @@ Interference and diffraction
 Pair production
 
 **Answer:** C) The wave nature of radiation is demonstrated by interference and diffraction experiments, which show that light can exhibit wave-like behavior such as superposition and bending around obstacles.
-
 
 **5. The energy of a photon is given by**
 E = mc^2

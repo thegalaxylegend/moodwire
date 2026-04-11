@@ -106,16 +106,7 @@ By applying the 80/20 rule, you transform your NEET preparation from an exhausti
 **Next Steps.** Jump into the [NEET Biology Questions Database](/neet) and filter by "Molecular Basis of Inheritance" to lock in those high-yield concepts immediately.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -133,10 +124,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/neet-biology-80-20-rule-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/neet-biology-80-20-rule-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
 
 ---

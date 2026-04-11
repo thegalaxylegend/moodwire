@@ -312,9 +312,10 @@ The following table summarizes some common trap questions and their solutions:
 0.314 T
 1.57 × 10^-3 T
 
-**Answer:** B) Using the formula for the magnetic field at the centre of a solenoid, B = μ0nI, where μ0 = 4π × 10^-7 Tm/A, n = number of turns per unit length, and I = current. Assuming a length of 1 m, n = 100 turns/1m, and B = (4π × 10^-7 Tm/A) × (100 turns/m) × (2 A) = 1.57 × 10^-2 T or 0.157 T.
-
-
+**Answer:**
+B) Using the formula for the magnetic field at the centre of a solenoid, B = μ0nI, where μ0 = 4π × 10^-7 Tm/A, n = number of turns per unit length, and I = current. Assuming a length of 1 m, n = 100 turns/1m, and B = (4π × 10^-7 Tm/
+A) × (100 turns/m) × (2
+A) = 1.57 × 10^-2 T or 0.157 T.
 **2. A circular coil of radius 0.1 m has a current of 5 A flowing through it. The magnitude of the magnetic field at its centre is approximately**
 0.0019 T
 0.00019 T
@@ -323,8 +324,8 @@ The following table summarizes some common trap questions and their solutions:
 
 **Answer:** C) Using the formula for the magnetic field at the centre of a circular coil, B = (μ0I)/(2r), which simplifies to B = (4π × 10^-7 Tm/A) × (5 A)/(2 × 0.1 m) = 0.0197 T or approximately 0.019 T.
 
-
-**3. A straight wire of length 2 m carries a current of 10 A. The magnetic field at a point 0.2 m away from the wire is**
+**3. A straight wire of length 2 m carries a current of 10
+A. The magnetic field at a point 0.2 m away from the wire is**
 0.004 T
 0.002 T
 1 × 10^-3 T
@@ -332,16 +333,16 @@ The following table summarizes some common trap questions and their solutions:
 
 **Answer:** B) Using the formula for the magnetic field due to a straight wire, B = (μ0I)/(2πr), which simplifies to B = (4π × 10^-7 Tm/A) × (10 A) / (2π × 0.2 m) = 0.0016 T or 1.6 × 10^-3 T or approximately 0.002 T.
 
-
 **4. A circular coil of radius 0.2 m has a current of 10 A flowing through it. The magnitude of the magnetic field at a point on its axis at a distance of 0.4 m from the centre is approximately**
 0.002 T
 0.02 T
 0.0002 T
 0.2 T
 
-**Answer:** A) Using the formula for the magnetic field at a point on the axis of a circular coil, B = (μ0I)/(2r^2) × (x/r), which simplifies to B = (4π × 10^-7 Tm/A) × (10 A)/(2 × (0.2 m)^2) × (0.4 m/0.2 m) = 0.0016 T or 1.6 × 10^-3 T or approximately 0.002 T.
-
-
+**Answer:**
+A) Using the formula for the magnetic field at a point on the axis of a circular coil, B = (μ0I)/(2r^2) × (x/r), which simplifies to B = (4π × 10^-7 Tm/
+A) × (10
+A) /(2 × (0.2 m)^2) × (0.4 m/0.2 m) = 0.0016 T or 1.6 × 10^-3 T or approximately 0.002 T.
 **5. A coil has 100 turns and a current of 2 A flowing through it. The magnetic field at its centre is**
 0.2 T
 1.57 T
@@ -351,10 +352,7 @@ The following table summarizes some common trap questions and their solutions:
 **Answer:** B) Using the formula for the magnetic field at the centre of a solenoid, B = μ0nI, where μ0 = 4π × 10^-7 Tm/A, n = number of turns per unit length, and I = current. Assuming a length of 1 m, n = 100 turns/1m, and B = (4π × 10^-7 Tm/A) × (100 turns/m) × (2 A) = 1.57 × 10^-2 T or 0.157 T.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -372,10 +370,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/magnetic-effects-of-current-class-12-notes) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/magnetic-effects-of-current-class-12-notes) now and track your progress against thousands of students.
 
 
 ---
@@ -388,3 +383,4 @@ Continue your revision with these related guides:
 - 📖 [Electromagnetic Induction Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
 - 📖 [Electrostatics Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electrostatics-class-12-revision-notes-jee-neet)
 - 📖 [Alternating Current Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/alternating-current-class-12-notes)
+

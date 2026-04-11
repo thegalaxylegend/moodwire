@@ -57,12 +57,16 @@ As I reflect on my journey, I realize that Permutations and Combinations are not
 In the following sections, we'll explore the world of Permutations and Combinations in more detail, covering topics such as the fundamental counting [principle](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee), permutations, combinations, and more. We'll work through examples and practice problems, and I'll share tips and strategies that helped me succeed in this topic. By the end of this journey, you'll be well-equipped to tackle even the toughest problems in Permutations and Combinations, and you'll have a deeper appreciation for the beauty and complexity of this subject. Whether you're a math enthusiast or just looking to improve your grades, this topic has something to offer everyone. So, let's get started and embark on this exciting journey into the world of Permutations and Combinations. 
 
 To further illustrate the concept, let's consider a block of math:
-$$
+
 \begin{aligned}
+
 nPr &= \frac{n!}{(n-r)!} \\
+
 nCr &= \frac{n!}{r!(n-r)!}
+
+
 \end{aligned}
-$$
+
 These formulas are the foundation of Permutations and Combinations, and understanding them is crucial to solving problems in this topic. As we progress, we'll see how these formulas are applied in various contexts, from simple calculations to complex problems. With practice and dedication, you'll become proficient in using these formulas to solve a wide range of problems, and you'll develop a deeper appreciation for the beauty and complexity of Permutations and Combinations.
 
 
@@ -239,7 +243,7 @@ To further illustrate the concepts of permutations and combinations, consider th
 
 ## <a id="what-is-the-concept-of-factorials-in-permutations-and-combinations"></a>What is the concept of Factorials in Permutations and Combinations?
 
-What is the concept of Factorials in Permutations and Combinations? is a mathematical operation that involves the product of all positive integers up to a given number. It includes the concept of factorial notation, the relationship between factorials and permutations, and the application of factorials in combinations. For Class 11 exam prep in 2026, the most important aspect is understanding how factorials are used to calculate permutations and combinations, as this is a fundamental concept in mathematics and statistics. The factorial of a non-negative integer $n$, denoted by $n!$, is the product of all positive integers less than or equal to $n$. The factorial operation is defined as: $n! = n 	imes (n-1) 	imes (n-2) 	imes cdots 	imes 2 	imes 1$. For example, $5! = 5 	imes 4 	imes 3 	imes 2 	imes 1 = 120$. Factorials are used to calculate the number of ways to arrange objects in a particular order, which is known as permutations. The number of permutations of $n$ objects is given by $n!$. Factorials are also used to calculate the number of ways to choose $r$ objects from a set of $n$ objects, which is known as combinations. The number of combinations of $n$ objects taken $r$ at a time is given by: $$inom{n}{r} = \frac{n!}{r!(n-r)!}$$. This formula is used to calculate the number of ways to choose $r$ objects from a set of $n$ objects, without regard to the order in which they are chosen.
+What is the concept of Factorials in Permutations and Combinations? is a mathematical operation that involves the product of all positive integers up to a given number. It includes the concept of factorial notation, the relationship between factorials and permutations, and the application of factorials in combinations. For Class 11 exam prep in 2026, the most important aspect is understanding how factorials are used to calculate permutations and combinations, as this is a fundamental concept in mathematics and statistics. The factorial of a non-negative integer $n$, denoted by $n!$, is the product of all positive integers less than or equal to $n$. The factorial operation is defined as: $n! = n 	imes (n-1) 	imes (n-2) 	imes cdots 	imes 2 	imes 1$. For example, $5! = 5 	imes 4 	imes 3 	imes 2 	imes 1 = 120$. Factorials are used to calculate the number of ways to arrange objects in a particular order, which is known as permutations. The number of permutations of $n$ objects is given by $n!$. Factorials are also used to calculate the number of ways to choose $r$ objects from a set of $n$ objects, which is known as combinations. The number of combinations of $n$ objects taken $r$ at a time is given by: inom{n}{r} = \frac{n!}{r!(n-r)!}. This formula is used to calculate the number of ways to choose $r$ objects from a set of $n$ objects, without regard to the order in which they are chosen.
 
 
 | Factorial | Permutation | Combination |
@@ -308,9 +312,8 @@ How do you solve Higher-Order Permutations and Combinations problems? is a mathe
 20
 24
 
-**Answer:** A) The number of ways to arrange 4 different items in a circle is given by (4-1)! = 3! = 6.
-
-
+**Answer:**
+A) The number of ways to arrange 4 different items in a circle is given by (4-1)! = 3! = 6.
 **2. **
 60
 120
@@ -319,16 +322,14 @@ How do you solve Higher-Order Permutations and Combinations problems? is a mathe
 
 **Answer:** B) The total number of permutations of 5 different items taken 3 at a time is given by 5P3 = 5! / (5-3)! = 60.
 
-
 **3. **
 9
 18
 27
 36
 
-**Answer:** C) The number of ways to choose 3 items from a set of 6 distinct items is given by 6C3 = 6! / (3! * (6-3)!) = 20, but one of the items is repeated 3 times, so the number is 6C3 * 3! / 3! = 6C3 = 20.
-
-
+**Answer:**
+C) The number of ways to choose 3 items from a set of 6 distinct items is given by 6C3 = 6! / (3! * (6-3)!) = 20, but one of the items is repeated 3 times, so the number is 6C3 * 3! / 3! = 6C3 = 20.
 **4. **
 24
 36
@@ -336,7 +337,6 @@ How do you solve Higher-Order Permutations and Combinations problems? is a mathe
 60
 
 **Answer:** A) The total number of ways to choose 4 items from a set of 5 distinct items and then arrange them in a particular order is given by 5C4 * 4P4 = 5 * 24 = 120, but one of the items is repeated 4 times, so the number is 5C3 * 4! / 4! = 5C3 = 10, and then arrange them in 4P4 = 24 ways, so total number of ways is 10 * 24 = 240.
-
 
 **5. **
 120
@@ -347,13 +347,7 @@ How do you solve Higher-Order Permutations and Combinations problems? is a mathe
 **Answer:** A) The total number of ways to choose 5 items from a set of 7 distinct items and then arrange them in a particular order is given by 7C5 * 5P5 = 21 * 120 = 2520, but one of the items is repeated 5 times, so the number is 7C2 * 5! / 5! = 21, and then arrange them in 5P5 = 120 ways, so total number of ways is 21 * 120 = 2520.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -371,10 +365,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/permutations-and-combinations-class-11-revision-notes-jee) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/permutations-and-combinations-class-11-revision-notes-jee) now and track your progress against thousands of students.
 
 
 ---

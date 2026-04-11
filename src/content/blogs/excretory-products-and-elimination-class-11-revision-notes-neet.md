@@ -65,11 +65,11 @@ The following formulae are relevant to the excretory system:
 
 * **Glomerular filtration rate (GFR)**: The rate at which the kidneys filter the blood to remove waste products and excess substances. The GFR can be calculated using the following formula:
 
-$$\text{GFR} = \frac{\text{urine output} \times \text{urea concentration in urine}}{\text{urea concentration in blood}}$$
+\text{GFR} = \frac{\text{urine output} \times \text{urea concentration in urine}}{\text{urea concentration in blood}}
 
 * **Cockcroft-Gault equation**: An equation used to estimate the GFR based on serum creatinine levels, age, sex, and weight:
 
-$$\text{GFR} = \frac{(140 - \text{age}) \times \text{weight} \times (0.85 \text{ if female})}{72 \times \text{serum creatinine}}$$
+\text{GFR} = \frac{(140 - \text{age}) \times \text{weight} \times (0.85 \text{ if female})}{72 \times \text{serum creatinine}}
 
 ### <a id="jeeneet-data"></a>JEE/NEET Data
 The excretory system is an important topic in the JEE and [neet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) exams. The following data is relevant to the excretory system:
@@ -197,16 +197,7 @@ The following JEE/NEET data is relevant to the excretory system:
 This data is essential for understanding the functions of the excretory system, and for success in the JEE and NEET exams.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -224,10 +215,7 @@ Continue your [revision](/blog/biological-classification-class-11-revision-notes
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/excretory-products-and-elimination-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/excretory-products-and-elimination-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
 
 ---

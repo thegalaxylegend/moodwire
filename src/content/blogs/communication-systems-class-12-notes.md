@@ -31,13 +31,13 @@ practice_link: "/class-11/physics/communication-systems-class-12-notes"
 
 ## <a id="-what-will-come-in-your-exam"></a>🎯 What WILL Come in Your Exam
 * 1 numerical on signal-to-noise ratio (SNR) -- always 
-* Amplitude Modulation (AM) wave equation: $A_{\\total}(t) = A_c \\\cos(\\omega_c t) + A_m \\\cos(\\omega_m t)$ -- derivation and explanation required
+* Amplitude Modulation (AM) wave equation: $A_{\total}(t) = A_c \\cos(\omega_c t) + A_m \\cos(\omega_m t)$ -- derivation and explanation required
 * Frequency Modulation (FM) and Phase Modulation (PM) waveforms -- identification and comparison
 * Comparison of AM and FM -- always 2 marks
 * Basic block diagram of a communication system -- transmitter, receiver, and channel
-* $SNR = \\frac{P_{signal}}{P_{noise}}$ -- formula must be stated
+* $SNR = \frac{P_{signal}}{P_{noise}}$ -- formula must be stated
 * Bandwidth and frequency allocation -- 1 mark
-* Standard AM waveform $y(t) = A_c \\\cos(\\omega_c t) + A_m \\\cos(\\omega_m t)$ -- sketching and explanation
+* Standard AM waveform $y(t) = A_c \\cos(\omega_c t) + A_m \\cos(\omega_m t)$ -- sketching and explanation
 * Definition and explanation of terms: attenuation, amplification, and modulation index -- always 1 mark
 
 
@@ -48,13 +48,13 @@ practice_link: "/class-11/physics/communication-systems-class-12-notes"
 
 | Formula | Variables |
 | --- | --- |
-| $$\text{Signal-to-Noise Ratio (SNR)} = \frac{P_s}{P_n}$$ | P_s: Signal Power, P_n: Noise Power |
-| $$\text{Bandwidth (B)} = f_h - f_l$$ | f_h: Higher Frequency, f_l: Lower Frequency |
-| $$\text{Channel Capacity (C)} = B \times \log_2(1 + \frac{S}{N})$$ | B: Bandwidth, S: Signal Power, N: Noise Power |
-| $$\text{Shannon-Hartley Theorem: } C = B \times \log_2(1 + \frac{P_s}{P_n})$$ | C: Channel Capacity, B: Bandwidth, P_s: Signal Power, P_n: Noise Power |
-| $$\text{Bit Error Rate (BER)} = \frac{1}{2} \times \text{erfc}\left(\sqrt{\frac{E_b}{N_0}}\right)$$ | E_b: Energy per Bit, N_0: Noise Power Spectral Density |
-| $$\text{Nyquist Rate: } f_s = 2B$$ | f_s: Sampling Frequency, B: Bandwidth |
-| $$\text{Sampling Theorem: } f_s \geq 2f_m$$ | f_s: Sampling Frequency, f_m: Maximum Frequency |
+| \text{Signal-to-Noise Ratio (SNR)} = \frac{P_s}{P_n} | P_s: Signal Power, P_n: Noise Power |
+| \text{Bandwidth (B)} = f_h - f_l | f_h: Higher Frequency, f_l: Lower Frequency |
+| \text{Channel Capacity (C)} = B \times \log_2(1 + \frac{S}{N}) | B: Bandwidth, S: Signal Power, N: Noise Power |
+| \text{Shannon-Hartley Theorem: } C = B \times \log_2(1 + \frac{P_s}{P_n}) | C: Channel Capacity, B: Bandwidth, P_s: Signal Power, P_n: Noise Power |
+| \text{Bit Error Rate (BER)} = \frac{1}{2} \times \text{erfc}\left(\sqrt{\frac{E_b}{N_0}}\right) | E_b: Energy per Bit, N_0: Noise Power Spectral Density |
+| \text{Nyquist Rate: } f_s = 2B | f_s: Sampling Frequency, B: Bandwidth |
+| \text{Sampling Theorem: } f_s \geq 2f_m | f_s: Sampling Frequency, f_m: Maximum Frequency |
 
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
@@ -165,9 +165,8 @@ To convert mechanical energy to electrical energy
 To amplify weak signals
 To decode digital signals
 
-**Answer:** B) A transducer converts mechanical energy to electrical energy, enabling the transmission of signals over long distances.
-
-
+**Answer:**
+B) A transducer converts mechanical energy to electrical energy, enabling the transmission of signals over long distances.
 **2. Which of the following is a characteristic of AM wave?**
 It has a constant amplitude and varying frequency
 It has a constant frequency and varying amplitude
@@ -176,16 +175,14 @@ It has a constant amplitude and constant frequency
 
 **Answer:** B) AM (Amplitude Modulation) wave has a constant frequency and varying amplitude, which is achieved by modulating the carrier wave with the message signal.
 
-
 **3. What is the purpose of modulation in a communication system?**
 To increase the frequency of the signal
 To decrease the amplitude of the signal
 To transmit low-frequency signals over long distances
 To reduce the noise in the signal
 
-**Answer:** C) The primary purpose of modulation is to transmit low-frequency signals, such as audio or video, over long distances by superimposing them on a high-frequency carrier wave.
-
-
+**Answer:**
+C) The primary purpose of modulation is to transmit low-frequency signals, such as audio or video, over long distances by superimposing them on a high-frequency carrier wave.
 **4. Which type of noise is caused by random fluctuations in the receiver?**
 Thermal noise
 Shot noise
@@ -193,7 +190,6 @@ Flicker noise
 External noise
 
 **Answer:** A) Thermal noise, also known as Johnson-Nyquist noise, is caused by the random motion of electrons in the receiver, resulting in a noisy signal.
-
 
 **5. What is the term for the range of frequencies that a communication system can transmit?**
 Bandwidth

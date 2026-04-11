@@ -32,11 +32,11 @@ practice_link: "/class-11/physics/nuclei-class-12-notes"
 ## <a id="-what-will-come-in-your-exam"></a>🎯 What WILL Come in Your Exam
 * 1 numerical on binding energy per nucleon — always
 * Nuclear stability curve — JEE favourite, expect a graph-based question
-* $E = \\Delta mc^2$ derivation and application — high-yield topic
+* $E = \Delta mc^2$ derivation and application — high-yield topic
 * Radioactive decay series — 1 question on mode of decay and half-life, always
 * Nuclear fission and fusion reactions — balanced equations and energy release, expect 1-2 questions
 * Mass defect and packing fraction — 1 numerical, always
-* $\\frac{N}{Z}$ ratio and its relation to nuclear stability — NEET favourite, expect a short-answer question
+* $\frac{N}{Z}$ ratio and its relation to nuclear stability — NEET favourite, expect a short-answer question
 * Nuclear reactions with $Q$-value — 1 numerical, always
 
 
@@ -47,12 +47,12 @@ practice_link: "/class-11/physics/nuclei-class-12-notes"
 
 | Formula | Variable Meaning |
 | --- | --- |
-| $$E = \Delta mc^2$$ | E: Energy, \Delta m: Mass defect, c: Speed of light |
-| $$\lambda = \frac{h}{m v}$$ | \lambda: De Broglie wavelength, h: Planck's constant, m: Mass, v: Velocity |
-| $$R = R_0 A^{\frac{1}{3}}$$ | R: Nuclear radius, $R_0$: Constant, A: Mass number |
-| $$E_{binding} = \frac{3}{5} \frac{3 Z^2 e^2}{4 \pi \epsilon_0 R}$$ | $E_{binding}$: Binding energy, Z: Atomic number, e: Charge, $\epsilon_0$: Permittivity |
-| $$\frac{N}{N_0} = e^{-\lambda t}$$ | N: Number of nuclei, $N_0$: Initial number, \lambda: Decay constant, t: Time |
-| $$T_{\frac{1}{2}} = \frac{0.693}{\lambda}$$ | $T_{\frac{1}{2}}$: Half-life, \lambda: Decay constant |
+| E = \Delta mc^2 | E: Energy, \Delta m: Mass defect, c: Speed of light |
+| \lambda = \frac{h}{m v} | \lambda: De Broglie wavelength, h: Planck's constant, m: Mass, v: Velocity |
+| R = R_0 A^{\frac{1}{3}} | R: Nuclear radius, $R_0$: Constant, A: Mass number |
+| E_{binding} = \frac{3}{5} \frac{3 Z^2 e^2}{4 \pi \epsilon_0 R} | $E_{binding}$: Binding energy, Z: Atomic number, e: Charge, $\epsilon_0$: Permittivity |
+| \frac{N}{N_0} = e^{-\lambda t} | N: Number of nuclei, $N_0$: Initial number, \lambda: Decay constant, t: Time |
+| T_{\frac{1}{2}} = \frac{0.693}{\lambda} | $T_{\frac{1}{2}}$: Half-life, \lambda: Decay constant |
 
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
@@ -67,10 +67,10 @@ When solving problems related to nuclei, watch out for these common mistakes:
  Mistake: Writing the nuclear reaction equation without balancing the mass and atomic numbers using $A$ and $Z$, 
  Costs: 2 marks, 
  Fix: Ensure $A_i = A_f$ and $Z_i = Z_f$. 
- Mistake: Calculating the binding energy per nucleon $B.E./A$ without using $B.E. = (\Delta m) \\times c^2$, 
+ Mistake: Calculating the binding energy per nucleon $B.E./A$ without using $B.E. = (\Delta m) \times c^2$, 
  Costs: 4 marks, 
- Fix: Calculate $\Delta m$ first then apply $B.E. = (\Delta m) \\times c^2$. 
- Mistake: Not considering the units when using $R = 1.2 \\times 10^{-15}m \\times A^{\frac{1}{3}}$ to calculate nuclear radius, 
+ Fix: Calculate $\Delta m$ first then apply $B.E. = (\Delta m) \times c^2$. 
+ Mistake: Not considering the units when using $R = 1.2 \times 10^{-15}m \times A^{\frac{1}{3}}$ to calculate nuclear radius, 
  Costs: 2 marks, 
  Fix: Ensure the units are in meters.
 
@@ -80,7 +80,7 @@ When solving problems related to nuclei, watch out for these common mistakes:
 | Using $E = mc^2$ without converting mass to kg | Full 4 marks | Always convert grams to kg |
 | Forgetting $\frac{1}{2}mv^2$ in binding energy calculation | 3 marks | Always calculate kinetic energy of nucleus |
 | Not balancing mass and atomic numbers | 2 marks | Ensure $A_i = A_f$ and $Z_i = Z_f$ |
-| Incorrect binding energy per nucleon calculation | 4 marks | Calculate $\Delta m$ first then apply $B.E. = (\Delta m) \\times c^2$ |
+| Incorrect binding energy per nucleon calculation | 4 marks | Calculate $\Delta m$ first then apply $B.E. = (\Delta m) \times c^2$ |
 | Ignoring units in nuclear radius calculation | 2 marks | Ensure units are in meters |
 
 
@@ -192,9 +192,8 @@ Key Formulas:
 3.3 MeV
 4.4 MeV
 
-**Answer:** A) Deuteron has a binding energy of 2.2 MeV
-
-
+**Answer:**
+A) Deuteron has a binding energy of 2.2 MeV
 **2. Which of the following radioactive decay modes involves the emission of an alpha particle?**
 Beta minus decay
 Beta plus decay
@@ -203,16 +202,14 @@ Alpha decay
 
 **Answer:** D) Alpha decay involves the emission of an alpha particle (2 protons and 2 neutrons) from the nucleus
 
-
 **3. The process by which two or more atomic nuclei combine to form a single, heavier nucleus is called**
 Nuclear fission
 Nuclear fusion
 Radioactive decay
 Nuclear reaction
 
-**Answer:** B) Nuclear fusion is the process where two or more nuclei combine to form a heavier nucleus
-
-
+**Answer:**
+B) Nuclear fusion is the process where two or more nuclei combine to form a heavier nucleus
 **4. The nuclear reaction 2H2 + 2H2 → 3H2 + 1H1 + Energy is an example of**
 Nuclear fission
 Nuclear fusion
@@ -220,7 +217,6 @@ Radioactive decay
 Nuclear reaction
 
 **Answer:** B) This reaction represents the combination of nuclei to form a heavier nucleus, which is nuclear fusion
-
 
 **5. The half-life of a radioactive substance is**
 The time taken for the substance to decay completely

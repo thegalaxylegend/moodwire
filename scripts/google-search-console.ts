@@ -24,7 +24,7 @@ const REPORTS_DIR = path.join(__dirname, '../jules-reports');
 const PUBLIC_REPORTS_DIR = path.join(__dirname, '../public/jules-reports');
 const OUTPUT_FILE = path.join(REPORTS_DIR, 'search-intelligence.json');
 const PUBLIC_OUTPUT_FILE = path.join(PUBLIC_REPORTS_DIR, 'search-intelligence.json');
-const SITE_URL = 'https://examcompass.pages.dev';
+const SITE_URL = 'https://examcompass.pages.dev/';
 
 async function main() {
     console.log('\n📊 Google Search Console Intelligence v1.0');

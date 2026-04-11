@@ -67,9 +67,15 @@ To master the structure of an atom, it's essential to understand the following c
 The following formulae are essential for understanding the structure of an atom:
 
 1. **Atomic Mass**: The atomic mass is the average mass of an atom, and it's calculated using the formula:
+
 \[ \text{Atomic Mass} = \frac{\text{Mass of Protons} + \text{Mass of Neutrons}}{\text{Number of Atoms}} \]
+
+
 2. **Electron Velocity**: The electron velocity is the speed at which an electron orbits the nucleus, and it's calculated using the formula:
+
 \[ v = \frac{Ze^2}{2 \epsilon_0 n \hbar} \]
+
+
 where Z is the atomic number, e is the elementary charge, $\epsilon_0$ is the vacuum permittivity, n is the principal quantum number, and $\hbar$ is the reduced Planck constant.
 
 
@@ -96,13 +102,7 @@ The structure of an atom is a crucial topic for JEE/[neet](/blog/classification-
 ## <a id="mcqs"></a>MCQs
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -120,10 +120,7 @@ Continue your [revision](/blog/classification-of-elements-class-11-revision-note
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/structure-of-the-atom-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/structure-of-the-atom-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
 
 ---

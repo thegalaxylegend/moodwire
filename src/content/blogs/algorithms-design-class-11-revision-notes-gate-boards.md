@@ -251,13 +251,13 @@ To apply dynamic programming, we need to follow these steps:
 5. **Use the memoization table**: Use the memoization table to construct the solution to the original problem.
 
 Let's consider the example of the Fibonacci series, which is a classic problem that can be solved using dynamic programming. The Fibonacci series is defined as: $F(n) = F(n-1) + F(n-2)$, where $F(0) = 0$ and $F(1) = 1$. A naive recursive solution would be: 
-$$
+
 F(n) = egin{cases}
 0 & 	ext{if $n = 0$} \
 1 & 	ext{if $n = 1$} \
 F(n-1) + F(n-2) & 	ext{otherwise}
 end{cases}
-$$
+
 However, this solution has a time complexity of $O(2^n)$, which is inefficient for large values of $n$. 
 
 Using dynamic programming, we can solve this problem in $O(n)$ time complexity. We create a memoization table, $dp$, where $dp[i]$ stores the $i^{th}$ Fibonacci number. We fill the memoization table by iterating from $2$ to $n$ and using the previously computed values to compute the next value. 
@@ -382,9 +382,8 @@ O(n log n)
 O(n^3)
 O((n^2) log n)
 
-**Answer:** C) The time complexity of Dijkstra's algorithm for a weighted graph with n nodes is O((n^2) log n) in the worst case.
-
-
+**Answer:**
+C) The time complexity of Dijkstra's algorithm for a weighted graph with n nodes is O((n^2) log n) in the worst case.
 **2. The time complexity of the QuickSort algorithm for an array of 'n' elements is?**
 O(n)
 O(n log n)
@@ -393,16 +392,14 @@ O(log n)
 
 **Answer:** B) The time complexity of QuickSort is O(n log n) on average, but it can be O(n^2) in the worst case.
 
-
 **3. The problem of finding an element in an unsorted array of size 'n' has a time complexity of?**
 O(1)
 O(log n)
 O(n)
 O(n log n)
 
-**Answer:** C) The time complexity of finding an element in an unsorted array of size 'n' is O(n), as we have to check each element in the worst case.
-
-
+**Answer:**
+C) The time complexity of finding an element in an unsorted array of size 'n' is O(n), as we have to check each element in the worst case.
 **4. The problem of finding the minimum value in an unsorted array of size 'n' has a time complexity of?**
 O(1)
 O(log n)
@@ -410,7 +407,6 @@ O(n)
 O(n log n)
 
 **Answer:** C) The time complexity of finding the minimum value in an unsorted array of size 'n' is O(n), as we have to check each element in the worst case.
-
 
 **5. A Greedy algorithm is used to solve the problem of finding the minimum number of coins that sum up to a given amount. Which of the following is a characteristic of Greedy algorithms?**
 They always choose the optimal solution.
@@ -421,16 +417,7 @@ They always choose the locally optimal solution.
 **Answer:** D) Greedy algorithms make the optimal substructure property, but may not always choose the optimal solution. They always choose the locally optimal solution.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -448,10 +435,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/algorithms-design-class-11-revision-notes-gate-boards) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/algorithms-design-class-11-revision-notes-gate-boards) now and track your progress against thousands of students.
 
 
 ---
@@ -464,3 +448,29 @@ Continue your revision with these related guides:
 - 📖 [Data Structures: Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/data-structures-linear-class-11-revision-notes-gate-boards)
 - 📖 [Data Structures: Non-Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards)
 - 📖 [Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/digital-logic-class-11-revision-notes-gate-boards)
+
+## 🔁 Last 5 Minutes Box
+
+* **Big-O Notation**: 
+  + Best Case: Ω(n)
+  + Average Case: Θ(n)
+  + Worst Case: O(n)
+* **Time Complexity**:
+  + Constant Time: O(1)
+  + Linear Time: O(n)
+  + Quadratic Time: O(n^2)
+  + Exponential Time: O(2^n)
+* **Sorting Algorithms**:
+  + Bubble Sort: O(n^2)
+  + Selection Sort: O(n^2)
+  + Insertion Sort: O(n^2)
+  + Merge Sort: O(n log n)
+  + Quick Sort: O(n log n)
+* **Searching Algorithms**:
+  + Linear Search: O(n)
+  + Binary Search: O(log n)
+* **Graph Algorithms**:
+  + Breadth-First Search (BFS): O(V + E)
+  + Depth-First Search (DFS): O(V + E)
+  + Dijkstra's Algorithm: O((V + E) log V)
+  + Bellman-Ford Algorithm: O(VE)

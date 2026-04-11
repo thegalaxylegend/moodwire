@@ -29,27 +29,27 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Microbial Growth Rate:** $$\frac{dN}{dt} = \mu N$$ — $N$ is the number of microorganisms, $\mu$ is the growth rate, $t$ is time.
+- **Microbial Growth Rate:** \frac{dN}{dt} = \mu N — $N$ is the number of microorganisms, $\mu$ is the growth rate, $t$ is time.
 
- - **Monod Equation:** $$\mu = \mu_{max} \frac{S}{K_s + S}$$ — $\mu_{max}$ is the maximum growth rate, $S$ is the substrate concentration, $K_s$ is the half-saturation constant.
+ - **Monod Equation:** \mu = \mu_{max} \frac{S}{K_s + S} — $\mu_{max}$ is the maximum growth rate, $S$ is the substrate concentration, $K_s$ is the half-saturation constant.
 
- - **Specific Growth Rate:** $$\mu = \frac{1}{X} \frac{dX}{dt}$$ — $X$ is the biomass concentration.
+ - **Specific Growth Rate:** \mu = \frac{1}{X} \frac{dX}{dt} — $X$ is the biomass concentration.
 
- - **Biomass Yield:** $$Y = \frac{X}{S}$$ — $Y$ is the yield coefficient, $X$ is the biomass concentration, $S$ is the substrate concentration.
+ - **Biomass Yield:** Y = \frac{X}{S} — $Y$ is the yield coefficient, $X$ is the biomass concentration, $S$ is the substrate concentration.
 
- - **Product Formation:** $$P = Y_p X$$ — $P$ is the product concentration, $Y_p$ is the product yield coefficient, $X$ is the biomass concentration.
+ - **Product Formation:** P = Y_p X — $P$ is the product concentration, $Y_p$ is the product yield coefficient, $X$ is the biomass concentration.
 
- - **Substrate Uptake Rate:** $$q_s = \frac{\mu}{Y}$$ — $q_s$ is the substrate uptake rate, $\mu$ is the growth rate, $Y$ is the yield coefficient.
+ - **Substrate Uptake Rate:** q_s = \frac{\mu}{Y} — $q_s$ is the substrate uptake rate, $\mu$ is the growth rate, $Y$ is the yield coefficient.
 
- - **Maintenance Energy:** $$m = \frac{1}{Y_{ATP}} \frac{\mu}{X}$$ — $m$ is the maintenance energy, $Y_{ATP}$ is the ATP yield coefficient, $\mu$ is the growth rate, $X$ is the biomass concentration.
+ - **Maintenance Energy:** m = \frac{1}{Y_{ATP}} \frac{\mu}{X} — $m$ is the maintenance energy, $Y_{ATP}$ is the ATP yield coefficient, $\mu$ is the growth rate, $X$ is the biomass concentration.
 
- - **Growth Yield:** $$Y = \frac{\Delta X}{\Delta S}$$ — $Y$ is the growth yield, $\Delta X$ is the change in biomass concentration, $\Delta S$ is the change in substrate concentration.
+ - **Growth Yield:** Y = \frac{\Delta X}{\Delta S} — $Y$ is the growth yield, $\Delta X$ is the change in biomass concentration, $\Delta S$ is the change in substrate concentration.
 
- - **Lag Phase Duration:** $$t_{lag} = \frac{1}{\mu} \ln\left(\frac{N_0}{N_i}\right)$$ — $t_{lag}$ is the lag phase duration, $\mu$ is the growth rate, $N_0$ is the initial inoculum size, $N_i$ is the initial population size.
+ - **Lag Phase Duration:** t_{lag} = \frac{1}{\mu} \ln\left(\frac{N_0}{N_i}\right) — $t_{lag}$ is the lag phase duration, $\mu$ is the growth rate, $N_0$ is the initial inoculum size, $N_i$ is the initial population size.
 
- - **Stationary Phase:** $$\frac{dN}{dt} = 0$$ — $N$ is the number of microorganisms, $t$ is time.
+ - **Stationary Phase:** \frac{dN}{dt} = 0 — $N$ is the number of microorganisms, $t$ is time.
 
- - **Death Phase:** $$\frac{dN}{dt} = -k_d N$$ — $N$ is the number of microorganisms, $k_d$ is the death rate constant, $t$ is time.
+ - **Death Phase:** \frac{dN}{dt} = -k_d N — $N$ is the number of microorganisms, $k_d$ is the death rate constant, $t$ is time.
 
 
 
@@ -59,7 +59,7 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
  - *Costs:* 2-3 marks
 
- - *Fix:* Remember that $Rhizobium$ is a symbiotic nitrogen-fixing bacterium that forms nodules on the roots of leguminous plants, converting atmospheric $N_2$ into $NH_3$ using the enzyme $nitrogenase$. The correct equation for this process is: $$N_2 + 8e^{-} + 8H^{+} + 16ATP \rightarrow 2NH_3 + H_2 + 16ADP + 16Pi$$
+ - *Fix:* Remember that $Rhizobium$ is a symbiotic nitrogen-fixing bacterium that forms nodules on the roots of leguminous plants, converting atmospheric $N_2$ into $NH_3$ using the enzyme $nitrogenase$. The correct equation for this process is: N_2 + 8e^{-} + 8H^{+} + 16ATP \rightarrow 2NH_3 + H_2 + 16ADP + 16Pi
 
  - **Mistake 2:** Forgetting the difference between $Bacillus$ and $Clostridium$ in the context of antibiotic production.
 
@@ -77,13 +77,13 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
  - *Costs:* 2-3 marks
 
- - *Fix:* Remember that $Lactobacillus$ species, such as $L. acidophilus$ and $L. bulgaricus$, are used in the production of $yogurt$ and $curd$, where they ferment $lactose$ to produce $lactic$ $acid$, causing the $milk$ to $curdle$. The correct equation for this process is: $$lactose \rightarrow glucose + galactoseglucose \rightarrow pyruvate \rightarrow lactic acid$$
+ - *Fix:* Remember that $Lactobacillus$ species, such as $L. acidophilus$ and $L. bulgaricus$, are used in the production of $yogurt$ and $curd$, where they ferment $lactose$ to produce $lacticacid$, causing the $milk$ to $curdle$. The correct equation for this process is: lactose \rightarrow glucose + galactoseglucose \rightarrow pyruvate \rightarrow lactic acid
 
  - **Mistake 5:** Failing to identify the advantages of using $microbes$ in $biogas$ production.
 
  - *Costs:* 2-3 marks
 
- - *Fix:* Recall that the use of $microbes$ in $biogas$ production has several advantages, including the production of a $clean$ and $renewable$ source of $energy$, the reduction of $waste$, and the generation of $organic$ $fertilizer$. The $microbes$ involved in $biogas$ production include $methanogens$, which produce $methane$ ($CH_4$) through the reaction: $$CO_2 + 4H_2 \rightarrow CH_4 + 2H_2O$$
+ - *Fix:* Recall that the use of $microbes$ in $biogas$ production has several advantages, including the production of a $clean$ and $renewable$ source of $energy$, the reduction of $waste$, and the generation of $organicfertilizer$. The $microbes$ involved in $biogas$ production include $methanogens$, which produce $methane$ ($CH_4$) through the reaction: CO_2 + 4H_2 \rightarrow CH_4 + 2H_2O
 
 
 
@@ -97,11 +97,11 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
  The primary role of microbes in antibiotic production is to provide the necessary metabolic pathways for the synthesis of antibiotics. This can be represented by the equation:
 
- $$
+ 
 
  \	ext{Substrate} \xrightarrow{\	ext{Microbial Enzymes}} \	ext{Antibiotic}
 
- $$
+ 
 
  For example, the production of penicillin involves the use of the fungus *Penicillium chrysogenum*. The fungus is grown in large quantities and the penicillin is extracted and purified.
 
@@ -116,11 +116,11 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
  The microbe used in the production of vinegar is *Acetobacter aceti*. This bacterium is responsible for the oxidation of ethanol to acetic acid, which is the primary component of vinegar. The reaction can be represented by the equation:
 
- $$
+ 
 
  \	ext{C}_2\	ext{H}_5\	ext{OH} + \	ext{O}_2 \xrightarrow{\	ext{Acetobacter aceti}} \	ext{CH}_3\	ext{COOH} + \	ext{H}_2\	ext{O}
 
- $$
+ 
 
  - **Answer:** *Acetobacter aceti*.
 
@@ -133,11 +133,11 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
  The role of *Rhizobium* in legume plants is to fix atmospheric nitrogen into a form that can be used by the plant. This is achieved through the symbiotic relationship between the bacterium and the plant. The reaction can be represented by the equation:
 
- $$
+ 
 
  \	ext{N}_2 + 8\	ext{H}^+ + 8\	ext{e}^- + \	ext{ATP} \xrightarrow{\	ext{Nitrogenase}} 2\	ext{NH}_3 + \	ext{H}_2 + \	ext{ADP} + \	ext{Pi}
 
- $$
+ 
 
  The *Rhizobium* bacterium lives in the root nodules of the legume plant and provides the necessary enzymes for nitrogen fixation.
 
@@ -167,7 +167,7 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-- **The Hidden Pattern:** In Microbes in Human Welfare, the pattern of questioning is often based on the application of microbes in various fields such as medicine, agriculture, and industry. It is observed that $\\frac{1}{3}$ of the questions are from the medical applications of microbes, $\\frac{1}{4}$ from agricultural applications, and $\\frac{5}{12}$ from industrial applications. - **How to Apply It:** To maximize score, focus on the following key areas: 
+- **The Hidden Pattern:** In Microbes in Human Welfare, the pattern of questioning is often based on the application of microbes in various fields such as medicine, agriculture, and industry. It is observed that $\frac{1}{3}$ of the questions are from the medical applications of microbes, $\frac{1}{4}$ from agricultural applications, and $\frac{5}{12}$ from industrial applications. - **How to Apply It:** To maximize score, focus on the following key areas: 
 
         - Medical [applications](/blog/biotechnology-and-its-applications-class-12-notes): Antibiotics, vaccines, and diagnosis (approx. 30% of questions)
 
@@ -195,7 +195,7 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
           - $H_2O_2$ production in microbes for industrial applications
 
-          - $$\Delta G = \Delta H - T\Delta S$$ for understanding the thermodynamics of microbial reactions
+          - \Delta G = \Delta H - T\Delta S for understanding the thermodynamics of microbial reactions
 
         - **Key [processes](/blog/biotechnology-principles-and-processes-class-12-notes):** Understand the following [processes](/blog/biotechnology-principles-and-processes-class-12-notes) and their applications:
 
@@ -248,10 +248,14 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
 **1. Which of the following microbes is used in the production of Statin, a cholesterol-lowering drug?**
 
-- A) Aspergillus terreus
-- B) Penicillium chrysogenum
-- C) Streptomyces griseus
-- D) Bacillus subtilis
+-
+A) Aspergillus terreus
+-
+B) Penicillium chrysogenum
+-
+C) Streptomyces griseus
+-
+D) Bacillus subtilis
 
 **Answer:** A) Aspergillus terreus is used for the production of Statin.
 
@@ -259,10 +263,14 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
 **2. Microbes can be used for the production of which of the following vaccines?**
 
-- A) Hepatitis B
-- B) Rabies
-- C) BCG
-- D) All of the above
+-
+A) Hepatitis B
+-
+B) Rabies
+-
+C) BCG
+-
+D) All of the above
 
 **Answer:** D) Microbes are used in the production of Hepatitis B, Rabies, and BCG vaccines.
 
@@ -270,10 +278,14 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
 **3. The process of using microbes to remove pollutants from the environment is known as**
 
-- A) Bioremediation
-- B) Biodegradation
-- C) Bioaugmentation
-- D) Biomineralization
+-
+A) Bioremediation
+-
+B) Biodegradation
+-
+C) Bioaugmentation
+-
+D) Biomineralization
 
 **Answer:** A) Bioremediation is the process of using microbes to remove pollutants from the environment.
 
@@ -281,10 +293,14 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
 **4. Which of the following is an example of a biofertilizer?**
 
-- A) Rhizobium
-- B) Azospirillum
-- C) Frankia
-- D) All of the above
+-
+A) Rhizobium
+-
+B) Azospirillum
+-
+C) Frankia
+-
+D) All of the above
 
 **Answer:** D) Rhizobium, Azospirillum, and Frankia are all examples of biofertilizers.
 
@@ -292,10 +308,14 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
 **5. The production of curd from milk involves the action of which of the following microbes?**
 
-- A) Lactobacillus
-- B) Streptococcus
-- C) Bacillus
-- D) Clostridium
+-
+A) Lactobacillus
+-
+B) Streptococcus
+-
+C) Bacillus
+-
+D) Clostridium
 
 **Answer:** A) Lactobacillus is involved in the production of curd from milk.
 
@@ -332,3 +352,4 @@ Continue your revision with these related guides:
 - 📖 [Human Reproduction Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/human-reproduction-class-12-notes)
 - 📖 [Biodiversity and Conservation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
 - 📖 [Biotechnology and its Applications Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biotechnology-and-its-applications-class-12-notes)
+

@@ -175,9 +175,9 @@ How to apply the Product Rule and Quotient Rule in Derivatives? is a mathematica
 The Chain Rule is a fundamental principle in calculus that enables us to differentiate composite functions. It includes the identification of the outer and inner functions, the application of the power rule and other differentiation rules to the inner function, and the multiplication of the derivatives of the outer and inner functions. For Class 11 exam prep in 2026, the most important aspect is understanding how to apply the Chain Rule to various types of composite functions, including polynomial, trigonometric, and exponential functions.
 
 To grasp the Chain Rule, let's first understand the concept of composite functions. A composite function is a function of the form $f(g(x))$, where $f$ and $g$ are two separate functions. The Chain Rule states that the derivative of a composite function $f(g(x))$ is given by $f'(g(x)) cdot g'(x)$. This can be expressed mathematically as: 
-$$
+
 \frac{d}{dx}f(g(x)) = f'(g(x)) cdot g'(x)
-$$
+
 
 To apply the Chain Rule, we need to identify the outer and inner functions. The outer function is the function $f$ that is being applied to the inner function $g(x)$. For example, in the composite function $f(g(x)) = sin(x^2)$, the outer function is $sin(u)$ and the inner function is $u = x^2$.
 
@@ -285,7 +285,6 @@ D. undefined
 
 **Answer:** A) This limit can be solved by direct substitution, which will result in 0/0. To solve this, you can use L'Hopital's rule or factor the numerator to (x+2)(x-2) which results in (x+2)
 
-
 **2. If f(x) = 3x^2 + 2x - 5, what is f'(x)?**
 A. 6x + 2
 B. 6x + 2 - 0
@@ -293,7 +292,6 @@ C. 6x + 2
 D. 6x + 2 - 5
 
 **Answer:** A) To find the derivative of the function, we need to apply the power rule, which states that if f(x) = x^n, then f'(x) = nx^(n-1).
-
 
 **3. What is the limit as x approaches pi/2 of (sin(2x)) / (2x)?**
 A. π/2
@@ -303,7 +301,6 @@ D. undefined
 
 **Answer:** B) We can rewrite the function as (sin(2x)) / (2x) which is in the form 1/x. This is a classic limit that approaches 1 as x approaches 0
 
-
 **4. What is the derivative of f(x) = e^(2x)?**
 A. 2e^(2x)
 B. e^(2x)
@@ -311,7 +308,6 @@ C. e^(-2x)
 D. 2e^(-2x)
 
 **Answer:** A) The derivative of e^(2x) can be found by applying the chain rule. Let u = 2x, then f(u) = e^u. The derivative of f(u) is f'(u) = e^u, and the derivative of u is du/dx = 2. Therefore, the derivative of f(x) is f'(x) = f'(u) * du/dx = 2e^(2x)
-
 
 **5. Find the derivative of f(x) = 7x^4 + 2x^3 - 5x^2 + x - 1.**
 A. 28x^3 + 6x^2 - 10x + 1
@@ -322,13 +318,7 @@ D. 28x^3 + 6x^2 - 10x + 1 + 0
 **Answer:** A) To find the derivative of the function, we need to apply the power rule, which states that if f(x) = x^n, then f'(x) = nx^(n-1).
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -346,10 +336,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/limits-and-derivatives-class-11-revision-notes-jee) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/limits-and-derivatives-class-11-revision-notes-jee) now and track your progress against thousands of students.
 
 
 ---
@@ -362,3 +349,4 @@ Continue your revision with these related guides:
 - 📖 [Algorithms: Design Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-design-class-11-revision-notes-gate-boards)
 - 📖 [Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/digital-logic-class-11-revision-notes-gate-boards)
 - 📖 [Probability (Intro) Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-intro-class-11-revision-notes-jee)
+

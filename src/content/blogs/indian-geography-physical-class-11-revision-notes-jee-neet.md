@@ -76,16 +76,7 @@ The Earth's surface has undergone significant changes over millions of years. Th
 Maps are an essential tool in Physical Geography, used to represent the Earth's surface and its features. Maps can be used to study the distribution of landforms, climate, vegetation, and water bodies. The **Tropic of Cancer** is an imaginary line that passes through 8 Indian states, and its location can be represented on a map. Maps can also be used to study the historical context of the Earth's formation, including the movement of tectonic plates and the formation of mountain ranges.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -103,10 +94,7 @@ Continue your [revision](/blog/ray-optics-class-12-quick-class-12-revision-notes
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/indian-geography-physical-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/indian-geography-physical-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 
 ---

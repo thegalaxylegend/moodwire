@@ -1,4 +1,3 @@
-
 import { callGroq, GROQ_KEY_COUNT } from './groq';
 import { callGemini, GEMINI_KEY_COUNT } from './gemini';
 import { MODELS, WATERFALL_CHAINS } from './routingConfig';
@@ -15,6 +14,7 @@ class ModelRouter {
   private keyIndices: Record<Provider, number> = { groq: 0, gemini: 0 };
   private deadKeys: Record<Provider, Set<number>> = { groq: new Set(), gemini: new Set() };
   private usage: Map<string, UsageStats> = new Map();
+  private blacklistedModels: Set<string> = new Set();
 
   private constructor() {
     this.loadUsage();
@@ -71,7 +71,21 @@ class ModelRouter {
     const stats = this.usage.get(key) || { requests: 0, tokens: 0, lastReset: Date.now() };
     stats.requests++;
     this.usage.set(key, stats);
-    this.saveUsage();
+    this.saveUsage(); 
+  }
+
+  private async executeCall(
+    modelId: string,
+    messages: { role: string; content: string }[],
+    provider: Provider,
+    keyIndex: number,
+    options: any
+  ): Promise<any> {
+    if (provider === 'groq') {
+      return await callGroq(messages, { ...options, model: modelId, keyIndex });
+    } else {
+      return await callGemini(messages, { ...options, model: modelId, keyIndex });
+    }
   }
 
   public async route(
@@ -83,40 +97,40 @@ class ModelRouter {
     let lastError: any = null;
 
     for (const modelId of chain) {
+      if (this.blacklistedModels.has(modelId)) continue;
+      
       const spec = MODELS[modelId];
       if (!spec) continue;
 
       const provider = spec.provider;
       const keyCount = provider === 'groq' ? GROQ_KEY_COUNT : GEMINI_KEY_COUNT;
 
-      // Try all available keys for this model before falling back to next model in tier
-      for (let k = 0; k < keyCount; k++) {
-        const index = (this.keyIndices[provider] + k) % keyCount;
-        
-        if (this.deadKeys[provider].has(index)) continue;
-        if (!this.checkDailyLimit(modelId, index)) continue;
+      for (let i = 0; i < keyCount; i++) {
+        const keyIndex = (this.keyIndices[provider] + i) % keyCount;
+        if (this.deadKeys[provider].has(keyIndex)) continue;
 
         try {
-          const callFn = provider === 'groq' ? callGroq : callGemini;
-          const result = await callFn(messages, { ...options, model: modelId, keyIndex: index });
-          
-          // Success: Rotate index for load balancing and increment usage
-          this.keyIndices[provider] = (index + 1) % keyCount;
-          this.incrementUsage(modelId, index);
-          return result;
+          if (!this.checkDailyLimit(modelId, keyIndex)) {
+            continue;
+          }
 
+          const response = await this.executeCall(modelId, messages, provider, keyIndex, options);
+          this.incrementUsage(modelId, keyIndex);
+          return response;
         } catch (error: any) {
           lastError = error;
           const status = error?.status || error?.code;
           
           if (status === 401 || status === 403) {
-            this.deadKeys[provider].add(index);
+            this.deadKeys[provider].add(keyIndex);
+          } else if (status === 404) {
+            this.blacklistedModels.add(modelId);
           } else if (status === 429) {
             // Rate limit hit: rotate key immediately
-            this.keyIndices[provider] = (index + 1) % keyCount;
+            this.keyIndices[provider] = (keyIndex + 1) % keyCount;
           }
           
-          console.warn(`[ModelRouter] ${modelId} on key ${index} failed: ${error.message?.slice(0, 100)}`);
+          console.warn(`[ModelRouter] ${modelId} on key ${keyIndex} failed: ${error.message?.slice(0, 100)}`);
           continue;
         }
       }

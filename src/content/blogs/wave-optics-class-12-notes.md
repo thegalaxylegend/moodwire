@@ -322,7 +322,10 @@ Wave Optics is the study of the behavior of light as it interacts with matter, i
 
 
 - The Brewster's angle is the angle of incidence at which the reflected light is completely plane-polarized.
+
 - The speed of light in a medium is given by v = \frac{c}{μ}, where c is the speed of light in vacuum and μ is the refractive index of the medium.
+
+
 - The phenomenon of diffraction occurs when light passes through a narrow opening or around a sharp edge.
 - The principle of superposition states that the resultant wave is the algebraic sum of all the individual waves.
 - The intensity of polarized light passing through a polarizer is given by I = I0 cos^2 θ, where θ is the angle between the polarization axis and the electric field vector.
@@ -338,9 +341,8 @@ Wave Optics is the study of the behavior of light as it interacts with matter, i
 90 degrees
 135 degrees
 
-**Answer:** A) According to Malus' law, the intensity of the resultant beam will be minimum when the two components are orthogonal to each other (perpendicular), making an angle of 90 degrees.
-
-
+**Answer:**
+A) According to Malus' law, the intensity of the resultant beam will be minimum when the two components are orthogonal to each other (perpendicular), making an angle of 90 degrees.
 **2. The phenomenon of interference is not observed in case of**
 Monochromatic light
 Coherent sources
@@ -349,16 +351,14 @@ Difracting medium
 
 **Answer:** C) Interference is not observed in case of incoherent sources because they do not maintain a constant phase relationship.
 
-
 **3. Which of the following types of polarizers will allow the maximum intensity of polarized light passing through it?**
 Wollaston prism
 Brewster's polarizer
 Nicole prism
 Quarter wave plate
 
-**Answer:** C) A Nicole prism will allow the maximum intensity of polarized light passing through it because it is a beam-splitting polarizer.
-
-
+**Answer:**
+C) A Nicole prism will allow the maximum intensity of polarized light passing through it because it is a beam-splitting polarizer.
 **4. In Young's double-slit experiment, the fringe width is given by**
 \frac{Dλ}{d}
 \frac{Dλ}{d}
@@ -368,13 +368,21 @@ Quarter wave plate
 **Answer:** B) Fringe width in Young's double-slit experiment is given by β = \frac{Dλ}{d}, where D is the distance between the slits and the screen, λ is the wavelength of light, and d is the distance between the slits.
 
 
+
+
 **5. The refractive index of a medium is given by**
+
 μ = \frac{sin i}{sin r}
+
 μ = \frac{r}{i}
+
 μ = \frac{sin r}{sin i}
+
 μ = \frac{i}{r}
 
 **Answer:** C) Refractive index is given by μ = \frac{sin r}{sin i}, where i is the angle of incidence and r is the angle of refraction.
+
+
 
 
 
@@ -402,10 +410,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/wave-optics-class-12-notes) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/wave-optics-class-12-notes) now and track your progress against thousands of students.
 
 
 ---

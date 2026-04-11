@@ -94,9 +94,9 @@ I still remember when I was preparing for my [class](/blog/hydrocarbons-class-11
 Cell cycle is the series of events that take place in a cell, leading to its division and duplication. It consists of three main stages: interphase, mitosis, and cytokinesis. Interphase is the longest stage of the cell cycle, during which the cell grows, replicates its DNA, and prepares for cell division. Mitosis is the process of cell division that results in two daughter cells with the same number of chromosomes as the parent cell. Cytokinesis is the final stage of cell division, during which the cytoplasm divides and the cell splits into two daughter cells.
 
 The cell cycle can be represented by the following equation:
-$$\text{Interphase} \rightarrow \text{Mitosis} \rightarrow \text{Cytokinesis}$$
+\text{Interphase} \rightarrow \text{Mitosis} \rightarrow \text{Cytokinesis}
 Mitosis can be further divided into four stages: prophase, metaphase, anaphase, and telophase.
-$$\text{Prophase} \rightarrow \text{Metaphase} \rightarrow \text{Anaphase} \rightarrow \text{Telophase}$$
+\text{Prophase} \rightarrow \text{Metaphase} \rightarrow \text{Anaphase} \rightarrow \text{Telophase}
 
 
 
@@ -178,16 +178,7 @@ Last Updated: March 16, 2026
 
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -205,10 +196,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/cell-cycle-and-cell-division-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/cell-cycle-and-cell-division-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
 
 ---

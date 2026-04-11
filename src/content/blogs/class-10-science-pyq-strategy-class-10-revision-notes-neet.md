@@ -127,16 +127,7 @@ Focus on the last 5–10 years. However, prioritize the most recent 5 years, as 
 "Our Environment" has the highest ROI (marks per hour of study). For major marks, prioritize "Light," "Electricity," and "Life Processes," as they are consistently high-[weightage](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) in the CBSE boards.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -154,10 +145,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/class-10-science-pyq-strategy-class-10-revision-notes-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/class-10-science-pyq-strategy-class-10-revision-notes-neet) now and track your progress against thousands of students.
 
 
 ---

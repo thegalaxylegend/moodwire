@@ -38,7 +38,7 @@ practice_link: "/class-11/mathematics/3d-geometry-intro-class-11-revision-notes-
 
 
 
-## <a id="ayushs-note-the-mistake-i-made"></a>Ayush's Note — The Mistake I Made
+## <a id="Ayush-note-the-mistake-i-made"></a>Ayush's Note — The Mistake I Made
 
 
 
@@ -56,7 +56,7 @@ practice_link: "/class-11/mathematics/3d-geometry-intro-class-11-revision-notes-
 
 
 
-## <a id="mcqs"></a>MCQs
+## <a id="MCQs"></a>MCQs
 
 ---
 *This post was curated by Jules, [exam](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet) Compass Bot, and edited for accuracy by Ayush.*
@@ -74,7 +74,7 @@ practice_link: "/class-11/mathematics/3d-geometry-intro-class-11-revision-notes-
 
 Continue your [revision](/blog/ai-study-hack-pomodoro-class-11-revision-notes-neet) with these related guides:
 
-- 📖 [Agriculture Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/agriculture-class-11-revision-notes-neet)
+- 📖 [Agriculture Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/agriculture-class-11-revision-notes-neet)
 - 📖 [Ai Exam Prep Future Class 11 Computer Science Recap — CBSE 2026 Quick Guide](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet)
 - 📖 [Ai Study Hack Pomodoro Class 11 Computer Science Recap — CBSE 2026 Quick Guide](/blog/ai-study-hack-pomodoro-class-11-revision-notes-neet)
 - 📖 [Probability (Intro) Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-intro-class-11-revision-notes-jee)
@@ -83,10 +83,7 @@ Continue your [revision](/blog/ai-study-hack-pomodoro-class-11-revision-notes-ne
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/3d-geometry-intro-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/3d-geometry-intro-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 
 ---
@@ -95,7 +92,21 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 Continue your [revision](/blog/ai-study-hack-pomodoro-class-11-revision-notes-neet) with these related guides:
 
-- 📖 [Agriculture Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/agriculture-class-11-revision-notes-neet)
+- 📖 [Agriculture Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/agriculture-class-11-revision-notes-neet)
 - 📖 [Ai Exam Prep Future Class 11 Computer Science Recap — CBSE 2026 Quick Guide](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet)
 - 📖 [Ai Study Hack Pomodoro Class 11 Computer Science Recap — CBSE 2026 Quick Guide](/blog/ai-study-hack-pomodoro-class-11-revision-notes-neet)
 - 📖 [Probability (Intro) Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-intro-class-11-revision-notes-jee)
+
+## 🔁 Last 5 Minutes Box
+
+- **Direction Cosines**: cost, cost, cost are direction cosines of a line in 3D space where α, β, γ are angles with x, y, z axes.
+
+      - **Direction Ratios**: a, b, c are direction ratios of a line where a = cost, b = cost, c = cost and λ is a constant.
+
+      - **Distance Formula**: Distance between points P(x1, y1, z1) and Q(x2, y2, z2) = √((x2 - x1)^2 + (y2 - y1)^2 + (z2 - z1)^2).
+
+      - **Section Formula**: Point R(λx2 + μx1 / λ + μ, λy2 + μy1 / λ + μ, λz2 + μz1 / λ + μ) divides the line segment externally or internally between points P(x1, y1, z1) and Q(x2, y2, z2).
+
+      - **Angle Between Two Lines**: cost = (a1a2 + b1b2 + c1c2) / √(a1^2 + b1^2 + c1^2) * √(a2^2 + b2^2 + c2^2) where θ is the angle between two lines with direction ratios a1, b1, c1 and a2, b2, c2.
+
+      - **Skew Lines**: Two lines which are neither parallel nor intersecting are called skew lines.

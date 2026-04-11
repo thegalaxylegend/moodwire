@@ -30,19 +30,19 @@ practice_link: "/class-11/chemistry/solutions-class-12-notes"
 
 
 ## <a id="-what-will-come-in-your-exam"></a>🎯 What WILL Come in Your Exam
-* 1 numerical on molarity and molality — always, involving $\\frac{\\text{mass of solute}}{\\text{mass of solvent}}$ and $\\frac{\\text{moles of solute}}{\\text{mass of solvent in kg}}$
-* $K_{h}$ and $K_{b}$ relationship with $K_{w}$ — examined every year, using the formula $K_{w} = K_{h} \\times K_{b} = 10^{-14}$
-* Vapour pressure and Raoult's law — always 1-2 questions, focusing on $\\frac{p^{\\circ} - p_{s}}{p^{\\circ}} = \\frac{n}{N + n}$ and $p_{s} = p^{\\circ} \\times \\frac{N}{N + n}$
+* 1 numerical on molarity and molality — always, involving $\frac{\text{mass of solute}}{\text{mass of solvent}}$ and $\frac{\text{moles of solute}}{\text{mass of solvent in kg}}$
+* $K_{h}$ and $K_{b}$ relationship with $K_{w}$ — examined every year, using the formula $K_{w} = K_{h} \times K_{b} = 10^{-14}$
+* Vapour pressure and Raoult's law — always 1-2 questions, focusing on $\frac{p^{\circ} - p_{s}}{p^{\circ}} = \frac{n}{N + n}$ and $p_{s} = p^{\circ} \times \frac{N}{N + n}$
 * Colligative properties — at least 1 question on relative lowering of vapour pressure, elevation in boiling point, or depression in freezing point
-* Henry's law — frequently examined, involving $p = K_{H} \\times x$ and applications in $K_{H}$ calculation
-* Ideal and non-ideal solutions — distinction and applications, focusing on $\\Delta H_{mixing}$ and $\\Delta V_{mixing}$
-* Numerical on Ostwald's dilution law — always, using the formula $K_{b} = \\frac{\\alpha^{2}}{1 - \\alpha} \\times \\frac{1}{c} = \\frac{K_{w}}{K_{a}}$
-* Photoelectric effect graph — NEET favourite, involving $eV_{0} = h\\nu - \\phi$ and $K_{max} = h\\nu - \\phi$
-* 1 question on van't Hoff factor — involving the formula $i = \\frac{\\text{Observed molar mass}}{\\text{Theoretical molar mass}}$ and its relation to colligative properties
-* Numerical on freezing point depression and boiling point elevation — frequently examined, using the formulas $\\Delta T_{f} = K_{f} \\times m$ and $\\Delta T_{b} = K_{b} \\times m$
-* 1 question on normality and molarity relationship — involving the formula $N = \\frac{M}{n}$, where $n$ is the number of replaceable $H^{+}$ or $OH^{-}$ ions
-* Numerical on $pH$ and $pOH$ calculation — always, using the formulas $pH + pOH = 14$ and $pH = -\\log[H^{+}]$ 
-* Ionic equilibria — at least 1 question on common ion effect, solubility product, or buffer solutions, involving $K_{sp} = [A^{+}][B^{-}]$ and $pH = pK_{a} + \\log\\frac{[Salt]}{[Acid]}$
+* Henry's law — frequently examined, involving $p = K_{H} \times x$ and applications in $K_{H}$ calculation
+* Ideal and non-ideal solutions — distinction and applications, focusing on $\Delta H_{mixing}$ and $\Delta V_{mixing}$
+* Numerical on Ostwald's dilution law — always, using the formula $K_{b} = \frac{\alpha^{2}}{1 - \alpha} \times \frac{1}{c} = \frac{K_{w}}{K_{a}}$
+* Photoelectric effect graph — NEET favourite, involving $eV_{0} = h\nu - \phi$ and $K_{max} = h\nu - \phi$
+* 1 question on van't Hoff factor — involving the formula $i = \frac{\text{Observed molar mass}}{\text{Theoretical molar mass}}$ and its relation to colligative properties
+* Numerical on freezing point depression and boiling point elevation — frequently examined, using the formulas $\Delta T_{f} = K_{f} \times m$ and $\Delta T_{b} = K_{b} \times m$
+* 1 question on normality and molarity relationship — involving the formula $N = \frac{M}{n}$, where $n$ is the number of replaceable $H^{+}$ or $OH^{-}$ ions
+* Numerical on $pH$ and $pOH$ calculation — always, using the formulas $pH + pOH = 14$ and $pH = -\log[H^{+}]$ 
+* Ionic equilibria — at least 1 question on common ion effect, solubility product, or buffer solutions, involving $K_{sp} = [A^{+}][B^{-}]$ and $pH = pK_{a} + \log\frac{[Salt]}{[Acid]}$
 
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
@@ -144,7 +144,7 @@ Q: A solution of $2.44 \text{ g}$ of $mathrm{CuSO_4}$ in $100 \mathrm{ mL}$ of w
  Considering the dissociation, $m = 0.153 m$. 
  Answer: $0.153 m$.
 
- Q: What volume of $0.5 \mathrm{ M}$ $mathrm{H_2SO_4}$ is required to neutralize $1.42 \mathrm{ g}$ of $mathrm{NaOH}$?
+ Q: What volume of $0.5 \mathrm{ M}mathrm{H_2SO_4}$ is required to neutralize $1.42 \mathrm{ g}$ of $mathrm{NaOH}$?
  Trap in this question: Students often forget the balanced chemical equation for the reaction and the fact that $mathrm{H_2SO_4}$ is a diprotic acid.
  Solution: 
  First, write the balanced [chemical](/blog/chemical-kinetics-class-12-notes) equation: 
@@ -152,11 +152,11 @@ Q: A solution of $2.44 \text{ g}$ of $mathrm{CuSO_4}$ in $100 \mathrm{ mL}$ of w
  Then, calculate the number of moles of $mathrm{NaOH}$: 
  $n = \frac{m}{M} = \frac{1.42 \mathrm{ g}}{40 \mathrm{ g/mol}} = 0.0355 \mathrm{ mol}$. 
  Since the reaction is $1:2$, the number of moles of $mathrm{H_2SO_4}$ required is $n = \frac{0.0355 \mathrm{ mol}}{2} = 0.01775 \mathrm{ mol}$. 
- Finally, calculate the volume $V$ of $0.5 \mathrm{ M}$ $mathrm{H_2SO_4}$ required: 
+ Finally, calculate the volume $V$ of $0.5 \mathrm{ M}mathrm{H_2SO_4}$ required: 
  $V = \frac{n}{M} = \frac{0.01775 \mathrm{ mol}}{0.5 \mathrm{ M}} = 0.0355 \mathrm{ L} = 35.5 \mathrm{ mL}$. 
  Answer: $35.5 \mathrm{ mL}$.
 
- Q: $20 \mathrm{ mL}$ of $0.1 \mathrm{ M}$ $mathrm{HCl}$ is mixed with $20 \mathrm{ mL}$ of $0.1 \mathrm{ M}$ $mathrm{NaOH}$ in a thermally insulated container. If the initial temperature is $15^\circ\mathrm{C}$ and the specific heat capacity of the solution is $4.18 \mathrm{ J/g^\circ C}$, what is the final temperature of the solution?
+ Q: $20 \mathrm{ mL}$ of $0.1 \mathrm{ M}mathrm{HCl}$ is mixed with $20 \mathrm{ mL}$ of $0.1 \mathrm{ M}mathrm{NaOH}$ in a thermally insulated container. If the initial temperature is $15^\circ\mathrm{C}$ and the specific heat capacity of the solution is $4.18 \mathrm{ J/g^\circ C}$, what is the final temperature of the solution?
  Trap in this question: Students often forget to calculate the heat of neutralization and the total mass of the solution.
  Solution: 
  First, write the balanced [chemical](/blog/chemical-kinetics-class-12-notes) equation: 
@@ -176,8 +176,8 @@ Q: A solution of $2.44 \text{ g}$ of $mathrm{CuSO_4}$ in $100 \mathrm{ mL}$ of w
 | S. No. | Question | Trap in the question | Answer |
 | --- | --- | --- | --- |
 | 1 | A solution of $2.44 \text{ g}$ of $mathrm{CuSO_4}$ in $100 \mathrm{ mL}$ of water has a freezing point depression of $0.184^\circ\mathrm{C}$. What is the molality of the solution? | Students often confuse molarity and molality, and also forget to consider the van't Hoff factor for ionic compounds. | $0.153 m$ |
-| 2 | What volume of $0.5 \mathrm{ M}$ $mathrm{H_2SO_4}$ is required to neutralize $1.42 \mathrm{ g}$ of $mathrm{NaOH}$? | Students often forget the balanced chemical equation for the reaction and the fact that $mathrm{H_2SO_4}$ is a diprotic acid. | $35.5 \mathrm{ mL}$ |
-| 3 | $20 \mathrm{ mL}$ of $0.1 \mathrm{ M}$ $mathrm{HCl}$ is mixed with $20 \mathrm{ mL}$ of $0.1 \mathrm{ M}$ $mathrm{NaOH}$ in a thermally insulated container. If the initial temperature is $15^\circ\mathrm{C}$ and the specific heat capacity of the solution is $4.18 \mathrm{ J/g^\circ C}$, what is the final temperature of the solution? | Students often forget to calculate the heat of neutralization and the total mass of the solution. | $15.687^\circ\mathrm{C}$ |
+| 2 | What volume of $0.5 \mathrm{ M}mathrm{H_2SO_4}$ is required to neutralize $1.42 \mathrm{ g}$ of $mathrm{NaOH}$? | Students often forget the balanced chemical equation for the reaction and the fact that $mathrm{H_2SO_4}$ is a diprotic acid. | $35.5 \mathrm{ mL}$ |
+| 3 | $20 \mathrm{ mL}$ of $0.1 \mathrm{ M}mathrm{HCl}$ is mixed with $20 \mathrm{ mL}$ of $0.1 \mathrm{ M}mathrm{NaOH}$ in a thermally insulated container. If the initial temperature is $15^\circ\mathrm{C}$ and the specific heat capacity of the solution is $4.18 \mathrm{ J/g^\circ C}$, what is the final temperature of the solution? | Students often forget to calculate the heat of neutralization and the total mass of the solution. | $15.687^\circ\mathrm{C}$ |
 
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
@@ -250,9 +250,8 @@ Before sleeping, make sure to go through these crucial points for the topic of S
 0.5m
 1m
 
-**Answer:** B) Molality (m) = moles of solute / kg of solvent. Moles of glucose = 18g / 180g/mol = 0.1mol. Mass of water = 1000g = 1kg. So, molality = 0.1mol / 1kg = 0.1m
-
-
+**Answer:**
+B) Molality (m) = moles of solute / kg of solvent. Moles of glucose = 18g / 180g/mol = 0.1mol. Mass of water = 1000g = 1kg. So, molality = 0.1mol / 1kg = 0.1m
 **2. Which of the following is an example of a heterogeneous mixture?**
 Sugar solution
 Ink
@@ -261,16 +260,14 @@ Sand in water
 
 **Answer:** D) A heterogeneous mixture is one in which the components are not uniformly distributed. Sand in water is a heterogeneous mixture because the sand particles are visible and settle at the bottom.
 
-
 **3. What is the normality of a 2M solution of H2SO4?**
 2N
 4N
 6N
 8N
 
-**Answer:** B) Normality (N) = number of replaceable H+ ions per liter. For H2SO4, 1 mole = 2 replaceable H+ ions. So, 2M = 2 x 2 = 4N
-
-
+**Answer:**
+B) Normality (N) = number of replaceable H+ ions per liter. For H2SO4, 1 mole = 2 replaceable H+ ions. So, 2M = 2 x 2 = 4N
 **4. What is the molarity of a solution containing 20g of NaOH in 500ml of solution?**
 0.4M
 0.8M
@@ -278,7 +275,6 @@ Sand in water
 2M
 
 **Answer:** B) Molarity (M) = moles of solute / liter of solution. Moles of NaOH = 20g / 40g/mol = 0.5mol. Volume of solution = 500ml = 0.5L. So, molarity = 0.5mol / 0.5L = 1M, but considering the given options, 20g of NaOH in 250ml would be 1M, so in 500ml it would be 0.8M (1M * 0.5L / 0.25L)
-
 
 **5. What type of solution is formed when the solubility of a gas increases with an increase in pressure?**
 Endothermic

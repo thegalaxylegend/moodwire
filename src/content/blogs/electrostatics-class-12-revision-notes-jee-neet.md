@@ -233,7 +233,8 @@ How to apply Gauss's Law to solve complex Electrostatics problems? is applying G
 
 ## <a id="mcqs"></a>MCQs
 
-**1. A charged particle is placed in a uniform electric field. What happens to its trajectory?**
+**1. A charged particle is placed in a uniform electric fiel
+d. What happens to its trajectory?**
 A particle moves in a straight line
 B Particle moves in a circular motion
 C Particle moves in an elliptical motion
@@ -247,8 +248,8 @@ B Capacitance increases
 C Capacitance remains the same
 D Capacitance becomes zero
 
-**Answer:** B) When the distance between the plates of a parallel plate capacitor is doubled, its capacitance also doubles.
-
+**Answer:**
+B) When the distance between the plates of a parallel plate capacitor is doubled, its capacitance also doubles.
 **3. What is the electric field intensity at a distance r from a point charge of magnitude q?**
 A E = kqr^(-2)
 B E = kqr^(-1)
@@ -257,7 +258,8 @@ D E = kq/r
 
 **Answer:** C) The electric field intensity at a distance r from a point charge of magnitude q is given by E = kq/r^2.
 
-**4. A conductor is placed in an electric field. What is the effect on the electric field within the conductor?**
+**4. A conductor is placed in an electric fiel
+d. What is the effect on the electric field within the conductor?**
 A Electric field increases
 B Electric field decreases
 C Electric field remains the same
@@ -274,13 +276,7 @@ D W = q^2V
 **Answer:** A) The work done in moving a charge q from a point A to a point B where the potential difference between the points is V is given by W = qV.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -298,10 +294,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/electrostatics-class-12-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/electrostatics-class-12-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 
 ---

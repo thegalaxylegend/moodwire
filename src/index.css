@@ -148,13 +148,27 @@
   --oxygen-component: 200ms;
 }
 
-/* Tier 3: Low-Power (45fps) - Maximum stability */
+/* Tier 3: Low-Power (45fps) - Maximum stability & Thermal Safety */
 .perf-tier-low {
   --glass-blur: 0px;
-  --glass-opacity: 0.95;
+  --glass-opacity: 0.98;
   --oxygen-page: 0ms;
   --oxygen-component: 0ms;
   --oxygen-micro: 0ms;
+}
+
+.perf-tier-low * {
+  animation-duration: 0ms !important;
+  transition-duration: 0ms !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+/* System-wide optimizations for low-power modes without breaking visuals */
+.perf-tier-low .glass-card,
+.perf-tier-low .liquid-glass {
+  /* Maintain the original background/gradient, just no blur */
+  border-color: rgba(255, 255, 255, 0.05) !important;
 }
 
 /* Optimize hidden content visibility globally */
@@ -195,11 +209,19 @@
   transform: translateZ(0);
   backface-visibility: hidden;
   perspective: 1000px;
+  contain: layout;
+}
+
+.scroll-safe-layer {
+  contain: paint;
+  isolation: isolate;
+  transform: translateZ(0);
 }
 
 .gpu-accelerate {
   @apply will-change-transform transform-gpu;
   backface-visibility: hidden;
+  contain: layout;
 }
 
 /* Optimize hidden content visibility globally */

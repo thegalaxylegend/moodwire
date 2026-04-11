@@ -8,7 +8,7 @@ practice_link: "/class-11/biology/biotechnology-principles-and-processes-class-1
 ---
 
 
-![Biotechnology: Principles and Processes Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog-images/biotechnology-principles-and-processes-class-12-notes.webp)
+![Biotechnology: Principles and Processes Class 12 Biology Revision — MEET 2026 Grandmaster Guide](/blog-images/biotechnology-principles-and-processes-class-12-notes.webp)
 
 *Last Updated: 2026-04-05*
 
@@ -19,43 +19,43 @@ practice_link: "/class-11/biology/biotechnology-principles-and-processes-class-1
 
 - [⚡ Formula Bank](#-formula-bank)
 - [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
-- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
+- [✏️ 3 Solved Yes](#-3-solved-pyqs)
 - [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
-- [👁️ Ayush's Note](#-ayushs-note)
+- [👁️ Ayush's Note](#-Ayush-note)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
-- [📝 Practice MCQs](#-practice-mcqs)
+- [📝 Practice MCQs](#-practice-MCQs)
 - [📚 Related Topics](#-related-topics)
 
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Restriction Endonuclease Recognition Site:** $$\	ext{Recognition site} = \	ext{Palindromic sequence}$$ — Recognized sequence where the enzyme cuts the DNA.
+- **Restriction Endonuclease Recognition Site:** \	ext{Recognition site} = \	ext{Palindromic sequence} — Recognized sequence where the enzyme cuts the DNA.
 
- - **DNA Replication Initiation:** $$\	ext{Initiation} = \\frac{\	ext{Unwinding of double helix}}{\	ext{Binding of initiation proteins}}$$ — Start of DNA replication process.
+ - **DNA Replication Initiation:** \	ext{Initiation} = \franc{\	ext{Unwinding of double helix}}{\	ext{Binding of initiation proteins}} — Start of DNA replication process.
 
- - **Polymerase Chain Reaction (PCR):** $$\	ext{PCR efficiency} = \\frac{\	ext{Number of amplified fragments}}{\	ext{Number of initial template molecules}}$$ — Efficiency of PCR in amplifying DNA sequences.
+ - **Polymerase Chain Reaction (PCR):** \	ext{PCR efficiency} = \franc{\	ext{Number of amplified fragments}}{\	ext{Number of initial template molecules}} — Efficiency of PCR in amplifying DNA sequences.
 
- - **Gel Electrophoresis:** $$\	ext{Migration velocity} = \\frac{\	ext{Charge of the molecule}}{\	ext{Size of the molecule}}$$ — Velocity of DNA/RNA fragments in gel electrophoresis.
+ - **Gel Electrophoresis:** \	ext{Migration velocity} = \franc{\	ext{Charge of the molecule}}{\	ext{Size of the molecule}} — Velocity of DNA/RNA fragments in gel electrophoresis.
 
- - **Southern Blotting:** $$\	ext{Hybridization signal} = \\frac{\	ext{Concentration of labeled probe}}{\	ext{Concentration of target DNA}}$$ — Strength of signal in Southern blotting.
+ - **Southern Blotting:** \	ext{Hybridization signal} = \franc{\	ext{Concentration of labeled probe}}{\	ext{Concentration of target DNA}} — Strength of signal in Southern blotting.
 
- - **DNA Sequencing:** $$\	ext{Sequence read length} = \\frac{\	ext{Number of nucleotides}}{\	ext{Number of sequencing cycles}}$$ — Length of the sequence that can be read.
+ - **DNA Sequencing:** \	ext{Sequence read length} = \franc{\	ext{Number of nucleotides}}{\	ext{Number of sequencing cycles}} — Length of the sequence that can be read.
 
- - **Gene Expression:** $$\	ext{Gene expression level} = \\frac{\	ext{mRNA transcript level}}{\	ext{Gene copy number}}$$ — Level of expression of a particular gene.
+ - **Gene Expression:** \	ext{Gene expression level} = \franc{\	ext{mRNA transcript level}}{\	ext{Gene copy number}} — Level of expression of a particular gene.
 
- - **Plasmid Copy Number:** $$\	ext{Copy number} = \\frac{\	ext{Number of plasmid molecules}}{\	ext{Number of host cells}}$$ — Average number of plasmid copies per host cell.
+ - **Plasmid Copy Number:** \	ext{Copy number} = \franc{\	ext{Number of plasmid molecules}}{\	ext{Number of host cells}} — Average number of plasmid copies per host cell.
 
- - **Transformation Efficiency:** $$\	ext{Transformation efficiency} = \\frac{\	ext{Number of transformed cells}}{\	ext{Number of host cells}}$$ — Efficiency of transformation process.
+ - **Transformation Efficiency:** \	ext{Transformation efficiency} = \franc{\	ext{Number of transformed cells}}{\	ext{Number of host cells}} — Efficiency of transformation process.
 
- - **Transfection Efficiency:** $$\	ext{Transfection efficiency} = \\frac{\	ext{Number of transfected cells}}{\	ext{Number of host cells}}$$ — Efficiency of transfection process.
+ - **Transfection Efficiency:** \	ext{Transfection efficiency} = \franc{\	ext{Number of transected cells}}{\	ext{Number of host cells}} — Efficiency of transfection process.
 
- - **Western Blotting:** $$\	ext{Signal intensity} = \\frac{\	ext{Concentration of antibody}}{\	ext{Concentration of antigen}}$$ — Strength of signal in Western blotting.
+ - **Western Blotting:** \	ext{Signal intensity} = \franc{\	ext{Concentration of antibody}}{\	ext{Concentration of antigen}} — Strength of signal in Western blotting.
 
- - **Chromatography:** $$\	ext{Retention time} = \\frac{\	ext{Affinity of molecule for stationary phase}}{\	ext{Flow rate of mobile phase}}$$ — Time taken for a molecule to pass through the column.
+ - **Chromatography:** \	ext{Retention time} = \franc{\	ext{Affinity of molecule for stationary phase}}{\	ext{Flow rate of mobile phase}} — Time taken for a molecule to pass through the column.
 
- - **Fermentation:** $$\	ext{Biomass yield} = \\frac{\	ext{Mass of biomass}}{\	ext{Mass of substrate consumed}}$$ — Yield of biomass from the substrate.
+ - **Fermentation:** \	ext{Biomass yield} = \franc{\	ext{Mass of biomass}}{\	ext{Mass of substrate consumed}} — Yield of biomass from the substrate.
 
- - **Downstream Processing:** $$\	ext{Purity of product} = \\frac{\	ext{Concentration of product}}{\	ext{Concentration of impurities}}$$ — Purity of the product after processing.
+ - **Downstream Processing:** \	ext{Purity of product} = \franc{\	ext{Concentration of product}}{\	ext{Concentration of impurities}} — Purity of the product after processing.
 
 
 
@@ -63,37 +63,37 @@ practice_link: "/class-11/biology/biotechnology-principles-and-processes-class-1
 
 - **Mistake 1:** Incorrectly identifying the steps involved in the production of recombinant DNA.
 
- - *Costs:* 4-6 marks
+ - *Costs:* 4–6 marks
 
- - *Fix:* Understand the basic steps - isolation of DNA, cutting of DNA using restriction endonucleases, ligation of DNA, and transformation of the host cell. Ensure you can sequence these steps correctly and understand the role of each, including the use of $\vec{p}$ vectors for cloning.
+ - *Fix:* Understand the basic steps - isolation of DNA, cutting of DNA using restriction endonucleases, ligation of DNA, and transformation of the host cell. Ensure you can sequence these steps correctly and understand the role of each, including the use of $\DEC{p}$ vectors for cloning.
 
- - **Mistake 2:** Not understanding the differences between plasmid, cosmid, and phage vectors.
+ - **Mistake 2:** Not understanding the differences between plasmid, cosmic, and phage vectors.
 
- - *Costs:* 3-5 marks
+ - *Costs:* 3–5 marks
 
- - *Fix:* Recognize that plasmids are small, circular, double-stranded DNA used for smaller DNA inserts, cosmids can carry larger DNA inserts and are used for genomic libraries, and phages (like $\lambda$ phage) can carry even larger DNA inserts. Know their applications and advantages.
+ - *Fix:* Recognize that plasmids are small, circular, double-stranded DNA used for smaller DNA inserts, cos mids can carry larger DNA inserts and are used for genomic libraries, and phages (like $\lambda$ phage) can carry even larger DNA inserts. Know their applications and advantages.
 
  - **Mistake 3:** Confusing the process of polymerase chain reaction (PCR) with other amplification techniques.
 
- - *Costs:* 5-7 marks
+ - *Costs:* 5–7 marks
 
- - *Fix:* Remember PCR involves denaturation at $95^\circ$C, annealing at a specific temperature depending on the primers, and extension at $72^\circ$C. Understand the role of $Taq$ polymerase and the significance of the process in amplifying specific DNA sequences.
+ - *Fix:* Remember PCR involves denaturation at $95^\circle, annealing at a specific temperature depending on the primers, and extension at $72^\circle. Understand the role of state polymerase and the significance of the process in amplifying specific DNA sequences.
 
  - **Mistake 4:** Failure to differentiate between upstream and downstream processing in [biotechnology](/blog/biotechnology-and-its-applications-class-12-notes).
 
- - *Costs:* 4-6 marks
+ - *Costs:* 4–6 marks
 
  - *Fix:* Upstream processing involves all the steps before the product is harvested (e.g., fermentation), while downstream processing involves the purification and packaging of the product after harvesting. Know the key steps and technologies involved in each phase.
 
  - **Mistake 5:** Inability to explain the applications of [biotechnology](/blog/biotechnology-and-its-applications-class-12-notes) in medicine and agriculture.
 
- - *Costs:* 6-8 marks
+ - *Costs:* 6–8 marks
 
- - *Fix:* Be prepared to discuss examples such as the production of insulin, vaccines, and diagnostic kits in medicine, and pest-resistant crops, biofertilizers, and micropropagation in agriculture. Understand the role of $Bt$ toxin in pest control and how $\Delta$-endotoxins work.
+ - *Fix:* Be prepared to discuss examples such as the production of insulin, vaccines, and diagnostic kits in medicine, and pest-resistant crops, biofertilizers, and micropropagation in agriculture. Understand the role of BTW toxin in pest control and how $\Delta-endotoxins work.
 
 
 
-## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
+## <a id="-3-solved-pyqs"></a>✏️ 3 Solved Yes
 
 - **Q1:** The process of transferring a gene from one organism to another using a vector is known as
 
@@ -109,13 +109,13 @@ practice_link: "/class-11/biology/biotechnology-principles-and-processes-class-1
 
  - **Solution:** The steps involved in a PCR cycle are:
 
- $$
+ 
 
  \	ext{Step 1: Denaturation} \
-ightarrow \	ext{Step 2: Annealing} \
-ightarrow \	ext{Step 3: Extension}
+harrow \	ext{Step 2: Annealing} \
+harrow \	ext{Step 3: Extension}
 
- $$
+ 
 
  Any option that does not match these steps is the answer.
 
@@ -143,9 +143,9 @@ ightarrow \	ext{Step 3: Extension}
 
  * Insertion of the gene into a vector (like a plasmid)
 
- * Transformation of a host organism (like $E. coli$) with the recombinant vector
+ * Transformation of a host organism (like HE. Colin) with the recombinant vector
 
- * Selection of transformants using $\	ext{antibiotic resistance}$
+ * Selection of transform ants using $\	ext{antibiotic resistance}$
 
  However, they often struggle to apply this knowledge to complex problems or to understand the nuances of the process, such as the importance of $\	ext{compatible cohesive ends}$ for ligation.
 
@@ -157,17 +157,15 @@ ightarrow \	ext{Step 3: Extension}
 
  * Optimize the ligation reaction using the correct ratio of $\	ext{insert to vector}$
 
- * Use techniques like $\	ext{blue-white screening}$ or $\	ext{fluorescence}$ to select and verify transformants
+ * Use techniques like $\	ext{blue-white screening}$ or $\	ext{fluorescence}$ to select and verify transform ants
 
  They can also analyze complex scenarios, such as the use of $\	ext{shuttle vectors}$ to move genes between different hosts, or the application of $\	ext{CRISPR-Cas9}$ for genome editing.
 
  - **Mathematical Representation:** The process of ligation can be represented mathematically as:
 
- $$
+ 
+\franc{\	ext{moles of insert}}{\	ext{moles of vector}} = \franc{\	ext{length of insert (BP)}}{\	ext{length of vector (BP)}}
 
- \\frac{\	ext{moles of insert}}{\	ext{moles of vector}} = \\frac{\	ext{length of insert (bp)}}{\	ext{length of vector (bp)}}
-
- $$
 
  This ratio is critical in determining the efficiency of the ligation reaction and the likelihood of obtaining the desired recombinant molecule.
 
@@ -179,31 +177,31 @@ ightarrow \	ext{Step 3: Extension}
 
 
 
-## <a id="-ayushs-note"></a>👁️ Ayush's Note
+## <a id="-Ayush-note"></a>👁️ Ayush's Note
 
-👁️ Ayush's Note, - **The Hidden Pattern:** In Biotechnology, particularly for the topic 'Principles and Processes', a recurring pattern observed across 5+ years of PYQs involves the application of $r = \\mu \\\times S$ where $r$ is the growth rate, $\\mu$ is the specific growth rate, and $S$ is the substrate concentration. This formula is often disguised within questions focusing on microbial growth kinetics., - **How to Apply It:** To maximize scores, recognize this pattern in questions that mention microbial growth, substrate concentration, or specific growth rates. Apply the formula to calculate growth rates or substrate concentrations, ensuring to double-check units. Additionally, be prepared to rearrange the formula as $\\mu = \\fracrS$ or $S = \\fracr\\mu$, as these variations frequently appear in exams., - **Critical Insight:** The pattern extends to understanding the impact of environmental factors (like pH, temperature) on $\\mu$. A change in these factors can significantly alter microbial growth, hence, be prepared to analyze or calculate how such changes affect growth rates or substrate utilization. This often involves applying the $K_m$ and $V_max$ values from the Michaelis-Menten equation: $V = \\fracV_max \\\times SK_m + S$., - **Interpreting Data:** Questions may provide data on microbial growth under different conditions. Use this data to calculate $\\mu$ or $S$ and understand how different conditions (e.g., varying substrate concentrations, temperatures) affect microbial growth. This might involve plotting growth curves or substrate utilization curves and interpreting the results to answer questions., - **Common Pitfalls:** Avoid confusing $\\mu$ with $r$, as they are distinct parameters. $\\mu$ is the specific growth rate (per unit of substrate), while $r$ is the overall growth rate. Also, ensure that units are consistent when applying formulas, as incorrect unit conversions can lead to incorrect answers., - **Edge Cases:** Be aware of edge cases, such as substrate limitation or inhibition, which can significantly affect microbial growth rates. The formula $V = \\fracV_max \\\times SK_m + S$ can be adapted to account for inhibition by adding an inhibitor term, leading to more complex calculations but providing a deeper understanding of microbial metabolism under various conditions. , Parameter, Definition, Unit, Formula , $\\mu$, Specific growth rate, $h^-1$, $\\mu = \\fracrS$ , $r$, Growth rate, $h^-1$, $r = \\mu \\\times S$ , $S$, Substrate concentration, $mg/L$ or $M$, $S = \\fracr\\mu$ , $K_m$, Michaelis constant, $mg/L$ or $M$, $V = \\fracV_max \\\times SK_m + S$ , $V_max$, Maximum rate, $mg/L/h$ or $M/h$, $V = \\fracV_max \\\times SK_m + S$
+👁️ Ayush's Note, - **The Hidden Pattern:** In Biotechnology, particularly for the topic 'Principles and Processes', a recurring pattern observed across 5+ years of Yes involves the application of or = \mu \\times SO where are is the growth rate, $\mu$ is the specific growth rate, and IS is the substrate concentration. This formula is often disguised within questions focusing on microbial growth kinetics., - **How to Apply It:** To maximize scores, recognize this pattern in questions that mention microbial growth, substrate concentration, or specific growth rates. Apply the formula to calculate growth rates or substrate concentrations, ensuring to double-check units. Additionally, be prepared to rearrange the formula as $\mu = \fracas or IS = \frack\mud, as these variations frequently appear in exams., - **Critical Insight:** The pattern extends to understanding the impact of environmental factors (like pH, temperature) on $\mu$. A change in these factors can significantly alter microbial growth, hence, be prepared to analyze or calculate how such changes affect growth rates or substrate utilization. This often involves applying the OK_me and UV_Max values from the Michaelis-Lenten equation: UV = \frack_max \\times SK_m + SO., - **Interpreting Data:** Questions may provide data on microbial growth under different conditions. Use this data to calculate $\mu$ or IS and understand how different conditions (e.g., varying substrate concentrations, temperatures) affect microbial growth. This might involve plotting growth curves or substrate utilization curves and interpreting the results to answer questions., - **Common Pitfalls:** Avoid confusing $\mu$ with are, as they are distinct parameters. $\mu$ is the specific growth rate (per unit of substrate), while are is the overall growth rate. Also, ensure that units are consistent when applying formulas, as incorrect unit conversions can lead to incorrect answers., - **Edge Cases:** Be aware of edge cases, such as substrate limitation or inhibition, which can significantly affect microbial growth rates. The formula UV = \frack_max \\times SK_m + SO can be adapted to account for inhibition by adding an inhibitor term, leading to more complex calculations but providing a deeper understanding of microbial metabolism under various conditions. , Parameter, Definition, Unit, Formula , $\mu$, Specific growth rate, oh^-1$, $\mu = \fracas , are, Growth rate, oh^-1$, or = \mu \\times SO , IS, Substrate concentration, BMG/LA or ME, IS = \frack\mud , OK_me, Michaelis constant, BMG/(suggestion limit reached) or (suggestion limit reached), (suggestion limit reached) = \(suggestion limit reached)_max \\times SK_m + (suggestion limit reached) , (suggestion limit reached)_(suggestion limit reached), Maximum rate, (suggestion limit reached)/L/(suggestion limit reached) or (suggestion limit reached)/(suggestion limit reached), (suggestion limit reached) = \(suggestion limit reached)_max \\times SK_m + (suggestion limit reached)
 
 | Parameter | Definition | Unit | Formula |
 | --- | --- | --- | --- |
-| $\mu$ | Specific growth rate | $h^{-1}$ | $\mu = \frac{r}{S}$ |
-| $r$ | Growth rate | $h^{-1}$ | $r = \mu \	imes S$ |
-| $S$ | Substrate concentration | $mg/L$ or $M$ | $S = \frac{r}{\mu}$ |
-| $K_m$ | Michaelis constant | $mg/L$ or $M$ | $V = \frac{V_{max} \	imes [S]}{K_m + [S]}$ |
-| $V_{max}$ | Maximum rate | $mg/L/h$ or $M/h$ | $V = \frac{V_{max} \	imes [S]}{K_m + [S]}$ |
+| $\mu$ | Specific growth rate | oh^{-1}$ | $\mu = \franc{r}{S}$ |
+| are | Growth rate | oh^{-1}$ | or = \mu \	times SO |
+| IS | Substrate concentration | BMG/LA or ME | IS = \franc{r}{\mu}$ |
+| OK_me | Michaelis constant | BMG/(suggestion limit reached) or (suggestion limit reached) | (suggestion limit reached) = \(suggestion limit reached){V_{max} \	(suggestion limit reached) [S]}{K_m + [S]}$ |
+| (suggestion limit reached)_{max}$ | Maximum rate | (suggestion limit reached)/L/(suggestion limit reached) or (suggestion limit reached)/(suggestion limit reached) | (suggestion limit reached) = \(suggestion limit reached){V_{max} \	(suggestion limit reached) [S]}{K_m + [S]}$ |
 
 
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- $E = \frac{-RT}{nF} \ln(Q)$: Relationship between cell potential, temperature, and reaction quotient.
+- HE = \franc{-RT}{nF} \ln(Q)$: Relationship between cell potential, temperature, and reaction quotient.
 
- - $\Delta G = \Delta H - T\Delta S$: Connection between Gibbs free energy, enthalpy, temperature, and entropy.
+ - $\Delta G = \Delta H - T\Delta SO: Connection between Gibbs free energy, enthalpy, temperature, and entropy.
 
- - $K_{eq} = \frac{[C]^c[D]^d}{[A]^a[B]^b}$: Equilibrium constant expression for a reaction.
+ - OK_{eq} = \franc{[C]^c[D]^d}{[A]^a[B]^b}$: Equilibrium constant expression for a reaction.
 
- - $pH = -\log_{10}[H^+]$: Definition of pH in terms of hydrogen ion concentration.
+ - Mph = -\log_{10}[H^+]$: Definition of pH in terms of hydrogen ion concentration.
 
- - $\lambda_{max} = \frac{hc}{\Delta E}$: Relationship between wavelength of maximum absorption and energy difference.
+ - $\lambda_{max} = \franc{hc}{\Delta E}$: Relationship between wavelength of maximum absorption and energy difference.
 
  - Biotechnology involves the use of biological systems to develop new products and technologies.
 
@@ -217,15 +215,19 @@ ightarrow \	ext{Step 3: Extension}
 
 
 
-## <a id="-practice-mcqs"></a>📝 Practice MCQs
+## <a id="-practice-MCQs"></a>📝 Practice MCQs
 
 
 **1. What is the primary function of the lac operator in the lac operon?**
 
-- A) To promote transcription
-- B) To inhibit transcription
-- C) To enhance translation
-- D) To reduce mRNA stability
+-
+A) To promote transcription
+-
+B) To inhibit transcription
+-
+C) To enhance translation
+-
+D) To reduce mRNA stability
 
 **Answer:** B) The lac operator is a DNA sequence that binds to the lac repressor protein, which inhibits transcription of the lac operon.
 
@@ -233,21 +235,29 @@ ightarrow \	ext{Step 3: Extension}
 
 **2. Which of the following enzymes is used in PCR to amplify DNA sequences?**
 
-- A) Taq polymerase
-- B) Reverse transcriptase
-- C) Restriction endonuclease
-- D) DNA ligase
+-
+A) Tax polymerase
+-
+B) Reverse transcriptase
+-
+C) Restriction endonuclease
+-
+D) DNA ligase
 
-**Answer:** A) Taq polymerase is a thermostable enzyme used in PCR to amplify DNA sequences by adding nucleotides to the template strand.
+**Answer:** A) Tax polymerase is a thermostable enzyme used in PCR to amplify DNA sequences by adding nucleotides to the template strand.
 
 ---
 
 **3. What is the purpose of using a vector in gene cloning?**
 
-- A) To express the cloned gene in the host organism
-- B) To isolate the cloned gene from the host genome
-- C) To amplify the cloned gene
-- D) To introduce the cloned gene into the host organism
+-
+A) To express the cloned gene in the host organism
+-
+B) To isolate the cloned gene from the host genome
+-
+C) To amplify the cloned gene
+-
+D) To introduce the cloned gene into the host organism
 
 **Answer:** D) A vector is used to introduce the cloned gene into the host organism, where it can be replicated and expressed.
 
@@ -255,23 +265,31 @@ ightarrow \	ext{Step 3: Extension}
 
 **4. Which of the following techniques is used to separate DNA fragments based on size?**
 
-- A) Gel electrophoresis
-- B) Chromatography
-- C) Centrifugation
-- D) Spectrophotometry
+-
+A) Gel electrophoresis
+-
+B) Chromatography
+-
+C) Centrifugation
+-
+D) Spectrophotometry
 
 **Answer:** A) Gel electrophoresis is a technique used to separate DNA fragments based on size, with smaller fragments migrating further through the gel.
 
 ---
 
-**5. What is the role of RNA interference (RNAi) in gene regulation?**
+**5. What is the role of RNA interference (RN
+A) in gene regulation?**
+-
+A) To activate gene expression
+-
+B) To repress gene expression
+-
+C) To enhance protein synthesis
+-
+D) To reduce mRNA stability
 
-- A) To activate gene expression
-- B) To repress gene expression
-- C) To enhance protein synthesis
-- D) To reduce mRNA stability
-
-**Answer:** B) RNAi is a mechanism that represses gene expression by degrading specific mRNA molecules, thereby preventing their translation into protein.
+**Answer:** B) RNA is a mechanism that represses gene expression by degrading specific mRNA molecules, thereby preventing their translation into protein.
 
 
 
@@ -281,10 +299,10 @@ ightarrow \	ext{Step 3: Extension}
 
 Continue your revision with these related guides:
 
-- 📖 [Biotechnology and its Applications Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biotechnology-and-its-applications-class-12-notes)
-- 📖 [Principles of Inheritance and Variation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/principles-of-inheritance-and-variation-class-12-notes)
-- 📖 [Human Health and Disease Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/human-health-and-disease-class-12-notes)
-- 📖 [Human Reproduction Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/human-reproduction-class-12-notes)
+- 📖 [Biotechnology and its Applications Class 12 Biology Revision — MEET 2026 Grandmaster Guide](/blog/biotechnology-and-its-applications-class-12-notes)
+- 📖 [Principles of Inheritance and Variation Class 12 Biology Revision — MEET 2026 Grandmaster Guide](/blog/principles-of-inheritance-and-variation-class-12-notes)
+- 📖 [Human Health and Disease Class 12 Biology Revision — MEET 2026 Grandmaster Guide](/blog/human-health-and-disease-class-12-notes)
+- 📖 [Human Reproduction Class 12 Biology Revision — MEET 2026 Grandmaster Guide](/blog/human-reproduction-class-12-notes)
 
 
 ---
@@ -302,7 +320,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 Continue your revision with these related guides:
 
-- 📖 [Biotechnology and its Applications Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biotechnology-and-its-applications-class-12-notes)
-- 📖 [Principles of Inheritance and Variation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/principles-of-inheritance-and-variation-class-12-notes)
-- 📖 [Biodiversity and Conservation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
-- 📖 [Ecosystem Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/ecosystem-class-12-notes)
+- 📖 [Biotechnology and its Applications Class 12 Biology Revision — MEET 2026 Grandmaster Guide](/blog/biotechnology-and-its-applications-class-12-notes)
+- 📖 [Principles of Inheritance and Variation Class 12 Biology Revision — MEET 2026 Grandmaster Guide](/blog/principles-of-inheritance-and-variation-class-12-notes)
+- 📖 [Biodiversity and Conservation Class 12 Biology Revision — MEET 2026 Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
+- 📖 [Ecosystem Class 12 Biology Revision — MEET 2026 Grandmaster Guide](/blog/ecosystem-class-12-notes)
+

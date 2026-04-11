@@ -47,25 +47,25 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Mendel's Law of Segregation:** $$\frac{1}{2}$$ of the gametes will have one allele and the other $$\frac{1}{2}$$ will have the other allele — where the alleles are different versions of a gene. 
+- **Mendel's Law of Segregation:** \frac{1}{2} of the gametes will have one allele and the other \frac{1}{2} will have the other allele — where the alleles are different versions of a gene. 
 
-- **Mendel's Law of Independent Assortment:** $$\frac{1}{4}$$ of the offspring will have one combination of alleles, $$\frac{1}{2}$$ will have another combination, and $$\frac{1}{4}$$ will have the last combination — assuming two genes are unlinked. 
+- **Mendel's Law of Independent Assortment:** \frac{1}{4} of the offspring will have one combination of alleles, \frac{1}{2} will have another combination, and \frac{1}{4} will have the last combination — assuming two genes are unlinked. 
 
-- **Hardy-Weinberg Principle:** $$p^2 + 2pq + q^2 = 1$$ — where $p$ and $q$ are the frequencies of the two alleles, and $p^2$ and $q^2$ are the frequencies of the two homozygous genotypes, and $2pq$ is the frequency of the heterozygous genotype. 
+- **Hardy-Weinberg Principle:** p^2 + 2pq + q^2 = 1 — where $p$ and $q$ are the frequencies of the two alleles, and $p^2$ and $q^2$ are the frequencies of the two homozygous genotypes, and $2pq$ is the frequency of the heterozygous genotype. 
 
-- **Genotype Frequency:** $$p = \frac{Number\ of\ individuals\ with\ allele\ A}{Total\ number\ of\ individuals}$$ — where $p$ is the frequency of allele A. 
+- **Genotype Frequency:** p = \frac{Number\ of\ individuals\ with\ allele\ A}{Total\ number\ of\ individuals} — where $p$ is the frequency of allele A. 
 
-- **Allele Frequency:** $$q = \frac{Number\ of\ individuals\ with\ allele\ a}{Total\ number\ of\ individuals}$$ — where $q$ is the frequency of allele a. 
+- **Allele Frequency:** q = \frac{Number\ of\ individuals\ with\ allele\ a}{Total\ number\ of\ individuals} — where $q$ is the frequency of allele a. 
 
-- **Phenotypic Ratio (Monohybrid Cross):** $$3:1$$ — where 3 is the number of offspring expressing the dominant trait and 1 is the number of offspring expressing the recessive trait. 
+- **Phenotypic Ratio (Monohybrid Cross):** 3:1 — where 3 is the number of offspring expressing the dominant trait and 1 is the number of offspring expressing the recessive trait. 
 
-- **Phenotypic Ratio (Dihybrid Cross):** $$9:3:3:1$$ — where 9 is the number of offspring expressing both dominant traits, 3 is the number of offspring expressing one dominant and one recessive trait, 3 is the number of offspring expressing the other combination of one dominant and one recessive trait, and 1 is the number of offspring expressing both recessive traits. 
+- **Phenotypic Ratio (Dihybrid Cross):** 9:3:3:1 — where 9 is the number of offspring expressing both dominant traits, 3 is the number of offspring expressing one dominant and one recessive trait, 3 is the number of offspring expressing the other combination of one dominant and one recessive trait, and 1 is the number of offspring expressing both recessive traits. 
 
-- **Punnett Square Probability:** $$\frac{Number\ of\ favorable\ outcomes}{Total\ number\ of\ possible\ outcomes}$$ — where the favorable outcomes are the ones with the desired genotype or phenotype. 
+- **Punnett Square Probability:** \frac{Number\ of\ favorable\ outcomes}{Total\ number\ of\ possible\ outcomes} — where the favorable outcomes are the ones with the desired genotype or phenotype. 
 
-- **Chi-Squared Test for Genetic Data:** $$\chi^2 = \sum \frac{(Observed - Expected)^2}{Expected}$$ — where the observed values are the actual numbers of each phenotype or genotype, and the expected values are the numbers predicted by the null hypothesis. 
+- **Chi-Squared Test for Genetic Data:** \chi^2 = \sum \frac{(Observed - Expected)^2}{Expected} — where the observed values are the actual numbers of each phenotype or genotype, and the expected values are the numbers predicted by the null hypothesis. 
 
-- **Coefficient of Inbreeding:** $$F = \frac{Number\ of\ common\ ancestors}{Total\ number\ of\ ancestors}$$ — where $F$ is the coefficient of inbreeding, which measures the probability that two alleles at a locus are identical by descent.
+- **Coefficient of Inbreeding:** F = \frac{Number\ of\ common\ ancestors}{Total\ number\ of\ ancestors} — where $F$ is the coefficient of inbreeding, which measures the probability that two alleles at a locus are identical by descent.
 
 
 
@@ -75,13 +75,13 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 
  - *Costs:* 4-6 marks per question
 
- - *Fix:* Always start by identifying the alleles and their interactions, then use a Punnett square to calculate the probability of each genotype and phenotype. Remember that the $\\frac{1}{2}$ and $\\frac{1}{4}$ rules for monohybrid crosses only apply when one parent is homozygous dominant and the other is homozygous recessive.
+ - *Fix:* Always start by identifying the alleles and their interactions, then use a Punnett square to calculate the probability of each genotype and phenotype. Remember that the $\frac{1}{2}$ and $\frac{1}{4}$ rules for monohybrid crosses only apply when one parent is homozygous dominant and the other is homozygous recessive.
 
  - **Mistake 2:** Forgetting to account for multiple alleles or incomplete dominance when calculating the expected phenotypic ratios in a cross.
 
  - *Costs:* 5-8 marks per question
 
- - *Fix:* Be aware of the different types of interactions between alleles, such as codominance, incomplete dominance, and multiple alleles. Use the correct formulas, like the $\\frac{9}{16}$, $\\frac{3}{16}$, and $\\frac{4}{16}$ rules for dihybrid crosses, and consider the impact of each type of interaction on the expected phenotypic ratios.
+ - *Fix:* Be aware of the different types of interactions between alleles, such as codominance, incomplete dominance, and multiple alleles. Use the correct formulas, like the $\frac{9}{16}$, $\frac{3}{16}$, and $\frac{4}{16}$ rules for dihybrid crosses, and consider the impact of each type of interaction on the expected phenotypic ratios.
 
  - **Mistake 3:** Confusing between the different types of DNA variations, such as mutations, genetic recombination, and gene flow, and their effects on the evolution of populations.
 
@@ -113,17 +113,17 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 
  Let's denote the probability of having a boy as $P(B)$ and the probability of having a girl as $P(G)$. Since each child can be either a boy or a girl, we have $P(B) = P(G) = 0.5$. 
 
- $$P(\text{at least one boy}) = P(BB) + P(BG) + P(GB) = 0.5 \times 0.5 + 0.5 \times 0.5 + 0.5 \times 0.5 = 0.75$$
+ P(\text{at least one boy}) = P(BB) + P(BG) + P(GB) = 0.5 \times 0.5 + 0.5 \times 0.5 + 0.5 \times 0.5 = 0.75
 
  The sample space for having at least one boy when two children are born is $\{(B,B), (B,G), (G,B)\}$. 
 
  The probability of having a girl given that at least one of the children is a boy can be found using the formula:
 
- $$P(G|B) = \frac{P(G \cap B)}{P(B)}$$
+ P(G|B) = \frac{P(G \cap B)}{P(B)}
 
  Here, $P(G \cap B)$ is the probability of having at least one girl and one boy, which is $P(BG) + P(GB) = 0.5 \times 0.5 + 0.5 \times 0.5 = 0.5$.
 
- $$P(G|B) = \frac{0.5}{0.75} = \frac{2}{3}$$
+ P(G|B) = \frac{0.5}{0.75} = \frac{2}{3}
 
  - **Answer:** $\frac{2}{3}$
 
@@ -137,7 +137,7 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 
  Using the Punnett square method, we can find the genotypic ratio of the offspring:
 
- $$\begin{array}{c|c|c}
+ \begin{array}{c|c|c}
 
  & R & r \hline
 
@@ -145,7 +145,7 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 
  r & Rr & rr
 
- \end{array}$$
+ \end{array}
 
  The genotypic ratio is $1RR : 2Rr : 1rr$. Since the ‘R’ allele is dominant, both $RR$ and $Rr$ will have red seeds. Only $rr$ will have green seeds. 
 
@@ -165,7 +165,7 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 
  Since the two events are independent, we can calculate the probability of getting the combination ‘ABC’ by multiplying the individual probabilities.
 
- $$P(ABC) = (1 - 0.2) \times (1 - 0.1) = 0.8 \times 0.9 = 0.72$$
+ P(ABC) = (1 - 0.2) \times (1 - 0.1) = 0.8 \times 0.9 = 0.72
 
  However, considering the parents ‘AB/c’ and ‘ab/C’, the gametes they can produce are $AB$, $Ab$, $aB$, $ab$, $AB$, $AC$, $aB$, $ac$. 
 
@@ -203,39 +203,39 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 
  * Application of the **$\frac{1}{2}$** rule for predicting the probability of a particular genotype in a monohybrid cross, and the **$\frac{1}{4}$**, **$\frac{1}{2}$**, **$\frac{1}{4}$** rule for a dihybrid cross.
 
- * Understanding of the difference between **incomplete dominance** ($$ \frac{A}{a} \times \frac{A}{a} $$ results in a **3:1** ratio of phenotypes, but with one phenotype being a blend of the two parental phenotypes) and **co-dominance** ($$ \frac{R}{r} \times \frac{R}{r} $$ results in a **1:2:1** ratio of phenotypes, with the two parental phenotypes and a third phenotype that combines the two).
+ * Understanding of the difference between **incomplete dominance** ( \frac{A}{a} \times \frac{A}{a}  results in a **3:1** ratio of phenotypes, but with one phenotype being a blend of the two parental phenotypes) and **co-dominance** ( \frac{R}{r} \times \frac{R}{r}  results in a **1:2:1** ratio of phenotypes, with the two parental phenotypes and a third phenotype that combines the two).
 
 | Concept | Description | Formula |
 | --- | --- | --- |
-| Hardy-Weinberg principle | Describes how allele and genotype frequencies in a population will remain constant from generation to generation in the absence of other evolutionary influences | $$p^2 + 2pq + q^2 = 1$$ |
-| Incomplete dominance | Results in a blend of the two parental phenotypes | $$\frac{A}{a} \times \frac{A}{a}$$ |
-| Co-dominance | Results in a combination of the two parental phenotypes | $$\frac{R}{r} \times \frac{R}{r}$$ |
+| Hardy-Weinberg principle | Describes how allele and genotype frequencies in a population will remain constant from generation to generation in the absence of other evolutionary influences | p^2 + 2pq + q^2 = 1 |
+| Incomplete dominance | Results in a blend of the two parental phenotypes | \frac{A}{a} \times \frac{A}{a} |
+| Co-dominance | Results in a combination of the two parental phenotypes | \frac{R}{r} \times \frac{R}{r} |
 
 
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-👁️ Ayush's Note, - **The Hidden Pattern:** In the context of Principles of Inheritance and Variation, a pattern emerges when analyzing the past 5+ years of PYQs. This pattern reveals that approximately $\\frac35$ of the questions are focused on the application of Mendel's laws, including the law of segregation ($$\\fracAa \\times \\fracAa = \\frac34 AA + \\frac14 aa$$) and the law of independent assortment ($$\\fracABab \\times \\fracABab = \\frac916 AABB + \\frac316 AAbb + \\frac316 aaBB + \\frac116 aabb$$)., - **How to Apply It:** To capitalize on this pattern, focus on solving problems that involve the application of these laws, such as determining the probability of certain genotypes or phenotypes in offspring. Additionally, be familiar with the $χ^2$ test for goodness of fit, which is often used to analyze the results of genetic experiments ($$χ^2 = \\sum \\frac(observed - expected)^2expected$$). It's also essential to understand the concept of genetic linkage and how it deviates from the expected results under independent assortment, including the use of the recombination frequency ($$RF = \\fracnumber\\ of\\ recombinantstotal\\ number\\ of\\ offspring$$) to construct linkage maps., - **Key Concepts:** Other crucial concepts to review include multiple allelism ($$A^1A^2 \times aa = \\frac12 A^1a + \\frac12 A^2a$$), the Hardy-Weinberg principle ($$p^2 + 2pq + q^2 = 1$$, where $p$ and $q$ are the frequencies of the alleles), and the factors that influence the variation of traits, such as polygenic inheritance ($$T = G + E$$, where $T$ is the total variation, $G$ is the genetic variation, and $E$ is the environmental variation)., - **Problem-Solving Strategies:** When tackling problems related to Principles of Inheritance and Variation, first identify the type of problem and the relevant concepts. For Mendel's laws, ensure you understand the genotypes and phenotypes involved. For more complex problems involving genetic linkage or multiple allelism, draw out the possible genotypes and phenotypes of the offspring and use Punnett squares or other tools to calculate probabilities., - **Common Pitfalls:** Be cautious of common pitfalls such as incorrectly applying Mendel's laws to situations involving genetic linkage or failing to account for the effects of multiple alleles. Also, ensure you understand the difference between genotype and phenotype and can correctly determine the probability of certain traits being expressed in offspring. , Concept, Formula, Description , Law of Segregation, $$\\fracAa \\times \\fracAa = \\frac34 AA + \\frac14 aa$$, Each pair of alleles separates from each other during gamete formation. , Law of Independent Assortment, $$\\fracABab \\times \\fracABab = \\frac916 AABB + \\frac316 AAbb + \\frac316 aaBB + \\frac116 aabb$$, Alleles for different genes are sorted independently of each other during gamete formation. , χ^2 Test, $$χ^2 = \\sum \\frac(observed - expected)^2expected$$, Used to determine how well observed data fit expected distributions.
+👁️ Ayush's Note, - **The Hidden Pattern:** In the context of Principles of Inheritance and Variation, a pattern emerges when analyzing the past 5+ years of PYQs. This pattern reveals that approximately $\frac35$ of the questions are focused on the application of Mendel's laws, including the law of segregation (\fracAa \times \fracAa = \frac34 AA + \frac14 aa) and the law of independent assortment (\fracABab \times \fracABab = \frac916 AABB + \frac316 AAbb + \frac316 aaBB + \frac116 aabb)., - **How to Apply It:** To capitalize on this pattern, focus on solving problems that involve the application of these laws, such as determining the probability of certain genotypes or phenotypes in offspring. Additionally, be familiar with the $χ^2$ test for goodness of fit, which is often used to analyze the results of genetic experiments (χ^2 = \sum \frac(observed - expected)^2expected). It's also essential to understand the concept of genetic linkage and how it deviates from the expected results under independent assortment, including the use of the recombination frequency (RF = \fracnumber\\ of\\ recombinantstotal\\ number\\ of\\ offspring) to construct linkage maps., - **Key Concepts:** Other crucial concepts to review include multiple allelism (A^1A^2 \times aa = \frac12 A^1a + \frac12 A^2a), the Hardy-Weinberg principle (p^2 + 2pq + q^2 = 1, where $p$ and $q$ are the frequencies of the alleles), and the factors that influence the variation of traits, such as polygenic inheritance (T = G + E, where $T$ is the total variation, $G$ is the genetic variation, and $E$ is the environmental variation)., - **Problem-Solving Strategies:** When tackling problems related to Principles of Inheritance and Variation, first identify the type of problem and the relevant concepts. For Mendel's laws, ensure you understand the genotypes and phenotypes involved. For more complex problems involving genetic linkage or multiple allelism, draw out the possible genotypes and phenotypes of the offspring and use Punnett squares or other tools to calculate probabilities., - **Common Pitfalls:** Be cautious of common pitfalls such as incorrectly applying Mendel's laws to situations involving genetic linkage or failing to account for the effects of multiple alleles. Also, ensure you understand the difference between genotype and phenotype and can correctly determine the probability of certain traits being expressed in offspring. , Concept, Formula, Description , Law of Segregation, \fracAa \times \fracAa = \frac34 AA + \frac14 aa, Each pair of alleles separates from each other during gamete formation. , Law of Independent Assortment, \fracABab \times \fracABab = \frac916 AABB + \frac316 AAbb + \frac316 aaBB + \frac116 aabb, Alleles for different genes are sorted independently of each other during gamete formation. , χ^2 Test, χ^2 = \sum \frac(observed - expected)^2expected, Used to determine how well observed data fit expected distributions.
 
 | Concept | Formula | Description |
 | --- | --- | --- |
-| Law of Segregation | $$\frac{A}{a} \times \frac{A}{a} = \frac{3}{4} AA + \frac{1}{4} aa$$ | Each pair of alleles separates from each other during gamete formation. |
-| Law of Independent Assortment | $$\frac{AB}{ab} \times \frac{AB}{ab} = \frac{9}{16} AABB + \frac{3}{16} AAbb + \frac{3}{16} aaBB + \frac{1}{16} aabb$$ | Alleles for different genes are sorted independently of each other during gamete formation. |
-| χ^2 Test | $$χ^2 = \sum \frac{(observed - expected)^2}{expected}$$ | Used to determine how well observed data fit expected distributions. |
+| Law of Segregation | \frac{A}{a} \times \frac{A}{a} = \frac{3}{4} AA + \frac{1}{4} aa | Each pair of alleles separates from each other during gamete formation. |
+| Law of Independent Assortment | \frac{AB}{ab} \times \frac{AB}{ab} = \frac{9}{16} AABB + \frac{3}{16} AAbb + \frac{3}{16} aaBB + \frac{1}{16} aabb | Alleles for different genes are sorted independently of each other during gamete formation. |
+| χ^2 Test | χ^2 = \sum \frac{(observed - expected)^2}{expected} | Used to determine how well observed data fit expected distributions. |
 
 
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- $$p \times q = \frac{1}{4}$$ : Probability of a genotype in a monohybrid cross.
+- p \times q = \frac{1}{4} : Probability of a genotype in a monohybrid cross.
 
- - $$2pq = \frac{1}{2}$$ : Probability of a genotype in a monohybrid cross.
+ - 2pq = \frac{1}{2} : Probability of a genotype in a monohybrid cross.
 
- - $$q^2 + p^2 + 2pq = 1$$ : Hardy-Weinberg principle for a monohybrid cross.
+ - q^2 + p^2 + 2pq = 1 : Hardy-Weinberg principle for a monohybrid cross.
 
- - $$\Delta p = \frac{p(q - p)}{p + q}$$ : Change in allele frequency.
+ - \Delta p = \frac{p(q - p)}{p + q} : Change in allele frequency.
 
- - $$H = 1 - \sum p^2$$ : Expected heterozygosity.
+ - H = 1 - \sum p^2 : Expected heterozygosity.
 
  - Mendel's laws are used to explain the [inheritance](/blog/molecular-basis-of-inheritance-class-12-notes) patterns of traits.
 
@@ -254,10 +254,14 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 
 **1. What is the term for the physical appearance of a trait?**
 
-- A) Genotype
-- B) Phenotype
-- C) Dominant
-- D) Recessive
+-
+A) Genotype
+-
+B) Phenotype
+-
+C) Dominant
+-
+D) Recessive
 
 **Answer:** B) The phenotype is the physical appearance of a trait, whereas the genotype is the genetic makeup.
 
@@ -265,10 +269,14 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 
 **2. Which of the following is an example of a recessive disorder?**
 
-- A) Cystic Fibrosis
-- B) Sickle Cell Anemia
-- C) Huntington's Disease
-- D) None of the above
+-
+A) Cystic Fibrosis
+-
+B) Sickle Cell Anemia
+-
+C) Huntington's Disease
+-
+D) None of the above
 
 **Answer:** A) Cystic Fibrosis is an autosomal recessive disorder, meaning that an individual must inherit two copies of the mutated gene to express the condition.
 
@@ -276,10 +284,14 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 
 **3. What is the principle of independent assortment?**
 
-- A) Alleles of different genes are sorted independently of each other
-- B) Alleles of the same gene are sorted independently of each other
-- C) Genes are inherited in a linked manner
-- D) None of the above
+-
+A) Alleles of different genes are sorted independently of each other
+-
+B) Alleles of the same gene are sorted independently of each other
+-
+C) Genes are inherited in a linked manner
+-
+D) None of the above
 
 **Answer:** A) The principle of independent assortment states that alleles of different genes are sorted independently of each other during gamete formation.
 
@@ -287,10 +299,14 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 
 **4. What is the term for the interaction between two or more genes to produce a trait?**
 
-- A) Polygenic inheritance
-- B) Pleiotropy
-- C) Epistasis
-- D) Dominance
+-
+A) Polygenic inheritance
+-
+B) Pleiotropy
+-
+C) Epistasis
+-
+D) Dominance
 
 **Answer:** C) Epistasis refers to the interaction between two or more genes to produce a trait, where the effect of one gene is modified by one or more other genes.
 
@@ -298,10 +314,14 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 
 **5. What is the term for the phenomenon where a single gene affects multiple traits?**
 
-- A) Pleiotropy
-- B) Polygenic inheritance
-- C) Epistasis
-- D) Genetic drift
+-
+A) Pleiotropy
+-
+B) Polygenic inheritance
+-
+C) Epistasis
+-
+D) Genetic drift
 
 **Answer:** A) Pleiotropy refers to the phenomenon where a single gene affects multiple traits, resulting in multiple effects on the phenotype.
 
@@ -338,3 +358,4 @@ Continue your revision with these related guides:
 - 📖 [Molecular Basis of Inheritance Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/molecular-basis-of-inheritance-class-12-notes)
 - 📖 [Biodiversity and Conservation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
 - 📖 [Biotechnology and its Applications Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biotechnology-and-its-applications-class-12-notes)
+

@@ -77,7 +77,7 @@ Some of the key concepts related to electromagnetic waves that we'll be explorin
 Some of the key terms and formulas that we'll be using in this topic include:
 
 * **Speed of light**: $c = 3 \times 10^{8}$ m/s
-* **Electromagnetic wave equation**: $$\frac{\partial^2 E}{\partial x^2} = \mu_0 \epsilon_0 \frac{\partial^2 E}{\partial t^2}$$
+* **Electromagnetic wave equation**: \frac{\partial^2 E}{\partial x^2} = \mu_0 \epsilon_0 \frac{\partial^2 E}{\partial t^2}
 * **Wave number**: $k = \frac{2 \pi}{\lambda}$
 * **Frequency**: $f = \frac{c}{\lambda}$
 
@@ -355,9 +355,8 @@ u$ and $v = \frac{c}{mu_r epsilon_r}$ to different scenarios, and make sure to d
 1.5x10^8 m/s
 4x10^8 m/s
 
-**Answer:** A) The speed of an electromagnetic wave in a vacuum is approximately 3x10^8 m/s.
-
-
+**Answer:**
+A) The speed of an electromagnetic wave in a vacuum is approximately 3x10^8 m/s.
 **2. Which of the following types of electromagnetic waves has the highest frequency?**
 Radio waves
 Microwaves
@@ -366,16 +365,14 @@ Gamma rays
 
 **Answer:** D) Gamma rays have the highest frequency among all types of electromagnetic waves.
 
-
 **3. What is the unit of measurement for the wavelength of an electromagnetic wave?**
 Hz
 m
 s
 kg
 
-**Answer:** B) The unit of measurement for the wavelength of an electromagnetic wave is meter (m).
-
-
+**Answer:**
+B) The unit of measurement for the wavelength of an electromagnetic wave is meter (m).
 **4. Which type of electromagnetic wave is used for communication over long distances?**
 Radio waves
 Microwaves
@@ -383,7 +380,6 @@ Infrared waves
 X-rays
 
 **Answer:** A) Radio waves are commonly used for communication over long distances due to their low frequency and long wavelength.
-
 
 **5. What is the term for the process by which an electromagnetic wave transfers energy to a charged particle?**
 Resonance
@@ -394,10 +390,7 @@ Absorption
 **Answer:** D) Absorption is the process by which an electromagnetic wave transfers energy to a charged particle.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -415,10 +408,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/electromagnetic-waves-class-12-notes) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/electromagnetic-waves-class-12-notes) now and track your progress against thousands of students.
 
 
 ---

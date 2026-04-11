@@ -61,7 +61,7 @@ async function main() {
     let response = "";
     try {
         console.log(`🤖 [SEO Intel] Requesting Elite Strategic Analysis (Tier: T5)...`);
-        response = await nodeRouter.route([], 'T5', {
+        response = await nodeRouter.route([], 'T1', {
             system: "You are a Senior SEO Content Strategist for ExamCompass (an Indian exam prep site for JEE/NEET/CBSE).",
             user: prompt,
             jsonMode: true

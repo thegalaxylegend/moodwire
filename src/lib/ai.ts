@@ -22,7 +22,7 @@ function detectTier(text: string, hasImage: boolean, context: string = ''): Task
         'derive', 'proof', 'advanced', 'jee advanced', 'organic mechanism', 
         'schrodinger', 'calculus', 'integration by parts', 'maxwell'
     ];
-    if (expertKeywords.some(k => lowText.includes(k))) return 'T5';
+    if (expertKeywords.some(k => lowText.includes(k))) return 'T1';
 
     // T4: Complex / High-school STEM
     const complexKeywords = [
@@ -30,16 +30,16 @@ function detectTier(text: string, hasImage: boolean, context: string = ''): Task
         '\\frac', '\\sqrt', '\\sum', '\\int', '$', 'formula', 'stoichiometry'
     ];
     const numCount = (text.match(/\d/g) || []).length;
-    if (complexKeywords.some(k => lowText.includes(k)) || numCount > 15) return 'T4';
+    if (complexKeywords.some(k => lowText.includes(k)) || numCount > 15) return 'T2';
 
     // T1: Trivial (Check for intent)
     if (text.length < 30 && !lowText.includes('?')) {
         const trivialKeywords = ['hi', 'hello', 'thanks', 'bye', 'ok', 'cool'];
-        if (trivialKeywords.some(k => lowText.includes(k))) return 'T1';
+        if (trivialKeywords.some(k => lowText.includes(k))) return 'T5';
     }
 
     // T2: Simple (Factual)
-    if (text.length < 100 && !complexKeywords.some(k => lowText.includes(k))) return 'T2';
+    if (text.length < 100 && !complexKeywords.some(k => lowText.includes(k))) return 'T4';
 
     // Default: T3 (Moderate Academic)
     return 'T3';
@@ -71,15 +71,21 @@ export const askAI = async (
     imageBase64?: string,
     manualMemories?: string,
     testResults: TestResult[] = [],
-    _onSearch?: (searching: boolean) => void
+    _onSearch?: (searching: boolean) => void,
+    extraOptions: any = {}
 ) => {
+    // Merge extraOptions into options if applicable
+    if (extraOptions?.language) {
+        options.language = extraOptions.language;
+    }
     // 1. Build Persona
     const memories = manualMemories || getImportantMemories();
     let systemPersona = buildSystemPrompt({
         userProfile: adaptiveProfile || { id: 'guest', name: 'Student' },
         memories,
         testResults,
-        webContext: ""
+        webContext: "",
+        language: options.language || 'en'
     });
 
     if (isVoiceContext) {

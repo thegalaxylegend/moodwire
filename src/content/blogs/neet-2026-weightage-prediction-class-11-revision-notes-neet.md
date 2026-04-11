@@ -117,16 +117,7 @@ Data shows that 70% of the NEET paper comes from only 35% of the syllabus. If yo
 **Practice Tip:** Don't just read the theory. Apply these concepts by practicing our [NEET Past Year Questions](/neet). Focus heavily on the years 2018–2025, as they represent the modern NTA pattern.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -144,10 +135,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/neet-2026-weightage-prediction-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/neet-2026-weightage-prediction-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
 
 ---

@@ -385,7 +385,7 @@ RULES FOR THE LAST-NIGHT REVISION FORMAT:
 1. NO INTRODUCTIONS. NO DEFINITIONS. NO PREREQUISITES. Start directly with high-yield exam insights.
 2. LATEX ESCAPING: You MUST double-escape all backslashes in LaTeX formulas (e.g., use \\\\frac instead of \\frac, \\\\times instead of \\times, \\\\Delta instead of \\Delta). Failure to double-escape will break the JSON parser and your output will be discarded.
 3. Every formula must be rendered cleanly with ONLY $ for inline math and $$ for block math. Ensure all formulas are wrapped.
-4. Voice: Authentic Peer Mentor (student-to-student). 
+4. Voice: Authentic Peer Mentor (student-to-student).
 5. FORMATTING: NEVER WRITE LONG PARAGRAPHS or walls of text! Everything must be highly structured using bold text, bullet points (- ), and short punchy sentences. Use bullet points for almost everything!
 6. TABLES AND STRUCTURE: If you generate comparisons or tabular data, you MUST use strict Github-Flavored Markdown tables with pipes (|). NEVER generate raw CSV or comma-separated blocks of text.
 STRICT RULE: Focus entirely on what's examined, not just general knowledge.
@@ -499,12 +499,12 @@ function safelyParseJson(raw: string): any {
     }
 }
 
-async function callLlmWithFallback(system: string, user: string, isJson: boolean = false): Promise<string | null> {
+export async function callLlmWithFallback(system: string, user: string, isJson: boolean = false): Promise<string | null> {
     const isMetadata = user.includes("SEO") || user.includes("slug") || user.includes("recall");
     const isHardScience = user.includes("Physics") || user.includes("Chemistry") || user.includes("Math") || user.includes("Formula");
     
     // Tiered Target Selection
-    let tier: TaskTier = isMetadata ? 'T1' : (isHardScience ? 'T4' : 'T3');
+    let tier: TaskTier = isMetadata ? 'T5' : (isHardScience ? 'T2' : 'T3');
 
     try {
         return await nodeRouter.route([{ role: "system", content: system }, { role: "user", content: user }], tier, {
@@ -653,22 +653,26 @@ async function generateSection(item: any, heading: string, displayClass: string,
 }
 
 
-async function generateExtras(item: any, researchContext: string): Promise<{ mcqs: MCQ[], recall: string[] }> {
+export async function generateExtras(item: any, researchContext: string): Promise<{ mcqs: MCQ[], recall: string[] }> {
     console.log(`🧠 Jules: Generating MCQs and Quick Recall for ${item.topic}...`);
     const numericClass = Number(item.class.replace(/\D/g, ''));
     const system = getAcademicIdentity(numericClass, item.subject);
     
     let contextHeader = researchContext ? `\n\nUSE THESE REAL PYQs/DATA FROM RESEARCH:\n${researchContext}\n\n` : "";
 
-    const user = `${contextHeader}Generate 5 high-yield MCQs and 10 Quick Recall bullet points for "${item.topic}".
-    The "quick_recall" items MUST be highly specific exam predictions based on the research data provided if available. 
-    Format each recall point with frequency tags:
-    - [Sub-topic]: [Prediction] — always
-    - [Sub-topic]: [Prediction] — frequently
+    const user = `${contextHeader}Generate 5 high-yield MCQs and a Conceptual Summary for "${item.topic}".
     
-    Example: "Human Eye: 1 diagram-based question on Myopia/Hypermetropia — always"
+    The "quick_recall" items MUST be a "Grandmaster Conceptual Summary" of the chapter's core truths.
+    - Each point should be a concise, fundamental concept or property.
+    - DO NOT include questions, tasks, or "how-to" points (e.g., NO "Find the area...").
+    - USE declarative statements.
     
-    The MCQs MUST have "question", "options" (array), "answer" (A/B/C/D), and "answer_text" (explanation) fields.
+    Example: 
+    - "Tangent Radii: The tangent to a circle is always perpendicular to the radius at the point of contact."
+    - "External Tangency: Lengths of tangents from an external point are always equal."
+    
+    The MCQs MUST have "question", "options" (array of 4 strings), "answer" (A/B/C/D), and "answer_text" (explanation) fields.
+    STRICT RULE: Do NOT include "A)", "B)" etc. prefixes inside the option strings. Just provide the option text.
     Return as JSON: { "mcqs": [...], "quick_recall": [...] }`;
     
     const raw = await callLlmWithFallback(system, user, true);
@@ -757,19 +761,31 @@ async function generateBlogs() {
         }
     }
 
-    // 2. Load Refinement (Decay) Queue
+    // 2. Load Refinement (Decay) Queue - Merge all pending tasks
     const regenFiles = fs.readdirSync(REPORTS_DIR)
-        .filter(f => f.startsWith('regen-queue-') && f.endsWith('.json'))
-        .sort()
-        .reverse();
+        .filter(f => f.startsWith('regen-queue-') && f.endsWith('.json'));
     
-    if (regenFiles.length > 0) {
-        const latestRegen = path.join(REPORTS_DIR, regenFiles[0]);
-        const regenQueue = JSON.parse(fs.readFileSync(latestRegen, 'utf8'));
-        console.log(`📂 Found ${regenQueue.length} refinement items in ${regenFiles[0]}`);
+    let allRegenItems: any[] = [];
+    for (const file of regenFiles) {
+        try {
+            const filePath = path.join(REPORTS_DIR, file);
+            const content = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+            if (Array.isArray(content)) {
+                allRegenItems = [...allRegenItems, ...content];
+            }
+        } catch (err) {
+            console.error(`⚠️ Failed to read regen file ${file}:`, err);
+        }
+    }
+
+    if (allRegenItems.length > 0) {
+        console.log(`📂 Found ${allRegenItems.length} total refinement items across ${regenFiles.length} files.`);
         
-        // Convert regen-queue format to generation format
-        const formattedRegen = regenQueue.map((item: any) => {
+        // Deduplicate by slug
+        const uniqueRegen = Array.from(new Map(allRegenItems.map(item => [item.slug, item])).values());
+        
+        // Convert to generation format
+        const formattedRegen = uniqueRegen.map((item: any) => {
             let subject = 'General';
             let topic = item.slug.replace(/-/g, ' ');
             let examClass = '10';
@@ -909,26 +925,28 @@ async function generateBlogs() {
                         : `${item.topic} Class ${numericClass} ${item.subject} Recap — ${examTag} ${targetYear} Quick Guide`;
 
                     // Area 5: Practice Link Routing (Dynamic for all subjects)
-                    const PRACTICE_LINK_MAP: Record<string, string> = {
-                        "Social Science": "/class-11/social-science",
-                        "Geography": "/class-11/geography",
-                        "History": "/class-11/history",
-                        "Physics": "/class-11/physics",
-                        "Chemistry": "/class-11/chemistry",
-                        "Biology": "/class-11/biology",
-                        "Mathematics": "/class-11/mathematics",
-                        "Economics": "/class-11/economics",
-                        "Political Science": "/class-11/political-science",
-                        "Civics": "/class-11/civics",
-                        "Computer Science": "/class-11/computer-science",
-                        "Science": "/class-10/science",
-                        "English": "/class-10/english",
-                        "Business Studies": "/class-12/business-studies",
-                        "Accountancy": "/class-12/accountancy",
+                    // We now use a dynamic base that respects the actual class (10, 11, or 12)
+                    let practiceBase = `/class-${numericClass}/${item.subject.toLowerCase().replace(/ /g, '-')}`;
+                    
+                    // Special case overrides if the subject slug differs from the name
+                    const SUBJECT_SLUG_OVERRIDES: Record<string, string> = {
+                        "Social Science": "social-science",
+                        "Computer Science": "computer-science",
+                        "Business Studies": "business-studies",
+                        "Political Science": "political-science"
                     };
 
-                    const practiceBase = PRACTICE_LINK_MAP[item.subject] ?? `/class-${numericClass}/${item.subject.toLowerCase().replace(/ /g, '-')}`;
-                    const practiceLink = `${practiceBase}/${item.targetSlug}`.replace(/\/+/g, '/');
+                    const cleanSubjectSlug = SUBJECT_SLUG_OVERRIDES[item.subject] || item.subject.toLowerCase();
+                    practiceBase = `/class-${numericClass}/${cleanSubjectSlug}`;
+
+                    // The topic slug on the practice page is just the slugified topic name
+                    // NOT the full blog-post-style slug
+                    const topicSlug = item.topic.toLowerCase().trim()
+                        .replace(/\s+/g, '-')
+                        .replace(/[^\w-]+/g, '')
+                        .replace(/--+/g, '-');
+
+                    const practiceLink = `${practiceBase}/${topicSlug}`.replace(/\/+/g, '/');
 
                     assembled = {
                         title: seoTitle,

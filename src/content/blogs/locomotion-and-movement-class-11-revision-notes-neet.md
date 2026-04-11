@@ -74,7 +74,7 @@ Several formulae and equations are relevant to the study of locomotion and movem
 * **Work (W) = Force (F) x Distance (d)**: This equation describes the relationship between work, force, and distance.
 * **Power (P) = Work (W) / Time (t)**: This equation describes the relationship between power, work, and time.
 
-$$F = maW = FdP = \frac{W}{t}$$
+F = maW = FdP = \frac{W}{t}
 
 ## <a id="jeeneet-data"></a>JEE/NEET Data
 
@@ -134,16 +134,7 @@ By following these tips and practicing regularly, you can improve your understan
 The study of locomotion and movement is a fascinating and complex topic that requires a deep understanding of [biological](/blog/biological-classification-class-11-revision-notes-neet) principles and concepts. By topic, you can gain a better appreciation for the intricate mechanisms that govern life and movement in living organisms. As you continue to explore this topic, remember to stay focused, persistent, and curious, and you will be well on your way to achieving success in your academic and professional pursuits.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -161,10 +152,7 @@ Continue your [revision](/blog/animal-kingdom-class-11-revision-notes-neet) with
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/locomotion-and-movement-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/locomotion-and-movement-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
 
 ---

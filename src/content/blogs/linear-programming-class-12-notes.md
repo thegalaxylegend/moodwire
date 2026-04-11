@@ -35,13 +35,13 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 - **Feasible Region**: 1 numerical on identifying the feasible region and finding the optimal solution — always
 - **Optimal Solution**: 1 question on verifying the optimal solution using the corner point method — always
 - **Unbounded and Infeasible Solutions**: 1 numerical on identifying whether a linear programming problem has an unbounded or infeasible solution — always
-- **$\\Delta$x and $\\Delta$y**: 1 numerical on finding the change in the objective function using $\\Delta$x and $\\Delta$y — always
+- **$\Delta$x and $\Delta$y**: 1 numerical on finding the change in the objective function using $\Delta$x and $\Delta$y — always
 - **Shadow Price**: 1 question on finding the shadow price of a resource — always
 - **Sensitivity Analysis**: 1 numerical on performing sensitivity analysis using the graphical method — always
 - **Transportation Problems**: 1 problem on formulating and solving a transportation problem using linear programming — always
 - **Formulation of Linear Programming Problems**: 1-2 questions on formulating real-life problems as linear programming problems — always
 - **Non-Negativity Constraints**: 1 numerical on handling non-negativity constraints in linear programming problems — always
-- **$x \\geq 0$ and $y \\geq 0$**: 1 question on plotting the non-negativity constraints and finding the feasible region — always
+- **$x \geq 0$ and $y \geq 0$**: 1 question on plotting the non-negativity constraints and finding the feasible region — always
 - **Linear Programming [applications](/blog/biotechnology-and-its-applications-class-12-notes)**: 1 question on [applications](/blog/biotechnology-and-its-applications-class-12-notes) of linear programming in real-life scenarios — always
 - **Maximization and Minimization**: 1 numerical on formulating and solving maximization and minimization problems using linear programming — always
 - **Multiple Optimal Solutions**: 1 question on identifying and handling multiple optimal solutions in linear programming problems — always
@@ -51,35 +51,35 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Objective Function:** $$\min \\text{ or } \max\ Z = \sum_{j=1}^{n} c_jx_j$$ — where $Z$ is the objective function value, $c_j$ is the coefficient of variable $x_j$, and $x_j$ is the $j^{th}$ decision variable.
+- **Objective Function:** \min \text{ or } \max\ Z = \sum_{j=1}^{n} c_jx_j — where $Z$ is the objective function value, $c_j$ is the coefficient of variable $x_j$, and $x_j$ is the $j^{th}$ decision variable.
 
- - **Constraint Equation:** $$\sum_{j=1}^{n} a_{ij}x_j \leq \text{ or } = \text{ or } \geq b_i$$ — where $a_{ij}$ is the coefficient of $x_j$ in the $i^{th}$ constraint, $b_i$ is the right-hand side value of the $i^{th}$ constraint.
+ - **Constraint Equation:** \sum_{j=1}^{n} a_{ij}x_j \leq \text{ or } = \text{ or } \geq b_i — where $a_{ij}$ is the coefficient of $x_j$ in the $i^{th}$ constraint, $b_i$ is the right-hand side value of the $i^{th}$ constraint.
 
- - **Non-Negativity Constraint:** $$x_j \geq 0$$ — where $x_j$ is the $j^{th}$ decision variable.
+ - **Non-Negativity Constraint:** x_j \geq 0 — where $x_j$ is the $j^{th}$ decision variable.
 
- - **Slack Variable:** $$s_i = b_i - \sum_{j=1}^{n} a_{ij}x_j$$ — where $s_i$ is the slack variable for the $i^{th}$ constraint.
+ - **Slack Variable:** s_i = b_i - \sum_{j=1}^{n} a_{ij}x_j — where $s_i$ is the slack variable for the $i^{th}$ constraint.
 
- - **Surplus Variable:** $$s_i = \sum_{j=1}^{n} a_{ij}x_j - b_i$$ — where $s_i$ is the surplus variable for the $i^{th}$ constraint.
+ - **Surplus Variable:** s_i = \sum_{j=1}^{n} a_{ij}x_j - b_i — where $s_i$ is the surplus variable for the $i^{th}$ constraint.
 
- - **Artificial Variable:** $$A_i = \sum_{j=1}^{n} a_{ij}x_j + s_i - b_i$$ — where $A_i$ is the artificial variable for the $i^{th}$ constraint.
+ - **Artificial Variable:** A_i = \sum_{j=1}^{n} a_{ij}x_j + s_i - b_i — where $A_i$ is the artificial variable for the $i^{th}$ constraint.
 
- - **Big M Method:** $$Z = \min \\text{ or } \max\ \left( \sum_{j=1}^{n} c_jx_j + M \sum_{i=1}^{m} A_i \right)$$ — where $M$ is a large positive number, $A_i$ is the artificial variable for the $i^{th}$ constraint.
+ - **Big M Method:** Z = \min \text{ or } \max\ \left( \sum_{j=1}^{n} c_jx_j + M \sum_{i=1}^{m} A_i \right) — where $M$ is a large positive number, $A_i$ is the artificial variable for the $i^{th}$ constraint.
 
  - **Two-Phase Method:** 
 
- - **Phase I:** $$Z = \min \sum_{i=1}^{m} A_i$$
+ - **Phase I:** Z = \min \sum_{i=1}^{m} A_i
 
- - **Phase II:** $$Z = \min \\text{ or } \max\ \sum_{j=1}^{n} c_jx_j$$
+ - **Phase II:** Z = \min \text{ or } \max\ \sum_{j=1}^{n} c_jx_j
 
  - **Dual Simplex Method:** 
 
- - **Primal:** $$\max\ Z = \sum_{j=1}^{n} c_jx_j$$
+ - **Primal:** \max\ Z = \sum_{j=1}^{n} c_jx_j
 
- - **Dual:** $$\min\ W = \sum_{i=1}^{m} b_iy_i$$
+ - **Dual:** \min\ W = \sum_{i=1}^{m} b_iy_i
 
- - **Shadow Price:** $$\Delta Z = \sum_{i=1}^{m} y_i \Delta b_i$$ — where $\Delta Z$ is the change in the objective function value, $y_i$ is the dual variable for the $i^{th}$ constraint, $\Delta b_i$ is the change in the right-hand side value of the $i^{th}$ constraint.
+ - **Shadow Price:** \Delta Z = \sum_{i=1}^{m} y_i \Delta b_i — where $\Delta Z$ is the change in the objective function value, $y_i$ is the dual variable for the $i^{th}$ constraint, $\Delta b_i$ is the change in the right-hand side value of the $i^{th}$ constraint.
 
- - **Reduced Cost:** $$\bar{c}_j = c_j - \sum_{i=1}^{m} y_i a_{ij}$$ — where $\bar{c}_j$ is the reduced cost of $x_j$, $c_j$ is the coefficient of $x_j$, $y_i$ is the dual variable for the $i^{th}$ constraint, $a_{ij}$ is the coefficient of $x_j$ in the $i^{th}$ constraint.
+ - **Reduced Cost:** \bar{c}_j = c_j - \sum_{i=1}^{m} y_i a_{ij} — where $\bar{c}_j$ is the reduced cost of $x_j$, $c_j$ is the coefficient of $x_j$, $y_i$ is the dual variable for the $i^{th}$ constraint, $a_{ij}$ is the coefficient of $x_j$ in the $i^{th}$ constraint.
 
 
 
@@ -143,37 +143,37 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 
  Solving these equations simultaneously:
 
- $$\begin{align*}
+ \begin{align*}
 
  2x + 3y &= 1200 \\ 
 
  3x + 2y &= 900
 
- \end{align*}$$
+ \end{align*}
 
  Multiplying the first equation by 2 and the second equation by 3 gives:
 
- $$\begin{align*}
+ \begin{align*}
 
  4x + 6y &= 2400 \\ 
 
  9x + 6y &= 2700
 
- \end{align*}$$
+ \end{align*}
 
  Subtracting the first equation from the second gives:
 
- $$5x = 300x = 60$$
+ 5x = 300x = 60
 
  Substituting $x = 60$ into one of the original equations to find $y$:
 
- $$2(60) + 3y = 1200120 + 3y = 12003y = 1080y = 360$$
+ 2(60) + 3y = 1200120 + 3y = 12003y = 1080y = 360
 
  Thus, the maximum profit occurs at $x = 60$ and $y = 360$.
 
  Substituting these values into the objective function:
 
- $$P = 10(60) + 12(360)P = 600 + 4320P = 4920$$
+ P = 10(60) + 12(360)P = 600 + 4320P = 4920
 
  - **Answer:** $4920
 
@@ -201,37 +201,37 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 
  Solving these equations simultaneously:
 
- $$\begin{align*}
+ \begin{align*}
 
  2x + 3y &= 60 \\ 
 
  3x + 2y &= 50
 
- \end{align*}$$
+ \end{align*}
 
  Multiplying the first equation by 2 and the second equation by 3 gives:
 
- $$\begin{align*}
+ \begin{align*}
 
  4x + 6y &= 120 \\ 
 
  9x + 6y &= 150
 
- \end{align*}$$
+ \end{align*}
 
  Subtracting the first equation from the second gives:
 
- $$5x = 30x = 6$$
+ 5x = 30x = 6
 
  Substituting $x = 6$ into one of the original equations to find $y$:
 
- $$2(6) + 3y = 6012 + 3y = 603y = 48y = 16$$
+ 2(6) + 3y = 6012 + 3y = 603y = 48y = 16
 
  Thus, the minimum cost occurs at $x = 6$ and $y = 16$.
 
  Substituting these values into the objective function:
 
- $$C = 4(6) + 5(16)C = 24 + 80C = 104$$
+ C = 4(6) + 5(16)C = 24 + 80C = 104
 
  - **Answer:** 104
 
@@ -259,31 +259,31 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 
  Solving these equations simultaneously:
 
- $$\begin{align*}
+ \begin{align*}
 
  2x + y &= 120 \\ 
 
  x + 2y &= 100
 
- \end{align*}$$
+ \end{align*}
 
  Multiplying the second equation by 2 gives:
 
- $$2x + 4y = 200$$
+ 2x + 4y = 200
 
  Subtracting the first equation from this gives:
 
- $$3y = 80y = \frac{80}{3}$$
+ 3y = 80y = \frac{80}{3}
 
  Substituting $y = \frac{80}{3}$ into one of the original equations to find $x$:
 
- $$2x + \frac{80}{3} = 1206x + 80 = 3606x = 280x = \frac{280}{6}x = \frac{140}{3}$$
+ 2x + \frac{80}{3} = 1206x + 80 = 3606x = 280x = \frac{280}{6}x = \frac{140}{3}
 
  Thus, the maximum profit occurs at $x = \frac{140}{3}$ and $y = \frac{80}{3}$.
 
  Substituting these values into the objective function:
 
- $$P = 20(\frac{140}{3}) + 30(\frac{80}{3})P = \frac{2800}{3} + \frac{2400}{3}P = \frac{5200}{3}$$
+ P = 20(\frac{140}{3}) + 30(\frac{80}{3})P = \frac{2800}{3} + \frac{2400}{3}P = \frac{5200}{3}
 
  - **Answer:** $\frac{5200}{3}$
 
@@ -305,22 +305,22 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 
  * Using the $\Delta$-method to calculate the range of values for the objective function coefficients ($c_j$) and the right-hand side values ($b_i$) for which the solution remains optimal.
 
- * Applying the formula for the range of optimality: $$\Delta c_j = \frac{z_j - c_j}{\bar{a}_{j \cdot}}$$ where $z_j$ is the value of the $j^{th}$ variable in the optimal solution, $c_j$ is the coefficient of the $j^{th}$ variable in the objective function, and $\bar{a}_{j \cdot}$ is the $j^{th}$ column of the optimal tableau.
+ * Applying the formula for the range of optimality: \Delta c_j = \frac{z_j - c_j}{\bar{a}_{j \cdot}} where $z_j$ is the value of the $j^{th}$ variable in the optimal solution, $c_j$ is the coefficient of the $j^{th}$ variable in the objective function, and $\bar{a}_{j \cdot}$ is the $j^{th}$ column of the optimal tableau.
 
- * Calculating the range of values for the right-hand side parameters ($b_i$) using the formula: $$\Delta b_i = \frac{\bar{x}_i}{\bar{a}_{i \cdot}}$$ where $\bar{x}_i$ is the $i^{th}$ slack/surplus variable in the optimal solution, and $\bar{a}_{i \cdot}$ is the $i^{th}$ row of the optimal tableau.
+ * Calculating the range of values for the right-hand side parameters ($b_i$) using the formula: \Delta b_i = \frac{\bar{x}_i}{\bar{a}_{i \cdot}} where $\bar{x}_i$ is the $i^{th}$ slack/surplus variable in the optimal solution, and $\bar{a}_{i \cdot}$ is the $i^{th}$ row of the optimal tableau.
 
  * Interpreting the results to understand the sensitivity of the solution to changes in the input parameters.
 
 | Parameter | Formula | Description |
 | --- | --- | --- |
-| $\Delta c_j$ | $$\frac{z_j - c_j}{\bar{a}_{j \cdot}}$$ | Range of optimality for objective function coefficient $c_j$ |
-| $\Delta b_i$ | $$\frac{\bar{x}_i}{\bar{a}_{i \cdot}}$$ | Range of values for right-hand side parameter $b_i$ |
+| $\Delta c_j$ | \frac{z_j - c_j}{\bar{a}_{j \cdot}} | Range of optimality for objective function coefficient $c_j$ |
+| $\Delta b_i$ | \frac{\bar{x}_i}{\bar{a}_{i \cdot}} | Range of values for right-hand side parameter $b_i$ |
 
 
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-👁️ Ayush's Note, - **The Hidden Pattern:** In Linear Programming, after analyzing 5+ years of PYQs, it's observed that problems often involve finding the maximum or minimum of a linear function $f(x, y) = ax + by$ subject to constraints of the form $x \\geq 0$, $y \\geq 0$, and $ax + by \\leq c$. A common pattern is the use of corner point theorem, which states that the optimal solution occurs at one of the corner points of the feasible region., - **How to Apply It:** To apply this pattern, first identify all corner points by finding the intersection of the constraint lines. Then, evaluate the objective function at each corner point. The point that gives the maximum or minimum value of the objective function is the optimal solution. For example, given the constraints $x + y \\leq 4$, $2x + y \\leq 5$, $x \\geq 0$, and $y \\geq 0$, and the objective function $f(x, y) = 3x + 2y$, calculate the corner points by solving the equations formed by the constraints, and then evaluate $f(x, y)$ at each point to find the maximum value., - **Graphical Representation:** The feasible region can be graphically represented on a coordinate plane, with the constraint lines dividing the plane into different regions. The corner points of the feasible region are the points where the constraint lines intersect. The objective function can be represented by a family of parallel lines, and the optimal solution is the line that is farthest from the origin in the direction of the objective function., - **Using $$\\Delta$$ Notation:** When dealing with changes in the values of the variables, use the $$\\Delta$$ notation to represent the change. For example, if $x$ changes by $$\\Delta x$$ and $y$ changes by $$\\Delta y$$, the change in the objective function can be represented as $$\\Delta f = \\frac\\partial f\\partial x \\Delta x + \\frac\\partial f\\partial y \\Delta y$$., - **Common PYQs Patterns:** Some common patterns observed in PYQs include: finding the maximum or minimum of a linear function subject to linear constraints, determining the feasibility of a linear programming problem, and finding the range of values of a parameter for which a linear programming problem has a unique solution., - **Formulas to Remember:** The following formulas are crucial in Linear Programming: $f(x, y) = ax + by$, $g(x, y) = cx + dy$, and the corner point theorem. Also, remember that the optimal solution occurs at one of the corner points of the feasible region, which can be found by solving the system of equations formed by the constraints., - **Key Takeaways:** The key takeaways from this section are: identify the corner points of the feasible region, evaluate the objective function at each corner point, and determine the optimal solution. Additionally, be familiar with the graphical representation of the feasible region and the use of $$\\Delta$$ notation to represent changes in the values of the variables. , Constraint, Corner Point, Objective Function Value , $x + y \\leq 4$, (0, 0), 0, $2x + y \\leq 5$, (0, 0), 0, $x \\geq 0$, (4, 0), 12, $y \\geq 0$, (0, 4), 8, Intersection of $x + y \\leq 4$ and $2x + y \\leq 5$, (2, 2), 10
+👁️ Ayush's Note, - **The Hidden Pattern:** In Linear Programming, after analyzing 5+ years of PYQs, it's observed that problems often involve finding the maximum or minimum of a linear function $f(x, y) = ax + by$ subject to constraints of the form $x \geq 0$, $y \geq 0$, and $ax + by \leq c$. A common pattern is the use of corner point theorem, which states that the optimal solution occurs at one of the corner points of the feasible region., - **How to Apply It:** To apply this pattern, first identify all corner points by finding the intersection of the constraint lines. Then, evaluate the objective function at each corner point. The point that gives the maximum or minimum value of the objective function is the optimal solution. For example, given the constraints $x + y \leq 4$, $2x + y \leq 5$, $x \geq 0$, and $y \geq 0$, and the objective function $f(x, y) = 3x + 2y$, calculate the corner points by solving the equations formed by the constraints, and then evaluate $f(x, y)$ at each point to find the maximum value., - **Graphical Representation:** The feasible region can be graphically represented on a coordinate plane, with the constraint lines dividing the plane into different regions. The corner points of the feasible region are the points where the constraint lines intersect. The objective function can be represented by a family of parallel lines, and the optimal solution is the line that is farthest from the origin in the direction of the objective function., - **Using \Delta Notation:** When dealing with changes in the values of the variables, use the \Delta notation to represent the change. For example, if $x$ changes by \Delta x and $y$ changes by \Delta y, the change in the objective function can be represented as \Delta f = \frac\partial f\partial x \Delta x + \frac\partial f\partial y \Delta y., - **Common PYQs Patterns:** Some common patterns observed in PYQs include: finding the maximum or minimum of a linear function subject to linear constraints, determining the feasibility of a linear programming problem, and finding the range of values of a parameter for which a linear programming problem has a unique solution., - **Formulas to Remember:** The following formulas are crucial in Linear Programming: $f(x, y) = ax + by$, $g(x, y) = cx + dy$, and the corner point theorem. Also, remember that the optimal solution occurs at one of the corner points of the feasible region, which can be found by solving the system of equations formed by the constraints., - **Key Takeaways:** The key takeaways from this section are: identify the corner points of the feasible region, evaluate the objective function at each corner point, and determine the optimal solution. Additionally, be familiar with the graphical representation of the feasible region and the use of \Delta notation to represent changes in the values of the variables. , Constraint, Corner Point, Objective Function Value , $x + y \leq 4$, (0, 0), 0, $2x + y \leq 5$, (0, 0), 0, $x \geq 0$, (4, 0), 12, $y \geq 0$, (0, 4), 8, Intersection of $x + y \leq 4$ and $2x + y \leq 5$, (2, 2), 10
 
 | Constraint | Corner Point | Objective Function Value |
 | --- | --- | --- |
@@ -336,7 +336,7 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 
 - $\Delta x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$ is not directly used, but $x = \frac{-b}{2a}$ is crucial for vertex form in Linear Programming.
 
- - The feasible region is a $convex$ $set$, meaning it contains all line segments connecting any two points in the region.
+ - The feasible region is a $convexset$, meaning it contains all line segments connecting any two points in the region.
 
  - The optimal solution lies at a $vertex$ of the feasible region.
 
@@ -367,10 +367,14 @@ abla f(x) = c$ is used to determine the direction of the objective function.
 
 **1. What is the main goal of linear programming?**
 
-- A) To minimize cost
-- B) To maximize profit
-- C) To minimize resources
-- D) To maximize time
+-
+A) To minimize cost
+-
+B) To maximize profit
+-
+C) To minimize resources
+-
+D) To maximize time
 
 **Answer:** B) The main goal of linear programming is to maximize or minimize a linear objective function, often representing profit or cost.
 
@@ -378,10 +382,14 @@ abla f(x) = c$ is used to determine the direction of the objective function.
 
 **2. Which of the following is a characteristic of a linear programming problem?**
 
-- A) Non-linear objective function
-- B) Single constraint
-- C) Multiple decision variables
-- D) All of the above
+-
+A) Non-linear objective function
+-
+B) Single constraint
+-
+C) Multiple decision variables
+-
+D) All of the above
 
 **Answer:** C) Linear programming problems typically involve multiple decision variables and linear constraints.
 
@@ -389,10 +397,14 @@ abla f(x) = c$ is used to determine the direction of the objective function.
 
 **3. What is the feasible region in linear programming?**
 
-- A) The region where all constraints are violated
-- B) The region where all constraints are satisfied
-- C) The region where the objective function is maximized
-- D) The region where the objective function is minimized
+-
+A) The region where all constraints are violated
+-
+B) The region where all constraints are satisfied
+-
+C) The region where the objective function is maximized
+-
+D) The region where the objective function is minimized
 
 **Answer:** B) The feasible region is the set of all possible solutions that satisfy all the constraints of the linear programming problem.
 
@@ -400,10 +412,14 @@ abla f(x) = c$ is used to determine the direction of the objective function.
 
 **4. Which method is commonly used to solve linear programming problems?**
 
-- A) Graphical method
-- B) Simplex method
-- C) Dual simplex method
-- D) All of the above
+-
+A) Graphical method
+-
+B) Simplex method
+-
+C) Dual simplex method
+-
+D) All of the above
 
 **Answer:** D) The graphical method, simplex method, and dual simplex method are all used to solve linear programming problems, depending on the size and complexity of the problem.
 
@@ -411,10 +427,14 @@ abla f(x) = c$ is used to determine the direction of the objective function.
 
 **5. What is the purpose of the objective function in linear programming?**
 
-- A) To define the constraints
-- B) To determine the feasible region
-- C) To evaluate the optimality of a solution
-- D) To specify the direction of optimization
+-
+A) To define the constraints
+-
+B) To determine the feasible region
+-
+C) To evaluate the optimality of a solution
+-
+D) To specify the direction of optimization
 
 **Answer:** D) The objective function specifies the direction of optimization, whether it is to maximize or minimize a particular quantity.
 
@@ -451,3 +471,4 @@ Continue your revision with these related guides:
 - 📖 [Vector Algebra Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/vector-algebra-class-12-notes)
 - 📖 [Atoms Class 12 Mathematics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/atoms-class-12-notes)
 - 📖 [Biodiversity and Conservation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
+

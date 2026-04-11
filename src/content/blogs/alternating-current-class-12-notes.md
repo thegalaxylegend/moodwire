@@ -326,7 +326,9 @@ A comparison of key parameters in AC and DC circuits can be summarized in the fo
 ## <a id="mcqs"></a>MCQs
 
 
-**1. What is the primary advantage of Alternating Current (AC) over Direct Current (DC)?**
+**1. What is the primary advantage of Alternating Current (A
+C) over Direct Current (D
+C) ?**
 It is more efficient for long-distance transmission
 It is more dangerous due to the risk of electrical shock
 It is more expensive to generate
@@ -334,16 +336,14 @@ It is only used in low-voltage applications
 
 **Answer:** A) Alternating Current (AC) is more efficient for long-distance transmission due to the ability to increase voltage using transformers, reducing energy loss.
 
-
 **2. What is the term for the rate of change of current with respect to time in Alternating Current?**
 Frequency
 Amplitude
 Period
 Impedance
 
-**Answer:** B) The rate of change of current with respect to time in Alternating Current is called Amplitude, but more accurately, it is the rate of change of current that defines frequency (Hz).
-
-
+**Answer:**
+B) The rate of change of current with respect to time in Alternating Current is called Amplitude, but more accurately, it is the rate of change of current that defines frequency (Hz).
 **3. Which of the following devices is used to change the voltage of an Alternating Current?**
 Transformer
 Inductor
@@ -352,16 +352,14 @@ Resistor
 
 **Answer:** A) Transformers are used to change the voltage of an Alternating Current by using [magnetic](/blog/magnetic-effects-of-current-class-12-notes) induction.
 
-
 **4. What is the term for the opposition to the flow of Alternating Current due to the reactance of inductive and capacitive components?**
 Resistance
 Reactance
 Impedance
 Admittance
 
-**Answer:** C) Impedance is the opposition to the flow of Alternating Current due to the reactance of inductive and capacitive components, in addition to resistance.
-
-
+**Answer:**
+C) Impedance is the opposition to the flow of Alternating Current due to the reactance of inductive and capacitive components, in addition to resistance.
 **5. Which of the following types of Alternating Current is used in households?**
 Single Phase
 Three Phase
@@ -371,10 +369,7 @@ Pulse Width Modulation
 **Answer:** A) Single Phase Alternating Current is commonly used in households for power distribution.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -392,10 +387,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/alternating-current-class-12-notes) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/alternating-current-class-12-notes) now and track your progress against thousands of students.
 
 
 ---
@@ -408,3 +400,13 @@ Continue your revision with these related guides:
 - 📖 [Magnetic Effects of Current Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetic-effects-of-current-class-12-notes)
 - 📖 [Electromagnetic Induction Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
 - 📖 [Magnetism and Matter Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetism-and-matter-class-12-notes)
+
+## 🔁 Last 5 Minutes Box
+
+* **Alternating Current (AC)**: Current that periodically reverses direction, unlike direct current (DC) which flows in one direction.
+     * **AC Circuit**: Consists of resistor (R), inductor (L), and capacitor (C) connected in series or parallel.
+     * **Impedance (Z)**: Total opposition to the flow of an AC circuit, given by Z = √(R² + X²), where X is reactance.
+     * **Resonance**: Occurs when the inductive reactance equals the capacitive reactance, resulting in maximum current.
+     * **Quality Factor (Q)**: Measure of the 'quality' of a resonant circuit, given by Q = ωL/R, where ω is angular frequency.
+     * **Power Factor (cosφ)**: Ratio of real power to apparent power in an AC circuit, given by cosφ = R/Z.
+     * **Phase Difference (φ)**: Difference in phase between voltage and current in an AC circuit.

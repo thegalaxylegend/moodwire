@@ -30,15 +30,15 @@ practice_link: "/class-11/chemistry/chemical-kinetics-class-12-notes"
 
 
 ## <a id="-what-will-come-in-your-exam"></a>🎯 What WILL Come in Your Exam
-* 1 numerical on rate law expression — always, focusing on $\\frac{dx}{dt} = k[A]^m[B]^n$ 
-* Graph of first-order reaction — JEE favourite, with $t_{1/2} = \\frac{0.693}{k}$ 
-* 1 question on Arrhenius equation — always, with $k = Ae^{\\frac{-E_a}{RT}}$ 
-* Collision theory — 2 marks theory question, covering $Z = Ae^{\\frac{-E_a}{RT}}$ and $Z_{\\text{effective}} = Ze^{\\frac{-E_a}{RT}} \\times e^{\\frac{\\Delta n g}{RT}}$ 
+* 1 numerical on rate law expression — always, focusing on $\frac{dx}{dt} = k[A]^m[B]^n$ 
+* Graph of first-order reaction — JEE favourite, with $t_{1/2} = \frac{0.693}{k}$ 
+* 1 question on Arrhenius equation — always, with $k = Ae^{\frac{-E_a}{RT}}$ 
+* Collision theory — 2 marks theory question, covering $Z = Ae^{\frac{-E_a}{RT}}$ and $Z_{\text{effective}} = Ze^{\frac{-E_a}{RT}} \times e^{\frac{\Delta n g}{RT}}$ 
 * Integrated rate law for zero, first, and second-order reactions — must-know formulas: 
  $[A] = -kt + [A]_0$ (zero-order), 
- $\\ln[A] = -kt + \\ln[A]_0$ (first-order), 
- $\\frac{1}{[A]} = kt + \\frac{1}{[A]_0}$ (second-order) 
-* Half-life of first-order reaction — JEE/NEET favourite, with $t_{1/2} = \\frac{0.693}{k}$ and $t_{1/2} = \\frac{0.693}{k} = \\frac{0.693}{Ae^{\\frac{-E_a}{RT}}}$
+ $\ln[A] = -kt + \ln[A]_0$ (first-order), 
+ $\frac{1}{[A]} = kt + \frac{1}{[A]_0}$ (second-order) 
+* Half-life of first-order reaction — JEE/NEET favourite, with $t_{1/2} = \frac{0.693}{k}$ and $t_{1/2} = \frac{0.693}{k} = \frac{0.693}{Ae^{\frac{-E_a}{RT}}}$
 
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
@@ -48,11 +48,11 @@ practice_link: "/class-11/chemistry/chemical-kinetics-class-12-notes"
 
 | Formula | Variable Meaning |
 | --- | --- |
-| $$\frac{dx}{dt} = k \	imes [A]^m \	imes [B]^n$$ | Rate of reaction, k: rate constant, [A], [B]: concentrations, m, n: order of reaction |
-| $$k = Ae^{\frac{-E_a}{RT}}$$ | k: rate constant, A: frequency factor, E_a: activation energy, R: gas constant, T: temperature |
-| $$t_{1/2} = \frac{0.693}{k}$$ | t_{1/2}: half-life, k: rate constant |
-| $$k = \frac{2.303}{t} \log\frac{[A]_0}{[A]}$$ | k: rate constant, t: time, [A]_0: initial concentration, [A]: concentration at time t |
-| $$x = [A]_0 \	imes (1 - e^{-kt})$$ | x: concentration at time t, [A]_0: initial concentration, k: rate constant, t: time |
+| \frac{dx}{dt} = k \	imes [A]^m \	imes [B]^n | Rate of reaction, k: rate constant, [A], [B]: concentrations, m, n: order of reaction |
+| k = Ae^{\frac{-E_a}{RT}} | k: rate constant, A: frequency factor, E_a: activation energy, R: gas constant, T: temperature |
+| t_{1/2} = \frac{0.693}{k} | t_{1/2}: half-life, k: rate constant |
+| k = \frac{2.303}{t} \log\frac{[A]_0}{[A]} | k: rate constant, t: time, [A]_0: initial concentration, [A]: concentration at time t |
+| x = [A]_0 \	imes (1 - e^{-kt}) | x: concentration at time t, [A]_0: initial concentration, k: rate constant, t: time |
 
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>⬤ The 5 Mistakes That Cost Marks
@@ -233,9 +233,8 @@ L/mol-s
 s^-1
 None of the above
 
-**Answer:** C) The unit of the rate constant for a first-order reaction is s^-1.
-
-
+**Answer:**
+C) The unit of the rate constant for a first-order reaction is s^-1.
 **2. The half-life of a first-order reaction is**
 Independent of initial concentration
 Dependent on initial concentration
@@ -244,16 +243,14 @@ Inversely proportional to initial concentration
 
 **Answer:** A) For a first-order reaction, the half-life (t1/2) is independent of the initial concentration and is given by t1/2 = 0.693 / k.
 
-
 **3. What is the effect of increasing the temperature on the rate of a reaction?**
 Decreases the rate of reaction
 Increases the rate of reaction
 Has no effect on the rate of reaction
 May increase or decrease the rate of reaction
 
-**Answer:** B) Increasing the temperature generally increases the rate of a reaction, as higher temperatures provide more energy for the reactant molecules to collide and react.
-
-
+**Answer:**
+B) Increasing the temperature generally increases the rate of a reaction, as higher temperatures provide more energy for the reactant molecules to collide and react.
 **4. The rate law for a reaction is rate = k[A]^2[B]. What is the order of the reaction with respect to A and the overall order of the reaction?**
 2 with respect to A, and 3 overall
 1 with respect to A, and 2 overall
@@ -261,7 +258,6 @@ May increase or decrease the rate of reaction
 2 with respect to A, and 2 overall
 
 **Answer:** A) The reaction is second-order with respect to A and third-order overall, as the sum of the exponents in the rate law gives the overall order.
-
 
 **5. Which of the following statements about a catalyst is true?**
 It increases the equilibrium constant of the reaction

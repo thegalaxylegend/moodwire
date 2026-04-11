@@ -1,72 +1,24 @@
 {
-  "lastUpdated": "2026-04-03T10:34:48.204Z",
+  "lastUpdated": "2026-04-11T04:24:13.166Z",
   "propertyId": "518462579",
   "totals": {
-    "activeUsers": 165,
-    "sessions": 411,
-    "pageviews": 8522,
+    "activeUsers": 142,
+    "sessions": 453,
+    "pageviews": 7600,
     "engagementRate": "0",
     "avgEngagementTime": "0"
   },
   "devices": [
     {
       "category": "desktop",
-      "users": 58
+      "users": 40
     },
     {
       "category": "mobile",
-      "users": 37
+      "users": 26
     }
   ],
   "dailyGrowth": [
-    {
-      "date": "20260304",
-      "users": 14,
-      "sessions": 22,
-      "pageviews": 695
-    },
-    {
-      "date": "20260305",
-      "users": 9,
-      "sessions": 18,
-      "pageviews": 633
-    },
-    {
-      "date": "20260306",
-      "users": 7,
-      "sessions": 9,
-      "pageviews": 370
-    },
-    {
-      "date": "20260307",
-      "users": 5,
-      "sessions": 7,
-      "pageviews": 374
-    },
-    {
-      "date": "20260308",
-      "users": 7,
-      "sessions": 17,
-      "pageviews": 527
-    },
-    {
-      "date": "20260309",
-      "users": 17,
-      "sessions": 33,
-      "pageviews": 1309
-    },
-    {
-      "date": "20260310",
-      "users": 4,
-      "sessions": 11,
-      "pageviews": 1107
-    },
-    {
-      "date": "20260311",
-      "users": 7,
-      "sessions": 7,
-      "pageviews": 36
-    },
     {
       "date": "20260312",
       "users": 1,
@@ -189,51 +141,99 @@
     },
     {
       "date": "20260403",
-      "users": 6,
-      "sessions": 25,
-      "pageviews": 502
+      "users": 7,
+      "sessions": 39,
+      "pageviews": 963
+    },
+    {
+      "date": "20260404",
+      "users": 5,
+      "sessions": 14,
+      "pageviews": 590
+    },
+    {
+      "date": "20260405",
+      "users": 13,
+      "sessions": 35,
+      "pageviews": 1237
+    },
+    {
+      "date": "20260406",
+      "users": 5,
+      "sessions": 27,
+      "pageviews": 355
+    },
+    {
+      "date": "20260407",
+      "users": 7,
+      "sessions": 26,
+      "pageviews": 787
+    },
+    {
+      "date": "20260408",
+      "users": 8,
+      "sessions": 26,
+      "pageviews": 420
+    },
+    {
+      "date": "20260409",
+      "users": 3,
+      "sessions": 9,
+      "pageviews": 65
+    },
+    {
+      "date": "20260410",
+      "users": 3,
+      "sessions": 12,
+      "pageviews": 166
+    },
+    {
+      "date": "20260411",
+      "users": 2,
+      "sessions": 3,
+      "pageviews": 48
     }
   ],
   "topPages": [
     {
       "path": "/dashboard",
-      "views": 1832
+      "views": 1405
     },
     {
       "path": "/blog",
-      "views": 1456
+      "views": 854
     },
     {
       "path": "/",
-      "views": 889
+      "views": 693
     },
     {
-      "path": "/dashboard/test-center",
-      "views": 617
+      "path": "/admin/jules",
+      "views": 347
+    },
+    {
+      "path": "/admin/users",
+      "views": 292
     },
     {
       "path": "/onboarding",
-      "views": 318
+      "views": 252
+    },
+    {
+      "path": "/admin/overview",
+      "views": 241
+    },
+    {
+      "path": "/dashboard/test-center",
+      "views": 216
+    },
+    {
+      "path": "/dashboard/notes",
+      "views": 205
     },
     {
       "path": "/dashboard/study-plan",
-      "views": 290
-    },
-    {
-      "path": "/dashboard/mock",
-      "views": 270
-    },
-    {
-      "path": "/dashboard/syllabus",
-      "views": 198
-    },
-    {
-      "path": "/dashboard/decision-simulator",
-      "views": 196
-    },
-    {
-      "path": "/login",
-      "views": 151
+      "views": 202
     }
   ]
 }

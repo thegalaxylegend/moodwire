@@ -29,29 +29,29 @@ practice_link: "/class-11/biology/sexual-reproduction-in-flowering-plants-class-
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Law of Independent Assortment:** $$\frac{1}{2} \\times \\frac{1}{2} = \frac{1}{4}$$ — Probability of two independent traits being inherited together.
+- **Law of Independent Assortment:** \frac{1}{2} \times \frac{1}{2} = \frac{1}{4} — Probability of two independent traits being inherited together.
 
- - **Law of Segregation:** $$\frac{1}{2} : \frac{1}{2}$$ — Ratio of two alleles in gametes.
+ - **Law of Segregation:** \frac{1}{2} : \frac{1}{2} — Ratio of two alleles in gametes.
 
- - **Punnett Square Formula:** $$\frac{(\text{Number of favorable outcomes})}{(\text{Total number of outcomes})}$$ — Probability of a specific genotype or phenotype.
+ - **Punnett Square Formula:** \frac{(\text{Number of favorable outcomes})}{(\text{Total number of outcomes})} — Probability of a specific genotype or phenotype.
 
- - **Hardy-Weinberg Principle:** $$p^2 + 2pq + q^2 = 1$$ — Allele and genotype frequencies in a population, where $p$ and $q$ are the frequencies of the two alleles.
+ - **Hardy-Weinberg Principle:** p^2 + 2pq + q^2 = 1 — Allele and genotype frequencies in a population, where $p$ and $q$ are the frequencies of the two alleles.
 
- - **Genotype Frequency:** $$p^2 + q^2 + 2pq$$ — Frequency of genotypes in a population, where $p$ and $q$ are the frequencies of the two alleles.
+ - **Genotype Frequency:** p^2 + q^2 + 2pq — Frequency of genotypes in a population, where $p$ and $q$ are the frequencies of the two alleles.
 
- - **Phenotype Frequency:** $$p^2 + 2pq + q^2$$ — Frequency of phenotypes in a population, where $p$ and $q$ are the frequencies of the two alleles.
+ - **Phenotype Frequency:** p^2 + 2pq + q^2 — Frequency of phenotypes in a population, where $p$ and $q$ are the frequencies of the two alleles.
 
- - **Inbreeding Coefficient (F):** $$F = \frac{(\text{Homozygosity})}{(\text{Total})}$$ — Measure of inbreeding in a population.
+ - **Inbreeding Coefficient (F):** F = \frac{(\text{Homozygosity})}{(\text{Total})} — Measure of inbreeding in a population.
 
- - **Coefficient of Inbreeding:** $$F = \frac{(\text{Number of common ancestors})}{(\text{Total number of ancestors})}$$ — Measure of inbreeding in a pedigree.
+ - **Coefficient of Inbreeding:** F = \frac{(\text{Number of common ancestors})}{(\text{Total number of ancestors})} — Measure of inbreeding in a pedigree.
 
- - **Chi-Square Test:** $$\chi^2 = \sum \frac{(\text{Observed frequency} - \text{Expected frequency})^2}{\text{Expected frequency}}$$ — Test for goodness of fit between observed and expected frequencies.
+ - **Chi-Square Test:** \chi^2 = \sum \frac{(\text{Observed frequency} - \text{Expected frequency})^2}{\text{Expected frequency}} — Test for goodness of fit between observed and expected frequencies.
 
- - **Linkage Distance (cM):** $$\frac{(\text{Number of recombinants})}{(\text{Total number of offspring})} \\times 100$$ — Measure of the distance between two linked genes.
+ - **Linkage Distance (cM):** \frac{(\text{Number of recombinants})}{(\text{Total number of offspring})} \times 100 — Measure of the distance between two linked genes.
 
- - **Map Distance (cM):** $$\frac{(\text{Number of recombinants})}{(\text{Total number of offspring})} \\times 100$$ — Measure of the distance between two linked genes.
+ - **Map Distance (cM):** \frac{(\text{Number of recombinants})}{(\text{Total number of offspring})} \times 100 — Measure of the distance between two linked genes.
 
- - **Recombination Frequency:** $$\frac{(\text{Number of recombinants})}{(\text{Total number of offspring})}$$ — Measure of the frequency of recombination between two linked genes.
+ - **Recombination Frequency:** \frac{(\text{Number of recombinants})}{(\text{Total number of offspring})} — Measure of the frequency of recombination between two linked genes.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -95,11 +95,11 @@ practice_link: "/class-11/biology/sexual-reproduction-in-flowering-plants-class-
 
  The style is the narrow, elongated part of the pistil that connects the stigma to the ovary. It in the reproductive process by providing a passage for the pollen tube to grow through, allowing fertilization to occur. 
 
- $$
+ 
 
  \	ext{Fertilization} = \	ext{Pollen tube} + \	ext{Egg cell}
 
- $$
+ 
 
  The pollen tube grows down through the style, eventually reaching the ovary, where it releases sperm cells that fertilize the egg cell.
 
@@ -114,11 +114,11 @@ practice_link: "/class-11/biology/sexual-reproduction-in-flowering-plants-class-
 
  Double fertilization is a unique process in flowering plants where one pollen grain fertilizes two different cells in the embryo sac. 
 
- $$ 
+  
 
  \	ext{Double Fertilization} = \	ext{Fertilization of egg cell} + \	ext{Fertilization of central cell}
 
- $$
+ 
 
  The first fertilization event involves the fusion of a sperm cell with the egg cell to form a zygote, while the second fertilization event involves the fusion of another sperm cell with the central cell to form the endosperm.
 
@@ -133,19 +133,19 @@ practice_link: "/class-11/biology/sexual-reproduction-in-flowering-plants-class-
 
  Self-pollination occurs when pollen from the anther of a flower is transferred to the stigma of the same flower or another flower on the same plant. 
 
- $$
+ 
 
  \	ext{Self-Pollination} = \	ext{Pollen from same plant}
 
- $$
+ 
 
  Cross-pollination, on the other hand, occurs when pollen from the anther of one flower is transferred to the stigma of a flower on a different plant.
 
- $$
+ 
 
  \	ext{Cross-Pollination} = \	ext{Pollen from different plant}
 
- $$
+ 
 
  - **Answer:** Self-pollination occurs within the same plant, while cross-pollination occurs between different plants.
 
@@ -157,7 +157,7 @@ practice_link: "/class-11/biology/sexual-reproduction-in-flowering-plants-class-
 
  - **What 95% scorers do:** Top scorers recognize that the key to understanding double fertilization lies in the details of the fertilization process itself. They can explain how one male gamete fuses with the egg to form a $2n$ zygote, while the other male gamete fuses with the $2n$ polar nuclei to form a $3n$ primary endosperm nucleus, which then develops into the endosperm. They understand the importance of the triploid nature of the endosperm and how it contributes to the nourishment of the developing embryo:
 
- $$ 
+  
 
  \text{Male Gamete} + \text{Egg Cell} \rightarrow \text{Zygote (2n)} 
 
@@ -165,7 +165,7 @@ practice_link: "/class-11/biology/sexual-reproduction-in-flowering-plants-class-
 
  \text{Male Gamete} + 2 \text{ Polar Nuclei (2n)} \rightarrow \text{Primary Endosperm Nucleus (3n)}
 
- $$
+ 
 
  They can also elaborate on the role of the female gametophyte in supporting the development of the embryo and the endosperm, and how the structure of the ovule and the embryo sac facilitate the fertilization process.
 
@@ -178,11 +178,11 @@ practice_link: "/class-11/biology/sexual-reproduction-in-flowering-plants-class-
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-- **The Hidden Pattern:** In Sexual Reproduction in Flowering Plants, a pattern observed after studying 5+ years of PYQs is the emphasis on the $\	imes$ interrelationship between pollination, fertilization, and seed formation. Specifically, the sequence of events from microsporogenesis to megasporogenesis and their impact on the $\\frac{1}{2}$ reduction in chromosome number during meiosis, leading to the $2n \
+- **The Hidden Pattern:** In Sexual Reproduction in Flowering Plants, a pattern observed after studying 5+ years of PYQs is the emphasis on the $\	imes$ interrelationship between pollination, fertilization, and seed formation. Specifically, the sequence of events from microsporogenesis to megasporogenesis and their impact on the $\frac{1}{2}$ reduction in chromosome number during meiosis, leading to the $2n \
 ightarrow n$ transition, is frequently examined. - **Key Milestones:** Understanding the following milestones is crucial: - Microsporogenesis: $2n \
 ightarrow n$, resulting in 4 microspores, each with $n$ chromosomes. - Megrasporogenesis: $2n \
 ightarrow n$, resulting in 4 megaspores, but only 1 functional megaspore with $n$ chromosomes. - Pollination: Transfer of pollen grains (microspores) to the stigma, leading to germination and formation of the pollen tube. - Fertilization: Fusion of the male gamete ($n$) with the egg cell ($n$) and the central cell ($2n$), resulting in the zygote ($2n$) and the primary endosperm nucleus ($3n$). - **How to Apply It:** To apply this pattern, focus on the following strategies: - Master the sequence of events from microsporogenesis to fertilization and understand how each step leads to the next. - Recognize the significance of the $2n \
-ightarrow n$ transition during meiosis and its implications for seed formation. - Practice calculating the number of chromosomes in each cell type at different stages of sexual reproduction, using formulas like $2^{n}$ for the number of possible gametes and $\\frac{1}{2^{n}}$ for the probability of specific genetic combinations. - Apply this understanding to solve problems related to genetic inheritance, such as predicting the probability of certain traits or diseases being passed down through generations, using Punnett squares and the $\\frac{1}{2}$ law of independent assortment. - **Common PYQs:** Be prepared to answer questions related to the $\Delta$ variations in seed formation, such as the difference between monocots and dicots, or the impact of environmental factors like temperature and light on pollination and fertilization rates, using formulas like $\\frac{dN}{dt} = rN$ to model population growth.
+ightarrow n$ transition during meiosis and its implications for seed formation. - Practice calculating the number of chromosomes in each cell type at different stages of sexual reproduction, using formulas like $2^{n}$ for the number of possible gametes and $\frac{1}{2^{n}}$ for the probability of specific genetic combinations. - Apply this understanding to solve problems related to genetic inheritance, such as predicting the probability of certain traits or diseases being passed down through generations, using Punnett squares and the $\frac{1}{2}$ law of independent assortment. - **Common PYQs:** Be prepared to answer questions related to the $\Delta$ variations in seed formation, such as the difference between monocots and dicots, or the impact of environmental factors like temperature and light on pollination and fertilization rates, using formulas like $\frac{dN}{dt} = rN$ to model population growth.
 
 | Stage | Chromosome Number | Cell Type |
 | --- | --- | --- |
@@ -196,13 +196,13 @@ ightarrow n$ transition during meiosis and its implications for seed formation. 
 
 - $2n$ gametes fuse to form a $2n$ zygote during fertilization.
 
- - $$\\frac{1}{2}$$ of the pollen grains produce male gametes, while the other $$\\frac{1}{2}$$ produce female gametes.
+ - \frac{1}{2} of the pollen grains produce male gametes, while the other \frac{1}{2} produce female gametes.
 
  - The process of microsporogenesis produces $4$ microspores, which develop into $4$ pollen grains.
 
  - The megasporangium contains $4$ megaspores, but only $1$ functional megaspore survives.
 
- - The probability of a particular allele being passed on from a parent to offspring is $\\frac{1}{2}$.
+ - The probability of a particular allele being passed on from a parent to offspring is $\frac{1}{2}$.
 
  - Key facts:
 
@@ -222,10 +222,14 @@ ightarrow n$ transition during meiosis and its implications for seed formation. 
 
 **1. What is the term for the transfer of pollen from the anther to the stigma of the same flower?**
 
-- A) Geitonogamy
-- B) Xenogamy
-- C) Cleistogamy
-- D) Dichogamy
+-
+A) Geitonogamy
+-
+B) Xenogamy
+-
+C) Cleistogamy
+-
+D) Dichogamy
 
 **Answer:** A) Geitonogamy is the transfer of pollen from the anther to the stigma of the same flower.
 
@@ -233,10 +237,14 @@ ightarrow n$ transition during meiosis and its implications for seed formation. 
 
 **2. Which part of the flower produces the male gametes?**
 
-- A) Stamen
-- B) Petal
-- C) Sepal
-- D) Carpel
+-
+A) Stamen
+-
+B) Petal
+-
+C) Sepal
+-
+D) Carpel
 
 **Answer:** A) The stamen, consisting of the anther and filament, produces the male gametes.
 
@@ -244,10 +252,14 @@ ightarrow n$ transition during meiosis and its implications for seed formation. 
 
 **3. What is the process by which the pollen tube penetrates the stigma and style to reach the ovary?**
 
-- A) Germination
-- B) Pollination
-- C) Fertilization
-- D) Double Fertilization
+-
+A) Germination
+-
+B) Pollination
+-
+C) Fertilization
+-
+D) Double Fertilization
 
 **Answer:** A) Germination refers to the process by which the pollen tube penetrates the stigma and style to reach the ovary.
 
@@ -255,10 +267,14 @@ ightarrow n$ transition during meiosis and its implications for seed formation. 
 
 **4. Which of the following is a type of asexual [reproduction](/blog/reproduction-in-organisms-class-12-notes) in plants?**
 
-- A) Budding
-- B) Fragmentation
-- C) Regeneration
-- D) Apomixis
+-
+A) Budding
+-
+B) Fragmentation
+-
+C) Regeneration
+-
+D) Apomixis
 
 **Answer:** D) Apomixis is a type of asexual [reproduction](/blog/reproduction-in-organisms-class-12-notes) in plants where seeds are produced without fertilization.
 
@@ -266,10 +282,14 @@ ightarrow n$ transition during meiosis and its implications for seed formation. 
 
 **5. What is the term for the fusion of the male and female gametes to form a zygote?**
 
-- A) Karyogamy
-- B) Plasmogamy
-- C) Fertilization
-- D) Double Fertilization
+-
+A) Karyogamy
+-
+B) Plasmogamy
+-
+C) Fertilization
+-
+D) Double Fertilization
 
 **Answer:** C) Fertilization is the fusion of the male and female gametes to form a zygote.
 
@@ -306,3 +326,4 @@ Continue your revision with these related guides:
 - 📖 [Reproduction in Organisms Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/reproduction-in-organisms-class-12-notes)
 - 📖 [Biodiversity and Conservation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
 - 📖 [Biotechnology and its Applications Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biotechnology-and-its-applications-class-12-notes)
+

@@ -119,9 +119,9 @@ By following these tips and thoroughly understanding the concepts of neural cont
 
 To further enhance your understanding, consider exploring the following LaTeX formatted equation, which represents the basic concept of action potential:
 
-$$
+
 \frac{dV}{dt} = -\frac{1}{C_m} \left( g_{Na} (V - V_{Na}) + g_K (V - V_K) + g_L (V - V_L) \right)
-$$
+
 
 where:
 - $V$ is the membrane potential,
@@ -132,16 +132,7 @@ where:
 This equation, part of the Hodgkin-Huxley model, demonstrates the complex interplay of ion channels and currents that underlie the generation and propagation of action potentials in neurons. While the mathematical details may be beyond the scope of [class](/blog/body-fluids-and-circulation-class-11-revision-notes-neet) 11 biology, understanding the biological principles behind such equations can deepen your appreciation for the intricate mechanisms of neural control and coordination.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -159,10 +150,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/neural-control-and-coordination-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/neural-control-and-coordination-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
 
 ---

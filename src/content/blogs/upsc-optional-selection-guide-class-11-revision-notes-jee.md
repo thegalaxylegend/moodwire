@@ -121,16 +121,7 @@ Yes, approximately 70% of successful candidates choose an optional that is diffe
 During the first four months of preparation, dedicate 60–70% of your daily study time to your optional. Once you have covered the syllabus, transition to a split of 30% for your optional and 70% for General Studies and current affairs to maintain overall balance.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -148,10 +139,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/upsc-optional-selection-guide-class-11-revision-notes-jee) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/upsc-optional-selection-guide-class-11-revision-notes-jee) now and track your progress against thousands of students.
 
 
 ---

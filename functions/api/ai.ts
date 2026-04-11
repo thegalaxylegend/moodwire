@@ -28,7 +28,7 @@ export async function onRequestPost({ request, env }: { request: Request, env: a
 
     // 3. Forward to appropriate provider based on tier
     // For simplicity in the Edge Worker, we'll use direct fetch calls
-    const provider = messages.some((m: any) => m.role === 'image') ? 'gemini' : (tier === 'T5' ? 'groq' : 'groq');
+    const provider = messages.some((m: any) => m.role === 'image') ? 'gemini' : (tier === 'T1' ? 'groq' : 'groq');
     
     if (provider === 'groq') {
       const key = getRotatedKey(groqKeys);

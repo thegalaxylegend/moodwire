@@ -34,7 +34,7 @@ self.onmessage = async (e: MessageEvent) => {
                         lengthScale: 1.0,
                     },
                     sampleRate: payload.sampleRate || 22050,
-                    numThreads: 1,
+                    numThreads: Math.min(4, (self.navigator as any).hardwareConcurrency || 1),
                 };
 
                 tts = Module.createOfflineTTS(ttsConfig);

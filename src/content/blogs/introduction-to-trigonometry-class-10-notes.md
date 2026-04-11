@@ -45,30 +45,40 @@ practice_link: "/class-11/mathematics/introduction-to-trigonometry-class-10-note
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Pythagorean Identity:** $$\sin^2{\theta} + \cos^2{\theta} = 1$$ — $\theta$ is the angle in a right-angled triangle, $\sin^2{\theta}$ is the square of the sine of $\theta$, and $\cos^2{\theta}$ is the square of the cosine of $\theta$.
- - **Sine Addition Formula:** $$\sin{(A + B)} = \sin{A}\cos{B} + \cos{A}\sin{B}$$ — $A$ and $B$ are angles in a triangle, $\sin{A}$ and $\sin{B}$ are the sines of angles $A$ and $B$ respectively, $\cos{A}$ and $\cos{B}$ are the cosines of angles $A$ and $B$ respectively.
- - **Cosine Addition Formula:** $$\cos{(A + B)} = \cos{A}\cos{B} - \sin{A}\sin{B}$$ — $A$ and $B$ are angles in a triangle, $\cos{A}$ and $\cos{B}$ are the cosines of angles $A$ and $B$ respectively, $\sin{A}$ and $\sin{B}$ are the sines of angles $A$ and $B$ respectively.
- - **Tangent Addition Formula:** $$\tan{(A + B)} = \frac{\tan{A} + \tan{B}}{1 - \tan{A}\tan{B}}$$ — $A$ and $B$ are angles in a triangle, $\tan{A}$ and $\tan{B}$ are the tangents of angles $A$ and $B$ respectively.
- - **Sine Subtraction Formula:** $$\sin{(A - B)} = \sin{A}\cos{B} - \cos{A}\sin{B}$$ — $A$ and $B$ are angles in a triangle, $\sin{A}$ and $\sin{B}$ are the sines of angles $A$ and $B$ respectively, $\cos{A}$ and $\cos{B}$ are the cosines of angles $A$ and $B$ respectively.
- - **Cosine Subtraction Formula:** $$\cos{(A - B)} = \cos{A}\cos{B} + \sin{A}\sin{B}$$ — $A$ and $B$ are angles in a triangle, $\cos{A}$ and $\cos{B}$ are the cosines of angles $A$ and $B$ respectively, $\sin{A}$ and $\sin{B}$ are the sines of angles $A$ and $B$ respectively.
- - **Tangent Subtraction Formula:** $$\tan{(A - B)} = \frac{\tan{A} - \tan{B}}{1 + \tan{A}\tan{B}}$$ — $A$ and $B$ are angles in a triangle, $\tan{A}$ and $\tan{B}$ are the tangents of angles $A$ and $B$ respectively.
- - **Double Angle Formula for Sine:** $$\sin{2A} = 2\sin{A}\cos{A}$$ — $A$ is an angle in a triangle, $\sin{A}$ is the sine of angle $A$, and $\cos{A}$ is the cosine of angle $A$.
- - **Double Angle Formula for Cosine:** $$\cos{2A} = \cos^2{A} - \sin^2{A}$$ — $A$ is an angle in a triangle, $\cos^2{A}$ is the square of the cosine of angle $A$, and $\sin^2{A}$ is the square of the sine of angle $A$.
- - **Double Angle Formula for Tangent:** $$\tan{2A} = \frac{2\tan{A}}{1 - \tan^2{A}}$$ — $A$ is an angle in a triangle, $\tan{A}$ is the tangent of angle $A$.
+- **Pythagorean Identity:** \sin^2{\theta} + \cos^2{\theta} = 1 — $\theta$ is the angle in a right-angled triangle, $\sin^2{\theta}$ is the square of the sine of $\theta$, and $\cos^2{\theta}$ is the square of the cosine of $\theta$.
+ - **Sine Addition Formula:** \sin{(A + B)} = \sin{A}\cos{B} + \cos{A}\sin{B} — $A$ and $B$ are angles in a triangle, $\sin{A}$ and $\sin{B}$ are the sines of angles $A$ and $B$ respectively, $\cos{A}$ and $\cos{B}$ are the cosines of angles $A$ and $B$ respectively.
+ - **Cosine Addition Formula:** \cos{(A + B)} = \cos{A}\cos{B} - \sin{A}\sin{B} — $A$ and $B$ are angles in a triangle, $\cos{A}$ and $\cos{B}$ are the cosines of angles $A$ and $B$ respectively, $\sin{A}$ and $\sin{B}$ are the sines of angles $A$ and $B$ respectively.
+ - **Tangent Addition Formula:** \tan{(A + B)} = \frac{\tan{A} + \tan{B}}{1 - \tan{A}\tan{B}} — $A$ and $B$ are angles in a triangle, $\tan{A}$ and $\tan{B}$ are the tangents of angles $A$ and $B$ respectively.
+ - **Sine Subtraction Formula:** \sin{(A - B)} = \sin{A}\cos{B} - \cos{A}\sin{B} — $A$ and $B$ are angles in a triangle, $\sin{A}$ and $\sin{B}$ are the sines of angles $A$ and $B$ respectively, $\cos{A}$ and $\cos{B}$ are the cosines of angles $A$ and $B$ respectively.
+ - **Cosine Subtraction Formula:** \cos{(A - B)} = \cos{A}\cos{B} + \sin{A}\sin{B} — $A$ and $B$ are angles in a triangle, $\cos{A}$ and $\cos{B}$ are the cosines of angles $A$ and $B$ respectively, $\sin{A}$ and $\sin{B}$ are the sines of angles $A$ and $B$ respectively.
+ - **Tangent Subtraction Formula:** \tan{(A - B)} = \frac{\tan{A} - \tan{B}}{1 + \tan{A}\tan{B}} — $A$ and $B$ are angles in a triangle, $\tan{A}$ and $\tan{B}$ are the tangents of angles $A$ and $B$ respectively.
+ - **Double Angle Formula for Sine:** \sin{2A} = 2\sin{A}\cos{A} — $A$ is an angle in a triangle, $\sin{A}$ is the sine of angle $A$, and $\cos{A}$ is the cosine of angle $A$.
+ - **Double Angle Formula for Cosine:** \cos{2A} = \cos^2{A} - \sin^2{A} — $A$ is an angle in a triangle, $\cos^2{A}$ is the square of the cosine of angle $A$, and $\sin^2{A}$ is the square of the sine of angle $A$.
+ - **Double Angle Formula for Tangent:** \tan{2A} = \frac{2\tan{A}}{1 - \tan^2{A}} — $A$ is an angle in a triangle, $\tan{A}$ is the tangent of angle $A$.
 
 
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
+
 - **Mistake 1:** Incorrectly applying the formula for {\(sin(\theta)\)} in a right-angled triangle, where {\(sin(\theta) = \frac{opposite}{hypotenuse}\)}.
+
+
  - *Costs:* 2-3 marks per question for incorrect calculation or applying the wrong formula.
- - *Fix:* Always identify the sides of the triangle correctly (opposite, adjacent, hypotenuse) relative to the angle {\(\theta\)} being considered. Ensure that the formula is applied correctly as {\(sin(\theta) = \frac{opposite}{hypotenuse}\)}, {\(cos(\theta) = \frac{adjacent}{hypotenuse}\)}, and {\(tan(\theta) = \frac{opposite}{adjacent}\)}.
- - **Mistake 2:** Not simplifying trigonometric expressions using identities such as {\(sin^2(\theta) + cos^2(\theta) = 1\)} or {\(tan(\theta) = \frac{sin(\theta)}{cos(\theta)}\)}.
+
+- *Fix:* Always identify the sides of the triangle correctly (opposite, adjacent, hypotenuse) relative to the angle {\(\theta\)} being considered. Ensure that the formula is applied correctly as {\(sin(\theta) = \frac{opposite}{hypotenuse}\)}, {\(cos(\theta) = \frac{adjacent}{hypotenuse}\)}, and {\(tan(\theta) = \frac{opposite}{adjacent}\)}.
+
+- **Mistake 2:** Not simplifying trigonometric expressions using identities such as {\(sin^2(\theta) + cos^2(\theta) = 1\)} or {\(tan(\theta) = \frac{sin(\theta)}{cos(\theta)}\)}.
+
+
  - *Costs:* 1-2 marks for not simplifying expressions to their simplest form.
  - *Fix:* Familiarize yourself with basic trigonometric identities and practice applying them to simplify expressions. For example, use {\(sin^2(\theta) + cos^2(\theta) = 1\)} to express expressions solely in terms of {\(sin(\theta)\)} or {\(cos(\theta)\)}.
  - **Mistake 3:** Incorrectly converting between degrees and radians for angles, where {\(180^\circ = \pi\ radians\)}.
  - *Costs:* 1-2 marks for incorrect unit conversions.
- - *Fix:* Remember that to convert from degrees to radians, multiply the angle by {\(\frac{\pi}{180}\)}, and to convert from radians to degrees, multiply the angle by {\(\frac{180}{\pi}\)}. Apply these conversions carefully in calculations.
+
+- *Fix:* Remember that to convert from degrees to radians, multiply the angle by {\(\frac{\pi}{180}\)}, and to convert from radians to degrees, multiply the angle by {\(\frac{180}{\pi}\)}. Apply these conversions carefully in calculations.
+
+
  - **Mistake 4:** Not using the correct quadrant for trigonometric functions when given the angle in standard position.
  - *Costs:* 2-3 marks for incorrect determination of the sign of trigonometric functions based on the quadrant.
  - *Fix:* Recall that in the unit circle, the sign of {\(sin(\theta)\)}, {\(cos(\theta)\)}, and {\(tan(\theta)\)} changes based on the quadrant in which {\(\theta\)} lies. For example, {\(sin(\theta)\)} is positive in the first and second quadrants but negative in the third and fourth.
@@ -87,15 +97,11 @@ practice_link: "/class-11/mathematics/introduction-to-trigonometry-class-10-note
  - Using the Pythagorean identity $\sin^2{\theta} + \cos^2{\theta} = 1$, we can write $\tan{\theta} = \frac{\sin{\theta}}{\cos{\theta}} = \frac{1}{\sqrt{2}}$.
  - From this, we get $\sin{\theta} = \frac{1}{\sqrt{2}} \cdot \cos{\theta}$.
  - Now, substituting $\cos{\theta} = \sqrt{1 - \sin^2{\theta}}$ into the equation $\tan{\theta} = \frac{\sin{\theta}}{\cos{\theta}}$, we have:
- $$\frac{1}{\sqrt{2}} = \frac{\sin{\theta}}{\sqrt{1 - \sin^2{\theta}}}$$
+ \frac{1}{\sqrt{2}} = \frac{\sin{\theta}}{\sqrt{1 - \sin^2{\theta}}}
  - Cross-multiplying and squaring both sides gives:
- $$\frac{1}{2} = \frac{\sin^2{\theta}}{1 - \sin^2{\theta}}$$
+ \frac{1}{2} = \frac{\sin^2{\theta}}{1 - \sin^2{\theta}}
  - Solving for $\sin^2{\theta}$, we get:
- $$\frac{1}{2} (1 - \sin^2{\theta}) = \sin^2{\theta}$$
- $$\frac{1}{2} - \frac{1}{2} \sin^2{\theta} = \sin^2{\theta}$$
- $$\frac{1}{2} = \sin^2{\theta} + \frac{1}{2} \sin^2{\theta}$$
- $$\frac{1}{2} = \frac{3}{2} \sin^2{\theta}$$
- $$\sin^2{\theta} = \frac{1}{3}$$
+ \frac{1}{2} (1 - \sin^2{\theta}) = \sin^2{\theta}\frac{1}{2} - \frac{1}{2} \sin^2{\theta} = \sin^2{\theta}\frac{1}{2} = \sin^2{\theta} + \frac{1}{2} \sin^2{\theta}\frac{1}{2} = \frac{3}{2} \sin^2{\theta}\sin^2{\theta} = \frac{1}{3}
  - Taking the square root of both sides, we get $\sin{\theta} = \pm \frac{1}{\sqrt{3}}$.
  - Since $\theta$ is in the first quadrant where sine is positive, we take the positive root.
  - **Answer:** $\frac{1}{\sqrt{3}}$
@@ -103,8 +109,7 @@ practice_link: "/class-11/mathematics/introduction-to-trigonometry-class-10-note
  - **Trap:** Students often forget to use the Pythagorean theorem to find the length of side $AB$.
  - **Solution:** 
  - Using the Pythagorean theorem $AB^2 + BC^2 = AC^2$, we can find $AB$:
- $$AB^2 = AC^2 - BC^2 = 5^2 - 3^2 = 25 - 9 = 16$$
- $$AB = \sqrt{16} = 4 	ext{ cm}$$
+ AB^2 = AC^2 - BC^2 = 5^2 - 3^2 = 25 - 9 = 16AB = \sqrt{16} = 4 	ext{ cm}
  - Now, $\sin{\angle CAB} = \frac{BC}{AC} = \frac{3}{5}$.
  - **Answer:** $\frac{3}{5}$
  - **Q3:** If $\sin{\theta} = \frac{1}{2}$ and $\theta$ is in the second quadrant, find $\cos{\theta}$.
@@ -112,10 +117,7 @@ practice_link: "/class-11/mathematics/introduction-to-trigonometry-class-10-note
  - **Solution:** 
  - We have $\sin{\theta} = \frac{1}{2}$.
  - Using the Pythagorean identity $\sin^2{\theta} + \cos^2{\theta} = 1$, we can write:
- $$\left(\frac{1}{2}\right)^2 + \cos^2{\theta} = 1$$
- $$\frac{1}{4} + \cos^2{\theta} = 1$$
- $$\cos^2{\theta} = 1 - \frac{1}{4} = \frac{3}{4}$$
- $$\cos{\theta} = \pm \sqrt{\frac{3}{4}} = \pm \frac{\sqrt{3}}{2}$$
+ \left(\frac{1}{2}\right)^2 + \cos^2{\theta} = 1\frac{1}{4} + \cos^2{\theta} = 1\cos^2{\theta} = 1 - \frac{1}{4} = \frac{3}{4}\cos{\theta} = \pm \sqrt{\frac{3}{4}} = \pm \frac{\sqrt{3}}{2}
  - Since $\theta$ is in the second quadrant where cosine is negative, we take the negative root.
  - **Answer:** $-\frac{\sqrt{3}}{2}$
 
@@ -176,7 +178,6 @@ practice_link: "/class-11/mathematics/introduction-to-trigonometry-class-10-note
 
 
 **1. If $\sin\theta = \frac{1}{2}$, then $\cos\theta$ is**
-
 A) 0
 B) $\frac{1}{2}$
 C) $\frac{1}{\sqrt{2}}$
@@ -186,8 +187,8 @@ D) $\sqrt{3}/2$
 
 ---
 
-**2. The value of $\tan(45^\circ)$ is**
-
+**2. The value of $\tan(45^\cir
+c)$ is**
 A) 0
 B) 1
 C) $\sqrt{2}$
@@ -198,7 +199,6 @@ D) Not defined
 ---
 
 **3. If $\sec\theta = 2$, then $\cos\theta$ is**
-
 A) 1/2
 B) 1
 C) 2
@@ -208,8 +208,8 @@ D) -1/2
 
 ---
 
-**4. The value of $\sin(30^\circ)$ is**
-
+**4. The value of $\sin(30^\cir
+c)$ is**
 A) 1/2
 B) 1/4
 C) $\sqrt{2}/2$
@@ -220,7 +220,6 @@ D) 1
 ---
 
 **5. If $\cos\theta = \frac{1}{2}$, then $\theta$ can be**
-
 A) $30^\circ$
 B) $45^\circ$
 C) $60^\circ$
@@ -247,3 +246,4 @@ Continue your revision with these related guides:
 - 📖 [Arithmetic Progressions Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/arithmetic-progressions-class-10-notes)
 - 📖 [Coordinate Geometry Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/coordinate-geometry-class-10-notes)
 - 📖 [Pair of Linear Equations Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/pair-of-linear-equations-class-10-notes)
+

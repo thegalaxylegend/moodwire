@@ -60,11 +60,11 @@ In the context of the Class 11 exam, it is crucial to recognize that Digital Log
 By mastering Digital Logic, we can unlock the secrets of the digital world and develop a profound appreciation for the intricate beauty of digital systems. As we embark on this journey, we will encounter numerous challenges and opportunities to learn and grow. With dedication and practice, we can develop a deep understanding of Digital Logic and achieve success in the Class 11 exam. 
 
 The formula for the $n$-bit binary counter is: 
-$$
+
 \begin{aligned}
 Count &= 2^n - 1 \\
 \end{aligned}
-$$
+
 This formula illustrates the exponential relationship between the number of binary digits and the maximum count value. 
 
 We will also explore the concept of Karnaugh maps, which are used to simplify digital circuits. The $K$-map is a graphical representation of a digital circuit, and it can be used to identify patterns and simplify the circuit. 
@@ -74,11 +74,11 @@ As we delve deeper into the world of Digital Logic, we will encounter numerous c
 The $n$-bit binary counter is a classic example of how Digital Logic can be used to build complex digital circuits. The counter can count up to $2^n - 1$, and it is a fundamental component of many digital systems. 
 
 To illustrate the concept of logic gates, consider the following example: 
-$$
+
 \begin{aligned}
 A \cdot B &= Y \\
 \end{aligned}
-$$
+
 This equation represents the $AND$ gate, which produces an output of $1$ only when both inputs are $1$. 
 
 We will also explore the concept of combinational circuits, which are digital circuits that do not have any feedback loops. These circuits are used to perform a wide range of tasks, from simple arithmetic to complex decision-making. 
@@ -88,11 +88,11 @@ By focusing on the underlying principles of Digital Logic, we can build a strong
 The study of Digital Logic is a fascinating journey that will challenge our thinking and broaden our understanding of the digital world. As we explore the world of Digital Logic, we will encounter numerous concepts and techniques that will help us develop a deep understanding of digital systems. 
 
 The formula for the $OR$ gate is: 
-$$
+
 \begin{aligned}
 A + B &= Y \\
 \end{aligned}
-$$
+
 This equation represents the $OR$ gate, which produces an output of $1$ when either input is $1$. 
 
 We will also explore the concept of sequential circuits, which are digital circuits that have feedback loops. These circuits are used to perform a wide range of tasks, from simple counting to complex decision-making. 
@@ -110,11 +110,11 @@ We will also explore the concept of digital circuit design, which involves creat
 By focusing on the underlying principles of Digital Logic, we can build a strong foundation for more advanced topics in Computer Science and develop a keen appreciation for the intricate beauty of digital systems. With dedication and practice, we can master the concepts of Digital Logic and achieve success in the Class 11 exam. 
 
 The formula for the $NOT$ gate is: 
-$$
+
 \begin{aligned}
 \overline{A} &= Y \\
 \end{aligned}
-$$
+
 This equation represents the $NOT$ gate, which produces an output of $1$ when the input is $0$. 
 
 We will also explore the concept of digital signal processing, which involves the manipulation of digital signals to extract information or perform specific tasks. This process requires a deep understanding of digital logic and the ability to apply theoretical concepts to practical problems. 
@@ -132,11 +132,11 @@ We will also explore the concept of computer architecture, which involves the de
 By focusing on the underlying principles of Digital Logic, we can build a strong foundation for more advanced topics in Computer Science and develop a keen appreciation for the intricate beauty of digital systems. With dedication and practice, we can master the concepts of Digital Logic and achieve success in the Class 11 exam. 
 
 The formula for the $NAND$ gate is: 
-$$
+
 \begin{aligned}
 \overline{A \cdot B} &= Y \\
 \end{aligned}
-$$
+
 This equation represents the $NAND$ gate, which produces an output of $1$ when either input is $0$. 
 
 We will also explore the concept of artificial intelligence, which involves the development of computer systems that can perform tasks that typically require human intelligence. This process requires a deep understanding of digital logic and the ability to apply theoretical concepts to practical problems. 
@@ -154,11 +154,11 @@ We will also explore the concept of machine learning, which involves the develop
 By focusing on the underlying principles of Digital Logic, we can build a strong foundation for more advanced topics in Computer Science and develop a keen appreciation for the intricate beauty of digital systems. With dedication and practice, we can master the concepts of Digital Logic and achieve success in the Class 11 exam. 
 
 The formula for the $NOR$ gate is: 
-$$
+
 \begin{aligned}
 \overline{A + B} &= Y \\
 \end{aligned}
-$$
+
 This equation represents the $NOR$ gate, which produces an output of $1$ when both inputs are $0$. 
 
 We will also explore the concept of digital communication systems, which involves the transmission and reception of digital signals over communication channels. This process requires a deep understanding of digital logic and the ability to apply theoretical concepts to practical problems. 
@@ -176,11 +176,11 @@ We will also explore the concept of computer networks, which involves the interc
 By focusing on the underlying principles of Digital Logic, we can build a strong foundation for more advanced topics in Computer Science and develop a keen appreciation for the intricate beauty of digital systems. With dedication and practice, we can master the concepts of Digital Logic and achieve success in the Class 11 exam. 
 
 The formula for the $XOR$ gate is: 
-$$
+
 \begin{aligned}
 A \oplus B &= Y \\
 \end{aligned}
-$$
+
 This equation represents the $XOR$ gate, which produces an output of $1$ when the inputs are different. 
 
 We will also explore the concept of database systems, which involves the storage and retrieval of data in a systematic and efficient manner. This process requires a deep understanding of digital logic and the ability to apply theoretical concepts to practical problems. 
@@ -198,11 +198,11 @@ We will also explore the concept of operating systems, which involves the manage
 By focusing on the underlying principles of Digital Logic, we can build a strong foundation for more advanced topics in Computer Science and develop a keen appreciation for the intricate beauty of digital systems. With dedication and practice, we can master the concepts of Digital Logic and achieve success in the Class 11 exam. 
 
 The formula for the $XNOR$ gate is: 
-$$
+
 \begin{aligned}
 \overline{A \oplus B} &= Y \\
 \end{aligned}
-$$
+
 This equation represents the $XNOR$ gate, which produces an output of $1$ when the inputs are the same. 
 
 We will also explore the concept of software engineering, which involves the design, development, and testing of software systems to meet specific requirements. This process requires a deep understanding of digital logic and the ability to apply theoretical concepts to practical problems. 
@@ -220,11 +220,11 @@ We will also explore the concept of data structures, which involves the organiza
 By focusing on the underlying principles of Digital Logic, we can build a strong foundation for more advanced topics in Computer Science and develop a keen appreciation for the intricate beauty of digital systems. With dedication and practice, we can master the concepts of Digital Logic and achieve success in the Class 11 exam. 
 
 The formula for the $BUF$ gate is: 
-$$
+
 \begin{aligned}
 A &= Y \\
 \end{aligned}
-$$
+
 This equation represents the $BUF$ gate, which produces an output that is the same as the input. 
 
 We will also explore the concept of algorithms, which involves the design and analysis of step-by-step procedures to solve specific problems. This process requires a deep understanding of digital logic and the ability to apply theoretical concepts to practical problems. 
@@ -251,12 +251,12 @@ Digital Logic is a branch of electronics engineering that deals with the design 
 
 | Gate | Symbol | Truth Table | Application |
 | --- | --- | --- | --- |
-| AND | $cdot$ | $| A | B | Y |$ $| --- | --- | --- |$ $| 0 | 0 | 0 |$ $| 0 | 1 | 0 |$ $| 1 | 0 | 0 |$ $| 1 | 1 | 1 |$ | Digital circuits, microprocessors |
-| OR | $+$ | $| A | B | Y |$ $| --- | --- | --- |$ $| 0 | 0 | 0 |$ $| 0 | 1 | 1 |$ $| 1 | 0 | 1 |$ $| 1 | 1 | 1 |$ | Digital circuits, control systems |
-| NOT | $overline{A}$ | $| A | Y |$ $| --- | --- |$ $| 0 | 1 |$ $| 1 | 0 |$ | Digital circuits, microprocessors |
-| NAND | $overline{A cdot B}$ | $| A | B | Y |$ $| --- | --- | --- |$ $| 0 | 0 | 1 |$ $| 0 | 1 | 1 |$ $| 1 | 0 | 1 |$ $| 1 | 1 | 0 |$ | Digital circuits, control systems |
-| NOR | $overline{A + B}$ | $| A | B | Y |$ $| --- | --- | --- |$ $| 0 | 0 | 1 |$ $| 0 | 1 | 0 |$ $| 1 | 0 | 0 |$ $| 1 | 1 | 0 |$ | Digital circuits, microprocessors |
-| XOR | $A oplus B$ | $| A | B | Y |$ $| --- | --- | --- |$ $| 0 | 0 | 0 |$ $| 0 | 1 | 1 |$ $| 1 | 0 | 1 |$ $| 1 | 1 | 0 |$ | Digital circuits, control systems |
+| AND | $cdot$ | $| A | B | Y || --- | --- | --- || 0 | 0 | 0 || 0 | 1 | 0 || 1 | 0 | 0 || 1 | 1 | 1 |$ | Digital circuits, microprocessors |
+| OR | $+$ | $| A | B | Y || --- | --- | --- || 0 | 0 | 0 || 0 | 1 | 1 || 1 | 0 | 1 || 1 | 1 | 1 |$ | Digital circuits, control systems |
+| NOT | $overline{A}$ | $| A | Y || --- | --- || 0 | 1 || 1 | 0 |$ | Digital circuits, microprocessors |
+| NAND | $overline{A cdot B}$ | $| A | B | Y || --- | --- | --- || 0 | 0 | 1 || 0 | 1 | 1 || 1 | 0 | 1 || 1 | 1 | 0 |$ | Digital circuits, control systems |
+| NOR | $overline{A + B}$ | $| A | B | Y || --- | --- | --- || 0 | 0 | 1 || 0 | 1 | 0 || 1 | 0 | 0 || 1 | 1 | 0 |$ | Digital circuits, microprocessors |
+| XOR | $A oplus B$ | $| A | B | Y || --- | --- | --- || 0 | 0 | 0 || 0 | 1 | 1 || 1 | 0 | 1 || 1 | 1 | 0 |$ | Digital circuits, control systems |
 
 ## <a id="what-are-the-basic-components-of-digital-logic"></a>What are the basic components of Digital Logic?
 
@@ -502,8 +502,8 @@ To perform multiplication
 To perform addition
 To perform XOR operation
 
-**Answer:** D) A Half-Adder is a digital logic circuit that performs an XOR operation between two binary inputs.
-
+**Answer:**
+D) A Half-Adder is a digital logic circuit that performs an XOR operation between two binary inputs.
 **2. What is the primary function of a Multiplexer?**
 To perform demultiplexing
 To perform encoding
@@ -518,8 +518,8 @@ To perform logical operations
 To store and retain a binary state
 To perform memory operations
 
-**Answer:** C) A Flip-Flop is a digital circuit that stores and retains a binary state, acting as a memory element.
-
+**Answer:**
+C) A Flip-Flop is a digital circuit that stores and retains a binary state, acting as a memory element.
 **4. What is the primary function of a Decoder?**
 To perform encoding
 To perform decoding
@@ -537,16 +537,7 @@ To perform memory operations
 **Answer:** C) A D-Flip-Flop is a digital circuit that stores and retains a binary state, acting as a memory element, and is triggered by a rising edge of the clock signal.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -564,10 +555,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/digital-logic-class-11-revision-notes-gate-boards) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/digital-logic-class-11-revision-notes-gate-boards) now and track your progress against thousands of students.
 
 
 ---

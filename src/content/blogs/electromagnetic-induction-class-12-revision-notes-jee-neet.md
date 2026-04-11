@@ -236,8 +236,8 @@ Electromagnetic Radiation
 Faraday's Law
 Lenz's Law
 
-**Answer:** A) Electromagnetic Induction is the production of an electromotive force across an electrical conductor in a changing magnetic field.
-
+**Answer:**
+A) Electromagnetic Induction is the production of an electromotive force across an electrical conductor in a changing magnetic field.
 **2. A coil is placed in a magnetic field and connected to a galvanometer. If the magnetic field is increased, the galvanometer shows:**
 No deflection
 Deflection in one direction
@@ -252,8 +252,8 @@ Thermal energy
 Kinetic energy
 Potential energy
 
-**Answer:** A) A generator uses the principle of electromagnetic induction to convert mechanical energy into electrical energy.
-
+**Answer:**
+A) A generator uses the principle of electromagnetic induction to convert mechanical energy into electrical energy.
 **4. The direction of the induced current in a conductor is determined by:**
 Right-hand rule
 Left-hand rule
@@ -271,13 +271,7 @@ Decrease the current of an AC circuit
 **Answer:** A) A transformer uses the principle of electromagnetic induction to increase or decrease the voltage of an AC circuit.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -295,10 +289,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/electromagnetic-induction-class-12-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/electromagnetic-induction-class-12-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 
 ---

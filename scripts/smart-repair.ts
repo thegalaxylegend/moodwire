@@ -29,7 +29,7 @@ const TODAY = new Date().toISOString().split('T')[0];
 import Groq from 'groq-sdk';
 import 'dotenv/config';
 import { godSafeParse, godExtract, isRefusal } from './utils/god-json.ts';
-import { sanitizeAiText, checkLatexIntegrity } from './utils/jules-quality.ts';
+import { sanitizeAiText, checkLatexIntegrity, normalizeMarkdownMCQs, normalizeMarkdownLaTeX } from './utils/jules-quality.ts';
 import { auditGrammar } from './utils/grammar-audit.ts';
 import { extractTextFromImage } from './utils/ocr-tool.ts';
 import { fetchWikiSummary, buildWikiCallout } from './utils/wikipedia-enricher.ts';
@@ -281,14 +281,41 @@ interface RepairResult {
     fixes: string[];
     warnings: string[];
     wasModified: boolean;
+    isStrategicRefinement: boolean;
 }
 
-async function repairBlog(filePath: string, isDryRun: boolean, canUseAi: boolean, canUseGrammar: boolean = false): Promise<RepairResult> {
+interface RegenItem {
+    slug: string;
+    reason: string;
+}
+
+function loadRegenQueue(): Record<string, string> {
+    const queue: Record<string, string> = {};
+    if (!fs.existsSync(REPORTS_DIR)) return queue;
+
+    const files = fs.readdirSync(REPORTS_DIR).filter(f => f.startsWith('regen-queue-') && f.endsWith('.json'));
+    for (const file of files) {
+        try {
+            const content = JSON.parse(fs.readFileSync(path.join(REPORTS_DIR, file), 'utf8'));
+            if (Array.isArray(content)) {
+                content.forEach((item: RegenItem) => {
+                    queue[item.slug] = item.reason;
+                });
+            }
+        } catch (e) {
+            console.error(`⚠️ Failed to parse regen queue ${file}:`, e);
+        }
+    }
+    return queue;
+}
+
+async function repairBlog(filePath: string, isDryRun: boolean, canUseAi: boolean, canUseGrammar: boolean = false, regenReason?: string): Promise<RepairResult> {
     const slug = path.basename(filePath, '.md');
     let content = fs.readFileSync(filePath, 'utf-8');
     const originalContent = content;
     const fixes: string[] = [];
     const warnings: string[] = [];
+    let isStrategicRefinement = false;
 
     // Separate frontmatter and body
     const fmMatch = content.match(/^(---[\s\S]*?---\r?\n)([\s\S]*)$/);
@@ -297,6 +324,26 @@ async function repairBlog(filePath: string, isDryRun: boolean, canUseAi: boolean
 
     const titleMatch = frontmatter.match(/title:\s*["'](.+?)["']/);
     const title = titleMatch ? titleMatch[1] : slug.replace(/-/g, ' ');
+
+    // ========= STRATEGIC REFINEMENT (CTR/DECAY FIX) =========
+    if (canUseAi && regenReason) {
+        console.log(`🧬 STRATEGIC REFINEMENT: Deep-fixing ${slug}...`);
+        console.log(`   Reason: ${regenReason}`);
+        
+        const refinement = await callLlm(
+            "You are a Senior Academic SEO Strategist. Your goal is to rewrite the core content of an academic blog to fix performance issues (Low CTR, Stale Content). Keep the technical tone but make it more engaging and direct. Ensure all math is correctly formatted in LaTeX.",
+            `Topic: ${title}\nReason for refinement: ${regenReason}\n\nExisting Content (Summary): ${body.substring(0, 500)}...\n\nRewrite the full body content to be more authoritative and high-impact. Return JSON: {"body": "full markdown content"}`
+        );
+
+        if (refinement) {
+            const parsed = godSafeParse(refinement);
+            if (parsed?.body && parsed.body.length > 300) {
+                body = parsed.body;
+                isStrategicRefinement = true;
+                fixes.push(`Applied deep strategic refinement: ${regenReason}`);
+            }
+        }
+    }
 
     // ... [existing fixes 1-5 remain unchanged] ...
     // ========= FIX 1: Kill List Phrase Removal =========
@@ -319,13 +366,12 @@ async function repairBlog(filePath: string, isDryRun: boolean, canUseAi: boolean
         body = body.replace(/\$\$\s*\$\$/g, '');
         fixes.push(`Removed ${emptyLatex.length} empty LaTeX blocks`);
     }
-    body = body.replace(/^(\s*)\$([^$\n]+)\$\s*$/gm, (match, indent, content) => {
-        if (/\\(frac|sum|int|prod|lim|sqrt|begin)/.test(content)) {
-            fixes.push(`Fixed block LaTeX: $...$ → $$...$$`);
-            return `${indent}$$${content}$$`;
-        }
-        return match;
-    });
+    // ========= NEW: Advanced LaTeX Normalization =========
+    const bodyBeforeLatex = body;
+    body = normalizeMarkdownLaTeX(body);
+    if (body !== bodyBeforeLatex) {
+        fixes.push('Normalized advanced LaTeX formatting (wrapped raw blocks)');
+    }
 
     // ========= FIX 4: Duplicate H2 Headers =========
     const h2s = body.match(/^## .+$/gm) || [];
@@ -585,13 +631,20 @@ async function repairBlog(filePath: string, isDryRun: boolean, canUseAi: boolean
         fixes.push('Cleaned up empty LaTeX blocks');
     }
 
+    // ========= FIX 15: MCQ Formatting Normalizer =========
+    const bodyBeforeMcq = body;
+    body = normalizeMarkdownMCQs(body);
+    if (body !== bodyBeforeMcq) {
+        fixes.push('Repaired MCQ option formatting (ensured multi-line)');
+    }
+
     // 4. Final Body Polish: Remove triple newlines
     body = body.replace(/\n{3,}/g, '\n\n');
 
     content = frontmatter + body;
     const wasModified = content !== originalContent;
     if (wasModified && !isDryRun) fs.writeFileSync(filePath, content, 'utf-8');
-    return { slug, fixes, warnings, wasModified };
+    return { slug, fixes, warnings, wasModified, isStrategicRefinement };
 }
 
 async function main() {
@@ -624,14 +677,23 @@ async function main() {
     let totalWarnings = 0;
     let aiRepairsPerformed = 0;
 
+    const regenQueue = loadRegenQueue();
+    if (Object.keys(regenQueue).length > 0) {
+        console.log(`🎯 Strategic Refinement Queue active with ${Object.keys(regenQueue).length} blogs.\n`);
+    }
+
     for (const file of files) {
+        const slug = path.basename(file, '.md');
+        const regenReason = regenQueue[slug];
+        
         const canUseAi = aiRepairsPerformed < repairLimit;
         // Grammar audit is also capped to repairLimit blogs (same as AI), preventing
         // 178 LanguageTool API calls/day. Only blogs being actively repaired get audited.
         const canUseGrammar = canUseAi;
-        const result = await repairBlog(path.join(BLOG_DIR, file), isDryRun, canUseAi, canUseGrammar);
         
-        if (result.fixes.some(f => f.includes('Generated'))) {
+        const result = await repairBlog(path.join(BLOG_DIR, file), isDryRun, canUseAi, canUseGrammar, regenReason);
+        
+        if (result.fixes.some(f => f.includes('Generated')) || result.isStrategicRefinement) {
             aiRepairsPerformed++;
         }
 
@@ -649,13 +711,15 @@ async function main() {
 
     // === SUMMARY ===
     const modified = results.filter(r => r.wasModified).length;
+    const refined = results.filter(r => r.isStrategicRefinement).length;
     const withWarnings = results.filter(r => r.warnings.length > 0).length;
     const clean = results.filter(r => r.fixes.length === 0 && r.warnings.length === 0).length;
 
     console.log('\n' + '═'.repeat(60));
-    console.log('📊 AUTO-REPAIR REPORT');
+    console.log('📊 AUTO-REPAIR & REFINEMENT REPORT');
     console.log('═'.repeat(60));
-    console.log(`  🔧 Files repaired:     ${modified}`);
+    console.log(`  🚀 Deeply Refined:     ${refined}`);
+    console.log(`  🔧 Files repaired:     ${modified - refined}`);
     console.log(`  ⚠️  Files with warnings: ${withWarnings}`);
     console.log(`  ✅ Clean files:         ${clean}`);
     console.log(`  📊 Total fixes applied: ${totalFixes}`);

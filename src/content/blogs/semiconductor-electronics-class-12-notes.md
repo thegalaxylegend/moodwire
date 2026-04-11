@@ -31,7 +31,7 @@ practice_link: "/class-11/physics/semiconductor-electronics-class-12-notes"
 
 ## <a id="-what-will-come-in-your-exam"></a>🎯 What WILL Come in Your Exam
 * 1 numerical on $p$-type and $n$-type semiconductor formation — always 
-* Junction diode equation $I = I_0 (e^{\\frac{eV}{kT}} - 1)$ — direct question or numerical 
+* Junction diode equation $I = I_0 (e^{\frac{eV}{kT}} - 1)$ — direct question or numerical 
 * Zener diode as voltage regulator — circuit diagram and explanation 
 * Transistor configuration (CE, CB, CC) — comparison and input/output characteristics 
 * Common emitter amplifier circuit — always a favourite for numericals 
@@ -48,14 +48,14 @@ practice_link: "/class-11/physics/semiconductor-electronics-class-12-notes"
 
 | Formula | Description |
 | --- | --- |
-| $$I = \frac{V}{R}$ | Current (I) in terms of Voltage (V) and Resistance (R) |
-| $$R = \frac{\rho L}{A}$ | Resistance (R) in terms of Resistivity (\rho), Length (L), and Cross-Sectional Area (A) |
-| $$\rho = \frac{m}{n cdot e}$ | Resistivity (\rho) in terms of Mass (m), Number of Free Electrons (n), and Elementary Charge (e) |
-| $$V_T = \frac{k_B T}{e}$ | Thermal Voltage (V_T) in terms of Boltzmann Constant (k_B), Temperature (T), and Elementary Charge (e) |
-| $$I_D = I_S (e^{\frac{V_D}{V_T}} - 1)$ | Diode Current (I_D) in terms of Reverse Saturation Current (I_S), Diode Voltage (V_D), and Thermal Voltage (V_T) |
-| $$\beta = \frac{I_C}{I_B}$ | Current Gain (\beta) in terms of Collector Current (I_C) and Base Current (I_B) |
-| $$V_{CE} = V_{CC} - \beta cdot I_B cdot R_C$ | Collector-Emitter Voltage (V_{CE}) in terms of Supply Voltage (V_{CC}), Current Gain (\beta), Base Current (I_B), and Collector Resistance (R_C) |
-| $$h_{fe} = \frac{I_C}{I_B}$ | Large Signal Current Gain (h_{fe}) in terms of Collector Current (I_C) and Base Current (I_B) |
+| I = \frac{V}{R}$ | Current (I) in terms of Voltage (V) and Resistance (R) |
+| R = \frac{\rho L}{A}$ | Resistance (R) in terms of Resistivity (\rho), Length (L), and Cross-Sectional Area (A) |
+| \rho = \frac{m}{n cdot e}$ | Resistivity (\rho) in terms of Mass (m), Number of Free Electrons (n), and Elementary Charge (e) |
+| V_T = \frac{k_B T}{e}$ | Thermal Voltage (V_T) in terms of Boltzmann Constant (k_B), Temperature (T), and Elementary Charge (e) |
+| I_D = I_S (e^{\frac{V_D}{V_T}} - 1)$ | Diode Current (I_D) in terms of Reverse Saturation Current (I_S), Diode Voltage (V_D), and Thermal Voltage (V_T) |
+| \beta = \frac{I_C}{I_B}$ | Current Gain (\beta) in terms of Collector Current (I_C) and Base Current (I_B) |
+| V_{CE} = V_{CC} - \beta cdot I_B cdot R_C$ | Collector-Emitter Voltage (V_{CE}) in terms of Supply Voltage (V_{CC}), Current Gain (\beta), Base Current (I_B), and Collector Resistance (R_C) |
+| h_{fe} = \frac{I_C}{I_B}$ | Large Signal Current Gain (h_{fe}) in terms of Collector Current (I_C) and Base Current (I_B) |
 
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
@@ -75,7 +75,10 @@ Identifying and correcting common mistakes is crucial to maximizing scores. The 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 Q: In a common base amplifier, the current gain is 0.95. If the emitter current is 10 mA, calculate the base current. 
- Trap in this question: Students often forget that the current gain (\beta) in a common base amplifier is less than 1.
+
+Trap in this question: Students often forget that the current gain (\beta) in a common base amplifier is less than 1.
+
+
  Solution: Given: $\beta = 0.95$, $I_e = 10 \times 10^{-3}$ A. The formula to calculate the base current is $I_b = I_e cdot (1 - \beta) / \beta$. Substituting the values, $I_b = (10 \times 10^{-3}) cdot (1 - 0.95) / 0.95 = (10 \times 10^{-3}) cdot (0.05) / 0.95 = 5.26 \times 10^{-4}$ A.
  Answer: $5.26 \times 10^{-4}$ A.
 
@@ -128,8 +131,8 @@ To maximize score in Semiconductor Electronics, focus on the $p$-$n$ junction di
 
 Formulas: 
  * $I = \frac{V}{R}$ 
- * $V = \frac{1}{2} \\times V_0 \\times (1 - cos(\omega t))$ 
- * $I = I_0 \\times sin(\omega t)$ 
+ * $V = \frac{1}{2} \times V_0 \times (1 - cos(\omega t))$ 
+ * $I = I_0 \times sin(\omega t)$ 
  * $X_C = \frac{1}{\omega C}$ 
  * $X_L = \omega L$ 
  Facts: 
@@ -155,9 +158,8 @@ To decrease its conductivity
 To make it an insulator
 To make it a conductor
 
-**Answer:** A) Doping a semiconductor material introduces impurities that alter its electrical properties, increasing its conductivity.
-
-
+**Answer:**
+A) Doping a semiconductor material introduces impurities that alter its electrical properties, increasing its conductivity.
 **2. Which of the following is a characteristic of a p-n junction?**
 It allows current to flow in both directions
 It allows current to flow in one direction but blocks it in the other
@@ -166,16 +168,14 @@ It has infinite resistance
 
 **Answer:** B) A p-n junction is a type of diode that allows current to flow in one direction (forward bias) but blocks it in the other (reverse bias).
 
-
 **3. What is the function of a transistor?**
 To amplify a weak electrical signal
 To rectify an AC signal
 To filter out noise from a signal
 To regulate voltage
 
-**Answer:** A) A transistor is a type of semiconductor device that can amplify or switch electronic signals.
-
-
+**Answer:**
+A) A transistor is a type of semiconductor device that can amplify or switch electronic signals.
 **4. Which type of semiconductor material is created by introducing acceptor impurities?**
 n-type
 p-type
@@ -183,7 +183,6 @@ Intrinsic
 Extrinsic
 
 **Answer:** B) Introducing acceptor impurities creates 'holes' in the material, resulting in a p-type semiconductor.
-
 
 **5. What happens to the resistance of a semiconductor material as its temperature increases?**
 It increases

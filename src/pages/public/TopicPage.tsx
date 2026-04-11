@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import { SEO } from '../../components/SEO';
 import { Navbar } from '../../components/Navbar';
 import { Footer } from '../../components/Footer';
@@ -40,6 +40,31 @@ export const TopicPage = () => {
     const topicData = topicList.find(t => slugify(t.topic) === topic);
 
     if (!topicData) {
+        // Fallback Logic: Maybe they landed on a Blog slug by mistake?
+        const isBlog = blogs.find(b => b.id === topic);
+        if (isBlog) {
+            return (
+                <div className="min-h-screen bg-black flex items-center justify-center p-6 text-center">
+                    <div className="max-w-md space-y-6">
+                        <div className="w-16 h-16 bg-purple-500/20 rounded-full flex items-center justify-center mx-auto animate-pulse">
+                            <ArrowRight className="text-purple-500" />
+                        </div>
+                        <h1 className="text-2xl font-bold">Revision Notes Found</h1>
+                        <p className="text-gray-400">
+                            We found high-quality revision notes for <strong>{topic?.replace(/-/g, ' ')}</strong>. 
+                            Redirecting you to the blog...
+                        </p>
+                        <meta httpEquiv="refresh" content={`2;url=/blog/${topic}`} />
+                        <Link 
+                            to={`/blog/${topic}`}
+                            className="inline-flex items-center gap-2 bg-purple-600 px-6 py-3 rounded-xl font-bold hover:bg-purple-700 transition-colors"
+                        >
+                            Go to Notes <ArrowRight size={18} />
+                        </Link>
+                    </div>
+                </div>
+            );
+        }
         return <NotFoundPage />;
     }
 

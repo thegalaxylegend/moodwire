@@ -150,16 +150,7 @@ This code will create a table with the specified columns and rows, using the `ta
 In this quick [revision](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) and recap, we covered the key aspects of the Mughal Empire, including its founding, notable rulers, administrative divisions, and revenue systems. We also discussed the core concepts, formulae tables, MCQs, and trap exceptions related to the Mughal Empire. By focusing on these key terms and concepts, you can develop a solid understanding of the Mughal Empire and its significance in medieval Indian history.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -177,10 +168,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/medieval-india-mughals-class-11-revision-notes-cbse) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/medieval-india-mughals-class-11-revision-notes-cbse) now and track your progress against thousands of students.
 
 
 ---

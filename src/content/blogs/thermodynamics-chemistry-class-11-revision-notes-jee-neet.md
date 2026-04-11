@@ -172,7 +172,7 @@ At constant pressure: $\Delta H = q_p$.
 At constant volume: $\Delta U = q_v$.
 
 ### <a id="the-bridge-formula"></a>The Bridge Formula
-$$\Delta H = \Delta U + \Delta n_g RT$$
+\Delta H = \Delta U + \Delta n_g RT
 where $\Delta n_g$ = (moles of gaseous products) - (moles of gaseous reactants).
 
 **Example**: $CH_4(g) + 2O_2(g) \rightarrow CO_2(g) + 2H_2O(l)$:
@@ -195,7 +195,7 @@ This is because Enthalpy is a **State Function** — it depends only on the stat
 
 ### <a id="application-bornhaber-cycle"></a>Application: Born-Haber Cycle
 To find the Lattice Enthalpy of $NaCl$:
-$$\Delta H_f = \Delta H_{sub} + \Delta H_{IE} + \frac{1}{2}\Delta H_{diss} + \Delta H_{EA} + U_{lattice}$$
+\Delta H_f = \Delta H_{sub} + \Delta H_{IE} + \frac{1}{2}\Delta H_{diss} + \Delta H_{EA} + U_{lattice}
 **JEE Trick**: If a question asks you to calculate the enthalpy of a reaction you don't know directly, try:
 1. Reverse a known reaction (flip the sign of $\Delta H$).
 2. Multiply a reaction by a factor (multiply $\Delta H$ by the same factor).
@@ -217,7 +217,7 @@ $$\Delta H_f = \Delta H_{sub} + \Delta H_{IE} + \frac{1}{2}\Delta H_{diss} + \De
 - $\Delta_f H°$ is **negative** for stable compounds (exothermic formation).
 
 ### <a id="bond-enthalpy-method"></a>Bond Enthalpy Method
-$$\Delta H_{rxn} = \sum (\text{Bond Enthalpies of Broken Bonds}) - \sum (\text{Bond Enthalpies of Formed Bonds})$$
+\Delta H_{rxn} = \sum (\text{Bond Enthalpies of Broken Bonds}) - \sum (\text{Bond Enthalpies of Formed Bonds})
 Remember: Breaking bonds = **absorbs** energy (+). Forming bonds = **releases** energy (-).
 
 ---
@@ -363,16 +363,7 @@ CBSE loves "Derive the Gibbs-Helmholtz equation" as a 5-mark question. Write the
 
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -390,10 +381,7 @@ Continue your [revision](/blog/equilibrium-class-11-revision-notes-jee-neet) wit
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/thermodynamics-chemistry-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/thermodynamics-chemistry-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 
 ---

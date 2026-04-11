@@ -159,7 +159,7 @@ $V \propto n$. Equal volumes of all gases at same T and P contain equal number o
 | $2$ | $\text{cal mol}^{-1}\text{ K}^{-1}$ | Energy in calories |
 
 ### <a id="the-density-shortcut"></a>The Density Shortcut
-From $PV = nRT$ and $n = W/M$: $$PM = dRT$$ where $d$ = density. This is a high-yield JEE formula for "find the molar mass of a gas" questions.
+From $PV = nRT$ and $n = W/M$: PM = dRT where $d$ = density. This is a high-yield JEE formula for "find the molar mass of a gas" questions.
 
 ---
 
@@ -172,13 +172,13 @@ From $PV = nRT$ and $n = W/M$: $$PM = dRT$$ where $d$ = density. This is a high-
 
 **Dalton's Law of Partial Pressures states that the total pressure of a mixture of non-reacting gases is equal to the sum of individual partial pressures of each component gas.**
 
-$$P_{total} = P_1 + P_2 + P_3 + ...P_i = X_i \times P_{total}$$ where $X_i$ = mole fraction.
+P_{total} = P_1 + P_2 + P_3 + ...P_i = X_i \times P_{total} where $X_i$ = mole fraction.
 
 ### <a id="grahams-law-of-diffusion"></a>Graham's Law of Diffusion
 
 **Graham's Law states that the rate of diffusion or effusion of a gas is inversely proportional to the square root of its molar mass.**
 
-$$\frac{r_1}{r_2} = \sqrt{\frac{M_2}{M_1}}$$
+\frac{r_1}{r_2} = \sqrt{\frac{M_2}{M_1}}
 
 **JEE Trick**: This means lighter gases diffuse faster. $H_2$ diffuses 4× faster than $O_2$ (since $\sqrt{32/2} = 4$).
 
@@ -221,7 +221,7 @@ $$\frac{r_1}{r_2} = \sqrt{\frac{M_2}{M_1}}$$
 **Real Gases are actual gases that deviate from ideal gas behavior due to intermolecular attractions and the finite volume of gas molecules.**
 
 ### <a id="the-compressibility-factor-z"></a>The Compressibility Factor (Z)
-$$Z = \frac{PV}{nRT}$$
+Z = \frac{PV}{nRT}
 
 | Z Value | Meaning | Dominant Force | Condition |
 |:---:|:---|:---|:---|
@@ -242,7 +242,7 @@ $$Z = \frac{PV}{nRT}$$
 
 **The van der Waals Equation is a modified form of the ideal gas equation that accounts for the finite size of molecules (volume correction 'b') and intermolecular attractions (pressure correction 'a').**
 
-$$\left[P + \frac{an^2}{V^2}\right](V - nb) = nRT$$
+\left[P + \frac{an^2}{V^2}\right](V - nb) = nRT
 
 | Constant | Meaning | Higher value means |
 |:---|:---|:---|
@@ -365,16 +365,7 @@ In CBSE boards, always draw the $PV$ vs $P$ graph or the $Z$ vs $P$ graph if the
 
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -392,10 +383,7 @@ Continue your [revision](/blog/structure-of-atom-class-11-revision-notes-jee-nee
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/states-of-matter-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/states-of-matter-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 
 ---

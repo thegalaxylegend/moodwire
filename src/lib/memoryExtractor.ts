@@ -14,7 +14,7 @@ export async function extractAndSaveMemory(message: string): Promise<string[]> {
     `;
 
     try {
-        const response = await modelRouter.route([{ role: "user", content: extractionPrompt }], 'T1', {
+        const response = await modelRouter.route([{ role: "user", content: extractionPrompt }], 'T5', {
             temperature: 0,
             max_tokens: 500,
             stream: false

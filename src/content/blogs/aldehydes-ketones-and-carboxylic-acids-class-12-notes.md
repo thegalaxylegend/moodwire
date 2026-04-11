@@ -23,9 +23,9 @@ practice_link: "/class-11/chemistry/aldehydes-ketones-and-carboxylic-acids-class
   - [🌈 Aldol Condensation](#-aldol-condensation)
   - [🌟 Cannizzaro Reaction](#-cannizzaro-reaction)
   - [💡 Haloform Reaction](#-haloform-reaction)
-  - [🌈 Reactions with $${NH_2OH}$$, $${NH_2NH_2}$$, and $${H_2N-NH_2}$$](#-reactions-with-nh_2oh-nh_2nh_2-and-h_2nnh_2)
+  - [🌈 Reactions with {NH_2OH}, {NH_2NH_2}, and {H_2N-NH_2}](#-reactions-with-nh_2oh-nh_2nh_2-and-h_2nnh_2)
   - [⬇ Reduction of Carboxylic Acids to Aldehydes](#-reduction-of-carboxylic-acids-to-aldehydes)
-  - [🌟 Carboxylic Acid Reactions with $${SOCl_2}$$, $${P_2O_5}$$, and $${P_4O_10}$$](#-carboxylic-acid-reactions-with-socl_2-p_2o_5-and-p_4o_10)
+  - [🌟 Carboxylic Acid Reactions with {SOCl_2}, {P_2O_5}, and {P_4O_10}](#-carboxylic-acid-reactions-with-socl_2-p_2o_5-and-p_4o_10)
   - [💧 Hydrolysis and Esterification of Carboxylic Acids](#-hydrolysis-and-esterification-of-carboxylic-acids)
   - [🌟 Introduction to Aldehydes, Ketones, and Carboxylic Acids](#-introduction-to-aldehydes-ketones-and-carboxylic-acids)
   - [🌈 Properties of Aldehydes and Ketones](#-properties-of-aldehydes-and-ketones)
@@ -49,9 +49,9 @@ practice_link: "/class-11/chemistry/aldehydes-ketones-and-carboxylic-acids-class
  - [🌈 Aldol Condensation](#-aldol-condensation)
  - [🌟 Cannizzaro Reaction](#-cannizzaro-reaction)
  - [💡 Haloform Reaction](#-haloform-reaction)
- - [🌈 Reactions with $${NH_2OH}$$, $${NH_2NH_2}$$, and $${H_2N-NH_2}$$](#-reactions-with-nh_2oh-nh_2nh_2-and-h_2nnh_2)
+ - [🌈 Reactions with {NH_2OH}, {NH_2NH_2}, and {H_2N-NH_2}](#-reactions-with-nh_2oh-nh_2nh_2-and-h_2nnh_2)
  - [⬇ Reduction of Carboxylic Acids to Aldehydes](#-reduction-of-carboxylic-acids-to-aldehydes)
- - [🌟 Carboxylic Acid Reactions with $${SOCl_2}$$, $${P_2O_5}$$, and $${P_4O_10}$$](#-carboxylic-acid-reactions-with-socl_2-p_2o_5-and-p_4o_10)
+ - [🌟 Carboxylic Acid Reactions with {SOCl_2}, {P_2O_5}, and {P_4O_10}](#-carboxylic-acid-reactions-with-socl_2-p_2o_5-and-p_4o_10)
  - [💧 Hydrolysis and Esterification of Carboxylic Acids](#-hydrolysis-and-esterification-of-carboxylic-acids)
  - [🌟 Introduction to Aldehydes, Ketones, and Carboxylic Acids](#-introduction-to-aldehydes-ketones-and-carboxylic-acids)
  - [🌈 Properties of Aldehydes and Ketones](#-properties-of-aldehydes-and-ketones)
@@ -69,162 +69,162 @@ practice_link: "/class-11/chemistry/aldehydes-ketones-and-carboxylic-acids-class
 - Nucleophilic addition reactions are a crucial aspect of aldehyde and ketone [chemistry](/blog/surface-chemistry-class-12-notes)
 - These reactions involve the addition of a nucleophile to the carbonyl carbon, resulting in the formation of a new bond
 - Examples of nucleophilic addition reactions include:
- - Grignard reaction: $${RCHO + CH_3MgBr \rightarrow RCH(OH)CH_3}$$
- - Cyanohydrin formation: $${RCHO + HCN \xrightarrow{OH^-} RCH(OH)CN}$$
- - Aldol condensation: $${RCHO + CH_3CH=CH_2 \xrightarrow{OH^-} RCH(OH)CH_2CH=CH_2}$$
+ - Grignard reaction: {RCHO + CH_3MgBr \rightarrow RCH(OH)CH_3}
+ - Cyanohydrin formation: {RCHO + HCN \xrightarrow{OH^-} RCH(OH)CN}
+ - Aldol condensation: {RCHO + CH_3CH=CH_2 \xrightarrow{OH^-} RCH(OH)CH_2CH=CH_2}
 
 #### Grignard Reagents
 - Grignard reagents are highly reactive nucleophiles used in the Grignard reaction
-- They are formed by the reaction of an alkyl halide with magnesium: $${RMgX}$$
+- They are formed by the reaction of an alkyl halide with magnesium: {RMgX}
 - Examples of Grignard reagents include:
- - $${CH_3MgBr}$$
- - $${C_2H_5MgCl}$$
+ - {CH_3MgBr}
+ - {C_2H_5MgCl}
 
 #### Cyanohydrin Formation
 - Cyanohydrin formation is a reaction between an aldehyde or ketone and hydrogen cyanide
-- The reaction involves the nucleophilic addition of the cyanide ion to the carbonyl carbon: $${RCHO + HCN \xrightarrow{OH^-} RCH(OH)CN}$$
+- The reaction involves the nucleophilic addition of the cyanide ion to the carbonyl carbon: {RCHO + HCN \xrightarrow{OH^-} RCH(OH)CN}
 - Examples of cyanohydrin formation include:
- - $${CH_3CHO + HCN \xrightarrow{OH^-} CH_3CH(OH)CN}$$
- - $${C_6H_5CHO + HCN \xrightarrow{OH^-} C_6H_5CH(OH)CN}$$
+ - {CH_3CHO + HCN \xrightarrow{OH^-} CH_3CH(OH)CN}
+ - {C_6H_5CHO + HCN \xrightarrow{OH^-} C_6H_5CH(OH)CN}
 
 ### <a id="-reduction-reactions"></a>⬇ Reduction Reactions
 - Reduction reactions involve the gain of electrons by the carbonyl compound, resulting in the formation of a new bond
 - Examples of reduction reactions include:
- - Rosenmund reduction: $${nM + H_2O + HCl \rightarrow RCHO + NaCl + H_2O}$$
- - Wolff-Kishner reduction: $${C_6H_5COCH_3 + H_2N-NH_2 \rightarrow C_6H_5CH_3 + H_2O + N_2}$$
- - Reduction of carboxylic acids to aldehydes: $${RCOOH \xrightarrow{LiAlH_4} RCH_2OH}$$
+ - Rosenmund reduction: {nM + H_2O + HCl \rightarrow RCHO + NaCl + H_2O}
+ - Wolff-Kishner reduction: {C_6H_5COCH_3 + H_2N-NH_2 \rightarrow C_6H_5CH_3 + H_2O + N_2}
+ - Reduction of carboxylic acids to aldehydes: {RCOOH \xrightarrow{LiAlH_4} RCH_2OH}
 
 #### Rosenmund Reduction
 - Rosenmund reduction is a reaction between a carbonyl compound and hydrogen in the presence of a catalyst
-- The reaction involves the reduction of the carbonyl compound to an aldehyde or an alcohol: $${RCHO + H_2 \xrightarrow{Pd} RCH_2OH}$$
+- The reaction involves the reduction of the carbonyl compound to an aldehyde or an alcohol: {RCHO + H_2 \xrightarrow{Pd} RCH_2OH}
 - Examples of Rosenmund reduction include:
- - $${CH_3CHO + H_2 \xrightarrow{Pd} CH_3CH_2OH}$$
- - $${C_6H_5CHO + H_2 \xrightarrow{Pd} C_6H_5CH_2OH}$$
+ - {CH_3CHO + H_2 \xrightarrow{Pd} CH_3CH_2OH}
+ - {C_6H_5CHO + H_2 \xrightarrow{Pd} C_6H_5CH_2OH}
 
 #### Wolff-Kishner Reduction
 - Wolff-Kishner reduction is a reaction between a carbonyl compound and hydrazine in the presence of a base
-- The reaction involves the reduction of the carbonyl compound to an alkane: $${RCHO + H_2N-NH_2 \rightarrow RCH_3 + H_2O + N_2}$$
+- The reaction involves the reduction of the carbonyl compound to an alkane: {RCHO + H_2N-NH_2 \rightarrow RCH_3 + H_2O + N_2}
 - Examples of Wolff-Kishner reduction include:
- - $${CH_3CHO + H_2N-NH_2 \rightarrow CH_4 + H_2O + N_2}$$
- - $${C_6H_5CHO + H_2N-NH_2 \rightarrow C_6H_5CH_3 + H_2O + N_2}$$
+ - {CH_3CHO + H_2N-NH_2 \rightarrow CH_4 + H_2O + N_2}
+ - {C_6H_5CHO + H_2N-NH_2 \rightarrow C_6H_5CH_3 + H_2O + N_2}
 
 ### <a id="-oxidation-reactions"></a>⬆ Oxidation Reactions
 - Oxidation reactions involve the loss of electrons by the carbonyl compound, resulting in the formation of a new bond
 - Examples of oxidation reactions include:
- - Oxidation of aldehydes to carboxylic acids: $${RCHO \xrightarrow{KMnO_4} RCOOH}$$
- - Oxidation of ketones to carboxylic acids: $${R_2C=O \xrightarrow{KMnO_4} RCOOH + R'COOH}$$
- - Haloform reaction: $${R_2C=O + 3X_2 \rightarrow RCOX + 2RX + X_2O}$$
+ - Oxidation of aldehydes to carboxylic acids: {RCHO \xrightarrow{KMnO_4} RCOOH}
+ - Oxidation of ketones to carboxylic acids: {R_2C=O \xrightarrow{KMnO_4} RCOOH + R'COOH}
+ - Haloform reaction: {R_2C=O + 3X_2 \rightarrow RCOX + 2RX + X_2O}
 
 #### Oxidation of Aldehydes
 - Oxidation of aldehydes involves the loss of electrons by the aldehyde, resulting in the formation of a carboxylic acid
-- The reaction involves the transfer of oxygen from the oxidizing agent to the aldehyde: $${RCHO + O \rightarrow RCOOH}$$
+- The reaction involves the transfer of oxygen from the oxidizing agent to the aldehyde: {RCHO + O \rightarrow RCOOH}
 - Examples of oxidation of aldehydes include:
- - $${CH_3CHO + KMnO_4 \rightarrow CH_3COOH}$$
- - $${C_6H_5CHO + KMnO_4 \rightarrow C_6H_5COOH}$$
+ - {CH_3CHO + KMnO_4 \rightarrow CH_3COOH}
+ - {C_6H_5CHO + KMnO_4 \rightarrow C_6H_5COOH}
 
 #### Oxidation of Ketones
 - Oxidation of ketones involves the loss of electrons by the ketone, resulting in the formation of a carboxylic acid
-- The reaction involves the transfer of oxygen from the oxidizing agent to the ketone: $${R_2C=O + O \rightarrow RCOOH + R'COOH}$$
+- The reaction involves the transfer of oxygen from the oxidizing agent to the ketone: {R_2C=O + O \rightarrow RCOOH + R'COOH}
 - Examples of oxidation of ketones include:
- - $${CH_3C=O + KMnO_4 \rightarrow CH_3COOH + COOH}$$
- - $${C_6H_5C=O + KMnO_4 \rightarrow C_6H_5COOH + COOH}$$
+ - {CH_3C=O + KMnO_4 \rightarrow CH_3COOH + COOH}
+ - {C_6H_5C=O + KMnO_4 \rightarrow C_6H_5COOH + COOH}
 
 ### <a id="-aldol-condensation"></a>🌈 Aldol Condensation
 - Aldol condensation is a reaction between two molecules of an aldehyde or ketone, resulting in the formation of a new carbon-carbon bond
 - The reaction involves the nucleophilic addition of an enolate ion to the carbonyl carbon of another molecule
 - Examples of aldol condensation include:
- - $${RCHO + CH_3CH=CH_2 \xrightarrow{OH^-} RCH(OH)CH_2CH=CH_2}$$
- - $${R_2C=O + CH_3CH=CH_2 \xrightarrow{OH^-} R_2C(OH)CH_2CH=CH_2}$$
+ - {RCHO + CH_3CH=CH_2 \xrightarrow{OH^-} RCH(OH)CH_2CH=CH_2}
+ - {R_2C=O + CH_3CH=CH_2 \xrightarrow{OH^-} R_2C(OH)CH_2CH=CH_2}
 
 #### Enolate Ion
 - Enolate ion is a highly reactive intermediate formed during aldol condensation
-- It is formed by the abstraction of a proton from the alpha position of the carbonyl compound: $${RCHO \rightarrow RCH=O^-}$$
+- It is formed by the abstraction of a proton from the alpha position of the carbonyl compound: {RCHO \rightarrow RCH=O^-}
 - Examples of enolate ions include:
- - $${CH_3CHO \rightarrow CH_3CH=O^-}$$
- - $${C_6H_5CHO \rightarrow C_6H_5CH=O^-}$$
+ - {CH_3CHO \rightarrow CH_3CH=O^-}
+ - {C_6H_5CHO \rightarrow C_6H_5CH=O^-}
 
 ### <a id="-cannizzaro-reaction"></a>🌟 Cannizzaro Reaction
 - Cannizzaro reaction is a reaction between two molecules of an aldehyde, resulting in the formation of a new carbon-oxygen bond
 - The reaction involves the nucleophilic addition of a hydroxide ion to the carbonyl carbon of one molecule, followed by the transfer of a hydride ion to the carbonyl carbon of another molecule
 - Examples of Cannizzaro reaction include:
- - $${RCHO + RCHO \xrightarrow{OH^-} RCOO^- + RCH_2OH}$$
- - $${RCHO + RCHO \xrightarrow{OH^-} RCOO^- + RCH_2O^-}$$
+ - {RCHO + RCHO \xrightarrow{OH^-} RCOO^- + RCH_2OH}
+ - {RCHO + RCHO \xrightarrow{OH^-} RCOO^- + RCH_2O^-}
 
 #### Hydroxide Ion
 - Hydroxide ion is a highly reactive nucleophile used in the Cannizzaro reaction
-- It is formed by the ionization of water: $${H_2O \rightarrow OH^- + H^+}$$
+- It is formed by the ionization of water: {H_2O \rightarrow OH^- + H^+}
 - Examples of hydroxide ions include:
- - $${H_2O \rightarrow OH^- + H^+}$$
- - $${NaOH \rightarrow OH^- + Na^+}$$
+ - {H_2O \rightarrow OH^- + H^+}
+ - {NaOH \rightarrow OH^- + Na^+}
 
 ### <a id="-haloform-reaction"></a>💡 Haloform Reaction
 - Haloform reaction is a reaction between a methyl ketone and a halogen, resulting in the formation of a new carbon-halogen bond
 - The reaction involves the nucleophilic addition of a halide ion to the carbonyl carbon, followed by the elimination of a methyl group
 - Examples of haloform reaction include:
- - $${R_2C=O + 3X_2 \rightarrow RCOX + 2RX + X_2O}$$
- - $${CH_3C=O + 3Cl_2 \rightarrow CH_3COCl + 2ClCH_3 + Cl_2O}$$
+ - {R_2C=O + 3X_2 \rightarrow RCOX + 2RX + X_2O}
+ - {CH_3C=O + 3Cl_2 \rightarrow CH_3COCl + 2ClCH_3 + Cl_2O}
 
 #### Halide Ion
 - Halide ion is a highly reactive nucleophile used in the haloform reaction
-- It is formed by the ionization of a halogen: $${X_2 \rightarrow X^- + X^+}$$
+- It is formed by the ionization of a halogen: {X_2 \rightarrow X^- + X^+}
 - Examples of halide ions include:
- - $${Cl_2 \rightarrow Cl^- + Cl^+}$$
- - $${Br_2 \rightarrow Br^- + Br^+}$$
+ - {Cl_2 \rightarrow Cl^- + Cl^+}
+ - {Br_2 \rightarrow Br^- + Br^+}
 
-### <a id="-reactions-with-nh_2oh-nh_2nh_2-and-h_2nnh_2"></a>🌈 Reactions with $${NH_2OH}$$, $${NH_2NH_2}$$, and $${H_2N-NH_2}$$
+### <a id="-reactions-with-nh_2oh-nh_2nh_2-and-h_2nnh_2"></a>🌈 Reactions with {NH_2OH}, {NH_2NH_2}, and {H_2N-NH_2}
 - These reactions involve the nucleophilic addition of the corresponding nucleophile to the carbonyl carbon
-- Examples of reactions with $${NH_2OH}$$, $${NH_2NH_2}$$, and $${H_2N-NH_2}$$ include:
- - $${RCHO + NH_2OH \xrightarrow{OH^-} RCH(OH)NH_2}$$
- - $${R_2C=O + NH_2NH_2 \xrightarrow{OH^-} R_2C(OH)NH_2}$$
- - $${RCHO + H_2N-NH_2 \xrightarrow{OH^-} RCH(OH)NHNH_2}$$
+- Examples of reactions with {NH_2OH}, {NH_2NH_2}, and {H_2N-NH_2} include:
+ - {RCHO + NH_2OH \xrightarrow{OH^-} RCH(OH)NH_2}
+ - {R_2C=O + NH_2NH_2 \xrightarrow{OH^-} R_2C(OH)NH_2}
+ - {RCHO + H_2N-NH_2 \xrightarrow{OH^-} RCH(OH)NHNH_2}
 
 #### Hydroxylamine
-- Hydroxylamine is a highly reactive nucleophile used in the reaction with $${NH_2OH}$$
-- It is formed by the reaction of ammonia with hydrogen peroxide: $${NH_3 + H_2O_2 \rightarrow NH_2OH + H_2O}$$
+- Hydroxylamine is a highly reactive nucleophile used in the reaction with {NH_2OH}
+- It is formed by the reaction of ammonia with hydrogen peroxide: {NH_3 + H_2O_2 \rightarrow NH_2OH + H_2O}
 - Examples of hydroxylamine include:
- - $${NH_3 + H_2O_2 \rightarrow NH_2OH + H_2O}$$
- - $${NH_2OH + H_2O \rightarrow NH_3 + H_2O_2}$$
+ - {NH_3 + H_2O_2 \rightarrow NH_2OH + H_2O}
+ - {NH_2OH + H_2O \rightarrow NH_3 + H_2O_2}
 
 ### <a id="-reduction-of-carboxylic-acids-to-aldehydes"></a>⬇ Reduction of Carboxylic Acids to Aldehydes
-- This reaction involves the reduction of a carboxylic acid to an aldehyde using a reducing agent such as $${LiAlH_4}$$ or $${NaBH_4}$$
+- This reaction involves the reduction of a carboxylic acid to an aldehyde using a reducing agent such as {LiAlH_4} or {NaBH_4}
 - Examples of reduction of carboxylic acids to aldehydes include:
- - $${RCOOH \xrightarrow{LiAlH_4} RCH_2OH}$$
- - $${RCOOH \xrightarrow{NaBH_4} RCH_2OH}$$
+ - {RCOOH \xrightarrow{LiAlH_4} RCH_2OH}
+ - {RCOOH \xrightarrow{NaBH_4} RCH_2OH}
 
 #### Lithium Aluminum Hydride
 - Lithium aluminum hydride is a highly reactive reducing agent used in the reduction of carboxylic acids to aldehydes
-- It is formed by the reaction of lithium hydride with aluminum chloride: $${LiH + AlCl_3 \rightarrow LiAlH_4 + LiCl}$$
+- It is formed by the reaction of lithium hydride with aluminum chloride: {LiH + AlCl_3 \rightarrow LiAlH_4 + LiCl}
 - Examples of lithium aluminum hydride include:
- - $${LiH + AlCl_3 \rightarrow LiAlH_4 + LiCl}$$
- - $${LiAlH_4 + H_2O \rightarrow LiOH + Al(OH)_3 + H_2}$$
+ - {LiH + AlCl_3 \rightarrow LiAlH_4 + LiCl}
+ - {LiAlH_4 + H_2O \rightarrow LiOH + Al(OH)_3 + H_2}
 
-### <a id="-carboxylic-acid-reactions-with-socl_2-p_2o_5-and-p_4o_10"></a>🌟 Carboxylic Acid Reactions with $${SOCl_2}$$, $${P_2O_5}$$, and $${P_4O_10}$$
+### <a id="-carboxylic-acid-reactions-with-socl_2-p_2o_5-and-p_4o_10"></a>🌟 Carboxylic Acid Reactions with {SOCl_2}, {P_2O_5}, and {P_4O_10}
 - These reactions involve the conversion of a carboxylic acid to an acyl chloride or an anhydride
-- Examples of carboxylic acid reactions with $${SOCl_2}$$, $${P_2O_5}$$, and $${P_4O_10}$$ include:
- - $${RCOOH + SOCl_2 \rightarrow RCOCl + SO_2 + Cl^- + H^+}$$
- - $${RCOOH + P_2O_5 \rightarrow RCOOP_2O_5 + H_2O}$$
- - $${RCOOH + P_4O_10 \rightarrow RCOOP_4O_10 + H_2O}$$
+- Examples of carboxylic acid reactions with {SOCl_2}, {P_2O_5}, and {P_4O_10} include:
+ - {RCOOH + SOCl_2 \rightarrow RCOCl + SO_2 + Cl^- + H^+}
+ - {RCOOH + P_2O_5 \rightarrow RCOOP_2O_5 + H_2O}
+ - {RCOOH + P_4O_10 \rightarrow RCOOP_4O_10 + H_2O}
 
 #### Thionyl Chloride
 - Thionyl chloride is a highly reactive reagent used in the conversion of carboxylic acids to acyl chlorides
-- It is formed by the reaction of sulfur dioxide with chlorine: $${SO_2 + Cl_2 \rightarrow SOCl_2 + Cl^-}$$
+- It is formed by the reaction of sulfur dioxide with chlorine: {SO_2 + Cl_2 \rightarrow SOCl_2 + Cl^-}
 - Examples of thionyl chloride include:
- - $${SO_2 + Cl_2 \rightarrow SOCl_2 + Cl^-}$$
- - $${SOCl_2 + H_2O \rightarrow SO_2 + HCl + H_2O}$$
+ - {SO_2 + Cl_2 \rightarrow SOCl_2 + Cl^-}
+ - {SOCl_2 + H_2O \rightarrow SO_2 + HCl + H_2O}
 
 ### <a id="-hydrolysis-and-esterification-of-carboxylic-acids"></a>💧 Hydrolysis and Esterification of Carboxylic Acids
 - Hydrolysis of carboxylic acids involves the reaction of a carboxylic acid with water to form an acid and an alcohol
 - Esterification of carboxylic acids involves the reaction of a carboxylic acid with an alcohol to form an ester
 - Examples of hydrolysis and esterification of carboxylic acids include:
- - $${RCOOH + H_2O \xrightarrow{H^+} RCOO^- + H_3O^+}$$
- - $${RCOOH + R'OH \xrightarrow{H^+} RCOOR' + H_2O}$$
+ - {RCOOH + H_2O \xrightarrow{H^+} RCOO^- + H_3O^+}
+ - {RCOOH + R'OH \xrightarrow{H^+} RCOOR' + H_2O}
 
 #### Esterification
 - Esterification is a reaction between a carboxylic acid and an alcohol to form an ester
-- The reaction involves the transfer of a proton from the carboxylic acid to the alcohol, followed by the loss of a water molecule: $${RCOOH + R'OH \rightarrow RCOOR' + H_2O}$$
+- The reaction involves the transfer of a proton from the carboxylic acid to the alcohol, followed by the loss of a water molecule: {RCOOH + R'OH \rightarrow RCOOR' + H_2O}
 - Examples of esterification include:
- - $${CH_3COOH + CH_3CH_2OH \rightarrow CH_3COOCH_2CH_3 + H_2O}$$
- - $${C_6H_5COOH + CH_3CH_2OH \rightarrow C_6H_5COOCH_2CH_3 + H_2O}$$
+ - {CH_3COOH + CH_3CH_2OH \rightarrow CH_3COOCH_2CH_3 + H_2O}
+ - {C_6H_5COOH + CH_3CH_2OH \rightarrow C_6H_5COOCH_2CH_3 + H_2O}
 
 ### <a id="-introduction-to-aldehydes-ketones-and-carboxylic-acids"></a>🌟 Introduction to Aldehydes, Ketones, and Carboxylic Acids
 Continuing from where we left off, it's essential to delve deeper into the world of aldehydes, ketones, and carboxylic acids. These compounds are crucial in organic [chemistry](/blog/surface-chemistry-class-12-notes), and understanding their properties, reactions, and mechanisms is vital for any aspiring chemist.
@@ -344,10 +344,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/aldehydes-ketones-and-carboxylic-acids-class-12-notes) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/aldehydes-ketones-and-carboxylic-acids-class-12-notes) now and track your progress against thousands of students.
 
 
 ---
@@ -360,3 +357,19 @@ Continue your revision with these related guides:
 - 📖 [Metallurgy Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/metallurgy-class-12-notes)
 - 📖 [Solid State Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/solid-state-class-12-notes)
 - 📖 [Surface Chemistry Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/surface-chemistry-class-12-notes)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* Not considering the effect of solvents on the reactions of aldehydes and ketones, for example, assuming that all nucleophilic additions are irreversible in all solvents.
+* Confusing the difference between aldehydes and ketones in terms of their reactivity towards nucleophiles, specifically with respect to the addition of hydrogen cyanide and Grignard reagents.
+* Overlooking the fact that carboxylic acids can exhibit both acidic and basic properties due to the presence of the hydroxyl group, leading to incorrect predictions of their behavior in different reactions.
+* Failing to recognize the importance of the inductive effect and resonance in determining the acidity of carboxylic acids, resulting in incorrect ranking of their acid strengths.
+* Incorrectly assuming that all carboxylic acid derivatives (such as esters, amides, and acid chlorides) undergo the same type of hydrolysis reactions, without considering the differences in their mechanisms and conditions required.
+## ⚗️ Chemical Quick Reference (Verified via PubChem)
+
+| Compound | Formula | Mol. Weight | Source |
+|:---|:---:|:---:|:---:|
+| **water** | H2O | 18.015 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/962) |
+| **ammonia** | H3N | 17.031 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/222) |
+| **potassium permanganate** | KMnO4 | 158.034 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/516875) |
+| **hydrogen peroxide** | H2O2 | 34.015 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/784) |

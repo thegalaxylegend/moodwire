@@ -118,16 +118,7 @@ Mistakes in Physics are rarely mathematical; they are almost always conceptual. 
 Jump into our [Laws of Motion Chapter Hub](/neet/physics/laws-of-motion) and solve the Top 50 PYQs while actively avoiding these 10 traps.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -145,10 +136,7 @@ Continue your [revision](/blog/electromagnetic-induction-class-12-revision-notes
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 
 ---

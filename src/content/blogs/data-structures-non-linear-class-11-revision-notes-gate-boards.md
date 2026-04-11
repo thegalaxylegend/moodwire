@@ -50,12 +50,12 @@ The hook that really got me interested in Non-Linear Data Structures was when I 
 
 To give you a better idea, let's consider a simple example. Suppose you're building a web application that needs to search through a large collection of user data. If you use a linear search algorithm, the time complexity would be $O(n)$, which means the time taken would increase linearly with the size of the dataset. However, if you use a binary search tree, the time complexity would be $O(log n)$, which is significantly faster for large datasets.
 
-$$
+
 \begin{aligned}
 &\text{[linear](/blog/data-structures-linear-class-11-revision-notes-gate-boards) Search Time Complexity: } O(n) \\
 &\text{Binary Search Tree Time Complexity: } O(log n)
 \end{aligned}
-$$
+
 
 In the context of the Class 11 exam, it's essential to have a solid grasp of these concepts, as questions can range from simple definition-based ones to complex implementation and analysis problems. The exam may ask you to write algorithms for tree traversals, analyze the time and space complexity of graph traversal algorithms, or even [design](/blog/algorithms-design-class-11-revision-notes-gate-boards) and implement a simple binary search tree.
 
@@ -209,7 +209,7 @@ Here's a table summarizing the key differences between BFS and DFS:
 
 ## <a id="what-are-common-applications-of-nonlinear-data-structures"></a>What are common applications of Non-Linear Data Structures?
 
-What are common applications of Non-Linear Data Structures? is a crucial aspect of computer science that deals with the organization and manipulation of data in a non-linear fashion. It includes trees, graphs, and hash tables. For Class 11 exam prep in 2026, the most important aspect is understanding how these data structures are used in real-world applications to solve complex problems efficiently. Non-linear data structures are essential in scenarios where data is not organized in a sequential manner, and relationships between data entities are complex. For instance, social media platforms use graphs to represent friendships and connections between users, while file systems use trees to organize files and directories. The application of non-linear data structures can be seen in various fields such as database management, artificial intelligence, and computer networks. In database management, non-linear data structures like B-trees and hash tables are used for efficient data retrieval and storage. In artificial intelligence, graphs are used to represent knowledge and solve problems. In computer networks, trees are used for routing and graph theory is used for network topology. $O(1)$ access time for hash tables makes them suitable for caching mechanisms, while $O(log n)$ time complexity for balanced trees like AVL and Red-Black trees makes them suitable for database indexing. The choice of non-linear data structure depends on the specific problem and the trade-offs between time and space complexity. For example, a hash table may provide $O(1)$ search time but may require $O(n)$ space, whereas a balanced tree may provide $O(log n)$ search time but may require $O(log n)$ space for each node. $$ egin{aligned} Time Complexity (Hash Table) &= O(1) \ Time Complexity (Balanced Tree) &= O(log n) \ Space Complexity (Hash Table) &= O(n) \ Space Complexity (Balanced Tree) &= O(log n) end{aligned} $$
+What are common applications of Non-Linear Data Structures? is a crucial aspect of computer science that deals with the organization and manipulation of data in a non-linear fashion. It includes trees, graphs, and hash tables. For Class 11 exam prep in 2026, the most important aspect is understanding how these data structures are used in real-world applications to solve complex problems efficiently. Non-linear data structures are essential in scenarios where data is not organized in a sequential manner, and relationships between data entities are complex. For instance, social media platforms use graphs to represent friendships and connections between users, while file systems use trees to organize files and directories. The application of non-linear data structures can be seen in various fields such as database management, artificial intelligence, and computer networks. In database management, non-linear data structures like B-trees and hash tables are used for efficient data retrieval and storage. In artificial intelligence, graphs are used to represent knowledge and solve problems. In computer networks, trees are used for routing and graph theory is used for network topology. $O(1)$ access time for hash tables makes them suitable for caching mechanisms, while $O(log n)$ time complexity for balanced trees like AVL and Red-Black trees makes them suitable for database indexing. The choice of non-linear data structure depends on the specific problem and the trade-offs between time and space complexity. For example, a hash table may provide $O(1)$ search time but may require $O(n)$ space, whereas a balanced tree may provide $O(log n)$ search time but may require $O(log n)$ space for each node.  egin{aligned} Time Complexity (Hash Table) &= O(1) \ Time Complexity (Balanced Tree) &= O(log n) \ Space Complexity (Hash Table) &= O(n) \ Space Complexity (Balanced Tree) &= O(log n) end{aligned} 
 
 
 | Data Structure | Time Complexity | Space Complexity | Applications |
@@ -289,7 +289,6 @@ D. Handles large datasets efficiently
 
 **Answer:** B) The primary advantage of using a Trie data structure is its fast search and insertion operations, making it suitable for applications that require efficient retrieval and storage of strings.
 
-
 **2. Which of the following graph traversal algorithms is used to traverse a graph level by level?**
 A. Breadth-First Search (BFS)
 B. Depth-First Search (DFS)
@@ -297,7 +296,6 @@ C. Dijkstra's Algorithm
 D. Floyd-Warshall Algorithm
 
 **Answer:** A) Breadth-First Search (BFS) is used to traverse a graph level by level, starting with the source node and exploring its neighbors before moving on to the next level.
-
 
 **3. What is the time complexity of finding an element in a Hash Table?**
 A. O(1)
@@ -307,7 +305,6 @@ D. O(n log n)
 
 **Answer:** A) The time complexity of finding an element in a Hash Table is O(1) on average, assuming a good hash function and minimal collisions.
 
-
 **4. Which of the following is an example of a non-linear data structure?**
 A. Array
 B. Linked List
@@ -315,7 +312,6 @@ C. Stack
 D. Graph
 
 **Answer:** D) A Graph is an example of a non-linear data structure, as it consists of nodes connected by edges, allowing for complex relationships between elements.
-
 
 **5. What is the purpose of a Queue data structure?**
 A. To implement a Stack
@@ -326,16 +322,7 @@ D. To implement a Last-In-First-Out (LIFO) data structure
 **Answer:** C) A Queue data structure is designed to implement a First-In-First-Out (FIFO) data structure, where elements are added to the end and removed from the front.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -353,10 +340,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/data-structures-non-linear-class-11-revision-notes-gate-boards) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/data-structures-non-linear-class-11-revision-notes-gate-boards) now and track your progress against thousands of students.
 
 
 ---
@@ -369,3 +353,4 @@ Continue your revision with these related guides:
 - 📖 [Algorithms: Design Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-design-class-11-revision-notes-gate-boards)
 - 📖 [Algorithms: Analysis Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-analysis-class-11-revision-notes-gate-boards)
 - 📖 [Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/digital-logic-class-11-revision-notes-gate-boards)
+

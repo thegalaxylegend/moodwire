@@ -68,8 +68,8 @@ Suppose you're designing an algorithm to sort a large dataset. You could use a q
 
 As you can see, algorithm analysis is not just about solving problems; it's about making informed decisions about which algorithms to use in different situations. It's about being able to analyze complex problems, identify the most efficient solutions, and optimize your code to meet performance requirements. So, let's get started, and see where this journey takes us! 
 
-Here's a block of code to illustrate the concept: 
-$$
+Here's a block of code to illustrate the concept:
+
 \begin{aligned}
 &\text{Quicksort Algorithm} \\
 &\text{Time Complexity: } O(n log n) \\
@@ -83,7 +83,6 @@ $$
 &\text{Space Complexity: } O(n) \\
 &\text{Worst-Case Time Complexity: } O(n log n) \\
 \end{aligned}
-$$
 
 As you can see, the quicksort algorithm has a faster average time complexity, but a worse worst-case time complexity. On the other hand, the mergesort algorithm has a slower average time complexity, but a better worst-case time complexity. Which algorithm would you choose, and why? 
 
@@ -333,9 +332,8 @@ O(n^2)
 O(n log n)
 O(log n)
 
-**Answer:** B) Bubble Sort has a worst-case and average time complexity of O(n^2), where n is the number of items being sorted.
-
-
+**Answer:**
+B) Bubble Sort has a worst-case and average time complexity of O(n^2), where n is the number of items being sorted.
 **2. Which of the following sorting algorithms uses a divide-and-conquer approach?**
 Merge Sort
 Quick Sort
@@ -344,16 +342,14 @@ Heap Sort
 
 **Answer:** A) Merge Sort is a divide-and-conquer algorithm that breaks the input array into two halves, recursively sorts them, and then merges the sorted halves.
 
-
 **3. What is the term for the number of operations an algorithm takes to complete as the input size increases?**
 Time complexity
 Space complexity
 Scalability
 Efficiency
 
-**Answer:** A) Time complexity refers to the number of operations an algorithm takes to complete as the input size increases.
-
-
+**Answer:**
+A) Time complexity refers to the number of operations an algorithm takes to complete as the input size increases.
 **4. What is the worst-case time complexity of the Quick Sort algorithm?**
 O(n)
 O(n log n)
@@ -361,7 +357,6 @@ O(n^2)
 O(log n)
 
 **Answer:** C) The worst-case time complexity of Quick Sort is O(n^2), which occurs when the pivot is the smallest or largest element in the array.
-
 
 **5. What is the time complexity of the Binary Search algorithm?**
 O(n)
@@ -372,16 +367,7 @@ O(1)
 **Answer:** C) The time complexity of Binary Search is O(log n), where n is the number of items in the array.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -399,10 +385,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/algorithms-analysis-class-11-revision-notes-gate-boards) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/algorithms-analysis-class-11-revision-notes-gate-boards) now and track your progress against thousands of students.
 
 
 ---
@@ -415,3 +398,13 @@ Continue your revision with these related guides:
 - 📖 [Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/digital-logic-class-11-revision-notes-gate-boards)
 - 📖 [Data Structures: Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/data-structures-linear-class-11-revision-notes-gate-boards)
 - 📖 [Data Structures: Non-Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards)
+
+## 🔁 Last 5 Minutes Box
+
+* Big O notation: **O(1)** - constant, **O(log n)** - logarithmic, **O(n)** - linear, **O(n log n)** - linearithmic, **O(n^2)** - quadratic, **O(2^n)** - exponential, **O(n!)** - factorial
+     * Time complexity: **Best case**, **Average case**, **Worst case**
+     * Space complexity: **Auxiliary space**, **Total space**
+     * Asymptotic analysis: **Theta notation**, **Omega notation**
+     * Amortized analysis: **Aggregate analysis**, **Accounting method**
+     * Recurrence relations: **Linear**, **Non-linear**, **Homogeneous**, **Non-homogeneous**
+     * Master theorem: **Case 1**, **Case 2**, **Case 3**

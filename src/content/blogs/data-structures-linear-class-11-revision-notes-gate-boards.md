@@ -358,8 +358,8 @@ Insertion and deletion are easy
 Memory is wasted when nodes are created
 Faster execution
 
-**Answer:** B) Insertion and deletion are easy because only the affected node needs to be updated, without moving other nodes.
-
+**Answer:**
+B) Insertion and deletion are easy because only the affected node needs to be updated, without moving other nodes.
 **2. Consider an array with n elements. What is the time complexity of accessing an element at a given index in an array?**
 O(1)
 O(log n)
@@ -374,8 +374,8 @@ Insertion and deletion are difficult
 Arrays are slower than linked lists
 Arrays are not dynamic
 
-**Answer:** B) Insertion and deletion are difficult because shifting all elements after the affected index is time-consuming.
-
+**Answer:**
+B) Insertion and deletion are difficult because shifting all elements after the affected index is time-consuming.
 **4. Consider an array with n elements. What is the time complexity of searching for an element in an array using a linear search algorithm?**
 O(1)
 O(log n)
@@ -393,13 +393,7 @@ Last-In-First-Out (LIFO) order is maintained
 **Answer:** D) Last-In-First-Out (LIFO) order is maintained because the last element added to the stack is the first one to be removed.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -417,10 +411,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/data-structures-linear-class-11-revision-notes-gate-boards) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/data-structures-linear-class-11-revision-notes-gate-boards) now and track your progress against thousands of students.
 
 
 ---

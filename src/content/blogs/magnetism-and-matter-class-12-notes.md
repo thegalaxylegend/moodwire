@@ -327,7 +327,8 @@ By following these steps and focusing on the core concepts and formulas, you'll 
 ## <a id="mcqs"></a>MCQs
 
 
-**1. A bar magnet is placed in a time-varying magnetic field. What happens to its magnetic moment?**
+**1. A bar magnet is placed in a time-varying magnetic fiel
+d. What happens to its magnetic moment?**
 Increases
 Decreases
 Remains Constant
@@ -335,16 +336,14 @@ Oscillates
 
 **Answer:** C) The magnetic moment of a bar magnet remains constant, regardless of the time-varying magnetic field.
 
-
 **2. What is the strength of a magnetic field measured in?**
 Volts
 Ampere
 Tesla
 Watts
 
-**Answer:** C) The strength of a magnetic field is measured in Tesla.
-
-
+**Answer:**
+C) The strength of a magnetic field is measured in Tesla.
 **3. A solenoid is made up of how many turns of wire per unit length?**
 10
 100
@@ -353,16 +352,14 @@ Variable
 
 **Answer:** C) A solenoid is typically made up of thousands of turns of wire per unit length.
 
-
 **4. What is the effect of increasing the temperature on the magnetic susceptibility of a material?**
 Increases
 Decreases
 Remains Constant
 May Increase or Decrease
 
-**Answer:** B) Increasing the temperature typically decreases the magnetic susceptibility of a material.
-
-
+**Answer:**
+B) Increasing the temperature typically decreases the magnetic susceptibility of a material.
 **5. What is the term for the phenomenon where a magnetic field is induced in a material by changing the current in a nearby conductor?**
 Electromagnetic Induction
 Magnetic Resonance
@@ -372,10 +369,7 @@ Lenz's Law
 **Answer:** C) The phenomenon is described by Faraday's Law.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -393,10 +387,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/magnetism-and-matter-class-12-notes) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/magnetism-and-matter-class-12-notes) now and track your progress against thousands of students.
 
 
 ---
@@ -409,3 +400,4 @@ Continue your revision with these related guides:
 - 📖 [Electromagnetic Induction Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
 - 📖 [Alternating Current Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/alternating-current-class-12-notes)
 - 📖 [Electromagnetic Waves Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-waves-class-12-notes)
+

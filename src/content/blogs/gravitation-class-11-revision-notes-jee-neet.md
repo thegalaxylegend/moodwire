@@ -187,16 +187,7 @@ Gravitation is the foundational law of the macro-universe. By understanding how 
 **Reference:** [NASA: Gravity and Orbits Guide](https://www.nasa.gov/audience/forstudents/5-8/features/nasa-knows/what-is-orbit-58.html)
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -214,10 +205,7 @@ Continue your [revision](/blog/mechanical-properties-of-solids-class-11-revision
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/gravitation-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/gravitation-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 
 ---

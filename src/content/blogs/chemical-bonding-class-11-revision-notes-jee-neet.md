@@ -175,7 +175,7 @@ The core principle is simple: Electron pairs (both bond pairs and lone pairs) ha
 
 Instead of drawing structures, use my "Go-To" **Steric Number (H) formula**:
 
-$$H = \frac{1}{2} [V + M - C + A]$$
+H = \frac{1}{2} [V + M - C + A]
 
 Where:
 - **V** = Valence electrons on central [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet) (e.g., C=4, N=5, O=6).
@@ -443,16 +443,7 @@ Don't just memorize the table. Ask yourself "Why does lone pair repulsion decrea
 
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -470,10 +461,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/chemical-bonding-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/chemical-bonding-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 
 ---

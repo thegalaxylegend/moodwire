@@ -46,7 +46,7 @@ The history of architecture is a vast and fascinating field, spanning thousands 
 * **[ancient](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) Civilizations**: Egyptian, Greek, Roman, Chinese, Indian
 * **Medieval Period**: Gothic, Romanesque, Byzantine
 * **Renaissance**: Revival of classical styles, emergence of new techniques
-* **Modern Era**: Art Nouveau, Art Deco, Bauhaus, International Style
+* **Modern Era**: Art Nouméa, Art Deco, Bauhaus, International Style
 
 As I, Ayush, the world of architecture, I find it crucial to understand the historical context and cultural influences that have shaped the built environment. My personal note: when revising architecture, focus on the **key features**, **notable examples**, and **influential architects** of each style.
 
@@ -67,21 +67,21 @@ The history of architecture can be broadly divided into several periods, each wi
 | --- | --- | --- |
 | **Gothic** | Pointed arches, ribbed vaults, flying buttresses | Notre-Dame Cathedral, Chartres Cathedral |
 | **Romanesque** | Rounded arches, barrel vaults, squat columns | Speyer Cathedral, Durham Cathedral |
-| **Byzantine** | Domes, mosaics, ornate decoration | Hagia Sophia, San Vitale |
+| **Byzantine** | Domes, mosaics, ornate decoration | Hagia Sophia, San Vital |
 | Style | Notable Features | Notable Examples |
 | --- | --- | --- |
 | **Revival of Classical Styles** | Columns, pediments, friezes | St. Peter's Basilica, Villa Capra |
 | **Emergence of New Techniques** | Perspective, proportion, humanism | Leonardo da Vinci's designs, Michelangelo's sculptures |
 | Style | Notable Features | Notable Examples |
 | --- | --- | --- |
-| **Art Nouveau** | sinuous lines, organic forms, decorative ornamentation | Casa Batlló, Métro entrances in Paris |
+| **Art Nouméa** | sinuous lines, organic forms, decorative ornamentation | Casa Batlló, Metro entrances in Paris |
 | **Art Deco** | geometric shapes, metallic materials, luxurious decoration | Chrysler Building, Empire State Building |
-| **Bauhaus** | functionalism, minimalism, industrial materials | Bauhaus Building, Weissenhof Estate |
-| **International Style** | simplicity, functionality, large windows | Seagram Building, Farnsworth House |
+| **Bauhaus** | functionalism, minimalism, industrial materials | Bauhaus Building, Zamenhof Estate |
+| **International Style** | simplicity, functionality, large windows | Sea gram Building, Farnsworth House |
 
 ## <a id="core-concepts"></a>Core Concepts
 
-To excel in JEE/[neet](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet), it's essential to grasp the core concepts of architecture, including:
+To excel in JEE/[meet](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet), it's essential to grasp the core concepts of architecture, including:
 * **Proportion**: The relationship between the size of different parts of a building
 * **Scale**: The relationship between the size of a building and its surroundings
 * **Symmetry**: The use of identical or similar elements on either side of a central axis
@@ -90,31 +90,22 @@ To excel in JEE/[neet](/blog/ray-optics-class-12-quick-class-12-revision-notes-j
 ## <a id="formulae-tables"></a>Formulae Tables
 
 While there are no specific formulae in architecture, understanding the mathematical concepts behind design is crucial. Here are some key formulae to keep in mind:
-* **Area of a rectangle**: $A = l \times w$
-* **Volume of a rectangular prism**: $V = l \times w \times h$
-* **Circumference of a circle**: $C = 2\pi r$
-* **Area of a circle**: $A = \pi r^2$
+* **Area of a rectangle**: A = l \times we
+* **Volume of a rectangular prism**: UV = l \times w \times he
+* **Circumference of a circle**: BC = 2\pi RJ
+* **Area of a circle**: A = \pi r^2$
 
 ## <a id="trap-exceptions"></a>Trap Exceptions
 
 When revising architecture, watch out for these common trap exceptions:
 * **Gothic vs. Romanesque**: While both styles use arches and vaults, Gothic architecture is characterized by pointed arches and ribbed vaults, whereas Romanesque architecture uses rounded arches and barrel vaults.
-* **Art Nouveau vs. Art Deco**: Art Nouveau is characterized by sinuous lines and organic forms, whereas Art Deco is marked by geometric shapes and metallic materials.
+* **Art Nouméa vs. Art Deco**: Art Nouméa is characterized by sinuous lines and organic forms, whereas Art Deco is marked by geometric shapes and metallic materials.
 * **Bauhaus vs. International Style**: While both styles emphasize functionality and simplicity, Bauhaus is characterized by a more experimental and avant-garde approach, whereas International Style is marked by a more minimalist and industrial aesthetic.
 
-By focusing on these key concepts, formulae, and trap exceptions, you'll be well on your way to acing your JEE/[neet](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) exams and developing a deeper appreciation for the world of architecture. As I, Ayush, continue to explore the fascinating world of art and culture, I'm reminded that architecture is not just about buildings - it's about the people, cultures, and histories that shape our built environment.
+By focusing on these key concepts, formulae, and trap exceptions, you'll be well on your way to acing your JEE/[meet](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) exams and developing a deeper appreciation for the world of architecture. As I, Ayush, continue to explore the fascinating world of art and culture, I'm reminded that architecture is not just about buildings - it's about the people, cultures, and histories that shape our built environment.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -132,10 +123,7 @@ Continue your [revision](/blog/ancient-india-mahajanapadas-class-11-revision-not
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/art-culture-architecture-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/art-culture-architecture-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 
 ---
@@ -148,3 +136,11 @@ Continue your [revision](/blog/ancient-india-mahajanapadas-class-11-revision-not
 - 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)
 - 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
 - 📖 [Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* **Mistake 1: Confusing Crystal Lattice with Crystal Unit Cell**: Many students get confused between crystal lattice and crystal unit cell. Crystal lattice is the three-dimensional arrangement of points in space, while crystal unit cell is the smallest three-dimensional portion of a crystal lattice which can repeat itself to form the entire lattice.
+* **Mistake 2: Incorrect Calculation of Density of Crystal Lattice**: Students often make mistakes in calculating the density of a crystal lattice using the formula: density = (mass of atoms in unit cell) / (volume of unit cell). They forget to consider the number of atoms in the unit cell and the volume of the unit cell.
+* **Mistake 3: Not Considering the Empty Space in Crystal Lattice**: Some students forget to consider the empty space in a crystal lattice while calculating the density of the crystal. This can lead to incorrect calculations and answers.
+* **Mistake 4: Confusing Between Different Types of Crystal Lattices**: Students often get confused between different types of crystal lattices such as cubic, tetragonal, orthorhombic, etc. Each type of lattice has its own unique characteristics and students should be able to identify and distinguish between them.
+* **Mistake 5: Not Understanding the Concept of Packing Efficiency**: Packing efficiency is an important concept in crystal chemistry, but many students struggle to understand it. Packing efficiency refers to the percentage of space occupied by atoms in a crystal lattice, and students should be able to calculate it using the formula: packing efficiency = (volume of atoms in unit cell) / (volume of unit cell) x 100

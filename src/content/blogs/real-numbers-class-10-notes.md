@@ -45,16 +45,16 @@ practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Euclid's Division Lemma:** $$\{ a = b \times q + r \}$$ — where $a$ is the dividend, $b$ is the divisor, $q$ is the quotient, and $r$ is the remainder.
- - **Fundamental Theorem of Arithmetic:** $$\{ n = p_1^{a_1} \times p_2^{a_2} \times ... \times p_k^{a_k} \}$$ — where $n$ is a positive integer, $p_i$ are prime factors, and $a_i$ are their respective powers.
- - **LCM and HCF Relationship:** $$\{ LCM(a, b) \times HCF(a, b) = a \times b \}$$ — where $LCM(a, b)$ is the least common multiple and $HCF(a, b)$ is the highest common factor of $a$ and $b$.
- - **Decimal Expansion:** $$\{ a = \frac{\{p_1 \times 10^n + p_2 \times 10^{n-1} + ... + p_n \times 10^0 \}}{10^n} \}$$ — where $a$ is a decimal number and $p_i$ are its digits.
- - **Rational Number:** $$\{ \frac{p}{q} \}$$ — where $p$ is the numerator and $q$ is the denominator.
- - **Irrational Number:** $$\{ a = \sqrt{b} \}$$ — where $a$ is an irrational number and $b$ is not a perfect square.
- - **Real Number:** $$\{ a = \frac{p}{q} + \sqrt{b} \}$$ — where $a$ is a real number, $p$ and $q$ are integers, and $b$ is not a perfect square.
- - **Exponentiation:** $$\{ a^m \times a^n = a^{m+n} \}$$ — where $a$ is the base, $m$ and $n$ are exponents.
- - **Roots:** $$\{ \sqrt[n]{a} = a^{\frac{1}{n}} \}$$ — where $a$ is the radicand and $n$ is the index of the root.
- - **Absolute Value:** $$\{ |a| = \sqrt{a^2} \}$$ — where $a$ is a real number.
+- **Euclid's Division Lemma:** \{ a = b \times q + r \} — where $a$ is the dividend, $b$ is the divisor, $q$ is the quotient, and $r$ is the remainder.
+ - **Fundamental Theorem of Arithmetic:** \{ n = p_1^{a_1} \times p_2^{a_2} \times ... \times p_k^{a_k} \} — where $n$ is a positive integer, $p_i$ are prime factors, and $a_i$ are their respective powers.
+ - **LCM and HCF Relationship:** \{ LCM(a, b) \times HCF(a, b) = a \times b \} — where $LCM(a, b)$ is the least common multiple and $HCF(a, b)$ is the highest common factor of $a$ and $b$.
+ - **Decimal Expansion:** \{ a = \frac{\{p_1 \times 10^n + p_2 \times 10^{n-1} + ... + p_n \times 10^0 \}}{10^n} \} — where $a$ is a decimal number and $p_i$ are its digits.
+ - **Rational Number:** \{ \frac{p}{q} \} — where $p$ is the numerator and $q$ is the denominator.
+ - **Irrational Number:** \{ a = \sqrt{b} \} — where $a$ is an irrational number and $b$ is not a perfect square.
+ - **Real Number:** \{ a = \frac{p}{q} + \sqrt{b} \} — where $a$ is a real number, $p$ and $q$ are integers, and $b$ is not a perfect square.
+ - **Exponentiation:** \{ a^m \times a^n = a^{m+n} \} — where $a$ is the base, $m$ and $n$ are exponents.
+ - **Roots:** \{ \sqrt[n]{a} = a^{\frac{1}{n}} \} — where $a$ is the radicand and $n$ is the index of the root.
+ - **Absolute Value:** \{ |a| = \sqrt{a^2} \} — where $a$ is a real number.
 
 
 
@@ -69,7 +69,10 @@ practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
  - **Mistake 3:** Incorrectly using the Absolute Value {\( |x| \)} or Modulus function, which can lead to errors in solving equations or inequalities involving absolute values.
  - *Costs:* 3-4 marks
  - *Fix:* Review the definition and properties of absolute value, including its relationship to distance on the number line. Practice solving equations and inequalities involving absolute values, using the correct notation and properties.
- - **Mistake 4:** Not properly applying the rules for operating with surds {\( \sqrt{x} \)}, which can lead to incorrect simplifications or calculations.
+
+- **Mistake 4:** Not properly applying the rules for operating with surds {\( \sqrt{x} \)}, which can lead to incorrect simplifications or calculations.
+
+
  - *Costs:* 2-3 marks
  - *Fix:* Review the rules for simplifying and operating with surds, including the use of conjugates to rationalize denominators. Practice applying these rules in various problems, ensuring you can simplify expressions correctly and perform calculations accurately.
  - **Mistake 5:** Failing to consider all possible cases when solving inequalities involving real numbers, particularly those with absolute values or fractions, which can lead to incomplete or incorrect solutions.
@@ -124,7 +127,7 @@ practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
  * Simplify radicals using the property $\sqrt{a} \times \sqrt{b} = \sqrt{ab}$
  * Consider the domain of the square root function to avoid extraneous solutions, using the property $x \geq 0$ for $\sqrt{x}$
  * Apply these concepts to solve equations involving square roots, such as $x^2 = a$, where $x = \pm\sqrt{a}$
- * Use the formula $a^2 - b^2 = (a+b)(a-b)$ to factor expressions and simplify equations, $$a^2 - b^2 = (a+b)(a-b)$$
+ * Use the formula $a^2 - b^2 = (a+b)(a-b)$ to factor expressions and simplify equations, a^2 - b^2 = (a+b)(a-b)
  * Consider the properties of inequalities involving square roots, such as $\sqrt{x} \geq a$, which implies $x \geq a^2$
 
 | Concept | 85% Scorers | 95% Scorers |
@@ -149,14 +152,14 @@ practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- $${\sqrt{a^2} = |a|}$$: Absolute value of a number
- - $${a^n}$$: Exponentiation, where $${n}$$ is the exponent
- - $${a^{\frac{m}{n}} = {\sqrt[n]{a^m}}}$$: Rational exponentiation
- - $${a^{m+n} = a^m \times a^n}$$: Product ru\le for exponents
- - $${\frac{a^m}{a^n} = a^{m-n}}$$: Quotient ru\le for exponents
+- {\sqrt{a^2} = |a|}: Absolute value of a number
+ - {a^n}: Exponentiation, where {n} is the exponent
+ - {a^{\frac{m}{n}} = {\sqrt[n]{a^m}}}: Rational exponentiation
+ - {a^{m+n} = a^m \times a^n}: Product ru\le for exponents
+ - {\frac{a^m}{a^n} = a^{m-n}}: Quotient ru\le for exponents
  - Key facts:
  - Real numbers include all rational and irrational numbers
- - The set of real numbers is denoted by $${\mathbb{R}}$$
+ - The set of real numbers is denoted by {\mathbb{R}}
  - Real numbers can be represented on the number line
  - Common mistakes:
  - Forgetting to consider the sign of the radicand when simplifying square roots
@@ -168,18 +171,16 @@ practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
 
 
 **1. If $a$ and $b$ are positive real numbers such that $a + b = 1$, then the maximum value of $ab$ is**
-
 A) 1/2
 B) 1/4
 C) 1
 D) 3/4
 
-**Answer:** B) We have, $a + b = 1$. Now, $(a - b)^2 \ge 0$ $Rightarrow (a + b)^2 - 4ab \ge 0$ $Rightarrow 1 - 4ab \ge 0$ $Rightarrow ab \le 1/4$
+**Answer:** B) We have, $a + b = 1$. Now, $(a - b)^2 \ge 0Rightarrow (a + b)^2 - 4ab \ge 0Rightarrow 1 - 4ab \ge 0Rightarrow ab \le 1/4$
 
 ---
 
 **2. If $x$ is a real number, then $x^2 + x + 1 > 0$ is**
-
 A) True for all $x$
 B) False for all $x$
 C) True for $x > 0$
@@ -190,35 +191,32 @@ D) None of these
 ---
 
 **3. If $x$ and $y$ are two real numbers such that $x^2 + y^2 = 1$ and $x + y = 2x - 3$, then $x$ is**
-
 A) 1/2
 B) -1/5
 C) 2/5
 D) -1
 
-**Answer:** C) Given, $x^2 + y^2 = 1$ and $x + y = 2x - 3$ $Rightarrow x + y = 2x - 3$ $Rightarrow y = x - 3$ Substituting the value of $y$, we get $x^2 + (x - 3)^2 = 1$ $Rightarrow x^2 + x^2 - 6x + 9 = 1$ $Rightarrow 2x^2 - 6x + 8 = 0$ $Rightarrow x^2 - 3x + 4 = 0$ $Rightarrow x = \frac{3 \pm sqrt{9 - 16}}{2}$ $Rightarrow x = \frac{3 \pm \sqrt{-7}}{2}$ But $x$ is real, so $x = \frac{3 \pm isqrt{7}}{2}$ is not possible. Now, $x + y = 2x - 3$ $Rightarrow y - x = -3$ $Rightarrow (y - x)^2 = (-3)^2$ $Rightarrow y^2 + x^2 - 2xy = 9$ $Rightarrow 1 - 2xy = 9$ $Rightarrow -2xy = 8$ $Rightarrow xy = -4$ Now, $(x + y)^2 = (2x - 3)^2$ $Rightarrow x^2 + y^2 + 2xy = 4x^2 - 12x + 9$ $Rightarrow 1 + 2(-4) = 4x^2 - 12x + 9$ $Rightarrow -7 = 4x^2 - 12x + 9$ $Rightarrow 4x^2 - 12x + 16 = 0$ $Rightarrow x^2 - 3x + 4 = 0$ $Rightarrow x = \frac{3 \pm sqrt{9 - 16}}{2}$ But $x$ is real, so we must have $x^2 - 3x + 4 = 0$ as $x = \frac{3 \pm isqrt{7}}{2}$ is not possible. On solving $x^2 - 3x + 4 = 0$, we get $x = \frac{3 \pm sqrt{9 - 16}}{2}$. But $x$ is real, so we must have $x = \frac{3 \pm sqrt{9 - 16}}{2}$ as $x = \frac{3 \pm isqrt{7}}{2}$ is not possible. Solving the equation $x^2 + y^2 = 1$ and $x + y = 2x - 3$, we get $x = \frac{2}{5}$
+**Answer:** C) Given, $x^2 + y^2 = 1$ and $x + y = 2x - 3Rightarrow x + y = 2x - 3Rightarrow y = x - 3$ Substituting the value of $y$, we get $x^2 + (x - 3)^2 = 1Rightarrow x^2 + x^2 - 6x + 9 = 1Rightarrow 2x^2 - 6x + 8 = 0Rightarrow x^2 - 3x + 4 = 0Rightarrow x = \frac{3 \pm sqrt{9 - 16}}{2}Rightarrow x = \frac{3 \pm \sqrt{-7}}{2}$ But $x$ is real, so $x = \frac{3 \pm isqrt{7}}{2}$ is not possible. Now, $x + y = 2x - 3Rightarrow y - x = -3Rightarrow (y - x)^2 = (-3)^2Rightarrow y^2 + x^2 - 2xy = 9Rightarrow 1 - 2xy = 9Rightarrow -2xy = 8Rightarrow xy = -4$ Now, $(x + y)^2 = (2x - 3)^2Rightarrow x^2 + y^2 + 2xy = 4x^2 - 12x + 9Rightarrow 1 + 2(-4) = 4x^2 - 12x + 9Rightarrow -7 = 4x^2 - 12x + 9Rightarrow 4x^2 - 12x + 16 = 0Rightarrow x^2 - 3x + 4 = 0Rightarrow x = \frac{3 \pm sqrt{9 - 16}}{2}$ But $x$ is real, so we must have $x^2 - 3x + 4 = 0$ as $x = \frac{3 \pm isqrt{7}}{2}$ is not possible. On solving $x^2 - 3x + 4 = 0$, we get $x = \frac{3 \pm sqrt{9 - 16}}{2}$. But $x$ is real, so we must have $x = \frac{3 \pm sqrt{9 - 16}}{2}$ as $x = \frac{3 \pm isqrt{7}}{2}$ is not possible. Solving the equation $x^2 + y^2 = 1$ and $x + y = 2x - 3$, we get $x = \frac{2}{5}$
 
 ---
 
 **4. For any real number $x$, the minimum value of $(x - 1)^2 + (x - 2)^2 + (x - 3)^2$ is**
-
 A) 3
 B) 5
 C) 2
 D) 1
 
-**Answer:** C) Let $f(x) = (x - 1)^2 + (x - 2)^2 + (x - 3)^2$ $= x^2 - 2x + 1 + x^2 - 4x + 4 + x^2 - 6x + 9$ $= 3x^2 - 12x + 14$ For maxima/minima, we have $f'(x) = 0$ $Rightarrow 6x - 12 = 0$ $Rightarrow x = 2$ Now, $f''(x) = 6 > 0$, so $x = 2$ is point of local minima. Hence, the minimum value of $f(x)$ is $f(2) = 3(2)^2 - 12(2) + 14 = 2$
+**Answer:** C) Let $f(x) = (x - 1)^2 + (x - 2)^2 + (x - 3)^2= x^2 - 2x + 1 + x^2 - 4x + 4 + x^2 - 6x + 9= 3x^2 - 12x + 14$ For maxima/minima, we have $f'(x) = 0Rightarrow 6x - 12 = 0Rightarrow x = 2$ Now, $f''(x) = 6 > 0$, so $x = 2$ is point of local minima. Hence, the minimum value of $f(x)$ is $f(2) = 3(2)^2 - 12(2) + 14 = 2$
 
 ---
 
 **5. If $a$, $b$, $c$ are real numbers such that $a + b + c = 0$ and $a^2 + b^2 + c^2 = 1$, then $ab + bc + ca$ is**
-
 A) -1/2
 B) 1/2
 C) -1
 D) 0
 
-**Answer:** A) Given, $a + b + c = 0$ $Rightarrow (a + b + c)^2 = 0$ $Rightarrow a^2 + b^2 + c^2 + 2ab + 2bc + 2ca = 0$ $Rightarrow 1 + 2(ab + bc + ca) = 0$ $Rightarrow ab + bc + ca = -\frac{1}{2}$
+**Answer:** A) Given, $a + b + c = 0Rightarrow (a + b + c)^2 = 0Rightarrow a^2 + b^2 + c^2 + 2ab + 2bc + 2ca = 0Rightarrow 1 + 2(ab + bc + ca) = 0Rightarrow ab + bc + ca = -\frac{1}{2}$
 
 
 ---
@@ -240,3 +238,4 @@ Continue your revision with these related guides:
 - 📖 [Pair of Linear Equations Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/pair-of-linear-equations-class-10-notes)
 - 📖 [Polynomials Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/polynomials-class-10-notes)
 - 📖 [Quadratic Equations Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/quadratic-equations-class-10-notes)
+

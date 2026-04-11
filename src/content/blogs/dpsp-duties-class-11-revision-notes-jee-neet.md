@@ -122,16 +122,7 @@ Here are some tips to help you master DPSP & Duties:
 * **Practice MCQs and trap exceptions**: Test your understanding with sample MCQs and watch out for potential trap exceptions to ensure a comprehensive grasp of the subject.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -149,10 +140,7 @@ Continue your [revision](/blog/physical-world-class-11-revision-notes-jee-neet) 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/dpsp-duties-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/dpsp-duties-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 
 ---

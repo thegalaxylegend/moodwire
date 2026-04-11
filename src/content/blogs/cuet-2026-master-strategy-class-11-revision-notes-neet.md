@@ -122,16 +122,7 @@ Most major universities, including Delhi University, require you to appear only 
 To maximize your eligibility across various courses and universities, we recommend choosing one Language, three or four Domain subjects, and the General Test. This combination (total 5–6 subjects) ensures you meet the criteria for a wide range of degrees, from specialized honors courses to multi-disciplinary vocational programs.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -149,10 +140,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/cuet-2026-master-strategy-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/cuet-2026-master-strategy-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
 
 ---

@@ -3,6 +3,7 @@ import { X, Bot, Phone, Volume2, Trash2, Zap, LayoutDashboard, Clock, Target, Me
 import { motion, AnimatePresence } from 'framer-motion';
 import { QuickReplies } from './QuickReplies';
 import { MessageBubble } from './MessageBubble';
+import { usePerformanceLevel } from '../../hooks/usePerformanceLevel';
 
 interface VoicePreset {
     id: string;
@@ -38,6 +39,10 @@ interface ChatWindowProps {
     onDeleteSession?: (id: string) => void;
     onCreateSession?: () => void;
     
+    // Language Props
+    selectedLanguage?: 'en' | 'hi' | 'hinglish';
+    onSelectLanguage?: (lang: 'en' | 'hi' | 'hinglish') => void;
+    
     children?: React.ReactNode;
 }
 
@@ -65,8 +70,12 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
     onDeleteSession = () => {},
     onCreateSession = () => {},
     
+    selectedLanguage = 'en',
+    onSelectLanguage,
+    
     children
 }) => {
+    const perfTier = usePerformanceLevel();
     const messagesEndRef = useRef<HTMLDivElement>(null);
     const hasInitialScrolled = useRef(false);
     const [isToolboxOpen, setIsToolboxOpen] = useState(false);
@@ -102,8 +111,9 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
     }, [messages, isThinking]);
 
     return (
-        <div className={`flex flex-col h-full bg-[#11131c] backdrop-blur-2xl border border-white/5 
+        <div className={`flex flex-col h-full bg-[#11131c]/90 border border-white/5 
             rounded-3xl overflow-hidden shadow-[0_32px_64px_-12px_rgba(0,0,0,0.8)] transition-[border-color,box-shadow,transform] duration-500 font-manrope gpu-layer
+            ${perfTier === 'elite' ? 'backdrop-blur-2xl' : perfTier === 'balanced' ? 'backdrop-blur-lg' : 'backdrop-blur-none'}
             ${isCallMode ? 'ring-2 ring-[#5d21df]/50 shadow-[#5d21df]/20' : ''}`}>
             
             {/* Main Area: Split Layout */}
@@ -114,15 +124,16 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
                     data-lenis-prevent
                     className={`
                     absolute inset-y-0 left-0 z-[60] w-full lg:flex-[0.7] h-full lg:relative lg:block transition-transform duration-500 ease-out
-                    bg-[#1d1f29] lg:bg-[#11131c]/50 lg:backdrop-blur-xl border-r border-white/5 overflow-y-auto overflow-x-hidden
+                    bg-[#1d1f29] lg:bg-[#11131c]/50 border-r border-white/5 overflow-y-auto overflow-x-hidden scroll-safe-layer
+                    ${perfTier === 'elite' ? 'lg:backdrop-blur-xl' : 'lg:backdrop-blur-none'}
                     ${isToolboxOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'}
                 `}>
                     <div className="p-8 space-y-10 lg:space-y-12">
                         
                         {/* Bot Identity & Branding */}
-                        <div className="flex items-center gap-4 py-2 mb-4">
+                        <div className="flex items-center gap-4 py-2 mb-4 gpu-accelerate">
                             <div className="relative group shrink-0">
-                                <div className="w-14 h-14 rounded-[24px] bg-gradient-to-br from-[#5d21df] to-[#153ae4] flex items-center justify-center text-white shadow-[0_12px_24px_rgba(93,33,223,0.3)] overflow-hidden transition-transform group-hover:scale-105">
+                                <div className="w-14 h-14 rounded-[24px] bg-gradient-to-br from-[#5d21df] to-[#153ae4] flex items-center justify-center text-white shadow-[0_12px_24px_rgba(93,33,223,0.3)] overflow-hidden transition-transform group-hover:scale-105 transform-gpu">
                                     <Bot size={28} />
                                 </div>
                                 <div className="absolute -bottom-1 -right-1 w-5 h-5 bg-[#81ecff] rounded-full border-[3px] border-[#11131c] shadow-[0_0_10px_#81ecff] animate-pulse"></div>
@@ -279,6 +290,44 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
                             </div>
                         </section>
 
+                        {/* Language Control */}
+                        <section>
+                            <div className="flex items-center gap-3 mb-6">
+                                <div className="p-2 bg-[#cdbdff]/10 rounded-lg text-[#cdbdff]">
+                                    <Bot size={18} />
+                                </div>
+                                <h4 className="text-xs font-black text-white/50 uppercase tracking-[4px]">Mentor Language</h4>
+                            </div>
+                            
+                            <div className="grid grid-cols-3 gap-2">
+                                {[
+                                    { id: 'en', label: 'English', icon: '🇬🇧' },
+                                    { id: 'hi', label: 'Hindi', icon: '🇮🇳' },
+                                    { id: 'hinglish', label: 'Hinglish', icon: '💬' }
+                                ].map(lang => (
+                                    <button 
+                                        key={lang.id}
+                                        onClick={() => onSelectLanguage?.(lang.id as any)}
+                                        className={`flex flex-col items-center gap-2 py-4 rounded-[22px] border transition-all relative overflow-hidden ${
+                                            selectedLanguage === lang.id
+                                            ? 'bg-indigo-500/10 border-indigo-500/40 text-white shadow-lg shadow-indigo-500/5 ring-1 ring-indigo-500/20'
+                                            : 'bg-white/[0.02] border-white/5 text-white/40 hover:bg-white/5 hover:border-white/10'
+                                        }`}
+                                    >
+                                        <span className={`text-xl transition-transform duration-500 ${selectedLanguage === lang.id ? 'scale-110' : 'opacity-60'}`}>{lang.icon}</span>
+                                        <span className="text-[9px] font-black uppercase tracking-widest">{lang.label}</span>
+                                        
+                                        {selectedLanguage === lang.id && (
+                                            <motion.div 
+                                                layoutId="lang-pulse"
+                                                className="absolute inset-0 bg-indigo-500/5 animate-pulse" 
+                                            />
+                                        )}
+                                    </button>
+                                ))}
+                            </div>
+                        </section>
+
                         {/* Biometrics */}
                         <section>
                             <div className="flex items-center gap-3 mb-6">
@@ -349,7 +398,7 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
                             data-lenis-prevent
                             ref={scrollContainerRef}
                             onScroll={handleScroll}
-                            className="h-full overflow-y-auto px-2 md:px-8 pt-24 pb-12 md:pt-20 space-y-6 scrollbar-none"
+                            className={`h-full overflow-y-auto px-2 md:px-8 pt-24 pb-12 md:pt-20 space-y-6 scrollbar-none gpu-layer will-change-transform`}
                         >
                             <div className="max-w-full md:max-w-5xl mx-auto w-full pb-32">
                                 {messages.map((m) => (
@@ -357,16 +406,16 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
                                 ))}
 
                                 {isSearching && (
-                                    <div className="flex items-center gap-4 px-6 py-4 bg-[#81ecff]/5 border border-[#81ecff]/10 rounded-3xl animate-pulse backdrop-blur-sm">
-                                        <div className="w-3 h-3 bg-[#81ecff] rounded-full animate-ping"></div>
+                                    <div className={`flex items-center gap-4 px-6 py-4 bg-[#81ecff]/5 border border-[#81ecff]/10 rounded-3xl backdrop-blur-sm ${perfTier !== 'low' ? 'animate-pulse' : ''}`}>
+                                        <div className={`w-3 h-3 bg-[#81ecff] rounded-full ${perfTier !== 'low' ? 'animate-ping' : ''}`}></div>
                                         <span className="text-xs font-black text-[#81ecff] uppercase tracking-[3px]">Mapping Knowledge...</span>
                                     </div>
                                 )}
                                 
                                  {(isThinking || isTTSLoading) && (
-                                    <div className="flex w-full justify-start mb-6 animate-in fade-in slide-in-from-left-2 duration-500">
+                                    <div className={`flex w-full justify-start mb-6 ${perfTier !== 'low' ? 'animate-in fade-in slide-in-from-left-2 duration-500' : ''}`}>
                                         <div className="flex items-end gap-4 max-w-[80%]">
-                                            <div className="w-8 h-8 rounded-full bg-indigo-600/20 flex items-center justify-center border border-indigo-500/20 animate-pulse">
+                                            <div className={`w-8 h-8 rounded-full bg-indigo-600/20 flex items-center justify-center border border-indigo-500/20 ${perfTier !== 'low' ? 'animate-pulse' : ''}`}>
                                                 <Zap size={14} className="text-indigo-400" />
                                             </div>
                                             <div className="bg-[#32343e]/40 border border-white/10 px-6 py-4 rounded-[32px] rounded-bl-sm backdrop-blur-md">

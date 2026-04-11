@@ -204,16 +204,7 @@ Energy is the invisible currency of the universe. By shifting our perspective fr
 **Reference:** [Journal of Energy and Power Technology](https://www.lidsen.com/journals/jept)
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -231,10 +222,7 @@ Continue your [revision](/blog/mechanical-properties-of-solids-class-11-revision
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/work-energy-and-power-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/work-energy-and-power-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
 
 ---

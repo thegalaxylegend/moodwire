@@ -77,11 +77,11 @@ Understanding the core [concepts](/blog/some-basic-concepts-of-chemistry-class-1
 While there are no specific formulae to remember in chemical [coordination](/blog/neural-control-and-coordination-class-11-revision-notes-neet) and integration, understanding the relationships between different hormones and their regulatory mechanisms is crucial. For example:
 
 * The regulation of blood sugar levels by insulin and glucagon can be represented by the following equation:
-$$
+
 \text{Glucose} \xrightarrow{\text{Insulin}} \text{Glycogen}
 
 \text{Glycogen} \xrightarrow{\text{Glucagon}} \text{Glucose}
-$$
+
 
 ## <a id="jeeneet-data"></a>JEE/NEET Data
 
@@ -119,16 +119,7 @@ Endocrine disorders can have significant effects on bodily functions. Common end
 * **Hyperthyroidism**: A disorder characterized by high thyroid hormone levels, leading to increased metabolism.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -146,10 +137,7 @@ Continue your [revision](/blog/classification-of-elements-class-11-revision-note
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/chemical-coordination-and-integration-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/chemical-coordination-and-integration-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
 
 ---

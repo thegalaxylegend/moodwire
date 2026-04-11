@@ -79,13 +79,7 @@ Planning in India works through the Five-Year Plans, which are formulated by the
 ## <a id="mcqs"></a>MCQs
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -103,10 +97,7 @@ Continue your [revision](/blog/poverty-unemployment-class-11-revision-notes-jee-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/planning-in-india-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/planning-in-india-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
 
 
 ---

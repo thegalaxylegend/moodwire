@@ -196,7 +196,7 @@ OUTPUT (JSON ONLY):
         const response = await withTimeout(
             askAI("Senior Physics, Chemistry & Mathematics Professor. Strict accuracy auditor. JSON ONLY.", verificationPrompt, 'auto', [], {
                 jsonMode: true,
-                tier: 'T5', // Expert Verifier
+                tier: 'T1', // Expert Verifier
                 temperature: 0.0,
                 stream: false,
                 max_tokens: 2000
@@ -430,7 +430,7 @@ If they don't match, YOUR OUTPUT IS INVALID and will be rejected.
                     jsonMode: true,
                     stream: false,
                     max_tokens: 2500,
-                    tier: 'T4', // Complex Generator
+                    tier: 'T2', // Complex Generator
                     temperature: 0.6
                 }),
                 45000 // 45s timeout for generation

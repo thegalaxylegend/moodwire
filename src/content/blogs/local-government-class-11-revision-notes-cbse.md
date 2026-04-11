@@ -99,10 +99,7 @@ Continue your [revision](/blog/federalism-class-11-revision-notes-cbse) with the
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/local-government-class-11-revision-notes-cbse) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/local-government-class-11-revision-notes-cbse) now and track your progress against thousands of students.
 
 
 ---

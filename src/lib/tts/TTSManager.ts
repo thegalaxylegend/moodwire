@@ -36,8 +36,17 @@ export class TTSManager {
         
         // If switching models, we need to reset
         if (this.loadedModelUrl && this.loadedModelUrl !== urlToLoad) {
+            console.log(`[TTSManager] Switching models from ${this.loadedModelUrl} to ${urlToLoad}`);
             this.isInitialized = false;
-            if (this.worker) this.worker.terminate();
+            this.stop();
+            if (this.worker) {
+                try {
+                    this.worker.postMessage({ type: 'TERMINATE' });
+                    this.worker.terminate();
+                } catch (e) {
+                    console.warn('[TTSManager] Worker termination error:', e);
+                }
+            }
             this.worker = null;
         }
 

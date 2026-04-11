@@ -45,16 +45,16 @@ practice_link: "/class-11/mathematics/coordinate-geometry-class-10-notes"
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Distance Formula:** $$\sqrt{{(x_2 - x_1)}^2 + {(y_2 - y_1)}^2}$$ — Distance between points $(x_1, y_1)$ and $(x_2, y_2)$
- - **Section Formula:** $$\left( \frac{m x_2 + n x_1}{m + n}, \frac{m y_2 + n y_1}{m + n} \right)$$ — Coordinates of a point dividing the line segment joining $(x_1, y_1)$ and $(x_2, y_2)$ internally in the ratio $m:n$
- - **Midpoint Formula:** $$\left( \frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2} \right)$$ — Coordinates of the midpoint of the line segment joining $(x_1, y_1)$ and $(x_2, y_2)$
- - **Slope of a Line:** $$\frac{y_2 - y_1}{x_2 - x_1}$$ — Slope of the line passing through points $(x_1, y_1)$ and $(x_2, y_2)$
- - **Point-Slope Form:** $$y - y_1 = \frac{y_2 - y_1}{x_2 - x_1}(x - x_1)$$ — Equation of a line passing through $(x_1, y_1)$ with slope $\frac{y_2 - y_1}{x_2 - x_1}$
- - **Slope-Intercept Form:** $$y = mx + c$$ — Equation of a line with slope $m$ and $y$-intercept $c$
- - **Two-Point Form:** $$y - y_1 = \frac{y_2 - y_1}{x_2 - x_1}(x - x_1)$$ — Equation of a line passing through points $(x_1, y_1)$ and $(x_2, y_2)$
- - **Equation of a Line (General Form):** $$ax + by + c = 0$$ — General form of a line, where $a$, $b$, and $c$ are constants
- - **Length of a Line Segment:** $$\sqrt{{(x_2 - x_1)}^2 + {(y_2 - y_1)}^2}$$ — Length of the line segment joining points $(x_1, y_1)$ and $(x_2, y_2)$
- - **Area of a Triangle (Coordinate Form):** $$\frac{1}{2} |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)|$$ — Area of a triangle with vertices $(x_1, y_1)$, $(x_2, y_2)$, and $(x_3, y_3)$
+- **Distance Formula:** \sqrt{{(x_2 - x_1)}^2 + {(y_2 - y_1)}^2} — Distance between points $(x_1, y_1)$ and $(x_2, y_2)$
+ - **Section Formula:** \left( \frac{m x_2 + n x_1}{m + n}, \frac{m y_2 + n y_1}{m + n} \right) — Coordinates of a point dividing the line segment joining $(x_1, y_1)$ and $(x_2, y_2)$ internally in the ratio $m:n$
+ - **Midpoint Formula:** \left( \frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2} \right) — Coordinates of the midpoint of the line segment joining $(x_1, y_1)$ and $(x_2, y_2)$
+ - **Slope of a Line:** \frac{y_2 - y_1}{x_2 - x_1} — Slope of the line passing through points $(x_1, y_1)$ and $(x_2, y_2)$
+ - **Point-Slope Form:** y - y_1 = \frac{y_2 - y_1}{x_2 - x_1}(x - x_1) — Equation of a line passing through $(x_1, y_1)$ with slope $\frac{y_2 - y_1}{x_2 - x_1}$
+ - **Slope-Intercept Form:** y = mx + c — Equation of a line with slope $m$ and $y$-intercept $c$
+ - **Two-Point Form:** y - y_1 = \frac{y_2 - y_1}{x_2 - x_1}(x - x_1) — Equation of a line passing through points $(x_1, y_1)$ and $(x_2, y_2)$
+ - **Equation of a Line (General Form):** ax + by + c = 0 — General form of a line, where $a$, $b$, and $c$ are constants
+ - **Length of a Line Segment:** \sqrt{{(x_2 - x_1)}^2 + {(y_2 - y_1)}^2} — Length of the line segment joining points $(x_1, y_1)$ and $(x_2, y_2)$
+ - **Area of a Triangle (Coordinate Form):** \frac{1}{2} |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)| — Area of a triangle with vertices $(x_1, y_1)$, $(x_2, y_2)$, and $(x_3, y_3)$
 
 
 
@@ -142,11 +142,11 @@ practice_link: "/class-11/mathematics/coordinate-geometry-class-10-notes"
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- The distance between two points $({x_1}, {y_1})$ and $({x_2}, {y_2})$ is given by: $$\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
- - The midpoint of a line segment with endpoints $({x_1}, {y_1})$ and $({x_2}, {y_2})$ is: $$\left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)$$
- - The equation of a circle with center $({h}, {k})$ and radius ${r}$ is: $${(x - h)^2 + (y - k)^2 = r^2}$$
- - The equation of a line passing through $({x_1}, {y_1})$ with slope ${m}$ is: $$y - {y_1} = {m}(x - {x_1})$$
- - The slope of a line passing through $({x_1}, {y_1})$ and $({x_2}, {y_2})$ is: $$\frac{y_2 - y_1}{x_2 - x_1}$$
+- The distance between two points $({x_1}, {y_1})$ and $({x_2}, {y_2})$ is given by: \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
+ - The midpoint of a line segment with endpoints $({x_1}, {y_1})$ and $({x_2}, {y_2})$ is: \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)
+ - The equation of a circle with center $({h}, {k})$ and radius ${r}$ is: {(x - h)^2 + (y - k)^2 = r^2}
+ - The equation of a line passing through $({x_1}, {y_1})$ with slope ${m}$ is: y - {y_1} = {m}(x - {x_1})
+ - The slope of a line passing through $({x_1}, {y_1})$ and $({x_2}, {y_2})$ is: \frac{y_2 - y_1}{x_2 - x_1}
  - The $x$-axis and $y$-axis are the axes of reference for the coordinate plane.
  - The origin is the point of intersection of the $x$-axis and the $y$-axis, denoted as $(0, 0)$.
  - The quadrants are the four regions into which the coordinate plane is divided by the $x$-axis and the $y$-axis.
@@ -159,7 +159,6 @@ practice_link: "/class-11/mathematics/coordinate-geometry-class-10-notes"
 
 
 **1. The equation of the line passing through the points (1, 1) and (2, 3) is**
-
 A) 2x - y - 1 = 0
 B) x + y - 2 = 0
 C) x - 2y + 1 = 0
@@ -170,7 +169,6 @@ D) 2x + y - 4 = 0
 ---
 
 **2. The distance between the points (3, 4) and (-1, -2) is**
-
 A) $\sqrt{26}$
 B) $\sqrt{50}$
 C) $\sqrt{29}$
@@ -181,7 +179,6 @@ D) $\sqrt{37}$
 ---
 
 **3. The equation of the circle with center (0, 0) and radius 4 is**
-
 A) x^2 + y^2 = 16
 B) x^2 - y^2 = 16
 C) x^2 + y^2 = 4
@@ -192,7 +189,6 @@ D) x^2 - y^2 = 4
 ---
 
 **4. The point (3, 4) lies on the line**
-
 A) 5x - 4y + 7 = 0
 B) 4x + 3y - 24 = 0
 C) 3x - 4y + 7 = 0
@@ -203,7 +199,6 @@ D) x + y - 7 = 0
 ---
 
 **5. The equation of the line with slope 2 and y-intercept 3 is**
-
 A) y = 2x + 3
 B) y = 2x - 3
 C) y = -2x + 3
@@ -230,3 +225,4 @@ Continue your revision with these related guides:
 - 📖 [Arithmetic Progressions Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/arithmetic-progressions-class-10-notes)
 - 📖 [Introduction to Trigonometry Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/introduction-to-trigonometry-class-10-notes)
 - 📖 [Pair of Linear Equations Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/pair-of-linear-equations-class-10-notes)
+

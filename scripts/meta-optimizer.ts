@@ -65,7 +65,7 @@ OUTPUT FORMAT (JSON ONLY):
     console.log(`🤖 Optimizing [${slug}] for query: "${data.topQuery}"...`);
 
     try {
-        const responseText = await nodeRouter.route([{ role: "user", content: prompt }], 'T2', { 
+        const responseText = await nodeRouter.route([{ role: "user", content: prompt }], 'T4', { 
             jsonMode: true 
         });
         

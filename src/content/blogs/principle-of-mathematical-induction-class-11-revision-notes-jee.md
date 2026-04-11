@@ -371,9 +371,8 @@ B
 C
 D
 
-**Answer:** A) Statement A is true because it holds for all odd integers n ≥ 5.
-
-
+**Answer:**
+A) Statement A is true because it holds for all odd integers n ≥ 5.
 **2. The sum of the first n natural numbers is given by the formula S_n = n(n+1)/2. Using the principle of mathematical induction, we can prove that this formula is valid for all n ≥ 1.**
 A
 B
@@ -382,16 +381,14 @@ D
 
 **Answer:** B) The formula S_n = n(n+1)/2 holds for n = 1, but the formula is not valid for n = 0.
 
-
 **3. If p is a prime number, then 2^p - 1 is not divisible by any prime number less than p.**
 A
 B
 C
 D
 
-**Answer:** D) This statement is false because 2^3 - 1 = 7 is divisible by 7, which is a prime number less than 3.
-
-
+**Answer:**
+D) This statement is false because 2^3 - 1 = 7 is divisible by 7, which is a prime number less than 3.
 **4. Consider the statement S(n): '1 + 2 + 3 + ... + n = n(n+1)/2.' If S(5) is true, then S(6) is also true.**
 A
 B
@@ -399,7 +396,6 @@ C
 D
 
 **Answer:** B) This is the step in the principle of mathematical induction where we assume the statement is true for some positive integer k (in this case, k = 5) and prove it is true for k+1 (in this case, k+1 = 6).
-
 
 **5. Let P(n) be the statement: 'n^3 - 9n is divisible by 3.' Prove that P(n) is true for all integers n.**
 A
@@ -410,13 +406,7 @@ D
 **Answer:** C) To prove P(n) by induction, we need to show that P(1) is true, and that if P(k) is true, then P(k+1) is also true.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -434,10 +424,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/principle-of-mathematical-induction-class-11-revision-notes-jee) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/principle-of-mathematical-induction-class-11-revision-notes-jee) now and track your progress against thousands of students.
 
 
 ---

@@ -153,10 +153,15 @@ Geomorphology has a wide range of applications, including:
 
 ## <a id="conclusion-is-not-allowed-hence-the-following"></a>Conclusion is not allowed, hence the following
 
-As a student of [class](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) 11, it is essential to have a solid grasp of Geomorphology, as it is a fundamental subject in Geography. By understanding the core concepts, formulae, and tables, and practicing MCQs, I can ensure I am well-prepared for my exam. Additionally, recognizing the importance of Geomorphology and its applications will help me appreciate the subject and its relevance to real-life situations. 
+As a student of [class](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) 11, it is essential to have a solid grasp of Geomorphology, as it is a fundamental subject in Geography. By understanding the core concepts, formulae, and tables, and practicing MCQs, I can ensure I am well-prepared for my exam. Additionally, recognizing the importance of Geomorphology and its applications will help me appreciate the subject and its relevance to real-life situations.
+
 \begin{equation}
+
 E = \sum_{i=1}^{n} (R_i \times S_i)
+
+
 \end{equation}
+
 where $E$ is the total erosion, $R_i$ is the runoff, and $S_i$ is the slope. 
 I will make sure to review the **Trap Exceptions** and focus on the **Key Terms** to excel in the subject. 
 By following the **JEE/[neet](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) data** and **Ayush's Personal Note**, I will be able to stay on track and achieve my goals. 
@@ -179,7 +184,8 @@ I will make sure to apply this knowledge in my future studies.
 Using LaTeX has made the equations and tables look neat and easy to read, and I will continue to use it to help me study. 
 The **Ayush's Personal Note** section has provided me with a chance to reflect on my own learning and identify areas where I need to improve. 
 I will continue to review and practice the material to ensure I am well-prepared for my exam. 
-I am confident that I will do well, and I will continue to work hard to achieve my goals. 
+I am confident that I will do well, and I will continue to work hard to achieve my goals.
+
 \begin{table}
 \centering
 \begin{tabular}{|c|c|c|}
@@ -193,6 +199,7 @@ I am confident that I will do well, and I will continue to work hard to achieve 
 **Plain** & Low & Gentle \\
 \hline
 \end{tabular}
+
 \caption{Landform Classification Table}
 \end{table}
 This table has helped me understand the different types of landforms and their characteristics. 
@@ -204,10 +211,15 @@ I will continue to review and practice the material to ensure I am well-prepared
 Using LaTeX has made the equations and tables look neat and easy to read, and I will continue to use it to help me study. 
 The **Key Terms** section has provided me with a quick reference guide to the essential vocabulary in Geomorphology. 
 I will make sure to review it regularly to ensure I am familiar with the material. 
-I am confident that I will do well, and I will continue to work hard to achieve my goals. 
+I am confident that I will do well, and I will continue to work hard to achieve my goals.
+
 \begin{equation}
+
 D = \sum_{i=1}^{n} (E_i \times T_i)
+
+
 \end{equation}
+
 where $D$ is the total deposition, $E_i$ is the erosion, and $T_i$ is the time. 
 This equation has helped me understand the process of deposition, and I will make sure to review it regularly. 
 The **Geomorphology and Its Importance** section has helped me understand the significance of the subject, and I will make sure to apply this knowledge in my future studies. 
@@ -459,16 +471,7 @@ I will continue to review and practice the material to ensure I am well-prepared
 The **Formulae and Tables** section has provided me with a quick
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -486,10 +489,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/geomorphology-class-11-revision-notes-cbse) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/physics/geomorphology-class-11-revision-notes-cbse) now and track your progress against thousands of students.
 
 
 ---

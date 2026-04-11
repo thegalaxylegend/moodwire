@@ -63,80 +63,106 @@ practice_link: "/class-11/mathematics/determinants-class-12-notes"
 - **Importance:** Determinants are crucial in linear algebra and are used to find the inverse of a matrix, solve systems of equations, and determine the solvability of systems.
 
 #### Determinant of a 1x1 Matrix
-- **Formula:** $$\det(a) = a$$ — $a$ is the element of the 1x1 matrix.
+- **Formula:** \det(a) = a — $a$ is the element of the 1x1 matrix.
 - **[application](/blog/application-of-integrals-class-12-notes):** Used to calculate the determinant of a 1x1 matrix.
 
 ### <a id="-core-concept-2-determinant-properties"></a>⚡ Core Concept 2: Determinant Properties
 
-- **Property 1:** $$\det(AB) = \det(A) \cdot \det(B)$$ — $A$ and $B$ are square matrices of the same size.
-- **Property 2:** $$\det(A^{-1}) = \frac{1}{\det(A)}$$ — $A$ is an invertible square matrix.
-- **Property 3:** $$\det(A^T) = \det(A)$$ — $A^T$ is the transpose of matrix $A$.
+- **Property 1:** \det(AB) = \det(A) \cdot \det(B) — $A$ and $B$ are square matrices of the same size.
+- **Property 2:** \det(A^{-1}) = \frac{1}{\det(A)} — $A$ is an invertible square matrix.
+- **Property 3:** \det(A^T) = \det(A) — $A^T$ is the transpose of matrix $A$.
 
 #### Multiplicative Property
-- **Formula:** $$\det(kA) = k^n \cdot \det(A)$$ — $k$ is a scalar, $A$ is an $n \times n$ matrix.
+- **Formula:** \det(kA) = k^n \cdot \det(A) — $k$ is a scalar, $A$ is an $n \times n$ matrix.
 - **[application](/blog/application-of-integrals-class-12-notes):** Used to calculate the determinant of a scaled matrix.
 
 ### <a id="-core-concept-3-expansion-by-minors"></a>⚡ Core Concept 3: Expansion by Minors
 
-- **Formula:** $$\begin{vmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{vmatrix} = a_{11} \begin{vmatrix} a_{22} & a_{23} \\ a_{32} & a_{33} \end{vmatrix} - a_{12} \begin{vmatrix} a_{21} & a_{23} \\ a_{31} & a_{33} \end{vmatrix} + a_{13} \begin{vmatrix} a_{21} & a_{22} \\ a_{31} & a_{32} \end{vmatrix}$$ — $a_{ij}$ are elements of the matrix.
+- **Formula:** \begin{vmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{vmatrix} = a_{11}
+
+\begin{vmatrix} a_{22} & a_{23} \\ a_{32} & a_{33} \end{vmatrix}
+
+- a_{12}
+
+\begin{vmatrix} a_{21} & a_{23} \\ a_{31} & a_{33} \end{vmatrix}
+
++ a_{13}
+
+\begin{vmatrix} a_{21} & a_{22} \\ a_{31} & a_{32} \end{vmatrix} — $a_{ij}$ are elements of the matrix.
 - **[application](/blog/application-of-integrals-class-12-notes):** Used to calculate the determinant of a matrix by expanding along a row or column.
 
 #### Expansion Along a Row
-- **Formula:** $$\det(A) = a_{i1}C_{i1} + a_{i2}C_{i2} + \cdots + a_{in}C_{in}$$ — $a_{ij}$ are elements of the matrix, $C_{ij}$ are cofactors.
+- **Formula:** \det(A) = a_{i1}C_{i1} + a_{i2}C_{i2} + \cdots + a_{in}C_{in} — $a_{ij}$ are elements of the matrix, $C_{ij}$ are cofactors.
 - **[application](/blog/application-of-integrals-class-12-notes):** Used to calculate the determinant of a matrix by expanding along a row.
 
 ### <a id="-core-concept-4-cofactor-expansion"></a>⚡ Core Concept 4: Cofactor Expansion
 
-- **Formula:** $$\begin{vmatrix} a & b \\ c & d \end{vmatrix} = a \cdot \begin{vmatrix} d \end{vmatrix} - b \cdot \begin{vmatrix} c \end{vmatrix}$$ — Cofactor of $a$ is $+\begin{vmatrix} d \end{vmatrix}$ and cofactor of $b$ is $-\begin{vmatrix} c \end{vmatrix}$.
+- **Formula:** \begin{vmatrix} a & b \\ c & d \end{vmatrix}
+
+= a \cdot
+
+\begin{vmatrix} d \end{vmatrix}
+
+- b \cdot
+
+\begin{vmatrix} c \end{vmatrix} — Cofactor of $a$ is $+\begin{vmatrix}
+
+d \end{vmatrix}$ and cofactor of $b$ is $-
+
+\begin{vmatrix} c \end{vmatrix}$.
 - **Importance:** Used to calculate the determinant of a matrix by expanding along a row or column using cofactors.
 
 #### Cofactor of an Element
-- **Formula:** $$C_{ij} = (-1)^{i+j} \cdot \det(M_{ij})$$ — $M_{ij}$ is the minor of the element $a_{ij}$.
+- **Formula:** C_{ij} = (-1)^{i+j} \cdot \det(M_{ij}) — $M_{ij}$ is the minor of the element $a_{ij}$.
 - **Application:** Used to calculate the cofactor of an element in a matrix.
 
 ### <a id="-core-concept-5-area-of-a-triangle"></a>⚡ Core Concept 5: Area of a Triangle
 
-- **Formula:** $$\text{Area} = \frac{1}{2} \cdot |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)|$$ — $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ are vertices of the triangle.
+- **Formula:** \text{Area} = \frac{1}{2} \cdot |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)| — $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ are vertices of the triangle.
 - **Application:** Used to find the area of a triangle given the coordinates of its vertices.
 
 #### Shoelace Formula
-- **Formula:** $$\text{Area} = \frac{1}{2} \cdot |x_1y_2 + x_2y_3 + x_3y_1 - y_1x_2 - y_2x_3 - y_3x_1|$$ — $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ are vertices of the triangle.
+- **Formula:** \text{Area} = \frac{1}{2} \cdot |x_1y_2 + x_2y_3 + x_3y_1 - y_1x_2 - y_2x_3 - y_3x_1| — $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ are vertices of the triangle.
 - **Application:** Used to find the area of a triangle given the coordinates of its vertices.
 
 ### <a id="-core-concept-6-volume-of-a-parallelepiped"></a>⚡ Core Concept 6: Volume of a Parallelepiped
 
-- **Formula:** $$V = |\begin{vmatrix} a & b & c \\ d & e & f \\ g & h & i \end{vmatrix}|$$ — $a, b, c, d, e, f, g, h, i$ are components of the edges of the parallelepiped.
+- **Formula:** V = |\begin{vmatrix} a & b & c \\ d & e & f \\ g & h & i \end{vmatrix}
+
+| — $a, b, c, d, e, f, g, h, i$ are components of the edges of the parallelepiped.
 - **Importance:** Used to find the volume of a parallelepiped given the components of its edges.
 
 #### Volume of a Parallelepiped Using Determinants
-- **Formula:** $$V = |\det(A)|$$ — $A$ is the matrix whose columns are the edges of the parallelepiped.
+- **Formula:** V = |\det(A)| — $A$ is the matrix whose columns are the edges of the parallelepiped.
 - **Application:** Used to find the volume of a parallelepiped given the components of its edges.
 
 ### <a id="-core-concept-7-determinant-of-a-2x2-matrix"></a>⚡ Core Concept 7: Determinant of a 2x2 Matrix
 
-- **Formula:** $$\begin{vmatrix} a & b \\ c & d \end{vmatrix} = ad - bc$$ — $a, b, c, d$ are elements of the matrix.
+- **Formula:** \begin{vmatrix} a & b \\ c & d \end{vmatrix} = ad - bc — $a, b, c, d$ are elements of the matrix.
 - **Application:** Used to calculate the determinant of a 2x2 matrix.
 
 #### Determinant of a 2x2 Matrix with Variables
-- **Formula:** $$\begin{vmatrix} x & y \\ z & w \end{vmatrix} = xw - yz$$ — $x, y, z, w$ are variables.
+- **Formula:** \begin{vmatrix} x & y \\ z & w \end{vmatrix} = xw - yz — $x, y, z, w$ are variables.
 - **Application:** Used to calculate the determinant of a 2x2 matrix with variables.
 
 ### <a id="-core-concept-8-determinant-of-a-3x3-matrix"></a>⚡ Core Concept 8: Determinant of a 3x3 Matrix
 
-- **Formula:** $$\begin{vmatrix} a & b & c \\ d & e & f \\ g & h & i \end{vmatrix} = a(ei - fh) - b(di - fg) + c(dh - eg)$$ — $a, b, c, d, e, f, g, h, i$ are elements of the matrix.
+- **Formula:** \begin{vmatrix} a & b & c \\ d & e & f \\ g & h & i \end{vmatrix} = a(ei - fh) - b(di - fg) + c(dh - eg) — $a, b, c, d, e, f, g, h, i$ are elements of the matrix.
 - **Importance:** Used to calculate the determinant of a 3x3 matrix.
 
 #### Determinant of a 3x3 Matrix Using Cofactor Expansion
-- **Formula:** $$\det(A) = a_{11}C_{11} + a_{12}C_{12} + a_{13}C_{13}$$ — $a_{ij}$ are elements of the matrix, $C_{ij}$ are cofactors.
+- **Formula:** \det(A) = a_{11}C_{11} + a_{12}C_{12} + a_{13}C_{13} — $a_{ij}$ are elements of the matrix, $C_{ij}$ are cofactors.
 - **Application:** Used to calculate the determinant of a 3x3 matrix using cofactor expansion.
 
 ### <a id="-core-concept-9-inverse-of-a-matrix"></a>⚡ Core Concept 9: Inverse of a Matrix
 
-- **Formula:** $$A^{-1} = \frac{1}{\det(A)} \cdot \text{adj}(A)$$ — $\text{adj}(A)$ is the adjugate (also known as the classical adjugate) of $A$.
+- **Formula:** A^{-1} = \frac{1}{\det(A)} \cdot \text{adj}(A) — $\text{adj}(A)$ is the adjugate (also known as the classical adjugate) of $A$.
 - **Importance:** Used to find the inverse of a matrix, which is essential for solving systems of equations.
 
 #### Finding the Inverse of a 2x2 Matrix
-- **Formula:** $$A^{-1} = \frac{1}{\det(A)} \cdot \begin{bmatrix} d & -b \\ -c & a \end{bmatrix}$$ — $A$ is a 2x2 matrix.
+- **Formula:** A^{-1} = \frac{1}{\det(A)} \cdot
+
+\begin{bmatrix} d & -b \\ -c & a \end{bmatrix} — $A$ is a 2x2 matrix.
 - **Application:** Used to find the inverse of a 2x2 matrix.
 
 ### <a id="-core-concept-10-solving-systems-of-equations"></a>⚡ Core Concept 10: Solving Systems of Equations
@@ -145,7 +171,7 @@ practice_link: "/class-11/mathematics/determinants-class-12-notes"
 - **Importance:** Determinants are used to find the inverse of the coefficient matrix, which is then used to solve the system of equations.
 
 #### Solving a System of Linear Equations Using Cramer's Rule
-- **Formula:** $$x_i = \frac{\det(A_i)}{\det(A)}$$ — $A_i$ is the matrix obtained by replacing the $i$-th column of $A$ with the constant vector.
+- **Formula:** x_i = \frac{\det(A_i)}{\det(A)} — $A_i$ is the matrix obtained by replacing the $i$-th column of $A$ with the constant vector.
 - **Application:** Used to solve a system of linear equations using Cramer's rule.
 
 ### <a id="-core-concept-11-linear-independence"></a>⚡ Core Concept 11: Linear Independence
@@ -154,7 +180,7 @@ practice_link: "/class-11/mathematics/determinants-class-12-notes"
 - **Importance:** Determinants are used to determine the linear independence of a set of vectors.
 
 #### Checking Linear Independence Using Determinants
-- **Formula:** $$\det(A) \neq 0$$ — $A$ is the matrix whose columns are the vectors.
+- **Formula:** \det(A) \neq 0 — $A$ is the matrix whose columns are the vectors.
 - **Application:** Used to check if a set of vectors is linearly independent.
 
 ### <a id="-core-concept-12-rank-of-a-matrix"></a>⚡ Core Concept 12: Rank of a Matrix
@@ -163,7 +189,7 @@ practice_link: "/class-11/mathematics/determinants-class-12-notes"
 - **Importance:** Determinants are used to find the rank of a matrix, which is essential for determining the solvability of systems of equations.
 
 #### Finding the Rank of a Matrix Using Determinants
-- **Formula:** $$\text{rank}(A) = \max \{k : \det(A_k) \neq 0\}$$ — $A_k$ is the $k \times k$ submatrix of $A$.
+- **Formula:** \text{rank}(A) = \max \{k : \det(A_k) \neq 0\} — $A_k$ is the $k \times k$ submatrix of $A$.
 - **Application:** Used to find the rank of a matrix.
 
 ### <a id="-core-concept-13-advanced-properties-of-determinants"></a>⚡ Core Concept 13: Advanced Properties of Determinants
@@ -173,7 +199,9 @@ practice_link: "/class-11/mathematics/determinants-class-12-notes"
 
 #### ⚡ Cofactor Expansion Along a Row or Column
 
-- **Formula:** $$\begin{vmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{vmatrix} = a_{11}C_{11} + a_{12}C_{12} + a_{13}C_{13}$$ — $C_{ij}$ is the cofactor of $a_{ij}$.
+- **Formula:** \begin{vmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{vmatrix}
+
+= a_{11}C_{11} + a_{12}C_{12} + a_{13}C_{13} — $C_{ij}$ is the cofactor of $a_{ij}$.
 - **Application:** Used to calculate the determinant of a matrix by expanding along a row or column using cofactors.
 
 #### ⚡ Determinant of a Matrix with a Zero Row or Column
@@ -207,12 +235,16 @@ practice_link: "/class-11/mathematics/determinants-class-12-notes"
 
 #### ⚡ Finding the Area of a Triangle
 
-- **Formula:** $$\text{Area} = \frac{1}{2} \cdot |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)|$$ — $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ are vertices of the triangle.
+- **Formula:** \text{Area} = \frac{1}{2} \cdot |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)| — $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ are vertices of the triangle.
 - **Application:** Used to find the area of a triangle given the coordinates of its vertices.
 
 #### ⚡ Finding the Volume of a Parallelepiped
 
-- **Formula:** $$V = |\begin{vmatrix} a & b & c \\ d & e & f \\ g & h & i \end{vmatrix}|$$ — $a, b, c, d, e, f, g, h, i$ are components of the edges of the parallelepiped.
+- **Formula:** V = |
+
+\begin{vmatrix} a & b & c \\ d & e & f \\ g & h & i \end{vmatrix}
+
+| — $a, b, c, d, e, f, g, h, i$ are components of the edges of the parallelepiped.
 - **Importance:** Used to find the volume of a parallelepiped given the components of its edges.
 
 ### <a id="-core-concept-15-review-and-practice"></a>⚡ Core Concept 15: Review and Practice
@@ -272,10 +304,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/determinants-class-12-notes) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/determinants-class-12-notes) now and track your progress against thousands of students.
 
 
 ---

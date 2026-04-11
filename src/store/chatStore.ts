@@ -26,10 +26,12 @@ interface ChatState {
     isThinking: boolean;
     isSearching: boolean;
     streamingText: string;
+    selectedLanguage: 'en' | 'hi' | 'hinglish';
     
     // Actions
     openChat: (message?: string) => void;
     closeChat: () => void;
+    setLanguage: (lang: 'en' | 'hi' | 'hinglish') => void;
     
     // Session Actions
     createSession: (firstMessage?: string) => string;
@@ -48,6 +50,7 @@ interface ChatState {
 }
 
 const STORAGE_KEY = 'exa_chat_sessions';
+const LANGUAGE_KEY = 'exa_selected_language';
 const LEGACY_KEY = 'chat_history';
 
 // Helper to load/migrate sessions
@@ -97,9 +100,14 @@ export const useChatStore = create<ChatState>((set) => ({
     isThinking: false,
     isSearching: false,
     streamingText: '',
+    selectedLanguage: (localStorage.getItem(LANGUAGE_KEY) as any) || 'en',
     
     openChat: (message) => set({ isOpen: true, initialMessage: message || null }),
     closeChat: () => set({ isOpen: false, initialMessage: null }),
+    setLanguage: (lang) => {
+        localStorage.setItem(LANGUAGE_KEY, lang);
+        set({ selectedLanguage: lang });
+    },
     
     createSession: (firstMessage) => {
         const id = 'session-' + Date.now();

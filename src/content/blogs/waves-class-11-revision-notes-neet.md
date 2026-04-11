@@ -177,47 +177,33 @@ Formed when two identical waves traveling in opposite directions superimpose. Th
 
 ### <a id="i-analytical-treatment"></a>I. Analytical Treatment
 1.  **y1 = A sin(kx - ωt)** (Incoming).
-2.  **y2 = A sin(kx + ωt)** (Reflected).
+2.  **y2 = A sin(kx + ωt)** (Reflecte
+d).
 3.  **y_net = (2A cos ωt) sin kx**.
 **Result:** The amplitude **(2A sin kx)** depends on position **x**.
 - **Nodes:** Points of zero displacement (**sin kx = 0**).
 - **Antinodes:** Points of maximum displacement (**sin kx = 1**).
-
 ### <a id="ii-standing-waves-in-a-stretched-string"></a>II. Standing Waves in a Stretched String
 Both ends are fixed, so they must be Nodes.
 **Fundamental Frequency (f1) = v / 2L = (1/2L) √(T/μ)**.
 **Harmonics:** f2 = 2f1, f3 = 3f1... (All harmonics are present).
-
 ### <a id="iii-organ-pipes-the-physics-of-air-columns"></a>III. Organ Pipes: The Physics of Air Columns
 1.  **Closed Pipe (One end closed):** Closed end is a Node, Open end is an Antinode.
-    - **Fundamental:** f1 = v / 4L.
-    - **Harmonics:** 1 : 3 : 5 : ... (**Only odd harmonics**).
+- **Fundamental:** f1 = v / 4L.
+- **Harmonics:** 1 : 3 : 5 : ... (**Only odd harmonics**).
 2.  **Open Pipe (Both ends open):** Both ends are Antinodes.
-    - **Fundamental:** f1 = v / 2L.
-    - **Harmonics:** 1 : 2 : 3 : ... (**All harmonics present**).
+- **Fundamental:** f1 = v / 2L.
+- **Harmonics:** 1 : 2 : 3 : ... (**All harmonics present**).
 > [!TIP]
 > **Exam Secret:** An open pipe is musically richer than a closed pipe of the same length because it produces both even and odd harmonics.
-
 ---
-
-
-
-
 ## <a id="6-beats-interference-in-time"></a>6. Beats: Interference in Time
-
 Formed by the superposition of two waves of slightly different frequencies (**ν1 and ν2**).
 - **Beat Frequency (f_beat) = |ν1 - ν2|**.
 - Used for tuning musical instruments and detecting gas leaks in mines.
-
 ---
-
-
-
-
 ## <a id="7-the-doppler-effect-master-derivation"></a>7. The Doppler Effect (Master Derivation)
-
 The apparent change in frequency of a wave due to the relative [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) between the source and the observer.
-
 ### <a id="i-the-general-formula"></a>I. The General Formula
 **f' = f [ (v ± v_o) / (v ∓ v_s) ]**
 Where:
@@ -226,22 +212,17 @@ Where:
 - **v:** Speed of sound.
 - **v_o:** Velocity of observer.
 - **v_s:** Velocity of source.
-
 ### <a id="ii-derivation-steps"></a>II. Derivation Steps
 1.  Let the source move toward the observer with **v_s**. The wave is "compressed" in front of the source.
 2.  The effective wavelength becomes **λ' = (v - v_s) / f**.
 3.  The observer (stationary) sees frequency **f' = v / λ' = f [v / (v - v_s)]**.
 4.  If the observer also moves toward the source with **v_o**, the relative speed of the wave wrt observer is **(v + v_o)**.
 5.  **f_final = (v + v_o) / λ' = f [ (v + v_o) / (v - v_s) ]**.
-
 ---
+## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&
+A)
+** Q1: Why does sound travel faster in [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than in gases?**
 
-
-
-
-## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
-
-**Q1: Why does sound travel faster in [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than in gases?**
 **Answer:** The speed of sound is **v = √(E / ρ)**. Although solids are much denser than gases (which would decrease speed), their elasticity (E) is significantly higher. Since elasticity dominates the equation, sound travels ~15 times faster in solids than in air.
 
 **Q2: What is Laplace's correction and why was Newton wrong?**
@@ -278,16 +259,7 @@ Waves are the signature of the universe's energy. By mastering the mathematical 
 **Reference:** [The Physics Classroom: Sound Waves and Music](https://www.physicsclassroom.com/class/sound)
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -305,10 +277,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/waves-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/waves-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
 
 ---
@@ -321,3 +290,4 @@ Continue your revision with these related guides:
 - 📖 [Mechanical Properties Of Solids Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
 - 📖 [Motion In A Plane Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet)
 - 📖 [Oscillations Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
+

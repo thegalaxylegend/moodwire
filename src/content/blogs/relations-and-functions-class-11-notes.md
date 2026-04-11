@@ -338,9 +338,8 @@ Relations and Functions is a fundamental concept in mathematics that deals with 
 6x^2 + 4x
 6x^2 - 4x
 
-**Answer:** D) To find (f o g)(x), we replace x in f(x) with g(x). So, (f o g)(x) = f(g(x)) = f(3x + 2) = 2(3x + 2)^2 = 6x^2 + 12x + 8. However, since there was no +8 option, we choose 6x^2 - 4x is the nearest in the options.
-
-
+**Answer:**
+D) To find (f o g)(x), we replace x in f(x) with g(x). So, (f o g)(x) = f(g(x)) = f(3x + 2) = 2(3x + 2)^2 = 6x^2 + 12x + 8. However, since there was no +8 option, we choose 6x^2 - 4x is the nearest in the options.
 **2. If f(x) = 3x^2 - 2 and g(x) = 2x - 1, then (f - g)(x) is equal to?**
 6x^2 - 4x - 1
 6x^2 - 4x + 1
@@ -349,16 +348,14 @@ x^2 - 4x + 3
 
 **Answer:** C) To find (f - g)(x), we subtract g(x) from f(x). So, (f - g)(x) = f(x) - g(x) = (3x^2 - 2) - (2x - 1) = 3x^2 - 2 - 2x + 1 = 3x^2 - 2x - 1, which matches none of the options. The closest is x^2 - 4x + 3, but that's not correct because it doesn't match (f - g)(x). The correct answer is actually none of the options. However, I have chosen option C as per the closest match.
 
-
 **3. If f(x) = 2x^2 + 3x - 5 and g(x) = x^2 - 4, then (f + g)(x) is equal to?**
 3x^2 + 3x - 4
 3x^2 + 3x - 9
 4x^2 + 3x + 1
 4x^2 + 3x - 9
 
-**Answer:** B) To find (f + g)(x), we add g(x) to f(x). So, (f + g)(x) = f(x) + g(x) = (2x^2 + 3x - 5) + (x^2 - 4) = 2x^2 + 3x - 5 + x^2 - 4 = 3x^2 + 3x - 9.
-
-
+**Answer:**
+B) To find (f + g)(x), we add g(x) to f(x). So, (f + g)(x) = f(x) + g(x) = (2x^2 + 3x - 5) + (x^2 - 4) = 2x^2 + 3x - 5 + x^2 - 4 = 3x^2 + 3x - 9.
 **4. If f(x) = 3x^2 + 2x - 1 and g(x) = 2x^2 - x + 3, then (f * g)(x) is equal to?**
 6x^4 - 2x^3 + 7x^2 + 5x - 3
 6x^4 - 2x^3 + 7x^2 - 5x + 3
@@ -366,7 +363,6 @@ x^2 - 4x + 3
 6x^4 + 2x^3 - 7x^2 - 5x + 3
 
 **Answer:** A) To find (f * g)(x), we multiply f(x) with g(x). So, (f * g)(x) = f(x) * g(x) = (3x^2 + 2x - 1)(2x^2 - x + 3) = 6x^4 - 2x^3 + 7x^2 - 5x + 3.
-
 
 **5. If f(x) = x^2 - 2x + 1 and g(x) = x^2 + 2x + 1, then (f / g)(x) is equal to?**
 (x^2 + 3x + 3)
@@ -377,10 +373,7 @@ x^2 - 3x + 1
 **Answer:** C) To find (f / g)(x), we divide f(x) by g(x). So, (f / g)(x) = f(x) / g(x) = (x^2 - 2x + 1) / (x^2 + 2x + 1) = (x^2 + x - x - 1) / (x^2 + x + x + 1) = (x(x + 1) - 1) / ((x + 1)(x + 1)) = (x(x + 1) - 1) / (x + 1)^2 = ((x + 1)x - 1) / (x + 1)^2 = (x^2 + x - 1) / (x + 1)^2 = x^2/(x + 1)^2 - 1/(x + 1)^2 = (x^2 - 1) / (x + 1)^2 = ((x - 1)(x + 1)) / (x + 1)^2 = (x - 1) / (x + 1). However, this is not the closest match in the options. The closest is x^2 - 3x - 1.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -398,10 +391,7 @@ Continue your revision with these related guides:
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/relations-and-functions-class-11-notes) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/relations-and-functions-class-11-notes) now and track your progress against thousands of students.
 
 
 ---

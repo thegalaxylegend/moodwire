@@ -8,7 +8,7 @@ practice_link: "/class-11/biology/biogeography-class-11-revision-notes-neet"
 ---
 
 
-![Biogeography Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog-images/biogeography-class-11-revision-notes-neet.webp)
+![Biogeography Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog-images/biogeography-class-11-revision-notes-neet.webp)
 
 *Last Updated: 2026-03-28*
 
@@ -19,7 +19,7 @@ practice_link: "/class-11/biology/biogeography-class-11-revision-notes-neet"
 
 - [What is Biogeography?](#what-is-biogeography)
 - [Quick Revision & Recap: Biogeography](#quick-revision-and-recap-biogeography)
-  - [JEE/NEET Data](#jeeneet-data)
+  - [JEE/MEET Data](#jeeneet-data)
   - [Core Concepts](#core-concepts)
   - [Formulae Tables](#formulae-tables)
   - [MCQs](#mcqs)
@@ -35,7 +35,7 @@ practice_link: "/class-11/biology/biogeography-class-11-revision-notes-neet"
 - [📚 Related Topics](#-related-topics)
 
 
-# Biogeography Class 11 Biology Revision — NEET 2026 Grandmaster Guide
+# Biogeography Class 11 Biology Revision — MEET 2026 Grandmaster Guide
 
 
 
@@ -60,9 +60,9 @@ Biogeography is the study of the geographical distribution of living organisms. 
 
 As I, Ayush, recall my studies on biogeography, I note that understanding the principles of biogeography is crucial for conservation efforts and predicting how species may respond to environmental changes.
 
-### <a id="jeeneet-data"></a>JEE/NEET Data
-For JEE and [neet](/blog/moving-charges-magnetism-class-11-revision-notes-neet) aspirants, biogeography is an essential topic in the geography and biology sections. Key data points to remember:
-* **Types of biogeographical realms**: 8 realms, including Nearctic, Palearctic, Afrotropic, etc.
+### <a id="keenest-data"></a>JEE/MEET Data
+For JEE and [meet](/blog/moving-charges-magnetism-class-11-revision-notes-neet) aspirants, biogeography is an essential topic in the geography and biology sections. Key data points to remember:
+* **Types of biogeographical realms**: 8 realms, including Nearctic, Palearctic, Aerotropic, etc.
 * **Importance of biogeography**: understanding species distribution, conservation, and environmental management
 * **Key biogeographers**: Alfred Russel Wallace, Charles Darwin, and Philip Darlington
 
@@ -77,12 +77,12 @@ The core concepts in biogeography can be summarized as follows:
 Some key formulae and tables to remember in biogeography include:
 * **Species richness**: the number of species in a given area
 * **Species diversity**: the variety of species in a given area, calculated using the Shannon-Wiener index:
-$$H = -\sum_{i=1}^{S}p_i \ln p_i$$
-where $H$ is the Shannon-Wiener index, $S$ is the number of species, and $p_i$ is the proportion of individuals of species $i$
+MPH = -\sum_{i=1}^{S}p_i \ln p_in
+where THE is the Shannon-Wiener index, IS is the number of species, and up_in is the proportion of individuals of species in
 
 
 
-### <a id="mcqs"></a>MCQs
+### <a id="MCQs"></a>MCQs
 Some practice MCQs to test your understanding of biogeography:
 1. What is the term for a species found only in a specific geographical area?
 a) Endemic species
@@ -101,7 +101,7 @@ Answer: d) All of the above
 ### <a id="trap-exceptions"></a>Trap Exceptions
 Some key exceptions to remember in biogeography:
 * **Wallace's Line**: a biogeographical boundary between the Asian and Australian faunal regions, which does not follow a simple geographical feature
-* **Gondwana**: a supercontinent that existed in the southern hemisphere, which has a distinct biogeographical history
+* **Gondwana**: a supercontinent that existed in the Southern Hemisphere, which has a distinct biogeographical history
 * **Island biogeography**: the study of species distribution on islands, which has unique characteristics and exceptions
 
 As I review these concepts, I realize that biogeography is a complex and fascinating field that requires a deep understanding of geographical and biological principles. By mastering these concepts and formulae, I can better appreciate the intricate patterns of species distribution and the processes that shape our planet's biodiversity. 
@@ -162,20 +162,11 @@ As I reflect on my studies of biogeography, I recognize the connections between 
 
 By recognizing these connections, I can develop a more nuanced understanding of the complex relationships between species, their environments, and the biogeographical processes that shape our planet's biodiversity. 
 
-### <a id="ayushs-personal-note"></a>Ayush's Personal Note
+### <a id="Ayush-personal-note"></a>Ayush's Personal Note
 As I complete my review of biogeography, I am reminded of the importance of this field in understanding the natural world and addressing conservation challenges. I will continue to apply biogeographical principles in my studies and future endeavors, recognizing the significance of this field in promoting a deeper appreciation for the complex patterns and processes that shape our planet's biodiversity.
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -186,17 +177,14 @@ Continue your [revision](/blog/moving-charges-magnetism-class-11-revision-notes-
 
 - 📖 [Art Culture Architecture Class 11 Chemistry Revision — CBSE Boards 2026 Grandmaster Guide](/blog/art-culture-architecture-class-11-revision-notes-jee-neet)
 - 📖 [Oceanography Class 11 Biology Revision — CBSE Boards 2026 Grandmaster Guide](/blog/oceanography-class-11-revision-notes-jee-neet)
-- 📖 [Agriculture Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/agriculture-class-11-revision-notes-neet)
-- 📖 [Body Fluids And Circulation Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/body-fluids-and-circulation-class-11-revision-notes-neet)
+- 📖 [Agriculture Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/agriculture-class-11-revision-notes-neet)
+- 📖 [Body Fluids And Circulation Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/body-fluids-and-circulation-class-11-revision-notes-neet)
 
 
 ---
 
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/biogeography-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/biogeography-class-11-revision-notes-neet) now and track your progress against thousands of students.
 
 
 ---
@@ -206,6 +194,18 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 Continue your [revision](/blog/moving-charges-magnetism-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Art Culture Architecture Class 11 Chemistry Revision — CBSE Boards 2026 Grandmaster Guide](/blog/art-culture-architecture-class-11-revision-notes-jee-neet)
-- 📖 [Current Electricity Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/current-electricity-class-11-revision-notes-neet)
-- 📖 [Moving Charges Magnetism Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/moving-charges-magnetism-class-11-revision-notes-neet)
+- 📖 [Current Electricity Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/current-electricity-class-11-revision-notes-neet)
+- 📖 [Moving Charges Magnetism Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/moving-charges-magnetism-class-11-revision-notes-neet)
 - 📖 [Oceanography Class 11 Biology Revision — CBSE Boards 2026 Grandmaster Guide](/blog/oceanography-class-11-revision-notes-jee-neet)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* **Mistaking Biome for Ecosystem**: A common mistake is using the terms 'biome' and 'ecosystem' interchangeably. However, a biome refers to a large, naturally occurring community of plants and animals that occupy a specific habitat, such as a desert or forest, whereas an ecosystem is a smaller unit that includes both biotic and abiotic factors interacting in a specific environment.
+* **Confusing Endemic with Exotic Species**: Students often confuse endemic species (species found only in a specific geographic region) with exotic species (non-native species introduced to an area). It's crucial to understand that endemic species are unique to a region and play a vital role in its ecosystem, whereas exotic species can be invasive and harm the native ecosystem.
+* **Incorrectly Identifying Types of Migration**: Another mistake is not understanding the different types of migration, such as altitudinal, longitudinal, and latitudinal migration. Each type refers to the movement of species in response to environmental changes, and it's essential to recognize the distinct characteristics of each.
+* **Overlooking the Importance of Geographical Barriers**: Geographical barriers, such as mountains, rivers, and deserts, play a significant role in shaping the distribution of species. Students often overlook the impact of these barriers on species migration, speciation, and adaptation.
+* **Failing to Recognize the Impact of Human Activities on Biogeography**: Human activities, such as deforestation, pollution, and climate change, significantly affect biogeography. It's essential to consider how these activities alter ecosystems, lead to species extinction, and disrupt the delicate balance of biogeographic processes.
+
+## 🔁 Last 5 Minutes Box
+
+* **Wallace's Line**: separates Asia from Australia,* **Weber's Line**: separates Australian and Oriental regions,* **Palaearctic region**: Northern Hemisphere, cold and temperate,* **Nearctic region**: North America, cold and temperate,* **Neotropical region**: Central and South America, tropical,* **Ethiopian region**: Africa, tropical,* **Oriental region**: India, Southeast Asia, tropical,* **Australian region**: Australia, tropical and temperate

@@ -45,16 +45,16 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Remainder Theorem:** $$\frac{p(x)}{x - a} = q(x) + \frac{p(a)}{x - a}$$ — p(x) is the polynomial, q(x) is the quotient, and p(a) is the remainder when p(x) is divided by (x - a).
- - **Factor Theorem:** $$p(a) = 0 \Rightarrow (x - a) \text{ is a factor of } p(x)$$ — p(x) is the polynomial and a is the root.
- - **Polynomial Division:** $$p(x) = d(x)q(x) + r(x)$$ — p(x) is the dividend, d(x) is the divisor, q(x) is the quotient, and r(x) is the remainder.
- - **Degree of Polynomial:** $$\text{Degree of } p(x) = n$$ — n is the highest power of x in p(x).
- - **Zero of Polynomial:** $$p(a) = 0 \Rightarrow a \text{ is a zero of } p(x)$$ — p(x) is the polynomial and a is the zero.
- - **Quadratic Formula:** $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$ — a, b, and c are coefficients of the quadratic equation $ax^2 + bx + c = 0$.
- - **Sum and Product of Roots:** $$x_1 + x_2 = -\frac{b}{a} \text{ and } x_1x_2 = \frac{c}{a}$$ — $x_1$ and $x_2$ are the roots of the quadratic equation $ax^2 + bx + c = 0$.
- - **Cubic Formula:** $$x = \sqrt[3]{-\frac{q}{2} + \sqrt{\frac{q^2}{4} + \frac{p^3}{27}}} + \sqrt[3]{-\frac{q}{2} - \sqrt{\frac{q^2}{4} + \frac{p^3}{27}}}$$ — p and q are coefficients of the cubic equation $x^3 + px + q = 0$.
- - **Descartes' Ru\le of Signs:** $$\text{Number of positive roots} = \text{number of sign changes in } p(x)$$ — p(x) is the polynomial.
- - **Intermediate Value Theorem:** $$\text{If } p(a) < 0 \text{ and } p(b) > 0, \text{ then } \exists c \in (a, b) \text{ such that } p(c) = 0$$ — p(x) is the polynomial and a and b are real numbers.
+- **Remainder Theorem:** \frac{p(x)}{x - a} = q(x) + \frac{p(a)}{x - a} — p(x) is the polynomial, q(x) is the quotient, and p(a) is the remainder when p(x) is divided by (x - a).
+ - **Factor Theorem:** p(a) = 0 \Rightarrow (x - a) \text{ is a factor of } p(x) — p(x) is the polynomial and a is the root.
+ - **Polynomial Division:** p(x) = d(x)q(x) + r(x) — p(x) is the dividend, d(x) is the divisor, q(x) is the quotient, and r(x) is the remainder.
+ - **Degree of Polynomial:** \text{Degree of } p(x) = n — n is the highest power of x in p(x).
+ - **Zero of Polynomial:** p(a) = 0 \Rightarrow a \text{ is a zero of } p(x) — p(x) is the polynomial and a is the zero.
+ - **Quadratic Formula:** x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} — a, b, and c are coefficients of the quadratic equation $ax^2 + bx + c = 0$.
+ - **Sum and Product of Roots:** x_1 + x_2 = -\frac{b}{a} \text{ and } x_1x_2 = \frac{c}{a} — $x_1$ and $x_2$ are the roots of the quadratic equation $ax^2 + bx + c = 0$.
+ - **Cubic Formula:** x = \sqrt[3]{-\frac{q}{2} + \sqrt{\frac{q^2}{4} + \frac{p^3}{27}}} + \sqrt[3]{-\frac{q}{2} - \sqrt{\frac{q^2}{4} + \frac{p^3}{27}}} — p and q are coefficients of the cubic equation $x^3 + px + q = 0$.
+ - **Descartes' Ru\le of Signs:** \text{Number of positive roots} = \text{number of sign changes in } p(x) — p(x) is the polynomial.
+ - **Intermediate Value Theorem:** \text{If } p(a) < 0 \text{ and } p(b) > 0, \text{ then } \exists c \in (a, b) \text{ such that } p(c) = 0 — p(x) is the polynomial and a and b are real numbers.
 
 
 
@@ -138,7 +138,7 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-- **The Hidden Pattern:** In the realm of polynomials, a specific pattern emerges when analyzing the roots of a quadratic equation $ax^2 + bx + c = 0$. The roots can be found using the quadratic formula: $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$. Upon closer inspection, it becomes apparent that the nature of the roots (real and distinct, real and equal, or complex) is determined by the discriminant $b^2 - 4ac$. This pattern can be extended to polynomial equations of higher degrees, where the nature of the roots is influenced by the coefficients of the polynomial.,- **How to Apply It:** To apply this pattern, first identify the coefficients of the polynomial and then analyze the discriminant to determine the nature of the roots. For instance, given a polynomial $x^3 + px^2 + qx + r = 0$, the roots can be found using Cardano's formula, which involves the discriminant $\Delta = 18pqr - 4p^3r + p^2q^2 - 4q^3 - 27r^2$. By examining the discriminant, one can infer the nature of the roots and proceed with solving the polynomial equation.,- **PYQ-Specific Trend:** Upon analyzing previous years' questions (PYQs), a trend emerges where polynomial equations with specific coefficients are used to test the candidate's understanding of the roots' nature. For examp\le, equations of the form $x^2 + px + q = 0$ with $p$ and $q$ being integers often appear, requiring the candidate to determine the nature of the roots and find the values of $p$ and $q$ that satisfy certain conditions. This trend is also visible in higher-degree polynomial equations, where the coefficients are chosen to test the candidate's ability to apply the pattern and find the roots.,- **Solving Strategy:** When faced with a polynomial equation, first identify the degree of the polynomial and then apply the relevant formula to find the roots. For quadratic equations, use the quadratic formula, while for higher-degree equations, use formulas like Cardano's formula or synthetic division. Remember to analyze the discriminant to determine the nature of the roots and proceed accordingly. With practice and patience, one can master the art of solving polynomial equations and tack\le even the most challenging problems with ease.
+- **The Hidden Pattern:** polynomials, a specific pattern emerges when analyzing the roots of a quadratic equation $ax^2 + bx + c = 0$. The roots can be found using the quadratic formula: x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}. Upon closer inspection, it becomes apparent that the nature of the roots (real and distinct, real and equal, or complex) is determined by the discriminant $b^2 - 4ac$. This pattern can be extended to polynomial equations of higher degrees, where the nature of the roots is influenced by the coefficients of the polynomial.,- **How to Apply It:** To apply this pattern, first identify the coefficients of the polynomial and then analyze the discriminant to determine the nature of the roots. For instance, given a polynomial $x^3 + px^2 + qx + r = 0$, the roots can be found using Cardano's formula, which involves the discriminant $\Delta = 18pqr - 4p^3r + p^2q^2 - 4q^3 - 27r^2$. By examining the discriminant, one can infer the nature of the roots and proceed with solving the polynomial equation.,- **PYQ-Specific Trend:** Upon analyzing previous years' questions (PYQs), a trend emerges where polynomial equations with specific coefficients are used to test the candidate's understanding of the roots' nature. For examp\le, equations of the form $x^2 + px + q = 0$ with $p$ and $q$ being integers often appear, requiring the candidate to determine the nature of the roots and find the values of $p$ and $q$ that satisfy certain conditions. This trend is also visible in higher-degree polynomial equations, where the coefficients are chosen to test the candidate's ability to apply the pattern and find the roots.,- **Solving Strategy:** When faced with a polynomial equation, first identify the degree of the polynomial and then apply the relevant formula to find the roots. For quadratic equations, use the quadratic formula, while for higher-degree equations, use formulas like Cardano's formula or synthetic division. Remember to analyze the discriminant to determine the nature of the roots and proceed accordingly. With practice and patience, one can master the art of solving polynomial equations and tack\le even the most challenging problems with ease.
 
 | Polynomial Degree | Formula | Discriminant |
 | --- | --- | --- |
@@ -149,18 +149,18 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- $${\rm If}\ {a_n} = 0$, then $${x - {\alpha}_1}$$ is a factor of $${f(x)}$$, where $${\alpha}_1}$$ is a root.
- - $${f(x)} = {a_n}{x^n} + {a_{n-1}}{x^{n-1}} + {a_{n-2}}{x^{n-2}} + ... + {a_1}x + {a_0}$$ 
- - $${(x + y)}^n = {\binom{n}{0}}{x^n} + {\binom{n}{1}}{x^{n-1}}y + {\binom{n}{2}}{x^{n-2}}{y^2} + ... + {\binom{n}{n}}{y^n}$$ 
- - $${(x - y)}^n = {\binom{n}{0}}{x^n} - {\binom{n}{1}}{x^{n-1}}y + {\binom{n}{2}}{x^{n-2}}{y^2} - ... + {(-1)}^n{\binom{n}{n}}{y^n}$$ 
- - $${a_n}{x^n} + {a_{n-1}}{x^{n-1}} + {a_{n-2}}{x^{n-2}} + ... + {a_1}x + {a_0} = 0$$ has $${n}$$ roots.
+- {\rm If}\ {a_n} = 0$, then {x - {\alpha}_1} is a factor of {f(x)}, where {\alpha}_1} is a root.
+ - {f(x)} = {a_n}{x^n} + {a_{n-1}}{x^{n-1}} + {a_{n-2}}{x^{n-2}} + ... + {a_1}x + {a_0} 
+ - {(x + y)}^n = {\binom{n}{0}}{x^n} + {\binom{n}{1}}{x^{n-1}}y + {\binom{n}{2}}{x^{n-2}}{y^2} + ... + {\binom{n}{n}}{y^n} 
+ - {(x - y)}^n = {\binom{n}{0}}{x^n} - {\binom{n}{1}}{x^{n-1}}y + {\binom{n}{2}}{x^{n-2}}{y^2} - ... + {(-1)}^n{\binom{n}{n}}{y^n} 
+ - {a_n}{x^n} + {a_{n-1}}{x^{n-1}} + {a_{n-2}}{x^{n-2}} + ... + {a_1}x + {a_0} = 0 has {n} roots.
  - Key facts:
- - When a polynomial $${f(x)}$$ is divided by $${(x - {\alpha})}$$, the remainder is $${f({\alpha})}$$.
- - The polynomial $${f(x)}$$ has $${n}$$ roots.
- - If the degree of $${f(x)}$$ is $${n}$$, then the number of turning points is $${n-1}$$.
+ - When a polynomial {f(x)} is divided by {(x - {\alpha})}, the remainder is {f({\alpha})}.
+ - The polynomial {f(x)} has {n} roots.
+ - If the degree of {f(x)} is {n}, then the number of turning points is {n-1}.
  - Common mistakes:
- - Forgetting that if $${a_n} = 0$$, then $${x}$$ is a factor of $${f(x)}$$.
- - Not checking the degree of the remainder when dividing polynomials. $$ $
+ - Forgetting that if {a_n} = 0, then {x} is a factor of {f(x)}.
+ - Not checking the degree of the remainder when dividing polynomials.  $
 
 
 
@@ -168,7 +168,6 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
 
 
 **1. If $p(x)$ is a polynomial of degree 4, and $p(1) = 5$, $p(2) = 10$, $p(3) = 17$, $p(4) = 26$, then $p(5)$ is equal to**
-
 A) 37
 B) 50
 C) 41
@@ -179,7 +178,6 @@ D) 35
 ---
 
 **2. If $x^3 + px + q = 0$ has three distinct real roots, then which of the following holds?**
-
 A) $p > 0$, $q < 0$
 B) $p < 0$, $q < 0$
 C) $p > 0$, $q > 0$
@@ -190,7 +188,6 @@ D) $p < 0$, $q > 0$
 ---
 
 **3. The equation $x^4 - 6x^2 + 5 = 0$ can be written in the form of**
-
 A) $(x^2 - 5)(x^2 - 1)$
 B) $(x^2 - 1)(x^2 - 5)$
 C) $(x - 1)(x + 1)(x - sqrt{5})(x + sqrt{5})$
@@ -201,7 +198,6 @@ D) $(x^2 - 1)(x^2 + 5)$
 ---
 
 **4. If $a$, $b$ are the roots of the equation $x^2 - 6x + 5 = 0$, then the equation whose roots are $\frac{1}{a}$, $\frac{1}{b}$ is**
-
 A) $x^2 - \frac{5}{6}x + 1 = 0$
 B) $x^2 - \frac{6}{5}x + 1 = 0$
 C) $x^2 + \frac{6}{5}x + 1 = 0$
@@ -212,7 +208,6 @@ D) $x^2 + \frac{5}{6}x + 1 = 0$
 ---
 
 **5. If the polynomial $f(x) = ax^3 + bx^2 + cx + d$ has a local maximum at $x = -2$, and $f'(x) = 2x + 1$, then the value of $c$ is**
-
 A) $-2$
 B) $-4$
 C) $-3$
@@ -240,3 +235,4 @@ Continue your revision with these related guides:
 - 📖 [Pair of Linear Equations Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/pair-of-linear-equations-class-10-notes)
 - 📖 [Quadratic Equations Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/quadratic-equations-class-10-notes)
 - 📖 [Real Numbers Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/real-numbers-class-10-notes)
+
