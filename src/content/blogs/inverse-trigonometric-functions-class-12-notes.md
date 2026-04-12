@@ -59,7 +59,7 @@ practice_link: "/class-11/mathematics/inverse-trigonometric-functions-class-12-n
  + $\cos^{-1}(\cos (\frac{\pi}{4}))$
 * 1 numerical on inverse trigonometric functions as limits — always, focusing on evaluating limits of the form $\lim_{x \to 0} \frac{\sin^{-1}x}{x}$.
 * Comparison of inverse trigonometric [functions](/blog/relations-and-functions-class-11-notes) — JEE favourite, including comparison of their ranges, domains, and graphical representations.
-* 1 question on using inverse trigonometric functions to solve trigonometric equations, such as:
+* 1 question on using inverse trigonometric [functions](/blog/relations-and-functions-class-11-notes) to solve trigonometric equations, such as:
  + Solving $\sin x = \frac{1}{2}$ using $\sin^{-1}x$
  + Solving $\cos x = \frac{1}{2}$ using $\cos^{-1}x$
 * Inverse trigonometric functions in terms of logarithms — always, including expressions like:

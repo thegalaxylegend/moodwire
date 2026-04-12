@@ -119,7 +119,7 @@ Explore our [Sitemap](/sitemap.xml) for more resources.
 Yes, for qualification purposes. However, to secure a top rank in an NIT or qualify for JEE Advanced, you should aim for 70–80% of the syllabus, always starting with these high-ROI chapters to build a solid scoring base.
 
 ### <a id="2-is-rotational-dynamics-a-lowroi-chapter"></a>2. Is Rotational Dynamics a low-ROI chapter?
-Mathematically, yes. It takes significant time to master and usually yields only 1–2 questions. While it helps with overall Physics intuition, it should not be your priority if you are short on preparation time.
+Mathematically, yes. It takes significant time to [master](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet) and usually yields only 1–2 questions. While it helps with overall Physics intuition, it should not be your priority if you are short on preparation time.
 
 ### <a id="3-which-subject-is-the-easiest-to-score-in"></a>3. Which subject is the easiest to score in?
 [chemistry](/blog/environmental-chemistry-class-11-revision-notes-neet) is statistically the easiest and most scorable. Many questions are direct or semi-direct from NCERT. If you know the concept, you get the marks quickly, leaving more time for the calculations required in Physics and Math.
@@ -133,7 +133,7 @@ Mathematically, yes. It takes significant time to master and usually yields only
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet) with these related guides:
 
 - 📖 [Study 12 Hours Daily Tips Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/study-12-hours-daily-tips-class-11-revision-notes-jee-neet)
 - 📖 [State Scholarship Guide 2026 Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)

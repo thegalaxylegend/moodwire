@@ -65,11 +65,17 @@ The following formulae are relevant to the excretory system:
 
 * **Glomerular filtration rate (GFR)**: The rate at which the kidneys filter the blood to remove waste products and excess substances. The GFR can be calculated using the following formula:
 
+
 \text{GFR} = \frac{\text{urine output} \times \text{urea concentration in urine}}{\text{urea concentration in blood}}
+
+
 
 * **Cockcroft-Gault equation**: An equation used to estimate the GFR based on serum creatinine levels, age, sex, and weight:
 
+
 \text{GFR} = \frac{(140 - \text{age}) \times \text{weight} \times (0.85 \text{ if female})}{72 \times \text{serum creatinine}}
+
+
 
 ### <a id="jeeneet-data"></a>JEE/NEET Data
 The excretory system is an important topic in the JEE and [neet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) exams. The following data is relevant to the excretory system:
@@ -129,7 +135,7 @@ The excretory system is also involved in the regulation of the body's acid-base 
 The excretory system is also involved in the regulation of the body's electrolyte balance. The kidneys play a crucial role in this process by removing excess electrolytes from the body. The liver also plays a role in electrolyte balance by producing bile and helping to regulate the body's metabolism.
 
 ### <a id="jeeneet-data-cont"></a>JEE/NEET Data Cont.
-The following JEE/NEET data is relevant to the excretory system:
+The following JEE/[neet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) data is relevant to the excretory system:
 
 * **Kidney function**: The kidneys filter approximately 180 liters of blood per day, and produce approximately 1.5 liters of urine.
 * **Liver function**: The liver detoxifies approximately 1 liter of blood per minute.

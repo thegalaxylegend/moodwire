@@ -127,7 +127,7 @@ An **Electric Field (E)** is the region around a charged particle where another 
 
 ### <a id="i-electric-field-lines"></a>I. Electric Field Lines
 - Path along which a positive test charge would move.
-- Directed away from positive charges and toward negative charges.
+- Directed away from positive [charges](/blog/moving-charges-magnetism-class-11-revision-notes-neet) and toward negative [charges](/blog/moving-charges-magnetism-class-11-revision-notes-neet).
 - The density of lines indicates field strength.
 - **Two field lines never intersect** (otherwise, there would be two directions of force at one point).
 
@@ -282,7 +282,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Moving Charges Magnetism Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/moving-charges-magnetism-class-11-revision-notes-neet)
 - 📖 [Current Electricity Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/current-electricity-class-11-revision-notes-neet)

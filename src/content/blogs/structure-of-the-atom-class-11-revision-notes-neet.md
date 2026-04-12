@@ -87,7 +87,7 @@ The structure of an atom is a crucial topic for JEE/[neet](/blog/classification-
 
 * The average weightage of the structure of an atom in JEE mains is around 10-15%.
 * The average weightage of the structure of an atom in [neet](/blog/classification-of-elements-class-11-revision-notes-jee-neet) is around 12-18%.
-* The most common topics asked in JEE/NEET exams are atomic number, mass number, isotopes, and electron configuration.
+* The most common topics asked in JEE/[neet](/blog/classification-of-elements-class-11-revision-notes-jee-neet) exams are atomic number, mass number, isotopes, and electron configuration.
 
 
 

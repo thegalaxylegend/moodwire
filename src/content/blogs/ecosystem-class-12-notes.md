@@ -46,10 +46,10 @@ practice_link: "/class-11/biology/ecosystem-class-12-notes"
  - **Predator-Prey Equations:** 
 
  
+
 \frac{dH}{dt} = rH \times (1 - \frac{H}{K}) - aHP
 
 \frac{dP}{dt} = eHP - mP
-
 
  — Where $H$ is the prey population, $P$ is the predator population, $r$ is the intrinsic growth rate of the prey, $K$ is the carrying capacity of the prey, $a$ is the predation rate, $e$ is the conversion efficiency of prey into predator biomass, and $m$ is the mortality rate of the predator.
 
@@ -107,7 +107,7 @@ practice_link: "/class-11/biology/ecosystem-class-12-notes"
 
  - **Trap:** Students may incorrectly calculate the efficiency of energy transfer.
 
- - **Solution:** The efficiency of energy transfer can be calculated using the formula: \text{Efficiency} = \left( \frac{\text{Energy at secondary consumer level}}{\text{Energy at primary consumer level}} \right) \times 100 Substituting the given values: \text{Efficiency} = \left( \frac{0.8}{4} \right) \times 100 = 20%
+- **Solution:** The efficiency of energy transfer can be calculated using the formula: \text{Efficiency} = \left( \frac{\text{Energy at secondary consumer level}}{\text{Energy at primary consumer level}} \right) \times 100 Substituting the given values: \text{Efficiency} = \left( \frac{0.8}{4} \right) \times 100 = 20%
 
  - **Answer:** $20%$
 

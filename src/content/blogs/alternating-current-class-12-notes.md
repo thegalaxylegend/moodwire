@@ -62,7 +62,7 @@ Some essential concepts that we'll cover in our journey through AC include:
 * **AC waveform**: The graphical representation of an AC signal, which can be **sine**, **square**, or **triangular** in shape.
 * **Frequency**: The number of oscillations or cycles per second, measured in **Hertz (Hz)**.
 * **Phase difference**: The difference in phase between two or more AC waveforms, which can be represented using **phasors**.
-* **Impedance**: The total opposition to the flow of an AC current, which includes **resistance**, **inductive reactance**, and **capacitive reactance**.
+* **Impedance**: The total opposition to the flow of an AC [current](/blog/magnetic-effects-of-current-class-12-notes), which includes **resistance**, **inductive reactance**, and **capacitive reactance**.
 
 As we the world of AC, you'll encounter various types of AC circuits, including:
 * **Series LCR circuits**: Circuits consisting of a resistor, inductor, and capacitor connected in series.
@@ -93,7 +93,7 @@ In the upcoming sections, we'll explore each of these topics in detail, using a 
 By following this introduction and the subsequent sections, you'll be well on your way to mastering the concept of Alternating Current and achieving success in the [class](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) 12 exams. Remember to stay focused, practice regularly, and review the key concepts to ensure a deep understanding of the subject. 
 
 **Exam Day Summary:**
-To summarize, Alternating Current is a crucial topic in Class 12 Physics, with a significant weightage in the board exams. To excel in this topic, it's essential to have a solid foundation in electromagnetic induction, LCR circuits, oscillations, and trigonometry. By understanding key concepts like AC waveforms, phasors, impedance, and phase difference, you'll be able to analyze and solve problems involving AC circuits. Stay focused, avoid common mistakes, and practice regularly to achieve success in the exams.
+To summarize, Alternating Current is a crucial topic in [class](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) 12 Physics, with a significant weightage in the board exams. To excel in this topic, it's essential to have a solid foundation in electromagnetic induction, LCR circuits, oscillations, and trigonometry. By understanding key concepts like AC waveforms, phasors, impedance, and phase difference, you'll be able to analyze and solve problems involving AC circuits. Stay focused, avoid common mistakes, and practice regularly to achieve success in the exams.
 
 
 

@@ -106,7 +106,7 @@ Organic farming has no role in agriculture
 *This post was curated by Jules, [exam](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet) Compass Bot, and edited for accuracy by Ayush.*
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, [exam](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet) Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -142,7 +142,7 @@ Continue your [revision](/blog/3d-geometry-intro-class-11-revision-notes-jee-nee
 ## 🔁 Last 5 Minutes Box
 
 
-   * Crop: plants grown on large scale for food, fodder or commercial purposes
+   * Crop: [plants](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet) grown on large scale for food, fodder or commercial purposes
    * Crop variety: crop grown for specific feature/characteristic
    * Intercropping: growing two or more crops simultaneously on same field
    * Crop rotation: growing different crops on same field in sequential seasons

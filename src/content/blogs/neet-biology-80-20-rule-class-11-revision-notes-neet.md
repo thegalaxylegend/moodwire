@@ -86,9 +86,9 @@ Biotech has the highest "Questions-per-Page" ratio in the entire biology syllabu
 
 The following chapters require massive memorization but yield very few questions (typically 1-2 each). Study them, but **do not let them consume your primary [revision](/blog/animal-kingdom-class-11-revision-notes-neet) cycle**:
 * Plant [kingdom](/blog/animal-kingdom-class-11-revision-notes-neet) (heavy memorization of examples)
-* Animal Kingdom (focus only on defining phylum characteristics)
+* [animal](/blog/animal-kingdom-class-11-revision-notes-neet) Kingdom (focus only on defining phylum characteristics)
 * Morphology of [flowering](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet) Plants (extreme rote learning required for floral formulas)
-* Anatomy of Flowering Plants
+* [anatomy](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet) of Flowering Plants
 
 
 
@@ -101,7 +101,7 @@ Your [revision](/blog/agriculture-class-11-revision-notes-neet) cycles should no
 2. **Iteration 2.** Cover the moderate yield topics (Reproduction, Microbes, Human Health).
 3. **Iteration 3.** Skim the Low-Yield "Time Sink" chapters right before the exam, relying strictly on NCERT summaries and past year questions. 
 
-By applying the 80/20 rule, you transform your NEET preparation from an exhausting marathon into a highly targeted sniper operation. 
+By applying the 80/20 rule, you transform your [neet](/blog/agriculture-class-11-revision-notes-neet) preparation from an exhausting marathon into a highly targeted sniper operation. 
 
 **Next Steps.** Jump into the [NEET Biology Questions Database](/neet) and filter by "Molecular Basis of Inheritance" to lock in those high-yield concepts immediately.
 

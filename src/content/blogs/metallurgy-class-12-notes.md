@@ -61,7 +61,10 @@ practice_link: "/class-11/chemistry/metallurgy-class-12-notes"
  - Refining of metals: metallurgical processes are used to purify metals.
 
 ### <a id="extraction-of-metals"></a>Extraction of Metals
+
 - Extraction of metals involves the use of the reaction \Delta G = \Delta H - T\Delta S to determine the feasibility of the extraction process.
+
+
 - Types of extraction methods: 
  - Carbon reduction: involves the use of carbon to reduce metal oxides to metals.
  - Hydrogen reduction: involves the use of hydrogen to reduce metal oxides to metals.
@@ -73,7 +76,10 @@ practice_link: "/class-11/chemistry/metallurgy-class-12-notes"
 - Ellingham diagram is used to plot the Gibbs free energy change of formation of oxides as a function of temperature.
 - [application](/blog/application-of-integrals-class-12-notes) of Ellingham diagram: 
  - Determining the feasibility of metal extraction processes: the Ellingham diagram is used to determine the feasibility of metal extraction processes.
+
 - \Delta G = \Delta H - T\Delta S: equation used to calculate the Gibbs free energy change.
+
+
 #### Key Features of Ellingham Diagram
 - It helps in predicting the stability of oxides.
 - It helps in determining the temperature required for the reduction of metal oxides.
@@ -106,7 +112,10 @@ practice_link: "/class-11/chemistry/metallurgy-class-12-notes"
 - It is based on the principle of fractional crystallization.
 
 ### <a id="thermodynamic-principles"></a>Thermodynamic Principles
-- Thermodynamic principles involve the application of \Delta G = \Delta H - T\Delta S in metallurgy.
+
+- Thermodynamic principles involve the [application](/blog/application-of-integrals-class-12-notes) of \Delta G = \Delta H - T\Delta S in metallurgy.
+
+
 - Types of thermodynamic principles: 
  - Gibbs free energy change: involves the change in Gibbs free energy during a reaction.
  - Enthalpy change: involves the change in enthalpy during a reaction.
@@ -114,7 +123,10 @@ practice_link: "/class-11/chemistry/metallurgy-class-12-notes"
 - Applications of thermodynamic principles: 
  - Determining the feasibility of metal extraction processes: thermodynamic principles are used to determine the feasibility of metal extraction processes.
 #### Equilibrium Constant
+
 - It is related to the Gibbs free energy change by the equation: \Delta G = -RT\ln K
+
+
 
 ### <a id="electrochemical-principles"></a>Electrochemical Principles
 - Electrochemical principles involve the application of E^{\circ}_{cell} = E^{\circ}_{cathode} - E^{\circ}_{anode} in metallurgy.
@@ -124,7 +136,10 @@ practice_link: "/class-11/chemistry/metallurgy-class-12-notes"
 - Applications of electrochemical principles: 
  - Determining the feasibility of metal extraction processes: electrochemical principles are used to determine the feasibility of metal extraction processes.
 #### Nernst Equation
+
 - It is used to calculate the electrode potential: E = E^{\circ} - \frac{RT}{nF}\ln Q
+
+
 
 ### <a id="electrolytic-reduction"></a>Electrolytic Reduction
 - Electrolytic reduction involves the use of electricity to reduce metal ions to metals.
@@ -170,9 +185,14 @@ When it comes to metallurgical processes, there are several common mistakes that
 5. **Lack of quality control**: Quality control is essential in metallurgical processes. If the metal is not properly inspected, it can contain defects that can affect its properties.
 
 #### Extraction of Metals
+
 Extraction of metals involves the use of the reaction \Delta G = \Delta H - T\Delta S to determine the feasibility of the extraction process. This equation is used to calculate the Gibbs free energy change, which is a measure of the energy change that occurs during a reaction. The equation is as follows:
+
 \Delta G = \Delta H - T\Delta S
+
 where \Delta G is the Gibbs free energy change, \Delta H is the enthalpy change, T is the temperature, and \Delta S is the entropy change.
+
+
 
 #### Reduction Methods
 Reduction methods involve the use of a reducing agent to extract metals from their ores. There are several types of reduction methods, including carbon reduction, hydrogen reduction, and metal reduction. Each of these methods has its own advantages and disadvantages, and the choice of method depends on the type of metal being extracted.
@@ -181,7 +201,10 @@ Reduction methods involve the use of a reducing agent to extract metals from the
 Refining of metals involves the use of zone refining or van Arkel method to purify metals. Zone refining involves the use of a molten zone to purify metals, while the van Arkel method involves the use of a reactor to purify metals. Both of these methods are used to remove impurities from the metal and produce high-purity metals.
 
 #### Thermodynamic Principles
+
 Thermodynamic principles involve the application of \Delta G = \Delta H - T\Delta S in metallurgy. This equation is used to determine the feasibility of metal extraction processes. The Gibbs free energy change is a measure of the energy change that occurs during a reaction, and it can be used to determine whether a reaction is spontaneous or not.
+
+
 
 #### Electrochemical Principles
 Electrochemical principles involve the application of E^{\circ}_{cell} = E^{\circ}_{cathode} - E^{\circ}_{anode} in metallurgy. This equation is used to determine the feasibility of metal extraction processes. The cell potential is a measure of the potential difference between the cathode and anode, and it can be used to determine whether a reaction is spontaneous or not.

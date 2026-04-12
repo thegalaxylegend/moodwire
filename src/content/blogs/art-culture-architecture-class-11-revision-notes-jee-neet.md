@@ -144,3 +144,16 @@ Continue your [revision](/blog/ancient-india-mahajanapadas-class-11-revision-not
 * **Mistake 3: Not Considering the Empty Space in Crystal Lattice**: Some students forget to consider the empty space in a crystal lattice while calculating the density of the crystal. This can lead to incorrect calculations and answers.
 * **Mistake 4: Confusing Between Different Types of Crystal Lattices**: Students often get confused between different types of crystal lattices such as cubic, tetragonal, orthorhombic, etc. Each type of lattice has its own unique characteristics and students should be able to identify and distinguish between them.
 * **Mistake 5: Not Understanding the Concept of Packing Efficiency**: Packing efficiency is an important concept in crystal chemistry, but many students struggle to understand it. Packing efficiency refers to the percentage of space occupied by atoms in a crystal lattice, and students should be able to calculate it using the formula: packing efficiency = (volume of atoms in unit cell) / (volume of unit cell) x 100
+
+## 🔁 Last 5 Minutes Box
+
+* **Chemical Bonding**: Ionic (electrostatic), Covalent (sharing), Hydrogen bonding
+* **Periodic Table**: Metals (s-block), Non-metals (p-block), Metalloids (border)
+* **Chemical Reactions**: Synthesis, Decomposition, Single displacement, Double displacement
+* **Atomic Structure**: Protons, Neutrons, Electrons, Orbitals (s, p, d, f)
+* **Thermodynamics**: Laws (Zeroth, First, Second, Third), Entropy, Enthalpy, Gibbs free energy
+* **Kinetics**: Rate of reaction, Catalysts, Activation energy, Collision theory
+* **Equilibrium**: Law of mass action, KP, Kc, Le Ch atelier's principle
+* **Acids and Bases**: Arrhenius, Brønsted-Lowry, Lewis, pH scale
+* **Electrochemistry**: Electrolysis, Galvanic cell, EMF, Electrode potential
+* **Biomolecules**: Carbohydrates, Proteins, Lipids, Nucleic acids

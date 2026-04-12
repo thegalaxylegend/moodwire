@@ -27,29 +27,29 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 
 - **Basal Metabolic Rate (BMR):** \	ext{BMR} = 66 + (6.2 \	imes \	ext{weight in lbs}) + (12.7 \	imes \	ext{height in inches}) - (6.8 \	imes \	ext{age in years}) — Weight in lbs, height in inches, age in years
 
- - **Body Mass Index (BMI):** \	ext{BMI} = \frac{\	ext{weight in kg}}{\	ext{height in meters}^2} — Weight in kg, height in meters
+- **Body Mass Index (BMI):** \	ext{BMI} = \frac{\	ext{weight in kg}}{\	ext{height in meters}^2} — Weight in kg, height in meters
 
  - **Daily Energy Expenditure:** \	ext{DEE} = \	ext{BMR} \	imes \	ext{activity factor} — BMR, activity factor
 
- - **Respiratory Quotient (RQ):** \	ext{RQ} = \frac{\	ext{volume of CO}_2 \	ext{produced}}{\	ext{volume of O}_2 \	ext{consumed}} — Volume of CO2 produced, volume of O2 consumed
+- **Respiratory Quotient (RQ):** \	ext{RQ} = \frac{\	ext{volume of CO}_2 \	ext{produced}}{\	ext{volume of O}_2 \	ext{consumed}} — Volume of CO2 produced, volume of O2 consumed
 
  - **Arteriovenous Oxygen Difference:** \	ext{a-v O}_2 \	ext{ difference} = \	ext{CaO}_2 - \	ext{CvO}_2 — CaO2 (arterial oxygen content), CvO2 (venous oxygen content)
 
  - **Cardiac Output (CO):** \	ext{CO} = \	ext{HR} \	imes \	ext{SV} — HR (heart rate), SV (stroke volume)
 
- - **Mean Arterial Pressure (MAP):** \	ext{MAP} = \frac{2 \	imes \	ext{diastolic blood pressure} + \	ext{systolic blood pressure}}{3} — Diastolic blood pressure, systolic blood pressure
+- **Mean Arterial Pressure (MAP):** \	ext{MAP} = \frac{2 \	imes \	ext{diastolic blood pressure} + \	ext{systolic blood pressure}}{3} — Diastolic blood pressure, systolic blood pressure
 
  - **Cerebral Perfusion Pressure (CPP):** \	ext{CPP} = \	ext{MAP} - \	ext{ICP} — MAP (mean arterial pressure), ICP (intracranial pressure)
 
- - **Glomerular Filtration Rate (GFR):** \	ext{GFR} = \frac{\	ext{urine flow rate} \	imes \	ext{urine concentration}}{\	ext{plasma concentration}} — Urine flow rate, urine concentration, plasma concentration
+- **Glomerular Filtration Rate (GFR):** \	ext{GFR} = \frac{\	ext{urine flow rate} \	imes \	ext{urine concentration}}{\	ext{plasma concentration}} — Urine flow rate, urine concentration, plasma concentration
 
- - **Half-life of a Substance:** t_{1/2} = \frac{0.693}{k} — k (elimination rate constant)
+- **Half-life of a Substance:** t_{1/2} = \frac{0.693}{k} — k (elimination rate constant)
 
- - **Michaelis-Menten Kinetics:** v = \frac{V_{\	ext{max}} \	imes [S]}{K_m + [S]} — v (reaction velocity), Vmax (maximum velocity), [S] (substrate concentration), Km (Michaelis constant)
+- **Michaelis-Menten Kinetics:** v = \frac{V_{\	ext{max}} \	imes [S]}{K_m + [S]} — v (reaction velocity), Vmax (maximum velocity), [S] (substrate concentration), Km (Michaelis constant)
 
- - **Half-life of a Substance:** t_{1/2} = \\frac{0.693}{k} — k (elimination rate constant)
+- **Half-life of a Substance:** t_{1/2} = \frac{0.693}{k} — k (elimination rate constant)
 
- - **Michaelis-Menten Kinetics:** v = \\frac{V_{\	ext{max}} \	imes [S]}{K_m + [S]} — v (reaction velocity), Vmax (maximum velocity), [S] (substrate concentration), Km (Michaelis constant)
+- **Michaelis-Menten Kinetics:** v = \frac{V_{\	ext{max}} \	imes [S]}{K_m + [S]} — v (reaction velocity), Vmax (maximum velocity), [S] (substrate concentration), Km (Michaelis constant)
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -94,10 +94,10 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
  Sickle cell anemia is caused by a mutation in the $\beta$-globin chain of hemoglobin, leading to the production of abnormal hemoglobin known as sickle hemoglobin or hemoglobin S. This mutation results in the substitution of valine for glutamic acid at the sixth position of the $\beta$-globin chain. The abnormal hemoglobin causes red blood cells to become sickle-shaped under low oxygen conditions, leading to various health issues.
 
  
+
 \text{Normal hemoglobin: } \alpha_2 \beta_2
 
 \text{Sickle hemoglobin: } \alpha_2 \beta^{S}_2
-
 
  - **Answer:** Mutation in the $\beta$-globin chain of hemoglobin.
 
@@ -149,15 +149,13 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 
  - Understanding the concept of $\text{epigenetic}$ modifications and how they influence gene expression in immune cells, affecting disease susceptibility and severity.
 
- - **Critical Thinking:** 95% scorers can apply the concept of immune homeostasis to predict the outcomes of immunotherapies or the effects of environmental factors on disease progression, setting them apart from 85% scorers who may only recall facts without deeper understanding or application.
+ - **Critical Thinking:** 95% scorers can apply the concept of immune homeostasis to predict the outcomes of immunotherapies or the effects of [environmental](/blog/environmental-issues-class-12-notes) factors on disease progression, setting them apart from 85% scorers who may only recall facts without deeper understanding or application.
 
 | Disease | Immune System Imbalance | Example of Dysregulation |
 | --- | --- | --- |
 | Autoimmune Diseases (Rheumatoid Arthritis) | Overactive immune response | $\uparrow$ Pro-inflammatory cytokines ($\text{IL-1}$, $\text{TNF-}\alpha$) |
 | Immunodeficiency Diseases (HIV/AIDS) | Underactive immune response | $\downarrow$ CD4$^+$ T cells |
 | Asthma | Imbalance in $\text{Th1/Th2}$ response | $\uparrow\text{Th2}$ response, $\downarrow\text{Th1}$ response |
-
-
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 

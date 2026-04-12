@@ -164,7 +164,7 @@ If this condition is met, the point of contact is momentarily at rest.
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
 **Q1: Why are the spokes of a bicycle wheel made thin?**
-**Answer:** The bulk of the mass is concentrated at the **rim** (far from the axis). According to **I = mr²**, this maximizes the Moment of Inertia for a given weight, providing the wheel with greater stability and helping it maintain motion once started.
+**Answer:** The bulk of the mass is concentrated at the **rim** (far from the axis). According to **I = mr²**, this maximizes the Moment of Inertia for a given weight, providing the wheel with greater stability and helping it maintain [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) once started.
 
 **Q2: A ballet dancer pulls her arms in while spinning. Why does her speed increase?**
 **Answer:** According to the **Law of Conservation of Angular Momentum (L = Iω = Constant)**, when she pulls her arms in, her mass moves closer to the axis, decreasing her **Moment of Inertia (I)**. To keep **L** constant, her angular velocity **(ω)** must increase.

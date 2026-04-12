@@ -50,25 +50,25 @@ practice_link: "/class-11/biology/reproduction-in-organisms-class-12-notes"
 
 - **Fecundity:** F = \frac{N}{T} — Number of offspring (N) produced per unit time (T)
 
- - **Sex Ratio:** \text{Sex Ratio} = \frac{\text{Number of females}}{\text{Number of males}} — Ratio of females to males in a population
+- **Sex Ratio:** \text{Sex Ratio} = \frac{\text{Number of females}}{\text{Number of males}} — Ratio of females to males in a population
 
- - **Reproductive Isolation:** \text{Reproductive Isolation} = \frac{\text{Number of individuals that cannot interbreed}}{\text{Total number of individuals}} — Measure of the degree to which a population is reproductively isolated
+- **Reproductive Isolation:** \text{Reproductive Isolation} = \frac{\text{Number of individuals that cannot interbreed}}{\text{Total number of individuals}} — Measure of the degree to which a population is reproductively isolated
 
  - **Genetic Drift:** p = \frac{p_0 + \Delta p}{1 + 4N_e s} — Change in allele frequency (p) due to genetic drift, where $p_0$ is the initial allele frequency, $\Delta p$ is the change in allele frequency, $N_e$ is the effective population size, and s is the selection coefficient
 
  - **Natural Selection:** w = 1 + s — Fitness (w) of an individual with a particular trait, where s is the selection coefficient
 
- - **Mutation Rate:** \mu = \frac{\text{Number of mutations}}{\text{Number of individuals} \times \text{Number of generations}} — Rate at which new mutations occur in a population
+- **Mutation Rate:** \mu = \frac{\text{Number of mutations}}{\text{Number of individuals} \times \text{Number of generations}} — Rate at which new mutations occur in a population
 
- - **Gene Flow:** m = \frac{\text{Number of migrants}}{\text{Total number of individuals}} — Rate at which individuals migrate into or out of a population
+- **Gene Flow:** m = \frac{\text{Number of migrants}}{\text{Total number of individuals}} — Rate at which individuals migrate into or out of a population
 
  - **Hardy-Weinberg Principle:** p^2 + 2pq + q^2 = 1 — Equation describing the frequencies of different genotypes in a population, where p and q are the frequencies of the two alleles
 
- - **Inbreeding Coefficient:** F = \frac{\text{Number of homozygous individuals}}{\text{Total number of individuals}} — Measure of the degree of inbreeding in a population
+- **Inbreeding Coefficient:** F = \frac{\text{Number of homozygous individuals}}{\text{Total number of individuals}} — Measure of the degree of inbreeding in a population
 
  - **Outbreeding Depression:** \Delta w = w_{\text{outbred}} - w_{\text{inbred}} — Decrease in fitness (w) due to outbreeding depression, where $w_{\text{outbred}}$ is the fitness of outbred individuals and $w_{\text{inbred}}$ is the fitness of inbred individuals
 
- - **Inbreeding Coefficient:** F = \frac{\text{Number of homozygous individuals}}{\text{Total number of individuals}} — Measure of the degree of inbreeding in a population
+- **Inbreeding Coefficient:** F = \frac{\text{Number of homozygous individuals}}{\text{Total number of individuals}} — Measure of the degree of inbreeding in a population
 
  - **Outbreeding Depression:** \Delta w = w_{\text{outbred}} - w_{\text{inbred}} — Decrease in fitness (w) due to outbreeding depression, where $w_{\text{outbred}}$ is the fitness of outbred individuals and $w_{\text{inbred}}$ is the fitness of inbred individuals
 
@@ -90,7 +90,7 @@ practice_link: "/class-11/biology/reproduction-in-organisms-class-12-notes"
 
  - *Costs:* 6-8 marks in multiple-choice questions or short-answer questions.
 
- - *Fix:* Review the different types of reproductive isolation, such as \frac{dN}{dt} = rN \left(1 - \frac{N}{K}\right) for logistic growth, and practice applying them to different scenarios to explain speciation.
+- *Fix:* Review the different types of reproductive isolation, such as \frac{dN}{dt} = rN \left(1 - \frac{N}{K}\right) for logistic growth, and practice applying them to different scenarios to explain speciation.
 
  - **Mistake 4:** Not understanding the role of hormones in regulating reproductive processes, such as the menstrual cycle or spermatogenesis, leading to incorrect or incomplete explanations.
 
@@ -127,7 +127,7 @@ ightarrow \text{Zygote}
 ightarrow (n) \text{Sperm nucleus}(n) \text{Sperm nucleus} + (n) \text{Egg cell} \
 ightarrow (2n) \text{Zygote} 
 
- - **Answer:** Fertilization in flowering plants involves the fusion of a sperm nucleus with the egg cell.
+ - **Answer:** Fertilization in [flowering](/blog/sexual-reproduction-in-flowering-plants-class-12-notes) plants involves the fusion of a sperm nucleus with the egg cell.
 
  - **Q2:** Describe the post-fertilization changes that occur inside the ovary of a flower after fertilization.
 
@@ -163,7 +163,7 @@ ightarrow \	ext{Seed}
  \	ext{Parent} \
 ightarrow \	ext{Offspring (Genetically identical)} 
 
- Examples of asexual reproduction include budding, fragmentation, and binary fission. 
+ Examples of asexual [reproduction](/blog/human-reproduction-class-12-notes) include budding, fragmentation, and binary fission. 
 
  (2n) \	ext{Parent} \
 ightarrow (2n) \	ext{Offspring} 

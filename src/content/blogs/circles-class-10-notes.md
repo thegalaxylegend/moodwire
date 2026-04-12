@@ -12,8 +12,7 @@ practice_link: "/class-10/mathematics/circles"
 
 *Last Updated: 2026-04-11*
 
-
-<div class="quick-summary">
+<div [class](/blog/coordinate-geometry-class-10-notes)="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
@@ -25,8 +24,6 @@ practice_link: "/class-10/mathematics/circles"
 
 </div>
 
-
-
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -37,19 +34,16 @@ practice_link: "/class-10/mathematics/circles"
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
 - [📝 Practice MCQs](#-practice-mcqs)
 
-
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Circle Equation:** $$\{(x - h)^2 + (y - k)^2 = r^2\}$$ — where $$(h, k)$$ is the center of the circle and $$r$$ is the radius.
- - **Tangent-Secant Theorem:** $$\{l^2 = p \times (p + q)\}$$ — where $$l$$ is the length of the tangent segment, $$p$$ is the length of the secant segment outside the circle, and $$q$$ is the length of the secant segment inside the circle.
- - **Power of a Point Theorem:** $$\{l_1 \times l_2 = p \times q\}$$ — where $$l_1$$ and $$l_2$$ are the lengths of the two tangent segments from an external point to the circle, and $$p$$ and $$q$$ are the lengths of the two secant segments from the same external point.
- - **Area of a Circle:** $$\{A = \pi r^2\}$$ — where $$A$$ is the area of the circle and $$r$$ is the radius.
- - **Circumference of a Circle:** $$\{C = 2\pi r\}$$ — where $$C$$ is the circumference of the circle and $$r$$ is the radius.
- - **Length of a Tangent:** $$\{l = \sqrt{d^2 - r^2}\}$$ — where $$l$$ is the length of the tangent segment, $$d$$ is the distance from the external point to the center of the circle, and $$r$$ is the radius.
- - **Radius of a Circle:** $$\{r = \frac{1}{2} \times \frac{|x_1y_2 + x_2y_3 + x_3y_1 - y_1x_2 - y_2x_3 - y_3x_1|}{\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} \times \sqrt{(x_3 - x_2)^2 + (y_3 - y_2)^2} \times \sqrt{(x_1 - x_3)^2 + (y_1 - y_3)^2}}\}$$ — where $$(x_1, y_1)$$, $$(x_2, y_2)$$, and $$(x_3, y_3)$$ are three points on the circle.
- - **Distance from a Point to a Circle:** $$\{d = \sqrt{(x - h)^2 + (y - k)^2} - r\}$$ — where $$d$$ is the distance from the point $$(x, y)$$ to the circle, $$(h, k)$$ is the center of the circle, and $$r$$ is the radius.
-
-
+- **Circle Equation:** \{(x - h)^2 + (y - k)^2 = r^2\} — where (h, k) is the center of the circle and r is the radius.
+ - **Tangent-Secant Theorem:** \{l^2 = p \times (p + q)\} — where l is the length of the tangent segment, p is the length of the secant segment outside the circle, and q is the length of the secant segment inside the circle.
+ - **Power of a Point Theorem:** \{l_1 \times l_2 = p \times q\} — where l_1 and l_2 are the lengths of the two tangent segments from an external point to the circle, and p and q are the lengths of the two secant segments from the same external point.
+ - **Area of a Circle:** \{A = \pi r^2\} — where A is the area of the circle and r is the radius.
+ - **Circumference of a Circle:** \{C = 2\pi r\} — where C is the circumference of the circle and r is the radius.
+ - **Length of a Tangent:** \{l = \sqrt{d^2 - r^2}\} — where l is the length of the tangent segment, d is the distance from the external point to the center of the circle, and r is the radius.
+ - **Radius of a Circle:** \{r = \frac{1}{2} \times \frac{|x_1y_2 + x_2y_3 + x_3y_1 - y_1x_2 - y_2x_3 - y_3x_1|}{\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} \times \sqrt{(x_3 - x_2)^2 + (y_3 - y_2)^2} \times \sqrt{(x_1 - x_3)^2 + (y_1 - y_3)^2}}\} — where (x_1, y_1), (x_2, y_2), and (x_3, y_3) are three points on the circle.
+ - **Distance from a Point to a Circle:** \{d = \sqrt{(x - h)^2 + (y - k)^2} - r\} — where d is the distance from the point (x, y) to the circle, (h, k) is the center of the circle, and r is the radius.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -92,8 +86,6 @@ practice_link: "/class-10/mathematics/circles"
 
 - {\(cm\)}). Use the formula {\(A = \pi r^2\)} for area and {\(C = 2\pi r\)} for circumference, and double-check your units at the end of the calculation.
 
-
-
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 - **Q1:** In a circle, the length of the tangent from an external point $P$ is $15$ cm. A chord $AB$ is drawn such that the length of the tangent from $P$ to $AB$ is $12$ cm.
@@ -123,8 +115,6 @@ practice_link: "/class-10/mathematics/circles"
  - Using the theorem that $\sqrt{a^2} = a$, we have $OP = 10$ cm.
  - **Answer:** The distance of the point $P$ from the centre of the circle is $10$ cm.
 
-
-
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 - **The Core Concept:** The relationship between a tangent and a radius in a circle, specifically the fact that $\triangle OPQ$ is a right triangle when $PQ$ is a tangent to the circle at point $Q$ and $OQ$ is the radius.
@@ -137,17 +127,15 @@ practice_link: "/class-10/mathematics/circles"
 
 - **For instance, they can prove that $PQ^2 = OP^2 
 
-- OQ^2$ using the Pythagorean theorem:** $$PQ^2 = OP^2 
+- OQ^2$ using the Pythagorean theorem:** PQ^2 = OP^2 
 
-- OQ^2$$ and then apply this relationship to solve problems involving right triangles and circles. They also recognize that the equality of tangents $PQ = PR$ can be proven by considering the right triangles $\triangle OPQ$ and $\triangle OPR$ and applying the fact that $OQ = OR$ (radii of the same circle) to show that $\triangle OPQ$ is congruent to $\triangle OPR$, hence $PQ = PR$. Additionally, they are skilled at applying the concept of similar triangles to problems involving circles and tangents, such as proving the Power of a Point theorem.
+- OQ^2 and then apply this relationship to solve problems involving right triangles and circles. They also recognize that the equality of tangents $PQ = PR$ can be proven by considering the right triangles $\triangle OPQ$ and $\triangle OPR$ and applying the fact that $OQ = OR$ (radii of the same circle) to show that $\triangle OPQ$ is congruent to $\triangle OPR$, hence $PQ = PR$. Additionally, they are skilled at applying the concept of similar triangles to problems involving circles and tangents, such as proving the Power of a Point theorem.
 
 | Concept | 85% Scorers | 95% Scorers |
 | --- | --- | --- |
 | Understanding of Tangent Properties | Memorize formulas without deep understanding | Apply concepts to prove theorems and solve complex problems |
 | Application of Similar Triangles | Limited application | Skilled application to various circle and tangent problems |
 | Proofs Involving Circle and Tangent | Difficulty in creating proofs | Able to create and apply proofs to solve problems |
-
-
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
@@ -165,8 +153,6 @@ practice_link: "/class-10/mathematics/circles"
 | --- | --- | --- |
 | Length of tangent | $l = \sqrt{d^2 - r^2}$ | A tangent is drawn from a point 10 cm away from the center of a circle with radius 6 cm. Find the length of the tangent. |
 | Angle between tangent and radius | $\tan(\theta) = \frac{\text{opposite side}}{\text{adjacent side}}$ | A tangent is drawn from a point to a circle with radius 4 cm. If the angle between the tangent and the radius is 30°, find the length of the tangent. |
-
-
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
@@ -196,64 +182,55 @@ practice_link: "/class-10/mathematics/circles"
 
 - Assuming that the length of the tangent from an external point to a circle is always the same, without considering the distance from the external point to the center of the circle, is a common mistake.
 
-
-
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
-
 **1. The tangent to a circle is always perpendicular to the radius at the point of contact.**
-
-**A)** True  
-**B)** False  
-**C)** Maybe  
-**D)** Not Sure  
+**A)**  True
+**B)**  False
+**C)**  Maybe
+**D)**  Not Sure
 
 **Answer:** A) The tangent to a circle is always perpendicular to the radius at the point of contact.
 
 ---
 
 **2. Lengths of tangents from an external point to a circle are always equal.**
-
-**A)** True  
-**B)** False  
-**C)** Maybe  
-**D)** Not Sure  
+**A)**  True
+**B)**  False
+**C)**  Maybe
+**D)**  Not Sure
 
 **Answer:** A) Lengths of tangents from an external point to a circle are always equal.
 
 ---
 
 **3. The center of a circle is equidistant from all points on the circle.**
-
-**A)** True  
-**B)** False  
-**C)** Maybe  
-**D)** Not Sure  
+**A)**  True
+**B)**  False
+**C)**  Maybe
+**D)**  Not Sure
 
 **Answer:** A) The center of a circle is equidistant from all points on the circle.
 
 ---
 
 **4. A tangent line touches the circle at exactly two points.**
-
-**A)** True  
-**B)** False  
-**C)** Maybe  
-**D)** Not Sure  
+**A)**  True
+**B)**  False
+**C)**  Maybe
+**D)**  Not Sure
 
 **Answer:** B) A tangent line touches the circle at exactly one point.
 
 ---
 
 **5. The radius is the longest distance from the center to any point on the circle.**
-
-**A)** True  
-**B)** False  
-**C)** Maybe  
-**D)** Not Sure  
+**A)**  True
+**B)**  False
+**C)**  Maybe
+**D)**  Not Sure
 
 **Answer:** B) The radius is the shortest distance from the center to any point on the circle.
-
 
 ---
 
@@ -262,3 +239,14 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Areas Related to Circles Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/areas-related-to-circles-class-10-notes)
+- 📖 [Arithmetic Progressions Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/arithmetic-progressions-class-10-notes)
+- 📖 [Coordinate Geometry Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/coordinate-geometry-class-10-notes)
+- 📖 [Introduction to Trigonometry Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/introduction-to-trigonometry-class-10-notes)

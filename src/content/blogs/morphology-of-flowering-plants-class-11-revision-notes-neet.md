@@ -91,7 +91,7 @@ I still remember the mistake I made in my [class](/blog/environmental-chemistry-
 The root is the underground part of the [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet), responsible for anchorage, absorption, and storage of food. It is typically negatively geotropic, meaning it grows downwards in response to gravity.
 
 ### <a id="stem"></a>Stem
-The stem is the above-ground part of the plant, responsible for supporting the leaves, flowers, and fruits. It is typically positively phototropic, meaning it grows towards light.
+The stem is the above-ground part of the [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet), responsible for supporting the leaves, flowers, and fruits. It is typically positively phototropic, meaning it grows towards light.
 
 ### <a id="leaf"></a>Leaf
 The leaf is the organ responsible for [photosynthesis](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet), the process by which plants convert light energy into chemical energy. It consists of a lamina (blade), petiole (stalk), and a pair of stipules (small structures at the base of the petiole).
@@ -135,7 +135,7 @@ L - Gynoecium (female reproductive organs)
 ## <a id="practice-mcqs"></a>Practice MCQs
 
 1. What is the primary function of the root in a [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet)?
-a) Photosynthesis
+a) [photosynthesis](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)
 b) Absorption of water and minerals
 c) Storage of food
 d) Reproduction
@@ -216,7 +216,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/environmental-chemistry-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)
 - 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)

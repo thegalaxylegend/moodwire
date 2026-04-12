@@ -130,6 +130,7 @@ The following formulae are relevant to the Industrial Revolution:
 \text{Efficiency} = \frac{\text{Output}}{\text{Cost}}
 
 
+
 These formulae help me, Ayush, understand the economic aspects of the Industrial Revolution.
 
 
@@ -213,6 +214,7 @@ The following formulae are relevant to the Industrial Revolution:
 \text{Productivity} = \frac{\text{Output}}{\text{Input}}
 
 \text{Efficiency} = \frac{\text{Output}}{\text{Cost}}
+
 
 
 These formulae and tables help me, Ayush, understand the economic and technological aspects of the Industrial Revolution.
@@ -355,7 +357,7 @@ I, Ayush, am excited to learn more about the Industrial Revolution and its ongoi
 
 ## <a id="last-minute-revision"></a>Last Minute Revision
 
-As I, Ayush, prepare for my Class 11 History exams, I find it essential to recall the key points and concepts related to the Industrial Revolution. I make sure to review the core concepts, formulae, and tables, and to practice MCQs to assess my knowledge and identify areas for improvement. I also watch out for trap exceptions to avoid common mistakes, and I use LaTeX to format my notes and make them more readable.
+As I, Ayush, prepare for my [class](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) 11 History exams, I find it essential to recall the key points and concepts related to the Industrial Revolution. I make sure to review the core concepts, formulae, and tables, and to practice MCQs to assess my knowledge and identify areas for improvement. I also watch out for trap exceptions to avoid common mistakes, and I use LaTeX to format my notes and make them more readable.
 
 ### <a id="final-check"></a>Final Check
 I, Ayush, make a final check of my notes and study materials to ensure that I am well-prepared for my exams. I review the key points and concepts related to the Industrial Revolution, and I practice MCQs to assess my knowledge and identify areas for improvement.

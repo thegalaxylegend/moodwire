@@ -159,8 +159,8 @@ Continue your [revision](/blog/ray-optics-class-12-quick-class-12-revision-notes
 
 ## 🪤 The 5 Mistakes That Cost Marks
 
-* The Trap of considering Mahajanapadas as a sudden development: Many students mistakenly believe that Mahajanapadas emerged suddenly, but in reality, they were a result of a gradual process of state formation that began in the later Vedic period.
-* Confusing the number of Mahajanapadas: A common mistake is to confuse the number of Mahajanapadas, which is 16, as mentioned in the ancient Buddhist text, the Angular Ni kaya.
+* The Trap of considering Mahajanapadas as a sudden development: Many students mistakenly believe that Mahajanapadas emerged suddenly, but in reality, they were a result of a gradual process of state formation that began in the later [vedic](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) period.
+* Confusing the number of Mahajanapadas: A common mistake is to confuse the number of Mahajanapadas, which is 16, as mentioned in the [ancient](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) Buddhist text, the Angular Ni kaya.
 * Incorrectly identifying the capital of Agatha: Some students incorrectly identify the capital of Agatha as Pataliputra, which was actually the capital during the Mauryan period, whereas the capital during the Mahajanapada period was Girivraj or Rajagriha.
 * Misunderstanding the significance of the Mahajanapadas: Students often overlook the significance of the Mahajanapadas, which marked the beginning of a new era in Indian history, characterized by the emergence of large-scale states, urbanization, and the growth of trade and commerce.
 * Not recognizing the role of republics in the Mahajanapadas: A common mistake is to overlook the existence of republics, known as gangs or sang has, in the Mahajanapada period, such as the Lichchhavis and the Dallas, which were characterized by a system of government where power was held by a collective body of elders rather than a monarch.
@@ -176,4 +176,4 @@ Continue your [revision](/blog/ray-optics-class-12-quick-class-12-revision-notes
 * **Republics**: (suggestion limit reached), (suggestion limit reached), (suggestion limit reached), (suggestion limit reached)
 * **(suggestion limit reached) (24)**: (suggestion limit reached), (suggestion limit reached), (suggestion limit reached), (suggestion limit reached) (599-527 BCE)
 * **Buddha**: Born 563 BCE in (suggestion limit reached), Enlightened in 528 BCE at (suggestion limit reached) Gaya
-* **Chandragupta Maurya (324-298 BCE)**: Founder of Mauryan Empire, Conquered India with (suggestion limit reached)
+* **Chandragupta Maurya (324-298 BCE)**: Founder of Mauryan Empire, Conquered [india](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse) with (suggestion limit reached)

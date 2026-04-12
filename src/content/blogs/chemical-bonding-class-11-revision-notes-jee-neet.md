@@ -175,7 +175,10 @@ The core principle is simple: Electron pairs (both bond pairs and lone pairs) ha
 
 Instead of drawing structures, use my "Go-To" **Steric Number (H) formula**:
 
+
 H = \frac{1}{2} [V + M - C + A]
+
+
 
 Where:
 - **V** = Valence electrons on central [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet) (e.g., C=4, N=5, O=6).
@@ -364,7 +367,7 @@ This "sea" explains why metals are conductive, malleable, and have high thermal 
 
 > ### Ayush's Mistake Log #04
 > **The Mistake**: I used to calculate the hybridization of $PH_3$ as $sp^3$ and mark the angle as 107°. I thought every $AX_3E$ molecule was the same.
-> **The Fix**: My mentor taught me **Drago's Rule**. If the atom is 3rd period or below and attached to H, don't hybridize! The angle is 90°. I saved 4 marks in my next mock because of this.
+> **The Fix**: My mentor taught me **Drago's Rule**. If the [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet) is 3rd period or below and attached to H, don't hybridize! The angle is 90°. I saved 4 marks in my next mock because of this.
 
 ### <a id="trap-1-the-even-electron-paramagnetism"></a>Trap 1: The even electron paramagnetism
 - **Wrong Answer**: "Oxygen ($O_2$) has 16 electrons, so it must be diamagnetic."
@@ -450,7 +453,7 @@ Don't just memorize the table. Ask yourself "Why does lone pair repulsion decrea
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/equilibrium-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/structure-of-atom-class-11-revision-notes-jee-neet)
 - 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
@@ -474,3 +477,27 @@ Continue your revision with these related guides:
 - 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
 - 📖 [Equilibrium Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/equilibrium-class-11-revision-notes-jee-neet)
 - 📖 [States Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/states-of-matter-class-11-revision-notes-jee-neet)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* **Confusing Bond Order with Bond Length**: Many students mistakenly assume that a higher bond order always corresponds to a shorter bond length. However, bond order is the number of electrons involved in bonding, while bond length is the actual distance between the nuclei of the bonded atoms.
+* **Incorrect Application of VSEPR Theory**: Students often incorrectly apply the VSEPR (Valence Shell Electron Pair Repulsion) theory to predict the shape of molecules. For example, they may forget to consider the presence of lone pairs or incorrectly determine the central atom.
+* **Failure to Recognize Resonance Structures**: Some students struggle to identify resonance structures, which can lead to incorrect predictions of molecular properties, such as polarity and reactivity.
+* **Misunderstanding of Electronegativity**: Many students misunderstand the concept of electronegativity, which can lead to incorrect predictions of bond polarity and molecular behavior. For example, they may assume that a higher electronegativity always corresponds to a more reactive atom.
+* **Incorrect Calculation of Formal Charge**: Students often make mistakes when calculating formal charge, which can lead to incorrect predictions of molecular stability and reactivity. For example, they may forget to consider the number of valence electrons or incorrectly assign electrons to atoms.
+
+## 🔁 Last 5 Minutes Box
+
+* **Chemical Bonding**: Attraction between atoms to form a chemical compound.
+* **Octet Rule**: Atoms gain, lose or share electrons to achieve a full outer shell of 8 electrons.
+* **Types of Bonds**: 
+  + Ionic Bond: Transfer of electrons between atoms.
+  + Covalent Bond: Sharing of electrons between atoms.
+  + Hydrogen Bond: Attractive force between hydrogen atom and highly electronegative atom.
+* **Bond Parameters**:
+  + Bond Length: Average distance between nuclei of two bonded atoms.
+  + Bond Angle: Angle between two bonds.
+  + Bond Order: Number of bonds between two atoms.
+* **VSEPR Theory**: Predicts shape of molecule based on repulsion between electron pairs.
+* **Hybridization**: Mixing of atomic orbitals to form hybrid orbitals for bonding.
+* **Molecular Orbital Theory**: Describes distribution of electrons within molecule.

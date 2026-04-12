@@ -164,7 +164,7 @@ Order: $O^{2-} > F^- > Ne > Na^+ > Mg^{2+}$.
 
 ## <a id="5-ionization-enthalpy-ie-the-energy-to-steal-an-electron"></a>5. Ionization Enthalpy (IE) — The Energy to Steal an Electron
 
-**Ionization Enthalpy is the minimum energy required to remove the most loosely bound electron from an isolated gaseous atom in its ground state.**
+**Ionization Enthalpy is the minimum energy required to remove the most loosely bound electron from an isolated gaseous [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet) in its ground state.**
 
 ### <a id="general-trend"></a>General Trend
 - **Across Period**: Increases (higher $Z_{eff}$).
@@ -348,9 +348,9 @@ NCERT asks "Explain the trend in Ionization Enthalpy across a period." Always me
 ---
 
 **Related [revision](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Notes:**
-- **Chemical Bonding VSEPR Theory JEE 2026 tricks — Hybridization & Shapes**
+- **[chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Bonding VSEPR Theory JEE 2026 tricks — Hybridization & Shapes**
 - **Structure of Atom — Quantum Numbers & Configuration Shortcuts**
-- **Some Basic Concepts of Chemistry — Mole Concept & Stoichiometry**
+- **Some Basic Concepts of [chemistry](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) — Mole Concept & Stoichiometry**
 
 ---
 

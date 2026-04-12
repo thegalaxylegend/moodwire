@@ -90,7 +90,7 @@ Chemistry in [neet](/blog/states-of-matter-class-11-revision-notes-jee-neet) is 
 
 ## <a id="3-biology-the-360mark-foundation"></a>3. Biology: The 360-Mark Foundation
 
-Biology constitutes 50% of the NEET paper. The recent trend shows an increase in statement-based, assertion-reason, and match-the-following questions directly lifted from NCERT lines.
+Biology constitutes 50% of the [neet](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) paper. The recent trend shows an increase in statement-based, assertion-reason, and match-the-following questions directly lifted from NCERT lines.
 
 ### <a id="highyield-botany"></a>High-Yield Botany:
 - **Genetics and Evolution:** The undisputed king of Botany. Expect 12-15 questions combined. Master Mendelian genetics and molecular basis (DNA replication, transcription).

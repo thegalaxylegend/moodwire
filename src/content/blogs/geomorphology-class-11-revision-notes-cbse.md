@@ -166,7 +166,7 @@ where $E$ is the total erosion, $R_i$ is the runoff, and $S_i$ is the slope.
 I will make sure to review the **Trap Exceptions** and focus on the **Key Terms** to excel in the subject. 
 By following the **JEE/[neet](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) data** and **Ayush's Personal Note**, I will be able to stay on track and achieve my goals. 
 The **Geomorphology and Its Importance** section has helped me understand the significance of the subject, and I will make sure to apply this knowledge in my future studies. 
-The **Key Terms** section has provided me with a quick reference guide to the essential vocabulary in Geomorphology. 
+The **Key Terms** section has provided me with a [quick](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) reference guide to the essential vocabulary in Geomorphology. 
 Overall, this quick [revision](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) and recap has been extremely helpful in preparing me for my exam, and I am confident that I will do well. 
 Using LaTeX has made the equations and tables look neat and easy to read. 
 The **Quick Recall Box** has provided me with a quick summary of the key concepts, and I will make sure to review it regularly. 
@@ -204,9 +204,9 @@ I am confident that I will do well, and I will continue to work hard to achieve 
 \end{table}
 This table has helped me understand the different types of landforms and their characteristics. 
 I will make sure to review it regularly to ensure I am familiar with the material. 
-The **JEE/NEET data** section has provided me with information about the importance of Geomorphology in the JEE and NEET exams. 
+The **JEE/[neet](/blog/world-history-industrial-revolution-class-11-revision-notes-jee-neet) data** section has provided me with information about the importance of Geomorphology in the JEE and [neet](/blog/world-history-industrial-revolution-class-11-revision-notes-jee-neet) exams. 
 I will make sure to focus on the key concepts and formulae to excel in the subject. 
-Overall, this quick revision and recap has been extremely helpful, and I am confident that I will do well in my exam. 
+Overall, this quick [revision](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) and recap has been extremely helpful, and I am confident that I will do well in my exam. 
 I will continue to review and practice the material to ensure I am well-prepared. 
 Using LaTeX has made the equations and tables look neat and easy to read, and I will continue to use it to help me study. 
 The **Key Terms** section has provided me with a quick reference guide to the essential vocabulary in Geomorphology. 

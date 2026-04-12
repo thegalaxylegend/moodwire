@@ -105,11 +105,17 @@ The following formulas are crucial for the UPSC [optional](/blog/upsc-optional-s
 
  We rearrange the formula to solve for $m$:
 
- m = \frac{W}{g}
+
+m = \frac{W}{g}
+
+
 
  Plugging in the given values:
 
- m = \frac{20 , \text{N}}{9.8 , \text{m/s}^2}
+
+m = \frac{20 , \text{N}}{9.8 , \text{m/s}^2}
+
+
 
  Solving for $m$:
 
@@ -139,11 +145,17 @@ The following formulas are crucial for the UPSC [optional](/blog/upsc-optional-s
 
  We rearrange the formula to solve for $a$:
 
- a = \frac{v - u}{t}
+
+a = \frac{v - u}{t}
+
+
 
  Plugging in the given values:
 
- a = \frac{20 , \text{m/s} - 0}{4 , \text{s}}
+
+a = \frac{20 , \text{m/s} - 0}{4 , \text{s}}
+
+
 
  Solving for $a$:
 
@@ -171,11 +183,17 @@ The following formulas are crucial for the UPSC [optional](/blog/upsc-optional-s
 
  We rearrange the formula to solve for $m$:
 
- m = \frac{F}{a}
+
+m = \frac{F}{a}
+
+
 
  Plugging in the given values:
 
- m = \frac{10 , \text{N}}{2 , \text{m/s}^2}
+
+m = \frac{10 , \text{N}}{2 , \text{m/s}^2}
+
+
 
  Solving for $m$:
 
@@ -225,7 +243,7 @@ The following formulas are crucial for the UPSC [optional](/blog/upsc-optional-s
 
  - [upsc](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee) has a list of 48 optional subjects.
 
- - Choosing the right optional subject can greatly impact scores.
+ - Choosing the right [optional](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee) subject can greatly impact scores.
 
  - Understanding the syllabus and exam pattern is crucial.
 

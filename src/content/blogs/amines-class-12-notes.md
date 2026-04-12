@@ -236,6 +236,6 @@ Continue your revision with these related guides:
 * Many students incorrectly predict the product of the reaction of an amine with an alkyl halide, failing to consider the possibility of multiple alkylating reactions and the formation of quaternary ammonium salts.
 ## ⚗️ Chemical Quick Reference (Verified via PubChem)
 
-| Compound | Formula | Mol. Weight | Source |
+| Compound | Formula | MOL. Weight | Source |
 |:---|:---:|:---:|:---:|
-| **nitric acid** | HNO3 | 63.013 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/944) |
+| **nitric acid** | HNO3 | 63.013 g/MOL | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/944) |

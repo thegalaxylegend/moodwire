@@ -25,7 +25,7 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Mendel's Law of Segregation:** \frac{1}{2} of the gametes will have one allele and the other \frac{1}{2} will have the other allele — where the allele is a variant of a gene. 
+- **Mendel's Law of Segregation:** \frac{1}{2} of the gametes will have one allele and the other \frac{1}{2} will have the other allele — where the allele is a variant of a gene.
 
 - **Mendel's Law of Independent Assortment:** \frac{1}{4}AB, \frac{1}{4}Ab, \frac{1}{4}aB, \frac{1}{4}ab — where A and a are alleles of one gene, and B and b are alleles of another gene.
 
@@ -135,7 +135,7 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 
  The possible genotypes of the offspring are:
 
- \begin{array}{c|c|c}
+\begin{array}{c|c|c}
 
  & C & c \hline
 
@@ -145,7 +145,7 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 
  \end{array}
 
- The probability of the child having cystic fibrosis ($cc$) is $\frac{1}{4}$.
+The probability of the child having cystic fibrosis ($cc$) is $\frac{1}{4}$.
 
  - **Answer:** $25\%$
 
@@ -179,7 +179,7 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 
  - $2pq$ gives the frequency of the heterozygous genotype in a population.
 
- - \frac{p^2 + q^2 + 2pq}{(p + q)^2} = 1 is the Hardy-Weinberg principle equation for the sum of genotypic frequencies.
+- \frac{p^2 + q^2 + 2pq}{(p + q)^2} = 1 is the Hardy-Weinberg principle equation for the sum of genotypic frequencies.
 
  - $p + q = 1$ is the equation for the sum of allelic frequencies in a population.
 

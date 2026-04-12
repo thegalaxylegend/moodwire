@@ -39,7 +39,7 @@ practice_link: "/class-11/ancient-india-indus-valley-class-11-revision-notes-cbs
 
 
 
-## <a id="what-is-ancient-India-indus-valley"></a>What is Ancient India Indus Valley?
+## <a id="what-is-ancient-India-Indus-valley"></a>What is Ancient India Indus Valley?
 
 [object Object]
 
@@ -58,7 +58,7 @@ As I the history of Ancient [India](/blog/medieval-india-bhakti-sufi-class-11-re
 The following are some of the key features of the Indus Valley Civilization:
 
 * **Cities**: The Indus Valley Civilization had several large cities, including Harappa, Mohenjo-daro, and Lethal. These cities were planned with **broad streets**, **public baths**, and **advanced drainage systems**.
-* **Architecture**: The buildings in the Indus Valley Civilization were made of **kiln-fired bricks** and had **flat roofs**. The most notable architectural feature is the **Great Bath** at Mohenjo-daro.
+* **[architecture](/blog/art-culture-architecture-class-11-revision-notes-jee-neet)**: The buildings in the Indus Valley Civilization were made of **kiln-fired bricks** and had **flat roofs**. The most notable architectural feature is the **Great Bath** at Mohenjo-daro.
 * **Water Management**: The Indus Valley Civilization had a sophisticated **irrigation system**, which allowed for **agricultural production** and **urban growth**.
 * **Economy**: The economy of the Indus Valley Civilization was based on **agriculture**, **trade**, and **crafts**. The civilization was known for its **cotton textiles**, **pottery**, and **metallurgy**.
 
@@ -121,7 +121,7 @@ The growth of the Indus Valley Civilization can be represented by the following 
 
 \franc{dP}{dt} = RP \left(1 - \franc{P}{K}\right)
 
-where UP is the population, are is the growth rate, and OK is the carrying capacity.
+Where UP is the population, are is the growth rate, and OK is the carrying capacity.
 
 ## <a id="historical-context"></a>Historical Context
 
@@ -142,7 +142,7 @@ The Indus Valley Civilization has had a lasting impact on the cultural heritage 
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) with these related guides:
 
 - 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
 - 📖 [Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)

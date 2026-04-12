@@ -49,9 +49,9 @@ practice_link: "/class-11/biology/biotechnology-and-its-applications-class-12-no
 
  - **Protein Purification:** \text{Purity} = \franc{\text{concentration of target protein}}{\text{total protein concentration}} — The purity of a protein is directly proportional to the concentration of the target protein and inversely proportional to the total protein concentration.
 
- - **Gene Expression:** \text{Gene expression level} = \frac{\text{mRNA concentration}}{\text{cell density}} — The level of gene expression is directly proportional to the concentration of mRNA per cell.
+- **Gene Expression:** \text{Gene expression level} = \franc{\text{mRNA concentration}}{\text{cell density}} — The level of gene expression is directly proportional to the concentration of mRNA per cell.
 
- - **Protein Purification:** \text{Purity} = \frac{\text{concentration of target protein}}{\text{total protein concentration}} — The purity of a protein is directly proportional to the concentration of the target protein and inversely proportional to the total protein concentration.
+- **Protein Purification:** \text{Purity} = \franc{\text{concentration of target protein}}{\text{total protein concentration}} — The purity of a protein is directly proportional to the concentration of the target protein and inversely proportional to the total protein concentration.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -84,8 +84,6 @@ practice_link: "/class-11/biology/biotechnology-and-its-applications-class-12-no
  - *Costs:* 6–7 marks for not accurately explaining the CRISPR-Cas9 mechanism.
 
  - *Fix:* Study how CRISPR-Cas9 works: the $\	ext{CRISPR}$ system locates a specific sequence of DNA and the $\	ext{Cas9}$ enzyme cuts the DNA at that site, allowing for precise editing of genes by either disrupting the function of the gene or correcting harmful mutations.
-
-
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved Yes
 
@@ -190,7 +188,7 @@ harrow \	ext{Recombinant DNA}
 
  * Use $\text{mathematical models}$ to understand the $\text{kinetics of gene expression}$, such as:
 
- \franc{d[\text{mRNA}]}{dt} = k_\text{t} - k_\text{d}[\text{mRNA}]
+ \franc’d[\text{mRNA}]}{dt} = k_\text{t} - k_\text{d}[\text{mRNA}]
 
  Where OK_\text{t}$ is the $\text{transcription rate}$ and OK_\text{d}$ is the $\text{degradation rate}$ of $\text{mRNA}$.
 
@@ -206,11 +204,9 @@ harrow \	ext{Recombinant DNA}
 | Gene Regulation | Limited understanding of promoters, operators, and enhancers | Advanced understanding of gene regulation, including mathematical models and ethical implications |
 | Problem-Solving | Struggles to apply RDT concepts to complex problems | Able to design recombinant DNA constructs and analyze restriction maps |
 
-
-
 ## <a id="-Ayush-note"></a>👁️ Ayush's Note
 
-👁️ Ayush's Note, - **The Hidden Pattern:** In Biotechnology and its Applications, a recurring pattern is observed where $\frac13$ of the questions are focused on the applications of genetic engineering, such as the production of recombinant EDNA and the use of $CRISPR$-Cas9 for gene editing. Another $\frac13$ are related to the principles of biotechnology, including the structure and function of EDNA, RNA, and proteins, as well as the mechanisms of gene expression and regulation., - **How to Apply It:** To maximize scores, allocate $\frac23$ of the study time to understanding the applications of genetic engineering, including the production of recombinant EDNA and the use of $CRISPR$-Cas9 for gene editing. The remaining $\frac13$ of the study time should be focused on the principles of biotechnology, including the structure and function of EDNA, RNA, and proteins, as well as the mechanisms of gene expression and regulation., - **Key Concepts:** Master the following key concepts to solve $\frac34$ of the questions: \Delta G = \Delta H - T\Delta SHE for calculating the change in Gibbs free energy, mph = -\log_10H^+$ for calculating the concentration of hydrogen ions, and OK_EQ = \fracCDAB for calculating the equilibrium constant., - **Question Patterns:** Be prepared to encounter question patterns such as: What is the role of STATE polymerase in PCR? What are the advantages and disadvantages of using $CRISPR$-Cas9 for gene editing? How does the structure of EDNA affect its function?, - **Common Pitfalls:** Avoid common pitfalls such as confusing the terms $\textithomologous$ and $\textitheterologous$ when referring to gene expression, or failing to recognize the importance of $\textitpost-translational modification in protein function., - **High-Yield Topics:** Focus on high-yield topics such as the use of ELISA for detecting antibodies, the principles of southern and northern blotting, and the applications of ART-PCR$ for detecting gene expression., - **Formulae and Equations:** Memorize key formulae and equations such as: OK_m = \fracases for calculating the Michaelis constant, MTV_max = k_came_total for calculating the maximum velocity of an enzymatic reaction, and \Delta \Delta G = \Delta G_mutant - \Delta G_wild-type for calculating the change in free energy., - **Biotechnology Techniques:** Be familiar with biotechnology techniques such as $\textile electrophoresis, $\textitchromatography$, and $\textitspectroscopy$, and be able to explain their principles and applications. , Topic, Weightage, Key Concepts , Genetic Engineering, $\frac13$, $CRISPR$-Cas9, recombinant EDNA , Principles of Biotechnology, $\frac13$, EDNA, RNA, proteins, gene expression and regulation , Biotechnology Techniques, $\frac16$, $\textile electrophoresis, $\textitchromatography$, $\textitspectroscopy$
+👁️ Ayush's Note, - **The Hidden Pattern:** In Biotechnology and its Applications, a recurring pattern is observed where $\frac13$ of the questions are focused on the applications of genetic engineering, such as the production of recombinant EDNA and the use of $CRISPR$-Cas9 for gene editing. Another $\frac13$ are related to the principles of biotechnology, including the structure and function of EDNA, RNA, and proteins, as well as the mechanisms of gene expression and regulation., - **How to Apply It:** To maximize scores, allocate $\frac23$ of the study time to understanding the applications of genetic engineering, including the production of recombinant EDNA and the use of $CRISPR$-Cas9 for gene editing. The remaining $\frac13$ of the study time should be focused on the principles of biotechnology, including the structure and function of EDNA, RNA, and proteins, as well as the mechanisms of gene expression and regulation., - **Key Concepts:** Master the following key concepts to solve $\frac34$ of the questions: \Delta G = \Delta H - T\Delta SHE for calculating the change in Gibbs free energy, mph = -\log_10H^+$ for calculating the concentration of hydrogen ions, and OK_EQ = \fractal for calculating the equilibrium constant., - **Question Patterns:** Be prepared to encounter question patterns such as: What is the role of STATE polymerase in PCR? What are the advantages and disadvantages of using $CRISPR$-Cas9 for gene editing? How does the structure of EDNA affect its function?, - **Common Pitfalls:** Avoid common pitfalls such as confusing the terms $\textithomologous$ and $\textitheterologous$ when referring to gene expression, or failing to recognize the importance of $\textitpost-translational modification in protein function., - **High-Yield Topics:** Focus on high-yield topics such as the use of ELISA for detecting antibodies, the principles of southern and northern blotting, and the applications of ART-PCR for detecting gene expression., - **Formulae and Equations:** Memorize key formulae and equations such as: OK’m = \fracases for calculating the Michaelis constant, MTV_max = k_came_total for calculating the maximum velocity of an enzymatic reaction, and \Delta \Delta G = \Delta G_mutant - \Delta G_wild-type for calculating the change in free energy., - **Biotechnology Techniques:** Be familiar with biotechnology techniques such as $\textile electrophoresis, $\textitchromatography$, and $\textitspectroscopy$, and be able to explain their principles and applications. , Topic, Weightage, Key Concepts , Genetic Engineering, $\frac13$, $CRISPR$-Cas9, recombinant EDNA , Principles of Biotechnology, $\frac13$, EDNA, RNA, proteins, gene expression and regulation , Biotechnology Techniques, $\frac16$, $\textile electrophoresis, $\textitchromatography$, $\textitspectroscopy$
 
 | Topic | Weightage | Key Concepts |
 | --- | --- | --- |
@@ -239,8 +235,6 @@ harrow \	ext{Recombinant DNA}
  - Common mistake: Forgetting that and in $\Delta G = -new represents the number of electrons transferred.
 
  - Common mistake: Confusing OK_me (Michaelis constant) with UV_{max}$ (maximum velocity) in enzyme kinetics.
-
-
 
 ## <a id="-practice-MCQs"></a>📝 Practice MCQs
 

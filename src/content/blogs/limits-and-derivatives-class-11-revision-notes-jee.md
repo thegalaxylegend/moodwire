@@ -105,7 +105,7 @@ How to evaluate Limits using Algebraic Manipulation? is a method to find the lim
 
 ## <a id="what-is-the-squeeze-theorem-and-its-application-in-limits"></a>What is the Squeeze Theorem and its application in Limits?
 
-The Squeeze Theorem is a fundamental concept in calculus that states if a function f(x) is squeezed between two functions g(x) and h(x), and the limits of g(x) and h(x) as x approaches a certain value are equal, then the limit of f(x) as x approaches that same value must also be equal to that limit. It includes understanding the conditions for the squeeze theorem to apply, such as g(x) ≤ f(x) ≤ h(x) for all x in a certain interval, and being able to evaluate limits using this theorem. For Class 11 exam prep in 2026, the most important aspect is applying the squeeze theorem to solve limit problems involving trigonometric functions, exponential functions, and algebraic functions, which will be crucial in scoring well in the calculus section of the exam.
+The Squeeze Theorem is a fundamental concept in calculus that states if a function f(x) is squeezed between two functions g(x) and h(x), and the limits of g(x) and h(x) as x approaches a certain value are equal, then the limit of f(x) as x approaches that same value must also be equal to that limit. It includes understanding the conditions for the squeeze theorem to apply, such as g(x) ≤ f(x) ≤ h(x) for all x in a certain interval, and being able to evaluate limits using this theorem. For [class](/blog/digital-logic-class-11-revision-notes-gate-boards) 11 exam prep in 2026, the most important aspect is applying the squeeze theorem to solve limit problems involving trigonometric functions, exponential functions, and algebraic functions, which will be crucial in scoring well in the calculus section of the exam.
 
 
 | Function | Limit | Squeeze Theorem Application |
@@ -177,6 +177,7 @@ The Chain Rule is a fundamental principle in calculus that enables us to differe
 To grasp the Chain Rule, let's first understand the concept of composite functions. A composite function is a function of the form $f(g(x))$, where $f$ and $g$ are two separate functions. The Chain Rule states that the derivative of a composite function $f(g(x))$ is given by $f'(g(x)) cdot g'(x)$. This can be expressed mathematically as: 
 
 \frac{d}{dx}f(g(x)) = f'(g(x)) cdot g'(x)
+
 
 
 To apply the Chain Rule, we need to identify the outer and inner functions. The outer function is the function $f$ that is being applied to the inner function $g(x)$. For example, in the composite function $f(g(x)) = sin(x^2)$, the outer function is $sin(u)$ and the inner function is $u = x^2$.

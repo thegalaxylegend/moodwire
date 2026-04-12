@@ -138,11 +138,11 @@ practice_link: "/class-11/mathematics/application-of-integrals-class-12-notes"
   - Find the center of mass of a disk with a radius of 5 meters and a varying density.
 
 #### Center of Mass of a System of Particles
-- The center of mass of a system of particles can be found using \bar{x} = \franc{m_1 x_1 + m_2 x_2 + ... + m_n x_n}{m_1 + m_2 + ... + m_n}.
+- The center of mass of a system of particles can be found using \bar{x} = \franc’m_1 x_1 + m_2 x_2 + ... + m_n x_n}{m_1 + m_2 + ... + m_n}.
 - This formula is used when the masses and positions of the particles are known.
 - Key points to remember:
   - The center of mass of a system of particles is the point where the entire weight of the system can be considered to be concentrated.
-  - The formula for the center of mass of a system of particles is \bar{x} = \franc{m_1 x_1 + m_2 x_2 + ... + m_n x_n}{m_1 + m_2 + ... + m_n}.
+  - The formula for the center of mass of a system of particles is \bar{x} = \franc’m_1 x_1 + m_2 x_2 + ... + m_n x_n}{m_1 + m_2 + ... + m_n}.
 - Practice problems:
   - Find the center of mass of a system of two particles with masses 2 kg and 3 kg, and positions 1 meter and 2 meters, respectively.
   - Find the center of mass of a system of three particles with masses 1 kg, 2 kg, and 3 kg, and positions 0 meters, 1 meter, and 2 meters, respectively.
@@ -299,5 +299,5 @@ Continue your revision with these related guides:
 * **Incorrect evaluation of double integrals**: Many students fail to evaluate double integrals correctly by not considering the limits of integration for both variables. For JEE, it is crucial to understand the concept of double integrals and evaluate them step by step.
 * **Misunderstanding the concept of area between curves**: When finding the area between two curves using integrals, some students mistakenly calculate the area as the sum of the absolute values of the areas between the curve and the x-axis. Instead, the area should be evaluated as the definite integral of the difference between the two functions.
 * **Incorrect application of the disk method for volumes of solids**: A common mistake is to incorrectly apply the disk method for finding volumes of solids of revolution. Students should ensure that they use the correct formula, taking into account the limits of integration and the radius of the disk.
-* **Failure to consider symmetry in surface area calculations**: When calculating the surface area of a solid of revolution, some students neglect to consider symmetry, which can result in incorrect calculations. It is essential to recognize and apply symmetry to simplify calculations.
+* **Failure to consider symmetry in surface area calculations**: When calculating the surface area of a [solid](/blog/solid-state-class-12-notes) of revolution, some students neglect to consider symmetry, which can result in incorrect calculations. It is essential to recognize and apply symmetry to simplify calculations.
 * **Inadequate substitution in integral calculations**: Inadequate substitution is another common mistake in integral calculations. Students should ensure that they correctly substitute variables and adjust the limits of integration accordingly to obtain accurate results.

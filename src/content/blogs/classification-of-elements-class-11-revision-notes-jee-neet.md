@@ -57,11 +57,11 @@ For students preparing for JEE and NEET, it's essential to have a thorough under
 * Identify the position of an element in the periodic table
 * Describe the electronic configuration of an element
 * Explain the trends in physical and [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) properties of elements
-* Predict the chemical properties of an element based on its position in the periodic table
+* Predict the [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) properties of an element based on its position in the periodic table
 
 ## <a id="core-concepts"></a>Core Concepts
 
-The core concepts in the classification of elements include:
+The core concepts in the classification of [elements](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) include:
 
 * Atomic number: The number of protons in the nucleus of an atom
 * Electronic configuration: The arrangement of electrons in an atom

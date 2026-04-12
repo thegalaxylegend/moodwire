@@ -79,13 +79,13 @@ Some essential concepts related to functions include:
 
 To excel in the topic of Relations and Functions, it's crucial to practice a variety of problems, including:
 
-* Identifying relations and functions from given data
+* Identifying relations and functions from given [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards)
 * Finding the domain, range, and codomain of a relation
 * Determining whether a relation is a function or not
 * Evaluating composite functions
 * Finding the inverse of a function
 
-In the next section, we'll dive deeper into the world of relations and functions, exploring the various concepts and formulas that you need to know to ace the Class 11 exam. We'll use a combination of theoretical explanations, examples, and practice problems to help you develop a thorough understanding of the topic.
+In the next section, we'll dive deeper into the world of relations and functions, exploring the various concepts and formulas that you need to know to ace the [class](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) 11 exam. We'll use a combination of theoretical explanations, examples, and practice problems to help you develop a thorough understanding of the topic.
 
 **Key Concepts to Focus On:**
 

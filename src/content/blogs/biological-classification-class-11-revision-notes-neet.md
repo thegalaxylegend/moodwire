@@ -81,7 +81,7 @@ Quick [revision](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-n
 
 ## <a id="introduction-to-biological-classification"></a>Introduction to Biological Classification
 
-Biological classification is the process of grouping living organisms based on their characteristics and evolutionary relationships. This process helps us understand the diversity of life on Earth and how different organisms are related to each other.
+Biological classification is the process of grouping living organisms based on their characteristics and evolutionary relationships. This process helps us understand the diversity of [life](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) on Earth and how different organisms are related to each other.
 
 
 
@@ -113,7 +113,7 @@ Phylum is the level of classification below the kingdom. It is a group of relate
 \text{Phylum} = \text{group of related classes}
 
 ### <a id="class"></a>Class
-Class is the level of classification below the phylum. It is a group of related orders. 
+[class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) is the level of classification below the phylum. It is a group of related orders. 
 \text{Class} = \text{group of related orders}
 
 ### <a id="order"></a>Order

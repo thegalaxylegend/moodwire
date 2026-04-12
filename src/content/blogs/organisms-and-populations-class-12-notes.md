@@ -77,7 +77,7 @@ practice_link: "/class-11/biology/organisms-and-populations-class-12-notes"
 
  - *Fix:* Review the logistic growth equation $\frac{dN}{dt} = rN \left(1 - \frac{N}{K}\right)$, and practice solving problems using this equation to model population growth.
 
- - **Mistake 5:** Not considering the impact of environmental factors, such as temperature, precipitation, and pH, on population and community dynamics.
+ - **Mistake 5:** Not considering the impact of [environmental](/blog/environmental-issues-class-12-notes) factors, such as temperature, precipitation, and pH, on population and community dynamics.
 
  - *Costs:* 5-7 marks in questions related to environmental factors and [ecosystem](/blog/ecosystem-class-12-notes) function.
 
@@ -140,8 +140,7 @@ practice_link: "/class-11/biology/organisms-and-populations-class-12-notes"
  - **Key Formulas:**
 
  - Exponential Growth: $N(t) = N_0 e^{rt}$
-
- - Logistic Growth: N(t) = \frac{K}{1 + \frac{K - N_0}{N_0}e^{-rt}}
+- Logistic Growth: N(t) = \frac{K}{1 + \frac{K - N_0}{N_0}e^{-rt}}
 
  - Carrying Capacity: $K = \frac{r}{d}$, where $d$ is the death rate.
 
@@ -159,9 +158,8 @@ practice_link: "/class-11/biology/organisms-and-populations-class-12-notes"
 | Type of Growth | Formula | Characteristics |
 | --- | --- | --- |
 | Exponential Growth | N(t) = N_0 e^{rt} | Rapid growth, unlimited resources |
+
 | Logistic Growth | N(t) = \frac{K}{1 + \frac{K - N_0}{N_0} e^{-rt}} | Rapid growth, limited resources, carrying capacity |
-
-
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
@@ -179,7 +177,7 @@ practice_link: "/class-11/biology/organisms-and-populations-class-12-notes"
 
  - Species interaction can be mutualism, commensalism, parasitism, competition, or amensalism.
 
- - Population growth is influenced by factors such as food availability, predation, and disease.
+ - Population growth is influenced by factors such as food availability, predation, and [disease](/blog/human-health-and-disease-class-12-notes).
 
  - Not accounting for the carrying capacity in population growth models can lead to unrealistic projections.
 

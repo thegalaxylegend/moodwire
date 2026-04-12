@@ -79,9 +79,9 @@ Data shows that 60% of the exam is an indirect repeat of concepts from the last 
 
 ## <a id="mastering-physics-and-chemistry-highyield-topics"></a>Mastering Physics and Chemistry High-Yield Topics
 
-Physics is scorable if you master numericals from the Light and Electricity chapters. Ray diagrams, such as those for a Convex Lens with an object between F and 2F, are guaranteed 5-markers. Redrawing circuits simplified step-by-step is the secret to getting complex Electricity problems right every time.
+Physics is scorable if you master numericals from the Light and Electricity [chapters](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet). Ray diagrams, such as those for a Convex Lens with an object between F and 2F, are guaranteed 5-markers. Redrawing circuits simplified step-by-step is the secret to getting complex Electricity problems right every time.
 
-In Chemistry, logic and balancing equations are your best weapons. High-yield topics like "Carbon and its Compounds" form the foundation for future studies, so master them early. Writing down and visualizing reactions like Saponification vs. Esterification will ensure they are hardwired for the exam day.
+In [chemistry](/blog/environmental-chemistry-class-11-revision-notes-neet), logic and balancing equations are your best weapons. High-yield topics like "Carbon and its Compounds" form the foundation for future studies, so master them early. Writing down and visualizing reactions like Saponification vs. Esterification will ensure they are hardwired for the exam day.
 
 
 

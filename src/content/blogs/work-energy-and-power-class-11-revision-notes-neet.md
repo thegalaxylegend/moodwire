@@ -174,7 +174,7 @@ At descent height x: v² = 2gx. K = 1/2 m(2gx) = mgx. U = mg(H-x). Total = **mgH
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
 **Q1: Can [kinetic](/blog/kinetic-theory-class-11-revision-notes-jee-neet) Energy ever be negative?**
-**Answer:** **No.** K = 1/2 m v². Since mass is always positive and v² is always positive (or zero), kinetic energy is always ≥ 0.
+**Answer:** **No.** K = 1/2 m v². Since mass is always positive and v² is always positive (or zero), [kinetic](/blog/kinetic-theory-class-11-revision-notes-jee-neet) energy is always ≥ 0.
 
 **Q2: What happens to the potential energy when a spring is compressed vs. stretched?**
 **Answer:** In both cases, Potential Energy **increases**. Because U = 1/2 kx², squaring the displacement (x) always yields a positive value, meaning the system stores energy whether it's compressed or stretched.

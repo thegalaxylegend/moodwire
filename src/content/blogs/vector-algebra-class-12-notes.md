@@ -23,7 +23,6 @@ practice_link: "/class-11/mathematics/vector-algebra-class-12-notes"
 - [📝 Practice MCQs](#-practice-mcqs)
 - [📚 Related Topics](#-related-topics)
 
-
 * **Vector Operations**: 1-2 numericals on $\vec{a} \times \vec{b}$, $\vec{a} \cdot \vec{b}$, $|\vec{a} \times \vec{b}|$, and $\vec{a} \cdot (\vec{b} \times \vec{c})$ — always
 * **Dot Product**: 1 numerical on finding the angle between two vectors using $\cos \theta = \frac{\vec{a} \cdot \vec{b}}{|\vec{a}| |\vec{b}|}$ — always
 * **Cross Product**: 1 numerical on finding the area of a parallelogram using $|\vec{a} \times \vec{b}|$ — always
@@ -47,9 +46,9 @@ practice_link: "/class-11/mathematics/vector-algebra-class-12-notes"
 
  - **Scalar Multiplication:** k\vec{a} = \vec{a} + \vec{a} + ... + \vec{a} (k times) — k is a scalar, \vec{a} is a vector.
 
- - **Magnitude of Vector:** ||\vec{a}|| = \sqrt{x^2 + y^2 + z^2} — x, y, z are components of \vec{a}.
+- **Magnitude of Vector:** ||\vec{a}|| = \sqrt{x^2 + y^2 + z^2} — x, y, z are components of \vec{a}.
 
- - **Unit Vector:** \hat{a} = \frac{\vec{a}}{||\vec{a}||} — \vec{a} is a vector.
+- **Unit Vector:** \hat{a} = \frac{\vec{a}}{||\vec{a}||} — \vec{a} is a vector.
 
  - **Dot Product:** \vec{a} \cdot \vec{b} = ||\vec{a}|| \cdot ||\vec{b}|| \cdot \cos{\theta} — \vec{a} and \vec{b} are vectors, \theta is the angle between them.
 
@@ -59,15 +58,15 @@ practice_link: "/class-11/mathematics/vector-algebra-class-12-notes"
 
  - **Triple Product (Vector):** \vec{a} \times (\vec{b} \times \vec{c}) = \vec{b}(\vec{a} \cdot \vec{c}) - \vec{c}(\vec{a} \cdot \vec{b}) — \vec{a}, \vec{b}, \vec{c} are vectors.
 
- - **Projection of \vec{a} onto \vec{b}:** \text{proj}_{\vec{b}}\vec{a} = \frac{\vec{a} \cdot \vec{b}}{||\vec{b}||^2} \vec{b} — \vec{a} and \vec{b} are vectors.
+- **Projection of \vec{a} onto \vec{b}:** \text{proj}_{\vec{b}}\vec{a} = \frac{\vec{a} \cdot \vec{b}}{||\vec{b}||^2} \vec{b} — \vec{a} and \vec{b} are vectors.
 
- - **Perpendicular Distance from a Point to a Line:** d = \frac{||\vec{b} \times \vec{a}||}{||\vec{b}||} — \vec{a} is a vector from a point on the line to the external point, \vec{b} is a vector along the line.
+- **Perpendicular Distance from a Point to a Line:** d = \frac{||\vec{b} \times \vec{a}||}{||\vec{b}||} — \vec{a} is a vector from a point on the line to the external point, \vec{b} is a vector along the line.
 
- - **Angle Between Two Vectors:** \cos{\theta} = \frac{\vec{a} \cdot \vec{b}}{||\vec{a}|| \cdot ||\vec{b}||} — \vec{a} and \vec{b} are vectors, \theta is the angle between them.
+- **Angle Between Two Vectors:** \cos{\theta} = \frac{\vec{a} \cdot \vec{b}}{||\vec{a}|| \cdot ||\vec{b}||} — \vec{a} and \vec{b} are vectors, \theta is the angle between them.
 
- - **Perpendicular Distance from a Point to a Line:** d = \frac{||\vec{b} \times \vec{a}||}{||\vec{b}||} — \vec{a} is a vector from a point on the line to the external point, \vec{b} is a vector along the line.
+- **Perpendicular Distance from a Point to a Line:** d = \frac{||\vec{b} \times \vec{a}||}{||\vec{b}||} — \vec{a} is a vector from a point on the line to the external point, \vec{b} is a vector along the line.
 
- - **Angle Between Two Vectors:** \cos{\theta} = \frac{\vec{a} \cdot \vec{b}}{||\vec{a}|| \\cdot ||\vec{b}||} — \vec{a} and \vec{b} are vectors, \theta is the angle between them.
+- **Angle Between Two Vectors:** \cos{\theta} = \frac{\vec{a} \cdot \vec{b}}{||\vec{a}|| \cdot ||\vec{b}||} — \vec{a} and \vec{b} are vectors, \theta is the angle between them.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -81,7 +80,11 @@ practice_link: "/class-11/mathematics/vector-algebra-class-12-notes"
 
  - *Costs:* 4-5 marks per question
 
- - *Fix:* Remember that the dot product of two vectors $\vec{a}$ and $\vec{b}$ is given by $\vec{a} \cdot \vec{b} = \| \vec{a} \| \| \vec{b} \| \cos(\theta)$, where $\theta$ is the angle between the vectors, and the cross product is given by \vec{a} \times \vec{b} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \ a_1 & a_2 & a_3 \ b_1 & b_2 & b_3 \end{vmatrix}.
+ - *Fix:* Remember that the dot product of two vectors $\vec{a}$ and $\vec{b}$ is given by $\vec{a} \cdot \vec{b} = \| \vec{a} \| \| \vec{b} \| \cos(\theta)$, where $\theta$ is the angle between the vectors, and the cross product is given by \vec{a} \times \vec{b} =
+
+\begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \ a_1 & a_2 & a_3 \ b_1 & b_2 & b_3 \end{vmatrix}
+
+.
 
  - **Mistake 3:** Forgetting to consider the direction of vectors when adding or subtracting them.
 
@@ -112,8 +115,8 @@ practice_link: "/class-11/mathematics/vector-algebra-class-12-notes"
  The projection of $\vec{a}$ on $\vec{b}$ is given by:
 
  
-\text{Projection of } \vec{a} \text{ on } \vec{b} = \frac{\vec{a} \cdot \vec{b}}{|\vec{b}|}
 
+\text{Projection of } \vec{a} \text{ on } \vec{b} = \frac{\vec{a} \cdot \vec{b}}{|\vec{b}|}
 
  Calculating $\vec{a} \cdot \vec{b}$:
 
@@ -126,14 +129,14 @@ practice_link: "/class-11/mathematics/vector-algebra-class-12-notes"
  Calculating $|\vec{b}|$:
 
  
-|\vec{b}| = \sqrt{(1)^2 + (-1)^2 + (1)^2} = \sqrt{3}
 
+|\vec{b}| = \sqrt{(1)^2 + (-1)^2 + (1)^2} = \sqrt{3}
 
  Thus, the projection of $\vec{a}$ on $\vec{b}$ is:
 
  
-\text{Projection of } \vec{a} \text{ on } \vec{b} = \frac{1}{\sqrt{3}}
 
+\text{Projection of } \vec{a} \text{ on } \vec{b} = \frac{1}{\sqrt{3}}
 
  - **Answer:** $\frac{1}{\sqrt{3}}$
 
@@ -146,8 +149,8 @@ practice_link: "/class-11/mathematics/vector-algebra-class-12-notes"
  The angle $\theta$ between two vectors $\vec{a}$ and $\vec{b}$ is given by:
 
  
-\cos{\theta} = \frac{\vec{a} \cdot \vec{b}}{|\vec{a}| |\vec{b}|}
 
+\cos{\theta} = \frac{\vec{a} \cdot \vec{b}}{|\vec{a}| |\vec{b}|}
 
  Calculating $\vec{a} \cdot \vec{b}$:
 
@@ -160,19 +163,19 @@ practice_link: "/class-11/mathematics/vector-algebra-class-12-notes"
  Calculating $|\vec{a}|$ and $|\vec{b}|$:
 
  
+
 |\vec{a}| = \sqrt{(2)^2 + (-1)^2 + (1)^2} = \sqrt{6}
 
 |\vec{b}| = \sqrt{(1)^2 + (2)^2 + (-1)^2} = \sqrt{6}
 
-
  Thus, $\cos{\theta}$ is:
 
  
+
 \cos{\theta} = \frac{-1}{\sqrt{6} \times \sqrt{6}} = \frac{-1}{6}
 
+\theta = \cos^{-1}\left(\frac{-1}{6}\right)
 
-
- \theta = \cos^{-1}\left(\frac{-1}{6}\right)
  - **Answer:** $\cos^{-1}\left(\frac{-1}{6}\right)$
 
  - **Q3:** Given $\vec{a} = 3\hat{i} + 4\hat{j}$ and $\vec{b} = 2\hat{i} - \hat{j}$, find a vector $\vec{c}$ such that $\vec{a} + \vec{c} = \vec{b}$.

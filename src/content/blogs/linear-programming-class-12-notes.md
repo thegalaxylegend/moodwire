@@ -30,7 +30,7 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 - **Constraints**: 1 question on plotting the constraints and finding the feasible region — always
 - **Feasible Region**: 1 numerical on identifying the feasible region and finding the optimal solution — always
 - **Optimal Solution**: 1 question on verifying the optimal solution using the corner point method — always
-- **Unbounded and Infeasible Solutions**: 1 numerical on identifying whether a linear programming problem has an unbounded or infeasible solution — always
+- **Unbounded and Infeasible Solutions**: 1 numerical on identifying whether a [linear](/blog/pair-of-linear-equations-class-10-notes) programming problem has an unbounded or infeasible solution — always
 - **$\Delta$x and $\Delta$y**: 1 numerical on finding the change in the objective function using $\Delta$x and $\Delta$y — always
 - **Shadow Price**: 1 question on finding the shadow price of a resource — always
 - **Sensitivity Analysis**: 1 numerical on performing sensitivity analysis using the graphical method — always
@@ -62,15 +62,15 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 
  - **Two-Phase Method:** 
 
- - **Phase I:** Z = \min \sum_{i=1}^{m} A_i
+- **Phase I:** Z = \min \sum_{i=1}^{m} A_i
 
- - **Phase II:** Z = \min \text{ or } \max\ \sum_{j=1}^{n} c_jx_j
+- **Phase II:** Z = \min \text{ or } \max\ \sum_{j=1}^{n} c_jx_j
 
  - **Dual Simplex Method:** 
 
- - **Primal:** \max\ Z = \sum_{j=1}^{n} c_jx_j
+- **Primal:** \max\ Z = \sum_{j=1}^{n} c_jx_j
 
- - **Dual:** \min\ W = \sum_{i=1}^{m} b_iy_i
+- **Dual:** \min\ W = \sum_{i=1}^{m} b_iy_i
 
  - **Shadow Price:** \Delta Z = \sum_{i=1}^{m} y_i \Delta b_i — where $\Delta Z$ is the change in the objective function value, $y_i$ is the dual variable for the $i^{th}$ constraint, $\Delta b_i$ is the change in the right-hand side value of the $i^{th}$ constraint.
 
@@ -138,7 +138,7 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 
  Solving these equations simultaneously:
 
- \begin{align*}
+\begin{align*}
 
  2x + 3y &= 1200 \\ 
 
@@ -146,9 +146,9 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 
  \end{align*}
 
- Multiplying the first equation by 2 and the second equation by 3 gives:
+Multiplying the first equation by 2 and the second equation by 3 gives:
 
- \begin{align*}
+\begin{align*}
 
  4x + 6y &= 2400 \\ 
 
@@ -156,7 +156,7 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 
  \end{align*}
 
- Subtracting the first equation from the second gives:
+Subtracting the first equation from the second gives:
 
  5x = 300x = 60
 
@@ -196,7 +196,7 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 
  Solving these equations simultaneously:
 
- \begin{align*}
+\begin{align*}
 
  2x + 3y &= 60 \\ 
 
@@ -204,9 +204,9 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 
  \end{align*}
 
- Multiplying the first equation by 2 and the second equation by 3 gives:
+Multiplying the first equation by 2 and the second equation by 3 gives:
 
- \begin{align*}
+\begin{align*}
 
  4x + 6y &= 120 \\ 
 
@@ -214,7 +214,7 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 
  \end{align*}
 
- Subtracting the first equation from the second gives:
+Subtracting the first equation from the second gives:
 
  5x = 30x = 6
 
@@ -254,7 +254,7 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 
  Solving these equations simultaneously:
 
- \begin{align*}
+\begin{align*}
 
  2x + y &= 120 \\ 
 
@@ -262,23 +262,23 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 
  \end{align*}
 
- Multiplying the second equation by 2 gives:
+Multiplying the second equation by 2 gives:
 
  2x + 4y = 200
 
  Subtracting the first equation from this gives:
 
- 3y = 80y = \frac{80}{3}
+3y = 80y = \frac{80}{3}
 
  Substituting $y = \frac{80}{3}$ into one of the original equations to find $x$:
 
- 2x + \frac{80}{3} = 1206x + 80 = 3606x = 280x = \frac{280}{6}x = \frac{140}{3}
+2x + \frac{80}{3} = 1206x + 80 = 3606x = 280x = \frac{280}{6}x = \frac{140}{3}
 
  Thus, the maximum profit occurs at $x = \frac{140}{3}$ and $y = \frac{80}{3}$.
 
  Substituting these values into the objective function:
 
- P = 20(\frac{140}{3}) + 30(\frac{80}{3})P = \frac{2800}{3} + \frac{2400}{3}P = \frac{5200}{3}
+P = 20(\frac{140}{3}) + 30(\frac{80}{3})P = \frac{2800}{3} + \frac{2400}{3}P = \frac{5200}{3}
 
  - **Answer:** $\frac{5200}{3}$
 
@@ -308,8 +308,6 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 | --- | --- | --- |
 | $\Delta c_j$ | \frac{z_j - c_j}{\bar{a}_{j \cdot}} | Range of optimality for objective function coefficient $c_j$ |
 | $\Delta b_i$ | \frac{\bar{x}_i}{\bar{a}_{i \cdot}} | Range of values for right-hand side parameter $b_i$ |
-
-
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 

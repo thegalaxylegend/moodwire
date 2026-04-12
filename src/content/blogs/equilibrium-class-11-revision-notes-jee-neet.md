@@ -125,10 +125,16 @@ This chapter is massive — it combines [chemical](/blog/chemical-bonding-class-
 **The Equilibrium Constant ($K$) is a dimensionless quantity that expresses the ratio of product concentrations to reactant concentrations, each raised to the power of their stoichiometric coefficients, at equilibrium.**
 
 For $aA + bB \rightleftharpoons cC + dD$:
+
 K_c = \frac{[C]^c [D]^d}{[A]^a [B]^b}
 
+
+
 ### <a id="k_p-vs-k_c-relationship"></a>$K_p$ vs $K_c$ Relationship
+
 K_p = K_c (RT)^{\Delta n_g}
+
+
 where $\Delta n_g$ = (moles of gaseous products) - (moles of gaseous reactants).
 
 ### <a id="rules-for-manipulating-k"></a>Rules for Manipulating K
@@ -250,8 +256,12 @@ This means: **Lower concentration → Higher dissociation**. This is counterintu
 - **Basic Buffer**: Weak Base + Conjugate Acid Salt ($NH_4OH + NH_4Cl$).
 
 ### <a id="hendersonhasselbalch-equation"></a>Henderson-Hasselbalch Equation
+
 pH = pK_a + \log \frac{[\text{Salt}]}{[\text{Acid}]} (Acidic Buffer)
+
 pOH = pK_b + \log \frac{[\text{Salt}]}{[\text{Base}]} (Basic Buffer)
+
+
 
 **JEE Trick**: Buffer capacity is maximum when $[\text{Salt}] = [\text{Acid}]$, i.e., when $pH = pK_a$.
 

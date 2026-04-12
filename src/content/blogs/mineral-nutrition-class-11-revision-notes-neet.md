@@ -141,7 +141,7 @@ Deficiency of essential elements can lead to various disorders in [plants](/blog
 2. Phosphorus deficiency: causes stunted [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet) and purple coloration of leaves
 3. Potassium deficiency: causes scorching of leaves and reduced [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet)
 4. Calcium deficiency: causes curling of leaves and reduced [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet)
-5. Magnesium deficiency: causes yellowing of leaves and reduced growth
+5. Magnesium deficiency: causes yellowing of leaves and reduced [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet)
 
 These disorders can be [diagnosed and managed](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7123155/) by providing the deficient element.
 
@@ -242,7 +242,7 @@ Answer: b) Stunted growth and purple coloration of leaves
 
 ## <a id="related-notes-links"></a>Related Notes Links
 
-* Photosynthesis Class 11 Notes
+* Photosynthesis [class](/blog/hydrogen-class-11-revision-notes-neet) 11 Notes
 * Respiration Class 11 Notes
 
 

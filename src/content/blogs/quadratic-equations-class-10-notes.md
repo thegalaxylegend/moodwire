@@ -21,7 +21,7 @@ practice_link: "/class-11/mathematics/quadratic-equations-class-10-notes"
 - - Quadratic Equations: Relation between roots and coefficients ($\alpha + \beta = -\frac{b}{a}$, $\alpha \beta = \frac{c}{a}$) — always
 - - Quadratic Equations: 1 question on the nature of roots ([real](/blog/real-numbers-class-10-notes) and distinct, [real](/blog/real-numbers-class-10-notes) and equal, imaginary) — frequently
 - - Quadratic Equations: Quadratic formula ($x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$) — always
-- - Quadratic Equations: 1 question on solving a quadratic equation using the quadratic formula — frequently
+- - Quadratic [equations](/blog/pair-of-linear-equations-class-10-notes): 1 question on solving a quadratic equation using the quadratic formula — frequently
 - - Quadratic Equations: Graph of a quadratic function ($y = ax^2 + bx + c$) — frequently
 - - Quadratic Equations: Vertex form of a quadratic function ($y = a(x - h)^2 + k$) — frequently
 - - Quadratic Equations: 1 question on the axis of symmetry of a quadratic function — frequently
@@ -96,11 +96,13 @@ practice_link: "/class-11/mathematics/quadratic-equations-class-10-notes"
  - **Solution:** 
  - Use the quadratic formula: 
  
+
 x = \frac{{-b \pm \sqrt{{b^2 - 4ac}}}}{2a}
 
  - For the given equation $x^2 - 3x - 2 = 0$, we have $a = 1$, $b = -3$, and $c = -2$.
  - Substitute these values into the quadratic formula:
  
+
 x = \frac{{-(-3) \pm \sqrt{{(-3)^2 - 4(1)(-2)}}}}{2(1)} \
 
 x = \frac{{3 \pm \sqrt{{9 + 8}}}}{2} \
@@ -114,6 +116,7 @@ x = \frac{{3 \pm \sqrt{{17}}}}{2}
  - **Solution:** 
  - To simplify $x = \frac{1}{{2 + \sqrt{3}}}$, multiply the numerator and denominator by the conjugate of the denominator:
  
+
 x = \frac{1}{{2 + \sqrt{3}}} \times \frac{{2 - \sqrt{3}}}{{2 - \sqrt{3}}} \
 
 x = \frac{{2 - \sqrt{3}}}{{(2)^2 - (\sqrt{3})^2}} \
@@ -124,6 +127,7 @@ x = 2 - \sqrt{3}
 
  - Now, substitute $x = 2 - \sqrt{3}$ into the expression $x^2 + 3x - 4$:
  
+
 (2 - \sqrt{3})^2 + 3(2 - \sqrt{3}) - 4 \
 
 (4 - 4\sqrt{3} + 3) + (6 - 3\sqrt{3}) - 4 \
@@ -137,7 +141,9 @@ x = 2 - \sqrt{3}
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 - **The Core Concept:** The core concept in quadratic equations that separates high scorers from the rest is the **discriminant**, $b^2 - 4ac$, which determines the nature of the roots of a quadratic equation $ax^2 + bx + c = 0$. 
- - **What 85% scorers do:** Most students (around 85% scorers) focus on simply solving quadratic equations using the quadratic formula: x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} without deeply understanding the implications of the discriminant.
+
+- **What 85% scorers do:** Most students (around 85% scorers) focus on simply solving quadratic equations using the quadratic formula: x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} without deeply understanding the implications of the discriminant.
+
  - **What 95% scorers do:** However, high scorers (95% scorers) understand that the discriminant, $b^2 - 4ac$, is key to quickly determining the nature of the roots without fully solving the equation. They can:
  * Identify if the roots are real and distinct ($b^2 - 4ac > 0$)
  * Recognize if there are real and equal roots ($b^2 - 4ac = 0$)
@@ -166,7 +172,9 @@ x = 2 - \sqrt{3}
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 - {a}{x}^2 + {b}{x} + {c} = 0: Standard form of a quadratic equation
- - {x} = \frac{{-b} \pm \sqrt{{{b}^2} - {4}{a}{c}}}{{2}{a}}: Quadratic formula
+
+- {x} = \frac{{-b} \pm \sqrt{{{b}^2} - {4}{a}{c}}}{{2}{a}}: Quadratic formula
+
  - {b}^2 - {4}{a}{c}$: Discriminant to determine nature of roots
  - {x} = \frac{{-b}}{{2}{a}}$: Formula for x-coordinate of vertex
  - {y} = {c} - \frac{{{b}^2}}{{4}{a}}$: Formula for y-coordinate of vertex
@@ -177,8 +185,6 @@ x = 2 - \sqrt{3}
  - Common mistakes:
  - Forgetting to simplify the expression under the square root
  - Not considering both the plus and minus sign in the quadratic formula  $
-
-
 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 

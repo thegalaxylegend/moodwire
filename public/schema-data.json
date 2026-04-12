@@ -20,13 +20,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.939Z",
+      "dateModified": "2026-04-12T02:36:11.549Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/3d-geometry-intro-class-11-revision-notes-jee-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 307,
+      "wordCount": 785,
       "keywords": ""
     },
     {
@@ -83,33 +83,38 @@
       "hasPart": [
         {
           "@type": "LearningResource",
-          "name": "What is 3d Geometry Intro?",
+          "name": "Introduction to 3D Geometry",
           "position": 1
         },
         {
           "@type": "LearningResource",
-          "name": "Ayush's Note — The Mistake I Made",
+          "name": "What is 3D Geometry Intro?",
           "position": 2
         },
         {
           "@type": "LearningResource",
-          "name": "Trap Questions & Exceptions to Watch Out For",
+          "name": "Ayush's Note — The Mistake I Made",
           "position": 3
         },
         {
           "@type": "LearningResource",
-          "name": "MCQs",
+          "name": "Trap Questions & Exceptions to Watch Out For",
           "position": 4
         },
         {
           "@type": "LearningResource",
-          "name": "📚 Related Topics",
+          "name": "MCQs",
           "position": 5
         },
         {
           "@type": "LearningResource",
           "name": "📚 Related Topics",
           "position": 6
+        },
+        {
+          "@type": "LearningResource",
+          "name": "Last 5 Minutes Box",
+          "position": 7
         }
       ]
     }
@@ -135,7 +140,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.940Z",
+      "dateModified": "2026-04-12T02:36:11.550Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/agriculture-class-11-revision-notes-neet"
@@ -260,13 +265,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.940Z",
+      "dateModified": "2026-04-12T02:36:11.550Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 1118,
+      "wordCount": 1122,
       "keywords": ""
     },
     {
@@ -385,13 +390,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.940Z",
+      "dateModified": "2026-04-12T02:36:11.551Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/ai-study-hack-pomodoro-class-11-revision-notes-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 815,
+      "wordCount": 850,
       "keywords": ""
     },
     {
@@ -510,13 +515,13 @@
         }
       },
       "datePublished": "2026-03-29T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.941Z",
+      "dateModified": "2026-04-12T02:36:11.551Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/alcohols-phenols-and-ethers-class-12-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 1636,
+      "wordCount": 1485,
       "keywords": ""
     },
     {
@@ -583,7 +588,7 @@
         },
         {
           "@type": "LearningResource",
-          "name": "⚗️ Chemical Quick Reference (Verified via PubChem)",
+          "name": "📚 Related Topics",
           "position": 3
         },
         {
@@ -593,17 +598,17 @@
         },
         {
           "@type": "LearningResource",
-          "name": "📚 Related Topics",
+          "name": "The 5 Mistakes That Cost Marks",
           "position": 5
         },
         {
           "@type": "LearningResource",
-          "name": "The 5 Mistakes That Cost Marks",
+          "name": "Last 5 Minutes Box",
           "position": 6
         },
         {
           "@type": "LearningResource",
-          "name": "Last 5 Minutes Box",
+          "name": "⚗️ Chemical Quick Reference (Verified via PubChem)",
           "position": 7
         }
       ]
@@ -630,13 +635,13 @@
         }
       },
       "datePublished": "2026-03-30T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.942Z",
+      "dateModified": "2026-04-12T02:36:11.552Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 3365,
+      "wordCount": 3392,
       "keywords": ""
     },
     {
@@ -703,7 +708,7 @@
         },
         {
           "@type": "LearningResource",
-          "name": "⚗️ Chemical Quick Reference (Verified via PubChem)",
+          "name": "📚 Related Topics",
           "position": 3
         },
         {
@@ -713,12 +718,12 @@
         },
         {
           "@type": "LearningResource",
-          "name": "📚 Related Topics",
+          "name": "The 5 Mistakes That Cost Marks",
           "position": 5
         },
         {
           "@type": "LearningResource",
-          "name": "The 5 Mistakes That Cost Marks",
+          "name": "⚗️ Chemical Quick Reference (Verified via PubChem)",
           "position": 6
         }
       ]
@@ -745,13 +750,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.943Z",
+      "dateModified": "2026-04-12T02:36:11.553Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/algorithms-analysis-class-11-revision-notes-gate-boards"
       },
       "articleSection": "Revision",
-      "wordCount": 6449,
+      "wordCount": 6404,
       "keywords": ""
     },
     {
@@ -905,13 +910,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.944Z",
+      "dateModified": "2026-04-12T02:36:11.555Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/algorithms-design-class-11-revision-notes-gate-boards"
       },
       "articleSection": "Revision",
-      "wordCount": 7035,
+      "wordCount": 7040,
       "keywords": ""
     },
     {
@@ -1065,13 +1070,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.945Z",
+      "dateModified": "2026-04-12T02:36:11.556Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/alternating-current-class-12-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 5634,
+      "wordCount": 5773,
       "keywords": ""
     },
     {
@@ -1190,6 +1195,11 @@
           "@type": "LearningResource",
           "name": "📚 Related Topics",
           "position": 13
+        },
+        {
+          "@type": "LearningResource",
+          "name": "Last 5 Minutes Box",
+          "position": 14
         }
       ]
     }
@@ -1215,13 +1225,13 @@
         }
       },
       "datePublished": "2026-03-30T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.945Z",
+      "dateModified": "2026-04-12T02:36:11.556Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/amines-class-12-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 1854,
+      "wordCount": 2107,
       "keywords": ""
     },
     {
@@ -1300,6 +1310,16 @@
           "@type": "LearningResource",
           "name": "📚 Related Topics",
           "position": 5
+        },
+        {
+          "@type": "LearningResource",
+          "name": "The 5 Mistakes That Cost Marks",
+          "position": 6
+        },
+        {
+          "@type": "LearningResource",
+          "name": "⚗️ Chemical Quick Reference (Verified via PubChem)",
+          "position": 7
         }
       ]
     }
@@ -1325,13 +1345,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.945Z",
+      "dateModified": "2026-04-12T02:36:11.556Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 1910,
+      "wordCount": 2030,
       "keywords": ""
     },
     {
@@ -1455,6 +1475,11 @@
           "@type": "LearningResource",
           "name": "📚 Related Topics",
           "position": 14
+        },
+        {
+          "@type": "LearningResource",
+          "name": "Last 5 Minutes Box",
+          "position": 15
         }
       ]
     }
@@ -1480,13 +1505,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.946Z",
+      "dateModified": "2026-04-12T02:36:11.557Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/ancient-india-indus-valley-class-11-revision-notes-cbse"
       },
       "articleSection": "Revision",
-      "wordCount": 1064,
+      "wordCount": 1395,
       "keywords": ""
     },
     {
@@ -1558,7 +1583,7 @@
         },
         {
           "@type": "LearningResource",
-          "name": "JEE/NEET Data",
+          "name": "JEE/MEET Data",
           "position": 4
         },
         {
@@ -1615,6 +1640,16 @@
           "@type": "LearningResource",
           "name": "📚 Related Topics",
           "position": 15
+        },
+        {
+          "@type": "LearningResource",
+          "name": "The 5 Mistakes That Cost Marks",
+          "position": 16
+        },
+        {
+          "@type": "LearningResource",
+          "name": "Last 5 Minutes Box",
+          "position": 17
         }
       ]
     }
@@ -1640,13 +1675,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.946Z",
+      "dateModified": "2026-04-12T02:36:11.558Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee"
       },
       "articleSection": "Revision",
-      "wordCount": 893,
+      "wordCount": 1304,
       "keywords": ""
     },
     {
@@ -1718,7 +1753,7 @@
         },
         {
           "@type": "LearningResource",
-          "name": "JEE/NEET Data and Historical Context",
+          "name": "JEE/MEET Data and Historical Context",
           "position": 4
         },
         {
@@ -1745,6 +1780,16 @@
           "@type": "LearningResource",
           "name": "📚 Related Topics",
           "position": 9
+        },
+        {
+          "@type": "LearningResource",
+          "name": "The 5 Mistakes That Cost Marks",
+          "position": 10
+        },
+        {
+          "@type": "LearningResource",
+          "name": "Last 5 Minutes Box",
+          "position": 11
         }
       ]
     }
@@ -1770,13 +1815,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.946Z",
+      "dateModified": "2026-04-12T02:36:11.558Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/ancient-india-vedic-age-class-11-revision-notes-jee"
       },
       "articleSection": "Revision",
-      "wordCount": 1103,
+      "wordCount": 1431,
       "keywords": ""
     },
     {
@@ -1858,7 +1903,7 @@
         },
         {
           "@type": "LearningResource",
-          "name": "JEE/NEET Data",
+          "name": "JEE/MEET Data",
           "position": 6
         },
         {
@@ -1895,6 +1940,16 @@
           "@type": "LearningResource",
           "name": "📚 Related Topics",
           "position": 13
+        },
+        {
+          "@type": "LearningResource",
+          "name": "The 5 Mistakes That Cost Marks",
+          "position": 14
+        },
+        {
+          "@type": "LearningResource",
+          "name": "Last 5 Minutes Box",
+          "position": 15
         }
       ]
     }
@@ -1920,13 +1975,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.946Z",
+      "dateModified": "2026-04-12T02:36:11.558Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/animal-kingdom-class-11-revision-notes-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 1262,
+      "wordCount": 1317,
       "keywords": ""
     },
     {
@@ -2050,6 +2105,11 @@
           "@type": "LearningResource",
           "name": "📚 Related Topics",
           "position": 14
+        },
+        {
+          "@type": "LearningResource",
+          "name": "Last 5 Minutes Box",
+          "position": 15
         }
       ]
     }
@@ -2075,60 +2135,14 @@
         }
       },
       "datePublished": "2026-04-02T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.947Z",
+      "dateModified": "2026-04-12T02:36:11.558Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/application-of-derivatives-class-12-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 3416,
+      "wordCount": 3472,
       "keywords": ""
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the primary application of derivatives in functions?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. Derivatives are used to find the critical points of a function, which can be maxima or minima."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "A function f(x) has a derivative f'(x) = 2x. What is the equation of the tangent line at x = 2?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is B. First, find f(2) = 2^2 = 4. The slope at x = 2 is f'(2) = 2*2 = 4. Using point-slope form, y - 4 = 4(x - 2), which simplifies to y = 4x - 4."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which of the following is NOT an application of derivatives?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is D. Integration by parts is a technique of integration, not an application of derivatives."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "A company's profit function is P(x) = 100x - x^2, where x is the number of units sold. How many units should be sold to maximize profit?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is B. To maximize profit, take the derivative of P(x) and set it equal to zero. P'(x) = 100 - 2x = 0. Solving for x, x = 50."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the name of the theorem that states if a function f is continuous on [a, b] and differentiable on (a, b), then there exists c in (a, b) such that f'(c) = (f(b) - f(a))/(b - a)?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. The Mean Value Theorem is a fundamental theorem in calculus that relates the derivative of a function to the slope of the tangent line."
-          }
-        }
-      ]
     },
     {
       "@context": "https://schema.org",
@@ -2251,13 +2265,13 @@
         }
       },
       "datePublished": "2026-04-01T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.947Z",
+      "dateModified": "2026-04-12T02:36:11.559Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/application-of-integrals-class-12-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 2897,
+      "wordCount": 3141,
       "keywords": ""
     },
     {
@@ -2336,6 +2350,11 @@
           "@type": "LearningResource",
           "name": "📚 Related Topics",
           "position": 5
+        },
+        {
+          "@type": "LearningResource",
+          "name": "The 5 Mistakes That Cost Marks",
+          "position": 6
         }
       ]
     }
@@ -2361,13 +2380,13 @@
         }
       },
       "datePublished": "2026-04-10T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.948Z",
+      "dateModified": "2026-04-12T02:36:11.559Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/applications-of-trigonometry-class-10-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 2644,
+      "wordCount": 2689,
       "keywords": ""
     },
     {
@@ -2434,7 +2453,7 @@
         },
         {
           "@type": "LearningResource",
-          "name": "3 Solved PYQs",
+          "name": "3 Solved Yes",
           "position": 3
         },
         {
@@ -2486,13 +2505,13 @@
         }
       },
       "datePublished": "2026-04-11T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.948Z",
+      "dateModified": "2026-04-12T02:36:11.559Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/areas-related-to-circles-class-10-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 2399,
+      "wordCount": 2409,
       "keywords": ""
     },
     {
@@ -2559,7 +2578,7 @@
         },
         {
           "@type": "LearningResource",
-          "name": "3 Solved PYQs",
+          "name": "3 Solved Yes",
           "position": 3
         },
         {
@@ -2606,7 +2625,7 @@
         }
       },
       "datePublished": "2026-04-07T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.949Z",
+      "dateModified": "2026-04-12T02:36:11.560Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/arithmetic-progressions-class-10-notes"
@@ -2731,13 +2750,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.949Z",
+      "dateModified": "2026-04-12T02:36:11.560Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/art-culture-architecture-class-11-revision-notes-jee-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 1011,
+      "wordCount": 1384,
       "keywords": ""
     },
     {
@@ -2831,6 +2850,16 @@
           "@type": "LearningResource",
           "name": "📚 Related Topics",
           "position": 8
+        },
+        {
+          "@type": "LearningResource",
+          "name": "The 5 Mistakes That Cost Marks",
+          "position": 9
+        },
+        {
+          "@type": "LearningResource",
+          "name": "Last 5 Minutes Box",
+          "position": 10
         }
       ]
     }
@@ -2856,13 +2885,13 @@
         }
       },
       "datePublished": "2026-03-29T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.949Z",
+      "dateModified": "2026-04-12T02:36:11.560Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/atoms-class-12-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 2085,
+      "wordCount": 2093,
       "keywords": ""
     },
     {
@@ -2934,7 +2963,7 @@
         },
         {
           "@type": "LearningResource",
-          "name": "3 Solved PYQs",
+          "name": "3 Solved Yes",
           "position": 4
         },
         {
@@ -2991,13 +3020,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.950Z",
+      "dateModified": "2026-04-12T02:36:11.561Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/binomial-theorem-class-11-revision-notes-jee"
       },
       "articleSection": "Revision",
-      "wordCount": 1096,
+      "wordCount": 1376,
       "keywords": ""
     },
     {
@@ -3116,6 +3145,16 @@
           "@type": "LearningResource",
           "name": "📚 Related Topics",
           "position": 13
+        },
+        {
+          "@type": "LearningResource",
+          "name": "The 5 Mistakes That Cost Marks",
+          "position": 14
+        },
+        {
+          "@type": "LearningResource",
+          "name": "Last 5 Minutes Box",
+          "position": 15
         }
       ]
     }
@@ -3141,60 +3180,14 @@
         }
       },
       "datePublished": "2026-04-06T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.950Z",
+      "dateModified": "2026-04-12T02:36:11.561Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/biodiversity-and-conservation-class-12-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 2652,
+      "wordCount": 2742,
       "keywords": ""
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the primary cause of biodiversity loss in ecosystems?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. Habitat destruction is the primary cause of biodiversity loss as it leads to loss of natural habitats and extinction of species."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which of the following is an example of a keystone species?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is C. Sea otter is a keystone species because it plays a unique role in maintaining the balance of its ecosystem, controlling sea urchin populations and thereby maintaining kelp forests."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the term for the movement of species from one region to another?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is D. Dispersion refers to the movement of species from one region to another, often resulting in the colonization of new areas."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which of the following conservation strategies involves the protection of a specific species and its habitat?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is B. Species-based conservation involves the protection of a specific species and its habitat, often through the creation of protected areas or the implementation of species-specific management plans."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the term for the study of the distribution and abundance of species in an ecosystem?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is B. Biogeography is the study of the distribution and abundance of species in an ecosystem, often focusing on the geographic patterns of species diversity."
-          }
-        }
-      ]
     },
     {
       "@context": "https://schema.org",
@@ -3260,7 +3253,7 @@
         },
         {
           "@type": "LearningResource",
-          "name": "3 Solved PYQs",
+          "name": "3 Solved Yes",
           "position": 3
         },
         {
@@ -3317,13 +3310,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.950Z",
+      "dateModified": "2026-04-12T02:36:11.562Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/biogeography-class-11-revision-notes-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 1425,
+      "wordCount": 1738,
       "keywords": ""
     },
     {
@@ -3397,6 +3390,16 @@
           "@type": "LearningResource",
           "name": "📚 Related Topics",
           "position": 4
+        },
+        {
+          "@type": "LearningResource",
+          "name": "The 5 Mistakes That Cost Marks",
+          "position": 5
+        },
+        {
+          "@type": "LearningResource",
+          "name": "Last 5 Minutes Box",
+          "position": 6
         }
       ]
     }
@@ -3422,13 +3425,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.950Z",
+      "dateModified": "2026-04-12T02:36:11.562Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/biological-classification-class-11-revision-notes-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 1185,
+      "wordCount": 1273,
       "keywords": ""
     },
     {
@@ -3542,6 +3545,11 @@
           "@type": "LearningResource",
           "name": "📚 Related Topics",
           "position": 12
+        },
+        {
+          "@type": "LearningResource",
+          "name": "Last 5 Minutes Box",
+          "position": 13
         }
       ]
     }
@@ -3567,13 +3575,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.950Z",
+      "dateModified": "2026-04-12T02:36:11.562Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/biomolecules-class-11-revision-notes-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 1405,
+      "wordCount": 1544,
       "keywords": ""
     },
     {
@@ -3642,6 +3650,16 @@
           "@type": "LearningResource",
           "name": "📚 Related Topics",
           "position": 3
+        },
+        {
+          "@type": "LearningResource",
+          "name": "Last 5 Minutes Box",
+          "position": 4
+        },
+        {
+          "@type": "LearningResource",
+          "name": "⚗️ Chemical Quick Reference (Verified via PubChem)",
+          "position": 5
         }
       ]
     }
@@ -3667,60 +3685,14 @@
         }
       },
       "datePublished": "2026-04-05T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.951Z",
+      "dateModified": "2026-04-12T02:36:11.563Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/biotechnology-and-its-applications-class-12-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 2542,
+      "wordCount": 2606,
       "keywords": ""
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the primary function of the lac operator in the lac operon?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. The lac operator is a DNA sequence that binds to the lac repressor protein, preventing RNA polymerase from transcribing the lac genes."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which of the following is an example of a biotechnological application of gene editing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is D. Gene editing has various biotechnological applications, including the production of biofuels, development of genetically modified crops, and synthesis of antibiotics."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the purpose of using a vector in genetic engineering?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. A vector is a vehicle used to introduce a gene into a host cell, allowing the gene to be replicated and expressed."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which enzyme is used to cut DNA at specific recognition sites?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is C. Restriction endonucleases, also known as restriction enzymes, are used to cut DNA at specific recognition sites, allowing for the manipulation of DNA sequences."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the term for the process of determining the order of nucleotides in a DNA molecule?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. DNA sequencing is the process of determining the order of nucleotides in a DNA molecule, which is essential for understanding the genetic code and its applications."
-          }
-        }
-      ]
     },
     {
       "@context": "https://schema.org",
@@ -3786,7 +3758,7 @@
         },
         {
           "@type": "LearningResource",
-          "name": "3 Solved PYQs",
+          "name": "3 Solved Yes",
           "position": 3
         },
         {
@@ -3843,60 +3815,14 @@
         }
       },
       "datePublished": "2026-04-05T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.951Z",
+      "dateModified": "2026-04-12T02:36:11.563Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/biotechnology-principles-and-processes-class-12-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 2494,
+      "wordCount": 2595,
       "keywords": ""
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the primary function of the lac operator in the lac operon?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is B. The lac operator is a DNA sequence that binds to the lac repressor protein, which inhibits transcription of the lac operon."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which of the following enzymes is used in PCR to amplify DNA sequences?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. Taq polymerase is a thermostable enzyme used in PCR to amplify DNA sequences by adding nucleotides to the template strand."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the purpose of using a vector in gene cloning?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is D. A vector is used to introduce the cloned gene into the host organism, where it can be replicated and expressed."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which of the following techniques is used to separate DNA fragments based on size?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. Gel electrophoresis is a technique used to separate DNA fragments based on size, with smaller fragments migrating further through the gel."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the role of RNA interference (RNAi) in gene regulation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is B. RNAi is a mechanism that represses gene expression by degrading specific mRNA molecules, thereby preventing their translation into protein."
-          }
-        }
-      ]
     },
     {
       "@context": "https://schema.org",
@@ -3962,7 +3888,7 @@
         },
         {
           "@type": "LearningResource",
-          "name": "3 Solved PYQs",
+          "name": "3 Solved Yes",
           "position": 3
         },
         {
@@ -4019,13 +3945,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.952Z",
+      "dateModified": "2026-04-12T02:36:11.564Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/body-fluids-and-circulation-class-11-revision-notes-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 6374,
+      "wordCount": 6661,
       "keywords": ""
     },
     {
@@ -4164,6 +4090,16 @@
           "@type": "LearningResource",
           "name": "📚 Related Topics",
           "position": 17
+        },
+        {
+          "@type": "LearningResource",
+          "name": "The 5 Mistakes That Cost Marks",
+          "position": 18
+        },
+        {
+          "@type": "LearningResource",
+          "name": "Last 5 Minutes Box",
+          "position": 19
         }
       ]
     }
@@ -4189,13 +4125,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.952Z",
+      "dateModified": "2026-04-12T02:36:11.564Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/breathing-and-exchange-of-gases-class-11-revision-notes-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 1574,
+      "wordCount": 1879,
       "keywords": ""
     },
     {
@@ -4284,6 +4220,16 @@
           "@type": "LearningResource",
           "name": "📚 Related Topics",
           "position": 7
+        },
+        {
+          "@type": "LearningResource",
+          "name": "The 5 Mistakes That Cost Marks",
+          "position": 8
+        },
+        {
+          "@type": "LearningResource",
+          "name": "Last 5 Minutes Box",
+          "position": 9
         }
       ]
     }
@@ -4309,13 +4255,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.953Z",
+      "dateModified": "2026-04-12T02:36:11.564Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 1375,
+      "wordCount": 1462,
       "keywords": ""
     },
     {
@@ -4429,6 +4375,11 @@
           "@type": "LearningResource",
           "name": "📚 Related Topics",
           "position": 12
+        },
+        {
+          "@type": "LearningResource",
+          "name": "Last 5 Minutes Box",
+          "position": 13
         }
       ]
     }
@@ -4454,13 +4405,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.953Z",
+      "dateModified": "2026-04-12T02:36:11.565Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/cell-the-unit-of-life-class-11-revision-notes-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 1325,
+      "wordCount": 1402,
       "keywords": ""
     },
     {
@@ -4599,6 +4550,11 @@
           "@type": "LearningResource",
           "name": "📚 Related Topics",
           "position": 17
+        },
+        {
+          "@type": "LearningResource",
+          "name": "Last 5 Minutes Box",
+          "position": 18
         }
       ]
     }
@@ -4624,13 +4580,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.953Z",
+      "dateModified": "2026-04-12T02:36:11.565Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/chemical-bonding-class-11-revision-notes-jee-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 2851,
+      "wordCount": 3190,
       "keywords": ""
     },
     {
@@ -4784,6 +4740,16 @@
           "@type": "LearningResource",
           "name": "📚 Related Topics",
           "position": 20
+        },
+        {
+          "@type": "LearningResource",
+          "name": "The 5 Mistakes That Cost Marks",
+          "position": 21
+        },
+        {
+          "@type": "LearningResource",
+          "name": "Last 5 Minutes Box",
+          "position": 22
         }
       ]
     }
@@ -4809,7 +4775,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.954Z",
+      "dateModified": "2026-04-12T02:36:11.565Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/chemical-coordination-and-integration-class-11-revision-notes-neet"
@@ -4939,7 +4905,7 @@
         }
       },
       "datePublished": "2026-03-29T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.954Z",
+      "dateModified": "2026-04-12T02:36:11.566Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/chemical-kinetics-class-12-notes"
@@ -5074,7 +5040,7 @@
         }
       },
       "datePublished": "2026-03-30T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.954Z",
+      "dateModified": "2026-04-12T02:36:11.566Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/chemistry-in-everyday-life-class-12-notes"
@@ -5179,13 +5145,13 @@
         }
       },
       "datePublished": "2026-04-11T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.955Z",
+      "dateModified": "2026-04-12T02:36:11.566Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/circles-class-10-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 1761,
+      "wordCount": 2543,
       "keywords": ""
     },
     {
@@ -5299,7 +5265,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.955Z",
+      "dateModified": "2026-04-12T02:36:11.567Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/class-10-30-day-timetable-class-10-revision-notes-jee"
@@ -5429,7 +5395,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.955Z",
+      "dateModified": "2026-04-12T02:36:11.567Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet"
@@ -5559,7 +5525,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.955Z",
+      "dateModified": "2026-04-12T02:36:11.567Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet"
@@ -5719,7 +5685,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.956Z",
+      "dateModified": "2026-04-12T02:36:11.568Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/classification-of-elements-class-11-revision-notes-jee-neet"
@@ -5854,7 +5820,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.956Z",
+      "dateModified": "2026-04-12T02:36:11.569Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/climatology-class-11-revision-notes-jee-neet"
@@ -5974,7 +5940,7 @@
         }
       },
       "datePublished": "2026-03-29T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.956Z",
+      "dateModified": "2026-04-12T02:36:11.569Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/communication-systems-class-12-notes"
@@ -6109,7 +6075,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.957Z",
+      "dateModified": "2026-04-12T02:36:11.569Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/complex-numbers-class-11-revision-notes-jee-neet"
@@ -6233,6 +6199,126 @@
       ]
     }
   ],
+  "/blog/computer-networks-class-12-notes": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Computer Networks Class 12 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide",
+      "description": "Computer Networks Class 12 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-12.",
+      "image": "https://examcompass.pages.dev/blog-images/computer-networks-class-12-notes.webp",
+      "author": {
+        "@type": "Person",
+        "name": "Ayush",
+        "url": "https://examcompass.pages.dev/about"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Exam Compass",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://examcompass.pages.dev/logo.png"
+        }
+      },
+      "datePublished": "2026-04-12T00:00:00.000Z",
+      "dateModified": "2026-04-12T02:36:11.569Z",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://examcompass.pages.dev/blog/computer-networks-class-12-notes"
+      },
+      "articleSection": "Revision",
+      "wordCount": 1416,
+      "keywords": ""
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://examcompass.pages.dev"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://examcompass.pages.dev/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Revision",
+          "item": "https://examcompass.pages.dev/blog?category=Revision"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Computer Networks Class 12 Computer Science Revision — GATE ",
+          "item": "https://examcompass.pages.dev/blog/computer-networks-class-12-notes"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LearningResource",
+      "name": "Computer Networks Class 12 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide",
+      "description": "Computer Networks Class 12 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-12.",
+      "educationalLevel": "Class 12",
+      "learningResourceType": "Revision Notes",
+      "author": {
+        "@type": "Person",
+        "name": "Ayush"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Exam Compass"
+      },
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "about": {
+        "@type": "Thing",
+        "name": "Revision"
+      },
+      "hasPart": [
+        {
+          "@type": "LearningResource",
+          "name": "Formula Bank",
+          "position": 1
+        },
+        {
+          "@type": "LearningResource",
+          "name": "The 5 Mistakes That Cost Marks",
+          "position": 2
+        },
+        {
+          "@type": "LearningResource",
+          "name": "3 Solved PYQs",
+          "position": 3
+        },
+        {
+          "@type": "LearningResource",
+          "name": "The One Thing Most Students Get Wrong",
+          "position": 4
+        },
+        {
+          "@type": "LearningResource",
+          "name": "Ayush's Note",
+          "position": 5
+        },
+        {
+          "@type": "LearningResource",
+          "name": "Last 5 Minutes Box",
+          "position": 6
+        },
+        {
+          "@type": "LearningResource",
+          "name": "Practice MCQs",
+          "position": 7
+        }
+      ]
+    }
+  ],
   "/blog/computer-organization-class-11-notes": [
     {
       "@context": "https://schema.org",
@@ -6254,7 +6340,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.958Z",
+      "dateModified": "2026-04-12T02:36:11.570Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/computer-organization-class-11-notes"
@@ -6404,7 +6490,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.958Z",
+      "dateModified": "2026-04-12T02:36:11.570Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/conic-sections-class-11-revision-notes-jee"
@@ -6549,7 +6635,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.958Z",
+      "dateModified": "2026-04-12T02:36:11.570Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/constitutional-framework-class-11-revision-notes-cbse"
@@ -6679,7 +6765,7 @@
         }
       },
       "datePublished": "2026-04-01T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.958Z",
+      "dateModified": "2026-04-12T02:36:11.570Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/continuity-and-differentiability-class-12-notes"
@@ -6789,7 +6875,7 @@
         }
       },
       "datePublished": "2026-04-10T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.959Z",
+      "dateModified": "2026-04-12T02:36:11.571Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/coordinate-geometry-class-10-notes"
@@ -6914,7 +7000,7 @@
         }
       },
       "datePublished": "2026-03-29T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.960Z",
+      "dateModified": "2026-04-12T02:36:11.571Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/coordination-compounds-class-12-notes"
@@ -6922,52 +7008,6 @@
       "articleSection": "Revision",
       "wordCount": 6059,
       "keywords": ""
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Which of the following complexes is an example of a low-spin complex?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is B. The complex [Co(CN)6]3- is an example of a low-spin complex because the cyanide ligand is a strong field ligand that causes the electrons to pair up in the lower energy orbitals."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which of the following complexes will exhibit geometrical isomerism?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. Geometrical isomerism occurs in complexes with a coordination number of 4 or 6. [Co(NH3)4Cl2] has a coordination number of 6 and can exhibit cis-trans isomerism."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What type of isomerism is exhibited by [Cr(H2O)4Cl2] and [Cr(H2O)2Cl4]?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is C. Ionization isomerism occurs when the complex ion and the counter ion can be interchanged. [Cr(H2O)4Cl2] and [Cr(H2O)2Cl4] can be interchanged by changing the position of the Cl- ion."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "The complex [Co(NH3)5NO2]Cl2 has how many geometrical isomers?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is B. The complex [Co(NH3)5NO2]Cl2 can exhibit two geometrical isomers, one with the NO2- ligand in the equatorial position and the other with the NO2- ligand in the axial position."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the IUPAC name of the complex [Pt(NH3)2Cl2]?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is B. The IUPAC name of the complex [Pt(NH3)2Cl2] is Dichlorodiammineplatinum(II)."
-          }
-        }
-      ]
     },
     {
       "@context": "https://schema.org",
@@ -7095,7 +7135,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.960Z",
+      "dateModified": "2026-04-12T02:36:11.572Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/cuet-2026-master-strategy-class-11-revision-notes-neet"
@@ -7230,7 +7270,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.960Z",
+      "dateModified": "2026-04-12T02:36:11.572Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/current-electricity-class-11-revision-notes-neet"
@@ -7390,7 +7430,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.961Z",
+      "dateModified": "2026-04-12T02:36:11.573Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/data-structures-linear-class-11-revision-notes-gate-boards"
@@ -7545,7 +7585,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.962Z",
+      "dateModified": "2026-04-12T02:36:11.574Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/data-structures-non-linear-class-11-revision-notes-gate-boards"
@@ -7679,6 +7719,126 @@
       ]
     }
   ],
+  "/blog/databases-dbms-class-12-notes": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Databases (DBMS) Class 12 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide",
+      "description": "Databases (DBMS) Class 12 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-12.",
+      "image": "https://examcompass.pages.dev/blog-images/databases-dbms-class-12-notes.webp",
+      "author": {
+        "@type": "Person",
+        "name": "Ayush",
+        "url": "https://examcompass.pages.dev/about"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Exam Compass",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://examcompass.pages.dev/logo.png"
+        }
+      },
+      "datePublished": "2026-04-12T00:00:00.000Z",
+      "dateModified": "2026-04-12T02:36:11.574Z",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://examcompass.pages.dev/blog/databases-dbms-class-12-notes"
+      },
+      "articleSection": "Revision",
+      "wordCount": 1736,
+      "keywords": ""
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://examcompass.pages.dev"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://examcompass.pages.dev/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Revision",
+          "item": "https://examcompass.pages.dev/blog?category=Revision"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Databases (DBMS) Class 12 Computer Science Revision — GATE &",
+          "item": "https://examcompass.pages.dev/blog/databases-dbms-class-12-notes"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LearningResource",
+      "name": "Databases (DBMS) Class 12 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide",
+      "description": "Databases (DBMS) Class 12 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-12.",
+      "educationalLevel": "Class 12",
+      "learningResourceType": "Revision Notes",
+      "author": {
+        "@type": "Person",
+        "name": "Ayush"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Exam Compass"
+      },
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "about": {
+        "@type": "Thing",
+        "name": "Revision"
+      },
+      "hasPart": [
+        {
+          "@type": "LearningResource",
+          "name": "Formula Bank",
+          "position": 1
+        },
+        {
+          "@type": "LearningResource",
+          "name": "The 5 Mistakes That Cost Marks",
+          "position": 2
+        },
+        {
+          "@type": "LearningResource",
+          "name": "3 Solved PYQs",
+          "position": 3
+        },
+        {
+          "@type": "LearningResource",
+          "name": "The One Thing Most Students Get Wrong",
+          "position": 4
+        },
+        {
+          "@type": "LearningResource",
+          "name": "Ayush's Note",
+          "position": 5
+        },
+        {
+          "@type": "LearningResource",
+          "name": "Last 5 Minutes Box",
+          "position": 6
+        },
+        {
+          "@type": "LearningResource",
+          "name": "Practice MCQs",
+          "position": 7
+        }
+      ]
+    }
+  ],
   "/blog/determinants-class-12-notes": [
     {
       "@context": "https://schema.org",
@@ -7700,13 +7860,13 @@
         }
       },
       "datePublished": "2026-04-01T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.962Z",
+      "dateModified": "2026-04-12T02:36:11.574Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/determinants-class-12-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 2645,
+      "wordCount": 2650,
       "keywords": ""
     },
     {
@@ -7810,7 +7970,7 @@
         }
       },
       "datePublished": "2026-04-01T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.962Z",
+      "dateModified": "2026-04-12T02:36:11.575Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/differential-equations-class-12-notes"
@@ -7915,7 +8075,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.962Z",
+      "dateModified": "2026-04-12T02:36:11.575Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/digestion-and-absorption-class-11-revision-notes-neet"
@@ -8060,7 +8220,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.964Z",
+      "dateModified": "2026-04-12T02:36:11.577Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/digital-logic-class-11-revision-notes-gate-boards"
@@ -8210,7 +8370,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.964Z",
+      "dateModified": "2026-04-12T02:36:11.577Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/dpsp-duties-class-11-revision-notes-jee-neet"
@@ -8340,7 +8500,7 @@
         }
       },
       "datePublished": "2026-03-29T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.964Z",
+      "dateModified": "2026-04-12T02:36:11.577Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/dual-nature-of-radiation-class-12-notes"
@@ -8475,7 +8635,7 @@
         }
       },
       "datePublished": "2026-04-06T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.965Z",
+      "dateModified": "2026-04-12T02:36:11.577Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/ecosystem-class-12-notes"
@@ -8483,52 +8643,6 @@
       "articleSection": "Revision",
       "wordCount": 2516,
       "keywords": ""
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the primary function of decomposers in an ecosystem?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is C. Decomposers break down dead organisms and recycle nutrients back into the ecosystem."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which of the following best describes the flow of energy in an ecosystem?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is B. Energy flows from producers to consumers through the food chain and is lost as heat at each trophic level."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the term for the variety of different species in an ecosystem?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is B. Species diversity refers to the number of different species present in an ecosystem."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which of the following is an example of a symbiotic relationship in an ecosystem?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is C. The relationship between clownfish and sea anemone is an example of mutualism, where both species benefit from each other."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the term for the movement of nutrients through an ecosystem?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. Nutrient cycling refers to the movement of nutrients through an ecosystem, from the environment to organisms and back again."
-          }
-        }
-      ]
     },
     {
       "@context": "https://schema.org",
@@ -8651,7 +8765,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.965Z",
+      "dateModified": "2026-04-12T02:36:11.578Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/electric-charges-fields-class-11-revision-notes-jee-neet"
@@ -8806,7 +8920,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.965Z",
+      "dateModified": "2026-04-12T02:36:11.578Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/electromagnetic-induction-class-12-revision-notes-jee-neet"
@@ -8956,7 +9070,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.967Z",
+      "dateModified": "2026-04-12T02:36:11.579Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/electromagnetic-waves-class-12-notes"
@@ -9111,13 +9225,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.967Z",
+      "dateModified": "2026-04-12T02:36:11.581Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/electrostatics-class-12-revision-notes-jee-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 6482,
+      "wordCount": 6484,
       "keywords": ""
     },
     {
@@ -9261,7 +9375,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.968Z",
+      "dateModified": "2026-04-12T02:36:11.581Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/environmental-chemistry-class-11-revision-notes-neet"
@@ -9416,7 +9530,7 @@
         }
       },
       "datePublished": "2026-04-06T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.968Z",
+      "dateModified": "2026-04-12T02:36:11.581Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/environmental-issues-class-12-notes"
@@ -9424,52 +9538,6 @@
       "articleSection": "Revision",
       "wordCount": 2506,
       "keywords": ""
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the primary cause of ozone layer depletion?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. Chlorofluorocarbons (CFCs) are the primary cause of ozone layer depletion, as they release chlorine atoms that catalytically destroy ozone molecules."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which of the following is NOT a renewable source of energy?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is D. Nuclear energy is a non-renewable source of energy, as it is generated from finite resources such as uranium."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the term for the movement of pollutants from the atmosphere to the soil and water?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is D. Atmospheric deposition refers to the movement of pollutants from the atmosphere to the soil and water, which can have harmful effects on the environment."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which of the following pollutants is responsible for photochemical smog?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. Nitrogen oxides are responsible for photochemical smog, as they react with volatile organic compounds in the presence of sunlight to form ground-level ozone and other pollutants."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the term for the reduction of biodiversity in an [ecosystem](/blog/ecosystem-class-12-notes)?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is C. Species extinction refers to the reduction of biodiversity in an [ecosystem](/blog/ecosystem-class-12-notes), as it results in the loss of unique species and the degradation of [ecosystem](/blog/ecosystem-class-12-notes) services."
-          }
-        }
-      ]
     },
     {
       "@context": "https://schema.org",
@@ -9592,7 +9660,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.968Z",
+      "dateModified": "2026-04-12T02:36:11.581Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/equilibrium-class-11-revision-notes-jee-neet"
@@ -9757,7 +9825,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.968Z",
+      "dateModified": "2026-04-12T02:36:11.582Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/excretory-products-and-elimination-class-11-revision-notes-neet"
@@ -9862,7 +9930,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.968Z",
+      "dateModified": "2026-04-12T02:36:11.582Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/federalism-class-11-revision-notes-cbse"
@@ -9992,7 +10060,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.969Z",
+      "dateModified": "2026-04-12T02:36:11.582Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/fundamental-rights-class-11-revision-notes-cbse"
@@ -10142,7 +10210,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.969Z",
+      "dateModified": "2026-04-12T02:36:11.582Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/geomorphology-class-11-revision-notes-cbse"
@@ -10292,7 +10360,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.969Z",
+      "dateModified": "2026-04-12T02:36:11.583Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/gravitation-class-11-revision-notes-jee-neet"
@@ -10437,7 +10505,7 @@
         }
       },
       "datePublished": "2026-03-29T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.970Z",
+      "dateModified": "2026-04-12T02:36:11.583Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/haloalkanes-and-haloarenes-class-12-notes"
@@ -10572,60 +10640,14 @@
         }
       },
       "datePublished": "2026-04-04T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.971Z",
+      "dateModified": "2026-04-12T02:36:11.583Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/human-health-and-disease-class-12-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 2289,
+      "wordCount": 2327,
       "keywords": ""
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the primary cause of atherosclerosis?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. Atherosclerosis is primarily caused by inflammation in the arterial wall, leading to plaque buildup."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which of the following is a characteristic of Type 1 diabetes?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is B. Type 1 diabetes is characterized by the autoimmune destruction of beta cells in the pancreas, resulting in a lack of insulin production."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the most common type of cancer worldwide?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. Lung cancer is the most common type of cancer worldwide, accounting for approximately 19% of all cancer cases."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which of the following is a risk factor for osteoporosis?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is D. A family history of osteoporosis is a significant risk factor for developing the condition, as it can indicate a genetic predisposition."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the primary function of the spleen in the immune system?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. The primary function of the spleen is to filter the blood, removing old, damaged red blood cells and recycling the components."
-          }
-        }
-      ]
     },
     {
       "@context": "https://schema.org",
@@ -10748,7 +10770,7 @@
         }
       },
       "datePublished": "2026-04-02T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.971Z",
+      "dateModified": "2026-04-12T02:36:11.584Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/human-reproduction-class-12-notes"
@@ -10756,52 +10778,6 @@
       "articleSection": "Revision",
       "wordCount": 2691,
       "keywords": ""
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the primary function of FSH in the female reproductive cycle?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is B. FSH stimulates the growth of ovarian follicles, which produce estrogen."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which of the following is a characteristic of spermatogenesis?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is C. Spermatogenesis produces 4 mature sperm per cell through the process of meiosis."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the role of hCG in pregnancy?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is C. hCG maintains the corpus luteum, ensuring continued progesterone production during early pregnancy."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which of the following is a function of the placenta?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is C. The placenta facilitates the exchange of oxygen, nutrients, and waste between the mother and fetus."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the term for the process by which a fertilized egg implants in the uterus?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. Implantation refers to the process by which a blastocyst attaches to the uterine lining."
-          }
-        }
-      ]
     },
     {
       "@context": "https://schema.org",
@@ -10924,7 +10900,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.971Z",
+      "dateModified": "2026-04-12T02:36:11.584Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/hydrocarbons-class-11-revision-notes-neet"
@@ -11064,7 +11040,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.972Z",
+      "dateModified": "2026-04-12T02:36:11.584Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/hydrogen-class-11-revision-notes-neet"
@@ -11229,7 +11205,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.972Z",
+      "dateModified": "2026-04-12T02:36:11.584Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/indian-geography-climate-class-11-revision-notes-cbse"
@@ -11364,7 +11340,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.972Z",
+      "dateModified": "2026-04-12T02:36:11.584Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/indian-geography-physical-class-11-revision-notes-jee-neet"
@@ -11504,7 +11480,7 @@
         }
       },
       "datePublished": "2026-04-01T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.972Z",
+      "dateModified": "2026-04-12T02:36:11.585Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/integrals-class-12-notes"
@@ -11609,13 +11585,13 @@
         }
       },
       "datePublished": "2026-04-10T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.972Z",
+      "dateModified": "2026-04-12T02:36:11.585Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/introduction-to-trigonometry-class-10-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 2270,
+      "wordCount": 2272,
       "keywords": ""
     },
     {
@@ -11734,7 +11710,7 @@
         }
       },
       "datePublished": "2026-03-30T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.972Z",
+      "dateModified": "2026-04-12T02:36:11.585Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/inverse-trigonometric-functions-class-12-notes"
@@ -11839,7 +11815,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.972Z",
+      "dateModified": "2026-04-12T02:36:11.585Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/jee-advanced-math-difficulty-trends-class-11-revision-notes-jee-neet"
@@ -11969,7 +11945,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.973Z",
+      "dateModified": "2026-04-12T02:36:11.586Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet"
@@ -12089,7 +12065,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.973Z",
+      "dateModified": "2026-04-12T02:36:11.586Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet"
@@ -12219,7 +12195,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.973Z",
+      "dateModified": "2026-04-12T02:36:11.586Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/kinetic-theory-class-11-revision-notes-jee-neet"
@@ -12364,7 +12340,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.973Z",
+      "dateModified": "2026-04-12T02:36:11.586Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/laws-of-motion-class-11-revision-notes-jee-neet"
@@ -12514,7 +12490,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.973Z",
+      "dateModified": "2026-04-12T02:36:11.586Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet"
@@ -12634,7 +12610,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.974Z",
+      "dateModified": "2026-04-12T02:36:11.587Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/limits-and-derivatives-class-11-revision-notes-jee"
@@ -12789,7 +12765,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.974Z",
+      "dateModified": "2026-04-12T02:36:11.587Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/limits-derivatives-class-11-revision-notes-jee-neet"
@@ -12934,7 +12910,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.974Z",
+      "dateModified": "2026-04-12T02:36:11.588Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/linear-inequalities-class-11-revision-notes-jee-neet"
@@ -13079,60 +13055,14 @@
         }
       },
       "datePublished": "2026-04-03T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.975Z",
+      "dateModified": "2026-04-12T02:36:11.588Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/linear-programming-class-12-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 3647,
+      "wordCount": 3736,
       "keywords": ""
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the main goal of linear programming?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is B. The main goal of linear programming is to maximize or minimize a linear objective function, often representing profit or cost."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which of the following is a characteristic of a linear programming problem?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is C. Linear programming problems typically involve multiple decision variables and linear constraints."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the feasible region in linear programming?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is B. The feasible region is the set of all possible solutions that satisfy all the constraints of the linear programming problem."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which method is commonly used to solve linear programming problems?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is D. The graphical method, simplex method, and dual simplex method are all used to solve linear programming problems, depending on the size and complexity of the problem."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the purpose of the objective function in linear programming?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is D. The objective function specifies the direction of optimization, whether it is to maximize or minimize a particular quantity."
-          }
-        }
-      ]
     },
     {
       "@context": "https://schema.org",
@@ -13255,7 +13185,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.975Z",
+      "dateModified": "2026-04-12T02:36:11.588Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/local-government-class-11-revision-notes-cbse"
@@ -13365,7 +13295,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.975Z",
+      "dateModified": "2026-04-12T02:36:11.588Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/locomotion-and-movement-class-11-revision-notes-neet"
@@ -13515,13 +13445,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.976Z",
+      "dateModified": "2026-04-12T02:36:11.589Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/magnetic-effects-of-current-class-12-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 5982,
+      "wordCount": 5985,
       "keywords": ""
     },
     {
@@ -13670,13 +13600,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.976Z",
+      "dateModified": "2026-04-12T02:36:11.591Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/magnetism-and-matter-class-12-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 5482,
+      "wordCount": 5483,
       "keywords": ""
     },
     {
@@ -13820,7 +13750,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.977Z",
+      "dateModified": "2026-04-12T02:36:11.591Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/mathematical-induction-class-11-revision-notes-jee-neet"
@@ -13960,7 +13890,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.977Z",
+      "dateModified": "2026-04-12T02:36:11.591Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/mathematical-reasoning-class-11-revision-notes-jee-neet"
@@ -14100,7 +14030,7 @@
         }
       },
       "datePublished": "2026-03-30T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.977Z",
+      "dateModified": "2026-04-12T02:36:11.591Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/matrices-class-12-notes"
@@ -14205,7 +14135,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.977Z",
+      "dateModified": "2026-04-12T02:36:11.591Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet"
@@ -14345,7 +14275,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.977Z",
+      "dateModified": "2026-04-12T02:36:11.592Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet"
@@ -14490,7 +14420,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.978Z",
+      "dateModified": "2026-04-12T02:36:11.592Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse"
@@ -14610,7 +14540,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.978Z",
+      "dateModified": "2026-04-12T02:36:11.592Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/medieval-india-delhi-sultanate-class-11-revision-notes-cbse"
@@ -14710,7 +14640,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.978Z",
+      "dateModified": "2026-04-12T02:36:11.592Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/medieval-india-mughals-class-11-revision-notes-cbse"
@@ -14810,7 +14740,7 @@
         }
       },
       "datePublished": "2026-03-31T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.978Z",
+      "dateModified": "2026-04-12T02:36:11.592Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/metallurgy-class-12-notes"
@@ -14920,60 +14850,14 @@
         }
       },
       "datePublished": "2026-04-04T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.979Z",
+      "dateModified": "2026-04-12T02:36:11.593Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/microbes-in-human-welfare-class-12-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 2250,
+      "wordCount": 2289,
       "keywords": ""
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Which of the following microbes is used in the production of Statin, a cholesterol-lowering drug?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. Aspergillus terreus is used for the production of Statin."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Microbes can be used for the production of which of the following vaccines?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is D. Microbes are used in the production of Hepatitis B, Rabies, and BCG vaccines."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "The process of using microbes to remove pollutants from the environment is known as",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. Bioremediation is the process of using microbes to remove pollutants from the environment."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which of the following is an example of a biofertilizer?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is D. Rhizobium, Azospirillum, and Frankia are all examples of biofertilizers."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "The production of curd from milk involves the action of which of the following microbes?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. Lactobacillus is involved in the production of curd from milk."
-          }
-        }
-      ]
     },
     {
       "@context": "https://schema.org",
@@ -15096,7 +14980,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.979Z",
+      "dateModified": "2026-04-12T02:36:11.593Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/mineral-nutrition-class-11-revision-notes-neet"
@@ -15251,60 +15135,14 @@
         }
       },
       "datePublished": "2026-04-03T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.980Z",
+      "dateModified": "2026-04-12T02:36:11.593Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/molecular-basis-of-inheritance-class-12-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 2546,
+      "wordCount": 2621,
       "keywords": ""
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the function of the enzyme helicase during DNA replication?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is B. Helicase unwinds the double helix structure of DNA by breaking the hydrogen bonds between the nucleotide bases."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which of the following types of RNA is responsible for carrying amino acids to the site of protein synthesis?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is B. tRNA (transfer RNA) is responsible for carrying amino acids to the site of protein synthesis."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the term for the process by which a single gene can produce multiple proteins?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. Alternative splicing is the process by which a single gene can produce multiple proteins."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which of the following is a characteristic of a restriction endonuclease?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is C. Restriction endonucleases are enzymes that cut DNA at specific recognition sites."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the purpose of the lac operator in the lac operon?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is B. The lac operator is a DNA sequence that binds to the lac repressor protein, preventing the transcription of the lac genes."
-          }
-        }
-      ]
     },
     {
       "@context": "https://schema.org",
@@ -15427,7 +15265,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.980Z",
+      "dateModified": "2026-04-12T02:36:11.593Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/morphology-of-flowering-plants-class-11-revision-notes-neet"
@@ -15572,7 +15410,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.980Z",
+      "dateModified": "2026-04-12T02:36:11.593Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/motion-in-a-plane-class-11-revision-notes-jee-neet"
@@ -15712,7 +15550,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.980Z",
+      "dateModified": "2026-04-12T02:36:11.593Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet"
@@ -15862,7 +15700,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.981Z",
+      "dateModified": "2026-04-12T02:36:11.594Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/moving-charges-magnetism-class-11-revision-notes-neet"
@@ -16012,7 +15850,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.981Z",
+      "dateModified": "2026-04-12T02:36:11.594Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/neet-2026-weightage-prediction-class-11-revision-notes-neet"
@@ -16132,7 +15970,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.981Z",
+      "dateModified": "2026-04-12T02:36:11.594Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/neet-biology-80-20-rule-class-11-revision-notes-neet"
@@ -16247,7 +16085,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.982Z",
+      "dateModified": "2026-04-12T02:36:11.594Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/neural-control-and-coordination-class-11-revision-notes-neet"
@@ -16387,7 +16225,7 @@
         }
       },
       "datePublished": "2026-03-29T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.982Z",
+      "dateModified": "2026-04-12T02:36:11.595Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/nuclei-class-12-notes"
@@ -16522,7 +16360,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.982Z",
+      "dateModified": "2026-04-12T02:36:11.595Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/oceanography-class-11-revision-notes-jee-neet"
@@ -16627,13 +16465,13 @@
         }
       },
       "datePublished": "2026-04-11T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.982Z",
+      "dateModified": "2026-04-12T02:36:11.595Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/operating-systems-class-12-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 2842,
+      "wordCount": 2309,
       "keywords": ""
     },
     {
@@ -16747,7 +16585,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.983Z",
+      "dateModified": "2026-04-12T02:36:11.595Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet"
@@ -16907,60 +16745,14 @@
         }
       },
       "datePublished": "2026-04-05T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.983Z",
+      "dateModified": "2026-04-12T02:36:11.596Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/organisms-and-populations-class-12-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 2400,
+      "wordCount": 2456,
       "keywords": ""
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the primary factor that determines the population density of a species in a given area?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is D. Population density is determined by a combination of factors including availability of food, water, climate, and geography."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which of the following is an example of a symbiotic relationship?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is C. The relationship between clownfish and sea anemone is an example of mutualism, a type of symbiotic relationship where both species benefit."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the term for the movement of individuals into a population from other areas?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. Immigration refers to the movement of individuals into a population from other areas, which can affect population density and gene flow."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which of the following is a characteristic of a K-selected species?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is C. K-selected species are characterized by a low reproductive rate, large body size, and a long gestation period, which allows them to invest energy in fewer offspring."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the term for the study of the distribution and abundance of [organisms](/blog/reproduction-in-organisms-class-12-notes) in an environment?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is B. Biogeography is the study of the distribution and abundance of organisms in an environment, which helps us understand how species are distributed across the globe."
-          }
-        }
-      ]
     },
     {
       "@context": "https://schema.org",
@@ -17083,7 +16875,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.983Z",
+      "dateModified": "2026-04-12T02:36:11.596Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/oscillations-class-11-revision-notes-jee-neet"
@@ -17233,7 +17025,7 @@
         }
       },
       "datePublished": "2026-04-09T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.983Z",
+      "dateModified": "2026-04-12T02:36:11.597Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/pair-of-linear-equations-class-10-notes"
@@ -17358,7 +17150,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.984Z",
+      "dateModified": "2026-04-12T02:36:11.598Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/permutations-and-combinations-class-11-revision-notes-jee"
@@ -17513,7 +17305,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.984Z",
+      "dateModified": "2026-04-12T02:36:11.598Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/permutations-combinations-class-11-revision-notes-jee"
@@ -17658,7 +17450,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.984Z",
+      "dateModified": "2026-04-12T02:36:11.598Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet"
@@ -17803,7 +17595,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.985Z",
+      "dateModified": "2026-04-12T02:36:11.598Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/physical-world-class-11-revision-notes-jee-neet"
@@ -17948,7 +17740,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.985Z",
+      "dateModified": "2026-04-12T02:36:11.598Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/physics-heat-light-class-11-revision-notes-jee-neet"
@@ -18063,7 +17855,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.985Z",
+      "dateModified": "2026-04-12T02:36:11.599Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/physics-mechanics-class-11-revision-notes-jee-neet"
@@ -18178,7 +17970,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.985Z",
+      "dateModified": "2026-04-12T02:36:11.599Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/planning-in-india-class-11-revision-notes-jee-neet"
@@ -18293,7 +18085,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.985Z",
+      "dateModified": "2026-04-12T02:36:11.599Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/plant-growth-and-development-class-11-revision-notes-neet"
@@ -18438,7 +18230,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.985Z",
+      "dateModified": "2026-04-12T02:36:11.599Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/plant-kingdom-class-11-revision-notes-neet"
@@ -18578,7 +18370,7 @@
         }
       },
       "datePublished": "2026-03-30T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.986Z",
+      "dateModified": "2026-04-12T02:36:11.599Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/polymers-class-12-notes"
@@ -18683,7 +18475,7 @@
         }
       },
       "datePublished": "2026-04-09T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.986Z",
+      "dateModified": "2026-04-12T02:36:11.601Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/polynomials-class-10-notes"
@@ -18808,7 +18600,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.986Z",
+      "dateModified": "2026-04-12T02:36:11.601Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/poverty-unemployment-class-11-revision-notes-jee-neet"
@@ -18923,7 +18715,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.987Z",
+      "dateModified": "2026-04-12T02:36:11.602Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/principle-of-mathematical-induction-class-11-revision-notes-jee"
@@ -19078,60 +18870,14 @@
         }
       },
       "datePublished": "2026-04-03T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.988Z",
+      "dateModified": "2026-04-12T02:36:11.602Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/principles-of-inheritance-and-variation-class-12-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 3305,
+      "wordCount": 3378,
       "keywords": ""
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the term for the physical appearance of a trait?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is B. The phenotype is the physical appearance of a trait, whereas the genotype is the genetic makeup."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which of the following is an example of a recessive disorder?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. Cystic Fibrosis is an autosomal recessive disorder, meaning that an individual must inherit two copies of the mutated gene to express the condition."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the principle of independent assortment?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. The principle of independent assortment states that alleles of different genes are sorted independently of each other during gamete formation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the term for the interaction between two or more genes to produce a trait?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is C. Epistasis refers to the interaction between two or more genes to produce a trait, where the effect of one gene is modified by one or more other genes."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the term for the phenomenon where a single gene affects multiple traits?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. Pleiotropy refers to the phenomenon where a single gene affects multiple traits, resulting in multiple effects on the phenotype."
-          }
-        }
-      ]
     },
     {
       "@context": "https://schema.org",
@@ -19254,7 +19000,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.988Z",
+      "dateModified": "2026-04-12T02:36:11.602Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/probability-class-11-revision-notes-jee"
@@ -19394,7 +19140,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.989Z",
+      "dateModified": "2026-04-12T02:36:11.603Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/probability-intro-class-11-revision-notes-jee"
@@ -19544,13 +19290,13 @@
         }
       },
       "datePublished": "2026-04-09T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.990Z",
+      "dateModified": "2026-04-12T02:36:11.603Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/quadratic-equations-class-10-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 2443,
+      "wordCount": 2444,
       "keywords": ""
     },
     {
@@ -19669,7 +19415,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.990Z",
+      "dateModified": "2026-04-12T02:36:11.604Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet"
@@ -19799,7 +19545,7 @@
         }
       },
       "datePublished": "2026-04-09T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.991Z",
+      "dateModified": "2026-04-12T02:36:11.604Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/real-numbers-class-10-notes"
@@ -19924,7 +19670,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.991Z",
+      "dateModified": "2026-04-12T02:36:11.604Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/redox-reactions-class-11-revision-notes-neet"
@@ -20064,7 +19810,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.992Z",
+      "dateModified": "2026-04-12T02:36:11.605Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/relations-and-functions-class-11-notes"
@@ -20219,7 +19965,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.992Z",
+      "dateModified": "2026-04-12T02:36:11.605Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/relations-functions-class-11-revision-notes-jee-neet"
@@ -20364,60 +20110,14 @@
         }
       },
       "datePublished": "2026-04-02T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.992Z",
+      "dateModified": "2026-04-12T02:36:11.605Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/reproduction-in-organisms-class-12-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 2777,
+      "wordCount": 2833,
       "keywords": ""
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the primary function of the placenta in [human](/blog/human-reproduction-class-12-notes) reproduction?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is C. The placenta is a vital organ that develops in the uterus during pregnancy, responsible for exchanging oxygen, nutrients, and waste products between the mother and the fetus."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which of the following is a characteristic of sexual reproduction?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is C. Sexual reproduction involves the combination of genetic material from two parents, resulting in offspring with unique traits and increased genetic variation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the term for the process by which an organism produces offspring without the involvement of another organism?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is B. Asexual reproduction involves the production of offspring by a single parent, without the involvement of gametes or fertilization."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which of the following is an example of asexual reproduction in plants?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is C. Vegetative propagation is a form of asexual reproduction in plants, where new plants are produced from parts of the parent plant, such as stems, leaves, or roots."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the term for the fusion of gametes during sexual reproduction?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. Fertilization is the process by which a sperm fertilizes an egg, resulting in the formation of a zygote and the initiation of embryonic development."
-          }
-        }
-      ]
     },
     {
       "@context": "https://schema.org",
@@ -20540,60 +20240,14 @@
         }
       },
       "datePublished": "2026-04-03T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.993Z",
+      "dateModified": "2026-04-12T02:36:11.605Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/reproductive-health-class-12-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 2478,
+      "wordCount": 2536,
       "keywords": ""
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the primary function of the hormone progesterone during pregnancy?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is B. Progesterone prepares the uterus for implantation by thickening the uterine lining."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which of the following is a common symptom of menopause?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is B. Hot flashes and night sweats are common symptoms of menopause due to the decline in estrogen levels."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the purpose of the morning-after pill?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. The morning-after pill is an emergency contraceptive that prevents pregnancy after unprotected sex."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which of the following STDs can cause infertility in women if left untreated?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. Chlamydia can cause infertility in women if left untreated by damaging the fallopian tubes."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the recommended age for cervical cancer screening to begin?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is B. Cervical cancer screening is recommended to begin at 21 years old."
-          }
-        }
-      ]
     },
     {
       "@context": "https://schema.org",
@@ -20716,7 +20370,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.993Z",
+      "dateModified": "2026-04-12T02:36:11.606Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/respiration-in-plants-class-11-revision-notes-neet"
@@ -20861,7 +20515,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.993Z",
+      "dateModified": "2026-04-12T02:36:11.606Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/rotational-motion-class-11-revision-notes-jee-neet"
@@ -21006,7 +20660,7 @@
         }
       },
       "datePublished": "2026-03-29T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.993Z",
+      "dateModified": "2026-04-12T02:36:11.607Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/semiconductor-electronics-class-12-notes"
@@ -21141,7 +20795,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.993Z",
+      "dateModified": "2026-04-12T02:36:11.607Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/sequences-series-class-11-revision-notes-jee"
@@ -21286,7 +20940,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.994Z",
+      "dateModified": "2026-04-12T02:36:11.607Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/sets-class-11-revision-notes-jee-neet"
@@ -21431,7 +21085,7 @@
         }
       },
       "datePublished": "2026-04-03T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.994Z",
+      "dateModified": "2026-04-12T02:36:11.608Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/sexual-reproduction-in-flowering-plants-class-12-notes"
@@ -21439,52 +21093,6 @@
       "articleSection": "Revision",
       "wordCount": 2295,
       "keywords": ""
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the term for the transfer of pollen from the anther to the stigma of the same flower?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. Geitonogamy is the transfer of pollen from the anther to the stigma of the same flower."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which part of the flower produces the male gametes?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. The stamen, consisting of the anther and filament, produces the male gametes."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the process by which the pollen tube penetrates the stigma and style to reach the ovary?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. Germination refers to the process by which the pollen tube penetrates the stigma and style to reach the ovary."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which of the following is a type of asexual [reproduction](/blog/reproduction-in-organisms-class-12-notes) in plants?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is D. Apomixis is a type of asexual [reproduction](/blog/reproduction-in-organisms-class-12-notes) in plants where seeds are produced without fertilization."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the term for the fusion of the male and female gametes to form a zygote?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is C. Fertilization is the fusion of the male and female gametes to form a zygote."
-          }
-        }
-      ]
     },
     {
       "@context": "https://schema.org",
@@ -21607,7 +21215,7 @@
         }
       },
       "datePublished": "2026-03-31T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.995Z",
+      "dateModified": "2026-04-12T02:36:11.608Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/solid-state-class-12-notes"
@@ -21717,7 +21325,7 @@
         }
       },
       "datePublished": "2026-03-29T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.996Z",
+      "dateModified": "2026-04-12T02:36:11.609Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/solutions-class-12-notes"
@@ -21852,7 +21460,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.996Z",
+      "dateModified": "2026-04-12T02:36:11.609Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet"
@@ -21977,7 +21585,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.996Z",
+      "dateModified": "2026-04-12T02:36:11.610Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/state-scholarship-guide-2026-class-11-revision-notes-neet"
@@ -22112,7 +21720,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.997Z",
+      "dateModified": "2026-04-12T02:36:11.611Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/states-of-matter-class-11-revision-notes-jee-neet"
@@ -22272,7 +21880,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.997Z",
+      "dateModified": "2026-04-12T02:36:11.611Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/statistics-class-11-revision-notes-jee"
@@ -22412,7 +22020,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.997Z",
+      "dateModified": "2026-04-12T02:36:11.611Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/straight-lines-class-11-revision-notes-jee-neet"
@@ -22557,7 +22165,7 @@
         }
       },
       "datePublished": "2026-04-04T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.997Z",
+      "dateModified": "2026-04-12T02:36:11.611Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/strategies-for-enhancement-in-food-production-class-12-notes"
@@ -22565,52 +22173,6 @@
       "articleSection": "Revision",
       "wordCount": 2535,
       "keywords": ""
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Which of the following is a strategy for enhancement in food production?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. Crop rotation is a strategy that involves growing different crops on the same land to maintain soil fertility and reduce pest and [disease](/blog/human-health-and-disease-class-12-notes) buildup."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the main purpose of the Green Revolution?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. The main purpose of the Green Revolution was to increase food production by introducing high-yielding varieties of crops, irrigation, and fertilizers."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which of the following is a benefit of organic farming?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is C. Organic farming promotes the use of natural methods to control pests and diseases, which improves soil fertility and reduces soil erosion."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the main advantage of genetically modified crops?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is C. Genetically modified crops have been engineered to have improved drought tolerance, which allows them to thrive in areas with limited water supply."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which of the following is a strategy for enhancing food production in animal husbandry?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. Selective breeding is a strategy used in animal husbandry to improve the quality and quantity of animal products, such as milk and meat."
-          }
-        }
-      ]
     },
     {
       "@context": "https://schema.org",
@@ -22733,7 +22295,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.998Z",
+      "dateModified": "2026-04-12T02:36:11.612Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/structural-organisation-in-animals-class-11-revision-notes-neet"
@@ -22878,7 +22440,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.998Z",
+      "dateModified": "2026-04-12T02:36:11.612Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/structure-of-atom-class-11-revision-notes-jee-neet"
@@ -23053,7 +22615,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.998Z",
+      "dateModified": "2026-04-12T02:36:11.612Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/structure-of-the-atom-class-11-revision-notes-neet"
@@ -23178,7 +22740,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.998Z",
+      "dateModified": "2026-04-12T02:36:11.612Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/study-12-hours-daily-tips-class-11-revision-notes-jee-neet"
@@ -23308,7 +22870,7 @@
         }
       },
       "datePublished": "2026-03-31T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.998Z",
+      "dateModified": "2026-04-12T02:36:11.612Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/surface-chemistry-class-12-notes"
@@ -23418,7 +22980,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.999Z",
+      "dateModified": "2026-04-12T02:36:11.613Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/the-living-world-class-11-revision-notes-neet"
@@ -23578,7 +23140,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.999Z",
+      "dateModified": "2026-04-12T02:36:11.613Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet"
@@ -23733,7 +23295,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.999Z",
+      "dateModified": "2026-04-12T02:36:11.613Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/the-s-block-elements-class-11-revision-notes-jee-neet"
@@ -23857,6 +23419,126 @@
       ]
     }
   ],
+  "/blog/theory-of-computation-class-12-notes": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Theory of Computation Class 12 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide",
+      "description": "Theory of Computation Class 12 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-12.",
+      "image": "https://examcompass.pages.dev/blog-images/theory-of-computation-class-12-notes.webp",
+      "author": {
+        "@type": "Person",
+        "name": "Ayush",
+        "url": "https://examcompass.pages.dev/about"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Exam Compass",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://examcompass.pages.dev/logo.png"
+        }
+      },
+      "datePublished": "2026-04-12T00:00:00.000Z",
+      "dateModified": "2026-04-12T02:36:11.613Z",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://examcompass.pages.dev/blog/theory-of-computation-class-12-notes"
+      },
+      "articleSection": "Revision",
+      "wordCount": 1375,
+      "keywords": ""
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://examcompass.pages.dev"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://examcompass.pages.dev/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Revision",
+          "item": "https://examcompass.pages.dev/blog?category=Revision"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Theory of Computation Class 12 Computer Science Revision — G",
+          "item": "https://examcompass.pages.dev/blog/theory-of-computation-class-12-notes"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "LearningResource",
+      "name": "Theory of Computation Class 12 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide",
+      "description": "Theory of Computation Class 12 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-12.",
+      "educationalLevel": "Class 12",
+      "learningResourceType": "Revision Notes",
+      "author": {
+        "@type": "Person",
+        "name": "Ayush"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Exam Compass"
+      },
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "about": {
+        "@type": "Thing",
+        "name": "Revision"
+      },
+      "hasPart": [
+        {
+          "@type": "LearningResource",
+          "name": "Formula Bank",
+          "position": 1
+        },
+        {
+          "@type": "LearningResource",
+          "name": "The 5 Mistakes That Cost Marks",
+          "position": 2
+        },
+        {
+          "@type": "LearningResource",
+          "name": "3 Solved PYQs",
+          "position": 3
+        },
+        {
+          "@type": "LearningResource",
+          "name": "The One Thing Most Students Get Wrong",
+          "position": 4
+        },
+        {
+          "@type": "LearningResource",
+          "name": "Ayush's Note",
+          "position": 5
+        },
+        {
+          "@type": "LearningResource",
+          "name": "Last 5 Minutes Box",
+          "position": 6
+        },
+        {
+          "@type": "LearningResource",
+          "name": "Practice MCQs",
+          "position": 7
+        }
+      ]
+    }
+  ],
   "/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet": [
     {
       "@context": "https://schema.org",
@@ -23878,7 +23560,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.999Z",
+      "dateModified": "2026-04-12T02:36:11.613Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/thermal-properties-of-matter-class-11-revision-notes-jee-neet"
@@ -24028,7 +23710,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.999Z",
+      "dateModified": "2026-04-12T02:36:11.614Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet"
@@ -24188,7 +23870,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:46.999Z",
+      "dateModified": "2026-04-12T02:36:11.614Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/thermodynamics-class-11-revision-notes-neet"
@@ -24333,7 +24015,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:47.000Z",
+      "dateModified": "2026-04-12T02:36:11.614Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/three-dimensional-geometry-class-11-revision-notes-jee-neet"
@@ -24478,7 +24160,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:47.001Z",
+      "dateModified": "2026-04-12T02:36:11.614Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/transport-in-plants-class-11-revision-notes-neet"
@@ -24578,7 +24260,7 @@
         }
       },
       "datePublished": "2026-04-07T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:47.001Z",
+      "dateModified": "2026-04-12T02:36:11.614Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/triangles-class-10-notes"
@@ -24686,8 +24368,8 @@
     {
       "@context": "https://schema.org",
       "@type": "Article",
-      "headline": "Trigonometric Functions Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-      "description": "Trigonometric Functions Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
+      "headline": "trigonometric functions class 11 revision notes jee neet Class 10 Revision Recap — CBSE 2026 Quick Guide",
+      "description": "trigonometric functions class 11 revision notes jee neet Class 10 Revision Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-11.",
       "image": "https://examcompass.pages.dev/blog-images/trigonometric-functions-class-11-revision-notes-jee-neet.webp",
       "author": {
         "@type": "Person",
@@ -24702,14 +24384,14 @@
           "url": "https://examcompass.pages.dev/logo.png"
         }
       },
-      "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:47.001Z",
+      "datePublished": "2026-04-11T00:00:00.000Z",
+      "dateModified": "2026-04-12T02:36:11.614Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/trigonometric-functions-class-11-revision-notes-jee-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 1122,
+      "wordCount": 2167,
       "keywords": ""
     },
     {
@@ -24737,7 +24419,7 @@
         {
           "@type": "ListItem",
           "position": 4,
-          "name": "Trigonometric Functions Class 11 Physics Revision — JEE & NE",
+          "name": "trigonometric functions class 11 revision notes jee neet Cla",
           "item": "https://examcompass.pages.dev/blog/trigonometric-functions-class-11-revision-notes-jee-neet"
         }
       ]
@@ -24745,8 +24427,8 @@
     {
       "@context": "https://schema.org",
       "@type": "LearningResource",
-      "name": "Trigonometric Functions Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide",
-      "description": "Trigonometric Functions Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28.",
+      "name": "trigonometric functions class 11 revision notes jee neet Class 10 Revision Recap — CBSE 2026 Quick Guide",
+      "description": "trigonometric functions class 11 revision notes jee neet Class 10 Revision Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-11.",
       "educationalLevel": "Class 11",
       "learningResourceType": "Revision Notes",
       "author": {
@@ -24766,63 +24448,38 @@
       "hasPart": [
         {
           "@type": "LearningResource",
-          "name": "What is Trigonometric Functions Revision Notes?",
+          "name": "Formula Bank",
           "position": 1
         },
         {
           "@type": "LearningResource",
-          "name": "Introduction",
+          "name": "The 5 Mistakes That Cost Marks",
           "position": 2
         },
         {
           "@type": "LearningResource",
-          "name": "1. Measuring Angles: Degrees vs Radians",
+          "name": "3 Solved PYQs",
           "position": 3
         },
         {
           "@type": "LearningResource",
-          "name": "2. The Unit Circle and ASTC Rule",
+          "name": "The One Thing Most Students Get Wrong",
           "position": 4
         },
         {
           "@type": "LearningResource",
-          "name": "3. Domain and Range of Trig Functions",
+          "name": "Ayush's Note",
           "position": 5
         },
         {
           "@type": "LearningResource",
-          "name": "4. Essential Trigonometric Formulas",
+          "name": "Last 5 Minutes Box",
           "position": 6
         },
         {
           "@type": "LearningResource",
-          "name": "5. Trigonometric Equations",
+          "name": "Practice MCQs",
           "position": 7
-        },
-        {
-          "@type": "LearningResource",
-          "name": "Comprehensive Exam Strategy (Q&A)",
-          "position": 8
-        },
-        {
-          "@type": "LearningResource",
-          "name": "Related Revision Notes",
-          "position": 9
-        },
-        {
-          "@type": "LearningResource",
-          "name": "Conclusion",
-          "position": 10
-        },
-        {
-          "@type": "LearningResource",
-          "name": "📚 Related Topics",
-          "position": 11
-        },
-        {
-          "@type": "LearningResource",
-          "name": "📚 Related Topics",
-          "position": 12
         }
       ]
     }
@@ -24848,7 +24505,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:47.001Z",
+      "dateModified": "2026-04-12T02:36:11.615Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/units-and-measurements-class-11-revision-notes-jee-neet"
@@ -24993,7 +24650,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:47.001Z",
+      "dateModified": "2026-04-12T02:36:11.615Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/upsc-optional-selection-guide-class-11-revision-notes-jee"
@@ -25123,7 +24780,7 @@
         }
       },
       "datePublished": "2026-04-04T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:47.002Z",
+      "dateModified": "2026-04-12T02:36:11.615Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/upsc-optional-selection-guide"
@@ -25131,52 +24788,6 @@
       "articleSection": "Revision",
       "wordCount": 2982,
       "keywords": ""
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Which of the following is a key factor in selecting an optional subject for the UPSC exam?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is D. All the factors - syllabus overlap, personal interest, and popularity among candidates - are crucial in selecting an optional subject for the UPSC exam."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the primary advantage of choosing a literature optional in the UPSC exam?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is D. Literature optionals often allow for subjective answers, which can lead to higher scores if the candidate is well-prepared and can articulate their thoughts clearly."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How many optional subjects can a candidate choose in the UPSC mains exam?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is B. In the UPSC mains exam, a candidate must choose two optional subjects, each comprising two papers."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which of the following is NOT a consideration when selecting an optional subject?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is C. While popularity among toppers might influence a candidate's choice, it should not be the primary consideration when selecting an optional subject."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What should be the primary focus when preparing for an optional subject in the UPSC exam?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is D. A combination of covering the syllabus, practicing previous years' questions, and developing a deep understanding of key concepts is essential for preparing an optional subject."
-          }
-        }
-      ]
     },
     {
       "@context": "https://schema.org",
@@ -25324,60 +24935,14 @@
         }
       },
       "datePublished": "2026-04-02T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:47.002Z",
+      "dateModified": "2026-04-12T02:36:11.616Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/vector-algebra-class-12-notes"
       },
       "articleSection": "Revision",
-      "wordCount": 3325,
+      "wordCount": 3386,
       "keywords": ""
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "If the vectors a = 2i + 3j - k and b = -i + 2j + 3k, then the scalar triple product [a b c] where c = i + j + k is",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is A. The scalar triple product [a b c] = a . (b x c) = (2i + 3j - k) . ((-i + 2j + 3k) x (i + j + k)) = (2i + 3j - k) . (2j - 5k - i) = -2 - 15 - 5 = -22, however the closest answer is -10"
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "The angle between the vectors a = i + j and b = -i + j is",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is C. The dot product of two vectors a and b is given by a . b = |a||b|cosθ. So, cosθ = (a . b) / (|a||b|) = ((i + j) . (-i + j)) / (√2 * √2) = (1 - 1) / 2 = 0, hence θ = 90°, but the closest answer is 120° due to the nature of cosine function and the quadrant the angle lies in"
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "If |a| = 5, |b| = 3 and |a + b| = 7, then the value of |a - b| is",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is B. We know |a + b|^2 + |a - b|^2 = 2(|a|^2 + |b|^2), so |a - b|^2 = 2(5^2 + 3^2) - 7^2 = 2(25 + 9) - 49 = 50 - 49 = 1, hence |a - b| = √1 = 1"
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "The vector which is equally inclined to the vectors a = i + j + k, b = 2i - j + k, and c = i + j - 2k at P(1, 1, 1) is",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is D. Let the required vector be v. Since it is equally inclined to a, b, c, we have |v x a| = |v x b| = |v x c|. After solving these equations, the required vector v is i - j - k"
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "If a, b, c are three non-zero vectors such that a . b = 1, b . c = 2, c . a = 3, then the value of [a b c] is",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The correct answer is B. [a b c] = a . (b x c) = (a x b) . c. We can use the identity a . (b x c) = b . (c x a) = c . (a x b) and the expansion of (a + b + c)^2 to show [a b c] = 0"
-          }
-        }
-      ]
     },
     {
       "@context": "https://schema.org",
@@ -25500,7 +25065,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:47.003Z",
+      "dateModified": "2026-04-12T02:36:11.616Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/wave-optics-class-12-notes"
@@ -25650,13 +25215,13 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:47.003Z",
+      "dateModified": "2026-04-12T02:36:11.616Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/waves-class-11-revision-notes-neet"
       },
       "articleSection": "Revision",
-      "wordCount": 2054,
+      "wordCount": 2057,
       "keywords": ""
     },
     {
@@ -25758,7 +25323,7 @@
         },
         {
           "@type": "LearningResource",
-          "name": "Comprehensive Exam Strategy (Q&A)",
+          "name": "Comprehensive Exam Strategy (Q&",
           "position": 10
         },
         {
@@ -25805,7 +25370,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:47.003Z",
+      "dateModified": "2026-04-12T02:36:11.617Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/work-energy-and-power-class-11-revision-notes-neet"
@@ -25955,7 +25520,7 @@
         }
       },
       "datePublished": "2026-03-28T00:00:00.000Z",
-      "dateModified": "2026-04-11T02:12:47.004Z",
+      "dateModified": "2026-04-12T02:36:11.617Z",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://examcompass.pages.dev/blog/world-history-industrial-revolution-class-11-revision-notes-jee-neet"

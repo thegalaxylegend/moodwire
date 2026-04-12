@@ -48,7 +48,7 @@ To truly comprehend magnetism and its [effects](/blog/magnetic-effects-of-curren
 
 * **Electricity**: A thorough understanding of electric charges, electric fields, and potential is necessary to appreciate the relationship between electricity and magnetism.
 * **Vector Algebra**: Familiarity with vector operations, such as addition, subtraction, and cross products, is crucial for representing and calculating [magnetic](/blog/magnetic-effects-of-current-class-12-notes) fields.
-* **Kinematics and Dynamics**: Knowledge of motion, force, and energy is essential for understanding the interactions between magnetic fields and charged particles or objects.
+* **Kinematics and Dynamics**: Knowledge of motion, force, and energy is essential for understanding the interactions between [magnetic](/blog/magnetic-effects-of-current-class-12-notes) fields and charged particles or objects.
 
 **Key Concepts and Formulas**
 Magnetism and matter is a broad topic, encompassing various concepts, including:
@@ -78,7 +78,7 @@ Magnetism and matter have numerous practical applications in various fields, inc
 * **Medical Imaging**: MRI machines use strong magnetic fields to create detailed images of the body.
 * **Energy Generation**: Magnetic fields are used in power plants to generate electricity.
 * **Transportation**: Magnetic levitation (maglev) trains use magnetic fields to propel and guide the train.
-* **Data Storage**: Magnetic materials are used in hard drives and magnetic tapes to store digital data.
+* **[data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) Storage**: Magnetic materials are used in hard drives and magnetic tapes to store digital [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards).
 
 By understanding the principles of magnetism and matter, you'll gain insight into the workings of these technologies and appreciate the significance of this topic in our daily lives.
 
@@ -88,7 +88,7 @@ Magnetism and matter is a vital topic in [class](/blog/alternating-current-class
 
 
 
-Magnetism and Matter is a fundamental concept in physics that describes the interaction between magnetic fields and matter. It includes the study of magnetic fields, magnetic induction, and the properties of magnetic materials. For Class 12 exam prep in 2026, the most important aspect is understanding the behavior of magnetic materials and the application of magnetic fields in various contexts.
+Magnetism and Matter is a fundamental concept in physics that describes the interaction between magnetic fields and matter. It includes the study of magnetic fields, magnetic [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet), and the properties of magnetic materials. For Class 12 exam prep in 2026, the most important aspect is understanding the behavior of magnetic materials and the application of magnetic fields in various contexts.
 
 The concept of magnetism is closely related to the concept of electricity, and it is essential to understand the relationship between electric currents and magnetic fields. The $B$ field, or magnetic field, is a vector field that describes the magnetic influence on moving electric charges and currents. The SI unit of the magnetic field is the tesla ($T$), and it is defined as $1 T = 1 kg/s^2A$.
 

@@ -75,7 +75,7 @@ Living organisms exhibit several key characteristics, including:
 * **Organization**: Living organisms are composed of cells, which are the basic structural and functional units of life.
 * **Metabolism**: Living organisms carry out a series of chemical reactions that involve the breakdown and synthesis of organic molecules.
 * **Homeostasis**: Living organisms maintain a stable internal environment despite changes in the external environment.
-* **Growth and Development**: Living organisms grow and develop through an increase in size and complexity.
+* **[growth](/blog/plant-growth-and-development-class-11-revision-notes-neet) and Development**: Living organisms grow and develop through an increase in size and complexity.
 * **Reproduction**: Living organisms produce offspring, either sexually or asexually, to ensure the continuation of their species.
 * **Response to Stimuli**: Living organisms respond to changes in their environment, such as light, temperature, and touch.
 * **Evolution**: Living organisms evolve over time through the process of natural selection, genetic drift, and other mechanisms.
@@ -89,7 +89,7 @@ The classification of living organisms is based on their characteristics and evo
 * **Monera**: Prokaryotic organisms, such as bacteria and archaea.
 * **Protista**: Eukaryotic organisms that do not fit into any of the other kingdoms, such as protozoa and algae.
 * **Fungi**: Organisms that obtain their nutrients by decomposing organic matter or forming symbiotic relationships with other organisms.
-* **Plantae**: Organisms that carry out photosynthesis and are typically multicellular.
+* **Plantae**: Organisms that carry out [photosynthesis](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) and are typically multicellular.
 * **Animalia**: Organisms that are multicellular, eukaryotic, and heterotrophic.
 
 
@@ -201,7 +201,7 @@ Solution: A) Cosmology
 ## <a id="ayushs-note"></a>Ayush's Note
 
 <div [class](/blog/biological-classification-class-11-revision-notes-neet)="callout-box">
-I remember when I was preparing for my Class 11 exams, I struggled to understand the concept of species. I thought that it was just a matter of identifying organisms that looked similar, but I soon realized that it was much more complex than that. The species concept is fundamental in understanding biodiversity and evolutionary processes, and it requires a deep understanding of the characteristics and evolutionary relationships of organisms. My mistake was not taking the time to thoroughly understand the concept, and I ended up losing marks in the exam. However, I learned from my mistake and made sure to thoroughly prepare for my next exam.
+I remember when I was preparing for my [class](/blog/physical-world-class-11-revision-notes-jee-neet) 11 exams, I struggled to understand the concept of species. I thought that it was just a matter of identifying organisms that looked similar, but I soon realized that it was much more complex than that. The species concept is fundamental in understanding biodiversity and evolutionary processes, and it requires a deep understanding of the characteristics and evolutionary relationships of organisms. My mistake was not taking the time to thoroughly understand the concept, and I ended up losing marks in the exam. However, I learned from my mistake and made sure to thoroughly prepare for my next exam.
 </div>
 
 

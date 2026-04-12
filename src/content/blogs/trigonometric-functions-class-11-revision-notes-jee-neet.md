@@ -12,8 +12,7 @@ practice_link: "/class-10/revision/trigonometric-functions-class-11-revision-not
 
 *Last Updated: 2026-04-11*
 
-
-<div class="quick-summary">
+<div [class](/blog/circles-class-10-notes)="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
@@ -28,8 +27,6 @@ practice_link: "/class-10/revision/trigonometric-functions-class-11-revision-not
 
 </div>
 
-
-
 ## 📋 Table of Contents
 
 - [⚡ Formula Bank](#-formula-bank)
@@ -40,21 +37,18 @@ practice_link: "/class-10/revision/trigonometric-functions-class-11-revision-not
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
 - [📝 Practice MCQs](#-practice-mcqs)
 
-
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Pythagorean Identity:** $$\{ sin^2\theta + cos^2\theta = 1 \}$$ — $sin\theta$ and $cos\theta$ are the sine and cosine of angle $\theta$.
- - **Reciprocal Identities:** $$\{ sec\theta = \frac{1}{cos\theta}, cosec\theta = \frac{1}{sin\theta}, tan\theta = \frac{1}{cot\theta} \}$$ — $sec\theta$, $cosec\theta$, $tan\theta$, and $cot\theta$ are the secant, cosecant, tangent, and cotangent of angle $\theta$.
- - **Quotient Identities:** $$\{ tan\theta = \frac{sin\theta}{cos\theta}, cot\theta = \frac{cos\theta}{sin\theta} \}$$ — $tan\theta$ and $cot\theta$ are the tangent and cotangent of angle $\theta$.
- - **Sum and Difference Identities for Sine:** $$\{ sin(A + B) = sinAcosB + cosAsinB, sin(A - B) = sinAcosB - cosAsinB \}$$ — $sin(A + B)$ and $sin(A - B)$ are the sine of \sum and difference of angles $A$ and $B$.
- - **Sum and Difference Identities for Cosine:** $$\{ cos(A + B) = cosAcosB - sinAsinB, cos(A - B) = cosAcosB + sinAsinB \}$$ — $cos(A + B)$ and $cos(A - B)$ are the cosine of \sum and difference of angles $A$ and $B$.
- - **Sum and Difference Identities for Tangent:** $$\{ tan(A + B) = \frac{tanA + tanB}{1 - tanAtanB}, tan(A - B) = \frac{tanA - tanB}{1 + tanAtanB} \}$$ — $tan(A + B)$ and $tan(A - B)$ are the tangent of \sum and difference of angles $A$ and $B$.
- - **Double Angle Identities:** $$\{ sin2\theta = 2sin\theta cos\theta, cos2\theta = cos^2\theta - sin^2\theta \}$$ — $sin2\theta$ and $cos2\theta$ are the sine and cosine of double angle $\theta$.
- - **Half Angle Identities:** $$\{ sin\frac{\theta}{2} = \pm \sqrt{\frac{1 - cos\theta}{2}}, cos\frac{\theta}{2} = \pm \sqrt{\frac{1 + cos\theta}{2}} \}$$ — $sin\frac{\theta}{2}$ and $cos\frac{\theta}{2}$ are the sine and cosine of half angle $\theta$.
- - **Product to Sum Identities:** $$\{ sinAcosB = \frac{1}{2}[sin(A + B) + sin(A - B)], sinAsinB = \frac{1}{2}[cos(A - B) - cos(A + B)] \}$$ — $sinAcosB$ and $sinAsinB$ are the product of sine and cosine functions.
- - **Trigonometric Ratios in Terms of $x$ and $y$:** $$\{ sin\theta = \frac{y}{r}, cos\theta = \frac{x}{r}, tan\theta = \frac{y}{x} \}$$ — $x$ and $y$ are the coordinates of a point on the unit circle, $r$ is the distance from the origin to the point.
-
-
+- **Pythagorean Identity:** \{ sin^2\theta + cos^2\theta = 1 \} — $sin\theta$ and $cos\theta$ are the sine and cosine of angle $\theta$.
+ - **Reciprocal Identities:** \{ sec\theta = \frac{1}{cos\theta}, cosec\theta = \frac{1}{sin\theta}, tan\theta = \frac{1}{cot\theta} \} — $sec\theta$, $cosec\theta$, $tan\theta$, and $cot\theta$ are the secant, cosecant, tangent, and cotangent of angle $\theta$.
+ - **Quotient Identities:** \{ tan\theta = \frac{sin\theta}{cos\theta}, cot\theta = \frac{cos\theta}{sin\theta} \} — $tan\theta$ and $cot\theta$ are the tangent and cotangent of angle $\theta$.
+ - **Sum and Difference Identities for Sine:** \{ sin(A + B) = sinAcosB + cosAsinB, sin(A - B) = sinAcosB - cosAsinB \} — $sin(A + B)$ and $sin(A - B)$ are the sine of \sum and difference of angles $A$ and $B$.
+ - **Sum and Difference Identities for Cosine:** \{ cos(A + B) = cosAcosB - sinAsinB, cos(A - B) = cosAcosB + sinAsinB \} — $cos(A + B)$ and $cos(A - B)$ are the cosine of \sum and difference of angles $A$ and $B$.
+ - **Sum and Difference Identities for Tangent:** \{ tan(A + B) = \frac{tanA + tanB}{1 - tanAtanB}, tan(A - B) = \frac{tanA - tanB}{1 + tanAtanB} \} — $tan(A + B)$ and $tan(A - B)$ are the tangent of \sum and difference of angles $A$ and $B$.
+ - **Double Angle Identities:** \{ sin2\theta = 2sin\theta cos\theta, cos2\theta = cos^2\theta - sin^2\theta \} — $sin2\theta$ and $cos2\theta$ are the sine and cosine of double angle $\theta$.
+ - **Half Angle Identities:** \{ sin\frac{\theta}{2} = \pm \sqrt{\frac{1 - cos\theta}{2}}, cos\frac{\theta}{2} = \pm \sqrt{\frac{1 + cos\theta}{2}} \} — $sin\frac{\theta}{2}$ and $cos\frac{\theta}{2}$ are the sine and cosine of half angle $\theta$.
+ - **Product to Sum Identities:** \{ sinAcosB = \frac{1}{2}[sin(A + B) + sin(A - B)], sinAsinB = \frac{1}{2}[cos(A - B) - cos(A + B)] \} — $sinAcosB$ and $sinAsinB$ are the product of sine and cosine functions.
+ - **Trigonometric Ratios in Terms of $x$ and $y$:** \{ sin\theta = \frac{y}{r}, cos\theta = \frac{x}{r}, tan\theta = \frac{y}{x} \} — $x$ and $y$ are the coordinates of a point on the unit circle, $r$ is the distance from the origin to the point.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -101,8 +95,6 @@ practice_link: "/class-10/revision/trigonometric-functions-class-11-revision-not
 
 - *Fix:* Always check the units of the answer to make sure they are correct. For example, if the question asks for the length of a side, make sure the answer is in the correct units (e.g. cm, m, km).
 
-
-
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 - **Q1:** If $\tan{\theta} = \frac{3}{4}$, then what is the value of $\frac{\sin{\theta}}{\cos{\theta}}$?
@@ -117,8 +109,6 @@ practice_link: "/class-10/revision/trigonometric-functions-class-11-revision-not
  - **Trap:** Students might not recall the relationship between sine and cosine functions.
  - **Solution:** Since $\sin{\theta} = \frac{1}{2}$ and $\theta$ is in the first quadrant, we can use the identity $\sin^2{\theta} + \cos^2{\theta} = 1$ to find $\cos{\theta}$. Substituting $\sin{\theta} = \frac{1}{2}$, we get $\left(\frac{1}{2}\right)^2 + \cos^2{\theta} = 1$, which simplifies to $\frac{1}{4} + \cos^2{\theta} = 1$. Solving for $\cos^2{\theta}$, we find $\cos^2{\theta} = 1 - \frac{1}{4} = \frac{3}{4}$. Taking the square root, since $\theta$ is in the first quadrant where cosine is positive, we have $\cos{\theta} = \sqrt{\frac{3}{4}} = \frac{\sqrt{3}}{2}$.
  - **Answer:** $\frac{\sqrt{3}}{2}$
-
-
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
@@ -145,8 +135,6 @@ practice_link: "/class-10/revision/trigonometric-functions-class-11-revision-not
 | $\sin^2\theta + \cos^2\theta = 1$ | Fundamental identity | Simplifying expressions, solving equations |
 | $\tan^2\theta + 1 = \sec^2\theta$ | Derived from Pythagorean identity | Solving trigonometric equations, simplifying expressions |
 | $\cot^2\theta + 1 = \csc^2\theta$ | Derived from Pythagorean identity | Solving trigonometric equations, simplifying expressions |
-
-
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
@@ -176,96 +164,86 @@ practice_link: "/class-10/revision/trigonometric-functions-class-11-revision-not
 | Trigonometric Ratios | $\sin\theta = \frac{opposite}{hypotenuse}$, $\cos\theta = \frac{adjacent}{hypotenuse}$, $\tan\theta = \frac{opposite}{adjacent}$ | Finding side lengths in right-angled triangles |
 | Complementary Angles | $\sin(90^\circ - \theta) = \cos\theta$, $\cos(90^\circ - \theta) = \sin\theta$ | Solving problems involving complementary angles |
 
-
-
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- $${\sin(90^\circ 
+- {\sin(90^\circ 
 
-- \theta) = \cos\theta}$$ 
+- \theta) = \cos\theta} 
  
 
-- $${\cos(90^\circ 
+- {\cos(90^\circ 
 
-- \theta) = \sin\theta}$$ 
+- \theta) = \sin\theta} 
  
 
-- $${\sin^2\theta + \cos^2\theta = 1}$$ 
+- {\sin^2\theta + \cos^2\theta = 1} 
  
 
-- $${\sin(\theta + 90^\circ) = \cos\theta}$$ 
+- {\sin(\theta + 90^\circ) = \cos\theta} 
  
 
-- $${\cos(\theta + 90^\circ) = -\sin\theta}$$ 
+- {\cos(\theta + 90^\circ) = -\sin\theta} 
  
 
 - Key fact: Trigonometric identities are used to simplify complex expressions.
 
-- Key fact: Complementary angles have special relationships, such as $${\sin(90^\circ 
+- Key fact: Complementary angles have special relationships, such as {\sin(90^\circ 
 
-- \theta) = \cos\theta}$$.
+- \theta) = \cos\theta}.
 
 - Key fact: Standard table values are essential for solving problems involving trigonometric ratios.
 
-- Common mistake: Forgetting that $${\sin^2\theta + \cos^2\theta = 1}$$ is a Pythagorean identity.
+- Common mistake: Forgetting that {\sin^2\theta + \cos^2\theta = 1} is a Pythagorean identity.
 
 - Common mistake: Not using the correct quadrant for a given angle when evaluating trigonometric functions.
 
-
-
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
-
 **1. What are the main trigonometric identities?**
-
-**A)** sin^2	heta + cos^2	heta = 1, cos^2	heta + sin^2	heta = 1  
-**B)** tan	heta = sin	heta / cos	heta, cot	heta = cos	heta / sin	heta  
-**C)** sin	heta = opposite/hypotenuse, cos	heta = adjacent/hypotenuse, tan	heta = opposite/adjacent  
-**D)** None of the above  
+**A)**  sin^2	heta + cos^2	heta = 1, cos^2	heta + sin^2	heta = 1
+**B)**  tan	heta = sin	heta / cos	heta, cot	heta = cos	heta / sin	heta
+**C)**  sin	heta = opposite/hypotenuse, cos	heta = adjacent/hypotenuse, tan	heta = opposite/adjacent
+**D)**  None of the above
 
 **Answer:** C) The correct options are the fundamental trigonometric identities.
 
 ---
 
 **2. How do you find the value of sin(30° + 45°)?**
-
-**A)** sin(30°) cos(45°) + cos(30°) sin(45°)  
-**B)** cos(30°) cos(45°) - sin(30°) sin(45°)  
-**C)** sin(30°) sin(45°) + cos(30°) cos(45°)  
-**D)** None of the above  
+**A)**  sin(30°) cos(45°) + cos(30°) sin(45°)
+**B)**  cos(30°) cos(45°) - sin(30°) sin(45°)
+**C)**  sin(30°) sin(45°) + cos(30°) cos(45°)
+**D)**  None of the above
 
 **Answer:** A) The correct option is the formula for the sine of the \sum of two angles.
 
 ---
 
 **3. What is the value of tan(45°)?**
-
-**A)** 1  
-**B)** 1/√2  
-**C)** √2  
-**D)** None of the above  
+**A)**  1
+**B)**  1/√2
+**C)**  √2
+**D)**  None of the above
 
 **Answer:** B) The correct option is the value of the tangent function for the angle 45°.
 
 ---
 
 **4. What is the relationship between the sine and cosine of complementary angles?**
-
-**A)** sin(\alpha + eta) = sinalpha coseta + cosalpha sineta, cos(\alpha + eta) = cosalpha coseta - sinalpha sineta  
-**B)** sin(\alpha + eta) = cosalpha coseta - sinalpha sineta, cos(\alpha + eta) = sinalpha sineta + cosalpha coseta  
-**C)** sin(\alpha + eta) = sinalpha sineta + cosalpha coseta, cos(\alpha + eta) = cosalpha sineta - sinalpha coseta  
-**D)** None of the above  
+**A)**  sin(\alpha + eta) = sinalpha coseta + cosalpha sineta, cos(\alpha + eta) = cosalpha coseta - sinalpha sineta
+**B)**  sin(\alpha + eta) = cosalpha coseta - sinalpha sineta, cos(\alpha + eta) = sinalpha sineta + cosalpha coseta
+**C)**  sin(\alpha + eta) = sinalpha sineta + cosalpha coseta, cos(\alpha + eta) = cosalpha sineta - sinalpha coseta
+**D)**  None of the above
 
 **Answer:** A) The correct options are the formulas for the sine and cosine of the \sum of two angles.
 
 ---
 
 **5. What is the formula for the tangent of a right-angled triangle?**
-
-**A)** tan	heta = opposite/adjacent  
-**B)** tan	heta = adjacent/opposite  
-**C)** tan	heta = hypotenuse/opposite  
-**D)** None of the above  
+**A)**  tan	heta = opposite/adjacent
+**B)**  tan	heta = adjacent/opposite
+**C)**  tan	heta = hypotenuse/opposite
+**D)**  None of the above
 
 **Answer:** A) The correct option is the formula for the tangent of an angle in a right-angled triangle.
 
@@ -276,3 +254,14 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Arithmetic Progressions Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/arithmetic-progressions-class-10-notes)
+- 📖 [Chemical Kinetics Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/chemical-kinetics-class-12-notes)
+- 📖 [Circles Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/circles-class-10-notes)
+- 📖 [Communication Systems Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/communication-systems-class-12-notes)

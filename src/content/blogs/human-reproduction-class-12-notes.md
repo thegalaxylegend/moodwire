@@ -23,7 +23,6 @@ practice_link: "/class-11/biology/human-reproduction-class-12-notes"
 - [📝 Practice MCQs](#-practice-mcqs)
 - [📚 Related Topics](#-related-topics)
 
-
 * 1-2 short answer questions on **menstrual cycle phases** — always, focusing on $\Delta$ changes in FSH, LH, estrogen, and progesterone levels
 * 1 numerical on **spermatogenesis vs oogenesis** — comparing the number of sperm and egg cells produced, using $2^n$ formula
 * Photo of **[human](/blog/microbes-in-human-welfare-class-12-notes) female reproductive system** — identify and label parts: ovary, fallopian tube, uterus, cervix, vagina
@@ -43,27 +42,27 @@ practice_link: "/class-11/biology/human-reproduction-class-12-notes"
 
 - **Fertility Rate:** \frac{\text{Number of Live Births}}{\text{Number of Women of Childbearing Age}} — Measures the number of live births per 1000 women of childbearing age.
 
- - **Birth Rate:** \frac{\text{Number of Live Births}}{\text{Total Population}} \times 1000 — Measures the number of live births per 1000 people in the population.
+- **Birth Rate:** \frac{\text{Number of Live Births}}{\text{Total Population}} \times 1000 — Measures the number of live births per 1000 people in the population.
 
- - **Death Rate:** \frac{\text{Number of Deaths}}{\text{Total Population}} \times 1000 — Measures the number of deaths per 1000 people in the population.
+- **Death Rate:** \frac{\text{Number of Deaths}}{\text{Total Population}} \times 1000 — Measures the number of deaths per 1000 people in the population.
 
- - **Population Growth Rate:** \frac{\text{Birth Rate} - \text{Death Rate}}{10} — Measures the rate at which the population is growing or declining.
+- **Population Growth Rate:** \frac{\text{Birth Rate} - \text{Death Rate}}{10} — Measures the rate at which the population is growing or declining.
 
- - **Sex Ratio:** \frac{\text{Number of Females}}{\text{Number of Males}} \times 1000 — Measures the number of females per 1000 males in the population.
+- **Sex Ratio:** \frac{\text{Number of Females}}{\text{Number of Males}} \times 1000 — Measures the number of females per 1000 males in the population.
 
  - **Menstrual Cycle Length:** 28 \pm 7 \text{ days} — Average length of a menstrual cycle, with a normal range of 21 to 35 days.
 
- - **Fertilization Probability:** \frac{\text{Number of Sperm Reaching the Egg}}{\text{Total Number of Sperm Released}} — Measures the likelihood of successful fertilization.
+- **Fertilization Probability:** \frac{\text{Number of Sperm Reaching the Egg}}{\text{Total Number of Sperm Released}} — Measures the likelihood of successful fertilization.
 
- - **Embryo Implantation Rate:** \frac{\text{Number of Embryos Implanted}}{\text{Number of Embryos Transferred}} \times 100 — Measures the percentage of embryos that successfully implant in the uterus.
+- **Embryo Implantation Rate:** \frac{\text{Number of Embryos Implanted}}{\text{Number of Embryos Transferred}} \times 100 — Measures the percentage of embryos that successfully implant in the uterus.
 
- - **Pregnancy Success Rate:** \frac{\text{Number of Successful Pregnancies}}{\text{Total Number of Pregnancies}} \times 100 — Measures the percentage of pregnancies that result in a live birth.
+- **Pregnancy Success Rate:** \frac{\text{Number of Successful Pregnancies}}{\text{Total Number of Pregnancies}} \times 100 — Measures the percentage of pregnancies that result in a live birth.
 
  - **Gonadal Sex Differentiation:** \text{Genetic Sex} \rightarrow \text{Gonadal Sex} \rightarrow \text{Phenotypic Sex} — Describes the process of sex determination and differentiation in humans.
 
- - **Follicular Growth Rate:** \frac{\text{Increase in Follicle Size}}{\text{Time}} — Measures the rate at which follicles grow and mature in the ovaries.
+- **Follicular Growth Rate:** \frac{\text{Increase in Follicle Size}}{\text{Time}} — Measures the rate at which follicles grow and mature in the ovaries.
 
- - **Spermatogenesis Efficiency:** \frac{\text{Number of Mature Sperm}}{\text{Total Number of Sperm Produced}} \times 100 — Measures the percentage of sperm that mature and become functional.
+- **Spermatogenesis Efficiency:** \frac{\text{Number of Mature Sperm}}{\text{Total Number of Sperm Produced}} \times 100 — Measures the percentage of sperm that mature and become functional.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -113,7 +112,7 @@ practice_link: "/class-11/biology/human-reproduction-class-12-notes"
 
  - $FSH$ stimulates the production of $estrogen$ by the follicles, which in turn causes the thickening of the endometrium and the proliferation of the glandular epithelium.
 
- - The process can be represented as: FSH \times Receptor \rightarrow G_{s} \alpha \rightarrow \Delta cAMP
+- The process can be represented as: FSH \times Receptor \rightarrow G_{s} \alpha \rightarrow \Delta cAMP
 
  - Where $G_{s} \alpha$ is the G protein alpha subunit that stimulates adenylate cyclase to produce $cAMP$.
 
@@ -204,7 +203,7 @@ practice_link: "/class-11/biology/human-reproduction-class-12-notes"
 
  - $\Delta p = \frac{pQ - pq}{p + q}$ for calculating the change in allele frequency.
 
- - Human reproduction involves the fusion of a sperm and an egg, resulting in a zygote with a unique combination of genetic traits.
+ - Human [reproduction](/blog/reproduction-in-organisms-class-12-notes) involves the fusion of a sperm and an egg, resulting in a zygote with a unique combination of genetic traits.
 
  - The reproductive system in humans consists of the primary sex organs (gonads) and the secondary sex organs, which include external and internal genitalia.
 

@@ -69,11 +69,11 @@ The core concepts in [physical](/blog/physical-world-class-11-revision-notes-jee
 
 ## <a id="historical-timelines"></a>Historical Timelines
 
-The Earth's surface has undergone significant changes over millions of years. The Indian subcontinent was formed around 50 million years ago, when the Indian plate collided with the Eurasian plate. This collision led to the formation of the Himalayan mountain range. The Western Ghats were formed much earlier, around 150 million years ago, during the break-up of the supercontinent Gondwana.
+The Earth's surface has undergone significant changes over millions of years. The [indian](/blog/indian-geography-climate-class-11-revision-notes-cbse) subcontinent was formed around 50 million years ago, when the [indian](/blog/indian-geography-climate-class-11-revision-notes-cbse) plate collided with the Eurasian plate. This collision led to the formation of the Himalayan mountain range. The Western Ghats were formed much earlier, around 150 million years ago, during the break-up of the supercontinent Gondwana.
 
 ## <a id="what-is-the-context-of-maps-in-physical-geography"></a>What is the context of Maps in Physical Geography?
 
-Maps are an essential tool in Physical Geography, used to represent the Earth's surface and its features. Maps can be used to study the distribution of landforms, climate, vegetation, and water bodies. The **Tropic of Cancer** is an imaginary line that passes through 8 Indian states, and its location can be represented on a map. Maps can also be used to study the historical context of the Earth's formation, including the movement of tectonic plates and the formation of mountain ranges.
+Maps are an essential tool in [physical](/blog/physical-world-class-11-revision-notes-jee-neet) Geography, used to represent the Earth's surface and its features. Maps can be used to study the distribution of landforms, climate, vegetation, and water bodies. The **Tropic of Cancer** is an imaginary line that passes through 8 Indian states, and its location can be represented on a map. Maps can also be used to study the historical context of the Earth's formation, including the movement of tectonic plates and the formation of mountain ranges.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

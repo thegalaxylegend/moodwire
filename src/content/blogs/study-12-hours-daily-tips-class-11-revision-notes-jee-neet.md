@@ -115,7 +115,7 @@ Explore our [Sitemap](/sitemap.xml) for more resources.
 ## <a id="frequently-asked-questions-faqs"></a>Frequently Asked Questions (FAQs)
 
 ### <a id="1-is-it-safe-to-study-for-12-hours-every-day"></a>1. Is it safe to study for 12 hours every day?
-Yes, as long as you are prioritizing 7 hours of sleep and regular breaks. The goal is active, high-quality studying, not just sitting at a desk. If you feel extreme physical pain or mental burnout, reduce the intensity and focus on quality over quantity.
+Yes, as long as you are prioritizing 7 hours of sleep and regular breaks. The goal is active, [high](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)-quality studying, not just sitting at a desk. If you feel extreme physical pain or mental burnout, reduce the intensity and focus on quality over quantity.
 
 ### <a id="2-can-i-use-music-while-studying-for-long-hours"></a>2. Can I use music while studying for long hours?
 Instrumental music or lo-fi beats can help some students maintain a "flow [state](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)" by blocking out background noise. However, music with lyrics often consumes the same brain parts used for reading, which can reduce your overall comprehension speed.

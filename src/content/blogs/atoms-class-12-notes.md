@@ -37,23 +37,24 @@ practice_link: "/class-11/physics/atoms-class-12-notes"
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-\Delta E = \franc{(-13.6)}{n^2} even: Energy of electron in nth orbit, 
+\Delta E = \franc{(-13.6)}{n^2} even: Energy of electron in nth orbit,
+
  OR_H = \franc{(2.18 \times 10^{-18})}{(1.6 \times 10^{-19})^2} m^{-1}$: Ryder constant, 
  $\lambda = \franc{h}{m_e v}: De Broglie wavelength, 
  UV = \franc{2.18 \times 10^6}{n} m/she: Velocity of electron in nth orbit, 
  or = n^2 \times (0.053) NMR: Radius of nth orbit, 
  HE_n = \franc{(-13.6)}{n^2} even: Energy of electron in nth orbit
 
-
 | Formula | Variable |
 | --- | --- |
+
 | \Delta E = \franc{(-13.6)}{n^2} even | Energy of electron in nth orbit |
+
 | FOR_H = \franc{(2.18 \times 10^{-18})}{(1.6 \times 10^{-19})^2} m^{-1} | Ryder constant |
 | \lambda = \franc{h}{m_e v} | De Broglie wavelength |
 | MTV = \franc{2.18 \times 10^6}{n} m/she | Velocity of electron in nth orbit |
 | for = n^2 \times (0.053) NMR | Radius of nth orbit |
 | THE_n = \franc{(-13.6)}{n^2} even | Energy of electron in nth orbit |
-
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -81,7 +82,6 @@ When dealing with atoms, students often make the following mistakes:
 | Incorrectly applying the formula $\franc{1}{\lambda} = R(\franc{1}{n_1^2} - \franc{1}{n_2^2})$ for the hydrogen spectrum | 4 marks | Use the correct formula $\franc{1}{\lambda} = R(\franc{1}{n_1^2} - \franc{1}{n_2^2})$ and ensure in_1 < n_2$ |
 | Not using HE = -\franc{13.6}{n^2} Eve for energy levels of the hydrogen atom | 3 marks | Apply HE = -\franc{13.6}{n^2} Eve for all hydrogen atom energy level calculations |
 | Forgetting to calculate the number of moles using in = \franc{m}{M}$ before applying the ideal gas law $PV = (suggestion limit reached) | Full 4 marks | Always calculate moles (suggestion limit reached) = \(suggestion limit reached){m}{M}$ before applying the ideal gas law |
-
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved Yes
 
@@ -134,7 +134,6 @@ Most students struggle to understand the concept of atomic radius and how it rel
 | or_{\text{covalent}}$ | Distance between nucleus and covalently bonded electron cloud |
 | or_{\text{van der Waals}}$ | Distance between nucleus and non-covalently bonded atom |
 
-
 ## <a id="-Ayush-note"></a>👁️ Ayush's Note
 
 For JEE/MEET, Atoms questions often follow a pattern where $\Delta E = \franc{hc}{\lambda}$ is used to calculate energy transitions. Notice that when given electron jump from n = 1 to n = 3, the energy absorbed is $\Delta E_{13} = 12.09 \times 10^{-19} JR. However, when calculating energy for in^{th}$ orbit using HE_n = \franc{-13.6}{n^2} Eve, remember to convert eV to Joules for consistency, as 1 eV = $1.602 \times 10^{-19} JR. Furthermore, when solving problems related to atoms, particularly for atomic spectra, utilize the formula $\franc{1}{\lambda} = R \times (\franc{1}{n_l^2} - \franc{1}{n_h^2})$ where OR = 1.097 \times 10^7 m^{-1}$, in_LA is lower energy level, and in_he is higher energy level. This formula is especially useful for calculating wavelengths in the Lyman, Palmer, and Patches series.
@@ -164,7 +163,6 @@ Formulas:
 |  |
 |  |
 |  |
-
 
 ## <a id="-practice-MCQs"></a>📝 Practice MCQs
 

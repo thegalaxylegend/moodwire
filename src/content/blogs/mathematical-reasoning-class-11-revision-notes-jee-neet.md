@@ -156,7 +156,7 @@ Yes, it is a statement because it is a [mathematical](/blog/mathematical-inducti
 
 ## <a id="conclusion"></a>Conclusion
 
-Mathematical Reasoning is the "grammar" of mathematics. It ensures that our conclusions follow logically from our assumptions. By mastering the art of negation, implications, and contrapositives, you gain the ability to spot logical errors and construct airtight proofs. Remember: in math, there is no "maybe"—only the clarity of truth and logic!
+[mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) Reasoning is the "grammar" of mathematics. It ensures that our conclusions follow logically from our assumptions. By mastering the art of negation, implications, and contrapositives, you gain the ability to spot logical errors and construct airtight proofs. Remember: in math, there is no "maybe"—only the clarity of truth and logic!
 
 ---
 

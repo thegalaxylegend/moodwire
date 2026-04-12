@@ -85,10 +85,16 @@ The mole concept is a fundamental concept in [chemistry](/blog/organic-chemistry
 1 \text{ mole} = 6.022 \times 10^{23} \text{ particles}
 
 The mole concept is used to calculate the number of moles of a substance:
+
 \text{Number of Moles} = \frac{\text{Mass of Substance}}{\text{Molar Mass of Substance}}
 
+
+
 For example, the number of moles of 10 g of sodium (Na) is:
+
 \text{Number of Moles of Na} = \frac{10}{23} = 0.434 \text{ moles}
+
+
 
 ### <a id="stoichiometry"></a>Stoichiometry
 Stoichiometry is the study of the quantitative relationships between reactants and products in [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) reactions. It's used to calculate the amount of reactants required or the amount of products formed in a reaction.
@@ -109,7 +115,7 @@ The mass of the products is:
 As expected, the mass of the reactants is equal to the mass of the products.
 
 ### <a id="chemical-reactions-and-equations"></a>Chemical Reactions and Equations
-Chemical reactions involve the transformation of one or more substances into another substance or substances. Chemical equations are used to represent chemical reactions.
+[chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) reactions involve the transformation of one or more substances into another substance or substances. [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) equations are used to represent [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) reactions.
 
 A balanced chemical equation has the same number of atoms of each element on both the reactant and product sides.
 
@@ -130,7 +136,10 @@ PV = nRT
 where $P$ is the pressure, $V$ is the volume, $n$ is the number of moles, $R$ is the gas constant, and $T$ is the temperature.
 
 For example, consider a gas with a pressure of 1 atm, a volume of 10 L, and a temperature of 273 K. If we add 2 moles of the gas, the new pressure is:
+
 P = \frac{nRT}{V} = \frac{2 \times 0.0821 \times 273}{10} = 4.46 \text{ atm}
+
+
 
 
 

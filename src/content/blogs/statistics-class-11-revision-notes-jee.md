@@ -93,7 +93,10 @@ Mean deviation can be calculated about the **Mean** or the **Median**.
 3.  Calculated the average of these absolute differences.
 
 **Formula for Ungrouped Data:**
+
 M.D. (\bar{x}) = \frac{\sum |x_i - \bar{x}|}{n}
+
+
 **Formula for Grouped Data:**
 $M.D. (\bar{x}) = \frac{\sum f_i |x_i - \bar{x}|}{N}$ (where $N = \sum f_i$)
 
@@ -113,7 +116,10 @@ The average of the squared deviations from the mean.
 ### <a id="standard-deviation-sigma"></a>Standard Deviation ($\sigma$):
 The square root of the variance. It is preferred because it shares the same units as the original data.
 - **Short Method for Discrete Frequency Distribution:**
-  \sigma = \frac{1}{N} \sqrt{N \sum f_i x_i^2 - (\sum f_i x_i)^2}
+
+\sigma = \frac{1}{N} \sqrt{N \sum f_i x_i^2 - (\sum f_i x_i)^2}
+
+
 ---
 
 

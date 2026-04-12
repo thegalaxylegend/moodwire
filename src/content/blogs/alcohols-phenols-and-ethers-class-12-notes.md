@@ -149,7 +149,7 @@ Continue your revision with these related guides:
 
 ## 🪤 The 5 Mistakes That Cost Marks
 
-    * Not recognizing that the -OH group in alcohols and phenols is the functional group responsible for their chemical properties, leading to incorrect identification of reactions and mechanisms.
+    * Not recognizing that the -OH group in alcohols and phenols is the functional group responsible for their [chemical](/blog/chemical-kinetics-class-12-notes) properties, leading to incorrect identification of reactions and mechanisms.
     * Incorrectly assuming that all alcohols can be dehydrated to form alkenes, forgetting that tertiary alcohols can undergo rearrangements to form alkenes with a different carbon skeleton.
     * Forgetting that phenols are more acidic than alcohols due to the resonance stabilization of the phenoxide ion, leading to incorrect predictions of acid-base reactions.
     * Overlooking the fact that ethers are relatively inert to many reactions, including oxidation and reduction, due to the lack of a functional group that can be easily attacked by reactants.
@@ -157,7 +157,7 @@ Continue your revision with these related guides:
 
 ## 🔁 Last 5 Minutes Box
 
-* Alcohols: CROHN, prepared by hydrating alkenes or by reducing carboxylic acids
+* Alcohols: CROHN, prepared by hydrating alkenes or by reducing [carboxylic](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes) acids
    * Phenols: far-off, prepared by Fried-Crafts alkylating or by hydrolysis of halogens
    * Ethers: PRIOR'$, prepared by Williamson's synthesis or by dehydration of alcohols
    * Alcohols: primary (1°), secondary (2°), tertiary (3°) based on JOHN group attachment

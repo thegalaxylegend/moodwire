@@ -146,7 +146,7 @@ A combination is a selection of items where the order of selection does not matt
 
 **Q3: A committee of 3 persons is to be constituted from a group of 2 men and 3 women. In how many ways can this be done?**
 **Answer:**
-- Order doesn't matter, so use combinations.
+- Order doesn't matter, so use [combinations](/blog/permutations-and-combinations-class-11-revision-notes-jee).
 - Total people = 2 + 3 = 5. Select 3.
 - 5C3 = 5! / (3!2!) = (5 × 4) / 2 = **10 ways**.
 

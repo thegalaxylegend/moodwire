@@ -172,7 +172,10 @@ At constant pressure: $\Delta H = q_p$.
 At constant volume: $\Delta U = q_v$.
 
 ### <a id="the-bridge-formula"></a>The Bridge Formula
+
 \Delta H = \Delta U + \Delta n_g RT
+
+
 where $\Delta n_g$ = (moles of gaseous products) - (moles of gaseous reactants).
 
 **Example**: $CH_4(g) + 2O_2(g) \rightarrow CO_2(g) + 2H_2O(l)$:
@@ -195,7 +198,10 @@ This is because Enthalpy is a **State Function** — it depends only on the stat
 
 ### <a id="application-bornhaber-cycle"></a>Application: Born-Haber Cycle
 To find the Lattice Enthalpy of $NaCl$:
+
 \Delta H_f = \Delta H_{sub} + \Delta H_{IE} + \frac{1}{2}\Delta H_{diss} + \Delta H_{EA} + U_{lattice}
+
+
 **JEE Trick**: If a question asks you to calculate the enthalpy of a reaction you don't know directly, try:
 1. Reverse a known reaction (flip the sign of $\Delta H$).
 2. Multiply a reaction by a factor (multiply $\Delta H$ by the same factor).
@@ -217,7 +223,10 @@ To find the Lattice Enthalpy of $NaCl$:
 - $\Delta_f H°$ is **negative** for stable compounds (exothermic formation).
 
 ### <a id="bond-enthalpy-method"></a>Bond Enthalpy Method
+
 \Delta H_{rxn} = \sum (\text{Bond Enthalpies of Broken Bonds}) - \sum (\text{Bond Enthalpies of Formed Bonds})
+
+
 Remember: Breaking bonds = **absorbs** energy (+). Forming bonds = **releases** energy (-).
 
 ---
@@ -388,7 +397,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/equilibrium-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
 - 📖 [States Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/states-of-matter-class-11-revision-notes-jee-neet)

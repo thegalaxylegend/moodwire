@@ -117,7 +117,10 @@ practice_link: "/class-11/mathematics/differential-equations-class-12-notes"
 - Key steps:
   * Choose a step size $h$.
   * Calculate $y_{n+1}$ using the formula.
+
 - **Runge-Kutta Method:** y_{n+1} = y_n + \frac{h}{6}(k_1 + 2k_2 + 2k_3 + k_4) — This method is used to approximate the solution of a differential equation at a given point.
+
+
 - Key steps:
   * Choose a step size $h$.
   * Calculate $k_1, k_2, k_3, k_4$ using the formulas.
@@ -127,12 +130,18 @@ practice_link: "/class-11/mathematics/differential-equations-class-12-notes"
 
 #### #### Higher-Order Linear Homogeneous Differential Equations
 A higher-order linear homogeneous differential equation has the form: 
+
 \frac{d^n y}{dx^n} + P_1(x)\frac{d^{n-1} y}{dx^{n-1}} + \cdots + P_n(x)y = 0
+
+
 To solve this equation, we can use the method of undetermined coefficients or the method of variation of parameters.
 
 #### #### Higher-Order Linear Non-Homogeneous Differential Equations
 A higher-order linear non-homogeneous differential equation has the form: 
+
 \frac{d^n y}{dx^n} + P_1(x)\frac{d^{n-1} y}{dx^{n-1}} + \cdots + P_n(x)y = Q(x)
+
+
 To solve this equation, we can use the method of undetermined coefficients or the method of variation of parameters.
 
 ## <a id="-the-5-trap-mistakes"></a>🪤 The 5 Trap Mistakes

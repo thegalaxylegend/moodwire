@@ -57,23 +57,17 @@ practice_link: "/class-11/mathematics/application-of-derivatives-class-12-notes"
 
  - **Tangents and Normals:** y - y_1 = m(x - x_1) — Equation of a tangent line with slope $m$ at $(x_1, y_1)$, where $m = f'(x_1)$.
 
-
 - **Length of Tangent, Normal, and Subtangent:** \text{Tangent: } y = mx + c, \text{Normal: } y - y_1 = -\frac{1}{m}(x - x_1), \text{Subtangent: } \text{Length} = |y_1| \cdot \sqrt{1 + m^2} — Formulas related to the tangent and normal to a curve.
 
-
-
  - **Area of Region Bounded by a Curve and x-axis:** A = \int_{a}^{b} f(x) dx — Gives the area under the curve $y = f(x)$ between $x = a$ and $x = b$.
-
 
 - **Volume of Solid of Revolution (Disk Method):** V = \pi \int_{a}^{b} [f(x)]^2 dx — Calculates the volume of the solid formed by revolving the region about the x-axis.
 
 - **Volume of Solid of Revolution (Shell Method):** V = 2\pi \int_{a}^{b} x \cdot f(x) dx — Alternative method for calculating volumes of solids of revolution.
 
+- **Volume of Solid of Revolution (Disk Method):** V = \pi \int_{a}^{b} [f(x)]^2 dx — Calculates the volume of the solid formed by revolving the region about the x-axis.
 
-
- - **Volume of Solid of Revolution (Disk Method):** V = \pi \int_{a}^{b} [f(x)]^2 dx — Calculates the volume of the solid formed by revolving the region about the x-axis.
-
- - **Volume of Solid of Revolution (Shell Method):** V = 2\pi \int_{a}^{b} x \cdot f(x) dx — Alternative method for calculating volumes of solids of revolution.
+- **Volume of Solid of Revolution (Shell Method):** V = 2\pi \int_{a}^{b} x \cdot f(x) dx — Alternative method for calculating volumes of solids of revolution.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -127,8 +121,6 @@ practice_link: "/class-11/mathematics/application-of-derivatives-class-12-notes"
 
 \frac{d}{dx}f(x) = \frac{d}{dx}(10x^2 - x^3) = 20x - 3x^2
 
-
-
  Setting the derivative equal to zero gives us $20x - 3x^2 = 0$.
 
  Factoring out $x$, we get $x(20 - 3x) = 0$, which yields $x = 0$ or $x = \frac{20}{3}$.
@@ -138,8 +130,6 @@ practice_link: "/class-11/mathematics/application-of-derivatives-class-12-notes"
  
 
 \frac{d^2}{dx^2}f(x) = \frac{d}{dx}(20x - 3x^2) = 20 - 6x
-
-
 
  Evaluating the second derivative at $x = \frac{20}{3}$, we get $20 - 6(\frac{20}{3}) = 20 - 40 = -20$.
 
@@ -163,15 +153,11 @@ practice_link: "/class-11/mathematics/application-of-derivatives-class-12-notes"
 
 v(t) = \frac{d}{dt}x(t) = \frac{d}{dt}(2t^2 + 3t + 1) = 4t + 3
 
-
-
  The acceleration $a(t)$ is the derivative of velocity $v(t)$ with respect to time:
 
  
 
 a(t) = \frac{d}{dt}v(t) = \frac{d}{dt}(4t + 3) = 4
-
-
 
  At $t = 2$ seconds, the velocity is $v(2) = 4(2) + 3 = 8 + 3 = 11$ m/s.
 
@@ -191,15 +177,11 @@ a(t) = \frac{d}{dt}v(t) = \frac{d}{dt}(4t + 3) = 4
 
 \frac{dy}{dx} = \frac{d}{dx}(x^3 - 2x^2 + x + 1) = 3x^2 - 4x + 1
 
-
-
  Evaluate the derivative at $x = 1$ to find the slope $m$ of the tangent line:
 
  
 
 m = \frac{dy}{dx}\Big|_{x=1} = 3(1)^2 - 4(1) + 1 = 3 - 4 + 1 = 0
-
-
 
  The slope of the tangent line at $x = 1$ is $0$.
 
@@ -271,7 +253,6 @@ abla g(x)
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-
 - \frac{dy}{dx} = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h}
 
 - \frac{d}{dx}(x^n) = nx^{n-1}
@@ -281,8 +262,6 @@ abla g(x)
 - \frac{d}{dx}(\cos(x)) = -\sin(x)
 
 - \frac{d}{dx}(\tan(x)) = \sec^2(x)
-
-
 
  - Key facts:
 

@@ -159,7 +159,7 @@ Instead of just counting outcomes, we assign a number $P(E)$ to an event $E$ tha
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 15: Statistics**
-- **Chapter 7: Permutations and Combinations**
+- **Chapter 7: [permutations](/blog/permutations-combinations-class-11-revision-notes-jee) and Combinations**
 - [**External Reference:** [NCERT Class 11 Math Chapter 16](https://ncert.nic.in/textbook.php?kemh1=16-16) (Authoritative Source)]
 
 

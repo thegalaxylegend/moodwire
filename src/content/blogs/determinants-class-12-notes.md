@@ -78,7 +78,11 @@ practice_link: "/class-11/mathematics/determinants-class-12-notes"
 
 ### <a id="-core-concept-3-expansion-by-minors"></a>⚡ Core Concept 3: Expansion by Minors
 
-- **Formula:** \begin{vmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{vmatrix} = a_{11}
+- **Formula:**
+
+\begin{vmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{vmatrix}
+
+= a_{11}
 
 \begin{vmatrix} a_{22} & a_{23} \\ a_{32} & a_{33} \end{vmatrix}
 
@@ -88,7 +92,9 @@ practice_link: "/class-11/mathematics/determinants-class-12-notes"
 
 + a_{13}
 
-\begin{vmatrix} a_{21} & a_{22} \\ a_{31} & a_{32} \end{vmatrix} — $a_{ij}$ are elements of the matrix.
+\begin{vmatrix} a_{21} & a_{22} \\ a_{31} & a_{32} \end{vmatrix}
+
+— $a_{ij}$ are elements of the matrix.
 - **[application](/blog/application-of-integrals-class-12-notes):** Used to calculate the determinant of a matrix by expanding along a row or column.
 
 #### Expansion Along a Row
@@ -97,7 +103,9 @@ practice_link: "/class-11/mathematics/determinants-class-12-notes"
 
 ### <a id="-core-concept-4-cofactor-expansion"></a>⚡ Core Concept 4: Cofactor Expansion
 
-- **Formula:** \begin{vmatrix} a & b \\ c & d \end{vmatrix}
+- **Formula:**
+
+\begin{vmatrix} a & b \\ c & d \end{vmatrix}
 
 = a \cdot
 
@@ -105,7 +113,11 @@ practice_link: "/class-11/mathematics/determinants-class-12-notes"
 
 - b \cdot
 
-\begin{vmatrix} c \end{vmatrix} — Cofactor of $a$ is $+\begin{vmatrix}
+\begin{vmatrix} c \end{vmatrix}
+
+— Cofactor of $a$ is $+
+
+\begin{vmatrix}
 
 d \end{vmatrix}$ and cofactor of $b$ is $-
 
@@ -114,7 +126,7 @@ d \end{vmatrix}$ and cofactor of $b$ is $-
 
 #### Cofactor of an Element
 - **Formula:** C_{ij} = (-1)^{i+j} \cdot \det(M_{ij}) — $M_{ij}$ is the minor of the element $a_{ij}$.
-- **Application:** Used to calculate the cofactor of an element in a matrix.
+- **[application](/blog/application-of-integrals-class-12-notes):** Used to calculate the cofactor of an element in a matrix.
 
 ### <a id="-core-concept-5-area-of-a-triangle"></a>⚡ Core Concept 5: Area of a Triangle
 
@@ -138,16 +150,28 @@ d \end{vmatrix}$ and cofactor of $b$ is $-
 
 ### <a id="-core-concept-7-determinant-of-a-2x2-matrix"></a>⚡ Core Concept 7: Determinant of a 2x2 Matrix
 
-- **Formula:** \begin{vmatrix} a & b \\ c & d \end{vmatrix} = ad - bc — $a, b, c, d$ are elements of the matrix.
+- **Formula:**
+
+\begin{vmatrix} a & b \\ c & d \end{vmatrix}
+
+= ad - bc — $a, b, c, d$ are elements of the matrix.
 - **Application:** Used to calculate the determinant of a 2x2 matrix.
 
 #### Determinant of a 2x2 Matrix with Variables
-- **Formula:** \begin{vmatrix} x & y \\ z & w \end{vmatrix} = xw - yz — $x, y, z, w$ are variables.
+- **Formula:**
+
+\begin{vmatrix} x & y \\ z & w \end{vmatrix}
+
+= xw - yz — $x, y, z, w$ are variables.
 - **Application:** Used to calculate the determinant of a 2x2 matrix with variables.
 
 ### <a id="-core-concept-8-determinant-of-a-3x3-matrix"></a>⚡ Core Concept 8: Determinant of a 3x3 Matrix
 
-- **Formula:** \begin{vmatrix} a & b & c \\ d & e & f \\ g & h & i \end{vmatrix} = a(ei - fh) - b(di - fg) + c(dh - eg) — $a, b, c, d, e, f, g, h, i$ are elements of the matrix.
+- **Formula:**
+
+\begin{vmatrix} a & b & c \\ d & e & f \\ g & h & i \end{vmatrix}
+
+= a(ei - fh) - b(di - fg) + c(dh - eg) — $a, b, c, d, e, f, g, h, i$ are elements of the matrix.
 - **Importance:** Used to calculate the determinant of a 3x3 matrix.
 
 #### Determinant of a 3x3 Matrix Using Cofactor Expansion
@@ -160,9 +184,12 @@ d \end{vmatrix}$ and cofactor of $b$ is $-
 - **Importance:** Used to find the inverse of a matrix, which is essential for solving systems of equations.
 
 #### Finding the Inverse of a 2x2 Matrix
+
 - **Formula:** A^{-1} = \frac{1}{\det(A)} \cdot
 
-\begin{bmatrix} d & -b \\ -c & a \end{bmatrix} — $A$ is a 2x2 matrix.
+\begin{bmatrix} d & -b \\ -c & a \end{bmatrix}
+
+— $A$ is a 2x2 matrix.
 - **Application:** Used to find the inverse of a 2x2 matrix.
 
 ### <a id="-core-concept-10-solving-systems-of-equations"></a>⚡ Core Concept 10: Solving Systems of Equations
@@ -199,7 +226,9 @@ d \end{vmatrix}$ and cofactor of $b$ is $-
 
 #### ⚡ Cofactor Expansion Along a Row or Column
 
-- **Formula:** \begin{vmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{vmatrix}
+- **Formula:**
+
+\begin{vmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{vmatrix}
 
 = a_{11}C_{11} + a_{12}C_{12} + a_{13}C_{13} — $C_{ij}$ is the cofactor of $a_{ij}$.
 - **Application:** Used to calculate the determinant of a matrix by expanding along a row or column using cofactors.

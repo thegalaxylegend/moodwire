@@ -49,7 +49,6 @@ practice_link: "/class-11/physics/semiconductor-electronics-class-12-notes"
 | V_{CE} = V_{CC} - \beta cdot I_B cdot R_C$ | Collector-Emitter Voltage (V_{CE}) in terms of Supply Voltage (V_{CC}), Current Gain (\beta), Base Current (I_B), and Collector Resistance (R_C) |
 | h_{fe} = \frac{I_C}{I_B}$ | Large Signal Current Gain (h_{fe}) in terms of Collector Current (I_C) and Base Current (I_B) |
 
-
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
 Identifying and correcting common mistakes is crucial to maximizing scores. The following are specific errors to watch out for in Semiconductor Electronics:
@@ -67,7 +66,6 @@ Identifying and correcting common mistakes is crucial to maximizing scores. The 
 Q: In a common base amplifier, the current gain is 0.95. If the emitter current is 10 mA, calculate the base current. 
 
 Trap in this question: Students often forget that the current gain (\beta) in a common base amplifier is less than 1.
-
 
  Solution: Given: $\beta = 0.95$, $I_e = 10 \times 10^{-3}$ A. The formula to calculate the base current is $I_b = I_e cdot (1 - \beta) / \beta$. Substituting the values, $I_b = (10 \times 10^{-3}) cdot (1 - 0.95) / 0.95 = (10 \times 10^{-3}) cdot (0.05) / 0.95 = 5.26 \times 10^{-4}$ A.
  Answer: $5.26 \times 10^{-4}$ A.

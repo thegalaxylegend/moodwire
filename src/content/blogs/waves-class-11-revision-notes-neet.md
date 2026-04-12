@@ -221,9 +221,9 @@ Where:
 ---
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&
 A)
-** Q1: Why does sound travel faster in [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than in gases?**
+**  Q1: Why does sound travel faster in [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than in gases?**
 
-**Answer:** The speed of sound is **v = √(E / ρ)**. Although solids are much denser than gases (which would decrease speed), their elasticity (E) is significantly higher. Since elasticity dominates the equation, sound travels ~15 times faster in solids than in air.
+**Answer:** The speed of sound is **v = √(E / ρ)**. Although [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) are much denser than gases (which would decrease speed), their elasticity (E) is significantly higher. Since elasticity dominates the equation, sound travels ~15 times faster in [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than in air.
 
 **Q2: What is Laplace's correction and why was Newton wrong?**
 **Answer:** Newton assumed sound travel was isothermal, but the compressions and rarefactions of a sound wave happen so rapidly that heat does not have time to escape. This makes it an **Adiabatic** process. Laplace corrected this by multiplying pressure by **γ** (ratio of specific heats), bringing the theoretical value in line with experimental results.
@@ -266,7 +266,7 @@ Waves are the signature of the universe's energy. By mastering the mathematical 
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Thermodynamics Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/thermodynamics-class-11-revision-notes-neet)
 - 📖 [Mathematical Induction Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)

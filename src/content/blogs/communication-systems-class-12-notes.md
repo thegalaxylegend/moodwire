@@ -27,27 +27,32 @@ practice_link: "/class-11/physics/communication-systems-class-12-notes"
 
 ## <a id="-what-will-come-in-your-exam"></a>🎯 What WILL Come in Your Exam
 * 1 numerical on signal-to-noise ratio (SNR) -- always 
-* Amplitude Modulation (AM) wave equation: $A_{\total}(t) = A_c \\cos(\omega_c t) + A_m \\cos(\omega_m t)$ -- derivation and explanation required
+* Amplitude Modulation (AM) wave equation: $A_{\total}(t) = A_c \cos(\omega_c t) + A_m \cos(\omega_m t)$ -- derivation and explanation required
 * Frequency Modulation (FM) and Phase Modulation (PM) waveforms -- identification and comparison
 * Comparison of AM and FM -- always 2 marks
 * Basic block diagram of a communication system -- transmitter, receiver, and channel
 * $SNR = \frac{P_{signal}}{P_{noise}}$ -- formula must be stated
 * Bandwidth and frequency allocation -- 1 mark
-* Standard AM waveform $y(t) = A_c \\cos(\omega_c t) + A_m \\cos(\omega_m t)$ -- sketching and explanation
+* Standard AM waveform $y(t) = A_c \cos(\omega_c t) + A_m \cos(\omega_m t)$ -- sketching and explanation
 * Definition and explanation of terms: attenuation, amplification, and modulation index -- always 1 mark
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
 | Formula | Variables |
 | --- | --- |
+
 | \text{Signal-to-Noise Ratio (SNR)} = \frac{P_s}{P_n} | P_s: Signal Power, P_n: Noise Power |
+
 | \text{Bandwidth (B)} = f_h - f_l | f_h: Higher Frequency, f_l: Lower Frequency |
+
 | \text{Channel Capacity (C)} = B \times \log_2(1 + \frac{S}{N}) | B: Bandwidth, S: Signal Power, N: Noise Power |
+
 | \text{Shannon-Hartley Theorem: } C = B \times \log_2(1 + \frac{P_s}{P_n}) | C: Channel Capacity, B: Bandwidth, P_s: Signal Power, P_n: Noise Power |
+
 | \text{Bit Error Rate (BER)} = \frac{1}{2} \times \text{erfc}\left(\sqrt{\frac{E_b}{N_0}}\right) | E_b: Energy per Bit, N_0: Noise Power Spectral Density |
+
 | \text{Nyquist Rate: } f_s = 2B | f_s: Sampling Frequency, B: Bandwidth |
 | \text{Sampling Theorem: } f_s \geq 2f_m | f_s: Sampling Frequency, f_m: Maximum Frequency |
-
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 

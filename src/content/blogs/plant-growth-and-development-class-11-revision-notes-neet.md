@@ -84,7 +84,7 @@ I still remember the mistake I made in my [class](/blog/morphology-of-flowering-
 ## <a id="core-concepts"></a>Core Concepts
 
 ### <a id="plant-hormones"></a>Plant Hormones
-Plant hormones are chemical messengers that regulate plant growth and development. The five major types of plant hormones are:
+[plant](/blog/plant-kingdom-class-11-revision-notes-neet) hormones are chemical messengers that regulate [plant](/blog/plant-kingdom-class-11-revision-notes-neet) growth and development. The five major types of [plant](/blog/plant-kingdom-class-11-revision-notes-neet) hormones are:
 * Auxins: promote cell elongation and cell division
 * Gibberellins: promote seed germination and stem elongation
 * Cytokinins: promote cell division and differentiation
@@ -96,7 +96,7 @@ The formula for auxin-induced cell elongation is: $\frac{dL}{dt} = k \cdot \frac
 ### <a id="photoperiodism"></a>Photoperiodism
 Photoperiodism is the response of [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) to the length of daylight. [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) can be classified into three categories based on their photoperiodic response:
 * Short-day [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet): flower in response to short days
-* Long-day plants: flower in response to long days
+* Long-day [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet): flower in response to long days
 * Day-neutral plants: flower regardless of day length
 
 The formula for photoperiodic response is: $\frac{dF}{dt} = k \cdot \frac{dD}{dt}$, where $F$ is the flowering response, $D$ is the day length, and $k$ is a constant.

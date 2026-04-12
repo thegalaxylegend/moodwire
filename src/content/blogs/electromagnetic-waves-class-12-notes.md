@@ -67,7 +67,7 @@ With these prerequisites in mind, let's the world of [electromagnetic](/blog/ele
 | Microwaves | $10^{-3}$ m to $10^{-1}$ m | $3 \times 10^{9}$ Hz to $3 \times 10^{12}$ Hz |
 | Radio Waves | $10^{-1}$ m to $10^{5}$ m | $3 \times 10^{5}$ Hz to $3 \times 10^{9}$ Hz |
 
-Some of the key concepts related to electromagnetic waves that we'll be exploring in this topic include:
+Some of the key concepts related to [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) waves that we'll be exploring in this topic include:
 
 * **[wave](/blog/wave-optics-class-12-notes) propagation**: The way electromagnetic waves travel through a medium, including the speed of propagation and the behavior of waves at boundaries.
 * **Reflection and refraction**: The behavior of electromagnetic waves when they encounter a surface or a change in medium, including the laws of reflection and refraction.
@@ -77,13 +77,16 @@ Some of the key concepts related to electromagnetic waves that we'll be explorin
 Some of the key terms and formulas that we'll be using in this topic include:
 
 * **Speed of light**: $c = 3 \times 10^{8}$ m/s
-* **Electromagnetic wave equation**: \frac{\partial^2 E}{\partial x^2} = \mu_0 \epsilon_0 \frac{\partial^2 E}{\partial t^2}
+
+* **Electromagnetic [wave](/blog/wave-optics-class-12-notes) equation**: \frac{\partial^2 E}{\partial x^2} = \mu_0 \epsilon_0 \frac{\partial^2 E}{\partial t^2}
+
+
 * **Wave number**: $k = \frac{2 \pi}{\lambda}$
 * **Frequency**: $f = \frac{c}{\lambda}$
 
 As we explore the world of electromagnetic waves, we'll be using a combination of theoretical concepts, mathematical derivations, and practical examples to deepen our understanding of this fascinating topic. By the end of this journey, you'll have a solid grasp of the principles of electromagnetic waves and be well-prepared to tackle the challenges of the [class](/blog/magnetism-and-matter-class-12-notes) 12 Physics exam. 
 
-**Key Takeaway**: Electromagnetic waves are a crucial topic in Class 12 Physics, with a significant weightage in the exam. To succeed in this topic, it's essential to have a strong foundation in the prerequisites, including electric and magnetic fields, oscillations and waves, and Maxwell's equations. By mastering the concepts of electromagnetic waves, including wave propagation, reflection and refraction, interference and diffraction, and polarization, you'll be well-equipped to tackle the challenges of the exam and achieve a high score.
+**Key Takeaway**: Electromagnetic waves are a crucial topic in [class](/blog/magnetism-and-matter-class-12-notes) 12 Physics, with a significant weightage in the exam. To succeed in this topic, it's essential to have a strong foundation in the prerequisites, including electric and magnetic fields, oscillations and waves, and Maxwell's equations. By mastering the concepts of electromagnetic waves, including wave propagation, reflection and refraction, interference and diffraction, and polarization, you'll be well-equipped to tackle the challenges of the exam and achieve a high score.
 
 
 ## <a id="what-are-electromagnetic-waves"></a>What are Electromagnetic Waves?

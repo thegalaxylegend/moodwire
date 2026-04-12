@@ -173,7 +173,7 @@ If rain falls vertically (**v_r**) and a man moves horizontally (**v_m**):
 - **Conclusion:** The Horizontal Range is identical for complementary angles.
 
 **Q2: Why is centripetal acceleration called 'center-seeking'?**
-**Answer:** In Uniform Circular Motion, while the speed is constant, the velocity vector is always changing its direction to turn the object. This change (Δv) always points toward the center of the circle, as derived using vector subtraction.
+**Answer:** In Uniform Circular [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet), while the speed is constant, the velocity vector is always changing its direction to turn the object. This change (Δv) always points toward the center of the circle, as derived using vector subtraction.
 
 **Q3: A ball is dropped from a moving train. What is its trajectory as seen from (a) ground, (b) inside train?**
 **Answer:**

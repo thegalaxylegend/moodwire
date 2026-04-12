@@ -79,7 +79,7 @@ Electrostatics is the study of electric charges at rest, which involves the anal
 
 ## <a id="what-is-the-concept-of-electric-charge"></a>What is the concept of Electric Charge?
 
- Electric Charge is a fundamental physical property of matter that causes it to experience a force when placed in an electromagnetic field. It includes protons, electrons, and neutrons as key components. For Class 12 exam prep in 2026, the most important aspect is understanding the quantization of electric charge, which states that electric charge comes in discrete packets or quanta, and this concept is crucial for solving problems related to electrostatics.
+ Electric Charge is a fundamental physical property of matter that causes it to experience a force when placed in an [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) field. It includes protons, electrons, and neutrons as key components. For Class 12 exam prep in 2026, the most important aspect is understanding the quantization of electric charge, which states that electric charge comes in discrete packets or quanta, and this concept is crucial for solving problems related to electrostatics.
 
  The concept of electric charge is based on the idea that like charges repel each other, while opposite charges attract. This phenomenon can be explained by the electric field, which is a vector field that surrounds charged particles and exerts a force on other charged particles. The electric field is a fundamental concept in understanding the behavior of charged particles and is essential for solving problems related to electrostatics.
 

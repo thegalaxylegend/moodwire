@@ -83,8 +83,6 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
  - *Fix:* Recall that the use of $microbes$ in $biogas$ production has several advantages, including the production of a $clean$ and $renewable$ source of $energy$, the reduction of $waste$, and the generation of $organicfertilizer$. The $microbes$ involved in $biogas$ production include $methanogens$, which produce $methane$ ($CH_4$) through the reaction: CO_2 + 4H_2 \rightarrow CH_4 + 2H_2O
 
-
-
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 - **Q1:** What is the primary role of microbes in the production of antibiotics?
@@ -189,7 +187,7 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
           - $H_2O_2$ production in microbes for industrial applications
 
-          - \Delta G = \Delta H - T\Delta S for understanding the thermodynamics of microbial reactions
+- \Delta G = \Delta H - T\Delta S for understanding the thermodynamics of microbial reactions
 
         - **Key [processes](/blog/biotechnology-principles-and-processes-class-12-notes):** Understand the following [processes](/blog/biotechnology-principles-and-processes-class-12-notes) and their applications:
 

@@ -273,7 +273,7 @@ In the last 5 minutes of your study session, take a moment to:
 * Plan your next study session and set goals for what you want to achieve
 * Take a deep breath, relax, and visualize yourself acing your exams
 
-Remember, consistent practice and review are key to mastering solid-state chemistry. Stay focused, stay motivated, and you'll be on your way to becoming a Grandmaster of Chemistry!
+Remember, consistent practice and review are key to mastering solid-state [chemistry](/blog/surface-chemistry-class-12-notes). Stay focused, stay motivated, and you'll be on your way to becoming a Grandmaster of [chemistry](/blog/surface-chemistry-class-12-notes)!
 
 ---
 

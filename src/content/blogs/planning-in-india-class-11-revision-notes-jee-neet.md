@@ -53,7 +53,7 @@ Planning in India is a process of formulating and implementing plans for the dev
 
 | Plan | Duration | Focus |
 | --- | --- | --- |
-| First Five-Year Plan | 1951-1956 | Agriculture and irrigation |
+| First Five-Year Plan | 1951-1956 | [agriculture](/blog/agriculture-class-11-revision-notes-neet) and irrigation |
 | Second Five-Year Plan | 1956-1961 | Rapid industrialization |
 | Third Five-Year Plan | 1961-1966 | Growth with stability |
 

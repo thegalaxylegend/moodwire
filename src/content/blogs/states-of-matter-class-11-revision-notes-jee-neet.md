@@ -178,7 +178,10 @@ P_{total} = P_1 + P_2 + P_3 + ...P_i = X_i \times P_{total} where $X_i$ = mole f
 
 **Graham's Law states that the rate of diffusion or effusion of a gas is inversely proportional to the square root of its molar mass.**
 
+
 \frac{r_1}{r_2} = \sqrt{\frac{M_2}{M_1}}
+
+
 
 **JEE Trick**: This means lighter gases diffuse faster. $H_2$ diffuses 4× faster than $O_2$ (since $\sqrt{32/2} = 4$).
 
@@ -221,7 +224,10 @@ P_{total} = P_1 + P_2 + P_3 + ...P_i = X_i \times P_{total} where $X_i$ = mole f
 **Real Gases are actual gases that deviate from ideal gas behavior due to intermolecular attractions and the finite volume of gas molecules.**
 
 ### <a id="the-compressibility-factor-z"></a>The Compressibility Factor (Z)
+
 Z = \frac{PV}{nRT}
+
+
 
 | Z Value | Meaning | Dominant Force | Condition |
 |:---:|:---|:---|:---|
@@ -242,7 +248,10 @@ Z = \frac{PV}{nRT}
 
 **The van der Waals Equation is a modified form of the ideal gas equation that accounts for the finite size of molecules (volume correction 'b') and intermolecular attractions (pressure correction 'a').**
 
+
 \left[P + \frac{an^2}{V^2}\right](V - nb) = nRT
+
+
 
 | Constant | Meaning | Higher value means |
 |:---|:---|:---|
@@ -390,7 +399,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Equilibrium Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/equilibrium-class-11-revision-notes-jee-neet)
 - 📖 [Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/structure-of-atom-class-11-revision-notes-jee-neet)

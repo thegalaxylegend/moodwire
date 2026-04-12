@@ -75,7 +75,7 @@ I've found that understanding the basics of reflection, refraction, and total in
 
 - **Reflection and Refraction**: 1-2 questions in JEE Main, 1 question in JEE Advanced, and 1-2 questions in [neet](/blog/art-culture-architecture-class-11-revision-notes-jee-neet).
 - **Mirrors and Lenses**: 2-3 questions in JEE Main, 1-2 questions in JEE Advanced, and 2-3 questions in [neet](/blog/art-culture-architecture-class-11-revision-notes-jee-neet).
-- **Optical Instruments**: 1-2 questions in JEE Main, 1 question in JEE Advanced, and 1-2 questions in NEET.
+- **Optical Instruments**: 1-2 questions in JEE Main, 1 question in JEE Advanced, and 1-2 questions in [neet](/blog/indian-geography-physical-class-11-revision-notes-jee-neet).
 
 
 

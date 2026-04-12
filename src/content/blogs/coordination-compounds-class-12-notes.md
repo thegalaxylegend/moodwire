@@ -38,12 +38,11 @@ practice_link: "/class-11/chemistry/coordination-compounds-class-12-notes"
 
 * Spectrochemical series and the factors affecting the crystal field splitting energy (\Delta) will be examined, including 1 question on the effect of ligand field strength on the spectra of transition metal complexes.
 
-
 * The stability of coordination compounds, including the chelate effect and the influence of hard and soft acids and bases, will be tested, with 1 question on the relative stability of complexes with different ligands and metal ions.
 =======
 
 - **Isomerism in Coordination Compounds**: at least 1 question on geometrical isomerism, always
-- **Valence Bond Theory (VBT)**: 1 numerical on VBT, focusing on hybridization and magnetic nature, every year
+- **Valence Bond Theory (VBT)**: 1 numerical on VBT, focusing on hybridization and magnetic [nature](/blog/dual-nature-of-radiation-class-12-notes), every year
 - **Crystal Field Theory (CFT)**: 1-2 questions on CFT, including $\Delta_o$ and $\Delta_t$ calculations, always
 - **Weak Field and Strong Field Ligands**: identification and explanation of weak and strong field ligands, frequently examined
 - **Magnetic Moment Calculations**: 1 numerical on calculating magnetic moment using spin-only formula, always
@@ -229,7 +228,7 @@ The following are 3 solved past year questions related to the topic of Coordinat
 
  Therefore, the complex $left[ Ni \left( CN \right)_{4} \right]^{2-}$ is diamagnetic.
 
- \mu = \sqrt{n \left( n + 2 \right)}\mu = \sqrt{0 \left( 0 + 2 \right)} = 0
+\mu = \sqrt{n \left( n + 2 \right)}\mu = \sqrt{0 \left( 0 + 2 \right)} = 0
 
  - **Answer:** $0$
 
@@ -371,7 +370,7 @@ Last-minute review for Coordination Compounds:
 
  - (\Delta_{tet})_{CFSE} = -0.12 \	imes \Delta_{0} for tetrahedral complexes with $d^8$ configuration
 
- - CFSE = -0.4 \	imes \Delta_{0} - P for pairing energy in low-spin complexes
+- CFSE = -0.4 \	imes \Delta_{0} - P for pairing energy in low-spin complexes
 
  - Key facts:
 

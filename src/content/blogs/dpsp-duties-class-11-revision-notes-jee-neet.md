@@ -90,7 +90,7 @@ b) To ensure economic growth and development
 c) To protect the environment
 d) To promote international peace and security
 
-**Answer:** a) To promote social justice and equality. The Directive Principles of State Policy aim to promote social and economic justice, as well as equality among citizens. This is a fundamental aspect of Indian Polity, and understanding this objective is crucial for exam prep.
+**Answer:** a) To promote social justice and equality. The Directive Principles of State Policy aim to promote social and economic justice, as well as equality among citizens. This is a fundamental aspect of [indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Polity, and understanding this objective is crucial for exam prep.
 
 2. Which of the following is a duty of citizens under the Constitution of India?
 a) To pay taxes

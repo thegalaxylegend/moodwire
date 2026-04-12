@@ -233,7 +233,7 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 ## 🪤 The 5 Mistakes That Cost Marks
 
 * In the expansion of $(a + b)^no, a common mistake is to assume that the coefficients of the terms are symmetric, i.e., AT_{r+1} = T_n - T_{n-r}$. However, the correct relationship is AT_{r+1} = ^NC_r dot a^{n-r} dot b^RJ.
-* Students often forget that the binomial theorem is applicable for any real number 'n', not just positive integers. The expansion of $(a + b)^no is valid for all real values of 'n'.
+* Students often forget that the binomial theorem is applicable for any real number 'n', not just positive integers. The expansion of $(a + b)^now is valid for all real values of 'n'.
 * A common error is to assume that the binomial theorem can only be applied when 'a' and 'b' are integers. However, 'a' and 'b' can be any real numbers, including fractions and decimals.
 * Many students mistakenly believe that the binomial coefficients $^NC_RJ are always integers. However, this is not true for all values of 'n' and 'r'. For example, $^NC_RJ can be a fraction when 'n' is not an integer.
 * Another trap is to forget that the binomial theorem can be used to find the expansion of expressions like $(a - b)^no by substituting $-by for by in the original expansion formula, i.e., $(a - b)^n = (a + (-b))^no.
@@ -243,7 +243,7 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 ### Binomial Theorem Revision
    * **Binomial Theorem Formula**: ((a + b)^n = sum_{k=0}^{n} IOM{n}{k}a^{n-k}b^{k})
    * **Binomial Coefficient**: (IOM{n}{k} = RAC{n!}{k!(n-k)!})
-   * **Properties of Binomial Coefficients**:
+   * **[properties](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) of Binomial Coefficients**:
      + (IOM{n}{k} = IOM{n}{n-k})
      + (IOM{n}{0} = IOM{n}{n} = 1)
    * **Important Results**:

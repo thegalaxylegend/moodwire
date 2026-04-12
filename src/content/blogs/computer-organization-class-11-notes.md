@@ -66,7 +66,7 @@ To excel in the exam, it's crucial to develop a deep understanding of these topi
 
 * **Instruction Set Architecture (ISA)**: The set of instructions that a computer's processor can execute.
 * **Pipelining**: A technique used to improve the performance of a computer by breaking down instructions into a series of stages.
-* **Cache Memory**: A small, fast memory that stores frequently accessed data.
+* **Cache Memory**: A small, fast memory that stores frequently accessed [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards).
 * **Virtual Memory**: A memory management technique that enables a computer to use secondary storage devices, such as hard drives, to supplement its main memory.
 
 Throughout this exam prep journey, we'll explore these topics in detail, using a combination of theoretical explanations, examples, and practice problems. By the end of this course, you'll have a thorough understanding of Computer Organization and be well-prepared to tackle the challenges of the [class](/blog/digital-logic-class-11-revision-notes-gate-boards) 11 exam.
@@ -89,7 +89,7 @@ On the day of the exam, it's essential to be well-prepared and confident in your
 
 Computer Organization is the way in which a computer's hardware and software components are arranged and interact with one another to achieve the desired functionality. It includes the **Central Processing Unit (CPU)**, **Memory**, and **Input/Output (I/O) devices**. For Class 11 exam prep in 2026, the most important aspect is understanding the $CPU$ architecture and its role in executing instructions.
 
-The CPU, also known as the brain of the computer, is responsible for executing most instructions that a computer receives. It consists of several key components, including the **Control Unit**, **Arithmetic Logic Unit (ALU)**, and **Registers**. The Control Unit retrieves and decodes instructions, while the ALU performs mathematical and logical operations. Registers, on the other hand, are small amounts of on-chip memory that store data temporarily while it is being processed.
+The CPU, also known as the brain of the computer, is responsible for executing most instructions that a computer receives. It consists of several key components, including the **Control Unit**, **Arithmetic [logic](/blog/digital-logic-class-11-revision-notes-gate-boards) Unit (ALU)**, and **Registers**. The Control Unit retrieves and decodes instructions, while the ALU performs mathematical and logical operations. Registers, on the other hand, are small amounts of on-chip memory that store data temporarily while it is being processed.
 
 Memory, another crucial component of computer organization, refers to the storage locations that hold data and programs. It can be classified into two main categories: **Main Memory (RAM)** and **Secondary Memory (ROM)**. Main Memory is volatile, meaning that its contents are lost when the computer is powered off, whereas Secondary Memory is non-volatile, retaining its data even after the computer is shut down.
 

@@ -88,7 +88,7 @@ From Days 6 to 20, rotate your subjects to respect your biological clock. Use th
 
 ## <a id="subjectspecific-hacks-for-top-scores"></a>Subject-Specific Hacks for Top Scores
 
-Every subject requires a tailored approach. For Mathematics, stop looking at **NCERT solutions** and focus on writing every formula from memory each morning. Science success depends on practicing reactions and labeling diagrams from memory rather than just looking at them.
+Every subject requires a tailored approach. For Mathematics, stop looking at **NCERT solutions** and focus on writing every formula from memory each morning. [science](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet) success depends on practicing reactions and labeling diagrams from memory rather than just looking at them.
 
 For Social Science, History is about sequence, not just stories. Create a timeline of major events to make dates easier to remember. These small adjustments in study style are what separate 80% students from those scoring 95% and above.
 
@@ -124,7 +124,7 @@ Yes, if you focus on mastery rather than just reading. Use **previous year paper
 Aim for at least 15 mock tests (5 per major subject). This builds the stamina needed for the 3-hour exam and helps you avoid "silly mistakes."
 
 ### <a id="3-what-if-i-am-weak-in-mathematics"></a>3. What if I am weak in Mathematics?
-Focus on the "Safe Zone" chapters like Statistics and Probability first. These carry high weightage and are easier to master, ensuring you secure a solid foundation before moving to tougher topics like Trigonometry.
+Focus on the "Safe Zone" chapters like Statistics and Probability first. These carry [high](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) weightage and are easier to master, ensuring you secure a solid foundation before moving to tougher topics like Trigonometry.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

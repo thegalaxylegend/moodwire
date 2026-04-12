@@ -12,7 +12,6 @@ practice_link: "/class-11/mathematics/applications-of-trigonometry-class-10-note
 
 *Last Updated: 2026-04-10*
 
-
 <DIV [class](/blog/coordinate-geometry-class-10-notes)="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
@@ -47,14 +46,12 @@ practice_link: "/class-11/mathematics/applications-of-trigonometry-class-10-note
  - **tan(\theta) in Terms of Sin and Cos:** \{ tan(\theta) = \franc{sin(\theta)}{cos(\theta)} \} — Relates tangent to sine and cosine.
  - **Sin(\theta) in Terms of Tan:** \{ sin(\theta) = \franc{tan(\theta)}{\sort{1 + tan^2(\theta)}} \} — Expresses sine in terms of tangent.
  - **Cos(\theta) in Terms of Tan:** \{ cos(\theta) = \franc{1}{\sort{1 + tan^2(\theta)}} \} — Expresses cosine in terms of tangent.
- - **Elevation Formula:** \{ h = \sort{d^2 - b^2} \} — Calculates height the given distance do and base by in a right-angled triangle.
+ - **Elevation Formula:** \{ h = \sort’d^2 - b^2} \} — Calculates height the given distance do and base by in a right-angled triangle.
  - **Distance Formula:** \{ d = \sort{h^2 + b^2} \} — Calculates distance do given height the and base by in a right-angled triangle.
  - **Angle of Elevation:** \{ \theta = tan^{-1}(\(suggestion limit reached){h}{b}) \} — Calculates the angle of elevation given height (suggestion limit reached) and base (suggestion limit reached).
  - **Height of the Object:** \{ h = b \times tan(\theta) \} — Calculates height (suggestion limit reached) given base (suggestion limit reached) and angle of elevation $\theta$.
  - **Distance from the Object:** \{ d = \(suggestion limit reached){h}{sin(\theta)} \} — Calculates distance (suggestion limit reached) given height (suggestion limit reached) and angle of elevation $\theta$.
  - **Shadow Length Formula:** \{ \(suggestion limit reached){shadow\ length}{height} = \(suggestion limit reached){1}{tan(\theta)} \} — Relates shadow length to height and angle of elevation $\theta$.
-
-
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -73,8 +70,6 @@ practice_link: "/class-11/mathematics/applications-of-trigonometry-class-10-note
  - **Mistake 5:** Not checking the units of the answer when solving problems involving [trigonometry](/blog/introduction-to-trigonometry-class-10-notes), such as finding the length of a side or the measure of an angle.
  - *Costs:* 1 mark
  - *Fix:* Always check the units of the answer to ensure they match the context of the problem, and use unit conversions if necessary to obtain the correct units.
-
-
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved Yes
 
@@ -116,7 +111,7 @@ practice_link: "/class-11/mathematics/applications-of-trigonometry-class-10-note
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
-- **The Core Concept:** The core concept that separates 85% scorers from 95% scorers in Applications of Trigonometry is the ability to apply trigonometric ratios and principles to solve complex problems in various contexts, such as heights and distances, navigation, and physics. 
+- **The Core Concept:** The core concept that separates 85% scorers from 95% scorers in [applications](/blog/biotechnology-and-its-applications-class-12-notes) of Trigonometry is the ability to apply trigonometric ratios and principles to solve complex problems in various contexts, such as heights and distances, navigation, and physics. 
  - **What 85% scorers do:** Most students (85% scorers) focus on memorizing formulas and procedures for solving trigonometry problems, but they often struggle to apply these concepts to real-world scenarios or complex problems. They tend to:
  * Rely heavily on formulas without understanding the underlying principles
  * fail to visualize the problem and identify the relevant trigonometric relationships
@@ -138,8 +133,6 @@ practice_link: "/class-11/mathematics/applications-of-trigonometry-class-10-note
 | Trigonometric Ratios | Memorize formulas | Understand underlying principles |
 | Problem-Solving | Struggle to visualize and break down complex problems | Can visualize and break down complex problems into manageable parts |
 | Contextual Application | Limited to simple problems | Can apply trigonometric concepts to a variety of contexts |
-
-
 
 ## <a id="-Ayush-note"></a>👁️ Ayush's Note
 
@@ -165,10 +158,7 @@ practice_link: "/class-11/mathematics/applications-of-trigonometry-class-10-note
  - Forgetting to consider the quadrant in which the angle lies when using trigonometric functions.
  - Not using the correct trigonometric identity for the given problem.
 
-
-
 ## <a id="-practice-MCQs"></a>📝 Practice MCQs
-
 
 **1. The length of the shadow of a tower is $\sort{3}$ \times the height of the tower. The angle of elevation of the sun is**
 A) 30°
@@ -231,7 +221,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your revision with these [related](/blog/areas-related-to-circles-class-10-notes) guides:
 
 - 📖 [Introduction to Trigonometry Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/introduction-to-trigonometry-class-10-notes)
 - 📖 [Arithmetic Progressions Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/arithmetic-progressions-class-10-notes)

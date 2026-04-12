@@ -169,7 +169,7 @@ Continue your [revision](/blog/3d-geometry-intro-class-11-revision-notes-jee-nee
 ## 🔁 Last 5 Minutes Box
 
 * **Computer Systems**: CPU, Input/Output Devices, Storage Devices
-* **Programming Concepts**: Variables, Data Types, Operators, Control Structures
+* **Programming Concepts**: Variables, [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) Types, Operators, Control Structures
 * **Python Programming**: Lists, Tuples, Dictionaries, Functions, Modules
 * **Database Management**: DBMS, Tables, Queries, Indexing
 * **Networking Fundamentals**: LAN, WAN, Wi-Fi, TCP/IP, HTTP
@@ -177,4 +177,4 @@ Continue your [revision](/blog/3d-geometry-intro-class-11-revision-notes-jee-nee
 * **AI and Machine Learning**: Introduction, Types, Applications, Future Scope
 * **Algorithmic Thinking**: Problem Solving, Flowcharts, Pseudocode
 * **Web Development**: HTML, CSS, JavaScript, Frameworks
-* **Data Analysis and Visualization**: Statistics, Graphs, Charts, Plots
+* **Data [analysis](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) and Visualization**: Statistics, Graphs, Charts, Plots

@@ -39,13 +39,15 @@ practice_link: "/class-11/physics/nuclei-class-12-notes"
 
 | Formula | Variable Meaning |
 | --- | --- |
+
 | E = \Delta mc^2 | E: Energy, \Delta m: Mass defect, c: Speed of light |
+
 | \lambda = \frac{h}{m v} | \lambda: De Broglie wavelength, h: Planck's constant, m: Mass, v: Velocity |
+
 | R = R_0 A^{\frac{1}{3}} | R: Nuclear radius, $R_0$: Constant, A: Mass number |
 | E_{binding} = \frac{3}{5} \frac{3 Z^2 e^2}{4 \pi \epsilon_0 R} | $E_{binding}$: Binding energy, Z: Atomic number, e: Charge, $\epsilon_0$: Permittivity |
 | \frac{N}{N_0} = e^{-\lambda t} | N: Number of nuclei, $N_0$: Initial number, \lambda: Decay constant, t: Time |
 | T_{\frac{1}{2}} = \frac{0.693}{\lambda} | $T_{\frac{1}{2}}$: Half-life, \lambda: Decay constant |
-
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 

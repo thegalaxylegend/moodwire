@@ -65,6 +65,7 @@ practice_link: "/class-11/chemistry/polymers-class-12-notes"
 
 \Delta E = \Delta H - T\Delta S
 
+
  Internal Energy Change. $\Delta E$: Change in internal energy, $\Delta H$: Change in enthalpy, $T$: Temperature in Kelvin, $\Delta S$: Change in entropy.
  
  $

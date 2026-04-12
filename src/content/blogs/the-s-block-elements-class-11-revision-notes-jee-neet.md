@@ -71,7 +71,7 @@ The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) el
 
 ## <a id="why-this-chapter-matters"></a>Why This Chapter Matters
 
-This chapter is important because it helps us understand the properties and behavior of the s-block elements. In JEE Mains 2026 Session 1, 3 questions came from this topic. Understanding the s-block elements is crucial for solving problems related to chemical bonding, electrochemistry, and chemical reactions.
+This chapter is important because it helps us understand the properties and behavior of the s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements. In JEE Mains 2026 Session 1, 3 questions came from this topic. Understanding the s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements is crucial for solving problems related to chemical bonding, electrochemistry, and chemical reactions.
 
 
 
@@ -105,7 +105,10 @@ The s-block elements have several properties that make them unique. They are hig
 ## <a id="shortcut-formula-trick"></a>Shortcut Formula / Trick
 
 One shortcut formula that can be used to remember the properties of the s-block elements is:
+
 \text{Reactivity} \propto \frac{1}{\text{Ionization Energy}}
+
+
 This formula states that the reactivity of an element is inversely proportional to its ionization energy. This means that elements with low ionization energy are highly reactive, while elements with high ionization energy are less reactive.
 
 
@@ -194,7 +197,7 @@ Last Updated: March 15, 2026
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/environmental-chemistry-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [The P Block Elements 11 Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet)
 - 📖 [Physical World Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/physical-world-class-11-revision-notes-jee-neet)

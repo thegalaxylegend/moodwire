@@ -85,7 +85,7 @@ I still remember when I was preparing for JEE, I used to get confused between th
 [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet) Kingdom is divided into several divisions based on characteristics such as vascular tissue, seeds, and flowers. The main divisions are:
 * Bryophyta: Non-vascular [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) such as mosses and liverworts.
 * Tracheophyta: Vascular [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) such as ferns, conifers, and flowering [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet).
-* Pteridophyta: Vascular plants that produce spores, such as ferns.
+* Pteridophyta: Vascular [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) that produce spores, such as ferns.
 * Gymnosperms: Vascular plants that produce seeds, such as conifers.
 * Angiosperms: Vascular plants that produce flowers and seeds, such as flowering plants.
 
@@ -99,7 +99,7 @@ The [classification](/blog/biological-classification-class-11-revision-notes-nee
 
 ## <a id="shortcut-formula-trick"></a>Shortcut Formula / Trick
 
-To remember the different plant groups, you can use the following trick:
+To remember the different [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet) groups, you can use the following trick:
 * Bryophyta: Non-vascular plants, no seeds, no flowers.
 * Tracheophyta: Vascular plants, may or may not have seeds, may or may not have flowers.
 * Pteridophyta: Vascular plants, produce spores.

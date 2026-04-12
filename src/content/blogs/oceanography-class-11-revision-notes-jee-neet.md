@@ -129,7 +129,7 @@ To deepen your understanding of oceanography, explore the connections between co
 2. **Ocean Currents and Tides**: Recognize the interplay between surface and deep-water currents, as well as tidal forces, in shaping our ocean.
 3. **Hydrosphere and Oceanic Zones**: Appreciate the [complex](/blog/complex-numbers-class-11-revision-notes-jee-neet) relationships between the hydrosphere, oceanic zones, and the Earth's climate system.
 
-By recognizing these connections, you'll develop a more nuanced and comprehensive understanding of oceanography, enabling you to tackle complex questions and problems with ease. 
+By recognizing these connections, you'll develop a more nuanced and comprehensive understanding of oceanography, enabling you to tackle [complex](/blog/complex-numbers-class-11-revision-notes-jee-neet) questions and problems with ease. 
 
 ### <a id="formulae-derivations"></a>Formulae Derivations
 To reinforce your grasp of key formulae, derive them from first principles:
@@ -171,7 +171,7 @@ As you revise and practice oceanography, keep the following tips in mind:
 1. **Focus on Core Concepts**: Develop a strong foundation in the core concepts and principles.
 2. **Practice Regularly**: Regular practice helps reinforce your understanding and builds confidence.
 3. **Review and Reflect**: Regularly review what you've learned and reflect on areas where you need improvement.
-4. **Stay Organized**: Keep your study materials and notes organized, making it easier to review and practice.
+4. **Stay Organized**: Keep your study materials and [notes](/blog/biogeography-class-11-revision-notes-neet) organized, making it easier to review and practice.
 
 By following these tips, you'll be well on your way to mastering oceanography and achieving success in your Class 11 geography studies. 
 

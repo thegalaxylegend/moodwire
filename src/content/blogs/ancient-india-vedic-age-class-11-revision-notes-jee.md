@@ -77,7 +77,7 @@ As I the world of Ancient [India](/blog/medieval-india-bhakti-sufi-class-11-revi
 The following are key concepts related to the Vedic Age:
 - **Rig Vedic Period**: Characterized by the composition of the rigged and the establishment of the Vedic religion.
 - **Later Vedic Period**: Saw the development of the Varnashrama System and the rise of Jacarandas.
-- **Vedas**: Ancient Indian texts that are considered sacred in Hinduism.
+- **Vedas**: [ancient](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) Indian texts that are considered sacred in Hinduism.
 - **Varnashrama System**: A social hierarchy that divided society into four Vargas.
 - **Jacarandas**: Small kingdoms or territories that emerged during the Later Vedic Period.
 
@@ -93,7 +93,7 @@ While there are no specific mathematical formulae related to the Vedic Age, the 
 
 ## <a id="keenest-data"></a>JEE/MEET Data
 
-For students preparing for JEE/MEET, it's essential to note that the Vedic Age is not directly related to the syllabus. However, understanding the historical context of India can help in developing a broader perspective, which can be beneficial in various aspects of the examination, including the general knowledge section.
+For students preparing for JEE/MEET, it's essential to note that the Vedic Age is not directly related to the syllabus. However, understanding the historical context of [india](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse) can help in developing a broader perspective, which can be beneficial in various aspects of the examination, including the general knowledge section.
 
 ## <a id="trap-exceptions"></a>Trap Exceptions
 

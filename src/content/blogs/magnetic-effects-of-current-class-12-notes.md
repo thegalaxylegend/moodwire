@@ -47,12 +47,12 @@ From a personal standpoint, I still remember the "aha" moment when I first grasp
 
 To truly appreciate the **Magnetic Effects of [current](/blog/alternating-current-class-12-notes)**, it's essential to have a solid foundation in the following prerequisites:
 * **Electric [current](/blog/alternating-current-class-12-notes)**: A thorough understanding of electric [current](/blog/alternating-current-class-12-notes), including the concepts of [current](/blog/alternating-current-class-12-notes) density, drift velocity, and the behavior of free electrons in a conductor.
-* **Magnetic Fields**: Familiarity with the basics of magnetic fields, including the properties of magnetic field lines, the right-hand rule, and the behavior of magnetic fields around permanent magnets and current-carrying conductors.
+* **Magnetic Fields**: Familiarity with the basics of magnetic fields, including the properties of magnetic field lines, the right-hand rule, and the behavior of magnetic fields around permanent magnets and [current](/blog/alternating-current-class-12-notes)-carrying conductors.
 * **[electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) Induction**: A basic understanding of [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) induction, including the concepts of induced emf, Lenz's Law, and the behavior of inductors in AC circuits.
 
 With these prerequisites in place, we can now embark on an in-depth exploration of **Magnetic Effects of Current**. This topic can be broadly categorized into the following subtopics:
 * **Magnetic Field Around a Current-Carrying Conductor**: This includes the study of the magnetic field around a straight wire, a circular coil, and a solenoid. We'll the mathematical derivations of the magnetic field strength and direction using **Ampere's Law** and the **Biot-Savart Law**.
-* **Force on a Current-Carrying Conductor**: Here, we'll examine the forces exerted on a current-carrying conductor when placed in a magnetic field. This includes the **Lorentz Force Equation** and the **Force on a Moving Charge**.
+* **Force on a Current-Carrying Conductor**: Here, we'll examine the forces exerted on a current-carrying conductor when placed in a magnetic field. This includes the **Lorentz Force Equation** and the **Force on a [moving](/blog/moving-charges-magnetism-class-11-revision-notes-neet) Charge**.
 * **Torque on a Current Loop**: We'll investigate the torque experienced by a current loop when placed in a magnetic field, including the **Torque on a Current Loop Equation** and its applications.
 * **Magnetic Moment and Magnetic [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)**: This subtopic covers the concepts of magnetic moment, magnetic [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet), and the behavior of magnetic materials in the presence of magnetic fields.
 
@@ -120,7 +120,7 @@ The Biot-Savart Law is a fundamental principle in physics that describes the mag
 
 ## <a id="what-are-the-properties-of-magnetic-lines-of-force"></a>What are the Properties of Magnetic Lines of Force?
 
-Magnetic Lines of Force is a concept used to visualize and understand the magnetic field around magnets and current-carrying conductors. It includes the direction, density, and pattern of these lines. For Class 12 exam prep in 2026, the most important aspect is understanding the properties and behavior of these lines to solve problems related to magnetic fields and forces.
+Magnetic Lines of Force is a concept used to visualize and understand the magnetic field around magnets and current-carrying conductors. It includes the direction, density, and pattern of these lines. For [class](/blog/magnetism-and-matter-class-12-notes) 12 exam prep in 2026, the most important aspect is understanding the properties and behavior of these lines to solve problems related to magnetic fields and forces.
 
 The properties of magnetic lines of force can be summarized as follows: they emerge from the north pole and enter the south pole, they cannot intersect each other, and they tend to contract in length and expand in a direction perpendicular to the lines, similar to stretched rubber bands. The density of these lines, also known as the magnetic flux density, is represented by the symbol $B$. The SI unit of $B$ is the tesla ($T$), and it is defined as $1 T = 1 \frac{kg}{s^2A}$.
 

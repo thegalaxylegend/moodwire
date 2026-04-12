@@ -181,7 +181,7 @@ Answer: c) Ethyne
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Cell Cycle And Cell Division Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet)
 - 📖 [Redox Reactions Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/redox-reactions-class-11-revision-notes-neet)

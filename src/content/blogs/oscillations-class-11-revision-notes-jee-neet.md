@@ -85,7 +85,7 @@ Nature is rhythmic. From the beating of a heart and the vibration of a guitar st
 
 ## <a id="2-simple-harmonic-motion-shm"></a>2. Simple Harmonic Motion (SHM)
 
-**Statement:** A type of motion where the restoring force **F** acting on the particle is proportional to displacement **x** from the mean position and points toward it.
+**Statement:** A type of [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) where the restoring force **F** acting on the particle is proportional to displacement **x** from the mean position and points toward it.
 **Formula: F = -kx** (where k is the force constant).
 
 ### <a id="derivation-projection-of-uniform-circular-motion-ucm"></a>Derivation: Projection of Uniform Circular Motion (UCM)

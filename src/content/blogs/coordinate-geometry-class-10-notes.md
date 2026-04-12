@@ -52,8 +52,6 @@ practice_link: "/class-11/mathematics/coordinate-geometry-class-10-notes"
  - **Length of a Line Segment:** \sqrt{{(x_2 - x_1)}^2 + {(y_2 - y_1)}^2} — Length of the line segment joining points $(x_1, y_1)$ and $(x_2, y_2)$
  - **Area of a Triangle (Coordinate Form):** \frac{1}{2} |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)| — Area of a triangle with vertices $(x_1, y_1)$, $(x_2, y_2)$, and $(x_3, y_3)$
 
-
-
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
 - **Mistake 1:** Incorrectly identifying the quadrant of a point in the coordinate plane.

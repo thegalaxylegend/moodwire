@@ -59,7 +59,7 @@ practice_link: "/class-11/biology/body-fluids-and-circulation-class-11-revision-
 
 
 
-The human body is composed of approximately 60% water, with a significant portion of it being distributed among various body fluids. These fluids play a crucial role in maintaining homeostasis, regulating body temperature, and facilitating the exchange of nutrients and waste products. The primary body fluids are blood, lymph, and interstitial fluid. Blood, which accounts for about 8% of the total body weight, is a connective tissue that consists of plasma and formed elements, such as red blood cells, white blood cells, and platelets.
+The human body is composed of approximately 60% water, with a significant portion of it being distributed among various body fluids. These fluids play a crucial role in maintaining homeostasis, regulating body temperature, and facilitating the [exchange](/blog/breathing-and-exchange-of-gases-class-11-revision-notes-neet) of nutrients and waste products. The primary body fluids are blood, lymph, and interstitial fluid. Blood, which accounts for about 8% of the total body weight, is a connective tissue that consists of plasma and formed elements, such as red blood cells, white blood cells, and platelets.
 
 
 
@@ -636,7 +636,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/neural-control-and-coordination-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Neural Control And Coordination Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/neural-control-and-coordination-class-11-revision-notes-neet)
 - 📖 [Digestion And Absorption Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/digestion-and-absorption-class-11-revision-notes-neet)
@@ -648,19 +648,19 @@ Continue your revision with these related guides:
 * Not understanding the concept of blood pressure, students often get confused between systolic and diastolic pressures. Systolic pressure is the pressure exerted by blood upon the vessel wall during ventricular systole, while diastolic pressure is the pressure exerted by blood upon the vessel wall during ventricular diastole.
 * Many students struggle to differentiate between open and closed circulatory systems. In an open circulatory system, blood bathes the organs directly, whereas in a closed circulatory system, blood never leaves the blood vessels.
 * Students often find it challenging to understand the concept of double circulation in humans, which includes both pulmonary and systemic circulation. Double circulation ensures that oxygenated and deoxygenated blood are kept separate, allowing for more efficient oxygen delivery to tissues.
-* A common mistake is not recognizing the importance of lymphatic circulation, which plays a crucial role in the immune system and the return of interstitial fluid to the blood.
+* A common mistake is not recognizing the importance of lymphatic circulation, which in the immune system and the return of interstitial fluid to the blood.
 * Another mistake is not being able to describe the regulation of blood flow and blood pressure, including the role of the autonomic nervous system, hormones like adrenaline, and local factors such as pH and carbon dioxide levels.
 
 ## 🔁 Last 5 Minutes Box
 
 ### Body Fluids and Circulation
-   * Blood: 5 liters (7% body weight), 55% plasma and 45% cells
-   * Plasma: 92% water, 7% proteins, 1% nutrients, waste, gases, etc.
-   * Erythrocytes (RBCs): 5 million/mm^3
-   * Leucocytes (WBCs): 6,000-8,000/mm^3
-   * Thrombocytes (Platelets): 1,50,000-3,50,000/mm^3
-   * Blood groups: ABO and Rh
-   * Heart: muscular, four-chambered (2 atria, 2 ventricles)
-   * Circulatory pathway: heart → arteries → arterioles → capillaries → venules → veins → heart
-   * Double circulation: pulmonary and systemic
-   * Lymphatic system: transports lymph, helps in immune response
+ * Blood: 5 liters (7% body weight), 55% plasma and 45% cells
+ * Plasma: 92% water, 7% proteins, 1% nutrients, waste, gases, etc.
+ * Erythrocytes (RBCs): 5 million/mm^3
+ * Leucocytes (WBCs): 6,000-8,000/mm^3
+ * Thrombocytes (Platelets): 1,50,000-3,50,000/mm^3
+ * Blood groups: ABO and Rh
+ * Heart: muscular, four-chambered (2 atria, 2 ventricles)
+ * Circulatory pathway: heart → arteries → arterioles → capillaries → venules → veins → heart
+ * Double circulation: pulmonary and systemic
+ * Lymphatic system: transports lymph, helps in immune response

@@ -39,9 +39,9 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
  - **Accord Similarity Index:** DJs = \franc{C}{A+B-C} — Where JSA is the Accord similarity index, ACT is the number of species common to both samples, A is the number of species in the first sample, and BY is the number of species in the second sample.
 
- - **Sorensen Similarity Index:** SS = \frac{2C}{A+B} — Where $SS$ is the Sorensen similarity index, $C$ is the number of species common to both samples, $A$ is the number of species in the first sample, and $B$ is the number of species in the second sample.
+ - **Sorensen Similarity Index:** SS = \franc{2C}{A+B} — Where USSR is the Sorensen similarity index, ACT is the number of species common to both samples, A is the number of species in the first sample, and BY is the number of species in the second sample.
 
- - **Jaccard Similarity Index:** JS = \frac{C}{A+B-C} — Where $JS$ is the Jaccard similarity index, $C$ is the number of species common to both samples, $A$ is the number of species in the first sample, and $B$ is the number of species in the second sample.
+ - **Accord Similarity Index:** JS = \franc{C}{A+B-C} — Where JSA is the Accord similarity index, ACT is the number of species common to both samples, A is the number of species in the first sample, and BY is the number of species in the second sample.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -74,8 +74,6 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
  - *Costs:* 3–4 marks for overlooking this critical factor in conservation.
 
  - *Fix:* Study the effects of invasive species on ecosystem balance and biodiversity. Remember that invasive species can outcompete native species for resources, leading to a decline in native species populations and potentially even extinctions. This can be represented by the equation $\franc{dN}{dt} = RN \left(1 - \franc{N}{K}\right)$, where AND is the population size, are is the intrinsic growth rate, and OK is the carrying capacity, which can be altered by the presence of invasive species.
-
-
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved Yes
 
@@ -138,7 +136,6 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
  
 \franc{dS}{dt} = I - ES
 
-
  They also consider the role of other factors such as habitat diversity, climate, and [human](/blog/human-health-and-disease-class-12-notes) activities in shaping biodiversity. Furthermore, they can apply the concept of Island Biogeography to real-world scenarios, such as the design of nature reserves and the conservation of endangered species.
 
  - **Key Formulas:**
@@ -168,8 +165,6 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 | Species-Area Curve | IS = ca^Zn | Describes the relationship between species richness and island size |
 | Immigration and Extinction Rates | I = \franc{I_0}{A}$ and HE = \franc{E_0}{A}$ | Describe the rates at which species immigrate to and go extinct on an island |
 
-
-
 ## <a id="-Ayush-note"></a>👁️ Ayush's Note
 
 👁️ Ayush's Note, - **The Hidden Pattern:** In Biodiversity and Conservation, a recurring pattern is observed where $\frac14$ of the questions focus on the **species-area relationship**, which can be represented by the formula: IS = ca^zoo where IS is the number of species, act and oz are constants, and A is the area., - The **species-area relationship** is further divided into **island biogeography** and **mainland biogeography**, with the former being more relevant to conservation efforts., - **How to Apply It:** To tackle questions related to this pattern, first identify the type of species-area relationship being discussed (e.g., **island biogeography** or **mainland biogeography**). Then, apply the relevant formula and consider the implications for conservation, such as the **minimum viable population (MVP)** size and the **metapopulation concept**., - Another crucial aspect is understanding the **types of species interactions**, including **mutualism**, **commensalism**, **parasitism**, **competition**, and **predation**. Recognizing these interactions is essential for evaluating the impact of invasive species or the effectiveness of conservation strategies., - In the context of **conservation biology**, be prepared to analyze scenarios involving **habitat fragmentation**, **edge effects**, and **corridors**. The ability to apply concepts like **metapopulation dynamics** and **source-sink populations** can significantly enhance your problem-solving skills., - When encountering questions related to **biodiversity indices**, such as the **Shannon diversity index** (OH = -\sum_i=1’S p_i \times ln p_in) or the **Simpson diversity index** (CD = 1 - \sum_i=1’S p_i^2$), make sure to understand the underlying assumptions and limitations of each index., - Lastly, stay alert for questions that require the application of **conservation principles**, including the **precautionary principle**, **adaptive management**, and **ecosystem-based management**. These concepts often involve trade-offs between **economic**, **social**, and **environmental** considerations. , Topic, Formula/Concept, Relevance to Conservation , Species-Area Relationship, IS = ca^zoo, Understanding the relationship between species richness and area is crucial for conservation efforts, especially in the context of habitat fragmentation and reserve design. , Minimum Viable Population (MVP), MVP size is influenced by factors such as genetic diversity, demographic stochastic, and environmental variability, Determining the MVP size is essential for developing effective conservation strategies, particularly for endangered species. , Metapopulation Concept, A metapopulation consists of subpopulations that interact through migration, The metapopulation concept is vital for understanding the dynamics of species in fragmented habitats and for designing effective conservation corridors.
@@ -198,15 +193,13 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
  - Conservation is the act of preserving or protecting something, especially the natural environment.
 
- - The main goal of conservation is to preserve the natural balance and maintain ecosystem services.
+ - The main goal of conservation is to preserve the natural balance and maintain [ecosystem](/blog/ecosystem-class-12-notes) services.
 
  - Common mistakes:
 
  - Not considering the impact of invasive species on native ecosystems.
 
  - Overlooking the importance of genetic diversity within species.
-
-
 
 ## <a id="-practice-MCQs"></a>📝 Practice MCQs
 

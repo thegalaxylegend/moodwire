@@ -95,7 +95,7 @@ Strategic comparisons are vital. A high-overlap subject like PSIR might take 4 m
 
 ## <a id="the-4step-optional-audit-protocol"></a>The 4-Step Optional 'Audit' Protocol
 
-If you are still undecided on **how to choose UPSC optional subject**, follow this audit: First, scan the full syllabus in the notification. Second, analyze the 2023–2025 Mains papers to see if the questions make sense to you. Third, verify the availability of high-quality coaching and **online mock tests** for that specific subject.
+If you are still undecided on **how to choose UPSC optional subject**, follow this audit: First, scan the full syllabus in the notification. Second, analyze the 2023–2025 [mains](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) papers to see if the questions make sense to you. Third, verify the availability of high-quality coaching and **online mock tests** for that specific subject.
 
 Finally, conduct a one-week trial. Read a core chapter—like 'Caste' in Sociology—and see if you enjoy the depth of research required. This hands-on test is the only way to confirm if the "Pillars" align with your daily reality. This audit identifies potential friction points before you commit months of your life to the wrong subject.
 
@@ -115,7 +115,7 @@ Selecting your UPSC optional is a strategic decision that bridges the gap betwee
 Geography is not inherently high-risk, but it is massive. The syllabus is nearly double that of Sociology. However, it provides a significant advantage in GS Paper 1 and Prelims. If you are diligent and enjoy scientific humanities, it remains a strong choice for those who can manage its breadth.
 
 ### <a id="2-can-i-take-an-optional-different-from-my-graduation-subject"></a>2. Can I take an optional different from my graduation subject?
-Yes, approximately 70% of successful candidates choose an optional that is different from their college degree. UPSC optionals are designed to be generalist, meaning anyone with strong analytical skills can master them using **NCERT solutions** level readings as a starting point.
+Yes, approximately 70% of successful candidates choose an optional that is different from their college degree. UPSC optionals are designed to be generalist, meaning anyone with strong analytical skills can [master](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet) them using **NCERT solutions** level readings as a starting point.
 
 ### <a id="3-how-much-time-should-i-dedicate-to-my-optional"></a>3. How much time should I dedicate to my optional?
 During the first four months of preparation, dedicate 60–70% of your daily study time to your optional. Once you have covered the syllabus, transition to a split of 30% for your optional and 70% for General Studies and current affairs to maintain overall balance.

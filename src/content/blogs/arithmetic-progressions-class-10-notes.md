@@ -49,8 +49,6 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
  - **Sum of N Terms (Alternative):** S_n = \frac{n}{2} (a + l) — The \sum of the first $n$ terms of the arithmetic progression, where $a$ is the first term and $l$ is the last term. 
  - **Number of Terms:** n = \frac{l - a}{d} + 1 — The number of terms in the arithmetic progression, where $l$ is the last term, $a$ is the first term, and $d$ is the common difference.
 
-
-
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
 - **Mistake 1:** Incorrectly applying the formula for the nth term of an Arithmetic Progression (AP), which is given by $a_n = a_1 + (n-1)d$, where $a_n$ is the nth term, $a_1$ is the first term, $n$ is the term number, and $d$ is the common difference.
@@ -76,14 +74,17 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
  - **Solution:** 
  Let $a$ be the first term and $d$ be the common difference of the A.P. Then, we have:
  
+
 \frac{n}{2} [2a + (n - 1)d] = 225 quad 	ext{and} quad \frac{2n}{2} [2a + (2n - 1)d] = 525
 
  Simplifying these [equations](/blog/pair-of-linear-equations-class-10-notes), we get:
  
+
 2a + (n - 1)d = \frac{450}{n} quad 	ext{and} quad 2a + (2n - 1)d = \frac{525}{n}
 
  Subtracting the first equation from the second, we get:
  
+
 (2n - 1 - n + 1)d = \frac{525 - 450}{n}
 
 \Rightarrow quad nd = \frac{75}{n}
@@ -92,6 +93,7 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
 
  Substituting this value of $d$ in the first equation, we get:
  
+
 2a + (n - 1)\frac{75}{n^2} = \frac{450}{n}
 
 \Rightarrow quad 2a = \frac{450}{n} - \frac{75}{n^2} (n - 1)
@@ -106,10 +108,12 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
 
  Now, the \sum of first $3n$ terms is given by:
  
+
 \frac{3n}{2} [2a + (3n - 1)d]
 
  Substituting the values of $a$ and $d$, we get:
  
+
 \frac{3n}{2} [2\frac{375n + 75}{2n^2} + (3n - 1)\frac{75}{n^2}]
 
 = \frac{3n}{2} [\frac{375n + 75}{n^2} + \frac{225n - 75}{n^2}]
@@ -117,7 +121,6 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
 = \frac{3n}{2} [\frac{600n}{n^2}]
 
 = \frac{3n}{2} \times \frac{600}{n}
-
 
  
  = 900
@@ -145,6 +148,7 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
  
  Substituting the value of $y$, we get:
  
+
 x + (r - 1)\frac{b - a}{q - p}
 
 = x + \frac{(r - 1)b - (r - 1)a}{q - p}
@@ -255,6 +259,7 @@ x + (r - 1)\frac{b - a}{q - p}
  - **Solution:** 
  Let $a$ be the first term and $d$ be the common difference of the A.P. Then, we have:
  
+
 S_n = \frac{n}{2} [2a + (n - 1)d]
 
 \Rightarrow quad S_{30} = \frac{30}{2} [2a + (30 - 1)d] = 15(2a + 29d)
@@ -265,8 +270,8 @@ S_n = \frac{n}{2} [2a + (n - 1)d]
 
  Now, we have:
  
-S_{30} + S_{35} - S_{40} = 15(2a + 29d) + \frac{35}{2} (2a + 34d) - 20(2a + 39d)
 
+S_{30} + S_{35} - S_{40} = 15(2a + 29d) + \frac{35}{2} (2a + 34d) - 20(2a + 39d)
 
  
  = 30a + 435d + 35a + 595d - 40a - 780d

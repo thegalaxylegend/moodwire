@@ -4,8 +4,7 @@
     "url": "https://examcompass.pages.dev/blogs/trigonometric-functions-class-11-revision-notes-jee-neet",
     "signals": [
       "Low CTR: 0.8% on 5200 impressions → title/meta needs optimization",
-      "Orphan traffic: indexed with 5200 impressions but 0 GA4 views → possible crawl/render issue",
-      "Thin content: only 1122 words → expand with deeper explanations"
+      "Orphan traffic: indexed with 5200 impressions but 0 GA4 views → possible crawl/render issue"
     ],
     "severity": "critical",
     "metrics": {

@@ -80,7 +80,7 @@ As I prepare for the Class 11 exam in 2026, I realize the importance of understa
 
 The core concepts of federalism include:
 - **Federal Principles**: The principles of federalism, including the division of powers, independent judiciary, and dual citizenship.
-- **Unitary Features**: The unitary features of the Indian Constitution, including the strong center and the emergency provisions.
+- **Unitary Features**: The unitary features of the [indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Constitution, including the strong center and the emergency provisions.
 - **State-Center Relations**: The relations between the center and the states, including the division of powers and the role of the judiciary.
 
 
@@ -99,7 +99,7 @@ Trap Exceptions:
 ## <a id="ayushs-tips"></a>Ayush's Tips
 
 As I prepare for the [class](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) 11 exam in 2026, I need to focus on the key concepts and principles of federalism. I should:
-- Study the historical context of federalism in India.
+- Study the historical context of federalism in [india](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse).
 - Understand the core concepts of federalism, including federal principles, unitary features, and state-center relations.
 - Practice MCQs and revise the key features of federalism.
 - Be aware of the trap exceptions, including emergency provisions, centralized tendencies, and state autonomy.

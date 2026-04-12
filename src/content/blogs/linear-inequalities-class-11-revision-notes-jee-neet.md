@@ -94,7 +94,7 @@ Solving an inequality is very similar to solving an equation, with one critical 
 ## <a id="3-graphical-solution-of-linear-inequalities-in-two-variables"></a>3. Graphical Solution of Linear Inequalities in Two Variables
 
 A linear inequality like **ax + by ≤ c** represents a half-plane in the Cartesian coordinate system.
-1.  **Draw the Line:** Replace the inequality sign with '=' and draw the line.
+1.  **Draw the [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet):** Replace the inequality sign with '=' and draw the [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet).
 2.  **Dashed vs Solid:** If strict (< or >), use a dashed line. If slack (≤ or ≥), use a solid line.
 3.  **Test Point:** Pick a point not on the line (usually (0,0)). If it satisfies the inequality, shade the region containing it; otherwise, shade the other side.
 

@@ -50,7 +50,7 @@ To excel in this topic, it is essential to have a thorough understanding of [pla
 
 ## <a id="Ayush-note-the-mistake-i-made"></a>Ayush's Note — The Mistake I Made
 
-Note: Students should pay particular attention to the microscopic and macroscopic features of plant structures, as these details are frequently tested in the MEET exam. Additionally, it is essential to be familiar with the terminology and classification of plant parts, as well as the relationships between them.
+Note: Students should pay particular attention to the microscopic and macroscopic features of plant structures, as these details are frequently tested in the MEET exam. Additionally, it is essential to be familiar with the terminology and [classification](/blog/biological-classification-class-11-revision-notes-neet) of plant parts, as well as the relationships between them.
 
 
 
@@ -58,11 +58,11 @@ Note: Students should pay particular attention to the microscopic and macroscopi
 
 
 
-In this chapter, it's essential to remember that the stem, root, and leaves are all modified for their respective functions. For example, the stem has pith, vascular bundle, and peri cycle, whereas the root has a root cap, cortex, endodermis, and peri cycle. Don't miss the point that the vascular bundle in dicot stems is in the form of a ring, while it's in the form of a strand in monocot stems.
+In this chapter, it's essential to remember that the stem, root, and leaves are all modified for their respective functions. For example, the stem has pith, vascular bundle, and peri [cycle](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet), whereas the root has a root cap, cortex, endodermis, and peri [cycle](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet). Don't miss the point that the vascular bundle in dicot stems is in the form of a ring, while it's in the form of a strand in monocot stems.
 
 
 
-Welcome to the fascinating world of plant anatomy! This chapter accounts for a significant weightage in various competitive exams like JEE, MEET, and boards. According to JEE Advanced analysis, around 6.4% questions are directly related to this topic, while in MEET it is around 4.9%. As per CBSE, 8.2% of total marks in Class 11 Biology are dedicated to plant anatomy, out of which a substantial portion is reserved for this chapter. This comprehensive chapter helps students grasp the fundamental concepts of plant anatomy, including the detailed descriptions of cell structure, tissue systems, and organ organization. It also provides an essential background for understanding plant physiology, genetics, and other related disciplines. By chapter, students will not only perform exceptionally well in exams but also develop a deep appreciation for the intricate complexities of plant biology. Let's break down the weightage of various subtopics in this chapter: 
+Welcome to the fascinating world of plant anatomy! This chapter accounts for a significant weightage in various competitive exams like JEE, MEET, and boards. According to JEE Advanced analysis, around 6.4% questions are directly related to this topic, while in MEET it is around 4.9%. As per CBSE, 8.2% of total marks in [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) 11 Biology are dedicated to plant anatomy, out of which a substantial portion is reserved for this chapter. This comprehensive chapter helps students grasp the fundamental concepts of plant anatomy, including the detailed descriptions of cell structure, tissue systems, and organ organization. It also provides an essential background for understanding plant physiology, genetics, and other related disciplines. By chapter, students will not only perform exceptionally well in exams but also develop a deep appreciation for the intricate complexities of plant biology. Let's break down the weightage of various subtopics in this chapter: 
 In JEE Advanced: Cell structure (1.2%), Tissue systems (1.5%), and Organ organization (3.7%)
 
 In MEET: Cell structure (1.8%), Tissue systems (2.3%), and Organ organization (0.8%)

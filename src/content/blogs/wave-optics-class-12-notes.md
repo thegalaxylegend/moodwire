@@ -73,7 +73,7 @@ Throughout this journey, we'll use a combination of theoretical derivations, num
 * **Interference**: Understand how to calculate the interference pattern produced by two coherent sources.
 * **Polarization**: Learn about the different types of polarization and how to calculate the intensity of polarized light.
 
-By focusing on these key concepts and practicing a wide range of problems, you'll be well-prepared to tackle the challenges of Wave Optics and achieve a high score in the Class 12 Physics exam.
+By focusing on these key concepts and practicing a wide range of problems, you'll be well-prepared to tackle the challenges of Wave Optics and achieve a high score in the [class](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) 12 Physics exam.
 
 
 

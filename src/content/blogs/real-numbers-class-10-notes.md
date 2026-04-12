@@ -52,8 +52,6 @@ practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
  - **Roots:** \{ \sqrt[n]{a} = a^{\frac{1}{n}} \} — where $a$ is the radicand and $n$ is the index of the root.
  - **Absolute Value:** \{ |a| = \sqrt{a^2} \} — where $a$ is a real number.
 
-
-
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
 - **Mistake 1:** Incorrectly applying the properties of real numbers, particularly the closure property, which states that the \sum or product of two real numbers is always a real number.
@@ -64,10 +62,9 @@ practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
  - *Fix:* Make sure to understand the definitions and examples of rational, irrational, and integer real numbers. Practice identifying and working with these different types in various problems.
  - **Mistake 3:** Incorrectly using the Absolute Value {\( |x| \)} or Modulus function, which can lead to errors in solving [equations](/blog/pair-of-linear-equations-class-10-notes) or inequalities involving absolute values.
  - *Costs:* 3-4 marks
- - *Fix:* Review the definition and properties of absolute value, including its relationship to distance on the number line. Practice solving equations and inequalities involving absolute values, using the correct notation and properties.
+ - *Fix:* Review the definition and properties of absolute value, including its relationship to distance on the number line. Practice solving [equations](/blog/pair-of-linear-equations-class-10-notes) and inequalities involving absolute values, using the correct notation and properties.
 
 - **Mistake 4:** Not properly applying the rules for operating with surds {\( \sqrt{x} \)}, which can lead to incorrect simplifications or calculations.
-
 
  - *Costs:* 2-3 marks
  - *Fix:* Review the rules for simplifying and operating with surds, including the use of conjugates to rationalize denominators. Practice applying these rules in various problems, ensuring you can simplify expressions correctly and perform calculations accurately.
@@ -141,10 +138,15 @@ practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 - {\sqrt{a^2} = |a|}: Absolute value of a number
+
  - {a^n}: Exponentiation, where {n} is the exponent
- - {a^{\frac{m}{n}} = {\sqrt[n]{a^m}}}: Rational exponentiation
+
+- {a^{\frac{m}{n}} = {\sqrt[n]{a^m}}}: Rational exponentiation
+
  - {a^{m+n} = a^m \times a^n}: Product ru\le for exponents
- - {\frac{a^m}{a^n} = a^{m-n}}: Quotient ru\le for exponents
+
+- {\frac{a^m}{a^n} = a^{m-n}}: Quotient ru\le for exponents
+
  - Key facts:
  - Real numbers include all rational and irrational numbers
  - The set of real numbers is denoted by {\mathbb{R}}
@@ -202,7 +204,6 @@ C) -1
 D) 0
 
 **Answer:** A) Given, $a + b + c = 0Rightarrow (a + b + c)^2 = 0Rightarrow a^2 + b^2 + c^2 + 2ab + 2bc + 2ca = 0Rightarrow 1 + 2(ab + bc + ca) = 0Rightarrow ab + bc + ca = -\frac{1}{2}$
-
 
 ---
 

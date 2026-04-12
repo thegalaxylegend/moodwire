@@ -126,7 +126,7 @@ Organisms
 *This post was curated by Jules, [exam](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet) Compass Bot, and edited for accuracy by Ayush.*
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, [exam](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet) Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---
@@ -161,7 +161,7 @@ Continue your [revision](/blog/3d-geometry-intro-class-11-revision-notes-jee-nee
 ## 🔁 Last 5 Minutes Box
 
 - **Pomodoro Technique**: 25 minutes focused study + 5 minutes break
-   - **CBSE Class 11 CS Syllabus**: 
+   - **CBSE [class](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) 11 CS Syllabus**: 
      * Computer Systems and Networking
      * Python Programming
      * Data Structures

@@ -51,7 +51,7 @@ To illustrate the significance of Digital Logic, consider the $2^n$ possible com
 
 Another critical aspect of Digital Logic is the concept of logic gates, which are the basic building blocks of digital circuits. These gates can be combined in various ways to create more complex circuits, enabling us to perform a wide range of logical operations. The $AND$, $OR$, and $NOT$ gates are the most fundamental types of logic gates, and they can be used to create more complex gates, such as the $NAND$ and $NOR$ gates.
 
-As we prepare for the Class 11 exam, it is essential to develop a deep understanding of these concepts and how they are applied in digital circuits. By focusing on the underlying principles of Digital Logic, we can build a strong foundation for more advanced topics in Computer Science and develop a keen appreciation for the intricate beauty of digital systems.
+As we prepare for the Class 11 exam, it is essential to develop a deep understanding of these concepts and how they are applied in digital circuits. By focusing on the underlying principles of Digital Logic, we can build a strong foundation for more advanced topics in [computer](/blog/computer-organization-class-11-notes) Science and develop a keen appreciation for the intricate beauty of digital systems.
 
 Furthermore, the study of Digital Logic has numerous practical applications, from the design of digital circuits and computer architecture to the development of artificial intelligence and machine learning algorithms. As we explore the world of Digital Logic, we will encounter numerous real-world examples that illustrate the significance of this subject in our daily lives.
 
@@ -59,7 +59,7 @@ In the context of the Class 11 exam, it is crucial to recognize that Digital Log
 
 By mastering Digital Logic, we can unlock the secrets of the digital world and develop a profound appreciation for the intricate beauty of digital systems. As we embark on this journey, we will encounter numerous challenges and opportunities to learn and grow. With dedication and practice, we can develop a deep understanding of Digital Logic and achieve success in the Class 11 exam. 
 
-The formula for the $n$-bit binary counter is: 
+The formula for the $n$-bit binary counter is:
 
 \begin{aligned}
 Count &= 2^n - 1 \\
@@ -73,7 +73,7 @@ As we delve deeper into the world of Digital Logic, we will encounter numerous c
 
 The $n$-bit binary counter is a classic example of how Digital Logic can be used to build complex digital circuits. The counter can count up to $2^n - 1$, and it is a fundamental component of many digital systems. 
 
-To illustrate the concept of logic gates, consider the following example: 
+To illustrate the concept of logic gates, consider the following example:
 
 \begin{aligned}
 A \cdot B &= Y \\
@@ -87,7 +87,7 @@ By focusing on the underlying principles of Digital Logic, we can build a strong
 
 The study of Digital Logic is a fascinating journey that will challenge our thinking and broaden our understanding of the digital world. As we explore the world of Digital Logic, we will encounter numerous concepts and techniques that will help us develop a deep understanding of digital systems. 
 
-The formula for the $OR$ gate is: 
+The formula for the $OR$ gate is:
 
 \begin{aligned}
 A + B &= Y \\
@@ -109,7 +109,7 @@ We will also explore the concept of digital circuit design, which involves creat
 
 By focusing on the underlying principles of Digital Logic, we can build a strong foundation for more advanced topics in Computer Science and develop a keen appreciation for the intricate beauty of digital systems. With dedication and practice, we can master the concepts of Digital Logic and achieve success in the Class 11 exam. 
 
-The formula for the $NOT$ gate is: 
+The formula for the $NOT$ gate is:
 
 \begin{aligned}
 \overline{A} &= Y \\
@@ -131,7 +131,7 @@ We will also explore the concept of computer architecture, which involves the de
 
 By focusing on the underlying principles of Digital Logic, we can build a strong foundation for more advanced topics in Computer Science and develop a keen appreciation for the intricate beauty of digital systems. With dedication and practice, we can master the concepts of Digital Logic and achieve success in the Class 11 exam. 
 
-The formula for the $NAND$ gate is: 
+The formula for the $NAND$ gate is:
 
 \begin{aligned}
 \overline{A \cdot B} &= Y \\
@@ -153,7 +153,7 @@ We will also explore the concept of machine learning, which involves the develop
 
 By focusing on the underlying principles of Digital Logic, we can build a strong foundation for more advanced topics in Computer Science and develop a keen appreciation for the intricate beauty of digital systems. With dedication and practice, we can master the concepts of Digital Logic and achieve success in the Class 11 exam. 
 
-The formula for the $NOR$ gate is: 
+The formula for the $NOR$ gate is:
 
 \begin{aligned}
 \overline{A + B} &= Y \\
@@ -175,7 +175,7 @@ We will also explore the concept of computer networks, which involves the interc
 
 By focusing on the underlying principles of Digital Logic, we can build a strong foundation for more advanced topics in Computer Science and develop a keen appreciation for the intricate beauty of digital systems. With dedication and practice, we can master the concepts of Digital Logic and achieve success in the Class 11 exam. 
 
-The formula for the $XOR$ gate is: 
+The formula for the $XOR$ gate is:
 
 \begin{aligned}
 A \oplus B &= Y \\
@@ -197,7 +197,7 @@ We will also explore the concept of operating systems, which involves the manage
 
 By focusing on the underlying principles of Digital Logic, we can build a strong foundation for more advanced topics in Computer Science and develop a keen appreciation for the intricate beauty of digital systems. With dedication and practice, we can master the concepts of Digital Logic and achieve success in the Class 11 exam. 
 
-The formula for the $XNOR$ gate is: 
+The formula for the $XNOR$ gate is:
 
 \begin{aligned}
 \overline{A \oplus B} &= Y \\
@@ -219,7 +219,7 @@ We will also explore the concept of data structures, which involves the organiza
 
 By focusing on the underlying principles of Digital Logic, we can build a strong foundation for more advanced topics in Computer Science and develop a keen appreciation for the intricate beauty of digital systems. With dedication and practice, we can master the concepts of Digital Logic and achieve success in the Class 11 exam. 
 
-The formula for the $BUF$ gate is: 
+The formula for the $BUF$ gate is:
 
 \begin{aligned}
 A &= Y \\

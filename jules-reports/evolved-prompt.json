@@ -1,7 +1,7 @@
 {
-  "version": "2026-04-11T02:19:33.971Z",
+  "version": "2026-04-12T02:42:59.930Z",
   "generatedBy": "prompt-evolution-engine-v1.0",
-  "evolvedPrompt": "You are a JEE/NEET exam preparation blog writer.\nFocus on high-yield exam content with bullet points, formulas, and MCQs.\nVoice: Authentic Peer Mentor (student-to-student).\nFORMATTING: NEVER WRITE LONG PARAGRAPHS. Use bullet points for almost everything.\nTARGET STRUCTURE: Aim for 9-14 H2 headings, with 3-5 MCQs and high formula density.\nWORD COUNT: Target 1096-2644 words per revision.\nNEVER DO: Avoid thin content (less than 150 words per section), learned errors, and unknown failures.\nSEARCH OPTIMIZATION: Use top-ranking keywords as context and include them naturally in your writing.\nTONE/DEPTH: Adjust your tone to drive traffic, focusing on engaging and informative content.\nLA TEX RULES: Maintain all LaTeX escaping rules exactly as they are.",
+  "evolvedPrompt": "You are a JEE/NEET exam preparation blog writer.\nFocus on high-yield exam content with bullet points, formulas, and MCQs, targeting 1122-2621 words and 9-14 H2 headings per post.\nVoice: Authentic Peer Mentor (student-to-student).\nFORMATTING: NEVER WRITE LONG PARAGRAPHS. Use bullet points for almost everything.\nNEVER have sections with less than 150 words; expand thin content to provide more value.\nAVOID LEARNED_ERROR by double-checking formulas and concepts.\nFor search optimization, consider top-ranking keywords like 'JEE Main exam pattern', 'NEET exam syllabus', and 'exam preparation tips'.\nMaintain a high formula density, with at least 3-5 MCQs per post, and follow the subject-specific targets below.",
   "temperature": 0.7,
   "subjectTargets": {
     "Physics": {
@@ -30,11 +30,12 @@
     }
   },
   "changelog": [
-    "Added structural targets based on winning patterns (word count, heading count, formula density per subject)",
-    "Included anti-patterns from failure data as explicit 'NEVER DO' rules",
-    "Adjusted tone/depth based on traffic data",
-    "Added section for search-optimized writing using top-ranking keywords as context",
-    "Maintained LaTeX escaping rules"
+    "Added word count targets (1122-2621 words) based on successful blog patterns",
+    "Included heading count targets (9-14 H2 headings) for better structure",
+    "Specified formula density and MCQ count targets per subject",
+    "Added 'NEVER DO' rules to avoid thin content and learned errors",
+    "Incorporated search optimization using top-ranking keywords",
+    "Maintained the authentic peer mentor voice and bullet-heavy formatting"
   ],
   "confidence": 0.85,
   "metadata": {

@@ -42,6 +42,7 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
 - **Remainder Theorem:** \frac{p(x)}{x - a} = q(x) + \frac{p(a)}{x - a} — p(x) is the polynomial, q(x) is the quotient, and p(a) is the remainder when p(x) is divided by (x - a).
+
  - **Factor Theorem:** p(a) = 0 \Rightarrow (x - a) \text{ is a factor of } p(x) — p(x) is the polynomial and a is the root.
  - **Polynomial Division:** p(x) = d(x)q(x) + r(x) — p(x) is the dividend, d(x) is the divisor, q(x) is the quotient, and r(x) is the remainder.
  - **Degree of Polynomial:** \text{Degree of } p(x) = n — n is the highest power of x in p(x).
@@ -52,14 +53,12 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
  - **Descartes' Ru\le of Signs:** \text{Number of positive roots} = \text{number of sign changes in } p(x) — p(x) is the polynomial.
  - **Intermediate Value Theorem:** \text{If } p(a) < 0 \text{ and } p(b) > 0, \text{ then } \exists c \in (a, b) \text{ such that } p(c) = 0 — p(x) is the polynomial and a and b are real numbers.
 
-
-
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
 - **Mistake 1:** Incorrectly applying the remainder theorem to polynomials.
  - *Costs:* 4-6 marks
  - *Fix:* To avoid this, ensure you understand that the remainder theorem states if a polynomial $f(x)$ is divided by $(x - a)$, the remainder is $f(a)$. Always substitute the value of $a$ into $f(x)$ to find the remainder.
- - **Mistake 2:** Failure to factorize polynomials properly before solving equations.
+ - **Mistake 2:** Failure to factorize polynomials properly before solving [equations](/blog/quadratic-equations-class-10-notes).
  - *Costs:* 5-8 marks
  - *Fix:* Factorization is key. For examp\le, to factorize $x^2 + 5x + 6$, look for two numbers that multiply to $6$ and add to $5$. These numbers are $2$ and $3$, so the polynomial factorizes to $(x + 2)(x + 3)$. Use the formula ${}(x - a)(x - b)$ for factorizing quadratic expressions where $a$ and $b$ are roots.
  - **Mistake 3:** Not using the correct formula for the \sum and product of roots in a polynomial equation.
@@ -143,14 +142,14 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
  - {(x - y)}^n = {\binom{n}{0}}{x^n} - {\binom{n}{1}}{x^{n-1}}y + {\binom{n}{2}}{x^{n-2}}{y^2} - ... + {(-1)}^n{\binom{n}{n}}{y^n} 
  - {a_n}{x^n} + {a_{n-1}}{x^{n-1}} + {a_{n-2}}{x^{n-2}} + ... + {a_1}x + {a_0} = 0 has {n} roots.
  - Key facts:
- - When a polynomial {f(x)} is divided by {(x - {\alpha})}, the remainder is {f({\alpha})}.
+
+- When a polynomial {f(x)} is divided by {(x - {\alpha})}, the remainder is {f({\alpha})}.
+
  - The polynomial {f(x)} has {n} roots.
  - If the degree of {f(x)} is {n}, then the number of turning points is {n-1}.
  - Common mistakes:
  - Forgetting that if {a_n} = 0, then {x} is a factor of {f(x)}.
  - Not checking the degree of the remainder when dividing polynomials.  $
-
-
 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 

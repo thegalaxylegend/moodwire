@@ -77,7 +77,10 @@ The core concepts in biogeography can be summarized as follows:
 Some key formulae and tables to remember in biogeography include:
 * **Species richness**: the number of species in a given area
 * **Species diversity**: the variety of species in a given area, calculated using the Shannon-Wiener index:
+
 MPH = -\sum_{i=1}^{S}p_i \ln p_in
+
+
 where THE is the Shannon-Wiener index, IS is the number of species, and up_in is the proportion of individuals of species in
 
 
@@ -208,4 +211,4 @@ Continue your [revision](/blog/moving-charges-magnetism-class-11-revision-notes-
 
 ## 🔁 Last 5 Minutes Box
 
-* **Wallace's Line**: separates Asia from Australia,* **Weber's Line**: separates Australian and Oriental regions,* **Palaearctic region**: Northern Hemisphere, cold and temperate,* **Nearctic region**: North America, cold and temperate,* **Neotropical region**: Central and South America, tropical,* **Ethiopian region**: Africa, tropical,* **Oriental region**: India, Southeast Asia, tropical,* **Australian region**: Australia, tropical and temperate
+* **Wallace's Line**: separates Asia from Australia,* **Weber's Line**: separates Australian and Oriental regions,* **Palaearctic region**: Northern Hemisphere, cold and temperate,* **Nearctic region**: North America, cold and temperate,* **Neotropical region**: Central and South America, tropical,* **Ethiopian region**: Africa, tropical,* **Oriental region**: [india](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse), Southeast Asia, tropical,* **Australian region**: Australia, tropical and temperate

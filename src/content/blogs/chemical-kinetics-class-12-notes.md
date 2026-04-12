@@ -40,12 +40,16 @@ practice_link: "/class-11/chemistry/chemical-kinetics-class-12-notes"
 
 | Formula | Variable Meaning |
 | --- | --- |
-| \frac{dx}{dt} = k \	imes [A]^m \	imes [B]^n | Rate of reaction, k: rate constant, [A], [B]: concentrations, m, n: order of reaction |
-| k = Ae^{\frac{-E_a}{RT}} | k: rate constant, A: frequency factor, E_a: activation energy, R: gas constant, T: temperature |
-| t_{1/2} = \frac{0.693}{k} | t_{1/2}: half-life, k: rate constant |
-| k = \frac{2.303}{t} \log\frac{[A]_0}{[A]} | k: rate constant, t: time, [A]_0: initial concentration, [A]: concentration at time t |
-| x = [A]_0 \	imes (1 - e^{-kt}) | x: concentration at time t, [A]_0: initial concentration, k: rate constant, t: time |
 
+| \frac{dx}{dt} = k \	imes [A]^m \	imes [B]^n | Rate of reaction, k: rate constant, [A], [B]: concentrations, m, n: order of reaction |
+
+| k = Ae^{\frac{-E_a}{RT}} | k: rate constant, A: frequency factor, E_a: activation energy, R: gas constant, T: temperature |
+
+| t_{1/2} = \frac{0.693}{k} | t_{1/2}: half-life, k: rate constant |
+
+| k = \frac{2.303}{t} \log\frac{[A]_0}{[A]} | k: rate constant, t: time, [A]_0: initial concentration, [A]: concentration at time t |
+
+| x = [A]_0 \	imes (1 - e^{-kt}) | x: concentration at time t, [A]_0: initial concentration, k: rate constant, t: time |
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>⬤ The 5 Mistakes That Cost Marks
 

@@ -45,7 +45,7 @@ practice_link: "/class-11/biology/biomolecules-class-11-revision-notes-neet"
 ### <a id="biomolecules-class-11-notes"></a>Biomolecules Class 11 Notes
 #### Quick Recall Box
 * Biomolecules are the building blocks of life.
-* Carbohydrates, proteins, lipids, and nucleic acids are the main types of biomolecules.
+* Carbohydrates, proteins, lipids, and nucleic [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes) are the main types of biomolecules.
 * Biomolecules perform a wide range of functions in living organisms.
 * Biomolecules are composed of carbon, hydrogen, oxygen, nitrogen, and phosphorus.
 * Biomolecules are essential for the structure and function of cells.
@@ -196,8 +196,8 @@ Continue your [revision](/blog/animal-kingdom-class-11-revision-notes-neet) with
     * ** Hormones**: Chemical messengers, Peptide hormones, Steroid hormones
 ## ⚗️ Chemical Quick Reference (Verified via PubChem)
 
-| Compound | Formula | Mol. Weight | Source |
+| Compound | Formula | MOL. Weight | Source |
 |:---|:---:|:---:|:---:|
-| **glucose** | C6H12O6 | 180.16 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/5793) |
-| **fructose** | C6H12O6 | 180.16 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/2723872) |
-| **sucrose** | C12H22O11 | 342.30 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/5988) |
+| **glucose** | C6H12O6 | 180.16 g/MOL | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/5793) |
+| **fructose** | C6H12O6 | 180.16 g/MOL | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/2723872) |
+| **sucrose** | C12H22O11 | 342.30 g/MOL | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/5988) |

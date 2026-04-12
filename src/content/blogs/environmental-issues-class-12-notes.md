@@ -27,8 +27,6 @@ practice_link: "/class-11/biology/environmental-issues-class-12-notes"
 
 ⚡ Formula Bank, - **Carbon Footprint:** \textCarbon Footprint = \frac\textTotal Greenhouse Gas Emissions\textPopulation — Total Greenhouse Gas Emissions are usually measured in tons of CO2 equivalent, Population is the number of people, - **Greenhouse Gas Emissions:** \textGHG Emissions = \textPopulation \times \textGDP per Capita \times \textEnergy Consumption per GDP \times \textGHG Intensity of Energy — Measures the total amount of greenhouse gases emitted by a population, - **Environmental Sustainability Index (ESI):** \textESI = \frac\textEnvironmental Systems\textPopulation Pressure + \textEnvironmental Stressors — Environmental Systems refer to the ability of the environment to support human life, Population Pressure and Environmental Stressors are factors that degrade environmental systems, - **Atmospheric Lifetime:** \textAtmospheric Lifetime = \frac1\textTotal Atmospheric Sink — Total Atmospheric Sink is the rate at which a substance is removed from the atmosphere, - **Global Warming Potential (GWP):** \textGWP = \frac\int_0^t a_i(t) dt\int_0^t a_CO_2(t) dt — $a_i(t)$ is the infrared radiative forcing at time $t$ of a gas, $a_CO_2(t)$ is the infrared radiative forcing at time $t$ of CO2, - **Ozone Depletion Potential (ODP):** \textODP = \frac\textHalogen Content\textAtmospheric Lifetime — Measures the potential of a substance to deplete the ozone layer, Halogen Content is the amount of halogens in the substance, - **Acid Rain Formation:** \textAcid Rain = \textSO_2 + \textNO_x + \textH_2\textO + \textO_2 — Sulfur dioxide, nitrogen oxides, water, and oxygen react to form acid rain, - **Eutrophication:** \textEutrophication = \frac\textExcess Nutrients\textWater Volume — Excess nutrients such as nitrogen and phosphorus lead to the growth of algae, depleting the oxygen in the water, - **Particulate Matter (PM):** \textPM = \frac\textMass of Particles\textVolume of Air — Measures the concentration of particulate matter in the air, - **Noise Pollution:** \textNoise Pollution = \frac\textSound Pressure\textReference Sound Pressure — Sound pressure is the pressure exerted by sound waves, Reference sound pressure is a standard value , ,
 
-
-
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
 - **Mistake 1:** Incorrectly identifying the main cause of greenhouse effect, often confusing it with the ozone layer depletion.
@@ -60,8 +58,6 @@ practice_link: "/class-11/biology/environmental-issues-class-12-notes"
  - *Costs:* 5-6 marks
 
  - *Fix:* Be aware that climate change can lead to changes in species distribution, behavior, and extinction risk, and can be quantified using the formula: \Delta S = \beta \times \Delta T where $\Delta S$ is the change in species richness, $\beta$ is the species-area relationship, and $\Delta T$ is the change in temperature.
-
-
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 

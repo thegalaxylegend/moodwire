@@ -73,7 +73,7 @@ If Kinematics is the "What" of [motion](/blog/motion-in-a-plane-class-11-revisio
 ### <a id="i-first-law-law-of-inertia"></a>I. First Law (Law of Inertia)
 **Theorem:** An object remains in its state of rest or uniform [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) unless acted upon by an external unbalanced force.
 - **Inertia:** The inherent property of matter that resists change.
-- **Types:** Inertia of Rest, Motion, and Direction.
+- **Types:** Inertia of Rest, [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet), and Direction.
 
 ### <a id="ii-second-law-the-law-of-dynamics"></a>II. Second Law (The Law of Dynamics)
 **Derivation:** The rate of change of momentum is directly proportional to the applied force.

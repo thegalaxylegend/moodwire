@@ -53,9 +53,9 @@ practice_link: "/class-11/biology/biotechnology-principles-and-processes-class-1
 
  - **Downstream Processing:** \	ext{Purity of product} = \franc{\	ext{Concentration of product}}{\	ext{Concentration of impurities}} — Purity of the product after processing.
 
- - **Fermentation:** \	ext{Biomass yield} = \\frac{\	ext{Mass of biomass}}{\	ext{Mass of substrate consumed}} — Yield of biomass from the substrate.
+- **Fermentation:** \	ext{Biomass yield} = \franc{\	ext{Mass of biomass}}{\	ext{Mass of substrate consumed}} — Yield of biomass from the substrate.
 
- - **Downstream Processing:** \	ext{Purity of product} = \\frac{\	ext{Concentration of product}}{\	ext{Concentration of impurities}} — Purity of the product after processing.
+- **Downstream Processing:** \	ext{Purity of product} = \franc{\	ext{Concentration of product}}{\	ext{Concentration of impurities}} — Purity of the product after processing.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -88,8 +88,6 @@ practice_link: "/class-11/biology/biotechnology-principles-and-processes-class-1
  - *Costs:* 6–8 marks
 
  - *Fix:* Be prepared to discuss examples such as the production of insulin, vaccines, and diagnostic kits in medicine, and pest-resistant crops, biofertilizers, and micropropagation in agriculture. Understand the role of BTW toxin in pest control and how $\Delta-endotoxins work.
-
-
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved Yes
 
@@ -162,7 +160,6 @@ harrow \	ext{Step 3: Extension}
  
 \franc{\	ext{moles of insert}}{\	ext{moles of vector}} = \franc{\	ext{length of insert (BP)}}{\	ext{length of vector (BP)}}
 
-
  This ratio is critical in determining the efficiency of the ligation reaction and the likelihood of obtaining the desired recombinant molecule.
 
 | Concept | 85% Scorers | 95% Scorers |
@@ -171,11 +168,9 @@ harrow \	ext{Step 3: Extension}
 | Restriction Endonucleases | Recognition of function | Ability to choose correct enzymes for specific [applications](/blog/biotechnology-and-its-applications-class-12-notes) |
 | DNA Ligation | Basic understanding of reaction | Optimization of reaction conditions for efficient ligation |
 
-
-
 ## <a id="-Ayush-note"></a>👁️ Ayush's Note
 
-👁️ Ayush's Note, - **The Hidden Pattern:** In Biotechnology, particularly for the topic 'Principles and Processes', a recurring pattern observed across 5+ years of Yes involves the application of or = \mu \\times SO where are is the growth rate, $\mu$ is the specific growth rate, and IS is the substrate concentration. This formula is often disguised within questions focusing on microbial growth kinetics., - **How to Apply It:** To maximize scores, recognize this pattern in questions that mention microbial growth, substrate concentration, or specific growth rates. Apply the formula to calculate growth rates or substrate concentrations, ensuring to double-check units. Additionally, be prepared to rearrange the formula as $\mu = \fracas or IS = \frack\mud, as these variations frequently appear in exams., - **Critical Insight:** The pattern extends to understanding the impact of environmental factors (like pH, temperature) on $\mu$. A change in these factors can significantly alter microbial growth, hence, be prepared to analyze or calculate how such changes affect growth rates or substrate utilization. This often involves applying the OK_me and UV_Max values from the Michaelis-Lenten equation: UV = \frack_max \\times SK_m + SO., - **Interpreting Data:** Questions may provide data on microbial growth under different conditions. Use this data to calculate $\mu$ or IS and understand how different conditions (e.g., varying substrate concentrations, temperatures) affect microbial growth. This might involve plotting growth curves or substrate utilization curves and interpreting the results to answer questions., - **Common Pitfalls:** Avoid confusing $\mu$ with are, as they are distinct parameters. $\mu$ is the specific growth rate (per unit of substrate), while are is the overall growth rate. Also, ensure that units are consistent when applying formulas, as incorrect unit conversions can lead to incorrect answers., - **Edge Cases:** Be aware of edge cases, such as substrate limitation or inhibition, which can significantly affect microbial growth rates. The formula UV = \frack_max \\times SK_m + SO can be adapted to account for inhibition by adding an inhibitor term, leading to more complex calculations but providing a deeper understanding of microbial metabolism under various conditions. , Parameter, Definition, Unit, Formula , $\mu$, Specific growth rate, oh^-1$, $\mu = \fracas , are, Growth rate, oh^-1$, or = \mu \\times SO , IS, Substrate concentration, BMG/LA or ME, IS = \frack\mud , OK_me, Michaelis constant, BMG/(suggestion limit reached) or (suggestion limit reached), (suggestion limit reached) = \(suggestion limit reached)_max \\times SK_m + (suggestion limit reached) , (suggestion limit reached)_(suggestion limit reached), Maximum rate, (suggestion limit reached)/L/(suggestion limit reached) or (suggestion limit reached)/(suggestion limit reached), (suggestion limit reached) = \(suggestion limit reached)_max \\times SK_m + (suggestion limit reached)
+👁️ Ayush's Note, - **The Hidden Pattern:** In Biotechnology, particularly for the topic 'Principles and Processes', a recurring pattern observed across 5+ years of Yes involves the application of or = \mu \times SO where are is the growth rate, $\mu$ is the specific growth rate, and IS is the substrate concentration. This formula is often disguised within questions focusing on microbial growth kinetics., - **How to Apply It:** To maximize scores, recognize this pattern in questions that mention microbial growth, substrate concentration, or specific growth rates. Apply the formula to calculate growth rates or substrate concentrations, ensuring to double-check units. Additionally, be prepared to rearrange the formula as $\mu = \fracas or IS = \frack\mud, as these variations frequently appear in exams., - **Critical Insight:** The pattern extends to understanding the impact of environmental factors (like pH, temperature) on $\mu$. A change in these factors can significantly alter microbial growth, hence, be prepared to analyze or calculate how such changes affect growth rates or substrate utilization. This often involves applying the OK_me and UV_Max values from the Michaelis-Lenten equation: UV = \frack_max \times SK_m + SO., - **Interpreting Data:** Questions may provide data on microbial growth under different conditions. Use this data to calculate $\mu$ or IS and understand how different conditions (e.g., varying substrate concentrations, temperatures) affect microbial growth. This might involve plotting growth curves or substrate utilization curves and interpreting the results to answer questions., - **Common Pitfalls:** Avoid confusing $\mu$ with are, as they are distinct parameters. $\mu$ is the specific growth rate (per unit of substrate), while are is the overall growth rate. Also, ensure that units are consistent when applying formulas, as incorrect unit conversions can lead to incorrect answers., - **Edge Cases:** Be aware of edge cases, such as substrate limitation or inhibition, which can significantly affect microbial growth rates. The formula UV = \frack_max \times SK_m + SO can be adapted to account for inhibition by adding an inhibitor term, leading to more complex calculations but providing a deeper understanding of microbial metabolism under various conditions. , Parameter, Definition, Unit, Formula , $\mu$, Specific growth rate, oh^-1$, $\mu = \fracas , are, Growth rate, oh^-1$, or = \mu \times SO , IS, Substrate concentration, BMG/LA or ME, IS = \frack\mud , OK_me, Michaelis constant, BMG/(suggestion limit reached) or (suggestion limit reached), (suggestion limit reached) = \(suggestion limit reached)_max \times SK_m + (suggestion limit reached) , (suggestion limit reached)_(suggestion limit reached), Maximum rate, (suggestion limit reached)/L/(suggestion limit reached) or (suggestion limit reached)/(suggestion limit reached), (suggestion limit reached) = \(suggestion limit reached)_max \times SK_m + (suggestion limit reached)
 
 | Parameter | Definition | Unit | Formula |
 | --- | --- | --- | --- |
@@ -206,8 +201,6 @@ harrow \	ext{Step 3: Extension}
  - Not accounting for the negative sign in the Nernst equation can lead to incorrect calculations of cell potential.
 
  - Forgetting to consider the effects of temperature on reaction rates and equilibria can result in incorrect predictions of biotechnological processes.
-
-
 
 ## <a id="-practice-MCQs"></a>📝 Practice MCQs
 
