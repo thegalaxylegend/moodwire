@@ -80,9 +80,9 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
     const messagesEndRef = useRef<HTMLDivElement>(null);
     const hasInitialScrolled = useRef(false);
     const [isToolboxOpen, setIsToolboxOpen] = useState(false);
-    const [speakingId, setSpeakingId] = useState<string | null>(null);
+    const [speakingId, setSpeakingId] = useState<number | null>(null);
 
-    const handleSpeak = async (id: string, text: string) => {
+    const handleSpeak = async (text: string, id: number) => {
         if (speakingId === id) {
             ttsManager.stop();
             window.speechSynthesis.cancel();
