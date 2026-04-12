@@ -28,13 +28,19 @@ export async function fetchExamNews(topic: string, limit: number = 3): Promise<N
         return [];
     }
 
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 10000); // 10s Timeout
+
     try {
         // Broaden the search for educational contexts
         // We filter by "Education" in India specifically to get JEE/NEET/CBSE relevant info
         const query = encodeURIComponent(`${topic} exam news India`);
         const url = `https://newsapi.org/v2/everything?q=${query}&sortBy=publishedAt&language=en&pageSize=${limit}&apiKey=${NEWS_API_KEY}`;
 
-        const response = await fetch(url);
+        const response = await fetch(url, { signal: controller.signal });
+        
+        clearTimeout(timeoutId);
+
         if (!response.ok) return [];
 
         const data: any = await response.json();
@@ -48,7 +54,12 @@ export async function fetchExamNews(topic: string, limit: number = 3): Promise<N
             source: a.source?.name || 'News'
         }));
     } catch (err: any) {
-        console.error(`❌ NewsAPI error: ${err.message}`);
+        clearTimeout(timeoutId);
+        if (err.name === 'AbortError') {
+            console.error(`🕒 NewsAPI timed out after 10s for: ${topic}`);
+        } else {
+            console.error(`❌ NewsAPI error: ${err.message}`);
+        }
         return [];
     }
 }

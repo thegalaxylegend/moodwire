@@ -41,8 +41,16 @@ async function runSanityCheck() {
         process.exit(1);
     }
 
-    const files = fs.readdirSync(BLOG_DIR).filter(f => f.endsWith('.md'));
-    const allSlugs = new Set(files.map(f => f.replace('.md', '')));
+    // Support for specific file checking via CLI arguments
+    const args = process.argv.slice(2);
+    let files = fs.readdirSync(BLOG_DIR).filter(f => f.endsWith('.md'));
+    
+    if (args.length > 0) {
+        files = files.filter(f => args.includes(f) || args.includes(f.replace('.md', '')));
+        console.log(`🎯 Focusing on ${files.length} specifically requested files...`);
+    }
+
+    const allSlugs = new Set(fs.readdirSync(BLOG_DIR).map(f => f.replace('.md', '')));
     let totalErrors = 0;
     let totalWarnings = 0;
     const results: SanityResult[] = [];
@@ -144,6 +152,55 @@ async function runSanityCheck() {
             if (looksLikeTechnicalFailure) {
                 errors.push("Contains 'undefined' failure patterns — template variable injection failed");
             }
+        }
+
+        // Check for [object Object] artifact
+        if (body.includes("[object Object]")) {
+            errors.push("Contains '[object Object]' - likely a JS object stringification bug");
+        }
+
+        // Check for unparsed JSON blocks in body
+        if (/\{[\s\S]*?"heading":[\s\S]*?"body":/.test(body)) {
+            errors.push("Contains unparsed JSON body blocks - 'JSON Squashing' detected");
+        }
+
+        // ABSOLUTE BLOCK: JSON keywords in body
+        if (body.includes('{"heading":') || body.includes('"body": "')) {
+            errors.push("Critical Failure: Literal JSON-like strings found in content body");
+        }
+
+        // Check for literal line breaks
+        if (body.includes('\\n') && !body.includes('```')) {
+            errors.push("Contains literal '\\n' sequences - escaping failure detected");
+        }
+
+        // NEW: Check for Thin Content (Word Count)
+        const wordCount = body.trim().split(/\s+/).length;
+        if (wordCount < 1800) {
+            errors.push(`Thin Content Warning: Entire body is only ${wordCount} words (Target: 2000+)`);
+        }
+
+        // NEW: Check for MCQ formatting (Options on same line)
+        const mcqBlocks = body.match(/([0-9]+\..*?A\).*?B\).*?C\).*?D\).*?)/g);
+        if (mcqBlocks) {
+            for (const mcq of mcqBlocks) {
+                if (mcq.includes('A)') && mcq.includes('B)') && !mcq.includes('\nB)')) {
+                    errors.push("MCQ Formatting Error: Options found on the same line. Must be one per line.");
+                    break;
+                }
+            }
+        }
+
+        // Check for malformed HTML attributes
+        if (/<div \[class\]/i.test(body)) {
+            errors.push("Contains malformed HTML: '[class]' attribute found (unbound React syntax)");
+        }
+
+        // Check for raw LaTeX that isn't wrapped in $
+        // We look for common LaTeX commands that are NOT preceded/followed by $
+        const rawLatexRegex = /(?<!\$|\\)\\(?:frac|sqrt|sum|int|alpha|beta|gamma|Delta|theta|phi|sin|cos|tan)(?:\{|\\|_|\^)/g;
+        if (rawLatexRegex.test(body)) {
+            warnings.push("Potential raw LaTeX detected outside of $...$ delimiters");
         }
 
         // ═══════════════════════════════════════════

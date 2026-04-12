@@ -435,23 +435,18 @@ export function standardizeMarkdown(markdown: string, meta: { title: string, her
 
     body = body.replace(/^(##|###) (.*)$/gm, (match, level, title) => {
         const rawTitle = title.trim();
-        if (rawTitle.toLowerCase().includes('table of contents') || rawTitle.toLowerCase().includes('quick recall')) return ""; 
+        if (rawTitle.toLowerCase().includes('table of contents') || rawTitle.toLowerCase().includes('quick recall') || rawTitle.toLowerCase().includes('introduction')) return ""; 
         const id = slugify(rawTitle);
         const displayTitle = rawTitle.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').trim();
         tocItems.push({ title: displayTitle, id, level: level.length });
         return `${level} <a id="${id}"></a>${rawTitle}`;
     });
 
-    const recallItems = Array.isArray(meta.recall) 
-        ? meta.recall.map(point => {
-            if (typeof point === 'object') return JSON.stringify(point);
-            return String(point);
-          })
-        : [];
-
-    const recallMarkdown = (recallItems.length > 0)
-        ? `\n<div class="quick-summary">\n\n### 🚀 Quick Recall — Last Night Summary\n\n${recallItems.map(point => `- ${point}`).join('\n')}\n\n</div>\n`
-        : '';
+    // Clean Title: Prevent double-suffixes and cross-topic mangling
+    let cleanTitle = meta.title || "Untitled Note";
+    // Remove redundant "Revision Recap", "Quick Guide", etc if doubled
+    cleanTitle = cleanTitle.split(/ — | - /)[0].trim(); // Get core topic
+    const finalTitle = `${cleanTitle} — Grandmaster Guide`;
 
     const tocMarkdown = tocItems.length > 0
         ? `\n## 📋 Table of Contents\n\n${tocItems.map(item => `${'  '.repeat(item.level - 2)}- [${item.title}](#${item.id})`).join('\n')}\n`
@@ -459,27 +454,27 @@ export function standardizeMarkdown(markdown: string, meta: { title: string, her
 
     const footer = `\n---\n\n### 🚀 Ready to Ace Your Exam?\nPut your knowledge to the test! Take the free [**Practice Mock Test**](${meta.practiceLink}) now and track your progress against thousands of students.\n\n---\n*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*`;
 
-    const assembledBody = `---
+    let assembledBody = `---
 heroImage: "${meta.heroImage}"
-title: "${meta.title}"
+title: "${finalTitle}"
 description: "${meta.title} Revision Notes. Last Updated: ${meta.lastUpdated}."
-category: "Revision"
+category: "Exam Notes"
 date: "${meta.lastUpdated}"
 practice_link: "${meta.practiceLink}"
-${meta.manualReview ? 'manual_review: true\n' : ''}---
-
-
-![${meta.title}](${meta.heroImage})
-
-*Last Updated: ${meta.lastUpdated}*
-
-${recallMarkdown}
+manualReview: ${meta.manualReview || false}
+---
 
 ${tocMarkdown}
 
 ${body}
 
 ${footer}`;
+
+    // Fix P2.3: Final Formatting Integrity Guard (Math, Bold, Code)
+    assembledBody = checkFormattingIntegrity(assembledBody);
+
+    // Fix P2.2: Global MCQ repair (Fuzzy)
+    assembledBody = normalizeMarkdownMCQs(assembledBody);
 
     return assembledBody;
 }
@@ -513,46 +508,59 @@ export function sanitizeAiText(text: string): string {
 }
 
 /**
- * Ensures LaTeX delimiters are balanced to prevent UI breakage.
+ * Compatibility Wrapper for legacy scripts.
+ * Maps old checkLatexIntegrity calls to the new multi-gate checkFormattingIntegrity.
  */
 export function checkLatexIntegrity(text: string): string {
+    return checkFormattingIntegrity(text);
+}
+
+/**
+ * Ensures LaTeX and Markdown formatting delimiters are balanced to prevent UI breakage.
+ * Fixes P2.3: Prevents bold/code/math bleeding across the entire page.
+ */
+export function checkFormattingIntegrity(text: string): string {
     if (!text) return "";
 
-    // 1. Logic for $$ (Block Math)
-    const blockMathCount = (text.match(/\$\$/g) || []).length;
-    if (blockMathCount % 2 !== 0) {
-        text += ' $$'; // Close dangling block math
-    }
+    let repaired = text;
 
-    // 2. Logic for $ (Inline Math)
-    const inlineMathCount = (text.match(/(?<!\$)\$(?!\$)/g) || []).length;
-    if (inlineMathCount % 2 !== 0) {
-        text += ' $';
-    }
+    // 1. Math Blocks ($$ and $)
+    const blockMathCount = (repaired.match(/\$\$/g) || []).length;
+    if (blockMathCount % 2 !== 0) repaired += '\n$$\n';
 
-    // 3. Simple Brace check for \frac{}{}
-    const openBraces = (text.match(/\{/g) || []).length;
-    const closeBraces = (text.match(/\}/g) || []).length;
+    const inlineMathCount = (repaired.match(/(?<!\$)\$(?!\$)/g) || []).length;
+    if (inlineMathCount % 2 !== 0) repaired += '$';
+
+    // 2. Bold and Italics (** and *)
+    const boldCount = (repaired.match(/\*\*/g) || []).length;
+    if (boldCount % 2 !== 0) repaired += '**';
+    
+    // 3. Code Tags (`)
+    const codeCount = (repaired.match(/(?<!`)`(?!`)/g) || []).length;
+    if (codeCount % 2 !== 0) repaired += '`';
+
+    // 4. Brace check for \frac{}{}
+    const openBraces = (repaired.match(/\{/g) || []).length;
+    const closeBraces = (repaired.match(/\}/g) || []).length;
     if (openBraces > closeBraces) {
-        text += '}'.repeat(openBraces - closeBraces);
+        repaired += '}'.repeat(openBraces - closeBraces);
     }
 
-    return text;
+    return repaired;
 }
 
 /**
  * REPAIR Logic: Normalizes MCQs in a full markdown body.
  * Ensures options A, B, C, D are on new lines with proper spacing.
+ * Fix P2.2: Added fuzzy matching for 'Answer:' variations.
  */
 export function normalizeMarkdownMCQs(body: string): string {
     if (!body) return "";
 
-    // 1. Find MCQ blocks across multiple lines
-    // Looks for a number followed by a question, then options, then Answer:
-    const mcqBlockRegex = /(\*\*?\d+[\.\)][\s\S]*?)(\s*\*?\*?[A-D][\)\.][\s\S]*?)(\*\*Answer:\*\*[\s\S]*?)(?=\n\n|\n\*\*?\d+[\.\)]|$)/gi;
+    // Find MCQ blocks across multiple lines (Fuzzy Support)
+    const mcqBlockRegex = /(\*\*?\d+[\.\)][\s\S]*?)(\s*\*?\*?[A-D][\)\.][\s\S]*?)(\**?(?:Answer|Correct|Solution|Options?):?[\s\S]*?)(?=\n\n|\n\*\*?\d+[\.\)]|$)/gi;
 
     return body.replace(mcqBlockRegex, (match, head, optionsBody, answer) => {
-        // Ensure each option starts on a new line
         const optionStarterRegex = /(\n?\s*\*?\*?[A-D][\)\.]\s*\*?\*?)/g;
         
         let repairedOptions = optionsBody.trim()
@@ -564,30 +572,5 @@ export function normalizeMarkdownMCQs(body: string): string {
 
         return `${head.trim()}\n${repairedOptions}\n\n${answer.trim()}\n\n`;
     });
-}
-
-/**
- * REPAIR Logic: Ensures raw LaTeX blocks (like those starting with \displaystyle)
- * are wrapped in $$ delimiters for proper browser rendering.
- */
-export function normalizeMarkdownLaTeX(body: string): string {
-    if (!body) return "";
-
-    // 1. Wrap \begin{...} \end{...} blocks
-    const envRegex = /(?<!\$)\s*(\\begin\{[\s\S]*?\\end\{.*?\})\s*(?!\$)/gi;
-    let processed = body.replace(envRegex, (match, env) => `\n\n$$\n${env.trim()}\n$$\n\n`);
-
-    // 2. Wrap single lines starting with common LaTeX commands if not wrapped
-    const lineRegex = /^(?!\s*[\$\!])(.*(?:\\displaystyle|\\frac\{|\\sqrt\{|\\sum\_|\\int\_|\\alpha|\\beta|\\gamma|\\Delta).*)$/gm;
-    processed = processed.replace(lineRegex, (match, math) => {
-         if (math.includes('\\') && math.length > 5 && !math.includes('$')) {
-            return `\n$$\n${math.trim()}\n$$\n`;
-        }
-        return match;
-    });
-
-    // 3. Fix Double-Slash escapes and clean up spacing
-    processed = processed.replace(/\\\\([a-zA-Z])/g, '\\$1');
-    return processed.replace(/\n{3,}/g, '\n\n');
 }
 

@@ -56,6 +56,11 @@ class NodeRouter {
       process.env.VITE_GEMINI_API_KEY_5,
       process.env.VITE_GEMINI_API_KEY_6,
     ].filter(Boolean) as string[];
+
+    if (this.groqKeys.length === 0 && this.geminiKeys.length === 0) {
+      console.error("❌ JULES_CRITICAL: No API keys loaded. Check your .env file.");
+      throw new Error("No API keys configured for NodeRouter.");
+    }
   }
 
   private loadUsage() {
@@ -67,6 +72,15 @@ class NodeRouter {
   }
 
   private saveUsage() {
+    // Fix P1.2: Quota Pruning (Remove entries older than 7 days)
+    const now = Date.now();
+    const cleaned: Record<string, UsageStats> = {};
+    for (const [key, stats] of Object.entries(this.usage)) {
+      if (now - stats.lastReset < 7 * 24 * 60 * 60 * 1000) {
+        cleaned[key] = stats;
+      }
+    }
+    this.usage = cleaned;
     fs.writeFileSync(STATE_FILE, JSON.stringify(this.usage, null, 2));
   }
 
@@ -89,6 +103,10 @@ class NodeRouter {
 
   private incrementUsage(modelId: string, keyIndex: number) {
     const key = `${modelId}_${keyIndex}`;
+    
+    // Fix P1.3: Atomic Refresher (Reload from disk before incrementing to prevent concurrency loss)
+    this.loadUsage();
+    
     if (!this.usage[key]) {
       this.usage[key] = { requests: 0, lastReset: Date.now() };
     }

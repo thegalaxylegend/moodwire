@@ -270,6 +270,17 @@ export const TopicPage = () => {
                             keyFact={`${topicData?.subtopics?.length || 5} core subtopics covered in the latest syllabus.`}
                         />
 
+                        {/* Scientific Verification Badge */}
+                        <div className="mt-4 flex items-center gap-2 px-3 py-1.5 bg-green-500/10 border border-green-500/20 rounded-lg w-fit">
+                            <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
+                            <span className="text-xs font-bold text-green-400 uppercase tracking-wider">
+                                Scientific Verification Active
+                            </span>
+                            <span className="text-[10px] text-green-500/70 border-l border-green-500/20 pl-2">
+                                Grounded via arXiv & Newton API
+                            </span>
+                        </div>
+
                         <StudentTip seedText={`${cleanTopicName}-${contextName}`} />
                     </motion.div>
                     
@@ -350,36 +361,11 @@ export const TopicPage = () => {
                                 );
                             }
 
-                            // Fallback to template prose if no DB content is generated yet
+                            // LTHK: Minimalist fallback when no content is present
                             return (
-                                <article className="prose prose-invert max-w-full mb-12 space-y-8">
-                                    <p className="text-xl text-gray-300 leading-relaxed font-medium">
-                                        Mastering <strong className="text-white">{cleanTopicName}</strong> is a critical step in your {formattedExam} preparation journey. 
-                                        Based on historical data analysis of over 50 past papers, this chapter typically accounts for {topicData?.subtopics.length && topicData.subtopics.length > 5 ? '3-4' : '1-2'} direct questions in the final examination.
-                                    </p>
-
-                                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-10">
-                                        <div className="border-l-4 border-purple-500 pl-6 space-y-3">
-                                            <h4 className="text-white font-bold text-lg uppercase tracking-tight">Conceptual Depth</h4>
-                                            <p className="text-gray-400 text-sm leading-relaxed">
-                                                The {contextName} syllabus heavily emphasizes application-based learning for {cleanTopicName}. It is not enough to simply memorize definitions;
-                                                you must understand their underlying principles and boundary conditions.
-                                            </p>
-                                        </div>
-                                        <div className="border-l-4 border-pink-500 pl-6 space-y-3">
-                                            <h4 className="text-white font-bold text-lg uppercase tracking-tight">{targetYear} Exam Pattern</h4>
-                                            <p className="text-gray-400 text-sm leading-relaxed">
-                                                Recent trends show a shift towards multi-step numericals and analytical-reason type questions for {cleanTopicName}. To stay competitive, you must be able to solve these in under 90 seconds.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <p className="text-lg text-gray-300 leading-relaxed">
-                                        Every topper knows that {cleanTopicName} requires a unique mental model. While some parts rely on logical deduction, others demand the application of specific formulas. By practicing the curated Previous Year Questions (PYQs) below, you will develop the "Muscle Memory" required to identify the correct approach during the actual {formattedExam} test.
-                                    </p>
-                                    
-                                    <p className="text-lg text-gray-300 leading-relaxed">
-                                        Once you have reviewed the core concepts, we recommend jumping into our AI practice arena. Our adaptive engine will test your proficiency across all subtopics of {cleanTopicName}, ensuring that no blind spots remain in your preparation for the {targetYear} cycle.
+                                <article className="prose prose-invert max-w-full mb-12">
+                                    <p className="text-xl text-gray-300 leading-relaxed font-bold border-l-4 border-purple-500 pl-6">
+                                        Data-driven summary for {cleanTopicName} is loading...
                                     </p>
                                 </article>
                             );

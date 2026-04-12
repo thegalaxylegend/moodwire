@@ -304,6 +304,83 @@ body {
   scrollbar-width: none;
 }
 
+/* Updated scroll-bar for glass panels */
+.glass-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: var(--glass-border) transparent;
+}
+
+.glass-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+
+.glass-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.glass-scroll::-webkit-scrollbar-thumb {
+  background: var(--glass-border);
+  border-radius: 10px;
+}
+
+.glass-scroll::-webkit-scrollbar-thumb:hover {
+  background: var(--text-faded);
+}
+
+/* Wave animation for speaking state */
+@keyframes wave-1 {
+  0%, 100% { height: 4px; }
+  50% { height: 12px; }
+}
+@keyframes wave-2 {
+  0%, 100% { height: 8px; }
+  50% { height: 4px; }
+}
+@keyframes wave-3 {
+  0%, 100% { height: 10px; }
+  50% { height: 14px; }
+}
+
+.animate-wave-1 { animation: wave-1 0.8s ease-in-out infinite; }
+.animate-wave-2 { animation: wave-2 0.8s ease-in-out infinite; }
+.animate-wave-3 { animation: wave-3 0.8s ease-in-out infinite; }
+
+/* Play button specifically */
+.message-play-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.message-play-btn:hover {
+  transform: scale(1.1);
+  background: rgba(255, 255, 255, 0.1);
+  color: #81ecff;
+}
+
+.message-play-btn.playing {
+  color: #81ecff;
+  border-color: #81ecff/30;
+  background: rgba(129, 236, 255, 0.1);
+}
+
+.message-play-btn svg {
+  width: 10px;
+  height: 10px;
+}
+
 /* Minimalist thin scrollbar for UI components */
 .scrollbar-thin::-webkit-scrollbar {
   width: 4px;

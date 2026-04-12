@@ -6,7 +6,7 @@ import rehypeKatex from 'rehype-katex';
 import rehypeHighlight from 'rehype-highlight';
 import 'katex/dist/katex.min.css';
 import 'highlight.js/styles/github-dark.css';
-import { Bot, User, ArrowRight } from 'lucide-react';
+import { Bot, User, ArrowRight, Volume2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { usePerformanceLevel } from '../../hooks/usePerformanceLevel';
 
@@ -22,6 +22,8 @@ interface Message {
 
 interface MessageBubbleProps {
     message: Message;
+    onSpeak?: (text: string, id: number) => void;
+    speakingId?: number | null;
 }
 
 const sanitizeMermaid = (chart: string) => {
@@ -217,7 +219,7 @@ const Mermaid = ({ chart, isStreaming }: { chart: string; isStreaming?: boolean 
     );
 };
 
-export const MessageBubble: React.FC<MessageBubbleProps> = React.memo(({ message }) => {
+export const MessageBubble: React.FC<MessageBubbleProps> = React.memo(({ message, onSpeak, speakingId }) => {
     const perfTier = usePerformanceLevel();
     const isBot = message.sender === 'bot';
 
@@ -306,12 +308,33 @@ export const MessageBubble: React.FC<MessageBubbleProps> = React.memo(({ message
                             </Link>
                         )}
                         
-                        {/* Timestamp - Refined Positioning */}
-                        <div className="absolute bottom-1.5 right-2.5 leading-none">
-                            <span className={`text-[9px] font-bold tabular-nums uppercase tracking-tight ${isBot ? 'text-white/20' : 'text-white/40'}`}>
-                                {new Date(message.id).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
-                            </span>
-                        </div>
+                    </div>
+
+                    {/* Meta Row: Timestamp & Play Button (Outside Box) */}
+                    <div className={`flex items-center gap-1.5 mt-1 ${isBot ? 'self-start' : 'self-end flex-row-reverse'}`}>
+                        {isBot && onSpeak && !message.isStreaming && (
+                            <button 
+                                onClick={(e) => {
+                                    e.stopPropagation();
+                                    onSpeak(message.text, message.id);
+                                }}
+                                className={`message-play-btn ${speakingId === message.id ? 'playing' : ''}`}
+                                title={speakingId === message.id ? "Pause" : "Listen"}
+                            >
+                                {speakingId === message.id ? (
+                                    <div className="flex gap-0.5 items-center justify-center h-2">
+                                        <span className="w-0.5 h-1.5 bg-current animate-wave-1 rounded-full" />
+                                        <span className="w-0.5 h-1 bg-current animate-wave-2 rounded-full" />
+                                        <span className="w-0.5 h-2 bg-current animate-wave-3 rounded-full" />
+                                    </div>
+                                ) : (
+                                    <Volume2 size={13} />
+                                )}
+                            </button>
+                        )}
+                        <span className={`text-[9px] font-bold tabular-nums uppercase tracking-tight ${isBot ? 'text-white/20' : 'text-white/40'}`}>
+                            {new Date(message.id).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
+                        </span>
                     </div>
                 </div>
             </div>

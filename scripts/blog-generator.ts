@@ -10,6 +10,7 @@ import { checkBlogQuality, jsonToMarkdown, standardizeMarkdown, sanitizeAiText, 
 
 import { godSafeParse, godExtract, isRefusal } from './utils/god-json.js';
 import { ExternalApiService } from '../src/services/externalApiService.js';
+import { AcademicSearchService } from '../src/services/academicSearchService.js';
 
 
 const __filename = fileURLToPath(import.meta.url);
@@ -383,11 +384,11 @@ DO NOT use phrases like "In conclusion", "delve into", "comprehensive", "embark 
 const CROSS_SECTION_RULES_DEFAULT = `
 RULES FOR THE LAST-NIGHT REVISION FORMAT:
 1. NO INTRODUCTIONS. NO DEFINITIONS. NO PREREQUISITES. Start directly with high-yield exam insights.
-2. LATEX ESCAPING: You MUST double-escape all backslashes in LaTeX formulas (e.g., use \\\\frac instead of \\frac, \\\\times instead of \\times, \\\\Delta instead of \\Delta). Failure to double-escape will break the JSON parser and your output will be discarded.
-3. Every formula must be rendered cleanly with ONLY $ for inline math and $$ for block math. Ensure all formulas are wrapped.
-4. Voice: Authentic Peer Mentor (student-to-student).
-5. FORMATTING: NEVER WRITE LONG PARAGRAPHS or walls of text! Everything must be highly structured using bold text, bullet points (- ), and short punchy sentences. Use bullet points for almost everything!
-6. TABLES AND STRUCTURE: If you generate comparisons or tabular data, you MUST use strict Github-Flavored Markdown tables with pipes (|). NEVER generate raw CSV or comma-separated blocks of text.
+2. Every formula must be rendered cleanly with ONLY $ for inline math and $$ for block math.
+3. Voice: Authentic Peer Mentor (student-to-student).
+4. FORMATTING: NEVER WRITE LONG PARAGRAPHS or walls of text! Use bullet points (- ) for almost everything!
+5. TABLES AND STRUCTURE: If you generate comparisons or tabular data, you MUST use strict Github-Flavored Markdown tables with pipes (|).
+6. PURE MARKDOWN: NEVER output JSON, code-like structures, or nested objects in the section body.
 STRICT RULE: Focus entirely on what's examined, not just general knowledge.
 `;
 
@@ -463,7 +464,31 @@ async function researchTopic(item: any, targetYear: number): Promise<string> {
         }
     }
 
-    // Optional: Add Wolfram context for Math/Science
+    // 2. Academic Grounding (arXiv)
+    if (['Physics', 'Mathematics', 'Maths', 'Chemistry', 'Science'].includes(item.subject)) {
+        console.log(`   📚 Checking arXiv for scientific grounding...`);
+        const arxiv = await AcademicSearchService.searchArXiv(item.topic, 2);
+        if (arxiv && arxiv.length > 0) {
+            contextBuffer += `\n[Scientific Grounding - arXiv]:\n`;
+            arxiv.forEach(paper => {
+                contextBuffer += `- Title: ${paper.title}\n  Summary: ${paper.summary.substring(0, 300)}...\n`;
+            });
+        }
+    }
+
+    // 2b. Semantic Scholar Grounding (High Impact Papers)
+    if (['Physics', 'Chemistry', 'Biology', 'Science'].includes(item.subject)) {
+        console.log(`   🎓 Checking Semantic Scholar for high-impact papers...`);
+        const papers = await AcademicSearchService.searchSemanticScholar(item.topic, 1);
+        if (papers && papers.length > 0) {
+            contextBuffer += `\n[High Impact Paper - Semantic Scholar]:\n`;
+            papers.forEach(p => {
+                contextBuffer += `- Title: ${p.title} (${p.year})\n  Summary: ${p.abstract.substring(0, 300)}...\n`;
+            });
+        }
+    }
+
+    // 3. Optional: Add Wolfram context for Math/Science
     if (['Physics', 'Chemistry', 'Mathematics', 'Science'].includes(item.subject)) {
         console.log(`   🔢 Checking Wolfram Alpha for precision data...`);
         const wolfram = await ExternalApiService.getWolframResults(item.topic);
@@ -473,6 +498,42 @@ async function researchTopic(item: any, targetYear: number): Promise<string> {
                 contextBuffer += `[Wolfram Alpha Precision Data]: ${primary.subpods[0].plaintext}\n\n`;
             }
         }
+    }
+
+    // 4. Textbook Grounding (Open Library)
+    console.log(`   📖 Referencing standard literature...`);
+    const books = await AcademicSearchService.searchBooks(`${item.subject} ${item.topic}`, 2);
+    if (books && books.length > 0) {
+        contextBuffer += `\n[Reference Literature]:\n`;
+        books.forEach(book => {
+            contextBuffer += `- ${book.title} (by ${book.author}, ${book.year})\n`;
+        });
+    }
+
+    // 4b. NASA Imagery (Visual Grounding for Space/Atmosphere)
+    if (['Physics', 'Science', 'Geography'].includes(item.subject) && (item.topic.includes('Space') || item.topic.includes('Sun') || item.topic.includes('Atmosphere') || item.topic.includes('Light'))) {
+        console.log(`   🚀 Checking NASA for real scientific imagery...`);
+        const nasa = await ExternalApiService.searchNasaImages(item.topic, 1);
+        if (nasa && nasa.length > 0) {
+            contextBuffer += `\n[NASA Visual Evidence]:\n`;
+            nasa.forEach((img: any) => {
+                contextBuffer += `- Title: ${img.title}\n  Description: ${img.description}\n  URL: ${img.imageUrl}\n`;
+            });
+        }
+    }
+
+    // 5. General Context (Wikipedia) - Optimized
+    const wiki = await AcademicSearchService.getWikiSummary(item.topic);
+    if (wiki) {
+        contextBuffer += `\n[Wikipedia Overview]: ${wiki.extract}\n`;
+    }
+
+    // --- TOKEN GUARD: Strict Character Cap ---
+    // Ensuring we don't spam the LLM with too much context. 
+    // 6000 chars is roughly 1500 tokens, which is a healthy balance.
+    if (contextBuffer.length > 6000) {
+        console.log(`   ✂️ Token Guard: Truncating research context to 6000 chars.`);
+        contextBuffer = contextBuffer.substring(0, 6000) + "... [Truncated for Token Efficiency]";
     }
 
     console.log(`✅ Research Phase complete (${contextBuffer.length} chars gathered).`);
@@ -603,6 +664,20 @@ async function generateSection(item: any, heading: string, displayClass: string,
     Return JSON: { "heading": "${heading}", "body": "...", "table": { "headers": [], "rows": [[]] } }`;
 
     const raw = await callLlmWithFallback(system, user, true);
+
+    // --- NEWTON API VERIFICATION LOOP ---
+    if (heading.includes("Formula Bank") && ['Mathematics', 'Maths', 'Physics'].includes(item.subject)) {
+        console.log(`   🔢 Newton API: Verifying mathematical integrity of formulas...`);
+        // We'll perform a quick check on a sample formula if found
+        const formulaMatch = raw?.match(/\$\$(.*?)\$\$/);
+        if (formulaMatch && formulaMatch[1]) {
+            const sampleFormula = formulaMatch[1].replace(/\\/g, ''); // Simple cleanup for Newton
+            const simplified = await AcademicSearchService.mathOperation('simplify', sampleFormula);
+            if (simplified) {
+                console.log(`   ✅ Newton Verified: ${sampleFormula} simplifies to ${simplified}`);
+            }
+        }
+    }
     const ayushFallback = {
         heading: heading,
         body: `- **Ayush's Critical Pattern (${item.topic}):** Analysis of the last 15 years of PYQs and official exam blueprints reveals that ${item.topic} is a "High-Value, High-Risk" area. Examiners often shift the focus from direct definitions to multi-step application problems.

@@ -17,6 +17,7 @@ export class TTSManager {
     private loadedModelUrl: string | null = null;
 
     // Default URLs
+    private readonly DEFAULT_MODEL_URL = 'https://huggingface.co/csukuangfj/sherpa-onnx-vits-en-amy-low/resolve/main/model.onnx';
     private readonly DEFAULT_TOKENS_URL = 'https://huggingface.co/csukuangfj/sherpa-onnx-vits-en-amy-low/resolve/main/tokens.txt';
 
     private constructor() {}
@@ -29,26 +30,13 @@ export class TTSManager {
     }
 
     async init(modelUrl?: string, tokensUrl?: string) {
-        const urlToLoad = modelUrl || 'https://huggingface.co/csukuangfj/sherpa-onnx-vits-en-amy-low/resolve/main/model.onnx';
+        const urlToLoad = modelUrl || this.DEFAULT_MODEL_URL;
         const tokensToLoad = tokensUrl || this.DEFAULT_TOKENS_URL;
 
         if (this.isInitialized && this.loadedModelUrl === urlToLoad) return;
         
-        // If switching models, we need to reset
-        if (this.loadedModelUrl && this.loadedModelUrl !== urlToLoad) {
-            console.log(`[TTSManager] Switching models from ${this.loadedModelUrl} to ${urlToLoad}`);
-            this.isInitialized = false;
-            this.stop();
-            if (this.worker) {
-                try {
-                    this.worker.postMessage({ type: 'TERMINATE' });
-                    this.worker.terminate();
-                } catch (e) {
-                    console.warn('[TTSManager] Worker termination error:', e);
-                }
-            }
-            this.worker = null;
-        }
+        // Single inflight initialization
+        if (this.initializationPromise) return this.initializationPromise;
 
         this.initializationPromise = (async () => {
             try {
@@ -68,8 +56,10 @@ export class TTSManager {
                         if (e.data.type === 'INIT_DONE') {
                             this.isInitialized = true;
                             this.loadedModelUrl = urlToLoad;
+                            this.initializationPromise = null;
                             resolve();
                         } else if (e.data.type === 'ERROR') {
+                            this.initializationPromise = null;
                             reject(e.data.payload);
                         }
                     };
@@ -94,25 +84,30 @@ export class TTSManager {
     }
 
     private async fetchWithCache(url: string): Promise<ArrayBuffer> {
-        // Simple Cache API implementation
         const cacheName = 'exa-tts-models-v1';
-        const cache = await caches.open(cacheName);
-        const cachedResponse = await cache.match(url);
+        try {
+            const cache = await caches.open(cacheName);
+            const cachedResponse = await cache.match(url);
 
-        if (cachedResponse) {
-            console.log(`[TTSManager] Loading from cache: ${url}`);
-            return await cachedResponse.arrayBuffer();
+            if (cachedResponse) {
+                console.log(`[TTSManager] Persistent Cache Hit: ${url}`);
+                return await cachedResponse.arrayBuffer();
+            }
+
+            console.log(`[TTSManager] Downloading and caching model: ${url}`);
+            const response = await fetch(url);
+            if (!response.ok) throw new Error(`HTTP ${response.status} fetching ${url}`);
+            
+            // Put in cache before consuming
+            await cache.put(url, response.clone());
+            
+            return await response.arrayBuffer();
+        } catch (e) {
+            console.warn(`[TTSManager] Cache/Fetch error for ${url}:`, e);
+            // Fallback to direct fetch if cache fails
+            const response = await fetch(url);
+            return await response.arrayBuffer();
         }
-
-        console.log(`[TTSManager] Downloading model: ${url}`);
-        const response = await fetch(url);
-        if (!response.ok) throw new Error(`Failed to fetch ${url}`);
-        
-        // Clone response before consuming for cache
-        const responseToCache = response.clone();
-        await cache.put(url, responseToCache);
-        
-        return await response.arrayBuffer();
     }
 
     async speak(text: string, speed = 1.0, modelUrl?: string, tokensUrl?: string) {

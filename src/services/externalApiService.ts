@@ -188,5 +188,32 @@ export const ExternalApiService = {
             console.error('ExternalApiService: Wolfram fetch failed', error);
             return null;
         }
+    },
+
+    /**
+     * NASA Image Search API: Fetches high-quality scientific imagery/diagrams.
+     * Useful for Space, Physics, and Earth Science visuals.
+     */
+    searchNasaImages: async (query: string, limit: number = 3) => {
+        try {
+            const encodedQuery = encodeURIComponent(query);
+            const url = `https://images-api.nasa.gov/search?q=${encodedQuery}&media_type=image`;
+            
+            const response = await fetch(url);
+            if (!response.ok) return [];
+            
+            const data = await response.json();
+            const items = data.collection?.items?.slice(0, limit) || [];
+            
+            return items.map((item: any) => ({
+                title: item.data?.[0]?.title,
+                description: item.data?.[0]?.description?.substring(0, 300),
+                imageUrl: item.links?.[0]?.href,
+                nasaId: item.data?.[0]?.nasa_id
+            }));
+        } catch (error) {
+            console.error('ExternalApiService: NASA search failed', error);
+            return [];
+        }
     }
 };

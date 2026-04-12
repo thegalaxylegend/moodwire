@@ -29,7 +29,7 @@ const TODAY = new Date().toISOString().split('T')[0];
 import Groq from 'groq-sdk';
 import 'dotenv/config';
 import { godSafeParse, godExtract, isRefusal } from './utils/god-json.ts';
-import { sanitizeAiText, checkLatexIntegrity, normalizeMarkdownMCQs, normalizeMarkdownLaTeX } from './utils/jules-quality.ts';
+import { sanitizeAiText, checkLatexIntegrity, normalizeMarkdownMCQs } from './utils/jules-quality.ts';
 import { auditGrammar } from './utils/grammar-audit.ts';
 import { extractTextFromImage } from './utils/ocr-tool.ts';
 import { fetchWikiSummary, buildWikiCallout } from './utils/wikipedia-enricher.ts';
@@ -368,7 +368,7 @@ async function repairBlog(filePath: string, isDryRun: boolean, canUseAi: boolean
     }
     // ========= NEW: Advanced LaTeX Normalization =========
     const bodyBeforeLatex = body;
-    body = normalizeMarkdownLaTeX(body);
+    body = checkLatexIntegrity(body);
     if (body !== bodyBeforeLatex) {
         fixes.push('Normalized advanced LaTeX formatting (wrapped raw blocks)');
     }

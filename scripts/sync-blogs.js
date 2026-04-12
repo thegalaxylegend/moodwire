@@ -29,6 +29,12 @@ async function sync() {
         const content = fs.readFileSync(filePath, 'utf8');
         const slug = file.replace('.md', '');
 
+        // REGISTRY SHIELD: Block blogs with technical artifacts
+        if (content.includes('[object Object]') || /\{[\s\S]*?"heading":[\s\S]*?"body":/.test(content)) {
+            console.error(`❌ Shield: Ignoring corrupted blog "${slug}" (artifacts detected)`);
+            continue;
+        }
+
         // Extract metadata using robust regex
         // Handles both quoted ("...") and unquoted values
         const titleMatch = content.match(/^title:\s*["']?(.*?)["']?$/m);

@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { QuickReplies } from './QuickReplies';
 import { MessageBubble } from './MessageBubble';
 import { usePerformanceLevel } from '../../hooks/usePerformanceLevel';
+import { ttsManager } from '../../lib/tts/TTSManager';
 
 interface VoicePreset {
     id: string;
@@ -79,6 +80,32 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
     const messagesEndRef = useRef<HTMLDivElement>(null);
     const hasInitialScrolled = useRef(false);
     const [isToolboxOpen, setIsToolboxOpen] = useState(false);
+    const [speakingId, setSpeakingId] = useState<string | null>(null);
+
+    const handleSpeak = async (id: string, text: string) => {
+        if (speakingId === id) {
+            ttsManager.stop();
+            window.speechSynthesis.cancel();
+            setSpeakingId(null);
+            return;
+        }
+
+        setSpeakingId(id);
+        
+        try {
+            // Attempt neural TTS
+            await ttsManager.speak(text);
+            setSpeakingId(null);
+        } catch (error) {
+            console.warn('[ChatWindow] Neural TTS failed, fallback to native:', error);
+            
+            // Native Fallback
+            const utterance = new SpeechSynthesisUtterance(text);
+            utterance.onend = () => setSpeakingId(null);
+            utterance.onerror = () => setSpeakingId(null);
+            window.speechSynthesis.speak(utterance);
+        }
+    };
 
     const scrollContainerRef = useRef<HTMLDivElement>(null);
     const [isAtBottom, setIsAtBottom] = useState(true);
@@ -402,7 +429,12 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({
                         >
                             <div className="max-w-full md:max-w-5xl mx-auto w-full pb-32">
                                 {messages.map((m) => (
-                                    <MessageBubble key={m.id} message={m} />
+                                    <MessageBubble 
+                                        key={m.id} 
+                                        message={m} 
+                                        onSpeak={handleSpeak}
+                                        speakingId={speakingId}
+                                    />
                                 ))}
 
                                 {isSearching && (

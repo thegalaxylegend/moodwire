@@ -25,6 +25,9 @@ export async function fetchSearchIntelligence(topic: string): Promise<SearchInte
         return null;
     }
 
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 5000); // 5s Timeout
+
     try {
         const response = await fetch('https://google.serper.dev/search', {
             method: 'POST',
@@ -32,8 +35,11 @@ export async function fetchSearchIntelligence(topic: string): Promise<SearchInte
                 'X-API-KEY': SERPER_API_KEY, 
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify({ q: topic, gl: 'in', hl: 'en' }) // Region set to India
+            body: JSON.stringify({ q: topic, gl: 'in', hl: 'en' }),
+            signal: controller.signal
         });
+
+        clearTimeout(timeoutId);
 
         if (!response.ok) return null;
 
@@ -44,7 +50,12 @@ export async function fetchSearchIntelligence(topic: string): Promise<SearchInte
             relatedSearches: (data.relatedSearches || []).map((s: any) => s.query)
         };
     } catch (err: any) {
-        console.error(`❌ Serper error: ${err.message}`);
+        clearTimeout(timeoutId);
+        if (err.name === 'AbortError') {
+            console.error(`🕒 Serper API timed out after 5s for: ${topic}`);
+        } else {
+            console.error(`❌ Serper error: ${err.message}`);
+        }
         return null;
     }
 }

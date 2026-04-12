@@ -6,9 +6,10 @@
   "main": "main.cjs",
   "scripts": {
     "dev": "vite",
-    "build": "npm run blog:sync && npm run seo:regen && tsc -b && vite build && npm run build:ssr && node scripts/prerender-all.js && node scripts/generate-sitemap.js && node scripts/generate-rss.js && npm run seo:ping",
+    "build": "npx tsx scripts/sanity-guard.ts && npm run blog:sync && npm run seo:regen && tsc -b && vite build && npm run build:ssr && node scripts/prerender-all.js && node scripts/generate-sitemap.js && node scripts/generate-rss.js && npm run seo:ping",
     "build:ssr": "vite build --ssr src/entry-server.tsx --outDir dist/server",
     "ssg": "npm run build",
+    "sanity:check": "npx tsx scripts/sanity-guard.ts",
     "blog:sync": "node scripts/sync-blogs.js",
     "blog:images": "node scripts/repair-images.js",
     "blog:placeholders": "node scripts/generate-blog-placeholders.js",

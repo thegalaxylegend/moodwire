@@ -6,7 +6,7 @@ import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 import rehypeRaw from 'rehype-raw';
 import 'katex/dist/katex.min.css';
-import { ArrowLeft, Loader2, Calendar, Download, BookOpen } from 'lucide-react';
+import { Loader2, Calendar, Download, BookOpen } from 'lucide-react';
 import { SEO } from '../../components/SEO';
 import { BlogSchema } from '../../components/blog/BlogSchema';
 import { BlogCTA } from '../../components/blog/BlogCTA';
@@ -117,7 +117,7 @@ export const BlogPostPage: React.FC = () => {
         return (
             <div className="min-h-screen bg-black">
                 <Navbar />
-                <div className="pt-28 pb-20 px-4 sm:px-6 max-w-4xl mx-auto">
+                <div className="pt-6 pb-20 px-4 sm:px-6 max-w-4xl mx-auto overflow-x-hidden will-change-transform relative z-10">
                     <BlogSkeleton />
                 </div>
             </div>
@@ -128,9 +128,6 @@ export const BlogPostPage: React.FC = () => {
         return (
             <div className="min-h-screen flex flex-col items-center justify-center bg-black text-white p-6 text-center">
                 <h1 className="text-3xl font-bold mb-4">Article Not Found</h1>
-                <Link to="/blog" className="px-6 py-2 bg-purple-600 rounded-xl font-bold flex items-center gap-2">
-                    <ArrowLeft className="w-5 h-5" /> Back to Blog
-                </Link>
             </div>
         );
     }
@@ -168,91 +165,75 @@ export const BlogPostPage: React.FC = () => {
                 initial={isLow ? { opacity: 1 } : { opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8 }}
-                className="pt-28 pb-20 px-4 sm:px-6 max-w-4xl mx-auto overflow-x-hidden will-change-transform relative z-10"
+                className="pt-24 pb-20 px-4 sm:px-6 max-w-4xl mx-auto overflow-x-hidden will-change-transform relative z-10"
             >
-                <div className="mb-6">
+                <div className="mb-2">
                     <Breadcrumbs />
                 </div>
-                <Link to="/blog" className="inline-flex items-center gap-2 text-gray-400 hover:text-white mb-10 transition-colors font-medium group">
-                    <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" /> Back to all articles
-                </Link>
 
-                <header className="mb-16">
-                    <div className="flex flex-wrap items-center justify-between gap-4 mb-8">
+                <header className="mb-8">
+                    <div className="flex flex-wrap items-center justify-between gap-4 mb-4">
                         <span className="px-4 py-1.5 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xs tracking-widest uppercase border border-purple-500/30 whitespace-nowrap">
-                            {meta.category}
+                            {meta.category || 'Revision'}
                         </span>
-                        <div className="flex flex-wrap items-center gap-2 sm:gap-4 ml-auto">
-                            {/* Primary Viral Share moved to footer for cleaner layout */}
-                        </div>
                     </div>
 
-                    <h1 className="text-2xl sm:text-4xl md:text-5xl font-extrabold mb-6 leading-tight break-words [overflow-wrap:anywhere]">
+                    <h1 className="text-3xl sm:text-5xl md:text-6xl font-extrabold mb-8 leading-tight tracking-tight text-white bg-clip-text">
                         {meta.title}
                     </h1>
 
-                    <div className="flex flex-wrap items-center justify-between gap-6 mb-12 p-6 rounded-3xl bg-white/5 border border-white/10">
+                    <div className="flex flex-wrap items-center justify-between gap-6 mb-8 p-6 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-md">
                         <div className="flex flex-wrap items-center gap-6 text-gray-400 font-medium">
                             <div className="flex items-center gap-3">
-                                <div className="w-10 h-10 rounded-full bg-purple-500/20 flex items-center justify-center text-purple-400 font-bold border border-purple-500/30">A</div>
+                                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-white font-bold border border-white/20 shadow-lg">A</div>
                                 <div>
-                                    <p className="text-white text-sm font-bold">Ayush (Founder)</p>
-                                    <p className="text-[10px] uppercase tracking-wider">Exam Strategist</p>
+                                    <p className="text-white text-base font-bold">Ayush (Founder)</p>
+                                    <p className="text-xs uppercase tracking-widest text-purple-400 font-semibold opacity-80">Exam Strategist</p>
                                 </div>
                             </div>
-                            <div className="flex items-center gap-2 bg-black/40 py-1.5 px-3 rounded-lg text-xs border border-white/5">
-                                <Calendar className="w-3.5 h-3.5" />
-                                <span>Last Updated: 
-                                    <time dateTime={meta.date} itemProp="dateModified">
-                                        {new Date(meta.date).toLocaleDateString('en-IN', {
-                                            day: 'numeric',
-                                            month: 'long',
-                                            year: 'numeric'
-                                        })}
-                                    </time>
-                                </span>
+                            <div className="flex items-center gap-2 bg-black/40 py-2 px-4 rounded-xl text-xs border border-white/10 font-bold tracking-wide">
+                                <Calendar className="w-4 h-4 text-purple-400" />
+                                <span>Last Updated: {meta.date}</span>
                             </div>
-
                         </div>
 
                         <button 
                             onClick={handleDownloadPDF}
                             disabled={generatingPdf}
-                            className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl font-bold text-sm hover:scale-105 transition-all shadow-lg shadow-purple-500/20 disabled:opacity-50 group"
+                            className="flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 bg-[length:200%_auto] animate-gradient-x rounded-2xl font-black text-sm hover:scale-105 transition-all shadow-xl shadow-purple-500/25 disabled:opacity-50 group border border-white/20"
                         >
-                            {generatingPdf ? <Loader2 className="w-4 h-4 animate-spin" /> : <Download className="w-4 h-4 group-hover:translate-y-0.5 transition-transform" />}
-                            {generatingPdf ? 'Generating...' : 'Download Revision PDF'}
+                            {generatingPdf ? <Loader2 className="w-4 h-4 animate-spin text-white" /> : <Download className="w-5 h-5 group-hover:translate-y-0.5 transition-transform text-white" />}
+                            <span className="text-white drop-shadow-md">{generatingPdf ? 'Generating...' : 'Download Revision PDF'}</span>
                         </button>
                     </div>
 
-                    {/* Area 5: Practice Link Routing (Dynamic for all subjects) */}
-                    {(() => {
-                        const PRACTICE_LINK_MAP: Record<string, string> = {
-                            "Social Science": "/class-11/social-science",
-                            "Geography": "/class-11/geography",
-                            "History": "/class-11/history",
-                            "Physics": "/class-11/physics",
-                            "Chemistry": "/class-11/chemistry",
-                            "Biology": "/class-11/biology",
-                            "Mathematics": "/class-11/mathematics",
-                            "Economics": "/class-11/economics",
-                        };
+                    {meta.practice_link && (
+                        <Link 
+                            to={meta.practice_link}
+                            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-purple-500/10 border border-purple-500/20 text-purple-300 font-bold text-sm hover:bg-purple-500/20 transition-all mb-8 group"
+                        >
+                            <BookOpen className="w-4 h-4" />
+                            <span>Practice Questions for this chapter</span>
+                            <span className="group-hover:translate-x-1 transition-transform">→</span>
+                        </Link>
+                    )}
 
-                        const practiceBase = PRACTICE_LINK_MAP[meta.subject] ?? "/class-11";
-                        const practiceLink = `${practiceBase}/${slug}`;
-                        
-                        return (
-                            <div className="mb-10">
-                                <Link 
-                                    to={practiceLink}
-                                    className="inline-flex items-center gap-2 text-purple-400 hover:text-purple-300 font-bold text-sm bg-purple-500/5 px-4 py-2 rounded-lg border border-purple-500/10 transition-colors"
-                                >
-                                    <BookOpen className="w-4 h-4" /> Practice Questions for this chapter →
-                                </Link>
-                            </div>
-                        );
-                    })()}
-
+                    {meta.image && (
+                        <div className="relative aspect-[21/9] w-full mt-4 rounded-[40px] overflow-hidden border border-white/10 shadow-[0_32px_64px_-16px_rgba(0,0,0,0.6)] group">
+                            <img 
+                                src={meta.image} 
+                                alt={meta.title}
+                                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                                loading="eager"
+                                onError={(e) => {
+                                    const target = e.target as HTMLImageElement;
+                                    target.src = 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?q=80&w=2000&auto=format&fit=crop'; // Scientific abstract fallback
+                                    target.onerror = null; // Prevent infinite loop
+                                }}
+                            />
+                            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60" />
+                        </div>
+                    )}
                 </header>
 
                 <div className="blog-content prose prose-invert prose-purple max-w-none
