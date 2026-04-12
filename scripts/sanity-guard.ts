@@ -210,9 +210,9 @@ async function runSanityCheck() {
             errors.push(`Content too short: ${content.length} chars (min 500)`);
         }
 
-        const wordCount = body.split(/\s+/).filter(w => w.length > 0).length;
-        if (wordCount < 300) {
-            warnings.push(`Very low word count: ${wordCount} words (expected 1000+)`);
+        const exactWordCount = body.split(/\s+/).filter(w => w.length > 0).length;
+        if (exactWordCount < 300) {
+            warnings.push(`Very low word count: ${exactWordCount} words (expected 1000+)`);
         }
 
         // ═══════════════════════════════════════════
