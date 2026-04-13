@@ -97,7 +97,7 @@ The formula for auxin-induced cell elongation is: $\frac{dL}{dt} = k \cdot \frac
 Photoperiodism is the response of [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) to the length of daylight. [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) can be classified into three categories based on their photoperiodic response:
 * Short-day [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet): flower in response to short days
 * Long-day [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet): flower in response to long days
-* Day-neutral plants: flower regardless of day length
+* Day-neutral [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet): flower regardless of day length
 
 The formula for photoperiodic response is: $\frac{dF}{dt} = k \cdot \frac{dD}{dt}$, where $F$ is the flowering response, $D$ is the day length, and $k$ is a constant.
 
@@ -106,7 +106,7 @@ The formula for photoperiodic response is: $\frac{dF}{dt} = k \cdot \frac{dD}{dt
 
 ## <a id="shortcut-formula-trick"></a>Shortcut Formula / Trick
 
-To remember the different types of plant hormones, you can use the acronym "AGACE":
+To remember the different types of [plant](/blog/plant-kingdom-class-11-revision-notes-neet) hormones, you can use the acronym "AGACE":
 * A: Auxins
 * G: Gibberellins
 * A: Abscisic acid

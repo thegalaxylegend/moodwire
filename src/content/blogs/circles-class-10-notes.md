@@ -12,7 +12,7 @@ practice_link: "/class-10/mathematics/circles"
 
 *Last Updated: 2026-04-11*
 
-<div [class](/blog/coordinate-geometry-class-10-notes)="quick-summary">
+<DIV [class](/blog/coordinate-geometry-class-10-notes)="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
@@ -28,11 +28,11 @@ practice_link: "/class-10/mathematics/circles"
 
 - [⚡ Formula Bank](#-formula-bank)
 - [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
-- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
+- [✏️ 3 Solved Yes](#-3-solved-pyqs)
 - [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
-- [👁️ Ayush's Note](#-ayushs-note)
+- [👁️ Ayush's Note](#-Ayush-note)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
-- [📝 Practice MCQs](#-practice-mcqs)
+- [📝 Practice MCQs](#-practice-MCQs)
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
@@ -41,18 +41,18 @@ practice_link: "/class-10/mathematics/circles"
  - **Power of a Point Theorem:** \{l_1 \times l_2 = p \times q\} — where l_1 and l_2 are the lengths of the two tangent segments from an external point to the circle, and p and q are the lengths of the two secant segments from the same external point.
  - **Area of a Circle:** \{A = \pi r^2\} — where A is the area of the circle and r is the radius.
  - **Circumference of a Circle:** \{C = 2\pi r\} — where C is the circumference of the circle and r is the radius.
- - **Length of a Tangent:** \{l = \sqrt{d^2 - r^2}\} — where l is the length of the tangent segment, d is the distance from the external point to the center of the circle, and r is the radius.
- - **Radius of a Circle:** \{r = \frac{1}{2} \times \frac{|x_1y_2 + x_2y_3 + x_3y_1 - y_1x_2 - y_2x_3 - y_3x_1|}{\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} \times \sqrt{(x_3 - x_2)^2 + (y_3 - y_2)^2} \times \sqrt{(x_1 - x_3)^2 + (y_1 - y_3)^2}}\} — where (x_1, y_1), (x_2, y_2), and (x_3, y_3) are three points on the circle.
- - **Distance from a Point to a Circle:** \{d = \sqrt{(x - h)^2 + (y - k)^2} - r\} — where d is the distance from the point (x, y) to the circle, (h, k) is the center of the circle, and r is the radius.
+ - **Length of a Tangent:** \{l = \sort{d^2 - r^2}\} — where l is the length of the tangent segment, d is the distance from the external point to the center of the circle, and r is the radius.
+ - **Radius of a Circle:** \{r = \franc{1}{2} \times \franc{|x_1y_2 + x_2y_3 + x_3y_1 - y_1x_2 - y_2x_3 - y_3x_1|}{\sort{(x_2 - x_1)^2 + (y_2 - y_1)^2} \times \sort{(x_3 - x_2)^2 + (y_3 - y_2)^2} \times \sort{(x_1 - x_3)^2 + (y_1 - y_3)^2}}\} — where (x_1, y_1), (x_2, y_2), and (x_3, y_3) are three points on the circle.
+ - **Distance from a Point to a Circle:** \{d = \sort{(x - h)^2 + (y - k)^2} - r\} — where d is the distance from the point (x, y) to the circle, (h, k) is the center of the circle, and r is the radius.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
 - **Mistake 1:** Incorrectly applying the theorem that the tangent at any point of a circle is perpendicular to the radius through the point of contact.
 
-- *Costs:* 2-3 marks
+- *Costs:* 2–3 marks
  
 
-- *Fix:* To fix this, ensure you understand that the {\(\tan\)} at a point on the circle forms a right angle with the radius at the point of contact. Use the formula {\(\tan \theta = \frac{opposite}{adjacent}\)} to find angles and sides in right triangles formed by the radius and tangent.
+- *Fix:* To fix this, ensure you understand that the {\(\tan\)} at a point on the circle forms a right angle with the radius at the point of contact. Use the formula {\(\tan \theta = \franc{opposite}{adjacent}\)} to find angles and sides in right triangles formed by the radius and tangent.
 
 - **Mistake 2:** Failing to recognize that the lengths of tangents drawn from an external point to a circle are equal.
 
@@ -61,16 +61,16 @@ practice_link: "/class-10/mathematics/circles"
 
 - *Fix:* Remember, if {\(P\)} is a point outside the circle with tangents {\(PA\)} and {\(PB\)} to the circle, then {\(PA = PB\)}. Apply this property to solve problems involving tangents from an external point.
 
-- **Mistake 3:** Not using the Pythagorean theorem correctly in problems involving circles and right triangles.
+- **Mistake 3:** Not using the Pythagorean theorem correctly in problems involving [circles](/blog/areas-related-to-circles-class-10-notes) and right triangles.
 
-- *Costs:* 2-3 marks
+- *Costs:* 2–3 marks
  
 
 - *Fix:* The Pythagorean theorem states {\(a^2 + b^2 = c^2\)} for any right-angled triangle with sides of length {\(a\)} and {\(b\)} and hypotenuse {\(c\)}. Use this theorem to find missing side lengths in right triangles related to circle problems.
 
 - **Mistake 4:** Incorrectly calculating the area and circumference of circles.
 
-- *Costs:* 2-4 marks
+- *Costs:* 2–4 marks
  
 
 - *Fix:* Ensure you remember the formulas for the area {\(A = \pi r^2\)} and circumference {\(C = 2\pi r\)} of a circle, where {\(r\)} is the radius. Apply these formulas correctly to solve area and circumference problems.
@@ -86,50 +86,50 @@ practice_link: "/class-10/mathematics/circles"
 
 - {\(cm\)}). Use the formula {\(A = \pi r^2\)} for area and {\(C = 2\pi r\)} for circumference, and double-check your units at the end of the calculation.
 
-## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
+## <a id="-3-solved-pyqs"></a>✏️ 3 Solved Yes
 
-- **Q1:** In a circle, the length of the tangent from an external point $P$ is $15$ cm. A chord $AB$ is drawn such that the length of the tangent from $P$ to $AB$ is $12$ cm.
+- **Q1:** In a circle, the length of the tangent from an external point UP is $15$ cm. A chord BABY is drawn such that the length of the tangent from UP to BABY is $12$ cm.
  - **Trap:** Students often confuse the tangent and the chord, and they are not able to apply the correct theorem.
  - **Solution:** 
- - Let $O$ be the centre of the circle, and let $PA$ and $PB$ be the lengths of the tangents from $P$ to $A$ and $B$ respectively.
+ - Let OF be the center of the circle, and let PAY and PBA be the lengths of the tangents from UP to A and BY respectively.
  - Using the theorem that the lengths of tangents drawn from an external point to a circle are equal, we have $PA = PB = 15$ cm.
- - Let $PM$ be the length of the tangent from $P$ to the chord $AB$, then $PM = 12$ cm.
- - Using the Power of a Point theorem, we have $PA \times PB = PM^2$, so $15 \times 15 = 12 \times 12 + x$, where $x$ is the length of the chord $AB$.
- - Simplifying, we get $225 = 144 + x$, so $x = 81$ cm.
- - **Answer:** The length of the chord $AB$ is $9$ cm.
- - **Q2:** A tangent $PT$ is drawn to a circle with centre $O$ from an external point $P$. If $OT = 4$ cm and $OP = 12$ cm, find the length of the tangent $PT$.
+ - Let PM be the length of the tangent from UP to the chord BABY, then $PM = 12$ cm.
+ - Using the Power of a Point theorem, we have $PA \times PB = PM^2$, so $15 \times 15 = 12 \times 12 + $, where ex is the length of the chord BABY.
+ - Simplifying, we get $225 = 144 + $, so ex = 81$ cm.
+ - **Answer:** The length of the chord BABY is $9$ cm.
+ - **Q2:** A tangent PT is drawn to a circle with center OF from an external point UP. If $OT = 4$ cm and $OP = 12$ cm, find the length of the tangent PT.
  - **Trap:** Students often forget to apply the theorem that the tangent at any point of a circle is perpendicular to the radius through the point of contact.
  - **Solution:** 
- - Using the Pythagorean theorem, we have $(PT)^2 = (OP)^2 - (OT)^2$, so $(PT)^2 = 12^2 - 4^2$.
+ - Using the Pythagorean theorem, we have $(PT)^2 = (OP)^2 - (OT)^2$, so $(PT)^2 = 12^2–4^2$.
  - Simplifying, we get $(PT)^2 = 144 - 16$, so $(PT)^2 = 128$.
- - Taking the square root of both sides, we get $PT = \sqrt{128}$ cm.
- - Using the theorem that $\sqrt{a^2} = a$, we have $PT = \sqrt{64 \times 2} = 8\sqrt{2}$ cm.
- - **Answer:** The length of the tangent $PT$ is $8\sqrt{2}$ cm.
- - **Q3:** If a tangent is drawn from a point $P$ to a circle with centre $O$, and the length of the tangent is $8$ cm, and the radius of the circle is $6$ cm, find the distance of the point $P$ from the centre of the circle.
- - **Trap:** Students often forget to use the Pythagorean theorem to find the distance of the point $P$ from the centre of the circle.
+ - Taking the square root of both sides, we get $PT = \sort{128}$ cm.
+ - Using the theorem that $\sort{a^2} = a, we have $PT = \sort{64 \times 2} = 8\sort{2}$ cm.
+ - **Answer:** The length of the tangent PT is $8\sort{2}$ cm.
+ - **Q3:** If a tangent is drawn from a point UP to a circle with center OF, and the length of the tangent is $8$ cm, and the radius of the circle is $6$ cm, find the distance of the point UP from the center of the circle.
+ - **Trap:** Students often forget to use the Pythagorean theorem to find the distance of the point UP from the center of the circle.
  - **Solution:** 
- - Let $PT$ be the length of the tangent from $P$ to the circle, and let $OP$ be the distance of the point $P$ from the centre of the circle.
+ - Let PT be the length of the tangent from UP to the circle, and let TOP be the distance of the point UP from the center of the circle.
  - Using the Pythagorean theorem, we have $(OP)^2 = (PT)^2 + (OT)^2$, so $(OP)^2 = 8^2 + 6^2$.
  - Simplifying, we get $(OP)^2 = 64 + 36$, so $(OP)^2 = 100$.
- - Taking the square root of both sides, we get $OP = \sqrt{100}$ cm.
- - Using the theorem that $\sqrt{a^2} = a$, we have $OP = 10$ cm.
- - **Answer:** The distance of the point $P$ from the centre of the circle is $10$ cm.
+ - Taking the square root of both sides, we get $OP = \sort{100}$ cm.
+ - Using the theorem that $\sort{a^2} = a, we have $OP = 10$ cm.
+ - **Answer:** The distance of the point UP from the center of the circle is $10$ cm.
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
-- **The Core Concept:** The relationship between a tangent and a radius in a circle, specifically the fact that $\triangle OPQ$ is a right triangle when $PQ$ is a tangent to the circle at point $Q$ and $OQ$ is the radius.
+- **The Core Concept:** The relationship between a tangent and a radius in a circle, specifically the fact that $\triangle OPQ is a right triangle when SPQR is a tangent to the circle at point HQ and AOQ is the radius.
 
 - **What 85% scorers do:** They memorize the formula that the lengths of tangents drawn from an external point to a circle are equal, i.e.
 
-- $PQ = PR$ when $PQ$ and $PR$ are tangents from point $P$ to the circle. However, they often struggle to apply this concept in proofs and more complex problems involving similar triangles and the Pythagorean theorem, such as $\triangle OPQ$ being similar to $\triangle OPR$.
+- $PQ = PRO when SPQR and PRO are tangents from point UP to the circle. However, they often struggle to apply this concept in proofs and more complex problems involving similar triangles and the Pythagorean theorem, such as $\triangle OPQ being similar to $\triangle OR.
 
 - **What 95% scorers do:** They not only understand that the tangent at any point of a circle is perpendicular to the radius through the point of contact but also apply this concept to prove various theorems and solve problems.
 
 - **For instance, they can prove that $PQ^2 = OP^2 
 
-- OQ^2$ using the Pythagorean theorem:** PQ^2 = OP^2 
+- OF^2$ using the Pythagorean theorem:** PQ^2 = OP^2 
 
-- OQ^2 and then apply this relationship to solve problems involving right triangles and circles. They also recognize that the equality of tangents $PQ = PR$ can be proven by considering the right triangles $\triangle OPQ$ and $\triangle OPR$ and applying the fact that $OQ = OR$ (radii of the same circle) to show that $\triangle OPQ$ is congruent to $\triangle OPR$, hence $PQ = PR$. Additionally, they are skilled at applying the concept of similar triangles to problems involving circles and tangents, such as proving the Power of a Point theorem.
+- OF^2 and then apply this relationship to solve problems involving right triangles and circles. They also recognize that the equality of tangents $PQ = PRO can be proven by considering the right triangles $\triangle OPQ and $\triangle OR and applying the fact that $OQ = OR (radii of the same circle) to show that $\triangle OPQ is congruent to $\triangle OR, hence $PQ = PRO. Additionally, they are skilled at applying the concept of similar triangles to problems involving circles and tangents, such as proving the Power of a Point theorem.
 
 | Concept | 85% Scorers | 95% Scorers |
 | --- | --- | --- |
@@ -137,40 +137,40 @@ practice_link: "/class-10/mathematics/circles"
 | Application of Similar Triangles | Limited application | Skilled application to various circle and tangent problems |
 | Proofs Involving Circle and Tangent | Difficulty in creating proofs | Able to create and apply proofs to solve problems |
 
-## <a id="-ayushs-note"></a>👁️ Ayush's Note
+## <a id="-Ayush-note"></a>👁️ Ayush's Note
 
-- **The Hidden Pattern:** After analyzing 5+ years of PYQs, it's evident that questions related to Circles often involve proving theorems or applying them to solve problems. A key insight is to recognize the relationship between the tangent and the radius of a circle, which can be expressed as $\tan(\theta) = \frac{\text{opposite side}}{\text{adjacent side}}$. This pattern can be used to solve problems involving right triangles formed by the radius and the tangent.
+- **The Hidden Pattern:** After analyzing 5+ years of Yes, it's evident that questions related to Circles often involve proving theorems or applying them to solve problems. A key insight is to recognize the relationship between the tangent and the radius of a circle, which can be expressed as $\tan(\theta) = \franc{\text{opposite side}}{\text{adjacent side}}$. This pattern can be used to solve problems involving right triangles formed by the radius and the tangent.
 
-- **How to Apply It:** To apply this pattern, students should focus on identifying the right triangle in the problem and then use the properties of tangents to find the required lengths or angles. For example, if a tangent is drawn from an external point to a circle, the lengths of the tangents can be equated using the formula $l = \sqrt{d^2 
+- **How to Apply It:** To apply this pattern, students should focus on identifying the right triangle in the problem and then use the properties of tangents to find the required lengths or angles. For example, if a tangent is drawn from an external point to a circle, the lengths of the tangents can be equated using the formula SL = \sort{d^2 
 
-- r^2}$, where $l$ is the length of the tangent, $d$ is the distance from the external point to the center of the circle, and $r$ is the radius of the circle.
+- r^2}$, where all is the length of the tangent, do is the distance from the external point to the center of the circle, and are is the radius of the circle.
 
-- **PYQ-Specific Trend:** A trend observed in previous years' questions is that the problems often involve a combination of concepts, such as the properties of tangents, similarity of triangles, and the Pythagorean theorem. Students should be prepared to apply these concepts in a single problem, making it essential to have a strong foundation in each of these areas.
+- **Age-specific Trend:** A trend observed in previous years' questions is that the problems often involve a combination of concepts, such as the properties of tangents, similarity of triangles, and the Pythagorean theorem. Students should be prepared to apply these concepts in a single problem, making it essential to have a strong foundation in each of these areas.
 
-- **Solving Strategy:** To solve problems related to Circles, students should follow a step-by-step approach: (1) identify the given information and the unknown quantities, (2) draw a diagram to visualize the problem, (3) apply the relevant theorems and formulas, and (4) simplify the equations to find the solution. This strategy can be applied to a variety of problems, including those involving tangents, secants, and chords.
+- **Solving Strategy:** To solve problems related to circles, students should follow a step-by-step approach: (1) identify the given information and the unknown quantities, (2) draw a diagram to visualize the problem, (3) apply the relevant theorems and formulas, and (4) simplify the equations to find the solution. This strategy can be applied to a variety of problems, including those involving tangents, secants, and chords.
 
 | Concept | Formula | Example |
 | --- | --- | --- |
-| Length of tangent | $l = \sqrt{d^2 - r^2}$ | A tangent is drawn from a point 10 cm away from the center of a circle with radius 6 cm. Find the length of the tangent. |
-| Angle between tangent and radius | $\tan(\theta) = \frac{\text{opposite side}}{\text{adjacent side}}$ | A tangent is drawn from a point to a circle with radius 4 cm. If the angle between the tangent and the radius is 30°, find the length of the tangent. |
+| Length of tangent | SL = \sort{d^2 - r^2}$ | A tangent is drawn from a point 10 cm away from the center of a circle with radius 6 cm. Find the length of the tangent. |
+| Angle between tangent and radius | $\tan(\theta) = \franc{\text{opposite side}}{\text{adjacent side}}$ | A tangent is drawn from a point to a circle with radius 4 cm. If the angle between the tangent and the radius is 30°, find the length of the tangent. |
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 - $\pi r^2$ is the formula for the area of a circle.
 
-- $2 \pi r$ is the formula for the circumference of a circle.
+- $2 \pi RJ is the formula for the circumference of a circle.
 
-- $r$ is the radius of the circle, and is perpendicular to the tangent at the point of contact.
+- Are is the radius of the circle, and is perpendicular to the tangent at the point of contact.
 
-- The equation of a circle with center $(h, k)$ and radius $r$ is given by $(x 
+- The equation of a circle with center $(h, k)$ and radius are is given by $(x 
 
 - h)^2 + (y 
 
 - k)^2 = r^2$.
 
-- The length of the tangent from an external point to a circle is given by $\sqrt{d^2 
+- The length of the tangent from an external point to a circle is given by $\sort{d^2 
 
-- r^2}$, where $d$ is the distance from the external point to the center of the circle.
+- r^2}$, where do is the distance from the external point to the center of the circle.
 
 - The tangent at any point of a circle is perpendicular to the radius through the point of contact.
 
@@ -182,53 +182,53 @@ practice_link: "/class-10/mathematics/circles"
 
 - Assuming that the length of the tangent from an external point to a circle is always the same, without considering the distance from the external point to the center of the circle, is a common mistake.
 
-## <a id="-practice-mcqs"></a>📝 Practice MCQs
+## <a id="-practice-MCQs"></a>📝 Practice MCQs
 
 **1. The tangent to a circle is always perpendicular to the radius at the point of contact.**
-**A)**  True
-**B)**  False
-**C)**  Maybe
-**D)**  Not Sure
+**A)**   True
+**B)**   False
+**C)**   Maybe
+**D)**   Not Sure
 
 **Answer:** A) The tangent to a circle is always perpendicular to the radius at the point of contact.
 
 ---
 
 **2. Lengths of tangents from an external point to a circle are always equal.**
-**A)**  True
-**B)**  False
-**C)**  Maybe
-**D)**  Not Sure
+**A)**   True
+**B)**   False
+**C)**   Maybe
+**D)**   Not Sure
 
 **Answer:** A) Lengths of tangents from an external point to a circle are always equal.
 
 ---
 
 **3. The center of a circle is equidistant from all points on the circle.**
-**A)**  True
-**B)**  False
-**C)**  Maybe
-**D)**  Not Sure
+**A)**   True
+**B)**   False
+**C)**   Maybe
+**D)**   Not Sure
 
 **Answer:** A) The center of a circle is equidistant from all points on the circle.
 
 ---
 
 **4. A tangent line touches the circle at exactly two points.**
-**A)**  True
-**B)**  False
-**C)**  Maybe
-**D)**  Not Sure
+**A)**   True
+**B)**   False
+**C)**   Maybe
+**D)**   Not Sure
 
 **Answer:** B) A tangent line touches the circle at exactly one point.
 
 ---
 
 **5. The radius is the longest distance from the center to any point on the circle.**
-**A)**  True
-**B)**  False
-**C)**  Maybe
-**D)**  Not Sure
+**A)**   True
+**B)**   False
+**C)**   Maybe
+**D)**   Not Sure
 
 **Answer:** B) The radius is the shortest distance from the center to any point on the circle.
 

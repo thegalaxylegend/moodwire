@@ -98,7 +98,7 @@ To summarize, Alternating Current is a crucial topic in [class](/blog/algorithms
 
 
 
-Alternating Current (AC) is a type of electric current that periodically reverses direction, flowing back and forth in a circuit. It includes the source, the load, and the transmission lines. For Class 12 exam prep in 2026, the most important aspect is understanding the principles of AC circuits, including the concepts of impedance, reactance, and phase shift. 
+Alternating Current (AC) is a type of electric current that periodically reverses direction, flowing back and forth in a circuit. It includes the source, the load, and the transmission lines. For [class](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) 12 exam prep in 2026, the most important aspect is understanding the principles of AC circuits, including the concepts of impedance, reactance, and phase shift. 
 
 The key characteristic of AC is that the voltage and current change polarity over time, creating a sinusoidal waveform. This is in contrast to Direct Current (DC), where the voltage and current remain constant. AC is used in households and industries because it can be easily transformed to higher or lower voltages using transformers, making it more efficient for long-distance transmission.
 

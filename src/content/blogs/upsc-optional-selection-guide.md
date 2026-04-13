@@ -258,7 +258,7 @@ m = \frac{10 , \text{N}}{2 , \text{m/s}^2}
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 
-**1. Which of the following is a key factor in selecting an optional subject for the UPSC exam?**
+**1. Which of the following is a key factor in selecting an optional subject for the [upsc](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee) exam?**
 
 -
 A)
@@ -287,7 +287,9 @@ B)
 B. More time for General Studies preparation
 -
 C)
-C. Ease of answering questions
+C. Ease of
+
+answering questions
 -
 D)
 D. Scoring high marks due to subjective nature

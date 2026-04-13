@@ -89,7 +89,7 @@ Nature is rhythmic. From the beating of a heart and the vibration of a guitar st
 **Formula: F = -kx** (where k is the force constant).
 
 ### <a id="derivation-projection-of-uniform-circular-motion-ucm"></a>Derivation: Projection of Uniform Circular Motion (UCM)
-**Theorem:** SHM can be defined as the projection of Uniform Circular Motion on any diameter of the reference circle.
+**Theorem:** SHM can be defined as the projection of Uniform Circular [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) on any diameter of the reference circle.
 1.  Consider a particle moving in a circle of radius **A** with angular velocity **ω**.
 2.  At any time **t**, its angular position is **θ = ωt + φ**.
 3.  The projection of its position on the Y-axis is **y = A sinθ**.

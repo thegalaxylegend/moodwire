@@ -83,7 +83,7 @@ I once struggled to understand the difference between aerobic and anaerobic resp
 
 Respiration in [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) occurs in three stages: glycolysis, citric acid cycle, and oxidative phosphorylation.
 * **Glycolysis**: This stage occurs in the cytosol of the [cell](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) and involves the breakdown of glucose into pyruvate.
-* **Citric Acid Cycle**: This stage occurs in the mitochondria and involves the breakdown of pyruvate into acetyl-CoA, which then enters the citric acid cycle.
+* **Citric Acid [cycle](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet)**: This stage occurs in the mitochondria and involves the breakdown of pyruvate into acetyl-CoA, which then enters the citric acid [cycle](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet).
 * **Oxidative Phosphorylation**: This stage occurs in the mitochondria and involves the transfer of electrons through a series of electron transport chains, resulting in the production of ATP.
 
 
@@ -99,7 +99,7 @@ To remember the equation for respiration, use the following trick: "C6H12O6 + 6O
 ## <a id="trap-questionsexceptions-for-respiration-in-plants"></a>Trap Questions/Exceptions for Respiration in Plants
 
 * **Wrong answer**: Respiration in [plants](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) only occurs in the presence of light.
-* **Right answer**: Respiration in plants occurs in the presence and absence of light.
+* **Right answer**: Respiration in [plants](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) occurs in the presence and absence of light.
 * **Why students get it wrong**: Students often confuse respiration with photosynthesis, which occurs in the presence of light.
 * **Wrong answer**: The byproduct of anaerobic respiration in plants is CO2 and H2O.
 * **Right answer**: The byproduct of anaerobic respiration in plants is ethanol and CO2.

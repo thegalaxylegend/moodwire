@@ -169,7 +169,7 @@ The **Geomorphology and Its Importance** section has helped me understand the si
 The **Key Terms** section has provided me with a [quick](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) reference guide to the essential vocabulary in Geomorphology. 
 Overall, this quick [revision](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) and recap has been extremely helpful in preparing me for my exam, and I am confident that I will do well. 
 Using LaTeX has made the equations and tables look neat and easy to read. 
-The **Quick Recall Box** has provided me with a quick summary of the key concepts, and I will make sure to review it regularly. 
+The **[quick](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) Recall Box** has provided me with a [quick](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) summary of the key concepts, and I will make sure to review it regularly. 
 The **Core Concepts** section has given me a solid understanding of the subject, and I will make sure to build on this foundation. 
 I will continue to practice and review the material to ensure I am well-prepared for my exam. 
 The **Formulae and Tables** section has provided me with a quick reference guide to the essential equations and tables in Geomorphology. 
@@ -225,7 +225,7 @@ This equation has helped me understand the process of deposition, and I will mak
 The **Geomorphology and Its Importance** section has helped me understand the significance of the subject, and I will make sure to apply this knowledge in my future studies. 
 I will continue to review and practice the material to ensure I am well-prepared for my exam. 
 The **Trap Exceptions** section has helped me identify potential pitfalls and exceptions to the rules, and I will make sure to be aware of these as I study. 
-Overall, this quick revision and recap has been extremely helpful, and I am confident that I will do well in my exam. 
+Overall, this quick [revision](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) and recap has been extremely helpful, and I am confident that I will do well in my exam. 
 I will continue to work hard to achieve my goals. 
 Using LaTeX has made the equations and tables look neat and easy to read, and I will continue to use it to help me study. 
 The **Ayush's Personal Note** section has provided me with a chance to reflect on my own learning and identify areas where I need to improve. 

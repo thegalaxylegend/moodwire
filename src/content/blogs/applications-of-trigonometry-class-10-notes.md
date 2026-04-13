@@ -112,7 +112,7 @@ practice_link: "/class-11/mathematics/applications-of-trigonometry-class-10-note
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 - **The Core Concept:** The core concept that separates 85% scorers from 95% scorers in [applications](/blog/biotechnology-and-its-applications-class-12-notes) of Trigonometry is the ability to apply trigonometric ratios and principles to solve complex problems in various contexts, such as heights and distances, navigation, and physics. 
- - **What 85% scorers do:** Most students (85% scorers) focus on memorizing formulas and procedures for solving trigonometry problems, but they often struggle to apply these concepts to real-world scenarios or complex problems. They tend to:
+ - **What 85% scorers do:** Most students (85% scorers) focus on memorizing formulas and procedures for solving [trigonometry](/blog/introduction-to-trigonometry-class-10-notes) problems, but they often struggle to apply these concepts to real-world scenarios or complex problems. They tend to:
  * Rely heavily on formulas without understanding the underlying principles
  * fail to visualize the problem and identify the relevant trigonometric relationships
  * struggle to break down complex problems into manageable parts
@@ -228,3 +228,4 @@ Continue your revision with these [related](/blog/areas-related-to-circles-class
 - 📖 [Coordinate Geometry Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/coordinate-geometry-class-10-notes)
 - 📖 [Pair of Linear Equations Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/pair-of-linear-equations-class-10-notes)
 
+$

@@ -64,7 +64,7 @@ practice_link: "/class-11/biology/biomolecules-class-11-revision-notes-neet"
 ### <a id="introduction-to-biomolecules"></a>Introduction to Biomolecules
 Biomolecules are the building blocks of life. They are the molecules that make up all living things, from the simplest bacteria to the most complex organisms. Biomolecules are composed of carbon, hydrogen, oxygen, nitrogen, and phosphorus, and they perform a wide range of functions in living organisms.
 
-Biomolecules are classified into four main types: carbohydrates, proteins, lipids, and nucleic acids. Each type of biomolecule has its own unique structure and function, and they all work together to maintain the structure and function of cells.
+Biomolecules are classified into four main types: carbohydrates, proteins, lipids, and nucleic [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes). Each type of biomolecule has its own unique structure and function, and they all work together to maintain the structure and function of cells.
 
 ### <a id="why-biomolecules-matter"></a>Why Biomolecules Matter
 Biomolecules are essential for the structure and function of cells. They provide the energy and nutrients that cells need to function, and they play a critical role in the transmission of genetic information. Biomolecules are also involved in the regulation of cellular processes, such as metabolism, growth, and differentiation.
@@ -193,7 +193,7 @@ Continue your [revision](/blog/animal-kingdom-class-11-revision-notes-neet) with
     * **Lipids**: Triglycerides, Phospholipids, Steroids (Cholesterol), Waxes
     * **Nucleic acids**: DNA (Deoxyribonucleic acid), RNA (Ribonucleic acid), Nucleotide structure (Sugar, Phosphate, Nitrogenous base)
     * **Enzymes**: Biological catalysts, Active site, Substrate, Coenzymes, Cofactors
-    * ** Hormones**: Chemical messengers, Peptide hormones, Steroid hormones
+    * ** Hormones**: [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) messengers, Peptide hormones, Steroid hormones
 ## ⚗️ Chemical Quick Reference (Verified via PubChem)
 
 | Compound | Formula | MOL. Weight | Source |

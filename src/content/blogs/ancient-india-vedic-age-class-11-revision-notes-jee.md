@@ -93,7 +93,7 @@ While there are no specific mathematical formulae related to the Vedic Age, the 
 
 ## <a id="keenest-data"></a>JEE/MEET Data
 
-For students preparing for JEE/MEET, it's essential to note that the Vedic Age is not directly related to the syllabus. However, understanding the historical context of [india](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse) can help in developing a broader perspective, which can be beneficial in various aspects of the examination, including the general knowledge section.
+For students preparing for JEE/MEET, it's essential to note that the Vedic Age is not directly related to the syllabus. However, understanding the historical context of [India](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse) can help in developing a broader perspective, which can be beneficial in various aspects of the examination, including the general knowledge section.
 
 ## <a id="trap-exceptions"></a>Trap Exceptions
 
@@ -116,11 +116,11 @@ The **cultural life** of the Vedic Age was rich and diverse. The **Vedas** conta
 To quickly revise the Vedic Age, focus on the following:
 - **Rig Vedic Period**: Composition of the Rigged, establishment of the Vedic religion.
 - **Later Vedic Period**: Development of the Varnashrama System, rise of Jacarandas.
-- **Vedas**: Ancient Indian texts, considered sacred in Hinduism.
+- **Vedas**: [ancient](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) Indian texts, considered sacred in Hinduism.
 - **Varnashrama System**: Social hierarchy, divided society into four Vargas.
 - **Jacarandas**: Small kingdoms or territories, emerged during the Later Vedic Period.
 
-By following these quick revision tips and understanding the core concepts, you can easily recap the Vedic Age and perform well in your examinations.
+By following these quick [revision](/blog/art-culture-architecture-class-11-revision-notes-jee-neet) tips and understanding the core concepts, you can easily recap the Vedic Age and perform well in your examinations.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

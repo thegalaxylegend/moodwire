@@ -360,7 +360,7 @@ I, Ayush, am excited to learn more about the Industrial Revolution and its ongoi
 As I, Ayush, prepare for my [class](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) 11 History exams, I find it essential to recall the key points and concepts related to the Industrial Revolution. I make sure to review the core concepts, formulae, and tables, and to practice MCQs to assess my knowledge and identify areas for improvement. I also watch out for trap exceptions to avoid common mistakes, and I use LaTeX to format my notes and make them more readable.
 
 ### <a id="final-check"></a>Final Check
-I, Ayush, make a final check of my notes and study materials to ensure that I am well-prepared for my exams. I review the key points and concepts related to the Industrial Revolution, and I practice MCQs to assess my knowledge and identify areas for improvement.
+I, Ayush, make a final check of my [notes](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) and study materials to ensure that I am well-prepared for my exams. I review the key points and concepts related to the Industrial Revolution, and I practice MCQs to assess my knowledge and identify areas for improvement.
 
 #### Last Minute Tips
 I, Ayush, follow these last minute tips to prepare for my exams:
@@ -670,3 +670,4 @@ Continue your revision with these related guides:
 - 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
 - 📖 [Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)
 - 📖 [Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)
+**

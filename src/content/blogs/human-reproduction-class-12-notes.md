@@ -207,7 +207,7 @@ practice_link: "/class-11/biology/human-reproduction-class-12-notes"
 
  - The reproductive system in humans consists of the primary sex organs (gonads) and the secondary sex organs, which include external and internal genitalia.
 
- - Hormonal regulation in the human reproductive cycle, with the hypothalamus, pituitary gland, and gonads working together to control the release of hormones such as FSH, LH, estrogen, and testosterone.
+ - Hormonal regulation in the [human](/blog/microbes-in-human-welfare-class-12-notes) reproductive cycle, with the hypothalamus, pituitary gland, and gonads working together to control the release of hormones such as FSH, LH, estrogen, and testosterone.
 
  - A common mistake is assuming that all genetic disorders are inherited in an autosomal dominant or recessive pattern, when in fact some are linked to the X chromosome.
 

@@ -127,7 +127,7 @@ I've found that understanding the basics of reflection, refraction, and total in
 - **Critical Angle**: $\theta_c = \sin^{-1} \left( \frac{n_2}{n_1} \right)$, where $n_1$ and $n_2$ are the refractive indices of the two media.
 - **Lens Maker's Formula**: $\frac{1}{f} = (n-1) \left( \frac{1}{R_1} - \frac{1}{R_2} \right)$, where $f$ is the focal length, $n$ is the refractive index, and $R_1$ and $R_2$ are the radii of curvature.
 
-By focusing on these key concepts, formulae, and practice questions, I'm confident that I can master ray optics and perform well in my JEE/NEET exams. Remember to review the **Trap Exceptions** section carefully to avoid common pitfalls in the exams. 
+By focusing on these key concepts, formulae, and practice questions, I'm confident that I can master ray optics and perform well in my JEE/[neet](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) exams. Remember to review the **Trap Exceptions** section carefully to avoid common pitfalls in the exams. 
 
 To further reinforce our understanding, let's consider some examples and derivations of the formulae.
 

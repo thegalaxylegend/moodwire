@@ -95,7 +95,7 @@ Solving an inequality is very similar to solving an equation, with one critical 
 
 A linear inequality like **ax + by ≤ c** represents a half-plane in the Cartesian coordinate system.
 1.  **Draw the [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet):** Replace the inequality sign with '=' and draw the [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet).
-2.  **Dashed vs Solid:** If strict (< or >), use a dashed line. If slack (≤ or ≥), use a solid line.
+2.  **Dashed vs Solid:** If strict (< or >), use a dashed [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet). If slack (≤ or ≥), use a solid [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet).
 3.  **Test Point:** Pick a point not on the line (usually (0,0)). If it satisfies the inequality, shade the region containing it; otherwise, shade the other side.
 
 ---

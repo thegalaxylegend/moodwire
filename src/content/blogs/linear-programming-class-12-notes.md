@@ -34,7 +34,7 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 - **$\Delta$x and $\Delta$y**: 1 numerical on finding the change in the objective function using $\Delta$x and $\Delta$y — always
 - **Shadow Price**: 1 question on finding the shadow price of a resource — always
 - **Sensitivity Analysis**: 1 numerical on performing sensitivity analysis using the graphical method — always
-- **Transportation Problems**: 1 problem on formulating and solving a transportation problem using linear programming — always
+- **Transportation Problems**: 1 problem on formulating and solving a transportation problem using [linear](/blog/pair-of-linear-equations-class-10-notes) programming — always
 - **Formulation of Linear Programming Problems**: 1-2 questions on formulating real-life problems as linear programming problems — always
 - **Non-Negativity Constraints**: 1 numerical on handling non-negativity constraints in linear programming problems — always
 - **$x \geq 0$ and $y \geq 0$**: 1 question on plotting the non-negativity constraints and finding the feasible region — always
@@ -418,7 +418,9 @@ A) To define the constraints
 -
 B) To determine the feasible region
 -
-C) To evaluate the optimality of a solution
+C) To evaluate the optimality of a
+
+solution
 -
 D) To specify the direction of optimization
 
@@ -454,3 +456,4 @@ Continue your revision with these related guides:
 - 📖 [Atoms Class 12 Mathematics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/atoms-class-12-notes)
 - 📖 [Biodiversity and Conservation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
 
+$

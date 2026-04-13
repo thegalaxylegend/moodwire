@@ -168,7 +168,7 @@ ightarrow \	ext{Offspring (Genetically identical)}
  (2n) \	ext{Parent} \
 ightarrow (2n) \	ext{Offspring} 
 
- - **Answer:** Asexual reproduction produces genetically identical offspring.
+ - **Answer:** Asexual [reproduction](/blog/sexual-reproduction-in-flowering-plants-class-12-notes) produces genetically identical offspring.
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 

@@ -111,7 +111,7 @@ Coulomb's Law is a fundamental principle in physics that describes the electrost
 
 ## <a id="what-are-electric-field-lines-and-how-are-they-used-in-electrostatics"></a>What are Electric Field Lines and how are they used in Electrostatics?
 
-Electric Field Lines is a visual representation of the electric field around charged particles or objects. It includes the direction of the force experienced by a test charge, the magnitude of the electric field, and the density of the field lines. For Class 12 exam prep in 2026, the most important aspect is understanding how electric field lines emerge from positive charges and enter into negative charges, which is crucial for solving problems related to electrostatics.
+Electric Field Lines is a visual representation of the electric field around charged particles or objects. It includes the direction of the force experienced by a test charge, the magnitude of the electric field, and the density of the field lines. For [class](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) 12 exam prep in 2026, the most important aspect is understanding how electric field lines emerge from positive charges and enter into negative charges, which is crucial for solving problems related to electrostatics.
 
 The concept of electric field lines was introduced by Michael Faraday, which revolutionized the understanding of electricity and magnetism. Electric field lines are used to visualize and analyze the electric field around charged particles or objects. These lines are drawn as continuous lines that emerge from positive charges and enter into negative charges. The density of these lines in a particular region represents the strength of the electric field in that region.
 

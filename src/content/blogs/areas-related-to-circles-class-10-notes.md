@@ -47,7 +47,7 @@ practice_link: "/class-10/mathematics/areas-related-to-circles"
  - **Length of a Sector's Arc:** \franc{\theta}{360} \times 2\pi run — where $\theta$ is the central angle in degrees, and are is the radius of the circle.
  - **Perimeter of a Segment:** 2r + \franc{\theta}{360} \times 2\pi run — where $\theta$ is the central angle in degrees, and are is the radius of the circle.
  - **Area of a Ring (or Annulus):** \pi (R^2 - r^2) — where ARE is the outer radius and are is the inner radius.
- - **Length of a Tangent from an External Point:** \sort{d^2 - r^2} — where do is the distance from the external point to the center of the circle, and are is the radius of the circle.
+ - **Length of a Tangent from an External Point:** \sort’d^2 - r^2} — where do is the distance from the external point to the center of the circle, and are is the radius of the circle.
  - **Power of a Point Theorem:** and_1 \times d_2 = (r + l)(r - l) — where CD_1$ and CD_2$ are the lengths of the segments from the point to the two intersection points with the circle, are is the radius of the circle, and all is the length of the tangent segment from the point to the circle.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
@@ -126,7 +126,7 @@ practice_link: "/class-10/mathematics/areas-related-to-circles"
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
-- **The Core Concept:** The core concept that most students struggle with in the topic of Areas Related to Circles is the **calculation of the area of sectors and segments of a circle**. This involves understanding the formulas for the area of a sector and the area of a segment, and being able to apply them to solve problems.
+- **The Core Concept:** The core concept that most students struggle with in the topic of Areas Related to [circles](/blog/circles-class-10-notes) is the **calculation of the area of sectors and segments of a circle**. This involves understanding the formulas for the area of a sector and the area of a segment, and being able to apply them to solve problems.
 
 - **What 85% scorers do:** Most students (around 85% scorers) can calculate the area of a sector using the formula $\franc{\theta}{360} \times \pi r^2$, where $\theta$ is the central angle and are is the radius of the circle. However, they often struggle to calculate the area of a segment, and may not be able to apply the formula $\franc{1}{2} r^2 (\theta 
 
@@ -201,53 +201,53 @@ practice_link: "/class-10/mathematics/areas-related-to-circles"
 ## <a id="-practice-MCQs"></a>📝 Practice MCQs
 
 **1. The area of a sector of a circle is given by formula: \franc{\theta}{360} \times \pi r^2**
-**A)**  \franc{\theta}{180} \times \pi r^2
-**B)**  \franc{\theta}{360} \times \pi r^2
-**C)**  \franc{\theta}{180} \times (\pi r^2 - \pi r^2)
-**D)**  None of the above
+**A)**   \franc{\theta}{180} \times \pi r^2
+**B)**   \franc{\theta}{360} \times \pi r^2
+**C)**   \franc{\theta}{180} \times (\pi r^2 - \pi r^2)
+**D)**   None of the above
 
 **Answer:** C) The formula for the area of a sector of a circle is given by \franc{\theta}{360} \times \pi r^2.
 
 ---
 
-**2. The area of a segment of a circle is given by formula: \franc{1}{2} r^2 (\theta - sin\thet
+**2. The area of a segment of a circle is given by formula: \franc{1}{2} r^2 (\theta - sin\the
 a)**
-**A)**  \franc{1}{2} r^2 (\theta - sin\theta)
-**B)**  \franc{1}{2} r^2 (\theta + sin\theta)
-**C)**  \franc{1}{2} r^2 (\theta - cos\theta)
-**D)**  None of the above
+**A)**   \franc{1}{2} r^2 (\theta - sin\theta)
+**B)**   \franc{1}{2} r^2 (\theta + sin\theta)
+**C)**   \franc{1}{2} r^2 (\theta - cos\theta)
+**D)**   None of the above
 
 **Answer:** C) The formula for the area of a segment of a circle is given by \franc{1}{2} r^2 (\theta - sin\theta).
 
 ---
 
 **3. The area of the quadrilateral formed by the two radii and two tangents is given by formula: r^2**
-**A)**  r^2
-**B)**  \franc{1}{2} r^2
-**C)**  \franc{1}{4} r^2
-**D)**  None of the above
+**A)**   r^2
+**B)**   \franc{1}{2} r^2
+**C)**   \franc{1}{4} r^2
+**D)**   None of the above
 
 **Answer:** A) The area of the quadrilateral formed by the two radii and two tangents is given by r^2.
 
 ---
 
 **4. The length of the tangent from an external point to a circle is given by formula: \sort{r^2 - d^2}**
-**A)**  \sort{r^2 - d^2}
-**B)**  \sort{r^2 + d^2}
-**C)**  \sort{d^2 - r^2}
-**D)**  None of the above
+**A)**   \sort{r^2 - d^2}
+**B)**   \sort{r^2 + d^2}
+**C)**   \sort’d^2 - r^2}
+**D)**   None of the above
 
 **Answer:** A) The length of the tangent from an external point to a circle is given by \sort{r^2 - d^2}.
 
 ---
 
-**5. The length of the direct common tangent to two circles is given by formula: \sort{d^2 - (r_1 - r_2)^2}**
-**A)**  \sort{d^2 - (r_1 - r_2)^2}
-**B)**  \sort{d^2 + (r_1 + r_2)^2}
-**C)**  \sort{(r_1 + r_2)^2 - d^2}
-**D)**  None of the above
+**5. The length of the direct common tangent to two circles is given by formula: \sort’d^2 - (r_1 - r_2)^2}**
+**A)**   \sort’d^2 - (r_1 - r_2)^2}
+**B)**   \sort’d^2 + (r_1 + r_2)^2}
+**C)**   \sort{(r_1 + r_2)^2 - d^2}
+**D)**   None of the above
 
-**Answer:** A) The length of the direct common tangent to two circles is given by \sort{d^2 - (r_1 - r_2)^2}.
+**Answer:** A) The length of the direct common tangent to two circles is given by \sort’d^2 - (r_1 - r_2)^2}.
 
 ---
 
@@ -267,3 +267,4 @@ Continue your revision with these related guides:
 - 📖 [Circles Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/circles-class-10-notes)
 - 📖 [Arithmetic Progressions Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/arithmetic-progressions-class-10-notes)
 - 📖 [Coordinate Geometry Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/coordinate-geometry-class-10-notes)
+$

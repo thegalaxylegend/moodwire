@@ -32,7 +32,7 @@ practice_link: "/class-11/mathematics/application-of-derivatives-class-12-notes"
 * **Graphs**: Identification of graphs of $y = f(x)$, $y = f'(x)$, and $y = f''(x)$ - always
 * **Increasing/Decreasing in Interval**: 1 question on determining where a function is increasing/decreasing in a given interval - always
 * **First Derivative Test**: 1 numerical on using first derivative test to determine maxima/minima - always
-* **Second Derivative Test**: 1 numerical on using second derivative test to determine nature of maxima/minima - always
+* **Second Derivative Test**: 1 numerical on using second derivative test to determine [nature](/blog/dual-nature-of-radiation-class-12-notes) of maxima/minima - always
 * **Mean Value Theorems**: 1 question on applying Rolle's theorem or Lagrange's mean value theorem - always
 * **Finding Extrema**: 1 numerical on finding extrema (maxima/minima) of a function subject to a constraint - always
 * **Functions of Two Variables**: 1 question on partial derivatives and their [applications](/blog/biotechnology-and-its-applications-class-12-notes) - always

@@ -62,7 +62,7 @@ practice_link: "/class-11/mathematics/inverse-trigonometric-functions-class-12-n
 * 1 question on using inverse trigonometric [functions](/blog/relations-and-functions-class-11-notes) to solve trigonometric equations, such as:
  + Solving $\sin x = \frac{1}{2}$ using $\sin^{-1}x$
  + Solving $\cos x = \frac{1}{2}$ using $\cos^{-1}x$
-* Inverse trigonometric functions in terms of logarithms — always, including expressions like:
+* Inverse trigonometric [functions](/blog/relations-and-functions-class-11-notes) in terms of logarithms — always, including expressions like:
  + $\tan^{-1}x = \frac{i}{2} \ln \frac{1+ix}{1-ix}$
  + $\sin^{-1}x = \frac{i}{2} \ln(i(x+\sqrt{1-x^2})) - \frac{i}{2} \ln(i(x-\sqrt{1-x^2}))$
 

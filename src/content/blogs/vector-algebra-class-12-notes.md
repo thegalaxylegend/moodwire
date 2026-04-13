@@ -283,7 +283,7 @@ C) 120°
 -
 D) 135°
 
-**Answer:** C) The dot product of two vectors a and b is given by a . b = |a||b|cosθ. So, cosθ = (a . b) / (|a||b|) = ((i + j) . (-i + j)) / (√2 * √2) = (1 - 1) / 2 = 0, hence θ = 90°, but the closest answer is 120° due to the nature of cosine function and the quadrant the angle lies in
+**Answer:** C) The dot product of two vectors a and b is given by a . b = |a||b|cosθ. So, cosθ = (a . b) / (|a||b|) = ((i + j) . (-i + j)) / (√2 * √2) = (1 - 1) / 2 = 0, hence θ = 90°, but the closest answer is 120° due to the [nature](/blog/dual-nature-of-radiation-class-12-notes) of cosine function and the quadrant the angle lies in
 
 ---
 

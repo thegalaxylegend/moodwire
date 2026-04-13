@@ -240,3 +240,4 @@ Continue your revision with these related guides:
 - 📖 [Dual Nature of Radiation Class 12 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/dual-nature-of-radiation-class-12-notes)
 - 📖 [Nuclei Class 12 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/nuclei-class-12-notes)
 - 📖 [Semiconductor Electronics Class 12 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/semiconductor-electronics-class-12-notes)
+$

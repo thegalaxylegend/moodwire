@@ -100,13 +100,13 @@ Algorithm Design is the process of developing a well-structured and efficient se
    
    For example, the time complexity of a linear search algorithm is $O(n)$, where $n$ is the number of elements in the list. This means that the time taken by the algorithm increases linearly with the size of the input. On the other hand, the time complexity of a binary search algorithm is $O(log n)$, which is much more efficient for large lists. 
    
-   In addition to time and space complexities, there are other factors to consider when evaluating algorithms. These include scalability, readability, and maintainability. An algorithm that is scalable can handle large inputs and can be easily modified to solve related problems. An algorithm that is readable is easy to understand and follow, while an algorithm that is maintainable is easy to modify and update. 
+   In addition to time and space complexities, there are other factors to consider when evaluating [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards). These include scalability, readability, and maintainability. An algorithm that is scalable can handle large inputs and can be easily modified to solve related problems. An algorithm that is readable is easy to understand and follow, while an algorithm that is maintainable is easy to modify and update. 
    
    To illustrate the concepts of algorithm design, let's consider a simple example. Suppose we want to find the maximum element in an array of integers. One approach would be to use a linear search algorithm, which compares each element in the array with the current maximum. This algorithm has a time complexity of $O(n)$ and is simple to implement. 
    
    Another approach would be to use a divide and conquer algorithm, which divides the array into smaller sub-arrays and finds the maximum element in each sub-array. This algorithm has a time complexity of $O(n)$ in the worst case, but it can be more efficient in practice because it uses a more efficient data structure. 
    
-   In terms of data structures, the choice of data structure depends on the problem being solved. For example, if we need to frequently insert or delete elements, a linked list may be a good choice. On the other hand, if we need to frequently search for elements, a hash table may be more suitable. 
+   In terms of [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structures, the choice of [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structure depends on the problem being solved. For example, if we need to frequently insert or delete elements, a linked list may be a good choice. On the other hand, if we need to frequently search for elements, a hash table may be more suitable. 
    
    The following table summarizes the time and space complexities of some common algorithms and data structures:
    
@@ -414,7 +414,10 @@ They may not always choose the optimal solution.
 They are used for solving problems having only two possible solutions.
 They always choose the locally optimal solution.
 
-**Answer:** D) Greedy algorithms make the optimal substructure property, but may not always choose the optimal solution. They always choose the locally optimal solution.
+**Answer:**
+D) Greedy algorithms make the optimal substructure property, but may not always choose the optimal
+
+solution. They always choose the locally optimal solution.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

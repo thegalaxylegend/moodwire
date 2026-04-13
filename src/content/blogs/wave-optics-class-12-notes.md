@@ -78,7 +78,7 @@ By focusing on these key concepts and practicing a wide range of problems, you'l
 
 
 
-Wave Optics is the study of the behavior of light as it travels through a medium, exhibiting wave-like properties. It includes the principles of reflection, refraction, and diffraction. For Class 12 exam prep in 2026, the most important aspect is understanding how these principles apply to various phenomena such as total internal reflection, polarization, and interference.
+Wave Optics is the study of the behavior of light as it travels through a medium, exhibiting wave-like properties. It includes the principles of reflection, refraction, and diffraction. For [class](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) 12 exam prep in 2026, the most important aspect is understanding how these principles apply to various phenomena such as total internal reflection, polarization, and interference.
 
 The wave nature of light was first proposed by Huygens and later supported by Young's double-slit experiment, which demonstrated the interference patterns produced by light waves. This led to the development of wave optics as a distinct branch of physics. Wave optics deals with the study of light as a wave, including its propagation, reflection, refraction, diffraction, and interference. It is based on the idea that light consists of waves that can be described by their frequency, wavelength, and speed.
 

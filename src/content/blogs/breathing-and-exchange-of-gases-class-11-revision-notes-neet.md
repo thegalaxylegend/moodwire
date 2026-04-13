@@ -19,21 +19,21 @@ practice_link: "/class-11/biology/breathing-and-exchange-of-gases-class-11-revis
 
 - [What is Breathing And Exchange Of Gases?](#what-is-breathing-and-exchange-of-gases)
 - [Introduction to Breathing and Exchange of Gases](#introduction-to-breathing-and-exchange-of-gases)
-  - [Core Concepts](#core-concepts)
+ - [Core Concepts](#core-concepts)
 - [Mechanism of Breathing](#mechanism-of-breathing)
-  - [JEE/MEET Data](#jeeneet-data)
-  - [Formulae](#formulae)
-  - [MCQs](#mcqs)
+ - [JEE/MEET Data](#jeeneet-data)
+ - [Formulae](#formulae)
+ - [MCQs](#mcqs)
 - [Exchange of Gases](#exchange-of-gases)
-  - [Factors Affecting Exchange of Gases](#factors-affecting-exchange-of-gases)
-  - [Regulation of Breathing](#regulation-of-breathing)
-  - [JEE/MEET Data](#jeeneet-data)
-  - [Formulae](#formulae)
-  - [MCQs](#mcqs)
+ - [Factors Affecting Exchange of Gases](#factors-affecting-exchange-of-gases)
+ - [Regulation of Breathing](#regulation-of-breathing)
+ - [JEE/MEET Data](#jeeneet-data)
+ - [Formulae](#formulae)
+ - [MCQs](#mcqs)
 - [Respiratory System](#respiratory-system)
-  - [JEE/MEET Data](#jeeneet-data)
-  - [Formulae](#formulae)
-  - [MCQs](#mcqs)
+ - [JEE/MEET Data](#jeeneet-data)
+ - [Formulae](#formulae)
+ - [MCQs](#mcqs)
 - [📚 Related Topics](#-related-topics)
 
 
@@ -138,8 +138,8 @@ According to the JEE/[meet](/blog/anatomy-of-flowering-plants-class-11-revision-
 ### <a id="formulae"></a>Formulae
 The following formulae are relevant to the topic of regulation of breathing:
 
-* **Bohr Effect**: $\franc{d \log P_{50}}{d \log [H^+]} = -0.5$, where UP_{50}$ is the partial pressure of oxygen at which hemoglobin is 50% saturated, and $[H^+]$ is the concentration of hydrogen ions.
-* **Haldane Effect**: $\franc{d \log P_{50}}{d \log [CO_2]} = -0.5$, where UP_{50}$ is the partial pressure of oxygen at which hemoglobin is 50% saturated, and $[CO_2]$ is the concentration of carbon dioxide.
+* **Bohr Effect**: $\franc’d \log P_{50}}{d \log [H^+]} = -0.5$, where UP_{50}$ is the partial pressure of oxygen at which hemoglobin is 50% saturated, and $[H^+]$ is the concentration of hydrogen ions.
+* **Haldane Effect**: $\franc’d \log P_{50}}{d \log [CO_2]} = -0.5$, where UP_{50}$ is the partial pressure of oxygen at which hemoglobin is 50% saturated, and $[CO_2]$ is the concentration of carbon dioxide.
 
 ### <a id="MCQs"></a>MCQs
 Here are some sample MCQs to test your understanding of the topic:
@@ -173,7 +173,7 @@ Answer: a) 40 mmHg
 
 ## <a id="respiratory-system"></a>Respiratory System
 
-The respiratory system consists of the nose, trachea, bronchi, bronchioles, and lungs. The main function of the respiratory system is to bring oxygen-rich air into the body and remove carbon dioxide-rich air from the body.
+The respiratory system consists of the nose, trachea, bronchi, bronchioles, and lungs. The main function of the respiratory system is to bring oxygen-rich air into the [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet) and remove carbon dioxide-rich air from the [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet).
 
 ### <a id="keenest-data"></a>JEE/MEET Data
 According to the JEE/MEET syllabus, the topic of respiratory system is covered under the section of "Respiratory System" in the Biology paper. The weightage of this topic is approximately 10-12% of the total marks.
@@ -248,17 +248,17 @@ Continue your [revision](/blog/anatomy-of-flowering-plants-class-11-revision-not
 * Incorrectly identifying the site of gas exchange in the lungs as the trachea or bronchi, when in fact it occurs in the alveoli.
 * Forgetting that atmospheric pressure is approximately 760 mmHg and partial pressure of oxygen is 159 mmHg, leading to errors in calculating the partial pressure of oxygen in the alveoli.
 * Confusing the terms 'ventilation' and 'respiration', with ventilation referring to the physical movement of air in and out of the lungs, and respiration referring to the exchange of gases and the use of oxygen by the body.
-* Assuming that the primary function of hemoglobin is to transport only oxygen, when in fact it also plays a crucial role in transporting carbon dioxide from the tissues to the lungs.
+* Assuming that the primary function of hemoglobin is to transport only oxygen, when in fact it also in transporting carbon dioxide from the tissues to the lungs.
 * Overlooking the importance of the Bohr effect, which describes how the binding of oxygen to hemoglobin is affected by the concentration of carbon dioxide and pH, and how this affects gas exchange in the lungs and tissues.
 
 ## 🔁 Last 5 Minutes Box
 
 * **Breathing**: process of taking in oxygen and releasing carbon dioxide
-   * **Exchange of gases**: occurs in alveoli of lungs between blood and atmosphere
-   * **Partial pressures**: PO2 = 104 mmHg, PCO2 = 40 mmHg in inspired air; PO2 = 40 mmHg, PCO2 = 46 mmHg in deoxygenated blood
-   * **Gas exchange ratio**: 4:1 (4 molecules of oxygen in, 1 molecule of carbon dioxide out)
-   * **Dalton's law**: partial pressure of a gas in mixture is proportional to its mole fraction
-   * **Henry's law**: amount of gas dissolved in liquid is proportional to its partial pressure
-   * **Bohr effect**: decrease in pH increases oxygen binding to hemoglobin
-   * **Haldane effect**: binding of oxygen to hemoglobin increases carbon dioxide transport
-   * **Oxygen-hemoglobin dissociation curve**: sigmoid curve showing oxygen binding to hemoglobin
+ * **Exchange of gases**: occurs in alveoli of lungs between blood and atmosphere
+ * **Partial pressures**: PO2 = 104 mmHg, PCO2 = 40 mmHg in inspired air; PO2 = 40 mmHg, PCO2 = 46 mmHg in deoxygenated blood
+ * **Gas exchange ratio**: 4:1 (4 molecules of oxygen in, 1 molecule of carbon dioxide out)
+ * **Dalton's law**: partial pressure of a gas in mixture is proportional to its mole fraction
+ * **Henry's law**: amount of gas dissolved in liquid is proportional to its partial pressure
+ * **Bohr effect**: decrease in pH increases oxygen binding to hemoglobin
+ * **Haldane effect**: binding of oxygen to hemoglobin increases carbon dioxide transport
+ * **Oxygen-hemoglobin dissociation curve**: sigmoid curve showing oxygen binding to hemoglobin

@@ -173,7 +173,7 @@ As you revise and practice oceanography, keep the following tips in mind:
 3. **Review and Reflect**: Regularly review what you've learned and reflect on areas where you need improvement.
 4. **Stay Organized**: Keep your study materials and [notes](/blog/biogeography-class-11-revision-notes-neet) organized, making it easier to review and practice.
 
-By following these tips, you'll be well on your way to mastering oceanography and achieving success in your Class 11 geography studies. 
+By following these tips, you'll be well on your way to mastering oceanography and achieving success in your [class](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet) 11 geography studies. 
 
 ### <a id="final-check"></a>Final Check
 Before moving on, ensure you can:

@@ -131,7 +131,7 @@ d \end{vmatrix}$ and cofactor of $b$ is $-
 ### <a id="-core-concept-5-area-of-a-triangle"></a>⚡ Core Concept 5: Area of a Triangle
 
 - **Formula:** \text{Area} = \frac{1}{2} \cdot |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)| — $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ are vertices of the triangle.
-- **Application:** Used to find the area of a triangle given the coordinates of its vertices.
+- **[application](/blog/application-of-integrals-class-12-notes):** Used to find the area of a triangle given the coordinates of its vertices.
 
 #### Shoelace Formula
 - **Formula:** \text{Area} = \frac{1}{2} \cdot |x_1y_2 + x_2y_3 + x_3y_1 - y_1x_2 - y_2x_3 - y_3x_1| — $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ are vertices of the triangle.

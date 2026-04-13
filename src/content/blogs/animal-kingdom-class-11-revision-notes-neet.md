@@ -113,7 +113,7 @@ Phylum Chordata is defined as a group of [animals](/blog/structural-organisation
 
 ## <a id="Ayush-note"></a>Ayush's Note
 
-I remember when I was studying for my Class 11 exams, I had a hard time remembering the different phyla and classes of animals. I used to get confused between the characteristics of each group and would often mix them up. But then I realized that if I just focused on the key characteristics of each phylum and class, such as the presence of a notochord or mammary glands, I could easily distinguish between them. For example, I learned that all animals in the phylum Chordata have a notochord, dorsal nerve cord, and pharyngeal slits, while all animals in the class Mammalia have hair and mammary glands. By focusing on these key characteristics, I was able to master the topic and score well in my exams.
+I remember when I was studying for my [class](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) 11 exams, I had a hard time remembering the different phyla and classes of animals. I used to get confused between the characteristics of each group and would often mix them up. But then I realized that if I just focused on the key characteristics of each phylum and [class](/blog/cell-the-unit-of-life-class-11-revision-notes-neet), such as the presence of a notochord or mammary glands, I could easily distinguish between them. For example, I learned that all animals in the phylum Chordata have a notochord, dorsal nerve cord, and pharyngeal slits, while all animals in the [class](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) Mammalia have hair and mammary glands. By focusing on these key characteristics, I was able to master the topic and score well in my exams.
 
 
 

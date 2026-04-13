@@ -129,7 +129,7 @@ practice_link: "/class-11/chemistry/metallurgy-class-12-notes"
 
 
 ### <a id="electrochemical-principles"></a>Electrochemical Principles
-- Electrochemical principles involve the application of E^{\circ}_{cell} = E^{\circ}_{cathode} - E^{\circ}_{anode} in metallurgy.
+- Electrochemical principles involve the [application](/blog/application-of-integrals-class-12-notes) of E^{\circ}_{cell} = E^{\circ}_{cathode} - E^{\circ}_{anode} in metallurgy.
 - Types of electrochemical principles: 
  - Electrode potential: involves the potential of an electrode during a reaction.
  - Cell potential: involves the potential of a cell during a reaction.

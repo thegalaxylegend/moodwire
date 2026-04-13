@@ -211,4 +211,4 @@ Continue your [revision](/blog/moving-charges-magnetism-class-11-revision-notes-
 
 ## 🔁 Last 5 Minutes Box
 
-* **Wallace's Line**: separates Asia from Australia,* **Weber's Line**: separates Australian and Oriental regions,* **Palaearctic region**: Northern Hemisphere, cold and temperate,* **Nearctic region**: North America, cold and temperate,* **Neotropical region**: Central and South America, tropical,* **Ethiopian region**: Africa, tropical,* **Oriental region**: [india](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse), Southeast Asia, tropical,* **Australian region**: Australia, tropical and temperate
+* **Wallace's Line**: separates Asia from Australia,* **Weber's Line**: separates Australian and Oriental regions,* **Palaearctic region**: Northern Hemisphere, cold and temperate,* **Nearctic region**: North America, cold and temperate,* **Neotropical region**: Central and South America, tropical,* **Ethiopian region**: Africa, tropical,* **Oriental region**: [India](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse), Southeast Asia, tropical,* **Australian region**: Australia, tropical and temperate

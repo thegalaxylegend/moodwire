@@ -91,7 +91,7 @@ In the next section, we'll dive deeper into the world of relations and functions
 
 * Relations: domain, range, codomain, inverse relation
 * Functions: function notation, domain, range, composition of functions, inverse functions
-* Identifying relations and functions from given data
+* Identifying relations and functions from given [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards)
 * Finding the domain, range, and codomain of a relation
 * Determining whether a relation is a function or not
 * Evaluating composite functions
@@ -103,7 +103,7 @@ In the next section, we'll dive deeper into the world of relations and functions
 * $f^{-1}(x) = y$ (inverse function notation)
 * $(f \circ g)(x) = f(g(x))$ (composition of functions)
 
-By the end of this topic, you'll be well-equipped to tackle the challenges of Relations and Functions in the Class 11 exam. With a solid understanding of the concepts, formulas, and practice problems, you'll be able to approach the topic with confidence and accuracy.
+By the end of this topic, you'll be well-equipped to tackle the challenges of Relations and Functions in the [class](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) 11 exam. With a solid understanding of the concepts, formulas, and practice problems, you'll be able to approach the topic with confidence and accuracy.
 
 
 ## <a id="what-is-a-relation-in-mathematics"></a>What is a Relation in Mathematics?
@@ -339,14 +339,20 @@ Relations and Functions is a fundamental concept in mathematics that deals with 
 6x^2 - 4x
 
 **Answer:**
-D) To find (f o g)(x), we replace x in f(x) with g(x). So, (f o g)(x) = f(g(x)) = f(3x + 2) = 2(3x + 2)^2 = 6x^2 + 12x + 8. However, since there was no +8 option, we choose 6x^2 - 4x is the nearest in the options.
+D) To find (f o g)(x), we replace x in f(x) with g(x). So, (f o g)(x) = f(g(x)) = f(3x + 2) = 2(3x + 2)^2 = 6x^2 + 12x + 8. However, since there was no +8
+
+option, we choose 6x^2 - 4x is the nearest in the options.
+
 **2. If f(x) = 3x^2 - 2 and g(x) = 2x - 1, then (f - g)(x) is equal to?**
 6x^2 - 4x - 1
 6x^2 - 4x + 1
 x^2 - 4x + 3
 6x^2 - 4x
 
-**Answer:** C) To find (f - g)(x), we subtract g(x) from f(x). So, (f - g)(x) = f(x) - g(x) = (3x^2 - 2) - (2x - 1) = 3x^2 - 2 - 2x + 1 = 3x^2 - 2x - 1, which matches none of the options. The closest is x^2 - 4x + 3, but that's not correct because it doesn't match (f - g)(x). The correct answer is actually none of the options. However, I have chosen option C as per the closest match.
+**Answer:**
+C) To find (f - g)(x), we subtract g(x) from f(x). So, (f - g)(x) = f(x) - g(x) = (3x^2 - 2) - (2x - 1) = 3x^2 - 2 - 2x + 1 = 3x^2 - 2x - 1, which matches none of the
+
+options. The closest is x^2 - 4x + 3, but that's not correct because it doesn't match (f - g)(x). The correct answer is actually none of the options. However, I have chosen option C as per the closest match.
 
 **3. If f(x) = 2x^2 + 3x - 5 and g(x) = x^2 - 4, then (f + g)(x) is equal to?**
 3x^2 + 3x - 4
@@ -370,7 +376,10 @@ x^2 + 3x + 2
 x^2 - 3x - 1
 x^2 - 3x + 1
 
-**Answer:** C) To find (f / g)(x), we divide f(x) by g(x). So, (f / g)(x) = f(x) / g(x) = (x^2 - 2x + 1) / (x^2 + 2x + 1) = (x^2 + x - x - 1) / (x^2 + x + x + 1) = (x(x + 1) - 1) / ((x + 1)(x + 1)) = (x(x + 1) - 1) / (x + 1)^2 = ((x + 1)x - 1) / (x + 1)^2 = (x^2 + x - 1) / (x + 1)^2 = x^2/(x + 1)^2 - 1/(x + 1)^2 = (x^2 - 1) / (x + 1)^2 = ((x - 1)(x + 1)) / (x + 1)^2 = (x - 1) / (x + 1). However, this is not the closest match in the options. The closest is x^2 - 3x - 1.
+**Answer:**
+C) To find (f / g)(x), we divide f(x) by g(x). So, (f / g)(x) = f(x) / g(x) = (x^2 - 2x + 1) / (x^2 + 2x + 1) = (x^2 + x - x - 1) / (x^2 + x + x + 1) = (x(x + 1) - 1) / ((x + 1)(x + 1)) = (x(x + 1) - 1) / (x + 1)^2 = ((x + 1)x - 1) / (x + 1)^2 = (x^2 + x - 1) / (x + 1)^2 = x^2/(x + 1)^2 - 1/(x + 1)^2 = (x^2 - 1) / (x + 1)^2 = ((x - 1)(x + 1)) / (x + 1)^2 = (x - 1) / (x + 1). However, this is not the closest match in the
+
+options. The closest is x^2 - 3x - 1.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
@@ -404,3 +413,4 @@ Continue your revision with these related guides:
 - 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-and-combinations-class-11-revision-notes-jee)
 - 📖 [Principle of Mathematical Induction Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee)
 - 📖 [Probability (Intro) Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-intro-class-11-revision-notes-jee)
+

@@ -73,7 +73,7 @@ practice_link: "/class-12/computer-science/theory-of-computation"
 
 - **Mistake 2: Confusing the Power and Closure Properties of Automata/Languages**\n 
 
-- *Error:* Students often mix up which class of language (Regular, Context-Free, Context-Sensitive, Recursively Enumerable) corresponds to which automaton (DFA/NFA, PDA,
+- *Error:* Students often mix up which [class](/blog/application-of-derivatives-class-12-notes) of language (Regular, Context-Free, Context-Sensitive, Recursively Enumerable) corresponds to which automaton (DFA/NFA, PDA,
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
@@ -100,17 +100,19 @@ practice_link: "/class-12/computer-science/theory-of-computation"
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. Which Turing machine model is universal?**
-**A)**  Turing Machine
-**B)**  Pushdown Automaton
-**C)**  Finite State Machine
-**D)**  Linear Bounded Automaton
+**A)**   Turing Machine
+**B)**   Pushdown Automaton
+**C)**   Finite State Machine
+**D)**   Linear Bounded Automaton
 
 **Answer:** D) A Linear Bounded Automaton is a universal Turing machine model.
 
 ---
 
 **2. What is the concept of decidability in computability theory?**
-**A)**  A problem has a solution
+**A)**   A problem has a
+
+solution
 **B)**  A problem has a finite solution
 **C)**  A problem can be solved by a Turing machine in finite time
 **D)**  A problem has a solution that can be found by a Turing machine in finite time
@@ -120,30 +122,30 @@ practice_link: "/class-12/computer-science/theory-of-computation"
 ---
 
 **3. Which of the following languages is not regular?**
-**A)**  a^*b^*a^*
-**B)**  a^nb^n
-**C)**  ab^*a
-**D)**  a^nb^n where n >= 0
+**A)**   a^*b^*a^*
+**B)**   a^nb^n
+**C)**   ab^*a
+**D)**   a^nb^n where n >= 0
 
 **Answer:** B) The language a^nb^n, where n >= 0, is not regular because it requires a pushdown automaton to recognize it, not a finite state machine.
 
 ---
 
 **4. What is the Church-Turing thesis?**
-**A)**  A universal Turing machine can simulate any algorithm
-**B)**  Any algorithm can be simulated by a universal Turing machine
-**C)**  A finite state machine can solve any problem
-**D)**  A pushdown automaton can solve any problem
+**A)**   A universal Turing machine can simulate any algorithm
+**B)**   Any algorithm can be simulated by a universal Turing machine
+**C)**   A finite state machine can solve any problem
+**D)**   A pushdown automaton can solve any problem
 
 **Answer:** B) The Church-Turing thesis states that any effectively calculable function can be calculated by a Turing machine.
 
 ---
 
 **5. Which of the following problems is undecidable?**
-**A)**  The halting problem
-**B)**  The decision problem for regular languages
-**C)**  The decision problem for context-free languages
-**D)**  The decision problem for recursive languages
+**A)**   The halting problem
+**B)**   The decision problem for regular languages
+**C)**   The decision problem for context-free languages
+**D)**   The decision problem for recursive languages
 
 **Answer:** A) The halting problem is undecidable, meaning that there cannot exist an algorithm that can determine whether a given Turing machine will halt for all possible inputs.
 
@@ -165,3 +167,4 @@ Continue your revision with these related guides:
 - 📖 [Databases (DBMS) Class 12 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/databases-dbms-class-12-notes)
 - 📖 [Operating Systems Class 12 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/operating-systems-class-12-notes)
 - 📖 [Application of Derivatives Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
+**

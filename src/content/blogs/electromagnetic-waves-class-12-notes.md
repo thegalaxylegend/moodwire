@@ -70,7 +70,7 @@ With these prerequisites in mind, let's the world of [electromagnetic](/blog/ele
 Some of the key concepts related to [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) waves that we'll be exploring in this topic include:
 
 * **[wave](/blog/wave-optics-class-12-notes) propagation**: The way electromagnetic waves travel through a medium, including the speed of propagation and the behavior of waves at boundaries.
-* **Reflection and refraction**: The behavior of electromagnetic waves when they encounter a surface or a change in medium, including the laws of reflection and refraction.
+* **Reflection and refraction**: The behavior of [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) waves when they encounter a surface or a change in medium, including the laws of reflection and refraction.
 * **Interference and diffraction**: The ways in which electromagnetic waves can interact with each other and with obstacles, resulting in interference patterns and diffraction [effects](/blog/magnetic-effects-of-current-class-12-notes).
 * **Polarization**: The property of electromagnetic waves that describes the orientation of the electric field vector, including linear, circular, and elliptical polarization.
 
@@ -91,7 +91,7 @@ As we explore the world of electromagnetic waves, we'll be using a combination o
 
 ## <a id="what-are-electromagnetic-waves"></a>What are Electromagnetic Waves?
 
-Electromagnetic Waves are a form of energy that propagates through a medium, such as air or a vacuum, and includes electric and magnetic field components, as well as frequency and wavelength. It includes the electric field vector, magnetic field vector, and the direction of propagation. For Class 12 exam prep in 2026, the most important aspect is understanding the relationship between the speed of light, frequency, and wavelength of electromagnetic waves. 
+Electromagnetic Waves are a form of energy that propagates through a medium, such as air or a vacuum, and includes electric and magnetic field components, as well as frequency and wavelength. It includes the electric field vector, magnetic field vector, and the direction of propagation. For [class](/blog/alternating-current-class-12-notes) 12 exam prep in 2026, the most important aspect is understanding the relationship between the speed of light, frequency, and wavelength of electromagnetic waves. 
 
 The classification of electromagnetic waves is based on their frequency or wavelength. The electromagnetic spectrum includes types such as radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays, and gamma rays. Each type has a specific range of frequencies and wavelengths, and they are used in various applications. For example, radio waves are used in communication systems, microwaves are used in heating and cooking, and X-rays are used in medical imaging.
 

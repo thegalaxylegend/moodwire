@@ -164,7 +164,7 @@ Continue your [revision](/blog/3d-geometry-intro-class-11-revision-notes-jee-nee
    - **CBSE [class](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) 11 CS Syllabus**: 
      * Computer Systems and Networking
      * Python Programming
-     * Data Structures
+     * [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) Structures
      * Object-Oriented Programming
      * Database Management
    - **Key Formulas**:

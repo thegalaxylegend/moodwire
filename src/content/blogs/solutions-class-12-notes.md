@@ -235,7 +235,9 @@ Before sleeping, make sure to go through these crucial points for the topic of S
 **Answer:**
 B) Molality (m) = moles of solute / kg of solvent. Moles of glucose = 18g / 180g/mol = 0.1mol. Mass of water = 1000g = 1kg. So, molality = 0.1mol / 1kg = 0.1m
 **2. Which of the following is an example of a heterogeneous mixture?**
-Sugar solution
+Sugar
+
+solution
 Ink
 Milk
 Sand in water
@@ -250,7 +252,9 @@ Sand in water
 
 **Answer:**
 B) Normality (N) = number of replaceable H+ ions per liter. For H2SO4, 1 mole = 2 replaceable H+ ions. So, 2M = 2 x 2 = 4N
-**4. What is the molarity of a solution containing 20g of NaOH in 500ml of solution?**
+**4. What is the molarity of a
+
+solution containing 20g of NaOH in 500ml of solution?**
 0.4M
 0.8M
 1M
@@ -264,7 +268,10 @@ Exothermic
 Hyperbaric
 Hypobaric
 
-**Answer:** C) When the solubility of a gas increases with an increase in pressure, it is due to the increased pressure forcing more gas molecules into the solution. This type of solution is called hyperbaric.
+**Answer:**
+C) When the solubility of a gas increases with an increase in pressure, it is due to the increased pressure forcing more gas molecules into the
+
+solution. This type of solution is called hyperbaric.
 
 ---
 

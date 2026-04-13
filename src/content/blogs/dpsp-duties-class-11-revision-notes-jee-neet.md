@@ -106,7 +106,7 @@ d) All of the above
 ## <a id="what-are-the-trap-exceptions-in-dpsp-and-duties"></a>What are the Trap Exceptions in DPSP & Duties?
 
 As I review the concepts and principles, I identify some potential trap exceptions to watch out for:
-* **Confusing DPSP with Fundamental Rights**: While both concepts are essential in Indian Polity, they serve distinct purposes. DPSP outlines the principles of social and economic justice, whereas Fundamental Rights guarantee individual freedoms and protections.
+* **Confusing DPSP with Fundamental Rights**: While both concepts are essential in [indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Polity, they serve distinct purposes. DPSP outlines the principles of social and economic justice, whereas Fundamental Rights guarantee individual freedoms and protections.
 * **Overlooking the historical context**: Understanding the historical developments and context in which DPSP & Duties were introduced is crucial for a deeper appreciation of these principles.
 
 Ayush's Personal Note: As I prepare for the [class](/blog/physical-world-class-11-revision-notes-jee-neet) 11 exam in 2026, I recognize the importance of mastering the concepts and principles of DPSP & Duties. By understanding the historical context, core concepts, and trap exceptions, I can develop a comprehensive understanding of Indian Polity and perform well in the exam.

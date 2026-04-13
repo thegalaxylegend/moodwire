@@ -1,14 +1,14 @@
 {
-  "overallAvgScore": 81.4,
-  "totalBlogsAllTime": 47,
-  "totalPassed": 36,
+  "overallAvgScore": 82.5,
+  "totalBlogsAllTime": 50,
+  "totalPassed": 39,
   "totalFailed": 11,
-  "overallPassRate": 77,
+  "overallPassRate": 78,
   "trend": "stable",
-  "trendDelta": 1.5,
+  "trendDelta": 3.4,
   "dailyReports": [
     {
-      "date": "2026-04-12",
+      "date": "2026-04-13",
       "totalBlogs": 3,
       "passed": 3,
       "failed": 0,
@@ -131,6 +131,15 @@
       "date": "2026-04-11",
       "totalBlogs": 4,
       "passed": 4,
+      "failed": 0,
+      "avgScore": 100,
+      "passRate": 100,
+      "errors": []
+    },
+    {
+      "date": "2026-04-12",
+      "totalBlogs": 3,
+      "passed": 3,
       "failed": 0,
       "avgScore": 100,
       "passRate": 100,

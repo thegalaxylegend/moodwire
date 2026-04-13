@@ -97,7 +97,7 @@ The stem is the above-ground part of the [plant](/blog/plant-growth-and-developm
 The leaf is the organ responsible for [photosynthesis](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet), the process by which plants convert light energy into chemical energy. It consists of a lamina (blade), petiole (stalk), and a pair of stipules (small structures at the base of the petiole).
 
 ### <a id="inflorescence"></a>Inflorescence
-The inflorescence is the arrangement of flowers on a plant. There are several types of inflorescences, including raceme, spike, umbel, and corymb.
+The inflorescence is the arrangement of flowers on a [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet). There are several types of inflorescences, including raceme, spike, umbel, and corymb.
 
 ### <a id="flower"></a>Flower
 The flower is the reproductive structure of the plant, consisting of sepals, petals, stamens, and carpels. It is responsible for producing gametes (sperm and egg cells) for fertilization.
@@ -179,7 +179,7 @@ Answer: a) Fruit
 
 ## <a id="related-notes-links"></a>Related Notes Links
 
-* Anatomy of Flowering Plants
+* Anatomy of Flowering [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)
 * Plant Physiology
 
 

@@ -119,7 +119,7 @@ The Squeeze Theorem is a fundamental concept in calculus that states if a functi
 
 ## <a id="what-is-ayushs-note-on-limits-and-derivatives"></a>What is Ayush's Note on Limits and Derivatives?
 
-What is Ayush's Note on Limits and Derivatives? is a detailed study guide for calculus fundamentals. It includes limits of functions, derivatives of functions, and applications of derivatives. For Class 11 exam prep in 2026, the most important aspect is understanding the concept of limits and how it leads to the definition of a derivative. 
+What is Ayush's Note on Limits and Derivatives? is a detailed study guide for calculus fundamentals. It includes limits of functions, derivatives of functions, and applications of derivatives. For [class](/blog/digital-logic-class-11-revision-notes-gate-boards) 11 exam prep in 2026, the most important aspect is understanding the concept of limits and how it leads to the definition of a derivative. 
    
    The concept of a limit is central to calculus and is defined as the value that a function approaches as the input (or independent variable) gets arbitrarily close to a certain point. Mathematically, this can be represented as $\lim_{x \to a} f(x) = L$, which means that the function $f(x)$ approaches the value $L$ as $x$ gets arbitrarily close to $a$. This concept is crucial in understanding the behavior of functions and is a precursor to understanding derivatives.
    

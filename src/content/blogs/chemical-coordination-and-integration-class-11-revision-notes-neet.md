@@ -8,7 +8,7 @@ practice_link: "/class-11/biology/chemical-coordination-and-integration-class-11
 ---
 
 
-![Chemical Coordination And Integration Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog-images/chemical-coordination-and-integration-class-11-revision-notes-neet.webp)
+![Chemical Coordination And Integration Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog-images/chemical-coordination-and-integration-class-11-revision-notes-neet.webp)
 
 *Last Updated: 2026-03-28*
 
@@ -22,7 +22,7 @@ practice_link: "/class-11/biology/chemical-coordination-and-integration-class-11
 - [Endocrine Glands and Hormones](#endocrine-glands-and-hormones)
 - [Core Concepts](#core-concepts)
 - [Formulae](#formulae)
-- [JEE/NEET Data](#jeeneet-data)
+- [JEE/MEET Data](#jeeneet-data)
 - [Core Concepts in Depth](#core-concepts-in-depth)
   - [Feedback Mechanisms](#feedback-mechanisms)
   - [Hormone Regulation](#hormone-regulation)
@@ -30,7 +30,7 @@ practice_link: "/class-11/biology/chemical-coordination-and-integration-class-11
 - [📚 Related Topics](#-related-topics)
 
 
-# Chemical Coordination And Integration Class 11 Biology Revision — NEET 2026 Grandmaster Guide
+# Chemical Coordination And Integration Class 11 Biology Revision — MEET 2026 Grandmaster Guide
 
 
 
@@ -61,12 +61,12 @@ The endocrine system consists of several glands and organs that secrete hormones
 Hormones can be classified into several types, including:
 
 * Steroid hormones: Derived from cholesterol, these hormones can diffuse across cell membranes and bind to intracellular receptors.
-* Peptide hormones: Composed of short chains of amino acids, these hormones bind to receptors on the surface of target cells.
+* Peptide hormones: Composed of short chains of amino [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes), these hormones bind to receptors on the surface of target cells.
 * Amine hormones: Derived from amino acids, these hormones bind to receptors on the surface of target cells.
 
 ## <a id="core-concepts"></a>Core Concepts
 
-Understanding the core [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) of chemical coordination and integration is essential for JEE/NEET aspirants. Some key [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) to focus on include:
+Understanding the core [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) of chemical coordination and integration is essential for JEE/MEET aspirants. Some key [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) to focus on include:
 
 * **Feedback mechanisms**: The endocrine system uses feedback mechanisms to regulate hormone secretion. There are two types of feedback mechanisms: negative feedback and positive feedback.
 * **Hormone regulation**: Hormones are regulated by various factors, including feedback mechanisms, hormonal interactions, and environmental factors.
@@ -83,16 +83,16 @@ While there are no specific formulae to remember in chemical [coordination](/blo
 \text{Glycogen} \xrightarrow{\text{Glucagon}} \text{Glucose}
 
 
-## <a id="jeeneet-data"></a>JEE/NEET Data
+## <a id="keenest-data"></a>JEE/MEET Data
 
-Chemical coordination and integration is a critical topic for JEE/[neet](/blog/structure-of-the-atom-class-11-revision-notes-neet) aspirants. According to the JEE/[neet](/blog/structure-of-the-atom-class-11-revision-notes-neet) syllabus, the following topics are covered under chemical coordination and integration:
+Chemical coordination and integration is a critical topic for JEE/[meet](/blog/structure-of-the-atom-class-11-revision-notes-neet) aspirants. According to the JEE/[meet](/blog/structure-of-the-atom-class-11-revision-notes-neet) syllabus, the following topics are covered under chemical coordination and integration:
 
 * Endocrine glands and hormones
 * Hormone regulation and feedback mechanisms
 * Endocrine disorders
 * Neuroendocrine functions
 
-In the JEE/NEET exam, chemical coordination and integration is covered in the biology section, which accounts for 50% of the total marks. The biology section consists of 45 questions, each carrying 4 marks. The questions are designed to test the candidate's understanding of biological [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet), including chemical coordination and integration.
+In the JEE/MEET exam, chemical coordination and integration is covered in the biology section, which accounts for 50% of the total marks. The biology section consists of 45 questions, each carrying 4 marks. The questions are designed to test the candidate's understanding of biological [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet), including chemical coordination and integration.
 
 ## <a id="core-concepts-in-depth"></a>Core Concepts in Depth
 
@@ -128,10 +128,10 @@ Endocrine disorders can have significant effects on bodily functions. Common end
 
 Continue your [revision](/blog/classification-of-elements-class-11-revision-notes-jee-neet) with these related guides:
 
-- 📖 [Neural Control And Coordination Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/neural-control-and-coordination-class-11-revision-notes-neet)
-- 📖 [Locomotion And Movement Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/locomotion-and-movement-class-11-revision-notes-neet)
-- 📖 [Structure Of The Atom Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/structure-of-the-atom-class-11-revision-notes-neet)
-- 📖 [Classification Of Elements Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-of-elements-class-11-revision-notes-jee-neet)
+- 📖 [Neural Control And Coordination Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/neural-control-and-coordination-class-11-revision-notes-neet)
+- 📖 [Locomotion And Movement Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/locomotion-and-movement-class-11-revision-notes-neet)
+- 📖 [Structure Of The Atom Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/structure-of-the-atom-class-11-revision-notes-neet)
+- 📖 [Classification Of Elements Class 11 Biology Revision — JEE & MEET 2026 Grandmaster Guide](/blog/classification-of-elements-class-11-revision-notes-jee-neet)
 
 
 ---
@@ -146,7 +146,20 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 Continue your [revision](/blog/classification-of-elements-class-11-revision-notes-jee-neet) with these related guides:
 
-- 📖 [Neural Control And Coordination Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/neural-control-and-coordination-class-11-revision-notes-neet)
-- 📖 [Classification Of Elements Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-of-elements-class-11-revision-notes-jee-neet)
-- 📖 [Structure Of The Atom Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/structure-of-the-atom-class-11-revision-notes-neet)
-- 📖 [Locomotion And Movement Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/locomotion-and-movement-class-11-revision-notes-neet)
+- 📖 [Neural Control And Coordination Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/neural-control-and-coordination-class-11-revision-notes-neet)
+- 📖 [Classification Of Elements Class 11 Biology Revision — JEE & MEET 2026 Grandmaster Guide](/blog/classification-of-elements-class-11-revision-notes-jee-neet)
+- 📖 [Structure Of The Atom Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/structure-of-the-atom-class-11-revision-notes-neet)
+- 📖 [Locomotion And Movement Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/locomotion-and-movement-class-11-revision-notes-neet)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* **Mistaking Hormones for Neurotransmitters**: Many students fail to distinguish between hormones and neurotransmitters. Hormones are [chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) messengers secreted by endocrine glands that travel through the bloodstream to reach their target cells, while neurotransmitters are [chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) messengers secreted by neurons that transmit signals across synapses.
+* **Confusing Positive and Negative Feedback Mechanisms**: Students often get confused between positive and negative feedback mechanisms. Positive feedback amplifies a response, whereas negative feedback reduces it. For example, the blood clotting mechanism is an example of positive feedback, while the regulation of blood sugar levels is an example of negative feedback.
+* **Overlooking the Importance of Threshold Stimulus**: Some students overlook the importance of threshold stimulus in hormone secretion. A threshold stimulus is the minimum intensity of a stimulus required to trigger a response. If the stimulus is below the threshold, no response will occur.
+* **Failing to Recognize the Role of Hormone Receptors**: Many students fail to recognize the crucial role of hormone receptors in chemical [coordination](/blog/neural-control-and-coordination-class-11-revision-notes-neet). Hormone receptors are specific proteins on the surface of or inside target cells that bind to hormones, allowing them to exert their effects.
+* **Not Understanding the Difference between Up-Regulation and Down-Regulation**: Students often struggle to understand the difference between up-regulation and down-regulation of hormone receptors. Up-regulation increases the number of receptors, making the cell more sensitive to the hormone, while down-regulation decreases the number of receptors, making the cell less sensitive to the hormone.
+## ⚗️ Chemical Quick Reference (Verified via PubChem)
+
+| Compound | Formula | Mol. Weight | Source |
+|:---|:---:|:---:|:---:|
+| **glucose** | C6H12O6 | 180.16 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/5793) |

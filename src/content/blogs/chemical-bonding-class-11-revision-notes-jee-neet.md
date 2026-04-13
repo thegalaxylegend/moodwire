@@ -438,7 +438,7 @@ Don't just memorize the table. Ask yourself "Why does lone pair repulsion decrea
 ---
 
 **Related [revision](/blog/equilibrium-class-11-revision-notes-jee-neet) Notes:**
-- **Structure of Atom - Quantum Numbers & Configuration Shortcuts**
+- **[structure](/blog/structure-of-atom-class-11-revision-notes-jee-neet) of Atom - Quantum Numbers & Configuration Shortcuts**
 - **Periodic Table Trends - Master Classification Short [notes](/blog/equilibrium-class-11-revision-notes-jee-neet)**
 - **JEE Mains 2026: High Weightage Chapters Analysis**
 
@@ -471,7 +471,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/equilibrium-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/structure-of-atom-class-11-revision-notes-jee-neet)
 - 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
@@ -501,3 +501,8 @@ Continue your revision with these related guides:
 * **VSEPR Theory**: Predicts shape of molecule based on repulsion between electron pairs.
 * **Hybridization**: Mixing of atomic orbitals to form hybrid orbitals for bonding.
 * **Molecular Orbital Theory**: Describes distribution of electrons within molecule.
+## ⚗️ Chemical Quick Reference (Verified via PubChem)
+
+| Compound | Formula | Mol. Weight | Source |
+|:---|:---:|:---:|:---:|
+| **ethanol** | C2H6O | 46.07 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/702) |

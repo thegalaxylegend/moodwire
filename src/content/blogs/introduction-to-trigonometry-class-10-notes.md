@@ -147,7 +147,7 @@ AB^2 = AC^2 - BC^2 = 5^2 - 3^2 = 25 - 9 = 16AB = \sqrt{16} = 4 	ext{ cm}
 | --- | --- | --- |
 | Introduction to [trigonometry](/blog/applications-of-trigonometry-class-10-notes) | Unit Circle and Trigonometric Functions | High |
 | Introduction to [trigonometry](/blog/applications-of-trigonometry-class-10-notes) | Trigonometric Identities | Medium |
-| Introduction to Trigonometry | Right-Angled Triangles | High |
+| Introduction to [trigonometry](/blog/applications-of-trigonometry-class-10-notes) | Right-Angled Triangles | High |
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 

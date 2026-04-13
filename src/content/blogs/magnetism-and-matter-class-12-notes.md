@@ -53,7 +53,7 @@ To truly comprehend magnetism and its [effects](/blog/magnetic-effects-of-curren
 **Key Concepts and Formulas**
 Magnetism and matter is a broad topic, encompassing various concepts, including:
 
-* **Magnetic Fields**: Represented by the symbol **B**, magnetic fields are created by the motion of charged particles or changing electric fields. The unit of magnetic field strength is the **tesla (T)**.
+* **[magnetic](/blog/magnetic-effects-of-current-class-12-notes) Fields**: Represented by the symbol **B**, [magnetic](/blog/magnetic-effects-of-current-class-12-notes) fields are created by the motion of charged particles or changing electric fields. The unit of [magnetic](/blog/magnetic-effects-of-current-class-12-notes) field strength is the **tesla (T)**.
 * **Magnetic [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)**: The process by which a changing magnetic field induces an electromotive force (EMF) in a conductor. This phenomenon is described by **Faraday's law of [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)**, which states that the induced EMF is proportional to the rate of change of the magnetic flux.
 * **Magnetic Materials**: Different materials exhibit unique magnetic properties, such as **ferromagnetism**, **paramagnetism**, and **diamagnetism**. Understanding these properties is essential for applications like magnetic storage and magnetic resonance imaging.
 
@@ -104,7 +104,7 @@ Magnetic materials can be classified into three main categories: diamagnetic, pa
 
 ## <a id="what-are-the-characteristics-of-magnetic-materials"></a>What are the Characteristics of Magnetic Materials?
 
-Magnetic Materials is a class of materials that exhibits magnetic properties. It includes **magnetic permeability**, **magnetic susceptibility**, and **hysteresis loop**. For Class 12 exam prep in 2026, the most important aspect is understanding how these properties influence the behavior of magnetic materials in different situations.
+Magnetic Materials is a [class](/blog/alternating-current-class-12-notes) of materials that exhibits magnetic properties. It includes **magnetic permeability**, **magnetic susceptibility**, and **hysteresis loop**. For [class](/blog/alternating-current-class-12-notes) 12 exam prep in 2026, the most important aspect is understanding how these properties influence the behavior of magnetic materials in different situations.
 
 The characteristics of magnetic materials are primarily determined by their internal structure and the arrangement of their atoms. Magnetic materials can be classified into several types, including **diamagnetic**, **paramagnetic**, **ferromagnetic**, **antiferromagnetic**, and **ferrimagnetic** materials. Each type exhibits distinct properties in the presence of a magnetic field. **Diamagnetic materials** are weakly repelled by a magnetic field, while **paramagnetic materials** are weakly attracted. **Ferromagnetic materials**, on the other hand, are strongly attracted to magnetic fields and can retain their magnetic properties even after the removal of the external field.
 

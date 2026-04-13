@@ -175,7 +175,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) with these related guides:
 
 - 📖 [Medieval India Bhakti Sufi Class 11 History Recap — CBSE 2026 Quick Guide](/blog/medieval-india-bhakti-sufi-class-11-revision-notes-cbse)
 - 📖 [Medieval India Delhi Sultanate Class 11 History Recap — CBSE 2026 Quick Guide](/blog/medieval-india-delhi-sultanate-class-11-revision-notes-cbse)

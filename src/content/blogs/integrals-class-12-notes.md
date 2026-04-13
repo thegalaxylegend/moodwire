@@ -292,7 +292,7 @@ To become a master of integrals, it's essential to practice and apply the concep
 
 Using the Test Center at /[class](/blog/determinants-class-12-notes)-11/mathematics/integrals-[class](/blog/determinants-class-12-notes)-12-notes will help you:
 
-*   **Reinforce Concepts:** Practice and reinforce your understanding of integrals, ensuring a strong foundation for further learning.
+*   **Reinforce Concepts:** Practice and reinforce your understanding of [integrals](/blog/application-of-integrals-class-12-notes), ensuring a strong foundation for further learning.
 *   **Identify Weaknesses:** Recognize areas where you need improvement and focus your efforts on those topics.
 *   **Develop Problem-Solving Skills:** Enhance your problem-solving skills, learning to approach complex integral problems with confidence.
 *   **Improve Time Management:** Practice managing your time effectively, ensuring you can complete tests and exams within the allotted time.

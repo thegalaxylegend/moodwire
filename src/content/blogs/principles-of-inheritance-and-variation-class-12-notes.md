@@ -308,7 +308,7 @@ D) Dominance
 -
 A) Pleiotropy
 -
-B) Polygenic inheritance
+B) Polygenic [inheritance](/blog/molecular-basis-of-inheritance-class-12-notes)
 -
 C) Epistasis
 -
@@ -346,3 +346,4 @@ Continue your revision with these related guides:
 - 📖 [Biodiversity and Conservation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
 - 📖 [Biotechnology and its Applications Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biotechnology-and-its-applications-class-12-notes)
 
+$

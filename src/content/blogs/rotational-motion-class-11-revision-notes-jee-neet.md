@@ -179,7 +179,7 @@ If this condition is met, the point of contact is momentarily at rest.
 
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
-- **Chapter 4: Laws of Motion (Inertia Basics)**
+- **Chapter 4: Laws of [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) (Inertia Basics)**
 - **Chapter 7: Gravitation (Orbital Angular Momentum)**
 - **Mastering Rotational Mechanics: Advanced Problem Set**
 

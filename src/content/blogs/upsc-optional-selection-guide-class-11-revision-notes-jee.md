@@ -104,7 +104,7 @@ Finally, conduct a one-week trial. Read a core chapter—like 'Caste' in Sociolo
 
 ## <a id="conclusion"></a>Conclusion
 
-Selecting your UPSC optional is a strategic decision that bridges the gap between qualifying and securing a top rank. By using our data-driven 3-pillar framework and validating your choice through our 'Audit' protocol, you ensure your preparation is both efficient and high-yield. Stay focused, trust your data, and remember that consistent, small-step progress leads to final victory. Good luck with your selection!
+Selecting your UPSC optional is a strategic decision that bridges the gap between qualifying and securing a top rank. By using our data-driven 3-pillar framework and validating your choice through our 'Audit' protocol, you ensure your preparation is both efficient and [high](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)-yield. Stay focused, trust your data, and remember that consistent, small-step progress leads to final victory. Good luck with your selection!
 
 
 
@@ -128,7 +128,7 @@ During the first four months of preparation, dedicate 60–70% of your daily stu
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Pick the Best UPSC Optional Subject 2026 Guide](/blog/upsc-optional-selection-guide)
 - 📖 [State Scholarship Guide 2026 Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)

@@ -16,7 +16,7 @@ practice_link: "/class-12/computer-science/operating-systems"
 
 ### 🚀 Quick Recall — Last Night Summary
 
-- Process Scheduling: Operating Systems use different scheduling algorithms like First-Come-First-Served (FCFS), Shortest Job First (SJF), Priority Scheduling to manage processes.
+- Process Scheduling: Operating [systems](/blog/communication-systems-class-12-notes) use different scheduling algorithms like First-Come-First-Served (FCFS), Shortest Job First (SJF), Priority Scheduling to manage processes.
 - Process States: A process can be in one of the five states: New, Ready, Running, Waiting, and Zombie.
 - Memory Management: Operating Systems use different memory management techniques like Contiguous Memory Allocation, Linked Memory Allocation, and Paging to manage memory.
 - File Systems: Operating Systems use different file systems like File Allocation Table (FAT), New Technology File System (NTFS), and Hierarchical File System (HFS) to manage files.
@@ -78,7 +78,7 @@ practice_link: "/class-12/computer-science/operating-systems"
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 - **Q1:** What is the primary function of the Operating System in a computer system?
- - **Trap:** Students often confuse the role of the Operating System with that of a programming language or a software application.
+ - **Trap:** Students often confuse the role of the Operating System with that of a programming language or a software [application](/blog/application-of-derivatives-class-12-notes).
  - **Solution:** 
  The Operating System (OS) acts as an intermediary between the user and the computer hardware. It manages the allocation of system resources such as memory, CPU time, and storage. The OS provides a platform for running applications and services, and it controls the input/output operations between the hardware and software components. 
  
@@ -147,7 +147,7 @@ practice_link: "/class-12/computer-science/operating-systems"
 
 - **For example, a question might ask:** \text{Compare and contrast the \text{First-Come-First-Served (FCFS)} and \text{Shortest Job First (SJF)} scheduling algorithms}. To answer such questions, students should be able to \text{identify the pros and cons} of each algorithm and \text{evaluate their suitability} for different scenarios.
 
-- **Additional Tip:** To excel in the Operating Systems section, students should also focus on \text{viva questions} and \text{output questions}. They should practice explaining complex OS concepts in a clear and concise manner, using \text{diagrams and flowcharts} to illustrate their points. By mastering these skills, students can ensure a high score in the Operating Systems section of the CBSE Class 12 Computer Science exam.
+- **Additional Tip:** To excel in the Operating Systems section, students should also focus on \text{viva questions} and \text{output questions}. They should practice explaining complex OS concepts in a clear and concise manner, using \text{diagrams and flowcharts} to illustrate their points. By mastering these skills, students can ensure a high score in the Operating Systems section of the CBSE [class](/blog/databases-dbms-class-12-notes) 12 Computer Science exam.
 
 | Topic | Weightage | PYQ Trend |
 | --- | --- | --- |
@@ -191,50 +191,50 @@ practice_link: "/class-12/computer-science/operating-systems"
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What is the primary function of a device driver in an Operating System?**
-**A)**  To manage memory
-**B)**  To manage files
-**C)**  To manage input/output operations with devices
-**D)**  To manage process scheduling
+**A)**   To manage memory
+**B)**   To manage files
+**C)**   To manage input/output operations with devices
+**D)**   To manage process scheduling
 
 **Answer:** C) Device drivers are responsible for managing input/output operations with devices like keyboards, mice, and printers.
 
 ---
 
 **2. Which of the following is a type of memory management technique used by Operating Systems?**
-**A)**  Process Scheduling
-**B)**  Thread Scheduling
-**C)**  Contiguous Memory Allocation
-**D)**  Virtual Memory
+**A)**   Process Scheduling
+**B)**   Thread Scheduling
+**C)**   Contiguous Memory Allocation
+**D)**   Virtual Memory
 
 **Answer:** C) Contiguous Memory Allocation is a memory management technique used by Operating Systems to allocate contiguous blocks of memory to processes.
 
 ---
 
 **3. What is the primary function of a file system in an Operating System?**
-**A)**  To manage process scheduling
-**B)**  To manage memory
-**C)**  To manage input/output operations with devices
-**D)**  To manage files
+**A)**   To manage process scheduling
+**B)**   To manage memory
+**C)**   To manage input/output operations with devices
+**D)**   To manage files
 
 **Answer:** D) File systems are responsible for managing files and directories in an Operating System.
 
 ---
 
 **4. Which of the following is a type of process scheduling algorithm used by Operating Systems?**
-**A)**  First-Come-First-Served (FCFS)
-**B)**  Shortest Job First (SJF)
-**C)**  Priority Scheduling
-**D)**  Round Robin Scheduling
+**A)**   First-Come-First-Served (FCFS)
+**B)**   Shortest Job First (SJF)
+**C)**   Priority Scheduling
+**D)**   Round Robin Scheduling
 
 **Answer:** C) Priority Scheduling is a type of process scheduling algorithm used by Operating Systems to schedule processes based on their priority.
 
 ---
 
 **5. What is the primary function of a device manager in an Operating System?**
-**A)**  To manage memory
-**B)**  To manage files
-**C)**  To manage input/output operations with devices
-**D)**  To manage process scheduling
+**A)**   To manage memory
+**B)**   To manage files
+**C)**   To manage input/output operations with devices
+**D)**   To manage process scheduling
 
 **Answer:** C) Device managers are responsible for managing input/output operations with devices like keyboards, mice, and printers.
 

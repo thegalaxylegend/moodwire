@@ -106,7 +106,7 @@ While programs like NMMS provide ₹12,000 annually, which may not cover the ful
 For state-run talent exams, the SAT section is usually based on the State Board syllabus. However, for centrally-aided exams like NMMS, there is a massive overlap between the State Board and NCERT. If you are a CBSE student, you will find the difficulty level of state exams quite manageable, though you may need to brush up on specific regional geography or history for some tests.
 
 ### <a id="3-can-i-appear-for-multiple-statelevel-scholarship-exams"></a>3. Can I appear for multiple state-level scholarship exams?
-Yes, typically there is no restriction on appearing for multiple exams as long as you meet the individual eligibility criteria for each. For example, a Class 8 student in West Bengal can appear for both the NMMS and the WBMSTSE. Combining these opportunities maximizes your chances of securing at least one reliable source of educational funding.
+Yes, typically there is no restriction on appearing for multiple exams as long as you meet the individual eligibility criteria for each. For example, a [class](/blog/study-12-hours-daily-tips-class-11-revision-notes-jee-neet) 8 student in West Bengal can appear for both the NMMS and the WBMSTSE. Combining these opportunities maximizes your chances of securing at least one reliable source of educational funding.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

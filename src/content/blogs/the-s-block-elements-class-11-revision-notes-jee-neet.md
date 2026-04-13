@@ -79,7 +79,7 @@ This chapter is important because it helps us understand the properties and beha
 ## <a id="ayushs-note"></a>Ayush's Note
 
 <div [class](/blog/biological-classification-class-11-revision-notes-neet)="callout-box">
-I still remember when I was preparing for JEE, I used to get confused between the alkali metals and alkaline earth metals. I would often mix up their properties and reactions. But then I realized that the key to understanding these elements is to focus on their electron configuration and the way they lose electrons to form positive ions. For example, the alkali metals have a single electron in their outermost shell, which they can easily lose to form a positive ion. On the other hand, the alkaline earth metals have two electrons in their outermost shell, which makes them less reactive than the alkali metals. By understanding these differences, I was able to solve problems related to the s-block elements with ease.
+I still remember when I was preparing for JEE, I used to get confused between the alkali metals and alkaline earth metals. I would often mix up their properties and reactions. But then I realized that the key to understanding these elements is to focus on their electron configuration and the way they lose electrons to form positive ions. For example, the alkali metals have a single electron in their outermost shell, which they can easily lose to form a positive ion. On the other hand, the alkaline earth metals have two electrons in their outermost shell, which makes them less reactive than the alkali metals. By understanding these differences, I was able to solve problems related to the s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements with ease.
 </div>
 
 
@@ -215,7 +215,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/environmental-chemistry-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [The P Block Elements 11 Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet)
 - 📖 [Physical World Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/physical-world-class-11-revision-notes-jee-neet)

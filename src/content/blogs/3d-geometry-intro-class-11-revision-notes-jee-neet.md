@@ -61,10 +61,8 @@ practice_link: "/practice/3d-geometry-intro-class-11-revision-notes-jee-neet"
   - [PYQ 3: Image of a Point in a Plane](#pyq-3-image-of-a-point-in-a-plane)
 - [Practice MCQs](#practice-mcqs)
 
-
 ## <a id="fundamental-laws"></a>Fundamental Laws
 
-## <a id="fundamental-laws"></a>Fundamental Laws
 ### <a id="key-concepts"></a>**Key Concepts**
 * **Point**: Location in 3D space defined by coordinates.
 * **Vector**: Quantity with magnitude and direction.
@@ -76,9 +74,9 @@ practice_link: "/practice/3d-geometry-intro-class-11-revision-notes-jee-neet"
 ### <a id="3d-coordinates"></a>**3D Coordinates**
 * A point in 3D space is represented by $(x, y, z)$ coordinates.
 * **Distance** between two points $(x_1, y_1, z_1)$ and $(x_2, y_2, z_2)$ is given by:
-$$d = \sqrt{(x_2-x_1)^2 + (y_2-y_1)^2 + (z_2-z_1)^2}$$
+d = \sqrt{(x_2-x_1)^2 + (y_2-y_1)^2 + (z_2-z_1)^2}
 * **Midpoint** of two points $(x_1, y_1, z_1)$ and $(x_2, y_2, z_2)$ is given by:
-$$\left(\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2}, \frac{z_1+z_2}{2}\right)$$
+\left(\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2}, \frac{z_1+z_2}{2}\right)
 
 ## <a id="vectors-in-3d-space"></a>Vectors in 3D Space
 ### <a id="vector-operations"></a>**Vector Operations**
@@ -92,20 +90,19 @@ $$\left(\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2}, \frac{z_1+z_2}{2}\right)$$
 * A plane in 3D space is represented by the equation $ax + by + cz + d = 0$
 * **Normal Vector**: $(a, b, c)$ is the normal vector to the plane
 * **Line Equation**: A line in 3D space is represented by the parametric equations:
-$$x = x_0 + at, \quad y = y_0 + bt, \quad z = z_0 + ct$$
+x = x_0 + at, \quad y = y_0 + bt, \quad z = z_0 + ct
 * **Direction Vector**: $(a, b, c)$ is the direction vector of the line
 
 ## <a id="theorems-and-laws"></a>Theorems and Laws
 ### <a id="pythagorean-theorem"></a>**Pythagorean Theorem**
 * $a^2 + b^2 = c^2$ for a right-angled triangle with sides $a$, $b$, and hypotenuse $c$
 * In 3D space, the Pythagorean theorem can be extended to:
-$$d^2 = (x_2-x_1)^2 + (y_2-y_1)^2 + (z_2-z_1)^2$$
+d^2 = (x_2-x_1)^2 + (y_2-y_1)^2 + (z_2-z_1)^2
 * **Distance Formula**: The distance between two points $(x_1, y_1, z_1)$ and $(x_2, y_2, z_2)$ is given by:
-$$d = \sqrt{(x_2-x_1)^2 + (y_2-y_1)^2 + (z_2-z_1)^2}$$
+d = \sqrt{(x_2-x_1)^2 + (y_2-y_1)^2 + (z_2-z_1)^2}
 * **Midpoint Formula**: The midpoint of two points $(x_1, y_1, z_1)$ and $(x_2, y_2, z_2)$ is given by:
-$$\left(\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2}, \frac{z_1+z_2}{2}\right)$$
-* These formulas are essential in 3D geometry and are used to calculate distances, midpoints, and other quantities in three-dimensional space.
-
+\left(\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2}, \frac{z_1+z_2}{2}\right)
+* These formulas are essential in 3D [geometry](/blog/coordinate-geometry-class-10-notes) and are used to calculate distances, midpoints, and other quantities in three-dimensional space.
 
 ## <a id="derivations"></a>Derivations
 
@@ -140,45 +137,44 @@ $$\left(\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2}, \frac{z_1+z_2}{2}\right)$$
 
 ## <a id="intersection-of-lines-and-planes"></a>**Intersection of Lines and Planes**
 To find the intersection of a line and a plane, we can substitute the parametric equations of the line into the cartesian equation of the plane:
-$$
+
 a(x_0 + at) + b(y_0 + bt) + c(z_0 + ct) + d = 0
-$$
+
 Solving for $t$, we get:
-$$
+
 t = \frac{-ax_0 - by_0 - cz_0 - d}{a^2 + b^2 + c^2}
-$$
+
 Substituting this value of $t$ back into the parametric equations of the line, we get the point of intersection.
 
 ### <a id="derivation-of-volume-of-a-sphere"></a>**Derivation of Volume of a Sphere**
 The volume of a sphere can be derived using the method of disks:
-$$
+
 V = \int_{-r}^{r} \pi (r^2 - x^2) dx
-$$
+
 Evaluating the integral, we get:
-$$
+
 V = \pi \left[ r^2x - \frac{x^3}{3} \right]_{-r}^{r}
-$$
+
 Simplifying, we get:
-$$
+
 V = \frac{4}{3} \pi r^3
-$$
+
 This is the derivation of the formula for the volume of a sphere.
 
 ### <a id="derivation-of-surface-area-of-a-cylinder"></a>**Derivation of Surface Area of a Cylinder**
 The surface area of a cylinder can be derived by integrating the area of the circular cross-sections:
-$$
-A = \int_{0}^{h} 2\pi r dx
-$$
-Evaluating the integral, we get:
-$$
-A = 2\pi rh
-$$
-Adding the areas of the two circular bases, we get:
-$$
-A = 2\pi rh + 2\pi r^2
-$$
-This is the derivation of the formula for the surface area of a cylinder.
 
+A = \int_{0}^{h} 2\pi r dx
+
+Evaluating the integral, we get:
+
+A = 2\pi rh
+
+Adding the areas of the two circular bases, we get:
+
+A = 2\pi rh + 2\pi r^2
+
+This is the derivation of the formula for the surface area of a cylinder.
 
 ## <a id="technical-specs"></a>Technical Specs
 
@@ -213,7 +209,7 @@ This is the derivation of the formula for the surface area of a cylinder.
   + Side view
 * Uses of orthographic projections:
   + Technical drawing
-  + Architecture
+  + [architecture](/blog/art-culture-architecture-class-11-revision-notes-jee-neet)
   + Engineering
 
 ## <a id="3d-coordinate-systems"></a>**3D Coordinate Systems**
@@ -224,7 +220,7 @@ This is the derivation of the formula for the surface area of a cylinder.
   + Cartesian to cylindrical: $r = \sqrt{x^2 + y^2}$, $\theta = \tan^{-1}\left(\frac{y}{x}\right)$
   + Cartesian to spherical: $\rho = \sqrt{x^2 + y^2 + z^2}$, $\theta = \tan^{-1}\left(\frac{y}{x}\right)$, $\phi = \cos^{-1}\left(\frac{z}{\rho}\right)$
 * Applications of 3D coordinate systems:
-  + Computer graphics
+  + [computer](/blog/computer-networks-class-12-notes) graphics
   + Robotics
   + Medical imaging
 
@@ -241,22 +237,20 @@ This is the derivation of the formula for the surface area of a cylinder.
   + Architecture
   + Film and video production
 * Mathematical representation of perspective drawings:
-  $$\begin{pmatrix} x' \\ y' \end{pmatrix} = \begin{pmatrix} f & 0 \\ 0 & f \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix} + \begin{pmatrix} c_x \\ c_y \end{pmatrix}$$
+  \begin{pmatrix} x' \\ y' \end{pmatrix} = \begin{pmatrix} f & 0 \\ 0 & f \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix} + \begin{pmatrix} c_x \\ c_y \end{pmatrix}
   where $(x', y')$ is the projected point, $(x, y)$ is the original point, $f$ is the focal length, and $(c_x, c_y)$ is the principal point.
 
 ## <a id="mathematical-derivations"></a>**Mathematical Derivations**
 * Derivation of distance formula in 3D space:
-  $$d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2}$$
+  d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2}
 * Derivation of midpoint formula in 3D space:
-  $$\left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}, \frac{z_1 + z_2}{2}\right)$$
+  \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}, \frac{z_1 + z_2}{2}\right)
 * Derivation of orthographic projection formula:
-  $$\begin{pmatrix} x' \\ y' \end{pmatrix} = \begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix}$$
+  \begin{pmatrix} x' \\ y' \end{pmatrix} = \begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix}
   where $(x', y')$ is the projected point, $(x, y)$ is the original point, and $\theta$ is the angle of rotation.
-
 
 ## <a id="advanced-analysis"></a>Advanced Analysis
 
-## <a id="3d-geometry-fundamentals"></a>**3D Geometry Fundamentals**
 * **Curvature**: Measure of how fast a curve turns.
 * **Torsion**: Measure of how fast a curve twists.
 * **Surface Curvature**: Measure of how curved a surface is.
@@ -289,35 +283,33 @@ This is the derivation of the formula for the surface area of a cylinder.
 * **Dual Quaternion Applications**: 3D transformations, computer vision, and animation.
 
 ## <a id="derivations-and-proofs"></a>**Derivations and Proofs**
-$$
+
 \begin{aligned}
 k &= \frac{||\mathbf{r}'(t) \times \mathbf{r}''(t)||}{||\mathbf{r}'(t)||^3} \\
 &= \frac{||(\mathbf{r}'(t) \times \mathbf{r}''(t)) \cdot \mathbf{n}(t)||}{||\mathbf{r}'(t)||^3} \\
 &= \frac{||\mathbf{n}(t) \cdot (\mathbf{r}'(t) \times \mathbf{r}''(t))||}{||\mathbf{r}'(t)||^3}
 \end{aligned}
-$$
+
 * **Frenet-Serret Derivation**: 
-$$
+
 \begin{aligned}
 \mathbf{r}'(t) &= \mathbf{T}(t) \\
 \mathbf{T}'(t) &= \kappa(t)\mathbf{N}(t) \\
 \mathbf{N}'(t) &= -\kappa(t)\mathbf{T}(t) + \tau(t)\mathbf{B}(t) \\
 \mathbf{B}'(t) &= -\tau(t)\mathbf{N}(t)
 \end{aligned}
-$$
+
 * **Gaussian Curvature Derivation**:
-$$
+
 \begin{aligned}
 K &= \frac{eg - f^2}{EG - F^2} \\
 &= \frac{(\mathbf{r}_u \times \mathbf{r}_v) \cdot (\mathbf{r}_{uu} \times \mathbf{r}_{uv})}{||\mathbf{r}_u \times \mathbf{r}_v||^2}
 \end{aligned}
-$$
-Key concepts, formulas, and derivations are essential in 3D geometry, including curvature and torsion of curves, surface curvature, and Gaussian curvature. 3D transformations, quaternions, and dual quaternions have numerous applications in computer graphics, robotics, and animation.
 
+Key concepts, formulas, and derivations are essential in 3D geometry, including curvature and torsion of curves, surface curvature, and Gaussian curvature. 3D transformations, quaternions, and dual quaternions have numerous applications in computer graphics, robotics, and animation.
 
 ## <a id="practice-problems"></a>Practice Problems
 
-## <a id="3d-geometry-fundamentals"></a>**3D Geometry Fundamentals**
 * **Point**: Location in 3D space defined by $x$, $y$, and $z$ coordinates.
 * **Vector**: Quantity with magnitude and direction, represented by $\vec{v} = (x, y, z)$.
 * **Plane**: Flat surface defined by equation $ax + by + cz + d = 0$.
@@ -336,26 +328,25 @@ Key concepts, formulas, and derivations are essential in 3D geometry, including 
 ## <a id="applications-in-engineering-and-architecture"></a>**Applications in Engineering and Architecture**
 * **Computer-Aided Design (CAD)**: Software for creating and modifying 3D models, using **NURBS** (Non-uniform rational B-spline) curves and surfaces.
 * **Building Information Modeling (BIM)**: Digital representation of buildings, including **geometry**, **topology**, and **attributes**.
-* **Structural Analysis**: Simulation of stress and strain on 3D structures, using **Finite Element Method (FEM)**: $$\mathbf{K} \cdot \mathbf{u} = \mathbf{F}$$.
+* **Structural Analysis**: Simulation of stress and strain on 3D structures, using **Finite Element Method (FEM)**: \mathbf{K} \cdot \mathbf{u} = \mathbf{F}.
 
 ## <a id="realworld-applications"></a>**Real-World Applications**
 * **3D Printing**: Layer-by-layer fabrication of physical objects, using **STL** (STereoLithography) files and **G-code**.
-* **Robotics**: Control and navigation of robots in 3D space, using **kinematics** and **dynamics**: $$\mathbf{v} = \mathbf{J} \cdot \mathbf{q}$$.
-* **Geographic Information Systems (GIS)**: Analysis and visualization of geospatial data, using **projections** and **coordinate systems**: $$x = \lambda \cdot \cos(\phi)$$.
+* **Robotics**: Control and navigation of robots in 3D space, using **kinematics** and **dynamics**: \mathbf{v} = \mathbf{J} \cdot \mathbf{q}.
+* **Geographic Information Systems (GIS)**: Analysis and visualization of geospatial data, using **projections** and **coordinate systems**: x = \lambda \cdot \cos(\phi).
 
 ## <a id="practice-problems"></a>**Practice Problems**
 * Find the equation of a plane passing through three points $(x_1, y_1, z_1)$, $(x_2, y_2, z_2)$, and $(x_3, y_3, z_3)$.
 * Generate a mesh for a 3D object using **Delaunay triangulation**.
-* Render a 3D scene with **perspective projection** and **Phong shading**: $$I = I_0 \cdot (\vec{n} \cdot \vec{l}) + I_1 \cdot (\vec{v} \cdot \vec{r})^2$$.
-* Analyze the stress on a 3D structure using **FEM** and **Gauss-Seidel method**: $$\mathbf{K} \cdot \mathbf{u}^{k+1} = \mathbf{F} - \mathbf{K} \cdot \mathbf{u}^k$$.
-* Visualize a geospatial dataset using **Mercator projection** and **color mapping**: $$x = \lambda \cdot \cos(\phi)$$, $$y = \phi$$.
+* Render a 3D scene with **perspective projection** and **Phong shading**: I = I_0 \cdot (\vec{n} \cdot \vec{l}) + I_1 \cdot (\vec{v} \cdot \vec{r})^2.
+* Analyze the stress on a 3D structure using **FEM** and **Gauss-Seidel method**: \mathbf{K} \cdot \mathbf{u}^{k+1} = \mathbf{F} - \mathbf{K} \cdot \mathbf{u}^k.
+* Visualize a geospatial dataset using **Mercator projection** and **color mapping**: x = \lambda \cdot \cos(\phi), y = \phi.
 * Design a 3D model of a building using **BIM** and **Revit**.
-* Simulate the motion of a robot in 3D space using **kinematics** and **dynamics**: $$\mathbf{v} = \mathbf{J} \cdot \mathbf{q}$$, $$\mathbf{a} = \mathbf{J} \cdot \mathbf{q}'$$.
+* Simulate the motion of a robot in 3D space using **kinematics** and **dynamics**: \mathbf{v} = \mathbf{J} \cdot \mathbf{q}, \mathbf{a} = \mathbf{J} \cdot \mathbf{q}'.
 * Create a 3D printed object using **STL** and **Slic3r**.
-* Develop a **GIS** application using **Python** and **Folium**: $$x = \lambda \cdot \cos(\phi)$$, $$y = \phi$$.
+* Develop a **GIS** application using **Python** and **Folium**: x = \lambda \cdot \cos(\phi), y = \phi.
 
 ## <a id="solved-pyqs"></a>Solved PYQs
-
 
 *   Topic: 3D Geometry (Mathematics).
 *   Section: 3 Solved PYQs (Previous Year Questions).
@@ -365,7 +356,7 @@ Key concepts, formulas, and derivations are essential in 3D geometry, including 
 *   Constraint 3: H3/H4 hierarchy, bold key terms.
 *   Constraint 4: Scan-ability (80% bullet points, one line per fact).
 *   Constraint 5: Full step-by-step rigorous derivations in LaTeX.
-*   Constraint 6: LaTeX formatting ($ for inline, $$ for block).
+*   Constraint 6: LaTeX formatting ($ for inline,  for block).
 *   Constraint 7: No repetition of section title.
 *   Custom Rule: Show derivation of answers for 3 complex PYQs.
 
@@ -450,17 +441,17 @@ Key concepts, formulas, and derivations are essential in 3D geometry, including 
     * $\vec{a}_1 = \hat{i} + 2\hat{j} + 3\hat{k}$, $\vec{b}_1 = \hat{i} - \hat{j}$
     * $\vec{a}_2 = 2\hat{i} + \hat{k}$, $\vec{b}_2 = \hat{j} + \hat{k}$
 * Compute the **vector difference**:
-    $$\vec{a}_2 - \vec{a}_1 = (2-1)\hat{i} + (0-2)\hat{j} + (1-3)\hat{k} = \hat{i} - 2\hat{j} - 2\hat{k}$$
+    \vec{a}_2 - \vec{a}_1 = (2-1)\hat{i} + (0-2)\hat{j} + (1-3)\hat{k} = \hat{i} - 2\hat{j} - 2\hat{k}
 * Find the **cross product** of direction vectors ($\vec{b}_1 \times \vec{b}_2$):
-    $$\vec{b}_1 \times \vec{b}_2 = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 1 & -1 & 0 \\ 0 & 1 & 1 \end{vmatrix} = \hat{i}(-1-0) - \hat{j}(1-0) + \hat{k}(1-0) = -\hat{i} - \hat{j} + \hat{k}$$
+    \vec{b}_1 \times \vec{b}_2 = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 1 & -1 & 0 \\ 0 & 1 & 1 \end{vmatrix} = \hat{i}(-1-0) - \hat{j}(1-0) + \hat{k}(1-0) = -\hat{i} - \hat{j} + \hat{k}
 * Calculate the **magnitude** of the cross product:
-    $$|\vec{b}_1 \times \vec{b}_2| = \sqrt{(-1)^2 + (-1)^2 + 1^2} = \sqrt{3}$$
+    |\vec{b}_1 \times \vec{b}_2| = \sqrt{(-1)^2 + (-1)^2 + 1^2} = \sqrt{3}
 * Apply the **Shortest Distance (SD) formula**:
-    $$SD = \frac{|(\vec{a}_2 - \vec{a}_1) \cdot (\vec{b}_1 \times \vec{b}_2)|}{|\vec{b}_1 \times \vec{b}_2|}$$
+    SD = \frac{|(\vec{a}_2 - \vec{a}_1) \cdot (\vec{b}_1 \times \vec{b}_2)|}{|\vec{b}_1 \times \vec{b}_2|}
 * Substitute values into the **scalar triple product**:
-    $$(\vec{a}_2 - \vec{a}_1) \cdot (\vec{b}_1 \times \vec{b}_2) = (1)(-1) + (-2)(-1) + (-2)(1) = -1 + 2 - 2 = -1$$
+    (\vec{a}_2 - \vec{a}_1) \cdot (\vec{b}_1 \times \vec{b}_2) = (1)(-1) + (-2)(-1) + (-2)(1) = -1 + 2 - 2 = -1
 * Final calculation:
-    $$SD = \frac{|-1|}{\sqrt{3}} = \frac{1}{\sqrt{3}}$$
+    SD = \frac{|-1|}{\sqrt{3}} = \frac{1}{\sqrt{3}}
 
 ### <a id="pyq-2-intersection-of-line-and-plane"></a>PYQ 2: Intersection of Line and Plane
 
@@ -468,18 +459,15 @@ Key concepts, formulas, and derivations are essential in 3D geometry, including 
 
 #### Derivation
 * Express the **line in parametric form**:
-    $$x = 3k + 2, \quad y = 4k - 1, \quad z = 5k + 2$$
+    x = 3k + 2, \quad y = 4k - 1, \quad z = 5k + 2
 * Substitute these **parametric coordinates** into the plane equation:
-    $$2(3k + 2) - (4k - 1) + 3(5k + 2) = 12$$
+    2(3k + 2) - (4k - 1) + 3(5k + 2) = 12
 * Expand and **simplify the linear equation**:
-    $$6k + 4 - 4k + 1 + 15k + 6 = 12$$
-    $$17k + 11 = 12$$
+    6k + 4 - 4k + 1 + 15k + 6 = 1217k + 11 = 12
 * Solve for the **parameter** $k$:
-    $$17k = 1 \implies k = \frac{1}{17}$$
+    17k = 1 \implies k = \frac{1}{17}
 * Substitute $k$ back into the **parametric equations**:
-    $$x = 3\left(\frac{1}{17}\right) + 2 = \frac{3 + 34}{17} = \frac{37}{17}$$
-    $$y = 4\left(\frac{1}{17}\right) - 1 = \frac{4 - 17}{17} = -\frac{13}{17}$$
-    $$z = 5\left(\frac{1}{17}\right) + 2 = \frac{5 + 34}{17} = \frac{39}{17}$$
+    x = 3\left(\frac{1}{17}\right) + 2 = \frac{3 + 34}{17} = \frac{37}{17}y = 4\left(\frac{1}{17}\right) - 1 = \frac{4 - 17}{17} = -\frac{13}{17}z = 5\left(\frac{1}{17}\right) + 2 = \frac{5 + 34}{17} = \frac{39}{17}
 * Final **intersection point**: $\left(\frac{37}{17}, -\frac{13}{17}, \frac{39}{17}\right)$.
 
 ### <a id="pyq-3-image-of-a-point-in-a-plane"></a>PYQ 3: Image of a Point in a Plane
@@ -489,18 +477,14 @@ Key concepts, formulas, and derivations are essential in 3D geometry, including 
 #### Derivation
 * Identify the **normal vector** of the plane: $\vec{n} = 2\hat{i} - 2\hat{j} + \hat{k}$.
 * Write the equation of the **line perpendicular** to the plane passing through $P$:
-    $$\frac{x-1}{2} = \frac{y-2}{-2} = \frac{z-1}{1} = \lambda$$
+    \frac{x-1}{2} = \frac{y-2}{-2} = \frac{z-1}{1} = \lambda
 * Define the **general point** $Q$ on this line: $Q = (2\lambda + 1, -2\lambda + 2, \lambda + 1)$.
 * Find the **foot of the perpendicular** $M$ by substituting $Q$ into the plane equation:
-    $$2(2\lambda + 1) - 2(-2\lambda + 2) + (\lambda + 1) + 6 = 0$$
-    $$4\lambda + 2 + 4\lambda - 4 + \lambda + 1 + 6 = 0$$
-    $$9\lambda + 5 = 0 \implies \lambda = -\frac{5}{9}$$
+    2(2\lambda + 1) - 2(-2\lambda + 2) + (\lambda + 1) + 6 = 04\lambda + 2 + 4\lambda - 4 + \lambda + 1 + 6 = 09\lambda + 5 = 0 \implies \lambda = -\frac{5}{9}
 * Use the **midpoint property**: The image $P'$ occurs at $2\lambda$ from $P$:
-    $$\lambda_{image} = 2 \times \left(-\frac{5}{9}\right) = -\frac{10}{9}$$
+    \lambda_{image} = 2 \times \left(-\frac{5}{9}\right) = -\frac{10}{9}
 * Calculate **coordinates of the image** $P'$:
-    $$x = 2\left(-\frac{10}{9}\right) + 1 = \frac{-20 + 9}{9} = -\frac{11}{9}$$
-    $$y = -2\left(-\frac{10}{9}\right) + 2 = \frac{20 + 18}{9} = \frac{38}{9}$$
-    $$z = \left(-\frac{10}{9}\right) + 1 = \frac{-10 + 9}{9} = -\frac{1}{9}$$
+    x = 2\left(-\frac{10}{9}\right) + 1 = \frac{-20 + 9}{9} = -\frac{11}{9}y = -2\left(-\frac{10}{9}\right) + 2 = \frac{20 + 18}{9} = \frac{38}{9}z = \left(-\frac{10}{9}\right) + 1 = \frac{-10 + 9}{9} = -\frac{1}{9}
 * Final **image point**: $\left(-\frac{11}{9}, \frac{38}{9}, -\frac{1}{9}\right)$.
 
 ## <a id="practice-mcqs"></a>Practice MCQs
@@ -531,15 +515,46 @@ Key concepts, formulas, and derivations are essential in 3D geometry, including 
 
 5. What is the angle between the vectors [2, 3, 4] and [1, 2, 3] in 3D space?
 - A) arccos((2*1 + 3*2 + 4*3) / (sqrt(29) * sqrt(14)))
-- B) arccos((2*1 + 3*2 + 4*3) / (sqrt(4+9+16) * sqrt(1+4+9)))
-- C) arccos((2*1 + 3*2 + 4*3) / (sqrt(29) * sqrt(29)))
-- D) arccos((2*1 + 3*2 + 4*3) / (sqrt(14) * sqrt(14)))
-
-
+-
+B) arccos((2*1 + 3*2 + 4*3) / (sqrt(4+9+16) * sqrt(1+4+9)))
+-
+C) arccos((2*1 + 3*2 + 4*3) / (sqrt(29) * sqrt(29)))
+-
+D) arccos((2*1 + 3*2 + 4*3) / (sqrt(14) * sqrt(14)))
 ---
-
 ### 🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice/3d-geometry-intro-class-11-revision-notes-jee-neet) now and track your progress against thousands of students.
-
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+$
+## 🪤 The 5 Mistakes That Cost Marks
+* A common mistake in 3D geometry is **assuming that the distance between two points in 3D space is the same as the distance between their projections on a 2D plane**. This can lead to in
+
+correct calculations of distances and midpoints.
+* Another trap question is **confusing the direction ratios and direction cosines of a line**. Direction ratios are used to specify the direction of a line, while direction cosines are used to find the angle between a line and the coordinate axes.
+* Students often **make errors when finding the equation of a plane in 3D space**, such as forgetting to include the constant term or using the incorrect sign.
+* A trap question in 3D geometry is **assuming that the shortest distance between two lines is the same as the distance between their midpoints**. The shortest distance between two lines is actually the perpendicular distance between them.
+* A common mistake is **not checking for parallelism or perpendicularity between lines and planes** before performing calculations, which can lead to incorrect results and wasted time.
+
+## 🔁 Last 5 Minutes Box
+
+    * **Distance Formula**: The distance between two points ( (x_1, y_1, z_1) ) and ( (x_2, y_2, z_2) ) in 3D space is given by ( sqrt{(x_2-x_1)^2 + (y_2-y_1)^2 + (z_2-z_1)^2} ).
+    * **Section Formula**: The coordinates of a point that divides the line segment joining ( (x_1, y_1, z_1) ) and ( (x_2, y_2, z_2) ) in the ratio m:n are ( left( \frac{mx_2 + nx_1}{m+n}, \frac{my_2 + ny_1}{m+n}, \frac{mz_2 + nz_1}{m+n} \right) ).
+    * **Midpoint Formula**: The midpoint of the line segment joining ( (x_1, y_1, z_1) ) and ( (x_2, y_2, z_2) ) is ( \left( \frac{x_1+x_2}{2}, \frac{y_1+y_2}{2}, \frac{z_1+z_2}{2} \right) ).
+    * **Centroid of a Triangle**: The centroid of a triangle with vertices ( (x_1, y_1, z_1) ), ( (x_2, y_2, z_2) ), and ( (x_3, y_3, z_3) ) is ( \left( \frac{x_1+x_2+x_3}{3}, \frac{y_1+y_2+y_3}{3}, \frac{z_1+z_2+z_3}{3} \right) ).
+    * **Equation of a Plane**: The equation of a plane in normal form is ( ax + by + cz + d = 0 ), where ( a, b, c ) are the direction ratios of the normal to the plane.
+    * **Angle between Two Planes**: The angle between two planes ( a_1x + b_1y + c_1z + d_1 = 0 ) and ( a_2x + b_2y + c_2z + d_2 = 0 ) is given by ( \cos \theta = \frac{a_1a_2 + b_1b_2 + c_1c_2}{\sqrt{a_1^2+b_1^2+c_1^2} \cdot \sqrt{a_2^2+b_2^2+c_2^2}} ).
+    * **Equation of a Line**: The equation of a line passing through ( (x_1, y_1, z_1) ) and having direction ratios ( a, b, c ) is ( \frac{x-x_1}{a} = \frac{y-y_1}{b} = \frac{z-z_1}{c} ).
+    * **Shortest Distance between Two Lines**: The shortest distance between two lines ( \frac{x-x_1}{a_1} = \frac{y-y_1}{b_1} = \frac{z-z_1}{c_1} ) and ( \frac{x-x_2}{a_2} = \frac{y-y_2}{b_2} = \frac{z-z_2}{c_2} ) is ( \frac{\begin{vmatrix} x_2-x_1 & y_2-y_1 & z_2-z_1 \ a_1 & b_1 & c_1 \ a_2 & b_2 & c_2 \end{vmatrix}}{\sqrt{(b_1c_2-b_2c_1)^2 + (c_1a_2-c_2a_1)^2 + (a_1b_2-a_2b_1)^2}} ).
+   
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [Trigonometric Functions Class 11 (Mathematics) Comprehensive Notes — JEE & Boards 2026 Encyclopedia](/blog/trigonometric-functions-class-11-revision-notes-jee-neet)
+- 📖 [Algorithms: Analysis Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-analysis-class-11-revision-notes-gate-boards)
+- 📖 [Computer Networks Class 12 (Computer Science) Comprehensive Notes — Boards 2026 Encyclopedia](/blog/computer-networks-class-12-notes)
+- 📖 [Art Culture Architecture Class 11 Chemistry Revision — CBSE Boards 2026 Grandmaster Guide](/blog/art-culture-architecture-class-11-revision-notes-jee-neet)

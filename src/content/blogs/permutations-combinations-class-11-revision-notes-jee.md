@@ -166,7 +166,7 @@ A combination is a selection of items where the order of selection does not matt
 
 ## <a id="conclusion"></a>Conclusion
 
-Permutations and Combinations transform the way we see complexity. By mastering the core formulas of nPr and nCr, and understanding when order matters, you gain the power to calculate outcomes in everything from poker hands to the number of ways to sequence DNA. Keep your factorials small and your logic sharp!
+[permutations](/blog/permutations-and-combinations-class-11-revision-notes-jee) and Combinations transform the way we see complexity. By mastering the core formulas of nPr and nCr, and understanding when order matters, you gain the power to calculate outcomes in everything from poker hands to the number of ways to sequence DNA. Keep your factorials small and your logic sharp!
 
 ---
 

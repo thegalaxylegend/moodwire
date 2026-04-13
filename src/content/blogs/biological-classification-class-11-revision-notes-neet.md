@@ -114,7 +114,7 @@ Phylum is the level of classification below the kingdom. It is a group of relate
 
 ### <a id="class"></a>Class
 [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) is the level of classification below the phylum. It is a group of related orders. 
-\text{Class} = \text{group of related orders}
+\text{[class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)} = \text{group of related orders}
 
 ### <a id="order"></a>Order
 Order is the level of classification below the class. It is a group of related families. 

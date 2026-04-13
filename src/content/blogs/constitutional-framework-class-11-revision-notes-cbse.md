@@ -101,7 +101,7 @@ As I prepare for the Class 11 exam in 2026, I find it helpful to create a timeli
 
 **Trap Exceptions** are concepts or provisions that are often misunderstood or overlooked. Some examples of trap exceptions in the Constitutional Framework include:
 * **The concept of "reasonable restrictions"**: The idea that the government can impose restrictions on individual [rights](/blog/fundamental-rights-class-11-revision-notes-cbse), but only if they are reasonable and in the interest of the public
-* **The distinction between "citizens" and "persons"**: The difference between the rights and privileges available to citizens and non-citizens
+* **The distinction between "citizens" and "persons"**: The difference between the [rights](/blog/fundamental-rights-class-11-revision-notes-cbse) and privileges available to citizens and non-citizens
 * **The role of the **Judiciary** in interpreting the Constitution**: The power of the courts to interpret the Constitution and declare laws and government actions as unconstitutional
 
 I find it helpful to review these trap exceptions regularly, as they can be tricky to understand and are often tested in exams.
@@ -141,7 +141,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Federalism Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/federalism-class-11-revision-notes-cbse)
 - 📖 [Fundamental Rights Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/fundamental-rights-class-11-revision-notes-cbse)

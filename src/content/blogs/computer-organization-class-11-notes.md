@@ -91,7 +91,7 @@ Computer Organization is the way in which a computer's hardware and software com
 
 The CPU, also known as the brain of the computer, is responsible for executing most instructions that a computer receives. It consists of several key components, including the **Control Unit**, **Arithmetic [logic](/blog/digital-logic-class-11-revision-notes-gate-boards) Unit (ALU)**, and **Registers**. The Control Unit retrieves and decodes instructions, while the ALU performs mathematical and logical operations. Registers, on the other hand, are small amounts of on-chip memory that store data temporarily while it is being processed.
 
-Memory, another crucial component of computer organization, refers to the storage locations that hold data and programs. It can be classified into two main categories: **Main Memory (RAM)** and **Secondary Memory (ROM)**. Main Memory is volatile, meaning that its contents are lost when the computer is powered off, whereas Secondary Memory is non-volatile, retaining its data even after the computer is shut down.
+Memory, another crucial component of computer organization, refers to the storage locations that hold [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) and programs. It can be classified into two main categories: **Main Memory (RAM)** and **Secondary Memory (ROM)**. Main Memory is volatile, meaning that its contents are lost when the computer is powered off, whereas Secondary Memory is non-volatile, retaining its [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) even after the computer is shut down.
 
 In addition to the CPU and Memory, computer organization also involves Input/Output (I/O) devices, which enable users to interact with the computer. These devices include **Keyboards**, **Monitors**, and **Printers**, among others. The $I/O$ devices communicate with the CPU through a **Bus**, which is a communication pathway that allows data to be transferred between different components of the computer.
 
@@ -106,7 +106,7 @@ Here's a comparison table highlighting the key differences between Main Memory a
 
 ## <a id="what-are-the-basic-components-of-a-computer"></a>What are the Basic Components of a Computer?
 
-What are the Basic Components of a Computer? is a fundamental concept in computer science that refers to the essential parts that make up a computer system. It includes the Central Processing Unit (CPU), Memory, and Input/Output (I/O) devices. For Class 11 exam prep in 2026, the most important aspect is understanding how these components interact with each other to process information.
+What are the Basic Components of a Computer? is a fundamental concept in computer science that refers to the essential parts that make up a computer system. It includes the Central Processing Unit (CPU), Memory, and Input/Output (I/O) devices. For [class](/blog/digital-logic-class-11-revision-notes-gate-boards) 11 exam prep in 2026, the most important aspect is understanding how these components interact with each other to process information.
 
  The **Central Processing Unit (CPU)**, also known as the processor, is the brain of the computer. It executes instructions and performs calculations, and its speed is measured in GHz (gigahertz). The CPU consists of several key components, including the **Control Unit**, which retrieves and decodes instructions, and the **Arithmetic Logic Unit (ALU)**, which performs mathematical and logical operations.
 

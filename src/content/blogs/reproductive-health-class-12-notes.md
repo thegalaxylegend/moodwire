@@ -47,7 +47,7 @@ practice_link: "/class-11/biology/reproductive-health-class-12-notes"
 
 - **Gross [reproduction](/blog/human-reproduction-class-12-notes) Rate (GRR):** \frac{\	ext{Number of Daughters Born}}{\	ext{Number of Women of Childbearing Age}} — Average number of daughters a woman would have in her lifetime
 
-- **Net Reproduction Rate (NRR):** \frac{\	ext{Number of Daughters Surviving to Childbearing Age}}{\	ext{Number of Women of Childbearing Age}} — Average number of daughters surviving to childbearing age per woman
+- **Net [reproduction](/blog/human-reproduction-class-12-notes) Rate (NRR):** \frac{\	ext{Number of Daughters Surviving to Childbearing Age}}{\	ext{Number of Women of Childbearing Age}} — Average number of daughters surviving to childbearing age per woman
 
 - **Gross Reproduction Rate (GRR):** \frac{\	ext{Number of Daughters Born}}{\	ext{Number of Women of Childbearing Age}} — Average number of daughters a woman would have in her lifetime
 

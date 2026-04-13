@@ -63,7 +63,7 @@ In this chapter, it's essential to remember that the stem, root, and leaves are 
 
 
 Welcome to the fascinating world of plant anatomy! This chapter accounts for a significant weightage in various competitive exams like JEE, MEET, and boards. According to JEE Advanced analysis, around 6.4% questions are directly related to this topic, while in MEET it is around 4.9%. As per CBSE, 8.2% of total marks in [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) 11 Biology are dedicated to plant anatomy, out of which a substantial portion is reserved for this chapter. This comprehensive chapter helps students grasp the fundamental concepts of plant anatomy, including the detailed descriptions of cell structure, tissue systems, and organ organization. It also provides an essential background for understanding plant physiology, genetics, and other related disciplines. By chapter, students will not only perform exceptionally well in exams but also develop a deep appreciation for the intricate complexities of plant biology. Let's break down the weightage of various subtopics in this chapter: 
-In JEE Advanced: Cell structure (1.2%), Tissue systems (1.5%), and Organ organization (3.7%)
+In JEE Advanced: [cell](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) structure (1.2%), Tissue systems (1.5%), and Organ organization (3.7%)
 
 In MEET: Cell structure (1.8%), Tissue systems (2.3%), and Organ organization (0.8%)
 
@@ -79,7 +79,7 @@ Key points to remember:
 
 
 
-The anatomy of flowering plants can be summarized as a quick revision on the key structures and functions of these complex organisms. This cheat sheet provides an overview of the major components of a flower, including petals, sepals, stamens, and pistils. Understanding the anatomy of flowering plants is essential for grasping various biological processes, such as reproduction, pollination, and seed dispersal. The reproductive organs of flowers, specifically the stamens and pistils, play a vital role in the plant's life cycle. By reviewing the key structures and functions of flowering plants, students can gain a deeper understanding of their biology and prepare for higher-level exams. The key points to focus on include the morphology of flowers, the functions of the different parts, and the life cycle of a plant.
+The anatomy of flowering plants can be summarized as a quick revision on the key structures and functions of these complex organisms. This cheat sheet provides an overview of the major components of a flower, including petals, sepals, stamens, and pistils. Understanding the anatomy of flowering plants is essential for grasping various [biological](/blog/biological-classification-class-11-revision-notes-neet) processes, such as reproduction, pollination, and seed dispersal. The reproductive organs of flowers, specifically the stamens and pistils, play a vital role in the plant's life cycle. By reviewing the key structures and functions of flowering plants, students can gain a deeper understanding of their biology and prepare for higher-level exams. The key points to focus on include the morphology of flowers, the functions of the different parts, and the life cycle of a plant.
 
 
 

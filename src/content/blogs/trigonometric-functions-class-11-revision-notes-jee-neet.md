@@ -75,7 +75,6 @@ practice_link: "/practice/trigonometric-functions-class-11-revision-notes-jee-ne
 - [Step 3: Problem 3 - Trigonometric Function](#step-3-problem-3-trigonometric-function)
 - [Practice MCQs](#practice-mcqs)
 
-
 ## <a id="fundamental-laws"></a>Fundamental Laws
 
 ## <a id="trigonometric-functions"></a>**Trigonometric Functions**
@@ -109,30 +108,28 @@ practice_link: "/practice/trigonometric-functions-class-11-revision-notes-jee-ne
   + $tan(\frac{\pi}{3}) = \sqrt{3}$
 
 ### <a id="fundamental-trigonometric-identity"></a>**Fundamental Trigonometric Identity**
-The fundamental trigonometric identity is given by:
-$$\sin^2(x) + \cos^2(x) = 1$$
+The fundamental [trigonometric](/blog/inverse-trigonometric-functions-class-12-notes) identity is given by:
+\sin^2(x) + \cos^2(x) = 1
 This identity can be derived using the **Pythagorean Theorem**:
-$$a^2 + b^2 = c^2$$
+a^2 + b^2 = c^2
 where $a$ and $b$ are the lengths of the legs of a right triangle, and $c$ is the length of the hypotenuse.
 
 ### <a id="derivation-of-the-fundamental-trigonometric-identity"></a>**Derivation of the Fundamental Trigonometric Identity**
 Using the definitions of **sine** and **cosine**, we can write:
-$$\sin(x) = \frac{a}{c}$$
-$$\cos(x) = \frac{b}{c}$$
+\sin(x) = \frac{a}{c}\cos(x) = \frac{b}{c}
 Substituting these expressions into the Pythagorean Theorem, we get:
-$$\left(\frac{a}{c}\right)^2 + \left(\frac{b}{c}\right)^2 = 1$$
+\left(\frac{a}{c}\right)^2 + \left(\frac{b}{c}\right)^2 = 1
 Simplifying this expression, we get:
-$$\frac{a^2}{c^2} + \frac{b^2}{c^2} = 1$$
+\frac{a^2}{c^2} + \frac{b^2}{c^2} = 1
 Using the fact that $a^2 + b^2 = c^2$, we can rewrite this expression as:
-$$\frac{c^2}{c^2} = 1$$
+\frac{c^2}{c^2} = 1
 which simplifies to:
-$$\sin^2(x) + \cos^2(x) = 1$$
+\sin^2(x) + \cos^2(x) = 1
 
 ### <a id="applications-of-the-fundamental-trigonometric-identity"></a>**Applications of the Fundamental Trigonometric Identity**
 * **Simplifying Trigonometric Expressions**: The fundamental trigonometric identity can be used to simplify complex trigonometric expressions.
 * **Verifying Trigonometric Identities**: The fundamental trigonometric identity can be used to verify other trigonometric identities.
 * **Solving Trigonometric Equations**: The fundamental trigonometric identity can be used to solve trigonometric equations.
-
 
 ## <a id="derivations"></a>Derivations
 
@@ -144,10 +141,9 @@ $$\sin^2(x) + \cos^2(x) = 1$$
 
 ### <a id="derivations"></a>**Derivations**
 * Derivation of **sine** and **cosine** from the unit circle: 
-$$\sin \theta = \frac{y}{r} = \frac{y}{1} = y$$
-$$\cos \theta = \frac{x}{r} = \frac{x}{1} = x$$
+\sin \theta = \frac{y}{r} = \frac{y}{1} = y\cos \theta = \frac{x}{r} = \frac{x}{1} = x
 * Derivation of **tangent**: 
-$$\tan \theta = \frac{\sin \theta}{\cos \theta} = \frac{y}{x}$$
+\tan \theta = \frac{\sin \theta}{\cos \theta} = \frac{y}{x}
 
 ## <a id="reciprocal-trigonometric-functions"></a>Reciprocal Trigonometric Functions
 ### <a id="definitions"></a>**Definitions**
@@ -155,14 +151,13 @@ $$\tan \theta = \frac{\sin \theta}{\cos \theta} = \frac{y}{x}$$
 * **Secant**: reciprocal of **cosine**.
 * **Cotangent**: reciprocal of **tangent**.
 
-### <a id="derivations"></a>**Derivations**
+#
 * Derivation of **cosecant** and **secant**: 
-$$\csc \theta = \frac{1}{\sin \theta} = \frac{1}{y}$$
-$$\sec \theta = \frac{1}{\cos \theta} = \frac{1}{x}$$
+\csc \theta = \frac{1}{\sin \theta} = \frac{1}{y}\sec \theta = \frac{1}{\cos \theta} = \frac{1}{x}
 * Derivation of **cotangent**: 
-$$\cot \theta = \frac{1}{\tan \theta} = \frac{x}{y}$$
+\cot \theta = \frac{1}{\tan \theta} = \frac{x}{y}
 * Relationship between **cotangent** and **tangent**: 
-$$\cot \theta = \frac{1}{\tan \theta} = \frac{\cos \theta}{\sin \theta}$$
+\cot \theta = \frac{1}{\tan \theta} = \frac{\cos \theta}{\sin \theta}
 
 ## <a id="inverse-trigonometric-functions"></a>Inverse Trigonometric Functions
 ### <a id="definitions"></a>**Definitions**
@@ -170,24 +165,21 @@ $$\cot \theta = \frac{1}{\tan \theta} = \frac{\cos \theta}{\sin \theta}$$
 * **Arccosine**: inverse of **cosine**.
 * **Arctangent**: inverse of **tangent**.
 
-### <a id="derivations"></a>**Derivations**
+#
 * Derivation of **arcsine**: 
-$$y = \sin \theta$$
-$$\theta = \arcsin y$$
+y = \sin \theta\theta = \arcsin y
 * Derivation of **arccosine**: 
-$$x = \cos \theta$$
-$$\theta = \arccos x$$
+x = \cos \theta\theta = \arccos x
 * Derivation of **arctangent**: 
-$$\frac{y}{x} = \tan \theta$$
-$$\theta = \arctan \frac{y}{x}$$
+\frac{y}{x} = \tan \theta\theta = \arctan \frac{y}{x}
 * Relationship between **arctangent** and **arccotangent**: 
-$$\arctan \theta = \frac{\pi}{2} - \operatorname{arccot} \theta$$
+\arctan \theta = \frac{\pi}{2} - \operatorname{arccot} \theta
 
 ### <a id="key-identities"></a>**Key Identities**
 * **Pythagorean identity**: $\sin^2 \theta + \cos^2 \theta = 1$
 * **Reciprocal identity**: $\csc \theta = \frac{1}{\sin \theta}$
 * **Inverse identity**: $\sin (\arcsin x) = x$
-* **Range of inverse functions**:
+* **Range of inverse [functions](/blog/relations-and-functions-class-11-notes)**:
   + $\arcsin x: [-1, 1]$
   + $\arccos x: [-1, 1]$
   + $\arctan x: (-\infty, \infty)$
@@ -196,10 +188,8 @@ $$\arctan \theta = \frac{\pi}{2} - \operatorname{arccot} \theta$$
   + $\arccos x: [0, \pi]$
   + $\arctan x: \left(-\frac{\pi}{2}, \frac{\pi}{2}\right)$
 
-
 ## <a id="technical-specs"></a>Technical Specs
 
-## <a id="trigonometric-functions"></a>**Trigonometric Functions**
 ### <a id="periodicity"></a>**Periodicity**
 * **Period**: Length of one complete cycle.
 * **Sine**: $2\pi$ periodic, $f(x) = \sin(x)$
@@ -232,14 +222,14 @@ $$\arctan \theta = \frac{\pi}{2} - \operatorname{arccot} \theta$$
 
 ## <a id="derivations"></a>**Derivations**
 The general form of a sine function can be derived as follows:
-$$f(x) = A\sin(Bx - C) + D$$
+f(x) = A\sin(Bx - C) + D
 where $A$, $B$, $C$, and $D$ are constants. 
 To derive the period $T$, we use the fact that the sine function has a period of $2\pi$:
-$$T = \frac{2\pi}{B}$$
+T = \frac{2\pi}{B}
 The phase shift can be derived by setting $Bx - C = 0$:
-$$x = \frac{C}{B}$$
+x = \frac{C}{B}
 The amplitude can be derived by taking the absolute value of $A$:
-$$A = |A|$$
+A = |A|
 
 ## <a id="graphical-effects"></a>**Graphical Effects**
 * **Vertical Compression**: $|A| < 1$ compresses the graph vertically.
@@ -260,13 +250,7 @@ $$A = |A|$$
 * **Definition**: Ratio of sine and cosine.
 * **Formula**: $f(x) = \frac{\sin(x)}{\cos(x)}$
 * **Derivation**: 
-$$\frac{d}{dx} \tan(x) = \frac{d}{dx} \frac{\sin(x)}{\cos(x)}$$
-$$= \frac{\cos(x) \frac{d}{dx} \sin(x) - \sin(x) \frac{d}{dx} \cos(x)}{\cos^2(x)}$$
-$$= \frac{\cos(x) \cos(x) - \sin(x) (-\sin(x))}{\cos^2(x)}$$
-$$= \frac{\cos^2(x) + \sin^2(x)}{\cos^2(x)}$$
-$$= \frac{1}{\cos^2(x)}$$
-$$= \sec^2(x)$$
-
+\frac{d}{dx} \tan(x) = \frac{d}{dx} \frac{\sin(x)}{\cos(x)}= \frac{\cos(x) \frac{d}{dx} \sin(x) - \sin(x) \frac{d}{dx} \cos(x)}{\cos^2(x)}= \frac{\cos(x) \cos(x) - \sin(x) (-\sin(x))}{\cos^2(x)}= \frac{\cos^2(x) + \sin^2(x)}{\cos^2(x)}= \frac{1}{\cos^2(x)}= \sec^2(x)
 
 ## <a id="advanced-analysis"></a>Advanced Analysis
 
@@ -298,15 +282,12 @@ $$= \sec^2(x)$$
 * **Wave Frequency**: $\omega = \frac{2\pi}{T}$
 * **Wave Period**: $T = \frac{2\pi}{\omega}$
 ### <a id="derivation-of-simple-harmonic-motion"></a>**Derivation of Simple Harmonic Motion**
-$$
+
 \frac{d^2y}{dt^2} = -\omega^2 y
-$$
-$$
+
 \frac{dy}{dt} = \omega \cos(\omega t + \phi)
-$$
-$$
+
 y = A \sin(\omega t + \phi)
-$$
 
 ## <a id="applications-of-trigonometric-functions"></a>**Applications of Trigonometric Functions**
 * **Navigation**: $\sin(\text{latitude}) = \frac{\text{opposite}}{\text{hypotenuse}}$
@@ -316,38 +297,31 @@ $$
 
 ## <a id="mathematical-derivations"></a>**Mathematical Derivations**
 ### <a id="derivation-of-sum-formula"></a>**Derivation of Sum Formula**
-$$
-\sin(A+B) = \sin A \cos B + \cos A \sin B
-$$
-$$
-= \sin A \cos B + \cos A \sin B
-$$
-### <a id="derivation-of-doubleangle-formula"></a>**Derivation of Double-Angle Formula**
-$$
-\sin(2A) = 2\sin A \cos A
-$$
-$$
-= 2\sin A \cos A
-$$
-### <a id="derivation-of-halfangle-formula"></a>**Derivation of Half-Angle Formula**
-$$
-\sin\left(\frac{A}{2}\right) = \pm \sqrt{\frac{1 - \cos A}{2}}
-$$
-$$
-= \pm \sqrt{\frac{1 - \cos A}{2}}
-$$
-### <a id="derivation-of-producttosum-formula"></a>**Derivation of Product-to-Sum Formula**
-$$
-\sin A \sin B = \frac{1}{2}[\cos(A-B) - \cos(A+B)]
-$$
-$$
-= \frac{1}{2}[\cos(A-B) - \cos(A+B)]
-$$
 
+\sin(A+B) = \sin A \cos B + \cos A \sin B
+
+= \sin A \cos B + \cos A \sin B
+
+### <a id="derivation-of-doubleangle-formula"></a>**Derivation of Double-Angle Formula**
+
+\sin(2A) = 2\sin A \cos A
+
+= 2\sin A \cos A
+
+### <a id="derivation-of-halfangle-formula"></a>**Derivation of Half-Angle Formula**
+
+\sin\left(\frac{A}{2}\right) = \pm \sqrt{\frac{1 - \cos A}{2}}
+
+= \pm \sqrt{\frac{1 - \cos A}{2}}
+
+### <a id="derivation-of-producttosum-formula"></a>**Derivation of Product-to-Sum Formula**
+
+\sin A \sin B = \frac{1}{2}[\cos(A-B) - \cos(A+B)]
+
+= \frac{1}{2}[\cos(A-B) - \cos(A+B)]
 
 ## <a id="practice-problems"></a>Practice Problems
 
-## <a id="trigonometric-functions"></a>**Trigonometric Functions**
 ### <a id="key-concepts"></a>**Key Concepts**
 * **Sine**: ratio of opposite side to hypotenuse.
 * **Cosine**: ratio of adjacent side to hypotenuse.
@@ -382,29 +356,24 @@ $$
 * Using **Sum-to-Product Identities**: $\sin(x) + \sin(y) = 2\sin\left(\frac{x + y}{2}\right)\cos\left(\frac{x - y}{2}\right)$
 
 ## <a id="derivations"></a>**Derivations**
-$$
+
 \begin{aligned}
 \sin(2x) &= \sin(x + x) \\
 &= \sin(x)\cos(x) + \cos(x)\sin(x) \\
 &= 2\sin(x)\cos(x)
 \end{aligned}
-$$
 
-$$
 \begin{aligned}
 \cos(2x) &= \cos(x + x) \\
 &= \cos(x)\cos(x) - \sin(x)\sin(x) \\
 &= \cos^2(x) - \sin^2(x)
 \end{aligned}
-$$
 
-$$
 \begin{aligned}
 \tan(2x) &= \frac{\sin(2x)}{\cos(2x)} \\
 &= \frac{2\sin(x)\cos(x)}{\cos^2(x) - \sin^2(x)} \\
 &= \frac{2\tan(x)}{1 - \tan^2(x)}
 \end{aligned}
-$$
 
 ### <a id="key-takeaways"></a>**Key Takeaways**
 * Trigonometric functions have numerous applications in physics, engineering, and navigation.
@@ -439,7 +408,7 @@ $$
 * Simplifying: $x = \frac{\pi}{6} + \pi n$ 
 
 Derivation:
-$$
+
 \begin{aligned}
 sin^2(x) + cos^2(x) &= 1 \\
 cos^2(x) &= 1 - sin^2(x) \\
@@ -447,7 +416,6 @@ cos(x) &= \pm \sqrt{1 - sin^2(x)} \\
 tan(x) &= \frac{sin(x)}{cos(x)} \\
 tan(2x) &= \frac{2tan(x)}{1 - tan^2(x)}
 \end{aligned}
-$$
 
 Key points:
 * $sin(x) = \frac{3}{5}$
@@ -489,7 +457,6 @@ Key points:
 - C) 2
 - D) 3
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
@@ -497,3 +464,14 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [3D Geometry Class 11 (Mathematics) Comprehensive Notes — JEE & Boards 2026 Encyclopedia](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet)
+- 📖 [Algorithms: Analysis Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-analysis-class-11-revision-notes-gate-boards)
+- 📖 [Computer Networks Class 12 (Computer Science) Comprehensive Notes — Boards 2026 Encyclopedia](/blog/computer-networks-class-12-notes)
+- 📖 [Relations and Functions Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/relations-and-functions-class-11-notes)

@@ -86,7 +86,7 @@ I still remember when I was preparing for JEE, I used to get confused between th
 * Bryophyta: Non-vascular [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) such as mosses and liverworts.
 * Tracheophyta: Vascular [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) such as ferns, conifers, and flowering [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet).
 * Pteridophyta: Vascular [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) that produce spores, such as ferns.
-* Gymnosperms: Vascular plants that produce seeds, such as conifers.
+* Gymnosperms: Vascular [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) that produce seeds, such as conifers.
 * Angiosperms: Vascular plants that produce flowers and seeds, such as flowering plants.
 
 The [classification](/blog/biological-classification-class-11-revision-notes-neet) of plants is based on the following characteristics:
@@ -113,7 +113,7 @@ To remember the different [plant](/blog/plant-growth-and-development-class-11-re
 
 * Wrong answer: All plants produce seeds.
 Right answer: Only some plants, such as gymnosperms and angiosperms, produce seeds.
-Why students get it wrong: Students often confuse the different plant groups and assume that all plants produce seeds.
+Why students get it wrong: Students often confuse the different [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet) groups and assume that all plants produce seeds.
 * Wrong answer: All plants produce flowers.
 Right answer: Only some plants, such as angiosperms, produce flowers.
 Why students get it wrong: Students often assume that all plants produce flowers, but this is not the case.

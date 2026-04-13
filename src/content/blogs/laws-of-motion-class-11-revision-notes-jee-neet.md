@@ -95,7 +95,7 @@ If Kinematics is the "What" of [motion](/blog/motion-in-a-plane-class-11-revisio
 ## <a id="2-proof-the-second-law-is-the-real-law"></a>2. Proof: The Second Law is the "Real Law"
 
 **Proof:**
-1.  **Second Law contains First Law:** If F = 0, then ma = 0 => a = 0. This means the object stays at rest or in uniform motion (First Law).
+1.  **Second Law contains First Law:** If F = 0, then ma = 0 => a = 0. This means the object stays at rest or in uniform [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) (First Law).
 2.  **Second Law contains Third Law:** By using the conservation of momentum (derived from F = dp/dt) for an isolated system, we can prove that **F_ab = -F_ba**.
 
 ---

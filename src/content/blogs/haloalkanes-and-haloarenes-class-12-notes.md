@@ -195,7 +195,7 @@ A) The product of the reaction of bromobenzene with NaOH at high temperature and
 1-chloropropane
 2-chloropropane
 
-**Answer:** C) The most reactive haloalkane towards SN2 reaction is 1-chloropropane, due to the primary nature of the halide and the absence of steric hindrance.
+**Answer:** C) The most reactive haloalkane towards SN2 reaction is 1-chloropropane, due to the primary [nature](/blog/dual-nature-of-radiation-class-12-notes) of the halide and the absence of steric hindrance.
 
 **5. What is the major product of the reaction of chlorobenzene with excess of ammonia?**
 Aniline
@@ -203,22 +203,19 @@ Nitrobenzene
 Chloroaniline
 Benzamide
 
-**Answer:** A) The major product of the reaction of chlorobenzene with excess of ammonia is aniline, due to the nucleophilic aromatic substitution reaction.
-
+**Answer:**
+A) The major product of the reaction of chlorobenzene with excess of ammonia is aniline, due to the nucleophilic aromatic substitution reaction.
 ---
-
 ### <a id="-ready-to-ace-your-exam"></a>🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Haloalkanes and Haloarenes Full Mock Test**](/class-11/chemistry/haloalkanes-and-haloarenes-class-12-notes) now and track your progress against thousands of students.
-
 ---
-
 ## <a id="-related-topics"></a>📚 Related Topics
-
 Continue your revision with these related guides:
-
 - 📖 [Chemical Kinetics Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/chemical-kinetics-class-12-notes)
 - 📖 [Coordination Compounds Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/coordination-compounds-class-12-notes)
-- 📖 [Solutions Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/solutions-class-12-notes)
+- 📖 [
+
+Solutions Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/solutions-class-12-notes)
 - 📖 [Atoms Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/atoms-class-12-notes)
 
 ---

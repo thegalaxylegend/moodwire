@@ -53,7 +53,7 @@ Another critical aspect of Digital Logic is the concept of logic gates, which ar
 
 As we prepare for the Class 11 exam, it is essential to develop a deep understanding of these concepts and how they are applied in digital circuits. By focusing on the underlying principles of Digital Logic, we can build a strong foundation for more advanced topics in [computer](/blog/computer-organization-class-11-notes) Science and develop a keen appreciation for the intricate beauty of digital systems.
 
-Furthermore, the study of Digital Logic has numerous practical applications, from the design of digital circuits and computer architecture to the development of artificial intelligence and machine learning algorithms. As we explore the world of Digital Logic, we will encounter numerous real-world examples that illustrate the significance of this subject in our daily lives.
+Furthermore, the study of Digital Logic has numerous practical applications, from the design of digital circuits and [computer](/blog/computer-organization-class-11-notes) architecture to the development of artificial intelligence and machine learning algorithms. As we explore the world of Digital Logic, we will encounter numerous real-world examples that illustrate the significance of this subject in our daily lives.
 
 In the context of the Class 11 exam, it is crucial to recognize that Digital Logic is not just a theoretical subject, but also a practical one. The exam will test our ability to apply the concepts we have learned to solve problems and design digital circuits. Therefore, it is essential to practice solving problems and designing circuits to develop a deep understanding of the subject.
 

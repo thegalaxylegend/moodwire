@@ -141,7 +141,7 @@ The following JEE/[neet](/blog/cell-cycle-and-cell-division-class-11-revision-no
 * **Liver function**: The liver detoxifies approximately 1 liter of blood per minute.
 * **Lung function**: The lungs remove approximately 200 milliliters of carbon dioxide per minute.
 
-This data is essential for understanding the functions of the excretory system, and for success in the JEE and NEET exams.
+This data is essential for understanding the functions of the excretory system, and for success in the JEE and [neet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) exams.
 
 ### <a id="mcqs-cont"></a>MCQs Cont.
 The following MCQs are relevant to the excretory system:

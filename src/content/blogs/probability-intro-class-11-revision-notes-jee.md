@@ -88,7 +88,7 @@ Now, let's consider another example to illustrate the concept of probability. Su
 
 This example illustrates how probability can be used to analyze and predict the outcome of a chance event. As we progress through our study of probability, we'll encounter more complex examples and applications, and we'll develop a deeper understanding of the underlying concepts. With practice and persistence, you'll become proficient in solving probability problems and be able to apply the concepts to a wide range of scenarios. 
 
-As we continue our journey through the world of probability, we'll encounter many more examples, problems, and concepts. We'll develop a deep understanding of the subject and become proficient in solving probability problems. With dedication and persistence, you'll be able to master the concepts of probability and perform well in the Class 11 exam. 
+As we continue our journey through the world of probability, we'll encounter many more examples, problems, and concepts. We'll develop a deep understanding of the subject and become proficient in solving probability problems. With dedication and persistence, you'll be able to master the concepts of probability and perform well in the [class](/blog/limits-and-derivatives-class-11-revision-notes-jee) 11 exam. 
 
 To further illustrate the concept of probability, let's consider a real-life example. Suppose we want to predict the likelihood of a certain sports team winning a game. We can use probability to analyze the team's past performance and predict the outcome of the game. For instance, if the team has won 70% of their games in the past, we can use this information to predict the likelihood of them winning the next game. 
 

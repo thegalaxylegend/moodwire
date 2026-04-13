@@ -178,7 +178,7 @@ If rain falls vertically (**v_r**) and a man moves horizontally (**v_m**):
 **Q3: A ball is dropped from a moving train. What is its trajectory as seen from (a) ground, (b) inside train?**
 **Answer:**
 - (a) **Ground:** A parabola, because it has horizontal velocity (inherited from the train) and vertical acceleration (gravity).
-- (b) **Inside Train:** A vertical straight line, because the horizontal velocities of the ball and the train are the same.
+- (b) **Inside Train:** A vertical [straight](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) line, because the horizontal velocities of the ball and the train are the same.
 
 ---
 
@@ -187,7 +187,7 @@ If rain falls vertically (**v_r**) and a man moves horizontally (**v_m**):
 
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
-- **Chapter 4: Laws of Motion (Forces & FBD)**
+- **Chapter 4: Laws of [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet) (Forces & FBD)**
 - **Chapter 6: Rotational Motion (Centripetal vs Centrifugal)**
 - **Interactive Projectile Motion Simulator**
 

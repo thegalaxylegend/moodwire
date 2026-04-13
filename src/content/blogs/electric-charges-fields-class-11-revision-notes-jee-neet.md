@@ -138,7 +138,7 @@ An **Electric Field (E)** is the region around a charged particle where another 
 
 ## <a id="4-the-electric-dipole-a-system-of-two-charges"></a>4. The Electric Dipole: A System of Two Charges
 
-An **Electric Dipole** consists of two equal and opposite charges (**+q, -q**) separated by a small distance (**2a**).
+An **Electric Dipole** consists of two equal and opposite [charges](/blog/moving-charges-magnetism-class-11-revision-notes-neet) (**+q, -q**) separated by a small distance (**2a**).
 **Dipole Moment (p): p = q × (2a)**. (Directed from -q to +q).
 
 ### <a id="i-derivation-field-on-the-axial-line"></a>I. Derivation: Field on the Axial Line

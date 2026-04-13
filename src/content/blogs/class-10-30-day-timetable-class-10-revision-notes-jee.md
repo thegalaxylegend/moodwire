@@ -68,7 +68,7 @@ In this [guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)
 ---
 
 
-## <a id="developing-a-taskoriented-strategy"></a>Developing a Task-Oriented Strategy
+## <a id="developing-a-task oriented-strategy"></a>Developing a Task-Oriented Strategy
 
 Most students fail by Day 3 of their timetable because their goals are too generic. A schedule that simply says "Study Mathematics" is useless. You must specify the task, such as "Solve 15 Quadratic Equation problems from **previous year papers**."
 
@@ -86,11 +86,11 @@ From Days 6 to 20, rotate your subjects to respect your biological clock. Use th
 
 
 
-## <a id="subjectspecific-hacks-for-top-scores"></a>Subject-Specific Hacks for Top Scores
+## <a id="subject specific-hacks-for-top-scores"></a>Subject-Specific Hacks for Top Scores
 
-Every subject requires a tailored approach. For Mathematics, stop looking at **NCERT solutions** and focus on writing every formula from memory each morning. [science](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet) success depends on practicing reactions and labeling diagrams from memory rather than just looking at them.
+Every subject requires a tailored approach. For Mathematics, stop looking at **CERT solutions** and focus on writing every formula from memory each morning. [science](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet) success depends on practicing reactions and labeling diagrams from memory rather than just looking at them.
 
-For Social Science, History is about sequence, not just stories. Create a timeline of major events to make dates easier to remember. These small adjustments in study style are what separate 80% students from those scoring 95% and above.
+For Social [science](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet), History is about sequence, not just stories. Create a timeline of major events to make dates easier to remember. These small adjustments in study style are what separate 80% students from those scoring 95% and above.
 
 
 
@@ -115,7 +115,7 @@ Explore our [Sitemap](/sitemap.xml) for more resources.
 
 
 
-## <a id="frequently-asked-questions-faqs"></a>Frequently Asked Questions (FAQs)
+## <a id="frequently-asked-questions-FAQs"></a>Frequently Asked Questions (FAQs)
 
 ### <a id="1-is-30-days-enough-to-score-90"></a>1. Is 30 days enough to score 90+?
 Yes, if you focus on mastery rather than just reading. Use **previous year papers** to identify repeating concepts and prioritize them. 30 days of targeted study is more effective than months of passive reading.
@@ -134,12 +134,12 @@ Focus on the "Safe Zone" chapters like Statistics and Probability first. These c
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet) with these related guides:
 
-- 📖 [Class 10 Science Pyq Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet)
-- 📖 [Upsc Optional Selection Guide Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee)
-- 📖 [Cuet 2026 Master Strategy Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)
-- 📖 [Jee Mains High Weightage Chapters Class 11 Mathematics Recap — CBSE Boards 2026 Grandmaster Guide](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)
+- 📖 [Class 10 Science PDQ Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet)
+- 📖 [UPSC Optional Selection Guide Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee)
+- 📖 [Cut 2026 Master Strategy Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)
+- 📖 [See Mains High Weightage Chapters Class 11 Mathematics Recap — CBSE Boards 2026 Grandmaster Guide](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)
 
 
 ---
@@ -154,7 +154,23 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 Continue your revision with these related guides:
 
-- 📖 [Class 10 Science Pyq Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet)
-- 📖 [Cuet 2026 Master Strategy Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)
-- 📖 [Upsc Optional Selection Guide Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee)
-- 📖 [Jee Mains High Weightage Chapters Class 11 Mathematics Recap — CBSE Boards 2026 Grandmaster Guide](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)
+- 📖 [Class 10 Science PDQ Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet)
+- 📖 [Cut 2026 Master Strategy Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)
+- 📖 [UPSC Optional Selection Guide Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee)
+- 📖 [See Mains High Weightage Chapters Class 11 Mathematics Recap — CBSE Boards 2026 Grandmaster Guide](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* **Trap 1: Incorrect calculation of squares and cubes**: Many students make mistakes in calculating squares and cubes of numbers, especially when dealing with fractions and decimals. It's essential to double-check calculations to avoid errors.
+* **Trap 2: Forgetting to consider all possible cases in trigonometry**: When solving trigonometric problems, students often overlook all possible cases, leading to incorrect solutions. Make sure to consider all possible cases, including positive and negative angles.
+* **Trap 3: Misinterpreting the concept of similarity in triangles**: Students often struggle to understand the concept of similarity in triangles, leading to incorrect applications. Ensure that you understand the correct criteria for similarity, including equal angles and proportional sides.
+* **Trap 4: Not applying the correct formula for quadratic equations**: When solving quadratic equations, students may apply the wrong formula or misinterpret the results. Double-check that you're using the correct formula and considering all possible solutions.
+* **Trap 5: Failing to simplify expressions before solving**: Many students fail to simplify expressions before solving, leading to unnecessary complexity and errors. Always simplify expressions before solving to ensure accuracy and avoid mistakes.
+
+## 🔁 Last 5 Minutes Box
+
+- **Algebra**: Quadratic equations, polynomials, pair of linear equations
+   - **Geometry**: Triangles (similar, congruent), circles, trigonometry
+   - **Trigonometry**: Introduce trigonometric ratios, tables, identities
+   - **Mensuration**: Area, volume of various shapes
+   - **Statistics and Probability**: Basic concepts, mean, median, mode, probability

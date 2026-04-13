@@ -78,7 +78,7 @@ For students preparing for JEE/MEET, it is essential to understand the historica
 The following are some of the core concepts related to the Indus Valley Civilization:
 
 * **Urbanization**: The process of city formation and growth.
-* **Architecture**: The design and construction of buildings.
+* **[architecture](/blog/art-culture-architecture-class-11-revision-notes-jee-neet)**: The design and construction of buildings.
 * **Water Management**: The control and use of water resources.
 * **Economy**: The system of production, distribution, and exchange of goods and services.
 
@@ -160,7 +160,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) with these related guides:
 
 - 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
 - 📖 [Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)

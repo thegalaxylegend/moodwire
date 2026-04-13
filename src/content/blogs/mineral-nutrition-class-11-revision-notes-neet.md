@@ -223,7 +223,7 @@ Answer: a) Maintaining cell turgor pressure and regulating stomatal movement
 
 4. What is the effect of nitrogen deficiency on plants?
 a) Yellowing of leaves
-b) Stunted growth and purple coloration of leaves
+b) Stunted [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet) and purple coloration of leaves
 c) Scorching of leaves and reduced growth
 d) Curling of leaves and reduced growth
 
@@ -243,7 +243,7 @@ Answer: b) Stunted growth and purple coloration of leaves
 ## <a id="related-notes-links"></a>Related Notes Links
 
 * Photosynthesis [class](/blog/hydrogen-class-11-revision-notes-neet) 11 Notes
-* Respiration Class 11 Notes
+* Respiration [class](/blog/hydrogen-class-11-revision-notes-neet) 11 Notes
 
 
 

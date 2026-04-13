@@ -74,7 +74,7 @@ The circulatory system, also known as the cardiovascular system, is responsible 
 ## <a id="step-3-blood-composition"></a>Step 3: Blood Composition
 
 Blood is a complex fluid that consists of several components, including:
-- Plasma: The liquid portion of blood, which accounts for approximately 55% of its total volume. Plasma is composed of water, proteins, nutrients, hormones, gases, waste products, and other substances.
+- Plasma: The liquid portion of blood, which accounts for approximately 55% of its total volume. Plasma is composed of water, proteins, nutrients, hormones, [gases](/blog/breathing-and-exchange-of-gases-class-11-revision-notes-neet), waste products, and other substances.
 - Red Blood Cells (RBCs): Also known as erythrocytes, RBCs are responsible for transporting oxygen from the lungs to the body's tissues. They contain the protein hemoglobin, which binds to oxygen, allowing it to be carried throughout the body.
 - White Blood Cells (WBCs): WBCs, or leukocytes, play a vital role in the immune system, helping to protect the body against infection and disease.
 - Platelets: These small, irregularly-shaped cells are involved in blood clotting, which helps to prevent excessive bleeding when a blood vessel is injured.

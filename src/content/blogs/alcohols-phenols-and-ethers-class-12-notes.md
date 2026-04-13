@@ -122,7 +122,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/chemical-bonding-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Chemistry in Everyday Life Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/chemistry-in-everyday-life-class-12-notes)
 - 📖 [Polymers Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/polymers-class-12-notes)
@@ -169,3 +169,4 @@ Continue your revision with these related guides:
 |:---|:---:|:---:|:---:|
 | **ammonia** | H3N | 17.031 g/MOL | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/222) |
 | **carbon dioxide** | CO2 | 44.009 g/MOL | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/280) |
+$

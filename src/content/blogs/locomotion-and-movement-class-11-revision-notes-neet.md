@@ -108,7 +108,7 @@ Here are some practice questions related to locomotion and movement:
 Here are the answers to the practice questions:
 
 1. Walking involves the alternating movement of legs, while running involves a more rapid and energetic movement.
-2. Jumping involves the use of powerful leg muscles to propel the body into the air.
+2. Jumping involves the use of powerful leg muscles to propel the [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet) into the air.
 3. The primary function of the skeletal system is to provide support and structure for movement and locomotion.
 4. Muscles consist of contractile units called sarcomeres, which generate force through the sliding filament theory.
 5. The nervous system transmits signals from the brain to the muscles, allowing for coordinated and precise movement.
@@ -125,7 +125,7 @@ To summarize, the key points related to locomotion and movement include:
 
 ## <a id="jeeneet-preparation-tips"></a>JEE/NEET Preparation Tips
 
-To prepare for JEE/NEET exams, it is essential to have a thorough understanding of the concepts and formulae related to locomotion and movement. Here are some tips:
+To prepare for JEE/[neet](/blog/animal-kingdom-class-11-revision-notes-neet) exams, it is essential to have a thorough understanding of the concepts and formulae related to locomotion and movement. Here are some tips:
 
 * Practice solving problems and answering questions related to locomotion and movement.
 * Review the core concepts and formulae regularly.

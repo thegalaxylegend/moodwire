@@ -24,7 +24,7 @@ practice_link: "/class-11/mathematics/quadratic-equations-class-10-notes"
 - - Quadratic [equations](/blog/pair-of-linear-equations-class-10-notes): 1 question on solving a quadratic equation using the quadratic formula — frequently
 - - Quadratic Equations: Graph of a quadratic function ($y = ax^2 + bx + c$) — frequently
 - - Quadratic Equations: Vertex form of a quadratic function ($y = a(x - h)^2 + k$) — frequently
-- - Quadratic Equations: 1 question on the axis of symmetry of a quadratic function — frequently
+- - Quadratic [equations](/blog/pair-of-linear-equations-class-10-notes): 1 question on the axis of symmetry of a quadratic function — frequently
 - - Quadratic Equations: Relation between the coefficients of a quadratic equation and the sum/product of its roots — always
 
 </div>

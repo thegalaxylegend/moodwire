@@ -82,7 +82,7 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
  - Thus, $a^2 + b^2 = (a + b)^2 - 2ab = 6^2 - 2(2) = 36 - 4 = 32$.
  - **Answer:** 32
  - **Q2:** Find the value of $k$ for which the equation $x^2 + (k - 2)x + 4k = 0$ has equal roots.
- - **Trap:** Students often forget the condition for a quadratic equation to have equal roots.
+ - **Trap:** Students often forget the condition for a [quadratic](/blog/quadratic-equations-class-10-notes) equation to have equal roots.
  - **Solution:** 
  - For a quadratic equation $ax^2 + bx + c = 0$ to have equal roots, the discriminant $b^2 - 4ac$ must equal $0$.
  - Here, $a = 1$, $b = (k - 2)$, and $c = 4k$.
@@ -114,7 +114,7 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
  - **What 95% scorers do:** 
  * They **master the remainder theorem** and can apply it in various contexts, including finding roots of polynomials, especially when combined with other algebraic techniques.
  * They are **proficient in synthetic division** and can use it not only to divide polynomials but also as a tool to find roots, especially for polynomials of degree 3 or higher.
- * They can **systematically solve polynomial equations** by combining the remainder theorem, synthetic division, and other algebraic techniques such as substitution or identifying special factoring patterns.
+ * They can **systematically solve polynomial [equations](/blog/pair-of-linear-equations-class-10-notes)** by combining the remainder theorem, synthetic division, and other algebraic techniques such as substitution or identifying special factoring patterns.
  - Advanced strategies include:
  * Using the remainder theorem to test for roots without extensive calculation, thus narrowing down potential rational roots.
  * Employing synthetic division not just for dividing polynomials but as a method to simplify the process of finding roots, particularly for higher-degree polynomials.

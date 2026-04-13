@@ -62,7 +62,7 @@ Ayush's Note on Data Structures: Linear is a study guide that focuses on the fun
  
  Linear data structures are a crucial part of [computer](/blog/computer-organization-class-11-notes) science, and they form the basis of more complex data structures. An array, for instance, is a collection of elements of the same data type stored in contiguous memory locations. Each element is identified by an index or subscript that allows it to be accessed independently of the others. On the other hand, a linked list is a dynamic collection of elements, where each element points to the next element in the list. This allows for efficient insertion and deletion of elements at any position in the list.
  
- Stacks are another type of linear data structure that follows the LIFO (Last In First Out) principle, meaning the last element added to the stack will be the first one to be removed. A stack can be implemented using an array or a linked list, and it has two primary operations: push and pop. The push operation adds an element to the top of the stack, while the pop operation removes an element from the top of the stack.
+ Stacks are another type of linear [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structure that follows the LIFO (Last In First Out) principle, meaning the last element added to the stack will be the first one to be removed. A stack can be implemented using an array or a linked list, and it has two primary operations: push and pop. The push operation adds an element to the top of the stack, while the pop operation removes an element from the top of the stack.
  
  The implementation of linear data structures has a significant impact on the efficiency of algorithms. For example, searching for an element in an array takes $O(n)$ time, where $n$ is the number of elements in the array. However, if the array is sorted, the search time can be reduced to $O(log n)$ using a binary search algorithm.
  
@@ -97,7 +97,7 @@ What are the fundamentals of Arrays in Data Structures: Linear? is a foundationa
  
  In terms of real-world applications, arrays are used in a variety of contexts, including database records, spreadsheet columns, and image processing. They are also used in programming to implement other data structures, such as stacks and queues.
  
- To illustrate the concept of arrays, consider the following example: suppose we want to store the marks of 10 students in a class. We can use an array to store the marks, where each element of the array represents the mark of a student. We can then use array operations to calculate the average mark, find the highest mark, and so on.
+ To illustrate the concept of arrays, consider the following example: suppose we want to store the marks of 10 students in a [class](/blog/algorithms-analysis-class-11-revision-notes-gate-boards). We can use an array to store the marks, where each element of the array represents the mark of a student. We can then use array operations to calculate the average mark, find the highest mark, and so on.
  
  In summary, arrays are a fundamental data structure in computer science that provide an efficient way to store and manipulate collections of elements. Understanding how to declare, initialize, and access array elements is crucial for working with arrays, and the time and space complexity of array operations are important considerations in algorithm [design](/blog/algorithms-design-class-11-revision-notes-gate-boards).
 

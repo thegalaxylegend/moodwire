@@ -12,33 +12,33 @@ practice_link: "/practice/computer-networks-class-12-notes"
 
 - [Fundamental Concepts](#fundamental-concepts)
 - [**Network Fundamentals**](#network-fundamentals)
-  - [**Network Types**](#network-types)
-  - [**Network Topologies**](#network-topologies)
+ - [**Network Types**](#network-types)
+ - [**Network Topologies**](#network-topologies)
 - [**Network Devices**](#network-devices)
-  - [**Device Functions**](#device-functions)
-  - [**Device Characteristics**](#device-characteristics)
+ - [**Device Functions**](#device-functions)
+ - [**Device Characteristics**](#device-characteristics)
 - [**Network Protocols**](#network-protocols)
-  - [**Transport Layer Protocols**](#transport-layer-protocols)
-  - [**Application Layer Protocols**](#application-layer-protocols)
-  - [**Protocol Derivations**](#protocol-derivations)
+ - [**Transport Layer Protocols**](#transport-layer-protocols)
+ - [**Application Layer Protocols**](#application-layer-protocols)
+ - [**Protocol Derivations**](#protocol-derivations)
 - [**Network Security**](#network-security)
-  - [**Security Threats**](#security-threats)
-  - [**Security Measures**](#security-measures)
+ - [**Security Threats**](#security-threats)
+ - [**Security Measures**](#security-measures)
 - [Network Architecture](#network-architecture)
 - [Network Architecture](#network-architecture)
-  - [**OSI Model**](#osi-model)
+ - [**OSI Model**](#osi-model)
 - [Network Layers](#network-layers)
-  - [**Data Transmission**](#data-transmission)
-  - [**TCP/IP Model**](#tcpip-model)
+ - [**Data Transmission**](#data-transmission)
+ - [**TCP/IP Model**](#tcpip-model)
 - [Network Protocols](#network-protocols)
 - [Data Transmission Example](#data-transmission-example)
 - [Network Performance](#network-performance)
 - [Network Protocols and Services](#network-protocols-and-services)
 - [**Network Protocols**](#network-protocols)
-  - [**TCP/IP Protocol Suite**](#tcpip-protocol-suite)
+ - [**TCP/IP Protocol Suite**](#tcpip-protocol-suite)
 - [**IP Addressing**](#ip-addressing)
-  - [**IPv4**](#ipv4)
-  - [**IPv6**](#ipv6)
+ - [**IPv4**](#ipv4)
+ - [**IPv6**](#ipv6)
 - [**Subnetting**](#subnetting)
 - [**DHCP and DNS**](#dhcp-and-dns)
 - [**Network Services**](#network-services)
@@ -47,11 +47,11 @@ practice_link: "/practice/computer-networks-class-12-notes"
 - [Network Security and Management](#network-security-and-management)
 - [**Network Security Threats**](#network-security-threats)
 - [**Security Measures**](#security-measures)
-  - [**Encryption Techniques**](#encryption-techniques)
-  - [**Network Management Protocols**](#network-management-protocols)
+ - [**Encryption Techniques**](#encryption-techniques)
+ - [**Network Management Protocols**](#network-management-protocols)
 - [**Network Performance Optimization**](#network-performance-optimization)
-  - [**Mathematical Modeling of Network Performance**](#mathematical-modeling-of-network-performance)
-  - [**Network Security Threat Modeling**](#network-security-threat-modeling)
+ - [**Mathematical Modeling of Network Performance**](#mathematical-modeling-of-network-performance)
+ - [**Network Security Threat Modeling**](#network-security-threat-modeling)
 - [Advanced Networking Topics](#advanced-networking-topics)
 - [**Wireless Networks**](#wireless-networks)
 - [**Mobile Networks**](#mobile-networks)
@@ -61,11 +61,10 @@ practice_link: "/practice/computer-networks-class-12-notes"
 - [**Software-Defined Networking (SDN)**](#softwaredefined-networking-sdn)
 - [Solved PYQs](#solved-pyqs)
 - [Step 3: Solved PYQs](#step-3-solved-pyqs)
-  - [3.1 PYQ 1](#31-pyq-1)
-  - [3.2 PYQ 2](#32-pyq-2)
-  - [3.3 PYQ 3](#33-pyq-3)
+ - [3.1 PYQ 1](#31-pyq-1)
+ - [3.2 PYQ 2](#32-pyq-2)
+ - [3.3 PYQ 3](#33-pyq-3)
 - [Practice MCQs](#practice-mcqs)
-
 
 ## <a id="fundamental-concepts"></a>Fundamental Concepts
 
@@ -101,7 +100,7 @@ practice_link: "/practice/computer-networks-class-12-notes"
 
 ## <a id="network-protocols"></a>**Network Protocols**
 ### <a id="transport-layer-protocols"></a>**Transport Layer Protocols**
-* **TCP** (Transmission Control Protocol): ensures reliable data transfer.
+* **TCP** (Transmission Control Protocol): ensures reliable [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) transfer.
 * **UDP** (User Datagram Protocol): ensures fast data transfer.
 * **SCTP** (Stream Control Transmission Protocol): ensures reliable data transfer for multiple streams.
 
@@ -113,13 +112,13 @@ practice_link: "/practice/computer-networks-class-12-notes"
 
 ### <a id="protocol-derivations"></a>**Protocol Derivations**
 The **TCP** three-way handshake can be derived as follows:
-$$
+
 \begin{aligned}
 &\text{Client sends SYN packet: } SYN = \langle seq, ack \rangle \\
 &\text{Server responds with SYN-ACK packet: } SYN-ACK = \langle seq, ack + 1 \rangle \\
 &\text{Client responds with ACK packet: } ACK = \langle seq + 1, ack \rangle
 \end{aligned}
-$$
+
 This derivation shows the sequence of packets exchanged during the **TCP** three-way handshake.
 
 ## <a id="network-security"></a>**Network Security**
@@ -128,7 +127,7 @@ This derivation shows the sequence of packets exchanged during the **TCP** three
 * **Phishing**: attempts to steal sensitive information.
 * **DDoS** (Distributed Denial of Service): overwhelms a network with traffic.
 * **Man-in-the-Middle**: intercepts traffic between devices.
-* **SQL Injection**: injects malicious code into databases.
+* **SQL Injection**: injects malicious code into [databases](/blog/databases-dbms-class-12-notes).
 
 ### <a id="security-measures"></a>**Security Measures**
 * **Firewall**: blocks unauthorized traffic.
@@ -137,10 +136,8 @@ This derivation shows the sequence of packets exchanged during the **TCP** three
 * **Access Control**: restricts device access.
 * **Intrusion Detection**: detects security threats.
 
-
 ## <a id="network-architecture"></a>Network Architecture
 
-## <a id="network-architecture"></a>Network Architecture
 ### <a id="osi-model"></a>**OSI Model**
 * **Physical Layer**: Defines physical means of data transmission.
 * **Data Link Layer**: Ensures error-free transfer of data frames.
@@ -186,9 +183,8 @@ This derivation shows the sequence of packets exchanged during the **TCP** three
 * The **Physical Layer** transmits the frame over a physical medium.
 * The receiving device receives the frame and reverses the process, ultimately delivering the email message to the user.
 
-$$
 \text{Data Transmission Time} = \frac{\text{Data Size}}{\text{Bandwidth}} + \text{Propagation Delay}
-$$
+
 This equation calculates the time it takes for data to be transmitted through a network, where **Data Size** is the size of the data being transmitted, **Bandwidth** is the rate at which data is transmitted, and **Propagation Delay** is the time it takes for the data to travel through the physical medium. 
 
 ## <a id="network-performance"></a>Network Performance
@@ -200,10 +196,8 @@ This equation calculates the time it takes for data to be transmitted through a 
 
 The **OSI Model** and **TCP/IP Model** provide a framework for understanding how data is transmitted through a network. By understanding the different layers and protocols involved, network administrators can optimize network performance and troubleshoot issues.
 
-
 ## <a id="network-protocols-and-services"></a>Network Protocols and Services
 
-## <a id="network-protocols"></a>**Network Protocols**
 ### <a id="tcpip-protocol-suite"></a>**TCP/IP Protocol Suite**
 * **TCP/IP** is a set of communication protocols used for interconnecting devices on the internet.
 * **TCP** provides reliable data transfer between devices.
@@ -242,13 +236,13 @@ The **OSI Model** and **TCP/IP Model** provide a framework for understanding how
 
 ## <a id="mathematical-formulation"></a>**Mathematical Formulation**
 The probability of packet loss in a network can be modeled using the following equation:
-$$P(\text{packet loss}) = 1 - e^{-\lambda t}$$
+P(\text{packet loss}) = 1 - e^{-\lambda t}
 where $\lambda$ is the average packet arrival rate, $t$ is the time between packet transmissions, and $e$ is the base of the natural logarithm.
 The throughput of a network can be calculated using the following equation:
-$$\text{Throughput} = \frac{\text{packet size}}{\text{packet transmission time}}$$
+\text{Throughput} = \frac{\text{packet size}}{\text{packet transmission time}}
 where packet size is the size of the packet in bits, and packet transmission time is the time it takes to transmit the packet.
 The latency of a network can be calculated using the following equation:
-$$\text{Latency} = \frac{\text{packet transmission time}}{2} + \text{propagation delay}$$
+\text{Latency} = \frac{\text{packet transmission time}}{2} + \text{propagation delay}
 where packet transmission time is the time it takes to transmit the packet, and propagation delay is the time it takes for the packet to propagate through the network.
 
 ## <a id="conclusion"></a>**Conclusion**
@@ -258,8 +252,7 @@ Key **network protocols** and **services** include:
 * **Subnetting**
 * **DHCP** and **DNS**
 * **HTTP**, **FTP**, **SSH**, **SMTP**, and **SNMP**.
-These protocols and services work together to provide a robust and efficient network infrastructure.
-
+These protocols and services work together to provide a and efficient network infrastructure.
 
 ## <a id="network-security-and-management"></a>Network Security and Management
 
@@ -282,7 +275,7 @@ These protocols and services work together to provide a robust and efficient net
 * **Asymmetric Key Encryption**: Using different keys for encryption and decryption.
 * **Hash Functions**: One-way functions that produce fixed-size strings.
 * **Digital Signatures**: Verifying authenticity and integrity of messages.
-* **Key Exchange Algorithms**: Securely exchanging cryptographic keys.
+* **Key Exchange [algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards)**: Securely exchanging cryptographic keys.
 
 ### <a id="network-management-protocols"></a>**Network Management Protocols**
 * **SNMP**: Managing and monitoring network devices.
@@ -300,39 +293,38 @@ These protocols and services work together to provide a robust and efficient net
 
 ### <a id="mathematical-modeling-of-network-performance"></a>**Mathematical Modeling of Network Performance**
 The network performance can be modeled using the following equation:
-$$
+
 P = \frac{1}{L} \cdot \frac{B}{D}
-$$
+
 where $P$ is the network performance, $L$ is the latency, $B$ is the bandwidth, and $D$ is the distance between nodes.
 The latency can be calculated using the formula:
-$$
+
 L = \frac{D}{V} + \frac{P}{B}
-$$
+
 where $V$ is the speed of the signal and $P$ is the packet size.
 The throughput can be optimized using the following formula:
-$$
+
 T = \frac{B}{L} \cdot \frac{1}{1 + \frac{P}{B}}
-$$
+
 where $T$ is the throughput.
 
 ### <a id="network-security-threat-modeling"></a>**Network Security Threat Modeling**
 The probability of a network security threat can be modeled using the following equation:
-$$
+
 P(T) = \frac{1}{1 + e^{-\theta}}
-$$
+
 where $P(T)$ is the probability of a threat, $\theta$ is the threat score, and $e$ is the base of the natural logarithm.
 The threat score can be calculated using the following formula:
-$$
+
 \theta = \sum_{i=1}^{n} w_i \cdot x_i
-$$
+
 where $w_i$ is the weight of the $i^{th}$ factor, $x_i$ is the value of the $i^{th}$ factor, and $n$ is the number of factors. 
 Using $x_i$ and $w_i$, the overall threat score $\theta$ can be derived as:
-$$
+
 \theta = w_1 \cdot x_1 + w_2 \cdot x_2 + \ldots + w_n \cdot x_n
-$$
+
 Then, by plugging the value of $\theta$ into the equation $P(T) = \frac{1}{1 + e^{-\theta}}$, we can obtain the probability of a network security threat.
 This allows network administrators to prioritize and mitigate potential threats.
-
 
 ## <a id="advanced-networking-topics"></a>Advanced Networking Topics
 
@@ -341,57 +333,57 @@ This allows network administrators to prioritize and mitigate potential threats.
 * **WiMAX**: Wireless metropolitan area network technology.
 * **LTE**: Long-term evolution wireless broadband technology.
 * Key characteristics: 
-  * High-speed data transfer
-  * Low-latency communication
-  * Mobility support
+ * High-speed data transfer
+ * Low-latency communication
+ * Mobility support
 
 ## <a id="mobile-networks"></a>**Mobile Networks**
 * **5G**: Fifth-generation wireless network technology.
 * **Network Slicing**: Multiple independent networks on a shared infrastructure.
 * **Mobile Edge Computing**: Computing resources at the edge of the network.
 * Benefits:
-  * Enhanced mobile broadband
-  * Ultra-reliable low-latency communication
-  * Massive machine-type communications
+ * Enhanced mobile broadband
+ * Ultra-reliable low-latency communication
+ * Massive machine-type communications
 
 ## <a id="cloud-computing"></a>**Cloud Computing**
 * **IaaS**: Infrastructure as a service cloud computing model.
 * **PaaS**: Platform as a service cloud computing model.
 * **SaaS**: Software as a service cloud computing model.
 * Characteristics:
-  * On-demand resource allocation
-  * Scalability and flexibility
-  * Reduced capital expenditures
+ * On-demand resource allocation
+ * Scalability and flexibility
+ * Reduced capital expenditures
 
 ## <a id="virtual-private-networks-vpns"></a>**Virtual Private Networks (VPNs)**
 * **Encapsulation**: Encrypting and encapsulating data packets.
 * **Tunneling**: Creating a secure tunnel for data transmission.
 * **Authentication**: Verifying user identity and access rights.
 * Advantages:
-  * Secure remote access
-  * Encryption and anonymity
-  * Access to geo-restricted content
+ * Secure remote access
+ * Encryption and anonymity
+ * Access to geo-restricted content
 
 ## <a id="network-virtualization"></a>**Network Virtualization**
 * **VLANs**: Virtual local area networks.
 * **VXLANs**: Virtual extensible local area networks.
 * **NVGRE**: Network virtualization using generic routing encapsulation.
 * Benefits:
-  * Improved network scalability
-  * Enhanced network flexibility
-  * Simplified network management
+ * Improved network scalability
+ * Enhanced network flexibility
+ * Simplified network management
 
 ## <a id="softwaredefined-networking-sdn"></a>**Software-Defined Networking (SDN)**
 * **SDN Architecture**: Separation of control and data planes.
 * **OpenFlow**: Standard protocol for SDN communication.
 * **Network Functions Virtualization (NFV)**: Virtualizing network functions.
 * Characteristics:
-  * Centralized network management
-  * Programmable network control
-  * Increased network flexibility
+ * Centralized network management
+ * Programmable network control
+ * Increased network flexibility
 
 The $SDN$ architecture can be represented as:
-$$
+
 \begin{aligned}
 &\text{Control Plane} \\
 &\quad \begin{cases}
@@ -408,7 +400,7 @@ $$
 \text{OpenFlow}
 \end{cases} \\
 \end{aligned}
-$$
+
 Key $SDN$ benefits:
 * Improved network manageability
 * Enhanced network security
@@ -435,9 +427,9 @@ Emerging trends in computer networking:
 ### <a id="32-pyq-2"></a>3.2 PYQ 2
 * **Network Topology**: Physical arrangement of devices.
 * Types:
-  * **Bus Topology**: Single cable connecting all devices.
-  * **Star Topology**: Central device connecting all others.
-  * **Ring Topology**: Devices connected in a circle.
+ * **Bus Topology**: Single cable connecting all devices.
+ * **Star Topology**: Central device connecting all others.
+ * **Ring Topology**: Devices connected in a circle.
 * Given: $n$ devices, **Bus Topology**.
 * Goal: Find the probability $P$ of collision.
 * Formula: $P = \frac{1}{2^{n-1}}$.
@@ -453,9 +445,8 @@ Emerging trends in computer networking:
 * Example: $x = 100$, $y = 20$.
 * Solution: $T = \frac{100 - 20}{100} = \frac{4}{5}$.
 * Derivation:
-$$
+
 T = \frac{x - y}{x} = \frac{100 - 20}{100} = \frac{80}{100} = \frac{4}{5}
-$$
 
 ## <a id="practice-mcqs"></a>Practice MCQs
 
@@ -489,7 +480,6 @@ $$
 - C) MAN (Metropolitan Area Network)
 - D) WLAN (Wireless Local Area Network)
 
-
 ---
 
 ### 🚀 Ready to Ace Your Exam?
@@ -497,3 +487,14 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/practice
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+
+---
+
+## 📚 Related Topics
+
+Continue your revision with these related guides:
+
+- 📖 [3D Geometry Class 11 (Mathematics) Comprehensive Notes — JEE & Boards 2026 Encyclopedia](/blog/3d-geometry-intro-class-11-revision-notes-jee-neet)
+- 📖 [Algorithms: Design Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-design-class-11-revision-notes-gate-boards)
+- 📖 [Data Structures: Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/data-structures-linear-class-11-revision-notes-gate-boards)
+- 📖 [Computer Organization Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/computer-organization-class-11-notes)

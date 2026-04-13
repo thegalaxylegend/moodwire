@@ -229,7 +229,7 @@ C) Sea otter
 -
 D) Kangaroo
 
-**Answer:** C) Sea otter is a keystone species because it plays a unique role in maintaining the balance of its ecosystem, controlling sea urchin populations and thereby maintaining kelp forests.
+**Answer:** C) Sea otter is a keystone species because it plays a unique role in maintaining the balance of its [ecosystem](/blog/ecosystem-class-12-notes), controlling sea urchin populations and thereby maintaining kelp forests.
 
 ---
 
@@ -306,3 +306,4 @@ Continue your revision with these related guides:
 - 📖 [Ecosystem Class 12 Biology Revision — MEET 2026 Grandmaster Guide](/blog/ecosystem-class-12-notes)
 - 📖 [Environmental Issues Class 12 Biology Revision — MEET 2026 Grandmaster Guide](/blog/environmental-issues-class-12-notes)
 
+$

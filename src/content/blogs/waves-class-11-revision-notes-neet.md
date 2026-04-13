@@ -221,7 +221,7 @@ Where:
 ---
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&
 A)
-**  Q1: Why does sound travel faster in [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than in gases?**
+**   Q1: Why does sound travel faster in [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than in gases?**
 
 **Answer:** The speed of sound is **v = √(E / ρ)**. Although [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) are much denser than gases (which would decrease speed), their elasticity (E) is significantly higher. Since elasticity dominates the equation, sound travels ~15 times faster in [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than in air.
 
@@ -229,7 +229,7 @@ A)
 **Answer:** Newton assumed sound travel was isothermal, but the compressions and rarefactions of a sound wave happen so rapidly that heat does not have time to escape. This makes it an **Adiabatic** process. Laplace corrected this by multiplying pressure by **γ** (ratio of specific heats), bringing the theoretical value in line with experimental results.
 
 **Q3: Can a sound wave travel in a vacuum?**
-**Answer:** **No.** Sound is a mechanical longitudinal wave. It requires a medium with elasticity and inertia to transmit the physical disturbance. In a vacuum, there are no particles to oscillate, so sound cannot propagate.
+**Answer:** **No.** Sound is a [mechanical](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) longitudinal wave. It requires a medium with elasticity and inertia to transmit the physical disturbance. In a vacuum, there are no particles to oscillate, so sound cannot propagate.
 
 **Q4: Compare the fundamental frequencies of an open and closed pipe of length 'L'.**
 **Answer:**
@@ -284,7 +284,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Mathematical Induction Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mathematical-induction-class-11-revision-notes-jee-neet)
 - 📖 [Mechanical Properties Of Solids Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)

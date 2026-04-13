@@ -245,7 +245,7 @@ When dealing with aldehydes, ketones, and carboxylic acids, there are common mis
 2. **Misidentifying nucleophilic addition reactions**: Nucleophilic addition reactions are common in aldehyde and ketone [chemistry](/blog/surface-chemistry-class-12-notes). However, students often misidentify these reactions, leading to incorrect products and mechanisms.
 3. **Not considering stereochemistry**: Stereochemistry is crucial in organic [chemistry](/blog/surface-chemistry-class-12-notes), especially when dealing with aldehydes and ketones. Ignoring stereochemistry can lead to incorrect predictions of reaction outcomes.
 4. **Overlooking the importance of pH**: pH plays a significant role in many reactions involving aldehydes, ketones, and carboxylic acids. Students often overlook the importance of pH, leading to incorrect reaction conditions and outcomes.
-5. **Not practicing, practicing, practicing**: Practice is key to mastering aldehyde, ketone, and carboxylic acid chemistry. Students who don't practice regularly often struggle to apply their knowledge to complex problems and reactions.
+5. **Not practicing, practicing, practicing**: Practice is key to mastering aldehyde, ketone, and carboxylic acid [chemistry](/blog/chemistry-in-everyday-life-class-12-notes). Students who don't practice regularly often struggle to apply their knowledge to complex problems and reactions.
 
 ### <a id="-reduction-reactions-of-aldehydes-and-ketones"></a>⬇ Reduction Reactions of Aldehydes and Ketones
 Reduction reactions are essential in aldehyde and ketone chemistry. These reactions involve the gain of electrons by the carbonyl compound, resulting in the formation of a new bond.
@@ -292,7 +292,7 @@ To master the concepts of aldehydes, ketones, and carboxylic acids, we recommend
 4. **Improve problem-solving skills** and critical thinking
 5. **Get instant feedback** and track progress
 
-The Test Center is an invaluable resource for students preparing for JEE and NEET exams. By using it regularly, you can gain a deeper understanding of the subject matter, build confidence, and achieve success in your exams.
+The Test Center is an invaluable resource for students preparing for JEE and [neet](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) exams. By using it regularly, you can gain a deeper understanding of the subject matter, build confidence, and achieve success in your exams.
 
 ### <a id="-why-use-the-test-center"></a>📊 Why Use the Test Center?
 The Test Center is an essential tool for students who want to excel in JEE and NEET exams. Here are just a few reasons why you should use it:

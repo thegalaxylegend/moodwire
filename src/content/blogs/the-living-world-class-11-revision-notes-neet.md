@@ -126,7 +126,7 @@ One shortcut formula that can be used to remember the characteristics of living 
 * **M**: Metabolism
 * **R**: Response to stimuli
 * **H**: Homeostasis
-* **G**: Growth and development
+* **G**: [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet) and development
 * **R**: Reproduction
 * **E**: Evolution
 * **P**: Photosynthesis (in [plants](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet))
@@ -219,7 +219,7 @@ Last Updated: March 15, 2026
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/environmental-chemistry-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Animal Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)
 - 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)

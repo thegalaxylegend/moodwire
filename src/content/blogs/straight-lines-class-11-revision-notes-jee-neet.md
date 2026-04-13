@@ -110,7 +110,7 @@ The general form of a linear equation is **Ax + By + C = 0**.
 
 ## <a id="4-distance-of-a-point-from-a-line"></a>4. Distance of a Point from a Line
 
-The perpendicular distance (d) from a point P(x₁, y₁) to the line Ax + By + C = 0 is:
+The perpendicular distance (d) from a point P(x₁, y₁) to the [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) Ax + By + C = 0 is:
 **d = |Ax₁ + By₁ + C| / √(A² + B²)**
 
 ### <a id="distance-between-parallel-lines"></a>Distance Between Parallel Lines:

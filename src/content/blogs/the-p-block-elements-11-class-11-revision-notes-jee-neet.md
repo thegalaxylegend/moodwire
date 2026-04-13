@@ -105,7 +105,7 @@ The [physical](/blog/physical-world-class-11-revision-notes-jee-neet) properties
 ## <a id="chemical-properties-of-the-pblock-elements"></a>Chemical Properties of the P-Block Elements
 
 The chemical properties of the p-[block](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) elements are also varied, depending on the group and period. Some of the key chemical properties include:
-* Reactivity: The reactivity of the p-block elements increases from left to right across a period and decreases down a group.
+* Reactivity: The reactivity of the p-[block](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) elements increases from left to right across a period and decreases down a group.
 * Oxidation state: The oxidation state of the p-block elements varies widely, depending on the group and period.
 * Compound formation: The p-block elements form a wide range of compounds, including acids, bases, and salts.
 
@@ -212,7 +212,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/environmental-chemistry-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [The S Block Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/the-s-block-elements-class-11-revision-notes-jee-neet)
 - 📖 [Physical World Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/physical-world-class-11-revision-notes-jee-neet)

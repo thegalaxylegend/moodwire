@@ -67,7 +67,7 @@ nCr &= \frac{n!}{r!(n-r)!}
 
 \end{aligned}
 
-These formulas are the foundation of Permutations and Combinations, and understanding them is crucial to solving problems in this topic. As we progress, we'll see how these formulas are applied in various contexts, from simple calculations to complex problems. With practice and dedication, you'll become proficient in using these formulas to solve a wide range of problems, and you'll develop a deeper appreciation for the beauty and complexity of Permutations and Combinations.
+These formulas are the foundation of [permutations](/blog/permutations-combinations-class-11-revision-notes-jee) and Combinations, and understanding them is crucial to solving problems in this topic. As we progress, we'll see how these formulas are applied in various contexts, from simple calculations to complex problems. With practice and dedication, you'll become proficient in using these formulas to solve a wide range of problems, and you'll develop a deeper appreciation for the beauty and complexity of [permutations](/blog/permutations-combinations-class-11-revision-notes-jee) and Combinations.
 
 
 ## <a id="what-is-the-fundamental-counting-principle-in-permutations-and-combinations"></a>What is the Fundamental Counting Principle in Permutations and Combinations?
@@ -223,7 +223,7 @@ To further illustrate the concepts of permutations and combinations, consider th
 
       Permutations and combinations have numerous real-life applications, including:
 
-      *   **Arranging objects in a specific order**: Permutations are used in music to arrange notes in a specific order to create a melody. In sports, permutations are used to arrange players in a specific order to create a lineup.
+      *   **Arranging objects in a specific order**: Permutations are used in music to arrange [notes](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) in a specific order to create a melody. In sports, permutations are used to arrange players in a specific order to create a lineup.
       *   **Selecting objects from a group**: Combinations are used in business to select a team of employees from a group of candidates. In medicine, combinations are used to select a group of patients to participate in a clinical trial.
       *   **Determining the number of ways to do something**: Permutations and combinations are used in computer science to determine the number of ways to solve a problem. For example, in the traveling salesman problem, permutations are used to determine the number of possible routes a salesman can take to visit a group of cities.
 

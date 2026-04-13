@@ -311,18 +311,13 @@ Adding a common ion (e.g., $NaCl$ to a saturated $AgCl$ solution) suppresses the
 ### <a id="trap-3-inert-gas-at-constant-volume"></a>Trap 3: Inert Gas at Constant Volume
 - **Wrong Answer**: "Adding $Ar$ at constant volume shifts the equilibrium."
 - **Right Answer**: **No shift** occurs.
-- **Why**: Partial pressures and concentrations remain unchanged. Only total pressure increase has no thermodynamic effect.
-
+- **Why**: Partial pressures and concentrations remain unchange
+d. Only total pressure increase has no thermodynamic effect.
 ---
-
-
-
-
-
-
 ## <a id="12-practice-mcqs-jeeneet-level"></a>12. Practice MCQs (JEE/NEET Level)
+**MCQs (Multiple Choice Questions) are a testing format where you must identify the single
 
-**MCQs (Multiple Choice Questions) are a testing format where you must identify the single correct option from a provided list.**
+correct option from a provided list.**
 
 **Q1. For $N_2 + 3H_2 \rightleftharpoons 2NH_3$, $K_c = 0.5$. What is the $K_c$ for $NH_3 \rightleftharpoons \frac{1}{2}N_2 + \frac{3}{2}H_2$?** [JEE Medium]  
 A) 2  
@@ -419,3 +414,4 @@ Continue your [revision](/blog/states-of-matter-class-11-revision-notes-jee-neet
 - 📖 [Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/structure-of-atom-class-11-revision-notes-jee-neet)
 - 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
 - 📖 [Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet)
+

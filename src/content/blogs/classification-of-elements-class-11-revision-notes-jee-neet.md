@@ -65,14 +65,14 @@ The core concepts in the classification of [elements](/blog/the-p-block-elements
 
 * Atomic number: The number of protons in the nucleus of an atom
 * Electronic configuration: The arrangement of electrons in an atom
-* Periodic table: A tabular arrangement of elements in order of their increasing atomic numbers
+* Periodic table: A tabular arrangement of [elements](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet) in order of their increasing atomic numbers
 * Blocks: The periodic table is divided into different [block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet)s, such as the s-block, p-block, d-block, and f-block
 * Groups: The vertical columns in the periodic table are called groups
 * Periods: The horizontal rows in the periodic table are called periods
 
 ## <a id="formulae"></a>Formulae
 
-Some important formulae related to the classification of elements include:
+[some](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) important formulae related to the classification of elements include:
 
 * $Z = p + n$, where $Z$ is the atomic number, $p$ is the number of protons, and $n$ is the number of neutrons
 * $A = p + n$, where $A$ is the mass number

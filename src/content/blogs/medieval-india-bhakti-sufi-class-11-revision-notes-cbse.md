@@ -97,9 +97,9 @@ To avoid common mistakes and misconceptions, keep the following **Trap Exception
 
 * **Bhakti movement was not limited to Hinduism** : The Bhakti movement also influenced other religions, such as Islam and Sikhism.
 * **Sufism was not a separate religion** : Sufism was a mystical tradition within Islam that emphasized spiritual experience and the attainment of a state of union with God.
-* **Regional variations were significant** : The Bhakti and Sufi movements had different regional variations and traditions, reflecting the diversity of Indian culture and society.
+* **Regional variations were significant** : The Bhakti and Sufi movements had different regional variations and traditions, reflecting the diversity of Indian [culture](/blog/art-culture-architecture-class-11-revision-notes-jee-neet) and society.
 
-By keeping these **Trap Exceptions** in mind, you can avoid common mistakes and develop a more nuanced understanding of the **Bhakti** and **Sufi** movements in Medieval India. 
+By keeping these **Trap Exceptions** in mind, you can avoid common mistakes and develop a more nuanced understanding of the **Bhakti** and **Sufi** movements in Medieval [india](/blog/ancient-india-vedic-age-class-11-revision-notes-jee). 
 
 ### <a id="key-takeaways"></a>Key Takeaways
 - **Bhakti movement** emphasized personal devotion to a particular deity.

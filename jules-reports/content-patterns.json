@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-04-12T02:42:49.362Z",
-  "totalBlogs": 188,
-  "totalWords": 437130,
-  "avgWordCount": 2325,
+  "generatedAt": "2026-04-13T02:49:36.910Z",
+  "totalBlogs": 191,
+  "totalWords": 448580,
+  "avgWordCount": 2349,
   "patterns": [
     {
       "subject": "Revision",
       "sampleSize": 188,
-      "avgWordCount": 2325,
-      "medianWordCount": 1488,
-      "avgH2": 11.4,
-      "avgH3": 4.4,
-      "avgFormulas": 48.1,
-      "avgMCQs": 1.8,
-      "avgBullets": 37.3,
-      "bulletToParagraphRatio": 5.24,
-      "avgInternalLinks": 17.6,
+      "avgWordCount": 2366,
+      "medianWordCount": 1523,
+      "avgH2": 11.9,
+      "avgH3": 4.7,
+      "avgFormulas": 48.5,
+      "avgMCQs": 1.7,
+      "avgBullets": 40.2,
+      "bulletToParagraphRatio": 5.43,
+      "avgInternalLinks": 18.6,
       "idealTemplate": {
         "wordCountRange": [
-          1122,
-          2621
+          1173,
+          2690
         ],
         "headingCount": [
           9,
@@ -32,6 +32,35 @@
         ],
         "bulletRatio": "bullet-heavy"
       }
+    },
+    {
+      "subject": "Exam Notes",
+      "sampleSize": 3,
+      "avgWordCount": 1284,
+      "medianWordCount": 1279,
+      "avgH2": 9,
+      "avgH3": 1,
+      "avgFormulas": 30.7,
+      "avgMCQs": 5,
+      "avgBullets": 25.3,
+      "bulletToParagraphRatio": 2.3,
+      "avgInternalLinks": 6.3,
+      "idealTemplate": {
+        "wordCountRange": [
+          1046,
+          1528
+        ],
+        "headingCount": [
+          9,
+          9
+        ],
+        "formulaDensity": "high",
+        "mcqCount": [
+          5,
+          5
+        ],
+        "bulletRatio": "balanced"
+      }
     }
   ],
   "allMetrics": [
@@ -39,24 +68,24 @@
       "slug": "3d-geometry-intro-class-11-revision-notes-jee-neet",
       "category": "Revision",
       "classNum": 11,
-      "wordCount": 785,
-      "h2Count": 7,
-      "h3Count": 0,
-      "h4Count": 0,
-      "formulaCount": 11,
+      "wordCount": 4761,
+      "h2Count": 34,
+      "h3Count": 18,
+      "h4Count": 3,
+      "formulaCount": 173,
       "mcqCount": 0,
-      "bulletCount": 4,
-      "paragraphCount": 4,
-      "internalLinkCount": 1,
+      "bulletCount": 214,
+      "paragraphCount": 35,
+      "internalLinkCount": 8,
       "externalLinkCount": 0,
       "imageCount": 0,
-      "tableCount": 0,
+      "tableCount": 1,
       "codeBlockCount": 0,
-      "avgSectionLength": 98,
+      "avgSectionLength": 140,
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 5201
+      "fileSize": 33253
     },
     {
       "slug": "agriculture-class-11-revision-notes-neet",
@@ -70,7 +99,7 @@
       "mcqCount": 5,
       "bulletCount": 15,
       "paragraphCount": 1,
-      "internalLinkCount": 18,
+      "internalLinkCount": 19,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 0,
@@ -79,7 +108,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 10026
+      "fileSize": 10092
     },
     {
       "slug": "ai-exam-prep-future-class-11-revision-notes-jee-neet",
@@ -116,7 +145,7 @@
       "mcqCount": 5,
       "bulletCount": 20,
       "paragraphCount": 1,
-      "internalLinkCount": 18,
+      "internalLinkCount": 19,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 0,
@@ -125,13 +154,13 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 7657
+      "fileSize": 7725
     },
     {
       "slug": "alcohols-phenols-and-ethers-class-12-notes",
       "category": "Revision",
       "classNum": 12,
-      "wordCount": 1485,
+      "wordCount": 1486,
       "h2Count": 8,
       "h3Count": 2,
       "h4Count": 0,
@@ -139,7 +168,7 @@
       "mcqCount": 0,
       "bulletCount": 22,
       "paragraphCount": 3,
-      "internalLinkCount": 14,
+      "internalLinkCount": 15,
       "externalLinkCount": 2,
       "imageCount": 1,
       "tableCount": 1,
@@ -148,7 +177,7 @@
       "hasTraps": false,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 11086
+      "fileSize": 11146
     },
     {
       "slug": "aldehydes-ketones-and-carboxylic-acids-class-12-notes",
@@ -162,7 +191,7 @@
       "mcqCount": 0,
       "bulletCount": 87,
       "paragraphCount": 2,
-      "internalLinkCount": 21,
+      "internalLinkCount": 23,
       "externalLinkCount": 4,
       "imageCount": 1,
       "tableCount": 1,
@@ -171,7 +200,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 26838
+      "fileSize": 26965
     },
     {
       "slug": "algorithms-analysis-class-11-revision-notes-gate-boards",
@@ -185,7 +214,7 @@
       "mcqCount": 5,
       "bulletCount": 32,
       "paragraphCount": 9,
-      "internalLinkCount": 20,
+      "internalLinkCount": 23,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -194,7 +223,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 43634
+      "fileSize": 43832
     },
     {
       "slug": "algorithms-design-class-11-revision-notes-gate-boards",
@@ -207,8 +236,8 @@
       "formulaCount": 182,
       "mcqCount": 5,
       "bulletCount": 33,
-      "paragraphCount": 6,
-      "internalLinkCount": 24,
+      "paragraphCount": 7,
+      "internalLinkCount": 27,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -217,7 +246,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 46886
+      "fileSize": 47095
     },
     {
       "slug": "alternating-current-class-12-notes",
@@ -231,7 +260,7 @@
       "mcqCount": 5,
       "bulletCount": 60,
       "paragraphCount": 7,
-      "internalLinkCount": 26,
+      "internalLinkCount": 27,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -240,7 +269,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 39499
+      "fileSize": 39564
     },
     {
       "slug": "amines-class-12-notes",
@@ -277,7 +306,7 @@
       "mcqCount": 0,
       "bulletCount": 45,
       "paragraphCount": 2,
-      "internalLinkCount": 22,
+      "internalLinkCount": 24,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 0,
@@ -286,7 +315,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 16146
+      "fileSize": 16277
     },
     {
       "slug": "ancient-india-indus-valley-class-11-revision-notes-cbse",
@@ -300,7 +329,7 @@
       "mcqCount": 0,
       "bulletCount": 51,
       "paragraphCount": 4,
-      "internalLinkCount": 20,
+      "internalLinkCount": 22,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -309,7 +338,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 11487
+      "fileSize": 11615
     },
     {
       "slug": "ancient-india-mahajanapadas-class-11-revision-notes-jee",
@@ -346,7 +375,7 @@
       "mcqCount": 0,
       "bulletCount": 49,
       "paragraphCount": 3,
-      "internalLinkCount": 17,
+      "internalLinkCount": 19,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -355,7 +384,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 11269
+      "fileSize": 11401
     },
     {
       "slug": "animal-kingdom-class-11-revision-notes-neet",
@@ -369,7 +398,7 @@
       "mcqCount": 0,
       "bulletCount": 33,
       "paragraphCount": 2,
-      "internalLinkCount": 25,
+      "internalLinkCount": 28,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 0,
@@ -378,7 +407,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 11962
+      "fileSize": 12142
     },
     {
       "slug": "application-of-derivatives-class-12-notes",
@@ -392,7 +421,7 @@
       "mcqCount": 5,
       "bulletCount": 67,
       "paragraphCount": 37,
-      "internalLinkCount": 11,
+      "internalLinkCount": 12,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -401,7 +430,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 21311
+      "fileSize": 21360
     },
     {
       "slug": "application-of-integrals-class-12-notes",
@@ -424,13 +453,13 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 19777
+      "fileSize": 19778
     },
     {
       "slug": "applications-of-trigonometry-class-10-notes",
       "category": "Revision",
       "classNum": 10,
-      "wordCount": 2689,
+      "wordCount": 2690,
       "h2Count": 9,
       "h3Count": 2,
       "h4Count": 0,
@@ -438,7 +467,7 @@
       "mcqCount": 5,
       "bulletCount": 27,
       "paragraphCount": 13,
-      "internalLinkCount": 10,
+      "internalLinkCount": 11,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -447,13 +476,13 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 17887
+      "fileSize": 17941
     },
     {
       "slug": "areas-related-to-circles-class-10-notes",
       "category": "Revision",
       "classNum": 10,
-      "wordCount": 2473,
+      "wordCount": 2474,
       "h2Count": 9,
       "h3Count": 2,
       "h4Count": 0,
@@ -461,7 +490,7 @@
       "mcqCount": 5,
       "bulletCount": 58,
       "paragraphCount": 12,
-      "internalLinkCount": 7,
+      "internalLinkCount": 8,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -470,7 +499,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 14850
+      "fileSize": 14914
     },
     {
       "slug": "arithmetic-progressions-class-10-notes",
@@ -499,7 +528,7 @@
       "slug": "art-culture-architecture-class-11-revision-notes-jee-neet",
       "category": "Revision",
       "classNum": 11,
-      "wordCount": 1384,
+      "wordCount": 1385,
       "h2Count": 11,
       "h3Count": 2,
       "h4Count": 0,
@@ -516,13 +545,13 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 11027
+      "fileSize": 11028
     },
     {
       "slug": "atoms-class-12-notes",
       "category": "Revision",
       "classNum": 12,
-      "wordCount": 2093,
+      "wordCount": 2094,
       "h2Count": 11,
       "h3Count": 2,
       "h4Count": 0,
@@ -539,7 +568,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 14084
+      "fileSize": 14085
     },
     {
       "slug": "binomial-theorem-class-11-revision-notes-jee",
@@ -568,7 +597,7 @@
       "slug": "biodiversity-and-conservation-class-12-notes",
       "category": "Revision",
       "classNum": 12,
-      "wordCount": 2742,
+      "wordCount": 2743,
       "h2Count": 10,
       "h3Count": 1,
       "h4Count": 0,
@@ -576,7 +605,7 @@
       "mcqCount": 5,
       "bulletCount": 41,
       "paragraphCount": 24,
-      "internalLinkCount": 20,
+      "internalLinkCount": 21,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -585,7 +614,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 19856
+      "fileSize": 19891
     },
     {
       "slug": "biogeography-class-11-revision-notes-neet",
@@ -622,7 +651,7 @@
       "mcqCount": 0,
       "bulletCount": 33,
       "paragraphCount": 2,
-      "internalLinkCount": 16,
+      "internalLinkCount": 17,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 0,
@@ -631,7 +660,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 10993
+      "fileSize": 11062
     },
     {
       "slug": "biomolecules-class-11-revision-notes-neet",
@@ -645,7 +674,7 @@
       "mcqCount": 0,
       "bulletCount": 21,
       "paragraphCount": 2,
-      "internalLinkCount": 15,
+      "internalLinkCount": 17,
       "externalLinkCount": 3,
       "imageCount": 1,
       "tableCount": 1,
@@ -654,7 +683,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 12706
+      "fileSize": 12845
     },
     {
       "slug": "biotechnology-and-its-applications-class-12-notes",
@@ -683,7 +712,7 @@
       "slug": "biotechnology-principles-and-processes-class-12-notes",
       "category": "Revision",
       "classNum": 12,
-      "wordCount": 2595,
+      "wordCount": 2596,
       "h2Count": 10,
       "h3Count": 1,
       "h4Count": 0,
@@ -700,7 +729,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 19063
+      "fileSize": 19064
     },
     {
       "slug": "body-fluids-and-circulation-class-11-revision-notes-neet",
@@ -714,7 +743,7 @@
       "mcqCount": 0,
       "bulletCount": 70,
       "paragraphCount": 24,
-      "internalLinkCount": 18,
+      "internalLinkCount": 19,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -723,13 +752,13 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 44073
+      "fileSize": 44143
     },
     {
       "slug": "breathing-and-exchange-of-gases-class-11-revision-notes-neet",
       "category": "Revision",
       "classNum": 11,
-      "wordCount": 1879,
+      "wordCount": 1875,
       "h2Count": 10,
       "h3Count": 13,
       "h4Count": 0,
@@ -737,7 +766,7 @@
       "mcqCount": 0,
       "bulletCount": 37,
       "paragraphCount": 3,
-      "internalLinkCount": 16,
+      "internalLinkCount": 18,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 0,
@@ -746,7 +775,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 14021
+      "fileSize": 14108
     },
     {
       "slug": "cell-cycle-and-cell-division-class-11-revision-notes-neet",
@@ -760,7 +789,7 @@
       "mcqCount": 0,
       "bulletCount": 24,
       "paragraphCount": 1,
-      "internalLinkCount": 41,
+      "internalLinkCount": 43,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 0,
@@ -769,7 +798,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 13087
+      "fileSize": 13200
     },
     {
       "slug": "cell-the-unit-of-life-class-11-revision-notes-neet",
@@ -783,7 +812,7 @@
       "mcqCount": 0,
       "bulletCount": 29,
       "paragraphCount": 2,
-      "internalLinkCount": 16,
+      "internalLinkCount": 17,
       "externalLinkCount": 2,
       "imageCount": 1,
       "tableCount": 0,
@@ -792,113 +821,113 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 11559
+      "fileSize": 11628
     },
     {
       "slug": "chemical-bonding-class-11-revision-notes-jee-neet",
       "category": "Revision",
       "classNum": 11,
-      "wordCount": 3190,
-      "h2Count": 23,
+      "wordCount": 3220,
+      "h2Count": 24,
       "h3Count": 13,
       "h4Count": 0,
       "formulaCount": 114,
       "mcqCount": 0,
       "bulletCount": 76,
       "paragraphCount": 4,
-      "internalLinkCount": 22,
-      "externalLinkCount": 0,
+      "internalLinkCount": 24,
+      "externalLinkCount": 1,
       "imageCount": 1,
       "tableCount": 1,
       "codeBlockCount": 0,
-      "avgSectionLength": 133,
+      "avgSectionLength": 129,
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 25082
+      "fileSize": 25428
     },
     {
       "slug": "chemical-coordination-and-integration-class-11-revision-notes-neet",
       "category": "Revision",
       "classNum": 11,
-      "wordCount": 1002,
-      "h2Count": 10,
+      "wordCount": 1279,
+      "h2Count": 12,
       "h3Count": 4,
       "h4Count": 0,
       "formulaCount": 0,
       "mcqCount": 0,
-      "bulletCount": 40,
-      "paragraphCount": 1,
-      "internalLinkCount": 20,
-      "externalLinkCount": 0,
+      "bulletCount": 45,
+      "paragraphCount": 2,
+      "internalLinkCount": 24,
+      "externalLinkCount": 1,
       "imageCount": 1,
-      "tableCount": 0,
+      "tableCount": 1,
       "codeBlockCount": 0,
-      "avgSectionLength": 91,
+      "avgSectionLength": 99,
       "hasTraps": false,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 9858
+      "fileSize": 12103
     },
     {
       "slug": "chemical-kinetics-class-12-notes",
       "category": "Revision",
       "classNum": 12,
-      "wordCount": 2593,
+      "wordCount": 2783,
       "h2Count": 11,
       "h3Count": 2,
       "h4Count": 0,
-      "formulaCount": 194,
+      "formulaCount": 104,
       "mcqCount": 5,
       "bulletCount": 23,
-      "paragraphCount": 14,
+      "paragraphCount": 15,
       "internalLinkCount": 11,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
       "codeBlockCount": 0,
-      "avgSectionLength": 216,
+      "avgSectionLength": 232,
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 17273
+      "fileSize": 19831
     },
     {
       "slug": "chemistry-in-everyday-life-class-12-notes",
       "category": "Revision",
       "classNum": 12,
-      "wordCount": 887,
-      "h2Count": 5,
+      "wordCount": 1344,
+      "h2Count": 8,
       "h3Count": 2,
       "h4Count": 0,
-      "formulaCount": 40,
+      "formulaCount": 6,
       "mcqCount": 0,
-      "bulletCount": 27,
-      "paragraphCount": 1,
-      "internalLinkCount": 13,
-      "externalLinkCount": 0,
+      "bulletCount": 33,
+      "paragraphCount": 2,
+      "internalLinkCount": 16,
+      "externalLinkCount": 2,
       "imageCount": 1,
       "tableCount": 1,
       "codeBlockCount": 0,
-      "avgSectionLength": 148,
+      "avgSectionLength": 150,
       "hasTraps": false,
-      "hasLast5Min": false,
+      "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 7539
+      "fileSize": 11327
     },
     {
       "slug": "circles-class-10-notes",
       "category": "Revision",
       "classNum": 10,
-      "wordCount": 2610,
+      "wordCount": 2608,
       "h2Count": 9,
       "h3Count": 2,
       "h4Count": 0,
-      "formulaCount": 88,
+      "formulaCount": 34,
       "mcqCount": 5,
       "bulletCount": 60,
       "paragraphCount": 12,
-      "internalLinkCount": 7,
+      "internalLinkCount": 8,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -907,76 +936,76 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 15461
+      "fileSize": 15484
     },
     {
       "slug": "class-10-30-day-timetable-class-10-revision-notes-jee",
       "category": "Revision",
       "classNum": 10,
-      "wordCount": 1124,
-      "h2Count": 10,
+      "wordCount": 1363,
+      "h2Count": 12,
       "h3Count": 4,
       "h4Count": 0,
       "formulaCount": 0,
       "mcqCount": 0,
-      "bulletCount": 16,
-      "paragraphCount": 1,
-      "internalLinkCount": 22,
+      "bulletCount": 22,
+      "paragraphCount": 2,
+      "internalLinkCount": 24,
       "externalLinkCount": 1,
       "imageCount": 1,
       "tableCount": 0,
       "codeBlockCount": 0,
-      "avgSectionLength": 102,
-      "hasTraps": false,
-      "hasLast5Min": false,
+      "avgSectionLength": 105,
+      "hasTraps": true,
+      "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 9838
+      "fileSize": 11716
     },
     {
       "slug": "class-10-science-pyq-strategy-class-10-revision-notes-neet",
       "category": "Revision",
       "classNum": 10,
-      "wordCount": 1163,
-      "h2Count": 10,
+      "wordCount": 1423,
+      "h2Count": 12,
       "h3Count": 4,
       "h4Count": 0,
       "formulaCount": 0,
       "mcqCount": 0,
-      "bulletCount": 16,
-      "paragraphCount": 1,
-      "internalLinkCount": 21,
+      "bulletCount": 22,
+      "paragraphCount": 2,
+      "internalLinkCount": 23,
       "externalLinkCount": 1,
       "imageCount": 1,
       "tableCount": 0,
       "codeBlockCount": 0,
-      "avgSectionLength": 106,
-      "hasTraps": false,
-      "hasLast5Min": false,
+      "avgSectionLength": 110,
+      "hasTraps": true,
+      "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 10302
+      "fileSize": 12376
     },
     {
       "slug": "classification-elements-periodicity-class-11-revision-notes-jee-neet",
       "category": "Revision",
       "classNum": 11,
-      "wordCount": 2251,
-      "h2Count": 16,
+      "wordCount": 2583,
+      "h2Count": 18,
       "h3Count": 16,
       "h4Count": 0,
-      "formulaCount": 47,
+      "formulaCount": 14,
       "mcqCount": 0,
-      "bulletCount": 54,
-      "paragraphCount": 1,
-      "internalLinkCount": 20,
+      "bulletCount": 60,
+      "paragraphCount": 2,
+      "internalLinkCount": 22,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
       "codeBlockCount": 0,
-      "avgSectionLength": 133,
+      "avgSectionLength": 136,
       "hasTraps": true,
-      "hasLast5Min": false,
+      "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 18324
+      "fileSize": 20621
     },
     {
       "slug": "classification-of-elements-class-11-revision-notes-jee-neet",
@@ -990,7 +1019,7 @@
       "mcqCount": 0,
       "bulletCount": 36,
       "paragraphCount": 1,
-      "internalLinkCount": 19,
+      "internalLinkCount": 21,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 0,
@@ -999,7 +1028,7 @@
       "hasTraps": false,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 44528
+      "fileSize": 44681
     },
     {
       "slug": "climatology-class-11-revision-notes-jee-neet",
@@ -1048,6 +1077,29 @@
       "fileSize": 12868
     },
     {
+      "slug": "compiler-design-class-12-notes",
+      "category": "Exam Notes",
+      "classNum": 12,
+      "wordCount": 1528,
+      "h2Count": 9,
+      "h3Count": 1,
+      "h4Count": 0,
+      "formulaCount": 48,
+      "mcqCount": 5,
+      "bulletCount": 32,
+      "paragraphCount": 10,
+      "internalLinkCount": 6,
+      "externalLinkCount": 0,
+      "imageCount": 0,
+      "tableCount": 1,
+      "codeBlockCount": 0,
+      "avgSectionLength": 170,
+      "hasTraps": true,
+      "hasLast5Min": true,
+      "hasRelated": true,
+      "fileSize": 10425
+    },
+    {
       "slug": "complex-numbers-class-11-revision-notes-jee-neet",
       "category": "Revision",
       "classNum": 11,
@@ -1074,24 +1126,24 @@
       "slug": "computer-networks-class-12-notes",
       "category": "Revision",
       "classNum": 12,
-      "wordCount": 1491,
-      "h2Count": 9,
-      "h3Count": 2,
+      "wordCount": 3088,
+      "h2Count": 33,
+      "h3Count": 23,
       "h4Count": 0,
-      "formulaCount": 8,
-      "mcqCount": 5,
-      "bulletCount": 41,
-      "paragraphCount": 13,
-      "internalLinkCount": 7,
+      "formulaCount": 58,
+      "mcqCount": 0,
+      "bulletCount": 239,
+      "paragraphCount": 20,
+      "internalLinkCount": 8,
       "externalLinkCount": 0,
-      "imageCount": 1,
+      "imageCount": 0,
       "tableCount": 0,
       "codeBlockCount": 0,
-      "avgSectionLength": 149,
-      "hasTraps": true,
-      "hasLast5Min": true,
+      "avgSectionLength": 94,
+      "hasTraps": false,
+      "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 10743
+      "fileSize": 24832
     },
     {
       "slug": "computer-organization-class-11-notes",
@@ -1105,7 +1157,7 @@
       "mcqCount": 5,
       "bulletCount": 38,
       "paragraphCount": 5,
-      "internalLinkCount": 24,
+      "internalLinkCount": 27,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -1114,7 +1166,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 43822
+      "fileSize": 44025
     },
     {
       "slug": "conic-sections-class-11-revision-notes-jee",
@@ -1151,7 +1203,7 @@
       "mcqCount": 0,
       "bulletCount": 26,
       "paragraphCount": 1,
-      "internalLinkCount": 21,
+      "internalLinkCount": 23,
       "externalLinkCount": 0,
       "imageCount": 2,
       "tableCount": 1,
@@ -1160,7 +1212,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 8651
+      "fileSize": 8776
     },
     {
       "slug": "continuity-and-differentiability-class-12-notes",
@@ -1243,7 +1295,7 @@
       "mcqCount": 0,
       "bulletCount": 17,
       "paragraphCount": 1,
-      "internalLinkCount": 24,
+      "internalLinkCount": 25,
       "externalLinkCount": 1,
       "imageCount": 1,
       "tableCount": 0,
@@ -1252,7 +1304,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 14041
+      "fileSize": 14103
     },
     {
       "slug": "current-electricity-class-11-revision-notes-neet",
@@ -1289,7 +1341,7 @@
       "mcqCount": 5,
       "bulletCount": 60,
       "paragraphCount": 5,
-      "internalLinkCount": 25,
+      "internalLinkCount": 27,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -1298,7 +1350,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 40763
+      "fileSize": 40900
     },
     {
       "slug": "data-structures-non-linear-class-11-revision-notes-gate-boards",
@@ -1312,7 +1364,7 @@
       "mcqCount": 5,
       "bulletCount": 28,
       "paragraphCount": 12,
-      "internalLinkCount": 24,
+      "internalLinkCount": 30,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -1321,7 +1373,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 54296
+      "fileSize": 54698
     },
     {
       "slug": "databases-dbms-class-12-notes",
@@ -1335,7 +1387,7 @@
       "mcqCount": 5,
       "bulletCount": 40,
       "paragraphCount": 12,
-      "internalLinkCount": 7,
+      "internalLinkCount": 8,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -1344,7 +1396,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 13337
+      "fileSize": 13408
     },
     {
       "slug": "determinants-class-12-notes",
@@ -1358,7 +1410,7 @@
       "mcqCount": 0,
       "bulletCount": 97,
       "paragraphCount": 15,
-      "internalLinkCount": 18,
+      "internalLinkCount": 19,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 0,
@@ -1367,7 +1419,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 19803
+      "fileSize": 19852
     },
     {
       "slug": "differential-equations-class-12-notes",
@@ -1427,7 +1479,7 @@
       "mcqCount": 5,
       "bulletCount": 32,
       "paragraphCount": 19,
-      "internalLinkCount": 20,
+      "internalLinkCount": 21,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -1436,7 +1488,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 63220
+      "fileSize": 63266
     },
     {
       "slug": "dpsp-duties-class-11-revision-notes-jee-neet",
@@ -1450,7 +1502,7 @@
       "mcqCount": 0,
       "bulletCount": 21,
       "paragraphCount": 1,
-      "internalLinkCount": 19,
+      "internalLinkCount": 20,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -1459,7 +1511,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 9243
+      "fileSize": 9311
     },
     {
       "slug": "dual-nature-of-radiation-class-12-notes",
@@ -1519,7 +1571,7 @@
       "mcqCount": 0,
       "bulletCount": 30,
       "paragraphCount": 1,
-      "internalLinkCount": 25,
+      "internalLinkCount": 26,
       "externalLinkCount": 1,
       "imageCount": 1,
       "tableCount": 0,
@@ -1528,7 +1580,7 @@
       "hasTraps": false,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 15626
+      "fileSize": 15689
     },
     {
       "slug": "electromagnetic-induction-class-12-revision-notes-jee-neet",
@@ -1542,7 +1594,7 @@
       "mcqCount": 5,
       "bulletCount": 31,
       "paragraphCount": 5,
-      "internalLinkCount": 20,
+      "internalLinkCount": 21,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -1551,7 +1603,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 46571
+      "fileSize": 46617
     },
     {
       "slug": "electromagnetic-waves-class-12-notes",
@@ -1565,7 +1617,7 @@
       "mcqCount": 5,
       "bulletCount": 44,
       "paragraphCount": 7,
-      "internalLinkCount": 30,
+      "internalLinkCount": 32,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -1574,7 +1626,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 44465
+      "fileSize": 44577
     },
     {
       "slug": "electrostatics-class-12-revision-notes-jee-neet",
@@ -1588,7 +1640,7 @@
       "mcqCount": 5,
       "bulletCount": 27,
       "paragraphCount": 7,
-      "internalLinkCount": 15,
+      "internalLinkCount": 16,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -1597,7 +1649,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 42176
+      "fileSize": 42244
     },
     {
       "slug": "environmental-chemistry-class-11-revision-notes-neet",
@@ -1649,14 +1701,14 @@
       "slug": "equilibrium-class-11-revision-notes-jee-neet",
       "category": "Revision",
       "classNum": 11,
-      "wordCount": 2352,
+      "wordCount": 2353,
       "h2Count": 17,
       "h3Count": 14,
       "h4Count": 0,
       "formulaCount": 113,
       "mcqCount": 0,
       "bulletCount": 42,
-      "paragraphCount": 5,
+      "paragraphCount": 6,
       "internalLinkCount": 21,
       "externalLinkCount": 0,
       "imageCount": 1,
@@ -1666,7 +1718,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 19747
+      "fileSize": 19730
     },
     {
       "slug": "excretory-products-and-elimination-class-11-revision-notes-neet",
@@ -1680,7 +1732,7 @@
       "mcqCount": 0,
       "bulletCount": 29,
       "paragraphCount": 4,
-      "internalLinkCount": 18,
+      "internalLinkCount": 19,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 0,
@@ -1689,7 +1741,7 @@
       "hasTraps": false,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 12101
+      "fileSize": 12168
     },
     {
       "slug": "federalism-class-11-revision-notes-cbse",
@@ -1703,7 +1755,7 @@
       "mcqCount": 0,
       "bulletCount": 26,
       "paragraphCount": 1,
-      "internalLinkCount": 18,
+      "internalLinkCount": 20,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -1712,7 +1764,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 7342
+      "fileSize": 7473
     },
     {
       "slug": "fundamental-rights-class-11-revision-notes-cbse",
@@ -1749,7 +1801,7 @@
       "mcqCount": 0,
       "bulletCount": 38,
       "paragraphCount": 5,
-      "internalLinkCount": 21,
+      "internalLinkCount": 24,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -1758,7 +1810,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 40158
+      "fileSize": 40359
     },
     {
       "slug": "gravitation-class-11-revision-notes-jee-neet",
@@ -1787,15 +1839,15 @@
       "slug": "haloalkanes-and-haloarenes-class-12-notes",
       "category": "Revision",
       "classNum": 12,
-      "wordCount": 3833,
+      "wordCount": 3834,
       "h2Count": 11,
       "h3Count": 2,
       "h4Count": 0,
       "formulaCount": 357,
       "mcqCount": 5,
       "bulletCount": 38,
-      "paragraphCount": 24,
-      "internalLinkCount": 15,
+      "paragraphCount": 25,
+      "internalLinkCount": 16,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -1804,7 +1856,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 25745
+      "fileSize": 25790
     },
     {
       "slug": "human-health-and-disease-class-12-notes",
@@ -1841,7 +1893,7 @@
       "mcqCount": 5,
       "bulletCount": 65,
       "paragraphCount": 17,
-      "internalLinkCount": 20,
+      "internalLinkCount": 21,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -1850,7 +1902,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 19565
+      "fileSize": 19615
     },
     {
       "slug": "hydrocarbons-class-11-revision-notes-neet",
@@ -1864,7 +1916,7 @@
       "mcqCount": 0,
       "bulletCount": 29,
       "paragraphCount": 1,
-      "internalLinkCount": 16,
+      "internalLinkCount": 17,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 0,
@@ -1873,7 +1925,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 8148
+      "fileSize": 8215
     },
     {
       "slug": "hydrogen-class-11-revision-notes-neet",
@@ -1956,7 +2008,7 @@
       "mcqCount": 0,
       "bulletCount": 58,
       "paragraphCount": 17,
-      "internalLinkCount": 20,
+      "internalLinkCount": 21,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 0,
@@ -1965,7 +2017,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 14023
+      "fileSize": 14072
     },
     {
       "slug": "introduction-to-trigonometry-class-10-notes",
@@ -1979,7 +2031,7 @@
       "mcqCount": 5,
       "bulletCount": 30,
       "paragraphCount": 17,
-      "internalLinkCount": 10,
+      "internalLinkCount": 11,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -1988,7 +2040,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 16855
+      "fileSize": 16908
     },
     {
       "slug": "inverse-trigonometric-functions-class-12-notes",
@@ -2002,7 +2054,7 @@
       "mcqCount": 0,
       "bulletCount": 20,
       "paragraphCount": 1,
-      "internalLinkCount": 17,
+      "internalLinkCount": 18,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -2011,7 +2063,7 @@
       "hasTraps": false,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 6749
+      "fileSize": 6797
     },
     {
       "slug": "jee-advanced-math-difficulty-trends-class-11-revision-notes-jee-neet",
@@ -2071,7 +2123,7 @@
       "mcqCount": 0,
       "bulletCount": 16,
       "paragraphCount": 1,
-      "internalLinkCount": 28,
+      "internalLinkCount": 29,
       "externalLinkCount": 1,
       "imageCount": 1,
       "tableCount": 0,
@@ -2080,7 +2132,7 @@
       "hasTraps": false,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 10992
+      "fileSize": 11056
     },
     {
       "slug": "kinetic-theory-class-11-revision-notes-jee-neet",
@@ -2117,7 +2169,7 @@
       "mcqCount": 0,
       "bulletCount": 29,
       "paragraphCount": 1,
-      "internalLinkCount": 18,
+      "internalLinkCount": 19,
       "externalLinkCount": 1,
       "imageCount": 1,
       "tableCount": 0,
@@ -2126,7 +2178,7 @@
       "hasTraps": false,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 10705
+      "fileSize": 10765
     },
     {
       "slug": "laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet",
@@ -2163,7 +2215,7 @@
       "mcqCount": 5,
       "bulletCount": 31,
       "paragraphCount": 11,
-      "internalLinkCount": 17,
+      "internalLinkCount": 18,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -2172,7 +2224,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 37626
+      "fileSize": 37685
     },
     {
       "slug": "limits-derivatives-class-11-revision-notes-jee-neet",
@@ -2198,6 +2250,29 @@
       "fileSize": 8427
     },
     {
+      "slug": "linear-equations-in-two-variables-class-9-notes",
+      "category": "Exam Notes",
+      "classNum": 9,
+      "wordCount": 1279,
+      "h2Count": 9,
+      "h3Count": 1,
+      "h4Count": 0,
+      "formulaCount": 36,
+      "mcqCount": 5,
+      "bulletCount": 24,
+      "paragraphCount": 10,
+      "internalLinkCount": 7,
+      "externalLinkCount": 0,
+      "imageCount": 0,
+      "tableCount": 1,
+      "codeBlockCount": 0,
+      "avgSectionLength": 142,
+      "hasTraps": true,
+      "hasLast5Min": true,
+      "hasRelated": true,
+      "fileSize": 8076
+    },
+    {
       "slug": "linear-inequalities-class-11-revision-notes-jee-neet",
       "category": "Revision",
       "classNum": 11,
@@ -2209,7 +2284,7 @@
       "mcqCount": 0,
       "bulletCount": 41,
       "paragraphCount": 1,
-      "internalLinkCount": 20,
+      "internalLinkCount": 22,
       "externalLinkCount": 1,
       "imageCount": 1,
       "tableCount": 0,
@@ -2218,21 +2293,21 @@
       "hasTraps": false,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 8798
+      "fileSize": 8934
     },
     {
       "slug": "linear-programming-class-12-notes",
       "category": "Revision",
       "classNum": 12,
-      "wordCount": 3736,
+      "wordCount": 3737,
       "h2Count": 10,
       "h3Count": 1,
       "h4Count": 0,
       "formulaCount": 150,
       "mcqCount": 5,
       "bulletCount": 65,
-      "paragraphCount": 49,
-      "internalLinkCount": 16,
+      "paragraphCount": 50,
+      "internalLinkCount": 17,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -2241,7 +2316,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 23975
+      "fileSize": 24026
     },
     {
       "slug": "local-government-class-11-revision-notes-cbse",
@@ -2278,7 +2353,7 @@
       "mcqCount": 0,
       "bulletCount": 42,
       "paragraphCount": 1,
-      "internalLinkCount": 24,
+      "internalLinkCount": 26,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 0,
@@ -2287,7 +2362,7 @@
       "hasTraps": false,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 11278
+      "fileSize": 11397
     },
     {
       "slug": "magnetic-effects-of-current-class-12-notes",
@@ -2301,7 +2376,7 @@
       "mcqCount": 5,
       "bulletCount": 50,
       "paragraphCount": 6,
-      "internalLinkCount": 28,
+      "internalLinkCount": 31,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -2310,7 +2385,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 39133
+      "fileSize": 39285
     },
     {
       "slug": "magnetism-and-matter-class-12-notes",
@@ -2324,7 +2399,7 @@
       "mcqCount": 5,
       "bulletCount": 52,
       "paragraphCount": 6,
-      "internalLinkCount": 27,
+      "internalLinkCount": 32,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -2333,7 +2408,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 39548
+      "fileSize": 39792
     },
     {
       "slug": "mathematical-induction-class-11-revision-notes-jee-neet",
@@ -2462,7 +2537,7 @@
       "mcqCount": 0,
       "bulletCount": 28,
       "paragraphCount": 1,
-      "internalLinkCount": 16,
+      "internalLinkCount": 18,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -2471,7 +2546,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 7660
+      "fileSize": 7788
     },
     {
       "slug": "medieval-india-delhi-sultanate-class-11-revision-notes-cbse",
@@ -2508,7 +2583,7 @@
       "mcqCount": 0,
       "bulletCount": 31,
       "paragraphCount": 1,
-      "internalLinkCount": 18,
+      "internalLinkCount": 19,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -2517,7 +2592,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 9542
+      "fileSize": 9607
     },
     {
       "slug": "metallurgy-class-12-notes",
@@ -2531,7 +2606,7 @@
       "mcqCount": 0,
       "bulletCount": 64,
       "paragraphCount": 4,
-      "internalLinkCount": 20,
+      "internalLinkCount": 21,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 0,
@@ -2540,7 +2615,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 19246
+      "fileSize": 19295
     },
     {
       "slug": "microbes-in-human-welfare-class-12-notes",
@@ -2577,7 +2652,7 @@
       "mcqCount": 0,
       "bulletCount": 23,
       "paragraphCount": 1,
-      "internalLinkCount": 25,
+      "internalLinkCount": 27,
       "externalLinkCount": 6,
       "imageCount": 1,
       "tableCount": 0,
@@ -2586,7 +2661,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 11554
+      "fileSize": 11668
     },
     {
       "slug": "molecular-basis-of-inheritance-class-12-notes",
@@ -2623,7 +2698,7 @@
       "mcqCount": 0,
       "bulletCount": 23,
       "paragraphCount": 1,
-      "internalLinkCount": 25,
+      "internalLinkCount": 27,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 0,
@@ -2632,7 +2707,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 9768
+      "fileSize": 9905
     },
     {
       "slug": "motion-in-a-plane-class-11-revision-notes-jee-neet",
@@ -2646,7 +2721,7 @@
       "mcqCount": 0,
       "bulletCount": 43,
       "paragraphCount": 1,
-      "internalLinkCount": 15,
+      "internalLinkCount": 17,
       "externalLinkCount": 1,
       "imageCount": 1,
       "tableCount": 0,
@@ -2655,7 +2730,7 @@
       "hasTraps": false,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 10924
+      "fileSize": 11052
     },
     {
       "slug": "motion-in-a-straight-line-class-11-revision-notes-jee-neet",
@@ -2715,7 +2790,7 @@
       "mcqCount": 0,
       "bulletCount": 38,
       "paragraphCount": 1,
-      "internalLinkCount": 22,
+      "internalLinkCount": 24,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 0,
@@ -2724,7 +2799,7 @@
       "hasTraps": false,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 8789
+      "fileSize": 8924
     },
     {
       "slug": "neet-biology-80-20-rule-class-11-revision-notes-neet",
@@ -2738,7 +2813,7 @@
       "mcqCount": 0,
       "bulletCount": 27,
       "paragraphCount": 1,
-      "internalLinkCount": 21,
+      "internalLinkCount": 22,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 0,
@@ -2747,7 +2822,7 @@
       "hasTraps": false,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 8537
+      "fileSize": 8590
     },
     {
       "slug": "neural-control-and-coordination-class-11-revision-notes-neet",
@@ -2761,7 +2836,7 @@
       "mcqCount": 0,
       "bulletCount": 36,
       "paragraphCount": 3,
-      "internalLinkCount": 29,
+      "internalLinkCount": 30,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 0,
@@ -2770,7 +2845,7 @@
       "hasTraps": false,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 12910
+      "fileSize": 12972
     },
     {
       "slug": "nuclei-class-12-notes",
@@ -2796,6 +2871,29 @@
       "fileSize": 12366
     },
     {
+      "slug": "number-systems-class-9-notes",
+      "category": "Exam Notes",
+      "classNum": 9,
+      "wordCount": 1046,
+      "h2Count": 9,
+      "h3Count": 1,
+      "h4Count": 0,
+      "formulaCount": 8,
+      "mcqCount": 5,
+      "bulletCount": 20,
+      "paragraphCount": 13,
+      "internalLinkCount": 6,
+      "externalLinkCount": 0,
+      "imageCount": 0,
+      "tableCount": 1,
+      "codeBlockCount": 0,
+      "avgSectionLength": 116,
+      "hasTraps": true,
+      "hasLast5Min": true,
+      "hasRelated": true,
+      "fileSize": 6780
+    },
+    {
       "slug": "oceanography-class-11-revision-notes-jee-neet",
       "category": "Revision",
       "classNum": 11,
@@ -2807,7 +2905,7 @@
       "mcqCount": 0,
       "bulletCount": 21,
       "paragraphCount": 1,
-      "internalLinkCount": 21,
+      "internalLinkCount": 22,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 0,
@@ -2816,7 +2914,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 11841
+      "fileSize": 11919
     },
     {
       "slug": "operating-systems-class-12-notes",
@@ -2830,7 +2928,7 @@
       "mcqCount": 5,
       "bulletCount": 56,
       "paragraphCount": 13,
-      "internalLinkCount": 7,
+      "internalLinkCount": 10,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -2839,7 +2937,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 17445
+      "fileSize": 17601
     },
     {
       "slug": "organic-chemistry-basic-principles-class-11-revision-notes-jee-neet",
@@ -2899,7 +2997,7 @@
       "mcqCount": 0,
       "bulletCount": 33,
       "paragraphCount": 1,
-      "internalLinkCount": 21,
+      "internalLinkCount": 22,
       "externalLinkCount": 1,
       "imageCount": 1,
       "tableCount": 0,
@@ -2908,7 +3006,7 @@
       "hasTraps": false,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 11355
+      "fileSize": 11423
     },
     {
       "slug": "pair-of-linear-equations-class-10-notes",
@@ -2922,7 +3020,7 @@
       "mcqCount": 5,
       "bulletCount": 28,
       "paragraphCount": 12,
-      "internalLinkCount": 14,
+      "internalLinkCount": 16,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -2931,7 +3029,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 20772
+      "fileSize": 20858
     },
     {
       "slug": "permutations-and-combinations-class-11-revision-notes-jee",
@@ -2945,7 +3043,7 @@
       "mcqCount": 5,
       "bulletCount": 42,
       "paragraphCount": 6,
-      "internalLinkCount": 21,
+      "internalLinkCount": 24,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -2954,7 +3052,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 45514
+      "fileSize": 45713
     },
     {
       "slug": "permutations-combinations-class-11-revision-notes-jee",
@@ -2968,7 +3066,7 @@
       "mcqCount": 0,
       "bulletCount": 40,
       "paragraphCount": 1,
-      "internalLinkCount": 17,
+      "internalLinkCount": 18,
       "externalLinkCount": 1,
       "imageCount": 1,
       "tableCount": 1,
@@ -2977,7 +3075,7 @@
       "hasTraps": false,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 8562
+      "fileSize": 8629
     },
     {
       "slug": "photosynthesis-in-higher-plants-class-11-revision-notes-neet",
@@ -2991,7 +3089,7 @@
       "mcqCount": 0,
       "bulletCount": 21,
       "paragraphCount": 1,
-      "internalLinkCount": 15,
+      "internalLinkCount": 16,
       "externalLinkCount": 3,
       "imageCount": 1,
       "tableCount": 0,
@@ -3000,7 +3098,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 9194
+      "fileSize": 9261
     },
     {
       "slug": "physical-world-class-11-revision-notes-jee-neet",
@@ -3014,7 +3112,7 @@
       "mcqCount": 0,
       "bulletCount": 23,
       "paragraphCount": 1,
-      "internalLinkCount": 16,
+      "internalLinkCount": 18,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 0,
@@ -3023,7 +3121,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 10304
+      "fileSize": 10442
     },
     {
       "slug": "physics-heat-light-class-11-revision-notes-jee-neet",
@@ -3106,7 +3204,7 @@
       "mcqCount": 0,
       "bulletCount": 37,
       "paragraphCount": 1,
-      "internalLinkCount": 24,
+      "internalLinkCount": 26,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 0,
@@ -3115,7 +3213,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 9736
+      "fileSize": 9858
     },
     {
       "slug": "plant-kingdom-class-11-revision-notes-neet",
@@ -3129,7 +3227,7 @@
       "mcqCount": 0,
       "bulletCount": 36,
       "paragraphCount": 1,
-      "internalLinkCount": 22,
+      "internalLinkCount": 24,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 0,
@@ -3138,7 +3236,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 9075
+      "fileSize": 9212
     },
     {
       "slug": "polymers-class-12-notes",
@@ -3175,7 +3273,7 @@
       "mcqCount": 5,
       "bulletCount": 28,
       "paragraphCount": 12,
-      "internalLinkCount": 13,
+      "internalLinkCount": 15,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -3184,7 +3282,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 17338
+      "fileSize": 17431
     },
     {
       "slug": "poverty-unemployment-class-11-revision-notes-jee-neet",
@@ -3221,7 +3319,7 @@
       "mcqCount": 5,
       "bulletCount": 41,
       "paragraphCount": 5,
-      "internalLinkCount": 15,
+      "internalLinkCount": 16,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -3230,13 +3328,13 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 56457
+      "fileSize": 56505
     },
     {
       "slug": "principles-of-inheritance-and-variation-class-12-notes",
       "category": "Revision",
       "classNum": 12,
-      "wordCount": 3378,
+      "wordCount": 3379,
       "h2Count": 10,
       "h3Count": 1,
       "h4Count": 0,
@@ -3244,7 +3342,7 @@
       "mcqCount": 5,
       "bulletCount": 71,
       "paragraphCount": 39,
-      "internalLinkCount": 21,
+      "internalLinkCount": 22,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -3253,7 +3351,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 23800
+      "fileSize": 23856
     },
     {
       "slug": "probability-class-11-revision-notes-jee",
@@ -3290,7 +3388,7 @@
       "mcqCount": 5,
       "bulletCount": 27,
       "paragraphCount": 5,
-      "internalLinkCount": 17,
+      "internalLinkCount": 18,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -3299,7 +3397,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 57385
+      "fileSize": 57445
     },
     {
       "slug": "quadratic-equations-class-10-notes",
@@ -3313,7 +3411,7 @@
       "mcqCount": 5,
       "bulletCount": 29,
       "paragraphCount": 15,
-      "internalLinkCount": 12,
+      "internalLinkCount": 13,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -3322,7 +3420,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 15070
+      "fileSize": 15119
     },
     {
       "slug": "ray-optics-class-12-quick-class-12-revision-notes-jee-neet",
@@ -3336,7 +3434,7 @@
       "mcqCount": 0,
       "bulletCount": 54,
       "paragraphCount": 1,
-      "internalLinkCount": 20,
+      "internalLinkCount": 21,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -3345,7 +3443,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 12726
+      "fileSize": 12794
     },
     {
       "slug": "real-numbers-class-10-notes",
@@ -3404,8 +3502,8 @@
       "formulaCount": 171,
       "mcqCount": 5,
       "bulletCount": 58,
-      "paragraphCount": 5,
-      "internalLinkCount": 19,
+      "paragraphCount": 9,
+      "internalLinkCount": 21,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -3414,7 +3512,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 38586
+      "fileSize": 38735
     },
     {
       "slug": "relations-functions-class-11-revision-notes-jee-neet",
@@ -3451,7 +3549,7 @@
       "mcqCount": 5,
       "bulletCount": 56,
       "paragraphCount": 24,
-      "internalLinkCount": 26,
+      "internalLinkCount": 27,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -3460,7 +3558,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 21457
+      "fileSize": 21521
     },
     {
       "slug": "reproductive-health-class-12-notes",
@@ -3474,7 +3572,7 @@
       "mcqCount": 5,
       "bulletCount": 55,
       "paragraphCount": 17,
-      "internalLinkCount": 14,
+      "internalLinkCount": 15,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -3483,7 +3581,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 18262
+      "fileSize": 18305
     },
     {
       "slug": "respiration-in-plants-class-11-revision-notes-neet",
@@ -3497,7 +3595,7 @@
       "mcqCount": 0,
       "bulletCount": 30,
       "paragraphCount": 1,
-      "internalLinkCount": 19,
+      "internalLinkCount": 22,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 0,
@@ -3506,7 +3604,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 9636
+      "fileSize": 9839
     },
     {
       "slug": "rotational-motion-class-11-revision-notes-jee-neet",
@@ -3520,7 +3618,7 @@
       "mcqCount": 0,
       "bulletCount": 23,
       "paragraphCount": 1,
-      "internalLinkCount": 15,
+      "internalLinkCount": 16,
       "externalLinkCount": 1,
       "imageCount": 1,
       "tableCount": 1,
@@ -3529,7 +3627,7 @@
       "hasTraps": false,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 10675
+      "fileSize": 10743
     },
     {
       "slug": "semiconductor-electronics-class-12-notes",
@@ -3657,7 +3755,7 @@
       "formulaCount": 381,
       "mcqCount": 5,
       "bulletCount": 30,
-      "paragraphCount": 21,
+      "paragraphCount": 23,
       "internalLinkCount": 15,
       "externalLinkCount": 0,
       "imageCount": 1,
@@ -3667,7 +3765,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 26887
+      "fileSize": 26890
     },
     {
       "slug": "some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet",
@@ -3704,7 +3802,7 @@
       "mcqCount": 0,
       "bulletCount": 17,
       "paragraphCount": 1,
-      "internalLinkCount": 23,
+      "internalLinkCount": 24,
       "externalLinkCount": 1,
       "imageCount": 1,
       "tableCount": 1,
@@ -3713,7 +3811,7 @@
       "hasTraps": false,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 15409
+      "fileSize": 15477
     },
     {
       "slug": "states-of-matter-class-11-revision-notes-jee-neet",
@@ -3773,7 +3871,7 @@
       "mcqCount": 0,
       "bulletCount": 38,
       "paragraphCount": 1,
-      "internalLinkCount": 19,
+      "internalLinkCount": 20,
       "externalLinkCount": 1,
       "imageCount": 1,
       "tableCount": 1,
@@ -3782,7 +3880,7 @@
       "hasTraps": false,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 8742
+      "fileSize": 8810
     },
     {
       "slug": "strategies-for-enhancement-in-food-production-class-12-notes",
@@ -3819,7 +3917,7 @@
       "mcqCount": 0,
       "bulletCount": 23,
       "paragraphCount": 1,
-      "internalLinkCount": 15,
+      "internalLinkCount": 16,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 0,
@@ -3828,7 +3926,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 10607
+      "fileSize": 10677
     },
     {
       "slug": "structure-of-atom-class-11-revision-notes-jee-neet",
@@ -3842,7 +3940,7 @@
       "mcqCount": 0,
       "bulletCount": 55,
       "paragraphCount": 5,
-      "internalLinkCount": 19,
+      "internalLinkCount": 20,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -3851,7 +3949,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 19500
+      "fileSize": 19559
     },
     {
       "slug": "structure-of-the-atom-class-11-revision-notes-neet",
@@ -3934,7 +4032,7 @@
       "mcqCount": 0,
       "bulletCount": 50,
       "paragraphCount": 1,
-      "internalLinkCount": 23,
+      "internalLinkCount": 25,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 0,
@@ -3943,7 +4041,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 11798
+      "fileSize": 11927
     },
     {
       "slug": "the-p-block-elements-11-class-11-revision-notes-jee-neet",
@@ -3957,7 +4055,7 @@
       "mcqCount": 0,
       "bulletCount": 34,
       "paragraphCount": 1,
-      "internalLinkCount": 27,
+      "internalLinkCount": 29,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 0,
@@ -3966,7 +4064,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 10868
+      "fileSize": 10993
     },
     {
       "slug": "the-s-block-elements-class-11-revision-notes-jee-neet",
@@ -3980,7 +4078,7 @@
       "mcqCount": 0,
       "bulletCount": 28,
       "paragraphCount": 3,
-      "internalLinkCount": 22,
+      "internalLinkCount": 24,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 0,
@@ -3989,21 +4087,21 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 9889
+      "fileSize": 10017
     },
     {
       "slug": "theory-of-computation-class-12-notes",
       "category": "Revision",
       "classNum": 12,
-      "wordCount": 1449,
+      "wordCount": 1450,
       "h2Count": 9,
       "h3Count": 2,
       "h4Count": 0,
       "formulaCount": 73,
       "mcqCount": 5,
       "bulletCount": 36,
-      "paragraphCount": 13,
-      "internalLinkCount": 7,
+      "paragraphCount": 14,
+      "internalLinkCount": 8,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -4012,7 +4110,7 @@
       "hasTraps": false,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 10071
+      "fileSize": 10142
     },
     {
       "slug": "thermal-properties-of-matter-class-11-revision-notes-jee-neet",
@@ -4118,7 +4216,7 @@
       "mcqCount": 0,
       "bulletCount": 21,
       "paragraphCount": 1,
-      "internalLinkCount": 17,
+      "internalLinkCount": 19,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 0,
@@ -4127,7 +4225,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 10597
+      "fileSize": 10737
     },
     {
       "slug": "triangles-class-10-notes",
@@ -4156,24 +4254,24 @@
       "slug": "trigonometric-functions-class-11-revision-notes-jee-neet",
       "category": "Revision",
       "classNum": 11,
-      "wordCount": 2234,
-      "h2Count": 9,
-      "h3Count": 2,
+      "wordCount": 2466,
+      "h2Count": 30,
+      "h3Count": 33,
       "h4Count": 0,
-      "formulaCount": 98,
-      "mcqCount": 5,
-      "bulletCount": 67,
-      "paragraphCount": 12,
+      "formulaCount": 169,
+      "mcqCount": 0,
+      "bulletCount": 186,
+      "paragraphCount": 11,
       "internalLinkCount": 7,
       "externalLinkCount": 0,
-      "imageCount": 1,
-      "tableCount": 1,
+      "imageCount": 0,
+      "tableCount": 0,
       "codeBlockCount": 0,
-      "avgSectionLength": 224,
-      "hasTraps": true,
-      "hasLast5Min": true,
+      "avgSectionLength": 82,
+      "hasTraps": false,
+      "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 16022
+      "fileSize": 21385
     },
     {
       "slug": "units-and-measurements-class-11-revision-notes-jee-neet",
@@ -4210,7 +4308,7 @@
       "mcqCount": 0,
       "bulletCount": 16,
       "paragraphCount": 1,
-      "internalLinkCount": 22,
+      "internalLinkCount": 24,
       "externalLinkCount": 2,
       "imageCount": 1,
       "tableCount": 0,
@@ -4219,7 +4317,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 11224
+      "fileSize": 11367
     },
     {
       "slug": "upsc-optional-selection-guide",
@@ -4232,8 +4330,8 @@
       "formulaCount": 72,
       "mcqCount": 5,
       "bulletCount": 45,
-      "paragraphCount": 13,
-      "internalLinkCount": 17,
+      "paragraphCount": 14,
+      "internalLinkCount": 18,
       "externalLinkCount": 1,
       "imageCount": 2,
       "tableCount": 1,
@@ -4242,7 +4340,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 21918
+      "fileSize": 21986
     },
     {
       "slug": "vector-algebra-class-12-notes",
@@ -4256,7 +4354,7 @@
       "mcqCount": 5,
       "bulletCount": 62,
       "paragraphCount": 24,
-      "internalLinkCount": 12,
+      "internalLinkCount": 13,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -4265,7 +4363,7 @@
       "hasTraps": true,
       "hasLast5Min": true,
       "hasRelated": true,
-      "fileSize": 21636
+      "fileSize": 21685
     },
     {
       "slug": "wave-optics-class-12-notes",
@@ -4279,7 +4377,7 @@
       "mcqCount": 5,
       "bulletCount": 34,
       "paragraphCount": 6,
-      "internalLinkCount": 23,
+      "internalLinkCount": 24,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -4288,7 +4386,7 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 45562
+      "fileSize": 45630
     },
     {
       "slug": "waves-class-11-revision-notes-neet",
@@ -4302,7 +4400,7 @@
       "mcqCount": 0,
       "bulletCount": 48,
       "paragraphCount": 2,
-      "internalLinkCount": 26,
+      "internalLinkCount": 28,
       "externalLinkCount": 1,
       "imageCount": 1,
       "tableCount": 0,
@@ -4311,7 +4409,7 @@
       "hasTraps": false,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 16837
+      "fileSize": 16972
     },
     {
       "slug": "work-energy-and-power-class-11-revision-notes-neet",
@@ -4340,7 +4438,7 @@
       "slug": "world-history-industrial-revolution-class-11-revision-notes-jee-neet",
       "category": "Revision",
       "classNum": 11,
-      "wordCount": 6911,
+      "wordCount": 6912,
       "h2Count": 33,
       "h3Count": 30,
       "h4Count": 29,
@@ -4348,7 +4446,7 @@
       "mcqCount": 0,
       "bulletCount": 107,
       "paragraphCount": 7,
-      "internalLinkCount": 18,
+      "internalLinkCount": 19,
       "externalLinkCount": 0,
       "imageCount": 1,
       "tableCount": 1,
@@ -4357,13 +4455,11 @@
       "hasTraps": true,
       "hasLast5Min": false,
       "hasRelated": true,
-      "fileSize": 49396
+      "fileSize": 49459
     }
   ],
   "shortBlogs": [
-    "3d-geometry-intro-class-11-revision-notes-jee-neet",
     "ai-study-hack-pomodoro-class-11-revision-notes-neet",
-    "chemistry-in-everyday-life-class-12-notes",
     "climatology-class-11-revision-notes-jee-neet",
     "constitutional-framework-class-11-revision-notes-cbse",
     "federalism-class-11-revision-notes-cbse",
@@ -4388,8 +4484,8 @@
     "structure-of-the-atom-class-11-revision-notes-neet"
   ],
   "recommendations": [
-    "⚠️ 25 blogs are under 1000 words — consider regenerating them.",
+    "⚠️ 23 blogs are under 1000 words — consider regenerating them.",
     "⚠️ 57 blogs missing Trap Questions section.",
-    "⚠️ 111 blogs missing Last 5 Min Box."
+    "⚠️ 109 blogs missing Last 5 Min Box."
   ]
 }
