@@ -105,7 +105,7 @@ By the end of this topic, you'll be well-equipped to tackle the challenges of Re
 
 ## <a id="what-is-a-relation-in-mathematics"></a>What is a Relation in Mathematics?
 
-Relation in Mathematics is a set of ordered pairs of objects, in which some relation holds. It includes the domain, codomain, and the set of ordered pairs. For Class 11 exam prep in 2026, the most important aspect is understanding the difference between various types of relations such as reflexive, symmetric, and transitive relations.
+Relation in Mathematics is a set of ordered pairs of objects, in which some relation holds. It includes the domain, codomain, and the set of ordered pairs. For [class](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) 11 exam prep in 2026, the most important aspect is understanding the difference between various types of relations such as reflexive, symmetric, and transitive relations.
 
  A relation $R$ from a set $A$ to a set $B$ is a subset of the Cartesian product $A 	imes B$. It can be represented as $R = {(a, b) | a in A, b in B}$. The domain of $R$ is the set of all first elements of the ordered pairs in $R$, while the codomain is the set of all second elements. 
 

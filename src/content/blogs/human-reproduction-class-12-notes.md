@@ -37,29 +37,29 @@ practice_link: "/class-11/biology/human-reproduction-class-12-notes"
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Fertility Rate:** $$\frac$\text{Number of Live Births$}$\text{Number of Women of Childbearing Age$} — Measures the number of live births per 1000 women of childbearing age.$$
+- **Fertility Rate:** \frac$\text{Number of Live Births$}$\text{Number of Women of Childbearing Age$} — Measures the number of live births per 1000 women of childbearing age.
 
-- **Birth Rate:** $$\frac$\text{Number of Live Births$}$\text{Total Population$} \times 1000 — Measures the number of live births per 1000 people in the population.$$
+- **Birth Rate:** \frac$\text{Number of Live Births$}$\text{Total Population$} \times 1000 — Measures the number of live births per 1000 people in the population.
 
-- **Death Rate:** $$\frac$\text{Number of Deaths$}$\text{Total Population$} \times 1000 — Measures the number of deaths per 1000 people in the population.$$
+- **Death Rate:** \frac$\text{Number of Deaths$}$\text{Total Population$} \times 1000 — Measures the number of deaths per 1000 people in the population.
 
-- **Population Growth Rate:** $$\frac$\text{Birth Rate$ - \text{Death Rate}}{10} — Measures the rate at which the population is growing or declining.$$
+- **Population Growth Rate:** \frac$\text{Birth Rate$ - \text{Death Rate}}{10} — Measures the rate at which the population is growing or declining.
 
-- **Sex Ratio:** $$\frac$\text{Number of Females$}$\text{Number of Males$} \times 1000 — Measures the number of females per 1000 males in the population.$$
+- **Sex Ratio:** \frac$\text{Number of Females$}$\text{Number of Males$} \times 1000 — Measures the number of females per 1000 males in the population.
 
  - **Menstrual Cycle Length:** 28 \pm 7 \text{ days} — Average length of a menstrual cycle, with a normal range of 21 to 35 days.
 
-- **Fertilization Probability:** $$\frac$\text{Number of Sperm Reaching the Egg$}$\text{Total Number of Sperm Released$} — Measures the likelihood of successful fertilization.$$
+- **Fertilization Probability:** \frac$\text{Number of Sperm Reaching the Egg$}$\text{Total Number of Sperm Released$} — Measures the likelihood of successful fertilization.
 
-- **Embryo Implantation Rate:** $$\frac$\text{Number of Embryos Implanted$}$\text{Number of Embryos Transferred$} \times 100 — Measures the percentage of embryos that successfully implant in the uterus.$$
+- **Embryo Implantation Rate:** \frac$\text{Number of Embryos Implanted$}$\text{Number of Embryos Transferred$} \times 100 — Measures the percentage of embryos that successfully implant in the uterus.
 
-- **Pregnancy Success Rate:** $$\frac$\text{Number of Successful Pregnancies$}$\text{Total Number of Pregnancies$} \times 100 — Measures the percentage of pregnancies that result in a live birth.$$
+- **Pregnancy Success Rate:** \frac$\text{Number of Successful Pregnancies$}$\text{Total Number of Pregnancies$} \times 100 — Measures the percentage of pregnancies that result in a live birth.
 
- - **Gonadal Sex Differentiation:** $$\text{Genetic Sex} \rightarrow \text{Gonadal Sex} \rightarrow \text{Phenotypic Sex} — Describes the process of sex determination and differentiation in humans.$$
+ - **Gonadal Sex Differentiation:** \text{Genetic Sex} \rightarrow \text{Gonadal Sex} \rightarrow \text{Phenotypic Sex} — Describes the process of sex determination and differentiation in humans.
 
-- **Follicular Growth Rate:** $$\frac$\text{Increase in Follicle Size$}$\text{Time$} — Measures the rate at which follicles grow and mature in the ovaries.$$
+- **Follicular Growth Rate:** \frac$\text{Increase in Follicle Size$}$\text{Time$} — Measures the rate at which follicles grow and mature in the ovaries.
 
-- **Spermatogenesis Efficiency:** $$\frac$\text{Number of Mature Sperm$}$\text{Total Number of Sperm Produced$} \times 100 — Measures the percentage of sperm that mature and become functional.$$
+- **Spermatogenesis Efficiency:** \frac$\text{Number of Mature Sperm$}$\text{Total Number of Sperm Produced$} \times 100 — Measures the percentage of sperm that mature and become functional.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -127,9 +127,9 @@ practice_link: "/class-11/biology/human-reproduction-class-12-notes"
 
  - Therefore, the fertile window would be from day 9 to day 14.
 
- - The probability of conception can be calculated using the following formula: $P(conception) = $$\frac{number\:of\:days\:of\:unprotected\:intercourse\:during\:fertile\:window}{total\:number\:of\:days\:in\:cycle}$$$
+ - The probability of conception can be calculated using the following formula: $P(conception) = \frac{number\:of\:days\:of\:unprotected\:intercourse\:during\:fertile\:window}{total\:number\:of\:days\:in\:cycle}$
 
- - In this case, $P(conception) = $$\frac{5}{28}$$$
+ - In this case, $P(conception) = \frac{5}{28}$
 
  - **Answer:** She should have unprotected intercourse from day 9 to day 14 of her cycle.
 
@@ -143,7 +143,7 @@ practice_link: "/class-11/biology/human-reproduction-class-12-notes"
 
  - Its primary role is to maintain the corpus luteum, which is responsible for producing progesterone, during the first trimester of pregnancy.
 
- - $hCG$ can be represented by the following formula: hCG = $$\frac{\beta-hCG}{\alpha-hCG}$$
+ - $hCG$ can be represented by the following formula: hCG = \frac{\beta-hCG}{\alpha-hCG}
 
  - Where $\beta-hCG$ and $\alpha-hCG$ are the beta and alpha subunits of hCG respectively.
 
@@ -192,13 +192,13 @@ practice_link: "/class-11/biology/human-reproduction-class-12-notes"
 
 - $F_{1}$ = $\frac{1}{4} \	imes (\	ext{Number of parental gene combinations})$ for a monohybrid cross.
 
- - $q = $$\frac{\	ext{Number of recessive alleles}}{\	ext{Total number of alleles}}$ for calculating allele frequency.$$
+ - $q = \frac{\	ext{Number of recessive alleles}}{\	ext{Total number of alleles}}$ for calculating allele frequency.
 
- - $p = $$\frac{\	ext{Number of dominant alleles}}{\	ext{Total number of alleles}}$ for calculating allele frequency.$$
+ - $p = \frac{\	ext{Number of dominant alleles}}{\	ext{Total number of alleles}}$ for calculating allele frequency.
 
  - $H = 1 - (p^2 + q^2)$ for calculating the frequency of heterozygotes in a population.
 
- - $\Delta p = $$\frac{pQ - pq}{p + q}$ for calculating the change in allele frequency.$$
+ - $\Delta p = \frac{pQ - pq}{p + q}$ for calculating the change in allele frequency.
 
  - Human [reproduction](/blog/reproduction-in-organisms-class-12-notes) involves the fusion of a sperm and an egg, resulting in a zygote with a unique combination of genetic traits.
 

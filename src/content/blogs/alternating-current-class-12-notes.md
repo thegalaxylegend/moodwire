@@ -97,7 +97,7 @@ To summarize, Alternating Current is a crucial topic in [class](/blog/algorithms
 
 Alternating Current (AC) is a type of electric current that periodically reverses direction, flowing back and forth in a circuit. It includes the source, the load, and the transmission lines. For [class](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) 12 exam prep in 2026, the most important aspect is understanding the principles of AC circuits, including the concepts of impedance, reactance, and phase shift. 
 
-The key characteristic of AC is that the voltage and current change polarity over time, creating a sinusoidal waveform. This is in contrast to Direct Current (DC), where the voltage and current remain constant. AC is used in households and industries because it can be easily transformed to higher or lower voltages using transformers, making it more efficient for long-distance transmission.
+The key characteristic of AC is that the voltage and [current](/blog/magnetic-effects-of-current-class-12-notes) change polarity over time, creating a sinusoidal waveform. This is in contrast to Direct [current](/blog/magnetic-effects-of-current-class-12-notes) (DC), where the voltage and [current](/blog/magnetic-effects-of-current-class-12-notes) remain constant. AC is used in households and industries because it can be easily transformed to higher or lower voltages using transformers, making it more efficient for long-distance transmission.
 
 To understand AC, it's crucial to grasp the concept of **root mean square (RMS) value**, which is a statistical measure of the magnitude of a varying quantity. The RMS value of an AC waveform is the square root of the mean value of the square of the current or voltage over one cycle. This is important because the RMS value is used to calculate the power consumed by a load in an AC circuit.
 
@@ -119,7 +119,7 @@ The following table compares the key characteristics of AC and DC:
 
 ## <a id="what-are-the-advantages-of-alternating-current-over-direct-current"></a>What are the advantages of Alternating Current over Direct Current?
 
-What are the advantages of Alternating Current over Direct Current? is the comparison of two types of electric current. It includes the principles of direct current (DC), alternating current (AC), and the transformers used in AC systems. For Class 12 exam prep in 2026, the most important aspect is understanding how AC surpasses DC in terms of efficiency, cost, and scalability for widespread electricity distribution.
+What are the advantages of Alternating Current over Direct Current? is the comparison of two types of electric current. It includes the principles of direct current (DC), alternating current (AC), and the transformers used in AC systems. For [class](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) 12 exam prep in 2026, the most important aspect is understanding how AC surpasses DC in terms of efficiency, cost, and scalability for widespread electricity distribution.
 
  The primary advantage of AC over DC is its ability to be transformed to high voltages, which reduces energy loss during transmission. This is because the resistance in the wires used for transmission is constant, so when the voltage is increased (using a step-up transformer), the current decreases, thus reducing the $I^2R$ loss. On the other hand, DC cannot be easily transformed to high voltages due to the absence of a DC transformer equivalent to the AC transformer.
 
@@ -158,28 +158,28 @@ To better understand the behavior of AC circuits, it's helpful to compare the ch
 | --- | --- | --- | --- | --- |
 | Resistor | In phase with current | In phase with voltage | Zero | $R$ |
 | Inductor | Leads current by $90^circ$ | Lags voltage by $90^circ$ | $X_L = 2pi fL$ | $Z = sqrt{R^2 + X_L^2}$ |
-| Capacitor | Lags current by $90^circ$ | Leads voltage by $90^circ$ | $X_C = $$\frac{1}{2pi fC}$ | $Z = sqrt{R^2 + X_C^2}$ |$$
+| Capacitor | Lags current by $90^circ$ | Leads voltage by $90^circ$ | $X_C = \frac{1}{2pi fC}$ | $Z = sqrt{R^2 + X_C^2}$ |
 
 
 ## <a id="what-is-the-difference-between-peak-and-root-mean-square-values-in-alternating-current"></a>What is the difference between Peak and Root Mean Square values in Alternating Current?
 
 Alternating Current (AC) is a type of electric current that periodically reverses direction, including amplitude, frequency, and phase shift. It includes peak value, root mean square (RMS) value, and waveform. For Class 12 exam prep in 2026, the most important aspect is understanding how peak and RMS values relate to the effective power delivered by an AC circuit.
 
-The peak value, also known as the maximum value or amplitude, is the highest value that the AC reaches during its cycle. It's represented by the symbol $V_p$ or $I_p$ for voltage and current, respectively. On the other hand, the RMS value, also known as the effective value, is a measure of the AC's ability to deliver power to a resistive load. It's calculated using the formula $V_{rms} = $$\frac{V_p}{sqrt{2}}$ for a sinusoidal waveform.$$
+The peak value, also known as the maximum value or amplitude, is the highest value that the AC reaches during its cycle. It's represented by the symbol $V_p$ or $I_p$ for voltage and current, respectively. On the other hand, the RMS value, also known as the effective value, is a measure of the AC's ability to deliver power to a resistive load. It's calculated using the formula $V_{rms} = \frac{V_p}{sqrt{2}}$ for a sinusoidal waveform.
 
 To understand the difference between peak and RMS values, it's essential to consider the concept of power delivery. When an AC circuit has a resistive load, such as a light bulb, the power delivered to the load is determined by the RMS value of the current, not the peak value. This is because the power dissipated by the load is proportional to the square of the current. As a result, the RMS value provides a more accurate representation of the AC's ability to deliver power.
 
 Here's a comparison of peak and RMS values:
 The relationship between peak and RMS values can be summarized as follows:
 - Peak value: The maximum value of the AC waveform, represented by $V_p$ or $I_p$.
-- RMS value: A measure of the AC's ability to deliver power, calculated using $V_{rms} = $$\frac{V_p}{sqrt{2}}$ for a sinusoidal waveform.$$
+- RMS value: A measure of the AC's ability to deliver power, calculated using $V_{rms} = \frac{V_p}{sqrt{2}}$ for a sinusoidal waveform.
 
 A key concept to remember is that the RMS value is always lower than the peak value. This is because the RMS value represents the effective value of the AC, taking into account the time-varying nature of the waveform.
 
 For students preparing for the Class 12 exam, it's crucial to understand the distinction between peak and RMS values. A helpful tip is to remember that the RMS value is used to calculate the power delivered to a load, whereas the peak value is used to determine the maximum stress on the circuit components.
 
 In terms of formulas, the following are essential:
-- $V_{rms} = $$\frac{V_p}{sqrt{2}}$ for a sinusoidal waveform$$
+- $V_{rms} = \frac{V_p}{sqrt{2}}$ for a sinusoidal waveform
 - $P = V_{rms} 	imes I_{rms}$ for the power delivered to a resistive load
 
 By grasping the difference between peak and RMS values, students can better understand how AC circuits operate and how to calculate the power delivered to a load.
@@ -191,7 +191,7 @@ Key Takeaway: The peak value represents the maximum amplitude of the AC waveform
 | --- | --- | --- |
 | Definition | Maximum value of the AC waveform | Measure of the AC's ability to deliver power |
 | Symbol | $V_p$ or $I_p$ | $V_{rms}$ or $I_{rms}$ |
-| Formula | N/A | $V_{rms} = $$\frac{V_p}{sqrt{2}}$ for a sinusoidal waveform |$$
+| Formula | N/A | $V_{rms} = \frac{V_p}{sqrt{2}}$ for a sinusoidal waveform |
 | Usage | Determining the maximum stress on circuit components | Calculating the power delivered to a resistive load |
 
 
@@ -250,9 +250,9 @@ Ayush's Note on Alternating Current is a concise yet detailed study guide that f
 
 Calculating the Impedance of an Alternating Current circuit is determining the total opposition that an AC circuit presents to the flow of an alternating current. It includes resistance, inductive reactance, and capacitive reactance. For Class 12 exam prep in 2026, the most important aspect is understanding how these components interact to calculate the total impedance in various types of circuits. 
 
-To calculate impedance, we use the formula $Z = sqrt{R^2 + (X_L - X_C)^2}$, where $Z$ is the impedance, $R$ is the resistance, $X_L$ is the inductive reactance, and $X_C$ is the capacitive reactance. The inductive reactance is given by $X_L = 2pi fL$, where $f$ is the frequency and $L$ is the inductance. The capacitive reactance is given by $X_C = $$\frac{1}{2pi fC}$, where $C$ is the capacitance.$$
+To calculate impedance, we use the formula $Z = sqrt{R^2 + (X_L - X_C)^2}$, where $Z$ is the impedance, $R$ is the resistance, $X_L$ is the inductive reactance, and $X_C$ is the capacitive reactance. The inductive reactance is given by $X_L = 2pi fL$, where $f$ is the frequency and $L$ is the inductance. The capacitive reactance is given by $X_C = \frac{1}{2pi fC}$, where $C$ is the capacitance.
 
-In a series RLC circuit, the impedance is calculated using the formula $Z = sqrt{R^2 + (X_L - X_C)^2}$. In a parallel RLC circuit, the impedance is calculated using the formula $Z = $$\frac{1}{sqrt$\frac{1${R^2} + (\frac{1}{X_L} - \frac{1}{X_C})^2}}$.$$
+In a series RLC circuit, the impedance is calculated using the formula $Z = sqrt{R^2 + (X_L - X_C)^2}$. In a parallel RLC circuit, the impedance is calculated using the formula $Z = \frac{1}{sqrt$\frac{1${R^2} + (\frac{1}{X_L} - \frac{1}{X_C})^2}}$.
 
 Here's a comparison table for series and parallel RLC circuits:
 
@@ -260,7 +260,7 @@ Here's a comparison table for series and parallel RLC circuits:
 | Circuit Type | Impedance Formula | Description |
 | --- | --- | --- |
 | Series RLC | $Z = sqrt{R^2 + (X_L - X_C)^2}$ | The impedance is the square root of the sum of the squares of the resistance and the difference between the inductive and capacitive reactances. |
-| Parallel RLC | $Z = $$\frac{1}{sqrt$\frac{1${R^2} + (\frac{1}{X_L} - \frac{1}{X_C})^2}}$ | The impedance is the reciprocal of the square root of the sum of the reciprocals of the squares of the resistance and the difference between the reciprocals of the inductive and capacitive reactances. |$$
+| Parallel RLC | $Z = \frac{1}{sqrt$\frac{1${R^2} + (\frac{1}{X_L} - \frac{1}{X_C})^2}}$ | The impedance is the reciprocal of the square root of the sum of the reciprocals of the squares of the resistance and the difference between the reciprocals of the inductive and capacitive reactances. |
 
 
 ## <a id="what-are-the-different-types-of-alternating-current-circuits"></a>What are the different types of Alternating Current circuits?
@@ -278,14 +278,14 @@ Alternating Current (AC) circuits are circuits where the current periodically re
 
 ## <a id="what-is-the-key-shortcut-or-trick-for-alternating-current"></a>What is the key Shortcut or Trick for Alternating Current?
 
-Alternating Current (AC) is a type of electric current that periodically reverses direction. It includes the root mean square (RMS) value, peak value, and phase difference. For Class 12 exam prep in 2026, the most important aspect is understanding the relationship between these components to solve problems efficiently. The key shortcut for AC involves remembering the formulas for RMS and peak values, as well as the phase difference between voltage and current in different types of circuits. One crucial formula to remember is $V_{rms} = $$\frac{V_0}{sqrt{2}}$, where $V_{rms}$ is the RMS value and $V_0$ is the peak value. Similarly, for current, $I_{rms} = \frac{I_0}{sqrt{2}}$. These formulas are essential for calculating power in AC circuits, which is given by $P = V_{rms}I_{rms}cosphi$, where $phi$ is the phase difference between voltage and current. In inductive circuits, the current lags behind the voltage, while in capacitive circuits, the current leads the voltage. A key trick to remember is that in a series RLC circuit, the resonance occurs when the inductive reactance equals the capacitive reactance, i.e., $X_L = X_C$. This results in the total reactance being zero, and the current being in phase with the voltage. To solve problems involving AC, it's helpful to first identify the type of circuit and then apply the relevant formulas. For example, in a series RLC circuit, one should calculate the impedance using $Z = sqrt{R^2 + (X_L - X_C)^2}$ and then find the current and power. A student-centric tip is to practice solving problems involving different types of AC circuits, focusing on applying the formulas correctly and checking the units of the quantities involved. This will help in developing a strong understanding of the concepts and improving problem-solving skills. By mastering these shortcuts and tricks, students can efficiently solve problems related to alternating current and perform well in their Class 12 exams.$$
+Alternating Current (AC) is a type of electric current that periodically reverses direction. It includes the root mean square (RMS) value, peak value, and phase difference. For Class 12 exam prep in 2026, the most important aspect is understanding the relationship between these components to solve problems efficiently. The key shortcut for AC involves remembering the formulas for RMS and peak values, as well as the phase difference between voltage and current in different types of circuits. One crucial formula to remember is $V_{rms} = \frac{V_0}{sqrt{2}}$, where $V_{rms}$ is the RMS value and $V_0$ is the peak value. Similarly, for current, $I_{rms} = \frac{I_0}{sqrt{2}}$. These formulas are essential for calculating power in AC circuits, which is given by $P = V_{rms}I_{rms}cosphi$, where $phi$ is the phase difference between voltage and current. In inductive circuits, the current lags behind the voltage, while in capacitive circuits, the current leads the voltage. A key trick to remember is that in a series RLC circuit, the resonance occurs when the inductive reactance equals the capacitive reactance, i.e., $X_L = X_C$. This results in the total reactance being zero, and the current being in phase with the voltage. To solve problems involving AC, it's helpful to first identify the type of circuit and then apply the relevant formulas. For example, in a series RLC circuit, one should calculate the impedance using $Z = sqrt{R^2 + (X_L - X_C)^2}$ and then find the current and power. A student-centric tip is to practice solving problems involving different types of AC circuits, focusing on applying the formulas correctly and checking the units of the quantities involved. This will help in developing a strong understanding of the concepts and improving problem-solving skills. By mastering these shortcuts and tricks, students can efficiently solve problems related to alternating current and perform well in their Class 12 exams.
 
 
 | Circuit Type | Voltage and Current Relationship | Relevant Formulas |
 | --- | --- | --- |
 | Resistive | In phase | $P = V_{rms}I_{rms}$ |
 | Inductive | Current lags voltage | $X_L = omega L$, $P = V_{rms}I_{rms}cosphi$ |
-| Capacitive | Current leads voltage | $X_C = $$\frac{1}{omega C}$, $P = V_{rms}I_{rms}cosphi$ |$$
+| Capacitive | Current leads voltage | $X_C = \frac{1}{omega C}$, $P = V_{rms}I_{rms}cosphi$ |
 | Series RLC | Depends on the circuit | $Z = sqrt{R^2 + (X_L - X_C)^2}$, $P = V_{rms}I_{rms}cosphi$ |
 
 

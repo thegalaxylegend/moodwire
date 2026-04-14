@@ -72,7 +72,7 @@ Several formulae and equations are relevant to the study of locomotion and movem
 * **Power (P) = Work (W) / Time (t)**: This equation describes the relationship between power, work, and time.
 
 
-F = maW = FdP = $$\frac{W}{t}$$
+F = maW = FdP = \frac{W}{t}
 
 
 
@@ -129,7 +129,7 @@ To prepare for JEE/[neet](/blog/animal-kingdom-class-11-revision-notes-neet) exa
 * Use online resources and study materials to supplement your learning.
 * Join a coaching institute or study group to get guidance and support from experienced teachers and peers.
 
-By following these tips and practicing regularly, you can improve your understanding of locomotion and movement and perform well in JEE/NEET exams. 
+By following these tips and practicing regularly, you can improve your understanding of locomotion and movement and perform well in JEE/[neet](/blog/biological-classification-class-11-revision-notes-neet) exams. 
 
 The study of locomotion and movement is a fascinating and complex topic that requires a deep understanding of [biological](/blog/biological-classification-class-11-revision-notes-neet) principles and concepts. By topic, you can gain a better appreciation for the intricate mechanisms that govern life and movement in living organisms. As you continue to explore this topic, remember to stay focused, persistent, and curious, and you will be well on your way to achieving success in your academic and professional pursuits.
 

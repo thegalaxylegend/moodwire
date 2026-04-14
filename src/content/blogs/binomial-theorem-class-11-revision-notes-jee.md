@@ -231,7 +231,7 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 
 * In the expansion of $(a + b)^no, a common mistake is to assume that the coefficients of the terms are symmetric, i.e., AT_{r+1} = T_n - T_{n-r}$. However, the correct relationship is AT_{r+1} = ^NC_r dot a^{n-r} dot b^RJ.
 * Students often forget that the binomial theorem is applicable for any real number 'n', not just positive integers. The expansion of $(a + b)^now is valid for all real values of 'n'.
-* A common error is to assume that the binomial theorem can only be applied when 'a' and 'b' are integers. However, 'a' and 'b' can be any real numbers, including fractions and decimals.
+* A common error is to assume that the binomial theorem can only be applied when 'a' and 'b' are integers. However, 'a' and 'b' can be any real [numbers](/blog/complex-numbers-class-11-revision-notes-jee-neet), including fractions and decimals.
 * Many students mistakenly believe that the binomial coefficients $^NC_RJ are always integers. However, this is not true for all values of 'n' and 'r'. For example, $^NC_RJ can be a fraction when 'n' is not an integer.
 * Another trap is to forget that the binomial theorem can be used to find the expansion of expressions like $(a - b)^no by substituting $-by for by in the original expansion formula, i.e., $(a - b)^n = (a + (-b))^no.
 

@@ -71,7 +71,7 @@ This chapter is essential for students preparing for the Class 11 biology exam, 
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div class="callout-box">
+<div [class](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)="callout-box">
 I still remember the mistake I made in my [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) 11 biology exam. I confused the terms "growth" and "development" and ended up losing marks. However, I learned from my mistake and made sure to understand the difference between the two. Growth refers to the increase in size, while development refers to the process of maturation. For example, a seedling grows into a plant, but it develops into a mature plant with flowers and fruits. I hope this helps you avoid the same mistake!
 </div>
 

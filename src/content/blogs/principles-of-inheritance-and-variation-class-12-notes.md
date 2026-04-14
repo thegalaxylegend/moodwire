@@ -39,9 +39,9 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Mendel's Law of Segregation:** $$\frac{1}{2} of the gametes will have one allele and the other \frac{1}{2} will have the other allele — where the alleles are different versions of a gene.$$
+- **Mendel's Law of Segregation:** \frac{1}{2} of the gametes will have one allele and the other \frac{1}{2} will have the other allele — where the alleles are different versions of a gene.
 
-- **Mendel's Law of Independent Assortment:** $$\frac{1}{4} of the offspring will have one combination of alleles, \frac{1}{2} will have another combination, and \frac{1}{4} will have the last combination — assuming two genes are unlinked.$$
+- **Mendel's Law of Independent Assortment:** \frac{1}{4} of the offspring will have one combination of alleles, \frac{1}{2} will have another combination, and \frac{1}{4} will have the last combination — assuming two genes are unlinked.
 
 - **Hardy-Weinberg Principle:** p^2 + 2pq + q^2 = 1 — where $p$ and $q$ are the frequencies of the two alleles, and $p^2$ and $q^2$ are the frequencies of the two homozygous genotypes, and $2pq$ is the frequency of the heterozygous genotype. 
 
@@ -53,7 +53,7 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 
 - **Phenotypic Ratio (Dihybrid Cross):** 9:3:3:1 — where 9 is the number of offspring expressing both dominant traits, 3 is the number of offspring expressing one dominant and one recessive trait, 3 is the number of offspring expressing the other combination of one dominant and one recessive trait, and 1 is the number of offspring expressing both recessive traits. 
 
-- **Punnett Square Probability:** $$\frac{Number\ of\ favorable\ outcomes}{Total\ number\ of\ possible\ outcomes} — where the favorable outcomes are the ones with the desired genotype or phenotype.$$
+- **Punnett Square Probability:** \frac{Number\ of\ favorable\ outcomes}{Total\ number\ of\ possible\ outcomes} — where the favorable outcomes are the ones with the desired genotype or phenotype.
 
 - **Chi-Squared Test for Genetic Data:** \chi^2 = \sum \frac{(Observed - Expected)^2}{Expected} — where the observed values are the actual numbers of each phenotype or genotype, and the expected values are the numbers predicted by the null hypothesis.
 
@@ -105,17 +105,17 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 
  Let's denote the probability of having a boy as $P(B)$ and the probability of having a girl as $P(G)$. Since each child can be either a boy or a girl, we have $P(B) = P(G) = 0.5$. 
 
- P($$\text{at least one boy}) = P(BB) + P(BG) + P(GB) = 0.5 \times 0.5 + 0.5 \times 0.5 + 0.5 \times 0.5 = 0.75$$
+ P(\text{at least one boy}) = P(BB) + P(BG) + P(GB) = 0.5 \times 0.5 + 0.5 \times 0.5 + 0.5 \times 0.5 = 0.75
 
  The sample space for having at least one boy when two children are born is $\{(B,B), (B,G), (G,B)\}$. 
 
  The probability of having a girl given that at least one of the children is a boy can be found using the formula:
 
-P(G|B) = $$\frac{P(G \cap B)}{P(B)}$$
+P(G|B) = \frac{P(G \cap B)}{P(B)}
 
  Here, $P(G \cap B)$ is the probability of having at least one girl and one boy, which is $P(BG) + P(GB) = 0.5 \times 0.5 + 0.5 \times 0.5 = 0.5$.
 
-P(G|B) = $$\frac{0.5}{0.75} = \frac{2}{3}$$
+P(G|B) = \frac{0.5}{0.75} = \frac{2}{3}
 
  - **Answer:** $\frac{2}{3}$
 
@@ -129,7 +129,7 @@ P(G|B) = $$\frac{0.5}{0.75} = \frac{2}{3}$$
 
  Using the Punnett square method, we can find the genotypic ratio of the offspring:
 
-$$\begin{array}{c|c|c}$$
+\begin{array}{c|c|c}
 
  & R & r \hline
 
@@ -137,7 +137,7 @@ $$\begin{array}{c|c|c}$$
 
  r & Rr & rr
 
- $$\end{array}$$
+ \end{array}
 
 The genotypic ratio is $1RR : 2Rr : 1rr$. Since the ‘R’ allele is dominant, both $RR$ and $Rr$ will have red seeds. Only $rr$ will have green seeds. 
 
@@ -199,9 +199,9 @@ The genotypic ratio is $1RR : 2Rr : 1rr$. Since the ‘R’ allele is dominant, 
 | --- | --- | --- |
 | Hardy-Weinberg principle | Describes how allele and genotype frequencies in a population will remain constant from generation to generation in the absence of other evolutionary influences | p^2 + 2pq + q^2 = 1 |
 
-| Incomplete dominance | Results in a blend of the two parental phenotypes | $$\frac{A}{a} \times \frac{A}{a} |$$
+| Incomplete dominance | Results in a blend of the two parental phenotypes | \frac{A}{a} \times \frac{A}{a} |
 
-| Co-dominance | Results in a combination of the two parental phenotypes | $$\frac{R}{r} \times \frac{R}{r} |$$
+| Co-dominance | Results in a combination of the two parental phenotypes | \frac{R}{r} \times \frac{R}{r} |
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
@@ -210,21 +210,21 @@ The genotypic ratio is $1RR : 2Rr : 1rr$. Since the ‘R’ allele is dominant, 
 | Concept | Formula | Description |
 | --- | --- | --- |
 
-| Law of Segregation | $$\frac{A}{a} \times \frac{A}{a} = \frac{3}{4} AA + \frac{1}{4} aa | Each pair of alleles separates from each other during gamete formation. |$$
+| Law of Segregation | \frac{A}{a} \times \frac{A}{a} = \frac{3}{4} AA + \frac{1}{4} aa | Each pair of alleles separates from each other during gamete formation. |
 
-| Law of Independent Assortment | $$\frac{AB}{ab} \times \frac{AB}{ab} = \frac{9}{16} AABB + \frac{3}{16} AAbb + \frac{3}{16} aaBB + \frac{1}{16} aabb | Alleles for different genes are sorted independently of each other during gamete formation. |$$
+| Law of Independent Assortment | \frac{AB}{ab} \times \frac{AB}{ab} = \frac{9}{16} AABB + \frac{3}{16} AAbb + \frac{3}{16} aaBB + \frac{1}{16} aabb | Alleles for different genes are sorted independently of each other during gamete formation. |
 
-| χ^2 Test | χ^2 = \sum $$\frac{(observed - expected)^2}{expected} | Used to determine how well observed data fit expected distributions. |$$
+| χ^2 Test | χ^2 = \sum \frac{(observed - expected)^2}{expected} | Used to determine how well observed data fit expected distributions. |
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- p \times q = $$\frac{1}{4} : Probability of a genotype in a monohybrid cross.$$
+- p \times q = \frac{1}{4} : Probability of a genotype in a monohybrid cross.
 
-- 2pq = $$\frac{1}{2} : Probability of a genotype in a monohybrid cross.$$
+- 2pq = \frac{1}{2} : Probability of a genotype in a monohybrid cross.
 
  - q^2 + p^2 + 2pq = 1 : Hardy-Weinberg principle for a monohybrid cross.
 
-- \Delta p = $$\frac{p(q - p)}{p + q} : Change in allele frequency.$$
+- \Delta p = \frac{p(q - p)}{p + q} : Change in allele frequency.
 
  - H = 1 - \sum p^2 : Expected heterozygosity.
 

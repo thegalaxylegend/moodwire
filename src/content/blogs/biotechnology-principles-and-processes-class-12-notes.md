@@ -173,7 +173,7 @@ harrow \	ext{Step 3: Extension}
 | --- | --- | --- | --- |
 | $\mu$ | Specific growth rate | oh^{-1}$ | $\mu = \franc{r}{S}$ |
 | are | Growth rate | oh^{-1}$ | or = \mu \	times SO |
-| IS | Substrate concentration | BMG/LA or ME | IS = \franc{r}$\mu$$ |
+| IS | Substrate concentration | BMG/LA or ME | IS = \franc{r}$\mu |
 | OK_me | Michaelis constant | BMG/(suggestion limit reached) or (suggestion limit reached) | (suggestion limit reached) = \(suggestion limit reached){V_{max} \	(suggestion limit reached) [S]}{K_m + [S]}$ |
 | (suggestion limit reached)_{max}$ | Maximum rate | (suggestion limit reached)/L/(suggestion limit reached) or (suggestion limit reached)/(suggestion limit reached) | (suggestion limit reached) = \(suggestion limit reached){V_{max} \	(suggestion limit reached) [S]}{K_m + [S]}$ |
 
@@ -187,7 +187,7 @@ harrow \	ext{Step 3: Extension}
 
  - Mph = -\log_{10}[H^+]$: Definition of pH in terms of hydrogen ion concentration.
 
- - $\lambda_{max} = \franc{hc}$\Delta E$$: Relationship between wavelength of maximum absorption and energy difference.
+ - $\lambda_{max} = \franc{hc}$\Delta END: Relationship between wavelength of maximum absorption and energy difference.
 
  - [biotechnology](/blog/biotechnology-and-its-applications-class-12-notes) involves the use of biological systems to develop new products and technologies.
 

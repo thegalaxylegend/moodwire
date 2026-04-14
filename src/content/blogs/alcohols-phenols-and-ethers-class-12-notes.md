@@ -25,7 +25,7 @@ practice_link: "/class-11/chemistry/alcohols-phenols-and-ethers-class-12-notes"
 
 
 
-<DIV class="quick-summary">
+<DIV [class](/blog/amines-class-12-notes)="quick-summary">
 
 #- [📋 Table of Contents](#-table-of-contents)
 

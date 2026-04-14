@@ -131,7 +131,7 @@ If the origin (0, 0) is shifted to a new point (h, k) without changing the direc
 
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
-**Q1: Find the equation of the line passing through (2, 3) and parallel to the line 3x - 4y + 5 = 0.**
+**Q1: Find the equation of the [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) passing through (2, 3) and parallel to the [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) 3x - 4y + 5 = 0.**
 **Answer:**
 - Slope of given line = -A/B = -3/(-4) = 3/4.
 - Since lines are parallel, slope of new line = 3/4.

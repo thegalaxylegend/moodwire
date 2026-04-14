@@ -98,7 +98,7 @@ Biology constitutes 50% of the [neet](/blog/jee-mains-high-weightage-chapters-cl
 ### <a id="highyield-zoology"></a>High-Yield Zoology:
 - **Human Reproduction and Reproductive Health:** [high](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) weightage and straightforward if NCERT is memorized.
 - **Human Physiology:** Digestion, Breathing, Circulation, Excretion, and Neural Control. Expect 12-14 questions.
-- **Biotechnology:** 6-8 questions. Extremely high ROI. Master PCR, restriction enzymes, and applications.
+- **Biotechnology:** 6-8 questions. Extremely [high](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) ROI. Master PCR, restriction enzymes, and applications.
 - **Structural Organization in Animals:** Focus on epithelial tissues and the cockroach/frog morphology depending on the updated syllabus.
 
 
@@ -139,7 +139,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/states-of-matter-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Equilibrium Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/equilibrium-class-11-revision-notes-jee-neet)
 - 📖 [States Of Matter Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/states-of-matter-class-11-revision-notes-jee-neet)

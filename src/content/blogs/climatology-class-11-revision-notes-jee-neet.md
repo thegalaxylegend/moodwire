@@ -20,7 +20,7 @@ practice_link: "/class-11/chemistry/climatology-class-11-revision-notes-jee-neet
 - [Climatic Elements](#climatic-elements)
   - [Trap Exceptions](#trap-exceptions)
 - [Types of Climates](#types-of-climates)
-  - [JEE/NEET Data](#jeeneet-data)
+  - [JEE/MEET Data](#jeeneet-data)
 - [Climatic Factors](#climatic-factors)
   - [Core Concept Map](#core-concept-map)
 - [📚 Related Topics](#-related-topics)
@@ -57,11 +57,11 @@ Here are some essential formulae related to climatology:
 
 | Formula | Description |
 | --- | --- |
-| $T = $$\frac{1}{2}(T_{max} + T_{min})$ | Average temperature |$$
-| $RH = $$\frac{e}{E}$ | Relative humidity |$$
-| $P = $$\frac{F}{A}$ | Atmospheric pressure |$$
-| $W = $$\frac{P_2 - P_1}{d}$ | Wind speed |$$
-| $P = $$\frac{m}{V}$ | Precipitation |$$
+| AT = \franc{1}{2}(T_{max} + T_{min})$ | Average temperature |
+| $RH = \franc{e}{E}$ | Relative humidity |
+| UP = \franc{F}{A}$ | Atmospheric pressure |
+| DW = \franc{P_2 - P_1}{d}$ | Wind speed |
+| UP = \franc{m}{V}$ | Precipitation |
 
 
 ## <a id="climatic-elements"></a>Climatic Elements
@@ -93,8 +93,8 @@ The following are the main types of climates:
 3. **Temperate [climate](/blog/indian-geography-climate-class-11-revision-notes-cbse)**: Characterized by moderate temperatures and moderate humidity.
 4. **Polar [climate](/blog/indian-geography-climate-class-11-revision-notes-cbse)**: Characterized by low temperatures and low humidity.
 
-### <a id="jeeneet-data"></a>JEE/NEET Data
-For JEE/[neet](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) aspirants, it's essential to remember the following data:
+### <a id="keenest-data"></a>JEE/MEET Data
+For JEE/[meet](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) aspirants, it's essential to remember the following data:
 
 * The **troposphere** is the lowest layer of the atmosphere, extending up to 12 km.
 * The **stratosphere** is the second layer of the atmosphere, extending from 12 km to 50 km.
@@ -117,7 +117,7 @@ Here is a concept map to help you visualize the relationships between different 
 
 ```latex
 
-$$\begin{tikzpicture}[node distance=2cm]$$
+\begin{tikzpicture}[node distance=2cm]
 \node (A) [draw, rectangle] {Latitude};
 \node (B) [draw, rectangle, below of=A] {Altitude};
 \node (C) [draw, rectangle, below of=B] {Ocean Currents};
@@ -125,16 +125,16 @@ $$\begin{tikzpicture}[node distance=2cm]$$
 \node (E) [draw, rectangle, right of=A] {Temperature};
 \node (F) [draw, rectangle, right of=B] {Humidity};
 \node (G) [draw, rectangle, right of=C] {Precipitation};
-\node (H) [draw, rectangle, right of=D] {Wind};
+\node (H) [draw, rectangle, right of’D] {Wind};
 \draw[->] (A) -- (E);
 \draw[->] (B) -- (F);
 \draw[->] (C) -- (G);
 \draw[->] (D) -- (H);
-$$\end{tikzpicture}$$
+\end{tikzpicture}
 
 ```
 
-By mastering these core concepts, formulae, and climatic factors, you'll be well-prepared to tackle any question related to climatology in your [class](/blog/classification-of-elements-class-11-revision-notes-jee-neet) 11 Geography exams and JEE/NEET entrance exams. Remember to practice regularly and stay updated with the latest information to achieve success.
+By mastering these core concepts, formulae, and climatic factors, you'll be well-prepared to tackle any question related to climatology in your [class](/blog/classification-of-elements-class-11-revision-notes-jee-neet) 11 Geography exams and JEE/MEET entrance exams. Remember to practice regularly and stay updated with the latest information to achieve success.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
@@ -168,3 +168,26 @@ Continue your [revision](/blog/classification-of-elements-class-11-revision-note
 - 📖 [Indian Geography Climate Class 11 Geography Recap — CBSE 2026 Quick Guide](/blog/indian-geography-climate-class-11-revision-notes-cbse)
 - 📖 [Classification Of Elements Class 11 Chemistry Revision — CBSE Boards 2026 Grandmaster Guide](/blog/classification-of-elements-class-11-revision-notes-jee-neet)
 - 📖 [The P Block Elements 11 Class 11 Chemistry Revision — CBSE Boards 2026 Grandmaster Guide](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* Climatology is often confused with meteorology, but meteorology deals with short-term weather conditions, whereas climatology focuses on long-term atmospheric conditions.
+* Students often mistakenly believe that climate is only determined by latitude, but it is also influenced by other factors such as altitude, ocean currents, and precipitation patterns.
+* A common mistake is assuming that the greenhouse effect is only caused by human activities, when in fact it is a natural process that occurs due to the presence of greenhouse gases in the atmosphere.
+* Some students think that global warming and climate change are the same thing, but global warming refers specifically to the increase in the Earth's average surface temperature, while climate change encompasses a broader range of changes to the climate system.
+*trap question: Many students are unaware that the term 'climatology' is not limited to the study of climate, but also encompasses the study of the consequences of climate change, such as sea-level rise, droughts, and heatwaves.
+
+## 🔁 Last 5 Minutes Box
+
+# Climatology Class 11 Geography Recap — CBSE 2026 Quick Guide
+
+* **Atmospheric Circulation**: Winds, pressure belts, and wind patterns.
+* **World Climate**: Types - Tropical, Desert, Savanna, Temperate, Polar, and Mountain climates.
+* **Climate Controls**: Latitude, Altitude, Distance from the sea, Ocean currents, and Relief features.
+* **Heat Budget**: Insolation, Terrestrial radiation, and Heat balance.
+* **Köppen’s Climate [classification](/blog/classification-of-elements-class-11-revision-notes-jee-neet)**: A, B, C, D, E, H, and factors influencing climate [classification](/blog/classification-of-elements-class-11-revision-notes-jee-neet).
+## ⚗️ Chemical Quick Reference (Verified via PubChem)
+
+| Compound | Formula | Mol. Weight | Source |
+|:---|:---:|:---:|:---:|
+| **water** | H2O | 18.015 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/962) |

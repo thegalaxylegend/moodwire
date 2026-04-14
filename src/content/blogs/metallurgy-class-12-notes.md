@@ -134,7 +134,7 @@ practice_link: "/class-11/chemistry/metallurgy-class-12-notes"
  - Determining the feasibility of metal extraction processes: electrochemical principles are used to determine the feasibility of metal extraction processes.
 #### Nernst Equation
 
-- It is used to calculate the electrode potential: E = E^{\circ} - $$\frac{RT}{nF}\ln Q$$
+- It is used to calculate the electrode potential: E = E^{\circ} - \frac{RT}{nF}\ln Q
 
 
 
@@ -199,7 +199,7 @@ Refining of metals involves the use of zone refining or van Arkel method to puri
 
 #### Thermodynamic Principles
 
-Thermodynamic principles involve the application of \Delta G = \Delta H - T\Delta S in metallurgy. This equation is used to determine the feasibility of metal extraction processes. The Gibbs free energy change is a measure of the energy change that occurs during a reaction, and it can be used to determine whether a reaction is spontaneous or not.
+Thermodynamic principles involve the [application](/blog/application-of-integrals-class-12-notes) of \Delta G = \Delta H - T\Delta S in metallurgy. This equation is used to determine the feasibility of metal extraction processes. The Gibbs free energy change is a measure of the energy change that occurs during a reaction, and it can be used to determine whether a reaction is spontaneous or not.
 
 
 

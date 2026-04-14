@@ -173,7 +173,7 @@ The core principle is simple: Electron pairs (both bond pairs and lone pairs) ha
 Instead of drawing structures, use my "Go-To" **Steric Number (H) formula**:
 
 
-H = $$\frac{1}{2} [V + M - C + A]$$
+H = \frac{1}{2} [V + M - C + A]
 
 
 
@@ -479,7 +479,7 @@ Continue your [revision](/blog/equilibrium-class-11-revision-notes-jee-neet) wit
 ## 🪤 The 5 Mistakes That Cost Marks
 
 * **Confusing Bond Order with Bond Length**: Many students mistakenly assume that a higher bond order always corresponds to a shorter bond length. However, bond order is the number of electrons involved in bonding, while bond length is the actual distance between the nuclei of the bonded atoms.
-* **Incorrect Application of VSEPR Theory**: Students often incorrectly apply the VSEPR (Valence Shell Electron Pair Repulsion) theory to predict the shape of molecules. For example, they may forget to consider the presence of lone pairs or incorrectly determine the central atom.
+* **Incorrect Application of VSEPR Theory**: Students often incorrectly apply the VSEPR (Valence Shell Electron Pair Repulsion) theory to predict the shape of molecules. For example, they may forget to consider the presence of lone pairs or incorrectly determine the central [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet).
 * **Failure to Recognize Resonance Structures**: Some students struggle to identify resonance structures, which can lead to incorrect predictions of molecular properties, such as polarity and reactivity.
 * **Misunderstanding of Electronegativity**: Many students misunderstand the concept of electronegativity, which can lead to incorrect predictions of bond polarity and molecular behavior. For example, they may assume that a higher electronegativity always corresponds to a more reactive atom.
 * **Incorrect Calculation of Formal Charge**: Students often make mistakes when calculating formal charge, which can lead to incorrect predictions of molecular stability and reactivity. For example, they may forget to consider the number of valence electrons or incorrectly assign electrons to atoms.

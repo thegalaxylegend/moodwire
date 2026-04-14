@@ -103,20 +103,20 @@ The following formulas are crucial for the UPSC [optional](/blog/upsc-optional-s
  We rearrange the formula to solve for $m$:
 
 
-m = $$\frac{W}{g}$$
+m = \frac{W}{g}
 
 
 
  Plugging in the given values:
 
 
-m = $$\frac{20 , \text{N}}{9.8 , \text{m/s}^2}$$
+m = \frac{20 , \text{N}}{9.8 , \text{m/s}^2}
 
 
 
  Solving for $m$:
 
- m = 2.04 , $$\text{kg}$$
+ m = 2.04 , \text{kg}
 
  - **Answer:** $2.04 , \text{kg}$
 
@@ -136,27 +136,27 @@ m = $$\frac{20 , \text{N}}{9.8 , \text{m/s}^2}$$
 
  - Initial velocity $u = 0$
 
- - Final velocity $v = 20 , $$\text{m/s}$$$
+ - Final velocity $v = 20 , \text{m/s}$
 
- - Time $t = 4 , $$\text{s}$$$
+ - Time $t = 4 , \text{s}$
 
  We rearrange the formula to solve for $a$:
 
 
-a = $$\frac{v - u}{t}$$
+a = \frac{v - u}{t}
 
 
 
  Plugging in the given values:
 
 
-a = $$\frac{20 , \text{m/s} - 0}{4 , \text{s}}$$
+a = \frac{20 , \text{m/s} - 0}{4 , \text{s}}
 
 
 
  Solving for $a$:
 
- a = 5 , $$\text{m/s}^2$$
+ a = 5 , \text{m/s}^2
 
  - **Answer:** $5 , \text{m/s}^2$
 
@@ -174,27 +174,27 @@ a = $$\frac{20 , \text{m/s} - 0}{4 , \text{s}}$$
 
  We are given:
 
- - Force $F = 10 , $$\text{N}$$$
+ - Force $F = 10 , \text{N}$
 
- - Acceleration $a = 2 , $$\text{m/s}^2$$$
+ - Acceleration $a = 2 , \text{m/s}^2$
 
  We rearrange the formula to solve for $m$:
 
 
-m = $$\frac{F}{a}$$
+m = \frac{F}{a}
 
 
 
  Plugging in the given values:
 
 
-m = $$\frac{10 , \text{N}}{2 , \text{m/s}^2}$$
+m = \frac{10 , \text{N}}{2 , \text{m/s}^2}
 
 
 
  Solving for $m$:
 
- m = 5 , $$\text{kg}$$
+ m = 5 , \text{kg}
 
  - **Answer:** $5 , \text{kg}$
 
@@ -228,7 +228,7 @@ m = $$\frac{10 , \text{N}}{2 , \text{m/s}^2}$$
 
 - $E = mc^2$ is not directly applicable to UPSC optional selection.
 
- - $t = $$\frac{d}{s}$ is a basic formula, but not relevant here.$$
+ - $t = \frac{d}{s}$ is a basic formula, but not relevant here.
 
  - $sum_{i=1}^{n} x_i$ represents a sum, but is not a key formula for UPSC.
 
@@ -258,34 +258,29 @@ m = $$\frac{10 , \text{N}}{2 , \text{m/s}^2}$$
 **1. Which of the following is a key factor in selecting an optional subject for the [upsc](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee) exam?**
 A)
 A. Syllabus overlap with General Studies
-
 B)
 B. Personal interest and aptitude
-
 C)
 C. Popularity among candidates
-
 D)
 D. All of the above
 
-**Answer:** D) All the factors - syllabus overlap, personal interest, and popularity among candidates - are crucial in selecting an optional subject for the UPSC exam.
+**Answer:** D) All the factors - syllabus overlap, personal interest, and popularity among candidates - are crucial in selecting an optional subject for the [upsc](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee) exam.
 
 ---
 
 **2. What is the primary advantage of choosing a literature optional in the UPSC exam?**
 A)
 A. Less syllabus to cover
-
 B)
 B. More time for General Studies preparation
-
 C)
 C. Ease of
 
 answering questions
 
 D)
-D. Scoring high marks due to subjective nature
+D. Scoring high marks due to subjective [nature](/blog/dual-nature-of-radiation-class-12-notes)
 <<<<<<< HEAD
 
 **Answer:** D) Literature optionals often allow for subjective answers, which can lead to higher scores if the candidate is well-prepared and can articulate their thoughts clearly.
@@ -333,13 +328,10 @@ During the first four months of preparation, dedicate 60–70% of your daily stu
 **3. How many optional subjects can a candidate choose in the UPSC mains exam?**
 A)
 A. 1
-
 B)
 B. 2
-
 C)
 C. 3
-
 D)
 D. 4
 
@@ -350,13 +342,10 @@ D. 4
 **4. Which of the following is NOT a consideration when selecting an optional subject?**
 A)
 A. Career goals
-
 B)
 B. Academic background
-
 C)
 C. Popularity among toppers
-
 D)
 D. Availability of study materials
 
@@ -369,13 +358,10 @@ D. Availability of study materials
 **5. What should be the primary focus when preparing for an optional subject in the UPSC exam?**
 A)
 A. Covering the entire syllabus
-
 B)
 B. Practicing previous years' questions
-
 C)
 C. Developing a deep understanding of key concepts
-
 D)
 D. All of the above
 

@@ -196,7 +196,7 @@ Starting from **x = A sin(ωt + φ)**:
 
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
-- **Chapter 2: Motion in a Straight Line (Kinematic Kin)**
+- **Chapter 2: [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) in a Straight Line (Kinematic Kin)**
 - **Chapter 14: Waves (The Next Step)**
 - **SHM Phase and Phasor Diagram Masterclass**
 

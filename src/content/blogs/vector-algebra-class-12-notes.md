@@ -55,15 +55,15 @@ practice_link: "/class-11/mathematics/vector-algebra-class-12-notes"
 
  - **Triple Product (Vector):** \vec{a} \times (\vec{b} \times \vec{c}) = \vec{b}(\vec{a} \cdot \vec{c}) - \vec{c}(\vec{a} \cdot \vec{b}) — \vec{a}, \vec{b}, \vec{c} are vectors.
 
-- **Projection of \vec{a} onto \vec{b}:** $$\text{proj}_{\vec{b}}\vec{a} = \frac{\vec{a} \cdot \vec{b}}{||\vec{b}||^2} \vec{b} — \vec{a} and \vec{b} are vectors.$$
+- **Projection of \vec{a} onto \vec{b}:** \text{proj}_{\vec{b}}\vec{a} = \frac{\vec{a} \cdot \vec{b}}{||\vec{b}||^2} \vec{b} — \vec{a} and \vec{b} are vectors.
 
 - **Perpendicular Distance from a Point to a Line:** d = \frac{||\vec{b} \times \vec{a}||}{||\vec{b}||} — \vec{a} is a vector from a point on the line to the external point, \vec{b} is a vector along the line.
 
-- **Angle Between Two Vectors:** $$\cos{\theta} = \frac{\vec{a} \cdot \vec{b}}{||\vec{a}|| \cdot ||\vec{b}||} — \vec{a} and \vec{b} are vectors, \theta is the angle between them.$$
+- **Angle Between Two Vectors:** \cos{\theta} = \frac{\vec{a} \cdot \vec{b}}{||\vec{a}|| \cdot ||\vec{b}||} — \vec{a} and \vec{b} are vectors, \theta is the angle between them.
 
 - **Perpendicular Distance from a Point to a Line:** d = \frac{||\vec{b} \times \vec{a}||}{||\vec{b}||} — \vec{a} is a vector from a point on the line to the external point, \vec{b} is a vector along the line.
 
-- **Angle Between Two Vectors:** $$\cos{\theta} = \frac{\vec{a} \cdot \vec{b}}{||\vec{a}|| \cdot ||\vec{b}||} — \vec{a} and \vec{b} are vectors, \theta is the angle between them.$$
+- **Angle Between Two Vectors:** \cos{\theta} = \frac{\vec{a} \cdot \vec{b}}{||\vec{a}|| \cdot ||\vec{b}||} — \vec{a} and \vec{b} are vectors, \theta is the angle between them.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -79,7 +79,7 @@ practice_link: "/class-11/mathematics/vector-algebra-class-12-notes"
 
  - *Fix:* Remember that the dot product of two vectors $\vec{a}$ and $\vec{b}$ is given by $\vec{a} \cdot \vec{b} = \| \vec{a} \| \| \vec{b} \| \cos(\theta)$, where $\theta$ is the angle between the vectors, and the cross product is given by \vec{a} \times \vec{b} =
 
-$$\begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \ a_1 & a_2 & a_3 \ b_1 & b_2 & b_3 \end{vmatrix}$$
+\begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \ a_1 & a_2 & a_3 \ b_1 & b_2 & b_3 \end{vmatrix}
 
 .
 
@@ -113,7 +113,7 @@ $$\begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \ a_1 & a_2 & a_3 \ b_1 & b_2 & b_
 
  
 
-$$\text{Projection of } \vec{a} \text{ on } \vec{b} = \frac{\vec{a} \cdot \vec{b}}{|\vec{b}|}$$
+\text{Projection of } \vec{a} \text{ on } \vec{b} = \frac{\vec{a} \cdot \vec{b}}{|\vec{b}|}
 
  Calculating $\vec{a} \cdot \vec{b}$:
 
@@ -127,13 +127,13 @@ $$\text{Projection of } \vec{a} \text{ on } \vec{b} = \frac{\vec{a} \cdot \vec{b
 
  
 
-|\vec{b}| = $$\sqrt{(1)^2 + (-1)^2 + (1)^2} = \sqrt{3}$$
+|\vec{b}| = \sqrt{(1)^2 + (-1)^2 + (1)^2} = \sqrt{3}
 
  Thus, the projection of $\vec{a}$ on $\vec{b}$ is:
 
  
 
-$$\text{Projection of } \vec{a} \text{ on } \vec{b} = \frac{1}$\sqrt{3$}$$
+\text{Projection of } \vec{a} \text{ on } \vec{b} = \frac{1}$\sqrt{3$}
 
  - **Answer:** $\frac{1}$\sqrt{3$}$
 
@@ -147,7 +147,7 @@ $$\text{Projection of } \vec{a} \text{ on } \vec{b} = \frac{1}$\sqrt{3$}$$
 
  
 
-$$\cos{\theta} = \frac{\vec{a} \cdot \vec{b}}{|\vec{a}| |\vec{b}|}$$
+\cos{\theta} = \frac{\vec{a} \cdot \vec{b}}{|\vec{a}| |\vec{b}|}
 
  Calculating $\vec{a} \cdot \vec{b}$:
 
@@ -161,17 +161,17 @@ $$\cos{\theta} = \frac{\vec{a} \cdot \vec{b}}{|\vec{a}| |\vec{b}|}$$
 
  
 
-|\vec{a}| = $$\sqrt{(2)^2 + (-1)^2 + (1)^2} = \sqrt{6}$$
+|\vec{a}| = \sqrt{(2)^2 + (-1)^2 + (1)^2} = \sqrt{6}
 
-|\vec{b}| = $$\sqrt{(1)^2 + (2)^2 + (-1)^2} = \sqrt{6}$$
+|\vec{b}| = \sqrt{(1)^2 + (2)^2 + (-1)^2} = \sqrt{6}
 
  Thus, $\cos{\theta}$ is:
 
  
 
-$$\cos{\theta} = \frac{-1}$\sqrt{6$ \times \sqrt{6}} = \frac{-1}{6}$$
+\cos{\theta} = \frac{-1}$\sqrt{6$ \times \sqrt{6}} = \frac{-1}{6}
 
-\theta = \cos^{-1}\left($$\frac{-1}{6}\right)$$
+\theta = \cos^{-1}\left(\frac{-1}{6}\right)
 
  - **Answer:** $\cos^{-1}\left(\frac{-1}{6}\right)$
 
@@ -222,13 +222,13 @@ $$\cos{\theta} = \frac{-1}$\sqrt{6$ \times \sqrt{6}} = \frac{-1}{6}$$
 
 | Vector Operation | Formula | Description |
 | --- | --- | --- |
-| Cross Product | $\vec{a} \times \vec{b} = $$\begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \ a_1 & a_2 & a_3 \ b_1 & b_2 & b_3 \end{vmatrix}$ | Results in a vector orthogonal to both $\vec{a}$ and $\vec{b}$ |$$
+| Cross Product | $\vec{a} \times \vec{b} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \ a_1 & a_2 & a_3 \ b_1 & b_2 & b_3 \end{vmatrix}$ | Results in a vector orthogonal to both $\vec{a}$ and $\vec{b}$ |
 | Dot Product | $\vec{a} \cdot \vec{b} = a_1b_1 + a_2b_2 + a_3b_3$ | Results in a scalar representing the amount of 'similarity' between $\vec{a}$ and $\vec{b}$ |
-| Scalar Triple Product | $\vec{a} \cdot (\vec{b} \times \vec{c}) = $$\begin{vmatrix} a_1 & a_2 & a_3 \ b_1 & b_2 & b_3 \ c_1 & c_2 & c_3 \end{vmatrix}$ | Gives the volume of the parallelepiped formed by $\vec{a}$, $\vec{b}$, and $\vec{c}$ |$$
+| Scalar Triple Product | $\vec{a} \cdot (\vec{b} \times \vec{c}) = \begin{vmatrix} a_1 & a_2 & a_3 \ b_1 & b_2 & b_3 \ c_1 & c_2 & c_3 \end{vmatrix}$ | Gives the volume of the parallelepiped formed by $\vec{a}$, $\vec{b}$, and $\vec{c}$ |
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- $\vec{a} \times \vec{b} = $$\begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \| \vec{a} \| \cos \theta \| \vec{b} \| \end{vmatrix}$$$
+- $\vec{a} \times \vec{b} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \| \vec{a} \| \cos \theta \| \vec{b} \| \end{vmatrix}$
 
  - $\vec{a} \cdot \vec{b} = \| \vec{a} \| \| \vec{b} \| \cos \theta$
 
@@ -332,3 +332,4 @@ Continue your revision with these related guides:
 - 📖 [Atoms Class 12 Mathematics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/atoms-class-12-notes)
 - 📖 [Biodiversity and Conservation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
 
+$

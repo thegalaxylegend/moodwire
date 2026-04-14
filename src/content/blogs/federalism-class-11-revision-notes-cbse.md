@@ -87,7 +87,7 @@ The core concepts of federalism include:
 
 Trap Exceptions:
 - **Emergency Provisions**: The emergency provisions in the [indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Constitution, which allow the center to assume control over the states in times of emergency.
-- **Centralized Tendencies**: The centralized tendencies in the Indian federal system, which can lead to a strong center and weaker states.
+- **Centralized Tendencies**: The centralized tendencies in the [indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) federal system, which can lead to a strong center and weaker states.
 - **State Autonomy**: The autonomy of the states, which can be compromised by the center's powers.
 
 
@@ -127,7 +127,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/constitutional-framework-class-11-revision-notes-cbse) with these related guides:
 
 - 📖 [Fundamental Rights Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/fundamental-rights-class-11-revision-notes-cbse)
 - 📖 [Constitutional Framework Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/constitutional-framework-class-11-revision-notes-cbse)

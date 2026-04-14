@@ -9,7 +9,7 @@ practice_link: "/class-11/mathematics/pair-of-linear-equations-class-10-notes"
 
 *Last Updated: 2026-04-09*
 
-<div class="quick-summary">
+<div [class](/blog/linear-equations-in-two-variables-class-9-notes)="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
@@ -79,14 +79,14 @@ practice_link: "/class-11/mathematics/pair-of-linear-equations-class-10-notes"
  - Subtract equation (i) from equation (iii) to eliminate $x$:
  - $(2x - 4y) - (2x + 3y) = -6 - 7$
  - $-7y = -13$
- - $y = $$\frac{-13}{-7} = \frac{13}{7}$$$
- - Substitute $y = $$\frac{13}{7}$ into equation (i) to solve for $x$:$$
- - $2x + 3($$\frac{13}{7}) = 7$$$
- - $2x + $$\frac{39}{7} = 7$$$
- - $2x = 7 - $$\frac{39}{7}$$$
- - $2x = $$\frac{49}{7} - \frac{39}{7}$$$
- - $2x = $$\frac{10}{7}$$$
- - $x = $$\frac{5}{7}$$$
+ - $y = \frac{-13}{-7} = \frac{13}{7}$
+ - Substitute $y = \frac{13}{7}$ into equation (i) to solve for $x$:
+ - $2x + 3(\frac{13}{7}) = 7$
+ - $2x + \frac{39}{7} = 7$
+ - $2x = 7 - \frac{39}{7}$
+ - $2x = \frac{49}{7} - \frac{39}{7}$
+ - $2x = \frac{10}{7}$
+ - $x = \frac{5}{7}$
  - **Answer:** $x = \frac{5}{7}$, $y = \frac{13}{7}$
  - **Q3:** The pair of equations $\frac{2}{x} + \frac{3}{y} = 7$ and $\frac{4}{x} - \frac{2}{y} = 3$ have:
  - **Trap:** Students often strugg\le with manipulating fractions in equations.
@@ -101,16 +101,16 @@ practice_link: "/class-11/mathematics/pair-of-linear-equations-class-10-notes"
  - Add (v) and (vi) to eliminate $v$:
  - $(4u + 6v) + (12u - 6v) = 14 + 9$
  - $16u = 23$
- - $u = $$\frac{23}{16}$$$
- - Substitute $u = $$\frac{23}{16}$ back into one of the simplified equations to solve for $v$:$$
+ - $u = \frac{23}{16}$
+ - Substitute $u = \frac{23}{16}$ back into one of the simplified equations to solve for $v$:
  - Using $2u + 3v = 7$:
- - $2($$\frac{23}{16}) + 3v = 7$$$
+ - $2(\frac{23}{16}) + 3v = 7$
  - $\frac{23}{8} + 3v = 7$
- - $3v = 7 - $$\frac{23}{8}$$$
- - $3v = $$\frac{56}{8} - \frac{23}{8}$$$
- - $3v = $$\frac{33}{8}$$$
- - $v = $$\frac{11}{8}$$$
- - Recall $u = $$\frac{1}{x}$ and $v = \frac{1}{y}$:$$
+ - $3v = 7 - \frac{23}{8}$
+ - $3v = \frac{56}{8} - \frac{23}{8}$
+ - $3v = \frac{33}{8}$
+ - $v = \frac{11}{8}$
+ - Recall $u = \frac{1}{x}$ and $v = \frac{1}{y}$:
  - $\frac{1}{x} = \frac{23}{16}$, thus $x = \frac{16}{23}$
  - $\frac{1}{y} = \frac{11}{8}$, thus $y = \frac{8}{11}$
  - **Answer:** $x = \frac{16}{23}$, $y = \frac{8}{11}$
@@ -121,8 +121,8 @@ practice_link: "/class-11/mathematics/pair-of-linear-equations-class-10-notes"
  - **What 85% scorers do:** Most students are ab\le to solve the equations when they are in the standard form, but they strugg\le when the equations are not in this form. For examp\le, they may strugg\le to solve equations like $\frac{x}{2} + \frac{y}{3} = 1$ and $x - y = 2$. They may also strugg\le to solve equations that involve fractions or decimals. 
  - **What 95% scorers do:** 95% scorers, on the other hand, have a deep understanding of the substitution method and elimination method and can apply these methods to solve equations that are not in the standard form. They can also solve equations that involve fractions or decimals by using the correct mathematical operations. For examp\le, to solve the equations $\frac{x}{2} + \frac{y}{3} = 1$ and $x - y = 2$, they would first multiply the first equation by 6 to eliminate the fractions, resulting in $3x + 2y = 6$. Then, they would solve the equations using the substitution method or elimination method. 
  - **Key Formulas:** Some key formulas that 95% scorers use to solve pair of linear equations include:
- * $x = $$\frac{b_1c_2 - b_2c_1}{a_1b_2 - a_2b_1}$$$
- * $y = $$\frac{a_2c_1 - a_1c_2}{a_1b_2 - a_2b_1}$$$
+ * $x = \frac{b_1c_2 - b_2c_1}{a_1b_2 - a_2b_1}$
+ * $y = \frac{a_2c_1 - a_1c_2}{a_1b_2 - a_2b_1}$
  - **Examp\le Problems:** For examp\le, consider the following pair of linear equations:
  * $2x + 3y - 7 = 0$
  * $x - 2y + 1 = 0$
@@ -133,55 +133,55 @@ practice_link: "/class-11/mathematics/pair-of-linear-equations-class-10-notes"
  * Add both equations to eliminate $y$:
  * $(4x + 6y - 14) + (3x - 6y + 3) = 0 + 0$
  * $7x - 11 = 0$
- * $x = $$\frac{11}{7}$$$
+ * $x = \frac{11}{7}$
  * Substitute $x$ into one of the original equations to solve for $y$:
- * $2($$\frac{11}{7}) + 3y - 7 = 0$$$
+ * $2(\frac{11}{7}) + 3y - 7 = 0$
  * $\frac{22}{7} + 3y - 7 = 0$
- * $3y = 7 - $$\frac{22}{7}$$$
- * $3y = $$\frac{49 - 22}{7}$$$
- * $3y = $$\frac{27}{7}$$$
- * $y = $$\frac{9}{7}$$$
+ * $3y = 7 - \frac{22}{7}$
+ * $3y = \frac{49 - 22}{7}$
+ * $3y = \frac{27}{7}$
+ * $y = \frac{9}{7}$
  - **Tips for Improvement:** To improve their scores, students should practice solving pair of linear equations using the substitution method and elimination method. They should also practice solving equations that are not in the standard form and equations that involve fractions or decimals.
 
 | Method | Equations | Solution |
 | --- | --- | --- |
 | Substitution Method | $x + y = 2$ and $x - y = 2$ | $x = 2, y = 0$ |
-| Elimination Method | $2x + 3y = 7$ and $x - 2y = -1$ | $x = $$\frac{11}{7}, y = \frac{3}{7}$ |$$
+| Elimination Method | $2x + 3y = 7$ and $x - 2y = -1$ | $x = \frac{11}{7}, y = \frac{3}{7}$ |
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
 - **The Hidden Pattern:** In pair of linear equations, the ratio of coefficients of $x$ and $y$ in both equations can be used to determine the nature of the solutions. If the ratio is the same, the equations are identical, and if the ratio is different, the equations intersect at a unique point. This can be expressed as: \frac{a_1}{a_2} = \frac{b_1}{b_2} = \frac{c_1}{c_2} for identical equations, and \frac{a_1}{a_2} 
-eq $$\frac{b_1}{b_2} for intersecting equations.,- **How to Apply It:** To apply this pattern, first, compare the coefficients of $x$ and $y$ in both equations. If they are in the same ratio, check the constant terms to determine if the equations are identical or parallel. If the ratios are different, use either substitution or elimination method to find the unique solution. This pattern can save time in determining the nature of solutions without actually solving the equations.,- **PYQ-Specific Trend:** After analyzing 5+ years of previous year questions, it is observed that JEE/NEET exams often test the ability to identify the nature of solutions based on the coefficients and constant terms. A common trend is to provide equations with coefficients that are multiples of each other, requiring the test-taker to recognize the relationship between the coefficients and apply it to determine the nature of the solutions. This trend can be utilized to quickly identify the type of question and apply the appropriate method to solve it.,- **Solving Strategy:** To tack\le pair of linear equations, first, write down the equations in the standard form $ax + by + c = 0$. Then, compare the coefficients and constant terms to determine the nature of the solutions. If the equations are identical or parallel, use the ratio of coefficients to determine the relationship between the equations. If the equations intersect, use either substitution or elimination method to find the unique solution. This strategy can help in quickly identifying the type of question and applying the appropriate method to solve it.$$
+eq \frac{b_1}{b_2} for intersecting equations.,- **How to Apply It:** To apply this pattern, first, compare the coefficients of $x$ and $y$ in both equations. If they are in the same ratio, check the constant terms to determine if the equations are identical or parallel. If the ratios are different, use either substitution or elimination method to find the unique solution. This pattern can save time in determining the nature of solutions without actually solving the equations.,- **PYQ-Specific Trend:** After analyzing 5+ years of previous year questions, it is observed that JEE/NEET exams often test the ability to identify the nature of solutions based on the coefficients and constant terms. A common trend is to provide equations with coefficients that are multiples of each other, requiring the test-taker to recognize the relationship between the coefficients and apply it to determine the nature of the solutions. This trend can be utilized to quickly identify the type of question and apply the appropriate method to solve it.,- **Solving Strategy:** To tack\le pair of linear equations, first, write down the equations in the standard form $ax + by + c = 0$. Then, compare the coefficients and constant terms to determine the nature of the solutions. If the equations are identical or parallel, use the ratio of coefficients to determine the relationship between the equations. If the equations intersect, use either substitution or elimination method to find the unique solution. This strategy can help in quickly identifying the type of question and applying the appropriate method to solve it.
 
 | Type of Equations | Ratio of Coefficients | Nature of Solutions |
 | --- | --- | --- |
 
-| Identical | $$\frac{a_1}{a_2} = \frac{b_1}{b_2} = \frac{c_1}{c_2} | Infinite solutions |$$
+| Identical | \frac{a_1}{a_2} = \frac{b_1}{b_2} = \frac{c_1}{c_2} | Infinite solutions |
 
-| Parallel | $$\frac{a_1}{a_2} = \frac{b_1}{b_2}$$
-eq $$\frac{c_1}{c_2} | No solution |$$
+| Parallel | \frac{a_1}{a_2} = \frac{b_1}{b_2}
+eq \frac{c_1}{c_2} | No solution |
 
-| Intersecting | $$\frac{a_1}{a_2}$$
-eq $$\frac{b_1}{b_2} | Unique solution |$$
+| Intersecting | \frac{a_1}{a_2}
+eq \frac{b_1}{b_2} | Unique solution |
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- {$$\frac{a_1}{a_2}} = $\frac{b_1${b_2}}$$
-eq {$$\frac{c_1}{c_2}}$ for no solution$$
- - {$$\frac{a_1}{a_2}}$$
-eq {$$\frac{b_1}{b_2}}$ and $\frac{a_1${a_2}} = $\frac{c_1${c_2}}$ for infinite solutions$$
- - {$$\frac{a_1}{c_1}} = $\frac{b_1${c_2}} = $\frac{a_2${c_3}}$ for no solution$$
+- {\frac{a_1}{a_2}} = $\frac{b_1${b_2}}
+eq {\frac{c_1}{c_2}}$ for no solution
+ - {\frac{a_1}{a_2}}
+eq {\frac{b_1}{b_2}}$ and $\frac{a_1${a_2}} = $\frac{c_1${c_2}}$ for infinite solutions
+ - {\frac{a_1}{c_1}} = $\frac{b_1${c_2}} = $\frac{a_2${c_3}}$ for no solution
  - {a_1}{b_2} - {a_2}{b_1}$ is the determinant for {a_1}{x} + {b_1}{y} = {c_1}$ and {a_2}{x} + {b_2}{y} = {c_2}$
-- x = {$$\frac{{b_2}{c_1} - {b_1}{c_2}}{{a_1}{b_2} - {a_2}{b_1}}} for {a_1}{x} + {b_1}{y} = {c_1} and {a_2}{x} + {b_2}{y} = {c_2}$$
+- x = {\frac{{b_2}{c_1} - {b_1}{c_2}}{{a_1}{b_2} - {a_2}{b_1}}} for {a_1}{x} + {b_1}{y} = {c_1} and {a_2}{x} + {b_2}{y} = {c_2}
 
  - Key facts:
- - For unique solution, {$$\frac{a_1}{a_2}}$$
-eq {$$\frac{b_1}{b_2}}$$$
- - For no solution, {$$\frac{a_1}{a_2}} = $\frac{b_1${b_2}}$$
-eq {$$\frac{c_1}{c_2}}$$$
- - For infinite solutions, {$$\frac{a_1}{a_2}} = $\frac{b_1${b_2}} = $\frac{c_1${c_2}}$$$
+ - For unique solution, {\frac{a_1}{a_2}}
+eq {\frac{b_1}{b_2}}$
+ - For no solution, {\frac{a_1}{a_2}} = $\frac{b_1${b_2}}
+eq {\frac{c_1}{c_2}}$
+ - For infinite solutions, {\frac{a_1}{a_2}} = $\frac{b_1${b_2}} = $\frac{c_1${c_2}}$
  - Common mistakes:
- - Forgetting to check for {$$\frac{a_1}{a_2}} = $\frac{b_1${b_2}}$ for no solution$$
+ - Forgetting to check for {\frac{a_1}{a_2}} = $\frac{b_1${b_2}}$ for no solution
  - Not using the correct formula for {x}$ and {y}$ when solving the system of equations  $
 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs

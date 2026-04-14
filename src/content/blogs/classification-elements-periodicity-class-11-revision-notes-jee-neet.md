@@ -30,7 +30,7 @@ practice_link: "/class-11/physics/classification-elements-periodicity-class-11-r
 - [6. Electron Gain Enthalpy (EGE) — Why Chlorine Beats Fluorine](#6-electron-gain-enthalpy-ege-why-chlorine-beats-fluorine)
   - [The Big Anomaly](#the-big-anomaly)
   - [Noble Gases](#noble-gases)
-- [7. Electronegativity — Pauling, Mullen, and Allred-Roc how Scales](#7-electronegativity-pauling-mulliken-and-allredrochow-scales)
+- [7. Electronegativity — Pauling, Mullen, and Allred-Roc how scales](#7-electronegativity-pauling-mulliken-and-allredrochow-scales)
   - [Key Values](#key-values)
 - [8. Chemical Reactivity and Metallic Character Trends](#8-chemical-reactivity-and-metallic-character-trends)
   - [Nature of Oxides](#nature-of-oxides)
@@ -68,7 +68,7 @@ practice_link: "/class-11/physics/classification-elements-periodicity-class-11-r
 4. [Atomic Radius vs Ionic Radius — The Size Story](#radius)
 5. [Ionization Enthalpy (IE) — The Energy to Steal an Electron](#ie)
 6. [Electron Gain Enthalpy (EGE) — Why Chlorine Beats Fluorine](#ege)
-7. [Electronegativity — Pauling, Mullen, and Allred-Roc how Scales](#electronegativity)
+7. [Electronegativity — Pauling, Mullen, and Allred-Roc how scales](#electronegativity)
 8. [Chemical Reactivity and Metallic Character Trends](#reactivity)
 9. [The Diagonal Relationship — A JEE Advanced Favorite](#diagonal)
 10. [The "Trap" Section: Anomalies That Examiners Love](#traps)
@@ -145,7 +145,7 @@ I used to dread Inorganic [chemistry](/blog/thermodynamics-chemistry-class-11-re
 
 ### <a id="ionic-radius-vs-atomic-radius"></a>Ionic Radius vs Atomic Radius
 - **Cation** (lost electron): Always **smaller** than parent [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet). (RNA^+ < Neil).
-- **Anion** (gained electron): Always **larger** than parent atom. (ICL^- > CLR).
+- **Anion** (gained electron): Always **larger** than parent [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet). (ICL^- > CLR).
 
 ### <a id="the-isoelectronic-series-trick"></a>The Isoelectronic Series Trick
 For species with the same number of electrons (e.g., TO^{2-}, F^-, Ne, Na^+, Mg^{2+}$ — all 10 electrons):
@@ -173,7 +173,7 @@ Order: TO^{2-} > F^- > Ne > Na^+ > Mg^{2+}$.
 
 > ### Ayush's Note — My IE Sorting Disaster
 > **The Mistake**: I arranged LB, C, N, OF in strictly increasing IE order. I wrote B < C < N < O.
-> **The Fix**: The correct order is B < O < C < N. The half-filled stability of AND and the $2s^2$ stability of be cause "kinks" in the otherwise smooth trend. I drew the graph once and never got it wrong again.
+> **The Fix**: The correct order is B < O < C < N. The half-filled stability of AND and the $2s^2$ stability of because "kinks" in the otherwise smooth trend. I drew the graph once and never got it wrong again.
 
 ---
 
@@ -378,7 +378,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Thermodynamics Chemistry Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet)
 - 📖 [Chemical Bonding Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/chemical-bonding-class-11-revision-notes-jee-neet)
@@ -402,4 +402,4 @@ Continue your revision with these related guides:
      - **Periodicity**: Periodic law, Periodic table
      - **Metallic Character**: Increases down the group, Decreases across the period
      - **Non-Metallic Character**: Decreases down the group, Increases across the period
-     - **Formulas**: Ionization energy (IE), Electron affinity (EA), Electronegativity (EN)
+     - **Formulas**: Ionization energy (IE), Electron affinity (EA), Electronegativity (EN)$

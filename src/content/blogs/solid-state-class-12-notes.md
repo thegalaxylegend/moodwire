@@ -135,11 +135,11 @@ u$ = frequency of radiation.
  - Intrinsic
  - Extrinsic ($n$-type, $p$-type)
 - **Fermi Level:**
- - Intrinsic: $E_F = $$\frac{E_g}{2}$$$
- - Extrinsic: $E_F = $$\frac{E_g}{2} + \frac{3}{4} k_B T \ln \left( \frac{N_v}{N_c} \right)$$$
+ - Intrinsic: $E_F = \frac{E_g}{2}$
+ - Extrinsic: $E_F = \frac{E_g}{2} + \frac{3}{4} k_B T \ln \left( \frac{N_v}{N_c} \right)$
 - **Carrier Concentration:**
- - $n$-type: $n = N_c e^{$$\frac{E_F - E_c}{k_B T}}$$$
- - $p$-type: $p = N_v e^{$$\frac{E_v - E_F}{k_B T}}$$$
+ - $n$-type: $n = N_c e^{\frac{E_F - E_c}{k_B T}}$
+ - $p$-type: $p = N_v e^{\frac{E_v - E_F}{k_B T}}$
 
 #### Band Structure
 - **Valence Band:**
@@ -214,10 +214,10 @@ The packing efficiency of a crystal lattice is a critical concept in solid-state
 Another common mistake is failing to distinguish between the different types of voids in a crystal lattice. It is essential to remember that tetrahedral voids have a coordination number of 4 and are smaller than octahedral voids, which have a coordination number of 6. This distinction is critical in understanding the crystal structure and properties of solids.
 
 #### Mistake 3: Incorrect Determination of Number of Atoms per Unit Cell
-The number of atoms per unit cell is a fundamental concept in solid-state chemistry. However, many students make mistakes while determining it. To avoid this, it is crucial to use the correct formula: $n = $$\frac{1}{8} \	imes (C \	imes 8) + \frac{1}{2} \	imes (F \	imes 6) + \frac{1}{4} \	imes (E \	imes 12) + I$, where $n$ is the number of atoms per unit cell, $C$ is the number of corner atoms, $F$ is the number of face-centered atoms, $E$ is the number of edge-centered atoms, and $I$ is the number of interior atoms.$$
+The number of atoms per unit cell is a fundamental concept in solid-state chemistry. However, many students make mistakes while determining it. To avoid this, it is crucial to use the correct formula: $n = \frac{1}{8} \	imes (C \	imes 8) + \frac{1}{2} \	imes (F \	imes 6) + \frac{1}{4} \	imes (E \	imes 12) + I$, where $n$ is the number of atoms per unit cell, $C$ is the number of corner atoms, $F$ is the number of face-centered atoms, $E$ is the number of edge-centered atoms, and $I$ is the number of interior atoms.
 
 #### Mistake 4: Incorrect Calculation of Lattice Energy
-Lattice energy is a critical concept in solid-state chemistry, and many students make mistakes while calculating it. To avoid this, it is essential to use the correct formula: $E = $$\frac{-A}{4\pi \epsilon_0 r^4} + \frac{B}{4\pi \epsilon_0 r^0}$. This formula is based on the Born-Landé equation, which takes into account the electrostatic attraction and repulsion between ions in a crystal lattice.$$
+Lattice energy is a critical concept in solid-state chemistry, and many students make mistakes while calculating it. To avoid this, it is essential to use the correct formula: $E = \frac{-A}{4\pi \epsilon_0 r^4} + \frac{B}{4\pi \epsilon_0 r^0}$. This formula is based on the Born-Landé equation, which takes into account the electrostatic attraction and repulsion between ions in a crystal lattice.
 
 #### Mistake 5: Failure to Understand Semiconductor Band Structure
 Semiconductor band structure is a critical concept in solid-state physics, and many students struggle to understand it. To avoid this, it is essential to understand the concept of valence and conduction bands, as well as the Fermi level. The Fermi level is the energy level at which the probability of finding an electron is 50%. It is critical to understand how the Fermi level changes with doping and how it affects the conductivity of a semiconductor.

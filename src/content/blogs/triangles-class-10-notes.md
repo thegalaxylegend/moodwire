@@ -10,7 +10,7 @@ manual_review: true
 
 *Last Updated: 2026-04-07*
 
-<div class="quick-summary">
+<div [class](/blog/introduction-to-trigonometry-class-10-notes)="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 

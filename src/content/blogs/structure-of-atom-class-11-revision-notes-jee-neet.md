@@ -113,7 +113,7 @@ Most students treat this chapter as a bunch of formulas to memorize. I did the s
 
 ### <a id="core-postulates"></a>Core Postulates
 1. Electrons orbit in circular paths without radiating energy.
-2. Only orbits where angular momentum ($L$) is an integral multiple of $h/2\pi$ are allowed: $mvr = $$\frac{nh}{2\pi}$.$$
+2. Only orbits where angular momentum ($L$) is an integral multiple of $h/2\pi$ are allowed: $mvr = \frac{nh}{2\pi}$.
 
 ### <a id="the-formulas-you-must-memorize"></a>The Formulas You MUST Memorize
 - **Radius ($r_n$):** $r_n = 0.529 \frac{n^2}{Z} \text{ \AA}$
@@ -137,10 +137,10 @@ Most students treat this chapter as a bunch of formulas to memorize. I did the s
 
 ### <a id="rydberg-formula"></a>Rydberg Formula
 
-$$\frac{1}{\lambda} = R_Z^2 \left[ \frac{1}{n_1^2} - \frac{1}{n_2^2} \right]$$
+\frac{1}{\lambda} = R_Z^2 \left[ \frac{1}{n_1^2} - \frac{1}{n_2^2} \right]
 
 
-Where $R = 109677 $$\text{ cm}^{-1}$ (or roughly $1.1 \times 10^7 \text{ m}^{-1}$).$$
+Where $R = 109677 \text{ cm}^{-1}$ (or roughly $1.1 \times 10^7 \text{ m}^{-1}$).
 
 ### <a id="spectral-series-table"></a>Spectral Series Table
 | Series | $n_1$ | $n_2$ | Region |
@@ -165,7 +165,7 @@ Where $R = 109677 $$\text{ cm}^{-1}$ (or roughly $1.1 \times 10^7 \text{ m}^{-1}
 **The Dual Nature of [matter](/blog/states-of-matter-class-11-revision-notes-jee-neet) describes how every moving particle, from a cricket ball to an electron, exhibits both wave-like and particle-like properties.**
 
 
-\lambda = $$\frac{h}{mv} = \frac{h}{p}$$
+\lambda = \frac{h}{mv} = \frac{h}{p}
 
 
 
@@ -184,7 +184,7 @@ For a microscopic electron, $\lambda$ is significant ($\sim$ atomic dimensions),
 **Heisenberg's Uncertainty Principle states that it is impossible to simultaneously measure the exact position ($\Delta x$) and exact momentum ($\Delta p$) of a subatomic particle with absolute precision.**
 
 
-\Delta x \cdot \Delta p \geq $$\frac{h}{4\pi}$$
+\Delta x \cdot \Delta p \geq \frac{h}{4\pi}
 
 
 
@@ -359,11 +359,11 @@ D) $3V/2$
 *Answer: B ($V \propto Z/n$. For $H$, $V_H \propto 1/2$. For $He^+$, $V_{He} \propto 2/3$. Ratio: $\frac{2/3}{1/2} = 4/3$).*
 
 **Q4. The wavelength of a macroscopic object (1 kg) moving at 1 m/s is:** [NEET Easy]  
-A) $6.6 \times 10^{-34} $$\text{ m}$$$
-B) $6.6 \times 10^{-31} $$\text{ m}$$$
-C) $6.6 \times 10^{-37} $$\text{ m}$$$
+A) $6.6 \times 10^{-34} \text{ m}$
+B) $6.6 \times 10^{-31} \text{ m}$
+C) $6.6 \times 10^{-37} \text{ m}$
 D) Undefinable
-*Answer: A ($\lambda = h/mv = (6.6 \times 10^{-34}) / (1 \times 1) = 6.6 \times 10^{-34} $$\text{ m}$).*$$
+*Answer: A ($\lambda = h/mv = (6.6 \times 10^{-34}) / (1 \times 1) = 6.6 \times 10^{-34} \text{ m}$).*
 
 ---
 
@@ -418,9 +418,10 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/states-of-matter-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Chemical Bonding Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/chemical-bonding-class-11-revision-notes-jee-neet)
 - 📖 [Equilibrium Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/equilibrium-class-11-revision-notes-jee-neet)
 - 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
 - 📖 [States Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/states-of-matter-class-11-revision-notes-jee-neet)
+$

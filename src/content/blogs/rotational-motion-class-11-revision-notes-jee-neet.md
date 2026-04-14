@@ -177,7 +177,7 @@ If this condition is met, the point of contact is momentarily at rest.
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 4: Laws of [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) (Inertia Basics)**
-- **Chapter 7: Gravitation (Orbital Angular Momentum)**
+- **Chapter 7: [gravitation](/blog/gravitation-class-11-revision-notes-jee-neet) (Orbital Angular Momentum)**
 - **Mastering Rotational Mechanics: Advanced Problem Set**
 
 
@@ -185,7 +185,7 @@ If this condition is met, the point of contact is momentarily at rest.
 
 ## <a id="conclusion"></a>Conclusion
 
-Rotational Motion is the ultimate test of a physicist's understanding of symmetry and conservation laws. By mastering the mathematical bridge between linear and angular quantities, you gain the ability to analyze everything from a spinning top to the rotation of entire galaxies. Master the parallel axes theorem and the conservation of angular momentum—these are the pillars of advanced mechanics and mechanical engineering. Stay centered, keep your torque high, and maintain your momentum!
+Rotational [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) is the ultimate test of a physicist's understanding of symmetry and conservation laws. By mastering the mathematical bridge between linear and angular quantities, you gain the ability to analyze everything from a spinning top to the rotation of entire galaxies. Master the parallel axes theorem and the conservation of angular momentum—these are the pillars of advanced mechanics and mechanical engineering. Stay centered, keep your torque high, and maintain your momentum!
 
 ---
 **Reference:** [Physics World: The Secrets of Angular Momentum](https://physicsworld.com)

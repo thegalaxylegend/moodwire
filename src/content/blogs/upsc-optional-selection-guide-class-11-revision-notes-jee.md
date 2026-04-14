@@ -109,13 +109,13 @@ Selecting your UPSC optional is a strategic decision that bridges the gap betwee
 ## <a id="frequently-asked-questions-faqs"></a>Frequently Asked Questions (FAQs)
 
 ### <a id="1-is-geography-a-highrisk-optional"></a>1. Is Geography a high-risk optional?
-Geography is not inherently high-risk, but it is massive. The syllabus is nearly double that of Sociology. However, it provides a significant advantage in GS Paper 1 and Prelims. If you are diligent and enjoy scientific humanities, it remains a strong choice for those who can manage its breadth.
+Geography is not inherently [high](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)-risk, but it is massive. The syllabus is nearly double that of Sociology. However, it provides a significant advantage in GS Paper 1 and Prelims. If you are diligent and enjoy scientific humanities, it remains a strong choice for those who can manage its breadth.
 
 ### <a id="2-can-i-take-an-optional-different-from-my-graduation-subject"></a>2. Can I take an optional different from my graduation subject?
 Yes, approximately 70% of successful candidates choose an optional that is different from their college degree. UPSC optionals are designed to be generalist, meaning anyone with strong analytical skills can [master](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet) them using **NCERT solutions** level readings as a starting point.
 
 ### <a id="3-how-much-time-should-i-dedicate-to-my-optional"></a>3. How much time should I dedicate to my optional?
-During the first four months of preparation, dedicate 60–70% of your daily study time to your optional. Once you have covered the syllabus, transition to a split of 30% for your optional and 70% for General Studies and current affairs to maintain overall balance.
+During the first four months of preparation, dedicate 60–70% of your daily study time to your [optional](/blog/upsc-optional-selection-guide). Once you have covered the syllabus, transition to a split of 30% for your [optional](/blog/upsc-optional-selection-guide) and 70% for General Studies and current affairs to maintain overall balance.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
@@ -143,7 +143,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [UPSC Optional Selection Guide 2026 Class 12 Political Science Revision — CBSE 2026 Grandmaster Guide](/blog/upsc-optional-selection-guide)
 - 📖 [State Scholarship Guide 2026 Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)

@@ -164,7 +164,7 @@ Continue your [revision](/blog/3d-geometry-intro-class-11-revision-notes-jee-nee
      * Big-O Notation
    - **Python Basics**:
      * Variables: sum, STR, list, dict
-     * Control Structures: if-else, for loop, while loop
+     * Control [structures](/blog/data-structures-linear-class-11-revision-notes-gate-boards): if-else, for loop, while loop
      * Functions
    - **AI and ML**:
      * Introduction to Artificial Intelligence

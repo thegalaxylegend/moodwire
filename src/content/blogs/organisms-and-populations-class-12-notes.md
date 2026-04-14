@@ -22,11 +22,11 @@ practice_link: "/class-11/biology/organisms-and-populations-class-12-notes"
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Population Growth Rate:** $$\frac{dN}{dt} = rN — $r$ is the intrinsic growth rate, $N$ is the population size, $t$ is time.$$
+- **Population Growth Rate:** \frac{dN}{dt} = rN — $r$ is the intrinsic growth rate, $N$ is the population size, $t$ is time.
 
  - **Exponential Growth Model:** N_t = N_0 \times e^{rt} — $N_t$ is the population size at time $t$, $N_0$ is the initial population size, $r$ is the intrinsic growth rate, $t$ is time.
 
- - **Logistic Growth Model:** $$\frac{dN}{dt} = rN \left(1 - \frac{N}{K}\right) — $r$ is the intrinsic growth rate, $N$ is the population size, $K$ is the carrying capacity.$$
+ - **Logistic Growth Model:** \frac{dN}{dt} = rN \left(1 - \frac{N}{K}\right) — $r$ is the intrinsic growth rate, $N$ is the population size, $K$ is the carrying capacity.
 
  - **Carrying Capacity:** K = \frac{r}{\delta} — $K$ is the carrying capacity, $r$ is the intrinsic growth rate, $\delta$ is the death rate.
 
@@ -40,13 +40,13 @@ practice_link: "/class-11/biology/organisms-and-populations-class-12-notes"
 
  - **Population Density:** D = \frac{N}{A} — $D$ is the population density, $N$ is the population size, $A$ is the area.
 
- - **Birth Rate:** B = \frac$\Delta N$$\Delta t$ — $B$ is the birth rate, $\Delta N$ is the change in population size, $\Delta t$ is the time interval.
+ - **Birth Rate:** B = \frac$\Delta N\Delta t$ — $B$ is the birth rate, $\Delta N$ is the change in population size, $\Delta t$ is the time interval.
 
- - **Death Rate:** D = \frac$\Delta N$$\Delta t$ — $D$ is the death rate, $\Delta N$ is the change in population size, $\Delta t$ is the time interval.
+ - **Death Rate:** D = \frac$\Delta N\Delta t$ — $D$ is the death rate, $\Delta N$ is the change in population size, $\Delta t$ is the time interval.
 
- - **Birth Rate:** B = \frac$\Delta N$$\Delta t$ — $B$ is the birth rate, $\Delta N$ is the change in population size, $\Delta t$ is the time interval.
+ - **Birth Rate:** B = \frac$\Delta N\Delta t$ — $B$ is the birth rate, $\Delta N$ is the change in population size, $\Delta t$ is the time interval.
 
- - **Death Rate:** D = \frac$\Delta N$$\Delta t$ — $D$ is the death rate, $\Delta N$ is the change in population size, $\Delta t$ is the time interval.
+ - **Death Rate:** D = \frac$\Delta N\Delta t$ — $D$ is the death rate, $\Delta N$ is the change in population size, $\Delta t$ is the time interval.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -118,9 +118,9 @@ practice_link: "/class-11/biology/organisms-and-populations-class-12-notes"
 
  - **Solution:** 
 
- - The net reproductive rate ($R_0$) can be calculated using the equation: $R_0 = $$\frac{b}{d}$, where $b$ is the birth rate and $d$ is the death rate.$$
+ - The net reproductive rate ($R_0$) can be calculated using the equation: $R_0 = \frac{b}{d}$, where $b$ is the birth rate and $d$ is the death rate.
 
- - Substitute the given values into the equation: $R_0 = $$\frac{0.2}{0.1}$$$
+ - Substitute the given values into the equation: $R_0 = \frac{0.2}{0.1}$
 
  - Calculate the net reproductive rate: $R_0 = 2$
 
@@ -137,9 +137,9 @@ practice_link: "/class-11/biology/organisms-and-populations-class-12-notes"
  - **Key Formulas:**
 
  - Exponential Growth: $N(t) = N_0 e^{rt}$
-- Logistic Growth: N(t) = $$\frac{K}{1 + \frac{K - N_0}{N_0}e^{-rt}}$$
+- Logistic Growth: N(t) = \frac{K}{1 + \frac{K - N_0}{N_0}e^{-rt}}
 
- - Carrying Capacity: $K = $$\frac{r}{d}$, where $d$ is the death rate.$$
+ - Carrying Capacity: $K = \frac{r}{d}$, where $d$ is the death rate.
 
  - **Advanced Tips:** To excel, focus on understanding the ecological implications of $r$- and $K$-selection, practice applying these concepts to diverse scenarios, and be able to manipulate and solve the mathematical models of population growth.
 
@@ -156,11 +156,11 @@ practice_link: "/class-11/biology/organisms-and-populations-class-12-notes"
 | --- | --- | --- |
 | Exponential Growth | N(t) = N_0 e^{rt} | Rapid growth, unlimited resources |
 
-| Logistic Growth | N(t) = $$\frac{K}{1 + \frac{K - N_0}{N_0} e^{-rt}} | Rapid growth, limited resources, carrying capacity |$$
+| Logistic Growth | N(t) = \frac{K}{1 + \frac{K - N_0}{N_0} e^{-rt}} | Rapid growth, limited resources, carrying capacity |
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- $r = $$\frac{dN}{dt} = rN\left(1 - \frac{N}{K}\right)$$$
+- $r = \frac{dN}{dt} = rN\left(1 - \frac{N}{K}\right)$
 
  - $A = P(1 + rt)$ 
 
@@ -168,7 +168,7 @@ practice_link: "/class-11/biology/organisms-and-populations-class-12-notes"
 
  - $\Delta N = rN \Delta t$ 
 
- - $K = $$\frac{r}{d}$$$
+ - $K = \frac{r}{d}$
 
  - [organisms](/blog/reproduction-in-organisms-class-12-notes) have optimal temperature ranges for survival.
 
@@ -280,3 +280,4 @@ Continue your revision with these related guides:
 - 📖 [Biotechnology and its Applications Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biotechnology-and-its-applications-class-12-notes)
 - 📖 [Biotechnology: Principles and Processes Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biotechnology-principles-and-processes-class-12-notes)
 
+$

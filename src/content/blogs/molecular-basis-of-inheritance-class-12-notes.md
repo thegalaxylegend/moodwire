@@ -22,9 +22,9 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Mendel's Law of Segregation:** $$\frac{1}{2} of the gametes will have one allele and the other \frac{1}{2} will have the other allele — where the allele is a variant of a gene.$$
+- **Mendel's Law of Segregation:** \frac{1}{2} of the gametes will have one allele and the other \frac{1}{2} will have the other allele — where the allele is a variant of a gene.
 
-- **Mendel's Law of Independent Assortment:** $$\frac{1}{4}AB, \frac{1}{4}Ab, \frac{1}{4}aB, \frac{1}{4}ab — where A and a are alleles of one gene, and B and b are alleles of another gene.$$
+- **Mendel's Law of Independent Assortment:** \frac{1}{4}AB, \frac{1}{4}Ab, \frac{1}{4}aB, \frac{1}{4}ab — where A and a are alleles of one gene, and B and b are alleles of another gene.
 
 - **Hardy-Weinberg Principle:** p^2 + 2pq + q^2 = 1 — where p is the frequency of one allele, q is the frequency of the other allele, p^2 is the frequency of the AA genotype, 2pq is the frequency of the Aa genotype, and q^2 is the frequency of the aa genotype.
 
@@ -38,9 +38,9 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 
 - **Lethal Genes and Semilethals:** No specific formula, but they are genes that cause the death of an organism if an individual is homozygous recessive for the gene.
 
-- **Multiple Alleles:** $$\frac{n!}{n_1!n_2!...n_k!} — where n is the total number of alleles and n_1, n_2, ... n_k are the number of each type of allele.$$
+- **Multiple Alleles:** \frac{n!}{n_1!n_2!...n_k!} — where n is the total number of alleles and n_1, n_2, ... n_k are the number of each type of allele.
 
-- **Punnett Square Probability:** $$\frac{number\ of\ favorable\ outcomes}{total\ number\ of\ possible\ outcomes} — where the probability of an event is calculated by dividing the number of favorable outcomes by the total number of possible outcomes.$$
+- **Punnett Square Probability:** \frac{number\ of\ favorable\ outcomes}{total\ number\ of\ possible\ outcomes} — where the probability of an event is calculated by dividing the number of favorable outcomes by the total number of possible outcomes.
 
 - **Gene Frequency:** p = \frac{2N_A + N_{Aa}}{2N} — where p is the frequency of allele A, N_A is the number of individuals with genotype AA, N_{Aa} is the number of individuals with genotype Aa, and N is the total number of individuals in the population.
 
@@ -92,15 +92,15 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 
  The distance between two consecutive nucleosomes is given by the length of the linker DNA, which is approximately $20$ to $80$ base pairs. 
 
- $$\text{Distance} = \text{Length of linker DNA} + \text{Length of DNA in a nucleosome}= 20 \text{ to } 80 \text{ bp} + 7 \times 20 \text{ bp (for the 7 turns of DNA around the histone)}$$
+ \text{Distance} = \text{Length of linker DNA} + \text{Length of DNA in a nucleosome}= 20 \text{ to } 80 \text{ bp} + 7 \times 20 \text{ bp (for the 7 turns of DNA around the histone)}
 
  Considering the average length of linker DNA as $50$ bp, 
 
- $$\text{Distance} = 50 \text{ bp} + 140 \text{ bp} = 190 \text{ bp}$$
+ \text{Distance} = 50 \text{ bp} + 140 \text{ bp} = 190 \text{ bp}
 
  Given that $1$ bp $= 0.34$ nm, 
 
- $$\text{Distance} = 190 \times 0.34 = 64.6 \text{ nm}$$
+ \text{Distance} = 190 \times 0.34 = 64.6 \text{ nm}
 
  - **Answer:** $64.6$ nm
 
@@ -112,11 +112,11 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 
  The lac operon is a negatively regulated operon. In the absence of lactose, 
 
- $$\text{Lactose} + \text{lac permease} \rightarrow \text{Lactose-lac permease complex}$$
+ \text{Lactose} + \text{lac permease} \rightarrow \text{Lactose-lac permease complex}
 
  The lac repressor binds to the operator region, preventing RNA polymerase from transcribing the lac genes. 
 
- $$\text{Lac repressor} + \text{Operator} \rightarrow \text{Lac repressor-Operator complex}$$
+ \text{Lac repressor} + \text{Operator} \rightarrow \text{Lac repressor-Operator complex}
 
  Therefore, in the absence of lactose, the lac genes are not transcribed.
 
@@ -132,7 +132,7 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 
  The possible genotypes of the offspring are:
 
-$$\begin{array}{c|c|c}$$
+\begin{array}{c|c|c}
 
  & C & c \hline
 
@@ -140,7 +140,7 @@ $$\begin{array}{c|c|c}$$
 
  c & Cc & cc \hline
 
- $$\end{array}$$
+ \end{array}
 
 The probability of the child having cystic fibrosis ($cc$) is $\frac{1}{4}$.
 
@@ -176,11 +176,11 @@ The probability of the child having cystic fibrosis ($cc$) is $\frac{1}{4}$.
 
  - $2pq$ gives the frequency of the heterozygous genotype in a population.
 
-- $$\frac{p^2 + q^2 + 2pq}{(p + q)^2} = 1 is the Hardy-Weinberg principle equation for the sum of genotypic frequencies.$$
+- \frac{p^2 + q^2 + 2pq}{(p + q)^2} = 1 is the Hardy-Weinberg principle equation for the sum of genotypic frequencies.
 
  - $p + q = 1$ is the equation for the sum of allelic frequencies in a population.
 
- - $q = $$\frac{\	ext{number of recessive alleles}}{\	ext{total number of alleles}}$ calculates the frequency of the recessive allele.$$
+ - $q = \frac{\	ext{number of recessive alleles}}{\	ext{total number of alleles}}$ calculates the frequency of the recessive allele.
 
  - Key facts:
 

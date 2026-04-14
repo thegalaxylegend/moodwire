@@ -9,15 +9,15 @@ practice_link: "/class-11/mathematics/quadratic-equations-class-10-notes"
 
 *Last Updated: 2026-04-09*
 
-<div class="quick-summary">
+<div [class](/blog/coordinate-geometry-class-10-notes)="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
 - - Quadratic [equations](/blog/pair-of-linear-equations-class-10-notes): 1 question on forming a quadratic equation from given roots — always
 - - Quadratic [equations](/blog/pair-of-linear-equations-class-10-notes): 1 question on solving a quadratic equation by factorization — frequently
-- - Quadratic Equations: Relation between roots and coefficients ($\alpha + \beta = -$$\frac{b}{a}$, $\alpha \beta = \frac{c}{a}$) — always$$
+- - Quadratic Equations: Relation between roots and coefficients ($\alpha + \beta = -\frac{b}{a}$, $\alpha \beta = \frac{c}{a}$) — always
 - - Quadratic Equations: 1 question on the nature of roots ([real](/blog/real-numbers-class-10-notes) and distinct, [real](/blog/real-numbers-class-10-notes) and equal, imaginary) — frequently
-- - Quadratic Equations: Quadratic formula ($x = $$\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$) — always$$
+- - Quadratic Equations: Quadratic formula ($x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$) — always
 - - Quadratic [equations](/blog/pair-of-linear-equations-class-10-notes): 1 question on solving a quadratic equation using the quadratic formula — frequently
 - - Quadratic Equations: Graph of a quadratic function ($y = ax^2 + bx + c$) — frequently
 - - Quadratic Equations: Vertex form of a quadratic function ($y = a(x - h)^2 + k$) — frequently
@@ -38,17 +38,17 @@ practice_link: "/class-11/mathematics/quadratic-equations-class-10-notes"
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Quadratic Formula:** $$\frac{{-b \pm \sqrt{{b^2 - 4ac}}}}{{2a}} — a, b, and c are coefficients of the quadratic equation $ax^2 + bx + c = 0$.$$
- - **Sum of Roots:** $$\frac{{-b}}{{a}} — a and b are coefficients of the quadratic equation $ax^2 + bx + c = 0$.$$
- - **Product of Roots:** $$\frac{{c}}{{a}} — a and c are coefficients of the quadratic equation $ax^2 + bx + c = 0$.$$
+- **Quadratic Formula:** \frac{{-b \pm \sqrt{{b^2 - 4ac}}}}{{2a}} — a, b, and c are coefficients of the quadratic equation $ax^2 + bx + c = 0$.
+ - **Sum of Roots:** \frac{{-b}}{{a}} — a and b are coefficients of the quadratic equation $ax^2 + bx + c = 0$.
+ - **Product of Roots:** \frac{{c}}{{a}} — a and c are coefficients of the quadratic equation $ax^2 + bx + c = 0$.
  - **Discriminant:** \Delta = b^2 - 4ac — a, b, and c are coefficients of the quadratic equation $ax^2 + bx + c = 0$.
  - **Nature of Roots:** 
  - If $\Delta > 0$, the equation has two distinct real roots.
  - If $\Delta = 0$, the equation has two equal real roots.
  - If $\Delta < 0$, the equation has no real roots.
  - **Relation Between Roots and Coefficients:** 
- - $\alpha + \beta = $$\frac{{-b}}{{a}}$$$
- - $\alpha \beta = $$\frac{{c}}{{a}}$$$
+ - $\alpha + \beta = \frac{{-b}}{{a}}$
+ - $\alpha \beta = \frac{{c}}{{a}}$
  - **Quadratic Equation in Vertex Form:** y = a(x - h)^2 + k — $(h, k)$ is the vertex of the parabola.
  - **Axis of Symmetry:** x = \frac{{-b}}{{2a}} — a and b are coefficients of the quadratic equation $ax^2 + bx + c = 0$.
  - **Vertex Form to Standard Form Conversion:** y = a(x - h)^2 + k = ax^2 - 2ahx + ah^2 + k = ax^2 + bx + c 
@@ -68,7 +68,7 @@ eq 0$. Ensure that the coefficient of ${x^2}$ is not zero.
  - *Fix:* Double-check that you are substituting the correct values of $a$, $b$, and $c$ into the quadratic formula: ${x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}}$. Verify your calculations to ensure accuracy.
  - **Mistake 4:** Not simplifying the expression under the square root in the quadratic formula.
  - *Costs:* 1-2 marks
- - *Fix:* Always simplify the expression under the square root: $$\sqrt{b^2 - 4ac$}$. This may involve factoring out perfect squares or simplifying the expression inside the square root.
+ - *Fix:* Always simplify the expression under the square root: \sqrt{b^2 - 4ac$}$. This may involve factoring out perfect squares or simplifying the expression inside the square root.
  - **Mistake 5:** Failing to check the nature of the roots (real and distinct, real and equal, or complex) based on the discriminant ${b^2 - 4ac}$.
  - *Costs:* 2-4 marks
  - *Fix:* Use the discriminant ${b^2 - 4ac}$ to determine the nature of the roots. If ${b^2 - 4ac > 0}$, the roots are real and distinct. If ${b^2 - 4ac = 0}$, the roots are real and equal. If ${b^2 - 4ac < 0}$, the roots are complex.
@@ -78,7 +78,7 @@ eq 0$. Ensure that the coefficient of ${x^2}$ is not zero.
 - **Q1:** If the equation $x^2 + {2\lambda}x + {\lambda} = 0$ has two distinct real roots, then find the range of values of ${\lambda}$.
  - **Trap:** Students often get confused with the condition for distinct real roots.
  - **Solution:** 
- - Recall that for a quadratic equation $ax^2 + bx + c = 0$, the roots are given by the formula $x = $$\frac{{-b \pm \sqrt{{b^2 - 4ac}}}}{2a}$.$$
+ - Recall that for a quadratic equation $ax^2 + bx + c = 0$, the roots are given by the formula $x = \frac{{-b \pm \sqrt{{b^2 - 4ac}}}}{2a}$.
  - For distinct real roots, the discriminant $b^2 - 4ac > 0$. 
  - Applying this condition to the given equation $x^2 + {2\lambda}x + {\lambda} = 0$, we have:
  
@@ -95,44 +95,44 @@ eq 0$. Ensure that the coefficient of ${x^2}$ is not zero.
  - Use the quadratic formula: 
  
 
-x = $$\frac{{-b \pm \sqrt{{b^2 - 4ac}}}}{2a}$$
+x = \frac{{-b \pm \sqrt{{b^2 - 4ac}}}}{2a}
 
  - For the given equation $x^2 - 3x - 2 = 0$, we have $a = 1$, $b = -3$, and $c = -2$.
  - Substitute these values into the quadratic formula:
  
 
-x = $$\frac{{-(-3) \pm \sqrt{{(-3)^2 - 4(1)(-2)}}}}{2(1)} \$$
+x = \frac{{-(-3) \pm \sqrt{{(-3)^2 - 4(1)(-2)}}}}{2(1)} \
 
-x = $$\frac{{3 \pm \sqrt{{9 + 8}}}}{2} \$$
+x = \frac{{3 \pm \sqrt{{9 + 8}}}}{2} \
 
-x = $$\frac{{3 \pm \sqrt{{17}}}}{2}$$
+x = \frac{{3 \pm \sqrt{{17}}}}{2}
 
- - Therefore, the roots are $x = $$\frac{{3 + \sqrt{{17}}}}{2}$ and $x = \frac{{3 - \sqrt{{17}}}}{2}$.$$
+ - Therefore, the roots are $x = \frac{{3 + \sqrt{{17}}}}{2}$ and $x = \frac{{3 - \sqrt{{17}}}}{2}$.
  - **Answer:** $x = \frac{{3 + \sqrt{{17}}}}{2}$ and $x = \frac{{3 - \sqrt{{17}}}}{2}$
  - **Q3:** If $x = \frac{1}{{2 + \sqrt{3}}}$, then find the value of $x^2 + 3x - 4$.
  - **Trap:** Students may find it difficult to simplify the given expression for $x$.
  - **Solution:** 
- - To simplify $x = $$\frac{1}{{2 + \sqrt{3}}}$, multiply the numerator and denominator by the conjugate of the denominator:$$
+ - To simplify $x = \frac{1}{{2 + \sqrt{3}}}$, multiply the numerator and denominator by the conjugate of the denominator:
  
 
-x = $$\frac{1}{{2 + \sqrt{3}}} \times \frac{{2 - \sqrt{3}}}{{2 - \sqrt{3}}} \$$
+x = \frac{1}{{2 + \sqrt{3}}} \times \frac{{2 - \sqrt{3}}}{{2 - \sqrt{3}}} \
 
-x = $$\frac{{2 - \sqrt{3}}}{{(2)^2 - (\sqrt{3})^2}} \$$
+x = \frac{{2 - \sqrt{3}}}{{(2)^2 - (\sqrt{3})^2}} \
 
-x = $$\frac{{2 - \sqrt{3}}}{{4 - 3}} \$$
+x = \frac{{2 - \sqrt{3}}}{{4 - 3}} \
 
-x = 2 - $$\sqrt{3}$$
+x = 2 - \sqrt{3}
 
- - Now, substitute $x = 2 - $$\sqrt{3}$ into the expression $x^2 + 3x - 4$:$$
+ - Now, substitute $x = 2 - \sqrt{3}$ into the expression $x^2 + 3x - 4$:
  
 
-(2 - $$\sqrt{3})^2 + 3(2 - \sqrt{3}) - 4 \$$
+(2 - \sqrt{3})^2 + 3(2 - \sqrt{3}) - 4 \
 
-(4 - 4$$\sqrt{3} + 3) + (6 - 3\sqrt{3}) - 4 \$$
+(4 - 4\sqrt{3} + 3) + (6 - 3\sqrt{3}) - 4 \
 
-4 - 4$$\sqrt{3} + 3 + 6 - 3\sqrt{3} - 4 \$$
+4 - 4\sqrt{3} + 3 + 6 - 3\sqrt{3} - 4 \
 
-9 - 7$$\sqrt{3}$$
+9 - 7\sqrt{3}
 
  - **Answer:** $9 - 7\sqrt{3}$
 
@@ -153,7 +153,7 @@ x = 2 - $$\sqrt{3}$$
  + $\Delta > 0$: Real and distinct roots
  + $\Delta = 0$: Real and equal roots
  + $\Delta < 0$: Complex and conjugate roots
- * Relationship between roots and coefficients: For a quadratic equation $ax^2 + bx + c = 0$, the \sum of the roots $= -$$\frac{b}{a}$ and the product of the roots $= \frac{c}{a}$.$$
+ * Relationship between roots and coefficients: For a quadratic equation $ax^2 + bx + c = 0$, the \sum of the roots $= -\frac{b}{a}$ and the product of the roots $= \frac{c}{a}$.
  - **Example and Application:**
  * Example: For the equation $x^2 + 5x + 6 = 0$, the discriminant is $b^2 - 4ac = 5^2 - 4(1)(6) = 25 - 24 = 1 > 0$. Thus, the roots are real and distinct without needing to solve the equation fully.
 
@@ -171,11 +171,11 @@ x = 2 - $$\sqrt{3}$$
 
 - {a}{x}^2 + {b}{x} + {c} = 0: Standard form of a quadratic equation
 
-- {x} = $$\frac{{-b} \pm \sqrt{{{b}^2} - {4}{a}{c}}}{{2}{a}}: Quadratic formula$$
+- {x} = \frac{{-b} \pm \sqrt{{{b}^2} - {4}{a}{c}}}{{2}{a}}: Quadratic formula
 
  - {b}^2 - {4}{a}{c}$: Discriminant to determine nature of roots
- - {x} = $$\frac{{-b}}{{2}{a}}$: Formula for x-coordinate of vertex$$
- - {y} = {c} - $$\frac{{{b}^2}}{{4}{a}}$: Formula for y-coordinate of vertex$$
+ - {x} = \frac{{-b}}{{2}{a}}$: Formula for x-coordinate of vertex
+ - {y} = {c} - \frac{{{b}^2}}{{4}{a}}$: Formula for y-coordinate of vertex
  - Key facts:
  - A quadratic equation has two roots
  - Roots can be real or complex
@@ -217,9 +217,9 @@ D) (x + 2)(x + 6) = 0
 ---
 
 **4. The roots of the equation $ax^2 + bx + c = 0$ are $\alpha$ and $\beta$. What is the product of the roots $\alpha \beta$?**
-A) $-$$\frac{b}{a}$$$
+A) $-\frac{b}{a}$
 B) $\frac{b}{a}$
-C) $-$$\frac{c}{a}$$$
+C) $-\frac{c}{a}$
 D) $\frac{c}{a}$
 
 **Answer:** D) Using the product of roots formula $\alpha \beta = \frac{c}{a}$, we get the product of roots as $\frac{c}{a}$.
@@ -228,10 +228,10 @@ D) $\frac{c}{a}$
 
 **5. Solve the equation $2x^2 + 5x - 3 = 0$ using the quadratic formul
 a.**
-A) $x = $$\frac{-5 \pm \sqrt{5^2 - 4(2)(-3)}}{2(2)}$$$
-B) $x = $$\frac{-5 \pm \sqrt{5^2 + 4(2)(-3)}}{2(2)}$$$
-C) $x = $$\frac{-5 \pm \sqrt{5^2 - 4(2)(3)}}{2(2)}$$$
-D) $x = $$\frac{-5 \pm \sqrt{5^2 + 4(2)(3)}}{2(2)}$$$
+A) $x = \frac{-5 \pm \sqrt{5^2 - 4(2)(-3)}}{2(2)}$
+B) $x = \frac{-5 \pm \sqrt{5^2 + 4(2)(-3)}}{2(2)}$
+C) $x = \frac{-5 \pm \sqrt{5^2 - 4(2)(3)}}{2(2)}$
+D) $x = \frac{-5 \pm \sqrt{5^2 + 4(2)(3)}}{2(2)}$
 
 **Answer:** A) Using the quadratic formula $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$, we get $x = \frac{-5 \pm \sqrt{5^2 - 4(2)(-3)}}{2(2)}$.
 

@@ -176,7 +176,7 @@ P_{total} = P_1 + P_2 + P_3 + ...P_i = X_i \times P_{total} where $X_i$ = mole f
 **Graham's Law states that the rate of diffusion or effusion of a gas is inversely proportional to the square root of its molar mass.**
 
 
-$$\frac{r_1}{r_2} = \sqrt$\frac{M_2${M_1}}$$
+\frac{r_1}{r_2} = \sqrt$\frac{M_2${M_1}}
 
 
 
@@ -198,7 +198,7 @@ $$\frac{r_1}{r_2} = \sqrt$\frac{M_2${M_1}}$$
 2. Molecules are in constant, **random motion** in all directions.
 3. Collisions between molecules and container walls are **perfectly elastic** (no energy loss).
 4. There are **no intermolecular forces** of attraction or repulsion.
-5. Average Kinetic Energy is proportional to temperature: $KE_{avg} = $$\frac{3}{2}kT$ (per molecule) or $\frac{3}{2}RT$ (per mole).$$
+5. Average Kinetic Energy is proportional to temperature: $KE_{avg} = \frac{3}{2}kT$ (per molecule) or $\frac{3}{2}RT$ (per mole).
 
 ### <a id="molecular-speeds-jee-advanced"></a>Molecular Speeds (JEE Advanced)
 | Speed | Symbol | Formula | Relative Value |
@@ -222,7 +222,7 @@ $$\frac{r_1}{r_2} = \sqrt$\frac{M_2${M_1}}$$
 
 ### <a id="the-compressibility-factor-z"></a>The Compressibility Factor (Z)
 
-Z = $$\frac{PV}{nRT}$$
+Z = \frac{PV}{nRT}
 
 
 
@@ -246,7 +246,7 @@ Z = $$\frac{PV}{nRT}$$
 **The van der Waals Equation is a modified form of the ideal gas equation that accounts for the finite size of molecules (volume correction 'b') and intermolecular attractions (pressure correction 'a').**
 
 
-\left[P + $$\frac{an^2}{V^2}\right](V - nb) = nRT$$
+\left[P + \frac{an^2}{V^2}\right](V - nb) = nRT
 
 
 
@@ -317,9 +317,9 @@ D) 200°C
 **Q2. The ratio of rates of diffusion of $CO_2$ and $SO_2$ at the same T and P is:** [JEE Medium]  
 A) $\sqrt{11/16}$
 B) $\sqrt{16/11}$
-C) $4/$$\sqrt{11}$$$
+C) $4/\sqrt{11}$
 D) $\sqrt{64/44}$
-*Answer: B ($r_{CO_2}/r_{SO_2} = $$\sqrt{M_{SO_2}/M_{CO_2}} = \sqrt{64/44} = \sqrt{16/11}$).*$$
+*Answer: B ($r_{CO_2}/r_{SO_2} = \sqrt{M_{SO_2}/M_{CO_2}} = \sqrt{64/44} = \sqrt{16/11}$).*
 
 **Q3. For a gas, $Z < 1$ at moderate pressures. This implies:** [JEE Hard]  
 A) The gas is easier to compress than an ideal gas
@@ -402,3 +402,4 @@ Continue your [revision](/blog/classification-elements-periodicity-class-11-revi
 - 📖 [Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/structure-of-atom-class-11-revision-notes-jee-neet)
 - 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
 - 📖 [Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet)
+$

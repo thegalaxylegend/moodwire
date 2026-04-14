@@ -9,7 +9,7 @@ practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
 
 *Last Updated: 2026-04-09*
 
-<div class="quick-summary">
+<div [class](/blog/introduction-to-trigonometry-class-10-notes)="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
@@ -112,7 +112,7 @@ practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
  * Recognize the difference between $\sqrt{a}$ and $\pm\sqrt{a}$ and apply them accordingly
  * Simplify radicals using the property $\sqrt{a} \times \sqrt{b} = \sqrt{ab}$
  * Consider the domain of the square root function to avoid extraneous solutions, using the property $x \geq 0$ for $\sqrt{x}$
- * Apply these concepts to solve equations involving square roots, such as $x^2 = a$, where $x = \pm$$\sqrt{a}$$$
+ * Apply these concepts to solve equations involving square roots, such as $x^2 = a$, where $x = \pm\sqrt{a}$
  * Use the formula $a^2 - b^2 = (a+b)(a-b)$ to factor expressions and simplify equations, a^2 - b^2 = (a+b)(a-b)
  * Consider the properties of inequalities involving square roots, such as $\sqrt{x} \geq a$, which implies $x \geq a^2$
 
@@ -134,15 +134,15 @@ practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- {$$\sqrt{a^2} = |a|}: Absolute value of a number$$
+- {\sqrt{a^2} = |a|}: Absolute value of a number
 
  - {a^n}: Exponentiation, where {n} is the exponent
 
-- {a^{$$\frac{m}{n}} = $\sqrt[n]{a^m$}}: Rational exponentiation$$
+- {a^{\frac{m}{n}} = $\sqrt[n]{a^m$}}: Rational exponentiation
 
  - {a^{m+n} = a^m \times a^n}: Product ru\le for exponents
 
-- {$$\frac{a^m}{a^n} = a^{m-n}}: Quotient ru\le for exponents$$
+- {\frac{a^m}{a^n} = a^{m-n}}: Quotient ru\le for exponents
 
  - Key facts:
  - Real numbers include all rational and irrational numbers
@@ -221,3 +221,4 @@ Continue your revision with these related guides:
 - 📖 [Polynomials Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/polynomials-class-10-notes)
 - 📖 [Quadratic Equations Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/quadratic-equations-class-10-notes)
 
+$

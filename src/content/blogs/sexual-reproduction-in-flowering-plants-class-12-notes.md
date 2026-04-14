@@ -22,11 +22,11 @@ practice_link: "/class-11/biology/sexual-reproduction-in-flowering-plants-class-
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Law of Independent Assortment:** $$\frac{1}{2} \times \frac{1}{2} = \frac{1}{4} — Probability of two independent traits being inherited together.$$
+- **Law of Independent Assortment:** \frac{1}{2} \times \frac{1}{2} = \frac{1}{4} — Probability of two independent traits being inherited together.
 
-- **Law of Segregation:** $$\frac{1}{2} : \frac{1}{2} — Ratio of two alleles in gametes.$$
+- **Law of Segregation:** \frac{1}{2} : \frac{1}{2} — Ratio of two alleles in gametes.
 
-- **Punnett Square Formula:** $$\frac{(\text{Number of favorable outcomes})}{(\text{Total number of outcomes})} — Probability of a specific genotype or phenotype.$$
+- **Punnett Square Formula:** \frac{(\text{Number of favorable outcomes})}{(\text{Total number of outcomes})} — Probability of a specific genotype or phenotype.
 
  - **Hardy-Weinberg Principle:** p^2 + 2pq + q^2 = 1 — Allele and genotype frequencies in a population, where $p$ and $q$ are the frequencies of the two alleles.
 
@@ -40,11 +40,11 @@ practice_link: "/class-11/biology/sexual-reproduction-in-flowering-plants-class-
 
 - **Chi-Square Test:** \chi^2 = \sum \frac{(\text{Observed frequency} - \text{Expected frequency})^2}$\text{Expected frequency$} — Test for goodness of fit between observed and expected frequencies.
 
-- **Linkage Distance (cM):** $$\frac{(\text{Number of recombinants})}{(\text{Total number of offspring})} \times 100 — Measure of the distance between two linked genes.$$
+- **Linkage Distance (cM):** \frac{(\text{Number of recombinants})}{(\text{Total number of offspring})} \times 100 — Measure of the distance between two linked genes.
 
-- **Map Distance (cM):** $$\frac{(\text{Number of recombinants})}{(\text{Total number of offspring})} \times 100 — Measure of the distance between two linked genes.$$
+- **Map Distance (cM):** \frac{(\text{Number of recombinants})}{(\text{Total number of offspring})} \times 100 — Measure of the distance between two linked genes.
 
-- **Recombination Frequency:** $$\frac{(\text{Number of recombinants})}{(\text{Total number of offspring})} — Measure of the frequency of recombination between two linked genes.$$
+- **Recombination Frequency:** \frac{(\text{Number of recombinants})}{(\text{Total number of offspring})} — Measure of the frequency of recombination between two linked genes.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -152,7 +152,7 @@ practice_link: "/class-11/biology/sexual-reproduction-in-flowering-plants-class-
 
   
 
- $$\text{Male Gamete} + \text{Egg Cell} \rightarrow \text{Zygote (2n)}\text{Male Gamete} + 2 \text{ Polar Nuclei (2n)} \rightarrow \text{Primary Endosperm Nucleus (3n)}$$
+ \text{Male Gamete} + \text{Egg Cell} \rightarrow \text{Zygote (2n)}\text{Male Gamete} + 2 \text{ Polar Nuclei (2n)} \rightarrow \text{Primary Endosperm Nucleus (3n)}
 
  
 
@@ -185,7 +185,7 @@ ightarrow n$ transition during meiosis and its implications for seed formation. 
 
 - $2n$ gametes fuse to form a $2n$ zygote during fertilization.
 
-- $$\frac{1}{2} of the pollen grains produce male gametes, while the other \frac{1}{2} produce female gametes.$$
+- \frac{1}{2} of the pollen grains produce male gametes, while the other \frac{1}{2} produce female gametes.
 
  - The process of microsporogenesis produces $4$ microspores, which develop into $4$ pollen grains.
 

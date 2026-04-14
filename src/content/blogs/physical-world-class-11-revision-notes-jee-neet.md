@@ -75,7 +75,7 @@ This chapter is crucial for [class](/blog/environmental-chemistry-class-11-revis
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div class="ayush-note">
+<div [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)="ayush-note">
 I still remember when I was preparing for my [class](/blog/environmental-chemistry-class-11-revision-notes-neet) 11 exams, I struggled to understand the concept of significant figures. I used to think that it was just a matter of rounding off numbers, but I soon realized that it was much more than that. Significant figures are crucial in scientific experiments as they help in reducing errors and increasing the accuracy of results. I made a mistake in one of my exams by not considering significant figures, which cost me a few marks. However, I learned from my mistake and made sure to practice more problems to understand the concept better.
 </div>
 

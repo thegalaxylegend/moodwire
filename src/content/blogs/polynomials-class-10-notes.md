@@ -9,7 +9,7 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
 
 *Last Updated: 2026-04-09*
 
-<div class="quick-summary">
+<div [class](/blog/introduction-to-trigonometry-class-10-notes)="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
@@ -38,17 +38,17 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Remainder Theorem:** $$\frac{p(x)}{x - a} = q(x) + \frac{p(a)}{x - a} — p(x) is the polynomial, q(x) is the quotient, and p(a) is the remainder when p(x) is divided by (x - a).$$
+- **Remainder Theorem:** \frac{p(x)}{x - a} = q(x) + \frac{p(a)}{x - a} — p(x) is the polynomial, q(x) is the quotient, and p(a) is the remainder when p(x) is divided by (x - a).
 
  - **Factor Theorem:** p(a) = 0 \Rightarrow (x - a) \text{ is a factor of } p(x) — p(x) is the polynomial and a is the root.
  - **Polynomial Division:** p(x) = d(x)q(x) + r(x) — p(x) is the dividend, d(x) is the divisor, q(x) is the quotient, and r(x) is the remainder.
- - **Degree of Polynomial:** $$\text{Degree of } p(x) = n — n is the highest power of x in p(x).$$
+ - **Degree of Polynomial:** \text{Degree of } p(x) = n — n is the highest power of x in p(x).
  - **Zero of Polynomial:** p(a) = 0 \Rightarrow a \text{ is a zero of } p(x) — p(x) is the polynomial and a is the zero.
  - **Quadratic Formula:** x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} — a, b, and c are coefficients of the quadratic equation $ax^2 + bx + c = 0$.
  - **Sum and Product of Roots:** x_1 + x_2 = -\frac{b}{a} \text{ and } x_1x_2 = \frac{c}{a} — $x_1$ and $x_2$ are the roots of the quadratic equation $ax^2 + bx + c = 0$.
  - **Cubic Formula:** x = \sqrt[3]{-\frac{q}{2} + \sqrt$\frac{q^2${4} + \frac{p^3}{27}}} + \sqrt[3]{-\frac{q}{2} - \sqrt$\frac{q^2${4} + \frac{p^3}{27}}} — p and q are coefficients of the cubic equation $x^3 + px + q = 0$.
- - **Descartes' Ru\le of Signs:** $$\text{Number of positive roots} = \text{number of sign changes in } p(x) — p(x) is the polynomial.$$
- - **Intermediate Value Theorem:** $$\text{If } p(a) < 0 \text{ and } p(b) > 0, \text{ then } \exists c \in (a, b) \text{ such that } p(c) = 0 — p(x) is the polynomial and a and b are real numbers.$$
+ - **Descartes' Ru\le of Signs:** \text{Number of positive roots} = \text{number of sign changes in } p(x) — p(x) is the polynomial.
+ - **Intermediate Value Theorem:** \text{If } p(a) < 0 \text{ and } p(b) > 0, \text{ then } \exists c \in (a, b) \text{ such that } p(c) = 0 — p(x) is the polynomial and a and b are real numbers.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -73,7 +73,7 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
 - **Q1:** If $a$ and $b$ are the roots of the quadratic equation $x^2 - 6x + 2 = 0$, then find the value of $(a^2 + b^2)$.
  - **Trap:** Students often get confused between the \sum and product of roots and their application in such problems.
  - **Solution:** 
- - We know that for a quadratic equation of the form $x^2 - ($$\sum{roots})x + (\prod{roots}) = 0$, the \sum of the roots $= (a + b)$ and the product of the roots $= ab$.$$
+ - We know that for a quadratic equation of the form $x^2 - (\sum{roots})x + (\prod{roots}) = 0$, the \sum of the roots $= (a + b)$ and the product of the roots $= ab$.
  - Here, $a + b = 6$ and $ab = 2$.
  - To find $a^2 + b^2$, we can use the identity $(a + b)^2 = a^2 + b^2 + 2ab$.
  - Thus, $a^2 + b^2 = (a + b)^2 - 2ab = 6^2 - 2(2) = 36 - 4 = 32$.
@@ -85,9 +85,9 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
  - Here, $a = 1$, $b = (k - 2)$, and $c = 4k$.
  - Thus, we have $(k - 2)^2 - 4(1)(4k) = 0$.
  - Expanding this gives $k^2 - 4k + 4 - 16k = 0$, or $k^2 - 20k + 4 = 0$.
- - Solving this quadratic equation for $k$ gives $k = $$\frac{-(-20) \pm \sqrt{(-20)^2 - 4(1)(4)}}{2(1)}$.$$
- - Simplifying further yields $k = $$\frac{20 \pm \sqrt{400 - 16}}{2}$, which becomes $k = \frac{20 \pm \sqrt{384}}{2}$ or $k = \frac{20 \pm 8\sqrt{6}}{2}$.$$
- - Thus, $k = 10 \pm 4$$\sqrt{6}$.$$
+ - Solving this quadratic equation for $k$ gives $k = \frac{-(-20) \pm \sqrt{(-20)^2 - 4(1)(4)}}{2(1)}$.
+ - Simplifying further yields $k = \frac{20 \pm \sqrt{400 - 16}}{2}$, which becomes $k = \frac{20 \pm \sqrt{384}}{2}$ or $k = \frac{20 \pm 8\sqrt{6}}{2}$.
+ - Thus, $k = 10 \pm 4\sqrt{6}$.
  - **Answer:** $10 \pm 4\sqrt{6}$
  - **Q3:** If $P(x) = x^3 - 6x^2 + 11x - 6$, find $P(2)$.
  - **Trap:** Students might forget to substitute the value of $x$ correctly into the polynomial.
@@ -128,7 +128,7 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
 
 | Polynomial Degree | Formula | Discriminant |
 | --- | --- | --- |
-| Quadratic ($ax^2 + bx + c = 0$) | $x = $$\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$ | $b^2 - 4ac$ |$$
+| Quadratic ($ax^2 + bx + c = 0$) | $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$ | $b^2 - 4ac$ |
 | Cubic ($x^3 + px^2 + qx + r = 0$) | Cardano's formula | $18pqr - 4p^3r + p^2q^2 - 4q^3 - 27r^2$ |
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
@@ -181,10 +181,10 @@ D) $(x^2 - 1)(x^2 + 5)$
 ---
 
 **4. If $a$, $b$ are the roots of the equation $x^2 - 6x + 5 = 0$, then the equation whose roots are $\frac{1}{a}$, $\frac{1}{b}$ is**
-A) $x^2 - $$\frac{5}{6}x + 1 = 0$$$
-B) $x^2 - $$\frac{6}{5}x + 1 = 0$$$
-C) $x^2 + $$\frac{6}{5}x + 1 = 0$$$
-D) $x^2 + $$\frac{5}{6}x + 1 = 0$$$
+A) $x^2 - \frac{5}{6}x + 1 = 0$
+B) $x^2 - \frac{6}{5}x + 1 = 0$
+C) $x^2 + \frac{6}{5}x + 1 = 0$
+D) $x^2 + \frac{5}{6}x + 1 = 0$
 
 **Answer:** B) We have, $a + b = 6$ and $ab = 5$. Hence, $\frac{1}{a} + \frac{1}{b} = \frac{a + b}{ab} = \frac{6}{5}$, and $\frac{1}{a} 	imes \frac{1}{b} = \frac{1}{5}$. Therefore, the required equation is $x^2 - \frac{6}{5}x + \frac{1}{5} = 0$, or $x^2 - \frac{6}{5}x + 1 = 0$
 

@@ -73,11 +73,11 @@ The core concepts in the classification of [elements](/blog/the-p-block-elements
 
 * $Z = p + n$, where $Z$ is the atomic number, $p$ is the number of protons, and $n$ is the number of neutrons
 * $A = p + n$, where $A$ is the mass number
-* $\lambda = $$\frac{h}{mv}$, where $\lambda$ is the wavelength, $h$ is Planck's constant, $m$ is the mass, and $v$ is the velocity$$
+* $\lambda = \frac{h}{mv}$, where $\lambda$ is the wavelength, $h$ is Planck's constant, $m$ is the mass, and $v$ is the velocity
 
 ## <a id="trends-in-physical-and-chemical-properties"></a>Trends in Physical and Chemical Properties
 
-The classification of elements also helps us to understand the trends in physical and chemical properties. For example:
+The classification of [elements](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) also helps us to understand the trends in physical and chemical properties. For example:
 
 * Atomic radius: The atomic radius decreases from left to right across a period, and increases from top to bottom down a group
 * Electronegativity: The electronegativity increases from left to right across a period, and decreases from top to bottom down a group
@@ -88,8 +88,8 @@ The classification of elements also helps us to understand the trends in physica
 Here are some examples of LaTeX equations related to the classification of elements:
 
 * The electronic configuration of an element can be represented as: $1s^2 2s^2 2p^6$
-* The atomic radius of an element can be calculated using the formula: $r = $$\frac{a}{Z}$, where $r$ is the atomic radius, $a$ is a constant, and $Z$ is the atomic number$$
-* The ionization energy of an element can be represented as: $\Delta E = $$\frac{hc}{\lambda}$, where $\Delta E$ is the ionization energy, $h$ is Planck's constant, $c$ is the speed of light, and $\lambda$ is the wavelength$$
+* The atomic radius of an element can be calculated using the formula: $r = \frac{a}{Z}$, where $r$ is the atomic radius, $a$ is a constant, and $Z$ is the atomic number
+* The ionization energy of an element can be represented as: $\Delta E = \frac{hc}{\lambda}$, where $\Delta E$ is the ionization energy, $h$ is Planck's constant, $c$ is the speed of light, and $\lambda$ is the wavelength
 
 As I continue to explore the world of [chemistry](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet), I realize that the classification of elements is a fundamental concept that underlies many of the principles and reactions that we study. By understanding the periodic table and the trends in physical and chemical properties, I can better appreciate the beauty and complexity of the chemical world. Whether I'm solving problems, practicing MCQs, or simply exploring the properties of different elements, I know that the classification of elements will remain a vital tool in my journey as a chemistry student. 
 
@@ -301,3 +301,22 @@ Continue your revision with these related guides:
 - 📖 [Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)
 - 📖 [The P Block Elements 11 Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet)
 - 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* **Mistaking Metals and Non-Metals**: Be careful not to confuse the properties of metals and non-metals. Metals typically exhibit high malleability, ductility, and conductivity, whereas non-metals are generally brittle and poor conductors.
+* **Incorrectly Identifying Metalloids**: Metalloids, such as silicon and germanium, often exhibit properties of both metals and non-metals. Ensure you can correctly distinguish them from metals and non-metals.
+* **Forgetting the Periodic Trends**: Remember that the periodic table exhibits trends in atomic radius, electronegativity, and electron affinity. Forgetting these trends can lead to incorrect classifications of elements.
+* **Confusing Alkali and Alkaline Earth Metals**: Alkali metals (Group 1) and alkaline earth metals (Group 2) have distinct properties, such as reactivity and ionization energy. Be sure to differentiate between these two groups.
+* **Not Accounting for Transition Metals**: Transition metals (d-block elements) often exhibit variable valency and catalytic properties. Don't overlook their unique characteristics when classifying elements.
+
+## 🔁 Last 5 Minutes Box
+
+* **Blocks**: Elements are divided into four blocks: s-block, p-block, d-block, and f-block based on the orbital that is being filled.
+      * **Periods**: Elements are divided into seven periods or horizontal rows based on the principal quantum number.
+      * **Groups**: Elements are divided into 18 groups or vertical columns based on similar chemical properties.
+      * **Metals, Non-metals, Metalloids**: Metals are on the left side of the periodic table, non-metals are on the right side, and metalloids are on the border.
+      * **Noble Gases**: Unreactive elements in group 18 of the periodic table.
+      * **Halogens**: Highly reactive non-metals in group 17 of the periodic table.
+      * **Alkali Metals**: Highly reactive metals in group 1 of the periodic table.
+      * **Alkaline Earth Metals**: Less reactive metals in group 2 of the periodic table.

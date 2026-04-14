@@ -63,23 +63,23 @@ Here's a simple example to get you started:
 
 Suppose you're designing an algorithm to sort a large dataset. You could use a quicksort algorithm, which has an average time complexity of $O(n log n)$, but a worst-case time complexity of $O(n^2)$. On the other hand, you could use a mergesort algorithm, which has a time complexity of $O(n log n)$ in all cases, but requires more memory. Which algorithm would you choose, and why? 
 
-As you can see, algorithm analysis is not just about solving problems; it's about making informed decisions about which algorithms to use in different situations. It's about being able to analyze complex problems, identify the most efficient solutions, and optimize your code to meet performance requirements. So, let's get started, and see where this journey takes us! 
+As you can see, algorithm analysis is not just about solving problems; it's about making informed decisions about which [algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards) to use in different situations. It's about being able to analyze complex problems, identify the most efficient solutions, and optimize your code to meet performance requirements. So, let's get started, and see where this journey takes us! 
 
 Here's a block of code to illustrate the concept:
 
-$$\begin{aligned}$$
-&$$\text{Quicksort Algorithm} \\$$
-&$$\text{Time Complexity: } O(n log n) \\$$
-&$$\text{Space Complexity: } O(log n) \\$$
-&$$\text{Worst-Case Time Complexity: } O(n^2) \\\end{aligned}\begin{aligned}$$
-&$$\text{Mergesort Algorithm} \\$$
-&$$\text{Time Complexity: } O(n log n) \\$$
-&$$\text{Space Complexity: } O(n) \\$$
-&$$\text{Worst-Case Time Complexity: } O(n log n) \\\end{aligned}$$
+\begin{aligned}
+&\text{Quicksort Algorithm} \\
+&\text{Time Complexity: } O(n log n) \\
+&\text{Space Complexity: } O(log n) \\
+&\text{Worst-Case Time Complexity: } O(n^2) \\\end{aligned}\begin{aligned}
+&\text{Mergesort Algorithm} \\
+&\text{Time Complexity: } O(n log n) \\
+&\text{Space Complexity: } O(n) \\
+&\text{Worst-Case Time Complexity: } O(n log n) \\\end{aligned}
 
 As you can see, the quicksort algorithm has a faster average time complexity, but a worse worst-case time complexity. On the other hand, the mergesort algorithm has a slower average time complexity, but a better worst-case time complexity. Which algorithm would you choose, and why? 
 
-This is just a simple example, but it illustrates the concept of algorithm analysis and how to apply it to real-world problems. In the coming sections, we'll explore more complex topics, including dynamic programming, greedy algorithms, and divide-and-conquer algorithms. We'll also look at real-world examples of how algorithm analysis is used in different fields, from data science to artificial intelligence. So, let's get started, and see where this journey takes us!
+This is just a simple example, but it illustrates the concept of algorithm analysis and how to apply it to real-world problems. In the coming sections, we'll explore more complex topics, including dynamic programming, greedy algorithms, and divide-and-conquer algorithms. We'll also look at real-world examples of how algorithm analysis is used in different fields, from [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) science to artificial intelligence. So, let's get started, and see where this journey takes us!
 
 
 ## <a id="what-is-ayushs-note-on-algorithms-analysis"></a>What is Ayush's Note on Algorithms: Analysis?

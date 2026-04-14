@@ -117,9 +117,9 @@ I remember when I was studying for my [class](/blog/cell-the-unit-of-life-class-
 
 ## <a id="shortcut-formula-trick"></a>Shortcut Formula / Trick
 
-To remember the different phyla and classes of animals, you can use the following shortcut formula:
+To remember the different phyla and classes of [animals](/blog/structural-organisation-in-animals-class-11-revision-notes-neet), you can use the following shortcut formula:
 * Phylum Chordata: notochord, dorsal nerve cord, pharyngeal slits
-* Class Mammalia: hair, mammary glands
+* [class](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) Mammalia: hair, mammary glands
 * Order Carnivora: meat-eating mammals
 
 

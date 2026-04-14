@@ -62,7 +62,7 @@ In this chapter, it's essential to remember that the stem, root, and leaves are 
 Welcome to the fascinating world of plant anatomy! This chapter accounts for a significant weightage in various competitive exams like JEE, MEET, and boards. According to JEE Advanced analysis, around 6.4% questions are directly related to this topic, while in MEET it is around 4.9%. As per CBSE, 8.2% of total marks in [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) 11 Biology are dedicated to plant anatomy, out of which a substantial portion is reserved for this chapter. This comprehensive chapter helps students grasp the fundamental concepts of plant anatomy, including the detailed descriptions of cell structure, tissue systems, and organ organization. It also provides an essential background for understanding plant physiology, genetics, and other related disciplines. By chapter, students will not only perform exceptionally well in exams but also develop a deep appreciation for the intricate complexities of plant biology. Let's break down the weightage of various subtopics in this chapter: 
 In JEE Advanced: [cell](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) structure (1.2%), Tissue systems (1.5%), and Organ organization (3.7%)
 
-In MEET: Cell structure (1.8%), Tissue systems (2.3%), and Organ organization (0.8%)
+In MEET: [cell](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) structure (1.8%), Tissue systems (2.3%), and Organ organization (0.8%)
 
 In CBSE: Tissue systems (6.1%), Organ organization (2.1%)
 
@@ -100,7 +100,7 @@ The anatomy of flowering plants can be summarized as a quick revision on the key
 
 ## <a id="introduction-to-plant-anatomy"></a>Introduction to Plant Anatomy
 
-Plant anatomy is the study of the internal structure of plants. It is a vital subject for understanding how plants grow, develop, and respond to their environment. In Class 11, we focus on the anatomy of flowering plants, which includes both vegetative and reproductive structures.
+Plant anatomy is the study of the internal structure of plants. It is a vital subject for understanding how plants grow, develop, and respond to their environment. In [class](/blog/biological-classification-class-11-revision-notes-neet) 11, we focus on the anatomy of flowering plants, which includes both vegetative and reproductive structures.
 
 ## <a id="why-this-chapter-matters"></a>Why This Chapter Matters
 

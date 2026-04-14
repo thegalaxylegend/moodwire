@@ -16,7 +16,7 @@ practice_link: "/class-11/chemistry/chemistry-in-everyday-life-class-12-notes"
 
 - [🎯 What WILL Come in Your Exam](#-what-will-come-in-your-exam)
 - [⚡ Formula Bank](#-formula-bank)
-  - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
+ - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
 - [📚 Related Topics](#-related-topics)
 
 
@@ -25,7 +25,7 @@ practice_link: "/class-11/chemistry/chemistry-in-everyday-life-class-12-notes"
 
 
 
-<DIV class="quick-summary">
+<DIV [class](/blog/amines-class-12-notes)="quick-summary">
 
 #- [📋 Table of Contents](#-table-of-contents)
 
@@ -131,7 +131,7 @@ Continue your revision with these related guides:
 ## 🪤 The 5 Mistakes That Cost Marks
 
 * **Incorrectly identifying soap as a detergent**: Many students incorrectly identify soap as a synthetic detergent, while in fact, soaps are typically made from natural products and are distinct from synthetic detergents.
-* **Forgetting the role of emulsification in drug action**: Emulsification plays a crucial role in the absorption of drugs, especially those that are lipid-soluble. Forgetting this concept can lead to incorrect answers about the action of certain drugs.
+* **Forgetting the role of emulsification in drug action**: Emulsification in the absorption of drugs, especially those that are lipid-soluble. Forgetting this concept can lead to incorrect answers about the action of certain drugs.
 * **Confusing antacids and antihistamines**: Some students may get confused between the functions of antacids, which are used to neutralize stomach acid, and antihistamines, which are used to counter allergic reactions.
 * **Not understanding the difference between disinfectants and antiseptics**: Disinfectants are used to kill microorganisms on inanimate surfaces, while antiseptics are applied to living tissues to reduce the growth of microorganisms. Failing to recognize this distinction can lead to incorrect answers.
 * **Failing to recognize the importance of chemical equilibrium in drug efficacy**: The efficacy of some drugs depends on their ability to maintain a certain level of concentration in the bloodstream, which is influenced by chemical equilibrium. Not considering this factor can result in incorrect assessments of drug effectiveness.
@@ -139,13 +139,13 @@ Continue your revision with these related guides:
 ## 🔁 Last 5 Minutes Box
 
 - **Soaps and Detergents**: Soaps are sodium or potassium salts of higher fatty [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes), Detergents are sodium or potassium salts of long chain alkyl benzene sulphonic [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes) or long chain alkyl sulfates.
-   - **Drugs**: Drugs are chemicals which interact with biological systems to produce a positive therapeutic effect, e.g., analgesics, antacids.
-   - **Food Additives**: Food additives are substances added to food to preserve or improve its quality, e.g., sodium benzoate, BHA.
-   - **Cleansing Agents**: Cleansing agents are substances that help in removing dirt or stain, e.g., soaps, detergents, zeolites.
-   - **Chemicals in Medicines**: Medicines are chemicals used for diagnosis, prevention or treatment of a disease, e.g., antibiotics, antiseptics, antivirals.
+ - **Drugs**: Drugs are chemicals which interact with biological systems to produce a positive therapeutic effect, e.g., analgesics, antacids.
+ - **Food Additives**: Food additives are substances added to food to preserve or improve its quality, e.g., sodium benzoate, BHA.
+ - **Cleansing Agents**: Cleansing agents are substances that help in removing dirt or stain, e.g., soaps, detergents, zeolites.
+ - **Chemicals in Medicines**: Medicines are chemicals used for diagnosis, prevention or treatment of a disease, e.g., antibiotics, antiseptics, antivirals.
 ## ⚗️ Chemical Quick Reference (Verified via PubChem)
 
-| Compound | Formula | Mol. Weight | Source |
+| Compound | Formula | MOL. Weight | Source |
 |:---|:---:|:---:|:---:|
-| **water** | H2O | 18.015 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/962) |
-| **benzene** | C6H6 | 78.11 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/241) |
+| **water** | H2O | 18.015 g/MOL | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/962) |
+| **benzene** | C6H6 | 78.11 g/MOL | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/241) |

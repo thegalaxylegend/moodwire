@@ -54,21 +54,21 @@ practice_link: "/class-11/mathematics/integrals-class-12-notes"
 
   Leading to:
 
-\int x^n dx = $$\frac{x^{n+1}}{n+1} + C$$
+\int x^n dx = \frac{x^{n+1}}{n+1} + C
 
 
 
 #### Exponential Integration Formula
 - Derivation using definition of exponential function:
 
-e^x = \lim_{n \to \infty} \left(1 + $$\frac{x}{n} \right)^n$$
+e^x = \lim_{n \to \infty} \left(1 + \frac{x}{n} \right)^n
 
 
   Taking derivative and simplifying leads to:
   \int e^x dx = e^x + C
   And more generally:
 
-\int e^{ax} dx = $$\frac{1}{a} e^{ax} + C$$
+\int e^{ax} dx = \frac{1}{a} e^{ax} + C
 
 
 
@@ -93,7 +93,7 @@ e^x = \lim_{n \to \infty} \left(1 + $$\frac{x}{n} \right)^n$$
 #### Partial Fractions Decomposition
 - General form for $\frac{1}{(x-a)(x-b)}$:
 
-$$\frac{1}{(x-a)(x-b)} = \frac{A}{x-a} + \frac{B}{x-b}$$
+\frac{1}{(x-a)(x-b)} = \frac{A}{x-a} + \frac{B}{x-b}
 
 
 - Key points:
@@ -127,7 +127,7 @@ V = \int_{a}^{b} \pi (f(x))^2 dx
 #### Surface Area
 - General form:
 
-S = \int_{a}^{b} 2 \pi f(x) $$\sqrt{1 + (f'(x))^2} dx$$
+S = \int_{a}^{b} 2 \pi f(x) \sqrt{1 + (f'(x))^2} dx
 
 
 - Key points:
@@ -200,7 +200,7 @@ V = \int \int \int_{D} dV
 #### Surface Area
 - General form:
 
-S = \int \int_{D} $$\sqrt{1 + (f_x)^2 + (f_y)^2} dA$$
+S = \int \int_{D} \sqrt{1 + (f_x)^2 + (f_y)^2} dA
 
 
 - Key points:
@@ -230,7 +230,7 @@ where $f(x,y)$ is the height of the solid at the point $(x,y)$.
 #### #### Surface Area:
 The surface area of a solid can be found using a multiple integral. The general form of the surface area is:
 
-S = \int_{a}^{b} \int_{c}^{d} $$\sqrt{1 + (f_x(x,y))^2 + (f_y(x,y))^2} dy dx$$
+S = \int_{a}^{b} \int_{c}^{d} \sqrt{1 + (f_x(x,y))^2 + (f_y(x,y))^2} dy dx
 
 
 where $f_x(x,y)$ and $f_y(x,y)$ are the partial derivatives of $f(x,y)$ with respect to $x$ and $y$, respectively.
@@ -238,7 +238,7 @@ where $f_x(x,y)$ and $f_y(x,y)$ are the partial derivatives of $f(x,y)$ with res
 #### #### Center of Mass:
 The center of mass of a solid can be found using a multiple integral. The general form of the center of mass is:
 
-\bar{x} = $$\frac$\int_{a$^{b} \int_{c}^{d} x \rho(x,y) dy dx}$\int_{a$^{b} \int_{c}^{d} \rho(x,y) dy dx}$$
+\bar{x} = \frac$\int_{a$^{b} \int_{c}^{d} x \rho(x,y) dy dx}$\int_{a$^{b} \int_{c}^{d} \rho(x,y) dy dx}
 
 
 where $\rho(x,y)$ is the density of the solid at the point $(x,y)$.
@@ -294,7 +294,7 @@ Using the Test Center at /[class](/blog/determinants-class-12-notes)-11/mathemat
 *   **Develop Problem-Solving Skills:** Enhance your problem-solving skills, learning to approach complex integral problems with confidence.
 *   **Improve Time Management:** Practice managing your time effectively, ensuring you can complete tests and exams within the allotted time.
 
-By utilizing the Test Center, you'll be well-prepared for your JEE 2026 exam and develop a deep understanding of integrals, setting yourself up for success in your future academic and professional pursuits.
+By utilizing the Test Center, you'll be well-prepared for your JEE 2026 exam and develop a deep understanding of [integrals](/blog/application-of-integrals-class-12-notes), setting yourself up for success in your future academic and professional pursuits.
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 

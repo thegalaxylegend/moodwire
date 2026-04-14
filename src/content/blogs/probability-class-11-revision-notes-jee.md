@@ -118,8 +118,8 @@ Instead of just counting outcomes, we assign a number $P(E)$ to an event $E$ tha
 3.  If $A$ and $B$ are mutually exclusive, $P(A \cup B) = P(A) + P(B)$.
 
 ### <a id="fundamental-formulas"></a>Fundamental Formulas:
-- **$P(A $$\text{ or } B) = P(A \cup B) = P(A) + P(B) - P(A \cap B)$**$$
-- **$P($$\text{not } A) = P(A') = 1 - P(A)$**$$
+- **$P(A \text{ or } B) = P(A \cup B) = P(A) + P(B) - P(A \cap B)$**
+- **$P(\text{not } A) = P(A') = 1 - P(A)$**
 - **$P(A - B) = P(A) - P(A \cap B)$**
 
 ---

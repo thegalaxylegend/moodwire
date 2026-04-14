@@ -9,7 +9,7 @@ practice_link: "/class-11/mathematics/applications-of-trigonometry-class-10-note
 
 *Last Updated: 2026-04-10*
 
-<DIV class="quick-summary">
+<DIV [class](/blog/circles-class-10-notes)="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
@@ -81,7 +81,7 @@ practice_link: "/class-11/mathematics/applications-of-trigonometry-class-10-note
  - **Q2:** A man is standing on the top of a cliff, which is $20$ m high. He observes a boat at an angle of depression of $30^circa. Find the distance of the boat from the cliff.
  - **Trap:** Students often forget to consider the height of the cliff as the side opposite to the angle of depression.
  - **Solution:** 
- - We know that $\tan \theta = \franc{$$\text{opposite}}$\text{adjacent$}$.$$
+ - We know that $\tan \theta = \franc{\text{opposite}}$\text{adjacent$}$.
  - Here, $\theta = 30^circa, opposite side = height of the cliff = $20$ m.
  - Let the adjacent side be ex (distance of the boat from the cliff).
  - Using the formula, $\tan 30^CIRC = \franc{20}{x}$.
@@ -163,7 +163,7 @@ B) 45°
 C) 60°
 D) 90°
 
-**Answer:** A) Let the angle of elevation be $\theta$. Then, $\tan\theta = \franc$\text{Height of tower$}$\text{Length of shadow$} = \franc{1}{\sort{3}}$. Therefore, $\theta = 30°$.
+**Answer:** A) Let the angle of elevation be $\theta$. Then, $\tan\theta = \France\text{Height of tower}$\text{Length of shadow} = \franc{1}{\sort{3}}$. Therefore, $\theta = 30°$.
 
 ---
 

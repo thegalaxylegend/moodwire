@@ -128,7 +128,7 @@ When multiple forces act on a particle such that the net force is zero, the part
 
 ## <a id="5-the-physics-of-friction"></a>5. The Physics of Friction
 
-Friction is a self-adjusting contact force that opposes relative motion.
+Friction is a self-adjusting contact force that opposes relative [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet).
 - **Static Friction (fs) ≤ μs N**. (Self-adjusting up to a limit).
 - **Kinetic Friction (fk) = μk N**. (Constant once motion starts).
 - **Angle of Friction (θ):** **tanθ = μ**.

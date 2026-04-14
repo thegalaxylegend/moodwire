@@ -85,7 +85,7 @@ Environmental chemistry is [the study of the chemical and biochemical phenomena 
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div class="ayush-note">
+<div [class](/blog/plant-growth-and-development-class-11-revision-notes-neet)="ayush-note">
 I once made a mistake in my JEE preparation by not giving enough importance to environmental chemistry. I used to think that it's a simple topic and doesn't require much practice. But, I realized my mistake when I saw the weightage of environmental chemistry in the JEE exam. I had to work hard to catch up and make sure I didn't make the same mistake again. My advice to you is to not underestimate the importance of environmental chemistry and to practice it regularly.
 </div>
 
@@ -108,8 +108,8 @@ Soil pollution is [the presence of contaminants or pollutant substances in soil 
 ## <a id="shortcut-formula-trick"></a>Shortcut Formula / Trick
 
 One shortcut formula to remember in environmental chemistry is the [formula for calculating the pH of a solution](https://en.wikipedia.org/wiki/PH):
-\[ $$\text{pH} = -\log_{10}[\text{H}^+] \]$$
-where $[$$\text{H}^+]$ is the concentration of hydrogen ions in the solution.$$
+\[ \text{pH} = -\log_{10}[\text{H}^+] \]
+where $[\text{H}^+]$ is the concentration of hydrogen ions in the solution.
 
 
 

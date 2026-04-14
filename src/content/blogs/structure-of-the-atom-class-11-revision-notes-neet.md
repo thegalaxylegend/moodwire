@@ -65,12 +65,12 @@ The following formulae are essential for understanding the structure of an atom:
 
 1. **Atomic Mass**: The atomic mass is the average mass of an atom, and it's calculated using the formula:
 
-\[ $$\text{Atomic Mass} = \frac$\text{Mass of Protons$ + \text{Mass of Neutrons}}$\text{Number of Atoms$} \]$$
+\[ \text{Atomic Mass} = \frac$\text{Mass of Protons$ + \text{Mass of Neutrons}}$\text{Number of Atoms$} \]
 
 
 2. **Electron Velocity**: The electron velocity is the speed at which an electron orbits the nucleus, and it's calculated using the formula:
 
-\[ v = $$\frac{Ze^2}{2 \epsilon_0 n \hbar} \]$$
+\[ v = \frac{Ze^2}{2 \epsilon_0 n \hbar} \]
 
 
 where Z is the atomic number, e is the elementary charge, $\epsilon_0$ is the vacuum permittivity, n is the principal quantum number, and $\hbar$ is the reduced Planck constant.

@@ -6,12 +6,12 @@
       "fields": [
         {
           "name": "📊 All-Time Stats",
-          "value": "Total: 50 blogs\nPassed: 39\nFailed: 11\nPass Rate: 78%",
+          "value": "Total: 58 blogs\nPassed: 47\nFailed: 11\nPass Rate: 81%",
           "inline": true
         },
         {
           "name": "📈 Avg Quality Score",
-          "value": "82.5/100",
+          "value": "84.9/100",
           "inline": true
         },
         {
@@ -26,7 +26,7 @@
         }
       ],
       "footer": {
-        "text": "Report generated: 2026-04-13T02:42:38.336Z"
+        "text": "Report generated: 2026-04-14T02:39:22.432Z"
       }
     }
   ]

@@ -115,7 +115,7 @@ Explore our [Sitemap](/sitemap.xml) for more resources.
 ## <a id="frequently-asked-questions-FAQs"></a>Frequently Asked Questions (FAQs)
 
 ### <a id="1-are-pyqs-alone-enough-for-a-95"></a>1. Are Yes alone enough for a 95+?
-Yes cover about 70% of the paper. To reach 95+, you must also master modern "Competency-Based Questions" that test your ability to apply multiple concepts simultaneously. Use Yes as your primary practice and CERT as your foundation.
+Yes cover about 70% of the paper. To reach 95+, you must also [master](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet) modern "Competency-Based Questions" that test your ability to apply multiple concepts simultaneously. Use Yes as your primary practice and CERT as your foundation.
 
 ### <a id="2-how-many-years-of-pyqs-should-i-solve"></a>2. How many years of Yes should I solve?
 Focus on the last 5–10 years. However, prioritize the most recent 5 years, as the board exam pattern shifted significantly after 2020 to include more application-based questions.
@@ -131,7 +131,7 @@ Focus on the last 5–10 years. However, prioritize the most recent 5 years, as 
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Cut 2026 Master Strategy Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)
 - 📖 [See Mains High Weightage Chapters Class 11 Biology Recap — JEE & MEET 2026 Grandmaster Guide](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)

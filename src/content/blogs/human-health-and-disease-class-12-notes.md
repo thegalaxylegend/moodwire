@@ -92,7 +92,7 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 
  
 
-$$\text{Normal hemoglobin: } \alpha_2 \beta_2\text{Sickle hemoglobin: } \alpha_2 \beta^{S}_2$$
+\text{Normal hemoglobin: } \alpha_2 \beta_2\text{Sickle hemoglobin: } \alpha_2 \beta^{S}_2
 
  - **Answer:** Mutation in the $\beta$-globin chain of hemoglobin.
 
@@ -106,7 +106,7 @@ $$\text{Normal hemoglobin: } \alpha_2 \beta_2\text{Sickle hemoglobin: } \alpha_2
 
  
 
- $$\text{Blood group AB: } \text{Antigens: A, B; Antibodies: None}$$
+ \text{Blood group AB: } \text{Antigens: A, B; Antibodies: None}
 
  
 
@@ -122,7 +122,7 @@ $$\text{Normal hemoglobin: } \alpha_2 \beta_2\text{Sickle hemoglobin: } \alpha_2
 
  
 
- $$\text{Causative agent of peptic ulcer: } Helicobacter\ pylori$$
+ \text{Causative agent of peptic ulcer: } Helicobacter\ pylori
 
  
 
@@ -182,7 +182,7 @@ $$\text{Normal hemoglobin: } \alpha_2 \beta_2\text{Sickle hemoglobin: } \alpha_2
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- $E = $$\frac{-0.0591}{n} \log_{10} \frac{[Red]}{[Ox]}$ is crucial for calculating the electrode potential.$$
+- $E = \frac{-0.0591}{n} \log_{10} \frac{[Red]}{[Ox]}$ is crucial for calculating the electrode potential.
 
  - $pH = -\log_{10} [H^+]$ helps in determining the acidity or alkalinity of a solution.
 

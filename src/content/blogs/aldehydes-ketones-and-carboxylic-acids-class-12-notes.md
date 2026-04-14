@@ -245,7 +245,7 @@ When dealing with aldehydes, ketones, and carboxylic acids, there are common mis
 5. **Not practicing, practicing, practicing**: Practice is key to mastering aldehyde, ketone, and carboxylic acid [chemistry](/blog/chemistry-in-everyday-life-class-12-notes). Students who don't practice regularly often struggle to apply their knowledge to complex problems and reactions.
 
 ### <a id="-reduction-reactions-of-aldehydes-and-ketones"></a>⬇ Reduction Reactions of Aldehydes and Ketones
-Reduction reactions are essential in aldehyde and ketone chemistry. These reactions involve the gain of electrons by the carbonyl compound, resulting in the formation of a new bond.
+Reduction reactions are essential in aldehyde and ketone [chemistry](/blog/chemistry-in-everyday-life-class-12-notes). These reactions involve the gain of electrons by the carbonyl compound, resulting in the formation of a new bond.
 
 #### 📝 Catalytic Hydrogenation
 Catalytic hydrogenation is a common reduction reaction used to reduce aldehydes and ketones. This reaction involves the use of a catalyst, such as palladium or platinum, to facilitate the reduction.
@@ -292,7 +292,7 @@ To master the concepts of aldehydes, ketones, and carboxylic acids, we recommend
 The Test Center is an invaluable resource for students preparing for JEE and [neet](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) exams. By using it regularly, you can gain a deeper understanding of the subject matter, build confidence, and achieve success in your exams.
 
 ### <a id="-why-use-the-test-center"></a>📊 Why Use the Test Center?
-The Test Center is an essential tool for students who want to excel in JEE and NEET exams. Here are just a few reasons why you should use it:
+The Test Center is an essential tool for students who want to excel in JEE and [neet](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) exams. Here are just a few reasons why you should use it:
 
 * **Personalized learning**: The Test Center offers a tailored learning experience, adapting to your needs and learning style.
 * **Comprehensive coverage**: The Test Center covers all the key concepts and topics in aldehydes, ketones, and carboxylic acids, ensuring that you have a thorough understanding of the subject matter.

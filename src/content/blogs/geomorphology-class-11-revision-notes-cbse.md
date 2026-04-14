@@ -152,12 +152,12 @@ Geomorphology has a wide range of applications, including:
 
 As a student of [class](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) 11, it is essential to have a solid grasp of Geomorphology, as it is a fundamental subject in Geography. By understanding the core concepts, formulae, and tables, and practicing MCQs, I can ensure I am well-prepared for my exam. Additionally, recognizing the importance of Geomorphology and its applications will help me appreciate the subject and its relevance to real-life situations.
 
-$$\begin{equation}$$
+\begin{equation}
 
 E = \sum_{i=1}^{n} (R_i \times S_i)
 
 
-$$\end{equation}$$
+\end{equation}
 
 where $E$ is the total erosion, $R_i$ is the runoff, and $S_i$ is the slope. 
 I will make sure to review the **Trap Exceptions** and focus on the **Key Terms** to excel in the subject. 
@@ -169,7 +169,7 @@ Using LaTeX has made the equations and tables look neat and easy to read.
 The **[quick](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) Recall Box** has provided me with a [quick](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) summary of the key concepts, and I will make sure to review it regularly. 
 The **Core Concepts** section has given me a solid understanding of the subject, and I will make sure to build on this foundation. 
 I will continue to practice and review the material to ensure I am well-prepared for my exam. 
-The **Formulae and Tables** section has provided me with a quick reference guide to the essential equations and tables in Geomorphology. 
+The **Formulae and Tables** section has provided me with a [quick](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) reference guide to the essential equations and tables in Geomorphology. 
 I will make sure to use this guide to help me solve problems and answer questions. 
 The **MCQs** section has provided me with a chance to practice my knowledge and identify areas where I need to improve. 
 I will continue to practice and review the material to ensure I am well-prepared for my exam. 
@@ -183,9 +183,9 @@ The **Ayush's Personal Note** section has provided me with a chance to reflect o
 I will continue to review and practice the material to ensure I am well-prepared for my exam. 
 I am confident that I will do well, and I will continue to work hard to achieve my goals.
 
-$$\begin{table}$$
+\begin{table}
 \centering
-$$\begin{tabular}{|c|c|c|}$$
+\begin{tabular}{|c|c|c|}
 \hline
 **Landform** & **Elevation** & **Slope** \\
 \hline
@@ -195,10 +195,10 @@ $$\begin{tabular}{|c|c|c|}$$
 \hline
 **Plain** & Low & Gentle \\
 \hline
-$$\end{tabular}$$
+\end{tabular}
 
 \caption{Landform Classification Table}
-$$\end{table}$$
+\end{table}
 This table has helped me understand the different types of landforms and their characteristics. 
 I will make sure to review it regularly to ensure I am familiar with the material. 
 The **JEE/[neet](/blog/world-history-industrial-revolution-class-11-revision-notes-jee-neet) data** section has provided me with information about the importance of Geomorphology in the JEE and [neet](/blog/world-history-industrial-revolution-class-11-revision-notes-jee-neet) exams. 
@@ -210,12 +210,12 @@ The **Key Terms** section has provided me with a quick reference guide to the es
 I will make sure to review it regularly to ensure I am familiar with the material. 
 I am confident that I will do well, and I will continue to work hard to achieve my goals.
 
-$$\begin{equation}$$
+\begin{equation}
 
 D = \sum_{i=1}^{n} (E_i \times T_i)
 
 
-$$\end{equation}$$
+\end{equation}
 
 where $D$ is the total deposition, $E_i$ is the erosion, and $T_i$ is the time. 
 This equation has helped me understand the process of deposition, and I will make sure to review it regularly. 
@@ -234,9 +234,9 @@ The **Formulae and Tables** section has provided me with a quick reference guide
 I will make sure to use this guide to help me solve problems and answer questions. 
 The **MCQs** section has provided me with a chance to practice my knowledge and identify areas where I need to improve. 
 I will continue to practice and review the material to ensure I am well-prepared for my exam. 
-The **JEE/NEET data** section has provided me with information about the importance of Geomorphology in the JEE and NEET exams. 
+The **JEE/[neet](/blog/world-history-industrial-revolution-class-11-revision-notes-jee-neet) data** section has provided me with information about the importance of Geomorphology in the JEE and [neet](/blog/world-history-industrial-revolution-class-11-revision-notes-jee-neet) exams. 
 I will make sure to focus on the key concepts and formulae to excel in the subject. 
-Overall, this quick revision and recap has been extremely helpful, and I am confident that I will do well in my exam. 
+Overall, this quick [revision](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) and recap has been extremely helpful, and I am confident that I will do well in my exam. 
 I will continue to work hard to achieve my goals. 
 Using LaTeX has made the equations and tables look neat and easy to read, and I will continue to use it to help me study. 
 The **Key Terms** section has provided me with a quick reference guide to the essential vocabulary in Geomorphology. 

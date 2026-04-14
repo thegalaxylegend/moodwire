@@ -243,7 +243,7 @@ The 5 trap mistakes are common errors that students make when studying surface c
 
 #### 📊 Mistake 1: Incorrect Application of Adsorption Formula
 
-The first mistake is incorrectly applying the formula for the amount of adsorption. The correct formula is $$\frac{x}{m} = \frac{a}{V}, where x is the mass of gas adsorbed, m is the mass of the adsorbent, a is the surface area of the adsorbent, and V is the volume of the gas. However, many students mistakenly use \frac{x}{m} instead, which is incorrect.$$
+The first mistake is incorrectly applying the formula for the amount of adsorption. The correct formula is \frac{x}{m} = \frac{a}{V}, where x is the mass of gas adsorbed, m is the mass of the adsorbent, a is the surface area of the adsorbent, and V is the volume of the gas. However, many students mistakenly use \frac{x}{m} instead, which is incorrect.
 
 
 

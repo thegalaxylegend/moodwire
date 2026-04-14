@@ -149,7 +149,7 @@ Continue your [revision](/blog/3d-geometry-intro-class-11-revision-notes-jee-nee
    * Tillage: preparation of soil for sowing seeds
    * Sowing: placing seeds in soil for germination
    * Nursery: place for raising young [plants](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
-   * Transplantation: transferring plants from one place to another
+   * Transplantation: transferring [plants](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet) from one place to another
    * Threshing: separation of grains from chaff
    * Winnowing: separation of grains from chaff using wind
    * Weeding: removal of unwanted plants from field

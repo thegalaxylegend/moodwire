@@ -138,7 +138,7 @@ By focusing on these key terms and concepts, you can develop a solid understandi
 Zamindar & A local landlord or chieftain responsible for revenue collection & - \\
 Pargana & A sub-district administrative unit & - \\
 \hline
-$$\end{tabular}$$
+\end{tabular}
 ```
 This code will create a table with the specified columns and rows, using the `tabular` environment and the `|` character to separate the columns.
 

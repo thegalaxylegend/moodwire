@@ -44,7 +44,7 @@ practice_link: "/class-11/biology/ecosystem-class-12-notes"
 
  
 
-$$\frac{dH}{dt} = rH \times (1 - \frac{H}{K}) - aHP\frac{dP}{dt} = eHP - mP$$
+\frac{dH}{dt} = rH \times (1 - \frac{H}{K}) - aHP\frac{dP}{dt} = eHP - mP
 
  — Where $H$ is the prey population, $P$ is the predator population, $r$ is the intrinsic growth rate of the prey, $K$ is the carrying capacity of the prey, $a$ is the predation rate, $e$ is the conversion efficiency of prey into predator biomass, and $m$ is the mortality rate of the predator.
 
@@ -110,7 +110,7 @@ $$\frac{dH}{dt} = rH \times (1 - \frac{H}{K}) - aHP\frac{dP}{dt} = eHP - mP$$
 
 - **The Core Concept:** Energy flow and nutrient cycling within ecosystems are fundamental processes. However, a deep understanding of $\Delta$G (Gibbs free energy change) and its implications on ecosystem productivity and resilience is often overlooked. 
 
- - **What 85% scorers do:** They memorize the basic structure of energy flow (producers to consumers) and nutrient cycles (e.g., carbon, nitrogen, phosphorus) without fully grasping the thermodynamic principles underlying these processes. They may recognize that ecosystems tend towards equilibrium but fail to apply $\frac$\Delta G$$\Delta t$$ (change in Gibbs free energy over time) to predict ecosystem responses to disturbances.
+ - **What 85% scorers do:** They memorize the basic structure of energy flow (producers to consumers) and nutrient cycles (e.g., carbon, nitrogen, phosphorus) without fully grasping the thermodynamic principles underlying these processes. They may recognize that ecosystems tend towards equilibrium but fail to apply $\frac$\Delta G\Delta t (change in Gibbs free energy over time) to predict ecosystem responses to disturbances.
 
  - **What 95% scorers do:** They apply the concept of Gibbs free energy (\Delta G = \Delta H - T\Delta S) to understand how energy transformations within ecosystems influence productivity, diversity, and stability. For instance, they recognize that a negative $\Delta G$ indicates a spontaneous reaction, which is crucial for understanding primary production and decomposition processes. They also consider the impact of external factors (like temperature, $T$, and entropy, $\Delta S$) on $\Delta G$, allowing them to reason about ecosystem resilience and response to environmental changes. Furthermore, they can relate the second law of thermodynamics (\Delta S_{universe} = \Delta S_{system} + \Delta S_{surroundings}) to ecosystem development and the principle of maximum entropy production to understand ecosystem evolution towards a state of maximum dissipation of energy.
 
@@ -118,7 +118,7 @@ $$\frac{dH}{dt} = rH \times (1 - \frac{H}{K}) - aHP\frac{dP}{dt} = eHP - mP$$
 | --- | --- | --- |
 | Energy Flow | Memorize basic structure | Apply thermodynamic [principles](/blog/biotechnology-principles-and-processes-class-12-notes) |
 | Nutrient Cycling | Recognize basic cycles | Understand implications of $\Delta G$ on cycles |
-| Ecosystem Resilience | Tend towards equilibrium | Predict responses using $\frac$\Delta G$$\Delta t$$ |
+| Ecosystem Resilience | Tend towards equilibrium | Predict responses using $\frac$\Delta G\Delta t |
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
@@ -133,15 +133,15 @@ $$\frac{dH}{dt} = rH \times (1 - \frac{H}{K}) - aHP\frac{dP}{dt} = eHP - mP$$
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- $E = $$\frac{I \times A \times \Delta t}{m}$, where E is energy, I is intensity, A is area, $\Delta t$ is time, and m is mass.$$
+- $E = \frac{I \times A \times \Delta t}{m}$, where E is energy, I is intensity, A is area, $\Delta t$ is time, and m is mass.
 
- - $P = $$\frac{E}{t}$, where P is power, E is energy, and t is time.$$
+ - $P = \frac{E}{t}$, where P is power, E is energy, and t is time.
 
  - $A = \pi r^2$, where A is area and r is radius of a circular ecosystem.
 
- - $V = $$\frac{4}{3} \pi r^3$, where V is volume of a spherical ecosystem and r is radius.$$
+ - $V = \frac{4}{3} \pi r^3$, where V is volume of a spherical ecosystem and r is radius.
 
- - $C = $$\frac{I \times \eta}{A}$, where C is concentration, I is influx, $\eta$ is efficiency, and A is area.$$
+ - $C = \frac{I \times \eta}{A}$, where C is concentration, I is influx, $\eta$ is efficiency, and A is area.
 
  - Key facts:
 

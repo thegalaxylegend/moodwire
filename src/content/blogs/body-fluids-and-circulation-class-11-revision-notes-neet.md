@@ -159,7 +159,7 @@ To better understand the concepts related to body fluids and circulation, it is 
 - Heart: pumps blood throughout the body
 - Arteries: carry oxygenated blood away from the heart
 - Veins: carry deoxygenated blood back to the heart
-- Capillaries: allow for the exchange of oxygen and nutrients with the body's tissues
+- Capillaries: allow for the [exchange](/blog/breathing-and-exchange-of-gases-class-11-revision-notes-neet) of oxygen and nutrients with the body's tissues
 - Lymphatic system: filters lymph and aids in the transport of fats and fat-soluble vitamins
 - Blood pressure: the force exerted by blood against the walls of blood vessels
 - Cardiac output: the volume of blood pumped by the heart per minute
@@ -226,7 +226,7 @@ Recent advances in the field of body fluids and circulation include:
 
 By understanding the concepts related to body fluids and circulation, individuals can better appreciate the importance of maintaining a healthy cardiovascular system and take steps to prevent and manage cardiovascular disease. Regular exercise, a balanced diet, and stress management can all help to promote cardiovascular health and reduce the risk of disease. Additionally, staying informed about recent advances and breakthroughs in the field can provide individuals with the knowledge and tools they need to take [control](/blog/neural-control-and-coordination-class-11-revision-notes-neet) of their health and make informed decisions about their care. 
 
-The equation for blood pressure can be written in LaTeX as $BP = $$\frac{CO \times PR}{1}$, and the equation for cardiac output can be written as $CO = SV \times HR$. The structure of the heart can be represented using the following LaTeX equation:$\boxed{Heart} = \boxed{Atria} + \boxed{Ventricles} + \boxed{Septa} + \boxed{Valves}$. 
+The equation for blood pressure can be written in LaTeX as $BP = \frac{CO \times PR}{1}$, and the equation for cardiac output can be written as $CO = SV \times HR$. The structure of the heart can be represented using the following LaTeX equation:$\boxed{Heart} = \boxed{Atria} + \boxed{Ventricles} + \boxed{Septa} + \boxed{Valves}$. 
 
 Using LaTeX to create equations and diagrams can help to make complex concepts more accessible and easier to understand, and can be a valuable tool for students and researchers in the field of biology and medicine. 
 
@@ -234,7 +234,7 @@ Furthermore, the use of LaTeX can help to create professional-looking documents 
 
 In addition to its use in creating equations and diagrams, LaTeX can also be used to create tables, such as the following table showing the different types of blood vessels:
 
-$$\begin{tabular}{|c|c|c|}$$
+\begin{tabular}{|c|c|c|}
 \hline
 Type of Blood Vessel & Function & Example \\
 \hline
@@ -244,7 +244,7 @@ Vein & Carries deoxygenated blood back to the heart & Superior vena cava \\
 \hline
 Capillary & Allows for the exchange of oxygen and nutrients with the body's tissues & Lung capillaries \\
 \hline
-$$\end{tabular}$$
+\end{tabular}
 
 This table can be used to help illustrate the different types of blood vessels and their functions, and can be a useful tool for students and researchers in the field of biology and medicine. 
 
@@ -269,7 +269,7 @@ The use of LaTeX can also help to create professional-looking documents and pres
 
 In addition to its use in creating equations and diagrams, LaTeX can also be used to create tables, such as the following table showing the different types of blood vessels:
 
-$$\begin{tabular}{|c|c|c|}$$
+\begin{tabular}{|c|c|c|}
 \hline
 Type of Blood Vessel & Function & Example \\
 \hline
@@ -279,7 +279,7 @@ Vein & Carries deoxygenated blood back to the heart & Superior vena cava \\
 \hline
 Capillary & Allows for the exchange of oxygen and nutrients with the body's tissues & Lung capillaries \\
 \hline
-$$\end{tabular}$$
+\end{tabular}
 
 This table can be used to help illustrate the different types of blood vessels and their functions, and can be a useful tool for students and researchers in the field of biology and medicine. 
 
@@ -304,7 +304,7 @@ The use of LaTeX can also help to create professional-looking documents and pres
 
 In addition to its use in creating equations and diagrams, LaTeX can also be used to create tables, such as the following table showing the different types of blood vessels:
 
-$$\begin{tabular}{|c|c|c|}$$
+\begin{tabular}{|c|c|c|}
 \hline
 Type of Blood Vessel & Function & Example \\
 \hline
@@ -314,7 +314,7 @@ Vein & Carries deoxygenated blood back to the heart & Superior vena cava \\
 \hline
 Capillary & Allows for the exchange of oxygen and nutrients with the body's tissues & Lung capillaries \\
 \hline
-$$\end{tabular}$$
+\end{tabular}
 
 This table can be used to help illustrate the different types of blood vessels and their functions, and can be a useful tool for students and researchers in the field of biology and medicine. 
 
@@ -339,7 +339,7 @@ The use of LaTeX can also help to create professional-looking documents and pres
 
 In addition to its use in creating equations and diagrams, LaTeX can also be used to create tables, such as the following table showing the different types of blood vessels:
 
-$$\begin{tabular}{|c|c|c|}$$
+\begin{tabular}{|c|c|c|}
 \hline
 Type of Blood Vessel & Function & Example \\
 \hline
@@ -349,7 +349,7 @@ Vein & Carries deoxygenated blood back to the heart & Superior vena cava \\
 \hline
 Capillary & Allows for the exchange of oxygen and nutrients with the body's tissues & Lung capillaries \\
 \hline
-$$\end{tabular}$$
+\end{tabular}
 
 This table can be used to help illustrate the different types of blood vessels and their functions, and can be a useful tool for students and researchers in the field of biology and medicine. 
 
@@ -374,7 +374,7 @@ The use of LaTeX can also help to create professional-looking documents and pres
 
 In addition to its use in creating equations and diagrams, LaTeX can also be used to create tables, such as the following table showing the different types of blood vessels:
 
-$$\begin{tabular}{|c|c|c|}$$
+\begin{tabular}{|c|c|c|}
 \hline
 Type of Blood Vessel & Function & Example \\
 \hline
@@ -384,7 +384,7 @@ Vein & Carries deoxygenated blood back to the heart & Superior vena cava \\
 \hline
 Capillary & Allows for the exchange of oxygen and nutrients with the body's tissues & Lung capillaries \\
 \hline
-$$\end{tabular}$$
+\end{tabular}
 
 This table can be used to help illustrate the different types of blood vessels and their functions, and can be a useful tool for students and researchers in the field of biology and medicine. 
 
@@ -409,7 +409,7 @@ The use of LaTeX can also help to create professional-looking documents and pres
 
 In addition to its use in creating equations and diagrams, LaTeX can also be used to create tables, such as the following table showing the different types of blood vessels:
 
-$$\begin{tabular}{|c|c|c|}$$
+\begin{tabular}{|c|c|c|}
 \hline
 Type of Blood Vessel & Function & Example \\
 \hline
@@ -419,7 +419,7 @@ Vein & Carries deoxygenated blood back to the heart & Superior vena cava \\
 \hline
 Capillary & Allows for the exchange of oxygen and nutrients with the body's tissues & Lung capillaries \\
 \hline
-$$\end{tabular}$$
+\end{tabular}
 
 This table can be used to help illustrate the different types of blood vessels and their functions, and can be a useful tool for students and researchers in the field of biology and medicine. 
 
@@ -444,7 +444,7 @@ The use of LaTeX can also help to create professional-looking documents and pres
 
 In addition to its use in creating equations and diagrams, LaTeX can also be used to create tables, such as the following table showing the different types of blood vessels:
 
-$$\begin{tabular}{|c|c|c|}$$
+\begin{tabular}{|c|c|c|}
 \hline
 Type of Blood Vessel & Function & Example \\
 \hline
@@ -454,7 +454,7 @@ Vein & Carries deoxygenated blood back to the heart & Superior vena cava \\
 \hline
 Capillary & Allows for the exchange of oxygen and nutrients with the body's tissues & Lung capillaries \\
 \hline
-$$\end{tabular}$$
+\end{tabular}
 
 This table can be used to help illustrate the different types of blood vessels and their functions, and can be a useful tool for students and researchers in the field of biology and medicine. 
 
@@ -479,7 +479,7 @@ The use of LaTeX can also help to create professional-looking documents and pres
 
 In addition to its use in creating equations and diagrams, LaTeX can also be used to create tables, such as the following table showing the different types of blood vessels:
 
-$$\begin{tabular}{|c|c|c|}$$
+\begin{tabular}{|c|c|c|}
 \hline
 Type of Blood Vessel & Function & Example \\
 \hline
@@ -489,7 +489,7 @@ Vein & Carries deoxygenated blood back to the heart & Superior vena cava \\
 \hline
 Capillary & Allows for the exchange of oxygen and nutrients with the body's tissues & Lung capillaries \\
 \hline
-$$\end{tabular}$$
+\end{tabular}
 
 This table can be used to help illustrate the different types of blood vessels and their functions, and can be a useful tool for students and researchers in the field of biology and medicine. 
 
@@ -514,7 +514,7 @@ The use of LaTeX can also help to create professional-looking documents and pres
 
 In addition to its use in creating equations and diagrams, LaTeX can also be used to create tables, such as the following table showing the different types of blood vessels:
 
-$$\begin{tabular}{|c|c|c|}$$
+\begin{tabular}{|c|c|c|}
 \hline
 Type of Blood Vessel & Function & Example \\
 \hline
@@ -524,7 +524,7 @@ Vein & Carries deoxygenated blood back to the heart & Superior vena cava \\
 \hline
 Capillary & Allows for the exchange of oxygen and nutrients with the body's tissues & Lung capillaries \\
 \hline
-$$\end{tabular}$$
+\end{tabular}
 
 This table can be used to help illustrate the different types of blood vessels and their functions, and can be a useful tool for students and researchers in the field of biology and medicine. 
 
@@ -549,7 +549,7 @@ The use of LaTeX can also help to create professional-looking documents and pres
 
 In addition to its use in creating equations and diagrams, LaTeX can also be used to create tables, such as the following table showing the different types of blood vessels:
 
-$$\begin{tabular}{|c|c|c|}$$
+\begin{tabular}{|c|c|c|}
 \hline
 Type of Blood Vessel & Function & Example \\
 \hline
@@ -559,7 +559,7 @@ Vein & Carries deoxygenated blood back to the heart & Superior vena cava \\
 \hline
 Capillary & Allows for the exchange of oxygen and nutrients with the body's tissues & Lung capillaries \\
 \hline
-$$\end{tabular}$$
+\end{tabular}
 
 This table can be used to help illustrate the different types of blood vessels and their functions, and can be a useful tool for students and researchers in the field of biology and medicine. 
 
@@ -584,7 +584,7 @@ The use of LaTeX can also help to create professional-looking documents and pres
 
 In addition to its use in creating equations and diagrams, LaTeX can also be used to create tables, such as the following table showing the different types of blood vessels:
 
-$$\begin{tabular}{|c|c|c|}$$
+\begin{tabular}{|c|c|c|}
 \hline
 Type of Blood Vessel & Function & Example \\
 \hline
@@ -594,7 +594,7 @@ Vein & Carries deoxygenated blood back to the heart & Superior vena cava \\
 \hline
 Capillary & Allows for the exchange of oxygen and nutrients with the body's tissues & Lung capillaries \\
 \hline
-$$\end{tabular}$$
+\end{tabular}
 
 This table can be used to help illustrate the different types of blood vessels and their functions, and can be a useful tool for students and researchers in the field of biology and medicine. 
 
@@ -660,3 +660,4 @@ Continue your [revision](/blog/neural-control-and-coordination-class-11-revision
  * Circulatory pathway: heart → arteries → arterioles → capillaries → venules → veins → heart
  * Double circulation: pulmonary and systemic
  * Lymphatic system: transports lymph, helps in immune response
+

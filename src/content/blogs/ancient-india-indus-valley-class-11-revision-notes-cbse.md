@@ -106,7 +106,7 @@ As I prepare for my exams, I find it helpful to **summarize** the key points in 
 To quickly revise and recap the Indus Valley Civilization, I focus on the following key points:
 
 * **Urban planning**: Broad streets, public baths, advanced drainage systems
-* **Architecture**: Kiln-fired bricks, flat roofs, Great Bath
+* **[architecture](/blog/art-culture-architecture-class-11-revision-notes-jee-neet)**: Kiln-fired bricks, flat roofs, Great Bath
 * **Water management**: Irrigation system, agricultural production, urban growth
 * **Economy**: Agriculture, trade, crafts, cotton textiles, pottery, metallurgy
 
@@ -169,7 +169,7 @@ Continue your [revision](/blog/ancient-india-vedic-age-class-11-revision-notes-j
 * The trap question of assuming that the Indus Valley Civilization declined due to a single factor, such as the Aryan invasion, when in fact it was a combination of factors including climate change, drought, and the collapse of trade networks.
 * A common mistake is to confuse the term 'Dravidian' with the people of the Indus Valley Civilization, when in fact the term 'Dravidian' refers to a language family and the people of the Indus Valley Civilization are thought to have spoken a language that is still unknown.
 * Students often mistakenly believe that the cities of the Indus Valley Civilization, such as Mohenjo-daro and Harappa, were the capital cities, when in fact they were likely major urban centers but not necessarily the capitals of a single, unified state.
-* Another trap question is to assume that the Indus Valley Civilization was isolated from other civilizations of the time, when in fact there is evidence of trade and cultural exchange with ancient Mesopotamia, Egypt, and other regions.
+* Another trap question is to assume that the Indus Valley Civilization was isolated from other civilizations of the time, when in fact there is evidence of trade and cultural exchange with [ancient](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) Mesopotamia, Egypt, and other regions.
 * A common error is to think that the Indus Valley Civilization was a peaceful society with no evidence of warfare, when in fact there is evidence of fortifications, weapons, and potential conflict, although the nature and extent of warfare is still a topic of debate.
 
 ## 🔁 Last 5 Minutes Box

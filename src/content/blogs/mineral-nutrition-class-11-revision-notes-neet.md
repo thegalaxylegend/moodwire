@@ -149,7 +149,7 @@ These disorders can be [diagnosed and managed](https://www.ncbi.nlm.nih.gov/pmc/
 
 I remember when I was preparing for my [class](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) 11 exams, I struggled to understand the concept of mineral nutrition. I used to think that plants only require water, sunlight, and air to grow. However, I soon realized that plants require a range of essential elements to maintain their health and prevent diseases. One of the mistakes I made was not understanding the difference between macronutrients and micronutrients. I used to think that all essential elements are required in the same quantity, which is not true. Macronutrients are required in large quantities, while micronutrients are required in small quantities. Once I understood this concept, I was able to grasp the topic of mineral nutrition better.
 
-<div class="callout-box">
+<div [class](/blog/plant-growth-and-development-class-11-revision-notes-neet)="callout-box">
 Ayush's Tip: Make sure to understand the difference between macronutrients and micronutrients. Macronutrients are required in large quantities, while micronutrients are required in small quantities.
 </div>
 

@@ -68,7 +68,7 @@ practice_link: "/class-11/biology/environmental-issues-class-12-notes"
 
  
 
- $$\text{SO}_2 + \text{H}_2\text{O} + \text{O}_2 \rightarrow \text{H}_2\text{SO}_4\text{NO}_2 + \text{H}_2\text{O} + \text{O}_2 \rightarrow \text{HNO}_3$$
+ \text{SO}_2 + \text{H}_2\text{O} + \text{O}_2 \rightarrow \text{H}_2\text{SO}_4\text{NO}_2 + \text{H}_2\text{O} + \text{O}_2 \rightarrow \text{HNO}_3
 
  
 
@@ -87,7 +87,7 @@ practice_link: "/class-11/biology/environmental-issues-class-12-notes"
 
  
 
- $$\text{C} + \text{O}_2 \rightarrow \text{CO}_2 + \text{energy}$$
+ \text{C} + \text{O}_2 \rightarrow \text{CO}_2 + \text{energy}
 
  
 
@@ -153,15 +153,15 @@ ightleftharpoons CH_4 + 2O_2$, and how this relates to the overall energy balanc
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- $E=$$\frac{P\times T}{N}$, where $E$ is the environmental impact, $P$ is the population, $T$ is the technology, and $N$ is the natural resources.$$
+- $E=\frac{P\times T}{N}$, where $E$ is the environmental impact, $P$ is the population, $T$ is the technology, and $N$ is the natural resources.
 
- - $\Delta S = $$\frac{Q}{T}$, where $\Delta S$ is the change in entropy, $Q$ is the amount of heat, and $T$ is the temperature in Kelvin.$$
+ - $\Delta S = \frac{Q}{T}$, where $\Delta S$ is the change in entropy, $Q$ is the amount of heat, and $T$ is the temperature in Kelvin.
 
  - $pH = -\log_{10}[H^+]$, where $[H^+]$ is the concentration of hydrogen ions.
 
  - $C\times E\times F = P$, where $C$ is the carbon footprint, $E$ is the energy consumption, $F$ is the fuel type, and $P$ is the pollution.
 
- - $R = $$\frac{I}{O}$, where $R$ is the recycling rate, $I$ is the input of materials, and $O$ is the output of materials.$$
+ - $R = \frac{I}{O}$, where $R$ is the recycling rate, $I$ is the input of materials, and $O$ is the output of materials.
 
  - Key fact: The greenhouse effect is a natural process that warms the Earth’s surface, but [human](/blog/human-health-and-disease-class-12-notes) activities have enhanced it, leading to global warming.
 

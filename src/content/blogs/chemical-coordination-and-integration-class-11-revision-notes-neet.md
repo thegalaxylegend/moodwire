@@ -75,7 +75,7 @@ While there are no specific formulae to remember in chemical [coordination](/blo
 
 * The regulation of blood sugar levels by insulin and glucagon can be represented by the following equation:
 
-$$\text{Glucose} \xrightarrow$\text{Insulin$} \text{Glycogen}\text{Glycogen} \xrightarrow$\text{Glucagon$} \text{Glucose}$$
+\text{Glucose} \xrightarrow$\text{Insulin$} \text{Glycogen}\text{Glycogen} \xrightarrow$\text{Glucagon$} \text{Glucose}
 
 
 ## <a id="keenest-data"></a>JEE/MEET Data
@@ -155,6 +155,34 @@ Continue your [revision](/blog/classification-of-elements-class-11-revision-note
 * **Not Understanding the Difference between Up-Regulation and Down-Regulation**: Students often struggle to understand the difference between up-regulation and down-regulation of hormone receptors. Up-regulation increases the number of receptors, making the cell more sensitive to the hormone, while down-regulation decreases the number of receptors, making the cell less sensitive to the hormone.
 ## ⚗️ Chemical Quick Reference (Verified via PubChem)
 
-| Compound | Formula | Mol. Weight | Source |
+| Compound | Formula | MOL. Weight | Source |
 |:---|:---:|:---:|:---:|
-| **glucose** | C6H12O6 | 180.16 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/5793) |
+| **glucose** | C6H12O6 | 180.16 g/MOL | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/5793) |
+
+## 🔁 Last 5 Minutes Box
+
+# Endocrine Glands: 
+    * Pituitary
+    * Thyroid
+    * Adrenal
+    * Pancreas
+    * Gonads
+   # Hormones: 
+    * Insulin
+    * Glucagon
+    * Adrenaline
+    * Thyroxine
+    * Growth hormone
+   # Mechanism of Hormone Action: 
+    * Binding to receptors
+    * Altering gene expression
+    * Triggering signaling pathways
+   # Hypothalamic - Pituitary Axis: 
+    * Hypothalamus produces releasing hormones
+    * Pituitary gland produces tropic hormones
+   # Disorders of Endocrine System: 
+    * Diabetes mullites
+    * Hypothyroidism
+    * Hyperthyroidism
+    * Cushing’s syndrome
+    * Acromegaly

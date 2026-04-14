@@ -82,11 +82,11 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
  The primary cause of biodiversity loss can be determined by analyzing the main drivers of [ecosystem](/blog/ecosystem-class-12-notes) disruption. 
 
- $$\text{Biodiversity Loss} = \text{Habitat Destruction} + \text{Overexploitation} + \text{Pollution} + \text{Climate Change}$$
+ \text{Biodiversity Loss} = \text{Habitat Destruction} + \text{Overexploitation} + \text{Pollution} + \text{Climate Change}
 
  However, when we consider the scale and impact, habitat destruction is the leading cause, often driven by [human](/blog/human-health-and-disease-class-12-notes) activities such as deforestation and urbanization. 
 
- {$$\text{Habitat Destruction}} = $\text{Deforestation$} + $\text{Urbanization$}$$
+ {\text{Habitat Destruction}} = $\text{Deforestation$} + $\text{Urbanization$}
 
  - **Answer:** Habitat destruction
 
@@ -98,11 +98,11 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
  The percentage increase can be calculated using the formula:
 
- $$\text{Percentage Increase} = \left( \franc$\text{New Value$ - \text{Old Value}}$\text{Old Value$} \right) \times 100$$
+ \text{Percentage Increase} = \left( \France\text{New Value - \text{Old Value}}$\text{Old Value} \right) \times 100
 
  Substituting the given values:
 
- $$\text{Percentage Increase} = \left( \franc{1500–1000}{1000} \right) \times 100 = \left( \franc{500}{1000} \right) \times 100 = 0.5 \times 100 = 50%$$
+ \text{Percentage Increase} = \left( \franc{1500–1000}{1000} \right) \times 100 = \left( \franc{500}{1000} \right) \times 100 = 0.5 \times 100 = 50%
 
  - **Answer:** 50%
 
@@ -114,7 +114,7 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
  The trophic level can be determined by understanding the position of each group in the food chain:
 
- {$$\text{Trophic Level}} = $\text{Position in Food Chain$}$$
+ {\text{Trophic Level}} = $\text{Position in Food Chain}
 
  Primary producers are at the base (trophic level 1), primary consumers feed on them (trophic level 2), and secondary consumers feed on primary consumers (trophic level 3).
 

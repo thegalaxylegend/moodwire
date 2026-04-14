@@ -91,8 +91,8 @@ practice_link: "/class-11/chemistry/amines-class-12-notes"
 - **Nuclear Magnetic Resonance (NMR) Spectroscopy**: Used to determine the structure of amines.
 - **Mass Spectrometry (MS)**: Used to determine the molecular weight and fragmentation pattern of amines.
 - **Key Points**:
-    - IR: INCH stretch (3300-3500 \, $$\text{cm}^{-1}), CAN stretch (1000-1200 \, \text{cm}^{-1})$$
-    - NMR: INCH signal (0-5 \, $$\text{ppm}), ECHO signal (1-4 \, \text{ppm})$$
+    - IR: INCH stretch (3300-3500 \, \text{cm}^{-1}), CAN stretch (1000-1200 \, \text{cm}^{-1})
+    - NMR: INCH signal (0-5 \, \text{ppm}), ECHO signal (1-4 \, \text{ppm})
     - MS: Molecular ion peak, fragmentation peaks
 - **Interpretation**:
     - IR: Identify functional groups, determine molecular structure

@@ -52,15 +52,15 @@ As we prepare for the Class 11 exam, it is essential to develop a deep understan
 
 Furthermore, the study of Digital Logic has numerous practical applications, from the design of digital circuits and [computer](/blog/computer-organization-class-11-notes) architecture to the development of artificial intelligence and machine learning algorithms. As we explore the world of Digital Logic, we will encounter numerous real-world examples that illustrate the significance of this subject in our daily lives.
 
-In the context of the Class 11 exam, it is crucial to recognize that Digital Logic is not just a theoretical subject, but also a practical one. The exam will test our ability to apply the concepts we have learned to solve problems and design digital circuits. Therefore, it is essential to practice solving problems and designing circuits to develop a deep understanding of the subject.
+In the context of the [class](/blog/computer-organization-class-11-notes) 11 exam, it is crucial to recognize that Digital Logic is not just a theoretical subject, but also a practical one. The exam will test our ability to apply the concepts we have learned to solve problems and design digital circuits. Therefore, it is essential to practice solving problems and designing circuits to develop a deep understanding of the subject.
 
 By mastering Digital Logic, we can unlock the secrets of the digital world and develop a profound appreciation for the intricate beauty of digital systems. As we embark on this journey, we will encounter numerous challenges and opportunities to learn and grow. With dedication and practice, we can develop a deep understanding of Digital Logic and achieve success in the Class 11 exam. 
 
 The formula for the $n$-bit binary counter is:
 
-$$\begin{aligned}$$
+\begin{aligned}
 Count &= 2^n - 1 \\
-$$\end{aligned}$$
+\end{aligned}
 
 This formula illustrates the exponential relationship between the number of binary digits and the maximum count value. 
 
@@ -72,9 +72,9 @@ The $n$-bit binary counter is a classic example of how Digital Logic can be used
 
 To illustrate the concept of logic gates, consider the following example:
 
-$$\begin{aligned}$$
+\begin{aligned}
 A \cdot B &= Y \\
-$$\end{aligned}$$
+\end{aligned}
 
 This equation represents the $AND$ gate, which produces an output of $1$ only when both inputs are $1$. 
 
@@ -86,9 +86,9 @@ The study of Digital Logic is a fascinating journey that will challenge our thin
 
 The formula for the $OR$ gate is:
 
-$$\begin{aligned}$$
+\begin{aligned}
 A + B &= Y \\
-$$\end{aligned}$$
+\end{aligned}
 
 This equation represents the $OR$ gate, which produces an output of $1$ when either input is $1$. 
 
@@ -108,9 +108,9 @@ By focusing on the underlying principles of Digital Logic, we can build a strong
 
 The formula for the $NOT$ gate is:
 
-$$\begin{aligned}$$
+\begin{aligned}
 \overline{A} &= Y \\
-$$\end{aligned}$$
+\end{aligned}
 
 This equation represents the $NOT$ gate, which produces an output of $1$ when the input is $0$. 
 
@@ -130,9 +130,9 @@ By focusing on the underlying principles of Digital Logic, we can build a strong
 
 The formula for the $NAND$ gate is:
 
-$$\begin{aligned}$$
+\begin{aligned}
 \overline{A \cdot B} &= Y \\
-$$\end{aligned}$$
+\end{aligned}
 
 This equation represents the $NAND$ gate, which produces an output of $1$ when either input is $0$. 
 
@@ -152,9 +152,9 @@ By focusing on the underlying principles of Digital Logic, we can build a strong
 
 The formula for the $NOR$ gate is:
 
-$$\begin{aligned}$$
+\begin{aligned}
 \overline{A + B} &= Y \\
-$$\end{aligned}$$
+\end{aligned}
 
 This equation represents the $NOR$ gate, which produces an output of $1$ when both inputs are $0$. 
 
@@ -174,9 +174,9 @@ By focusing on the underlying principles of Digital Logic, we can build a strong
 
 The formula for the $XOR$ gate is:
 
-$$\begin{aligned}$$
+\begin{aligned}
 A \oplus B &= Y \\
-$$\end{aligned}$$
+\end{aligned}
 
 This equation represents the $XOR$ gate, which produces an output of $1$ when the inputs are different. 
 
@@ -196,9 +196,9 @@ By focusing on the underlying principles of Digital Logic, we can build a strong
 
 The formula for the $XNOR$ gate is:
 
-$$\begin{aligned}$$
+\begin{aligned}
 \overline{A \oplus B} &= Y \\
-$$\end{aligned}$$
+\end{aligned}
 
 This equation represents the $XNOR$ gate, which produces an output of $1$ when the inputs are the same. 
 
@@ -218,9 +218,9 @@ By focusing on the underlying principles of Digital Logic, we can build a strong
 
 The formula for the $BUF$ gate is:
 
-$$\begin{aligned}$$
+\begin{aligned}
 A &= Y \\
-$$\end{aligned}$$
+\end{aligned}
 
 This equation represents the $BUF$ gate, which produces an output that is the same as the input. 
 

@@ -75,7 +75,7 @@ Carbohydrates are the primary source of energy for cells. They are composed of c
 The general formula for carbohydrates is BC_x(H_2O)_yo, where ex and by are integers. The most common monosaccharides are glucose, fructose, and ribose, and the most common polysaccharides are starch, cellulose, and glycogen.
 
 #### Proteins
-Proteins are complex biomolecules that are composed of amino acids. They are involved in a wide range of cellular processes, including metabolism, growth, and differentiation.
+Proteins are complex biomolecules that are composed of amino [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes). They are involved in a wide range of cellular processes, including metabolism, growth, and differentiation.
 
 The general formula for proteins is BC_oh_in_ZO_we, where ex, by, oz, and we are integers. Proteins are classified into two main types: fibrous proteins and globular proteins. Fibrous proteins are long, filamentous proteins that provide structural support, while globular proteins are spherical proteins that are involved in a wide range of cellular processes.
 

@@ -178,7 +178,7 @@ According to the JEE/MEET syllabus, the topic of respiratory system is covered u
 ### <a id="formulae"></a>Formulae
 The following formulae are relevant to the topic of respiratory system:
 
-* **Pick's Law of Diffusion**: $\franc{dQ}{dt} = \franc{D \times A}$\Delta x$ \times (C_1 - C_2)$, where $\franc{dQ}{dt}$ is the rate of diffusion, DO is the diffusion constant, A is the surface area, $\Delta $ is the thickness of the membrane, and BC_1$ and BC_2$ are the concentrations of the gas on either side of the membrane.
+* **Pick's Law of Diffusion**: $\franc{dQ}{dt} = \franc{D \times A}$\Delta $ \times (C_1 - C_2)$, where $\franc{dQ}{dt}$ is the rate of diffusion, DO is the diffusion constant, A is the surface area, $\Delta $ is the thickness of the membrane, and BC_1$ and BC_2$ are the concentrations of the gas on either side of the membrane.
 * **Graham's Law of Diffusion**: $\franc{r_1}{r_2} = \sort{\franc{M_2}{M_1}}$, where or_1$ and or_2$ are the rates of diffusion of two gases, and KM_1$ and KM_2$ are the molecular weights of the two gases.
 
 ### <a id="MCQs"></a>MCQs
@@ -244,7 +244,7 @@ Continue your [revision](/blog/anatomy-of-flowering-plants-class-11-revision-not
 
 * Incorrectly identifying the site of gas exchange in the lungs as the trachea or bronchi, when in fact it occurs in the alveoli.
 * Forgetting that atmospheric pressure is approximately 760 mmHg and partial pressure of oxygen is 159 mmHg, leading to errors in calculating the partial pressure of oxygen in the alveoli.
-* Confusing the terms 'ventilation' and 'respiration', with ventilation referring to the physical movement of air in and out of the lungs, and respiration referring to the exchange of gases and the use of oxygen by the body.
+* Confusing the terms 'ventilation' and 'respiration', with ventilation referring to the physical movement of air in and out of the lungs, and respiration referring to the exchange of gases and the use of oxygen by the [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet).
 * Assuming that the primary function of hemoglobin is to transport only oxygen, when in fact it also in transporting carbon dioxide from the tissues to the lungs.
 * Overlooking the importance of the Bohr effect, which describes how the binding of oxygen to hemoglobin is affected by the concentration of carbon dioxide and pH, and how this affects gas exchange in the lungs and tissues.
 

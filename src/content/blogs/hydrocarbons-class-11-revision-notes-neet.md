@@ -74,7 +74,7 @@ Hydrocarbons are an essential topic in organic chemistry, and understanding them
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div class="callout-box">
+<div [class](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet)="callout-box">
 I still remember when I was preparing for my JEE exams, I used to get confused between alkanes, alkenes, and alkynes. One mistake I made was not being able to distinguish between the general formula of alkanes (CnH2n+2) and alkenes (CnH2n). However, I realized that understanding the general formula and the structural differences between these compounds is crucial. I made a cheat sheet with the general formulas and structures of different hydrocarbons, which helped me to quickly identify and solve problems.
 </div>
 

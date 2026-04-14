@@ -178,7 +178,7 @@ Before moving on, ensure you can:
 1. **Define key terms**: Oceanography, hydrosphere, oceanic zones, tides, salinity, density, and marine life.
 2. **Explain core concepts**: Oceanic water, ocean currents, and marine life.
 3. **Apply formulae**: Density of seawater, salinity of seawater, and kinetic energy of ocean currents.
-4. **Identify connections**: Between core concepts, formulae, and JEE/NEET data.
+4. **Identify connections**: Between core concepts, formulae, and JEE/[neet](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet) data.
 
 By confirming your understanding of these essential areas, you'll be confident in your ability to tackle oceanography and succeed in your studies.
 

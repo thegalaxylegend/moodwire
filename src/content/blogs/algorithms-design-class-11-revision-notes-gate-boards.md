@@ -105,7 +105,7 @@ Algorithm Design is the process of developing a well-structured and efficient se
    
    In terms of [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structures, the choice of [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structure depends on the problem being solved. For example, if we need to frequently insert or delete elements, a linked list may be a good choice. On the other hand, if we need to frequently search for elements, a hash table may be more suitable. 
    
-   The following table summarizes the time and space complexities of some common algorithms and data structures:
+   The following table summarizes the time and space complexities of some common algorithms and [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structures:
    
 
 

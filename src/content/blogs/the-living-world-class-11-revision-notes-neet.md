@@ -163,7 +163,7 @@ Solution: A) Monera
 3. What is the term for the process by which living organisms maintain a stable internal environment despite changes in the external environment?
 A) Homeostasis
 B) Metabolism
-C) Growth and development
+C) [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet) and development
 D) Reproduction
 
 Solution: A) Homeostasis
@@ -197,7 +197,7 @@ Solution: A) Cosmology
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div class="callout-box">
+<div [class](/blog/environmental-chemistry-class-11-revision-notes-neet)="callout-box">
 I remember when I was preparing for my [class](/blog/physical-world-class-11-revision-notes-jee-neet) 11 exams, I struggled to understand the concept of species. I thought that it was just a matter of identifying organisms that looked similar, but I soon realized that it was much more complex than that. The species concept is fundamental in understanding biodiversity and evolutionary processes, and it requires a deep understanding of the characteristics and evolutionary relationships of organisms. My mistake was not taking the time to thoroughly understand the concept, and I ended up losing marks in the exam. However, I learned from my mistake and made sure to thoroughly prepare for my next exam.
 </div>
 

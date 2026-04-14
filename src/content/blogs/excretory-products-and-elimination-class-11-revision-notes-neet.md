@@ -63,14 +63,14 @@ The following formulae are relevant to the excretory system:
 * **Glomerular filtration rate (GFR)**: The rate at which the kidneys filter the blood to remove waste products and excess substances. The GFR can be calculated using the following formula:
 
 
-$$\text{GFR} = \frac$\text{urine output$ \times \text{urea concentration in urine}}$\text{urea concentration in blood$}$$
+\text{GFR} = \frac$\text{urine output$ \times \text{urea concentration in urine}}$\text{urea concentration in blood$}
 
 
 
 * **Cockcroft-Gault equation**: An equation used to estimate the GFR based on serum creatinine levels, age, sex, and weight:
 
 
-$$\text{GFR} = \frac{(140 - \text{age}) \times \text{weight} \times (0.85 \text{ if female})}{72 \times \text{serum creatinine}}$$
+\text{GFR} = \frac{(140 - \text{age}) \times \text{weight} \times (0.85 \text{ if female})}{72 \times \text{serum creatinine}}
 
 
 
@@ -183,7 +183,7 @@ d) All of the above
 
 Answer: d) All of the above
 
-By practicing these MCQs, students can develop a deep understanding of the excretory system and its functions, and can prepare for success in the JEE and NEET exams.
+By practicing these MCQs, students can develop a deep understanding of the excretory system and its functions, and can prepare for success in the JEE and [neet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) exams.
 
 ### <a id="core-concepts-cont"></a>Core Concepts Cont.
 The excretory system is a complex system that involves the coordination of multiple organs and processes. The kidneys, liver, lungs, and skin all play important roles in the excretory system, and work together to remove waste products and excess substances from the body. The excretory system is also involved in the regulation of the body's acid-base balance and electrolyte balance.

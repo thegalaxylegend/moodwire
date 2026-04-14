@@ -95,7 +95,7 @@ In addition to the CPU and Memory, computer organization also involves Input/Out
 Here's a comparison table highlighting the key differences between Main Memory and Secondary Memory:
 
 
-| Type of Memory | Volatile | Data Retention | Access Time |
+| Type of Memory | Volatile | [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) Retention | Access Time |
 | --- | --- | --- | --- |
 | Main Memory (RAM) | Yes | Data lost when powered off | Fast |
 | Secondary Memory (ROM) | No | Data retained even when powered off | Slow |
@@ -105,7 +105,7 @@ Here's a comparison table highlighting the key differences between Main Memory a
 
 What are the Basic Components of a Computer? is a fundamental concept in computer science that refers to the essential parts that make up a computer system. It includes the Central Processing Unit (CPU), Memory, and Input/Output (I/O) devices. For [class](/blog/digital-logic-class-11-revision-notes-gate-boards) 11 exam prep in 2026, the most important aspect is understanding how these components interact with each other to process information.
 
- The **Central Processing Unit (CPU)**, also known as the processor, is the brain of the computer. It executes instructions and performs calculations, and its speed is measured in GHz (gigahertz). The CPU consists of several key components, including the **Control Unit**, which retrieves and decodes instructions, and the **Arithmetic Logic Unit (ALU)**, which performs mathematical and logical operations.
+ The **Central Processing Unit (CPU)**, also known as the processor, is the brain of the computer. It executes instructions and performs calculations, and its speed is measured in GHz (gigahertz). The CPU consists of several key components, including the **Control Unit**, which retrieves and decodes instructions, and the **Arithmetic [logic](/blog/digital-logic-class-11-revision-notes-gate-boards) Unit (ALU)**, which performs mathematical and logical operations.
 
  **Memory** refers to the computer's ability to store data and programs. There are two main types of memory: **RAM (Random Access Memory)** and **ROM (Read-Only Memory)**. RAM is volatile, meaning that its contents are lost when the computer is powered off, while ROM is non-volatile, meaning that its contents are retained even when the computer is turned off.
 
@@ -397,3 +397,18 @@ Continue your revision with these related guides:
 - 📖 [Algorithms: Analysis Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-analysis-class-11-revision-notes-gate-boards)
 - 📖 [Algorithms: Design Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-design-class-11-revision-notes-gate-boards)
 - 📖 [Data Structures: Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/data-structures-linear-class-11-revision-notes-gate-boards)
+
+## 🔁 Last 5 Minutes Box
+
+### Last 5 Minutes Box Revision
+   * **Von Neumann Architecture**: CPU, Memory, Input/Output
+   * **Bus**: Address Bus, Data Bus, Control Bus
+   * **CPU Components**: Control Unit, ALU, Registers
+   * **Instruction Cycle**: Fetch, Decode, Execute, Store
+   * **Memory Hierarchy**: Cache, Main Memory, Secondary Memory
+   * **Cache Memory**: Speed Up CPU, Temporarily stores data
+   * **Main Memory**: Volatile, Ram
+   * **Secondary Memory**: Non-Volatile, Hard Disk, CD, DVD
+   * **Pipelining**: Increase Throughput, Break down Instruction Cycle
+   * **Interrupts**: Signals to CPU, Asynchronous Events
+   * ** DMA (Direct Memory Access)**: Transfer Data, Without CPU Intervention

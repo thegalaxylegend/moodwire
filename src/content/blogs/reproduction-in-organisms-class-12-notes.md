@@ -41,15 +41,15 @@ practice_link: "/class-11/biology/reproduction-in-organisms-class-12-notes"
  - 1 numerical on reproductive potential of an organism (e.g., $2^n$ offspring) — frequently
 * **Graph-Based Questions**: 
  - 1 graph-based question on [human](/blog/human-reproduction-class-12-notes) population growth curve — frequently
- - 1 graph-based question on menstrual cycle hormone levels (e.g., $\frac$\Delta$$\Delta t$$ estrogen levels) — frequently
+ - 1 graph-based question on menstrual cycle hormone levels (e.g., $\frac$\Delta\Delta t estrogen levels) — frequently
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
 - **Fecundity:** F = \frac{N}{T} — Number of offspring (N) produced per unit time (T)
 
-- **Sex Ratio:** $$\text{Sex Ratio} = \frac$\text{Number of females$}$\text{Number of males$} — Ratio of females to males in a population$$
+- **Sex Ratio:** \text{Sex Ratio} = \frac$\text{Number of females$}$\text{Number of males$} — Ratio of females to males in a population
 
-- **Reproductive Isolation:** $$\text{Reproductive Isolation} = \frac$\text{Number of individuals that cannot interbreed$}$\text{Total number of individuals$} — Measure of the degree to which a population is reproductively isolated$$
+- **Reproductive Isolation:** \text{Reproductive Isolation} = \frac$\text{Number of individuals that cannot interbreed$}$\text{Total number of individuals$} — Measure of the degree to which a population is reproductively isolated
 
  - **Genetic Drift:** p = \frac{p_0 + \Delta p}{1 + 4N_e s} — Change in allele frequency (p) due to genetic drift, where $p_0$ is the initial allele frequency, $\Delta p$ is the change in allele frequency, $N_e$ is the effective population size, and s is the selection coefficient
 
@@ -113,16 +113,16 @@ practice_link: "/class-11/biology/reproduction-in-organisms-class-12-notes"
 
  Fertilization occurs when one of the sperm nuclei fuses with the egg cell or ovum to form a diploid zygote. 
 
- \	ext{Pollen grain} \	imes $$\text{Egg cell} \$$
-ightarrow $$\text{Zygote}$$
+ \	ext{Pollen grain} \	imes \text{Egg cell} \
+ightarrow \text{Zygote}
 
  The zygote then develops into an embryo inside the ovule. 
 
  The process involves the following steps: 
 
  (2n) \	ext{Pollen grain} \
-ightarrow (n) $$\text{Sperm nucleus}(n) \text{Sperm nucleus} + (n) \text{Egg cell} \$$
-ightarrow (2n) $$\text{Zygote}$$
+ightarrow (n) \text{Sperm nucleus}(n) \text{Sperm nucleus} + (n) \text{Egg cell} \
+ightarrow (2n) \text{Zygote}
 
  - **Answer:** Fertilization in [flowering](/blog/sexual-reproduction-in-flowering-plants-class-12-notes) plants involves the fusion of a sperm nucleus with the egg cell.
 
@@ -144,7 +144,7 @@ ightarrow (2n) $$\text{Zygote}$$
 
  - The integuments of the ovule develop into the testa or seed coat. 
 
- \	ext{Ovule} \	imes $$\text{Fertilization} \$$
+ \	ext{Ovule} \	imes \text{Fertilization} \
 ightarrow \	ext{Seed} 
 
  - **Answer:** The ovary develops into a fruit, ovules into seeds, and zygote into an embryo.
@@ -211,7 +211,7 @@ ightarrow (2n) \	ext{Offspring}
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- $E = $$\frac{-0.0591}{n} \log \frac{[Red]}{[Ox]}$ is used to calculate the reduction potential of a cell.$$
+- $E = \frac{-0.0591}{n} \log \frac{[Red]}{[Ox]}$ is used to calculate the reduction potential of a cell.
 
  - $\Delta G = \Delta H - T\Delta S$ is used to calculate the change in Gibbs free energy.
 
@@ -225,7 +225,7 @@ ightarrow (2n) \	ext{Offspring}
 
  - The process of reproduction in [organisms](/blog/organisms-and-populations-class-12-notes) involves the transmission of genetic material from one generation to the next.
 
- - The two main types of reproduction are sexual and asexual reproduction.
+ - The two main types of reproduction are [sexual](/blog/sexual-reproduction-in-flowering-plants-class-12-notes) and asexual reproduction.
 
  - The human reproductive system consists of the male and female reproductive systems, each with its own unique structures and functions.
 

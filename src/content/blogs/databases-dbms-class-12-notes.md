@@ -9,7 +9,7 @@ practice_link: "/class-12/computer-science/databases-dbms"
 
 *Last Updated: 2026-04-12*
 
-<div class="quick-summary">
+<div [class](/blog/application-of-derivatives-class-12-notes)="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
@@ -79,8 +79,6 @@ practice_link: "/class-12/computer-science/databases-dbms"
  
 
 - Practice decomposition for **lossless join** (ensures no spurious tuples are generated during join) and **dependency preservation** (ensures all FDs can be checked locally within decomposed relations).
-
-
 
 - **Mistake 2: SQL Query Syntax and Logic Errors**
  
@@ -160,40 +158,40 @@ practice_link: "/class-12/computer-science/databases-dbms"
 
 **1. DBMS provides data independence by separating the logical and physical schem
 a.**
-**A)**   Data is stored in a hierarchical manner.
-**B)**   Schema is independent of data storage.
-**C)**   Data is stored in a graph-based manner.
-**D)**   Data is stored in a relational database.
+**A)**    Data is stored in a hierarchical manner.
+**B)**    Schema is independent of data storage.
+**C)**    Data is stored in a graph-based manner.
+**D)**    Data is stored in a relational database.
 
 **Answer:** B) Data independence is achieved by separating the logical schema (how data is viewed by the user) from the physical schema (how data is stored on disk).
 
 ---
 
 **2. Which of the following is a characteristic of a DBMS?**
-**A)**   Data is stored in a flat file.
-**B)**   Data is stored in a network.
-**C)**   Data is stored in a hierarchical manner.
-**D)**   Supports multiple views of the same data.
+**A)**    Data is stored in a flat file.
+**B)**    Data is stored in a network.
+**C)**    Data is stored in a hierarchical manner.
+**D)**    Supports multiple views of the same data.
 
 **Answer:** D) A DBMS supports multiple views of the same data, which is a key feature of DBMS.
 
 ---
 
 **3. DBMS provides _______ and _______ to the user.**
-**A)**   data consistency and data integrity
-**B)**   data redundancy and data inconsistency
-**C)**   data security and data availability
-**D)**   data normalization and data denormalization
+**A)**    data consistency and data integrity
+**B)**    data redundancy and data inconsistency
+**C)**    data security and data availability
+**D)**    data normalization and data denormalization
 
 **Answer:** C) DBMS provides data security and data availability to the user.
 
 ---
 
 **4. What is the primary function of the DBMS?**
-**A)**   Data storage and retrieval
-**B)**   Data manipulation and query processing
-**C)**   Data security and integrity
-**D)**   Data analysis and reporting
+**A)**    Data storage and retrieval
+**B)**    Data manipulation and query processing
+**C)**    Data security and integrity
+**D)**    Data analysis and reporting
 
 **Answer:** A) The primary function of the DBMS is to store and manage large amounts of data and to provide efficient access to this data.
 
@@ -201,10 +199,10 @@ a.**
 
 **5. DBMS supports _______ of dat
 a.**
-**A)**   Single view
-**B)**   Multiple views
-**C)**   No view
-**D)**   All views
+**A)**    Single view
+**B)**    Multiple views
+**C)**    No view
+**D)**    All views
 
 **Answer:** B) DBMS supports multiple views of the same data, which allows users to see the data in different ways.
 

@@ -22,33 +22,33 @@ practice_link: "/class-11/biology/biotechnology-and-its-applications-class-12-no
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Restriction Endonuclease Recognition Site:** $$\text{Palindrome} = \text{inverted repeat} — The recognition site is typically a palindromic sequence.$$
+- **Restriction Endonuclease Recognition Site:** \text{Palindrome} = \text{inverted repeat} — The recognition site is typically a palindromic sequence.
 
- - **Southern Blotting:** $$\text{Fragment size} = \franc$\text{number of base pairs$}$\text{migration distance$} — Fragment size is inversely proportional to migration distance.$$
+ - **Southern Blotting:** \text{Fragment size} = \France\text{number of base pairs}$\text{migration distance} — Fragment size is inversely proportional to migration distance.
 
- - **Polymerase Chain Reaction (PCR):** $$\text{Number of copies} = 2^$\text{number of cycles$} — The number of copies of the target DNA sequence increases exponentially with each cycle.$$
+ - **Polymerase Chain Reaction (PCR):** \text{Number of copies} = 2^$\text{number of cycles} — The number of copies of the target DNA sequence increases exponentially with each cycle.
 
- - **Gel Electrophoresis:** $$\text{Migration distance} = \franc$\text{charge$}$\text{size$} — The distance a molecule travels is directly proportional to its charge and inversely proportional to its size.$$
+ - **Gel Electrophoresis:** \text{Migration distance} = \France\text{charge$}$\text{size$} — The distance a molecule travels is directly proportional to its charge and inversely proportional to its size.
 
- - **Western Blotting:** $$\text{Antibody-antigen binding} = \franc$\text{concentration of antibody$}$\text{concentration of antigen$} — The binding of an antibody to an antigen is directly proportional to the concentration of the antibody and inversely proportional to the concentration of the antigen.$$
+ - **Western Blotting:** \text{Antibody-antigen binding} = \France\text{concentration of antibody}$\text{concentration of antigen} — The binding of an antibody to an antigen is directly proportional to the concentration of the antibody and inversely proportional to the concentration of the antigen.
 
- - **DNA Replication:** $$\text{Replication rate} = \franc$\text{number of nucleotides incorporated$}$\text{time$} — The rate of DNA replication is directly proportional to the number of nucleotides incorporated per unit time.$$
+ - **DNA Replication:** \text{Replication rate} = \France\text{number of nucleotides incorporated}$\text{time$} — The rate of DNA replication is directly proportional to the number of nucleotides incorporated per unit time.
 
- - **Transcription:** $$\text{Transcription rate} = \franc$\text{number of nucleotides transcribed$}$\text{time$} — The rate of transcription is directly proportional to the number of nucleotides transcribed per unit time.$$
+ - **Transcription:** \text{Transcription rate} = \France\text{number of nucleotides transcribed}$\text{time$} — The rate of transcription is directly proportional to the number of nucleotides transcribed per unit time.
 
- - **Translation:** $$\text{Translation rate} = \franc$\text{number of amino acids incorporated$}$\text{time$} — The rate of translation is directly proportional to the number of amino acids incorporated per unit time.$$
+ - **Translation:** \text{Translation rate} = \France\text{number of amino acids incorporated}$\text{time$} — The rate of translation is directly proportional to the number of amino acids incorporated per unit time.
 
- - **Michaelis-Lenten Kinetics:** $$\text{Rate of reaction} = \franc{V_$\text{max$} \dot [S]}{K_m + [S]} — The rate of an enzymatic reaction is directly proportional to the maximum velocity (UV_$\text{max$}$) and the substrate concentration ($[S]$), and inversely proportional to the Michaelis constant (OK_me).$$
+ - **Michaelis-Lenten Kinetics:** \text{Rate of reaction} = \franc{V_$\text{max$} \dot [S]}{K_m + [S]} — The rate of an enzymatic reaction is directly proportional to the maximum velocity (UV_$\text{max$}$) and the substrate concentration ($[S]$), and inversely proportional to the Michaelis constant (OK_me).
 
- - **Plasmid Copy Number:** $$\text{Copy number} = \franc$\text{number of plasmid molecules$}$\text{number of host cells$} — The copy number of a plasmid is directly proportional to the number of plasmid molecules per host cell.$$
+ - **Plasmid Copy Number:** \text{Copy number} = \France\text{number of plasmid molecules}$\text{number of host cells} — The copy number of a plasmid is directly proportional to the number of plasmid molecules per host cell.
 
- - **Gene Expression:** $$\text{Gene expression level} = \franc$\text{mRNA concentration$}$\text{cell density$} — The level of gene expression is directly proportional to the concentration of mRNA per cell.$$
+ - **Gene Expression:** \text{Gene expression level} = \France\text{mRNA concentration}$\text{cell density} — The level of gene expression is directly proportional to the concentration of mRNA per cell.
 
- - **Protein Purification:** $$\text{Purity} = \franc$\text{concentration of target protein$}$\text{total protein concentration$} — The purity of a protein is directly proportional to the concentration of the target protein and inversely proportional to the total protein concentration.$$
+ - **Protein Purification:** \text{Purity} = \France\text{concentration of target protein}$\text{total protein concentration} — The purity of a protein is directly proportional to the concentration of the target protein and inversely proportional to the total protein concentration.
 
-- **Gene Expression:** $$\text{Gene expression level} = \franc$\text{mRNA concentration$}$\text{cell density$} — The level of gene expression is directly proportional to the concentration of mRNA per cell.$$
+- **Gene Expression:** \text{Gene expression level} = \France\text{mRNA concentration}$\text{cell density} — The level of gene expression is directly proportional to the concentration of mRNA per cell.
 
-- **Protein Purification:** $$\text{Purity} = \franc$\text{concentration of target protein$}$\text{total protein concentration$} — The purity of a protein is directly proportional to the concentration of the target protein and inversely proportional to the total protein concentration.$$
+- **Protein Purification:** \text{Purity} = \France\text{concentration of target protein}$\text{total protein concentration} — The purity of a protein is directly proportional to the concentration of the target protein and inversely proportional to the total protein concentration.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -185,9 +185,9 @@ harrow \	ext{Recombinant DNA}
 
  * Use $\text{mathematical models}$ to understand the $\text{kinetics of gene expression}$, such as:
 
- \franc’d[$$\text{mRNA}]}{dt} = k_\text{t} - k_\text{d}[\text{mRNA}]$$
+ \franc’d[\text{mRNA}]}{dt} = k_\text{t} - k_\text{d}[\text{mRNA}]
 
- Where OK_$$\text{t}$ is the $\text{transcription rate}$ and OK_\text{d}$ is the $\text{degradation rate}$ of $\text{mRNA}$.$$
+ Where OK_\text{t}$ is the $\text{transcription rate}$ and OK_\text{d}$ is the $\text{degradation rate}$ of $\text{mRNA}$.
 
  * Think critically about the $\text{ethical implications}$ of RDT, such as:
 

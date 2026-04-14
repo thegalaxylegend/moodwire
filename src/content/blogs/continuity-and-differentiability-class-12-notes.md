@@ -72,7 +72,7 @@ For $x < 0$, $f(x) = -x$, so $f'(x) = -1$.
 
 At $x = 0$, we check the definition of a derivative:
 
-f'(0) = \lim_{h \to 0} $$\frac{f(0 + h) - f(0)}{h} = \lim_{h \to 0} \frac{|h|}{h}$$
+f'(0) = \lim_{h \to 0} \frac{f(0 + h) - f(0)}{h} = \lim_{h \to 0} \frac{|h|}{h}
 
 
 This limit does not exist because $\frac{|h|}{h} = 1$ for $h > 0$ and $\frac{|h|}{h} = -1$ for $h < 0$. Therefore, $f'(0)$ is undefined.
@@ -84,7 +84,7 @@ This limit does not exist because $\frac{|h|}{h} = 1$ for $h > 0$ and $\frac{|h|
  - **Solution:** 
 By definition, 
 
-f'(x) = \lim_{h \to 0} $$\frac{f(x + h) - f(x)}{h} = \lim_{h \to 0} \frac{\sin(x + h) - \sin(x)}{h}$$
+f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h} = \lim_{h \to 0} \frac{\sin(x + h) - \sin(x)}{h}
 
 
 Using the angle sum identity for sine, $\sin(a + b) = \sin(a)\cos(b) + \cos(a)\sin(b)$, we get:
@@ -93,14 +93,14 @@ Using the angle sum identity for sine, $\sin(a + b) = \sin(a)\cos(b) + \cos(a)\s
 
 Substituting this back into our limit:
 
-f'(x) = \lim_{h \to 0} $$\frac{\sin(x)\cos(h) + \cos(x)\sin(h) - \sin(x)}{h}$$
+f'(x) = \lim_{h \to 0} \frac{\sin(x)\cos(h) + \cos(x)\sin(h) - \sin(x)}{h}
 
-= \lim_{h \to 0} $$\frac{\sin(x)(\cos(h) - 1) + \cos(x)\sin(h)}{h}$$
+= \lim_{h \to 0} \frac{\sin(x)(\cos(h) - 1) + \cos(x)\sin(h)}{h}
 
 
 Since $\cos(h)$ approaches $1$ and $\sin(h)$ approaches $h$ as $h$ approaches $0$:
 
-f'(x) = \lim_{h \to 0} $$\frac{\cos(x)\sin(h)}{h} = \cos(x) \cdot \lim_{h \to 0} \frac{\sin(h)}{h} = \cos(x) \cdot 1 = \cos(x)$$
+f'(x) = \lim_{h \to 0} \frac{\cos(x)\sin(h)}{h} = \cos(x) \cdot \lim_{h \to 0} \frac{\sin(h)}{h} = \cos(x) \cdot 1 = \cos(x)
 
 
 
@@ -139,7 +139,7 @@ f'(x) = \lim_{h \to 0} $$\frac{\cos(x)\sin(h)}{h} = \cos(x) \cdot \lim_{h \to 0}
 - **Definition:** A function $f(x)$ is differentiable at $x = a$ if $\lim_{h \to 0} \frac{f(a + h) - f(a)}{h}$ exists.
 - **Conditions:** 
   - $f(a)$ is defined.
-  - $\lim_{h \to 0} $$\frac{f(a + h) - f(a)}{h}$ exists.$$
+  - $\lim_{h \to 0} \frac{f(a + h) - f(a)}{h}$ exists.
 
 #### Differentiability on an Interval
 - **Definition:** A function $f(x)$ is differentiable on an interval $I$ if it is differentiable at every point in $I$.
@@ -151,13 +151,13 @@ f'(x) = \lim_{h \to 0} $$\frac{\cos(x)\sin(h)}{h} = \cos(x) \cdot \lim_{h \to 0}
 
 ### <a id="algebra-of-derivatives"></a>Algebra of Derivatives
 
-- **Sum Rule:** $$\frac{d}{dx} (f(x) + g(x)) = f'(x) + g'(x)$$
+- **Sum Rule:** \frac{d}{dx} (f(x) + g(x)) = f'(x) + g'(x)
 
-- **Difference Rule:** $$\frac{d}{dx} (f(x) - g(x)) = f'(x) - g'(x)$$
+- **Difference Rule:** \frac{d}{dx} (f(x) - g(x)) = f'(x) - g'(x)
 
-- **Product Rule:** $$\frac{d}{dx} (f(x) \cdot g(x)) = f'(x) \cdot g(x) + f(x) \cdot g'(x)$$
+- **Product Rule:** \frac{d}{dx} (f(x) \cdot g(x)) = f'(x) \cdot g(x) + f(x) \cdot g'(x)
 
-- **Quotient Rule:** $$\frac{d}{dx} \left(\frac{f(x)}{g(x)}\right) = \frac{f'(x) \cdot g(x) - f(x) \cdot g'(x)}{(g(x))^2}$$
+- **Quotient Rule:** \frac{d}{dx} \left(\frac{f(x)}{g(x)}\right) = \frac{f'(x) \cdot g(x) - f(x) \cdot g'(x)}{(g(x))^2}
 
 
 
@@ -172,7 +172,7 @@ f'(x) = \lim_{h \to 0} $$\frac{\cos(x)\sin(h)}{h} = \cos(x) \cdot \lim_{h \to 0}
 - **Composition of Functions:** If $f(x) = g(h(x))$, then $f'(x) = g'(h(x)) \cdot h'(x)$.
 
 
-- **General Form:** $$\frac{d}{dx} f(g(x)) = f'(g(x)) \cdot g'(x)$$
+- **General Form:** \frac{d}{dx} f(g(x)) = f'(g(x)) \cdot g'(x)
 
 
 
@@ -194,8 +194,8 @@ f'(x) = \lim_{h \to 0} $$\frac{\cos(x)\sin(h)}{h} = \cos(x) \cdot \lim_{h \to 0}
 
 #### Implicit Differentiation with Trigonometric Functions
 - **Examples:** 
-  - If $\sin(y) = x$, then $\cos(y) \cdot y' = 1$, so $y' = $$\frac{1}{\cos(y)}$.$$
-  - If $\cos(y) = x$, then $-\sin(y) \cdot y' = 1$, so $y' = -$$\frac{1}{\sin(y)}$.$$
+  - If $\sin(y) = x$, then $\cos(y) \cdot y' = 1$, so $y' = \frac{1}{\cos(y)}$.
+  - If $\cos(y) = x$, then $-\sin(y) \cdot y' = 1$, so $y' = -\frac{1}{\sin(y)}$.
 
 
 ### <a id="higherorder-derivatives"></a>Higher-Order Derivatives
@@ -263,7 +263,7 @@ For $x < 0$, $f(g(x)) = f(x^2) = |x^2| = x^2$, so $f'(g(x)) = 2x$.
 
 However, since $g(x) = x^2$, we need to use the chain rule:
 
-$$\frac{d}{dx} f(g(x)) = f'(g(x)) \cdot g'(x) = 2x \cdot 2x = 4x^2$$
+\frac{d}{dx} f(g(x)) = f'(g(x)) \cdot g'(x) = 2x \cdot 2x = 4x^2
 
 
 But we must consider the nature of $f(x) = |x|$ when $x = 0$. Since $g(0) = 0^2 = 0$, and $f'(0)$ is undefined for $f(x) = |x|$, the derivative of $f(g(x))$ at $x = 0$ needs special attention.

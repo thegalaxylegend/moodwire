@@ -185,7 +185,7 @@ If rain falls vertically (**v_r**) and a man moves horizontally (**v_m**):
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 4: Laws of [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet) (Forces & FBD)**
-- **Chapter 6: Rotational Motion (Centripetal vs Centrifugal)**
+- **Chapter 6: [rotational](/blog/rotational-motion-class-11-revision-notes-jee-neet) Motion (Centripetal vs Centrifugal)**
 - **Interactive Projectile Motion Simulator**
 
 

@@ -101,7 +101,7 @@ By keeping these **Trap Exceptions** in mind, you can avoid common mistakes and 
 ### <a id="key-takeaways"></a>Key Takeaways
 - **Bhakti movement** emphasized personal devotion to a particular deity.
 - **Sufi movement** emphasized spiritual experience and the attainment of a state of union with God.
-- Understanding the historical context of Medieval India is crucial for appreciating the cultural and social heritage of India.
+- Understanding the historical context of Medieval [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) is crucial for appreciating the cultural and social heritage of [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee).
 
 ### <a id="further-reading"></a>Further Reading
 For a more in-depth understanding of the **Bhakti** and **Sufi** movements, consider exploring the following texts:

@@ -127,7 +127,7 @@ Hydrogen fuel cells are devices that convert the chemical energy of hydrogen int
 To calculate the number of moles of hydrogen in a given mass of a compound, use the formula:
 
 
-n = $$\frac{m}{M}$$
+n = \frac{m}{M}
 
 
 

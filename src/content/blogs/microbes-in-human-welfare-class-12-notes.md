@@ -22,7 +22,7 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Microbial Growth Rate:** $$\frac{dN}{dt} = \mu N — $N$ is the number of microorganisms, $\mu$ is the growth rate, $t$ is time.$$
+- **Microbial Growth Rate:** \frac{dN}{dt} = \mu N — $N$ is the number of microorganisms, $\mu$ is the growth rate, $t$ is time.
 
  - **Monod Equation:** \mu = \mu_{max} \frac{S}{K_s + S} — $\mu_{max}$ is the maximum growth rate, $S$ is the substrate concentration, $K_s$ is the half-saturation constant.
 
@@ -36,17 +36,17 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
  - **Maintenance Energy:** m = \frac{1}{Y_{ATP}} \frac$\mu${X} — $m$ is the maintenance energy, $Y_{ATP}$ is the ATP yield coefficient, $\mu$ is the growth rate, $X$ is the biomass concentration.
 
- - **Growth Yield:** Y = \frac$\Delta X$$\Delta S$ — $Y$ is the growth yield, $\Delta X$ is the change in biomass concentration, $\Delta S$ is the change in substrate concentration.
+ - **Growth Yield:** Y = \frac$\Delta X\Delta S$ — $Y$ is the growth yield, $\Delta X$ is the change in biomass concentration, $\Delta S$ is the change in substrate concentration.
 
  - **Lag Phase Duration:** t_{lag} = \frac{1}$\mu$ \ln\left(\frac{N_0}{N_i}\right) — $t_{lag}$ is the lag phase duration, $\mu$ is the growth rate, $N_0$ is the initial inoculum size, $N_i$ is the initial population size.
 
- - **Stationary Phase:** $$\frac{dN}{dt} = 0 — $N$ is the number of microorganisms, $t$ is time.$$
+ - **Stationary Phase:** \frac{dN}{dt} = 0 — $N$ is the number of microorganisms, $t$ is time.
 
- - **Death Phase:** $$\frac{dN}{dt} = -k_d N — $N$ is the number of microorganisms, $k_d$ is the death rate constant, $t$ is time.$$
+ - **Death Phase:** \frac{dN}{dt} = -k_d N — $N$ is the number of microorganisms, $k_d$ is the death rate constant, $t$ is time.
 
- - **Stationary Phase:** $$\frac{dN}{dt} = 0 — $N$ is the number of microorganisms, $t$ is time.$$
+ - **Stationary Phase:** \frac{dN}{dt} = 0 — $N$ is the number of microorganisms, $t$ is time.
 
- - **Death Phase:** $$\frac{dN}{dt} = -k_d N — $N$ is the number of microorganisms, $k_d$ is the death rate constant, $t$ is time.$$
+ - **Death Phase:** \frac{dN}{dt} = -k_d N — $N$ is the number of microorganisms, $k_d$ is the death rate constant, $t$ is time.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
