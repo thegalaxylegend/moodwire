@@ -7,9 +7,6 @@ date: "2026-04-04"
 practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 ---
 
-
-![Microbes in Human Welfare Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog-images/microbes-in-human-welfare-class-12-notes.webp)
-
 *Last Updated: 2026-04-04*
 
 ## 📋 Table of Contents
@@ -25,7 +22,7 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Microbial Growth Rate:** \frac{dN}{dt} = \mu N — $N$ is the number of microorganisms, $\mu$ is the growth rate, $t$ is time.
+- **Microbial Growth Rate:** $$\frac{dN}{dt} = \mu N — $N$ is the number of microorganisms, $\mu$ is the growth rate, $t$ is time.$$
 
  - **Monod Equation:** \mu = \mu_{max} \frac{S}{K_s + S} — $\mu_{max}$ is the maximum growth rate, $S$ is the substrate concentration, $K_s$ is the half-saturation constant.
 
@@ -35,21 +32,21 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
  - **Product Formation:** P = Y_p X — $P$ is the product concentration, $Y_p$ is the product yield coefficient, $X$ is the biomass concentration.
 
- - **Substrate Uptake Rate:** q_s = \frac{\mu}{Y} — $q_s$ is the substrate uptake rate, $\mu$ is the growth rate, $Y$ is the yield coefficient.
+ - **Substrate Uptake Rate:** q_s = \frac$\mu${Y} — $q_s$ is the substrate uptake rate, $\mu$ is the growth rate, $Y$ is the yield coefficient.
 
- - **Maintenance Energy:** m = \frac{1}{Y_{ATP}} \frac{\mu}{X} — $m$ is the maintenance energy, $Y_{ATP}$ is the ATP yield coefficient, $\mu$ is the growth rate, $X$ is the biomass concentration.
+ - **Maintenance Energy:** m = \frac{1}{Y_{ATP}} \frac$\mu${X} — $m$ is the maintenance energy, $Y_{ATP}$ is the ATP yield coefficient, $\mu$ is the growth rate, $X$ is the biomass concentration.
 
- - **Growth Yield:** Y = \frac{\Delta X}{\Delta S} — $Y$ is the growth yield, $\Delta X$ is the change in biomass concentration, $\Delta S$ is the change in substrate concentration.
+ - **Growth Yield:** Y = \frac$\Delta X$$\Delta S$ — $Y$ is the growth yield, $\Delta X$ is the change in biomass concentration, $\Delta S$ is the change in substrate concentration.
 
- - **Lag Phase Duration:** t_{lag} = \frac{1}{\mu} \ln\left(\frac{N_0}{N_i}\right) — $t_{lag}$ is the lag phase duration, $\mu$ is the growth rate, $N_0$ is the initial inoculum size, $N_i$ is the initial population size.
+ - **Lag Phase Duration:** t_{lag} = \frac{1}$\mu$ \ln\left(\frac{N_0}{N_i}\right) — $t_{lag}$ is the lag phase duration, $\mu$ is the growth rate, $N_0$ is the initial inoculum size, $N_i$ is the initial population size.
 
- - **Stationary Phase:** \frac{dN}{dt} = 0 — $N$ is the number of microorganisms, $t$ is time.
+ - **Stationary Phase:** $$\frac{dN}{dt} = 0 — $N$ is the number of microorganisms, $t$ is time.$$
 
- - **Death Phase:** \frac{dN}{dt} = -k_d N — $N$ is the number of microorganisms, $k_d$ is the death rate constant, $t$ is time.
+ - **Death Phase:** $$\frac{dN}{dt} = -k_d N — $N$ is the number of microorganisms, $k_d$ is the death rate constant, $t$ is time.$$
 
- - **Stationary Phase:** \frac{dN}{dt} = 0 — $N$ is the number of microorganisms, $t$ is time.
+ - **Stationary Phase:** $$\frac{dN}{dt} = 0 — $N$ is the number of microorganisms, $t$ is time.$$
 
- - **Death Phase:** \frac{dN}{dt} = -k_d N — $N$ is the number of microorganisms, $k_d$ is the death rate constant, $t$ is time.
+ - **Death Phase:** $$\frac{dN}{dt} = -k_d N — $N$ is the number of microorganisms, $k_d$ is the death rate constant, $t$ is time.$$
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -147,7 +144,7 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
  - **What 95% scorers do:** They understand that maximizing antibiotic production involves optimizing microbial growth conditions based on the $\mu$ value. They apply the formula for specific growth rate: $\frac{dX}{dt} = \mu X$, where $X$ is the biomass concentration, to determine the ideal conditions. They also recognize that $\mu$ is influenced by factors like $K_s$ (Monod constant), $S$ (substrate concentration), and $K_i$ (inhibition constant), using the Monod equation: $\mu = \mu_{max} \frac{S}{K_s + S}$. They can further analyze how $\Delta G$ (Gibbs free energy change) affects the spontaneity of metabolic reactions involved in antibiotic synthesis, ensuring they can calculate and compare yields under different conditions.
 
- - **Key Differentiator:** The ability to apply kinetic models and thermodynamic principles to microbial processes is what separates high scorers. For example, understanding how $K_{eq} = e^{\frac{-\Delta G^0}{RT}}$ relates to the equilibrium of metabolic reactions and how it impacts antibiotic production efficiency.
+ - **Key Differentiator:** The ability to apply kinetic models and thermodynamic principles to microbial processes is what separates high scorers. For example, understanding how $K_{eq} = e^$\frac{-\Delta G^0${RT}}$ relates to the equilibrium of metabolic reactions and how it impacts antibiotic production efficiency.
 
  - **Crucial Insight:** Recognizing that $\mu$ and $\Delta G$ are interconnected through the metabolism of the microbe, and that optimizing one parameter often affects others, is vital. High scorers can not only recall these formulas but also apply them to predict and optimize outcomes in microbial fermentation processes.
 
@@ -234,14 +231,9 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. Which of the following microbes is used in the production of Statin, a cholesterol-lowering drug?**
-
--
 A) Aspergillus terreus
--
 B) Penicillium chrysogenum
--
 C) Streptomyces griseus
--
 D) Bacillus subtilis
 
 **Answer:** A) Aspergillus terreus is used for the production of Statin.
@@ -249,14 +241,9 @@ D) Bacillus subtilis
 ---
 
 **2. Microbes can be used for the production of which of the following vaccines?**
-
--
 A) Hepatitis B
--
 B) Rabies
--
 C) BCG
--
 D) All of the above
 
 **Answer:** D) Microbes are used in the production of Hepatitis B, Rabies, and BCG vaccines.
@@ -264,14 +251,9 @@ D) All of the above
 ---
 
 **3. The process of using microbes to remove pollutants from the environment is known as**
-
--
 A) Bioremediation
--
 B) Biodegradation
--
 C) Bioaugmentation
--
 D) Biomineralization
 
 **Answer:** A) Bioremediation is the process of using microbes to remove pollutants from the environment.
@@ -279,14 +261,9 @@ D) Biomineralization
 ---
 
 **4. Which of the following is an example of a biofertilizer?**
-
--
 A) Rhizobium
--
 B) Azospirillum
--
 C) Frankia
--
 D) All of the above
 
 **Answer:** D) Rhizobium, Azospirillum, and Frankia are all examples of biofertilizers.
@@ -294,14 +271,9 @@ D) All of the above
 ---
 
 **5. The production of curd from milk involves the action of which of the following microbes?**
-
--
 A) Lactobacillus
--
 B) Streptococcus
--
 C) Bacillus
--
 D) Clostridium
 
 **Answer:** A) Lactobacillus is involved in the production of curd from milk.

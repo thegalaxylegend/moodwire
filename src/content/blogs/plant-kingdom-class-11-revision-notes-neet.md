@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/plant-kingdom-class-11-revision-notes-neet"
 ---
 
-
-![Plant Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog-images/plant-kingdom-class-11-revision-notes-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -37,7 +34,7 @@ practice_link: "/class-11/biology/plant-kingdom-class-11-revision-notes-neet"
 
 ## <a id="what-is-plant-kingdom"></a>What is Plant Kingdom?
 
-# Plant Kingdom Class 11 Notes
+
 
 
 Last Updated: March 15, 2026
@@ -73,7 +70,7 @@ Plant Kingdom is a critical topic for JEE and NEET exams, with 3-4 questions ask
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div [class](/blog/environmental-chemistry-class-11-revision-notes-neet)="ayush-note">
+<div class="ayush-note">
 I still remember when I was preparing for JEE, I used to get confused between the different plant groups. I would often mix up the characteristics of Bryophyta and Tracheophyta. But then I realized that the key to understanding Plant Kingdom is to focus on the vascular tissue. Once I understood the difference between vascular and non-vascular [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet), I was able to classify [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) easily. My advice to you is to practice, practice, practice! Make sure you practice at least 50-60 questions from this topic to get a good grip on it.
 </div>
 

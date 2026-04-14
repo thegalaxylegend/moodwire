@@ -1,0 +1,1691 @@
+{
+  "date": "2026-04-13T14:57:28.808Z",
+  "mode": "live",
+  "summary": {
+    "scanned": 191,
+    "repaired": 182,
+    "totalFixes": 405,
+    "apiCalls": 0
+  },
+  "repairs": [
+    {
+      "slug": "3d-geometry-intro-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Wrapped 41 raw LaTeX formulas in $$ delimiters",
+        "Fixed 6 brace-wrapped LaTeX to $ delimiters",
+        "Removed 2 empty LaTeX blocks",
+        "Removed 3 empty bullet points"
+      ],
+      "wordsBefore": 4761,
+      "wordsAfter": 4756
+    },
+    {
+      "slug": "agriculture-class-11-revision-notes-neet",
+      "fixes": [
+        "Removed 1 duplicate Jules footers"
+      ],
+      "wordsBefore": 1186,
+      "wordsAfter": 1170
+    },
+    {
+      "slug": "ai-study-hack-pomodoro-class-11-revision-notes-neet",
+      "fixes": [
+        "Removed 1 duplicate Jules footers"
+      ],
+      "wordsBefore": 836,
+      "wordsAfter": 820
+    },
+    {
+      "slug": "alcohols-phenols-and-ethers-class-12-notes",
+      "fixes": [
+        "Fixed 1 [class](link) HTML attributes"
+      ],
+      "wordsBefore": 1471,
+      "wordsAfter": 1471
+    },
+    {
+      "slug": "algorithms-analysis-class-11-revision-notes-gate-boards",
+      "fixes": [
+        "Wrapped 12 raw LaTeX formulas in $$ delimiters",
+        "Removed 3 empty LaTeX blocks"
+      ],
+      "wordsBefore": 6390,
+      "wordsAfter": 6387
+    },
+    {
+      "slug": "alternating-current-class-12-notes",
+      "fixes": [
+        "Wrapped 10 raw LaTeX formulas in $$ delimiters",
+        "Fixed 2 brace-wrapped LaTeX to $ delimiters"
+      ],
+      "wordsBefore": 5760,
+      "wordsAfter": 5760
+    },
+    {
+      "slug": "amines-class-12-notes",
+      "fixes": [
+        "Wrapped 2 raw LaTeX formulas in $$ delimiters"
+      ],
+      "wordsBefore": 2095,
+      "wordsAfter": 2095
+    },
+    {
+      "slug": "anatomy-of-flowering-plants-class-11-revision-notes-neet",
+      "fixes": [
+        "Removed 1 [object Object] artifacts",
+        "Split 5 MCQs into separate option lines",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 2017,
+      "wordsAfter": 2007
+    },
+    {
+      "slug": "ancient-india-indus-valley-class-11-revision-notes-cbse",
+      "fixes": [
+        "Removed 1 [object Object] artifacts"
+      ],
+      "wordsBefore": 1382,
+      "wordsAfter": 1380
+    },
+    {
+      "slug": "ancient-india-mahajanapadas-class-11-revision-notes-jee",
+      "fixes": [
+        "Wrapped 2 raw LaTeX formulas in $$ delimiters",
+        "Fixed 4 brace-wrapped LaTeX to $ delimiters"
+      ],
+      "wordsBefore": 1292,
+      "wordsAfter": 1292
+    },
+    {
+      "slug": "ancient-india-vedic-age-class-11-revision-notes-jee",
+      "fixes": [
+        "Removed 1 [object Object] artifacts"
+      ],
+      "wordsBefore": 1418,
+      "wordsAfter": 1416
+    },
+    {
+      "slug": "animal-kingdom-class-11-revision-notes-neet",
+      "fixes": [
+        "Split 5 MCQs into separate option lines",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1306,
+      "wordsAfter": 1300
+    },
+    {
+      "slug": "application-of-derivatives-class-12-notes",
+      "fixes": [
+        "Wrapped 18 raw LaTeX formulas in $$ delimiters",
+        "Fixed 1 brace-wrapped LaTeX to $ delimiters",
+        "Removed 20 empty bullet points"
+      ],
+      "wordsBefore": 3460,
+      "wordsAfter": 3440
+    },
+    {
+      "slug": "applications-of-trigonometry-class-10-notes",
+      "fixes": [
+        "Fixed 1 [class](link) HTML attributes",
+        "Wrapped 1 raw LaTeX formulas in $$ delimiters",
+        "Fixed 3 brace-wrapped LaTeX to $ delimiters",
+        "Split 5 MCQs into separate option lines"
+      ],
+      "wordsBefore": 2678,
+      "wordsAfter": 2678
+    },
+    {
+      "slug": "areas-related-to-circles-class-10-notes",
+      "fixes": [
+        "Fixed 1 [class](link) HTML attributes",
+        "Split 5 MCQs into separate option lines"
+      ],
+      "wordsBefore": 2461,
+      "wordsAfter": 2461
+    },
+    {
+      "slug": "arithmetic-progressions-class-10-notes",
+      "fixes": [
+        "Fixed 1 [class](link) HTML attributes",
+        "Wrapped 81 raw LaTeX formulas in $$ delimiters",
+        "Split 5 MCQs into separate option lines"
+      ],
+      "wordsBefore": 3926,
+      "wordsAfter": 3926
+    },
+    {
+      "slug": "atoms-class-12-notes",
+      "fixes": [
+        "Wrapped 3 raw LaTeX formulas in $$ delimiters",
+        "Fixed 3 brace-wrapped LaTeX to $ delimiters"
+      ],
+      "wordsBefore": 2082,
+      "wordsAfter": 2082
+    },
+    {
+      "slug": "binomial-theorem-class-11-revision-notes-jee",
+      "fixes": [
+        "Removed 2 [object Object] artifacts",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1365,
+      "wordsAfter": 1356
+    },
+    {
+      "slug": "biodiversity-and-conservation-class-12-notes",
+      "fixes": [
+        "Wrapped 5 raw LaTeX formulas in $$ delimiters",
+        "Fixed 5 brace-wrapped LaTeX to $ delimiters",
+        "Removed 20 empty bullet points"
+      ],
+      "wordsBefore": 2731,
+      "wordsAfter": 2711
+    },
+    {
+      "slug": "biological-classification-class-11-revision-notes-neet",
+      "fixes": [
+        "Removed 1 [object Object] artifacts",
+        "Fixed 1 [class](link) HTML attributes",
+        "Wrapped 7 raw LaTeX formulas in $$ delimiters",
+        "Split 5 MCQs into separate option lines",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1262,
+      "wordsAfter": 1254
+    },
+    {
+      "slug": "biomolecules-class-11-revision-notes-neet",
+      "fixes": [
+        "Split 5 MCQs into separate option lines",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1534,
+      "wordsAfter": 1529
+    },
+    {
+      "slug": "biotechnology-and-its-applications-class-12-notes",
+      "fixes": [
+        "Wrapped 16 raw LaTeX formulas in $$ delimiters",
+        "Fixed 25 brace-wrapped LaTeX to $ delimiters",
+        "Removed 20 empty bullet points"
+      ],
+      "wordsBefore": 2593,
+      "wordsAfter": 2573
+    },
+    {
+      "slug": "biotechnology-principles-and-processes-class-12-notes",
+      "fixes": [
+        "Fixed 2 brace-wrapped LaTeX to $ delimiters",
+        "Removed 20 empty bullet points"
+      ],
+      "wordsBefore": 2583,
+      "wordsAfter": 2563
+    },
+    {
+      "slug": "body-fluids-and-circulation-class-11-revision-notes-neet",
+      "fixes": [
+        "Removed 1 [object Object] artifacts",
+        "Wrapped 23 raw LaTeX formulas in $$ delimiters",
+        "Removed 1 empty inline LaTeX",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 6648,
+      "wordsAfter": 6634
+    },
+    {
+      "slug": "breathing-and-exchange-of-gases-class-11-revision-notes-neet",
+      "fixes": [
+        "Fixed 1 brace-wrapped LaTeX to $ delimiters",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1861,
+      "wordsAfter": 1849
+    },
+    {
+      "slug": "cell-cycle-and-cell-division-class-11-revision-notes-neet",
+      "fixes": [
+        "Fixed 1 [class](link) HTML attributes",
+        "Wrapped 2 raw LaTeX formulas in $$ delimiters",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1448,
+      "wordsAfter": 1439
+    },
+    {
+      "slug": "cell-the-unit-of-life-class-11-revision-notes-neet",
+      "fixes": [
+        "Fixed 1 [class](link) HTML attributes",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1388,
+      "wordsAfter": 1379
+    },
+    {
+      "slug": "chemical-bonding-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Fixed 1 literal \\n escape sequences",
+        "Wrapped 1 raw LaTeX formulas in $$ delimiters",
+        "Split 3 MCQs into separate option lines",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 3207,
+      "wordsAfter": 3201
+    },
+    {
+      "slug": "chemical-coordination-and-integration-class-11-revision-notes-neet",
+      "fixes": [
+        "Wrapped 2 raw LaTeX formulas in $$ delimiters",
+        "Fixed 2 brace-wrapped LaTeX to $ delimiters",
+        "Removed 1 empty LaTeX blocks",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1266,
+      "wordsAfter": 1254
+    },
+    {
+      "slug": "chemical-kinetics-class-12-notes",
+      "fixes": [
+        "Wrapped 1 raw LaTeX formulas in $$ delimiters",
+        "Fixed 2 brace-wrapped LaTeX to $ delimiters"
+      ],
+      "wordsBefore": 2770,
+      "wordsAfter": 2770
+    },
+    {
+      "slug": "chemistry-in-everyday-life-class-12-notes",
+      "fixes": [
+        "Fixed 1 [class](link) HTML attributes",
+        "Fixed 2 brace-wrapped LaTeX to $ delimiters"
+      ],
+      "wordsBefore": 1329,
+      "wordsAfter": 1329
+    },
+    {
+      "slug": "circles-class-10-notes",
+      "fixes": [
+        "Fixed 1 [class](link) HTML attributes",
+        "Wrapped 1 raw LaTeX formulas in $$ delimiters",
+        "Fixed 3 brace-wrapped LaTeX to $ delimiters",
+        "Split 5 MCQs into separate option lines"
+      ],
+      "wordsBefore": 2598,
+      "wordsAfter": 2598
+    },
+    {
+      "slug": "class-10-30-day-timetable-class-10-revision-notes-jee",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1349,
+      "wordsAfter": 1339
+    },
+    {
+      "slug": "class-10-science-pyq-strategy-class-10-revision-notes-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1409,
+      "wordsAfter": 1399
+    },
+    {
+      "slug": "classification-elements-periodicity-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Split 5 MCQs into separate option lines",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 2569,
+      "wordsAfter": 2563
+    },
+    {
+      "slug": "classification-of-elements-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Wrapped 3 raw LaTeX formulas in $$ delimiters",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 6877,
+      "wordsAfter": 6867
+    },
+    {
+      "slug": "climatology-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Wrapped 7 raw LaTeX formulas in $$ delimiters"
+      ],
+      "wordsBefore": 770,
+      "wordsAfter": 770
+    },
+    {
+      "slug": "communication-systems-class-12-notes",
+      "fixes": [
+        "Wrapped 21 raw LaTeX formulas in $$ delimiters",
+        "Fixed 4 brace-wrapped LaTeX to $ delimiters"
+      ],
+      "wordsBefore": 1897,
+      "wordsAfter": 1897
+    },
+    {
+      "slug": "compiler-design-class-12-notes",
+      "fixes": [
+        "Fixed 13 literal \\n escape sequences",
+        "Split 5 MCQs into separate option lines",
+        "Collapsed 2 excessive blank line groups"
+      ],
+      "wordsBefore": 1528,
+      "wordsAfter": 1528
+    },
+    {
+      "slug": "complex-numbers-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1028,
+      "wordsAfter": 1023
+    },
+    {
+      "slug": "computer-networks-class-12-notes",
+      "fixes": [
+        "Wrapped 37 raw LaTeX formulas in $$ delimiters",
+        "Fixed 5 brace-wrapped LaTeX to $ delimiters",
+        "Removed 10 empty LaTeX blocks"
+      ],
+      "wordsBefore": 3088,
+      "wordsAfter": 3078
+    },
+    {
+      "slug": "conic-sections-class-11-revision-notes-jee",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1050,
+      "wordsAfter": 1045
+    },
+    {
+      "slug": "constitutional-framework-class-11-revision-notes-cbse",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 966,
+      "wordsAfter": 952
+    },
+    {
+      "slug": "continuity-and-differentiability-class-12-notes",
+      "fixes": [
+        "Fixed 1 literal \\n escape sequences",
+        "Wrapped 14 raw LaTeX formulas in $$ delimiters"
+      ],
+      "wordsBefore": 2664,
+      "wordsAfter": 2664
+    },
+    {
+      "slug": "coordinate-geometry-class-10-notes",
+      "fixes": [
+        "Fixed 1 [class](link) HTML attributes",
+        "Wrapped 12 raw LaTeX formulas in $$ delimiters",
+        "Split 5 MCQs into separate option lines"
+      ],
+      "wordsBefore": 2813,
+      "wordsAfter": 2813
+    },
+    {
+      "slug": "coordination-compounds-class-12-notes",
+      "fixes": [
+        "Wrapped 19 raw LaTeX formulas in $$ delimiters",
+        "Fixed 7 brace-wrapped LaTeX to $ delimiters",
+        "Removed 11 empty inline LaTeX",
+        "Removed 20 empty bullet points"
+      ],
+      "wordsBefore": 6046,
+      "wordsAfter": 6015
+    },
+    {
+      "slug": "cuet-2026-master-strategy-class-11-revision-notes-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1692,
+      "wordsAfter": 1682
+    },
+    {
+      "slug": "current-electricity-class-11-revision-notes-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1569,
+      "wordsAfter": 1564
+    },
+    {
+      "slug": "data-structures-non-linear-class-11-revision-notes-gate-boards",
+      "fixes": [
+        "Wrapped 4 raw LaTeX formulas in $$ delimiters",
+        "Removed 1 empty LaTeX blocks"
+      ],
+      "wordsBefore": 8241,
+      "wordsAfter": 8240
+    },
+    {
+      "slug": "databases-dbms-class-12-notes",
+      "fixes": [
+        "Fixed 47 literal \\n escape sequences",
+        "Fixed 1 [class](link) HTML attributes",
+        "Fixed 30 brace-wrapped LaTeX to $ delimiters",
+        "Split 5 MCQs into separate option lines"
+      ],
+      "wordsBefore": 1797,
+      "wordsAfter": 1796
+    },
+    {
+      "slug": "determinants-class-12-notes",
+      "fixes": [
+        "Fixed 2 literal \\n escape sequences",
+        "Wrapped 20 raw LaTeX formulas in $$ delimiters",
+        "Removed 1 empty LaTeX blocks"
+      ],
+      "wordsBefore": 2640,
+      "wordsAfter": 2639
+    },
+    {
+      "slug": "differential-equations-class-12-notes",
+      "fixes": [
+        "Wrapped 10 raw LaTeX formulas in $$ delimiters",
+        "Fixed 12 brace-wrapped LaTeX to $ delimiters"
+      ],
+      "wordsBefore": 2128,
+      "wordsAfter": 2128
+    },
+    {
+      "slug": "digestion-and-absorption-class-11-revision-notes-neet",
+      "fixes": [
+        "Wrapped 6 raw LaTeX formulas in $$ delimiters",
+        "Fixed 8 brace-wrapped LaTeX to $ delimiters",
+        "Removed 2 empty LaTeX blocks",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1280,
+      "wordsAfter": 1268
+    },
+    {
+      "slug": "digital-logic-class-11-revision-notes-gate-boards",
+      "fixes": [
+        "Wrapped 18 raw LaTeX formulas in $$ delimiters"
+      ],
+      "wordsBefore": 10100,
+      "wordsAfter": 10100
+    },
+    {
+      "slug": "dpsp-duties-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1096,
+      "wordsAfter": 1081
+    },
+    {
+      "slug": "dual-nature-of-radiation-class-12-notes",
+      "fixes": [
+        "Fixed 14 literal \\n escape sequences",
+        "Wrapped 44 raw LaTeX formulas in $$ delimiters",
+        "Fixed 6 brace-wrapped LaTeX to $ delimiters",
+        "Removed 6 empty inline LaTeX"
+      ],
+      "wordsBefore": 2210,
+      "wordsAfter": 2218
+    },
+    {
+      "slug": "ecosystem-class-12-notes",
+      "fixes": [
+        "Wrapped 6 raw LaTeX formulas in $$ delimiters",
+        "Fixed 6 brace-wrapped LaTeX to $ delimiters",
+        "Removed 1 empty LaTeX blocks",
+        "Removed 20 empty bullet points"
+      ],
+      "wordsBefore": 2506,
+      "wordsAfter": 2485
+    },
+    {
+      "slug": "electric-charges-fields-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1920,
+      "wordsAfter": 1914
+    },
+    {
+      "slug": "electromagnetic-induction-class-12-revision-notes-jee-neet",
+      "fixes": [
+        "Wrapped 27 raw LaTeX formulas in $$ delimiters"
+      ],
+      "wordsBefore": 6890,
+      "wordsAfter": 6890
+    },
+    {
+      "slug": "electromagnetic-waves-class-12-notes",
+      "fixes": [
+        "Removed 7 [object Object] artifacts",
+        "Fixed 8 literal \\n escape sequences",
+        "Wrapped 7 raw LaTeX formulas in $$ delimiters",
+        "Fixed 1 brace-wrapped LaTeX to $ delimiters"
+      ],
+      "wordsBefore": 6553,
+      "wordsAfter": 6537
+    },
+    {
+      "slug": "electrostatics-class-12-revision-notes-jee-neet",
+      "fixes": [
+        "Wrapped 34 raw LaTeX formulas in $$ delimiters",
+        "Split 5 MCQs into separate option lines"
+      ],
+      "wordsBefore": 6472,
+      "wordsAfter": 6472
+    },
+    {
+      "slug": "environmental-chemistry-class-11-revision-notes-neet",
+      "fixes": [
+        "Fixed 1 [class](link) HTML attributes",
+        "Wrapped 2 raw LaTeX formulas in $$ delimiters",
+        "Split 5 MCQs into separate option lines",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1335,
+      "wordsAfter": 1329
+    },
+    {
+      "slug": "environmental-issues-class-12-notes",
+      "fixes": [
+        "Wrapped 6 raw LaTeX formulas in $$ delimiters",
+        "Removed 1 empty LaTeX blocks",
+        "Removed 20 empty bullet points"
+      ],
+      "wordsBefore": 2495,
+      "wordsAfter": 2474
+    },
+    {
+      "slug": "equilibrium-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Wrapped 14 raw LaTeX formulas in $$ delimiters",
+        "Fixed 1 brace-wrapped LaTeX to $ delimiters",
+        "Split 5 MCQs into separate option lines",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 2341,
+      "wordsAfter": 2337
+    },
+    {
+      "slug": "excretory-products-and-elimination-class-11-revision-notes-neet",
+      "fixes": [
+        "Wrapped 2 raw LaTeX formulas in $$ delimiters",
+        "Fixed 2 brace-wrapped LaTeX to $ delimiters",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1537,
+      "wordsAfter": 1526
+    },
+    {
+      "slug": "federalism-class-11-revision-notes-cbse",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 798,
+      "wordsAfter": 785
+    },
+    {
+      "slug": "fundamental-rights-class-11-revision-notes-cbse",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1322,
+      "wordsAfter": 1308
+    },
+    {
+      "slug": "geomorphology-class-11-revision-notes-cbse",
+      "fixes": [
+        "Wrapped 8 raw LaTeX formulas in $$ delimiters"
+      ],
+      "wordsBefore": 6465,
+      "wordsAfter": 6465
+    },
+    {
+      "slug": "gravitation-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1199,
+      "wordsAfter": 1195
+    },
+    {
+      "slug": "haloalkanes-and-haloarenes-class-12-notes",
+      "fixes": [
+        "Wrapped 4 raw LaTeX formulas in $$ delimiters",
+        "Removed 1 empty inline LaTeX"
+      ],
+      "wordsBefore": 3820,
+      "wordsAfter": 3819
+    },
+    {
+      "slug": "human-health-and-disease-class-12-notes",
+      "fixes": [
+        "Wrapped 5 raw LaTeX formulas in $$ delimiters",
+        "Fixed 2 brace-wrapped LaTeX to $ delimiters",
+        "Removed 1 empty LaTeX blocks",
+        "Removed 20 empty bullet points"
+      ],
+      "wordsBefore": 2314,
+      "wordsAfter": 2293
+    },
+    {
+      "slug": "human-reproduction-class-12-notes",
+      "fixes": [
+        "Wrapped 17 raw LaTeX formulas in $$ delimiters",
+        "Fixed 19 brace-wrapped LaTeX to $ delimiters",
+        "Removed 20 empty bullet points"
+      ],
+      "wordsBefore": 2680,
+      "wordsAfter": 2660
+    },
+    {
+      "slug": "hydrocarbons-class-11-revision-notes-neet",
+      "fixes": [
+        "Fixed 1 [class](link) HTML attributes",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 884,
+      "wordsAfter": 879
+    },
+    {
+      "slug": "hydrogen-class-11-revision-notes-neet",
+      "fixes": [
+        "Wrapped 1 raw LaTeX formulas in $$ delimiters",
+        "Split 3 MCQs into separate option lines",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1010,
+      "wordsAfter": 1005
+    },
+    {
+      "slug": "indian-geography-climate-class-11-revision-notes-cbse",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1000,
+      "wordsAfter": 987
+    },
+    {
+      "slug": "indian-geography-physical-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 820,
+      "wordsAfter": 806
+    },
+    {
+      "slug": "integrals-class-12-notes",
+      "fixes": [
+        "Wrapped 8 raw LaTeX formulas in $$ delimiters",
+        "Fixed 2 brace-wrapped LaTeX to $ delimiters"
+      ],
+      "wordsBefore": 1754,
+      "wordsAfter": 1754
+    },
+    {
+      "slug": "introduction-to-trigonometry-class-10-notes",
+      "fixes": [
+        "Fixed 1 literal \\n escape sequences",
+        "Fixed 1 [class](link) HTML attributes",
+        "Wrapped 23 raw LaTeX formulas in $$ delimiters",
+        "Fixed 13 brace-wrapped LaTeX to $ delimiters",
+        "Split 5 MCQs into separate option lines"
+      ],
+      "wordsBefore": 2260,
+      "wordsAfter": 2260
+    },
+    {
+      "slug": "inverse-trigonometric-functions-class-12-notes",
+      "fixes": [
+        "Fixed 1 [class](link) HTML attributes",
+        "Wrapped 27 raw LaTeX formulas in $$ delimiters",
+        "Fixed 4 brace-wrapped LaTeX to $ delimiters",
+        "Removed 16 empty inline LaTeX"
+      ],
+      "wordsBefore": 702,
+      "wordsAfter": 686
+    },
+    {
+      "slug": "jee-advanced-math-difficulty-trends-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Removed 2 duplicate H1 headers"
+      ],
+      "wordsBefore": 743,
+      "wordsAfter": 723
+    },
+    {
+      "slug": "jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet",
+      "fixes": [
+        "Removed 2 duplicate H1 headers"
+      ],
+      "wordsBefore": 777,
+      "wordsAfter": 757
+    },
+    {
+      "slug": "jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1157,
+      "wordsAfter": 1147
+    },
+    {
+      "slug": "kinetic-theory-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1306,
+      "wordsAfter": 1301
+    },
+    {
+      "slug": "laws-of-motion-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1308,
+      "wordsAfter": 1302
+    },
+    {
+      "slug": "laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Removed 2 duplicate H1 headers"
+      ],
+      "wordsBefore": 1078,
+      "wordsAfter": 1058
+    },
+    {
+      "slug": "limits-and-derivatives-class-11-revision-notes-jee",
+      "fixes": [
+        "Fixed 1 literal \\n escape sequences",
+        "Wrapped 18 raw LaTeX formulas in $$ delimiters",
+        "Fixed 11 brace-wrapped LaTeX to $ delimiters"
+      ],
+      "wordsBefore": 5728,
+      "wordsAfter": 5728
+    },
+    {
+      "slug": "limits-derivatives-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1019,
+      "wordsAfter": 1014
+    },
+    {
+      "slug": "linear-equations-in-two-variables-class-9-notes",
+      "fixes": [
+        "Fixed 4 literal \\n escape sequences",
+        "Split 5 MCQs into separate option lines"
+      ],
+      "wordsBefore": 1279,
+      "wordsAfter": 1279
+    },
+    {
+      "slug": "linear-inequalities-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 986,
+      "wordsAfter": 981
+    },
+    {
+      "slug": "linear-programming-class-12-notes",
+      "fixes": [
+        "Wrapped 20 raw LaTeX formulas in $$ delimiters",
+        "Removed 20 empty bullet points"
+      ],
+      "wordsBefore": 3726,
+      "wordsAfter": 3706
+    },
+    {
+      "slug": "local-government-class-11-revision-notes-cbse",
+      "fixes": [
+        "Removed 1 duplicate Jules footers",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 421,
+      "wordsAfter": 397
+    },
+    {
+      "slug": "locomotion-and-movement-class-11-revision-notes-neet",
+      "fixes": [
+        "Wrapped 1 raw LaTeX formulas in $$ delimiters",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1291,
+      "wordsAfter": 1281
+    },
+    {
+      "slug": "magnetic-effects-of-current-class-12-notes",
+      "fixes": [
+        "Wrapped 8 raw LaTeX formulas in $$ delimiters",
+        "Fixed 2 brace-wrapped LaTeX to $ delimiters"
+      ],
+      "wordsBefore": 5970,
+      "wordsAfter": 5970
+    },
+    {
+      "slug": "magnetism-and-matter-class-12-notes",
+      "fixes": [
+        "Wrapped 10 raw LaTeX formulas in $$ delimiters",
+        "Fixed 3 brace-wrapped LaTeX to $ delimiters"
+      ],
+      "wordsBefore": 5469,
+      "wordsAfter": 5469
+    },
+    {
+      "slug": "mathematical-induction-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1037,
+      "wordsAfter": 1032
+    },
+    {
+      "slug": "mathematical-reasoning-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 970,
+      "wordsAfter": 965
+    },
+    {
+      "slug": "matrices-class-12-notes",
+      "fixes": [
+        "Fixed 1 [class](link) HTML attributes",
+        "Wrapped 7 raw LaTeX formulas in $$ delimiters",
+        "Removed 6 empty inline LaTeX"
+      ],
+      "wordsBefore": 982,
+      "wordsAfter": 976
+    },
+    {
+      "slug": "mechanical-properties-of-fluids-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1311,
+      "wordsAfter": 1304
+    },
+    {
+      "slug": "mechanical-properties-of-solids-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1221,
+      "wordsAfter": 1214
+    },
+    {
+      "slug": "medieval-india-delhi-sultanate-class-11-revision-notes-cbse",
+      "fixes": [
+        "Wrapped 1 raw LaTeX formulas in $$ delimiters",
+        "Fixed 1 brace-wrapped LaTeX to $ delimiters"
+      ],
+      "wordsBefore": 1222,
+      "wordsAfter": 1222
+    },
+    {
+      "slug": "medieval-india-mughals-class-11-revision-notes-cbse",
+      "fixes": [
+        "Wrapped 1 raw LaTeX formulas in $$ delimiters"
+      ],
+      "wordsBefore": 1114,
+      "wordsAfter": 1114
+    },
+    {
+      "slug": "metallurgy-class-12-notes",
+      "fixes": [
+        "Wrapped 1 raw LaTeX formulas in $$ delimiters"
+      ],
+      "wordsBefore": 2548,
+      "wordsAfter": 2548
+    },
+    {
+      "slug": "microbes-in-human-welfare-class-12-notes",
+      "fixes": [
+        "Wrapped 5 raw LaTeX formulas in $$ delimiters",
+        "Fixed 6 brace-wrapped LaTeX to $ delimiters",
+        "Removed 20 empty bullet points"
+      ],
+      "wordsBefore": 2276,
+      "wordsAfter": 2256
+    },
+    {
+      "slug": "mineral-nutrition-class-11-revision-notes-neet",
+      "fixes": [
+        "Fixed 1 [class](link) HTML attributes",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1188,
+      "wordsAfter": 1182
+    },
+    {
+      "slug": "molecular-basis-of-inheritance-class-12-notes",
+      "fixes": [
+        "Wrapped 13 raw LaTeX formulas in $$ delimiters",
+        "Removed 20 empty bullet points"
+      ],
+      "wordsBefore": 2608,
+      "wordsAfter": 2588
+    },
+    {
+      "slug": "morphology-of-flowering-plants-class-11-revision-notes-neet",
+      "fixes": [
+        "Fixed 1 [class](link) HTML attributes",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1026,
+      "wordsAfter": 1018
+    },
+    {
+      "slug": "motion-in-a-plane-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1395,
+      "wordsAfter": 1388
+    },
+    {
+      "slug": "motion-in-a-straight-line-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1452,
+      "wordsAfter": 1444
+    },
+    {
+      "slug": "moving-charges-magnetism-class-11-revision-notes-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1542,
+      "wordsAfter": 1536
+    },
+    {
+      "slug": "neet-2026-weightage-prediction-class-11-revision-notes-neet",
+      "fixes": [
+        "Removed 2 duplicate H1 headers"
+      ],
+      "wordsBefore": 848,
+      "wordsAfter": 830
+    },
+    {
+      "slug": "neet-biology-80-20-rule-class-11-revision-notes-neet",
+      "fixes": [
+        "Removed 2 duplicate H1 headers"
+      ],
+      "wordsBefore": 875,
+      "wordsAfter": 857
+    },
+    {
+      "slug": "neural-control-and-coordination-class-11-revision-notes-neet",
+      "fixes": [
+        "Wrapped 1 raw LaTeX formulas in $$ delimiters",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1411,
+      "wordsAfter": 1400
+    },
+    {
+      "slug": "nuclei-class-12-notes",
+      "fixes": [
+        "Wrapped 20 raw LaTeX formulas in $$ delimiters",
+        "Fixed 4 brace-wrapped LaTeX to $ delimiters",
+        "Removed 4 empty inline LaTeX"
+      ],
+      "wordsBefore": 1877,
+      "wordsAfter": 1873
+    },
+    {
+      "slug": "number-systems-class-9-notes",
+      "fixes": [
+        "Fixed 7 literal \\n escape sequences",
+        "Split 5 MCQs into separate option lines"
+      ],
+      "wordsBefore": 1046,
+      "wordsAfter": 1047
+    },
+    {
+      "slug": "oceanography-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Fixed 2 brace-wrapped LaTeX to $ delimiters"
+      ],
+      "wordsBefore": 1380,
+      "wordsAfter": 1380
+    },
+    {
+      "slug": "operating-systems-class-12-notes",
+      "fixes": [
+        "Fixed 1 [class](link) HTML attributes",
+        "Wrapped 12 raw LaTeX formulas in $$ delimiters",
+        "Fixed 15 brace-wrapped LaTeX to $ delimiters",
+        "Split 5 MCQs into separate option lines"
+      ],
+      "wordsBefore": 2371,
+      "wordsAfter": 2371
+    },
+    {
+      "slug": "organic-chemistry-basic-principles-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Split 5 MCQs into separate option lines",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1084,
+      "wordsAfter": 1076
+    },
+    {
+      "slug": "organisms-and-populations-class-12-notes",
+      "fixes": [
+        "Wrapped 9 raw LaTeX formulas in $$ delimiters",
+        "Fixed 8 brace-wrapped LaTeX to $ delimiters",
+        "Removed 20 empty bullet points"
+      ],
+      "wordsBefore": 2444,
+      "wordsAfter": 2424
+    },
+    {
+      "slug": "oscillations-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1331,
+      "wordsAfter": 1327
+    },
+    {
+      "slug": "pair-of-linear-equations-class-10-notes",
+      "fixes": [
+        "Fixed 7 literal \\n escape sequences",
+        "Fixed 1 [class](link) HTML attributes",
+        "Wrapped 43 raw LaTeX formulas in $$ delimiters",
+        "Fixed 14 brace-wrapped LaTeX to $ delimiters",
+        "Split 5 MCQs into separate option lines"
+      ],
+      "wordsBefore": 3343,
+      "wordsAfter": 3343
+    },
+    {
+      "slug": "permutations-and-combinations-class-11-revision-notes-jee",
+      "fixes": [
+        "Removed 7 [object Object] artifacts",
+        "Wrapped 53 raw LaTeX formulas in $$ delimiters",
+        "Removed 1 empty LaTeX blocks"
+      ],
+      "wordsBefore": 7094,
+      "wordsAfter": 7072
+    },
+    {
+      "slug": "permutations-combinations-class-11-revision-notes-jee",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1057,
+      "wordsAfter": 1052
+    },
+    {
+      "slug": "photosynthesis-in-higher-plants-class-11-revision-notes-neet",
+      "fixes": [
+        "Fixed 1 [class](link) HTML attributes",
+        "Split 5 MCQs into separate option lines",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 998,
+      "wordsAfter": 990
+    },
+    {
+      "slug": "physical-world-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Fixed 5 [class](link) HTML attributes",
+        "Split 3 MCQs into separate option lines",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1187,
+      "wordsAfter": 1181
+    },
+    {
+      "slug": "physics-heat-light-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 430,
+      "wordsAfter": 420
+    },
+    {
+      "slug": "physics-mechanics-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 482,
+      "wordsAfter": 474
+    },
+    {
+      "slug": "planning-in-india-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 556,
+      "wordsAfter": 547
+    },
+    {
+      "slug": "plant-growth-and-development-class-11-revision-notes-neet",
+      "fixes": [
+        "Fixed 1 [class](link) HTML attributes",
+        "Split 5 MCQs into separate option lines",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1010,
+      "wordsAfter": 1002
+    },
+    {
+      "slug": "plant-kingdom-class-11-revision-notes-neet",
+      "fixes": [
+        "Fixed 1 [class](link) HTML attributes",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 977,
+      "wordsAfter": 971
+    },
+    {
+      "slug": "polymers-class-12-notes",
+      "fixes": [
+        "Fixed 2 literal \\n escape sequences",
+        "Fixed 1 [class](link) HTML attributes",
+        "Wrapped 16 raw LaTeX formulas in $$ delimiters",
+        "Fixed 13 brace-wrapped LaTeX to $ delimiters",
+        "Removed 15 empty inline LaTeX"
+      ],
+      "wordsBefore": 887,
+      "wordsAfter": 873
+    },
+    {
+      "slug": "polynomials-class-10-notes",
+      "fixes": [
+        "Fixed 1 [class](link) HTML attributes",
+        "Wrapped 13 raw LaTeX formulas in $$ delimiters",
+        "Fixed 2 brace-wrapped LaTeX to $ delimiters",
+        "Split 5 MCQs into separate option lines"
+      ],
+      "wordsBefore": 2897,
+      "wordsAfter": 2897
+    },
+    {
+      "slug": "poverty-unemployment-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 469,
+      "wordsAfter": 460
+    },
+    {
+      "slug": "principle-of-mathematical-induction-class-11-revision-notes-jee",
+      "fixes": [
+        "Wrapped 36 raw LaTeX formulas in $$ delimiters",
+        "Removed 1 empty inline LaTeX"
+      ],
+      "wordsBefore": 9091,
+      "wordsAfter": 9090
+    },
+    {
+      "slug": "principles-of-inheritance-and-variation-class-12-notes",
+      "fixes": [
+        "Wrapped 16 raw LaTeX formulas in $$ delimiters",
+        "Removed 20 empty bullet points"
+      ],
+      "wordsBefore": 3365,
+      "wordsAfter": 3345
+    },
+    {
+      "slug": "probability-class-11-revision-notes-jee",
+      "fixes": [
+        "Wrapped 2 raw LaTeX formulas in $$ delimiters",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1020,
+      "wordsAfter": 1016
+    },
+    {
+      "slug": "probability-intro-class-11-revision-notes-jee",
+      "fixes": [
+        "Wrapped 32 raw LaTeX formulas in $$ delimiters",
+        "Fixed 10 brace-wrapped LaTeX to $ delimiters"
+      ],
+      "wordsBefore": 8787,
+      "wordsAfter": 8787
+    },
+    {
+      "slug": "quadratic-equations-class-10-notes",
+      "fixes": [
+        "Fixed 1 literal \\n escape sequences",
+        "Fixed 1 [class](link) HTML attributes",
+        "Wrapped 33 raw LaTeX formulas in $$ delimiters",
+        "Fixed 2 brace-wrapped LaTeX to $ delimiters",
+        "Split 5 MCQs into separate option lines"
+      ],
+      "wordsBefore": 2433,
+      "wordsAfter": 2433
+    },
+    {
+      "slug": "ray-optics-class-12-quick-class-12-revision-notes-jee-neet",
+      "fixes": [
+        "Wrapped 4 raw LaTeX formulas in $$ delimiters"
+      ],
+      "wordsBefore": 1606,
+      "wordsAfter": 1606
+    },
+    {
+      "slug": "real-numbers-class-10-notes",
+      "fixes": [
+        "Fixed 1 [class](link) HTML attributes",
+        "Wrapped 4 raw LaTeX formulas in $$ delimiters",
+        "Fixed 3 brace-wrapped LaTeX to $ delimiters",
+        "Split 5 MCQs into separate option lines"
+      ],
+      "wordsBefore": 2954,
+      "wordsAfter": 2954
+    },
+    {
+      "slug": "redox-reactions-class-11-revision-notes-neet",
+      "fixes": [
+        "Fixed 1 [class](link) HTML attributes",
+        "Wrapped 3 raw LaTeX formulas in $$ delimiters",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1269,
+      "wordsAfter": 1263
+    },
+    {
+      "slug": "relations-and-functions-class-11-notes",
+      "fixes": [
+        "Removed 7 [object Object] artifacts"
+      ],
+      "wordsBefore": 6396,
+      "wordsAfter": 6375
+    },
+    {
+      "slug": "relations-functions-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1085,
+      "wordsAfter": 1080
+    },
+    {
+      "slug": "reproduction-in-organisms-class-12-notes",
+      "fixes": [
+        "Wrapped 8 raw LaTeX formulas in $$ delimiters",
+        "Fixed 22 brace-wrapped LaTeX to $ delimiters",
+        "Removed 20 empty bullet points"
+      ],
+      "wordsBefore": 2821,
+      "wordsAfter": 2801
+    },
+    {
+      "slug": "reproductive-health-class-12-notes",
+      "fixes": [
+        "Wrapped 22 raw LaTeX formulas in $$ delimiters",
+        "Fixed 2 brace-wrapped LaTeX to $ delimiters",
+        "Removed 20 empty bullet points"
+      ],
+      "wordsBefore": 2525,
+      "wordsAfter": 2505
+    },
+    {
+      "slug": "respiration-in-plants-class-11-revision-notes-neet",
+      "fixes": [
+        "Fixed 1 [class](link) HTML attributes",
+        "Wrapped 5 raw LaTeX formulas in $$ delimiters",
+        "Split 5 MCQs into separate option lines",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1020,
+      "wordsAfter": 1013
+    },
+    {
+      "slug": "rotational-motion-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1348,
+      "wordsAfter": 1343
+    },
+    {
+      "slug": "semiconductor-electronics-class-12-notes",
+      "fixes": [
+        "Wrapped 20 raw LaTeX formulas in $$ delimiters",
+        "Fixed 1 brace-wrapped LaTeX to $ delimiters"
+      ],
+      "wordsBefore": 1986,
+      "wordsAfter": 1986
+    },
+    {
+      "slug": "sequences-series-class-11-revision-notes-jee",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1083,
+      "wordsAfter": 1078
+    },
+    {
+      "slug": "sets-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1176,
+      "wordsAfter": 1172
+    },
+    {
+      "slug": "sexual-reproduction-in-flowering-plants-class-12-notes",
+      "fixes": [
+        "Wrapped 9 raw LaTeX formulas in $$ delimiters",
+        "Fixed 1 brace-wrapped LaTeX to $ delimiters",
+        "Removed 1 empty LaTeX blocks",
+        "Removed 20 empty bullet points"
+      ],
+      "wordsBefore": 2281,
+      "wordsAfter": 2260
+    },
+    {
+      "slug": "solid-state-class-12-notes",
+      "fixes": [
+        "Wrapped 6 raw LaTeX formulas in $$ delimiters",
+        "Fixed 2 brace-wrapped LaTeX to $ delimiters"
+      ],
+      "wordsBefore": 3206,
+      "wordsAfter": 3206
+    },
+    {
+      "slug": "solutions-class-12-notes",
+      "fixes": [
+        "Fixed 2 literal \\n escape sequences",
+        "Wrapped 53 raw LaTeX formulas in $$ delimiters",
+        "Fixed 14 brace-wrapped LaTeX to $ delimiters",
+        "Removed 12 empty inline LaTeX"
+      ],
+      "wordsBefore": 4257,
+      "wordsAfter": 4247
+    },
+    {
+      "slug": "some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Wrapped 13 raw LaTeX formulas in $$ delimiters",
+        "Fixed 4 brace-wrapped LaTeX to $ delimiters",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1063,
+      "wordsAfter": 1051
+    },
+    {
+      "slug": "state-scholarship-guide-2026-class-11-revision-notes-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1856,
+      "wordsAfter": 1848
+    },
+    {
+      "slug": "states-of-matter-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Wrapped 6 raw LaTeX formulas in $$ delimiters",
+        "Fixed 1 brace-wrapped LaTeX to $ delimiters",
+        "Split 5 MCQs into separate option lines",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 2311,
+      "wordsAfter": 2305
+    },
+    {
+      "slug": "statistics-class-11-revision-notes-jee",
+      "fixes": [
+        "Wrapped 3 raw LaTeX formulas in $$ delimiters",
+        "Fixed 3 brace-wrapped LaTeX to $ delimiters",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 993,
+      "wordsAfter": 989
+    },
+    {
+      "slug": "straight-lines-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1110,
+      "wordsAfter": 1105
+    },
+    {
+      "slug": "strategies-for-enhancement-in-food-production-class-12-notes",
+      "fixes": [
+        "Wrapped 13 raw LaTeX formulas in $$ delimiters",
+        "Fixed 13 brace-wrapped LaTeX to $ delimiters",
+        "Removed 20 empty bullet points"
+      ],
+      "wordsBefore": 2520,
+      "wordsAfter": 2500
+    },
+    {
+      "slug": "structural-organisation-in-animals-class-11-revision-notes-neet",
+      "fixes": [
+        "Fixed 1 [class](link) HTML attributes",
+        "Split 5 MCQs into separate option lines",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1197,
+      "wordsAfter": 1189
+    },
+    {
+      "slug": "structure-of-atom-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Wrapped 9 raw LaTeX formulas in $$ delimiters",
+        "Fixed 1 brace-wrapped LaTeX to $ delimiters",
+        "Split 4 MCQs into separate option lines",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 2356,
+      "wordsAfter": 2350
+    },
+    {
+      "slug": "structure-of-the-atom-class-11-revision-notes-neet",
+      "fixes": [
+        "Wrapped 2 raw LaTeX formulas in $$ delimiters",
+        "Fixed 2 brace-wrapped LaTeX to $ delimiters",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 781,
+      "wordsAfter": 770
+    },
+    {
+      "slug": "study-12-hours-daily-tips-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Removed 2 duplicate H1 headers"
+      ],
+      "wordsBefore": 1298,
+      "wordsAfter": 1274
+    },
+    {
+      "slug": "surface-chemistry-class-12-notes",
+      "fixes": [
+        "Wrapped 1 raw LaTeX formulas in $$ delimiters"
+      ],
+      "wordsBefore": 2818,
+      "wordsAfter": 2818
+    },
+    {
+      "slug": "the-living-world-class-11-revision-notes-neet",
+      "fixes": [
+        "Fixed 1 [class](link) HTML attributes",
+        "Split 5 MCQs into separate option lines",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1300,
+      "wordsAfter": 1293
+    },
+    {
+      "slug": "the-p-block-elements-11-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Fixed 1 [class](link) HTML attributes",
+        "Split 5 MCQs into separate option lines",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1164,
+      "wordsAfter": 1155
+    },
+    {
+      "slug": "the-s-block-elements-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Fixed 1 [class](link) HTML attributes",
+        "Wrapped 1 raw LaTeX formulas in $$ delimiters",
+        "Fixed 1 brace-wrapped LaTeX to $ delimiters",
+        "Split 5 MCQs into separate option lines",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1100,
+      "wordsAfter": 1092
+    },
+    {
+      "slug": "theory-of-computation-class-12-notes",
+      "fixes": [
+        "Fixed 15 literal \\n escape sequences",
+        "Fixed 1 [class](link) HTML attributes",
+        "Wrapped 1 raw LaTeX formulas in $$ delimiters",
+        "Split 4 MCQs into separate option lines"
+      ],
+      "wordsBefore": 1435,
+      "wordsAfter": 1434
+    },
+    {
+      "slug": "thermal-properties-of-matter-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1212,
+      "wordsAfter": 1205
+    },
+    {
+      "slug": "thermodynamics-chemistry-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Wrapped 4 raw LaTeX formulas in $$ delimiters",
+        "Split 5 MCQs into separate option lines",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 2320,
+      "wordsAfter": 2315
+    },
+    {
+      "slug": "thermodynamics-class-11-revision-notes-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1182,
+      "wordsAfter": 1178
+    },
+    {
+      "slug": "three-dimensional-geometry-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1054,
+      "wordsAfter": 1048
+    },
+    {
+      "slug": "transport-in-plants-class-11-revision-notes-neet",
+      "fixes": [
+        "Fixed 1 [class](link) HTML attributes",
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1281,
+      "wordsAfter": 1274
+    },
+    {
+      "slug": "triangles-class-10-notes",
+      "fixes": [
+        "Fixed 1 [class](link) HTML attributes",
+        "Fixed 1 brace-wrapped LaTeX to $ delimiters",
+        "Split 5 MCQs into separate option lines"
+      ],
+      "wordsBefore": 1492,
+      "wordsAfter": 1492
+    },
+    {
+      "slug": "trigonometric-functions-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Wrapped 76 raw LaTeX formulas in $$ delimiters",
+        "Fixed 20 brace-wrapped LaTeX to $ delimiters",
+        "Removed 5 empty LaTeX blocks"
+      ],
+      "wordsBefore": 2466,
+      "wordsAfter": 2461
+    },
+    {
+      "slug": "units-and-measurements-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1532,
+      "wordsAfter": 1526
+    },
+    {
+      "slug": "upsc-optional-selection-guide-class-11-revision-notes-jee",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1270,
+      "wordsAfter": 1261
+    },
+    {
+      "slug": "upsc-optional-selection-guide",
+      "fixes": [
+        "Wrapped 14 raw LaTeX formulas in $$ delimiters",
+        "Fixed 5 brace-wrapped LaTeX to $ delimiters",
+        "Removed 20 empty bullet points"
+      ],
+      "wordsBefore": 2967,
+      "wordsAfter": 2947
+    },
+    {
+      "slug": "vector-algebra-class-12-notes",
+      "fixes": [
+        "Wrapped 15 raw LaTeX formulas in $$ delimiters",
+        "Fixed 3 brace-wrapped LaTeX to $ delimiters",
+        "Removed 20 empty bullet points"
+      ],
+      "wordsBefore": 3375,
+      "wordsAfter": 3355
+    },
+    {
+      "slug": "wave-optics-class-12-notes",
+      "fixes": [
+        "Fixed 1 literal \\n escape sequences",
+        "Wrapped 20 raw LaTeX formulas in $$ delimiters",
+        "Removed 3 empty LaTeX blocks"
+      ],
+      "wordsBefore": 6755,
+      "wordsAfter": 6753
+    },
+    {
+      "slug": "waves-class-11-revision-notes-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 2047,
+      "wordsAfter": 2043
+    },
+    {
+      "slug": "work-energy-and-power-class-11-revision-notes-neet",
+      "fixes": [
+        "Removed 1 duplicate H1 headers"
+      ],
+      "wordsBefore": 1279,
+      "wordsAfter": 1272
+    },
+    {
+      "slug": "world-history-industrial-revolution-class-11-revision-notes-jee-neet",
+      "fixes": [
+        "Wrapped 4 raw LaTeX formulas in $$ delimiters",
+        "Fixed 8 brace-wrapped LaTeX to $ delimiters",
+        "Removed 2 empty LaTeX blocks"
+      ],
+      "wordsBefore": 6899,
+      "wordsAfter": 6897
+    }
+  ]
+}

@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/magnetism-and-matter-class-12-notes"
 ---
 
-
-![Magnetism and Matter Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/magnetism-and-matter-class-12-notes.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -59,7 +56,7 @@ Magnetism and matter is a broad topic, encompassing various concepts, including:
 
 Some essential formulas to keep in mind:
 
-* **Magnetic field due to a [current](/blog/alternating-current-class-12-notes)-carrying wire**: $B = \frac{\mu_0 I}{2\pi r}$
+* **Magnetic field due to a [current](/blog/alternating-current-class-12-notes)-carrying wire**: $B = \frac$\mu_0 I${2\pi r}$
 * **Magnetic flux**: $\Phi = \int \vec{B} \cdot d\vec{A}$
 * **Faraday's law of [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)**: $\epsilon = -\frac{d\Phi}{dt}$
 
@@ -163,7 +160,7 @@ To further illustrate the concept of magnetization, consider the following compa
 
 Ayush's Note on Magnetism and Matter is a study material that explains the magnetic properties of materials. It includes magnetic field, magnetic induction, and magnetization. For Class 12 exam prep in 2026, the most important aspect is understanding the behavior of different materials like diamagnetic, paramagnetic, and ferromagnetic substances under the influence of a magnetic field. 
 
-Magnetism is a fundamental concept in physics that arises due to the interaction between moving charges. The magnetic field is a vector field that surrounds magnetized materials and [current](/blog/alternating-current-class-12-notes)-carrying conductors. The strength and direction of the magnetic field can be determined using the $B = \frac{mu_0 I}{2 pi r}$ formula for a long straight wire, where $B$ is the magnetic field, $mu_0$ is the permeability of free space, $I$ is the current, and $r$ is the distance from the wire.
+Magnetism is a fundamental concept in physics that arises due to the interaction between moving charges. The magnetic field is a vector field that surrounds magnetized materials and [current](/blog/alternating-current-class-12-notes)-carrying conductors. The strength and direction of the magnetic field can be determined using the $B = $$\frac{mu_0 I}{2 pi r}$ formula for a long straight wire, where $B$ is the magnetic field, $mu_0$ is the permeability of free space, $I$ is the current, and $r$ is the distance from the wire.$$
 
 The magnetic properties of materials can be classified based on their response to an external magnetic field. Diamagnetic materials, such as copper and zinc, are weakly repelled by a magnetic field. Paramagnetic materials, such as aluminum and platinum, are weakly attracted to a magnetic field. Ferromagnetic materials, such as iron and nickel, are strongly attracted to a magnetic field. The table below summarizes the properties of these materials:
 
@@ -209,7 +206,7 @@ The Curie temperature, $T_c$, is the temperature above which a material loses it
 
 The effect of temperature on magnetic properties can be understood by considering the alignment of magnetic dipoles in a material. At low temperatures, the magnetic dipoles are aligned, resulting in a strong magnetic field. As the temperature increases, the magnetic dipoles become randomly aligned, resulting in a weaker magnetic field. This is because the thermal energy of the material increases with temperature, causing the magnetic dipoles to vibrate and become misaligned.
 
-The magnetic susceptibility of a material, $chi$, is a measure of how easily the material is magnetized. The magnetic susceptibility is temperature-dependent and can be described by the Curie-Weiss law: $chi = \frac{C}{T - T_c}$, where $C$ is a constant. The Curie-Weiss law shows that the magnetic susceptibility increases as the temperature approaches the Curie temperature from below.
+The magnetic susceptibility of a material, $chi$, is a measure of how easily the material is magnetized. The magnetic susceptibility is temperature-dependent and can be described by the Curie-Weiss law: $chi = $$\frac{C}{T - T_c}$, where $C$ is a constant. The Curie-Weiss law shows that the magnetic susceptibility increases as the temperature approaches the Curie temperature from below.$$
 
 A comparison of the magnetic properties of different materials at various temperatures is shown in the table below.
 
@@ -248,7 +245,7 @@ What are the Applications of Magnetism in Daily Life? is the practical usage of 
 
 Magnetism and Matter is a fundamental concept in physics that deals with the properties and behavior of magnetic materials. It includes magnetic fields, magnetic induction, and the interaction between magnetic fields and matter. For Class 12 exam prep in 2026, the most important aspect is understanding the relationship between magnetic fields and the properties of magnetic materials, such as ferromagnetism, paramagnetism, and diamagnetism.
 
-To solve problems related to magnetism and matter, it's essential to have a solid grasp of the key concepts and formulas. One of the most critical formulas in this topic is the **Biot-Savart Law**, which relates the magnetic field $B$ to the current $I$ and the distance $r$ from the current-carrying wire: $B = \frac{\mu_0 I}{2 \pi r}$. Another crucial concept is the **Ampere's Law**, which states that the line integral of the magnetic field $B$ around a closed loop is proportional to the total current $I$ enclosed by the loop: $\oint B \cdot dl = \mu_0 I$.
+To solve problems related to magnetism and matter, it's essential to have a solid grasp of the key concepts and formulas. One of the most critical formulas in this topic is the **Biot-Savart Law**, which relates the magnetic field $B$ to the current $I$ and the distance $r$ from the current-carrying wire: $B = \frac$\mu_0 I${2 \pi r}$. Another crucial concept is the **Ampere's Law**, which states that the line integral of the magnetic field $B$ around a closed loop is proportional to the total current $I$ enclosed by the loop: $\oint B \cdot dl = \mu_0 I$.
 
 A key shortcut or trick for solving problems in magnetism and matter is to use the **right-hand rule** to determine the direction of the magnetic field. This rule states that if you point your thumb in the direction of the current, your fingers will curl in the direction of the magnetic field. Another useful trick is to use the **magnetic field lines** to visualize the direction and strength of the magnetic field.
 
@@ -270,25 +267,25 @@ What are common Trap Questions for Magnetism and Matter? is a crucial aspect of 
 
  When it comes to trap questions in magnetism and matter, students often struggle with distinguishing between similar concepts. A common trap question is related to the difference between magnetic field lines and electric field lines. While both types of field lines are used to visualize the direction and magnitude of forces, they have distinct properties. Magnetic field lines, denoted by $\vec{B}$, are continuous and form closed loops, whereas electric field lines, denoted by $\vec{E}$, originate from positive charges and terminate on negative charges.
 
- Another common trap question involves the concept of magnetic induction. Students are often asked to determine the direction of the induced current in a coil when it is placed in a changing magnetic field. This requires applying Lenz's law, which states that the induced current will flow in a direction such that the magnetic field it produces opposes the change in the original magnetic field. The formula to determine the induced emf is given by $\epsilon = -N\frac{d\Phi}{dt}$, where $\epsilon$ is the induced emf, $N$ is the number of turns in the coil, and $\frac{d\Phi}{dt}$ is the rate of change of magnetic flux.
+ Another common trap question involves the concept of magnetic induction. Students are often asked to determine the direction of the induced current in a coil when it is placed in a changing magnetic field. This requires applying Lenz's law, which states that the induced current will flow in a direction such that the magnetic field it produces opposes the change in the original magnetic field. The formula to determine the induced emf is given by $\epsilon = -N$$\frac{d\Phi}{dt}$, where $\epsilon$ is the induced emf, $N$ is the number of turns in the coil, and $\frac{d\Phi}{dt}$ is the rate of change of magnetic flux.$$
 
  A comparison of the key concepts related to magnetism and matter is provided in the table below.
 
 
 | Concept | Description | Formula |
 | --- | --- | --- |
-| Magnetic Field Lines | Continuous, closed loops | $\vec{B} = \frac{\mu_0I}{2\pi r}$ |
-| Electric Field Lines | Originate from positive charges, terminate on negative charges | $\vec{E} = \frac{kQ}{r^2}$ |
-| Magnetic Induction | Induced current flows to oppose change in magnetic field | $\epsilon = -N\frac{d\Phi}{dt}$ |
+| Magnetic Field Lines | Continuous, closed loops | $\vec{B} = $$\frac$\mu_0I${2\pi r}$ |$$
+| Electric Field Lines | Originate from positive charges, terminate on negative charges | $\vec{E} = $$\frac{kQ}{r^2}$ |$$
+| Magnetic Induction | Induced current flows to oppose change in magnetic field | $\epsilon = -N$$\frac{d\Phi}{dt}$ |$$
 
 
 ## <a id="how-to-approach-numerical-problems-in-magnetism-and-matter-for-class-12"></a>How to approach Numerical Problems in Magnetism and Matter for Class 12?
 
 How to approach Numerical Problems in Magnetism and Matter for Class 12? is solving problems related to magnetic fields, magnetic materials, and their interactions. It includes understanding the concepts of magnetic induction, magnetic susceptibility, and hysteresis. For Class 12 exam prep in 2026, the most important aspect is applying formulas like $B = mu_0 mu_r H$ and $F = q(v 	imes B)$ to solve numerical problems.
 
-To tackle numerical problems in Magnetism and Matter, start by revisiting the fundamental concepts of magnetism, including the properties of magnets, magnetic fields, and the behavior of magnetic materials. Understand the different types of magnetic materials (diamagnetic, paramagnetic, ferromagnetic) and their characteristics. Familiarize yourself with key formulas and equations, such as the Biot-Savart law ($dB = \frac{mu_0}{4pi} \frac{Idl 	imes hat{r}}{r^2}$) and Ampere's law ($oint B cdot dl = mu_0 I_{enc}$).
+To tackle numerical problems in Magnetism and Matter, start by revisiting the fundamental concepts of magnetism, including the properties of magnets, magnetic fields, and the behavior of magnetic materials. Understand the different types of magnetic materials (diamagnetic, paramagnetic, ferromagnetic) and their characteristics. Familiarize yourself with key formulas and equations, such as the Biot-Savart law ($dB = $$\frac{mu_0}{4pi} \frac{Idl 	imes hat{r}}{r^2}$) and Ampere's law ($oint B cdot dl = mu_0 I_{enc}$).$$
 
-When approaching a numerical problem, first identify the given quantities and the unknown quantity to be found. Then, choose the relevant formula or equation that connects these quantities. For instance, if you're given the current in a wire and the distance from the wire, you can use the formula $B = \frac{mu_0 I}{2pi r}$ to find the magnetic field at that distance. Practice applying these formulas to different scenarios and types of problems to build your problem-solving skills.
+When approaching a numerical problem, first identify the given quantities and the unknown quantity to be found. Then, choose the relevant formula or equation that connects these quantities. For instance, if you're given the current in a wire and the distance from the wire, you can use the formula $B = $$\frac{mu_0 I}{2pi r}$ to find the magnetic field at that distance. Practice applying these formulas to different scenarios and types of problems to build your problem-solving skills.$$
 
 A crucial aspect of solving numerical problems in Magnetism and Matter is understanding the units and dimensions of the quantities involved. Ensure you're familiar with the SI units for magnetic field (tesla, T), magnetic flux (weber, Wb), and other relevant quantities. Also, be mindful of the context of the problem; for example, whether it involves a static or dynamic situation, as this can affect the formulas and principles you apply.
 
@@ -308,9 +305,9 @@ By following these steps and focusing on the core concepts and formulas, you'll 
 
 | Concept | Formula | Description |
 | --- | --- | --- |
-| Magnetic Field due to a Straight Wire | $B = \frac{mu_0 I}{2pi r}$ | Gives the magnetic field at a distance r from a straight wire carrying current I |
+| Magnetic Field due to a Straight Wire | $B = $$\frac{mu_0 I}{2pi r}$ | Gives the magnetic field at a distance r from a straight wire carrying current I |$$
 | Ampere's Law | $oint B cdot dl = mu_0 I_{enc}$ | Relates the magnetic field around a closed loop to the current enclosed by the loop |
-| Biot-Savart Law | $dB = \frac{mu_0}{4pi} \frac{Idl 	imes hat{r}}{r^2}$ | Describes the magnetic field due to a small element of a current-carrying wire |
+| Biot-Savart Law | $dB = $$\frac{mu_0}{4pi} \frac{Idl 	imes hat{r}}{r^2}$ | Describes the magnetic field due to a small element of a current-carrying wire |$$
 | Magnetic Flux | $Phi_B = int B cdot dA$ | Defines the magnetic flux through a surface as the integral of the magnetic field over the area |
 
 

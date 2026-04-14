@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/thermodynamics-class-11-revision-notes-neet"
 ---
 
-
-![Thermodynamics Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog-images/thermodynamics-class-11-revision-notes-neet.png)
-
 *Last Updated: 2026-03-28*
 
 
@@ -41,7 +38,7 @@ practice_link: "/class-11/biology/thermodynamics-class-11-revision-notes-neet"
 
 ## <a id="what-is-thermodynamics-revision-notes"></a>What is Thermodynamics Revision Notes?
 
-# Thermodynamics Revision Notes
+
 
 
 

@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/geomorphology-class-11-revision-notes-cbse"
 ---
 
-
-![Geomorphology Class 11 Geography Recap — CBSE 2026 Quick Guide](/blog-images/geomorphology-class-11-revision-notes-cbse.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -155,12 +152,12 @@ Geomorphology has a wide range of applications, including:
 
 As a student of [class](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) 11, it is essential to have a solid grasp of Geomorphology, as it is a fundamental subject in Geography. By understanding the core concepts, formulae, and tables, and practicing MCQs, I can ensure I am well-prepared for my exam. Additionally, recognizing the importance of Geomorphology and its applications will help me appreciate the subject and its relevance to real-life situations.
 
-\begin{equation}
+$$\begin{equation}$$
 
 E = \sum_{i=1}^{n} (R_i \times S_i)
 
 
-\end{equation}
+$$\end{equation}$$
 
 where $E$ is the total erosion, $R_i$ is the runoff, and $S_i$ is the slope. 
 I will make sure to review the **Trap Exceptions** and focus on the **Key Terms** to excel in the subject. 
@@ -186,9 +183,9 @@ The **Ayush's Personal Note** section has provided me with a chance to reflect o
 I will continue to review and practice the material to ensure I am well-prepared for my exam. 
 I am confident that I will do well, and I will continue to work hard to achieve my goals.
 
-\begin{table}
+$$\begin{table}$$
 \centering
-\begin{tabular}{|c|c|c|}
+$$\begin{tabular}{|c|c|c|}$$
 \hline
 **Landform** & **Elevation** & **Slope** \\
 \hline
@@ -198,10 +195,10 @@ I am confident that I will do well, and I will continue to work hard to achieve 
 \hline
 **Plain** & Low & Gentle \\
 \hline
-\end{tabular}
+$$\end{tabular}$$
 
 \caption{Landform Classification Table}
-\end{table}
+$$\end{table}$$
 This table has helped me understand the different types of landforms and their characteristics. 
 I will make sure to review it regularly to ensure I am familiar with the material. 
 The **JEE/[neet](/blog/world-history-industrial-revolution-class-11-revision-notes-jee-neet) data** section has provided me with information about the importance of Geomorphology in the JEE and [neet](/blog/world-history-industrial-revolution-class-11-revision-notes-jee-neet) exams. 
@@ -213,12 +210,12 @@ The **Key Terms** section has provided me with a quick reference guide to the es
 I will make sure to review it regularly to ensure I am familiar with the material. 
 I am confident that I will do well, and I will continue to work hard to achieve my goals.
 
-\begin{equation}
+$$\begin{equation}$$
 
 D = \sum_{i=1}^{n} (E_i \times T_i)
 
 
-\end{equation}
+$$\end{equation}$$
 
 where $D$ is the total deposition, $E_i$ is the erosion, and $T_i$ is the time. 
 This equation has helped me understand the process of deposition, and I will make sure to review it regularly. 

@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/classification-elements-periodicity-class-11-revision-notes-jee-neet"
 ---
 
-
-![Classification Elements Periodicity Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog-images/classification-elements-periodicity-class-11-revision-notes-jee-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -56,7 +53,7 @@ practice_link: "/class-11/physics/classification-elements-periodicity-class-11-r
 
 ## <a id="what-is-classification-elements-periodicity-revision-notes"></a>What is Classification Elements Periodicity Revision Notes?
 
-# Classification Elements Periodicity Revision Notes
+
 
 
 
@@ -293,38 +290,38 @@ This happens because moving right increases IE (OZ_{eff}$) while moving down dec
 **MCQs (Multiple Choice Questions) are a testing format where you must identify the single correct option from a provided list.**
 
 **Q1. Arrange in order of increasing atomic radius: Mg, Na, P, Si.** [JEE Easy]  
-A) P < Si < Mg < Na  
-B) Na < Mg < Si < P  
-C) P < Si < Na < Mg  
-D) Na < Si < Mg < P  
+A) P < Si < Mg < Na
+B) Na < Mg < Si < P
+C) P < Si < Na < Mg
+D) Na < Si < Mg < P
 *Answer: A (Same period. Radius decreases left to right: Na > Mg > Si > P. Increasing order: P < Si < Mg < Na).*
 
 **Q2. Among TO^{2-}, F^-, Na^+, Mg^{2+}$, the correct order of ionic radii is:** [JEE Medium]  
-A) BMG^{2+} < Na^+ < F^- < O^{2-}$  
-B) TO^{2-} < F^- < Na^+ < Mg^{2+}$  
-C) RNA^+ < Mg^{2+} < F^- < O^{2-}$  
-D) OF^- < O^{2-} < Na^+ < Mg^{2+}$  
+A) BMG^{2+} < Na^+ < F^- < O^{2-}$
+B) TO^{2-} < F^- < Na^+ < Mg^{2+}$
+C) RNA^+ < Mg^{2+} < F^- < O^{2-}$
+D) OF^- < O^{2-} < Na^+ < Mg^{2+}$
 *Answer: A (Isoelectronic. Higher Z = smaller radius).*
 
 **Q3. The element with the highest first IE among LB, C, N, OF is:** [JEE Hard]  
-A) O  
-B) N  
-C) C  
-D) B  
+A) O
+B) N
+C) C
+D) B
 *Answer: B (N has half-filled $2p^3$ stability, making it hardest to ionize in this set).*
 
 **Q4. Which of the following oxides is amphoteric?** [MEET Easy]  
-A) RNA_2O$  
-B) cal_2O_3$  
-C) $SO_3$  
-D) go  
+A) RNA_2O$
+B) cal_2O_3$
+C) $SO_3$
+D) go
 *Answer: B (cal_2O_3$ reacts with both acids and bases).*
 
 **Q5. The diagonal relative of Boron (B) is:** [MEET Medium]  
-A) Al  
-B) C  
-C) Si  
-D) Ge  
+A) Al
+B) C
+C) Si
+D) Ge
 *Answer: C (Boron ~ Silicon is the diagonal pair).*
 
 ---

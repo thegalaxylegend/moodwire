@@ -7,9 +7,6 @@ date: "2026-04-01"
 practice_link: "/class-11/mathematics/determinants-class-12-notes"
 ---
 
-
-![Determinants Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog-images/determinants-class-12-notes.webp)
-
 *Last Updated: 2026-04-01*
 
 
@@ -80,19 +77,19 @@ practice_link: "/class-11/mathematics/determinants-class-12-notes"
 
 - **Formula:**
 
-\begin{vmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{vmatrix}
+$$\begin{vmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{vmatrix}$$
 
 = a_{11}
 
-\begin{vmatrix} a_{22} & a_{23} \\ a_{32} & a_{33} \end{vmatrix}
+$$\begin{vmatrix} a_{22} & a_{23} \\ a_{32} & a_{33} \end{vmatrix}$$
 
 - a_{12}
 
-\begin{vmatrix} a_{21} & a_{23} \\ a_{31} & a_{33} \end{vmatrix}
+$$\begin{vmatrix} a_{21} & a_{23} \\ a_{31} & a_{33} \end{vmatrix}$$
 
 + a_{13}
 
-\begin{vmatrix} a_{21} & a_{22} \\ a_{31} & a_{32} \end{vmatrix}
+$$\begin{vmatrix} a_{21} & a_{22} \\ a_{31} & a_{32} \end{vmatrix}$$
 
 — $a_{ij}$ are elements of the matrix.
 - **[application](/blog/application-of-integrals-class-12-notes):** Used to calculate the determinant of a matrix by expanding along a row or column.
@@ -105,23 +102,21 @@ practice_link: "/class-11/mathematics/determinants-class-12-notes"
 
 - **Formula:**
 
-\begin{vmatrix} a & b \\ c & d \end{vmatrix}
+$$\begin{vmatrix} a & b \\ c & d \end{vmatrix}$$
 
 = a \cdot
 
-\begin{vmatrix} d \end{vmatrix}
+$$\begin{vmatrix} d \end{vmatrix}$$
 
 - b \cdot
 
-\begin{vmatrix} c \end{vmatrix}
+$$\begin{vmatrix} c \end{vmatrix}$$
 
 — Cofactor of $a$ is $+
 
-\begin{vmatrix}
+$$\begin{vmatrix}$$
 
-d \end{vmatrix}$ and cofactor of $b$ is $-
-
-\begin{vmatrix} c \end{vmatrix}$.
+d $$\end{vmatrix}$ and cofactor of $b$ is $-\begin{vmatrix} c \end{vmatrix}$.$$
 - **Importance:** Used to calculate the determinant of a matrix by expanding along a row or column using cofactors.
 
 #### Cofactor of an Element
@@ -130,11 +125,11 @@ d \end{vmatrix}$ and cofactor of $b$ is $-
 
 ### <a id="-core-concept-5-area-of-a-triangle"></a>⚡ Core Concept 5: Area of a Triangle
 
-- **Formula:** \text{Area} = \frac{1}{2} \cdot |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)| — $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ are vertices of the triangle.
+- **Formula:** $$\text{Area} = \frac{1}{2} \cdot |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)| — $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ are vertices of the triangle.$$
 - **[application](/blog/application-of-integrals-class-12-notes):** Used to find the area of a triangle given the coordinates of its vertices.
 
 #### Shoelace Formula
-- **Formula:** \text{Area} = \frac{1}{2} \cdot |x_1y_2 + x_2y_3 + x_3y_1 - y_1x_2 - y_2x_3 - y_3x_1| — $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ are vertices of the triangle.
+- **Formula:** $$\text{Area} = \frac{1}{2} \cdot |x_1y_2 + x_2y_3 + x_3y_1 - y_1x_2 - y_2x_3 - y_3x_1| — $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ are vertices of the triangle.$$
 - **Application:** Used to find the area of a triangle given the coordinates of its vertices.
 
 ### <a id="-core-concept-6-volume-of-a-parallelepiped"></a>⚡ Core Concept 6: Volume of a Parallelepiped
@@ -152,7 +147,7 @@ d \end{vmatrix}$ and cofactor of $b$ is $-
 
 - **Formula:**
 
-\begin{vmatrix} a & b \\ c & d \end{vmatrix}
+$$\begin{vmatrix} a & b \\ c & d \end{vmatrix}$$
 
 = ad - bc — $a, b, c, d$ are elements of the matrix.
 - **Application:** Used to calculate the determinant of a 2x2 matrix.
@@ -160,7 +155,7 @@ d \end{vmatrix}$ and cofactor of $b$ is $-
 #### Determinant of a 2x2 Matrix with Variables
 - **Formula:**
 
-\begin{vmatrix} x & y \\ z & w \end{vmatrix}
+$$\begin{vmatrix} x & y \\ z & w \end{vmatrix}$$
 
 = xw - yz — $x, y, z, w$ are variables.
 - **Application:** Used to calculate the determinant of a 2x2 matrix with variables.
@@ -169,7 +164,7 @@ d \end{vmatrix}$ and cofactor of $b$ is $-
 
 - **Formula:**
 
-\begin{vmatrix} a & b & c \\ d & e & f \\ g & h & i \end{vmatrix}
+$$\begin{vmatrix} a & b & c \\ d & e & f \\ g & h & i \end{vmatrix}$$
 
 = a(ei - fh) - b(di - fg) + c(dh - eg) — $a, b, c, d, e, f, g, h, i$ are elements of the matrix.
 - **Importance:** Used to calculate the determinant of a 3x3 matrix.
@@ -187,7 +182,7 @@ d \end{vmatrix}$ and cofactor of $b$ is $-
 
 - **Formula:** A^{-1} = \frac{1}{\det(A)} \cdot
 
-\begin{bmatrix} d & -b \\ -c & a \end{bmatrix}
+$$\begin{bmatrix} d & -b \\ -c & a \end{bmatrix}$$
 
 — $A$ is a 2x2 matrix.
 - **Application:** Used to find the inverse of a 2x2 matrix.
@@ -207,7 +202,8 @@ d \end{vmatrix}$ and cofactor of $b$ is $-
 - **Importance:** Determinants are used to determine the linear independence of a set of vectors.
 
 #### Checking Linear Independence Using Determinants
-- **Formula:** \det(A) \neq 0 — $A$ is the matrix whose columns are the vectors.
+- **Formula:** \det(A) 
+eq 0 — $A$ is the matrix whose columns are the vectors.
 - **Application:** Used to check if a set of vectors is linearly independent.
 
 ### <a id="-core-concept-12-rank-of-a-matrix"></a>⚡ Core Concept 12: Rank of a Matrix
@@ -216,7 +212,8 @@ d \end{vmatrix}$ and cofactor of $b$ is $-
 - **Importance:** Determinants are used to find the rank of a matrix, which is essential for determining the solvability of systems of equations.
 
 #### Finding the Rank of a Matrix Using Determinants
-- **Formula:** \text{rank}(A) = \max \{k : \det(A_k) \neq 0\} — $A_k$ is the $k \times k$ submatrix of $A$.
+- **Formula:** $$\text{rank}(A) = \max \{k : \det(A_k)$$
+eq 0\} — $A_k$ is the $k \times k$ submatrix of $A$.
 - **Application:** Used to find the rank of a matrix.
 
 ### <a id="-core-concept-13-advanced-properties-of-determinants"></a>⚡ Core Concept 13: Advanced Properties of Determinants
@@ -228,7 +225,7 @@ d \end{vmatrix}$ and cofactor of $b$ is $-
 
 - **Formula:**
 
-\begin{vmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{vmatrix}
+$$\begin{vmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{vmatrix}$$
 
 = a_{11}C_{11} + a_{12}C_{12} + a_{13}C_{13} — $C_{ij}$ is the cofactor of $a_{ij}$.
 - **Application:** Used to calculate the determinant of a matrix by expanding along a row or column using cofactors.
@@ -264,14 +261,14 @@ d \end{vmatrix}$ and cofactor of $b$ is $-
 
 #### ⚡ Finding the Area of a Triangle
 
-- **Formula:** \text{Area} = \frac{1}{2} \cdot |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)| — $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ are vertices of the triangle.
+- **Formula:** $$\text{Area} = \frac{1}{2} \cdot |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)| — $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ are vertices of the triangle.$$
 - **Application:** Used to find the area of a triangle given the coordinates of its vertices.
 
 #### ⚡ Finding the Volume of a Parallelepiped
 
 - **Formula:** V = |
 
-\begin{vmatrix} a & b & c \\ d & e & f \\ g & h & i \end{vmatrix}
+$$\begin{vmatrix} a & b & c \\ d & e & f \\ g & h & i \end{vmatrix}$$
 
 | — $a, b, c, d, e, f, g, h, i$ are components of the edges of the parallelepiped.
 - **Importance:** Used to find the volume of a parallelepiped given the components of its edges.

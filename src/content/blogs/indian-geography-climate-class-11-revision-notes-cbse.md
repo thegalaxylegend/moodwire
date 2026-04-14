@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/indian-geography-climate-class-11-revision-notes-cbse"
 ---
 
-
-![Indian Geography Climate Class 11 Geography Recap — CBSE 2026 Quick Guide](/blog-images/indian-geography-climate-class-11-revision-notes-cbse.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -36,7 +33,7 @@ practice_link: "/class-11/indian-geography-climate-class-11-revision-notes-cbse"
 
 ## <a id="what-is-indian-geography-climate"></a>What is Indian Geography Climate?
 
-# Climate Class 11 Quick Recap — MCQs, Key Points & PDF Download
+
 
 
 

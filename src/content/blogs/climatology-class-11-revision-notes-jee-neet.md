@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/chemistry/climatology-class-11-revision-notes-jee-neet"
 ---
 
-
-![Climatology Class 11 Geography Recap — CBSE 2026 Quick Guide](/blog-images/climatology-class-11-revision-notes-jee-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -60,11 +57,11 @@ Here are some essential formulae related to climatology:
 
 | Formula | Description |
 | --- | --- |
-| $T = \frac{1}{2}(T_{max} + T_{min})$ | Average temperature |
-| $RH = \frac{e}{E}$ | Relative humidity |
-| $P = \frac{F}{A}$ | Atmospheric pressure |
-| $W = \frac{P_2 - P_1}{d}$ | Wind speed |
-| $P = \frac{m}{V}$ | Precipitation |
+| $T = $$\frac{1}{2}(T_{max} + T_{min})$ | Average temperature |$$
+| $RH = $$\frac{e}{E}$ | Relative humidity |$$
+| $P = $$\frac{F}{A}$ | Atmospheric pressure |$$
+| $W = $$\frac{P_2 - P_1}{d}$ | Wind speed |$$
+| $P = $$\frac{m}{V}$ | Precipitation |$$
 
 
 ## <a id="climatic-elements"></a>Climatic Elements
@@ -120,7 +117,7 @@ Here is a concept map to help you visualize the relationships between different 
 
 ```latex
 
-\begin{tikzpicture}[node distance=2cm]
+$$\begin{tikzpicture}[node distance=2cm]$$
 \node (A) [draw, rectangle] {Latitude};
 \node (B) [draw, rectangle, below of=A] {Altitude};
 \node (C) [draw, rectangle, below of=B] {Ocean Currents};
@@ -133,7 +130,7 @@ Here is a concept map to help you visualize the relationships between different 
 \draw[->] (B) -- (F);
 \draw[->] (C) -- (G);
 \draw[->] (D) -- (H);
-\end{tikzpicture}
+$$\end{tikzpicture}$$
 
 ```
 

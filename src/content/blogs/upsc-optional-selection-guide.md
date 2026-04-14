@@ -7,9 +7,6 @@ date: "2026-04-04"
 practice_link: "/class-11/upsc-optional-selection-guide"
 ---
 
-
-![UPSC Optional Selection Guide 2026 Class 12 Political Science Revision — CBSE 2026 Grandmaster Guide](/blog-images/upsc-optional-selection-guide.webp)
-
 *Last Updated: 2026-04-04*
 
 
@@ -106,20 +103,20 @@ The following formulas are crucial for the UPSC [optional](/blog/upsc-optional-s
  We rearrange the formula to solve for $m$:
 
 
-m = \frac{W}{g}
+m = $$\frac{W}{g}$$
 
 
 
  Plugging in the given values:
 
 
-m = \frac{20 , \text{N}}{9.8 , \text{m/s}^2}
+m = $$\frac{20 , \text{N}}{9.8 , \text{m/s}^2}$$
 
 
 
  Solving for $m$:
 
- m = 2.04 , \text{kg}
+ m = 2.04 , $$\text{kg}$$
 
  - **Answer:** $2.04 , \text{kg}$
 
@@ -139,27 +136,27 @@ m = \frac{20 , \text{N}}{9.8 , \text{m/s}^2}
 
  - Initial velocity $u = 0$
 
- - Final velocity $v = 20 , \text{m/s}$
+ - Final velocity $v = 20 , $$\text{m/s}$$$
 
- - Time $t = 4 , \text{s}$
+ - Time $t = 4 , $$\text{s}$$$
 
  We rearrange the formula to solve for $a$:
 
 
-a = \frac{v - u}{t}
+a = $$\frac{v - u}{t}$$
 
 
 
  Plugging in the given values:
 
 
-a = \frac{20 , \text{m/s} - 0}{4 , \text{s}}
+a = $$\frac{20 , \text{m/s} - 0}{4 , \text{s}}$$
 
 
 
  Solving for $a$:
 
- a = 5 , \text{m/s}^2
+ a = 5 , $$\text{m/s}^2$$
 
  - **Answer:** $5 , \text{m/s}^2$
 
@@ -177,27 +174,27 @@ a = \frac{20 , \text{m/s} - 0}{4 , \text{s}}
 
  We are given:
 
- - Force $F = 10 , \text{N}$
+ - Force $F = 10 , $$\text{N}$$$
 
- - Acceleration $a = 2 , \text{m/s}^2$
+ - Acceleration $a = 2 , $$\text{m/s}^2$$$
 
  We rearrange the formula to solve for $m$:
 
 
-m = \frac{F}{a}
+m = $$\frac{F}{a}$$
 
 
 
  Plugging in the given values:
 
 
-m = \frac{10 , \text{N}}{2 , \text{m/s}^2}
+m = $$\frac{10 , \text{N}}{2 , \text{m/s}^2}$$
 
 
 
  Solving for $m$:
 
- m = 5 , \text{kg}
+ m = 5 , $$\text{kg}$$
 
  - **Answer:** $5 , \text{kg}$
 
@@ -217,7 +214,7 @@ m = \frac{10 , \text{N}}{2 , \text{m/s}^2}
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-* **The Hidden Pattern:** After analyzing 5+ years of PYQs, a pattern emerges where the UPSC optional selection is influenced by the candidate's ability to connect the dots between seemingly unrelated concepts. For instance, $f(x) = \frac{x}{x+1}$ can be used to model the relationship between the number of options chosen and the overall success rate. * **How to Apply It:** To apply this pattern, candidates should focus on developing a strong foundation in their chosen optional subject, while also exploring interdisciplinary connections. This can be achieved by creating a concept map, where each concept is represented as a node, and the relationships between them are represented as edges. The formula for the clustering coefficient $C$ can be used to measure the density of these connections: C = \frac{3 \times \text{number of triangles}}{\text{number of possible triangles}} * **Identifying High-Scoring Options:** By applying the hidden pattern, candidates can identify high-scoring options that have a high clustering coefficient $C$. For example, in the subject of Geography, the topic of 'Urbanization' has a high clustering coefficient, as it is connected to other topics such as 'Economic Development', 'Environmental Sustainability', and 'Social Justice'. The formula for calculating the clustering coefficient can be used to identify such topics: C = \frac{sum_{i=1}^{n} \frac{2 \times \text{number of edges between nodes}}{\text{number of possible edges between nodes}}}{n} * **Strategic Planning:** To maximize their score, candidates should strategically plan their preparation, focusing on the most critical topics and developing a deep understanding of the connections between them. The concept of $p$-value can be used to measure the significance of these connections: p\text{-value} = \frac{\text{number of standard deviations from the mean}}{\text{total number of standard deviations}} * **Practice and Revision:** Regular practice and revision are crucial to reinforcing the connections between concepts and applying the hidden pattern effectively. Candidates should aim to practice a mix of easy, medium, and hard questions, using the formula for the standard deviation $sigma$ to measure their progress: sigma = sqrt{\frac{sum_{i=1}^{n} (x_i - mu)^2}{n}}
+* **The Hidden Pattern:** After analyzing 5+ years of PYQs, a pattern emerges where the UPSC optional selection is influenced by the candidate's ability to connect the dots between seemingly unrelated concepts. For instance, $f(x) = \frac{x}{x+1}$ can be used to model the relationship between the number of options chosen and the overall success rate. * **How to Apply It:** To apply this pattern, candidates should focus on developing a strong foundation in their chosen optional subject, while also exploring interdisciplinary connections. This can be achieved by creating a concept map, where each concept is represented as a node, and the relationships between them are represented as edges. The formula for the clustering coefficient $C$ can be used to measure the density of these connections: C = \frac{3 \times \text{number of triangles}}$\text{number of possible triangles$} * **Identifying High-Scoring Options:** By applying the hidden pattern, candidates can identify high-scoring options that have a high clustering coefficient $C$. For example, in the subject of Geography, the topic of 'Urbanization' has a high clustering coefficient, as it is connected to other topics such as 'Economic Development', 'Environmental Sustainability', and 'Social Justice'. The formula for calculating the clustering coefficient can be used to identify such topics: C = \frac{sum_{i=1}^{n} \frac{2 \times \text{number of edges between nodes}}$\text{number of possible edges between nodes$}}{n} * **Strategic Planning:** To maximize their score, candidates should strategically plan their preparation, focusing on the most critical topics and developing a deep understanding of the connections between them. The concept of $p$-value can be used to measure the significance of these connections: p\text{-value} = \frac$\text{number of standard deviations from the mean$}$\text{total number of standard deviations$} * **Practice and Revision:** Regular practice and revision are crucial to reinforcing the connections between concepts and applying the hidden pattern effectively. Candidates should aim to practice a mix of easy, medium, and hard questions, using the formula for the standard deviation $sigma$ to measure their progress: sigma = sqrt$\frac{sum_{i=1$^{n} (x_i - mu)^2}{n}}
 
 | Optional Subject | Clustering Coefficient ($C$) | High-Scoring Topics |
 | --- | --- | --- |
@@ -231,7 +228,7 @@ m = \frac{10 , \text{N}}{2 , \text{m/s}^2}
 
 - $E = mc^2$ is not directly applicable to UPSC optional selection.
 
- - $t = \frac{d}{s}$ is a basic formula, but not relevant here.
+ - $t = $$\frac{d}{s}$ is a basic formula, but not relevant here.$$
 
  - $sum_{i=1}^{n} x_i$ represents a sum, but is not a key formula for UPSC.
 
@@ -259,17 +256,15 @@ m = \frac{10 , \text{N}}{2 , \text{m/s}^2}
 
 
 **1. Which of the following is a key factor in selecting an optional subject for the [upsc](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee) exam?**
-
--
 A)
 A. Syllabus overlap with General Studies
--
+
 B)
 B. Personal interest and aptitude
--
+
 C)
 C. Popularity among candidates
--
+
 D)
 D. All of the above
 
@@ -278,19 +273,17 @@ D. All of the above
 ---
 
 **2. What is the primary advantage of choosing a literature optional in the UPSC exam?**
-
--
 A)
 A. Less syllabus to cover
--
+
 B)
 B. More time for General Studies preparation
--
+
 C)
 C. Ease of
 
 answering questions
--
+
 D)
 D. Scoring high marks due to subjective nature
 <<<<<<< HEAD
@@ -338,17 +331,15 @@ During the first four months of preparation, dedicate 60–70% of your daily stu
 ---
 
 **3. How many optional subjects can a candidate choose in the UPSC mains exam?**
-
--
 A)
 A. 1
--
+
 B)
 B. 2
--
+
 C)
 C. 3
--
+
 D)
 D. 4
 
@@ -357,17 +348,15 @@ D. 4
 ---
 
 **4. Which of the following is NOT a consideration when selecting an optional subject?**
-
--
 A)
 A. Career goals
--
+
 B)
 B. Academic background
--
+
 C)
 C. Popularity among toppers
--
+
 D)
 D. Availability of study materials
 
@@ -378,17 +367,15 @@ D. Availability of study materials
 <<<<<<< HEAD
 
 **5. What should be the primary focus when preparing for an optional subject in the UPSC exam?**
-
--
 A)
 A. Covering the entire syllabus
--
+
 B)
 B. Practicing previous years' questions
--
+
 C)
 C. Developing a deep understanding of key concepts
--
+
 D)
 D. All of the above
 

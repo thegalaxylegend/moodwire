@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/thermodynamics-chemistry-class-11-revision-notes-jee-neet"
 ---
 
-
-![Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/thermodynamics-chemistry-class-11-revision-notes-jee-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -56,7 +53,7 @@ practice_link: "/class-11/physics/thermodynamics-chemistry-class-11-revision-not
 
 ## <a id="what-is-thermodynamics-chemistry-revision-notes"></a>What is Thermodynamics Chemistry Revision Notes?
 
-# Thermodynamics Chemistry Revision Notes
+
 
 
 
@@ -199,7 +196,7 @@ This is because Enthalpy is a **State Function** — it depends only on the stat
 ### <a id="application-bornhaber-cycle"></a>Application: Born-Haber Cycle
 To find the Lattice Enthalpy of $NaCl$:
 
-\Delta H_f = \Delta H_{sub} + \Delta H_{IE} + \frac{1}{2}\Delta H_{diss} + \Delta H_{EA} + U_{lattice}
+\Delta H_f = \Delta H_{sub} + \Delta H_{IE} + $$\frac{1}{2}\Delta H_{diss} + \Delta H_{EA} + U_{lattice}$$
 
 
 **JEE Trick**: If a question asks you to calculate the enthalpy of a reaction you don't know directly, try:
@@ -224,7 +221,7 @@ To find the Lattice Enthalpy of $NaCl$:
 
 ### <a id="bond-enthalpy-method"></a>Bond Enthalpy Method
 
-\Delta H_{rxn} = \sum (\text{Bond Enthalpies of Broken Bonds}) - \sum (\text{Bond Enthalpies of Formed Bonds})
+\Delta H_{rxn} = \sum ($$\text{Bond Enthalpies of Broken Bonds}) - \sum (\text{Bond Enthalpies of Formed Bonds})$$
 
 
 Remember: Breaking bonds = **absorbs** energy (+). Forming bonds = **releases** energy (-).
@@ -309,38 +306,38 @@ Also: $\Delta G° = -RT \ln K$.
 **MCQs (Multiple Choice Questions) are a testing format where you must identify the single correct option from a provided list.**
 
 **Q1. For the reaction $N_2(g) + 3H_2(g) \rightarrow 2NH_3(g)$, $\Delta n_g$ is:** [JEE Easy]  
-A) +2  
-B) -2  
-C) +1  
-D) -1  
+A) +2
+B) -2
+C) +1
+D) -1
 *Answer: B ($\Delta n_g = 2 - (1+3) = -2$).*
 
-**Q2. A reaction has $\Delta H = +50 \text{ kJ}$ and $\Delta S = +100 \text{ J/K}$. At what temperature will it become spontaneous?** [JEE Medium]  
-A) Above 500 K  
-B) Below 500 K  
-C) At 500 K  
-D) Never  
+**Q2. A reaction has $\Delta H = +50 $$\text{ kJ}$ and $\Delta S = +100 \text{ J/K}$. At what temperature will it become spontaneous?** [JEE Medium]$$
+A) Above 500 K
+B) Below 500 K
+C) At 500 K
+D) Never
 *Answer: A ($T > \Delta H / \Delta S = 50000/100 = 500 K$. Note the unit conversion: kJ to J!)*
 
 **Q3. The standard enthalpy of formation of an element in its standard state is:** [NEET Easy]  
-A) 1  
-B) -1  
-C) 0  
-D) Depends on element  
+A) 1
+B) -1
+C) 0
+D) Depends on element
 *Answer: C (By definition, $\Delta_f H°$ of [elements](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet) in standard state = 0).*
 
 **Q4. $\Delta H_{rxn}$ using bond enthalpies is:** [JEE Hard]  
-A) $\sum$(bonds broken) + $\sum$(bonds formed)  
-B) $\sum$(bonds formed) - $\sum$(bonds broken)  
-C) $\sum$(bonds broken) - $\sum$(bonds formed)  
-D) Only depends on bond dissociation energy  
-*Answer: C ($\Delta H = \text{Energy absorbed (broken)} - \text{Energy released (formed)}$).*
+A) $\sum$(bonds broken) + $\sum$(bonds formed)
+B) $\sum$(bonds formed) - $\sum$(bonds broken)
+C) $\sum$(bonds broken) - $\sum$(bonds formed)
+D) Only depends on bond dissociation energy
+*Answer: C ($\Delta H = $$\text{Energy absorbed (broken)} - \text{Energy released (formed)}$).*$$
 
 **Q5. For an isolated system, which of the following is always true for a spontaneous process?** [JEE Medium]  
-A) $\Delta H < 0$  
-B) $\Delta S_{sys} > 0$  
-C) $\Delta G < 0$  
-D) $\Delta U = 0$  
+A) $\Delta H < 0$
+B) $\Delta S_{sys} > 0$
+C) $\Delta G < 0$
+D) $\Delta U = 0$
 *Answer: B (In an isolated system, $q=0$ and $w=0$, so $\Delta U = 0$. Spontaneity is driven entirely by $\Delta S_{sys} > 0$. Note: D is also true, but B is the defining criterion for spontaneity).*
 
 ---

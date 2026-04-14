@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/linear-inequalities-class-11-revision-notes-jee-neet"
 ---
 
-
-![Linear Inequalities Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/linear-inequalities-class-11-revision-notes-jee-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -38,7 +35,7 @@ practice_link: "/class-11/physics/linear-inequalities-class-11-revision-notes-je
 
 ## <a id="what-is-linear-inequalities-revision-notes"></a>What is Linear Inequalities Revision Notes?
 
-# Linear Inequalities Revision Notes
+
 
 
 

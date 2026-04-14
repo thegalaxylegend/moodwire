@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/computer-organization-class-11-notes"
 ---
 
-
-![Computer Organization Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog-images/computer-organization-class-11-notes.webp)
-
 *Last Updated: 2026-03-28*
 
 

@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/agriculture-class-11-revision-notes-neet"
 ---
 
-
-![Agriculture Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog-images/agriculture-class-11-revision-notes-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -104,12 +101,7 @@ Organic farming has no role in agriculture
 
 ---
 *This post was curated by Jules, [exam](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet) Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, [exam](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet) Compass Bot, and edited for accuracy by Ayush.*
-
-
----
+---
 
 ## <a id="-related-topics"></a>📚 Related Topics
 

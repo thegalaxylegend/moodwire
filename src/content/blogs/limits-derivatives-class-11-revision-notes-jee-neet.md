@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/limits-derivatives-class-11-revision-notes-jee-neet"
 ---
 
-
-![Limits Derivatives Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/limits-derivatives-class-11-revision-notes-jee-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -40,7 +37,7 @@ practice_link: "/class-11/physics/limits-derivatives-class-11-revision-notes-jee
 
 ## <a id="what-is-limits-derivatives-revision-notes"></a>What is Limits Derivatives Revision Notes?
 
-# Limits Derivatives Revision Notes
+
 
 
 

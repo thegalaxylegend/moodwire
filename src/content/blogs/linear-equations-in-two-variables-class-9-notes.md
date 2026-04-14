@@ -32,23 +32,27 @@ manualReview: true
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
-- **Mistake 1:** Incorrectly identifying coefficients and constants.\n 
+- **Mistake 1:** Incorrectly identifying coefficients and constants.
+ 
 
 - *Error description:* Students often get confused when an equation isn't presented in the standard form $ax + by + c = 0$. They might pick coefficients with incorrect signs or assign them to the wrong variables, especially when terms are on
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
-- **Q1:** If the point $(2, k)$ is a solution of the equation $2x + 3y = 10$, then find the value of $k$.\n - **Trap:** Students sometimes substitute the values incorrectly, mixing up $x$ and $y$. It's easy to
+- **Q1:** If the point $(2, k)$ is a solution of the equation $2x + 3y = 10$, then find the value of $k$.
+ - **Trap:** Students sometimes substitute the values incorrectly, mixing up $x$ and $y$. It's easy to
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
-- **The Core Concept: The Geometric Heartbeat of Solutions**\n 
+- **The Core Concept: The Geometric Heartbeat of Solutions**
+ 
 
 - Alright, listen up! When we talk about a linear equation in two variables, like $ax + by + c = 0$, most of us quickly learn to find some solutions. But the real game-changer, the 'secret sauce' that separates the
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-- **The Hidden Pattern:**\n Hey guys! After grinding through tons of past papers for Linear Equations in Two Variables, I've noticed something super important that isn't explicitly taught in our textbooks. While we learn about the general form $ax + by + c = 0$ and how it has infinitely many solutions, a hidden pattern often pops up in PYQs. Many questions, especially those asking you to find specific solutions or to graph the equation, feature equations where the coefficients $a$ and $b$, or the constant $c$, have a very specific relationship. Often, one coefficient is a direct multiple of the other, or the constant term $c$ is zero. For instance, you might see an equation like $2x 
+- **The Hidden Pattern:**
+ Hey guys! After grinding through tons of past papers for Linear Equations in Two Variables, I've noticed something super important that isn't explicitly taught in our textbooks. While we learn about the general form $ax + by + c = 0$ and how it has infinitely many solutions, a hidden pattern often pops up in PYQs. Many questions, especially those asking you to find specific solutions or to graph the equation, feature equations where the coefficients $a$ and $b$, or the constant $c$, have a very specific relationship. Often, one coefficient is a direct multiple of the other, or the constant term $c$ is zero. For instance, you might see an equation like $2x 
 
 - 4y = 0$, which immediately simplifies to $x = 2y$, or $3x + 6y = 9$, which can be reduced to $x + 2y = 3$. This isn't just about simplification; it's about how these specific relationships
 

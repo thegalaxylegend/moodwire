@@ -7,9 +7,6 @@ date: "2026-03-30"
 practice_link: "/class-11/chemistry/aldehydes-ketones-and-carboxylic-acids-class-12-notes"
 ---
 
-
-![Aldehydes, Ketones and Carboxylic Acids Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/aldehydes-ketones-and-carboxylic-acids-class-12-notes.webp)
-
 *Last Updated: 2026-03-30*
 
 

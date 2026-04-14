@@ -7,9 +7,6 @@ date: "2026-03-30"
 practice_link: "/class-11/chemistry/chemistry-in-everyday-life-class-12-notes"
 ---
 
-
-![Chemistry in Everyday Life Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog-images/chemistry-in-everyday-life-class-12-notes.webp)
-
 *Last Updated: 2026-03-30*
 
 
@@ -28,7 +25,7 @@ practice_link: "/class-11/chemistry/chemistry-in-everyday-life-class-12-notes"
 
 
 
-<DIV [class](/blog/coordination-compounds-class-12-notes)="quick-summary">
+<DIV class="quick-summary">
 
 #- [📋 Table of Contents](#-table-of-contents)
 
@@ -82,11 +79,11 @@ APK_{a} = -\log_{10}[H^{+}]$ : Acid dissociation constant,
  (suggestion limit reached)_{d} = \(suggestion limit reached){1}{K_{f}}$ : Instability constant for the dissociation of a complex ion, 
  $\Delta G^{\(suggestion limit reached)} = -RT\ln (suggestion limit reached) : Relationship between Gibbs free energy and equilibrium constant, 
  $\Delta G^{\(suggestion limit reached)} = -2.303RT\log (suggestion limit reached) : Relationship between Gibbs free energy and equilibrium constant, 
- (suggestion limit reached)^{\(suggestion limit reached)}_{cell} = \(suggestion limit reached){\Delta G^{\(suggestion limit reached)}}{-(suggestion limit reached)}$ : Relationship between cell potential and Gibbs free energy, 
+ (suggestion limit reached)^{\(suggestion limit reached)}_{cell} = \(suggestion limit reached)$\Delta G^{\(suggestion limit reached)$}{-(suggestion limit reached)}$ : Relationship between cell potential and Gibbs free energy, 
  (suggestion limit reached)^{\(suggestion limit reached)}_{cell} = \(suggestion limit reached){RT}{nF}\ln (suggestion limit reached) : Relationship between cell potential and equilibrium constant, 
  (suggestion limit reached)^{\(suggestion limit reached)}_{cell} = \(suggestion limit reached){0.0591}{n}\log (suggestion limit reached) : Relationship between cell potential and equilibrium constant at 25°C, 
  (suggestion limit reached)_{cell} = E^{\(suggestion limit reached)}_{cell} - \(suggestion limit reached){0.0591}{n}\log_{10}(suggestion limit reached) : Nernst equation for cell potential calculation, 
- $\log_{10}K = \(suggestion limit reached){\Delta H^{\(suggestion limit reached)}}{2.303R}\left(\(suggestion limit reached){1}{T_{2}} - \(suggestion limit reached){1}{T_{1}}\right)$ : Van 't Hoff equation for temperature dependence of equilibrium constant,
+ $\log_{10}K = \(suggestion limit reached)$\Delta H^{\(suggestion limit reached)$}{2.303R}\left(\(suggestion limit reached){1}{T_{2}} - \(suggestion limit reached){1}{T_{1}}\right)$ : Van 't Hoff equation for temperature dependence of equilibrium constant,
 
 
 | Formula | Description |

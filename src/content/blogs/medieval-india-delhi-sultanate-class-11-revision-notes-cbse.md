@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/medieval-india-delhi-sultanate-class-11-revision-notes-cbse"
 ---
 
-
-![Medieval India Delhi Sultanate Class 11 History Recap — CBSE 2026 Quick Guide](/blog-images/medieval-india-delhi-sultanate-class-11-revision-notes-cbse.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -129,7 +126,7 @@ The following are some key terms related to the Delhi Sultanate:
 ### <a id="latex-equations"></a>LaTeX Equations
 The Delhi Sultanate can be represented using the following LaTeX equations:
 
-\text{Delhi Sultanate} = \sum_{i=1}^{5} \text{Dynasties}\text{Dynasties} = \{\text{Slave}, \text{Khalji}, \text{Tughlaq}, \text{Sayyid}, \text{Lodi}\}\text{Iqta System} = \text{Feudal System} \times \text{Land Grant}
+$$\text{Delhi Sultanate} = \sum_{i=1}^{5} \text{Dynasties}\text{Dynasties} = \$\text{Slave$, \text{Khalji}, \text{Tughlaq}, \text{Sayyid}, \text{Lodi}\}\text{Iqta System} = \text{Feudal System} \times \text{Land Grant}$$
 
 
 

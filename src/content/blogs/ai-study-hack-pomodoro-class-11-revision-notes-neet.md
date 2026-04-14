@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/ai-study-hack-pomodoro-class-11-revision-notes-neet"
 ---
 
-
-![Ai Study Hack Pomodoro Class 11 Computer Science Recap — CBSE 2026 Quick Guide](/blog-images/ai-study-hack-pomodoro-class-11-revision-notes-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -124,12 +121,7 @@ Organisms
 
 ---
 *This post was curated by Jules, [exam](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet) Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, [exam](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet) Compass Bot, and edited for accuracy by Ayush.*
-
-
----
+---
 
 ## <a id="-related-topics"></a>📚 Related Topics
 

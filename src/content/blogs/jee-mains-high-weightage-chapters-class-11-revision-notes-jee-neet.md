@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet"
 ---
 
-
-![Jee Mains High Weightage Chapters Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet.webp)
-
 *Last Updated: [2026](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)-03-28*
 
 
@@ -38,7 +35,7 @@ practice_link: "/class-11/physics/jee-mains-high-weightage-chapters-class-11-rev
 
 ## <a id="what-is-jee-mains-high-weightage-chapters"></a>What is Jee Mains High Weightage Chapters?
 
-# JEE Mains High Weightage Low Effort Chapters 2026 Guide
+
 
 If you're a JEE aspirant, you've probably heard the advice: "Complete the entire syllabus." I'm here to tell you that’s a lie. In a 3-hour exam with a 300-mark ceiling, trying to [master](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet) everything is the fastest way to [master](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet) nothing. 
 

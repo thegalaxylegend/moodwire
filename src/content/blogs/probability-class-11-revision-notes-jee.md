@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/mathematics/probability-class-11-revision-notes-jee"
 ---
 
-
-![Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog-images/probability-class-11-revision-notes-jee.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -40,7 +37,7 @@ practice_link: "/class-11/mathematics/probability-class-11-revision-notes-jee"
 
 ## <a id="what-is-probability-revision-notes"></a>What is Probability Revision Notes?
 
-# Probability Revision Notes
+
 
 
 
@@ -121,8 +118,8 @@ Instead of just counting outcomes, we assign a number $P(E)$ to an event $E$ tha
 3.  If $A$ and $B$ are mutually exclusive, $P(A \cup B) = P(A) + P(B)$.
 
 ### <a id="fundamental-formulas"></a>Fundamental Formulas:
-- **$P(A \text{ or } B) = P(A \cup B) = P(A) + P(B) - P(A \cap B)$**
-- **$P(\text{not } A) = P(A') = 1 - P(A)$**
+- **$P(A $$\text{ or } B) = P(A \cup B) = P(A) + P(B) - P(A \cap B)$**$$
+- **$P($$\text{not } A) = P(A') = 1 - P(A)$**$$
 - **$P(A - B) = P(A) - P(A \cap B)$**
 
 ---

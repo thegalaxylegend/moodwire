@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/chemical-coordination-and-integration-class-11-revision-notes-neet"
 ---
 
-
-![Chemical Coordination And Integration Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog-images/chemical-coordination-and-integration-class-11-revision-notes-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -38,7 +35,7 @@ practice_link: "/class-11/biology/chemical-coordination-and-integration-class-11
 
 ## <a id="what-is-chemical-coordination-and-integration"></a>What is Chemical Coordination And Integration?
 
-# Chemical Coordination and Integration Class 11 Notes — Exam Compass
+
 
 
 
@@ -78,9 +75,7 @@ While there are no specific formulae to remember in chemical [coordination](/blo
 
 * The regulation of blood sugar levels by insulin and glucagon can be represented by the following equation:
 
-\text{Glucose} \xrightarrow{\text{Insulin}} \text{Glycogen}
-
-\text{Glycogen} \xrightarrow{\text{Glucagon}} \text{Glucose}
+$$\text{Glucose} \xrightarrow$\text{Insulin$} \text{Glycogen}\text{Glycogen} \xrightarrow$\text{Glucagon$} \text{Glucose}$$
 
 
 ## <a id="keenest-data"></a>JEE/MEET Data

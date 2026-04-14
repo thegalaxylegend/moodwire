@@ -25,7 +25,8 @@ manualReview: true
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
-- **Mistake 1:** Confusing the roles of Lexical Analysis (Scanning) and Syntactic Analysis (Parsing).\n 
+- **Mistake 1:** Confusing the roles of Lexical Analysis (Scanning) and Syntactic Analysis (Parsing).
+ 
 
 - *Error description:* Students often blur the lines between these two fundamental phases of a compiler. They might mistakenly believe the lexer is responsible for checking grammar rules or that the parser handles
 
@@ -35,25 +36,33 @@ manualReview: true
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
-- **The Core Concept:** While many students can mechanically construct LR parsing tables, the true differentiator for top scorers is a deep, intuitive understanding of *why* Shift-Reduce (SR) and Reduce-Reduce (RR) conflicts arise in LR parsers (LR(0), SLR(1), LR(1), LALR(1)) and the subtle mechanisms by which each parser attempts to resolve them, or when they inevitably fail.\n\n
+- **The Core Concept:** While many students can mechanically construct LR parsing tables, the true differentiator for top scorers is a deep, intuitive understanding of *why* Shift-Reduce (SR) and Reduce-Reduce (RR) conflicts arise in LR parsers (LR(0), SLR(1), LR(1), LALR(1)) and the subtle mechanisms by which each parser attempts to resolve them, or when they inevitably fail.
 
-- **What 85% scorers do:**\n 
+- **What 85% scorers do:**
+ 
 
-- They can generally follow the algorithms to build LR(0), SLR(1), LR(1), and LALR(1) parsing tables.\n 
+- They can generally follow the algorithms to build LR(0), SLR(1), LR(1), and LALR(1) parsing tables.
+ 
 
-- They know the theoretical hierarchy: LR(0) < SLR(1) < LALR(1) $\approx$ LR(1) in terms of power, with LR(1) being the most powerful context-free parser.\n 
+- They know the theoretical hierarchy: LR(0) < SLR(1) < LALR(1) $\approx$ LR(1) in terms of power, with LR(1) being the most powerful context-free parser.
+ 
 
-- They can identify an SR or RR conflict if it's explicitly pointed out in an LR(0) state.\n 
+- They can identify an SR or RR conflict if it's explicitly pointed out in an LR(0) state.
+ 
 
-- They understand that SLR(1) uses the FOLLOW sets of non-terminals to resolve conflicts, and that LR(1) incorporates lookahead symbols directly into the state construction.\n 
+- They understand that SLR(1) uses the FOLLOW sets of non-terminals to resolve conflicts, and that LR(1) incorporates lookahead symbols directly into the state construction.
+ 
 
-- They often treat conflict resolution as a black box: \"If a conflict exists, this parser can't handle it,\" without truly internalizing *why* it can't.\n 
+- They often treat conflict resolution as a black box: \"If a conflict exists, this parser can't handle it,\" without truly internalizing *why* it can't.
+ 
 
-- They might memorize common examples of grammars that are LR(1) but not SLR(1), or LALR(1) but not SLR(1), without fully grasping the underlying reason for the distinction beyond just the presence or absence of a conflict in a constructed table.\n 
+- They might memorize common examples of grammars that are LR(1) but not SLR(1), or LALR(1) but not SLR(1), without fully grasping the underlying reason for the distinction beyond just the presence or absence of a conflict in a constructed table.
+ 
 
-- Their understanding of LALR(1) often stops at \"it's like LR(1) but merges states to save space,\" missing the critical consequence of this merging.\n\n
+- Their understanding of LALR(1) often stops at \"it's like LR(1) but merges states to save space,\" missing the critical consequence of this merging.
 
-- **What 95% scorers do:**\n 
+- **What 95% scorers do:**
+ 
 
 - They don't just build tables; they *diagnose* conflicts. They can look at an LR item set and immediately tell if an SR conflict ($[A \to$
 

@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/locomotion-and-movement-class-11-revision-notes-neet"
 ---
 
-
-![Locomotion And Movement Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog-images/locomotion-and-movement-class-11-revision-notes-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -39,7 +36,7 @@ practice_link: "/class-11/biology/locomotion-and-movement-class-11-revision-note
 
 ## <a id="what-is-locomotion-and-movement"></a>What is Locomotion And Movement?
 
-# Locomotion and Movement Class 11 Notes — Exam Compass
+
 
 
 
@@ -75,7 +72,7 @@ Several formulae and equations are relevant to the study of locomotion and movem
 * **Power (P) = Work (W) / Time (t)**: This equation describes the relationship between power, work, and time.
 
 
-F = maW = FdP = \frac{W}{t}
+F = maW = FdP = $$\frac{W}{t}$$
 
 
 

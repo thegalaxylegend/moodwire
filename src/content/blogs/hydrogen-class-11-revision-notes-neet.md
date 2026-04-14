@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/hydrogen-class-11-revision-notes-neet"
 ---
 
-
-![Hydrogen Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog-images/hydrogen-class-11-revision-notes-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -44,7 +41,7 @@ practice_link: "/class-11/biology/hydrogen-class-11-revision-notes-neet"
 
 ## <a id="what-is-hydrogen"></a>What is Hydrogen?
 
-# Hydrogen Class 11 Notes
+
 
 
 
@@ -130,7 +127,7 @@ Hydrogen fuel cells are devices that convert the chemical energy of hydrogen int
 To calculate the number of moles of hydrogen in a given mass of a compound, use the formula:
 
 
-n = \frac{m}{M}
+n = $$\frac{m}{M}$$
 
 
 

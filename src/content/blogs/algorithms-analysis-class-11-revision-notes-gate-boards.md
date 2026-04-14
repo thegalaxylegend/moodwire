@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/algorithms-analysis-class-11-revision-notes-gate-boards"
 ---
 
-
-![Algorithms: Analysis Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog-images/algorithms-analysis-class-11-revision-notes-gate-boards.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -70,19 +67,15 @@ As you can see, algorithm analysis is not just about solving problems; it's abou
 
 Here's a block of code to illustrate the concept:
 
-\begin{aligned}
-&\text{Quicksort Algorithm} \\
-&\text{Time Complexity: } O(n log n) \\
-&\text{Space Complexity: } O(log n) \\
-&\text{Worst-Case Time Complexity: } O(n^2) \\
-\end{aligned}
-
-\begin{aligned}
-&\text{Mergesort Algorithm} \\
-&\text{Time Complexity: } O(n log n) \\
-&\text{Space Complexity: } O(n) \\
-&\text{Worst-Case Time Complexity: } O(n log n) \\
-\end{aligned}
+$$\begin{aligned}$$
+&$$\text{Quicksort Algorithm} \\$$
+&$$\text{Time Complexity: } O(n log n) \\$$
+&$$\text{Space Complexity: } O(log n) \\$$
+&$$\text{Worst-Case Time Complexity: } O(n^2) \\\end{aligned}\begin{aligned}$$
+&$$\text{Mergesort Algorithm} \\$$
+&$$\text{Time Complexity: } O(n log n) \\$$
+&$$\text{Space Complexity: } O(n) \\$$
+&$$\text{Worst-Case Time Complexity: } O(n log n) \\\end{aligned}$$
 
 As you can see, the quicksort algorithm has a faster average time complexity, but a worse worst-case time complexity. On the other hand, the mergesort algorithm has a slower average time complexity, but a better worst-case time complexity. Which algorithm would you choose, and why? 
 

@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/equilibrium-class-11-revision-notes-jee-neet"
 ---
 
-
-![Equilibrium Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/equilibrium-class-11-revision-notes-jee-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -55,7 +52,7 @@ practice_link: "/class-11/physics/equilibrium-class-11-revision-notes-jee-neet"
 
 ## <a id="what-is-equilibrium-revision-notes"></a>What is Equilibrium Revision Notes?
 
-# Equilibrium Revision Notes
+
 
 
 
@@ -126,13 +123,13 @@ This chapter is massive — it combines [chemical](/blog/chemical-bonding-class-
 
 For $aA + bB \rightleftharpoons cC + dD$:
 
-K_c = \frac{[C]^c [D]^d}{[A]^a [B]^b}
+K_c = $$\frac{[C]^c [D]^d}{[A]^a [B]^b}$$
 
 
 
 ### <a id="k_p-vs-k_c-relationship"></a>$K_p$ vs $K_c$ Relationship
 
-K_p = K_c (RT)^{\Delta n_g}
+K_p = K_c (RT)^$\Delta n_g$
 
 
 where $\Delta n_g$ = (moles of gaseous products) - (moles of gaseous reactants).
@@ -217,10 +214,10 @@ where $\Delta n_g$ = (moles of gaseous products) - (moles of gaseous reactants).
 
 **pH is the negative logarithm (base 10) of the hydrogen ion concentration ($[H^+]$) in a solution, providing a convenient scale to express acidity.**
 
-pH = -\log[H^+]pOH = -\log[OH^-]pH + pOH = pK_w = 14 \text{ (at 298 K)}
+pH = -\log[H^+]pOH = -\log[OH^-]pH + pOH = pK_w = 14 $$\text{ (at 298 K)}$$
 
 ### <a id="the-autoprotolysis-of-water"></a>The Autoprotolysis of Water
-$K_w = [H^+][OH^-] = 10^{-14} \text{ at 298 K}$.
+$K_w = [H^+][OH^-] = 10^{-14} $$\text{ at 298 K}$.$$
 At neutral pH: $[H^+] = [OH^-] = 10^{-7} M$, so $pH = 7$.
 
 ### <a id="very-dilute-acid-the-108-m-hcl-trap-see-traps-section"></a>Very Dilute Acid: The $10^{-8}$ M HCl Trap (See Traps Section)
@@ -236,7 +233,7 @@ At neutral pH: $[H^+] = [OH^-] = 10^{-7} M$, so $pH = 7$.
 
 **Ostwald's Dilution Law relates the degree of dissociation ($\alpha$) of a weak electrolyte to its dissociation constant ($K_a$ or $K_b$) and concentration ($c$).**
 
-For a weak acid $HA$: $\alpha = \sqrt{K_a / c}$ (when $\alpha << 1$).
+For a weak acid $HA$: $\alpha = $$\sqrt{K_a / c}$ (when $\alpha << 1$).$$
 
 This means: **Lower concentration → Higher dissociation**. This is counterintuitive but critical — diluting a weak acid increases its % ionization.
 
@@ -257,9 +254,9 @@ This means: **Lower concentration → Higher dissociation**. This is counterintu
 
 ### <a id="hendersonhasselbalch-equation"></a>Henderson-Hasselbalch Equation
 
-pH = pK_a + \log \frac{[\text{Salt}]}{[\text{Acid}]} (Acidic Buffer)
+pH = pK_a + \log $$\frac{[\text{Salt}]}{[\text{Acid}]} (Acidic Buffer)$$
 
-pOH = pK_b + \log \frac{[\text{Salt}]}{[\text{Base}]} (Basic Buffer)
+pOH = pK_b + \log $$\frac{[\text{Salt}]}{[\text{Base}]} (Basic Buffer)$$
 
 
 
@@ -319,40 +316,40 @@ d. Only total pressure increase has no thermodynamic effect.
 
 correct option from a provided list.**
 
-**Q1. For $N_2 + 3H_2 \rightleftharpoons 2NH_3$, $K_c = 0.5$. What is the $K_c$ for $NH_3 \rightleftharpoons \frac{1}{2}N_2 + \frac{3}{2}H_2$?** [JEE Medium]  
-A) 2  
-B) $\sqrt{2}$  
-C) $1/\sqrt{0.5}$  
-D) $\sqrt{1/0.5}$  
-*Answer: B ($K_{reverse} = 1/0.5 = 2$. Halving coefficients: $K' = \sqrt{2}$).*
+**Q1. For $N_2 + 3H_2 \rightleftharpoons 2NH_3$, $K_c = 0.5$. What is the $K_c$ for $NH_3 \rightleftharpoons $$\frac{1}{2}N_2 + \frac{3}{2}H_2$?** [JEE Medium]$$
+A) 2
+B) $\sqrt{2}$
+C) $1/$$\sqrt{0.5}$$$
+D) $\sqrt{1/0.5}$
+*Answer: B ($K_{reverse} = 1/0.5 = 2$. Halving coefficients: $K' = $$\sqrt{2}$).*$$
 
 **Q2. The pH of a $10^{-3}$ M NaOH solution is:** [NEET Easy]  
-A) 3  
-B) 11  
-C) 7  
-D) 14  
+A) 3
+B) 11
+C) 7
+D) 14
 *Answer: B ($pOH = -\log(10^{-3}) = 3$. $pH = 14 - 3 = 11$).*
 
 **Q3. Adding $NaCl$ to a saturated $AgCl$ solution will:** [JEE Easy]  
-A) Increase solubility  
-B) Decrease solubility  
-C) No effect  
-D) Double solubility  
+A) Increase solubility
+B) Decrease solubility
+C) No effect
+D) Double solubility
 *Answer: B (Common Ion Effect. $[Cl^-]$ increases, pushing equilibrium towards $AgCl(s)$).*
 
 **Q4. For an endothermic reaction at equilibrium, increasing temperature will:** [NEET Medium]  
-A) Shift forward, increase K  
-B) Shift backward, decrease K  
-C) Shift forward, no change in K  
-D) No shift, increase K  
+A) Shift forward, increase K
+B) Shift backward, decrease K
+C) Shift forward, no change in K
+D) No shift, increase K
 *Answer: A (Le Chatelier: Increase T → shift endothermic → forward. $K$ increases for endothermic reactions with T).*
 
 **Q5. The Henderson-Hasselbalch equation for an acidic buffer gives pH =** [JEE Medium]  
-A) $pK_a + \log[\text{Acid}]/[\text{Salt}]$  
-B) $pK_a + \log[\text{Salt}]/[\text{Acid}]$  
-C) $pK_b + \log[\text{Salt}]/[\text{Base}]$  
-D) $pK_a - \log[\text{Salt}]/[\text{Acid}]$  
-*Answer: B ($pH = pK_a + \log \frac{[\text{Salt}]}{[\text{Acid}]}$).*
+A) $pK_a + \log[$$\text{Acid}]/[\text{Salt}]$$$
+B) $pK_a + \log[$$\text{Salt}]/[\text{Acid}]$$$
+C) $pK_b + \log[$$\text{Salt}]/[\text{Base}]$$$
+D) $pK_a - \log[$$\text{Salt}]/[\text{Acid}]$$$
+*Answer: B ($pH = pK_a + \log $$\frac{[\text{Salt}]}{[\text{Acid}]}$).*$$
 
 ---
 

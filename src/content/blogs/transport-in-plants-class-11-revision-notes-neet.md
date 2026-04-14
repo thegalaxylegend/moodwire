@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/transport-in-plants-class-11-revision-notes-neet"
 ---
 
-
-![Transport In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog-images/transport-in-plants-class-11-revision-notes-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -39,7 +36,7 @@ practice_link: "/class-11/biology/transport-in-plants-class-11-revision-notes-ne
 
 ## <a id="what-is-transport-in-plants"></a>What is Transport In Plants?
 
-# Transport In Plants Class 11 Notes
+
 
 
 ### <a id="transport-in-plants-class-11-notes"></a>Transport in Plants Class 11 Notes
@@ -64,7 +61,7 @@ Transport in plants is the process by which plants move water, minerals, and sug
 ### <a id="why-transport-in-plants-matters"></a>Why Transport in Plants Matters
 Transport in [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) is crucial for plant survival. In the 2026 CBSE Class 11 Biology exam, 4 questions were asked from this topic, with a total of 12 marks. This highlights the importance of understanding transport in [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) for students preparing for the CBSE Class 11 Biology exam.
 ### <a id="ayushs-note"></a>Ayush's Note
-<div [class](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)="callout-box">
+<div class="callout-box">
 I still remember the mistake I made in my Class 11 Biology exam. I confused the terms "osmosis" and "diffusion". I thought they were the same thing, but they're not. Osmosis is the movement of water molecules from a region of high concentration to a region of low concentration through a partially permeable membrane, while diffusion is the movement of particles from a region of high concentration to a region of low concentration. I learned from my mistake and made sure to understand the difference between these two processes. Now, I can confidently say that I understand transport in [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet).
 </div>
 ### <a id="core-concepts"></a>Core Concepts

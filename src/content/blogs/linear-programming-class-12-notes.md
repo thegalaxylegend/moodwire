@@ -7,9 +7,6 @@ date: "2026-04-03"
 practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 ---
 
-
-![Linear Programming Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog-images/linear-programming-class-12-notes.webp)
-
 *Last Updated: 2026-04-03*
 
 ## 📋 Table of Contents
@@ -138,23 +135,23 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 
  Solving these equations simultaneously:
 
-\begin{align*}
+$$\begin{align*}$$
 
  2x + 3y &= 1200 \\ 
 
  3x + 2y &= 900
 
- \end{align*}
+ $$\end{align*}$$
 
 Multiplying the first equation by 2 and the second equation by 3 gives:
 
-\begin{align*}
+$$\begin{align*}$$
 
  4x + 6y &= 2400 \\ 
 
  9x + 6y &= 2700
 
- \end{align*}
+ $$\end{align*}$$
 
 Subtracting the first equation from the second gives:
 
@@ -196,23 +193,23 @@ Subtracting the first equation from the second gives:
 
  Solving these equations simultaneously:
 
-\begin{align*}
+$$\begin{align*}$$
 
  2x + 3y &= 60 \\ 
 
  3x + 2y &= 50
 
- \end{align*}
+ $$\end{align*}$$
 
 Multiplying the first equation by 2 and the second equation by 3 gives:
 
-\begin{align*}
+$$\begin{align*}$$
 
  4x + 6y &= 120 \\ 
 
  9x + 6y &= 150
 
- \end{align*}
+ $$\end{align*}$$
 
 Subtracting the first equation from the second gives:
 
@@ -254,13 +251,13 @@ Subtracting the first equation from the second gives:
 
  Solving these equations simultaneously:
 
-\begin{align*}
+$$\begin{align*}$$
 
  2x + y &= 120 \\ 
 
  x + 2y &= 100
 
- \end{align*}
+ $$\end{align*}$$
 
 Multiplying the second equation by 2 gives:
 
@@ -268,17 +265,17 @@ Multiplying the second equation by 2 gives:
 
  Subtracting the first equation from this gives:
 
-3y = 80y = \frac{80}{3}
+3y = 80y = $$\frac{80}{3}$$
 
- Substituting $y = \frac{80}{3}$ into one of the original equations to find $x$:
+ Substituting $y = $$\frac{80}{3}$ into one of the original equations to find $x$:$$
 
-2x + \frac{80}{3} = 1206x + 80 = 3606x = 280x = \frac{280}{6}x = \frac{140}{3}
+2x + $$\frac{80}{3} = 1206x + 80 = 3606x = 280x = \frac{280}{6}x = \frac{140}{3}$$
 
- Thus, the maximum profit occurs at $x = \frac{140}{3}$ and $y = \frac{80}{3}$.
+ Thus, the maximum profit occurs at $x = $$\frac{140}{3}$ and $y = \frac{80}{3}$.$$
 
  Substituting these values into the objective function:
 
-P = 20(\frac{140}{3}) + 30(\frac{80}{3})P = \frac{2800}{3} + \frac{2400}{3}P = \frac{5200}{3}
+P = 20($$\frac{140}{3}) + 30(\frac{80}{3})P = \frac{2800}{3} + \frac{2400}{3}P = \frac{5200}{3}$$
 
  - **Answer:** $\frac{5200}{3}$
 
@@ -298,16 +295,16 @@ P = 20(\frac{140}{3}) + 30(\frac{80}{3})P = \frac{2800}{3} + \frac{2400}{3}P = \
 
  * Using the $\Delta$-method to calculate the range of values for the objective function coefficients ($c_j$) and the right-hand side values ($b_i$) for which the solution remains optimal.
 
- * Applying the formula for the range of optimality: \Delta c_j = \frac{z_j - c_j}{\bar{a}_{j \cdot}} where $z_j$ is the value of the $j^{th}$ variable in the optimal solution, $c_j$ is the coefficient of the $j^{th}$ variable in the objective function, and $\bar{a}_{j \cdot}$ is the $j^{th}$ column of the optimal tableau.
+ * Applying the formula for the range of optimality: \Delta c_j = $$\frac{z_j - c_j}{\bar{a}_{j \cdot}} where $z_j$ is the value of the $j^{th}$ variable in the optimal solution, $c_j$ is the coefficient of the $j^{th}$ variable in the objective function, and $\bar{a}_{j \cdot}$ is the $j^{th}$ column of the optimal tableau.$$
 
- * Calculating the range of values for the right-hand side parameters ($b_i$) using the formula: \Delta b_i = \frac{\bar{x}_i}{\bar{a}_{i \cdot}} where $\bar{x}_i$ is the $i^{th}$ slack/surplus variable in the optimal solution, and $\bar{a}_{i \cdot}$ is the $i^{th}$ row of the optimal tableau.
+ * Calculating the range of values for the right-hand side parameters ($b_i$) using the formula: \Delta b_i = $$\frac{\bar{x}_i}{\bar{a}_{i \cdot}} where $\bar{x}_i$ is the $i^{th}$ slack/surplus variable in the optimal solution, and $\bar{a}_{i \cdot}$ is the $i^{th}$ row of the optimal tableau.$$
 
  * Interpreting the results to understand the sensitivity of the solution to changes in the input parameters.
 
 | Parameter | Formula | Description |
 | --- | --- | --- |
-| $\Delta c_j$ | \frac{z_j - c_j}{\bar{a}_{j \cdot}} | Range of optimality for objective function coefficient $c_j$ |
-| $\Delta b_i$ | \frac{\bar{x}_i}{\bar{a}_{i \cdot}} | Range of values for right-hand side parameter $b_i$ |
+| $\Delta c_j$ | $$\frac{z_j - c_j}{\bar{a}_{j \cdot}} | Range of optimality for objective function coefficient $c_j$ |$$
+| $\Delta b_i$ | $$\frac{\bar{x}_i}{\bar{a}_{i \cdot}} | Range of values for right-hand side parameter $b_i$ |$$
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
@@ -323,7 +320,7 @@ P = 20(\frac{140}{3}) + 30(\frac{80}{3})P = \frac{2800}{3} + \frac{2400}{3}P = \
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- $\Delta x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$ is not directly used, but $x = \frac{-b}{2a}$ is crucial for vertex form in Linear Programming.
+- $\Delta x = $$\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$ is not directly used, but $x = \frac{-b}{2a}$ is crucial for vertex form in Linear Programming.$$
 
  - The feasible region is a $convexset$, meaning it contains all line segments connecting any two points in the region.
 
@@ -352,14 +349,9 @@ abla f(x) = c$ is used to determine the direction of the objective function.
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What is the main goal of linear programming?**
-
--
 A) To minimize cost
--
 B) To maximize profit
--
 C) To minimize resources
--
 D) To maximize time
 
 **Answer:** B) The main goal of linear programming is to maximize or minimize a linear objective function, often representing profit or cost.
@@ -367,14 +359,9 @@ D) To maximize time
 ---
 
 **2. Which of the following is a characteristic of a linear programming problem?**
-
--
 A) Non-linear objective function
--
 B) Single constraint
--
 C) Multiple decision variables
--
 D) All of the above
 
 **Answer:** C) Linear programming problems typically involve multiple decision variables and linear constraints.
@@ -382,14 +369,9 @@ D) All of the above
 ---
 
 **3. What is the feasible region in linear programming?**
-
--
 A) The region where all constraints are violated
--
 B) The region where all constraints are satisfied
--
 C) The region where the objective function is maximized
--
 D) The region where the objective function is minimized
 
 **Answer:** B) The feasible region is the set of all possible solutions that satisfy all the constraints of the linear programming problem.
@@ -397,14 +379,9 @@ D) The region where the objective function is minimized
 ---
 
 **4. Which method is commonly used to solve linear programming problems?**
-
--
 A) Graphical method
--
 B) Simplex method
--
 C) Dual simplex method
--
 D) All of the above
 
 **Answer:** D) The graphical method, simplex method, and dual simplex method are all used to solve linear programming problems, depending on the size and complexity of the problem.
@@ -412,16 +389,11 @@ D) All of the above
 ---
 
 **5. What is the purpose of the objective function in linear programming?**
-
--
 A) To define the constraints
--
 B) To determine the feasible region
--
 C) To evaluate the optimality of a
 
 solution
--
 D) To specify the direction of optimization
 
 **Answer:** D) The objective function specifies the direction of optimization, whether it is to maximize or minimize a particular quantity.

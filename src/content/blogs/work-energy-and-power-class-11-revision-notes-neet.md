@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/work-energy-and-power-class-11-revision-notes-neet"
 ---
 
-
-![Work Energy And Power Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog-images/work-energy-and-power-class-11-revision-notes-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -46,7 +43,7 @@ practice_link: "/class-11/biology/work-energy-and-power-class-11-revision-notes-
 
 ## <a id="what-is-work-energy-and-power-revision-notes"></a>What is Work Energy And Power Revision Notes?
 
-# Work Energy And Power Revision Notes
+
 
 
 

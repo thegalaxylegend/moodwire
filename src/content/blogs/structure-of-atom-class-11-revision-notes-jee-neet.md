@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/structure-of-atom-class-11-revision-notes-jee-neet"
 ---
 
-
-![Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/structure-of-atom-class-11-revision-notes-jee-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -52,7 +49,7 @@ practice_link: "/class-11/physics/structure-of-atom-class-11-revision-notes-jee-
 
 ## <a id="what-is-structure-of-atom-revision-notes"></a>What is Structure Of Atom Revision Notes?
 
-# Structure Of Atom Revision Notes
+
 
 
 
@@ -116,7 +113,7 @@ Most students treat this chapter as a bunch of formulas to memorize. I did the s
 
 ### <a id="core-postulates"></a>Core Postulates
 1. Electrons orbit in circular paths without radiating energy.
-2. Only orbits where angular momentum ($L$) is an integral multiple of $h/2\pi$ are allowed: $mvr = \frac{nh}{2\pi}$.
+2. Only orbits where angular momentum ($L$) is an integral multiple of $h/2\pi$ are allowed: $mvr = $$\frac{nh}{2\pi}$.$$
 
 ### <a id="the-formulas-you-must-memorize"></a>The Formulas You MUST Memorize
 - **Radius ($r_n$):** $r_n = 0.529 \frac{n^2}{Z} \text{ \AA}$
@@ -140,10 +137,10 @@ Most students treat this chapter as a bunch of formulas to memorize. I did the s
 
 ### <a id="rydberg-formula"></a>Rydberg Formula
 
-\frac{1}{\lambda} = R_Z^2 \left[ \frac{1}{n_1^2} - \frac{1}{n_2^2} \right]
+$$\frac{1}{\lambda} = R_Z^2 \left[ \frac{1}{n_1^2} - \frac{1}{n_2^2} \right]$$
 
 
-Where $R = 109677 \text{ cm}^{-1}$ (or roughly $1.1 \times 10^7 \text{ m}^{-1}$).
+Where $R = 109677 $$\text{ cm}^{-1}$ (or roughly $1.1 \times 10^7 \text{ m}^{-1}$).$$
 
 ### <a id="spectral-series-table"></a>Spectral Series Table
 | Series | $n_1$ | $n_2$ | Region |
@@ -168,12 +165,12 @@ Where $R = 109677 \text{ cm}^{-1}$ (or roughly $1.1 \times 10^7 \text{ m}^{-1}$)
 **The Dual Nature of [matter](/blog/states-of-matter-class-11-revision-notes-jee-neet) describes how every moving particle, from a cricket ball to an electron, exhibits both wave-like and particle-like properties.**
 
 
-\lambda = \frac{h}{mv} = \frac{h}{p}
+\lambda = $$\frac{h}{mv} = \frac{h}{p}$$
 
 
 
 For a microscopic electron, $\lambda$ is significant ($\sim$ atomic dimensions), but for a macroscopic ball, $\lambda$ is $10^{-34}$ m, making its wave nature undetectable.
-- **JEE Trick**: If kinetic energy ($K$) is given, $\lambda = \frac{h}{\sqrt{2mK}}$.
+- **JEE Trick**: If kinetic energy ($K$) is given, $\lambda = \frac{h}$\sqrt{2mK$}$.
 
 ---
 
@@ -187,7 +184,7 @@ For a microscopic electron, $\lambda$ is significant ($\sim$ atomic dimensions),
 **Heisenberg's Uncertainty Principle states that it is impossible to simultaneously measure the exact position ($\Delta x$) and exact momentum ($\Delta p$) of a subatomic particle with absolute precision.**
 
 
-\Delta x \cdot \Delta p \geq \frac{h}{4\pi}
+\Delta x \cdot \Delta p \geq $$\frac{h}{4\pi}$$
 
 
 
@@ -341,32 +338,32 @@ For an orbital with quantum numbers $n$ and $l$:
 **MCQs (Multiple Choice Questions) are a testing format where you must identify the single correct option from a provided list.**
 
 **Q1. The number of radial nodes in a $4d$ orbital is:** [JEE Easy]  
-A) 1  
-B) 2  
-C) 3  
-D) 0  
+A) 1
+B) 2
+C) 3
+D) 0
 *Answer: A (Radial Nodes = $n-l-1 = 4-2-1 = 1$).*
 
 **Q2. Which set of quantum numbers is NOT possible?** [JEE Medium]  
-A) $n=3, l=2, m_l=0, m_s=+1/2$  
-B) $n=2, l=2, m_l=1, m_s=-1/2$  
-C) $n=4, l=0, m_l=0, m_s=+1/2$  
-D) $n=3, l=1, m_l=-1, m_s=-1/2$  
+A) $n=3, l=2, m_l=0, m_s=+1/2$
+B) $n=2, l=2, m_l=1, m_s=-1/2$
+C) $n=4, l=0, m_l=0, m_s=+1/2$
+D) $n=3, l=1, m_l=-1, m_s=-1/2$
 *Answer: B (If $n=2$, $l$ can only be 0 or 1. $l$ can never equal $n$).*
 
 **Q3. Velocity of an electron in 2nd orbit of $H$ is $V$. Its velocity in 3rd orbit of $He^+$ will be:** [JEE Hard]  
-A) $V/3$  
-B) $4V/3$  
-C) $2V/3$  
-D) $3V/2$  
+A) $V/3$
+B) $4V/3$
+C) $2V/3$
+D) $3V/2$
 *Answer: B ($V \propto Z/n$. For $H$, $V_H \propto 1/2$. For $He^+$, $V_{He} \propto 2/3$. Ratio: $\frac{2/3}{1/2} = 4/3$).*
 
 **Q4. The wavelength of a macroscopic object (1 kg) moving at 1 m/s is:** [NEET Easy]  
-A) $6.6 \times 10^{-34} \text{ m}$  
-B) $6.6 \times 10^{-31} \text{ m}$  
-C) $6.6 \times 10^{-37} \text{ m}$  
-D) Undefinable  
-*Answer: A ($\lambda = h/mv = (6.6 \times 10^{-34}) / (1 \times 1) = 6.6 \times 10^{-34} \text{ m}$).*
+A) $6.6 \times 10^{-34} $$\text{ m}$$$
+B) $6.6 \times 10^{-31} $$\text{ m}$$$
+C) $6.6 \times 10^{-37} $$\text{ m}$$$
+D) Undefinable
+*Answer: A ($\lambda = h/mv = (6.6 \times 10^{-34}) / (1 \times 1) = 6.6 \times 10^{-34} $$\text{ m}$).*$$
 
 ---
 

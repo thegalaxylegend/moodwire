@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/mathematics/conic-sections-class-11-revision-notes-jee"
 ---
 
-
-![Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog-images/conic-sections-class-11-revision-notes-jee.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -41,7 +38,7 @@ practice_link: "/class-11/mathematics/conic-sections-class-11-revision-notes-jee
 
 ## <a id="what-is-conic-sections-revision-notes"></a>What is Conic Sections Revision Notes?
 
-# Conic Sections Revision Notes
+
 
 
 

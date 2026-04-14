@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/mathematics/permutations-combinations-class-11-revision-notes-jee"
 ---
 
-
-![Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog-images/permutations-combinations-class-11-revision-notes-jee.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -38,7 +35,7 @@ practice_link: "/class-11/mathematics/permutations-combinations-class-11-revisio
 
 ## <a id="what-is-permutations-combinations-revision-notes"></a>What is Permutations Combinations Revision Notes?
 
-# Permutations Combinations Revision Notes
+
 
 
 

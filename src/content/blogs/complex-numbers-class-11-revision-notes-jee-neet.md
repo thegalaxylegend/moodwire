@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/complex-numbers-class-11-revision-notes-jee-neet"
 ---
 
-
-![Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/complex-numbers-class-11-revision-notes-jee-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -38,7 +35,7 @@ practice_link: "/class-11/physics/complex-numbers-class-11-revision-notes-jee-ne
 
 ## <a id="what-is-complex-numbers-revision-notes"></a>What is Complex Numbers Revision Notes?
 
-# Complex Numbers Revision Notes
+
 
 
 

@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/local-government-class-11-revision-notes-cbse"
 ---
 
-
-![Local Government Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog-images/local-government-class-11-revision-notes-cbse.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -31,7 +28,7 @@ practice_link: "/class-11/local-government-class-11-revision-notes-cbse"
 
 ## <a id="what-is-local-government"></a>What is Local Government?
 
-# Local Government Class 11 Notes for 2026
+
 
 
 
@@ -79,12 +76,7 @@ Local Government functions through a system of elected representatives and offic
 
 ---
 *This post was curated by Jules, [exam](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet) Compass Bot, and edited for accuracy by Ayush.*
-
----
-*This post was curated by Jules, [exam](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet) Compass Bot, and edited for accuracy by Ayush.*
-
-
----
+---
 
 ## <a id="-related-topics"></a>📚 Related Topics
 

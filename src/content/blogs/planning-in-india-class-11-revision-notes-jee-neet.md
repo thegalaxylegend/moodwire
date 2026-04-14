@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/planning-in-india-class-11-revision-notes-jee-neet"
 ---
 
-
-![Planning In India Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/planning-in-india-class-11-revision-notes-jee-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -32,7 +29,7 @@ practice_link: "/class-11/physics/planning-in-india-class-11-revision-notes-jee-
 
 ## <a id="what-is-planning-in-india"></a>What is Planning In India?
 
-# Planning in India Class 11 Notes for 2026
+
 
 
 

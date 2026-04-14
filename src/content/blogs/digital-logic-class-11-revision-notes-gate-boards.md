@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/digital-logic-class-11-revision-notes-gate-boards"
 ---
 
-
-![Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog-images/digital-logic-class-11-revision-notes-gate-boards.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -61,9 +58,9 @@ By mastering Digital Logic, we can unlock the secrets of the digital world and d
 
 The formula for the $n$-bit binary counter is:
 
-\begin{aligned}
+$$\begin{aligned}$$
 Count &= 2^n - 1 \\
-\end{aligned}
+$$\end{aligned}$$
 
 This formula illustrates the exponential relationship between the number of binary digits and the maximum count value. 
 
@@ -75,9 +72,9 @@ The $n$-bit binary counter is a classic example of how Digital Logic can be used
 
 To illustrate the concept of logic gates, consider the following example:
 
-\begin{aligned}
+$$\begin{aligned}$$
 A \cdot B &= Y \\
-\end{aligned}
+$$\end{aligned}$$
 
 This equation represents the $AND$ gate, which produces an output of $1$ only when both inputs are $1$. 
 
@@ -89,9 +86,9 @@ The study of Digital Logic is a fascinating journey that will challenge our thin
 
 The formula for the $OR$ gate is:
 
-\begin{aligned}
+$$\begin{aligned}$$
 A + B &= Y \\
-\end{aligned}
+$$\end{aligned}$$
 
 This equation represents the $OR$ gate, which produces an output of $1$ when either input is $1$. 
 
@@ -111,9 +108,9 @@ By focusing on the underlying principles of Digital Logic, we can build a strong
 
 The formula for the $NOT$ gate is:
 
-\begin{aligned}
+$$\begin{aligned}$$
 \overline{A} &= Y \\
-\end{aligned}
+$$\end{aligned}$$
 
 This equation represents the $NOT$ gate, which produces an output of $1$ when the input is $0$. 
 
@@ -133,9 +130,9 @@ By focusing on the underlying principles of Digital Logic, we can build a strong
 
 The formula for the $NAND$ gate is:
 
-\begin{aligned}
+$$\begin{aligned}$$
 \overline{A \cdot B} &= Y \\
-\end{aligned}
+$$\end{aligned}$$
 
 This equation represents the $NAND$ gate, which produces an output of $1$ when either input is $0$. 
 
@@ -155,9 +152,9 @@ By focusing on the underlying principles of Digital Logic, we can build a strong
 
 The formula for the $NOR$ gate is:
 
-\begin{aligned}
+$$\begin{aligned}$$
 \overline{A + B} &= Y \\
-\end{aligned}
+$$\end{aligned}$$
 
 This equation represents the $NOR$ gate, which produces an output of $1$ when both inputs are $0$. 
 
@@ -177,9 +174,9 @@ By focusing on the underlying principles of Digital Logic, we can build a strong
 
 The formula for the $XOR$ gate is:
 
-\begin{aligned}
+$$\begin{aligned}$$
 A \oplus B &= Y \\
-\end{aligned}
+$$\end{aligned}$$
 
 This equation represents the $XOR$ gate, which produces an output of $1$ when the inputs are different. 
 
@@ -199,9 +196,9 @@ By focusing on the underlying principles of Digital Logic, we can build a strong
 
 The formula for the $XNOR$ gate is:
 
-\begin{aligned}
+$$\begin{aligned}$$
 \overline{A \oplus B} &= Y \\
-\end{aligned}
+$$\end{aligned}$$
 
 This equation represents the $XNOR$ gate, which produces an output of $1$ when the inputs are the same. 
 
@@ -221,9 +218,9 @@ By focusing on the underlying principles of Digital Logic, we can build a strong
 
 The formula for the $BUF$ gate is:
 
-\begin{aligned}
+$$\begin{aligned}$$
 A &= Y \\
-\end{aligned}
+$$\end{aligned}$$
 
 This equation represents the $BUF$ gate, which produces an output that is the same as the input. 
 

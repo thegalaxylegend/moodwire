@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/medieval-india-bhakti-sufi-class-11-revision-notes-cbse"
 ---
 
-
-![Medieval India Bhakti Sufi Class 11 History Recap — CBSE 2026 Quick Guide](/blog-images/medieval-india-bhakti-sufi-class-11-revision-notes-cbse.webp)
-
 *Last Updated: 2026-03-28*
 
 

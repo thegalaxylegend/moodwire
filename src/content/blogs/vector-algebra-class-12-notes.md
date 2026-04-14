@@ -7,9 +7,6 @@ date: "2026-04-02"
 practice_link: "/class-11/mathematics/vector-algebra-class-12-notes"
 ---
 
-
-![Vector Algebra Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog-images/vector-algebra-class-12-notes.webp)
-
 *Last Updated: 2026-04-02*
 
 ## 📋 Table of Contents
@@ -58,15 +55,15 @@ practice_link: "/class-11/mathematics/vector-algebra-class-12-notes"
 
  - **Triple Product (Vector):** \vec{a} \times (\vec{b} \times \vec{c}) = \vec{b}(\vec{a} \cdot \vec{c}) - \vec{c}(\vec{a} \cdot \vec{b}) — \vec{a}, \vec{b}, \vec{c} are vectors.
 
-- **Projection of \vec{a} onto \vec{b}:** \text{proj}_{\vec{b}}\vec{a} = \frac{\vec{a} \cdot \vec{b}}{||\vec{b}||^2} \vec{b} — \vec{a} and \vec{b} are vectors.
+- **Projection of \vec{a} onto \vec{b}:** $$\text{proj}_{\vec{b}}\vec{a} = \frac{\vec{a} \cdot \vec{b}}{||\vec{b}||^2} \vec{b} — \vec{a} and \vec{b} are vectors.$$
 
 - **Perpendicular Distance from a Point to a Line:** d = \frac{||\vec{b} \times \vec{a}||}{||\vec{b}||} — \vec{a} is a vector from a point on the line to the external point, \vec{b} is a vector along the line.
 
-- **Angle Between Two Vectors:** \cos{\theta} = \frac{\vec{a} \cdot \vec{b}}{||\vec{a}|| \cdot ||\vec{b}||} — \vec{a} and \vec{b} are vectors, \theta is the angle between them.
+- **Angle Between Two Vectors:** $$\cos{\theta} = \frac{\vec{a} \cdot \vec{b}}{||\vec{a}|| \cdot ||\vec{b}||} — \vec{a} and \vec{b} are vectors, \theta is the angle between them.$$
 
 - **Perpendicular Distance from a Point to a Line:** d = \frac{||\vec{b} \times \vec{a}||}{||\vec{b}||} — \vec{a} is a vector from a point on the line to the external point, \vec{b} is a vector along the line.
 
-- **Angle Between Two Vectors:** \cos{\theta} = \frac{\vec{a} \cdot \vec{b}}{||\vec{a}|| \cdot ||\vec{b}||} — \vec{a} and \vec{b} are vectors, \theta is the angle between them.
+- **Angle Between Two Vectors:** $$\cos{\theta} = \frac{\vec{a} \cdot \vec{b}}{||\vec{a}|| \cdot ||\vec{b}||} — \vec{a} and \vec{b} are vectors, \theta is the angle between them.$$
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -82,7 +79,7 @@ practice_link: "/class-11/mathematics/vector-algebra-class-12-notes"
 
  - *Fix:* Remember that the dot product of two vectors $\vec{a}$ and $\vec{b}$ is given by $\vec{a} \cdot \vec{b} = \| \vec{a} \| \| \vec{b} \| \cos(\theta)$, where $\theta$ is the angle between the vectors, and the cross product is given by \vec{a} \times \vec{b} =
 
-\begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \ a_1 & a_2 & a_3 \ b_1 & b_2 & b_3 \end{vmatrix}
+$$\begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \ a_1 & a_2 & a_3 \ b_1 & b_2 & b_3 \end{vmatrix}$$
 
 .
 
@@ -116,7 +113,7 @@ practice_link: "/class-11/mathematics/vector-algebra-class-12-notes"
 
  
 
-\text{Projection of } \vec{a} \text{ on } \vec{b} = \frac{\vec{a} \cdot \vec{b}}{|\vec{b}|}
+$$\text{Projection of } \vec{a} \text{ on } \vec{b} = \frac{\vec{a} \cdot \vec{b}}{|\vec{b}|}$$
 
  Calculating $\vec{a} \cdot \vec{b}$:
 
@@ -130,15 +127,15 @@ practice_link: "/class-11/mathematics/vector-algebra-class-12-notes"
 
  
 
-|\vec{b}| = \sqrt{(1)^2 + (-1)^2 + (1)^2} = \sqrt{3}
+|\vec{b}| = $$\sqrt{(1)^2 + (-1)^2 + (1)^2} = \sqrt{3}$$
 
  Thus, the projection of $\vec{a}$ on $\vec{b}$ is:
 
  
 
-\text{Projection of } \vec{a} \text{ on } \vec{b} = \frac{1}{\sqrt{3}}
+$$\text{Projection of } \vec{a} \text{ on } \vec{b} = \frac{1}$\sqrt{3$}$$
 
- - **Answer:** $\frac{1}{\sqrt{3}}$
+ - **Answer:** $\frac{1}$\sqrt{3$}$
 
  - **Q2:** Find the angle $\theta$ between two vectors $\vec{a} = 2\hat{i} - \hat{j} + \hat{k}$ and $\vec{b} = \hat{i} + 2\hat{j} - \hat{k}$.
 
@@ -150,7 +147,7 @@ practice_link: "/class-11/mathematics/vector-algebra-class-12-notes"
 
  
 
-\cos{\theta} = \frac{\vec{a} \cdot \vec{b}}{|\vec{a}| |\vec{b}|}
+$$\cos{\theta} = \frac{\vec{a} \cdot \vec{b}}{|\vec{a}| |\vec{b}|}$$
 
  Calculating $\vec{a} \cdot \vec{b}$:
 
@@ -164,17 +161,17 @@ practice_link: "/class-11/mathematics/vector-algebra-class-12-notes"
 
  
 
-|\vec{a}| = \sqrt{(2)^2 + (-1)^2 + (1)^2} = \sqrt{6}
+|\vec{a}| = $$\sqrt{(2)^2 + (-1)^2 + (1)^2} = \sqrt{6}$$
 
-|\vec{b}| = \sqrt{(1)^2 + (2)^2 + (-1)^2} = \sqrt{6}
+|\vec{b}| = $$\sqrt{(1)^2 + (2)^2 + (-1)^2} = \sqrt{6}$$
 
  Thus, $\cos{\theta}$ is:
 
  
 
-\cos{\theta} = \frac{-1}{\sqrt{6} \times \sqrt{6}} = \frac{-1}{6}
+$$\cos{\theta} = \frac{-1}$\sqrt{6$ \times \sqrt{6}} = \frac{-1}{6}$$
 
-\theta = \cos^{-1}\left(\frac{-1}{6}\right)
+\theta = \cos^{-1}\left($$\frac{-1}{6}\right)$$
 
  - **Answer:** $\cos^{-1}\left(\frac{-1}{6}\right)$
 
@@ -225,13 +222,13 @@ practice_link: "/class-11/mathematics/vector-algebra-class-12-notes"
 
 | Vector Operation | Formula | Description |
 | --- | --- | --- |
-| Cross Product | $\vec{a} \times \vec{b} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \ a_1 & a_2 & a_3 \ b_1 & b_2 & b_3 \end{vmatrix}$ | Results in a vector orthogonal to both $\vec{a}$ and $\vec{b}$ |
+| Cross Product | $\vec{a} \times \vec{b} = $$\begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \ a_1 & a_2 & a_3 \ b_1 & b_2 & b_3 \end{vmatrix}$ | Results in a vector orthogonal to both $\vec{a}$ and $\vec{b}$ |$$
 | Dot Product | $\vec{a} \cdot \vec{b} = a_1b_1 + a_2b_2 + a_3b_3$ | Results in a scalar representing the amount of 'similarity' between $\vec{a}$ and $\vec{b}$ |
-| Scalar Triple Product | $\vec{a} \cdot (\vec{b} \times \vec{c}) = \begin{vmatrix} a_1 & a_2 & a_3 \ b_1 & b_2 & b_3 \ c_1 & c_2 & c_3 \end{vmatrix}$ | Gives the volume of the parallelepiped formed by $\vec{a}$, $\vec{b}$, and $\vec{c}$ |
+| Scalar Triple Product | $\vec{a} \cdot (\vec{b} \times \vec{c}) = $$\begin{vmatrix} a_1 & a_2 & a_3 \ b_1 & b_2 & b_3 \ c_1 & c_2 & c_3 \end{vmatrix}$ | Gives the volume of the parallelepiped formed by $\vec{a}$, $\vec{b}$, and $\vec{c}$ |$$
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- $\vec{a} \times \vec{b} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \| \vec{a} \| \cos \theta \| \vec{b} \| \end{vmatrix}$ 
+- $\vec{a} \times \vec{b} = $$\begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \| \vec{a} \| \cos \theta \| \vec{b} \| \end{vmatrix}$$$
 
  - $\vec{a} \cdot \vec{b} = \| \vec{a} \| \| \vec{b} \| \cos \theta$
 
@@ -258,14 +255,9 @@ practice_link: "/class-11/mathematics/vector-algebra-class-12-notes"
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. If the vectors a = 2i + 3j - k and b = -i + 2j + 3k, then the scalar triple product [a b c] where c = i + j + k is**
-
--
 A) -10
--
 B) 10
--
 C) 5
--
 D) 0
 
 **Answer:** A) The scalar triple product [a b c] = a . (b x c) = (2i + 3j - k) . ((-i + 2j + 3k) x (i + j + k)) = (2i + 3j - k) . (2j - 5k - i) = -2 - 15 - 5 = -22, however the closest answer is -10
@@ -273,14 +265,9 @@ D) 0
 ---
 
 **2. The angle between the vectors a = i + j and b = -i + j is**
-
--
 A) 45°
--
 B) 90°
--
 C) 120°
--
 D) 135°
 
 **Answer:** C) The dot product of two vectors a and b is given by a . b = |a||b|cosθ. So, cosθ = (a . b) / (|a||b|) = ((i + j) . (-i + j)) / (√2 * √2) = (1 - 1) / 2 = 0, hence θ = 90°, but the closest answer is 120° due to the [nature](/blog/dual-nature-of-radiation-class-12-notes) of cosine function and the quadrant the angle lies in
@@ -288,14 +275,9 @@ D) 135°
 ---
 
 **3. If |a| = 5, |b| = 3 and |a + b| = 7, then the value of |a - b| is**
-
--
 A) 1
--
 B) 3
--
 C) 5
--
 D) 7
 
 **Answer:** B) We know |a + b|^2 + |a - b|^2 = 2(|a|^2 + |b|^2), so |a - b|^2 = 2(5^2 + 3^2) - 7^2 = 2(25 + 9) - 49 = 50 - 49 = 1, hence |a - b| = √1 = 1
@@ -303,14 +285,9 @@ D) 7
 ---
 
 **4. The vector which is equally inclined to the vectors a = i + j + k, b = 2i - j + k, and c = i + j - 2k at P(1, 1, 1) is**
-
--
 A) i + j + k
--
 B) 2i - j + k
--
 C) i + j - 2k
--
 D) i - j - k
 
 **Answer:** D) Let the required vector be v. Since it is equally inclined to a, b, c, we have |v x a| = |v x b| = |v x c|. After solving these equations, the required vector v is i - j - k
@@ -318,14 +295,9 @@ D) i - j - k
 ---
 
 **5. If a, b, c are three non-zero vectors such that a . b = 1, b . c = 2, c . a = 3, then the value of [a b c] is**
-
--
 A) -1
--
 B) 0
--
 C) 1
--
 D) 2
 
 **Answer:** B) [a b c] = a . (b x c) = (a x b) . c. We can use the identity a . (b x c) = b . (c x a) = c . (a x b) and the expansion of (a + b + c)^2 to show [a b c] = 0

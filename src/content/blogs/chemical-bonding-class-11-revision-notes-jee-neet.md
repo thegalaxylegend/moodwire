@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/chemical-bonding-class-11-revision-notes-jee-neet"
 ---
 
-
-![Chemical Bonding Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/chemical-bonding-class-11-revision-notes-jee-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -58,7 +55,7 @@ practice_link: "/class-11/physics/chemical-bonding-class-11-revision-notes-jee-n
 
 ## <a id="what-is-chemical-bonding"></a>What is Chemical Bonding?
 
-# Chemical Bonding Class 11 Notes
+
 
 
 
@@ -176,7 +173,7 @@ The core principle is simple: Electron pairs (both bond pairs and lone pairs) ha
 Instead of drawing structures, use my "Go-To" **Steric Number (H) formula**:
 
 
-H = \frac{1}{2} [V + M - C + A]
+H = $$\frac{1}{2} [V + M - C + A]$$
 
 
 
@@ -235,7 +232,8 @@ Covalent character increases when the cation is small and highly charged, or whe
 **Dipole Moment ($\mu$) is a vector quantity representing the separation of charge in a molecule ($\mu = q \times d$).**
 
 - Symmetrical molecules ($CCl_4$) $\rightarrow \mu = 0$.
-- Unsymmetrical molecules ($CHCl_3$) $\rightarrow \mu \neq 0$.
+- Unsymmetrical molecules ($CHCl_3$) $\rightarrow \mu 
+eq 0$.
 - **$NH_3$ vs. $NF_3$**: $NH_3$ has a much higher dipole moment because the lone pair and bond pair dipoles reinforce each other. In $NF_3$, the F atoms pull electrons away from the N, opposing the lone pair dipole.
 
 ---
@@ -396,24 +394,24 @@ This "sea" explains why metals are conductive, malleable, and have high thermal 
 **MCQs (Multiple Choice Questions) are a testing format where you must identify the single correct option from a provided list.**
 
 **Q1. Which has the highest bond order?** [JEE Medium]   
-A) $N_2$ (BO=3.0)  
-B) $N_2^+$ (BO=2.5)  
-C) $O_2^+$ (BO=2.5)  
-D) $CN^-$ (BO=3.0)  
+A) $N_2$ (BO=3.0)
+B) $N_2^+$ (BO=2.5)
+C) $O_2^+$ (BO=2.5)
+D) $CN^-$ (BO=3.0)
 *Answer: Both A and D have BO=3.0.*
 
 **Q2. Shape of $XeF_4$?** [JEE Easy]  
-A) Octahedral  
-B) Square Planar  
-C) Square Pyramidal  
-D) Tetrahedral  
+A) Octahedral
+B) Square Planar
+C) Square Pyramidal
+D) Tetrahedral
 *Answer: B (Steric Number = 6, with 2 lone pairs).*
 
 **Q3. Predict the magnetic behavior of $C_2$.** [JEE Hard]  
-A) Paramagnetic  
-B) Diamagnetic  
-C) Ferromagnetic  
-D) Non-magnetic  
+A) Paramagnetic
+B) Diamagnetic
+C) Ferromagnetic
+D) Non-magnetic
 *Answer: B (In $C_2$, all 8 valence electrons are paired in bonding orbitals).*
 
 **Q4. Order of bond length: $O_2, O_2^+, O_2^-$.** [NEET Medium]  

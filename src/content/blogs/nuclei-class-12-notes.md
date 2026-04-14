@@ -7,9 +7,6 @@ date: "2026-03-29"
 practice_link: "/class-11/physics/nuclei-class-12-notes"
 ---
 
-
-![Nuclei Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/nuclei-class-12-notes.webp)
-
 *Last Updated: 2026-03-29*
 
 ## 📋 Table of Contents
@@ -42,12 +39,12 @@ practice_link: "/class-11/physics/nuclei-class-12-notes"
 
 | E = \Delta mc^2 | E: Energy, \Delta m: Mass defect, c: Speed of light |
 
-| \lambda = \frac{h}{m v} | \lambda: De Broglie wavelength, h: Planck's constant, m: Mass, v: Velocity |
+| \lambda = $$\frac{h}{m v} | \lambda: De Broglie wavelength, h: Planck's constant, m: Mass, v: Velocity |$$
 
-| R = R_0 A^{\frac{1}{3}} | R: Nuclear radius, $R_0$: Constant, A: Mass number |
-| E_{binding} = \frac{3}{5} \frac{3 Z^2 e^2}{4 \pi \epsilon_0 R} | $E_{binding}$: Binding energy, Z: Atomic number, e: Charge, $\epsilon_0$: Permittivity |
-| \frac{N}{N_0} = e^{-\lambda t} | N: Number of nuclei, $N_0$: Initial number, \lambda: Decay constant, t: Time |
-| T_{\frac{1}{2}} = \frac{0.693}{\lambda} | $T_{\frac{1}{2}}$: Half-life, \lambda: Decay constant |
+| R = R_0 A^{$$\frac{1}{3}} | R: Nuclear radius, $R_0$: Constant, A: Mass number |$$
+| E_{binding} = $$\frac{3}{5} \frac{3 Z^2 e^2}{4 \pi \epsilon_0 R} | $E_{binding}$: Binding energy, Z: Atomic number, e: Charge, $\epsilon_0$: Permittivity |$$
+| $$\frac{N}{N_0} = e^{-\lambda t} | N: Number of nuclei, $N_0$: Initial number, \lambda: Decay constant, t: Time |$$
+| T_{$$\frac{1}{2}} = \frac{0.693}{\lambda} | $T_$\frac{1${2}}$: Half-life, \lambda: Decay constant |$$
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -64,7 +61,7 @@ When solving problems related to nuclei, watch out for these common mistakes:
  Mistake: Calculating the binding energy per nucleon $B.E./A$ without using $B.E. = (\Delta m) \times c^2$, 
  Costs: 4 marks, 
  Fix: Calculate $\Delta m$ first then apply $B.E. = (\Delta m) \times c^2$. 
- Mistake: Not considering the units when using $R = 1.2 \times 10^{-15}m \times A^{\frac{1}{3}}$ to calculate nuclear radius, 
+ Mistake: Not considering the units when using $R = 1.2 \times 10^{-15}m \times A^{$$\frac{1}{3}}$ to calculate nuclear radius,$$
  Costs: 2 marks, 
  Fix: Ensure the units are in meters.
 
@@ -78,25 +75,22 @@ When solving problems related to nuclei, watch out for these common mistakes:
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
-Q: The activity of a radioactive substance is $2.0 \times 10^{-6}$ curie. If its half-life is $3.5 \times 10^{9}$ years, then the number of atoms in the sample is $[\lambda = \frac{0.693}{T_{1/2}}]$. 
+Q: The activity of a radioactive substance is $2.0 \times 10^{-6}$ curie. If its half-life is $3.5 \times 10^{9}$ years, then the number of atoms in the sample is $[\lambda = $$\frac{0.693}{T_{1/2}}]$.$$
  Trap in this question: Students often get confused between the units of activity and the process to find the number of [atoms](/blog/atoms-class-12-notes).
  Solution: 
  $A = \lambda N$, 
  where $A$ is the activity, $\lambda$ is the decay constant, and $N$ is the number of atoms. 
  Given that $A = 2.0 \times 10^{-6}$ curie and $T_{1/2} = 3.5 \times 10^{9}$ years, 
- $\lambda = \frac{0.693}{T_{1/2}} = \frac{0.693}{3.5 \times 10^{9} \times 365 \times 24 \times 60 \times 60}$, 
- $\lambda = \frac{0.693}{3.5 \times 10^{9} \times 3.15 \times 10^{7}} = \frac{0.693}{1.10 \times 10^{17}}$,
- $\lambda = 6.3 \times 10^{-18}$ per second, 
- $N = \frac{A}{\lambda} = \frac{2.0 \times 10^{-6} \times 3.7 \times 10^{10}}{6.3 \times 10^{-18}}$,
- $N = \frac{7.4 \times 10^{4}}{6.3 \times 10^{-18}} = 1.17 \times 10^{22}$ atoms.
+ $\lambda = $$\frac{0.693}{T_{1/2}} = \frac{0.693}{3.5 \times 10^{9} \times 365 \times 24 \times 60 \times 60}$,$\lambda = $$\frac{0.693}{3.5 \times 10^{9} \times 3.15 \times 10^{7}} = \frac{0.693}{1.10 \times 10^{17}}$,$\lambda = 6.3 \times 10^{-18}$ per second, 
+ $N = $$\frac{A}{\lambda} = \frac{2.0 \times 10^{-6} \times 3.7 \times 10^{10}}{6.3 \times 10^{-18}}$,$N = $$\frac{7.4 \times 10^{4}}{6.3 \times 10^{-18}} = 1.17 \times 10^{22}$ atoms.$$
  Answer: $1.17 \times 10^{22}$ atoms.
  
  Q: The half-life of $^{238}U$ against $\alpha$-decay is $4.5 \times 10^{9}$ years. If the energy released in the decay of one nucleus is $4.15 \times 10^{-12} J$, calculate the total energy released in the decay of all the atoms of $300 g$ of $^{238}U$. 
  Trap in this question: Students often forget to calculate the number of [atoms](/blog/atoms-class-12-notes) from the given mass.
  Solution: 
- $N = \frac{m}{M} \times N_A$,
+ $N = $$\frac{m}{M} \times N_A$,$$
  where $N$ is the number of atoms, $m$ is the mass of the substance, $M$ is the molar mass, and $N_A$ is Avogadro's number.
- $N = \frac{300}{238} \times 6.023 \times 10^{23} = 7.61 \times 10^{23}$ atoms.
+ $N = $$\frac{300}{238} \times 6.023 \times 10^{23} = 7.61 \times 10^{23}$ atoms.$$
  Total energy released $= N \times E$,
  where $E$ is the energy released per nucleus.
  Total energy released $= 7.61 \times 10^{23} \times 4.15 \times 10^{-12} = 3.16 \times 10^{12} J$.
@@ -108,10 +102,9 @@ Q: The activity of a radioactive substance is $2.0 \times 10^{-6}$ curie. If its
  $T_{1/2} = 8$ days,
  $m_0 = 0.5 g$,
  $t = 32$ days.
- Number of half-lives $= \frac{t}{T_{1/2}} = \frac{32}{8} = 4$.
- $m = \frac{m_0}{2^n}$,
+ Number of half-lives $= $$\frac{t}{T_{1/2}} = \frac{32}{8} = 4$.$m = $$\frac{m_0}{2^n}$,$$
  where $n$ is the number of half-lives.
- $m = \frac{0.5}{2^4} = \frac{0.5}{16} = 0.03125 g$.
+ $m = $$\frac{0.5}{2^4} = \frac{0.5}{16} = 0.03125 g$.$$
  Answer: $0.03125 g$.
 
 |  |
@@ -120,7 +113,7 @@ Q: The activity of a radioactive substance is $2.0 \times 10^{-6}$ curie. If its
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
-The key concept that differentiates 85% scorers from 95% scorers in the topic of Nuclei is the understanding of nuclear stability in terms of binding energy per nucleon, given by the equation $\frac{\Delta E}{A}$, where $\Delta E$ is the binding energy and $A$ is the mass number. Most students fail to recognize that a higher binding energy per nucleon $\left(\frac{\Delta E}{A}\right)$ indicates a more stable nucleus. The curve of binding energy per nucleon versus mass number has a peak around iron ($_{26}Fe^{56}$), which is the most stable nucleus. Students often mistakenly assume that the nucleus with the highest binding energy is the most stable, rather than the one with the highest binding energy per nucleon.
+The key concept that differentiates 85% scorers from 95% scorers in the topic of Nuclei is the understanding of nuclear stability in terms of binding energy per nucleon, given by the equation $\frac$\Delta E${A}$, where $\Delta E$ is the binding energy and $A$ is the mass number. Most students fail to recognize that a higher binding energy per nucleon $\left(\frac$\Delta E${A}\right)$ indicates a more stable nucleus. The curve of binding energy per nucleon versus mass number has a peak around iron ($_{26}Fe^{56}$), which is the most stable nucleus. Students often mistakenly assume that the nucleus with the highest binding energy is the most stable, rather than the one with the highest binding energy per nucleon.
 
 | Nucleus | Binding Energy per Nucleon |
 | --- | --- |
@@ -130,7 +123,7 @@ The key concept that differentiates 85% scorers from 95% scorers in the topic of
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-For Nuclei, remember the pattern of $\beta$ decay and its relation to the neutron-proton ratio. The stability curve can be expressed as $Z = \frac{A}{2.24 + 0.0075A^{2/3}}$. Note that for every 10 units of $A$, $\Delta Z$ is approximately 0.35 units, as observed from the last 5 years of PYQs. For nuclei with $A > 20$, the binding energy per nucleon can be calculated using $\frac{\Delta E}{A} = 15.7 - \frac{17.8}{A^{1/3}} - \frac{0.7Z^{2}}{A^{4/3}} + \frac{23.7(Z-2A/5)^{2}}{A^{2}}$
+For Nuclei, remember the pattern of $\beta$ decay and its relation to the neutron-proton ratio. The stability curve can be expressed as $Z = $$\frac{A}{2.24 + 0.0075A^{2/3}}$. Note that for every 10 units of $A$, $\Delta Z$ is approximately 0.35 units, as observed from the last 5 years of PYQs. For nuclei with $A > 20$, the binding energy per nucleon can be calculated using $\frac$\Delta E${A} = 15.7 - \frac{17.8}{A^{1/3}} - \frac{0.7Z^{2}}{A^{4/3}} + \frac{23.7(Z-2A/5)^{2}}{A^{2}}$$$
 
 | Mass Number (A) | Proton Number (Z) | Neutron Number (N) | Stability |
 | --- | --- | --- | --- |
@@ -151,17 +144,17 @@ For Nuclei, remember the pattern of $\beta$ decay and its relation to the neutro
 
 Key Formulas:
  * $E = \Delta mc^2$
- * $\lambda = \frac{h}{p}$
+ * $\lambda = $$\frac{h}{p}$$$
  * $\frac{N}{N_0} = e^{-\lambda t}$
  * $E_{binding} = \Delta mc^2 = (Zm_p + (A-Z)m_n - m_nucleus)c^2$
- * $R = R_0A^{\frac{1}{3}}$
+ * $R = R_0A^{$$\frac{1}{3}}$$$
  Key Facts:
  * Nuclear force is the strongest force in [nature](/blog/dual-nature-of-radiation-class-12-notes)
  * Radioactive decay is a spontaneous process
  * Nuclear reactions release a large amount of energy
  Common Mistakes:
  * Confusing nuclear fission and fusion
- * Forgetting to use $A^{\frac{1}{3}}$ in calculations for nuclear radius
+ * Forgetting to use $A^{$$\frac{1}{3}}$ in calculations for nuclear radius$$
 
 |  |
 |  |

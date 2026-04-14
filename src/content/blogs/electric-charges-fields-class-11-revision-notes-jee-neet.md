@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/electric-charges-fields-class-11-revision-notes-jee-neet"
 ---
 
-
-![Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/electric-charges-fields-class-11-revision-notes-jee-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -51,7 +48,7 @@ practice_link: "/class-11/physics/electric-charges-fields-class-11-revision-note
 
 ## <a id="what-is-electric-charges-fields-revision-notes"></a>What is Electric Charges Fields Revision Notes?
 
-# Electric Charges Fields Revision Notes
+
 
 
 

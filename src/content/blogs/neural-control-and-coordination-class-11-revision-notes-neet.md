@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/neural-control-and-coordination-class-11-revision-notes-neet"
 ---
 
-
-![Neural Control And Coordination Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog-images/neural-control-and-coordination-class-11-revision-notes-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -44,7 +41,7 @@ practice_link: "/class-11/biology/neural-control-and-coordination-class-11-revis
 
 ## <a id="what-is-neural-control-and-coordination"></a>What is Neural Control And Coordination?
 
-# Neural Control and Coordination Class 11 Notes — Exam Compass
+
 
 
 
@@ -120,7 +117,7 @@ By following these tips and thoroughly understanding the concepts of neural cont
 To further enhance your understanding, consider exploring the following LaTeX formatted equation, which represents the basic concept of action potential:
 
 
-\frac{dV}{dt} = -\frac{1}{C_m} \left( g_{Na} (V - V_{Na}) + g_K (V - V_K) + g_L (V - V_L) \right)
+$$\frac{dV}{dt} = -\frac{1}{C_m} \left( g_{Na} (V - V_{Na}) + g_K (V - V_K) + g_L (V - V_L) \right)$$
 
 
 

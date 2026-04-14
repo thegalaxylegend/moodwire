@@ -7,9 +7,6 @@ date: "2026-04-06"
 practice_link: "/class-11/biology/environmental-issues-class-12-notes"
 ---
 
-
-![Environmental Issues Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog-images/environmental-issues-class-12-notes.webp)
-
 *Last Updated: 2026-04-06*
 
 ## 📋 Table of Contents
@@ -71,11 +68,7 @@ practice_link: "/class-11/biology/environmental-issues-class-12-notes"
 
  
 
- \text{SO}_2 + \text{H}_2\text{O} + \text{O}_2 \rightarrow \text{H}_2\text{SO}_4
-
- 
-
- \text{NO}_2 + \text{H}_2\text{O} + \text{O}_2 \rightarrow \text{HNO}_3
+ $$\text{SO}_2 + \text{H}_2\text{O} + \text{O}_2 \rightarrow \text{H}_2\text{SO}_4\text{NO}_2 + \text{H}_2\text{O} + \text{O}_2 \rightarrow \text{HNO}_3$$
 
  
 
@@ -94,7 +87,7 @@ practice_link: "/class-11/biology/environmental-issues-class-12-notes"
 
  
 
- \text{C} + \text{O}_2 \rightarrow \text{CO}_2 + \text{energy}
+ $$\text{C} + \text{O}_2 \rightarrow \text{CO}_2 + \text{energy}$$
 
  
 
@@ -160,15 +153,15 @@ ightleftharpoons CH_4 + 2O_2$, and how this relates to the overall energy balanc
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- $E=\frac{P\times T}{N}$, where $E$ is the environmental impact, $P$ is the population, $T$ is the technology, and $N$ is the natural resources.
+- $E=$$\frac{P\times T}{N}$, where $E$ is the environmental impact, $P$ is the population, $T$ is the technology, and $N$ is the natural resources.$$
 
- - $\Delta S = \frac{Q}{T}$, where $\Delta S$ is the change in entropy, $Q$ is the amount of heat, and $T$ is the temperature in Kelvin.
+ - $\Delta S = $$\frac{Q}{T}$, where $\Delta S$ is the change in entropy, $Q$ is the amount of heat, and $T$ is the temperature in Kelvin.$$
 
  - $pH = -\log_{10}[H^+]$, where $[H^+]$ is the concentration of hydrogen ions.
 
  - $C\times E\times F = P$, where $C$ is the carbon footprint, $E$ is the energy consumption, $F$ is the fuel type, and $P$ is the pollution.
 
- - $R = \frac{I}{O}$, where $R$ is the recycling rate, $I$ is the input of materials, and $O$ is the output of materials.
+ - $R = $$\frac{I}{O}$, where $R$ is the recycling rate, $I$ is the input of materials, and $O$ is the output of materials.$$
 
  - Key fact: The greenhouse effect is a natural process that warms the Earth’s surface, but [human](/blog/human-health-and-disease-class-12-notes) activities have enhanced it, leading to global warming.
 
@@ -183,14 +176,9 @@ ightleftharpoons CH_4 + 2O_2$, and how this relates to the overall energy balanc
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What is the primary cause of ozone layer depletion?**
-
--
 A) Chlorofluorocarbons (CFCs)
--
 B) Carbon dioxide
--
 C) Methane
--
 D) Nitrous oxide
 
 **Answer:** A) Chlorofluorocarbons (CFCs) are the primary cause of ozone layer depletion, as they release chlorine atoms that catalytically destroy ozone molecules.
@@ -198,14 +186,9 @@ D) Nitrous oxide
 ---
 
 **2. Which of the following is NOT a renewable source of energy?**
-
--
 A) Solar energy
--
 B) Wind energy
--
 C) Hydro energy
--
 D) Nuclear energy
 
 **Answer:** D) Nuclear energy is a non-renewable source of energy, as it is generated from finite resources such as uranium.
@@ -213,14 +196,9 @@ D) Nuclear energy
 ---
 
 **3. What is the term for the movement of pollutants from the atmosphere to the soil and water?**
-
--
 A) Acid rain
--
 B) Air pollution
--
 C) Water pollution
--
 D) Atmospheric deposition
 
 **Answer:** D) Atmospheric deposition refers to the movement of pollutants from the atmosphere to the soil and water, which can have harmful effects on the environment.
@@ -228,14 +206,9 @@ D) Atmospheric deposition
 ---
 
 **4. Which of the following pollutants is responsible for photochemical smog?**
-
--
 A) Nitrogen oxides
--
 B) Volatile organic compounds
--
 C) Particulate matter
--
 D) Carbon monoxide
 
 **Answer:** A) Nitrogen oxides are responsible for photochemical smog, as they react with volatile organic compounds in the presence of sunlight to form ground-level ozone and other pollutants.
@@ -243,14 +216,9 @@ D) Carbon monoxide
 ---
 
 **5. What is the term for the reduction of biodiversity in an [ecosystem](/blog/ecosystem-class-12-notes)?**
-
--
 A) Deforestation
--
 B) Habitat fragmentation
--
 C) Species extinction
--
 D) Biological degradation
 
 **Answer:** C) Species extinction refers to the reduction of biodiversity in an [ecosystem](/blog/ecosystem-class-12-notes), as it results in the loss of unique species and the degradation of [ecosystem](/blog/ecosystem-class-12-notes) services.

@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/the-s-block-elements-class-11-revision-notes-jee-neet"
 ---
 
-
-![The S Block Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/the-s-block-elements-class-11-revision-notes-jee-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -40,7 +37,7 @@ practice_link: "/class-11/physics/the-s-block-elements-class-11-revision-notes-j
 
 ## <a id="what-is-the-s-block-elements"></a>What is The S Block Elements?
 
-# The S Block Elements Class 11 Notes
+
 
 
 
@@ -78,7 +75,7 @@ This chapter is important because it helps us understand the properties and beha
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div [class](/blog/biological-classification-class-11-revision-notes-neet)="callout-box">
+<div class="callout-box">
 I still remember when I was preparing for JEE, I used to get confused between the alkali metals and alkaline earth metals. I would often mix up their properties and reactions. But then I realized that the key to understanding these elements is to focus on their electron configuration and the way they lose electrons to form positive ions. For example, the alkali metals have a single electron in their outermost shell, which they can easily lose to form a positive ion. On the other hand, the alkaline earth metals have two electrons in their outermost shell, which makes them less reactive than the alkali metals. By understanding these differences, I was able to solve problems related to the s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements with ease.
 </div>
 
@@ -106,7 +103,7 @@ The s-block elements have several properties that make them unique. They are hig
 
 One shortcut formula that can be used to remember the properties of the s-block elements is:
 
-\text{Reactivity} \propto \frac{1}{\text{Ionization Energy}}
+$$\text{Reactivity} \propto \frac{1}$\text{Ionization Energy$}$$
 
 
 This formula states that the reactivity of an element is inversely proportional to its ionization energy. This means that elements with low ionization energy are highly reactive, while elements with high ionization energy are less reactive.

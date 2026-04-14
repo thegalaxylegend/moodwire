@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/dpsp-duties-class-11-revision-notes-jee-neet"
 ---
 
-
-![Dpsp Duties Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/dpsp-duties-class-11-revision-notes-jee-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -35,7 +32,7 @@ practice_link: "/class-11/physics/dpsp-duties-class-11-revision-notes-jee-neet"
 
 ## <a id="what-is-dpsp-duties"></a>What is Dpsp Duties?
 
-# DPSP & Duties Class 11 Quick Recap — MCQs, Key Points & PDF Download
+
 
 
 

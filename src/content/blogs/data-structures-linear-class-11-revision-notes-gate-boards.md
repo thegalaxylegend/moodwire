@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/chemistry/data-structures-linear-class-11-revision-notes-gate-boards"
 ---
 
-
-![Data Structures: Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog-images/data-structures-linear-class-11-revision-notes-gate-boards.webp)
-
 *Last Updated: 2026-03-28*
 
 

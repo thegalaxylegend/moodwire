@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/chemistry/relations-and-functions-class-11-notes"
 ---
 
-
-![Relations and Functions Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog-images/relations-and-functions-class-11-notes.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -317,18 +314,6 @@ Relations and Functions is a fundamental concept in mathematics that deals with 
 | One-to-One Function | A function where every element in the range is mapped to exactly one element in the domain | $f(x) = 2x$ |
 | Onto Function | A function where every element in the range is mapped to at least one element in the domain | $f(x) = x^2$ |
 | Composite Function | A function that is the result of applying two or more functions in sequence | $f(g(x)) = f(x^2) = (x^2)^2 = x^4$ |
-
-
-
-
-- [object Object]
-- [object Object]
-- [object Object]
-- [object Object]
-- [object Object]
-- [object Object]
-- [object Object]
-
 ## <a id="mcqs"></a>MCQs
 
 

@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/hydrocarbons-class-11-revision-notes-neet"
 ---
 
-
-![Hydrocarbons Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog-images/hydrocarbons-class-11-revision-notes-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -41,7 +38,7 @@ practice_link: "/class-11/biology/hydrocarbons-class-11-revision-notes-neet"
 
 ## <a id="what-is-hydrocarbons"></a>What is Hydrocarbons?
 
-# Hydrocarbons Class 11 Notes
+
 
 
 Last Updated: March 15, 2026
@@ -77,7 +74,7 @@ Hydrocarbons are an essential topic in organic chemistry, and understanding them
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div [class](/blog/redox-reactions-class-11-revision-notes-neet)="callout-box">
+<div class="callout-box">
 I still remember when I was preparing for my JEE exams, I used to get confused between alkanes, alkenes, and alkynes. One mistake I made was not being able to distinguish between the general formula of alkanes (CnH2n+2) and alkenes (CnH2n). However, I realized that understanding the general formula and the structural differences between these compounds is crucial. I made a cheat sheet with the general formulas and structures of different hydrocarbons, which helped me to quickly identify and solve problems.
 </div>
 

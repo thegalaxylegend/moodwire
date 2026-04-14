@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/motion-in-a-plane-class-11-revision-notes-jee-neet"
 ---
 
-
-![Motion In A Plane Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/motion-in-a-plane-class-11-revision-notes-jee-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -46,7 +43,7 @@ practice_link: "/class-11/physics/motion-in-a-plane-class-11-revision-notes-jee-
 
 ## <a id="what-is-motion-in-a-plane-revision-notes"></a>What is Motion In A Plane Revision Notes?
 
-# Motion In A Plane Revision Notes
+
 
 
 

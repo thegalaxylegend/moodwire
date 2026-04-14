@@ -7,12 +7,9 @@ date: "2026-04-09"
 practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
 ---
 
-
-![Real Numbers Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog-images/real-numbers-class-10-notes.webp)
-
 *Last Updated: 2026-04-09*
 
-<div [class](/blog/polynomials-class-10-notes)="quick-summary">
+<div class="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
@@ -49,7 +46,7 @@ practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
  - **Irrational Number:** \{ a = \sqrt{b} \} — where $a$ is an irrational number and $b$ is not a perfect square.
  - **Real Number:** \{ a = \frac{p}{q} + \sqrt{b} \} — where $a$ is a real number, $p$ and $q$ are integers, and $b$ is not a perfect square.
  - **Exponentiation:** \{ a^m \times a^n = a^{m+n} \} — where $a$ is the base, $m$ and $n$ are exponents.
- - **Roots:** \{ \sqrt[n]{a} = a^{\frac{1}{n}} \} — where $a$ is the radicand and $n$ is the index of the root.
+ - **Roots:** \{ \sqrt[n]{a} = a^$\frac{1${n}} \} — where $a$ is the radicand and $n$ is the index of the root.
  - **Absolute Value:** \{ |a| = \sqrt{a^2} \} — where $a$ is a real number.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
@@ -115,7 +112,7 @@ practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
  * Recognize the difference between $\sqrt{a}$ and $\pm\sqrt{a}$ and apply them accordingly
  * Simplify radicals using the property $\sqrt{a} \times \sqrt{b} = \sqrt{ab}$
  * Consider the domain of the square root function to avoid extraneous solutions, using the property $x \geq 0$ for $\sqrt{x}$
- * Apply these concepts to solve equations involving square roots, such as $x^2 = a$, where $x = \pm\sqrt{a}$
+ * Apply these concepts to solve equations involving square roots, such as $x^2 = a$, where $x = \pm$$\sqrt{a}$$$
  * Use the formula $a^2 - b^2 = (a+b)(a-b)$ to factor expressions and simplify equations, a^2 - b^2 = (a+b)(a-b)
  * Consider the properties of inequalities involving square roots, such as $\sqrt{x} \geq a$, which implies $x \geq a^2$
 
@@ -137,19 +134,19 @@ practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- {\sqrt{a^2} = |a|}: Absolute value of a number
+- {$$\sqrt{a^2} = |a|}: Absolute value of a number$$
 
  - {a^n}: Exponentiation, where {n} is the exponent
 
-- {a^{\frac{m}{n}} = {\sqrt[n]{a^m}}}: Rational exponentiation
+- {a^{$$\frac{m}{n}} = $\sqrt[n]{a^m$}}: Rational exponentiation$$
 
  - {a^{m+n} = a^m \times a^n}: Product ru\le for exponents
 
-- {\frac{a^m}{a^n} = a^{m-n}}: Quotient ru\le for exponents
+- {$$\frac{a^m}{a^n} = a^{m-n}}: Quotient ru\le for exponents$$
 
  - Key facts:
  - Real numbers include all rational and irrational numbers
- - The set of real numbers is denoted by {\mathbb{R}}
+ - The set of real numbers is denoted by $\mathbb{R$}
  - Real numbers can be represented on the number line
  - Common mistakes:
  - Forgetting to consider the sign of the radicand when simplifying square roots

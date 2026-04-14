@@ -45,7 +45,8 @@ jobs:
             # Clean transient files that are regenerated each run
             rm -f jules-reports/*-discord-payload.json 2>/dev/null || true
             rm -f jules-reports/autopsy-report.json 2>/dev/null || true
-            rm -f jules-reports/regen-queue-*.json 2>/dev/null || true
+            # NOTE: regen-queue-*.json files are preserved here — they are consumed
+            # by Task 2.1 (refine-only pass) and cleaned up after that step.
             # Keep persistent intelligence files: quality-trends, lessons-learned, 
             # generation-strategy, content-patterns, evolved-prompt, self-improve-log
             echo "📦 Archived previous reports to $ARCHIVE_DIR"
@@ -58,6 +59,9 @@ jobs:
           rm -f generated-slugs.txt 2>/dev/null || true
           touch run.log
           echo "[]" > jules-reports/dead-letter-queue.json
+
+      - name: Task 0.5 - Content Freshness Auto-Update (Pre-Generation)
+        run: npx tsx scripts/auto-refresh-blogs.ts
 
       - name: Task 1 - Build Queue
         run: npx tsx scripts/chapter-queue-builder.ts | tee -a run.log
@@ -102,8 +106,10 @@ jobs:
           HF_API_TOKEN: ${{ secrets.HF_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-        # run: npx tsx scripts/blog-generator.ts --refine-only | tee -a run.log
-        run: echo "Skipping full regeneration in favor of smart-repair refinement."
+        run: npx tsx scripts/blog-generator.ts --refine-only | tee -a run.log
+
+      - name: Task 2.15 - Cleanup Consumed Regen Queues
+        run: rm -f jules-reports/regen-queue-*.json 2>/dev/null || true
 
       - name: Task 2.2 - Sync Blog Registry
         run: |
@@ -186,8 +192,10 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: node scripts/repair-images.js
 
-      - name: Task 7 - Content Freshness Auto-Update
-        run: npx tsx scripts/auto-refresh-blogs.ts
+      # NOTE: Freshness check moved to Task 0.5 (before generation) so its
+      # regen-queue feeds into the refine-only pass. This slot is now a no-op.
+      - name: Task 7 - Content Freshness (Moved to Pre-Generation)
+        run: echo "✅ Freshness check already ran as Task 0.5 before blog generation."
 
       - name: Task 8 - Smart Auto-Repair
         continue-on-error: true

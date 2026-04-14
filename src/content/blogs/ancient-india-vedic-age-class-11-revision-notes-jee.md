@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/mathematics/ancient-india-vedic-age-class-11-revision-notes-jee"
 ---
 
-
-![Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide](/blog-images/ancient-india-vedic-age-class-11-revision-notes-jee.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -39,7 +36,7 @@ practice_link: "/class-11/mathematics/ancient-india-vedic-age-class-11-revision-
 
 ## <a id="what-is-ancient-India-Vedic-age"></a>What is Ancient India Vedic Age?
 
-[object Object]
+
 
 
 

@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/motion-in-a-straight-line-class-11-revision-notes-jee-neet"
 ---
 
-
-![Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/motion-in-a-straight-line-class-11-revision-notes-jee-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -43,7 +40,7 @@ practice_link: "/class-11/physics/motion-in-a-straight-line-class-11-revision-no
 
 ## <a id="what-is-motion-in-a-straight-line-revision-notes"></a>What is Motion In A Straight Line Revision Notes?
 
-# Motion In A Straight Line Revision Notes
+
 
 
 

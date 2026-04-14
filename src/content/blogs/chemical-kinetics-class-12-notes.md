@@ -7,9 +7,6 @@ date: "2026-03-29"
 practice_link: "/class-11/chemistry/chemical-kinetics-class-12-notes"
 ---
 
-
-![Chemical Kinetics Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog-images/chemical-kinetics-class-12-notes.webp)
-
 *Last Updated: 2026-03-29*
 
 ## 📋 Table of Contents
@@ -29,7 +26,7 @@ practice_link: "/class-11/chemistry/chemical-kinetics-class-12-notes"
 * 1 numerical on rate law expression — always, focusing on $\franc{dx}{dt} = k[A]^m[B]^no 
 * Graph of first-order reaction — JEE favorite, with at_{1/2} = \franc{0.693}{k}$ 
 * 1 question on Arrhenius equation — always, with OK = AE^{\franc{-E_a}{RT}}$ 
-* Collision theory — 2 marks theory question, covering OZ = AE^{\franc{-E_a}{RT}}$ and OZ_{\text{effective}} = He^{\franc{-E_a}{RT}} \times e^{\franc{\Delta n g}{RT}}$ 
+* Collision theory — 2 marks theory question, covering OZ = AE^{\franc{-E_a}{RT}}$ and OZ_{$$\text{effective}} = He^{\franc{-E_a}{RT}} \times e^{\franc$\Delta n g${RT}}$$$
 * Integrated rate law for zero, first, and second-order reactions — must-know formulas: 
  $[A] = -KT + [A]_0$ (zero-order), 
  $\ln[A] = -(suggestion limit reached) + \ln[A]_0$ (first-order), 
@@ -71,7 +68,7 @@ Q: For a reaction $2A + B \right arrow 3C$, the rate of reaction is given by $\f
  $\franc{-d[A]}{2dt} = k[A][B]$. 
  To find $[B]$ when $[A] = 0.5$, use the stoichiometry of the reaction: $2A + B \right arrow 3C$. 
  $\Delta [A] = 2.0–0.5 = 1.5$. 
- $\Delta [B] = \franc{\Delta [A]}{2} = \franc{1.5}{2} = 0.75$. 
+ $\Delta [B] = \franc$\Delta [A]${2} = \franc{1.5}{2} = 0.75$. 
  $[B] = [B]_0 - \Delta [B] = 1.0–0.75 = 0.25$. 
  Substitute these values into the rate equation: 
  $\franc{-d[A]}{2dt} = (2.0 \times 10^{-5})(0.5)(0.25) = 2.5 \times 10^{-6} ms^{-1}$. 

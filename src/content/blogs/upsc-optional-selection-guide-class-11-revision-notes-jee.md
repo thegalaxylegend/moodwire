@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/mathematics/upsc-optional-selection-guide-class-11-revision-notes-jee"
 ---
 
-
-![Upsc Optional Selection Guide Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog-images/upsc-optional-selection-guide-class-11-revision-notes-jee.webp)
-
 *Last Updated: [2026](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)-03-28*
 
 
@@ -38,7 +35,7 @@ practice_link: "/class-11/mathematics/upsc-optional-selection-guide-class-11-rev
 
 ## <a id="what-is-upsc-optional-selection-guide"></a>What is Upsc Optional Selection Guide?
 
-# Pick the Best UPSC Optional Subject 2026 Guide
+
 
 If you’re a UPSC aspirant, you know that the "Optional Subject" is where the battle for a top rank is won or lost. It’s 500 marks out of a 1750-mark total in [mains](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet). It’s roughly 30% of your total score, yet it takes up 50% of your mental space. 
 

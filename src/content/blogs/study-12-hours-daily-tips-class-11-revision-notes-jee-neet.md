@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/study-12-hours-daily-tips-class-11-revision-notes-jee-neet"
 ---
 
-
-![Study 12 Hours Daily Tips Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/study-12-hours-daily-tips-class-11-revision-notes-jee-neet.webp)
-
 *Last Updated: [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)-03-28*
 
 
@@ -38,11 +35,11 @@ practice_link: "/class-11/physics/study-12-hours-daily-tips-class-11-revision-no
 
 ## <a id="what-is-study-12-hours-daily-tips"></a>What is Study 12 Hours Daily Tips?
 
-# Study for 12 Hours Daily Without Tiredness Guide
 
 
 
-# How to Study for 12 Hours Every Day Without Getting Tired (The Easy Way)
+
+
 
 Do you feel lazy when you open your books? Do you start checking your phone every 5 minutes? Do you feel like your brain is "full" after just 1 hour of study? 
 

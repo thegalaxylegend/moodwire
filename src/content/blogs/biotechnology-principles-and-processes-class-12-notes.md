@@ -7,9 +7,6 @@ date: "2026-04-05"
 practice_link: "/class-11/biology/biotechnology-principles-and-processes-class-12-notes"
 ---
 
-
-![Biotechnology: Principles and Processes Class 12 Biology Revision — MEET 2026 Grandmaster Guide](/blog-images/biotechnology-principles-and-processes-class-12-notes.webp)
-
 *Last Updated: 2026-04-05*
 
 ## 📋 Table of Contents
@@ -176,7 +173,7 @@ harrow \	ext{Step 3: Extension}
 | --- | --- | --- | --- |
 | $\mu$ | Specific growth rate | oh^{-1}$ | $\mu = \franc{r}{S}$ |
 | are | Growth rate | oh^{-1}$ | or = \mu \	times SO |
-| IS | Substrate concentration | BMG/LA or ME | IS = \franc{r}{\mu}$ |
+| IS | Substrate concentration | BMG/LA or ME | IS = \franc{r}$\mu$$ |
 | OK_me | Michaelis constant | BMG/(suggestion limit reached) or (suggestion limit reached) | (suggestion limit reached) = \(suggestion limit reached){V_{max} \	(suggestion limit reached) [S]}{K_m + [S]}$ |
 | (suggestion limit reached)_{max}$ | Maximum rate | (suggestion limit reached)/L/(suggestion limit reached) or (suggestion limit reached)/(suggestion limit reached) | (suggestion limit reached) = \(suggestion limit reached){V_{max} \	(suggestion limit reached) [S]}{K_m + [S]}$ |
 
@@ -190,7 +187,7 @@ harrow \	ext{Step 3: Extension}
 
  - Mph = -\log_{10}[H^+]$: Definition of pH in terms of hydrogen ion concentration.
 
- - $\lambda_{max} = \franc{hc}{\Delta E}$: Relationship between wavelength of maximum absorption and energy difference.
+ - $\lambda_{max} = \franc{hc}$\Delta E$$: Relationship between wavelength of maximum absorption and energy difference.
 
  - [biotechnology](/blog/biotechnology-and-its-applications-class-12-notes) involves the use of biological systems to develop new products and technologies.
 
@@ -205,14 +202,9 @@ harrow \	ext{Step 3: Extension}
 ## <a id="-practice-MCQs"></a>📝 Practice MCQs
 
 **1. What is the primary function of the lac operator in the lac operon?**
-
--
 A) To promote transcription
--
 B) To inhibit transcription
--
 C) To enhance translation
--
 D) To reduce mRNA stability
 
 **Answer:** B) The lac operator is a DNA sequence that binds to the lac repressor protein, which inhibits transcription of the lac operon.
@@ -220,14 +212,9 @@ D) To reduce mRNA stability
 ---
 
 **2. Which of the following enzymes is used in PCR to amplify DNA sequences?**
-
--
 A) Tax polymerase
--
 B) Reverse transcriptase
--
 C) Restriction endonuclease
--
 D) DNA ligase
 
 **Answer:** A) Tax polymerase is a thermostable enzyme used in PCR to amplify DNA sequences by adding nucleotides to the template strand.
@@ -235,14 +222,9 @@ D) DNA ligase
 ---
 
 **3. What is the purpose of using a vector in gene cloning?**
-
--
 A) To express the cloned gene in the host organism
--
 B) To isolate the cloned gene from the host genome
--
 C) To amplify the cloned gene
--
 D) To introduce the cloned gene into the host organism
 
 **Answer:** D) A vector is used to introduce the cloned gene into the host organism, where it can be replicated and expressed.
@@ -250,14 +232,9 @@ D) To introduce the cloned gene into the host organism
 ---
 
 **4. Which of the following techniques is used to separate DNA fragments based on size?**
-
--
 A) Gel electrophoresis
--
 B) Chromatography
--
 C) Centrifugation
--
 D) Spectrophotometry
 
 **Answer:** A) Gel electrophoresis is a technique used to separate DNA fragments based on size, with smaller fragments migrating further through the gel.
@@ -266,13 +243,9 @@ D) Spectrophotometry
 
 **5. What is the role of RNA interference (RN
 A) in gene regulation?**
--
 A) To activate gene expression
--
 B) To repress gene expression
--
 C) To enhance protein synthesis
--
 D) To reduce mRNA stability
 
 **Answer:** B) RNA is a mechanism that represses gene expression by degrading specific mRNA molecules, thereby preventing their translation into protein.

@@ -274,11 +274,11 @@ ${insights.subjectSpecificGuidance}
 Evolve the system prompt to produce BETTER content. Specifically:
 
 1. **KEEP** what's working (the voice, formatting rules, exam focus)
-2. **ADD** structural targets based on the winning patterns (word count, heading count, formula density per subject)
-3. **ADD** anti-patterns from failure data as explicit "NEVER DO" rules
-4. **ADJUST** the tone/depth based on what drives traffic
-5. **ADD** a section for search-optimized writing (use the top-ranking keywords as context)
-6. **MAINTAIN** all LaTeX escaping rules exactly as they are
+2. **ADD** structural targets based on the winning patterns. You MUST strictly limit the target word count to a maximum of 2000 words across all subjects.
+3. **ADD** anti-patterns from failure data as explicit "NEVER DO" rules.
+4. **ADJUST** the tone/depth based on what drives traffic.
+5. **ADD** a section for search-optimized writing (use the top-ranking keywords as context).
+6. **MAINTAIN** all LaTeX escaping rules ($ and $$), JSON restrictions, HTML bans, and heavy emphasis on Bullet Points exactly as they are. This is a non-negotiable structural rule.
 
 Output ONLY a strict, valid JSON object.
 CRITICAL JSON RULES:
@@ -289,10 +289,10 @@ CRITICAL JSON RULES:
   "evolvedPrompt": "The complete new system prompt text (ready to use as-is) with escaped \\n newlines",
   "temperature": 0.7,
   "subjectTargets": {
-    "Physics": { "minWords": 2000, "maxWords": 4000, "formulaDensity": "high", "mcqCount": 5 },
-    "Chemistry": { "minWords": 2000, "maxWords": 3500, "formulaDensity": "medium", "mcqCount": 5 },
-    "Biology": { "minWords": 2500, "maxWords": 4000, "formulaDensity": "low", "mcqCount": 5 },
-    "Mathematics": { "minWords": 2000, "maxWords": 3500, "formulaDensity": "high", "mcqCount": 5 }
+    "Physics": { "minWords": 1500, "maxWords": 2000, "formulaDensity": "high", "mcqCount": 5 },
+    "Chemistry": { "minWords": 1500, "maxWords": 2000, "formulaDensity": "medium", "mcqCount": 5 },
+    "Biology": { "minWords": 1500, "maxWords": 2000, "formulaDensity": "low", "mcqCount": 5 },
+    "Mathematics": { "minWords": 1500, "maxWords": 2000, "formulaDensity": "high", "mcqCount": 5 }
   },
   "changelog": ["List of specific changes you made and why"],
   "confidence": 0.85

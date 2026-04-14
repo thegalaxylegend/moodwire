@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/mathematics/statistics-class-11-revision-notes-jee"
 ---
 
-
-![Statistics Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog-images/statistics-class-11-revision-notes-jee.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -42,7 +39,7 @@ practice_link: "/class-11/mathematics/statistics-class-11-revision-notes-jee"
 
 ## <a id="what-is-statistics-revision-notes"></a>What is Statistics Revision Notes?
 
-# Statistics Revision Notes
+
 
 
 
@@ -51,7 +48,7 @@ practice_link: "/class-11/mathematics/statistics-class-11-revision-notes-jee"
 > - **Mean Deviation (M.D.):** $\frac{1}{n} \sum |x_i - \text{mean/median}|$.
 > - **Variance ($\sigma^2$):** $\frac{1}{n} \sum (x_i - \bar{x})^2$.
 > - **Standard Deviation ($\sigma$):** Positive square root of Variance.
-> - **Shortcut for Variance:** $\frac{\sum x_i^2}{n} - (\bar{x})^2$.
+> - **Shortcut for Variance:** $\frac$\sum x_i^2${n} - (\bar{x})^2$.
 > - **Lower M.D./S.D.:** Indicates more consistent (less dispersed) data.
 > [**📥 Download 1-Page Short Notes PDF (Zero-Friction)**](#)
 
@@ -94,11 +91,11 @@ Mean deviation can be calculated about the **Mean** or the **Median**.
 
 **Formula for Ungrouped Data:**
 
-M.D. (\bar{x}) = \frac{\sum |x_i - \bar{x}|}{n}
+M.D. (\bar{x}) = $$\frac$\sum |x_i - \bar{x$|}{n}$$
 
 
 **Formula for Grouped Data:**
-$M.D. (\bar{x}) = \frac{\sum f_i |x_i - \bar{x}|}{N}$ (where $N = \sum f_i$)
+$M.D. (\bar{x}) = $$\frac$\sum f_i |x_i - \bar{x$|}{N}$ (where $N = \sum f_i$)$$
 
 ---
 
@@ -117,7 +114,7 @@ The average of the squared deviations from the mean.
 The square root of the variance. It is preferred because it shares the same units as the original data.
 - **Short Method for Discrete Frequency Distribution:**
 
-\sigma = \frac{1}{N} \sqrt{N \sum f_i x_i^2 - (\sum f_i x_i)^2}
+\sigma = $$\frac{1}{N} \sqrt{N \sum f_i x_i^2 - (\sum f_i x_i)^2}$$
 
 
 ---

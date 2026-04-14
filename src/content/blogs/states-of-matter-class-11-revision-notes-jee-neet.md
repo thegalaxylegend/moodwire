@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/states-of-matter-class-11-revision-notes-jee-neet"
 ---
 
-
-![States Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/states-of-matter-class-11-revision-notes-jee-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -56,7 +53,7 @@ practice_link: "/class-11/physics/states-of-matter-class-11-revision-notes-jee-n
 
 ## <a id="what-is-states-of-matter-revision-notes"></a>What is States Of Matter Revision Notes?
 
-# States Of Matter Revision Notes
+
 
 
 
@@ -179,7 +176,7 @@ P_{total} = P_1 + P_2 + P_3 + ...P_i = X_i \times P_{total} where $X_i$ = mole f
 **Graham's Law states that the rate of diffusion or effusion of a gas is inversely proportional to the square root of its molar mass.**
 
 
-\frac{r_1}{r_2} = \sqrt{\frac{M_2}{M_1}}
+$$\frac{r_1}{r_2} = \sqrt$\frac{M_2${M_1}}$$
 
 
 
@@ -201,7 +198,7 @@ P_{total} = P_1 + P_2 + P_3 + ...P_i = X_i \times P_{total} where $X_i$ = mole f
 2. Molecules are in constant, **random motion** in all directions.
 3. Collisions between molecules and container walls are **perfectly elastic** (no energy loss).
 4. There are **no intermolecular forces** of attraction or repulsion.
-5. Average Kinetic Energy is proportional to temperature: $KE_{avg} = \frac{3}{2}kT$ (per molecule) or $\frac{3}{2}RT$ (per mole).
+5. Average Kinetic Energy is proportional to temperature: $KE_{avg} = $$\frac{3}{2}kT$ (per molecule) or $\frac{3}{2}RT$ (per mole).$$
 
 ### <a id="molecular-speeds-jee-advanced"></a>Molecular Speeds (JEE Advanced)
 | Speed | Symbol | Formula | Relative Value |
@@ -225,7 +222,7 @@ P_{total} = P_1 + P_2 + P_3 + ...P_i = X_i \times P_{total} where $X_i$ = mole f
 
 ### <a id="the-compressibility-factor-z"></a>The Compressibility Factor (Z)
 
-Z = \frac{PV}{nRT}
+Z = $$\frac{PV}{nRT}$$
 
 
 
@@ -249,7 +246,7 @@ Z = \frac{PV}{nRT}
 **The van der Waals Equation is a modified form of the ideal gas equation that accounts for the finite size of molecules (volume correction 'b') and intermolecular attractions (pressure correction 'a').**
 
 
-\left[P + \frac{an^2}{V^2}\right](V - nb) = nRT
+\left[P + $$\frac{an^2}{V^2}\right](V - nb) = nRT$$
 
 
 
@@ -311,38 +308,38 @@ Z = \frac{PV}{nRT}
 **MCQs (Multiple Choice Questions) are a testing format where you must identify the single correct option from a provided list.**
 
 **Q1. At what temperature will the volume of a gas at 0°C double itself, pressure remaining constant?** [JEE Easy]  
-A) 273°C  
-B) 546°C  
-C) 100°C  
-D) 200°C  
+A) 273°C
+B) 546°C
+C) 100°C
+D) 200°C
 *Answer: A ($V \propto T$. $V_1/273 = 2V_1/T_2$. $T_2 = 546 K = 273°C$).*
 
 **Q2. The ratio of rates of diffusion of $CO_2$ and $SO_2$ at the same T and P is:** [JEE Medium]  
-A) $\sqrt{11/16}$  
-B) $\sqrt{16/11}$  
-C) $4/\sqrt{11}$  
-D) $\sqrt{64/44}$  
-*Answer: B ($r_{CO_2}/r_{SO_2} = \sqrt{M_{SO_2}/M_{CO_2}} = \sqrt{64/44} = \sqrt{16/11}$).*
+A) $\sqrt{11/16}$
+B) $\sqrt{16/11}$
+C) $4/$$\sqrt{11}$$$
+D) $\sqrt{64/44}$
+*Answer: B ($r_{CO_2}/r_{SO_2} = $$\sqrt{M_{SO_2}/M_{CO_2}} = \sqrt{64/44} = \sqrt{16/11}$).*$$
 
 **Q3. For a gas, $Z < 1$ at moderate pressures. This implies:** [JEE Hard]  
-A) The gas is easier to compress than an ideal gas  
-B) The gas is harder to compress than an ideal gas  
-C) The gas behaves ideally  
-D) Repulsive forces dominate  
+A) The gas is easier to compress than an ideal gas
+B) The gas is harder to compress than an ideal gas
+C) The gas behaves ideally
+D) Repulsive forces dominate
 *Answer: A ($Z < 1$ means attractive forces bring molecules closer, making the gas more compressible than predicted by ideal behavior).*
 
 **Q4. The value of van der Waals constant 'a' is highest for:** [NEET Medium]  
-A) $He$  
-B) $H_2$  
-C) $CO_2$  
-D) $NH_3$  
+A) $He$
+B) $H_2$
+C) $CO_2$
+D) $NH_3$
 *Answer: D ($NH_3$ has the strongest IMFs due to hydrogen bonding, so 'a' is highest).*
 
 **Q5. At Boyle temperature, a real gas behaves like an ideal gas. $T_B$ is given by:** [JEE Medium]  
-A) $a/Rb$  
-B) $8a/27Rb$  
-C) $27Rb/a$  
-D) $a/27b^2$  
+A) $a/Rb$
+B) $8a/27Rb$
+C) $27Rb/a$
+D) $a/27b^2$
 *Answer: A ($T_B = a/Rb$ is the Boyle Temperature formula).*
 
 ---

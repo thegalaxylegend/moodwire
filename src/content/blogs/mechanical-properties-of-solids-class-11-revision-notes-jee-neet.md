@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/mechanical-properties-of-solids-class-11-revision-notes-jee-neet"
 ---
 
-
-![Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/mechanical-properties-of-solids-class-11-revision-notes-jee-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -43,7 +40,7 @@ practice_link: "/class-11/physics/mechanical-properties-of-solids-class-11-revis
 
 ## <a id="what-is-mechanical-properties-of-solids-revision-notes"></a>What is Mechanical Properties Of Solids Revision Notes?
 
-# Mechanical Properties Of Solids Revision Notes
+
 
 
 

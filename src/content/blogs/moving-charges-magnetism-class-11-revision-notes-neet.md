@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/moving-charges-magnetism-class-11-revision-notes-neet"
 ---
 
-
-![Moving Charges Magnetism Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog-images/moving-charges-magnetism-class-11-revision-notes-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -46,7 +43,7 @@ practice_link: "/class-11/biology/moving-charges-magnetism-class-11-revision-not
 
 ## <a id="what-is-moving-charges-magnetism-revision-notes"></a>What is Moving Charges Magnetism Revision Notes?
 
-# Moving Charges Magnetism Revision Notes
+
 
 
 

@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/three-dimensional-geometry-class-11-revision-notes-jee-neet"
 ---
 
-
-![Three Dimensional Geometry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/three-dimensional-geometry-class-11-revision-notes-jee-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -38,7 +35,7 @@ practice_link: "/class-11/physics/three-dimensional-geometry-class-11-revision-n
 
 ## <a id="what-is-three-dimensional-geometry-revision-notes"></a>What is Three Dimensional Geometry Revision Notes?
 
-# Three Dimensional Geometry Revision Notes
+
 
 
 

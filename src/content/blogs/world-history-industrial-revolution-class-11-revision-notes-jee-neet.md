@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/world-history-industrial-revolution-class-11-revision-notes-jee-neet"
 ---
 
-
-![World History Industrial Revolution Class 11 History Recap — CBSE 2026 Quick Guide](/blog-images/world-history-industrial-revolution-class-11-revision-notes-jee-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -125,9 +122,7 @@ The following table summarizes the key features of the Industrial Revolution:
 
 The following formulae are relevant to the Industrial Revolution:
 
-\text{Productivity} = \frac{\text{Output}}{\text{Input}}
-
-\text{Efficiency} = \frac{\text{Output}}{\text{Cost}}
+$$\text{Productivity} = \frac$\text{Output$}$\text{Input$}\text{Efficiency} = \frac$\text{Output$}$\text{Cost$}$$
 
 
 
@@ -211,9 +206,7 @@ The following table summarizes the key features of the Industrial Revolution:
 
 The following formulae are relevant to the Industrial Revolution:
 
-\text{Productivity} = \frac{\text{Output}}{\text{Input}}
-
-\text{Efficiency} = \frac{\text{Output}}{\text{Cost}}
+$$\text{Productivity} = \frac$\text{Output$}$\text{Input$}\text{Efficiency} = \frac$\text{Output$}$\text{Cost$}$$
 
 
 

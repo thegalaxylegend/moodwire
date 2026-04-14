@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/chemistry/art-culture-architecture-class-11-revision-notes-jee-neet"
 ---
 
-
-![Art Culture Architecture Class 11 Chemistry Revision — CBSE Boards 2026 Grandmaster Guide](/blog-images/art-culture-architecture-class-11-revision-notes-jee-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 

@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/mathematics/sequences-series-class-11-revision-notes-jee"
 ---
 
-
-![Sequences Series Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog-images/sequences-series-class-11-revision-notes-jee.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -40,7 +37,7 @@ practice_link: "/class-11/mathematics/sequences-series-class-11-revision-notes-j
 
 ## <a id="what-is-sequences-series-revision-notes"></a>What is Sequences Series Revision Notes?
 
-# Sequences Series Revision Notes
+
 
 
 

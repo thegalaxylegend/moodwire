@@ -7,9 +7,6 @@ date: "2026-04-04"
 practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 ---
 
-
-![Human Health and Disease Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog-images/human-health-and-disease-class-12-notes.webp)
-
 *Last Updated: 2026-04-04*
 
 ## 📋 Table of Contents
@@ -95,9 +92,7 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 
  
 
-\text{Normal hemoglobin: } \alpha_2 \beta_2
-
-\text{Sickle hemoglobin: } \alpha_2 \beta^{S}_2
+$$\text{Normal hemoglobin: } \alpha_2 \beta_2\text{Sickle hemoglobin: } \alpha_2 \beta^{S}_2$$
 
  - **Answer:** Mutation in the $\beta$-globin chain of hemoglobin.
 
@@ -111,7 +106,7 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 
  
 
- \text{Blood group AB: } \text{Antigens: A, B; Antibodies: None}
+ $$\text{Blood group AB: } \text{Antigens: A, B; Antibodies: None}$$
 
  
 
@@ -127,7 +122,7 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 
  
 
- \text{Causative agent of peptic ulcer: } Helicobacter\ pylori
+ $$\text{Causative agent of peptic ulcer: } Helicobacter\ pylori$$
 
  
 
@@ -139,7 +134,7 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 
  - **What 85% scorers do:** They focus on memorizing the different types of immune responses (innate and adaptive) and the various cells involved (like T cells and B cells) without understanding how these responses are regulated and how dysregulation leads to disease.
 
- - **What 95% scorers do:** They master the concept of immune homeostasis and how $\frac{\text{pro-inflammatory}}{\text{anti-inflammatory}}$ responses are balanced. They understand that most diseases result from an imbalance in this homeostasis, such as autoimmune diseases (e.g., rheumatoid arthritis) where the body's immune system mistakenly attacks its own cells, or immunodeficiency diseases (like HIV/AIDS) where the immune system is unable to fight off pathogens. 
+ - **What 95% scorers do:** They master the concept of immune homeostasis and how $\frac$\text{pro-inflammatory$}$\text{anti-inflammatory$}$ responses are balanced. They understand that most diseases result from an imbalance in this homeostasis, such as autoimmune diseases (e.g., rheumatoid arthritis) where the body's immune system mistakenly attacks its own cells, or immunodeficiency diseases (like HIV/AIDS) where the immune system is unable to fight off pathogens. 
 
  - Key differences in understanding include:
 
@@ -187,7 +182,7 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- $E = \frac{-0.0591}{n} \log_{10} \frac{[Red]}{[Ox]}$ is crucial for calculating the electrode potential.
+- $E = $$\frac{-0.0591}{n} \log_{10} \frac{[Red]}{[Ox]}$ is crucial for calculating the electrode potential.$$
 
  - $pH = -\log_{10} [H^+]$ helps in determining the acidity or alkalinity of a solution.
 
@@ -210,14 +205,9 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What is the primary cause of atherosclerosis?**
-
--
 A) Inflammation
--
 B) Infection
--
 C) Genetic mutation
--
 D) Autoimmune response
 
 **Answer:** A) Atherosclerosis is primarily caused by inflammation in the arterial wall, leading to plaque buildup.
@@ -225,14 +215,9 @@ D) Autoimmune response
 ---
 
 **2. Which of the following is a characteristic of Type 1 diabetes?**
-
--
 A) Insulin resistance
--
 B) Autoimmune destruction of beta cells
--
 C) Impaired insulin secretion
--
 D) Obesity
 
 **Answer:** B) Type 1 diabetes is characterized by the autoimmune destruction of beta cells in the pancreas, resulting in a lack of insulin production.
@@ -240,14 +225,9 @@ D) Obesity
 ---
 
 **3. What is the most common type of cancer worldwide?**
-
--
 A) Lung cancer
--
 B) Breast cancer
--
 C) Colorectal cancer
--
 D) Skin cancer
 
 **Answer:** A) Lung cancer is the most common type of cancer worldwide, accounting for approximately 19% of all cancer cases.
@@ -255,14 +235,9 @@ D) Skin cancer
 ---
 
 **4. Which of the following is a risk factor for osteoporosis?**
-
--
 A) High bone density
--
 B) Regular exercise
--
 C) Adequate calcium intake
--
 D) Family history of osteoporosis
 
 **Answer:** D) A family history of osteoporosis is a significant risk factor for developing the condition, as it can indicate a genetic predisposition.
@@ -270,14 +245,9 @@ D) Family history of osteoporosis
 ---
 
 **5. What is the primary function of the spleen in the immune system?**
-
--
 A) Filtering blood
--
 B) Storing lymphocytes
--
 C) Producing antibodies
--
 D) Regulating body temperature
 
 **Answer:** A) The primary function of the spleen is to filter the blood, removing old, damaged red blood cells and recycling the components.

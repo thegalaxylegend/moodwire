@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/biological-classification-class-11-revision-notes-neet"
 ---
 
-
-![Biological Classification Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog-images/biological-classification-class-11-revision-notes-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -50,14 +47,14 @@ Quick [revision](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-n
 
 
 
-[object Object]
 
 
 
 
 
 
-# Biological Classification Class 11 Notes
+
+
 
 
 
@@ -95,7 +92,7 @@ Biological classification is an important topic for [class](/blog/photosynthesis
 
 ## <a id="Ayush-note"></a>Ayush's Note
 
-<DIV [class](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)="callout-box">
+<DIV class="callout-box">
 I still remember when I was preparing for my MEET exam, I used to get confused between the different levels of classification. I would often mix up the order of the levels, and it would lead to mistakes in my exams. But then I realized that if I just remembered the sentence "Some Genera Have Incredible Names" (Kingdom, Phylum, [class](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet), Order, Family, Genus, Species), I could easily recall the correct order. This trick helped me a lot, and I was able to answer questions related to biological classification with confidence.
 </div>
 
@@ -106,31 +103,31 @@ I still remember when I was preparing for my MEET exam, I used to get confused b
 
 ### <a id="kingdom"></a>Kingdom
 Kingdom is the highest level of classification. There are six kingdoms: Animalia, Plantar, Fungi, Protista, Christa, and Monera. 
-\text{Kingdom} = \text{highest level of classification}
+$$\text{Kingdom} = \text{highest level of classification}$$
 
 ### <a id="phylum"></a>Phylum
 Phylum is the level of classification below the kingdom. It is a group of related classes. 
-\text{Phylum} = \text{group of related classes}
+$$\text{Phylum} = \text{group of related classes}$$
 
 ### <a id="class"></a>Class
 [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) is the level of classification below the phylum. It is a group of related orders. 
-\text{[class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)} = \text{group of related orders}
+$$\text{[class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)} = \text{group of related orders}$$
 
 ### <a id="order"></a>Order
 Order is the level of classification below the class. It is a group of related families. 
-\text{Order} = \text{group of related families}
+$$\text{Order} = \text{group of related families}$$
 
 ### <a id="family"></a>Family
 Family is the level of classification below the order. It is a group of related genera. 
-\text{Family} = \text{group of related genera}
+$$\text{Family} = \text{group of related genera}$$
 
 ### <a id="genus"></a>Genus
 Genus is the level of classification below the family. It is a group of related species. 
-\text{Genus} = \text{group of related species}
+$$\text{Genus} = \text{group of related species}$$
 
 ### <a id="species"></a>Species
 Species is the lowest level of classification. It is a group of organisms that can interbreed and produce fertile offspring. 
-\text{Species} = \text{group of organisms that can interbreed}
+$$\text{Species} = \text{group of organisms that can interbreed}$$
 
 
 

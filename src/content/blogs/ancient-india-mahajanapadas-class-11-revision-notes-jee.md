@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/mathematics/ancient-india-mahajanapadas-class-11-revision-notes-jee"
 ---
 
-
-![Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog-images/ancient-india-mahajanapadas-class-11-revision-notes-jee.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -107,9 +104,9 @@ The following table lists the 16 Mahajanapadas, their capitals, and notable rule
 
 While historical data doesn't typically involve mathematical formulae, understanding the **population dynamics**, **economic growth**, and **trade volumes** of the Mahajanapadas can be facilitated by basic mathematical concepts such as:
 
-\[ \text{Population Growth Rate} = \franc{\text{Change in Population}}{\text{Original Population}} \times 100 \]
+\[ $$\text{Population Growth Rate} = \franc$\text{Change in Population$}$\text{Original Population$} \times 100 \]$$
 
-\[ \text{Economic Growth Rate} = \franc{\text{Change in GDP}}{\text{Original GDP}} \times 100 \]
+\[ $$\text{Economic Growth Rate} = \franc$\text{Change in GDP$}$\text{Original GDP$} \times 100 \]$$
 
 
 

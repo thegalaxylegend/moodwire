@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/physical-world-class-11-revision-notes-jee-neet"
 ---
 
-
-![Physical World Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/physical-world-class-11-revision-notes-jee-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -42,7 +39,7 @@ practice_link: "/class-11/physics/physical-world-class-11-revision-notes-jee-nee
 
 ## <a id="what-is-physical-world"></a>What is Physical World?
 
-# Physical World Class 11 Notes
+
 
 
 
@@ -64,7 +61,7 @@ practice_link: "/class-11/physics/physical-world-class-11-revision-notes-jee-nee
 
 ## <a id="introduction-to-physical-world"></a>Introduction to Physical World
 
-Physical World is <span [class](/blog/environmental-chemistry-class-11-revision-notes-neet)="quick-summary">the first chapter in the [class](/blog/environmental-chemistry-class-11-revision-notes-neet) 11 Physics syllabus</span>. It sets the stage for understanding the principles of physics and its applications. The chapter covers various topics such as the scientific method, measurement, error analysis, dimensions, units, scalars, and vectors.
+Physical World is <span class="quick-summary">the first chapter in the [class](/blog/environmental-chemistry-class-11-revision-notes-neet) 11 Physics syllabus</span>. It sets the stage for understanding the principles of physics and its applications. The chapter covers various topics such as the scientific method, measurement, error analysis, dimensions, units, scalars, and vectors.
 
 
 
@@ -78,7 +75,7 @@ This chapter is crucial for [class](/blog/environmental-chemistry-class-11-revis
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div [class](/blog/environmental-chemistry-class-11-revision-notes-neet)="ayush-note">
+<div class="ayush-note">
 I still remember when I was preparing for my [class](/blog/environmental-chemistry-class-11-revision-notes-neet) 11 exams, I struggled to understand the concept of significant figures. I used to think that it was just a matter of rounding off numbers, but I soon realized that it was much more than that. Significant figures are crucial in scientific experiments as they help in reducing errors and increasing the accuracy of results. I made a mistake in one of my exams by not considering significant figures, which cost me a few marks. However, I learned from my mistake and made sure to practice more problems to understand the concept better.
 </div>
 
@@ -88,10 +85,10 @@ I still remember when I was preparing for my [class](/blog/environmental-chemist
 ## <a id="core-concepts"></a>Core Concepts
 
 ### <a id="scientific-method"></a>Scientific Method
-The scientific method is a systematic approach to solving problems and understanding natural phenomena. It involves making observations, formulating hypotheses, and testing them through experiments. The scientific method is <span [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)="definition">a systematic process used to develop and test scientific knowledge</span>.
+The scientific method is a systematic approach to solving problems and understanding natural phenomena. It involves making observations, formulating hypotheses, and testing them through experiments. The scientific method is <span class="definition">a systematic process used to develop and test scientific knowledge</span>.
 
 ### <a id="measurement-and-error-analysis"></a>Measurement and Error Analysis
-Measurement is a crucial aspect of scientific experiments. It involves assigning numbers to physical quantities using units. Error analysis is essential in understanding the accuracy and reliability of measurements. There are two types of errors: systematic and random. Systematic errors are <span [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)="definition">errors that occur due to a flaw in the measurement process</span>, while random errors are <span [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)="definition">errors that occur due to chance</span>.
+Measurement is a crucial aspect of scientific experiments. It involves assigning numbers to physical quantities using units. Error analysis is essential in understanding the accuracy and reliability of measurements. There are two types of errors: systematic and random. Systematic errors are <span class="definition">errors that occur due to a flaw in the measurement process</span>, while random errors are <span class="definition">errors that occur due to chance</span>.
 
 ### <a id="dimensions-and-units"></a>Dimensions and Units
 Dimensions are the fundamental physical quantities that describe a system. Units are the standards used to measure these quantities. There are seven fundamental dimensions: length, mass, time, temperature, electric current, amount of substance, and luminous intensity. The SI system is <span class="definition">a system of units that is widely used in scientific measurements</span>.

@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/algorithms-design-class-11-revision-notes-gate-boards"
 ---
 
-
-![Algorithms: Design Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog-images/algorithms-design-class-11-revision-notes-gate-boards.webp)
-
 *Last Updated: 2026-03-28*
 
 

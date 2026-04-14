@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet"
 ---
 
-
-![Laws Of Motion Common Mistakes Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/laws-of-motion-common-mistakes-class-11-revision-notes-jee-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -43,11 +40,11 @@ practice_link: "/class-11/physics/laws-of-motion-common-mistakes-class-11-revisi
 
 ## <a id="what-is-laws-of-motion-common-mistakes"></a>What is Laws Of Motion Common Mistakes?
 
-# 10 Most Common Silly Mistakes in Laws of Motion
 
 
 
-# 10 Most Common Silly Mistakes in Laws of Motion
+
+
 
 "Laws of [motion](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)" (Newtonian Mechanics) is the definitive foundation for the entirety of classical physics. If your Free Body Diagrams (FBDs) are flawed here, you will inevitably struggle in Work-Power-Energy, Rotational Dynamics, and even Electrostatics (when charged particles are subjected to forces).
 

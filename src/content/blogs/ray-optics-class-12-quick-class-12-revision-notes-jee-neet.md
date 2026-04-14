@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/ray-optics-class-12-quick-class-12-revision-notes-jee-neet"
 ---
 
-
-![Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/ray-optics-class-12-quick-class-12-revision-notes-jee-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -107,18 +104,18 @@ I've found that understanding the basics of reflection, refraction, and total in
 | Formula | Description |
 | --- | --- |
 | $\frac{1}{v} + \frac{1}{u} = \frac{1}{f}$ | Mirror formula |
-| $m = -\frac{v}{u}$ | Magnification |
-| $f = \frac{R}{2}$ | Focal length of a mirror |
+| $m = -$$\frac{v}{u}$ | Magnification |$$
+| $f = $$\frac{R}{2}$ | Focal length of a mirror |$$
 | Formula | Description |
 | --- | --- |
 | $n_1 \sin \theta_1 = n_2 \sin \theta_2$ | Snell's law |
-| $\theta_c = \sin^{-1} \left( \frac{n_2}{n_1} \right)$ | Critical angle |
+| $\theta_c = \sin^{-1} \left( $$\frac{n_2}{n_1} \right)$ | Critical angle |$$
 | $\delta = i + e - A$ | Angle of deviation through a prism |
 | Formula | Description |
 | --- | --- |
 | $\frac{1}{f} = (n-1) \left( \frac{1}{R_1} - \frac{1}{R_2} \right)$ | Lens maker's formula |
 | $\frac{1}{v} - \frac{1}{u} = \frac{1}{f}$ | Lens formula |
-| $m = -\frac{v}{u}$ | Magnification |
+| $m = -$$\frac{v}{u}$ | Magnification |$$
 
 
 ## <a id="trap-exceptions"></a>Trap Exceptions

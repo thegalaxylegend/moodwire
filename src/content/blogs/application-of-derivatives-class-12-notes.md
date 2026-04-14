@@ -7,9 +7,6 @@ date: "2026-04-02"
 practice_link: "/class-11/mathematics/application-of-derivatives-class-12-notes"
 ---
 
-
-![Application of Derivatives Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog-images/application-of-derivatives-class-12-notes.webp)
-
 *Last Updated: 2026-04-02*
 
 ## 📋 Table of Contents
@@ -57,7 +54,7 @@ practice_link: "/class-11/mathematics/application-of-derivatives-class-12-notes"
 
  - **Tangents and Normals:** y - y_1 = m(x - x_1) — Equation of a tangent line with slope $m$ at $(x_1, y_1)$, where $m = f'(x_1)$.
 
-- **Length of Tangent, Normal, and Subtangent:** \text{Tangent: } y = mx + c, \text{Normal: } y - y_1 = -\frac{1}{m}(x - x_1), \text{Subtangent: } \text{Length} = |y_1| \cdot \sqrt{1 + m^2} — Formulas related to the tangent and normal to a curve.
+- **Length of Tangent, Normal, and Subtangent:** $$\text{Tangent: } y = mx + c, \text{Normal: } y - y_1 = -\frac{1}{m}(x - x_1), \text{Subtangent: } \text{Length} = |y_1| \cdot \sqrt{1 + m^2} — Formulas related to the tangent and normal to a curve.$$
 
  - **Area of Region Bounded by a Curve and x-axis:** A = \int_{a}^{b} f(x) dx — Gives the area under the curve $y = f(x)$ between $x = a$ and $x = b$.
 
@@ -119,25 +116,25 @@ practice_link: "/class-11/mathematics/application-of-derivatives-class-12-notes"
 
  
 
-\frac{d}{dx}f(x) = \frac{d}{dx}(10x^2 - x^3) = 20x - 3x^2
+$$\frac{d}{dx}f(x) = \frac{d}{dx}(10x^2 - x^3) = 20x - 3x^2$$
 
  Setting the derivative equal to zero gives us $20x - 3x^2 = 0$.
 
- Factoring out $x$, we get $x(20 - 3x) = 0$, which yields $x = 0$ or $x = \frac{20}{3}$.
+ Factoring out $x$, we get $x(20 - 3x) = 0$, which yields $x = 0$ or $x = $$\frac{20}{3}$.$$
 
  To determine which of these gives a maximum, we examine the second derivative:
 
  
 
-\frac{d^2}{dx^2}f(x) = \frac{d}{dx}(20x - 3x^2) = 20 - 6x
+$$\frac{d^2}{dx^2}f(x) = \frac{d}{dx}(20x - 3x^2) = 20 - 6x$$
 
- Evaluating the second derivative at $x = \frac{20}{3}$, we get $20 - 6(\frac{20}{3}) = 20 - 40 = -20$.
+ Evaluating the second derivative at $x = $$\frac{20}{3}$, we get $20 - 6(\frac{20}{3}) = 20 - 40 = -20$.$$
 
- Since the second derivative is negative, $x = \frac{20}{3}$ corresponds to a maximum.
+ Since the second derivative is negative, $x = $$\frac{20}{3}$ corresponds to a maximum.$$
 
- Substituting $x = \frac{20}{3}$ back into $y = 10 - x$, we find $y = 10 - \frac{20}{3} = \frac{10}{3}$.
+ Substituting $x = $$\frac{20}{3}$ back into $y = 10 - x$, we find $y = 10 - \frac{20}{3} = \frac{10}{3}$.$$
 
- Therefore, the maximum value of $x^2y$ is $(\frac{20}{3})^2(\frac{10}{3}) = \frac{4000}{27}$.
+ Therefore, the maximum value of $x^2y$ is $($$\frac{20}{3})^2(\frac{10}{3}) = \frac{4000}{27}$.$$
 
  - **Answer:** $\frac{4000}{27}$
 
@@ -151,13 +148,13 @@ practice_link: "/class-11/mathematics/application-of-derivatives-class-12-notes"
 
  
 
-v(t) = \frac{d}{dt}x(t) = \frac{d}{dt}(2t^2 + 3t + 1) = 4t + 3
+v(t) = $$\frac{d}{dt}x(t) = \frac{d}{dt}(2t^2 + 3t + 1) = 4t + 3$$
 
  The acceleration $a(t)$ is the derivative of velocity $v(t)$ with respect to time:
 
  
 
-a(t) = \frac{d}{dt}v(t) = \frac{d}{dt}(4t + 3) = 4
+a(t) = $$\frac{d}{dt}v(t) = \frac{d}{dt}(4t + 3) = 4$$
 
  At $t = 2$ seconds, the velocity is $v(2) = 4(2) + 3 = 8 + 3 = 11$ m/s.
 
@@ -175,13 +172,13 @@ a(t) = \frac{d}{dt}v(t) = \frac{d}{dt}(4t + 3) = 4
 
  
 
-\frac{dy}{dx} = \frac{d}{dx}(x^3 - 2x^2 + x + 1) = 3x^2 - 4x + 1
+$$\frac{dy}{dx} = \frac{d}{dx}(x^3 - 2x^2 + x + 1) = 3x^2 - 4x + 1$$
 
  Evaluate the derivative at $x = 1$ to find the slope $m$ of the tangent line:
 
  
 
-m = \frac{dy}{dx}\Big|_{x=1} = 3(1)^2 - 4(1) + 1 = 3 - 4 + 1 = 0
+m = $$\frac{dy}{dx}\Big|_{x=1} = 3(1)^2 - 4(1) + 1 = 3 - 4 + 1 = 0$$
 
  The slope of the tangent line at $x = 1$ is $0$.
 
@@ -249,19 +246,19 @@ abla g(x)
 | --- | --- | --- | --- | --- |
 | $y = x^2$ | $\frac{dy}{dx} = 2x$ | $\frac{d^2y}{dx^2} = 2$ | $x = 0$ | Minima |
 | $y = x^3 - 6x^2 + 9x + 2$ | $\frac{dy}{dx} = 3x^2 - 12x + 9$ | $\frac{d^2y}{dx^2} = 6x - 12$ | $x = 1, x = 3$ | Local Max/Min |
-| $y = \sqrt{x^2 + 1}$ | $\frac{dy}{dx} = \frac{x}{\sqrt{x^2 + 1}}$ | $\frac{d^2y}{dx^2} = \frac{1}{(x^2 + 1)^{3/2}}$ | - | - |
+| $y = $$\sqrt{x^2 + 1}$ | $\frac{dy}{dx} = \frac{x}$\sqrt{x^2 + 1$}$ | $\frac{d^2y}{dx^2} = \frac{1}{(x^2 + 1)^{3/2}}$ | - | - |$$
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- \frac{dy}{dx} = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h}
+- $$\frac{dy}{dx} = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h}$$
 
-- \frac{d}{dx}(x^n) = nx^{n-1}
+- $$\frac{d}{dx}(x^n) = nx^{n-1}$$
 
-- \frac{d}{dx}(\sin(x)) = \cos(x)
+- $$\frac{d}{dx}(\sin(x)) = \cos(x)$$
 
-- \frac{d}{dx}(\cos(x)) = -\sin(x)
+- $$\frac{d}{dx}(\cos(x)) = -\sin(x)$$
 
-- \frac{d}{dx}(\tan(x)) = \sec^2(x)
+- $$\frac{d}{dx}(\tan(x)) = \sec^2(x)$$
 
  - Key facts:
 
@@ -280,14 +277,9 @@ abla g(x)
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What is the primary application of derivatives in functions?**
-
--
 A) Finding maxima/minima
--
 B) Finding inflection points
--
 C) Solving differential equations
--
 D) Graphing functions
 
 **Answer:** A) Derivatives are used to find the critical points of a function, which can be maxima or minima.
@@ -295,14 +287,9 @@ D) Graphing functions
 ---
 
 **2. A function f(x) has a derivative f'(x) = 2x. What is the equation of the tangent line at x = 2?**
-
--
 A) y = 2x + 1
--
 B) y = 4x - 2
--
 C) y = x^2 - 1
--
 D) y = 2x - 3
 
 **Answer:** B) First, find f(2) = 2^2 = 4. The slope at x = 2 is f'(2) = 2*2 = 4. Using point-slope form, y - 4 = 4(x - 2), which simplifies to y = 4x - 4.
@@ -310,14 +297,9 @@ D) y = 2x - 3
 ---
 
 **3. Which of the following is NOT an application of derivatives?**
-
--
 A) Optimization problems
--
 B) Related rates
--
 C) Differential equations
--
 D) Integration by parts
 
 **Answer:** D) Integration by parts is a technique of integration, not an application of derivatives.
@@ -326,13 +308,9 @@ D) Integration by parts
 
 **4. A company's profit function is P(x) = 100x - x^2, where x is the number of units sol
 d. How many units should be sold to maximize profit?**
--
 A) 25
--
 B) 50
--
 C) 75
--
 D) 100
 
 **Answer:** B) To maximize profit, take the derivative of P(x) and set it equal to zero. P'(x) = 100 - 2x = 0. Solving for x, x = 50.
@@ -341,13 +319,9 @@ D) 100
 
 **5. What is the name of the theorem that states if a function f is continuous on [a, b] and differentiable on (a,
 b), then there exists c in (a, b) such that f'(c) = (f(b) - f(a))/(b - a)?**
--
 A) Mean Value Theorem
--
 B) Extreme Value Theorem
--
 C) Rolle's Theorem
--
 D) Fundamental Theorem of Calculus
 
 **Answer:** A) The Mean Value Theorem is a fundamental theorem in calculus that relates the derivative of a function to the slope of the tangent line.

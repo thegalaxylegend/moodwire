@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/indian-geography-physical-class-11-revision-notes-jee-neet"
 ---
 
-
-![Indian Geography Physical Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/indian-geography-physical-class-11-revision-notes-jee-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -37,7 +34,7 @@ practice_link: "/class-11/physics/indian-geography-physical-class-11-revision-no
 
 ## <a id="what-is-indian-geography-physical"></a>What is Indian Geography Physical?
 
-# Physical Geography Class 11 Quick Recap — MCQs, Key Points & PDF Download
+
 
 
 

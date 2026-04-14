@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/classification-of-elements-class-11-revision-notes-jee-neet"
 ---
 
-
-![Classification Of Elements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/classification-of-elements-class-11-revision-notes-jee-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -36,7 +33,7 @@ practice_link: "/class-11/physics/classification-of-elements-class-11-revision-n
 
 ## <a id="what-is-classification-of-elements"></a>What is Classification Of Elements?
 
-# Classification of Elements Class 11 Notes — Exam Compass
+
 
 
 
@@ -76,7 +73,7 @@ The core concepts in the classification of [elements](/blog/the-p-block-elements
 
 * $Z = p + n$, where $Z$ is the atomic number, $p$ is the number of protons, and $n$ is the number of neutrons
 * $A = p + n$, where $A$ is the mass number
-* $\lambda = \frac{h}{mv}$, where $\lambda$ is the wavelength, $h$ is Planck's constant, $m$ is the mass, and $v$ is the velocity
+* $\lambda = $$\frac{h}{mv}$, where $\lambda$ is the wavelength, $h$ is Planck's constant, $m$ is the mass, and $v$ is the velocity$$
 
 ## <a id="trends-in-physical-and-chemical-properties"></a>Trends in Physical and Chemical Properties
 
@@ -91,8 +88,8 @@ The classification of elements also helps us to understand the trends in physica
 Here are some examples of LaTeX equations related to the classification of elements:
 
 * The electronic configuration of an element can be represented as: $1s^2 2s^2 2p^6$
-* The atomic radius of an element can be calculated using the formula: $r = \frac{a}{Z}$, where $r$ is the atomic radius, $a$ is a constant, and $Z$ is the atomic number
-* The ionization energy of an element can be represented as: $\Delta E = \frac{hc}{\lambda}$, where $\Delta E$ is the ionization energy, $h$ is Planck's constant, $c$ is the speed of light, and $\lambda$ is the wavelength
+* The atomic radius of an element can be calculated using the formula: $r = $$\frac{a}{Z}$, where $r$ is the atomic radius, $a$ is a constant, and $Z$ is the atomic number$$
+* The ionization energy of an element can be represented as: $\Delta E = $$\frac{hc}{\lambda}$, where $\Delta E$ is the ionization energy, $h$ is Planck's constant, $c$ is the speed of light, and $\lambda$ is the wavelength$$
 
 As I continue to explore the world of [chemistry](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet), I realize that the classification of elements is a fundamental concept that underlies many of the principles and reactions that we study. By understanding the periodic table and the trends in physical and chemical properties, I can better appreciate the beauty and complexity of the chemical world. Whether I'm solving problems, practicing MCQs, or simply exploring the properties of different elements, I know that the classification of elements will remain a vital tool in my journey as a chemistry student. 
 

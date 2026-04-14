@@ -7,9 +7,6 @@ date: "2026-03-31"
 practice_link: "/class-11/chemistry/metallurgy-class-12-notes"
 ---
 
-
-![Metallurgy Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/metallurgy-class-12-notes.webp)
-
 *Last Updated: 2026-03-31*
 
 
@@ -137,7 +134,7 @@ practice_link: "/class-11/chemistry/metallurgy-class-12-notes"
  - Determining the feasibility of metal extraction processes: electrochemical principles are used to determine the feasibility of metal extraction processes.
 #### Nernst Equation
 
-- It is used to calculate the electrode potential: E = E^{\circ} - \frac{RT}{nF}\ln Q
+- It is used to calculate the electrode potential: E = E^{\circ} - $$\frac{RT}{nF}\ln Q$$
 
 
 

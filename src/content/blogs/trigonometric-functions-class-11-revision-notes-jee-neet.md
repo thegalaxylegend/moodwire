@@ -91,21 +91,21 @@ practice_link: "/practice/trigonometric-functions-class-11-revision-notes-jee-ne
 ## <a id="key-values"></a>**Key Values**
 * **Sine**:
   + $sin(0) = 0$
-  + $sin(\frac{\pi}{6}) = \frac{1}{2}$
-  + $sin(\frac{\pi}{4}) = \frac{\sqrt{2}}{2}$
-  + $sin(\frac{\pi}{3}) = \frac{\sqrt{3}}{2}$
-  + $sin(\frac{\pi}{2}) = 1$
+  + $sin($$\frac{\pi}{6}) = \frac{1}{2}$$$
+  + $sin($$\frac{\pi}{4}) = \frac$\sqrt{2$}{2}$$$
+  + $sin($$\frac{\pi}{3}) = \frac$\sqrt{3$}{2}$$$
+  + $sin($$\frac{\pi}{2}) = 1$$$
 * **Cosine**:
   + $cos(0) = 1$
-  + $cos(\frac{\pi}{6}) = \frac{\sqrt{3}}{2}$
-  + $cos(\frac{\pi}{4}) = \frac{\sqrt{2}}{2}$
-  + $cos(\frac{\pi}{3}) = \frac{1}{2}$
-  + $cos(\frac{\pi}{2}) = 0$
+  + $cos($$\frac{\pi}{6}) = \frac$\sqrt{3$}{2}$$$
+  + $cos($$\frac{\pi}{4}) = \frac$\sqrt{2$}{2}$$$
+  + $cos($$\frac{\pi}{3}) = \frac{1}{2}$$$
+  + $cos($$\frac{\pi}{2}) = 0$$$
 * **Tangent**:
   + $tan(0) = 0$
-  + $tan(\frac{\pi}{6}) = \frac{1}{\sqrt{3}}$
-  + $tan(\frac{\pi}{4}) = 1$
-  + $tan(\frac{\pi}{3}) = \sqrt{3}$
+  + $tan($$\frac{\pi}{6}) = \frac{1}$\sqrt{3$}$$$
+  + $tan($$\frac{\pi}{4}) = 1$$$
+  + $tan($$\frac{\pi}{3}) = \sqrt{3}$$$
 
 ### <a id="fundamental-trigonometric-identity"></a>**Fundamental Trigonometric Identity**
 The fundamental [trigonometric](/blog/inverse-trigonometric-functions-class-12-notes) identity is given by:
@@ -116,13 +116,13 @@ where $a$ and $b$ are the lengths of the legs of a right triangle, and $c$ is th
 
 ### <a id="derivation-of-the-fundamental-trigonometric-identity"></a>**Derivation of the Fundamental Trigonometric Identity**
 Using the definitions of **sine** and **cosine**, we can write:
-\sin(x) = \frac{a}{c}\cos(x) = \frac{b}{c}
+\sin(x) = $$\frac{a}{c}\cos(x) = \frac{b}{c}$$
 Substituting these expressions into the Pythagorean Theorem, we get:
-\left(\frac{a}{c}\right)^2 + \left(\frac{b}{c}\right)^2 = 1
+\left($$\frac{a}{c}\right)^2 + \left(\frac{b}{c}\right)^2 = 1$$
 Simplifying this expression, we get:
-\frac{a^2}{c^2} + \frac{b^2}{c^2} = 1
+$$\frac{a^2}{c^2} + \frac{b^2}{c^2} = 1$$
 Using the fact that $a^2 + b^2 = c^2$, we can rewrite this expression as:
-\frac{c^2}{c^2} = 1
+$$\frac{c^2}{c^2} = 1$$
 which simplifies to:
 \sin^2(x) + \cos^2(x) = 1
 
@@ -141,9 +141,9 @@ which simplifies to:
 
 ### <a id="derivations"></a>**Derivations**
 * Derivation of **sine** and **cosine** from the unit circle: 
-\sin \theta = \frac{y}{r} = \frac{y}{1} = y\cos \theta = \frac{x}{r} = \frac{x}{1} = x
+\sin \theta = $$\frac{y}{r} = \frac{y}{1} = y\cos \theta = \frac{x}{r} = \frac{x}{1} = x$$
 * Derivation of **tangent**: 
-\tan \theta = \frac{\sin \theta}{\cos \theta} = \frac{y}{x}
+\tan \theta = $$\frac{\sin \theta}{\cos \theta} = \frac{y}{x}$$
 
 ## <a id="reciprocal-trigonometric-functions"></a>Reciprocal Trigonometric Functions
 ### <a id="definitions"></a>**Definitions**
@@ -153,11 +153,11 @@ which simplifies to:
 
 #
 * Derivation of **cosecant** and **secant**: 
-\csc \theta = \frac{1}{\sin \theta} = \frac{1}{y}\sec \theta = \frac{1}{\cos \theta} = \frac{1}{x}
+\csc \theta = $$\frac{1}{\sin \theta} = \frac{1}{y}\sec \theta = \frac{1}{\cos \theta} = \frac{1}{x}$$
 * Derivation of **cotangent**: 
-\cot \theta = \frac{1}{\tan \theta} = \frac{x}{y}
+\cot \theta = $$\frac{1}{\tan \theta} = \frac{x}{y}$$
 * Relationship between **cotangent** and **tangent**: 
-\cot \theta = \frac{1}{\tan \theta} = \frac{\cos \theta}{\sin \theta}
+\cot \theta = $$\frac{1}{\tan \theta} = \frac{\cos \theta}{\sin \theta}$$
 
 ## <a id="inverse-trigonometric-functions"></a>Inverse Trigonometric Functions
 ### <a id="definitions"></a>**Definitions**
@@ -171,9 +171,9 @@ y = \sin \theta\theta = \arcsin y
 * Derivation of **arccosine**: 
 x = \cos \theta\theta = \arccos x
 * Derivation of **arctangent**: 
-\frac{y}{x} = \tan \theta\theta = \arctan \frac{y}{x}
+$$\frac{y}{x} = \tan \theta\theta = \arctan \frac{y}{x}$$
 * Relationship between **arctangent** and **arccotangent**: 
-\arctan \theta = \frac{\pi}{2} - \operatorname{arccot} \theta
+\arctan \theta = $$\frac{\pi}{2} - \operatorname{arccot} \theta$$
 
 ### <a id="key-identities"></a>**Key Identities**
 * **Pythagorean identity**: $\sin^2 \theta + \cos^2 \theta = 1$
@@ -184,9 +184,9 @@ x = \cos \theta\theta = \arccos x
   + $\arccos x: [-1, 1]$
   + $\arctan x: (-\infty, \infty)$
 * **Domain of inverse functions**:
-  + $\arcsin x: \left[-\frac{\pi}{2}, \frac{\pi}{2}\right]$
+  + $\arcsin x: \left[-$$\frac{\pi}{2}, \frac{\pi}{2}\right]$$$
   + $\arccos x: [0, \pi]$
-  + $\arctan x: \left(-\frac{\pi}{2}, \frac{\pi}{2}\right)$
+  + $\arctan x: \left(-$$\frac{\pi}{2}, \frac{\pi}{2}\right)$$$
 
 ## <a id="technical-specs"></a>Technical Specs
 
@@ -225,9 +225,9 @@ The general form of a sine function can be derived as follows:
 f(x) = A\sin(Bx - C) + D
 where $A$, $B$, $C$, and $D$ are constants. 
 To derive the period $T$, we use the fact that the sine function has a period of $2\pi$:
-T = \frac{2\pi}{B}
+T = $$\frac{2\pi}{B}$$
 The phase shift can be derived by setting $Bx - C = 0$:
-x = \frac{C}{B}
+x = $$\frac{C}{B}$$
 The amplitude can be derived by taking the absolute value of $A$:
 A = |A|
 
@@ -250,7 +250,7 @@ A = |A|
 * **Definition**: Ratio of sine and cosine.
 * **Formula**: $f(x) = \frac{\sin(x)}{\cos(x)}$
 * **Derivation**: 
-\frac{d}{dx} \tan(x) = \frac{d}{dx} \frac{\sin(x)}{\cos(x)}= \frac{\cos(x) \frac{d}{dx} \sin(x) - \sin(x) \frac{d}{dx} \cos(x)}{\cos^2(x)}= \frac{\cos(x) \cos(x) - \sin(x) (-\sin(x))}{\cos^2(x)}= \frac{\cos^2(x) + \sin^2(x)}{\cos^2(x)}= \frac{1}{\cos^2(x)}= \sec^2(x)
+$$\frac{d}{dx} \tan(x) = \frac{d}{dx} \frac{\sin(x)}{\cos(x)}= \frac{\cos(x) \frac{d}{dx} \sin(x) - \sin(x) \frac{d}{dx} \cos(x)}{\cos^2(x)}= \frac{\cos(x) \cos(x) - \sin(x) (-\sin(x))}{\cos^2(x)}= \frac{\cos^2(x) + \sin^2(x)}{\cos^2(x)}= \frac{1}{\cos^2(x)}= \sec^2(x)$$
 
 ## <a id="advanced-analysis"></a>Advanced Analysis
 
@@ -268,13 +268,13 @@ A = |A|
 * $\cos(2A) = 2\cos^2 A - 1$
 * $\cos(2A) = 1 - 2\sin^2 A$
 ### <a id="halfangle-formulas"></a>**Half-Angle Formulas**
-* $\sin\left(\frac{A}{2}\right) = \pm \sqrt{\frac{1 - \cos A}{2}}$
-* $\cos\left(\frac{A}{2}\right) = \pm \sqrt{\frac{1 + \cos A}{2}}$
+* $\sin\left($$\frac{A}{2}\right) = \pm \sqrt$\frac{1 - \cos A${2}}$$$
+* $\cos\left($$\frac{A}{2}\right) = \pm \sqrt$\frac{1 + \cos A${2}}$$$
 
 ## <a id="producttosum-formulas"></a>**Product-to-Sum Formulas**
-* $\sin A \sin B = \frac{1}{2}[\cos(A-B) - \cos(A+B)]$
-* $\cos A \cos B = \frac{1}{2}[\cos(A-B) + \cos(A+B)]$
-* $\sin A \cos B = \frac{1}{2}[\sin(A+B) + \sin(A-B)]$
+* $\sin A \sin B = $$\frac{1}{2}[\cos(A-B) - \cos(A+B)]$$$
+* $\cos A \cos B = $$\frac{1}{2}[\cos(A-B) + \cos(A+B)]$$$
+* $\sin A \cos B = $$\frac{1}{2}[\sin(A+B) + \sin(A-B)]$$$
 
 ## <a id="modeling-realworld-phenomena"></a>**Modeling Real-World Phenomena**
 ### <a id="sound-waves"></a>**Sound Waves**
@@ -283,16 +283,14 @@ A = |A|
 * **Wave Period**: $T = \frac{2\pi}{\omega}$
 ### <a id="derivation-of-simple-harmonic-motion"></a>**Derivation of Simple Harmonic Motion**
 
-\frac{d^2y}{dt^2} = -\omega^2 y
-
-\frac{dy}{dt} = \omega \cos(\omega t + \phi)
+$$\frac{d^2y}{dt^2} = -\omega^2 y\frac{dy}{dt} = \omega \cos(\omega t + \phi)$$
 
 y = A \sin(\omega t + \phi)
 
 ## <a id="applications-of-trigonometric-functions"></a>**Applications of Trigonometric Functions**
-* **Navigation**: $\sin(\text{latitude}) = \frac{\text{opposite}}{\text{hypotenuse}}$
+* **Navigation**: $\sin(\text{latitude}) = \frac$\text{opposite$}$\text{hypotenuse$}$
 * **Physics**: $\vec{F} = m\vec{a} = m\frac{d^2\vec{r}}{dt^2}$
-* **Engineering**: $\sin(\theta) = \frac{\text{opposite}}{\text{hypotenuse}}$
+* **Engineering**: $\sin(\theta) = \frac$\text{opposite$}$\text{hypotenuse$}$
 * **Computer Science**: $\sin(\theta) = \frac{e^{i\theta} - e^{-i\theta}}{2i}$
 
 ## <a id="mathematical-derivations"></a>**Mathematical Derivations**
@@ -310,15 +308,15 @@ y = A \sin(\omega t + \phi)
 
 ### <a id="derivation-of-halfangle-formula"></a>**Derivation of Half-Angle Formula**
 
-\sin\left(\frac{A}{2}\right) = \pm \sqrt{\frac{1 - \cos A}{2}}
+\sin\left($$\frac{A}{2}\right) = \pm \sqrt$\frac{1 - \cos A${2}}$$
 
-= \pm \sqrt{\frac{1 - \cos A}{2}}
+= \pm $$\sqrt$\frac{1 - \cos A${2}}$$
 
 ### <a id="derivation-of-producttosum-formula"></a>**Derivation of Product-to-Sum Formula**
 
-\sin A \sin B = \frac{1}{2}[\cos(A-B) - \cos(A+B)]
+\sin A \sin B = $$\frac{1}{2}[\cos(A-B) - \cos(A+B)]$$
 
-= \frac{1}{2}[\cos(A-B) - \cos(A+B)]
+= $$\frac{1}{2}[\cos(A-B) - \cos(A+B)]$$
 
 ## <a id="practice-problems"></a>Practice Problems
 
@@ -328,52 +326,47 @@ y = A \sin(\omega t + \phi)
 * **Tangent**: ratio of opposite side to adjacent side.
 
 ### <a id="trigonometric-identities"></a>**Trigonometric Identities**
-* $a\sin(x) + b\cos(x) = \sqrt{a^2 + b^2}\sin(x + \theta)$, where $\theta = \arctan\left(\frac{b}{a}\right)$
+* $a\sin(x) + b\cos(x) = $$\sqrt{a^2 + b^2}\sin(x + \theta)$, where $\theta = \arctan\left(\frac{b}{a}\right)$$$
 * $\sin^2(x) + \cos^2(x) = 1$
 * $\sin(2x) = 2\sin(x)\cos(x)$
 * $\cos(2x) = \cos^2(x) - \sin^2(x)$
-* $\tan(2x) = \frac{2\tan(x)}{1 - \tan^2(x)}$
+* $\tan(2x) = $$\frac{2\tan(x)}{1 - \tan^2(x)}$$$
 
 ## <a id="applications"></a>**Applications**
 ### <a id="physics-and-engineering"></a>**Physics and Engineering**
-* Projectile motion: $y = x\tan(\theta) - \frac{gx^2}{2v_0^2\cos^2(\theta)}$, where $y$ is height, $x$ is range, $\theta$ is angle of projection, $g$ is acceleration due to gravity, and $v_0$ is initial velocity.
+* Projectile motion: $y = x\tan(\theta) - $$\frac{gx^2}{2v_0^2\cos^2(\theta)}$, where $y$ is height, $x$ is range, $\theta$ is angle of projection, $g$ is acceleration due to gravity, and $v_0$ is initial velocity.$$
 * Simple harmonic motion: $x(t) = A\cos(\omega t + \phi)$, where $x$ is displacement, $A$ is amplitude, $\omega$ is angular frequency, and $\phi$ is phase angle.
 * Wave propagation: $y(x,t) = A\sin(kx - \omega t)$, where $y$ is displacement, $A$ is amplitude, $k$ is wave number, and $\omega$ is angular frequency.
 
 ### <a id="navigation"></a>**Navigation**
-* Triangulation: $d = \frac{a\sin(\alpha)\sin(\beta)}{\sin(\alpha - \beta)}$, where $d$ is distance, $a$ is base length, and $\alpha$ and $\beta$ are angles.
+* Triangulation: $d = $$\frac{a\sin(\alpha)\sin(\beta)}{\sin(\alpha - \beta)}$, where $d$ is distance, $a$ is base length, and $\alpha$ and $\beta$ are angles.$$
 * **Great Circle Distance**: $d = r\arccos\left(\sin(\phi_1)\sin(\phi_2) + \cos(\phi_1)\cos(\phi_2)\cos(\Delta\lambda)\right)$, where $d$ is distance, $r$ is radius, $\phi_1$ and $\phi_2$ are latitudes, and $\Delta\lambda$ is difference in longitude.
 
 ## <a id="solving-equations"></a>**Solving Equations**
 ### <a id="basic-techniques"></a>**Basic Techniques**
-* Isolating $\sin(x)$: $\sin(x) = \frac{y}{\sqrt{x^2 + y^2}}$
-* Isolating $\cos(x)$: $\cos(x) = \frac{x}{\sqrt{x^2 + y^2}}$
+* Isolating $\sin(x)$: $\sin(x) = $$\frac{y}$\sqrt{x^2 + y^2$}$$$
+* Isolating $\cos(x)$: $\cos(x) = $$\frac{x}$\sqrt{x^2 + y^2$}$$$
 * Using **Pythagorean Identity**: $\sin^2(x) + \cos^2(x) = 1$
 
 ### <a id="advanced-techniques"></a>**Advanced Techniques**
 * Using **Double Angle Formulas**: $\sin(2x) = 2\sin(x)\cos(x)$
-* Using **Half Angle Formulas**: $\sin\left(\frac{x}{2}\right) = \pm\sqrt{\frac{1 - \cos(x)}{2}}$
+* Using **Half Angle Formulas**: $\sin\left(\frac{x}{2}\right) = \pm\sqrt$\frac{1 - \cos(x)${2}}$
 * Using **Sum-to-Product Identities**: $\sin(x) + \sin(y) = 2\sin\left(\frac{x + y}{2}\right)\cos\left(\frac{x - y}{2}\right)$
 
 ## <a id="derivations"></a>**Derivations**
 
-\begin{aligned}
+$$\begin{aligned}$$
 \sin(2x) &= \sin(x + x) \\
 &= \sin(x)\cos(x) + \cos(x)\sin(x) \\
 &= 2\sin(x)\cos(x)
-\end{aligned}
-
-\begin{aligned}
+$$\end{aligned}\begin{aligned}$$
 \cos(2x) &= \cos(x + x) \\
 &= \cos(x)\cos(x) - \sin(x)\sin(x) \\
 &= \cos^2(x) - \sin^2(x)
-\end{aligned}
-
-\begin{aligned}
-\tan(2x) &= \frac{\sin(2x)}{\cos(2x)} \\
-&= \frac{2\sin(x)\cos(x)}{\cos^2(x) - \sin^2(x)} \\
-&= \frac{2\tan(x)}{1 - \tan^2(x)}
-\end{aligned}
+$$\end{aligned}\begin{aligned}$$
+\tan(2x) &= $$\frac{\sin(2x)}{\cos(2x)} \\$$
+&= $$\frac{2\sin(x)\cos(x)}{\cos^2(x) - \sin^2(x)} \\$$
+&= $$\frac{2\tan(x)}{1 - \tan^2(x)}\end{aligned}$$
 
 ### <a id="key-takeaways"></a>**Key Takeaways**
 * Trigonometric functions have numerous applications in physics, engineering, and navigation.
@@ -384,46 +377,45 @@ y = A \sin(\omega t + \phi)
 
 ## <a id="step-1-problem-1-trigonometric-identity"></a>Step 1: Problem 1 - Trigonometric Identity
 **Trigonometric Identity**: $sin^2(x) + cos^2(x) = 1$.
-* Given: $sin(x) = \frac{3}{5}$
+* Given: $sin(x) = $$\frac{3}{5}$$$
 * Find: $cos(x)$
 * Using identity: $cos^2(x) = 1 - sin^2(x)$
-* Substituting $sin(x)$: $cos^2(x) = 1 - \left(\frac{3}{5}\right)^2$
-* Simplifying: $cos^2(x) = 1 - \frac{9}{25} = \frac{16}{25}$
-* Taking square root: $cos(x) = \pm \sqrt{\frac{16}{25}} = \pm \frac{4}{5}$
+* Substituting $sin(x)$: $cos^2(x) = 1 - \left($$\frac{3}{5}\right)^2$$$
+* Simplifying: $cos^2(x) = 1 - $$\frac{9}{25} = \frac{16}{25}$$$
+* Taking square root: $cos(x) = \pm $$\sqrt$\frac{16${25}} = \pm \frac{4}{5}$$$
 
 ## <a id="step-2-problem-2-trigonometric-equation"></a>Step 2: Problem 2 - Trigonometric Equation
 **Trigonometric Equation**: $sin(2x) = 2sin(x)cos(x)$.
-* Given: $2sin(x)cos(x) = \frac{1}{2}$
+* Given: $2sin(x)cos(x) = $$\frac{1}{2}$$$
 * Find: $x$
-* Using equation: $sin(2x) = \frac{1}{2}$
-* Solving for $x$: $2x = \frac{\pi}{6} + 2\pi n$ or $2x = \frac{5\pi}{6} + 2\pi n$
-* Simplifying: $x = \frac{\pi}{12} + \pi n$ or $x = \frac{5\pi}{12} + \pi n$
+* Using equation: $sin(2x) = $$\frac{1}{2}$$$
+* Solving for $x$: $2x = $$\frac{\pi}{6} + 2\pi n$ or $2x = \frac{5\pi}{6} + 2\pi n$$$
+* Simplifying: $x = $$\frac{\pi}{12} + \pi n$ or $x = \frac{5\pi}{12} + \pi n$$$
 
 ## <a id="step-3-problem-3-trigonometric-function"></a>Step 3: Problem 3 - Trigonometric Function
 **Trigonometric Function**: $tan(x) = \frac{sin(x)}{cos(x)}$.
-* Given: $tan(x) = \frac{1}{\sqrt{3}}$
+* Given: $tan(x) = $$\frac{1}$\sqrt{3$}$$$
 * Find: $x$
-* Using function: $tan(x) = \frac{1}{\sqrt{3}} = \frac{\sqrt{3}}{3}$
-* Solving for $x$: $x = \frac{\pi}{6} + \pi n$
-* Simplifying: $x = \frac{\pi}{6} + \pi n$ 
+* Using function: $tan(x) = $$\frac{1}$\sqrt{3$} = \frac$\sqrt{3$}{3}$$$
+* Solving for $x$: $x = $$\frac{\pi}{6} + \pi n$$$
+* Simplifying: $x = $$\frac{\pi}{6} + \pi n$$$
 
 Derivation:
 
-\begin{aligned}
+$$\begin{aligned}$$
 sin^2(x) + cos^2(x) &= 1 \\
 cos^2(x) &= 1 - sin^2(x) \\
-cos(x) &= \pm \sqrt{1 - sin^2(x)} \\
-tan(x) &= \frac{sin(x)}{cos(x)} \\
-tan(2x) &= \frac{2tan(x)}{1 - tan^2(x)}
-\end{aligned}
+cos(x) &= \pm $$\sqrt{1 - sin^2(x)} \\$$
+tan(x) &= $$\frac{sin(x)}{cos(x)} \\$$
+tan(2x) &= $$\frac{2tan(x)}{1 - tan^2(x)}\end{aligned}$$
 
 Key points:
-* $sin(x) = \frac{3}{5}$
-* $cos(x) = \pm \frac{4}{5}$
-* $tan(x) = \frac{3}{4}$
-* $x = \frac{\pi}{6} + \pi n$ 
-* $x = \frac{\pi}{12} + \pi n$ 
-* $x = \frac{5\pi}{12} + \pi n$
+* $sin(x) = $$\frac{3}{5}$$$
+* $cos(x) = \pm $$\frac{4}{5}$$$
+* $tan(x) = $$\frac{3}{4}$$$
+* $x = $$\frac{\pi}{6} + \pi n$$$
+* $x = $$\frac{\pi}{12} + \pi n$$$
+* $x = $$\frac{5\pi}{12} + \pi n$$$
 
 ## <a id="practice-mcqs"></a>Practice MCQs
 

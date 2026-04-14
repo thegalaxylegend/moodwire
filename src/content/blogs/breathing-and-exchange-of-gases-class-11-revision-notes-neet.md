@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/breathing-and-exchange-of-gases-class-11-revision-notes-neet"
 ---
 
-
-![Breathing And Exchange Of Gases Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog-images/breathing-and-exchange-of-gases-class-11-revision-notes-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -45,7 +42,7 @@ practice_link: "/class-11/biology/breathing-and-exchange-of-gases-class-11-revis
 
 ## <a id="what-is-breathing-and-exchange-of-gases"></a>What is Breathing And Exchange Of Gases?
 
-# Breathing and Exchange of Gases Class 11 Notes — Exam Compass
+
 
 
 
@@ -181,7 +178,7 @@ According to the JEE/MEET syllabus, the topic of respiratory system is covered u
 ### <a id="formulae"></a>Formulae
 The following formulae are relevant to the topic of respiratory system:
 
-* **Pick's Law of Diffusion**: $\franc{dQ}{dt} = \franc{D \times A}{\Delta x} \times (C_1 - C_2)$, where $\franc{dQ}{dt}$ is the rate of diffusion, DO is the diffusion constant, A is the surface area, $\Delta $ is the thickness of the membrane, and BC_1$ and BC_2$ are the concentrations of the gas on either side of the membrane.
+* **Pick's Law of Diffusion**: $\franc{dQ}{dt} = \franc{D \times A}$\Delta x$ \times (C_1 - C_2)$, where $\franc{dQ}{dt}$ is the rate of diffusion, DO is the diffusion constant, A is the surface area, $\Delta $ is the thickness of the membrane, and BC_1$ and BC_2$ are the concentrations of the gas on either side of the membrane.
 * **Graham's Law of Diffusion**: $\franc{r_1}{r_2} = \sort{\franc{M_2}{M_1}}$, where or_1$ and or_2$ are the rates of diffusion of two gases, and KM_1$ and KM_2$ are the molecular weights of the two gases.
 
 ### <a id="MCQs"></a>MCQs

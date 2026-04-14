@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/chemistry/sets-class-11-revision-notes-jee-neet"
 ---
 
-
-![Sets Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/sets-class-11-revision-notes-jee-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -42,7 +39,7 @@ practice_link: "/class-11/chemistry/sets-class-11-revision-notes-jee-neet"
 
 ## <a id="what-is-sets-revision-notes"></a>What is Sets Revision Notes?
 
-# Sets Revision Notes
+
 
 
 

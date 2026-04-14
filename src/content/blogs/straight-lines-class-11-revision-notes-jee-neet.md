@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/straight-lines-class-11-revision-notes-jee-neet"
 ---
 
-
-![Straight Lines Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/straight-lines-class-11-revision-notes-jee-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -39,7 +36,7 @@ practice_link: "/class-11/physics/straight-lines-class-11-revision-notes-jee-nee
 
 ## <a id="what-is-straight-lines-revision-notes"></a>What is Straight Lines Revision Notes?
 
-# Straight Lines Revision Notes
+
 
 
 

@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/ancient-india-indus-valley-class-11-revision-notes-cbse"
 ---
 
-
-![Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog-images/ancient-india-indus-valley-class-11-revision-notes-cbse.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -41,7 +38,7 @@ practice_link: "/class-11/ancient-india-indus-valley-class-11-revision-notes-cbs
 
 ## <a id="what-is-ancient-India-Indus-valley"></a>What is Ancient India Indus Valley?
 
-[object Object]
+
 
 
 

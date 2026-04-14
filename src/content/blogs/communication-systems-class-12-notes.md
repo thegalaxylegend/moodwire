@@ -7,9 +7,6 @@ date: "2026-03-29"
 practice_link: "/class-11/physics/communication-systems-class-12-notes"
 ---
 
-
-![Communication Systems Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/communication-systems-class-12-notes.webp)
-
 *Last Updated: 2026-03-29*
 
 ## 📋 Table of Contents
@@ -31,7 +28,7 @@ practice_link: "/class-11/physics/communication-systems-class-12-notes"
 * Frequency Modulation (FM) and Phase Modulation (PM) waveforms -- identification and comparison
 * Comparison of AM and FM -- always 2 marks
 * Basic block diagram of a communication system -- transmitter, receiver, and channel
-* $SNR = \frac{P_{signal}}{P_{noise}}$ -- formula must be stated
+* $SNR = $$\frac{P_{signal}}{P_{noise}}$ -- formula must be stated$$
 * Bandwidth and frequency allocation -- 1 mark
 * Standard AM waveform $y(t) = A_c \cos(\omega_c t) + A_m \cos(\omega_m t)$ -- sketching and explanation
 * Definition and explanation of terms: attenuation, amplification, and modulation index -- always 1 mark
@@ -41,18 +38,18 @@ practice_link: "/class-11/physics/communication-systems-class-12-notes"
 | Formula | Variables |
 | --- | --- |
 
-| \text{Signal-to-Noise Ratio (SNR)} = \frac{P_s}{P_n} | P_s: Signal Power, P_n: Noise Power |
+| $$\text{Signal-to-Noise Ratio (SNR)} = \frac{P_s}{P_n} | P_s: Signal Power, P_n: Noise Power |$$
 
-| \text{Bandwidth (B)} = f_h - f_l | f_h: Higher Frequency, f_l: Lower Frequency |
+| $$\text{Bandwidth (B)} = f_h - f_l | f_h: Higher Frequency, f_l: Lower Frequency |$$
 
-| \text{Channel Capacity (C)} = B \times \log_2(1 + \frac{S}{N}) | B: Bandwidth, S: Signal Power, N: Noise Power |
+| $$\text{Channel Capacity (C)} = B \times \log_2(1 + \frac{S}{N}) | B: Bandwidth, S: Signal Power, N: Noise Power |$$
 
-| \text{Shannon-Hartley Theorem: } C = B \times \log_2(1 + \frac{P_s}{P_n}) | C: Channel Capacity, B: Bandwidth, P_s: Signal Power, P_n: Noise Power |
+| $$\text{Shannon-Hartley Theorem: } C = B \times \log_2(1 + \frac{P_s}{P_n}) | C: Channel Capacity, B: Bandwidth, P_s: Signal Power, P_n: Noise Power |$$
 
-| \text{Bit Error Rate (BER)} = \frac{1}{2} \times \text{erfc}\left(\sqrt{\frac{E_b}{N_0}}\right) | E_b: Energy per Bit, N_0: Noise Power Spectral Density |
+| $$\text{Bit Error Rate (BER)} = \frac{1}{2} \times \text{erfc}\left(\sqrt$\frac{E_b${N_0}}\right) | E_b: Energy per Bit, N_0: Noise Power Spectral Density |$$
 
-| \text{Nyquist Rate: } f_s = 2B | f_s: Sampling Frequency, B: Bandwidth |
-| \text{Sampling Theorem: } f_s \geq 2f_m | f_s: Sampling Frequency, f_m: Maximum Frequency |
+| $$\text{Nyquist Rate: } f_s = 2B | f_s: Sampling Frequency, B: Bandwidth |$$
+| $$\text{Sampling Theorem: } f_s \geq 2f_m | f_s: Sampling Frequency, f_m: Maximum Frequency |$$
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -60,11 +57,11 @@ In Communication Systems, these mistakes are common and costly. Identify and rec
 
 | Mistake | Costs | Fix |
 | --- | --- | --- |
-| Using $\frac{1}{\sqrt{2}}$ for noise figure without considering given values | 2 marks | Always use given values for $T_0$ (usually 290K) and $\frac{N_0}{2}$ to find noise figure |
+| Using $\frac{1}$\sqrt{2$}$ for noise figure without considering given values | 2 marks | Always use given values for $T_0$ (usually 290K) and $\frac{N_0}{2}$ to find noise figure |
 | Forgetting to convert $\lambda$ to meters when using $\frac{c}{\lambda}$ for frequency | Full 4 marks | Always ensure $\lambda$ is in meters and $c = 3 \times 10^8$ m/s |
-| Writing $SNR = \frac{S}{N}$ without considering bandwidth $B$ | 3 marks | Use $SNR = \frac{S}{N} = \frac{S}{kTB}$ where $k$ is Boltzmann's constant |
-| Incorrectly applying $P_t = \frac{P_r}{G_t G_r (\frac{\lambda}{4\pi R})^2}$ for power transmission | 4 marks | Remember to use $P_t = \frac{P_r (4\pi R)^2}{G_t G_r \lambda^2}$ and ensure all units are consistent |
-| Not accounting for $\Delta f$ when calculating channel capacity using $C = B \log_2(1 + \frac{S}{N})$ | 2 marks | Always consider the bandwidth $B$ in Hz and ensure $\frac{S}{N}$ is correctly calculated |
+| Writing $SNR = $$\frac{S}{N}$ without considering bandwidth $B$ | 3 marks | Use $SNR = \frac{S}{N} = \frac{S}{kTB}$ where $k$ is Boltzmann's constant |$$
+| Incorrectly applying $P_t = $$\frac{P_r}{G_t G_r (\frac{\lambda}{4\pi R})^2}$ for power transmission | 4 marks | Remember to use $P_t = \frac{P_r (4\pi R)^2}{G_t G_r \lambda^2}$ and ensure all units are consistent |$$
+| Not accounting for $\Delta f$ when calculating channel capacity using $C = B \log_2(1 + $$\frac{S}{N})$ | 2 marks | Always consider the bandwidth $B$ in Hz and ensure $\frac{S}{N}$ is correctly calculated |$$
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
@@ -72,8 +69,8 @@ Q: A message signal of frequency 10 kHz and peak voltage 10 V is used to modulat
  Trap in this question: Students often confuse the modulation index formula.
  Solution: 
  Given: $m_{f}$ = 10 kHz, $V_{m}$ = 10 V, $V_{c}$ = 20 V.
- The modulation index $\mu$ is given by the formula: $\mu = \frac{V_{m}}{V_{c}}$. 
- Substituting the values: $\mu = \frac{10}{20}$.
+ The modulation index $\mu$ is given by the formula: $\mu = $$\frac{V_{m}}{V_{c}}$.$$
+ Substituting the values: $\mu = $$\frac{10}{20}$.$$
  Solving: $\mu = 0.5$.
  Answer: 0.5
 
@@ -90,8 +87,8 @@ Q: A message signal of frequency 10 kHz and peak voltage 10 V is used to modulat
  Trap in this question: Students often get confused in writing the expression for the modulated signal.
  Solution: 
  Given: $m(t) = 20 \cos (2 \pi \times 10^{3} t)$, $c(t) = 50 \cos (2 \pi \times 10^{6} t)$.
- The modulation index $\mu$ is given by the formula: $\mu = \frac{V_{m}}{V_{c}}$. 
- Substituting the values: $\mu = \frac{20}{50} = 0.4$.
+ The modulation index $\mu$ is given by the formula: $\mu = $$\frac{V_{m}}{V_{c}}$.$$
+ Substituting the values: $\mu = $$\frac{20}{50} = 0.4$.$$
  The expression for the modulated signal $s(t)$ is given by: $s(t) = V_{c} (1 + \mu \cos(2 \pi f_{m}t)) \cos(2 \pi f_{c}t)$.
  Substituting the values: $s(t) = 50 (1 + 0.4 \cos(2 \pi \times 10^{3}t)) \cos(2 \pi \times 10^{6}t)$.
  Answer: $\mu = 0.4, s(t) = 50 (1 + 0.4 \cos(2 \pi \times 10^{3}t)) \cos(2 \pi \times 10^{6}t)$
@@ -104,14 +101,14 @@ Q: A message signal of frequency 10 kHz and peak voltage 10 V is used to modulat
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
-The key concept that differentiates 85% scorers from 95% scorers in Communication Systems is the understanding of $\Delta\omega$ in Frequency Modulation (FM). Most students struggle to apply the concept of $\Delta\omega = 2\pi k_f A_m$ where $k_f$ is the frequency deviation constant and $A_m$ is the amplitude of the modulating signal. This formula is crucial for calculating the frequency deviation and subsequently the modulation index. The modulation index $m_f$ for FM is given by $m_f = \frac{\Delta\omega}{\omega_m}$, where $\omega_m$ is the angular frequency of the modulating signal. Students often misinterpret the modulation index for FM, leading to incorrect calculations. concept is essential for solving complex problems in Communication Systems.
+The key concept that differentiates 85% scorers from 95% scorers in Communication Systems is the understanding of $\Delta\omega$ in Frequency Modulation (FM). Most students struggle to apply the concept of $\Delta\omega = 2\pi k_f A_m$ where $k_f$ is the frequency deviation constant and $A_m$ is the amplitude of the modulating signal. This formula is crucial for calculating the frequency deviation and subsequently the modulation index. The modulation index $m_f$ for FM is given by $m_f = $$\frac$\Delta\omega${\omega_m}$, where $\omega_m$ is the angular frequency of the modulating signal. Students often misinterpret the modulation index for FM, leading to incorrect calculations. concept is essential for solving complex problems in Communication Systems.$$
 
 | Parameter | Description | Formula |
 | --- | --- | --- |
 | $\Delta\omega$ | Frequency deviation | $2\pi k_f A_m$ |
 | $k_f$ | Frequency deviation constant | - |
 | $A_m$ | Amplitude of the modulating signal | - |
-| $m_f$ | Modulation index for FM | $\frac{\Delta\omega}{\omega_m}$ |
+| $m_f$ | Modulation index for FM | $\frac$\Delta\omega${\omega_m}$ |
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
@@ -126,11 +123,11 @@ For Communication Systems, note the pattern of modulation types. The probability
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 Formulas: 
- * $SNR = \frac{S}{N}$ 
- * $NF = \frac{S_N}{S_{out}}$ 
- * $G = \frac{P_{out}}{P_{in}}$ 
- * $f_c = \frac{1}{2\pi\sqrt{LC}}$ 
- * $B = \frac{1}{2\tau}$ 
+ * $SNR = $$\frac{S}{N}$$$
+ * $NF = $$\frac{S_N}{S_{out}}$$$
+ * $G = $$\frac{P_{out}}{P_{in}}$$$
+ * $f_c = $$\frac{1}{2\pi\sqrt{LC}}$$$
+ * $B = $$\frac{1}{2\tau}$$$
  Facts: 
  * AM has low bandwidth efficiency
  * FM has high bandwidth efficiency

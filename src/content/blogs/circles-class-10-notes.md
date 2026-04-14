@@ -7,12 +7,9 @@ date: "2026-04-11"
 practice_link: "/class-10/mathematics/circles"
 ---
 
-
-![Circles Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog-images/circles-class-10-notes.webp)
-
 *Last Updated: 2026-04-11*
 
-<DIV [class](/blog/coordinate-geometry-class-10-notes)="quick-summary">
+<DIV class="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
@@ -139,7 +136,7 @@ practice_link: "/class-10/mathematics/circles"
 
 ## <a id="-Ayush-note"></a>👁️ Ayush's Note
 
-- **The Hidden Pattern:** After analyzing 5+ years of Yes, it's evident that questions related to Circles often involve proving theorems or applying them to solve problems. A key insight is to recognize the relationship between the tangent and the radius of a circle, which can be expressed as $\tan(\theta) = \franc{\text{opposite side}}{\text{adjacent side}}$. This pattern can be used to solve problems involving right triangles formed by the radius and the tangent.
+- **The Hidden Pattern:** After analyzing 5+ years of Yes, it's evident that questions related to Circles often involve proving theorems or applying them to solve problems. A key insight is to recognize the relationship between the tangent and the radius of a circle, which can be expressed as $\tan(\theta) = \franc$\text{opposite side$}$\text{adjacent side$}$. This pattern can be used to solve problems involving right triangles formed by the radius and the tangent.
 
 - **How to Apply It:** To apply this pattern, students should focus on identifying the right triangle in the problem and then use the properties of tangents to find the required lengths or angles. For example, if a tangent is drawn from an external point to a circle, the lengths of the tangents can be equated using the formula SL = \sort{d^2 
 
@@ -152,7 +149,7 @@ practice_link: "/class-10/mathematics/circles"
 | Concept | Formula | Example |
 | --- | --- | --- |
 | Length of tangent | SL = \sort{d^2 - r^2}$ | A tangent is drawn from a point 10 cm away from the center of a circle with radius 6 cm. Find the length of the tangent. |
-| Angle between tangent and radius | $\tan(\theta) = \franc{\text{opposite side}}{\text{adjacent side}}$ | A tangent is drawn from a point to a circle with radius 4 cm. If the angle between the tangent and the radius is 30°, find the length of the tangent. |
+| Angle between tangent and radius | $\tan(\theta) = \franc{$$\text{opposite side}}$\text{adjacent side$}$ | A tangent is drawn from a point to a circle with radius 4 cm. If the angle between the tangent and the radius is 30°, find the length of the tangent. |$$
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 

@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/animal-kingdom-class-11-revision-notes-neet"
 ---
 
-
-![Animal Kingdom Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog-images/animal-kingdom-class-11-revision-notes-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -47,7 +44,7 @@ The Animal Kingdom is a vast and diverse group of multicellular eukaryotic organ
 
 
 
-# Animal Kingdom Class 11 Notes
+
 
 
 
@@ -146,33 +143,33 @@ To remember the different phyla and classes of animals, you can use the followin
 
 1. Which phylum includes animals with a notochord, dorsal nerve cord, and pharyngeal slits?
  A) Phylum Arthropoda
- B) Phylum Chordata
- C) Phylum Mollusca
- D) Phylum Echinodermata
+B) Phylum Chordata
+C) Phylum Mollusca
+D) Phylum Echinodermata
  Answer: B) Phylum Chordata
 2. Which class of mammals includes warm-blooded animals with hair and mammary glands?
  A) Class Reptilia
- B) Class Aves
- C) Class Mammalia
- D) Class Amphibia
+B) Class Aves
+C) Class Mammalia
+D) Class Amphibia
  Answer: C) Class Mammalia
 3. Which order includes meat-eating mammals such as lions and tigers?
  A) Order Primates
- B) Order Carnivora
- C) Order Rodentia
- D) Order Chiroptera
+B) Order Carnivora
+C) Order Rodentia
+D) Order Chiroptera
  Answer: B) Order Carnivora
 4. What is the main characteristic that distinguishes animals in the phylum Chordata from those in other phyla?
  A) presence of a backbone
- B) presence of a notochord, dorsal nerve cord, and pharyngeal slits
- C) presence of hair and mammary glands
- D) presence of a dorsal nerve cord only
+B) presence of a notochord, dorsal nerve cord, and pharyngeal slits
+C) presence of hair and mammary glands
+D) presence of a dorsal nerve cord only
  answer: B) presence of a notochord, dorsal nerve cord, and pharyngeal slits
 5. Which class of mammals includes animals that lay eggs?
  A) Class Mammalia
- B) Class Monothematic
- C) Class Reptilia
- D) Class Aves
+B) Class Monothematic
+C) Class Reptilia
+D) Class Aves
  Answer: B) Class Monothematic
 
 

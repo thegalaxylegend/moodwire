@@ -7,9 +7,6 @@ date: "2026-04-01"
 practice_link: "/class-11/mathematics/application-of-integrals-class-12-notes"
 ---
 
-
-![Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog-images/application-of-integrals-class-12-notes.webp)
-
 *Last Updated: 2026-04-01*
 
 

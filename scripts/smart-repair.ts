@@ -345,6 +345,82 @@ async function repairBlog(filePath: string, isDryRun: boolean, canUseAi: boolean
         }
     }
 
+    // ========= FIX 0A: [object Object] Artifact Removal =========
+    // Caused by LLM returning a JS object that gets stringified instead of serialized.
+    // Safe to remove — '[object Object]' is never valid academic content.
+    if (body.includes('[object Object]')) {
+        const objectCount = (body.match(/\[object Object\]/g) || []).length;
+        body = body.replace(/\[object Object\]/g, '');
+        // Clean up lines that become empty after removal
+        body = body.replace(/^\s*[-*]\s*\[?\s*\]?\s*$/gm, '');
+        body = body.replace(/\n{3,}/g, '\n\n');
+        fixes.push(`Removed ${objectCount} [object Object] artifacts`);
+    }
+
+    // ========= FIX 0B: Literal \n Escape Failure Repair =========
+    // Caused by LLM returning '\\n' as text instead of actual newlines.
+    // Only fix outside of code blocks to avoid corrupting code examples.
+    const hasLiteralNewlines = body.includes('\\n') && !body.includes('```');
+    if (hasLiteralNewlines) {
+        // Count occurrences before fixing
+        const nlCount = (body.match(/\\n/g) || []).length;
+        body = body.replace(/\\n/g, '\n');
+        body = body.replace(/\n{3,}/g, '\n\n');
+        fixes.push(`Fixed ${nlCount} literal \\\\n escape sequences`);
+    }
+
+    // ========= FIX 0C: JSON Squashing Repair =========
+    // Caused by LLM returning raw JSON in the body instead of rendered markdown.
+    // Detects patterns like {"heading":"...","body":"..."} and extracts the body text.
+    const jsonSquashRegex = /\{"heading"\s*:\s*"([^"]*?)"\s*,\s*"body"\s*:\s*"([\s\S]*?)"\s*(?:,\s*"table"\s*:\s*\{[\s\S]*?\})?\s*\}/g;
+    let jsonSquashMatch;
+    let jsonSquashCount = 0;
+    // Use a loop with exec to process each match
+    const jsonSquashMatches: Array<{full: string, heading: string, bodyContent: string}> = [];
+    while ((jsonSquashMatch = jsonSquashRegex.exec(body)) !== null) {
+        jsonSquashMatches.push({
+            full: jsonSquashMatch[0],
+            heading: jsonSquashMatch[1],
+            bodyContent: jsonSquashMatch[2]
+        });
+    }
+    // Process in reverse to preserve string positions
+    for (const match of jsonSquashMatches.reverse()) {
+        // Unescape the body content: convert \\n to newlines, \\" to "
+        let cleaned = match.bodyContent
+            .replace(/\\n/g, '\n')
+            .replace(/\\"/g, '"')
+            .replace(/\\\\/g, '\\');
+        // Add the heading as an H3 if it's meaningful
+        const headingText = match.heading.trim();
+        if (headingText && headingText.length > 2) {
+            cleaned = `### ${headingText}\n\n${cleaned}`;
+        }
+        body = body.replace(match.full, cleaned);
+        jsonSquashCount++;
+    }
+    if (jsonSquashCount > 0) {
+        body = body.replace(/\n{3,}/g, '\n\n');
+        fixes.push(`Extracted ${jsonSquashCount} JSON-squashed blocks into markdown`);
+    }
+
+    // ========= FIX 0D: Malformed [class] HTML Attribute Repair =========
+    // Caused by LLM outputting Angular/React binding syntax like <div [class]="...">
+    // in markdown. This is invalid HTML and breaks rendering.
+    const malformedClassRegex = /<(\w+)\s+\[class\]="([^"]*)"([^>]*)>/g;
+    if (malformedClassRegex.test(body)) {
+        // Reset regex lastIndex after test
+        malformedClassRegex.lastIndex = 0;
+        let classFixCount = 0;
+        body = body.replace(malformedClassRegex, (_match, tag, className, rest) => {
+            classFixCount++;
+            return `<${tag} class="${className}"${rest}>`;
+        });
+        if (classFixCount > 0) {
+            fixes.push(`Fixed ${classFixCount} malformed [class] HTML attributes`);
+        }
+    }
+
     // ... [existing fixes 1-5 remain unchanged] ...
     // ========= FIX 1: Kill List Phrase Removal =========
     let killCount = 0;

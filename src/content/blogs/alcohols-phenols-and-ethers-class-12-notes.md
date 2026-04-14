@@ -7,9 +7,6 @@ date: "2026-03-29"
 practice_link: "/class-11/chemistry/alcohols-phenols-and-ethers-class-12-notes"
 ---
 
-
-![Alcohols, Phenols and Ethers Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog-images/alcohols-phenols-and-ethers-class-12-notes.webp)
-
 *Last Updated: 2026-03-29*
 
 
@@ -28,7 +25,7 @@ practice_link: "/class-11/chemistry/alcohols-phenols-and-ethers-class-12-notes"
 
 
 
-<DIV [class](/blog/coordination-compounds-class-12-notes)="quick-summary">
+<DIV class="quick-summary">
 
 #- [📋 Table of Contents](#-table-of-contents)
 

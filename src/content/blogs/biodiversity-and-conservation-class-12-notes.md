@@ -7,9 +7,6 @@ date: "2026-04-06"
 practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 ---
 
-
-![Biodiversity and Conservation Class 12 Biology Revision — MEET 2026 Grandmaster Guide](/blog-images/biodiversity-and-conservation-class-12-notes.webp)
-
 *Last Updated: 2026-04-06*
 
 ## 📋 Table of Contents
@@ -85,11 +82,11 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
  The primary cause of biodiversity loss can be determined by analyzing the main drivers of [ecosystem](/blog/ecosystem-class-12-notes) disruption. 
 
- \text{Biodiversity Loss} = \text{Habitat Destruction} + \text{Overexploitation} + \text{Pollution} + \text{Climate Change}
+ $$\text{Biodiversity Loss} = \text{Habitat Destruction} + \text{Overexploitation} + \text{Pollution} + \text{Climate Change}$$
 
  However, when we consider the scale and impact, habitat destruction is the leading cause, often driven by [human](/blog/human-health-and-disease-class-12-notes) activities such as deforestation and urbanization. 
 
- {\text{Habitat Destruction}} = {\text{Deforestation}} + {\text{Urbanization}}
+ {$$\text{Habitat Destruction}} = $\text{Deforestation$} + $\text{Urbanization$}$$
 
  - **Answer:** Habitat destruction
 
@@ -101,11 +98,11 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
  The percentage increase can be calculated using the formula:
 
- \text{Percentage Increase} = \left( \franc{\text{New Value} - \text{Old Value}}{\text{Old Value}} \right) \times 100
+ $$\text{Percentage Increase} = \left( \franc$\text{New Value$ - \text{Old Value}}$\text{Old Value$} \right) \times 100$$
 
  Substituting the given values:
 
- \text{Percentage Increase} = \left( \franc{1500–1000}{1000} \right) \times 100 = \left( \franc{500}{1000} \right) \times 100 = 0.5 \times 100 = 50%
+ $$\text{Percentage Increase} = \left( \franc{1500–1000}{1000} \right) \times 100 = \left( \franc{500}{1000} \right) \times 100 = 0.5 \times 100 = 50%$$
 
  - **Answer:** 50%
 
@@ -117,7 +114,7 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
  The trophic level can be determined by understanding the position of each group in the food chain:
 
- {\text{Trophic Level}} = {\text{Position in Food Chain}}
+ {$$\text{Trophic Level}} = $\text{Position in Food Chain$}$$
 
  Primary producers are at the base (trophic level 1), primary consumers feed on them (trophic level 2), and secondary consumers feed on primary consumers (trophic level 3).
 
@@ -204,14 +201,9 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 ## <a id="-practice-MCQs"></a>📝 Practice MCQs
 
 **1. What is the primary cause of biodiversity loss in ecosystems?**
-
--
 A) Habitat destruction
--
 B) Climate change
--
 C) Pollution
--
 D) Overpopulation
 
 **Answer:** A) Habitat destruction is the primary cause of biodiversity loss as it leads to loss of natural habitats and extinction of species.
@@ -219,14 +211,9 @@ D) Overpopulation
 ---
 
 **2. Which of the following is an example of a keystone species?**
-
--
 A) Lion
--
 B) Giraffe
--
 C) Sea otter
--
 D) Kangaroo
 
 **Answer:** C) Sea otter is a keystone species because it plays a unique role in maintaining the balance of its [ecosystem](/blog/ecosystem-class-12-notes), controlling sea urchin populations and thereby maintaining kelp forests.
@@ -234,14 +221,9 @@ D) Kangaroo
 ---
 
 **3. What is the term for the movement of species from one region to another?**
-
--
 A) Migration
--
 B) Immigration
--
 C) Emigration
--
 D) Dispersion
 
 **Answer:** D) Dispersion refers to the movement of species from one region to another, often resulting in the colonization of new areas.
@@ -249,14 +231,9 @@ D) Dispersion
 ---
 
 **4. Which of the following conservation strategies involves the protection of a specific species and its habitat?**
-
--
 A) Ecosystem-based conservation
--
 B) Species-based conservation
--
 C) Habitat-based conservation
--
 D) In-situ conservation
 
 **Answer:** B) Species-based conservation involves the protection of a specific species and its habitat, often through the creation of protected areas or the implementation of species-specific management plans.
@@ -264,14 +241,9 @@ D) In-situ conservation
 ---
 
 **5. What is the term for the study of the distribution and abundance of species in an ecosystem?**
-
--
 A) Ecology
--
 B) Biogeography
--
 C) Conservation biology
--
 D) Taxonomy
 
 **Answer:** B) Biogeography is the study of the distribution and abundance of species in an ecosystem, often focusing on the geographic patterns of species diversity.

@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/chemistry/relations-functions-class-11-revision-notes-jee-neet"
 ---
 
-
-![Relations Functions Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/relations-functions-class-11-revision-notes-jee-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -39,7 +36,7 @@ practice_link: "/class-11/chemistry/relations-functions-class-11-revision-notes-
 
 ## <a id="what-is-relations-functions-revision-notes"></a>What is Relations Functions Revision Notes?
 
-# Relations Functions Revision Notes
+
 
 
 

@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/medieval-india-mughals-class-11-revision-notes-cbse"
 ---
 
-
-![Medieval India Mughals Class 11 History Recap — CBSE 2026 Quick Guide](/blog-images/medieval-india-mughals-class-11-revision-notes-cbse.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -141,7 +138,7 @@ By focusing on these key terms and concepts, you can develop a solid understandi
 Zamindar & A local landlord or chieftain responsible for revenue collection & - \\
 Pargana & A sub-district administrative unit & - \\
 \hline
-\end{tabular}
+$$\end{tabular}$$
 ```
 This code will create a table with the specified columns and rows, using the `tabular` environment and the `|` character to separate the columns.
 

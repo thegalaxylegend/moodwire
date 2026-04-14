@@ -7,12 +7,9 @@ date: "2026-04-11"
 practice_link: "/class-10/mathematics/areas-related-to-circles"
 ---
 
-
-![Areas Related to Circles Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog-images/areas-related-to-circles-class-10-notes.webp)
-
 *Last Updated: 2026-04-11*
 
-<DIV [class](/blog/arithmetic-progressions-class-10-notes)="quick-summary">
+<DIV class="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 

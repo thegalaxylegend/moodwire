@@ -7,12 +7,9 @@ date: "2026-04-12"
 practice_link: "/class-12/computer-science/theory-of-computation"
 ---
 
-
-![Theory of Computation Class 12 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog-images/theory-of-computation-class-12-notes.webp)
-
 *Last Updated: 2026-04-12*
 
-<div [class](/blog/operating-systems-class-12-notes)="quick-summary">
+<div class="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
@@ -53,25 +50,37 @@ practice_link: "/class-12/computer-science/theory-of-computation"
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
-- **Mistake 1: Misapplying the Pumping Lemma for Regular Languages**\n 
+- **Mistake 1: Misapplying the Pumping Lemma for Regular Languages**
+ 
 
 - *Error:* Many students incorrectly use the Pumping Lemma to *prove* a language is regular. Remember, the Pumping Lemma is primarily a tool for *disproving* regularity. Another common error is failing to choose an appropriate string 's' that is long enough (i.e.
 
-- $|s| \geq p$, where $p$ is the pumping length) or misinterpreting the partition $s = xyz$ such that $|xy| \leq p$ and $|y| > 0$. Often, the mistake is in not considering all possible ways to partition $y$ when showing that $xy^iz \notin L$ for some $i \neq 1$.\n 
+- $|s| \geq p$, where $p$ is the pumping length) or misinterpreting the partition $s = xyz$ such that $|xy| \leq p$ and $|y| > 0$. Often, the mistake is in not considering all possible ways to partition $y$ when showing that $xy^iz 
+otin L$ for some $i 
+eq 1$.
+ 
 
-- *Costs:* This can cost you a full 5-8 marks in a proof-based question, as it demonstrates a fundamental misunderstanding of formal language theory.\n 
+- *Costs:* This can cost you a full 5-8 marks in a proof-based question, as it demonstrates a fundamental misunderstanding of formal language theory.
+ 
 
-- *Fix:*\n 
+- *Fix:*
+ 
 
-- Always start by assuming the language $L$ is regular (proof by contradiction). This implies a pumping length $p$ exists.\n 
+- Always start by assuming the language $L$ is regular (proof by contradiction). This implies a pumping length $p$ exists.
+ 
 
-- Carefully select a string $s \in L$ such that $|s| \geq p$ and its structure clearly exposes the non-regular property when pumped. For example, if the language requires counting, choose $s$ to be $a^p b^p$.\n 
+- Carefully select a string $s \in L$ such that $|s| \geq p$ and its structure clearly exposes the non-regular property when pumped. For example, if the language requires counting, choose $s$ to be $a^p b^p$.
+ 
 
 - Show that for *any* partition $s = xyz$ where $|xy| \leq p$ and $|y| > 0$, pumping $y$ (i.e.
 
-- forming $xy^iz$) for some $i \neq 1$ results in a string that is *not* in $L$. This means $L$ cannot be regular. Pay close attention to the constraint $|xy| \leq p$; this often means $y$ must be entirely within the initial segment of $s$. For $a^p b^p$, $y$ would be entirely 'a's, leading to an unequal count of 'a's and 'b's after pumping.\n\n
+- forming $xy^iz$) for some $i 
+eq 1$ results in a string that is *not* in $L$. This means $L$ cannot be regular. Pay close attention to the constraint $|xy| \leq p$; this often means $y$ must be entirely within the initial segment of $s$. For $a^p b^p$, $y$ would be entirely 'a's, leading to an unequal count of 'a's and 'b's after pumping.
 
-- **Mistake 2: Confusing the Power and Closure Properties of Automata/Languages**\n 
+
+
+- **Mistake 2: Confusing the Power and Closure Properties of Automata/Languages**
+ 
 
 - *Error:* Students often mix up which [class](/blog/application-of-derivatives-class-12-notes) of language (Regular, Context-Free, Context-Sensitive, Recursively Enumerable) corresponds to which automaton (DFA/NFA, PDA,
 
@@ -79,7 +88,9 @@ practice_link: "/class-12/computer-science/theory-of-computation"
 
 {
  "heading": "✏️ 3 Solved PYQs",
- "body": "- **Q1: (JEE Main 2018)** The output of the combination of the gates shown in the figure is:\n \n \text{A} \longrightarrow \text{[NOT]} \longrightarrow \text{X}_1 \longrightarrow \text{[AND]} \longrightarrow \text{Y}\ }
+ "body": "- **Q1: (JEE Main 2018)** The output of the combination of the gates shown in the figure is:
+ 
+ $$\text{A} \longrightarrow \text{[NOT]} \longrightarrow \text{X}_1 \longrightarrow \text{[AND]} \longrightarrow \text{Y}\ }$$
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
@@ -87,7 +98,8 @@ practice_link: "/class-12/computer-science/theory-of-computation"
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-- **The Hidden Pattern: The \"State Machine\" Analogy in Advanced Problems**\n * Forget the textbooks that teach pure combinatorics or probability formulas.
+- **The Hidden Pattern: The \"State Machine\" Analogy in Advanced Problems**
+ * Forget the textbooks that teach pure combinatorics or probability formulas.
 
 - **After grinding through years of JEE Advanced PYQs, a subtle pattern emerges:** many seemingly complex problems, especially in **P&C, Probability, and Sequences**, aren't
 

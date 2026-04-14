@@ -29,7 +29,8 @@ manualReview: false
  "heading": "🪤 The 5 Mistakes That Cost Marks",
  "body": "
 
-- **Mistake 1:** Confusion between terminating and non-terminating recurring decimals and errors in converting them to $\frac{p}{q}$ form.\n 
+- **Mistake 1:** Confusion between terminating and non-terminating recurring decimals and errors in converting them to $\frac{p}{q}$ form.
+ 
 
 - *Costs:* Students often lose 1-3 marks in questions asking to identify the type of decimal expansion or to express a given decimal}
 
@@ -37,7 +38,8 @@ manualReview: false
 
 {
  "heading": "✏️ 3 Solved PYQs",
- "body": "- **Q1:** Rationalize the denominator of $\frac{1}{7 + 3\sqrt{2}}$. (CBSE Class 9 Sample Question)\n - **Trap:** Many students forget to multiply *both* the numerator and the denominator by the conjugate. Also, sometimes they make sign errors when applying the $($}
+ "body": "- **Q1:** Rationalize the denominator of $\frac{1}{7 + 3\sqrt{2}}$. (CBSE Class 9 Sample Question)
+ - **Trap:** Many students forget to multiply *both* the numerator and the denominator by the conjugate. Also, sometimes they make sign errors when applying the $($}
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
@@ -49,7 +51,8 @@ manualReview: false
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-- **The Hidden Pattern: The 'Engineered Simplicity' of Surd Problems**\n Alright, listen up! After grinding through countless past year papers (PYQs), I've spotted something super critical that textbooks don't explicitly highlight. Many simplification problems in Number [systems](/blog/operating-systems-class-12-notes), especially those involving square roots (surds) and
+- **The Hidden Pattern: The 'Engineered Simplicity' of Surd Problems**
+ Alright, listen up! After grinding through countless past year papers (PYQs), I've spotted something super critical that textbooks don't explicitly highlight. Many simplification problems in Number [systems](/blog/operating-systems-class-12-notes), especially those involving square roots (surds) and
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
@@ -57,13 +60,17 @@ manualReview: false
  "heading": "🔁 Last 5 Minutes Box",
  "body": "
 
-- Remember these exponent rules, they're super handy:\n 
+- Remember these exponent rules, they're super handy:
+ 
 
-- $a^{m} \cdot a^{n} = a^{m+n}$\n 
+- $a^{m} \cdot a^{n} = a^{m+n}$
+ 
 
-- $(a^{m})^{n} = a^{mn}$\n 
+- $(a^{m})^{n} = a^{mn}$
+ 
 
-- $a^{m} / a^{n} = a^{m-n}$\n}
+- $a^{m} / a^{n} = a^{m-n}$
+}
 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 

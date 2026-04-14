@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/the-p-block-elements-11-class-11-revision-notes-jee-neet"
 ---
 
-
-![The P Block Elements 11 Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/the-p-block-elements-11-class-11-revision-notes-jee-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -40,7 +37,7 @@ practice_link: "/class-11/physics/the-p-block-elements-11-class-11-revision-note
 
 ## <a id="what-is-the-p-block-elements-11"></a>What is The P Block Elements 11?
 
-# The P Block Elements 11 Class 11 Notes
+
 
 
 Last Updated: March 15, 2026
@@ -78,7 +75,7 @@ The p-[block](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) eleme
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div [class](/blog/biological-classification-class-11-revision-notes-neet)="ayush-note">
+<div class="ayush-note">
 I remember struggling with the p-block elements during my JEE preparation. One mistake I made was not understanding the electronic configuration of these elements. I used to get confused between the s- and p-orbitals, which led to incorrect answers. However, after practicing and revising the topic, I realized that the key to mastering the p-block elements is to understand their electronic configuration and how it affects their [physical](/blog/physical-world-class-11-revision-notes-jee-neet) and chemical properties.
 </div>
 

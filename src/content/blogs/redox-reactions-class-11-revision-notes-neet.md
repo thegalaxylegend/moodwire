@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/redox-reactions-class-11-revision-notes-neet"
 ---
 
-
-![Redox Reactions Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog-images/redox-reactions-class-11-revision-notes-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -46,7 +43,7 @@ practice_link: "/class-11/biology/redox-reactions-class-11-revision-notes-neet"
 
 ## <a id="what-is-redox-reactions"></a>What is Redox Reactions?
 
-# Redox Reactions Class 11 Notes
+
 
 
 Last Updated: March 15, 2026
@@ -88,7 +85,7 @@ For example, in the human body, redox reactions are involved in the production o
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div [class](/blog/hydrogen-class-11-revision-notes-neet)="note-box">
+<div class="note-box">
 I still remember the time when I was preparing for my JEE exams. I was struggling to understand the concept of redox reactions. I used to get confused between the terms oxidation and reduction. But then I realized that oxidation is the loss of electrons, while reduction is the gain of electrons. This simple trick helped me to understand the concept of redox reactions and I was able to solve the questions with ease.
 </div>
 
@@ -107,10 +104,10 @@ The half-equation method is a method used to balance redox reactions. In this me
 Oxidation numbers are used to keep track of the electrons in a redox reaction. The oxidation number of an element is the charge that the element would have if the electrons in the bond were assigned to the more electronegative atom.
 
 The formula to calculate the oxidation number is:
-\text{Oxidation Number} = \text{Number of electrons gained or lost}
+$$\text{Oxidation Number} = \text{Number of electrons gained or lost}$$
 
 For example, in the reaction:
-\text{Fe}^{2+} \rightarrow \text{Fe}^{3+} + \text{e}^-
+$$\text{Fe}^{2+} \rightarrow \text{Fe}^{3+} + \text{e}^-$$
 The oxidation number of iron increases from +2 to +3, indicating that iron has lost an electron.
 
 
@@ -119,7 +116,7 @@ The oxidation number of iron increases from +2 to +3, indicating that iron has l
 ## <a id="shortcut-formulatrick"></a>Shortcut Formula/Trick
 
 To balance a redox reaction, we can use the following shortcut formula:
-\text{Redox Reaction} = \text{Oxidation Half-Equation} + \text{Reduction Half-Equation}
+$$\text{Redox Reaction} = \text{Oxidation Half-Equation} + \text{Reduction Half-Equation}$$
 This formula helps us to balance the reaction by combining the oxidation and reduction half-equations.
 
 

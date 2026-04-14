@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/waves-class-11-revision-notes-neet"
 ---
 
-
-![Waves Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog-images/waves-class-11-revision-notes-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -54,7 +51,7 @@ practice_link: "/class-11/biology/waves-class-11-revision-notes-neet"
 
 ## <a id="what-is-waves-revision-notes"></a>What is Waves Revision Notes?
 
-# Waves Revision Notes
+
 
 
 

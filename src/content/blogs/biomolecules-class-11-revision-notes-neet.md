@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/biomolecules-class-11-revision-notes-neet"
 ---
 
-
-![Biomolecules Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog-images/biomolecules-class-11-revision-notes-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -39,7 +36,7 @@ practice_link: "/class-11/biology/biomolecules-class-11-revision-notes-neet"
 
 ## <a id="what-is-biomolecules"></a>What is Biomolecules?
 
-# Biomolecules Class 11 Notes
+
 
 
 ### <a id="biomolecules-class-11-notes"></a>Biomolecules Class 11 Notes

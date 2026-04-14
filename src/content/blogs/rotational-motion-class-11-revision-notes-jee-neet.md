@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/physics/rotational-motion-class-11-revision-notes-jee-neet"
 ---
 
-
-![Rotational Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog-images/rotational-motion-class-11-revision-notes-jee-neet.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -45,7 +42,7 @@ practice_link: "/class-11/physics/rotational-motion-class-11-revision-notes-jee-
 
 ## <a id="what-is-rotational-motion-revision-notes"></a>What is Rotational Motion Revision Notes?
 
-# Rotational Motion Revision Notes
+
 
 
 

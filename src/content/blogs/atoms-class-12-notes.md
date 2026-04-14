@@ -7,9 +7,6 @@ date: "2026-03-29"
 practice_link: "/class-11/physics/atoms-class-12-notes"
 ---
 
-
-![Atoms Class 12 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog-images/atoms-class-12-notes.webp)
-
 *Last Updated: 2026-03-29*
 
 ## 📋 Table of Contents
@@ -127,12 +124,12 @@ Q: What is the value of $\Delta EX for the electron transitioning from in=3$ to 
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
-Most students struggle to understand the concept of atomic radius and how it relates to the size of an atom. The key concept that separates 85% scorers from 95% scorers is the distinction between or_{\text{covalent}}$ and or_{\text{van der Waals}}$. The covalent radius or_{\text{covalent}}$ is the distance between the nucleus of an atom and the point where the electron cloud of a covalently bonded atom meets the electron cloud of another atom. On the other hand, the van der Waals radius or_{\text{van der Waals}}$ is the distance between the nucleus of an atom and the point of contact with another atom that is not covalently bonded. This distinction is crucial in understanding the size of an atom and its interactions with other atoms, and is often a point of confusion for many students.
+Most students struggle to understand the concept of atomic radius and how it relates to the size of an atom. The key concept that separates 85% scorers from 95% scorers is the distinction between or_{$$\text{covalent}}$ and or_$\text{van der Waals$}$. The covalent radius or_$\text{covalent$}$ is the distance between the nucleus of an atom and the point where the electron cloud of a covalently bonded atom meets the electron cloud of another atom. On the other hand, the van der Waals radius or_$\text{van der Waals$}$ is the distance between the nucleus of an atom and the point of contact with another atom that is not covalently bonded. This distinction is crucial in understanding the size of an atom and its interactions with other atoms, and is often a point of confusion for many students.$$
 
 | Radius Type | Description |
 | --- | --- |
-| or_{\text{covalent}}$ | Distance between nucleus and covalently bonded electron cloud |
-| or_{\text{van der Waals}}$ | Distance between nucleus and non-covalently bonded atom |
+| or_{$$\text{covalent}}$ | Distance between nucleus and covalently bonded electron cloud |$$
+| or_{$$\text{van der Waals}}$ | Distance between nucleus and non-covalently bonded atom |$$
 
 ## <a id="-Ayush-note"></a>👁️ Ayush's Note
 

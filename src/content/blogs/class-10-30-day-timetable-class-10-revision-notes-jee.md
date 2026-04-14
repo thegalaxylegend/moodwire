@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/mathematics/class-10-30-day-timetable-class-10-revision-notes-jee"
 ---
 
-
-![Class 10 30 Day Timetable Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog-images/class-10-30-day-timetable-class-10-revision-notes-jee.webp)
-
 *Last Updated: [2026](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)-03-28*
 
 
@@ -38,7 +35,7 @@ practice_link: "/class-11/mathematics/class-10-30-day-timetable-class-10-revisio
 
 ## <a id="what-is-class-10-30-day-timetable"></a>What is Class 10 30 Day Timetable?
 
-# 30-Day Timetable for Class 10 Board Exam Prep Guide
+
 
 Last year, I was juggling my [class](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee) 11 orientation while helping my younger cousin build a **30-day timetable for [class](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee) 10 board exam** because his coaching center had basically given up on him. 
 

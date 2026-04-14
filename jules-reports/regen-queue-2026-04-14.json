@@ -1,0 +1,18 @@
+[
+  {"slug": "local-government-class-11-revision-notes-cbse", "reason": "Thin content: 433 words (target 2000+)"},
+  {"slug": "physics-heat-light-class-11-revision-notes-jee-neet", "reason": "Thin content: 444 words (target 2000+)"},
+  {"slug": "physics-mechanics-class-11-revision-notes-jee-neet", "reason": "Thin content: 495 words (target 2000+)"},
+  {"slug": "poverty-unemployment-class-11-revision-notes-jee-neet", "reason": "Thin content: 482 words (target 2000+)"},
+  {"slug": "anatomy-of-flowering-plants-class-11-revision-notes-neet", "reason": "Contains [object Object] artifacts — corrupted since generation"},
+  {"slug": "ancient-india-indus-valley-class-11-revision-notes-cbse", "reason": "Contains [object Object] artifacts — corrupted since generation"},
+  {"slug": "ancient-india-vedic-age-class-11-revision-notes-jee", "reason": "Contains [object Object] artifacts — corrupted since generation"},
+  {"slug": "binomial-theorem-class-11-revision-notes-jee", "reason": "Contains [object Object] artifacts — corrupted since generation"},
+  {"slug": "biological-classification-class-11-revision-notes-neet", "reason": "Contains [object Object] artifacts — corrupted since generation"},
+  {"slug": "body-fluids-and-circulation-class-11-revision-notes-neet", "reason": "Contains [object Object] artifacts — corrupted since generation"},
+  {"slug": "databases-dbms-class-12-notes", "reason": "JSON Squashing + malformed HTML — critical corruption"},
+  {"slug": "electromagnetic-waves-class-12-notes", "reason": "Contains [object Object] + literal \\n — corrupted since generation"},
+  {"slug": "number-systems-class-9-notes", "reason": "JSON Squashing + literal \\n — generated broken today"},
+  {"slug": "permutations-and-combinations-class-11-revision-notes-jee", "reason": "Contains [object Object] artifacts — corrupted since generation"},
+  {"slug": "relations-and-functions-class-11-notes", "reason": "Contains [object Object] artifacts — corrupted since generation"},
+  {"slug": "theory-of-computation-class-12-notes", "reason": "JSON Squashing + malformed HTML + literal \\n — critical corruption"}
+]

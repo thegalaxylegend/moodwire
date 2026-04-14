@@ -7,9 +7,6 @@ date: "2026-03-28"
 practice_link: "/class-11/fundamental-rights-class-11-revision-notes-cbse"
 ---
 
-
-![Fundamental Rights Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog-images/fundamental-rights-class-11-revision-notes-cbse.webp)
-
 *Last Updated: 2026-03-28*
 
 
@@ -39,7 +36,7 @@ practice_link: "/class-11/fundamental-rights-class-11-revision-notes-cbse"
 
 ## <a id="what-is-fundamental-rights"></a>What is Fundamental Rights?
 
-# Fundamental Rights Class 11 Quick Recap — MCQs, Key Points & PDF Download
+
 
 
 

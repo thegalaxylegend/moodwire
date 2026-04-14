@@ -7,12 +7,9 @@ date: "2026-04-07"
 practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
 ---
 
-
-![Arithmetic Progressions Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog-images/arithmetic-progressions-class-10-notes.webp)
-
 *Last Updated: 2026-04-07*
 
-<div [class](/blog/real-numbers-class-10-notes)="quick-summary">
+<div class="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
@@ -75,52 +72,52 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
  Let $a$ be the first term and $d$ be the common difference of the A.P. Then, we have:
  
 
-\frac{n}{2} [2a + (n - 1)d] = 225 quad 	ext{and} quad \frac{2n}{2} [2a + (2n - 1)d] = 525
+$$\frac{n}{2} [2a + (n - 1)d] = 225 quad 	ext{and} quad \frac{2n}{2} [2a + (2n - 1)d] = 525$$
 
  Simplifying these [equations](/blog/pair-of-linear-equations-class-10-notes), we get:
  
 
-2a + (n - 1)d = \frac{450}{n} quad 	ext{and} quad 2a + (2n - 1)d = \frac{525}{n}
+2a + (n - 1)d = $$\frac{450}{n} quad 	ext{and} quad 2a + (2n - 1)d = \frac{525}{n}$$
 
  Subtracting the first equation from the second, we get:
  
 
-(2n - 1 - n + 1)d = \frac{525 - 450}{n}
+(2n - 1 - n + 1)d = $$\frac{525 - 450}{n}$$
 
-\Rightarrow quad nd = \frac{75}{n}
+\Rightarrow quad nd = $$\frac{75}{n}$$
 
-\Rightarrow quad d = \frac{75}{n^2}
+\Rightarrow quad d = $$\frac{75}{n^2}$$
 
  Substituting this value of $d$ in the first equation, we get:
  
 
-2a + (n - 1)\frac{75}{n^2} = \frac{450}{n}
+2a + (n - 1)$$\frac{75}{n^2} = \frac{450}{n}$$
 
-\Rightarrow quad 2a = \frac{450}{n} - \frac{75}{n^2} (n - 1)
+\Rightarrow quad 2a = $$\frac{450}{n} - \frac{75}{n^2} (n - 1)$$
 
-\Rightarrow quad 2a = \frac{450}{n} - \frac{75n - 75}{n^2}
+\Rightarrow quad 2a = $$\frac{450}{n} - \frac{75n - 75}{n^2}$$
 
-\Rightarrow quad 2a = \frac{450n - 75n + 75}{n^2}
+\Rightarrow quad 2a = $$\frac{450n - 75n + 75}{n^2}$$
 
-\Rightarrow quad 2a = \frac{375n + 75}{n^2}
+\Rightarrow quad 2a = $$\frac{375n + 75}{n^2}$$
 
-\Rightarrow quad a = \frac{375n + 75}{2n^2}
+\Rightarrow quad a = $$\frac{375n + 75}{2n^2}$$
 
  Now, the \sum of first $3n$ terms is given by:
  
 
-\frac{3n}{2} [2a + (3n - 1)d]
+$$\frac{3n}{2} [2a + (3n - 1)d]$$
 
  Substituting the values of $a$ and $d$, we get:
  
 
-\frac{3n}{2} [2\frac{375n + 75}{2n^2} + (3n - 1)\frac{75}{n^2}]
+$$\frac{3n}{2} [2\frac{375n + 75}{2n^2} + (3n - 1)\frac{75}{n^2}]$$
 
-= \frac{3n}{2} [\frac{375n + 75}{n^2} + \frac{225n - 75}{n^2}]
+= $$\frac{3n}{2} [\frac{375n + 75}{n^2} + \frac{225n - 75}{n^2}]$$
 
-= \frac{3n}{2} [\frac{600n}{n^2}]
+= $$\frac{3n}{2} [\frac{600n}{n^2}]$$
 
-= \frac{3n}{2} \times \frac{600}{n}
+= $$\frac{3n}{2} \times \frac{600}{n}$$
 
  
  = 900
@@ -140,7 +137,7 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
  \Rightarrow quad (q - p)y = b - a
  
 
-\Rightarrow quad y = \frac{b - a}{q - p}
+\Rightarrow quad y = $$\frac{b - a}{q - p}$$
 
  Now, the $r^{th}$ term is given by:
  
@@ -149,109 +146,109 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
  Substituting the value of $y$, we get:
  
 
-x + (r - 1)\frac{b - a}{q - p}
+x + (r - 1)$$\frac{b - a}{q - p}$$
 
-= x + \frac{(r - 1)b - (r - 1)a}{q - p}
+= x + $$\frac{(r - 1)b - (r - 1)a}{q - p}$$
 
-= x + \frac{(r - 1)b}{q - p} - \frac{(r - 1)a}{q - p}
+= x + $$\frac{(r - 1)b}{q - p} - \frac{(r - 1)a}{q - p}$$
 
-= \frac{(q - p)x}{q - p} + \frac{(r - 1)b}{q - p} - \frac{(r - 1)a}{q - p}
+= $$\frac{(q - p)x}{q - p} + \frac{(r - 1)b}{q - p} - \frac{(r - 1)a}{q - p}$$
 
-= \frac{(q - p)x + (r - 1)b - (r - 1)a}{q - p}
+= $$\frac{(q - p)x + (r - 1)b - (r - 1)a}{q - p}$$
 
-= \frac{qx - px + rb - r b - ra + a}{q - p}
+= $$\frac{qx - px + rb - r b - ra + a}{q - p}$$
 
-= \frac{qx - rb + a - px + rb - ra}{q - p}
+= $$\frac{qx - rb + a - px + rb - ra}{q - p}$$
 
-= \frac{qx - rb + a(1 - r + r) - px}{q - p}
+= $$\frac{qx - rb + a(1 - r + r) - px}{q - p}$$
 
-= \frac{qx - rb + a - px}{q - p}
+= $$\frac{qx - rb + a - px}{q - p}$$
 
-= \frac{qx - px + a - rb}{q - p}
+= $$\frac{qx - px + a - rb}{q - p}$$
 
-= \frac{(q - p)x + a - rb}{q - p}
+= $$\frac{(q - p)x + a - rb}{q - p}$$
 
-= \frac{(q - p)x + a(1 - r + r) - rb}{q - p}
+= $$\frac{(q - p)x + a(1 - r + r) - rb}{q - p}$$
 
-= \frac{(q - p)x + a - ar + ar - rb}{q - p}
+= $$\frac{(q - p)x + a - ar + ar - rb}{q - p}$$
 
-= \frac{(q - p)x + a(1 - r) + ar - rb}{q - p}
+= $$\frac{(q - p)x + a(1 - r) + ar - rb}{q - p}$$
 
-= \frac{(q - p)x + a(1 - r) + a(r - r) + ar - rb}{q - p}
+= $$\frac{(q - p)x + a(1 - r) + a(r - r) + ar - rb}{q - p}$$
 
-= \frac{(q - p)x + a - ar + ar - rb}{q - p}
+= $$\frac{(q - p)x + a - ar + ar - rb}{q - p}$$
 
-= \frac{(q - p)x + a - rb + ar - ar}{q - p}
+= $$\frac{(q - p)x + a - rb + ar - ar}{q - p}$$
 
-= \frac{(q - p)x + a - rb}{q - p}
+= $$\frac{(q - p)x + a - rb}{q - p}$$
 
-= \frac{(q - p)x + a - b(r - p + p)}{q - p}
+= $$\frac{(q - p)x + a - b(r - p + p)}{q - p}$$
 
-= \frac{(q - p)x + a - b(r - p) - bp}{q - p}
+= $$\frac{(q - p)x + a - b(r - p) - bp}{q - p}$$
 
-= \frac{(q - p)x + a - b(r - p) - bp + bp}{q - p}
+= $$\frac{(q - p)x + a - b(r - p) - bp + bp}{q - p}$$
 
-= \frac{(q - p)x + a(1 - r + r) - b(r - p)}{q - p}
+= $$\frac{(q - p)x + a(1 - r + r) - b(r - p)}{q - p}$$
 
-= \frac{(q - p)x + a - ar + ar - b(r - p)}{q - p}
+= $$\frac{(q - p)x + a - ar + ar - b(r - p)}{q - p}$$
 
-= \frac{(q - p)x + a - ar + ar - b(r - p)}{q - p}
+= $$\frac{(q - p)x + a - ar + ar - b(r - p)}{q - p}$$
 
-= \frac{(q - p)x + a(1 - r) + ar - b(r - p)}{q - p}
+= $$\frac{(q - p)x + a(1 - r) + ar - b(r - p)}{q - p}$$
 
-= \frac{qx - px + a - ar + ar - b(r - p)}{q - p}
+= $$\frac{qx - px + a - ar + ar - b(r - p)}{q - p}$$
 
-= \frac{qx - px + a - b(r - p) + ar - ar}{q - p}
+= $$\frac{qx - px + a - b(r - p) + ar - ar}{q - p}$$
 
-= \frac{qx - px + a - b(r - p)}{q - p}
+= $$\frac{qx - px + a - b(r - p)}{q - p}$$
 
-= \frac{qx - b(r - p) - px + a}{q - p}
+= $$\frac{qx - b(r - p) - px + a}{q - p}$$
 
-= \frac{qx - b(r - p) - px + a(1 - r + r)}{q - p}
+= $$\frac{qx - b(r - p) - px + a(1 - r + r)}{q - p}$$
 
-= \frac{qx - b(r - p) - px + a - ar + ar}{q - p}
+= $$\frac{qx - b(r - p) - px + a - ar + ar}{q - p}$$
 
-= \frac{qx - b(r - p) - px + a - ar + ar}{q - p}
+= $$\frac{qx - b(r - p) - px + a - ar + ar}{q - p}$$
 
-= \frac{qx - b(r - p) + a(1 - r) - px + ar}{q - p}
+= $$\frac{qx - b(r - p) + a(1 - r) - px + ar}{q - p}$$
 
-= \frac{qx - b(r - p) + a - ar - px + ar}{q - p}
+= $$\frac{qx - b(r - p) + a - ar - px + ar}{q - p}$$
 
-= \frac{qx + a - b(r - p) - px + ar - ar}{q - p}
+= $$\frac{qx + a - b(r - p) - px + ar - ar}{q - p}$$
 
-= \frac{qx + a - b(r - p) - px}{q - p}
+= $$\frac{qx + a - b(r - p) - px}{q - p}$$
 
-= \frac{qx - px + a - b(r - p)}{q - p}
+= $$\frac{qx - px + a - b(r - p)}{q - p}$$
 
-= \frac{(q - p)x + a - b(r - p)}{q - p}
+= $$\frac{(q - p)x + a - b(r - p)}{q - p}$$
 
-= \frac{(q - p)x + a - b(r - p)}{q - p} \times \frac{(r - p)}{(r - p)}
+= $$\frac{(q - p)x + a - b(r - p)}{q - p} \times \frac{(r - p)}{(r - p)}$$
 
-= \frac{(q - p)x(r - p) + a(r - p) - b(r - p)^2}{(q - p)(r - p)}
+= $$\frac{(q - p)x(r - p) + a(r - p) - b(r - p)^2}{(q - p)(r - p)}$$
 
-= \frac{(q - p)x(r - p) + a(r - p) - b(r^2 - 2rp + p^2)}{(q - p)(r - p)}
+= $$\frac{(q - p)x(r - p) + a(r - p) - b(r^2 - 2rp + p^2)}{(q - p)(r - p)}$$
 
-= \frac{(q - p)x(r - p) + a(r - p) - br^2 + 2brp - bp^2}{(q - p)(r - p)}
+= $$\frac{(q - p)x(r - p) + a(r - p) - br^2 + 2brp - bp^2}{(q - p)(r - p)}$$
 
-= \frac{(q - p)x(r - p) + ar - ap - br^2 + 2brp - bp^2}{(q - p)(r - p)}
+= $$\frac{(q - p)x(r - p) + ar - ap - br^2 + 2brp - bp^2}{(q - p)(r - p)}$$
 
-= \frac{(q - p)x(r - p) + ar - ap - br^2 + 2brp - bp^2}{(q - p)(r - p)}
+= $$\frac{(q - p)x(r - p) + ar - ap - br^2 + 2brp - bp^2}{(q - p)(r - p)}$$
 
-= \frac{(q - p)x(r - p) - ap + ar - br^2 + 2brp - bp^2}{(q - p)(r - p)}
+= $$\frac{(q - p)x(r - p) - ap + ar - br^2 + 2brp - bp^2}{(q - p)(r - p)}$$
 
-= \frac{(q - p)x(r - p) - ap + ar - b(r^2 - 2rp + p^2)}{(q - p)(r - p)}
+= $$\frac{(q - p)x(r - p) - ap + ar - b(r^2 - 2rp + p^2)}{(q - p)(r - p)}$$
 
-= \frac{(q - p)x(r - p) - ap + ar - b(r - p)^2}{(q - p)(r - p)}
+= $$\frac{(q - p)x(r - p) - ap + ar - b(r - p)^2}{(q - p)(r - p)}$$
 
-= \frac{(q - p)x(r - p) + a(r - p) - b(r - p)^2}{(q - p)(r - p)}
+= $$\frac{(q - p)x(r - p) + a(r - p) - b(r - p)^2}{(q - p)(r - p)}$$
 
-= \frac{(q - p)x(r - p) + (r - p)(a - b(r - p))}{(q - p)(r - p)}
+= $$\frac{(q - p)x(r - p) + (r - p)(a - b(r - p))}{(q - p)(r - p)}$$
 
-= \frac{(r - p)((q - p)x + a - b(r - p))}{(q - p)(r - p)}
+= $$\frac{(r - p)((q - p)x + a - b(r - p))}{(q - p)(r - p)}$$
 
-= \frac{(r - p)((q - p)x + a - b(r - p))}{(q - p)(r - p)}
+= $$\frac{(r - p)((q - p)x + a - b(r - p))}{(q - p)(r - p)}$$
 
-= \frac{a(q - r) + b(r - p)}{q - p}
+= $$\frac{a(q - r) + b(r - p)}{q - p}$$
 
  - **Answer:** $\frac{a(q - r) + b(r - p)}{q - p}$
  - **Q3:** If $S_n$ denotes the \sum of $n$ terms of an A.P., then the value of $S_{30} + S_{35} - S_{40}$ is
@@ -260,18 +257,18 @@ x + (r - 1)\frac{b - a}{q - p}
  Let $a$ be the first term and $d$ be the common difference of the A.P. Then, we have:
  
 
-S_n = \frac{n}{2} [2a + (n - 1)d]
+S_n = $$\frac{n}{2} [2a + (n - 1)d]$$
 
-\Rightarrow quad S_{30} = \frac{30}{2} [2a + (30 - 1)d] = 15(2a + 29d)
+\Rightarrow quad S_{30} = $$\frac{30}{2} [2a + (30 - 1)d] = 15(2a + 29d)$$
 
-\Rightarrow quad S_{35} = \frac{35}{2} [2a + (35 - 1)d] = \frac{35}{2} (2a + 34d)
+\Rightarrow quad S_{35} = $$\frac{35}{2} [2a + (35 - 1)d] = \frac{35}{2} (2a + 34d)$$
 
-\Rightarrow quad S_{40} = \frac{40}{2} [2a + (40 - 1)d] = 20(2a + 39d)
+\Rightarrow quad S_{40} = $$\frac{40}{2} [2a + (40 - 1)d] = 20(2a + 39d)$$
 
  Now, we have:
  
 
-S_{30} + S_{35} - S_{40} = 15(2a + 29d) + \frac{35}{2} (2a + 34d) - 20(2a + 39d)
+S_{30} + S_{35} - S_{40} = 15(2a + 29d) + $$\frac{35}{2} (2a + 34d) - 20(2a + 39d)$$
 
  
  = 30a + 435d + 35a + 595d - 40a - 780d
@@ -291,8 +288,8 @@ S_{30} + S_{35} - S_{40} = 15(2a + 29d) + \frac{35}{2} (2a + 34d) - 20(2a + 39d)
  - **What 95% scorers do:** Top scorers, on the other hand, have a deep understanding of the AP concepts and can apply them to a wide ran\ge of problems. They can recognize the relationship between AP and other mathematical concepts, such as geometry, algebra, and calculus. They can also derive complex formulas and relationships, such as the formula for the \sum of an infinite geometric series: S = \frac{a}{1 - r}, and apply them to solve problems. Moreover, they can analyze problems from different perspectives and identify the most efficient approach to solve them. For examp\le, they can use the formula $a_n = a_1 + (n-1)d$ to find the $n^{th}$ term of an AP, and then use the formula $S_n = \frac{n}{2}(a_1 + a_n)$ to find the \sum of the first $n$ terms. They can also use the concept of AP to solve problems related to real-world scenarios, such as population growth, financial transactions, and scientific measurements.
  - **Key Formulas and Relationships:** Some key formulas and relationships that 95% scorers use to solve AP problems include:
  * $a_n = a_1 + (n-1)d$
- * $S_n = \frac{n}{2}(a_1 + a_n)$
- * $S = \frac{a}{1 - r}$
+ * $S_n = $$\frac{n}{2}(a_1 + a_n)$$$
+ * $S = $$\frac{a}{1 - r}$$$
  * $a_n = a_1 \times r^{n-1}$
  - **Problem-Solving Strategies:** To solve complex AP problems, 95% scorers use a variety of strategies, including:
  * Identifying the relationship between the terms of an AP and other mathematical concepts
@@ -304,8 +301,8 @@ S_{30} + S_{35} - S_{40} = 15(2a + 29d) + \frac{35}{2} (2a + 34d) - 20(2a + 39d)
 | Concept | Formula | Description |
 | --- | --- | --- |
 | Arithmetic Progression | $a_n = a_1 + (n-1)d$ | Formula for the $n^{th}$ term of an AP |
-| Sum of $n$ terms | $S_n = \frac{n}{2}(a_1 + a_n)$ | Formula for the \sum of the first $n$ terms of an AP |
-| Infinite Geometric Series | $S = \frac{a}{1 - r}$ | Formula for the \sum of an infinite geometric series |
+| Sum of $n$ terms | $S_n = $$\frac{n}{2}(a_1 + a_n)$ | Formula for the \sum of the first $n$ terms of an AP |$$
+| Infinite Geometric Series | $S = $$\frac{a}{1 - r}$ | Formula for the \sum of an infinite geometric series |$$
 | Geometric Progression | $a_n = a_1 \times r^{n-1}$ | Formula for the $n^{th}$ term of a geometric progression |
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
@@ -318,15 +315,15 @@ S_{30} + S_{35} - S_{40} = 15(2a + 29d) + \frac{35}{2} (2a + 34d) - 20(2a + 39d)
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 - $a_n = a_1 + (n-1)d$ is the {n^{th}} term of an Arithmetic Progression (AP).
- - $S_n = \frac{n}{2} [2a_1 + (n-1)d]$ is the \sum of the first {n} terms of an AP.
- - $S_n = \frac{n}{2} (a_1 + a_n)$ is the \sum of an AP with first term $a_1$ and last term $a_n$.
+ - $S_n = $$\frac{n}{2} [2a_1 + (n-1)d]$ is the \sum of the first {n} terms of an AP.$$
+ - $S_n = $$\frac{n}{2} (a_1 + a_n)$ is the \sum of an AP with first term $a_1$ and last term $a_n$.$$
  - For an AP with first term $a$, common difference $d$, and last term $l$, $l = a + (n-1)d$.
  - The {n^{th}} term of an AP can also be expressed as $a_n = a_1 + (n-1)d = l - (n-1)d$ where $l$ is the last term.
  - Key fact: In an AP, the \sum of terms equidistant from the beginnings and ends are always equal.
  - Key fact: If $a_1, a_2, a_3, ...$ are in AP, then $a_2 - a_1, a_3 - a_2, ...$ are all equal.
  - Key fact: The \sum of an AP with an odd number of terms is equal to the product of the number of terms and the midd\le term.
  - Common mistake: Forgetting to subtract 1 from {n} when using the formula $a_n = a_1 + (n-1)d$.
- - Common mistake: Not considering the number of terms when calculating the \sum of an AP using $S_n = \frac{n}{2} [2a_1 + (n-1)d]$.
+ - Common mistake: Not considering the number of terms when calculating the \sum of an AP using $S_n = $$\frac{n}{2} [2a_1 + (n-1)d]$.$$
 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 

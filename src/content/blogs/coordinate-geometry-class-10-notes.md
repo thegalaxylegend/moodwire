@@ -7,12 +7,9 @@ date: "2026-04-10"
 practice_link: "/class-11/mathematics/coordinate-geometry-class-10-notes"
 ---
 
-
-![Coordinate Geometry Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog-images/coordinate-geometry-class-10-notes.webp)
-
 *Last Updated: 2026-04-10*
 
-<div [class](/blog/introduction-to-trigonometry-class-10-notes)="quick-summary">
+<div class="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
@@ -21,8 +18,8 @@ practice_link: "/class-11/mathematics/coordinate-geometry-class-10-notes"
 - - Circle: Equation of a circle with center $(h, k)$ and radius $r$ is $(x-h)^2+(y-k)^2=r^2$ — always
 - - Circle: Equation of a circle with center $(0, 0)$ and radius $r$ is $x^2+y^2=r^2$ — frequently
 - - Distance Formula: Distance between two points $(x_1, y_1)$ and $(x_2, y_2)$ is $\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}$ — always
-- - Section Formula: Coordinates of a point that divides the line segment joining the points $(x_1, y_1)$ and $(x_2, y_2)$ in the ratio $m:n$ is $\left(\frac{mx_2+nx_1}{m+n}, \frac{my_2+ny_1}{m+n}\right)$ — frequently
-- - Section Formula: Coordinates of the midpoint of the line segment joining the points $(x_1, y_1)$ and $(x_2, y_2)$ is $\left(\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2}\right)$ — always
+- - Section Formula: Coordinates of a point that divides the line segment joining the points $(x_1, y_1)$ and $(x_2, y_2)$ in the ratio $m:n$ is $\left($$\frac{mx_2+nx_1}{m+n}, \frac{my_2+ny_1}{m+n}\right)$ — frequently$$
+- - Section Formula: Coordinates of the midpoint of the line segment joining the points $(x_1, y_1)$ and $(x_2, y_2)$ is $\left($$\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2}\right)$ — always$$
 - - Equation of a Line: Normal form $x \cos \alpha + y \sin \alpha = p$ — frequently
 - - Equation of a Line: General form $Ax + By + C = 0$ — frequently
 - - Locus: Definition and examples — frequently
@@ -41,16 +38,16 @@ practice_link: "/class-11/mathematics/coordinate-geometry-class-10-notes"
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Distance Formula:** \sqrt{{(x_2 - x_1)}^2 + {(y_2 - y_1)}^2} — Distance between points $(x_1, y_1)$ and $(x_2, y_2)$
+- **Distance Formula:** $$\sqrt{{(x_2 - x_1)}^2 + {(y_2 - y_1)}^2} — Distance between points $(x_1, y_1)$ and $(x_2, y_2)$$$
  - **Section Formula:** \left( \frac{m x_2 + n x_1}{m + n}, \frac{m y_2 + n y_1}{m + n} \right) — Coordinates of a point dividing the line segment joining $(x_1, y_1)$ and $(x_2, y_2)$ internally in the ratio $m:n$
  - **Midpoint Formula:** \left( \frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2} \right) — Coordinates of the midpoint of the line segment joining $(x_1, y_1)$ and $(x_2, y_2)$
- - **Slope of a Line:** \frac{y_2 - y_1}{x_2 - x_1} — Slope of the line passing through points $(x_1, y_1)$ and $(x_2, y_2)$
+ - **Slope of a Line:** $$\frac{y_2 - y_1}{x_2 - x_1} — Slope of the line passing through points $(x_1, y_1)$ and $(x_2, y_2)$$$
  - **Point-Slope Form:** y - y_1 = \frac{y_2 - y_1}{x_2 - x_1}(x - x_1) — Equation of a line passing through $(x_1, y_1)$ with slope $\frac{y_2 - y_1}{x_2 - x_1}$
  - **Slope-Intercept Form:** y = mx + c — Equation of a line with slope $m$ and $y$-intercept $c$
  - **Two-Point Form:** y - y_1 = \frac{y_2 - y_1}{x_2 - x_1}(x - x_1) — Equation of a line passing through points $(x_1, y_1)$ and $(x_2, y_2)$
  - **Equation of a Line (General Form):** ax + by + c = 0 — General form of a line, where $a$, $b$, and $c$ are constants
- - **Length of a Line Segment:** \sqrt{{(x_2 - x_1)}^2 + {(y_2 - y_1)}^2} — Length of the line segment joining points $(x_1, y_1)$ and $(x_2, y_2)$
- - **Area of a Triangle (Coordinate Form):** \frac{1}{2} |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)| — Area of a triangle with vertices $(x_1, y_1)$, $(x_2, y_2)$, and $(x_3, y_3)$
+ - **Length of a Line Segment:** $$\sqrt{{(x_2 - x_1)}^2 + {(y_2 - y_1)}^2} — Length of the line segment joining points $(x_1, y_1)$ and $(x_2, y_2)$$$
+ - **Area of a Triangle (Coordinate Form):** $$\frac{1}{2} |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)| — Area of a triangle with vertices $(x_1, y_1)$, $(x_2, y_2)$, and $(x_3, y_3)$$$
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -80,13 +77,13 @@ practice_link: "/class-11/mathematics/coordinate-geometry-class-10-notes"
 - **Q1:** The equation of the line passing through the points (1, 2) and (3, 4) is:
  - **Trap:** Students often get confused between the slope-intercept form and the general form of a line.
  - **Solution:** 
- To find the equation of the line passing through the points (1, 2) and (3, 4), we first need to find the slope of the line. The slope is given by $m = \frac{y_2 - y_1}{x_2 - x_1} = \frac{4 - 2}{3 - 1} = \frac{2}{2} = 1$.
+ To find the equation of the line passing through the points (1, 2) and (3, 4), we first need to find the slope of the line. The slope is given by $m = $$\frac{y_2 - y_1}{x_2 - x_1} = \frac{4 - 2}{3 - 1} = \frac{2}{2} = 1$.$$
  Then, we can use the point-slope form of the equation of a line, which is $y - y_1 = m(x - x_1)$. Substituting the values, we get $y - 2 = 1(x - 1)$, which simplifies to $y - 2 = x - 1$, or $y = x + 1$. Therefore, the equation of the line is $y = x + 1$, or $x - y + 1 = 0$.
  - **Answer:** $x - y + 1 = 0$
  - **Q2:** The distance between the points (2, 3) and (4, 5) is:
  - **Trap:** Students often forget to use the correct formula for the distance between two points.
  - **Solution:** 
- The distance between two points $(x_1, y_1)$ and $(x_2, y_2)$ is given by $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$. Substituting the values, we get $d = \sqrt{(4 - 2)^2 + (5 - 3)^2} = \sqrt{2^2 + 2^2} = \sqrt{8} = 2\sqrt{2}$.
+ The distance between two points $(x_1, y_1)$ and $(x_2, y_2)$ is given by $d = $$\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$. Substituting the values, we get $d = \sqrt{(4 - 2)^2 + (5 - 3)^2} = \sqrt{2^2 + 2^2} = \sqrt{8} = 2\sqrt{2}$.$$
  - **Answer:** $2\sqrt{2}$
  - **Q3:** The equation of the circle with center (0, 0) and radius 5 is:
  - **Trap:** Students often get confused between the general form and the standard form of the equation of a circle.
@@ -107,7 +104,7 @@ practice_link: "/class-11/mathematics/coordinate-geometry-class-10-notes"
  * Apply the concept to solve problems involving parallel and perpendicular lines, such as:
  * If two lines are parallel, their slopes are equal: $m_1 = m_2$
  * If two lines are perpendicular, the product of their slopes is -1: $m_1 \times m_2 = -1$
- * Use the equation of a line to solve word problems, such as finding the equation of a line that passes through two given points $(x_1, y_1)$ and $(x_2, y_2)$, using the formula for slope: $m = \frac{y_2 - y_1}{x_2 - x_1}$
+ * Use the equation of a line to solve word problems, such as finding the equation of a line that passes through two given points $(x_1, y_1)$ and $(x_2, y_2)$, using the formula for slope: $m = $$\frac{y_2 - y_1}{x_2 - x_1}$$$
 
 | Concept | 85% Scorers | 95% Scorers |
 | --- | --- | --- |
@@ -128,11 +125,11 @@ practice_link: "/class-11/mathematics/coordinate-geometry-class-10-notes"
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- The distance between two points $({x_1}, {y_1})$ and $({x_2}, {y_2})$ is given by: \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
- - The midpoint of a line segment with endpoints $({x_1}, {y_1})$ and $({x_2}, {y_2})$ is: \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)
+- The distance between two points $({x_1}, {y_1})$ and $({x_2}, {y_2})$ is given by: $$\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
+ - The midpoint of a line segment with endpoints $({x_1}, {y_1})$ and $({x_2}, {y_2})$ is: \left($$\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)$$
  - The equation of a circle with center $({h}, {k})$ and radius ${r}$ is: {(x - h)^2 + (y - k)^2 = r^2}
  - The equation of a line passing through $({x_1}, {y_1})$ with slope ${m}$ is: y - {y_1} = {m}(x - {x_1})
- - The slope of a line passing through $({x_1}, {y_1})$ and $({x_2}, {y_2})$ is: \frac{y_2 - y_1}{x_2 - x_1}
+ - The slope of a line passing through $({x_1}, {y_1})$ and $({x_2}, {y_2})$ is: $$\frac{y_2 - y_1}{x_2 - x_1}$$
  - The $x$-axis and $y$-axis are the axes of reference for the coordinate plane.
  - The origin is the point of intersection of the $x$-axis and the $y$-axis, denoted as $(0, 0)$.
  - The quadrants are the four regions into which the coordinate plane is divided by the $x$-axis and the $y$-axis.
