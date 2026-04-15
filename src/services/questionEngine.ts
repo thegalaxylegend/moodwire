@@ -308,14 +308,15 @@ export const generateInspiredQuestion = async (
         abilityScore?: number
     }
 ): Promise<StoredQuestion | null> => {
-    const { exam, subject, topic, difficulty, abilityScore = 5 } = params;
+    const { exam, subject, topic, topic_id, difficulty, abilityScore = 5 } = params;
+    const resolvedTopicId = topic_id || topic.toLowerCase().replace(/\s+/g, '-');
 
     // Pre-Generation DB Check — only trust high-confidence questions from post-audit era
     try {
         const potentialQuery = query(
             collection(db, 'engine_questions'),
             where('exam', '==', exam),
-            where('topic_id', '==', topic_id || topic),
+            where('topic_id', '==', resolvedTopicId),
             where('difficulty', '==', difficulty),
             limit(5)
         );
@@ -656,12 +657,14 @@ const setCache = (key: string, questions: StoredQuestion[]) => {
 export const getAdaptiveQuestion = async (
     userId: string,
     topic: string,
-    topic_id?: string, // Added ID support
     exam: string,
     weaknessScore: number,
+    topic_id?: string, // Moved to allow required parameters to follow
     subject?: string,
     abilityScore?: number
 ): Promise<StoredQuestion | null> => {
+
+    const resolvedTopicId = topic_id || topic.toLowerCase().replace(/\s+/g, '-');
 
     let targetDifficulty: 'Easy' | 'Medium' | 'Hard' = 'Medium';
     if (abilityScore !== undefined) {
@@ -671,7 +674,7 @@ export const getAdaptiveQuestion = async (
         else if (weaknessScore < 0.4) targetDifficulty = 'Hard';
     }
 
-    const cacheKey = `${userId}_${exam}_${topic_id || topic}_${targetDifficulty}`;
+    const cacheKey = `${userId}_${exam}_${resolvedTopicId}_${targetDifficulty}`;
 
     // 1. Check Persistent Cache First (0 Cost)
     const cachedQuestions = getCache(cacheKey);
@@ -686,7 +689,7 @@ export const getAdaptiveQuestion = async (
         let q = query(
             collection(db, 'engine_questions'),
             where('exam', '==', exam),
-            where('topic_id', '==', topic_id || topic),
+            where('topic_id', '==', resolvedTopicId),
             where('difficulty', '==', targetDifficulty),
             orderBy('usage_count', 'asc'),
             limit(10)

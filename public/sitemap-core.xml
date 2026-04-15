@@ -660,6 +660,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://examcompass.pages.dev/jee-mains/mathematics/matrices/top-50-pyqs</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

@@ -93,7 +93,7 @@ export const updateTopicStrength = async (
 
     const cleanTopic = topic.trim();
     const cleanSubject = subject?.trim() || 'General';
-    const cleanClass = userClass || 'General';
+    // cleanClass removed as it is unused in this scope
     const cleanExam = targetExam || 'General';
 
     // Create a consistent document ID (Deterministic ID based taxonomy)
@@ -209,7 +209,8 @@ export const updateTopicStrength = async (
             misconception_tags: existingTags,
             weakness_score: weaknessScore,
             error_analysis: errorAnalysis,
-            last_error_type: errorType
+            last_error_type: errorType,
+            topic_id: topic_id
         };
 
         const isStatusUpgradeToStrong = status === 'strong' && existing?.status !== 'strong';
@@ -258,9 +259,11 @@ export const batchUpdateTopicStrength = async (
     // Update each topic
     for (const [topic, stats] of Object.entries(topicResults)) {
         for (const res of stats.results) {
+            const derivedTopicId = topic.toLowerCase().replace(/\s+/g, '-');
             await updateTopicStrength(
                 userId,
                 topic,
+                derivedTopicId,
                 stats.subject,
                 res.isCorrect,
                 {
@@ -492,5 +495,6 @@ export const recordQuestionResult = async (
         errorType?: TopicStat['last_error_type']
     } = {}
 ): Promise<void> => {
-    await updateTopicStrength(userId, topic, subject, isCorrect, params);
+    const derivedTopicId = topic.toLowerCase().replace(/\s+/g, '-');
+    await updateTopicStrength(userId, topic, derivedTopicId, subject, isCorrect, params);
 };

@@ -465,6 +465,7 @@ export const MockGenerator = () => {
                         urlTopic || subject,
                         targetExam,
                         weaknessScore,
+                        undefined, // topic_id fallback will handle it in the service
                         subject,
                         currentAbility
                     ),
