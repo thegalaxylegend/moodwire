@@ -17,6 +17,7 @@ export interface TopicStat {
     id: string;
     user_id: string;
     topic: string;
+    topic_id: string; // Deterministic ID for 0-fragmentation tracking
     subject: string;
     correct_count: number;
     total_attempts: number;
@@ -75,6 +76,7 @@ export const calculateWeaknessScore = (stat: Partial<TopicStat>): number => {
 export const updateTopicStrength = async (
     userId: string,
     topic: string,
+    topic_id: string, // Enforced deterministic ID
     subject: string,
     isCorrect: boolean,
     params: {
@@ -94,9 +96,9 @@ export const updateTopicStrength = async (
     const cleanClass = userClass || 'General';
     const cleanExam = targetExam || 'General';
 
-    // Create a consistent document ID (Composite Key for Isolation)
-    // Format: userId_class_exam_topic
-    const docId = `${userId}_${cleanClass}_${cleanExam}_${cleanTopic.toLowerCase().replace(/\s+/g, '_')}`;
+    // Create a consistent document ID (Deterministic ID based taxonomy)
+    // Format: userId_topicId
+    const docId = `${userId}_${topic_id}`;
     const docRef = doc(db, 'user_topic_stats', docId);
 
     try {

@@ -1,43 +1,45 @@
 export interface SyllabusTopic {
+    id: string; // Deterministic ID: [subj]_[class]_[slug]
     topic: string;
     class: 'Class 8' | 'Class 9' | 'Class 10' | 'Class 11' | 'Class 12';
     weightage: 'High' | 'Medium' | 'Low';
     examPattern: 'Passage' | 'MCQ' | 'Numerical';
     subtopics: string[];
     prerequisites?: string[];
+    related_math_ids?: string[]; // Neural link to Math prerequisites
 }
 
 export const SYLLABUS_DB: Record<string, SyllabusTopic[]> = {
     Physics: [
-        { topic: "Units and Measurements", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["SI Units", "Dimensions", "Errors in Measuring Instruments"] },
-        { topic: "Motion in a Straight Line", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Velocity", "Acceleration", "Relative Velocity", "Kinematic Equations"], prerequisites: ["Units and Measurements"] },
-        { topic: "Motion in a Plane", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Vectors", "Projectile Motion", "Uniform Circular Motion"], prerequisites: ["Units and Measurements"] },
-        { topic: "Laws of Motion", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Newton's Laws", "Friction", "Circular Motion Dynamics"], prerequisites: ["Motion in a Straight Line"] },
-        { topic: "Work, Energy and Power", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Work-Energy Theorem", "Potential Energy", "Collisions"], prerequisites: ["Laws of Motion"] },
-        { topic: "Rotational Motion", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Center of Mass", "Torque", "Moment of Inertia", "Rolling Motion"], prerequisites: ["Laws of Motion", "Motion in a Plane"] },
-        { topic: "Gravitation", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Kepler's Laws", "Escape Velocity", "Satellites"] },
-        { topic: "Mechanical Properties of Solids", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Stress", "Strain", "Hooke's Law", "Young's Modulus"] },
-        { topic: "Mechanical Properties of Fluids", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Pascal's Law", "Bernoulli's Principle", "Viscosity", "Surface Tension"] },
-        { topic: "Thermal Properties of Matter", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Thermal Expansion", "Specific Heat", "Heat Transfer"] },
-        { topic: "Thermodynamics", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Laws of Thermodynamics", "Heat Engines", "Specific Heat"] },
-        { topic: "Kinetic Theory", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Ideal Gas Equation", "Kinetic Energy", "Specific Heat Capacity"] },
-        { topic: "Oscillations", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["SHM", "Simple Pendulum", "Resonance"] },
-        { topic: "Waves", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Transverse/Longitudinal", "Doppler Effect", "Beats"] },
-        { topic: "Physical World", class: "Class 11", weightage: "Low", examPattern: "MCQ", subtopics: ["Scope of Physics", "Fundamental Forces", "Nature of Laws"] },
-        { topic: "Electrostatics", class: "Class 12", weightage: "High", examPattern: "Numerical", subtopics: ["Electric Field", "Flux", "Dipole", "Capacitors"] },
-        { topic: "Current Electricity", class: "Class 12", weightage: "High", examPattern: "Numerical", subtopics: ["Ohm's Law", "Kirchhoff's Laws", "Potentiometer"] },
-        { topic: "Magnetic Effects of Current", class: "Class 12", weightage: "High", examPattern: "Numerical", subtopics: ["Biot-Savart Law", "Ampere's Law", "Moving Coil Galvanometer"] },
-        { topic: "Magnetism and Matter", class: "Class 12", weightage: "High", examPattern: "MCQ", subtopics: ["Earth's Magnetism", "Magnetic Properties", "Hysteresis"] },
-        { topic: "Electromagnetic Induction", class: "Class 12", weightage: "High", examPattern: "Numerical", subtopics: ["Faraday's Law", "Lenz's Law", "Inductance"] },
-        { topic: "Alternating Current", class: "Class 12", weightage: "High", examPattern: "Numerical", subtopics: ["LCR Circuits", "Resonance", "Power Factor", "Transformers"] },
-        { topic: "Electromagnetic Waves", class: "Class 12", weightage: "Medium", examPattern: "MCQ", subtopics: ["Spectrum", "Properties", "Applications"] },
-        { topic: "Ray Optics", class: "Class 12", weightage: "High", examPattern: "Numerical", subtopics: ["Reflection", "Refraction", "Lenses", "Prisms", "Optical Instruments"] },
-        { topic: "Wave Optics", class: "Class 12", weightage: "High", examPattern: "Numerical", subtopics: ["Huygens Principle", "Interference", "Diffraction", "Polarization"] },
-        { topic: "Dual Nature of Radiation", class: "Class 12", weightage: "Medium", examPattern: "Numerical", subtopics: ["Photoelectric Effect", "De Broglie Wavelength"] },
-        { topic: "Atoms", class: "Class 12", weightage: "Medium", examPattern: "Numerical", subtopics: ["Bohr Model", "Hydrogen Spectrum"] },
-        { topic: "Nuclei", class: "Class 12", weightage: "Medium", examPattern: "Numerical", subtopics: ["Radioactivity", "Binding Energy", "Fission/Fusion"] },
-        { topic: "Semiconductor Electronics", class: "Class 12", weightage: "High", examPattern: "MCQ", subtopics: ["Diodes", "Transistors", "Logic Gates"] },
-        { topic: "Communication Systems", class: "Class 12", weightage: "Medium", examPattern: "MCQ", subtopics: ["Modulation", "Bandwidth", "Propagation"] }
+        { id: "phy_11_unit_meas", topic: "Units and Measurements", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["SI Units", "Dimensions", "Errors in Measuring Instruments"] },
+        { id: "phy_11_motion_line", topic: "Motion in a Straight Line", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Velocity", "Acceleration", "Relative Velocity", "Kinematic Equations"], prerequisites: ["phy_11_unit_meas"], related_math_ids: ["math_11_limits_derivatives"] },
+        { id: "phy_11_motion_plane", topic: "Motion in a Plane", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Vectors", "Projectile Motion", "Uniform Circular Motion"], prerequisites: ["phy_11_unit_meas"], related_math_ids: ["math_11_trigonometry"] },
+        { id: "phy_11_laws_motion", topic: "Laws of Motion", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Newton's Laws", "Friction", "Circular Motion Dynamics"], prerequisites: ["phy_11_motion_line"] },
+        { id: "phy_11_work_energy", topic: "Work, Energy and Power", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Work-Energy Theorem", "Potential Energy", "Collisions"], prerequisites: ["phy_11_laws_motion"], related_math_ids: ["math_12_integrals"] },
+        { id: "phy_11_rotational", topic: "Rotational Motion", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Center of Mass", "Torque", "Moment of Inertia", "Rolling Motion"], prerequisites: ["phy_11_laws_motion", "phy_11_motion_plane"], related_math_ids: ["math_12_vector_algebra"] },
+        { id: "phy_11_gravitation", topic: "Gravitation", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Kepler's Laws", "Escape Velocity", "Satellites"] },
+        { id: "phy_11_solids", topic: "Mechanical Properties of Solids", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Stress", "Strain", "Hooke's Law", "Young's Modulus"] },
+        { id: "phy_11_fluids", topic: "Mechanical Properties of Fluids", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Pascal's Law", "Bernoulli's Principle", "Viscosity", "Surface Tension"] },
+        { id: "phy_11_thermal", topic: "Thermal Properties of Matter", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Thermal Expansion", "Specific Heat", "Heat Transfer"] },
+        { id: "phy_11_thermodynamics", topic: "Thermodynamics", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Laws of Thermodynamics", "Heat Engines", "Specific Heat"] },
+        { id: "phy_11_ktg", topic: "Kinetic Theory", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Ideal Gas Equation", "Kinetic Energy", "Specific Heat Capacity"] },
+        { id: "phy_11_oscillations", topic: "Oscillations", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["SHM", "Simple Pendulum", "Resonance"], related_math_ids: ["math_11_trigonometry"] },
+        { id: "phy_11_waves", topic: "Waves", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Transverse/Longitudinal", "Doppler Effect", "Beats"] },
+        { id: "phy_11_physical_world", topic: "Physical World", class: "Class 11", weightage: "Low", examPattern: "MCQ", subtopics: ["Scope of Physics", "Fundamental Forces", "Nature of Laws"] },
+        { id: "phy_12_electrostatics", topic: "Electrostatics", class: "Class 12", weightage: "High", examPattern: "Numerical", subtopics: ["Electric Field", "Flux", "Dipole", "Capacitors"], related_math_ids: ["math_12_vector_algebra", "math_12_integrals"] },
+        { id: "phy_12_current", topic: "Current Electricity", class: "Class 12", weightage: "High", examPattern: "Numerical", subtopics: ["Ohm's Law", "Kirchhoff's Laws", "Potentiometer"] },
+        { id: "phy_12_mag_effects", topic: "Magnetic Effects of Current", class: "Class 12", weightage: "High", examPattern: "Numerical", subtopics: ["Biot-Savart Law", "Ampere's Law", "Moving Coil Galvanometer"], related_math_ids: ["math_12_vector_algebra"] },
+        { id: "phy_12_magnetism", topic: "Magnetism and Matter", class: "Class 12", weightage: "High", examPattern: "MCQ", subtopics: ["Earth's Magnetism", "Magnetic Properties", "Hysteresis"] },
+        { id: "phy_12_emi", topic: "Electromagnetic Induction", class: "Class 12", weightage: "High", examPattern: "Numerical", subtopics: ["Faraday's Law", "Lenz's Law", "Inductance"] },
+        { id: "phy_12_ac", topic: "Alternating Current", class: "Class 12", weightage: "High", examPattern: "Numerical", subtopics: ["LCR Circuits", "Resonance", "Power Factor", "Transformers"], related_math_ids: ["math_12_integrals"] },
+        { id: "phy_12_em_waves", topic: "Electromagnetic Waves", class: "Class 12", weightage: "Medium", examPattern: "MCQ", subtopics: ["Spectrum", "Properties", "Applications"] },
+        { id: "phy_12_ray_optics", topic: "Ray Optics", class: "Class 12", weightage: "High", examPattern: "Numerical", subtopics: ["Reflection", "Refraction", "Lenses", "Prisms", "Optical Instruments"], related_math_ids: ["math_11_trigonometry"] },
+        { id: "phy_12_wave_optics", topic: "Wave Optics", class: "Class 12", weightage: "High", examPattern: "Numerical", subtopics: ["Huygens Principle", "Interference", "Diffraction", "Polarization"] },
+        { id: "phy_12_dual_nature", topic: "Dual Nature of Radiation", class: "Class 12", weightage: "Medium", examPattern: "Numerical", subtopics: ["Photoelectric Effect", "De Broglie Wavelength"] },
+        { id: "phy_12_atoms", topic: "Atoms", class: "Class 12", weightage: "Medium", examPattern: "Numerical", subtopics: ["Bohr Model", "Hydrogen Spectrum"] },
+        { id: "phy_12_nuclei", topic: "Nuclei", class: "Class 12", weightage: "Medium", examPattern: "Numerical", subtopics: ["Radioactivity", "Binding Energy", "Fission/Fusion"] },
+        { id: "phy_12_semiconductors", topic: "Semiconductor Electronics", class: "Class 12", weightage: "High", examPattern: "MCQ", subtopics: ["Diodes", "Transistors", "Logic Gates"] },
+        { id: "phy_12_communication", topic: "Communication Systems", class: "Class 12", weightage: "Medium", examPattern: "MCQ", subtopics: ["Modulation", "Bandwidth", "Propagation"] }
     ],
     Chemistry: [
         { topic: "Some Basic Concepts of Chemistry", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Stoichiometry", "Mole Concept", "Concentration Terms"] },

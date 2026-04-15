@@ -124,7 +124,7 @@ export const Syllabus = () => {
                     finalData[subject] = filteredTopics.map(t => {
                         const saved = progressMap.get(t.topic);
                         return {
-                            id: saved?.id || `${subject}-${t.topic}-${t.class}`.replace(/\s+/g, '-').toLowerCase(),
+                            id: t.id, // Using deterministic ID from constants.ts
                             subject: subject,
                             topic: t.topic,
                             subtopics: t.subtopics,

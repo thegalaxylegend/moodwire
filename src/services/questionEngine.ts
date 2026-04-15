@@ -34,6 +34,7 @@ export interface StoredQuestion {
     subject: string;
     chapter: string;
     topic: string;
+    topic_id: string; // Deterministic ID for remediation targeting
     type: 'MCQ' | 'Multi-Correct' | 'Integer' | 'Passage' | 'Assertion-Reason';
     difficulty: 'Easy' | 'Medium' | 'Hard';
     question: string;
@@ -302,6 +303,7 @@ export const generateInspiredQuestion = async (
         exam: string,
         subject: string,
         topic: string,
+        topic_id?: string, // New deterministic ID
         difficulty: 'Easy' | 'Medium' | 'Hard',
         abilityScore?: number
     }
@@ -313,7 +315,7 @@ export const generateInspiredQuestion = async (
         const potentialQuery = query(
             collection(db, 'engine_questions'),
             where('exam', '==', exam),
-            where('topic', '==', topic),
+            where('topic_id', '==', topic_id || topic),
             where('difficulty', '==', difficulty),
             limit(5)
         );
@@ -654,6 +656,7 @@ const setCache = (key: string, questions: StoredQuestion[]) => {
 export const getAdaptiveQuestion = async (
     userId: string,
     topic: string,
+    topic_id?: string, // Added ID support
     exam: string,
     weaknessScore: number,
     subject?: string,
@@ -668,7 +671,7 @@ export const getAdaptiveQuestion = async (
         else if (weaknessScore < 0.4) targetDifficulty = 'Hard';
     }
 
-    const cacheKey = `${userId}_${exam}_${topic}_${targetDifficulty}`;
+    const cacheKey = `${userId}_${exam}_${topic_id || topic}_${targetDifficulty}`;
 
     // 1. Check Persistent Cache First (0 Cost)
     const cachedQuestions = getCache(cacheKey);
@@ -683,7 +686,7 @@ export const getAdaptiveQuestion = async (
         let q = query(
             collection(db, 'engine_questions'),
             where('exam', '==', exam),
-            where('topic', '==', topic),
+            where('topic_id', '==', topic_id || topic),
             where('difficulty', '==', targetDifficulty),
             orderBy('usage_count', 'asc'),
             limit(10)
