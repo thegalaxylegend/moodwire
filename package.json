@@ -59,6 +59,7 @@
     "framer-motion": "^12.24.10",
     "groq-sdk": "^0.37.0",
     "html2pdf.js": "^0.14.0",
+    "idb": "^8.0.3",
     "jspdf": "^4.1.0",
     "jspdf-autotable": "^5.0.7",
     "katex": "^0.16.38",

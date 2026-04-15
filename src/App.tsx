@@ -31,6 +31,7 @@ const PrivacyPolicy = lazy(() => import('./pages/public/PrivacyPolicy').then(mod
 const TermsOfService = lazy(() => import('./pages/public/TermsOfService').then(module => ({ default: module.TermsOfService })));
 const AboutPage = lazy(() => import('./pages/public/AboutPage').then(module => ({ default: module.AboutPage })));
 const ContactPage = lazy(() => import('./pages/public/ContactPage').then(module => ({ default: module.ContactPage })));
+const ParentReport = lazy(() => import('./pages/public/ParentReport').then(module => ({ default: module.ParentReport })));
 const NotFoundPage = lazy(() => import('./pages/public/NotFoundPage').then(module => ({ default: module.NotFoundPage })));
 
 // Auth
@@ -57,6 +58,8 @@ const TestCenter = lazy(() => import('./pages/dashboard/TestCenter').then(module
 const ActiveTest = lazy(() => import('./pages/dashboard/ActiveTest').then(module => ({ default: module.ActiveTest })));
 const SubjectSyllabus = lazy(() => import('./pages/dashboard/SubjectSyllabus').then(module => ({ default: module.SubjectSyllabus })));
 const RankInfo = lazy(() => import('./pages/dashboard/RankInfo').then(module => ({ default: module.RankInfo })));
+const ConceptMap = lazy(() => import('./pages/dashboard/ConceptMap').then(module => ({ default: module.ConceptMap })));
+const Arena = lazy(() => import('./pages/dashboard/Arena').then(module => ({ default: module.Arena })));
 
 // Admin Routes
 const QuestionReview = lazy(() => import('./pages/admin/QuestionReview').then(module => ({ default: module.QuestionReview })));
@@ -144,6 +147,7 @@ function AppContent() {
             <Route path="/terms" element={<Suspense fallback={<BlogSkeleton />}><TermsOfService /></Suspense>} />
             <Route path="/about" element={<Suspense fallback={<BlogSkeleton />}><AboutPage /></Suspense>} />
             <Route path="/contact" element={<Suspense fallback={<BlogSkeleton />}><ContactPage /></Suspense>} />
+            <Route path="/report/:userId" element={<Suspense fallback={<BlogSkeleton />}><ParentReport /></Suspense>} />
 
             <Route element={<Suspense fallback={<DashboardSkeleton />}><ProtectedLayout /></Suspense>}>
               <Route path="/onboarding" element={<Onboarding />} />
@@ -167,6 +171,8 @@ function AppContent() {
                 <Route path="test-active" element={<ActiveTest />} />
                 <Route path="profile" element={<ProfilePage />} />
                 <Route path="ranks" element={<RankInfo />} />
+                <Route path="concept-map" element={<ConceptMap />} />
+                <Route path="arena" element={<Arena />} />
               </Route>
             </Route>
 

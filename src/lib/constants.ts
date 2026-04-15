@@ -43,11 +43,11 @@ export const SYLLABUS_DB: Record<string, SyllabusTopic[]> = {
     ],
     Chemistry: [
         { id: "che_11_some_basic_conc", topic: "Some Basic Concepts of Chemistry", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Stoichiometry", "Mole Concept", "Concentration Terms"] },
-        { id: "che_11_structure_of_th", topic: "Structure of The Atom", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Bohr Model", "Quantum Numbers", "Electronic Config"], prerequisites: ["Some Basic Concepts of Chemistry"] },
-        { id: "che_11_classification", topic: "Classification of Elements", class: "Class 11", weightage: "Medium", examPattern: "MCQ", subtopics: ["Periodic Trends", "Ionization Enthalpy", "Electronegativity"], prerequisites: ["Structure of The Atom"] },
-        { id: "che_11_chemical_bondin", topic: "Chemical Bonding", class: "Class 11", weightage: "High", examPattern: "MCQ", subtopics: ["VSEPR", "Hybridization", "MOT", "Hydrogen Bonding"], prerequisites: ["Structure of The Atom", "Classification of Elements"] },
-        { id: "che_11_states_of_matte", topic: "States of Matter", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Gas Laws", "Ideal Gas Equation", "Intermolecular Forces"], prerequisites: ["Some Basic Concepts of Chemistry"] },
-        { id: "che_11_thermodynamics", topic: "Thermodynamics", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Enthalpy", "Entropy", "Gibbs Free Energy"], prerequisites: ["Some Basic Concepts of Chemistry", "States of Matter"] },
+        { id: "che_11_structure_of_th", topic: "Structure of The Atom", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Bohr Model", "Quantum Numbers", "Electronic Config"], prerequisites: ["che_11_some_basic_conc"] },
+        { id: "che_11_classification", topic: "Classification of Elements", class: "Class 11", weightage: "Medium", examPattern: "MCQ", subtopics: ["Periodic Trends", "Ionization Enthalpy", "Electronegativity"], prerequisites: ["che_11_structure_of_th"] },
+        { id: "che_11_chemical_bondin", topic: "Chemical Bonding", class: "Class 11", weightage: "High", examPattern: "MCQ", subtopics: ["VSEPR", "Hybridization", "MOT", "Hydrogen Bonding"], prerequisites: ["che_11_structure_of_th", "che_11_classification"] },
+        { id: "che_11_states_of_matte", topic: "States of Matter", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Gas Laws", "Ideal Gas Equation", "Intermolecular Forces"], prerequisites: ["che_11_some_basic_conc"] },
+        { id: "che_11_thermodynamics", topic: "Thermodynamics", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Enthalpy", "Entropy", "Gibbs Free Energy"], prerequisites: ["che_11_some_basic_conc", "che_11_states_of_matte"] },
         { id: "che_11_equilibrium", topic: "Equilibrium", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Le Chatelier Principle", "pH Calculation", "Solubility Product"] },
         { id: "che_11_redox_reactions", topic: "Redox Reactions", class: "Class 11", weightage: "Medium", examPattern: "Numerical", subtopics: ["Oxidation Number", "Balancing Equations", "Elecrochemical Cells"] },
         { id: "che_11_hydrogen", topic: "Hydrogen", class: "Class 11", weightage: "Low", examPattern: "MCQ", subtopics: ["Preparation", "Hydrides", "Water"] },
@@ -95,9 +95,9 @@ export const SYLLABUS_DB: Record<string, SyllabusTopic[]> = {
         { id: "math_12_matrices", topic: "Matrices", class: "Class 12", weightage: "High", examPattern: "Numerical", subtopics: ["Types", "Operations", "Transpose", "Invertible"] },
         { id: "math_12_determinants", topic: "Determinants", class: "Class 12", weightage: "High", examPattern: "Numerical", subtopics: ["Properties", "Area of Triangle", "System of Equations"] },
         { id: "math_12_continuity_and", topic: "Continuity and Differentiability", class: "Class 12", weightage: "High", examPattern: "Numerical", subtopics: ["Continuity", "Chain Rule", "Mean Value Theorem"] },
-        { id: "math_12_application_of", topic: "Application of Derivatives", class: "Class 12", weightage: "High", examPattern: "Numerical", subtopics: ["Tangent/Normal", "Monotonicity", "Maxima/Minima"] },
+        { id: "math_12_app_derivatives", topic: "Application of Derivatives", class: "Class 12", weightage: "High", examPattern: "Numerical", subtopics: ["Tangent/Normal", "Monotonicity", "Maxima/Minima"] },
         { id: "math_12_integrals", topic: "Integrals", class: "Class 12", weightage: "High", examPattern: "Numerical", subtopics: ["Indefinite", "Definite Properties", "Area Under Curve"] },
-        { id: "math_12_application_of", topic: "Application of Integrals", class: "Class 12", weightage: "High", examPattern: "Numerical", subtopics: ["Area bounded by curves", "Area of circle/ellipse"] },
+        { id: "math_12_app_integrals", topic: "Application of Integrals", class: "Class 12", weightage: "High", examPattern: "Numerical", subtopics: ["Area bounded by curves", "Area of circle/ellipse"] },
         { id: "math_12_differential_eq", topic: "Differential Equations", class: "Class 12", weightage: "Medium", examPattern: "Numerical", subtopics: ["Order/Degree", "General/Particular Solution", "Linear DE"] },
         { id: "math_12_vector_algebra", topic: "Vector Algebra", class: "Class 12", weightage: "High", examPattern: "Numerical", subtopics: ["Dot/Cross Product", "Projections", "Direction Cosines"] },
         { id: "math_12_three_dimension", topic: "Three Dimensional Geometry", class: "Class 12", weightage: "High", examPattern: "Numerical", subtopics: ["Lines", "Planes", "Shortest Distance"] },
@@ -184,17 +184,17 @@ export const SYLLABUS_DB: Record<string, SyllabusTopic[]> = {
     ],
 
     "Computer Science": [
-        { id: "bio_11_data_structures", topic: "Data Structures: Linear", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Arrays", "Stacks", "Queues", "Linked Lists"] },
-        { id: "bio_11_data_structures", topic: "Data Structures: Non-Linear", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Trees", "BST", "Heaps", "Graphs", "Hashing"] },
-        { id: "bio_11_algorithms_anal", topic: "Algorithms: Analysis", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Asymptotic Notation", "Complexity", "Recurrence"] },
-        { id: "bio_11_algorithms_desi", topic: "Algorithms: Design", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Divide & Conquer", "Greedy", "Dynamic Programming"] },
-        { id: "bio_11_digital_logic", topic: "Digital Logic", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Boolean Algebra", "Combinational Ckts", "Sequential Ckts"] },
-        { id: "bio_11_computer_organi", topic: "Computer Organization", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Addressing Modes", "Pipelining", "Cache Memory", "IO"] },
-        { id: "bio_12_operating_syste", topic: "Operating Systems", class: "Class 12", weightage: "High", examPattern: "Numerical", subtopics: ["Processes", "Threads", "CPU Scheduling", "Deadlocks", "Memory Mgmt"] },
-        { id: "bio_12_databases_dbms", topic: "Databases (DBMS)", class: "Class 12", weightage: "High", examPattern: "Numerical", subtopics: ["ER Model", "SQL", "Normalization", "Transactions", "Indexing"] },
-        { id: "bio_12_computer_networ", topic: "Computer Networks", class: "Class 12", weightage: "High", examPattern: "Numerical", subtopics: ["OSI/TCP Model", "IP Addressing", "Routing", "Transport Layer", "App Layer"] },
-        { id: "bio_12_theory_of_compu", topic: "Theory of Computation", class: "Class 12", weightage: "Medium", examPattern: "Numerical", subtopics: ["Regular Languages", "DFA/NFA", "Context Free", "Turing Machines"] },
-        { id: "bio_12_compiler_design", topic: "Compiler Design", class: "Class 12", weightage: "Medium", examPattern: "Numerical", subtopics: ["Lexical Analysis", "Parsing", "Syntax Directed Translation"] }
+        { id: "cs_11_ds_linear", topic: "Data Structures: Linear", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Arrays", "Stacks", "Queues", "Linked Lists"] },
+        { id: "cs_11_ds_nonlinear", topic: "Data Structures: Non-Linear", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Trees", "BST", "Heaps", "Graphs", "Hashing"] },
+        { id: "cs_11_algorithms_anal", topic: "Algorithms: Analysis", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Asymptotic Notation", "Complexity", "Recurrence"] },
+        { id: "cs_11_algorithms_desi", topic: "Algorithms: Design", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Divide & Conquer", "Greedy", "Dynamic Programming"] },
+        { id: "cs_11_digital_logic", topic: "Digital Logic", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Boolean Algebra", "Combinational Ckts", "Sequential Ckts"] },
+        { id: "cs_11_computer_organi", topic: "Computer Organization", class: "Class 11", weightage: "High", examPattern: "Numerical", subtopics: ["Addressing Modes", "Pipelining", "Cache Memory", "IO"] },
+        { id: "cs_12_operating_syste", topic: "Operating Systems", class: "Class 12", weightage: "High", examPattern: "Numerical", subtopics: ["Processes", "Threads", "CPU Scheduling", "Deadlocks", "Memory Mgmt"] },
+        { id: "cs_12_databases_dbms", topic: "Databases (DBMS)", class: "Class 12", weightage: "High", examPattern: "Numerical", subtopics: ["ER Model", "SQL", "Normalization", "Transactions", "Indexing"] },
+        { id: "cs_12_computer_networ", topic: "Computer Networks", class: "Class 12", weightage: "High", examPattern: "Numerical", subtopics: ["OSI/TCP Model", "IP Addressing", "Routing", "Transport Layer", "App Layer"] },
+        { id: "cs_12_theory_of_compu", topic: "Theory of Computation", class: "Class 12", weightage: "Medium", examPattern: "Numerical", subtopics: ["Regular Languages", "DFA/NFA", "Context Free", "Turing Machines"] },
+        { id: "cs_12_compiler_design", topic: "Compiler Design", class: "Class 12", weightage: "Medium", examPattern: "Numerical", subtopics: ["Lexical Analysis", "Parsing", "Syntax Directed Translation"] }
     ],
     "Science": [
         // Class 10
@@ -374,16 +374,7 @@ export const SYLLABUS_DB: Record<string, SyllabusTopic[]> = {
     ]
 };
 
-export const EXAM_SUBJECT_MAPPING: Record<string, string[]> = {
-    'jee-mains': ['Physics', 'Chemistry', 'Mathematics'],
-    'jee-advanced': ['Physics', 'Chemistry', 'Mathematics'],
-    'neet': ['Physics', 'Chemistry', 'Biology'],
-    'class-12': ['Physics', 'Chemistry', 'Mathematics', 'Biology', 'English', 'Computer Science'],
-    'class-11': ['Physics', 'Chemistry', 'Mathematics', 'Biology', 'English', 'Computer Science'],
-    'class-10': ['Mathematics', 'Science', 'Social Science', 'English'],
-    'class-9': ['Mathematics', 'Science', 'Social Science', 'English'],
-    'class-8': ['Mathematics', 'Science', 'Social Science', 'English'],
-};
+
 
 export const SOCIAL_LINKS = {
     twitter: {
@@ -410,4 +401,20 @@ export const SOCIAL_LINKS = {
         url: 'https://linkedin.com/company/examcompass'
     },
     email: 'contact@examcompass.pages.dev'
+};
+
+// Exam → relevant subjects mapping (used by missionService, recommendationService)
+export const EXAM_SUBJECT_MAPPING: Record<string, string[]> = {
+    'jee-mains': ['Physics', 'Chemistry', 'Mathematics'],
+    'jee-advanced': ['Physics', 'Chemistry', 'Mathematics'],
+    'jee': ['Physics', 'Chemistry', 'Mathematics'],
+    'neet': ['Physics', 'Chemistry', 'Biology'],
+    'medical': ['Physics', 'Chemistry', 'Biology'],
+    'class-12': ['Physics', 'Chemistry', 'Mathematics', 'Biology'],
+    'class-11': ['Physics', 'Chemistry', 'Mathematics', 'Biology'],
+    'class-10': ['Science', 'Mathematics', 'Social Science', 'English'],
+    'class-9': ['Science', 'Mathematics', 'Social Science', 'English'],
+    'class-8': ['Science', 'Mathematics', 'Social Science', 'English'],
+    'boards': ['Physics', 'Chemistry', 'Mathematics', 'Biology'],
+    'cuet': ['Physics', 'Chemistry', 'Mathematics', 'English'],
 };

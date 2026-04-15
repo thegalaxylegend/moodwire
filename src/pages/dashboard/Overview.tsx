@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react';
 import { useUserStore } from '../../store/userStore';
 import { Link, useNavigate } from 'react-router-dom';
-import { TrendingUp, RefreshCw, Flame, Play, ChevronRight, Target, Sparkles as SparkleIcon, Brain } from 'lucide-react';
+import { TrendingUp, RefreshCw, Flame, Play, ChevronRight, Target, Sparkles as SparkleIcon, Brain, Swords, ArrowRight } from 'lucide-react';
 
 import { getWeakTopics, getStrongTopics, type TopicStat } from '../../services/topicStrengthService';
+import { offlineSyncService } from '../../services/offlineSyncService';
 import { DailyChallenge } from '../../components/DailyChallenge';
 import { syncHistoricalScoresToLeaderboard, syncSyllabusFromMocks, syncTopicStatsFromMocks } from '../../services/dataSyncService';
 import { RankBadge } from '../../components/gamification/RankBadge';
@@ -235,6 +236,11 @@ export const Overview = () => {
                 try {
                     weakStats = await getWeakTopics(user.id, 5, user.userClass, user.targetExam);
                     setWeakTopicStats(weakStats);
+                    
+                    // Offline First: Pre-cache questions based on user's weak topics
+                    if (navigator.onLine) {
+                        offlineSyncService.preCacheWeakTopics(user.id, user.userClass, user.targetExam);
+                    }
                 } catch (err) {
                     console.warn("Weak topics fetch failed:", err);
                 }
@@ -247,64 +253,7 @@ export const Overview = () => {
                     console.warn("Strong topics fetch failed:", err);
                 }
 
-                // 4. Video logic moved to outer scope
-                if (false) {
-                    // Legacy video fetch removed
-                } else if (user.skills) {
-                    // FALLBACK: If no topic-level data, use subject-level proficiency
-                    console.log('[Overview] No topic data. Using subject proficiency as fallback.');
-                    const subjects = [
-                        { name: 'Physics', score: user.skills.physics || 0.5 },
-                        { name: 'Chemistry', score: user.skills.chemistry || 0.5 },
-                        { name: 'Math', score: user.skills.math || 0.5 }
-                    ];
-
-                    // ALWAYS show the weakest subjects, even if overall performance is excellent
-                    const weakSubjects = subjects
-                        .sort((a, b) => a.score - b.score)
-                        .slice(0, 3) // Always show top 3 weakest subjects
-                        .map(s => s.name);
-
-                    if (weakSubjects.length > 0) {
-                        console.log('[Overview] Fetching videos for weakest subjects:', weakSubjects);
-                        // Video fetching is handled by fetchActiveVideo now
-
-                        // Create topic stats for display with relative weakness indicator
-                        const fakeWeakStats: TopicStat[] = weakSubjects.map(subject => ({
-                            id: `fake-${subject}`,
-                            user_id: user.id,
-                            topic: subject,
-                            topic_id: subject.toLowerCase().replace(/\s+/g, '-'),
-                            subject: subject,
-                            correct_count: 0,
-                            total_attempts: 1,
-                            score_percentage: Math.round((subjects.find(s => s.name === subject)?.score || 0.5) * 100),
-                            last_attempt: new Date().toISOString(),
-                            status: 'weak' as const
-                        }));
-                        setWeakTopicStats(fakeWeakStats);
-                    }
-                } else {
-                    // ULTIMATE FALLBACK: No skills data at all - show default recommendations
-                    console.log('[Overview] No skills data. Showing default video recommendations.');
-                    const defaultSubjects = ['Physics', 'Chemistry', 'Math'];
-                    // Video fetching is handled by fetchActiveVideo now
-
-                    // Create placeholder topic stats
-                    const placeholderStats: TopicStat[] = defaultSubjects.map(subject => ({
-                        id: `default-${subject}`,
-                        user_id: user.id,
-                        topic: subject,
-                        topic_id: subject.toLowerCase().replace(/\s+/g, '-'),
-                        subject: subject,
-                        correct_count: 0,
-                        total_attempts: 0,
-                        score_percentage: 0,
-                        last_attempt: new Date().toISOString(),
-                        status: 'weak' as const
-                    }));
-                    setWeakTopicStats(placeholderStats);
-                }
+                // 4. Video and fallback logic handled in the unified block below
             }
 
             // [NEW] 4. Fetch Video Recommendations (Runs for EVERYONE)
@@ -493,6 +442,19 @@ export const Overview = () => {
                         </div>
                     </div>
                 </div>
+                {user && !user.isGuest && (
+                    <button 
+                        onClick={() => {
+                            const shareUrl = `${window.location.origin}/report/${user.id}`;
+                            navigator.clipboard.writeText(shareUrl);
+                            alert("Parent Report URL copied to clipboard!");
+                        }}
+                        className="hidden lg:flex items-center gap-2 px-5 py-3 glass-card premium-border text-purple-400 font-bold hover:bg-white/5 transition-all shadow-xl hover:shadow-purple-500/20 active:scale-95"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" x2="12" y1="2" y2="15"/></svg>
+                        Share Parent Report
+                    </button>
+                )}
             </div>
         </header>
     );
@@ -531,6 +493,23 @@ export const Overview = () => {
                                 onAction={handleMissionAction}
                             />
                         )}
+
+                        {/* Arena Card */}
+                        <div className="glass-card oxygen-card p-6 border-red-500/20 bg-gradient-to-br from-[#11131c] to-red-500/10 flex flex-col justify-between group overflow-hidden relative" >
+                            <div className="absolute right-[-20%] bottom-[-20%] opacity-10 group-hover:scale-110 transition-transform duration-500">
+                                <Swords size={180} />
+                            </div>
+                            <div className="relative z-10 w-full mb-4">
+                                <div className="flex justify-between items-start">
+                                    <h3 className="text-xl font-bold text-white tracking-widest uppercase shadow-sm flex items-center gap-2"><Swords size={20} className="text-red-500" /> The Arena</h3>
+                                    <span className="bg-red-500/20 text-red-500 border border-red-500/40 px-2 py-1 rounded-md text-[10px] font-black uppercase shadow-inner animate-pulse">Live</span>
+                                </div>
+                                <p className="text-sm text-text-muted mt-2 w-2/3">Challenge friends or random opponents in real-time 1v1 battles. Prove your mastery.</p>
+                            </div>
+                            <button onClick={() => navigate('/dashboard/arena')} className="relative z-10 w-max bg-red-500 hover:bg-red-600 text-white font-bold uppercase tracking-widest text-xs flex items-center gap-2 px-4 py-2 rounded-lg transition-all active:scale-95 shadow-lg shadow-red-500/20">
+                                Enter Matchmaking <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
+                            </button>
+                        </div>
                     </div>
 
                     <div className="space-y-6">

@@ -928,6 +928,470 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/physics/units-and-measurements</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/physics/motion-in-a-straight-line</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/physics/motion-in-a-plane</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/physics/laws-of-motion</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/physics/work-energy-and-power</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/physics/rotational-motion</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/physics/gravitation</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/physics/mechanical-properties-of-solids</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/physics/mechanical-properties-of-fluids</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/physics/thermal-properties-of-matter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/physics/thermodynamics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/physics/kinetic-theory</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/physics/oscillations</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/physics/waves</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/physics/physical-world</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/physics/electrostatics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/physics/current-electricity</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/physics/magnetic-effects-of-current</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/physics/magnetism-and-matter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/physics/electromagnetic-induction</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/physics/alternating-current</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/physics/electromagnetic-waves</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/physics/ray-optics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/physics/wave-optics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/physics/dual-nature-of-radiation</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/physics/atoms</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/physics/nuclei</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/physics/semiconductor-electronics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/physics/communication-systems</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/chemistry/some-basic-concepts-of-chemistry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/chemistry/structure-of-the-atom</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/chemistry/classification-of-elements</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/chemistry/chemical-bonding</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/chemistry/states-of-matter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/chemistry/thermodynamics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/chemistry/equilibrium</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/chemistry/redox-reactions</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/chemistry/hydrogen</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/chemistry/the-s-block-elements</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/chemistry/the-p-block-elements-11</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/chemistry/organic-chemistry-basic-principles</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/chemistry/hydrocarbons</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/chemistry/environmental-chemistry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/chemistry/solid-state</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/chemistry/solutions</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/chemistry/electrochemistry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/chemistry/chemical-kinetics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/chemistry/surface-chemistry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/chemistry/metallurgy</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/chemistry/the-p-block-elements-12</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/chemistry/d-and-f-block-elements</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/chemistry/coordination-compounds</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/chemistry/haloalkanes-and-haloarenes</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/chemistry/alcohols-phenols-and-ethers</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/chemistry/aldehydes-ketones-and-carboxylic-acids</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/chemistry/amines</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/chemistry/biomolecules</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/chemistry/polymers</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/chemistry/chemistry-in-everyday-life</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/sets</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/relations-and-functions</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/trigonometric-functions</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/principle-of-mathematical-induction</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/complex-numbers</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/linear-inequalities</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/permutations-and-combinations</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/binomial-theorem</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/sequences-and-series</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/straight-lines</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/conic-sections</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/3d-geometry-intro</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/limits-and-derivatives</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/mathematical-reasoning</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/statistics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/probability-intro</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/relations-and-functions-12</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/inverse-trigonometric-functions</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/matrices</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/determinants</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/continuity-and-differentiability</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/application-of-derivatives</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/integrals</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/application-of-integrals</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/differential-equations</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/vector-algebra</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/three-dimensional-geometry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/linear-programming</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/probability</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/real-numbers</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/polynomials</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/pair-of-linear-equations</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/quadratic-equations</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/arithmetic-progressions</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/triangles</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/coordinate-geometry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/introduction-to-trigonometry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/applications-of-trigonometry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/circles</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/areas-related-to-circles</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/surface-areas-and-volumes</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/number-systems</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/linear-equations-in-two-variables</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/lines-and-angles</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/quadrilaterals</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/heron</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/rational-numbers</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/linear-equations-in-one-variable</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/understanding-quadrilaterals</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/data-handling</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/squares-and-square-roots</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/cubes-and-cube-roots</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/comparing-quantities</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/algebraic-expressions</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/mensuration</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/exponents-and-powers</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics/factorisation</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
     <loc>https://examcompass.pages.dev/neet/physics/units-and-measurements</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1313,6 +1777,394 @@
     <priority>0.7</priority>
   </url>  <url>
     <loc>https://examcompass.pages.dev/neet/biology/environmental-issues</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/physics/units-and-measurements</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/physics/motion-in-a-straight-line</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/physics/motion-in-a-plane</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/physics/laws-of-motion</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/physics/work-energy-and-power</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/physics/rotational-motion</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/physics/gravitation</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/physics/mechanical-properties-of-solids</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/physics/mechanical-properties-of-fluids</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/physics/thermal-properties-of-matter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/physics/thermodynamics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/physics/kinetic-theory</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/physics/oscillations</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/physics/waves</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/physics/physical-world</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/physics/electrostatics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/physics/current-electricity</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/physics/magnetic-effects-of-current</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/physics/magnetism-and-matter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/physics/electromagnetic-induction</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/physics/alternating-current</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/physics/electromagnetic-waves</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/physics/ray-optics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/physics/wave-optics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/physics/dual-nature-of-radiation</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/physics/atoms</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/physics/nuclei</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/physics/semiconductor-electronics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/physics/communication-systems</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/chemistry/some-basic-concepts-of-chemistry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/chemistry/structure-of-the-atom</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/chemistry/classification-of-elements</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/chemistry/chemical-bonding</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/chemistry/states-of-matter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/chemistry/thermodynamics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/chemistry/equilibrium</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/chemistry/redox-reactions</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/chemistry/hydrogen</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/chemistry/the-s-block-elements</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/chemistry/the-p-block-elements-11</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/chemistry/organic-chemistry-basic-principles</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/chemistry/hydrocarbons</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/chemistry/environmental-chemistry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/chemistry/solid-state</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/chemistry/solutions</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/chemistry/electrochemistry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/chemistry/chemical-kinetics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/chemistry/surface-chemistry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/chemistry/metallurgy</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/chemistry/the-p-block-elements-12</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/chemistry/d-and-f-block-elements</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/chemistry/coordination-compounds</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/chemistry/haloalkanes-and-haloarenes</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/chemistry/alcohols-phenols-and-ethers</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/chemistry/aldehydes-ketones-and-carboxylic-acids</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/chemistry/amines</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/chemistry/biomolecules</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/chemistry/polymers</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/chemistry/chemistry-in-everyday-life</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/the-living-world</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/biological-classification</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/plant-kingdom</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/animal-kingdom</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/morphology-of-flowering-plants</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/anatomy-of-flowering-plants</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/structural-organisation-in-animals</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/cell-the-unit-of-life</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/biomolecules</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/cell-cycle-and-cell-division</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/transport-in-plants</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/mineral-nutrition</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/photosynthesis-in-higher-plants</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/respiration-in-plants</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/plant-growth-and-development</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/digestion-and-absorption</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/breathing-and-exchange-of-gases</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/body-fluids-and-circulation</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/excretory-products-and-elimination</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/locomotion-and-movement</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/neural-control-and-coordination</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/chemical-coordination-and-integration</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/reproduction-in-organisms</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/sexual-reproduction-in-flowering-plants</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/human-reproduction</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/reproductive-health</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/principles-of-inheritance-and-variation</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/molecular-basis-of-inheritance</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/evolution</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/human-health-and-disease</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/strategies-for-enhancement-in-food-production</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/microbes-in-human-welfare</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/biotechnology-principles-and-processes</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/biotechnology-and-its-applications</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/organisms-and-populations</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/ecosystem</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/biodiversity-and-conservation</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology/environmental-issues</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
@@ -1932,182 +2784,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/a-letter-to-god</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/nelson-mandela-long-walk-to-freedom</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/two-stories-about-flying</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/from-the-diary-of-anne-frank</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/glimpses-of-india</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/madam-rides-the-bus</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/the-sermon-at-benares</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/dust-of-snow</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/fire-and-ice</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/amanda</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/tenses</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/modals</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/active-and-passive-voice</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/reported-speech</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/the-fun-they-had</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/the-sound-of-music</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/the-little-girl</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/a-truly-beautiful-mind</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/the-road-not-taken</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/wind</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/determiners</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/prepositions</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/subject-verb-concord</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/the-best-christmas-present-in-the-world</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/the-tsunami</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/glimpses-of-the-past</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/bepin-choudhury</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/the-summit-within</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/the-ant-and-the-cricket</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/geography-lesson</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/nouns-and-pronouns</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/adjectives</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english/conjunctions</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/computer-science/data-structures-linear</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/computer-science/data-structures-non-linear</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/computer-science/algorithms-analysis</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/computer-science/algorithms-design</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/computer-science/digital-logic</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/computer-science/computer-organization</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/computer-science/operating-systems</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/computer-science/databases-dbms</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/computer-science/computer-networks</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/computer-science/theory-of-computation</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/computer-science/compiler-design</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
     <loc>https://examcompass.pages.dev/class-11/physics/units-and-measurements</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2724,179 +3400,195 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/a-letter-to-god</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/chemical-reactions-and-equations</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/nelson-mandela-long-walk-to-freedom</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/acids-bases-and-salts</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/two-stories-about-flying</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/metals-and-non-metals</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/from-the-diary-of-anne-frank</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/carbon-and-its-compounds</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/glimpses-of-india</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/periodic-classification-of-elements</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/madam-rides-the-bus</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/life-processes</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/the-sermon-at-benares</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/control-and-coordination</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/dust-of-snow</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/how-do-organisms-reproduce</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/fire-and-ice</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/heredity-and-evolution</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/amanda</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/light-reflection-and-refraction</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/tenses</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/human-eye-and-colourful-world</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/modals</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/electricity</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/active-and-passive-voice</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/magnetic-effects-of-electric-current</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/reported-speech</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/sources-of-energy</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/the-fun-they-had</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/our-environment</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/the-sound-of-music</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/management-of-natural-resources</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/the-little-girl</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/matter-in-our-surroundings</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/a-truly-beautiful-mind</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/is-matter-around-us-pure</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/the-road-not-taken</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/atoms-and-molecules</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/wind</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/structure-of-the-atom</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/determiners</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/the-fundamental-unit-of-life</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/prepositions</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/tissues</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/subject-verb-concord</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/diversity-in-living-organisms</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/the-best-christmas-present-in-the-world</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/motion</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/the-tsunami</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/force-and-laws-of-motion</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/glimpses-of-the-past</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/gravitation</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/bepin-choudhury</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/work-and-energy</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/the-summit-within</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/sound</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/the-ant-and-the-cricket</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/why-do-we-fall-ill</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/geography-lesson</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/natural-resources</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/nouns-and-pronouns</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/improvement-in-food-resources</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/adjectives</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/crop-production-and-management</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english/conjunctions</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/microorganisms-friend-and-foe</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/computer-science/data-structures-linear</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/synthetic-fibres-and-plastics</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/computer-science/data-structures-non-linear</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/materials-metals-and-non-metals</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/computer-science/algorithms-analysis</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/coal-and-petroleum</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/computer-science/algorithms-design</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/combustion-and-flame</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/computer-science/digital-logic</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/conservation-of-plants-and-animals</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/computer-science/computer-organization</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/cell-structure-and-functions</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/computer-science/operating-systems</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/reproduction-in-animals</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/computer-science/databases-dbms</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/reaching-the-age-of-adolescence</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/computer-science/computer-networks</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/force-and-pressure</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/computer-science/theory-of-computation</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/friction</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/computer-science/compiler-design</loc>
+    <loc>https://examcompass.pages.dev/class-10/science/chemical-effects-of-electric-current</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-10/science/some-natural-phenomena</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-10/science/light</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-10/science/stars-and-the-solar-system</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-10/science/pollution-of-air-and-water</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
@@ -3125,198 +3817,6 @@
     <priority>0.7</priority>
   </url>  <url>
     <loc>https://examcompass.pages.dev/class-10/mathematics/factorisation</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/chemical-reactions-and-equations</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/acids-bases-and-salts</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/metals-and-non-metals</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/carbon-and-its-compounds</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/periodic-classification-of-elements</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/life-processes</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/control-and-coordination</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/how-do-organisms-reproduce</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/heredity-and-evolution</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/light-reflection-and-refraction</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/human-eye-and-colourful-world</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/electricity</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/magnetic-effects-of-electric-current</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/sources-of-energy</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/our-environment</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/management-of-natural-resources</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/matter-in-our-surroundings</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/is-matter-around-us-pure</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/atoms-and-molecules</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/structure-of-the-atom</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/the-fundamental-unit-of-life</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/tissues</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/diversity-in-living-organisms</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/motion</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/force-and-laws-of-motion</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/gravitation</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/work-and-energy</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/sound</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/why-do-we-fall-ill</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/natural-resources</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/improvement-in-food-resources</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/crop-production-and-management</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/microorganisms-friend-and-foe</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/synthetic-fibres-and-plastics</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/materials-metals-and-non-metals</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/coal-and-petroleum</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/combustion-and-flame</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/conservation-of-plants-and-animals</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/cell-structure-and-functions</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/reproduction-in-animals</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/reaching-the-age-of-adolescence</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/force-and-pressure</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/friction</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/chemical-effects-of-electric-current</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/some-natural-phenomena</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/light</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/stars-and-the-solar-system</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science/pollution-of-air-and-water</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
@@ -3716,6 +4216,198 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/chemical-reactions-and-equations</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/acids-bases-and-salts</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/metals-and-non-metals</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/carbon-and-its-compounds</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/periodic-classification-of-elements</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/life-processes</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/control-and-coordination</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/how-do-organisms-reproduce</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/heredity-and-evolution</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/light-reflection-and-refraction</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/human-eye-and-colourful-world</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/electricity</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/magnetic-effects-of-electric-current</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/sources-of-energy</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/our-environment</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/management-of-natural-resources</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/matter-in-our-surroundings</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/is-matter-around-us-pure</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/atoms-and-molecules</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/structure-of-the-atom</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/the-fundamental-unit-of-life</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/tissues</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/diversity-in-living-organisms</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/motion</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/force-and-laws-of-motion</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/gravitation</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/work-and-energy</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/sound</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/why-do-we-fall-ill</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/natural-resources</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/improvement-in-food-resources</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/crop-production-and-management</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/microorganisms-friend-and-foe</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/synthetic-fibres-and-plastics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/materials-metals-and-non-metals</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/coal-and-petroleum</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/combustion-and-flame</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/conservation-of-plants-and-animals</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/cell-structure-and-functions</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/reproduction-in-animals</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/reaching-the-age-of-adolescence</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/force-and-pressure</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/friction</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/chemical-effects-of-electric-current</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/some-natural-phenomena</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/light</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/stars-and-the-solar-system</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-9/science/pollution-of-air-and-water</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
     <loc>https://examcompass.pages.dev/class-9/mathematics/sets</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -3941,198 +4633,6 @@
     <priority>0.7</priority>
   </url>  <url>
     <loc>https://examcompass.pages.dev/class-9/mathematics/factorisation</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/chemical-reactions-and-equations</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/acids-bases-and-salts</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/metals-and-non-metals</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/carbon-and-its-compounds</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/periodic-classification-of-elements</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/life-processes</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/control-and-coordination</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/how-do-organisms-reproduce</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/heredity-and-evolution</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/light-reflection-and-refraction</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/human-eye-and-colourful-world</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/electricity</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/magnetic-effects-of-electric-current</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/sources-of-energy</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/our-environment</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/management-of-natural-resources</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/matter-in-our-surroundings</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/is-matter-around-us-pure</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/atoms-and-molecules</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/structure-of-the-atom</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/the-fundamental-unit-of-life</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/tissues</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/diversity-in-living-organisms</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/motion</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/force-and-laws-of-motion</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/gravitation</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/work-and-energy</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/sound</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/why-do-we-fall-ill</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/natural-resources</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/improvement-in-food-resources</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/crop-production-and-management</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/microorganisms-friend-and-foe</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/synthetic-fibres-and-plastics</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/materials-metals-and-non-metals</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/coal-and-petroleum</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/combustion-and-flame</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/conservation-of-plants-and-animals</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/cell-structure-and-functions</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/reproduction-in-animals</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/reaching-the-age-of-adolescence</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/force-and-pressure</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/friction</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/chemical-effects-of-electric-current</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/some-natural-phenomena</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/light</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/stars-and-the-solar-system</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science/pollution-of-air-and-water</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
@@ -4532,6 +5032,198 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/chemical-reactions-and-equations</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/acids-bases-and-salts</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/metals-and-non-metals</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/carbon-and-its-compounds</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/periodic-classification-of-elements</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/life-processes</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/control-and-coordination</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/how-do-organisms-reproduce</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/heredity-and-evolution</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/light-reflection-and-refraction</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/human-eye-and-colourful-world</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/electricity</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/magnetic-effects-of-electric-current</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/sources-of-energy</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/our-environment</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/management-of-natural-resources</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/matter-in-our-surroundings</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/is-matter-around-us-pure</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/atoms-and-molecules</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/structure-of-the-atom</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/the-fundamental-unit-of-life</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/tissues</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/diversity-in-living-organisms</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/motion</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/force-and-laws-of-motion</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/gravitation</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/work-and-energy</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/sound</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/why-do-we-fall-ill</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/natural-resources</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/improvement-in-food-resources</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/crop-production-and-management</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/microorganisms-friend-and-foe</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/synthetic-fibres-and-plastics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/materials-metals-and-non-metals</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/coal-and-petroleum</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/combustion-and-flame</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/conservation-of-plants-and-animals</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/cell-structure-and-functions</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/reproduction-in-animals</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/reaching-the-age-of-adolescence</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/force-and-pressure</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/friction</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/chemical-effects-of-electric-current</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/some-natural-phenomena</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/light</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/stars-and-the-solar-system</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/class-8/science/pollution-of-air-and-water</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
     <loc>https://examcompass.pages.dev/class-8/mathematics/sets</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -4757,198 +5449,6 @@
     <priority>0.7</priority>
   </url>  <url>
     <loc>https://examcompass.pages.dev/class-8/mathematics/factorisation</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/chemical-reactions-and-equations</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/acids-bases-and-salts</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/metals-and-non-metals</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/carbon-and-its-compounds</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/periodic-classification-of-elements</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/life-processes</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/control-and-coordination</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/how-do-organisms-reproduce</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/heredity-and-evolution</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/light-reflection-and-refraction</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/human-eye-and-colourful-world</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/electricity</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/magnetic-effects-of-electric-current</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/sources-of-energy</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/our-environment</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/management-of-natural-resources</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/matter-in-our-surroundings</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/is-matter-around-us-pure</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/atoms-and-molecules</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/structure-of-the-atom</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/the-fundamental-unit-of-life</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/tissues</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/diversity-in-living-organisms</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/motion</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/force-and-laws-of-motion</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/gravitation</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/work-and-energy</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/sound</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/why-do-we-fall-ill</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/natural-resources</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/improvement-in-food-resources</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/crop-production-and-management</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/microorganisms-friend-and-foe</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/synthetic-fibres-and-plastics</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/materials-metals-and-non-metals</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/coal-and-petroleum</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/combustion-and-flame</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/conservation-of-plants-and-animals</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/cell-structure-and-functions</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/reproduction-in-animals</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/reaching-the-age-of-adolescence</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/force-and-pressure</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/friction</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/chemical-effects-of-electric-current</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/some-natural-phenomena</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/light</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/stars-and-the-solar-system</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science/pollution-of-air-and-water</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>  <url>
@@ -5345,6 +5845,1218 @@
     <priority>0.7</priority>
   </url>  <url>
     <loc>https://examcompass.pages.dev/class-8/english/conjunctions</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/physics/units-and-measurements</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/physics/motion-in-a-straight-line</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/physics/motion-in-a-plane</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/physics/laws-of-motion</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/physics/work-energy-and-power</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/physics/rotational-motion</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/physics/gravitation</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/physics/mechanical-properties-of-solids</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/physics/mechanical-properties-of-fluids</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/physics/thermal-properties-of-matter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/physics/thermodynamics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/physics/kinetic-theory</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/physics/oscillations</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/physics/waves</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/physics/physical-world</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/physics/electrostatics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/physics/current-electricity</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/physics/magnetic-effects-of-current</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/physics/magnetism-and-matter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/physics/electromagnetic-induction</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/physics/alternating-current</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/physics/electromagnetic-waves</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/physics/ray-optics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/physics/wave-optics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/physics/dual-nature-of-radiation</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/physics/atoms</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/physics/nuclei</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/physics/semiconductor-electronics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/physics/communication-systems</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/chemistry/some-basic-concepts-of-chemistry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/chemistry/structure-of-the-atom</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/chemistry/classification-of-elements</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/chemistry/chemical-bonding</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/chemistry/states-of-matter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/chemistry/thermodynamics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/chemistry/equilibrium</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/chemistry/redox-reactions</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/chemistry/hydrogen</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/chemistry/the-s-block-elements</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/chemistry/the-p-block-elements-11</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/chemistry/organic-chemistry-basic-principles</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/chemistry/hydrocarbons</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/chemistry/environmental-chemistry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/chemistry/solid-state</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/chemistry/solutions</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/chemistry/electrochemistry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/chemistry/chemical-kinetics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/chemistry/surface-chemistry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/chemistry/metallurgy</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/chemistry/the-p-block-elements-12</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/chemistry/d-and-f-block-elements</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/chemistry/coordination-compounds</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/chemistry/haloalkanes-and-haloarenes</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/chemistry/alcohols-phenols-and-ethers</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/chemistry/aldehydes-ketones-and-carboxylic-acids</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/chemistry/amines</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/chemistry/biomolecules</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/chemistry/polymers</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/chemistry/chemistry-in-everyday-life</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/sets</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/relations-and-functions</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/trigonometric-functions</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/principle-of-mathematical-induction</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/complex-numbers</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/linear-inequalities</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/permutations-and-combinations</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/binomial-theorem</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/sequences-and-series</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/straight-lines</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/conic-sections</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/3d-geometry-intro</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/limits-and-derivatives</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/mathematical-reasoning</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/statistics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/probability-intro</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/relations-and-functions-12</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/inverse-trigonometric-functions</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/matrices</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/determinants</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/continuity-and-differentiability</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/application-of-derivatives</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/integrals</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/application-of-integrals</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/differential-equations</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/vector-algebra</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/three-dimensional-geometry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/linear-programming</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/probability</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/real-numbers</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/polynomials</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/pair-of-linear-equations</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/quadratic-equations</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/arithmetic-progressions</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/triangles</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/coordinate-geometry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/introduction-to-trigonometry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/applications-of-trigonometry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/circles</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/areas-related-to-circles</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/surface-areas-and-volumes</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/number-systems</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/linear-equations-in-two-variables</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/lines-and-angles</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/quadrilaterals</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/heron</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/rational-numbers</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/linear-equations-in-one-variable</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/understanding-quadrilaterals</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/data-handling</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/squares-and-square-roots</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/cubes-and-cube-roots</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/comparing-quantities</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/algebraic-expressions</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/mensuration</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/exponents-and-powers</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics/factorisation</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/the-living-world</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/biological-classification</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/plant-kingdom</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/animal-kingdom</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/morphology-of-flowering-plants</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/anatomy-of-flowering-plants</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/structural-organisation-in-animals</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/cell-the-unit-of-life</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/biomolecules</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/cell-cycle-and-cell-division</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/transport-in-plants</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/mineral-nutrition</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/photosynthesis-in-higher-plants</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/respiration-in-plants</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/plant-growth-and-development</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/digestion-and-absorption</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/breathing-and-exchange-of-gases</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/body-fluids-and-circulation</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/excretory-products-and-elimination</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/locomotion-and-movement</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/neural-control-and-coordination</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/chemical-coordination-and-integration</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/reproduction-in-organisms</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/sexual-reproduction-in-flowering-plants</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/human-reproduction</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/reproductive-health</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/principles-of-inheritance-and-variation</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/molecular-basis-of-inheritance</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/evolution</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/human-health-and-disease</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/strategies-for-enhancement-in-food-production</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/microbes-in-human-welfare</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/biotechnology-principles-and-processes</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/biotechnology-and-its-applications</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/organisms-and-populations</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/ecosystem</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/biodiversity-and-conservation</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology/environmental-issues</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/physics/units-and-measurements</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/physics/motion-in-a-straight-line</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/physics/motion-in-a-plane</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/physics/laws-of-motion</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/physics/work-energy-and-power</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/physics/rotational-motion</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/physics/gravitation</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/physics/mechanical-properties-of-solids</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/physics/mechanical-properties-of-fluids</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/physics/thermal-properties-of-matter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/physics/thermodynamics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/physics/kinetic-theory</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/physics/oscillations</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/physics/waves</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/physics/physical-world</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/physics/electrostatics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/physics/current-electricity</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/physics/magnetic-effects-of-current</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/physics/magnetism-and-matter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/physics/electromagnetic-induction</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/physics/alternating-current</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/physics/electromagnetic-waves</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/physics/ray-optics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/physics/wave-optics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/physics/dual-nature-of-radiation</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/physics/atoms</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/physics/nuclei</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/physics/semiconductor-electronics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/physics/communication-systems</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/chemistry/some-basic-concepts-of-chemistry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/chemistry/structure-of-the-atom</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/chemistry/classification-of-elements</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/chemistry/chemical-bonding</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/chemistry/states-of-matter</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/chemistry/thermodynamics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/chemistry/equilibrium</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/chemistry/redox-reactions</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/chemistry/hydrogen</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/chemistry/the-s-block-elements</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/chemistry/the-p-block-elements-11</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/chemistry/organic-chemistry-basic-principles</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/chemistry/hydrocarbons</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/chemistry/environmental-chemistry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/chemistry/solid-state</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/chemistry/solutions</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/chemistry/electrochemistry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/chemistry/chemical-kinetics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/chemistry/surface-chemistry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/chemistry/metallurgy</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/chemistry/the-p-block-elements-12</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/chemistry/d-and-f-block-elements</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/chemistry/coordination-compounds</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/chemistry/haloalkanes-and-haloarenes</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/chemistry/alcohols-phenols-and-ethers</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/chemistry/aldehydes-ketones-and-carboxylic-acids</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/chemistry/amines</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/chemistry/biomolecules</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/chemistry/polymers</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/chemistry/chemistry-in-everyday-life</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/sets</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/relations-and-functions</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/trigonometric-functions</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/principle-of-mathematical-induction</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/complex-numbers</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/linear-inequalities</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/permutations-and-combinations</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/binomial-theorem</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/sequences-and-series</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/straight-lines</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/conic-sections</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/3d-geometry-intro</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/limits-and-derivatives</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/mathematical-reasoning</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/statistics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/probability-intro</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/relations-and-functions-12</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/inverse-trigonometric-functions</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/matrices</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/determinants</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/continuity-and-differentiability</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/application-of-derivatives</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/integrals</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/application-of-integrals</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/differential-equations</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/vector-algebra</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/three-dimensional-geometry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/linear-programming</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/probability</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/real-numbers</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/polynomials</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/pair-of-linear-equations</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/quadratic-equations</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/arithmetic-progressions</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/triangles</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/coordinate-geometry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/introduction-to-trigonometry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/applications-of-trigonometry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/circles</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/areas-related-to-circles</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/surface-areas-and-volumes</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/number-systems</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/linear-equations-in-two-variables</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/lines-and-angles</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/quadrilaterals</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/heron</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/rational-numbers</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/linear-equations-in-one-variable</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/understanding-quadrilaterals</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/data-handling</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/squares-and-square-roots</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/cubes-and-cube-roots</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/comparing-quantities</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/algebraic-expressions</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/mensuration</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/exponents-and-powers</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics/factorisation</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/a-letter-to-god</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/nelson-mandela-long-walk-to-freedom</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/two-stories-about-flying</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/from-the-diary-of-anne-frank</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/glimpses-of-india</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/madam-rides-the-bus</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/the-sermon-at-benares</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/dust-of-snow</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/fire-and-ice</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/amanda</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/tenses</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/modals</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/active-and-passive-voice</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/reported-speech</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/the-fun-they-had</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/the-sound-of-music</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/the-little-girl</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/a-truly-beautiful-mind</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/the-road-not-taken</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/wind</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/determiners</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/prepositions</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/subject-verb-concord</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/the-best-christmas-present-in-the-world</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/the-tsunami</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/glimpses-of-the-past</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/bepin-choudhury</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/the-summit-within</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/the-ant-and-the-cricket</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/geography-lesson</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/nouns-and-pronouns</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/adjectives</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english/conjunctions</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

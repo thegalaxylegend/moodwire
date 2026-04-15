@@ -15,7 +15,8 @@ import {
     TrendingUp,
     Library,
     Download,
-    ShieldCheck
+    ShieldCheck,
+    Swords
 } from 'lucide-react';
 import { useState } from 'react';
 import { usePWA } from '../hooks/usePWA';
@@ -174,6 +175,7 @@ export const DashboardLayout = () => {
     const navItems = [
         { icon: LayoutDashboard, label: 'Overview', path: '/dashboard' },
         ...(isAdmin ? [{ icon: ShieldCheck, label: 'Admin Panel', path: '/admin' }] : []),
+        { icon: Swords, label: 'The Arena', path: '/dashboard/arena' },
         { icon: Brain, label: 'Test Center', path: '/dashboard/test-center' },
         { icon: Calendar, label: 'Study Plan', path: '/dashboard/study-plan' },
         { icon: BarChart3, label: 'Benchmarking', path: '/dashboard/peer-benchmarking' },

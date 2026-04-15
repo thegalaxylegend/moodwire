@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
-import { Brain, Loader2, ArrowLeft, PlayCircle, Trophy, CheckCircle, Youtube, Timer, PauseCircle, X, Send, Coffee, AlertTriangle, TrendingUp as DynamicTrending } from 'lucide-react';
+import { Brain, Loader2, ArrowLeft, PlayCircle, Trophy, CheckCircle, Youtube, Timer, PauseCircle, X, Send, Coffee, AlertTriangle, Volume2, TrendingUp as DynamicTrending } from 'lucide-react';
+import { ttsManager } from '../../lib/tts/TTSManager';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import { askAI } from '../../lib/ai';
@@ -14,12 +15,15 @@ import { AuthGate } from '../../components/auth/AuthGate';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { calculatePredictedRank, updateLeaderboard } from '../../services/leaderboardService';
-import { markTopicsAsCompletedFromResults, syncTopicStatsFromMocks } from '../../services/dataSyncService';
+import { markTopicsAsCompletedFromResults } from '../../services/dataSyncService';
+import { batchUpdateTopicStrength } from '../../services/topicStrengthService';
 import { trackQuestionTime, trackOptionSwitch } from '../../lib/analytics';
 import { storageService } from '../../services/storageService';
 import { FatigueService } from '../../services/fatigueService';
 import type { SessionMetric } from '../../services/fatigueService';
 import { EloService } from '../../services/eloService';
+import { SpacedRepetitionService } from '../../services/spacedRepetitionService';
+import { MistakeNotebookService } from '../../services/mistakeNotebookService';
 
 
 type Question = {
@@ -86,6 +90,9 @@ export const MockGenerator = () => {
     // Refs for global progress tracking to prevent jitter in parallel batches
     const globalFetchedRef = useRef(0);
     const globalTargetRef = useRef(0);
+
+    // Voice AI state
+    const [isSpeaking, setIsSpeaking] = useState(false);
 
     // --- HYDRATION: Restore state on refresh ---
     useEffect(() => {
@@ -376,7 +383,54 @@ export const MockGenerator = () => {
 
                 // Fire and forget updating operations
                 markTopicsAsCompletedFromResults(user.id, questionResults).catch(() => { });
-                syncTopicStatsFromMocks(user.id, user.userClass, user.targetExam).catch(() => { });
+
+                // DIRECT topic-strength update with current test results (no full-history rebuild)
+                const topicStrengthResults = questions.map((q, i) => ({
+                    topic: q.topic || 'General',
+                    subject: q.topic || 'General', // subject derived from question topic
+                    isCorrect: answers[i] === q.correctAnswer
+                }));
+                batchUpdateTopicStrength(user.id, topicStrengthResults, user.userClass, user.targetExam).catch((err) => {
+                    console.warn('[MockGenerator] Direct topic-strength update failed:', err);
+                });
+
+                // ──── PHASE 1: SPACED REPETITION + MISTAKE NOTEBOOK ────
+                // Collect wrong answers for SRS scheduling and Mistake Notebook
+                const wrongQuestions = questions
+                    .map((q, i) => ({ question: q, index: i }))
+                    .filter(({ question: q, index: i }) => answers[i] !== undefined && answers[i] !== q.correctAnswer)
+                    .map(({ question: q, index: i }) => {
+                        // Generate a deterministic hash from question text
+                        const simpleHash = Array.from(q.text)
+                            .reduce((hash, char) => ((hash << 5) - hash) + char.charCodeAt(0), 0)
+                            .toString(36);
+                        return {
+                            question_hash: `qh_${simpleHash}`,
+                            question_text: q.text,
+                            options: q.options,
+                            correct_answer: q.options[q.correctAnswer] || String(q.correctAnswer),
+                            explanation: q.explanation || '',
+                            topic: q.topic || 'General',
+                            topic_id: (q.topic || 'general').toLowerCase().replace(/[\s]+/g, '_'),
+                            subject: q.topic || 'General',
+                            difficulty: 'Medium' as const,
+                            student_answer: q.options[answers[i]] || String(answers[i]),
+                        };
+                    });
+
+                if (wrongQuestions.length > 0) {
+                    // Schedule for spaced repetition review
+                    SpacedRepetitionService.createCardsFromTestResults(
+                        user.id, wrongQuestions, user.userClass, user.targetExam
+                    ).catch(err => console.warn('[MockGenerator] SRS card creation failed:', err));
+
+                    // Save to Mistake Notebook
+                    MistakeNotebookService.recordTestMistakes(
+                        user.id, wrongQuestions, mode, user.userClass, user.targetExam
+                    ).catch(err => console.warn('[MockGenerator] Mistake Notebook save failed:', err));
+
+                    console.log(`[Phase1] 📕 ${wrongQuestions.length} mistakes saved to Notebook + SRS.`);
+                }
             }
 
         } catch (e) {
@@ -635,7 +689,7 @@ export const MockGenerator = () => {
                 globalTargetRef.current = qCount;
                 setTimeRemaining(45 * 60);
                 setLoadingMessage(`Generating Topic Test for ${topic}...`);
-                const q = await generateQuestionsBatch(user?.targetExam || "General", qCount, `Topic: ${topic}. ${classContext}`, 1);
+                const q = await generateQuestionsBatch(topic || "General", qCount, `Topic: ${topic}. ${classContext}`, 1);
                 setQuestions(q);
             } else if (examMode === 'full') {
                 // TEMPORARY LOCK: Maintenance
@@ -1419,12 +1473,42 @@ export const MockGenerator = () => {
                                     <div className="flex items-center gap-2 text-primary font-bold">
                                         <Brain size={18} /> Explanation
                                     </div>
-                                    <button
-                                        onClick={() => handleAskAI(q)}
-                                        className="text-xs px-3 py-1 bg-primary/10 hover:bg-primary/20 text-primary border border-primary/20 rounded-lg flex items-center gap-1 transition-colors"
-                                    >
-                                        <Brain size={14} /> Ask AI
-                                    </button>
+                                    <div className="flex items-center gap-2">
+                                        <button
+                                            onClick={async () => {
+                                                if (isSpeaking) {
+                                                    ttsManager.stop();
+                                                    window.speechSynthesis.cancel();
+                                                    setIsSpeaking(false);
+                                                    return;
+                                                }
+                                                setIsSpeaking(true);
+                                                ttsManager.stop();
+                                                setTimeout(() => {
+                                                    ttsManager.speak(q.explanation)
+                                                        .then(() => setIsSpeaking(false))
+                                                        .catch(() => {
+                                                            const utterance = new SpeechSynthesisUtterance(q.explanation);
+                                                            utterance.onend = () => setIsSpeaking(false);
+                                                            window.speechSynthesis.speak(utterance);
+                                                        });
+                                                }, 100);
+                                            }}
+                                            className={`text-xs px-3 py-1 rounded-lg flex items-center gap-1 transition-colors ${
+                                                isSpeaking 
+                                                    ? 'bg-red-500/20 hover:bg-red-500/30 text-red-400 border border-red-500/30' 
+                                                    : 'bg-[#81ecff]/10 hover:bg-[#81ecff]/20 text-[#81ecff] border border-[#81ecff]/20'
+                                            }`}
+                                        >
+                                            <Volume2 size={14} className={isSpeaking ? 'animate-pulse' : ''} /> {isSpeaking ? 'Stop' : 'Listen'}
+                                        </button>
+                                        <button
+                                            onClick={() => handleAskAI(q)}
+                                            className="text-xs px-3 py-1 bg-primary/10 hover:bg-primary/20 text-primary border border-primary/20 rounded-lg flex items-center gap-1 transition-colors"
+                                        >
+                                            <Brain size={14} /> Ask AI
+                                        </button>
+                                    </div>
                                 </div>
                                 <p className="text-text-muted text-sm leading-relaxed italic">
                                     {q.explanation}

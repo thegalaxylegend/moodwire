@@ -51,6 +51,7 @@ export type User = {
     abilityScore?: number; // Elo Rating
     calibrationProfile?: CalibrationProfile; // Per-subject difficulty calibration
     dailyMissions?: DailyMission[];
+    examDate?: string; // ISO date string for exam countdown
     pendingPublicSync?: boolean; // Flag for public profile mirror retry
     pendingPrompts?: string[]; // e.g., ['exam_reconfirmation']
     promptSnoozedUntil?: string; // ISO timestamp
@@ -501,7 +502,8 @@ export const useUserStore = create<UserState>((set, get) => ({
                     referralCount: profile?.referral_count || 0,
                     redeemedReferral: profile?.redeemed_referral || false,
                     abilityScore: profile?.ability_score || 1000,
-                    calibrationProfile: profile?.calibration_profile || DEFAULT_CALIBRATION
+                    calibrationProfile: profile?.calibration_profile || DEFAULT_CALIBRATION,
+                    examDate: profile?.exam_date
                 };
 
                 set({
@@ -822,6 +824,7 @@ export const useUserStore = create<UserState>((set, get) => ({
         if (data.redeemedReferral !== undefined) updates.redeemed_referral = data.redeemedReferral;
         if (data.abilityScore !== undefined) updates.ability_score = data.abilityScore;
         if (data.calibrationProfile !== undefined) updates.calibration_profile = data.calibrationProfile;
+        if (data.examDate !== undefined) updates.exam_date = data.examDate;
 
         try {
             if (!user.isGuest) {
@@ -1131,7 +1134,7 @@ export const useUserStore = create<UserState>((set, get) => ({
         if (!user) return;
 
         // Use an empty history for now (will be updated when fatigue service is fully integrated)
-        const missions = await MissionService.generateMissions(user.id, []);
+        const missions = await MissionService.generateMissions(user.id, [], user.userClass, user.targetExam, user.examDate);
         await updateProfile({ dailyMissions: missions });
     },
 

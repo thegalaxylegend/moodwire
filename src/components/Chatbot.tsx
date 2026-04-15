@@ -343,11 +343,17 @@ export const Chatbot = () => {
             window.speechSynthesis.cancel();
         }
         
-        // Detect Visual Learning Intent
-        const isVisualRequest = userText.toLowerCase().match(/diagram|draw|visual|map|flowchart|chart|explanation|graph/);
-        const promptOverride = isVisualRequest 
-            ? `[PROTOCOL: CRYSTALLINE DIAGRAM] Use professional Mermaid.js code only. No ASCII art. For 2D/math graphs (e.g. v-t graphs, equations), use exactly this syntax:\n\`\`\`mermaid\nxychart-beta\n  x-axis [0, 1, 2, 3, 4, 5, 6]\n  y-axis "Label" 0 --> 20\n  line [0, 2, 4, 6, 8, 10, 12]\n\`\`\`\nCRITICAL RULES:\n1. NEVER use 2D arrays like [[0,0], [1,1]]. You MUST use two separate flat arrays.\n2. Calculate high-resolution coordinates (at least 5-8 points) for smooth mathematical curves.\n3. NEVER use 'note' or flowchart commands.\n4. ALWAYS put a newline before x-axis, y-axis, and line. Do not use graph TD for coordinate graphs.`
-            : "";
+        // Detect Intents
+        const lowText = userText.toLowerCase();
+        const isVisualRequest = lowText.match(/diagram|draw|visual|map|flowchart|chart|explanation|graph/);
+        const isDoubtRequest = lowText.match(/solve|doubt|question|explain why|how to|answer|options/) || selectedImage;
+
+        let promptOverride = "";
+        if (isVisualRequest) {
+            promptOverride = `[PROTOCOL: CRYSTALLINE DIAGRAM] Use professional Mermaid.js code only. No ASCII art. For 2D/math graphs (e.g. v-t graphs, equations), use exactly this syntax:\n\`\`\`mermaid\nxychart-beta\n  x-axis [0, 1, 2, 3, 4, 5, 6]\n  y-axis "Label" 0 --> 20\n  line [0, 2, 4, 6, 8, 10, 12]\n\`\`\`\nCRITICAL RULES:\n1. NEVER use 2D arrays like [[0,0], [1,1]]. You MUST use two separate flat arrays.\n2. Calculate high-resolution coordinates (at least 5-8 points) for smooth mathematical curves.\n3. NEVER use 'note' or flowchart commands.\n4. ALWAYS put a newline before x-axis, y-axis, and line. Do not use graph TD for coordinate graphs.\n`;
+        } else if (isDoubtRequest) {
+            promptOverride = `[PROTOCOL: DOUBT SOLVER]\nYou are acting as an elite tutor.\n1. PRE-CHECK: Understand the question deeply.\n2. STEP-BY-STEP: Provide a very rigorous, step-by-step logical breakdown.\n3. WHY OTHERS ARE WRONG: Explicitly analyze the incorrect options or alternate methods and explain why they fail.\n4. TONE: Encouraging but purely academic.\nIf the student says "Teach me like I'm 12", use simple analogies.\n`;
+        }
 
         setIsThinking(true);
 

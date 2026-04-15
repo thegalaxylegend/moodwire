@@ -52,6 +52,22 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://examcompass.pages.dev/jee</loc>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/physics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/chemistry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee/mathematics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://examcompass.pages.dev/neet</loc>
     <changefreq>daily</changefreq>
     <priority>1</priority>
@@ -65,6 +81,22 @@
     <priority>0.8</priority>
   </url>  <url>
     <loc>https://examcompass.pages.dev/neet/biology</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical</loc>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/physics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/chemistry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/medical/biology</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -88,14 +120,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/english</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-12/computer-science</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>  <url>
     <loc>https://examcompass.pages.dev/class-11</loc>
     <changefreq>daily</changefreq>
     <priority>1</priority>
@@ -116,23 +140,15 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/english</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>  <url>
-    <loc>https://examcompass.pages.dev/class-11/computer-science</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>  <url>
     <loc>https://examcompass.pages.dev/class-10</loc>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/mathematics</loc>
+    <loc>https://examcompass.pages.dev/class-10/science</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-10/science</loc>
+    <loc>https://examcompass.pages.dev/class-10/mathematics</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -148,11 +164,11 @@
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/mathematics</loc>
+    <loc>https://examcompass.pages.dev/class-9/science</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-9/science</loc>
+    <loc>https://examcompass.pages.dev/class-9/mathematics</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -168,11 +184,11 @@
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/mathematics</loc>
+    <loc>https://examcompass.pages.dev/class-8/science</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://examcompass.pages.dev/class-8/science</loc>
+    <loc>https://examcompass.pages.dev/class-8/mathematics</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -181,6 +197,46 @@
     <priority>0.8</priority>
   </url>  <url>
     <loc>https://examcompass.pages.dev/class-8/english</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards</loc>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/physics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/chemistry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/mathematics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/boards/biology</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet</loc>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/physics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/chemistry</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/mathematics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/cuet/english</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -241,6 +297,10 @@
     <priority>0.8</priority>
   </url>  <url>
     <loc>https://examcompass.pages.dev/jee-mains/physics/communication-systems/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/engineering-mathematics/calculus/top-50-pyqs</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -353,6 +413,10 @@
     <priority>0.8</priority>
   </url>  <url>
     <loc>https://examcompass.pages.dev/jee-mains/chemistry/rate-of-reaction/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/engineering-mathematics/linear-algebra/top-50-pyqs</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -564,6 +628,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/engineering-mathematics/discrete-mathematics-combinatorics/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://examcompass.pages.dev/jee-mains/physics/properties-of-electromagnetic-waves/top-50-pyqs</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -577,6 +645,10 @@
     <priority>0.8</priority>
   </url>  <url>
     <loc>https://examcompass.pages.dev/jee-mains/mathematics/real-numbers/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/engineering-mathematics/discrete-mathematics-graph-theory/top-50-pyqs</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -724,6 +796,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/mathematics/ellipse/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://examcompass.pages.dev/jee-mains/mathematics/linear-equations-in-one-variable/top-50-pyqs</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -732,11 +808,171 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/kinematics/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/physics/refraction-of-light/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
     <loc>https://examcompass.pages.dev/jee-mains/mathematics/the-triangle-and-its-properties/top-50-pyqs</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
     <loc>https://examcompass.pages.dev/jee-mains/mathematics/sequences-and-series/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/jee-mains/engineering-mathematics/discrete-mathematics-sets-logic/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/human-health-and-disease/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/neural-control-and-coordination/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/morphology-of-flowering-plants/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/reproductive-health/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/reproduction-in-organisms/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/biotechnology-principles-and-processes/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/body-fluids-and-circulation/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/biodiversity-and-conservation/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/photosynthesis-in-higher-plants/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/biological-classification/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/organisms-and-populations/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/digestion-and-absorption/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/evolution/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/environmental-issues/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/strategies-for-enhancement-in-food-production/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/ecosystem/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/cell-the-unit-of-life/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/sexual-reproduction-in-flowering-plants/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/transport-in-plants/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/mineral-nutrition/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/respiration-in-plants/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/breathing-and-exchange-of-gases/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/molecular-basis-of-inheritance/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/locomotion-and-movement/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/plant-growth-and-development/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/chemical-coordination-and-integration/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/the-living-world/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/structural-organisation-in-animals/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/cell-cycle-and-cell-division/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/principles-of-inheritance-and-variation/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/biotechnology-and-its-applications/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/microbes-in-human-welfare/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/anatomy-of-flowering-plants/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/human-reproduction/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/excretory-products-and-elimination/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/plant-kingdom/top-50-pyqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://examcompass.pages.dev/neet/biology/animal-kingdom/top-50-pyqs</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

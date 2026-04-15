@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
-import { Send, Mic, Paperclip, Loader2, X } from 'lucide-react';
-import { motion } from 'framer-motion';
+import { Send, Mic, Paperclip, Loader2, X, Brain } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 interface InputBarProps {
     input: string;
@@ -28,6 +28,7 @@ export const InputBar: React.FC<InputBarProps> = ({
     onPTTEnd
 }) => {
     const fileInputRef = useRef<HTMLInputElement>(null);
+    const isDoubtIntent = input.toLowerCase().match(/solve|doubt|question|explain why|how to|answer|options/) || selectedImage;
 
     return (
         <div className="w-full">
@@ -49,6 +50,19 @@ export const InputBar: React.FC<InputBarProps> = ({
             )}
 
             <form onSubmit={handleSend} className="relative group/form">
+                <AnimatePresence>
+                    {isDoubtIntent && (
+                        <motion.div 
+                            initial={{ opacity: 0, y: 10, scale: 0.9 }}
+                            animate={{ opacity: 1, y: 0, scale: 1 }}
+                            exit={{ opacity: 0, y: 5, scale: 0.9 }}
+                            className="absolute -top-10 left-4 bg-[#5d21df]/20 text-[#cdbdff] text-xs px-3 py-1.5 rounded-full border border-[#5d21df]/40 flex items-center gap-1.5 backdrop-blur-md shadow-lg font-medium"
+                        >
+                            <Brain size={12} className="text-purple-400" />
+                            Expert Tutor Mode
+                        </motion.div>
+                    )}
+                </AnimatePresence>
                 <div className={`w-full flex items-center gap-2 bg-[#32343e]/40 backdrop-blur-3xl rounded-[28px] p-2 md:p-3 transition-all duration-500 min-h-[70px] border border-white/10
                     ${isThinking ? 'opacity-80' : 'group-focus-within/form:bg-[#32343e]/60 group-focus-within/form:border-[#5d21df]/50 group-focus-within/form:shadow-[0_0_50px_rgba(93,33,223,0.2)] shadow-2xl'}`}>
                     

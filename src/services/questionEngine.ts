@@ -15,6 +15,7 @@ import {
 import { askAI } from '../lib/ai';
 import { extractJSON } from '../lib/utils';
 import { EloService } from './eloService';
+import { offlineSyncService } from './offlineSyncService';
 import { getFormulaSheet } from '../lib/formulaSheets';
 import { checkDerivationConsistency, checkStepConsistency } from '../lib/consistencyCheck';
 import { validateUnits } from '../lib/unitValidator';
@@ -682,6 +683,19 @@ export const getAdaptiveQuestion = async (
         console.log(`[QuestionEngine] ⚡ Persistent Cache Hit for ${topic}`);
         const randomIndex = Math.floor(Math.random() * cachedQuestions.length);
         return cachedQuestions[randomIndex];
+    }
+
+    // 1.5. Offline fallback
+    if (typeof navigator !== 'undefined' && !navigator.onLine) {
+        console.log(`[QuestionEngine] 📶 Offline Mode Detected. Using IndexedDB Cache.`);
+        const offlineQ = await offlineSyncService.getOfflineQuestions(topic, 1);
+        if (offlineQ && offlineQ.length > 0) {
+            return offlineQ[0];
+        }
+        // If not found in offline DB for this topic, try ANY topic just to keep game going?
+        const anyOffline = await offlineSyncService.getOfflineQuestions(undefined, 1);
+        if (anyOffline && anyOffline.length > 0) return anyOffline[0];
+        throw new Error("No offline questions available.");
     }
 
     try {
