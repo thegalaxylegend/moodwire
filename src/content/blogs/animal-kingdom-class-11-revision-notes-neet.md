@@ -127,11 +127,11 @@ To remember the different phyla and classes of [animals](/blog/structural-organi
 
 ## <a id="trap-questions-exceptions"></a>Trap Questions / Exceptions
 
-* What is the main characteristic that distinguishes animals in the phylum Chordata from those in other phyla?
+* What is the main characteristic that distinguishes [animals](/blog/structural-organisation-in-animals-class-11-revision-notes-neet) in the phylum Chordata from those in other phyla?
  Wrong answer: presence of a backbone
  Right answer: presence of a notochord, dorsal nerve cord, and pharyngeal slits
  Why students get it wrong: many students confuse the presence of a backbone with the presence of a notochord.
-* Which class of mammals includes animals that lay eggs?
+* Which [class](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) of mammals includes animals that lay eggs?
  Wrong answer: Class Mammalia
  Right answer: Class Monothematic
  Why students get it wrong: many students are not aware of the existence of honorees, which are mammals that lay eggs.

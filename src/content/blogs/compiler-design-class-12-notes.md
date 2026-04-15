@@ -91,50 +91,50 @@ manualReview: true
 ## <a id="-practice-MCQs"></a>📝 Practice MCQs
 
 **1. What is the primary function of the lexical analyzer in a compiler?**
-**A)**    It performs syntax analysis on the source code
-**B)**    It checks for semantic errors in the source code
-**C)**    It breaks the source code into tokens
-**D)**    It generates machine code from the source code
+**A)**     It performs syntax analysis on the source code
+**B)**     It checks for semantic errors in the source code
+**C)**     It breaks the source code into tokens
+**D)**     It generates machine code from the source code
 
 **Answer:** C) The lexical analyzer breaks the source code into tokens, which are then passed to the syntax analyzer for further processing.
 
 ---
 
 **2. What is the main objective of the syntax analyzer in a compiler?**
-**A)**    It checks for semantic errors in the source code
-**B)**    It generates machine code from the source code
-**C)**    It verifies the syntax of the source code
-**D)**    It performs lexical analysis on the source code
+**A)**     It checks for semantic errors in the source code
+**B)**     It generates machine code from the source code
+**C)**     It verifies the syntax of the source code
+**D)**     It performs lexical analysis on the source code
 
 **Answer:** C) The syntax analyzer verifies the syntax of the source code, ensuring that it conforms to the language's grammar rules.
 
 ---
 
 **3. What is the function of the semantic analyzer in a compiler?**
-**A)**    It checks for syntax errors in the source code
-**B)**    It generates machine code from the source code
-**C)**    It verifies the semantics of the source code
-**D)**    It performs lexical analysis on the source code
+**A)**     It checks for syntax errors in the source code
+**B)**     It generates machine code from the source code
+**C)**     It verifies the semantics of the source code
+**D)**     It performs lexical analysis on the source code
 
 **Answer:** C) The semantic analyzer verifies the semantics of the source code, ensuring that it is semantically correct and consistent with the language's rules.
 
 ---
 
 **4. What is the main function of the intermediate code generator in a compiler?**
-**A)**    It generates machine code from the source code
-**B)**    It breaks the source code into tokens
-**C)**    It verifies the syntax of the source code
-**D)**    It generates intermediate code from the source code
+**A)**     It generates machine code from the source code
+**B)**     It breaks the source code into tokens
+**C)**     It verifies the syntax of the source code
+**D)**     It generates intermediate code from the source code
 
 **Answer:** D) The intermediate code generator generates intermediate code from the source code, which is then used for optimization and code generation.
 
 ---
 
 **5. What is the primary function of the code optimizer in a compiler?**
-**A)**    It generates machine code from the intermediate code
-**B)**    It breaks the source code into tokens
-**C)**    It verifies the syntax of the source code
-**D)**    It optimizes the intermediate code for better performance
+**A)**     It generates machine code from the intermediate code
+**B)**     It breaks the source code into tokens
+**C)**     It verifies the syntax of the source code
+**D)**     It optimizes the intermediate code for better performance
 
 **Answer:** D) The code optimizer optimizes the intermediate code for better performance, reducing the execution time and improving the overall efficiency of the program.
 
@@ -150,8 +150,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-12
 
 *Content verified against peer-reviewed research:*
 
-1. *Smart Substation Communications and Cybersecurity: A Comprehensiv...* — **IEEE Communications Surveys & Tutorials** (2023) 🔓 — [DOI ↗](https://doi.org/10.1109/comst.2023.3305468)
-2. *Measuring Chess Experts' Single-Use Sequence Knowledge: An Archiv...* — **PLoS ONE** (2011) 🔓 — [DOI ↗](https://doi.org/10.1371/journal.pone.0026692)
+1. *Smart Substation Communications and Cybersecurity: A Comprehensive...* — **IEEE Communications Surveys & Tutorials** (2023) 🔓 — [DOI ↗](https://doi.org/10.1109/comst.2023.3305468)
+2. *Measuring Chess Experts' Single-Use Sequence Knowledge: An Archive...* — **Los ONE** (2011) 🔓 — [DOI ↗](https://doi.org/10.1371/journal.pone.0026692)
 3. *Robert S. Engelmore Award Article: Building AI Applications: Yest...* — **AI Magazine** (2017) 🔓 — [DOI ↗](https://doi.org/10.1609/aimag.v38i1.2709)
 
 *🔓 = Open Access article*
@@ -166,3 +166,4 @@ Continue your revision with these related guides:
 - 📖 [Operating Systems Class 12 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/operating-systems-class-12-notes)
 - 📖 [Theory of Computation Class 12 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/theory-of-computation-class-12-notes)
 - 📖 [Linear Equations in Two Variables Class 9 Mathematics Recap — Grandmaster Guide](/blog/linear-equations-in-two-variables-class-9-notes)
+$

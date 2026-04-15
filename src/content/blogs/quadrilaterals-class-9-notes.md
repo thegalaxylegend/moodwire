@@ -99,7 +99,7 @@ manualReview: false
 
 - **What 85% scorers do:** Most students who score around 85% tend to focus on memorizing the properties of different types of quadrilaterals, such as parallelograms, rhombuses, and trapeziums. They can identify and apply basic properties like opposite sides being equal or parallel, but they often struggle with more complex problems that require a deeper understanding of cyclic quadrilaterals. They may also rely heavily on formulas like $P = 2(s)$, where $P$ is the perimeter and $s$ is the semi-perimeter, without fully grasping the underlying geometric principles.
 
-- **What 95% scorers do:** On the other hand, students who score 95% or higher have a more nuanced understanding of cyclic quadrilaterals. They recognize that a quadrilateral is cyclic if and only if its opposite angles are supplementary, i.e.
+- **What 95% scorers do:** On the other hand, students who score 95% or higher have a more nuanced understanding of cyclic quadrilaterals. They recognize that a quadrilateral is cyclic if and only if its opposite [angles](/blog/lines-and-angles-class-9-notes) are supplementary, i.e.
 
 - they add up to $180^circ$. They can apply this knowledge to solve complex problems involving cyclic quadrilaterals, such as finding the length of diagonals or the measure of angles. They also understand how to use the properties of cyclic quadrilaterals to prove other geometric theorems, like the power of a point theorem, which states that if a point outside a circle has segments intersecting the circle, then the product of the lengths of one pair of segments is equal to the product of the lengths of the other pair.
 
@@ -166,50 +166,50 @@ where $P$ is the point outside the circle, and $A$, $B$, $C$, and $D$ are the po
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What is the \sum of the interior angles of a quadrilateral?**
-**A)**   360°
-**B)**   400°
-**C)**   540°
-**D)**   720°
+**A)**    360°
+**B)**    400°
+**C)**    540°
+**D)**    720°
 
 **Answer:** A) Sum of interior angles of a quadrilateral is 360°.
 
 ---
 
 **2. Which of the following quadrilaterals has all sides equal?**
-**A)**   Square
-**B)**   Rectangle
-**C)**   Rhombus
-**D)**   Trapazoid
+**A)**    Square
+**B)**    Rectangle
+**C)**    Rhombus
+**D)**    Trapazoid
 
 **Answer:** A) A square has all sides equal.
 
 ---
 
 **3. In a parallelogram, do the diagonals bisect each other?**
-**A)**   No
-**B)**   Yes
-**C)**   Only in a rectangle
-**D)**   Only in a square
+**A)**    No
+**B)**    Yes
+**C)**    Only in a rectangle
+**D)**    Only in a square
 
 **Answer:** B) In a parallelogram, diagonals bisect each other.
 
 ---
 
 **4. Which quadrilateral has opposite sides parallel?**
-**A)**   Kite
-**B)**   Rhombus
-**C)**   Square
-**D)**   Rectangle
+**A)**    Kite
+**B)**    Rhombus
+**C)**    Square
+**D)**    Rectangle
 
 **Answer:** D) A rectangle has opposite sides parallel.
 
 ---
 
 **5. Do the diagonals of a rhombus bisect each other at right angles?**
-**A)**   No
-**B)**   Yes
-**C)**   Only if the rhombus is a square
-**D)**   Only if the rhombus is a rectangle
+**A)**    No
+**B)**    Yes
+**C)**    Only if the rhombus is a square
+**D)**    Only if the rhombus is a rectangle
 
 **Answer:** B) Diagonals of a rhombus bisect each other at right angles.
 

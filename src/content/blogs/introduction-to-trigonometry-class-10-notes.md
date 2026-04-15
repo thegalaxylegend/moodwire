@@ -233,4 +233,3 @@ Continue your revision with these related guides:
 - 📖 [Coordinate Geometry Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/coordinate-geometry-class-10-notes)
 - 📖 [Pair of Linear Equations Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/pair-of-linear-equations-class-10-notes)
 
-$

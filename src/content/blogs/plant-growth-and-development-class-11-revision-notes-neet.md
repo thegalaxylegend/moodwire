@@ -130,7 +130,7 @@ Why students get it wrong: Abscisic acid is often confused with auxins, which pr
 
 ## <a id="practice-mcqs"></a>Practice MCQs
 
-1. What is the primary function of auxins in plant growth and development?
+1. What is the primary function of auxins in [plant](/blog/plant-kingdom-class-11-revision-notes-neet) growth and development?
 A) Promote cell division
 B) Promote cell elongation
 C) Inhibit growth
@@ -195,7 +195,7 @@ Last Updated: March 16, 2026
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Plant Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/plant-kingdom-class-11-revision-notes-neet)
 - 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)

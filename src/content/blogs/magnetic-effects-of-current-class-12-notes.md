@@ -50,7 +50,7 @@ To truly appreciate the **Magnetic Effects of [current](/blog/alternating-curren
 With these prerequisites in place, we can now embark on an in-depth exploration of **Magnetic Effects of [current](/blog/alternating-current-class-12-notes)**. This topic can be broadly categorized into the following subtopics:
 * **Magnetic Field Around a [current](/blog/alternating-current-class-12-notes)-Carrying Conductor**: This includes the study of the magnetic field around a straight wire, a circular coil, and a solenoid. We'll the mathematical derivations of the magnetic field strength and direction using **Ampere's Law** and the **Biot-Savart Law**.
 * **Force on a Current-Carrying Conductor**: Here, we'll examine the forces exerted on a current-carrying conductor when placed in a magnetic field. This includes the **Lorentz Force Equation** and the **Force on a [moving](/blog/moving-charges-magnetism-class-11-revision-notes-neet) Charge**.
-* **Torque on a Current Loop**: We'll investigate the torque experienced by a current loop when placed in a magnetic field, including the **Torque on a Current Loop Equation** and its applications.
+* **Torque on a [current](/blog/alternating-current-class-12-notes) Loop**: We'll investigate the torque experienced by a [current](/blog/alternating-current-class-12-notes) loop when placed in a magnetic field, including the **Torque on a [current](/blog/alternating-current-class-12-notes) Loop Equation** and its applications.
 * **Magnetic Moment and Magnetic [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)**: This subtopic covers the concepts of magnetic moment, magnetic [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet), and the behavior of magnetic materials in the presence of magnetic fields.
 
 To better understand these concepts, let's consider a few key terms and formulas:
@@ -192,7 +192,7 @@ Ayush's Note on Magnetic Effects of Current is a study guide that outlines the f
  | --- | --- | --- |
  | Biot-Savart Law | Calculates magnetic field due to a small current element | Straight wires, circular loops, solenoids |
  | Ampere's Law | Relates magnetic field around a closed loop to enclosed current | Long, straight solenoids, toroids |
- | Lorentz Force Equation | Describes force on a moving charge in electric and magnetic fields | Charged particles in magnetic fields, Hall effect |
+ | Lorentz Force Equation | Describes force on a [moving](/blog/moving-charges-magnetism-class-11-revision-notes-neet) charge in electric and magnetic fields | Charged particles in magnetic fields, Hall effect |
 
  A student-centric tip for mastering these concepts is to practice deriving each formula from first principles and then applying them to various problems. This approach helps solidify understanding and builds the ability to tackle complex scenarios. Furthermore, visualizing the magnetic field lines and understanding their direction and strength around different current-carrying configurations can significantly enhance problem-solving skills.
 
@@ -208,7 +208,7 @@ Ayush's Note on Magnetic Effects of Current is a study guide that outlines the f
 
 ## <a id="what-is-the-difference-between-a-galvanometer-and-an-ammeter"></a>What is the Difference between a Galvanometer and an Ammeter?
 
-What is the Difference between a Galvanometer and an Ammeter? is a fundamental concept in physics that deals with the measurement of electric current. It includes a galvanometer, which is a type of electrical measuring instrument used to measure small currents, and an ammeter, which is used to measure larger currents. For Class 12 exam prep in 2026, the most important aspect is understanding the working principle and application of these devices.
+What is the Difference between a Galvanometer and an Ammeter? is a fundamental concept in physics that deals with the measurement of electric current. It includes a galvanometer, which is a type of electrical measuring instrument used to measure small currents, and an ammeter, which is used to measure larger currents. For [class](/blog/magnetism-and-matter-class-12-notes) 12 exam prep in 2026, the most important aspect is understanding the working principle and application of these devices.
 
 A **galvanometer** is a sensitive instrument used to measure small electric currents. It works on the principle of the deflection of a magnetic needle when a current flows through a coil. The coil is placed in a magnetic field, and when a current flows through it, the coil experiences a torque, causing the needle to deflect. This deflection is directly proportional to the current flowing through the coil. Galvanometers are commonly used in applications where small currents need to be measured, such as in laboratories and research institutions.
 

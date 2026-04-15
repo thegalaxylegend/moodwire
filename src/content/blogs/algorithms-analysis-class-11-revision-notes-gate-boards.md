@@ -84,7 +84,7 @@ This is just a simple example, but it illustrates the concept of algorithm analy
 
 ## <a id="what-is-ayushs-note-on-algorithms-analysis"></a>What is Ayush's Note on Algorithms: Analysis?
 
-What is Ayush's Note on Algorithms: Analysis? is a study resource that provides detailed explanations and examples of algorithms. It includes data structures, algorithm design techniques, and computational complexity analysis. For Class 11 exam prep in 2026, the most important aspect is understanding the trade-offs between different algorithms and their applications in solving computational problems. 
+What is Ayush's Note on Algorithms: Analysis? is a study resource that provides detailed explanations and examples of algorithms. It includes [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) structures, algorithm design techniques, and computational complexity analysis. For Class 11 exam prep in 2026, the most important aspect is understanding the trade-offs between different algorithms and their applications in solving computational problems. 
    
    Ayush's Note on Algorithms: Analysis focuses on the practical implementation of algorithms, covering topics such as sorting, searching, graph algorithms, and dynamic programming. The analysis of algorithms involves evaluating their efficiency, scalability, and suitability for different problem sizes and types. This is crucial in computer science as it enables developers to choose the most appropriate algorithm for a given task, ensuring optimal performance and resource utilization.
    

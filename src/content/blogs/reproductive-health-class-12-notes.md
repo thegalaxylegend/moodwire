@@ -48,7 +48,7 @@ practice_link: "/class-11/biology/reproductive-health-class-12-notes"
 
 - **Gross [reproduction](/blog/human-reproduction-class-12-notes) Rate (GRR):** \frac{\	ext{Number of Daughters Born}}{\	ext{Number of Women of Childbearing Age}} — Average number of daughters a woman would have in her lifetime
 
-- **Net Reproduction Rate (NRR):** \frac{\	ext{Number of Daughters Surviving to Childbearing Age}}{\	ext{Number of Women of Childbearing Age}} — Average number of daughters surviving to childbearing age per woman
+- **Net [reproduction](/blog/human-reproduction-class-12-notes) Rate (NRR):** \frac{\	ext{Number of Daughters Surviving to Childbearing Age}}{\	ext{Number of Women of Childbearing Age}} — Average number of daughters surviving to childbearing age per woman
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -246,4 +246,3 @@ Continue your revision with these related guides:
 - 📖 [Biotechnology and its Applications Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biotechnology-and-its-applications-class-12-notes)
 - 📖 [Biotechnology: Principles and Processes Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biotechnology-principles-and-processes-class-12-notes)
 
-$

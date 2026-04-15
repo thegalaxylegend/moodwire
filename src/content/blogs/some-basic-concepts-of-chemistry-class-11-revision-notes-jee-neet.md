@@ -194,4 +194,3 @@ Continue your [revision](/blog/classification-of-elements-class-11-revision-note
 - 📖 [Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)
 - 📖 [Structure Of The Atom Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/structure-of-the-atom-class-11-revision-notes-neet)
 - 📖 [Organic Chemistry Basic Principles Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet)
-$

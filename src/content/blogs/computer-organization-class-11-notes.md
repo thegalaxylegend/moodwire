@@ -97,7 +97,7 @@ Here's a comparison table highlighting the key differences between Main Memory a
 
 | Type of Memory | Volatile | [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) Retention | Access Time |
 | --- | --- | --- | --- |
-| Main Memory (RAM) | Yes | Data lost when powered off | Fast |
+| Main Memory (RAM) | Yes | [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) lost when powered off | Fast |
 | Secondary Memory (ROM) | No | Data retained even when powered off | Slow |
 
 
@@ -111,7 +111,7 @@ What are the Basic Components of a Computer? is a fundamental concept in compute
 
  **Input/Output (I/O) devices** allow users to interact with the computer. Examples of I/O devices include keyboards, mice, monitors, and printers. These devices enable users to enter data, view output, and control the computer's functions.
 
- A key concept to understand is the **von Neumann Architecture**, which is a design model for computer systems that consists of a CPU, memory, and I/O devices. This architecture is still the basis for most modern computer systems.
+ A key concept to understand is the **von Neumann Architecture**, which is a [design](/blog/algorithms-design-class-11-revision-notes-gate-boards) model for computer systems that consists of a CPU, memory, and I/O devices. This architecture is still the basis for most modern computer systems.
 
  Here's a student-centric tip: when studying for the Class 11 exam, make sure to practice diagrams of the basic components of a computer and be able to label each part. This will help you to better understand how the different components interact with each other.
 

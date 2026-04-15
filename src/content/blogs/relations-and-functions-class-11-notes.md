@@ -126,7 +126,7 @@ Relation in Mathematics is a set of ordered pairs of objects, in which some rela
 
 ## <a id="what-are-the-different-types-of-relations"></a>What are the Different Types of Relations?
 
-What are the Different Types of Relations? is a concept in mathematics that refers to the connection between two or more sets of entities. It includes the domain, codomain, and the relation itself, which can be represented as a set of ordered pairs. For Class 11 exam prep in 2026, the most important aspect is understanding the properties of relations such as reflexivity, symmetry, and transitivity.
+What are the Different Types of Relations? is a concept in mathematics that refers to the connection between two or more sets of entities. It includes the domain, codomain, and the relation itself, which can be represented as a set of ordered pairs. For [class](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) 11 exam prep in 2026, the most important aspect is understanding the properties of relations such as reflexivity, symmetry, and transitivity.
 
 There are several types of relations, including reflexive, symmetric, transitive, and equivalence relations. A **reflexive relation** is one in which every element is related to itself, i.e., for all $a$ in the domain, $(a, a)$ is in the relation. A **symmetric relation** is one in which if $(a, b)$ is in the relation, then $(b, a)$ is also in the relation. A **transitive relation** is one in which if $(a, b)$ and $(b, c)$ are in the relation, then $(a, c)$ is also in the relation.
 

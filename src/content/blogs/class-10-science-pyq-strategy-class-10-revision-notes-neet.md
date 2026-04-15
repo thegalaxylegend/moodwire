@@ -149,7 +149,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Cut 2026 Master Strategy Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)
 - 📖 [See Mains High Weightage Chapters Class 11 Biology Recap — JEE & MEET 2026 Grandmaster Guide](/blog/jee-mains-high-weightage-chapters-class-11-revision-notes-jee-neet)

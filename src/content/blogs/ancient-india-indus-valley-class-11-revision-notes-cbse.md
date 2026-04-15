@@ -126,7 +126,7 @@ The Indus Valley Civilization is significant not only because of its advanced ur
 
 ## <a id="cultural-significance"></a>Cultural Significance
 
-The Indus Valley Civilization has had a lasting impact on the cultural heritage of the Indian subcontinent. The civilization's **art**, **architecture**, and **literature** have influenced the development of later Indian cultures, and its **traditions** and **customs** continue to be celebrated and observed today.
+The Indus Valley Civilization has had a lasting impact on the cultural heritage of the Indian subcontinent. The civilization's **art**, **[architecture](/blog/art-culture-architecture-class-11-revision-notes-jee-neet)**, and **literature** have influenced the development of later Indian cultures, and its **traditions** and **customs** continue to be celebrated and observed today.
 
 ## <a id=""></a>---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
@@ -174,7 +174,7 @@ Continue your [revision](/blog/ancient-india-vedic-age-class-11-revision-notes-j
 
 ## 🔁 Last 5 Minutes Box
 
-* **Geographical Extent**: Indus Valley Civilization spread across modern-day Pakistan, northwestern India, and parts of Afghanistan.
+* **Geographical Extent**: Indus Valley Civilization spread across modern-day Pakistan, northwestern [india](/blog/ancient-india-vedic-age-class-11-revision-notes-jee), and parts of Afghanistan.
 * **Major Sites**: Mohenjo-daro, Harappa, Lethal, Kalimantan, and Rakhigarhi.
 * **Period**: 3300 BCE - 1300 BCE.
 * **Distinct Features**: Sophisticated urban planning, advanced drainage system, and well-planned architecture.

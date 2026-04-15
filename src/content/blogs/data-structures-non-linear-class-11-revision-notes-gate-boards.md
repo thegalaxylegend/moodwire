@@ -78,7 +78,7 @@ By the end of this prep, you should be able to write efficient [algorithms](/blo
 
       Heaps are a specialized type of tree that satisfies the heap property: the parent node is either greater than (max heap) or less than (min heap) its child nodes. Heaps are used in priority queues, where the highest-priority element is extracted first. The time complexity of heap operations such as insert and delete is $O(log n)$, making them efficient for large datasets.
 
-      The following table summarizes the key characteristics of non-linear data structures:
+      The following table summarizes the key characteristics of non-linear [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) structures:
 
    
 
@@ -105,7 +105,7 @@ Non-Linear Data Structures is a type of data organization where each element or 
 ## <a id="how-do-graphs-differ-from-trees-in-data-structures"></a>How do Graphs differ from Trees in Data Structures?
 
 
-How do Graphs differ from Trees in Data Structures? is a fundamental concept in computer science that deals with the differences between two types of non-linear data structures. It includes definitions, properties, and applications of graphs and trees. For Class 11 exam prep in 2026, the most important aspect is understanding the distinct characteristics of graphs and trees, such as connectivity, cycles, and node relationships.
+How do Graphs differ from Trees in Data Structures? is a fundamental concept in computer science that deals with the differences between two types of non-linear data structures. It includes definitions, properties, and applications of graphs and trees. For [class](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) 11 exam prep in 2026, the most important aspect is understanding the distinct characteristics of graphs and trees, such as connectivity, cycles, and node relationships.
 
 Graphs and trees are both non-linear data structures, but they differ significantly in terms of their structure and properties. A graph is a collection of nodes or vertices connected by edges, which can be directed or undirected. On the other hand, a tree is a special type of graph that is connected, undirected, and has no cycles. In a tree, each node has a unique path to every other node, whereas in a graph, there can be multiple paths between nodes.
 

@@ -170,7 +170,7 @@ How to apply the Product Rule and Quotient Rule in Derivatives? is a mathematica
 ## <a id="what-is-the-chain-rule-and-its-application-in-derivatives"></a>What is the Chain Rule and its application in Derivatives?
 
 
-The Chain Rule is a fundamental principle in calculus that enables us to differentiate composite functions. It includes the identification of the outer and inner functions, the application of the power rule and other differentiation rules to the inner function, and the multiplication of the derivatives of the outer and inner functions. For Class 11 exam prep in 2026, the most important aspect is understanding how to apply the Chain Rule to various types of composite functions, including polynomial, trigonometric, and exponential functions.
+The Chain Rule is a fundamental principle in calculus that enables us to differentiate composite functions. It includes the identification of the outer and inner functions, the application of the power rule and other differentiation rules to the inner function, and the multiplication of the derivatives of the outer and inner functions. For [class](/blog/digital-logic-class-11-revision-notes-gate-boards) 11 exam prep in 2026, the most important aspect is understanding how to apply the Chain Rule to various types of composite functions, including polynomial, trigonometric, and exponential functions.
 
 To grasp the Chain Rule, let's first understand the concept of composite functions. A composite function is a function of the form $f(g(x))$, where $f$ and $g$ are two separate functions. The Chain Rule states that the derivative of a composite function $f(g(x))$ is given by $f'(g(x)) cdot g'(x)$. This can be expressed mathematically as: 
 

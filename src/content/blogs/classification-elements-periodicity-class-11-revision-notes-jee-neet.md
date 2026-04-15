@@ -184,7 +184,7 @@ Order: TO^{2-} > F^- > Ne > Na^+ > Mg^{2+}$.
 
 ## <a id="6-electron-gain-enthalpy-ege-why-chlorine-beats-fluorine"></a>6. Electron Gain Enthalpy (EGE) — Why Chlorine Beats Fluorine
 
-**Electron Gain Enthalpy is the enthalpy change when an electron is added to an isolated gaseous atom to form a negative ion.**
+**Electron Gain Enthalpy is the enthalpy change when an electron is added to an isolated gaseous [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet) to form a negative ion.**
 
 ### <a id="the-big-anomaly"></a>The Big Anomaly
 - **Most Negative EGE**: Chlorine (UCLA), **NOT** Fluorine (OF).

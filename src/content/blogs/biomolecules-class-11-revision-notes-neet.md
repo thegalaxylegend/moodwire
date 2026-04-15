@@ -85,7 +85,7 @@ Lipids are a diverse group of biomolecules that are composed of carbon, hydrogen
 The general formula for lipids is BC_oh_yo_Zn, where ex, by, and oz are integers. Lipids are classified into two main types: saturated lipids and unsaturated lipids. Saturated lipids are solid at room temperature, while unsaturated lipids are liquid at room temperature.
 
 #### Nucleic Acids
-Nucleic acids are complex biomolecules that are composed of nucleotides. They are involved in the transmission of genetic information and the regulation of cellular processes.
+Nucleic [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes) are complex biomolecules that are composed of nucleotides. They are involved in the transmission of genetic information and the regulation of cellular processes.
 
 The general formula for nucleic acids is $(C_oh_in_ZO_WP_v)_no, where ex, by, oz, we, and DVD are integers, and and is the number of nucleotides. Nucleic acids are classified into two main types: DNA (deoxyribonucleic acid) and RNA (ribonucleic acid).
 

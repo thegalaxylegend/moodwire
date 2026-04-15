@@ -109,7 +109,7 @@ Algorithm Design is the process of developing a well-structured and efficient se
    
 
 
-| Algorithm/Data Structure | Time Complexity | Space Complexity |
+| Algorithm/[data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) Structure | Time Complexity | Space Complexity |
 | --- | --- | --- |
 | Linear Search | $O(n)$ | $O(1)$ |
 | Binary Search | $O(log n)$ | $O(1)$ |
@@ -141,7 +141,7 @@ How do you analyze the Time Complexity of an Algorithm? is determining the amoun
 
 ## <a id="what-is-the-key-shortcut-or-trick-for-algorithms-design"></a>What is the key Shortcut or Trick for Algorithms: Design?
 
-What is the key Shortcut or Trick for Algorithms: Design? is the method to solve computational problems in an efficient manner. It includes problem definition, algorithm development, and analysis of the algorithm's time and space complexity. For Class 11 exam prep in 2026, the most important aspect is understanding the trade-offs between different algorithmic approaches and identifying the most efficient solution for a given problem. 
+What is the key Shortcut or Trick for [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards): Design? is the method to solve computational problems in an efficient manner. It includes problem definition, algorithm development, and analysis of the algorithm's time and space complexity. For Class 11 exam prep in 2026, the most important aspect is understanding the trade-offs between different algorithmic approaches and identifying the most efficient solution for a given problem. 
    
    To tackle algorithms, especially for design, one must first grasp the fundamentals of computational complexity theory, which involves understanding $O$, $Ω$, and $Θ$ notations. The $O$ notation gives an upper bound on the number of steps an algorithm takes, $Ω$ gives a lower bound, and $Θ$ gives both an upper and a lower bound. For instance, an algorithm with a time complexity of $O(n^2)$ will take longer to complete as the input size $n$ increases, compared to an algorithm with a time complexity of $O(n)$.
    

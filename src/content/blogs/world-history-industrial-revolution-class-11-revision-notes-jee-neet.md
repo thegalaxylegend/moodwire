@@ -369,7 +369,7 @@ By following these tips, I am confident that I can achieve a good grade in my ex
 
 ## <a id="final-preparation"></a>Final Preparation
 
-I, Ayush, make my final preparations for my Class 11 History exams. I review my notes and study materials, and I practice MCQs to assess my knowledge and identify areas for improvement. I also watch out for trap exceptions to avoid common mistakes, and I use LaTeX to format my notes and make them more readable.
+I, Ayush, make my final preparations for my [class](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) 11 History exams. I review my notes and study materials, and I practice MCQs to assess my knowledge and identify areas for improvement. I also watch out for trap exceptions to avoid common mistakes, and I use LaTeX to format my notes and make them more readable.
 
 ### <a id="good-luck"></a>Good Luck
 I, Ayush, wish myself good luck as I prepare for my exams. I am confident that I have prepared well and that I will achieve a good grade.

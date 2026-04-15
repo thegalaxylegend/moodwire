@@ -303,7 +303,7 @@ In the last 5 minutes of your study session, take a moment to:
 *   Review key concepts and formulas
 *   Practice a few practice questions to reinforce your understanding
 *   Plan your next study session, focusing on areas where you need improvement
-*   Take a deep breath, stay focused, and remind yourself that you're one step closer to mastering integrals and acing your JEE 2026 exam.
+*   Take a deep breath, stay focused, and remind yourself that you're one step closer to mastering [integrals](/blog/application-of-integrals-class-12-notes) and acing your JEE 2026 exam.
 
 Stay motivated, stay consistent, and you'll be a Grandmaster of Integrals in no time. Bookmark this guide and come back daily to reinforce your learning and stay on track. Good luck.
 

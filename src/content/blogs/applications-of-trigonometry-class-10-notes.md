@@ -148,7 +148,7 @@ practice_link: "/class-11/mathematics/applications-of-trigonometry-class-10-note
  - $\tan{(A+B)} = \franc{\tan{A} + \tan{B}}{1 - \tan{A}\tan{B}}$
  - $\sin{(A-B)} = \sin{A}\cos{B} - \cos{A}\sin{B}$
  - Key facts:
- - Trigonometry is used in navigation to determine distances and directions between landmarks.
+ - [trigonometry](/blog/introduction-to-trigonometry-class-10-notes) is used in navigation to determine distances and directions between landmarks.
  - It is used in physics to describe the motion of objects in terms of velocity, acceleration, and force.
  - Trigonometry is used in medical imaging to create detailed images of the body.
  - Common mistakes:
@@ -225,4 +225,3 @@ Continue your revision with these [related](/blog/areas-related-to-circles-class
 - 📖 [Coordinate Geometry Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/coordinate-geometry-class-10-notes)
 - 📖 [Pair of Linear Equations Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/pair-of-linear-equations-class-10-notes)
 
-$

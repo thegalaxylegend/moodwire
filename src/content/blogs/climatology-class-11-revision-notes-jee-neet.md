@@ -188,6 +188,6 @@ Continue your [revision](/blog/classification-of-elements-class-11-revision-note
 * **Köppen’s Climate [classification](/blog/classification-of-elements-class-11-revision-notes-jee-neet)**: A, B, C, D, E, H, and factors influencing climate [classification](/blog/classification-of-elements-class-11-revision-notes-jee-neet).
 ## ⚗️ Chemical Quick Reference (Verified via PubChem)
 
-| Compound | Formula | Mol. Weight | Source |
+| Compound | Formula | MOL. Weight | Source |
 |:---|:---:|:---:|:---:|
-| **water** | H2O | 18.015 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/962) |
+| **water** | H2O | 18.015 g/MOL | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/962) |

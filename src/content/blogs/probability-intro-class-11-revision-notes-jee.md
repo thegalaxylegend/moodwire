@@ -95,7 +95,7 @@ Now, let's summarize what we've learned so far. We've introduced the concept of 
 
 So, let's keep moving forward and explore the fascinating world of probability together. We'll encounter many more examples, problems, and concepts, and we'll develop a deep understanding of the subject. With dedication and persistence, you'll be able to master the concepts of probability and perform well in the [class](/blog/limits-and-derivatives-class-11-revision-notes-jee) 11 exam. 
 
-As we conclude this introduction to probability, I want to emphasize the importance of practice and problem-solving. Probability is a subject that requires a lot of practice to master, and it's essential to work through numerous examples and exercises to develop a strong understanding of the concepts. With dedication and persistence, you'll be able to develop a strong foundation in probability and perform well in the Class 11 exam. 
+As we conclude this introduction to probability, I want to emphasize the importance of practice and problem-solving. Probability is a subject that requires a lot of practice to master, and it's essential to work through numerous examples and exercises to develop a strong understanding of the concepts. With dedication and persistence, you'll be able to develop a strong foundation in probability and perform well in the [class](/blog/limits-and-derivatives-class-11-revision-notes-jee) 11 exam. 
 
 Now, let's move on to the next section and explore the concept of conditional probability. We'll examine the concept of independence and how it relates to conditional probability. With a strong foundation in probability, you'll be able to tackle complex problems and scenarios with confidence. 
 

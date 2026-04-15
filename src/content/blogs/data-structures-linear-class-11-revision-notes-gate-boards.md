@@ -66,7 +66,7 @@ Ayush's Note on Data Structures: Linear is a study guide that focuses on the fun
  The following table summarizes the key characteristics of linear [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structures:
  
 
-| Data Structure | Description | Time Complexity |
+| [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) Structure | Description | Time Complexity |
 | --- | --- | --- |
 | Array | A collection of elements of the same data type stored in contiguous memory locations | Search: $O(n)$, Insert: $O(n)$, Delete: $O(n)$ |
 | Linked List | A dynamic collection of elements, where each element points to the next element in the list | Search: $O(n)$, Insert: $O(1)$, Delete: $O(1)$ |
@@ -119,7 +119,7 @@ Linked Lists in Data Structures: Linear is a dynamic collection of data elements
 
 ## <a id="what-is-the-key-shortcut-or-trick-for-data-structures-linear"></a>What is the key Shortcut or Trick for Data Structures: Linear?
 
-Data Structures: Linear is a fundamental concept in computer science that refers to the organization and storage of data in a sequential manner. It includes arrays, linked lists, and stacks. For Class 11 exam prep in 2026, the most important aspect is understanding the implementation and traversal of these data structures to solve problems efficiently. 
+Data Structures: Linear is a fundamental concept in computer science that refers to the organization and storage of data in a sequential manner. It includes arrays, linked lists, and stacks. For [class](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) 11 exam prep in 2026, the most important aspect is understanding the implementation and traversal of these data structures to solve problems efficiently. 
  
  To tackle linear data structures, it's crucial to grasp the concept of arrays first. An array is a collection of elements of the same data type stored in contiguous memory locations. The key shortcut for arrays is understanding how to calculate the memory address of any element given its index, using the formula $A + (i 	imes w)$, where A is the base address, i is the index, and w is the word size or the size of each element in the array.
  
@@ -421,3 +421,16 @@ Continue your revision with these related guides:
 - 📖 [Algorithms: Design Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-design-class-11-revision-notes-gate-boards)
 - 📖 [Algorithms: Analysis Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-analysis-class-11-revision-notes-gate-boards)
 - 📖 [Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/digital-logic-class-11-revision-notes-gate-boards)
+
+## 🔁 Last 5 Minutes Box
+
+- **Array**: Collection of elements of same data type stored in contiguous memory locations.
+   - **Linked List**: Dynamic collection of elements, where each element points to the next.
+   - **Stack**: LIFO (Last In First Out) data structure, where elements are added and removed from the top.
+   - **Queue**: FIFO (First In First Out) data structure, where elements are added to the end and removed from the front.
+   - **Types of Linked Lists**: Singly Linked List, Doubly Linked List, Circular Linked List.
+   - **Array Operations**: Traversal, Insertion, Deletion, Searching.
+   - **Linked List Operations**: Traversal, Insertion, Deletion, Searching.
+   - **Stack Operations**: Push, Pop, Peek.
+   - **Queue Operations**: Enqueue, Dequeue, Peek.
+   - **Time Complexity**: Array Traversal (O(n)), Linked List Traversal (O(n)), Stack/Queue Operations (O(1)).

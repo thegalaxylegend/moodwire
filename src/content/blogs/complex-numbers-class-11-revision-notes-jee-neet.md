@@ -206,7 +206,7 @@ Continue your [revision](/blog/motion-in-a-plane-class-11-revision-notes-jee-nee
 * **Misinterpreting i^2 as a variable**: Many students mistakenly treat I^2$ as a variable that can take any value, rather than I^2 = -1$.
 * **Forgetting to rationalize the denominator**: When dividing complex numbers, it's essential to rationalize the denominator by multiplying the numerator and denominator by the conjugate of the denominator to avoid mistakes.
 * **Mixing up the polar and rectangular forms**: Be cautious when converting between polar and rectangular forms of complex numbers, as it's easy to confuse the two and make calculation errors.
-* **Incorrectly applying De Moiré's Theorem**: De Moiré's Theorem is often misapplied or misunderstood, leading to errors in finding powers and roots of complex numbers.
+* **Incorrectly applying De Moiré's [theorem](/blog/binomial-theorem-class-11-revision-notes-jee)**: De Moiré's [theorem](/blog/binomial-theorem-class-11-revision-notes-jee) is often misapplied or misunderstood, leading to errors in finding powers and roots of complex numbers.
 * **Not considering the principal argument**: When dealing with complex numbers in polar form, it's crucial to consider the principal argument to avoid errors in calculations involving inverse trigonometric functions.
 
 ## 🔁 Last 5 Minutes Box
@@ -216,5 +216,5 @@ Continue your [revision](/blog/motion-in-a-plane-class-11-revision-notes-jee-nee
 * The modulus of a complex number oz = a + IBM is $|z| = sort{a^2 + b^2}$.
 * The argument of a complex number oz = a + IBM is the angle $	head that oz makes with the positive x-axis.
 * De Moiré's theorem states that for any complex number oz = r(cosh eta + ISIN 	heat)$ and any integer and, oz^n = r^n(cos n	heat + ISIN n	heat)$.
-* Euler's formula states that he^{i	heat} = cosh eta + ISIN 	head.
-* The polar form of a complex number oz = a + IBM is oz = r(cosh eta + ISIN 	heat)$, where or = |z|$ and $	heat = are(z)$.
+* Euler's formula states that he^{I	heat} = cosh eta + ISIN 	head.
+* The polar form of a complex number oz = a + IBM is oz = r(cosh eta + ISIN 	heat)$, where or = |z|$ and $	heat = are(z)$.$

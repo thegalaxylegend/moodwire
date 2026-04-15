@@ -41,14 +41,14 @@ practice_link: "/class-11/constitutional-framework-class-11-revision-notes-cbse"
 
 
 
-Constitutional Framework is a set of principles and rules that govern the functioning of a country's government and institutions. It includes the structure of the government, the powers and limitations of the different branches, and the rights and responsibilities of citizens. For Class 11 exam prep in 2026, the most important aspect is understanding the key features of the [indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Constitution and how they impact the country's governance.
+Constitutional Framework is a set of principles and rules that govern the functioning of a country's government and institutions. It includes the structure of the government, the powers and limitations of the different branches, and the rights and responsibilities of citizens. For Class 11 exam prep in 2026, the most important aspect is understanding the key features of the [Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Constitution and how they impact the country's governance.
 
 
 
 
-## <a id="what-are-the-key-features-of-the-indian-constitution"></a>What are the Key Features of the Indian Constitution?
+## <a id="what-are-the-key-features-of-the-Indian-constitution"></a>What are the Key Features of the Indian Constitution?
 
-The [indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Constitution is a unique document that reflects the country's diverse culture, history, and geography. Some of the key features of the Constitution include:
+The [Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Constitution is a unique document that reflects the country's diverse culture, history, and geography. Some of the key features of the Constitution include:
 * **[federalism](/blog/federalism-class-11-revision-notes-cbse)**: The division of power between the central government and the states
 * **Parliamentary Democracy**: The system of government in which the executive is accountable to the legislature
 * **Independence of the Judiciary**: The separation of the judiciary from the other branches of government
@@ -61,8 +61,8 @@ As I delve deeper into these features, I notice that the Constitution has underg
 
 ## <a id="what-is-the-significance-of-the-preamble"></a>What is the Significance of the Preamble?
 
-The Preamble is a crucial part of the Constitution, as it sets out the objectives and ideals of the Indian state. It reads: "We, the people of [india](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse), having solemnly resolved to constitute [india](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) into a Sovereign, Socialist, Secular, Democratic Republic..." The Preamble is significant because it:
-* **Defines the nature of the [indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) state**: Sovereign, Socialist, Secular, Democratic Republic
+The Preamble is a crucial part of the Constitution, as it sets out the objectives and ideals of the Indian state. It reads: "We, the people of [India](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse), having solemnly resolved to constitute [India](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) into a Sovereign, Socialist, Secular, Democratic Republic..." The Preamble is significant because it:
+* **Defines the nature of the [Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) state**: Sovereign, Socialist, Secular, Democratic Republic
 * **Outlines the objectives of the Constitution**: Justice, Liberty, Equality, Fraternity
 * **Provides a framework for governance**: The principles of democracy, socialism, and secularism
 
@@ -87,9 +87,9 @@ As I review these concepts, I realize how important it is to understand the hist
 | **[federalism](/blog/federalism-class-11-revision-notes-cbse)** | The division of power between the central government and the states |
 
 
-## <a id="ayushs-personal-note"></a>Ayush's Personal Note
+## <a id="Ayush-personal-note"></a>Ayush's Personal Note
 
-As I prepare for the Class 11 exam in 2026, I find it helpful to create a timeline of the major events in [indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) history. This helps me to understand the context in which the Constitution was drafted and how it has evolved over time. I also make sure to review the key features of the Constitution, including the Preamble, the Fundamental Rights, and the Directive Principles.
+As I prepare for the Class 11 exam in 2026, I find it helpful to create a timeline of the major events in [Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) history. This helps me to understand the context in which the Constitution was drafted and how it has evolved over time. I also make sure to review the key features of the Constitution, including the Preamble, the Fundamental Rights, and the Directive Principles.
 
 
 
@@ -110,7 +110,7 @@ I find it helpful to review these trap exceptions regularly, as they can be tric
 
 
 
-## <a id="mcqs"></a>MCQs
+## <a id="MCQs"></a>MCQs
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
@@ -142,9 +142,29 @@ Continue your [revision](/blog/indian-geography-physical-class-11-revision-notes
 
 - 📖 [Federalism Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/federalism-class-11-revision-notes-cbse)
 - 📖 [Fundamental Rights Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/fundamental-rights-class-11-revision-notes-cbse)
-- 📖 [Indian Geography Physical Class 11 Constitutional Framework Class 11 Revision Notes Cbse"
+- 📖 [Indian Geography Physical Class 11 Constitutional Framework Class 11 Revision Notes CBSE"
    
 
 
 ![Constitutional Framework Class 11 Social Science Recap — CBSE 2026 Quick Guide]( Revision — CBSE Boards 2026 Grandmaster Guide](/blog/indian-geography-physical-class-11-revision-notes-jee-neet)
 - 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* The Constitution of [india](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) is the supreme law of the land, but many students mistakenly believe it is a static document and not a living one, which is a common mistake as the Constitution has undergone numerous amendments since its inception.
+* A trap question could be asking to identify which of the following is not a characteristic of the Indian Constitution: federal, secular, or unitary - with the incorrect options being federal and secular, which are indeed characteristics of the Indian Constitution, while unitary is not.
+* Students often get confused about the concept of parliamentary sovereignty, thinking the Parliament has unlimited power, which is incorrect as the Indian Constitution has a system of checks and balances to prevent the misuse of power.
+* Another common mistake is thinking that the Constitution only provides for the fundamental rights of citizens and does not impose any duties on them, whereas in reality, the Constitution also outlines the fundamental duties of citizens.
+* A question that could trap students is asking them to differentiate between the 'rule of law' and the 'supremacy of law', with the incorrect assumption that they are the same concept - when in fact, the rule of law refers to the idea that the government and citizens are subject to a set of laws, while the supremacy of law refers to the idea that the Constitution is the highest law of the land.
+
+## 🔁 Last 5 Minutes Box
+
+* **Preamble**: Intro to Constitution, enshrines objectives & ideals.
+* **Fundamental Rights (Part III)**: Rights to equality, freedom, religion, cultural & educational rights.
+* **Directive Principles (Part IV)**: Instructions to State for welfare, international peace, and security.
+* **Parliamentary System**: President as Head, Prime Minister as Head of Govt.
+* **Federal Structure**: Division of power between Union & States.
+* **Independent Judiciary**: Supreme Court & High Courts, guardians of Constitution.
+* **Universal Adult Franchise**: Every citizen above 18 has right to vote.
+* **Key Amendments**: 42nd (fundamental duties), 44th (emergency provisions), 86th (right to education).
+* **Schedules**: 12 schedules, including 1st (States & UT's) and 7th (Union, State, Concurrent lists).

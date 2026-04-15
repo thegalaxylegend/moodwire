@@ -105,7 +105,7 @@ By keeping these **Trap Exceptions** in mind, you can avoid common mistakes and 
 
 ### <a id="further-reading"></a>Further Reading
 For a more in-depth understanding of the **Bhakti** and **Sufi** movements, consider exploring the following texts:
-- **"The Bhakti Movement in India"** by D. N. Lorenzen
+- **"The Bhakti Movement in [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)"** by D. N. Lorenzen
 - **"Sufism in India"** by Carl W. Ernst
 
 Remember, a strong foundation in history can significantly enhance your understanding of the world and its complexities. Keep exploring, and don't hesitate to reach out if you have any questions or need further clarification on any topic! 

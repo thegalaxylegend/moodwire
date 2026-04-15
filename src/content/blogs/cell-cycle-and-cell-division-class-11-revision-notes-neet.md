@@ -113,7 +113,7 @@ T - Telophase
 ## <a id="trap-questions exceptions"></a>Trap Questions/Exceptions
 
 * What is the difference between mitosis and meiosis?
- + Wrong answer: Mitosis is the process of cell division that results in four daughter cells, while meiosis is the process of cell division that results in two daughter cells.
+ + Wrong answer: Mitosis is the process of [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) division that results in four daughter cells, while meiosis is the process of [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) division that results in two daughter cells.
  + Right answer: Mitosis is the process of cell division that results in two daughter cells with the same number of chromosomes as the parent cell, while meiosis is the process of cell division that results in four daughter cells with half the number of chromosomes as the parent cell.
  + Why students get it wrong: Students often get confused between the two processes and their outcomes.
 * What is the function of the centrioles during cell division?
@@ -200,7 +200,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/biological-classification-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Hydrogen Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/hydrogen-class-11-revision-notes-neet)
 - 📖 [Cell The Unit Of Life Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/cell-the-unit-of-life-class-11-revision-notes-neet)

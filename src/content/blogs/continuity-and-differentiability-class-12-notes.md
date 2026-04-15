@@ -362,3 +362,11 @@ Continue your revision with these related guides:
 - 📖 [Determinants Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/determinants-class-12-notes)
 - 📖 [Amines Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/amines-class-12-notes)
 - 📖 [Metallurgy Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/metallurgy-class-12-notes)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* **Mistaking differentiability for continuity**: A common mistake is to assume that if a function is continuous at a point, it is also differentiable at that point. However, this is not always true, as shown by functions like |x| at x = 0, which is continuous but not differentiable.
+* **Forgetting to check for continuity at the point of interest**: Many students forget to verify if the function is continuous at the given point before checking differentiability, which can lead to incorrect conclusions.
+* **Incorrect [application](/blog/application-of-integrals-class-12-notes) of L'Hospital's rule**: L'Hospital's rule is often misapplied to find the derivative of a function, which can result in incorrect answers. This rule is actually used to evaluate limits of certain types of functions.
+* **Confusing the geometric interpretation of continuity and differentiability**: Continuity means the function has no breaks or jumps, while differentiability means the function has a defined tangent line at the point. A mistake here is thinking these concepts are interchangeable or represent the same property.
+* **Not being aware of the conditions for differentiability**: To be differentiable at a point, a function must be continuous at that point, and the limit that defines the derivative must exist. Failing to check these conditions can lead to incorrect conclusions about a function's differentiability.

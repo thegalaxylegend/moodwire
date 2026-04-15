@@ -138,7 +138,7 @@ eq CA^2$, the triangle is not right-angled.
 
 | Concept | 85% Scorers | 95% Scorers |
 | --- | --- | --- |
-| Understanding of Heron's Formula | Memorization and direct application | Derivation and application to special cases |
+| Understanding of Heron's Formula | Memorization and direct [application](/blog/application-of-derivatives-class-12-notes) | Derivation and [application](/blog/application-of-derivatives-class-12-notes) to special cases |
 | Calculation of Semi-Perimeter | Direct calculation | Identification of special properties to simplify calculation |
 | Application to Special Triangles | Difficulty with right-angled or isosceles triangles | Simplified calculations using properties of special triangles |
 | Use of Alternative Formulas | Limited to Heron's Formula | Use of Law of Cosines, Law of Sines, or $A = rac{1}{2}absin(C)$ as appropriate |
@@ -227,30 +227,30 @@ eq CA^2$, the triangle is not right-angled.
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. If s is the semi-perimeter of a triangle with sides a, b, and c, then Heron's Formula states that the area is given by:**
-**A)**   √(s(s - a)(s - b)(s - c))
-**B)**   √(s + a + b + c)
-**C)**   √((s - a)(s - b)(s - c))
-**D)**   s(a + b + c)
+**A)**    √(s(s - a)(s - b)(s - c))
+**B)**    √(s + a + b + c)
+**C)**    √((s - a)(s - b)(s - c))
+**D)**    s(a + b + c)
 
 **Answer:** A) √(s(s - a)(s - b)(s - c))
 
 ---
 
 **2. What is the significance of the term 's' in Heron's Formula?**
-**A)**   It is the \sum of the sides of the triangle
-**B)**   It is the product of the sides of the triangle
-**C)**   It is the semi-perimeter of the triangle
-**D)**   It is the difference of the sides of the triangle
+**A)**    It is the \sum of the sides of the triangle
+**B)**    It is the product of the sides of the triangle
+**C)**    It is the semi-perimeter of the triangle
+**D)**    It is the difference of the sides of the triangle
 
 **Answer:** C) It is the semi-perimeter of the triangle
 
 ---
 
 **3. In Heron's Formula, what is the relation between the area and the semi-perimeter?**
-**A)**   Area = √(s)
-**B)**   Area = √(s - a)
-**C)**   Area = √(s - a)(s - b)(s - c)
-**D)**   Area = √(a + b + c)
+**A)**    Area = √(s)
+**B)**    Area = √(s - a)
+**C)**    Area = √(s - a)(s - b)(s - c)
+**D)**    Area = √(a + b + c)
 
 **Answer:** C) Area = √(s - a)(s - b)(s - c)
 
@@ -258,20 +258,20 @@ eq CA^2$, the triangle is not right-angled.
 
 **4. Heron's Formula is used to calculate the area of a triangle with sides a, b, and
 c. What is the value of the semi-perimeter 's'?**
-**A)**   s = (a + b + c)/2
-**B)**   s = (a - b + c)/2
-**C)**   s = (a + b - c)/2
-**D)**   s = (a - b - c)/2
+**A)**    s = (a + b + c)/2
+**B)**    s = (a - b + c)/2
+**C)**    s = (a + b - c)/2
+**D)**    s = (a - b - c)/2
 
 **Answer:** A) s = (a + b + c)/2
 
 ---
 
 **5. What is the condition for Heron's Formula to be applicable?**
-**A)**   The triangle must be a right-angled triangle
-**B)**   The triangle must be an isosceles triangle
-**C)**   The triangle must be a scalene triangle
-**D)**   The triangle must have all sides of different lengths
+**A)**    The triangle must be a right-angled triangle
+**B)**    The triangle must be an isosceles triangle
+**C)**    The triangle must be a scalene triangle
+**D)**    The triangle must have all sides of different lengths
 
 **Answer:** D) The triangle must have all sides of different lengths
 

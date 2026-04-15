@@ -425,6 +425,12 @@ D) 8
 
 **Answer:** B) The coordination number is the number of ligands attached to the central metal atom. In [Ni(CN)4], four CN- ligands are attached to the Ni2+ ion, so the coordination number is 4.
 
+## ⚗️ Chemical Quick Reference (Verified via PubChem)
+
+| Compound | Formula | Mol. Weight | Source |
+|:---|:---:|:---:|:---:|
+| **ammonia** | H3N | 17.031 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/222) |
+
 ---
 
 **2. Which of the following complexes will exhibit geometrical isomerism?**
@@ -501,4 +507,3 @@ Continue your revision with these related guides:
 - 📖 [Solutions Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/solutions-class-12-notes)
 - 📖 [Atoms Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/atoms-class-12-notes)
 
-$

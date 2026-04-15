@@ -15,7 +15,7 @@ practice_link: "/class-12/computer-science/operating-systems"
 
 - Process Scheduling: Operating [systems](/blog/communication-systems-class-12-notes) use different scheduling algorithms like First-Come-First-Served (FCFS), Shortest Job First (SJF), Priority Scheduling to manage processes.
 - Process States: A process can be in one of the five states: New, Ready, Running, Waiting, and Zombie.
-- Memory Management: Operating Systems use different memory management techniques like Contiguous Memory Allocation, Linked Memory Allocation, and Paging to manage memory.
+- Memory Management: Operating [systems](/blog/communication-systems-class-12-notes) use different memory management techniques like Contiguous Memory Allocation, Linked Memory Allocation, and Paging to manage memory.
 - File Systems: Operating Systems use different file systems like File Allocation Table (FAT), New Technology File System (NTFS), and Hierarchical File System (HFS) to manage files.
 - Device Management: Operating Systems use device drivers to manage input/output operations with devices like keyboards, mice, and printers.
 
@@ -188,50 +188,50 @@ practice_link: "/class-12/computer-science/operating-systems"
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What is the primary function of a device driver in an Operating System?**
-**A)**    To manage memory
-**B)**    To manage files
-**C)**    To manage input/output operations with devices
-**D)**    To manage process scheduling
+**A)**     To manage memory
+**B)**     To manage files
+**C)**     To manage input/output operations with devices
+**D)**     To manage process scheduling
 
 **Answer:** C) Device drivers are responsible for managing input/output operations with devices like keyboards, mice, and printers.
 
 ---
 
 **2. Which of the following is a type of memory management technique used by Operating Systems?**
-**A)**    Process Scheduling
-**B)**    Thread Scheduling
-**C)**    Contiguous Memory Allocation
-**D)**    Virtual Memory
+**A)**     Process Scheduling
+**B)**     Thread Scheduling
+**C)**     Contiguous Memory Allocation
+**D)**     Virtual Memory
 
 **Answer:** C) Contiguous Memory Allocation is a memory management technique used by Operating Systems to allocate contiguous blocks of memory to processes.
 
 ---
 
 **3. What is the primary function of a file system in an Operating System?**
-**A)**    To manage process scheduling
-**B)**    To manage memory
-**C)**    To manage input/output operations with devices
-**D)**    To manage files
+**A)**     To manage process scheduling
+**B)**     To manage memory
+**C)**     To manage input/output operations with devices
+**D)**     To manage files
 
 **Answer:** D) File systems are responsible for managing files and directories in an Operating System.
 
 ---
 
 **4. Which of the following is a type of process scheduling algorithm used by Operating Systems?**
-**A)**    First-Come-First-Served (FCFS)
-**B)**    Shortest Job First (SJF)
-**C)**    Priority Scheduling
-**D)**    Round Robin Scheduling
+**A)**     First-Come-First-Served (FCFS)
+**B)**     Shortest Job First (SJF)
+**C)**     Priority Scheduling
+**D)**     Round Robin Scheduling
 
 **Answer:** C) Priority Scheduling is a type of process scheduling algorithm used by Operating Systems to schedule processes based on their priority.
 
 ---
 
 **5. What is the primary function of a device manager in an Operating System?**
-**A)**    To manage memory
-**B)**    To manage files
-**C)**    To manage input/output operations with devices
-**D)**    To manage process scheduling
+**A)**     To manage memory
+**B)**     To manage files
+**C)**     To manage input/output operations with devices
+**D)**     To manage process scheduling
 
 **Answer:** C) Device managers are responsible for managing input/output operations with devices like keyboards, mice, and printers.
 

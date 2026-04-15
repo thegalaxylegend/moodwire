@@ -134,7 +134,7 @@ What is the difference between Permutations and Combinations? is a fundamental c
 
 What is Ayush's Note on Permutations and Combinations? is a study guide that explains the concepts of permutations and combinations in mathematics. It includes definitions, formulas, and practice problems for permutations and combinations, as well as examples of how to apply these concepts to solve problems. For Class 11 exam prep in 2026, the most important aspect is understanding how to calculate permutations and combinations using the formulas $nPr = \frac{n!}{(n-r)!}$ and $nCr = \frac{n!}{r!(n-r)!}$, where $n!$ represents the factorial of $n$.
 
-Permutations refer to the arrangement of objects in a specific order, while combinations refer to the selection of objects without regard to order. The key difference between permutations and combinations is that permutations take into account the order of the objects, while combinations do not. This is reflected in the formulas used to calculate permutations and combinations. 
+[permutations](/blog/permutations-combinations-class-11-revision-notes-jee) refer to the arrangement of objects in a specific order, while combinations refer to the selection of objects without regard to order. The key difference between [permutations](/blog/permutations-combinations-class-11-revision-notes-jee) and combinations is that [permutations](/blog/permutations-combinations-class-11-revision-notes-jee) take into account the order of the objects, while combinations do not. This is reflected in the formulas used to calculate [permutations](/blog/permutations-combinations-class-11-revision-notes-jee) and combinations. 
 
 The formula for permutations is $nPr = \frac{n!}{(n-r)!}$, where $n$ is the total number of objects and $r$ is the number of objects being chosen. For example, if we have 5 objects and we want to choose 3 of them, the number of permutations is $5P3 = \frac{5!}{(5-3)!} = \frac{5!}{2!} = \frac{5 \times 4 \times 3 \times 2 \times 1}{2 \times 1} = 60$.
 
@@ -354,7 +354,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) with these related guides:
 
 - 📖 [Limits and Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/limits-and-derivatives-class-11-revision-notes-jee)
 - 📖 [Principle of Mathematical Induction Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee)

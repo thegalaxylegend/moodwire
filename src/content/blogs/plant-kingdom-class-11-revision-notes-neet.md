@@ -84,7 +84,7 @@ I still remember when I was preparing for JEE, I used to get confused between th
 * Tracheophyta: Vascular [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) such as ferns, conifers, and flowering [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet).
 * Pteridophyta: Vascular [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) that produce spores, such as ferns.
 * Gymnosperms: Vascular [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) that produce seeds, such as conifers.
-* Angiosperms: Vascular plants that produce flowers and seeds, such as flowering plants.
+* Angiosperms: Vascular [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) that produce flowers and seeds, such as flowering [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet).
 
 The [classification](/blog/biological-classification-class-11-revision-notes-neet) of plants is based on the following characteristics:
 * Vascular tissue: Presence or absence of vascular tissue, such as xylem and phloem.
@@ -114,7 +114,7 @@ Why students get it wrong: Students often confuse the different [plant](/blog/pl
 * Wrong answer: All plants produce flowers.
 Right answer: Only some plants, such as angiosperms, produce flowers.
 Why students get it wrong: Students often assume that all plants produce flowers, but this is not the case.
-* Wrong answer: Bryophyta is a type of vascular plant.
+* Wrong answer: Bryophyta is a type of vascular [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet).
 Right answer: Bryophyta is a type of non-vascular plant.
 Why students get it wrong: Students often confuse the different plant groups and assume that Bryophyta is a type of vascular plant.
 

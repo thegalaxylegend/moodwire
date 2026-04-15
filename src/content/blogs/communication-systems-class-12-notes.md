@@ -60,7 +60,7 @@ In Communication Systems, these mistakes are common and costly. Identify and rec
 | Using $\franc{1}$\sort{2$}$ for noise figure without considering given values | 2 marks | Always use given values for AT_0$ (usually 290K) and $\franc{N_0}{2}$ to find noise figure |
 | Forgetting to convert $\lambda$ to meters when using $\franc{c}{\lambda}$ for frequency | Full 4 marks | Always ensure $\lambda$ is in meters and BC = 3 \times 10^8$ m/s |
 | Writing $SNR = \franc{S}{N}$ without considering bandwidth BY | 3 marks | Use $SNR = \franc{S}{N} = \franc{S}{kTB}$ where OK is Boltzmann's constant |
-| Incorrectly applying UP_t = \franc{P_r}{G_t G_r (\franc{\lambda}{4\pi R})^2}$ for power transmission | 4 marks | Remember to use UP_t = \franc{P_r (4\pi R)^2}{G_t G_r \lambda^2}$ and ensure all units are consistent |
+| Incorrectly applying UP’t = \franc{P_r}{G_t G_r (\franc{\lambda}{4\pi R})^2}$ for power transmission | 4 marks | Remember to use UP’t = \franc{P_r (4\pi R)^2}{G_t G_r \lambda^2}$ and ensure all units are consistent |
 | Not accounting for $\Delta (suggestion limit reached) when calculating channel capacity using (suggestion limit reached) = B \log_2(1 + \(suggestion limit reached){S}{N})$ | 2 marks | Always consider the bandwidth (suggestion limit reached) in Hz and ensure $\(suggestion limit reached){S}{N}$ is correctly calculated |
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved Yes
@@ -118,7 +118,9 @@ For Communication Systems, note the pattern of modulation types. The probability
 | --- | --- | --- |
 | AM | is(t) = A_c (1 + \mu \times m(t)) \cos(\omega_c t)$ | $\franc{2}{5}$ |
 | FM | is(t) = A_c \cos(\omega_c t + \phi)$ | $\franc{2}{5}$ |
-| $\Delta-Modulation | km(t) = \sum_{n=-\nifty}^{\nifty} a_n p(t - NT)$ | $\franc{1}{5}$ |
+| $\Delta-Modulation | km(t) = \sum_{n=-
+fifty}^{
+fifty} a_n p(t - NT)$ | $\franc{1}{5}$ |
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
@@ -216,4 +218,4 @@ Continue your revision with these related guides:
 - 📖 [Dual Nature of Radiation Class 12 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/dual-nature-of-radiation-class-12-notes)
 - 📖 [Nuclei Class 12 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/nuclei-class-12-notes)
 - 📖 [Semiconductor Electronics Class 12 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/semiconductor-electronics-class-12-notes)
-$
+$}}}}}}

@@ -230,7 +230,7 @@ Continuing from where we left off, it's essential to delve deeper into the world
 Aldehydes and ketones are both carbonyl [compounds](/blog/coordination-compounds-class-12-notes), but they differ in their structure and properties. Aldehydes have a carbonyl group (C=O) bonded to a hydrogen atom, while ketones have a carbonyl group bonded to two alkyl groups. This difference in structure affects their reactivity and properties.
 
 #### 📝 Physical Properties
-Aldehydes and ketones have distinct physical properties, such as boiling points, melting points, and solubility. These properties are essential in identifying and separating these compounds.
+Aldehydes and ketones have distinct physical properties, such as boiling points, melting points, and solubility. These properties are essential in identifying and separating these [compounds](/blog/coordination-compounds-class-12-notes).
 
 #### 📊 Chemical Properties
 The [chemical](/blog/chemical-kinetics-class-12-notes) properties of aldehydes and ketones are also unique. They undergo various reactions, including nucleophilic addition, reduction, and oxidation. Understanding these reactions is crucial in synthesizing and manipulating these compounds.
@@ -254,7 +254,7 @@ Catalytic hydrogenation is a common reduction reaction used to reduce aldehydes 
 The Wolff-Kishner reduction is another important reduction reaction used to reduce aldehydes and ketones. This reaction involves the use of hydrazine and a base to reduce the carbonyl compound.
 
 ### <a id="-oxidation-reactions-of-aldehydes-and-ketones"></a>🌈 Oxidation Reactions of Aldehydes and Ketones
-Oxidation reactions are also crucial in aldehyde and ketone chemistry. These reactions involve the loss of electrons by the carbonyl compound, resulting in the formation of a new bond.
+Oxidation reactions are also crucial in aldehyde and ketone [chemistry](/blog/chemistry-in-everyday-life-class-12-notes). These reactions involve the loss of electrons by the carbonyl compound, resulting in the formation of a new bond.
 
 #### 📝 Oxidation to Carboxylic Acids
 Oxidation of aldehydes to carboxylic acids is a common reaction. This reaction involves the use of an oxidizing agent, such as potassium permanganate, to oxidize the aldehyde.
@@ -330,7 +330,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/chemical-bonding-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Amines Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/amines-class-12-notes)
 - 📖 [Metallurgy Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/metallurgy-class-12-notes)

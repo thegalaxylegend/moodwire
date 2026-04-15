@@ -124,7 +124,7 @@ The square root of the variance. It is preferred because it shares the same unit
 
 ## <a id="4-analysis-of-frequency-distributions"></a>4. Analysis of Frequency Distributions
 
-Sometimes we need to compare two different series (like marks of two students in different subjects) to see which is more consistent.
+Sometimes we need to compare two different [series](/blog/sequences-series-class-11-revision-notes-jee) (like marks of two students in different subjects) to see which is more consistent.
 
 ### <a id="coefficient-of-variation-cv"></a>Coefficient of Variation (C.V.):
 To compare dispersion between two sets with different means or units, we use C.V.

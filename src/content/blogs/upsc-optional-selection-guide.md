@@ -269,7 +269,7 @@ D. All of the above
 
 ---
 
-**2. What is the primary advantage of choosing a literature optional in the UPSC exam?**
+**2. What is the primary advantage of choosing a literature optional in the [upsc](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee) exam?**
 A)
 A. Less syllabus to cover
 B)

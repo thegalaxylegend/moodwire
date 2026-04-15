@@ -89,7 +89,7 @@ manualReview: false
  They also understand that the angle \sum property can be used to find the value of exterior angles of a triangle.
 
 - **The exterior angle of a triangle is equal to the \sum of the two opposite interior angles, which can be expressed as:** $\angle A + \angle B = \angle C$. They can use this concept to solve problems involving exterior angles of a triangle.
- Additionally, 95% scorers are proficient in using the concept of angle \sum property to solve problems involving quadrilaterals and polygons.
+ Additionally, 95% scorers are proficient in using the concept of angle \sum property to solve problems involving [quadrilaterals](/blog/quadrilaterals-class-9-notes) and polygons.
 
 - **They know that the \sum of the interior angles of a quadrilateral is $360^circ$ and the \sum of the interior angles of a polygon with $n$ sides is given by the formula:** $(n-2) \times 180^circ$. 
  They can apply this concept to solve complex problems involving quadrilaterals and polygons.
@@ -151,50 +151,50 @@ manualReview: false
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. A line intersects a circle at two points. The points of intersection are:**
-**A)**   The points are collinear.
-**B)**   The points are always equidistant from the centre.
-**C)**   The points are always on the circumference.
-**D)**   The points are never collinear.
+**A)**    The points are collinear.
+**B)**    The points are always equidistant from the centre.
+**C)**    The points are always on the circumference.
+**D)**    The points are never collinear.
 
 **Answer:** C) The points of intersection lie on the circumference of the circle.
 
 ---
 
 **2. What is the nature of the angle formed between a tangent and a chord intersecting at a point on the circle?**
-**A)**   The angle is always greater than 90 degrees.
-**B)**   The angle is always less than 90 degrees.
-**C)**   The angle is always a right angle.
-**D)**   The angle is equal to the angle in the alternate segment.
+**A)**    The angle is always greater than 90 degrees.
+**B)**    The angle is always less than 90 degrees.
+**C)**    The angle is always a right angle.
+**D)**    The angle is equal to the angle in the alternate segment.
 
 **Answer:** C) The angle formed between a tangent and a chord is always a right angle.
 
 ---
 
 **3. In an isosceles triangle, the angles are in the ratio of 2:3. What is the value of the smallest angle in degrees?**
-**A)**   36
-**B)**   36.86
-**C)**   36.87
-**D)**   36.9
+**A)**    36
+**B)**    36.86
+**C)**    36.87
+**D)**    36.9
 
 **Answer:** A) Since the angles are in the ratio 2:3 and \sum of the angles in a triangle is 180 degrees, let the angles be 2x and 3x. So, 2x + 3x + 2x = 180, 7x = 180, x = 180/7 = 25.71. The smallest angle = 2x = 51.42. However, in a triangle, the smallest angle will be opposite to the shortest side. In an isosceles triangle, the sides opposite to the equal angles are equal, so the smallest angle is opposite to the shortest side. So, the correct answer for the smallest angle is 36 degrees as it is the only value among the options.
 
 ---
 
 **4. What is the measure of the angle formed when a line intersects two parallel lines?**
-**A)**   More than 90 degrees.
-**B)**   Equal to 90 degrees.
-**C)**   Less than 90 degrees.
-**D)**   Equal to the angle of elevation.
+**A)**    More than 90 degrees.
+**B)**    Equal to 90 degrees.
+**C)**    Less than 90 degrees.
+**D)**    Equal to the angle of elevation.
 
 **Answer:** C) The angle formed when a line intersects two parallel lines is always less than 90 degrees.
 
 ---
 
 **5. Two lines in a plane are intersected by a transversal. If the alternate interior angles are equal, what can be concluded about the two lines?**
-**A)**   The lines are parallel.
-**B)**   The lines are perpendicular.
-**C)**   The lines are skew.
-**D)**   The lines are concurrent.
+**A)**    The lines are parallel.
+**B)**    The lines are perpendicular.
+**C)**    The lines are skew.
+**D)**    The lines are concurrent.
 
 **Answer:** A) If the alternate interior angles are equal, then the two lines are parallel.
 

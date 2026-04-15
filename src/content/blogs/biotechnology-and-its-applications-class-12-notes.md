@@ -313,3 +313,4 @@ Continue your revision with these related guides:
 - 📖 [Ecosystem Class 12 Biology Revision — MEET 2026 Grandmaster Guide](/blog/ecosystem-class-12-notes)
 - 📖 [Environmental Issues Class 12 Biology Revision — MEET 2026 Grandmaster Guide](/blog/environmental-issues-class-12-notes)
 
+$

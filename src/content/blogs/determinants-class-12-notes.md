@@ -141,7 +141,7 @@ d \end{vmatrix}$ and cofactor of $b$ is $-\begin{vmatrix} c \end{vmatrix}$.
 
 #### Volume of a Parallelepiped Using Determinants
 - **Formula:** V = |\det(A)| — $A$ is the matrix whose columns are the edges of the parallelepiped.
-- **Application:** Used to find the volume of a parallelepiped given the components of its edges.
+- **[application](/blog/application-of-integrals-class-12-notes):** Used to find the volume of a parallelepiped given the components of its edges.
 
 ### <a id="-core-concept-7-determinant-of-a-2x2-matrix"></a>⚡ Core Concept 7: Determinant of a 2x2 Matrix
 

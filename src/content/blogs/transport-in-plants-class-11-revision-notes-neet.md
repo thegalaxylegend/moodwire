@@ -83,7 +83,7 @@ To remember the difference between diffusion and osmosis, use the following tric
  + Wrong answer: They are the same thing
  + Right answer: Diffusion is the movement of particles from high to low concentration, while osmosis is the movement of water molecules from high to low concentration through a partially permeable membrane
  + Why students get it wrong: They confuse the two terms and think they are the same thing
-* What is the role of transpiration in plants?
+* What is the role of transpiration in [plants](/blog/respiration-in-plants-class-11-revision-notes-neet)?
  + Wrong answer: It is the process by which plants absorb water from the soil
  + Right answer: It is the process by which water is transported through the plant, from the roots to the leaves, and is then released into the air as water vapor
  + Why students get it wrong: They think transpiration is the same as absorption

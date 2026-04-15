@@ -296,7 +296,7 @@ S_{30} + S_{35} - S_{40} = 15(2a + 29d) + \frac{35}{2} (2a + 34d) - 20(2a + 39d)
  * Deriving complex formulas and relationships
  * Analyzing problems from different perspectives
  * Identifying the most efficient approach to solve a problem
- * Using the concept of AP to solve problems related to real-world scenarios
+ * Using the concept of AP to solve problems related to [real](/blog/real-numbers-class-10-notes)-world scenarios
 
 | Concept | Formula | Description |
 | --- | --- | --- |

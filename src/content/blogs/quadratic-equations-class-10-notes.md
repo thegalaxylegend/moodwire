@@ -22,7 +22,7 @@ practice_link: "/class-11/mathematics/quadratic-equations-class-10-notes"
 - - Quadratic Equations: Graph of a quadratic function ($y = ax^2 + bx + c$) — frequently
 - - Quadratic Equations: Vertex form of a quadratic function ($y = a(x - h)^2 + k$) — frequently
 - - Quadratic [equations](/blog/pair-of-linear-equations-class-10-notes): 1 question on the axis of symmetry of a quadratic function — frequently
-- - Quadratic Equations: Relation between the coefficients of a quadratic equation and the sum/product of its roots — always
+- - Quadratic [equations](/blog/pair-of-linear-equations-class-10-notes): Relation between the coefficients of a quadratic equation and the sum/product of its roots — always
 
 </div>
 
@@ -76,7 +76,7 @@ eq 0$. Ensure that the coefficient of ${x^2}$ is not zero.
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 - **Q1:** If the equation $x^2 + {2\lambda}x + {\lambda} = 0$ has two distinct real roots, then find the range of values of ${\lambda}$.
- - **Trap:** Students often get confused with the condition for distinct real roots.
+ - **Trap:** Students often get confused with the condition for distinct [real](/blog/real-numbers-class-10-notes) roots.
  - **Solution:** 
  - Recall that for a quadratic equation $ax^2 + bx + c = 0$, the roots are given by the formula $x = \frac{{-b \pm \sqrt{{b^2 - 4ac}}}}{2a}$.
  - For distinct real roots, the discriminant $b^2 - 4ac > 0$. 

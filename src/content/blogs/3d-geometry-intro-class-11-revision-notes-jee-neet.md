@@ -219,7 +219,7 @@ This is the derivation of the formula for the surface area of a cylinder.
 * Conversion between [coordinate](/blog/coordinate-geometry-class-10-notes) systems:
   + Cartesian to cylindrical: $r = \sqrt{x^2 + y^2}$, $\theta = \tan^{-1}\left(\frac{y}{x}\right)$
   + Cartesian to spherical: $\rho = \sqrt{x^2 + y^2 + z^2}$, $\theta = \tan^{-1}\left(\frac{y}{x}\right)$, $\phi = \cos^{-1}\left(\frac{z}{\rho}\right)$
-* Applications of 3D coordinate systems:
+* Applications of 3D [coordinate](/blog/coordinate-geometry-class-10-notes) systems:
   + [computer](/blog/computer-networks-class-12-notes) graphics
   + Robotics
   + Medical imaging
@@ -280,7 +280,7 @@ This is the derivation of the formula for the surface area of a cylinder.
 * Formula for quaternion multiplication: $q_1 \cdot q_2 = (w_1w_2 - \mathbf{v}_1 \cdot \mathbf{v}_2, w_1\mathbf{v}_2 + w_2\mathbf{v}_1 + \mathbf{v}_1 \times \mathbf{v}_2)$
 * **Dual Quaternion**: Mathematical object with eight components.
 * **Quaternion Applications**: 3D rotations, [computer](/blog/computer-networks-class-12-notes) graphics, and robotics.
-* **Dual Quaternion Applications**: 3D transformations, computer vision, and animation.
+* **Dual Quaternion Applications**: 3D transformations, [computer](/blog/computer-networks-class-12-notes) vision, and animation.
 
 ## <a id="derivations-and-proofs"></a>**Derivations and Proofs**
 
@@ -326,7 +326,7 @@ Key concepts, formulas, and derivations are essential in 3D geometry, including 
 ## <a id="applications-in-engineering-and-architecture"></a>**Applications in Engineering and Architecture**
 * **Computer-Aided Design (CAD)**: Software for creating and modifying 3D models, using **NURBS** (Non-uniform rational B-spline) curves and surfaces.
 * **Building Information Modeling (BIM)**: Digital representation of buildings, including **geometry**, **topology**, and **attributes**.
-* **Structural Analysis**: Simulation of stress and strain on 3D structures, using **Finite Element Method (FEM)**: \mathbf{K} \cdot \mathbf{u} = \mathbf{F}.
+* **Structural [analysis](/blog/algorithms-analysis-class-11-revision-notes-gate-boards)**: Simulation of stress and strain on 3D structures, using **Finite Element Method (FEM)**: \mathbf{K} \cdot \mathbf{u} = \mathbf{F}.
 
 ## <a id="realworld-applications"></a>**Real-World Applications**
 * **3D Printing**: Layer-by-layer fabrication of physical objects, using **STL** (STereoLithography) files and **G-code**.
@@ -553,4 +553,3 @@ Continue your revision with these related guides:
 - 📖 [Algorithms: Analysis Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-analysis-class-11-revision-notes-gate-boards)
 - 📖 [Computer Networks Class 12 (Computer Science) Comprehensive Notes — Boards 2026 Encyclopedia](/blog/computer-networks-class-12-notes)
 - 📖 [Art Culture Architecture Class 11 Chemistry Revision — CBSE Boards 2026 Grandmaster Guide](/blog/art-culture-architecture-class-11-revision-notes-jee-neet)
-$

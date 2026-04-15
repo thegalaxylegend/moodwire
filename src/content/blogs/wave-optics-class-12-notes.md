@@ -81,7 +81,7 @@ The wave nature of light was first proposed by Huygens and later supported by Yo
 
 One of the key principles of wave optics is the concept of wave fronts and rays. A wave front is a surface that connects all the points in space that are in phase with each other, while a ray is a line that is perpendicular to the wave front and indicates the direction of propagation of the wave. The behavior of light as it passes through a medium can be described using Snell's law, which relates the angles of incidence and refraction to the refractive indices of the two media.
 
-Wave optics also involves the study of interference and diffraction patterns. Interference occurs when two or more waves overlap in space, resulting in a new wave pattern. This can be seen in the double-slit experiment, where the light passing through the two slits creates an interference pattern on a screen. Diffraction, on the other hand, occurs when a wave passes through a narrow opening or around a corner, resulting in the bending of the wave around the obstacle.
+Wave optics also involves the study of interference and diffraction patterns. Interference occurs when two or more [waves](/blog/electromagnetic-waves-class-12-notes) overlap in space, resulting in a new wave pattern. This can be seen in the double-slit experiment, where the light passing through the two slits creates an interference pattern on a screen. Diffraction, on the other hand, occurs when a wave passes through a narrow opening or around a corner, resulting in the bending of the wave around the obstacle.
 
 A key concept in wave optics is the principle of superposition, which states that the displacement of a wave at a given point is the sum of the displacements of the individual waves at that point. This principle is essential for understanding interference and diffraction patterns.
 
@@ -100,7 +100,7 @@ Student-centric tip: To better understand the concepts of wave optics, try to vi
 
 ## <a id="what-are-the-basic-principles-of-wave-optics"></a>What are the basic principles of Wave Optics?
 
-Wave Optics is the study of the behavior of light as it interacts with matter, emphasizing its wave nature. It includes the principles of interference, diffraction, and superposition. For Class 12 exam prep in 2026, the most important aspect is understanding how these principles apply to various phenomena such as Young's double-slit experiment, single-slit diffraction, and the formation of interference patterns.
+Wave Optics is the study of the behavior of light as it interacts with matter, emphasizing its wave nature. It includes the principles of interference, diffraction, and superposition. For [class](/blog/permutations-and-combinations-class-11-revision-notes-jee) 12 exam prep in 2026, the most important aspect is understanding how these principles apply to various phenomena such as Young's double-slit experiment, single-slit diffraction, and the formation of interference patterns.
 
  The principle of **superposition** states that when two or more waves overlap in the same medium, the resultant displacement at any point is the vector sum of the displacements of the individual waves. This principle is crucial in understanding interference patterns. In the context of light waves, superposition leads to **interference**, where the overlapping of light waves results in a new wave pattern. Interference can be either constructive, where the peaks of the waves align to increase the amplitude, or destructive, where the peaks and troughs align to cancel each other out.
 

@@ -202,4 +202,3 @@ Continue your revision with these related guides:
 - 📖 [Communication Systems Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/communication-systems-class-12-notes)
 - 📖 [Dual Nature of Radiation Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/dual-nature-of-radiation-class-12-notes)
 - 📖 [Nuclei Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/nuclei-class-12-notes)
-$

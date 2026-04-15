@@ -48,7 +48,7 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
  - **Sum and Product of Roots:** x_1 + x_2 = -\frac{b}{a} \text{ and } x_1x_2 = \frac{c}{a} — $x_1$ and $x_2$ are the roots of the quadratic equation $ax^2 + bx + c = 0$.
  - **Cubic Formula:** x = \sqrt[3]{-\frac{q}{2} + \sqrt$\frac{q^2${4} + \frac{p^3}{27}}} + \sqrt[3]{-\frac{q}{2} - \sqrt$\frac{q^2${4} + \frac{p^3}{27}}} — p and q are coefficients of the cubic equation $x^3 + px + q = 0$.
  - **Descartes' Ru\le of Signs:** \text{Number of positive roots} = \text{number of sign changes in } p(x) — p(x) is the polynomial.
- - **Intermediate Value Theorem:** \text{If } p(a) < 0 \text{ and } p(b) > 0, \text{ then } \exists c \in (a, b) \text{ such that } p(c) = 0 — p(x) is the polynomial and a and b are real numbers.
+ - **Intermediate Value Theorem:** \text{If } p(a) < 0 \text{ and } p(b) > 0, \text{ then } \exists c \in (a, b) \text{ such that } p(c) = 0 — p(x) is the polynomial and a and b are [real](/blog/real-numbers-class-10-notes) numbers.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 

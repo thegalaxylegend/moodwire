@@ -141,7 +141,7 @@ Inequalities are used extensively in:
 
 **Q3: Represent the solution of x/2 + y/3 > 1 graphically.**
 **Answer:**
-- Draw the line x/2 + y/3 = 1 (intercepts are (2,0) and (0,3)).
+- Draw the [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) x/2 + y/3 = 1 (intercepts are (2,0) and (0,3)).
 - Since it is '>', use a **dashed line**.
 - Test point (0,0): 0/2 + 0/3 > 1 is **False**.
 - **Result:** Shade the region **not containing** the origin.

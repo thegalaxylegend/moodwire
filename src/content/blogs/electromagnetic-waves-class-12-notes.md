@@ -90,7 +90,7 @@ As we explore the world of electromagnetic waves, we'll be using a combination o
 
 Electromagnetic Waves are a form of energy that propagates through a medium, such as air or a vacuum, and includes electric and magnetic field components, as well as frequency and wavelength. It includes the electric field vector, magnetic field vector, and the direction of propagation. For [class](/blog/alternating-current-class-12-notes) 12 exam prep in 2026, the most important aspect is understanding the relationship between the speed of light, frequency, and wavelength of electromagnetic waves. 
 
-The classification of electromagnetic waves is based on their frequency or wavelength. The electromagnetic spectrum includes types such as radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays, and gamma rays. Each type has a specific range of frequencies and wavelengths, and they are used in various applications. For example, radio waves are used in communication systems, microwaves are used in heating and cooking, and X-rays are used in medical imaging.
+The classification of [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) waves is based on their frequency or wavelength. The [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) spectrum includes types such as radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays, and gamma rays. Each type has a specific range of frequencies and wavelengths, and they are used in various applications. For example, radio waves are used in communication systems, microwaves are used in heating and cooking, and X-rays are used in medical imaging.
 
 To understand electromagnetic waves, it's essential to know the key terms and concepts. **Electromagnetic radiation** refers to the emission or transmission of energy in the form of electromagnetic waves. **Frequency** is the number of oscillations or cycles of an electromagnetic wave per second, measured in Hertz (Hz). **Wavelength** is the distance between two consecutive peaks or troughs of an electromagnetic wave, measured in meters (m). The **speed of light** is a fundamental constant in physics, denoted by the symbol c, and is approximately equal to $3 	imes 10^8$ meters per second.
 
@@ -104,11 +104,11 @@ Here's a student-centric tip: To remember the order of the electromagnetic spect
 
 The properties of electromagnetic waves can be summarized as follows: 
 - They can propagate through a vacuum.
-- They have both electric and magnetic field components.
+- They have both electric and [magnetic](/blog/magnetic-effects-of-current-class-12-notes) field components.
 - They can be classified based on their frequency or wavelength.
 - They have a wide range of applications, including communication systems, medical imaging, and heating and cooking.
 
-To prepare for the Class 12 exam, it's essential to practice problems and questions that involve the calculation of frequency, wavelength, and speed of electromagnetic waves. Additionally, understanding the applications and properties of electromagnetic waves can help in solving problems and answering questions in the exam.
+To prepare for the [class](/blog/magnetism-and-matter-class-12-notes) 12 exam, it's essential to practice problems and questions that involve the calculation of frequency, wavelength, and speed of electromagnetic waves. Additionally, understanding the applications and properties of electromagnetic waves can help in solving problems and answering questions in the exam.
 
 
 | Type of Electromagnetic Wave | Frequency Range | Wavelength Range | Applications |

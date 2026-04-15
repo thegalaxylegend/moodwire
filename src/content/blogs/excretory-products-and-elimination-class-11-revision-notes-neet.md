@@ -186,9 +186,9 @@ Answer: d) All of the above
 By practicing these MCQs, students can develop a deep understanding of the excretory system and its functions, and can prepare for success in the JEE and [neet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) exams.
 
 ### <a id="core-concepts-cont"></a>Core Concepts Cont.
-The excretory system is a complex system that involves the coordination of multiple organs and processes. The kidneys, liver, lungs, and skin all play important roles in the excretory system, and work together to remove waste products and excess substances from the body. The excretory system is also involved in the regulation of the body's acid-base balance and electrolyte balance.
+The excretory system is a complex system that involves the [coordination](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) of multiple organs and processes. The kidneys, liver, lungs, and skin all play important roles in the excretory system, and work together to remove waste products and excess substances from the body. The excretory system is also involved in the regulation of the body's acid-base balance and electrolyte balance.
 
-The excretory system is essential for maintaining homeostasis in the body, and for overall health and well-being. Understanding the core concepts, formulae, and JEE/NEET data relevant to the excretory system is essential for success in the JEE and NEET exams, and for a career in medicine or a related field.
+The excretory system is essential for maintaining homeostasis in the body, and for overall health and well-being. Understanding the core concepts, formulae, and JEE/[neet](/blog/biological-classification-class-11-revision-notes-neet) data relevant to the excretory system is essential for success in the JEE and [neet](/blog/biological-classification-class-11-revision-notes-neet) exams, and for a career in medicine or a related field.
 
 ### <a id="jeeneet-data-cont"></a>JEE/NEET Data Cont.
 The following JEE/NEET data is relevant to the excretory system:

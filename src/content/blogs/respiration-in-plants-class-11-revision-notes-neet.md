@@ -97,8 +97,8 @@ To remember the equation for respiration, use the following trick: "C6H12O6 + 6O
 
 * **Wrong answer**: Respiration in [plants](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) only occurs in the presence of light.
 * **Right answer**: Respiration in [plants](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) occurs in the presence and absence of light.
-* **Why students get it wrong**: Students often confuse respiration with photosynthesis, which occurs in the presence of light.
-* **Wrong answer**: The byproduct of anaerobic respiration in plants is CO2 and H2O.
+* **Why students get it wrong**: Students often confuse respiration with [photosynthesis](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet), which occurs in the presence of light.
+* **Wrong answer**: The byproduct of anaerobic respiration in [plants](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) is CO2 and H2O.
 * **Right answer**: The byproduct of anaerobic respiration in plants is ethanol and CO2.
 * **Why students get it wrong**: Students often forget that anaerobic respiration in plants produces ethanol, not CO2 and H2O.
 
@@ -125,7 +125,7 @@ Answer: A) CO2 and H2O
 
 3. What is the stage of respiration that occurs in the mitochondria?
 A) Glycolysis
-B) Citric Acid Cycle
+B) Citric Acid [cycle](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet)
 C) Oxidative Phosphorylation
 D) All of the above
 

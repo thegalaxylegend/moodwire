@@ -74,7 +74,7 @@ practice_link: "/class-11/chemistry/amines-class-12-notes"
     - Formation of urethane
 
 ### <a id="9-electrophilic-aromatic-substitution"></a>9. Electrophilic Aromatic Substitution
-- **Nitration**: Reaction of aromatic amines with nitric acid to form nitro aromatic compounds.
+- **Nitration**: Reaction of aromatic amines with nitric acid to form nitro aromatic [compounds](/blog/coordination-compounds-class-12-notes).
 - **Alienation**: Reaction of aromatic amines with halogens to form halo aromatic compounds.
 - **Fried-Crafts Alkylating**: Reaction of aromatic amines with alkyl halides to form alkyl aromatic compounds.
 - **Key Reactions**:

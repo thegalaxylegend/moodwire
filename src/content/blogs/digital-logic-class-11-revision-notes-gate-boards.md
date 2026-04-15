@@ -54,7 +54,7 @@ Furthermore, the study of Digital Logic has numerous practical applications, fro
 
 In the context of the [class](/blog/computer-organization-class-11-notes) 11 exam, it is crucial to recognize that Digital Logic is not just a theoretical subject, but also a practical one. The exam will test our ability to apply the concepts we have learned to solve problems and design digital circuits. Therefore, it is essential to practice solving problems and designing circuits to develop a deep understanding of the subject.
 
-By mastering Digital Logic, we can unlock the secrets of the digital world and develop a profound appreciation for the intricate beauty of digital systems. As we embark on this journey, we will encounter numerous challenges and opportunities to learn and grow. With dedication and practice, we can develop a deep understanding of Digital Logic and achieve success in the Class 11 exam. 
+By mastering Digital Logic, we can unlock the secrets of the digital world and develop a profound appreciation for the intricate beauty of digital systems. As we embark on this journey, we will encounter numerous challenges and opportunities to learn and grow. With dedication and practice, we can develop a deep understanding of Digital Logic and achieve success in the [class](/blog/computer-organization-class-11-notes) 11 exam. 
 
 The formula for the $n$-bit binary counter is:
 

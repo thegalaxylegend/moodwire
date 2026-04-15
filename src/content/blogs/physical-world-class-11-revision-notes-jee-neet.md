@@ -85,7 +85,7 @@ I still remember when I was preparing for my [class](/blog/environmental-chemist
 ## <a id="core-concepts"></a>Core Concepts
 
 ### <a id="scientific-method"></a>Scientific Method
-The scientific method is a systematic approach to solving problems and understanding natural phenomena. It involves making observations, formulating hypotheses, and testing them through experiments. The scientific method is <span class="definition">a systematic process used to develop and test scientific knowledge</span>.
+The scientific method is a systematic approach to solving problems and understanding natural phenomena. It involves making observations, formulating hypotheses, and testing them through experiments. The scientific method is <span [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)="definition">a systematic process used to develop and test scientific knowledge</span>.
 
 ### <a id="measurement-and-error-analysis"></a>Measurement and Error Analysis
 Measurement is a crucial aspect of scientific experiments. It involves assigning numbers to physical quantities using units. Error analysis is essential in understanding the accuracy and reliability of measurements. There are two types of errors: systematic and random. Systematic errors are <span class="definition">errors that occur due to a flaw in the measurement process</span>, while random errors are <span class="definition">errors that occur due to chance</span>.

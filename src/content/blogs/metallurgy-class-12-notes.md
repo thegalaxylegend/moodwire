@@ -204,7 +204,7 @@ Thermodynamic principles involve the [application](/blog/application-of-integral
 
 
 #### Electrochemical Principles
-Electrochemical principles involve the application of E^{\circ}_{cell} = E^{\circ}_{cathode} - E^{\circ}_{anode} in metallurgy. This equation is used to determine the feasibility of metal extraction processes. The cell potential is a measure of the potential difference between the cathode and anode, and it can be used to determine whether a reaction is spontaneous or not.
+Electrochemical principles involve the [application](/blog/application-of-integrals-class-12-notes) of E^{\circ}_{cell} = E^{\circ}_{cathode} - E^{\circ}_{anode} in metallurgy. This equation is used to determine the feasibility of metal extraction processes. The cell potential is a measure of the potential difference between the cathode and anode, and it can be used to determine whether a reaction is spontaneous or not.
 
 As we continue to explore the world of metallurgy, it is essential to understand the principles and processes involved in the extraction and refining of metals. By avoiding common mistakes and applying thermodynamic and electrochemical principles, we can optimize metal extraction processes and produce high-purity metals.
 

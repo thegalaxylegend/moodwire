@@ -63,7 +63,7 @@ Some essential formulas to keep in mind:
 **Exam Weightage and Question Types**
 In the [class](/blog/alternating-current-class-12-notes) 12 CBSE board exams, magnetism and matter is a significant topic, with a weightage of **10-12%**. Questions can range from straightforward calculations to complex problems that require a deep understanding of the concepts. Some common question types include:
 
-* **Numerical problems**: Calculating magnetic field strengths, magnetic flux, and induced EMFs.
+* **Numerical problems**: Calculating [magnetic](/blog/magnetic-effects-of-current-class-12-notes) field strengths, [magnetic](/blog/magnetic-effects-of-current-class-12-notes) flux, and induced EMFs.
 * **Theoretical questions**: Describing the properties of magnetic materials, explaining the principles of magnetic [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet), and discussing the applications of magnetism.
 * **Graph-based questions**: Analyzing and interpreting graphs related to magnetic fields, magnetic flux, and induced EMFs.
 
@@ -127,7 +127,7 @@ To differentiate between various types of magnetic materials, students can use t
 
 ## <a id="how-does-magnetization-occur-in-materials"></a>How does Magnetization occur in Materials?
 
-Magnetization is the process by which a material becomes magnetized, exhibiting magnetic properties. It includes the alignment of magnetic dipoles, the movement of domain walls, and the rotation of magnetic moments. For Class 12 exam prep in 2026, the most important aspect is understanding the role of magnetic domains and how they contribute to the overall magnetization of a material.
+Magnetization is the process by which a material becomes magnetized, exhibiting magnetic properties. It includes the alignment of magnetic dipoles, the movement of domain walls, and the rotation of magnetic moments. For [class](/blog/alternating-current-class-12-notes) 12 exam prep in 2026, the most important aspect is understanding the role of magnetic domains and how they contribute to the overall magnetization of a material.
 
 Magnetization occurs when a material is placed in a magnetic field, causing the magnetic dipoles within the material to align. This alignment can be either parallel or antiparallel to the applied magnetic field, resulting in either positive or negative magnetization. The magnetization of a material can be described by the magnetization vector $M$, which is defined as the net magnetic moment per unit volume of the material.
 

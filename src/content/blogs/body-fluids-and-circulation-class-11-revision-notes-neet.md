@@ -7,7 +7,7 @@ date: "2026-03-28"
 practice_link: "/class-11/biology/body-fluids-and-circulation-class-11-revision-notes-neet"
 ---
 
-*Last Updated: 2026-03-28*
+*Last Updated: [2026](/blog/cuet-2026-master-strategy-class-11-revision-notes-neet)-03-28*
 
 
 
@@ -242,7 +242,7 @@ Artery & Carries oxygenated blood away from the heart & Aorta \\
 \hline
 Vein & Carries deoxygenated blood back to the heart & Superior vena cava \\
 \hline
-Capillary & Allows for the exchange of oxygen and nutrients with the body's tissues & Lung capillaries \\
+Capillary & Allows for the [exchange](/blog/breathing-and-exchange-of-gases-class-11-revision-notes-neet) of oxygen and nutrients with the body's tissues & Lung capillaries \\
 \hline
 \end{tabular}
 

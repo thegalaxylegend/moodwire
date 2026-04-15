@@ -85,7 +85,7 @@ The classification of [elements](/blog/the-p-block-elements-11-class-11-revision
 
 ## <a id="latex-equations"></a>LaTeX Equations
 
-Here are some examples of LaTeX equations related to the classification of elements:
+Here are some examples of LaTeX equations related to the classification of [elements](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet):
 
 * The electronic configuration of an element can be represented as: $1s^2 2s^2 2p^6$
 * The atomic radius of an element can be calculated using the formula: $r = \frac{a}{Z}$, where $r$ is the atomic radius, $a$ is a constant, and $Z$ is the atomic number

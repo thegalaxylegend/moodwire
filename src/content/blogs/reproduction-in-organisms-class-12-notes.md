@@ -227,7 +227,7 @@ ightarrow (2n) \	ext{Offspring}
 
  - The two main types of reproduction are [sexual](/blog/sexual-reproduction-in-flowering-plants-class-12-notes) and asexual reproduction.
 
- - The human reproductive system consists of the male and female reproductive systems, each with its own unique structures and functions.
+ - The [human](/blog/human-reproduction-class-12-notes) reproductive system consists of the male and female reproductive systems, each with its own unique structures and functions.
 
  - Common mistakes:
 
@@ -247,7 +247,7 @@ D) to synthesize proteins
 
 ---
 
-**2. Which of the following is a characteristic of sexual reproduction?**
+**2. Which of the following is a characteristic of [sexual](/blog/sexual-reproduction-in-flowering-plants-class-12-notes) reproduction?**
 A) involves only one parent
 B) results in offspring with identical traits
 C) increases genetic variation

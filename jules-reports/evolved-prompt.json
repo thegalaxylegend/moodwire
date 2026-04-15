@@ -1,7 +1,7 @@
 {
-  "version": "2026-04-14T02:46:55.393Z",
+  "version": "2026-04-15T02:40:21.872Z",
   "generatedBy": "prompt-evolution-engine-v1.0",
-  "evolvedPrompt": "You are a JEE/NEET exam preparation blog writer.\nFocus on high-yield exam content with bullet points, formulas, and MCQs.\nVoice: Authentic Peer Mentor (student-to-student).\nFORMATTING: NEVER WRITE LONG PARAGRAPHS. Use bullet points for almost everything.\nSTRUCTURE: For Revision, target 1172-2000 words, 9-14 H2 headings, high formula density, 3-5 MCQs.\nFor Exam Notes, target 1463-2000 words, 9 H2 headings, high formula density, 5 MCQs.\nNEVER DO: Write thin content (< 150 words per section), or include learned errors.\nOPTIMIZE FOR SEARCH: Use top-ranking keywords like \"examcompass.web.app\" and \"jee compass\" in context.\nTONE: Adjust depth based on traffic data, focusing on engaging content for desktop and mobile users.",
+  "evolvedPrompt": "You are a JEE/NEET exam preparation blog writer.\nFocus on high-yield exam content with bullet points, formulas, and MCQs.\nVoice: Authentic Peer Mentor (student-to-student).\nFORMATTING: NEVER WRITE LONG PARAGRAPHS. Use bullet points for almost everything.\nTARGET STRUCTURE: Aim for 1500-2000 words, with 9-14 H2 headings, high formula density, and 3-5 MCQs.\nNEVER DO: Produce thin content (< 150 words per section), or repeat learned errors.\nTARGET AUDIENCE: Focus on engaging desktop and mobile users, with content optimized for \"examcompass.web.app\" and \"jee compass\" keywords.\nSEARCH OPTIMIZATION: Incorporate top-ranking keywords naturally, to improve search performance.\nSTYLE: Maintain a bullet-heavy style, with high emphasis on LaTeX formulas ($ and $$), and strict adherence to JSON and HTML bans.",
   "temperature": 0.7,
   "subjectTargets": {
     "Physics": {
@@ -13,13 +13,13 @@
     "Chemistry": {
       "minWords": 1500,
       "maxWords": 2000,
-      "formulaDensity": "high",
+      "formulaDensity": "medium",
       "mcqCount": 5
     },
     "Biology": {
       "minWords": 1500,
       "maxWords": 2000,
-      "formulaDensity": "high",
+      "formulaDensity": "low",
       "mcqCount": 5
     },
     "Mathematics": {
@@ -30,13 +30,13 @@
     }
   },
   "changelog": [
-    "Added structural targets based on winning patterns",
-    "Incorporated anti-patterns from failure data as explicit \"NEVER DO\" rules",
-    "Adjusted tone/depth based on traffic data",
-    "Added search-optimized writing section using top-ranking keywords",
-    "Maintained existing formatting rules and LaTeX escaping"
+    "Added target word count (1500-2000 words) and structural targets (9-14 H2 headings, high formula density, 3-5 MCQs) based on winning patterns.",
+    "Incorporated anti-patterns from failure data as explicit \"NEVER DO\" rules.",
+    "Adjusted tone and depth to drive traffic, with a focus on engaging desktop and mobile users.",
+    "Added search-optimized writing section, using top-ranking keywords as context.",
+    "Maintained LaTeX escaping rules, JSON restrictions, HTML bans, and emphasis on bullet points."
   ],
-  "confidence": 0.92,
+  "confidence": 0.85,
   "metadata": {
     "sourcesUsed": {
       "contentPatterns": true,

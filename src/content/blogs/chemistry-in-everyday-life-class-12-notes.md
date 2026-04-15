@@ -56,7 +56,7 @@ practice_link: "/class-11/chemistry/chemistry-in-everyday-life-class-12-notes"
 * 1 mark question on buffer solution: always asks for the mph of a buffer solution or asks to identify a buffer solution
 * 2 marks question on the importance of (suggestion limit reached) in everyday life (e.g. (suggestion limit reached) of soil, (suggestion limit reached) of blood, etc.)
 * 1 numerical on $\(suggestion limit reached){K_{w}}{K_{a}}$ or $\(suggestion limit reached){K_{w}}{K_{b}}$ — always
-* Medicinal application of coordination compounds: 2 marks question on the use of coordination compounds in medicine (e.g. (suggestion limit reached), etc.)
+* Medicinal application of [coordination](/blog/coordination-compounds-class-12-notes) compounds: 2 marks question on the use of [coordination](/blog/coordination-compounds-class-12-notes) compounds in medicine (e.g. (suggestion limit reached), etc.)
 
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
@@ -103,7 +103,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/chemical-bonding-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Alcohols, Phenols and Ethers Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/alcohols-phenols-and-ethers-class-12-notes)
 - 📖 [Polymers Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/polymers-class-12-notes)

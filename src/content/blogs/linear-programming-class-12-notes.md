@@ -33,7 +33,7 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 - **Sensitivity Analysis**: 1 numerical on performing sensitivity analysis using the graphical method — always
 - **Transportation Problems**: 1 problem on formulating and solving a transportation problem using [linear](/blog/pair-of-linear-equations-class-10-notes) programming — always
 - **Formulation of [linear](/blog/pair-of-linear-equations-class-10-notes) Programming Problems**: 1-2 questions on formulating real-life problems as [linear](/blog/pair-of-linear-equations-class-10-notes) programming problems — always
-- **Non-Negativity Constraints**: 1 numerical on handling non-negativity constraints in linear programming problems — always
+- **Non-Negativity Constraints**: 1 numerical on handling non-negativity constraints in [linear](/blog/pair-of-linear-equations-class-10-notes) programming problems — always
 - **$x \geq 0$ and $y \geq 0$**: 1 question on plotting the non-negativity constraints and finding the feasible region — always
 - **Linear Programming [applications](/blog/biotechnology-and-its-applications-class-12-notes)**: 1 question on [applications](/blog/biotechnology-and-its-applications-class-12-notes) of linear programming in real-life scenarios — always
 - **Maximization and Minimization**: 1 numerical on formulating and solving maximization and minimization problems using linear programming — always
@@ -67,7 +67,7 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 
 - **Primal:** \max\ Z = \sum_{j=1}^{n} c_jx_j
 
-- **Dual:** \min\ W = \sum_{i=1}^{m} b_iy_i
+- **[dual](/blog/dual-nature-of-radiation-class-12-notes):** \min\ W = \sum_{i=1}^{m} b_iy_i
 
  - **Shadow Price:** \Delta Z = \sum_{i=1}^{m} y_i \Delta b_i — where $\Delta Z$ is the change in the objective function value, $y_i$ is the dual variable for the $i^{th}$ constraint, $\Delta b_i$ is the change in the right-hand side value of the $i^{th}$ constraint.
 

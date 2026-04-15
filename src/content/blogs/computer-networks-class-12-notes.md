@@ -258,7 +258,7 @@ These protocols and services work together to provide a and efficient network in
 ## <a id="network-security-threats"></a>**Network Security Threats**
 * **Hacking**: Unauthorized access to network resources.
 * **Viruses**: Malicious code that replicates and damages [systems](/blog/operating-systems-class-12-notes).
-* **Malware**: Software designed to harm or exploit systems.
+* **Malware**: Software designed to harm or exploit [systems](/blog/operating-systems-class-12-notes).
 * **Phishing**: Social engineering attacks to steal sensitive information.
 * **DDoS**: Overwhelming networks with traffic to make them unavailable.
 
