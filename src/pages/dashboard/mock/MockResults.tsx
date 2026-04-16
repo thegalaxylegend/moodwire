@@ -21,6 +21,7 @@ interface MockResultsProps {
     topicOrExam?: string;
     userName?: string;
     targetExam?: string;
+    mode?: 'full' | 'quick' | 'topic' | 'diagnostic';
     onReview: () => void;
     onDashboard: () => void;
     onRetake: () => void;

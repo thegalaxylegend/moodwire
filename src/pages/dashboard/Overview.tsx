@@ -7,6 +7,7 @@ import { getWeakTopics, getStrongTopics, type TopicStat } from '../../services/t
 import { offlineSyncService } from '../../services/offlineSyncService';
 import { DailyChallenge } from '../../components/DailyChallenge';
 import { syncHistoricalScoresToLeaderboard, syncSyllabusFromMocks, syncTopicStatsFromMocks } from '../../services/dataSyncService';
+import { DailyMissionCard } from '../../components/dashboard/DailyMissionCard';
 import { RankBadge } from '../../components/gamification/RankBadge';
 import { XPProgress } from '../../components/gamification/XPProgress';
 import { AuthGate } from '../../components/auth/AuthGate';
@@ -21,6 +22,7 @@ import type { DependencyInsight } from '../../services/conceptGraphService';
 import { MasteryDiagnostics } from '../../components/dashboard/MasteryDiagnostics';
 import { CollegePredictorCard } from '../../components/dashboard/CollegePredictorCard';
 import { predictionService } from '../../services/predictionService';
+import { type DailyMission } from '../../types/mission';
 
 const DiagnosticPopup = ({ onDismiss, onStart }: { onDismiss: () => void; onStart: () => void }) => {
     return (
@@ -377,7 +379,7 @@ export const Overview = () => {
         if (user && !user.isGuest) {
             const result = predictionService.predictRank({
                 currentMockScore: user.abilityScore || 1000, // Using ability score as a proxy for mock score if needed, or better, use latest mock result if available
-                topicStrength: (user.skills?.physics + user.skills?.chemistry + user.skills?.math) / 3 || 0.5,
+                topicStrength: ((user.skills?.physics || 0) + (user.skills?.chemistry || 0) + (user.skills?.math || 0)) / 3 || 0.5,
                 examType: user.targetExam || 'JEE Mains'
             });
             setPrediction(result);

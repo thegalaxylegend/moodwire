@@ -37,13 +37,11 @@ export const remediationService = {
             subject: stat.subject,
             topic: stat.topic,
             count: 2, // 2 questions per topic for a quick remediation burst
-            difficulty: stat.status === 'weak' ? 'Easy' : 'Medium' as 'Easy' | 'Medium' | 'Hard'
+            remediationFocus: remediationService.getPrimaryErrorFocus(stat)
         }));
 
-        // 3. Fetch questions (Note: Current getAdaptiveQuestionBatch needs update to support remediationFocus per item)
-        // For now, we fetch them and assume the engine will handle standard adaptive logic.
-        // Future refinement: pass the remediationFocus into the batch generator.
-        const questions = await getAdaptiveQuestionBatch(userId, userId, targetExam || 'General', { items });
+        // 3. Fetch questions
+        const questions = await getAdaptiveQuestionBatch(userId, needs, targetExam || 'General');
 
         return {
             topics: weakTopics.map(t => t.topic),

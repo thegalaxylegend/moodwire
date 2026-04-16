@@ -6,6 +6,7 @@ interface MockPreviewProps {
     timeRemaining: number;
     topicOrExam?: string;
     isTimedExam: boolean;
+    mode?: 'full' | 'quick' | 'topic' | 'diagnostic';
     onStart: () => void;
     onCancel: () => void;
 }

@@ -140,6 +140,11 @@ function interpolateRank(score: number, brackets: readonly Bracket[]): number {
             const logRank = Math.log(hiRank) * (1 - t) + Math.log(loRank) * t;
             return Math.round(Math.exp(logRank));
         }
+        return { 
+            inst: "General Admission", 
+            branch: "Other Branches", 
+            rank: 100000 
+        };
     }
     return brackets[brackets.length - 1][1];
 }
@@ -196,7 +201,8 @@ function qualificationLabel(rank: number, exam: string, score: number): string {
             return "⚠️  Qualified but no IIT seat likely";
 
 
-
+            return "—";
+        default:
             return "—";
     }
 }

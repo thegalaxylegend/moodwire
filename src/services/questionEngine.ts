@@ -2,7 +2,7 @@ import { db } from '../lib/firebase';
 import {
     collection,
     addDoc,
-    query,
+    query, 
     where,
     getDocs,
     limit,
@@ -887,7 +887,7 @@ export const getAdaptiveQuestionBatch = async (
                     topic,
                     exam,
                     0.5, // Default weakness for batch
-                    topic_id || undefined,
+                    resolvedTopicId || undefined,
                     subject,
                     abilityScore,
                     group.remediationFocus

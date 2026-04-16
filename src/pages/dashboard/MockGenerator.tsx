@@ -1,20 +1,12 @@
 import { useState, useEffect, useRef } from 'react';
-import { Brain, Loader2, ArrowLeft, PlayCircle, Trophy, CheckCircle, Youtube, Timer, PauseCircle, X, Send, Coffee, AlertTriangle, Volume2, TrendingUp as DynamicTrending } from 'lucide-react';
+import { AlertTriangle, Timer } from 'lucide-react';
 import { ttsManager } from '../../lib/tts/TTSManager';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import { askAI } from '../../lib/ai';
 import { db } from '../../lib/firebase';
-import { collection, query, where, getDocs, limit, addDoc, updateDoc, increment, serverTimestamp } from 'firebase/firestore';
+import { collection, query, where, getDocs, limit, addDoc, serverTimestamp } from 'firebase/firestore';
 import { useUserStore } from '../../store/userStore';
-import { getWeakTopics } from '../../services/topicStrengthService';
-import { getAdaptiveQuestion, getAdaptiveQuestionBatch } from '../../services/questionEngine';
-import { extractJSON } from '../../lib/utils';
-import { ViralShareCard } from '../../components/ViralShareCard';
-import { AuthGate } from '../../components/auth/AuthGate';
-import ReactMarkdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';
-import { calculatePredictedRank, updateLeaderboard } from '../../services/leaderboardService';
 import { markTopicsAsCompletedFromResults } from '../../services/dataSyncService';
 import { batchUpdateTopicStrength } from '../../services/topicStrengthService';
 import { trackQuestionTime, trackOptionSwitch } from '../../lib/analytics';
@@ -306,7 +298,7 @@ export const MockGenerator = () => {
 
             if (status === 'completed') {
                 const questionResults = questions.map((q, i) => ({ topic: q.topic, isCorrect: answers[i] === q.correctAnswer }));
-                updateLeaderboard(user.id, { displayName: user.name || 'Anonymous', avatar: user.avatarUrl, xp: user.xp + (currentScore * 10), rankName: user.prepLevel || 'Aspirant' }, currentScore, user.targetExam || 'General').catch(() => {});
+                // updateLeaderboard(user.id, { displayName: user.name || 'Anonymous', avatar: user.avatarUrl, xp: user.xp + (currentScore * 10), rankName: user.prepLevel || 'Aspirant' }, currentScore, user.targetExam || 'General').catch(() => {});
                 addGains({ xp: currentScore * 10, pts: currentScore }).catch(() => {});
                 updateProfile({ lastTestDate: new Date().toISOString().split('T')[0] }).catch(() => {});
                 markTopicsAsCompletedFromResults(user.id, questionResults).catch(() => {});
@@ -375,16 +367,14 @@ export const MockGenerator = () => {
             if (examMode === 'quick') {
                 setTimeRemaining(30 * 60);
 
-                // --- PHASE B: CONSUME PRE-FETCH ---
                 const prefetched = mockPrefetchService.consumePrefetch(targetExam, currentAbility);
                 if (prefetched && prefetched.length > 0) {
                     console.log("⚡ [MockGenerator] Instant Start: Using pre-fetched questions.");
                     const mappedQs = mapRawToLocal(prefetched);
                     setQuestions(mappedQs);
                     setStep('preview');
-                    return; // EXIT EARLY
+                    return;
                 }
-                // ----------------------------------
 
                 if (isJunior) {
                     needs = [{ subject: 'General', topic: 'Mathematics and Science', count: 10 }];
@@ -436,6 +426,7 @@ export const MockGenerator = () => {
             }
 
             setLoadingMessage("Fetching Hybrid Questions...");
+            const { getAdaptiveQuestionBatch } = await import('../../services/questionEngine');
             const rawQuestions = await getAdaptiveQuestionBatch(
                 user!.id,
                 needs,
@@ -536,6 +527,7 @@ export const MockGenerator = () => {
         const verificationPrompt = `Solve Blindly: ${q.text}\nOptions: ${q.options.join(', ')}\nReturn JSON: { "solved_index": number, "step_by_step": string, "is_official_wrong": boolean }`;
         try {
             const response = await askAI("Science Tutor", verificationPrompt, 'groq', [], { stream: false });
+            const { extractJSON } = await import('../../lib/utils');
             const result = extractJSON(response);
             if (result && typeof result.solved_index === 'number') {
                 const solvedIdx = result.solved_index;
@@ -578,7 +570,7 @@ export const MockGenerator = () => {
         } catch (e) { setStep('exam'); }
     };
 
-    if (!user) return <AuthGate mode="modal" fallback={<div>Login Required</div>}><div></div></AuthGate>;
+    if (!user) return <div>Login Required</div>;
 
     if (step === 'loading' || step === 'config') {
         return (
@@ -604,7 +596,7 @@ export const MockGenerator = () => {
 
     if (step === 'result') return <MockResults score={score} questions={questions as any} answers={answers} mode={mode} onAction={(action) => action === 'review' ? setStep('review') : navigate('/dashboard/test-center')} />;
     if (step === 'preview') return <MockPreview mode={mode} difficulty={difficulty} questions={questions as any} onStart={() => setStep('exam')} onCancel={handleExit} />;
-    if (step === 'history') return <MockHistory onResume={handleResume} onBack={() => setStep('config')} />;
+    if (step === 'history') return <MockHistory user={user} onResume={handleResume} onBack={() => setStep('config')} />;
     
     return (
         <MockExamEngine

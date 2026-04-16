@@ -73,9 +73,9 @@ export const Arena = () => {
     const generateBattleQuestions = async (subj: string) => {
         try {
             console.log(`[Arena] Generating battle batch for subject: ${subj}`);
-            const questionData = await getAdaptiveQuestionBatch(user?.id || 'guest', user?.id || 'guest', user?.targetExam || 'JEE Mains', {
-                items: [{ subject: subj, topic: subj, count: 5, difficulty: 'Medium' }]
-            });
+            // 2. Fetch fresh Battle Questions based on user category
+            const needs = [{ subject: subj, topic: 'Random', count: 10, difficulty: 'Medium' }];
+            const questionData = await getAdaptiveQuestionBatch(user?.id || 'guest', needs, user?.targetExam || 'JEE Mains');
 
             if (!questionData || questionData.length < 3) {
                 console.error('[Arena] Not enough questions generated for battle');
@@ -202,7 +202,7 @@ export const Arena = () => {
             // Phase C: Sync to analytics
             if (battleResults.length > 0 && user?.id) {
                 console.log(`[Arena] Syncing ${battleResults.length} battle results to Mastery Engine...`);
-                batchUpdateTopicStrength(user.id, battleResults, user.class, user.targetExam);
+                batchUpdateTopicStrength(user.id, battleResults, user.userClass, user.targetExam);
             }
         }
     }, [session?.status, status]);

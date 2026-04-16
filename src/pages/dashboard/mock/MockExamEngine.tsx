@@ -1,5 +1,5 @@
 import React from 'react';
-import { Brain, PauseCircle, Timer, AlertTriangle, Coffee, ArrowLeft, DynamicTrendingUp, PlayCircle, Loader2, X, Send, Volume2 } from 'lucide-react';
+import { Brain, PauseCircle, Timer, AlertTriangle, Coffee, ArrowLeft, TrendingUp, PlayCircle, Loader2, X, Send, Volume2, CheckCircle } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -129,7 +129,7 @@ export const MockExamEngine: React.FC<MockExamEngineProps> = ({ state, actions }
                             <div className="hidden md:flex flex-col items-end px-4 border-l border-border">
                                 <span className="text-[10px] text-text-muted uppercase font-bold tracking-widest">Ability Est.</span>
                                 <div className="flex items-center gap-1.5 text-secondary font-bold text-sm">
-                                    <DynamicTrendingUp size={14} />
+                                    <TrendingUp size={14} />
                                     {EloService.calculatePercentile(currentAbility)}th %ile
                                 </div>
                             </div>

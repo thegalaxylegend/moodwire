@@ -2,7 +2,6 @@ import { db } from '../lib/firebase';
 import { 
     collection, 
     query, 
-    where, 
     getDocs, 
     addDoc, 
     serverTimestamp,
