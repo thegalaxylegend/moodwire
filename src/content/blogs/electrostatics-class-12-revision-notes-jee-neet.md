@@ -153,7 +153,7 @@ Ayush's Note on Electrostatics is a concise study guide covering the fundamental
  
  In addition to the theoretical concepts, the note provides numerous examples and practice problems to help students develop their problem-solving skills. These problems range from simple calculations of electric field and potential to more complex scenarios involving multiple charges, capacitors, and dielectrics. By working through these problems, students can gain a deeper understanding of the subject matter and develop the skills they need to succeed on the [class](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) 12 exam.
  
- Overall, Ayush's Note on Electrostatics is a valuable resource for students preparing for the Class 12 exam in 2026. It provides a clear and concise overview of the key concepts and formulas in electrostatics, and it offers a wealth of practice problems and examples to help students develop their skills and confidence.
+ Overall, Ayush's Note on Electrostatics is a valuable resource for students preparing for the [class](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) 12 exam in 2026. It provides a clear and concise overview of the key concepts and formulas in electrostatics, and it offers a wealth of practice problems and examples to help students develop their skills and confidence.
 
 | Topic | Formula | Description |
 | --- | --- | --- |

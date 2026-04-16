@@ -43,7 +43,7 @@ manualReview: false
 
 - 5$, which simplifies to $2x = 6$, then divide both sides by 2 to find $x = {6 \over 2} = 3$.
 
-- **Mistake 2:** Failing to check if the solution to a linear equation satisfies the original equation, which can lead to incorrect or extraneous solutions.
+- **Mistake 2:** Failing to check if the solution to a [linear](/blog/linear-programming-class-12-notes) equation satisfies the original equation, which can lead to incorrect or extraneous solutions.
 
 - *Costs:* 1-2 marks per question
  
@@ -220,17 +220,17 @@ eq 0$).
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. If the roots of the quadratic equation ax^2 + bx + c = 0 are α and β, then the \sum of the roots is?**
-**A)**   α + β
-**B)**   -b/a
-**C)**   c/a
-**D)**   a/b
+**A)**    α + β
+**B)**    -b/a
+**C)**    c/a
+**D)**    a/b
 
 **Answer:** B) According to the \sum and product of roots in a quadratic equation, the \sum of the roots is -b/a
 
 ---
 
 **2. The equation 2x + 5 = 0 has how many solutions?**
-**A)**   No
+**A)**    No
 
 solution  
 **B)** One solution  
@@ -242,30 +242,30 @@ solution
 ---
 
 **3. Which of the following equations is a linear equation in one variable?**
-**A)**   x^2 + 2x - 3 = 0
-**B)**   2x + 5 = 0
-**C)**   x^3 + 2x^2 - 3 = 0
-**D)**   sin(x) = 0
+**A)**    x^2 + 2x - 3 = 0
+**B)**    2x + 5 = 0
+**C)**    x^3 + 2x^2 - 3 = 0
+**D)**    sin(x) = 0
 
 **Answer:** B) The given equation 2x + 5 = 0 is a linear equation in one variable
 
 ---
 
 **4. For the linear equation ax + b = 0, the solution set is all real numbers such that?**
-**A)**   ax + b > 0
-**B)**   ax + b < 0
-**C)**   ax + b = 0
-**D)**   ax + b ≠ 0
+**A)**    ax + b > 0
+**B)**    ax + b < 0
+**C)**    ax + b = 0
+**D)**    ax + b ≠ 0
 
 **Answer:** C) For a linear equation ax + b = 0, the solution set is all real numbers such that ax + b = 0
 
 ---
 
 **5. If the equation 3x - 2 = 0 has a solution x = α, then the value of α is?**
-**A)**   2/3
-**B)**   3/2
-**C)**   -2/3
-**D)**   3
+**A)**    2/3
+**B)**    3/2
+**C)**    -2/3
+**D)**    3
 
 **Answer:** A) Substitute x = α into the equation 3x - 2 = 0 to find the value of α
 

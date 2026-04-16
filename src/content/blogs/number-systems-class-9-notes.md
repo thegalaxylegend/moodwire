@@ -21,7 +21,7 @@ manualReview: false
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Even/Odd Number Check:** {n} equiv {0} pmod{2} — n is an even number, where n is an integer,- **Divisibility Rule for 2:** {2 | n} iff {n equiv 0 pmod{2}} — 2 divides n if n is even,- **Divisibility Rule for 3:** {3 | n} iff {n equiv 0 pmod{3}} — 3 divides n if \sum of digits of n is divisible by 3,- **Divisibility Rule for 4:** {4 | n} iff {n equiv 0 pmod{4}} — 4 divides n if last two digits of n are divisible by 4,- **Divisibility Rule for 5:** {5 | n} iff {n equiv 0 pmod{5}} — 5 divides n if n ends in 0 or 5,- **Divisibility Rule for 6:** {6 | n} iff {n equiv 0 pmod{2}} land {n equiv 0 pmod{3}} — 6 divides n if n is divisible by both 2 and 3,- **Divisibility Rule for 8:** {8 | n} iff {n equiv 0 pmod{8}} — 8 divides n if last three digits of n are divisible by 8,- **Divisibility Rule for 9:** {9 | n} iff {n equiv 0 pmod{9}} — 9 divides n if \sum of digits of n is divisible by 9,- **Divisibility Rule for 10:** {10 | n} iff {n equiv 0 pmod{10}} — 10 divides n if n ends in 0,- **HCF and LCM Relationship:** {a 	imes b = HCF(a,b) 	imes LCM(a,b)} — Relationship between HCF, LCM, and product of two numbers a and b,- **Euclid's Division Lemma:** {a = bq + r} — Any positive integer a can be expressed as a = bq + r, where b is the divisor, q is the quotient, and r is the remainder,- **Fundamental Theorem of Arithmetic:** {n = p_1^{a_1} 	imes p_2^{a_2} 	imes ... 	imes p_k^{a_k}} — Any positive integer n can be expressed uniquely as a product of prime numbers,- **Rule of Rational Number:** {p/q} — p and q are integers, q is non-zero, and gcd(p,q) = 1,- **Rule of Irrational Number:** {sqrt{x}} — x is not a perfect square, and there does not exist any rational number p/q such that (p/q)^2 = x
+- **Even/Odd Number Check:** {n} equiv {0} pmod{2} — n is an even number, where n is an integer,- **Divisibility Rule for 2:** {2 | n} iff {n equiv 0 pmod{2}} — 2 divides n if n is even,- **Divisibility Rule for 3:** {3 | n} iff {n equiv 0 pmod{3}} — 3 divides n if \sum of digits of n is divisible by 3,- **Divisibility Rule for 4:** {4 | n} iff {n equiv 0 pmod{4}} — 4 divides n if last two digits of n are divisible by 4,- **Divisibility Rule for 5:** {5 | n} iff {n equiv 0 pmod{5}} — 5 divides n if n ends in 0 or 5,- **Divisibility Rule for 6:** {6 | n} iff {n equiv 0 pmod{2}} land {n equiv 0 pmod{3}} — 6 divides n if n is divisible by both 2 and 3,- **Divisibility Rule for 8:** {8 | n} iff {n equiv 0 pmod{8}} — 8 divides n if last three digits of n are divisible by 8,- **Divisibility Rule for 9:** {9 | n} iff {n equiv 0 pmod{9}} — 9 divides n if \sum of digits of n is divisible by 9,- **Divisibility Rule for 10:** {10 | n} iff {n equiv 0 pmod{10}} — 10 divides n if n ends in 0,- **HCF and LCM Relationship:** {a 	imes b = HCF(a,b) 	imes LCM(a,b)} — Relationship between HCF, LCM, and product of two numbers a and b,- **Euclid's Division Lemma:** {a = bq + r} — Any positive integer a can be expressed as a = bq + r, where b is the divisor, q is the quotient, and r is the remainder,- **Fundamental Theorem of Arithmetic:** {n = p_1^{a_1} 	imes p_2^{a_2} 	imes ... 	imes p_k^{a_k}} — Any positive integer n can be expressed uniquely as a product of prime numbers,- **Rule of [rational](/blog/rational-numbers-class-8-notes) Number:** {p/q} — p and q are integers, q is non-zero, and gcd(p,q) = 1,- **Rule of Irrational Number:** {sqrt{x}} — x is not a perfect square, and there does not exist any [rational](/blog/rational-numbers-class-8-notes) number p/q such that (p/q)^2 = x
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -75,50 +75,50 @@ manualReview: false
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What is the range of the function f(x) = |x - 3|?**
-**A)**     (-∞, 3)
-**B)**     [0, ∞)
-**C)**     (-∞, 0)
-**D)**     [3, ∞)
+**A)**      (-∞, 3)
+**B)**      [0, ∞)
+**C)**      (-∞, 0)
+**D)**      [3, ∞)
 
 **Answer:** A) The range of the function f(x) = |x - 3| is [0, ∞) because the absolute value of any real number is always non-negative.
 
 ---
 
 **2. If x is an even integer, which of the following is NOT equal to x?**
-**A)**     x - 1
-**B)**     x + 1
-**C)**     -x + 1
-**D)**     -x
+**A)**      x - 1
+**B)**      x + 1
+**C)**      -x + 1
+**D)**      -x
 
 **Answer:** B) x + 1 is NOT equal to x because x is an even integer, and adding 1 to it would make it an odd integer.
 
 ---
 
 **3. What is the value of x if 2^(2x) = 16?**
-**A)**     2
-**B)**     4
-**C)**     8
-**D)**     9
+**A)**      2
+**B)**      4
+**C)**      8
+**D)**      9
 
 **Answer:** C) 2^(2x) = 16 can be rewritten as 2^(2x) = 2^4. Since the bases are equal, we can equate the exponents, 2x = 4, and solve for x, x = 2.
 
 ---
 
 **4. What is the HCF of 18, 24, and 30?**
-**A)**     2
-**B)**     6
-**C)**     9
-**D)**     12
+**A)**      2
+**B)**      6
+**C)**      9
+**D)**      12
 
 **Answer:** B) The highest common factor (HCF) of 18, 24, and 30 is 6 because 6 is the greatest common divisor of all three numbers.
 
 ---
 
 **5. If 11 is a factor of 2^11 + 1, then what is the value of 2^11 + 1?**
-**A)**     11
-**B)**     22
-**C)**     33
-**D)**     121
+**A)**      11
+**B)**      22
+**C)**      33
+**D)**      121
 
 **Answer:** D) 2^11 + 1 can be rewritten as 2048 + 1 = 2049, and 11 is a factor of 2049 because 2049 ÷ 11 = 186.
 

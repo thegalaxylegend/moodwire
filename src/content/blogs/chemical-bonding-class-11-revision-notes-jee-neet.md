@@ -491,7 +491,7 @@ Continue your [revision](/blog/equilibrium-class-11-revision-notes-jee-neet) wit
 * **Types of Bonds**: 
   + Ionic Bond: Transfer of electrons between atoms.
   + Covalent Bond: Sharing of electrons between atoms.
-  + Hydrogen Bond: Attractive force between hydrogen atom and highly electronegative atom.
+  + Hydrogen Bond: Attractive force between hydrogen [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet) and highly electronegative [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet).
 * **Bond Parameters**:
   + Bond Length: Average distance between nuclei of two bonded atoms.
   + Bond Angle: Angle between two bonds.

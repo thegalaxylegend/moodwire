@@ -102,7 +102,7 @@ A key concept to understand is the difference between electromagnetic waves and 
 
 Here's a student-centric tip: To remember the order of the electromagnetic spectrum, use the mnemonic 'Richard Of York Gave Battle In Vain' where each word corresponds to the first letter of each type of electromagnetic [wave](/blog/wave-optics-class-12-notes), in order of increasing frequency: Radio, Optical (visible light), Infrared, Gamma-rays (not exactly in order, but close enough), and the rest (X-rays and ultraviolet) can be fit in. However, the correct order is: Radio waves, Microwaves, Infrared radiation, Visible light, Ultraviolet radiation, X-rays, and Gamma rays.
 
-The properties of electromagnetic waves can be summarized as follows: 
+The properties of [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) waves can be summarized as follows: 
 - They can propagate through a vacuum.
 - They have both electric and [magnetic](/blog/magnetic-effects-of-current-class-12-notes) field components.
 - They can be classified based on their frequency or wavelength.
@@ -111,7 +111,7 @@ The properties of electromagnetic waves can be summarized as follows:
 To prepare for the [class](/blog/magnetism-and-matter-class-12-notes) 12 exam, it's essential to practice problems and questions that involve the calculation of frequency, wavelength, and speed of electromagnetic waves. Additionally, understanding the applications and properties of electromagnetic waves can help in solving problems and answering questions in the exam.
 
 
-| Type of Electromagnetic Wave | Frequency Range | Wavelength Range | Applications |
+| Type of Electromagnetic [wave](/blog/wave-optics-class-12-notes) | Frequency Range | Wavelength Range | Applications |
 | --- | --- | --- | --- |
 | Radio Waves | 3 kHz - 300 GHz | 100 km - 1 mm | Communication systems, radio broadcasting |
 | Microwaves | 300 MHz - 300 GHz | 1 mm - 1 m | Heating and cooking, wireless communication |
@@ -124,7 +124,7 @@ To prepare for the [class](/blog/magnetism-and-matter-class-12-notes) 12 exam, i
 
 ## <a id="what-is-the-electromagnetic-spectrum"></a>What is the Electromagnetic Spectrum?
 
-The Electromagnetic Spectrum is a vast band of energy frequencies that includes various types of electromagnetic radiation. It includes radio waves, microwaves, and gamma rays, among other forms of electromagnetic radiation. For Class 12 exam prep in 2026, the most important aspect is understanding the arrangement and properties of these different types of radiation in the spectrum. 
+The Electromagnetic Spectrum is a vast band of energy frequencies that includes various types of electromagnetic radiation. It includes radio waves, microwaves, and gamma rays, among other forms of electromagnetic radiation. For [class](/blog/magnetism-and-matter-class-12-notes) 12 exam prep in 2026, the most important aspect is understanding the arrangement and properties of these different types of radiation in the spectrum. 
 
 The Electromagnetic Spectrum is generally divided into seven main regions, each with distinct properties and applications. These regions, from longer wavelengths to shorter wavelengths, are radio waves, microwaves, infrared (IR) radiation, visible light, ultraviolet (UV) radiation, X-rays, and gamma rays. Each of these regions has unique characteristics, such as wavelength, frequency, and energy, which determine their uses and effects on [matter](/blog/magnetism-and-matter-class-12-notes). 
 

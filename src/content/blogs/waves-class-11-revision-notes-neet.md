@@ -218,7 +218,7 @@ Where:
 ---
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&
 A)
-**     Q1: Why does sound travel faster in [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than in gases?**
+**      Q1: Why does sound travel faster in [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than in gases?**
 
 **Answer:** The speed of sound is **v = √(E / ρ)**. Although [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) are much denser than gases (which would decrease speed), their elasticity (E) is significantly higher. Since elasticity dominates the equation, sound travels ~15 times faster in [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) than in air.
 

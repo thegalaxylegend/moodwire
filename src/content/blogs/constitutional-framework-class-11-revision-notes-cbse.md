@@ -151,10 +151,10 @@ Continue your [revision](/blog/indian-geography-physical-class-11-revision-notes
 
 ## 🪤 The 5 Mistakes That Cost Marks
 
-* The Constitution of [india](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) is the supreme law of the land, but many students mistakenly believe it is a static document and not a living one, which is a common mistake as the Constitution has undergone numerous amendments since its inception.
+* The Constitution of [India](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) is the supreme law of the land, but many students mistakenly believe it is a static document and not a living one, which is a common mistake as the Constitution has undergone numerous amendments since its inception.
 * A trap question could be asking to identify which of the following is not a characteristic of the Indian Constitution: federal, secular, or unitary - with the incorrect options being federal and secular, which are indeed characteristics of the Indian Constitution, while unitary is not.
 * Students often get confused about the concept of parliamentary sovereignty, thinking the Parliament has unlimited power, which is incorrect as the Indian Constitution has a system of checks and balances to prevent the misuse of power.
-* Another common mistake is thinking that the Constitution only provides for the fundamental rights of citizens and does not impose any duties on them, whereas in reality, the Constitution also outlines the fundamental duties of citizens.
+* Another common mistake is thinking that the Constitution only provides for the [fundamental](/blog/fundamental-rights-class-11-revision-notes-cbse) rights of citizens and does not impose any duties on them, whereas in reality, the Constitution also outlines the [fundamental](/blog/fundamental-rights-class-11-revision-notes-cbse) duties of citizens.
 * A question that could trap students is asking them to differentiate between the 'rule of law' and the 'supremacy of law', with the incorrect assumption that they are the same concept - when in fact, the rule of law refers to the idea that the government and citizens are subject to a set of laws, while the supremacy of law refers to the idea that the Constitution is the highest law of the land.
 
 ## 🔁 Last 5 Minutes Box

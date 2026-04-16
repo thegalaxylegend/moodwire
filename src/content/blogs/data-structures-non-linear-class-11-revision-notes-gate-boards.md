@@ -83,7 +83,7 @@ By the end of this prep, you should be able to write efficient [algorithms](/blo
    
 
 
-| Data Structure | Description | Time Complexity | Space Complexity |
+| [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) Structure | Description | Time Complexity | Space Complexity |
 | --- | --- | --- | --- |
 | Graph | A non-linear data structure consisting of nodes and edges | $O(|V| + |E|)$ | $O(|V| + |E|)$ |
 | Tree | A hierarchical data structure with a root node and leaf nodes | $O(h)$ | $O(n)$ |
@@ -123,12 +123,12 @@ The following table summarizes the key differences between graphs and trees:
 | Connectivity | Nodes can be connected or disconnected | All nodes are connected |
 | Edges | Can be directed or undirected | Undirected |
 | Node Relationships | Nodes can have multiple relationships | Each node has a unique path to every other node |
-| Applications | Network topology, social networks, traffic patterns | File systems, database indexing, compiler design |
+| Applications | Network topology, social networks, traffic patterns | File systems, database indexing, compiler [design](/blog/algorithms-design-class-11-revision-notes-gate-boards) |
 
 
 ## <a id="what-are-the-types-of-trees-in-data-structures-nonlinear"></a>What are the types of Trees in Data Structures: Non-Linear?
 
-What are the types of Trees in Data Structures: Non-Linear? is a fundamental concept in computer science that represents a hierarchical organization of data. It includes nodes, edges, and a root node. For Class 11 exam prep in 2026, the most important aspect is understanding the different types of non-linear trees such as binary trees, B-trees, and AVL trees. Non-linear data structures are crucial in solving complex problems and are used in various applications such as database indexing, file systems, and compiler design. In this section, we will explore the different types of non-linear trees, their properties, and applications. A binary tree is a tree-like structure in which each node has at most two children, referred to as the left child and the right child. This structure is used in many algorithms such as binary search and heap sort. On the other hand, a B-tree is a self-balancing search tree that keeps data sorted and allows search, insert, and delete operations in logarithmic time. Another type of non-linear tree is the AVL tree, which is a self-balancing binary search tree that ensures the height of the tree remains relatively small by rotating nodes when the balance factor becomes too large.
+What are the types of Trees in Data Structures: Non-Linear? is a fundamental concept in computer science that represents a hierarchical organization of data. It includes nodes, edges, and a root node. For Class 11 exam prep in 2026, the most important aspect is understanding the different types of non-linear trees such as binary trees, B-trees, and AVL trees. Non-linear data structures are crucial in solving complex problems and are used in various applications such as database indexing, file systems, and compiler design. In this section, we will explore the different types of non-linear trees, their properties, and applications. A binary tree is a tree-like structure in which each node has at most two children, referred to as the left child and the right child. This structure is used in many [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) such as binary search and heap sort. On the other hand, a B-tree is a self-balancing search tree that keeps data sorted and allows search, insert, and delete operations in logarithmic time. Another type of non-linear tree is the AVL tree, which is a self-balancing binary search tree that ensures the height of the tree remains relatively small by rotating nodes when the balance factor becomes too large.
 
 
 | Tree Type | Description | Time Complexity |
@@ -348,3 +348,19 @@ Continue your revision with these related guides:
 - 📖 [Algorithms: Analysis Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-analysis-class-11-revision-notes-gate-boards)
 - 📖 [Digital Logic Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/digital-logic-class-11-revision-notes-gate-boards)
 
+## 🔁 Last 5 Minutes Box
+
+- **Graph**: A non-linear data structure consisting of nodes or vertices connected by edges. 
+      - **Tree**: A hierarchical non-linear data structure with a root node and child nodes. 
+      - **Binary Tree**: Each node has at most two children (left child and right child). 
+      - **B TREE**: A self-balancing search tree with a maximum of 'm' children. 
+      - **Heap**: A specialized tree-based data structure that satisfies the heap property. 
+      - **Graph Types**: 
+        * Simple Graph 
+        * Weighted Graph 
+        * Directed Graph 
+        * Undirected Graph 
+      - **Tree Traversal**: 
+        * Inorder Traversal 
+        * Preorder Traversal 
+        * Postorder Traversal

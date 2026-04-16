@@ -150,7 +150,7 @@ d \end{vmatrix}$ and cofactor of $b$ is $-\begin{vmatrix} c \end{vmatrix}$.
 \begin{vmatrix} a & b \\ c & d \end{vmatrix}
 
 = ad - bc — $a, b, c, d$ are elements of the matrix.
-- **Application:** Used to calculate the determinant of a 2x2 matrix.
+- **[application](/blog/application-of-integrals-class-12-notes):** Used to calculate the determinant of a 2x2 matrix.
 
 #### Determinant of a 2x2 Matrix with Variables
 - **Formula:**
@@ -343,3 +343,11 @@ Continue your revision with these related guides:
 - 📖 [Continuity and Differentiability Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/continuity-and-differentiability-class-12-notes)
 - 📖 [Amines Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/amines-class-12-notes)
 - 📖 [Metallurgy Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/metallurgy-class-12-notes)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* **Minor mistake in expansion by minors**: While expanding a determinant using minors, ensure that the correct sign pattern is followed. Many students forget to alternate signs, leading to incorrect results.
+* **Incorrect application of properties**: Properties like $|AB| = |A||B|$ or $|A^T| = |A|$ are often misapplied, especially when dealing with determinants of products or transposes of matrices.
+* **Not checking for zero determinant**: Before inverting a matrix, it's crucial to verify that its determinant is non-zero. Forgetting to do so can lead to incorrect conclusions about the existence of inverses.
+* **Expansion by minors along the wrong row or column**: Expanding along a row or column with more zeros can simplify calculations. However, many students overlook this and expand along any row or column, unnecessarily complicating the process.
+* **Miscalculation of cofactors**: When calculating cofactors, it's easy to make mistakes with the signs or the determinants of the sub-matrices. Double-checking these calculations is essential to avoid errors in the final determinant value.

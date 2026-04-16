@@ -266,7 +266,7 @@ These protocols and services work together to provide a and efficient network in
 * **Firewalls**: Network devices that control incoming and outgoing traffic.
 * **Encryption**: Converting data into unreadable code to protect it.
 * **Access Control**: Regulating user access to network resources.
-* **Intrusion Detection Systems**: Monitoring networks for suspicious activity.
+* **Intrusion Detection [systems](/blog/operating-systems-class-12-notes)**: Monitoring networks for suspicious activity.
 * **Virtual Private Networks**: Secure, encrypted connections over public networks.
 
 ### <a id="encryption-techniques"></a>**Encryption Techniques**

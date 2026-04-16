@@ -134,7 +134,7 @@ Species is the lowest level of classification. It is a group of organisms that c
 
 ## <a id="shortcut-formula-trick"></a>Shortcut Formula / Trick
 
-One trick to remember the order of the levels of classification is to use the sentence "Some Genera Have Incredible Names" (Kingdom, Phylum, Class, Order, Family, Genus, Species).
+One trick to remember the order of the levels of classification is to use the sentence "Some Genera Have Incredible Names" (Kingdom, Phylum, [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet), Order, Family, Genus, Species).
 
 
 

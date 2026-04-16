@@ -153,7 +153,7 @@ where $P$ is the point outside the circle, and $A$, $B$, $C$, and $D$ are the po
 - $\text{Diagonal of a rectangle} = \sqrt{l^2 + b^2} = \sqrt{{l^2 + b^2}}$
  
 
-- A quadrilateral with all sides equal is a rhombus, but a quadrilateral with all sides and angles equal is a square.
+- A quadrilateral with all sides equal is a rhombus, but a quadrilateral with all sides and [angles](/blog/lines-and-angles-class-9-notes) equal is a square.
 
 - All rectangles are parallelograms, but all parallelograms are not rectangles.
 
@@ -166,50 +166,50 @@ where $P$ is the point outside the circle, and $A$, $B$, $C$, and $D$ are the po
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What is the \sum of the interior angles of a quadrilateral?**
-**A)**    360°
-**B)**    400°
-**C)**    540°
-**D)**    720°
+**A)**     360°
+**B)**     400°
+**C)**     540°
+**D)**     720°
 
 **Answer:** A) Sum of interior angles of a quadrilateral is 360°.
 
 ---
 
 **2. Which of the following quadrilaterals has all sides equal?**
-**A)**    Square
-**B)**    Rectangle
-**C)**    Rhombus
-**D)**    Trapazoid
+**A)**     Square
+**B)**     Rectangle
+**C)**     Rhombus
+**D)**     Trapazoid
 
 **Answer:** A) A square has all sides equal.
 
 ---
 
 **3. In a parallelogram, do the diagonals bisect each other?**
-**A)**    No
-**B)**    Yes
-**C)**    Only in a rectangle
-**D)**    Only in a square
+**A)**     No
+**B)**     Yes
+**C)**     Only in a rectangle
+**D)**     Only in a square
 
 **Answer:** B) In a parallelogram, diagonals bisect each other.
 
 ---
 
 **4. Which quadrilateral has opposite sides parallel?**
-**A)**    Kite
-**B)**    Rhombus
-**C)**    Square
-**D)**    Rectangle
+**A)**     Kite
+**B)**     Rhombus
+**C)**     Square
+**D)**     Rectangle
 
 **Answer:** D) A rectangle has opposite sides parallel.
 
 ---
 
 **5. Do the diagonals of a rhombus bisect each other at right angles?**
-**A)**    No
-**B)**    Yes
-**C)**    Only if the rhombus is a square
-**D)**    Only if the rhombus is a rectangle
+**A)**     No
+**B)**     Yes
+**C)**     Only if the rhombus is a square
+**D)**     Only if the rhombus is a rectangle
 
 **Answer:** B) Diagonals of a rhombus bisect each other at right angles.
 

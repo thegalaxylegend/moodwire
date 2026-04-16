@@ -285,7 +285,7 @@ D. Scoring high marks due to subjective [nature](/blog/dual-nature-of-radiation-
 
 **Answer:** D) Literature optionals often allow for subjective answers, which can lead to higher scores if the candidate is well-prepared and can articulate their thoughts clearly.
 =======
-Choosing an optional subject is a long-term commitment that requires deliberate planning. You will live with this subject for months, often dedicating 10 hours a day to its mastery. While many suggest following your "passion," a purely interest-based approach can fail if there is no study material or **NCERT solutions** available.
+Choosing an [optional](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee) subject is a long-term commitment that requires deliberate planning. You will live with this subject for months, often dedicating 10 hours a day to its mastery. While many suggest following your "passion," a purely interest-based approach can fail if there is no study material or **NCERT solutions** available.
 
 Our framework uses three pillars: Success Rate (how many candidates qualify), Overlap (how much it aids your General Studies papers), and Manageability (if the syllabus fits within a 4-month preparation window). Balancing these three ensures that your optional becomes a scoring asset rather than an overwhelming burden during the peak of Mains preparation.
 

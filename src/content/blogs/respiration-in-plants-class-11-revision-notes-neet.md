@@ -99,7 +99,7 @@ To remember the equation for respiration, use the following trick: "C6H12O6 + 6O
 * **Right answer**: Respiration in [plants](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) occurs in the presence and absence of light.
 * **Why students get it wrong**: Students often confuse respiration with [photosynthesis](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet), which occurs in the presence of light.
 * **Wrong answer**: The byproduct of anaerobic respiration in [plants](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) is CO2 and H2O.
-* **Right answer**: The byproduct of anaerobic respiration in plants is ethanol and CO2.
+* **Right answer**: The byproduct of anaerobic respiration in [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) is ethanol and CO2.
 * **Why students get it wrong**: Students often forget that anaerobic respiration in plants produces ethanol, not CO2 and H2O.
 
 
@@ -153,7 +153,7 @@ Answer: B) Aerobic respiration occurs in the presence of oxygen, while anaerobic
 ## <a id="related-notes-links"></a>Related Notes Links
 
 * Photosynthesis in Plants
-* Cell Respiration
+* [cell](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) Respiration
 
 
 

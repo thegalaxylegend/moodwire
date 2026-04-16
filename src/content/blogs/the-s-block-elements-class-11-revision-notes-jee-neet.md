@@ -87,7 +87,7 @@ I still remember when I was preparing for JEE, I used to get confused between th
 The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements are characterized by the filling of the s-orbitals. The s-orbitals are spherical in shape and can accommodate a maximum of 2 electrons. The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements have a tendency to lose electrons to form positive ions, which makes them highly reactive.
 
 ### <a id="electronic-configuration-of-sblock-elements"></a>Electronic Configuration of S-Block Elements
-The electronic configuration of the s-block elements can be written as:
+The electronic configuration of the s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements can be written as:
 ns^1
 for the alkali metals and
 ns^2

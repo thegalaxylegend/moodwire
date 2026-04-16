@@ -304,7 +304,7 @@ k &= \frac{||\mathbf{r}'(t) \times \mathbf{r}''(t)||}{||\mathbf{r}'(t)||^3} \\
 K &= \frac{eg - f^2}{EG - F^2} \\
 &= \frac{(\mathbf{r}_u \times \mathbf{r}_v) \cdot (\mathbf{r}_{uu} \times \mathbf{r}_{uv})}{||\mathbf{r}_u \times \mathbf{r}_v||^2}\end{aligned}
 
-Key concepts, formulas, and derivations are essential in 3D geometry, including curvature and torsion of curves, surface curvature, and Gaussian curvature. 3D transformations, quaternions, and dual quaternions have numerous applications in computer graphics, robotics, and animation.
+Key concepts, formulas, and derivations are essential in 3D [geometry](/blog/coordinate-geometry-class-10-notes), including curvature and torsion of curves, surface curvature, and Gaussian curvature. 3D transformations, quaternions, and dual quaternions have numerous applications in computer graphics, robotics, and animation.
 
 ## <a id="practice-problems"></a>Practice Problems
 
@@ -331,7 +331,7 @@ Key concepts, formulas, and derivations are essential in 3D geometry, including 
 ## <a id="realworld-applications"></a>**Real-World Applications**
 * **3D Printing**: Layer-by-layer fabrication of physical objects, using **STL** (STereoLithography) files and **G-code**.
 * **Robotics**: Control and navigation of robots in 3D space, using **kinematics** and **dynamics**: \mathbf{v} = \mathbf{J} \cdot \mathbf{q}.
-* **Geographic Information Systems (GIS)**: Analysis and visualization of geospatial data, using **projections** and **coordinate systems**: x = \lambda \cdot \cos(\phi).
+* **Geographic Information Systems (GIS)**: [analysis](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) and visualization of geospatial data, using **projections** and **coordinate systems**: x = \lambda \cdot \cos(\phi).
 
 ## <a id="practice-problems"></a>**Practice Problems**
 * Find the equation of a plane passing through three points $(x_1, y_1, z_1)$, $(x_2, y_2, z_2)$, and $(x_3, y_3, z_3)$.

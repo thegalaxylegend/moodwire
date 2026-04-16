@@ -220,7 +220,7 @@ F (4.0) > O (3.5) > Cl (3.0) > N (3.0) > Br (2.8) > C (2.5) > H (2.1)
 
 ## <a id="8-chemical-reactivity-and-metallic-character-trends"></a>8. Chemical Reactivity and Metallic Character Trends
 
-**Metallic Character is the tendency of an atom to lose electrons and form positive ions, reflecting its position on the periodic table.**
+**Metallic Character is the tendency of an [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet) to lose electrons and form positive ions, reflecting its position on the periodic table.**
 
 - **Metals** (left/bottom): Low IE. Easily lose electrons. Form basic oxides.
 - **Non-metals** (right/top): High IE, High EGE. Gain electrons. Form acidic oxides.

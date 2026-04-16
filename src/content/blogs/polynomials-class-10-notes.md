@@ -120,7 +120,7 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
 | Scorer Category | Approach to Remainder Theorem | Synthetic Division Skills | Polynomial Equation Solving |
 | --- | --- | --- | --- |
 | 85% Scorers | Basic application, struggles with higher degrees | Limited, especially with negative [numbers](/blog/real-numbers-class-10-notes) or non-standard divisors | Difficulty in finding all roots, especially complex or repeated ones |
-| 95% Scorers | Advanced application, mastery of theorem | Proficient, including with negative numbers and non-standard divisors | Systematic approach, combining multiple algebraic techniques |
+| 95% Scorers | Advanced application, mastery of theorem | Proficient, including with negative [numbers](/blog/real-numbers-class-10-notes) and non-standard divisors | Systematic approach, combining multiple algebraic techniques |
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 

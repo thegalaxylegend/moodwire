@@ -222,7 +222,7 @@ Answer: a) Maintaining cell turgor pressure and regulating stomatal movement
 a) Yellowing of leaves
 b) Stunted [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet) and purple coloration of leaves
 c) Scorching of leaves and reduced [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet)
-d) Curling of leaves and reduced growth
+d) Curling of leaves and reduced [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet)
 
 Answer: a) Yellowing of leaves
 
@@ -270,7 +270,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/hydrogen-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Cell Cycle And Cell Division Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet)

@@ -98,7 +98,7 @@ Here's a comparison table highlighting the key differences between Main Memory a
 | Type of Memory | Volatile | [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) Retention | Access Time |
 | --- | --- | --- | --- |
 | Main Memory (RAM) | Yes | [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) lost when powered off | Fast |
-| Secondary Memory (ROM) | No | Data retained even when powered off | Slow |
+| Secondary Memory (ROM) | No | [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) retained even when powered off | Slow |
 
 
 ## <a id="what-are-the-basic-components-of-a-computer"></a>What are the Basic Components of a Computer?
@@ -113,7 +113,7 @@ What are the Basic Components of a Computer? is a fundamental concept in compute
 
  A key concept to understand is the **von Neumann Architecture**, which is a [design](/blog/algorithms-design-class-11-revision-notes-gate-boards) model for computer systems that consists of a CPU, memory, and I/O devices. This architecture is still the basis for most modern computer systems.
 
- Here's a student-centric tip: when studying for the Class 11 exam, make sure to practice diagrams of the basic components of a computer and be able to label each part. This will help you to better understand how the different components interact with each other.
+ Here's a student-centric tip: when studying for the [class](/blog/digital-logic-class-11-revision-notes-gate-boards) 11 exam, make sure to practice diagrams of the basic components of a computer and be able to label each part. This will help you to better understand how the different components interact with each other.
 
  In terms of technical depth, it's essential to understand the different types of buses that connect the various components of a computer system. These include the **address bus**, which carries memory addresses between the CPU and memory, the **data bus**, which carries data between the CPU, memory, and I/O devices, and the **control bus**, which carries control signals between the CPU and other components.
 

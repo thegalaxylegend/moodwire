@@ -375,7 +375,7 @@ I, Ayush, make my final preparations for my [class](/blog/ancient-india-vedic-ag
 I, Ayush, wish myself good luck as I prepare for my exams. I am confident that I have prepared well and that I will achieve a good grade.
 
 #### Last Minute Revision
-I, Ayush, make a last minute revision of my notes and study materials to ensure that I am well-prepared for my exams. I review the key points and concepts related to the Industrial Revolution, and I practice MCQs to assess my knowledge and identify areas for improvement.
+I, Ayush, make a last minute [revision](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) of my notes and study materials to ensure that I am well-prepared for my exams. I review the key points and concepts related to the Industrial Revolution, and I practice MCQs to assess my knowledge and identify areas for improvement.
 
 By following this approach, I am confident that I can achieve a good grade in my exams.
 

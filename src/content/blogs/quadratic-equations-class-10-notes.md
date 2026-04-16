@@ -140,7 +140,7 @@ x = 2 - \sqrt{3}
 
 - **The Core Concept:** The core concept in quadratic equations that separates high scorers from the rest is the **discriminant**, $b^2 - 4ac$, which determines the nature of the roots of a quadratic equation $ax^2 + bx + c = 0$. 
 
-- **What 85% scorers do:** Most students (around 85% scorers) focus on simply solving quadratic equations using the quadratic formula: x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} without deeply understanding the implications of the discriminant.
+- **What 85% scorers do:** Most students (around 85% scorers) focus on simply solving quadratic [equations](/blog/pair-of-linear-equations-class-10-notes) using the quadratic formula: x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} without deeply understanding the implications of the discriminant.
 
  - **What 95% scorers do:** However, high scorers (95% scorers) understand that the discriminant, $b^2 - 4ac$, is key to quickly determining the nature of the roots without fully solving the equation. They can:
  * Identify if the roots are real and distinct ($b^2 - 4ac > 0$)
@@ -178,7 +178,7 @@ x = 2 - \sqrt{3}
  - {y} = {c} - \frac{{{b}^2}}{{4}{a}}$: Formula for y-coordinate of vertex
  - Key facts:
  - A quadratic equation has two roots
- - Roots can be real or complex
+ - Roots can be [real](/blog/real-numbers-class-10-notes) or complex
  - Graph of a quadratic equation is a parabola
  - Common mistakes:
  - Forgetting to simplify the expression under the square root

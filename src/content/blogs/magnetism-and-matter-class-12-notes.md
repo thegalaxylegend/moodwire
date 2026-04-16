@@ -65,7 +65,7 @@ In the [class](/blog/alternating-current-class-12-notes) 12 CBSE board exams, ma
 
 * **Numerical problems**: Calculating [magnetic](/blog/magnetic-effects-of-current-class-12-notes) field strengths, [magnetic](/blog/magnetic-effects-of-current-class-12-notes) flux, and induced EMFs.
 * **Theoretical questions**: Describing the properties of magnetic materials, explaining the principles of magnetic [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet), and discussing the applications of magnetism.
-* **Graph-based questions**: Analyzing and interpreting graphs related to magnetic fields, magnetic flux, and induced EMFs.
+* **Graph-based questions**: Analyzing and interpreting graphs related to [magnetic](/blog/magnetic-effects-of-current-class-12-notes) fields, [magnetic](/blog/magnetic-effects-of-current-class-12-notes) flux, and induced EMFs.
 
 To excel in these questions, it's crucial to develop a strong foundation in the concepts, formulas, and applications of magnetism and matter. With dedication and practice, you'll be well-prepared to tackle the challenges of this topic and achieve a high score in the exams.
 
@@ -158,7 +158,7 @@ To further illustrate the concept of magnetization, consider the following compa
 
 ## <a id="what-is-ayushs-note-on-magnetism-and-matter"></a>What is Ayush's Note on Magnetism and Matter?
 
-Ayush's Note on Magnetism and Matter is a study material that explains the magnetic properties of materials. It includes magnetic field, magnetic induction, and magnetization. For Class 12 exam prep in 2026, the most important aspect is understanding the behavior of different materials like diamagnetic, paramagnetic, and ferromagnetic substances under the influence of a magnetic field. 
+Ayush's Note on Magnetism and Matter is a study material that explains the magnetic properties of materials. It includes magnetic field, magnetic induction, and magnetization. For [class](/blog/alternating-current-class-12-notes) 12 exam prep in 2026, the most important aspect is understanding the behavior of different materials like diamagnetic, paramagnetic, and ferromagnetic substances under the influence of a magnetic field. 
 
 Magnetism is a fundamental concept in physics that arises due to the interaction between moving charges. The magnetic field is a vector field that surrounds magnetized materials and [current](/blog/alternating-current-class-12-notes)-carrying conductors. The strength and direction of the magnetic field can be determined using the $B = \frac{mu_0 I}{2 pi r}$ formula for a long straight wire, where $B$ is the magnetic field, $mu_0$ is the permeability of free space, $I$ is the current, and $r$ is the distance from the wire.
 

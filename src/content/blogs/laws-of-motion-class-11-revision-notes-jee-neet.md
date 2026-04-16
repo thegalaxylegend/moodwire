@@ -184,7 +184,7 @@ Consider a vehicle of mass **m** on a road banked at angle **θ** with coefficie
 
 ## <a id="conclusion"></a>Conclusion
 
-Newton’s Laws of Motion provide the fundamental rules of the game of Physics. From the simple friction between our shoes and the ground to the complex banking of high-speed racing tracks, these principles govern every interaction in the physical world. Master the derivation of the Banking of Roads and the logic of Impulse, and you will find that the most complex mechanics problems resolve into simple balances of force. Stay balanced, stay in motion, and remember: Every action counts!
+Newton’s Laws of [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) provide the fundamental rules of the game of Physics. From the simple friction between our shoes and the ground to the complex banking of high-speed racing tracks, these principles govern every interaction in the physical world. Master the derivation of the Banking of Roads and the logic of Impulse, and you will find that the most complex mechanics problems resolve into simple balances of force. Stay balanced, stay in [motion](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet), and remember: Every action counts!
 
 ---
 **Reference:** [MIT OpenCourseWare: Newton’s Laws](https://ocw.mit.edu/courses/physics/)

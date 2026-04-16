@@ -203,7 +203,7 @@ The Chain Rule can be applied to various types of functions, including polynomia
 ## <a id="what-is-the-key-shortcut-or-trick-for-limits-and-derivatives"></a>What is the key Shortcut or Trick for Limits and Derivatives?
 
 
-What is the key Shortcut or Trick for Limits and Derivatives? is a mathematical technique to simplify complex problems. It includes understanding of algebraic manipulations, trigonometric functions, and geometric interpretations. For Class 11 exam prep in 2026, the most important aspect is to apply these techniques to solve problems efficiently.
+What is the key Shortcut or Trick for Limits and Derivatives? is a mathematical technique to simplify complex problems. It includes understanding of algebraic manipulations, trigonometric functions, and geometric interpretations. For [class](/blog/digital-logic-class-11-revision-notes-gate-boards) 11 exam prep in 2026, the most important aspect is to apply these techniques to solve problems efficiently.
 
 To solve limits and derivatives problems, one must first understand the concept of a limit, which is defined as the value that a function approaches as the input gets arbitrarily close to a certain point. The key shortcut for solving limit problems is to use the following techniques: factoring, canceling, and L'Hospital's rule. 
 

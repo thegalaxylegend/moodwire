@@ -121,7 +121,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/chemical-bonding-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Alcohols, Phenols and Ethers Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/alcohols-phenols-and-ethers-class-12-notes)
 - 📖 [Chemical Kinetics Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/chemical-kinetics-class-12-notes)

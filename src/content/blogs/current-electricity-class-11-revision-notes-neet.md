@@ -54,7 +54,7 @@ practice_link: "/class-11/biology/current-electricity-class-11-revision-notes-ne
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
 > - **Ohm's Law:** V = IR. R = (m/NE²τ) (L/A). Ρ = m/NE²τ.
-> - **Drift Velocity:** v’d = (EE/m) τ. I = nave_d.
+> - **Drift Velocity:** v’d = (EE/m) τ. I = nave’d.
 > - **Kirchhoff's Laws:** 
 >   - KCL: Σ I = 0 (Charge conservation).
 >   - kV: Σ V = 0 (Energy conservation).
@@ -102,7 +102,7 @@ Where **τ** (tau) is the **Relaxation Time**—the average time between two suc
 2.  Total charge **Q = name**.
 3.  Time for electrons to cross length **L**: **t = L / v’d**.
 4.  **I = Q / t = (name) / (L / v’d)**.
-5.  **I = nave_d**. (Proven)
+5.  **I = nave’d**. (Proven)
 
 ---
 
@@ -114,7 +114,7 @@ Where **τ** (tau) is the **Relaxation Time**—the average time between two suc
 **[theorem](/blog/binomial-theorem-class-11-revision-notes-jee):** For constant physical conditions (like temperature), the current flow is directly proportional to the potential difference. **V = IR**.
 
 ### <a id="i-derivation-of-ohmic-resistance-r"></a>I. Derivation of Ohmic Resistance (R)
-1.  We have **I = nave_d**.
+1.  We have **I = nave’d**.
 2.  Substitute **v’d = (EE / m) τ**:
     - **I = nae [(EE / m) τ] = (nae²τ / m) E**.
 3.  Since **E = V / L**:
@@ -159,12 +159,12 @@ Where **τ** (tau) is the **Relaxation Time**—the average time between two suc
 
 Used for solving [complex](/blog/complex-numbers-class-11-revision-notes-jee-neet) electrical networks where Ohm’s Law alone is insufficient.
 
-### <a id="i-Kirchhoff-first-law-kcl-junction-rule"></a>I. Kirchhoff’s First Law (KCL - Junction Rule)
+### <a id="i-Kirchhoff-first-law-KCL-junction-rule"></a>I. Kirchhoff’s First Law (KCL - Junction Rule)
 **statement:** The algebraic sum of currents meeting at a junction is zero.
 **Σ I = 0**.
 - Based on the **Conservation of Charge**.
 
-### <a id="ii-Kirchhoff-second-law-kvl-loop-rule"></a>II. Kirchhoff’s Second Law (KVL - Loop Rule)
+### <a id="ii-Kirchhoff-second-law-kV-loop-rule"></a>II. Kirchhoff’s Second Law (KVL - Loop Rule)
 **statement:** In a closed loop, the algebraic sum of products of current and resistance is equal to the algebraic sum of Emfs.
 **Σ IR = Σ ε**.
 - Based on the **Conservation of Energy**.
@@ -209,7 +209,7 @@ A voltmeter draws some current from the circuit, thereby measuring a terminal vo
 ## <a id="comprehensive-exam-strategy-Qaeda"></a>Comprehensive Exam Strategy (Q&A)
 
 **Q1: How does the drift velocity change if the cross-sectional area of a wire is doubled for a constant current?**
-**Answer:** From **I = nave_d**, if **I** is constant, then **v’d ∝ 1/A**. If the area is doubled, the drift velocity becomes **half**.
+**Answer:** From **I = nave’d**, if **I** is constant, then **v’d ∝ 1/A**. If the area is doubled, the drift velocity becomes **half**.
 
 **Q2: What is the significance of the relaxation time (τ)?**
 **Answer:** Relaxation time represents the average time an electron can accelerate before being scattered by a lattice ion. It is the fundamental microscopic link between temperature and resistance. A smaller **τ** means more frequent collisions and higher resistivity.

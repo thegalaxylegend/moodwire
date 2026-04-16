@@ -90,7 +90,7 @@ Nucleic [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes) are
 The general formula for nucleic acids is $(C_oh_in_ZO_WP_v)_no, where ex, by, oz, we, and DVD are integers, and and is the number of nucleotides. Nucleic acids are classified into two main types: DNA (deoxyribonucleic acid) and RNA (ribonucleic acid).
 
 ### <a id="shortcut-formula trick"></a>Shortcut Formula/Trick
-To remember the types of biomolecules, use the acronym "CLIP": Carbohydrates, Lipids, Nucleic acids, and Proteins.
+To remember the types of biomolecules, use the acronym "CLIP": Carbohydrates, Lipids, Nucleic [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes), and Proteins.
 
 ### <a id="trap-questions exceptions"></a>Trap Questions/Exceptions
 * Wrong answer: Biomolecules are only composed of carbon, hydrogen, and oxygen.

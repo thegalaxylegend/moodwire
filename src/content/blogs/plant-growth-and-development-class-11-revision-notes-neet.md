@@ -138,7 +138,7 @@ D) Promote fruit ripening
 
 Answer: B) Promote cell elongation
 
-2. Which plant hormone is responsible for promoting seed germination and stem elongation?
+2. Which [plant](/blog/plant-kingdom-class-11-revision-notes-neet) hormone is responsible for promoting seed germination and stem elongation?
 A) Auxin
 B) Gibberellin
 C) Cytokinin
@@ -213,7 +213,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
 - 📖 [Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)

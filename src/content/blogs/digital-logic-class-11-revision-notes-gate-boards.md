@@ -66,7 +66,7 @@ This formula illustrates the exponential relationship between the number of bina
 
 We will also explore the concept of Karnaugh maps, which are used to simplify digital circuits. The $K$-map is a graphical representation of a digital circuit, and it can be used to identify patterns and simplify the circuit. 
 
-As we delve deeper into the world of Digital Logic, we will encounter numerous concepts and techniques that will challenge our thinking and broaden our understanding of the digital world. With persistence and practice, we can develop a deep understanding of Digital Logic and achieve success in the Class 11 exam. 
+As we delve deeper into the world of Digital Logic, we will encounter numerous concepts and techniques that will challenge our thinking and broaden our understanding of the digital world. With persistence and practice, we can develop a deep understanding of Digital Logic and achieve success in the [class](/blog/computer-organization-class-11-notes) 11 exam. 
 
 The $n$-bit binary counter is a classic example of how Digital Logic can be used to build complex digital circuits. The counter can count up to $2^n - 1$, and it is a fundamental component of many digital systems. 
 
@@ -565,3 +565,16 @@ Continue your revision with these related guides:
 - 📖 [Algorithms: Design Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-design-class-11-revision-notes-gate-boards)
 - 📖 [Computer Organization Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/computer-organization-class-11-notes)
 - 📖 [Data Structures: Non-Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards)
+
+## 🔁 Last 5 Minutes Box
+
+* **Number Systems**: Binary (base 2), Octal (base 8), Decimal (base 10), Hexadecimal (base 16)
+   * **Logic Gates**: AND, OR, NOT, NAND, NOR, XOR, XNOR
+   * **Boolean Algebra Laws**: Commutative, Associative, Distributive, De Morgan's
+   * **Karnaugh Maps**: 2-variable, 3-variable, 4-variable
+   * **Combinational Circuits**: Half Adder, Full Adder, Half Subtractor, Full Subtractor
+   * **Sequential Circuits**: SR Flip Flop, JK Flip Flop, T Flip Flop, D Flip Flop
+   * **Digital Code Converters**: Binary to Gray, Gray to Binary, BCD to Binary, Binary to BCD
+   * **Flip Flop Conversions**: SR to JK, SR to T, JK to T, D to JK
+   * **Counters**: Asynchronous, Synchronous, Up-Counter, Down-Counter
+   * **Shift Registers**: Serial In-Parallel Out (SIPO), Parallel In-Serial Out (PISO), Serial In-Serial Out (SISO)

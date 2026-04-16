@@ -140,7 +140,7 @@ The formula for permutations is $nPr = \frac{n!}{(n-r)!}$, where $n$ is the tota
 
 On the other hand, the formula for combinations is $nCr = \frac{n!}{r!(n-r)!}$, where $n$ is the total number of objects and $r$ is the number of objects being chosen. Using the same example as above, the number of combinations is $5C3 = \frac{5!}{3!(5-3)!} = \frac{5!}{3!2!} = \frac{5 \times 4 \times 3 \times 2 \times 1}{(3 \times 2 \times 1)(2 \times 1)} = 10$.
 
-To further illustrate the difference between permutations and combinations, consider the following example: suppose we have a set of 3 objects, {a, b, c}, and we want to choose 2 of them. The permutations of 2 objects chosen from a set of 3 are {ab, ac, ba, bc, ca, cb}, while the combinations are {ab, ac, bc}. 
+To further illustrate the difference between [permutations](/blog/permutations-combinations-class-11-revision-notes-jee) and combinations, consider the following example: suppose we have a set of 3 objects, {a, b, c}, and we want to choose 2 of them. The [permutations](/blog/permutations-combinations-class-11-revision-notes-jee) of 2 objects chosen from a set of 3 are {ab, ac, ba, bc, ca, cb}, while the combinations are {ab, ac, bc}. 
 
 In addition to understanding the formulas and concepts, it is also important to practice solving problems involving permutations and combinations. This can help to build confidence and fluency with the material, and can also help to identify areas where additional review is needed. 
 

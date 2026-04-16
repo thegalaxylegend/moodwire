@@ -174,12 +174,12 @@ Continue your [revision](/blog/ancient-india-vedic-age-class-11-revision-notes-j
 
 ## 🔁 Last 5 Minutes Box
 
-* **Geographical Extent**: Indus Valley Civilization spread across modern-day Pakistan, northwestern [india](/blog/ancient-india-vedic-age-class-11-revision-notes-jee), and parts of Afghanistan.
+* **Geographical Extent**: Indus Valley Civilization spread across modern-day Pakistan, northwestern [India](/blog/ancient-india-vedic-age-class-11-revision-notes-jee), and parts of Afghanistan.
 * **Major Sites**: Mohenjo-daro, Harappa, Lethal, Kalimantan, and Rakhigarhi.
 * **Period**: 3300 BCE - 1300 BCE.
-* **Distinct Features**: Sophisticated urban planning, advanced drainage system, and well-planned architecture.
+* **Distinct Features**: Sophisticated urban planning, advanced drainage system, and well-planned [architecture](/blog/art-culture-architecture-class-11-revision-notes-jee-neet).
 * **Economy**: Based on agriculture, trade, and commerce.
 * **Notable Inventions**: Weights and measures, metalworking, and writing system (still undeciphered).
 * **Social Structure**: Possibly egalitarian, with no clear evidence of a strong monarch or social hierarchy.
 * **Decline**: Due to climate change, drought, or invasions.
-* **Legacy**: Influence on the Vedic period and the development of subsequent Indian civilizations.
+* **Legacy**: Influence on the [vedic](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) period and the development of subsequent Indian civilizations.

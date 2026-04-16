@@ -230,7 +230,7 @@ I will continue to review and practice the material to ensure I am well-prepared
 I am confident that I will do well, and I will continue to work hard to achieve my goals. 
 The **Core Concepts** section has given me a solid understanding of the subject, and I will make sure to build on this foundation. 
 I will continue to review and practice the material to ensure I am well-prepared for my exam. 
-The **Formulae and Tables** section has provided me with a quick reference guide to the essential equations and tables in Geomorphology. 
+The **Formulae and Tables** section has provided me with a [quick](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) reference guide to the essential equations and tables in Geomorphology. 
 I will make sure to use this guide to help me solve problems and answer questions. 
 The **MCQs** section has provided me with a chance to practice my knowledge and identify areas where I need to improve. 
 I will continue to practice and review the material to ensure I am well-prepared for my exam. 
@@ -258,9 +258,9 @@ The **Formulae and Tables** section has provided me with a quick reference guide
 I will make sure to use this guide to help me solve problems and answer questions. 
 The **MCQs** section has provided me with a chance to practice my knowledge and identify areas where I need to improve. 
 I will continue to practice and review the material to ensure I am well-prepared for my exam. 
-The **JEE/NEET data** section has provided me with information about the importance of Geomorphology in the JEE and NEET exams. 
+The **JEE/[neet](/blog/world-history-industrial-revolution-class-11-revision-notes-jee-neet) data** section has provided me with information about the importance of Geomorphology in the JEE and [neet](/blog/world-history-industrial-revolution-class-11-revision-notes-jee-neet) exams. 
 I will make sure to focus on the key concepts and formulae to excel in the subject. 
-Overall, this quick revision and recap has been extremely helpful, and I am confident that I will do well in my exam. 
+Overall, this quick [revision](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) and recap has been extremely helpful, and I am confident that I will do well in my exam. 
 I will continue to work hard to achieve my goals. 
 Using LaTeX has made the equations and tables look neat and easy to read, and I will continue to use it to help me study. 
 The **Key Terms** section has provided me with a quick reference guide to the essential vocabulary in Geomorphology. 

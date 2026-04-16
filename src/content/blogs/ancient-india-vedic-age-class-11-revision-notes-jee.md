@@ -155,7 +155,7 @@ Continue your [revision](/blog/art-culture-architecture-class-11-revision-notes-
 ## 🪤 The 5 Mistakes That Cost Marks
 
 * The Vedic Period is often incorrectly assumed to have begun in 1500 BCE, whereas the correct timeline starts from 1500 BCE to 500 BCE, divided into two sub-periods: the Early Vedic Period (1500 BCE - 1000 BCE) and the Late Vedic Period (1000 BCE - 500 BCE).
-* Students often confuse the terms 'Veda' and 'Vedic Period'. While the Vedas are ancient Indian texts, the Vedic Period refers to the historical era during which these texts were composed.
+* Students often confuse the terms 'Veda' and 'Vedic Period'. While the Vedas are [ancient](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) Indian texts, the Vedic Period refers to the historical era during which these texts were composed.
 * A common mistake is attributing the compilation of the Vedas to a single author or group of authors. In reality, the Vedas were compiled by multiple sages and seers over a period of time.
 * Many students incorrectly believe that the Vedic society was matriarchal due to the mention of female sages and priests. However, the Vedic society was actually patriarchal, with men holding positions of authority.
 * The Vedic Period is sometimes misleadingly thought to be a time of primitive or 'dark age' in Indian history. In reality, it was a period of significant cultural, philosophical, and literary advancements that laid the foundation for later Indian civilizations.

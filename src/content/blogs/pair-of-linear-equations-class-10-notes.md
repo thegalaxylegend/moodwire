@@ -19,7 +19,7 @@ practice_link: "/class-11/mathematics/pair-of-linear-equations-class-10-notes"
 - [linear](/blog/linear-programming-class-12-notes) Equations in Two Variables: Finding the solution to a pair of [linear](/blog/linear-programming-class-12-notes) equations by graphical method — frequently
 - Algebra: Solving a system of [linear](/blog/linear-equations-in-two-variables-class-9-notes) equations with a unique solution, no solution, or infinitely many solutions — always
 - [coordinate](/blog/coordinate-geometry-class-10-notes) Geometry: Plotting lines on a graph and finding the point of intersection — frequently
-- Linear Equations: Determining the nature of the solution (unique, infinite, or no solution) of a pair of linear equations — always
+- [linear](/blog/linear-equations-in-one-variable-class-8-notes) Equations: Determining the nature of the solution (unique, infinite, or no solution) of a pair of [linear](/blog/linear-equations-in-one-variable-class-8-notes) equations — always
 - Linear Equations: Using the cross-multiplication method to solve a pair of linear equations — frequently
 - Algebra: Identifying parallel lines, perpendicular lines, and coincident lines based on their equations — always
 - Linear Equations: Finding the point of intersection between two lines given their equations — frequently

@@ -129,7 +129,7 @@ Sometimes we need to compare two different [series](/blog/sequences-series-class
 ### <a id="coefficient-of-variation-cv"></a>Coefficient of Variation (C.V.):
 To compare dispersion between two sets with different means or units, we use C.V.
 - **Formula:** $C.V. = \frac{\sigma}{\bar{x}} \times 100$
-- **Consistency Rule:** The series with a **lower C.V.** is said to be more stable or consistent.
+- **Consistency Rule:** The [series](/blog/sequences-series-class-11-revision-notes-jee) with a **lower C.V.** is said to be more stable or consistent.
 
 ---
 

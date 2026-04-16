@@ -191,7 +191,7 @@ The excretory system is a complex system that involves the [coordination](/blog/
 The excretory system is essential for maintaining homeostasis in the body, and for overall health and well-being. Understanding the core concepts, formulae, and JEE/[neet](/blog/biological-classification-class-11-revision-notes-neet) data relevant to the excretory system is essential for success in the JEE and [neet](/blog/biological-classification-class-11-revision-notes-neet) exams, and for a career in medicine or a related field.
 
 ### <a id="jeeneet-data-cont"></a>JEE/NEET Data Cont.
-The following JEE/NEET data is relevant to the excretory system:
+The following JEE/[neet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) data is relevant to the excretory system:
 
 * **Kidney function**: The kidneys filter approximately 180 liters of blood per day, and produce approximately 1.5 liters of urine.
 * **Liver function**: The liver detoxifies approximately 1 liter of blood per minute.

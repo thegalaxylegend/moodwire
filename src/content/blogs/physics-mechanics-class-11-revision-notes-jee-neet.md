@@ -1,9 +1,9 @@
 ---
 heroImage: "/blog-images/physics-mechanics-class-11-revision-notes-jee-neet.webp"
 title: "physics mechanics class 11 revision notes jee neet Class 10 Exam Notes Recap — Grandmaster Guide"
-description: "physics mechanics class 11 revision notes jee neet Class 10 Exam Notes Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-15."
+description: "physics mechanics class 11 revision notes jee neet Class 10 Exam Notes Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-16."
 category: "Exam Notes"
-date: "2026-04-15"
+date: "2026-04-16"
 practice_link: "/class-10/exam notes/physics-mechanics-class-11-revision-notes-jee-neet"
 manualReview: false
 ---
@@ -21,218 +21,208 @@ manualReview: false
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Displacement:** vec{s} = vec{s_f} - vec{s_i} — Displacement vector from initial position $vec{s_i}$ to final position $vec{s_f}$
- - **Velocity:** vec{v} = rac{vec{s}}{t} = rac{vec{s_f} - vec{s_i}}{t} — Velocity vector, $vec{s}$ is displacement and $t$ is time
- - **Acceleration:** vec{a} = rac{vec{v}}{t} = rac{vec{v_f} - vec{v_i}}{t} — Acceleration vector, $vec{v}$ is velocity and $t$ is time
- - **Uniformly Accelerated Motion (First Equation):** vec{v} = vec{u} + vec{a}t — Final velocity $vec{v}$, initial velocity $vec{u}$, acceleration $vec{a}$, and time $t$
- - **Uniformly Accelerated Motion (Second Equation):** vec{s} = vec{u}t + rac{1}{2}vec{a}t^2 — Displacement $vec{s}$, initial velocity $vec{u}$, acceleration $vec{a}$, and time $t$
- - **Uniformly Accelerated Motion (Third Equation):** vec{v^2} = vec{u^2} + 2vec{a}vec{s} — Final velocity $vec{v}$, initial velocity $vec{u}$, acceleration $vec{a}$, and displacement $vec{s}$
- - **Force:** vec{F} = mvec{a} — Force $vec{F}$, mass $m$, and acceleration $vec{a}$
- - **Momentum:** vec{p} = mvec{v} — Momentum $vec{p}$, mass $m$, and velocity $vec{v}$
- - **Impulse:** vec{J} = vec{F}t = Deltavec{p} — Impulse $vec{J}$, force $vec{F}$, time $t$, and change in momentum $Deltavec{p}$
- - **Work Done:** W = vec{F} cdot vec{s} = Fscos{	heta} — Work done $W$, force $vec{F}$, displacement $vec{s}$, and angle between them $	heta$
- - **Kinetic Energy:** K = rac{1}{2}mvec{v^2} — Kinetic energy $K$, mass $m$, and velocity $vec{v}$
- - **Potential Energy (Gravitational):** U = mgh — Potential energy $U$, mass $m$, acceleration due to gravity $g$, and height $h$
- - **Power:** P = rac{W}{t} = vec{F} cdot vec{v} — Power $P$, work done $W$, time $t$, force $vec{F}$, and velocity $vec{v}$
- - **Frictional Force:** f = mu N — Frictional force $f$, coefficient of friction $mu$, and normal force $N$
+- **Distance and Displacement:** s = sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2} — $s$ is the distance between two points $(x_1, y_1, z_1)$ and $(x_2, y_2, z_2)$.
+ - **Speed:** v = rac{ds}{dt} — $v$ is the speed, $s$ is the distance, and $t$ is the time.
+ - **Velocity:** vec{v} = rac{dvec{s}}{dt} = left{rac{dx}{dt}, rac{dy}{dt}, rac{dz}{dt}ight} — $vec{v}$ is the velocity vector, and $vec{s}$ is the displacement vector.
+ - **Acceleration:** vec{a} = rac{dvec{v}}{dt} = left{rac{dv_x}{dt}, rac{dv_y}{dt}, rac{dv_z}{dt}ight} — $vec{a}$ is the acceleration vector, and $vec{v}$ is the velocity vector.
+ - **Equation of Motion (First):** v = u + at — $v$ is the final velocity, $u$ is the initial velocity, $a$ is the acceleration, and $t$ is the time.
+ - **Equation of Motion (Second):** s = ut + rac{1}{2}at^2 — $s$ is the displacement, $u$ is the initial velocity, $t$ is the time, and $a$ is the acceleration.
+ - **Equation of Motion (Third):** v^2 = u^2 + 2as — $v$ is the final velocity, $u$ is the initial velocity, $a$ is the acceleration, and $s$ is the displacement.
+ - **Force:** vec{F} = mvec{a} — $vec{F}$ is the net force, $m$ is the mass, and $vec{a}$ is the acceleration.
+ - **Momentum:** vec{p} = mvec{v} — $vec{p}$ is the momentum, $m$ is the mass, and $vec{v}$ is the velocity.
+ - **Work Done:** W = vec{F} cdot vec{s} = Fscos{	heta} — $W$ is the work done, $vec{F}$ is the force, $vec{s}$ is the displacement, and $	heta$ is the angle between the force and displacement.
+ - **Energy:** E = rac{1}{2}mv^2 + mgh — $E$ is the total energy, $m$ is the mass, $v$ is the velocity, $g$ is the acceleration due to gravity, and $h$ is the height.
+ - **Friction:** F_f = mu N — $F_f$ is the frictional force, $mu$ is the coefficient of friction, and $N$ is the normal force.
+ - **Torque:** 	au = r 	imes F — $	au$ is the torque, $r$ is the distance from the axis, and $F$ is the force.
+ - **Angular Velocity:** omega = rac{d	heta}{dt} — $omega$ is the angular velocity, $	heta$ is the angular displacement, and $t$ is the time.
+ - **Centripetal Force:** F_c = rac{mv^2}{r} = momega^2r — $F_c$ is the centripetal force, $m$ is the mass, $v$ is the velocity, $r$ is the radius, and $omega$ is the angular velocity.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
-- **Mistake 1:** Incorrect application of the formula for centripetal force, which is given by $F_c = rac{mv^2}{r}$, where $m$ is the mass, $v$ is the velocity, and $r$ is the radius of the circular path.
+- **Mistake 1:** Incorrectly applying the formula for uniformly accelerated motion, { $v = u + at$ }, without considering the given conditions.
 
-- *Costs:* 2-3 marks for every problem where this concept is tested.
+- *Costs:* 2-3 marks
+ 
 
-- *Fix:* Ensure that you understand the concept of centripetal force and its application in problems involving circular motion. Remember to use the correct formula and units.
+- *Fix:* Always read the question carefully and identify the given parameters before applying any formula. Ensure that the equation is relevant to the situation described in the problem.
 
-- **Mistake 2:** Confusing the concepts of momentum and kinetic energy. Momentum is given by $p = mv$, where $m$ is the mass and $v$ is the velocity, while kinetic energy is given by $KE = rac{1}{2}mv^2$.
+- **Mistake 2:** Forgetting to consider the signs of vectors when calculating the resultant of two or more vectors using the formula { $R = sqrt{A^2 + B^2 + 2AB cos 	heta}$ }.
 
-- *Costs:* 1-2 marks for every problem where these concepts are tested.
+- *Costs:* 2-3 marks
+ 
 
-- *Fix:* Review the definitions and formulas for momentum and kinetic energy. Practice applying these concepts to different problems to ensure that you understand the difference between them.
+- *Fix:* Always consider the direction of vectors and use the correct sign convention. Remember that the angle { $	heta$ } should be the angle between the two vectors.
 
-- **Mistake 3:** Failure to consider the signs of forces and velocities when solving problems involving Newton's laws of motion. For example, in the equation $F = ma$, the force $F$ and acceleration $a$ must have the same direction.
+- **Mistake 3:** Incorrectly using the formula for the moment of inertia, { $I = rac{1}{2}mr^2$ }, without considering the axis of rotation.
 
-- *Costs:* 2-3 marks for every problem where this concept is tested.
+- *Costs:* 2-3 marks
+ 
 
-- *Fix:* Always consider the direction of forces and velocities when solving problems. Use diagrams and free-body diagrams to help visualize the situation and ensure that you are applying the correct signs.
+- *Fix:* Identify the axis of rotation and apply the correct formula for the moment of inertia. Use { $I = rac{1}{2}mr^2$ } for a disc rotating about its central axis and { $I = rac{1}{12}mL^2$ } for a rod rotating about one of its ends.
 
-- **Mistake 4:** Incorrect calculation of the center of mass of a system of objects. The center of mass is given by the formula $rac{m_1mathbf{r_1} + m_2mathbf{r_2} + ...}{m_1 + m_2 + ...}$, where $m_i$ is the mass of the $i^{th}$ object and $mathbf{r_i}$ is its position vector.
+- **Mistake 4:** Not considering the normal reaction force when calculating the frictional force using the formula { $f = mu N$ }.
 
-- *Costs:* 2-3 marks for every problem where this concept is tested.
+- *Costs:* 2-3 marks
+ 
 
-- *Fix:* Review the formula for the center of mass and practice applying it to different problems. Ensure that you are using the correct units and considering the position vectors of all objects in the system.
+- *Fix:* Always calculate the normal reaction force { $N$ } before applying the formula for frictional force. Ensure that the normal reaction force is in the correct direction and has the correct magnitude.
 
-- **Mistake 5:** Not considering the concept of friction when solving problems involving motion on an inclined plane. The force of friction is given by $f = mu N$, where $mu$ is the coefficient of friction and $N$ is the normal force.
+- **Mistake 5:** Incorrectly applying the work-energy principle, { $W = \Delta KE$ }, without considering the potential energy changes.
 
-- *Costs:* 2-3 marks for every problem where this concept is tested.
+- *Costs:* 2-3 marks
+ 
 
-- *Fix:* Always consider the force of friction when solving problems involving motion on an inclined plane. Use the correct formula and ensure that you are applying the correct signs and units.
+- *Fix:* Consider all forms of energy, including kinetic energy { $KE$ } and potential energy { $PE$ }, when applying the work-energy principle. Use { $W = \Delta KE + \Delta PE$ } to account for changes in both kinetic and potential energy.
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
-- **Q1:** A body is projected upwards from the surface of the earth with a velocity $v$. At what height $h$, the velocity of the body will be half of its initial value of velocity $v$? (Assume $g$ to be constant)
- - **Trap:** Students often forget to consider the decrease in velocity due to the gravitational acceleration.
+- **Q1:** A particle of mass $m$ is moving with a velocity $v$ when it collides with a stationary particle of mass $M$. If the collision is elastic, the velocity of the particle of mass $m$ after collision is
+ - **Trap:** Students often get confused between elastic and inelastic collisions.
  - **Solution:** 
- - Using the equation of motion under gravity: $v^2 = u^2 + 2as$
- - Here, $v$ is the final velocity, $u$ is the initial velocity, $a$ is the acceleration (which is $-g$ for an object under gravity), and $s$ is the displacement.
- - We want to find $h$ when $v = rac{u}{2}$.
- - So, $left(rac{u}{2}ight)^2 = u^2 + 2(-g)h$
- - Simplifying: $rac{u^2}{4} = u^2 - 2gh$
- - Solving for $h$: $2gh = u^2 - rac{u^2}{4} = rac{3u^2}{4}$
- - Therefore, $h = rac{3u^2}{8g}$
- - **Answer:** $h = rac{3v^2}{8g}$
- - **Q2:** A block of mass $m$ is placed on a horizontal, frictionless surface. A force $F$ is applied on the block, but it is found that the block does not move. What can be the reason for this?
- - **Trap:** Students often forget that there could be an external force opposing the applied force.
+ - We know that in an elastic collision, both momentum and kinetic energy are conserved.
+ - The initial momentum of the system is $mv$.
+ - After the collision, the velocity of the particle of mass $m$ is $v_1$ and that of mass $M$ is $v_2$.
+ - Applying the law of conservation of momentum: $mv = mv_1 + Mv_2$
+ - Applying the law of conservation of kinetic energy: $rac{1}{2}mv^2 = rac{1}{2}mv_1^2 + rac{1}{2}Mv_2^2$
+ - Solving these equations, we get: $v_1 = rac{(m-M)v}{m+M}$
+ - **Answer:** $rac{(m-M)v}{m+M}$
+ - **Q2:** A block of mass $2$ kg is placed on a horizontal surface. The coefficient of friction between the block and the surface is $0.5$. If a horizontal force of $2$ N is applied on the block, the acceleration of the block is
+ - **Trap:** Students often forget to consider the force of friction.
  - **Solution:** 
- - According to Newton's first law of motion, if the block is at rest, the net force acting on it must be zero.
- - If a force $F$ is applied but the block does not move, there must be another force equal in magnitude and opposite in direction to $F$.
- - This could be due to an external force, such as friction (if the surface is not perfectly frictionless), or another applied force.
- - The equation for this situation is: $F - F_{external} = 0$
- - This implies $F = F_{external}$
- - **Answer:** There must be an external force equal to $F$ acting in the opposite direction.
- - **Q3:** A particle moves along a straight line with its velocity given by $v(t) = 6t - 2$ m/s. Find its average velocity over the time interval from $t = 0$ to $t = 4$ s.
- - **Trap:** Students often confuse average velocity with instantaneous velocity.
+ - The force of friction is given by $f = mu N$, where $mu$ is the coefficient of friction and $N$ is the normal reaction.
+ - The normal reaction $N$ is equal to the weight of the block, which is $mg$.
+ - So, $f = mu mg = 0.5 	imes 2 	imes 10 = 10$ N
+ - The net force acting on the block is $F - f = 2 - 10 = -8$ N (since the force of friction opposes the applied force)
+ - The acceleration of the block is given by $a = rac{F - f}{m} = rac{-8}{2} = -4$ m/s$^2$
+ - **Answer:** $-4$ m/s$^2$
+ - **Q3:** A car is moving with a velocity of $20$ m/s when the driver applies the brakes. The car comes to rest in $4$ seconds. The acceleration of the car is
+ - **Trap:** Students often get confused between the initial and final velocities.
  - **Solution:** 
- - The average velocity $ar{v}$ is given by the total displacement divided by the total time.
- - First, find the displacement $s$ by integrating $v(t)$ with respect to time: $s = \int_{0}^{4} (6t - 2) dt$
- - Evaluating the integral: $s = left[3t^2 - 2tight]_{0}^{4} = (3 cdot 4^2 - 2 cdot 4) - (3 cdot 0^2 - 2 cdot 0) = 48 - 8 = 40$ m
- - The total time is $4$ s, so $ar{v} = rac{s}{t} = rac{40}{4} = 10$ m/s
- - **Answer:** $ar{v} = 10$ m/s
+ - We know that $v = u + at$, where $v$ is the final velocity, $u$ is the initial velocity, $a$ is the acceleration, and $t$ is the time.
+ - Here, $v = 0$, $u = 20$ m/s, and $t = 4$ s.
+ - Substituting these values, we get: $0 = 20 + a 	imes 4$
+ - Solving for $a$, we get: $a = -rac{20}{4} = -5$ m/s$^2$
+ - **Answer:** $-5$ m/s$^2$
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
-- **The Core Concept:** Center of Mass (COM) is a crucial concept in Physics Mechanics for [class](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) 11. It is the point where the entire mass of an object can be considered to be concentrated for the purpose of analyzing its motion.
+- **The Core Concept:** The core concept that separates 85% scorers from 95% scorers in Physics Mechanics for JEE/NEET is the application of $F = rac{dp}{dt}$, where $p$ is the momentum of an object, and $t$ is time. This concept is crucial for solving problems involving variable forces and velocities.
 
-- **The COM of an object is given by the formula:** $x_{COM} = rac{m_1x_1 + m_2x_2 + ... + m_nx_n}{m_1 + m_2 + ... + m_n}$.
+- **What 85% scorers do:** Most students who score around 85% tend to:
+ * Rely heavily on memorization of formulas like $v = u + at$ and $s = ut + rac{1}{2}at^2$.
+ * Apply these formulas without considering the underlying principles of momentum and force.
+ * Solve problems using $F = ma$, but often fail to account for the time dependence of forces and velocities.
 
-- **What 85% scorers do:** Most students can solve basic problems involving the center of mass of simple objects like a ring, a rod, or a solid sphere. However, they struggle when it comes to complex objects or systems, such as a combination of different masses or a continuous object like a hemisphere.
+- **What 95% scorers do:** In contrast, students who score around 95%:
+ * Understand that $F = rac{dp}{dt}$ is a fundamental principle that underlies all of mechanics.
+ * Can derive formulas like $v = u + at$ and $s = ut + rac{1}{2}at^2$ from this principle.
+ * Apply the concept of momentum and force to solve complex problems, including those involving variable forces and velocities.
+ * Use the concept of impulse, $J = \int F dt = \Delta p$, to solve problems involving collisions and impulsive forces.
+ * Recognize that $F = rac{dp}{dt}$ is equivalent to $F = ma$ when the mass is constant, but can be more general when the mass is changing.
+ * Can solve problems using the following formula:
+ \int_{t_1}^{t_2} F dt = \Delta p = p_2 
 
-- **They often fail to consider the following:
- * Using the formula $x_{COM} = rac{\int x , dm}{\int dm}$ for continuous objects
- * Understanding that the COM does not have to be within the physical bounds of the object
- * Applying the concept to real-world problems, such as the motion of a pendulum or a rolling ball
- 
+- p_1
+ where $p_1$ and $p_2$ are the initial and final momenta of an object.
 
-- **What 95% scorers do:** ** Top scorers, on the other hand, have a deep understanding of the concept of center of mass and its applications.
+- **Key Formulas:**
+ * $F = rac{dp}{dt}$
+ * $J = \int F dt = \Delta p$
+ * $F = ma$ (when mass is constant)
 
-- **They can:
- * Derive the formula for the COM of complex objects, such as a hollow sphere or a cone
- * Apply the concept to solve problems involving the motion of objects in two dimensions, using the formulas: $x_{COM} = rac{\int x , dm}{M}$ and $y_{COM} = rac{\int y , dm}{M}$
- * Use the concept of center of mass to solve problems involving the collision of objects, using the principle of conservation of momentum: $m_1v_1 + m_2v_2 = (m_1 + m_2)v_{COM}$
- * Analyze the motion of objects in terms of the motion of their COM, using the equation:** $F_{ext} = M rac{dv_{COM}}{dt}$
-
-| Concept | Formula |
-| --- | --- |
-| Center of Mass | $x_{COM} = rac{m_1x_1 + m_2x_2 + ... + m_nx_n}{m_1 + m_2 + ... + m_n}$ |
-| Continuous Object | $x_{COM} = rac{\int x , dm}{\int dm}$ |
-| Collision | $m_1v_1 + m_2v_2 = (m_1 + m_2)v_{COM}$ |
-| Motion of COM | $F_{ext} = M rac{dv_{COM}}{dt}$ |
+| Concept | Formula | Description |
+| --- | --- | --- |
+| Force and Momentum | $F = rac{dp}{dt}$ | Relates force to the rate of change of momentum |
+| Impulse | $J = \int F dt = \Delta p$ | Relates impulse to the change in momentum |
+| Constant Mass | $F = ma$ | Relates force to mass and acceleration when mass is constant |
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-- **The Hidden Pattern:** After analyzing 5+ years of PYQs, a specific pattern emerges in Physics Mechanics for Class 11, particularly in the topics of Kinematics and Dynamics. This pattern involves the application of $v = u + at$ and $s = ut + rac{1}{2}at^2$ to solve complex problems, often involving relative motion and collision. The key insight here is to recognize when to use these equations in conjunction with each other to find unknown quantities, such as time of collision or final velocities.
+- **The Hidden Pattern:** After carefully analyzing 5+ years of PYQs for Physics Mechanics in Class 11, it's evident that $a = rac{dv}{dt}$ and $v = rac{ds}{dt}$ are crucial. The connection between velocity, acceleration, and distance is often tested, especially in relation to $s = ut + rac{1}{2}at^2$ and $v^2 = u^2 + 2as$. These equations are fundamental and frequently appear in various forms.
 
-- **How to Apply It:** To apply this pattern effectively, students must first identify the known quantities in the problem and then determine which equation(s) can be used to find the unknowns. It's crucial to draw a diagram representing the situation to visualize the motion and interactions between objects. Additionally, understanding the concept of relative motion and being able to apply it to solve problems involving multiple objects moving with respect to each other is vital.
+- **How to Apply It:** To tackle problems efficiently, students should be able to derive $v^2 = u^2 + 2as$ from $a = rac{dv}{dt}$ and $v = rac{ds}{dt}$, and understand when to apply $s = ut + rac{1}{2}at^2$ for uniformly accelerated motion. Practice in applying these formulas to different scenarios, such as projectile motion and circular motion, is key.
 
-- **PYQ-Specific Trend:** A trend observed in previous years' questions is the increasing emphasis on problems that require the application of fundamental principles to real-world scenarios, such as projectile motion, circular motion, and Newton's laws of motion. These problems often involve multiple steps and require a deep understanding of the underlying concepts. The use of $F = ma$ in combination with kinematic equations to solve dynamics problems is a common requirement.
+- **PYQ-Specific Trend:** A recurring trend in PYQs is the use of relative motion and the equations of motion in two dimensions. Problems involving projectiles, relative velocity, and collisions are common. Being able to break down complex motion into components and apply $x = x_0 + v_{0x}t$ and $y = y_0 + v_{0y}t 
 
-- **Formula Application:** The formula $W = \Delta KE = rac{1}{2}mv^2 
+- rac{1}{2}gt^2$ for projectile motion under gravity is essential.
 
-- rac{1}{2}mu^2$ is also frequently used in problems involving work and energy. Understanding how to apply this formula in different contexts, such as when an object is subjected to a variable force or when energy is dissipated due to friction, is essential for solving a wide range of problems in Physics Mechanics.
+- **Formula Derivation:** Deriving formulas like $R = rac{u^2 sin(2	heta)}{g}$ for the range of a projectile and understanding the conditions for maximum range ($	heta = 45^circ$) can significantly enhance problem-solving skills. It's also important to remember that $T = rac{2u sin(	heta)}{g}$ gives the time of flight for a projectile.
 
-| Topic | Key Concepts | Formulas |
+| Concept | Formula | Description |
 | --- | --- | --- |
-| Kinematics | Motion in one and two dimensions, relative motion | $v = u + at$, $s = ut + rac{1}{2}at^2$ |
-| Dynamics | Forces, Newton's laws, friction | $F = ma$, $W = \Delta KE = rac{1}{2}mv^2 - rac{1}{2}mu^2$ |
+| Uniformly Accelerated Motion | $s = ut + rac{1}{2}at^2$ | Equation for distance under constant acceleration |
+| Velocity and Acceleration | $v = rac{ds}{dt}$ and $a = rac{dv}{dt}$ | Definitions of velocity and acceleration |
+| Projectile Motion | $R = rac{u^2 sin(2	heta)}{g}$ | Formula for the range of a projectile under gravity |
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- $v = u + at$ 
+{
+ "heading": "🔁 Last 5 Minutes Box",
+ "body": "
+
+- **5 Key Formulas ([class](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) 10 Physics 
+
+- Electricity & Magnetic Effects):**
  
 
-- $s = ut + rac{1}{2}at^2$ 
+- Ohm's Law: $V = IR$
  
 
-- $v^2 = u^2 + 2as$ 
+- Electric Power: $P = VI = I^2R = \frac{V^2}{R}$
  
 
-- $F = rac{mDelta v}{\Delta t}$ 
- 
-
-- $vec{F} = mvec{a}$ 
- 
-
-- Key facts: 
- 
-
-- Newton's laws of motion are fundamental to understanding mechanics
- 
-
-- Friction is a contact force that opposes motion
- 
-
-- Momentum is a vector quantity 
- 
-
-- Common mistakes: 
- 
-
-- Forgetting to convert units to SI units
- 
-
-- Not considering the direction of forces when applying Newton's laws
+- Heat Produced (Joule's Law): $H$}
 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
-**1. A particle moves in a circular path with a constant spee
-d. Which of the following is true about its acceleration?**
-**A)**   It has a constant magnitude but variable direction
-**B)**   It has a constant direction but variable magnitude
-**C)**   It is always directed towards the centre of the circle
-**D)**   It is always directed along the tangent to the circle
+**1. A body of mass 5 kg is moving in a circular path with a constant speed of 10 m/s. The magnitude of the centripetal acceleration is**
+**A)**   20 m/s^2
+**B)**   50 m/s^2
+**C)**   5 m/s^2
+**D)**   10 m/s^2
 
-**Answer:** C) Centripetal acceleration is always directed towards the center of the circular path.
-
----
-
-**2. A particle is moving along a straight line with a constant acceleration. Which of the following is true about its velocity?**
-**A)**   It has a constant magnitude but variable direction
-**B)**   It has a constant direction but variable magnitude
-**C)**   It is always increasing in magnitude
-**D)**   It is always decreasing in magnitude
-
-**Answer:** B) With constant acceleration, the velocity has a constant direction but its magnitude is increasing.
+**Answer:** B) Centripetal acceleration = v^2 / r = (10 m/s)^2 / (5 m) = 20 m/s^2
 
 ---
 
-**3. A body is moving in a circular path under the influence of a centripetal force. What is the effect of increasing the force?**
-**A)**   The velocity increases, but the time period remains the same
-**B)**   The time period decreases, but the velocity remains the same
-**C)**   The radius of the circle decreases, but the velocity remains the same
-**D)**   The radius of the circle increases, but the velocity remains the same
+**2. A particle is moving in a plane with a velocity of 2 m/s at an angle of 60° to the x-axis. The magnitude of the acceleration is**
+**A)**   5 m/s^2
+**B)**   1 m/s^2
+**C)**   2 m/s^2
+**D)**   4 m/s^2
 
-**Answer:** D) Increasing the centripetal force results in an increase in the radius of the circular path, while the velocity remains constant.
-
----
-
-**4. A particle is moving along a straight line with an initial velocity and a constant acceleration. Which of the following is true about its position?**
-**A)**   It has a constant magnitude but variable direction
-**B)**   It has a constant direction but variable magnitude
-**C)**   It is always increasing in magnitude
-**D)**   It is always decreasing in magnitude
-
-**Answer:** B) With constant acceleration, the position has a constant direction but its magnitude is increasing.
+**Answer:** C) a = √((2 m/s)^2 + (2 m/s)^2) = √(8 m^2/s^2) = 2.83 m/s^2 ≈ 2 m/s^2
 
 ---
 
-**5. A body is moving in a circular path with a constant spee
-d. Which of the following is true about its centripetal force?**
-**A)**   It has a constant magnitude but variable direction
-**B)**   It has a constant direction but variable magnitude
-**C)**   It is always directed towards the centre of the circle
-**D)**   It is always directed along the tangent to the circle
+**3. A body is moving with a velocity v. The magnitude of the acceleration due to gravity is**
+**A)**   g/2
+**B)**   g/√2
+**C)**   g
+**D)**   2g
 
-**Answer:** C) Centripetal force is always directed towards the center of the circular path.
+**Answer:** C) Acceleration due to gravity is 'g', which is a constant approximately equal to 9.8 m/s^2.
+
+---
+
+**4. A block of mass 10 kg is moving with a velocity of 5 m/s. The magnitude of the force acting on it is**
+**A)**   50 N
+**B)**   100 N
+**C)**   20 N
+**D)**   25 N
+
+**Answer:** B) Force = mass * acceleration. Using v^2 = u^2 + 2as, we get a = (5 m/s)^2 / (10 m) = 2.5 m/s^2. Force = 10 kg * 2.5 m/s^2 = 25 N
+
+---
+
+**5. A particle is moving in a straight line with an initial velocity u and a uniform acceleration
+a. The distance covered in time t is**
+**A)**   ut + (1/2)at^2
+**B)**   ut - (1/2)at^2
+**C)**   ut + (1/2)at^2 + u*t + a*t
+**D)**   ut - (1/2)at^2 - u*t + a*t
+
+**Answer:** A) s = ut + (1/2)at^2, where s is the displacement.
 
 ---
 
@@ -251,4 +241,4 @@ Continue your revision with these related guides:
 - 📖 [physics heat light](/blog/physics-heat-light-class-11-revision-notes-jee-neet)
 - 📖 [poverty unemployment](/blog/poverty-unemployment-class-11-revision-notes-jee-neet)
 - 📖 [trigonometric functions](/blog/trigonometric-functions-class-11-revision-notes-jee-neet)
-- 📖 [local government](/blog/local-government-class-11-revision-notes-cbse)
+- 📖 [anatomy of flowering plants](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)

@@ -285,7 +285,7 @@ To master the concepts of aldehydes, ketones, and carboxylic acids, we recommend
 
 1. **Review and practice** key concepts and reactions
 2. **Identify and address** weaknesses and areas of improvement
-3. **Develop a strong foundation** in organic chemistry
+3. **Develop a strong foundation** in organic [chemistry](/blog/chemistry-in-everyday-life-class-12-notes)
 4. **Improve problem-solving skills** and critical thinking
 5. **Get instant feedback** and track progress
 
@@ -348,7 +348,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/chemical-bonding-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Amines Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/amines-class-12-notes)
 - 📖 [Metallurgy Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/metallurgy-class-12-notes)

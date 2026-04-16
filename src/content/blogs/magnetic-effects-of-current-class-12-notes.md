@@ -65,7 +65,7 @@ By mastering these concepts and formulas, you'll be well-equipped to tackle the 
 * **Ampere's Law** and its applications
 * **Biot-Savart Law** and its limitations
 * **Lorentz Force Equation** and its significance
-* **Torque on a Current Loop** and its relevance to real-world scenarios
+* **Torque on a [current](/blog/alternating-current-class-12-notes) Loop** and its relevance to real-world scenarios
 * **Magnetic Moment** and **Magnetic [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)**
 
 **Common Mistakes to Avoid:**
@@ -203,7 +203,7 @@ Ayush's Note on Magnetic Effects of Current is a study guide that outlines the f
 | --- | --- | --- |
 | Biot-Savart Law | Calculates magnetic field due to a small current element | Straight wires, circular loops, solenoids |
 | Ampere's Law | Relates magnetic field around a closed loop to enclosed current | Long, straight solenoids, toroids |
-| Lorentz Force Equation | Describes force on a moving charge in electric and magnetic fields | Charged particles in magnetic fields, Hall effect |
+| Lorentz Force Equation | Describes force on a [moving](/blog/moving-charges-magnetism-class-11-revision-notes-neet) charge in electric and magnetic fields | Charged particles in magnetic fields, Hall effect |
 
 
 ## <a id="what-is-the-difference-between-a-galvanometer-and-an-ammeter"></a>What is the Difference between a Galvanometer and an Ammeter?
@@ -214,7 +214,7 @@ A **galvanometer** is a sensitive instrument used to measure small electric curr
 
 On the other hand, an **ammeter** is used to measure larger electric currents. It is essentially a modified galvanometer that is designed to handle larger currents. An ammeter works on the same principle as a galvanometer but has a lower resistance and a higher current-carrying capacity. Ammeters are commonly used in applications where larger currents need to be measured, such as in industrial settings and power systems.
 
-The key difference between a galvanometer and an ammeter lies in their sensitivity and current-carrying capacity. A galvanometer is more sensitive and can measure smaller currents, whereas an ammeter is less sensitive and can handle larger currents. This difference is critical in various applications, and understanding it is essential for Class 12 exam prep.
+The key difference between a galvanometer and an ammeter lies in their sensitivity and current-carrying capacity. A galvanometer is more sensitive and can measure smaller currents, whereas an ammeter is less sensitive and can handle larger currents. This difference is critical in various applications, and understanding it is essential for [class](/blog/magnetism-and-matter-class-12-notes) 12 exam prep.
 
 Here's a student-centric tip: when solving problems related to galvanometers and ammeters, make sure to pay attention to the current range specified in the problem. If the current is small, a galvanometer is likely to be used, whereas if the current is large, an ammeter is likely to be used. Additionally, remember that an ammeter should always be connected in series with the circuit, whereas a galvanometer can be connected in parallel.
 

@@ -21,9 +21,9 @@ practice_link: "/class-11/mathematics/differential-equations-class-12-notes"
   - [🚀 Linear Differential Equations of Higher Order](#-linear-differential-equations-of-higher-order)
   - [📈 Application of Differential Equations](#-application-of-differential-equations)
   - [📊 Numerical Methods](#-numerical-methods)
-  - [🚀 Higher-Order Linear Differential Equations](#-higherorder-linear-differential-equations)
+  - [🚀 Higher-Order Linear Differential Equations](#-higher-order-linear-differential-equations)
 - [🪤 The 5 Trap Mistakes](#-the-5-trap-mistakes)
-  - [📝 Master the Test Center — Step-by-Step Learning](#-master-the-test-center-stepbystep-learning)
+  - [📝 Master the Test Center — Step-by-Step Learning](#-master-the-test-center-step-by-step-learning)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
   - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
 - [📚 Related Topics](#-related-topics)
@@ -36,99 +36,99 @@ practice_link: "/class-11/mathematics/differential-equations-class-12-notes"
   - [🚀 Linear Differential Equations of Higher Order](#-linear-differential-equations-of-higher-order)
   - [📈 Application of Differential Equations](#-[application](/blog/application-of-integrals-class-12-notes)-of-differential-equations)
   - [📊 Numerical Methods](#-numerical-methods)
-  - [🚀 Higher-Order Linear Differential Equations](#-higherorder-linear-differential-equations)
+  - [🚀 Higher-Order Linear Differential Equations](#-higher-order-linear-differential-equations)
 
-  - [📝 Master the Test Center — Step-by-Step Learning](#-master-the-test-center-stepbystep-learning)
+  - [📝 Master the Test Center — Step-by-Step Learning](#-master-the-test-center-step-by-step-learning)
 
 ### <a id="-derivation-of-formula"></a>🔍 Derivation of Formula
 
-- **Derivation of Separable Differential Equations:** \frac{dy}{dx} = \frac{f(x)}{g(y)} — To derive this formula, we start with a differential equation of the form $M(x, y)dx + N(x, y)dy = 0$. If $M$ and $N$ are functions of $x$ and $y$ respectively, then we can separate the variables: \frac{dy}{dx} = -\frac{M(x, y)}{N(x, y)} — This gives us the general form of a separable differential equation.
+- **Derivation of Separable Differential Equations:** \franc{dy}{dx} = \franc{f(x)}{g(y)} — To derive this formula, we start with a differential equation of the form KM(x, y)DX + N(x, y)Dy = 0$. If ME and AND are functions of ex and by respectively, then we can separate the variables: \franc{dy}{dx} = -\franc{M(x, y)}{N(x, y)} — This gives us the general form of a separable differential equation.
 - Key points:
   * Separate the variables to simplify the equation.
   * Integrate both sides to find the solution.
-- **Derivation of First-Order Linear Differential Equations:** \frac{dy}{dx} + P(x)y = Q(x) — To derive this formula, we start with a differential equation of the form $\frac{dy}{dx} = f(x, y)$. If $f(x, y)$ is a linear function of $y$, then we can write: \frac{dy}{dx} = -P(x)y + Q(x) — Rearranging this equation gives us the standard form of a first-order linear differential equation.
+- **Derivation of First-Order Linear Differential Equations:** \franc{dy}{dx} + P(x)y = Q(x) — To derive this formula, we start with a differential equation of the form $\franc{dy}{dx} = f(x, y)$. If of(x, y)$ is a linear function of by, then we can write: \franc{dy}{dx} = -P(x)y + Q(x) — Rearranging this equation gives us the standard form of a first-order linear differential equation.
 - Key points:
-  * Identify the linear function of $y$.
+  * Identify the linear function of by.
   * Rearrange the equation to standard form.
 
 ### <a id="-integrating-factor"></a>📝 Integrating Factor
 
-- **Derivation of Integrating Factor:** I.F. = e^$\int P(x) dx$ — To derive this formula, we start with a first-order linear differential equation: \frac{dy}{dx} + P(x)y = Q(x) — Multiplying both sides of this equation by the integrating factor $e^$\int P(x) dx, we get: e^$\int P(x) dx$\frac{dy}{dx} + e^$\int P(x) dx$P(x)y = e^$\int P(x) dx$Q(x) — The left-hand side of this equation is the derivative of $e^$\int P(x) dx$y$, so we can write: \frac{d}{dx}(e^$\int P(x) dx$y) = e^$\int P(x) dx$Q(x) — Integrating both sides of this equation with respect to $x$, we get: e^$\int P(x) dx$y = \int e^$\int P(x) dx$Q(x) dx + C — This gives us the general solution to a first-order linear differential equation.
+- **Derivation of Integrating Factor:** I.F. = e^$\INT P(x) DX — To derive this formula, we start with a first-order linear differential equation: \franc{dy}{dx} + P(x)y = Q(x) — Multiplying both sides of this equation by the integrating factor he^$\INT P(x) DX, we get: e^$\INT P(x) DX\franc{dy}{dx} + e^$\INT P(x) dx$P(x)y = e^$\INT P(x) dx$Q(x) — The left-hand side of this equation is the derivative of he^$\INT P(x) day, so we can write: \franc{d}{dx}(e^$\INT P(x) (suggestion limit reached)) = e^$\(suggestion limit reached) P(x) dx$Q(x) — Integrating both sides of this equation with respect to (suggestion limit reached), we get: e^$\(suggestion limit reached) P(x) (suggestion limit reached) = \(suggestion limit reached) e^$\(suggestion limit reached) P(x) dx$Q(x) (suggestion limit reached) + C — This gives us the general solution to a first-order linear differential equation.
 - Key steps:
   * Multiply by the integrating factor.
   * Integrate both sides.
-  * Solve for $y$.
+  * Solve for (suggestion limit reached).
 
 ### <a id="-homogeneous-differential-equations"></a>🌐 Homogeneous Differential Equations
 
-- **Definition of Homogeneous Differential Equations:** \frac{dy}{dx} = \frac{f(x, y)}{g(x, y)} — A homogeneous differential equation is one in which $f(x, y)$ and $g(x, y)$ are homogeneous functions of the same degree.
+- **Definition of Homogeneous Differential Equations:** \franc{dy}{dx} = \franc{f(x, y)}{g(x, y)} — A homogeneous differential equation is one in which of(x, y)$ and kg(x, y)$ are homogeneous functions of the same degree.
 - Examples:
-  * $\frac{dy}{dx} = \frac{x+y}{x-y}$
-  * $\frac{dy}{dx} = \frac{x^2+y^2}{x+y}$
-- **Solution of Homogeneous Differential Equations:** y = vx — We can solve a homogeneous differential equation by making the substitution $y = vx$, where $v$ is a function of $x$. This gives us: \frac{dy}{dx} = v + x\frac{dv}{dx} — Substituting this into the original differential equation, we get: v + x\frac{dv}{dx} = \frac{f(x, vx)}{g(x, vx)} — Simplifying this equation, we get: x\frac{dv}{dx} = \frac{f(x, vx)}{g(x, vx)} - v — Separating the variables, we get: \frac{dv}$\frac{f(x, vx)${g(x, vx)} - v} = \frac{dx}{x} — Integrating both sides of this equation, we get: \int \frac{dv}$\frac{f(x, vx)${g(x, vx)} - v} = \int \frac{dx}{x} — This gives us the general solution to a homogeneous differential equation.
+  * $\franc{dy}{dx} = \franc{x+y}{x-y}$
+  * $\franc{dy}{dx} = \franc{x^2+y^2}{x+y}$
+- **Solution of Homogeneous Differential Equations:** y = VX — We can solve a homogeneous differential equation by making the substitution by = VX, where DVD is a function of ex. This gives us: \franc{dy}{dx} = v + x\franc{dv}{dx} — Substituting this into the original differential equation, we get: v + x\franc{dv}{dx} = \franc{f(x, VX)}{g(x, VX)} — Simplifying this equation, we get: x\franc{dv}{dx} = \franc{f(x, VX)}{g(x, VX)} - v — Separating the variables, we get: \franc{dv}$\franc{f(x, VX)${g(x, VX)} - v} = \franc{dx}{x} — Integrating both sides of this equation, we get: \INT \(suggestion limit reached){dv}$\(suggestion limit reached){f(x, (suggestion limit reached))${g(x, (suggestion limit reached))} - v} = \(suggestion limit reached) \(suggestion limit reached){dx}{x} — This gives us the general solution to a homogeneous differential equation.
 - Key steps:
-  * Make the substitution $y = vx$.
+  * Make the substitution (suggestion limit reached) = (suggestion limit reached).
   * Substitute into the original equation.
   * Separate the variables and integrate.
 
 ### <a id="-exact-differential-equations"></a>📊 Exact Differential Equations
 
-- **Definition of Exact Differential Equations:** M(x, y)dx + N(x, y)dy = 0 — An exact differential equation is one in which $M(x, y)$ and $N(x, y)$ are functions of $x$ and $y$ such that: \frac{\partial M}{\partial y} = \frac{\partial N}{\partial x}
+- **Definition of Exact Differential Equations:** M(x, y)DX + N(x, y)Dy = 0 — An exact differential equation is one in which KM(x, y)$ and IN(x, y)$ are functions of ex and by such that: \franc{\partial M}{\partial y} = \franc{\partial N}{\partial x}
 - Examples:
-  * $ydx + xdy = 0$
-  * $xdx + ydy = 0$
-- **Solution of Exact Differential Equations:** f(x, y) = C — We can solve an exact differential equation by finding a function $f(x, y)$ such that: \frac{\partial f}{\partial x} = M(x, y) — and: \frac{\partial f}{\partial y} = N(x, y) — This gives us: df = M(x, y)dx + N(x, y)dy = 0 — Integrating this equation, we get: f(x, y) = C — This gives us the general solution to an exact differential equation.
+  * Hyde + ADY = 0$
+  * DX + yay = 0$
+- **Solution of Exact Differential Equations:** f(x, y) = C — We can solve an exact differential equation by finding a function of(x, y)$ such that: \franc{\partial f}{\partial x} = M(x, y) — and: \franc{\partial f}{\partial y} = N(x, y) — This gives us: DF = M(x, y)(suggestion limit reached) + N(x, y)(suggestion limit reached) = 0 — Integrating this equation, we get: f(x, y) = C — This gives us the general solution to an exact differential equation.
 - Key steps:
-  * Find a function $f(x, y)$ that satisfies the equation.
+  * Find a function (suggestion limit reached)(x, y)$ that satisfies the equation.
   * Integrate to find the general solution.
 
 ### <a id="-linear-differential-equations-of-higher-order"></a>🚀 Linear Differential Equations of Higher Order
 
-- **Definition of Linear Differential Equations of Higher Order:** \frac{d^n y}{dx^n} + P_1(x)\frac{d^{n-1} y}{dx^{n-1}} + \cdots + P_n(x)y = Q(x) — A linear differential equation of higher order is one in which the highest derivative of $y$ is of order $n$.
+- **Definition of Linear Differential Equations of Higher Order:** \franc{d^n y}{DX^n} + P_1(x)\franc{d^{n-1} y}{DX^{n-1}} + \dots + P_n(x)y = Q(x) — A linear differential equation of higher order is one in which the highest derivative of by is of order and.
 - Examples:
-  * $\frac{d^2y}{dx^2} + 2\frac{dy}{dx} + y = 0$
-  * $\frac{d^3y}{dx^3} + \frac{d^2y}{dx^2} + \frac{dy}{dx} + y = 0$
-- **Solution of Linear Differential Equations of Higher Order:** y = c_1y_1 + c_2y_2 + \cdots + c_ny_n — We can solve a linear differential equation of higher order by finding $n$ linearly independent solutions $y_1, y_2, \ldots, y_n$. The general solution is then given by: y = c_1y_1 + c_2y_2 + \cdots + c_ny_n — where $c_1, c_2, \ldots, c_n$ are arbitrary constants.
+  * $\franc{d^2y}{DX^2} + 2\franc{dy}{dx} + y = 0$
+  * $\franc{d^3y}{DX^3} + \franc{d^2y}{DX^2} + \franc{dy}{dx} + y = 0$
+- **Solution of Linear Differential Equations of Higher Order:** y = c_1y_1 + c_2y_2 + \dots + c_(suggestion limit reached)_n — We can solve a linear differential equation of higher order by finding (suggestion limit reached) linearly independent solutions (suggestion limit reached)_1, y_2, \(suggestion limit reached), y_(suggestion limit reached). The general solution is then given by: y = c_1y_1 + c_2y_2 + \dots + c_NY_n — where BC_1, c_2, \lots, c_no are arbitrary constants.
 - Key steps:
-  * Find $n$ linearly independent solutions.
+  * Find and linearly independent solutions.
   * Combine the solutions to find the general solution.
 
 ### <a id="-application-of-differential-equations"></a>📈 Application of Differential Equations
 
-- **Growth and Decay:** \frac{dy}{dt} = ky — This differential equation models population growth and decay, where $k$ is a constant.
+- **Growth and Decay:** \franc{dy}{dt} = KY — This differential equation models population growth and decay, where OK is a constant.
 - Examples:
-  * Population growth: $\frac{dP}{dt} = kP$
-  * Radioactive decay: $\frac{dN}{dt} = -kN$
-- **Simple Harmonic Motion:** \frac{d^2y}{dt^2} + \omega^2y = 0 — This differential equation models simple harmonic motion, where $\omega$ is a constant.
+  * Population growth: $\franc{dP}{dt} = kph
+  * Radioactive decay: $\franc{dN}{dt} = -KNP
+- **Simple Harmonic Motion:** \franc{d^2y}{DT^2} + \omega^2y = 0 — This differential equation models simple harmonic motion, where $\omega$ is a constant.
 - Examples:
-  * Mass on a spring: $\frac{d^2x}{dt^2} + \omega^2x = 0$
-  * Pendulum: $\frac{d^2\theta}{dt^2} + \omega^2\theta = 0$
-- **Electrical Circuits:** L\frac{d^2q}{dt^2} + R\frac{dq}{dt} + \frac{q}{C} = V — This differential equation models an electrical circuit, where $L$ is the inductance, $R$ is the resistance, $C$ is the capacitance, and $V$ is the voltage.
+  * Mass on a spring: $\franc{d^2x}{DT^2} + \omega^2x = 0$
+  * Pendulum: $\franc{d^2\theta}{DT^2} + \omega^2\theta = 0$
+- **Electrical Circuits:** L\franc{d^2q}{DT^2} + R\franc{dq}{dt} + \(suggestion limit reached){q}{C} = V — This differential equation models an electrical circuit, where (suggestion limit reached) is the inductance, (suggestion limit reached) is the resistance, (suggestion limit reached) is the capacitance, and (suggestion limit reached) is the voltage.
 - Examples:
-  * RL circuit: $L\frac{dI}{dt} + RI = V$
-  * RC circuit: $R\frac{dQ}{dt} + \frac{Q}{C} = V$
+  * RL circuit: (suggestion limit reached)\(suggestion limit reached){dI}{dt} + RI = (suggestion limit reached)
+  * RC circuit: (suggestion limit reached)\(suggestion limit reached){dQ}{dt} + \(suggestion limit reached){Q}{C} = (suggestion limit reached)
 
 ### <a id="-numerical-methods"></a>📊 Numerical Methods
 
 - **Euler's Method:** y_{n+1} = y_n + hf(x_n, y_n) — This method is used to approximate the solution of a differential equation at a given point.
 - Key steps:
-  * Choose a step size $h$.
-  * Calculate $y_{n+1}$ using the formula.
+  * Choose a step size the.
+  * Calculate by_{n+1}$ using the formula.
 
-- **Runge-Kutta Method:** y_{n+1} = y_n + \frac{h}{6}(k_1 + 2k_2 + 2k_3 + k_4) — This method is used to approximate the solution of a differential equation at a given point.
+- **Range-Kutta Method:** y_{n+1} = y_n + \franc{h}{6}(k_1 + 2k_2 + 2k_3 + k_4) — This method is used to approximate the solution of a differential equation at a given point.
 
 
 - Key steps:
-  * Choose a step size $h$.
-  * Calculate $k_1, k_2, k_3, k_4$ using the formulas.
-  * Calculate $y_{n+1}$ using the formula.
+  * Choose a step size the.
+  * Calculate OK_1, k_2, k_3, k_4$ using the formulas.
+  * Calculate by_{n+1}$ using the formula.
 
-### <a id="-higherorder-linear-differential-equations"></a>🚀 Higher-Order Linear Differential Equations
+### <a id="-higher-order-linear-differential-equations"></a>🚀 Higher-Order Linear Differential Equations
 
 #### #### Higher-Order Linear Homogeneous Differential Equations
 A higher-order linear homogeneous differential equation has the form: 
 
-\frac{d^n y}{dx^n} + P_1(x)\frac{d^{n-1} y}{dx^{n-1}} + \cdots + P_n(x)y = 0
+\Franc{d^n y}{DX^n} + P_1(x)\franc{d^{n-1} y}{DX^{n-1}} + \dots + P_n(x)y = 0
 
 
 To solve this equation, we can use the method of undetermined coefficients or the method of variation of parameters.
@@ -136,7 +136,7 @@ To solve this equation, we can use the method of undetermined coefficients or th
 #### #### Higher-Order Linear Non-Homogeneous Differential Equations
 A higher-order linear non-homogeneous differential equation has the form: 
 
-\frac{d^n y}{dx^n} + P_1(x)\frac{d^{n-1} y}{dx^{n-1}} + \cdots + P_n(x)y = Q(x)
+\Franc{d^n y}{DX^n} + P_1(x)\franc{d^{n-1} y}{DX^{n-1}} + \dots + P_n(x)y = Q(x)
 
 
 To solve this equation, we can use the method of undetermined coefficients or the method of variation of parameters.
@@ -159,7 +159,7 @@ Technology, such as computer algebra systems or numerical methods, can be used t
 #### #### Modeling Real-World Phenomena with Differential Equations
 Differential equations can be used to model a wide range of real-world phenomena, from population growth and chemical reactions to electrical circuits and mechanical systems. By using differential equations to model these phenomena, we can gain insight into their behavior and make predictions about future outcomes.
 
-### <a id="-master-the-test-center-stepbystep-learning"></a>📝 Master the Test Center — Step-by-Step Learning
+### <a id="-master-the-test-center-step-by-step-learning"></a>📝 Master the Test Center — Step-by-Step Learning
 
 As we conclude our journey through the world of differential equations, it's time to put your knowledge to the test. The Test Center at /[class](/blog/determinants-class-12-notes)-11/mathematics/differential-equations-[class](/blog/determinants-class-12-notes)-12-notes is your ultimate destination for practicing and perfecting your skills. Here's why you should use the Test Center to learn:
 
@@ -228,3 +228,10 @@ Continue your revision with these related guides:
 - 📖 [Determinants Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/determinants-class-12-notes)
 - 📖 [Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/integrals-class-12-notes)
 
+## 🪤 The 5 Mistakes That Cost Marks
+
+* **Confusing the order and degree of a differential equation**: Many students get confused between the order and degree of a differential equation. The order is the highest derivative present, while the degree is the power to which that derivative is raised. Make sure you understand the difference to avoid mistakes.
+* **Forgetting to check the solution**: After obtaining a solution, it's essential to verify that it satisfies the original differential equation. This step is often skipped, leading to incorrect answers. Always substitute your solution back into the differential equation to ensure it's correct.
+* **Not considering the initial conditions**: Initial conditions are crucial in determining the specific solution to a differential equation. Failing to apply these conditions can result in a general solution that doesn't satisfy the problem's requirements.
+* **Mistaking a differential equation for an algebraic equation**: Differential equations involve rates of change and require different techniques to solve. Don't try to solve them using algebraic methods, as this can lead to incorrect solutions.
+* **Ignoring the domain of the solution**: The domain of the solution is critical, especially when dealing with functions that have restricted domains, such as logarithmic or trigonometric functions. Ensure that your solution is defined for all values in the domain to avoid mistakes.

@@ -79,9 +79,9 @@ Electromagnetic induction is a fundamental concept in physics where an electric 
  
  In addition to its technological applications, understanding electromagnetic induction is crucial for solving problems in physics and engineering. It requires a grasp of the fundamental principles, including Faraday's law of induction and Lenz's law, as well as the ability to apply these principles to various scenarios. For [class](/blog/magnetism-and-matter-class-12-notes) 12 students, practice problems that involve calculating induced emf, magnetic flux, and the design of induction systems are essential for reinforcing the concepts and preparing for the exams.
 
-| Device | Principle | Application |
+| Device | [principle](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) | Application |
 | --- | --- | --- |
-| Generators | Electromagnetic Induction | Conversion of mechanical to electrical energy |
+| Generators | [electromagnetic](/blog/electromagnetic-waves-class-12-notes) Induction | Conversion of mechanical to electrical energy |
 | Transformers | Electromagnetic Induction | Voltage transformation in power transmission |
 | Inductive Sensors | Electromagnetic Induction | Detection of position, velocity, or proximity |
 | Motors | Electromagnetic Induction | Conversion of electrical to mechanical energy |
@@ -98,7 +98,7 @@ What are the Factors Affecting Electromagnetic Induction? is the process by whic
 ho$) of the material affects the resistance ($R$) of the coil, given by $R = 
 ho \frac{l}{A}$, where $l$ is the length of the coil and $A$ is the cross-sectional area. The resistance of the coil determines the current ($I$) that flows through it when an EMF is induced, given by $I = \frac{mathcal{E}}{R}$. Therefore, the choice of material for the conductor is vital in determining the efficiency of the electromagnetic induction process.
  
- Lenz's law is also essential in understanding electromagnetic induction. It states that the direction of the induced current is such that it opposes the change in the magnetic flux that induced it. This means that if the magnetic flux is increasing, the induced current will flow in a direction that generates a magnetic field opposing the increase in flux. Conversely, if the magnetic flux is decreasing, the induced current will flow in a direction that generates a magnetic field that opposes the decrease in flux. Lenz's law helps in determining the direction of the induced current and is crucial for understanding the principles behind many electromagnetic devices. 
+ Lenz's law is also essential in understanding electromagnetic induction. It states that the direction of the induced current is such that it opposes the change in the [magnetic](/blog/magnetic-effects-of-current-class-12-notes) flux that induced it. This means that if the [magnetic](/blog/magnetic-effects-of-current-class-12-notes) flux is increasing, the induced current will flow in a direction that generates a [magnetic](/blog/magnetic-effects-of-current-class-12-notes) field opposing the increase in flux. Conversely, if the [magnetic](/blog/magnetic-effects-of-current-class-12-notes) flux is decreasing, the induced current will flow in a direction that generates a [magnetic](/blog/magnetic-effects-of-current-class-12-notes) field that opposes the decrease in flux. Lenz's law helps in determining the direction of the induced current and is crucial for understanding the principles behind many electromagnetic devices. 
  
  The table below summarizes the key factors affecting electromagnetic induction and their [effects](/blog/magnetic-effects-of-current-class-12-notes) on the induced EMF and current. 
  

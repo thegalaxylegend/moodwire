@@ -150,7 +150,7 @@ practice_link: "/class-11/mathematics/applications-of-trigonometry-class-10-note
  - Key facts:
  - [trigonometry](/blog/introduction-to-trigonometry-class-10-notes) is used in navigation to determine distances and directions between landmarks.
  - It is used in physics to describe the motion of objects in terms of velocity, acceleration, and force.
- - Trigonometry is used in medical imaging to create detailed images of the body.
+ - [trigonometry](/blog/introduction-to-trigonometry-class-10-notes) is used in medical imaging to create detailed images of the body.
  - Common mistakes:
  - Forgetting to consider the quadrant in which the angle lies when using trigonometric functions.
  - Not using the correct trigonometric identity for the given problem.

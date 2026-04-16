@@ -65,7 +65,7 @@ practice_link: "/class-10/mathematics/circles"
 
 - *Fix:* The Pythagorean theorem states {\(a^2 + b^2 = c^2\)} for any right-angled triangle with sides of length {\(a\)} and {\(b\)} and hypotenuse {\(c\)}. Use this theorem to find missing side lengths in right triangles [related](/blog/areas-related-to-circles-class-10-notes) to circle problems.
 
-- **Mistake 4:** Incorrectly calculating the area and circumference of circles.
+- **Mistake 4:** Incorrectly calculating the area and circumference of [circles](/blog/areas-related-to-circles-class-10-notes).
 
 - *Costs:* 2–4 marks
  
@@ -182,50 +182,50 @@ practice_link: "/class-10/mathematics/circles"
 ## <a id="-practice-MCQs"></a>📝 Practice MCQs
 
 **1. The tangent to a circle is always perpendicular to the radius at the point of contact.**
-**A)**     True
-**B)**     False
-**C)**     Maybe
-**D)**     Not Sure
+**A)**      True
+**B)**      False
+**C)**      Maybe
+**D)**      Not Sure
 
 **Answer:** A) The tangent to a circle is always perpendicular to the radius at the point of contact.
 
 ---
 
 **2. Lengths of tangents from an external point to a circle are always equal.**
-**A)**     True
-**B)**     False
-**C)**     Maybe
-**D)**     Not Sure
+**A)**      True
+**B)**      False
+**C)**      Maybe
+**D)**      Not Sure
 
 **Answer:** A) Lengths of tangents from an external point to a circle are always equal.
 
 ---
 
 **3. The center of a circle is equidistant from all points on the circle.**
-**A)**     True
-**B)**     False
-**C)**     Maybe
-**D)**     Not Sure
+**A)**      True
+**B)**      False
+**C)**      Maybe
+**D)**      Not Sure
 
 **Answer:** A) The center of a circle is equidistant from all points on the circle.
 
 ---
 
 **4. A tangent line touches the circle at exactly two points.**
-**A)**     True
-**B)**     False
-**C)**     Maybe
-**D)**     Not Sure
+**A)**      True
+**B)**      False
+**C)**      Maybe
+**D)**      Not Sure
 
 **Answer:** B) A tangent line touches the circle at exactly one point.
 
 ---
 
 **5. The radius is the longest distance from the center to any point on the circle.**
-**A)**     True
-**B)**     False
-**C)**     Maybe
-**D)**     Not Sure
+**A)**      True
+**B)**      False
+**C)**      Maybe
+**D)**      Not Sure
 
 **Answer:** B) The radius is the shortest distance from the center to any point on the circle.
 

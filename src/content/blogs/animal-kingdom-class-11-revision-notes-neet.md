@@ -132,7 +132,7 @@ To remember the different phyla and classes of [animals](/blog/structural-organi
  Right answer: presence of a notochord, dorsal nerve cord, and pharyngeal slits
  Why students get it wrong: many students confuse the presence of a backbone with the presence of a notochord.
 * Which [class](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) of mammals includes animals that lay eggs?
- Wrong answer: Class Mammalia
+ Wrong answer: [class](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) Mammalia
  Right answer: Class Monothematic
  Why students get it wrong: many students are not aware of the existence of honorees, which are mammals that lay eggs.
 

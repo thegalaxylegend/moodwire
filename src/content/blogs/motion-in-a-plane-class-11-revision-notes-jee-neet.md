@@ -193,7 +193,7 @@ If rain falls vertically (**v_r**) and a man moves horizontally (**v_m**):
 
 ## <a id="conclusion"></a>Conclusion
 
-Motion in a Plane is the first time we truly see the vector nature of the universe. By splitting a single motion into two independent axes, we can predict exactly where a projectile will land or how to steer a boat across a racing current. Master the derivations of T, H, and R, and understand the geometric beauty of centripetal acceleration—these are the tools of the modern engineer and physicist.
+[motion](/blog/rotational-motion-class-11-revision-notes-jee-neet) in a Plane is the first time we truly see the vector nature of the universe. By splitting a single [motion](/blog/rotational-motion-class-11-revision-notes-jee-neet) into two independent axes, we can predict exactly where a projectile will land or how to steer a boat across a racing current. Master the derivations of T, H, and R, and understand the geometric beauty of centripetal acceleration—these are the tools of the modern engineer and physicist.
 
 ---
 **Reference:** [HyperPhysics: 2D Kinematics and Vectors](http://hyperphysics.phy-astr.gsu.edu/hbase/vect.html)

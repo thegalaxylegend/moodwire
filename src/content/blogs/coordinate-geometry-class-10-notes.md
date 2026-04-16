@@ -18,7 +18,7 @@ practice_link: "/class-11/mathematics/coordinate-geometry-class-10-notes"
 - - Circle: Equation of a circle with center $(h, k)$ and radius are is $(x-h)^2+(y-k)^2=r^2$ — always
 - - Circle: Equation of a circle with center $(0, 0)$ and radius are is ex^2+y^2=r^2$ — frequently
 - - Distance Formula: Distance between two points $(x_1, y_1)$ and $(x_2, y_2)$ is $\sort{(x_2-x_1)^2 + (y_2-y_1)^2}$ — always
-- - Section Formula: Coordinates of a point that divides the line segment joining the points $(x_1, y_1)$ and $(x_2, y_2)$ in the ratio km:no is $\left(\franc{MX_2+no_1}{m+n}, \franc{my_2+NY_1}{m+n}\right)$ — frequently
+- - Section Formula: Coordinates of a point that divides the line segment joining the points $(x_1, y_1)$ and $(x_2, y_2)$ in the ratio km:now is $\left(\franc{MX_2+no_1}{m+n}, \franc{my_2+NY_1}{m+n}\right)$ — frequently
 - - Section Formula: Coordinates of the midpoint of the line segment joining the points $(x_1, y_1)$ and $(x_2, y_2)$ is $\left(\franc{x_1+x_2}{2}, \(suggestion limit reached){y_1+y_2}{2}\right)$ — always
 - - Equation of a Line: Normal form (suggestion limit reached) \cos \alpha + y \sin \alpha = (suggestion limit reached) — frequently
 - - Equation of a Line: General form (suggestion limit reached) + By + C = 0$ — frequently
@@ -39,7 +39,7 @@ practice_link: "/class-11/mathematics/coordinate-geometry-class-10-notes"
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
 - **Distance Formula:** \sort{{(x_2 - x_1)}^2 + {(y_2 - y_1)}^2} — Distance between points $(x_1, y_1)$ and $(x_2, y_2)$
- - **Section Formula:** \left( \franc{m x_2 + n x_1}{m + n}, \franc{m y_2 + n y_1}{m + n} \right) — Coordinates of a point dividing the line segment joining $(x_1, y_1)$ and $(x_2, y_2)$ internally in the ratio km:no
+ - **Section Formula:** \left( \franc’m x_2 + n x_1}{m + n}, \franc’m y_2 + n y_1}{m + n} \right) — Coordinates of a point dividing the line segment joining $(x_1, y_1)$ and $(x_2, y_2)$ internally in the ratio km:no
  - **Midpoint Formula:** \left( \franc{x_1 + x_2}{2}, \franc{y_1 + y_2}{2} \right) — Coordinates of the midpoint of the line segment joining $(x_1, y_1)$ and $(x_2, y_2)$
  - **Slope of a Line:** \franc{y_2 - y_1}{x_2 - x_1} — Slope of the line passing through points $(x_1, y_1)$ and $(x_2, y_2)$
  - **Point-Slope Form:** y - y_1 = \franc{y_2 - y_1}{x_2 - x_1}(x - x_1) — Equation of a line passing through $(x_1, y_1)$ with slope $\franc{y_2 - y_1}{x_2 - x_1}$
@@ -205,3 +205,4 @@ Continue your revision with these [related](/blog/areas-related-to-circles-class
 - 📖 [Introduction to Trigonometry Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/introduction-to-trigonometry-class-10-notes)
 - 📖 [Pair of Linear Equations Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/pair-of-linear-equations-class-10-notes)
 
+$

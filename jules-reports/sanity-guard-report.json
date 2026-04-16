@@ -1,9 +1,9 @@
 {
-  "date": "2026-04-15T16:23:41.817Z",
+  "date": "2026-04-16T02:57:24.737Z",
   "summary": {
-    "total": 197,
-    "errors": 155,
-    "warnings": 90,
+    "total": 200,
+    "errors": 159,
+    "warnings": 91,
     "clean": 24
   },
   "issues": [
@@ -45,6 +45,13 @@
     },
     {
       "file": "alternating-current-class-12-notes.md",
+      "errors": [],
+      "warnings": [
+        "Potential raw LaTeX detected outside of $...$ delimiters"
+      ]
+    },
+    {
+      "file": "anatomy-of-flowering-plants-class-11-revision-notes-neet.md",
       "errors": [],
       "warnings": [
         "Potential raw LaTeX detected outside of $...$ delimiters"
@@ -245,6 +252,14 @@
       ]
     },
     {
+      "file": "comparing-quantities-class-8-notes.md",
+      "errors": [
+        "Contains unparsed JSON body blocks - 'JSON Squashing' detected",
+        "Critical Failure: Literal JSON-like strings found in content body"
+      ],
+      "warnings": []
+    },
+    {
       "file": "compiler-design-class-12-notes.md",
       "errors": [
         "Thin Content Warning: Entire body is only 1665 words (Target: 2000+)"
@@ -301,6 +316,15 @@
       ]
     },
     {
+      "file": "cubes-and-cube-roots-class-8-notes.md",
+      "errors": [
+        "Contains unparsed JSON body blocks - 'JSON Squashing' detected",
+        "Critical Failure: Literal JSON-like strings found in content body",
+        "Thin Content Warning: Entire body is only 1756 words (Target: 2000+)"
+      ],
+      "warnings": []
+    },
+    {
       "file": "data-handling-class-8-notes.md",
       "errors": [
         "Thin Content Warning: Entire body is only 1190 words (Target: 2000+)"
@@ -314,7 +338,6 @@
       "errors": [
         "Contains unparsed JSON body blocks - 'JSON Squashing' detected",
         "Critical Failure: Literal JSON-like strings found in content body",
-        "Thin Content Warning: Entire body is only 1796 words (Target: 2000+)",
         "Contains malformed HTML: '[class]' attribute found (unbound React syntax)"
       ],
       "warnings": []
@@ -327,23 +350,16 @@
       ]
     },
     {
-      "file": "differential-equations-class-12-notes.md",
-      "errors": [],
-      "warnings": [
-        "Potential raw LaTeX detected outside of $...$ delimiters"
-      ]
-    },
-    {
       "file": "digestion-and-absorption-class-11-revision-notes-neet.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 1268 words (Target: 2000+)"
+        "Thin Content Warning: Entire body is only 1405 words (Target: 2000+)"
       ],
       "warnings": []
     },
     {
       "file": "dpsp-duties-class-11-revision-notes-jee-neet.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 1081 words (Target: 2000+)"
+        "Thin Content Warning: Entire body is only 1360 words (Target: 2000+)"
       ],
       "warnings": []
     },
@@ -620,8 +636,7 @@
     {
       "file": "local-government-class-11-revision-notes-cbse.md",
       "errors": [
-        "Contains unparsed JSON body blocks - 'JSON Squashing' detected",
-        "Critical Failure: Literal JSON-like strings found in content body"
+        "Thin Content Warning: Entire body is only 1712 words (Target: 2000+)"
       ],
       "warnings": []
     },
@@ -897,7 +912,10 @@
     },
     {
       "file": "physics-mechanics-class-11-revision-notes-jee-neet.md",
-      "errors": [],
+      "errors": [
+        "Contains unparsed JSON body blocks - 'JSON Squashing' detected",
+        "Critical Failure: Literal JSON-like strings found in content body"
+      ],
       "warnings": [
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
@@ -1122,6 +1140,15 @@
       ]
     },
     {
+      "file": "squares-and-square-roots-class-8-notes.md",
+      "errors": [
+        "Thin Content Warning: Entire body is only 1194 words (Target: 2000+)"
+      ],
+      "warnings": [
+        "Potential raw LaTeX detected outside of $...$ delimiters"
+      ]
+    },
+    {
       "file": "states-of-matter-class-11-revision-notes-jee-neet.md",
       "errors": [],
       "warnings": [
@@ -1274,9 +1301,7 @@
     {
       "file": "trigonometric-functions-class-11-revision-notes-jee-neet.md",
       "errors": [
-        "Contains unparsed JSON body blocks - 'JSON Squashing' detected",
-        "Critical Failure: Literal JSON-like strings found in content body",
-        "Thin Content Warning: Entire body is only 1129 words (Target: 2000+)"
+        "Thin Content Warning: Entire body is only 1217 words (Target: 2000+)"
       ],
       "warnings": [
         "Potential raw LaTeX detected outside of $...$ delimiters"

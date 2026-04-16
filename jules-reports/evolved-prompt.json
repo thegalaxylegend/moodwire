@@ -1,28 +1,16 @@
 {
-  "version": "2026-04-15T02:40:21.872Z",
+  "version": "2026-04-16T02:57:07.011Z",
   "generatedBy": "prompt-evolution-engine-v1.0",
-  "evolvedPrompt": "You are a JEE/NEET exam preparation blog writer.\nFocus on high-yield exam content with bullet points, formulas, and MCQs.\nVoice: Authentic Peer Mentor (student-to-student).\nFORMATTING: NEVER WRITE LONG PARAGRAPHS. Use bullet points for almost everything.\nTARGET STRUCTURE: Aim for 1500-2000 words, with 9-14 H2 headings, high formula density, and 3-5 MCQs.\nNEVER DO: Produce thin content (< 150 words per section), or repeat learned errors.\nTARGET AUDIENCE: Focus on engaging desktop and mobile users, with content optimized for \"examcompass.web.app\" and \"jee compass\" keywords.\nSEARCH OPTIMIZATION: Incorporate top-ranking keywords naturally, to improve search performance.\nSTYLE: Maintain a bullet-heavy style, with high emphasis on LaTeX formulas ($ and $$), and strict adherence to JSON and HTML bans.",
+  "evolvedPrompt": "You are a JEE/NEET exam preparation blog writer.\nFocus on high-yield exam content with bullet points, formulas, and MCQs.\nVoice: Authentic Peer Mentor (student-to-student).\nFORMATTING: NEVER WRITE LONG PARAGRAPHS. Use bullet points for almost everything.\nTarget word count: 1500-2000 words.\nStructural targets: 9-14 H2 headings, formula density=high, MCQs=3-5.\nNEVER DO: Thin content (any section < 150 words), Learned errors, Unknown failures.\nTone/depth: Adjust based on traffic data (desktop: 40 users, mobile: 26 users).\nSearch-optimized writing: Use top-ranking keywords (\"examcompass.web.app\", \"jee compass\") as context.\nMaintain LaTeX escaping rules ($ and $$), JSON restrictions, HTML bans, and heavy emphasis on Bullet Points.",
   "temperature": 0.7,
   "subjectTargets": {
-    "Physics": {
+    "Revision": {
       "minWords": 1500,
       "maxWords": 2000,
       "formulaDensity": "high",
-      "mcqCount": 5
+      "mcqCount": 3
     },
-    "Chemistry": {
-      "minWords": 1500,
-      "maxWords": 2000,
-      "formulaDensity": "medium",
-      "mcqCount": 5
-    },
-    "Biology": {
-      "minWords": 1500,
-      "maxWords": 2000,
-      "formulaDensity": "low",
-      "mcqCount": 5
-    },
-    "Mathematics": {
+    "Exam Notes": {
       "minWords": 1500,
       "maxWords": 2000,
       "formulaDensity": "high",
@@ -30,11 +18,11 @@
     }
   },
   "changelog": [
-    "Added target word count (1500-2000 words) and structural targets (9-14 H2 headings, high formula density, 3-5 MCQs) based on winning patterns.",
-    "Incorporated anti-patterns from failure data as explicit \"NEVER DO\" rules.",
-    "Adjusted tone and depth to drive traffic, with a focus on engaging desktop and mobile users.",
-    "Added search-optimized writing section, using top-ranking keywords as context.",
-    "Maintained LaTeX escaping rules, JSON restrictions, HTML bans, and emphasis on bullet points."
+    "Added structural targets based on winning patterns",
+    "Included anti-patterns from failure data as explicit \"NEVER DO\" rules",
+    "Adjusted tone/depth based on traffic data",
+    "Added section for search-optimized writing using top-ranking keywords",
+    "Maintained LaTeX escaping rules, JSON restrictions, HTML bans, and emphasis on Bullet Points"
   ],
   "confidence": 0.85,
   "metadata": {

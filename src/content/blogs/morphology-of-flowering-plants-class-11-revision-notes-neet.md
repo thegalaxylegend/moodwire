@@ -100,7 +100,7 @@ The inflorescence is the arrangement of flowers on a [plant](/blog/plant-growth-
 The flower is the reproductive structure of the [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet), consisting of sepals, petals, stamens, and carpels. It is responsible for producing gametes (sperm and egg cells) for fertilization.
 
 ### <a id="fruit"></a>Fruit
-The fruit is the mature ovary of a plant, containing seeds. It is formed after fertilization, when the ovary wall thickens and develops into a fruit.
+The fruit is the mature ovary of a [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet), containing seeds. It is formed after fertilization, when the ovary wall thickens and develops into a fruit.
 
 
 

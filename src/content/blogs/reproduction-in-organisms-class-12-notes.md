@@ -233,7 +233,7 @@ ightarrow (2n) \	ext{Offspring}
 
  - Confusing mitosis and meiosis, which are two distinct types of cell division.
 
- - Forgetting that the human reproductive system is designed for internal fertilization, which occurs when a sperm fertilizes an egg inside the female reproductive tract.
+ - Forgetting that the [human](/blog/human-reproduction-class-12-notes) reproductive system is designed for internal fertilization, which occurs when a sperm fertilizes an egg inside the female reproductive tract.
 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
@@ -253,7 +253,7 @@ B) results in offspring with identical traits
 C) increases genetic variation
 D) is a slow process
 
-**Answer:** C) Sexual reproduction involves the combination of genetic material from two parents, resulting in offspring with unique traits and increased genetic variation.
+**Answer:** C) [sexual](/blog/sexual-reproduction-in-flowering-plants-class-12-notes) reproduction involves the combination of genetic material from two parents, resulting in offspring with unique traits and increased genetic variation.
 
 ---
 
