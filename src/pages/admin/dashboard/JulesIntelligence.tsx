@@ -101,6 +101,17 @@ export const JulesIntelligence = () => {
           <RotateCw size={16} className={loading ? 'animate-spin' : ''} />
           Fetch Latest
         </button>
+
+        <button 
+          onClick={async () => {
+              const res = await auditService.runPerformanceAudit();
+              alert(`Audit Complete! Detected ${res.count} anomalies.`);
+          }}
+          className="flex items-center gap-2 px-4 py-2 bg-red-500/10 border border-red-500/20 rounded-xl text-sm font-bold text-red-400 hover:bg-red-500/20 transition-all active:scale-95"
+        >
+          <Sparkles size={16} />
+          Run Quality Audit
+        </button>
       </header>
 
       {/* AI Metrics */}

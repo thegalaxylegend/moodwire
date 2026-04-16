@@ -13,7 +13,7 @@ import {
     increment,
 } from 'firebase/firestore';
 import { askAI } from '../lib/ai';
-import { extractJSON } from '../lib/utils';
+import { extractJSON, resolveTopicId } from '../lib/utils';
 import { EloService } from './eloService';
 import { offlineSyncService } from './offlineSyncService';
 import { getFormulaSheet } from '../lib/formulaSheets';
@@ -91,7 +91,7 @@ const generateHash = async (text: string): Promise<string> => {
  * Enhanced Verification Layer: Anti-anchored independent verification.
  * v3.0: Verifier sees answer AFTER solving, not before.
  */
-const verifyQuestionFast = async (questionData: Partial<StoredQuestion>): Promise<{ verified: boolean; data?: Partial<StoredQuestion>; isRefixed?: boolean; verifierAnswer?: string; verifierMatches?: boolean }> => {
+const verifyQuestionFast = async (questionData: Partial<StoredQuestion>, runConsensus: boolean = false): Promise<{ verified: boolean; data?: Partial<StoredQuestion>; isRefixed?: boolean; verifierAnswer?: string; verifierMatches?: boolean }> => {
     const currentData = { ...questionData };
 
     // ── HEURISTIC SAFETY CHECK: Enhanced placeholder/garbage detection ──
@@ -195,23 +195,41 @@ OUTPUT (JSON ONLY):
 `;
 
     try {
-        const response = await withTimeout(
-            askAI("Senior Physics, Chemistry & Mathematics Professor. Strict accuracy auditor. JSON ONLY.", verificationPrompt, 'auto', [], {
+        const primaryPromise = askAI("Senior Physics, Chemistry & Mathematics Professor. Strict accuracy auditor. JSON ONLY.", verificationPrompt, 'auto', [], {
+            jsonMode: true,
+            tier: 'T1', // Expert Verifier
+            temperature: 0.0,
+            stream: false,
+            max_tokens: 2000
+        });
+
+        let results: any[] = [];
+        if (runConsensus) {
+            const secondaryPromise = askAI("Senior Physics, Chemistry & Mathematics Professor. Strict accuracy auditor. JSON ONLY.", verificationPrompt, 'groq', [], {
                 jsonMode: true,
-                tier: 'T1', // Expert Verifier
-                temperature: 0.0,
+                tier: 'T2', 
+                temperature: 0.1,
                 stream: false,
                 max_tokens: 2000
-            }),
-            30000 // 30s timeout
-        );
-        if (!response) return { verified: false };
+            });
+            const [res1, res2] = await Promise.all([
+                withTimeout(primaryPromise, 30000),
+                withTimeout(secondaryPromise, 30000)
+            ]);
+            if (!res1 || !res2) return { verified: false };
+            results = [extractJSON(res1 as string), extractJSON(res2 as string)];
+        } else {
+            const response = await withTimeout(primaryPromise, 30000);
+            if (!response) return { verified: false };
+            results = [extractJSON(response as string)];
+        }
 
-        const result = extractJSON(response as string);
+        const result = results[0];
+        const consensusResult = results[1];
 
         // ── REJECT handling ──
-        if (result.status === 'REJECT') {
-            console.warn(`[QuestionEngine] Verifier REJECTED: ${result.logic || 'No reason'}`);
+        if (result.status === 'REJECT' || (consensusResult && consensusResult.status === 'REJECT')) {
+            console.warn(`[QuestionEngine] Verifier REJECTED: ${result.logic || 'No reason'} ${consensusResult ? '(or consensus rejected)' : ''}`);
             return { verified: false };
         }
 
@@ -232,6 +250,21 @@ OUTPUT (JSON ONLY):
                 }
             }
         }
+        
+        // ── CONSENSUS Numerical Check ──
+        if (runConsensus && consensusResult && result.my_answer_numerical !== undefined && consensusResult.my_answer_numerical !== undefined) {
+            const num1 = Number(result.my_answer_numerical);
+            const num2 = Number(consensusResult.my_answer_numerical);
+            if (!isNaN(num1) && !isNaN(num2) && (Math.abs(num1) > 0.001 || Math.abs(num2) > 0.001)) {
+                const ref = Math.max(Math.abs(num1), Math.abs(num2));
+                const diff = Math.abs(num1 - num2) / ref;
+                if (diff > 0.01) {
+                    console.warn(`[QuestionEngine] Override: Consensus failed! Dual models disagreed on answer (${num1} vs ${num2}). REJECTING.`);
+                    return { verified: false };
+                }
+            }
+        }
+
         // Also check the boolean field if provided
         if (result.answers_match === false && result.status === 'APPROVED') {
             console.warn(`[QuestionEngine] Override: Verifier said APPROVED but answers_match=false. REJECTING.`);
@@ -306,11 +339,12 @@ export const generateInspiredQuestion = async (
         topic: string,
         topic_id?: string, // New deterministic ID
         difficulty: 'Easy' | 'Medium' | 'Hard',
-        abilityScore?: number
+        abilityScore?: number,
+        remediationFocus?: 'CONCEPTUAL' | 'SILLY' | 'TIME' | 'MISREAD'
     }
 ): Promise<StoredQuestion | null> => {
-    const { exam, subject, topic, topic_id, difficulty, abilityScore = 5 } = params;
-    const resolvedTopicId = topic_id || topic.toLowerCase().replace(/\s+/g, '-');
+    const { exam, subject, topic, topic_id, difficulty, abilityScore = 5, remediationFocus } = params;
+    const resolvedTopicId = topic_id || resolveTopicId(topic);
 
     // Pre-Generation DB Check — only trust high-confidence questions from post-audit era
     try {
@@ -363,6 +397,7 @@ Generate ONE ${exam} MCQ. MATHEMATICAL ACCURACY IS MANDATORY.
 TOPIC: ${topic}
 SUBJECT: ${subject}
 DIFFICULTY: ${difficulty} (Student Ability: ${abilityScore}/10)
+${remediationFocus ? `REMEDIATION FOCUS: ${remediationFocus} (Generate a question that specifically targets and tests for this type of student error pattern.)` : ''}
 
 ═══ REFERENCE FORMULAS FOR THIS TOPIC ═══
 ${formulaSheet}
@@ -477,8 +512,9 @@ If they don't match, YOUR OUTPUT IS INVALID and will be rejected.
                 continue;
             }
 
+            const runConsensus = difficulty === 'Hard' || difficulty === 'Medium';
             // ── LAYER 1: LLM Verification ──
-            const verification = await verifyQuestionFast(rawData);
+            const verification = await verifyQuestionFast(rawData, runConsensus);
             if (!verification.verified || !verification.data) {
                 console.warn(`[QuestionEngine] Verifier rejected. Attempt ${attempt + 1}/${MAX_GEN_RETRIES + 1}.`);
                 continue;
@@ -659,13 +695,14 @@ export const getAdaptiveQuestion = async (
     userId: string,
     topic: string,
     exam: string,
-    weaknessScore: number,
-    topic_id?: string, // Moved to allow required parameters to follow
+    weaknessScore: number = 0,
+    topic_id?: string,
     subject?: string,
-    abilityScore?: number
+    abilityScore?: number,
+    remediationFocus?: 'CONCEPTUAL' | 'SILLY' | 'TIME' | 'MISREAD'
 ): Promise<StoredQuestion | null> => {
 
-    const resolvedTopicId = topic_id || topic.toLowerCase().replace(/\s+/g, '-');
+    const resolvedTopicId = topic_id || resolveTopicId(topic);
 
     let targetDifficulty: 'Easy' | 'Medium' | 'Hard' = 'Medium';
     if (abilityScore !== undefined) {
@@ -758,7 +795,8 @@ export const getAdaptiveQuestion = async (
             subject: finalSubject,
             topic,
             difficulty: targetDifficulty,
-            abilityScore
+            abilityScore,
+            remediationFocus
         });
 
         // Optionally put the generated one into cache too (or let it be found on next DB hit)
@@ -772,6 +810,100 @@ export const getAdaptiveQuestion = async (
         return null;
     }
 };
+
+/**
+ * Adaptive Batch Retrieval Logic.
+ * Optimized for full Mock Exams and Quick Tests.
+ * Pulls from: Cache -> Offline -> Global DB -> AI (Final Delta)
+ */
+export const getAdaptiveQuestionBatch = async (
+    userId: string,
+    needs: Array<{ subject: string; topic: string; count: number; difficulty?: 'Easy' | 'Medium' | 'Hard'; remediationFocus?: 'CONCEPTUAL' | 'SILLY' | 'TIME' | 'MISREAD' }>,
+    exam: string,
+    abilityScore?: number,
+    onProgress?: (progress: number) => void
+): Promise<StoredQuestion[]> => {
+    const allQuestions: StoredQuestion[] = [];
+    const totalCount = needs.reduce((sum, n) => sum + n.count, 0);
+    let completedCount = 0;
+
+    const updateBatchProgress = () => {
+        completedCount++;
+        if (onProgress) {
+            onProgress(Math.min(Math.round((completedCount / totalCount) * 100), 100));
+        }
+    };
+
+    // Parallel processing per requirement group
+    const results = await Promise.all(needs.map(async (group) => {
+        const groupQuestions: StoredQuestion[] = [];
+        const { subject, topic, count, difficulty } = group;
+        const resolvedTopicId = resolveTopicId(topic);
+
+        // 1. Try to fill from Global DB first (Fastest/Cheapest)
+        try {
+            const dbQuery = query(
+                collection(db, 'engine_questions'),
+                where('exam', '==', exam),
+                where('topic_id', '==', resolvedTopicId),
+                where('difficulty', '==', difficulty || 'Medium'),
+                where('confidence', '>=', 0.80), // High quality only for batch
+                limit(count * 2)
+            );
+            const snap = await getDocs(dbQuery);
+            if (!snap.empty) {
+                const dbQs = snap.docs.map(d => ({ id: d.id, ...d.data() } as StoredQuestion));
+                // Shuffle and pick
+                for (let i = dbQs.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [dbQs[i], dbQs[j]] = [dbQs[j], dbQs[i]];
+                }
+                const selected = dbQs.slice(0, count);
+                groupQuestions.push(...selected);
+                
+                // Update usage counts in background
+                selected.forEach(q => {
+                    updateDoc(doc(db, 'engine_questions', q.id!), { usage_count: increment(1) }).catch(() => {});
+                });
+
+                // Update progress for every question found in DB
+                for (let i = 0; i < selected.length; i++) updateBatchProgress();
+                
+                console.log(`[QuestionEngine] ⚡ Batch DB Hit: Found ${selected.length}/${count} for ${topic}`);
+            }
+        } catch (err) {
+            console.warn(`[QuestionEngine] Batch DB check failed for ${topic}:`, err);
+        }
+
+        // 2. Generate Delta if count not met
+        const remaining = count - groupQuestions.length;
+        if (remaining > 0) {
+            console.log(`[QuestionEngine] 🧩 Batch Delta: Generating ${remaining} for ${topic}`);
+            
+            // Generate delta sequentially or in small chunks to avoid overwhelm
+            for (let i = 0; i < remaining; i++) {
+                const q = await getAdaptiveQuestion(
+                    userId,
+                    topic,
+                    exam,
+                    0.5, // Default weakness for batch
+                    topic_id || undefined,
+                    subject,
+                    abilityScore,
+                    group.remediationFocus
+                );
+                if (q) groupQuestions.push(q);
+                updateBatchProgress();
+            }
+        }
+
+        return groupQuestions;
+    }));
+
+    results.forEach(res => allQuestions.push(...res));
+    return allQuestions;
+};
+
 
 /**
  * Pre-generate daily batch for weak topics.

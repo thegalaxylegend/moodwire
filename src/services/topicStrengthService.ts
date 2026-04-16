@@ -12,6 +12,7 @@ import {
     orderBy,
     // limit - Unused
 } from 'firebase/firestore';
+import { resolveTopicId } from '../lib/utils';
 
 export interface TopicStat {
     id: string;
@@ -259,7 +260,7 @@ export const batchUpdateTopicStrength = async (
     // Update each topic
     for (const [topic, stats] of Object.entries(topicResults)) {
         for (const res of stats.results) {
-            const derivedTopicId = topic.toLowerCase().replace(/\s+/g, '-');
+            const derivedTopicId = resolveTopicId(topic);
             await updateTopicStrength(
                 userId,
                 topic,
@@ -495,6 +496,6 @@ export const recordQuestionResult = async (
         errorType?: TopicStat['last_error_type']
     } = {}
 ): Promise<void> => {
-    const derivedTopicId = topic.toLowerCase().replace(/\s+/g, '-');
+    const derivedTopicId = resolveTopicId(topic);
     await updateTopicStrength(userId, topic, derivedTopicId, subject, isCorrect, params);
 };

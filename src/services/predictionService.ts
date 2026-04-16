@@ -46,7 +46,16 @@ export type PredictionResult = {
         optimistic: number;
         pessimistic: number;
     };
+    collegeFitment?: CollegeFitResult[];
 };
+
+export interface CollegeFitResult {
+    institution: string;
+    branch: string;
+    probability: number; // 0 to 1
+    requiredRank: number;
+    status: 'Safe' | 'Probable' | 'Dream' | 'Reach';
+}
 
 export const getExamConstants = (examType: string): ExamConstants => {
     switch (resolveExam(examType)) {
@@ -188,10 +197,45 @@ function qualificationLabel(rank: number, exam: string, score: number): string {
 
 
 
-        default:
             return "—";
     }
 }
+
+/**
+ * Historical 2024 Admission Data (Approximate AIR Closings - General/Open)
+ */
+const COLLEGE_ADMISSION_DATA: Record<string, Array<{ inst: string; branch: string; rank: number }>> = {
+    jee_advanced: [
+        { inst: "IIT Bombay", branch: "Computer Science", rank: 68 },
+        { inst: "IIT Bombay", branch: "Electrical Engineering", rank: 480 },
+        { inst: "IIT Delhi", branch: "Computer Science", rank: 115 },
+        { inst: "IIT Madras", branch: "Computer Science", rank: 150 },
+        { inst: "IIT Kanpur", branch: "Computer Science", rank: 250 },
+        { inst: "IIT Kharagpur", branch: "Computer Science", rank: 400 },
+        { inst: "IIT Roorkee", branch: "Computer Science", rank: 500 },
+        { inst: "IIT Guwahati", branch: "Computer Science", rank: 650 },
+        { inst: "IIT Hyderabad", branch: "Computer Science", rank: 700 }
+    ],
+    jee_mains: [
+        { inst: "NIT Trichy", branch: "Computer Science", rank: 1500 },
+        { inst: "NIT Surathkal", branch: "Computer Science", rank: 2500 },
+        { inst: "NIT Warangal", branch: "Computer Science", rank: 3200 },
+        { inst: "MNNIT Allahabad", branch: "Computer Science", rank: 5000 },
+        { inst: "IIIT Hyderabad", branch: "Computer Science", rank: 2200 },
+        { inst: "IIIT Bangalore", branch: "Computer Science", rank: 7500 },
+        { inst: "DTU Delhi", branch: "Computer Science", rank: 12000 },
+        { inst: "NSUT Delhi", branch: "Computer Science", rank: 15000 }
+    ],
+    neet: [
+        { inst: "AIIMS New Delhi", branch: "MBBS", rank: 57 },
+        { inst: "MAMC Delhi", branch: "MBBS", rank: 120 },
+        { inst: "VMMC Delhi", branch: "MBBS", rank: 150 },
+        { inst: "AIIMS Jodhpur", branch: "MBBS", rank: 500 },
+        { inst: "AIIMS Bhopal", branch: "MBBS", rank: 600 },
+        { inst: "JIPMER Puducherry", branch: "MBBS", rank: 300 },
+        { inst: "KGMU Lucknow", branch: "MBBS", rank: 2000 }
+    ]
+};
 
 function getCaveat(_score: number, _exam: string): string | undefined {
     return undefined;
@@ -240,7 +284,41 @@ export class PredictionService {
             qualificationStatus: rankResult.qualificationStatus,
             caveat: rankResult.caveat,
             rankRange: rankResult.rankRange,
+            collegeFitment: this.calculateCollegeFitment(rankResult.rank, examType)
         };
+    }
+
+    private calculateCollegeFitment(rank: number, examType: string): CollegeFitResult[] {
+        const exam = resolveExam(examType);
+        const refData = COLLEGE_ADMISSION_DATA[exam];
+        if (!refData) return [];
+
+        return refData.map(item => {
+            let probability = 0;
+            let status: CollegeFitResult['status'] = 'Reach';
+
+            if (rank <= item.rank * 0.8) {
+                probability = 0.95;
+                status = 'Safe';
+            } else if (rank <= item.rank) {
+                probability = 0.75;
+                status = 'Probable';
+            } else if (rank <= item.rank * 1.3) {
+                probability = 0.40;
+                status = 'Dream';
+            } else {
+                probability = 0.10;
+                status = 'Reach';
+            }
+
+            return {
+                institution: item.inst,
+                branch: item.branch,
+                probability,
+                requiredRank: item.rank,
+                status
+            };
+        }).sort((a, b) => b.probability - a.probability).slice(0, 5);
     }
 
     private applyNormalizationBias(score: number, constants: ExamConstants): number {

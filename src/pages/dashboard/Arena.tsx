@@ -2,7 +2,8 @@ import { useState, useEffect, useRef } from 'react';
 import { Trophy, Shield, Zap, Loader2, Skull } from 'lucide-react';
 import { useUserStore } from '../../store/userStore';
 import { battleService, type BattleSession } from '../../services/battleService';
-import { getAdaptiveQuestion } from '../../services/questionEngine';
+import { getAdaptiveQuestionBatch } from '../../services/questionEngine';
+import { batchUpdateTopicStrength } from '../../services/topicStrengthService';
 import { doc, updateDoc } from 'firebase/firestore';
 import { db } from '../../lib/firebase';
 import { useNavigate } from 'react-router-dom';
@@ -21,6 +22,7 @@ export const Arena = () => {
     const [questions, setQuestions] = useState<any[]>([]);
     const [currentQIndex, setCurrentQIndex] = useState(0);
     const [localScore, setLocalScore] = useState(0);
+    const [battleResults, setBattleResults] = useState<Array<{ topic: string; subject?: string; isCorrect: boolean }>>([]);
     const xpAwarded = useRef(false);
     const queueTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -70,41 +72,38 @@ export const Arena = () => {
 
     const generateBattleQuestions = async (subj: string) => {
         try {
-            const qs = [];
-            for (let i = 0; i < 5; i++) {
-                try {
-                    const q: any = await getAdaptiveQuestion(user?.id || 'guest', subj, 'Exam_Level', 5, undefined, subj, 1000);
-                    if (!q || !q.question) continue;
-                    
-                    let correctAnswerIndex = 0;
-                    const optionsArray: string[] = Array.isArray(q.options) ? q.options : Object.values(q.options);
-                    if (typeof q.correct_answer === 'string') {
-                        if (q.correct_answer.length === 1 && /[A-D]/.test(q.correct_answer)) {
-                            correctAnswerIndex = q.correct_answer.charCodeAt(0) - 65;
-                        } else {
-                            const foundIndex = optionsArray.indexOf(q.correct_answer);
-                            if (foundIndex !== -1) correctAnswerIndex = foundIndex;
-                        }
-                    }
-                    
-                    qs.push({
-                        text: q.question,
-                        options: optionsArray,
-                        correctAnswer: correctAnswerIndex,
-                        topic: q.topic
-                    });
-                } catch {
-                    // Individual question fetch failed, continue to next
-                }
-            }
-            // BUG-05 FIX: Require at least 3 questions for a valid battle
-            if (qs.length < 3) {
+            console.log(`[Arena] Generating battle batch for subject: ${subj}`);
+            const questionData = await getAdaptiveQuestionBatch(user?.id || 'guest', user?.id || 'guest', user?.targetExam || 'JEE Mains', {
+                items: [{ subject: subj, topic: subj, count: 5, difficulty: 'Medium' }]
+            });
+
+            if (!questionData || questionData.length < 3) {
                 console.error('[Arena] Not enough questions generated for battle');
                 return [];
             }
+
+            const qs = questionData.map(q => {
+                const optionsArray: string[] = Array.isArray(q.options) ? q.options : Object.values(q.options);
+                let correctAnswerIndex = 0;
+                
+                if (typeof q.correct_answer === 'string') {
+                    const foundIndex = optionsArray.indexOf(q.correct_answer);
+                    if (foundIndex !== -1) correctAnswerIndex = foundIndex;
+                }
+
+                return {
+                    id: q.id,
+                    text: q.question,
+                    options: optionsArray,
+                    correctAnswer: correctAnswerIndex,
+                    topic: q.topic,
+                    subject: q.subject
+                };
+            });
+
             return qs;
         } catch (e) {
-            console.error(e);
+            console.error('[Arena] Battle generation failed:', e);
             return [];
         }
     };
@@ -151,6 +150,13 @@ export const Arena = () => {
             }
         }
 
+        // Track for analytics
+        setBattleResults(prev => [...prev, {
+            topic: q.topic,
+            subject: q.subject,
+            isCorrect
+        }]);
+
         // Delay for visual feedback or just go next instantly for speed?
         setTimeout(async () => {
             if (currentQIndex < questions.length - 1) {
@@ -191,6 +197,12 @@ export const Arena = () => {
                 addGains({ xp: 50, pts: 50 });
             } else if (!isTie) {
                 addGains({ xp: 10, pts: 10 });
+            }
+
+            // Phase C: Sync to analytics
+            if (battleResults.length > 0 && user?.id) {
+                console.log(`[Arena] Syncing ${battleResults.length} battle results to Mastery Engine...`);
+                batchUpdateTopicStrength(user.id, battleResults, user.class, user.targetExam);
             }
         }
     }, [session?.status, status]);
@@ -340,7 +352,7 @@ export const Arena = () => {
                                     Leave
                                 </button>
                                 <button
-                                    onClick={() => { setSessionId(null); setSession(null); setStatus('lobby'); setQuestions([]); setCurrentQIndex(0); setLocalScore(0); xpAwarded.current = false; }}
+                                    onClick={() => { setSessionId(null); setSession(null); setStatus('lobby'); setQuestions([]); setCurrentQIndex(0); setLocalScore(0); setBattleResults([]); xpAwarded.current = false; }}
                                     className="px-8 py-3 rounded-xl bg-red-500 text-white font-black uppercase tracking-widest hover:bg-red-600 transition-all shadow-lg shadow-red-500/20"
                                 >
                                     Play Again

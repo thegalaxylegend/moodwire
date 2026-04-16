@@ -16,7 +16,8 @@ import {
     Library,
     Download,
     ShieldCheck,
-    Swords
+    Swords,
+    Users
 } from 'lucide-react';
 import { useState } from 'react';
 import { usePWA } from '../hooks/usePWA';
@@ -176,6 +177,7 @@ export const DashboardLayout = () => {
         { icon: LayoutDashboard, label: 'Overview', path: '/dashboard' },
         ...(isAdmin ? [{ icon: ShieldCheck, label: 'Admin Panel', path: '/admin' }] : []),
         { icon: Swords, label: 'The Arena', path: '/dashboard/arena' },
+        { icon: Users, label: 'Study Clans', path: '/dashboard/clans' },
         { icon: Brain, label: 'Test Center', path: '/dashboard/test-center' },
         { icon: Calendar, label: 'Study Plan', path: '/dashboard/study-plan' },
         { icon: BarChart3, label: 'Benchmarking', path: '/dashboard/peer-benchmarking' },

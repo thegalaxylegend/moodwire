@@ -305,3 +305,14 @@ export const getSubjectsForExam = (examId: string): string[] => {
     // 3. Default (No match)
     return [];
 };
+
+export const resolveTopicId = (topicName: string): string => {
+    // 1. Try to find in SYLLABUS_DB
+    for (const subject in SYLLABUS_DB) {
+        const match = SYLLABUS_DB[subject].find(t => t.topic.toLowerCase() === topicName.toLowerCase());
+        if (match) return match.id;
+    }
+
+    // 2. Fallback to slugified version
+    return slugify(topicName).replace(/-/g, '_');
+};

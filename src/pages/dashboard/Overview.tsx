@@ -12,13 +12,15 @@ import { XPProgress } from '../../components/gamification/XPProgress';
 import { AuthGate } from '../../components/auth/AuthGate';
 
 import { ProficiencyMap } from '../../components/dashboard/ProficiencyMap';
+import { mockPrefetchService } from '../../services/mockPrefetchService';
 import { motion, AnimatePresence } from 'framer-motion';
 import { DailyStudyGoalIcon } from '../../components/dashboard/DailyStudyGoalIcon';
 import { RootCauseInsight } from '../../components/dashboard/RootCauseInsight';
 import { ConceptGraphService } from '../../services/conceptGraphService';
 import type { DependencyInsight } from '../../services/conceptGraphService';
-import { DailyMissionCard } from '../../components/dashboard/DailyMissionCard';
-import type { DailyMission } from '../../services/missionService';
+import { MasteryDiagnostics } from '../../components/dashboard/MasteryDiagnostics';
+import { CollegePredictorCard } from '../../components/dashboard/CollegePredictorCard';
+import { predictionService } from '../../services/predictionService';
 
 const DiagnosticPopup = ({ onDismiss, onStart }: { onDismiss: () => void; onStart: () => void }) => {
     return (
@@ -151,7 +153,30 @@ export const Overview = () => {
         if (user && !user.isGuest && (!user.dailyMissions || user.dailyMissions.length === 0)) {
             refreshMissions();
         }
-    }, [user, refreshMissions]);
+        
+        // --- PHASE B: PREDICTIVE PRE-FETCH ---
+        if (user && !user.isGuest && authResolved) {
+             if ('requestIdleCallback' in window) {
+                (window as any).requestIdleCallback(() => {
+                    mockPrefetchService.prefetchQuickTest(
+                        user.id, 
+                        user.targetExam || 'General', 
+                        user.abilityScore || 1000,
+                        user.userClass || 'Class 12th'
+                    );
+                });
+            } else {
+                setTimeout(() => {
+                    mockPrefetchService.prefetchQuickTest(
+                        user.id, 
+                        user.targetExam || 'General', 
+                        user.abilityScore || 1000,
+                        user.userClass || 'Class 12th'
+                    );
+                }, 3000);
+            }
+        }
+    }, [user, refreshMissions, authResolved]);
 
     const handleMissionAction = (mission: DailyMission) => {
         if (mission.type === 'practice' || mission.type === 'review') {
@@ -345,6 +370,19 @@ export const Overview = () => {
             setLoading(false);
         }
     };
+
+    // --- PHASE D: PREDICTIONS ---
+    const [prediction, setPrediction] = useState<any>(null);
+    useEffect(() => {
+        if (user && !user.isGuest) {
+            const result = predictionService.predictRank({
+                currentMockScore: user.abilityScore || 1000, // Using ability score as a proxy for mock score if needed, or better, use latest mock result if available
+                topicStrength: (user.skills?.physics + user.skills?.chemistry + user.skills?.math) / 3 || 0.5,
+                examType: user.targetExam || 'JEE Mains'
+            });
+            setPrediction(result);
+        }
+    }, [user]);
 
     // AI 2.0: Concept Graph Insights
     const [dependencyInsights, setDependencyInsights] = useState<DependencyInsight[]>([]);
@@ -618,6 +656,24 @@ export const Overview = () => {
                                     />
                                 )}
 
+                                {/* Mastery & College Fit Diagnostics */}
+                                <div className="grid grid-cols-1 xl:grid-cols-2 gap-8">
+                                    {weakTopicStats.length > 0 && (
+                                        <div className="space-y-6">
+                                            <MasteryDiagnostics stats={weakTopicStats} />
+                                        </div>
+                                    )}
+
+                                    {prediction?.collegeFitment && (
+                                        <div className="space-y-6">
+                                            <CollegePredictorCard 
+                                                fitment={prediction.collegeFitment} 
+                                                predictedRank={prediction.predictedRank} 
+                                            />
+                                        </div>
+                                    )}
+                                </div>
+
                                 {weakTopicStats.length > 0 && (
                                     <div className="space-y-3 relative">
                                         <div className="flex items-center gap-2 mb-2">
@@ -626,9 +682,16 @@ export const Overview = () => {
                                         </div>
                                         <div className="flex overflow-x-auto no-scrollbar gap-3 pb-2">
                                             {weakTopicStats.map((stat, idx) => (
-                                                <div key={idx} className="shrink-0 px-4 py-3 bg-red-500/10 border border-red-500/20 rounded-xl flex items-center gap-3 oxygen-card">
-                                                    <span className="text-sm font-medium text-red-50">{stat.topic}</span>
-                                                    <span className="text-xs px-2 py-1 bg-red-500/20 rounded-md text-red-300 font-bold">{stat.score_percentage}%</span>
+                                                <div 
+                                                    key={idx} 
+                                                    onClick={() => navigate(`/dashboard/mock?topic=${encodeURIComponent(stat.topic)}`)}
+                                                    className="shrink-0 px-4 py-3 bg-red-500/10 border border-red-500/20 rounded-xl flex items-center gap-3 oxygen-card cursor-pointer hover:bg-red-500/20 transition-all active:scale-95 group"
+                                                >
+                                                    <div className="flex flex-col">
+                                                        <span className="text-sm font-bold text-red-50">{stat.topic}</span>
+                                                        <span className="text-[10px] text-red-300/60 uppercase font-black tracking-tighter">Fix Now</span>
+                                                    </div>
+                                                    <span className="text-base px-2 py-1 bg-red-500/20 rounded-md text-red-300 font-black">{stat.score_percentage}%</span>
                                                 </div>
                                             ))}
                                         </div>
