@@ -103,7 +103,7 @@ The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) el
 
 One shortcut formula that can be used to remember the properties of the s-block elements is:
 
-\text{Reactivity} \propto \frac{1}$\text{Ionization Energy$}
+$\text{Reactivity} \propto $\frac{1}$\text{Ionization Energy$}
 
 
 This formula states that the reactivity of an element is inversely proportional to its ionization energy. This means that elements with low ionization energy are highly reactive, while elements with high ionization energy are less reactive.

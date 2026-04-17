@@ -114,9 +114,9 @@ practice_link: "/practice/computer-networks-class-12-notes"
 The **TCP** three-way handshake can be derived as follows:
 
 \begin{aligned}
-&\text{Client sends SYN packet: } SYN = \langle seq, ack \rangle \\
-&\text{Server responds with SYN-ACK packet: } SYN-ACK = \langle seq, ack + 1 \rangle \\
-&\text{Client responds with ACK packet: } ACK = \langle seq + 1, ack \rangle\end{aligned}
+&$\text{Client sends SYN packet: }$ SYN = \langle seq, ack \rangle \\
+&$\text{Server responds with SYN-ACK packet: }$ SYN-ACK = \langle seq, ack + 1 \rangle \\
+&$\text{Client responds with ACK packet: }$ ACK = \langle seq + 1, ack \rangle\end{aligned}
 
 This derivation shows the sequence of packets exchanged during the **TCP** three-way handshake.
 
@@ -182,7 +182,7 @@ This derivation shows the sequence of packets exchanged during the **TCP** three
 * The **Physical Layer** transmits the frame over a physical medium.
 * The receiving device receives the frame and reverses the process, ultimately delivering the email message to the user.
 
-\text{Data Transmission Time} = \frac$\text{Data Size$}$\text{Bandwidth$} + \text{Propagation Delay}
+$\text{Data Transmission Time} = \frac$\text{Data Size$}$\text{Bandwidth$} + $$\text{Propagation Delay}$
 
 This equation calculates the time it takes for data to be transmitted through a network, where **Data Size** is the size of the data being transmitted, **Bandwidth** is the rate at which data is transmitted, and **Propagation Delay** is the time it takes for the data to travel through the physical medium. 
 
@@ -235,13 +235,13 @@ The **OSI Model** and **TCP/IP Model** provide a framework for understanding how
 
 ## <a id="mathematical-formulation"></a>**Mathematical Formulation**
 The probability of packet loss in a network can be modeled using the following equation:
-P(\text{packet loss}) = 1 - e^{-\lambda t}
+P($\text{packet loss}$) = 1 - e^{-\lambda t}
 where $\lambda$ is the average packet arrival rate, $t$ is the time between packet transmissions, and $e$ is the base of the natural logarithm.
 The throughput of a network can be calculated using the following equation:
-\text{Throughput} = \frac$\text{packet size$}$\text{packet transmission time$}
+$\text{Throughput} = \frac$\text{packet size$}$\text{packet transmission time$}$
 where packet size is the size of the packet in bits, and packet transmission time is the time it takes to transmit the packet.
 The latency of a network can be calculated using the following equation:
-\text{Latency} = \frac$\text{packet transmission time$}{2} + \text{propagation delay}
+$\text{Latency} = \frac$\text{packet transmission time$}{2} + $$\text{propagation delay}$
 where packet transmission time is the time it takes to transmit the packet, and propagation delay is the time it takes for the packet to propagate through the network.
 
 ## <a id="conclusion"></a>**Conclusion**
@@ -293,24 +293,24 @@ These protocols and services work together to provide a and efficient network in
 ### <a id="mathematical-modeling-of-network-performance"></a>**Mathematical Modeling of Network Performance**
 The network performance can be modeled using the following equation:
 
-P = \frac{1}{L} \cdot \frac{B}{D}
+P = $\frac{1}{L} \cdot $$\frac{B}{D}$
 
 where $P$ is the network performance, $L$ is the latency, $B$ is the bandwidth, and $D$ is the distance between nodes.
 The latency can be calculated using the formula:
 
-L = \frac{D}{V} + \frac{P}{B}
+L = $\frac{D}{V} + $$\frac{P}{B}$
 
 where $V$ is the speed of the signal and $P$ is the packet size.
 The throughput can be optimized using the following formula:
 
-T = \frac{B}{L} \cdot \frac{1}{1 + \frac{P}{B}}
+T = $\frac{B}{L} \cdot $\frac{1}{1 + $\frac{P}{B}$}
 
 where $T$ is the throughput.
 
 ### <a id="network-security-threat-modeling"></a>**Network Security Threat Modeling**
 The probability of a network security threat can be modeled using the following equation:
 
-P(T) = \frac{1}{1 + e^{-\theta}}
+P(T) = $\frac{1}{1 + e^{-\theta}}$
 
 where $P(T)$ is the probability of a threat, $\theta$ is the threat score, and $e$ is the base of the natural logarithm.
 The threat score can be calculated using the following formula:
@@ -384,12 +384,12 @@ This allows network administrators to prioritize and mitigate potential threats.
 The $SDN$ architecture can be represented as:
 
 \begin{aligned}
-&\text{Control Plane} \\
-&\quad \begin{cases}\text{SDN Controller} \\\text{Network Applications}\end{cases} \\
-&\text{Data Plane} \\
-&\quad \begin{cases}\text{Switches} \\\text{Routers}\end{cases} \\
-&\text{Southbound Interface} \\
-&\quad \begin{cases}\text{OpenFlow}\end{cases} \\\end{aligned}
+&$\text{Control Plane}$ \\
+&\quad \begin{cases}$\text{SDN Controller} \\$$\text{Network Applications}$\end{cases} \\
+&$\text{Data Plane}$ \\
+&\quad \begin{cases}$\text{Switches} \\$$\text{Routers}$\end{cases} \\
+&$\text{Southbound Interface}$ \\
+&\quad \begin{cases}$\text{OpenFlow}\end{cases}$ \\\end{aligned}
 
 Key $SDN$ benefits:
 * Improved network manageability
@@ -436,7 +436,7 @@ Emerging trends in computer networking:
 * Solution: $T = \frac{100 - 20}{100} = \frac{4}{5}$.
 * Derivation:
 
-T = \frac{x - y}{x} = \frac{100 - 20}{100} = \frac{80}{100} = \frac{4}{5}
+T = $\frac{x - y}{x} = $$\frac{100 - 20}{100}$ = $\frac{80}{100} = $$\frac{4}{5}$
 
 ## <a id="practice-mcqs"></a>Practice MCQs
 

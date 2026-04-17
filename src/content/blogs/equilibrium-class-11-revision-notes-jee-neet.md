@@ -123,7 +123,7 @@ This chapter is massive — it combines [chemical](/blog/chemical-bonding-class-
 
 For $aA + bB \rightleftharpoons cC + dD$:
 
-K_c = \frac{[C]^c [D]^d}{[A]^a [B]^b}
+K_c = $\frac{[C]^c [D]^d}{[A]^a [B]^b}$
 
 
 
@@ -214,7 +214,7 @@ where $\Delta n_g$ = (moles of gaseous products) - (moles of gaseous reactants).
 
 **pH is the negative logarithm (base 10) of the hydrogen ion concentration ($[H^+]$) in a solution, providing a convenient scale to express acidity.**
 
-pH = -\log[H^+]pOH = -\log[OH^-]pH + pOH = pK_w = 14 \text{ (at 298 K)}
+pH = -\log[H^+]pOH = -\log[OH^-]pH + pOH = pK_w = 14 $\text{ (at 298 K)}$
 
 ### <a id="the-autoprotolysis-of-water"></a>The Autoprotolysis of Water
 $K_w = [H^+][OH^-] = 10^{-14} \text{ at 298 K}$.
@@ -254,9 +254,9 @@ This means: **Lower concentration → Higher dissociation**. This is counterintu
 
 ### <a id="hendersonhasselbalch-equation"></a>Henderson-Hasselbalch Equation
 
-pH = pK_a + \log \frac{[\text{Salt}]}{[\text{Acid}]} (Acidic Buffer)
+pH = pK_a + \log $\frac{[$$\text{Salt}$]}{[$\text{Acid}$]} (Acidic Buffer)
 
-pOH = pK_b + \log \frac{[\text{Salt}]}{[\text{Base}]} (Basic Buffer)
+pOH = pK_b + \log $\frac{[$$\text{Salt}$]}{[$\text{Base}$]} (Basic Buffer)
 
 
 

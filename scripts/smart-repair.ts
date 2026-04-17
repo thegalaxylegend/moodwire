@@ -421,7 +421,162 @@ async function repairBlog(filePath: string, isDryRun: boolean, canUseAi: boolean
         }
     }
 
+
     // ... [existing fixes 1-5 remain unchanged] ...
+
+    // ========= FIX 16: LLM Truncation Marker Removal =========
+    // Root Cause #1: LLM hit output token limit and emitted "(suggestion limit reached)".
+    // This is NEVER valid content — safe to remove unconditionally.
+    const slrCount = (body.match(/\(suggestion limit reached\)/g) || []).length;
+    if (slrCount > 0) {
+        body = body.replace(/\(suggestion limit reached\)/g, '');
+        body = body.replace(/^[\s,\-*]*$/gm, ''); // Clean orphaned bullets
+        body = body.replace(/\n{3,}/g, '\n\n');
+        fixes.push(`Removed ${slrCount} "(suggestion limit reached)" truncation artifacts`);
+    }
+
+    // ========= FIX 17: Case-Mangled LaTeX Normalization =========
+    // Root Cause #2: LLM outputs \fRAC instead of \frac, \tEXT instead of \text, etc.
+    const KNOWN_COMMANDS: Record<string, string> = {
+        'frac': 'frac', 'text': 'text', 'times': 'times', 'sqrt': 'sqrt',
+        'sum': 'sum', 'int': 'int', 'prod': 'prod', 'alpha': 'alpha',
+        'beta': 'beta', 'gamma': 'gamma', 'delta': 'delta', 'theta': 'theta',
+        'pi': 'pi', 'sigma': 'sigma', 'omega': 'omega', 'lambda': 'lambda',
+        'infty': 'infty', 'partial': 'partial', 'nabla': 'nabla',
+        'cdot': 'cdot', 'ldots': 'ldots', 'leq': 'leq', 'geq': 'geq',
+        'neq': 'neq', 'approx': 'approx', 'equiv': 'equiv', 'pm': 'pm',
+        'left': 'left', 'right': 'right', 'overline': 'overline',
+        'sin': 'sin', 'cos': 'cos', 'tan': 'tan', 'log': 'log', 'ln': 'ln',
+        'lim': 'lim', 'boxed': 'boxed', 'mathrm': 'mathrm', 'binom': 'binom',
+    };
+    let caseFixCount = 0;
+    body = body.replace(/\\([a-zA-Z]+)/g, (match, cmd) => {
+        const lower = cmd.toLowerCase();
+        if (KNOWN_COMMANDS[lower] && cmd !== KNOWN_COMMANDS[lower]) {
+            caseFixCount++;
+            return '\\' + KNOWN_COMMANDS[lower];
+        }
+        return match;
+    });
+    if (caseFixCount > 0) {
+        fixes.push(`Case-normalized ${caseFixCount} LaTeX commands (e.g. \\fRAC → \\frac)`);
+    }
+
+    // ========= FIX 18: Naked LaTeX Wrapping =========
+    // Root Cause #3: LaTeX commands like \frac{a}{b} render as plaintext without $...$ delimiters.
+    let nakedWrapCount = 0;
+    const nakedLines = body.split('\n');
+    let inBlockMath = false;
+    for (let li = 0; li < nakedLines.length; li++) {
+        const line = nakedLines[li];
+        if (/^\s*\$\$/.test(line)) { inBlockMath = !inBlockMath; continue; }
+        if (inBlockMath || /^\s*\|/.test(line)) continue;
+        
+        const segs = line.split(/(\$[^$]*\$)/);
+        let segModified = false;
+        for (let si = 0; si < segs.length; si++) {
+            if (si % 2 === 0) {
+                const fixed = segs[si].replace(
+                    /\\(frac|text|sqrt|overline|underline|vec|hat|bar|boxed|mathrm|mathbb|binom)(\{[^}]*\}(?:\{[^}]*\})*)/g,
+                    (m) => { segModified = true; return '$' + m + '$'; }
+                );
+                if (fixed !== segs[si]) segs[si] = fixed;
+            }
+        }
+        if (segModified) { nakedLines[li] = segs.join(''); nakedWrapCount++; }
+    }
+    if (nakedWrapCount > 0) {
+        body = nakedLines.join('\n');
+        fixes.push(`Wrapped naked LaTeX in ${nakedWrapCount} lines with $ delimiters`);
+    }
+
+    // ========= FIX 19: Heading Hallucination Fix =========
+    // Root Cause #5: LLM outputs "Solved Yes" instead of "Solved PYQs".
+    if (body.includes('Solved Yes')) {
+        body = body.replace(/Solved Yes/g, 'Solved PYQs');
+        fixes.push('Fixed heading hallucination: "Solved Yes" → "Solved PYQs"');
+    }
+
+    // ========= FIX 20: Multi-line JSON Squash Extraction =========
+    // Root Cause #4: LLM returned raw JSON objects in the markdown body.
+    const jsonBlockRegex = /\n\s*\{\s*\r?\n\s*"heading"\s*:\s*"([^"]*?)"\s*,\s*\r?\n\s*"body"\s*:\s*"/g;
+    let jsonMatch;
+    let jsonExtractCount = 0;
+    while ((jsonMatch = jsonBlockRegex.exec(body)) !== null) {
+        const blockStart = jsonMatch.index;
+        let depth = 0;
+        let blockEnd = -1;
+        for (let c = blockStart + body.substring(blockStart).indexOf('{'); c < body.length; c++) {
+            if (body[c] === '{') depth++;
+            if (body[c] === '}') { depth--; if (depth === 0) { blockEnd = c + 1; break; } }
+        }
+        if (blockEnd > blockStart) {
+            const fullBlock = body.substring(blockStart, blockEnd);
+            const bodyExtract = fullBlock.match(/"body"\s*:\s*"([\s\S]*)/);
+            if (bodyExtract) {
+                let extracted = bodyExtract[1];
+                const lastQuote = extracted.lastIndexOf('"');
+                if (lastQuote >= 0) extracted = extracted.substring(0, lastQuote);
+                extracted = extracted.replace(/\\n/g, '\n').replace(/\\"/g, '"').replace(/\\\\/g, '\\').trim();
+                body = body.substring(0, blockStart) + '\n\n' + extracted + '\n\n' + body.substring(blockEnd);
+                jsonExtractCount++;
+                jsonBlockRegex.lastIndex = blockStart; // Reset since body changed
+            }
+        }
+    }
+    if (jsonExtractCount > 0) {
+        body = body.replace(/\n{3,}/g, '\n\n');
+        fixes.push(`Extracted ${jsonExtractCount} multi-line JSON-squash blocks into markdown`);
+    }
+
+    // ========= FIX 21: Standalone Naked Math Block Wrapping =========
+    // Root Cause #6: LLM outputs entire equations on their own lines (like "f'(x) = \lim...") 
+    // either completely naked or with fragmented inline $ wrappers.
+    let standaloneMathFixCount = 0;
+    const bodyLines = body.split('\n');
+    let insideBlockMathFix = false;
+    
+    function isStandaloneMath(line: string): boolean {
+        const bareLine = line.replace(/\$/g, '').trim();
+        if (bareLine.length === 0 || line.includes('$$')) return false;
+        if (!/(\\[a-zA-Z]+|=|f'\([a-zA-Z0-9]\)|[+\-*/^])/.test(bareLine)) return false;
+        
+        const withoutLatex = bareLine.replace(/\\[a-zA-Z]+/g, '');
+        const words = withoutLatex.match(/[a-zA-Z]{3,}/g) || [];
+        const proseWords = words.filter(w => !['sin', 'cos', 'tan', 'log', 'lim', 'max', 'min'].includes(w.toLowerCase()));
+        
+        if (proseWords.length > 1) return false; 
+        
+        if (/\\(lim|sin|cos|tan|frac|int|sum|prod|alpha|beta|gamma|theta|pi|infty|rightarrow)/.test(bareLine)) return true;
+        if (bareLine.includes("f'(") || bareLine.startsWith("=")) return true;
+        
+        return false;
+    }
+
+    for (let li = 0; li < bodyLines.length; li++) {
+        const line = bodyLines[li];
+        if (/^\s*\$\$/.test(line)) { insideBlockMathFix = !insideBlockMathFix; continue; }
+        if (insideBlockMathFix || /^\s*\|/.test(line) || /^#/.test(line) || (/^- /.test(line) && line.length > 50)) continue;
+        
+        if (isStandaloneMath(line)) {
+            // Strip any fragmented inline $ and wrap the whole line as block math
+            const cleanLine = line.replace(/\$/g, '').trim();
+            // Preserve list marker if it exists
+            const listMatch = line.match(/^(\s*[-*]\s+|\s*\d+\.\s+)/);
+            if (listMatch) {
+                bodyLines[li] = `${listMatch[1]}$$ ${cleanLine.substring(listMatch[1].length).trim()} $$`;
+            } else {
+                bodyLines[li] = `$$ ${cleanLine} $$`;
+            }
+            standaloneMathFixCount++;
+        }
+    }
+    
+    if (standaloneMathFixCount > 0) {
+        body = bodyLines.join('\n');
+        fixes.push(`Converted ${standaloneMathFixCount} fragmented standalone equations into block math`);
+    }
+
     // ========= FIX 1: Kill List Phrase Removal =========
     let killCount = 0;
     for (const phrase of KILL_LIST) {

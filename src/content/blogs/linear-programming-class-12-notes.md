@@ -37,15 +37,15 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 - **$x \geq 0$ and $y \geq 0$**: 1 question on plotting the non-negativity constraints and finding the feasible region — always
 - **Linear Programming [applications](/blog/biotechnology-and-its-applications-class-12-notes)**: 1 question on [applications](/blog/biotechnology-and-its-applications-class-12-notes) of linear programming in real-life scenarios — always
 - **Maximization and Minimization**: 1 numerical on formulating and solving maximization and minimization problems using [linear](/blog/pair-of-linear-equations-class-10-notes) programming — always
-- **Multiple Optimal Solutions**: 1 question on identifying and handling multiple optimal solutions in [linear](/blog/pair-of-linear-equations-class-10-notes) programming problems — always
+- **Multiple Optimal Solutions**: 1 question on identifying and handling multiple optimal solutions in linear programming problems — always
 - **Redundant Constraints**: 1 numerical on identifying and handling redundant constraints in linear programming problems — always 
 - **Binding Constraints**: 1 question on identifying and handling binding constraints in linear programming problems — always
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Objective Function:** \min \text{ or } \max\ Z = \sum_{j=1}^{n} c_jx_j — where $Z$ is the objective function value, $c_j$ is the coefficient of variable $x_j$, and $x_j$ is the $j^{th}$ decision variable.
+- **Objective Function:** \min $\text{ or } \max\ Z = \sum_{j=1}^{n} c_jx_j — where $Z$ is the objective function value, $c_j$ is the coefficient of variable $x_j$, and $x_j$ is the $j^{th}$ decision variable.$
 
- - **Constraint Equation:** \sum_{j=1}^{n} a_{ij}x_j \leq \text{ or } = \text{ or } \geq b_i — where $a_{ij}$ is the coefficient of $x_j$ in the $i^{th}$ constraint, $b_i$ is the right-hand side value of the $i^{th}$ constraint.
+ - **Constraint Equation:** \sum_{j=1}^{n} a_{ij}x_j \leq $\text{ or } = $$\text{ or }$ \geq b_i — where $a_{ij}$ is the coefficient of $x_j$ in the $i^{th}$ constraint, $b_i$ is the right-hand side value of the $i^{th}$ constraint.
 
  - **Non-Negativity Constraint:** x_j \geq 0 — where $x_j$ is the $j^{th}$ decision variable.
 
@@ -55,13 +55,13 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 
  - **Artificial Variable:** A_i = \sum_{j=1}^{n} a_{ij}x_j + s_i - b_i — where $A_i$ is the artificial variable for the $i^{th}$ constraint.
 
- - **Big M Method:** Z = \min \text{ or } \max\ \left( \sum_{j=1}^{n} c_jx_j + M \sum_{i=1}^{m} A_i \right) — where $M$ is a large positive number, $A_i$ is the artificial variable for the $i^{th}$ constraint.
+ - **Big M Method:** Z = \min $\text{ or } \max\ \left( \sum_{j=1}^{n} c_jx_j + M \sum_{i=1}^{m} A_i \right) — where $M$ is a large positive number, $A_i$ is the artificial variable for the $i^{th}$ constraint.$
 
  - **Two-Phase Method:** 
 
 - **Phase I:** Z = \min \sum_{i=1}^{m} A_i
 
-- **Phase II:** Z = \min \text{ or } \max\ \sum_{j=1}^{n} c_jx_j
+- **Phase II:** Z = \min $\text{ or }$ \max\ \sum_{j=1}^{n} c_jx_j
 
  - **[dual](/blog/dual-nature-of-radiation-class-12-notes) Simplex Method:** 
 
@@ -71,11 +71,11 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 
  - **Shadow Price:** \Delta Z = \sum_{i=1}^{m} y_i \Delta b_i — where $\Delta Z$ is the change in the objective function value, $y_i$ is the dual variable for the $i^{th}$ constraint, $\Delta b_i$ is the change in the right-hand side value of the $i^{th}$ constraint.
 
- - **Reduced Cost:** \bar{c}_j = c_j - \sum_{i=1}^{m} y_i a_{ij} — where $\bar{c}_j$ is the reduced cost of $x_j$, $c_j$ is the coefficient of $x_j$, $y_i$ is the dual variable for the $i^{th}$ constraint, $a_{ij}$ is the coefficient of $x_j$ in the $i^{th}$ constraint.
+ - **Reduced Cost:** $\bar{c}_j = c_j - \sum_{i=1}^{m} y_i a_{ij} — where $\bar{c}_j$ is the reduced cost of $x_j$, $c_j$ is the coefficient of $x_j$, $y_i$ is the dual variable for the $i^{th}$ constraint, $a_{ij}$ is the coefficient of $x_j$ in the $i^{th}$ constraint.$
 
  - **Shadow Price:** \Delta Z = \sum_{i=1}^{m} y_i \Delta b_i — where $\Delta Z$ is the change in the objective function value, $y_i$ is the dual variable for the $i^{th}$ constraint, $\Delta b_i$ is the change in the right-hand side value of the $i^{th}$ constraint.
 
- - **Reduced Cost:** \bar{c}_j = c_j - \sum_{i=1}^{m} y_i a_{ij} — where $\bar{c}_j$ is the reduced cost of $x_j$, $c_j$ is the coefficient of $x_j$, $y_i$ is the dual variable for the $i^{th}$ constraint, $a_{ij}$ is the coefficient of $x_j$ in the $i^{th}$ constraint.
+ - **Reduced Cost:** $\bar{c}_j = c_j - \sum_{i=1}^{m} y_i a_{ij} — where $\bar{c}_j$ is the reduced cost of $x_j$, $c_j$ is the coefficient of $x_j$, $y_i$ is the dual variable for the $i^{th}$ constraint, $a_{ij}$ is the coefficient of $x_j$ in the $i^{th}$ constraint.$
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -265,17 +265,17 @@ Multiplying the second equation by 2 gives:
 
  Subtracting the first equation from this gives:
 
-3y = 80y = \frac{80}{3}
+3y = 80y = $\frac{80}{3}$
 
  Substituting $y = \frac{80}{3}$ into one of the original equations to find $x$:
 
-2x + \frac{80}{3} = 1206x + 80 = 3606x = 280x = \frac{280}{6}x = \frac{140}{3}
+2x + $\frac{80}{3} = 1206x + 80 = 3606x = 280x = $$\frac{280}{6}$x = $\frac{140}{3}$
 
  Thus, the maximum profit occurs at $x = \frac{140}{3}$ and $y = \frac{80}{3}$.
 
  Substituting these values into the objective function:
 
-P = 20(\frac{140}{3}) + 30(\frac{80}{3})P = \frac{2800}{3} + \frac{2400}{3}P = \frac{5200}{3}
+P = 20($\frac{140}{3}) + 30($$\frac{80}{3}$)P = $\frac{2800}{3} + $$\frac{2400}{3}$P = $\frac{5200}{3}$
 
  - **Answer:** $\frac{5200}{3}$
 
@@ -295,9 +295,9 @@ P = 20(\frac{140}{3}) + 30(\frac{80}{3})P = \frac{2800}{3} + \frac{2400}{3}P = \
 
  * Using the $\Delta$-method to calculate the range of values for the objective function coefficients ($c_j$) and the right-hand side values ($b_i$) for which the solution remains optimal.
 
- * Applying the formula for the range of optimality: \Delta c_j = \frac{z_j - c_j}{\bar{a}_{j \cdot}} where $z_j$ is the value of the $j^{th}$ variable in the optimal solution, $c_j$ is the coefficient of the $j^{th}$ variable in the objective function, and $\bar{a}_{j \cdot}$ is the $j^{th}$ column of the optimal tableau.
+ * Applying the formula for the range of optimality: \Delta c_j = $\frac{z_j - c_j}{$$\bar{a}_{j \cdot}$} where $z_j$ is the value of the $j^{th}$ variable in the optimal solution, $c_j$ is the coefficient of the $j^{th}$ variable in the objective function, and $\bar{a}_{j \cdot}$ is the $j^{th}$ column of the optimal tableau.
 
- * Calculating the range of values for the right-hand side parameters ($b_i$) using the formula: \Delta b_i = \frac{\bar{x}_i}{\bar{a}_{i \cdot}} where $\bar{x}_i$ is the $i^{th}$ slack/surplus variable in the optimal solution, and $\bar{a}_{i \cdot}$ is the $i^{th}$ row of the optimal tableau.
+ * Calculating the range of values for the right-hand side parameters ($b_i$) using the formula: \Delta b_i = $\frac{$$\bar{x}_i$}{$\bar{a}_{i \cdot}} where $\bar{x}_i$ is the $i^{th}$ slack/surplus variable in the optimal solution, and $\bar{a}_{i \cdot}$ is the $i^{th}$ row of the optimal tableau.$
 
  * Interpreting the results to understand the sensitivity of the solution to changes in the input parameters.
 

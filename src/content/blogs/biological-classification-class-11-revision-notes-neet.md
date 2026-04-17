@@ -103,31 +103,31 @@ I still remember when I was preparing for my MEET exam, I used to get confused b
 
 ### <a id="kingdom"></a>Kingdom
 Kingdom is the highest level of classification. There are six kingdoms: Animalia, Plantar, Fungi, Protista, Christa, and Monera. 
-\text{Kingdom} = \text{highest level of classification}
+$\text{Kingdom} = $$\text{highest level of classification}$
 
 ### <a id="phylum"></a>Phylum
 Phylum is the level of classification below the kingdom. It is a group of related classes. 
-\text{Phylum} = \text{group of related classes}
+$\text{Phylum} = $$\text{group of related classes}$
 
 ### <a id="class"></a>Class
 [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) is the level of classification below the phylum. It is a group of related orders. 
-\text{[class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)} = \text{group of related orders}
+$\text{[class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)} = $$\text{group of related orders}$
 
 ### <a id="order"></a>Order
 Order is the level of classification below the [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet). It is a group of related families. 
-\text{Order} = \text{group of related families}
+$\text{Order} = $$\text{group of related families}$
 
 ### <a id="family"></a>Family
 Family is the level of classification below the order. It is a group of related genera. 
-\text{Family} = \text{group of related genera}
+$\text{Family} = $$\text{group of related genera}$
 
 ### <a id="genus"></a>Genus
 Genus is the level of classification below the family. It is a group of related species. 
-\text{Genus} = \text{group of related species}
+$\text{Genus} = $$\text{group of related species}$
 
 ### <a id="species"></a>Species
 Species is the lowest level of classification. It is a group of organisms that can interbreed and produce fertile offspring. 
-\text{Species} = \text{group of organisms that can interbreed}
+$\text{Species} = $$\text{group of organisms that can interbreed}$
 
 
 

@@ -104,10 +104,10 @@ The half-equation method is a method used to balance redox reactions. In this me
 Oxidation numbers are used to keep track of the electrons in a redox reaction. The oxidation number of an element is the charge that the element would have if the electrons in the bond were assigned to the more electronegative atom.
 
 The formula to calculate the oxidation number is:
-\text{Oxidation Number} = \text{Number of electrons gained or lost}
+$\text{Oxidation Number} = $$\text{Number of electrons gained or lost}$
 
 For example, in the reaction:
-\text{Fe}^{2+} \rightarrow \text{Fe}^{3+} + \text{e}^-
+$\text{Fe}^{2+} \rightarrow $$\text{Fe}^{3+}$ + $\text{e}$^-
 The oxidation number of iron increases from +2 to +3, indicating that iron has lost an electron.
 
 
@@ -116,7 +116,7 @@ The oxidation number of iron increases from +2 to +3, indicating that iron has l
 ## <a id="shortcut-formulatrick"></a>Shortcut Formula/Trick
 
 To balance a redox reaction, we can use the following shortcut formula:
-\text{Redox Reaction} = \text{Oxidation Half-Equation} + \text{Reduction Half-Equation}
+$\text{Redox Reaction} = $$\text{Oxidation Half-Equation}$ + $\text{Reduction Half-Equation}$
 This formula helps us to balance the reaction by combining the oxidation and reduction half-equations.
 
 

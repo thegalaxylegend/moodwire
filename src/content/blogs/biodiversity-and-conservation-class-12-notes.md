@@ -13,7 +13,7 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
 - [⚡ Formula Bank](#-formula-bank)
 - [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
-- [✏️ 3 Solved Yes](#-3-solved-pyqs)
+- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
 - [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
 - [👁️ Ayush's Note](#-Ayush-note)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
@@ -52,7 +52,7 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
  - *Costs:* 1–2 marks for each species misclassified.
 
- - *Fix:* Familiarize yourself with the IUCN Red List categories, particularly focusing on the distinctions between endangered (EN), vulnerable (VU), and other categories. Remember that UP(\text{Extinction})$ increases as the category moves from 'Least Concern' towards 'Extinct', with vulnerable species having a higher risk than near threatened but less than endangered species.
+ - *Fix:* Familiarize yourself with the IUCN Red List categories, particularly focusing on the distinctions between endangered (EN), vulnerable (VU), and other categories. Remember that UP($\text{Extinction})$ increases as the category moves from 'Least Concern' towards 'Extinct', with vulnerable species having a higher risk than near threatened but less than endangered species.
 
  - **Mistake 3:** Miscalculating the population size or growth rate using the exponential growth model IN(t) = N_0 \times e^{rt}$.
 
@@ -72,7 +72,7 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
  - *Fix:* Study the effects of invasive species on ecosystem balance and biodiversity. Remember that invasive species can outcompete native species for resources, leading to a decline in native species populations and potentially even extinctions. This can be represented by the equation $\franc{dN}{dt} = RN \left(1 - \franc{N}{K}\right)$, where AND is the population size, are is the intrinsic growth rate, and OK is the carrying capacity, which can be altered by the presence of invasive species.
 
-## <a id="-3-solved-pyqs"></a>✏️ 3 Solved Yes
+## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 - **Q1:** What is the primary cause of biodiversity loss in ecosystems?
 
@@ -82,11 +82,11 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
  The primary cause of biodiversity loss can be determined by analyzing the main drivers of [ecosystem](/blog/ecosystem-class-12-notes) disruption. 
 
- \text{Biodiversity Loss} = \text{Habitat Destruction} + \text{Overexploitation} + \text{Pollution} + \text{Climate Change}
+ $\text{Biodiversity Loss} = $$\text{Habitat Destruction}$ + $\text{Overexploitation} + $$\text{Pollution}$ + $\text{Climate Change}$
 
  However, when we consider the scale and impact, habitat destruction is the leading cause, often driven by [human](/blog/human-health-and-disease-class-12-notes) activities such as deforestation and urbanization. 
 
- {\text{Habitat Destruction}} = $\text{Deforestation$} + $\text{Urbanization$}
+ {$\text{Habitat Destruction}} = $\text{Deforestation$} + $\text{Urbanization$}$
 
  - **Answer:** Habitat destruction
 
@@ -98,11 +98,11 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
  The percentage increase can be calculated using the formula:
 
- \text{Percentage Increase} = \left( \France\text{New Value - \text{Old Value}}$\text{Old Value} \right) \times 100
+ $\text{Percentage Increase} = \left( \France$\text{New Value - $\text{Old Value}}\text{Old Value}$ \right) \times 100
 
  Substituting the given values:
 
- \text{Percentage Increase} = \left( \franc{1500–1000}{1000} \right) \times 100 = \left( \franc{500}{1000} \right) \times 100 = 0.5 \times 100 = 50%
+ $\text{Percentage Increase}$ = \left( \franc{1500–1000}{1000} \right) \times 100 = \left( \franc{500}{1000} \right) \times 100 = 0.5 \times 100 = 50%
 
  - **Answer:** 50%
 
@@ -114,7 +114,7 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
  The trophic level can be determined by understanding the position of each group in the food chain:
 
- {\text{Trophic Level}} = $\text{Position in Food Chain}
+ {$\text{Trophic Level}} = \text{Position in Food Chain}$
 
  Primary producers are at the base (trophic level 1), primary consumers feed on them (trophic level 2), and secondary consumers feed on primary consumers (trophic level 3).
 
@@ -231,7 +231,7 @@ D) Dispersion
 ---
 
 **4. Which of the following conservation strategies involves the protection of a specific species and its habitat?**
-A) [ecosystem](/blog/ecosystem-class-12-notes)-based conservation
+A) Ecosystem-based conservation
 B) Species-based conservation
 C) Habitat-based conservation
 D) In-situ conservation

@@ -122,7 +122,7 @@ The following table summarizes the key features of the Industrial Revolution:
 
 The following formulae are relevant to the Industrial Revolution:
 
-\text{Productivity} = \frac$\text{Output$}$\text{Input$}\text{Efficiency} = \frac$\text{Output$}$\text{Cost$}
+$\text{Productivity} = \frac$\text{Output$}$\text{Input$}$$\text{Efficiency}$ = \frac$\text{Output$}$\text{Cost$}
 
 
 
@@ -206,7 +206,7 @@ The following table summarizes the key features of the Industrial Revolution:
 
 The following formulae are relevant to the Industrial Revolution:
 
-\text{Productivity} = \frac$\text{Output$}$\text{Input$}\text{Efficiency} = \frac$\text{Output$}$\text{Cost$}
+$\text{Productivity} = \frac$\text{Output$}$\text{Input$}$$\text{Efficiency}$ = \frac$\text{Output$}$\text{Cost$}
 
 
 

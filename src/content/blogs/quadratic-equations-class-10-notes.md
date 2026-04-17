@@ -38,9 +38,9 @@ practice_link: "/class-11/mathematics/quadratic-equations-class-10-notes"
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Quadratic Formula:** \frac{{-b \pm \sqrt{{b^2 - 4ac}}}}{{2a}} — a, b, and c are coefficients of the quadratic equation $ax^2 + bx + c = 0$.
- - **Sum of Roots:** \frac{{-b}}{{a}} — a and b are coefficients of the quadratic equation $ax^2 + bx + c = 0$.
- - **Product of Roots:** \frac{{c}}{{a}} — a and c are coefficients of the quadratic equation $ax^2 + bx + c = 0$.
+- **Quadratic Formula:** $\frac{{-b \pm $$\sqrt{{b^2 - 4ac}}$}}{{2a}} — a, b, and c are coefficients of the quadratic equation $ax^2 + bx + c = 0$.
+ - **Sum of Roots:** $\frac{{-b}}{{a}} — a and b are coefficients of the quadratic equation $ax^2 + bx + c = 0$.$
+ - **Product of Roots:** $\frac{{c}}{{a}} — a and c are coefficients of the quadratic equation $ax^2 + bx + c = 0$.$
  - **Discriminant:** \Delta = b^2 - 4ac — a, b, and c are coefficients of the quadratic equation $ax^2 + bx + c = 0$.
  - **Nature of Roots:** 
  - If $\Delta > 0$, the equation has two distinct real roots.
@@ -50,7 +50,7 @@ practice_link: "/class-11/mathematics/quadratic-equations-class-10-notes"
  - $\alpha + \beta = \frac{{-b}}{{a}}$
  - $\alpha \beta = \frac{{c}}{{a}}$
  - **Quadratic Equation in Vertex Form:** y = a(x - h)^2 + k — $(h, k)$ is the vertex of the parabola.
- - **Axis of Symmetry:** x = \frac{{-b}}{{2a}} — a and b are coefficients of the quadratic equation $ax^2 + bx + c = 0$.
+ - **Axis of Symmetry:** x = $\frac{{-b}}{{2a}} — a and b are coefficients of the quadratic equation $ax^2 + bx + c = 0$.$
  - **Vertex Form to Standard Form Conversion:** y = a(x - h)^2 + k = ax^2 - 2ahx + ah^2 + k = ax^2 + bx + c 
  — where $b = -2ah$ and $c = ah^2 + k$.
 
@@ -68,7 +68,7 @@ eq 0$. Ensure that the coefficient of ${x^2}$ is not zero.
  - *Fix:* Double-check that you are substituting the correct values of $a$, $b$, and $c$ into the quadratic formula: ${x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}}$. Verify your calculations to ensure accuracy.
  - **Mistake 4:** Not simplifying the expression under the square root in the quadratic formula.
  - *Costs:* 1-2 marks
- - *Fix:* Always simplify the expression under the square root: \sqrt{b^2 - 4ac$}$. This may involve factoring out perfect squares or simplifying the expression inside the square root.
+ - *Fix:* Always simplify the expression under the square root: $\sqrt{b^2 - 4ac$}$. This may involve factoring out perfect squares or simplifying the expression inside the square root.$
  - **Mistake 5:** Failing to check the nature of the roots (real and distinct, real and equal, or complex) based on the discriminant ${b^2 - 4ac}$.
  - *Costs:* 2-4 marks
  - *Fix:* Use the discriminant ${b^2 - 4ac}$ to determine the nature of the roots. If ${b^2 - 4ac > 0}$, the roots are real and distinct. If ${b^2 - 4ac = 0}$, the roots are real and equal. If ${b^2 - 4ac < 0}$, the roots are complex.
@@ -95,17 +95,17 @@ eq 0$. Ensure that the coefficient of ${x^2}$ is not zero.
  - Use the quadratic formula: 
  
 
-x = \frac{{-b \pm \sqrt{{b^2 - 4ac}}}}{2a}
+x = $\frac{{-b \pm $$\sqrt{{b^2 - 4ac}}$}}{2a}
 
  - For the given equation $x^2 - 3x - 2 = 0$, we have $a = 1$, $b = -3$, and $c = -2$.
  - Substitute these values into the quadratic formula:
  
 
-x = \frac{{-(-3) \pm \sqrt{{(-3)^2 - 4(1)(-2)}}}}{2(1)} \
+x = $\frac{{-(-3) \pm $$\sqrt{{(-3)^2 - 4(1)(-2)}}$}}{2(1)} \
 
-x = \frac{{3 \pm \sqrt{{9 + 8}}}}{2} \
+x = $\frac{{3 \pm $$\sqrt{{9 + 8}}$}}{2} \
 
-x = \frac{{3 \pm \sqrt{{17}}}}{2}
+x = $\frac{{3 \pm $$\sqrt{{17}}$}}{2}
 
  - Therefore, the roots are $x = \frac{{3 + \sqrt{{17}}}}{2}$ and $x = \frac{{3 - \sqrt{{17}}}}{2}$.
  - **Answer:** $x = \frac{{3 + \sqrt{{17}}}}{2}$ and $x = \frac{{3 - \sqrt{{17}}}}{2}$
@@ -115,24 +115,24 @@ x = \frac{{3 \pm \sqrt{{17}}}}{2}
  - To simplify $x = \frac{1}{{2 + \sqrt{3}}}$, multiply the numerator and denominator by the conjugate of the denominator:
  
 
-x = \frac{1}{{2 + \sqrt{3}}} \times \frac{{2 - \sqrt{3}}}{{2 - \sqrt{3}}} \
+x = $\frac{1}{{2 + $$\sqrt{3}$}} \times $\frac{{2 - $$\sqrt{3}$}}{{2 - $\sqrt{3}$}} \
 
-x = \frac{{2 - \sqrt{3}}}{{(2)^2 - (\sqrt{3})^2}} \
+x = $\frac{{2 - $$\sqrt{3}$}}{{(2)^2 - ($\sqrt{3}$)^2}} \
 
-x = \frac{{2 - \sqrt{3}}}{{4 - 3}} \
+x = $\frac{{2 - $$\sqrt{3}$}}{{4 - 3}} \
 
-x = 2 - \sqrt{3}
+x = 2 - $\sqrt{3}$
 
  - Now, substitute $x = 2 - \sqrt{3}$ into the expression $x^2 + 3x - 4$:
  
 
-(2 - \sqrt{3})^2 + 3(2 - \sqrt{3}) - 4 \
+(2 - $\sqrt{3})^2 + 3(2 - $$\sqrt{3}$) - 4 \
 
-(4 - 4\sqrt{3} + 3) + (6 - 3\sqrt{3}) - 4 \
+(4 - 4$\sqrt{3} + 3) + (6 - 3$$\sqrt{3}$) - 4 \
 
-4 - 4\sqrt{3} + 3 + 6 - 3\sqrt{3} - 4 \
+4 - 4$\sqrt{3} + 3 + 6 - 3$$\sqrt{3}$ - 4 \
 
-9 - 7\sqrt{3}
+9 - 7$\sqrt{3}$
 
  - **Answer:** $9 - 7\sqrt{3}$
 
@@ -140,7 +140,7 @@ x = 2 - \sqrt{3}
 
 - **The Core Concept:** The core concept in quadratic equations that separates high scorers from the rest is the **discriminant**, $b^2 - 4ac$, which determines the nature of the roots of a quadratic equation $ax^2 + bx + c = 0$. 
 
-- **What 85% scorers do:** Most students (around 85% scorers) focus on simply solving quadratic [equations](/blog/pair-of-linear-equations-class-10-notes) using the quadratic formula: x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} without deeply understanding the implications of the discriminant.
+- **What 85% scorers do:** Most students (around 85% scorers) focus on simply solving quadratic [equations](/blog/pair-of-linear-equations-class-10-notes) using the quadratic formula: x = $\frac{-b \pm $$\sqrt{b^2 - 4ac}$}{2a} without deeply understanding the implications of the discriminant.
 
  - **What 95% scorers do:** However, high scorers (95% scorers) understand that the discriminant, $b^2 - 4ac$, is key to quickly determining the nature of the roots without fully solving the equation. They can:
  * Identify if the roots are real and distinct ($b^2 - 4ac > 0$)
@@ -171,11 +171,11 @@ x = 2 - \sqrt{3}
 
 - {a}{x}^2 + {b}{x} + {c} = 0: Standard form of a quadratic equation
 
-- {x} = \frac{{-b} \pm \sqrt{{{b}^2} - {4}{a}{c}}}{{2}{a}}: Quadratic formula
+- {x} = $\frac{{-b} \pm $$\sqrt{{{b}^2} - {4}{a}{c}}$}{{2}{a}}: Quadratic formula
 
  - {b}^2 - {4}{a}{c}$: Discriminant to determine nature of roots
- - {x} = \frac{{-b}}{{2}{a}}$: Formula for x-coordinate of vertex
- - {y} = {c} - \frac{{{b}^2}}{{4}{a}}$: Formula for y-coordinate of vertex
+ - {x} = $\frac{{-b}}{{2}{a}}$: Formula for x-coordinate of vertex
+ - {y} = {c} - $\frac{{{b}^2}}{{4}{a}}$: Formula for y-coordinate of vertex
  - Key facts:
  - A quadratic equation has two roots
  - Roots can be [real](/blog/real-numbers-class-10-notes) or complex
@@ -187,7 +187,7 @@ x = 2 - \sqrt{3}
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What is the nature of the roots of the quadratic equation $x^2 + 4x + 4 = 0$?**
-A) [real](/blog/real-numbers-class-10-notes) and distinct
+A) Real and distinct
 B) Real and equal
 C) Imaginary
 D) None

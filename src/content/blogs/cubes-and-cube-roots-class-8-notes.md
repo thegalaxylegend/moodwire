@@ -13,7 +13,7 @@ manualReview: false
 
 - [⚡ Formula Bank](#-formula-bank)
 - [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
-- [✏️ 3 Solved Yes](#-3-solved-pyqs)
+- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
 - [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
 - [👁️ Ayush's Note](#-Ayush-note)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
@@ -42,7 +42,7 @@ manualReview: false
 
 - *Error description:* This is super common, especially when you're under exam pressure! Students often mix up the definition of a cube (ex^3$) with a square (ex^2$),
 
-## <a id="-3-solved-pyqs"></a>✏️ 3 Solved Yes
+## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 - **Q1:** Find the cube root of 17576 by the prime factorization method.
  - **Trap:** Students often make calculation errors during prime factorization or forget to group the factors in triplets, which is crucial for finding the cube root.
@@ -98,16 +98,12 @@ manualReview: false
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
-{
- "heading": "🧠 The One Thing Most Students Get Wrong",
- "body": "
-
 - **The Core Concept:** The unique relationship between the unit digit of a perfect cube and the unit digit of its cube root. Isn't just about knowing $1^3=1$, but actively using the pattern to rapidly estimate and verify cube roots, especially for larger numbers, without resorting to lengthy prime factorization or trial-and-error multiplication.
 
 - **What 85% scorers do:**
  
 
-- They primarily rely on prime factorization to find cube roots. For a number like $\sort[3]{13824}$, they'll meticulously break down 13824 into its prime factors ($2 \times 2 \times 2 \times 2 \times 2 \times 2 \times 3 \times 3 \times 3$), then group them in threes to find the cube root ($2 \times 2 \times 3 = 12$). While correct, this is time-consuming under exam pressure.
+- They primarily rely on prime factorization to find cube roots. For a number like $\sort[3]{13824}$, they'll meticulously break down 13824 into its prime factors ($2 	imes 2 	imes 2 	imes 2 	imes 2 	imes 2 	imes 3 	imes 3 	imes 3$), then group them in threes to find the cube root ($2 	imes 2 	imes 3 = 12$). While correct, this is time-consuming under exam pressure.
  
 
 - They might know the cubes of numbers from 1 to 10, but they don't systematically apply the unit digit pattern as a shortcut. For instance, if asked to find $\sort[3]{9261}$, they might know it's between $20^3=8000$ and $21^3=9261$, but the unit digit connection isn't their primary guide.
@@ -125,6 +121,8 @@ manualReview: false
  
 
 - **Key Unit Digit Mappings for Cub**}
+
+
 
 ## <a id="-Ayush-note"></a>👁️ Ayush's Note
 

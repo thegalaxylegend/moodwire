@@ -29,7 +29,7 @@ practice_link: "/class-10/mathematics/areas-related-to-circles"
 
 - [⚡ Formula Bank](#-formula-bank)
 - [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
-- [✏️ 3 Solved Yes](#-3-solved-pyqs)
+- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
 - [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
 - [👁️ Ayush's Note](#-Ayush-note)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
@@ -86,7 +86,7 @@ practice_link: "/class-10/mathematics/areas-related-to-circles"
 
 - *Fix:* Use the correct formula for the length of an arc and plug in the values carefully.
 
-## <a id="-3-solved-pyqs"></a>✏️ 3 Solved Yes
+## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 - **Q1:** In a circle of radius 7 cm, a chord BABY of length 12 cm is drawn. Find the distance of the chord from the center of the circle.
  - **Trap:** Students often get confused about how to use the properties of a circle to find the distance of the chord from the center.

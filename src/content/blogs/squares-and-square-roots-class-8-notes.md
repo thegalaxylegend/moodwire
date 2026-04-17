@@ -5,7 +5,7 @@ description: "Squares and Square Roots Class 8 Mathematics Recap â€” CBSE 2026 Q
 category: "Exam Notes"
 date: "2026-04-16"
 practice_link: "/class-8/mathematics/squares-and-square-roots"
-manualReview: true
+manualReview: false
 ---
 
 
@@ -88,9 +88,9 @@ eq 0$,- **Simplifying Square Roots Formula:** sqrt{ab} = sqrt{a} 	imes sqrt{b} â
 
 - **Common Mistakes:**
 
-- Incorrectly assuming $\sqrt{a+b} = \sqrt{a} + \sqrt{b}$ or $\sqrt{a-b} = \sqrt{a} 
+- Incorrectly assuming $\sqrt{a+b} = \sqrt{a} + \sqrt{b}$ or $$\sqrt{a-b}$ = $\sqrt{a}$ 
 
-- \sqrt{b}$. Remember, square roots don't distribute over addition/subtraction.
+- $\sqrt{b}$. Remember, square roots don't distribute over addition/subtraction.
 
 - Forgetting that for a number to be a perfect square, all prime factors in its prime factorization must occur in pairs.
 

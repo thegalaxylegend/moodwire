@@ -48,8 +48,8 @@ The hook that really got me interested in Non-Linear Data Structures was when I 
 To give you a better idea, let's consider a simple example. Suppose you're building a web application that needs to search through a large collection of user data. If you use a linear search algorithm, the time complexity would be $O(n)$, which means the time taken would increase linearly with the size of the dataset. However, if you use a binary search tree, the time complexity would be $O(log n)$, which is significantly faster for large datasets.
 
 \begin{aligned}
-&\text{[linear](/blog/data-structures-linear-class-11-revision-notes-gate-boards) Search Time Complexity: } O(n) \\
-&\text{Binary Search Tree Time Complexity: } O(log n)\end{aligned}
+&$\text{[linear](/blog/data-structures-linear-class-11-revision-notes-gate-boards) Search Time Complexity: }$ O(n) \\
+&$\text{Binary Search Tree Time Complexity: }$ O(log n)\end{aligned}
 
 In the context of the Class 11 exam, it's essential to have a solid grasp of these concepts, as questions can range from simple definition-based ones to complex implementation and analysis problems. The exam may ask you to write algorithms for tree traversals, analyze the time and space complexity of graph traversal algorithms, or even [design](/blog/algorithms-design-class-11-revision-notes-gate-boards) and implement a simple binary search tree.
 

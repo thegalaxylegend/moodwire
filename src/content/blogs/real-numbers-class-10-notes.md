@@ -41,13 +41,13 @@ practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
 - **Euclid's Division Lemma:** \{ a = b \times q + r \} — where $a$ is the dividend, $b$ is the divisor, $q$ is the quotient, and $r$ is the remainder.
  - **Fundamental Theorem of Arithmetic:** \{ n = p_1^{a_1} \times p_2^{a_2} \times ... \times p_k^{a_k} \} — where $n$ is a positive integer, $p_i$ are prime factors, and $a_i$ are their respective powers.
  - **LCM and HCF Relationship:** \{ LCM(a, b) \times HCF(a, b) = a \times b \} — where $LCM(a, b)$ is the least common multiple and $HCF(a, b)$ is the highest common factor of $a$ and $b$.
- - **Decimal Expansion:** \{ a = \frac{\{p_1 \times 10^n + p_2 \times 10^{n-1} + ... + p_n \times 10^0 \}}{10^n} \} — where $a$ is a decimal number and $p_i$ are its digits.
- - **Rational Number:** \{ \frac{p}{q} \} — where $p$ is the numerator and $q$ is the denominator.
- - **Irrational Number:** \{ a = \sqrt{b} \} — where $a$ is an irrational number and $b$ is not a perfect square.
- - **Real Number:** \{ a = \frac{p}{q} + \sqrt{b} \} — where $a$ is a real number, $p$ and $q$ are integers, and $b$ is not a perfect square.
+ - **Decimal Expansion:** \{ a = $\frac{\{p_1 \times 10^n + p_2 \times 10^{n-1} + ... + p_n \times 10^0 \}}{10^n} \} — where $a$ is a decimal number and $p_i$ are its digits.$
+ - **Rational Number:** \{ $\frac{p}{q} \} — where $p$ is the numerator and $q$ is the denominator.$
+ - **Irrational Number:** \{ a = $\sqrt{b} \} — where $a$ is an irrational number and $b$ is not a perfect square.$
+ - **Real Number:** \{ a = $\frac{p}{q} + $$\sqrt{b}$ \} — where $a$ is a real number, $p$ and $q$ are integers, and $b$ is not a perfect square.
  - **Exponentiation:** \{ a^m \times a^n = a^{m+n} \} — where $a$ is the base, $m$ and $n$ are exponents.
  - **Roots:** \{ \sqrt[n]{a} = a^$\frac{1${n}} \} — where $a$ is the radicand and $n$ is the index of the root.
- - **Absolute Value:** \{ |a| = \sqrt{a^2} \} — where $a$ is a real number.
+ - **Absolute Value:** \{ |a| = $\sqrt{a^2} \} — where $a$ is a real number.$
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -61,7 +61,7 @@ practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
  - *Costs:* 3-4 marks
  - *Fix:* Review the definition and properties of absolute value, including its relationship to distance on the number line. Practice solving [equations](/blog/pair-of-linear-equations-class-10-notes) and inequalities involving absolute values, using the correct notation and properties.
 
-- **Mistake 4:** Not properly applying the rules for operating with surds {\( \sqrt{x} \)}, which can lead to incorrect simplifications or calculations.
+- **Mistake 4:** Not properly applying the rules for operating with surds {\( $\sqrt{x}$ \)}, which can lead to incorrect simplifications or calculations.
 
  - *Costs:* 2-3 marks
  - *Fix:* Review the rules for simplifying and operating with surds, including the use of conjugates to rationalize denominators. Practice applying these rules in various problems, ensuring you can simplify expressions correctly and perform calculations accurately.
@@ -134,15 +134,15 @@ practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- {\sqrt{a^2} = |a|}: Absolute value of a number
+- {$\sqrt{a^2}$ = |a|}: Absolute value of a number
 
  - {a^n}: Exponentiation, where {n} is the exponent
 
-- {a^{\frac{m}{n}} = $\sqrt[n]{a^m$}}: Rational exponentiation
+- {a^{$\frac{m}{n}} = $\sqrt[n]{a^m$}}: Rational exponentiation$
 
  - {a^{m+n} = a^m \times a^n}: Product ru\le for exponents
 
-- {\frac{a^m}{a^n} = a^{m-n}}: Quotient ru\le for exponents
+- {$\frac{a^m}{a^n}$ = a^{m-n}}: Quotient ru\le for exponents
 
  - Key facts:
  - Real numbers include all rational and irrational numbers

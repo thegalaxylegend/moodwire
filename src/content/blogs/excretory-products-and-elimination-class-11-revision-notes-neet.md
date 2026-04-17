@@ -63,14 +63,14 @@ The following formulae are relevant to the excretory system:
 * **Glomerular filtration rate (GFR)**: The rate at which the kidneys filter the blood to remove waste products and excess substances. The GFR can be calculated using the following formula:
 
 
-\text{GFR} = \frac$\text{urine output$ \times \text{urea concentration in urine}}$\text{urea concentration in blood$}
+$\text{GFR} = \frac$\text{urine output$ \times $$\text{urea concentration in urine}$}$\text{urea concentration in blood$}
 
 
 
 * **Cockcroft-Gault equation**: An equation used to estimate the GFR based on serum creatinine levels, age, sex, and weight:
 
 
-\text{GFR} = \frac{(140 - \text{age}) \times \text{weight} \times (0.85 \text{ if female})}{72 \times \text{serum creatinine}}
+$\text{GFR} = $\frac{(140 - $\text{age}) \times $$\text{weight}$ \times (0.85 $\text{ if female})}{72 \times $$\text{serum creatinine}$}
 
 
 

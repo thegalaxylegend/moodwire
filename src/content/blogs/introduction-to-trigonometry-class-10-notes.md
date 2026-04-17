@@ -41,30 +41,30 @@ practice_link: "/class-11/mathematics/introduction-to-trigonometry-class-10-note
 - **Pythagorean Identity:** \sin^2{\theta} + \cos^2{\theta} = 1 — $\theta$ is the angle in a right-angled triangle, $\sin^2{\theta}$ is the square of the sine of $\theta$, and $\cos^2{\theta}$ is the square of the cosine of $\theta$.
  - **Sine Addition Formula:** \sin{(A + B)} = \sin{A}\cos{B} + \cos{A}\sin{B} — $A$ and $B$ are angles in a triangle, $\sin{A}$ and $\sin{B}$ are the sines of angles $A$ and $B$ respectively, $\cos{A}$ and $\cos{B}$ are the cosines of angles $A$ and $B$ respectively.
  - **Cosine Addition Formula:** \cos{(A + B)} = \cos{A}\cos{B} - \sin{A}\sin{B} — $A$ and $B$ are angles in a triangle, $\cos{A}$ and $\cos{B}$ are the cosines of angles $A$ and $B$ respectively, $\sin{A}$ and $\sin{B}$ are the sines of angles $A$ and $B$ respectively.
- - **Tangent Addition Formula:** \tan{(A + B)} = \frac{\tan{A} + \tan{B}}{1 - \tan{A}\tan{B}} — $A$ and $B$ are angles in a triangle, $\tan{A}$ and $\tan{B}$ are the tangents of angles $A$ and $B$ respectively.
+ - **Tangent Addition Formula:** \tan{(A + B)} = $\frac{\tan{A} + \tan{B}}{1 - \tan{A}\tan{B}} — $A$ and $B$ are angles in a triangle, $\tan{A}$ and $\tan{B}$ are the tangents of angles $A$ and $B$ respectively.$
  - **Sine Subtraction Formula:** \sin{(A - B)} = \sin{A}\cos{B} - \cos{A}\sin{B} — $A$ and $B$ are angles in a triangle, $\sin{A}$ and $\sin{B}$ are the sines of angles $A$ and $B$ respectively, $\cos{A}$ and $\cos{B}$ are the cosines of angles $A$ and $B$ respectively.
  - **Cosine Subtraction Formula:** \cos{(A - B)} = \cos{A}\cos{B} + \sin{A}\sin{B} — $A$ and $B$ are angles in a triangle, $\cos{A}$ and $\cos{B}$ are the cosines of angles $A$ and $B$ respectively, $\sin{A}$ and $\sin{B}$ are the sines of angles $A$ and $B$ respectively.
- - **Tangent Subtraction Formula:** \tan{(A - B)} = \frac{\tan{A} - \tan{B}}{1 + \tan{A}\tan{B}} — $A$ and $B$ are angles in a triangle, $\tan{A}$ and $\tan{B}$ are the tangents of angles $A$ and $B$ respectively.
+ - **Tangent Subtraction Formula:** \tan{(A - B)} = $\frac{\tan{A} - \tan{B}}{1 + \tan{A}\tan{B}} — $A$ and $B$ are angles in a triangle, $\tan{A}$ and $\tan{B}$ are the tangents of angles $A$ and $B$ respectively.$
  - **Double Angle Formula for Sine:** \sin{2A} = 2\sin{A}\cos{A} — $A$ is an angle in a triangle, $\sin{A}$ is the sine of angle $A$, and $\cos{A}$ is the cosine of angle $A$.
  - **Double Angle Formula for Cosine:** \cos{2A} = \cos^2{A} - \sin^2{A} — $A$ is an angle in a triangle, $\cos^2{A}$ is the square of the cosine of angle $A$, and $\sin^2{A}$ is the square of the sine of angle $A$.
- - **Double Angle Formula for Tangent:** \tan{2A} = \frac{2\tan{A}}{1 - \tan^2{A}} — $A$ is an angle in a triangle, $\tan{A}$ is the tangent of angle $A$.
+ - **Double Angle Formula for Tangent:** \tan{2A} = $\frac{2\tan{A}}{1 - \tan^2{A}} — $A$ is an angle in a triangle, $\tan{A}$ is the tangent of angle $A$.$
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
-- **Mistake 1:** Incorrectly applying the formula for {\(sin(\theta)\)} in a right-angled triangle, where {\(sin(\theta) = \frac{opposite}{hypotenuse}\)}.
+- **Mistake 1:** Incorrectly applying the formula for {\(sin(\theta)\)} in a right-angled triangle, where {\(sin(\theta) = $\frac{opposite}{hypotenuse}$\)}.
 
  - *Costs:* 2-3 marks per question for incorrect calculation or applying the wrong formula.
 
-- *Fix:* Always identify the sides of the triangle correctly (opposite, adjacent, hypotenuse) relative to the angle {\(\theta\)} being considered. Ensure that the formula is applied correctly as {\(sin(\theta) = \frac{opposite}{hypotenuse}\)}, {\(cos(\theta) = \frac{adjacent}{hypotenuse}\)}, and {\(tan(\theta) = \frac{opposite}{adjacent}\)}.
+- *Fix:* Always identify the sides of the triangle correctly (opposite, adjacent, hypotenuse) relative to the angle {\(\theta\)} being considered. Ensure that the formula is applied correctly as {\(sin(\theta) = $\frac{opposite}{hypotenuse}\)}, {\(cos(\theta) = $$\frac{adjacent}{hypotenuse}$\)}, and {\(tan(\theta) = $\frac{opposite}{adjacent}$\)}.
 
-- **Mistake 2:** Not simplifying trigonometric expressions using identities such as {\(sin^2(\theta) + cos^2(\theta) = 1\)} or {\(tan(\theta) = \frac{sin(\theta)}{cos(\theta)}\)}.
+- **Mistake 2:** Not simplifying trigonometric expressions using identities such as {\(sin^2(\theta) + cos^2(\theta) = 1\)} or {\(tan(\theta) = $\frac{sin(\theta)}{cos(\theta)}$\)}.
 
  - *Costs:* 1-2 marks for not simplifying expressions to their simplest form.
  - *Fix:* Familiarize yourself with basic trigonometric identities and practice applying them to simplify expressions. For example, use {\(sin^2(\theta) + cos^2(\theta) = 1\)} to express expressions solely in terms of {\(sin(\theta)\)} or {\(cos(\theta)\)}.
  - **Mistake 3:** Incorrectly converting between degrees and radians for angles, where {\(180^\circ = \pi\ radians\)}.
  - *Costs:* 1-2 marks for incorrect unit conversions.
 
-- *Fix:* Remember that to convert from degrees to radians, multiply the angle by {\(\frac{\pi}{180}\)}, and to convert from radians to degrees, multiply the angle by {\(\frac{180}{\pi}\)}. Apply these conversions carefully in calculations.
+- *Fix:* Remember that to convert from degrees to radians, multiply the angle by {\($\frac{\pi}{180}\)}, and to convert from radians to degrees, multiply the angle by {\($$\frac{180}{\pi}$\)}. Apply these conversions carefully in calculations.
 
  - **Mistake 4:** Not using the correct quadrant for trigonometric functions when given the angle in standard position.
  - *Costs:* 2-3 marks for incorrect determination of the sign of trigonometric functions based on the quadrant.
@@ -75,33 +75,33 @@ practice_link: "/class-11/mathematics/introduction-to-trigonometry-class-10-note
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
-- **Q1:** If $\tan{\theta} = \frac{1}$\sqrt{2$}$, then what is $\sin{\theta}$?
+- **Q1:** If $\tan{\theta} = \frac{1}\sqrt{2$}$, then what is $\sin{\theta}$?$
  - **Trap:** Students often confuse $\tan{\theta}$ with $\sin{\theta}$ and forget to use the Pythagorean identity.
  - **Solution:** 
- - We have $\tan{\theta} = \frac{1}$\sqrt{2$}$.
- - Using the Pythagorean identity $\sin^2{\theta} + \cos^2{\theta} = 1$, we can write $\tan{\theta} = \frac{\sin{\theta}}{\cos{\theta}} = \frac{1}$\sqrt{2$}$.
- - From this, we get $\sin{\theta} = \frac{1}$\sqrt{2$} \cdot \cos{\theta}$.
+ - We have $\tan{\theta} = \frac{1}\sqrt{2$}$.$
+ - Using the Pythagorean identity $\sin^2{\theta} + \cos^2{\theta} = 1$, we can write $\tan{\theta} = \frac{\sin{\theta}}{\cos{\theta}} = \frac{1}\sqrt{2$}$.$
+ - From this, we get $\sin{\theta} = \frac{1}\sqrt{2$} \cdot \cos{\theta}$.$
  - Now, substituting $\cos{\theta} = \sqrt{1 - \sin^2{\theta}}$ into the equation $\tan{\theta} = \frac{\sin{\theta}}{\cos{\theta}}$, we have:
 
-\frac{1}$\sqrt{2$} = \frac{\sin{\theta}}$\sqrt{1 - \sin^2{\theta$}}
+$\frac{1}$\sqrt{2$} = $\frac{\sin{\theta}}$\sqrt{1 - \sin^2{\theta$}}
 
  - Cross-multiplying and squaring both sides gives:
 
-\frac{1}{2} = \frac{\sin^2{\theta}}{1 - \sin^2{\theta}}
+$\frac{1}{2} = $$\frac{\sin^2{\theta}}{1 - \sin^2{\theta}}$
 
  - Solving for $\sin^2{\theta}$, we get:
 
-\frac{1}{2} (1 - \sin^2{\theta}) = \sin^2{\theta}\frac{1}{2} - \frac{1}{2} \sin^2{\theta} = \sin^2{\theta}\frac{1}{2} = \sin^2{\theta} + \frac{1}{2} \sin^2{\theta}\frac{1}{2} = \frac{3}{2} \sin^2{\theta}\sin^2{\theta} = \frac{1}{3}
+$\frac{1}{2} (1 - \sin^2{\theta}) = \sin^2{\theta}$$\frac{1}{2}$ - $\frac{1}{2} \sin^2{\theta} = \sin^2{\theta}$$\frac{1}{2}$ = \sin^2{\theta} + $\frac{1}{2} \sin^2{\theta}$$\frac{1}{2}$ = $\frac{3}{2} \sin^2{\theta}\sin^2{\theta} = $$\frac{1}{3}$
 
- - Taking the square root of both sides, we get $\sin{\theta} = \pm \frac{1}$\sqrt{3$}$.
+ - Taking the square root of both sides, we get $\sin{\theta} = \pm \frac{1}\sqrt{3$}$.$
  - Since $\theta$ is in the first quadrant where sine is positive, we take the positive root.
- - **Answer:** $\frac{1}$\sqrt{3$}$
+ - **Answer:** $\frac{1}\sqrt{3$}
  - **Q2:** In a $\Delta ABC$, $\angle B = 90^\circ$, $AC = 5$ cm and $BC = 3$ cm. Find $\sin{\angle CAB}$.
  - **Trap:** Students often forget to use the Pythagorean theorem to find the length of side $AB$.
  - **Solution:** 
  - Using the Pythagorean theorem $AB^2 + BC^2 = AC^2$, we can find $AB$:
 
-AB^2 = AC^2 - BC^2 = 5^2 - 3^2 = 25 - 9 = 16AB = \sqrt{16} = 4 	ext{ cm}
+AB^2 = AC^2 - BC^2 = 5^2 - 3^2 = 25 - 9 = 16AB = $\sqrt{16}$ = 4 	ext{ cm}
 
  - Now, $\sin{\angle CAB} = \frac{BC}{AC} = \frac{3}{5}$.
  - **Answer:** $\frac{3}{5}$
@@ -111,10 +111,10 @@ AB^2 = AC^2 - BC^2 = 5^2 - 3^2 = 25 - 9 = 16AB = \sqrt{16} = 4 	ext{ cm}
  - We have $\sin{\theta} = \frac{1}{2}$.
  - Using the Pythagorean identity $\sin^2{\theta} + \cos^2{\theta} = 1$, we can write:
 
-\left(\frac{1}{2}\right)^2 + \cos^2{\theta} = 1\frac{1}{4} + \cos^2{\theta} = 1\cos^2{\theta} = 1 - \frac{1}{4} = \frac{3}{4}\cos{\theta} = \pm \sqrt$\frac{3${4}} = \pm \frac$\sqrt{3$}{2}
+\left($\frac{1}{2}\right)^2 + \cos^2{\theta} = 1$$\frac{1}{4}$ + \cos^2{\theta} = 1\cos^2{\theta} = 1 - $\frac{1}{4} = $$\frac{3}{4}$\cos{\theta} = \pm \sqrt$\frac{3${4}} = \pm \frac$\sqrt{3$}{2}
 
  - Since $\theta$ is in the second quadrant where cosine is negative, we take the negative root.
- - **Answer:** $-\frac$\sqrt{3$}{2}$
+ - **Answer:** $-\frac\sqrt{3$}{2}
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
@@ -167,7 +167,7 @@ eq 0$.
 **1. If $\sin\theta = \frac{1}{2}$, then $\cos\theta$ is**
 A) 0
 B) $\frac{1}{2}$
-C) $\frac{1}$\sqrt{2$}$
+C) $\frac{1}\sqrt{2$}
 D) $\sqrt{3}/2$
 
 **Answer:** D) Using the trigonometric identity $\sin^2\theta + \cos^2\theta = 1$, we can find $\cos\theta = \sqrt{1 - \sin^2\theta} = \sqrt{1 - (1/2)^2} = \sqrt{3}/2$
@@ -181,7 +181,7 @@ B) 1
 C) $\sqrt{2}$
 D) Not defined
 
-**Answer:** B) Since $\tan\theta = \frac{\sin\theta}{\cos\theta}$, and at $45^\circ$, $\sin\theta = \cos\theta = \frac{1}$\sqrt{2$}$, $\tan(45^\circ) = \frac{1/\sqrt{2}}{1/\sqrt{2}} = 1$
+**Answer:** B) Since $\tan\theta = \frac{\sin\theta}{\cos\theta}$, and at $45^\circ$, $\sin\theta = \cos\theta = \frac{1}\sqrt{2$}$, $\tan(45^\circ) = $\frac{1/\sqrt{2}}{1/\sqrt{2}}$ = 1
 
 ---
 

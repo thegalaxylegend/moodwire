@@ -137,7 +137,7 @@ Most students treat this chapter as a bunch of formulas to memorize. I did the s
 
 ### <a id="rydberg-formula"></a>Rydberg Formula
 
-\frac{1}{\lambda} = R_Z^2 \left[ \frac{1}{n_1^2} - \frac{1}{n_2^2} \right]
+$\frac{1}{\lambda} = R_Z^2 \left[ $$\frac{1}{n_1^2}$ - $\frac{1}{n_2^2}$ \right]
 
 
 Where $R = 109677 \text{ cm}^{-1}$ (or roughly $1.1 \times 10^7 \text{ m}^{-1}$).
@@ -165,12 +165,12 @@ Where $R = 109677 \text{ cm}^{-1}$ (or roughly $1.1 \times 10^7 \text{ m}^{-1}$)
 **The Dual Nature of [matter](/blog/states-of-matter-class-11-revision-notes-jee-neet) describes how every moving particle, from a cricket ball to an electron, exhibits both wave-like and particle-like properties.**
 
 
-\lambda = \frac{h}{mv} = \frac{h}{p}
+\lambda = $\frac{h}{mv} = $$\frac{h}{p}$
 
 
 
 For a microscopic electron, $\lambda$ is significant ($\sim$ atomic dimensions), but for a macroscopic ball, $\lambda$ is $10^{-34}$ m, making its wave nature undetectable.
-- **JEE Trick**: If kinetic energy ($K$) is given, $\lambda = \frac{h}$\sqrt{2mK$}$.
+- **JEE Trick**: If kinetic energy ($K$) is given, $\lambda = \frac{h}\sqrt{2mK$}$.$
 
 ---
 
@@ -184,7 +184,7 @@ For a microscopic electron, $\lambda$ is significant ($\sim$ atomic dimensions),
 **Heisenberg's Uncertainty Principle states that it is impossible to simultaneously measure the exact position ($\Delta x$) and exact momentum ($\Delta p$) of a subatomic particle with absolute precision.**
 
 
-\Delta x \cdot \Delta p \geq \frac{h}{4\pi}
+\Delta x \cdot \Delta p \geq $\frac{h}{4\pi}$
 
 
 

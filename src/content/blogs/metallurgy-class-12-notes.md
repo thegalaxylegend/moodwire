@@ -134,7 +134,7 @@ practice_link: "/class-11/chemistry/metallurgy-class-12-notes"
  - Determining the feasibility of metal extraction processes: electrochemical principles are used to determine the feasibility of metal extraction processes.
 #### Nernst Equation
 
-- It is used to calculate the electrode potential: E = E^{\circ} - \frac{RT}{nF}\ln Q
+- It is used to calculate the electrode potential: E = E^{\circ} - $\frac{RT}{nF}$\ln Q
 
 
 

@@ -109,7 +109,7 @@ By focusing on the underlying principles of Digital Logic, we can build a strong
 The formula for the $NOT$ gate is:
 
 \begin{aligned}
-\overline{A} &= Y \\
+$\overline{A}$ &= Y \\
 \end{aligned}
 
 This equation represents the $NOT$ gate, which produces an output of $1$ when the input is $0$. 
@@ -131,7 +131,7 @@ By focusing on the underlying principles of Digital Logic, we can build a strong
 The formula for the $NAND$ gate is:
 
 \begin{aligned}
-\overline{A \cdot B} &= Y \\
+$\overline{A \cdot B}$ &= Y \\
 \end{aligned}
 
 This equation represents the $NAND$ gate, which produces an output of $1$ when either input is $0$. 
@@ -153,7 +153,7 @@ By focusing on the underlying principles of Digital Logic, we can build a strong
 The formula for the $NOR$ gate is:
 
 \begin{aligned}
-\overline{A + B} &= Y \\
+$\overline{A + B}$ &= Y \\
 \end{aligned}
 
 This equation represents the $NOR$ gate, which produces an output of $1$ when both inputs are $0$. 
@@ -197,7 +197,7 @@ By focusing on the underlying principles of Digital Logic, we can build a strong
 The formula for the $XNOR$ gate is:
 
 \begin{aligned}
-\overline{A \oplus B} &= Y \\
+$\overline{A \oplus B}$ &= Y \\
 \end{aligned}
 
 This equation represents the $XNOR$ gate, which produces an output of $1$ when the inputs are the same. 

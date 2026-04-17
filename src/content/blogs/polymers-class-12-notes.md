@@ -42,7 +42,7 @@ practice_link: "/class-11/chemistry/polymers-class-12-notes"
 
 ## <a id="-what-will-come-in-your-exam"></a>🎯 What WILL Come in Your Exam
 * 1-2 short-answer questions on classification of polymers (natural, synthetic, semi-synthetic) — always
-* Numerical problems on molecular mass of polymers (e.g., $\frac{M_n}{M_0}$, $M_n = \frac{\Sigma N_iM_i}{\Sigma N_i}$) — frequent
+* Numerical problems on molecular mass of polymers (e.g., $\frac{M_n}{M_0}$, $M_n = \frac{\sigma N_iM_i}{\sigma N_i}$) — frequent
 * Polymerization reactions (addition and condensation) — NEET favourite, with emphasis on differences between them
 * Structure and properties of common polymers like polythene, PVC, nylon-6,6, and teflon — always
 * $n$-value (degree of polymerization) problems — expect at least one, using formula $n = \frac{M_n}{M_0}$
@@ -66,7 +66,7 @@ practice_link: "/class-11/chemistry/polymers-class-12-notes"
  Internal Energy Change. $\Delta E$: Change in internal energy, $\Delta H$: Change in enthalpy, $T$: Temperature in Kelvin, $\Delta S$: Change in entropy.
  
  $
-\eta = \frac{m_1 \times m_2}{(m_1 + m_2)^2}$
+\eta = $\frac{m_1 \times m_2}{(m_1 + m_2)^2}$
  Number average molecular weight. $\eta$: Polydispersity index, $m_1$ and $m_2$: Molecular weights of two different polymer chains.
  
  $
@@ -77,40 +77,38 @@ M_n = \frac$\sum N_i M_i\sum N_i
 M_w = \frac$\sum N_i M_i^2\sum N_i M_i
  Weight average molecular weight. $M_w$: Weight average molecular weight, $N_i$: Number of molecules of $i^{th}$ species, $M_i$: Molecular weight of $i^{th}$ species.
  
- $
-\overline{X}_n = \frac$\sum N_i X_i\sum N_i
+ $\overline{X}_n$ = \frac$\sum N_i X_i\sum N_i
  Number average degree of polymerization. $\overline{X}_n$: Number average degree of polymerization, $N_i$: Number of molecules of $i^{th}$ species, $X_i$: Degree of polymerization of $i^{th}$ species.
  
- $
-\overline{X}_w = \frac$\sum N_i X_i^2\sum N_i X_i
+ $\overline{X}_w$ = \frac$\sum N_i X_i^2\sum N_i X_i
  Weight average degree of polymerization. $\overline{X}_w$: Weight average degree of polymerization, $N_i$: Number of molecules of $i^{th}$ species, $X_i$: Degree of polymerization of $i^{th}$ species.
  
  $
-P = \frac{M}{m}$
+P = $\frac{M}{m}$
  Degree of polymerization. $P$: Degree of polymerization, $M$: Molecular weight of polymer, $m$: Molecular weight of monomer.
  
  $
-\rho = \frac{m}{V}$
+\rho = $\frac{m}{V}$
  Density of polymer. $\rho$: Density, $m$: Mass, $V$: Volume.
  
  $
-V = \frac{m}{\rho}$
+V = $\frac{m}{\rho}$
  Volume of polymer. $V$: Volume, $m$: Mass, $\rho$: Density.
  
  $
-\epsilon = \frac{F}{A}$
+\epsilon = $\frac{F}{A}$
  Tensile stress. $\epsilon$: Tensile stress, $F$: Force applied, $A$: Cross-sectional area.
  
  $
-\gamma = \frac{F}{A}$
+\gamma = $\frac{F}{A}$
  Shear stress. $\gamma$: Shear stress, $F$: Force applied, $A$: Cross-sectional area.
  
  $
-E = \frac{\sigma}{\epsilon}$
+E = $\frac{\sigma}{\epsilon}$
  Young's modulus. $E$: Young's modulus, $\sigma$: Tensile stress, $\epsilon$: Tensile strain.
  
  $
-G = \frac{\tau}{\gamma}$
+G = $\frac{\tau}{\gamma}$
  Shear modulus. $G$: Shear modulus, $\tau$: Shear stress, $\gamma$: Shear strain.
  
  $
@@ -124,7 +122,7 @@ u = -\frac$\Delta d/d\Delta l/l
 u$: Poisson's ratio, $\Delta d/d$: Change in diameter/initial diameter, $\Delta l/l$: Change in length/initial length.
  
  $
-T_g = \frac{T_m \times \Delta S}$\Delta C_p
+T_g = $\frac{T_m \times \Delta S}$\Delta C_p
  Glass transition temperature. $T_g$: Glass transition temperature, $T_m$: Melting point, $\Delta S$: Change in entropy, $\Delta C_p$: Change in specific heat capacity.
 
 

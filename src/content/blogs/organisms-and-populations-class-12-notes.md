@@ -22,23 +22,23 @@ practice_link: "/class-11/biology/organisms-and-populations-class-12-notes"
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Population Growth Rate:** \frac{dN}{dt} = rN — $r$ is the intrinsic growth rate, $N$ is the population size, $t$ is time.
+- **Population Growth Rate:** $\frac{dN}{dt} = rN — $r$ is the intrinsic growth rate, $N$ is the population size, $t$ is time.$
 
  - **Exponential Growth Model:** N_t = N_0 \times e^{rt} — $N_t$ is the population size at time $t$, $N_0$ is the initial population size, $r$ is the intrinsic growth rate, $t$ is time.
 
- - **Logistic Growth Model:** \frac{dN}{dt} = rN \left(1 - \frac{N}{K}\right) — $r$ is the intrinsic growth rate, $N$ is the population size, $K$ is the carrying capacity.
+ - **Logistic Growth Model:** $\frac{dN}{dt} = rN \left(1 - $$\frac{N}{K}$\right) — $r$ is the intrinsic growth rate, $N$ is the population size, $K$ is the carrying capacity.
 
- - **Carrying Capacity:** K = \frac{r}{\delta} — $K$ is the carrying capacity, $r$ is the intrinsic growth rate, $\delta$ is the death rate.
+ - **Carrying Capacity:** K = $\frac{r}{\Delta} — $K$ is the carrying capacity, $r$ is the intrinsic growth rate, $\Delta$ is the death rate.$
 
  - **Species Area Relationship:** S = cA^z — $S$ is the number of species, $A$ is the area, $c$ and $z$ are constants.
 
  - **Shannon Diversity Index:** H = -\sum_{i=1}^{S} p_i \log_2 p_i — $H$ is the diversity index, $p_i$ is the proportion of individuals of the $i^{th}$ species, $S$ is the number of species.
 
- - **Simpson Diversity Index:** D = 1 - \sum_{i=1}^{S} \frac{n_i(n_i-1)}{N(N-1)} — $D$ is the diversity index, $n_i$ is the number of individuals of the $i^{th}$ species, $N$ is the total number of individuals, $S$ is the number of species.
+ - **Simpson Diversity Index:** D = 1 - \sum_{i=1}^{S} $\frac{n_i(n_i-1)}{N(N-1)} — $D$ is the diversity index, $n_i$ is the number of individuals of the $i^{th}$ species, $N$ is the total number of individuals, $S$ is the number of species.$
 
- - **Margalef Diversity Index:** D_{Mg} = \frac{S-1}{\ln N} — $D_{Mg}$ is the diversity index, $S$ is the number of species, $N$ is the total number of individuals.
+ - **Margalef Diversity Index:** D_{Mg} = $\frac{S-1}{\ln N} — $D_{Mg}$ is the diversity index, $S$ is the number of species, $N$ is the total number of individuals.$
 
- - **Population Density:** D = \frac{N}{A} — $D$ is the population density, $N$ is the population size, $A$ is the area.
+ - **Population Density:** D = $\frac{N}{A} — $D$ is the population density, $N$ is the population size, $A$ is the area.$
 
  - **Birth Rate:** B = \frac$\Delta N\Delta t$ — $B$ is the birth rate, $\Delta N$ is the change in population size, $\Delta t$ is the time interval.
 
@@ -132,12 +132,12 @@ practice_link: "/class-11/biology/organisms-and-populations-class-12-notes"
 
  - **What 85% scorers do:** They can define $r$-selection as the selection for high reproductive rate ($r$) and $K$-selection as the selection for high carrying capacity ($K$), but they often fail to apply these concepts to real-world scenarios or distinguish between them in complex questions. They may also struggle to explain the mathematical models behind population growth, such as the $\frac{dN}{dt} = rN$ formula for exponential growth.
 
- - **What 95% scorers do:** They not only understand the definitions but also apply them to various ecological contexts. For instance, they recognize that $r$-selected species (e.g., bacteria, insects) thrive in unstable, changing environments where rapid reproduction is advantageous, whereas $K$-selected species (e.g., elephants, humans) thrive in stable environments where competition for resources is high and survival of offspring is more crucial. They can also derive and apply more complex formulas, such as the logistic growth equation: \frac{dN}{dt} = rN \left(1 - \frac{N}{K}\right), where $N$ is the population size, $r$ is the intrinsic growth rate, and $K$ is the carrying capacity. This understanding allows them to tackle advanced questions that involve the analysis of population dynamics and the impact of environmental factors on population growth.
+ - **What 95% scorers do:** They not only understand the definitions but also apply them to various ecological contexts. For instance, they recognize that $r$-selected species (e.g., bacteria, insects) thrive in unstable, changing environments where rapid reproduction is advantageous, whereas $K$-selected species (e.g., elephants, humans) thrive in stable environments where competition for resources is high and survival of offspring is more crucial. They can also derive and apply more complex formulas, such as the logistic growth equation: $\frac{dN}{dt} = rN \left(1 - $$\frac{N}{K}$\right), where $N$ is the population size, $r$ is the intrinsic growth rate, and $K$ is the carrying capacity. This understanding allows them to tackle advanced questions that involve the analysis of population dynamics and the impact of environmental factors on population growth.
 
  - **Key Formulas:**
 
  - Exponential Growth: $N(t) = N_0 e^{rt}$
-- Logistic Growth: N(t) = \frac{K}{1 + \frac{K - N_0}{N_0}e^{-rt}}
+- Logistic Growth: N(t) = $\frac{K}{1 + $$\frac{K - N_0}{N_0}$e^{-rt}}
 
  - Carrying Capacity: $K = \frac{r}{d}$, where $d$ is the death rate.
 

@@ -20,7 +20,7 @@ practice_link: "/class-11/mathematics/pair-of-linear-equations-class-10-notes"
 - Algebra: Solving a system of [linear](/blog/linear-equations-in-two-variables-class-9-notes) equations with a unique solution, no solution, or infinitely many solutions — always
 - [coordinate](/blog/coordinate-geometry-class-10-notes) Geometry: Plotting lines on a graph and finding the point of intersection — frequently
 - [linear](/blog/linear-equations-in-one-variable-class-8-notes) Equations: Determining the nature of the solution (unique, infinite, or no solution) of a pair of [linear](/blog/linear-equations-in-one-variable-class-8-notes) equations — always
-- [linear](/blog/linear-equations-in-one-variable-class-8-notes) Equations: Using the cross-multiplication method to solve a pair of [linear](/blog/linear-equations-in-one-variable-class-8-notes) equations — frequently
+- Linear Equations: Using the cross-multiplication method to solve a pair of linear equations — frequently
 - Algebra: Identifying parallel lines, perpendicular lines, and coincident lines based on their equations — always
 - Linear Equations: Finding the point of intersection between two lines given their equations — frequently
 
@@ -38,7 +38,7 @@ practice_link: "/class-11/mathematics/pair-of-linear-equations-class-10-notes"
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **General Form of a Linear Equation:** \{a_{1}x + b_{1}y + c_{1} = 0\} — {a_{1}, b_{1}, c_{1}} are constants,- **Standard Form of a Linear Equation:** \{ax + by = c\} — {a, b, c} are constants,- **Slope-Intercept Form of a Linear Equation:** \{y = mx + c\} — {m} is the slope of the line, {c} is the y-intercept,- **Slope-point Form of a Linear Equation:** \{y - y_{1} = m(x - x_{1})\} — {m} is the slope of the line, {(x_{1}, y_{1})} is a point on the line,- **Two-point Form of a Linear Equation:** \{y - y_{1} = \frac{y_{2} - y_{1}}{x_{2} - x_{1}}(x - x_{1})\} — {(x_{1}, y_{1})} and {(x_{2}, y_{2})} are two points on the line,- **Perpendicular Lines:** \{m_{1} \times m_{2} = -1\} — {m_{1}} and {m_{2}} are slopes of two perpendicular lines,- **Parallel Lines:** \{m_{1} = m_{2}\} — {m_{1}} and {m_{2}} are slopes of two parallel lines,- **Distance Between a point and a Line:** \{d = \frac{|ax_{1} + by_{1} + c|}$\sqrt{a^{2$ + b^{2}}}\} — {d} is the distance between the point {(x_{1}, y_{1})} and the line {ax + by + c = 0},- **Equation of a Line Passing Through the Intersection of Two Lines:** \{(a_{1}x + b_{1}y + c_{1}) + \lambda(a_{2}x + b_{2}y + c_{2}) = 0\} — {\lambda} is an arbitrary constant,- **Number of Solutions for a Pair of Linear Equations:** \$\Delta = a_{1$b_{2} - a_{2}b_{1}\} — if $\Delta != 0$, the lines intersect at one point, if $\Delta = 0$ and {a_{1}/a_{2} = b_{1}/b_{2} != c_{1}/c_{2}}, the lines are parallel, if $\Delta = 0$ and {a_{1}/a_{2} = b_{1}/b_{2} = c_{1}/c_{2}}, the lines are coincident,- **Solution of a Pair of Linear Equations by Substitution Method:** \{x = \frac{b_{2}c_{1} - b_{1}c_{2}}{a_{1}b_{2} - a_{2}b_{1}}, y = \frac{a_{1}c_{2} - a_{2}c_{1}}{a_{1}b_{2} - a_{2}b_{1}}\} — solution of the system {a_{1}x + b_{1}y + c_{1} = 0} and {a_{2}x + b_{2}y + c_{2} = 0},- **Solution of a Pair of Linear Equations by Elimination Method:** \{x = \frac{b_{2}c_{1} - b_{1}c_{2}}{a_{1}b_{2} - a_{2}b_{1}}, y = \frac{a_{1}c_{2} - a_{2}c_{1}}{a_{1}b_{2} - a_{2}b_{1}}\} — solution of the system {a_{1}x + b_{1}y + c_{1} = 0} and {a_{2}x + b_{2}y + c_{2} = 0}
+- **General Form of a Linear Equation:** \{a_{1}x + b_{1}y + c_{1} = 0\} — {a_{1}, b_{1}, c_{1}} are constants,- **Standard Form of a Linear Equation:** \{ax + by = c\} — {a, b, c} are constants,- **Slope-Intercept Form of a Linear Equation:** \{y = mx + c\} — {m} is the slope of the line, {c} is the y-intercept,- **Slope-point Form of a Linear Equation:** \{y - y_{1} = m(x - x_{1})\} — {m} is the slope of the line, {(x_{1}, y_{1})} is a point on the line,- **Two-point Form of a Linear Equation:** \{y - y_{1} = $\frac{y_{2} - y_{1}}{x_{2} - x_{1}}(x - x_{1})\} — {(x_{1}, y_{1})} and {(x_{2}, y_{2})} are two points on the line,- **Perpendicular Lines:** \{m_{1} \times m_{2} = -1\} — {m_{1}} and {m_{2}} are slopes of two perpendicular lines,- **Parallel Lines:** \{m_{1} = m_{2}\} — {m_{1}} and {m_{2}} are slopes of two parallel lines,- **Distance Between a point and a Line:** \{d = $\frac{|ax_{1} + by_{1} + c|}$\sqrt{a^{2$ + b^{2}}}\} — {d} is the distance between the point {(x_{1}, y_{1})} and the line {ax + by + c = 0},- **Equation of a Line Passing Through the Intersection of Two Lines:** \{(a_{1}x + b_{1}y + c_{1}) + \lambda(a_{2}x + b_{2}y + c_{2}) = 0\} — {\lambda} is an arbitrary constant,- **Number of Solutions for a Pair of Linear Equations:** \$\Delta = a_{1$b_{2} - a_{2}b_{1}\} — if $\Delta != 0$, the lines intersect at one point, if $\Delta = 0$ and {a_{1}/a_{2} = b_{1}/b_{2} != c_{1}/c_{2}}, the lines are parallel, if $\Delta = 0$ and {a_{1}/a_{2} = b_{1}/b_{2} = c_{1}/c_{2}}, the lines are coincident,- **Solution of a Pair of Linear Equations by Substitution Method:** \{x = $\frac{b_{2}c_{1} - b_{1}c_{2}}{a_{1}b_{2} - a_{2}b_{1}}, y = $$\frac{a_{1}c_{2} - a_{2}c_{1}}{a_{1}b_{2} - a_{2}b_{1}}$\} — solution of the system {a_{1}x + b_{1}y + c_{1} = 0} and {a_{2}x + b_{2}y + c_{2} = 0},- **Solution of a Pair of Linear Equations by Elimination Method:** \{x = $\frac{b_{2}c_{1} - b_{1}c_{2}}{a_{1}b_{2} - a_{2}b_{1}}, y = $$\frac{a_{1}c_{2} - a_{2}c_{1}}{a_{1}b_{2} - a_{2}b_{1}}$\} — solution of the system {a_{1}x + b_{1}y + c_{1} = 0} and {a_{2}x + b_{2}y + c_{2} = 0}
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -150,8 +150,8 @@ practice_link: "/class-11/mathematics/pair-of-linear-equations-class-10-notes"
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-- **The Hidden Pattern:** In pair of linear equations, the ratio of coefficients of $x$ and $y$ in both equations can be used to determine the nature of the solutions. If the ratio is the same, the equations are identical, and if the ratio is different, the equations intersect at a unique point. This can be expressed as: \frac{a_1}{a_2} = \frac{b_1}{b_2} = \frac{c_1}{c_2} for identical equations, and \frac{a_1}{a_2} 
-eq \frac{b_1}{b_2} for intersecting equations.,- **How to Apply It:** To apply this pattern, first, compare the coefficients of $x$ and $y$ in both equations. If they are in the same ratio, check the constant terms to determine if the equations are identical or parallel. If the ratios are different, use either substitution or elimination method to find the unique solution. This pattern can save time in determining the nature of solutions without actually solving the equations.,- **PYQ-Specific Trend:** After analyzing 5+ years of previous year questions, it is observed that JEE/NEET exams often test the ability to identify the nature of solutions based on the coefficients and constant terms. A common trend is to provide equations with coefficients that are multiples of each other, requiring the test-taker to recognize the relationship between the coefficients and apply it to determine the nature of the solutions. This trend can be utilized to quickly identify the type of question and apply the appropriate method to solve it.,- **Solving Strategy:** To tack\le pair of linear equations, first, write down the equations in the standard form $ax + by + c = 0$. Then, compare the coefficients and constant terms to determine the nature of the solutions. If the equations are identical or parallel, use the ratio of coefficients to determine the relationship between the equations. If the equations intersect, use either substitution or elimination method to find the unique solution. This strategy can help in quickly identifying the type of question and applying the appropriate method to solve it.
+- **The Hidden Pattern:** In pair of linear equations, the ratio of coefficients of $x$ and $y$ in both equations can be used to determine the nature of the solutions. If the ratio is the same, the equations are identical, and if the ratio is different, the equations intersect at a unique point. This can be expressed as: $\frac{a_1}{a_2} = $$\frac{b_1}{b_2}$ = $\frac{c_1}{c_2} for identical equations, and $$\frac{a_1}{a_2}$ 
+eq $\frac{b_1}{b_2} for intersecting equations.,- **How to Apply It:** To apply this pattern, first, compare the coefficients of $x$ and $y$ in both equations. If they are in the same ratio, check the constant terms to determine if the equations are identical or parallel. If the ratios are different, use either substitution or elimination method to find the unique solution. This pattern can save time in determining the nature of solutions without actually solving the equations.,- **PYQ-Specific Trend:** After analyzing 5+ years of previous year questions, it is observed that JEE/NEET exams often test the ability to identify the nature of solutions based on the coefficients and constant terms. A common trend is to provide equations with coefficients that are multiples of each other, requiring the test-taker to recognize the relationship between the coefficients and apply it to determine the nature of the solutions. This trend can be utilized to quickly identify the type of question and apply the appropriate method to solve it.,- **Solving Strategy:** To tack\le pair of linear equations, first, write down the equations in the standard form $ax + by + c = 0$. Then, compare the coefficients and constant terms to determine the nature of the solutions. If the equations are identical or parallel, use the ratio of coefficients to determine the relationship between the equations. If the equations intersect, use either substitution or elimination method to find the unique solution. This strategy can help in quickly identifying the type of question and applying the appropriate method to solve it.$
 
 | Type of Equations | Ratio of Coefficients | Nature of Solutions |
 | --- | --- | --- |
@@ -159,29 +159,29 @@ eq \frac{b_1}{b_2} for intersecting equations.,- **How to Apply It:** To apply t
 | Identical | \frac{a_1}{a_2} = \frac{b_1}{b_2} = \frac{c_1}{c_2} | Infinite solutions |
 
 | Parallel | \frac{a_1}{a_2} = \frac{b_1}{b_2}
-eq \frac{c_1}{c_2} | No solution |
+eq $\frac{c_1}{c_2}$ | No solution |
 
 | Intersecting | \frac{a_1}{a_2}
-eq \frac{b_1}{b_2} | Unique solution |
+eq $\frac{b_1}{b_2}$ | Unique solution |
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- {\frac{a_1}{a_2}} = $\frac{b_1${b_2}}
-eq {\frac{c_1}{c_2}}$ for no solution
- - {\frac{a_1}{a_2}}
-eq {\frac{b_1}{b_2}}$ and $\frac{a_1${a_2}} = $\frac{c_1${c_2}}$ for infinite solutions
- - {\frac{a_1}{c_1}} = $\frac{b_1${c_2}} = $\frac{a_2${c_3}}$ for no solution
+- {$\frac{a_1}{a_2}} = $\frac{b_1${b_2}$}
+eq {$\frac{c_1}{c_2}}$ for no solution
+ - {$\frac{a_1}{a_2}$}
+eq {$\frac{b_1}{b_2}}$ and $\frac{a_1$${a_2}} = \frac{c_1${c_2}}$ for infinite solutions$
+ - {$\frac{a_1}{c_1}} = $\frac{b_1${c_2}} = $\frac{a_2${c_3}}$ for no solution
  - {a_1}{b_2} - {a_2}{b_1}$ is the determinant for {a_1}{x} + {b_1}{y} = {c_1}$ and {a_2}{x} + {b_2}{y} = {c_2}$
-- x = {\frac{{b_2}{c_1} - {b_1}{c_2}}{{a_1}{b_2} - {a_2}{b_1}}} for {a_1}{x} + {b_1}{y} = {c_1} and {a_2}{x} + {b_2}{y} = {c_2}
+- x = {$\frac{{b_2}{c_1} - {b_1}{c_2}}{{a_1}{b_2} - {a_2}{b_1}}$} for {a_1}{x} + {b_1}{y} = {c_1} and {a_2}{x} + {b_2}{y} = {c_2}
 
  - Key facts:
- - For unique solution, {\frac{a_1}{a_2}}
-eq {\frac{b_1}{b_2}}$
- - For no solution, {\frac{a_1}{a_2}} = $\frac{b_1${b_2}}
-eq {\frac{c_1}{c_2}}$
- - For infinite solutions, {\frac{a_1}{a_2}} = $\frac{b_1${b_2}} = $\frac{c_1${c_2}}$
+ - For unique solution, {$\frac{a_1}{a_2}$}
+eq {$\frac{b_1}{b_2}}$
+ - For no solution, {$\frac{a_1}{a_2}} = $\frac{b_1${b_2}$}
+eq {$\frac{c_1}{c_2}}$
+ - For infinite solutions, {$\frac{a_1}{a_2}} = $\frac{b_1${b_2}} = $\frac{c_1${c_2}}$
  - Common mistakes:
- - Forgetting to check for {\frac{a_1}{a_2}} = $\frac{b_1${b_2}}$ for no solution
+ - Forgetting to check for {$\frac{a_1}{a_2}} = $\frac{b_1${b_2}}$ for no solution
  - Not using the correct formula for {x}$ and {y}$ when solving the system of equations  $
 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs

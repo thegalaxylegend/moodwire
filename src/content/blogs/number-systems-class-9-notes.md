@@ -25,29 +25,25 @@ manualReview: false
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
-{
- "heading": "🪤 The 5 Mistakes That Cost Marks",
- "body": "
-
 - **Mistake 1:** Confusion between terminating and non-terminating recurring decimals and errors in converting them to $\frac{p}{q}$ form.
  
 
 - *Costs:* Students often lose 1-3 marks in questions asking to identify the type of decimal expansion or to express a given decimal}
 
+
+
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
-{
- "heading": "✏️ 3 Solved PYQs",
- "body": "- **Q1:** Rationalize the denominator of $\frac{1}{7 + 3\sqrt{2}}$. (CBSE Class 9 Sample Question)
+- **Q1:** Rationalize the denominator of $\frac{1}{7 + 3\sqrt{2}}$. (CBSE Class 9 Sample Question)
  - **Trap:** Many students forget to multiply *both* the numerator and the denominator by the conjugate. Also, sometimes they make sign errors when applying the $($}
+
+
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
-{
- "heading": "🧠 The One Thing Most Students Get Wrong",
- "body": "
-
 - **The Core Concept:** The real game-changer isn't just knowing *how* to rationalize a denominator like $\frac{1}{a+\sqrt{b}}$. It's about mastering the art of simplifying complex expressions involving multiple radical terms, often after rationalization, to their absolute simplest form, typically $A +$}
+
+
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
@@ -55,10 +51,6 @@ manualReview: false
  Alright, listen up! After grinding through countless past year papers (PYQs), I've spotted something super critical that textbooks don't explicitly highlight. Many simplification problems in Number [systems](/blog/operating-systems-class-12-notes), especially those involving square roots (surds) and
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
-
-{
- "heading": "🔁 Last 5 Minutes Box",
- "body": "
 
 - Remember these exponent rules, they're super handy:
  
@@ -71,6 +63,8 @@ manualReview: false
 
 - $a^{m} / a^{n} = a^{m-n}$
 }
+
+
 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 

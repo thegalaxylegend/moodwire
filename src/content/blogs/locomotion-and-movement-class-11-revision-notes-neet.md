@@ -72,7 +72,7 @@ Several formulae and equations are relevant to the study of locomotion and movem
 * **Power (P) = Work (W) / Time (t)**: This equation describes the relationship between power, work, and time.
 
 
-F = maW = FdP = \frac{W}{t}
+F = maW = FdP = $\frac{W}{t}$
 
 
 

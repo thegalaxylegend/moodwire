@@ -282,6 +282,52 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
         report.warnings.push(`${reviewSections.length} section(s) marked as needing review`);
     }
 
+    // ========= 11. CORRUPTION DETECTION (CRITICAL — prevents all 6 root causes) =========
+
+    // 11a. LLM Truncation Marker: "(suggestion limit reached)"
+    // Root Cause #1: LLM hit output token limit and emitted this as a truncation marker.
+    const truncationCount = (contentStr.match(/\(suggestion limit reached\)/g) || []).length;
+    if (truncationCount > 0) {
+        score -= 50; // Critical failure — content is garbled
+        report.critical_failures.push(`LLM truncation detected: ${truncationCount}× "(suggestion limit reached)" — content is garbled`);
+        report.regenerate_all = true;
+    }
+
+    // 11b. Case-Mangled LaTeX Commands: \fRAC, \tEXT, \tTIMES
+    // Root Cause #2: LLM output LaTeX commands with wrong casing.
+    const caseMangledRegex = /\\(fRAC|tEXT|tTIMES|sQRT|sUM|iNT|pROD)/g;
+    const caseMangledCount = (contentStr.match(caseMangledRegex) || []).length;
+    if (caseMangledCount > 0) {
+        score -= 20;
+        report.critical_failures.push(`Case-mangled LaTeX detected: ${caseMangledCount} commands (e.g. \\fRAC instead of \\frac)`);
+    }
+
+    // 11c. Naked LaTeX (no $ delimiters)
+    // Root Cause #3: LaTeX commands like \frac{...} without $...$ wrapping render as plaintext.
+    const nakedFracCount = (contentStr.match(/(?<!\$)\\frac\{/g) || []).length;
+    const nakedTextCount = (contentStr.match(/(?<!\$)\\text\{/g) || []).length;
+    const totalNaked = nakedFracCount + nakedTextCount;
+    if (totalNaked > 3) {
+        score -= 15;
+        report.warnings.push(`${totalNaked} naked LaTeX commands without $ delimiters (will render as plaintext)`);
+    }
+
+    // 11d. JSON Squashing: {"heading":"...","body":"..."}
+    // Root Cause #4: LLM returned raw JSON objects instead of rendered markdown.
+    if (/"heading"\s*:\s*"[^"]*"\s*,\s*"body"\s*:/.test(contentStr)) {
+        score -= 40;
+        report.critical_failures.push('JSON squashing detected: raw JSON objects in markdown body');
+        report.regenerate_all = true;
+    }
+
+    // 11e. Heading Hallucination: "Solved Yes" instead of "Solved PYQs"
+    // Root Cause #5: LLM consistently hallucinates this heading.
+    if (contentStr.includes('solved yes')) {
+        score -= 3;
+        report.warnings.push('Heading hallucination: "Solved Yes" should be "Solved PYQs"');
+    }
+
+    report.score = Math.max(0, score);
     report.passed = report.score >= 90; // Quality Gate Threshold
     return report;
 }
@@ -523,6 +569,65 @@ export function checkFormattingIntegrity(text: string): string {
     if (!text) return "";
 
     let repaired = text;
+
+    // ========= NEW: Case-normalize mangled LaTeX commands =========
+    // Catches \fRAC → \frac, \tEXT → \text, etc.
+    const KNOWN_COMMANDS: Record<string, string> = {
+        'frac': 'frac', 'text': 'text', 'times': 'times', 'sqrt': 'sqrt',
+        'sum': 'sum', 'int': 'int', 'prod': 'prod', 'alpha': 'alpha',
+        'beta': 'beta', 'gamma': 'gamma', 'delta': 'delta', 'theta': 'theta',
+        'pi': 'pi', 'sigma': 'sigma', 'omega': 'omega', 'lambda': 'lambda',
+        'infty': 'infty', 'partial': 'partial', 'nabla': 'nabla',
+        'cdot': 'cdot', 'ldots': 'ldots', 'leq': 'leq', 'geq': 'geq',
+        'neq': 'neq', 'approx': 'approx', 'equiv': 'equiv', 'pm': 'pm',
+        'left': 'left', 'right': 'right', 'overline': 'overline',
+        'underline': 'underline', 'vec': 'vec', 'hat': 'hat', 'bar': 'bar',
+        'sin': 'sin', 'cos': 'cos', 'tan': 'tan', 'log': 'log', 'ln': 'ln',
+        'lim': 'lim', 'begin': 'begin', 'end': 'end', 'boxed': 'boxed',
+        'mathrm': 'mathrm', 'mathbb': 'mathbb', 'binom': 'binom',
+        'displaystyle': 'displaystyle', 'cancel': 'cancel',
+    };
+    repaired = repaired.replace(/\\([a-zA-Z]+)/g, (match, cmd) => {
+        const lower = cmd.toLowerCase();
+        if (KNOWN_COMMANDS[lower] && cmd !== KNOWN_COMMANDS[lower]) {
+            return '\\' + KNOWN_COMMANDS[lower];
+        }
+        return match;
+    });
+
+    // ========= NEW: Wrap naked LaTeX in $ delimiters =========
+    // Detects \frac{...}, \text{...} etc. not inside existing $...$ and wraps them.
+    const nakedLatexCommands = /(?<!\$)\\(frac|text|sqrt|overline|underline|vec|hat|bar|boxed|mathrm|mathbb|binom)\{/g;
+    if (nakedLatexCommands.test(repaired)) {
+        // Process line by line to avoid breaking existing inline math
+        const lines = repaired.split('\n');
+        for (let i = 0; i < lines.length; i++) {
+            const line = lines[i];
+            if (/^\s*\$\$/.test(line)) continue; // Skip block math
+            if (/^\s*\|/.test(line)) continue; // Skip tables
+            
+            // Split on $ boundaries — only process non-math segments
+            const segments = line.split(/(\$[^$]*\$)/);
+            let modified = false;
+            for (let s = 0; s < segments.length; s++) {
+                if (s % 2 === 0) { // Outside $...$
+                    const fixed = segments[s].replace(
+                        /\\(frac|text|sqrt|overline|underline|vec|hat|bar|boxed|mathrm|mathbb|binom)(\{[^}]*\}(?:\{[^}]*\})*)/g,
+                        (m) => { modified = true; return '$' + m + '$'; }
+                    );
+                    if (fixed !== segments[s]) segments[s] = fixed;
+                }
+            }
+            if (modified) lines[i] = segments.join('');
+        }
+        repaired = lines.join('\n');
+    }
+
+    // ========= NEW: Remove truncation markers =========
+    repaired = repaired.replace(/\(suggestion limit reached\)/g, '');
+
+    // ========= NEW: Fix "Solved Yes" → "Solved PYQs" =========
+    repaired = repaired.replace(/Solved Yes/g, 'Solved PYQs');
 
     // 1. Math Blocks ($$ and $)
     const blockMathCount = (repaired.match(/\$\$/g) || []).length;

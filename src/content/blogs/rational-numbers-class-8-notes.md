@@ -45,20 +45,18 @@ manualReview: false
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
-{
- "heading": "✏️ 3 Solved PYQs",
- "body": "- **Q1:** Simplify using appropriate properties: $\frac{-3}{7} \times \frac{6}{5} + \frac{1}{14} \times \frac{6}{5} - \frac{3}{7}$.
+- **Q1:** Simplify using appropriate properties: $\frac{-3}{7} 	imes \frac{6}{5} + \frac{1}{14} 	imes \frac{6}{5} - \frac{3}{7}$.
  - **Trap:** Students often rush to multiply fractions directly without}
 
-## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
-{
- "heading": "🧠 The One Thing Most Students Get Wrong",
- "body": "
+
+## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 - **The Core Concept: The Infinite Gap!**
  * Alright, listen up, future JEE/NEET champs! When it comes to Rational Numbers, everyone knows what they are – numbers that can be written as $\frac{p}{q}$ where $q 
 eq 0$. But here's the kicker}
+
+
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 

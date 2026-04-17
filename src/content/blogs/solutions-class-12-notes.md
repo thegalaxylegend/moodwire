@@ -23,7 +23,7 @@ practice_link: "/class-11/chemistry/solutions-class-12-notes"
 - [📚 Related Topics](#-related-topics)
 
 ## <a id="-what-will-come-in-your-exam"></a>🎯 What WILL Come in Your Exam
-* 1 numerical on molarity and molality — always, involving $\frac$\text{mass of solute$}$\text{mass of solvent$}$ and $\frac$\text{moles of solute$}$\text{mass of solvent in kg$}$
+* 1 numerical on molarity and molality — always, involving $\frac\text{mass of solute$}$\text{mass of solvent$$}$ and $\frac\text{moles of solute$}$\text{mass of solvent in kg$$}$
 * $K_{h}$ and $K_{b}$ relationship with $K_{w}$ — examined every year, using the formula $K_{w} = K_{h} \times K_{b} = 10^{-14}$
 * Vapour pressure and Raoult's law — always 1-2 questions, focusing on $\frac{p^{\circ} - p_{s}}{p^{\circ}} = \frac{n}{N + n}$ and $p_{s} = p^{\circ} \times \frac{N}{N + n}$
 * Colligative properties — at least 1 question on relative lowering of vapour pressure, elevation in boiling point, or depression in freezing point
@@ -33,7 +33,7 @@ practice_link: "/class-11/chemistry/solutions-class-12-notes"
 * Photoelectric effect graph — NEET favourite, involving $eV_{0} = h
 u - \phi$ and $K_{max} = h
 u - \phi$
-* 1 question on van't Hoff factor — involving the formula $i = \frac$\text{Observed molar mass$}$\text{Theoretical molar mass$}$ and its relation to colligative properties
+* 1 question on van't Hoff factor — involving the formula $i = \frac\text{Observed molar mass$}$\text{Theoretical molar mass$$}$ and its relation to colligative properties
 * Numerical on freezing point depression and boiling point elevation — frequently examined, using the formulas $\Delta T_{f} = K_{f} \times m$ and $\Delta T_{b} = K_{b} \times m$
 * 1 question on normality and molarity relationship — involving the formula $N = \frac{M}{n}$, where $n$ is the number of replaceable $H^{+}$ or $OH^{-}$ ions
 * Numerical on $pH$ and $pOH$ calculation — always, using the formulas $pH + pOH = 14$ and $pH = -\log[H^{+}]$ 
@@ -79,7 +79,7 @@ Mistake: Using $\lambda = \frac{h}{mv}$ without converting mass to kg. Many stud
 
  Mistake: Not considering the van 't Hoff factor when calculating the molality of a solution. The van 't Hoff factor is crucial in determining the molality of a solution, especially when dealing with ionic [compounds](/blog/coordination-compounds-class-12-notes).
  Costs: 2-3 marks. Failing to consider the van 't Hoff factor can result in incorrect calculations, leading to a loss of marks.
- Fix: Use $i$ = $\frac$\text{Observed molar mass$}$\text{Theoretical molar mass$}$ to calculate the van 't Hoff factor and then use it to calculate the molality.
+ Fix: Use $i$ = $\frac\text{Observed molar mass$}$\text{Theoretical molar mass$$}$ to calculate the van 't Hoff factor and then use it to calculate the molality.
 
  Mistake: Writing the expression for the freezing point depression as $\Delta T = \frac{K_f}{m}$ without considering the molality. The freezing point depression is a colligative property that depends on the molality of the solution.
  Costs: 3 marks. This mistake can lead to incorrect calculations and a significant loss of marks.
@@ -114,7 +114,7 @@ Q: A solution of $2.44 \text{ g}$ of $mathrm{CuSO_4}$ in $100 \mathrm{ mL}$ of w
  $m = \frac{0.184^\circ\mathrm{C}}{1.86^\circ\mathrm{C}/m} = 0.099 m$.
  However, $mathrm{CuSO_4}$ dissociates into two ions, so we must consider the van't Hoff factor $i$. 
  For $mathrm{CuSO_4}$, $i = 2$, so the actual molality is $m = \frac{0.099 m}{2} = 0.0495 m$.
- But we know that $m = \frac$\text{moles of solute$}$\text{kg of solvent$}$.
+ But we know that $m = \frac\text{moles of solute$}$\text{kg of solvent$$}$.
  Since the mass of $100 \mathrm{ mL}$ of water is $0.1 \mathrm{ kg}$, 
  and the molar mass of $mathrm{CuSO_4}$ is $159.62 \mathrm{ g/mol}$, 
  the number of moles of $mathrm{CuSO_4}$ is $\frac{2.44 \mathrm{ g}}{159.62 \mathrm{ g/mol}} = 0.0153 \mathrm{ mol}$. 

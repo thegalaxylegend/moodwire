@@ -55,9 +55,9 @@ practice_link: "/class-11/mathematics/continuity-and-differentiability-class-12-
 ### <a id="3-solved-pyqs-continued"></a>3 Solved PYQs (Continued)
 - **Solution (Continued):** 
 Now, we can cancel the $(x-2)$ terms, but we must be aware that this cancellation is valid only if $x 
-eq 2$ because division by zero is undefined. Thus, after cancellation, we have:
+\neq 2$ because division by zero is undefined. Thus, after cancellation, we have:
 
-\lim_{x \to 2} f(x) = \lim_{x \to 2} (x + 2)
+$$ \lim_{x \to 2} f(x) = \lim_{x \to 2} (x + 2) $$
 
 As $x$ approaches $2$, $x + 2$ approaches $4$. Therefore, $\lim_{x \to 2} f(x) = 4$.
 
@@ -72,7 +72,7 @@ For $x < 0$, $f(x) = -x$, so $f'(x) = -1$.
 
 At $x = 0$, we check the definition of a derivative:
 
-f'(0) = \lim_{h \to 0} \frac{f(0 + h) - f(0)}{h} = \lim_{h \to 0} \frac{|h|}{h}
+$$$$ f'(0) = \lim_{h \to 0} \frac{f(0 + h) - f(0)}{h} = \lim_{h \to 0} \frac{|h|}{h} $$$$
 
 
 This limit does not exist because $\frac{|h|}{h} = 1$ for $h > 0$ and $\frac{|h|}{h} = -1$ for $h < 0$. Therefore, $f'(0)$ is undefined.
@@ -84,23 +84,23 @@ This limit does not exist because $\frac{|h|}{h} = 1$ for $h > 0$ and $\frac{|h|
  - **Solution:** 
 By definition, 
 
-f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h} = \lim_{h \to 0} \frac{\sin(x + h) - \sin(x)}{h}
+$$$$ f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h} = \lim_{h \to 0} \frac{\sin(x + h) - \sin(x)}{h} $$$$
 
 
 Using the angle sum identity for sine, $\sin(a + b) = \sin(a)\cos(b) + \cos(a)\sin(b)$, we get:
 
-\sin(x + h) = \sin(x)\cos(h) + \cos(x)\sin(h)
+$$ \sin(x + h) = \sin(x)\cos(h) + \cos(x)\sin(h) $$
 
 Substituting this back into our limit:
 
-f'(x) = \lim_{h \to 0} \frac{\sin(x)\cos(h) + \cos(x)\sin(h) - \sin(x)}{h}
+$$ f'(x) = \lim_{h \to 0} \frac{\sin(x)\cos(h) + \cos(x)\sin(h) - \sin(x)}{h} $$
 
-= \lim_{h \to 0} \frac{\sin(x)(\cos(h) - 1) + \cos(x)\sin(h)}{h}
+$$ = \lim_{h \to 0} \frac{\sin(x)(\cos(h) - 1) + \cos(x)\sin(h)}{h} $$
 
 
 Since $\cos(h)$ approaches $1$ and $\sin(h)$ approaches $h$ as $h$ approaches $0$:
 
-f'(x) = \lim_{h \to 0} \frac{\cos(x)\sin(h)}{h} = \cos(x) \cdot \lim_{h \to 0} \frac{\sin(h)}{h} = \cos(x) \cdot 1 = \cos(x)
+$$ f'(x) = \lim_{h \to 0} \frac{\cos(x)\sin(h)}{h} = \cos(x) \cdot \lim_{h \to 0} \frac{\sin(h)}{h} = \cos(x) \cdot 1 = \cos(x) $$
 
 
 
@@ -151,13 +151,13 @@ f'(x) = \lim_{h \to 0} \frac{\cos(x)\sin(h)}{h} = \cos(x) \cdot \lim_{h \to 0} \
 
 ### <a id="algebra-of-derivatives"></a>Algebra of Derivatives
 
-- **Sum Rule:** \frac{d}{dx} (f(x) + g(x)) = f'(x) + g'(x)
+- **Sum Rule:** $\frac{d}{dx} (f(x) + g(x)) = f'(x) + g'(x)$
 
-- **Difference Rule:** \frac{d}{dx} (f(x) - g(x)) = f'(x) - g'(x)
+- **Difference Rule:** $\frac{d}{dx} (f(x) - g(x)) = f'(x) - g'(x)$
 
-- **Product Rule:** \frac{d}{dx} (f(x) \cdot g(x)) = f'(x) \cdot g(x) + f(x) \cdot g'(x)
+- **Product Rule:** $\frac{d}{dx} (f(x) \cdot g(x)) = f'(x) \cdot g(x) + f(x) \cdot g'(x)$
 
-- **Quotient Rule:** \frac{d}{dx} \left(\frac{f(x)}{g(x)}\right) = \frac{f'(x) \cdot g(x) - f(x) \cdot g'(x)}{(g(x))^2}
+- **Quotient Rule:** $\frac{d}{dx} \left(\frac{f(x)}{g(x)}\right) = \frac{f'(x) \cdot g(x) - f(x) \cdot g'(x)}{(g(x))^2}$
 
 
 
@@ -172,7 +172,7 @@ f'(x) = \lim_{h \to 0} \frac{\cos(x)\sin(h)}{h} = \cos(x) \cdot \lim_{h \to 0} \
 - **Composition of Functions:** If $f(x) = g(h(x))$, then $f'(x) = g'(h(x)) \cdot h'(x)$.
 
 
-- **General Form:** \frac{d}{dx} f(g(x)) = f'(g(x)) \cdot g'(x)
+- **General Form:** $\frac{d}{dx} f(g(x)) = f'(g(x)) \cdot g'(x)$
 
 
 
@@ -244,7 +244,7 @@ f'(x) = \lim_{h \to 0} \frac{\cos(x)\sin(h)}{h} = \cos(x) \cdot \lim_{h \to 0} \
 
 - **Solution (continued):** 
 
- \lim_{x \to 2} f(x) = \lim_{x \to 2} (x + 2) = 2 + 2 = 4
+ $$ \lim_{x \to 2} f(x) = \lim_{x \to 2} (x + 2) = 2 + 2 = 4 $$
 
 - **Q2:** If $f(x) = |x|$ and $g(x) = x^2$, find the derivative of $f(g(x))$.
 
@@ -263,7 +263,7 @@ For $x < 0$, $f(g(x)) = f(x^2) = |x^2| = x^2$, so $f'(g(x)) = 2x$.
 
 However, since $g(x) = x^2$, we need to use the chain rule:
 
-\frac{d}{dx} f(g(x)) = f'(g(x)) \cdot g'(x) = 2x \cdot 2x = 4x^2
+$$ \frac{d}{dx} f(g(x)) = f'(g(x)) \cdot g'(x) = 2x \cdot 2x = 4x^2 $$
 
 
 But we must consider the nature of $f(x) = |x|$ when $x = 0$. Since $g(0) = 0^2 = 0$, and $f'(0)$ is undefined for $f(x) = |x|$, the derivative of $f(g(x))$ at $x = 0$ needs special attention.
@@ -302,7 +302,7 @@ Derivatives have numerous applications in optimization problems, where they are 
 
 As we delve deeper into the world of continuity and differentiability, it's essential to explore more advanced concepts that will help solidify your understanding and prepare you for the challenges of JEE 2026.
 
-- **Uniform Continuity:** A function $f(x)$ is said to be uniformly continuous on an interval $[a, b]$ if for every $\epsilon > 0$, there exists a $\delta > 0$ such that $|f(x_1) - f(x_2)| < \epsilon$ whenever $|x_1 - x_2| < \delta$ for all $x_1, x_2 \in [a, b]$.
+- **Uniform Continuity:** A function $f(x)$ is said to be uniformly continuous on an interval $[a, b]$ if for every $\epsilon > 0$, there exists a $\Delta > 0$ such that $|f(x_1) - f(x_2)| < \epsilon$ whenever $|x_1 - x_2| < \Delta$ for all $x_1, x_2 \in [a, b]$.
 
 - **Lipschitz Continuity:** A function $f(x)$ is said to be Lipschitz continuous on an interval $[a, b]$ if there exists a constant $M$ such that $|f(x_1) - f(x_2)| \leq M|x_1 - x_2|$ for all $x_1, x_2 \in [a, b]$.
 

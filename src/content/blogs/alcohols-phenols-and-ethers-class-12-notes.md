@@ -8,38 +8,14 @@ practice_link: "/class-11/chemistry/alcohols-phenols-and-ethers-class-12-notes"
 ---
 
 *Last Updated: 2026-03-29*
-
-
-
-
 ## 📋 Table of Contents
-
 - [🎯 What WILL Come in Your Exam](#-what-will-come-in-your-exam)
 - [⚡ Formula Bank](#-formula-bank)
   - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
 - [📚 Related Topics](#-related-topics)
-
-
 </div>
-
-
-
-
 <DIV [class](/blog/amines-class-12-notes)="quick-summary">
-
 #- [📋 Table of Contents](#-table-of-contents)
-
-
-
-
-
-
-
-
-
-
-
-
 ## <a id="-what-will-come-in-your-exam"></a>🎯 What WILL Come in Your Exam
 * 1–2 questions on classification, nomenclature, and isomerism of alcohols, phenols, and ethers — always focus on IUPAC naming conventions and practice identifying primary, secondary, and tertiary alcohols.
 * Preparation of alcohols via $\math{LiAlH_4}$ reduction of carbonyl compounds — expect at least 1 question on this, including the reaction mechanism and stereochemistry.
@@ -50,11 +26,8 @@ practice_link: "/class-11/chemistry/alcohols-phenols-and-ethers-class-12-notes"
 * Numerical problems involving the boiling points and solubilities of alcohols, phenols, and ethers — use $\Delta \math{H_{vap}}$ and intermolecular forces to explain the trends.
 * Reaction of phenols with $\math{FeCl_3}$ — a common question, where you need to identify the product and explain the test for phenols.
 * 1 question on the distinction between alcohols, phenols, and ethers using chemical tests — practice identifying the reagents used and the expected outcomes, such as the $\math{Lucas}$ test and the $\math{Victor}\math{Meyer}$ test.
-* Stereo chemical aspects of alcohol and ether reactions — at least 1 question on the (suggestion limit reached) outcomes of $\(suggestion limit reached){SN1}$ and $\(suggestion limit reached){SN2}$ reactions involving these compounds.
-
-
+* Stereo chemical aspects of alcohol and ether reactions — at least 1 question on the  outcomes of $\{SN1}$ and $\{SN2}$ reactions involving these compounds.
 ## <a id="-formula-bank"></a>⚡ Formula Bank
-
 $RCH(OH) + PCL_5 \right arrow Rock + Poll_3 + HCl - Conversion of alcohol to acyl chloride. 
  $RCH(OH) + Soil_2 \right arrow Rock + SO_2 + HCl - Thinly chloride reaction. 
  $RCH_2OH + CRO_3 \right arrow ECHO + Cr^{3+}$ - Oxidation of primary alcohol to aldehyde. 
@@ -100,50 +73,25 @@ $RCH(OH) + PCL_5 \right arrow Rock + Poll_3 + HCl - Conversion of alcohol to acy
  $ROH + H_2C=Chock \right arrow ROCH_2CH=CH_2 + HCl - Reaction of alcohol with acrylic chloride. 
  $RCH_2OH + H_2C=Chock \right arrow ROCH_2CH=CH_2 + HCl - Reaction of primary alcohol with acrylic chloride. 
  OR_2CH(OH) + H_2C=Chock \right arrow ROCH_2CH=CH_2 + HCl - Reaction of secondary alcohol with acrylic chloride.
-
-
 | Reaction | Reagents | Product |
 |
-
-
----
-
 ### <a id="-ready-to-ace-your-exam"></a>🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/alcohols-phenols-and-ethers-class-12-notes) now and track your progress against thousands of students.
-
----
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
-
 ## <a id="-related-topics"></a>📚 Related Topics
-
 Continue your [revision](/blog/chemical-bonding-class-11-revision-notes-jee-neet) with these related guides:
-
 - 📖 [Chemistry in Everyday Life Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/chemistry-in-everyday-life-class-12-notes)
 - 📖 [Polymers Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/polymers-class-12-notes)
 - 📖 [Inverse Trigonometric Functions Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/inverse-trigonometric-functions-class-12-notes)
 - 📖 [Matrices Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/matrices-class-12-notes)
-
-
----
-
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/alcohols-phenols-and-ethers-class-12-notes) now and track your progress against thousands of students.
-
-
----
-
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/alcohols-phenols-and-ethers-class-12-notes) now and track your progress against thousands of students.
 ## 📚 Related Topics
-
 Continue your [revision](/blog/chemical-bonding-class-11-revision-notes-jee-neet) with these related guides:
-
 - 📖 [Chemical Kinetics Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/chemical-kinetics-class-12-notes)
 - 📖 [Chemistry in Everyday Life Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/chemistry-in-everyday-life-class-12-notes)
 - 📖 [Coordination Compounds Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/coordination-compounds-class-12-notes)
 - 📖 [Haloalkanes and Halogens Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/haloalkanes-and-haloarenes-class-12-notes)
-
 ## 🪤 The 5 Mistakes That Cost Marks
 
     * Not recognizing that the -OH group in alcohols and phenols is the functional group responsible for their [chemical](/blog/chemical-kinetics-class-12-notes) properties, leading to incorrect identification of reactions and mechanisms.

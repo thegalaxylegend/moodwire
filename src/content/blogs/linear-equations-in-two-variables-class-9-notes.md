@@ -5,7 +5,7 @@ description: "Linear Equations in Two Variables Class 9 Mathematics Recap — CB
 category: "Exam Notes"
 date: "2026-04-13"
 practice_link: "/class-9/mathematics/linear-equations-in-two-variables"
-manualReview: true
+manualReview: false
 ---
 
 

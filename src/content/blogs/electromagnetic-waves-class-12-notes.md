@@ -75,7 +75,7 @@ Some of the key terms and formulas that we'll be using in this topic include:
 
 * **Speed of light**: $c = 3 \times 10^{8}$ m/s
 
-* **Electromagnetic [wave](/blog/wave-optics-class-12-notes) equation**: \frac{\partial^2 E}{\partial x^2} = \mu_0 \epsilon_0 \frac{\partial^2 E}{\partial t^2}
+* **Electromagnetic [wave](/blog/wave-optics-class-12-notes) equation**: $\frac{\partial^2 E}{\partial x^2} = \mu_0 \epsilon_0 $$\frac{\partial^2 E}{\partial t^2}$
 
 
 * **Wave number**: $k = \frac{2 \pi}{\lambda}$
@@ -161,10 +161,10 @@ Key Takeaway: Understanding the Electromagnetic Spectrum, its various regions, a
 How do Electromagnetic Waves Propagate? is a fundamental concept in physics that describes the transmission of energy through electromagnetic waves. It includes the electric field, magnetic field, and wave propagation. For Class 12 exam prep in 2026, the most important aspect is understanding the mathematical relationship between these components to solve numerical problems.
 
  The propagation of electromagnetic waves can be described using Maxwell's equations, which form the foundation of classical electromagnetism. The four equations are: $
-abla \cdot \mathbf{E} = \frac{\rho}{\epsilon_0}$, $
+abla \cdot \mathbf{E} = $\frac{\rho}{\epsilon_0}$, 
 abla \cdot \mathbf{B} = 0$, $
-abla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}$, and $
-abla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \epsilon_0 \frac{\partial \mathbf{E}}{\partial t}$. These equations can be used to derive the wave equation for electromagnetic waves, which is $\frac{\partial^2 \mathbf{E}}{\partial t^2} = c^2
+abla \times \mathbf{E} = -$\frac{\partial \mathbf{B}}{\partial t}$, and 
+abla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \epsilon_0 $\frac{\partial \mathbf{E}}{\partial t}$. These equations can be used to derive the wave equation for electromagnetic waves, which is $\frac{\partial^2 \mathbf{E}}{\partial t^2}$ = c^2
 abla^2 \mathbf{E}$, where $c$ is the speed of light.
 
  Electromagnetic waves can propagate through a vacuum, and their speed is constant, regardless of the motion of the source or observer. This is a fundamental concept in special relativity, and it has been experimentally verified numerous times. In contrast, mechanical waves, such as sound waves, require a medium to propagate and their speed depends on the properties of the medium.
@@ -330,7 +330,7 @@ Electromagnetic Waves is a phenomenon where electric and magnetic fields vary si
  - **Speed of Light**: The speed at which electromagnetic waves propagate in a vacuum, approximately $3 	imes 10^8$ m/s.
 
  Student-Centric Tip: To avoid falling into trap questions, focus on understanding the fundamental properties and behaviors of electromagnetic waves. Practice applying formulas such as $c = lambda 
-u$ and $v = \frac{c}{mu_r epsilon_r}$ to different scenarios, and make sure to distinguish between the properties of electromagnetic waves and the properties of the media through which they travel.
+u$ and $v = $\frac{c}{mu_r epsilon_r}$ to different scenarios, and make sure to distinguish between the properties of electromagnetic waves and the properties of the media through which they travel.
 
 
 | Type of Wave | Wavelength Range | Frequency Range | Applications |

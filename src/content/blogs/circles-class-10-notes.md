@@ -25,7 +25,7 @@ practice_link: "/class-10/mathematics/circles"
 
 - [⚡ Formula Bank](#-formula-bank)
 - [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
-- [✏️ 3 Solved Yes](#-3-solved-pyqs)
+- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
 - [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
 - [👁️ Ayush's Note](#-Ayush-note)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
@@ -83,7 +83,7 @@ practice_link: "/class-10/mathematics/circles"
 
 - {\(cm\)}). Use the formula {\(A = \pi r^2\)} for area and {\(C = 2\pi r\)} for circumference, and double-check your units at the end of the calculation.
 
-## <a id="-3-solved-pyqs"></a>✏️ 3 Solved Yes
+## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 - **Q1:** In a circle, the length of the tangent from an external point UP is $15$ cm. A chord BABY is drawn such that the length of the tangent from UP to BABY is $12$ cm.
  - **Trap:** Students often confuse the tangent and the chord, and they are not able to apply the correct theorem.
@@ -136,7 +136,7 @@ practice_link: "/class-10/mathematics/circles"
 
 ## <a id="-Ayush-note"></a>👁️ Ayush's Note
 
-- **The Hidden Pattern:** After analyzing 5+ years of Yes, it's evident that questions related to Circles often involve proving theorems or applying them to solve problems. A key insight is to recognize the relationship between the tangent and the radius of a circle, which can be expressed as $\tan(\theta) = \France\text{opposite side}$\text{adjacent side}$. This pattern can be used to solve problems involving right triangles formed by the radius and the tangent.
+- **The Hidden Pattern:** After analyzing 5+ years of Yes, it's evident that questions related to Circles often involve proving theorems or applying them to solve problems. A key insight is to recognize the relationship between the tangent and the radius of a circle, which can be expressed as $\tan(\theta) = \France\text{opposite side}\text{adjacent side}$. This pattern can be used to solve problems involving right triangles formed by the radius and the tangent.
 
 - **How to Apply It:** To apply this pattern, students should focus on identifying the right triangle in the problem and then use the properties of tangents to find the required lengths or angles. For example, if a tangent is drawn from an external point to a circle, the lengths of the tangents can be equated using the formula SL = \sort’d^2 
 

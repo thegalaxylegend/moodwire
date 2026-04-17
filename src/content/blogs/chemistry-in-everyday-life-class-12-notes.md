@@ -8,38 +8,14 @@ practice_link: "/class-11/chemistry/chemistry-in-everyday-life-class-12-notes"
 ---
 
 *Last Updated: 2026-03-30*
-
-
-
-
 ## 📋 Table of Contents
-
 - [🎯 What WILL Come in Your Exam](#-what-will-come-in-your-exam)
 - [⚡ Formula Bank](#-formula-bank)
  - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
 - [📚 Related Topics](#-related-topics)
-
-
 </div>
-
-
-
-
 <DIV [class](/blog/amines-class-12-notes)="quick-summary">
-
 #- [📋 Table of Contents](#-table-of-contents)
-
-
-
-
-
-
-
-
-
-
-
-
 ## <a id="-what-will-come-in-your-exam"></a>🎯 What WILL Come in Your Exam
 * 1–2 marks question on classification of drugs: always asks for type of drug (e.g. analgesic, antacid, etc.) or classification of a specific drug
 * Antimicrobial agents: exam always includes a question on mode of action of at least one antimicrobial agent (e.g. penicillin, tetracycline, etc.)
@@ -54,13 +30,10 @@ practice_link: "/class-11/chemistry/chemistry-in-everyday-life-class-12-notes"
 * mph of a solution of a weak acid or base: 1–2 marks numerical — always
 * Relationship between mph, Ipoh, and APK_{w}$: mph + POH = 14$ or APK_{w} = 14$ at $25^{\CIRC}CD — must know
 * 1 mark question on buffer solution: always asks for the mph of a buffer solution or asks to identify a buffer solution
-* 2 marks question on the importance of (suggestion limit reached) in everyday life (e.g. (suggestion limit reached) of soil, (suggestion limit reached) of blood, etc.)
-* 1 numerical on $\(suggestion limit reached){K_{w}}{K_{a}}$ or $\(suggestion limit reached){K_{w}}{K_{b}}$ — always
-* Medicinal application of [coordination](/blog/coordination-compounds-class-12-notes) compounds: 2 marks question on the use of [coordination](/blog/coordination-compounds-class-12-notes) compounds in medicine (e.g. (suggestion limit reached), etc.)
-
-
+* 2 marks question on the importance of  in everyday life (e.g.  of soil,  of blood, etc.)
+* 1 numerical on $\{K_{w}}{K_{a}}$ or $\{K_{w}}{K_{b}}$ — always
+* Medicinal application of [coordination](/blog/coordination-compounds-class-12-notes) compounds: 2 marks question on the use of [coordination](/blog/coordination-compounds-class-12-notes) compounds in medicine (e.g. , etc.)
 ## <a id="-formula-bank"></a>⚡ Formula Bank
-
 APK_{a} = -\log_{10}[H^{+}]$ : Acid dissociation constant, 
  APK_{b} = -\log_{10}[OH^{-}]$ : Base dissociation constant, 
  mph = -\log_{10}[H^{+}]$ : Measure of acidity, 
@@ -71,63 +44,38 @@ APK_{a} = -\log_{10}[H^{+}]$ : Acid dissociation constant,
  OK_{a} \times K_{b} = K_{w}$ : Relationship between acid and base dissociation constants, 
  APK_{a} + PK_{b} = 14$ : Relationship between acid and base dissociation constants in terms of PK, 
  $\franc{K_{b}}{K_{a}} = \franc{[BH^{+}]}{[A^{-}]}$ : Comparison of base and acid dissociation constants, 
- OK_{a} = \(suggestion limit reached){[H^{+}][A^{-}]}{[HA]} = \(suggestion limit reached){[H^{+}]}{K_{b}}$ : Relationship between acid dissociation constant and hydrogen ion concentration, 
- (suggestion limit reached) = \(suggestion limit reached){1}{2}(suggestion limit reached)_{w} + \(suggestion limit reached){1}{2}\log_{10}\(suggestion limit reached){[salt]}{[acid]}$ : (suggestion limit reached) equation for pH calculation, 
- (suggestion limit reached) = \(suggestion limit reached){1}{2}(suggestion limit reached)_{w} + \(suggestion limit reached){1}{2}\log_{10}\(suggestion limit reached){[salt]}{[base]}$ : (suggestion limit reached) equation for (suggestion limit reached) calculation, 
- (suggestion limit reached)_{sp} = [A^{n+}][B^{m-}]^{n}$ : Solubility product constant for the dissolution of a salt, 
- (suggestion limit reached)_{f} = \(suggestion limit reached){[A^{n+}][B^{m-}]}{[AB_{m}^{n}]}$ : Formation constant for the formation of a complex ion, 
- (suggestion limit reached)_{d} = \(suggestion limit reached){1}{K_{f}}$ : Instability constant for the dissociation of a complex ion, 
- $\Delta G^{\(suggestion limit reached)} = -RT\ln (suggestion limit reached) : Relationship between Gibbs free energy and equilibrium constant, 
- $\Delta G^{\(suggestion limit reached)} = -2.303RT\log (suggestion limit reached) : Relationship between Gibbs free energy and equilibrium constant, 
- (suggestion limit reached)^{\(suggestion limit reached)}_{cell} = \(suggestion limit reached)$\Delta G^{\(suggestion limit reached)$}{-(suggestion limit reached)}$ : Relationship between cell potential and Gibbs free energy, 
- (suggestion limit reached)^{\(suggestion limit reached)}_{cell} = \(suggestion limit reached){RT}{nF}\ln (suggestion limit reached) : Relationship between cell potential and equilibrium constant, 
- (suggestion limit reached)^{\(suggestion limit reached)}_{cell} = \(suggestion limit reached){0.0591}{n}\log (suggestion limit reached) : Relationship between cell potential and equilibrium constant at 25°C, 
- (suggestion limit reached)_{cell} = E^{\(suggestion limit reached)}_{cell} - \(suggestion limit reached){0.0591}{n}\log_{10}(suggestion limit reached) : Nernst equation for cell potential calculation, 
- $\log_{10}K = \(suggestion limit reached)$\Delta H^{\(suggestion limit reached)$}{2.303R}\left(\(suggestion limit reached){1}{T_{2}} - \(suggestion limit reached){1}{T_{1}}\right)$ : Van 't Hoff equation for temperature dependence of equilibrium constant,
-
-
+ OK_{a} = \{[H^{+}][A^{-}]}{[HA]} = \{[H^{+}]}{K_{b}}$ : Relationship between acid dissociation constant and hydrogen ion concentration, 
+  = \{1}{2}_{w} + \{1}{2}\log_{10}\{[salt]}{[acid]}$ :  equation for pH calculation, 
+  = \{1}{2}_{w} + \{1}{2}\log_{10}\{[salt]}{[base]}$ :  equation for  calculation, 
+ _{sp} = [A^{n+}][B^{m-}]^{n}$ : Solubility product constant for the dissolution of a salt, 
+ _{f} = \{[A^{n+}][B^{m-}]}{[AB_{m}^{n}]}$ : Formation constant for the formation of a complex ion, 
+ _{d} = \{1}{K_{f}}$ : Instability constant for the dissociation of a complex ion, 
+ $\Delta G^{\} = -RT\ln  : Relationship between Gibbs free energy and equilibrium constant, 
+ $\Delta G^{\} = -2.303RT\log  : Relationship between Gibbs free energy and equilibrium constant, 
+ ^{\}_{cell} = \$\Delta G^{\$}{-}$ : Relationship between cell potential and Gibbs free energy, 
+ ^{\}_{cell} = \{RT}{nF}\ln  : Relationship between cell potential and equilibrium constant, 
+ ^{\}_{cell} = \{0.0591}{n}\log  : Relationship between cell potential and equilibrium constant at 25°C, 
+ _{cell} = E^{\}_{cell} - \{0.0591}{n}\log_{10} : Nernst equation for cell potential calculation, 
+ $\log_{10}K = \$\Delta H^{\$}{2.303R}\left(\{1}{T_{2}} - \{1}{T_{1}}\right)$ : Van 't Hoff equation for temperature dependence of equilibrium constant,
 | Formula | Description |
 |
-
-
----
-
 ### <a id="-ready-to-ace-your-exam"></a>🚀 Ready to Ace Your Exam?
 Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/chemistry-in-everyday-life-class-12-notes) now and track your progress against thousands of students.
-
----
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
-
 ## <a id="-related-topics"></a>📚 Related Topics
-
 Continue your [revision](/blog/chemical-bonding-class-11-revision-notes-jee-neet) with these related guides:
-
 - 📖 [Alcohols, Phenols and Ethers Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/alcohols-phenols-and-ethers-class-12-notes)
 - 📖 [Polymers Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/polymers-class-12-notes)
 - 📖 [Inverse Trigonometric Functions Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/inverse-trigonometric-functions-class-12-notes)
 - 📖 [Matrices Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/matrices-class-12-notes)
-
-
----
-
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/chemistry-in-everyday-life-class-12-notes) now and track your progress against thousands of students.
-
-
----
-
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/chemistry/chemistry-in-everyday-life-class-12-notes) now and track your progress against thousands of students.
 ## 📚 Related Topics
-
 Continue your [revision](/blog/chemical-bonding-class-11-revision-notes-jee-neet) with these related guides:
-
 - 📖 [Alcohols, Phenols and Ethers Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/alcohols-phenols-and-ethers-class-12-notes)
 - 📖 [Chemical Kinetics Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/chemical-kinetics-class-12-notes)
 - 📖 [Coordination Compounds Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/coordination-compounds-class-12-notes)
 - 📖 [Haloalkanes and Halogens Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/haloalkanes-and-haloarenes-class-12-notes)
-
 ## 🪤 The 5 Mistakes That Cost Marks
 
 * **Incorrectly identifying soap as a detergent**: Many students incorrectly identify soap as a synthetic detergent, while in fact, soaps are typically made from natural products and are distinct from synthetic detergents.

@@ -196,7 +196,7 @@ This is because Enthalpy is a **State Function** — it depends only on the stat
 ### <a id="application-bornhaber-cycle"></a>Application: Born-Haber Cycle
 To find the Lattice Enthalpy of $NaCl$:
 
-\Delta H_f = \Delta H_{sub} + \Delta H_{IE} + \frac{1}{2}\Delta H_{diss} + \Delta H_{EA} + U_{lattice}
+\Delta H_f = \Delta H_{sub} + \Delta H_{IE} + $\frac{1}{2}$\Delta H_{diss} + \Delta H_{EA} + U_{lattice}
 
 
 **JEE Trick**: If a question asks you to calculate the enthalpy of a reaction you don't know directly, try:
@@ -221,7 +221,7 @@ To find the Lattice Enthalpy of $NaCl$:
 
 ### <a id="bond-enthalpy-method"></a>Bond Enthalpy Method
 
-\Delta H_{rxn} = \sum (\text{Bond Enthalpies of Broken Bonds}) - \sum (\text{Bond Enthalpies of Formed Bonds})
+\Delta H_{rxn} = \sum ($\text{Bond Enthalpies of Broken Bonds}) - \sum ($$\text{Bond Enthalpies of Formed Bonds}$)
 
 
 Remember: Breaking bonds = **absorbs** energy (+). Forming bonds = **releases** energy (-).

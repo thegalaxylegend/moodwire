@@ -252,7 +252,7 @@ Calculating the Impedance of an Alternating Current circuit is determining the t
 
 To calculate impedance, we use the formula $Z = sqrt{R^2 + (X_L - X_C)^2}$, where $Z$ is the impedance, $R$ is the resistance, $X_L$ is the inductive reactance, and $X_C$ is the capacitive reactance. The inductive reactance is given by $X_L = 2pi fL$, where $f$ is the frequency and $L$ is the inductance. The capacitive reactance is given by $X_C = \frac{1}{2pi fC}$, where $C$ is the capacitance.
 
-In a series RLC circuit, the impedance is calculated using the formula $Z = sqrt{R^2 + (X_L - X_C)^2}$. In a parallel RLC circuit, the impedance is calculated using the formula $Z = \frac{1}{sqrt$\frac{1${R^2} + (\frac{1}{X_L} - \frac{1}{X_C})^2}}$.
+In a series RLC circuit, the impedance is calculated using the formula $Z = sqrt{R^2 + (X_L - X_C)^2}$. In a parallel RLC circuit, the impedance is calculated using the formula $Z = \frac{1}{sqrt\frac{1${R^2} + ($\frac{1}{X_L}$ - $\frac{1}{X_C}$)^2}}$.$
 
 Here's a comparison table for series and parallel RLC circuits:
 

@@ -108,7 +108,7 @@ Soil pollution is [the presence of contaminants or pollutant substances in soil 
 ## <a id="shortcut-formula-trick"></a>Shortcut Formula / Trick
 
 One shortcut formula to remember in environmental chemistry is the [formula for calculating the pH of a solution](https://en.wikipedia.org/wiki/PH):
-\[ \text{pH} = -\log_{10}[\text{H}^+] \]
+\[ $\text{pH} = -\log_{10}[$$\text{H}^+$] \]
 where $[\text{H}^+]$ is the concentration of hydrogen ions in the solution.
 
 

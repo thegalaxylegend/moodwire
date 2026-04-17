@@ -43,11 +43,11 @@ practice_link: "/class-11/biology/human-reproduction-class-12-notes"
 
 - **Death Rate:** \frac$\text{Number of Deaths$}$\text{Total Population$} \times 1000 — Measures the number of deaths per 1000 people in the population.
 
-- **Population Growth Rate:** \frac$\text{Birth Rate$ - \text{Death Rate}}{10} — Measures the rate at which the population is growing or declining.
+- **Population Growth Rate:** \frac$\text{Birth Rate$ - $\text{Death Rate}$}{10} — Measures the rate at which the population is growing or declining.
 
 - **Sex Ratio:** \frac$\text{Number of Females$}$\text{Number of Males$} \times 1000 — Measures the number of females per 1000 males in the population.
 
- - **Menstrual Cycle Length:** 28 \pm 7 \text{ days} — Average length of a menstrual cycle, with a normal range of 21 to 35 days.
+ - **Menstrual Cycle Length:** 28 \pm 7 $\text{ days}$ — Average length of a menstrual cycle, with a normal range of 21 to 35 days.
 
 - **Fertilization Probability:** \frac$\text{Number of Sperm Reaching the Egg$}$\text{Total Number of Sperm Released$} — Measures the likelihood of successful fertilization.
 
@@ -55,7 +55,7 @@ practice_link: "/class-11/biology/human-reproduction-class-12-notes"
 
 - **Pregnancy Success Rate:** \frac$\text{Number of Successful Pregnancies$}$\text{Total Number of Pregnancies$} \times 100 — Measures the percentage of pregnancies that result in a live birth.
 
- - **Gonadal Sex Differentiation:** \text{Genetic Sex} \rightarrow \text{Gonadal Sex} \rightarrow \text{Phenotypic Sex} — Describes the process of sex determination and differentiation in humans.
+ - **Gonadal Sex Differentiation:** $\text{Genetic Sex} \rightarrow $$\text{Gonadal Sex}$ \rightarrow $\text{Phenotypic Sex}$ — Describes the process of sex determination and differentiation in humans.
 
 - **Follicular Growth Rate:** \frac$\text{Increase in Follicle Size$}$\text{Time$} — Measures the rate at which follicles grow and mature in the ovaries.
 
@@ -67,7 +67,7 @@ practice_link: "/class-11/biology/human-reproduction-class-12-notes"
 
  - *Costs:* 4-6 marks
 
- - *Fix:* Remember that $FSH$ stimulates follicular growth, while $LH$ triggers ovulation. Use the formula: \text{Menstrual Cycle} = \text{Follicular Phase} + \text{Ovulation} + \text{Luteal Phase} to keep track of hormone functions.
+ - *Fix:* Remember that $FSH$ stimulates follicular growth, while $LH$ triggers ovulation. Use the formula: $\text{Menstrual Cycle} = $$\text{Follicular Phase}$ + $\text{Ovulation} + $$\text{Luteal Phase}$ to keep track of hormone functions.
 
  - **Mistake 2:** Forgetting the difference between $\mitosis$ and $\meiosis$ in reproductive cells.
 
@@ -79,19 +79,19 @@ practice_link: "/class-11/biology/human-reproduction-class-12-notes"
 
  - *Costs:* 3-5 marks
 
- - *Fix:* Remember that human chorionic gonadotropin ($hCG$) is produced by the placenta and maintains the corpus luteum during early pregnancy: hCG \propto \text{placental development}.
+ - *Fix:* Remember that human chorionic gonadotropin ($hCG$) is produced by the placenta and maintains the corpus luteum during early pregnancy: hCG \propto $\text{placental development}$.
 
  - **Mistake 4:** Incorrectly describing the process of $\fertilization$.
 
  - *Costs:* 6-8 marks
 
- - *Fix:* Review the steps of fertilization: \text{Fertilization} = \text{Acrosome Reaction} + \text{Zona Pellucida Binding} + \text{Cortical Reaction}.
+ - *Fix:* Review the steps of fertilization: $\text{Fertilization} = $$\text{Acrosome Reaction}$ + $\text{Zona Pellucida Binding} + $$\text{Cortical Reaction}$.
 
  - **Mistake 5:** Confusing the roles of $\estrogen$ and $\progestogen$ in the menstrual cycle.
 
  - *Costs:* 5-7 marks
 
- - *Fix:* Understand that $\estrogen$ promotes follicular growth and $\progestogen$ prepares the uterus for implantation: \text{Menstrual Cycle} = \text{Estrogen} \times \text{Progestogen}.
+ - *Fix:* Understand that $\estrogen$ promotes follicular growth and $\progestogen$ prepares the uterus for implantation: $\text{Menstrual Cycle} = $$\text{Estrogen}$ \times $\text{Progestogen}$.
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
@@ -143,7 +143,7 @@ practice_link: "/class-11/biology/human-reproduction-class-12-notes"
 
  - Its primary role is to maintain the corpus luteum, which is responsible for producing progesterone, during the first trimester of pregnancy.
 
- - $hCG$ can be represented by the following formula: hCG = \frac{\beta-hCG}{\alpha-hCG}
+ - $hCG$ can be represented by the following formula: hCG = $\frac{\beta-hCG}{\alpha-hCG}$
 
  - Where $\beta-hCG$ and $\alpha-hCG$ are the beta and alpha subunits of hCG respectively.
 

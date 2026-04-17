@@ -57,8 +57,8 @@ Magnetism and matter is a broad topic, encompassing various concepts, including:
 Some essential formulas to keep in mind:
 
 * **Magnetic field due to a [current](/blog/alternating-current-class-12-notes)-carrying wire**: $B = \frac$\mu_0 I${2\pi r}$
-* **Magnetic flux**: $\Phi = \int \vec{B} \cdot d\vec{A}$
-* **Faraday's law of [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)**: $\epsilon = -\frac{d\Phi}{dt}$
+* **Magnetic flux**: $\phi = \int \vec{B} \cdot d\vec{A}$
+* **Faraday's law of [induction](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)**: $\epsilon = -\frac{d\phi}{dt}$
 
 **Exam Weightage and Question Types**
 In the [class](/blog/alternating-current-class-12-notes) 12 CBSE board exams, magnetism and matter is a significant topic, with a weightage of **10-12%**. Questions can range from straightforward calculations to complex problems that require a deep understanding of the concepts. Some common question types include:
@@ -267,7 +267,7 @@ What are common Trap Questions for Magnetism and Matter? is a crucial aspect of 
 
  When it comes to trap questions in magnetism and matter, students often struggle with distinguishing between similar concepts. A common trap question is related to the difference between magnetic field lines and electric field lines. While both types of field lines are used to visualize the direction and magnitude of forces, they have distinct properties. Magnetic field lines, denoted by $\vec{B}$, are continuous and form closed loops, whereas electric field lines, denoted by $\vec{E}$, originate from positive charges and terminate on negative charges.
 
- Another common trap question involves the concept of magnetic induction. Students are often asked to determine the direction of the induced current in a coil when it is placed in a changing magnetic field. This requires applying Lenz's law, which states that the induced current will flow in a direction such that the magnetic field it produces opposes the change in the original magnetic field. The formula to determine the induced emf is given by $\epsilon = -N\frac{d\Phi}{dt}$, where $\epsilon$ is the induced emf, $N$ is the number of turns in the coil, and $\frac{d\Phi}{dt}$ is the rate of change of magnetic flux.
+ Another common trap question involves the concept of magnetic induction. Students are often asked to determine the direction of the induced current in a coil when it is placed in a changing magnetic field. This requires applying Lenz's law, which states that the induced current will flow in a direction such that the magnetic field it produces opposes the change in the original magnetic field. The formula to determine the induced emf is given by $\epsilon = -N\frac{d\phi}{dt}$, where $\epsilon$ is the induced emf, $N$ is the number of turns in the coil, and $\frac{d\phi}{dt}$ is the rate of change of magnetic flux.
 
  A comparison of the key concepts related to magnetism and matter is provided in the table below.
 
@@ -276,7 +276,7 @@ What are common Trap Questions for Magnetism and Matter? is a crucial aspect of 
 | --- | --- | --- |
 | Magnetic Field Lines | Continuous, closed loops | $\vec{B} = \frac$\mu_0I${2\pi r}$ |
 | Electric Field Lines | Originate from positive charges, terminate on negative charges | $\vec{E} = \frac{kQ}{r^2}$ |
-| Magnetic Induction | Induced current flows to oppose change in magnetic field | $\epsilon = -N\frac{d\Phi}{dt}$ |
+| Magnetic Induction | Induced current flows to oppose change in magnetic field | $\epsilon = -N\frac{d\phi}{dt}$ |
 
 
 ## <a id="how-to-approach-numerical-problems-in-magnetism-and-matter-for-class-12"></a>How to approach Numerical Problems in Magnetism and Matter for Class 12?

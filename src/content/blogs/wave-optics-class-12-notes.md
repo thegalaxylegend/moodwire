@@ -179,7 +179,7 @@ A key concept in wave optics is the $principle of superposition$, which states t
 The study guide also covers $Fresnel's laws$, which describe the reflection and refraction of light at a plane interface between two media. These laws are based on the $Snell's law$, which relates the angles of incidence and refraction to the refractive indices of the media. The $total internal reflection$ is another important concept, which occurs when light passes from a denser medium to a rarer medium and is completely reflected back into the denser medium. 
 
 To better understand wave optics, it's essential to have a clear grasp of the mathematical formulations involved. The $wave equation$ is a fundamental concept, which describes the propagation of waves through a medium. The equation is given by $
-abla^2y = \frac{1}{v^2}\frac{\partial^2y}{\partial t^2}$, where $y$ is the displacement, $v$ is the velocity of the wave, and $t$ is time.
+abla^2y = $\frac{1}{v^2}$\frac{\partial^2y}{\partial t^2}$, where $y$ is the displacement, $v$ is the velocity of the wave, and $t$ is time.$
 
 **Student Tip:** To excel in the wave optics section, focus on understanding the underlying principles and practice applying them to different scenarios. Make sure to solve plenty of numerical problems to get a grip on the mathematical aspects. Also, try to visualize the concepts, such as wavefronts and interference patterns, to develop a deeper understanding of the subject.
 
@@ -321,7 +321,7 @@ Wave Optics is the study of the behavior of light as it interacts with matter, i
 
 - The Brewster's angle is the angle of incidence at which the reflected light is completely plane-polarized.
 
-- The speed of light in a medium is given by v = \frac{c}{μ}, where c is the speed of light in vacuum and μ is the refractive index of the medium.
+- The speed of light in a medium is given by v = $\frac{c}{μ}$, where c is the speed of light in vacuum and μ is the refractive index of the medium.
 
 
 - The phenomenon of diffraction occurs when light passes through a narrow opening or around a sharp edge.
@@ -358,24 +358,24 @@ Quarter wave plate
 **Answer:**
 C) A Nicole prism will allow the maximum intensity of polarized light passing through it because it is a beam-splitting polarizer.
 **4. In Young's double-slit experiment, the fringe width is given by**
-\frac{Dλ}{d}\frac{Dλ}{d}\frac{Dλ}{2d}\frac{2Dλ}{d}
+$\frac{Dλ}{d}$\frac{Dλ}{d}$\frac{Dλ}{2d}$$\frac{2Dλ}{d}$
 
-**Answer:** B) Fringe width in Young's double-slit experiment is given by β = \frac{Dλ}{d}, where D is the distance between the slits and the screen, λ is the wavelength of light, and d is the distance between the slits.
+**Answer:** B) Fringe width in Young's double-slit experiment is given by β = $\frac{Dλ}{d}$, where D is the distance between the slits and the screen, λ is the wavelength of light, and d is the distance between the slits.
 
 
 
 
 **5. The refractive index of a medium is given by**
 
-μ = \frac{sin i}{sin r}
+μ = $\frac{sin i}{sin r}$
 
-μ = \frac{r}{i}
+μ = $\frac{r}{i}$
 
-μ = \frac{sin r}{sin i}
+μ = $\frac{sin r}{sin i}$
 
-μ = \frac{i}{r}
+μ = $\frac{i}{r}$
 
-**Answer:** C) Refractive index is given by μ = \frac{sin r}{sin i}, where i is the angle of incidence and r is the angle of refraction.
+**Answer:** C) Refractive index is given by μ = $\frac{sin r}{sin i}$, where i is the angle of incidence and r is the angle of refraction.
 
 
 

@@ -67,9 +67,9 @@ Trap in this question: Students often forget that the current gain (\beta) in a 
  Solution: Given: $\beta = 0.95$, $I_e = 10 \times 10^{-3}$ A. The formula to calculate the base current is $I_b = I_e cdot (1 - \beta) / \beta$. Substituting the values, $I_b = (10 \times 10^{-3}) cdot (1 - 0.95) / 0.95 = (10 \times 10^{-3}) cdot (0.05) / 0.95 = 5.26 \times 10^{-4}$ A.
  Answer: $5.26 \times 10^{-4}$ A.
 
- Q: The input resistance of a common emitter amplifier is 1 k$\Omega$. If the output resistance is 25 $\Omega$, calculate the power gain when the current gain (\beta) is 50.
+ Q: The input resistance of a common emitter amplifier is 1 k$\omega$. If the output resistance is 25 $\omega$, calculate the power gain when the current gain (\beta) is 50.
  Trap in this question: Students often confuse the formula for power gain.
- Solution: Given: $R_i = 1 \times 10^3 \Omega$, $R_o = 25 \Omega$, $\beta = 50$. The formula for power gain is $A_p = \beta^2 cdot \frac{R_o}{R_i}$. Substituting the values, $A_p = 50^2 cdot \frac{25}{1 \times 10^3} = 2500 cdot 0.025 = 62.5$.
+ Solution: Given: $R_i = 1 \times 10^3 \omega$, $R_o = 25 \omega$, $\beta = 50$. The formula for power gain is $A_p = \beta^2 cdot \frac{R_o}{R_i}$. Substituting the values, $A_p = 50^2 cdot \frac{25}{1 \times 10^3} = 2500 cdot 0.025 = 62.5$.
  Answer: 62.5.
 
  Q: The breakdown voltage of a zener diode is 2.5 V and the zener current is 10 mA. If the zener diode is used as a voltage regulator, calculate the voltage across the zener diode when the current through the zener diode is 20 mA.
@@ -80,12 +80,12 @@ Trap in this question: Students often forget that the current gain (\beta) in a 
 | Question | Trap | Solution | Answer |
 | --- | --- | --- | --- |
 | In a common base amplifier, the current gain is 0.95. If the emitter current is 10 mA, calculate the base current. | Students often forget that the current gain (\beta) in a common base amplifier is less than 1. | $I_b = I_e cdot (1 - \beta) / \beta = (10 \times 10^{-3}) cdot (1 - 0.95) / 0.95 = 5.26 \times 10^{-4}$ A | $5.26 \times 10^{-4}$ A |
-| The input resistance of a common emitter amplifier is 1 k$\Omega$. If the output resistance is 25 $\Omega$, calculate the power gain when the current gain (\beta) is 50. | Students often confuse the formula for power gain. | $A_p = \beta^2 cdot \frac{R_o}{R_i} = 50^2 cdot \frac{25}{1 \times 10^3} = 62.5$ | 62.5 |
+| The input resistance of a common emitter amplifier is 1 k$\omega$. If the output resistance is 25 $\omega$, calculate the power gain when the current gain (\beta) is 50. | Students often confuse the formula for power gain. | $A_p = \beta^2 cdot \frac{R_o}{R_i} = 50^2 cdot \frac{25}{1 \times 10^3} = 62.5$ | 62.5 |
 | The breakdown voltage of a zener diode is 2.5 V and the zener current is 10 mA. If the zener diode is used as a voltage regulator, calculate the voltage across the zener diode when the current through the zener diode is 20 mA. | Students often think the voltage across the zener diode changes significantly with current. | $V_{z_new} = V_z = 2.5$ V | 2.5 V |
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
-The key concept that differentiates 85% scorers from 95% scorers in Semiconductor Electronics is the understanding of the $p$-$n$ junction diode's current-voltage characteristics, specifically the role of the $e^{\frac{V_D}{\eta V_T}}$ term in the Shockley diode equation: $I = I_S \left( e^$\frac{V_D${\eta V_T}} - 1 \right)$. Most students struggle to apply this equation to solve problems involving diode circuits, particularly when dealing with non-ideal diodes and circuits with multiple loops. The ability to accurately analyze and apply the Shockley diode equation to complex circuits is what sets high-scoring students apart.
+The key concept that differentiates 85% scorers from 95% scorers in Semiconductor Electronics is the understanding of the $p$-$n$ junction diode's current-voltage characteristics, specifically the role of the $e^{\frac{V_D}{\eta V_T}}$ term in the Shockley diode equation: $I = I_S \left( e^\frac{V_D${\eta V_T}} - 1 \right)$. Most students struggle to apply this equation to solve problems involving diode circuits, particularly when dealing with non-ideal diodes and circuits with multiple loops. The ability to accurately analyze and apply the Shockley diode equation to complex circuits is what sets high-scoring students apart.$
 
 | Parameter | Description |
 | --- | --- |

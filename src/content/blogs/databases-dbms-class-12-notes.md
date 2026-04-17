@@ -25,7 +25,7 @@ practice_link: "/class-12/computer-science/databases-dbms"
 
 - [⚡ Formula Bank](#-formula-bank)
 - [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
-- [✏️ 3 Solved Yes](#-3-solved-pyqs)
+- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
 - [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
 - [👁️ Ayush's Note](#-Ayush-note)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
@@ -33,21 +33,21 @@ practice_link: "/class-12/computer-science/databases-dbms"
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Data Independence:** \$\franc{\text{Number of Applications}$\text{Number of Changes in Physical Schema}} — Measures the ability of a database to change without affecting the applications.
- - **Data Redundancy:** \$\franc{\text{Total Data}$\text{Useful Data}} — Measures the amount of redundant data in a database.
- - **Data Inconsistency:** \$\franc{\text{Number of Inconsistent Data}$\text{Total Data}} — Measures the amount of inconsistent data in a database.
- - **Database Normalization:** \$\franc{\text{Number of Tables}$\text{Number of Dependencies}} — Measures the degree of normalization in a database.
- - **Denormalization:** \$\franc{\text{Number of Redundant Data}$\text{Number of Tables}} — Measures the degree of denormalization in a database.
- - **Query Optimization:** \$\franc{\text{Query Execution Time}$\text{Optimized Query Execution Time}} — Measures the effectiveness of query optimization techniques.
- - **Indexing:** \$\franc{\text{Number of Indexes}$\text{Total Number of Attributes}} — Measures the degree of indexing in a database.
- - **Data Compression:** \$\franc{\text{Compressed Data Size}$\text{Original Data Size}} — Measures the effectiveness of data compression techniques.
- - **Data Encryption:** \$\franc{\text{Encrypted Data Size}$\text{Original Data Size}} — Measures the effectiveness of data encryption techniques.
- - **Transaction Throughput:** \$\franc{\text{Number of Transactions}$\text{Time$}} — Measures the number of transactions that can be processed in a given time.
- - **Transaction Response Time:** \$\franc{\text{Time$}$\text{Number of Transactions}} — Measures the time taken to process a transaction.
- - **Deadlock Prevention:** \$\franc{\text{Number of Deadlocks Prevented}$\text{Total Number of Transactions}} — Measures the effectiveness of deadlock prevention techniques.
- - **Concurrent Transaction Processing:** \$\franc{\text{Number of Concurrent Transactions}$\text{Total Number of Transactions}} — Measures the degree of concurrency in a database.
- - **Database Security:** \$\franc{\text{Number of Authorized Accesses}$\text{Total Number of Accesses}} — Measures the effectiveness of database security measures.
- - **Data Backup and Recovery:** \$\franc{\text{Number of Successful Recoveries}$\text{Total Number of Failures}} — Measures the effectiveness of data backup and recovery techniques.
+- **Data Independence:** \$\franc{\text{Number of Applications}\text{Number of Changes in Physical Schema}$} — Measures the ability of a database to change without affecting the applications.
+ - **Data Redundancy:** \$\franc{\text{Total Data}\text{Useful Data}$} — Measures the amount of redundant data in a database.
+ - **Data Inconsistency:** \$\franc{\text{Number of Inconsistent Data}\text{Total Data}$} — Measures the amount of inconsistent data in a database.
+ - **Database Normalization:** \$\franc{\text{Number of Tables}\text{Number of Dependencies}$} — Measures the degree of normalization in a database.
+ - **Denormalization:** \$\franc{\text{Number of Redundant Data}\text{Number of Tables}$} — Measures the degree of denormalization in a database.
+ - **Query Optimization:** \$\franc{\text{Query Execution Time}\text{Optimized Query Execution Time}$} — Measures the effectiveness of query optimization techniques.
+ - **Indexing:** \$\franc{\text{Number of Indexes}\text{Total Number of Attributes}$} — Measures the degree of indexing in a database.
+ - **Data Compression:** \$\franc{\text{Compressed Data Size}\text{Original Data Size}$} — Measures the effectiveness of data compression techniques.
+ - **Data Encryption:** \$\franc{\text{Encrypted Data Size}\text{Original Data Size}$} — Measures the effectiveness of data encryption techniques.
+ - **Transaction Throughput:** \$\franc{\text{Number of Transactions}\text{Time$}} — Measures the number of transactions that can be processed in a given time.
+ - **Transaction Response Time:** \$\franc{\text{Time$}$$\text{Number of Transactions}$} — Measures the time taken to process a transaction.
+ - **Deadlock Prevention:** \$\franc{\text{Number of Deadlocks Prevented}\text{Total Number of Transactions}$} — Measures the effectiveness of deadlock prevention techniques.
+ - **Concurrent Transaction Processing:** \$\franc{\text{Number of Concurrent Transactions}\text{Total Number of Transactions}$} — Measures the degree of concurrency in a database.
+ - **Database Security:** \$\franc{\text{Number of Authorized Accesses}\text{Total Number of Accesses}$} — Measures the effectiveness of database security measures.
+ - **Data Backup and Recovery:** \$\franc{\text{Number of Successful Recoveries}\text{Total Number of Failures}$} — Measures the effectiveness of data backup and recovery techniques.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -100,7 +100,7 @@ practice_link: "/class-12/computer-science/databases-dbms"
 
 - **JOIN Types:** Know the difference
 
-## <a id="-3-solved-pyqs"></a>✏️ 3 Solved Yes
+## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 - **Q1:** Consider two relations: `Courses (Coursed, Course Name, Dept ID)` and `Enrollments (Enrollment ID, Coursed, Student ID, Grade)`. Write an SQL query to find the `Course Name` and the average `Grade` for all courses that have at least 5 students enrolled, ordered by average grade in descending order.
  - **Trap:** Many students struggle with correctly applying aggregate functions (`AVG`, `COUNT`) combined with filtering on the aggregate result (`HAVING`) after grouping. Also, forgetting to `JOIN` the tables and misplacing `WHERE` vs. `HAVING` is a common pitfall.
@@ -123,7 +123,7 @@ practice_link: "/class-12/computer-science/databases-dbms"
  - **Trap:** Identifying candidate keys and then correctly checking for partial and transitive dependencies can be tricky. Students often miss some candidate keys or misapply the 3NF conditions, especially when dealing with multiple FDs and composite keys.
  - **Solution:**
  - **Step 1: Find Candidate Keys.** We need to find attributes whose closure includes all attributes of R. Let's try to compute attribute closures:
- - $(A)^+ = A \to BC \Right arrow ABC \to D \Right arrow BCD \to E \Right arrow ABIDE. So, **A is a candidate key.**
+ - $(A)^+ = A \to BC \right arrow ABC \to D \right arrow BCD \to E \right arrow ABIDE. So, **A is a candidate key.**
  - Since A is a candidate key, all other attributes (B, C, D, E) are non-prime attributes.
  - **Step 2: Check for 3NF.** A relation is in 3NF if for every non-trivial FD EX \to YO, either:
  1. EX is a super key.
@@ -146,13 +146,11 @@ practice_link: "/class-12/computer-science/databases-dbms"
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-{
- "heading": "🔁 Last 5 Minutes Box",
- "body": "
-
 - **Relational Algebra 
 
-- Cartesian Product Cardinality & Degree**: For relations ARE and IS, the cardinality of their cross product is $|R \times S| = |R| \times |S|$, and its degree is $\text{deg}(R \times S) = \text{deg}(R) $}
+- Cartesian Product Cardinality & Degree**: For relations ARE and IS, the cardinality of their cross product is $|R 	imes S| = |R| 	imes |S|$, and its degree is $	ext{deg}(R 	imes S) = 	ext{deg}(R) $}
+
+
 
 ## <a id="-practice-MCQs"></a>📝 Practice MCQs
 

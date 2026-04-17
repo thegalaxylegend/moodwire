@@ -8,12 +8,7 @@ practice_link: "/class-11/mathematics/conic-sections-class-11-revision-notes-jee
 ---
 
 *Last Updated: 2026-03-28*
-
-
-
-
 ## 📋 Table of Contents
-
 - [What is Conic Sections Revision Notes?](#what-is-conic-sections-revision-notes)
 - [Introduction](#introduction)
 - [1. The Circle](#1-the-circle)
@@ -28,20 +23,8 @@ practice_link: "/class-11/mathematics/conic-sections-class-11-revision-notes-jee
 - [Related Revision Notes](#related-revision-notes)
 - [Conclusion](#conclusion)
 - [📚 Related Topics](#-related-topics)
-
-
 # Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide
-
-
-
-
-
 ## <a id="what-is-conic-sections-revision-notes"></a>What is Conic Sections Revision Notes?
-
-
-
-
-
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
 > - **Circle:** (x-h)² + (y-k)² = r². Center (h, k), radius r.
@@ -52,33 +35,14 @@ practice_link: "/class-11/mathematics/conic-sections-class-11-revision-notes-jee
 >   - Parabola: 4a.
 >   - Ellipse/Hyperbola: 2b²/a.
 > [**📥 Download 1-Page Short Notes PDF (Zero-Friction)**](#)
-
----
-
-
 ## <a id="introduction"></a>Introduction
-
 **Conic Sections represent the curved paths of celestial bodies and projectiles, defined by the intersection of a plane and a cone. Master the standard equations of Circles, Parabolas, Ellipses, and Hyperbolas along with their focal properties and eccentricity to excel in advanced coordinate geometry. This [class](/blog/probability-class-11-revision-notes-jee) 11 Math Chapter 11 guide provides all essential derivations for JEE and Board exams.**
 Conic sections are the various shapes created when a plane intersects a double-napped cone.
-
----
-
-
-
-
 ## <a id="1-the-circle"></a>1. The Circle
-
 A circle is the set of all points in a plane that are at a constant distance (radius) from a fixed point (center).
 *   **Standard Equation (Center at (h, k)):** (x - h)² + (y - k)² = r²
 *   **Simple Case (Center at (0, 0)):** x² + y² = r²
-
----
-
-
-
-
 ## <a id="2-the-parabola"></a>2. The Parabola
-
 A parabola is the set of all points in a plane that are equidistant from a fixed line (directrix) and a fixed point (focus).
 ### <a id="standard-form-y-4ax"></a>Standard Form (y² = 4ax):
 1.  **Vertex:** (0, 0)
@@ -86,14 +50,7 @@ A parabola is the set of all points in a plane that are equidistant from a fixed
 3.  **Directrix:** x = -a
 4.  **Axis of Symmetry:** y = 0
 5.  **Length of Lotus Rectum:** 4a
-
----
-
-
-
-
 ## <a id="3-the-ellipse"></a>3. The Ellipse
-
 An ellipse is the set of all points in a plane, the sum of whose distances from two fixed points (foci) is a constant.
 ### <a id="standard-form-xa-yb-1-where-a-b"></a>Standard Form (x²/a² + y²/b² = 1, where a > b):
 1.  **Center:** (0, 0)
@@ -101,14 +58,7 @@ An ellipse is the set of all points in a plane, the sum of whose distances from 
 3.  **Foci:** (±c, 0) where c² = a² - b².
 4.  **Eccentricity (e):** e = c/a = √(1 - b²/a²). (Note: 0 < e < 1).
 5.  **Length of Lotus Rectum:** 2b²/a.
-
----
-
-
-
-
 ## <a id="4-the-hyperbola"></a>4. The Hyperbola
-
 A hyperbola is the set of all points in a plane, the difference of whose distances from two fixed points (foci) is a constant.
 ### <a id="standard-form-xa-yb-1"></a>Standard Form (x²/a² - y²/b² = 1):
 1.  **Center:** (0, 0)
@@ -116,99 +66,50 @@ A hyperbola is the set of all points in a plane, the difference of whose distanc
 3.  **Foci:** (±c, 0) where c² = a² + b².
 4.  **Eccentricity (e):** e = c/a = √(1 + b²/a²). (Note: e > 1).
 5.  **Length of Lotus Rectum:** 2b²/a.
-
----
-
-
-
-
 ## <a id="5-eccentricity-and-general-conic"></a>5. Eccentricity and General Conic
-
 The eccentricity **e** is the ratio of the distance from the focus to the distance from the directrix.
 *   **Circle:** e = 0
 *   **Parabola:** e = 1
 *   **Ellipse:** 0 < e < 1
 *   **Hyperbola:** e > 1
-
----
-
-
-
-
 ## <a id="comprehensive-exam-strategy-Qaeda"></a>Comprehensive Exam Strategy (Q&A)
-
 **Q1: Find the equation of the circle with center (2, -3) and radius 5.**
 **Answer:**
 - (x - 2)² + (y - (-3))² = 5²
 - (x - 2)² + (y + 3)² = 25
 - x² - 4x + 4 + y² + 6y + 9 = 25 => **x² + y² - 4x + 6y - 12 = 0**.
-
 **Q2: Find the focus and the length of the lotus rectum for the parabola y² = 12x.**
 **Answer:**
 - Comparing with y² = 4ax: 4a = 12 => **a = 3**.
 - Focus = (a, 0) = **(3, 0)**.
 - Length of Lotus Rectum = 4a = **12**.
-
 **Q3: Find the eccentricity of the ellipse 4x² + 9y² = 36.**
 **Answer:**
 - Divide by 36: x²/9 + y²/4 = 1.
 - Here a² = 9, b² = 4 => a = 3, b = 2.
 - e = √(1 - b²/a²) = √(1–4/9) = √(5/9)
 - **e = √5 / 3**.
-
----
-
-
-
-
 ## <a id="related-revision-notes"></a>Related Revision Notes
-
 - **Chapter 10: Straight Lines**
 - **Chapter 12: Three Dimensional Geometry**
 - [**External Reference:** [CERT Class 11 Math Chapter 11](https://ncert.nic.in/textbook.php?kemh1=11-16) (Authoritative Source)]
-
-
-
-
 ## <a id="conclusion"></a>Conclusion
-
 Conic sections bring geometry to life by connecting algebraic equations with physical curves. By mastering the standard forms and the role of eccentricity, you bridge the gap between simple straight lines and the [complex](/blog/complex-numbers-class-11-revision-notes-jee-neet) paths of the universe. Always identify your orientation (horizontal vs. vertical) first, and remember that for a parabola, e is always exactly 1! Keep your foci clear and your axes consistent.
-
----
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
-
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 ## <a id="-related-topics"></a>📚 Related Topics
-
 Continue your [revision](/blog/probability-class-11-revision-notes-jee) with these related guides:
-
 - 📖 [Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/binomial-theorem-class-11-revision-notes-jee)
 - 📖 [Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-combinations-class-11-revision-notes-jee)
 - 📖 [Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-class-11-revision-notes-jee)
 - 📖 [Sequences Series Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/sequences-series-class-11-revision-notes-jee)
-
-
----
-
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/conic-sections-class-11-revision-notes-jee) now and track your progress against thousands of students.
-
-
----
-
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/mathematics/conic-sections-class-11-revision-notes-jee) now and track your progress against thousands of students.
 ## 📚 Related Topics
-
 Continue your [revision](/blog/probability-class-11-revision-notes-jee) with these related guides:
-
 - 📖 [Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/binomial-theorem-class-11-revision-notes-jee)
 - 📖 [Permutations Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-combinations-class-11-revision-notes-jee)
 - 📖 [Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/probability-class-11-revision-notes-jee)
 - 📖 [Sequences Series Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/sequences-series-class-11-revision-notes-jee)
-
 ## 🪤 The 5 Mistakes That Cost Marks
 
 * **Confusing the equation of a circle with the equation of a parabola**: A common mistake is writing the equation of a circle as by^2 = 4ax$ instead of $(x-h)^2 + (y-k)^2 = r^2$, which can lead to incorrect solutions.
@@ -223,6 +124,6 @@ Continue your [revision](/blog/probability-class-11-revision-notes-jee) with the
    - **Parabola**: by^2 = 4ax$, focus $(a, 0)$, directrix ex = -a
    - **Ellipse**: $RAC{x^2}{a^2} + RAC{y^2}{b^2} = 1$, foci $(pm eye, 0)$, he = sort{1 - RAC{b^2}{a^2}}$
    - **Hyperbola**: $RAC{x^2}{a^2} - RAC{y^2}{b^2} = 1$, foci $(pm eye, 0)$, he = sort{1 + RAC{b^2}{a^2}}$
-   - **Eccentricity**: (suggestion limit reached) = (suggestion limit reached){c}{a}$, where (suggestion limit reached) is distance from center to focus
-   - **Equation of tangent to circle**: (suggestion limit reached) - y_1 = m(x - x_1)$, where (suggestion limit reached) is slope
-   - **Polar equation of conic**: (suggestion limit reached) = (suggestion limit reached){l}{1 + e (suggestion limit reached)}$, where (suggestion limit reached) is distance from focus to directrix
+   - **Eccentricity**:  = {c}{a}$, where  is distance from center to focus
+   - **Equation of tangent to circle**:  - y_1 = m(x - x_1)$, where  is slope
+   - **Polar equation of conic**:  = {l}{1 + e }$, where  is distance from focus to directrix

@@ -30,14 +30,14 @@ manualReview: false
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
-- **Mistake 1:** Incorrect calculation of semi-perimeter {s} using the formula {s = \frac{a + b + c}{2}}, where {a}, {b}, and {c} are the sides of the triangle.
+- **Mistake 1:** Incorrect calculation of semi-perimeter {s} using the formula {s = $\frac{a + b + c}{2}$}, where {a}, {b}, and {c} are the sides of the triangle.
 
 - *Costs:* 2-3 marks
  
 
 - *Fix:* Ensure that the values of {a}, {b}, and {c} are correctly plugged into the formula to obtain the accurate value of {s}.
 
-- **Mistake 2:** Forgetting to use the correct formula for Heron's Formula, which is given by {A = \sqrt{s(s 
+- **Mistake 2:** Forgetting to use the correct formula for Heron's Formula, which is given by {A = $\sqrt{s(s $
 
 - a)(s 
 
@@ -187,13 +187,13 @@ eq CA^2$, the triangle is not right-angled.
 
 - b)(s 
 
-- c)}$ where $s = \frac{a + b + c}{2}$ 
+- c)}$ where $s = $\frac{a + b + c}{2}$ 
  
 
 - $s = \frac{a + b + c}{2}$ 
  
 
-- $A = \sqrt{s(s 
+- $A = $$\sqrt{s(s $
 
 - a)(s 
 
@@ -202,7 +202,7 @@ eq CA^2$, the triangle is not right-angled.
 - c)}$ is used to find the area of the triangle when all three sides are given
  
 
-- $4A = \sqrt{(a + b + c)(a + b 
+- $4A = $$\sqrt{(a + b + c)(a + b $
 
 - c)(a 
 
@@ -227,30 +227,30 @@ eq CA^2$, the triangle is not right-angled.
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. If s is the semi-perimeter of a triangle with sides a, b, and c, then Heron's Formula states that the area is given by:**
-**A)**      √(s(s - a)(s - b)(s - c))
-**B)**      √(s + a + b + c)
-**C)**      √((s - a)(s - b)(s - c))
-**D)**      s(a + b + c)
+**A)**     √(s(s - a)(s - b)(s - c))
+**B)**     √(s + a + b + c)
+**C)**     √((s - a)(s - b)(s - c))
+**D)**     s(a + b + c)
 
 **Answer:** A) √(s(s - a)(s - b)(s - c))
 
 ---
 
 **2. What is the significance of the term 's' in Heron's Formula?**
-**A)**      It is the \sum of the sides of the triangle
-**B)**      It is the product of the sides of the triangle
-**C)**      It is the semi-perimeter of the triangle
-**D)**      It is the difference of the sides of the triangle
+**A)**     It is the \sum of the sides of the triangle
+**B)**     It is the product of the sides of the triangle
+**C)**     It is the semi-perimeter of the triangle
+**D)**     It is the difference of the sides of the triangle
 
 **Answer:** C) It is the semi-perimeter of the triangle
 
 ---
 
 **3. In Heron's Formula, what is the relation between the area and the semi-perimeter?**
-**A)**      Area = √(s)
-**B)**      Area = √(s - a)
-**C)**      Area = √(s - a)(s - b)(s - c)
-**D)**      Area = √(a + b + c)
+**A)**     Area = √(s)
+**B)**     Area = √(s - a)
+**C)**     Area = √(s - a)(s - b)(s - c)
+**D)**     Area = √(a + b + c)
 
 **Answer:** C) Area = √(s - a)(s - b)(s - c)
 
@@ -258,20 +258,20 @@ eq CA^2$, the triangle is not right-angled.
 
 **4. Heron's Formula is used to calculate the area of a triangle with sides a, b, and
 c. What is the value of the semi-perimeter 's'?**
-**A)**      s = (a + b + c)/2
-**B)**      s = (a - b + c)/2
-**C)**      s = (a + b - c)/2
-**D)**      s = (a - b - c)/2
+**A)**     s = (a + b + c)/2
+**B)**     s = (a - b + c)/2
+**C)**     s = (a + b - c)/2
+**D)**     s = (a - b - c)/2
 
 **Answer:** A) s = (a + b + c)/2
 
 ---
 
 **5. What is the condition for Heron's Formula to be applicable?**
-**A)**      The triangle must be a right-angled triangle
-**B)**      The triangle must be an isosceles triangle
-**C)**      The triangle must be a scalene triangle
-**D)**      The triangle must have all sides of different lengths
+**A)**     The triangle must be a right-angled triangle
+**B)**     The triangle must be an isosceles triangle
+**C)**     The triangle must be a scalene triangle
+**D)**     The triangle must have all sides of different lengths
 
 **Answer:** D) The triangle must have all sides of different lengths
 

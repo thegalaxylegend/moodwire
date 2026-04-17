@@ -25,8 +25,8 @@ manualReview: false
  - **Area of a Parallelogram:** A = {b 	imes h} — where $b$ is the base and $h$ is the height of the parallelogram.
  - **Area of a Rectangle:** A = {l 	imes w} — where $l$ is the length and $w$ is the width of the rectangle.
  - **Area of a Square:** A = {s^2} — where $s$ is the length of a side of the square.
- - **Area of a Rhombus:** A = {\frac{1}{2} 	imes d_1 	imes d_2} — where $d_1$ and $d_2$ are the lengths of the diagonals of the rhombus.
- - **Area of a Trapezium:** A = {\frac{1}{2} 	imes (a + b) 	imes h} — where $a$ and $b$ are the lengths of the parallel sides and $h$ is the height of the trapezium.
+ - **Area of a Rhombus:** A = {$\frac{1}{2} 	imes d_1 	imes d_2} — where $d_1$ and $d_2$ are the lengths of the diagonals of the rhombus.$
+ - **Area of a Trapezium:** A = {$\frac{1}{2} 	imes (a + b) 	imes h} — where $a$ and $b$ are the lengths of the parallel sides and $h$ is the height of the trapezium.$
  - **Diagonal of a Parallelogram:** d = {sqrt{a^2 + b^2 - 2ab cos 	heta}} — where $a$ and $b$ are the lengths of the sides and $	heta$ is the angle between the sides.
  - **Diagonal of a Rectangle:** d = {sqrt{l^2 + w^2}} — where $l$ is the length and $w$ is the width of the rectangle.
  - **Diagonal of a Square:** d = {s sqrt{2}} — where $s$ is the length of a side of the square.
@@ -165,51 +165,51 @@ where $P$ is the point outside the circle, and $A$, $B$, $C$, and $D$ are the po
 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
-**1. What is the \sum of the interior [angles](/blog/lines-and-angles-class-9-notes) of a quadrilateral?**
-**A)**      360°
-**B)**      400°
-**C)**      540°
-**D)**      720°
+**1. What is the \sum of the interior angles of a quadrilateral?**
+**A)**     360°
+**B)**     400°
+**C)**     540°
+**D)**     720°
 
 **Answer:** A) Sum of interior angles of a quadrilateral is 360°.
 
 ---
 
 **2. Which of the following quadrilaterals has all sides equal?**
-**A)**      Square
-**B)**      Rectangle
-**C)**      Rhombus
-**D)**      Trapazoid
+**A)**     Square
+**B)**     Rectangle
+**C)**     Rhombus
+**D)**     Trapazoid
 
 **Answer:** A) A square has all sides equal.
 
 ---
 
 **3. In a parallelogram, do the diagonals bisect each other?**
-**A)**      No
-**B)**      Yes
-**C)**      Only in a rectangle
-**D)**      Only in a square
+**A)**     No
+**B)**     Yes
+**C)**     Only in a rectangle
+**D)**     Only in a square
 
 **Answer:** B) In a parallelogram, diagonals bisect each other.
 
 ---
 
 **4. Which quadrilateral has opposite sides parallel?**
-**A)**      Kite
-**B)**      Rhombus
-**C)**      Square
-**D)**      Rectangle
+**A)**     Kite
+**B)**     Rhombus
+**C)**     Square
+**D)**     Rectangle
 
 **Answer:** D) A rectangle has opposite sides parallel.
 
 ---
 
 **5. Do the diagonals of a rhombus bisect each other at right angles?**
-**A)**      No
-**B)**      Yes
-**C)**      Only if the rhombus is a square
-**D)**      Only if the rhombus is a rectangle
+**A)**     No
+**B)**     Yes
+**C)**     Only if the rhombus is a square
+**D)**     Only if the rhombus is a rectangle
 
 **Answer:** B) Diagonals of a rhombus bisect each other at right angles.
 

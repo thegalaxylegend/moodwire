@@ -66,7 +66,7 @@ practice_link: "/class-11/mathematics/determinants-class-12-notes"
 ### <a id="-core-concept-2-determinant-properties"></a>⚡ Core Concept 2: Determinant Properties
 
 - **Property 1:** \det(AB) = \det(A) \cdot \det(B) — $A$ and $B$ are square matrices of the same size.
-- **Property 2:** \det(A^{-1}) = \frac{1}{\det(A)} — $A$ is an invertible square matrix.
+- **Property 2:** \det(A^{-1}) = $\frac{1}{\det(A)} — $A$ is an invertible square matrix.$
 - **Property 3:** \det(A^T) = \det(A) — $A^T$ is the transpose of matrix $A$.
 
 #### Multiplicative Property
@@ -125,11 +125,11 @@ d \end{vmatrix}$ and cofactor of $b$ is $-\begin{vmatrix} c \end{vmatrix}$.
 
 ### <a id="-core-concept-5-area-of-a-triangle"></a>⚡ Core Concept 5: Area of a Triangle
 
-- **Formula:** \text{Area} = \frac{1}{2} \cdot |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)| — $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ are vertices of the triangle.
+- **Formula:** $\text{Area} = $$\frac{1}{2}$ \cdot |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)| — $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ are vertices of the triangle.
 - **[application](/blog/application-of-integrals-class-12-notes):** Used to find the area of a triangle given the coordinates of its vertices.
 
 #### Shoelace Formula
-- **Formula:** \text{Area} = \frac{1}{2} \cdot |x_1y_2 + x_2y_3 + x_3y_1 - y_1x_2 - y_2x_3 - y_3x_1| — $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ are vertices of the triangle.
+- **Formula:** $\text{Area} = $$\frac{1}{2}$ \cdot |x_1y_2 + x_2y_3 + x_3y_1 - y_1x_2 - y_2x_3 - y_3x_1| — $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ are vertices of the triangle.
 - **[application](/blog/application-of-integrals-class-12-notes):** Used to find the area of a triangle given the coordinates of its vertices.
 
 ### <a id="-core-concept-6-volume-of-a-parallelepiped"></a>⚡ Core Concept 6: Volume of a Parallelepiped
@@ -175,12 +175,12 @@ d \end{vmatrix}$ and cofactor of $b$ is $-\begin{vmatrix} c \end{vmatrix}$.
 
 ### <a id="-core-concept-9-inverse-of-a-matrix"></a>⚡ Core Concept 9: Inverse of a Matrix
 
-- **Formula:** A^{-1} = \frac{1}{\det(A)} \cdot \text{adj}(A) — $\text{adj}(A)$ is the adjugate (also known as the classical adjugate) of $A$.
+- **Formula:** A^{-1} = $\frac{1}{\det(A)} \cdot $$\text{adj}$(A) — $\text{adj}(A)$ is the adjugate (also known as the classical adjugate) of $A$.
 - **Importance:** Used to find the inverse of a matrix, which is essential for solving systems of equations.
 
 #### Finding the Inverse of a 2x2 Matrix
 
-- **Formula:** A^{-1} = \frac{1}{\det(A)} \cdot
+- **Formula:** A^{-1} = $\frac{1}{\det(A)}$ \cdot
 
 \begin{bmatrix} d & -b \\ -c & a \end{bmatrix}
 
@@ -193,7 +193,7 @@ d \end{vmatrix}$ and cofactor of $b$ is $-\begin{vmatrix} c \end{vmatrix}$.
 - **Importance:** Determinants are used to find the inverse of the coefficient matrix, which is then used to solve the system of equations.
 
 #### Solving a System of Linear Equations Using Cramer's Rule
-- **Formula:** x_i = \frac{\det(A_i)}{\det(A)} — $A_i$ is the matrix obtained by replacing the $i$-th column of $A$ with the constant vector.
+- **Formula:** x_i = $\frac{\det(A_i)}{\det(A)} — $A_i$ is the matrix obtained by replacing the $i$-th column of $A$ with the constant vector.$
 - **Application:** Used to solve a system of linear equations using Cramer's rule.
 
 ### <a id="-core-concept-11-linear-independence"></a>⚡ Core Concept 11: Linear Independence
@@ -212,7 +212,7 @@ eq 0 — $A$ is the matrix whose columns are the vectors.
 - **Importance:** Determinants are used to find the rank of a matrix, which is essential for determining the solvability of systems of equations.
 
 #### Finding the Rank of a Matrix Using Determinants
-- **Formula:** \text{rank}(A) = \max \{k : \det(A_k)
+- **Formula:** $\text{rank}$(A) = \max \{k : \det(A_k)
 eq 0\} — $A_k$ is the $k \times k$ submatrix of $A$.
 - **Application:** Used to find the rank of a matrix.
 
@@ -261,7 +261,7 @@ eq 0\} — $A_k$ is the $k \times k$ submatrix of $A$.
 
 #### ⚡ Finding the Area of a Triangle
 
-- **Formula:** \text{Area} = \frac{1}{2} \cdot |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)| — $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ are vertices of the triangle.
+- **Formula:** $\text{Area} = $$\frac{1}{2}$ \cdot |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)| — $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ are vertices of the triangle.
 - **Application:** Used to find the area of a triangle given the coordinates of its vertices.
 
 #### ⚡ Finding the Volume of a Parallelepiped

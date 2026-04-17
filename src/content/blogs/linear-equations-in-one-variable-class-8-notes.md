@@ -72,7 +72,7 @@ manualReview: false
 
 - **For example, $3x + 2x = 12$ simplifies to $5x = 12$ by combining like terms, then solve for $x$ by dividing both sides by 5:** $x = {12 \over 5}$.
 
-- **Mistake 5:** Incorrectly solving [equations](/blog/pair-of-linear-equations-class-10-notes) that involve fractions, such as not finding a common denominator or not clearing the fractions properly.
+- **Mistake 5:** Incorrectly solving equations that involve fractions, such as not finding a common denominator or not clearing the fractions properly.
 
 - *Costs:* 2-3 marks per question
  
@@ -83,55 +83,27 @@ manualReview: false
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
-{
- "heading": "✏️ 3 Solved PYQs",
- "body": "- **Q1:** Solve for $x$: $\frac{x}{2} - \frac{1}{5} = \frac{x}{3} + \frac{1}{4}$
+- **Q1:** Solve for $x$: $\frac{x}{2} - \frac{1}{5} = \frac{x}{3} + \frac{1}{4}$
  - **Trap:** Students often stumble with correctly finding the Least Common Multiple (LCM) for fractions or making sign errors when transposing terms across the equals sign. Remember, every term changes its sign when moved to the other side!
  - **Solution:**
  - Our goal is to isolate $x$ on one side of the equation. First, let's group the terms containing $x$ on one side and the constant terms on the other.
  - Move $\frac{x}{3}$ to the left side and $-\frac{1}{5}$ to the right side:
- \frac{x}{2} - \frac{x}{3} = \frac{1}{4} + \frac{1}{5}
+ $\frac{x}{2} - $$\frac{x}{3}$ = $\frac{1}{4} + $$\frac{1}{5}$
  - Now, find the LCM for the denominators on each side. For the left side (2 and 3), the LCM is 6. For the right side (4 and 5), the LCM is 20.
  - Rewrite the fractions with their respective common denominators:
- \frac{3x - 2x}{6} = \frac{5 + 4}{20}
+ $\frac{3x - 2x}{6} = $$\frac{5 + 4}{20}$
  - Simplify both sides:
- \frac{x}{6} = \frac{9}{20}
+ $\frac{x}{6} = $$\frac{9}{20}$
  - To find $x$, multiply both sides by 6:
- x = \frac{9}{20} \times 6x = \frac{54}{20}
+ x = $\frac{9}{20} 	imes 6x = $$\frac{54}{20}$
  - Finally, simplify the fraction by dividing both numerator and denominator by their greatest common divisor, which is 2:
- x = \frac{27}{10}
+ x = $\frac{27}{10}$
  - **Answer:** $x = \frac{27}{10}$ or $x = 2.7$
 
-- **Q2:** The \sum of two [numbers](/blog/rational-numbers-class-8-notes) is 95. If one number exceeds the other by 15, find the two [numbers](/blog/rational-numbers-class-8-notes).
- - **Trap:** The most common mistake here is incorrectly setting up the equation, especially misinterpreting \"exceeds by 15\". Some might write $x + 15x$ or similar, instead of $x + (x+15)$. Always define your variables clearly!
- - **Solution:**
- - Let the smaller number be $x$.
- - According to the problem, the other number exceeds the smaller one by 15. So, the larger number will be $x + 15$.
- - The \sum of these two numbers is 95. We can write this as an equation:
- x + (x + 15) = 95
- - Now, simplify and solve for $x$:
- 2x + 15 = 95
- - Subtract 15 from both sides to isolate the term with $x$:
- 2x = 95 - 152x = 80
- - Divide both sides by 2 to find $x$:
- x = \frac{80}{2}x = 40
- - So, the smaller number is 40.
- - The larger number is $x + 15 = 40 + 15 = 55$.
- - To verify, check if their \sum is 95: $40 + 55 = 95$. Yes, it is!
- - **Answer:** The two numbers are 40 and 55.
+- **Q2:** The \sum of two numbers is 95. If one number exceeds the other by 15, find the two numbers.
+ - **Trap:** The most common mistake here is incorrectly setting up the equation, especially misinterpreting "exceeds by 15\
 
-- **Q3:** Solve for $t$: $3(t - 3) = 5(2t + 1)$
- - **Trap:** Forgetting to apply the distributive property correctly to *all* terms inside the parentheses. A common error is multiplying only the first term and leaving the second term untouched (e.g., $3t - 3$ instead of $3t - 9$). Pay close attention to signs!
- - **Solution:**
- - First, apply the distributive property on both sides of the equation. Multiply the number outside the parentheses by each term inside.
- - For the left side: $3 \times t$ and $3 \times (-3)$.
- - For the right side: $5 \times 2t$ and $5 \times 1$.
- 3t - 9 = 10t + 5
- - Now, we need to gather the terms with $t$ on one side and the constant terms on the other. It's often easier to move the smaller $t$ term to the side with the larger $t$ term to avoid negative coefficients for $t$.
- - Subtract $3t$ from both sides:
- -9 = 10t - 3t + 5
 
-}
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
@@ -171,7 +143,7 @@ manualReview: false
 
 - They approach complex problems like $5x 
 
-- 2(2x-7) = 2(3x-1) + \frac{7}{2}$ with a clear, step-by-step strategy: clear brackets, clear fractions (if any), combine like terms, transpose, and finally isolate the variable. This systematic approach minimizes errors and saves precious exam time, a key skill for JEE Compass users aiming for top scores.
+- 2(2x-7) = 2(3x-1) + $\frac{7}{2}$ with a clear, step-by-step strategy: clear brackets, clear fractions (if any), combine like terms, transpose, and finally isolate the variable. This systematic approach minimizes errors and saves precious exam time, a key skill for JEE Compass users aiming for top scores.
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
@@ -220,17 +192,17 @@ eq 0$).
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. If the roots of the quadratic equation ax^2 + bx + c = 0 are α and β, then the \sum of the roots is?**
-**A)**     α + β
-**B)**     -b/a
-**C)**     c/a
-**D)**     a/b
+**A)**    α + β
+**B)**    -b/a
+**C)**    c/a
+**D)**    a/b
 
 **Answer:** B) According to the \sum and product of roots in a quadratic equation, the \sum of the roots is -b/a
 
 ---
 
 **2. The equation 2x + 5 = 0 has how many solutions?**
-**A)**     No
+**A)**    No
 
 solution  
 **B)** One solution  
@@ -242,30 +214,30 @@ solution
 ---
 
 **3. Which of the following equations is a linear equation in one variable?**
-**A)**     x^2 + 2x - 3 = 0
-**B)**     2x + 5 = 0
-**C)**     x^3 + 2x^2 - 3 = 0
-**D)**     sin(x) = 0
+**A)**    x^2 + 2x - 3 = 0
+**B)**    2x + 5 = 0
+**C)**    x^3 + 2x^2 - 3 = 0
+**D)**    sin(x) = 0
 
 **Answer:** B) The given equation 2x + 5 = 0 is a linear equation in one variable
 
 ---
 
 **4. For the linear equation ax + b = 0, the solution set is all real numbers such that?**
-**A)**     ax + b > 0
-**B)**     ax + b < 0
-**C)**     ax + b = 0
-**D)**     ax + b ≠ 0
+**A)**    ax + b > 0
+**B)**    ax + b < 0
+**C)**    ax + b = 0
+**D)**    ax + b ≠ 0
 
 **Answer:** C) For a linear equation ax + b = 0, the solution set is all real numbers such that ax + b = 0
 
 ---
 
 **5. If the equation 3x - 2 = 0 has a solution x = α, then the value of α is?**
-**A)**     2/3
-**B)**     3/2
-**C)**     -2/3
-**D)**     3
+**A)**    2/3
+**B)**    3/2
+**C)**    -2/3
+**D)**    3
 
 **Answer:** A) Substitute x = α into the equation 3x - 2 = 0 to find the value of α
 

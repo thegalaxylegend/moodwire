@@ -85,7 +85,7 @@ How to evaluate Limits using Algebraic Manipulation? is a method to find the lim
    Consider the function $f(x) = \frac{x^2 - 4}{x - 2}$. If we directly substitute $x = 2$, we get $\frac{0}{0}$, which is indeterminate. However, by factoring the numerator into $(x + 2)(x - 2)$, we can cancel the $(x - 2)$ from both the numerator and the denominator, resulting in $f(x) = x + 2$ for $x
 eq 2$. Then, the limit as $x$ approaches $2$ can be easily evaluated as $2 + 2 = 4$. 
    
-   Another critical technique is rationalizing the numerator or denominator, especially when dealing with square roots. For example, the limit of $\frac$\sqrt{x + 1$ - 1}{x}$ as $x$ approaches $0$ can be evaluated by rationalizing the numerator. Multiply the numerator and denominator by the conjugate of the numerator, $\sqrt{x + 1} + 1$, to eliminate the radical in the numerator. This simplifies to $\frac{(x + 1) - 1}{x(\sqrt{x + 1} + 1)} = \frac{x}{x(\sqrt{x + 1} + 1)} = \frac{1}$\sqrt{x + 1$ + 1}$. Then, as $x$ approaches $0$, the limit approaches $\frac{1}$\sqrt{0 + 1$ + 1} = \frac{1}{2}$. 
+   Another critical technique is rationalizing the numerator or denominator, especially when dealing with square roots. For example, the limit of $\frac\sqrt{x + 1$ - 1}{x}$ as $x$ approaches $0$ can be evaluated by rationalizing the numerator. Multiply the numerator and denominator by the conjugate of the numerator, $$\sqrt{x + 1}$ + 1$, to eliminate the radical in the numerator. This simplifies to $$\frac{(x + 1) - 1}{x(\sqrt{x + 1} + 1)}$ = $\frac{x}{x(\sqrt{x + 1} + 1)}$ = $\frac{1}$\sqrt{x + 1$ + 1}$. Then, as $x$ approaches $0$, the limit approaches $\frac{1}\sqrt{0 + 1$ + 1} = $\frac{1}{2}$$. $
    
    Understanding the behavior of limits as $x$ approaches positive or negative infinity is also vital. For rational functions, compare the degrees of the polynomials in the numerator and denominator. If the degrees are the same, the limit as $x$ approaches infinity is the ratio of the leading coefficients. If the degree of the numerator is less than that of the denominator, the limit is $0$. If the degree of the numerator is greater, the limit is either positive or negative infinity, depending on the signs of the leading coefficients. 
    
@@ -174,7 +174,7 @@ The Chain Rule is a fundamental principle in calculus that enables us to differe
 
 To grasp the Chain Rule, let's first understand the concept of composite functions. A composite function is a function of the form $f(g(x))$, where $f$ and $g$ are two separate functions. The Chain Rule states that the derivative of a composite function $f(g(x))$ is given by $f'(g(x)) cdot g'(x)$. This can be expressed mathematically as: 
 
-\frac{d}{dx}f(g(x)) = f'(g(x)) cdot g'(x)
+$\frac{d}{dx}$f(g(x)) = f'(g(x)) cdot g'(x)
 
 
 

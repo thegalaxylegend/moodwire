@@ -173,7 +173,7 @@ The core principle is simple: Electron pairs (both bond pairs and lone pairs) ha
 Instead of drawing structures, use my "Go-To" **Steric Number (H) formula**:
 
 
-H = \frac{1}{2} [V + M - C + A]
+H = $\frac{1}{2}$ [V + M - C + A]
 
 
 

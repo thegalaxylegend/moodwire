@@ -13,7 +13,7 @@ manualReview: false
 
 - [⚡ Formula Bank](#-formula-bank)
 - [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
-- [✏️ 3 Solved Yes](#-3-solved-pyqs)
+- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
 - [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
 - [👁️ Ayush's Note](#-Ayush-note)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
@@ -42,7 +42,7 @@ manualReview: false
 
 - 'favorite subjects', '
 
-## <a id="-3-solved-pyqs"></a>✏️ 3 Solved Yes
+## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 - **Q1:** The following double bar graph shows the number of books read by two friends, Rohan and Priya, over four months. Study the data carefully and answer the questions. 
  *Data Representation (for your understanding, imagine a double bar graph with these values):*
@@ -63,13 +63,13 @@ manualReview: false
 
 - Min value
 
-- **[class](/blog/compiler-design-class-12-notes) Mark** (Mid-point of a [class](/blog/compiler-design-class-12-notes) interval): \franc{\text{Upper Limit} + \text{Lower Limit}}{2}
+- **Class Mark** (Mid-point of a class interval): \franc{$\text{Upper Limit} + $$\text{Lower Limit}$}{2}
 
-- **Frequency Density** (for histograms with unequal class widths): \franc{\text{Frequency}}{\text{Class Width}}
+- **Frequency Density** (for histograms with unequal class widths): \franc{$\text{Frequency}}{$$\text{Class Width}$}
 
-- **Probability** of an event (P(E)): \franc{\text{Number of Favorable Outcomes}}{\text{Total Number of Possible Outcomes}}
+- **Probability** of an event (P(E)): \franc{$\text{Number of Favorable Outcomes}}{$$\text{Total Number of Possible Outcomes}$}
 
-- **Central Angle** for a sector in a pie chart: \franc{\text{Value of Component}}{\text{Total Value}} \times 360^{\CIRC}
+- **Central Angle** for a sector in a pie chart: \franc{$\text{Value of Component}}{$$\text{Total Value}$} \times 360^{\CIRC}
 
 - **Histograms** are for continuous data (grouped frequency distributions) with no gaps between bars, while **Bar Graphs** are for discrete data with gaps.
 
@@ -88,20 +88,20 @@ manualReview: false
 ## <a id="-practice-MCQs"></a>📝 Practice MCQs
 
 **1. Data can be represented in various forms, including tables, graphs, and charts.**
-**A)**     True
-**B)**     False
-**C)**     Undecided
-**D)**     Not Given
+**A)**    True
+**B)**    False
+**C)**    Undecided
+**D)**    Not Given
 
 **Answer:** A) Data representation is a crucial skill in data handling, allowing us to visualize and understand complex information.
 
 ---
 
 **2. The mode is the most frequently occurring value in a dataset.**
-**A)**     Mean
-**B)**     Median
-**C)**     Range
-**D)**     Mode
+**A)**    Mean
+**B)**    Median
+**C)**    Range
+**D)**    Mode
 
 **Answer:** D) The mode is a measure of central tendency, which can be useful in identifying patterns in a dataset.
 
@@ -109,30 +109,30 @@ manualReview: false
 
 **3. A bar graph is used to display categorical that
 a.**
-**A)**     True
-**B)**     False
-**C)**     Only for numerical data
-**D)**     Only for time series data
+**A)**    True
+**B)**    False
+**C)**    Only for numerical data
+**D)**    Only for time series data
 
 **Answer:** A) Bar graphs are commonly used to display categorical data, making it easier to compare and visualize different categories.
 
 ---
 
 **4. The range is the difference between the highest and lowest values in a dataset.**
-**A)**     Mean - Median
-**B)**     Highest - Lowest
-**C)**     Median - Mode
-**D)**     None of the above
+**A)**    Mean - Median
+**B)**    Highest - Lowest
+**C)**    Median - Mode
+**D)**    None of the above
 
 **Answer:** B) The range is a measure of variability, which can help identify the spread of a dataset.
 
 ---
 
 **5. Data can be classified into two main types: qualitative and quantitative.**
-**A)**     True
-**B)**     False
-**C)**     Only qualitative data
-**D)**     Only quantitative data
+**A)**    True
+**B)**    False
+**C)**    Only qualitative data
+**D)**    Only quantitative data
 
 **Answer:** A) Qualitative data is descriptive, while quantitative data is numerical, and both types are essential in data handling.
 

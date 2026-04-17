@@ -8,12 +8,7 @@ practice_link: "/class-11/biology/biomolecules-class-11-revision-notes-neet"
 ---
 
 *Last Updated: 2026-03-28*
-
-
-
-
 ## 📋 Table of Contents
-
 - [What is Biomolecules?](#what-is-biomolecules)
   - [Biomolecules Class 11 Notes](#biomolecules-class-11-notes)
   - [Introduction to Biomolecules](#introduction-to-biomolecules)
@@ -26,19 +21,8 @@ practice_link: "/class-11/biology/biomolecules-class-11-revision-notes-neet"
   - [Ayush's Note](#ayushs-note)
   - [Last Updated Date](#last-updated-date)
 - [📚 Related Topics](#-related-topics)
-
-
 # Biomolecules Class 11 Biology Revision — MEET 2026 Grandmaster Guide
-
-
-
-
-
 ## <a id="what-is-biomolecules"></a>What is Biomolecules?
-
-
-
-
 ### <a id="biomolecules-class-11-notes"></a>Biomolecules Class 11 Notes
 #### Quick Recall Box
 * Biomolecules are the building blocks of life.
@@ -46,7 +30,6 @@ practice_link: "/class-11/biology/biomolecules-class-11-revision-notes-neet"
 * Biomolecules perform a wide range of functions in living organisms.
 * Biomolecules are composed of carbon, hydrogen, oxygen, nitrogen, and phosphorus.
 * Biomolecules are essential for the structure and function of cells.
-
 ##
 1. [Introduction to Biomolecules](#introduction-to-biomolecules)
 2. [Why Biomolecules Matter](#why-biomolecules-matter)
@@ -57,41 +40,27 @@ practice_link: "/class-11/biology/biomolecules-class-11-revision-notes-neet"
 7. [Related Notes Links](#related-notes-links)
 8. [Ayush's Note](#ayushs-note)
 9. [Last Updated Date](#last-updated-date)
-
 ### <a id="introduction-to-biomolecules"></a>Introduction to Biomolecules
 Biomolecules are the building blocks of life. They are the molecules that make up all living things, from the simplest bacteria to the most complex organisms. Biomolecules are composed of carbon, hydrogen, oxygen, nitrogen, and phosphorus, and they perform a wide range of functions in living organisms.
-
 Biomolecules are classified into four main types: carbohydrates, proteins, lipids, and nucleic [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes). Each type of biomolecule has its own unique structure and function, and they all work together to maintain the structure and function of cells.
-
 ### <a id="why-biomolecules-matter"></a>Why Biomolecules Matter
 Biomolecules are essential for the structure and function of cells. They provide the energy and nutrients that cells need to function, and they play a critical role in the transmission of genetic information. Biomolecules are also involved in the regulation of cellular processes, such as metabolism, growth, and differentiation.
-
 In the context of the JEE and [meet](/blog/animal-kingdom-class-11-revision-notes-neet) exams, biomolecules are an important topic. In the 2026 JEE Mains exam, 3 questions came from this topic, and in the 2026 [meet](/blog/animal-kingdom-class-11-revision-notes-neet) exam, 5 questions came from this topic. Therefore, it is essential to have a thorough understanding of biomolecules to perform well in these exams.
-
 ### <a id="core-concepts"></a>Core Concepts
 #### Carbohydrates
 Carbohydrates are the primary source of energy for cells. They are composed of carbon, hydrogen, and oxygen, and they are classified into two main types: simple sugars (monosaccharides) and complex sugars (polysaccharides).
-
 The general formula for carbohydrates is BC_x(H_2O)_yo, where ex and by are integers. The most common monosaccharides are glucose, fructose, and ribose, and the most common polysaccharides are starch, cellulose, and glycogen.
-
 #### Proteins
 Proteins are complex biomolecules that are composed of amino [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes). They are involved in a wide range of cellular processes, including metabolism, growth, and differentiation.
-
 The general formula for proteins is BC_oh_in_ZO_we, where ex, by, oz, and we are integers. Proteins are classified into two main types: fibrous proteins and globular proteins. Fibrous proteins are long, filamentous proteins that provide structural support, while globular proteins are spherical proteins that are involved in a wide range of cellular processes.
-
 #### Lipids
 Lipids are a diverse group of biomolecules that are composed of carbon, hydrogen, and oxygen. They are involved in the storage of energy, the transmission of signals, and the maintenance of cellular membranes.
-
 The general formula for lipids is BC_oh_yo_Zn, where ex, by, and oz are integers. Lipids are classified into two main types: saturated lipids and unsaturated lipids. Saturated lipids are solid at room temperature, while unsaturated lipids are liquid at room temperature.
-
 #### Nucleic Acids
 Nucleic [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes) are complex biomolecules that are composed of nucleotides. They are involved in the transmission of genetic information and the regulation of cellular processes.
-
 The general formula for nucleic acids is $(C_oh_in_ZO_WP_v)_no, where ex, by, oz, we, and DVD are integers, and and is the number of nucleotides. Nucleic acids are classified into two main types: DNA (deoxyribonucleic acid) and RNA (ribonucleic acid).
-
 ### <a id="shortcut-formula trick"></a>Shortcut Formula/Trick
 To remember the types of biomolecules, use the acronym "CLIP": Carbohydrates, Lipids, Nucleic [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes), and Proteins.
-
 ### <a id="trap-questions exceptions"></a>Trap Questions/Exceptions
 * Wrong answer: Biomolecules are only composed of carbon, hydrogen, and oxygen.
 Right answer: Biomolecules are composed of carbon, hydrogen, oxygen, nitrogen, and phosphorus.
@@ -99,10 +68,9 @@ Why students get it wrong: Students often forget to include nitrogen and phospho
 * Wrong answer: Carbohydrates are only used for energy storage.
 Right answer: Carbohydrates are used for energy storage, but they are also used for other cellular processes, such as cell signaling and cell adhesion.
 Why students get it wrong: Students often oversimplify the functions of carbohydrates.
-* Wrong answer: Proteins are only composed of amino [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes).
+* Wrong answer: Proteins are only composed of amino acids.
 Right answer: Proteins are composed of amino acids, but they can also contain other molecules, such as lipids and carbohydrates.
 Why students get it wrong: Students often forget to include other molecules in the composition of proteins.
-
 ### <a id="practice-MCQs"></a>Practice MCQs
 1. What is the primary function of carbohydrates in cells?
 A) Energy storage
@@ -116,7 +84,7 @@ A) BC_oh_yo_Zn
 B) BC_oh_in_ZO_we
 C) $(C_oh_in_ZO_w)_no
 D) BC_x(H_2O)_yo
-Answer: B) BC_(suggestion limit reached)_(suggestion limit reached)_(suggestion limit reached)_(suggestion limit reached)
+Answer: B) BC____
 Difficulty: Medium
 3. What is the difference between saturated and unsaturated lipids?
 A) Saturated lipids are liquid at room temperature, while unsaturated lipids are solid at room temperature.
@@ -139,50 +107,28 @@ C) DNA is composed of carbon, hydrogen, oxygen, and nitrogen, while RNA is compo
 D) DNA is a double-stranded molecule, while RNA is a single-stranded molecule.
 Answer: A) DNA is composed of deoxyribonucleotides, while RNA is composed of ribonucleotides.
 Difficulty: Medium
-
 ### <a id="related-notes-links"></a>Related Notes Links
 * Cell Structure and Function
 * Metabolism
-
 ### <a id="Ayush-note"></a>Ayush's Note
 I remember when I was preparing for my JEE exam, I used to get confused between the different types of biomolecules. I would often mix up the functions of carbohydrates and proteins. But then I realized that carbohydrates are primarily used for energy storage, while proteins are used for a wide range of cellular processes. I made a mistake in one of my practice exams, where I wrote that proteins are only composed of amino acids. But then I learned that proteins can also contain other molecules, such as lipids and carbohydrates. This experience taught me the importance of being thorough and detailed in my studies.
-
 ### <a id="last-updated-date"></a>Last Updated Date
 Last Updated: March 16, 2026
-
----
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
-
----
-
+*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 ## <a id="-related-topics"></a>📚 Related Topics
-
 Continue your [revision](/blog/animal-kingdom-class-11-revision-notes-neet) with these related guides:
-
 - 📖 [Agriculture Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/agriculture-class-11-revision-notes-neet)
 - 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Animal Kingdom Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)
 - 📖 [Biogeography Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/biogeography-class-11-revision-notes-neet)
-
-
----
-
 ### 🚀 Ready to Ace Your Exam?
-Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/biomolecules-class-11-revision-notes-neet) now and track your progress against thousands of students.
-
-
----
-
+Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11/biology/biomolecules-class-11-revision-notes-neet) now and track your progress against thousands of students.
 ## 📚 Related Topics
-
 Continue your [revision](/blog/animal-kingdom-class-11-revision-notes-neet) with these related guides:
-
 - 📖 [Agriculture Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/agriculture-class-11-revision-notes-neet)
 - 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Animal Kingdom Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)
 - 📖 [Biogeography Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/biogeography-class-11-revision-notes-neet)
-
 ## 🔁 Last 5 Minutes Box
 
 * **Carbohydrates**: Polysaccharides (Starch, Glycogen, Cellulose), Disaccharides (Sucrose, Maltose, Lactose), Monosaccharides (Glucose, Fructose, Ribose)

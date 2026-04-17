@@ -68,14 +68,14 @@ As you can see, algorithm analysis is not just about solving problems; it's abou
 Here's a block of code to illustrate the concept:
 
 \begin{aligned}
-&\text{Quicksort Algorithm} \\
-&\text{Time Complexity: } O(n log n) \\
-&\text{Space Complexity: } O(log n) \\
-&\text{Worst-Case Time Complexity: } O(n^2) \\\end{aligned}\begin{aligned}
-&\text{Mergesort Algorithm} \\
-&\text{Time Complexity: } O(n log n) \\
-&\text{Space Complexity: } O(n) \\
-&\text{Worst-Case Time Complexity: } O(n log n) \\\end{aligned}
+&$\text{Quicksort Algorithm}$ \\
+&$\text{Time Complexity: }$ O(n log n) \\
+&$\text{Space Complexity: }$ O(log n) \\
+&$\text{Worst-Case Time Complexity: }$ O(n^2) \\\end{aligned}\begin{aligned}
+&$\text{Mergesort Algorithm}$ \\
+&$\text{Time Complexity: }$ O(n log n) \\
+&$\text{Space Complexity: }$ O(n) \\
+&$\text{Worst-Case Time Complexity: }$ O(n log n) \\\end{aligned}
 
 As you can see, the quicksort algorithm has a faster average time complexity, but a worse worst-case time complexity. On the other hand, the mergesort algorithm has a slower average time complexity, but a better worst-case time complexity. Which algorithm would you choose, and why? 
 

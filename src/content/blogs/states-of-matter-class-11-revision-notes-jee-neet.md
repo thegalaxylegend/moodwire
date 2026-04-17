@@ -176,7 +176,7 @@ P_{total} = P_1 + P_2 + P_3 + ...P_i = X_i \times P_{total} where $X_i$ = mole f
 **Graham's Law states that the rate of diffusion or effusion of a gas is inversely proportional to the square root of its molar mass.**
 
 
-\frac{r_1}{r_2} = \sqrt$\frac{M_2${M_1}}
+$\frac{r_1}{r_2} = \sqrt$\frac{M_2${M_1}$}
 
 
 
@@ -222,7 +222,7 @@ P_{total} = P_1 + P_2 + P_3 + ...P_i = X_i \times P_{total} where $X_i$ = mole f
 
 ### <a id="the-compressibility-factor-z"></a>The Compressibility Factor (Z)
 
-Z = \frac{PV}{nRT}
+Z = $\frac{PV}{nRT}$
 
 
 
@@ -246,7 +246,7 @@ Z = \frac{PV}{nRT}
 **The van der Waals Equation is a modified form of the ideal gas equation that accounts for the finite size of molecules (volume correction 'b') and intermolecular attractions (pressure correction 'a').**
 
 
-\left[P + \frac{an^2}{V^2}\right](V - nb) = nRT
+\left[P + $\frac{an^2}{V^2}$\right](V - nb) = nRT
 
 
 

@@ -50,7 +50,7 @@ practice_link: "/class-11/mathematics/matrices-class-12-notes"
 * Linear dependence and independence of vectors — always comes, with questions asking to determine whether a set of vectors is linearly independent or dependent, often using the concept of rank and determinant.
 * (A^T)^{-1} = (A^{-1})^T and (AB)^{-1} = B^{-1}A^{-1} — key formulas that are frequently used in matrix problems.
 
-* Finding the adjoint of a matrix — high-yield topic, often required to find the [inverse](/blog/inverse-trigonometric-functions-class-12-notes) of a matrix using the formula A^{-1} = \frac{1}{|A|} \times adj(A).
+* Finding the adjoint of a matrix — high-yield topic, often required to find the [inverse](/blog/inverse-trigonometric-functions-class-12-notes) of a matrix using the formula A^{-1} = $\frac{1}{|A|}$ \times adj(A).
 
 
 * Solving systems of linear equations using the matrix method, including finding the solution using the normal form $AX = B$, where A, X, and B are matrices — always comes, with a focus on applying the concepts of matrix multiplication, [inverse](/blog/inverse-trigonometric-functions-class-12-notes), and determinant to solve the system.

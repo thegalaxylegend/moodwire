@@ -30,7 +30,10 @@ async function sync() {
         const slug = file.replace('.md', '');
 
         // REGISTRY SHIELD: Block blogs with technical artifacts
-        if (content.includes('[object Object]') || /\{[\s\S]*?"heading":[\s\S]*?"body":/.test(content)) {
+        // NOTE: The regex must be PRECISE — it must match actual JSON squashing
+        // like {"heading":"...","body":"..."} on its own line, NOT LaTeX braces
+        // like \frac{a}{b} which also contain { characters.
+        if (content.includes('[object Object]') || /^\s*\{\s*"heading"\s*:\s*"[^"]*"\s*,\s*"body"\s*:/m.test(content)) {
             console.error(`❌ Shield: Ignoring corrupted blog "${slug}" (artifacts detected)`);
             continue;
         }

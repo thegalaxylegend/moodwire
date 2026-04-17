@@ -87,7 +87,7 @@ I've found that understanding the basics of reflection, refraction, and total in
 ### <a id="refraction"></a>Refraction
 - **Snell's Law**: $n_1 \sin \theta_1 = n_2 \sin \theta_2$.
 - **Total Internal Reflection**: $\theta_1 > \theta_c$, where $\theta_c$ is the critical angle.
-- **Refraction through a Prism**: $\delta = i + e - A$, where $\delta$ is the angle of deviation, $i$ is the angle of incidence, $e$ is the angle of emergence, and $A$ is the angle of the prism.
+- **Refraction through a Prism**: $\Delta = i + e - A$, where $\Delta$ is the angle of deviation, $i$ is the angle of incidence, $e$ is the angle of emergence, and $A$ is the angle of the prism.
 
 ### <a id="lenses"></a>Lenses
 - **Lens Maker's Formula**: $\frac{1}{f} = (n-1) \left( \frac{1}{R_1} - \frac{1}{R_2} \right)$, where $f$ is the focal length, $n$ is the refractive index, and $R_1$ and $R_2$ are the radii of curvature.
@@ -110,7 +110,7 @@ I've found that understanding the basics of reflection, refraction, and total in
 | --- | --- |
 | $n_1 \sin \theta_1 = n_2 \sin \theta_2$ | Snell's law |
 | $\theta_c = \sin^{-1} \left( \frac{n_2}{n_1} \right)$ | Critical angle |
-| $\delta = i + e - A$ | Angle of deviation through a prism |
+| $\Delta = i + e - A$ | Angle of deviation through a prism |
 | Formula | Description |
 | --- | --- |
 | $\frac{1}{f} = (n-1) \left( \frac{1}{R_1} - \frac{1}{R_2} \right)$ | Lens maker's formula |
