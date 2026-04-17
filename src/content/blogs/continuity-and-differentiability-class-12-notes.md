@@ -72,7 +72,7 @@ For $x < 0$, $f(x) = -x$, so $f'(x) = -1$.
 
 At $x = 0$, we check the definition of a derivative:
 
-$$$$ f'(0) = \lim_{h \to 0} \frac{f(0 + h) - f(0)}{h} = \lim_{h \to 0} \frac{|h|}{h} $$$$
+ f'(0) = \lim_{h \to 0} \frac{f(0 + h) - f(0)}{h} = \lim_{h \to 0} \frac{|h|}{h} 
 
 
 This limit does not exist because $\frac{|h|}{h} = 1$ for $h > 0$ and $\frac{|h|}{h} = -1$ for $h < 0$. Therefore, $f'(0)$ is undefined.
@@ -84,7 +84,7 @@ This limit does not exist because $\frac{|h|}{h} = 1$ for $h > 0$ and $\frac{|h|
  - **Solution:** 
 By definition, 
 
-$$$$ f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h} = \lim_{h \to 0} \frac{\sin(x + h) - \sin(x)}{h} $$$$
+ f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h} = \lim_{h \to 0} \frac{\sin(x + h) - \sin(x)}{h} 
 
 
 Using the angle sum identity for sine, $\sin(a + b) = \sin(a)\cos(b) + \cos(a)\sin(b)$, we get:
