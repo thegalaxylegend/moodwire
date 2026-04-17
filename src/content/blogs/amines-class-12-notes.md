@@ -76,7 +76,7 @@ practice_link: "/class-11/chemistry/amines-class-12-notes"
 ### <a id="9-electrophilic-aromatic-substitution"></a>9. Electrophilic Aromatic Substitution
 - **Nitration**: Reaction of aromatic amines with nitric acid to form nitro aromatic [compounds](/blog/coordination-compounds-class-12-notes).
 - **Alienation**: Reaction of aromatic amines with halogens to form halo aromatic [compounds](/blog/coordination-compounds-class-12-notes).
-- **Fried-Crafts Alkylating**: Reaction of aromatic amines with alkyl halides to form alkyl aromatic compounds.
+- **Fried-Crafts Alkylating**: Reaction of aromatic amines with alkyl halides to form alkyl aromatic [compounds](/blog/coordination-compounds-class-12-notes).
 - **Key Reactions**:
     - BC_6H_5NH_2 + NO_3 \right arrow C_6H_4NNO_2 + H_2O$ (Nitration)
     - BC_6H_5NH_2 + Cl_2 \right arrow C_6H_4Cl + HCl (Alienation)

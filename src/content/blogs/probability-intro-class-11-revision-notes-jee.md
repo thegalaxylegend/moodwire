@@ -119,7 +119,7 @@ This example illustrates how conditional probability can be used to analyze and 
 
 Now, let's summarize what we've learned so far. We've introduced the concept of probability and its importance in mathematics and real-life applications. We've also explored some simple examples and problems to illustrate the concept of probability. As we move forward, we'll encounter more complex concepts and problems, but the basic idea of probability will remain the same. With practice and persistence, you'll become proficient in solving probability problems and be able to apply the concepts to a wide range of scenarios. 
 
-So, let's keep moving forward and explore the fascinating world of probability together. We'll encounter many more examples, problems, and concepts, and we'll develop a deep understanding of the subject. With dedication and persistence, you'll be able to master the concepts of probability and perform well in the Class 11 exam. 
+So, let's keep moving forward and explore the fascinating world of probability together. We'll encounter many more examples, problems, and concepts, and we'll develop a deep understanding of the subject. With dedication and persistence, you'll be able to master the concepts of probability and perform well in the [class](/blog/limits-and-derivatives-class-11-revision-notes-jee) 11 exam. 
 
 As we continue our journey through the world of probability, we'll encounter many more examples, problems, and concepts. We'll develop a deep understanding of the subject and become proficient in solving probability problems. With dedication and persistence, you'll be able to master the concepts of probability and perform well in the Class 11 exam. 
 

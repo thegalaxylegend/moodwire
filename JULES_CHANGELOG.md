@@ -1,13 +1,34 @@
+# 🤖 Jules AI — Autonomous Changelog
+
+> This file is automatically maintained by the self-learning AI system.
+> Every pipeline run appends what changed, why, and the impact.
+
 
 ## 📊 Cumulative Statistics
 
 | Metric | Value |
 |---|---|
-| Pipeline runs | 17 |
-| Total blogs generated | 414 |
-| Quality gate pass rate | 73% |
-| Total failures | 110 |
+| Pipeline runs | 18 |
+| Total blogs generated | 489 |
+| Quality gate pass rate | 75% |
+| Total failures | 123 |
 
+
+## 📅 2026-04-17 (17/4/2026, 8:23:27 am)
+
+### What Happened
+
+- 📝 **Generated 9 blogs** — 9 passed (avg score: 100), 0 failed
+- 🔧 **Smart Repair** — Applied 131 auto-fixes (kill-list, LaTeX, broken links)
+- 🔗 **Internal Linking** — Added 164 new internal links between blog posts
+- 🔍 **Duplication Check** — Found 20 high-overlap blog pairs
+
+### Impact
+
+- 304 total autonomous actions taken
+- ⚠️ 20 content overlap warning(s) — may need manual deduplication
+
+---
 
 ## 📅 2026-04-16 (16/4/2026, 8:26:58 am)
 

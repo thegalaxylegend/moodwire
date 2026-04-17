@@ -177,7 +177,7 @@ Answer: a) Fruit
 ## <a id="related-notes-links"></a>Related Notes Links
 
 * Anatomy of Flowering [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)
-* Plant Physiology
+* [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet) Physiology
 
 
 

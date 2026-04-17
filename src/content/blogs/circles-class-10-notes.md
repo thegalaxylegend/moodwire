@@ -72,7 +72,7 @@ practice_link: "/class-10/mathematics/circles"
 
 - *Fix:* Ensure you remember the formulas for the area {\(A = \pi r^2\)} and circumference {\(C = 2\pi r\)} of a circle, where {\(r\)} is the radius. Apply these formulas correctly to solve area and circumference problems.
 
-- **Mistake 5:** Not checking the units of measurement in problems involving the area and circumference of circles.
+- **Mistake 5:** Not checking the units of measurement in problems involving the area and circumference of [circles](/blog/areas-related-to-circles-class-10-notes).
 
 - *Costs:* 1 mark
  
@@ -182,50 +182,50 @@ practice_link: "/class-10/mathematics/circles"
 ## <a id="-practice-MCQs"></a>📝 Practice MCQs
 
 **1. The tangent to a circle is always perpendicular to the radius at the point of contact.**
-**A)**      True
-**B)**      False
-**C)**      Maybe
-**D)**      Not Sure
+**A)**       True
+**B)**       False
+**C)**       Maybe
+**D)**       Not Sure
 
 **Answer:** A) The tangent to a circle is always perpendicular to the radius at the point of contact.
 
 ---
 
 **2. Lengths of tangents from an external point to a circle are always equal.**
-**A)**      True
-**B)**      False
-**C)**      Maybe
-**D)**      Not Sure
+**A)**       True
+**B)**       False
+**C)**       Maybe
+**D)**       Not Sure
 
 **Answer:** A) Lengths of tangents from an external point to a circle are always equal.
 
 ---
 
 **3. The center of a circle is equidistant from all points on the circle.**
-**A)**      True
-**B)**      False
-**C)**      Maybe
-**D)**      Not Sure
+**A)**       True
+**B)**       False
+**C)**       Maybe
+**D)**       Not Sure
 
 **Answer:** A) The center of a circle is equidistant from all points on the circle.
 
 ---
 
 **4. A tangent line touches the circle at exactly two points.**
-**A)**      True
-**B)**      False
-**C)**      Maybe
-**D)**      Not Sure
+**A)**       True
+**B)**       False
+**C)**       Maybe
+**D)**       Not Sure
 
 **Answer:** B) A tangent line touches the circle at exactly one point.
 
 ---
 
 **5. The radius is the longest distance from the center to any point on the circle.**
-**A)**      True
-**B)**      False
-**C)**      Maybe
-**D)**      Not Sure
+**A)**       True
+**B)**       False
+**C)**       Maybe
+**D)**       Not Sure
 
 **Answer:** B) The radius is the shortest distance from the center to any point on the circle.
 

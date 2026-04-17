@@ -69,7 +69,7 @@ The living world is a vast and diverse array of organisms that inhabit our plane
 ## <a id="characteristics-of-living-organisms"></a>Characteristics of Living Organisms
 
 Living organisms exhibit several key characteristics, including:
-* **Organization**: Living organisms are composed of cells, which are the basic structural and functional units of life.
+* **Organization**: Living organisms are composed of cells, which are the basic [structural](/blog/structural-organisation-in-animals-class-11-revision-notes-neet) and functional units of life.
 * **Metabolism**: Living organisms carry out a series of chemical reactions that involve the breakdown and synthesis of organic molecules.
 * **Homeostasis**: Living organisms maintain a stable internal environment despite changes in the external environment.
 * **[growth](/blog/plant-growth-and-development-class-11-revision-notes-neet) and Development**: Living organisms grow and develop through an increase in size and complexity.

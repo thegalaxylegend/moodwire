@@ -142,7 +142,7 @@ On the other hand, the formula for combinations is $nCr = \frac{n!}{r!(n-r)!}$, 
 
 To further illustrate the difference between [permutations](/blog/permutations-combinations-class-11-revision-notes-jee) and combinations, consider the following example: suppose we have a set of 3 objects, {a, b, c}, and we want to choose 2 of them. The [permutations](/blog/permutations-combinations-class-11-revision-notes-jee) of 2 objects chosen from a set of 3 are {ab, ac, ba, bc, ca, cb}, while the combinations are {ab, ac, bc}. 
 
-In addition to understanding the formulas and concepts, it is also important to practice solving problems involving permutations and combinations. This can help to build confidence and fluency with the material, and can also help to identify areas where additional review is needed. 
+In addition to understanding the formulas and concepts, it is also important to practice solving problems involving [permutations](/blog/permutations-combinations-class-11-revision-notes-jee) and combinations. This can help to build confidence and fluency with the material, and can also help to identify areas where additional review is needed. 
 
 Some common types of problems involving permutations and combinations include: counting problems, where we need to count the number of ways to arrange or select objects; probability problems, where we need to calculate the probability of a certain event occurring; and optimization problems, where we need to find the maximum or minimum value of a function subject to certain constraints. 
 

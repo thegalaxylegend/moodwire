@@ -53,7 +53,7 @@ practice_link: "/class-11/mathematics/differential-equations-class-12-notes"
 
 ### <a id="-integrating-factor"></a>📝 Integrating Factor
 
-- **Derivation of Integrating Factor:** I.F. = e^$\INT P(x) DX — To derive this formula, we start with a first-order linear differential equation: \franc{dy}{dx} + P(x)y = Q(x) — Multiplying both sides of this equation by the integrating factor he^$\INT P(x) DX, we get: e^$\INT P(x) DX\franc{dy}{dx} + e^$\INT P(x) dx$P(x)y = e^$\INT P(x) dx$Q(x) — The left-hand side of this equation is the derivative of he^$\INT P(x) day, so we can write: \franc{d}{dx}(e^$\INT P(x) (suggestion limit reached)) = e^$\(suggestion limit reached) P(x) dx$Q(x) — Integrating both sides of this equation with respect to (suggestion limit reached), we get: e^$\(suggestion limit reached) P(x) (suggestion limit reached) = \(suggestion limit reached) e^$\(suggestion limit reached) P(x) dx$Q(x) (suggestion limit reached) + C — This gives us the general solution to a first-order linear differential equation.
+- **Derivation of Integrating Factor:** I.F. = e^$\INT P(x) DX — To derive this formula, we start with a first-order linear differential equation: \franc{dy}{dx} + P(x)y = Q(x) — Multiplying both sides of this equation by the integrating factor he^$\INT P(x) DX, we get: e^$\INT P(x) DX\franc{dy}{dx} + e^$\INT P(x) dx$P(x)y = e^$\INT P(x) dx$Q(x) — The left-hand side of this equation is the derivative of the^$\INT P(x) day, so we can write: \franc{d}{dx}(e^$\INT P(x) (suggestion limit reached)) = e^$\(suggestion limit reached) P(x) dx$Q(x) — Integrating both sides of this equation with respect to (suggestion limit reached), we get: e^$\(suggestion limit reached) P(x) (suggestion limit reached) = \(suggestion limit reached) e^$\(suggestion limit reached) P(x) dx$Q(x) (suggestion limit reached) + C — This gives us the general solution to a first-order linear differential equation.
 - Key steps:
   * Multiply by the integrating factor.
   * Integrate both sides.
@@ -102,7 +102,7 @@ practice_link: "/class-11/mathematics/differential-equations-class-12-notes"
 - **Simple Harmonic Motion:** \franc{d^2y}{DT^2} + \omega^2y = 0 — This differential equation models simple harmonic motion, where $\omega$ is a constant.
 - Examples:
   * Mass on a spring: $\franc{d^2x}{DT^2} + \omega^2x = 0$
-  * Pendulum: $\franc{d^2\theta}{DT^2} + \omega^2\theta = 0$
+  * Pendulum: $\franc’d^2\theta}{DT^2} + \omega^2\theta = 0$
 - **Electrical Circuits:** L\franc{d^2q}{DT^2} + R\franc{dq}{dt} + \(suggestion limit reached){q}{C} = V — This differential equation models an electrical circuit, where (suggestion limit reached) is the inductance, (suggestion limit reached) is the resistance, (suggestion limit reached) is the capacitance, and (suggestion limit reached) is the voltage.
 - Examples:
   * RL circuit: (suggestion limit reached)\(suggestion limit reached){dI}{dt} + RI = (suggestion limit reached)
@@ -115,7 +115,7 @@ practice_link: "/class-11/mathematics/differential-equations-class-12-notes"
   * Choose a step size the.
   * Calculate by_{n+1}$ using the formula.
 
-- **Range-Kutta Method:** y_{n+1} = y_n + \franc{h}{6}(k_1 + 2k_2 + 2k_3 + k_4) — This method is used to approximate the solution of a differential equation at a given point.
+- **Range-Gutta Method:** y_{n+1} = y_n + \franc{h}{6}(k_1 + 2k_2 + 2k_3 + k_4) — This method is used to approximate the solution of a differential equation at a given point.
 
 
 - Key steps:
@@ -234,4 +234,4 @@ Continue your revision with these related guides:
 * **Forgetting to check the solution**: After obtaining a solution, it's essential to verify that it satisfies the original differential equation. This step is often skipped, leading to incorrect answers. Always substitute your solution back into the differential equation to ensure it's correct.
 * **Not considering the initial conditions**: Initial conditions are crucial in determining the specific solution to a differential equation. Failing to apply these conditions can result in a general solution that doesn't satisfy the problem's requirements.
 * **Mistaking a differential equation for an algebraic equation**: Differential equations involve rates of change and require different techniques to solve. Don't try to solve them using algebraic methods, as this can lead to incorrect solutions.
-* **Ignoring the domain of the solution**: The domain of the solution is critical, especially when dealing with functions that have restricted domains, such as logarithmic or trigonometric functions. Ensure that your solution is defined for all values in the domain to avoid mistakes.
+* **Ignoring the domain of the solution**: The domain of the solution is critical, especially when dealing with functions that have restricted domains, such as logarithmic or trigonometric functions. Ensure that your solution is defined for all values in the domain to avoid mistakes.$

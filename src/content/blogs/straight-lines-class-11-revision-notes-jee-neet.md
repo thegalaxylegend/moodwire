@@ -138,7 +138,7 @@ If the origin (0, 0) is shifted to a new point (h, k) without changing the direc
 - Using Point-Slope Form: y - 3 = (3/4)(x - 2)
 - 4y - 12 = 3x - 6 => **3x - 4y + 6 = 0**.
 
-**Q2: Find the distance of the point (3, -5) from the line 3x - 4y - 26 = 0.**
+**Q2: Find the distance of the point (3, -5) from the [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) 3x - 4y - 26 = 0.**
 **Answer:**
 - x₁ = 3, y₁ = -5, A = 3, B = -4, C = -26.
 - d = |3(3) - 4(-5) - 26| / √(3² + (-4)²)

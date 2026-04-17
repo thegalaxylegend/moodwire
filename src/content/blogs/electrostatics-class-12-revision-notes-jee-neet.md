@@ -164,7 +164,7 @@ Ayush's Note on Electrostatics is a concise study guide covering the fundamental
 
 ## <a id="what-is-the-key-shortcut-or-trick-for-electrostatics"></a>What is the key Shortcut or Trick for Electrostatics?
 
-Electrostatics is the study of stationary electric charges and their effects. It includes electric charges, electric fields, and electric potential. For Class 12 exam prep in 2026, the most important aspect is understanding how to apply these concepts to solve problems efficiently, which often involves using shortcuts or tricks to simplify complex calculations.
+Electrostatics is the study of stationary electric charges and their effects. It includes electric charges, electric fields, and electric potential. For [class](/blog/permutations-and-combinations-class-11-revision-notes-jee) 12 exam prep in 2026, the most important aspect is understanding how to apply these concepts to solve problems efficiently, which often involves using shortcuts or tricks to simplify complex calculations.
 
 One of the key shortcuts in electrostatics involves using the concept of electric field lines and the properties of conductors and insulators. Electric field lines emerge from positive charges and enter negative charges. The density of these lines in a region gives the strength of the electric field in that region. Conductors, when placed in an electric field, will have their charges distributed in such a way that the electric field inside the conductor becomes zero. This property can be used to solve problems involving capacitors and charged spheres.
 
@@ -304,3 +304,11 @@ Continue your revision with these related guides:
 - 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-and-combinations-class-11-revision-notes-jee)
 - 📖 [Wave Optics Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/wave-optics-class-12-notes)
 - 📖 [Electromagnetic Induction Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
+
+## 🔁 Last 5 Minutes Box
+
+- **Coulomb's Law**: F = (k * q1 * q2) / r^2, where k = 9 x 10^9 Nm^2C^-2 
+   - **Electric Field**: E = F / q = k * q / r^2 
+   - **Electric Potential**: V = k * q / r 
+   - **Electric Flux**: Φ = E * A * cos(θ) 
+   - **Gauss's Law**: Φ = Q / ε0, where ε0 = 8.85 x 10^-12 C^2N^-1m^-2

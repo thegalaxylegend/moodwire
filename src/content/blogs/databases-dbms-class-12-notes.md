@@ -17,7 +17,7 @@ practice_link: "/class-12/computer-science/databases-dbms"
 - Database Schema: A blueprint or [design](/blog/compiler-design-class-12-notes) of the database that defines the relationships between entities and attributes.
 - Data Independence: The ability of the database to operate independently of changes to the physical storage or hardware.
 - DBMS Components: Data Dictionary, Database Schema, Data Integrity, Data Security, Data Availability, Data Recovery, Data Backup.
-- Database Design: The process of creating a database schema that meets the requirements of the users and the organization.
+- Database [design](/blog/compiler-design-class-12-notes): The process of creating a database schema that meets the requirements of the users and the organization.
 
 </div>
 
@@ -158,40 +158,40 @@ practice_link: "/class-12/computer-science/databases-dbms"
 
 **1. DBMS provides data independence by separating the logical and physical scheme
 a.**
-**A)**      Data is stored in a hierarchical manner.
-**B)**      Schema is independent of data storage.
-**C)**      Data is stored in a graph-based manner.
-**D)**      Data is stored in a relational database.
+**A)**       Data is stored in a hierarchical manner.
+**B)**       Schema is independent of data storage.
+**C)**       Data is stored in a graph-based manner.
+**D)**       Data is stored in a relational database.
 
 **Answer:** B) Data independence is achieved by separating the logical schema (how data is viewed by the user) from the physical schema (how data is stored on disk).
 
 ---
 
 **2. Which of the following is a characteristic of a DBMS?**
-**A)**      Data is stored in a flat file.
-**B)**      Data is stored in a network.
-**C)**      Data is stored in a hierarchical manner.
-**D)**      Supports multiple views of the same data.
+**A)**       Data is stored in a flat file.
+**B)**       Data is stored in a network.
+**C)**       Data is stored in a hierarchical manner.
+**D)**       Supports multiple views of the same data.
 
 **Answer:** D) A DBMS supports multiple views of the same data, which is a key feature of DBMS.
 
 ---
 
 **3. DBMS provides _______ and _______ to the user.**
-**A)**      data consistency and data integrity
-**B)**      data redundancy and data inconsistency
-**C)**      data security and data availability
-**D)**      data normalization and data denormalization
+**A)**       data consistency and data integrity
+**B)**       data redundancy and data inconsistency
+**C)**       data security and data availability
+**D)**       data normalization and data denormalization
 
 **Answer:** C) DBMS provides data security and data availability to the user.
 
 ---
 
 **4. What is the primary function of the DBMS?**
-**A)**      Data storage and retrieval
-**B)**      Data manipulation and query processing
-**C)**      Data security and integrity
-**D)**      Data analysis and reporting
+**A)**       Data storage and retrieval
+**B)**       Data manipulation and query processing
+**C)**       Data security and integrity
+**D)**       Data analysis and reporting
 
 **Answer:** A) The primary function of the DBMS is to store and manage large amounts of data and to provide efficient access to this data.
 
@@ -199,10 +199,10 @@ a.**
 
 **5. DBMS supports _______ of that
 a.**
-**A)**      Single view
-**B)**      Multiple views
-**C)**      No view
-**D)**      All views
+**A)**       Single view
+**B)**       Multiple views
+**C)**       No view
+**D)**       All views
 
 **Answer:** B) DBMS supports multiple views of the same data, which allows users to see the data in different ways.
 
@@ -224,3 +224,4 @@ Continue your revision with these related guides:
 - 📖 [Operating Systems Class 12 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/operating-systems-class-12-notes)
 - 📖 [Theory of Computation Class 12 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/theory-of-computation-class-12-notes)
 - 📖 [Application of Derivatives Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
+$

@@ -75,7 +75,7 @@ By mastering these concepts and formulas, you'll be well-equipped to tackle the 
 * Misinterpretation of the Lorentz Force Equation
 * Inability to visualize the magnetic field lines and their behavior
 
-By being aware of these common pitfalls and focusing on the key concepts, you'll be able to navigate the complexities of **Magnetic Effects of Current** with confidence. As we delve deeper into this topic, remember to stay curious, ask questions, and seek clarification when needed. With persistence and practice, you'll be well on your way to achieving excellence in Physics. 
+By being aware of these common pitfalls and focusing on the key concepts, you'll be able to navigate the complexities of **Magnetic Effects of [current](/blog/alternating-current-class-12-notes)** with confidence. As we delve deeper into this topic, remember to stay curious, ask questions, and seek clarification when needed. With persistence and practice, you'll be well on your way to achieving excellence in Physics. 
 
 **Exam Day Summary:** On the exam day, make sure to allocate sufficient time to questions related to **Magnetic Effects of Current**. Focus on applying the concepts and formulas to solve problems, and don't hesitate to use diagrams and illustrations to support your answers. With a solid understanding of the subject [matter](/blog/magnetism-and-matter-class-12-notes) and a strategic approach to problem-solving, you'll be able to tackle the challenges of **Magnetic Effects of Current** with confidence and precision.
 
@@ -229,7 +229,7 @@ The comparison between a galvanometer and an ammeter can be summarized in the fo
 
 ## <a id="what-is-the-key-shortcut-or-trick-for-magnetic-effects-of-current"></a>What is the key Shortcut or Trick for Magnetic Effects of Current?
 
-Magnetic Effects of Current is the phenomenon by which an electric current produces a magnetic field. It includes the Biot-Savart law, Ampere's law, and the Lorentz force equation. For Class 12 exam prep in 2026, the most important aspect is understanding the right-hand rule to determine the direction of the magnetic field.
+Magnetic Effects of Current is the phenomenon by which an electric current produces a magnetic field. It includes the Biot-Savart law, Ampere's law, and the Lorentz force equation. For [class](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) 12 exam prep in 2026, the most important aspect is understanding the right-hand rule to determine the direction of the magnetic field.
 
 The right-hand rule is a fundamental concept in Magnetic Effects of Current and is used to determine the direction of the magnetic field produced by a current-carrying conductor. To apply the right-hand rule, you need to point your thumb in the direction of the current and your fingers will curl in the direction of the magnetic field. This rule is essential for solving problems related to the magnetic field around a straight wire, a circular coil, and a solenoid.
 

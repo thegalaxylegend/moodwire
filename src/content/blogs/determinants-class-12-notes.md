@@ -158,7 +158,7 @@ d \end{vmatrix}$ and cofactor of $b$ is $-\begin{vmatrix} c \end{vmatrix}$.
 \begin{vmatrix} x & y \\ z & w \end{vmatrix}
 
 = xw - yz — $x, y, z, w$ are variables.
-- **Application:** Used to calculate the determinant of a 2x2 matrix with variables.
+- **[application](/blog/application-of-integrals-class-12-notes):** Used to calculate the determinant of a 2x2 matrix with variables.
 
 ### <a id="-core-concept-8-determinant-of-a-3x3-matrix"></a>⚡ Core Concept 8: Determinant of a 3x3 Matrix
 

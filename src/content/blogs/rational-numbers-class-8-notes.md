@@ -94,50 +94,50 @@ eq 0$, $q$ is positive, and $p$ and $q$ have no common factor other than 1 (i.e.
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. If the product of two rational numbers is 1, then the numbers are reciprocal of each other.**
-**A)**    Rational numbers can be negative or positive
-**B)**    Product of two rational numbers is always 1
-**C)**    Rational numbers can be positive or negative
-**D)**    The numbers are reciprocal of each other
+**A)**     Rational numbers can be negative or positive
+**B)**     Product of two rational numbers is always 1
+**C)**     Rational numbers can be positive or negative
+**D)**     The numbers are reciprocal of each other
 
 **Answer:** D) If the product of two rational numbers is 1, it implies that one [number](/blog/number-systems-class-9-notes) is the reciprocal of the other.
 
 ---
 
 **2. Any rational [number](/blog/number-systems-class-9-notes) can be expressed in the form a/b, where b is non-zero.**
-**A)**    a and b are integers
-**B)**    b is non-zero
-**C)**    a can be zero, but b cannot be zero
-**D)**    a and b are integers and b is non-zero
+**A)**     a and b are integers
+**B)**     b is non-zero
+**C)**     a can be zero, but b cannot be zero
+**D)**     a and b are integers and b is non-zero
 
-**Answer:** D) Any rational number can be expressed in the form a/b, where b is non-zero, and a and b are integers.
+**Answer:** D) Any rational [number](/blog/number-systems-class-9-notes) can be expressed in the form a/b, where b is non-zero, and a and b are integers.
 
 ---
 
 **3. The \sum of two rational numbers with the same denominator is the \sum of their numerators.**
-**A)**    The denominators are added
-**B)**    The \sum of rational numbers with the same denominator is the \sum of their numerators
-**C)**    The denominators are subtracted
-**D)**    The numerators are subtracted
+**A)**     The denominators are added
+**B)**     The \sum of rational numbers with the same denominator is the \sum of their numerators
+**C)**     The denominators are subtracted
+**D)**     The numerators are subtracted
 
 **Answer:** B) The \sum of two rational numbers with the same denominator is the \sum of their numerators, divided by the common denominator.
 
 ---
 
 **4. If the product of two rational numbers is a rational number, then the numbers are rational.**
-**A)**    The numbers are integers
-**B)**    If the product of two rational numbers is a rational number, then the numbers are rational
-**C)**    The numbers are irrational
-**D)**    The numbers are integers or rational
+**A)**     The numbers are integers
+**B)**     If the product of two rational numbers is a rational number, then the numbers are rational
+**C)**     The numbers are irrational
+**D)**     The numbers are integers or rational
 
 **Answer:** B) If the product of two rational numbers is a rational number, it implies that the numbers themselves are rational.
 
 ---
 
 **5. The difference of two rational numbers with the same denominator is the difference of their numerators.**
-**A)**    The denominators are subtracted
-**B)**    The denominators are added
-**C)**    The difference of rational numbers with the same denominator is the difference of their numerators
-**D)**    The numerators are subtracted
+**A)**     The denominators are subtracted
+**B)**     The denominators are added
+**C)**     The difference of rational numbers with the same denominator is the difference of their numerators
+**D)**     The numerators are subtracted
 
 **Answer:** C) The difference of two rational numbers with the same denominator is the difference of their numerators, divided by the common denominator.
 

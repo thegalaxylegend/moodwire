@@ -412,3 +412,22 @@ Continue your [revision](/blog/states-of-matter-class-11-revision-notes-jee-neet
 - 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
 - 📖 [Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet)
 
+## 🪤 The 5 Mistakes That Cost Marks
+
+* **Forgetting to consider the normal reaction**: In equilibrium problems, students often forget to consider the normal reaction force exerted by the surface on the object, leading to incorrect calculations of the net force.
+* **Incorrect application of Lami's theorem**: Lami's theorem is often misapplied, resulting in incorrect calculations of the forces or tensions in equilibrium systems, especially in problems involving multiple forces and angles.
+* **Not accounting for friction**: Students may overlook the effect of friction in equilibrium problems, which can lead to incorrect conclusions about the forces acting on an object, especially when the object is in contact with a surface.
+* **Miscalculating the torque**: In equilibrium problems involving rotation, students may miscalculate the torque, which can lead to incorrect conclusions about the equilibrium state of the system, especially when dealing with complex systems involving multiple forces and axes of rotation.
+* **Ignoring the equilibrium of the system as a whole**: Students may focus too much on individual components of the system and forget to consider the overall equilibrium of the system, leading to incorrect conclusions about the behavior of the system.
+
+## 🔁 Last 5 Minutes Box
+
+- **Types of Equilibrium**: Stable, Unstable, Neutral
+   - **Translational Equilibrium**: Net force acting on the body is zero
+   - **Rotational Equilibrium**: Net torque acting on the body is zero
+   - **Centre of Gravity**: Point where weight of the body acts
+   - **Law of Floating**: Weight of the displaced fluid equals weight of the body
+   - **Bernoulli's Theorem**: P + 1/2ρv² + ρgh = constant
+   - **Pascal's Law**: Pressure in a fluid at equilibrium is uniform
+   - **Viscosity**: Measure of a fluid's resistance to flow
+   - **Surface Tension**: Force acting on surface of a liquid due to intermolecular attraction

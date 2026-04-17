@@ -20,7 +20,7 @@ practice_link: "/class-11/biology/reproduction-in-organisms-class-12-notes"
 - [📝 Practice MCQs](#-practice-mcqs)
 - [📚 Related Topics](#-related-topics)
 
-* **Reproductive Health**: 1 short question on contraceptive methods — always
+* **Reproductive [health](/blog/human-health-and-disease-class-12-notes)**: 1 short question on contraceptive methods — always
 * **[human](/blog/human-reproduction-class-12-notes) Reproductive System**: 
  - 1 diagram-based question on male/female reproductive organs — always
  - 1 numerical on menstrual cycle (e.g., $\Delta$ luteinizing hormone levels) — frequently
@@ -258,7 +258,7 @@ D) is a slow process
 ---
 
 **3. What is the term for the process by which an organism produces offspring without the involvement of another organism?**
-A) sexual reproduction
+A) [sexual](/blog/sexual-reproduction-in-flowering-plants-class-12-notes) reproduction
 B) asexual reproduction
 C) binary fission
 D) mitosis

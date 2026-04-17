@@ -72,7 +72,7 @@ To excel in these questions, it's crucial to develop a strong foundation in the 
 **Real-World Applications**
 Magnetism and matter have numerous practical applications in various fields, including:
 
-* **Medical Imaging**: MRI machines use strong magnetic fields to create detailed images of the body.
+* **Medical Imaging**: MRI machines use strong [magnetic](/blog/magnetic-effects-of-current-class-12-notes) fields to create detailed images of the body.
 * **Energy Generation**: Magnetic fields are used in power plants to generate electricity.
 * **Transportation**: Magnetic levitation (maglev) trains use magnetic fields to propel and guide the train.
 * **[data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) Storage**: Magnetic materials are used in hard drives and magnetic tapes to store digital [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards).
@@ -174,7 +174,7 @@ The magnetic properties of materials can be classified based on their response t
 
 ## <a id="what-is-the-difference-between-diamagnetic-paramagnetic-and-ferromagnetic-materials"></a>What is the difference between Diamagnetic, Paramagnetic, and Ferromagnetic Materials?
 
-Diamagnetic, Paramagnetic, and Ferromagnetic Materials is the study of magnetic properties of materials. It includes the classification of materials based on their magnetic behavior, such as diamagnetism, paramagnetism, and ferromagnetism. For Class 12 exam prep in 2026, the most important aspect is understanding the behavior of electrons in different materials and how they respond to magnetic fields.
+Diamagnetic, Paramagnetic, and Ferromagnetic Materials is the study of magnetic properties of materials. It includes the classification of materials based on their magnetic behavior, such as diamagnetism, paramagnetism, and ferromagnetism. For [class](/blog/alternating-current-class-12-notes) 12 exam prep in 2026, the most important aspect is understanding the behavior of electrons in different materials and how they respond to magnetic fields.
 
 The key difference between these materials lies in their atomic or molecular structure, particularly in the arrangement of electrons. Diamagnetic materials have paired electrons in their orbitals, resulting in no net magnetic moment. On the other hand, paramagnetic materials have unpaired electrons, which generate a net magnetic moment. Ferromagnetic materials have a unique property where the magnetic moments of neighboring atoms are aligned, resulting in a strong magnetic field.
 

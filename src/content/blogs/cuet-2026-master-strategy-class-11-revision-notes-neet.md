@@ -126,7 +126,7 @@ To maximize your eligibility across various courses and universities, we recomme
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/class-10-30-day-timetable-class-10-revision-notes-jee) with these related guides:
 
 - 📖 [State Scholarship Guide 2026 Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/state-scholarship-guide-2026-class-11-revision-notes-neet)
 - 📖 [Class 10 Science PDQ Strategy Class 10 Biology Recap — CBSE 2026 Quick Guide](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet)

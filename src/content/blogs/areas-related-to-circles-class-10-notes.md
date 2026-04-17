@@ -198,10 +198,10 @@ practice_link: "/class-10/mathematics/areas-related-to-circles"
 ## <a id="-practice-MCQs"></a>📝 Practice MCQs
 
 **1. The area of a sector of a circle is given by formula: \franc{\theta}{360} \times \pi r^2**
-**A)**      \franc{\theta}{180} \times \pi r^2
-**B)**      \franc{\theta}{360} \times \pi r^2
-**C)**      \franc{\theta}{180} \times (\pi r^2 - \pi r^2)
-**D)**      None of the above
+**A)**       \franc{\theta}{180} \times \pi r^2
+**B)**       \franc{\theta}{360} \times \pi r^2
+**C)**       \franc{\theta}{180} \times (\pi r^2 - \pi r^2)
+**D)**       None of the above
 
 **Answer:** C) The formula for the area of a sector of a circle is given by \franc{\theta}{360} \times \pi r^2.
 
@@ -209,42 +209,42 @@ practice_link: "/class-10/mathematics/areas-related-to-circles"
 
 **2. The area of a segment of a circle is given by formula: \franc{1}{2} r^2 (\theta - sin\the
 a)**
-**A)**      \franc{1}{2} r^2 (\theta - sin\theta)
-**B)**      \franc{1}{2} r^2 (\theta + sin\theta)
-**C)**      \franc{1}{2} r^2 (\theta - cos\theta)
-**D)**      None of the above
+**A)**       \franc{1}{2} r^2 (\theta - sin\theta)
+**B)**       \franc{1}{2} r^2 (\theta + sin\theta)
+**C)**       \franc{1}{2} r^2 (\theta - cos\theta)
+**D)**       None of the above
 
 **Answer:** C) The formula for the area of a segment of a circle is given by \franc{1}{2} r^2 (\theta - sin\theta).
 
 ---
 
 **3. The area of the quadrilateral formed by the two radii and two tangents is given by formula: r^2**
-**A)**      r^2
-**B)**      \franc{1}{2} r^2
-**C)**      \franc{1}{4} r^2
-**D)**      None of the above
+**A)**       r^2
+**B)**       \franc{1}{2} r^2
+**C)**       \franc{1}{4} r^2
+**D)**       None of the above
 
 **Answer:** A) The area of the quadrilateral formed by the two radii and two tangents is given by r^2.
 
 ---
 
 **4. The length of the tangent from an external point to a circle is given by formula: \sort{r^2 - d^2}**
-**A)**      \sort{r^2 - d^2}
-**B)**      \sort{r^2 + d^2}
-**C)**      \sort’d^2 - r^2}
-**D)**      None of the above
+**A)**       \sort{r^2 - d^2}
+**B)**       \sort{r^2 + d^2}
+**C)**       \sort’d^2 - r^2}
+**D)**       None of the above
 
 **Answer:** A) The length of the tangent from an external point to a circle is given by \sort{r^2 - d^2}.
 
 ---
 
 **5. The length of the direct common tangent to two [circles](/blog/circles-class-10-notes) is given by formula: \sort’d^2 - (r_1 - r_2)^2}**
-**A)**      \sort’d^2 - (r_1 - r_2)^2}
-**B)**      \sort’d^2 + (r_1 + r_2)^2}
-**C)**      \sort{(r_1 + r_2)^2 - d^2}
-**D)**      None of the above
+**A)**       \sort’d^2 - (r_1 - r_2)^2}
+**B)**       \sort’d^2 + (r_1 + r_2)^2}
+**C)**       \sort{(r_1 + r_2)^2 - d^2}
+**D)**       None of the above
 
-**Answer:** A) The length of the direct common tangent to two circles is given by \sort’d^2 - (r_1 - r_2)^2}.
+**Answer:** A) The length of the direct common tangent to two [circles](/blog/circles-class-10-notes) is given by \sort’d^2 - (r_1 - r_2)^2}.
 
 ---
 

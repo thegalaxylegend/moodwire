@@ -346,7 +346,7 @@ CERT asks "Explain the trend in Ionization Enthalpy across a period." Always men
 
 **Related [revision](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Notes:**
 - **[chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) Bonding VS EPR Theory JEE 2026 tricks — Hybridization & Shapes**
-- **Structure of Atom — Quantum Numbers & Configuration Shortcuts**
+- **[structure](/blog/structure-of-atom-class-11-revision-notes-jee-neet) of Atom — Quantum Numbers & Configuration Shortcuts**
 - **Some Basic Concepts of [chemistry](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) — Mole Concept & Stoichiometry**
 
 ---

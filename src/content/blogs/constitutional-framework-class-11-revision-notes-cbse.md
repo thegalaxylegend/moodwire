@@ -160,7 +160,7 @@ Continue your [revision](/blog/indian-geography-physical-class-11-revision-notes
 ## 🔁 Last 5 Minutes Box
 
 * **Preamble**: Intro to Constitution, enshrines objectives & ideals.
-* **Fundamental Rights (Part III)**: Rights to equality, freedom, religion, cultural & educational rights.
+* **[fundamental](/blog/fundamental-rights-class-11-revision-notes-cbse) Rights (Part III)**: Rights to equality, freedom, religion, cultural & educational rights.
 * **Directive Principles (Part IV)**: Instructions to State for welfare, international peace, and security.
 * **Parliamentary System**: President as Head, Prime Minister as Head of Govt.
 * **Federal Structure**: Division of power between Union & States.

@@ -78,7 +78,7 @@ As I delve deeper into these concepts, I realize the importance of understanding
 | **Duties of Citizens** | Outlining the duties of citizens, including respecting the Constitution and promoting harmony |
 
 
-## <a id="what-are-the-MCQs-on-dpsp-and-duties"></a>What are the MCQs on DPSP & Duties?
+## <a id="what-are-the-MCQs-on-DSP-and-duties"></a>What are the MCQs on DPSP & Duties?
 
 Here are some sample MCQs to test your understanding:
 1. What is the primary objective of the Directive Principles of State Policy?
@@ -111,7 +111,7 @@ Ayush's Personal Note: As I prepare for the [class](/blog/physical-world-class-1
 
 
 
-## <a id="what-are-the-Ayush-tips-for-dpsp-and-duties"></a>What are the Ayush's Tips for DPSP & Duties?
+## <a id="what-are-the-Ayush-tips-for-DSP-and-duties"></a>What are the Ayush's Tips for DPSP & Duties?
 
 Here are some tips to help you master DPSP & Duties:
 * **Focus on understanding the historical context**: Recognize the significance of key events and leaders in shaping the concept of DPSP & Duties.

@@ -94,7 +94,7 @@ To remember the difference between diffusion and osmosis, use the following tric
  c) Transpiration
  d) Active transport
  Answer: a) Diffusion
-2. What is the role of transpiration in plants?
+2. What is the role of transpiration in [plants](/blog/respiration-in-plants-class-11-revision-notes-neet)?
  a) To absorb water from the soil
  b) To transport water from the roots to the leaves
  c) To release water vapor into the air

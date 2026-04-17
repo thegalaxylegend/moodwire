@@ -94,7 +94,7 @@ ns^2
 for the alkaline earth metals, where n is the principal quantum number.
 
 ### <a id="properties-of-sblock-elements"></a>Properties of S-Block Elements
-The s-block elements have several properties that make them unique. They are highly reactive, soft, and have low melting points. They also have a tendency to lose electrons to form positive ions, which makes them highly electropositive.
+The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements have several properties that make them unique. They are highly reactive, soft, and have low melting points. They also have a tendency to lose electrons to form positive ions, which makes them highly electropositive.
 
 
 

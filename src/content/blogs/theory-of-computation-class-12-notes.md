@@ -110,17 +110,17 @@ eq 1$ results in a string that is *not* in $L$. This means $L$ cannot be regular
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. Which Turing machine model is universal?**
-**A)**      Turing Machine
-**B)**      Pushdown Automaton
-**C)**      Finite State Machine
-**D)**      Linear Bounded Automaton
+**A)**       Turing Machine
+**B)**       Pushdown Automaton
+**C)**       Finite State Machine
+**D)**       Linear Bounded Automaton
 
 **Answer:** D) A Linear Bounded Automaton is a universal Turing machine model.
 
 ---
 
 **2. What is the concept of decidability in computability theory?**
-**A)**      A problem has a
+**A)**       A problem has a
 
 solution
 **B)**  A problem has a finite solution
@@ -132,30 +132,30 @@ solution
 ---
 
 **3. Which of the following languages is not regular?**
-**A)**      a^*b^*a^*
-**B)**      a^nb^n
-**C)**      ab^*a
-**D)**      a^nb^n where n >= 0
+**A)**       a^*b^*a^*
+**B)**       a^nb^n
+**C)**       ab^*a
+**D)**       a^nb^n where n >= 0
 
 **Answer:** B) The language a^nb^n, where n >= 0, is not regular because it requires a pushdown automaton to recognize it, not a finite state machine.
 
 ---
 
 **4. What is the Church-Turing thesis?**
-**A)**      A universal Turing machine can simulate any algorithm
-**B)**      Any algorithm can be simulated by a universal Turing machine
-**C)**      A finite state machine can solve any problem
-**D)**      A pushdown automaton can solve any problem
+**A)**       A universal Turing machine can simulate any algorithm
+**B)**       Any algorithm can be simulated by a universal Turing machine
+**C)**       A finite state machine can solve any problem
+**D)**       A pushdown automaton can solve any problem
 
 **Answer:** B) The Church-Turing thesis states that any effectively calculable function can be calculated by a Turing machine.
 
 ---
 
 **5. Which of the following problems is undecidable?**
-**A)**      The halting problem
-**B)**      The decision problem for regular languages
-**C)**      The decision problem for context-free languages
-**D)**      The decision problem for recursive languages
+**A)**       The halting problem
+**B)**       The decision problem for regular languages
+**C)**       The decision problem for context-free languages
+**D)**       The decision problem for recursive languages
 
 **Answer:** A) The halting problem is undecidable, meaning that there cannot exist an algorithm that can determine whether a given Turing machine will halt for all possible inputs.
 

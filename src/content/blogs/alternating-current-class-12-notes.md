@@ -132,7 +132,7 @@ What are the advantages of Alternating Current over Direct Current? is the compa
  A key comparison between AC and DC can be summarized as follows:
 
 
-| Characteristics | Alternating Current (AC) | Direct Current (DC) |
+| Characteristics | Alternating [current](/blog/magnetic-effects-of-current-class-12-notes) (AC) | Direct [current](/blog/magnetic-effects-of-current-class-12-notes) (DC) |
 | --- | --- | --- |
 | Definition | Periodic reversal of current direction | Unidirectional flow of electric charge |
 | Transformability | Can be easily transformed to high or low voltages | Difficult to transform due to lack of DC transformers |
@@ -176,7 +176,7 @@ The relationship between peak and RMS values can be summarized as follows:
 
 A key concept to remember is that the RMS value is always lower than the peak value. This is because the RMS value represents the effective value of the AC, taking into account the time-varying nature of the waveform.
 
-For students preparing for the Class 12 exam, it's crucial to understand the distinction between peak and RMS values. A helpful tip is to remember that the RMS value is used to calculate the power delivered to a load, whereas the peak value is used to determine the maximum stress on the circuit components.
+For students preparing for the [class](/blog/wave-optics-class-12-notes) 12 exam, it's crucial to understand the distinction between peak and RMS values. A helpful tip is to remember that the RMS value is used to calculate the power delivered to a load, whereas the peak value is used to determine the maximum stress on the circuit components.
 
 In terms of formulas, the following are essential:
 - $V_{rms} = \frac{V_p}{sqrt{2}}$ for a sinusoidal waveform

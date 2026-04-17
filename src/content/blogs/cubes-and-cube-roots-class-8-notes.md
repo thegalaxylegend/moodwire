@@ -121,7 +121,7 @@ manualReview: false
 - **What 95% scorers do:**
  
 
-- They internalize and instantly recall the unit digit patterns of cubes and their roots. This becomes a mental math superpower for numbers up to 6 digits.
+- They internalize and instantly recall the unit digit patterns of cubes and their [roots](/blog/squares-and-square-roots-class-8-notes). This becomes a mental math superpower for numbers up to 6 digits.
  
 
 - **Key Unit Digit Mappings for Cub**}
@@ -157,50 +157,50 @@ manualReview: false
 ## <a id="-practice-MCQs"></a>📝 Practice MCQs
 
 **1. If the cube root of a number is 4, what is the number?**
-**A)**   64
-**B)**   216
-**C)**   512
-**D)**   729
+**A)**    64
+**B)**    216
+**C)**    512
+**D)**    729
 
 **Answer:** D) Cube root of 729 is 9, and 9^3 = 729.
 
 ---
 
 **2. The cube of a number is 8 more than the cube of its cube root.**
-**A)**   2
-**B)**   4
-**C)**   6
-**D)**   8
+**A)**    2
+**B)**    4
+**C)**    6
+**D)**    8
 
 **Answer:** C) Let's say the cube root is x. Then, the cube is x^3. According to the question, x^3 = x^3 + 8.
 
 ---
 
 **3. What is the cube root of 27?**
-**A)**   3
-**B)**   4
-**C)**   5
-**D)**   6
+**A)**    3
+**B)**    4
+**C)**    5
+**D)**    6
 
 **Answer:** C) Cube root of 27 is 3 because 3^3 = 27.
 
 ---
 
 **4. If the cube of a number is 512, what is the cube root?**
-**A)**   4
-**B)**   6
-**C)**   8
-**D)**   10
+**A)**    4
+**B)**    6
+**C)**    8
+**D)**    10
 
 **Answer:** B) Cube root of 512 is 8 because 8^3 = 512.
 
 ---
 
 **5. Which of the following numbers is a perfect cube?**
-**A)**   16
-**B)**   25
-**C)**   27
-**D)**   30
+**A)**    16
+**B)**    25
+**C)**    27
+**D)**    30
 
 **Answer:** D) 27 is a perfect cube because 3^3 = 27.
 
@@ -230,3 +230,4 @@ Continue your revision with these related guides:
 - 📖 [Data Handling Class 8 Mathematics Recap — Grandmaster Guide](/blog/data-handling-class-8-notes)
 - 📖 [Compiler Design Class 12 Computer Science Revision — Grandmaster Guide](/blog/compiler-design-class-12-notes)
 - 📖 [Squares and Square Roots Class 8 Mathematics Recap — Grandmaster Guide](/blog/squares-and-square-roots-class-8-notes)
+}

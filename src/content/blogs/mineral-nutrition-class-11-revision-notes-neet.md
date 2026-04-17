@@ -228,7 +228,7 @@ Answer: a) Yellowing of leaves
 
 5. What is the effect of phosphorus deficiency on plants?
 a) Yellowing of leaves
-b) Stunted growth and purple coloration of leaves
+b) Stunted [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet) and purple coloration of leaves
 c) Scorching of leaves and reduced growth
 d) Curling of leaves and reduced growth
 

@@ -80,7 +80,7 @@ This equation represents the $AND$ gate, which produces an output of $1$ only wh
 
 We will also explore the concept of combinational circuits, which are digital circuits that do not have any feedback loops. These circuits are used to perform a wide range of tasks, from simple arithmetic to complex decision-making. 
 
-By focusing on the underlying principles of Digital Logic, we can build a strong foundation for more advanced topics in Computer Science and develop a keen appreciation for the intricate beauty of digital systems. With dedication and practice, we can master the concepts of Digital Logic and achieve success in the Class 11 exam. 
+By focusing on the underlying principles of Digital Logic, we can build a strong foundation for more advanced topics in [computer](/blog/computer-organization-class-11-notes) Science and develop a keen appreciation for the intricate beauty of digital systems. With dedication and practice, we can master the concepts of Digital Logic and achieve success in the Class 11 exam. 
 
 The study of Digital Logic is a fascinating journey that will challenge our thinking and broaden our understanding of the digital world. As we explore the world of Digital Logic, we will encounter numerous concepts and techniques that will help us develop a deep understanding of digital systems. 
 

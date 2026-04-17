@@ -21,7 +21,7 @@ manualReview: true
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Ratio:** RAC{a}{b} — a is the first quantity and b is the second quantity,- **Proportion:** a:b = c:d Right arrow RAC{a}{b} = RAC{c}{d} — a, b, c, and d are the quantities in proportion,- **Percentage:** RAC{x}{100} 	times 100% = x% — x is the percentage value,- **Percentage Increase:** RAC{	ext{Increase in Value}}{	ext{Original Value}} 	times 100% — calculates the percentage increase,- **Percentage Decrease:** RAC{	ext{Decrease in Value}}{	ext{Original Value}} 	times 100% — calculates the percentage decrease,- **Compound Interest (CI):** A = Left(1 + RAC{r}{100}light)^(suggestion limit reached) — A is the amount, P is the principal, r is the rate of interest, and n is the time period,- **Simple Interest (SI):** (suggestion limit reached) = (suggestion limit reached){P 	(suggestion limit reached) (suggestion limit reached) t}{100} — SI is the simple interest, P is the principal, r is the rate of interest, and t is the time period,- **Discount:** 	ext{Discount} = 	ext{Marked Price} - 	ext{Selling Price} — calculates the discount amount,- **Profit Percentage:** (suggestion limit reached){	ext{Profit}}{	ext{Cost Price}} 	(suggestion limit reached) 100% — calculates the profit percentage,- **Loss Percentage:** (suggestion limit reached){	ext{Loss}}{	ext{Cost Price}} 	(suggestion limit reached) 100% — calculates the loss percentage,- **GST (Goods and Services Tax):** 	ext{GST Amount} = (suggestion limit reached){	ext{Original Price} 	(suggestion limit reached) 	ext{GST Rate}}{100} — calculates the GST amount,- **Sales Tax:** 	ext{Sales Tax Amount} = (suggestion limit reached){	ext{Original Price} 	(suggestion limit reached) 	ext{Sales Tax Rate}}{100} — calculates the sales tax amount,- **Commission:** 	ext{Commission Amount} = (suggestion limit reached){	ext{Total Amount} 	(suggestion limit reached) 	ext{Commission Rate}}{100} — calculates the commission amount
+- **Ratio:** RAC{a}{b} — a is the first quantity and b is the second quantity,- **Proportion:** a:b = c:d Right arrow RAC{a}{b} = RAC{c}{d} — a, b, c, and d are the quantities in proportion,- **Percentage:** RAC{x}{100} 	times 100% = X — x is the percentage value,- **Percentage Increase:** RAC{	ext{Increase in Value}}{	ext{Original Value}} 	times 100% — calculates the percentage increase,- **Percentage Decrease:** RAC{	ext{Decrease in Value}}{	ext{Original Value}} 	times 100% — calculates the percentage decrease,- **Compound Interest (CI):** A = Left(1 + RAC{r}{100}light)^(suggestion limit reached) — A is the amount, P is the principal, r is the rate of interest, and n is the time period,- **Simple Interest (SI):** (suggestion limit reached) = (suggestion limit reached){P 	(suggestion limit reached) (suggestion limit reached) t}{100} — SI is the simple interest, P is the principal, r is the rate of interest, and t is the time period,- **Discount:** 	ext{Discount} = 	ext{Marked Price} - 	ext{Selling Price} — calculates the discount amount,- **Profit Percentage:** (suggestion limit reached){	ext{Profit}}{	ext{Cost Price}} 	(suggestion limit reached) 100% — calculates the profit percentage,- **Loss Percentage:** (suggestion limit reached){	ext{Loss}}{	ext{Cost Price}} 	(suggestion limit reached) 100% — calculates the loss percentage,- **GST (Goods and Services Tax):** 	ext{GST Amount} = (suggestion limit reached){	ext{Original Price} 	(suggestion limit reached) 	ext{GST Rate}}{100} — calculates the GST amount,- **Sales Tax:** 	ext{Sales Tax Amount} = (suggestion limit reached){	ext{Original Price} 	(suggestion limit reached) 	ext{Sales Tax Rate}}{100} — calculates the sales tax amount,- **Commission:** 	ext{Commission Amount} = (suggestion limit reached){	ext{Total Amount} 	(suggestion limit reached) 	ext{Commission Rate}}{100} — calculates the commission amount
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -122,50 +122,50 @@ manualReview: true
 ## <a id="-practice-MCQs"></a>📝 Practice MCQs
 
 **1. The ratio of the areas of two similar figures is equal to the square of the ratio of their corresponding sides.**
-**A)**   The ratio of the areas of two similar figures is equal to the square of the ratio of their corresponding sides.
-**B)**   The ratio of the areas of two similar figures is equal to the ratio of their corresponding sides.
-**C)**   The ratio of the areas of two similar figures is equal to the square root of the ratio of their corresponding sides.
-**D)**   The ratio of the areas of two similar figures is equal to the cube of the ratio of their corresponding sides.
+**A)**    The ratio of the areas of two similar figures is equal to the square of the ratio of their corresponding sides.
+**B)**    The ratio of the areas of two similar figures is equal to the ratio of their corresponding sides.
+**C)**    The ratio of the areas of two similar figures is equal to the square root of the ratio of their corresponding sides.
+**D)**    The ratio of the areas of two similar figures is equal to the [cube](/blog/cubes-and-cube-roots-class-8-notes) of the ratio of their corresponding sides.
 
 **Answer:** A) This is a fundamental property of similar figures.
 
 ---
 
 **2. A quantity is greater than another quantity if the first is greater than the second in absolute value.**
-**A)**   A quantity is greater than another quantity if the first is greater than the second in absolute value.
-**B)**   A quantity is smaller than another quantity if the first is greater than the second in absolute value.
-**C)**   A quantity is equal to another quantity if the first is greater than the second in absolute value.
-**D)**   A quantity is less than another quantity if the first is less than the second in absolute value.
+**A)**    A quantity is greater than another quantity if the first is greater than the second in absolute value.
+**B)**    A quantity is smaller than another quantity if the first is greater than the second in absolute value.
+**C)**    A quantity is equal to another quantity if the first is greater than the second in absolute value.
+**D)**    A quantity is less than another quantity if the first is less than the second in absolute value.
 
 **Answer:** A) This is the correct definition for greater than (>) and less than (<) comparisons.
 
 ---
 
 **3. The comparison of two quantities can be done using the following symbols: >, <, ≥, ≤.**
-**A)**   The comparison of two quantities can be done using the following symbols: >, <, ≥, ≤.
-**B)**   The comparison of two quantities can be done using the following symbols: >, <, ≥, >.
-**C)**   The comparison of two quantities can be done using the following symbols: >, <, ≥, <.
-**D)**   The comparison of two quantities can be done using the following symbols: >, <, ≥, !=
+**A)**    The comparison of two quantities can be done using the following symbols: >, <, ≥, ≤.
+**B)**    The comparison of two quantities can be done using the following symbols: >, <, ≥, >.
+**C)**    The comparison of two quantities can be done using the following symbols: >, <, ≥, <.
+**D)**    The comparison of two quantities can be done using the following symbols: >, <, ≥, !=
 
 **Answer:** A) These symbols represent greater than, less than, greater than or equal to, and less than or equal to, respectively.
 
 ---
 
 **4. Two quantities are equal if they are both positive and have the same numerical value.**
-**A)**   Two quantities are equal if they are both positive and have the same numerical value.
-**B)**   Two quantities are equal if they are both negative and have the same numerical value.
-**C)**   Two quantities are equal if one is positive and the other is negative and have the same absolute value.
-**D)**   Two quantities are equal if one is positive and the other is negative and have different absolute values.
+**A)**    Two quantities are equal if they are both positive and have the same numerical value.
+**B)**    Two quantities are equal if they are both negative and have the same numerical value.
+**C)**    Two quantities are equal if one is positive and the other is negative and have the same absolute value.
+**D)**    Two quantities are equal if one is positive and the other is negative and have different absolute values.
 
 **Answer:** A) This is the correct definition for equality (=).
 
 ---
 
 **5. The comparison of quantities can be done using ratios, proportions, and percentages.**
-**A)**   The comparison of quantities can be done using ratios, proportions, and percentages.
-**B)**   The comparison of quantities can be done using ratios and proportions.
-**C)**   The comparison of quantities can be done using ratios and percentages.
-**D)**   The comparison of quantities can be done using proportions and percentages.
+**A)**    The comparison of quantities can be done using ratios, proportions, and percentages.
+**B)**    The comparison of quantities can be done using ratios and proportions.
+**C)**    The comparison of quantities can be done using ratios and percentages.
+**D)**    The comparison of quantities can be done using proportions and percentages.
 
 **Answer:** A) These are all valid methods for comparing quantities.
 
@@ -179,8 +179,8 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-8/
 *Content verified against peer-reviewed research:*
 
 1. *Statistical Modeling: The Three Cultures* — **Harvard Data Science Review** (2023) 🔓 — [DOI ↗](https://doi.org/10.1162/99608f92.89f6fe66)
-2. *Body of Knowledge: Practicing Mathematics in Instrumented Fields ...* — **eScholarship (California Digital Library)** (2015) 🔓 — [DOI ↗](https://openalex.org/works/undefined)
-3. *Exploring and Understanding the Practices, Behaviors, and Identit...* — **TUScholarShare (Temple University)** (2012) 🔓 — [DOI ↗](https://openalex.org/works/undefined)
+2. *Body of Knowledge: Practicing Mathematics in Instrumented Fields ...* — **scholarship (California Digital Library)** (2015) 🔓 — [DOI ↗](https://openalex.org/works/undefined)
+3. *Exploring and Understanding the Practices, Behaviors, and Identity...* — **TUScholarShare (Temple University)** (2012) 🔓 — [DOI ↗](https://openalex.org/works/undefined)
 
 *🔓 = Open Access article*
 
@@ -197,3 +197,4 @@ Continue your revision with these related guides:
 - 📖 [Data Handling Class 8 Mathematics Recap — Grandmaster Guide](/blog/data-handling-class-8-notes)
 - 📖 [Compiler Design Class 12 Computer Science Revision — Grandmaster Guide](/blog/compiler-design-class-12-notes)
 - 📖 [Linear Equations in One Variable Class 8 Mathematics Recap — Grandmaster Guide](/blog/linear-equations-in-one-variable-class-8-notes)
+$

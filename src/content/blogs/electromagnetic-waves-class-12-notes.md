@@ -134,7 +134,7 @@ Understanding the Electromagnetic Spectrum is crucial for various fields, includ
 u$, where $c$ is the speed of light, $lambda$ is the wavelength, and $
 u$ is the frequency. 
 
-For students preparing for the Class 12 exam, focusing on the properties of each region of the Electromagnetic Spectrum, their applications, and the formulas that relate wavelength, frequency, and energy will be beneficial. A student-centric tip is to create a diagram or chart that outlines the different regions of the spectrum, their wavelengths, frequencies, and examples of their applications. This visual aid can help in memorizing the key aspects of the Electromagnetic Spectrum and in understanding the relationships between its various components. 
+For students preparing for the [class](/blog/magnetism-and-matter-class-12-notes) 12 exam, focusing on the properties of each region of the Electromagnetic Spectrum, their applications, and the formulas that relate wavelength, frequency, and energy will be beneficial. A student-centric tip is to create a diagram or chart that outlines the different regions of the spectrum, their wavelengths, frequencies, and examples of their applications. This visual aid can help in memorizing the key aspects of the Electromagnetic Spectrum and in understanding the relationships between its various components. 
 
 Moreover, it's essential to practice solving problems that involve calculating the wavelength, frequency, or energy of electromagnetic radiation, using formulas such as $E = h
 u$, where $E$ is the energy of the radiation, $h$ is Planck's constant, and $
@@ -417,3 +417,20 @@ Continue your revision with these related guides:
 - 📖 [Wave Optics Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/wave-optics-class-12-notes)
 - 📖 [Electromagnetic Induction Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
 - 📖 [Alternating Current Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/alternating-current-class-12-notes)
+
+## 🔁 Last 5 Minutes Box
+
+* **Electromagnetic Spectrum**: Includes radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays
+* **Speed of Light (c)**: 3 x 10^8 m/s in vacuum
+* **Electromagnetic Wave Equation**: c = λν (speed = wavelength * frequency)
+* **Types of EM Waves**: 
+  + **Radio Waves**: Longest wavelength, lowest frequency
+  + **Microwaves**: Used in heating and cooking
+  + **Infrared**: Heat and night vision
+  + **Visible Light**: 400-700 nm, visible to human eye
+  + **Ultraviolet**: 100-400 nm, causes sunburn
+  + **X-rays**: 0.01-10 nm, medical imaging
+  + **Gamma Rays**: Shortest wavelength, highest frequency
+* **Reflection, Refraction, Diffraction, Interference, and Polarization**: Key properties of EM waves
+* **Snell's Law**: n1 sin(θ1) = n2 sin(θ2) for refraction
+   

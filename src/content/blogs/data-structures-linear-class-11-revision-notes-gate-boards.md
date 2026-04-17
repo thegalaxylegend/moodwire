@@ -88,7 +88,7 @@ What are the fundamentals of Arrays in Data Structures: Linear? is a foundationa
  
  The space complexity of an array is $O(n)$, where 'n' is the size of the array, because each element of the array requires a separate memory location.
  
- Here is a summary of the key concepts related to arrays in data structures:
+ Here is a summary of the key concepts related to arrays in [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structures:
  
  The advantages of using arrays include efficient use of memory, fast access times, and simplicity of implementation. However, arrays also have some disadvantages, including fixed size, which can lead to memory waste if the array is not fully utilized, and the need for shifting elements during insertion and deletion operations, which can be time-consuming for large arrays.
  
@@ -139,7 +139,7 @@ Data Structures: Linear is a fundamental concept in computer science that refers
 
 ## <a id="what-are-stacks-and-how-are-they-used-in-data-structures-linear"></a>What are Stacks and how are they used in Data Structures: Linear?
 
-Stacks are a linear data structure that follows the Last-In-First-Out (LIFO) principle. It includes a collection of elements, a top pointer, and a set of operations such as push, pop, and peek. For Class 11 exam prep in 2026, the most important aspect is understanding how stacks are implemented and used in solving problems related to parsing, evaluating postfix expressions, and implementing recursive algorithms iteratively. 
+Stacks are a linear data structure that follows the Last-In-First-Out (LIFO) principle. It includes a collection of elements, a top pointer, and a set of operations such as push, pop, and peek. For Class 11 exam prep in 2026, the most important aspect is understanding how stacks are implemented and used in solving problems related to parsing, evaluating postfix expressions, and implementing recursive [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) iteratively. 
 
 A stack can be visualized as a vertical pile of plates, where plates are added and removed from the top of the pile. The plate that is added most recently is the first one to be removed. Similarly, in a stack data structure, the element that is added most recently is the first one to be removed. The stack operations are: 
 - Push: adds an element to the top of the stack

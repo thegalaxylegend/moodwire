@@ -82,7 +82,7 @@ Electromagnetic induction is a fundamental concept in physics where an electric 
 | Device | [principle](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) | Application |
 | --- | --- | --- |
 | Generators | [electromagnetic](/blog/electromagnetic-waves-class-12-notes) Induction | Conversion of mechanical to electrical energy |
-| Transformers | Electromagnetic Induction | Voltage transformation in power transmission |
+| Transformers | [electromagnetic](/blog/electromagnetic-waves-class-12-notes) Induction | Voltage transformation in power transmission |
 | Inductive Sensors | Electromagnetic Induction | Detection of position, velocity, or proximity |
 | Motors | Electromagnetic Induction | Conversion of electrical to mechanical energy |
 
@@ -103,7 +103,7 @@ ho \frac{l}{A}$, where $l$ is the length of the coil and $A$ is the cross-sectio
  The table below summarizes the key factors affecting electromagnetic induction and their [effects](/blog/magnetic-effects-of-current-class-12-notes) on the induced EMF and current. 
  
 
-| Factor | Effect on Induced EMF | Effect on Current |
+| Factor | Effect on Induced EMF | Effect on [current](/blog/alternating-current-class-12-notes) |
 | --- | --- | --- |
 | Magnetic Field Strength ($B$) | Directly Proportional | Directly Proportional |
 | Angle between Magnetic Field and Coil Normal ($\theta$) | Cos($\theta$) Dependence | Cos($\theta$) Dependence |
@@ -299,3 +299,13 @@ Continue your revision with these related guides:
 - 📖 [Magnetism and Matter Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/magnetism-and-matter-class-12-notes)
 - 📖 [Alternating Current Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/alternating-current-class-12-notes)
 - 📖 [Principle of Mathematical Induction Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee)
+
+## 🔁 Last 5 Minutes Box
+
+* Faraday's Law of Electromagnetic Induction: **ε = -N(dΦ/dt)** 
+   * Lenz's Law: **The induced current flows in a direction such that it opposes the change in magnetic flux** 
+   * Magnetic Flux (Φ): **Φ = BAcosθ** 
+   * Induced Emf (ε): **ε = -dΦ/dt** 
+   * Mutual Inductance (M): **M = Φ/I** 
+   * Self Inductance (L): **L = Φ/I** 
+   * Energy Stored in an Inductor (E): **E = (1/2)LI^2**

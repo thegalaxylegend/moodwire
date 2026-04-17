@@ -75,50 +75,50 @@ manualReview: false
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What is the range of the function f(x) = |x - 3|?**
-**A)**      (-∞, 3)
-**B)**      [0, ∞)
-**C)**      (-∞, 0)
-**D)**      [3, ∞)
+**A)**       (-∞, 3)
+**B)**       [0, ∞)
+**C)**       (-∞, 0)
+**D)**       [3, ∞)
 
 **Answer:** A) The range of the function f(x) = |x - 3| is [0, ∞) because the absolute value of any real number is always non-negative.
 
 ---
 
 **2. If x is an even integer, which of the following is NOT equal to x?**
-**A)**      x - 1
-**B)**      x + 1
-**C)**      -x + 1
-**D)**      -x
+**A)**       x - 1
+**B)**       x + 1
+**C)**       -x + 1
+**D)**       -x
 
 **Answer:** B) x + 1 is NOT equal to x because x is an even integer, and adding 1 to it would make it an odd integer.
 
 ---
 
 **3. What is the value of x if 2^(2x) = 16?**
-**A)**      2
-**B)**      4
-**C)**      8
-**D)**      9
+**A)**       2
+**B)**       4
+**C)**       8
+**D)**       9
 
 **Answer:** C) 2^(2x) = 16 can be rewritten as 2^(2x) = 2^4. Since the bases are equal, we can equate the exponents, 2x = 4, and solve for x, x = 2.
 
 ---
 
 **4. What is the HCF of 18, 24, and 30?**
-**A)**      2
-**B)**      6
-**C)**      9
-**D)**      12
+**A)**       2
+**B)**       6
+**C)**       9
+**D)**       12
 
-**Answer:** B) The highest common factor (HCF) of 18, 24, and 30 is 6 because 6 is the greatest common divisor of all three numbers.
+**Answer:** B) The highest common factor (HCF) of 18, 24, and 30 is 6 because 6 is the greatest common divisor of all three [numbers](/blog/rational-numbers-class-8-notes).
 
 ---
 
 **5. If 11 is a factor of 2^11 + 1, then what is the value of 2^11 + 1?**
-**A)**      11
-**B)**      22
-**C)**      33
-**D)**      121
+**A)**       11
+**B)**       22
+**C)**       33
+**D)**       121
 
 **Answer:** D) 2^11 + 1 can be rewritten as 2048 + 1 = 2049, and 11 is a factor of 2049 because 2049 ÷ 11 = 186.
 

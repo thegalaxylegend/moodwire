@@ -112,7 +112,7 @@ Remember, a strong foundation in history can significantly enhance your understa
 
 ### <a id="revision-tips"></a>Revision Tips
 - **Create flashcards** to help you memorize key terms and concepts.
-- **Make a timeline** of the major events and movements in Medieval India.
+- **Make a timeline** of the major events and movements in Medieval [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee).
 - **Practice answering MCQs** to test your knowledge and identify areas for improvement.
 
 By following these tips and staying committed to your studies, you'll be well on your way to developing a deep understanding of Medieval India and its significance in the broader context of Indian history.

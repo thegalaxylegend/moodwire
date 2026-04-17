@@ -37,7 +37,7 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 - **$x \geq 0$ and $y \geq 0$**: 1 question on plotting the non-negativity constraints and finding the feasible region — always
 - **Linear Programming [applications](/blog/biotechnology-and-its-applications-class-12-notes)**: 1 question on [applications](/blog/biotechnology-and-its-applications-class-12-notes) of linear programming in real-life scenarios — always
 - **Maximization and Minimization**: 1 numerical on formulating and solving maximization and minimization problems using [linear](/blog/pair-of-linear-equations-class-10-notes) programming — always
-- **Multiple Optimal Solutions**: 1 question on identifying and handling multiple optimal solutions in linear programming problems — always
+- **Multiple Optimal Solutions**: 1 question on identifying and handling multiple optimal solutions in [linear](/blog/pair-of-linear-equations-class-10-notes) programming problems — always
 - **Redundant Constraints**: 1 numerical on identifying and handling redundant constraints in linear programming problems — always 
 - **Binding Constraints**: 1 question on identifying and handling binding constraints in linear programming problems — always
 

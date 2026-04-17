@@ -239,7 +239,7 @@ I will make sure to focus on the key concepts and formulae to excel in the subje
 Overall, this quick [revision](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) and recap has been extremely helpful, and I am confident that I will do well in my exam. 
 I will continue to work hard to achieve my goals. 
 Using LaTeX has made the equations and tables look neat and easy to read, and I will continue to use it to help me study. 
-The **Key Terms** section has provided me with a quick reference guide to the essential vocabulary in Geomorphology. 
+The **Key Terms** section has provided me with a [quick](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet) reference guide to the essential vocabulary in Geomorphology. 
 I will make sure to review it regularly to ensure I am familiar with the material. 
 I am confident that I will do well, and I will continue to work hard to achieve my goals. 
 The **Geomorphology and Its Applications** section has helped me understand the significance of the subject and its relevance to real-life situations. 
@@ -270,7 +270,7 @@ The **Geomorphology and Its Applications** section has helped me understand the 
 I will make sure to apply this knowledge in my future studies. 
 I will continue to review and practice the material to ensure I am well-prepared for my exam. 
 The **Trap Exceptions** section has helped me identify potential pitfalls and exceptions to the rules, and I will make sure to be aware of these as I study. 
-Overall, this quick revision and recap has been extremely helpful, and I am confident that I will do well in my exam. 
+Overall, this quick [revision](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) and recap has been extremely helpful, and I am confident that I will do well in my exam. 
 I will continue to work hard to achieve my goals. 
 Using LaTeX has made the equations and tables look neat and easy to read, and I will continue to use it to help me study. 
 The **Ayush's Personal Note** section has provided me with a chance to reflect on my own learning and identify areas where I need to improve. 

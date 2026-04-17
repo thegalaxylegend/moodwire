@@ -154,7 +154,7 @@ D) Chemoperiodism
 
 Answer: A) Photoperiodism
 
-4. Which type of plant flowers in response to short days?
+4. Which type of [plant](/blog/plant-kingdom-class-11-revision-notes-neet) flowers in response to short days?
 A) Short-day plant
 B) Long-day plant
 C) Day-neutral plant

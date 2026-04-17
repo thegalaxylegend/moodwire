@@ -384,7 +384,7 @@ By following this approach, I am confident that I can achieve a good grade in my
 
 ## <a id="ongoing-learning"></a>Ongoing Learning
 
-I, Ayush, believe that learning is an ongoing process, and that it is essential to continue learning and revising throughout my academic career. I make sure to review my notes and study materials regularly, and I practice MCQs to assess my knowledge and identify areas for improvement.
+I, Ayush, believe that learning is an ongoing process, and that it is essential to continue learning and revising throughout my academic career. I make sure to review my [notes](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) and study materials regularly, and I practice MCQs to assess my knowledge and identify areas for improvement.
 
 ### <a id="future-studies"></a>Future Studies
 I, Ayush, look forward to my future studies, and I am excited to learn more about the Industrial Revolution and its ongoing impact on our world. I believe that understanding the Industrial Revolution is essential for understanding the modern world, and I am committed to continuing my studies and [revision](/blog/geomorphology-class-11-revision-notes-cbse) throughout my academic career.

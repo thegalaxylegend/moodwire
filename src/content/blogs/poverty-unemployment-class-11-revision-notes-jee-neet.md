@@ -1,9 +1,9 @@
 ---
 heroImage: "/blog-images/poverty-unemployment-class-11-revision-notes-jee-neet.webp"
 title: "poverty unemployment class 11 revision notes jee neet Class 10 Exam Notes Recap — Grandmaster Guide"
-description: "poverty unemployment class 11 revision notes jee neet Class 10 Exam Notes Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-16."
+description: "poverty unemployment class 11 revision notes jee neet Class 10 Exam Notes Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-17."
 category: "Exam Notes"
-date: "2026-04-16"
+date: "2026-04-17"
 practice_link: "/class-10/exam notes/poverty-unemployment-class-11-revision-notes-jee-neet"
 manualReview: false
 ---
@@ -21,207 +21,216 @@ manualReview: false
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Head Count Ratio (HCR):** HCR = rac{{	ext{Number of people living below the poverty line}}}{{	ext{Total population}}} 	imes 100 — Measures the percentage of population living below the poverty line.
- - **Poverty Gap Index (PGI):** PGI = rac{{	ext{Total poverty gap}}}{{	ext{Population}}} — Measures the depth of poverty.
- - **Gini Coefficient:** G = rac{{	ext{Area between the line of equality and the Lorenz curve}}}{{	ext{Total area below the line of equality}}} — Measures income inequality, ranging from 0 (perfect equality) to 1 (perfect inequality).
- - **Lorenz Curve:** L(p) = rac{{\int_{0}^{p} x , dx}}{{\int_{0}^{1} x , dx}} — Graphically represents the distribution of income or wealth.
- - **Unemployment Rate:** UR = rac{{	ext{Number of unemployed people}}}{{	ext{Labour force}}} 	imes 100 — Measures the percentage of the labour force that is unemployed.
- - **Labour Force Participation Rate (LFPR):** LFPR = rac{{	ext{Labour force}}}{{	ext{Total population}}} 	imes 100 — Measures the percentage of the population that is part of the labour force.
- - **Poverty Line (PL):** PL = 	ext{Minimum expenditure required to meet the basic needs} — The threshold below which an individual is considered to be living in poverty.
- - **Human Development Index (HDI):** HDI = rac{{sqrt[3]{LEI 	imes EI 	imes II}}}{{sqrt[3]{	ext{Max}(LEI) 	imes 	ext{Max}(EI) 	imes 	ext{Max}(II)}}} — $LEI$ is life expectancy index, $EI$ is education index, and $II$ is income index, measures the overall well-being of a country.
- - **Life Expectancy Index (LEI):** LEI = rac{{	ext{Actual life expectancy at birth} - 25}}{{85 - 25}} — Measures the longevity of a population.
- - **Education Index (EI):** EI = rac{{	ext{Expected years of schooling} 	imes 	ext{Mean years of schooling}}}{{2}} — Measures the access to knowledge.
- - **Income Index (II):** II = rac{{ln(	ext{GNI per capita}) - ln(100)}}{{ln(75015) - ln(100)}} — Measures the standard of living.
+- **Poverty Line (PL):** PL = rac{2400}{1000} 	imes 	ext{Price of one kg of grain} — Price of one kg of grain is used as a reference to calculate the poverty line.
+ - **Head Count Ratio (HCR):** HCR = rac{	ext{Number of persons living below the poverty line}}{	ext{Total population}} 	imes 100 — This formula calculates the percentage of the population living below the poverty line.
+ - **Poverty Gap Index (PGI):** PGI = rac{\sum (	ext{Poverty line} - 	ext{Income of each poor person})}{	ext{Total population} 	imes 	ext{Poverty line}} — This formula measures the depth of poverty by calculating the average income shortfall of the poor from the poverty line.
+ - **Gini Coefficient:** G = rac{	ext{Area between the line of equality and the Lorenz curve}}{	ext{Total area below the line of equality}} — The Gini coefficient is a measure of income inequality, ranging from 0 (perfect equality) to 1 (perfect inequality).
+ - **Lorenz Curve:** 	ext{Lorenz Curve} = rac{	ext{Cumulative percentage of population}}{	ext{Cumulative percentage of income}} — The Lorenz curve is a graphical representation of income distribution, with the line of equality representing perfect equality.
+ - **Unemployment Rate:** 	ext{Unemployment Rate} = rac{	ext{Number of unemployed persons}}{	ext{Labour force}} 	imes 100 — This formula calculates the percentage of the labour force that is currently unemployed.
+ - **Labour Force Participation Rate (LFPR):** LFPR = rac{	ext{Labour force}}{	ext{Total population}} 	imes 100 — This formula calculates the percentage of the population that is part of the labour force.
+ - **Unemployment Gap:** 	ext{Unemployment Gap} = 	ext{Full employment GDP} - 	ext{Current GDP} — This formula measures the difference between the potential GDP (if all resources were fully employed) and the current GDP.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
-- **Mistake 1:** Not understanding the difference between absolute poverty and relative poverty.
+- **Mistake 1:** Incorrectly calculating the {${Lorenz Curve}$} and {${Gini Coefficient}$} while measuring poverty.
 
-- *Costs:* 2-3 marks in a 5-mark question
+- *Costs:* 4-6 marks
  
 
-- *Fix:* Understand that absolute poverty refers to a lack of basic necessities like food, shelter, and clothing, while relative poverty refers to a lack of resources compared to others in the same economy. Use ${absolute poverty}$ and ${relative poverty}$ to denote these concepts.
-
-- **Mistake 2:** Confusing the concepts of unemployment, underemployment, and disguised unemployment.
-
-- *Costs:* 4-5 marks in a 10-mark question
+- *Fix:* Make sure to understand that the {${Lorenz Curve}$} is a graphical representation of income distribution, and the {${Gini Coefficient}$} is calculated as the ratio of the area between the {${Lorenz Curve}$} and the line of perfect equality to the total area under the line of perfect equality: {Gini Coefficient = rac{A}{A + B}}
  
 
-- *Fix:* Recognize that ${unemployment}$ refers to the state of being without a job, ${underemployment}$ refers to working less than full-time, and ${disguised unemployment}$ refers to working in a job that does not utilize one's skills. Use egin{equation} 	ext{Unemployment Rate} = rac{	ext{Number of Unemployed}}{	ext{Labor Force}} end{equation} to calculate unemployment rates.
+- **Mistake 2:** Confusing the types of unemployment, such as {${Frictional Unemployment}$}, {${Structural Unemployment}$}, and {${Cyclical Unemployment}$}.
 
-- **Mistake 3:** Not knowing the types of unemployment, such as frictional, structural, and cyclical unemployment.
-
-- *Costs:* 3-4 marks in a 10-mark question
+- *Costs:* 5-7 marks
  
 
-- *Fix:* Study the different types of unemployment, including ${frictional unemployment}$ (due to job transitions), ${structural unemployment}$ (due to changes in industry), and ${cyclical unemployment}$ (due to economic downturns). Use {	ext{Frictional Unemployment}} = rac{	ext{Number of Job Openings}}{	ext{Number of Job Seekers}} to understand the concept of frictional unemployment.
-
-- **Mistake 4:** Failing to understand the concepts of poverty line and poverty gap.
-
-- *Costs:* 2-3 marks in a 5-mark question
+- *Fix:* Review the definitions and examples of each type of unemployment, and practice distinguishing between them using formulas like the {${Unemployment Rate = rac{Unemployed : Workers}{Total : Labor : Force}}$}
  
 
-- *Fix:* Learn that the ${poverty line}$ is the minimum income required to meet basic needs, and the ${poverty gap}$ is the difference between the poverty line and the actual income of the poor. Use egin{equation} 	ext{Poverty Gap} = 	ext{Poverty Line} 
+- **Mistake 3:** Failing to understand the concept of {${Human Poverty Index (HPI)}$} and its calculation.
 
-- 	ext{Actual Income} end{equation} to calculate the poverty gap.
-
-- **Mistake 5:** Not being able to calculate the unemployment rate and poverty ratio.
-
-- *Costs:* 5-6 marks in a 10-mark question
+- *Costs:* 5-7 marks
  
 
-- *Fix:* Practice calculating the ${unemployment rate}$ using egin{equation} 	ext{Unemployment Rate} = rac{	ext{Number of Unemployed}}{	ext{Labor Force}} 	imes 100 end{equation} and the ${poverty ratio}$ using egin{equation} 	ext{Poverty Ratio} = rac{	ext{Number of Poor}}{	ext{Total Population}} 	imes 100 end{equation}
+- *Fix:* Study the components of the {${HPI}$}, including the percentage of people not expected to survive to age 40, the adult illiteracy rate, and the unweighted average of population without sustainable access to an improved water source and children under weight-for-age: {HPI = rac{P_1 + P_2 + P_3}{3}}
+ 
+
+- **Mistake 4:** Not applying the {${Poverty Line}$} concept correctly to calculate the number of people living below the poverty line.
+
+- *Costs:* 4-6 marks
+ 
+
+- *Fix:* Understand that the {${Poverty Line}$} is the minimum level of income required to meet the basic needs of a person, and practice calculating it using the formula: {Poverty : Line = rac{Monthly : Per : Capita : Expenditure}{Number : of : Family : Members}}
+ 
+
+- **Mistake 5:** Incorrectly interpreting the data given in the {${Consumer Price Index (CPI)}$} and its relation to poverty and unemployment.
+
+- *Costs:* 5-7 marks
+ 
+
+- *Fix:* Review how the {${CPI}$} is calculated and used to measure inflation, and practice analyzing its impact on poverty and unemployment using the formula: {CPI = rac{Current : Year : Price}{Base : Year : Price} 	imes 100}
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
-- **Q1:** What is the difference between absolute poverty and relative poverty?
- - **Trap:** Students often get confused between the two terms.
+- **Q1:** What is the main reason for poverty in India?
+ - **Trap:** Students often confuse the main reason for poverty with its effects or symptoms.
  - **Solution:** 
- - Absolute poverty refers to a lack of basic needs like food, water, and shelter.
- - Relative poverty is defined as a lack of resources compared to the average standard of living in a given society.
- - It can be expressed as: $Relative Poverty = rac{Number of people below poverty line}{Total population} 	imes 100$
- - **Answer:** Absolute poverty is about basic needs, while relative poverty is about the standard of living.
- - **Q2:** What are the main causes of unemployment in India?
- - **Trap:** Students may not be able to list all the causes.
- - **Solution:** 
- - The main causes of unemployment in India are:
+ - The main reason for poverty in India is a complex interplay of factors including:
  - Low economic growth
- - Lack of investment in human capital
- - Inadequate infrastructure
- - Slow industrialization
- - It can be expressed as: $Unemployment Rate = rac{Unemployed population}{Labour force} 	imes 100$
- - **Answer:** The main causes of unemployment in India are low economic growth, lack of investment in human capital, inadequate infrastructure, and slow industrialization.
- - **Q3:** What is the difference between disguised unemployment and seasonal unemployment?
- - **Trap:** Students often get confused between the two terms.
+ - Lack of education and skills
+ - Limited access to resources and opportunities
+ - Inequality and social exclusion
+ - Using the formula for the poverty line: $Poverty Line = rac{Total Monthly Expenditure}{Number of Persons}$
+ - We can analyze that the poverty line is directly affected by the total monthly expenditure and the number of persons in a family.
+ - **Answer:** Low economic growth and lack of education and skills
+ - **Q2:** What is the difference between disguised unemployment and seasonal unemployment?
+ - **Trap:** Students often get confused between the different types of unemployment.
  - **Solution:** 
- - Disguised unemployment refers to a situation where people are employed, but their work is not productive.
- - Seasonal unemployment occurs when people are unemployed during certain periods of the year due to seasonal changes.
- - It can be expressed as: $Disguised Unemployment = rac{Number of people employed unproductively}{Total workforce} 	imes 100$
- - **Answer:** Disguised unemployment is about unproductive work, while seasonal unemployment is about periodic job loss.
+ - Disguised unemployment refers to a situation where more people are engaged in a work than required.
+ - Seasonal unemployment refers to a situation where people are unemployed during certain periods of the year.
+ - Using the formula for labor force: $Labor Force = rac{Total Population}{100} 	imes (1 - rac{Dependent Population}{100})$
+ - We can analyze that the labor force is directly affected by the total population and the dependent population.
+ - **Answer:** Disguised unemployment is related to the underemployment of workers, while seasonal unemployment is related to the lack of work during certain periods.
+ - **Q3:** What are the main causes of unemployment in India?
+ - **Trap:** Students often overlook some of the key causes of unemployment in India.
+ - **Solution:** 
+ - The main causes of unemployment in India include:
+ - Lack of education and skills
+ - Limited access to resources and opportunities
+ - Inequality and social exclusion
+ - Slow economic growth
+ - Using the formula for unemployment rate: $Unemployment Rate = rac{Number of Unemployed Persons}{Labor Force} 	imes 100$
+ - We can analyze that the unemployment rate is directly affected by the number of unemployed persons and the labor force.
+ - **Answer:** Lack of education and skills, limited access to resources and opportunities, inequality and social exclusion, and slow economic growth.
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
-- **The Core Concept:** The core concept that separates 85% scorers from 95% scorers in the context of poverty and unemployment is the understanding of the $Human Development Index (HDI)$ and its relationship with $Poverty$ and $Unemployment$.
+- **The Core Concept:** The difference between absolute poverty and relative poverty is crucial in understanding the nuances of poverty and unemployment. Absolute poverty refers to a lack of basic necessities like food, water, and shelter, whereas relative poverty is measured in terms of the economic standards of a given society.
 
-- **The $HDI$ is calculated using the formula:** HDI = rac{1}{3} left( rac{LE}{85.4} + rac{MYS}{42.5} + rac{GNIpc}{11008.52} ight) where $LE$ is the life expectancy at birth, $MYS$ is the mean years of schooling, and $GNIpc$ is the Gross National Income per capita.
+- **What 85% scorers do:** Most students focus on memorizing the definitions and types of poverty without understanding the underlying concepts and their applications. They often struggle to distinguish between absolute and relative poverty, leading to confusion in solving problems and answering questions.
 
-- **What 85% scorers do:** Most students (85% scorers) focus on memorizing the formulas and definitions related to poverty and unemployment without understanding the underlying concepts and relationships. They often struggle to apply these formulas to real-world scenarios and lack the ability to analyze and interpret the data.
+- **What 95% scorers do:** High-scoring students, on the other hand, delve deeper into the subject matter. They recognize that poverty is a complex issue that cannot be measured solely by income levels. They understand that $Poverty = rac{Number of people below poverty line}{Total population} 	imes 100$ and that the poverty line is often defined as the minimum level of income required to secure the basic necessities of life. They also analyze the concepts of headcount ratio, poverty gap index, and Gini coefficient to understand the distribution of income and the extent of poverty.
 
-- **For example, they may not be able to explain how $Inflation$ affects $Unemployment$ using the $Phillips Curve$ formula:** rac{d pi}{d t} = \alpha 
+- **Key Formulas and Concepts:** To calculate the poverty gap index, the formula is $PGI = rac{1}{N} \sum_{i=1}^{q} rac{z-y_i}{z}$, where $z$ is the poverty line, $y_i$ is the income of the $i^{th}$ person, $N$ is the total population, and $q$ is the number of poor people. The Gini coefficient, which measures income inequality, is calculated using the formula $G = rac{\sum_{i=1}^{n} \sum_{j=1}^{n} |y_i 
 
-- eta u where $pi$ is the inflation rate, $u$ is the unemployment rate, and $\alpha$ and $eta$ are constants.
+- y_j|}{2n^2 ar{y}}$, where $y_i$ and $y_j$ are the incomes of the $i^{th}$ and $j^{th}$ individuals, $n$ is the total number of individuals, and $ar{y}$ is the mean income.
 
-- **What 95% scorers do:** On the other hand, 95% scorers have a deeper understanding of the concepts and are able to apply them to complex scenarios. They can analyze and interpret data, identify patterns and relationships, and think critically about the topics.
+- **Advanced Secret:** The ability to apply these concepts to real-world scenarios and analyze the implications of different poverty reduction strategies is what sets high-scoring students apart. They can calculate the poverty gap index and the Gini coefficient, and use these metrics to evaluate the effectiveness of policies aimed at reducing poverty and unemployment.
 
-- **For instance, they can explain how $Fiscal Policy$ and $Monetary Policy$ can be used to reduce $Poverty$ and $Unemployment$ using the $IS-LM$ model: IS: Y = C + I + GLM:** M/P = L(R, Y) where $Y$ is the national income, $C$ is the consumption, $I$ is the investment, $G$ is the government spending, $M$ is the money supply, $P$ is the price level, and $R$ is the interest rate.
-
-| Category | 85% Scorers | 95% Scorers |
+| Concept | Formula | Description |
 | --- | --- | --- |
-| Understanding of HDI | Memorization of formula | Deeper understanding of concept and relationship with poverty and unemployment |
-| Application of formulas | Struggle to apply formulas to real-world scenarios | Ability to analyze and interpret data, identify patterns and relationships |
-| Critical thinking | Lack of critical thinking | Ability to think critically about the topics and apply concepts to complex scenarios |
+| Poverty | $Poverty = rac{Number of people below poverty line}{Total population} 	imes 100$ | The percentage of the population living below the poverty line |
+| Poverty Gap Index | $PGI = rac{1}{N} \sum_{i=1}^{q} rac{z-y_i}{z}$ | A measure of the depth of poverty, where $z$ is the poverty line and $y_i$ is the income of the $i^{th}$ person |
+| Gini Coefficient | $G = rac{\sum_{i=1}^{n} \sum_{j=1}^{n} |y_i - y_j|}{2n^2 ar{y}}$ | A measure of income inequality, ranging from 0 (perfect equality) to 1 (perfect inequality) |
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-- **The Hidden Pattern:** In poverty and unemployment, a recurring theme across $5^{th}$, $6^{th}$, and $7^{th}$ Five-Year Plans is the emphasis on $Rural Employment Guarantee Schemes$.
+- **The Hidden Pattern:** In the context of poverty and unemployment, a pattern emerges when analyzing data over the years. It is observed that the $Gini Coefficient$ is used to measure income inequality, which is a key factor in understanding poverty.
 
-- **These schemes can be represented by the formula:** Total Employment = \sum_{i=1}^{n} (E_i 	imes D_i) where $E_i$ is the employment generated under the $i^{th}$ scheme and $D_i$ is the duration of the scheme.
+- **The formula for the Gini Coefficient is given by:** G = rac{\sum_{i=1}^{n} \sum_{j=1}^{n} |x_i 
 
-- **How to Apply It:** To tackle PYQs related to poverty and unemployment, one must apply the formula: $Poverty Reduction = rac{Increase in Rural Employment}{Total Rural Population}$, focusing on the $Swarna Jayanti Gram Swarozgar Yojana$ and $National Rural Employment Guarantee Act$. The key is to analyze the impact of these schemes on rural employment and poverty reduction.
+- x_j|}{2n^2 ar{x}} where $x_i$ is the income of the $i^{th}$ individual, $ar{x}$ is the mean income, and $n$ is the total number of individuals.
 
-- **PYQ-Specific Trend:** The trend in PYQs indicates that questions often revolve around the $Jawaharlal Nehru National Urban Renewal Mission$ and its impact on urban poverty.
+- **How to Apply It:** To apply this pattern, one needs to understand the relationship between poverty and unemployment. The $Okun's Law$ states that for every 1% increase in unemployment, there is a corresponding 2-3% increase in poverty.
 
-- **A significant number of questions also focus on the $Mahatma Gandhi National Rural Employment Guarantee Act$, with the formula:** $Employment Guarantee = rac{Total Persondays of Employment Provided}{Total Number of Households}$, being crucial in calculations.
+- **This can be represented by the formula:** $P = 2U + c$, where $P$ is the poverty rate, $U$ is the unemployment rate, and $c$ is a constant.
 
-- **Calculation Shortcut:** To calculate the percentage reduction in poverty, the formula is: $Percentage Reduction = left( rac{Initial Poverty Level 
+- **PYQ-Specific Trend:** Upon analyzing previous years' questions, it is evident that there is a trend of questions being asked about the relationship between poverty and unemployment. Specifically, questions related to the $Human Development Index (HDI)$ and the $Multidimensional Poverty Index (MPI)$ are frequently asked.
 
-- Final Poverty Level}{Initial Poverty Level} ight) 	imes 100$.
+- **The HDI is calculated using the formula:** HDI = rac{1}{3} left( rac{LE}{85} + rac{MYS}{15} + rac{GNI}{10000} ight) where $LE$ is the life expectancy at birth, $MYS$ is the mean years of schooling, and $GNI$ is the gross national income per capita.
 
-- **This formula can be represented as:** Percentage Reduction = left( rac{P_i 
+- **Solving Strategy:** To solve problems related to poverty and unemployment, it is essential to have a clear understanding of the concepts and formulas involved. One should be able to analyze data, identify trends, and apply the relevant formulas to arrive at the solution. Additionally, practicing with previous years' questions and sample papers can help in developing the necessary skills and strategies to tackle these types of problems.
 
-- P_f}{P_i} ight) 	imes 100 where $P_i$ is the initial poverty level and $P_f$ is the final poverty level.
-
-| Scheme | Year | Objective |
+| Concept | Formula | Description |
 | --- | --- | --- |
-| Jawaharlal Nehru National Urban Renewal Mission | 2005 | To improve urban infrastructure and reduce poverty |
-| Mahatma Gandhi National Rural Employment Guarantee Act | 2006 | To provide guaranteed employment to rural households |
+| Gini Coefficient | G = rac{\sum_{i=1}^{n} \sum_{j=1}^{n} |x_i - x_j|}{2n^2 ar{x}} | Measures income inequality |
+| Okun's Law | $P = 2U + c$ | Relates poverty and unemployment rates |
+| Human Development Index (HDI) | HDI = rac{1}{3} left( rac{LE}{85} + rac{MYS}{15} + rac{GNI}{10000} ight) | Measures human development |
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- {P_{0}} = {P_{1}} 	imes {(1 + r)}^{n} 
+- $Poverty Line = rac{2400}{0.2}$ calories per person per day
  
 
-- {A = P(1 + rac{r}{100})^n} 
+- $Head Count Ratio (HCR) = rac{Number of people below poverty line}{Total population} 	imes 100$
  
 
-- {Poverty : line = rac{Minimum : calorie : intake}{Price : of : calorie}} 
+- $Gini Coefficient = 1 
+
+- rac{2}{n} \sum_{i=1}^{n} (n-i) x_i$
  
 
-- {L = rac{W}{P}} 
+- $Lorenz Curve = rac{Cumulative percentage of population}{Cumulative percentage of income}$
  
 
-- {W = L 	imes P} 
+- $Unemployment Rate = rac{Number of unemployed people}{Labour force} 	imes 100$
+ 
+ Key facts:
  
 
-- Poverty line is the minimum amount of money required to purchase a basket of goods and services necessary for survival.
+- Poverty is a situation where an individual is unable to fulfill even the basic necessities of life.
 
-- Unemployment rate is defined as the percentage of the labor force that is currently unemployed.
+- Unemployment is a situation where an individual is able and willing to work but is unable to find a job.
 
-- Poverty and unemployment are closely related, as a lack of employment opportunities can lead to poverty.
+- The poverty line is the minimum level of income required to fulfill the basic necessities of life.
 
-- Not considering the difference between absolute poverty and relative poverty is a common mistake.
+- **Common mistakes:** 
 
-- Not accounting for the impact of inflation on poverty and unemployment rates is another mistake.
+- Assuming that poverty and unemployment are the same thing.
+
+- Not considering the difference between absolute poverty and relative poverty.
 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
-**1. The main cause of poverty is**
-**A)**   Lack of education
-**B)**   Unemployment
-**C)**   Illiteracy
-**D)**   Lack of infrastructure
+**1. The poverty line is the minimum level of income below which a person is unable to afford basic needs.**
+**A)**   The poverty line is a measure of wealth inequality.
+**B)**   The poverty line is a measure of absolute poverty.
+**C)**   The poverty line is a measure of relative poverty.
+**D)**   The poverty line is a measure of unemployment rate.
 
-**Answer:** C) According to the World Bank, the main cause of poverty is illiteracy.
-
----
-
-**2. Poverty is best described as a state of**
-**A)**   Lack of income
-**B)**   Limited access to education
-**C)**   Inadequate nutrition
-**D)**   All of the above
-
-**Answer:** D) Poverty encompasses a range of deprivation including lack of income, limited access to education, and inadequate nutrition.
+**Answer:** B) The poverty line is a measure of absolute poverty, which is the minimum level of income required to meet basic needs.
 
 ---
 
-**3. Which of the following is a characteristic of unemployment?**
-**A)**   A person is not able to work
-**B)**   A person is not able to find a job
-**C)**   A person is unemployed due to lack of education
-**D)**   A person is not earning his/her potential income
+**2. Unemployment can be classified into three types: frictional, structural, and cyclical.**
+**A)**   Unemployment can be classified into two types: seasonal and frictional.
+**B)**   Unemployment can be classified into four types: structural, cyclical, frictional, and seasonal.
+**C)**   Unemployment can be classified into three types: frictional, structural, and cyclical.
+**D)**   Unemployment can be classified into one type.
 
-**Answer:** D) Unemployment is characterized by a person being unable to earn his/her potential income.
-
----
-
-**4. What is the difference between absolute poverty and relative poverty?**
-**A)**   Absolute poverty refers to the lack of basic necessities, while relative poverty refers to the lack of necessities compared to the average income.
-**B)**   Absolute poverty is a measure of the lack of basic necessities, while relative poverty is a measure of the lack of necessities compared to the average income.
-**C)**   Relative poverty is a measure of the lack of basic necessities, while absolute poverty is a measure of the lack of necessities compared to the average income.
-**D)**   Absolute poverty and relative poverty are the same.
-
-**Answer:** B) Absolute poverty is a measure of the lack of basic necessities, while relative poverty is a measure of the lack of necessities compared to the average income.
+**Answer:** C) Unemployment can indeed be classified into three types: frictional, structural, and cyclical.
 
 ---
 
-**5. Which of the following is a consequence of poverty?**
-**A)**   Poor health
-**B)**   Limited access to education
-**C)**   Malnutrition
-**D)**   All of the above
+**3. The [class](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) 11 syllabus focuses on the causes and effects of poverty and unemployment.**
+**A)**   The Class 11 syllabus focuses on the causes and effects of inflation and recession.
+**B)**   The Class 11 syllabus focuses on the causes and effects of poverty and unemployment.
+**C)**   The Class 11 syllabus focuses on the causes and effects of population growth and resource depletion.
+**D)**   The Class 11 syllabus focuses on the causes and effects of climate change and natural disasters.
 
-**Answer:** D) Poverty is associated with a range of negative consequences including poor health, limited access to education, and malnutrition.
+**Answer:** B) The Class 11 syllabus indeed focuses on the causes and effects of poverty and unemployment.
+
+---
+
+**4. Poverty and unemployment are interrelated, as poverty can lead to unemployment and vice vers
+a.**
+**A)**   Poverty and unemployment are unrelated.
+**B)**   Poverty can lead to unemployment, but unemployment cannot lead to poverty.
+**C)**   Poverty cannot lead to unemployment, but unemployment can lead to poverty.
+**D)**   Poverty and unemployment are interrelated, as poverty can lead to unemployment and vice versa.
+
+**Answer:** D) Poverty and unemployment are indeed interrelated, as poverty can lead to unemployment and vice versa.
+
+---
+
+**5. The poverty ratio is a measure of the percentage of the population living below the poverty line.**
+**A)**   The poverty ratio is a measure of the percentage of the population living above the poverty line.
+**B)**   The poverty ratio is a measure of the percentage of the population living at the poverty line.
+**C)**   The poverty ratio is a measure of the percentage of the population living below the poverty line.
+**D)**   The poverty ratio is a measure of the percentage of the population living at or above the poverty line.
+
+**Answer:** C) The poverty ratio is indeed a measure of the percentage of the population living below the poverty line.
 
 ---
 

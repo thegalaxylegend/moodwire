@@ -1,9 +1,9 @@
 ---
 heroImage: "/blog-images/physics-heat-light-class-11-revision-notes-jee-neet.webp"
 title: "physics heat light class 11 revision notes jee neet Class 10 Exam Notes Recap — Grandmaster Guide"
-description: "physics heat light class 11 revision notes jee neet Class 10 Exam Notes Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-16."
+description: "physics heat light class 11 revision notes jee neet Class 10 Exam Notes Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-17."
 category: "Exam Notes"
-date: "2026-04-16"
+date: "2026-04-17"
 practice_link: "/class-10/exam notes/physics-heat-light-class-11-revision-notes-jee-neet"
 manualReview: false
 ---
@@ -21,195 +21,240 @@ manualReview: false
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Internal Energy (U):** U = {3 over 2}nRT — Internal energy of an ideal gas, where $n$ is the number of moles, $R$ is the gas constant, and $T$ is the temperature in Kelvin.,- **Heat Transfer (Q):** Q = mcDelta T — Heat transferred to or from an object, where $m$ is the mass, $c$ is the specific heat capacity, and $\Delta T$ is the change in temperature.,- **Specific Heat Capacity (c):** c = {Q over mDelta T} — Specific heat capacity of a substance, where $Q$ is the heat transferred, $m$ is the mass, and $\Delta T$ is the change in temperature.,- **Latent Heat (L):** L = {Q over m} — Latent heat of a substance, where $Q$ is the heat transferred, and $m$ is the mass.,- **Thermal Expansion (linear):** \Delta L = \alpha L_0 \Delta T — Linear expansion of a material, where $\alpha$ is the coefficient of linear expansion, $L_0$ is the initial length, and $\Delta T$ is the change in temperature.,- **Thermal Expansion (volume):** \Delta V = eta V_0 \Delta T — Volume expansion of a material, where $eta$ is the coefficient of volume expansion, $V_0$ is the initial volume, and $\Delta T$ is the change in temperature.,- **Gas Law (Ideal Gas):** PV = nRT — Ideal gas law, where $P$ is the pressure, $V$ is the volume, $n$ is the number of moles, $R$ is the gas constant, and $T$ is the temperature in Kelvin.,- **Speed of Light (c):** c = {1 over sqrt{mu_0 epsilon_0}} — Speed of light in vacuum, where $mu_0$ is the magnetic constant and $epsilon_0$ is the electric constant.,- **Wavelength and Frequency:** c = lambda 
-u — Relationship between speed of light, wavelength $lambda$, and frequency $
-u$.,- **Refraction Index (n):** n = {c over v} — Refraction index of a medium, where $c$ is the speed of light in vacuum and $v$ is the speed of light in the medium.,- **Snell's Law:** n_1 sin 	heta_1 = n_2 sin 	heta_2 — Snell's law of refraction, where $n_1$ and $n_2$ are the refraction indices, $	heta_1$ and $	heta_2$ are the angles of incidence and refraction.,- **Total Internal Reflection:** sin 	heta_c = {n_2 over n_1} — Critical angle for total internal reflection, where $n_1$ and $n_2$ are the refraction indices.,- **Mirror Formula:** {1 over v} + {1 over u} = {1 over f} — Mirror formula for spherical mirrors, where $v$ is the image distance, $u$ is the object distance, and $f$ is the focal length.,- **Lens Formula:** {1 over v} - {1 over u} = {1 over f} — Lens formula for thin lenses, where $v$ is the image distance, $u$ is the object distance, and $f$ is the focal length.
+- **Heat Transfer Formula:** Q = rac{KA(T_1 - T_2)}{d} — where $Q$ is the amount of heat transferred, $K$ is the thermal conductivity, $A$ is the cross-sectional area, $T_1$ and $T_2$ are the temperatures, and $d$ is the distance.
+ - **Specific Heat Capacity Formula:** c = rac{Q}{mDelta T} — where $c$ is the specific heat capacity, $Q$ is the amount of heat transferred, $m$ is the mass, and $\Delta T$ is the change in temperature.
+ - **Latent Heat Formula:** L = rac{Q}{m} — where $L$ is the latent heat, $Q$ is the amount of heat transferred, and $m$ is the mass.
+ - **Internal Energy Formula:** \Delta U = Q + W — where $\Delta U$ is the change in internal energy, $Q$ is the amount of heat transferred, and $W$ is the work done.
+ - **First Law of Thermodynamics Formula:** \Delta Q = \Delta U + \Delta W — where $\Delta Q$ is the change in heat, $\Delta U$ is the change in internal energy, and $\Delta W$ is the change in work.
+ - **Efficiency of a Heat Engine Formula:** eta = rac{W}{Q_1} = 1 - rac{Q_2}{Q_1} — where $eta$ is the efficiency, $W$ is the work done, $Q_1$ is the heat input, and $Q_2$ is the heat output.
+ - **Carnot Engine Efficiency Formula:** eta = 1 - rac{T_2}{T_1} — where $eta$ is the efficiency, $T_1$ is the temperature of the hot reservoir, and $T_2$ is the temperature of the cold reservoir.
+ - **Reflection Formula:** 	heta_1 = 	heta_2 — where $	heta_1$ is the angle of incidence and $	heta_2$ is the angle of reflection.
+ - **Refraction Formula:** rac{n_1}{n_2} = rac{sin 	heta_2}{sin 	heta_1} — where $n_1$ and $n_2$ are the refractive indices, and $	heta_1$ and $	heta_2$ are the angles of incidence and refraction.
+ - **Snell's Law Formula:** n_1 sin 	heta_1 = n_2 sin 	heta_2 — where $n_1$ and $n_2$ are the refractive indices, and $	heta_1$ and $	heta_2$ are the angles of incidence and refraction.
+ - **Total Internal Reflection Formula:** 	heta_c = sin^{-1} left( rac{n_2}{n_1} ight) — where $	heta_c$ is the critical angle, $n_1$ is the refractive index of the denser medium, and $n_2$ is the refractive index of the rarer medium.
+ - **Lens Maker's Formula:** rac{1}{f} = (n-1) left( rac{1}{R_1} - rac{1}{R_2} ight) — where $f$ is the focal length, $n$ is the refractive index, and $R_1$ and $R_2$ are the radii of curvature.
+ - **Mirror Formula:** rac{1}{f} = rac{1}{v} + rac{1}{u} — where $f$ is the focal length, $v$ is the image distance, and $u$ is the object distance.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
-- **Mistake 1:** Incorrectly applying the formula for heat transfer due to conduction, given by $Q = rac{kA{(	heta_1 
+- **Mistake 1:** Incorrectly applying the formula for heat transfer due to conduction, given by $Q = rac{k A (T_1 
 
-- 	heta_2)}}{d}$, where $Q$ is the amount of heat transferred, $k$ is the thermal conductivity, $A$ is the cross-sectional area, $	heta_1$ and $	heta_2$ are the temperatures at the ends, and $d$ is the length of the conductor.
+- T_2)}{d}$, where $Q$ is the amount of heat transferred, $k$ is the thermal conductivity of the material, $A$ is the cross-sectional area, $T_1$ and $T_2$ are the temperatures at the ends, and $d$ is the length of the material.
 
-- *Costs:* 4-6 marks
- 
+- *Costs:* 4-6 marks for every problem where this formula is misapplied.
 
-- *Fix:* Ensure that the formula is applied correctly by identifying the given values and plugging them into the formula.
+- *Fix:* Ensure that all variables are correctly plugged into the formula, and the units are consistent.
 
-- **Mistake 2:** Forgetting to consider the specific heat capacity of a substance when calculating the heat energy transferred, given by $Q = mc{\Delta	heta}$, where $m$ is the mass, $c$ is the specific heat capacity, and ${\Delta	heta}$ is the change in temperature.
+- **Mistake 2:** Forgetting to consider the signs of the temperatures when applying the formula for heat transfer due to radiation, given by $Q = sigma epsilon A (T^4 
 
-- *Costs:* 3-5 marks
- 
+- T_0^4)$, where $sigma$ is the Stefan-Boltzmann constant, $epsilon$ is the emissivity, $A$ is the surface area, $T$ is the temperature of the object, and $T_0$ is the temperature of the surroundings.
 
-- *Fix:* Always check if the specific heat capacity is given or if it needs to be looked up, and apply the formula correctly.
+- *Costs:* 3-5 marks for every problem where the sign of the temperature difference is incorrectly considered.
 
-- **Mistake 3:** Incorrectly using the formula for the efficiency of a heat engine, given by $eta = {1 
+- *Fix:* Always ensure that the temperature difference is correctly calculated, taking into account the signs of the temperatures.
 
-- rac{T_c}{T_h}}$, where $eta$ is the efficiency, $T_c$ is the temperature of the cold reservoir, and $T_h$ is the temperature of the hot reservoir.
+- **Mistake 3:** Incorrectly applying the formula for the focal length of a mirror, given by $rac{1}{f} = rac{1}{v} + rac{1}{u}$, where $f$ is the focal length, $v$ is the image distance, and $u$ is the object distance.
 
-- *Costs:* 5-7 marks
- 
+- *Costs:* 4-6 marks for every problem where this formula is misapplied.
 
-- *Fix:* Ensure that the temperatures are in Kelvin and that the formula is applied correctly.
+- *Fix:* Ensure that the signs of the distances are correctly considered, using the sign convention for mirrors.
 
-- **Mistake 4:** Not considering the concept of emissivity when dealing with radiation, given by $E = sigma { epsilon AT^4 }$, where $E$ is the energy radiated, $sigma$ is the Stefan-Boltzmann constant, $epsilon$ is the emissivity, $A$ is the surface area, and $T$ is the temperature.
+- **Mistake 4:** Forgetting to consider the type of lens (converging or diverging) when applying the formula for the focal length of a lens, given by $rac{1}{f} = (mu 
 
-- *Costs:* 4-6 marks
- 
+- 1) left( rac{1}{R_1} 
 
-- *Fix:* Always consider the emissivity of the surface and how it affects the radiation.
+- rac{1}{R_2} ight)$, where $f$ is the focal length, $mu$ is the refractive index, and $R_1$ and $R_2$ are the radii of curvature of the lens.
 
-- **Mistake 5:** Forgetting to apply the concept of internal reflection when dealing with total internal reflection, given by $sin 	heta_c = rac{n_2}{n_1}$, where $	heta_c$ is the critical angle, $n_1$ is the refractive index of the denser medium, and $n_2$ is the refractive index of the rarer medium.
+- *Costs:* 3-5 marks for every problem where the type of lens is not correctly considered.
 
-- *Costs:* 4-6 marks
- 
+- *Fix:* Always ensure that the type of lens is correctly identified, and the formula is applied accordingly.
 
-- *Fix:* Ensure that the concept of internal reflection is considered and the formula is applied correctly.
+- **Mistake 5:** Incorrectly applying the formula for the refractive index of a medium, given by $mu = rac{c}{v}$, where $mu$ is the refractive index, $c$ is the speed of light in vacuum, and $v$ is the speed of light in the medium.
+
+- *Costs:* 4-6 marks for every problem where this formula is misapplied.
+
+- *Fix:* Ensure that the speeds are correctly plugged into the formula, and the units are consistent.
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
-- **Q1:** A block of mass $m$ is placed on a horizontal surface. The coefficient of kinetic friction between the block and the surface is $mu_k$. If a force $F$ is applied on the block, then the acceleration of the block is given by $a = rac{F}{m} - mu_k g$. What is the value of $a$ when $F = 10,N$, $m = 5,kg$, $mu_k = 0.2$ and $g = 10,m/s^2$?
- - **Trap:** Students often forget to consider the force of friction while calculating the acceleration of the block.
- - **Solution:** 
- - We know that $a = rac{F}{m} - mu_k g$
- - Substituting the given values, we get:
- $a = rac{10}{5} - 0.2 	imes 10a = 2 - 2a = 0,m/s^2$
- - **Answer:** $0,m/s^2$
- - **Q2:** The temperature of a gas is increased from $27^{circ}C$ to $87^{circ}C$. What is the ratio of the root mean square speeds of the gas molecules at the two temperatures?
- - **Trap:** Students often confuse the root mean square speed with the average speed of the gas molecules.
- - **Solution:** 
- - We know that the root mean square speed of gas molecules is given by $v_{rms} = sqrt{rac{3RT}{M}}$
- - The ratio of the root mean square speeds at the two temperatures is given by:
- $rac{v_{rms_2}}{v_{rms_1}} = sqrt{rac{T_2}{T_1}}rac{v_{rms_2}}{v_{rms_1}} = sqrt{rac{87 + 273}{27 + 273}}rac{v_{rms_2}}{v_{rms_1}} = sqrt{rac{360}{300}}rac{v_{rms_2}}{v_{rms_1}} = sqrt{rac{6}{5}}$
- - **Answer:** $sqrt{rac{6}{5}}$
- - **Q3:** A ray of light passes from a medium of refractive index $mu_1$ to a medium of refractive index $mu_2$. If the angle of incidence is $i$ and the angle of refraction is $r$, then the relation between the angles is given by $rac{mu_2}{mu_1} = rac{sin i}{sin r}$. What is the value of $mu_2$ when $mu_1 = 1.5$, $i = 30^{circ}$ and $r = 45^{circ}$?
- - **Trap:** Students often confuse the angles of incidence and refraction.
- - **Solution:** 
- - We know that $rac{mu_2}{mu_1} = rac{sin i}{sin r}$
- - Substituting the given values, we get:
- $rac{mu_2}{1.5} = rac{sin 30^{circ}}{sin 45^{circ}}rac{mu_2}{1.5} = rac{0.5}{rac{1}{sqrt{2}}}rac{mu_2}{1.5} = rac{0.5 	imes sqrt{2}}{1}mu_2 = rac{0.5 	imes sqrt{2} 	imes 1.5}{1}mu_2 = rac{0.5 	imes 1.414 	imes 1.5}{1}mu_2 = 1.0605$
- - **Answer:** $1.0605$
+- **Q1:** A black body is at a temperature of $5000$ K. The energy of radiation emitted by the body at this temperature per unit area per unit time in the wavelength range $900 	ext{nm}$ to $1000 	ext{nm}$ can be calculated using Planck's radiation law. The energy density $u(lambda, T)$ is given by $u(lambda, T) = rac{8 pi h c}{lambda^5} cdot rac{1}{e^{rac{h c}{lambda k_B T}} - 1}$.
+ - **Trap:** Students often confuse the energy density $u(lambda, T)$ with the total energy radiated per unit area per unit time, which requires integrating $u(lambda, T)$ over all wavelengths.
+ - **Solution:**
+ - First, identify the limits of integration: $lambda_1 = 900 	ext{nm}$ and $lambda_2 = 1000 	ext{nm}$.
+ - Convert these wavelengths to meters: $lambda_1 = 900 	imes 10^{-9} 	ext{m}$ and $lambda_2 = 1000 	imes 10^{-9} 	ext{m}$.
+ - The energy $E$ radiated per unit area per unit time in the given wavelength range is given by the integral of $u(lambda, T)$ over the range $[lambda_1, lambda_2]$:
+ E = \int_{lambda_1}^{lambda_2} u(lambda, T) dlambda = \int_{lambda_1}^{lambda_2} rac{8 pi h c}{lambda^5} cdot rac{1}{e^{rac{h c}{lambda k_B T}} - 1} dlambda
+ - Using the given constants: $h = 6.626 	imes 10^{-34} 	ext{J s}$, $c = 3 	imes 10^8 	ext{m/s}$, $k_B = 1.38 	imes 10^{-23} 	ext{J/K}$, and $T = 5000 	ext{K}$, we calculate the integral.
+ - **Answer:** The exact calculation of this integral requires numerical methods or approximation, but the question aims to test understanding of Planck's law and its application to black body radiation.
+ 
+ - **Q2:** A metal rod of length $1 	ext{m}$ and area of cross-section $10^{-4} 	ext{m}^2$ is heated at one end to $100^circ$C and the other end is kept at $0^circ$C. If the coefficient of thermal conductivity of the metal is $100 	ext{W/m K}$, what is the heat current flowing through the rod?
+ - **Trap:** Students may forget to apply the correct formula for heat current or misunderstand the concept of thermal resistance.
+ - **Solution:**
+ - The formula for heat current $I_H$ due to conduction is given by $I_H = rac{k A \Delta T}{L}$, where $k$ is the thermal conductivity, $A$ is the area of cross-section, $\Delta T$ is the temperature difference, and $L$ is the length of the rod.
+ - Given $k = 100 	ext{W/m K}$, $A = 10^{-4} 	ext{m}^2$, $\Delta T = 100 	ext{K}$, and $L = 1 	ext{m}$, we substitute these values into the formula:
+ I_H = rac{100 	ext{W/m K} 	imes 10^{-4} 	ext{m}^2 	imes 100 	ext{K}}{1 	ext{m}}
+ - Simplifying gives $I_H = 1 	ext{W}$.
+ - **Answer:** $1 	ext{W}$.
+ 
+ - **Q3:** The solar constant is $1.4 	ext{kW/m}^2$. Assuming the Earth to be a perfect black body, calculate the temperature of the Earth. Given that the Earth's surface area $A = 4 pi R^2$, where $R$ is the radius of the Earth ($R = 6.4 	imes 10^6 	ext{m}$), and the energy received from the Sun is $sigma T^4 	imes 4 pi R^2$, where $sigma$ is the Stefan-Boltzmann constant ($sigma = 5.67 	imes 10^{-8} 	ext{W/m}^2 	ext{K}^4$).
+ - **Trap:** Students might confuse the solar constant with the energy flux received by the Earth or misunderstand the application of the Stefan-Boltzmann law.
+ - **Solution:**
+ - The energy received by the Earth per unit time is equal to the energy radiated by the Earth per unit time. Thus, $	ext{Energy received} = 	ext{Energy radiated}$.
+ - The energy received from the Sun per unit area per unit time (solar constant) $S = 1.4 	ext{kW/m}^2$. The total energy received by the Earth is $S 	imes pi R^2$ (since the Sun's radiation falls on the projected area of the Earth, which is $pi R^2$).
+ - Setting this equal to the energy radiated by the Earth, $sigma T^4 	imes 4 pi R^2 = S 	imes pi R^2$.
+ - Solving for $T$ gives:
+ T = left(rac{S}{4sigma}ight)^{rac{1}{4}}
+ - Substituting $S = 1.4 	imes 10^3 	ext{W/m}^2$ and $sigma = 5.67 	imes 10^{-8} 	ext{W/m}^2 	ext{K}^4$ into the equation:
+ T = left(rac{1.4 	imes 10^3}{4 	imes 5.67 	imes 10^{-8}}ight)^{rac{1}{4}}
+ - **Answer:** Performing the calculation yields $T \approx 278.35 	ext{K}$ or approximately $5.2^circ$C.
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
-- **The Core Concept:** Understanding the concept of internal energy (U) and its relation to heat (Q) and work (W) is crucial in thermodynamics. The first law of thermodynamics states that $\Delta U = Q 
+- **The Core Concept:** The concept of specific heat capacity and its application in solving problems related to heat transfer.
 
-- W$. However, students often get confused about how to apply this formula in different situations.
+- **What 85% scorers do:** 
+ * They can solve basic problems involving specific heat capacity using the formula: $Q = mcDelta T$, where $Q$ is the heat energy, $m$ is the mass, $c$ is the specific heat capacity, and $\Delta T$ is the change in temperature.
+ * They often struggle with more complex problems involving multiple materials, phase changes, or non-uniform heating.
 
-- **What 85% scorers do:** Most students can solve problems that involve simple applications of the first law of thermodynamics, such as finding the change in internal energy when a certain amount of heat is added to a system and a certain amount of work is done. However, they struggle when it comes to more complex problems that involve multiple steps and the use of other thermodynamic concepts, such as specific heat capacity and the equation of state.
+- **What 95% scorers do:** 
+ * They have a deep understanding of the concept of specific heat capacity and can apply it to solve complex problems, such as:
+ + Calculating the final temperature of a mixture of two substances with different specific heat capacities.
+ + Determining the amount of heat energy required to change the state of a substance (e.g.
 
-- **What 95% scorers do:** Top scorers, on the other hand, have a deeper understanding of the concept of internal energy and its relation to other thermodynamic properties. They can apply the first law of thermodynamics in a variety of situations, including those that involve multiple steps and the use of other thermodynamic concepts. For example, they can use the equation $\Delta U = nC_v\Delta T$ to find the change in internal energy of an ideal gas, where $n$ is the number of moles, $C_v$ is the specific heat capacity at constant volume, and $\Delta T$ is the change in temperature.
+- from solid to liquid).
+ + Analyzing the effect of specific heat capacity on the efficiency of a heat engine or refrigerator.
+ * They can also derive the formula for specific heat capacity from the definition of heat energy and the concept of temperature: Q = \int m cdot c cdot dT
+ * They are able to identify and apply the correct specific heat capacity values for different substances, taking into account the units and conditions (e.g.
 
-- **Key Formulas:** Some key formulas that 95% scorers use to solve thermodynamics problems include:, * $\Delta U = Q 
+- constant volume or constant pressure).
+ * They can also solve problems involving the relation between specific heat capacity and other thermodynamic properties, such as internal energy and enthalpy: \Delta U = m cdot c_v cdot \Delta T and \Delta H = m cdot c_p cdot \Delta T
+ 
 
-- W$, * $\Delta U = nC_v\Delta T$, * $Q = nC_p\Delta T$ for an ideal gas at constant pressure, * $W = P\Delta V$ for an ideal gas at constant pressure
-
-- **Practice Problems:** To become a top scorer, it's essential to practice a wide range of thermodynamics problems, including those that involve multiple steps and the use of other thermodynamic concepts.
-
-- **Some examples of practice problems include:** , * Finding the change in internal energy of an ideal gas when it is heated at constant volume, * Finding the work done by an ideal gas when it expands at constant pressure, * Finding the heat transferred to an ideal gas when it is compressed at constant volume
+- **Key Formulas:** 
+ * $Q = mcDelta T$
+ * $c = rac{Q}{mDelta T}$
+ * $\Delta U = m cdot c_v cdot \Delta T$
+ * $\Delta H = m cdot c_p cdot \Delta T$
 
 | Concept | Formula | Description |
 | --- | --- | --- |
-| Internal Energy | $\Delta U = Q - W$ | The change in internal energy of a system is equal to the heat added to the system minus the work done by the system |
-| Specific Heat Capacity | $C_v = \frac{\Delta Q}{n\Delta T}$ | The specific heat capacity of a substance is the amount of heat required to raise the temperature of one mole of the substance by one degree Celsius |
-| Ideal Gas Law | $PV = nRT$ | The ideal gas law describes the relationship between the pressure, volume, and temperature of an ideal gas |
+| Specific Heat Capacity | $c = rac{Q}{mDelta T}$ | The amount of heat energy required to change the temperature of a substance by 1 degree Celsius |
+| Heat Energy | $Q = mcDelta T$ | The amount of heat energy transferred to or from a substance |
+| Internal Energy | $\Delta U = m cdot c_v cdot \Delta T$ | The change in internal energy of a substance |
+| Enthalpy | $\Delta H = m cdot c_p cdot \Delta T$ | The change in enthalpy of a substance |
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-- **The Hidden Pattern:** In physics, particularly in the topics of heat and light for class 11, a common pattern observed in PYQs (Previous Year Questions) is the application of the formula $Q = mcDelta T$ for heat transfer, where $Q$ is the amount of heat transferred, $m$ is the mass of the object, $c$ is the specific heat capacity, and $\Delta T$ is the change in temperature. Additionally, the formula $E = hc/lambda$ is frequently used for problems related to the photoelectric effect, where $E$ is the energy of the photon, $h$ is Planck's constant, $c$ is the speed of light, and $lambda$ is the wavelength of the light.
+- **The Hidden Pattern:** The temperature dependence of the resistivity of a metal can be described by the equation $ho = ho_0 [1 + \alpha (T 
 
-- **How to Apply It:** To apply these formulas effectively, it's crucial to understand the context of the problem. For instance, when dealing with heat transfer, identifying whether the process is isothermal, adiabatic, or isobaric can significantly affect the approach. Similarly, for problems involving light, recognizing whether the question pertains to the wave nature or particle nature of light (as in the case of the photoelectric effect) dictates which formulas and principles to apply. The key is to carefully read the question and identify the relevant physical principles and formulas, such as $p = h/lambda$ for the momentum of a photon, where $p$ is the momentum and $lambda$ is the wavelength.
+- T_0)]$, where $ho_0$ is the resistivity at the reference temperature $T_0$, and $\alpha$ is the temperature coefficient of resistivity. This pattern is not explicitly mentioned in standard textbooks but is a crucial concept in understanding the behavior of metals.
 
-- **PYQ-Specific Trend:** A trend observed in PYQs for JEE and NEET exams is the increasing emphasis on the application of fundamental principles to solve complex problems, rather than merely recalling formulas. For example, questions might ask for the derivation of a formula under specific conditions or the application of a principle to a novel situation. This requires a deep understanding of the subject matter and the ability to think critically and analytically. Furthermore, the use of diagrams and graphs to represent physical phenomena, such as the $T$-$S$ diagram for thermodynamic processes, is also a common trend, where $T$ represents temperature and $S$ represents entropy.
+- **How to Apply It:** To apply this pattern, students should first identify the given parameters in the problem, such as the initial and final temperatures, and the resistivity at the reference temperature. Then, they can use the equation to calculate the final resistivity, using the formula $ho = ho_0 [1 + \alpha (T 
 
-- **Critical Thinking:** Developing the skill to think critically and approach problems from different angles is vital. This includes being able to analyze data, identify patterns, and make connections between different concepts within [physics](/blog/physics-mechanics-class-11-revision-notes-jee-neet). For instance, understanding the relationship between the laws of thermodynamics and kinetic theory, or how the principles of wave optics apply to fiber optics and telecommunications. By cultivating this skill, students can tackle a wide range of problems, from the straightforward application of formulas to more complex, open-ended questions that require a synthesis of knowledge and critical thinking.
+- T_0)]$. It is essential to note that the temperature coefficient of resistivity $\alpha$ is typically given in the problem statement.
 
-| Topic | Formula | Description |
+- **PYQ-Specific Trend:** The trend observed in previous year questions (PYQs) is that the temperature dependence of resistivity is often tested in combination with other concepts, such as the Seebeck effect or the Peltier effect. Students should be prepared to apply the equation $ho = ho_0 [1 + \alpha (T 
+
+- T_0)]$ in conjunction with other formulas, such as the Seebeck coefficient equation $E = \alpha (T_1 
+
+- T_2)$, to solve complex problems.
+
+- **Calculation Tip:** When calculating the final resistivity using the equation $ho = ho_0 [1 + \alpha (T 
+
+- T_0)]$, students should ensure that they use the correct units for the temperature coefficient of resistivity $\alpha$, which is typically given in $K^{-1}$. Additionally, they should be careful when substituting values into the equation, as small errors can lead to significant differences in the final answer.
+
+| Concept | Formula | Unit |
 | --- | --- | --- |
-| Heat Transfer | $Q = mcDelta T$ | Formula for heat transfer due to temperature difference |
-| Photoelectric Effect | $E = hc/lambda$ | Formula for the energy of a photon |
-| Photon Momentum | $p = h/lambda$ | Formula for the momentum of a photon |
+| Resistivity | $ho = ho_0 [1 + \alpha (T - T_0)]$ | $Omega m$ |
+| Seebeck Coefficient | $E = \alpha (T_1 - T_2)$ | $V K^{-1}$ |
+| Temperature Coefficient of Resistivity | $\alpha$ | $K^{-1}$ |
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- $E = mc^2$ is a fundamental concept in physics that relates energy and mass.
-
-- $Q = mcDelta T$ is the formula for heat transfer due to temperature change.
-
-- $Q = rac{m}{t}$ is the formula for heat transfer rate.
-
-- $E = h
-u$ represents the energy of a photon, where $h$ is Planck's constant and $
-u$ is the frequency.
-
-- $lambda = rac{hc}{E}$ is the formula for the wavelength of a photon.
-
-- Key facts:
+- $E = mc^2$ is not in CBSE Class 11 syllabus, instead remember: $Q = mcDelta T$
  
 
-- Light is a form of electromagnetic radiation.
-
-- The speed of light in a vacuum is $3 	imes 10^8$ m/s.
-
-- Heat transfer occurs through conduction, convection, and radiation.
-
-- Common mistakes:
+- $Q = rac{m}{t}$ is not the heat formula, the correct one is: $Q = mL$
  
 
-- Forgetting to convert between Celsius and Kelvin when using the ideal gas law.
+- ${\Delta}U = Q 
 
-- Not accounting for the sign convention when calculating work done and heat transfer in a thermodynamic process.
+- W$ is for thermodynamics, but for specific heat: $c = rac{Q}{m{\Delta}T}$
+ 
+
+- ${\Delta}T = rac{Q}{mc}$ is the formula to find change in temperature
+ 
+
+- $W = P{\Delta}V$ is for work done in thermodynamics
+
+ Key facts:
+ 
+
+- Heat transfer occurs from higher to lower temperature
+ 
+
+- Specific heat capacity of water is $4.186,J/g^circ C$
+ 
+
+- $Q_{	ext{absorbed}} = mc{\Delta}T$ is the formula to find heat absorbed
+
+ Common mistakes:
+ 
+
+- Forgetting to use the correct units for specific heat ($J/g^circ C$ or $J/kg^circ C$)
+ 
+
+- Not accounting for the sign of $Q$ and $W$ in thermodynamic processes
 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
-**1. A body of mass 5 kg is moving with a velocity of 20 m/s. It is subjected to a force of 100 N. What is its acceleration?**
-**A)**   10 m/s^2
-**B)**   20 m/s^2
-**C)**   5 m/s^2
-**D)**   60 m/s^2
+**1. The temperature at which the kinetic energy of the molecules of a substance is maximum is known as:**
+**A)**   Absolute Zero
+**B)**   Critical Temperature
+**C)**   Boiling Point
+**D)**   Melting Point
 
-**Answer:** D) Using F=ma, we get a = F/m = 100/5 = 20 m/s^2.
-
----
-
-**2. A ray of light passes from one medium to another. The angle of incidence is 30° and the angle of refraction is 20°. What is the refractive index of the second medium?**
-**A)**   5
-**B)**   7
-**C)**   6
-**D)**   8
-
-**Answer:** A) Using Snell's law, we get n2 = sin(30°)/sin(20°) = 0.5/0.342 = 1.46. However, the answer is rounded to 0.5 in the options.
+**Answer:** D) At the melting point, the kinetic energy of the molecules is maximum.
 
 ---
 
-**3. A heat engine operates between 1000 K and 200 K. What is its efficiency?**
-**A)**   25
-**B)**   3
-**C)**   35
-**D)**   4
+**2. According to the Rayleigh's Law of scattering, the intensity of scattered radiation is inversely proportional to:**
+**A)**   Square of the Wavelength
+**B)**   Square of the Frequency
+**C)**   Square of the Distance of the Point
+**D)**   Square of the Angle of Scattering
 
-**Answer:** A) Using the Carnot efficiency formula, we get η = 1 - (200/1000) = 0.8, but the answer is rounded to 0.25 in the options.
-
----
-
-**4. A light source is placed at a distance of 1 m from a convex lens of focal length 50 cm. What is the image distance?**
-**A)**   20 cm
-**B)**   50 cm
-**C)**   100 cm
-**D)**   120 cm
-
-**Answer:** C) Using the lens formula, we get 1/f = 1/do + 1/di, 1/0.5 = 1/1 + 1/di, 2 = 1 + 1/di, 1/di = 1, di = 100 cm
+**Answer:** C) The intensity of scattered radiation is inversely proportional to the square of the distance of the point.
 
 ---
 
-**5. A body is heated from 20°C to 80°
-C. What is the change in its temperature?**
-**A)**   10°C
-**B)**   20°C
-**C)**   40°C
-**D)**   60°C
+**3. The refractive index of a prism is given by:**
+**A)**   n = 1
+**B)**   n = 1 + (sin i) / (sin r)
+**C)**   n = 1 / (sin i)
+**D)**   n = 1 / (sin r)
 
-**Answer:** C) ΔT = T2 - T1 = 80 - 20 = 60°C
+**Answer:** B) The refractive index of a prism is given by n = 1 + (sin i) / (sin r).
+
+---
+
+**4. According to the Stefan-Boltzmann Law, the energy radiated per unit surface area of a black body per unit time is given by:**
+**A)**   E = σT^4
+**B)**   E = σT^3
+**C)**   E = σT^2
+**D)**   E = σT
+
+**Answer:** A) The energy radiated per unit surface area of a black body per unit time is given by E = σT^4.
+
+---
+
+**5. The intensity of light from a point source is inversely proportional to:**
+**A)**   Square of the Distance
+**B)**   Cube of the Distance
+**C)**   Square Root of the Distance
+**D)**   Distance
+
+**Answer:** A) The intensity of light from a point source is inversely proportional to the square of the distance.
 
 ---
 

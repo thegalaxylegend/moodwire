@@ -147,7 +147,7 @@ What is the key Shortcut or Trick for [algorithms](/blog/algorithms-analysis-cla
    
    Another crucial aspect is understanding the different design techniques such as Divide and Conquer, Dynamic Programming, and Greedy [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards). Divide and Conquer [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) work by breaking down the problem into smaller sub-problems, solving each sub-problem, and then combining the solutions. Dynamic Programming is used for problems that have overlapping sub-problems, where the solution to a larger problem can be constructed from the solutions of its sub-problems. Greedy [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) make the locally optimal choice at each step with the hope that these local choices will lead to a globally optimal solution.
    
-   For a more detailed analysis, consider the following table that outlines some common algorithms, their applications, and complexities:
+   For a more detailed analysis, consider the following table that outlines some common [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards), their applications, and complexities:
    
 
 
@@ -176,7 +176,7 @@ Algorithm Design Techniques is a systematic approach to solving computational pr
 
 ## <a id="how-do-you-implement-recursive-algorithms"></a>How do you implement Recursive Algorithms?
 
-Recursive Algorithms is a programming technique where a function calls itself in its own definition. It includes the base case, recursive case, and the call stack. For Class 11 exam prep in 2026, the most important aspect is understanding how to break down complex problems into smaller instances of the same problem, which is a crucial skill for solving recursive algorithm problems. 
+Recursive Algorithms is a programming technique where a function calls itself in its own definition. It includes the base case, recursive case, and the call stack. For [class](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) 11 exam prep in 2026, the most important aspect is understanding how to break down complex problems into smaller instances of the same problem, which is a crucial skill for solving recursive algorithm problems. 
    
    To implement recursive algorithms, one must first identify the base case, which is the smallest possible input that can be solved directly. Then, the recursive case must be defined, which is the rule that breaks down the problem into smaller instances of the same problem. The call stack is also essential in recursive algorithms, as it keeps track of the function calls and returns. 
    

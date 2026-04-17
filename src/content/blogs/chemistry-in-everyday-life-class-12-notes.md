@@ -134,7 +134,7 @@ Continue your [revision](/blog/chemical-bonding-class-11-revision-notes-jee-neet
 * **Forgetting the role of emulsification in drug action**: Emulsification in the absorption of drugs, especially those that are lipid-soluble. Forgetting this concept can lead to incorrect answers about the action of certain drugs.
 * **Confusing antacids and antihistamines**: Some students may get confused between the functions of antacids, which are used to neutralize stomach acid, and antihistamines, which are used to counter allergic reactions.
 * **Not understanding the difference between disinfectants and antiseptics**: Disinfectants are used to kill microorganisms on inanimate surfaces, while antiseptics are applied to living tissues to reduce the growth of microorganisms. Failing to recognize this distinction can lead to incorrect answers.
-* **Failing to recognize the importance of chemical equilibrium in drug efficacy**: The efficacy of some drugs depends on their ability to maintain a certain level of concentration in the bloodstream, which is influenced by chemical equilibrium. Not considering this factor can result in incorrect assessments of drug effectiveness.
+* **Failing to recognize the importance of [chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) equilibrium in drug efficacy**: The efficacy of some drugs depends on their ability to maintain a certain level of concentration in the bloodstream, which is influenced by [chemical](/blog/chemical-bonding-class-11-revision-notes-jee-neet) equilibrium. Not considering this factor can result in incorrect assessments of drug effectiveness.
 
 ## 🔁 Last 5 Minutes Box
 

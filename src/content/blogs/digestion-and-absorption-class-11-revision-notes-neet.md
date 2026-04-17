@@ -92,7 +92,7 @@ The absorption of nutrients can be represented by the following equation:
 \text{Nutrient}_$\text{intestinal lumen} \xrightarrow$\text{Transport Proteins} \text{Nutrient}_$\text{bloodstream$}
 
 
-## <a id="Ayush-note-key-points-for-jeeneet"></a>Ayush's Note: Key Points for JEE/MEET
+## <a id="Ayush-note-key-points-for-keenest"></a>Ayush's Note: Key Points for JEE/MEET
 
 For JEE/[meet](/blog/environmental-chemistry-class-11-revision-notes-neet) aspirants, it's crucial to remember the following key points related to digestion and absorption:
 - The digestive system includes the mouth, esophagus, stomach, small intestine, and large intestine.

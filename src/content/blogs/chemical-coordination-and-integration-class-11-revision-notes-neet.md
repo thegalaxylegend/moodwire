@@ -66,7 +66,7 @@ Hormones can be classified into several types, including:
 Understanding the core [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) of chemical coordination and integration is essential for JEE/MEET aspirants. Some key [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) to focus on include:
 
 * **Feedback mechanisms**: The endocrine system uses feedback mechanisms to regulate hormone secretion. There are two types of feedback mechanisms: negative feedback and positive feedback.
-* **Hormone regulation**: Hormones are regulated by various factors, including feedback mechanisms, hormonal interactions, and environmental factors.
+* **Hormone regulation**: Hormones are regulated by various factors, including feedback mechanisms, hormonal interactions, and [environmental](/blog/environmental-chemistry-class-11-revision-notes-neet) factors.
 * **Endocrine disorders**: Disorders of the endocrine system can have significant effects on bodily functions. Common endocrine disorders include diabetes, hypothyroidism, and hyperthyroidism.
 
 ## <a id="formulae"></a>Formulae

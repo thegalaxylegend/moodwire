@@ -324,8 +324,8 @@ Key concepts, formulas, and derivations are essential in 3D [geometry](/blog/coo
 * **Lighting**: Simulation of light interaction with 3D objects, using **Lambert's Law**: $I = \frac{I_0}{r^2} \cdot (\vec{n} \cdot \vec{l})$.
 
 ## <a id="applications-in-engineering-and-architecture"></a>**Applications in Engineering and Architecture**
-* **Computer-Aided Design (CAD)**: Software for creating and modifying 3D models, using **NURBS** (Non-uniform rational B-spline) curves and surfaces.
-* **Building Information Modeling (BIM)**: Digital representation of buildings, including **geometry**, **topology**, and **attributes**.
+* **[computer](/blog/computer-networks-class-12-notes)-Aided Design (CAD)**: Software for creating and modifying 3D models, using **NURBS** (Non-uniform rational B-spline) curves and surfaces.
+* **Building Information Modeling (BIM)**: Digital representation of buildings, including **[geometry](/blog/coordinate-geometry-class-10-notes)**, **topology**, and **attributes**.
 * **Structural [analysis](/blog/algorithms-analysis-class-11-revision-notes-gate-boards)**: Simulation of stress and strain on 3D structures, using **Finite Element Method (FEM)**: \mathbf{K} \cdot \mathbf{u} = \mathbf{F}.
 
 ## <a id="realworld-applications"></a>**Real-World Applications**
@@ -547,7 +547,7 @@ correct calculations of distances and midpoints.
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) with these related guides:
 
 - 📖 [Trigonometric Functions Class 11 (Mathematics) Comprehensive Notes — JEE & Boards 2026 Encyclopedia](/blog/trigonometric-functions-class-11-revision-notes-jee-neet)
 - 📖 [Algorithms: Analysis Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-analysis-class-11-revision-notes-gate-boards)

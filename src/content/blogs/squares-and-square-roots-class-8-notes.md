@@ -45,7 +45,7 @@ eq 0$,- **Simplifying Square Roots Formula:** sqrt{ab} = sqrt{a} 	imes sqrt{b} ‚
 
 - **Ayush's Critical Pattern (Squares and Square [roots](/blog/cubes-and-cube-roots-class-8-notes)):** Analysis of the last 15 years of PYQs and official exam blueprints reveals that Squares and Square [roots](/blog/cubes-and-cube-roots-class-8-notes) is a "High-Value, High-Risk" area. Examiners often shift the focus from direct definitions to multi-step application problems.
 
-- **The "Trap" Recognition:** In Squares and Square Roots, the most common mistake (made by ~70% of students) involves misapplying core concepts under time pressure. Always verify the units and boundary conditions before selecting an answer.
+- **The "Trap" Recognition:** In Squares and Square [roots](/blog/cubes-and-cube-roots-class-8-notes), the most common mistake (made by ~70% of students) involves misapplying core concepts under time pressure. Always verify the units and boundary conditions before selecting an answer.
 
 - **Jules Advanced Insight:** To master Squares and Square Roots, don't just memorize the formulas. Build a mental map of how it connects to Mathematics. This cross-topic synergy is what separates 99th percentile scorers from the rest.
 
@@ -80,7 +80,7 @@ eq 0$,- **Simplifying Square Roots Formula:** sqrt{ab} = sqrt{a} 	imes sqrt{b} ‚
 
 - **Key Facts:**
 
-- Numbers ending in 2, 3, 7, or 8 are never perfect squares.
+- [numbers](/blog/rational-numbers-class-8-notes) ending in 2, 3, 7, or 8 are never perfect squares.
 
 - The number of zeros at the end of a perfect square is always even.
 
@@ -97,50 +97,50 @@ eq 0$,- **Simplifying Square Roots Formula:** sqrt{ab} = sqrt{a} 	imes sqrt{b} ‚
 ## <a id="-practice-mcqs"></a>üìù Practice MCQs
 
 **1. What is the square root of a number?**
-**A)**   A number that, when multiplied by itself, gives the original number
-**B)**   A number that, when multiplied by itself, gives a negative number
-**C)**   A number that, when multiplied by itself, gives a different number
-**D)**   A number that, when multiplied by itself, gives zero
+**A)**    A number that, when multiplied by itself, gives the original number
+**B)**    A number that, when multiplied by itself, gives a negative number
+**C)**    A number that, when multiplied by itself, gives a different number
+**D)**    A number that, when multiplied by itself, gives zero
 
 **Answer:** A) Square root of a number is a value that, when multiplied by itself, gives the original number.
 
 ---
 
 **2. Which of the following is a perfect square?**
-**A)**   4
-**B)**   9
-**C)**   16
-**D)**   25
+**A)**    4
+**B)**    9
+**C)**    16
+**D)**    25
 
 **Answer:** C) 16 is a perfect square because it can be expressed as 4^2.
 
 ---
 
 **3. What is the property of square numbers?**
-**A)**   They are always odd
-**B)**   They are always even
-**C)**   They can be odd or even
-**D)**   They are always prime
+**A)**    They are always odd
+**B)**    They are always even
+**C)**    They can be odd or even
+**D)**    They are always prime
 
 **Answer:** B) Square numbers are always even because they can be expressed as 2^2 or (2k)^2, where k is an integer.
 
 ---
 
 **4. If the square root of a number is 7, what is the number?**
-**A)**   49
-**B)**   56
-**C)**   63
-**D)**   70
+**A)**    49
+**B)**    56
+**C)**    63
+**D)**    70
 
 **Answer:** A) If the square root of a number is 7, then the number is 7^2 or 49.
 
 ---
 
 **5. What is the relationship between square numbers and prime numbers?**
-**A)**   Square numbers are always prime
-**B)**   Prime numbers are always square numbers
-**C)**   Square numbers have only one prime factor
-**D)**   Square numbers have more than one prime factor
+**A)**    Square numbers are always prime
+**B)**    Prime numbers are always square numbers
+**C)**    Square numbers have only one prime factor
+**D)**    Square numbers have more than one prime factor
 
 **Answer:** D) Square numbers have more than one prime factor. For example, 16 = 2^4 has more than one prime factor.
 

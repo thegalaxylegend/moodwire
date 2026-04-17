@@ -100,7 +100,7 @@ To remember the equation for respiration, use the following trick: "C6H12O6 + 6O
 * **Why students get it wrong**: Students often confuse respiration with [photosynthesis](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet), which occurs in the presence of light.
 * **Wrong answer**: The byproduct of anaerobic respiration in [plants](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) is CO2 and H2O.
 * **Right answer**: The byproduct of anaerobic respiration in [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) is ethanol and CO2.
-* **Why students get it wrong**: Students often forget that anaerobic respiration in plants produces ethanol, not CO2 and H2O.
+* **Why students get it wrong**: Students often forget that anaerobic respiration in [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) produces ethanol, not CO2 and H2O.
 
 
 
@@ -172,7 +172,7 @@ Last Updated: March 16, 2026
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/hydrogen-class-11-revision-notes-neet) with these related guides:
 
 - 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Hydrogen Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/hydrogen-class-11-revision-notes-neet)

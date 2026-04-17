@@ -98,7 +98,7 @@ The [classification](/blog/biological-classification-class-11-revision-notes-nee
 
 To remember the different [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet) groups, you can use the following trick:
 * Bryophyta: Non-vascular [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet), no seeds, no flowers.
-* Tracheophyta: Vascular plants, may or may not have seeds, may or may not have flowers.
+* Tracheophyta: Vascular [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet), may or may not have seeds, may or may not have flowers.
 * Pteridophyta: Vascular plants, produce spores.
 * Gymnosperms: Vascular plants, produce seeds, no flowers.
 * Angiosperms: Vascular plants, produce flowers and seeds.
@@ -116,7 +116,7 @@ Right answer: Only some plants, such as angiosperms, produce flowers.
 Why students get it wrong: Students often assume that all plants produce flowers, but this is not the case.
 * Wrong answer: Bryophyta is a type of vascular [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet).
 Right answer: Bryophyta is a type of non-vascular [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet).
-Why students get it wrong: Students often confuse the different plant groups and assume that Bryophyta is a type of vascular plant.
+Why students get it wrong: Students often confuse the different [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet) groups and assume that Bryophyta is a type of vascular [plant](/blog/plant-growth-and-development-class-11-revision-notes-neet).
 
 
 

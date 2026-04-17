@@ -231,7 +231,7 @@ D) Dispersion
 ---
 
 **4. Which of the following conservation strategies involves the protection of a specific species and its habitat?**
-A) Ecosystem-based conservation
+A) [ecosystem](/blog/ecosystem-class-12-notes)-based conservation
 B) Species-based conservation
 C) Habitat-based conservation
 D) In-situ conservation

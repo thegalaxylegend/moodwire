@@ -32,7 +32,7 @@ practice_link: "/class-11/biology/environmental-chemistry-class-11-revision-note
 - [📚 Related Topics](#-related-topics)
 
 
-# Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide
+# Environmental Chemistry Class 11 Biology Revision — MEET 2026 Grandmaster Guide
 
 
 
@@ -83,9 +83,9 @@ Environmental chemistry is [the study of the chemical and biochemical phenomena 
 
 
 
-## <a id="ayushs-note"></a>Ayush's Note
+## <a id="Ayush-note"></a>Ayush's Note
 
-<div [class](/blog/plant-growth-and-development-class-11-revision-notes-neet)="ayush-note">
+<DIV [class](/blog/plant-growth-and-development-class-11-revision-notes-neet)="Ayush-note">
 I once made a mistake in my JEE preparation by not giving enough importance to environmental chemistry. I used to think that it's a simple topic and doesn't require much practice. But, I realized my mistake when I saw the weightage of environmental chemistry in the JEE exam. I had to work hard to catch up and make sure I didn't make the same mistake again. My advice to you is to not underestimate the importance of environmental chemistry and to practice it regularly.
 </div>
 
@@ -120,7 +120,7 @@ Here are a few trap questions and exceptions to watch out for in environmental c
 * Wrong answer: The main source of air pollution is natural disasters.
 Right answer: The main sources of air pollution are vehicles, industrial activities, and natural disasters.
 Why students get it wrong: Students often underestimate the impact of human activities on the environment and overestimate the impact of natural disasters.
-* Wrong answer: Water pollution only affects aquatic life.
+* Wrong answer: Water pollution only affects aquatic [life](/blog/cell-the-unit-of-life-class-11-revision-notes-neet).
 Right answer: Water pollution affects both aquatic life and human health.
 Why students get it wrong: Students often think that water pollution only affects the environment and not human health.
 * Wrong answer: Soil pollution is not a significant environmental problem.
@@ -130,7 +130,7 @@ Why students get it wrong: Students often underestimate the impact of soil pollu
 
 
 
-## <a id="practice-mcqs"></a>Practice MCQs
+## <a id="practice-MCQs"></a>Practice MCQs
 
 Here are a few practice MCQs to help you prepare for your exam:
 1. What is the main source of air pollution?
@@ -196,10 +196,10 @@ Environmental chemistry is [the study of the chemical and biochemical phenomena 
 
 Continue your [revision](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) with these related guides:
 
-- 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
-- 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
-- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)
-- 📖 [Plant Growth And Development Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/plant-growth-and-development-class-11-revision-notes-neet)
+- 📖 [Biological Classification Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
+- 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
+- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)
+- 📖 [Plant Growth And Development Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/plant-growth-and-development-class-11-revision-notes-neet)
 
 
 ---
@@ -214,7 +214,26 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 Continue your [revision](/blog/plant-growth-and-development-class-11-revision-notes-neet) with these related guides:
 
-- 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
-- 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
-- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)
-- 📖 [Plant Growth And Development Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/plant-growth-and-development-class-11-revision-notes-neet)
+- 📖 [Biological Classification Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
+- 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
+- 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)
+- 📖 [Plant Growth And Development Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/plant-growth-and-development-class-11-revision-notes-neet)
+
+## 🔁 Last 5 Minutes Box
+
+* **Air Pollution**: Gases like CO, CO2, NOX, SO2, and particulate matter contribute to air pollution.
+* **Water Pollution**: Contamination of water sources by pathogens, nutrients, and inorganic/organic pollutants.
+* **Soil Pollution**: Soil degradation due to addition of pollutants like pesticides, fertilizers, and industrial wastes.
+* **Greenhouse Effect**: Warming of Earth's surface due to increased CO2 levels, water vapor, methane, and other greenhouse gases.
+* **Ozone Layer Depletion**: Thinning of ozone layer due to chlorofluorocarbons (CFCs) and other alienated compounds, leading to increased UV radiation.
+* **Eutrophication**: Excessive [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet) of algae and oxygenation of water bodies due to excess nutrients, especially phosphates and nitrates.
+* Formulas: 
+  + **Global Warming Potential (GWP)**: GWP = (Σ[Qi xi]) / (Σ[To to])
+  + **Pollution Standards Index (PSI)**: PSI = (Io / Is) x 100
+  + **BOD (Biochemical Oxygen Demand)**: BOD = (Do - DF) / (1 + (a x t))
+* **Key Terms**: Biomagnification, Biodegradable, Non-biodegradable, Persistent Organic Pollutants (Pops)
+## ⚗️ Chemical Quick Reference (Verified via PubChem)
+
+| Compound | Formula | Mol. Weight | Source |
+|:---|:---:|:---:|:---:|
+| **water** | H2O | 18.015 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/962) |

@@ -1,16 +1,28 @@
 {
-  "version": "2026-04-16T02:57:07.011Z",
+  "version": "2026-04-17T02:53:35.795Z",
   "generatedBy": "prompt-evolution-engine-v1.0",
-  "evolvedPrompt": "You are a JEE/NEET exam preparation blog writer.\nFocus on high-yield exam content with bullet points, formulas, and MCQs.\nVoice: Authentic Peer Mentor (student-to-student).\nFORMATTING: NEVER WRITE LONG PARAGRAPHS. Use bullet points for almost everything.\nTarget word count: 1500-2000 words.\nStructural targets: 9-14 H2 headings, formula density=high, MCQs=3-5.\nNEVER DO: Thin content (any section < 150 words), Learned errors, Unknown failures.\nTone/depth: Adjust based on traffic data (desktop: 40 users, mobile: 26 users).\nSearch-optimized writing: Use top-ranking keywords (\"examcompass.web.app\", \"jee compass\") as context.\nMaintain LaTeX escaping rules ($ and $$), JSON restrictions, HTML bans, and heavy emphasis on Bullet Points.",
+  "evolvedPrompt": "You are a JEE/NEET exam preparation blog writer.\nFocus on high-yield exam content with bullet points, formulas, and MCQs.\nVoice: Authentic Peer Mentor (student-to-student).\nFORMATTING: NEVER WRITE LONG PARAGRAPHS. Use bullet points for almost everything.\nSTRUCTURE: Revision notes should have 9-14 H2 headings, 3-5 MCQs, and a high formula density, within 1182-2771 words.\nExam Notes should have 9 H2 headings, 5 MCQs, and a high formula density, within 1348-2472 words.\nNEVER DO: Write thin content (less than 150 words per section), or use a style that is not bullet-heavy.\nOPTIMIZE FOR SEARCH: Use keywords like \"examcompass.web.app\", \"neet blueprint 2027\", and \"jee compass\" to improve search rankings.\nTONE: Adjust depth and tone to drive traffic, with an emphasis on engagement and user experience.\nLATeX ESCAPING RULES APPLY: Use $ and $$ for formulas, and maintain JSON restrictions, HTML bans, and heavy emphasis on Bullet Points.",
   "temperature": 0.7,
   "subjectTargets": {
-    "Revision": {
+    "Physics": {
       "minWords": 1500,
       "maxWords": 2000,
       "formulaDensity": "high",
-      "mcqCount": 3
+      "mcqCount": 5
     },
-    "Exam Notes": {
+    "Chemistry": {
+      "minWords": 1500,
+      "maxWords": 2000,
+      "formulaDensity": "medium",
+      "mcqCount": 5
+    },
+    "Biology": {
+      "minWords": 1500,
+      "maxWords": 2000,
+      "formulaDensity": "low",
+      "mcqCount": 5
+    },
+    "Mathematics": {
       "minWords": 1500,
       "maxWords": 2000,
       "formulaDensity": "high",
@@ -18,11 +30,11 @@
     }
   },
   "changelog": [
-    "Added structural targets based on winning patterns",
-    "Included anti-patterns from failure data as explicit \"NEVER DO\" rules",
-    "Adjusted tone/depth based on traffic data",
-    "Added section for search-optimized writing using top-ranking keywords",
-    "Maintained LaTeX escaping rules, JSON restrictions, HTML bans, and emphasis on Bullet Points"
+    "Added structural targets for Revision and Exam Notes based on winning patterns.",
+    "Included anti-patterns from failure data as explicit \"NEVER DO\" rules.",
+    "Adjusted tone and depth to drive traffic and improve user experience.",
+    "Added search-optimized writing section using top-ranking keywords.",
+    "Maintained LaTeX escaping rules, JSON restrictions, HTML bans, and emphasis on Bullet Points."
   ],
   "confidence": 0.85,
   "metadata": {

@@ -187,7 +187,7 @@ x = 2 - \sqrt{3}
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What is the nature of the roots of the quadratic equation $x^2 + 4x + 4 = 0$?**
-A) Real and distinct
+A) [real](/blog/real-numbers-class-10-notes) and distinct
 B) Real and equal
 C) Imaginary
 D) None

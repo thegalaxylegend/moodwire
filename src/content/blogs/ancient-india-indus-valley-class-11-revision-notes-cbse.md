@@ -182,4 +182,4 @@ Continue your [revision](/blog/ancient-india-vedic-age-class-11-revision-notes-j
 * **Notable Inventions**: Weights and measures, metalworking, and writing system (still undeciphered).
 * **Social Structure**: Possibly egalitarian, with no clear evidence of a strong monarch or social hierarchy.
 * **Decline**: Due to climate change, drought, or invasions.
-* **Legacy**: Influence on the [vedic](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) period and the development of subsequent Indian civilizations.
+* **Legacy**: Influence on the [Vedic](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) period and the development of subsequent Indian civilizations.

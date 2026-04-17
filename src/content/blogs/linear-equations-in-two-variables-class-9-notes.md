@@ -66,7 +66,7 @@ manualReview: true
 
 - **Last-Night Strategy:** If you're reading this 12 hours before the exam, focus on the "Exceptions to the Rule." In [linear](/blog/linear-programming-class-12-notes) Equations in Two Variables, questions are almost always framed around the corner cases rather than the standard cases.
 
-- **Peer Mentor Tip:** Use the active recall method for Linear Equations in Two Variables. Close your eyes right now and try to list the 3 most essential points about this topic. If you can't, reread this section twice.
+- **Peer Mentor Tip:** Use the active recall method for [linear](/blog/linear-programming-class-12-notes) Equations in Two Variables. Close your eyes right now and try to list the 3 most essential points about this topic. If you can't, reread this section twice.
 
 | Parameter | Key Insight |
 | --- | --- |
@@ -77,50 +77,50 @@ manualReview: true
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. If the coefficients of x and y in the equation 5x + 7y = 3 are interchanged, the new equation is**
-**A)**      5x - 7y = -3
-**B)**      7x + 5y = 3
-**C)**      -7x + 5y = 3
-**D)**      7x - 5y = -3
+**A)**       5x - 7y = -3
+**B)**       7x + 5y = 3
+**C)**       -7x + 5y = 3
+**D)**       7x - 5y = -3
 
 **Answer:** D) When coefficients of x and y are interchanged, the new equation will be 7x - 5y = -3.
 
 ---
 
 **2. The value of k for which the lines 3x + 2y = k and 9x + 6y = 3 are parallel is**
-**A)**      3
-**B)**      6
-**C)**      9
-**D)**      12
+**A)**       3
+**B)**       6
+**C)**       9
+**D)**       12
 
 **Answer:** B) For lines to be parallel, their slopes are equal. Therefore, 3/2 = 9/6 (after dividing both equations by 3), then k = 6.
 
 ---
 
 **3. The equation of the line passing through the point (3, -2) and perpendicular to the line 4x - 3y = 1 is**
-**A)**      4x + 3y = 13
-**B)**      3x - 4y = 13
-**C)**      4x + 3y = -13
-**D)**      3x - 4y = -13
+**A)**       4x + 3y = 13
+**B)**       3x - 4y = 13
+**C)**       4x + 3y = -13
+**D)**       3x - 4y = -13
 
 **Answer:** B) To be perpendicular, the slopes of the two lines must be negative reciprocals of each other. The slope of the given line is 4/3, so the slope of the perpendicular line is -3/4.
 
 ---
 
 **4. The equation of the line passing through the points (0, -2) and (3, 1) is**
-**A)**      y - 1 = 3/4(x - 3)
-**B)**      y - 1 = 3/4(x - 0)
-**C)**      y + 2 = 3/4(x - 3)
-**D)**      y + 2 = 3/4(x - 0)
+**A)**       y - 1 = 3/4(x - 3)
+**B)**       y - 1 = 3/4(x - 0)
+**C)**       y + 2 = 3/4(x - 3)
+**D)**       y + 2 = 3/4(x - 0)
 
 **Answer:** D) Using the slope formula (y2 - y1)/(x2 - x1), the slope of the line is (1 - (-2))/(3 - 0) = 3/4.
 
 ---
 
 **5. The equation of the line passing through the point (4, 3) and parallel to the line 5x - 2y = 0 is**
-**A)**      5x - 2y = 0
-**B)**      5x - 2y = 21
-**C)**      2x - 5y = 0
-**D)**      2x - 5y = 21
+**A)**       5x - 2y = 0
+**B)**       5x - 2y = 21
+**C)**       2x - 5y = 0
+**D)**       2x - 5y = 21
 
 **Answer:** A) For lines to be parallel, their slopes are equal. Therefore, slope = 5/2.
 

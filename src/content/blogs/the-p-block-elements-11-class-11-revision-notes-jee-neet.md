@@ -111,7 +111,7 @@ The chemical properties of the p-[block](/blog/the-s-block-elements-class-11-rev
 
 ## <a id="core-concepts"></a>Core Concepts
 
-The p-block elements exhibit a wide range of core concepts, including:
+The p-[block](/blog/the-s-block-elements-class-11-revision-notes-jee-neet) elements exhibit a wide range of core concepts, including:
 * The p-block elements are characterized by the presence of p-orbitals in their outermost energy level.
 * The electronic configuration of the p-block elements can be represented as $ns^2np^{1-6}$.
 * The p-block elements exhibit a wide range of [physical](/blog/physical-world-class-11-revision-notes-jee-neet) and chemical properties.
