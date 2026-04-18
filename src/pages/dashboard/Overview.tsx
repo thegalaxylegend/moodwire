@@ -22,7 +22,7 @@ import type { DependencyInsight } from '../../services/conceptGraphService';
 import { MasteryDiagnostics } from '../../components/dashboard/MasteryDiagnostics';
 import { CollegePredictorCard } from '../../components/dashboard/CollegePredictorCard';
 import { predictionService } from '../../services/predictionService';
-import { type DailyMission } from '../../types/mission';
+import { type DailyMission } from '../../services/missionService';
 
 const DiagnosticPopup = ({ onDismiss, onStart }: { onDismiss: () => void; onStart: () => void }) => {
     return (

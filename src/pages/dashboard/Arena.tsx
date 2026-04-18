@@ -74,7 +74,7 @@ export const Arena = () => {
         try {
             console.log(`[Arena] Generating battle batch for subject: ${subj}`);
             // 2. Fetch fresh Battle Questions based on user category
-            const needs = [{ subject: subj, topic: 'Random', count: 10, difficulty: 'Medium' }];
+            const needs = [{ subject: subj, topic: 'Random', count: 10, difficulty: 'Medium' as const }];
             const questionData = await getAdaptiveQuestionBatch(user?.id || 'guest', needs, user?.targetExam || 'JEE Mains');
 
             if (!questionData || questionData.length < 3) {

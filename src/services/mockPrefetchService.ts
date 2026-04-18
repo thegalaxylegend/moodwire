@@ -63,7 +63,7 @@ export const mockPrefetchService = {
                 needs,
                 targetExam,
                 currentAbility,
-                (p) => { /* Background progress not shown to user */ }
+                () => { /* Background progress not shown to user */ }
             );
 
             if (questions && questions.length > 0) {
@@ -84,7 +84,7 @@ export const mockPrefetchService = {
     /**
      * Consumes the prefetched test if valid.
      */
-    consumePrefetch: (targetExam: string, currentAbility: number): any[] | null => {
+    consumePrefetch: (targetExam: string, _currentAbility: number): any[] | null => {
         const cached = localStorage.getItem(PREFETCH_CACHE_KEY);
         if (!cached) return null;
 

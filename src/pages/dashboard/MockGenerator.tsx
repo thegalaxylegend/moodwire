@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { AlertTriangle, Timer } from 'lucide-react';
-import { ttsManager } from '../../lib/tts/TTSManager';
+
 import { motion, AnimatePresence } from 'framer-motion';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import { askAI } from '../../lib/ai';
@@ -76,7 +76,7 @@ export const MockGenerator = () => {
     const isTimedExam = false;
 
     const globalFetchedRef = useRef(0);
-    const globalTargetRef = useRef(0);
+
 
     const [isSpeaking, setIsSpeaking] = useState(false);
 
@@ -594,8 +594,36 @@ export const MockGenerator = () => {
         );
     }
 
-    if (step === 'result') return <MockResults score={score} questions={questions as any} answers={answers} mode={mode} onAction={(action) => action === 'review' ? setStep('review') : navigate('/dashboard/test-center')} />;
-    if (step === 'preview') return <MockPreview mode={mode} difficulty={difficulty} questions={questions as any} onStart={() => setStep('exam')} onCancel={handleExit} />;
+    if (step === 'result') return (
+        <MockResults 
+            score={score} 
+            questions={questions as any} 
+            answers={answers} 
+            mode={mode} 
+            topicOrExam={urlTopic || (mode === 'quick' ? 'Quick Test' : 'Full Mock')}
+            userName={user.name || 'Student'}
+            targetExam={user.targetExam || 'General'}
+            onReview={() => setStep('review')}
+            onDashboard={() => navigate('/dashboard')}
+            onRetake={() => {
+                setQuestions([]);
+                setAnswers({});
+                setCurrentQ(0);
+                setStep('config');
+            }}
+        />
+    );
+    if (step === 'preview') return (
+        <MockPreview 
+            mode={mode} 
+            questionsCount={questions.length}
+            timeRemaining={timeRemaining}
+            isTimedExam={isTimedExam}
+            topicOrExam={urlTopic || (mode === 'quick' ? 'Quick Test' : 'Full Mock')}
+            onStart={() => setStep('exam')} 
+            onCancel={handleExit} 
+        />
+    );
     if (step === 'history') return <MockHistory user={user} onResume={handleResume} onBack={() => setStep('config')} />;
     
     return (

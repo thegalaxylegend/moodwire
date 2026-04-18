@@ -41,7 +41,7 @@ export const remediationService = {
         }));
 
         // 3. Fetch questions
-        const questions = await getAdaptiveQuestionBatch(userId, needs, targetExam || 'General');
+        const questions = await getAdaptiveQuestionBatch(userId, items, targetExam || 'General');
 
         return {
             topics: weakTopics.map(t => t.topic),
