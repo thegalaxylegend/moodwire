@@ -85,6 +85,10 @@ class NodeRouter {
     fs.writeFileSync(STATE_FILE, JSON.stringify(this.usage, null, 2));
   }
 
+  private checkDailyLimit(modelId: string, keyIndex: number): boolean {
+    const spec = MODELS[modelId];
+    if (!spec) return true;
+
     const key = `${modelId}_${keyIndex}`;
     const poisonKey = `${spec.provider}_${keyIndex}`;
     
