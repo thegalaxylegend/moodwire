@@ -144,7 +144,7 @@ To further illustrate the difference between [permutations](/blog/permutations-c
 
 In addition to understanding the formulas and concepts, it is also important to practice solving problems involving [permutations](/blog/permutations-combinations-class-11-revision-notes-jee) and combinations. This can help to build confidence and fluency with the material, and can also help to identify areas where additional review is needed. 
 
-Some common types of problems involving permutations and combinations include: counting problems, where we need to count the number of ways to arrange or select objects; probability problems, where we need to calculate the probability of a certain event occurring; and optimization problems, where we need to find the maximum or minimum value of a function subject to certain constraints. 
+Some common types of problems involving permutations and combinations include: counting problems, where we need to count the number of ways to arrange or select objects; [probability](/blog/probability-intro-class-11-revision-notes-jee) problems, where we need to calculate the [probability](/blog/probability-intro-class-11-revision-notes-jee) of a certain event occurring; and optimization problems, where we need to find the maximum or minimum value of a function subject to certain constraints. 
 
 Overall, Ayush's Note on Permutations and Combinations provides a thorough and detailed introduction to the concepts of permutations and combinations, including formulas, examples, and practice problems. By mastering these concepts, students can build a strong foundation in mathematics and prepare themselves for success in a variety of fields, including science, engineering, and economics. 
 
@@ -157,7 +157,7 @@ For example, the number of permutations of 3 objects chosen from a set of 5 is $
 
 It's also important to note that $n! = n \times (n-1) \times (n-2) \times \cdots \times 2 \times 1$, and that $0! = 1$. 
 
-In terms of application, permutations and combinations are used in a variety of fields, including computer science, engineering, and economics. For example, in computer science, permutations and combinations are used in algorithms for sorting and searching data, while in engineering, they are used to design and optimize systems. 
+In terms of application, permutations and combinations are used in a variety of fields, including computer science, engineering, and economics. For example, in computer science, permutations and combinations are used in algorithms for sorting and searching [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards), while in engineering, they are used to design and optimize systems. 
 
 To illustrate the application of permutations and combinations, consider the following example: suppose we have a set of 5 objects, {a, b, c, d, e}, and we want to choose 3 of them to form a committee. The number of permutations of 3 objects chosen from a set of 5 is $5P3 = 60$, while the number of combinations is $5C3 = 10$. 
 

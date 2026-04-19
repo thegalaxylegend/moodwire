@@ -20,21 +20,21 @@ manualReview: false
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Distance and Displacement:** s = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2} — $s$ is the distance between two points $(x_1, y_1, z_1)$ and $(x_2, y_2, z_2)$.
- - **Speed:** v = \frac{ds}{dt} — $v$ is the speed, $s$ is the distance, and $t$ is the time.
- - **Velocity:** vec{v} = \frac{dvec{s}}{dt} = left{\frac{dx}{dt}, \frac{dy}{dt}, \frac{dz}{dt}ight} — $vec{v}$ is the velocity vector, and $vec{s}$ is the displacement vector.
- - **Acceleration:** vec{a} = \frac{dvec{v}}{dt} = left{\frac{dv_x}{dt}, \frac{dv_y}{dt}, \frac{dv_z}{dt}ight} — $vec{a}$ is the acceleration vector, and $vec{v}$ is the velocity vector.
+- **Distance and Displacement:** s = $\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2}$ — $s$ is the distance between two points $(x_1, y_1, z_1)$ and $(x_2, y_2, z_2)$.
+ - **Speed:** v = $\frac{ds}{dt}$ — $v$ is the speed, $s$ is the distance, and $t$ is the time.
+ - **Velocity:** vec{v} = $\frac{dvec{s}$}{dt} = left{$\frac{dx}{dt}$, $\frac{dy}{dt}$, $\frac{dz}{dt}$ight} — $vec{v}$ is the velocity vector, and $vec{s}$ is the displacement vector.
+ - **Acceleration:** vec{a} = $\frac{dvec{v}$}{dt} = left{$\frac{dv_x}{dt}$, $\frac{dv_y}{dt}$, $\frac{dv_z}{dt}$ight} — $vec{a}$ is the acceleration vector, and $vec{v}$ is the velocity vector.
  - **Equation of Motion (First):** v = u + at — $v$ is the final velocity, $u$ is the initial velocity, $a$ is the acceleration, and $t$ is the time.
- - **Equation of Motion (Second):** s = ut + \frac{1}{2}at^2 — $s$ is the displacement, $u$ is the initial velocity, $t$ is the time, and $a$ is the acceleration.
+ - **Equation of Motion (Second):** s = ut + $\frac{1}{2}$at^2 — $s$ is the displacement, $u$ is the initial velocity, $t$ is the time, and $a$ is the acceleration.
  - **Equation of Motion (Third):** v^2 = u^2 + 2as — $v$ is the final velocity, $u$ is the initial velocity, $a$ is the acceleration, and $s$ is the displacement.
  - **Force:** vec{F} = mvec{a} — $vec{F}$ is the net force, $m$ is the mass, and $vec{a}$ is the acceleration.
  - **Momentum:** vec{p} = mvec{v} — $vec{p}$ is the momentum, $m$ is the mass, and $vec{v}$ is the velocity.
  - **Work Done:** W = vec{F} cdot vec{s} = Fscos{\theta} — $W$ is the work done, $vec{F}$ is the force, $vec{s}$ is the displacement, and $\theta$ is the angle between the force and displacement.
- - **Energy:** E = \frac{1}{2}mv^2 + mgh — $E$ is the total energy, $m$ is the mass, $v$ is the velocity, $g$ is the acceleration due to gravity, and $h$ is the height.
+ - **Energy:** E = $\frac{1}{2}$mv^2 + mgh — $E$ is the total energy, $m$ is the mass, $v$ is the velocity, $g$ is the acceleration due to gravity, and $h$ is the height.
  - **Friction:** F_f = mu N — $F_f$ is the frictional force, $mu$ is the coefficient of friction, and $N$ is the normal force.
  - **Torque:** 	au = r 	imes F — $	au$ is the torque, $r$ is the distance from the axis, and $F$ is the force.
- - **Angular Velocity:** omega = \frac{d\theta}{dt} — $omega$ is the angular velocity, $\theta$ is the angular displacement, and $t$ is the time.
- - **Centripetal Force:** F_c = \frac{mv^2}{r} = momega^2r — $F_c$ is the centripetal force, $m$ is the mass, $v$ is the velocity, $r$ is the radius, and $omega$ is the angular velocity.
+ - **Angular Velocity:** omega = $\frac{d\theta}{dt}$ — $omega$ is the angular velocity, $\theta$ is the angular displacement, and $t$ is the time.
+ - **Centripetal Force:** F_c = $\frac{mv^2}{r}$ = momega^2r — $F_c$ is the centripetal force, $m$ is the mass, $v$ is the velocity, $r$ is the radius, and $omega$ is the angular velocity.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -66,12 +66,12 @@ manualReview: false
 
 - *Fix:* Always calculate the normal reaction force { $N$ } before applying the formula for frictional force. Ensure that the normal reaction force is in the correct direction and has the correct magnitude.
 
-- **Mistake 5:** Incorrectly applying the work-energy principle, { $W = \Delta KE$ }, without considering the potential energy changes.
+- **Mistake 5:** Incorrectly applying the work-energy principle, { $W = \delta KE$ }, without considering the potential energy changes.
 
 - *Costs:* 2-3 marks
  
 
-- *Fix:* Consider all forms of energy, including kinetic energy { $KE$ } and potential energy { $PE$ }, when applying the work-energy principle. Use { $W = \Delta KE + \Delta PE$ } to account for changes in both kinetic and potential energy.
+- *Fix:* Consider all forms of energy, including kinetic energy { $KE$ } and potential energy { $PE$ }, when applying the work-energy principle. Use { $W = \delta KE + \delta PE$ } to account for changes in both kinetic and potential energy.
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
@@ -84,7 +84,7 @@ manualReview: false
  - Applying the law of conservation of momentum: $mv = mv_1 + Mv_2$
  - Applying the law of conservation of kinetic energy: $\frac{1}{2}mv^2 = \frac{1}{2}mv_1^2 + \frac{1}{2}Mv_2^2$
  - Solving these equations, we get: $v_1 = \frac{(m-M)v}{m+M}$
- - **Answer:** $\frac{(m-M)v}{m+M}$
+ -  *Answer:** $\frac{(m-M)v}{m+M}$
  - **Q2:** A block of mass $2$ kg is placed on a horizontal surface. The coefficient of friction between the block and the surface is $0.5$. If a horizontal force of $2$ N is applied on the block, the acceleration of the block is
  - **Trap:** Students often forget to consider the force of friction.
  - **Solution:** 
@@ -115,26 +115,25 @@ manualReview: false
 - **What 95% scorers do:** In contrast, students who score around 95%:
  * Understand that $F = \frac{dp}{dt}$ is a fundamental principle that underlies all of mechanics.
  * Can derive formulas like $v = u + at$ and $s = ut + \frac{1}{2}at^2$ from this principle.
- * Apply the concept of momentum and force to solve complex problems, including those involving variable forces and velocities.
- * Use the concept of impulse, $J = \int F dt = \Delta p$, to solve problems involving collisions and impulsive forces.
+ * Apply the concept of momentum and force to solve complex problems, including those involving [variable](/blog/linear-equations-in-one-variable-class-8-notes) forces and velocities.
+ * Use the concept of impulse, $J = \int F dt = \delta p$, to solve problems involving collisions and impulsive forces.
  * Recognize that $F = \frac{dp}{dt}$ is equivalent to $F = ma$ when the mass is constant, but can be more general when the mass is changing.
  * Can solve problems using the following formula:
 
 $1 
 
-
 - p_1
  where $p_1$ and $p_2$ are the initial and final momenta of an object.
 
 - **Key Formulas:**
- * $F = \frac{dp}{dt}$
- * $J = \int F dt = \Delta p$
+ *  = $\frac{dp}{dt}$
+ *  = \int F dt = \delta p 
  * $F = ma$ (when mass is constant)
 
 | Concept | Formula | Description |
 | --- | --- | --- |
 | Force and Momentum | $F = \frac{dp}{dt}$ | Relates force to the rate of change of momentum |
-| Impulse | $J = \int F dt = \Delta p$ | Relates impulse to the change in momentum |
+| Impulse | $J = \int F dt = \delta p$ | Relates impulse to the change in momentum |
 | Constant Mass | $F = ma$ | Relates force to mass and acceleration when mass is constant |
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
@@ -145,7 +144,7 @@ $1
 
 - **PYQ-Specific Trend:** A recurring trend in PYQs is the use of relative motion and the equations of motion in two dimensions. Problems involving projectiles, relative velocity, and collisions are common. Being able to break down complex motion into components and apply $x = x_0 + v_{0x}t$ and $y = y_0 + v_{0y}t 
 
-- \frac{1}{2}gt^2$ for projectile motion under gravity is essential.
+- $\frac{1}{2}$gt^2$ for projectile motion under gravity is essential.
 
 - **Formula Derivation:** Deriving formulas like $R = \frac{u^2 sin(2\theta)}{g}$ for the range of a projectile and understanding the conditions for maximum range ($\theta = 45^{\circ}$) can significantly enhance problem-solving skills. It's also important to remember that $T = \frac{2u sin(\theta)}{g}$ gives the time of flight for a projectile.
 
@@ -173,40 +172,40 @@ $1
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. A body of mass 5 kg is moving in a circular path with a constant speed of 10 m/s. The magnitude of the centripetal acceleration is**
-**A)**   20 m/s^2
-**B)**   50 m/s^2
-**C)**   5 m/s^2
-**D)**   10 m/s^2
+**A)**    20 m/s^2
+**B)**    50 m/s^2
+**C)**    5 m/s^2
+**D)**    10 m/s^2
 
 **Answer:** B) Centripetal acceleration = v^2 / r = (10 m/s)^2 / (5 m) = 20 m/s^2
 
 ---
 
 **2. A particle is moving in a plane with a velocity of 2 m/s at an angle of 60° to the x-axis. The magnitude of the acceleration is**
-**A)**   5 m/s^2
-**B)**   1 m/s^2
-**C)**   2 m/s^2
-**D)**   4 m/s^2
+**A)**    5 m/s^2
+**B)**    1 m/s^2
+**C)**    2 m/s^2
+**D)**    4 m/s^2
 
 **Answer:** C) a = √((2 m/s)^2 + (2 m/s)^2) = √(8 m^2/s^2) = 2.83 m/s^2 ≈ 2 m/s^2
 
 ---
 
 **3. A body is moving with a velocity v. The magnitude of the acceleration due to gravity is**
-**A)**   g/2
-**B)**   g/√2
-**C)**   g
-**D)**   2g
+**A)**    g/2
+**B)**    g/√2
+**C)**    g
+**D)**    2g
 
 **Answer:** C) Acceleration due to gravity is 'g', which is a constant approximately equal to 9.8 m/s^2.
 
 ---
 
 **4. A block of mass 10 kg is moving with a velocity of 5 m/s. The magnitude of the force acting on it is**
-**A)**   50 N
-**B)**   100 N
-**C)**   20 N
-**D)**   25 N
+**A)**    50 N
+**B)**    100 N
+**C)**    20 N
+**D)**    25 N
 
 **Answer:** B) Force = mass * acceleration. Using v^2 = u^2 + 2as, we get a = (5 m/s)^2 / (10 m) = 2.5 m/s^2. Force = 10 kg * 2.5 m/s^2 = 25 N
 
@@ -214,10 +213,10 @@ $1
 
 **5. A particle is moving in a straight line with an initial velocity u and a uniform acceleration
 a. The distance covered in time t is**
-**A)**   ut + (1/2)at^2
-**B)**   ut - (1/2)at^2
-**C)**   ut + (1/2)at^2 + u*t + a*t
-**D)**   ut - (1/2)at^2 - u*t + a*t
+**A)**    ut + (1/2)at^2
+**B)**    ut - (1/2)at^2
+**C)**    ut + (1/2)at^2 + u*t + a*t
+**D)**    ut - (1/2)at^2 - u*t + a*t
 
 **Answer:** A) s = ut + (1/2)at^2, where s is the displacement.
 
@@ -233,9 +232,10 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/physics-heat-light-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [physics heat light](/blog/physics-heat-light-class-11-revision-notes-jee-neet)
 - 📖 [poverty unemployment](/blog/poverty-unemployment-class-11-revision-notes-jee-neet)
 - 📖 [trigonometric functions](/blog/trigonometric-functions-class-11-revision-notes-jee-neet)
 - 📖 [anatomy of flowering plants](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
+$**

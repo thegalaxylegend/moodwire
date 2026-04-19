@@ -13,7 +13,7 @@ practice_link: "/class-11/biology/biotechnology-and-its-applications-class-12-no
 
 - [⚡ Formula Bank](#-formula-bank)
 - [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
-- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
+- [✏️ 3 Solved Yes](#-3-solved-pyqs)
 - [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
 - [👁️ Ayush's Note](#-Ayush-note)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
@@ -22,33 +22,33 @@ practice_link: "/class-11/biology/biotechnology-and-its-applications-class-12-no
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Restriction Endonuclease Recognition Site:** $\text{Palindrome} = $\text{inverted repeat} — The recognition site is typically a palindromic sequence.
+- **Restriction Endonuclease Recognition Site:** $\text{Palindrome} = \text{inverted repeat}$ — The recognition site is typically a palindromic sequence.
 
- - **Southern Blotting:** \text{Fragment size} = \frac$\text{number of base pairs}$\text{migration distance}$ — Fragment size is inversely proportional to migration distance.
+ - **Southern Blotting:** $\text{Fragment size}$ = \frack\text{number of base pairs}\text{migration distance} — Fragment size is inversely proportional to migration distance.
 
  - **Polymerase Chain Reaction (PCR):** $\text{Number of copies} = 2^\text{number of cycles}$ — The number of copies of the target DNA sequence increases exponentially with each cycle.
 
- - **Gel Electrophoresis:** $\text{Migration distance} = \frac$\text{charge$}\text{size$} — The distance a molecule travels is directly proportional to its charge and inversely proportional to its size.
+ - **Gel Electrophoresis:** $\text{Migration distance} = \frack\text{charge$}\text{size$} — The distance a molecule travels is directly proportional to its charge and inversely proportional to its size.
 
- - **Western Blotting:** $\text{Antibody-antigen binding} = \frac$\text{concentration of antibody}$\text{concentration of antigen}$ — The binding of an antibody to an antigen is directly proportional to the concentration of the antibody and inversely proportional to the concentration of the antigen.
+ - **Western Blotting:** $\text{Antibody-antigen binding} = \fracas\text{concentration of antibody}\text{concentration of antigen}$ — The binding of an antibody to an antigen is directly proportional to the concentration of the antibody and inversely proportional to the concentration of the antigen.
 
- - **DNA Replication:** $\text{Replication rate} = \frac$\text{number of nucleotides incorporated}$\text{time$} — The rate of DNA replication is directly proportional to the number of nucleotides incorporated per unit time.
+ - **DNA Replication:** $\text{Replication rate} = \fracas\text{number of nucleotides incorporated}\text{time$} — The rate of DNA replication is directly proportional to the number of nucleotides incorporated per unit time.
 
- - **Transcription:** $\text{Transcription rate} = \frac$\text{number of nucleotides transcribed}$\text{time$} — The rate of transcription is directly proportional to the number of nucleotides transcribed per unit time.
+ - **Transcription:** $\text{Transcription rate} = \fracas\text{number of nucleotides transcribed}\text{time$} — The rate of transcription is directly proportional to the number of nucleotides transcribed per unit time.
 
- - **Translation:** $\text{Translation rate} = \frac$\text{number of amino acids incorporated}$\text{time$} — The rate of translation is directly proportional to the number of amino acids incorporated per unit time.
+ - **Translation:** $\text{Translation rate} = \fracas\text{number of amino acids incorporated}\text{time$} — The rate of translation is directly proportional to the number of amino acids incorporated per unit time.
 
- - **Michaelis-Lenten Kinetics:** $\text{Rate of reaction} = \frac{V_$\text{max$} \dot [S]}{K_m + [S]} — The rate of an enzymatic reaction is directly proportional to the maximum velocity (UV_$\text{max$}$) and the substrate concentration ($[S]$), and inversely proportional to the Michaelis constant (OK_me).
+ - **Michaelis-Lenten Kinetics:** $\text{Rate of reaction} = \franc{V_$\text{max$} \dot [S]}{K_m + [S]} — The rate of an enzymatic reaction is directly proportional to the maximum velocity (UV_$\text{max$}$) and the substrate concentration ($[S]$), and inversely proportional to the Michaelis constant (OK_me).
 
- - **Plasmid Copy Number:** $\text{Copy number} = \frac$\text{number of plasmid molecules}$\text{number of host cells}$ — The copy number of a plasmid is directly proportional to the number of plasmid molecules per host cell.
+ - **Plasmid Copy Number:** $\text{Copy number} = \fracas\text{number of plasmid molecules}\text{number of host cells}$ — The copy number of a plasmid is directly proportional to the number of plasmid molecules per host cell.
 
- - **Gene Expression:** $\text{Gene expression level} = \frac$\text{mRNA concentration}$\text{cell density}$ — The level of gene expression is directly proportional to the concentration of mRNA per cell.
+ - **Gene Expression:** $\text{Gene expression level} = \fracas\text{mRNA concentration}\text{cell density}$ — The level of gene expression is directly proportional to the concentration of mRNA per cell.
 
- - **Protein Purification:** $\text{Purity} = \frac$\text{concentration of target protein}$\text{total protein concentration}$ — The purity of a protein is directly proportional to the concentration of the target protein and inversely proportional to the total protein concentration.
+ - **Protein Purification:** $\text{Purity} = \fracas\text{concentration of target protein}\text{total protein concentration}$ — The purity of a protein is directly proportional to the concentration of the target protein and inversely proportional to the total protein concentration.
 
-- **Gene Expression:** $\text{Gene expression level} = \frac$\text{mRNA concentration}$\text{cell density}$ — The level of gene expression is directly proportional to the concentration of mRNA per cell.
+- **Gene Expression:** $\text{Gene expression level} = \fracas\text{mRNA concentration}\text{cell density}$ — The level of gene expression is directly proportional to the concentration of mRNA per cell.
 
-- **Protein Purification:** $\text{Purity} = \frac$\text{concentration of target protein}$\text{total protein concentration}$ — The purity of a protein is directly proportional to the concentration of the target protein and inversely proportional to the total protein concentration.
+- **Protein Purification:** $\text{Purity} = \fracas\text{concentration of target protein}\text{total protein concentration}$ — The purity of a protein is directly proportional to the concentration of the target protein and inversely proportional to the total protein concentration.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -82,7 +82,7 @@ practice_link: "/class-11/biology/biotechnology-and-its-applications-class-12-no
 
  - *Fix:* Study how CRISPR-Cas9 works: the $\\text{CRISPR}$ system locates a specific sequence of DNA and the $\\text{Cas9}$ enzyme cuts the DNA at that site, allowing for precise editing of genes by either disrupting the function of the gene or correcting harmful mutations.
 
-## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
+## <a id="-3-solved-pyqs"></a>✏️ 3 Solved Yes
 
 - **Q1:** What is the role of the lac operator in the regulation of the lac operon in E. coli?
 
@@ -96,8 +96,8 @@ practice_link: "/class-11/biology/biotechnology-and-its-applications-class-12-no
 
  
 
- \\text{Lac Repressor} + \\text{Lactose} \
-ightleftharpoons \\text{Lac Repressor-Lactose Complex}
+ \$\text{Lac Repressor}$ + \$\text{Lactose}$ \
+ightleftharpoons \$\text{Lac Repressor-Lactose Complex}$
 
  
 
@@ -115,8 +115,8 @@ ightleftharpoons \\text{Lac Repressor-Lactose Complex}
 
  
 
- \\text{Restriction Enzyme} + \\text{DNA} \
-harrow \\text{Cut DNA} + \\text{Restriction Enzyme}
+ \$\text{Restriction Enzyme}$ + \$\text{DNA}$ \
+harrow \$\text{Cut DNA}$ + \$\text{Restriction Enzyme}$
 
  
 
@@ -124,8 +124,8 @@ harrow \\text{Cut DNA} + \\text{Restriction Enzyme}
 
  
 
- \\text{Cut DNA} + \\text{DNA Ligase} \
-harrow \\text{Recombinant DNA}
+ \$\text{Cut DNA}$ + \$\text{DNA Ligase}$ \
+harrow \$\text{Recombinant DNA}$
 
  
 
@@ -141,7 +141,7 @@ harrow \\text{Recombinant DNA}
 
  
 
- \\text{Monoclonal Antibody} = \\text{Single Epitope} + \\text{Single B Cell Clone}
+ \$\text{Monoclonal Antibody}$ = \$\text{Single Epitope}$ + \$\text{Single B Cell Clone}$
 
  
 
@@ -149,7 +149,7 @@ harrow \\text{Recombinant DNA}
 
  
 
- \\text{Polyclonal Antibody} = \\text{Multiple Epitopes} + \\text{Multiple B Cell Clones}
+ \$\text{Polyclonal Antibody}$ = \$\text{Multiple Epitopes}$ + \$\text{Multiple B Cell Clones}$
 
  
 
@@ -184,10 +184,9 @@ harrow \\text{Recombinant DNA}
  - Analyzing the $\text{restriction maps}$ of $\vector{plasmids}$ and $\text{chromosomal DNA}$
 
  * Use $\text{mathematical models}$ to understand the $\text{kinetics of gene expression}$, such as:
-$ \frac’d[$\text{mRNA}]}{dt} = k_$\text{t} - k_\text{d}[$\text{mRNA}$] $
+$ \franc’d[\text{mRNA}$]}{dt} = k_$\text{t} - k_\text{d}[\text{mRNA}] $
 
-
- Where OK_\text{t} is the $\text{transcription rate}$ and OK_\text{d}$ is the $\text{degradation rate}$ of $\text{mRNA}$.
+ Where OK_$\text{t}$ is the $\text{transcription rate}$ and OK_$\text{d} is the \text{degradation rate} of \text{mRNA}.
 
  * Think critically about the $\text{ethical implications}$ of RDT, such as:
 
@@ -203,25 +202,25 @@ $ \frac’d[$\text{mRNA}]}{dt} = k_$\text{t} - k_\text{d}[$\text{mRNA}$] $
 
 ## <a id="-Ayush-note"></a>👁️ Ayush's Note
 
-👁️ Ayush's Note, - **The Hidden Pattern:** In Biotechnology and its Applications, a recurring pattern is observed where $\frac{13}{CRISPR}  of the questions are focused on the applications of genetic engineering, such as the production of recombinant EDNA and the use of $-Cas9 for gene editing. Another $\frac{13}{\frac23}  are related to the principles of biotechnology, including the structure and function of EDNA, RNA, and proteins, as well as the mechanisms of gene expression and regulation., - **How to Apply It:** To maximize scores, allocate $ of the study time to understanding the applications of genetic engineering, including the production of recombinant EDNA and the use of $CRISPR$-Cas9 for gene editing. The remaining $\frac{13}{\frac34}  of the study time should be focused on the principles of biotechnology, including the structure and function of EDNA, RNA, and proteins, as well as the mechanisms of gene expression and regulation., - **Key Concepts:** Master the following key concepts to solve $ of the questions: \Delta G = \Delta H - T\Delta SHE for calculating the change in Gibbs free energy, mph = -\log_10H^+$ for calculating the concentration of hydrogen ions, and OK_EQ = \fractal for calculating the equilibrium constant., - **Question Patterns:** Be prepared to encounter question patterns such as: What is the role of STATE polymerase in PCR? What are the advantages and disadvantages of using $CRISPR$-Cas9 for gene editing? How does the structure of EDNA affect its function?, - **Common Pitfalls:** Avoid common pitfalls such as confusing the terms $\textithomologous$ and $\textitheterologous$ when referring to gene expression, or failing to recognize the importance of $\textitpost-translational modification in protein function., - **High-Yield Topics:** Focus on high-yield topics such as the use of ELISA for detecting antibodies, the principles of southern and northern blotting, and the applications of ART-PCR for detecting gene expression., - **Formulae and Equations:** Memorize key formulae and equations such as: OK’m = \fracases for calculating the Michaelis constant, MTV_max = k_came_total for calculating the maximum velocity of an enzymatic reaction, and \Delta \Delta G = \Delta G_mutant - \Delta G_wild-type for calculating the change in free energy., - **Biotechnology Techniques:** Be familiar with biotechnology techniques such as $\textile electrophoresis, $\textitchromatography$, and $\textitspectroscopy$, and be able to explain their principles and applications. , Topic, Weightage, Key Concepts , Genetic Engineering, $\frac{13}{CRISPR} , $-Cas9, recombinant EDNA , Principles of Biotechnology, $\frac{13}{\frac16} , EDNA, RNA, proteins, gene expression and regulation , Biotechnology Techniques, $, $\textile electrophoresis, $\textitchromatography$, $\textitspectroscopy$
+👁️ Ayush's Note, - **The Hidden Pattern:** In Biotechnology and its Applications, a recurring pattern is observed where $\franc{13}{CRISPR}  of the questions are focused on the applications of genetic engineering, such as the production of recombinant EDNA and the use of $-Cas9 for gene editing. Another $\franc{13}{\frac23}  are related to the principles of biotechnology, including the structure and function of EDNA, RNA, and proteins, as well as the mechanisms of gene expression and regulation., - **How to Apply It:** To maximize scores, allocate $ of the study time to understanding the applications of genetic engineering, including the production of recombinant EDNA and the use of $CRISPR$-Cas9 for gene editing. The remaining $\franc{13}{\frac34}  of the study time should be focused on the principles of biotechnology, including the structure and function of EDNA, RNA, and proteins, as well as the mechanisms of gene expression and regulation., - **Key Concepts:** Master the following key concepts to solve $ of the questions: \delta G = \delta H - T\delta SHE for calculating the change in Gibbs free energy, mph = -\log_10H^+$ for calculating the concentration of hydrogen ions, and OK_EQ = \fractal for calculating the equilibrium constant., - **Question Patterns:** Be prepared to encounter question patterns such as: What is the role of STATE polymerase in PCR? What are the advantages and disadvantages of using $CRISPR$-Cas9 for gene editing? How does the structure of EDNA affect its function?, - **Common Pitfalls:** Avoid common pitfalls such as confusing the terms $\textithomologous$ and $\textitheterologous$ when referring to gene expression, or failing to recognize the importance of $\textitpost-translational modification in protein function., - **High-Yield Topics:** Focus on high-yield topics such as the use of ELISA for detecting antibodies, the principles of southern and northern blotting, and the applications of ART-PCR for detecting gene expression., - **Formulae and Equations:** Memorize key formulae and equations such as: OK’m = \fracases for calculating the Michaelis constant, MTV_max = k_came_total for calculating the maximum velocity of an enzymatic reaction, and \delta \delta G = \delta G_mutant - \delta G_wild-type for calculating the change in free energy., - **Biotechnology Techniques:** Be familiar with biotechnology techniques such as $\textile electrophoresis, $\textitchromatography$, and $\textitspectroscopy$, and be able to explain their principles and applications. , Topic, Weightage, Key Concepts , Genetic Engineering, \franc{13}{CRISPR}$ , $-Cas9, recombinant EDNA , Principles of Biotechnology, \franc{13}{\frac16}$ , EDNA, RNA, proteins, gene expression and regulation , Biotechnology Techniques, $, $\textile electrophoresis, $\textitchromatography$, $\textitspectroscopy$
 
 | Topic | Weightage | Key Concepts |
 | --- | --- | --- |
-| Genetic Engineering | $\frac{{1}{3}}{CRISPR}  | $-Cas9, recombinant EDNA |
-| Principles of Biotechnology | $\frac{{1}{3}}{\frac{1}{6}}  | EDNA, RNA, proteins, gene expression and regulation |
+| Genetic Engineering | $\franc{{1}{3}}{CRISPR}  | $-Cas9, recombinant EDNA |
+| Principles of Biotechnology | $\franc{{1}{3}}{\franc{1}{6}}  | EDNA, RNA, proteins, gene expression and regulation |
 | Biotechnology Techniques | $ | $\text it{gel electrophoresis}$, $\text it{chromatography}$, $\text it{spectroscopy}$ |
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- HE = \frac{-0.0592}{n} \log \frac{[Red]}{[Ox]}$ for calculating the reduction potential.
+- HE = $\franc{-0.0592}{n}$ \log $\franc{[Red]}{[Ox]} for calculating the reduction potential.
 
- - $\Delta G = -new for relating Gibbs free energy to electromotive force.
+ - $\delta G = -new for relating Gibbs free energy to electromotive force.
 
- - OK_{eq} = \frac{[P]}{[R]}$ for equilibrium constant of a reaction.
+ - OK_{eq} = $\franc{[P]}{[R]} for equilibrium constant of a reaction.
 
  - Mph = -\log[H^+)$ for calculating pH from hydrogen ion concentration.
 
- - Mph = PK_a + \log \frac{[A^-]}{[HA]}$ for relating pH to acid dissociation constant.
+ - Mph = PK_a + \log $\franc{[A^-]}{[HA]} for relating pH to acid dissociation constant.
 
  - Key fact: [biotechnology](/blog/biotechnology-principles-and-processes-class-12-notes) involves the use of biological systems to develop new products.
 
@@ -229,7 +228,7 @@ $ \frac’d[$\text{mRNA}]}{dt} = k_$\text{t} - k_\text{d}[$\text{mRNA}$] $
 
  - Key fact: Polymerase Chain Reaction (PCR) is a method for amplifying DNA sequences.
 
- - Common mistake: Forgetting that and in $\Delta G = -new represents the number of electrons transferred.
+ - Common mistake: Forgetting that and in $\delta G = -new represents the number of electrons transferred.
 
  - Common mistake: Confusing OK_me (Michaelis constant) with UV_{max}$ (maximum velocity) in enzyme kinetics.
 
@@ -313,3 +312,4 @@ Continue your revision with these related guides:
 - 📖 [Ecosystem Class 12 Biology Revision — MEET 2026 Grandmaster Guide](/blog/ecosystem-class-12-notes)
 - 📖 [Environmental Issues Class 12 Biology Revision — MEET 2026 Grandmaster Guide](/blog/environmental-issues-class-12-notes)
 
+$

@@ -28,7 +28,7 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
  - **Specific Growth Rate:** \mu = $\frac{{1}{X} }{ is the biomass concentration.
 
- - **Biomass Yield:** Y = } \frac{dX}{dt} — X$\frac{X}{S} — $Y$ is the yield coefficient, $X$ is the biomass concentration, $S$ is the substrate concentration.$
+ - **Biomass Yield:** Y = } $\frac{dX}{dt}$ — X$\frac{X}{S} — $Y$ is the yield coefficient, $X$ is the biomass concentration, $S$ is the substrate concentration.$
 
  - **Product Formation:** P = Y_p X — $P$ is the product concentration, $Y_p$ is the product yield coefficient, $X$ is the biomass concentration.
 
@@ -36,9 +36,9 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
  - **Maintenance Energy:** m = $\frac{{1}{Y_{ATP}} \frac}{{X} — } \mu$m$ is the maintenance energy, $Y_{ATP}$ is the ATP yield coefficient, $\mu$ is the growth rate, $X$ is the biomass concentration.$
 
- - **Growth Yield:** Y = \frac$\Delta X\Delta S$ — $Y$ is the growth yield, $\Delta X$ is the change in biomass concentration, $\Delta S$ is the change in substrate concentration.
+ - **Growth Yield:** Y = \frac$\delta X\delta S$ — $Y$ is the growth yield, $\delta X$ is the change in biomass concentration, $\delta S$ is the change in substrate concentration.
 
- - **Lag Phase Duration:** t_{lag} = $\frac{{1}}{ \ln\left(} \mu$\frac{N_0}{N_i}$\right) — $t_{lag}$ is the lag phase duration, $\mu$ is the growth rate, $N_0$ is the initial inoculum size, $N_i$ is the initial population size.
+ - **Lag Phase Duration:** t_{lag} = $\frac{{1}}{ \ln\left(} \mu\frac{N_0}{N_i}\right) — $t_{lag}$ is the lag phase duration, $\mu$ is the growth rate, $N_0$ is the initial inoculum size, $N_i$ is the initial population size.
 
  - **Stationary Phase:** $\frac{{dN}{dt} = 0 — }{ is the number of microorganisms, } N$t$ is time.$
 
@@ -92,7 +92,7 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
  
 
- \\text{Substrate} \xrightarrow{\\text{Microbial Enzymes}} \\text{Antibiotic}
+ \$\text{Substrate}$ \xrightarrow{\$\text{Microbial Enzymes}$} \$\text{Antibiotic}$
 
  
 
@@ -111,7 +111,7 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
  
 
- \\text{C}_2\\text{H}_5\\text{OH} + \\text{O}_2 \xrightarrow{\\text{Acetobacter aceti}} \\text{CH}_3\\text{COOH} + \\text{H}_2\\text{O}
+ \$\text{C}$_2\$\text{H}$_5\$\text{OH}$ + \$\text{O}$_2 \xrightarrow{\$\text{Acetobacter aceti}$} \$\text{CH}$_3\$\text{COOH}$ + \$\text{H}$_2\$\text{O}$
 
  
 
@@ -128,7 +128,7 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
  
 
- \\text{N}_2 + 8\\text{H}^+ + 8\\text{e}^- + \\text{ATP} \xrightarrow{\\text{Nitrogenase}} 2\\text{NH}_3 + \\text{H}_2 + \\text{ADP} + \\text{Pi}
+ \$\text{N}$_2 + 8\$\text{H}$^+ + 8\$\text{e}$^- + \$\text{ATP}$ \xrightarrow{\$\text{Nitrogenase}$} 2\$\text{NH}$_3 + \$\text{H}$_2 + \$\text{ADP}$ + \$\text{Pi}$
 
  
 
@@ -142,17 +142,17 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
  - **What 85% scorers do:** They often simply recall that microbes like $Streptomyces$ produce antibiotics and that conditions like temperature, pH, and nutrient availability affect production. They may also vaguely remember that $\mu$ is related to growth rate, but fail to apply it to optimize antibiotic yield.
 
- - **What 95% scorers do:** They understand that maximizing antibiotic production involves optimizing microbial growth conditions based on the $\mu$ value. They apply the formula for specific growth rate: $\frac{{dX}{dt} = \mu X}{X} , where $ is the biomass concentration, to determine the ideal conditions. They also recognize that $\mu$ is influenced by factors like $K_s$ (Monod constant), $S$ (substrate concentration), and $K_i$ (inhibition constant), using the Monod equation: $\mu = \mu_{max} \frac{S}{K_s + S}$. They can further analyze how $\Delta G$ (Gibbs free energy change) affects the spontaneity of metabolic reactions involved in antibiotic synthesis, ensuring they can calculate and compare yields under different conditions.
+ - **What 95% scorers do:** They understand that maximizing antibiotic production involves optimizing microbial growth conditions based on the $\mu$ value. They apply the formula for specific growth rate: $\frac{{dX}{dt} = \mu X}{X} , where $ is the biomass concentration, to determine the ideal conditions. They also recognize that $\mu$ is influenced by factors like $K_s$ (Monod constant), $S$ (substrate concentration), and $K_i$ (inhibition constant), using the Monod equation: $\mu = \mu_{max} \frac{S}{K_s + S}$. They can further analyze how $\delta G$ (Gibbs free energy change) affects the spontaneity of metabolic reactions involved in antibiotic synthesis, ensuring they can calculate and compare yields under different conditions.
 
- - **Key Differentiator:** The ability to apply kinetic models and thermodynamic principles to microbial processes is what separates high scorers. For example, understanding how $K_{eq} = e^\frac{-\Delta G^0${RT}}$ relates to the equilibrium of metabolic reactions and how it impacts antibiotic production efficiency.$
+ - **Key Differentiator:** The ability to apply kinetic models and thermodynamic principles to microbial processes is what separates high scorers. For example, understanding how $K_{eq} = e^\frac{-\delta G^0${RT}}$ relates to the equilibrium of metabolic reactions and how it impacts antibiotic production efficiency.$
 
- - **Crucial Insight:** Recognizing that $\mu$ and $\Delta G$ are interconnected through the metabolism of the microbe, and that optimizing one parameter often affects others, is vital. High scorers can not only recall these formulas but also apply them to predict and optimize outcomes in microbial fermentation processes.
+ - **Crucial Insight:** Recognizing that $\mu$ and $\delta G$ are interconnected through the metabolism of the microbe, and that optimizing one parameter often affects others, is vital. High scorers can not only recall these formulas but also apply them to predict and optimize outcomes in microbial fermentation processes.
 
 | Parameter | Description | Relevance to Antibiotic Production |
 | --- | --- | --- |
 | $\mu$ (specific growth rate) | Measure of how quickly a microbe grows | Optimizing $\mu$ can maximize antibiotic yield |
 | $K_s$ (Monod constant) | Substrate concentration at which growth rate is half of $\mu_{max}$ | Influences the efficiency of substrate utilization for antibiotic production |
-| $\Delta G$ (Gibbs free energy change) | Measure of the spontaneity of a metabolic reaction | Affects the equilibrium and efficiency of metabolic reactions involved in antibiotic synthesis |
+| $\delta G$ (Gibbs free energy change) | Measure of the spontaneity of a metabolic reaction | Affects the equilibrium and efficiency of metabolic reactions involved in antibiotic synthesis |
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
@@ -184,17 +184,17 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
           - $H_2O_2$ production in microbes for industrial applications
 
-- \Delta G = \Delta H - T\Delta S for understanding the thermodynamics of microbial reactions
+- \delta G = \delta H - T\delta S for understanding the thermodynamics of microbial reactions
 
         - **Key [processes](/blog/biotechnology-principles-and-processes-class-12-notes):** Understand the following [processes](/blog/biotechnology-principles-and-processes-class-12-notes) and their applications:
 
-          - Fermentation for the production of antibiotics, vaccines, and other compounds
+          - Fermentation for the production of antibiotics, vaccines, and other [compounds](/blog/coordination-compounds-class-12-notes)
 
           - Genetic engineering for the production of transgenic microbes
 
           - Gene editing for the development of novel microbial products
 
-| Microbe | Application | Field |
+| Microbe | [application](/blog/application-of-derivatives-class-12-notes) | Field |
 | --- | --- | --- |
 | $Streptomyces$ | Antibiotic production | Medicine |
 | $Rhizobium$ | Biofertilizer production | Agriculture |
@@ -206,7 +206,7 @@ practice_link: "/class-11/biology/microbes-in-human-welfare-class-12-notes"
 
 - $pH = -\log_{10}[H^+]$ 
 
- - $\Delta G = \Delta H - T\Delta S$ 
+ - $\delta G = \delta H - T\delta S$ 
 
  - $C_{n}H_{2n}O_{n}$ is the general formula for polysaccharides like starch and cellulose
 

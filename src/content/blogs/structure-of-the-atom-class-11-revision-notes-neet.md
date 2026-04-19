@@ -42,7 +42,7 @@ practice_link: "/class-11/biology/structure-of-the-atom-class-11-revision-notes-
 
 The atom is the building block of matter, and its structure is a fundamental concept in [chemistry](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet). The atomic model has undergone significant changes since the discovery of the atom, with various scientists contributing to our current understanding. The modern atomic model, also known as the quantum mechanical model, describes the atom as a complex system with a nucleus at its center and electrons orbiting around it.
 
-The nucleus contains protons and neutrons, which are collectively known as nucleons. The number of protons in an atom's nucleus determines the element of an atom, and each element has a unique atomic number (Z). The mass number (A) is the \sum of protons and neutrons in an atom's nucleus.
+The nucleus contains protons and neutrons, which are collectively known as nucleons. The number of protons in an [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet)'s nucleus determines the element of an [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet), and each element has a unique atomic number (Z). The mass number (A) is the \sum of protons and neutrons in an [atom](/blog/structure-of-atom-class-11-revision-notes-jee-neet)'s nucleus.
 
 
 
@@ -130,3 +130,4 @@ Continue your [revision](/blog/classification-of-elements-class-11-revision-note
 - 📖 [Some Basic Concepts Of Chemistry Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet)
 - 📖 [Classification Of Elements Class 11 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-of-elements-class-11-revision-notes-jee-neet)
 - 📖 [Locomotion And Movement Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/locomotion-and-movement-class-11-revision-notes-neet)
+$

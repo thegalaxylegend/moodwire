@@ -137,10 +137,10 @@ Most students treat this chapter as a bunch of formulas to memorize. I did the s
 
 ### <a id="rydberg-formula"></a>Rydberg Formula
 
-$\frac{{1}{\lambda} = R_Z^2 \left[ }{ \right]
+\frac{{1}{\lambda}$ = R_Z^2 \left[ }{ \right]
 
 
-Where } \frac{1}{n_1^2} - \frac{1}{n_2^2}$R = 109677 \text{ cm}^{-1}$ (or roughly $1.1 \times 10^7 \text{ m}^{-1}$).
+Where } $\frac{1}{n_1^2}$ - $\frac{1}{n_2^2}R = 109677 \text{ cm}^{-1}$ (or roughly $1.1 \times 10^7 \text{ m}^{-1}$).
 
 ### <a id="spectral-series-table"></a>Spectral Series Table
 | Series | $n_1$ | $n_2$ | Region |
@@ -170,7 +170,7 @@ Where } \frac{1}{n_1^2} - \frac{1}{n_2^2}$R = 109677 \text{ cm}^{-1}$ (or roughl
 
 
 For a microscopic electron, $\lambda$ is significant ($\sim$ atomic dimensions), but for a macroscopic ball, $\lambda$ is $10^{-34}$ m, making its wave nature undetectable.
-- **JEE Trick**: If kinetic energy ($K$) is given, $\lambda = \frac{h}\sqrt{2mK}$$.$ $$
+- **JEE Trick**: If kinetic energy ($K$) is given, $\lambda = \frac{h}\sqrt{2mK}.$
 
 ---
 
@@ -181,10 +181,10 @@ For a microscopic electron, $\lambda$ is significant ($\sim$ atomic dimensions),
 
 ## <a id="6-heisenbergs-uncertainty-principle-the-philosophy-of-subatomic-physics"></a>6. Heisenberg's Uncertainty Principle: The Philosophy of Subatomic Physics
 
-**Heisenberg's Uncertainty Principle states that it is impossible to simultaneously measure the exact position ($\Delta x$) and exact momentum ($\Delta p$) of a subatomic particle with absolute precision.**
+**Heisenberg's Uncertainty Principle states that it is impossible to simultaneously measure the exact position ($\delta x$) and exact momentum ($\delta p$) of a subatomic particle with absolute precision.**
 
 
-\Delta x \cdot \Delta p \geq $\frac{{h}{4\pi}}{\psi} 
+\delta x \cdot \delta p \geq $\frac{{h}{4\pi}}{\psi} 
 
 
 

@@ -9,7 +9,7 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
 
 *Last Updated: 2026-04-09*
 
-<div class="quick-summary">
+<div [class](/blog/quadratic-equations-class-10-notes)="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
@@ -40,15 +40,15 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
 
 - **Remainder Theorem:** $\frac{{p(x)}{x - a} = q(x) + }{ p(x) — p(x) is the polynomial and a is the root.
  - **Polynomial Division:** p(x) = d(x)q(x) + r(x) — p(x) is the dividend, d(x) is the divisor, q(x) is the quotient, and r(x) is the remainder.
- - **Degree of Polynomial:** } \frac{p(a)}{x - a} — p(x) is the polynomial, q(x) is the quotient, and p(a) is the remainder when p(x) is divided by (x - a).
+ - **Degree of Polynomial:** } $\frac{p(a)}{x - a}$ — p(x) is the polynomial, q(x) is the quotient, and p(a) is the remainder when p(x) is divided by (x - a).
 
- - **Factor Theorem:** p(a) = 0 \Rightarrow (x - a) \text{ is a factor of }$\text{Degree of }$ p(x) = n — n is the highest power of x in p(x).
+ - **Factor Theorem:** p(a) = 0 \Rightarrow (x - a) $\text{ is a factor of }\text{Degree of }$ p(x) = n — n is the highest power of x in p(x).
  - **Zero of Polynomial:** p(a) = 0 \Rightarrow a $\text{ is a zero of }$ p(x) — p(x) is the polynomial and a is the zero.
  - **Quadratic Formula:** x = $\frac{{-b \pm }{b}{2a} — a, b, and c are coefficients of the quadratic equation } \sqrt{b^2 - 4ac}$ax^2 + bx + c = 0$.
  - **Sum and Product of Roots:** x_1 + x_2 = -$\frac{{b}{a} }{x_1} \text{ and } x_1x_2 = \frac{c}{a} — $ and $x_2$ are the roots of the quadratic equation $ax^2 + bx + c = 0$.
- - **Cubic Formula:** x = \sqrt[3]{-$\frac{{q}{2} + \sqrt}{{4} + } \frac{q^2$\frac{p^3}{27}$}} + \sqrt[3]{-$\frac{{q}{2} - \sqrt}{{4} + } \frac{q^2$\frac{p^3}{27}}} — p and q are coefficients of the cubic equation x^3 + px + q = 0$.
- - **Descartes' Ru\le of Signs:** $\text{Number of positive roots} = $\text{number of sign changes in }$ p(x) — p(x) is the polynomial.
- - **Intermediate Value Theorem:** $\text{If } p(a) < 0 $\text{ and } p(b) > 0, \text{ then } \exists c \in (a, b) $\text{ such that }$ p(c) = 0 — p(x) is the polynomial and a and b are [real](/blog/real-numbers-class-10-notes) numbers.
+ - **Cubic Formula:** x = \sqrt[3]{-$\frac{{q}{2} + \sqrt}{{4} + } \frac{q^2\frac{p^3}{27}}} + \sqrt[3]{-\frac{{q}{2}$ - \sqrt}{{4} + } \frac{q^2$\frac{p^3}{27}}} — p and q are coefficients of the cubic equation x^3 + px + q = 0$.
+ - **Descartes' Ru\le of Signs:** $\text{Number of positive roots} = \text{number of sign changes in } p(x) — p(x) is the polynomial.
+ - **Intermediate Value Theorem:** $\text{If } p(a) < 0 \text{ and }$ p(b) > 0, $\text{ then }$ \exists c \in (a, b) $\text{ such that }$ p(c) = 0 — p(x) is the polynomial and a and b are [real](/blog/real-numbers-class-10-notes) numbers.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -124,7 +124,7 @@ practice_link: "/class-11/mathematics/polynomials-class-10-notes"
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-- **The Hidden Pattern:** polynomials, a specific pattern emerges when analyzing the roots of a quadratic equation $ax^2 + bx + c = 0$. The roots can be found using the quadratic formula: x = $1 \sqrt{b^2 - 4ac}}${2a}. Upon closer inspection, it becomes apparent that the nature of the roots (real and distinct, real and equal, or complex) is determined by the discriminant $b^2 - 4ac$. This pattern can be extended to polynomial equations of higher degrees, where the nature of the roots is influenced by the coefficients of the polynomial.,- **How to Apply It:** To apply this pattern, first identify the coefficients of the polynomial and then analyze the discriminant to determine the nature of the roots. For instance, given a polynomial $x^3 + px^2 + qx + r = 0$, the roots can be found using Cardano's formula, which involves the discriminant $\Delta = 18pqr - 4p^3r + p^2q^2 - 4q^3 - 27r^2$. By examining the discriminant, one can infer the nature of the roots and proceed with solving the polynomial equation.,- **PYQ-Specific Trend:** Upon analyzing previous years' questions (PYQs), a trend emerges where polynomial equations with specific coefficients are used to test the candidate's understanding of the roots' nature. For examp\le, equations of the form $x^2 + px + q = 0$ with $p$ and $q$ being integers often appear, requiring the candidate to determine the nature of the roots and find the values of $p$ and $q$ that satisfy certain conditions. This trend is also visible in higher-degree polynomial equations, where the coefficients are chosen to test the candidate's ability to apply the pattern and find the roots.,- **Solving Strategy:** When faced with a polynomial equation, first identify the degree of the polynomial and then apply the relevant formula to find the roots. For quadratic equations, use the quadratic formula, while for higher-degree equations, use formulas like Cardano's formula or synthetic division. Remember to analyze the discriminant to determine the nature of the roots and proceed accordingly. With practice and patience, one can master the art of solving polynomial equations and tack\le even the most challenging problems with ease.
+- **The Hidden Pattern:** polynomials, a specific pattern emerges when analyzing the roots of a quadratic equation $ax^2 + bx + c = 0$. The roots can be found using the quadratic formula: x = $1 \sqrt{b^2 - 4ac}}${2a}. Upon closer inspection, it becomes apparent that the nature of the roots (real and distinct, real and equal, or complex) is determined by the discriminant $b^2 - 4ac$. This pattern can be extended to polynomial equations of higher degrees, where the nature of the roots is influenced by the coefficients of the polynomial.,- **How to Apply It:** To apply this pattern, first identify the coefficients of the polynomial and then analyze the discriminant to determine the nature of the roots. For instance, given a polynomial $x^3 + px^2 + qx + r = 0$, the roots can be found using Cardano's formula, which involves the discriminant $\delta = 18pqr - 4p^3r + p^2q^2 - 4q^3 - 27r^2$. By examining the discriminant, one can infer the nature of the roots and proceed with solving the polynomial equation.,- **PYQ-Specific Trend:** Upon analyzing previous years' questions (PYQs), a trend emerges where polynomial equations with specific coefficients are used to test the candidate's understanding of the roots' nature. For examp\le, equations of the form $x^2 + px + q = 0$ with $p$ and $q$ being integers often appear, requiring the candidate to determine the nature of the roots and find the values of $p$ and $q$ that satisfy certain conditions. This trend is also visible in higher-degree polynomial equations, where the coefficients are chosen to test the candidate's ability to apply the pattern and find the roots.,- **Solving Strategy:** When faced with a polynomial equation, first identify the degree of the polynomial and then apply the relevant formula to find the roots. For quadratic equations, use the quadratic formula, while for higher-degree equations, use formulas like Cardano's formula or synthetic division. Remember to analyze the discriminant to determine the nature of the roots and proceed accordingly. With practice and patience, one can master the art of solving polynomial equations and tack\le even the most challenging problems with ease.
 
 | Polynomial Degree | Formula | Discriminant |
 | --- | --- | --- |
@@ -181,10 +181,10 @@ D) $(x^2 - 1)(x^2 + 5)$
 ---
 
 **4. If $a$, $b$ are the roots of the equation $x^2 - 6x + 5 = 0$, then the equation whose roots are $\frac{{1}{a}}{\frac{1}{b}} , $ is**
-A) $x^2 - \frac{5}{6}x + 1 = 0$
-B) $x^2 - \frac{6}{5}x + 1 = 0$
-C) $x^2 + \frac{6}{5}x + 1 = 0$
-D) $x^2 + \frac{5}{6}x + 1 = 0$
+A) x^2 - \frac{5}{6}x + 1 = 0
+B) x^2 - \frac{6}{5}x + 1 = 0
+C) x^2 + \frac{6}{5}x + 1 = 0
+D) x^2 + \frac{5}{6}x + 1 = 0
 
 **Answer:** B) We have, $a + b = 6$ and $ab = 5$. Hence, $\frac{{1}{a} + \frac{1}{b} = \frac{a + b}{ab} = \frac{6}{5}}{\frac{1}{a} 	imes \frac{1}{b} = \frac{1}{5}} , and $. Therefore, the required equation is $x^2 - \frac{6}{5}x + \frac{1}{5} = 0$, or $x^2 - \frac{6}{5}x + 1 = 0$
 

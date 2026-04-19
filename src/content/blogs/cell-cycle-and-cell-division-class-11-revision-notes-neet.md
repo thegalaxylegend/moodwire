@@ -78,7 +78,7 @@ Quick [revision](/blog/hydrocarbons-class-11-revision-notes-neet) is key to achi
 
 I still remember when I was preparing for my [class](/blog/hydrocarbons-class-11-revision-notes-neet) 11 exams, I used to struggle with understanding the cell cycle and cell division. I would often get confused between the different stages of mitosis and cytokinesis. One mistake I made was not practicing enough diagrams and flowcharts, which made it difficult for me to visualize the process. However, after practicing consistently and using online resources, I was able to grasp the concept and score well in my exams. My advice to students would be to practice regularly and use visual aids to understand complex concepts.
 ```markdown
-<div class="note-box">
+<DIV [class](/blog/animal-kingdom-class-11-revision-notes-neet)="note-box">
   <p>Ayush's Tip: Practice consistently and use visual aids to understand complex concepts.</p>
 </div>
 ```
@@ -91,9 +91,9 @@ I still remember when I was preparing for my [class](/blog/hydrocarbons-class-11
 [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) cycle is the series of events that take place in a [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet), leading to its division and duplication. It consists of three main stages: interphase, mitosis, and cytokinesis. Interphase is the longest stage of the [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) cycle, during which the [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) grows, replicates its DNA, and prepares for [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) division. Mitosis is the process of [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) division that results in two daughter cells with the same number of chromosomes as the parent [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet). Cytokinesis is the final stage of [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) division, during which the cytoplasm divides and the [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) splits into two daughter cells.
 
 The [cell](/blog/cell-the-unit-of-life-class-11-revision-notes-neet) cycle can be represented by the following equation:
-$\text{Interphase} \right arrow $\text{Mitosis} \right arrow \text{Cytokinesis}$
+$\text{Interphase} \right arrow \text{Mitosis}$ \right arrow $\text{Cytokinesis}
 Mitosis can be further divided into four stages: prophase, metaphase, anaphase, and telophase.
-$\text{Prophase} \right arrow $\text{Metaphase}$ \right arrow $1 \text{Telophase}$
+$\text{Prophase} \right arrow \text{Metaphase} \right arrow $1 $\text{Telophase}
 
 
 
@@ -217,3 +217,4 @@ Continue your [revision](/blog/biological-classification-class-11-revision-notes
    - **Apoptosis:** Programmed cell death
    - **Significance of Cell Cycle:** Growth, repair, replacement, asexual reproduction
    - **Errors in Cell Cycle:** Cancer, genetic disorders
+

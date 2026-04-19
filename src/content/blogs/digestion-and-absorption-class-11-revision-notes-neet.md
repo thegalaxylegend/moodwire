@@ -55,7 +55,7 @@ practice_link: "/class-11/biology/digestion-and-absorption-class-11-revision-not
 
 ## <a id="introduction-to-digestion-and-absorption"></a>Introduction to Digestion and Absorption
 
-The human digestive system is designed to break down the food we consume into smaller molecules that can be absorbed and utilized by the body for energy, growth, and repair. This process begins in the mouth, where food is chewed and mixed with saliva that contains the enzyme amylase, which breaks down carbohydrates into simpler sugars. The food then passes through the esophagus into the stomach, where it is mixed with gastric juice containing hydrochloric acid and the enzyme pepsin, which breaks down proteins into smaller peptides and amino acids.
+The human digestive system is designed to break down the food we consume into smaller molecules that can be absorbed and utilized by the body for energy, [growth](/blog/plant-growth-and-development-class-11-revision-notes-neet), and repair. This process begins in the mouth, where food is chewed and mixed with saliva that contains the enzyme amylase, which breaks down carbohydrates into simpler sugars. The food then passes through the esophagus into the stomach, where it is mixed with gastric juice containing hydrochloric acid and the enzyme pepsin, which breaks down proteins into smaller peptides and amino acids.
 
 The partially digested food then enters the small intestine, also known as the small bowel, where most of the nutrient absorption takes place. The walls of the small intestine are lined with finger-like projections called villi, which increase the surface area for absorption. Pancreatic juice and bile from the liver and gallbladder, respectively, are released into the small intestine to facilitate the digestion of carbohydrates, proteins, and fats.
 
@@ -68,7 +68,7 @@ The process of digestion can be summarized in the following table:
 The chemical reactions involved in digestion can be represented by the following equations:
 
 
-$\text{Carbohydrates} \xrightarrow$\text{Amylase$} $\text{Maltose} \xrightarrow\text{Maltase$} $\text{Glucose}$\text{Proteins}$ \xrightarrow$\text{Pepsin$} $\text{Peptides} \xrightarrow$\text{Trypsin$} $\text{Amino Acids}$\text{Fats} \xrightarrow$\text{Lipase$} $\text{Fatty Acids} + \text{Glycerol}$
+$\text{Carbohydrates} \xrightarrow$\text{Amylase$} \text{Maltose}$ \xrightarrow\text{Maltase$} \text{Glucose}\text{Proteins}$ \xrightarrow$\text{Pepsin$} $\text{Peptides} \xrightarrow$\text{Trypsin$} \text{Amino Acids}\text{Fats} \xrightarrow$\text{Lipase$} \text{Fatty Acids}$ + $\text{Glycerol}
 
 
 | **Organ** | **Digestive Enzymes** | **Function** |
@@ -89,7 +89,7 @@ The process of absorption primarily occurs in the small intestine and can be sum
 The absorption of nutrients can be represented by the following equation:
 
 
-$\text{Nutrient}_$\text{intestinal lumen}$ \xrightarrow$1 \text{Nutrient}_$\text{bloodstream$}
+$\text{Nutrient}_\text{intestinal lumen} \xrightarrow$1 $\text{Nutrient}$_$\text{bloodstream$}
 
 
 ## <a id="Ayush-note-key-points-for-keenest"></a>Ayush's Note: Key Points for JEE/MEET
@@ -112,7 +112,7 @@ $1 \text{Total Nutrient Intake}$ \times $\text{Absorption Efficiency}$
 For example, if the total carbohydrate intake is 300g and the absorption efficiency is 90%, the amount of carbohydrate absorbed would be:
 
 
-$\text{Carbohydrate Absorption} = 300g \times 0.9 = 270g
+\text{Carbohydrate Absorption}$ = 300g \times 0.9 = 270g
 
 
 ## <a id="trap-questions-common-misconceptions"></a>Trap Questions: Common Misconceptions

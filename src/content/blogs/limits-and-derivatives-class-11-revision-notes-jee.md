@@ -41,7 +41,7 @@ As we dive into the realm of [class](/blog/digital-logic-class-11-revision-notes
 
 In terms of exam weightage, Limits and Derivatives constitute a significant portion of the mathematics syllabus. The NCERT syllabus allocates around 20-25% of the total marks to this topic, making it a high-priority area for students. The exam typically includes a mix of theoretical and problem-based questions, testing students' understanding of concepts, formulas, and applications. With around 40-50 marks dedicated to this topic, it's essential for students to have a strong grasp of Limits and Derivatives to score well in their exams.
 
-Personally, I still remember the thrill of discovering the concept of limits for the first time. It was like unlocking a secret door to a new world of mathematical possibilities. The idea that a function can approach a value, but never quite reach it, fascinated me. As I delved deeper into the subject, I realized that limits are not just a theoretical concept, but a fundamental building block of calculus. They help us understand how functions behave, how they change, and how they interact with each other.
+Personally, I still remember the thrill of discovering the concept of limits for the first time. It was like unlocking a secret door to a new world of mathematical possibilities. The idea that a function can approach a value, but never quite reach it, fascinated me. As I delved deeper into the subject, I realized that limits are not just a theoretical concept, but a fundamental building block of calculus. They help us understand how [functions](/blog/relations-and-functions-class-11-notes) behave, how they change, and how they interact with each other.
 
 The concept of derivatives, on the other hand, is like having a superpower. It allows us to analyze functions, optimize them, and predict their behavior. Derivatives are used in a wide range of fields, from physics and engineering to economics and computer science. They help us model real-world phenomena, make predictions, and solve complex problems. For instance, derivatives are used in physics to describe the motion of objects, in economics to model supply and demand, and in computer science to optimize [algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards).
 
@@ -85,7 +85,7 @@ How to evaluate Limits using Algebraic Manipulation? is a method to find the lim
    Consider the function $f(x) = \frac{x^2 - 4}{x - 2}$. If we directly substitute $x = 2$, we get $\frac{{0}{0}}{(x + 2)(x - 2)} , which is indeterminate. However, by factoring the numerator into $, we can cancel the $(x - 2)$ from both the numerator and the denominator, resulting in $f(x) = x + 2$ for $x
 eq 2$. Then, the limit as $x$ approaches $2$ can be easily evaluated as $2 + 2 = 4$. 
    
-   Another critical technique is rationalizing the numerator or denominator, especially when dealing with square roots. For example, the limit of $\frac{\sqrt{x + 1}{ as }  - 1}{x}$x$ approaches $0$ can be evaluated by rationalizing the numerator. Multiply the numerator and denominator by the conjugate of the numerator, $\sqrt{x + 1} + 1, to eliminate the radical in the numerator. This simplifies to $\frac{{(x + 1) - 1}{x(\sqrt{x + 1} + 1)} = }{\frac{1}} \frac{x}{x(\sqrt{x + 1} + 1)} = $\sqrt{x + 1$ + 1}$. Then, as $x$ approaches $0$, the limit approaches $\frac{{1}\sqrt{0 + 1}{1 . }  + 1} = $
+   Another critical technique is rationalizing the numerator or denominator, especially when dealing with square roots. For example, the limit of $\frac{\sqrt{x + 1}{ as }  - 1}{x}$x$ approaches $0$ can be evaluated by rationalizing the numerator. Multiply the numerator and denominator by the conjugate of the numerator, \sqrt{x + 1}$ + 1, to eliminate the radical in the numerator. This simplifies to $\frac{{(x + 1) - 1}{x(\sqrt{x + 1} + 1)} = }{\frac{1}} \frac{x}{x(\sqrt{x + 1} + 1)} = $\sqrt{x + 1$ + 1}$. Then, as $x$ approaches $0$, the limit approaches $\frac{{1}\sqrt{0 + 1}{1 . }  + 1} = $
    
    Understanding the behavior of limits as $x$ approaches positive or negative infinity is also vital. For rational functions, compare the degrees of the polynomials in the numerator and denominator. If the degrees are the same, the limit as $x$ approaches infinity is the ratio of the leading coefficients. If the degree of the numerator is less than that of the denominator, the limit is $0$. If the degree of the numerator is greater, the limit is either positive or negative infinity, depending on the signs of the leading coefficients. 
    
@@ -174,7 +174,7 @@ The Chain Rule is a fundamental principle in calculus that enables us to differe
 
 To grasp the Chain Rule, let's first understand the concept of composite functions. A composite function is a function of the form $f(g(x))$, where $f$ and $g$ are two separate functions. The Chain Rule states that the derivative of a composite function $f(g(x))$ is given by $f'(g(x)) cdot g'(x)$. This can be expressed mathematically as: 
 
-$\frac{{d}{dx}}{f} f(g(x)) = f'(g(x)) cdot g'(x)
+\frac{{d}{dx}$}{f} f(g(x)) = f'(g(x)) cdot g'(x)
 
 
 
@@ -324,7 +324,7 @@ D. 28x^3 + 6x^2 - 10x + 1 + 0
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/digital-logic-class-11-revision-notes-gate-boards) with these related guides:
 
 - 📖 [Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/permutations-and-combinations-class-11-revision-notes-jee)
 - 📖 [Algorithms: Design Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/algorithms-design-class-11-revision-notes-gate-boards)

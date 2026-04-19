@@ -46,7 +46,7 @@ Physical Geography is the study of the natural features of the Earth's surface. 
 
 ## <a id="what-are-the-key-features-of-landforms"></a>What are the key features of Landforms?
 
-Landforms are the natural features of the Earth's surface, including mountains, valleys, plateaus, and plains. The key features of landforms include their shape, size, and elevation. The highest peak in India is **Kangchenjunga**, which is located in the Himalayan mountain range. The Western Ghats are older than the Himalayas and are located along the western coast of India.
+Landforms are the natural features of the Earth's surface, including mountains, valleys, plateaus, and plains. The key features of landforms include their shape, size, and elevation. The highest peak in [india](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) is **Kangchenjunga**, which is located in the Himalayan mountain range. The Western Ghats are older than the Himalayas and are located along the western coast of [india](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse).
 
 ## <a id="ayushs-personal-note"></a>Ayush's Personal Note
 

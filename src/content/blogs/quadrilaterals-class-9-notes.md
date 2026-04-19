@@ -27,9 +27,9 @@ manualReview: false
  - **Area of a Square:** A = {s^2} — where $s$ is the length of a side of the square.
  - **Area of a Rhombus:** A = {$\frac{{1}{2} 	imes d_1 	imes d_2} — where }{ and } d_1$d_2$ are the lengths of the diagonals of the rhombus.$
  - **Area of a Trapezium:** A = {$\frac{{1}{2} 	imes (a + b) 	imes h} — where }{ and } a$b$ are the lengths of the parallel sides and $h$ is the height of the trapezium.$
- - **Diagonal of a Parallelogram:** d = {\sqrt{a^2 + b^2 - 2ab \cos \theta}} — where $a$ and $b$ are the lengths of the sides and $\theta$ is the angle between the sides.
- - **Diagonal of a Rectangle:** d = {\sqrt{l^2 + w^2}} — where $l$ is the length and $w$ is the width of the rectangle.
- - **Diagonal of a Square:** d = {s \sqrt{2}} — where $s$ is the length of a side of the square.
+ - **Diagonal of a Parallelogram:** d = {$\sqrt{a^2 + b^2 - 2ab \cos \theta}$} — where $a$ and $b$ are the lengths of the sides and $\theta$ is the angle between the sides.
+ - **Diagonal of a Rectangle:** d = {$\sqrt{l^2 + w^2}$} — where $l$ is the length and $w$ is the width of the rectangle.
+ - **Diagonal of a Square:** d = {s $\sqrt{2}$} — where $s$ is the length of a side of the square.
  - **Diagonal of a Rhombus:** d_1^2 + d_2^2 = {4a^2} — where $d_1$ and $d_2$ are the lengths of the diagonals and $a$ is the length of a side of the rhombus.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
@@ -52,7 +52,7 @@ manualReview: false
  Let's consider the circumcircle of $ABCD$. For $AC$ to be the diameter, $angle ADC$ and $angle ABC$ must both be right angles.
  Since the angles in the same segment are equal and $angle A + angle C = angle B + angle D$, we can derive relationships using the properties of cyclic quadrilaterals and the fact that the angle subtended by a diameter is $90^{\circ}$.
  Let $angle A = \alpha$, $angle B = \beta$, $angle C = \gamma$, $angle D = delta$. 
-$ \alpha + \gamma = \beta + \delta 
+ \alpha + \gamma = \beta + \delta 
 
  We aim to show $\alpha + \beta = 180^{\circ}$ and $\gamma + \delta = 180^{\circ}$ for $ABCD$ to be cyclic and $AC$ to be the diameter.
  However, the direct path from the given to proving $AC$ is the diameter involves recognizing that in a cyclic quadrilateral, opposite angles are supplementary.
@@ -73,11 +73,11 @@ $ \alpha + \gamma = \beta + \delta
  Alternatively, when the diagonals and their intersection are known, we consider the areas of the triangles formed.
  For triangles $AOB$, $AOD$, $BOC$, and $COD$, we can calculate their areas using the formula for the area of a triangle given two sides and the included angle, or directly if we can deduce the heights.
  Given the segments, we notice the quadrilateral can be divided into four triangles, and since $AO = DO$ and $BO = CO$, triangles $AOB$ and $COD$ are congruent, as are triangles $AOD$ and $BOC$.
- The formula to find the area of the quadrilateral when diagonals intersect is: Area = \frac{1}{2} 	imes d_1 	imes d_2 when $d_1$ and $d_2$ are the diagonals.
+ The formula to find the area of the quadrilateral when diagonals intersect is: Area = $\frac{1}{2}$ 	imes d_1 	imes d_2 when $d_1$ and $d_2$ are the diagonals.
  However, since we're given segments of diagonals and not the full diagonals, we first find the full diagonals' lengths using $AO$, $BO$, $CO$, $DO$.
  The length of diagonal $AC = AO + CO = 2 + 4 = 6$ cm, and the length of diagonal $BD = BO + DO = 4 + 2 = 6$ cm.
- Now, using the formula for the area given the diagonals: Area = \frac{1}{2} 	imes d_1 	imes d_2
- Substituting $d_1 = AC = 6$ cm and $d_2 = BD = 6$ cm into the formula gives us: Area = \frac{1}{2} 	imes 6 	imes 6 = 18
+ Now, using the formula for the area given the diagonals: Area = $\frac{1}{2}$ 	imes d_1 	imes d_2
+ Substituting $d_1 = AC = 6$ cm and $d_2 = BD = 6$ cm into the formula gives us: Area = $\frac{1}{2}$ 	imes 6 	imes 6 = 18
  - **Answer:** 18 cm$^2$
  - **Q3:** If the diagonals of a quadrilateral bisect each other, then it is a parallelogram. Prove this.
  - **Trap:** Students might not apply the midpoint theorem correctly or forget that a quadrilateral with bisecting diagonals must have opposite sides that are parallel.
@@ -166,51 +166,51 @@ where $P$ is the point outside the circle, and $A$, $B$, $C$, and $D$ are the po
 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
-**1. What is the \sum of the interior angles of a quadrilateral?**
-**A)**     360°
-**B)**     400°
-**C)**     540°
-**D)**     720°
+**1. What is the \sum of the interior [angles](/blog/lines-and-angles-class-9-notes) of a quadrilateral?**
+**A)**      360°
+**B)**      400°
+**C)**      540°
+**D)**      720°
 
 **Answer:** A) Sum of interior angles of a quadrilateral is 360°.
 
 ---
 
 **2. Which of the following quadrilaterals has all sides equal?**
-**A)**     Square
-**B)**     Rectangle
-**C)**     Rhombus
-**D)**     Trapazoid
+**A)**      Square
+**B)**      Rectangle
+**C)**      Rhombus
+**D)**      Trapazoid
 
 **Answer:** A) A square has all sides equal.
 
 ---
 
 **3. In a parallelogram, do the diagonals bisect each other?**
-**A)**     No
-**B)**     Yes
-**C)**     Only in a rectangle
-**D)**     Only in a square
+**A)**      No
+**B)**      Yes
+**C)**      Only in a rectangle
+**D)**      Only in a square
 
 **Answer:** B) In a parallelogram, diagonals bisect each other.
 
 ---
 
 **4. Which quadrilateral has opposite sides parallel?**
-**A)**     Kite
-**B)**     Rhombus
-**C)**     Square
-**D)**     Rectangle
+**A)**      Kite
+**B)**      Rhombus
+**C)**      Square
+**D)**      Rectangle
 
 **Answer:** D) A rectangle has opposite sides parallel.
 
 ---
 
 **5. Do the diagonals of a rhombus bisect each other at right angles?**
-**A)**     No
-**B)**     Yes
-**C)**     Only if the rhombus is a square
-**D)**     Only if the rhombus is a rectangle
+**A)**      No
+**B)**      Yes
+**C)**      Only if the rhombus is a square
+**D)**      Only if the rhombus is a rectangle
 
 **Answer:** B) Diagonals of a rhombus bisect each other at right angles.
 
@@ -232,3 +232,5 @@ Continue your revision with these related guides:
 - 📖 [Lines and Angles Class 9 Mathematics Recap — Grandmaster Guide](/blog/lines-and-angles-class-9-notes)
 - 📖 [Number Systems Class 9 Mathematics Recap — Grandmaster Guide](/blog/number-systems-class-9-notes)
 - 📖 [Application of Derivatives Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
+$
+

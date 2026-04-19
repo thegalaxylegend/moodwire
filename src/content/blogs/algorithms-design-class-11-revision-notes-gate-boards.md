@@ -178,7 +178,7 @@ Algorithm Design Techniques is a systematic approach to solving computational pr
 
 Recursive Algorithms is a programming technique where a function calls itself in its own definition. It includes the base case, recursive case, and the call stack. For [class](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) 11 exam prep in 2026, the most important aspect is understanding how to break down complex problems into smaller instances of the same problem, which is a crucial skill for solving recursive algorithm problems. 
    
-   To implement recursive algorithms, one must first identify the base case, which is the smallest possible input that can be solved directly. Then, the recursive case must be defined, which is the rule that breaks down the problem into smaller instances of the same problem. The call stack is also essential in recursive algorithms, as it keeps track of the function calls and returns. 
+   To implement recursive [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards), one must first identify the base case, which is the smallest possible input that can be solved directly. Then, the recursive case must be defined, which is the rule that breaks down the problem into smaller instances of the same problem. The call stack is also essential in recursive [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards), as it keeps track of the function calls and returns. 
    
    Let's consider the example of the factorial function, which is a classic example of a recursive algorithm. The factorial of a number $n$ is denoted by $n!$ and is calculated as the product of all positive integers less than or equal to $n$. The recursive definition of the factorial function is: $n! = n * (n-1)!$. The base case for this function is $0! = 1$, and the recursive case is $n! = n * (n-1)!$. 
    
@@ -236,7 +236,7 @@ What are common Trap Questions for Algorithms: Design? is a crucial aspect of te
 
 ## <a id="how-do-you-optimize-algorithm-performance-using-dynamic-programming"></a>How do you optimize Algorithm Performance using Dynamic Programming?
 
-How do you optimize Algorithm Performance using Dynamic Programming? is a method to optimize algorithm performance by breaking down complex problems into simpler subproblems. It includes memoization, tabulation, and state transition. For Class 11 exam prep in 2026, the most important aspect is understanding how to apply dynamic programming to solve problems like the 0/1 Knapsack problem, Longest Common Subsequence, and Fibonacci series. 
+How do you optimize Algorithm Performance using Dynamic Programming? is a method to optimize algorithm performance by breaking down complex problems into simpler subproblems. It includes memoization, tabulation, and state transition. For [class](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) 11 exam prep in 2026, the most important aspect is understanding how to apply dynamic programming to solve problems like the 0/1 Knapsack problem, Longest Common Subsequence, and Fibonacci series. 
 
 Dynamic programming is particularly useful for problems that have overlapping subproblems or that can be decomposed into smaller subproblems. The key idea is to store the solutions to subproblems in a memory table, called a memoization table, to avoid redundant computation. This approach is in contrast to recursion, which solves the same subproblems multiple times.
 
@@ -252,7 +252,7 @@ Let's consider the example of the Fibonacci series, which is a classic problem t
 F(n) = egin{cases}
 0 & \text{if $n = 0$} \
 1 & \text{if $n = 1$} \
-F(n-1) + F(n-2) & \text{otherwise}
+F(n-1) + F(n-2) & $\text{otherwise}$
 end{cases}
 
 However, this solution has a time complexity of $O(2^n)$, which is inefficient for large values of $n$. 

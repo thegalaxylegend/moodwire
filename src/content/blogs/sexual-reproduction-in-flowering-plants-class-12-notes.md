@@ -24,7 +24,7 @@ practice_link: "/class-11/biology/sexual-reproduction-in-flowering-plants-class-
 
 - **Law of Independent Assortment:** $\frac{{1}{2} \times }{ — Probability of two independent traits being inherited together.
 
-- **Law of Segregation:** } \frac{1}{2} = \frac{1}{4}$\frac{1}{2} : $\frac{{1}{2}}{\frac{(}  — Ratio of two alleles in gametes.
+- **Law of Segregation:** } $\frac{1}{2}$ = $\frac{1}{4}\frac{1}{2} : \frac{{1}{2}$}{$\frac{(}$  — Ratio of two alleles in gametes.
 
 - **Punnett Square Formula:** $\text{Number of favorable outcomes})}{(\text{Total number of outcomes}$)} — Probability of a specific genotype or phenotype.
 
@@ -34,15 +34,15 @@ practice_link: "/class-11/biology/sexual-reproduction-in-flowering-plants-class-
 
  - **Phenotype Frequency:** p^2 + 2pq + q^2 — Frequency of phenotypes in a population, where $p$ and $q$ are the frequencies of the two alleles.
 
-- **Inbreeding Coefficient (F):** F = $\frac{{(}{)}{(} \text{Homozygosity}$\text{Total}$)} — Measure of inbreeding in a population.
+- **Inbreeding Coefficient (F):** F = $\frac{{(}{)}{(} \text{Homozygosity}\text{Total})} — Measure of inbreeding in a population.
 
 - **Coefficient of Inbreeding:** F = $\frac{{(}{)} — Measure of inbreeding in a pedigree.
 
-- **Chi-Square Test:** \chi^2 = \sum } \text{Number of common ancestors})}{(\text{Total number of ancestors}$\frac{($\text{Observed frequency}$ - $\text{Expected frequency})^2}$\text{Expected frequency$} — Test for goodness of fit between observed and expected frequencies.
+- **Chi-Square Test:** \chi^2 = \sum } $\text{Number of common ancestors}$)}{($\text{Total number of ancestors}\frac{(\text{Observed frequency} - \text{Expected frequency}$)^2}$\text{Expected frequency$} — Test for goodness of fit between observed and expected frequencies.
 
 - **Linkage Distance (cM):** $\frac{{(}{)} \times 100 — Measure of the distance between two linked genes.
 
-- **Map Distance (cM):** } \text{Number of recombinants})}{(\text{Total number of offspring}$\frac{($\text{Number of recombinants}$)}{($\text{Total number of offspring}$)} \times 100 — Measure of the distance between two linked genes.
+- **Map Distance (cM):** } $\text{Number of recombinants}$)}{($\text{Total number of offspring}\frac{(\text{Number of recombinants})}{(\text{Total number of offspring})} \times 100 — Measure of the distance between two linked genes.
 
 - **Recombination Frequency:** $\frac{{(}{)} — Measure of the frequency of recombination between two linked genes.
 
@@ -52,7 +52,7 @@ practice_link: "/class-11/biology/sexual-reproduction-in-flowering-plants-class-
 
  - *Costs:* 2-3 marks in diagram-based questions
 
- - *Fix:* Familiarize yourself with the structure of a flower, including the androecium (} \text{Number of recombinants})}{(\text{Total number of offspring}$\male$) and gynoecium ($\female$) using diagrams and labeling exercises.
+ - *Fix:* Familiarize yourself with the structure of a flower, including the androecium (} $\text{Number of recombinants}$)}{($\text{Total number of offspring}\male$) and gynoecium ($\female$) using diagrams and labeling exercises.
 
  - **Mistake 2:** Not understanding the process of pollination, including the role of pollinators and the transfer of pollen.
 
@@ -60,7 +60,7 @@ practice_link: "/class-11/biology/sexual-reproduction-in-flowering-plants-class-
 
  - *Fix:* Review the different types of pollination, such as self-pollination and cross-pollination, and understand the importance of pollinators like bees, butterflies, and wind.
 
- - **Mistake 3:** Failing to recognize the significance of double fertilization in flowering plants.
+ - **Mistake 3:** Failing to recognize the significance of double fertilization in [flowering](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet) plants.
 
  - *Costs:* 3-4 marks in long-answer questions
 
@@ -90,7 +90,7 @@ practice_link: "/class-11/biology/sexual-reproduction-in-flowering-plants-class-
 
  
 
- \\text{Fertilization} = \\text{Pollen tube} + \\text{Egg cell}
+ \$\text{Fertilization}$ = \$\text{Pollen tube}$ + \$\text{Egg cell}$
 
  
 
@@ -109,7 +109,7 @@ practice_link: "/class-11/biology/sexual-reproduction-in-flowering-plants-class-
 
   
 
- \\text{Double Fertilization} = \\text{Fertilization of egg cell} + \\text{Fertilization of central cell}
+ \$\text{Double Fertilization}$ = \$\text{Fertilization of egg cell}$ + \$\text{Fertilization of central cell}$
 
  
 
@@ -128,7 +128,7 @@ practice_link: "/class-11/biology/sexual-reproduction-in-flowering-plants-class-
 
  
 
- \\text{Self-Pollination} = \\text{Pollen from same plant}
+ \$\text{Self-Pollination}$ = \$\text{Pollen from same plant}$
 
  
 
@@ -136,7 +136,7 @@ practice_link: "/class-11/biology/sexual-reproduction-in-flowering-plants-class-
 
  
 
- \\text{Cross-Pollination} = \\text{Pollen from different plant}
+ \$\text{Cross-Pollination}$ = \$\text{Pollen from different plant}$
 
  
 
@@ -152,7 +152,7 @@ practice_link: "/class-11/biology/sexual-reproduction-in-flowering-plants-class-
 
   
 
- $\text{Male Gamete} + $\text{Egg Cell}$ \rightarrow $\text{Zygote (2n)}$\text{Male Gamete} + 2 \text{ Polar Nuclei (2n)} \rightarrow $\text{Primary Endosperm Nucleus (3n)}$
+ $\text{Male Gamete} + \text{Egg Cell} \rightarrow \text{Zygote (2n)}\text{Male Gamete} + 2 \text{ Polar Nuclei (2n)} \rightarrow \text{Primary Endosperm Nucleus (3n)}
 
  
 
@@ -175,7 +175,7 @@ ightarrow n$ transition during meiosis and its implications for seed formation. 
 
 | Stage | Chromosome Number | Cell Type |
 | --- | --- | --- |
-| Microsporogenesis | }  law of independent assortment. - **Common PYQs:** Be prepared to answer questions related to the \Delta variations in seed formation, such as the difference between monocots and dicots, or the impact of environmental factors like temperature and light on pollination and fertilization rates, using formulas like \frac{dN}{dt} = rN$n$ | Microspores |
+| Microsporogenesis | }  law of independent assortment. - **Common PYQs:** Be prepared to answer questions related to the \delta variations in seed formation, such as the difference between monocots and dicots, or the impact of environmental factors like temperature and light on pollination and fertilization rates, using formulas like \frac{dN}{dt} = rN$n$ | Microspores |
 | Megasporogenesis | $n$ | Megaspores |
 | Pollination | $n$ | Pollen Grains |
 | Fertilization | $2n$ | Zygote |
@@ -187,7 +187,7 @@ ightarrow n$ transition during meiosis and its implications for seed formation. 
 
 - $\frac{{1}{2} of the pollen grains produce male gametes, while the other }{ produce female gametes.
 
- - The process of microsporogenesis produces } \frac{1}{2}$4$ microspores, which develop into $4$ pollen grains.
+ - The process of microsporogenesis produces } $\frac{1}{2}4$ microspores, which develop into $4$ pollen grains.
 
  - The megasporangium contains $4$ megaspores, but only $1$ functional megaspore survives.
 

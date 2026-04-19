@@ -141,7 +141,7 @@ Continue your [revision](/blog/3d-geometry-intro-class-11-revision-notes-jee-nee
    * Organic farming: farming using natural/organic sources for crop growth
    * Soil erosion: removal of top layer of soil by natural/artificial forces
    * Nutrient deficiency: lack of essential nutrients in soil for plant growth
-   * Soil testing: analysis of soil for pH/nutrient content
+   * Soil testing: [analysis](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) of soil for pH/nutrient content
    * Fertilizers: inorganic/chemical substances to add nutrients to soil
    * Manures: organic substances to add nutrients to soil
    * Irrigation: artificial application of water for plant growth

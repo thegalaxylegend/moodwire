@@ -41,7 +41,7 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 
 - **Mendel's Law of Segregation:** $\frac{{1}{2} of the gametes will have one allele and the other }{\frac{1}{2}} \frac{1}{2} will have the other allele — where the alleles are different versions of a gene.
 
-- **Mendel's Law of Independent Assortment:** \frac{1}{4} of the offspring will have one combination of alleles, $ will have another combination, and $\frac{{1}{4}}{p}  will have the last combination — assuming two genes are unlinked.
+- **Mendel's Law of Independent Assortment:** $\frac{1}{4}$ of the offspring will have one combination of alleles, $ will have another combination, and \frac{{1}{4}$}{p}  will have the last combination — assuming two genes are unlinked.
 
 - **Hardy-Weinberg Principle:** p^2 + 2pq + q^2 = 1 — where $ and $q$ are the frequencies of the two alleles, and $p^2$ and $q^2$ are the frequencies of the two homozygous genotypes, and $2pq$ is the frequency of the heterozygous genotype. 
 
@@ -75,13 +75,13 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 
  - *Costs:* 5-8 marks per question
 
- - *Fix:* Be aware of the different types of interactions between alleles, such as codominance, incomplete dominance, and multiple alleles. Use the correct formulas, like the $\frac{{9}{16}}{\frac{3}{16}} , $, and $\frac{{4}{16}}{\Delta}  rules for dihybrid crosses, and consider the impact of each type of interaction on the expected phenotypic ratios.
+ - *Fix:* Be aware of the different types of interactions between alleles, such as codominance, incomplete dominance, and multiple alleles. Use the correct formulas, like the $\frac{{9}{16}}{\frac{3}{16}} , $, and $\frac{{4}{16}}{\delta}  rules for dihybrid crosses, and consider the impact of each type of interaction on the expected phenotypic ratios.
 
  - **Mistake 3:** Confusing between the different types of DNA variations, such as mutations, genetic recombination, and gene flow, and their effects on the evolution of populations.
 
  - *Costs:* 6-8 marks per question
 
- - *Fix:* Make sure to understand the definitions and effects of each type of DNA variation, including point mutations ($-insertions, deletions, and substitutions), chromosomal mutations ($\Delta$-translocations, inversions, and duplications), genetic recombination (crossing over and independent assortment), and gene flow (migration and genetic drift).
+ - *Fix:* Make sure to understand the definitions and effects of each type of DNA variation, including point mutations ($-insertions, deletions, and substitutions), chromosomal mutations ($\delta$-translocations, inversions, and duplications), genetic recombination (crossing over and independent assortment), and gene flow (migration and genetic drift).
 
  - **Mistake 4:** Incorrectly applying the Hardy-Weinberg principle to predict allele frequencies in a population, or neglecting to consider the assumptions of the principle.
 
@@ -93,7 +93,7 @@ practice_link: "/class-11/biology/principles-of-inheritance-and-variation-class-
 
  - *Costs:* 8-12 marks per question
 
- - *Fix:* Learn to identify the characteristics of each type of selection, including the $\Delta$-shift in the mean of a trait under directional selection, the reduction in variance under stabilizing selection, and the increase in variance under disruptive selection. Understand how each type of selection can influence the evolution of a population over time.
+ - *Fix:* Learn to identify the characteristics of each type of selection, including the $\delta$-shift in the mean of a trait under directional selection, the reduction in variance under stabilizing selection, and the increase in variance under disruptive selection. Understand how each type of selection can influence the evolution of a population over time.
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
@@ -123,9 +123,9 @@ P(G|B) = $\frac{{0.5}{0.75} = }{
 
  - **Solution:** 
 
- The given alleles are ‘R’ for red seed color (dominant) and ‘r’ for green seed color (recessive). The two heterozygous parents can be represented as } \frac{2}{3}
+ The given alleles are ‘R’ for red seed color (dominant) and ‘r’ for green seed color (recessive). The two heterozygous parents can be represented as } $\frac{2}{3}$
 
- - **Answer:** \frac{2}{3}$Rr$. 
+ - **Answer:** $\frac{2}{3}Rr$. 
 
  Using the Punnett square method, we can find the genotypic ratio of the offspring:
 
@@ -193,7 +193,7 @@ The genotypic ratio is $1RR : 2Rr : 1rr$. Since the ‘R’ allele is dominant, 
 
  * Application of the **$\frac{{1}{2}}{\frac{1}{4}} ** rule for predicting the probability of a particular genotype in a monohybrid cross, and the **$**, **$\frac{{1}{2}}{\frac{1}{4}} **, **$** rule for a dihybrid cross.
 
-* Understanding of the difference between **incomplete dominance** ( $\frac{{A}{a} \times }{  results in a **3:1** ratio of phenotypes, but with one phenotype being a blend of the two parental phenotypes) and **co-dominance** ( } \frac{A}{a}$1 \frac{R}{r}$1 1  $1 
+* Understanding of the difference between **incomplete dominance** ( $\frac{{A}{a} \times }{  results in a **3:1** ratio of phenotypes, but with one phenotype being a blend of the two parental phenotypes) and **co-dominance** ( } \frac{A}{a}$1 $\frac{R}{r}1 1  $1 
 
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
@@ -209,7 +209,7 @@ The genotypic ratio is $1RR : 2Rr : 1rr$. Since the ‘R’ allele is dominant, 
 
  - q^2 + p^2 + 2pq = 1 : Hardy-Weinberg principle for a monohybrid cross.
 
-- \Delta p = $\frac{p(q - p)}{p + q}$ : Change in allele frequency.
+- \delta p = $\frac{p(q - p)}{p + q}$ : Change in allele frequency.
 
  - H = 1 - \sum p^2 : Expected heterozygosity.
 

@@ -154,7 +154,7 @@ A combination is a selection of items where the order of selection does not matt
 
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
-- **Chapter 6: Linear Inequalities**
+- **Chapter 6: [linear](/blog/linear-inequalities-class-11-revision-notes-jee-neet) Inequalities**
 - **Chapter 8: Binomial Theorem**
 - [**External Reference:** [NCERT Class 11 Math Chapter 7](https://ncert.nic.in/textbook.php?kemh1=7-16) (Authoritative Source)]
 

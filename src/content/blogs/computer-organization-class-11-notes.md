@@ -109,7 +109,7 @@ What are the Basic Components of a Computer? is a fundamental concept in compute
 
  **Memory** refers to the computer's ability to store [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) and programs. There are two main types of memory: **RAM (Random Access Memory)** and **ROM (Read-Only Memory)**. RAM is volatile, meaning that its contents are lost when the computer is powered off, while ROM is non-volatile, meaning that its contents are retained even when the computer is turned off.
 
- **Input/Output (I/O) devices** allow users to interact with the computer. Examples of I/O devices include keyboards, mice, monitors, and printers. These devices enable users to enter data, view output, and control the computer's functions.
+ **Input/Output (I/O) devices** allow users to interact with the computer. Examples of I/O devices include keyboards, mice, monitors, and printers. These devices enable users to enter [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards), view output, and control the computer's functions.
 
  A key concept to understand is the **von Neumann Architecture**, which is a [design](/blog/algorithms-design-class-11-revision-notes-gate-boards) model for computer systems that consists of a CPU, memory, and I/O devices. This architecture is still the basis for most modern computer systems.
 
@@ -134,14 +134,14 @@ The Central Processing Unit (CPU) is a hardware component that executes instruct
 
 | Component | Function | Importance in CPU Operation |
 | --- | --- | --- |
-| Arithmetic Logic Unit (ALU) | Executes mathematical and logical operations | High |
+| Arithmetic [logic](/blog/digital-logic-class-11-revision-notes-gate-boards) Unit (ALU) | Executes mathematical and logical operations | High |
 | Registers | Temporary storage for data and instructions | Medium |
 | Control Unit | Manages data flow and instruction execution | High |
 
 
 ## <a id="what-is-the-role-of-the-control-unit-in-a-computer"></a>What is the Role of the Control Unit in a Computer?
 
-What is the Role of the Control Unit in a Computer? is the component that directs the flow of data and instructions within a computer. It includes the **Arithmetic Logic Unit (ALU)**, **Registers**, and **Decoders**. For Class 11 exam prep in 2026, the most important aspect is understanding how the control unit manages the **fetch-decode-execute cycle**.
+What is the Role of the Control Unit in a Computer? is the component that directs the flow of data and instructions within a computer. It includes the **Arithmetic Logic Unit (ALU)**, **Registers**, and **Decoders**. For [class](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) 11 exam prep in 2026, the most important aspect is understanding how the control unit manages the **fetch-decode-execute cycle**.
 
  The control unit acts as the brain of the computer, overseeing the execution of instructions. It retrieves instructions from memory, decodes them, and then executes them. This process is fundamental to the operation of a computer and is a critical area of study for computer science students. The control unit's primary function is to manage the flow of data between different parts of the computer, such as the **Central Processing Unit (CPU)**, memory, and input/output devices.
 

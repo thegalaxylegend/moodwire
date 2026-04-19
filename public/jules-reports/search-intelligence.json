@@ -1,15 +1,25 @@
 {
-  "generatedAt": "2026-04-17T02:53:29.973Z",
+  "generatedAt": "2026-04-19T04:52:58.009Z",
   "dateRange": {
-    "startDate": "2026-03-18",
-    "endDate": "2026-04-17"
+    "startDate": "2026-03-20",
+    "endDate": "2026-04-19"
   },
-  "totalRows": 4,
+  "totalRows": 6,
   "opportunities": 0,
   "globalTopKeywords": [
     {
+      "query": "exam compass",
+      "impressions": 8,
+      "clicks": 0
+    },
+    {
       "query": "examcompass.web.app",
       "impressions": 8,
+      "clicks": 0
+    },
+    {
+      "query": "examcompass.com",
+      "impressions": 2,
       "clicks": 0
     },
     {
@@ -30,17 +40,31 @@
   ],
   "pages": {
     "https://examcompass.pages.dev/": {
-      "impressions": 10,
+      "impressions": 20,
       "clicks": 0,
       "ctr": 0,
-      "position": 6.3,
+      "position": 11.6,
       "topQueries": [
+        {
+          "query": "exam compass",
+          "impressions": 8,
+          "clicks": 0,
+          "ctr": 0,
+          "position": 8.9
+        },
         {
           "query": "examcompass.web.app",
           "impressions": 8,
           "clicks": 0,
           "ctr": 0,
           "position": 5.8
+        },
+        {
+          "query": "examcompass.com",
+          "impressions": 2,
+          "clicks": 0,
+          "ctr": 0,
+          "position": 30.5
         },
         {
           "query": "jee compas",

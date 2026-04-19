@@ -175,7 +175,7 @@ Consider a vehicle of mass **m** on a road banked at angle **θ** with coefficie
 
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
-- **Chapter 5: Work, Energy, and Power**
+- **Chapter 5: [work](/blog/work-energy-and-power-class-11-revision-notes-neet), Energy, and Power**
 - **Chapter 6: System of Particles (Torque)**
 - **Mastering FBD: Pulley and Wedge Problems**
 
@@ -215,7 +215,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/rotational-motion-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
 - 📖 [Rotational Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/rotational-motion-class-11-revision-notes-jee-neet)

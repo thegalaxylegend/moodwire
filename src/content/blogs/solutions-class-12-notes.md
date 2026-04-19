@@ -28,21 +28,21 @@ practice_link: "/class-11/chemistry/solutions-class-12-notes"
 * Vapour pressure and Raoult's law — always 1-2 questions, focusing on $\frac{{p^{\circ} - p_{s}}{p^{\circ}} = \frac{n}{N + n}}{p_{s} = p^{\circ} \times \frac{N}{N + n}}  and $
 * Colligative properties — at least 1 question on relative lowering of vapour pressure, elevation in boiling point, or depression in freezing point
 * Henry's law — frequently examined, involving $p = K_{H} \times x$ and applications in $K_{H}$ calculation
-* Ideal and non-ideal solutions — distinction and applications, focusing on $\Delta H_{mixing}$ and $\Delta V_{mixing}$
+* Ideal and non-ideal solutions — distinction and applications, focusing on $\delta H_{mixing}$ and $\delta V_{mixing}$
 * Numerical on Ostwald's dilution law — always, using the formula $K_{b} = \frac{\alpha^{2}}{1 - \alpha} \times \frac{1}{c} = \frac{K_{w}}{K_{a}}$
 * Photoelectric effect graph — NEET favourite, involving $eV_{0} = h
 u - \phi$ and $K_{max} = h
 u - \phi$
 * 1 question on van't Hoff factor — involving the formula $i = \frac\text{Observed molar mass$}$\text{Theoretical molar mass$} and its relation to colligative properties
-* Numerical on freezing point depression and boiling point elevation — frequently examined, using the formulas \Delta T_{f} = K_{f} \times m$ and $\Delta T_{b} = K_{b} \times m$
+* Numerical on freezing point depression and boiling point elevation — frequently examined, using the formulas \delta T_{f} = K_{f} \times m$ and $\delta T_{b} = K_{b} \times m$
 * 1 question on normality and molarity relationship — involving the formula $N = \frac{M}{n}$, where $n$ is the number of replaceable $H^{+}$ or $OH^{-}$ ions
 * Numerical on $pH$ and $pOH$ calculation — always, using the formulas $pH + pOH = 14$ and $pH = -\log[H^{+}]$ 
 * Ionic equilibria — at least 1 question on common ion effect, solubility product, or buffer solutions, involving $K_{sp} = [A^{+}][B^{-}]$ and $pH = pK_{a} + \log\frac{[Salt]}{[Acid]}$
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-$M = \frac{w}{m}$, where $M$ is Molarity, $w$ is mass of solute, $m$ is molar mass of solute.$m = \frac{w}{M}$, where $m$ is mass of solute, $w$ is weight of solute, $M$ is Molarity.$\Delta T = K_f \times m$, where $\Delta T$ is depression in freezing point, $K_f$ is freezing point depression constant, $m$ is molality. 
- $\Delta T = K_b \times m$, where $\Delta T$ is elevation in boiling point, $K_b$ is boiling point elevation constant, $m$ is molality. 
+$M = \frac{w}{m}$, where $M$ is Molarity, $w$ is mass of solute, $m$ is molar mass of solute.$m = \frac{w}{M}$, where $m$ is mass of solute, $w$ is weight of solute, $M$ is Molarity.$\delta T = K_f \times m$, where $\delta T$ is depression in freezing point, $K_f$ is freezing point depression constant, $m$ is molality. 
+ $\delta T = K_b \times m$, where $\delta T$ is elevation in boiling point, $K_b$ is boiling point elevation constant, $m$ is molality. 
  $T = \frac{K_b \times w}{1000 \times m}$, where $T$ is elevation in boiling point, $K_b$ is boiling point elevation constant, $w$ is mass of solute, $m$ is molar mass of solute.$T = \frac{K_f \times w}{1000 \times m}$, where $T$ is depression in freezing point, $K_f$ is freezing point depression constant, $w$ is mass of solute, $m$ is molar mass of solute.$M_1V_1 = M_2V_2$, where $M_1$ and $M_2$ are initial and final Molarities, $V_1$ and $V_2$ are initial and final volumes. 
  $V = \frac{w}{m \times M}$, where $V$ is volume of solution, $w$ is mass of solute, $m$ is molar mass of solute, $M$ is Molarity.$w = m \times M \times V$, where $w$ is mass of solute, $m$ is molar mass of solute, $M$ is Molarity, $V$ is volume of solution. 
  $m = \frac{M \times V}{1000}$, where $m$ is number of moles of solute, $M$ is Molarity, $V$ is volume of solution in $ml$.$V = \frac{m \times 1000}{M}$, where $V$ is volume of solution in $ml$, $m$ is number of moles of solute, $M$ is Molarity.$C = \frac{m}{V}$, where $C$ is concentration, $m$ is mass of solute, $V$ is volume of solution.$C = \frac{w}{V}$, where $C$ is concentration, $w$ is mass of solute, $V$ is volume of solution.$C_1V_1 = C_2V_2$, where $C_1$ and $C_2$ are initial and final concentrations, $V_1$ and $V_2$ are initial and final volumes. 
@@ -53,8 +53,8 @@ $M = \frac{w}{m}$, where $M$ is Molarity, $w$ is mass of solute, $m$ is molar ma
 | --- | --- | --- |
 | $M = \frac{w}{m}$ | M: Molarity, w: mass of solute, m: molar mass of solute | M: $M$, w: $g$, m: $g/mol$ |
 | $m = \frac{w}{M}$ | m: mass of solute, w: weight of solute, M: Molarity | m: $g$, w: $g$, M: $M$ |
-| $\Delta T = K_f \times m$ | \Delta T: depression in freezing point, $K_f$: freezing point depression constant, m: molality | \Delta T: $^\circ C$, $K_f$: $^\circ C/m$, m: $m$ |
-| $\Delta T = K_b \times m$ | \Delta T: elevation in boiling point, $K_b$: boiling point elevation constant, m: molality | \Delta T: $^\circ C$, $K_b$: $^\circ C/m$, m: $m$ |
+| $\delta T = K_f \times m$ | \delta T: depression in freezing point, $K_f$: freezing point depression constant, m: molality | \delta T: $^\circ C$, $K_f$: $^\circ C/m$, m: $m$ |
+| $\delta T = K_b \times m$ | \delta T: elevation in boiling point, $K_b$: boiling point elevation constant, m: molality | \delta T: $^\circ C$, $K_b$: $^\circ C/m$, m: $m$ |
 | $T = \frac{K_b \times w}{1000 \times m}$ | T: elevation in boiling point, $K_b$: boiling point elevation constant, w: mass of solute, m: molar mass of solute | T: $^\circ C$, $K_b$: $^\circ C/m$, w: $g$, m: $g/mol$ |
 | $T = \frac{K_f \times w}{1000 \times m}$ | T: depression in freezing point, $K_f$: freezing point depression constant, w: mass of solute, m: molar mass of solute | T: $^\circ C$, $K_f$: $^\circ C/m$, w: $g$, m: $g/mol$ |
 | $M_1V_1 = M_2V_2$ | $M_1$ and $M_2$: initial and final Molarities, $V_1$ and $V_2$: initial and final volumes | $M_1$ and $M_2$: $M$, $V_1$ and $V_2$: $L$ |
@@ -79,15 +79,15 @@ Mistake: Using $\lambda = \frac{h}{mv}$ without converting mass to kg. Many stud
 
  Mistake: Not considering the van 't Hoff factor when calculating the molality of a solution. The van 't Hoff factor is crucial in determining the molality of a solution, especially when dealing with ionic [compounds](/blog/coordination-compounds-class-12-notes).
  Costs: 2-3 marks. Failing to consider the van 't Hoff factor can result in incorrect calculations, leading to a loss of marks.
- Fix: Use $i = $\frac{\text{Observed molar mass}{\text{Theoretical molar mass} }$}$ to calculate the van 't Hoff factor and then use it to calculate the molality.
+ Fix: Use $i = \frac{\text{Observed molar mass}{\text{Theoretical molar mass}$ }$}$ to calculate the van 't Hoff factor and then use it to calculate the molality.
 
- Mistake: Writing the expression for the freezing point depression as $\Delta T = \frac{K_f}{m}$ without considering the molality. The freezing point depression is a colligative property that depends on the molality of the solution.
+ Mistake: Writing the expression for the freezing point depression as $\delta T = \frac{K_f}{m}$ without considering the molality. The freezing point depression is a colligative property that depends on the molality of the solution.
  Costs: 3 marks. This mistake can lead to incorrect calculations and a significant loss of marks.
- Fix: Use $\Delta T = K_f \times m$ and ensure that the molality is calculated correctly.
+ Fix: Use $\delta T = K_f \times m$ and ensure that the molality is calculated correctly.
 
- Mistake: Forgetting to use $\Delta H_{sol} = \Delta H_{lattice} + \Delta H_{hydration}$ when calculating the enthalpy of solution. The enthalpy of solution is a critical concept in solutions, and this equation is essential for calculating it.
+ Mistake: Forgetting to use $\delta H_{sol} = \delta H_{lattice} + \delta H_{hydration}$ when calculating the enthalpy of solution. The enthalpy of solution is a critical concept in solutions, and this equation is essential for calculating it.
  Costs: Full 5 marks. This mistake can lead to a significant loss of marks, especially in questions that involve complex thermodynamic calculations.
- Fix: Always use $\Delta H_{sol} = \Delta H_{lattice} + \Delta H_{hydration}$ and ensure that the values are correctly calculated.
+ Fix: Always use $\delta H_{sol} = \delta H_{lattice} + \delta H_{hydration}$ and ensure that the values are correctly calculated.
 
  Mistake: Not considering the effect of temperature on the solubility of gases when using $P = \frac{nRT}{V}$. The solubility of gases is affected by temperature, and this must be considered when using the ideal gas law.
  Costs: 2-3 marks. Failing to consider the effect of temperature can result in incorrect calculations, leading to a loss of marks.
@@ -97,8 +97,8 @@ Mistake: Using $\lambda = \frac{h}{mv}$ without converting mass to kg. Many stud
 | --- | --- | --- |
 | Using $\lambda = \frac{h}{mv}$ without converting mass to kg | Full 4 marks | Always convert grams to kg |
 | Not considering the van 't Hoff factor | 2-3 marks | Use $i = $\frac{{\text{Observed molar mass}{b}}}{}} \text{Theoretical molar mass$ |
-| Writing the expression for the freezing point depression as $\Delta T = \frac{K_f}{m}$ | 3 marks | Use $\Delta T = K_f \times m$ |
-| Forgetting to use $\Delta H_{sol} = \Delta H_{lattice} + \Delta H_{hydration}$ | Full 5 marks | Always use $\Delta H_{sol} = \Delta H_{lattice} + \Delta H_{hydration}$ |
+| Writing the expression for the freezing point depression as $\delta T = \frac{K_f}{m}$ | 3 marks | Use $\delta T = K_f \times m$ |
+| Forgetting to use $\delta H_{sol} = \delta H_{lattice} + \delta H_{hydration}$ | Full 5 marks | Always use $\delta H_{sol} = \delta H_{lattice} + \delta H_{hydration}$ |
 | Not considering the effect of temperature on the solubility of gases | 2-3 marks | Use $P = \frac{nRT}{V}$ and consider the effect of temperature |
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
@@ -108,10 +108,10 @@ Q: A solution of $2.44 \text{ g}$ of $mathrm{CuSO_4}$ in $100 \mathrm{ mL}$ of w
  Solution: 
  First, calculate the molal freezing point depression constant $K_f$ for water: 
  $K_f = 1.86 ^\circ\mathrm{C}/m$. 
- The formula to calculate the molality $m$ from the freezing point depression $\Delta T$ is: 
- $m = \frac$\Delta T${K_f}$.
- Given $\Delta T = 0.184^\circ\mathrm{C}$, 
- $m = \frac{0.184^\circ\mathrm{C}}{1.86^\circ\mathrm{C}/m} = 0.099 m$.
+ The formula to calculate the molality $m$ from the freezing point depression $\delta T$ is: 
+ m = \frac\delta T{K_f}. 
+ Given $\delta T = 0.184^\circ\mathrm{C}$, 
+ m = \frac{0.184^\circ\mathrm{C}}{1.86^\circ\mathrm{C}/m} = 0.099 m. 
  However, $mathrm{CuSO_4}$ dissociates into two ions, so we must consider the van't Hoff factor $i$. 
  For $mathrm{CuSO_4}$, $i = 2$, so the actual molality is $m = \frac{0.099 m}{2} = 0.0495 m$.
  But we know that $m = \frac\text{moles of solute$}$1 }$.
@@ -131,7 +131,7 @@ Q: A solution of $2.44 \text{ g}$ of $mathrm{CuSO_4}$ in $100 \mathrm{ mL}$ of w
  $n = \frac{m}{M} = \frac{1.42 \mathrm{ g}}{40 \mathrm{ g/mol}} = 0.0355 \mathrm{ mol}$.
  Since the reaction is $1:2$, the number of moles of $mathrm{H_2SO_4}$ required is $n = \frac{0.0355 \mathrm{ mol}}{2} = 0.01775 \mathrm{ mol}$.
  Finally, calculate the volume $V$ of $0.5 \mathrm{ M}mathrm{H_2SO_4}$ required: 
- $V = \frac{n}{M} = \frac{0.01775 \mathrm{ mol}}{0.5 \mathrm{ M}} = 0.0355 \mathrm{ L} = 35.5 \mathrm{ mL}$.
+ V = \frac{n}{M} = \frac{0.01775 \mathrm{ mol}}{0.5 \mathrm{ M}} = 0.0355 \mathrm{ L} = 35.5 \mathrm{ mL}. 
  Answer: $35.5 \mathrm{ mL}$.
 
  Q: $20 \mathrm{ mL}$ of $0.1 \mathrm{ M}mathrm{HCl}$ is mixed with $20 \mathrm{ mL}$ of $0.1 \mathrm{ M}mathrm{NaOH}$ in a thermally insulated container. If the initial temperature is $15^\circ\mathrm{C}$ and the specific heat capacity of the solution is $4.18 \mathrm{ J/g^\circ C}$, what is the final temperature of the solution?
@@ -142,11 +142,11 @@ Q: A solution of $2.44 \text{ g}$ of $mathrm{CuSO_4}$ in $100 \mathrm{ mL}$ of w
  The heat of neutralization of a strong acid and a strong base is $-57.3 \mathrm{ kJ/mol}$. 
  Since $n = MV$, the number of moles of $mathrm{HCl}$ and $mathrm{NaOH}$ is $n = 0.1 \mathrm{ M} \times 0.02 \mathrm{ L} = 0.002 \mathrm{ mol}$. 
  Then, calculate the heat $Q$ released: 
- $Q = n \times \Delta H = 0.002 \mathrm{ mol} \times -57.3 \mathrm{ kJ/mol} = -0.1146 \mathrm{ kJ}$. 
+ $Q = n \times \delta H = 0.002 \mathrm{ mol} \times -57.3 \mathrm{ kJ/mol} = -0.1146 \mathrm{ kJ}$. 
  The total mass $m$ of the solution is $m = 2 \times 20 \mathrm{ g} = 40 \mathrm{ g}$. 
- Finally, calculate the final temperature $T$ using $Q = mc\Delta T$: 
- $-0.1146 \mathrm{ kJ} = 40 \mathrm{ g} \times 4.18 \mathrm{ J/g^\circ C} \times \Delta T$, 
- $\Delta T = \frac{-0.1146 \times 10^3 \mathrm{ J}}{40 \mathrm{ g} \times 4.18 \mathrm{ J/g^\circ C}} = 0.687^\circ\mathrm{C}$.
+ Finally, calculate the final temperature $T$ using $Q = mc\delta T$: 
+ $-0.1146 \mathrm{ kJ} = 40 \mathrm{ g} \times 4.18 \mathrm{ J/g^\circ C} \times \delta T$, 
+ \delta T = \frac{-0.1146 \times 10^3 \mathrm{ J}}{40 \mathrm{ g} \times 4.18 \mathrm{ J/g^\circ C}} = 0.687^\circ\mathrm{C}. 
  The final temperature is $T = 15^\circ\mathrm{C} + 0.687^\circ\mathrm{C} = 15.687^\circ\mathrm{C}$. 
  Answer: $15.687^\circ\mathrm{C}$.
 
@@ -158,7 +158,7 @@ Q: A solution of $2.44 \text{ g}$ of $mathrm{CuSO_4}$ in $100 \mathrm{ mL}$ of w
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
-When it comes to the topic of Solutions, one crucial concept that differentiates 85% scorers from 95% scorers is the ability to accurately calculate and apply the van't Hoff factor (i) in various scenarios. The van't Hoff factor is given by the formula $i = \frac$\Delta n${n}$, where $\Delta n$ is the change in the number of moles of particles and $n$ is the number of moles of solute. Most students struggle with applying this concept to solutes that dissociate or associate in solution, leading to incorrect calculations of colligative properties such as freezing point depression, boiling point elevation, and osmotic pressure. For instance, in the case of a strong electrolyte like $NaCl$, which completely dissociates into $Na^+$ and $Cl^-$ ions, the van't Hoff factor is $i = 2$ because one mole of $NaCl$ produces two moles of particles in solution. On the other hand, for a weak electrolyte like $CH_3COOH$, which only partially dissociates, the van't Hoff factor will be less than 2, depending on the degree of dissociation. Students who can accurately determine the van't Hoff factor for different types of solutes and apply it to calculate colligative properties are more likely to score higher. Furthermore, understanding how the van't Hoff factor relates to the degree of dissociation or association is critical. For example, the degree of dissociation ($\alpha$) of a weak electrolyte can be related to the van't Hoff factor by the equation $i = 1 - \alpha + \alpha n$, where $n$ is the number of ions produced per formula unit of the electrolyte. Mastering these concepts and being able to apply them to a variety of problems is what sets high scorers apart.
+When it comes to the topic of Solutions, one crucial concept that differentiates 85% scorers from 95% scorers is the ability to accurately calculate and apply the van't Hoff factor (i) in various scenarios. The van't Hoff factor is given by the formula $i = \frac$\delta n${n}$, where $\delta n$ is the change in the number of moles of particles and $n$ is the number of moles of solute. Most students struggle with applying this concept to solutes that dissociate or associate in solution, leading to incorrect calculations of colligative properties such as freezing point depression, boiling point elevation, and osmotic pressure. For instance, in the case of a strong electrolyte like $NaCl$, which completely dissociates into $Na^+$ and $Cl^-$ ions, the van't Hoff factor is $i = 2$ because one mole of $NaCl$ produces two moles of particles in solution. On the other hand, for a weak electrolyte like $CH_3COOH$, which only partially dissociates, the van't Hoff factor will be less than 2, depending on the degree of dissociation. Students who can accurately determine the van't Hoff factor for different types of solutes and apply it to calculate colligative properties are more likely to score higher. Furthermore, understanding how the van't Hoff factor relates to the degree of dissociation or association is critical. For example, the degree of dissociation ($\alpha$) of a weak electrolyte can be related to the van't Hoff factor by the equation $i = 1 - \alpha + \alpha n$, where $n$ is the number of ions produced per formula unit of the electrolyte. Mastering these concepts and being able to apply them to a variety of problems is what sets high scorers apart.
 
 | Type of Solute | Dissociation/Association | van't Hoff Factor (i) |
 | --- | --- | --- |
@@ -169,9 +169,9 @@ When it comes to the topic of Solutions, one crucial concept that differentiates
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-When dealing with solutions, a pattern emerges after analyzing 5 years of PYQs. This pattern is related to the $\Delta G$ of a reaction. For a reaction to be spontaneous, $\Delta G$ must be negative. The equation for $\Delta G$ is given by $\Delta G = \Delta H - T\Delta S$, where $\Delta H$ is the enthalpy change, $T$ is the temperature in Kelvin, and $\Delta S$ is the entropy change. To maximize the score, focus on the interplay between $\Delta H$ and $\Delta S$. Note that $\Delta G = \Delta G^\circ + RT\ln(Q)$, where $\Delta G^\circ$ is the standard free energy change, $R$ is the gas constant, and $Q$ is the reaction quotient. For a reaction at equilibrium, $\Delta G = 0$, and $Q = K$, where $K$ is the equilibrium constant. This relationship can be expressed as $\Delta G^\circ = -RT\ln(K)$. To solve problems related to solutions, practice calculating $\Delta G$ for various reactions and determining the spontaneity of a reaction based on the sign of $\Delta G$. Also, focus on the $\Delta G^\circ$ values for common reactions and learn to apply them to solve problems. A key insight is that $\Delta G$ is a state function, meaning its value is independent of the path taken. This is crucial for solving problems involving multiple steps. For instance, if a reaction involves multiple steps, the overall $\Delta G$ can be calculated by summing the $\Delta G$ values for each step. This pattern is not explicitly mentioned in standard textbooks but is evident after analyzing PYQs. By recognizing this pattern and applying the related formulas, such as $K = \frac{[C]^c[D]^d}{[A]^a[B]^b}$ for the reaction $aA + bB \rightleftharpoons cC + dD$, you can maximize your score in the exam. Remember that $K$ is related to $\Delta G^\circ$ by the equation $\Delta G^\circ = -RT\ln(K)$. Therefore, practice solving problems that involve calculating $K$ from $\Delta G^\circ$ and vice versa.
+When dealing with solutions, a pattern emerges after analyzing 5 years of PYQs. This pattern is related to the $\delta G$ of a reaction. For a reaction to be spontaneous, $\delta G$ must be negative. The equation for $\delta G$ is given by $\delta G = \delta H - T\delta S$, where $\delta H$ is the enthalpy change, $T$ is the temperature in Kelvin, and $\delta S$ is the entropy change. To maximize the score, focus on the interplay between $\delta H$ and $\delta S$. Note that $\delta G = \delta G^\circ + RT\ln(Q)$, where $\delta G^\circ$ is the standard free energy change, $R$ is the gas constant, and $Q$ is the reaction quotient. For a reaction at equilibrium, $\delta G = 0$, and $Q = K$, where $K$ is the equilibrium constant. This relationship can be expressed as $\delta G^\circ = -RT\ln(K)$. To solve problems related to solutions, practice calculating $\delta G$ for various reactions and determining the spontaneity of a reaction based on the sign of $\delta G$. Also, focus on the $\delta G^\circ$ values for common reactions and learn to apply them to solve problems. A key insight is that $\delta G$ is a state function, meaning its value is independent of the path taken. This is crucial for solving problems involving multiple steps. For instance, if a reaction involves multiple steps, the overall $\delta G$ can be calculated by summing the $\delta G$ values for each step. This pattern is not explicitly mentioned in standard textbooks but is evident after analyzing PYQs. By recognizing this pattern and applying the related formulas, such as $K = \frac{[C]^c[D]^d}{[A]^a[B]^b}$ for the reaction $aA + bB \rightleftharpoons cC + dD$, you can maximize your score in the exam. Remember that $K$ is related to $\delta G^\circ$ by the equation $\delta G^\circ = -RT\ln(K)$. Therefore, practice solving problems that involve calculating $K$ from $\delta G^\circ$ and vice versa.
 
-| Reaction | $\Delta G^\circ$ (kJ/mol) | $\Delta H^\circ$ (kJ/mol) | $\Delta S^\circ$ (J/(mol·K)) | Equilibrium Constant ($K$) |
+| Reaction | $\delta G^\circ$ (kJ/mol) | $\delta H^\circ$ (kJ/mol) | $\delta S^\circ$ (J/(mol·K)) | Equilibrium Constant ($K$) |
 | --- | --- | --- | --- | --- |
 | $2H_2 + O_2 \rightleftharpoons 2H_2O$ | -474.5 | -572.0 | -156.9 | 1.3 \times 10^{83} |
 | $N_2 + 3H_2 \rightleftharpoons 2NH_3$ | -33.4 | -45.9 | -199.5 | 5.5 \times 10^5 |
@@ -185,8 +185,8 @@ Before sleeping, make sure to go through these crucial points for the topic of S
  <ul>
  <li>$c = \frac{\rho}{m}$: Concentration of a solution can be expressed as the ratio of the mass of the solute (\rho) to the mass of the solvent (m).</li>
  <li>$M_1V_1 = M_2V_2$: Molarity of the first solution (M1) times the volume of the first solution (V1) equals the molarity of the second solution (M2) times the volume of the second solution (V2) for dilution problems.</li>
- <li>$\Delta T = K_f \times m$: Freezing point depression (\Delta T) is equal to the freezing point depression constant (Kf) times the molality (m) of the solution.</li>
- <li>$\Delta T = K_b \times m$: Boiling point elevation (\Delta T) is equal to the boiling point elevation constant (Kb) times the molality (m) of the solution.</li>
+ <li>$\delta T = K_f \times m$: Freezing point depression (\delta T) is equal to the freezing point depression constant (Kf) times the molality (m) of the solution.</li>
+ <li>$\delta T = K_b \times m$: Boiling point elevation (\delta T) is equal to the boiling point elevation constant (Kb) times the molality (m) of the solution.</li>
  <li>$m = \frac{n}{W}$: Molality (m) of a solution is defined as the number of moles of solute (n) divided by the mass of the solvent in kilograms (W).</li>
  </ul>
  <br/>
@@ -209,7 +209,7 @@ Before sleeping, make sure to go through these crucial points for the topic of S
 | --- | --- | --- |
 | Concentration | $c = \frac{\rho}{m}$ | Mass of solute per mass of solvent |
 | Dilution | $M_1V_1 = M_2V_2$ | Molarity and volume relationship for dilution |
-| Freezing Point Depression | $\Delta T = K_f \times m$ | Freezing point change due to solute presence |
+| Freezing Point Depression | $\delta T = K_f \times m$ | Freezing point change due to solute presence |
 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
@@ -294,3 +294,5 @@ Continue your revision with these related guides:
 - 📖 [Coordination Compounds Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/coordination-compounds-class-12-notes)
 - 📖 [Haloalkanes and Haloarenes Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/haloalkanes-and-haloarenes-class-12-notes)
 - 📖 [Atoms Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/atoms-class-12-notes)
+
+$

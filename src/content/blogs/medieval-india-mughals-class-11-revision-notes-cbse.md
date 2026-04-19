@@ -42,7 +42,7 @@ practice_link: "/class-11/medieval-india-mughals-class-11-revision-notes-cbse"
 
 
 **Quick Revision & Recap: Medieval [india](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) - Mughals**
-=====================================================
+ ===================================================== 
 
 
 

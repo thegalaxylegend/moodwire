@@ -13,7 +13,7 @@ manualReview: false
 
 - [⚡ Formula Bank](#-formula-bank)
 - [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
-- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
+- [✏️ 3 Solved Yes](#-3-solved-pyqs)
 - [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
 - [👁️ Ayush's Note](#-Ayush-note)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
@@ -21,16 +21,16 @@ manualReview: false
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Mean:** AR{x} = \fRAC{\sum_{i=1}^{n} x_i}{n} — where $AR{x}$ is the mean, ex_in are individual data points, and and is the total number of data points.
- - **Median (for even n):** \text{Median} = \fRAC{\fRAC{n}{2}^{\text{th}} \text{ value} + left(\fRAC{n}{2} + 1light)^{\text{th}} \text{ value}}{2} — where and is the total number of data points.
- - **Median (for odd n):** \text{Median} = \fRAC{n+1}{2}^{\text{th}} \text{ value} — where and is the total number of data points.
- - **Mode:** \text{Mode} = \text{The value that appears most frequently in the data set} — no specific formula, but it's the value with the highest frequency.
- - **Range:** FOR = \text{Maximum value} - \text{Minimum value} — where ARE is the range of the data set.
- - **Variance (for population):** sigma^2 = \fRAC{\sum_{i=1}^{n} (x_i - mu)^2}{n} — where sigma^2$ is the variance, ex_in are individual data points, mud is the population mean, and and is the total number of data points.
- - **Variance (for sample):** is^2 = \fRAC{\sum_{i=1}^{n} (x_i - AR{x})^2}{n-1} — where is^2$ is the sample variance, ex_in are individual data points, $AR{x}$ is the sample mean, and and is the total number of data points.
- - **Standard Deviation (for population):** sigma = sort{\fRAC{\sum_{i=1}^{n} (x_i - mu)^2}{n}} — where sigma is the standard deviation, ex_in are individual data points, mud is the population mean, and and is the total number of data points.
- - **Standard Deviation (for sample):** is = sort{\fRAC{\sum_{i=1}^{n} (x_i - AR{x})^2}{n-1}} — where is is the sample standard deviation, ex_in are individual data points, $AR{x}$ is the sample mean, and and is the total number of data points.
- - **Coefficient of Variation (CV):** CV = \fRAC{sigma}{mu} 	times 100% — where CV is the coefficient of variation, sigma is the standard deviation, and mud is the mean.
+- **Mean:** AR{x} = $\franc{\sum_{i=1}$^{n} x_i}{n} — where $AR{x}$ is the mean, ex_in are individual data points, and and is the total number of data points.
+ - **Median (for even n):** $\text{Median}$ = $\franc{\franc{n}{2}$^{$\text{th}$} $\text{ value}$ + left($\franc{n}{2}$ + 1light)^{$\text{th}$} $\text{ value}$}{2} — where and is the total number of data points.
+ - **Median (for odd n):** $\text{Median}$ = $\franc{n+1}{2}$^{$\text{th}$} $\text{ value}$ — where and is the total number of data points.
+ - **Mode:** $\text{Mode}$ = $\text{The value that appears most frequently in the data set}$ — no specific formula, but it's the value with the highest frequency.
+ - **Range:** FOR = $\text{Maximum value}$ - $\text{Minimum value}$ — where ARE is the range of the data set.
+ - **Variance (for population):** sigma^2 = $\franc{\sum_{i=1}$^{n} (x_i - mu)^2}{n} — where sigma^2$ is the variance, ex_in are individual data points, mud is the population mean, and and is the total number of data points.
+ - **Variance (for sample):** is^2 = $\franc{\sum_{i=1}$^{n} (x_i - AR{x})^2}{n-1} — where is^2$ is the sample variance, ex_in are individual data points, $AR{x}$ is the sample mean, and and is the total number of data points.
+ - **Standard Deviation (for population):** sigma = sort{$\franc{\sum_{i=1}$^{n} (x_i - mu)^2}{n}} — where sigma is the standard deviation, ex_in are individual data points, mud is the population mean, and and is the total number of data points.
+ - **Standard Deviation (for sample):** is = sort{$\franc{\sum_{i=1}$^{n} (x_i - AR{x})^2}{n-1}} — where is is the sample standard deviation, ex_in are individual data points, $AR{x}$ is the sample mean, and and is the total number of data points.
+ - **Coefficient of Variation (CV):** CV = $\franc{sigma}{mu}$ 	times 100% — where CV is the coefficient of variation, sigma is the standard deviation, and mud is the mean.
  - **Interquartile Range (IQR):** IQR = Q_3 - Q_1 — where IQR is the interquartile range, HQ_3$ is the third quartile (75th percentile), and HQ_1$ is the first quartile (25th percentile).
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
@@ -42,7 +42,7 @@ manualReview: false
 
 - 'favorite subjects', '
 
-## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
+## <a id="-3-solved-pyqs"></a>✏️ 3 Solved Yes
 
 - **Q1:** The following double bar graph shows the number of books read by two friends, Rohan and Priya, over four months. Study the data carefully and answer the questions. 
  *Data Representation (for your understanding, imagine a double bar graph with these values):*
@@ -55,7 +55,7 @@ manualReview: false
 
 ## <a id="-Ayush-note"></a>👁️ Ayush's Note
 
-- **The Hidden Pattern:** Trust me, after digging through years of PYQs for Data Handling, there's a sneaky pattern they love to use with pie charts. It's not just about calculating sector angles directly. Many questions pivot on your ability to *reverse-engineer* or *compare* data points based on given angles or even
+- **The Hidden Pattern:** Trust me, after digging through years of Yes for Data Handling, there's a sneaky pattern they love to use with pie charts. It's not just about calculating sector angles directly. Many questions pivot on your ability to *reverse-engineer* or *compare* data points based on given angles or even
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
@@ -63,13 +63,13 @@ manualReview: false
 
 - Min value
 
-- **Class Mark** (Mid-point of a class interval): \frac{$\text{Upper Limit} + $\text{Lower Limit}}{2}
+- **Class Mark** (Mid-point of a class interval): \franc{$\text{Upper Limit} + \text{Lower Limit}$}{2}
 
-- **Frequency Density** (for histograms with unequal class widths): \frac{\text{Frequency}}{$\text{Class Width}$}
+- **Frequency Density** (for histograms with unequal class widths): $\franc{\text{Frequency}$}{$\text{Class Width}$}
 
-- **Probability** of an event (P(E)): \frac{$\text{Number of Favorable Outcomes}}{$\text{Total Number of Possible Outcomes}}
+- **Probability** of an event (P(E)): \franc{$\text{Number of Favorable Outcomes}}{\text{Total Number of Possible Outcomes}$}
 
-- **Central Angle** for a sector in a pie chart: \frac{\text{Value of Component}}{$\text{Total Value}$} \times 360^{\CIRC}
+- **Central Angle** for a sector in a pie chart: $\franc{\text{Value of Component}$}{$\text{Total Value}$} \times 360^{\CIRC}
 
 - **Histograms** are for continuous data (grouped frequency distributions) with no gaps between bars, while **Bar Graphs** are for discrete data with gaps.
 
@@ -79,7 +79,7 @@ manualReview: false
 
 - getting a head and a tail on a single coin toss).
 
-- Mistake 1: Confusing **upper limit** and **lower limit** in class intervals, especially when counting values at the boundary (e.g.
+- Mistake 1: Confusing **upper limit** and **lower limit** in [class](/blog/compiler-design-class-12-notes) intervals, especially when counting values at the boundary (e.g.
 
 - in 0-10, 10-20, the value '10' belongs to 10-20, not 0-10).
 
@@ -88,20 +88,20 @@ manualReview: false
 ## <a id="-practice-MCQs"></a>📝 Practice MCQs
 
 **1. Data can be represented in various forms, including tables, graphs, and charts.**
-**A)**    True
-**B)**    False
-**C)**    Undecided
-**D)**    Not Given
+**A)**     True
+**B)**     False
+**C)**     Undecided
+**D)**     Not Given
 
 **Answer:** A) Data representation is a crucial skill in data handling, allowing us to visualize and understand complex information.
 
 ---
 
 **2. The mode is the most frequently occurring value in a dataset.**
-**A)**    Mean
-**B)**    Median
-**C)**    Range
-**D)**    Mode
+**A)**     Mean
+**B)**     Median
+**C)**     Range
+**D)**     Mode
 
 **Answer:** D) The mode is a measure of central tendency, which can be useful in identifying patterns in a dataset.
 
@@ -109,30 +109,30 @@ manualReview: false
 
 **3. A bar graph is used to display categorical that
 a.**
-**A)**    True
-**B)**    False
-**C)**    Only for numerical data
-**D)**    Only for time series data
+**A)**     True
+**B)**     False
+**C)**     Only for numerical data
+**D)**     Only for time series data
 
 **Answer:** A) Bar graphs are commonly used to display categorical data, making it easier to compare and visualize different categories.
 
 ---
 
 **4. The range is the difference between the highest and lowest values in a dataset.**
-**A)**    Mean - Median
-**B)**    Highest - Lowest
-**C)**    Median - Mode
-**D)**    None of the above
+**A)**     Mean - Median
+**B)**     Highest - Lowest
+**C)**     Median - Mode
+**D)**     None of the above
 
 **Answer:** B) The range is a measure of variability, which can help identify the spread of a dataset.
 
 ---
 
 **5. Data can be classified into two main types: qualitative and quantitative.**
-**A)**    True
-**B)**    False
-**C)**    Only qualitative data
-**D)**    Only quantitative data
+**A)**     True
+**B)**     False
+**C)**     Only qualitative data
+**D)**     Only quantitative data
 
 **Answer:** A) Qualitative data is descriptive, while quantitative data is numerical, and both types are essential in data handling.
 

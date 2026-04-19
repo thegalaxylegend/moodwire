@@ -49,7 +49,7 @@ practice_link: "/class-11/chemistry/metallurgy-class-12-notes"
 
 ### <a id="extraction-of-metals"></a>Extraction of Metals
 
-- Extraction of metals involves the use of the reaction \Delta G = \Delta H - T\Delta S to determine the feasibility of the extraction process.
+- Extraction of metals involves the use of the reaction \delta G = \delta H - T\delta S to determine the feasibility of the extraction process.
 
 
 - Types of extraction methods: 
@@ -64,7 +64,7 @@ practice_link: "/class-11/chemistry/metallurgy-class-12-notes"
 - [application](/blog/application-of-integrals-class-12-notes) of Ellingham diagram: 
  - Determining the feasibility of metal extraction processes: the Ellingham diagram is used to determine the feasibility of metal extraction processes.
 
-- \Delta G = \Delta H - T\Delta S: equation used to calculate the Gibbs free energy change.
+- \delta G = \delta H - T\delta S: equation used to calculate the Gibbs free energy change.
 
 
 #### Key Features of Ellingham Diagram
@@ -100,7 +100,7 @@ practice_link: "/class-11/chemistry/metallurgy-class-12-notes"
 
 ### <a id="thermodynamic-principles"></a>Thermodynamic Principles
 
-- Thermodynamic principles involve the [application](/blog/application-of-integrals-class-12-notes) of \Delta G = \Delta H - T\Delta S in metallurgy.
+- Thermodynamic principles involve the [application](/blog/application-of-integrals-class-12-notes) of \delta G = \delta H - T\delta S in metallurgy.
 
 
 - Types of thermodynamic principles: 
@@ -111,7 +111,7 @@ practice_link: "/class-11/chemistry/metallurgy-class-12-notes"
  - Determining the feasibility of metal extraction processes: thermodynamic principles are used to determine the feasibility of metal extraction processes.
 #### Equilibrium Constant
 
-- It is related to the Gibbs free energy change by the equation: \Delta G = -RT\ln K
+- It is related to the Gibbs free energy change by the equation: \delta G = -RT\ln K
 
 
 
@@ -173,11 +173,11 @@ When it comes to metallurgical processes, there are several common mistakes that
 
 #### Extraction of Metals
 
-Extraction of metals involves the use of the reaction \Delta G = \Delta H - T\Delta S to determine the feasibility of the extraction process. This equation is used to calculate the Gibbs free energy change, which is a measure of the energy change that occurs during a reaction. The equation is as follows:
+Extraction of metals involves the use of the reaction \delta G = \delta H - T\delta S to determine the feasibility of the extraction process. This equation is used to calculate the Gibbs free energy change, which is a measure of the energy change that occurs during a reaction. The equation is as follows:
 
-\Delta G = \Delta H - T\Delta S
+\delta G = \delta H - T\delta S
 
-where \Delta G is the Gibbs free energy change, \Delta H is the enthalpy change, T is the temperature, and \Delta S is the entropy change.
+where \delta G is the Gibbs free energy change, \delta H is the enthalpy change, T is the temperature, and \delta S is the entropy change.
 
 
 
@@ -189,7 +189,7 @@ Refining of metals involves the use of zone refining or van Arkel method to puri
 
 #### Thermodynamic Principles
 
-Thermodynamic principles involve the [application](/blog/application-of-integrals-class-12-notes) of \Delta G = \Delta H - T\Delta S in metallurgy. This equation is used to determine the feasibility of metal extraction processes. The Gibbs free energy change is a measure of the energy change that occurs during a reaction, and it can be used to determine whether a reaction is spontaneous or not.
+Thermodynamic principles involve the [application](/blog/application-of-integrals-class-12-notes) of \delta G = \delta H - T\delta S in metallurgy. This equation is used to determine the feasibility of metal extraction processes. The Gibbs free energy change is a measure of the energy change that occurs during a reaction, and it can be used to determine whether a reaction is spontaneous or not.
 
 
 

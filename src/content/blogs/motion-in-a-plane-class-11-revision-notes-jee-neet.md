@@ -130,7 +130,7 @@ When an object moves in a circle at a constant speed, its direction changes cont
 - Since s = r θ, then ds/dt = r (dθ/dt) => **v = r ω**.
 
 ### <a id="ii-derivation-of-centripetal-acceleration-a_c"></a>II. Derivation of Centripetal Acceleration (a_c)
-Consider a particle moving from P to Q in time Δt.
+Consider a particle [moving](/blog/moving-charges-magnetism-class-11-revision-notes-neet) from P to Q in time Δt.
 1.  **Change in velocity (Δv):** geometrically, for small Δθ, Δv ≈ v Δθ.
 2.  **Acceleration (a):** a = Δv / Δt = v (Δθ / Δt).
 3.  Since Δθ / Δt = ω and ω = v/r:
@@ -224,7 +224,7 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
 - 📖 [Laws Of Motion Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/laws-of-motion-class-11-revision-notes-jee-neet)

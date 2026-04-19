@@ -21,14 +21,14 @@ manualReview: false
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Poverty Line (PL):** PL = \frac{2400}{1000} 	imes \text{Price of one kg of grain} — Price of one kg of grain is used as a reference to calculate the poverty line.
- - **Head Count Ratio (HCR):** HCR = \frac{\text{Number of persons living below the poverty line}}{\text{Total population}} 	imes 100 — This formula calculates the percentage of the population living below the poverty line.
- - **Poverty Gap Index (PGI):** PGI = \frac{\sum (\text{Poverty line} - \text{Income of each poor person})}{\text{Total population} 	imes \text{Poverty line}} — This formula measures the depth of poverty by calculating the average income shortfall of the poor from the poverty line.
- - **Gini Coefficient:** G = \frac{\text{Area between the line of equality and the Lorenz curve}}{\text{Total area below the line of equality}} — The Gini coefficient is a measure of income inequality, ranging from 0 (perfect equality) to 1 (perfect inequality).
- - **Lorenz Curve:** \text{Lorenz Curve} = \frac{\text{Cumulative percentage of population}}{\text{Cumulative percentage of income}} — The Lorenz curve is a graphical representation of income distribution, with the line of equality representing perfect equality.
- - **Unemployment Rate:** \text{Unemployment Rate} = \frac{\text{Number of unemployed persons}}{\text{Labour force}} 	imes 100 — This formula calculates the percentage of the labour force that is currently unemployed.
- - **Labour Force Participation Rate (LFPR):** LFPR = \frac{\text{Labour force}}{\text{Total population}} 	imes 100 — This formula calculates the percentage of the population that is part of the labour force.
- - **Unemployment Gap:** \text{Unemployment Gap} = \text{Full employment GDP} - \text{Current GDP} — This formula measures the difference between the potential GDP (if all resources were fully employed) and the current GDP.
+- **Poverty Line (PL):** PL = $\frac{2400}{1000}$ 	imes $\text{Price of one kg of grain}$ — Price of one kg of grain is used as a reference to calculate the poverty line.
+ - **Head Count Ratio (HCR):** HCR = $\frac{\text{Number of persons living below the poverty line}$}{$\text{Total population}$} 	imes 100 — This formula calculates the percentage of the population living below the poverty line.
+ - **Poverty Gap Index (PGI):** PGI = $\frac{\sum (\text{Poverty line}$ - $\text{Income of each poor person}$)}{$\text{Total population}$ 	imes $\text{Poverty line}$} — This formula measures the depth of poverty by calculating the average income shortfall of the poor from the poverty line.
+ - **Gini Coefficient:** G = $\frac{\text{Area between the line of equality and the Lorenz curve}$}{$\text{Total area below the line of equality}$} — The Gini coefficient is a measure of income inequality, ranging from 0 (perfect equality) to 1 (perfect inequality).
+ - **Lorenz Curve:** $\text{Lorenz Curve}$ = $\frac{\text{Cumulative percentage of population}$}{$\text{Cumulative percentage of income}$} — The Lorenz curve is a graphical representation of income distribution, with the line of equality representing perfect equality.
+ - **Unemployment Rate:** $\text{Unemployment Rate}$ = $\frac{\text{Number of unemployed persons}$}{$\text{Labour force}$} 	imes 100 — This formula calculates the percentage of the labour force that is currently unemployed.
+ - **Labour Force Participation Rate (LFPR):** LFPR = $\frac{\text{Labour force}$}{$\text{Total population}$} 	imes 100 — This formula calculates the percentage of the population that is part of the labour force.
+ - **Unemployment Gap:** $\text{Unemployment Gap}$ = $\text{Full employment GDP}$ - $\text{Current GDP}$ — This formula measures the difference between the potential GDP (if all resources were fully employed) and the current GDP.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -37,7 +37,7 @@ manualReview: false
 - *Costs:* 4-6 marks
  
 
-- *Fix:* Make sure to understand that the {${Lorenz Curve}$} is a graphical representation of income distribution, and the {${Gini Coefficient}$} is calculated as the ratio of the area between the {${Lorenz Curve}$} and the line of perfect equality to the total area under the line of perfect equality: {Gini Coefficient = \frac{A}{A + B}}
+- *Fix:* Make sure to understand that the {${Lorenz Curve}$} is a graphical representation of income distribution, and the {${Gini Coefficient}$} is calculated as the ratio of the area between the {${Lorenz Curve}$} and the line of perfect equality to the total area under the line of perfect equality: {Gini Coefficient = $\frac{A}{A + B}$}
  
 
 - **Mistake 2:** Confusing the types of unemployment, such as {${Frictional Unemployment}$}, {${Structural Unemployment}$}, and {${Cyclical Unemployment}$}.
@@ -53,7 +53,7 @@ manualReview: false
 - *Costs:* 5-7 marks
  
 
-- *Fix:* Study the components of the {${HPI}$}, including the percentage of people not expected to survive to age 40, the adult illiteracy rate, and the unweighted average of population without sustainable access to an improved water source and children under weight-for-age: {HPI = \frac{P_1 + P_2 + P_3}{3}}
+- *Fix:* Study the components of the {${HPI}$}, including the percentage of people not expected to survive to age 40, the adult illiteracy rate, and the unweighted average of population without sustainable access to an improved water source and children under weight-for-age: {HPI = $\frac{P_1 + P_2 + P_3}{3}$}
  
 
 - **Mistake 4:** Not applying the {${Poverty Line}$} concept correctly to calculate the number of people living below the poverty line.
@@ -61,7 +61,7 @@ manualReview: false
 - *Costs:* 4-6 marks
  
 
-- *Fix:* Understand that the {${Poverty Line}$} is the minimum level of income required to meet the basic needs of a person, and practice calculating it using the formula: {Poverty : Line = \frac{Monthly : Per : Capita : Expenditure}{Number : of : Family : Members}}
+- *Fix:* Understand that the {${Poverty Line}$} is the minimum level of income required to meet the basic needs of a person, and practice calculating it using the formula: {Poverty : Line = $\frac{Monthly : Per : Capita : Expenditure}{Number : of : Family : Members}$}
  
 
 - **Mistake 5:** Incorrectly interpreting the data given in the {${Consumer Price Index (CPI)}$} and its relation to poverty and unemployment.
@@ -69,7 +69,7 @@ manualReview: false
 - *Costs:* 5-7 marks
  
 
-- *Fix:* Review how the {${CPI}$} is calculated and used to measure inflation, and practice analyzing its impact on poverty and unemployment using the formula: {CPI = \frac{Current : Year : Price}{Base : Year : Price} 	imes 100}
+- *Fix:* Review how the {${CPI}$} is calculated and used to measure inflation, and practice analyzing its impact on poverty and unemployment using the formula: {CPI = $\frac{Current : Year : Price}{Base : Year : Price}$ 	imes 100}
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
@@ -128,7 +128,7 @@ manualReview: false
 
 - **The Hidden Pattern:** In the context of poverty and unemployment, a pattern emerges when analyzing data over the years. It is observed that the $Gini Coefficient$ is used to measure income inequality, which is a key factor in understanding poverty.
 
-- **The formula for the Gini Coefficient is given by:** G = \frac{\sum_{i=1}^{n} \sum_{j=1}^{n} |x_i 
+- **The formula for the Gini Coefficient is given by:** G = $\frac{\sum_{i=1}$^{n} \sum_{j=1}^{n} |x_i 
 
 - x_j|}{2n^2 ar{x}} where $x_i$ is the income of the $i^{th}$ individual, $ar{x}$ is the mean income, and $n$ is the total number of individuals.
 
@@ -138,7 +138,7 @@ manualReview: false
 
 - **PYQ-Specific Trend:** Upon analyzing previous years' questions, it is evident that there is a trend of questions being asked about the relationship between poverty and unemployment. Specifically, questions related to the $Human Development Index (HDI)$ and the $Multidimensional Poverty Index (MPI)$ are frequently asked.
 
-- **The HDI is calculated using the formula:** HDI = \frac{1}{3} left( \frac{LE}{85} + \frac{MYS}{15} + \frac{GNI}{10000} ight) where $LE$ is the life expectancy at birth, $MYS$ is the mean years of schooling, and $GNI$ is the gross national income per capita.
+- **The HDI is calculated using the formula:** HDI = $\frac{1}{3}$ left( $\frac{LE}{85}$ + $\frac{MYS}{15}$ + $\frac{GNI}{10000}$ ight) where $LE$ is the life expectancy at birth, $MYS$ is the mean years of schooling, and $GNI$ is the gross national income per capita.
 
 - **Solving Strategy:** To solve problems related to poverty and unemployment, it is essential to have a clear understanding of the concepts and formulas involved. One should be able to analyze data, identify trends, and apply the relevant formulas to arrive at the solution. Additionally, practicing with previous years' questions and sample papers can help in developing the necessary skills and strategies to tackle these types of problems.
 
@@ -158,7 +158,7 @@ manualReview: false
 
 - $Gini Coefficient = 1 
 
-- \frac{2}{n} \sum_{i=1}^{n} (n-i) x_i
+-  $\frac{2}{n}$ \sum_{i=1}^{n} (n-i) x_i 
  
 
 - $Lorenz Curve = \frac{Cumulative percentage of population}{Cumulative percentage of income}$
@@ -184,30 +184,30 @@ manualReview: false
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. The poverty line is the minimum level of income below which a person is unable to afford basic needs.**
-**A)**   The poverty line is a measure of wealth inequality.
-**B)**   The poverty line is a measure of absolute poverty.
-**C)**   The poverty line is a measure of relative poverty.
-**D)**   The poverty line is a measure of unemployment rate.
+**A)**    The poverty line is a measure of wealth inequality.
+**B)**    The poverty line is a measure of absolute poverty.
+**C)**    The poverty line is a measure of relative poverty.
+**D)**    The poverty line is a measure of unemployment rate.
 
 **Answer:** B) The poverty line is a measure of absolute poverty, which is the minimum level of income required to meet basic needs.
 
 ---
 
 **2. Unemployment can be classified into three types: frictional, structural, and cyclical.**
-**A)**   Unemployment can be classified into two types: seasonal and frictional.
-**B)**   Unemployment can be classified into four types: structural, cyclical, frictional, and seasonal.
-**C)**   Unemployment can be classified into three types: frictional, structural, and cyclical.
-**D)**   Unemployment can be classified into one type.
+**A)**    Unemployment can be classified into two types: seasonal and frictional.
+**B)**    Unemployment can be classified into four types: structural, cyclical, frictional, and seasonal.
+**C)**    Unemployment can be classified into three types: frictional, structural, and cyclical.
+**D)**    Unemployment can be classified into one type.
 
 **Answer:** C) Unemployment can indeed be classified into three types: frictional, structural, and cyclical.
 
 ---
 
 **3. The [class](/blog/trigonometric-functions-class-11-revision-notes-jee-neet) 11 syllabus focuses on the causes and effects of poverty and unemployment.**
-**A)**   The Class 11 syllabus focuses on the causes and effects of inflation and recession.
-**B)**   The Class 11 syllabus focuses on the causes and effects of poverty and unemployment.
-**C)**   The Class 11 syllabus focuses on the causes and effects of population growth and resource depletion.
-**D)**   The Class 11 syllabus focuses on the causes and effects of climate change and natural disasters.
+**A)**    The [class](/blog/local-government-class-11-revision-notes-cbse) 11 syllabus focuses on the causes and effects of inflation and recession.
+**B)**    The Class 11 syllabus focuses on the causes and effects of poverty and unemployment.
+**C)**    The Class 11 syllabus focuses on the causes and effects of population growth and resource depletion.
+**D)**    The Class 11 syllabus focuses on the causes and effects of climate change and natural disasters.
 
 **Answer:** B) The Class 11 syllabus indeed focuses on the causes and effects of poverty and unemployment.
 
@@ -215,20 +215,20 @@ manualReview: false
 
 **4. Poverty and unemployment are interrelated, as poverty can lead to unemployment and vice vers
 a.**
-**A)**   Poverty and unemployment are unrelated.
-**B)**   Poverty can lead to unemployment, but unemployment cannot lead to poverty.
-**C)**   Poverty cannot lead to unemployment, but unemployment can lead to poverty.
-**D)**   Poverty and unemployment are interrelated, as poverty can lead to unemployment and vice versa.
+**A)**    Poverty and unemployment are unrelated.
+**B)**    Poverty can lead to unemployment, but unemployment cannot lead to poverty.
+**C)**    Poverty cannot lead to unemployment, but unemployment can lead to poverty.
+**D)**    Poverty and unemployment are interrelated, as poverty can lead to unemployment and vice versa.
 
 **Answer:** D) Poverty and unemployment are indeed interrelated, as poverty can lead to unemployment and vice versa.
 
 ---
 
 **5. The poverty ratio is a measure of the percentage of the population living below the poverty line.**
-**A)**   The poverty ratio is a measure of the percentage of the population living above the poverty line.
-**B)**   The poverty ratio is a measure of the percentage of the population living at the poverty line.
-**C)**   The poverty ratio is a measure of the percentage of the population living below the poverty line.
-**D)**   The poverty ratio is a measure of the percentage of the population living at or above the poverty line.
+**A)**    The poverty ratio is a measure of the percentage of the population living above the poverty line.
+**B)**    The poverty ratio is a measure of the percentage of the population living at the poverty line.
+**C)**    The poverty ratio is a measure of the percentage of the population living below the poverty line.
+**D)**    The poverty ratio is a measure of the percentage of the population living at or above the poverty line.
 
 **Answer:** C) The poverty ratio is indeed a measure of the percentage of the population living below the poverty line.
 
@@ -250,3 +250,4 @@ Continue your revision with these related guides:
 - 📖 [physics mechanics](/blog/physics-mechanics-class-11-revision-notes-jee-neet)
 - 📖 [trigonometric functions](/blog/trigonometric-functions-class-11-revision-notes-jee-neet)
 - 📖 [anatomy of flowering plants](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
+$

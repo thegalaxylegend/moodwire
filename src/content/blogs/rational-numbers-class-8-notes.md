@@ -21,14 +21,14 @@ manualReview: false
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Addition of Rational Numbers:** \frac{a}{b} + \frac{c}{d} = \frac$a cdot d + b cdot c$b cdot d — where a$, $b$, $c$, $d$ are integers and $b$, $d$ are non-zero.
- - **Subtraction of Rational Numbers:** \frac{a}{b} - \frac{c}{d} = \frac$a cdot d - b cdot c$b cdot d$ — where $a$, $b$, $c$, $d$ are integers and $b$, $d$ are non-zero.
- - **Multiplication of Rational Numbers:** \frac{a}{b} cdot \frac{c}{d} = \frac$a cdot c$b cdot d — where a$, $b$, $c$, $d$ are integers and $b$, $d$ are non-zero.
- - **Division of Rational Numbers:** \frac{a}{b} div \frac{c}{d} = \frac$a cdot d$b cdot c$ — where $a$, $b$, $c$, $d$ are integers and $b$, $c$, $d$ are non-zero.
- - **Reciprocal of a Rational Number:** \frac{1}{\frac{a}{b}} = \frac{b}{a} — where $a$, $b$ are integers and $a$, $b$ are non-zero.
- - **Negative of a Rational Number:** -\frac{a}{b} = \frac{-a}{b} = \frac{a}{-b} — where $a$, $b$ are integers and $b$ is non-zero.
- - **Standard Form of a Rational Number:** \frac{a}{b} = \frac$1 ext{HCF}(a,b)$ cdot \frac{a}{b} — where $a$, $b$ are integers, $b$ is non-zero, and HCF denotes the highest common factor.
- - **Comparing Rational Numbers:** \frac{a}{b} > \frac{c}{d} iff ad > bc — where $a$, $b$, $c$, $d$ are integers, $b$, $d$ are positive, and the fractions are in standard form.
+- **Addition of Rational Numbers:** $\frac{a}{b}$ + $\frac{c}{d}$ = \frac$a cdot d + b cdot c$b cdot d — where a$, $b$, $c$, $d$ are integers and $b$, $d$ are non-zero.
+ - **Subtraction of Rational Numbers:** $\frac{a}{b}$ - $\frac{c}{d}$ = \frac$a cdot d - b cdot c$b cdot d$ — where $a$, $b$, $c$, $d$ are integers and $b$, $d$ are non-zero.
+ - **Multiplication of Rational Numbers:** $\frac{a}{b}$ cdot $\frac{c}{d}$ = \frac$a cdot c$b cdot d — where a$, $b$, $c$, $d$ are integers and $b$, $d$ are non-zero.
+ - **Division of Rational Numbers:** $\frac{a}{b}$ div $\frac{c}{d}$ = \frac$a cdot d$b cdot c$ — where $a$, $b$, $c$, $d$ are integers and $b$, $c$, $d$ are non-zero.
+ - **Reciprocal of a Rational Number:** $\frac{1}{\frac{a}{b}$} = $\frac{b}{a}$ — where $a$, $b$ are integers and $a$, $b$ are non-zero.
+ - **Negative of a Rational Number:** -$\frac{a}{b}$ = $\frac{-a}{b}$ = $\frac{a}{-b}$ — where $a$, $b$ are integers and $b$ is non-zero.
+ - **Standard Form of a Rational Number:** $\frac{a}{b}$ = \frac$1 ext{HCF}(a,b)$ cdot $\frac{a}{b}$ — where $a$, $b$ are integers, $b$ is non-zero, and HCF denotes the highest common factor.
+ - **Comparing Rational Numbers:** $\frac{a}{b}$ > $\frac{c}{d}$ iff ad > bc — where $a$, $b$, $c$, $d$ are integers, $b$, $d$ are positive, and the fractions are in standard form.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -48,15 +48,11 @@ manualReview: false
 - **Q1:** Simplify using appropriate properties: $\frac{{-3}{7} 	imes \frac{6}{5} + \frac{1}{14} 	imes \frac{6}{5} - \frac{3}{7}}{\frac{p}{q}} .
  - **Trap:** Students often rush to multiply fractions directly without}
 
-
-
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 - **The Core Concept: The Infinite Gap!**
  * Alright, listen up, future JEE/NEET champs! When it comes to Rational Numbers, everyone knows what they are – numbers that can be written as $ where $q 
 eq 0$. But here's the kicker}
-
-
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
@@ -79,7 +75,7 @@ eq 0$, $q$ is positive, and $p$ and $q$ have no common factor other than 1 (i.e.
 
 - HCF$(p,q)=1$).
 
-- **Closure Property:** Rational numbers are closed under addition, subtraction, and multiplication. They are NOT closed under division (division by zero is undefined).
+- **Closure Property:** Rational [numbers](/blog/real-numbers-class-10-notes) are closed under addition, subtraction, and multiplication. They are NOT closed under division (division by zero is undefined).
 
 - **Additive Identity:** Zero (0) is the additive identity for rational numbers, as $a+0 = a$.
 
@@ -92,50 +88,50 @@ eq 0$, $q$ is positive, and $p$ and $q$ have no common factor other than 1 (i.e.
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. If the product of two rational numbers is 1, then the numbers are reciprocal of each other.**
-**A)**     Rational numbers can be negative or positive
-**B)**     Product of two rational numbers is always 1
-**C)**     Rational numbers can be positive or negative
-**D)**     The numbers are reciprocal of each other
+**A)**      Rational numbers can be negative or positive
+**B)**      Product of two rational numbers is always 1
+**C)**      Rational numbers can be positive or negative
+**D)**      The numbers are reciprocal of each other
 
 **Answer:** D) If the product of two rational numbers is 1, it implies that one [number](/blog/number-systems-class-9-notes) is the reciprocal of the other.
 
 ---
 
 **2. Any rational [number](/blog/number-systems-class-9-notes) can be expressed in the form a/b, where b is non-zero.**
-**A)**     a and b are integers
-**B)**     b is non-zero
-**C)**     a can be zero, but b cannot be zero
-**D)**     a and b are integers and b is non-zero
+**A)**      a and b are integers
+**B)**      b is non-zero
+**C)**      a can be zero, but b cannot be zero
+**D)**      a and b are integers and b is non-zero
 
 **Answer:** D) Any rational [number](/blog/number-systems-class-9-notes) can be expressed in the form a/b, where b is non-zero, and a and b are integers.
 
 ---
 
 **3. The \sum of two rational numbers with the same denominator is the \sum of their numerators.**
-**A)**     The denominators are added
-**B)**     The \sum of rational numbers with the same denominator is the \sum of their numerators
-**C)**     The denominators are subtracted
-**D)**     The numerators are subtracted
+**A)**      The denominators are added
+**B)**      The \sum of rational numbers with the same denominator is the \sum of their numerators
+**C)**      The denominators are subtracted
+**D)**      The numerators are subtracted
 
 **Answer:** B) The \sum of two rational numbers with the same denominator is the \sum of their numerators, divided by the common denominator.
 
 ---
 
 **4. If the product of two rational numbers is a rational number, then the numbers are rational.**
-**A)**     The numbers are integers
-**B)**     If the product of two rational numbers is a rational number, then the numbers are rational
-**C)**     The numbers are irrational
-**D)**     The numbers are integers or rational
+**A)**      The numbers are integers
+**B)**      If the product of two rational numbers is a rational number, then the numbers are rational
+**C)**      The numbers are irrational
+**D)**      The numbers are integers or rational
 
 **Answer:** B) If the product of two rational numbers is a rational number, it implies that the numbers themselves are rational.
 
 ---
 
 **5. The difference of two rational numbers with the same denominator is the difference of their numerators.**
-**A)**     The denominators are subtracted
-**B)**     The denominators are added
-**C)**     The difference of rational numbers with the same denominator is the difference of their numerators
-**D)**     The numerators are subtracted
+**A)**      The denominators are subtracted
+**B)**      The denominators are added
+**C)**      The difference of rational numbers with the same denominator is the difference of their numerators
+**D)**      The numerators are subtracted
 
 **Answer:** C) The difference of two rational numbers with the same denominator is the difference of their numerators, divided by the common denominator.
 
@@ -157,3 +153,4 @@ Continue your revision with these related guides:
 - 📖 [Linear Equations in Two Variables Class 9 Mathematics Recap — Grandmaster Guide](/blog/linear-equations-in-two-variables-class-9-notes)
 - 📖 [Lines and Angles Class 9 Mathematics Recap — Grandmaster Guide](/blog/lines-and-angles-class-9-notes)
 - 📖 [Number Systems Class 9 Mathematics Recap — Grandmaster Guide](/blog/number-systems-class-9-notes)
+$

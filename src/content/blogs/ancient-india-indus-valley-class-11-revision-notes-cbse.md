@@ -116,8 +116,7 @@ By focusing on these key points, I can quickly review and recap the Indus Valley
 
 The growth of the Indus Valley Civilization can be represented by the following equation:
 
-
-\frac{dP}{dt} = RP \left(1 - \frac{P}{K}\right) 
+ \franc{dP}{dt} = RP \left(1 - \franc{P}{K}\right) 
 
 
 Where UP is the population, are is the growth rate, and OK is the carrying capacity.

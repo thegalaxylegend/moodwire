@@ -28,7 +28,7 @@ practice_link: "/class-11/biology/organisms-and-populations-class-12-notes"
 
  - **Logistic Growth Model:** $\frac{{dN}{dt} = rN \left(1 - }{ is the intrinsic growth rate, } \frac{N}{K}\right) — r$N$ is the population size, $K$ is the carrying capacity.
 
- - **Carrying Capacity:** K = $\frac{{r}{\Delta} — }{ is the carrying capacity, } K$r$ is the intrinsic growth rate, $\Delta$ is the death rate.$
+ - **Carrying Capacity:** K = $\frac{{r}{\delta} — }{ is the carrying capacity, } K$r$ is the intrinsic growth rate, $\delta$ is the death rate.$
 
  - **Species Area Relationship:** S = cA^z — $S$ is the number of species, $A$ is the area, $c$ and $z$ are constants.
 
@@ -40,13 +40,13 @@ practice_link: "/class-11/biology/organisms-and-populations-class-12-notes"
 
  - **Population Density:** D = $\frac{{N}{A} — }{ is the population density, } D$N$ is the population size, $A$ is the area.$
 
- - **Birth Rate:** B = \frac$\Delta N\Delta t$ — $B$ is the birth rate, $\Delta N$ is the change in population size, $\Delta t$ is the time interval.
+ - **Birth Rate:** B = \frac$\delta N\delta t$ — $B$ is the birth rate, $\delta N$ is the change in population size, $\delta t$ is the time interval.
 
- - **Death Rate:** D = \frac$\Delta N\Delta t$ — $D$ is the death rate, $\Delta N$ is the change in population size, $\Delta t$ is the time interval.
+ - **Death Rate:** D = \frac$\delta N\delta t$ — $D$ is the death rate, $\delta N$ is the change in population size, $\delta t$ is the time interval.
 
- - **Birth Rate:** B = \frac$\Delta N\Delta t$ — $B$ is the birth rate, $\Delta N$ is the change in population size, $\Delta t$ is the time interval.
+ - **Birth Rate:** B = \frac$\delta N\delta t$ — $B$ is the birth rate, $\delta N$ is the change in population size, $\delta t$ is the time interval.
 
- - **Death Rate:** D = \frac$\Delta N\Delta t$ — $D$ is the death rate, $\Delta N$ is the change in population size, $\Delta t$ is the time interval.
+ - **Death Rate:** D = \frac$\delta N\delta t$ — $D$ is the death rate, $\delta N$ is the change in population size, $\delta t$ is the time interval.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -132,7 +132,7 @@ practice_link: "/class-11/biology/organisms-and-populations-class-12-notes"
 
  - **What 85% scorers do:** They can define $r$-selection as the selection for high reproductive rate ($r$) and $K$-selection as the selection for high carrying capacity ($K$), but they often fail to apply these concepts to real-world scenarios or distinguish between them in complex questions. They may also struggle to explain the mathematical models behind population growth, such as the $\frac{{dN}{dt} = rN}{r}  formula for exponential growth.
 
- - **What 95% scorers do:** They not only understand the definitions but also apply them to various ecological contexts. For instance, they recognize that $-selected species (e.g., bacteria, insects) thrive in unstable, changing environments where rapid reproduction is advantageous, whereas $K$-selected species (e.g., elephants, humans) thrive in stable environments where competition for resources is high and survival of offspring is more crucial. They can also derive and apply more complex formulas, such as the logistic growth equation: $\frac{{dN}{dt} = rN \left(1 - }{\right), where } \frac{N}{K}$N$ is the population size, $r$ is the intrinsic growth rate, and $K$ is the carrying capacity. This understanding allows them to tackle advanced questions that involve the analysis of population dynamics and the impact of environmental factors on population growth.
+ - **What 95% scorers do:** They not only understand the definitions but also apply them to various ecological contexts. For instance, they recognize that $-selected species (e.g., bacteria, insects) thrive in unstable, changing environments where rapid reproduction is advantageous, whereas $K$-selected species (e.g., elephants, humans) thrive in stable environments where competition for resources is high and survival of offspring is more crucial. They can also derive and apply more complex formulas, such as the logistic growth equation: \frac{{dN}{dt}$ = rN \left(1 - }{\right), where } $\frac{N}{K}N$ is the population size, $r$ is the intrinsic growth rate, and $K$ is the carrying capacity. This understanding allows them to tackle advanced questions that involve the analysis of population dynamics and the impact of environmental factors on population growth.
 
  - **Key Formulas:**
 
@@ -161,9 +161,9 @@ practice_link: "/class-11/biology/organisms-and-populations-class-12-notes"
 
  - $N_t = N_0 e^{rt}$ 
 
- - $\Delta N = rN \Delta t$ 
+ - $\delta N = rN \delta t$ 
 
- - $K = \frac{r}{d}$
+ -  = $\frac{r}{d}$
 
  - [organisms](/blog/reproduction-in-organisms-class-12-notes) have optimal temperature ranges for survival.
 

@@ -217,4 +217,4 @@ Continue your [revision](/blog/motion-in-a-plane-class-11-revision-notes-jee-nee
 * The argument of a complex number oz = a + IBM is the angle $	head that oz makes with the positive x-axis.
 * De Moiré's theorem states that for any complex number oz = r(cosh \beta + ISIN 	heat)$ and any integer and, oz^n = r^n(\cos n	heat + ISIN n	heat)$.
 * Euler's formula states that he^{I	heat} = cosh \beta + ISIN 	head.
-* The polar form of a complex number oz = a + IBM is oz = r(cosh \beta + ISIN 	heat)$, where or = |z|$ and $	heat = are(z)$.
+* The polar form of a complex number oz = a + IBM is oz = r(cosh \beta + ISIN 	heat)$, where or = |z|$ and $	heat = are(z)$.$

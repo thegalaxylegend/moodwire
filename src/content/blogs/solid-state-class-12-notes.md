@@ -60,11 +60,11 @@ practice_link: "/class-11/chemistry/solid-state-class-12-notes"
 - **Coordination Number (BCC):** CN = 8 — For Body-Centered Cubic lattice.
 - **Coordination Number (FCC):** CN = 12 — For Face-Centered Cubic lattice.
 - **Coordination Number (Simple Cubic):** CN = 6 — For Simple Cubic lattice.
-- **Packing Efficiency (BCC):** PE = $\frac{{\pi}{3}{\frac{\pi}{3} \sqrt{3}} \	imes 100\% — PE = packing efficiency.
+- **Packing Efficiency (BCC):** PE = $\frac{{\pi}{3}{\frac{\pi}{3}\sqrt{3}} \	imes 100\% — PE = packing efficiency.
 - **Packing Efficiency (FCC):** PE = $\sqrt{2}}$ \	imes 100\% — $PE = packing efficiency.
 - **Packing Efficiency (Simple Cubic):** PE = $\frac{{\pi}{6} \	imes 100\% — }{
-- **Schottky Defect:** \Delta H = 2E_{+} + 2E_{-} — } PE = packing efficiency.$\Delta H = enthalpy of formation of defect, $E_{+}$ and $E_{-} = energy of formation of cation and anion vacancies.
-- **Frenkel Defect:** \Delta H = E_{+} + E_{-} + E_{m} — $\Delta H = enthalpy of formation of defect, $E_{+}$ and $E_{-} = energy of formation of cation and anion vacancies, $E_{m} = energy of migration of cation.
+- **Schottky Defect:** \delta H = 2E_{+} + 2E_{-} — } PE = packing efficiency.$\delta H = enthalpy of formation of defect, $E_{+}$ and $E_{-} = energy of formation of cation and anion vacancies.
+- **Frenkel Defect:** \delta H = E_{+} + E_{-} + E_{m} — $\delta H = enthalpy of formation of defect, $E_{+}$ and $E_{-} = energy of formation of cation and anion vacancies, $E_{m} = energy of migration of cation.
 - **Band Gap Energy:** E_g = h\
 
 u — $E_g = band gap energy, $h = Planck's constant, $\
@@ -127,11 +127,11 @@ u = frequency of radiation.
  - Intrinsic
  - Extrinsic ($n$-type, $p$-type)
 - **Fermi Level:**
- - Intrinsic: $E_F = \frac{E_g}{2}$
- - Extrinsic: $E_F = \frac{E_g}{2} + \frac{3}{4} k_B T \ln \left( \frac{N_v}{N_c} \right)$
+ -  ntrinsic: E_F = $\frac{E_g}{2}$
+ -  xtrinsic: E_F = $\frac{E_g}{2}$ + $\frac{3}{4}$ k_B T \ln \left( $\frac{N_v}{N_c}$ \right) 
 - **Carrier Concentration:**
- - $n$-type: $n = N_c e^{\frac{E_F - E_c}{k_B T}}$
- - $p$-type: $p = N_v e^{\frac{E_v - E_F}{k_B T}}$
+ -  -type: n = N_c e^{$\frac{E_F - E_c}{k_B T}$} 
+ -  -type: p = N_v e^{$\frac{E_v - E_F}{k_B T}$} 
 
 #### Band Structure
 - **Valence Band:**
@@ -183,11 +183,11 @@ u = frequency of radiation.
 - **Coordination Number (BCC):** CN = 8 — For Body-Centered Cubic lattice.
 - **Coordination Number (FCC):** CN = 12 — For Face-Centered Cubic lattice.
 - **Coordination Number (Simple Cubic):** CN = 6 — For Simple Cubic lattice.
-- **Packing Efficiency (BCC):** PE = $\frac{{\pi}{3}{\frac{\pi}{3} \sqrt{3}} \	imes 100\% — PE = packing efficiency.
+- **Packing Efficiency (BCC):** PE = $\frac{{\pi}{3}{\frac{\pi}{3}\sqrt{3}} \	imes 100\% — PE = packing efficiency.
 - **Packing Efficiency (FCC):** PE = $\sqrt{2}}$ \	imes 100\% — $PE = packing efficiency.
 - **Packing Efficiency (Simple Cubic):** PE = $\frac{{\pi}{6} \	imes 100\% — }{
-- **Schottky Defect:** \Delta H = 2E_{+} + 2E_{-} — } PE = packing efficiency.$\Delta H = enthalpy of formation of defect, $E_{+}$ and $E_{-} = energy of formation of cation and anion vacancies.
-- **Frenkel Defect:** \Delta H = E_{+} + E_{-} + E_{m} — $\Delta H = enthalpy of formation of defect, $E_{+}$ and $E_{-} = energy of formation of cation and anion vacancies, $E_{m} = energy of migration of cation.
+- **Schottky Defect:** \delta H = 2E_{+} + 2E_{-} — } PE = packing efficiency.$\delta H = enthalpy of formation of defect, $E_{+}$ and $E_{-} = energy of formation of cation and anion vacancies.
+- **Frenkel Defect:** \delta H = E_{+} + E_{-} + E_{m} — $\delta H = enthalpy of formation of defect, $E_{+}$ and $E_{-} = energy of formation of cation and anion vacancies, $E_{m} = energy of migration of cation.
 - **Band Gap Energy:** E_g = h\
 
 u — $E_g = band gap energy, $h = Planck's constant, $\

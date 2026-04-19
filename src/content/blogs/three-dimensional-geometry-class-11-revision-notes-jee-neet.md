@@ -158,7 +158,7 @@ The centroid of a triangle with vertices (x₁, y₁, z₁), (x₂, y₂, z₂),
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 11: Conic Sections**
-- **Chapter 13: Limits and Derivatives**
+- **Chapter 13: [limits](/blog/limits-derivatives-class-11-revision-notes-jee-neet) and Derivatives**
 - [**External Reference:** [NCERT Class 11 Math Chapter 12](https://ncert.nic.in/textbook.php?kemh1=12-16) (Authoritative Source)]
 
 

@@ -46,7 +46,7 @@ If you master these specific subtopics, scoring 80+ in [chemistry](/blog/environ
 ## <a id="physical-chemistry-the-high-roi-formulae"></a>Physical Chemistry: The High ROI Formulae
 
 1. **Moles and Limiting Reagent:** Often the very first question in Section A. The trick is identifying the limiting reagent quickly.
-2. **First Law of Thermodynamics (Work Done Graphs):** A staple. Expect an expanding/compressing gas curve where you must calculate the area under the PV diagram.
+2. **First Law of [thermodynamics](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet) (Work Done Graphs):** A staple. Expect an expanding/compressing gas curve where you must calculate the area under the PV diagram.
 3. **Nernst Equation and Electrochemical Cells:** Focus on the relationship between standard cell potential, Gibbs free energy, and the equilibrium constant.
 4. **First-Order Chemical Kinetics:** The half-life equation for first-order reactions appears in almost every single shift.
 5. **Colligative Properties (Depression in Freezing Point):** Usually linked to finding the Van't Hoff factor (i) for a dissociating/associating solute.

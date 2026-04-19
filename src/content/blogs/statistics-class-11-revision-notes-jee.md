@@ -46,7 +46,7 @@ practice_link: "/class-11/mathematics/statistics-class-11-revision-notes-jee"
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
 > - **Mean Deviation (M.D.):** $\frac{{1}{n} \sum |x_i - \text{mean/median}|}{\sigma^2} .
-> - **Variance ($):** $\frac{{1}{n} \sum (x_i - \bar{x})^2}{\sigma} .
+> - **Variance ($):** \frac{{1}{n}$ \sum (x_i - $\bar{x}$)^2}{\sigma} .
 > - **Standard Deviation ($):** Positive square root of Variance.
 > - **Shortcut for Variance:** $\frac{{\sum x_i^2}{{n} - (\bar{x})^2}}{\bar{x}} .
 > - **Lower M.D./S.D.:** Indicates more consistent (less dispersed) data.
@@ -91,11 +91,11 @@ Mean deviation can be calculated about the **Mean** or the **Median**.
 
 **Formula for Ungrouped Data:**
 
-M.D. ($\bar{x}) = \frac$\sum |x_i - $\bar{x$|}{n}
+ M.D. (\bar{x}) = \frac\sum |x_i - \bar{x|}{n} 
 
 
 **Formula for Grouped Data:**
-M.D. (\bar{x}) = \frac$\sum f_i |x_i - $\bar{x$|}{N}$ (where $N = \sum f_i$)
+ M.D. (\bar{x}) = \frac\sum f_i |x_i - \bar{x|}{N} (where N = \sum f_i) 
 
 ---
 
@@ -128,7 +128,7 @@ Sometimes we need to compare two different [series](/blog/sequences-series-class
 
 ### <a id="coefficient-of-variation-cv"></a>Coefficient of Variation (C.V.):
 To compare dispersion between two sets with different means or units, we use C.V.
-- **Formula:** } \sqrt{N \sum f_i x_i^2 - (\sum f_i x_i)^2}$C.V. = \frac{\sigma}{\bar{x}} \times 100$
+- **Formula:** } $\sqrt{N \sum f_i x_i^2 - (\sum f_i x_i)^2}C.V. = \frac{\sigma}{\bar{x}} \times 100$
 - **Consistency Rule:** The [series](/blog/sequences-series-class-11-revision-notes-jee) with a **lower C.V.** is said to be more stable or consistent.
 
 ---
@@ -153,7 +153,7 @@ To compare dispersion between two sets with different means or units, we use C.V
 
 **Q3: Which measure is better: Mean Deviation or Standard Deviation?**
 **Answer:**
-Standard Deviation is generally better for advanced mathematical analysis because it is based on squared values (avoiding the non-algebraic "absolute" signs) and is more sensitive to outliers.
+Standard Deviation is generally better for advanced [mathematical](/blog/mathematical-reasoning-class-11-revision-notes-jee-neet) analysis because it is based on squared values (avoiding the non-algebraic "absolute" signs) and is more sensitive to outliers.
 
 ---
 

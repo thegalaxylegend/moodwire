@@ -9,7 +9,7 @@ practice_link: "/class-11/mathematics/quadratic-equations-class-10-notes"
 
 *Last Updated: 2026-04-09*
 
-<div class="quick-summary">
+<div [class](/blog/linear-equations-in-two-variables-class-9-notes)="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
@@ -41,14 +41,14 @@ practice_link: "/class-11/mathematics/quadratic-equations-class-10-notes"
 - **Quadratic Formula:** $\frac{{-b \pm }{\sqrt{{b^2 - 4ac}}}}{ — a, b, and c are coefficients of the quadratic equation } 2a$ax^2 + bx + c = 0$.
  - **Sum of Roots:** $\frac{{-b}{a}}{ax^2 + bx + c = 0}  — a and b are coefficients of the quadratic equation $.
  - **Product of Roots:** $\frac{{c}{a — a and c are coefficients of the quadratic equation ax^2 + bx + c = 0}}{
- - **Discriminant:** \Delta = b^2 - 4ac — a, b, and c are coefficients of the quadratic equation } .$ax^2 + bx + c = 0$.
+ - **Discriminant:** \delta = b^2 - 4ac — a, b, and c are coefficients of the quadratic equation } .$ax^2 + bx + c = 0$.
  - **Nature of Roots:** 
- - If $\Delta > 0$, the equation has two distinct real roots.
- - If $\Delta = 0$, the equation has two equal real roots.
- - If $\Delta < 0$, the equation has no real roots.
+ - If $\delta > 0$, the equation has two distinct real roots.
+ - If $\delta = 0$, the equation has two equal real roots.
+ - If $\delta < 0$, the equation has no real roots.
  - **Relation Between Roots and Coefficients:** 
- - $\alpha + \beta = \frac$-b$a$
- - \alpha \beta = \fracc$a$
+ -  alpha + \beta = \frac-ba 
+ -  alpha \beta = \fracca 
  - **Quadratic Equation in Vertex Form:** y = a(x - h)^2 + k — (h, k) is the vertex of the parabola.
  - **Axis of Symmetry:** x = $\frac{{-b}{2a}}{ax^2 + bx + c = 0}  — a and b are coefficients of the quadratic equation $.
  - **Vertex Form to Standard Form Conversion:** y = a(x - h)^2 + k = ax^2 - 2ahx + ah^2 + k = ax^2 + bx + c 
@@ -68,7 +68,7 @@ eq 0$. Ensure that the coefficient of ${x^2}$ is not zero.
  - *Fix:* Double-check that you are substituting the correct values of $a$, $b$, and $c$ into the quadratic formula: ${x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}}$. Verify your calculations to ensure accuracy.
  - **Mistake 4:** Not simplifying the expression under the square root in the quadratic formula.
  - *Costs:* 1-2 marks
-- *Fix:* Always simplify the expression under the square root: $\sqrt{b^2 - 4ac}$$. This may involve factoring out perfect squares or simplifying the expression inside the square root.$ $$
+- *Fix:* Always simplify the expression under the square root: $\sqrt{b^2 - 4ac}. This may involve factoring out perfect squares or simplifying the expression inside the square root.$
  - **Mistake 5:** Failing to check the nature of the roots (real and distinct, real and equal, or complex) based on the discriminant ${b^2 - 4ac}$.
  - *Costs:* 2-4 marks
  - *Fix:* Use the discriminant ${b^2 - 4ac}$ to determine the nature of the roots. If ${b^2 - 4ac > 0}$, the roots are real and distinct. If ${b^2 - 4ac = 0}$, the roots are real and equal. If ${b^2 - 4ac < 0}$, the roots are complex.
@@ -78,7 +78,7 @@ eq 0$. Ensure that the coefficient of ${x^2}$ is not zero.
 - **Q1:** If the equation $x^2 + {2\lambda}x + {\lambda} = 0$ has two distinct real roots, then find the range of values of ${\lambda}$.
  - **Trap:** Students often get confused with the condition for distinct [real](/blog/real-numbers-class-10-notes) roots.
  - **Solution:** 
- - Recall that for a quadratic equation $ax^2 + bx + c = 0$, the roots are given by the formula $x = \frac$-b \pm \sqrt{{b^2 - 4ac}$}{2a}$.
+ - Recall that for a quadratic equation $ax^2 + bx + c = 0$, the roots are given by the formula $x = \frac$-b \pm $\sqrt{{b^2 - 4ac}}{2a}$.
  - For distinct real roots, the discriminant $b^2 - 4ac > 0$. 
  - Applying this condition to the given equation $x^2 + {2\lambda}x + {\lambda} = 0$, we have:
  
@@ -88,7 +88,7 @@ eq 0$. Ensure that the coefficient of ${x^2}$ is not zero.
  \lambda(\lambda - 1) > 0
  
  - Solving the inequality $\lambda(\lambda - 1) > 0$, we find that $\lambda < 0$ or $\lambda > 1$.
- - **Answer:** $\lambda \in (-\infty, 0) \cup (1, \infty)$
+ -  *Answer:** \lambda \in (-\infty, 0) \cup (1, \infty) 
  - **Q2:** Find the roots of the equation $x^2 - 3x - 2 = 0$.
  - **Trap:** Students may forget to apply the quadratic formula.
  - **Solution:** 
@@ -103,21 +103,19 @@ x = $\frac{{-b \pm }{\sqrt{{b^2 - 4ac}}{2a}
 
 x = $\frac{{-(-3) \pm }{\sqrt{{(-3)^2 - 4(1)(-2)}}{\sqrt{{9 + 8} }}{2(1)} \
 
-x = \frac3 \pm }$}{2} \
+ x = \frac3 \pm }}{2} \  x = \frac3 \pm \sqrt{{17}}{2} 
 
-x = \frac3 \pm $\sqrt{{17}$}{2}
-
- - Therefore, the roots are x = \frac3 + \sqrt{{17}$}{2}$ and $x = \frac$3 - \sqrt{{17}$}{2}$.
- - **Answer:** $x = \frac$3 + \sqrt{{17}$}{2}$ and $x = \frac$3 - \sqrt{{17}$}{2}$
-- **Q3:** If $x = \frac{1}$2 + \sqrt{3}$$, then find the value of $x^2 + 3x - 4$. $$
+ - Therefore, the roots are x = \frac3 + $\sqrt{{17}}{2}$ and $x = \frac$3 - $\sqrt{{17}}{2}$.
+ - **Answer:** $x = \frac$3 + $\sqrt{{17}}{2}$ and $x = \frac$3 - $\sqrt{{17}}{2}$
+- **Q3:** If $x = \frac{1}$2 + $\sqrt{3}$, then find the value of $x^2 + 3x - 4$. 
  - **Trap:** Students may find it difficult to simplify the given expression for $x$.
  - **Solution:** 
-- To simplify $x = \frac{1}$2 + \sqrt{3}$$, multiply the numerator and denominator by the conjugate of the denominator: $$
+- To simplify $x = \frac{1}$2 + $\sqrt{3}$, multiply the numerator and denominator by the conjugate of the denominator: 
  
 
-x = $\frac{{1}}{\sqrt{3}} 2 + $ \times \frac2 - $\sqrt{3}$2 - \sqrt{3}$ \
+x = $\frac{{1}}{\sqrt{3}} 2 + $ \times \frac2 - $\sqrt{3}$2 - $\sqrt{3} \
 
-x = $\frac{{2 - }{\sqrt{3}}}{\sqrt{3}} (2)^2 - ($)^2$ \
+ x = \frac{{2 - }{\sqrt{3}}}{\sqrt{3}} (2)^2 - ()^2 \ 
 
 x = $\frac{{2 - }{\sqrt{3}}}{\sqrt{3}} 4 - 3 \
 
@@ -126,11 +124,11 @@ x = 2 - $
  - Now, substitute $x = 2 - \sqrt{3}$ into the expression $x^2 + 3x - 4$:
  
 
-(2 - $\sqrt{3})^2 + 3(2 - $\sqrt{3}$) - 4 \
+(2 - $\sqrt{3})^2 + 3(2 - \sqrt{3}) - 4 \
 
-(4 - 4$\sqrt{3} + 3) + (6 - 3$\sqrt{3}) - 4 \
+(4 - 4$\sqrt{3} + 3) + (6 - 3\sqrt{3}$) - 4 \
 
-4 - 4\sqrt{3} + 3 + 6 - 3$\sqrt{3}$ - 4 \
+4 - 4$\sqrt{3}$ + 3 + 6 - 3$\sqrt{3}$ - 4 \
 
 9 - 7$\sqrt{3}$
 
@@ -141,18 +139,18 @@ x = 2 - $
 - **The Core Concept:** The core concept in quadratic equations that separates high scorers from the rest is the **discriminant**, $b^2 - 4ac$, which determines the nature of the roots of a quadratic equation $ax^2 + bx + c = 0$. 
 
 - **What 85% scorers do:** Most students (around 85% scorers) focus on simply solving quadratic [equations](/blog/pair-of-linear-equations-class-10-notes) using the quadratic formula: x = $\frac{{-b \pm }{, is key to quickly determining the nature of the roots without fully solving the equation. They can:
- * Identify if the roots are real and distinct (} \sqrt{b^2 - 4ac}}{2a} without deeply understanding the implications of the discriminant.
+ * Identify if the roots are real and distinct (} $\sqrt{b^2 - 4ac}$}{2a} without deeply understanding the implications of the discriminant.
 
  - **What 95% scorers do:** However, high scorers (95% scorers) understand that the discriminant, b^2 - 4ac$b^2 - 4ac > 0$)
  * Recognize if there are real and equal roots ($b^2 - 4ac = 0$)
  * Determine if the roots are complex and conjugate ($b^2 - 4ac < 0$)
  * Apply this understanding to solve problems efficiently, especially in competitive exams where time management is crucial.
  - **Key Formulas and Concepts:**
- * The discriminant: $\Delta = b^2 - 4ac$
+ * The discriminant: $\delta = b^2 - 4ac$
  * Nature of roots based on discriminant:
- + $\Delta > 0$: Real and distinct roots
- + $\Delta = 0$: Real and equal roots
- + $\Delta < 0$: Complex and conjugate roots
+ + $\delta > 0$: Real and distinct roots
+ + $\delta = 0$: Real and equal roots
+ + $\delta < 0$: Complex and conjugate roots
  * Relationship between roots and coefficients: For a quadratic equation $ax^2 + bx + c = 0$, the \sum of the roots $= -\frac{b}{a}$ and the product of the roots $= \frac{c}{a}$.
  - **Example and Application:**
  * Example: For the equation $x^2 + 5x + 6 = 0$, the discriminant is $b^2 - 4ac = 5^2 - 4(1)(6) = 25 - 24 = 1 > 0$. Thus, the roots are real and distinct without needing to solve the equation fully.
@@ -165,7 +163,7 @@ x = 2 - $
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-- **The Hidden Pattern:** In quadratic equations of the form $ax^2 + bx + c = 0$, where $a$, $b$, and $c$ are constants, a specific pattern emerges when analyzing the roots. This pattern is related to the discriminant, $\Delta = b^2 - 4ac$. For equations where $\Delta$ is a perfect square, the roots are often simple and easy to find. For instance, equations like $x^2 - 7x + 12 = 0$ have roots that can be found using factorization, but recognizing the pattern in $\Delta$ can simplify the process.,- **How to Apply It:** To apply this pattern, first, identify if $\Delta$ is a perfect square. If it is, then the roots of the equation can be expressed as $\frac{{-b \pm \sqrt}{b}{2a}} \Delta$, which simplifies to $\frac{{-b \pm \sqrt{m^2}}{2a}}{m} , where $ is an integer. This simplification to $\frac{{-b \pm m}{2a}}{-\frac{b}{a}}  can significantly ease the calculation of roots, especially in timed exams. Additionally, recognizing that the \sum of the roots equals $ and the product of the roots equals $\frac{{c}{a}}{\Delta}  can help in solving equations without directly computing the roots.,- **PYQ-Specific Trend:** A trend observed in previous years' questions (PYQs) is that quadratic equations are often used to test the understanding of relationships between roots and coefficients rather than just finding the roots. Questions may ask for the \sum or product of the roots, or they might require determining the nature of the roots based on the discriminant. Another trend is the use of quadratic equations in word problems, where the equation itself is not directly given but must be derived from the problem statement. Being able to quickly identify and apply the hidden pattern in quadratic equations can significantly improve performance in such questions.,- **Solving Strategy:** When encountering a quadratic equation in an exam, a strategic approach is to first calculate the discriminant $ to understand the nature of the roots. If $\Delta > 0$ and is a perfect square, the roots are real and distinct, and can be easily found. If $\Delta = 0$, there is one real root. If $\Delta < 0$, the roots are complex. Recognizing these patterns and applying the appropriate formulas can streamline the solving process and reduce errors.
+- **The Hidden Pattern:** In quadratic equations of the form $ax^2 + bx + c = 0$, where $a$, $b$, and $c$ are constants, a specific pattern emerges when analyzing the roots. This pattern is related to the discriminant, $\delta = b^2 - 4ac$. For equations where $\delta$ is a perfect square, the roots are often simple and easy to find. For instance, equations like $x^2 - 7x + 12 = 0$ have roots that can be found using factorization, but recognizing the pattern in $\delta$ can simplify the process.,- **How to Apply It:** To apply this pattern, first, identify if $\delta$ is a perfect square. If it is, then the roots of the equation can be expressed as $\frac{{-b \pm \sqrt}{b}{2a}} \delta$, which simplifies to $\frac{{-b \pm \sqrt{m^2}}{2a}}{m} , where $ is an integer. This simplification to $\frac{{-b \pm m}{2a}}{-\frac{b}{a}}  can significantly ease the calculation of roots, especially in timed exams. Additionally, recognizing that the \sum of the roots equals $ and the product of the roots equals $\frac{{c}{a}}{\delta}  can help in solving equations without directly computing the roots.,- **PYQ-Specific Trend:** A trend observed in previous years' questions (PYQs) is that quadratic equations are often used to test the understanding of relationships between roots and coefficients rather than just finding the roots. Questions may ask for the \sum or product of the roots, or they might require determining the nature of the roots based on the discriminant. Another trend is the use of quadratic equations in word problems, where the equation itself is not directly given but must be derived from the problem statement. Being able to quickly identify and apply the hidden pattern in quadratic equations can significantly improve performance in such questions.,- **Solving Strategy:** When encountering a quadratic equation in an exam, a strategic approach is to first calculate the discriminant $ to understand the nature of the roots. If $\delta > 0$ and is a perfect square, the roots are real and distinct, and can be easily found. If $\delta = 0$, there is one real root. If $\delta < 0$, the roots are complex. Recognizing these patterns and applying the appropriate formulas can streamline the solving process and reduce errors.
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
@@ -175,7 +173,7 @@ x = 2 - $
  - {x} = } }2}{a: Quadratic formula
 
  - {b}^2 - {4}{a}{c}$\frac{-b}{2}{a}$: Formula for x-coordinate of vertex
- - {y} = {c} - \frac{b}^2$1 : Formula for y-coordinate of vertex
+ - {y} = {c} - $\frac{b}$^2$1 : Formula for y-coordinate of vertex
  - Key facts:
  - A quadratic equation has two roots
  - Roots can be [real](/blog/real-numbers-class-10-notes) or complex
@@ -217,21 +215,21 @@ D) (x + 2)(x + 6) = 0
 ---
 
 **4. The roots of the equation $ax^2 + bx + c = 0$ are $\alpha$ and $\beta$. What is the product of the roots $\alpha \beta$?**
-A) $-\frac{b}{a}$
-B) $\frac{{b}{a}}{-\frac{c}{a}} 
+A) -\frac{b}{a}
+B) $\frac{{b}{a}}{-\frac{c}{a}}
 C) $
-D) $\frac{{c}{a}}{\alpha \beta = \frac{c}{a}} 
+D) $\frac{{c}{a}}{\alpha \beta = \frac{c}{a}}
 
-**Answer:** D) Using the product of roots formula $, we get the product of roots as $\frac{{c}{a}}{2x^2 + 5x - 3 = 0} .
+**Answer:** D) Using the product of roots formula $, we get the product of roots as \frac{{c}{a}$}{2x^2 + 5x - 3 = 0} .
 
 ---
 
 **5. Solve the equation $ using the quadratic formul
 a.**
-A) $x = \frac{-5 \pm \sqrt{5^2 - 4(2)(-3)}}{2(2)}$
-B) $x = \frac{-5 \pm \sqrt{5^2 + 4(2)(-3)}}{2(2)}$
-C) $x = \frac{-5 \pm \sqrt{5^2 - 4(2)(3)}}{2(2)}$
-D) $x = \frac{-5 \pm \sqrt{5^2 + 4(2)(3)}}{2(2)}$
+A) x = \frac{-5 \pm \sqrt{5^2 - 4(2)(-3)}}{2(2)}
+B) x = \frac{-5 \pm \sqrt{5^2 + 4(2)(-3)}}{2(2)}
+C) x = \frac{-5 \pm \sqrt{5^2 - 4(2)(3)}}{2(2)}
+D) x = \frac{-5 \pm \sqrt{5^2 + 4(2)(3)}}{2(2)}
 
 **Answer:** A) Using the quadratic formula $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$, we get $x = \frac{-5 \pm \sqrt{5^2 - 4(2)(-3)}}{2(2)}$.
 
@@ -253,4 +251,6 @@ Continue your revision with these related guides:
 - 📖 [Arithmetic Progressions Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/arithmetic-progressions-class-10-notes)
 - 📖 [Polynomials Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/polynomials-class-10-notes)
 - 📖 [Real Numbers Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/real-numbers-class-10-notes)
+
+**
 

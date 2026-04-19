@@ -9,7 +9,7 @@ practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
 
 *Last Updated: 2026-04-09*
 
-<div class="quick-summary">
+<div [class](/blog/pair-of-linear-equations-class-10-notes)="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
@@ -57,7 +57,7 @@ $ \frac{p}{q} \} — where p$ is the numerator and $q$ is the denominator.
  \} — where a is the radicand and } {n $n$ is the index of the root.
  - **Absolute Value:** 
 
-$ |a| = $\sqrt{a^2} \} — where $a$ is a real number.
+$ |a| = \sqrt{a^2}$ \} — where $a$ is a real number.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -84,7 +84,7 @@ $ |a| = $\sqrt{a^2} \} — where $a$ is a real number.
 - **Q1:** If $\frac{{1}{a} + \frac{1}{b} + \frac{1}{c} = \frac{1}{2}}{a + b + c = 6}  and $, then the value of $\frac{{1}{3a} + \frac{1}{3b} + \frac{1}{3c}}{\frac{1}{a} + \frac{1}{b} + \frac{1}{c} = \frac{1}{2}}  is 
  - **Trap:** Students often get confused about how to approach the problem and make calculation errors.
  - **Solution:** 
- - First, we notice the equation $ can be transformed by finding a common denominator to get $\frac{{ab + bc + ca}{abc} = \frac{1}{2}}{a + b + c = 6} .
+ - First, we notice the equation $ can be transformed by finding a common denominator to get \frac{{ab + bc + ca}{abc}$ = $\frac{1}{2}$}{a + b + c = 6} .
  - Then, we use the fact that $ to find a relationship between the symmetric sums and the product $abc$.
  - The value of $\frac{{1}{3a} + \frac{1}{3b} + \frac{1}{3c}}{\frac{1}{3}(\frac{1}{a} + \frac{1}{b} + \frac{1}{c})}  can then be calculated directly by realizing it's $, which simplifies to $\frac{{1}{3} \cdot \frac{1}{2}}{\frac{1}{3a} + \frac{1}{3b} + \frac{1}{3c} = \frac{1}{6}} .
  - Therefore, $.
@@ -232,4 +232,6 @@ Continue your revision with these related guides:
 - 📖 [Pair of Linear Equations Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/pair-of-linear-equations-class-10-notes)
 - 📖 [Polynomials Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/polynomials-class-10-notes)
 - 📖 [Quadratic Equations Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/quadratic-equations-class-10-notes)
+
+}}
 

@@ -166,5 +166,5 @@ Continue your [revision](/blog/indian-geography-physical-class-11-revision-notes
 * **Federal Structure**: Division of power between Union & States.
 * **Independent Judiciary**: Supreme Court & High Courts, guardians of Constitution.
 * **Universal Adult Franchise**: Every citizen above 18 has right to vote.
-* **Key Amendments**: 42nd (fundamental duties), 44th (emergency provisions), 86th (right to education).
+* **Key Amendments**: 42nd ([fundamental](/blog/fundamental-rights-class-11-revision-notes-cbse) duties), 44th (emergency provisions), 86th (right to education).
 * **Schedules**: 12 schedules, including 1st (States & UT's) and 7th (Union, State, Concurrent lists).

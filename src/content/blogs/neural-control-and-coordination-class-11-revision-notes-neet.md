@@ -117,7 +117,7 @@ By following these tips and thoroughly understanding the concepts of neural cont
 To further enhance your understanding, consider exploring the following LaTeX formatted equation, which represents the basic concept of action potential:
 
 
-$1 \frac{1}{C_m}$ \left( g_{Na} (V - V_{Na}) + g_K (V - V_K) + g_L (V - V_L) \right)
+ 1 \frac{1}{C_m} \left( g_{Na} (V - V_{Na}) + g_K (V - V_K) + g_L (V - V_L) \right) 
 
 
 

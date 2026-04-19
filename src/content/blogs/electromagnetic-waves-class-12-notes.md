@@ -79,7 +79,7 @@ Some of the key terms and formulas that we'll be using in this topic include:
 
 
 * **Wave number**: $k = \frac{2 \pi}{\lambda}$
-* **Frequency**: $f = \frac{c}{\lambda}$
+*  **Frequency**: f = $\frac{c}{\lambda}$
 
 As we explore the world of electromagnetic waves, we'll be using a combination of theoretical concepts, mathematical derivations, and practical examples to deepen our understanding of this fascinating topic. By the end of this journey, you'll have a solid grasp of the principles of electromagnetic waves and be well-prepared to tackle the challenges of the [class](/blog/magnetism-and-matter-class-12-notes) 12 Physics exam. 
 
@@ -140,9 +140,9 @@ Moreover, it's essential to practice solving problems that involve calculating t
 u$, where $E$ is the energy of the radiation, $h$ is Planck's constant, and $
 u$ is the frequency. Being able to apply these formulas to real-world scenarios and to analyze the properties and applications of different types of electromagnetic radiation will be crucial for success in the exam. 
 
-In terms of exam preparation, students should also be aware of the common types of questions that are asked about the Electromagnetic Spectrum. These can range from simple recall questions about the order of the spectrum or the characteristics of specific types of radiation, to more complex questions that require the application of formulas or the analysis of scenarios involving electromagnetic radiation. Practicing a variety of question types and reviewing the material regularly will help students to feel confident and prepared for the exam. 
+In terms of exam preparation, students should also be aware of the common types of questions that are asked about the [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) Spectrum. These can range from simple recall questions about the order of the spectrum or the characteristics of specific types of radiation, to more complex questions that require the application of formulas or the analysis of scenarios involving [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) radiation. Practicing a variety of question types and reviewing the material regularly will help students to feel confident and prepared for the exam. 
 
-Key Takeaway: Understanding the Electromagnetic Spectrum, its various regions, and the properties and applications of each type of electromagnetic radiation is vital for Class 12 students. By focusing on the key concepts, practicing problem-solving, and using visual aids, students can achieve a deep understanding of this fundamental topic in physics.
+Key Takeaway: Understanding the Electromagnetic Spectrum, its various regions, and the properties and applications of each type of electromagnetic radiation is vital for [class](/blog/magnetism-and-matter-class-12-notes) 12 students. By focusing on the key concepts, practicing problem-solving, and using visual aids, students can achieve a deep understanding of this fundamental topic in physics.
 
 
 | Type of Radiation | Wavelength | Frequency | Energy | Applications |
@@ -164,7 +164,7 @@ How do Electromagnetic Waves Propagate? is a fundamental concept in physics that
 abla \cdot \mathbf{E} = $\frac{{\rho}{\epsilon_0}}{, } , 
 abla \cdot \mathbf{B} = 0
 abla \times \mathbf{E} = -$\frac{{\partial \mathbf{B}}{\partial t}}{\frac{\partial \mathbf{E}}{\partial t}} , and 
-abla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \epsilon_0 $. These equations can be used to derive the wave equation for electromagnetic waves, which is $\frac{{\partial^2 \mathbf{E}}{\partial t^2} = c^2
+abla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \epsilon_0 $. These equations can be used to derive the wave equation for electromagnetic waves, which is \frac{{\partial^2 \mathbf{E}$}{\partial t^2} = c^2
 abla^2 \mathbf{E}}{c} , where $ is the speed of light.
 
  Electromagnetic waves can propagate through a vacuum, and their speed is constant, regardless of the motion of the source or observer. This is a fundamental concept in special relativity, and it has been experimentally verified numerous times. In contrast, mechanical waves, such as sound waves, require a medium to propagate and their speed depends on the properties of the medium.
@@ -434,3 +434,4 @@ Continue your revision with these related guides:
 * **Reflection, Refraction, Diffraction, Interference, and Polarization**: Key properties of EM waves
 * **Snell's Law**: n1 sin(θ1) = n2 sin(θ2) for refraction
    
+

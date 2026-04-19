@@ -125,7 +125,7 @@ This chapter is where Physics and Chemistry merge. If you're comfortable with [t
 $P_1V_1 = P_2V_2$. The P-V graph is a **hyperbola** (isotherm).
 
 ### <a id="charless-law-constant-p"></a>Charles's Law (Constant P)
-$\frac{{V_1}{T_1} = \frac{V_2}{T_2}}{\frac{P_1}{T_1} = \frac{P_2}{T_2}} . **Temperature MUST be in Kelvin.** The V-T graph is a **straight line** through the origin when plotted in Kelvin.
+\frac{{V_1}{T_1}$ = $\frac{V_2}{T_2}$}{$\frac{P_1}{T_1}$ = $\frac{P_2}{T_2}$} . **Temperature MUST be in Kelvin.** The V-T graph is a **straight line** through the origin when plotted in Kelvin.
 
 ### <a id="gay-lussacs-law-constant-v"></a>Gay Lussac's Law (Constant V)
 $. The P-T graph is a straight line (isochore).
@@ -402,3 +402,5 @@ Continue your [revision](/blog/classification-elements-periodicity-class-11-revi
 - 📖 [Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/structure-of-atom-class-11-revision-notes-jee-neet)
 - 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)
 - 📖 [Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/thermodynamics-chemistry-class-11-revision-notes-jee-neet)
+
+$

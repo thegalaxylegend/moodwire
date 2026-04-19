@@ -100,7 +100,7 @@ practice_link: "/practice/computer-networks-class-12-notes"
 ## <a id="network-protocols"></a>**Network Protocols**
 ### <a id="transport-layer-protocols"></a>**Transport Layer Protocols**
 * **TCP** (Transmission Control Protocol): ensures reliable [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) transfer.
-* **UDP** (User Datagram Protocol): ensures fast data transfer.
+* **UDP** (User Datagram Protocol): ensures fast [data](/blog/data-handling-class-8-notes) transfer.
 * **SCTP** (Stream Control Transmission Protocol): ensures reliable data transfer for multiple streams.
 
 ### <a id="application-layer-protocols"></a>**Application Layer Protocols**
@@ -143,7 +143,7 @@ This derivation shows the sequence of packets exchanged during the **TCP** three
 * **Transport Layer**: Provides reliable data transfer between devices.
 * **Session Layer**: Establishes, maintains, and terminates connections.
 * **Presentation Layer**: Converts data into a format understood by the receiving device.
-* **Application Layer**: Supports functions such as email, file transfer, and web browsing.
+* **[application](/blog/application-of-derivatives-class-12-notes) Layer**: Supports functions such as email, file transfer, and web browsing.
 
 ## <a id="network-layers"></a>Network Layers
 ### <a id="data-transmission"></a>**Data Transmission**
@@ -181,7 +181,7 @@ This derivation shows the sequence of packets exchanged during the **TCP** three
 * The **Physical Layer** transmits the frame over a physical medium.
 * The receiving device receives the frame and reverses the process, ultimately delivering the email message to the user.
 
-$\text{Data Transmission Time} = \frac$\text{Data Size$}$\text{Bandwidth$} + $\text{Propagation Delay}
+$\text{Data Transmission Time} = \frac$\text{Data Size$}$\text{Bandwidth$} + \text{Propagation Delay}$
 
 This equation calculates the time it takes for data to be transmitted through a network, where **Data Size** is the size of the data being transmitted, **Bandwidth** is the rate at which data is transmitted, and **Propagation Delay** is the time it takes for the data to travel through the physical medium. 
 
@@ -240,7 +240,7 @@ The throughput of a network can be calculated using the following equation:
 $\text{Throughput} = \frac$\text{packet size$}$\text{packet transmission time$}$
 where packet size is the size of the packet in bits, and packet transmission time is the time it takes to transmit the packet.
 The latency of a network can be calculated using the following equation:
-$\text{Latency} = \frac$\text{packet transmission time$}{2} + $\text{propagation delay}$
+$\text{Latency} = \frac$\text{packet transmission time$}{2} + \text{propagation delay}
 where packet transmission time is the time it takes to transmit the packet, and propagation delay is the time it takes for the packet to propagate through the network.
 
 ## <a id="conclusion"></a>**Conclusion**
@@ -299,10 +299,10 @@ The latency can be calculated using the formula:
 
 L = $\frac{{D}{V} + }{
 
-where } \frac{P}{B}$V$ is the speed of the signal and $P$ is the packet size.
+where } $\frac{P}{B}V$ is the speed of the signal and $P$ is the packet size.
 The throughput can be optimized using the following formula:
 
-T = $\frac{{B}{L} \cdot }{\frac{P}{B}} \frac{1}{1 + $}
+ T = \frac{{B}{L} \cdot }{\frac{P}{B}} \frac{1}{1 + } 
 
 where $T$ is the throughput.
 
@@ -313,12 +313,12 @@ P(T) = $\frac{{1}{1 + e^{-\theta}}}{P(T)}
 
 where $ is the probability of a threat, $\theta$ is the threat score, and $e$ is the base of the natural logarithm.
 The threat score can be calculated using the following formula:
-$ \theta = \sum_{i=1}^{n} w_i \cdot x_i 
+ \theta = \sum_{i=1}^{n} w_i \cdot x_i 
 
 
 where $w_i$ is the weight of the $i^{th}$ factor, $x_i$ is the value of the $i^{th}$ factor, and $n$ is the number of factors. 
 Using $x_i$ and $w_i$, the overall threat score $\theta$ can be derived as:
-$ \theta = w_1 \cdot x_1 + w_2 \cdot x_2 + \ldots + w_n \cdot x_n $
+ \theta = w_1 \cdot x_1 + w_2 \cdot x_2 + \ldots + w_n \cdot x_n 
 
 
 Then, by plugging the value of \theta into the equation $P(T) = \frac{1}{1 + e^{-\theta}}$, we can obtain the probability of a network security threat.
@@ -384,10 +384,10 @@ The $SDN$ architecture can be represented as:
 
 \begin{aligned}
 &$\text{Control Plane}$ \\
-&\quad \begin{cases}$\text{SDN Controller} \\$\text{Network Applications}$\end{cases} \\
+&\quad \begin{cases}$\text{SDN Controller} \\\text{Network Applications}\end{cases} \\
 &$\text{Data Plane}$ \\
-&\quad \begin{cases}$\text{Switches} \\$\text{Routers}\end{cases} \\
-&\text{Southbound Interface}$ \\
+&\quad \begin{cases}$\text{Switches} \\\text{Routers}$\end{cases} \\
+&$\text{Southbound Interface} \\
 &\quad \begin{cases}$\text{OpenFlow}\end{cases}$ \\\end{aligned}
 
 Key $SDN$ benefits:
@@ -409,9 +409,9 @@ Emerging trends in computer networking:
 * **Computer Network**: Interconnected devices communicating.
 * Given: $n$ devices, $m$ channels, $t$ time slots.
 * Goal: Maximize data transfer rate $R$.
-* Formula: $R = \frac{m \cdot t}{n}$.
+*  Formula: R = $\frac{m \cdot t}{n}$. 
 * Example: $n = 10$, $m = 5$, $t = 2$.
-* Solution: $R = \frac{5 \cdot 2}{10} = 1$.
+*  Solution: R = $\frac{5 \cdot 2}{10}$ = 1. 
 
 ### <a id="32-pyq-2"></a>3.2 PYQ 2
 * **Network Topology**: Physical arrangement of devices.
@@ -421,21 +421,21 @@ Emerging trends in computer networking:
  * **Ring Topology**: Devices connected in a circle.
 * Given: $n$ devices, **Bus Topology**.
 * Goal: Find the probability $P$ of collision.
-* Formula: $P = \frac{1}{2^{n-1}}$.
+*  Formula: P = $\frac{1}{2^{n-1}$}. 
 * Example: $n = 5$.
-* Solution: $P = \frac{1}{2^{5-1}} = \frac{1}{16}$.
+*  Solution: P = $\frac{1}{2^{5-1}$} = $\frac{1}{16}$. 
 
 ### <a id="33-pyq-3"></a>3.3 PYQ 3
 * **Network Protocol**: Set of rules for communication.
 * **TCP/IP**: Most widely used protocol.
 * Given: $x$ packets, $y$ packets lost.
 * Goal: Find the **Throughput** $T$.
-* Formula: $T = \frac{x - y}{x}$.
+*  Formula: T = $\frac{x - y}{x}$. 
 * Example: $x = 100$, $y = 20$.
-* Solution: $T = \frac{100 - 20}{100} = \frac{4}{5}$.
+*  Solution: T = $\frac{100 - 20}{100}$ = $\frac{4}{5}$. 
 * Derivation:
 
-T = $\frac{{x - y}{x} = }{1 \frac{4}{5}} \frac{100 - 20}{100} = $
+ T = \frac{{x - y}{x} = }{1 \frac{4}{5}} \frac{100 - 20}{100} = 
 
 ## <a id="practice-mcqs"></a>Practice MCQs
 
@@ -542,4 +542,4 @@ Continue your [revision](/blog/3d-geometry-intro-class-11-revision-notes-jee-nee
    * FTP: File Transfer Protocol
    * TCP: Transmission Control Protocol
    * IP: Internet Protocol
-   * DNS: Domain Name System
+   * DNS: Domain Name System$

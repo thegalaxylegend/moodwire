@@ -55,7 +55,7 @@ practice_link: "/class-11/chemistry/amines-class-12-notes"
 ### <a id="9-electrophilic-aromatic-substitution"></a>9. Electrophilic Aromatic Substitution
 - **Nitration**: Reaction of aromatic amines with nitric acid to form nitro aromatic [compounds](/blog/coordination-compounds-class-12-notes).
 - **Alienation**: Reaction of aromatic amines with halogens to form halo aromatic [compounds](/blog/coordination-compounds-class-12-notes).
-- **Fried-Crafts Alkylating**: Reaction of aromatic amines with alkyl halides to form alkyl aromatic compounds.
+- **Fried-Crafts Alkylating**: Reaction of aromatic amines with alkyl halides to form alkyl aromatic [compounds](/blog/coordination-compounds-class-12-notes).
 - **Key Reactions**:
     - BC_6H_5NH_2 + NO_3 \right arrow C_6H_4NNO_2 + H_2O$ (Nitration)
     - BC_6H_5NH_2 + Cl_2 \right arrow C_6H_4Cl + HCl (Alienation)
@@ -69,8 +69,8 @@ practice_link: "/class-11/chemistry/amines-class-12-notes"
 - **Nuclear Magnetic Resonance (NMR) Spectroscopy**: Used to determine the structure of amines.
 - **Mass Spectrometry (MS)**: Used to determine the molecular weight and fragmentation pattern of amines.
 - **Key Points**:
-    - IR: INCH stretch (3300-3500 \, $\text{cm}^{-1}), CAN stretch (1000-1200 \, $\text{cm}^{-1})
-    - NMR: INCH signal (0-5 \, \text{ppm}), ECHO signal (1-4 \, $\text{ppm}$)
+    - IR: INCH stretch (3300-3500 \, $\text{cm}^{-1}), CAN stretch (1000-1200 \, \text{cm}$^{-1})
+    - NMR: INCH signal (0-5 \, $\text{ppm}$), ECHO signal (1-4 \, $\text{ppm}$)
     - MS: Molecular ion peak, fragmentation peaks
 - **Interpretation**:
     - IR: Identify functional groups, determine molecular structure
@@ -173,3 +173,4 @@ Continue your revision with these related guides:
 | Compound | Formula | MOL. Weight | Source |
 |:---|:---:|:---:|:---:|
 | **nitric acid** | HNO3 | 63.013 g/MOL | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/944) |
+

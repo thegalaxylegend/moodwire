@@ -88,7 +88,7 @@ The following formulas are crucial for the UPSC [optional](/blog/upsc-optional-s
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
-- **Q1:** What is the mass of a body that has a weight of } \frac{GNIpc}{100} \right) - log(100)}{log(40,000) - log(100)} — where GNIpc$20 , \text{N}$ on the surface of the Earth, where the acceleration due to gravity is $9.8 , \text{m/s}^2$?
+- **Q1:** What is the mass of a body that has a weight of } $\frac{GNIpc}{100}$ \right) - log(100)}{log(40,000) - log(100)} — where GNIpc$20 , \text{N}$ on the surface of the Earth, where the acceleration due to gravity is $9.8 , \text{m/s}^2$?
 
  - **Trap:** Students often confuse weight and mass, using the same units for both.
 
@@ -214,7 +214,7 @@ m = $\text{N}$}{2 , $\text{m/s}$^2}
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-* **The Hidden Pattern:** After analyzing 5+ years of PYQs, a pattern emerges where the UPSC optional selection is influenced by the candidate's ability to connect the dots between seemingly unrelated concepts. For instance, $f(x) = \frac{x}{x+1}$ can be used to model the relationship between the number of options chosen and the overall success rate. * **How to Apply It:** To apply this pattern, candidates should focus on developing a strong foundation in their chosen optional subject, while also exploring interdisciplinary connections. This can be achieved by creating a concept map, where each concept is represented as a node, and the relationships between them are represented as edges. The formula for the clustering coefficient $C$ can be used to measure the density of these connections: C = $\frac{{3 \times }{b} * **Identifying High-Scoring Options:** By applying the hidden pattern, candidates can identify high-scoring options that have a high clustering coefficient } \text{number of triangles}}\text{number of possible triangles$C$. For example, in the subject of Geography, the topic of 'Urbanization' has a high clustering coefficient, as it is connected to other topics such as 'Economic Development', 'Environmental Sustainability', and 'Social Justice'. The formula for calculating the clustering coefficient can be used to identify such topics: C = $\frac{{\sum_{i=1}^{n} }{\text{number of edges between nodes}}} \frac{2 \times $\text{number of possible edges between nodes$}}{n} * **Strategic Planning:** To maximize their score, candidates should strategically plan their preparation, focusing on the most critical topics and developing a deep understanding of the connections between them. The concept of $p$-value can be used to measure the significance of these connections: p$\text{-value} = \frac$\text{number of standard deviations from the mean$}$\text{total number of standard deviations$} * **Practice and Revision:** Regular practice and revision are crucial to reinforcing the connections between concepts and applying the hidden pattern effectively. Candidates should aim to practice a mix of easy, medium, and hard questions, using the formula for the standard deviation $sigma$ to measure their progress: sigma = sqrt$\frac{{\sum_{i=1}{C} ^{n} (x_i - mu)^2}{n}}
+* **The Hidden Pattern:** After analyzing 5+ years of PYQs, a pattern emerges where the UPSC optional selection is influenced by the candidate's ability to connect the dots between seemingly unrelated concepts. For instance, $f(x) = \frac{x}{x+1}$ can be used to model the relationship between the number of options chosen and the overall success rate. * **How to Apply It:** To apply this pattern, candidates should focus on developing a strong foundation in their chosen optional subject, while also exploring interdisciplinary connections. This can be achieved by creating a concept map, where each concept is represented as a node, and the relationships between them are represented as edges. The formula for the clustering coefficient $C$ can be used to measure the density of these connections: C = $\frac{{3 \times }{b} * **Identifying High-Scoring Options:** By applying the hidden pattern, candidates can identify high-scoring options that have a high clustering coefficient } \text{number of triangles}}\text{number of possible triangles$C$. For example, in the subject of Geography, the topic of 'Urbanization' has a high clustering coefficient, as it is connected to other topics such as 'Economic Development', 'Environmental Sustainability', and 'Social Justice'. The formula for calculating the clustering coefficient can be used to identify such topics: C = \frac{{\sum_{i=1}$^{n} }{$\text{number of edges between nodes}$}} \frac{2 \times $\text{number of possible edges between nodes$}}{n} * **Strategic Planning:** To maximize their score, candidates should strategically plan their preparation, focusing on the most critical topics and developing a deep understanding of the connections between them. The concept of $p$-value can be used to measure the significance of these connections: p$\text{-value} = \frac$\text{number of standard deviations from the mean$}$\text{total number of standard deviations$} * **Practice and Revision:** Regular practice and revision are crucial to reinforcing the connections between concepts and applying the hidden pattern effectively. Candidates should aim to practice a mix of easy, medium, and hard questions, using the formula for the standard deviation $sigma$ to measure their progress: sigma = sqrt\frac{{\sum_{i=1}{C}$ ^{n} (x_i - mu)^2}{n}}
 
 | Optional Subject | Clustering Coefficient ($) | High-Scoring Topics |
 | --- | --- | --- |
@@ -284,7 +284,7 @@ D. Scoring high marks due to subjective [nature](/blog/dual-nature-of-radiation-
 <<<<<<< HEAD
 
 **Answer:** D) Literature optionals often allow for subjective answers, which can lead to higher scores if the candidate is well-prepared and can articulate their thoughts clearly.
-=======
+ ======= 
 Choosing an [optional](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee) subject is a long-term commitment that requires deliberate planning. You will live with this subject for months, often dedicating 10 hours a day to its mastery. While many suggest following your "passion," a purely interest-based approach can fail if there is no study material or **NCERT solutions** available.
 
 Our framework uses three pillars: Success Rate (how many candidates qualify), Overlap (how much it aids your General Studies papers), and Manageability (if the syllabus fits within a 4-month preparation window). Balancing these three ensures that your [optional](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee) becomes a scoring asset rather than an overwhelming burden during the peak of Mains preparation.
@@ -303,7 +303,7 @@ Strategic comparisons are vital. A high-overlap subject like PSIR might take 4 m
 
 ## <a id="the-4step-optional-audit-protocol"></a>The 4-Step Optional 'Audit' Protocol
 
-If you are still undecided on **how to choose UPSC optional subject**, follow this audit: First, scan the full syllabus in the notification. Second, analyze the 2023–2025 Mains papers to see if the questions make sense to you. Third, verify the availability of high-quality coaching and **online mock tests** for that specific subject.
+If you are still undecided on **how to choose [upsc](/blog/upsc-optional-selection-guide-class-11-revision-notes-jee) optional subject**, follow this audit: First, scan the full syllabus in the notification. Second, analyze the 2023–2025 Mains papers to see if the questions make sense to you. Third, verify the availability of high-quality coaching and **online mock tests** for that specific subject.
 
 Finally, conduct a one-week trial. Read a core chapter—like 'Caste' in Sociology—and see if you enjoy the depth of research required. This hands-on test is the only way to confirm if the "Pillars" align with your daily reality. This audit identifies potential friction points before you commit months of your life to the wrong subject.
 
@@ -367,7 +367,7 @@ D. All of the above
 
 **Answer:** D) A combination of covering the syllabus, practicing previous years' questions, and developing a deep understanding of key concepts is essential for preparing an optional subject.
 
-=======
+ ======= 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
 
@@ -406,3 +406,4 @@ Continue your revision with these related guides:
 ![UPSC Optional Selection Guide 2026 Class 12 Political Science Revision — CBSE 2026 Grandmaster Guide]( Recap — CBSE Boards 2026 Grandmaster Guide](/blog/atoms-class-12-notes)
 - 📖 [Biodiversity and Conservation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
 
+$

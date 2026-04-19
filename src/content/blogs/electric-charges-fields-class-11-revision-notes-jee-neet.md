@@ -184,7 +184,7 @@ An **Electric Dipole** consists of two equal and opposite [charges](/blog/moving
 ### <a id="i-derivation-proof-using-coulombs-law"></a>I. Derivation (Proof using Coulomb’s Law)
 1.  Consider a point charge **q** at the center of a sphere of radius **r**.
 2.  **E = [1 / 4πε₀] [q / r²]**.
-3.  Flux **Φ = ∮ E DA \cos 0° = E ∮ DA**.
+3.   Flux **Φ = ∮ E DA \cos 0° = E ∮ DA**. 
 4.  Since ∮ DA = 4πr²:
     - **Φ = [1 / 4πε₀] [q / r²] [4πr²] = q / ε₀**. (Proven)
 
@@ -289,7 +289,7 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 ## 🪤 The 5 Mistakes That Cost Marks
 
 * **Forgetting to consider the medium**: When calculating the electric field or force between [charges](/blog/moving-charges-magnetism-class-11-revision-notes-neet), students often forget to consider the medium in which the [charges](/blog/moving-charges-magnetism-class-11-revision-notes-neet) are placed, which can significantly affect the result.
-* **Incorrectly applying Coulomb's Law**: Coulomb's Law is often misapplied by neglecting to consider the magnitude and direction of the forces between multiple charges, leading to incorrect calculations of the net force.
+* **Incorrectly applying Coulomb's Law**: Coulomb's Law is often misapplied by neglecting to consider the magnitude and direction of the forces between multiple [charges](/blog/moving-charges-magnetism-class-11-revision-notes-neet), leading to incorrect calculations of the net force.
 * **Confusing electric field lines and force**: Students often mistakenly assume that electric field lines represent the force experienced by a charge, when in fact they represent the direction and magnitude of the electric field at a point in space.
 * **Neglecting the sign of the charge**: When calculating the electric field or force, it's essential to consider the sign of the charge, as like charges repel and unlike charges attract, but many students forget to apply this correctly.
 * **Not considering the superposition principle**: When multiple charges are present, the electric field at a point is the vector \sum of the fields due to each charge, but students often neglect to apply the superposition principle, leading to incorrect calculations.

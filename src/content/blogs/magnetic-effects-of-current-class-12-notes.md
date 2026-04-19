@@ -87,7 +87,7 @@ Magnetic Field is a vector field that describes the magnetic influence on moving
 
 | Magnetic Field Generation Methods | Description | Applications |
 | --- | --- | --- |
-| Electrical Current | Generation of magnetic field due to electric current | Motors, Generators |
+| Electrical [current](/blog/alternating-current-class-12-notes) | Generation of magnetic field due to electric [current](/blog/alternating-current-class-12-notes) | Motors, Generators |
 | Changing Electric Field | Generation of magnetic field due to changing electric field | Transformers, Inductors |
 | Permanent Magnets | Generation of magnetic field due to permanent magnets | Magnetic Resonance Imaging (MRI) machines, Magnetic Storage Devices |
 
@@ -250,7 +250,7 @@ In comparison to other topics in physics, Magnetic Effects of Current requires a
 
 ## <a id="how-to-solve-numerical-problems-involving-the-force-on-a-currentcarrying-conductor"></a>How to Solve Numerical Problems Involving the Force on a Current-Carrying Conductor?
 
-How to Solve Numerical Problems Involving the Force on a Current-Carrying Conductor? is solving problems that involve the interaction between a current-carrying conductor and an external magnetic field. It includes the **Lorentz Force Equation**, **magnetic field strength**, and **current density**. For Class 12 exam prep in 2026, the most important aspect is understanding how to apply the Lorentz Force Equation to find the force on a conductor in different scenarios.
+How to Solve Numerical Problems Involving the Force on a Current-Carrying Conductor? is solving problems that involve the interaction between a current-carrying conductor and an external magnetic field. It includes the **Lorentz Force Equation**, **magnetic field strength**, and **current density**. For [class](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) 12 exam prep in 2026, the most important aspect is understanding how to apply the Lorentz Force Equation to find the force on a conductor in different scenarios.
 
 To solve numerical problems involving the force on a current-carrying conductor, you need to apply the Lorentz Force Equation, which states that the force per unit length on a conductor is given by $F = BIL \sin \theta$, where $F$ is the force, $B$ is the magnetic field strength, $I$ is the current, $L$ is the length of the conductor, and $\theta$ is the angle between the conductor and the magnetic field. 
 

@@ -75,7 +75,7 @@ While there are no specific formulae to remember in chemical [coordination](/blo
 
 * The regulation of blood sugar levels by insulin and glucagon can be represented by the following equation:
 
-$\text{Glucose} \xrightarrow$\text{Insulin$} $\text{Glycogen}$\text{Glycogen} \xrightarrow$\text{Glucagon$1 \text{Glucose}$
+$\text{Glucose} \xrightarrow$\text{Insulin$} \text{Glycogen}\text{Glycogen} \xrightarrow$\text{Glucagon$1 \text{Glucose}$
 
 
 ## <a id="keenest-data"></a>JEE/MEET Data
@@ -185,4 +185,4 @@ Continue your [revision](/blog/classification-of-elements-class-11-revision-note
     * Hypothyroidism
     * Hyperthyroidism
     * Cushing’s syndrome
-    * Acromegaly
+    * Acromegaly}

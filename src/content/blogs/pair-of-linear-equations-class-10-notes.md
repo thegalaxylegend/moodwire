@@ -9,7 +9,7 @@ practice_link: "/class-11/mathematics/pair-of-linear-equations-class-10-notes"
 
 *Last Updated: 2026-04-09*
 
-<div class="quick-summary">
+<div [class](/blog/quadratic-equations-class-10-notes)="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
@@ -44,22 +44,21 @@ $ a_{1}x + b_{1}y + c_{1} = 0\} — {a_{1}, b_{1}, c_{1
 
  are constants,- **Standard Form of a Linear Equation:** 
 
-$ ax + by = c\} — {a, b, c} are constants,- **Slope-Intercept Form of a Linear Equation:** \{y = mx + c\} — {m} is the slope of the line, {c} is the y-intercept,- **Slope-point Form of a Linear Equation:** \{y - y_{1} = m(x - x_{1})\} — {m} is the slope of the line, {(x_{1}, y_{1})} is a point on the line,- **Two-point Form of a Linear Equation:** \{y - y_{1} = $\frac{{y_{2} - y_{1 }{m_{1} = m_{2} 
+$ ax + by = c\} — {a, b, c} are constants,- **Slope-Intercept Form of a Linear Equation:** \{y = mx + c\} — {m} is the slope of the line, {c} is the y-intercept,- **Slope-point Form of a Linear Equation:** \{y - y_{1} = m(x - x_{1})\} — {m} is the slope of the line, {(x_{1}, y_{1})} is a point on the line,- **Two-point Form of a Linear Equation:** \{y - y_{1} = \frac{{y_{2}$ - y_{1 }{m_{1} = m_{2} 
 
 {x_{2} - x_{1}}(x - x_{1})\} — {(x_{1}, y_{1})} and {(x_{2}, y_{2})} are two points on the line,- **Perpendicular Lines:** m_{1} \times m_{2} = -1\} — {m_{1 and {m_{2}} are slopes of two perpendicular lines,- **Parallel Lines:** $} — {m_{1}} and {m_{2}} are slopes of two parallel lines,- **Distance Between a point and a Line:** 
 
-$ d = $\frac{{|ax_{1} + by_{1} + c|}}{ + b^{2 } \sqrt{a^{2
+$ d = \frac{{|ax_{1}$ + by_{1} + c|}}{ + b^{2 } \sqrt{a^{2
 
 }\} — {d} is the distance between the point {(x_{1}, y_{1})} and the line {ax + by + c = 0},- **Equation of a Line Passing Through the Intersection of Two Lines:** 
 
- (a_{1}x + b_{1}y + c_{1}) + \lambda(a_{2}x + b_{2}y + c_{2}) = 0\} — {\lambda} is an arbitrary constant,- **Number of Solutions for a Pair of Linear Equations:** \$\Delta = a_{1$b_{2} - a_{2}b_{1 
+ (a_{1}x + b_{1}y + c_{1}) + \lambda(a_{2}x + b_{2}y + c_{2}) = 0\} — {\lambda} is an arbitrary constant,- **Number of Solutions for a Pair of Linear Equations:** \$\delta = a_{1$b_{2} - a_{2}b_{1 
 
-} — if $\Delta != 0$, the lines intersect at one point, if $\Delta = 0$ and {a_{1}/a_{2} = b_{1}/b_{2} != c_{1}/c_{2}}, the lines are parallel, if $\Delta = 0$ and {a_{1}/a_{2} = b_{1}/b_{2} = c_{1}/c_{2}}, the lines are coincident,- **Solution of a Pair of Linear Equations by Substitution Method:** 
+} — if $\delta != 0$, the lines intersect at one point, if $\delta = 0$ and {a_{1}/a_{2} = b_{1}/b_{2} != c_{1}/c_{2}}, the lines are parallel, if $\delta = 0$ and {a_{1}/a_{2} = b_{1}/b_{2} = c_{1}/c_{2}}, the lines are coincident,- **Solution of a Pair of Linear Equations by Substitution Method:** 
 
-$ x = \frac{b_{2}c_{1} - b_{1}c_{2 $
+ x = \frac{b_{2}c_{1} - b_{1}c_{2 
 
 {a_{1}b_{2} - a_{2}b_{1}}, y = $\frac{{a_{1}c_{2} - a_{2}c_{1}}{a_{1}b_{2} - a_{2}b_{1}}}{ x = \frac{b_{2}c_{1} - b_{1}c_{2 } \} — solution of the system {a_{1}x + b_{1}y + c_{1} = 0} and {a_{2}x + b_{2}y + c_{2} = 0},- **Solution of a Pair of Linear Equations by Elimination Method:** 
-
 
 {a_{1}b_{2} - a_{2}b_{1}}, y = $\frac{{a_{1}c_{2} - a_{2}c_{1}}{a_{1}b_{2} - a_{2}b_{1}}}{{a_1x + b_1y = c_1}} \} — solution of the system {a_{1}x + b_{1}y + c_{1} = 0} and {a_{2}x + b_{2}y + c_{2} = 0}
 
@@ -67,7 +66,7 @@ $ x = \frac{b_{2}c_{1} - b_{1}c_{2 $
 
 - **Mistake 1:** Incorrectly applying the formula for the solution of a pair of linear equations using the substitution method.
  - *Costs:* 4-6 marks
- - *Fix:* Ensure that when using the substitution method to solve a pair of linear equations, the formula $ and ${a_2x + b_2y = c_2}$ are correctly rearranged and substituted into each other. For instance, if we solve the first equation for $x$, we get $x = \frac{c_1 - b_1y}{a_1}$. Substituting this expression into the second equation should be done carefully to avoid errors.
+ - *Fix:* Ensure that when using the substitution method to solve a pair of linear equations, the formula $ and ${a_2x + b_2y = c_2}$ are correctly rearranged and substituted into each other. For instance, if we solve the first equation for $x$, we get $x = $\frac{c_1 - b_1y}{a_1}. Substituting this expression into the second equation should be done carefully to avoid errors.
  - **Mistake 2:** Failure to check for the consistency and nature of the solution (whether the equations are consistent or inconsistent) when solving a pair of linear equations using the elimination method.
  - *Costs:* 3-5 marks
  - *Fix:* Always verify the nature of the solution by checking if the equations are consistent (having a unique solution or infinitely many solutions) or inconsistent (having no solution). This can be done by comparing the ratios of the coefficients of $x$ and $y$ in both equations after making the coefficients of either $x$ or $y$ the same in both equations.
@@ -83,7 +82,7 @@ $ x = \frac{b_{2}c_{1} - b_{1}c_{2 $
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
-- **Q1:** If $ and $\frac{{b}{c}}{a}  are in proportion, then $, $b$, $c$ are in:
+- **Q1:** If $ and \frac{{b}{c}$}{a}  are in proportion, then $, $b$, $c$ are in:
  - **Trap:** Students often get confused between the terms proportion and proportionality. 
  - **Solution:** 
  - Given $\frac{{a}{b}}{\frac{b}{c}}  and $ are in proportion, we can write this as $\frac{{a}{b} = \frac{b}{c}}{a \times c = b \times b} .
@@ -102,15 +101,15 @@ $ x = \frac{b_{2}c_{1} - b_{1}c_{2 $
  - Subtract equation (i) from equation (iii) to eliminate $x$:
  - $(2x - 4y) - (2x + 3y) = -6 - 7$
  - $-7y = -13$
- - $y = \frac{-13}{-7} = \frac{13}{7}$
+ -  = $\frac{-13}{-7}$ = $\frac{13}{7}$
  - Substitute $y = \frac{13}{7}$ into equation (i) to solve for $x$:
- - $2x + 3(\frac{13}{7}) = 7$
- - $2x + \frac{39}{7} = 7$
- - $2x = 7 - \frac{39}{7}$
- - $2x = \frac{49}{7} - \frac{39}{7}$
- - $2x = \frac{10}{7}$
- - $x = \frac{5}{7}$
- - **Answer:** $x = \frac{5}{7}$, $y = \frac{13}{7}$
+ -  x + 3($\frac{13}{7}$) = 7 
+ -  x + $\frac{39}{7}$ = 7 
+ -  x = 7 - $\frac{39}{7}$
+ -  x = $\frac{49}{7}$ - $\frac{39}{7}$
+ -  x = $\frac{10}{7}$
+ -  = $\frac{5}{7}$
+ -  *Answer:** x = $\frac{5}{7}$, y = $\frac{13}{7}$
  - **Q3:** The pair of equations $\frac{{2}{x} + \frac{3}{y} = 7}{\frac{4}{x} - \frac{2}{y} = 3}  and $ have:
  - **Trap:** Students often strugg\le with manipulating fractions in equations.
  - **Solution:** 
@@ -124,19 +123,19 @@ $ x = \frac{b_{2}c_{1} - b_{1}c_{2 $
  - Add (v) and (vi) to eliminate $v$:
  - $(4u + 6v) + (12u - 6v) = 14 + 9$
  - $16u = 23$
- - $u = \frac{23}{16}$
+ -  = $\frac{23}{16}$
  - Substitute $u = \frac{23}{16}$ back into one of the simplified equations to solve for $v$:
  - Using $2u + 3v = 7$:
- - $2(\frac{23}{16}) + 3v = 7$
+ -  ($\frac{23}{16}$) + 3v = 7 
  - $\frac{{23}{8} + 3v = 7}{3v = 7 - \frac{23}{8}} 
  - $
- - $3v = \frac{56}{8} - \frac{23}{8}$
- - $3v = \frac{33}{8}$
- - $v = \frac{11}{8}$
+ -  v = $\frac{56}{8}$ - $\frac{23}{8}$
+ -  v = $\frac{33}{8}$
+ -  = $\frac{11}{8}$
  - Recall $u = \frac{1}{x}$ and $v = \frac{1}{y}$:
- - $\frac{{1}{x} = \frac{23}{16}}{x = \frac{16}{23}} , thus $
- - $\frac{{1}{y} = \frac{11}{8}}{y = \frac{8}{11}} , thus $
- - **Answer:** $x = \frac{16}{23}$, $y = \frac{8}{11}$
+ -  frac{{1}{x} = $\frac{23}{16}$}{x = $\frac{16}{23}$} , thus 
+ -  frac{{1}{y} = $\frac{11}{8}$}{y = $\frac{8}{11}$} , thus 
+ -  *Answer:** x = $\frac{16}{23}$, y = $\frac{8}{11}$
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
@@ -144,8 +143,8 @@ $ x = \frac{b_{2}c_{1} - b_{1}c_{2 $
  - **What 85% scorers do:** Most students are ab\le to solve the equations when they are in the standard form, but they strugg\le when the equations are not in this form. For examp\le, they may strugg\le to solve equations like $\frac{{x}{2} + \frac{y}{3} = 1}{x - y = 2}  and $. They may also strugg\le to solve equations that involve fractions or decimals. 
  - **What 95% scorers do:** 95% scorers, on the other hand, have a deep understanding of the substitution method and elimination method and can apply these methods to solve equations that are not in the standard form. They can also solve equations that involve fractions or decimals by using the correct mathematical operations. For examp\le, to solve the equations $\frac{{x}{2} + \frac{y}{3} = 1}{x - y = 2}  and $, they would first multiply the first equation by 6 to eliminate the fractions, resulting in $3x + 2y = 6$. Then, they would solve the equations using the substitution method or elimination method. 
  - **Key Formulas:** Some key formulas that 95% scorers use to solve pair of linear equations include:
- * $x = \frac{b_1c_2 - b_2c_1}{a_1b_2 - a_2b_1}$
- * $y = \frac{a_2c_1 - a_1c_2}{a_1b_2 - a_2b_1}$
+ *  = $\frac{b_1c_2 - b_2c_1}{a_1b_2 - a_2b_1}$
+ *  = $\frac{a_2c_1 - a_1c_2}{a_1b_2 - a_2b_1}$
  - **Examp\le Problems:** For examp\le, consider the following pair of linear equations:
  * $2x + 3y - 7 = 0$
  * $x - 2y + 1 = 0$
@@ -156,14 +155,14 @@ $ x = \frac{b_{2}c_{1} - b_{1}c_{2 $
  * Add both equations to eliminate $y$:
  * $(4x + 6y - 14) + (3x - 6y + 3) = 0 + 0$
  * $7x - 11 = 0$
- * $x = \frac{11}{7}$
+ *  = $\frac{11}{7}$
  * Substitute $x$ into one of the original equations to solve for $y$:
- * $2(\frac{11}{7}) + 3y - 7 = 0$
+ *  ($\frac{11}{7}$) + 3y - 7 = 0 
  * $\frac{{22}{7} + 3y - 7 = 0}{3y = 7 - \frac{22}{7}} 
  * $
- * $3y = \frac{49 - 22}{7}$
- * $3y = \frac{27}{7}$
- * $y = \frac{9}{7}$
+ *  y = $\frac{49 - 22}{7}$
+ *  y = $\frac{27}{7}$
+ *  = $\frac{9}{7}$
  - **Tips for Improvement:** To improve their scores, students should practice solving pair of linear equations using the substitution method and elimination method. They should also practice solving equations that are not in the standard form and equations that involve fractions or decimals.
 
 | Method | Equations | Solution |
@@ -182,10 +181,10 @@ eq $ | Unique solution |
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- {$\frac{{a_1}{a_2}} = }{{b_2}} \frac{b_1$}
+-  {$\frac{{a_1}{a_2}$} = }{{b_2}} $\frac{b_1}$
 eq {$\frac{{c_1}{c_2}}}{\frac{a_1}{a_2}}  for no solution
  - {$}
-eq {$\frac{{b_1}{b_2}}}{\frac{a_1}  and ${a_2}} = \frac{c_1{c_2}} for infinite solutions
+eq {$\frac{{b_1}{b_2}}}{\frac{a_1}  and ${a_2}} = $\frac{c_1{c_2}$} for infinite solutions
  - {$\frac{{a_1}{c_1}} = }{{c_2}} = } \frac{b_1$\frac{a_2${c_3}}$ for no solution
  - {a_1}{b_2} - {a_2}{b_1}$ is the determinant for {a_1}{x} + {b_1}{y} = {c_1}$ and {a_2}{x} + {b_2}{y} = {c_2}$
 - x = {$1 } for {a_1}{x} + {b_1}{y} = {c_1} and {a_2}{x} + {b_2}{y} = {c_2}
@@ -197,7 +196,7 @@ eq {$
 eq {$\frac{{c_1}{c_2}}}{\frac{a_1}{a_2}} = } 
  - For infinite solutions, {$\frac{b_1${b_2}} = $\frac{{c_1}{
  - Common mistakes:
- - Forgetting to check for {} {c_2}}$\frac{a_1}{a_2}} = $\frac{{b_1}{ for no solution
+ - Forgetting to check for {} {c_2}}$\frac{a_1}{a_2}} = \frac{{b_1}${ for no solution
  - Not using the correct formula for {x}} {b_2}}$ and {y}$ when solving the system of equations  $
 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
@@ -269,3 +268,4 @@ Continue your revision with these related guides:
 - 📖 [Arithmetic Progressions Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/arithmetic-progressions-class-10-notes)
 - 📖 [Polynomials Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/polynomials-class-10-notes)
 
+}}}}}}

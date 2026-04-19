@@ -85,7 +85,7 @@ Environmental chemistry is [the study of the chemical and biochemical phenomena 
 
 ## <a id="Ayush-note"></a>Ayush's Note
 
-<div class="Ayush-note">
+<DIV [class](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)="Ayush-note">
 I once made a mistake in my JEE preparation by not giving enough importance to environmental chemistry. I used to think that it's a simple topic and doesn't require much practice. But, I realized my mistake when I saw the weightage of environmental chemistry in the JEE exam. I had to work hard to catch up and make sure I didn't make the same mistake again. My advice to you is to not underestimate the importance of environmental chemistry and to practice it regularly.
 </div>
 
@@ -234,6 +234,6 @@ Continue your [revision](/blog/plant-growth-and-development-class-11-revision-no
 * **Key Terms**: Biomagnification, Biodegradable, Non-biodegradable, Persistent Organic Pollutants (Pops)
 ## ⚗️ Chemical Quick Reference (Verified via PubChem)
 
-| Compound | Formula | Mol. Weight | Source |
+| Compound | Formula | MOL. Weight | Source |
 |:---|:---:|:---:|:---:|
-| **water** | H2O | 18.015 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/962) |
+| **water** | H2O | 18.015 g/MOL | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/962) |

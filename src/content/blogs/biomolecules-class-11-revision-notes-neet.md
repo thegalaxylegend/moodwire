@@ -68,7 +68,7 @@ Why students get it wrong: Students often forget to include nitrogen and phospho
 * Wrong answer: Carbohydrates are only used for energy storage.
 Right answer: Carbohydrates are used for energy storage, but they are also used for other cellular processes, such as cell signaling and cell adhesion.
 Why students get it wrong: Students often oversimplify the functions of carbohydrates.
-* Wrong answer: Proteins are only composed of amino acids.
+* Wrong answer: Proteins are only composed of amino [acids](/blog/aldehydes-ketones-and-carboxylic-acids-class-12-notes).
 Right answer: Proteins are composed of amino acids, but they can also contain other molecules, such as lipids and carbohydrates.
 Why students get it wrong: Students often forget to include other molecules in the composition of proteins.
 ### <a id="practice-MCQs"></a>Practice MCQs

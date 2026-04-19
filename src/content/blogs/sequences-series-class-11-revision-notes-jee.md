@@ -59,7 +59,7 @@ practice_link: "/class-11/mathematics/sequences-series-class-11-revision-notes-j
 ## <a id="introduction"></a>Introduction
 
 **Sequences and Series describe mathematical patterns and progressions, forming the basis for growth modeling and summation in calculus and finance. Master Arithmetic Progression (AP), Geometric Progression (GP), and the powerful AM-GM relationship to solve complex numerical patterns in competitive exams. This [class](/blog/conic-sections-class-11-revision-notes-jee) 11 Math Chapter 9 summary provides all essential formulas for JEE and CBSE success.**
-Sequences and Series are the mathematical representation of progression and patterns.
+Sequences and Series are the [mathematical](/blog/mathematical-reasoning-class-11-revision-notes-jee-neet) representation of progression and patterns.
 
 ---
 

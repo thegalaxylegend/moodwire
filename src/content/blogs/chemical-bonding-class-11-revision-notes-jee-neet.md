@@ -173,7 +173,7 @@ The core principle is simple: Electron pairs (both bond pairs and lone pairs) ha
 Instead of drawing structures, use my "Go-To" **Steric Number (H) formula**:
 
 
-H = $\frac{{1}{2}}{XeF_2}  [V + M - C + A]
+H = \frac{{1}{2}$}{XeF_2}  [V + M - C + A]
 
 
 
@@ -253,12 +253,12 @@ Solubility depends on the balance between **Lattice Enthalpy** and **Hydration E
 
 ### <a id="the-bornhaber-cycle-example-nacl"></a>The Born-Haber Cycle Example ($NaCl$)
 To calculate the Lattice Enthalpy of $NaCl$, we use a cycle:
-1. Sublimation of $Na(s) \rightarrow Na(g)$.
-2. Ionization of $Na(g) \rightarrow Na^+(g)$.
-3. Dissociation of $Cl_2(g) \rightarrow 2Cl(g)$.
+1.  Sublimation of Na(s) \rightarrow Na(g). 
+2.  Ionization of Na(g) \rightarrow Na^+(g). 
+3.  Dissociation of Cl_2(g) \rightarrow 2Cl(g). 
 4. Electron Gain of $Cl(g) \rightarrow Cl^-(g)$.
 5. Formation of $NaCl$ from ions.
-The \sum equals the $\Delta H_f$. This cycle is a favorite for numerical questions in JEE Advanced.
+The \sum equals the $\delta H_f$. This cycle is a favorite for numerical questions in JEE Advanced.
 
 ---
 
@@ -284,8 +284,7 @@ In $O_3$, both bond lengths are identical (128 pm) despite one being "double" an
 
 **Molecular Orbital Theory (MOT) treats electrons as belonging to the entire molecule, allowing for accurate prediction of magnetic properties like the paramagnetism of Oxygen.**
 
-### <a id="the-1221-rule-for-o_2-f_2-ne_2"></a>The "1-2-2-1" Rule for $O_2, F_2, Ne_2$
-Order: $\sigma 1s, \sigma^* 1s, \sigma 2s, \sigma^* 2s, \sigma 2p_z, (\pi 2p_x = \pi 2p_y), (\pi^* 2p_x = \pi^* 2p_y), \sigma^* 2p_z$.
+### <a id="the-1221-rule-for-o_2-f_2-ne_2"></a>The "1-2-2-1" Rule for $O_2, F_2, Ne_2$ Order: \sigma 1s, \sigma^* 1s, \sigma 2s, \sigma^* 2s, \sigma 2p_z, (\pi 2p_x = \pi 2p_y), (\pi^* 2p_x = \pi^* 2p_y), \sigma^* 2p_z. 
 
 ### <a id="stability-analysis"></a>Stability Analysis
 - **Bond Order (BO) = 2.0 for $O_2$** (Paramagnetic).
@@ -504,3 +503,4 @@ Continue your [revision](/blog/equilibrium-class-11-revision-notes-jee-neet) wit
 | Compound | Formula | Mol. Weight | Source |
 |:---|:---:|:---:|:---:|
 | **ethanol** | C2H6O | 46.07 g/mol | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/702) |
+

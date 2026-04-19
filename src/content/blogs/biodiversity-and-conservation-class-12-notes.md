@@ -13,7 +13,7 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
 - [⚡ Formula Bank](#-formula-bank)
 - [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
-- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
+- [✏️ 3 Solved Yes](#-3-solved-pyqs)
 - [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
 - [👁️ Ayush's Note](#-Ayush-note)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
@@ -26,19 +26,19 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
  - **Shannon Diversity Index:** MPH = - \sum_{i=1}^{S} p_i \times ln(p_i) — Where THE is the diversity index, IS is the number of species, and up_in is the proportion of individuals in the I^{th}$ species.
 
- - **Simpson Diversity Index:** AND = 1 - \sum_{i=1}^{S} \frac{n_i(n_i-1)}{N(N-1)} — Where DO is the diversity index, IS is the number of species, in_in is the number of individuals in the I^{th}$ species, and AND is the total number of individuals.
+ - **Simpson Diversity Index:** AND = 1 - \sum_{i=1}^{S} $\franc{n_i(n_i-1)}{N(N-1)}$ — Where DO is the diversity index, IS is the number of species, in_in is the number of individuals in the I^{th}$ species, and AND is the total number of individuals.
 
- - **Margaret Index:** AND_{Mg} = \frac{S-1}{ln(N)} — Where CD_{Mg}$ is the Margaret index, IS is the number of species, and AND is the total number of individuals.
+ - **Margaret Index:** AND_{Mg} = $\franc{S-1}{ln(N)}$ — Where CD_{Mg}$ is the Margaret index, IS is the number of species, and AND is the total number of individuals.
 
- - **Pilot Evenness Index:** THE = \frac{H}{H_{max}} = \frac{-\sum_{i=1}^{S} p_i \times ln(p_i)}{ln(S)} — Where HE is the evenness index, THE is the diversity index, OH_{max}$ is the maximum diversity index, IS is the number of species, and up_in is the proportion of individuals in the I^{th}$ species.
+ - **Pilot Evenness Index:** THE = $\franc{H}{H_{max}$} = $\franc{-\sum_{i=1}$^{S} p_i \times ln(p_i)}{ln(S)} — Where HE is the evenness index, THE is the diversity index, OH_{max}$ is the maximum diversity index, IS is the number of species, and up_in is the proportion of individuals in the I^{th}$ species.
 
- - **Sorensen Similarity Index:** LESS = \frac{2C}{A+B} — Where USSR is the Sorensen similarity index, ACT is the number of species common to both samples, A is the number of species in the first sample, and BY is the number of species in the second sample.
+ - **Sorensen Similarity Index:** LESS = $\franc{2C}{A+B}$ — Where USSR is the Sorensen similarity index, ACT is the number of species common to both samples, A is the number of species in the first sample, and BY is the number of species in the second sample.
 
- - **Accord Similarity Index:** DJs = \frac{C}{A+B-C} — Where JSA is the Accord similarity index, ACT is the number of species common to both samples, A is the number of species in the first sample, and BY is the number of species in the second sample.
+ - **Accord Similarity Index:** DJs = $\franc{C}{A+B-C}$ — Where JSA is the Accord similarity index, ACT is the number of species common to both samples, A is the number of species in the first sample, and BY is the number of species in the second sample.
 
- - **Sorensen Similarity Index:** SS = \frac{2C}{A+B} — Where USSR is the Sorensen similarity index, ACT is the number of species common to both samples, A is the number of species in the first sample, and BY is the number of species in the second sample.
+ - **Sorensen Similarity Index:** SS = $\franc{2C}{A+B}$ — Where USSR is the Sorensen similarity index, ACT is the number of species common to both samples, A is the number of species in the first sample, and BY is the number of species in the second sample.
 
- - **Accord Similarity Index:** JS = \frac{C}{A+B-C} — Where JSA is the Accord similarity index, ACT is the number of species common to both samples, A is the number of species in the first sample, and BY is the number of species in the second sample.
+ - **Accord Similarity Index:** JS = $\franc{C}{A+B-C}$ — Where JSA is the Accord similarity index, ACT is the number of species common to both samples, A is the number of species in the first sample, and BY is the number of species in the second sample.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -46,7 +46,7 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
  - *Costs:* 2–3 marks for incorrect identification and up to 5 marks if it leads to incorrect conclusions.
 
- - *Fix:* Clearly understand the definitions of species, genetic, and ecosystem diversity. Practice applying these definitions to different scenarios to ensure accurate identification. For instance, recognizing that $\Delta S = \beta’s - \alpha_so refers to the change in species diversity between two sites, where $\beta_so is the species turnover and $\alpha_so is the average species diversity of the sites.
+ - *Fix:* Clearly understand the definitions of species, genetic, and ecosystem diversity. Practice applying these definitions to different scenarios to ensure accurate identification. For instance, recognizing that $\delta S = \beta’s - \alpha_so refers to the change in species diversity between two sites, where $\beta_so is the species turnover and $\alpha_so is the average species diversity of the sites.
 
  - **Mistake 2:** Not recognizing the difference between endangered and vulnerable species when discussing conservation status.
 
@@ -70,9 +70,9 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
  - *Costs:* 3–4 marks for overlooking this critical factor in conservation.
 
- - *Fix:* Study the effects of invasive species on ecosystem balance and biodiversity. Remember that invasive species can outcompete native species for resources, leading to a decline in native species populations and potentially even extinctions. This can be represented by the equation $\frac{{dN}{dt} = RN \left(1 - \frac{N}{K}\right)}{\text{Biodiversity Loss} = } , where AND is the population size, are is the intrinsic growth rate, and OK is the carrying capacity, which can be altered by the presence of invasive species.
+ - *Fix:* Study the effects of invasive species on ecosystem balance and biodiversity. Remember that invasive species can outcompete native species for resources, leading to a decline in native species populations and potentially even extinctions. This can be represented by the equation $\franc{{dN}{dt} = RN \left(1 - \franc{N}{K}\right)}{\text{Biodiversity Loss} = } , where AND is the population size, are is the intrinsic growth rate, and OK is the carrying capacity, which can be altered by the presence of invasive species.
 
-## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
+## <a id="-3-solved-pyqs"></a>✏️ 3 Solved Yes
 
 - **Q1:** What is the primary cause of biodiversity loss in ecosystems?
 
@@ -82,7 +82,7 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
  The primary cause of biodiversity loss can be determined by analyzing the main drivers of [ecosystem](/blog/ecosystem-class-12-notes) disruption. 
 
- $\text{Habitat Destruction} + \text{Overexploitation} + $\text{Pollution}$ + $\text{Climate Change}$
+ $\text{Habitat Destruction} + \text{Overexploitation} + \text{Pollution} + \text{Climate Change}
 
  However, when we consider the scale and impact, habitat destruction is the leading cause, often driven by [human](/blog/human-health-and-disease-class-12-notes) activities such as deforestation and urbanization. 
 
@@ -98,11 +98,11 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
  The percentage increase can be calculated using the formula:
 
- $\text{Percentage Increase} = \left( \frac$\text{New Value - $\text{Old Value}}\text{Old Value}$ \right) \times 100
+ $\text{Percentage Increase} = \left( \frack\text{New Value - $\text{Old Value}}\text{Old Value}$ \right) \times 100
 
  Substituting the given values:
 
- $\text{Percentage Increase} = \left( \frac{1500–1000}{1000} \right) \times 100 = \left( \frac{500}{1000} \right) \times 100 = 0.5 \times 100 = 50%
+ \text{Percentage Increase}$ = \left( $\franc{1500–1000}{1000}$ \right) \times 100 = \left( $\franc{500}{1000}$ \right) \times 100 = 0.5 \times 100 = 50%
 
  - **Answer:** 50%
 
@@ -126,9 +126,9 @@ practice_link: "/class-11/biology/biodiversity-and-conservation-class-12-notes"
 
 - **The Core Concept:** The concept of Island Biogeography, which explains the relationship between species richness and island size. This concept is crucial in understanding biodiversity and conservation, as it helps predict the number of species that can coexist on an island.
 
- - **What 85% scorers do:** Most students understand that the number of species on an island is a function of the island's size and its distance from the mainland. However, they often fail to apply the IS = \frac{I}{E}$ formula correctly, where IS is the number of species, IN is the immigration rate, and HE is the extinction rate. They also tend to oversimplify the relationship between species richness and island size.
+ - **What 85% scorers do:** Most students understand that the number of species on an island is a function of the island's size and its distance from the mainland. However, they often fail to apply the IS = $\franc{I}{E} formula correctly, where IS is the number of species, IN is the immigration rate, and HE is the extinction rate. They also tend to oversimplify the relationship between species richness and island size.
 
- - **What 95% scorers do:** Top scorers recognize that the relationship between species richness and island size is more complex. They understand that the IS = \frac{I}{E}$ formula is a simplification and that the actual relationship is governed by the following equation: 
+ - **What 95% scorers do:** Top scorers recognize that the relationship between species richness and island size is more complex. They understand that the IS = $\franc{I}{E} formula is a simplification and that the actual relationship is governed by the following equation: 
 
 $1 
 
@@ -139,7 +139,7 @@ $1
 
  - Species-Area Curve: IS = ca^Zn, where IS is the number of species, A is the area, act is a constant, and oz is the slope of the curve.
 
- - Immigration and Extinction Rates: I = \frac{I_0}{A}$ and HE = \frac{E_0}{A}$, where I_0$ and HE_0$ are constants.
+ - Immigration and Extinction Rates: I = $\franc{I_0}{A} and HE = \franc{E_0}{A}$, where I_0$ and HE_0$ are constants.
 
  - **Common Pitfalls:** 
 
@@ -160,11 +160,11 @@ $1
 | Concept | Formula | Description |
 | --- | --- | --- |
 | Species-Area Curve | IS = ca^Zn | Describes the relationship between species richness and island size |
-| Immigration and Extinction Rates | I = \frac{I_0}{A}$ and HE = \frac{E_0}{A}$ | Describe the rates at which species immigrate to and go extinct on an island |
+| Immigration and Extinction Rates | I = \franc{I_0}{A}$ and HE = \franc{E_0}{A}$ | Describe the rates at which species immigrate to and go extinct on an island |
 
 ## <a id="-Ayush-note"></a>👁️ Ayush's Note
 
-👁️ Ayush's Note, - **The Hidden Pattern:** In Biodiversity and Conservation, a recurring pattern is observed where $\frac{14}{), make sure to understand the underlying assumptions and limitations of each index., - Lastly, stay alert for questions that require the application of **conservation principles**, including the **precautionary principle**, **adaptive management**, and **ecosystem-based management**. These concepts often involve trade-offs between **economic**, **social**, and **environmental** considerations. , Topic, Formula/Concept, Relevance to Conservation , Species-Area Relationship, IS = ca^zoo, Understanding the relationship between species richness and area is crucial for conservation efforts, especially in the context of habitat fragmentation and reserve design. , Minimum Viable Population (MVP), MVP size is influenced by factors such as genetic diversity, demographic stochastic, and environmental variability, Determining the MVP size is essential for developing effective conservation strategies, particularly for endangered species. , Metapopulation Concept, A metapopulation consists of subpopulations that interact through migration, The metapopulation concept is vital for understanding the dynamics of species in fragmented habitats and for designing effective conservation corridors.
+👁️ Ayush's Note, - **The Hidden Pattern:** In Biodiversity and Conservation, a recurring pattern is observed where $\franc{14}{), make sure to understand the underlying assumptions and limitations of each index., - Lastly, stay alert for questions that require the application of **conservation principles**, including the **precautionary principle**, **adaptive management**, and **ecosystem-based management**. These concepts often involve trade-offs between **economic**, **social**, and **environmental** considerations. , Topic, Formula/Concept, Relevance to Conservation , Species-Area Relationship, IS = ca^zoo, Understanding the relationship between species richness and area is crucial for conservation efforts, especially in the context of habitat fragmentation and reserve design. , Minimum Viable Population (MVP), MVP size is influenced by factors such as genetic diversity, demographic stochastic, and environmental variability, Determining the MVP size is essential for developing effective conservation strategies, particularly for endangered species. , Metapopulation Concept, A metapopulation consists of subpopulations that interact through migration, The metapopulation concept is vital for understanding the dynamics of species in fragmented habitats and for designing effective conservation corridors.
 
 | Topic | Formula/Concept | Relevance to Conservation |
 | --- | --- | --- |
@@ -174,15 +174,15 @@ $1
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- IS = \frac{N!}{(N - n)!}}  of the questions focus on the **species-area relationship**, which can be represented by the formula: IS = ca^zoo where IS is the number of species, act and oz are constants, and A is the area., - The **species-area relationship** is further divided into **island biogeography** and **mainland biogeography**, with the former being more relevant to conservation efforts., - **How to Apply It:** To tackle questions related to this pattern, first identify the type of species-area relationship being discussed (e.g., **island biogeography** or **mainland biogeography**). Then, apply the relevant formula and consider the implications for conservation, such as the **minimum viable population (MVP)** size and the **metapopulation concept**., - Another crucial aspect is understanding the **types of species interactions**, including **mutualism**, **commensalism**, **parasitism**, **competition**, and **predation**. Recognizing these interactions is essential for evaluating the impact of invasive species or the effectiveness of conservation strategies., - In the context of **conservation biology**, be prepared to analyze scenarios involving **habitat fragmentation**, **edge effects**, and **corridors**. The ability to apply concepts like **metapopulation dynamics** and **source-sink populations** can significantly enhance your problem-solving skills., - When encountering questions related to **biodiversity indices**, such as the **Shannon diversity index** (OH = -\sum_i=1’S p_i \times ln p_in) or the **Simpson diversity index** (CD = 1 - \sum_i=1’S p_i^2$, where IS is the number of species and AND is the total number of individuals.
+- IS = $\franc{N!}{(N - n)!}$}  of the questions focus on the **species-area relationship**, which can be represented by the formula: IS = ca^zoo where IS is the number of species, act and oz are constants, and A is the area., - The **species-area relationship** is further divided into **island biogeography** and **mainland biogeography**, with the former being more relevant to conservation efforts., - **How to Apply It:** To tackle questions related to this pattern, first identify the type of species-area relationship being discussed (e.g., **island biogeography** or **mainland biogeography**). Then, apply the relevant formula and consider the implications for conservation, such as the **minimum viable population (MVP)** size and the **metapopulation concept**., - Another crucial aspect is understanding the **types of species interactions**, including **mutualism**, **commensalism**, **parasitism**, **competition**, and **predation**. Recognizing these interactions is essential for evaluating the impact of invasive species or the effectiveness of conservation strategies., - In the context of **conservation biology**, be prepared to analyze scenarios involving **habitat fragmentation**, **edge effects**, and **corridors**. The ability to apply concepts like **metapopulation dynamics** and **source-sink populations** can significantly enhance your problem-solving skills., - When encountering questions related to **biodiversity indices**, such as the **Shannon diversity index** (OH = -\sum_i=1’S p_i \times ln p_in) or the **Simpson diversity index** (CD = 1 - \sum_i=1’S p_i^2$, where IS is the number of species and AND is the total number of individuals.
 
  - OH = -\sum_{i=1}^{S} p_i \times ln(p_i)$, where THE is the Shannon diversity index and up_in is the proportion of each species.
 
- - CD = \frac{N_1 + N_2}{2}$, where DO is the Simpson diversity index and IN_1$ and IN_2$ are the number of individuals of each species.
+ - CD = $\franc{N_1 + N_2}{2}, where DO is the Simpson diversity index and IN_1$ and IN_2$ are the number of individuals of each species.
 
- - HE = \frac{S}{S_{max}}$, where HE is the evenness index and IS_{max}$ is the maximum number of species.
+ - HE = $\franc{S}{S_{max}$}$, where HE is the evenness index and IS_{max}$ is the maximum number of species.
 
- - JJ = \frac{H}{H_{max}}$, where JR is the Pilot evenness index and OH_{max}$ is the maximum diversity.
+ - JJ = $\franc{H}{H_{max}$}$, where JR is the Pilot evenness index and OH_{max}$ is the maximum diversity.
 
  - Key facts:
 
@@ -231,7 +231,7 @@ D) Dispersion
 ---
 
 **4. Which of the following conservation strategies involves the protection of a specific species and its habitat?**
-A) Ecosystem-based conservation
+A) [ecosystem](/blog/ecosystem-class-12-notes)-based conservation
 B) Species-based conservation
 C) Habitat-based conservation
 D) In-situ conservation

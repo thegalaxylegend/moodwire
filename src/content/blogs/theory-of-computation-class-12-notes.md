@@ -9,7 +9,7 @@ practice_link: "/class-12/computer-science/theory-of-computation"
 
 *Last Updated: 2026-04-12*
 
-<div class="quick-summary">
+<div [class](/blog/haloalkanes-and-haloarenes-class-12-notes)="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
@@ -41,8 +41,8 @@ practice_link: "/class-12/computer-science/theory-of-computation"
  - **Regular Expression Concatenation:** A \cdot B = \{ xy \mid x \in A \; and \; y \in B \} — where $A$ and $B$ are languages.
  - **Regular Expression Kleene Star:** A^* = \{ \epsilon \} \cup A \cup A^2 \cup A^3 \cup ... — where $A$ is a language.
  - **Context-Free Grammar Production Rule:** A \rightarrow \alpha — where $A$ is a non-terminal, $\alpha$ is a string of terminals and non-terminals.
- - **Pushdown Automaton Transition Function:** \Delta(q, a, b) = (q', b') — where $q$ is the current state, $a$ is the input symbol, $b$ is the top stack symbol, $q'$ is the next state, $b'$ is the new top stack symbol.
- - **Turing Machine Transition Function:** \Delta(q, a) = (q', a', D) — where $q$ is the current state, $a$ is the tape symbol, $q'$ is the next state, $a'$ is the symbol written to the tape, $D$ is the direction of the head.
+ - **Pushdown Automaton Transition Function:** \delta(q, a, b) = (q', b') — where $q$ is the current state, $a$ is the input symbol, $b$ is the top stack symbol, $q'$ is the next state, $b'$ is the new top stack symbol.
+ - **Turing Machine Transition Function:** \delta(q, a) = (q', a', D) — where $q$ is the current state, $a$ is the tape symbol, $q'$ is the next state, $a'$ is the symbol written to the tape, $D$ is the direction of the head.
  - **Chomsky Normal Form Production Rule:** A \rightarrow BC — where $A$ is a non-terminal, $B$ and $C$ are non-terminals.
  - **Greibach Normal Form Production Rule:** A \rightarrow aB_1B_2...B_k — where $A$ is a non-terminal, $a$ is a terminal, $B_i$ are non-terminals.
  - **Pumping Lemma for Regular Languages:** w = xyz — where $w$ is a string, $x$, $y$, $z$ are substrings, $|y| > 0$, $|xy| \leq p$, $w' = xy^iz$ is in the language for all $i \geq 0$.
@@ -86,9 +86,7 @@ eq 1$ results in a string that is *not* in $L$. This means $L$ cannot be regular
 
 - **Q1: (JEE Main 2018)** The output of the combination of the gates shown in the figure is:
  
- $\text{A} \longrightarrow $\text{[NOT]} \longrightarrow $\text{X}_1 \longrightarrow $\text{[AND]} \longrightarrow $\text{Y}$\ }
-
-
+ $\text{A} \longrightarrow \text{[NOT]}$ \longrightarrow $\text{X}_1 \longrightarrow \text{[AND]}$ \longrightarrow $\text{Y}$\ }
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
@@ -110,17 +108,17 @@ eq 1$ results in a string that is *not* in $L$. This means $L$ cannot be regular
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. Which Turing machine model is universal?**
-**A)**       Turing Machine
-**B)**       Pushdown Automaton
-**C)**       Finite State Machine
-**D)**       Linear Bounded Automaton
+**A)**        Turing Machine
+**B)**        Pushdown Automaton
+**C)**        Finite State Machine
+**D)**        Linear Bounded Automaton
 
 **Answer:** D) A Linear Bounded Automaton is a universal Turing machine model.
 
 ---
 
 **2. What is the concept of decidability in computability theory?**
-**A)**       A problem has a
+**A)**        A problem has a
 
 solution
 **B)**  A problem has a finite solution
@@ -132,30 +130,30 @@ solution
 ---
 
 **3. Which of the following languages is not regular?**
-**A)**       a^*b^*a^*
-**B)**       a^nb^n
-**C)**       ab^*a
-**D)**       a^nb^n where n >= 0
+**A)**        a^*b^*a^*
+**B)**        a^nb^n
+**C)**        ab^*a
+**D)**        a^nb^n where n >= 0
 
 **Answer:** B) The language a^nb^n, where n >= 0, is not regular because it requires a pushdown automaton to recognize it, not a finite state machine.
 
 ---
 
 **4. What is the Church-Turing thesis?**
-**A)**       A universal Turing machine can simulate any algorithm
-**B)**       Any algorithm can be simulated by a universal Turing machine
-**C)**       A finite state machine can solve any problem
-**D)**       A pushdown automaton can solve any problem
+**A)**        A universal Turing machine can simulate any algorithm
+**B)**        Any algorithm can be simulated by a universal Turing machine
+**C)**        A finite state machine can solve any problem
+**D)**        A pushdown automaton can solve any problem
 
 **Answer:** B) The Church-Turing thesis states that any effectively calculable function can be calculated by a Turing machine.
 
 ---
 
 **5. Which of the following problems is undecidable?**
-**A)**       The halting problem
-**B)**       The decision problem for regular languages
-**C)**       The decision problem for context-free languages
-**D)**       The decision problem for recursive languages
+**A)**        The halting problem
+**B)**        The decision problem for regular languages
+**C)**        The decision problem for context-free languages
+**D)**        The decision problem for recursive languages
 
 **Answer:** A) The halting problem is undecidable, meaning that there cannot exist an algorithm that can determine whether a given Turing machine will halt for all possible inputs.
 

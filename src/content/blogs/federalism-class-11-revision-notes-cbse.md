@@ -59,16 +59,16 @@ The key features of federalism include:
 | **Bicameral Legislature** | A bicameral legislature with two houses, one representing the states and the other representing the people |
 
 
-## <a id="what-is-the-historical-context-of-federalism-in-india"></a>What is the Historical Context of Federalism in India?
+## <a id="what-is-the-historical-context-of-federalism-in-India"></a>What is the Historical Context of Federalism in India?
 
-The historical context of federalism in [india](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) dates back to the **British colonial period**, when the British government introduced the **Government of [india](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) Act, 1935**, which provided for a federal system with a strong center and weaker provinces. After independence, the **Constituent Assembly** drafted the Indian Constitution, which established a federal system with a strong center and weaker states. The **States Reorganisation Act, 1956**, further reorganized the states on a linguistic basis.
-
-
+The historical context of federalism in [India](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) dates back to the **British colonial period**, when the British government introduced the **Government of [India](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) Act, 1935**, which provided for a federal system with a strong center and weaker provinces. After independence, the **Constituent Assembly** drafted the Indian Constitution, which established a federal system with a strong center and weaker states. The **States Reorganization Act, 1956**, further reorganized the states on a linguistic basis.
 
 
-## <a id="ayushs-personal-note"></a>Ayush's Personal Note
 
-As I prepare for the Class 11 exam in 2026, I realize the importance of understanding the principles of federalism and its application in the Indian context. I need to focus on the key features of federalism, including the division of powers, independent judiciary, and dual citizenship. I also need to study the historical context of federalism in [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee), including the British colonial period and the post-independence era.
+
+## <a id="Ayush-personal-note"></a>Ayush's Personal Note
+
+As I prepare for the Class 11 exam in 2026, I realize the importance of understanding the principles of federalism and its application in the Indian context. I need to focus on the key features of federalism, including the division of powers, independent judiciary, and dual citizenship. I also need to study the historical context of federalism in [India](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee), including the British colonial period and the post-independence era.
 
 
 
@@ -77,7 +77,7 @@ As I prepare for the Class 11 exam in 2026, I realize the importance of understa
 
 The core concepts of federalism include:
 - **Federal Principles**: The principles of federalism, including the division of powers, independent judiciary, and dual citizenship.
-- **Unitary Features**: The unitary features of the [indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Constitution, including the strong center and the emergency provisions.
+- **Unitary Features**: The unitary features of the [Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Constitution, including the strong center and the emergency provisions.
 - **State-Center Relations**: The relations between the center and the states, including the division of powers and the role of the judiciary.
 
 
@@ -86,17 +86,17 @@ The core concepts of federalism include:
 ## <a id="what-are-the-trap-exceptions"></a>What are the Trap Exceptions?
 
 Trap Exceptions:
-- **Emergency Provisions**: The emergency provisions in the [indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Constitution, which allow the center to assume control over the states in times of emergency.
-- **Centralized Tendencies**: The centralized tendencies in the [indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) federal system, which can lead to a strong center and weaker states.
+- **Emergency Provisions**: The emergency provisions in the [Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) Constitution, which allow the center to assume control over the states in times of emergency.
+- **Centralized Tendencies**: The centralized tendencies in the [Indian](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) federal system, which can lead to a strong center and weaker states.
 - **State Autonomy**: The autonomy of the states, which can be compromised by the center's powers.
 
 
 
 
-## <a id="ayushs-tips"></a>Ayush's Tips
+## <a id="Ayush-tips"></a>Ayush's Tips
 
 As I prepare for the [class](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) 11 exam in 2026, I need to focus on the key concepts and principles of federalism. I should:
-- Study the historical context of federalism in [india](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse).
+- Study the historical context of federalism in [India](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse).
 - Understand the core concepts of federalism, including federal principles, unitary features, and state-center relations.
 - Practice MCQs and revise the key features of federalism.
 - Be aware of the trap exceptions, including emergency provisions, centralized tendencies, and state autonomy.
@@ -133,3 +133,34 @@ Continue your [revision](/blog/constitutional-framework-class-11-revision-notes-
 - 📖 [Constitutional Framework Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/constitutional-framework-class-11-revision-notes-cbse)
 - 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
 - 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* Federalism is often misunderstood as a system where the central government holds all the power. However, in a federal system, power is divided between the central government and the constituent units, such as states or provinces.
+* A common mistake is to assume that federalism is only about the division of power between the center and the states, when in fact it also involves the relationship between the center and the local governments, such as municipalities and pantheists.
+* Students often confuse federalism with unitary systems, where the central government has complete control over all aspects of governance. In a federal system, the constituent units have a significant degree of autonomy.
+* Another trap question is to assume that federalism is a modern concept, when in fact it has its roots in [ancient](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) India, with the existence of jacarandas and mahajanapadas, which were like federal units with their own systems of governance.
+* A common error is to overlook the importance of fiscal federalism, which refers to the division of financial resources and powers between the center and the states, and how it impacts the overall functioning of the federal system.
+
+## 🔁 Last 5 Minutes Box
+
+* **Key Features of Federalism**: 
+  + Division of power between central and state governments
+  + Written constitution 
+  + Independent judiciary 
+  + Dual citizenship 
+* **Advantages of Federalism**: 
+  + Protects rights of minorities 
+  + Promotes unity and stability 
+  + Encourages political participation 
+  + Allows for regional autonomy 
+* **Disadvantages of Federalism**: 
+  + Can lead to conflicts between central and state governments 
+  + May create inequalities between different regions 
+  + Can be slower in responding to national issues 
+* **Types of Federalism**: 
+  + Coming Together Federalism (USA) 
+  + Holding Together Federalism (India) 
+* **Federalism in India**: 
+  + Features: written constitution, independent judiciary, division of power 
+  + Challenges: regionalism, communalism, casteism

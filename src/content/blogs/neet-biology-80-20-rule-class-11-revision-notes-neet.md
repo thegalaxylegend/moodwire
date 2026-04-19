@@ -54,7 +54,7 @@ Based on frequency analysis from the 2018–2026 NTA papers, the following chapt
 ### <a id="1-genetics-and-evolution-1518-questions"></a>1. Genetics and Evolution (15-18 Questions)
 This unit is the undisputed heavyweight champion of [neet](/blog/animal-kingdom-class-11-revision-notes-neet). 
 * **Principles of Inheritance and Variation:** Focus on Mendelian disorders (pedigree analysis), chromosomal disorders, and co-dominance.
-* **Molecular Basis of Inheritance:** Extremely high ROI. Master the DNA replication fork, transcription unit (promoter, structural gene, terminator), and the Lac Operon model.
+* **Molecular Basis of Inheritance:** Extremely high ROI. Master the DNA replication fork, transcription unit (promoter, [structural](/blog/structural-organisation-in-animals-class-11-revision-notes-neet) gene, terminator), and the Lac Operon model.
 
 ### <a id="2-human-physiology-1214-questions"></a>2. Human Physiology (12-14 Questions)
 Despite the syllabus rationalization, Human Physiology remains central.

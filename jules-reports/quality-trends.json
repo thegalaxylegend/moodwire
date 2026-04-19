@@ -1,20 +1,30 @@
 {
-  "overallAvgScore": 89.7,
-  "totalBlogsAllTime": 85,
+  "overallAvgScore": 84.3,
+  "totalBlogsAllTime": 94,
   "totalPassed": 74,
-  "totalFailed": 11,
-  "overallPassRate": 87,
+  "totalFailed": 20,
+  "overallPassRate": 79,
   "trend": "improving",
   "trendDelta": 11.6,
   "dailyReports": [
     {
-      "date": "2026-04-17",
+      "date": "2026-04-19",
       "totalBlogs": 9,
-      "passed": 9,
-      "failed": 0,
-      "avgScore": 100,
-      "passRate": 100,
-      "errors": []
+      "passed": 0,
+      "failed": 9,
+      "avgScore": 33.3,
+      "passRate": 0,
+      "errors": [
+        "JSON squashing detected: raw JSON objects in markdown body",
+        "JSON squashing detected: raw JSON objects in markdown body",
+        "JSON squashing detected: raw JSON objects in markdown body",
+        "JSON squashing detected: raw JSON objects in markdown body",
+        "JSON squashing detected: raw JSON objects in markdown body",
+        "JSON squashing detected: raw JSON objects in markdown body",
+        "JSON squashing detected: raw JSON objects in markdown body",
+        "JSON squashing detected: raw JSON objects in markdown body",
+        "JSON squashing detected: raw JSON objects in markdown body"
+      ]
     },
     {
       "date": "2026-03-23",
@@ -180,9 +190,22 @@
       "avgScore": 100,
       "passRate": 100,
       "errors": []
+    },
+    {
+      "date": "2026-04-17",
+      "totalBlogs": 9,
+      "passed": 9,
+      "failed": 0,
+      "avgScore": 100,
+      "passRate": 100,
+      "errors": []
     }
   ],
   "topErrors": [
+    {
+      "error": "JSON squashing detected: raw JSON objects in markdown body",
+      "count": 9
+    },
     {
       "error": "401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":",
       "count": 6

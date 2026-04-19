@@ -147,7 +147,7 @@ B) Phylum Chordata
 C) Phylum Mollusca
 D) Phylum Echinodermata
  Answer: B) Phylum Chordata
-2. Which class of mammals includes warm-blooded animals with hair and mammary glands?
+2. Which [class](/blog/plant-growth-and-development-class-11-revision-notes-neet) of mammals includes warm-blooded animals with hair and mammary glands?
  A) Class Reptilia
 B) Class Aves
 C) Class Mammalia

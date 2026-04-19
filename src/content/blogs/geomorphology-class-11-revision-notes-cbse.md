@@ -154,7 +154,7 @@ As a student of [class](/blog/ancient-india-indus-valley-class-11-revision-notes
 
 \begin{equation}
 
-E = \sum_{i=1}^{n} (R_i \times S_i)
+ E = \sum_{i=1}^{n} (R_i \times S_i) 
 
 
 \end{equation}
@@ -212,7 +212,7 @@ I am confident that I will do well, and I will continue to work hard to achieve 
 
 \begin{equation}
 
-D = \sum_{i=1}^{n} (E_i \times T_i)
+ D = \sum_{i=1}^{n} (E_i \times T_i) 
 
 
 \end{equation}
@@ -282,9 +282,9 @@ The **Formulae and Tables** section has provided me with a quick reference guide
 I will make sure to use this guide to help me solve problems and answer questions. 
 The **MCQs** section has provided me with a chance to practice my knowledge and identify areas where I need to improve. 
 I will continue to practice and review the material to ensure I am well-prepared for my exam. 
-The **JEE/NEET data** section has provided me with information about the importance of Geomorphology in the JEE and NEET exams. 
+The **JEE/[neet](/blog/art-culture-architecture-class-11-revision-notes-jee-neet) data** section has provided me with information about the importance of Geomorphology in the JEE and [neet](/blog/art-culture-architecture-class-11-revision-notes-jee-neet) exams. 
 I will make sure to focus on the key concepts and formulae to excel in the subject. 
-Overall, this quick revision and recap has been extremely helpful, and I am confident that I will do well in my exam. 
+Overall, this quick [revision](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) and recap has been extremely helpful, and I am confident that I will do well in my exam. 
 I will continue to work hard to achieve my goals. 
 Using LaTeX has made the equations and tables look neat and easy to read, and I will continue to use it to help me study. 
 The **Key Terms** section has provided me with a quick reference guide to the essential vocabulary in Geomorphology. 
@@ -499,3 +499,21 @@ Continue your revision with these related guides:
 - 📖 [World History Industrial Revolution Class 11 History Recap — CBSE 2026 Quick Guide](/blog/world-history-industrial-revolution-class-11-revision-notes-jee-neet)
 - 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)
 - 📖 [Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* **Mistaking Denudation for Erosion**: Denudation is the process of wearing away the Earth's surface, while erosion is the removal and transportation of weathered rock materials. Make sure to distinguish between the two in your answers.
+* **Confusing a Plateau with a Plain**: A plateau is an elevated area of land with steep sides, while a plain is a low-lying area with minimal elevation change. Be aware of the differences in their formations and characteristics.
+* **Forgetting the Types of Coasts**: There are two main types of coasts: emergent and submergent. Emergent coasts are formed when the land rises, while submergent coasts are formed when the sea level rises. Make sure to recall these types and their associated features.
+* **Not Understanding the Difference between a Delta and an Estuary**: A delta is a landform created by the deposition of sediment at the mouth of a river, while an estuary is a partially enclosed coastal body of water where freshwater and saltwater mix. Be clear about the distinct characteristics of each.
+* **Misidentifying the Stages of a Waterfall's Life Cycle**: A waterfall goes through three stages: youthful, mature, and old age. Make sure to recognize the features of each stage, such as the presence of a plunge pool or a steep slope, to avoid errors in your answers.
+
+## 🔁 Last 5 Minutes Box
+
+* **Landforms**: Result of interaction between endogenic and exogenic forces.
+* **Internal Processes**: Diastrophism (folding, faulting, volcanism) and Plate Tectonics.
+* **External Processes**: Weathering, Erosion, and Deposition.
+* **Denudation**: Wearing away of the Earth's surface by external forces.
+* **Gradation**: Process of reducing highlands and filling up lowlands to achieve a balance.
+* **Cycle of Erosion** (W.M. Davis): Youth, Mature, and Old stages.
+* **Types of Coasts**: Submergent, Emergent, and Deltaic coasts.

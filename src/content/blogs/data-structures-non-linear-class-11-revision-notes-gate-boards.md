@@ -97,7 +97,7 @@ Non-Linear Data Structures is a type of data organization where each element or 
 
 | [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) Structure | Description | Time Complexity | Space Complexity |
 | --- | --- | --- | --- |
-| Tree | A hierarchical data structure with a root node and child nodes | O(\log n) for search, O(\log n) for insertion/deletion | O(n) |
+| Tree | A hierarchical [data](/blog/data-structures-linear-class-11-revision-notes-gate-boards) structure with a root node and child nodes | O(\log n) for search, O(\log n) for insertion/deletion | O(n) |
 | Graph | A non-linear data structure with nodes and edges | O(n + m) for search, O(n + m) for insertion/deletion | O(n + m) |
 | Heap | A specialized tree where the parent node is greater than or less than its child nodes | O(\log n) for search, O(\log n) for insertion/deletion | O(n) |
 
@@ -154,7 +154,7 @@ What is the key Shortcut or Trick for Data Structures: Non-Linear? is understand
    
    Another critical aspect is mastering the trade-offs between different data structures and algorithms. For instance, understanding when to use a hash table versus a binary search tree (BST) can significantly impact the efficiency of a solution. Hash tables offer $O(1)$ average time complexity for search, insert, and delete operations, but can suffer from collisions and may not maintain sorted order, whereas BSTs guarantee $O(\log n)$ time for these operations and maintain sorted order but can become unbalanced, leading to $O(n)$ operations in the worst case, unless self-balancing mechanisms like those in AVL trees or Red-Black trees are implemented.
    
-   Lastly, practicing the implementation of these data structures and algorithms from scratch is indispensable. It not only reinforces understanding but also develops the ability to analyze problems, identify the most suitable data structure, and apply the appropriate algorithm, which is key to performing well in exams and real-world applications.
+   Lastly, practicing the implementation of these data structures and [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) from scratch is indispensable. It not only reinforces understanding but also develops the ability to analyze problems, identify the most suitable data structure, and apply the appropriate algorithm, which is key to performing well in exams and real-world applications.
 
 
 | Data Structure | Description | Time Complexity |

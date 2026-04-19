@@ -90,7 +90,7 @@ What is Ayush's Note on Algorithms: Analysis? is a study resource that provides 
    
    The analysis of [algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards) typically involves the calculation of time and space complexity, which are measures of an algorithm's efficiency. Time complexity refers to the amount of time an algorithm takes to complete as a function of the input size, while space complexity refers to the amount of memory an algorithm uses. Common notations for expressing time and space complexity include Big O, Big Ω, and Big Θ. The choice of algorithm can significantly impact the performance of a program, and understanding the trade-offs between different [algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards) is essential for writing efficient code.
    
-   When analyzing algorithms, it's essential to consider the worst-case, average-case, and best-case scenarios. The worst-case scenario represents the maximum time or space an algorithm requires, the average-case scenario represents the expected time or space, and the best-case scenario represents the minimum time or space. Understanding these scenarios helps developers predict an algorithm's performance and make informed decisions about which algorithm to use.
+   When analyzing [algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards), it's essential to consider the worst-case, average-case, and best-case scenarios. The worst-case scenario represents the maximum time or space an algorithm requires, the average-case scenario represents the expected time or space, and the best-case scenario represents the minimum time or space. Understanding these scenarios helps developers predict an algorithm's performance and make informed decisions about which algorithm to use.
    
    The following table summarizes the time and space complexity of common algorithms:
    
@@ -148,7 +148,7 @@ What are the fundamentals of Algorithms: Analysis for [class](/blog/digital-logi
 
 ## <a id="what-are-the-different-types-of-algorithm-complexities"></a>What are the different types of algorithm complexities?
 
-What are the different types of algorithm complexities? is the study of the amount of time or space an algorithm requires as a function of the size of its input. It includes Big O notation, Omega notation, and Theta notation. For Class 11 exam prep in 2026, the most important aspect is understanding how to analyze and compare the efficiency of different algorithms using these notations. 
+What are the different types of algorithm complexities? is the study of the amount of time or space an algorithm requires as a function of the size of its input. It includes Big O notation, Omega notation, and Theta notation. For [class](/blog/data-structures-linear-class-11-revision-notes-gate-boards) 11 exam prep in 2026, the most important aspect is understanding how to analyze and compare the efficiency of different algorithms using these notations. 
    
    Algorithm complexity is crucial in computer science as it helps developers predict the performance of their code and make informed decisions about which algorithms to use in different scenarios. The complexity of an algorithm can be classified into several types, including time complexity and space complexity. Time complexity refers to the amount of time an algorithm takes to complete, usually measured in terms of the number of operations performed. Space complexity, on the other hand, refers to the amount of memory an algorithm uses.
    

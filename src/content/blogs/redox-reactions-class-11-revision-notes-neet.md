@@ -85,7 +85,7 @@ For example, in the human body, redox reactions are involved in the production o
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div class="note-box">
+<div [class](/blog/hydrocarbons-class-11-revision-notes-neet)="note-box">
 I still remember the time when I was preparing for my JEE exams. I was struggling to understand the concept of redox reactions. I used to get confused between the terms oxidation and reduction. But then I realized that oxidation is the loss of electrons, while reduction is the gain of electrons. This simple trick helped me to understand the concept of redox reactions and I was able to solve the questions with ease.
 </div>
 
@@ -104,10 +104,10 @@ The half-equation method is a method used to balance redox reactions. In this me
 Oxidation numbers are used to keep track of the electrons in a redox reaction. The oxidation number of an element is the charge that the element would have if the electrons in the bond were assigned to the more electronegative atom.
 
 The formula to calculate the oxidation number is:
-$\text{Oxidation Number} = $\text{Number of electrons gained or lost}
+$\text{Oxidation Number} = \text{Number of electrons gained or lost}$
 
 For example, in the reaction:
-\text{Fe}^{2+} \rightarrow $\text{Fe}^{3+}$ + $\text{e}$^-
+ \text{Fe}^{2+} \rightarrow \text{Fe}^{3+} + \text{e}^- 
 The oxidation number of iron increases from +2 to +3, indicating that iron has lost an electron.
 
 
@@ -143,19 +143,11 @@ d) +4
 Solution: b) +2
 
 2. Which of the following is an example of a redox reaction?
-a) $\text{NaCl} + \text{H}_2\text{O} \rightarrow \text{NaOH} + \text{HCl}$
-b) $\text{Fe}^{2+} \rightarrow \text{Fe}^{3+} + \text{e}^-$
-c) $\text{CaCO}_3 \rightarrow \text{CaO} + \text{CO}_2$
-d) $\text{H}_2 + \text{O}_2 \rightarrow \text{H}_2\text{O}$
-
-Solution: b) $\text{Fe}^{2+} \rightarrow \text{Fe}^{3+} + \text{e}^-$
+a) $\text{NaCl} + \text{H}_2\text{O} \rightarrow \text{NaOH} + \text{HCl}$ b) \text{Fe}^{2+} \rightarrow \text{Fe}^{3+} + \text{e}^- 
+c) $\text{CaCO}_3 \rightarrow \text{CaO} + \text{CO}_2$ d) \text{H}_2 + \text{O}_2 \rightarrow \text{H}_2\text{O}  Solution: b) \text{Fe}^{2+} \rightarrow \text{Fe}^{3+} + \text{e}^- 
 
 ### <a id="medium"></a>Medium
-3. Balance the following redox reaction: $\text{MnO}_4^- + \text{Fe}^{2+} \rightarrow \text{Mn}^{2+} + \text{Fe}^{3+}$
-a) $\text{MnO}_4^- + 5\text{Fe}^{2+} + 8\text{H}^+ \rightarrow \text{Mn}^{2+} + 5\text{Fe}^{3+} + 4\text{H}_2\text{O}$
-b) $\text{MnO}_4^- + 3\text{Fe}^{2+} + 4\text{H}^+ \rightarrow \text{Mn}^{2+} + 3\text{Fe}^{3+} + 2\text{H}_2\text{O}$
-c) $\text{MnO}_4^- + 2\text{Fe}^{2+} + 3\text{H}^+ \rightarrow \text{Mn}^{2+} + 2\text{Fe}^{3+} + \text{H}_2\text{O}$
-d) $\text{MnO}_4^- + \text{Fe}^{2+} \rightarrow \text{Mn}^{2+} + \text{Fe}^{3+}$
+3. Balance the following redox reaction: $\text{MnO}_4^- + \text{Fe}^{2+} \rightarrow \text{Mn}^{2+} + \text{Fe}^{3+}$ a) \text{MnO}_4^- + 5\text{Fe}^{2+} + 8\text{H}^+ \rightarrow \text{Mn}^{2+} + 5\text{Fe}^{3+} + 4\text{H}_2\text{O}  b) \text{MnO}_4^- + 3\text{Fe}^{2+} + 4\text{H}^+ \rightarrow \text{Mn}^{2+} + 3\text{Fe}^{3+} + 2\text{H}_2\text{O}  c) \text{MnO}_4^- + 2\text{Fe}^{2+} + 3\text{H}^+ \rightarrow \text{Mn}^{2+} + 2\text{Fe}^{3+} + \text{H}_2\text{O}  d) \text{MnO}_4^- + \text{Fe}^{2+} \rightarrow \text{Mn}^{2+} + \text{Fe}^{3+} 
 
 Solution: a) $\text{MnO}_4^- + 5\text{Fe}^{2+} + 8\text{H}^+ \rightarrow \text{Mn}^{2+} + 5\text{Fe}^{3+} + 4\text{H}_2\text{O}$
 
@@ -168,13 +160,7 @@ d) None of the above
 Solution: a) $\text{Fe}^{2+}$
 
 ### <a id="hard"></a>Hard
-5. Balance the following redox reaction: $\text{Cr}_2\text{O}_7^{2-} + \text{Fe}^{2+} \rightarrow \text{Cr}^{3+} + \text{Fe}^{3+}$
-a) $\text{Cr}_2\text{O}_7^{2-} + 6\text{Fe}^{2+} + 14\text{H}^+ \rightarrow 2\text{Cr}^{3+} + 6\text{Fe}^{3+} + 7\text{H}_2\text{O}$
-b) $\text{Cr}_2\text{O}_7^{2-} + 3\text{Fe}^{2+} + 4\text{H}^+ \rightarrow 2\text{Cr}^{3+} + 3\text{Fe}^{3+} + 2\text{H}_2\text{O}$
-c) $\text{Cr}_2\text{O}_7^{2-} + 2\text{Fe}^{2+} + 3\text{H}^+ \rightarrow 2\text{Cr}^{3+} + 2\text{Fe}^{3+} + \text{H}_2\text{O}$
-d) $\text{Cr}_2\text{O}_7^{2-} + \text{Fe}^{2+} \rightarrow 2\text{Cr}^{3+} + \text{Fe}^{3+}$
-
-Solution: a) $\text{Cr}_2\text{O}_7^{2-} + 6\text{Fe}^{2+} + 14\text{H}^+ \rightarrow 2\text{Cr}^{3+} + 6\text{Fe}^{3+} + 7\text{H}_2\text{O}$
+5. Balance the following redox reaction: $\text{Cr}_2\text{O}_7^{2-} + \text{Fe}^{2+} \rightarrow \text{Cr}^{3+} + \text{Fe}^{3+}$ a) \text{Cr}_2\text{O}_7^{2-} + 6\text{Fe}^{2+} + 14\text{H}^+ \rightarrow 2\text{Cr}^{3+} + 6\text{Fe}^{3+} + 7\text{H}_2\text{O}  b) \text{Cr}_2\text{O}_7^{2-} + 3\text{Fe}^{2+} + 4\text{H}^+ \rightarrow 2\text{Cr}^{3+} + 3\text{Fe}^{3+} + 2\text{H}_2\text{O}  c) \text{Cr}_2\text{O}_7^{2-} + 2\text{Fe}^{2+} + 3\text{H}^+ \rightarrow 2\text{Cr}^{3+} + 2\text{Fe}^{3+} + \text{H}_2\text{O}  d) \text{Cr}_2\text{O}_7^{2-} + \text{Fe}^{2+} \rightarrow 2\text{Cr}^{3+} + \text{Fe}^{3+}  Solution: a) \text{Cr}_2\text{O}_7^{2-} + 6\text{Fe}^{2+} + 14\text{H}^+ \rightarrow 2\text{Cr}^{3+} + 6\text{Fe}^{3+} + 7\text{H}_2\text{O} 
 
 
 
@@ -216,3 +202,4 @@ Continue your [revision](/blog/cell-cycle-and-cell-division-class-11-revision-no
 - 📖 [Hydrocarbons Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/hydrocarbons-class-11-revision-notes-neet)
 - 📖 [Hydrogen Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/hydrogen-class-11-revision-notes-neet)
 - 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
+

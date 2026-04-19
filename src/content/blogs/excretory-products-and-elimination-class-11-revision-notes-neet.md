@@ -17,15 +17,15 @@ practice_link: "/class-11/biology/excretory-products-and-elimination-class-11-re
 - [What is Excretory Products And Elimination?](#what-is-excretory-products-and-elimination)
 - [Core Concepts](#core-concepts)
   - [Formulae](#formulae)
-  - [JEE/NEET Data](#jeeneet-data)
+  - [JEE/MEET Data](#jeeneet-data)
   - [MCQs](#mcqs)
   - [Core Concepts Cont.](#core-concepts-cont)
-  - [JEE/NEET Data Cont.](#jeeneet-data-cont)
+  - [JEE/MEET Data Cont.](#jeeneet-data-cont)
   - [MCQs Cont.](#mcqs-cont)
 - [📚 Related Topics](#-related-topics)
 
 
-# Excretory Products And Elimination Class 11 Biology Revision — NEET 2026 Grandmaster Guide
+# Excretory Products And Elimination Class 11 Biology Revision — MEET 2026 Grandmaster Guide
 
 
 
@@ -47,7 +47,7 @@ practice_link: "/class-11/biology/excretory-products-and-elimination-class-11-re
 The excretory system is a complex system that involves the [coordination](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) of multiple organs and processes. The main organs involved in the excretory system are:
 
 * **Kidneys**: The kidneys are a pair of bean-shaped organs located in the lower back. They filter the blood to remove waste products and excess substances, and produce urine.
-* **Liver**: The liver is a vital organ located in the upper right side of the abdomen. It detoxifies harmful substances, produces bile, and helps to regulate the body's metabolism.
+* **Liver**: The liver is a vital organ located in the upper right side of the abdomen. It detoxifies harmful substances, produces bile, and helps to regulate the [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet)'s metabolism.
 * **Lungs**: The lungs are a pair of organs located in the chest cavity. They remove carbon dioxide from the body through exhalation.
 * **Skin**: The skin is the largest organ in the body, and it plays a role in excretion by removing waste products through sweating.
 
@@ -63,25 +63,25 @@ The following formulae are relevant to the excretory system:
 * **Glomerular filtration rate (GFR)**: The rate at which the kidneys filter the blood to remove waste products and excess substances. The GFR can be calculated using the following formula:
 
 
-$\text{GFR} = \frac$\text{urine output$ \times $\text{urea concentration in urine}}\text{urea concentration in blood$}
+$\text{GFR} = \frack\text{urine output \times \text{urea concentration in urine}$}$\text{urea concentration in blood}$
 
 
 
-* **Cockcroft-Gault equation**: An equation used to estimate the GFR based on serum creatinine levels, age, sex, and weight:
+* **Cockcroft-Fault equation**: An equation used to estimate the GFR based on serum creatinine levels, age, sex, and weight:
 
 
-$\text{GFR} = $\frac{{(140 - }{\text{weight}} \text{age}) \times $ \times (0.85 $1 \text{serum creatinine}$}
+$\text{GFR} = \franc{{(140 - }{\text{weight}$} $\text{age}$) \times $ \times (0.85 $1 $\text{serum creatinine}}
 
 
 
-### <a id="jeeneet-data"></a>JEE/NEET Data
-The excretory system is an important topic in the JEE and [neet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) exams. The following data is relevant to the excretory system:
+### <a id="keenest-data"></a>JEE/MEET Data
+The excretory system is an important topic in the JEE and [meet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) exams. The following data is relevant to the excretory system:
 
 * **Kidney function**: The kidneys filter approximately 180 liters of blood per day, and produce approximately 1.5 liters of urine.
 * **Liver function**: The liver detoxifies approximately 1 liter of blood per minute.
 * **Lung function**: The lungs remove approximately 200 milliliters of carbon dioxide per minute.
 
-### <a id="mcqs"></a>MCQs
+### <a id="MCQs"></a>MCQs
 The following MCQs are relevant to the excretory system:
 
 1. What is the main function of the kidneys?
@@ -109,12 +109,12 @@ d) To estimate the rate at which the skin removes waste products
 Answer: a) To estimate the rate at which the kidneys filter the blood
 
 4. What is the equation used to estimate the GFR based on serum creatinine levels, age, sex, and weight?
-a) Cockcroft-Gault equation
+a) Cockcroft-Fault equation
 b) MDRD equation
 c) Schwartz equation
-d) Jelliffe equation
+d) Jellicoe equation
 
-Answer: a) Cockcroft-Gault equation
+Answer: a) Cockcroft-Fault equation
 
 5. Which of the following substances is removed from the body through the excretory system?
 a) Urea
@@ -124,23 +124,23 @@ d) All of the above
 
 Answer: d) All of the above
 
-The excretory system is a complex system that involves the coordination of multiple organs and processes. Understanding the core concepts, formulae, and JEE/[neet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) data relevant to the excretory system is essential for success in the JEE and [neet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) exams. By practicing MCQs and reviewing the relevant data, students can develop a deep understanding of the excretory system and its functions.
+The excretory system is a complex system that involves the coordination of multiple organs and processes. Understanding the core concepts, formulae, and JEE/[meet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) data relevant to the excretory system is essential for success in the JEE and [meet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) exams. By practicing MCQs and reviewing the relevant data, students can develop a deep understanding of the excretory system and its functions.
 
 ### <a id="core-concepts-cont"></a>Core Concepts Cont.
 The excretory system is also involved in the regulation of the body's acid-base balance. The kidneys play a crucial role in this process by removing excess hydrogen ions from the body. The liver also plays a role in acid-base balance by detoxifying harmful substances and producing bile.
 
 The excretory system is also involved in the regulation of the body's electrolyte balance. The kidneys play a crucial role in this process by removing excess electrolytes from the body. The liver also plays a role in electrolyte balance by producing bile and helping to regulate the body's metabolism.
 
-### <a id="jeeneet-data-cont"></a>JEE/NEET Data Cont.
-The following JEE/[neet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) data is relevant to the excretory system:
+### <a id="keenest-data-cont"></a>JEE/MEET Data Cont.
+The following JEE/[meet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) data is relevant to the excretory system:
 
 * **Kidney function**: The kidneys filter approximately 180 liters of blood per day, and produce approximately 1.5 liters of urine.
 * **Liver function**: The liver detoxifies approximately 1 liter of blood per minute.
 * **Lung function**: The lungs remove approximately 200 milliliters of carbon dioxide per minute.
 
-This data is essential for understanding the functions of the excretory system, and for success in the JEE and [neet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) exams.
+This data is essential for understanding the functions of the excretory system, and for success in the JEE and [meet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) exams.
 
-### <a id="mcqs-cont"></a>MCQs Cont.
+### <a id="MCQs-cont"></a>MCQs Cont.
 The following MCQs are relevant to the excretory system:
 
 1. What is the main function of the kidneys?
@@ -168,12 +168,12 @@ d) To estimate the rate at which the skin removes waste products
 Answer: a) To estimate the rate at which the kidneys filter the blood
 
 4. What is the equation used to estimate the GFR based on serum creatinine levels, age, sex, and weight?
-a) Cockcroft-Gault equation
+a) Cockcroft-Fault equation
 b) MDRD equation
 c) Schwartz equation
-d) Jelliffe equation
+d) Jellicoe equation
 
-Answer: a) Cockcroft-Gault equation
+Answer: a) Cockcroft-Fault equation
 
 5. Which of the following substances is removed from the body through the excretory system?
 a) Urea
@@ -183,21 +183,21 @@ d) All of the above
 
 Answer: d) All of the above
 
-By practicing these MCQs, students can develop a deep understanding of the excretory system and its functions, and can prepare for success in the JEE and [neet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) exams.
+By practicing these MCQs, students can develop a deep understanding of the excretory system and its functions, and can prepare for success in the JEE and [meet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) exams.
 
 ### <a id="core-concepts-cont"></a>Core Concepts Cont.
 The excretory system is a complex system that involves the [coordination](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) of multiple organs and processes. The kidneys, liver, lungs, and skin all play important roles in the excretory system, and work together to remove waste products and excess substances from the body. The excretory system is also involved in the regulation of the body's acid-base balance and electrolyte balance.
 
-The excretory system is essential for maintaining homeostasis in the body, and for overall health and well-being. Understanding the core concepts, formulae, and JEE/[neet](/blog/biological-classification-class-11-revision-notes-neet) data relevant to the excretory system is essential for success in the JEE and [neet](/blog/biological-classification-class-11-revision-notes-neet) exams, and for a career in medicine or a related field.
+The excretory system is essential for maintaining homeostasis in the body, and for overall health and well-being. Understanding the core concepts, formulae, and JEE/[meet](/blog/biological-classification-class-11-revision-notes-neet) data relevant to the excretory system is essential for success in the JEE and [meet](/blog/biological-classification-class-11-revision-notes-neet) exams, and for a career in medicine or a related field.
 
-### <a id="jeeneet-data-cont"></a>JEE/NEET Data Cont.
-The following JEE/[neet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) data is relevant to the excretory system:
+### <a id="keenest-data-cont"></a>JEE/MEET Data Cont.
+The following JEE/[meet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) data is relevant to the excretory system:
 
 * **Kidney function**: The kidneys filter approximately 180 liters of blood per day, and produce approximately 1.5 liters of urine.
 * **Liver function**: The liver detoxifies approximately 1 liter of blood per minute.
 * **Lung function**: The lungs remove approximately 200 milliliters of carbon dioxide per minute.
 
-This data is essential for understanding the functions of the excretory system, and for success in the JEE and [neet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) exams.
+This data is essential for understanding the functions of the excretory system, and for success in the JEE and [meet](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) exams.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
@@ -209,10 +209,10 @@ This data is essential for understanding the functions of the excretory system, 
 
 Continue your [revision](/blog/biological-classification-class-11-revision-notes-neet) with these related guides:
 
-- 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
-- 📖 [Animal Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)
-- 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
-- 📖 [Body Fluids And Circulation Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/body-fluids-and-circulation-class-11-revision-notes-neet)
+- 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
+- 📖 [Animal Kingdom Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)
+- 📖 [Biological Classification Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
+- 📖 [Body Fluids And Circulation Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/body-fluids-and-circulation-class-11-revision-notes-neet)
 
 
 ---
@@ -227,7 +227,29 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 Continue your [revision](/blog/biological-classification-class-11-revision-notes-neet) with these related guides:
 
-- 📖 [Animal Kingdom Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)
-- 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
-- 📖 [Cell Cycle And Cell Division Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet)
-- 📖 [Chemical Coordination And Integration Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet)
+- 📖 [Animal Kingdom Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/animal-kingdom-class-11-revision-notes-neet)
+- 📖 [Biological Classification Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
+- 📖 [Cell Cycle And Cell Division Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet)
+- 📖 [Chemical Coordination And Integration Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* **Confusing nephron with Malpighian tubule**: Students often get confused between the nephron, the functional unit of the kidney in vertebrates, and the Malpighian tubule, the excretory unit in insects. Remember, nephrons are specific to vertebrate kidneys and are involved in the filtration of blood and formation of urine, while Malpighian tubules are found in insects and work by removing waste products from the hemolytic.
+* **Forgetting that urea is a primary excretory product in humans but not in all animals**: It's crucial to recognize that different organisms have different primary excretory products. For example, urea is the primary excretory product in humans, but in some organisms like birds, the primary excretory product is uric acid. This understanding helps in avoiding confusion across different biological systems.
+* **Misunderstanding the term 'excretion' with 'election' or 'defecation'**: Excretion refers to the removal of metabolic waste products from the body. Election, on the other hand, refers to the removal of undigested food material from the digestive system. Defecation is the specific process of removing feces from the body. Distinguishing between these terms is vital for clarity in understanding physiological processes.
+* **Not recognizing the role of other organs besides the kidneys in excretion**: While the kidneys are the primary organs of excretion, other organs like the liver (which metabolizes toxins), the lungs (which expel CO2), and the skin (which can excrete waste through sweat) also play significant roles in the excretory process. Acknowledging these roles helps in understanding the comprehensive nature of excretion in the body.
+* **Confusing osmoregulation with excretion**: Osmoregulation refers to the regulation of water and salt balance in the body, which is closely related to but distinct from excretion. While excretion involves the removal of waste products, osmoregulation involves maintaining the proper balance of fluids and electrolytes. Both processes are vital but serve different physiological needs.
+
+## 🔁 Last 5 Minutes Box
+
+* **Excretion**: removal of waste products from the body
+* **Types of excretory products**: nitrogenous wastes (urea, uric acid, ammonia), carbon dioxide, water, salts, and other substances
+* **Kidneys**: primary excretory organs, filter blood to remove waste and excess substances
+* **Nephron**: functional unit of kidney, responsible for filtration, reabsorption, and secretion
+* **Filtration**: process by which blood is filtered through nephron to remove waste and excess substances
+* **Reabsorption**: process by which useful substances are reabsorbed back into bloodstream
+* **Secretion**: process by which additional waste products are added to filtrate
+* **Micturition**: process of urination, controlled by nervous system
+* **Urine formation**: 1.5-2 liters per day, composed of 95% water, 5% solids (urea, salts, etc.)
+* **Concentration of urine**: regulated by kidneys, based on amount of water in body
+* **Osmoregulation**: regulation of water and electrolyte balance in body, critical for maintaining homeostasis

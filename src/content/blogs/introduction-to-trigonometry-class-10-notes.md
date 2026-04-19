@@ -9,7 +9,7 @@ practice_link: "/class-11/mathematics/introduction-to-trigonometry-class-10-note
 
 *Last Updated: 2026-04-10*
 
-<div class="quick-summary">
+<div [class](/blog/arithmetic-progressions-class-10-notes)="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
@@ -75,27 +75,27 @@ practice_link: "/class-11/mathematics/introduction-to-trigonometry-class-10-note
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
-- **Q1:** If $\tan{\theta} = \frac{1}\sqrt{2}$$, then what is $\sin{\theta}$?$ $$
+- **Q1:** If $\tan{\theta} = \frac{1}\sqrt{2}, then what is $\sin{\theta}$?$
  - **Trap:** Students often confuse $\tan{\theta}$ with $\sin{\theta}$ and forget to use the Pythagorean identity.
  - **Solution:** 
-- We have $\tan{\theta} = \frac{1}\sqrt{2}$$.$ $$
-- Using the Pythagorean identity $\sin^2{\theta} + \cos^2{\theta} = 1$, we can write $\tan{\theta} = \frac{\sin{\theta}}{\cos{\theta}} = \frac{1}\sqrt{2}$$.$ $$
+- We have $\tan{\theta} = \frac{1}\sqrt{2}.$
+- Using the Pythagorean identity $\sin^2{\theta} + \cos^2{\theta} = 1$, we can write $\tan{\theta} = \frac{\sin{\theta}}{\cos{\theta}} = \frac{1}\sqrt{2}.$
  - From this, we get $\sin{\theta} = \frac{1}\sqrt{2}$ \cdot \cos{\theta}$.$
  - Now, substituting $\cos{\theta} = \sqrt{1 - \sin^2{\theta}}$ into the equation $\tan{\theta} = \frac{\sin{\theta}}{\cos{\theta}}$, we have:
 
-$\frac{{1}}{} = } \sqrt{2$\frac{\sin{\theta}}$\sqrt{1 - \sin^2{\theta}$}
+$\frac{{1}}{} = } \sqrt{2\frac{\sin{\theta}$}$\sqrt{1 - \sin^2{\theta}$}
 
  - Cross-multiplying and squaring both sides gives:
 
-$\frac{{1}{2} = }{, we get:
+\frac{{1}{2}$ = }{, we get:
 
-} \frac{\sin^2{\theta}}{1 - \sin^2{\theta}}
+} $\frac{\sin^2{\theta}$}{1 - \sin^2{\theta}}
 
- - Solving for \sin^2{\theta}$\frac{1}{2} (1 - \sin^2{\theta}) = \sin^2{\theta}$\frac{{1}{2}}{\frac{1}{2} \sin^2{\theta} = \sin^2{\theta}}  - $\frac{1}{2} = \sin^2{\theta} + \frac{1}{2} \sin^2{\theta}$\frac{{1}{2} = }{\frac{1}{3}
+ - Solving for \sin^2{\theta}$\frac{1}{2} (1 - \sin^2{\theta}) = \sin^2{\theta}\frac{{1}{2}$}{$\frac{1}{2}$ \sin^2{\theta} = \sin^2{\theta}}  - $\frac{1}{2} = \sin^2{\theta} + \frac{1}{2} \sin^2{\theta}\frac{{1}{2}$ = }{$\frac{1}{3}$
 
-- Taking the square root of both sides, we get \sin{\theta} = \pm \frac{1}\sqrt{3} \frac{3}{2} \sin^2{\theta}\sin^2{\theta} = }$$. $$
+- Taking the square root of both sides, we get \sin{\theta} = \pm $\frac{1}\sqrt{3}\frac{3}{2}$ \sin^2{\theta}\sin^2{\theta} = }. 
  - Since $\theta$ is in the first quadrant where sine is positive, we take the positive root.
- - **Answer:** $\frac{{1}\sqrt{3}{\Delta ABC} }
+ - **Answer:** $\frac{{1}\sqrt{3}{\delta ABC} }
  - **Q2:** In a $, $\angle B = 90^\circ$, $AC = 5$ cm and $BC = 3$ cm. Find $\sin{\angle CAB}$.
  - **Trap:** Students often forget to use the Pythagorean theorem to find the length of side $AB$.
  - **Solution:** 
@@ -111,7 +111,7 @@ AB^2 = AC^2 - BC^2 = 5^2 - 3^2 = 25 - 9 = 16AB = $\sqrt{16} = 4 \text{ cm}
  - We have $\sin{\theta} = \frac{1}{2}$.
  - Using the Pythagorean identity $\sin^2{\theta} + \cos^2{\theta} = 1$, we can write:
 
-\left($\frac{{1}{2}\right)^2 + \cos^2{\theta} = 1}{ + \cos^2{\theta} = 1\cos^2{\theta} = 1 - } \frac{1}{4}$1 \frac{3}{4}$\cos{\theta} = \pm \sqrt$\frac{{3}{\sqrt{3} {4}} = \pm \frac}${2}
+\left($\frac{{1}{2}\right)^2 + \cos^2{\theta} = 1}{ + \cos^2{\theta} = 1\cos^2{\theta} = 1 - } \frac{1}{4}$1 $\frac{3}{4}\cos{\theta} = \pm \sqrt\frac{{3}{\sqrt{3}$ {4}} = \pm \frac}${2}
 
  - Since $\theta$ is in the second quadrant where cosine is negative, we take the negative root.
  - **Answer:** $-\frac\sqrt{3}${2}
@@ -166,7 +166,7 @@ eq 0$.
 
 **1. If $\sin\theta = \frac{1}{2}$, then $\cos\theta$ is**
 A) 0
-B) $\frac{{1}{2}}{\frac{1}\sqrt{2} 
+B) $\frac{{1}{2}}{\frac{1}\sqrt{2}
 C) }
 D) $\sqrt{3}/2$
 
@@ -181,7 +181,7 @@ B) 1
 C) $\sqrt{2}$
 D) Not defined
 
-**Answer:** B) Since $\tan\theta = \frac{\sin\theta}{\cos\theta}$, and at $45^\circ$, $\sin\theta = \cos\theta = \frac{1}\sqrt{2}$$, $\tan(45^\circ) = $\frac{{1/\sqrt{2}}{1/\sqrt{2}} = 1 $$
+**Answer:** B) Since $\tan\theta = \frac{\sin\theta}{\cos\theta}$, and at $45^\circ$, $\sin\theta = \cos\theta = \frac{1}\sqrt{2}, $\tan(45^\circ) = $\frac{{1/\sqrt{2}}{1/\sqrt{2}} = 1 
 
 ---
 
@@ -233,3 +233,4 @@ Continue your revision with these related guides:
 - 📖 [Coordinate Geometry Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/coordinate-geometry-class-10-notes)
 - 📖 [Pair of Linear Equations Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/pair-of-linear-equations-class-10-notes)
 
+$

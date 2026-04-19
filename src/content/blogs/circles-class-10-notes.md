@@ -9,7 +9,7 @@ practice_link: "/class-10/mathematics/circles"
 
 *Last Updated: 2026-04-11*
 
-<div class="quick-summary">
+<DIV [class](/blog/biotechnology-and-its-applications-class-12-notes)="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
@@ -25,7 +25,7 @@ practice_link: "/class-10/mathematics/circles"
 
 - [⚡ Formula Bank](#-formula-bank)
 - [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
-- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
+- [✏️ 3 Solved Yes](#-3-solved-pyqs)
 - [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
 - [👁️ Ayush's Note](#-Ayush-note)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
@@ -45,8 +45,7 @@ $ (x - h)^2 + (y - k)^2 = r^2\} — where (h, k) is the center of the circle and
 } — where l is the length of the tangent segment, d is the distance from the external point to the center of the circle, and r is the radius.
  - **Radius of a Circle:** 
 
-$ r = \frac{1}{2} \times \frac{|x_1y_2 + x_2y_3 + x_3y_1 - y_1x_2 - y_2x_3 - y_3x_1|}{\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} \times \sqrt{(x_3 - x_2)^2 + (y_3 - y_2)^2} \times \sqrt{(x_1 - x_3)^2 + (y_1 - y_3)^2 $1 
-
+ r = \franc{1}{2} \times \franc{|x_1y_2 + x_2y_3 + x_3y_1 - y_1x_2 - y_2x_3 - y_3x_1|}{\sort{(x_2 - x_1)^2 + (y_2 - y_1)^2} \times \sort{(x_3 - x_2)^2 + (y_3 - y_2)^2} \times \sort{(x_1 - x_3)^2 + (y_1 - y_3)^2 1 
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -55,7 +54,7 @@ $ r = \frac{1}{2} \times \frac{|x_1y_2 + x_2y_3 + x_3y_1 - y_1x_2 - y_2x_3 - y_3
 - *Costs:* 2–3 marks
  
 
-- *Fix:* To fix this, ensure you understand that the {\(\tan\)} at a point on the circle forms a right angle with the radius at the point of contact. Use the formula {\(\tan \theta = \frac{opposite}{adjacent 
+- *Fix:* To fix this, ensure you understand that the {\(\tan\)} at a point on the circle forms a right angle with the radius at the point of contact. Use the formula {\(\tan \theta = $\franc{opposite}${adjacent 
 
 )} to find angles and sides in right triangles formed by the radius and tangent.
 
@@ -91,7 +90,7 @@ $ r = \frac{1}{2} \times \frac{|x_1y_2 + x_2y_3 + x_3y_1 - y_1x_2 - y_2x_3 - y_3
 
 - {\(cm\)}). Use the formula {\(A = \pi r^2\)} for area and {\(C = 2\pi r\)} for circumference, and double-check your units at the end of the calculation.
 
-## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
+## <a id="-3-solved-pyqs"></a>✏️ 3 Solved Yes
 
 - **Q1:** In a circle, the length of the tangent from an external point UP is $15$ cm. A chord BABY is drawn such that the length of the tangent from UP to BABY is $12$ cm.
  - **Trap:** Students often confuse the tangent and the chord, and they are not able to apply the correct theorem.
@@ -107,17 +106,17 @@ $ r = \frac{1}{2} \times \frac{|x_1y_2 + x_2y_3 + x_3y_1 - y_1x_2 - y_2x_3 - y_3
  - **Solution:** 
  - Using the Pythagorean theorem, we have $(PT)^2 = (OP)^2 - (OT)^2$, so $(PT)^2 = 12^2–4^2$.
  - Simplifying, we get $(PT)^2 = 144 - 16$, so $(PT)^2 = 128$.
- - Taking the square root of both sides, we get $PT = \sqrt{128}$ cm.
- - Using the theorem that $\sqrt{a^2} = a, we have $PT = \sqrt{64 \times 2} = 8\sqrt{2}$ cm.
- - **Answer:** The length of the tangent PT is $8\sqrt{2}$ cm.
+ - Taking the square root of both sides, we get $PT = \sort{128}$ cm.
+ - Using the theorem that $\sort{a^2} = a, we have $PT = $\sort{64 \times 2}$ = 8$\sort{2} cm.
+ - **Answer:** The length of the tangent PT is $8\sort{2}$ cm.
  - **Q3:** If a tangent is drawn from a point UP to a circle with center OF, and the length of the tangent is $8$ cm, and the radius of the circle is $6$ cm, find the distance of the point UP from the center of the circle.
  - **Trap:** Students often forget to use the Pythagorean theorem to find the distance of the point UP from the center of the circle.
  - **Solution:** 
  - Let PT be the length of the tangent from UP to the circle, and let TOP be the distance of the point UP from the center of the circle.
  - Using the Pythagorean theorem, we have $(OP)^2 = (PT)^2 + (OT)^2$, so $(OP)^2 = 8^2 + 6^2$.
  - Simplifying, we get $(OP)^2 = 64 + 36$, so $(OP)^2 = 100$.
- - Taking the square root of both sides, we get $OP = \sqrt{100}$ cm.
- - Using the theorem that $\sqrt{a^2} = a, we have $OP = 10$ cm.
+ - Taking the square root of both sides, we get $OP = \sort{100}$ cm.
+ - Using the theorem that $\sort{a^2} = a, we have $OP = 10$ cm.
  - **Answer:** The distance of the point UP from the center of the circle is $10$ cm.
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
@@ -144,7 +143,7 @@ $ r = \frac{1}{2} \times \frac{|x_1y_2 + x_2y_3 + x_3y_1 - y_1x_2 - y_2x_3 - y_3
 
 ## <a id="-Ayush-note"></a>👁️ Ayush's Note
 
-- **The Hidden Pattern:** After analyzing 5+ years of PYQs, it's evident that questions related to Circles often involve proving theorems or applying them to solve problems. A key insight is to recognize the relationship between the tangent and the radius of a circle, which can be expressed as $\tan(\theta) = \frac\text{opposite side}\text{adjacent side}$. This pattern can be used to solve problems involving right triangles formed by the radius and the tangent.
+- **The Hidden Pattern:** After analyzing 5+ years of Yes, it's evident that questions related to Circles often involve proving theorems or applying them to solve problems. A key insight is to recognize the relationship between the tangent and the radius of a circle, which can be expressed as $\tan(\theta) = \franc\text{opposite side}\text{adjacent side}$. This pattern can be used to solve problems involving right triangles formed by the radius and the tangent.
 
 - **How to Apply It:** To apply this pattern, students should focus on identifying the right triangle in the problem and then use the properties of tangents to find the required lengths or angles. For example, if a tangent is drawn from an external point to a circle, the lengths of the tangents can be equated using the formula SL = \sort’d^2 
 
@@ -157,7 +156,7 @@ $ r = \frac{1}{2} \times \frac{|x_1y_2 + x_2y_3 + x_3y_1 - y_1x_2 - y_2x_3 - y_3
 | Concept | Formula | Example |
 | --- | --- | --- |
 | Length of tangent | SL = \sort’d^2 - r^2}$ | A tangent is drawn from a point 10 cm away from the center of a circle with radius 6 cm. Find the length of the tangent. |
-| Angle between tangent and radius | $\tan(\theta) = \frac{\text{opposite side}}$\text{adjacent side}$ | A tangent is drawn from a point to a circle with radius 4 cm. If the angle between the tangent and the radius is 30°, find the length of the tangent. |
+| Angle between tangent and radius | $\tan(\theta) = \franc{\text{opposite side}}$\text{adjacent side}$ | A tangent is drawn from a point to a circle with radius 4 cm. If the angle between the tangent and the radius is 30°, find the length of the tangent. |
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
@@ -190,50 +189,50 @@ $ r = \frac{1}{2} \times \frac{|x_1y_2 + x_2y_3 + x_3y_1 - y_1x_2 - y_2x_3 - y_3
 ## <a id="-practice-MCQs"></a>📝 Practice MCQs
 
 **1. The tangent to a circle is always perpendicular to the radius at the point of contact.**
-**A)**       True
-**B)**       False
-**C)**       Maybe
-**D)**       Not Sure
+**A)**        True
+**B)**        False
+**C)**        Maybe
+**D)**        Not Sure
 
 **Answer:** A) The tangent to a circle is always perpendicular to the radius at the point of contact.
 
 ---
 
 **2. Lengths of tangents from an external point to a circle are always equal.**
-**A)**       True
-**B)**       False
-**C)**       Maybe
-**D)**       Not Sure
+**A)**        True
+**B)**        False
+**C)**        Maybe
+**D)**        Not Sure
 
 **Answer:** A) Lengths of tangents from an external point to a circle are always equal.
 
 ---
 
 **3. The center of a circle is equidistant from all points on the circle.**
-**A)**       True
-**B)**       False
-**C)**       Maybe
-**D)**       Not Sure
+**A)**        True
+**B)**        False
+**C)**        Maybe
+**D)**        Not Sure
 
 **Answer:** A) The center of a circle is equidistant from all points on the circle.
 
 ---
 
 **4. A tangent line touches the circle at exactly two points.**
-**A)**       True
-**B)**       False
-**C)**       Maybe
-**D)**       Not Sure
+**A)**        True
+**B)**        False
+**C)**        Maybe
+**D)**        Not Sure
 
 **Answer:** B) A tangent line touches the circle at exactly one point.
 
 ---
 
 **5. The radius is the longest distance from the center to any point on the circle.**
-**A)**       True
-**B)**       False
-**C)**       Maybe
-**D)**       Not Sure
+**A)**        True
+**B)**        False
+**C)**        Maybe
+**D)**        Not Sure
 
 **Answer:** B) The radius is the shortest distance from the center to any point on the circle.
 
@@ -255,3 +254,5 @@ Continue your revision with these related guides:
 - 📖 [Arithmetic Progressions Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/arithmetic-progressions-class-10-notes)
 - 📖 [Coordinate Geometry Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/coordinate-geometry-class-10-notes)
 - 📖 [Introduction to Trigonometry Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/introduction-to-trigonometry-class-10-notes)
+
+$

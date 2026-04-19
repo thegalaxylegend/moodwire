@@ -25,7 +25,7 @@ practice_link: "/class-11/mathematics/inverse-trigonometric-functions-class-12-n
 
 
 
-<div class="quick-summary">
+<div [class](/blog/alcohols-phenols-and-ethers-class-12-notes)="quick-summary">
 
 #- [📋 Table of Contents](#-table-of-contents)
 
@@ -44,24 +44,20 @@ practice_link: "/class-11/mathematics/inverse-trigonometric-functions-class-12-n
 * 1 numerical on $\sin^{-1}x$ and its range — always, focusing on finding the value of $\sin^{-1}(\frac{1}{2})$ or similar.
 * Graph of $y = \sin^{-1}x$ — JEE favourite, including identification of its domain and range.
 * 1 question on properties of inverse trigonometric [functions](/blog/relations-and-functions-class-11-notes), specifically:
- + $\sin^{-1}(\sin x) = x$ if $x \in [\frac{-\pi}{2}, \frac{\pi}{2}]$
- + $\cos^{-1}(\cos x) = x$ if $x \in [0, \pi]$
- + $\tan^{-1}(\tan x) = x$ if $x \in [\frac{-\pi}{2}, \frac{\pi}{2}]$
+ + \sin^{-1}(\sin x) = x if x \in [\frac{-\pi}{2}, \frac{\pi}{2}]  + \cos^{-1}(\cos x) = x if x \in [0, \pi]  + \tan^{-1}(\tan x) = x if x \in [\frac{-\pi}{2}, \frac{\pi}{2}] 
 * [derivatives](/blog/application-of-derivatives-class-12-notes) of inverse trigonometric functions — always, including:
  + $\frac{{d}{dx}(\sin^{-1}x) = \frac{1}\sqrt{1-x^2}{\frac{d}{dx}(\cos^{-1}x) = \frac{-1}\sqrt{1-x^2} }
  + }
  + $\frac{{d}{dx}(\tan^{-1}x) = \frac{1}{1+x^2}}{\sin^{-1}(\sin (\frac{\pi}{6}))} 
 * 1 question on simplification of expressions involving inverse trigonometric [functions](/blog/relations-and-functions-class-11-notes), such as:
- + $
- + $\cos^{-1}(\cos (\frac{\pi}{4}))$
+ + $ + \cos^{-1}(\cos (\frac{\pi}{4})) 
 * 1 numerical on inverse trigonometric functions as limits — always, focusing on evaluating limits of the form $\lim_{x \to 0} \frac{\sin^{-1}x}{x}$.
 * Comparison of inverse trigonometric [functions](/blog/relations-and-functions-class-11-notes) — JEE favourite, including comparison of their ranges, domains, and graphical representations.
 * 1 question on using inverse trigonometric [functions](/blog/relations-and-functions-class-11-notes) to solve trigonometric equations, such as:
  + Solving $\sin x = \frac{1}{2}$ using $\sin^{-1}x$
  + Solving $\cos x = \frac{1}{2}$ using $\cos^{-1}x$
 * Inverse trigonometric [functions](/blog/relations-and-functions-class-11-notes) in terms of logarithms — always, including expressions like:
- + $\tan^{-1}x = \frac{i}{2} \ln \frac{1+ix}{1-ix}$
- + $\sin^{-1}x = \frac{i}{2} \ln(i(x+\sqrt{1-x^2})) - \frac{i}{2} \ln(i(x-\sqrt{1-x^2}))$
+ + \tan^{-1}x = \frac{i}{2} \ln \frac{1+ix}{1-ix}  + \sin^{-1}x = \frac{i}{2} \ln(i(x+\sqrt{1-x^2})) - \frac{i}{2} \ln(i(x-\sqrt{1-x^2})) 
 
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
@@ -70,12 +66,12 @@ $y = \sin^{-1}x$ means $\sin y = x$, $-\frac{\pi}{2} \leq y \leq \frac{\pi}{2}$,
  $y = \tan^{-1}x$ means $\tan y = x$, $-\frac{\pi}{2} < y < \frac{\pi}{2}$, $y$ is the angle whose tangent is $x$.$y = \sec^{-1}x$ means $\sec y = x$, $0 \leq y \leq \pi$, $y$ is the angle whose secant is $x$. 
  $y = \csc^{-1}x$ means $\csc y = x$, $-\frac{\pi}{2} \leq y \leq \frac{\pi}{2}$, $y$ is the angle whose cosecant is $x$.$y = \cot^{-1}x$ means $\cot y = x$, $0 < y < \pi$, $y$ is the angle whose cotangent is $x$. 
  $\sin^{-1}x + \cos^{-1}x = \frac{\pi}{2}$.$\tan^{-1}x + \cot^{-1}x = \frac{\pi}{2}$.$\sec^{-1}x + \csc^{-1}x = \frac{\pi}{2}$.$\frac{{d}{dx}(\sin^{-1}x) = \frac{1}\sqrt{1-x^2}{. 
-} }$ \frac{d}{dx}(\cos^{-1}x) = -\frac{1}\sqrt{1-x^2}. $ \frac{d}{dx}(\tan^{-1}x) = \frac{1}{1+x^2}$1 
+} }$ \frac{d}{dx}(\cos^{-1}x) = -\frac{1}\sqrt{1-x^2}. \frac{d}{dx}$(\tan^{-1}x) = $\frac{1}{1+x^2}1 
 
- $\frac{{d}{dx}(\sec^{-1}x) = \frac{1}{|x|\sqrt{x^2-1}}}{\frac{d}{dx}(\csc^{-1}x) = -\frac{1}{|x|\sqrt{x^2-1}}} . 
+ \frac{{d}{dx}$(\sec^{-1}x) = $\frac{1}{|x|\sqrt{x^2-1}$}}{$\frac{d}{dx}$(\csc^{-1}x) = -$\frac{1}{|x|\sqrt{x^2-1}$}} . 
  $. 
- $\frac{{d}{dx}(\cot^{-1}x) = -\frac{1}{1+x^2}}{\sin^{-1}(\frac{1}{x}) = \cot^{-1}x} . 
- $.$\cos^{-1}(\frac{1}{x}) = \sec^{-1}x$.$\tan^{-1}(\frac{1}{x}) = \cot^{-1}x$.$\sin^{-1}(\cos x) = \frac{\pi}{2} - x$.$\cos^{-1}(\sin x) = \frac{\pi}{2} - x$.$\tan^{-1}(\cot x) = \frac{\pi}{2} - x$.$\sin^{-1}(\tan x) = \frac{\pi}{2} - \tan^{-1}(\frac{1}{x})$.$\cos^{-1}(\cot x) = \tan^{-1}(\frac{1}{x})$.$\tan^{-1}(\csc x) = \frac{\pi}{2} - \sin^{-1}(\frac{1}{x})$.$\sin^{-1}(\sec x) = \frac{\pi}{2} - \cos^{-1}(\frac{1}{x})$.$\cos^{-1}(\csc x) = \sin^{-1}(\frac{1}{x})$.
+ \frac{{d}{dx}$(\cot^{-1}x) = -$\frac{1}{1+x^2}$}{\sin^{-1}($\frac{1}{x}$) = \cot^{-1}x} . 
+ .\cos^{-1}(\frac{1}{x}) = \sec^{-1}x.\tan^{-1}(\frac{1}{x}) = \cot^{-1}x.\sin^{-1}(\cos x) = \frac{\pi}{2} - x.\cos^{-1}(\sin x) = \frac{\pi}{2} - x.\tan^{-1}(\cot x) = \frac{\pi}{2} - x.\sin^{-1}(\tan x) = \frac{\pi}{2} - \tan^{-1}(\frac{1}{x}).\cos^{-1}(\cot x) = \tan^{-1}(\frac{1}{x}).\tan^{-1}(\csc x) = \frac{\pi}{2} - \sin^{-1}(\frac{1}{x}).\sin^{-1}(\sec x) = \frac{\pi}{2} - \cos^{-1}(\frac{1}{x}).\cos^{-1}(\csc x) = \sin^{-1}(\frac{1}{x}). 
 
 
 | Function | Domain | Range |
@@ -119,3 +115,5 @@ Continue your revision with these related guides:
 - 📖 [Relations and Functions Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/relations-and-functions-class-11-notes)
 - 📖 [Alcohols, Phenols and Ethers Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/alcohols-phenols-and-ethers-class-12-notes)
 - 📖 [Application of Derivatives Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
+
+$

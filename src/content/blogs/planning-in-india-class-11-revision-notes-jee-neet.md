@@ -58,7 +58,7 @@ Planning in India is a process of formulating and implementing plans for the dev
 
 ## <a id="how-does-planning-work-in-india"></a>How does Planning work in India?
 
-Planning in India works through the Five-Year Plans, which are formulated by the Planning Commission of India. The plans are implemented by the central and state governments, and the progress is monitored by the Planning Commission.
+Planning in [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) works through the Five-Year Plans, which are formulated by the Planning Commission of [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee). The plans are implemented by the central and state governments, and the progress is monitored by the Planning Commission.
 
 
 | Plan | Objectives | Achievements |
@@ -77,7 +77,7 @@ Planning in India works through the Five-Year Plans, which are formulated by the
 ## <a id="mcqs"></a>MCQs
 
 ---
-*This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
+*This post was curated by Jules, [exam](/blog/ai-exam-prep-future-class-11-revision-notes-jee-neet) Compass Bot, and edited for accuracy by Ayush.*
 
 
 ---

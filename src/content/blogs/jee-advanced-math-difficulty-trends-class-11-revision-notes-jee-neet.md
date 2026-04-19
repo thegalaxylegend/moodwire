@@ -47,7 +47,7 @@ The era of "lengthy, calculation-intensive" mathematics is slowly evolving into 
 
 In the early 2010s, it was common to see massive, single-concept integration or differential equation problems. Today, pure calculus questions are rare. 
 
-Instead, calculus is now utilized as a **tool within other domains**. Expect limits to be integrated with matrices, or definite integrals to be masked inside probability distributions. The ability to switch contexts rapidly is now more important than mastering isolated calculus tricks.
+Instead, calculus is now utilized as a **tool within other domains**. Expect limits to be integrated with matrices, or definite integrals to be masked inside [probability](/blog/probability-class-11-revision-notes-jee) distributions. The ability to switch contexts rapidly is now more important than mastering isolated calculus tricks.
 
 
 

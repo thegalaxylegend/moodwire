@@ -75,7 +75,7 @@ Some key formulae and tables to remember in biogeography include:
 * **Species richness**: the number of species in a given area
 * **Species diversity**: the variety of species in a given area, calculated using the Shannon-Wiener index:
 
-MPH = -\sum_{i=1}^{S}p_i \ln p_in
+ MPH = -\sum_{i=1}^{S}p_i \ln p_in 
 
 
 where THE is the Shannon-Wiener index, IS is the number of species, and up_in is the proportion of individuals of species in

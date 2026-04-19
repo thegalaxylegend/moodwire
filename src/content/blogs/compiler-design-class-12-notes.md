@@ -12,7 +12,7 @@ manualReview: false
 
 - [⚡ Formula Bank](#-formula-bank)
 - [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
-- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
+- [✏️ 3 Solved Yes](#-3-solved-pyqs)
 - [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
 - [👁️ Ayush's Note](#-Ayush-note)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
@@ -28,7 +28,7 @@ manualReview: false
 
 - *Error description:* Students often blur the lines between these two fundamental phases of a compiler. They might mistakenly believe the lever is responsible for checking grammar rules or that the parser handles
 
-## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
+## <a id="-3-solved-pyqs"></a>✏️ 3 Solved Yes
 
 - **Q1:** Consider a lexical analyzer for a programming language that identifies tokens based on regular expressions. If identifiers are defined by the regular expression letter(letter | digit)^*$, where letter is $[Anzac]$ and digit is $[0-9]$, which of the following strings would NOT be
 
@@ -58,11 +58,11 @@ manualReview: false
 
 ## <a id="-Ayush-note"></a>👁️ Ayush's Note
 
-- **The Hidden Pattern:** When tackling LR(1) parsing questions in advanced exams, don't just assume textbook-clean grammars. A subtle, high-yield pattern visible over years of PYQs involves grammars that *appear* unambiguous and relatively simple, yet lead to an unexpected explosion in the [number](/blog/number-systems-class-9-notes) of states in the
+- **The Hidden Pattern:** When tackling LR(1) parsing questions in advanced exams, don't just assume textbook-clean grammars. A subtle, high-yield pattern visible over years of Yes involves grammars that *appear* unambiguous and relatively simple, yet lead to an unexpected explosion in the [number](/blog/number-systems-class-9-notes) of states in the
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- **Ayush's Critical Pattern (Compiler Design):** Analysis of the last 15 years of PYQs and official exam blueprints reveals that Compiler Design is a "High-Value, High-Risk" area. Examiners often shift the focus from direct definitions to multi-step application problems.
+- **Ayush's Critical Pattern (Compiler Design):** Analysis of the last 15 years of Yes and official exam blueprints reveals that Compiler Design is a "High-Value, High-Risk" area. Examiners often shift the focus from direct definitions to multi-step application problems.
 
 - **The "Trap" Recognition:** In Compiler Design, the most common mistake (made by ~70% of students) involves misapplying core concepts under time pressure. Always verify the units and boundary conditions before selecting an answer.
 
@@ -76,47 +76,47 @@ manualReview: false
 | --- | --- |
 | Difficulty | Medium-High |
 | PDQ Frequency | Annual |
-| Strategy | Formula Application |
+| Strategy | [formula](/blog/heron-s-formula-class-9-notes) Application |
 
 ## <a id="-practice-MCQs"></a>📝 Practice MCQs
 
 **1. What is the primary function of the lexical analyzer in a compiler?**
-**A)**       It performs syntax analysis on the source code
-**B)**       It checks for semantic errors in the source code
-**C)**       It breaks the source code into tokens
-**D)**       It generates machine code from the source code
+**A)**        It performs syntax analysis on the source code
+**B)**        It checks for semantic errors in the source code
+**C)**        It breaks the source code into tokens
+**D)**        It generates machine code from the source code
 
 **Answer:** C) The lexical analyzer breaks the source code into tokens, which are then passed to the syntax analyzer for further processing.
 
 **2. What is the main objective of the syntax analyzer in a compiler?**
-**A)**       It checks for semantic errors in the source code
-**B)**       It generates machine code from the source code
-**C)**       It verifies the syntax of the source code
-**D)**       It performs lexical analysis on the source code
+**A)**        It checks for semantic errors in the source code
+**B)**        It generates machine code from the source code
+**C)**        It verifies the syntax of the source code
+**D)**        It performs lexical analysis on the source code
 
 **Answer:** C) The syntax analyzer verifies the syntax of the source code, ensuring that it conforms to the language's grammar rules.
 
 **3. What is the function of the semantic analyzer in a compiler?**
-**A)**       It checks for syntax errors in the source code
-**B)**       It generates machine code from the source code
-**C)**       It verifies the semantics of the source code
-**D)**       It performs lexical analysis on the source code
+**A)**        It checks for syntax errors in the source code
+**B)**        It generates machine code from the source code
+**C)**        It verifies the semantics of the source code
+**D)**        It performs lexical analysis on the source code
 
 **Answer:** C) The semantic analyzer verifies the semantics of the source code, ensuring that it is semantically correct and consistent with the language's rules.
 
 **4. What is the main function of the intermediate code generator in a compiler?**
-**A)**       It generates machine code from the source code
-**B)**       It breaks the source code into tokens
-**C)**       It verifies the syntax of the source code
-**D)**       It generates intermediate code from the source code
+**A)**        It generates machine code from the source code
+**B)**        It breaks the source code into tokens
+**C)**        It verifies the syntax of the source code
+**D)**        It generates intermediate code from the source code
 
 **Answer:** D) The intermediate code generator generates intermediate code from the source code, which is then used for optimization and code generation.
 
 **5. What is the primary function of the code optimizer in a compiler?**
-**A)**       It generates machine code from the intermediate code
-**B)**       It breaks the source code into tokens
-**C)**       It verifies the syntax of the source code
-**D)**       It optimizes the intermediate code for better performance
+**A)**        It generates machine code from the intermediate code
+**B)**        It breaks the source code into tokens
+**C)**        It verifies the syntax of the source code
+**D)**        It optimizes the intermediate code for better performance
 
 **Answer:** D) The code optimizer optimizes the intermediate code for better performance, reducing the execution time and improving the overall efficiency of the program.
 
@@ -143,3 +143,4 @@ Continue your revision with these related guides:
 - 📖 [Operating Systems Class 12 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/operating-systems-class-12-notes)
 - 📖 [Theory of Computation Class 12 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/theory-of-computation-class-12-notes)
 - 📖 [Linear Equations in Two Variables Class 9 Mathematics Recap — Grandmaster Guide](/blog/linear-equations-in-two-variables-class-9-notes)
+$

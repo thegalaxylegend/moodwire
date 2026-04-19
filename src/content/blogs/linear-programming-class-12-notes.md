@@ -28,7 +28,7 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 - **Feasible Region**: 1 numerical on identifying the feasible region and finding the optimal solution — always
 - **Optimal Solution**: 1 question on verifying the optimal solution using the corner point method — always
 - **Unbounded and Infeasible Solutions**: 1 numerical on identifying whether a [linear](/blog/pair-of-linear-equations-class-10-notes) programming problem has an unbounded or infeasible solution — always
-- **$\Delta$x and $\Delta$y**: 1 numerical on finding the change in the objective function using $\Delta$x and $\Delta$y — always
+- **$\delta$x and $\delta$y**: 1 numerical on finding the change in the objective function using $\delta$x and $\delta$y — always
 - **Shadow Price**: 1 question on finding the shadow price of a resource — always
 - **Sensitivity Analysis**: 1 numerical on performing sensitivity analysis using the graphical method — always
 - **Transportation Problems**: 1 problem on formulating and solving a transportation problem using [linear](/blog/pair-of-linear-equations-class-10-notes) programming — always
@@ -37,7 +37,7 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 - **$x \geq 0$ and $y \geq 0$**: 1 question on plotting the non-negativity constraints and finding the feasible region — always
 - **Linear Programming [applications](/blog/biotechnology-and-its-applications-class-12-notes)**: 1 question on [applications](/blog/biotechnology-and-its-applications-class-12-notes) of linear programming in real-life scenarios — always
 - **Maximization and Minimization**: 1 numerical on formulating and solving maximization and minimization problems using [linear](/blog/pair-of-linear-equations-class-10-notes) programming — always
-- **Multiple Optimal Solutions**: 1 question on identifying and handling multiple optimal solutions in linear programming problems — always
+- **Multiple Optimal Solutions**: 1 question on identifying and handling multiple optimal solutions in [linear](/blog/pair-of-linear-equations-class-10-notes) programming problems — always
 - **Redundant Constraints**: 1 numerical on identifying and handling redundant constraints in linear programming problems — always 
 - **Binding Constraints**: 1 question on identifying and handling binding constraints in linear programming problems — always
 
@@ -45,7 +45,7 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 
 - **Objective Function:** \min $\text{ or } \max\ Z = \sum_{j=1}^{n} c_jx_j — where $Z$ is the objective function value, $c_j$ is the coefficient of variable $x_j$, and $x_j$ is the $j^{th}$ decision variable.$
 
- - **Constraint Equation:** \sum_{j=1}^{n} a_{ij}x_j \leq $\text{ or } = $\text{ or } \geq b_i — where a_{ij}$ is the coefficient of $x_j$ in the $i^{th}$ constraint, $b_i$ is the right-hand side value of the $i^{th}$ constraint.
+ - **Constraint Equation:** \sum_{j=1}^{n} a_{ij}x_j \leq $\text{ or } = \text{ or }$ \geq b_i — where a_{ij}$ is the coefficient of $x_j$ in the $i^{th}$ constraint, $b_i$ is the right-hand side value of the $i^{th}$ constraint.
 
  - **Non-Negativity Constraint:** x_j \geq 0 — where $x_j$ is the $j^{th}$ decision variable.
 
@@ -59,23 +59,23 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 
  - **Two-Phase Method:** 
 
-- **Phase I:** Z = \min \sum_{i=1}^{m} A_i
+-  **Phase I:** Z = \min \sum_{i=1}^{m} A_i 
 
 - **Phase II:** Z = \min $\text{ or }$ \max\ \sum_{j=1}^{n} c_jx_j
 
  - **[dual](/blog/dual-nature-of-radiation-class-12-notes) Simplex Method:** 
 
-- **Primal:** \max\ Z = \sum_{j=1}^{n} c_jx_j
+-  **Primal:** \max\ Z = \sum_{j=1}^{n} c_jx_j 
 
 - **[dual](/blog/dual-nature-of-radiation-class-12-notes):** \min\ W = \sum_{i=1}^{m} b_iy_i
 
- - **Shadow Price:** \Delta Z = \sum_{i=1}^{m} y_i \Delta b_i — where $\Delta Z$ is the change in the objective function value, $y_i$ is the dual variable for the $i^{th}$ constraint, $\Delta b_i$ is the change in the right-hand side value of the $i^{th}$ constraint.
+ - **Shadow Price:** \delta Z = \sum_{i=1}^{m} y_i \delta b_i — where $\delta Z$ is the change in the objective function value, $y_i$ is the dual variable for the $i^{th}$ constraint, $\delta b_i$ is the change in the right-hand side value of the $i^{th}$ constraint.
 
- - **Reduced Cost:** $\bar{c}_j = c_j - \sum_{i=1}^{m} y_i a_{ij} — where $\bar{c}_j$ is the reduced cost of $x_j$, $c_j$ is the coefficient of $x_j$, $y_i$ is the dual variable for the $i^{th}$ constraint, $a_{ij}$ is the coefficient of $x_j$ in the $i^{th}$ constraint.$
+ - **Reduced Cost:** $\bar{c}_j = c_j - \sum_{i=1}^{m} y_i a_{ij} — where \bar{c}$_j$ is the reduced cost of $x_j$, $c_j$ is the coefficient of $x_j$, $y_i$ is the dual variable for the $i^{th}$ constraint, $a_{ij}$ is the coefficient of $x_j$ in the $i^{th}$ constraint.$
 
- - **Shadow Price:** \Delta Z = \sum_{i=1}^{m} y_i \Delta b_i — where $\Delta Z$ is the change in the objective function value, $y_i$ is the dual variable for the $i^{th}$ constraint, $\Delta b_i$ is the change in the right-hand side value of the $i^{th}$ constraint.
+ - **Shadow Price:** \delta Z = \sum_{i=1}^{m} y_i \delta b_i — where $\delta Z$ is the change in the objective function value, $y_i$ is the dual variable for the $i^{th}$ constraint, $\delta b_i$ is the change in the right-hand side value of the $i^{th}$ constraint.
 
- - **Reduced Cost:** $\bar{c}_j = c_j - \sum_{i=1}^{m} y_i a_{ij} — where $\bar{c}_j$ is the reduced cost of $x_j$, $c_j$ is the coefficient of $x_j$, $y_i$ is the dual variable for the $i^{th}$ constraint, $a_{ij}$ is the coefficient of $x_j$ in the $i^{th}$ constraint.$1  (x, y) \}$ set that satisfies all given constraints.
+ - **Reduced Cost:** $\bar{c}_j = c_j - \sum_{i=1}^{m} y_i a_{ij} — where \bar{c}$_j$ is the reduced cost of $x_j$, $c_j$ is the coefficient of $x_j$, $y_i$ is the dual variable for the $i^{th}$ constraint, $a_{ij}$ is the coefficient of $x_j$ in the $i^{th}$ constraint.$1  (x, y) \}$ set that satisfies all given constraints.
 
  - **Mistake 2:** Failing to check the corner points of the feasible region for optimality.
 
@@ -263,7 +263,7 @@ Multiplying the second equation by 2 gives:
 
  Substituting $ into one of the original equations to find $x$:
 
-2x + $\frac{{80}{3} = 1206x + 80 = 3606x = 280x = }{x = } \frac{280}{6}$\frac{140}{3}$
+2x + $\frac{{80}{3} = 1206x + 80 = 3606x = 280x = }{x = } \frac{280}{6}\frac{140}{3}
 
  Thus, the maximum profit occurs at $x = \frac{140}{3}$ and $y = \frac{80}{3}$.
 
@@ -275,7 +275,7 @@ P = 20($\frac{{140}{3}) + 30(}{\frac{2400}{3}} \frac{80}{3})P = \frac{2800}{3} +
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
-- **The Core Concept:** The core concept that separates 85% scorers from 95% scorers in Linear Programming is the ability to efficiently solve problems using the $\Delta$-method for sensitivity analysis, specifically understanding how to calculate the range of values for which the solution remains optimal. This involves understanding how changes in the objective function coefficients ($c_j$) or the right-hand side values ($b_i$) affect the feasibility and optimality of the solution.
+- **The Core Concept:** The core concept that separates 85% scorers from 95% scorers in Linear Programming is the ability to efficiently solve problems using the $\delta$-method for sensitivity analysis, specifically understanding how to calculate the range of values for which the solution remains optimal. This involves understanding how changes in the objective function coefficients ($c_j$) or the right-hand side values ($b_i$) affect the feasibility and optimality of the solution.
 
  - **What 85% scorers do:** Most students focus on solving the linear programming problem using the simplex method or graphical method and then stop, without considering the sensitivity of the solution to changes in the input parameters. They typically:
 
@@ -287,22 +287,22 @@ P = 20($\frac{{140}{3}) + 30(}{\frac{2400}{3}} \frac{80}{3})P = \frac{2800}{3} +
 
  - **What 95% scorers do:** Top scorers, however, understand the importance of sensitivity analysis and take it a step further by:
 
- * Using the $\Delta$-method to calculate the range of values for the objective function coefficients ($c_j$) and the right-hand side values ($b_i$) for which the solution remains optimal.
+ * Using the $\delta$-method to calculate the range of values for the objective function coefficients ($c_j$) and the right-hand side values ($b_i$) for which the solution remains optimal.
 
- * Applying the formula for the range of optimality: \Delta c_j = $\frac{{z_j - c_j}{b}{ is the value of the } \bar{a}_{j \cdot}} where z_j$j^{th}$ variable in the optimal solution, $c_j$ is the coefficient of the $j^{th}$ variable in the objective function, and $\bar{a}_{j \cdot}$ is the $j^{th}$ column of the optimal tableau.
+ * Applying the formula for the range of optimality: \delta c_j = $\frac{{z_j - c_j}{b}{ is the value of the } \bar{a}_{j \cdot}} where z_j$j^{th}$ variable in the optimal solution, $c_j$ is the coefficient of the $j^{th}$ variable in the objective function, and \bar{a}$_{j \cdot}$ is the $j^{th}$ column of the optimal tableau.
 
- * Calculating the range of values for the right-hand side parameters ($b_i$) using the formula: \Delta b_i = $\frac{{}{b}{} \bar{x}_i$\bar{a}_{i \cdot}} where $\bar{x}_i$ is the $i^{th}$ slack/surplus variable in the optimal solution, and $\bar{a}_{i \cdot}$ is the $i^{th}$ row of the optimal tableau.
+ * Calculating the range of values for the right-hand side parameters ($b_i$) using the formula: \delta b_i = $\frac{{}{b}{} \bar{x}_i\bar{a}$_{i \cdot}} where $\bar{x}_i$ is the $i^{th}$ slack/surplus variable in the optimal solution, and $\bar{a}_{i \cdot}$ is the $i^{th}$ row of the optimal tableau.
 
  * Interpreting the results to understand the sensitivity of the solution to changes in the input parameters.
 
 | Parameter | Formula | Description |
 | --- | --- | --- |
-| $\Delta c_j$ | \frac{z_j - c_j}{\bar{a}_{j \cdot}} | Range of optimality for objective function coefficient $c_j$ |
-| $\Delta b_i$ | \frac{\bar{x}_i}{\bar{a}_{i \cdot}} | Range of values for right-hand side parameter $b_i$ |
+| $\delta c_j$ | \frac{z_j - c_j}{\bar{a}_{j \cdot}} | Range of optimality for objective function coefficient $c_j$ |
+| $\delta b_i$ | \frac{\bar{x}_i}{\bar{a}_{i \cdot}} | Range of values for right-hand side parameter $b_i$ |
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-👁️ Ayush's Note, - **The Hidden Pattern:** In Linear Programming, after analyzing 5+ years of PYQs, it's observed that problems often involve finding the maximum or minimum of a linear function $f(x, y) = ax + by$ subject to constraints of the form $x \geq 0$, $y \geq 0$, and $ax + by \leq c$. A common pattern is the use of corner point theorem, which states that the optimal solution occurs at one of the corner points of the feasible region., - **How to Apply It:** To apply this pattern, first identify all corner points by finding the intersection of the constraint lines. Then, evaluate the objective function at each corner point. The point that gives the maximum or minimum value of the objective function is the optimal solution. For example, given the constraints $x + y \leq 4$, $2x + y \leq 5$, $x \geq 0$, and $y \geq 0$, and the objective function $f(x, y) = 3x + 2y$, calculate the corner points by solving the equations formed by the constraints, and then evaluate $f(x, y)$ at each point to find the maximum value., - **Graphical Representation:** The feasible region can be graphically represented on a coordinate plane, with the constraint lines dividing the plane into different regions. The corner points of the feasible region are the points where the constraint lines intersect. The objective function can be represented by a family of parallel lines, and the optimal solution is the line that is farthest from the origin in the direction of the objective function., - **Using \Delta Notation:** When dealing with changes in the values of the variables, use the \Delta notation to represent the change. For example, if $x$ changes by \Delta x and $y$ changes by \Delta y, the change in the objective function can be represented as \Delta f = \frac\partial f\partial x \Delta x + \frac\partial f\partial y \Delta y., - **Common PYQs Patterns:** Some common patterns observed in PYQs include: finding the maximum or minimum of a linear function subject to linear constraints, determining the feasibility of a linear programming problem, and finding the range of values of a parameter for which a linear programming problem has a unique solution., - **Formulas to Remember:** The following formulas are crucial in Linear Programming: $f(x, y) = ax + by$, $g(x, y) = cx + dy$, and the corner point theorem. Also, remember that the optimal solution occurs at one of the corner points of the feasible region, which can be found by solving the system of equations formed by the constraints., - **Key Takeaways:** The key takeaways from this section are: identify the corner points of the feasible region, evaluate the objective function at each corner point, and determine the optimal solution. Additionally, be familiar with the graphical representation of the feasible region and the use of \Delta notation to represent changes in the values of the variables. , Constraint, Corner Point, Objective Function Value , $x + y \leq 4$, (0, 0), 0, $2x + y \leq 5$, (0, 0), 0, $x \geq 0$, (4, 0), 12, $y \geq 0$, (0, 4), 8, Intersection of $x + y \leq 4$ and $2x + y \leq 5$, (2, 2), 10
+👁️ Ayush's Note, - **The Hidden Pattern:** In Linear Programming, after analyzing 5+ years of PYQs, it's observed that problems often involve finding the maximum or minimum of a linear function $f(x, y) = ax + by$ subject to constraints of the form $x \geq 0$, $y \geq 0$, and $ax + by \leq c$. A common pattern is the use of corner point theorem, which states that the optimal solution occurs at one of the corner points of the feasible region., - **How to Apply It:** To apply this pattern, first identify all corner points by finding the intersection of the constraint lines. Then, evaluate the objective function at each corner point. The point that gives the maximum or minimum value of the objective function is the optimal solution. For example, given the constraints $x + y \leq 4$, $2x + y \leq 5$, $x \geq 0$, and $y \geq 0$, and the objective function $f(x, y) = 3x + 2y$, calculate the corner points by solving the equations formed by the constraints, and then evaluate $f(x, y)$ at each point to find the maximum value., - **Graphical Representation:** The feasible region can be graphically represented on a coordinate plane, with the constraint lines dividing the plane into different regions. The corner points of the feasible region are the points where the constraint lines intersect. The objective function can be represented by a family of parallel lines, and the optimal solution is the line that is farthest from the origin in the direction of the objective function., - **Using \delta Notation:** When dealing with changes in the values of the variables, use the \delta notation to represent the change. For example, if $x$ changes by \delta x and $y$ changes by \delta y, the change in the objective function can be represented as \delta f = \frac\partial f\partial x \delta x + \frac\partial f\partial y \delta y., - **Common PYQs Patterns:** Some common patterns observed in PYQs include: finding the maximum or minimum of a linear function subject to linear constraints, determining the feasibility of a linear programming problem, and finding the range of values of a parameter for which a linear programming problem has a unique solution., - **Formulas to Remember:** The following formulas are crucial in Linear Programming: $f(x, y) = ax + by$, $g(x, y) = cx + dy$, and the corner point theorem. Also, remember that the optimal solution occurs at one of the corner points of the feasible region, which can be found by solving the system of equations formed by the constraints., - **Key Takeaways:** The key takeaways from this section are: identify the corner points of the feasible region, evaluate the objective function at each corner point, and determine the optimal solution. Additionally, be familiar with the graphical representation of the feasible region and the use of \delta notation to represent changes in the values of the variables. , Constraint, Corner Point, Objective Function Value , $x + y \leq 4$, (0, 0), 0, $2x + y \leq 5$, (0, 0), 0, $x \geq 0$, (4, 0), 12, $y \geq 0$, (0, 4), 8, Intersection of $x + y \leq 4$ and $2x + y \leq 5$, (2, 2), 10
 
 | Constraint | Corner Point | Objective Function Value |
 | --- | --- | --- |
@@ -314,7 +314,7 @@ P = 20($\frac{{140}{3}) + 30(}{\frac{2400}{3}} \frac{80}{3})P = \frac{2800}{3} +
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- $\Delta x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$ is not directly used, but $x = \frac{-b}{2a}$ is crucial for vertex form in Linear Programming.
+- $\delta x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$ is not directly used, but $x = \frac{-b}{2a}$ is crucial for vertex form in Linear Programming.
 
  - The feasible region is a $convexset$, meaning it contains all line segments connecting any two points in the region.
 
@@ -422,3 +422,4 @@ Continue your revision with these related guides:
 - 📖 [Atoms Class 12 Mathematics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/atoms-class-12-notes)
 - 📖 [Biodiversity and Conservation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
 
+}

@@ -115,7 +115,7 @@ Remember, a strong foundation in history can significantly enhance your understa
 - **Make a timeline** of the major events and movements in Medieval [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee).
 - **Practice answering MCQs** to test your knowledge and identify areas for improvement.
 
-By following these tips and staying committed to your studies, you'll be well on your way to developing a deep understanding of Medieval India and its significance in the broader context of Indian history.
+By following these tips and staying committed to your studies, you'll be well on your way to developing a deep understanding of Medieval [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee) and its significance in the broader context of Indian history.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*

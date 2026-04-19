@@ -30,7 +30,7 @@ practice_link: "/class-11/mathematics/determinants-class-12-notes"
 - [🪤 The 5 Trap Mistakes](#-the-5-trap-mistakes)
   - [⚡ Core Concept 14: Applications of Determinants](#-core-concept-14-applications-of-determinants)
   - [⚡ Core Concept 15: Review and Practice](#-core-concept-15-review-and-practice)
-- [📝 Master the Test Center — Step-by-Step Learning](#-master-the-test-center-stepbystep-learning)
+- [📝 Master the Test Center — Step-by-Step Learning](#-master-the-test-center-step-by-step-learning)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
   - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
 - [📚 Related Topics](#-related-topics)
@@ -47,17 +47,17 @@ practice_link: "/class-11/mathematics/determinants-class-12-notes"
 - **Importance:** Determinants are crucial in linear algebra and are used to find the inverse of a matrix, solve systems of equations, and determine the solvability of systems.
 
 #### Determinant of a 1x1 Matrix
-- **Formula:** \det(a) = a — $a$ is the element of the 1x1 matrix.
+- **Formula:** \det(a) = a — a is the element of the 1x1 matrix.
 - **[application](/blog/application-of-integrals-class-12-notes):** Used to calculate the determinant of a 1x1 matrix.
 
 ### <a id="-core-concept-2-determinant-properties"></a>⚡ Core Concept 2: Determinant Properties
 
-- **Property 1:** \det(AB) = \det(A) \cdot \det(B) — $A$ and $B$ are square matrices of the same size.
-- **Property 2:** \det(A^{-1}) = $\frac{{1}{\det(A)} — }{ is an invertible square matrix.} A$
-- **Property 3:** \det(A^T) = \det(A) — $A^T$ is the transpose of matrix $A$.
+- **Property 1:** \det(AB) = \det(A) \dot \det(B) — A and BY are square matrices of the same size.
+- **Property 2:** \det(A^{-1}) = $\franc{{1}{\det(A)} — }{ is an invertible square matrix.} A
+- **Property 3:** \det(A’T) = \det(A) — A^TO is the transpose of matrix A.
 
 #### Multiplicative Property
-- **Formula:** \det(kA) = k^n \cdot \det(A) — $k$ is a scalar, $A$ is an $n \times n$ matrix.
+- **Formula:** \det(ka) = k^n \dot \det(A) — OK is a scalar, A is an in \times no matrix.
 - **[application](/blog/application-of-integrals-class-12-notes):** Used to calculate the determinant of a scaled matrix.
 
 ### <a id="-core-concept-3-expansion-by-minors"></a>⚡ Core Concept 3: Expansion by Minors
@@ -66,7 +66,7 @@ practice_link: "/class-11/mathematics/determinants-class-12-notes"
 
 \begin{vmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{vmatrix}
 
-= a_{11}
+ = a_{11} 
 
 \begin{vmatrix} a_{22} & a_{23} \\ a_{32} & a_{33} \end{vmatrix}
 
@@ -78,11 +78,11 @@ practice_link: "/class-11/mathematics/determinants-class-12-notes"
 
 \begin{vmatrix} a_{21} & a_{22} \\ a_{31} & a_{32} \end{vmatrix}
 
-— $a_{ij}$ are elements of the matrix.
+— A_{ij}$ are elements of the matrix.
 - **[application](/blog/application-of-integrals-class-12-notes):** Used to calculate the determinant of a matrix by expanding along a row or column.
 
 #### Expansion Along a Row
-- **Formula:** \det(A) = a_{i1}C_{i1} + a_{i2}C_{i2} + \cdots + a_{in}C_{in} — $a_{ij}$ are elements of the matrix, $C_{ij}$ are cofactors.
+- **Formula:** \det(A) = a_{i1}C_{i1} + a_{i2}C_{i2} + \dots + a_{in}C_{in} — a_{ij}$ are elements of the matrix, BC_{ij}$ are cofactors.
 - **[application](/blog/application-of-integrals-class-12-notes):** Used to calculate the determinant of a matrix by expanding along a row.
 
 ### <a id="-core-concept-4-cofactor-expansion"></a>⚡ Core Concept 4: Cofactor Expansion
@@ -91,43 +91,43 @@ practice_link: "/class-11/mathematics/determinants-class-12-notes"
 
 \begin{vmatrix} a & b \\ c & d \end{vmatrix}
 
-= a \cdot
+ = a \dot 
 
 \begin{vmatrix} d \end{vmatrix}
 
-- b \cdot
+- b \dot
 
 \begin{vmatrix} c \end{vmatrix}
 
-— Cofactor of $a$ is $+
+— Cofactor of a is $+
 
 \begin{vmatrix}
 
-d \end{vmatrix}$ and cofactor of $b$ is $-\begin{vmatrix} c \end{vmatrix}$.
+D \end{vmatrix}$ and cofactor of by is $-\begin{vmatrix} c \end{vmatrix}$.
 - **Importance:** Used to calculate the determinant of a matrix by expanding along a row or column using cofactors.
 
 #### Cofactor of an Element
-- **Formula:** C_{ij} = (-1)^{i+j} \cdot \det(M_{ij}) — $M_{ij}$ is the minor of the element $a_{ij}$.
+- **Formula:** C_{ij} = (-1)^{i+j} \dot \det(M_{ij}) — KM_{ij}$ is the minor of the element a_{ij}$.
 - **[application](/blog/application-of-integrals-class-12-notes):** Used to calculate the cofactor of an element in a matrix.
 
 ### <a id="-core-concept-5-area-of-a-triangle"></a>⚡ Core Concept 5: Area of a Triangle
 
-- **Formula:** $\text{Area} = $\frac{{1}{2} \cdot |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)| — (x_1, y_1), (x_2, y_2), (x_3, y_3)}{\text{Area} = }  are vertices of the triangle.
+- **Formula:** $\text{Area} = \franc{{1}{2}$ \dot |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)| — (x_1, y_1), (x_2, y_2), (x_3, y_3)}{$\text{Area}$ = }  are vertices of the triangle.
 - **[application](/blog/application-of-integrals-class-12-notes):** Used to find the area of a triangle given the coordinates of its vertices.
 
 #### Shoelace Formula
-- **Formula:** $\frac{1}{2}$ \cdot |x_1y_2 + x_2y_3 + x_3y_1 - y_1x_2 - y_2x_3 - y_3x_1| — $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ are vertices of the triangle.
+- **Formula:** $\franc{1}{2}$ \dot |x_1y_2 + x_2y_3 + x_3y_1 - y_1x_2 - y_2x_3 - y_3x_1| — $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ are vertices of the triangle.
 - **[application](/blog/application-of-integrals-class-12-notes):** Used to find the area of a triangle given the coordinates of its vertices.
 
 ### <a id="-core-concept-6-volume-of-a-parallelepiped"></a>⚡ Core Concept 6: Volume of a Parallelepiped
 
 - **Formula:** V = |\begin{vmatrix} a & b & c \\ d & e & f \\ g & h & i \end{vmatrix}
 
-| — $a, b, c, d, e, f, g, h, i$ are components of the edges of the parallelepiped.
+| — a, b, c, d, e, f, g, h, in are components of the edges of the parallelepiped.
 - **Importance:** Used to find the volume of a parallelepiped given the components of its edges.
 
 #### Volume of a Parallelepiped Using Determinants
-- **Formula:** V = |\det(A)| — $A$ is the matrix whose columns are the edges of the parallelepiped.
+- **Formula:** V = |\det(A)| — A is the matrix whose columns are the edges of the parallelepiped.
 - **[application](/blog/application-of-integrals-class-12-notes):** Used to find the volume of a parallelepiped given the components of its edges.
 
 ### <a id="-core-concept-7-determinant-of-a-2x2-matrix"></a>⚡ Core Concept 7: Determinant of a 2x2 Matrix
@@ -136,7 +136,7 @@ d \end{vmatrix}$ and cofactor of $b$ is $-\begin{vmatrix} c \end{vmatrix}$.
 
 \begin{vmatrix} a & b \\ c & d \end{vmatrix}
 
-= ad - bc — $a, b, c, d$ are elements of the matrix.
+= ad - bc — a, b, c, do are elements of the matrix.
 - **[application](/blog/application-of-integrals-class-12-notes):** Used to calculate the determinant of a 2x2 matrix.
 
 #### Determinant of a 2x2 Matrix with Variables
@@ -144,7 +144,7 @@ d \end{vmatrix}$ and cofactor of $b$ is $-\begin{vmatrix} c \end{vmatrix}$.
 
 \begin{vmatrix} x & y \\ z & w \end{vmatrix}
 
-= xw - yz — $x, y, z, w$ are variables.
+= DW - oz — ex, y, z, we are variables.
 - **[application](/blog/application-of-integrals-class-12-notes):** Used to calculate the determinant of a 2x2 matrix with variables.
 
 ### <a id="-core-concept-8-determinant-of-a-3x3-matrix"></a>⚡ Core Concept 8: Determinant of a 3x3 Matrix
@@ -153,21 +153,21 @@ d \end{vmatrix}$ and cofactor of $b$ is $-\begin{vmatrix} c \end{vmatrix}$.
 
 \begin{vmatrix} a & b & c \\ d & e & f \\ g & h & i \end{vmatrix}
 
-= a(ei - fh) - b(di - fg) + c(dh - eg) — $a, b, c, d, e, f, g, h, i$ are elements of the matrix.
+= a(a - FH) - b(DI - FG) + c(DH - e.g.) — a, b, c, d, e, f, g, h, in are elements of the matrix.
 - **Importance:** Used to calculate the determinant of a 3x3 matrix.
 
 #### Determinant of a 3x3 Matrix Using Cofactor Expansion
-- **Formula:** \det(A) = a_{11}C_{11} + a_{12}C_{12} + a_{13}C_{13} — $a_{ij}$ are elements of the matrix, $C_{ij}$ are cofactors.
-- **Application:** Used to calculate the determinant of a 3x3 matrix using cofactor expansion.
+- **Formula:** \det(A) = a_{11}C_{11} + a_{12}C_{12} + a_{13}C_{13} — a_{ij}$ are elements of the matrix, BC_{ij}$ are cofactors.
+- **[application](/blog/application-of-integrals-class-12-notes):** Used to calculate the determinant of a 3x3 matrix using cofactor expansion.
 
 ### <a id="-core-concept-9-inverse-of-a-matrix"></a>⚡ Core Concept 9: Inverse of a Matrix
 
-- **Formula:** A^{-1} = $\frac{{1}{\det(A)} \cdot }{ is the adjugate (also known as the classical adjugate) of } \text{adj}(A) — \text{adj}(A)$A$.
+- **Formula:** A^{-1} = $\franc{{1}{\det(A)} \dot }{ is the adjugate (also known as the classical adjugate) of } \text{adj}(A) — \text{adj}(A)A.
 - **Importance:** Used to find the inverse of a matrix, which is essential for solving systems of equations.
 
 #### Finding the Inverse of a 2x2 Matrix
 
-- **Formula:** A^{-1} = $\frac{{1}{\det(A)}}{A}  \cdot
+- **Formula:** A^{-1} = $\franc{{1}{\det(A)}}{A}  \dot
 
 \begin{bmatrix} d & -b \\ -c & a \end{bmatrix}
 
@@ -180,7 +180,7 @@ d \end{vmatrix}$ and cofactor of $b$ is $-\begin{vmatrix} c \end{vmatrix}$.
 - **Importance:** Determinants are used to find the inverse of the coefficient matrix, which is then used to solve the system of equations.
 
 #### Solving a System of Linear Equations Using Cramer's Rule
-- **Formula:** x_i = $\frac{{\det(A_i)}{\det(A)} — }{ is the matrix obtained by replacing the } A_i$i$-th column of $A$ with the constant vector.$
+- **Formula:** x_i = $\franc{{\det(A_i)}{\det(A)} — }{ is the matrix obtained by replacing the } A_IRIS-T column of A with the constant vector.$
 - **Application:** Used to solve a system of linear equations using Cramer's rule.
 
 ### <a id="-core-concept-11-linear-independence"></a>⚡ Core Concept 11: Linear Independence
@@ -190,7 +190,7 @@ d \end{vmatrix}$ and cofactor of $b$ is $-\begin{vmatrix} c \end{vmatrix}$.
 
 #### Checking Linear Independence Using Determinants
 - **Formula:** \det(A) 
-eq 0 — $A$ is the matrix whose columns are the vectors.
+EQ 0 — A is the matrix whose columns are the vectors.
 - **Application:** Used to check if a set of vectors is linearly independent.
 
 ### <a id="-core-concept-12-rank-of-a-matrix"></a>⚡ Core Concept 12: Rank of a Matrix
@@ -200,7 +200,7 @@ eq 0 — $A$ is the matrix whose columns are the vectors.
 
 #### Finding the Rank of a Matrix Using Determinants
 - **Formula:** $\text{rank}$(A) = \max \{k : \det(A_k)
-eq 0\} — $A_k$ is the $k \times k$ submatrix of $A$.
+EQ 0\} — A_km is the OK \times km submatrix of A.
 - **Application:** Used to find the rank of a matrix.
 
 ### <a id="-core-concept-13-advanced-properties-of-determinants"></a>⚡ Core Concept 13: Advanced Properties of Determinants
@@ -214,7 +214,7 @@ eq 0\} — $A_k$ is the $k \times k$ submatrix of $A$.
 
 \begin{vmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{vmatrix}
 
-= a_{11}C_{11} + a_{12}C_{12} + a_{13}C_{13} — $C_{ij}$ is the cofactor of $a_{ij}$.
+= a_{11}C_{11} + a_{12}C_{12} + a_{13}C_{13} — BC_{ij}$ is the cofactor of a_{ij}$.
 - **Application:** Used to calculate the determinant of a matrix by expanding along a row or column using cofactors.
 
 #### ⚡ Determinant of a Matrix with a Zero Row or Column
@@ -248,7 +248,7 @@ eq 0\} — $A_k$ is the $k \times k$ submatrix of $A$.
 
 #### ⚡ Finding the Area of a Triangle
 
-- **Formula:** $\text{Area} = $\frac{{1}{2}}{(x_1, y_1), (x_2, y_2), (x_3, y_3)}  \cdot |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)| — $ are vertices of the triangle.
+- **Formula:** $\text{Area} = \franc{{1}{2}$}{(x_1, y_1), (x_2, y_2), (x_3, y_3)}  \dot |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)| — $ are vertices of the triangle.
 - **Application:** Used to find the area of a triangle given the coordinates of its vertices.
 
 #### ⚡ Finding the Volume of a Parallelepiped
@@ -257,7 +257,7 @@ eq 0\} — $A_k$ is the $k \times k$ submatrix of $A$.
 
 \begin{vmatrix} a & b & c \\ d & e & f \\ g & h & i \end{vmatrix}
 
-| — $a, b, c, d, e, f, g, h, i$ are components of the edges of the parallelepiped.
+| — a, b, c, d, e, f, g, h, in are components of the edges of the parallelepiped.
 - **Importance:** Used to find the volume of a parallelepiped given the components of its edges.
 
 ### <a id="-core-concept-15-review-and-practice"></a>⚡ Core Concept 15: Review and Practice
@@ -265,7 +265,7 @@ eq 0\} — $A_k$ is the $k \times k$ submatrix of $A$.
 - **Tip:** Practice calculating determinants of $2 \times 2$ and $3 \times 3$ matrices, as well as applying properties of determinants.
 - **Importance:** Reviewing and practicing determinants is essential for mastering the concept and applying it to real-world problems.
 
-## <a id="-master-the-test-center-stepbystep-learning"></a>📝 Master the Test Center — Step-by-Step Learning
+## <a id="-master-the-test-center-step-by-step-learning"></a>📝 Master the Test Center — Step-by-Step Learning
 To solidify your understanding of determinants and prepare for the JEE 2026, it's essential to practice with a variety of questions and problems. The Test Center at /[class](/blog/amines-class-12-notes)-11/mathematics/determinants-[class](/blog/amines-class-12-notes)-12-notes is an invaluable resource for this purpose. Here's why you should use it:
 
 1. **Comprehensive Coverage**: The Test Center covers all aspects of determinants, from basic properties to advanced applications, ensuring you have a thorough grasp of the subject.
@@ -310,8 +310,8 @@ Continue your revision with these related guides:
 
 - 📖 [Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-integrals-class-12-notes)
 - 📖 [Continuity and Differentiability Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/continuity-and-differentiability-class-12-notes)
-- 📖 [Amines Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/amines-class-12-notes)
-- 📖 [Metallurgy Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/metallurgy-class-12-notes)
+- 📖 [Amines Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Metallurgy Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/metallurgy-class-12-notes)
 
 
 ---
@@ -328,13 +328,13 @@ Continue your revision with these related guides:
 
 - 📖 [Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-integrals-class-12-notes)
 - 📖 [Continuity and Differentiability Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/continuity-and-differentiability-class-12-notes)
-- 📖 [Amines Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/amines-class-12-notes)
-- 📖 [Metallurgy Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/metallurgy-class-12-notes)
+- 📖 [Amines Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/amines-class-12-notes)
+- 📖 [Metallurgy Class 12 Chemistry Revision — JEE & MEET 2026 Grandmaster Guide](/blog/metallurgy-class-12-notes)
 
 ## 🪤 The 5 Mistakes That Cost Marks
 
 * **Minor mistake in expansion by minors**: While expanding a determinant using minors, ensure that the correct sign pattern is followed. Many students forget to alternate signs, leading to incorrect results.
-* **Incorrect application of properties**: Properties like $|AB| = |A||B|$ or $|A^T| = |A|$ are often misapplied, especially when dealing with determinants of products or transposes of matrices.
+* **Incorrect application of properties**: Properties like $|AB| = |A||B|$ or $|A’T| = |A|$ are often misapplied, especially when dealing with determinants of products or transposes of matrices.
 * **Not checking for zero determinant**: Before inverting a matrix, it's crucial to verify that its determinant is non-zero. Forgetting to do so can lead to incorrect conclusions about the existence of inverses.
 * **Expansion by minors along the wrong row or column**: Expanding along a row or column with more zeros can simplify calculations. However, many students overlook this and expand along any row or column, unnecessarily complicating the process.
-* **Miscalculation of cofactors**: When calculating cofactors, it's easy to make mistakes with the signs or the determinants of the sub-matrices. Double-checking these calculations is essential to avoid errors in the final determinant value.
+* **Miscalculation of cofactors**: When calculating cofactors, it's easy to make mistakes with the signs or the determinants of the sub-matrices. Double-checking these calculations is essential to avoid errors in the final determinant value.$

@@ -42,25 +42,25 @@ practice_link: "/class-11/biology/strategies-for-enhancement-in-food-production-
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
-- **Mistake 1:** Incorrectly identifying the crop yield formula as $ instead of $\frac{{Total\ Production\ (in\ kg)}{Area\ (in\ ha)}}{\frac{Total\ Production\ (in\ kg)}{Area\ (in\ ha)} = \frac{Y}{A}} .
+- **Mistake 1:** Incorrectly identifying the crop yield formula as $ instead of \frac{{Total\ Production\ (in\ kg)}{Area\ (in\ ha)}$}{$\frac{Total\ Production\ (in\ kg)}{Area\ (in\ ha)}$ = $\frac{Y}{A}$} .
 
  - *Costs:* 2-3 marks
 
  - *Fix:* Always ensure the units are correct and the formula is $, where Y is the total production in kg and A is the area in ha.
 
- - **Mistake 2:** Not accounting for the Law of Diminishing Returns when calculating the optimal fertilizer application rate, leading to incorrect calculation of $\frac{{\Delta Y\Delta X, where }{\Delta Y}}{\Delta X}  is the change in yield and $ is the change in fertilizer application rate.
+ - **Mistake 2:** Not accounting for the Law of Diminishing Returns when calculating the optimal fertilizer application rate, leading to incorrect calculation of $\frac{{\delta Y\delta X, where }{\delta Y}}{\delta X}  is the change in yield and $ is the change in fertilizer application rate.
 
  - *Costs:* 4-5 marks
 
- - *Fix:* Understand that the Law of Diminishing Returns states that as the amount of a variable input (such as fertilizer) increases, while holding all other inputs constant, the marginal output of that input will eventually decrease. Calculate the optimal fertilizer application rate by finding where $\frac{{\Delta Y\Delta X starts to decrease.
+ - *Fix:* Understand that the Law of Diminishing Returns states that as the amount of a variable input (such as fertilizer) increases, while holding all other inputs constant, the marginal output of that input will eventually decrease. Calculate the optimal fertilizer application rate by finding where $\frac{{\delta Y\delta X starts to decrease.
 
- - **Mistake 3:** Failing to consider the impact of irrigation on crop water stress, leading to incorrect calculation of the water balance equation: }{P - ET - R - I = \Delta S}}{P} , where $ is precipitation, $ET$ is evapotranspiration, $R$ is runoff, $I$ is irrigation, and $\Delta S$ is the change in soil water storage.
+ - **Mistake 3:** Failing to consider the impact of irrigation on crop water stress, leading to incorrect calculation of the water balance equation: }{P - ET - R - I = \delta S}}{P} , where $ is precipitation, $ET$ is evapotranspiration, $R$ is runoff, $I$ is irrigation, and $\delta S$ is the change in soil water storage.
 
  - *Costs:* 3-4 marks
 
  - *Fix:* Always consider the impact of irrigation on crop water stress by including irrigation ($I$) in the water balance equation and understanding how it affects the other components.
 
- - **Mistake 4:** Incorrectly calculating the cost-benefit analysis of a new farming technology, such as precision agriculture, by not considering all the costs and benefits, including the cost of adoption ($C$), the increase in yield ($\Delta Y$), and the decrease in costs ($\Delta C$), leading to an incorrect calculation of the net present value (NPV): $NPV = \sum_{t=0}^{n} \frac$\Delta Y_t - \Delta C_t${(1 + r)^t} - C$.
+ - **Mistake 4:** Incorrectly calculating the cost-benefit analysis of a new farming technology, such as precision agriculture, by not considering all the costs and benefits, including the cost of adoption ($C$), the increase in yield ($\delta Y$), and the decrease in costs ($\delta C$), leading to an incorrect calculation of the net present value (NPV): $NPV = \sum_{t=0}^{n} \frac$\delta Y_t - \delta C_t${(1 + r)^t} - C$.
 
  - *Costs:* 5-6 marks
 
@@ -82,13 +82,13 @@ practice_link: "/class-11/biology/strategies-for-enhancement-in-food-production-
 
  The primary strategy for enhancement in food production involves the intensification of agriculture, which means increasing the yield of crops per unit area of land through the use of high-yielding varieties, irrigation, fertilizers, and pesticides. This approach is also known as the 'Green Revolution'. The formula to calculate the yield of crops is: 
 
- $Y = \frac{P}{A}$,
+ Y = \frac{P}{A}, 
 
  where $Y$ is the yield, $P$ is the total production, and $A$ is the area of land.
 
  To solve this, we need to identify the factors that contribute to the intensification of agriculture, such as:
 
-$\text{Intensification} = \frac$\text{High-Yielding Varieties$ + $\text{Irrigation} + \text{Fertilizers} + $\text{Pesticides}$}$\text{Unit Area of Land$}
+$\text{Intensification} = \frac$\text{High-Yielding Varieties$ + \text{Irrigation}$ + $\text{Fertilizers}$ + $\text{Pesticides}$}$\text{Unit Area of Land$}
 
  - **Answer:** Intensification of agriculture
 
@@ -108,7 +108,7 @@ $\text{Intensification} = \frac$\text{High-Yielding Varieties$ + $\text{Irrigati
 
  The formula to calculate the selection intensity is: 
 
- $S = \frac{X - \bar{X}}{\sigma}$,
+ S = \frac{X - \bar{X}}{\sigma}, 
 
  where $S$ is the selection intensity, $X$ is the character mean, $\bar{X}$ is the population mean, and $\sigma$ is the standard deviation.
 
@@ -134,27 +134,27 @@ $\text{Intensification} = \frac$\text{High-Yielding Varieties$ + $\text{Irrigati
 
  The formula to calculate the seed replacement rate is: 
 
- $SRR = \frac{N}{T} \times 100$,
+ SRR = \frac{N}{T} \times 100, 
 
  where $SRR$ is the seed replacement rate, $N$ is the number of new seeds, and $T$ is the total number of seeds.
 
  To solve this, we need to identify the role of the NSC in enhancing food production, such as:
 
- $\text{Role of NSC} = $\text{Production and Distribution of Seeds}
+ $\text{Role of NSC} = \text{Production and Distribution of Seeds}$
 
  - **Answer:** Production and distribution of high-quality seeds
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
-- **The Core Concept:** Crop yield and productivity can be enhanced through strategic farming practices. One key concept that differentiates high scorers from the rest is the understanding of \frac{dY}{dN}$, where $Y$ is crop yield and $N$ is the amount of fertilizer applied. 
+- **The Core Concept:** Crop yield and productivity can be enhanced through strategic farming practices. One key concept that differentiates high scorers from the rest is the understanding of $\frac{dY}{dN}, where $Y$ is crop yield and $N$ is the amount of fertilizer applied. 
 
- - **What 85% scorers do:** Most students recognize the importance of fertilizer in crop growth but fail to optimize its application. They often rely on general knowledge, such as applying more fertilizer leads to higher yields, without considering the $\Delta Y$ in relation to $\Delta N$. 
+ - **What 85% scorers do:** Most students recognize the importance of fertilizer in crop growth but fail to optimize its application. They often rely on general knowledge, such as applying more fertilizer leads to higher yields, without considering the $\delta Y$ in relation to $\delta N$. 
 
- - **What 95% scorers do:** Top scorers, however, delve deeper into the relationship between fertilizer application and crop yield. They understand that the Law of Diminishing Returns applies, where after a certain point, additional fertilizer does not proportionally increase yield and can even be harmful. They can express this relationship using the formula:
+ - **What 95% scorers do:** Top scorers, however, delve deeper into the relationship between fertilizer [application](/blog/application-of-derivatives-class-12-notes) and crop yield. They understand that the Law of Diminishing Returns applies, where after a certain point, additional fertilizer does not proportionally increase yield and can even be harmful. They can express this relationship using the formula:
 
  
 
-$\frac{{dY}{dN} = \beta_0 + \beta_1 N + \beta_2 N^2 + \epsilon
+\frac{{dY}{dN}$ = \beta_0 + \beta_1 N + \beta_2 N^2 + \epsilon
 
  where }{, } \beta_0$\beta_1$, and $\beta_2$ are coefficients that describe the impact of fertilizer on yield, and $\epsilon$ represents the error term. By understanding and applying this concept, high scorers can optimize fertilizer application to achieve maximum yield while minimizing waste and environmental impact.
 
@@ -162,13 +162,13 @@ $\frac{{dY}{dN} = \beta_0 + \beta_1 N + \beta_2 N^2 + \epsilon
 
  
 
-$\frac{{dY}{dN} = \beta_1 + 2\beta_2 N = 0
+\frac{{dY}{dN}$ = \beta_1 + 2\beta_2 N = 0
 
  Solving for }{ gives the optimal amount of fertilizer:
 
  
 
-N = -} N$\frac{\beta_1}{2\beta_2}$
+ N = -} N\frac{\beta_1}{2\beta_2} 
 
  This level of understanding and application of mathematical models to real-world problems is what separates the top scorers from the rest.
 
@@ -180,7 +180,7 @@ N = -} N$\frac{\beta_1}{2\beta_2}$
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-- **The Hidden Pattern:** In the last 5 years of PYQs, a recurring theme is the emphasis on $\Delta$ Environmental Impact = $\Delta$ Food Production $\	imes\Delta$ Resource Utilization. This translates to optimizing resource allocation to minimize environmental degradation while enhancing food production. - **How to Apply It:** To tackle such problems, apply the following strategy: \\text{Sustainability Index} = $\frac{{\\text{Food Production}}{\\text{Resource Utilization}} \	imes }{. Focus on increasing the numerator by implementing efficient agricultural practices and decreasing the denominator by adopting eco-friendly technologies. - **Key Takeaways:** - Identify the limiting factors in food production (e.g., water scarcity, land degradation) and address them using innovative solutions like } \frac{1}{\\text{Environmental Impact}}$\\text{Drip Irrigation}$ or $\\text{Vertical Farming}$. - Recognize the importance of $\\text{Crop Rotation}$ and $\\text{Integrated Pest Management}$ in reducing the environmental footprint of agriculture. - Be familiar with $\\text{Government Initiatives}$ and $\\text{International Agreements}$ aimed at promoting sustainable agriculture, such as the $\\text{National Mission for Sustainable Agriculture}$ or the $\\text{Paris Agreement}$. - **Common Pitfalls:** - Overlooking the impact of $\\text{Climate Change}$ on food production and vice versa. - Failing to account for the $\\text{Economic Viability}$ of proposed solutions, which can lead to unrealistic or unfeasible recommendations. - Neglecting the role of $\\text{Social and Cultural Factors}$ in shaping food production practices and consumer behavior.
+- **The Hidden Pattern:** In the last 5 years of PYQs, a recurring theme is the emphasis on $\delta$ Environmental Impact = $\delta$ Food Production $\	imes\delta$ Resource Utilization. This translates to optimizing resource allocation to minimize environmental degradation while enhancing food production. - **How to Apply It:** To tackle such problems, apply the following strategy: \$\text{Sustainability Index}$ = $\frac{{\\text{Food Production}}{\\text{Resource Utilization}} \	imes }{. Focus on increasing the numerator by implementing efficient agricultural practices and decreasing the denominator by adopting eco-friendly technologies. - **Key Takeaways:** - Identify the limiting factors in food production (e.g., water scarcity, land degradation) and address them using innovative solutions like } \frac{1}{\\text{Environmental Impact}}$\$\text{Drip Irrigation} or $\$\text{Vertical Farming}. - Recognize the importance of $\$\text{Crop Rotation} and $\$\text{Integrated Pest Management} in reducing the environmental footprint of agriculture. - Be familiar with $\$\text{Government Initiatives} and $\$\text{International Agreements} aimed at promoting sustainable agriculture, such as the $\$\text{National Mission for Sustainable Agriculture} or the $\$\text{Paris Agreement}. - **Common Pitfalls:** - Overlooking the impact of $\$\text{Climate Change} on food production and vice versa. - Failing to account for the $\$\text{Economic Viability} of proposed solutions, which can lead to unrealistic or unfeasible recommendations. - Neglecting the role of $\$\text{Social and Cultural Factors} in shaping food production practices and consumer behavior.
 
 | Year | PYQ Theme | Relevant Concepts |
 | --- | --- | --- |
@@ -192,13 +192,13 @@ N = -} N$\frac{\beta_1}{2\beta_2}$
 
 - $E = \frac{Y}{K}$, where $E$ is the energy ratio, $Y$ is the energy yield, and $K$ is the energy input.
 
- - $\Delta Y = \frac$\Delta K${K} \	imes \frac{Y}{K} \	imes K$, representing the change in yield due to a change in input.
+ - $\delta Y = \frac$\delta K${K} \	imes \frac{Y}{K} \	imes K$, representing the change in yield due to a change in input.
 
  - $Y = f(G, W, S, M, T)$, where $Y$ is yield, $G$ is genetics, $W$ is water, $S$ is soil, $M$ is management, and $T$ is technology.
 
- - $MP = \frac$\Delta Y\Delta X, where $MP$ is the marginal product of an input $X$.
+ - $MP = \frac$\delta Y\delta X, where $MP$ is the marginal product of an input $X$.
 
- - $\frac{{\Delta Y}{{Y} = \frac}}{{A} + \frac} \Delta A$\Delta B${B}$, representing the percentage change in yield due to changes in factors $A$ and $B$.
+ - $\frac{{\delta Y}{{Y} = \frac}}{{A} + \frac} \delta A$\delta B${B}$, representing the percentage change in yield due to changes in factors $A$ and $B$.
 
  - Key facts:
 

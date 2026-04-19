@@ -206,7 +206,7 @@ Noble gases have positive EGE because their shells are completely filled — for
 
 - **Pauling Scale**: Most commonly used. F = 4.0 (highest).
 - **General Trend**: Increases across period, decreases down group. Same as IE.
-- **Mullen Scale**: $\chi = \frac{IE + EA}{2}$ (more quantitative).
+- **Mullen Scale**: $\chi = \franc{IE + EA}{2}$ (more quantitative).
 
 ### <a id="key-values"></a>Key Values
 F (4.0) > O (3.5) > Cl (3.0) > N (3.0) > Br (2.8) > C (2.5) > H (2.1)

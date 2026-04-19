@@ -25,7 +25,7 @@ practice_link: "/class-11/chemistry/polymers-class-12-notes"
 
 
 
-<div class="quick-summary">
+<div [class](/blog/haloalkanes-and-haloarenes-class-12-notes)="quick-summary">
 
 #- [📋 Table of Contents](#-table-of-contents)
 
@@ -60,27 +60,27 @@ practice_link: "/class-11/chemistry/polymers-class-12-notes"
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
 
-\Delta E = \Delta H - T\Delta S
+\delta E = \delta H - T\delta S
 
 
- Internal Energy Change. $\Delta E$: Change in internal energy, $\Delta H$: Change in enthalpy, $T$: Temperature in Kelvin, $\Delta S$: Change in entropy.
+ Internal Energy Change. $\delta E$: Change in internal energy, $\delta H$: Change in enthalpy, $T$: Temperature in Kelvin, $\delta S$: Change in entropy.
  
  
 \eta = $\frac{{m_1 \times m_2}{(m_1 + m_2)^2}}{\eta} 
  Number average molecular weight. $: Polydispersity index, $m_1$ and $m_2$: Molecular weights of two different polymer chains.
  
  
-M_n = \frac$\sum N_i M_i\sum N_i
+ M_n = \frac\sum N_i M_i\sum N_i 
  Number average molecular weight. $M_n$: Number average molecular weight, $N_i$: Number of molecules of $i^{th}$ species, $M_i$: Molecular weight of $i^{th}$ species.
  
  
-M_w = \frac$\sum N_i M_i^2\sum N_i M_i
+ M_w = \frac\sum N_i M_i^2\sum N_i M_i 
  Weight average molecular weight. $M_w$: Weight average molecular weight, $N_i$: Number of molecules of $i^{th}$ species, $M_i$: Molecular weight of $i^{th}$ species.
  
- $\overline{X}_n = \frac$\sum N_i X_i\sum N_i
+ \overline{X}_n = \frac\sum N_i X_i\sum N_i 
  Number average degree of polymerization. $\overline{X}_n$: Number average degree of polymerization, $N_i$: Number of molecules of $i^{th}$ species, $X_i$: Degree of polymerization of $i^{th}$ species.
  
- $\overline{X}_w = \frac$\sum N_i X_i^2\sum N_i X_i
+ \overline{X}_w = \frac\sum N_i X_i^2\sum N_i X_i 
  Weight average degree of polymerization. $\overline{X}_w$: Weight average degree of polymerization, $N_i$: Number of molecules of $i^{th}$ species, $X_i$: Degree of polymerization of $i^{th}$ species.
  
  
@@ -110,18 +110,18 @@ G = $\frac{{\tau}{\gamma}}{G}
  Shear modulus. $: Shear modulus, $\tau$: Shear stress, $\gamma$: Shear strain.
  
  
-K = \frac$\Delta P\Delta V/V
- Bulk modulus. $K$: Bulk modulus, $\Delta P$: Change in pressure, $\Delta V/V$: Change in volume.
+ K = \frac\delta P\delta V/V 
+ Bulk modulus. $K$: Bulk modulus, $\delta P$: Change in pressure, $\delta V/V$: Change in volume.
  
  
 
-u = -\frac$\Delta d/d\Delta l/l
+ u = -\frac\delta d/d\delta l/l 
  Poisson's ratio. 
-u$: Poisson's ratio, $\Delta d/d$: Change in diameter/initial diameter, $\Delta l/l$: Change in length/initial length.
+u$: Poisson's ratio, $\delta d/d$: Change in diameter/initial diameter, $\delta l/l$: Change in length/initial length.
  
  
-T_g = $\frac{{T_m \times \Delta S}}{T_g} \Delta C_p
- Glass transition temperature. $: Glass transition temperature, $T_m$: Melting point, $\Delta S$: Change in entropy, $\Delta C_p$: Change in specific heat capacity.
+T_g = $\frac{{T_m \times \delta S}}{T_g} \delta C_p
+ Glass transition temperature. $: Glass transition temperature, $T_m$: Melting point, $\delta S$: Change in entropy, $\delta C_p$: Change in specific heat capacity.
 
 
 | Formula | Variable | Description |

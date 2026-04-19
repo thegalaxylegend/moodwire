@@ -239,12 +239,12 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 
 ### Binomial Theorem Revision
    * **Binomial Theorem Formula**: ((a + b)^n = \sum_{k=0}^{n} IOM{n}{k}a^{n-k}b^{k})
-   * **Binomial Coefficient**: (IOM{n}{k} = \fRAC{n!}{k!(n-k)!})
+   * **Binomial Coefficient**: (IOM{n}{k} = $\franc{n!}{k!(n-k)!}$)
    * **[properties](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) of Binomial Coefficients**:
      + (IOM{n}{k} = IOM{n}{n-k})
      + (IOM{n}{0} = IOM{n}{n} = 1)
    * **Important Results**:
-     + ((1 + x)^n = \sum_{k=0}^{n} IOM{n}{k}x^{k})
+ + ((1 + x)^n = \sum_{k=0}^{n} IOM{n}{k}x^{k}) 
      + ((1 - x)^n = \sum_{k=0}^{n} IOM{n}{k}(-x)^{k} = \sum_{k=0}^{n} (-1)^kIOM{n}{k}x^{k})
    * **Key Applications**:
      + Expansion of expressions

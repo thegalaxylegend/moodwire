@@ -24,7 +24,7 @@ practice_link: "/class-11/mathematics/application-of-derivatives-class-12-notes"
 * **Monotonicity**: 1 question on determining intervals of increase/decrease for a given function using $\frac{{dy}{dx}}{\frac{dy}{dx} = 0}  - always
 * **Maxima and Minima**: 2-3 numericals on finding maximum/minimum values of a function using $ and second derivative test - always
 * **Absolute Maxima and Minima**: 1 question on finding absolute maxima/minima in a given interval - always
-* **Rate of Change**: 1 numerical on finding rate of change of a quantity with respect to another using $\frac{{dy}{dx}}{y = f(x + \Delta x)}  - always
+* **Rate of Change**: 1 numerical on finding rate of change of a quantity with respect to another using $\frac{{dy}{dx}}{y = f(x + \delta x)}  - always
 * **Approximations**: 1 question on finding approximate value of a function using $ and $f'(x)$ - always
 * **Graphs**: Identification of graphs of $y = f(x)$, $y = f'(x)$, and $y = f''(x)$ - always
 * **Increasing/Decreasing in Interval**: 1 question on determining where a function is increasing/decreasing in a given interval - always
@@ -54,7 +54,7 @@ practice_link: "/class-11/mathematics/application-of-derivatives-class-12-notes"
 
  - **Tangents and Normals:** y - y_1 = m(x - x_1) — Equation of a tangent line with slope $m$ at $(x_1, y_1)$, where $m = f'(x_1)$.
 
-- **Length of Tangent, Normal, and Subtangent:** $\text{Tangent: } y = mx + c, $\text{Normal: } y - y_1 = -\frac{1}{m}(x - x_1), $1 \text{Length} = |y_1| \cdot $\sqrt{1 + m^2} — Formulas related to the tangent and normal to a curve.
+- **Length of Tangent, Normal, and Subtangent:** $\text{Tangent: } y = mx + c, \text{Normal: }$ y - y_1 = -$\frac{1}{m}$(x - x_1), $1 \text{Length} = |y_1| \cdot \sqrt{1 + m^2}$ — Formulas related to the tangent and normal to a curve.
 
  - **Area of Region Bounded by a Curve and x-axis:** A = \int_{a}^{b} f(x) dx — Gives the area under the curve y = f(x)$ between $x = a$ and $x = b$.
 
@@ -116,9 +116,9 @@ practice_link: "/class-11/mathematics/application-of-derivatives-class-12-notes"
 
  
 
-$\frac{{d}{dx}f(x) = }{(10x^2 - x^3) = 20x - 3x^2
+\frac{{d}{dx}$f(x) = }{(10x^2 - x^3) = 20x - 3x^2
 
- Setting the derivative equal to zero gives us } \frac{d}{dx}$20x - 3x^2 = 0$.
+ Setting the derivative equal to zero gives us } $\frac{d}{dx}20x - 3x^2 = 0$.
 
  Factoring out $x$, we get $x(20 - 3x) = 0$, which yields $x = 0$ or $x = \frac{20}{3}$.
 
@@ -126,9 +126,9 @@ $\frac{{d}{dx}f(x) = }{(10x^2 - x^3) = 20x - 3x^2
 
  
 
-$\frac{{d^2}{dx^2}f(x) = }{, we get } \frac{d}{dx}(20x - 3x^2) = 20 - 6x
+\frac{{d^2}{dx^2}$f(x) = }{, we get } $\frac{d}{dx}$(20x - 3x^2) = 20 - 6x
 
- Evaluating the second derivative at x = \frac{20}{3}$20 - 6(\frac{20}{3}) = 20 - 40 = -20$.
+ Evaluating the second derivative at x = $\frac{20}{3}20 - 6(\frac{20}{3}) = 20 - 40 = -20$.
 
  Since the second derivative is negative, $x = \frac{20}{3}$ corresponds to a maximum.
 
@@ -150,7 +150,7 @@ $\frac{{d^2}{dx^2}f(x) = }{, we get } \frac{d}{dx}(20x - 3x^2) = 20 - 6x
 
 v(t) = $\frac{{d}{dt}x(t) = }{(2t^2 + 3t + 1) = 4t + 3
 
- The acceleration } \frac{d}{dt}$a(t)$ is the derivative of velocity $v(t)$ with respect to time:
+ The acceleration } $\frac{d}{dt}a(t)$ is the derivative of velocity $v(t)$ with respect to time:
 
  
 
@@ -172,9 +172,9 @@ a(t) = $\frac{{d}{dt}v(t) = }{ seconds, the velocity is } \frac{d}{dt}(4t + 3) =
 
  
 
-$\frac{{dy}{dx} = }{(x^3 - 2x^2 + x + 1) = 3x^2 - 4x + 1
+\frac{{dy}{dx}$ = }{(x^3 - 2x^2 + x + 1) = 3x^2 - 4x + 1
 
- Evaluate the derivative at } \frac{d}{dx}$x = 1$ to find the slope $m$ of the tangent line:
+ Evaluate the derivative at } $\frac{d}{dx}x = 1$ to find the slope $m$ of the tangent line:
 
  
 

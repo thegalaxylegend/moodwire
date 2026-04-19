@@ -59,12 +59,12 @@ The key features of Fundamental Rights are their universality, equality, and jus
 
 ## <a id="what-is-the-historical-context-of-fundamental-rights"></a>What is the historical context of Fundamental Rights?
 
-The concept of Fundamental Rights has its roots in the Indian independence movement. The Indian National Congress, in its Karachi session in 1931, adopted a resolution that emphasized the importance of fundamental rights in a free [india](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee). After independence, the Constituent Assembly incorporated these rights into the Indian Constitution, which came into effect on January 26, 1950. The historical timeline of Fundamental Rights is marked by significant events, including the **Constitutional Amendment of 1976**, which added the right to property as a constitutional right, and the **Constitutional Amendment of 2010**, which introduced the right to education as a fundamental right.
+The concept of Fundamental Rights has its roots in the Indian independence movement. The Indian National Congress, in its Karachi session in 1931, adopted a resolution that emphasized the importance of fundamental rights in a free [India](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee). After independence, the Constituent Assembly incorporated these rights into the Indian Constitution, which came into effect on January 26, 1950. The historical timeline of Fundamental Rights is marked by significant events, including the **Constitutional Amendment of 1976**, which added the right to property as a constitutional right, and the **Constitutional Amendment of 2010**, which introduced the right to education as a fundamental right.
 
 
 
 
-## <a id="ayushs-tips"></a>Ayush's Tips
+## <a id="Ayush-tips"></a>Ayush's Tips
 
 As a student preparing for the [class](/blog/constitutional-framework-class-11-revision-notes-cbse) 11 exam in 2026, it's essential to have a thorough understanding of the Fundamental Rights enshrined in the Indian Constitution. I always make it a point to **read the Constitution** and **analyze the provisions** related to each right. I also **create concept maps** to visualize the relationships between different rights and their applications. By doing so, I'm able to **identify the key concepts** and **retain the information** more effectively.
 
@@ -85,14 +85,14 @@ When studying Fundamental Rights, it's essential to be aware of the **exceptions
 
 
 
-## <a id="what-are-the-implications-of-fundamental-rights-on-indian-society"></a>What are the implications of Fundamental Rights on Indian society?
+## <a id="what-are-the-implications-of-fundamental-rights-on-Indian-society"></a>What are the implications of Fundamental Rights on Indian society?
 
 The implications of Fundamental Rights on Indian society are far-reaching and profound. These rights have **empowered marginalized communities**, **promoted social justice**, and **protected human dignity**. By guaranteeing equal treatment before the law and protecting individuals from exploitation, Fundamental Rights have helped to create a more **just and equitable society**. As I reflect on the significance of these rights, I realize that they are essential for **upholding the values of democracy** and **promoting national unity**.
 
 
 
 
-## <a id="ayushs-personal-note"></a>Ayush's Personal Note
+## <a id="Ayush-personal-note"></a>Ayush's Personal Note
 
 As I prepare for the [class](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse) 11 exam in 2026, I'm reminded of the importance of Fundamental Rights in shaping the country's democratic framework. I've been studying the subject for several months now, and I'm beginning to appreciate the **complexities and nuances** of these rights. I've been **creating flashcards** to help me remember key concepts and **practicing with sample questions** to assess my understanding. By doing so, I'm confident that I'll be able to **excel in the exam** and **develop a deeper understanding** of the subject. I've also been **exploring historical timelines** and **maps contexts** to gain a better understanding of the subject.
 
@@ -149,3 +149,20 @@ Continue your [revision](/blog/constitutional-framework-class-11-revision-notes-
 - 📖 [Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-indus-valley-class-11-revision-notes-cbse)
 - 📖 [Constitutional Framework Class 11 Social Science Recap — CBSE 2026 Quick Guide](/blog/constitutional-framework-class-11-revision-notes-cbse)
 - 📖 [Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-mahajanapadas-class-11-revision-notes-jee)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* Right to Equality (Article 14-18) is often confused with Right to Freedom (Article 19-22), remember that the former deals with the equality of all citizens before the law, while the latter focuses on individual freedoms such as speech, assembly, and movement.
+* Students often forget that the Right to Freedom of Religion (Article 25-28) not only gives individuals the right to practice their own religion but also allows them to propagate and profess any religion.
+* Many students mistakenly believe that the Right against Exploitation (Article 23-24) only prohibits human trafficking, when in fact it also prohibits forced labor and the employment of children in factories and mines.
+* A common mistake is assuming that the Cultural and Educational Rights (Article 29-30) only apply to minority communities, when in fact these rights are meant to protect the cultural and educational interests of all communities, whether minority or majority.
+* Some students confuse the Right to [constitutional](/blog/constitutional-framework-class-11-revision-notes-cbse) Remedies (Article 32) with the concept of Public Interest Litigation (PIL), when in fact the former refers to the right to approach the Supreme Court for the enforcement of fundamental rights, while the latter is a broader concept that allows any individual to approach the court on behalf of the public interest.
+
+## 🔁 Last 5 Minutes Box
+
+* **Right to Equality**: Articles 14-18, equal protection of laws, no discrimination, equality of opportunity.
+   * **Right to Freedom**: Articles 19-22, freedom of speech, assembly, association, movement, residence, and profession.
+   * **Right against Exploitation**: Articles 23-24, prohibition of human trafficking, forced labor, and child labor.
+   * **Right to Freedom of Religion**: Articles 25-28, freedom of conscience, profession, and propagation of religion.
+   * **Cultural and Educational Rights**: Articles 29-30, protection of minority rights, education, and culture.
+   * **Right to Constitutional Remedies**: Article 32, right to move the Supreme Court for enforcement of fundamental rights.

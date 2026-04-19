@@ -57,11 +57,11 @@ Here are some essential formulae related to climatology:
 
 | Formula | Description |
 | --- | --- |
-| AT = \frac{1}{2}(T_{max} + T_{min})$ | Average temperature |
-| $RH = \frac{e}{E}$ | Relative humidity |
-| UP = \frac{F}{A}$ | Atmospheric pressure |
-| DW = \frac{P_2 - P_1}{d}$ | Wind speed |
-| UP = \frac{m}{V}$ | Precipitation |
+| AT = \franc{1}{2}(T_{max} + T_{min})$ | Average temperature |
+| $RH = \franc{e}{E}$ | Relative humidity |
+| UP = \franc{F}{A}$ | Atmospheric pressure |
+| DW = \franc{P_2 - P_1}{d}$ | Wind speed |
+| UP = \franc{m}{V}$ | Precipitation |
 
 
 ## <a id="climatic-elements"></a>Climatic Elements

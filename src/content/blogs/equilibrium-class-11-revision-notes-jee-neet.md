@@ -129,10 +129,10 @@ K_c = $\frac{{[C]^c [D]^d}{[A]^a [B]^b}}{K_p}
 
 ### <a id="k_p-vs-k_c-relationship"></a>$ vs $K_c$ Relationship
 
-K_p = K_c (RT)^$\Delta n_g$
+K_p = K_c (RT)^$\delta n_g$
 
 
-where $\Delta n_g = (moles of gaseous products) - (moles of gaseous reactants).
+where $\delta n_g = (moles of gaseous products) - (moles of gaseous reactants).
 
 ### <a id="rules-for-manipulating-k"></a>Rules for Manipulating K
 | Operation | Effect on K |
@@ -256,7 +256,7 @@ This means: **Lower concentration → Higher dissociation**. This is counterintu
 
 pH = pK_a + \log $\frac{{[}{]} (Acidic Buffer)
 
-pOH = pK_b + \log } \text{Salt}]}{[\text{Acid}$\frac{[$\text{Salt}$]}{[$\text{Base}$]} (Basic Buffer)
+pOH = pK_b + \log } $\text{Salt}$]}{[$\text{Acid}\frac{[\text{Salt}]}{[\text{Base}]} (Basic Buffer)
 
 
 
@@ -431,3 +431,5 @@ Continue your [revision](/blog/states-of-matter-class-11-revision-notes-jee-neet
    - **Pascal's Law**: Pressure in a fluid at equilibrium is uniform
    - **Viscosity**: Measure of a fluid's resistance to flow
    - **Surface Tension**: Force acting on surface of a liquid due to intermolecular attraction
+
+$

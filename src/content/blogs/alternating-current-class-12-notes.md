@@ -134,7 +134,7 @@ What are the advantages of Alternating Current over Direct Current? is the compa
 
 | Characteristics | Alternating [current](/blog/magnetic-effects-of-current-class-12-notes) (AC) | Direct [current](/blog/magnetic-effects-of-current-class-12-notes) (DC) |
 | --- | --- | --- |
-| Definition | Periodic reversal of current direction | Unidirectional flow of electric charge |
+| Definition | Periodic reversal of [current](/blog/magnetic-effects-of-current-class-12-notes) direction | Unidirectional flow of electric charge |
 | Transformability | Can be easily transformed to high or low voltages | Difficult to transform due to lack of DC transformers |
 | Efficiency in Transmission | High voltage transmission reduces energy loss | High energy loss due to constant voltage |
 | Generation | Simpler and more efficient generators | More complex and less efficient generators |
@@ -184,7 +184,7 @@ In terms of formulas, the following are essential:
 
 By grasping the difference between peak and RMS values, students can better understand how AC circuits operate and how to calculate the power delivered to a load.
 
-Key Takeaway: The peak value represents the maximum amplitude of the AC waveform, while the RMS value represents the effective value of the AC, which is used to calculate the power delivered to a load. Understanding the distinction between these two values is crucial for Class 12 exam prep in 2026.
+Key Takeaway: The peak value represents the maximum amplitude of the AC waveform, while the RMS value represents the effective value of the AC, which is used to calculate the power delivered to a load. Understanding the distinction between these two values is crucial for [class](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) 12 exam prep in 2026.
 
 
 | Parameter | Peak Value | RMS Value |

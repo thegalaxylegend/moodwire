@@ -92,7 +92,7 @@ What are the fundamentals of Arrays in Data Structures: Linear? is a foundationa
  
  The advantages of using arrays include efficient use of memory, fast access times, and simplicity of implementation. However, arrays also have some disadvantages, including fixed size, which can lead to memory waste if the array is not fully utilized, and the need for shifting elements during insertion and deletion operations, which can be time-consuming for large arrays.
  
- In terms of real-world applications, arrays are used in a variety of contexts, including database records, spreadsheet columns, and image processing. They are also used in programming to implement other data structures, such as stacks and queues.
+ In terms of real-world applications, arrays are used in a variety of contexts, including database records, spreadsheet columns, and image processing. They are also used in programming to implement other [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structures, such as stacks and queues.
  
  To illustrate the concept of arrays, consider the following example: suppose we want to store the marks of 10 students in a [class](/blog/algorithms-analysis-class-11-revision-notes-gate-boards). We can use an array to store the marks, where each element of the array represents the mark of a student. We can then use array operations to calculate the average mark, find the highest mark, and so on.
  
@@ -146,7 +146,7 @@ A stack can be visualized as a vertical pile of plates, where plates are added a
 - Pop: removes an element from the top of the stack
 - Peek: returns the element at the top of the stack without removing it
 
-Stacks have numerous applications in computer science, including parsing, evaluating postfix expressions, and implementing recursive algorithms iteratively. They are also used in many programming languages to implement function calls and returns. The stack is used to store the local variables, function parameters, and the return address of a function call.
+Stacks have numerous applications in computer science, including parsing, evaluating postfix expressions, and implementing recursive [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards) iteratively. They are also used in many programming languages to implement function calls and returns. The stack is used to store the local variables, function parameters, and the return address of a function call.
 
 The implementation of a stack can be done using an array or a linked list. The array implementation is simpler and more efficient, but it has a fixed size, which can lead to stack overflow if the stack grows beyond its capacity. The linked list implementation is more flexible and can grow dynamically, but it requires more memory and is slower.
 

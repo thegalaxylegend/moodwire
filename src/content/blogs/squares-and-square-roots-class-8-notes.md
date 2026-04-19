@@ -21,7 +21,7 @@ manualReview: false
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Perfect Square Formula:** a^2 = {a} 	imes {a} — where $a$ is the number being squared,- **Square Root Formula:** \sqrt{a} = {a}^{\frac{1}{2}} — where $a$ is the number under the square root,- **Difference of Squares Formula:** a^2 - b^2 = (a+b)(a-b) — where $a$ and $b$ are any real numbers,- **Square of a Binomial Formula:** (a+b)^2 = a^2 + 2ab + b^2 — where $a$ and $b$ are any real numbers,- **Square of a Trinomial Formula:** (a+b+c)^2 = a^2 + b^2 + c^2 + 2ab + 2ac + 2bc — where $a$, $b$, and $c$ are any real numbers,- **Formula for Finding the Square Root of a Fraction:** \sqrt{\frac{a}{b}} = \frac{\sqrt{a}}{\sqrt{b}} — where $a$ and $b$ are any real numbers and $b 
+- **Perfect Square Formula:** a^2 = {a} 	imes {a} — where $a$ is the number being squared,- **Square Root Formula:** $\sqrt{a}$ = {a}^{$\frac{1}{2}$} — where $a$ is the number under the square root,- **Difference of Squares Formula:** a^2 - b^2 = (a+b)(a-b) — where $a$ and $b$ are any real numbers,- **Square of a Binomial Formula:** (a+b)^2 = a^2 + 2ab + b^2 — where $a$ and $b$ are any real numbers,- **Square of a Trinomial Formula:** (a+b+c)^2 = a^2 + b^2 + c^2 + 2ab + 2ac + 2bc — where $a$, $b$, and $c$ are any real numbers,- **Formula for Finding the Square Root of a Fraction:** $\sqrt{\frac{a}{b}$} = $\frac{\sqrt{a}$}{$\sqrt{b}$} — where $a$ and $b$ are any real numbers and $b 
 eq 0$,- **Formula for Finding the Square of a Fraction:** left(\frac{a}{b}ight)^2 = \frac{a^2}{b^2} — where $a$ and $b$ are any real numbers and $b 
 eq 0$,- **Rationalizing the Denominator Formula:** \frac{\sqrt{a}}{\sqrt{b}} = \frac{\sqrt{a} 	imes \sqrt{b}}{\sqrt{b} 	imes \sqrt{b}} = \frac{\sqrt{ab}}{b} — where $a$ and $b$ are any real numbers and $b 
 eq 0$,- **Simplifying Square Roots Formula:** \sqrt{ab} = \sqrt{a} 	imes \sqrt{b} — where $a$ and $b$ are any real numbers,- **Formula for the Square Root of a Decimal:** \sqrt{a 	imes 10^n} = \sqrt{a} 	imes 10^{\frac{n}{2}} — where $a$ is any real number and $n$ is an even integer
@@ -47,7 +47,7 @@ eq 0$,- **Simplifying Square Roots Formula:** \sqrt{ab} = \sqrt{a} 	imes \sqrt{b
 
 - **The "Trap" Recognition:** In Squares and Square [roots](/blog/cubes-and-cube-roots-class-8-notes), the most common mistake (made by ~70% of students) involves misapplying core concepts under time pressure. Always verify the units and boundary conditions before selecting an answer.
 
-- **Jules Advanced Insight:** To master Squares and Square Roots, don't just memorize the formulas. Build a mental map of how it connects to Mathematics. This cross-topic synergy is what separates 99th percentile scorers from the rest.
+- **Jules Advanced Insight:** To master Squares and Square [roots](/blog/cubes-and-cube-roots-class-8-notes), don't just memorize the formulas. Build a mental map of how it connects to Mathematics. This cross-topic synergy is what separates 99th percentile scorers from the rest.
 
 - **Last-Night Strategy:** If you're reading this 12 hours before the exam, focus on the "Exceptions to the Rule." In Squares and Square Roots, questions are almost always framed around the corner cases rather than the standard cases.
 
@@ -88,7 +88,7 @@ eq 0$,- **Simplifying Square Roots Formula:** \sqrt{ab} = \sqrt{a} 	imes \sqrt{b
 
 - **Common Mistakes:**
 
-- Incorrectly assuming $\sqrt{a+b} = \sqrt{a} + \sqrt{b}$1 \sqrt{a-b} = $\sqrt{a}$ 
+- Incorrectly assuming $\sqrt{a+b} = \sqrt{a} + \sqrt{b}$1 $\sqrt{a-b}$ = $\sqrt{a}$ 
 
 - $\sqrt{b}$. Remember, square roots don't distribute over addition/subtraction.
 
@@ -97,50 +97,50 @@ eq 0$,- **Simplifying Square Roots Formula:** \sqrt{ab} = \sqrt{a} 	imes \sqrt{b
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. What is the square root of a number?**
-**A)**    A number that, when multiplied by itself, gives the original number
-**B)**    A number that, when multiplied by itself, gives a negative number
-**C)**    A number that, when multiplied by itself, gives a different number
-**D)**    A number that, when multiplied by itself, gives zero
+**A)**     A number that, when multiplied by itself, gives the original number
+**B)**     A number that, when multiplied by itself, gives a negative number
+**C)**     A number that, when multiplied by itself, gives a different number
+**D)**     A number that, when multiplied by itself, gives zero
 
 **Answer:** A) Square root of a number is a value that, when multiplied by itself, gives the original number.
 
 ---
 
 **2. Which of the following is a perfect square?**
-**A)**    4
-**B)**    9
-**C)**    16
-**D)**    25
+**A)**     4
+**B)**     9
+**C)**     16
+**D)**     25
 
 **Answer:** C) 16 is a perfect square because it can be expressed as 4^2.
 
 ---
 
-**3. What is the property of square numbers?**
-**A)**    They are always odd
-**B)**    They are always even
-**C)**    They can be odd or even
-**D)**    They are always prime
+**3. What is the property of square [numbers](/blog/rational-numbers-class-8-notes)?**
+**A)**     They are always odd
+**B)**     They are always even
+**C)**     They can be odd or even
+**D)**     They are always prime
 
 **Answer:** B) Square numbers are always even because they can be expressed as 2^2 or (2k)^2, where k is an integer.
 
 ---
 
 **4. If the square root of a number is 7, what is the number?**
-**A)**    49
-**B)**    56
-**C)**    63
-**D)**    70
+**A)**     49
+**B)**     56
+**C)**     63
+**D)**     70
 
 **Answer:** A) If the square root of a number is 7, then the number is 7^2 or 49.
 
 ---
 
 **5. What is the relationship between square numbers and prime numbers?**
-**A)**    Square numbers are always prime
-**B)**    Prime numbers are always square numbers
-**C)**    Square numbers have only one prime factor
-**D)**    Square numbers have more than one prime factor
+**A)**     Square numbers are always prime
+**B)**     Prime numbers are always square numbers
+**C)**     Square numbers have only one prime factor
+**D)**     Square numbers have more than one prime factor
 
 **Answer:** D) Square numbers have more than one prime factor. For example, 16 = 2^4 has more than one prime factor.
 

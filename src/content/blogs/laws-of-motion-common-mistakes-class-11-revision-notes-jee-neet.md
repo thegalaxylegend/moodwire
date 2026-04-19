@@ -56,7 +56,7 @@ Here are the 10 most common "silly mistakes" you are probably making, and exactl
 ## <a id="the-kinematics-and-force-traps"></a>The Kinematics and Force Traps
 
 ### <a id="1-forgetting-to-isolate-the-system-in-fbds"></a>1. Forgetting to Isolate the System in FBDs
-The most fatal error. When drawing a Free Body Diagram for Block A, students frequently include forces that Block A exerts *on* Block B, rather than strictly drawing the forces exerted *on* Block A.
+The most fatal error. When drawing a Free [body](/blog/body-fluids-and-circulation-class-11-revision-notes-neet) Diagram for Block A, students frequently include forces that Block A exerts *on* Block B, rather than strictly drawing the forces exerted *on* Block A.
 **The Fix:** Draw a dotted boundary around your mass of interest. Only vectors penetrating that boundary from the outside should be plotted.
 
 ### <a id="2-confusing-actionreaction-pairs"></a>2. Confusing Action-Reaction Pairs

@@ -23,16 +23,16 @@ manualReview: false
 
 - **Perimeter of a Rectangle:** P = 2(l + b) — where $l$ is the length and $b$ is the breadth of the rectangle.
  - **Area of a Rectangle:** A = l 	imes b — where $l$ is the length and $b$ is the breadth of the rectangle.
- - **Diagonal of a Rectangle:** d = \sqrt{l^2 + b^2} — where $l$ is the length and $b$ is the breadth of the rectangle.
+ - **Diagonal of a Rectangle:** d = $\sqrt{l^2 + b^2}$ — where $l$ is the length and $b$ is the breadth of the rectangle.
  - **Perimeter of a Square:** P = 4s — where $s$ is the side length of the square.
  - **Area of a Square:** A = s^2 — where $s$ is the side length of the square.
- - **Diagonal of a Square:** d = \sqrt{2}s — where $s$ is the side length of the square.
+ - **Diagonal of a Square:** d = $\sqrt{2}$s — where $s$ is the side length of the square.
  - **Circumference of a Circle:** C = 2\pi r — where $r$ is the radius of the circle.
  - **Area of a Circle:** A = \pi r^2 — where $r$ is the radius of the circle.
- - **Area of a Triangle:** A = \frac{1}{2} 	imes base 	imes height — where $base$ is the base of the triangle and $height$ is the height of the triangle.
+ - **Area of a Triangle:** A = $\frac{1}{2}$ 	imes base 	imes height — where $base$ is the base of the triangle and $height$ is the height of the triangle.
  - **Perimeter of a Triangle:** P = a + b + c — where $a$, $b$, and $c$ are the sides of the triangle.
- - **Semi-perimeter of a Triangle:** s = \frac{a + b + c}{2} — where $a$, $b$, and $c$ are the sides of the triangle.
- - **Area of a Triangle (Heron's Formula):** A = \sqrt{s(s-a)(s-b)(s-c)} — where $s$ is the semi-perimeter, and $a$, $b$, and $c$ are the sides of the triangle.
+ - **Semi-perimeter of a Triangle:** s = $\frac{a + b + c}{2}$ — where $a$, $b$, and $c$ are the sides of the triangle.
+ - **Area of a Triangle (Heron's Formula):** A = $\sqrt{s(s-a)(s-b)(s-c)}$ — where $s$ is the semi-perimeter, and $a$, $b$, and $c$ are the sides of the triangle.
  - **Volume of a Cuboid:** V = l 	imes b 	imes h — where $l$ is the length, $b$ is the breadth, and $h$ is the height of the cuboid.
  - **Surface Area of a Cuboid:** SA = 2(lb + bh + hl) — where $l$ is the length, $b$ is the breadth, and $h$ is the height of the cuboid.
  - **Volume of a Cube:** V = s^3 — where $s$ is the side length of the cube.
@@ -42,10 +42,10 @@ manualReview: false
  - **Volume of a Cylinder:** V = \pi r^2 h — where $r$ is the radius and $h$ is the height of the cylinder.
  - **Curved Surface Area of a Cone:** CSA = \pi rl — where $r$ is the radius and $l$ is the slant height of the cone.
  - **Total Surface Area of a Cone:** TSA = \pi r(l + r) — where $r$ is the radius and $l$ is the slant height of the cone.
- - **Volume of a Cone:** V = \frac{1}{3}\pi r^2 h — where $r$ is the radius and $h$ is the height of the cone.
- - **Volume of a Sphere:** V = \frac{4}{3}\pi r^3 — where $r$ is the radius of the sphere.
+ - **Volume of a Cone:** V = $\frac{1}{3}$\pi r^2 h — where $r$ is the radius and $h$ is the height of the cone.
+ - **Volume of a Sphere:** V = $\frac{4}{3}$\pi r^3 — where $r$ is the radius of the sphere.
  - **Surface Area of a Sphere:** SA = 4\pi r^2 — where $r$ is the radius of the sphere.
- - **Volume of a Hemisphere:** V = \frac{2}{3}\pi r^3 — where $r$ is the radius of the hemisphere.
+ - **Volume of a Hemisphere:** V = $\frac{2}{3}$\pi r^3 — where $r$ is the radius of the hemisphere.
  - **Curved Surface Area of a Hemisphere:** CSA = 2\pi r^2 — where $r$ is the radius of the hemisphere.
  - **Total Surface Area of a Hemisphere:** TSA = 3\pi r^2 — where $r$ is the radius of the hemisphere.
 
@@ -88,9 +88,7 @@ manualReview: false
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
-{
- "heading": "✏️ 3 Solved PYQs",
- "body": "- **Q1: Area of Trapezium**
+- **Q1: Area of Trapezium**
  - **Question:** The area of a trapezium is $34 \text{ cm}^2$ and the length of one of the parallel sides is $10 \text{ cm}$. If its height is $4 \text{ cm}$, find the length of the other parallel side.
  - **Trap:** Students sometimes forget the factor of $\frac{{1}{2}}{A}  in the area formula or misidentify the parallel sides. Another common mistake is directly adding the lengths and dividing by height without rearranging the formula carefully.
  - **Solution:**
@@ -108,7 +106,7 @@ manualReview: false
 $1 
 
  - Isolate $b$ by subtracting $10$ from both sides:
- b = 17 - 10b = 7 \text{ cm}
+ b = 17 - 10b = 7 $\text{ cm}$
  - **Answer:** The length of the other parallel side is $7 \text{ cm}$.
 
 - **Q2: Volume of Cuboid and Number of Boxes**
@@ -119,7 +117,7 @@ $1
  - The dimensions of the godown are length $(L) = 60 \text{ m}$, breadth $(B) = 40 \text{ m}$, and height $(H) = 30 \text{ m}$.
  - The formula for the volume of a cuboid is $V = L \times B \times H$.
  - Volume of godown ($V_{\text{godown}}$):
- V_{\text{godown}} = 60 \text{ m} \times 40 \text{ m} \times 30 \text{ m}V_{\text{godown}} = 2400 \text{ m}^2 \times 30 \text{ m}V_{\text{godown}} = 72000 \text{ m}^3
+ V_{$\text{godown}$} = 60 $\text{ m}$ \times 40 $\text{ m}$ \times 30 $\text{ m}$V_{$\text{godown}$} = 2400 $\text{ m}$^2 \times 30 $\text{ m}$V_{$\text{godown}$} = 72000 $\text{ m}$^3
  - Next, we are given the volume of one cuboidal box ($V_{\text{box}}$):
  V_{\
 
@@ -127,11 +125,7 @@ $1
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
-{
- "heading": "🧠 The One Thing Most Students Get Wrong",
- "body": "
-
-- **The Core Concept:** In [class](/blog/rational-numbers-class-8-notes) 8 Mensuration, knowing individual formulas for areas like rectangles (A = L \times B), squares (A = s^2), or triangles (A = \frac{1}{2} \times b \times h) is just the first step. The real game-changer for top scores is mastering how to find areas of *compound* or *complex* figures, especially those involving paths, borders, or regions within other shapes. It's not just about applying one formula; it's about strategic decomposition and the often overlooked *subtraction method* of finding areas.
+- **The Core Concept:** In [class](/blog/rational-numbers-class-8-notes) 8 Mensuration, knowing individual formulas for areas like rectangles (A = L \times B), squares (A = s^2), or triangles (A = $\frac{1}{2}$ \times b \times h) is just the first step. The real game-changer for top scores is mastering how to find areas of *compound* or *complex* figures, especially those involving paths, borders, or regions within other shapes. It's not just about applying one formula; it's about strategic decomposition and the often overlooked *subtraction method* of finding areas.
 
 - **What 85% scorers do:** Most students can easily}
 
@@ -159,63 +153,59 @@ $1
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-{
- "heading": "🔁 Last 5 Minutes Box",
- "body": "
-
 - **Area of Trapezium:** This 2D shape has one pair of parallel sides.
 
-- **If these parallel sides are $a$ and $b$, and the perpendicular distance (height) between them is $h$, its area is given by the formula:** A = \frac{1}{2} \times (a+b) \\
+- **If these parallel sides are $a$ and $b$, and the perpendicular distance (height) between them is $h$, its area is given by the formula:** A = $\frac{1}{2}$ \times (a+b) \
 
 }
 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. A rectangular park is 50m long and 30m wide. What is its perimeter?**
-**A)**   70m
-**B)**   120m
-**C)**   150m
-**D)**   180m
+**A)**    70m
+**B)**    120m
+**C)**    150m
+**D)**    180m
 
 **Answer:** C) The perimeter of a rectangle is given by P = 2(l + b). Here, l = 50m and b = 30m, so P = 2(50 + 30) = 160m. However, this option is not available, so we choose the closest value, which is 150m.
 
 ---
 
-**2. A square plot has a perimeter of 40m. What is the length of its side?**
-**A)**   8m
-**B)**   10m
-**C)**   12m
-**D)**   15m
+**2. A [square](/blog/squares-and-square-roots-class-8-notes) plot has a perimeter of 40m. What is the length of its side?**
+**A)**    8m
+**B)**    10m
+**C)**    12m
+**D)**    15m
 
 **Answer:** D) The perimeter of a square is given by P = 4a, where a is the length of its side. We know that P = 40m, so 4a = 40m and a = 10m.
 
 ---
 
 **3. A circle has a diameter of 14cm. What is its circumference?**
-**A)**   44cm
-**B)**   44πcm
-**C)**   56πcm
-**D)**   70πcm
+**A)**    44cm
+**B)**    44πcm
+**C)**    56πcm
+**D)**    70πcm
 
 **Answer:** C) The circumference of a circle is given by C = πd, where d is the diameter. Here, d = 14cm, so C = π * 14cm = 44πcm.
 
 ---
 
 **4. A triangle has a base of 20cm and a height of 12cm. What is its area?**
-**A)**   120cm²
-**B)**   150cm²
-**C)**   180cm²
-**D)**   200cm²
+**A)**    120cm²
+**B)**    150cm²
+**C)**    180cm²
+**D)**    200cm²
 
 **Answer:** B) The area of a triangle is given by A = (1/2)bh, where b is the base and h is the height. Here, b = 20cm and h = 12cm, so A = (1/2) * 20 * 12 = 120cm².
 
 ---
 
 **5. A cylinder has a radius of 7cm and a height of 10cm. What is its curved surface area?**
-**A)**   550cm²
-**B)**   560cm²
-**C)**   570cm²
-**D)**   580cm²
+**A)**    550cm²
+**B)**    560cm²
+**C)**    570cm²
+**D)**    580cm²
 
 **Answer:** C) The curved surface area of a cylinder is given by CSA = 2πrh, where r is the radius and h is the height. Here, r = 7cm and h = 10cm, so CSA = 2 * π * 7 * 10 = 140πcm² ≈ 440cm² + 130cm² = 570cm².
 

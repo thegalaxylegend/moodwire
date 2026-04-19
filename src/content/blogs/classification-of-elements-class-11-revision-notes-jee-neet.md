@@ -89,7 +89,7 @@ Here are some examples of LaTeX equations related to the classification of [elem
 
 * The electronic configuration of an element can be represented as: $1s^2 2s^2 2p^6$
 * The atomic radius of an element can be calculated using the formula: $r = \frac{a}{Z}$, where $r$ is the atomic radius, $a$ is a constant, and $Z$ is the atomic number
-* The ionization energy of an element can be represented as: $\Delta E = \frac{hc}{\lambda}$, where $\Delta E$ is the ionization energy, $h$ is Planck's constant, $c$ is the speed of light, and $\lambda$ is the wavelength
+* The ionization energy of an element can be represented as: $\delta E = \frac{hc}{\lambda}$, where $\delta E$ is the ionization energy, $h$ is Planck's constant, $c$ is the speed of light, and $\lambda$ is the wavelength
 
 As I continue to explore the world of [chemistry](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet), I realize that the classification of elements is a fundamental concept that underlies many of the principles and reactions that we study. By understanding the periodic table and the trends in physical and chemical properties, I can better appreciate the beauty and complexity of the chemical world. Whether I'm solving problems, practicing MCQs, or simply exploring the properties of different elements, I know that the classification of elements will remain a vital tool in my journey as a chemistry student. 
 
@@ -97,7 +97,7 @@ The periodic table is a dynamic and ever-evolving field of study, with new [elem
 
 In my future studies, I plan to delve deeper into the world of [chemistry](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet), exploring topics such as chemical bonding, thermodynamics, and organic [chemistry](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet). I'm excited to see how the classification of elements will continue to play a central role in my understanding of these topics, and how it will help me to develop a more nuanced and sophisticated understanding of the chemical world. 
 
-As I move forward in my studies, I'm confident that the classification of elements will remain a fundamental concept that underlies many of the principles and reactions that I will encounter. By continuing to explore and learn about the periodic table, I can develop a deeper understanding of the chemical world and how it relates to the world around us. 
+As I move forward in my studies, I'm confident that the classification of elements will remain a fundamental concept that underlies many of the principles and reactions that I will encounter. By continuing to explore and learn about the periodic table, I can develop a deeper understanding of the [chemical](/blog/chemical-coordination-and-integration-class-11-revision-notes-neet) world and how it relates to the world around us. 
 
 The classification of elements is a rich and complex field of study, with many different concepts and principles to explore. As I continue to learn and grow as a chemistry student, I'm excited to see where this journey will take me, and how the classification of elements will continue to play a central role in my understanding of the chemical world. 
 
@@ -277,7 +277,7 @@ As I continue to explore the world of chemistry, I realize that the classificati
 
 ## <a id="-related-topics"></a>📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/geomorphology-class-11-revision-notes-cbse) with these related guides:
 
 - 📖 [The P Block Elements 11 Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet)
 - 📖 [Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/classification-elements-periodicity-class-11-revision-notes-jee-neet)

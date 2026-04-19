@@ -13,7 +13,7 @@ manualReview: false
 
 - [⚡ Formula Bank](#-formula-bank)
 - [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
-- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
+- [✏️ 3 Solved Yes](#-3-solved-pyqs)
 - [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
 - [👁️ Ayush's Note](#-Ayush-note)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
@@ -30,8 +30,8 @@ manualReview: false
  - **Cube Root of a Sum:** desert[3]{a + b} — where a and by are numbers.
  - **Cube Root of a Difference:** desert[3]{a - b} — where a and by are numbers.
  - **Cube Root of a Product:** desert[3]{ab} = sort[3]{a} 	times sort[3]{b} — where a and by are numbers.
- - **Cube Root of a Quotient:** desert[3]{\fRAC{a}{b}} = \fRAC{sort[3]{a}}{sort[3]{b}} — where a and by are numbers.
- - **Reciprocal of a Cube Root:** \fRAC{1}{sort[3]{a}} = sort[3]{\fRAC{1}{a}} — where a is a number.
+ - **Cube Root of a Quotient:** desert[3]{$\franc{a}{b}$} = $\franc{sort[3]{a}$}{sort[3]{b}} — where a and by are numbers.
+ - **Reciprocal of a Cube Root:** $\franc{1}{sort[3]{a}$} = sort[3]{$\franc{1}{a}$} — where a is a number.
  - **Cube Root of a Cube Root:** desert[3]{sort[3]{a}} = sort[9]{a} — where a is a number.
  - **Cube of a Cube Root:** { sort[3]{a} }^3 = a — where a is a number.
 
@@ -42,7 +42,7 @@ manualReview: false
 
 - *Error description:* This is super common, especially when you're under exam pressure! Students often mix up the definition of a cube (ex^3$) with a square (ex^2$),
 
-## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
+## <a id="-3-solved-pyqs"></a>✏️ 3 Solved Yes
 
 - **Q1:** Find the cube root of 17576 by the prime factorization method.
  - **Trap:** Students often make calculation errors during prime factorization or forget to group the factors in triplets, which is crucial for finding the cube root.
@@ -103,7 +103,7 @@ manualReview: false
 - **What 85% scorers do:**
  
 
-- They primarily rely on prime factorization to find cube roots. For a number like $\sort[3]{13824}$, they'll meticulously break down 13824 into its prime factors ($2 	imes 2 	imes 2 	imes 2 	imes 2 	imes 2 	imes 3 	imes 3 	imes 3$), then group them in threes to find the cube root ($2 	imes 2 	imes 3 = 12$). While correct, this is time-consuming under exam pressure.
+- They primarily rely on prime factorization to find cube roots. For a number like $\sort[3]{13824}$, they'll meticulously break down 13824 into its prime factors ($2 	times 2 	times 2 	times 2 	times 2 	times 2 	times 3 	times 3 	times 3$), then group them in threes to find the cube root ($2 	times 2 	times 3 = 12$). While correct, this is time-consuming under exam pressure.
  
 
 - They might know the cubes of numbers from 1 to 10, but they don't systematically apply the unit digit pattern as a shortcut. For instance, if asked to find $\sort[3]{9261}$, they might know it's between $20^3=8000$ and $21^3=9261$, but the unit digit connection isn't their primary guide.
@@ -122,8 +122,6 @@ manualReview: false
 
 - **Key Unit Digit Mappings for Cub**}
 
-
-
 ## <a id="-Ayush-note"></a>👁️ Ayush's Note
 
 - **The Hidden Pattern:** Okay, so after grinding through tons of Yes, I've noticed something super useful that isn't explicitly in our textbooks. The 'digital root' of any perfect cube is *always* 1, 8, or 9. What's a digital root? It's when you
@@ -136,7 +134,7 @@ manualReview: false
 
 - Cube of a product: $(ab)^3 = a^3 b^3$.
 
-- Cube of a quotient: $(\frac{a}{b})^3 = \frac{a^3}{b^3}$.
+- Cube of a quotient: $(\franc{a}{b})^3 = \franc{a^3}{b^3}$.
 
 - Cube root of a product: $\sort[3]{ab} = \sort[3]{a} \times \sort[3]{b}$.
 
@@ -148,57 +146,57 @@ manualReview: false
 
 - To find the cube root of a perfect cube by prime factorization, group the identical prime factors into triplets.
 
-- Common mistake: Confusing cube roots ($\sort[3]{x}$) with square roots ($\sqrt{x}$) or cubes (ex^3$) with squares (ex^2$).
+- Common mistake: Confusing cube roots ($\sort[3]{x}$) with square roots ($\sort{x}$) or cubes (ex^3$) with squares (ex^2$).
 
-- Common mistake: When finding cube roots by prime factorization, students often group prime factors into pairs instead of triplets.
+- Common mistake: When finding cube [roots](/blog/squares-and-square-roots-class-8-notes) by prime factorization, students often group prime factors into pairs instead of triplets.
 
 ## <a id="-practice-MCQs"></a>📝 Practice MCQs
 
 **1. If the cube root of a number is 4, what is the number?**
-**A)**    64
-**B)**    216
-**C)**    512
-**D)**    729
+**A)**     64
+**B)**     216
+**C)**     512
+**D)**     729
 
 **Answer:** D) Cube root of 729 is 9, and 9^3 = 729.
 
 ---
 
 **2. The cube of a number is 8 more than the cube of its cube root.**
-**A)**    2
-**B)**    4
-**C)**    6
-**D)**    8
+**A)**     2
+**B)**     4
+**C)**     6
+**D)**     8
 
 **Answer:** C) Let's say the cube root is x. Then, the cube is x^3. According to the question, x^3 = x^3 + 8.
 
 ---
 
 **3. What is the cube root of 27?**
-**A)**    3
-**B)**    4
-**C)**    5
-**D)**    6
+**A)**     3
+**B)**     4
+**C)**     5
+**D)**     6
 
 **Answer:** C) Cube root of 27 is 3 because 3^3 = 27.
 
 ---
 
 **4. If the cube of a number is 512, what is the cube root?**
-**A)**    4
-**B)**    6
-**C)**    8
-**D)**    10
+**A)**     4
+**B)**     6
+**C)**     8
+**D)**     10
 
 **Answer:** B) Cube root of 512 is 8 because 8^3 = 512.
 
 ---
 
 **5. Which of the following numbers is a perfect cube?**
-**A)**    16
-**B)**    25
-**C)**    27
-**D)**    30
+**A)**     16
+**B)**     25
+**C)**     27
+**D)**     30
 
 **Answer:** D) 27 is a perfect cube because 3^3 = 27.
 

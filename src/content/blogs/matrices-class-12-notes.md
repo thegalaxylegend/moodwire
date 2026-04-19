@@ -25,7 +25,7 @@ practice_link: "/class-11/mathematics/matrices-class-12-notes"
 
 
 
-<div class="quick-summary">
+<div [class](/blog/haloalkanes-and-haloarenes-class-12-notes)="quick-summary">
 
 #- [📋 Table of Contents](#-table-of-contents)
 
@@ -117,3 +117,4 @@ Continue your revision with these related guides:
 - 📖 [Alcohols, Phenols and Ethers Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/alcohols-phenols-and-ethers-class-12-notes)
 - 📖 [Application of Derivatives Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
 - 📖 [Atoms Class 12 Mathematics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/atoms-class-12-notes)
+$

@@ -69,7 +69,7 @@ Respiration in [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div class="callout-box">
+<div [class](/blog/hydrogen-class-11-revision-notes-neet)="callout-box">
 I once struggled to understand the difference between aerobic and anaerobic respiration. I thought that [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) only underwent anaerobic respiration, but that's not true. [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet), like animals, require oxygen for aerobic respiration. I realized my mistake when I was solving a practice question that asked about the byproducts of aerobic respiration in [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet). Now, I make sure to clearly distinguish between the two types of respiration.
 </div>
 
@@ -108,9 +108,7 @@ To remember the equation for respiration, use the following trick: "C6H12O6 + 6O
 ## <a id="practice-mcqs-for-respiration-in-plants"></a>Practice MCQs for Respiration in Plants
 
 1. What is the equation for respiration in plants?
-A) $C_6H_{12}O_6 + 6O_2 \rightarrow 6CO_2 + 6H_2O + \text{Energy}$
-B) $C_6H_{12}O_6 + 6O_2 \rightarrow 6CO_2 + 6H_2O$
-C) $C_6H_{12}O_6 \rightarrow 6CO_2 + 6H_2O + \text{Energy}$
+ A) C_6H_{12}O_6 + 6O_2 \rightarrow 6CO_2 + 6H_2O + \text{Energy}  B) C_6H_{12}O_6 + 6O_2 \rightarrow 6CO_2 + 6H_2O  C) C_6H_{12}O_6 \rightarrow 6CO_2 + 6H_2O + \text{Energy} 
 D) $C_6H_{12}O_6 + 6O_2 \rightarrow 6CO_2 + 6H_2O + \text{Energy} + \text{Ethanol}$
 
 Answer: A) $C_6H_{12}O_6 + 6O_2 \rightarrow 6CO_2 + 6H_2O + \text{Energy}$

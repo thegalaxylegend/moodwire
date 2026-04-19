@@ -78,7 +78,7 @@ Hydrogen occurs naturally in the form of water (H2O) and organic compounds. It c
 
 ## <a id="properties-of-hydrogen"></a>Properties of Hydrogen
 
-Hydrogen has several unique properties that make it an important element. It is the lightest and most abundant chemical element in the universe, with an atomic mass of 1.00794 u. Hydrogen is a highly flammable gas, with a wide range of flammability (4-75% in air). It is also highly reactive, forming compounds with most elements.
+Hydrogen has several unique properties that make it an important element. It is the lightest and most abundant chemical element in the universe, with an atomic mass of 1.00794 u. Hydrogen is a highly flammable gas, with a wide range of flammability (4-75% in air). It is also highly reactive, forming compounds with most [elements](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet).
 
 
 
@@ -127,7 +127,7 @@ Hydrogen fuel cells are devices that convert the chemical energy of hydrogen int
 To calculate the number of moles of hydrogen in a given mass of a compound, use the formula:
 
 
-n = $\frac{{m}{M}}{n} 
+n = \frac{{m}{M}$}{n} 
 
 
 
@@ -223,3 +223,4 @@ Continue your [revision](/blog/photosynthesis-in-higher-plants-class-11-revision
 - 📖 [Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)
 - 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)
+

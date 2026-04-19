@@ -214,13 +214,13 @@ practice_link: "/class-11/chemistry/surface-chemistry-class-12-notes"
 
 * **Mistake 1:** Incorrectly applying the formula for the amount of adsorption, using $\frac{{x}{m} instead of }{, where x is the mass of gas adsorbed, m is the mass of the adsorbent, a is the volume of the gas, and V is the volume of the adsorbent.
 
-* **Mistake 2:** Not considering the effect of temperature on adsorption, using } \frac{x}{m} = \frac{a}{V}$\frac{x}{m} = kP^$\frac{{1}{n}}{\frac{x}{m} = k(T)P^}  instead of $\frac{1}{n}, where k(T) is the temperature-dependent constant.
+* **Mistake 2:** Not considering the effect of temperature on adsorption, using } $\frac{x}{m}$ = $\frac{a}{V}\frac{x}{m} = kP^\frac{{1}{n}$}{$\frac{x}{m}$ = k(T)P^}  instead of $\frac{1}{n}, where k(T) is the temperature-dependent constant.
 
-* **Mistake 3:** Not considering the effect of surface roughness on adsorption, using \frac{x}{m} = kP^$\frac{{1}{n}}{\frac{x}{m} = k(S)P^}  instead of $\frac{1}{n}, where k(S) is the surface-roughness-dependent constant.
+* **Mistake 3:** Not considering the effect of surface roughness on adsorption, using $\frac{x}{m}$ = kP^$\frac{{1}{n}}{\frac{x}{m} = k(S)P^}  instead of \frac{1}{n}$, where k(S) is the surface-roughness-dependent constant.
 
-* **Mistake 4:** Not considering the effect of impurities on adsorption, using \frac{x}{m} = kP^$\frac{{1}{n}}{\frac{x}{m} = k(I)P^}  instead of $\frac{1}{n}, where k(I) is the impurity-dependent constant.
+* **Mistake 4:** Not considering the effect of impurities on adsorption, using $\frac{x}{m}$ = kP^$\frac{{1}{n}}{\frac{x}{m} = k(I)P^}  instead of \frac{1}{n}$, where k(I) is the impurity-dependent constant.
 
-* **Mistake 5:** Not considering the effect of particle size on adsorption, using \frac{x}{m} = kP^$\frac{{1}{n}}{\frac{x}{m} = k(P)P^}  instead of $\frac{1}{n}, where k(P) is the particle-size-dependent constant.
+* **Mistake 5:** Not considering the effect of particle size on adsorption, using $\frac{x}{m}$ = kP^$\frac{{1}{n}}{\frac{x}{m} = k(P)P^}  instead of \frac{1}{n}$, where k(P) is the particle-size-dependent constant.
 
 
 
@@ -229,7 +229,7 @@ The 5 trap mistakes are common errors that students make when studying surface c
 
 #### 📊 Mistake 1: Incorrect Application of Adsorption Formula
 
-The first mistake is incorrectly applying the formula for the amount of adsorption. The correct formula is \frac{x}{m} = $\frac{{a}{V}}{\frac{x}{m}} , where x is the mass of gas adsorbed, m is the mass of the adsorbent, a is the surface area of the adsorbent, and V is the volume of the gas. However, many students mistakenly use $ instead, which is incorrect.
+The first mistake is incorrectly applying the formula for the amount of adsorption. The correct formula is $\frac{x}{m}$ = $\frac{{a}{V}}{\frac{x}{m}} , where x is the mass of gas adsorbed, m is the mass of the adsorbent, a is the surface area of the adsorbent, and V is the volume of the gas. However, many students mistakenly use $ instead, which is incorrect.
 
 
 
@@ -337,3 +337,4 @@ Continue your revision with these related guides:
 - 📖 [Metallurgy Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/metallurgy-class-12-notes)
 - 📖 [Solid State Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](/blog/solid-state-class-12-notes)
 - 📖 [Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-integrals-class-12-notes)
+

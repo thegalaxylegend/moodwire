@@ -76,7 +76,7 @@ Photosynthesis is a critical topic in the [class](/blog/environmental-chemistry-
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div class="callout-box">
+<div [class](/blog/physical-world-class-11-revision-notes-jee-neet)="callout-box">
 I still remember when I was preparing for my JEE exam, I used to get confused between the light-dependent and light-independent reactions. I would often mix up the equations and the reactants. But then I realized that the light-dependent reactions are all about generating ATP and NADPH, while the light-independent reactions are all about fixing CO2 into glucose. Once I understood this, the entire process became much clearer, and I was able to answer questions with confidence. My advice to you would be to focus on understanding the concepts rather than just memorizing the equations.
 </div>
 
@@ -114,10 +114,8 @@ Answer: B) ATP and NADPH
 
 ### <a id="trap-question-2"></a>Trap Question 2
 What is the equation for the Calvin cycle?
-A) $3CO_2 + 9ATP + 6NADPH \rightarrow C_3H_6O_3 + 9ADP + 6NADP^+$
-B) $6CO_2 + 6H_2O \rightarrow C_6H_{12}O_6 + 6O_2$
-C) $H_2O \rightarrow ATP + NADPH + O_2$
-D) $CO_2 + H_2O \rightarrow Glucose + O_2$
+A) $3CO_2 + 9ATP + 6NADPH \rightarrow C_3H_6O_3 + 9ADP + 6NADP^+$ B) 6CO_2 + 6H_2O \rightarrow C_6H_{12}O_6 + 6O_2 
+C) $H_2O \rightarrow ATP + NADPH + O_2$ D) CO_2 + H_2O \rightarrow Glucose + O_2 
 
 Answer: A) $3CO_2 + 9ATP + 6NADPH \rightarrow C_3H_6O_3 + 9ADP + 6NADP^+$
 
@@ -146,12 +144,9 @@ Answer: B) Glucose
 
 ### <a id="mcq-3"></a>MCQ 3
 What is the equation for photosynthesis?
-A) $6CO_2 + 6H_2O \rightarrow C_6H_{12}O_6 + 6O_2$
+ A) 6CO_2 + 6H_2O \rightarrow C_6H_{12}O_6 + 6O_2 
 B) $3CO_2 + 9ATP + 6NADPH \rightarrow C_3H_6O_3 + 9ADP + 6NADP^+$
-C) $H_2O \rightarrow ATP + NADPH + O_2$
-D) $CO_2 + H_2O \rightarrow Glucose + O_2$
-
-Answer: A) $6CO_2 + 6H_2O \rightarrow C_6H_{12}O_6 + 6O_2$
+C) $H_2O \rightarrow ATP + NADPH + O_2$ D) CO_2 + H_2O \rightarrow Glucose + O_2  Answer: A) 6CO_2 + 6H_2O \rightarrow C_6H_{12}O_6 + 6O_2 
 
 
 

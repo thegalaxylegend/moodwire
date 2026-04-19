@@ -46,5 +46,77 @@
     "rootCause": "Auto-learned pattern from General failure: 401 {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}",
     "fix": "Review this auto-learned pattern and refine the fix recommendation.",
     "priority": "medium"
+  },
+  {
+    "date": "2026-04-19",
+    "slug": "factorisation-class-8-notes",
+    "failureType": "JSON_PARSE_FAILURE",
+    "rootCause": "LLM returned malformed JSON. Likely exceeded token limit or included markdown in JSON body.",
+    "fix": "Reduce max_tokens or add stricter JSON validation. Add JSON repair fallback.",
+    "priority": "critical"
+  },
+  {
+    "date": "2026-04-19",
+    "slug": "chemical-reactions-and-equations-class-10-notes",
+    "failureType": "JSON_PARSE_FAILURE",
+    "rootCause": "LLM returned malformed JSON. Likely exceeded token limit or included markdown in JSON body.",
+    "fix": "Reduce max_tokens or add stricter JSON validation. Add JSON repair fallback.",
+    "priority": "critical"
+  },
+  {
+    "date": "2026-04-19",
+    "slug": "acids-bases-and-salts-class-10-notes",
+    "failureType": "JSON_PARSE_FAILURE",
+    "rootCause": "LLM returned malformed JSON. Likely exceeded token limit or included markdown in JSON body.",
+    "fix": "Reduce max_tokens or add stricter JSON validation. Add JSON repair fallback.",
+    "priority": "critical"
+  },
+  {
+    "date": "2026-04-19",
+    "slug": "trigonometric-functions-class-11-revision-notes-jee-neet",
+    "failureType": "JSON_PARSE_FAILURE",
+    "rootCause": "LLM returned malformed JSON. Likely exceeded token limit or included markdown in JSON body.",
+    "fix": "Reduce max_tokens or add stricter JSON validation. Add JSON repair fallback.",
+    "priority": "critical"
+  },
+  {
+    "date": "2026-04-19",
+    "slug": "local-government-class-11-revision-notes-cbse",
+    "failureType": "JSON_PARSE_FAILURE",
+    "rootCause": "LLM returned malformed JSON. Likely exceeded token limit or included markdown in JSON body.",
+    "fix": "Reduce max_tokens or add stricter JSON validation. Add JSON repair fallback.",
+    "priority": "critical"
+  },
+  {
+    "date": "2026-04-19",
+    "slug": "physics-heat-light-class-11-revision-notes-jee-neet",
+    "failureType": "JSON_PARSE_FAILURE",
+    "rootCause": "LLM returned malformed JSON. Likely exceeded token limit or included markdown in JSON body.",
+    "fix": "Reduce max_tokens or add stricter JSON validation. Add JSON repair fallback.",
+    "priority": "critical"
+  },
+  {
+    "date": "2026-04-19",
+    "slug": "physics-mechanics-class-11-revision-notes-jee-neet",
+    "failureType": "JSON_PARSE_FAILURE",
+    "rootCause": "LLM returned malformed JSON. Likely exceeded token limit or included markdown in JSON body.",
+    "fix": "Reduce max_tokens or add stricter JSON validation. Add JSON repair fallback.",
+    "priority": "critical"
+  },
+  {
+    "date": "2026-04-19",
+    "slug": "poverty-unemployment-class-11-revision-notes-jee-neet",
+    "failureType": "JSON_PARSE_FAILURE",
+    "rootCause": "LLM returned malformed JSON. Likely exceeded token limit or included markdown in JSON body.",
+    "fix": "Reduce max_tokens or add stricter JSON validation. Add JSON repair fallback.",
+    "priority": "critical"
+  },
+  {
+    "date": "2026-04-19",
+    "slug": "anatomy-of-flowering-plants-class-11-revision-notes-neet",
+    "failureType": "JSON_PARSE_FAILURE",
+    "rootCause": "LLM returned malformed JSON. Likely exceeded token limit or included markdown in JSON body.",
+    "fix": "Reduce max_tokens or add stricter JSON validation. Add JSON repair fallback.",
+    "priority": "critical"
   }
 ]

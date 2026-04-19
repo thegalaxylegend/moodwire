@@ -21,16 +21,16 @@ manualReview: false
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Slope (m) of a Line:** m = \frac{y_2 - y_1}{x_2 - x_1} — where $m$ is the slope of the line passing through points $(x_1, y_1)$ and $(x_2, y_2)$.
+- **Slope (m) of a Line:** m = $\frac{y_2 - y_1}{x_2 - x_1}$ — where $m$ is the slope of the line passing through points $(x_1, y_1)$ and $(x_2, y_2)$.
  - **Slope-Intercept Form of a Line:** y = mx + c — where $m$ is the slope of the line and $c$ is the $y$-intercept.
  - **Point-Slope Form of a Line:** y - y_1 = m(x - x_1) — where $m$ is the slope of the line and $(x_1, y_1)$ is a point on the line.
- - **Two-Point Form of a Line:** y - y_1 = \frac{y_2 - y_1}{x_2 - x_1}(x - x_1) — where $(x_1, y_1)$ and $(x_2, y_2)$ are two points on the line.
+ - **Two-Point Form of a Line:** y - y_1 = $\frac{y_2 - y_1}{x_2 - x_1}$(x - x_1) — where $(x_1, y_1)$ and $(x_2, y_2)$ are two points on the line.
  - **Equation of a Line in Normal Form:** x \cos \alpha + y \sin \alpha = p — where $p$ is the length of the perpendicular from the origin to the line, and $\alpha$ is the angle between the perpendicular and the positive $x$-axis.
- - **Distance between a Point and a Line:** d = \frac{|Ax + By + C|}{\sqrt{A^2 + B^2}} — where $Ax + By + C = 0$ is the equation of the line, and $(x, y)$ is the point.
- - **Angle between Two Lines:** \tan \theta = left| \frac{m_1 - m_2}{1 + m_1 m_2} ight| — where $m_1$ and $m_2$ are the slopes of the two lines.
+ - **Distance between a Point and a Line:** d = $\frac{|Ax + By + C|}{\sqrt{A^2 + B^2}$} — where $Ax + By + C = 0$ is the equation of the line, and $(x, y)$ is the point.
+ - **Angle between Two Lines:** \tan \theta = left| $\frac{m_1 - m_2}{1 + m_1 m_2}$ ight| — where $m_1$ and $m_2$ are the slopes of the two lines.
  - **Condition for Parallel Lines:** m_1 = m_2 — where $m_1$ and $m_2$ are the slopes of the two lines.
  - **Condition for Perpendicular Lines:** m_1 m_2 = -1 — where $m_1$ and $m_2$ are the slopes of the two lines.
- - **Length of the Perpendicular from a Point to a Line:** d = \frac{|y_1 - m x_1 - c|}{\sqrt{m^2 + 1}} — where $(x_1, y_1)$ is the point and $y = mx + c$ is the equation of the line.
+ - **Length of the Perpendicular from a Point to a Line:** d = $\frac{|y_1 - m x_1 - c|}{\sqrt{m^2 + 1}$} — where $(x_1, y_1)$ is the point and $y = mx + c$ is the equation of the line.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -151,50 +151,50 @@ manualReview: false
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. A line intersects a circle at two points. The points of intersection are:**
-**A)**      The points are collinear.
-**B)**      The points are always equidistant from the centre.
-**C)**      The points are always on the circumference.
-**D)**      The points are never collinear.
+**A)**       The points are collinear.
+**B)**       The points are always equidistant from the centre.
+**C)**       The points are always on the circumference.
+**D)**       The points are never collinear.
 
 **Answer:** C) The points of intersection lie on the circumference of the circle.
 
 ---
 
 **2. What is the nature of the angle formed between a tangent and a chord intersecting at a point on the circle?**
-**A)**      The angle is always greater than 90 degrees.
-**B)**      The angle is always less than 90 degrees.
-**C)**      The angle is always a right angle.
-**D)**      The angle is equal to the angle in the alternate segment.
+**A)**       The angle is always greater than 90 degrees.
+**B)**       The angle is always less than 90 degrees.
+**C)**       The angle is always a right angle.
+**D)**       The angle is equal to the angle in the alternate segment.
 
 **Answer:** C) The angle formed between a tangent and a chord is always a right angle.
 
 ---
 
 **3. In an isosceles triangle, the angles are in the ratio of 2:3. What is the value of the smallest angle in degrees?**
-**A)**      36
-**B)**      36.86
-**C)**      36.87
-**D)**      36.9
+**A)**       36
+**B)**       36.86
+**C)**       36.87
+**D)**       36.9
 
 **Answer:** A) Since the angles are in the ratio 2:3 and \sum of the angles in a triangle is 180 degrees, let the angles be 2x and 3x. So, 2x + 3x + 2x = 180, 7x = 180, x = 180/7 = 25.71. The smallest angle = 2x = 51.42. However, in a triangle, the smallest angle will be opposite to the shortest side. In an isosceles triangle, the sides opposite to the equal angles are equal, so the smallest angle is opposite to the shortest side. So, the correct answer for the smallest angle is 36 degrees as it is the only value among the options.
 
 ---
 
 **4. What is the measure of the angle formed when a line intersects two parallel lines?**
-**A)**      More than 90 degrees.
-**B)**      Equal to 90 degrees.
-**C)**      Less than 90 degrees.
-**D)**      Equal to the angle of elevation.
+**A)**       More than 90 degrees.
+**B)**       Equal to 90 degrees.
+**C)**       Less than 90 degrees.
+**D)**       Equal to the angle of elevation.
 
 **Answer:** C) The angle formed when a line intersects two parallel lines is always less than 90 degrees.
 
 ---
 
 **5. Two lines in a plane are intersected by a transversal. If the alternate interior angles are equal, what can be concluded about the two lines?**
-**A)**      The lines are parallel.
-**B)**      The lines are perpendicular.
-**C)**      The lines are skew.
-**D)**      The lines are concurrent.
+**A)**       The lines are parallel.
+**B)**       The lines are perpendicular.
+**C)**       The lines are skew.
+**D)**       The lines are concurrent.
 
 **Answer:** A) If the alternate interior angles are equal, then the two lines are parallel.
 

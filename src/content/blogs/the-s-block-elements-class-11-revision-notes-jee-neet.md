@@ -75,7 +75,7 @@ This chapter is important because it helps us understand the properties and beha
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div class="callout-box">
+<div [class](/blog/biological-classification-class-11-revision-notes-neet)="callout-box">
 I still remember when I was preparing for JEE, I used to get confused between the alkali metals and alkaline earth metals. I would often mix up their properties and reactions. But then I realized that the key to understanding these elements is to focus on their electron configuration and the way they lose electrons to form positive ions. For example, the alkali metals have a single electron in their outermost shell, which they can easily lose to form a positive ion. On the other hand, the alkaline earth metals have two electrons in their outermost shell, which makes them less reactive than the alkali metals. By understanding these differences, I was able to solve problems related to the s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) elements with ease.
 </div>
 
@@ -103,7 +103,7 @@ The s-[block](/blog/the-p-block-elements-11-class-11-revision-notes-jee-neet) el
 
 One shortcut formula that can be used to remember the properties of the s-block elements is:
 
-$\text{Reactivity} \propto $\frac{{1}}{}
+$\text{Reactivity} \propto \frac{{1}$}{}
 
 
 This formula states that the reactivity of an element is inversely proportional to its ionization energy. This means that elements with low ionization energy are highly reactive, while elements with high ionization energy are less reactive.
@@ -218,3 +218,4 @@ Continue your [revision](/blog/environmental-chemistry-class-11-revision-notes-n
 - 📖 [Physical World Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/physical-world-class-11-revision-notes-jee-neet)
 - 📖 [Biological Classification Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biological-classification-class-11-revision-notes-neet)
 - 📖 [Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)
+

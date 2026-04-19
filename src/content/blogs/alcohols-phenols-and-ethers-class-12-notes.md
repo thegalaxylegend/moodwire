@@ -14,7 +14,7 @@ practice_link: "/class-11/chemistry/alcohols-phenols-and-ethers-class-12-notes"
   - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
 - [📚 Related Topics](#-related-topics)
 </div>
-<div class="quick-summary">
+<DIV [class](/blog/chemical-bonding-class-11-revision-notes-jee-neet)="quick-summary">
 #- [📋 Table of Contents](#-table-of-contents)
 ## <a id="-what-will-come-in-your-exam"></a>🎯 What WILL Come in Your Exam
 * 1–2 questions on classification, nomenclature, and isomerism of alcohols, phenols, and ethers — always focus on IUPAC naming conventions and practice identifying primary, secondary, and tertiary alcohols.
@@ -23,7 +23,7 @@ practice_link: "/class-11/chemistry/alcohols-phenols-and-ethers-class-12-notes"
 * Oxidation of alcohols to carbonyl compounds — always remember the reagents used, such as $\math{KMnO_4}$, $\math{K_2Cr_2O_7}$, and $\math{PCC}$, and be prepared to identify the products.
 * Phenol's acidity and basicity — at least 1 question comparing the $\math{pK_a}$ values of phenol and alcohols, and discussing the reasons behind their relative acidities.
 * Ethers' preparation via $\math{ Williamson}$ synthesis — expect a question on this, including the reaction conditions and the importance of using a strong base.
-* Numerical problems involving the boiling points and solubilities of alcohols, phenols, and ethers — use $\Delta \math{H_{vap}}$ and intermolecular forces to explain the trends.
+* Numerical problems involving the boiling points and solubilities of alcohols, phenols, and ethers — use $\delta \math{H_{vap}}$ and intermolecular forces to explain the trends.
 * Reaction of phenols with $\math{FeCl_3}$ — a common question, where you need to identify the product and explain the test for phenols.
 * 1 question on the distinction between alcohols, phenols, and ethers using chemical tests — practice identifying the reagents used and the expected outcomes, such as the $\math{Lucas}$ test and the $\math{Victor}\math{Meyer}$ test.
 * Stereo chemical aspects of alcohol and ether reactions — at least 1 question on the  outcomes of $\{SN1}$ and $\{SN2}$ reactions involving these compounds.
@@ -114,3 +114,4 @@ Continue your [revision](/blog/chemical-bonding-class-11-revision-notes-jee-neet
 |:---|:---:|:---:|:---:|
 | **ammonia** | H3N | 17.031 g/MOL | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/222) |
 | **carbon dioxide** | CO2 | 44.009 g/MOL | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/280) |
+$

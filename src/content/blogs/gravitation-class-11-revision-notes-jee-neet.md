@@ -29,7 +29,7 @@ practice_link: "/class-11/physics/gravitation-class-11-revision-notes-jee-neet"
 - [📚 Related Topics](#-related-topics)
 
 
-# Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide
+# Gravitation Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide
 
 
 
@@ -47,7 +47,7 @@ practice_link: "/class-11/physics/gravitation-class-11-revision-notes-jee-neet"
 > - **Gravity (g):** g = GM/R². Variation: Deep g' = g(1 - h/R); Height g' = g(1 - 2h/R).
 > - **Kepler's 3rd Law:** T² ∝ r³. (T²/r³ = Constant).
 > - **Escape Velocity:** v_e = √(2GM/R) = √(2gR). For Earth, v_e ≈ 11.2 km/s.
-> - **Orbital Velocity:** v_o = √(GM/r). v_e = √2 v_o.
+> - **Orbital Velocity:** v_o = √(GM/r). V_e = √2 v_o.
 > [**📥 Download 1-Page Short Notes PDF (Zero-Friction)**](#)
 
 ---
@@ -55,7 +55,7 @@ practice_link: "/class-11/physics/gravitation-class-11-revision-notes-jee-neet"
 
 ## <a id="introduction"></a>Introduction
 
-Gravitation is the universal force of attraction that binds the universe together. From the simple falling of an apple observed by Newton to the complex orbital dance of the planets described by Kepler, gravitation is the invisible thread of cosmic order. In this "Comprehensive" guide, we provide a mathematically rigorous expansion of Chapter 7, featuring formal derivations for the variation of 'g', gravitational potential energy, and the physics of satellites—providing the depth required for high-stakes exams like JEE and [neet](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet).
+Gravitation is the universal force of attraction that binds the universe together. From the simple falling of an apple observed by Newton to the complex orbital dance of the planets described by Kepler, gravitation is the invisible thread of cosmic order. In this "Comprehensive" guide, we provide a mathematically rigorous expansion of Chapter 7, featuring formal derivations for the variation of 'g', gravitational potential energy, and the physics of satellites—providing the depth required for high-stakes exams like JEE and [meet](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet).
 
 ---
 
@@ -82,18 +82,18 @@ Every particle in the universe attracts every other particle with a force that i
 The acceleration due to gravity (**g = GM/R²**) is not a constant; it varies with altitude and depth.
 
 ### <a id="i-variation-with-altitude-h"></a>I. Variation with Altitude (h)
-Let **g** be the acceleration at surface and **gh** at height **h**.
-1.  **gh = GM / (R + h)²**
-2.  **gh = (GM/R²) · [R² / (R + h)²] = g [1 + h/R]⁻²**
+Let **g** be the acceleration at surface and **GH** at height **h**.
+1.  **GH = GM / (R + h)²**
+2.  **GH = (GM/R²) · [R² / (R + h)²] = g [1 + h/R]⁻²**
 3.  For **h ≪ R**, using Binomial Expansion:
-    - **gh = g (1 - 2h/R)**. (Proven)
+    - **GH = g (1 - 2h/R)**. (Proven)
 
 ### <a id="ii-variation-with-depth-d"></a>II. Variation with Depth (d)
-Let **gd** be acceleration at depth **d**.
+Let **Gd** be acceleration at depth **d**.
 1.  Mass of Earth interior to depth **d** is **M' = M [(R-d)/R]³**.
-2.  **gd = G M' / (R-d)² = G M (R-d) / R³**
-3.  **gd = (GM/R²) · [(R-d)/R]**
-4.  **gd = g (1 - d/R)**. (Proven)
+2.  **Gd = G M' / (R-d)² = G M (R-d) / R³**
+3.  **Gd = (GM/R²) · [(R-d)/R]**
+4.  **Gd = g (1 - d/R)**. (Proven)
 **Conclusion:** Gravity decreases whether you go up into the sky or down into a mine.
 
 ---
@@ -104,12 +104,12 @@ Let **gd** be acceleration at depth **d**.
 ## <a id="3-gravitational-potential-energy-u"></a>3. Gravitational Potential Energy (U)
 
 **Derivation:** The work done in bringing a mass **m** from infinity to a point **r**.
-1.  **dW = F dr = (GMm / r²) dr**.
+1.  **DW = F dr = (Mm / r²) dr**.
 2.  Integrating from **∞ to r**:
-    - **U = ∫ [∞ to r] (GMm / r²) dr**
-    - **U = GMm [-1/r]∞ʳ**
-    - **U = -GMm / r**. (Proven)
-**Note:** The negative sign indicates that the force is attractive and the system is bound.
+    - **U = ∫ [∞ to r] (Mm / r²) dr**
+    - **U = Mm [-1/r]∞ʳ**
+    - **U = -Mm / r**. (Proven)
+**Note:** The negative sign indicates that the force is attractive, and the system is bound.
 
 ---
 
@@ -121,8 +121,8 @@ Let **gd** be acceleration at depth **d**.
 The minimum velocity required for an object to break free from Earth's gravitational pull.
 **Derivation:**
 1.  Using Conservation of Energy: **Total Energy at Surface = Total Energy at Infinity**.
-2.  **(1/2 mv_e²) + (-GMm/R) = 0 + 0**. (At infinity, both K and U are zero).
-3.  **1/2 mv_e² = GMm / R**.
+2.  **(1/2 MV_e²) + (-Mm/R) = 0 + 0**. (At infinity, both K and U are zero).
+3.  **1/2 MV_e² = Mm / R**.
 4.  **v_e = √(2GM/R) = √(2gR)**.
 **Earth Value:** v_e ≈ 11.2 km/s.
 
@@ -138,7 +138,7 @@ The minimum velocity required for an object to break free from Earth's gravitati
 3.  **Law of Periods (T² ∝ R³):**
     **Derivation for Circular Orbits:**
     - Centripetal Force = Gravitational Force
-    - **mv² / R = GmM / R²** => **v² = GM / R**.
+    - **MV² / R = Mm / R²** => **v² = GM / R**.
     - Since **v = 2πR / T**:
     - **(4π²R² / T²) = GM / R**
     - **T² = (4π²/GM) R³**. (Proven)
@@ -148,11 +148,11 @@ The minimum velocity required for an object to break free from Earth's gravitati
 
 
 
-## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
+## <a id="comprehensive-exam-strategy-Qaeda"></a>Comprehensive Exam Strategy (Q&A)
 
 **Q1: Where is the weight of a body zero?**
 **Answer:**
-1.  At the **Centre of the Earth** (where d = R, gd = 0).
+1.  At the **Centre of the Earth** (where d = R, Gd = 0).
 2.  In a **freely falling elevator** (Effective g = 0).
 3.  During **space travel** at a point where the gravitational pulls of different celestial bodies cancel each other out.
 
@@ -178,7 +178,7 @@ The minimum velocity required for an object to break free from Earth's gravitati
 
 ## <a id="conclusion"></a>Conclusion
 
-Gravitation is the foundational law of the macro-universe. By understanding how gravity changes with position and how energy is stored in gravitational fields, we can unlock the secrets of satellite technology, space exploration, and the very structure of the cosmos. Master the derivations of 'g' and escape velocity—these are the equations that humanity used to reach the Moon and beyond. Stay grounded, but keep looking up!
+Gravitation is the foundational law of the macro-universe. By understanding how gravity changes with position and how energy is stored in gravitational [fields](/blog/electric-charges-fields-class-11-revision-notes-jee-neet), we can unlock the secrets of satellite technology, space exploration, and the very structure of the cosmos. Master the derivations of 'g' and escape velocity—these are the equations that humanity used to reach the Moon and beyond. Stay grounded, but keep looking up!
 
 ---
 **Reference:** [NASA: Gravity and Orbits Guide](https://www.nasa.gov/audience/forstudents/5-8/features/nasa-knows/what-is-orbit-58.html)
@@ -193,10 +193,10 @@ Gravitation is the foundational law of the macro-universe. By understanding how 
 
 Continue your [revision](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) with these related guides:
 
-- 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
-- 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
-- 📖 [Kinetic Theory Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)
+- 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
+- 📖 [Oscillations Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Kinetic Theory Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)
 
 
 ---
@@ -211,7 +211,19 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 Continue your [revision](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) with these related guides:
 
-- 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
-- 📖 [Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
-- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
-- 📖 [Kinetic Theory Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)
+- 📖 [Mechanical Properties Of Solids Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet)
+- 📖 [Oscillations Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/oscillations-class-11-revision-notes-jee-neet)
+- 📖 [Motion In A Straight Line Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet)
+- 📖 [Kinetic Theory Class 11 Physics Revision — JEE & MEET 2026 Grandmaster Guide](/blog/kinetic-theory-class-11-revision-notes-jee-neet)
+
+## 🪤 The 5 Mistakes That Cost Marks
+
+* **Forgetting to consider the sign of gravitational potential**: Many students forget that gravitational potential can be negative, which can lead to incorrect calculations, especially when dealing with problems involving escape velocity or orbital energy.
+* **Confusing gravitational field and gravitational potential**: Some students fail to differentiate between gravitational field (a vector quantity) and gravitational potential (a scalar quantity), leading to incorrect applications of formulas and principles.
+* **Incorrect application of the inverse square law**: Students often mistakenly apply the inverse square law to gravitational potential instead of gravitational field, or vice versa, resulting in incorrect calculations and answers.
+* **Not considering the reference level for gravitational potential**: Many students forget to consider the reference level when calculating gravitational potential, which can lead to incorrect results, especially in problems involving changes in gravitational potential energy.
+* **Forgetting to include the negative sign in the formula for gravitational potential energy**: Some students forget to include the negative sign in the formula for gravitational potential energy (U = -Mm/r), leading to incorrect calculations and answers, especially in problems involving energy conservation.
+
+## 🔁 Last 5 Minutes Box
+
+* **Gravitational Force**: F = G * (m1 * m2) / r^2, where G = 6.67 * 10^-11 N’m^2/kg^2

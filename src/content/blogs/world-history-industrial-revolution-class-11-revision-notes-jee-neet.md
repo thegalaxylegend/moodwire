@@ -118,7 +118,7 @@ The following table summarizes the key features of the Industrial Revolution:
 
 The following formulae are relevant to the Industrial Revolution:
 
-$\text{Productivity} = \frac$\text{Output$}$\text{Input$}$\text{Efficiency} = \frac\text{Output$}$\text{Cost$}
+$\text{Productivity} = \frac$\text{Output$}$\text{Input$}\text{Efficiency}$ = \frac\text{Output$}\text{Cost$}$
 
 
 
@@ -202,7 +202,7 @@ The following table summarizes the key features of the Industrial Revolution:
 
 The following formulae are relevant to the Industrial Revolution:
 
-$\text{Productivity} = \frac$\text{Output$}$\text{Input$}$\text{Efficiency} = \frac$\text{Output$}$\text{Cost$}
+$\text{Productivity} = \frac$\text{Output$}$\text{Input$}\text{Efficiency}$ = \frac$\text{Output$}$\text{Cost$}
 
 
 
@@ -386,7 +386,7 @@ I, Ayush, believe that learning is an ongoing process, and that it is essential 
 I, Ayush, look forward to my future studies, and I am excited to learn more about the Industrial Revolution and its ongoing impact on our world. I believe that understanding the Industrial Revolution is essential for understanding the modern world, and I am committed to continuing my studies and [revision](/blog/geomorphology-class-11-revision-notes-cbse) throughout my academic career.
 
 #### Ongoing Revision
-I, Ayush, make ongoing revision a priority, and I review my notes and study materials regularly. I practice MCQs to assess my knowledge and identify areas for improvement, and I use LaTeX to format my notes and make them more readable.
+I, Ayush, make ongoing [revision](/blog/neural-control-and-coordination-class-11-revision-notes-neet) a priority, and I review my notes and study materials regularly. I practice MCQs to assess my knowledge and identify areas for improvement, and I use LaTeX to format my notes and make them more readable.
 
 By following this approach, I am confident that I can achieve academic success and continue to learn and grow throughout my academic career.
 
@@ -660,3 +660,5 @@ Continue your revision with these related guides:
 - 📖 [Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide](/blog/ancient-india-vedic-age-class-11-revision-notes-jee)
 - 📖 [Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)
 **
+
+$

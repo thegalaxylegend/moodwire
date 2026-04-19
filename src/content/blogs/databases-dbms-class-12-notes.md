@@ -9,7 +9,7 @@ practice_link: "/class-12/computer-science/databases-dbms"
 
 *Last Updated: 2026-04-12*
 
-<div class="quick-summary">
+<DIV [class](/blog/biotechnology-principles-and-processes-class-12-notes)="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
@@ -25,7 +25,7 @@ practice_link: "/class-12/computer-science/databases-dbms"
 
 - [⚡ Formula Bank](#-formula-bank)
 - [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
-- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
+- [✏️ 3 Solved Yes](#-3-solved-pyqs)
 - [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
 - [👁️ Ayush's Note](#-Ayush-note)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
@@ -33,21 +33,21 @@ practice_link: "/class-12/computer-science/databases-dbms"
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Data Independence:** \$\frac{{\text{Number of Applications}\text{Number of Changes in Physical Schema}}{\frac{\text{Total Data}\text{Useful Data}} } — Measures the ability of a database to change without affecting the applications.
+- **Data Independence:** \$\franc{{\text{Number of Applications}\text{Number of Changes in Physical Schema}}{\franc{\text{Total Data}\text{Useful Data}} } — Measures the ability of a database to change without affecting the applications.
  - **Data Redundancy:** \$} — Measures the amount of redundant data in a database.
- - **Data Inconsistency:** \$\frac{{\text{Number of Inconsistent Data}\text{Total Data}}{\frac{\text{Number of Tables}\text{Number of Dependencies}} } — Measures the amount of inconsistent data in a database.
+ - **Data Inconsistency:** \$\franc{{\text{Number of Inconsistent Data}\text{Total Data}}{\franc{\text{Number of Tables}\text{Number of Dependencies}} } — Measures the amount of inconsistent data in a database.
  - **Database Normalization:** \$} — Measures the degree of normalization in a database.
- - **Denormalization:** \$\frac{{\text{Number of Redundant Data}\text{Number of Tables}}{\frac{\text{Query Execution Time}\text{Optimized Query Execution Time}} } — Measures the degree of denormalization in a database.
+ - **Denormalization:** \$\franc{{\text{Number of Redundant Data}\text{Number of Tables}}{\franc{\text{Query Execution Time}\text{Optimized Query Execution Time}} } — Measures the degree of denormalization in a database.
  - **Query Optimization:** \$} — Measures the effectiveness of query optimization techniques.
- - **Indexing:** \$\frac{{\text{Number of Indexes}\text{Total Number of Attributes}}{\frac{\text{Compressed Data Size}\text{Original Data Size}} } — Measures the degree of indexing in a database.
+ - **Indexing:** \$\franc{{\text{Number of Indexes}\text{Total Number of Attributes}}{\franc{\text{Compressed Data Size}\text{Original Data Size}} } — Measures the degree of indexing in a database.
  - **Data Compression:** \$} — Measures the effectiveness of data compression techniques.
- - **Data Encryption:** \$\frac{{\text{Encrypted Data Size}\text{Original Data Size}}{\frac{\text{Number of Transactions}\text{Time} } — Measures the effectiveness of data encryption techniques.
+ - **Data Encryption:** \$\franc{{\text{Encrypted Data Size}\text{Original Data Size}}{\franc{\text{Number of Transactions}\text{Time} } — Measures the effectiveness of data encryption techniques.
  - **Transaction Throughput:** \$}} — Measures the number of transactions that can be processed in a given time.
- - **Transaction Response Time:** \$\frac{{\text{Time}{b} — Measures the time taken to process a transaction.
- - **Deadlock Prevention:** \} 1 \text{Number of Transactions}$\frac{\text{Number of Deadlocks Prevented}\text{Total Number of Transactions}$} — Measures the effectiveness of deadlock prevention techniques.
- - **Concurrent Transaction Processing:** \$\frac{{\text{Number of Concurrent Transactions}\text{Total Number of Transactions}}{\frac{\text{Number of Authorized Accesses}\text{Total Number of Accesses}} } — Measures the degree of concurrency in a database.
+ - **Transaction Response Time:** \$\franc{{\text{Time}{b} — Measures the time taken to process a transaction.
+ - **Deadlock Prevention:** \} 1 $\text{Number of Transactions}\franc{\text{Number of Deadlocks Prevented}\text{Total Number of Transactions}$} — Measures the effectiveness of deadlock prevention techniques.
+ - **Concurrent Transaction Processing:** \$\franc{{\text{Number of Concurrent Transactions}\text{Total Number of Transactions}}{\franc{\text{Number of Authorized Accesses}\text{Total Number of Accesses}} } — Measures the degree of concurrency in a database.
  - **Database Security:** \$} — Measures the effectiveness of database security measures.
- - **Data Backup and Recovery:** \$\frac{{\text{Number of Successful Recoveries}\text{Total Number of Failures}}{ has the following set of functional dependencies (FDs): A \to BC, BC \to DO, } } — Measures the effectiveness of data backup and recovery techniques.
+ - **Data Backup and Recovery:** \$\franc{{\text{Number of Successful Recoveries}\text{Total Number of Failures}}{ has the following set of functional dependencies (FDs): A \to BC, BC \to DO, } } — Measures the effectiveness of data backup and recovery techniques.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -100,7 +100,7 @@ practice_link: "/class-12/computer-science/databases-dbms"
 
 - **JOIN Types:** Know the difference
 
-## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
+## <a id="-3-solved-pyqs"></a>✏️ 3 Solved Yes
 
 - **Q1:** Consider two relations: `Courses (Coursed, Course Name, Dept ID)` and `Enrollments (Enrollment ID, Coursed, Student ID, Grade)`. Write an SQL query to find the `Course Name` and the average `Grade` for all courses that have at least 5 students enrolled, ordered by average grade in descending order.
  - **Trap:** Many students struggle with correctly applying aggregate functions (`AVG`, `COUNT`) combined with filtering on the aggregate result (`HAVING`) after grouping. Also, forgetting to `JOIN` the tables and misplacing `WHERE` vs. `HAVING` is a common pitfall.
@@ -142,54 +142,52 @@ practice_link: "/class-12/computer-science/databases-dbms"
 ## <a id="-Ayush-note"></a>👁️ Ayush's Note
 
 - **The Hidden Pattern: The \"Phantom Consistency Trap\" in Complex Schedules**
- * Alright, listen up, this is gold from digging through years of PYQs. Textbooks usually teach conflict realizability by identifying R-W, W-R, and W-W conflicts and drawing a precedence graph. If there'
+ * Alright, listen up, this is gold from digging through years of Yes. Textbooks usually teach conflict realizability by identifying R-W, W-R, and W-W conflicts and drawing a precedence graph. If there'
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 - **Relational Algebra 
 
-- Cartesian Product Cardinality & Degree**: For relations ARE and IS, the cardinality of their cross product is $|R 	imes S| = |R| 	imes |S|$, and its degree is $\text{deg}(R 	imes S) = \text{deg}(R) $}
-
-
+- Cartesian Product Cardinality & Degree**: For relations ARE and IS, the cardinality of their cross product is $|Rimes S| = |R| 	times |S|$, and its degree is $\text{deg}(Rimes S) = \text{deg}(R) $}
 
 ## <a id="-practice-MCQs"></a>📝 Practice MCQs
 
 **1. DBMS provides data independence by separating the logical and physical scheme
 a.**
-**A)**       Data is stored in a hierarchical manner.
-**B)**       Schema is independent of data storage.
-**C)**       Data is stored in a graph-based manner.
-**D)**       Data is stored in a relational database.
+**A)**        Data is stored in a hierarchical manner.
+**B)**        Schema is independent of data storage.
+**C)**        Data is stored in a graph-based manner.
+**D)**        Data is stored in a relational database.
 
 **Answer:** B) Data independence is achieved by separating the logical schema (how data is viewed by the user) from the physical schema (how data is stored on disk).
 
 ---
 
 **2. Which of the following is a characteristic of a DBMS?**
-**A)**       Data is stored in a flat file.
-**B)**       Data is stored in a network.
-**C)**       Data is stored in a hierarchical manner.
-**D)**       Supports multiple views of the same data.
+**A)**        Data is stored in a flat file.
+**B)**        Data is stored in a network.
+**C)**        Data is stored in a hierarchical manner.
+**D)**        Supports multiple views of the same data.
 
 **Answer:** D) A DBMS supports multiple views of the same data, which is a key feature of DBMS.
 
 ---
 
 **3. DBMS provides _______ and _______ to the user.**
-**A)**       data consistency and data integrity
-**B)**       data redundancy and data inconsistency
-**C)**       data security and data availability
-**D)**       data normalization and data denormalization
+**A)**        data consistency and data integrity
+**B)**        data redundancy and data inconsistency
+**C)**        data security and data availability
+**D)**        data normalization and data denormalization
 
 **Answer:** C) DBMS provides data security and data availability to the user.
 
 ---
 
 **4. What is the primary function of the DBMS?**
-**A)**       Data storage and retrieval
-**B)**       Data manipulation and query processing
-**C)**       Data security and integrity
-**D)**       Data analysis and reporting
+**A)**        Data storage and retrieval
+**B)**        Data manipulation and query processing
+**C)**        Data security and integrity
+**D)**        Data analysis and reporting
 
 **Answer:** A) The primary function of the DBMS is to store and manage large amounts of data and to provide efficient access to this data.
 
@@ -197,10 +195,10 @@ a.**
 
 **5. DBMS supports _______ of that
 a.**
-**A)**       Single view
-**B)**       Multiple views
-**C)**       No view
-**D)**       All views
+**A)**        Single view
+**B)**        Multiple views
+**C)**        No view
+**D)**        All views
 
 **Answer:** B) DBMS supports multiple views of the same data, which allows users to see the data in different ways.
 
@@ -222,3 +220,4 @@ Continue your revision with these related guides:
 - 📖 [Operating Systems Class 12 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/operating-systems-class-12-notes)
 - 📖 [Theory of Computation Class 12 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/theory-of-computation-class-12-notes)
 - 📖 [Application of Derivatives Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
+

@@ -1,0 +1,74 @@
+{
+  "date": "2026-04-12",
+  "targetYear": 2026,
+  "summary": {
+    "fresh": 183,
+    "updated": 0,
+    "needsRegen": 5,
+    "total": 188
+  },
+  "needsRegeneration": [
+    "3d-geometry-intro-class-11-revision-notes-jee-neet",
+    "local-government-class-11-revision-notes-cbse",
+    "physics-heat-light-class-11-revision-notes-jee-neet",
+    "physics-mechanics-class-11-revision-notes-jee-neet",
+    "poverty-unemployment-class-11-revision-notes-jee-neet"
+  ],
+  "details": [
+    {
+      "file": "3d-geometry-intro-class-11-revision-notes-jee-neet.md",
+      "slug": "3d-geometry-intro-class-11-revision-notes-jee-neet",
+      "status": "needs_regen",
+      "changes": [
+        "⚠️ Very thin content (489 words) — needs full regeneration"
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 15,
+      "wordCount": 489
+    },
+    {
+      "file": "local-government-class-11-revision-notes-cbse.md",
+      "slug": "local-government-class-11-revision-notes-cbse",
+      "status": "needs_regen",
+      "changes": [
+        "⚠️ Very thin content (433 words) — needs full regeneration"
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 15,
+      "wordCount": 433
+    },
+    {
+      "file": "physics-heat-light-class-11-revision-notes-jee-neet.md",
+      "slug": "physics-heat-light-class-11-revision-notes-jee-neet",
+      "status": "needs_regen",
+      "changes": [
+        "⚠️ Very thin content (444 words) — needs full regeneration"
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 15,
+      "wordCount": 444
+    },
+    {
+      "file": "physics-mechanics-class-11-revision-notes-jee-neet.md",
+      "slug": "physics-mechanics-class-11-revision-notes-jee-neet",
+      "status": "needs_regen",
+      "changes": [
+        "⚠️ Very thin content (495 words) — needs full regeneration"
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 15,
+      "wordCount": 495
+    },
+    {
+      "file": "poverty-unemployment-class-11-revision-notes-jee-neet.md",
+      "slug": "poverty-unemployment-class-11-revision-notes-jee-neet",
+      "status": "needs_regen",
+      "changes": [
+        "⚠️ Very thin content (482 words) — needs full regeneration"
+      ],
+      "yearUpdates": 0,
+      "lastUpdatedAge": 15,
+      "wordCount": 482
+    }
+  ]
+}

@@ -131,8 +131,8 @@ According to the JEE/[meet](/blog/anatomy-of-flowering-plants-class-11-revision-
 ### <a id="formulae"></a>Formulae
 The following formulae are relevant to the topic of regulation of breathing:
 
-* **Bohr Effect**: $\frac{’d \log P_{50}}{d \log [H^+]} = -0.5}{ is the partial pressure of oxygen at which hemoglobin is 50% saturated, and } , where UP_{50}$[H^+]$ is the concentration of hydrogen ions.
-* **Haldane Effect**: $\frac{’d \log P_{50}}{d \log [CO_2]} = -0.5}{ is the partial pressure of oxygen at which hemoglobin is 50% saturated, and } , where UP_{50}$[CO_2]$ is the concentration of carbon dioxide.
+* **Bohr Effect**: $\franc{’d \log P_{50}}{d \log [H^+]} = -0.5}{ is the partial pressure of oxygen at which hemoglobin is 50% saturated, and } , where UP_{50}$[H^+]$ is the concentration of hydrogen ions.
+* **Haldane Effect**: $\franc{’d \log P_{50}}{d \log [CO_2]} = -0.5}{ is the partial pressure of oxygen at which hemoglobin is 50% saturated, and } , where UP_{50}$[CO_2]$ is the concentration of carbon dioxide.
 
 ### <a id="MCQs"></a>MCQs
 Here are some sample MCQs to test your understanding of the topic:
@@ -174,8 +174,8 @@ According to the JEE/MEET syllabus, the topic of respiratory system is covered u
 ### <a id="formulae"></a>Formulae
 The following formulae are relevant to the topic of respiratory system:
 
-* **Pick's Law of Diffusion**: $\frac{{dQ}{dt} = \frac{D \times A}}{ \times (C_1 - C_2)} \Delta $, where $\frac{{dQ}{dt}}{\Delta }  is the rate of diffusion, DO is the diffusion constant, A is the surface area, $ is the thickness of the membrane, and BC_1$ and BC_2$ are the concentrations of the gas on either side of the membrane.
-* **Graham's Law of Diffusion**: $\frac{{r_1}{r_2} = \sqrt{\frac{M_2}{M_1}}}{ and or_2} , where or_1$ are the rates of diffusion of two gases, and KM_1$ and KM_2$ are the molecular weights of the two gases.
+* **Pick's Law of Diffusion**: $\franc{{dQ}{dt} = \franc{D \times A}}{ \times (C_1 - C_2)} \delta $, where $\franc{{dQ}{dt}}{\delta }  is the rate of diffusion, DO is the diffusion constant, A is the surface area, $ is the thickness of the membrane, and BC_1$ and BC_2$ are the concentrations of the gas on either side of the membrane.
+* **Graham's Law of Diffusion**: $\franc{{r_1}{r_2} = \sort{\franc{M_2}{M_1}}}{ and or_2} , where or_1$ are the rates of diffusion of two gases, and KM_1$ and KM_2$ are the molecular weights of the two gases.
 
 ### <a id="MCQs"></a>MCQs
 Here are some sample MCQs to test your understanding of the topic:

@@ -36,13 +36,11 @@ practice_link: "/class-11/mathematics/integrals-class-12-notes"
 ### <a id="-derivations-and-proofs"></a>⚡ Derivations and Proofs
 #### Power Rule of Integration
 - Derivation using definition of definite integral:
-$ \int_{a}^{b} f(x) dx = \lim_{n \to \infty} \sum_{i=1}^{n} f(x_i^*) \Delta x 
-
+ \int_{a}^{b} f(x) dx = \lim_{n \to \infty} \sum_{i=1}^{n} f(x_i^*) \delta x 
 
 
   For $f(x) = x^n$:
-$ \int x^n dx = \lim_{n \to \infty} \sum_{i=1}^{n} (x_i^*)^n \Delta x $
-
+ \int x^n dx = \lim_{n \to \infty} \sum_{i=1}^{n} (x_i^*)^n \delta x 
 
 
   Leading to:
@@ -50,19 +48,17 @@ $ \int x^n dx = \lim_{n \to \infty} \sum_{i=1}^{n} (x_i^*)^n \Delta x $
 
 
 
-
 #### Exponential Integration Formula
 - Derivation using definition of exponential function:
 
-e^x = \lim_{n \to \infty} \left(1 + }  + C $\frac{x}{n}$ \right)^n
+ e^x = \lim_{n \to \infty} \left(1 + }  + C \frac{x}{n} \right)^n 
 
 
   Taking derivative and simplifying leads to:
-$ \int e^x dx = e^x + C 
+ \int e^x dx = e^x + C 
 
   And more generally:
-$ \int e^{ax} dx = $\frac{{1}{a}}{
-
+$ \int e^{ax} dx = \frac{{1}{a}$}{
 
 
 
@@ -79,7 +75,7 @@ $ \int e^{ax} dx = $\frac{{1}{a}}{
 
 #### Integration by Parts
 - General form:
-$ \int u \cdot dv = u \cdot v - \int v \cdot du 
+ \int u \cdot dv = u \cdot v - \int v \cdot du 
 
 - Key points:
   * Choose $u$ and $dv$
@@ -101,7 +97,7 @@ $\frac{A}{x-a}$ + $\frac{{B}{x-b}}{f(x)}
 #### Area Between Curves
 - General form:
 
-A = \int_{a}^{b} (f(x) - g(x)) dx
+ A = \int_{a}^{b} (f(x) - g(x)) dx 
 
 
 - Key points:
@@ -112,7 +108,7 @@ A = \int_{a}^{b} (f(x) - g(x)) dx
 #### Volume of Solids
 - General form for volume:
 
-V = \int_{a}^{b} \pi (f(x))^2 dx
+ V = \int_{a}^{b} \pi (f(x))^2 dx 
 
 
 - Key points:
@@ -123,7 +119,7 @@ V = \int_{a}^{b} \pi (f(x))^2 dx
 #### Surface Area
 - General form:
 
-S = \int_{a}^{b} 2 \pi f(x) $\sqrt{1 + (f'(x))^2}$ dx
+ S = \int_{a}^{b} 2 \pi f(x) \sqrt{1 + (f'(x))^2} dx 
 
 
 - Key points:
@@ -134,8 +130,7 @@ S = \int_{a}^{b} 2 \pi f(x) $\sqrt{1 + (f'(x))^2}$ dx
 ### <a id="-improper-integrals"></a>🔍 Improper Integrals
 #### Definition
 - General form:
-$ \int_{a}^{\infty} f(x) dx = \lim_{b \to \infty} \int_{a}^{b} f(x) dx 
-
+ \int_{a}^{\infty} f(x) dx = \lim_{b \to \infty} \int_{a}^{b} f(x) dx 
 
 
 - Key points:
@@ -144,8 +139,7 @@ $ \int_{a}^{\infty} f(x) dx = \lim_{b \to \infty} \int_{a}^{b} f(x) dx
 
 #### Convergence
 - Condition for convergence:
-$ \int_{a}^{\infty} f(x) dx = \lim_{b \to \infty} \int_{a}^{b} f(x) dx = L $
-
+ \int_{a}^{\infty} f(x) dx = \lim_{b \to \infty} \int_{a}^{b} f(x) dx = L 
 
 
   Where L is finite.
@@ -154,8 +148,7 @@ $ \int_{a}^{\infty} f(x) dx = \lim_{b \to \infty} \int_{a}^{b} f(x) dx = L $
 
 #### Divergence
 - Condition for divergence:
-$ \int_{a}^{\infty} f(x) dx = \lim_{b \to \infty} \int_{a}^{b} f(x) dx = \infty $
-
+ \int_{a}^{\infty} f(x) dx = \lim_{b \to \infty} \int_{a}^{b} f(x) dx = \infty 
 
 
 - Key points:
@@ -165,7 +158,6 @@ $ \int_{a}^{\infty} f(x) dx = \lim_{b \to \infty} \int_{a}^{b} f(x) dx = \infty 
 #### Definition
 - General form:
  \int_{a}^{b} \int_{c}^{d} f(x,y) dy dx 
-
 
 
 - Key points:
@@ -178,7 +170,6 @@ $ \int_{a}^{\infty} f(x) dx = \lim_{b \to \infty} \int_{a}^{b} f(x) dx = \infty 
 $1 
 
 
-
 - Key points:
   * Integrate with respect to one variable
   * Then integrate with respect to the other variable
@@ -187,7 +178,7 @@ $1
 #### Volume of Solids
 - General form for volume:
 
-V = \int \int \int_{D} dV
+ V = \int \int \int_{D} dV 
 
 
 - Key points:
@@ -197,7 +188,7 @@ V = \int \int \int_{D} dV
 #### Surface Area
 - General form:
 
-S = \int \int_{D} $\sqrt{1 + (f_x)^2 + (f_y)^2}$ dA
+ S = \int \int_{D} \sqrt{1 + (f_x)^2 + (f_y)^2} dA 
 
 
 - Key points:
@@ -207,7 +198,7 @@ S = \int \int_{D} $\sqrt{1 + (f_x)^2 + (f_y)^2}$ dA
 #### Moments of Inertia
 - General form:
 
-I = \int \int_{D} (x^2 + y^2) \rho(x,y) dA
+ I = \int \int_{D} (x^2 + y^2) \rho(x,y) dA 
 
 
 - Key points:
@@ -219,7 +210,7 @@ I = \int \int_{D} (x^2 + y^2) \rho(x,y) dA
 #### #### Volume of Solids:
 The volume of a solid can be found using a multiple integral. The general form of the volume of a solid is:
 
-V = \int_{a}^{b} \int_{c}^{d} f(x,y) dy dx
+ V = \int_{a}^{b} \int_{c}^{d} f(x,y) dy dx 
 
 
 where $f(x,y)$ is the height of the solid at the point $(x,y)$.
@@ -227,7 +218,7 @@ where $f(x,y)$ is the height of the solid at the point $(x,y)$.
 #### #### Surface Area:
 The surface area of a solid can be found using a multiple integral. The general form of the surface area is:
 
-S = \int_{a}^{b} \int_{c}^{d} $\sqrt{1 + (f_x(x,y))^2 + (f_y(x,y))^2}$ dy dx
+ S = \int_{a}^{b} \int_{c}^{d} \sqrt{1 + (f_x(x,y))^2 + (f_y(x,y))^2} dy dx 
 
 
 where $f_x(x,y)$ and $f_y(x,y)$ are the partial derivatives of $f(x,y)$ with respect to $x$ and $y$, respectively.
@@ -235,7 +226,7 @@ where $f_x(x,y)$ and $f_y(x,y)$ are the partial derivatives of $f(x,y)$ with res
 #### #### Center of Mass:
 The center of mass of a solid can be found using a multiple integral. The general form of the center of mass is:
 
-$\bar{x} = \frac$\int_{a$^{b} \int_{c}^{d} x \rho(x,y) dy dx}$\int_{a$^{b}$ \int_{c}^{d} \rho(x,y) dy dx}
+ \bar{x} = \frac\int_{a^{b} \int_{c}^{d} x \rho(x,y) dy dx}\int_{a^{b} \int_{c}^{d} \rho(x,y) dy dx} 
 
 
 where $\rho(x,y)$ is the density of the solid at the point $(x,y)$.
@@ -342,3 +333,4 @@ Continue your revision with these related guides:
 - 📖 [Continuity and Differentiability Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/continuity-and-differentiability-class-12-notes)
 - 📖 [Determinants Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/determinants-class-12-notes)
 - 📖 [Differential Equations Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/differential-equations-class-12-notes)
+

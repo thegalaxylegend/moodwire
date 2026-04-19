@@ -21,14 +21,14 @@ manualReview: false
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Transposition Formula:** {ax = b Rightarrow x = \frac{b}{a}} — where $a$ and $b$ are constants, and $x$ is the variable.
- - **Value of a Constant Formula:** {a cdot x = b Rightarrow x = \frac{b}{a}} — where $a$ and $b$ are constants, and $x$ is the variable.
+- **Transposition Formula:** {ax = b Rightarrow x = $\frac{b}{a}$} — where $a$ and $b$ are constants, and $x$ is the variable.
+ - **Value of a Constant Formula:** {a cdot x = b Rightarrow x = $\frac{b}{a}$} — where $a$ and $b$ are constants, and $x$ is the variable.
  - **Addition/Subtraction Formula:** {x + a = b Rightarrow x = b - a} — where $a$ and $b$ are constants, and $x$ is the variable.
- - **Multiplication/Division Formula:** {a cdot x = b Rightarrow x = \frac{b}{a}} — where $a$ and $b$ are constants, and $x$ is the variable.
+ - **Multiplication/Division Formula:** {a cdot x = b Rightarrow x = $\frac{b}{a}$} — where $a$ and $b$ are constants, and $x$ is the variable.
  - **Inverse Operation Formula:** {x + a = b Rightarrow x = b - a} and {x - a = b Rightarrow x = b + a} — where $a$ and $b$ are constants, and $x$ is the variable.
- - **Cross Multiplication Formula:** {\frac{x}{a} = \frac{b}{c} Rightarrow x = \frac{ab}{c}} — where $a$, $b$, and $c$ are constants, and $x$ is the variable.
- - **Rearrangement Formula:** {ax + by = c Rightarrow x = \frac{c - by}{a}} — where $a$, $b$, $c$, and $y$ are constants, and $x$ is the variable.
- - **Combining Like Terms Formula:** {ax + bx = c Rightarrow (a+b)x = c Rightarrow x = \frac{c}{a+b}} — where $a$, $b$, and $c$ are constants, and $x$ is the variable.
+ - **Cross Multiplication Formula:** {$\frac{x}{a}$ = $\frac{b}{c}$ Rightarrow x = $\frac{ab}{c}$} — where $a$, $b$, and $c$ are constants, and $x$ is the variable.
+ - **Rearrangement Formula:** {ax + by = c Rightarrow x = $\frac{c - by}{a}$} — where $a$, $b$, $c$, and $y$ are constants, and $x$ is the variable.
+ - **Combining Like Terms Formula:** {ax + bx = c Rightarrow (a+b)x = c Rightarrow x = $\frac{c}{a+b}$} — where $a$, $b$, and $c$ are constants, and $x$ is the variable.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -72,7 +72,7 @@ manualReview: false
 
 - **For example, $3x + 2x = 12$ simplifies to $5x = 12$ by combining like terms, then solve for $x$ by dividing both sides by 5:** $x = {12 \over 5}$.
 
-- **Mistake 5:** Incorrectly solving equations that involve fractions, such as not finding a common denominator or not clearing the fractions properly.
+- **Mistake 5:** Incorrectly solving [equations](/blog/quadratic-equations-class-10-notes) that involve fractions, such as not finding a common denominator or not clearing the fractions properly.
 
 - *Costs:* 2-3 marks per question
  
@@ -88,12 +88,12 @@ manualReview: false
  - **Solution:**
  - Our goal is to isolate $ on one side of the equation. First, let's group the terms containing $x$ on one side and the constant terms on the other.
  - Move $\frac{{x}{3}}{-\frac{1}{5}}  to the left side and $ to the right side:
- $\frac{{x}{2} - }{\frac{1}{5}} \frac{x}{3} = \frac{1}{4} + $
+ \frac{{x}{2} - }{\frac{1}{5}} \frac{x}{3} = \frac{1}{4} + 
  - Now, find the LCM for the denominators on each side. For the left side (2 and 3), the LCM is 6. For the right side (4 and 5), the LCM is 20.
  - Rewrite the fractions with their respective common denominators:
- $\frac{{3x - 2x}{6} = }{\frac{9}{20}} \frac{5 + 4}{20}
+ \frac{{3x - 2x}{6}$ = }{$\frac{9}{20}$} $\frac{5 + 4}{20}$
  - Simplify both sides:
- \frac{x}{6} = $
+ $\frac{x}{6}$ = $
  - To find $x$, multiply both sides by 6:
  x = $1 \frac{54}{20}$
  - Finally, simplify the fraction by dividing both numerator and denominator by their greatest common divisor, which is 2:
@@ -102,8 +102,6 @@ manualReview: false
 
 - **Q2:** The \sum of two numbers is 95. If one number exceeds the other by 15, find the two numbers.
  - **Trap:** The most common mistake here is incorrectly setting up the equation, especially misinterpreting "exceeds by 15\
-
-
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
@@ -192,17 +190,17 @@ eq 0$).
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. If the roots of the quadratic equation ax^2 + bx + c = 0 are α and β, then the \sum of the roots is?**
-**A)**    α + β
-**B)**    -b/a
-**C)**    c/a
-**D)**    a/b
+**A)**     α + β
+**B)**     -b/a
+**C)**     c/a
+**D)**     a/b
 
 **Answer:** B) According to the \sum and product of roots in a quadratic equation, the \sum of the roots is -b/a
 
 ---
 
 **2. The equation 2x + 5 = 0 has how many solutions?**
-**A)**    No
+**A)**     No
 
 solution  
 **B)** One solution  
@@ -214,30 +212,30 @@ solution
 ---
 
 **3. Which of the following equations is a linear equation in one variable?**
-**A)**    x^2 + 2x - 3 = 0
-**B)**    2x + 5 = 0
-**C)**    x^3 + 2x^2 - 3 = 0
-**D)**    sin(x) = 0
+**A)**     x^2 + 2x - 3 = 0
+**B)**     2x + 5 = 0
+**C)**     x^3 + 2x^2 - 3 = 0
+**D)**     sin(x) = 0
 
 **Answer:** B) The given equation 2x + 5 = 0 is a linear equation in one variable
 
 ---
 
 **4. For the linear equation ax + b = 0, the solution set is all real numbers such that?**
-**A)**    ax + b > 0
-**B)**    ax + b < 0
-**C)**    ax + b = 0
-**D)**    ax + b ≠ 0
+**A)**     ax + b > 0
+**B)**     ax + b < 0
+**C)**     ax + b = 0
+**D)**     ax + b ≠ 0
 
 **Answer:** C) For a linear equation ax + b = 0, the solution set is all real numbers such that ax + b = 0
 
 ---
 
 **5. If the equation 3x - 2 = 0 has a solution x = α, then the value of α is?**
-**A)**    2/3
-**B)**    3/2
-**C)**    -2/3
-**D)**    3
+**A)**     2/3
+**B)**     3/2
+**C)**     -2/3
+**D)**     3
 
 **Answer:** A) Substitute x = α into the equation 3x - 2 = 0 to find the value of α
 
@@ -259,3 +257,5 @@ Continue your revision with these related guides:
 - 📖 [Pair of Linear Equations Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/pair-of-linear-equations-class-10-notes)
 - 📖 [Linear Programming Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/linear-programming-class-12-notes)
 - 📖 [Rational Numbers Class 8 Mathematics Recap — Grandmaster Guide](/blog/rational-numbers-class-8-notes)
+
+$

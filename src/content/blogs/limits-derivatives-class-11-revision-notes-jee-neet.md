@@ -96,9 +96,9 @@ If limₓ→ₐ f(x) and limₓ→ₐ g(x) exist:
 ### <a id="standard-formulas"></a>Standard Formulas:
 *   **Polynomial:** limₓ→ₐ (xⁿ - aⁿ) / (x - a) = naⁿ⁻¹
 *   **Trigonometric:** 
-    - limₓ→₀ (\sin x) / x = 1
-    - limₓ→₀ (1 - \cos x) / x = 0
-    - limₓ→₀ (\tan x) / x = 1
+    -  →₀ (\sin x) / x = 1 
+    -  →₀ (1 - \cos x) / x = 0 
+    -  →₀ (\tan x) / x = 1 
 
 ### <a id="sandwich-theorem-squeeze-theorem"></a>Sandwich Theorem (Squeeze Theorem):
 If f(x) ≤ g(x) ≤ h(x) for all x in an interval, and limₓ→ₐ f(x) = limₓ→ₐ h(x) = L, then **limₓ→ₐ g(x) = L**.
@@ -111,7 +111,7 @@ If f(x) ≤ g(x) ≤ h(x) for all x in an interval, and limₓ→ₐ f(x) = lim�
 ## <a id="4-derivatives-first-principle"></a>4. Derivatives (First Principle)
 
 The derivative of a function f at x is defined as:
-**f'(x) = limₕ→₀ [f(x+h) - f(x)] / h**
+ **f'(x) = limₕ→₀ [f(x+h) - f(x)] / h** 
 This process of finding the derivative using the limit definition is called **Differentiation from First Principle**.
 
 ---
@@ -124,9 +124,9 @@ This process of finding the derivative using the limit definition is called **Di
 1.  **Constant:** d/dx (c) = 0
 2.  **Power:** d/dx (xⁿ) = nxⁿ⁻¹
 3.  **Trigonometric:**
-    - d/dx (\sin x) = \cos x
-    - d/dx (\cos x) = -\sin x
-    - d/dx (\tan x) = sec² x
+    -  (\sin x) = \cos x 
+    -  (\cos x) = -\sin x 
+    -  (\tan x) = sec² x 
 
 ---
 
@@ -146,14 +146,14 @@ This process of finding the derivative using the limit definition is called **Di
 - f(x+h) = (x+h)² + 2(x+h) + 1 = x² + 2xh + h² + 2x + 2h + 1
 - f(x+h) - f(x) = 2xh + h² + 2h
 - f'(x) = limₕ→₀ [h(2x + h + 2) / h] = limₕ→₀ [2x + h + 2]
-- **f'(x) = 2x + 2**.
+-  **f'(x) = 2x + 2**. 
 
 **Q3: Differentiate y = x · \sin x using Product Rule.**
 **Answer:**
-- u = x, v = \sin x
-- u' = 1, v' = \cos x
-- y' = u'v + uv' = (1)(\sin x) + (x)(\cos x)
-- **y' = \sin x + x \cos x**.
+-  u = x, v = \sin x 
+-  u' = 1, v' = \cos x 
+-  y' = u'v + uv' = (1)(\sin x) + (x)(\cos x) 
+-  **y' = \sin x + x \cos x**. 
 
 ---
 

@@ -63,7 +63,7 @@ Every state has its own unique heritage of talent identification. For instance, 
 | State | Primary Exam Name | Eligible Classes | Key Subjects |
 | :--- | :--- | :--- | :--- |
 | **Maharashtra** | MSCE Pune Scholarship | 5 & 8 | Marathi/English, IQ, Maths |
-| **Delhi** | JSTSE (Junior Science) | 9 | GK, MAT, Science |
+| **Delhi** | JSTSE (Junior [science](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet)) | 9 | GK, MAT, [science](/blog/class-10-science-pyq-strategy-class-10-revision-notes-neet) |
 | **Tamil Nadu** | TRUST / VSTS | 9 & Rural | Maths, Science, Social |
 | **Punjab** | PSTSE (Punjab State Talent) | 8 & 10 | Academic & Mental Ability |
 | **Kerala** | USS (Upper Secondary) | 7 | Maths, Science, Social |

@@ -71,7 +71,7 @@ This chapter is essential for students preparing for the Class 11 biology exam, 
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div class="callout-box">
+<div [class](/blog/biological-classification-class-11-revision-notes-neet)="callout-box">
 I still remember the mistake I made in my [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) 11 biology exam. I confused the terms "growth" and "development" and ended up losing marks. However, I learned from my mistake and made sure to understand the difference between the two. Growth refers to the increase in size, while development refers to the process of maturation. For example, a seedling grows into a plant, but it develops into a mature plant with flowers and fruits. I hope this helps you avoid the same mistake!
 </div>
 
@@ -166,9 +166,7 @@ Answer: A) Short-day plant
 A) $\frac{{dL}{dt} = k \cdot \frac{dA}{dt}}{\frac{dL}{dt} = k \cdot \frac{dC}{dt}} 
 B) 
 C) $\frac{{dL}{dt} = k \cdot \frac{dG}{dt}}{\frac{dL}{dt} = k \cdot \frac{dE}{dt}} 
-D) $
-
-Answer: A) $\frac{dL}{dt} = k \cdot \frac{dA}{dt}$
+D) $ Answer: A) \frac{dL}{dt} = k \cdot \frac{dA}{dt} 
 
 
 
@@ -219,3 +217,4 @@ Continue your [revision](/blog/morphology-of-flowering-plants-class-11-revision-
 - 📖 [Environmental Chemistry Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/environmental-chemistry-class-11-revision-notes-neet)
 - 📖 [Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)
 - 📖 [Photosynthesis In Higher Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)
+$

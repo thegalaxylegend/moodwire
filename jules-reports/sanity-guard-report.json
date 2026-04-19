@@ -1,10 +1,10 @@
 {
-  "date": "2026-04-17T02:53:52.932Z",
+  "date": "2026-04-19T04:53:39.020Z",
   "summary": {
     "total": 203,
-    "errors": 164,
-    "warnings": 90,
-    "clean": 28
+    "errors": 145,
+    "warnings": 86,
+    "clean": 30
   },
   "issues": [
     {
@@ -38,7 +38,7 @@
     {
       "file": "alcohols-phenols-and-ethers-class-12-notes.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 1471 words (Target: 2000+)",
+        "Thin Content Warning: Entire body is only 1459 words (Target: 2000+)",
         "Contains malformed HTML: '[class]' attribute found (unbound React syntax)"
       ],
       "warnings": []
@@ -46,7 +46,7 @@
     {
       "file": "algebraic-expressions-class-8-notes.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 1348 words (Target: 2000+)"
+        "Thin Content Warning: Entire body is only 1291 words (Target: 2000+)"
       ],
       "warnings": []
     },
@@ -67,7 +67,7 @@
     {
       "file": "ancient-india-mahajanapadas-class-11-revision-notes-jee.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 1292 words (Target: 2000+)"
+        "Thin Content Warning: Entire body is only 1163 words (Target: 2000+)"
       ],
       "warnings": []
     },
@@ -129,7 +129,9 @@
       "errors": [
         "Thin Content Warning: Entire body is only 1356 words (Target: 2000+)"
       ],
-      "warnings": []
+      "warnings": [
+        "Potential raw LaTeX detected outside of $...$ delimiters"
+      ]
     },
     {
       "file": "biodiversity-and-conservation-class-12-notes.md",
@@ -150,7 +152,7 @@
     {
       "file": "biological-classification-class-11-revision-notes-neet.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 1254 words (Target: 2000+)",
+        "Thin Content Warning: Entire body is only 1253 words (Target: 2000+)",
         "Contains malformed HTML: '[class]' attribute found (unbound React syntax)"
       ],
       "warnings": []
@@ -158,7 +160,7 @@
     {
       "file": "biomolecules-class-11-revision-notes-neet.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 1529 words (Target: 2000+)"
+        "Thin Content Warning: Entire body is only 1517 words (Target: 2000+)"
       ],
       "warnings": []
     },
@@ -172,7 +174,7 @@
     {
       "file": "cell-cycle-and-cell-division-class-11-revision-notes-neet.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 1439 words (Target: 2000+)",
+        "Thin Content Warning: Entire body is only 1437 words (Target: 2000+)",
         "Contains malformed HTML: '[class]' attribute found (unbound React syntax)"
       ],
       "warnings": []
@@ -202,7 +204,7 @@
     {
       "file": "chemistry-in-everyday-life-class-12-notes.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 1325 words (Target: 2000+)",
+        "Thin Content Warning: Entire body is only 1198 words (Target: 2000+)",
         "Contains malformed HTML: '[class]' attribute found (unbound React syntax)"
       ],
       "warnings": []
@@ -246,7 +248,9 @@
     },
     {
       "file": "communication-systems-class-12-notes.md",
-      "errors": [],
+      "errors": [
+        "Thin Content Warning: Entire body is only 1775 words (Target: 2000+)"
+      ],
       "warnings": [
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
@@ -254,15 +258,14 @@
     {
       "file": "comparing-quantities-class-8-notes.md",
       "errors": [
-        "Contains unparsed JSON body blocks - 'JSON Squashing' detected",
-        "Critical Failure: Literal JSON-like strings found in content body"
+        "Thin Content Warning: Entire body is only 1711 words (Target: 2000+)"
       ],
       "warnings": []
     },
     {
       "file": "compiler-design-class-12-notes.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 1665 words (Target: 2000+)"
+        "Thin Content Warning: Entire body is only 1576 words (Target: 2000+)"
       ],
       "warnings": []
     },
@@ -283,7 +286,7 @@
     {
       "file": "conic-sections-class-11-revision-notes-jee.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 1365 words (Target: 2000+)"
+        "Thin Content Warning: Entire body is only 1326 words (Target: 2000+)"
       ],
       "warnings": []
     },
@@ -293,13 +296,6 @@
         "Thin Content Warning: Entire body is only 1313 words (Target: 2000+)"
       ],
       "warnings": []
-    },
-    {
-      "file": "continuity-and-differentiability-class-12-notes.md",
-      "errors": [],
-      "warnings": [
-        "Potential raw LaTeX detected outside of $...$ delimiters"
-      ]
     },
     {
       "file": "coordinate-geometry-class-10-notes.md",
@@ -318,16 +314,14 @@
     {
       "file": "cubes-and-cube-roots-class-8-notes.md",
       "errors": [
-        "Contains unparsed JSON body blocks - 'JSON Squashing' detected",
-        "Critical Failure: Literal JSON-like strings found in content body",
-        "Thin Content Warning: Entire body is only 1757 words (Target: 2000+)"
+        "Thin Content Warning: Entire body is only 1743 words (Target: 2000+)"
       ],
       "warnings": []
     },
     {
       "file": "data-handling-class-8-notes.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 1190 words (Target: 2000+)"
+        "Thin Content Warning: Entire body is only 1183 words (Target: 2000+)"
       ],
       "warnings": [
         "Potential raw LaTeX detected outside of $...$ delimiters"
@@ -336,23 +330,14 @@
     {
       "file": "databases-dbms-class-12-notes.md",
       "errors": [
-        "Contains unparsed JSON body blocks - 'JSON Squashing' detected",
-        "Critical Failure: Literal JSON-like strings found in content body",
         "Contains malformed HTML: '[class]' attribute found (unbound React syntax)"
       ],
       "warnings": []
     },
     {
-      "file": "determinants-class-12-notes.md",
-      "errors": [],
-      "warnings": [
-        "Potential raw LaTeX detected outside of $...$ delimiters"
-      ]
-    },
-    {
       "file": "digestion-and-absorption-class-11-revision-notes-neet.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 1405 words (Target: 2000+)"
+        "Thin Content Warning: Entire body is only 1402 words (Target: 2000+)"
       ],
       "warnings": []
     },
@@ -401,7 +386,7 @@
     {
       "file": "environmental-chemistry-class-11-revision-notes-neet.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 1521 words (Target: 2000+)",
+        "Thin Content Warning: Entire body is only 1520 words (Target: 2000+)",
         "Contains malformed HTML: '[class]' attribute found (unbound React syntax)"
       ],
       "warnings": []
@@ -414,36 +399,23 @@
       ]
     },
     {
-      "file": "excretory-products-and-elimination-class-11-revision-notes-neet.md",
-      "errors": [
-        "Thin Content Warning: Entire body is only 1526 words (Target: 2000+)"
-      ],
-      "warnings": [
-        "Potential raw LaTeX detected outside of $...$ delimiters"
-      ]
-    },
-    {
       "file": "exponents-and-powers-class-8-notes.md",
       "errors": [
-        "Contains unparsed JSON body blocks - 'JSON Squashing' detected",
-        "Critical Failure: Literal JSON-like strings found in content body",
-        "Thin Content Warning: Entire body is only 1383 words (Target: 2000+)"
+        "Thin Content Warning: Entire body is only 1368 words (Target: 2000+)"
       ],
-      "warnings": [
-        "Potential raw LaTeX detected outside of $...$ delimiters"
-      ]
+      "warnings": []
     },
     {
       "file": "federalism-class-11-revision-notes-cbse.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 785 words (Target: 2000+)"
+        "Thin Content Warning: Entire body is only 1099 words (Target: 2000+)"
       ],
       "warnings": []
     },
     {
       "file": "fundamental-rights-class-11-revision-notes-cbse.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 1308 words (Target: 2000+)"
+        "Thin Content Warning: Entire body is only 1624 words (Target: 2000+)"
       ],
       "warnings": []
     },
@@ -457,19 +429,12 @@
     {
       "file": "gravitation-class-11-revision-notes-jee-neet.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 1195 words (Target: 2000+)"
+        "Thin Content Warning: Entire body is only 1407 words (Target: 2000+)"
       ],
       "warnings": []
     },
     {
       "file": "haloalkanes-and-haloarenes-class-12-notes.md",
-      "errors": [],
-      "warnings": [
-        "Potential raw LaTeX detected outside of $...$ delimiters"
-      ]
-    },
-    {
-      "file": "heron-s-formula-class-9-notes.md",
       "errors": [],
       "warnings": [
         "Potential raw LaTeX detected outside of $...$ delimiters"
@@ -492,7 +457,7 @@
     {
       "file": "hydrocarbons-class-11-revision-notes-neet.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 879 words (Target: 2000+)",
+        "Thin Content Warning: Entire body is only 977 words (Target: 2000+)",
         "Contains malformed HTML: '[class]' attribute found (unbound React syntax)"
       ],
       "warnings": []
@@ -523,7 +488,7 @@
     {
       "file": "integrals-class-12-notes.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 1754 words (Target: 2000+)"
+        "Thin Content Warning: Entire body is only 1698 words (Target: 2000+)"
       ],
       "warnings": [
         "Potential raw LaTeX detected outside of $...$ delimiters"
@@ -541,7 +506,7 @@
     {
       "file": "inverse-trigonometric-functions-class-12-notes.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 686 words (Target: 2000+)",
+        "Thin Content Warning: Entire body is only 692 words (Target: 2000+)",
         "Contains malformed HTML: '[class]' attribute found (unbound React syntax)"
       ],
       "warnings": [
@@ -602,16 +567,13 @@
     {
       "file": "limits-derivatives-class-11-revision-notes-jee-neet.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 1014 words (Target: 2000+)"
+        "Thin Content Warning: Entire body is only 1011 words (Target: 2000+)"
       ],
       "warnings": []
     },
     {
       "file": "linear-equations-in-one-variable-class-8-notes.md",
-      "errors": [
-        "Contains unparsed JSON body blocks - 'JSON Squashing' detected",
-        "Critical Failure: Literal JSON-like strings found in content body"
-      ],
+      "errors": [],
       "warnings": [
         "Potential raw LaTeX detected outside of $...$ delimiters"
       ]
@@ -619,7 +581,7 @@
     {
       "file": "linear-equations-in-two-variables-class-9-notes.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 1279 words (Target: 2000+)"
+        "Thin Content Warning: Entire body is only 1277 words (Target: 2000+)"
       ],
       "warnings": []
     },
@@ -638,13 +600,25 @@
       ]
     },
     {
+      "file": "lines-and-angles-class-9-notes.md",
+      "errors": [],
+      "warnings": [
+        "Potential raw LaTeX detected outside of $...$ delimiters"
+      ]
+    },
+    {
+      "file": "local-government-class-11-revision-notes-cbse.md",
+      "errors": [],
+      "warnings": [
+        "Potential raw LaTeX detected outside of $...$ delimiters"
+      ]
+    },
+    {
       "file": "locomotion-and-movement-class-11-revision-notes-neet.md",
       "errors": [
         "Thin Content Warning: Entire body is only 1281 words (Target: 2000+)"
       ],
-      "warnings": [
-        "Potential raw LaTeX detected outside of $...$ delimiters"
-      ]
+      "warnings": []
     },
     {
       "file": "magnetic-effects-of-current-class-12-notes.md",
@@ -663,7 +637,7 @@
     {
       "file": "mathematical-induction-class-11-revision-notes-jee-neet.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 1032 words (Target: 2000+)"
+        "Thin Content Warning: Entire body is only 1034 words (Target: 2000+)"
       ],
       "warnings": [
         "Potential raw LaTeX detected outside of $...$ delimiters"
@@ -679,7 +653,7 @@
     {
       "file": "matrices-class-12-notes.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 976 words (Target: 2000+)",
+        "Thin Content Warning: Entire body is only 977 words (Target: 2000+)",
         "Contains malformed HTML: '[class]' attribute found (unbound React syntax)"
       ],
       "warnings": [
@@ -725,16 +699,6 @@
     },
     {
       "file": "mensuration-class-8-notes.md",
-      "errors": [
-        "Contains unparsed JSON body blocks - 'JSON Squashing' detected",
-        "Critical Failure: Literal JSON-like strings found in content body"
-      ],
-      "warnings": [
-        "Potential raw LaTeX detected outside of $...$ delimiters"
-      ]
-    },
-    {
-      "file": "metallurgy-class-12-notes.md",
       "errors": [],
       "warnings": [
         "Potential raw LaTeX detected outside of $...$ delimiters"
@@ -808,7 +772,7 @@
     {
       "file": "neural-control-and-coordination-class-11-revision-notes-neet.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 1400 words (Target: 2000+)"
+        "Thin Content Warning: Entire body is only 1399 words (Target: 2000+)"
       ],
       "warnings": [
         "Potential raw LaTeX detected outside of $...$ delimiters"
@@ -824,9 +788,7 @@
     {
       "file": "number-systems-class-9-notes.md",
       "errors": [
-        "Contains unparsed JSON body blocks - 'JSON Squashing' detected",
-        "Critical Failure: Literal JSON-like strings found in content body",
-        "Thin Content Warning: Entire body is only 1047 words (Target: 2000+)"
+        "Thin Content Warning: Entire body is only 1010 words (Target: 2000+)"
       ],
       "warnings": [
         "Potential raw LaTeX detected outside of $...$ delimiters"
@@ -835,7 +797,7 @@
     {
       "file": "oceanography-class-11-revision-notes-jee-neet.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 1380 words (Target: 2000+)"
+        "Thin Content Warning: Entire body is only 1379 words (Target: 2000+)"
       ],
       "warnings": [
         "Potential raw LaTeX detected outside of $...$ delimiters"
@@ -918,16 +880,23 @@
       ]
     },
     {
+      "file": "physics-mechanics-class-11-revision-notes-jee-neet.md",
+      "errors": [],
+      "warnings": [
+        "Potential raw LaTeX detected outside of $...$ delimiters"
+      ]
+    },
+    {
       "file": "planning-in-india-class-11-revision-notes-jee-neet.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 547 words (Target: 2000+)"
+        "Thin Content Warning: Entire body is only 542 words (Target: 2000+)"
       ],
       "warnings": []
     },
     {
       "file": "plant-growth-and-development-class-11-revision-notes-neet.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 1002 words (Target: 2000+)",
+        "Thin Content Warning: Entire body is only 1004 words (Target: 2000+)",
         "Contains malformed HTML: '[class]' attribute found (unbound React syntax)"
       ],
       "warnings": [
@@ -945,7 +914,7 @@
     {
       "file": "polymers-class-12-notes.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 873 words (Target: 2000+)",
+        "Thin Content Warning: Entire body is only 858 words (Target: 2000+)",
         "Contains malformed HTML: '[class]' attribute found (unbound React syntax)"
       ],
       "warnings": [
@@ -1015,9 +984,7 @@
     {
       "file": "rational-numbers-class-8-notes.md",
       "errors": [
-        "Contains unparsed JSON body blocks - 'JSON Squashing' detected",
-        "Critical Failure: Literal JSON-like strings found in content body",
-        "Thin Content Warning: Entire body is only 1220 words (Target: 2000+)"
+        "Thin Content Warning: Entire body is only 1200 words (Target: 2000+)"
       ],
       "warnings": [
         "Potential raw LaTeX detected outside of $...$ delimiters"
@@ -1026,7 +993,7 @@
     {
       "file": "ray-optics-class-12-quick-class-12-revision-notes-jee-neet.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 1606 words (Target: 2000+)"
+        "Thin Content Warning: Entire body is only 1611 words (Target: 2000+)"
       ],
       "warnings": [
         "Potential raw LaTeX detected outside of $...$ delimiters"
@@ -1044,7 +1011,7 @@
     {
       "file": "redox-reactions-class-11-revision-notes-neet.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 1263 words (Target: 2000+)",
+        "Thin Content Warning: Entire body is only 1261 words (Target: 2000+)",
         "Contains malformed HTML: '[class]' attribute found (unbound React syntax)"
       ],
       "warnings": []
@@ -1139,7 +1106,7 @@
     {
       "file": "squares-and-square-roots-class-8-notes.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 1194 words (Target: 2000+)"
+        "Thin Content Warning: Entire body is only 1189 words (Target: 2000+)"
       ],
       "warnings": [
         "Potential raw LaTeX detected outside of $...$ delimiters"
@@ -1155,7 +1122,7 @@
     {
       "file": "statistics-class-11-revision-notes-jee.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 989 words (Target: 2000+)"
+        "Thin Content Warning: Entire body is only 993 words (Target: 2000+)"
       ],
       "warnings": [
         "Potential raw LaTeX detected outside of $...$ delimiters"
@@ -1195,9 +1162,7 @@
       "errors": [
         "Thin Content Warning: Entire body is only 770 words (Target: 2000+)"
       ],
-      "warnings": [
-        "Potential raw LaTeX detected outside of $...$ delimiters"
-      ]
+      "warnings": []
     },
     {
       "file": "study-12-hours-daily-tips-class-11-revision-notes-jee-neet.md",
@@ -1232,7 +1197,7 @@
     {
       "file": "the-s-block-elements-class-11-revision-notes-jee-neet.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 1092 words (Target: 2000+)",
+        "Thin Content Warning: Entire body is only 1093 words (Target: 2000+)",
         "Contains malformed HTML: '[class]' attribute found (unbound React syntax)"
       ],
       "warnings": [
@@ -1242,9 +1207,7 @@
     {
       "file": "theory-of-computation-class-12-notes.md",
       "errors": [
-        "Contains unparsed JSON body blocks - 'JSON Squashing' detected",
-        "Critical Failure: Literal JSON-like strings found in content body",
-        "Thin Content Warning: Entire body is only 1434 words (Target: 2000+)",
+        "Thin Content Warning: Entire body is only 1427 words (Target: 2000+)",
         "Contains malformed HTML: '[class]' attribute found (unbound React syntax)"
       ],
       "warnings": []
@@ -1255,13 +1218,6 @@
         "Thin Content Warning: Entire body is only 1205 words (Target: 2000+)"
       ],
       "warnings": []
-    },
-    {
-      "file": "thermodynamics-chemistry-class-11-revision-notes-jee-neet.md",
-      "errors": [],
-      "warnings": [
-        "Potential raw LaTeX detected outside of $...$ delimiters"
-      ]
     },
     {
       "file": "thermodynamics-class-11-revision-notes-neet.md",
@@ -1288,7 +1244,7 @@
     {
       "file": "triangles-class-10-notes.md",
       "errors": [
-        "Thin Content Warning: Entire body is only 1492 words (Target: 2000+)",
+        "Thin Content Warning: Entire body is only 1496 words (Target: 2000+)",
         "Contains malformed HTML: '[class]' attribute found (unbound React syntax)"
       ],
       "warnings": [
@@ -1298,9 +1254,7 @@
     {
       "file": "trigonometric-functions-class-11-revision-notes-jee-neet.md",
       "errors": [
-        "Contains unparsed JSON body blocks - 'JSON Squashing' detected",
-        "Critical Failure: Literal JSON-like strings found in content body",
-        "Thin Content Warning: Entire body is only 1624 words (Target: 2000+)"
+        "Thin Content Warning: Entire body is only 1588 words (Target: 2000+)"
       ],
       "warnings": [
         "Potential raw LaTeX detected outside of $...$ delimiters"
@@ -1347,6 +1301,13 @@
         "Thin Content Warning: Entire body is only 1272 words (Target: 2000+)"
       ],
       "warnings": []
+    },
+    {
+      "file": "world-history-industrial-revolution-class-11-revision-notes-jee-neet.md",
+      "errors": [],
+      "warnings": [
+        "Potential raw LaTeX detected outside of $...$ delimiters"
+      ]
     }
   ]
 }

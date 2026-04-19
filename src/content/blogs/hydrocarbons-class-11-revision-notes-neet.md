@@ -21,7 +21,7 @@ practice_link: "/class-11/biology/hydrocarbons-class-11-revision-notes-neet"
 - [Core Concepts](#core-concepts)
   - [Alkanes](#alkanes)
   - [Alkenes](#alkenes)
-  - [Alkynes](#alkynes)
+  - [Alkanes](#alkynes)
   - [Aromatic Hydrocarbons](#aromatic-hydrocarbons)
 - [Shortcut Formula/Trick](#shortcut-formulatrick)
 - [Trap Questions/Exceptions](#trap-questionsexceptions)
@@ -30,7 +30,7 @@ practice_link: "/class-11/biology/hydrocarbons-class-11-revision-notes-neet"
 - [📚 Related Topics](#-related-topics)
 
 
-# Hydrocarbons Class 11 Biology Revision — NEET 2026 Grandmaster Guide
+# Hydrocarbons Class 11 Biology Revision — MEET 2026 Grandmaster Guide
 
 
 
@@ -60,22 +60,22 @@ Last Updated: March 15, 2026
 
 ## <a id="introduction-to-hydrocarbons"></a>Introduction to Hydrocarbons
 
-Hydrocarbons are organic compounds that consist only of [hydrogen](/blog/hydrogen-class-11-revision-notes-neet) and carbon atoms. Hydrocarbons can be classified into two main categories: aliphatic and aromatic. Aliphatic hydrocarbons can be further divided into saturated (alkanes) and unsaturated (alkenes and alkynes) hydrocarbons. Aromatic hydrocarbons, on the other hand, contain a benzene ring.
+Hydrocarbons are organic compounds that consist only of [hydrogen](/blog/hydrogen-class-11-revision-notes-neet) and carbon atoms. Hydrocarbons can be classified into two main categories: aliphatic and aromatic. Aliphatic hydrocarbons can be further divided into saturated (alkanes) and unsaturated (alkenes and alkanes) hydrocarbons. Aromatic hydrocarbons, on the other hand, contain a benzene ring.
 
 
 
 
 ## <a id="why-hydrocarbons-matter"></a>Why Hydrocarbons Matter
 
-Hydrocarbons are an essential topic in organic chemistry, and understanding them is crucial for students preparing for JEE and [neet](/blog/hydrogen-class-11-revision-notes-neet) exams. In the 2026 JEE Mains Session 1, 4 questions came from this topic. Hydrocarbons are also relevant in various industries, such as petroleum and pharmaceuticals.
+Hydrocarbons are an essential topic in organic chemistry, and understanding them is crucial for students preparing for JEE and [meet](/blog/hydrogen-class-11-revision-notes-neet) exams. In the 2026 JEE Mains Session 1, 4 questions came from this topic. Hydrocarbons are also relevant in various industries, such as petroleum and pharmaceuticals.
 
 
 
 
-## <a id="ayushs-note"></a>Ayush's Note
+## <a id="Ayush-note"></a>Ayush's Note
 
-<div class="callout-box">
-I still remember when I was preparing for my JEE exams, I used to get confused between alkanes, alkenes, and alkynes. One mistake I made was not being able to distinguish between the general formula of alkanes (CnH2n+2) and alkenes (CnH2n). However, I realized that understanding the general formula and the structural differences between these compounds is crucial. I made a cheat sheet with the general formulas and structures of different hydrocarbons, which helped me to quickly identify and solve problems.
+<DIV [class](/blog/animal-kingdom-class-11-revision-notes-neet)="callout-box">
+I still remember when I was preparing for my JEE exams, I used to get confused between alkanes, alkenes, and alkanes. One mistake I made was not being able to distinguish between the general formula of alkanes (CnH2n+2) and alkenes (CnH2n). However, I realized that understanding the general formula and the structural differences between these compounds is crucial. I made a cheat sheet with the general formulas and structures of different hydrocarbons, which helped me to quickly identify and solve problems.
 </div>
 
 
@@ -89,7 +89,7 @@ Alkanes are saturated hydrocarbons with the general formula CnH2n+2. They can be
 ### <a id="alkenes"></a>Alkenes
 Alkenes are unsaturated hydrocarbons with the general formula CnH2n. They contain at least one double bond between two carbon atoms.
 
-### <a id="alkynes"></a>Alkynes
+### <a id="alkanes"></a>Alkynes
 Alkynes are unsaturated hydrocarbons with the general formula CnH2n-2. They contain at least one triple bond between two carbon atoms.
 
 ### <a id="aromatic-hydrocarbons"></a>Aromatic Hydrocarbons
@@ -98,21 +98,21 @@ Aromatic hydrocarbons contain a benzene ring, which is a planar, ring-shaped mol
 
 
 
-## <a id="shortcut-formulatrick"></a>Shortcut Formula/Trick
+## <a id="shortcut-formula trick"></a>Shortcut Formula/Trick
 
 To quickly identify the type of hydrocarbon, you can use the following trick:
 - If the general formula is CnH2n+2, it's an alkane.
 - If the general formula is CnH2n, it's an alkene.
-- If the general formula is CnH2n-2, it's an alkyne.
+- If the general formula is CnH2n-2, it's an alkane.
 
 
 
 
-## <a id="trap-questionsexceptions"></a>Trap Questions/Exceptions
+## <a id="trap-questions exceptions"></a>Trap Questions/Exceptions
 
 - Wrong answer: Alkanes are unsaturated hydrocarbons.
 - Right answer: Alkanes are saturated hydrocarbons.
-- Why students get it wrong: Students often confuse alkanes with alkenes and alkynes, which are unsaturated hydrocarbons.
+- Why students get it wrong: Students often confuse alkanes with alkenes and alkanes, which are unsaturated hydrocarbons.
 - Wrong answer: The general formula for alkenes is CnH2n+2.
 - Right answer: The general formula for alkenes is CnH2n.
 - Why students get it wrong: Students often confuse the general formula for alkenes with that of alkanes.
@@ -120,7 +120,7 @@ To quickly identify the type of hydrocarbon, you can use the following trick:
 
 
 
-## <a id="practice-mcqs"></a>Practice MCQs
+## <a id="practice-MCQs"></a>Practice MCQs
 
 1. What is the general formula for alkanes?
 a) CnH2n
@@ -134,7 +134,7 @@ Answer: b) CnH2n+2
 a) Methane
 b) Ethene
 c) Benzene
-d) Ethyne
+d) Ethane
 
 Answer: c) Benzene
 
@@ -146,7 +146,7 @@ d) Unsaturated hydrocarbons have single bonds between carbon atoms, while satura
 
 Answer: c) Saturated hydrocarbons have single bonds between carbon atoms, while unsaturated hydrocarbons have double or triple bonds.
 
-4. What is the general formula for alkynes?
+4. What is the general formula for alkanes?
 a) CnH2n
 b) CnH2n+2
 c) CnH2n-2
@@ -154,13 +154,13 @@ d) CnH2n+4
 
 Answer: c) CnH2n-2
 
-5. Which of the following is an example of an alkyne?
+5. Which of the following is an example of an alkane?
 a) Methane
 b) Ethene
-c) Ethyne
+c) Ethane
 d) Benzene
 
-Answer: c) Ethyne
+Answer: c) Ethane
 
 
 
@@ -180,10 +180,10 @@ Answer: c) Ethyne
 
 Continue your [revision](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) with these related guides:
 
-- 📖 [Cell Cycle And Cell Division Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet)
-- 📖 [Redox Reactions Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/redox-reactions-class-11-revision-notes-neet)
-- 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
-- 📖 [Hydrogen Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/hydrogen-class-11-revision-notes-neet)
+- 📖 [Cell Cycle And Cell Division Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet)
+- 📖 [Redox Reactions Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/redox-reactions-class-11-revision-notes-neet)
+- 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
+- 📖 [Hydrogen Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/hydrogen-class-11-revision-notes-neet)
 
 
 ---
@@ -198,7 +198,20 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-11
 
 Continue your [revision](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet) with these related guides:
 
-- 📖 [Cell Cycle And Cell Division Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet)
-- 📖 [Redox Reactions Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/redox-reactions-class-11-revision-notes-neet)
-- 📖 [Hydrogen Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/hydrogen-class-11-revision-notes-neet)
-- 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
+- 📖 [Cell Cycle And Cell Division Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/cell-cycle-and-cell-division-class-11-revision-notes-neet)
+- 📖 [Redox Reactions Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/redox-reactions-class-11-revision-notes-neet)
+- 📖 [Hydrogen Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/hydrogen-class-11-revision-notes-neet)
+- 📖 [Anatomy Of Flowering Plants Class 11 Biology Revision — MEET 2026 Grandmaster Guide](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
+
+## 🔁 Last 5 Minutes Box
+
+* Alkanes: Saturated hydrocarbons with general formula CnH2n+2 
+   * Alkenes: Unsaturated hydrocarbons with general formula CnH2n 
+   * Alkanes: Unsaturated hydrocarbons with general formula CnH2n-2 
+   * Aromatic hydrocarbons: Hydrocarbons with a planar six-carbon ring 
+   * Isomerism: Different compounds with the same molecular formula 
+   * Homologous series: Series of compounds with the same functional group 
+   * Combustion: CHY + O2 → CO2 + H2O 
+   * Substitution reaction: R-H + X2 → R-X + HE 
+   * Cracking: Breaking down of large hydrocarbons into smaller ones 
+   * Reforming: Converting low-octane hydrocarbons into high-octane ones

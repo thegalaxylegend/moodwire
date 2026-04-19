@@ -33,19 +33,19 @@ practice_link: "/class-11/chemistry/coordination-compounds-class-12-notes"
 * The importance of coordination compounds in biological [systems](/blog/communication-systems-class-12-notes) will be highlighted, with 1 question on the role of metal ions in enzymes, such as carbonic anhydrase or carboxypeptidase, and their interaction with amino acids and other biomolecules.
 * Werner's theory and the concept of primary and secondary valencies will be tested, with 1 question on the structure and properties of a specific complex, such as $[Co(NH_3)_6]Cl_3$, to assess understanding of coordination geometry and ligand field strength.
 
-* Spectrochemical series and the factors affecting the crystal field splitting energy (\Delta) will be examined, including 1 question on the effect of ligand field strength on the spectra of transition metal complexes.
+* Spectrochemical series and the factors affecting the crystal field splitting energy (\delta) will be examined, including 1 question on the effect of ligand field strength on the spectra of transition metal complexes.
 
 * The stability of coordination compounds, including the chelate effect and the influence of hard and soft acids and bases, will be tested, with 1 question on the relative stability of complexes with different ligands and metal ions.
-=======
+ ======= 
 
 - **Isomerism in Coordination Compounds**: at least 1 question on geometrical isomerism, always
 - **Valence Bond Theory (VBT)**: 1 numerical on VBT, focusing on hybridization and magnetic [nature](/blog/dual-nature-of-radiation-class-12-notes), every year
-- **Crystal Field Theory (CFT)**: 1-2 questions on CFT, including $\Delta_o$ and $\Delta_t$ calculations, always
+- **Crystal Field Theory (CFT)**: 1-2 questions on CFT, including $\delta_o$ and $\delta_t$ calculations, always
 - **Weak Field and Strong Field Ligands**: identification and explanation of weak and strong field ligands, frequently examined
 - **Magnetic Moment Calculations**: 1 numerical on calculating magnetic moment using spin-only formula, always
 - **Crystal Field Splitting Energy (CFSE)**: 1-2 questions on CFSE calculations and its relation to stability, every year
 - **Coordination Compound Nomenclature**: 2-3 questions on IUPAC nomenclature of coordination compounds, including isomerism, always
-- **Ligand Field Strength**: ranking of ligands based on field strength, using $\Delta_o$ and $\Delta_t$ values, frequently examined
+- **Ligand Field Strength**: ranking of ligands based on field strength, using $\delta_o$ and $\delta_t$ values, frequently examined
 - **Stability of Coordination Compounds**: 1 question on factors affecting stability, including CFSE, always
 - **Werner's Theory**: 1 question on Werner's theory, including postulates and limitations, every year
 - **Numerical on Coordination Compound Formation Constant**: 1 numerical on calculating formation constant (Kf) of a coordination compound, always
@@ -57,42 +57,42 @@ practice_link: "/class-11/chemistry/coordination-compounds-class-12-notes"
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
 <<<<<<< HEAD
-$\Delta_{oct} = \frac{9}{4} \times \Delta_{tet}$: Octahedral and tetrahedral crystal field splitting energy.$\Delta_{tet} = \frac{4}{9} \times \Delta_{oct}$: Tetrahedral and octahedral crystal field splitting energy.$h = 6.626 \times 10^{-34} Js$: Planck's constant. 
+$\delta_{oct} = \frac{9}{4} \times \delta_{tet}$: Octahedral and tetrahedral crystal field splitting energy.$\delta_{tet} = \frac{4}{9} \times \delta_{oct}$: Tetrahedral and octahedral crystal field splitting energy.$h = 6.626 \times 10^{-34} Js$: Planck's constant. 
  $c = 3.0 \times 10^8 ms^{-1}$: Speed of light. 
- $E = \frac{hc}{\lambda}$: Energy of photon.$\lambda = \frac{hc}{E}$: Wavelength of photon.$E = \Delta_{oct} = \frac{9}{4} \times \Delta_{tet}$: Crystal field splitting energy in octahedral complex.$E = \Delta_{tet} = \frac{4}{9} \times \Delta_{oct}$: Crystal field splitting energy in tetrahedral complex.$CFSE = -0.4 \times \Delta_{oct}$: Crystal field stabilization energy for $d^1$ configuration. 
- $CFSE = -0.8 \times \Delta_{oct}$: Crystal field stabilization energy for $d^2$ configuration. 
- $CFSE = -1.2 \times \Delta_{oct}$: Crystal field stabilization energy for $d^3$ configuration. 
- $CFSE = -2.4 \times \Delta_{oct}$: Crystal field stabilization energy for $d^8$ configuration. 
- $CFSE = -0.6 \times \Delta_{oct}$: Crystal field stabilization energy for low spin $d^4$ configuration. 
- $CFSE = -0.4 \times \Delta_{oct}$: Crystal field stabilization energy for high spin $d^4$ configuration. 
- $CFSE = -0.2 \times \Delta_{oct}$: Crystal field stabilization energy for low spin $d^5$ configuration. 
- $CFSE = -0.0 \times \Delta_{oct}$: Crystal field stabilization energy for high spin $d^5$ configuration. 
- $CFSE = -0.4 \times \Delta_{oct}$: Crystal field stabilization energy for low spin $d^6$ configuration. 
- $CFSE = -0.4 \times \Delta_{oct}$: Crystal field stabilization energy for high spin $d^6$ configuration. 
- $CFSE = -0.6 \times \Delta_{oct}$: Crystal field stabilization energy for low spin $d^7$ configuration. 
- $CFSE = -0.8 \times \Delta_{oct}$: Crystal field stabilization energy for high spin $d^7$ configuration. 
- $CFSE = -1.2 \times \Delta_{oct}$: Crystal field stabilization energy for low spin $d^8$ configuration. 
- $CFSE = -1.2 \times \Delta_{oct}$: Crystal field stabilization energy for high spin $d^8$ configuration. 
- $E_{low} = \frac{3}{5} \times \Delta_{oct}$: Energy of $d_{z^2}$ and $d_{x^2-y^2}$ in low spin configuration.$E_{high} = \frac{2}{5} \times \Delta_{oct}$: Energy of $d_{xy}$, $d_{yz}$ and $d_{zx}$ in high spin configuration.$E_{low} = \frac{2}{5} \times \Delta_{oct}$: Energy of $d_{xy}$, $d_{yz}$ and $d_{zx}$ in low spin configuration.$E_{high} = \frac{3}{5} \times \Delta_{oct}$: Energy of $d_{z^2}$ and $d_{x^2-y^2}$ in high spin configuration.$\mu = \sqrt{n(n+2)} BM$: Magnetic moment for $n$ unpaired electrons.$\mu_{B} = 9.27 \times 10^{-24} Am^2$: Bohr magneton.
+ $E = \frac{hc}{\lambda}$: Energy of photon.$\lambda = \frac{hc}{E}$: Wavelength of photon.$E = \delta_{oct} = \frac{9}{4} \times \delta_{tet}$: Crystal field splitting energy in octahedral complex.$E = \delta_{tet} = \frac{4}{9} \times \delta_{oct}$: Crystal field splitting energy in tetrahedral complex.$CFSE = -0.4 \times \delta_{oct}$: Crystal field stabilization energy for $d^1$ configuration. 
+ $CFSE = -0.8 \times \delta_{oct}$: Crystal field stabilization energy for $d^2$ configuration. 
+ $CFSE = -1.2 \times \delta_{oct}$: Crystal field stabilization energy for $d^3$ configuration. 
+ $CFSE = -2.4 \times \delta_{oct}$: Crystal field stabilization energy for $d^8$ configuration. 
+ $CFSE = -0.6 \times \delta_{oct}$: Crystal field stabilization energy for low spin $d^4$ configuration. 
+ $CFSE = -0.4 \times \delta_{oct}$: Crystal field stabilization energy for high spin $d^4$ configuration. 
+ $CFSE = -0.2 \times \delta_{oct}$: Crystal field stabilization energy for low spin $d^5$ configuration. 
+ $CFSE = -0.0 \times \delta_{oct}$: Crystal field stabilization energy for high spin $d^5$ configuration. 
+ $CFSE = -0.4 \times \delta_{oct}$: Crystal field stabilization energy for low spin $d^6$ configuration. 
+ $CFSE = -0.4 \times \delta_{oct}$: Crystal field stabilization energy for high spin $d^6$ configuration. 
+ $CFSE = -0.6 \times \delta_{oct}$: Crystal field stabilization energy for low spin $d^7$ configuration. 
+ $CFSE = -0.8 \times \delta_{oct}$: Crystal field stabilization energy for high spin $d^7$ configuration. 
+ $CFSE = -1.2 \times \delta_{oct}$: Crystal field stabilization energy for low spin $d^8$ configuration. 
+ $CFSE = -1.2 \times \delta_{oct}$: Crystal field stabilization energy for high spin $d^8$ configuration. 
+ $E_{low} = \frac{3}{5} \times \delta_{oct}$: Energy of $d_{z^2}$ and $d_{x^2-y^2}$ in low spin configuration.$E_{high} = \frac{2}{5} \times \delta_{oct}$: Energy of $d_{xy}$, $d_{yz}$ and $d_{zx}$ in high spin configuration.$E_{low} = \frac{2}{5} \times \delta_{oct}$: Energy of $d_{xy}$, $d_{yz}$ and $d_{zx}$ in low spin configuration.$E_{high} = \frac{3}{5} \times \delta_{oct}$: Energy of $d_{z^2}$ and $d_{x^2-y^2}$ in high spin configuration.$\mu = \sqrt{n(n+2)} BM$: Magnetic moment for $n$ unpaired electrons.$\mu_{B} = 9.27 \times 10^{-24} Am^2$: Bohr magneton.
 
 | Complex | Configuration | CFSE | Magnetic Moment |
 | --- | --- | --- | --- |
-| $[Fe(H_2O)_6]^{3+}$ | $t_{2g}^5 e_g^0$ | $-0.8 \times \Delta_{oct}$ | $\sqrt{5(5+2)} = 5.92 BM$ |
-| $[Co(H_2O)_6]^{3+}$ | $t_{2g}^4 e_g^2$ | $-1.2 \times \Delta_{oct}$ | $\sqrt{4(4+2)} = 4.89 BM$ |
-| $[Ni(H_2O)_6]^{2+}$ | $t_{2g}^6 e_g^2$ | $-2.0 \times \Delta_{oct}$ | $\sqrt{2(2+2)} = 2.83 BM$ |
-| $[Cu(H_2O)_6]^{2+}$ | $t_{2g}^6 e_g^3$ | $-1.6 \times \Delta_{oct}$ | $\sqrt{1(1+2)} = 1.73 BM$ |
-=======
+| $[Fe(H_2O)_6]^{3+}$ | $t_{2g}^5 e_g^0$ | $-0.8 \times \delta_{oct}$ | $\sqrt{5(5+2)} = 5.92 BM$ |
+| $[Co(H_2O)_6]^{3+}$ | $t_{2g}^4 e_g^2$ | $-1.2 \times \delta_{oct}$ | $\sqrt{4(4+2)} = 4.89 BM$ |
+| $[Ni(H_2O)_6]^{2+}$ | $t_{2g}^6 e_g^2$ | $-2.0 \times \delta_{oct}$ | $\sqrt{2(2+2)} = 2.83 BM$ |
+| $[Cu(H_2O)_6]^{2+}$ | $t_{2g}^6 e_g^3$ | $-1.6 \times \delta_{oct}$ | $\sqrt{1(1+2)} = 1.73 BM$ |
+ ======= 
 - **Werner’s Formula:** [MA_{x}B_{y}]^{n \pm} — M is the central metal atom, A is the monodentate ligand, B is the other monodentate ligand, x and y are the number of A and B ligands respectively, and n is the charge on the complex.
 
- - **Valence Bond Theory (VBT) Formula:** \Delta_{o} = $\frac{{1}{2} \	imes (b \	imes \beta) — }{ is the crystal field splitting energy in an octahedral complex, } \Delta_{o}$b$ is the number of $d$ electrons, and $\beta$ is the bond strength.$
+ - **Valence Bond Theory (VBT) Formula:** \delta_{o} = $\frac{{1}{2} \	imes (b \	imes \beta) — }{ is the crystal field splitting energy in an octahedral complex, } \delta_{o}$b$ is the number of $d$ electrons, and $\beta$ is the bond strength.$
 
  - **Magnetic Moment Formula:** \mu = $\sqrt{n(n+2)} — $\mu$ is the magnetic moment, and $n$ is the number of unpaired electrons.$
 
- - **Crystal Field Stabilization Energy (CFSE) Formula:** CFSE = -0.4 \	imes \Delta_{o} — CFSE is the crystal field stabilization energy, and $\Delta_{o}$ is the crystal field splitting energy in an octahedral complex.
+ - **Crystal Field Stabilization Energy (CFSE) Formula:** CFSE = -0.4 \	imes \delta_{o} — CFSE is the crystal field stabilization energy, and $\delta_{o}$ is the crystal field splitting energy in an octahedral complex.
 
- - **Octahedral Site Stabilization Energy Formula:** \Delta_{o} = $\frac{{(-ze^2)(<r^4>)}{6R} — }{ is the crystal field splitting energy in an octahedral complex, } \Delta_{o}$z$ is the charge on the ligand, $e$ is the elementary charge, $<r^4>$ is the average value of $r^4$, and $R$ is the distance between the metal center and the ligand.$
+ - **Octahedral Site Stabilization Energy Formula:** \delta_{o} = $\frac{{(-ze^2)(<r^4>)}{6R} — }{ is the crystal field splitting energy in an octahedral complex, } \delta_{o}$z$ is the charge on the ligand, $e$ is the elementary charge, $<r^4>$ is the average value of $r^4$, and $R$ is the distance between the metal center and the ligand.$
 
- - **Tetrahedral Site Stabilization Energy Formula:** \Delta_{t} = $\frac{{2}{3} \	imes \Delta_{o} — }{ is the crystal field splitting energy in a tetrahedral complex, and } \Delta_{t}$\Delta_{o}$ is the crystal field splitting energy in an octahedral complex.$
+ - **Tetrahedral Site Stabilization Energy Formula:** \delta_{t} = $\frac{{2}{3} \	imes \delta_{o} — }{ is the crystal field splitting energy in a tetrahedral complex, and } \delta_{t}$\delta_{o}$ is the crystal field splitting energy in an octahedral complex.$
 
  - **Coordination Number (CN) Formula:** CN = 2 \	imes \sigma + \pi — CN is the coordination number, $\sigma$ is the number of $\sigma$ bonds, and $\pi$ is the number of $\pi$ bonds.
 
@@ -105,16 +105,16 @@ $\Delta_{oct} = \frac{9}{4} \times \Delta_{tet}$: Octahedral and tetrahedral cry
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
 <<<<<<< HEAD
-When dealing with Coordination Compounds, students often lose marks due to specific errors that can be easily avoided. Here are the top 5 mistakes that cost marks, along with their costs and fixes. Mistake 1: Writing the formula of coordination compounds without considering the charge on the central metal ion, $\Delta$ costs 1 mark for each compound, Fix: Always determine the charge on the central metal ion and balance it with the charges on the ligands. For instance, in $[Co(NH_{3})_{6}]Cl_{3}$, the charge on $Co$ is $+3$ which is balanced by three $Cl^{-}$ ions. Mistake 2: Not considering the isomerism in coordination compounds, Costs 4 marks for each question, Fix: Always look out for possible isomerism (geometrical, optical, or ionization) and draw the structures accordingly. For example, $[Co(NH_{3})_{4}Cl_{2}]^{+}$ exhibits geometrical isomerism. Mistake 3: Incorrectly applying the $\Delta_{o}$ splitting energy in Crystal Field Theory (CFT), Costs 3 marks for each calculation, Fix: Understand that $\Delta_{o}$ depends on the nature of the ligand and the central metal ion, and use the correct formula $\Delta_{o} = \frac$\Delta${5}$ for high-spin complexes and $\Delta_{o} = \frac$\Delta${2}$ for low-spin complexes, where $\Delta$ is the crystal field splitting energy in an octahedral field, calculated as $\Delta = \frac{5}{3} \times \frac{Ze^{2}}{r^{5}}$, where $Z$ is the atomic number of the metal ion, $e$ is the elementary charge, and $r$ is the radius of the metal ion. Mistake 4: Not identifying the type of hybridization in coordination compounds, Costs 2 marks for each compound, Fix: Determine the coordination number and geometry of the complex, then apply the VSEPR theory to predict the hybridization of the central metal ion. For instance, in $[Ni(CN)_{4}]^{2-}$, the coordination number is 4 and the geometry is square planar, which corresponds to $dsp^{2}$ hybridization. Mistake 5: Incorrectly calculating the magnetic moment of a coordination compound using the spin-only formula, $\mu_{so} = \sqrt{n(n+2)} \times \frac\sqrt{3}${2} \mu_{B}$, Costs 4 marks for each calculation, Fix: Always check if the complex is high-spin or low-spin and apply the correct formula, also consider the orbital contribution to the magnetic moment if the complex is not in a high-spin state. For example, in $[Fe(H_{2}O)_{6}]^{3+}$, the complex is high-spin and has 5 unpaired electrons, resulting in a magnetic moment of $\mu_{so} = $\sqrt{5(5+2)}$ \times \frac$\sqrt{3}${2} \mu_{B} = 5.92 \mu_{B}
+When dealing with Coordination Compounds, students often lose marks due to specific errors that can be easily avoided. Here are the top 5 mistakes that cost marks, along with their costs and fixes. Mistake 1: Writing the formula of coordination compounds without considering the charge on the central metal ion, $\delta$ costs 1 mark for each compound, Fix: Always determine the charge on the central metal ion and balance it with the charges on the ligands. For instance, in $[Co(NH_{3})_{6}]Cl_{3}$, the charge on $Co$ is $+3$ which is balanced by three $Cl^{-}$ ions. Mistake 2: Not considering the isomerism in coordination compounds, Costs 4 marks for each question, Fix: Always look out for possible isomerism (geometrical, optical, or ionization) and draw the structures accordingly. For example, $[Co(NH_{3})_{4}Cl_{2}]^{+}$ exhibits geometrical isomerism. Mistake 3: Incorrectly applying the $\delta_{o}$ splitting energy in Crystal Field Theory (CFT), Costs 3 marks for each calculation, Fix: Understand that $\delta_{o}$ depends on the nature of the ligand and the central metal ion, and use the correct formula $\delta_{o} = \frac$\delta${5}$ for high-spin complexes and $\delta_{o} = \frac$\delta${2}$ for low-spin complexes, where $\delta$ is the crystal field splitting energy in an octahedral field, calculated as $\delta = \frac{5}{3} \times \frac{Ze^{2}}{r^{5}}$, where $Z$ is the atomic number of the metal ion, $e$ is the elementary charge, and $r$ is the radius of the metal ion. Mistake 4: Not identifying the type of hybridization in coordination compounds, Costs 2 marks for each compound, Fix: Determine the coordination number and geometry of the complex, then apply the VSEPR theory to predict the hybridization of the central metal ion. For instance, in $[Ni(CN)_{4}]^{2-}$, the coordination number is 4 and the geometry is square planar, which corresponds to $dsp^{2}$ hybridization. Mistake 5: Incorrectly calculating the magnetic moment of a coordination compound using the spin-only formula, $\mu_{so} = \sqrt{n(n+2)} \times \frac\sqrt{3}${2} \mu_{B}$, Costs 4 marks for each calculation, Fix: Always check if the complex is high-spin or low-spin and apply the correct formula, also consider the orbital contribution to the magnetic moment if the complex is not in a high-spin state. For example, in $[Fe(H_{2}O)_{6}]^{3+}$, the complex is high-spin and has 5 unpaired electrons, resulting in a magnetic moment of $\mu_{so} = $\sqrt{5(5+2)}$ \times \frac$\sqrt{3}${2} \mu_{B} = 5.92 \mu_{B}
 
 | Mistake | Costs | Fix |
 | --- | --- | --- |
 | Writing the formula of coordination compounds without considering the charge on the central metal ion | 1 mark for each compound | Always determine the charge on the central metal ion and balance it with the charges on the ligands |
 | Not considering the isomerism in coordination compounds | 4 marks for each question | Always look out for possible isomerism (geometrical, optical, or ionization) and draw the structures accordingly |
-| Incorrectly applying the \Delta_{o}$ splitting energy in Crystal Field Theory (CFT) | 3 marks for each calculation | Understand that $\Delta_{o}$ depends on the nature of the ligand and the central metal ion, and use the correct formula $\Delta_{o} = \frac$\Delta${5}$ for high-spin complexes and $\Delta_{o} = \frac$\Delta${2}$ for low-spin complexes |
+| Incorrectly applying the \delta_{o}$ splitting energy in Crystal Field Theory (CFT) | 3 marks for each calculation | Understand that $\delta_{o}$ depends on the nature of the ligand and the central metal ion, and use the correct formula $\delta_{o} = \frac$\delta${5}$ for high-spin complexes and $\delta_{o} = \frac$\delta${2}$ for low-spin complexes |
 | Not identifying the type of hybridization in coordination compounds | 2 marks for each compound | Determine the coordination number and geometry of the complex, then apply the VSEPR theory to predict the hybridization of the central metal ion |
 | Incorrectly calculating the magnetic moment of a coordination compound using the spin-only formula | 4 marks for each calculation | Always check if the complex is high-spin or low-spin and apply the correct formula, also consider the orbital contribution to the magnetic moment if the complex is not in a high-spin state |
-=======
+ ======= 
 - **Mistake 1:** Incorrectly identifying the coordination sphere in a coordination compound, which includes the central metal atom and the ligands directly attached to it.
 
  - *Costs:* 2-3 marks for each incorrect identification
@@ -157,7 +157,7 @@ The following are 3 solved past year questions related to the topic of Coordinat
 | [Ni(CN)_4]^{2-} | Square planar | - | - |
 | [Co(NH_3)_6]Cl_3 | - | Ionization isomer | - |
 | [Fe(H_2O)_6]^{2+} | - | - | 4.9 |
-=======
+ ======= 
 - **Q1:** What is the coordination number of the central metal atom in the complex $left[ Pt \left( NH_{3} \right)_{2} Cl_{2} \right]$?
 
  - **Trap:** Students often confuse the coordination number with the oxidation state.
@@ -172,7 +172,7 @@ The following are 3 solved past year questions related to the topic of Coordinat
 
  Therefore, the coordination number of the central metal atom $Pt$ is $4$.
 
- \\text{Coordination Number} = \\text{Number of } \sigma\\text{-bonds}\\text{Coordination Number} = 2 + 2 = 4
+ \$\text{Coordination Number}$ = \$\text{Number of }$ \sigma\$\text{-bonds}$\$\text{Coordination Number}$ = 2 + 2 = 4
 
  - **Answer:** $4$
 
@@ -192,7 +192,7 @@ The following are 3 solved past year questions related to the topic of Coordinat
 
  Therefore, the complex $left[ Co \left( NH_{3} \right)_{6} \right]^{3+}$ does not show any isomerism.
 
- \\text{Isomerism} = \\text{Geometrical Isomerism} + \\text{Optical Isomerism} + \\text{Ionization Isomerism}\\text{Isomerism} = 0 + 0 + 0 = 0
+ \$\text{Isomerism}$ = \$\text{Geometrical Isomerism}$ + \$\text{Optical Isomerism}$ + \$\text{Ionization Isomerism}$\$\text{Isomerism}$ = 0 + 0 + 0 = 0
 
  - **Answer:** The complex does not show any isomerism.
 
@@ -214,7 +214,7 @@ The following are 3 solved past year questions related to the topic of Coordinat
 
  Therefore, the complex $left[ Ni \left( CN \right)_{4} \right]^{2-}$ is diamagnetic.
 
-\mu = $\sqrt{n \left( n + 2 \right)}\mu = $\sqrt{0 \left( 0 + 2 \right)} = 0
+\mu = $\sqrt{n \left( n + 2 \right)}\mu = \sqrt{0 \left( 0 + 2 \right)}$ = 0
 
  - **Answer:** $0$
 
@@ -223,29 +223,29 @@ The following are 3 solved past year questions related to the topic of Coordinat
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 <<<<<<< HEAD
-The key concept that differentiates 85% scorers from 95% scorers in the chapter on Coordination Compounds is the understanding of stereoisomerism, specifically the distinction between geometric (cis-trans) isomerism and optical isomerism. Most students struggle to apply the concept of $\Delta$ and $\lambda$ configurations for octahedral complexes, leading to incorrect assignments of absolute configurations.
+The key concept that differentiates 85% scorers from 95% scorers in the chapter on Coordination Compounds is the understanding of stereoisomerism, specifically the distinction between geometric (cis-trans) isomerism and optical isomerism. Most students struggle to apply the concept of $\delta$ and $\lambda$ configurations for octahedral complexes, leading to incorrect assignments of absolute configurations.
 
  Geometric isomerism arises in complexes with the general formula $[MA_2B_2]$ or $[MA_2B_2C_2]$, where the two ligands of each type can either be adjacent (cis) or opposite (trans) to each other. For square planar complexes, this results in cis-trans isomers, but for octahedral complexes, the situation is more complex due to the possibility of meridional and facial isomers.
 
- Optical isomerism, on the other hand, occurs when a complex and its mirror image are not superimposable, a phenomenon known as chirality. In octahedral complexes, this is often due to the presence of bidentate or polydentate ligands that create a chiral center. The $\Delta$ and $\lambda$ configurations are used to describe the absolute configuration of these chiral complexes, with $\Delta$ referring to a clockwise arrangement of ligands when viewed from a specific perspective and $\lambda$ referring to a counterclockwise arrangement.
+ Optical isomerism, on the other hand, occurs when a complex and its mirror image are not superimposable, a phenomenon known as chirality. In octahedral complexes, this is often due to the presence of bidentate or polydentate ligands that create a chiral center. The $\delta$ and $\lambda$ configurations are used to describe the absolute configuration of these chiral complexes, with $\delta$ referring to a clockwise arrangement of ligands when viewed from a specific perspective and $\lambda$ referring to a counterclockwise arrangement.
 
- The critical aspect that separates high scorers is their ability to systematically determine the $\Delta$ or $\lambda$ configuration for any given complex, using the IUPAC rules and prioritization of ligands based on their atomic number. They can apply these rules to predict the optical activity of a complex and to distinguish between diastereomers, which is crucial for understanding the [chemical](/blog/chemical-kinetics-class-12-notes) and physical properties of coordination compounds.
+ The critical aspect that separates high scorers is their ability to systematically determine the $\delta$ or $\lambda$ configuration for any given complex, using the IUPAC rules and prioritization of ligands based on their atomic number. They can apply these rules to predict the optical activity of a complex and to distinguish between diastereomers, which is crucial for understanding the [chemical](/blog/chemical-kinetics-class-12-notes) and physical properties of coordination compounds.
 
- For instance, in the complex $[Co(en)_2Cl_2]^{+}$, the ethylenediamine (en) ligands create a chiral environment, leading to $\Delta$ and $\lambda$ isomers. To determine the configuration, one must prioritize the ligands (Cl $>$ en), and then apply the IUPAC rules to assign the configuration based on the arrangement of the ligands in space.
+ For instance, in the complex $[Co(en)_2Cl_2]^{+}$, the ethylenediamine (en) ligands create a chiral environment, leading to $\delta$ and $\lambda$ isomers. To determine the configuration, one must prioritize the ligands (Cl $>$ en), and then apply the IUPAC rules to assign the configuration based on the arrangement of the ligands in space.
 
- Mastering the application of $\Delta$ and $\lambda$ configurations, along with understanding the underlying principles of stereoisomerism, is what sets the top scorers apart, enabling them to tackle complex problems in coordination chemistry with confidence and precision.
+ Mastering the application of $\delta$ and $\lambda$ configurations, along with understanding the underlying principles of stereoisomerism, is what sets the top scorers apart, enabling them to tackle complex problems in coordination chemistry with confidence and precision.
 
 | Type of Isomerism | Description | Example |
 | --- | --- | --- |
 | Geometric (Cis-Trans) | Difference in the spatial arrangement of ligands | [Pt(NH3)2Cl2] |
 | Optical | Presence of a chiral center, leading to non-superimposable mirror images | [Co(en)2Cl2]+ |
 | Staggered and eclipsed conformation in ethane-like complexes | Difference in the dihedral angle between ligands | [Cr(NH3)6]3+ |
-=======
+ ======= 
 - **The Core Concept:** The key to mastering coordination compounds lies in understanding the concept of **isomerism**. Isomerism refers to the phenomenon where two or more compounds have the same molecular formula but differ in their structural or spatial arrangement of [atoms](/blog/atoms-class-12-notes). In coordination compounds, isomerism can arise due to the difference in the arrangement of ligands around the central metal ion.
 
  - **What 85% scorers do:** Most students are familiar with the basic types of isomerism, such as **geometrical isomerism** (cis-trans isomerism) and **optical isomerism**. However, they often struggle to identify and distinguish between different types of isomers, particularly in complex coordination compounds. They may rely on memorization rather than understanding the underlying principles.
 
- - **What 95% scorers do:** Top scorers, on the other hand, have a deep understanding of the **theoretical framework** underlying isomerism in coordination compounds. They can apply **group theory** and **point group symmetry** to predict the number and type of isomers that can exist for a given coordination compound. They also recognize the importance of **spectroscopic methods**, such as NMR and IR spectroscopy, in identifying and characterizing isomers. Furthermore, they can use **$\Delta$-octahedral splitting energy** and **$\Delta$-tetrahedral splitting energy** to predict the stability of different isomers. For example, they can use the following equation to calculate the splitting energy: \Delta_{oct} = $\frac{{9}{5} \	imes }{ is the charge of the ligand and } \frac{e}{r} where e$r$ is the distance between the metal ion and the ligand.
+ - **What 95% scorers do:** Top scorers, on the other hand, have a deep understanding of the **theoretical framework** underlying isomerism in coordination compounds. They can apply **group theory** and **point group symmetry** to predict the number and type of isomers that can exist for a given coordination compound. They also recognize the importance of **spectroscopic methods**, such as NMR and IR spectroscopy, in identifying and characterizing isomers. Furthermore, they can use **$\delta$-octahedral splitting energy** and **$\delta$-tetrahedral splitting energy** to predict the stability of different isomers. For example, they can use the following equation to calculate the splitting energy: \delta_{oct} = $\frac{{9}{5} \	imes }{ is the charge of the ligand and } \frac{e}{r} where e$r$ is the distance between the metal ion and the ligand.
 
  - **Key differences:** The key differences between 85% scorers and 95% scorers lie in their ability to:
 
@@ -276,22 +276,22 @@ The key concept that differentiates 85% scorers from 95% scorers in the chapter 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
 <<<<<<< HEAD
-When solving Coordination Compounds problems, focus on the $\Delta$-octahedral splitting energy. For high-spin complexes, $\Delta_{oct} < P$ where $P$ is the pairing energy, whereas for low-spin complexes, $\Delta_{oct} > P$. To calculate $\Delta_{oct}$, use the formula $\Delta_{oct} = \frac{9}{4} \times \Delta_\text{tetrahedral$}$. For $d^4$ to $d^7$ configurations, determining whether the complex is high-spin or low-spin is crucial as it affects the magnetic moment $\mu = $\sqrt{n(n+2)}$. For $d^8$ configurations like $[Ni(CN)_4]^{2-}$, the complex is always diamagnetic due to the $dsp^2$ hybridization. When writing the IUPAC name, identify the central metal atom and its oxidation state, then list the ligands in alphabetical order. For ambidentate ligands like $NO_2^-$ or $SCN^-$, specify the binding site. The $hapticity$ of a ligand is denoted by $\eta$. For example, $\eta^5$-Cp denotes a cyclopentadienyl ligand bound to the metal through all five carbon atoms. The overall charge of the complex ion is the \sum of the charges on the central metal ion and the ligands. For example, $[Co(NH_3)_6]^{3+}$ has a $+3$ charge. When solving for the oxidation state of the central metal, use $x + \sum{($\text{ligand charges}$)} = $1 . For $[Cu(NH_3)_4]^{2+}$, $x + 0 = +2$ so the oxidation state of copper is $+2$. In the JEE, questions about Coordination Compounds often involve calculating the number of possible geometrical isomers. For $MA_2B_2$ type complexes, there are 6 possible isomers: $cis$-$trans$ isomerism and optical isomerism. For $M(AA)_2B_2$ type complexes, there are 3 possible isomers: $cis$-$trans$ isomerism and optical isomerism for the $cis$ isomer. For $M(AA)_3$ type complexes, there are 2 possible isomers: fac-mer isomerism. The JEE often tests the ability to identify the number of possible isomers for a given complex. When solving problems involving Coordination Compounds, make sure to calculate the $\Delta_{oct}$ value, determine the spin state, identify the hapticity of the ligands, and specify the IUPAC name. By following these steps, you can solve even the most challenging problems in Coordination Compounds.
+When solving Coordination Compounds problems, focus on the $\delta$-octahedral splitting energy. For high-spin complexes, $\delta_{oct} < P$ where $P$ is the pairing energy, whereas for low-spin complexes, $\delta_{oct} > P$. To calculate $\delta_{oct}$, use the formula $\delta_{oct} = \frac{9}{4} \times \delta_\text{tetrahedral$}$. For $d^4$ to $d^7$ configurations, determining whether the complex is high-spin or low-spin is crucial as it affects the magnetic moment $\mu = $\sqrt{n(n+2)}$. For $d^8$ configurations like $[Ni(CN)_4]^{2-}$, the complex is always diamagnetic due to the $dsp^2$ hybridization. When writing the IUPAC name, identify the central metal atom and its oxidation state, then list the ligands in alphabetical order. For ambidentate ligands like $NO_2^-$ or $SCN^-$, specify the binding site. The $hapticity$ of a ligand is denoted by $\eta$. For example, $\eta^5$-Cp denotes a cyclopentadienyl ligand bound to the metal through all five carbon atoms. The overall charge of the complex ion is the \sum of the charges on the central metal ion and the ligands. For example, $[Co(NH_3)_6]^{3+}$ has a $+3$ charge. When solving for the oxidation state of the central metal, use $x + \sum{(\text{ligand charges})} = $1 . For $[Cu(NH_3)_4]^{2+}$, $x + 0 = +2$ so the oxidation state of copper is $+2$. In the JEE, questions about Coordination Compounds often involve calculating the number of possible geometrical isomers. For $MA_2B_2$ type complexes, there are 6 possible isomers: $cis$-$trans$ isomerism and optical isomerism. For $M(AA)_2B_2$ type complexes, there are 3 possible isomers: $cis$-$trans$ isomerism and optical isomerism for the $cis$ isomer. For $M(AA)_3$ type complexes, there are 2 possible isomers: fac-mer isomerism. The JEE often tests the ability to identify the number of possible isomers for a given complex. When solving problems involving Coordination Compounds, make sure to calculate the $\delta_{oct}$ value, determine the spin state, identify the hapticity of the ligands, and specify the IUPAC name. By following these steps, you can solve even the most challenging problems in Coordination Compounds.
 
-| Complex | $d$-electron configuration | Spin state | $\Delta_{oct}$ | Magnetic moment ($\mu$) |
+| Complex | $d$-electron configuration | Spin state | $\delta_{oct}$ | Magnetic moment ($\mu$) |
 | --- | --- | --- | --- | --- |
-| $[Ti(H_2O)_6]^{3+}$ | $d^1$ | high-spin | $\Delta_{oct} = 20000cm^{-1}$ | $\mu = \sqrt{3(3+2)} = \sqrt{15}$ |
-| $[Fe(CN)_6]^{4-}$ | $d^6$ | low-spin | $\Delta_{oct} = 30000cm^{-1}$ | $\mu = 0$ |
-| $[Co(NH_3)_6]^{3+}$ | $d^6$ | low-spin | $\Delta_{oct} = 23000cm^{-1}$ | $\mu = 0$ |
-| $[NiCl_4]^{2-}$ | $d^8$ | high-spin | $\Delta_{oct} = 3000cm^{-1}$ | $\mu = \sqrt{8(8+2)} = \sqrt{80}$ |
-=======
+| $[Ti(H_2O)_6]^{3+}$ | $d^1$ | high-spin | $\delta_{oct} = 20000cm^{-1}$ | $\mu = \sqrt{3(3+2)} = \sqrt{15}$ |
+| $[Fe(CN)_6]^{4-}$ | $d^6$ | low-spin | $\delta_{oct} = 30000cm^{-1}$ | $\mu = 0$ |
+| $[Co(NH_3)_6]^{3+}$ | $d^6$ | low-spin | $\delta_{oct} = 23000cm^{-1}$ | $\mu = 0$ |
+| $[NiCl_4]^{2-}$ | $d^8$ | high-spin | $\delta_{oct} = 3000cm^{-1}$ | $\mu = \sqrt{8(8+2)} = \sqrt{80}$ |
+ ======= 
 - **The Hidden Pattern:** After analyzing 5+ years of PYQs, it's evident that coordination compounds questions often follow a specific pattern. The most common types of questions involve:
 
  - Isomerism: $\\text{Optical, Geometrical, and Linkage isomerism}$ are frequently asked. Optical isomerism is seen in complexes with no plane of symmetry and no center of symmetry, and is tested using $[M(\\text{aminocarboxylate})_n]$ type complexes.
 
  - Coordination Geometry: Questions often involve determining the geometry of the complex, with $\\text{square planar and octahedral}$ being the most common.
 
- - Stability and LFSE: The stability of complexes is often related to the $\\text{Ligand Field Stabilization Energy (LFSE)}$, calculated using the $\Delta_{\\text{o}}$ and $\Delta_{\\text{t}}$ values.
+ - Stability and LFSE: The stability of complexes is often related to the $\\text{Ligand Field Stabilization Energy (LFSE)}$, calculated using the $\delta_{\\text{o}}$ and $\delta_{\\text{t}}$ values.
 
 - **How to Apply It:** To tackle these questions, follow this approach:
 
@@ -299,9 +299,9 @@ When solving Coordination Compounds problems, focus on the $\Delta$-octahedral s
 
  - **Step 2:** Determine the coordination geometry using the $\\text{coordination number and VSEPR theory}$.
 
- - **Step 3:** Calculate the LFSE using the $\Delta_{\\text{o}}$ and $\Delta_{\\text{t}}$ values, and the $\\text{number of electrons in the d orbitals}$.
+ - **Step 3:** Calculate the LFSE using the $\delta_{\\text{o}}$ and $\delta_{\\text{t}}$ values, and the $\\text{number of electrons in the d orbitals}$.
 
- - **Step 4:** Apply the knowledge of $\\text{spectrochemical series}$ to determine the $\\text{splitting energy (\Delta)}$ and $\\text{the geometry of the complex}$.
+ - **Step 4:** Apply the knowledge of $\\text{spectrochemical series}$ to determine the $\\text{splitting energy (\delta)}$ and $\\text{the geometry of the complex}$.
 
  - **Step 5:** Use the $\\text{knowledge of acid-base properties}$ to determine the $\\text{stability of the complex}$.
 
@@ -347,16 +347,16 @@ Last-minute review for Coordination Compounds:
 | [Co(NH_3)_6]^{3+} | 6 NH_3 | +3 |
 | [Fe(CN)_6]^{4-} | 6 CN^- | -4 |
 | [Ni(CN)_4]^{2-} | 4 CN^- | -2 |
-=======
-- (\Delta_{oct})_{CFSE} = -0.4 \	imes \Delta_{0} for octahedral complexes with $d^1$ to $d^3$ configuration
+ ======= 
+- (\delta_{oct})_{CFSE} = -0.4 \	imes \delta_{0} for octahedral complexes with $d^1$ to $d^3$ configuration
 
- - (\Delta_{oct})_{CFSE} = -0.24 \	imes \Delta_{0} for octahedral complexes with $d^8$ configuration
+ - (\delta_{oct})_{CFSE} = -0.24 \	imes \delta_{0} for octahedral complexes with $d^8$ configuration
 
- - (\Delta_{tet})_{CFSE} = -0.24 \	imes \Delta_{0} for tetrahedral complexes with $d^1$ to $d^3$ configuration
+ - (\delta_{tet})_{CFSE} = -0.24 \	imes \delta_{0} for tetrahedral complexes with $d^1$ to $d^3$ configuration
 
- - (\Delta_{tet})_{CFSE} = -0.12 \	imes \Delta_{0} for tetrahedral complexes with $d^8$ configuration
+ - (\delta_{tet})_{CFSE} = -0.12 \	imes \delta_{0} for tetrahedral complexes with $d^8$ configuration
 
-- CFSE = -0.4 \	imes \Delta_{0} - P for pairing energy in low-spin complexes
+- CFSE = -0.4 \	imes \delta_{0} - P for pairing energy in low-spin complexes
 
  - Key facts:
 

@@ -50,7 +50,7 @@ practice_link: "/class-11/physics/mechanical-properties-of-solids-class-11-revis
 > - **Young's Modulus (Y):** (F/A) / (ΔL/L). Resist change in length.
 > - **Bulk Modulus (B):** -ΔP / (ΔV/V). Resist change in volume.
 > - **Poisson's Ratio:** Latitudinal Strain / Longitudinal Strain.
-> - **Elastic Energy:** U = ½ (Stress × Strain) × Volume = ½ F ΔL.
+> - **Elastic [energy](/blog/work-energy-and-power-class-11-revision-notes-neet):** U = ½ (Stress × Strain) × Volume = ½ F ΔL.
 > [**📥 Download 1-Page Short Notes PDF (Zero-Friction)**](#)
 
 ---

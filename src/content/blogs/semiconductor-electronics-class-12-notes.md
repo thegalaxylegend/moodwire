@@ -52,7 +52,7 @@ Identifying and correcting common mistakes is crucial to maximizing scores. The 
 
 | Mistake | Costs | Fix |
 | --- | --- | --- |
-| Using $V = \frac{1}{2} \times \Delta V_0$ without considering the correct application of the formula | 2-3 marks | Always apply the formula considering the correct parameters and the context of the question |
+| Using $V = \frac{1}{2} \times \delta V_0$ without considering the correct application of the formula | 2-3 marks | Always apply the formula considering the correct parameters and the context of the question |
 | Forgetting to consider the $I_0 = \frac{V_0}{R}$ relationship when calculating the saturation current | Full 4 marks | Always derive $I_0$ from the given parameters and use it to calculate the saturation current |
 | Writing the equation for the current in a diode as $I = I_0 (e^{\frac{eV}{kT}} - 1)$ without using the correct Boltzmann constant $k = 1.38 \times 10^{-23}$ J/K | 1-2 marks | Always use the correct value of $k$ and ensure the equation is applied correctly |
 | Incorrectly applying $\beta = \frac{I_C}{I_B}$ for a transistor without considering the given configuration (common emitter, common collector, etc.) | 3-4 marks | Identify the correct configuration and apply the corresponding formula |
@@ -109,10 +109,10 @@ To maximize score in Semiconductor Electronics, focus on the $p$-$n$ junction di
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 Formulas: 
- * $I = \frac{V}{R}$
- * $V = \frac{1}{2} \times V_0 \times (1 - cos(\omega t))$
+ *  = $\frac{V}{R}$
+ *  = $\frac{1}{2}$ \times V_0 \times (1 - cos(\omega t)) 
  * $I = I_0 \times sin(\omega t)$ 
- * $X_C = \frac{1}{\omega C}$
+ *  _C = $\frac{1}{\omega C}$
  * $X_L = \omega L$ 
  Facts: 
  * A p-n junction is formed by combining p-type and n-type semiconductors.

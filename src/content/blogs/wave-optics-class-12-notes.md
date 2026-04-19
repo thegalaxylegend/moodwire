@@ -104,7 +104,7 @@ Wave Optics is the study of the behavior of light as it interacts with matter, e
 
  The principle of **superposition** states that when two or more [waves](/blog/electromagnetic-waves-class-12-notes) overlap in the same medium, the resultant displacement at any point is the vector \sum of the displacements of the individual [waves](/blog/electromagnetic-waves-class-12-notes). This principle is crucial in understanding interference patterns. In the context of light [waves](/blog/electromagnetic-waves-class-12-notes), superposition leads to **interference**, where the overlapping of light [waves](/blog/electromagnetic-waves-class-12-notes) results in a new wave pattern. Interference can be either constructive, where the peaks of the [waves](/blog/electromagnetic-waves-class-12-notes) align to increase the amplitude, or destructive, where the peaks and troughs align to cancel each other out.
 
- **Diffraction** is another fundamental concept in wave optics, referring to the bending of waves around obstacles or the spreading of waves through small openings. This phenomenon is a direct consequence of the wave nature of light and can be observed in the formation of diffraction patterns. The ability of light to diffract is what allows us to see around corners or to observe the beautiful patterns formed by diffraction gratings.
+ **Diffraction** is another fundamental concept in wave optics, referring to the bending of [waves](/blog/electromagnetic-waves-class-12-notes) around obstacles or the spreading of [waves](/blog/electromagnetic-waves-class-12-notes) through small openings. This phenomenon is a direct consequence of the wave nature of light and can be observed in the formation of diffraction patterns. The ability of light to diffract is what allows us to see around corners or to observe the beautiful patterns formed by diffraction gratings.
 
  To grasp these concepts thoroughly, it's essential to understand the mathematical formulations behind them. For instance, the **path difference** in interference experiments can be calculated using the formula $d \sin \theta = m lambda$, where $d$ is the distance between the slits, $\theta$ is the angle of deviation from the central maximum, $m$ is the order of the fringe, and $lambda$ is the wavelength of the light. Similarly, the **diffraction pattern** from a single slit can be described by the equation $a \sin \theta = m lambda$, where $a$ is the width of the slit.
 
@@ -146,7 +146,7 @@ u$ |
 
 ## <a id="what-is-huygens-principle-in-wave-optics"></a>What is Huygens' Principle in Wave Optics?
 
-Huygens' Principle is a fundamental concept in wave optics that states every point on a wavefront is itself a source of secondary wavelets. It includes the wavefront, secondary wavelets, and the envelope of these wavelets. For Class 12 exam prep in 2026, the most important aspect is understanding how Huygens' Principle explains the propagation of light waves and their ability to bend around obstacles or spread through openings, which is crucial for explaining phenomena like diffraction and refraction.
+Huygens' Principle is a fundamental concept in wave optics that states every point on a wavefront is itself a source of secondary wavelets. It includes the wavefront, secondary wavelets, and the envelope of these wavelets. For [class](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) 12 exam prep in 2026, the most important aspect is understanding how Huygens' Principle explains the propagation of light waves and their ability to bend around obstacles or spread through openings, which is crucial for explaining phenomena like diffraction and refraction.
 
 The principle, proposed by Christiaan Huygens, posits that each point on a primary wavefront serves as a source of secondary spherical wavelets. These wavelets then combine to form a new wavefront, which is essentially the envelope of the wavelets. This process allows waves to propagate forward, explaining how light can move through a medium and why it bends when entering a different medium. The principle is a cornerstone of wave optics, providing a simple yet powerful tool for understanding complex optical phenomena.
 
@@ -358,7 +358,7 @@ Quarter wave plate
 **Answer:**
 C) A Nicole prism will allow the maximum intensity of polarized light passing through it because it is a beam-splitting polarizer.
 **4. In Young's double-slit experiment, the fringe width is given by**
-$\frac{Dλ}{d}$1 \frac{2Dλ}{d}
+\frac{Dλ}{d}1 \frac{2Dλ}{d}
 
 **Answer:** B) Fringe width in Young's double-slit experiment is given by β = $\frac{{Dλ}{d}}{\frac{\sin i}{\sin r}} , where D is the distance between the slits and the screen, λ is the wavelength of light, and d is the distance between the slits.
 
@@ -418,3 +418,4 @@ Continue your revision with these related guides:
 - 📖 [Electromagnetic Induction Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet)
 - 📖 [Electromagnetic Waves Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-waves-class-12-notes)
 - 📖 [Electrostatics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electrostatics-class-12-revision-notes-jee-neet)
+$

@@ -71,15 +71,15 @@ Let's dive deeper into the core concepts.
 ### <a id="atomic-mass-and-molecular-mass"></a>Atomic Mass and Molecular Mass
 The atomic mass of an element is the average mass of its naturally occurring isotopes. It's expressed in unified atomic mass units (u). The molecular mass of a compound is the \sum of the atomic masses of its constituent atoms.
 
-$\text{Molecular Mass} = \sum $\text{Atomic Mass of Constituent Atoms}
+$\text{Molecular Mass} = \sum \text{Atomic Mass of Constituent Atoms}$
 
 For example, the molecular mass of water (H_2$O) is:
-$\text{Molecular Mass of H}_2$\text{O} = 2 \times $\text{Atomic Mass of H} + $\text{Atomic Mass of O}$\text{Molecular Mass of H}_2$\text{O} = 2 \times 1 + 16 = 18
+$\text{Molecular Mass of H}_2\text{O}$ = 2 \times $\text{Atomic Mass of H} + \text{Atomic Mass of O}\text{Molecular Mass of H}_2\text{O}$ = 2 \times 1 + 16 = 18
 
 ### <a id="mole-concept"></a>Mole Concept
 The mole concept is a fundamental concept in [chemistry](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet). It's defined as the amount of substance that contains as many particles (atoms, molecules, or ions) as there are atoms in 0.012 kg of carbon-12.
 
-1 \text{ mole} = 6.022 \times 10^{23} $\text{ particles}$
+1 $\text{ mole}$ = 6.022 \times 10^{23} $\text{ particles}$
 
 The mole concept is used to calculate the number of moles of a substance:
 
@@ -89,7 +89,7 @@ $\text{Number of Moles} = \frac$\text{Mass of Substance$}$\text{Molar Mass of Su
 
 For example, the number of moles of 10 g of sodium (Na) is:
 
-$\text{Number of Moles of Na} = $\frac{{10}{23} = 0.434 \text{ moles}}{\text{Mass of Reactants} = } 
+$\text{Number of Moles of Na} = \frac{{10}{23}$ = 0.434 $\text{ moles}$}{$\text{Mass of Reactants}$ = } 
 
 
 
@@ -101,13 +101,13 @@ The law of conservation of mass states that matter cannot be created or destroye
 $\text{Mass of Products}$
 
 For example, consider the reaction:
-2$\text{Na} + $\text{Cl}_2 \rightarrow 2\text{NaCl}$
+2$\text{Na} + \text{Cl}$_2 \rightarrow 2$\text{NaCl}
 
 The mass of the reactants is:
-$\text{Mass of Reactants} = 2 \times 23 + 71 = 117 $\text{ g}$
+$\text{Mass of Reactants} = 2 \times 23 + 71 = 117 \text{ g}
 
 The mass of the products is:
-$\text{Mass of Products} = 2 \times 58.5 = 117 $\text{ g}
+$\text{Mass of Products} = 2 \times 58.5 = 117 \text{ g}$
 
 As expected, the mass of the reactants is equal to the mass of the products.
 
@@ -117,10 +117,10 @@ As expected, the mass of the reactants is equal to the mass of the products.
 A balanced chemical equation has the same number of atoms of each element on both the reactant and product sides.
 
 For example, consider the reaction:
-\text{H}_2 + $\text{O}_2$ \rightarrow $\text{H}_2$\text{O}
+$\text{H}$_2 + $\text{O}_2$ \rightarrow $\text{H}_2\text{O}$
 
 This equation is not balanced. To balance it, we need to add coefficients:
-2\text{H}_2 + $\text{O}_2$ \rightarrow 2$\text{H}_2$\text{O}
+2$\text{H}$_2 + $\text{O}_2$ \rightarrow 2$\text{H}_2\text{O}$
 
 Now the equation is balanced, with 4 hydrogen atoms and 2 oxygen atoms on both sides.
 
@@ -194,3 +194,4 @@ Continue your [revision](/blog/classification-of-elements-class-11-revision-note
 - 📖 [Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/ray-optics-class-12-quick-class-12-revision-notes-jee-neet)
 - 📖 [Structure Of The Atom Class 11 Biology Revision — NEET 2026 Grandmaster Guide](/blog/structure-of-the-atom-class-11-revision-notes-neet)
 - 📖 [Organic Chemistry Basic Principles Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/organic-chemistry-basic-principles-class-11-revision-notes-jee-neet)
+

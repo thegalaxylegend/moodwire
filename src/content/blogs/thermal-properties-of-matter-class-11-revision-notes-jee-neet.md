@@ -117,7 +117,7 @@ Most substances expand when heated. We define three coefficients of expansion:
 
 - **Conduction:** Heat flow through [solids](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet). **dQ/dt = KA (T1-T2) / d**.
 - **Convection:** Heat flow via fluid movement.
-- **Radiation:** Heat flow via electromagnetic waves. (**Prevents need for a medium**).
+- **Radiation:** Heat flow via electromagnetic [waves](/blog/waves-class-11-revision-notes-neet). (**Prevents need for a medium**).
 
 ---
 

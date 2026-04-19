@@ -84,8 +84,8 @@ practice_link: "/class-11/chemistry/aldehydes-ketones-and-carboxylic-acids-class
 - Wolff-Kishner reduction is a reaction between a carbonyl compound and hydrazine in the presence of a base
 - The reaction involves the reduction of the carbonyl compound to an alkane: {RCHO + H_2N-NH_2 \rightarrow RCH_3 + H_2O + N_2}
 - Examples of Wolff-Kishner reduction include:
- - {CH_3CHO + H_2N-NH_2 \rightarrow CH_4 + H_2O + N_2}
- - {C_6H_5CHO + H_2N-NH_2 \rightarrow C_6H_5CH_3 + H_2O + N_2}
+ -  CH_3CHO + H_2N-NH_2 \rightarrow CH_4 + H_2O + N_2} 
+ -  C_6H_5CHO + H_2N-NH_2 \rightarrow C_6H_5CH_3 + H_2O + N_2} 
 
 ### <a id="-oxidation-reactions"></a>⬆ Oxidation Reactions
 - Oxidation reactions involve the loss of electrons by the carbonyl compound, resulting in the formation of a new bond
@@ -119,8 +119,8 @@ practice_link: "/class-11/chemistry/aldehydes-ketones-and-carboxylic-acids-class
 - Enolate ion is a highly reactive intermediate formed during aldol condensation
 - It is formed by the abstraction of a proton from the \alpha position of the carbonyl compound: {RCHO \rightarrow RCH=O^-}
 - Examples of enolate ions include:
- - {CH_3CHO \rightarrow CH_3CH=O^-}
- - {C_6H_5CHO \rightarrow C_6H_5CH=O^-}
+ -  CH_3CHO \rightarrow CH_3CH=O^-} 
+ -  C_6H_5CHO \rightarrow C_6H_5CH=O^-} 
 
 ### <a id="-cannizzaro-reaction"></a>🌟 Cannizzaro Reaction
 - Cannizzaro reaction is a reaction between two molecules of an aldehyde, resulting in the formation of a new carbon-oxygen bond
@@ -133,22 +133,22 @@ practice_link: "/class-11/chemistry/aldehydes-ketones-and-carboxylic-acids-class
 - Hydroxide ion is a highly reactive nucleophile used in the Cannizzaro reaction
 - It is formed by the ionization of water: {H_2O \rightarrow OH^- + H^+}
 - Examples of hydroxide ions include:
- - {H_2O \rightarrow OH^- + H^+}
- - {NaOH \rightarrow OH^- + Na^+}
+ -  H_2O \rightarrow OH^- + H^+} 
+ -  NaOH \rightarrow OH^- + Na^+} 
 
 ### <a id="-haloform-reaction"></a>💡 Haloform Reaction
 - Haloform reaction is a reaction between a methyl ketone and a halogen, resulting in the formation of a new carbon-halogen bond
 - The reaction involves the nucleophilic addition of a halide ion to the carbonyl carbon, followed by the elimination of a methyl group
 - Examples of haloform reaction include:
- - {R_2C=O + 3X_2 \rightarrow RCOX + 2RX + X_2O}
+ -  R_2C=O + 3X_2 \rightarrow RCOX + 2RX + X_2O} 
  - {CH_3C=O + 3Cl_2 \rightarrow CH_3COCl + 2ClCH_3 + Cl_2O}
 
 #### Halide Ion
 - Halide ion is a highly reactive nucleophile used in the haloform reaction
 - It is formed by the ionization of a halogen: {X_2 \rightarrow X^- + X^+}
 - Examples of halide ions include:
- - {Cl_2 \rightarrow Cl^- + Cl^+}
- - {Br_2 \rightarrow Br^- + Br^+}
+ -  Cl_2 \rightarrow Cl^- + Cl^+} 
+ -  Br_2 \rightarrow Br^- + Br^+} 
 
 ### <a id="-reactions-with-nh_2oh-nh_2nh_2-and-h_2nnh_2"></a>🌈 Reactions with {NH_2OH}, {NH_2NH_2}, and {H_2N-NH_2}
 - These reactions involve the nucleophilic addition of the corresponding nucleophile to the carbonyl carbon
@@ -161,8 +161,8 @@ practice_link: "/class-11/chemistry/aldehydes-ketones-and-carboxylic-acids-class
 - Hydroxylamine is a highly reactive nucleophile used in the reaction with {NH_2OH}
 - It is formed by the reaction of ammonia with hydrogen peroxide: {NH_3 + H_2O_2 \rightarrow NH_2OH + H_2O}
 - Examples of hydroxylamine include:
- - {NH_3 + H_2O_2 \rightarrow NH_2OH + H_2O}
- - {NH_2OH + H_2O \rightarrow NH_3 + H_2O_2}
+ -  NH_3 + H_2O_2 \rightarrow NH_2OH + H_2O} 
+ -  NH_2OH + H_2O \rightarrow NH_3 + H_2O_2} 
 
 ### <a id="-reduction-of-carboxylic-acids-to-aldehydes"></a>⬇ Reduction of Carboxylic Acids to Aldehydes
 - This reaction involves the reduction of a carboxylic acid to an aldehyde using a reducing agent such as {LiAlH_4} or {NaBH_4}
@@ -188,7 +188,7 @@ practice_link: "/class-11/chemistry/aldehydes-ketones-and-carboxylic-acids-class
 - Thionyl chloride is a highly reactive reagent used in the conversion of carboxylic acids to acyl chlorides
 - It is formed by the reaction of sulfur dioxide with chlorine: {SO_2 + Cl_2 \rightarrow SOCl_2 + Cl^-}
 - Examples of thionyl chloride include:
- - {SO_2 + Cl_2 \rightarrow SOCl_2 + Cl^-}
+ -  SO_2 + Cl_2 \rightarrow SOCl_2 + Cl^-} 
  - {SOCl_2 + H_2O \rightarrow SO_2 + HCl + H_2O}
 
 ### <a id="-hydrolysis-and-esterification-of-carboxylic-acids"></a>💧 Hydrolysis and Esterification of Carboxylic Acids

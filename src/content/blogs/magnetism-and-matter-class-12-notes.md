@@ -73,7 +73,7 @@ To excel in these questions, it's crucial to develop a strong foundation in the 
 Magnetism and matter have numerous practical applications in various fields, including:
 
 * **Medical Imaging**: MRI machines use strong [magnetic](/blog/magnetic-effects-of-current-class-12-notes) fields to create detailed images of the body.
-* **Energy Generation**: Magnetic fields are used in power plants to generate electricity.
+* **Energy Generation**: [magnetic](/blog/magnetic-effects-of-current-class-12-notes) fields are used in power plants to generate electricity.
 * **Transportation**: Magnetic levitation (maglev) trains use magnetic fields to propel and guide the train.
 * **[data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) Storage**: Magnetic materials are used in hard drives and magnetic tapes to store digital [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards).
 
@@ -200,7 +200,7 @@ The behavior of these materials can be summarized in the following table:
 
 ## <a id="how-does-temperature-affect-magnetic-properties"></a>How does Temperature affect Magnetic Properties?
 
-How does Temperature affect Magnetic Properties? is the study of the relationship between temperature and the magnetic behavior of materials. It includes the Curie temperature, magnetic susceptibility, and hysteresis loop. For Class 12 exam prep in 2026, the most important aspect is understanding the concept of Curie temperature and its effect on the magnetic properties of materials.
+How does Temperature affect Magnetic Properties? is the study of the relationship between temperature and the magnetic behavior of materials. It includes the Curie temperature, magnetic susceptibility, and hysteresis loop. For [class](/blog/alternating-current-class-12-notes) 12 exam prep in 2026, the most important aspect is understanding the concept of Curie temperature and its effect on the magnetic properties of materials.
 
 The Curie temperature, $T_c$, is the temperature above which a material loses its permanent magnetic properties. Below the Curie temperature, a material is ferromagnetic, meaning it is capable of being magnetized. Above the Curie temperature, the material becomes paramagnetic, meaning it is weakly attracted to magnetic fields. For example, the Curie temperature of iron is $1043$ K, which means that iron loses its permanent magnetic properties at temperatures above $1043$ K.
 
@@ -398,3 +398,4 @@ Continue your revision with these related guides:
 - 📖 [Alternating Current Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/alternating-current-class-12-notes)
 - 📖 [Electromagnetic Waves Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide](/blog/electromagnetic-waves-class-12-notes)
 
+$

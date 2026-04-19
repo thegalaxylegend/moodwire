@@ -145,7 +145,7 @@ Yes, it is a statement because it is a [mathematical](/blog/mathematical-inducti
 ## <a id="related-revision-notes"></a>Related Revision Notes
 
 - **Chapter 4: [mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) Induction**
-- **Chapter 1: Sets**
+- **Chapter 1: [sets](/blog/sets-class-11-revision-notes-jee-neet)**
 - [**External Reference:** [NCERT Class 11 Math Chapter 14](https://ncert.nic.in/textbook.php?kemh1=14-16) (Authoritative Source)]
 
 

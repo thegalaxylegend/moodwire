@@ -73,7 +73,7 @@ So, let's get started on this journey, and let's explore the world of PMI togeth
 
 The Principle of Mathematical Induction is a powerful tool that can be used to prove complex results with ease. It's a concept that has far-reaching implications, and it's essential to develop a deep understanding of it. By practicing regularly and mastering the basics, you'll be well-prepared to tackle the challenges of the [class](/blog/relations-and-functions-class-11-notes) 11 exam, and you'll develop a deeper appreciation for the beauty and elegance of mathematical proofs. So, let's get started on this journey, and let's explore the world of PMI together! 
 
-We'll start by exploring the basics of PMI, including the base case and the inductive step. We'll then move on to more complex topics, including strong induction and backwards induction. We'll also discuss common pitfalls and mistakes to avoid, and we'll provide tips and strategies for mastering the concept. By the end of this journey, you'll have a deep understanding of the Principle of Mathematical Induction, and you'll be well-prepared to tackle the challenges of the Class 11 exam. 
+We'll start by exploring the basics of PMI, including the base case and the inductive step. We'll then move on to more complex topics, including strong induction and backwards induction. We'll also discuss common pitfalls and mistakes to avoid, and we'll provide tips and strategies for mastering the concept. By the end of this journey, you'll have a deep understanding of the Principle of Mathematical Induction, and you'll be well-prepared to tackle the challenges of the [class](/blog/permutations-and-combinations-class-11-revision-notes-jee) 11 exam. 
 
 So, let's get started on this journey, and let's explore the world of PMI together! We'll work through examples and problems, and we'll discuss the key concepts and formulas that you need to know. We'll also provide tips and strategies for mastering the concept, and we'll help you develop a deeper appreciation for the beauty and elegance of mathematical proofs. By the end of this journey, you'll be well-prepared to tackle the challenges of the Class 11 exam, and you'll have a deep understanding of the Principle of Mathematical Induction. 
 
@@ -163,7 +163,7 @@ Let's use the formula for the \sum of the first $n$ positive integers, $S_n = \f
 3. **Inductive Step**: We must prove that $S_{k+1} = \frac{(k+1)(k+2)}{2}$. 
    - $S_{k+1} = S_k + (k+1)$, by definition.
    - $= \frac{k(k+1)}{2} + (k+1)$, using the inductive hypothesis.
-   - $= \frac{k(k+1) + 2(k+1)}{2}$.
+   -  frac{k(k+1) + 2(k+1)}{2}. 
    - $= \frac{(k+1)(k+2)}{2}$, which is what we wanted to prove.
 
 For strong induction, consider proving that every positive integer $n$ can be represented as a \sum of distinct powers of $2$ (unique binary representation). 

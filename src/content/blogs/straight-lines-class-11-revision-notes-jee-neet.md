@@ -42,7 +42,7 @@ practice_link: "/class-11/physics/straight-lines-class-11-revision-notes-jee-nee
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
-> - **Slope (m):** (y₂ - y₁) / (x₂ - x₁) or **\tan θ**.
+ > - **Slope (m):** (y₂ - y₁) / (x₂ - x₁) or **\tan θ**. 
 > - **Parallel Lines:** m₁ = m₂.
 > - **Perpendicular Lines:** m₁m₂ = -1.
 > - **Slope-Intercept Form:** y = mx + c.
@@ -95,7 +95,7 @@ Depending on the given information, we use different forms:
 
 ## <a id="3-general-equation-of-a-line"></a>3. General Equation of a Line
 
-The general form of a linear equation is **Ax + By + C = 0**.
+The general form of a [linear](/blog/linear-inequalities-class-11-revision-notes-jee-neet) equation is **Ax + By + C = 0**.
 *   Slope (m) = -A/B.
 *   y-intercept = -C/B.
 *   x-intercept = -C/A.
@@ -145,7 +145,7 @@ If the origin (0, 0) is shifted to a new point (h, k) without changing the direc
 - d = |9 + 20 - 26| / 5 = |3| / 5
 - **d = 0.6 units**.
 
-**Q3: Find the intercept of the line 2x + 3y = 6 on the coordinate axes.**
+**Q3: Find the intercept of the [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) 2x + 3y = 6 on the coordinate axes.**
 **Answer:**
 - Divide by 6: 2x/6 + 3y/6 = 1.
 - x/3 + y/2 = 1.

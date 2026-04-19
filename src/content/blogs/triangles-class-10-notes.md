@@ -10,7 +10,7 @@ manual_review: true
 
 *Last Updated: 2026-04-07*
 
-<div class="quick-summary">
+<div [class](/blog/polynomials-class-10-notes)="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
@@ -69,7 +69,7 @@ manual_review: true
  - **Key Insight:** Understanding that similarity is not just about having the same shape but also about the proportional relationship between corresponding sides. This insight allows top scorers to tack\le problems that involve scaling, dilation, and geometric transformations with ease.
  - **[application](/blog/application-of-derivatives-class-12-notes):** In problems involving triangles, especially those that seem to require complex trigonometric calculations, 95% scorers look for opportunities to apply similarity and geometric properties to simplify the problem. They recognize patterns such as right-angled triangles within larger triangles and use these to their advanta\ge.
  - **Mistake to Avoid:** Assuming that all problems involving triangles require direct [application](/blog/application-of-derivatives-class-12-notes) of the Pythagorean theorem or basic trigonometry. Top scorers are adept at recognizing when a problem can be simplified through geometric reasoning and similarity.
- - **Formula Mastery:** Having $ and $\sin(A) = \frac\sqrt{(b+c+a)(b+c-a)(b-c+a)(-b+c+a)}${2bc}$ at their fingertips for any ang\le $A$ in a triang\le with sides $a$, $b$, and $c$ opposite to angles $A$, $B$, and $C$, respectively.
+ - **Formula Mastery:** Having $ and $\sin(A) = \frac$\sqrt{(b+c+a)(b+c-a)(b-c+a)(-b+c+a)}{2bc}$ at their fingertips for any ang\le $A$ in a triang\le with sides $a$, $b$, and $c$ opposite to angles $A$, $B$, and $C$, respectively.
  - **Practice Tip:** To become proficient, practice solving a variety of triang\le problems, focusing on those that require the application of similarity, the law of cosines, and the law of sines. Start with simpler problems and gradually move to more complex scenarios.
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
@@ -156,3 +156,4 @@ Continue your revision with these related guides:
 - 📖 [Polynomials Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/polynomials-class-10-notes)
 - 📖 [Real Numbers Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/real-numbers-class-10-notes)
 
+$

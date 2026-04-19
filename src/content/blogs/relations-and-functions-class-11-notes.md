@@ -173,7 +173,7 @@ Ayush's Note on Relations and Functions is a concise study guide that outlines t
 
  **Student-Centric Tip**: To excel in the [class](/blog/principle-of-mathematical-induction-class-11-revision-notes-jee) 11 exam, practice identifying and analyzing relations and functions using their graphical representations and equations. Make sure to understand the properties of relations, such as reflexivity, symmetry, and transitivity, and the properties of functions, such as injectivity, surjectivity, and bijectivity. Use truth tables to verify the properties of relations and functions.
 
- Understanding the types of relations and functions and their properties will help you tackle problems in the Class 11 exam with confidence. For instance, you can use the properties of relations to determine if a given relation is an equivalence relation or a partial order relation. Similarly, you can use the properties of functions to determine if a given function is injective, surjective, or bijective.
+ Understanding the types of relations and functions and their properties will help you tackle problems in the [class](/blog/algorithms-design-class-11-revision-notes-gate-boards) 11 exam with confidence. For instance, you can use the properties of relations to determine if a given relation is an equivalence relation or a partial order relation. Similarly, you can use the properties of functions to determine if a given function is injective, surjective, or bijective.
 
 
 | Type of Relation | Definition | Example |

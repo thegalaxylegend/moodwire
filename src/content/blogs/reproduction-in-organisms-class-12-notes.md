@@ -23,7 +23,7 @@ practice_link: "/class-11/biology/reproduction-in-organisms-class-12-notes"
 * **Reproductive Health**: 1 short question on contraceptive methods — always
 * **[human](/blog/human-reproduction-class-12-notes) Reproductive System**: 
  - 1 diagram-based question on male/female reproductive organs — always
- - 1 numerical on menstrual cycle (e.g., $\Delta$ luteinizing hormone levels) — frequently
+ - 1 numerical on menstrual cycle (e.g., $\delta$ luteinizing hormone levels) — frequently
 * **Family Planning**: 
  - 1 short question on medical termination of pregnancy (MTP) — frequently
  - 1 short question on assisted reproductive technologies (ART) — frequently
@@ -41,17 +41,17 @@ practice_link: "/class-11/biology/reproduction-in-organisms-class-12-notes"
  - 1 numerical on reproductive potential of an organism (e.g., $ offspring) — frequently
 * **Graph-Based Questions**: 
  - 1 graph-based question on [human](/blog/human-reproduction-class-12-notes) population growth curve — frequently
- - 1 graph-based question on menstrual cycle hormone levels (e.g., $\frac{{\Delta\Delta t estrogen levels) — frequently
+ - 1 graph-based question on menstrual cycle hormone levels (e.g., $\frac{{\delta\delta t estrogen levels) — frequently
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Fecundity:** F = }{\frac{N}{T}}}{\text{Sex Ratio} = \frac}  — Number of offspring (N) produced per unit time (T)
+- **Fecundity:** F = }{$\frac{N}{T}$}}{$\text{Sex Ratio}$ = \frac}  — Number of offspring (N) produced per unit time (T)
 
 - **Sex Ratio:** $\text{Number of females$}$\text{Number of males$} — Ratio of females to males in a population
 
 - **Reproductive Isolation:** $\text{Reproductive Isolation} = \frac$\text{Number of individuals that cannot interbreed$}$\text{Total number of individuals$} — Measure of the degree to which a population is reproductively isolated$
 
- - **Genetic Drift:** p = $\frac{{p_0 + \Delta p}{1 + 4N_e s} — Change in allele frequency (p) due to genetic drift, where }{ is the initial allele frequency, } p_0$\Delta p$ is the change in allele frequency, $N_e$ is the effective population size, and s is the selection coefficient$
+ - **Genetic Drift:** p = $\frac{{p_0 + \delta p}{1 + 4N_e s} — Change in allele frequency (p) due to genetic drift, where }{ is the initial allele frequency, } p_0$\delta p$ is the change in allele frequency, $N_e$ is the effective population size, and s is the selection coefficient$
 
  - **Natural Selection:** w = 1 + s — Fitness (w) of an individual with a particular trait, where s is the selection coefficient
 
@@ -63,11 +63,11 @@ practice_link: "/class-11/biology/reproduction-in-organisms-class-12-notes"
 
 - **Inbreeding Coefficient:** F = \frac$\text{Number of homozygous individuals$}$\text{Total number of individuals$} — Measure of the degree of inbreeding in a population
 
- - **Outbreeding Depression:** \Delta w = w_$\text{outbred$} - w_$\text{inbred$} — Decrease in fitness (w) due to outbreeding depression, where $w_\text{outbred$}$ is the fitness of outbred individuals and $w_$\text{inbred$} is the fitness of inbred individuals
+ - **Outbreeding Depression:** \delta w = w_$\text{outbred$} - w_$\text{inbred$} — Decrease in fitness (w) due to outbreeding depression, where $w_\text{outbred$}$ is the fitness of outbred individuals and $w_$\text{inbred$} is the fitness of inbred individuals
 
-- **Inbreeding Coefficient:** F = \frac\text{Number of homozygous individuals$}$\text{Total number of individuals$} — Measure of the degree of inbreeding in a population
+- **Inbreeding Coefficient:** F = \frac\text{Number of homozygous individuals$}\text{Total number of individuals$}$ — Measure of the degree of inbreeding in a population
 
- - **Outbreeding Depression:** \Delta w = w_$\text{outbred$} - w_$\text{inbred$} — Decrease in fitness (w) due to outbreeding depression, where $w_\text{outbred$}$ is the fitness of outbred individuals and $w_$\text{inbred$}$ is the fitness of inbred individuals
+ - **Outbreeding Depression:** \delta w = w_$\text{outbred$} - w_$\text{inbred$} — Decrease in fitness (w) due to outbreeding depression, where $w_\text{outbred$}$ is the fitness of outbred individuals and $w_$\text{inbred$}$ is the fitness of inbred individuals
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -99,7 +99,7 @@ practice_link: "/class-11/biology/reproduction-in-organisms-class-12-notes"
 
  - *Costs:* 8-10 marks in long-answer questions or essay-type questions.
 
- - *Fix:* Review the major reproductive health issues, such as $\Delta$-9-tetrahydrocannabinol effects on fertility, and practice discussing their causes, consequences, and solutions in a clear and concise manner.
+ - *Fix:* Review the major reproductive health issues, such as $\delta$-9-tetrahydrocannabinol effects on fertility, and practice discussing their causes, consequences, and solutions in a clear and concise manner.
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
@@ -113,15 +113,15 @@ practice_link: "/class-11/biology/reproduction-in-organisms-class-12-notes"
 
  Fertilization occurs when one of the sperm nuclei fuses with the egg cell or ovum to form a diploid zygote. 
 
- \\text{Pollen grain} \	imes $\text{Egg cell}$ \
+ \$\text{Pollen grain}$ \	imes $\text{Egg cell}$ \
 ightarrow $\text{Zygote}$
 
  The zygote then develops into an embryo inside the ovule. 
 
  The process involves the following steps: 
 
- (2n) \\text{Pollen grain} \
-ightarrow (n) $\text{Sperm nucleus}(n) $\text{Sperm nucleus}$ + (n) $\text{Egg cell}$ \
+ (2n) \$\text{Pollen grain}$ \
+ightarrow (n) $\text{Sperm nucleus}(n) \text{Sperm nucleus} + (n) \text{Egg cell} \
 ightarrow (2n) $\text{Zygote}$
 
  - **Answer:** Fertilization in [flowering](/blog/sexual-reproduction-in-flowering-plants-class-12-notes) plants involves the fusion of a sperm nucleus with the egg cell.
@@ -144,8 +144,8 @@ ightarrow (2n) $\text{Zygote}$
 
  - The integuments of the ovule develop into the testa or seed coat. 
 
- \\text{Ovule} \	imes $\text{Fertilization}$ \
-ightarrow \\text{Seed} 
+ \$\text{Ovule}$ \	imes $\text{Fertilization}$ \
+ightarrow \$\text{Seed}$ 
 
  - **Answer:** The ovary develops into a fruit, ovules into seeds, and zygote into an embryo.
 
@@ -157,13 +157,13 @@ ightarrow \\text{Seed}
 
  The term for the process by which an organism produces offspring that are genetically identical to itself is called asexual [reproduction](/blog/human-reproduction-class-12-notes). 
 
- \\text{Parent} \
-ightarrow \\text{Offspring (Genetically identical)} 
+ \$\text{Parent}$ \
+ightarrow \$\text{Offspring (Genetically identical)}$ 
 
  Examples of asexual [reproduction](/blog/human-reproduction-class-12-notes) include budding, fragmentation, and binary fission. 
 
- (2n) \\text{Parent} \
-ightarrow (2n) \\text{Offspring} 
+ (2n) \$\text{Parent}$ \
+ightarrow (2n) \$\text{Offspring}$ 
 
  - **Answer:** Asexual [reproduction](/blog/sexual-reproduction-in-flowering-plants-class-12-notes) produces genetically identical offspring.
 
@@ -213,9 +213,9 @@ ightarrow (2n) \\text{Offspring}
 
 - $E = \frac{-0.0591}{n} \log \frac{[Red]}{[Ox]}$ is used to calculate the reduction potential of a cell.
 
- - $\Delta G = \Delta H - T\Delta S$ is used to calculate the change in Gibbs free energy.
+ - $\delta G = \delta H - T\delta S$ is used to calculate the change in Gibbs free energy.
 
- - $\Delta G = -nFE$ is used to calculate the change in Gibbs free energy for a cell reaction.
+ - $\delta G = -nFE$ is used to calculate the change in Gibbs free energy for a cell reaction.
 
  - $\frac{{1}{f} = \frac{1}{d_o} + \frac{1}{d_i}}{\frac{d}{t} = \frac{d_0}{t_0}}  is used to calculate the focal length of a lens in the eye.
 
@@ -258,7 +258,7 @@ D) is a slow process
 ---
 
 **3. What is the term for the process by which an organism produces offspring without the involvement of another organism?**
-A) sexual reproduction
+A) sexual [reproduction](/blog/human-reproduction-class-12-notes)
 B) asexual reproduction
 C) binary fission
 D) mitosis

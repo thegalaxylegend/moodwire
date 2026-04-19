@@ -75,7 +75,7 @@ This chapter is crucial for students preparing for [class](/blog/biological-clas
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div class="note-box">
+<div [class](/blog/physical-world-class-11-revision-notes-jee-neet)="note-box">
 I still remember the mistake I made in my [class](/blog/environmental-chemistry-class-11-revision-notes-neet) 11 exams. I confused the terms "raceme" and "spadix" while describing the inflorescence of a plant. It cost me 2 marks, but it taught me a valuable lesson. Always make sure to revise your notes thoroughly, and practice drawing diagrams of different plant structures. It will help you retain the information better and avoid silly mistakes.
 </div>
 

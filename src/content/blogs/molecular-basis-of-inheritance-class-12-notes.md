@@ -24,13 +24,13 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 
 - **Mendel's Law of Segregation:** $\frac{{1}{2} of the gametes will have one allele and the other }{\frac{1}{4}} \frac{1}{2} will have the other allele — where the allele is a variant of a gene.
 
-- **Mendel's Law of Independent Assortment:** \frac{1}{4}AB, $Ab, $\frac{{1}{4}aB, }{ — where \chi^2 is the chi-squared statistic, observed is the observed frequency, and expected is the expected frequency.
+- **Mendel's Law of Independent Assortment:** $\frac{1}{4}$AB, $Ab, \frac{{1}{4}$aB, }{ — where \chi^2 is the chi-squared statistic, observed is the observed frequency, and expected is the expected frequency.
 
-- **Linkage and Recombination Frequency:** RF = } \frac{1}{4}ab — where A and a are alleles of one gene, and B and b are alleles of another gene.
+- **Linkage and Recombination Frequency:** RF = } $\frac{1}{4}$ab — where A and a are alleles of one gene, and B and b are alleles of another gene.
 
 - **Hardy-Weinberg Principle:** p^2 + 2pq + q^2 = 1 — where p is the frequency of one allele, q is the frequency of the other allele, p^2 is the frequency of the AA genotype, 2pq is the frequency of the Aa genotype, and q^2 is the frequency of the aa genotype.
 
-- **Chi-Squared Test:** \chi^2 = \sum \frac{(observed - expected)^2}{expected}$\frac{number\ of\ recombinants}{total\ number\ of\ offspring}$ — where RF is the recombination frequency.
+- **Chi-Squared Test:** \chi^2 = \sum $\frac{(observed - expected)^2}{expected}\frac{number\ of\ recombinants}{total\ number\ of\ offspring}$ — where RF is the recombination frequency.
 
 - **Sutton's Law of Incomplete Dominance:** No specific formula, but it states that one allele does not completely dominance the other, resulting in a blending of traits.
 
@@ -76,11 +76,11 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 
  - *Fix:* Apply the laws of probability correctly, considering the events as independent, and use the formula $P(A \cap B) = P(A) \times P(B)$.
 
- - **Mistake 5:** Not understanding the concept of $\Delta$ ($\Delta$ symbol representing change) in the context of genetic mutations, leading to incorrect conclusions about the effects of mutations.
+ - **Mistake 5:** Not understanding the concept of $\delta$ ($\delta$ symbol representing change) in the context of genetic mutations, leading to incorrect conclusions about the effects of mutations.
 
  - *Costs:* 2-3 marks for each incorrect conclusion.
 
- - *Fix:* Understand that $\Delta$ represents a change in the DNA sequence and recognize its implications on gene function and protein structure.
+ - *Fix:* Understand that $\delta$ represents a change in the DNA sequence and recognize its implications on gene function and protein structure.
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
@@ -92,15 +92,15 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 
  The distance between two consecutive nucleosomes is given by the length of the linker DNA, which is approximately $20$ to $80$ base pairs. 
 
- $\text{Distance} = $\text{Length of linker DNA}$ + $\text{Length of DNA in a nucleosome}= 20 $\text{ to } 80 \text{ bp} + 7 \times 20 $\text{ bp (for the 7 turns of DNA around the histone)}$
+ $\text{Distance} = \text{Length of linker DNA} + \text{Length of DNA in a nucleosome}$= 20 $\text{ to } 80 \text{ bp} + 7 \times 20 \text{ bp (for the 7 turns of DNA around the histone)}
 
  Considering the average length of linker DNA as $50$ bp, 
 
- $\text{Distance} = 50 $\text{ bp} + 140 \text{ bp} = 190 $\text{ bp}$
+ $\text{Distance} = 50 \text{ bp}$ + 140 $\text{ bp}$ = 190 $\text{ bp}$
 
  Given that $1$ bp $= 0.34$ nm, 
 
- $\text{Distance} = 190 \times 0.34 = 64.6 $\text{ nm}
+ $\text{Distance} = 190 \times 0.34 = 64.6 \text{ nm}$
 
  - **Answer:** 64.6$ nm
 
@@ -112,7 +112,7 @@ practice_link: "/class-11/biology/molecular-basis-of-inheritance-class-12-notes"
 
  The lac operon is a negatively regulated operon. In the absence of lactose, 
 
- $\text{Lactose} + $\text{lac permease}$ \rightarrow $\text{Lactose-lac permease complex}$
+ $\text{Lactose} + \text{lac permease} \rightarrow \text{Lactose-lac permease complex}
 
  The lac repressor binds to the operator region, preventing RNA polymerase from transcribing the lac genes. 
 
@@ -152,7 +152,7 @@ The probability of the child having cystic fibrosis ($cc$) is $\frac{{1}{4}}{25\
 
  - **What 85% scorers do:** They often memorize the basic structure and function of the lac operon without fully understanding the underlying molecular mechanisms. They may be able to describe the basic components of the lac operon, such as the promoter, operator, and structural genes, but struggle to explain how the system is regulated in response to lactose. They may also have difficulty applying this knowledge to predict the outcomes of different mutations or experimental conditions.
 
- - **What 95% scorers do:** They have a deep understanding of the molecular mechanisms that regulate the lac operon, including the binding of the lac repressor protein to the operator region, the role of CAP (catabolite activator protein) in enhancing transcription, and the effects of different mutations on the system. They can apply this knowledge to predict the outcomes of different experimental conditions, such as the effects of inducers or repressors on lac operon activity. For example, they can explain how the addition of allolactose, a lactose metabolite, binds to the lac repressor protein and causes a conformational change that releases the repressor from the operator region, allowing transcription to occur: \Delta G = \Delta G^0 + RT \ln(Q) where $\Delta G$ is the change in free energy, $\Delta G^0$ is the standard free energy change, $R$ is the gas constant, $T$ is the temperature in Kelvin, and $Q$ is the reaction quotient. They can also analyze the effects of different mutations, such as a mutation in the lac repressor gene that prevents it from binding to the operator region, or a mutation in the promoter region that affects the binding of RNA polymerase.
+ - **What 95% scorers do:** They have a deep understanding of the molecular mechanisms that regulate the lac operon, including the binding of the lac repressor protein to the operator region, the role of CAP (catabolite activator protein) in enhancing transcription, and the effects of different mutations on the system. They can apply this knowledge to predict the outcomes of different experimental conditions, such as the effects of inducers or repressors on lac operon activity. For example, they can explain how the addition of allolactose, a lactose metabolite, binds to the lac repressor protein and causes a conformational change that releases the repressor from the operator region, allowing transcription to occur: \delta G = \delta G^0 + RT \ln(Q) where $\delta G$ is the change in free energy, $\delta G^0$ is the standard free energy change, $R$ is the gas constant, $T$ is the temperature in Kelvin, and $Q$ is the reaction quotient. They can also analyze the effects of different mutations, such as a mutation in the lac repressor gene that prevents it from binding to the operator region, or a mutation in the promoter region that affects the binding of RNA polymerase.
 
 | Component | Function | Regulation |
 | --- | --- | --- |
@@ -162,7 +162,7 @@ The probability of the child having cystic fibrosis ($cc$) is $\frac{{1}{4}}{25\
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-👁️ Ayush's Note, - **The Hidden Pattern:** While studying the Molecular Basis of Inheritance, I noticed that for every 5 questions on DNA structure and replication, there are 3 questions on gene expression and regulation, and 2 questions on the lac operon and related concepts., - **How to Apply It:** Focus on understanding the $\Delta G$ equation for DNA replication and transcription: $\Delta G = \Delta H - T\Delta S$. Also, learn to derive the $K_m$ and $V_max$ equations for enzyme kinetics: K_m = \frack_2 + k_3k_1 and V_max = k_3E_0, where $E_0$ is the initial enzyme concentration., - **Key Concepts:** Be thorough with the following concepts and be able to apply them in different scenarios: , - DNA structure and replication: Know the differences between $A$, $B$, and $Z$ DNA, and be able to calculate the $T_m$ of a given DNA sequence using the formula: $T_m = \frac\Delta H\Delta S$, - Gene expression and regulation: Learn the $\lambda$ phage life cycle and understand how the $\lambda$ repressor binds to the operator region to regulate gene expression: K_d = \fracRORO, where $K_d$ is the dissociation constant., - Lac operon: Focus on understanding the role of the $lac$ repressor, $\beta$-galactosidase, and lactose in the regulation of the lac operon: $LacZ$ encodes $\beta$-galactosidase, $LacY$ encodes $\beta$-galactoside permease, and $LacA$ encodes thiogalactoside transacetylase, - **Previous Year Questions:** Familiarize yourself with the pattern of PYQs and practice solving them: 2019 - 5 questions on DNA replication, 3 questions on gene expression, and 2 questions on the lac operon; 2020 - 4 questions on DNA structure, 4 questions on gene regulation, and 1 question on the lac operon, - **Important Equations:** Make sure to remember and be able to apply the following equations: $pH = -\log_10H^+$, $pOH = -\log_10OH^-$, and the $Hill$ equation for cooperative binding: \fracYY_max = \fracL^nK_d + L^n, where $Y$ is the fractional saturation, $Y_max$ is the maximum saturation, $L$ is the ligand concentration, $K_d$ is the dissociation constant, and $n$ is the Hill coefficient , Topic, Number of Questions, Weightage , DNA Structure and Replication, 5, 25% , Gene Expression and Regulation, 3, 15% , Lac Operon, 2, 10%
+👁️ Ayush's Note, - **The Hidden Pattern:** While studying the Molecular Basis of Inheritance, I noticed that for every 5 questions on DNA structure and replication, there are 3 questions on gene expression and regulation, and 2 questions on the lac operon and related concepts., - **How to Apply It:** Focus on understanding the $\delta G$ equation for DNA replication and transcription: $\delta G = \delta H - T\delta S$. Also, learn to derive the $K_m$ and $V_max$ equations for enzyme kinetics: K_m = \frack_2 + k_3k_1 and V_max = k_3E_0, where $E_0$ is the initial enzyme concentration., - **Key Concepts:** Be thorough with the following concepts and be able to apply them in different scenarios: , - DNA structure and replication: Know the differences between $A$, $B$, and $Z$ DNA, and be able to calculate the $T_m$ of a given DNA sequence using the formula: $T_m = \frac\delta H\delta S$, - Gene expression and regulation: Learn the $\lambda$ phage life cycle and understand how the $\lambda$ repressor binds to the operator region to regulate gene expression: K_d = \fracRORO, where $K_d$ is the dissociation constant., - Lac operon: Focus on understanding the role of the $lac$ repressor, $\beta$-galactosidase, and lactose in the regulation of the lac operon: $LacZ$ encodes $\beta$-galactosidase, $LacY$ encodes $\beta$-galactoside permease, and $LacA$ encodes thiogalactoside transacetylase, - **Previous Year Questions:** Familiarize yourself with the pattern of PYQs and practice solving them: 2019 - 5 questions on DNA replication, 3 questions on gene expression, and 2 questions on the lac operon; 2020 - 4 questions on DNA structure, 4 questions on gene regulation, and 1 question on the lac operon, - **Important Equations:** Make sure to remember and be able to apply the following equations: $pH = -\log_10H^+$, $pOH = -\log_10OH^-$, and the $Hill$ equation for cooperative binding: \fracYY_max = \fracL^nK_d + L^n, where $Y$ is the fractional saturation, $Y_max$ is the maximum saturation, $L$ is the ligand concentration, $K_d$ is the dissociation constant, and $n$ is the Hill coefficient , Topic, Number of Questions, Weightage , DNA Structure and Replication, 5, 25% , Gene Expression and Regulation, 3, 15% , Lac Operon, 2, 10%
 
 | Topic | Number of Questions | Weightage |
 | --- | --- | --- |

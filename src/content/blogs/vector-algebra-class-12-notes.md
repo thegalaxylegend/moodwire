@@ -37,33 +37,33 @@ practice_link: "/class-11/mathematics/vector-algebra-class-12-notes"
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Vector Addition:** $\vec{a} + $\vec{b} = \vec{b} + $\vec{a}$ — $\vec{a} and $\vec{b} are vectors.
+- **Vector Addition:** $\vec{a} + \vec{b}$ = $\vec{b}$ + $\vec{a}$ — $\vec{a} and \vec{b}$ are vectors.
 
- - **Vector Subtraction:** \vec{a} - $\vec{b} = $\vec{a} + (-$\vec{b}) — \vec{a} and $\vec{b}$ are vectors.
+ - **Vector Subtraction:** $\vec{a}$ - $\vec{b} = \vec{a}$ + (-$\vec{b}) — \vec{a} and \vec{b} are vectors.
 
- - **Scalar Multiplication:** k$\vec{a} = $\vec{a} + \vec{a} + ... + $\vec{a}$ (k times) — k is a scalar, $\vec{a}$ is a vector.
+ - **Scalar Multiplication:** k$\vec{a} = \vec{a}$ + $\vec{a}$ + ... + $\vec{a}$ (k times) — k is a scalar, $\vec{a}$ is a vector.
 
-- **Magnitude of Vector:** ||$\vec{a}|| = $\sqrt{x^2 + y^2 + z^2} — x, y, z are components of \vec{a}$.
+- **Magnitude of Vector:** ||$\vec{a}|| = \sqrt{x^2 + y^2 + z^2}$ — x, y, z are components of $\vec{a}.
 
-- **Unit Vector:** $\hat{a} = $\frac{{}{\vec{a}} \vec{a}}{||$||} — $\vec{a}$ is a vector.
+- **Unit Vector:** $\hat{a} = \frac{{}{\vec{a}$} $\vec{a}$}{||$||} — \vec{a} is a vector.
 
- - **Dot Product:** $\vec{a} \cdot $\vec{b} = ||\vec{a}|| \cdot ||$\vec{b}$|| \cdot \cos{\theta} — $\vec{a} and $\vec{b} are vectors, \theta is the angle between them.
+ - **Dot Product:** $\vec{a} \cdot \vec{b}$ = ||$\vec{a}$|| \cdot ||$\vec{b}$|| \cdot \cos{\theta} — $\vec{a} and \vec{b}$ are vectors, \theta is the angle between them.
 
- - **Cross Product:** \vec{a} \times $\vec{b} = (a_2b_3 - a_3b_2)$\hat{i} + (a_3b_1 - a_1b_3)$\hat{j} + (a_1b_2 - a_2b_1)\hat{k} — $\vec{a} = a_1$\hat{i} + a_2$\hat{j} + a_3\hat{k}, $\vec{b} = b_1$\hat{i} + b_2$\hat{j} + b_3\hat{k}$.
+ - **Cross Product:** $\vec{a}$ \times $\vec{b} = (a_2b_3 - a_3b_2)\hat{i}$ + (a_3b_1 - a_1b_3)$\hat{j} + (a_1b_2 - a_2b_1)\hat{k} — \vec{a}$ = a_1$\hat{i} + a_2\hat{j}$ + a_3$\hat{k}$, $\vec{b} = b_1\hat{i}$ + b_2$\hat{j} + b_3\hat{k}$.
 
- - **Triple Product (Scalar):** $\vec{a} \cdot ($\vec{b}$ \times $\vec{c}) = $\vec{b} \cdot (\vec{c} \times $\vec{a}$) = $\vec{c} \cdot ($\vec{a} \times \vec{b}) — $\vec{a}$, $\vec{b}, $\vec{c} are vectors.
+ - **Triple Product (Scalar):** $\vec{a} \cdot (\vec{b} \times \vec{c}$) = $\vec{b} \cdot (\vec{c} \times \vec{a}) = \vec{c}$ \cdot ($\vec{a} \times \vec{b}) — \vec{a}, \vec{b}$, $\vec{c} are vectors.
 
- - **Triple Product (Vector):** \vec{a} \times ($\vec{b}$ \times $\vec{c}) = $\vec{b}(\vec{a} \cdot $\vec{c}$) - $\vec{c}($\vec{a} \cdot \vec{b}) — $\vec{a}$, $\vec{b}, $\vec{c} are vectors.
+ - **Triple Product (Vector):** $\vec{a}$ \times ($\vec{b}$ \times $\vec{c}) = \vec{b}$($\vec{a}$ \cdot $\vec{c}$) - $\vec{c}(\vec{a}$ \cdot $\vec{b}$) — $\vec{a}$, $\vec{b}, \vec{c}$ are vectors.
 
-- **Projection of \vec{a} onto $\vec{b}$:** $\text{proj}_{$\vec{b}}\vec{a} = $\frac{{}{\vec{b}} \vec{a} \cdot $}{||$\vec{b}||^2} $\vec{b} — \vec{a} and $\vec{b}$ are vectors.
+- **Projection of $\vec{a}$ onto $\vec{b}$:** $\text{proj}_{\vec{b}$}$\vec{a}$ = $\frac{{}{\vec{b}} \vec{a} \cdot $}{||$\vec{b}||^2} \vec{b}$ — $\vec{a}$ and $\vec{b}$ are vectors.
 
-- **Perpendicular Distance from a Point to a Line:** d = $\frac{{||}{\vec{b}} \vec{b} \times \vec{a}||}{||$||} — $\vec{a} is a vector from a point on the line to the external point, $\vec{b} is a vector along the line.
+- **Perpendicular Distance from a Point to a Line:** d = $\frac{{||}{\vec{b}} \vec{b} \times \vec{a}||}{||$||} — $\vec{a} is a vector from a point on the line to the external point, \vec{b}$ is a vector along the line.
 
-- **Angle Between Two Vectors:** \cos{\theta} = \frac{$\vec{a}$ \cdot $\vec{b}}{||$\vec{a}|| \cdot ||\vec{b}||} — $\vec{a}$ and $\vec{b}$ are vectors, \theta is the angle between them.
+- **Angle Between Two Vectors:** \cos{\theta} = \frac{$\vec{a}$ \cdot $\vec{b}}{||\vec{a}$|| \cdot ||$\vec{b}$||} — $\vec{a}$ and $\vec{b}$ are vectors, \theta is the angle between them.
 
-- **Perpendicular Distance from a Point to a Line:** d = $\frac{{||}{\vec{b}} \vec{b} \times \vec{a}||}{||$||} — $\vec{a} is a vector from a point on the line to the external point, $\vec{b} is a vector along the line.
+- **Perpendicular Distance from a Point to a Line:** d = $\frac{{||}{\vec{b}} \vec{b} \times \vec{a}||}{||$||} — $\vec{a} is a vector from a point on the line to the external point, \vec{b}$ is a vector along the line.
 
-- **Angle Between Two Vectors:** \cos{\theta} = \frac{$\vec{a}$ \cdot $\vec{b}}{||$\vec{a}|| \cdot ||\vec{b}||} — $\vec{a}$ and $\vec{b}$ are vectors, \theta is the angle between them.
+- **Angle Between Two Vectors:** \cos{\theta} = \frac{$\vec{a}$ \cdot $\vec{b}}{||\vec{a}$|| \cdot ||$\vec{b}$||} — $\vec{a}$ and $\vec{b}$ are vectors, \theta is the angle between them.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -77,9 +77,9 @@ practice_link: "/class-11/mathematics/vector-algebra-class-12-notes"
 
  - *Costs:* 4-5 marks per question
 
- - *Fix:* Remember that the dot product of two vectors $\vec{a}$ and $\vec{b}$ is given by $\vec{a} \cdot \vec{b} = \| \vec{a} \| \| \vec{b} \| \cos(\theta)$, where $\theta$ is the angle between the vectors, and the cross product is given by $\vec{a} \times $\vec{b} =
+ - *Fix:* Remember that the dot product of two vectors $\vec{a}$ and $\vec{b}$ is given by $\vec{a} \cdot \vec{b} = \| \vec{a} \| \| \vec{b} \| \cos(\theta)$, where $\theta$ is the angle between the vectors, and the cross product is given by $\vec{a} \times \vec{b}$ =
 
-\begin{vmatrix} \hat{i} & $\hat{j}$ & $\hat{k}$ \ a_1 & a_2 & a_3 \ b_1 & b_2 & b_3 \end{vmatrix}
+\begin{vmatrix} $\hat{i}$ & $\hat{j}$ & $\hat{k}$ \ a_1 & a_2 & a_3 \ b_1 & b_2 & b_3 \end{vmatrix}
 
 .
 
@@ -113,13 +113,13 @@ practice_link: "/class-11/mathematics/vector-algebra-class-12-notes"
 
  
 
-$\text{Projection of } $\vec{a} \text{ on } $\vec{b} = $\frac{{}{\vec{b}} \vec{a} \cdot \vec{b}}{|$|}
+$\text{Projection of } \vec{a}\text{ on }\vec{b} = \frac{{}{\vec{b}$} $\vec{a}$ \cdot $\vec{b}$}{|$|}
 
  Calculating $\vec{a} \cdot \vec{b}$:
 
  
 
- $\vec{a} \cdot $\vec{b} = (\hat{i} + $\hat{j}$ + $\hat{k}) \cdot ($\hat{i} - \hat{j} + $\hat{k}$) = 1 \times 1 + 1 \times (-1) + 1 \times 1 = 1
+ $\vec{a} \cdot \vec{b}$ = ($\hat{i}$ + $\hat{j}$ + $\hat{k}) \cdot (\hat{i}$ - $\hat{j}$ + $\hat{k}$) = 1 \times 1 + 1 \times (-1) + 1 \times 1 = 1
 
  
 
@@ -130,36 +130,36 @@ $\text{Projection of } $\vec{a} \text{ on } $\vec{b} = $\frac{{}{\vec{b}} \vec{a
 
  
 
-$\text{Projection of } $\vec{a} \text{ on } $\vec{b} = $\frac{{1}}{}} \sqrt{3
+$\text{Projection of } \vec{a}\text{ on }\vec{b} = \frac{{1}$}{}} \sqrt{3
 
  - **Answer:** $\frac{{1}\sqrt{3}{\theta} }
 
- - **Q2:** Find the angle $ between two vectors $\vec{a} = 2\hat{i} - \hat{j} + \hat{k}$ and $\vec{b} = \hat{i} + 2\hat{j} - \hat{k}$.
+ - **Q2:** Find the angle $ between two vectors \vec{a}$ = 2$\hat{i}$ - $\hat{j}$ + $\hat{k} and \vec{b}$ = $\hat{i}$ + 2$\hat{j}$ - $\hat{k}.
 
  - **Trap:** Forgetting to calculate the magnitudes of vectors $\vec{a}$ and $\vec{b}$.
 
  - **Solution:** 
 
  The angle $\theta$ between two vectors $\vec{a}$ and $\vec{b}$ is given by:
-$ \cos{\theta} = \frac{$\vec{a}$ \cdot $\vec{b}}{|$\vec{a}$| |$\vec{b}$|} 
+$ \cos{\theta} = \frac{\vec{a} \cdot \vec{b}$}{|$\vec{a}$| |$\vec{b}$|} 
 
 
- Calculating \vec{a} \cdot \vec{b}:
-
- 
-
- $\vec{a} \cdot $\vec{b} = (2$\hat{i} - $\hat{j} + \hat{k}) \cdot ($\hat{i}$ + 2$\hat{j} - $\hat{k}) = 2 \times 1 + (-1) \times 2 + 1 \times (-1) = -1
+ Calculating $\vec{a}$ \cdot $\vec{b}$:
 
  
 
- Calculating |\vec{a}|$ and $|\vec{b}|$1 
+ $\vec{a} \cdot \vec{b}$ = (2$\hat{i} - \hat{j}$ + $\hat{k}$) \cdot ($\hat{i}$ + 2$\hat{j} - \hat{k}$) = 2 \times 1 + (-1) \times 2 + 1 \times (-1) = -1
+
+ 
+
+ Calculating |$\vec{a}$|$ and $|$\vec{b}$|$1 
 
 
- Thus, $\cos{\theta}$ is:
-$ \cos{\theta} = $\frac{{-1}}{ \times } \sqrt{6$1  \theta = \cos^{-1}\left($\frac{{-1}{6}}{
+ Thus, \cos{\theta} is: 
+$ \cos{\theta} = \frac{{-1}$}{ \times } \sqrt{6$1  \theta = \cos^{-1}\left(\frac{{-1}{6}$}{
 
 
- - **Answer:** \cos^{-1}\left(\frac{-1}{6}\right)
+ -  *Answer:** \cos^{-1}\left($\frac{-1}{6}$\right) 
 
  - **Q3:** Given } \right) $\vec{a} = 3\hat{i} + 4\hat{j}$ and $\vec{b} = 2\hat{i} - \hat{j}$, find a vector $\vec{c}$ such that $\vec{a} + \vec{c} = \vec{b}$.
 
@@ -171,7 +171,7 @@ $ \cos{\theta} = $\frac{{-1}}{ \times } \sqrt{6$1  \theta = \cos^{-1}\left($\fra
 
  
 
- $\vec{c} = $\vec{b}$ - $\vec{a}$
+ $\vec{c} = \vec{b} - \vec{a}
 
  
 
@@ -179,7 +179,7 @@ $ \cos{\theta} = $\frac{{-1}}{ \times } \sqrt{6$1  \theta = \cos^{-1}\left($\fra
 
  
 
- $\vec{c} = (2$\hat{i} - \hat{j}) - (3$\hat{i}$ + 4$\hat{j}) = (2-3)$\hat{i} + (-1-4)\hat{j}\vec{c} = -$\hat{i}$ - 5$\hat{j}$
+ $\vec{c} = (2\hat{i}$ - $\hat{j}$) - (3$\hat{i}$ + 4$\hat{j}) = (2-3)\hat{i}$ + (-1-4)$\hat{j}\vec{c}$ = -$\hat{i}$ - 5$\hat{j}$
 
  
 
@@ -212,13 +212,13 @@ $ \cos{\theta} = $\frac{{-1}}{ \times } \sqrt{6$1  \theta = \cos^{-1}\left($\fra
 
 - $\vec{a} \times \vec{b} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \| \vec{a} \| \cos \theta \| \vec{b} \| \end{vmatrix}$
 
- - $\vec{a} \cdot \vec{b} = \| \vec{a} \| \| \vec{b} \| \cos \theta$
+ -  vec{a} \cdot $\vec{b}$ = \| $\vec{a}$ \| \| $\vec{b}$ \| \cos \theta 
 
  - $\vec{a} \times (\vec{b} \times \vec{c}) = \vec{b}(\vec{a} \cdot \vec{c}) - \vec{c}(\vec{a} \cdot \vec{b})$
 
  - $\vec{a} \cdot (\vec{b} \times \vec{c}) = \vec{c}(\vec{a} \cdot \vec{b}) - \vec{b}(\vec{a} \cdot \vec{c})$
 
- - $\| \vec{a} \times \vec{b} \| = \| \vec{a} \| \| \vec{b} \| \sin \theta$
+ -  | $\vec{a}$ \times $\vec{b}$ \| = \| $\vec{a}$ \| \| $\vec{b}$ \| \sin \theta 
 
  - Key facts:
 
@@ -314,3 +314,4 @@ Continue your revision with these related guides:
 - 📖 [Atoms Class 12 Mathematics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/atoms-class-12-notes)
 - 📖 [Biodiversity and Conservation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
 
+**}

@@ -21,7 +21,7 @@ manualReview: false
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Pythagorean Identity:** sin^2{x} + cos^2{x} = 1 — $x$ is the angle in radians or degrees, $sin{x}$ is the sine of $x$, and $cos{x}$ is the cosine of $x$,- **Sum and Difference Formulas for Sine:** \sin{(a + b)} = \sin{a}\cos{b} + \cos{a}\sin{b} — $a$ and $b$ are angles in radians or degrees, $sin{a}$ and $sin{b}$ are the sines of $a$ and $b$, $cos{a}$ and $cos{b}$ are the cosines of $a$ and $b$,- **Sum and Difference Formulas for Cosine:** \cos{(a + b)} = \cos{a}\cos{b} - \sin{a}\sin{b} — $a$ and $b$ are angles in radians or degrees, $sin{a}$ and $sin{b}$ are the sines of $a$ and $b$, $cos{a}$ and $cos{b}$ are the cosines of $a$ and $b$,- **Sum and Difference Formulas for Tangent:** \tan{(a + b)} = \frac{\tan{a} + \tan{b}}{1 - \tan{a}\tan{b}} — $a$ and $b$ are angles in radians or degrees, $\tan{a}$ and $\tan{b}$ are the tangents of $a$ and $b$,- **Double Angle Formulas for Sine:** \sin{2x} = 2\sin{x}\cos{x} — $x$ is the angle in radians or degrees, $sin{x}$ is the sine of $x$, and $cos{x}$ is the cosine of $x$,- **Double Angle Formulas for Cosine:** \cos{2x} = cos^2{x} - sin^2{x} — $x$ is the angle in radians or degrees, $sin{x}$ is the sine of $x$, and $cos{x}$ is the cosine of $x$,- **Double Angle Formulas for Tangent:** \tan{2x} = \frac{2\tan{x}}{1 - \tan^2{x}} — $x$ is the angle in radians or degrees, $\tan{x}$ is the tangent of $x$,- **Half Angle Formulas for Sine:** \sin{\frac{x}{2}} = \pm \sqrt{\frac{1 - \cos{x}}{2}} — $x$ is the angle in radians or degrees, $sin{\frac{x}{2}}$ is the sine of $\frac{x}{2}$, and $cos{x}$ is the cosine of $x$,- **Half Angle Formulas for Cosine:** \cos{\frac{x}{2}} = \pm \sqrt{\frac{1 + \cos{x}}{2}} — $x$ is the angle in radians or degrees, $cos{\frac{x}{2}}$ is the cosine of $\frac{x}{2}$, and $cos{x}$ is the cosine of $x$,- **Half Angle Formulas for Tangent:** \tan{\frac{x}{2}} = \frac{1 - \cos{x}}{\sin{x}} — $x$ is the angle in radians or degrees, $\tan{\frac{x}{2}}$ is the tangent of $\frac{x}{2}$, $cos{x}$ is the cosine of $x$, and $sin{x}$ is the sine of $x$,- **Product to Sum Formulas:** \sin{a}\cos{b} = \frac{1}{2}[\sin{(a + b)} + \sin{(a - b)}] — $a$ and $b$ are angles in radians or degrees, $sin{a}$ and $sin{b}$ are the sines of $a$ and $b$, $cos{a}$ and $cos{b}$ are the cosines of $a$ and $b$,- **Inverse Trigonometric Functions:** sin^{-1}{x} = \theta \text{ such that } \sin{\theta} = x — $sin^{-1}{x}$ is the inverse sine of $x$,- **Identities Involving the Inverse Trigonometric Functions:** sin^{-1}{x} + cos^{-1}{x} = \frac{pi}{2} — $x$ is a real number between $-1$ and $1$
+- **Pythagorean Identity:** sin^2{x} + cos^2{x} = 1 — $x$ is the angle in radians or degrees, $sin{x}$ is the sine of $x$, and $cos{x}$ is the cosine of $x$,- **Sum and Difference Formulas for Sine:** \sin{(a + b)} = \sin{a}\cos{b} + \cos{a}\sin{b} — $a$ and $b$ are angles in radians or degrees, $sin{a}$ and $sin{b}$ are the sines of $a$ and $b$, $cos{a}$ and $cos{b}$ are the cosines of $a$ and $b$,- **Sum and Difference Formulas for Cosine:** \cos{(a + b)} = \cos{a}\cos{b} - \sin{a}\sin{b} — $a$ and $b$ are angles in radians or degrees, $sin{a}$ and $sin{b}$ are the sines of $a$ and $b$, $cos{a}$ and $cos{b}$ are the cosines of $a$ and $b$,- **Sum and Difference Formulas for Tangent:** \tan{(a + b)} = $\frac{\tan{a}$ + \tan{b}}{1 - \tan{a}\tan{b}} — $a$ and $b$ are angles in radians or degrees, $\tan{a}$ and $\tan{b}$ are the tangents of $a$ and $b$,- **Double Angle Formulas for Sine:** \sin{2x} = 2\sin{x}\cos{x} — $x$ is the angle in radians or degrees, $sin{x}$ is the sine of $x$, and $cos{x}$ is the cosine of $x$,- **Double Angle Formulas for Cosine:** \cos{2x} = cos^2{x} - sin^2{x} — $x$ is the angle in radians or degrees, $sin{x}$ is the sine of $x$, and $cos{x}$ is the cosine of $x$,- **Double Angle Formulas for Tangent:** \tan{2x} = $\frac{2\tan{x}$}{1 - \tan^2{x}} — $x$ is the angle in radians or degrees, $\tan{x}$ is the tangent of $x$,- **Half Angle Formulas for Sine:** \sin{$\frac{x}{2}$} = \pm $\sqrt{\frac{1 - \cos{x}$}{2}} — $x$ is the angle in radians or degrees, $sin{\frac{x}{2}}$ is the sine of $\frac{x}{2}$, and $cos{x}$ is the cosine of $x$,- **Half Angle Formulas for Cosine:** \cos{$\frac{x}{2}$} = \pm $\sqrt{\frac{1 + \cos{x}$}{2}} — $x$ is the angle in radians or degrees, $cos{\frac{x}{2}}$ is the cosine of $\frac{x}{2}$, and $cos{x}$ is the cosine of $x$,- **Half Angle Formulas for Tangent:** \tan{$\frac{x}{2}$} = $\frac{1 - \cos{x}$}{\sin{x}} — $x$ is the angle in radians or degrees, $\tan{\frac{x}{2}}$ is the tangent of $\frac{x}{2}$, $cos{x}$ is the cosine of $x$, and $sin{x}$ is the sine of $x$,- **Product to Sum Formulas:** \sin{a}\cos{b} = $\frac{1}{2}$[\sin{(a + b)} + \sin{(a - b)}] — $a$ and $b$ are angles in radians or degrees, $sin{a}$ and $sin{b}$ are the sines of $a$ and $b$, $cos{a}$ and $cos{b}$ are the cosines of $a$ and $b$,- **Inverse Trigonometric Functions:** sin^{-1}{x} = \theta $\text{ such that }$ \sin{\theta} = x — $sin^{-1}{x}$ is the inverse sine of $x$,- **Identities Involving the Inverse Trigonometric Functions:** sin^{-1}{x} + cos^{-1}{x} = $\frac{pi}{2}$ — $x$ is a real number between $-1$ and $1$
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -32,9 +32,7 @@ manualReview: false
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
-{
- "heading": "✏️ 3 Solved PYQs",
- "body": "- **Q1:** Prove that $\frac{{\sin \theta - 2\sin^3 \theta}{2\cos^3 \theta - \cos \theta} = \tan \theta}{\sin} .
+- **Q1:** Prove that $\frac{{\sin \theta - 2\sin^3 \theta}{2\cos^3 \theta - \cos \theta} = \tan \theta}{\sin} .
  - **Trap:**
  - Students often forget to factor out common terms like $}
 
@@ -69,7 +67,7 @@ manualReview: false
 
 - **PYQ-Specific Trend:** Past year questions often test the understanding of trigonometric identities and their applications in calculus. A trend observed in PYQs is the frequent appearance of problems that require the use of trigonometric identities to simplify expressions or to solve equations. For example, a question might ask to prove that $cos^{-1}x + cos^{-1}y = cos^{-1}(xy 
 
-- \sqrt{1-x^2}\sqrt{1-y^2})$, which involves a deep understanding of trigonometric functions and their properties.
+- $\sqrt{1-x^2}\sqrt{1-y^2}$)$, which involves a deep understanding of trigonometric functions and their properties.
 
 - **Simplification Techniques:** Another crucial aspect of solving trigonometric problems is the ability to simplify complex expressions using identities. For instance, the expression $sqrt{1 + sinx}$ can be simplified using the identity $1 + sinx = (\sqrt{\frac{1+sinx}{2}} + \sqrt{\frac{1-sinx}{2}})^2$, leading to the simplified form $sqrt{\frac{1+sinx}{2}} + \sqrt{\frac{1-sinx}{2}}$. Recognizing and applying such simplifications can significantly reduce the complexity of problems in exams.
 
@@ -86,7 +84,7 @@ manualReview: false
 - sin(A)sin(B)$
  
 
-- $tan(A+B) = \frac{tan(A) + tan(B)}{1 
+-  tan(A+B) = $\frac{tan(A) + tan(B)}${1 
 
 - tan(A)tan(B)}$
  
@@ -113,49 +111,49 @@ manualReview: false
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
 **1. Which of the following trigonometric functions is periodic?**
-**A)**  Sine Function
-**B)**  Cosine Function
-**C)**  Tangent Function
-**D)**  All of the above
+**A)**   Sine Function
+**B)**   Cosine Function
+**C)**   Tangent Function
+**D)**   All of the above
 
 **Answer:** D) All three trigonometric functions are periodic, but the tangent function has a period of π, whereas the sine and cosine functions have a period of 2π.
 
 ---
 
 **2. Which of the following is NOT a fundamental trigonometric identity?**
-**A)**  sin^2(x) + cos^2(x) = 1
-**B)**  tan(x) = sin(x)/cos(x)
-**C)**  cot(x) = cos(x)/sin(x)
+**A)**   sin^2(x) + cos^2(x) = 1
+**B)**   tan(x) = sin(x)/cos(x)
+**C)**   cot(x) = cos(x)/sin(x)
 
 **Answer:** D) The last option is not a fundamental trigonometric identity; the correct identity is cot(x) = cos(x)/sin(x).
 
 ---
 
 **3. Which of the following represents the radian measure of an angle?**
-**A)**  Degrees
-**B)**  Radians
-**C)**  Gradians
-**D)**  Steradians
+**A)**   Degrees
+**B)**   Radians
+**C)**   Gradians
+**D)**   Steradians
 
 **Answer:** B) The radian measure represents an angle in terms of the ratio of the arc length to the radius of a circle.
 
 ---
 
 **4. What is the value of sin(-x)?**
-**A)**  sin(x)
-**B)**  -sin(x)
-**C)**  sin(x)-x
-**D)**  sin(x)+x
+**A)**   sin(x)
+**B)**   -sin(x)
+**C)**   sin(x)-x
+**D)**   sin(x)+x
 
 **Answer:** B) Using the property of odd functions, we know that sin(-x) = -sin(x).
 
 ---
 
 **5. Which of the following represents the sine of a \sum of two angles?**
-**A)**  sin(x+y) = sin(x) + sin(y)
-**B)**  sin(x+y) = sin(x)cos(y) + cos(x)sin(y)
-**C)**  cos(x-y) = cos(x) - cos(y)
-**D)**  cos(x-y) = cos(x)cos(y) - sin(x)sin(y)
+**A)**   sin(x+y) = sin(x) + sin(y)
+**B)**   sin(x+y) = sin(x)cos(y) + cos(x)sin(y)
+**C)**   cos(x-y) = cos(x) - cos(y)
+**D)**   cos(x-y) = cos(x)cos(y) - sin(x)sin(y)
 
 **Answer:** C) Using the angle \sum identity, we can derive the correct formula sin(x+y) = sin(x)cos(y) + cos(x)sin(y).
 
@@ -171,9 +169,10 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-10
 
 ## 📚 Related Topics
 
-Continue your revision with these related guides:
+Continue your [revision](/blog/poverty-unemployment-class-11-revision-notes-jee-neet) with these related guides:
 
 - 📖 [physics heat light](/blog/physics-heat-light-class-11-revision-notes-jee-neet)
 - 📖 [physics mechanics](/blog/physics-mechanics-class-11-revision-notes-jee-neet)
 - 📖 [poverty unemployment](/blog/poverty-unemployment-class-11-revision-notes-jee-neet)
 - 📖 [anatomy of flowering plants](/blog/anatomy-of-flowering-plants-class-11-revision-notes-neet)
+
