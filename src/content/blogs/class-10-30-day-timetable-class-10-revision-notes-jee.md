@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/class-10-30-day-timetable-class-10-revision-notes-jee.webp"
-title: "Class 10 30 Day Timetable Class 10 Mathematics Recap — CBSE 2026 Quick Guide"
-description: "Class 10 30 Day Timetable Class 10 Mathematics Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-03-28."
+title: "30 Day Timetable Class 10 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "30 Day Timetable Class 10 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/mathematics/class-10-30-day-timetable-class-10-revision-notes-jee"

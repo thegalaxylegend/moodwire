@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/integrals-class-12-notes.webp"
-title: "Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide"
-description: "Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-01."
+title: "Integrals Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Integrals Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-04-01"
 practice_link: "/class-11/mathematics/integrals-class-12-notes"
@@ -29,53 +29,48 @@ practice_link: "/class-11/mathematics/integrals-class-12-notes"
 - [📚 Related Topics](#-related-topics)
 
 
-- [⚡ Derivations and Proofs](#-derivations-and-proofs)
-  - [📝 Integration Techniques](#-integration-techniques)
-  - [📊 Applications of Integrals](#-applications-of-integrals)
-  - [🔍 Improper Integrals](#-improper-integrals)
-  - [📝 Multiple Integrals](#-multiple-integrals)
-  - [🔍 Applications of Multiple Integrals](#-applications-of-multiple-integrals)
-  - [📝 Applications of Multiple Integrals](#-applications-of-multiple-integrals)
 
-  - [📝 Advanced Topics in Integrals](#-advanced-topics-in-integrals)
-  - [📝 Master the Test Center — Step-by-Step Learning](#-master-the-test-center-stepbystep-learning)
+
+##
 
 ### <a id="-derivations-and-proofs"></a>⚡ Derivations and Proofs
 #### Power Rule of Integration
 - Derivation using definition of definite integral:
+$ \int_{a}^{b} f(x) dx = \lim_{n \to \infty} \sum_{i=1}^{n} f(x_i^*) \Delta x 
 
-\int_{a}^{b} f(x) dx = \lim_{n \to \infty} \sum_{i=1}^{n} f(x_i^*) \Delta x
 
 
   For $f(x) = x^n$:
+$ \int x^n dx = \lim_{n \to \infty} \sum_{i=1}^{n} (x_i^*)^n \Delta x $
 
-\int x^n dx = \lim_{n \to \infty} \sum_{i=1}^{n} (x_i^*)^n \Delta x
 
 
   Leading to:
+ \int x^n dx = $\frac{{x^{n+1}}{n+1}}{
 
-\int x^n dx = $\frac{x^{n+1}}{n+1}$ + C
 
 
 
 #### Exponential Integration Formula
 - Derivation using definition of exponential function:
 
-e^x = \lim_{n \to \infty} \left(1 + $\frac{x}{n}$ \right)^n
+e^x = \lim_{n \to \infty} \left(1 + }  + C $\frac{x}{n}$ \right)^n
 
 
   Taking derivative and simplifying leads to:
-  \int e^x dx = e^x + C
-  And more generally:
+$ \int e^x dx = e^x + C 
 
-\int e^{ax} dx = $\frac{1}{a}$ e^{ax} + C
+  And more generally:
+$ \int e^{ax} dx = $\frac{{1}{a}}{
+
 
 
 
 ### <a id="-integration-techniques"></a>📝 Integration Techniques
 #### Substitution Method
 - General form:
-  \int f(g(x)) \cdot g'(x) dx = \int f(u) du
+ \int f(g(x)) \cdot g'(x) dx = \int f(u) du }  e^{ax} + C 
+
   Where $u = g(x)$ and $du = g'(x) dx$.
 - Key points:
   * Substitute $u = g(x)$
@@ -84,16 +79,17 @@ e^x = \lim_{n \to \infty} \left(1 + $\frac{x}{n}$ \right)^n
 
 #### Integration by Parts
 - General form:
-  \int u \cdot dv = u \cdot v - \int v \cdot du
+$ \int u \cdot dv = u \cdot v - \int v \cdot du 
+
 - Key points:
   * Choose $u$ and $dv$
   * Find $du$ and $v$
   * Apply formula
 
 #### Partial Fractions Decomposition
-- General form for $\frac{1}{(x-a)(x-b)}$:
+- General form for $\frac{{1}{(x-a)(x-b)}}{\frac{1}{(x-a)(x-b)} = } :
 
-$\frac{1}{(x-a)(x-b)} = $$\frac{A}{x-a}$ + $\frac{B}{x-b}$
+$\frac{A}{x-a}$ + $\frac{{B}{x-b}}{f(x)} 
 
 
 - Key points:
@@ -109,7 +105,7 @@ A = \int_{a}^{b} (f(x) - g(x)) dx
 
 
 - Key points:
-  * Define $f(x)$ and $g(x)$
+  * Define $ and $g(x)$
   * Determine limits $a$ and $b$
   * Evaluate integral
 
@@ -138,8 +134,8 @@ S = \int_{a}^{b} 2 \pi f(x) $\sqrt{1 + (f'(x))^2}$ dx
 ### <a id="-improper-integrals"></a>🔍 Improper Integrals
 #### Definition
 - General form:
+$ \int_{a}^{\infty} f(x) dx = \lim_{b \to \infty} \int_{a}^{b} f(x) dx 
 
-\int_{a}^{\infty} f(x) dx = \lim_{b \to \infty} \int_{a}^{b} f(x) dx
 
 
 - Key points:
@@ -148,18 +144,18 @@ S = \int_{a}^{b} 2 \pi f(x) $\sqrt{1 + (f'(x))^2}$ dx
 
 #### Convergence
 - Condition for convergence:
+$ \int_{a}^{\infty} f(x) dx = \lim_{b \to \infty} \int_{a}^{b} f(x) dx = L $
 
-\int_{a}^{\infty} f(x) dx = \lim_{b \to \infty} \int_{a}^{b} f(x) dx = L
 
 
-  Where $L$ is finite.
+  Where L is finite.
 - Key points:
   * Limit exists and is finite
 
 #### Divergence
 - Condition for divergence:
+$ \int_{a}^{\infty} f(x) dx = \lim_{b \to \infty} \int_{a}^{b} f(x) dx = \infty $
 
-\int_{a}^{\infty} f(x) dx = \lim_{b \to \infty} \int_{a}^{b} f(x) dx = \infty
 
 
 - Key points:
@@ -168,8 +164,8 @@ S = \int_{a}^{b} 2 \pi f(x) $\sqrt{1 + (f'(x))^2}$ dx
 ### <a id="-multiple-integrals"></a>📝 Multiple Integrals
 #### Definition
 - General form:
+ \int_{a}^{b} \int_{c}^{d} f(x,y) dy dx 
 
-\int_{a}^{b} \int_{c}^{d} f(x,y) dy dx
 
 
 - Key points:
@@ -179,7 +175,8 @@ S = \int_{a}^{b} 2 \pi f(x) $\sqrt{1 + (f'(x))^2}$ dx
 #### Evaluation
 - General approach:
 
-\int_{a}^{b} \int_{c}^{d} f(x,y) dy dx = \int_{a}^{b} \left( \int_{c}^{d} f(x,y) dy \right) dx
+$1 
+
 
 
 - Key points:

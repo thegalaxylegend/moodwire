@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/cell-the-unit-of-life-class-11-revision-notes-neet.webp"
-title: "Cell The Unit Of Life Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
-description: "Cell The Unit Of Life Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Cell The Unit Of Life Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Cell The Unit Of Life Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/biology/cell-the-unit-of-life-class-11-revision-notes-neet"
@@ -79,7 +79,7 @@ This chapter is very important for students of [class](/blog/environmental-chemi
 
 ## <a id="Ayush-note"></a>Ayush's Note
 
-<DIV [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)="Ayush-note">
+<div class="Ayush-note">
 I still remember when I was in [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) 11, I found it very difficult to understand the structure of a cell. My teacher told me to focus on the functions of different parts of the cell, and that really helped me. I used to make a table of all the parts of the cell and their functions, which made it easier for me to remember. 
 </div>
 

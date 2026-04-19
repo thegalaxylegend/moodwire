@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/indian-geography-climate-class-11-revision-notes-cbse.webp"
-title: "Indian Geography Climate Class 11 Geography Recap — CBSE 2026 Quick Guide"
-description: "Indian Geography Climate Class 11 Geography Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Indian Geography Climate Class 11 Geography Recap — CBSE 2026 Grandmaster Guide"
+description: "Indian Geography Climate Class 11 Geography Recap — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/indian-geography-climate-class-11-revision-notes-cbse"

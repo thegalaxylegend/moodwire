@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/sequences-series-class-11-revision-notes-jee.webp"
 title: "Sequences Series Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
-description: "Sequences Series Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+description: "Sequences Series Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/mathematics/sequences-series-class-11-revision-notes-jee"
@@ -69,7 +69,7 @@ Sequences and Series are the mathematical representation of progression and patt
 ## <a id="1-sequences-and-series-basics"></a>1. Sequences and Series Basics
 
 *   **Sequence:** An ordered list of numbers following a specific rule. Often denoted by {aₙ}.
-*   **Series:** The sum of the terms of a sequence (a₁ + a₂ + a₃ + ... + aₙ).
+*   **Series:** The \sum of the terms of a sequence (a₁ + a₂ + a₃ + ... + aₙ).
 *   **Finite vs. Infinite:** If the number of terms is limited, it's finite; otherwise, it's infinite.
 
 ---
@@ -123,7 +123,7 @@ Equality holds only if a = b. This principle is extremely useful in solving ineq
 
 ## <a id="5-infinite-geometric-series"></a>5. Infinite Geometric Series
 
-If |r| < 1, the sum of an infinite geometric progression is finite and given by:
+If |r| < 1, the \sum of an infinite geometric progression is finite and given by:
 **S∞ = a / (1 - r)**
 This formula is the basis for many converging series in higher-level mathematics.
 
@@ -151,7 +151,7 @@ This formula is the basis for many converging series in higher-level mathematics
 - G₃ = ar³ = 64
 - **Means are 4, 16, 64**.
 
-**Q3: Find the sum to infinity of the GP: 1, 1/3, 1/9, ...**
+**Q3: Find the \sum to infinity of the GP: 1, 1/3, 1/9, ...**
 **Answer:**
 - a = 1, r = 1/3. Since |r| < 1, S∞ exists.
 - S∞ = a / (1 - r) = 1 / (1 - 1/3) = 1 / (2/3)

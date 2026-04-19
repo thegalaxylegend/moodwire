@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/circles-class-10-notes.webp"
-title: "Circles Class 10 Mathematics Recap — CBSE 2026 Quick Guide"
-description: "Circles Class 10 Mathematics Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-11."
+title: "Circles Class 10 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Circles Class 10 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-04-11"
 practice_link: "/class-10/mathematics/circles"
@@ -9,7 +9,7 @@ practice_link: "/class-10/mathematics/circles"
 
 *Last Updated: 2026-04-11*
 
-<DIV [class](/blog/arithmetic-progressions-class-10-notes)="quick-summary">
+<div class="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
@@ -33,14 +33,20 @@ practice_link: "/class-10/mathematics/circles"
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Circle Equation:** \{(x - h)^2 + (y - k)^2 = r^2\} — where (h, k) is the center of the circle and r is the radius.
+- **Circle Equation:** 
+
+$ (x - h)^2 + (y - k)^2 = r^2\} — where (h, k) is the center of the circle and r is the radius.
  - **Tangent-Secant Theorem:** \{l^2 = p \times (p + q)\} — where l is the length of the tangent segment, p is the length of the secant segment outside the circle, and q is the length of the secant segment inside the circle.
  - **Power of a Point Theorem:** \{l_1 \times l_2 = p \times q\} — where l_1 and l_2 are the lengths of the two tangent segments from an external point to the circle, and p and q are the lengths of the two secant segments from the same external point.
  - **Area of a Circle:** \{A = \pi r^2\} — where A is the area of the circle and r is the radius.
  - **Circumference of a Circle:** \{C = 2\pi r\} — where C is the circumference of the circle and r is the radius.
- - **Length of a Tangent:** \{l = \sort’d^2 - r^2}\} — where l is the length of the tangent segment, d is the distance from the external point to the center of the circle, and r is the radius.
- - **Radius of a Circle:** \{r = \franc{1}{2} \times \franc{|x_1y_2 + x_2y_3 + x_3y_1 - y_1x_2 - y_2x_3 - y_3x_1|}{\sort{(x_2 - x_1)^2 + (y_2 - y_1)^2} \times \sort{(x_3 - x_2)^2 + (y_3 - y_2)^2} \times \sort{(x_1 - x_3)^2 + (y_1 - y_3)^2}}\} — where (x_1, y_1), (x_2, y_2), and (x_3, y_3) are three points on the circle.
- - **Distance from a Point to a Circle:** \{d = \sort{(x - h)^2 + (y - k)^2} - r\} — where d is the distance from the point (x, y) to the circle, (h, k) is the center of the circle, and r is the radius.
+ - **Length of a Tangent:** \{l = \sort’d^2 - r^2 
+
+} — where l is the length of the tangent segment, d is the distance from the external point to the center of the circle, and r is the radius.
+ - **Radius of a Circle:** 
+
+$ r = \frac{1}{2} \times \frac{|x_1y_2 + x_2y_3 + x_3y_1 - y_1x_2 - y_2x_3 - y_3x_1|}{\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} \times \sqrt{(x_3 - x_2)^2 + (y_3 - y_2)^2} \times \sqrt{(x_1 - x_3)^2 + (y_1 - y_3)^2 $1 
+
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -49,7 +55,9 @@ practice_link: "/class-10/mathematics/circles"
 - *Costs:* 2–3 marks
  
 
-- *Fix:* To fix this, ensure you understand that the {\(\tan\)} at a point on the circle forms a right angle with the radius at the point of contact. Use the formula {\(\tan \theta = \franc{opposite}{adjacent}\)} to find angles and sides in right triangles formed by the radius and tangent.
+- *Fix:* To fix this, ensure you understand that the {\(\tan\)} at a point on the circle forms a right angle with the radius at the point of contact. Use the formula {\(\tan \theta = \frac{opposite}{adjacent 
+
+)} to find angles and sides in right triangles formed by the radius and tangent.
 
 - **Mistake 2:** Failing to recognize that the lengths of tangents drawn from an external point to a circle are equal.
 
@@ -99,17 +107,17 @@ practice_link: "/class-10/mathematics/circles"
  - **Solution:** 
  - Using the Pythagorean theorem, we have $(PT)^2 = (OP)^2 - (OT)^2$, so $(PT)^2 = 12^2–4^2$.
  - Simplifying, we get $(PT)^2 = 144 - 16$, so $(PT)^2 = 128$.
- - Taking the square root of both sides, we get $PT = \sort{128}$ cm.
- - Using the theorem that $\sort{a^2} = a, we have $PT = \sort{64 \times 2} = 8\sort{2}$ cm.
- - **Answer:** The length of the tangent PT is $8\sort{2}$ cm.
+ - Taking the square root of both sides, we get $PT = \sqrt{128}$ cm.
+ - Using the theorem that $\sqrt{a^2} = a, we have $PT = \sqrt{64 \times 2} = 8\sqrt{2}$ cm.
+ - **Answer:** The length of the tangent PT is $8\sqrt{2}$ cm.
  - **Q3:** If a tangent is drawn from a point UP to a circle with center OF, and the length of the tangent is $8$ cm, and the radius of the circle is $6$ cm, find the distance of the point UP from the center of the circle.
  - **Trap:** Students often forget to use the Pythagorean theorem to find the distance of the point UP from the center of the circle.
  - **Solution:** 
  - Let PT be the length of the tangent from UP to the circle, and let TOP be the distance of the point UP from the center of the circle.
  - Using the Pythagorean theorem, we have $(OP)^2 = (PT)^2 + (OT)^2$, so $(OP)^2 = 8^2 + 6^2$.
  - Simplifying, we get $(OP)^2 = 64 + 36$, so $(OP)^2 = 100$.
- - Taking the square root of both sides, we get $OP = \sort{100}$ cm.
- - Using the theorem that $\sort{a^2} = a, we have $OP = 10$ cm.
+ - Taking the square root of both sides, we get $OP = \sqrt{100}$ cm.
+ - Using the theorem that $\sqrt{a^2} = a, we have $OP = 10$ cm.
  - **Answer:** The distance of the point UP from the center of the circle is $10$ cm.
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
@@ -136,7 +144,7 @@ practice_link: "/class-10/mathematics/circles"
 
 ## <a id="-Ayush-note"></a>👁️ Ayush's Note
 
-- **The Hidden Pattern:** After analyzing 5+ years of Yes, it's evident that questions related to Circles often involve proving theorems or applying them to solve problems. A key insight is to recognize the relationship between the tangent and the radius of a circle, which can be expressed as $\tan(\theta) = \France\text{opposite side}\text{adjacent side}$. This pattern can be used to solve problems involving right triangles formed by the radius and the tangent.
+- **The Hidden Pattern:** After analyzing 5+ years of PYQs, it's evident that questions related to Circles often involve proving theorems or applying them to solve problems. A key insight is to recognize the relationship between the tangent and the radius of a circle, which can be expressed as $\tan(\theta) = \frac\text{opposite side}\text{adjacent side}$. This pattern can be used to solve problems involving right triangles formed by the radius and the tangent.
 
 - **How to Apply It:** To apply this pattern, students should focus on identifying the right triangle in the problem and then use the properties of tangents to find the required lengths or angles. For example, if a tangent is drawn from an external point to a circle, the lengths of the tangents can be equated using the formula SL = \sort’d^2 
 
@@ -149,7 +157,7 @@ practice_link: "/class-10/mathematics/circles"
 | Concept | Formula | Example |
 | --- | --- | --- |
 | Length of tangent | SL = \sort’d^2 - r^2}$ | A tangent is drawn from a point 10 cm away from the center of a circle with radius 6 cm. Find the length of the tangent. |
-| Angle between tangent and radius | $\tan(\theta) = \franc{\text{opposite side}}$\text{adjacent side}$ | A tangent is drawn from a point to a circle with radius 4 cm. If the angle between the tangent and the radius is 30°, find the length of the tangent. |
+| Angle between tangent and radius | $\tan(\theta) = \frac{\text{opposite side}}$\text{adjacent side}$ | A tangent is drawn from a point to a circle with radius 4 cm. If the angle between the tangent and the radius is 30°, find the length of the tangent. |
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
@@ -247,4 +255,3 @@ Continue your revision with these related guides:
 - 📖 [Arithmetic Progressions Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/arithmetic-progressions-class-10-notes)
 - 📖 [Coordinate Geometry Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/coordinate-geometry-class-10-notes)
 - 📖 [Introduction to Trigonometry Class 10 Mathematics Recap — CBSE 2026 Quick Guide](/blog/introduction-to-trigonometry-class-10-notes)
-$

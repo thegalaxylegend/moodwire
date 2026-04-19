@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/neet-biology-80-20-rule-class-11-revision-notes-neet.webp"
-title: "Neet Biology 80 20 Rule Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
-description: "Neet Biology 80 20 Rule Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Biology 80 20 Rule Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
+description: "Biology 80 20 Rule Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/biology/neet-biology-80-20-rule-class-11-revision-notes-neet"

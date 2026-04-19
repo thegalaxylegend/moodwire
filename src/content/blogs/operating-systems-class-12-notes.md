@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/operating-systems-class-12-notes.webp"
-title: "Operating Systems Class 12 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide"
-description: "Operating Systems Class 12 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-11."
+title: "Operating Systems Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Operating Systems Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-04-11"
 practice_link: "/class-12/computer-science/operating-systems"
@@ -9,7 +9,7 @@ practice_link: "/class-12/computer-science/operating-systems"
 
 *Last Updated: 2026-04-11*
 
-<div [class](/blog/communication-systems-class-12-notes)="quick-summary">
+<div class="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
@@ -33,7 +33,7 @@ practice_link: "/class-12/computer-science/operating-systems"
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Response Time:** $\frac{1}{{\lambda}} + $\frac{1}{$\mu$} — Response time (average time to complete a request) where $\lambda$ is the arrival rate and $\mu$ is the service rate.,- **Throughput:** $\frac{$\mu$}{{1 + \mu \times {S}}} — Throughput (number of requests completed per unit time) where $\mu$ is the service rate and $S$ is the average service time.,- **Turnaround Time:** $\frac{1}{$\mu$} + $\frac{1}{{\lambda}} + {W} — Turnaround time (time between submission and completion of a request) where $\lambda$ is the arrival rate, $\mu$ is the service rate, and $W$ is the waiting time in the queue.,- **Waiting Time:** $\frac{{\rho}}{$\mu(1-\rho)$} — Waiting time (average time spent in the queue) where $\rho$ is the utilization factor and $\mu$ is the service rate.,- **Utilization Factor:** \rho = $\frac{{\lambda}}{$\mu$} — Utilization factor (ratio of time spent serving requests to total time) where $\lambda$ is the arrival rate and $\mu$ is the service rate.,- **FCFS (First-Come-First-Served) Average Waiting Time:** $$\frac{{n(n+1)}}{{2}}$ — Average waiting time for FCFS scheduling algorithm where $n$ is the number of processes.,- **SJF (Shortest Job First) Average Waiting Time:** $\frac{{n+1}}{{2}} — Average waiting time for SJF scheduling algorithm where $n$ is the number of processes.,- **Priority Scheduling Average Waiting Time:** $\frac{{1}}{$\mu$} \times (1 + $\frac{1}{{n}}) — Average waiting time for priority scheduling algorithm where $\mu$ is the service rate and $n$ is the number of processes.,- **RR (Round Robin) Average Waiting Time:** $$\frac{{n-1}}{{2}}$ \times {T} — Average waiting time for RR scheduling algorithm where $n$ is the number of processes and $T$ is the time slice.,- **Multilevel Queue Scheduling Average Waiting Time:** $\frac{{1}}{$\mu$} \times (1 + $$\frac{1}{{n_1}}$ + $\frac{1}{{n_2}} + ... + $$\frac{1}{{n_k}}$) — Average waiting time for multilevel queue scheduling algorithm where $\mu$ is the service rate, $n_1, n_2, ..., n_k$ are the number of processes in each queue.,- **Page Fault Rate:** $\frac{{P}}{{T}} — Page fault rate (number of page faults per unit time) where $P$ is the number of page faults and $T$ is the total time.,- **Page Replacement Algorithm (PRA) Hit Ratio:** 1 - $$\frac{{M}}{{P}}$ — Hit ratio for PRA (number of page hits per unit time) where $M$ is the number of page faults and $P$ is the total number of page accesses.
+- **Response Time:** $\frac{{1}}{ + } \lambda$\frac{1}{$\mu$} — Response time (average time to complete a request) where $\lambda$ is the arrival rate and $\mu$ is the service rate.,- **Throughput:** $\frac{{}{b}} \mu$1 + \mu \times {S$} — Throughput (number of requests completed per unit time) where $\mu$ is the service rate and $S$ is the average service time.,- **Turnaround Time:** $\frac{{1}{b}{} + } \mu$\frac{1}$\lambda$ + {W} — Turnaround time (time between submission and completion of a request) where $\lambda$ is the arrival rate, $\mu$ is the service rate, and $W$ is the waiting time in the queue.,- **Waiting Time:** $\frac{{\rho}{{}}{} — Waiting time (average time spent in the queue) where } \mu(1-\rho)$\rho$ is the utilization factor and $\mu$ is the service rate.,- **Utilization Factor:** \rho = $\frac{{\lambda}{{}}{} — Utilization factor (ratio of time spent serving requests to total time) where } \mu$\lambda$ is the arrival rate and $\mu$ is the service rate.,- **FCFS (First-Come-First-Served) Average Waiting Time:** $\frac{n(n+1)}{ — Average waiting time for FCFS scheduling algorithm where } 2$n$ is the number of processes.,- **SJF (Shortest Job First) Average Waiting Time:** $\frac{{n+1}{2 — Average waiting time for SJF scheduling algorithm where n}}{\frac{1}{{}}  is the number of processes.,- **Priority Scheduling Average Waiting Time:** $\mu$} \times (1 + $\frac{{1}}{) — Average waiting time for priority scheduling algorithm where } n$\mu$ is the service rate and $n$ is the number of processes.,- **RR (Round Robin) Average Waiting Time:** $\frac{{n-1}{2 \times {T} — Average waiting time for RR scheduling algorithm where }}{ is the number of processes and } n$T$ is the time slice.,- **Multilevel Queue Scheduling Average Waiting Time:** $\frac{{1}{{}}{} \times (1 + } \mu$\frac{1}$n_1$ + \frac{1}n_2$ + ... + $\frac{{1}}{) — Average waiting time for multilevel queue scheduling algorithm where \mu is the service rate, } n_k$n_1, n_2, ..., n_k$ are the number of processes in each queue.,- **Page Fault Rate:** $\frac{{P}{T}}{P}  — Page fault rate (number of page faults per unit time) where $ is the number of page faults and $T$ is the total time.,- **Page Replacement Algorithm (PRA) Hit Ratio:** 1 - $\frac{M}{ — Hit ratio for PRA (number of page hits per unit time) where } P$M$ is the number of page faults and $P$ is the total number of page accesses.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -79,7 +79,9 @@ practice_link: "/class-12/computer-science/operating-systems"
  - **Solution:** 
  The Operating System (OS) acts as an intermediary between the user and the computer hardware. It manages the allocation of system resources such as memory, CPU time, and storage. The OS provides a platform for running applications and services, and it controls the input/output operations between the hardware and software components. 
  
- $\text{OS Functions} = \{ $$\text{Process Management}$, $\text{Memory Management}, $$\text{File Management}$, $\text{I/O Management}$ \}
+ $\text{OS Functions} = 
+
+$\text{Process Management}, \text{Memory Management}, $\text{File Management}$, $\text{I/O Management}$ \}
  
  - **Answer:** The primary function of the Operating System is to manage the computer hardware resources and provide a platform for running applications and services.
  
@@ -98,17 +100,17 @@ $\text{Multitasking} = \frac$\text{Number of Tasks$}$\text{Time$}$
  - **Solution:** 
  A monolithic kernel is a single, large kernel that contains all the Operating System services and device drivers. It provides a high level of performance and efficiency but can be difficult to maintain and update. 
  
- $\text{Monolithic Kernel} = \{ $$\text{Kernel Services}$, $\text{Device Drivers}$ \}
+ $\text{Monolithic Kernel} = \{ $\text{Kernel Services}, \text{Device Drivers}$ \}
  
  On the other hand, a microkernel is a small kernel that only provides the basic services such as process management, memory management, and inter-process communication. The device drivers and other services run in user space, making it easier to maintain and update the system. 
  
- $\text{Microkernel} = \{ $$\text{Process Management}$, $\text{Memory Management}, $$\text{IPC}$ \}
+ $\text{Microkernel} = \{ $\text{Process Management}$, $\text{Memory Management}, $\text{IPC} \}
  
  - **Answer:** A monolithic kernel contains all the Operating System services and device drivers, while a microkernel only provides the basic services and runs device drivers in user space.
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
-- **The Core Concept:** The key concept that differentiates high scorers from average ones in the context of Operating Systems is the understanding of $\Delta t$ (time complexity) in process scheduling algorithms, such as First-Come-First-Served (FCFS), Shortest Job First (SJF), Priority Scheduling, and Round Robin (RR).
+- **The Core Concept:** The key concept that differentiates high scorers from average ones in the context of Operating Systems is the understanding of \Delta t$ (time complexity) in process scheduling algorithms, such as First-Come-First-Served (FCFS), Shortest Job First (SJF), Priority Scheduling, and Round Robin (RR).
 
 - **What 85% scorers do:** Most students can define these algorithms and may even be able to provide a basic example of how they work.
 
@@ -123,14 +125,14 @@ $\text{Multitasking} = \frac$\text{Number of Tasks$}$\text{Time$}$
 - **They can:** * Derive the formulas for $W_{avg}$ and $T_{avg}$ from scratch, using the given process arrival \times, burst \times, and other relevant parameters
  * Use these formulas to compare the efficiency of different algorithms under various conditions, such as different arrival patterns or service time distributions
  * Apply advanced techniques, such as Little's Law ($L = \lambda W$), to solve complex problems involving process scheduling
- * Use $\frac{1}{\lambda}$ (the average service time) and $\lambda$ (the average arrival rate) to calculate other important metrics, such as the server utilization ($\rho = \frac{\lambda}$\mu) and the average number of jobs in the system ($L$)
+ * Use $\frac{{1}{\lambda}}{\lambda}  (the average service time) and $ (the average arrival rate) to calculate other important metrics, such as the server utilization ($\rho = \frac{\lambda}$\mu) and the average number of jobs in the system ($L$)
 
 | Algorithm | Average Waiting Time ($W_{avg}$) | Average Turnaround Time ($T_{avg}$) |
 | --- | --- | --- |
-| FCFS | $\frac{1}{2} \times (\sum_{i=1}^{n} t_i^2 + \sum_{i=1}^{n-1} t_i \times t_{i+1})$ | $\frac{1}{2} \times (\sum_{i=1}^{n} t_i^2 + \sum_{i=1}^{n-1} t_i \times t_{i+1}) + \bar{t}$ |
-| SJF | $\frac{1}{2} \times (\sum_{i=1}^{n} t_i^2)$ | $\frac{1}{2} \times (\sum_{i=1}^{n} t_i^2) + \bar{t}$ |
-| Priority Scheduling | $\frac{1}{2} \times (\sum_{i=1}^{n} t_i^2 + \sum_{i=1}^{n-1} t_i \times t_{i+1})$ | $\frac{1}{2} \times (\sum_{i=1}^{n} t_i^2 + \sum_{i=1}^{n-1} t_i \times t_{i+1}) + \bar{t}$ |
-| Round Robin (RR) | $\frac{n \times q^2}{2}$ | $\frac{n \times q^2}{2} + \bar{t}$ |
+| FCFS | $\frac{{1}{2} \times (\sum_{i=1}^{n} t_i^2 + \sum_{i=1}^{n-1} t_i \times t_{i+1})}{\frac{1}{2} \times (\sum_{i=1}^{n} t_i^2 + \sum_{i=1}^{n-1} t_i \times t_{i+1}) + \bar{t}}  | $ |
+| SJF | $\frac{{1}{2} \times (\sum_{i=1}^{n} t_i^2)}{\frac{1}{2} \times (\sum_{i=1}^{n} t_i^2) + \bar{t}}  | $ |
+| Priority Scheduling | $\frac{{1}{2} \times (\sum_{i=1}^{n} t_i^2 + \sum_{i=1}^{n-1} t_i \times t_{i+1})}{\frac{1}{2} \times (\sum_{i=1}^{n} t_i^2 + \sum_{i=1}^{n-1} t_i \times t_{i+1}) + \bar{t}}  | $ |
+| Round Robin (RR) | $\frac{{n \times q^2}{2}}{\frac{n \times q^2}{2} + \bar{t}}  | $ |
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
@@ -138,13 +140,13 @@ $\text{Multitasking} = \frac$\text{Number of Tasks$}$\text{Time$}$
 
 - **For instance, a question might ask:** $\text{What is the primary function of the Kernel in an Operating System?}$
 
-- **How to Apply It:** To tackle such questions, students should focus on developing a deep understanding of OS concepts, including process management, memory management, and file systems. They should practice applying these concepts to various scenarios, such as $\text{Deadlock prevention algorithms} and $$\text{Page replacement algorithms}$. Additionally, students should be familiar with the $\text{trade-offs} involved in OS design, such as $$\text{security vs. performance}$ and $\text{concurrency vs. consistency}$.
+- **How to Apply It:** To tackle such questions, students should focus on developing a deep understanding of OS concepts, including process management, memory management, and file systems. They should practice applying these concepts to various scenarios, such as $\text{Deadlock prevention algorithms} and $\text{Page replacement algorithms}$. Additionally, students should be familiar with the $\text{trade-offs} involved in OS design, such as $\text{security vs. performance} and \text{concurrency vs. consistency}$.
 
 - **PYQ-Specific Trend:** A trend observed in previous year questions is the emphasis on $\text{comparative analysis}$ of different OS concepts.
 
-- **For example, a question might ask:** $\text{Compare and contrast the $$\text{First-Come-First-Served (FCFS)}$ and $\text{Shortest Job First (SJF)} scheduling algorithms}. To answer such questions, students should be able to $$\text{identify the pros and cons}$ of each algorithm and $\text{evaluate their suitability}$ for different scenarios.
+- **For example, a question might ask:** $\text{Compare and contrast the $\text{First-Come-First-Served (FCFS)}$ and $\text{Shortest Job First (SJF)} scheduling algorithms}. To answer such questions, students should be able to $\text{identify the pros and cons} of each algorithm and \text{evaluate their suitability}$ for different scenarios.
 
-- **Additional Tip:** To excel in the Operating Systems section, students should also focus on $\text{viva questions} and $$\text{output questions}$. They should practice explaining complex OS concepts in a clear and concise manner, using $\text{diagrams and flowcharts}$ to illustrate their points. By mastering these skills, students can ensure a high score in the Operating Systems section of the CBSE [class](/blog/databases-dbms-class-12-notes) 12 Computer Science exam.
+- **Additional Tip:** To excel in the Operating Systems section, students should also focus on $\text{viva questions} and $\text{output questions}$. They should practice explaining complex OS concepts in a clear and concise manner, using $\text{diagrams and flowcharts}$ to illustrate their points. By mastering these skills, students can ensure a high score in the Operating Systems section of the CBSE [class](/blog/databases-dbms-class-12-notes) 12 Computer Science exam.
 
 | Topic | Weightage | PYQ Trend |
 | --- | --- | --- |
@@ -154,7 +156,9 @@ $\text{Multitasking} = \frac$\text{Number of Tasks$}$\text{Time$}$
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- {$\text{Throughput}} = $\text{Number of processes completed per unit time$}$
+- {$1 
+
+ = $\text{Number of processes completed per unit time$}
  
 
 - {$\text{Turnaround Time}} = $\text{Time taken by the process to complete$}$

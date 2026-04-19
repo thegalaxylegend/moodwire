@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/theory-of-computation-class-12-notes.webp"
-title: "Theory of Computation Class 12 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide"
-description: "Theory of Computation Class 12 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-12."
+title: "Theory Of Computation Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Theory Of Computation Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-04-12"
 practice_link: "/class-12/computer-science/theory-of-computation"
@@ -9,7 +9,7 @@ practice_link: "/class-12/computer-science/theory-of-computation"
 
 *Last Updated: 2026-04-12*
 
-<div [class](/blog/application-of-derivatives-class-12-notes)="quick-summary">
+<div class="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
@@ -86,7 +86,7 @@ eq 1$ results in a string that is *not* in $L$. This means $L$ cannot be regular
 
 - **Q1: (JEE Main 2018)** The output of the combination of the gates shown in the figure is:
  
- $	ext{A} \longrightarrow $	ext{[NOT]} \longrightarrow $	ext{X}_1 \longrightarrow $	ext{[AND]} \longrightarrow $	ext{Y}$\ }
+ $\text{A} \longrightarrow $\text{[NOT]} \longrightarrow $\text{X}_1 \longrightarrow $\text{[AND]} \longrightarrow $\text{Y}$\ }
 
 
 

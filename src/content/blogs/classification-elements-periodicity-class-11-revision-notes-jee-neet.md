@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/classification-elements-periodicity-class-11-revision-notes-jee-neet.webp"
-title: "Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Classification Elements Periodicity Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Classification Elements Periodicity Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Classification Elements Periodicity Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/physics/classification-elements-periodicity-class-11-revision-notes-jee-neet"
@@ -206,7 +206,7 @@ Noble gases have positive EGE because their shells are completely filled — for
 
 - **Pauling Scale**: Most commonly used. F = 4.0 (highest).
 - **General Trend**: Increases across period, decreases down group. Same as IE.
-- **Mullen Scale**: $\chi = \franc{IE + EA}{2}$ (more quantitative).
+- **Mullen Scale**: $\chi = \frac{IE + EA}{2}$ (more quantitative).
 
 ### <a id="key-values"></a>Key Values
 F (4.0) > O (3.5) > Cl (3.0) > N (3.0) > Br (2.8) > C (2.5) > H (2.1)
@@ -297,9 +297,9 @@ D) Na < Si < Mg < P
 *Answer: A (Same period. Radius decreases left to right: Na > Mg > Si > P. Increasing order: P < Si < Mg < Na).*
 
 **Q2. Among TO^{2-}, F^-, Na^+, Mg^{2+}$, the correct order of ionic radii is:** [JEE Medium]  
-A) BMG^{2+} < Na^+ < F^- < O^{2-}$
-B) TO^{2-} < F^- < Na^+ < Mg^{2+}$
-C) RNA^+ < Mg^{2+} < F^- < O^{2-}$
+A) BMG^{2+} < Na^+ < F^- < O^{2-}
+B) TO^{2-} < F^- < Na^+ < Mg^{2+}
+C) RNA^+ < Mg^{2+} < F^- < O^{2-}
 D) OF^- < O^{2-} < Na^+ < Mg^{2+}$
 *Answer: A (Isoelectronic. Higher Z = smaller radius).*
 
@@ -311,8 +311,8 @@ D) B
 *Answer: B (N has half-filled $2p^3$ stability, making it hardest to ionize in this set).*
 
 **Q4. Which of the following oxides is amphoteric?** [MEET Easy]  
-A) RNA_2O$
-B) cal_2O_3$
+A) RNA_2O
+B) cal_2O_3
 C) $SO_3$
 D) go
 *Answer: B (cal_2O_3$ reacts with both acids and bases).*
@@ -402,4 +402,4 @@ Continue your [revision](/blog/thermodynamics-chemistry-class-11-revision-notes-
      - **Periodicity**: Periodic law, Periodic table
      - **Metallic Character**: Increases down the group, Decreases across the period
      - **Non-Metallic Character**: Decreases down the group, Increases across the period
-     - **Formulas**: Ionization energy (IE), Electron affinity (EA), Electronegativity (EN)$
+     - **Formulas**: Ionization energy (IE), Electron affinity (EA), Electronegativity (EN)

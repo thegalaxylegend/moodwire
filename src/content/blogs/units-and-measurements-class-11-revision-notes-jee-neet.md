@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/units-and-measurements-class-11-revision-notes-jee-neet.webp"
 title: "Units And Measurements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Units And Measurements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+description: "Units And Measurements Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/physics/units-and-measurements-class-11-revision-notes-jee-neet"
@@ -116,7 +116,7 @@ Let **Z = A + B**. Let ΔA and ΔB be absolute errors.
 **Z ± ΔZ = (A ± ΔA) + (B ± ΔB)**
 **Z ± ΔZ = (A + B) ± (ΔA + ΔB)**
 Since Z = A + B, then **ΔZ = ΔA + ΔB**.
-**Theorem:** For both sum and difference, the absolute errors always add up.
+**Theorem:** For both \sum and difference, the absolute errors always add up.
 
 ### <a id="ii-proof-error-in-a-product-or-quotient"></a>II. Proof: Error in a Product or Quotient
 Let **Z = AB**.

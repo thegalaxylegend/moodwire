@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet.webp"
 title: "Mechanical Properties Of Fluids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Mechanical Properties Of Fluids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+description: "Mechanical Properties Of Fluids Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/physics/mechanical-properties-of-fluids-class-11-revision-notes-jee-neet"
@@ -98,7 +98,7 @@ Fluids—liquids and gases—are materials that have no definite shape and yield
 **Result:** Where the pipe narrows, the velocity increases.
 
 ### <a id="ii-bernoullis-theorem-the-master-derivation"></a>II. Bernoulli’s Theorem (The Master Derivation)
-**Statement:** For an ideal fluid in steady flow, the sum of pressure energy, [kinetic](/blog/kinetic-theory-class-11-revision-notes-jee-neet) energy, and potential energy per unit volume is constant.
+**Statement:** For an ideal fluid in steady flow, the \sum of pressure energy, [kinetic](/blog/kinetic-theory-class-11-revision-notes-jee-neet) energy, and potential energy per unit volume is constant.
 **P + 1/2 ρv² + ρgh = Constant**
 
 **Derivation (Based on Work-Energy Theorem):**

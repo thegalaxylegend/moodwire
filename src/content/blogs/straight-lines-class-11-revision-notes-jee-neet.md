@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/straight-lines-class-11-revision-notes-jee-neet.webp"
-title: "Straight Lines Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Straight Lines Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Straight Lines Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
+description: "Straight Lines Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/physics/straight-lines-class-11-revision-notes-jee-neet"
@@ -42,7 +42,7 @@ practice_link: "/class-11/physics/straight-lines-class-11-revision-notes-jee-nee
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
-> - **Slope (m):** (y₂ - y₁) / (x₂ - x₁) or **tan θ**.
+> - **Slope (m):** (y₂ - y₁) / (x₂ - x₁) or **\tan θ**.
 > - **Parallel Lines:** m₁ = m₂.
 > - **Perpendicular Lines:** m₁m₂ = -1.
 > - **Slope-Intercept Form:** y = mx + c.
@@ -67,7 +67,7 @@ Straight lines are the fundamental paths in Euclidean [geometry](/blog/three-dim
 
 The slope (also called gradient) of a non-vertical [line](/blog/motion-in-a-straight-line-class-11-revision-notes-jee-neet) passing through (x₁, y₁) and (x₂, y₂) is given by:
 **m = (y₂ - y₁) / (x₂ - x₁)**
-*   **Angle of Inclination (θ):** If θ is the angle with the positive x-axis, then **m = tan θ**.
+*   **Angle of Inclination (θ):** If θ is the angle with the positive x-axis, then **m = \tan θ**.
 *   **Conditions:**
     - If two lines are **parallel**, their slopes are equal (**m₁ = m₂**).
     - If two lines are **perpendicular**, the product of their slopes is **-1** (**m₁m₂ = -1**).
@@ -86,7 +86,7 @@ Depending on the given information, we use different forms:
 4.  **Two-Point Form:** (y - y₁) / (y₂ - y₁) = (x - x₁) / (x₂ - x₁).
 5.  **Slope-Intercept Form:** y = mx + c (where c is the y-intercept).
 6.  **Intercept Form:** x/a + y/b = 1 (where a and b are x and y-intercepts).
-7.  **Normal Form:** x cos ω + y sin ω = p (p is the perpendicular distance from the origin).
+7.  **Normal Form:** x \cos ω + y \sin ω = p (p is the perpendicular distance from the origin).
 
 ---
 

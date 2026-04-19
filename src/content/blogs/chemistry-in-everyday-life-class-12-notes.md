@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/chemistry-in-everyday-life-class-12-notes.webp"
-title: "Chemistry in Everyday Life Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Chemistry in Everyday Life Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-30."
+title: "Chemistry In Everyday Life Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide"
+description: "Chemistry In Everyday Life Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-30"
 practice_link: "/class-11/chemistry/chemistry-in-everyday-life-class-12-notes"
@@ -14,7 +14,7 @@ practice_link: "/class-11/chemistry/chemistry-in-everyday-life-class-12-notes"
  - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
 - [📚 Related Topics](#-related-topics)
 </div>
-<DIV [class](/blog/amines-class-12-notes)="quick-summary">
+<div class="quick-summary">
 #- [📋 Table of Contents](#-table-of-contents)
 ## <a id="-what-will-come-in-your-exam"></a>🎯 What WILL Come in Your Exam
 * 1–2 marks question on classification of drugs: always asks for type of drug (e.g. analgesic, antacid, etc.) or classification of a specific drug
@@ -31,7 +31,7 @@ practice_link: "/class-11/chemistry/chemistry-in-everyday-life-class-12-notes"
 * Relationship between mph, Ipoh, and APK_{w}$: mph + POH = 14$ or APK_{w} = 14$ at $25^{\CIRC}CD — must know
 * 1 mark question on buffer solution: always asks for the mph of a buffer solution or asks to identify a buffer solution
 * 2 marks question on the importance of  in everyday life (e.g.  of soil,  of blood, etc.)
-* 1 numerical on $\{K_{w}}{K_{a}}$ or $\{K_{w}}{K_{b}}$ — always
+* 1 numerical on $K_{w{K_{a}} or $K_{w${K_{b}}$ — always
 * Medicinal application of [coordination](/blog/coordination-compounds-class-12-notes) compounds: 2 marks question on the use of [coordination](/blog/coordination-compounds-class-12-notes) compounds in medicine (e.g. , etc.)
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 APK_{a} = -\log_{10}[H^{+}]$ : Acid dissociation constant, 
@@ -39,24 +39,29 @@ APK_{a} = -\log_{10}[H^{+}]$ : Acid dissociation constant,
  mph = -\log_{10}[H^{+}]$ : Measure of acidity, 
  Ipoh = -\log_{10}[OH^{-}]$ : Measure of basicity, 
  OK_{w} = [H^{+}][OH^{-}] = 10^{-14}$ : Water dissociation constant, 
- OK_{a} = \franc{[H^{+}][A^{-}]}{[HA]}$ : Acid dissociation constant expression, 
- OK_{b} = \franc{[BH^{+}][OH^{-}]}{[B]}$ : Base dissociation constant expression, 
+ OK_{a} = \frac{[H^{+}][A^{-}]}{[HA]}$ : Acid dissociation constant expression, 
+ OK_{b} = \frac{[BH^{+}][OH^{-}]}{[B]}$ : Base dissociation constant expression, 
  OK_{a} \times K_{b} = K_{w}$ : Relationship between acid and base dissociation constants, 
  APK_{a} + PK_{b} = 14$ : Relationship between acid and base dissociation constants in terms of PK, 
- $\franc{K_{b}}{K_{a}} = \franc{[BH^{+}]}{[A^{-}]}$ : Comparison of base and acid dissociation constants, 
- OK_{a} = \{[H^{+}][A^{-}]}{[HA]} = \{[H^{+}]}{K_{b}}$ : Relationship between acid dissociation constant and hydrogen ion concentration, 
-  = \{1}{2}_{w} + \{1}{2}\log_{10}\{[salt]}{[acid]}$ :  equation for pH calculation, 
-  = \{1}{2}_{w} + \{1}{2}\log_{10}\{[salt]}{[base]}$ :  equation for  calculation, 
+ $\frac{{K_{b}}{K_{a}} = \frac{[BH^{+}]}{[A^{-}]}}{[H^{+}][A^{-}]}{[HA]} = \{[H^{+}]}{K_{b}  : Comparison of base and acid dissociation constants, 
+ OK_{a} = $ : Relationship between acid dissociation constant and hydrogen ion concentration, 
+  = 1}{2}_{w} + \{1}{2\log_{10}
+
+$ [salt]}{[acid]}$ :  equation for pH calculation, 
+  = \{1}{2}_{w} + \{1}{2 
+
+\log_{10}
+
+ [salt]}{[base]}$ :  equation for  calculation, 
  _{sp} = [A^{n+}][B^{m-}]^{n}$ : Solubility product constant for the dissolution of a salt, 
- _{f} = \{[A^{n+}][B^{m-}]}{[AB_{m}^{n}]}$ : Formation constant for the formation of a complex ion, 
- _{d} = \{1}{K_{f}}$ : Instability constant for the dissociation of a complex ion, 
+ _{f} = \{[A^{n+}][B^{m-}]}{[AB_{m}^{n}]}$1  : Instability constant for the dissociation of a complex ion, 
  $\Delta G^{\} = -RT\ln  : Relationship between Gibbs free energy and equilibrium constant, 
  $\Delta G^{\} = -2.303RT\log  : Relationship between Gibbs free energy and equilibrium constant, 
  ^{\}_{cell} = \$\Delta G^{\$}{-}$ : Relationship between cell potential and Gibbs free energy, 
- ^{\}_{cell} = \{RT}{nF}\ln  : Relationship between cell potential and equilibrium constant, 
- ^{\}_{cell} = \{0.0591}{n}\log  : Relationship between cell potential and equilibrium constant at 25°C, 
- _{cell} = E^{\}_{cell} - \{0.0591}{n}\log_{10} : Nernst equation for cell potential calculation, 
- $\log_{10}K = \$\Delta H^{\$}{2.303R}\left(\{1}{T_{2}} - \{1}{T_{1}}\right)$ : Van 't Hoff equation for temperature dependence of equilibrium constant,
+ ^{\}_{cell} = $RT}{nF$ln  : Relationship between cell potential and equilibrium constant, 
+ ^{\}_{cell} = $0.0591}{n$log  : Relationship between cell potential and equilibrium constant at 25°C, 
+ _{cell} = E^{\}_{cell} - $0.0591}{n$log_{10} : Nernst equation for cell potential calculation, 
+ $\log_{10}K = \$\Delta H^{\$}{2.303R}\left($1}{T_{2$ - $1}{T_{1$\right)$ : Van 't Hoff equation for temperature dependence of equilibrium constant,
 | Formula | Description |
 |
 ### <a id="-ready-to-ace-your-exam"></a>🚀 Ready to Ace Your Exam?

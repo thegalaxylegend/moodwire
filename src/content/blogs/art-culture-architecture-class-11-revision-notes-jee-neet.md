@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/art-culture-architecture-class-11-revision-notes-jee-neet.webp"
-title: "Art Culture Architecture Class 11 Chemistry Revision — CBSE Boards 2026 Grandmaster Guide"
-description: "Art Culture Architecture Class 11 Chemistry Revision — CBSE Boards 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Art Culture Architecture Class 11 History Recap — CBSE 2026 Grandmaster Guide"
+description: "Art Culture Architecture Class 11 History Recap — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/chemistry/art-culture-architecture-class-11-revision-notes-jee-neet"
@@ -154,4 +154,3 @@ Continue your [revision](/blog/ancient-india-mahajanapadas-class-11-revision-not
 * **Acids and Bases**: Arrhenius, Brønsted-Lowry, Lewis, pH scale
 * **Electrochemistry**: Electrolysis, Galvanic cell, EMF, Electrode potential
 * **Biomolecules**: Carbohydrates, Proteins, Lipids, Nucleic acids
-$

@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/semiconductor-electronics-class-12-notes.webp"
 title: "Semiconductor Electronics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Semiconductor Electronics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-29."
+description: "Semiconductor Electronics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-29"
 practice_link: "/class-11/physics/semiconductor-electronics-class-12-notes"
@@ -96,7 +96,7 @@ The key concept that differentiates 85% scorers from 95% scorers in Semiconducto
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-To maximize score in Semiconductor Electronics, focus on the $p$-$n$ junction diode equation: $I = I_0 (e^{\frac{eV}{k_B T}} - 1)$. Notice the pattern in the last 5 years of PYQs where the ratio of $\frac{k_B T}{e}$ is often used. For $T = 300K$, $\frac{k_B T}{e} = 0.0259V$. Also, remember the relationship between the fermi level and the intrinsic carrier concentration $n_i = 1.5 \times 10^{16} m^{-3}$ for silicon at room temperature.
+To maximize score in Semiconductor Electronics, focus on the $p$-$n$ junction diode equation: $I = I_0 (e^{\frac{eV}{k_B T}} - 1)$. Notice the pattern in the last 5 years of PYQs where the ratio of $\frac{{k_B T}{e}}{T = 300K}  is often used. For $, $\frac{{k_B T}{e} = 0.0259V}{n_i = 1.5 \times 10^{16} m^{-3}} . Also, remember the relationship between the fermi level and the intrinsic carrier concentration $ for silicon at room temperature.
 
 | Year | Question Type | Topic |
 | --- | --- | --- |

@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/linear-equations-in-one-variable-class-8-notes.webp"
-title: "Linear Equations in One Variable Class 8 Mathematics Recap — Grandmaster Guide"
-description: "Linear Equations in One Variable Class 8 Mathematics Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-15."
+title: "Linear Equations In One Variable 8 Class 8 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Linear Equations In One Variable 8 Class 8 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Exam Notes"
 date: "2026-04-15"
 practice_link: "/class-8/mathematics/linear-equations-in-one-variable"
@@ -21,14 +21,14 @@ manualReview: false
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Transposition Formula:** {ax = b Rightarrow x = rac{b}{a}} — where $a$ and $b$ are constants, and $x$ is the variable.
- - **Value of a Constant Formula:** {a cdot x = b Rightarrow x = rac{b}{a}} — where $a$ and $b$ are constants, and $x$ is the variable.
+- **Transposition Formula:** {ax = b Rightarrow x = \frac{b}{a}} — where $a$ and $b$ are constants, and $x$ is the variable.
+ - **Value of a Constant Formula:** {a cdot x = b Rightarrow x = \frac{b}{a}} — where $a$ and $b$ are constants, and $x$ is the variable.
  - **Addition/Subtraction Formula:** {x + a = b Rightarrow x = b - a} — where $a$ and $b$ are constants, and $x$ is the variable.
- - **Multiplication/Division Formula:** {a cdot x = b Rightarrow x = rac{b}{a}} — where $a$ and $b$ are constants, and $x$ is the variable.
+ - **Multiplication/Division Formula:** {a cdot x = b Rightarrow x = \frac{b}{a}} — where $a$ and $b$ are constants, and $x$ is the variable.
  - **Inverse Operation Formula:** {x + a = b Rightarrow x = b - a} and {x - a = b Rightarrow x = b + a} — where $a$ and $b$ are constants, and $x$ is the variable.
- - **Cross Multiplication Formula:** {rac{x}{a} = rac{b}{c} Rightarrow x = rac{ab}{c}} — where $a$, $b$, and $c$ are constants, and $x$ is the variable.
- - **Rearrangement Formula:** {ax + by = c Rightarrow x = rac{c - by}{a}} — where $a$, $b$, $c$, and $y$ are constants, and $x$ is the variable.
- - **Combining Like Terms Formula:** {ax + bx = c Rightarrow (a+b)x = c Rightarrow x = rac{c}{a+b}} — where $a$, $b$, and $c$ are constants, and $x$ is the variable.
+ - **Cross Multiplication Formula:** {\frac{x}{a} = \frac{b}{c} Rightarrow x = \frac{ab}{c}} — where $a$, $b$, and $c$ are constants, and $x$ is the variable.
+ - **Rearrangement Formula:** {ax + by = c Rightarrow x = \frac{c - by}{a}} — where $a$, $b$, $c$, and $y$ are constants, and $x$ is the variable.
+ - **Combining Like Terms Formula:** {ax + bx = c Rightarrow (a+b)x = c Rightarrow x = \frac{c}{a+b}} — where $a$, $b$, and $c$ are constants, and $x$ is the variable.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -79,26 +79,26 @@ manualReview: false
 
 - *Fix:* To solve equations with fractions, first find a common denominator for all fractions if necessary, then multiply every term in the equation by the common denominator to clear the fractions.
 
-- **For example, to solve $\frac{1}{2}x + \frac{1}{4} = \frac{3}{4}$, find a common denominator (4), and multiply every term by 4: $2x + 1 = 3$, then solve for $x$:** $2x = 2$, so $x = {2 \over 2} = 1$.
+- **For example, to solve $\frac{{1}{2}x + \frac{1}{4} = \frac{3}{4}}{2x + 1 = 3} , find a common denominator (4), and multiply every term by 4: $, then solve for $x$:** $2x = 2$, so $x = {2 \over 2} = 1$.
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
-- **Q1:** Solve for $x$: $\frac{x}{2} - \frac{1}{5} = \frac{x}{3} + \frac{1}{4}$
+- **Q1:** Solve for $x$: $\frac{{x}{2} - \frac{1}{5} = \frac{x}{3} + \frac{1}{4}}{x} 
  - **Trap:** Students often stumble with correctly finding the Least Common Multiple (LCM) for fractions or making sign errors when transposing terms across the equals sign. Remember, every term changes its sign when moved to the other side!
  - **Solution:**
- - Our goal is to isolate $x$ on one side of the equation. First, let's group the terms containing $x$ on one side and the constant terms on the other.
- - Move $\frac{x}{3}$ to the left side and $-\frac{1}{5}$ to the right side:
- $\frac{x}{2} - $$\frac{x}{3}$ = $\frac{1}{4} + $$\frac{1}{5}$
+ - Our goal is to isolate $ on one side of the equation. First, let's group the terms containing $x$ on one side and the constant terms on the other.
+ - Move $\frac{{x}{3}}{-\frac{1}{5}}  to the left side and $ to the right side:
+ $\frac{{x}{2} - }{\frac{1}{5}} \frac{x}{3} = \frac{1}{4} + $
  - Now, find the LCM for the denominators on each side. For the left side (2 and 3), the LCM is 6. For the right side (4 and 5), the LCM is 20.
  - Rewrite the fractions with their respective common denominators:
- $\frac{3x - 2x}{6} = $$\frac{5 + 4}{20}$
+ $\frac{{3x - 2x}{6} = }{\frac{9}{20}} \frac{5 + 4}{20}
  - Simplify both sides:
- $\frac{x}{6} = $$\frac{9}{20}$
+ \frac{x}{6} = $
  - To find $x$, multiply both sides by 6:
- x = $\frac{9}{20} 	imes 6x = $$\frac{54}{20}$
+ x = $1 \frac{54}{20}$
  - Finally, simplify the fraction by dividing both numerator and denominator by their greatest common divisor, which is 2:
- x = $\frac{27}{10}$
- - **Answer:** $x = \frac{27}{10}$ or $x = 2.7$
+ x = $\frac{{27}{10}}{x = \frac{27}{10}} 
+ - **Answer:** $ or $x = 2.7$
 
 - **Q2:** The \sum of two numbers is 95. If one number exceeds the other by 15, find the two numbers.
  - **Trap:** The most common mistake here is incorrectly setting up the equation, especially misinterpreting "exceeds by 15\
@@ -114,11 +114,11 @@ manualReview: false
 
 - They can comfortably solve basic equations like $x+5=10$ or $2x-3=7$.
 
-- They often struggle when equations become slightly more involved, for example, $3(x-2) = 2(x+5)$ or $\frac{x}{2} + \frac{x}{3} = 5$.
+- They often struggle when equations become slightly more involved, for example, $3(x-2) = 2(x+5)$ or $\frac{{x}{2} + \frac{x}{3} = 5}{2x} .
 
 - Common pitfalls include making sign errors when transposing terms across the equals sign (e.g.
 
-- changing $2x$ to $-2x$ but forgetting to change the sign of another term, or vice-versa).
+- changing $ to $-2x$ but forgetting to change the sign of another term, or vice-versa).
 
 - They might incorrectly apply the distributive property, only multiplying the term outside the bracket with the first term inside, like $2(x+3) = 2x+3$ instead of $2x+6$.
 
@@ -135,7 +135,7 @@ manualReview: false
 
 - They prioritize simplifying each side of the equation *before* transposing terms. This means combining all like terms on the Left Hand Side (LHS) and Right Hand Side (RHS) first.
 
-- For equations with fractions, they employ the smart trick of multiplying *every single term* on *both sides* of the equation by the Least Common Multiple (LCM) of all denominators. This clears the fractions in one go, transforming the equation into a simpler integer-based one, like turning $\frac{x}{2} + \frac{x}{3} = 5$ into $3x + 2x = 30$ by multiplying by LCM(2,3)=6.
+- For equations with fractions, they employ the smart trick of multiplying *every single term* on *both sides* of the equation by the Least Common Multiple (LCM) of all denominators. This clears the fractions in one go, transforming the equation into a simpler integer-based one, like turning $\frac{{x}{2} + \frac{x}{3} = 5}{3x + 2x = 30}  into $ by multiplying by LCM(2,3)=6.
 
 - They are extremely careful with sign changes during transposition. They mentally (or explicitly) understand that when a term moves from one side to the other, its operation reverses (addition becomes subtraction, multiplication becomes division, and vice-versa).
 
@@ -143,7 +143,7 @@ manualReview: false
 
 - They approach complex problems like $5x 
 
-- 2(2x-7) = 2(3x-1) + $\frac{7}{2}$ with a clear, step-by-step strategy: clear brackets, clear fractions (if any), combine like terms, transpose, and finally isolate the variable. This systematic approach minimizes errors and saves precious exam time, a key skill for JEE Compass users aiming for top scores.
+- 2(2x-7) = 2(3x-1) + $\frac{{7}{2}}{ax + b = 0}  with a clear, step-by-step strategy: clear brackets, clear fractions (if any), combine like terms, transpose, and finally isolate the variable. This systematic approach minimizes errors and saves precious exam time, a key skill for JEE Compass users aiming for top scores.
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
@@ -152,7 +152,7 @@ manualReview: false
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- **General Form:** Remember, a linear equation in one variable looks like $ax + b = 0$, where $a$ is not zero. This is your basic structure to identify.
+- **General Form:** Remember, a linear equation in one variable looks like $, where $a$ is not zero. This is your basic structure to identify.
 
 - **Transposition Rule:** When you move a term from one side of the equality sign to the other, always change its sign. For example, $x + 5 = 10 \implies x = 10 
 
@@ -171,7 +171,7 @@ manualReview: false
 - If $Ax = B$, then $x = \frac{B}{A}$ (provided $A 
 eq 0$).
 
-- If $\frac{x}{A} = B$, then $x = AB$.
+- If $\frac{{x}{A} = B}{x = AB} , then $.
 
 - **Distributive Property:** If you encounter brackets, expand them using the distributive property: $a(b+c) = ab + ac$. This simplifies the equation before solving.
 

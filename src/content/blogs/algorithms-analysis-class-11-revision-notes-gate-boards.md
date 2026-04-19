@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/algorithms-analysis-class-11-revision-notes-gate-boards.webp"
-title: "Algorithms: Analysis Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide"
-description: "Algorithms: Analysis Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Algorithms Analysis Gate Boards Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Algorithms Analysis Gate Boards Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/physics/algorithms-analysis-class-11-revision-notes-gate-boards"
@@ -41,9 +41,9 @@ As we step into the realm of [class](/blog/data-structures-linear-class-11-revis
 
 The weightage of algorithms in the [class](/blog/data-structures-linear-class-11-revision-notes-gate-boards) 11 exam is substantial, with around 20-25% of the questions dedicated to this topic. The exam typically consists of 3-4 questions that test your understanding of algorithm analysis, including time and space complexity, trade-offs, and optimization techniques. To give you a better idea, the exam pattern usually looks like this: 1-2 short answer questions (around 2-3 marks each) that test your understanding of basic concepts, 1-2 long answer questions (around 5-6 marks each) that test your ability to analyze and optimize algorithms, and 1-2 numerical problems (around 4-5 marks each) that test your ability to apply algorithmic concepts to real-world problems.
 
-Now, let's talk about why algorithm analysis is crucial. When I was preparing for my exams, I used to think that writing code was the most important aspect of computer science. But as I delved deeper, I realized that it's not just about writing code; it's about writing efficient code. And that's where algorithm analysis comes in. It's the process of evaluating an algorithm's performance, identifying its strengths and weaknesses, and optimizing it to solve real-world problems. For instance, consider a simple algorithm like binary search. On the surface, it seems like a straightforward concept, but when you analyze its time complexity ($O(log n)$), you realize that it's much more efficient than a [linear](/blog/data-structures-linear-class-11-revision-notes-gate-boards) search ($O(n)$) for large datasets.
+Now, let's talk about why algorithm analysis is crucial. When I was preparing for my exams, I used to think that writing code was the most important aspect of computer science. But as I delved deeper, I realized that it's not just about writing code; it's about writing efficient code. And that's where algorithm analysis comes in. It's the process of evaluating an algorithm's performance, identifying its strengths and weaknesses, and optimizing it to solve real-world problems. For instance, consider a simple algorithm like binary search. On the surface, it seems like a straightforward concept, but when you analyze its time complexity ($O(\log n)$), you realize that it's much more efficient than a [linear](/blog/data-structures-linear-class-11-revision-notes-gate-boards) search ($O(n)$) for large datasets.
 
-One of the most significant challenges I faced while preparing for my exams was understanding the trade-offs between time and space complexity. It's easy to get caught up in optimizing one aspect of an algorithm, only to realize that you've compromised on another. For example, consider a scenario where you're designing an algorithm to sort a large dataset. You could use a quicksort algorithm, which has an average time complexity of $O(n log n)$, but a worst-case time complexity of $O(n^2)$. On the other hand, you could use a mergesort algorithm, which has a time complexity of $O(n log n)$ in all cases, but requires more memory. As you can see, there's no one-size-fits-all solution, and that's what makes algorithm analysis so fascinating.
+One of the most significant challenges I faced while preparing for my exams was understanding the trade-offs between time and space complexity. It's easy to get caught up in optimizing one aspect of an algorithm, only to realize that you've compromised on another. For example, consider a scenario where you're designing an algorithm to sort a large dataset. You could use a quicksort algorithm, which has an average time complexity of $O(n \log n)$, but a worst-case time complexity of $O(n^2)$. On the other hand, you could use a mergesort algorithm, which has a time complexity of $O(n \log n)$ in all cases, but requires more memory. As you can see, there's no one-size-fits-all solution, and that's what makes algorithm analysis so fascinating.
 
 So, what makes algorithm analysis so important? For starters, it helps you develop problem-solving skills that are essential in the real world. When you're working on a project, you need to be able to analyze problems, identify the most efficient solutions, and optimize your code to meet performance requirements. Algorithm analysis teaches you how to do just that. It also helps you develop a deeper understanding of computer science concepts, such as [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structures, software design patterns, and database systems. By analyzing algorithms, you can identify the strengths and weaknesses of different approaches, and make informed decisions about which ones to use in different situations.
 
@@ -61,7 +61,7 @@ By the end of this journey, you'll have a deep understanding of algorithm analys
 
 Here's a simple example to get you started: 
 
-Suppose you're designing an algorithm to sort a large dataset. You could use a quicksort algorithm, which has an average time complexity of $O(n log n)$, but a worst-case time complexity of $O(n^2)$. On the other hand, you could use a mergesort algorithm, which has a time complexity of $O(n log n)$ in all cases, but requires more memory. Which algorithm would you choose, and why? 
+Suppose you're designing an algorithm to sort a large dataset. You could use a quicksort algorithm, which has an average time complexity of $O(n \log n)$, but a worst-case time complexity of $O(n^2)$. On the other hand, you could use a mergesort algorithm, which has a time complexity of $O(n \log n)$ in all cases, but requires more memory. Which algorithm would you choose, and why? 
 
 As you can see, algorithm analysis is not just about solving problems; it's about making informed decisions about which [algorithms](/blog/algorithms-design-class-11-revision-notes-gate-boards) to use in different situations. It's about being able to analyze complex problems, identify the most efficient solutions, and optimize your code to meet performance requirements. So, let's get started, and see where this journey takes us! 
 
@@ -69,13 +69,13 @@ Here's a block of code to illustrate the concept:
 
 \begin{aligned}
 &$\text{Quicksort Algorithm}$ \\
-&$\text{Time Complexity: }$ O(n log n) \\
-&$\text{Space Complexity: }$ O(log n) \\
+&$\text{Time Complexity: }$ O(n \log n) \\
+&$\text{Space Complexity: }$ O(\log n) \\
 &$\text{Worst-Case Time Complexity: }$ O(n^2) \\\end{aligned}\begin{aligned}
 &$\text{Mergesort Algorithm}$ \\
-&$\text{Time Complexity: }$ O(n log n) \\
+&$\text{Time Complexity: }$ O(n \log n) \\
 &$\text{Space Complexity: }$ O(n) \\
-&$\text{Worst-Case Time Complexity: }$ O(n log n) \\\end{aligned}
+&$\text{Worst-Case Time Complexity: }$ O(n \log n) \\\end{aligned}
 
 As you can see, the quicksort algorithm has a faster average time complexity, but a worse worst-case time complexity. On the other hand, the mergesort algorithm has a slower average time complexity, but a better worst-case time complexity. Which algorithm would you choose, and why? 
 
@@ -99,11 +99,11 @@ What is Ayush's Note on Algorithms: Analysis? is a study resource that provides 
 | Algorithm | Time Complexity | Space Complexity |
 | --- | --- | --- |
 | Bubble Sort | $O(n^2)$ | $O(1)$ |
-| Quick Sort | $O(n log n)$ | $O(log n)$ |
-| Merge Sort | $O(n log n)$ | $O(n)$ |
+| Quick Sort | $O(n \log n)$ | $O(\log n)$ |
+| Merge Sort | $O(n \log n)$ | $O(n)$ |
 | Linear Search | $O(n)$ | $O(1)$ |
-| Binary Search | $O(log n)$ | $O(1)$ |
-| Dijkstra's Algorithm | $O(|E| + |V| log |V|)$ | $O(|V| + |E|)$ |
+| Binary Search | $O(\log n)$ | $O(1)$ |
+| Dijkstra's Algorithm | $O(|E| + |V| \log |V|)$ | $O(|V| + |E|)$ |
 | Floyd-Warshall Algorithm | $O(|V|^3)$ | $O(|V|^2)$ |
 
 
@@ -117,8 +117,8 @@ What are the fundamentals of Algorithms: Analysis for [class](/blog/digital-logi
 | Bubble Sort | $O(n^2)$ | $O(1)$ |
 | Selection Sort | $O(n^2)$ | $O(1)$ |
 | Insertion Sort | $O(n^2)$ | $O(1)$ |
-| Merge Sort | $O(n log n)$ | $O(n)$ |
-| Quick Sort | $O(n log n)$ | $O(log n)$ |
+| Merge Sort | $O(n \log n)$ | $O(n)$ |
+| Quick Sort | $O(n \log n)$ | $O(\log n)$ |
 
 
 ## <a id="how-do-you-calculate-time-and-space-complexity-in-algorithms-analysis"></a>How do you calculate time and space complexity in Algorithms: Analysis?
@@ -126,7 +126,7 @@ What are the fundamentals of Algorithms: Analysis for [class](/blog/digital-logi
 
       How do you calculate time and space complexity in Algorithms: Analysis? is the process of determining the amount of time and space an algorithm requires to solve a problem. It includes the study of the algorithm's performance in terms of its input size, the complexity of its loops and conditional statements, and the amount of memory it uses. For [class](/blog/data-structures-linear-class-11-revision-notes-gate-boards) 11 exam prep in 2026, the most important aspect is understanding the Big O notation, which provides an upper bound on the number of steps an algorithm takes.
 
-      To calculate the time complexity of an algorithm, we need to analyze its loops, conditional statements, and function calls. The time complexity is usually expressed as a function of the input size, typically represented as 'n'. For example, the time complexity of a linear search algorithm is $O(n)$, where 'n' is the number of elements in the array. On the other hand, the time complexity of a binary search algorithm is $O(log n)$, which is much faster for large inputs.
+      To calculate the time complexity of an algorithm, we need to analyze its loops, conditional statements, and function calls. The time complexity is usually expressed as a function of the input size, typically represented as 'n'. For example, the time complexity of a linear search algorithm is $O(n)$, where 'n' is the number of elements in the array. On the other hand, the time complexity of a binary search algorithm is $O(\log n)$, which is much faster for large inputs.
 
       The space complexity of an algorithm refers to the amount of memory it uses. This can include the space required for the input, output, and any auxiliary data structures used by the algorithm. The space complexity is also expressed as a function of the input size, typically represented as 'n'. For example, the space complexity of a sorting algorithm like merge sort is $O(n)$, as it requires an auxiliary array of the same size as the input array.
 
@@ -137,9 +137,9 @@ What are the fundamentals of Algorithms: Analysis for [class](/blog/digital-logi
 | Complexity | Big O Notation | Description |
 | --- | --- | --- |
 | Constant Time | $O(1)$ | The algorithm takes the same amount of time regardless of the input size. |
-| Logarithmic Time | $O(log n)$ | The algorithm takes time proportional to the logarithm of the input size. |
+| Logarithmic Time | $O(\log n)$ | The algorithm takes time proportional to the logarithm of the input size. |
 | Linear Time | $O(n)$ | The algorithm takes time proportional to the input size. |
-| Linearithmic Time | $O(n log n)$ | The algorithm takes time proportional to the product of the input size and its logarithm. |
+| Linearithmic Time | $O(n \log n)$ | The algorithm takes time proportional to the product of the input size and its logarithm. |
 | Quadratic Time | $O(n^2)$ | The algorithm takes time proportional to the square of the input size. |
 | Cubic Time | $O(n^3)$ | The algorithm takes time proportional to the cube of the input size. |
 | Exponential Time | $O(2^n)$ | The algorithm takes time proportional to 2 raised to the power of the input size. |
@@ -168,9 +168,9 @@ What are the different types of algorithm complexities? is the study of the amou
 | Omega | Lower bound of an algorithm's complexity | $Omega(n)$ |
 | Theta | Tight bound of an algorithm's complexity | $Theta(n)$ |
 | $O(1)$ | Constant time complexity | Accessing an array by index |
-| $O(log n)$ | Logarithmic time complexity | Binary search in an array |
+| $O(\log n)$ | Logarithmic time complexity | Binary search in an array |
 | $O(n)$ | Linear time complexity | Finding an element in an array |
-| $O(n log n)$ | Linearithmic time complexity | Merging two sorted arrays |
+| $O(n \log n)$ | Linearithmic time complexity | Merging two sorted arrays |
 | $O(n^2)$ | Quadratic time complexity | Bubble sort algorithm |
 | $O(2^n)$ | Exponential time complexity | Recursive algorithm for Fibonacci series |
 | $O(n!)$ | Factorial time complexity | Brute force algorithm for traveling salesman problem |
@@ -180,7 +180,7 @@ What are the different types of algorithm complexities? is the study of the amou
 
 What is the key Shortcut or Trick for Algorithms: Analysis? is understanding the computational complexity to optimize solutions. It includes Big-O notation, amortized analysis, and trade-off analysis. For Class 11 exam prep in 2026, the most important aspect is identifying the time and space complexity of algorithms to solve problems efficiently. 
    
-   To solve algorithmic problems, one must understand the concept of time and space complexity. Time complexity refers to the amount of time an algorithm takes to complete as a function of the size of the input. Space complexity refers to the amount of memory an algorithm uses. The key shortcut or trick is to identify the complexity class of an algorithm, which can be constant time $O(1)$, logarithmic time $O(log n)$, linear time $O(n)$, linearithmic time $O(n log n)$, quadratic time $O(n^2)$, cubic time $O(n^3)$, and exponential time $O(2^n)$. 
+   To solve algorithmic problems, one must understand the concept of time and space complexity. Time complexity refers to the amount of time an algorithm takes to complete as a function of the size of the input. Space complexity refers to the amount of memory an algorithm uses. The key shortcut or trick is to identify the complexity class of an algorithm, which can be constant time $O(1)$, logarithmic time $O(\log n)$, linear time $O(n)$, linearithmic time $O(n \log n)$, quadratic time $O(n^2)$, cubic time $O(n^3)$, and exponential time $O(2^n)$. 
    
    Another crucial aspect is understanding the trade-offs between different algorithms. For instance, an algorithm with a lower time complexity might have a higher space complexity. Similarly, an algorithm with a higher time complexity might have a lower space complexity. The choice of algorithm depends on the specific problem and the available resources. 
    
@@ -195,9 +195,9 @@ What is the key Shortcut or Trick for Algorithms: Analysis? is understanding the
 | Complexity Class | Time Complexity | Space Complexity | Example Algorithms |
 | --- | --- | --- | --- |
 | Constant Time | $O(1)$ | $O(1)$ | Accessing an array by index |
-| Logarithmic Time | $O(log n)$ | $O(log n)$ | Binary search in an array |
+| Logarithmic Time | $O(\log n)$ | $O(\log n)$ | Binary search in an array |
 | Linear Time | $O(n)$ | $O(n)$ | Finding an element in an array |
-| Linearithmic Time | $O(n log n)$ | $O(n log n)$ | Merging two sorted arrays |
+| Linearithmic Time | $O(n \log n)$ | $O(n \log n)$ | Merging two sorted arrays |
 | Quadratic Time | $O(n^2)$ | $O(n^2)$ | Bubble sort algorithm |
 | Cubic Time | $O(n^3)$ | $O(n^3)$ | Finding the closest pair of points in 3D space |
 | Exponential Time | $O(2^n)$ | $O(2^n)$ | Recursive algorithm for the traveling salesman problem |
@@ -205,15 +205,15 @@ What is the key Shortcut or Trick for Algorithms: Analysis? is understanding the
 
 ## <a id="how-do-you-analyze-the-efficiency-of-an-algorithm"></a>How do you analyze the efficiency of an algorithm?
 
-How do you analyze the efficiency of an algorithm? is determining the resource usage and performance of an algorithm. It includes time complexity, space complexity, and scalability. For Class 11 exam prep in 2026, the most important aspect is understanding time and space complexity to solve problems efficiently. To analyze the efficiency of an algorithm, we need to consider the amount of time and space it requires as a function of the size of the input. This is because the size of the input can significantly impact the performance of an algorithm. We use Big O notation to represent the upper bound of an algorithm's time and space complexity. The most common complexities are $O(1)$, $O(log n)$, $O(n)$, $O(n log n)$, $O(n^2)$, and $O(2^n)$. Each of these represents how the running time or space requirements grow as the input size increases.
+How do you analyze the efficiency of an algorithm? is determining the resource usage and performance of an algorithm. It includes time complexity, space complexity, and scalability. For Class 11 exam prep in 2026, the most important aspect is understanding time and space complexity to solve problems efficiently. To analyze the efficiency of an algorithm, we need to consider the amount of time and space it requires as a function of the size of the input. This is because the size of the input can significantly impact the performance of an algorithm. We use Big O notation to represent the upper bound of an algorithm's time and space complexity. The most common complexities are $O(1)$, $O(\log n)$, $O(n)$, $O(n \log n)$, $O(n^2)$, and $O(2^n)$. Each of these represents how the running time or space requirements grow as the input size increases.
 
 
 | Complexity | Description | Example |
 | --- | --- | --- |
 | $O(1)$ | Constant time complexity, the algorithm takes the same amount of time regardless of the input size | Accessing an array by its index |
-| $O(log n)$ | Logarithmic time complexity, the algorithm takes time proportional to the logarithm of the input size | Binary search in an array |
+| $O(\log n)$ | Logarithmic time complexity, the algorithm takes time proportional to the logarithm of the input size | Binary search in an array |
 | $O(n)$ | Linear time complexity, the algorithm takes time proportional to the input size | Finding an element in an array |
-| $O(n log n)$ | Linearithmic time complexity, the algorithm takes time proportional to the product of the input size and its logarithm | Merging two sorted arrays |
+| $O(n \log n)$ | Linearithmic time complexity, the algorithm takes time proportional to the product of the input size and its logarithm | Merging two sorted arrays |
 | $O(n^2)$ | Quadratic time complexity, the algorithm takes time proportional to the square of the input size | Bubble sort algorithm |
 | $O(2^n)$ | Exponential time complexity, the algorithm takes time proportional to 2 raised to the power of the input size | Recursive algorithm for Fibonacci series |
 
@@ -228,9 +228,9 @@ What are the trade-offs between time and space complexity in Algorithms: Analysi
 | Algorithm | Time Complexity | Space Complexity |
 | --- | --- | --- |
 | Bubble Sort | $O(n^2)$ | $O(1)$ |
-| Quick Sort | $O(n log n)$ | $O(log n)$ |
-| Merge Sort | $O(n log n)$ | $O(n)$ |
-| Binary Search | $O(log n)$ | $O(1)$ |
+| Quick Sort | $O(n \log n)$ | $O(\log n)$ |
+| Merge Sort | $O(n \log n)$ | $O(n)$ |
+| Binary Search | $O(\log n)$ | $O(1)$ |
 | Linear Search | $O(n)$ | $O(1)$ |
 
 
@@ -246,11 +246,11 @@ What are common Trap Questions for Algorithms: Analysis? is a crucial aspect of 
    
    Time complexity analysis is another critical aspect of algorithms, where students need to understand how to calculate the time complexity of different algorithms and data structures, using Big O notation. This involves analyzing the number of operations performed by the algorithm, such as loops, conditional statements, and function calls, and expressing the time complexity in terms of the input size. 
    
-   For example, the time complexity of a simple sorting algorithm like bubble sort is $O(n^2)$, where $n$ is the number of elements in the array. In contrast, more efficient sorting algorithms like quicksort or mergesort have an average time complexity of $O(n log n)$. Understanding these time complexities is crucial in selecting the most efficient algorithm for a given problem and in predicting the performance of the algorithm on large datasets. 
+   For example, the time complexity of a simple sorting algorithm like bubble sort is $O(n^2)$, where $n$ is the number of elements in the array. In contrast, more efficient sorting algorithms like quicksort or mergesort have an average time complexity of $O(n \log n)$. Understanding these time complexities is crucial in selecting the most efficient algorithm for a given problem and in predicting the performance of the algorithm on large datasets. 
    
    In addition to time complexity, students should also consider the space complexity of algorithms, which refers to the amount of memory required to execute the algorithm. This is particularly important in scenarios where memory is limited, such as in embedded systems or mobile devices. 
    
-   To illustrate the concept of trap questions in algorithms, consider the following example: given an array of integers, find the maximum sum of a subarray within the array. A common trap in solving this problem is to use a naive approach that involves checking all possible subarrays, resulting in a time complexity of $O(n^2)$. A more efficient approach is to use Kadane's algorithm, which has a time complexity of $O(n)$ and involves iterating through the array and keeping track of the maximum sum of a subarray ending at each position. 
+   To illustrate the concept of trap questions in algorithms, consider the following example: given an array of integers, find the maximum \sum of a subarray within the array. A common trap in solving this problem is to use a naive approach that involves checking all possible subarrays, resulting in a time complexity of $O(n^2)$. A more efficient approach is to use Kadane's algorithm, which has a time complexity of $O(n)$ and involves iterating through the array and keeping track of the maximum \sum of a subarray ending at each position. 
    
    In summary, trap questions in algorithms require a deep understanding of algorithmic concepts, data structures, and problem-solving strategies. Students should focus on developing a systematic approach to problem-solving, practicing with a wide range of problems, and analyzing the time and space complexity of algorithms to tackle these challenges effectively.
 
@@ -258,8 +258,8 @@ What are common Trap Questions for Algorithms: Analysis? is a crucial aspect of 
 | Algorithm | Time Complexity | Space Complexity |
 | --- | --- | --- |
 | Bubble Sort | $O(n^2)$ | $O(1)$ |
-| Quicksort | $O(n log n)$ | $O(log n)$ |
-| Mergesort | $O(n log n)$ | $O(n)$ |
+| Quicksort | $O(n \log n)$ | $O(\log n)$ |
+| Mergesort | $O(n \log n)$ | $O(n)$ |
 | Kadane's Algorithm | $O(n)$ | $O(1)$ |
 
 
@@ -287,7 +287,7 @@ What are the best practices for solving algorithmic problems in Algorithms: Anal
    
    To improve problem-solving skills, it's essential to practice solving a wide range of algorithmic problems. This can be done by solving problems on online platforms such as LeetCode, HackerRank, or CodeForces, or by working on projects that involve solving real-world problems. It's also essential to learn from mistakes and to analyze the time and space complexity of each solution. 
    
-   The time complexity of an algorithm is the amount of time it takes to complete as a function of the size of the input. It's usually expressed in Big O notation, which gives an upper bound on the number of steps an algorithm takes. For example, the time complexity of the bubble sort algorithm is O(n^2), where n is the number of elements being sorted. On the other hand, the time complexity of the quicksort algorithm is O(n log n) on average, making it much faster for large inputs. 
+   The time complexity of an algorithm is the amount of time it takes to complete as a function of the size of the input. It's usually expressed in Big O notation, which gives an upper bound on the number of steps an algorithm takes. For example, the time complexity of the bubble sort algorithm is O(n^2), where n is the number of elements being sorted. On the other hand, the time complexity of the quicksort algorithm is O(n \log n) on average, making it much faster for large inputs. 
    
    The space complexity of an algorithm is the amount of memory it uses as a function of the size of the input. It's also usually expressed in Big O notation. For example, the space complexity of the merge sort algorithm is O(n), where n is the number of elements being sorted, because it requires a temporary array of the same size as the input array. 
    
@@ -314,7 +314,7 @@ What are the best practices for solving algorithmic problems in Algorithms: Anal
 - Constant time complexity is O(1), where the number of operations does not change regardless of the input size.
 - Linear time complexity is O(n), where the number of operations increases linearly with the input size.
 - Quadratic time complexity is O(n^2), where the number of operations increases quadratically with the input size.
-- Merge Sort has a time complexity of O(n log n), making it more efficient than Bubble Sort for large datasets.
+- Merge Sort has a time complexity of O(n \log n), making it more efficient than Bubble Sort for large datasets.
 
 ## <a id="mcqs"></a>MCQs
 
@@ -322,8 +322,8 @@ What are the best practices for solving algorithmic problems in Algorithms: Anal
 **1. What is the time complexity of the Bubble Sort algorithm in Big O notation?**
 O(n)
 O(n^2)
-O(n log n)
-O(log n)
+O(n \log n)
+O(\log n)
 
 **Answer:**
 B) Bubble Sort has a worst-case and average time complexity of O(n^2), where n is the number of items being sorted.
@@ -345,19 +345,19 @@ Efficiency
 A) Time complexity refers to the number of operations an algorithm takes to complete as the input size increases.
 **4. What is the worst-case time complexity of the Quick Sort algorithm?**
 O(n)
-O(n log n)
+O(n \log n)
 O(n^2)
-O(log n)
+O(\log n)
 
 **Answer:** C) The worst-case time complexity of Quick Sort is O(n^2), which occurs when the pivot is the smallest or largest element in the array.
 
 **5. What is the time complexity of the Binary Search algorithm?**
 O(n)
-O(n log n)
-O(log n)
+O(n \log n)
+O(\log n)
 O(1)
 
-**Answer:** C) The time complexity of Binary Search is O(log n), where n is the number of items in the array.
+**Answer:** C) The time complexity of Binary Search is O(\log n), where n is the number of items in the array.
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
@@ -394,7 +394,7 @@ Continue your revision with these related guides:
 
 ## 🔁 Last 5 Minutes Box
 
-* Big O notation: **O(1)** - constant, **O(log n)** - logarithmic, **O(n)** - linear, **O(n log n)** - linearithmic, **O(n^2)** - quadratic, **O(2^n)** - exponential, **O(n!)** - factorial
+* Big O notation: **O(1)** - constant, **O(\log n)** - logarithmic, **O(n)** - linear, **O(n \log n)** - linearithmic, **O(n^2)** - quadratic, **O(2^n)** - exponential, **O(n!)** - factorial
      * Time complexity: **Best case**, **Average case**, **Worst case**
      * Space complexity: **Auxiliary space**, **Total space**
      * Asymptotic analysis: **Theta notation**, **Omega notation**

@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/solid-state-class-12-notes.webp"
-title: "Solid State Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Solid State Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-31."
+title: "Solid State Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Solid State Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-31"
 practice_link: "/class-11/chemistry/solid-state-class-12-notes"
@@ -18,9 +18,6 @@ practice_link: "/class-11/chemistry/solid-state-class-12-notes"
   - [What WILL Come in Your Exam](#what-will-come-in-your-exam)
   - [Formula Bank](#formula-bank)
   - [The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
-  - [Solid State Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](#solid-state-class-12-chemistry-revision-jee-and-neet-2026-grandmaster-guide)
-  - [What WILL Come in Your Exam](#what-will-come-in-your-exam)
-  - [Formula Bank](#formula-bank)
 - [🪤 The 5 Trap Mistakes](#-the-5-trap-mistakes)
   - [Part 3: Advanced Concepts and Applications](#part-3-advanced-concepts-and-applications)
 - [📝 Master the Test Center — Step-by-Step Learning](#-master-the-test-center-stepbystep-learning)
@@ -30,15 +27,10 @@ practice_link: "/class-11/chemistry/solid-state-class-12-notes"
 
 
 - [Solid State Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](#solid-state-class-12-[chemistry](/blog/surface-chemistry-class-12-notes)-revision-jee-neet-2026-grandmaster-guide)
- - [What WILL Come in Your Exam](#what-will-come-in-your-exam)
- - [Formula Bank](#formula-bank)
- - [The 5 Mistakes That Cost Marks](#the-5-mistakes-that-cost-marks)
- - [Solid State Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide](#solid-state-class-12-[chemistry](/blog/surface-chemistry-class-12-notes)-revision-jee-neet-2026-grandmaster-guide)
- - [What WILL Come in Your Exam](#what-will-come-in-your-exam)
- - [Formula Bank](#formula-bank)
 
- - [Part 3: Advanced Concepts and Applications](#part-3-advanced-concepts-and-applications)
 
+
+##
 
 ### <a id="solid-state-class-12-chemistry-revision-jee-and-neet-2026-grandmaster-guide"></a>Solid State Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide
 
@@ -58,33 +50,33 @@ practice_link: "/class-11/chemistry/solid-state-class-12-notes"
 - 1 **numerical** on calculation of lattice energy using Kapustinskii equation — always: $E = \frac{\alpha M z^+ z^-}{4\pi \epsilon_0 R_0} \left( 1 - \frac{34.5}{R_0} \right)$
 
 ### <a id="formula-bank"></a>Formula Bank
-- **Density of Crystal Lattice:** \rho = $\frac{Z \	imes M}{N_A \	imes a^3} — $\rho$ = density, $Z$ = number of atoms per unit cell, $M$ = molar mass, $N_A$ = Avogadro's number, $a$ = edge length of unit cell.$
+- **Density of Crystal Lattice:** \rho = $\frac{{Z \	imes M}{N_A \	imes a^3} — }{Z = number of atoms per unit cell, } \rho = density, $M = molar mass, $N_A = Avogadro's number, $a = edge length of unit cell.
 - **Number of Atoms per Unit Cell (BCC):** Z = 2 — For Body-Centered Cubic lattice.
 - **Number of Atoms per Unit Cell (FCC):** Z = 4 — For Face-Centered Cubic lattice.
 - **Number of Atoms per Unit Cell (Simple Cubic):** Z = 1 — For Simple Cubic lattice.
-- **Edge Length of Unit Cell (BCC):** a = $\frac{4r}$\sqrt{3$} — $a$ = edge length, $r$ = radius of atom.$
-- **Edge Length of Unit Cell (FCC):** a = 2$\sqrt{2}r — $a$ = edge length, $r$ = radius of atom.$
-- **Edge Length of Unit Cell (Simple Cubic):** a = 2r — $a$ = edge length, $r$ = radius of atom.
+- **Edge Length of Unit Cell (BCC):** a = $\frac{{4r}}{} — } \sqrt{3$a = edge length, $r = radius of atom.$
+- **Edge Length of Unit Cell (FCC):** a = 2$\sqrt{2}r — $a = edge length, $r = radius of atom.$
+- **Edge Length of Unit Cell (Simple Cubic):** a = 2r — $a = edge length, $r = radius of atom.
 - **Coordination Number (BCC):** CN = 8 — For Body-Centered Cubic lattice.
 - **Coordination Number (FCC):** CN = 12 — For Face-Centered Cubic lattice.
 - **Coordination Number (Simple Cubic):** CN = 6 — For Simple Cubic lattice.
-- **Packing Efficiency (BCC):** PE = $\frac{\pi}{3$$\sqrt{3}$} \	imes 100\% — $PE$ = packing efficiency.
-- **Packing Efficiency (FCC):** PE = $\frac{\pi}{3$$\sqrt{2}$} \	imes 100\% — $PE$ = packing efficiency.
-- **Packing Efficiency (Simple Cubic):** PE = $\frac{\pi}{6} \	imes 100\% — $PE$ = packing efficiency.$
-- **Schottky Defect:** \Delta H = 2E_{+} + 2E_{-} — $\Delta H$ = enthalpy of formation of defect, $E_{+}$ and $E_{-}$ = energy of formation of cation and anion vacancies.
-- **Frenkel Defect:** \Delta H = E_{+} + E_{-} + E_{m} — $\Delta H$ = enthalpy of formation of defect, $E_{+}$ and $E_{-}$ = energy of formation of cation and anion vacancies, $E_{m}$ = energy of migration of cation.
+- **Packing Efficiency (BCC):** PE = $\frac{{\pi}{3}{\frac{\pi}{3} \sqrt{3}} \	imes 100\% — PE = packing efficiency.
+- **Packing Efficiency (FCC):** PE = $\sqrt{2}}$ \	imes 100\% — $PE = packing efficiency.
+- **Packing Efficiency (Simple Cubic):** PE = $\frac{{\pi}{6} \	imes 100\% — }{
+- **Schottky Defect:** \Delta H = 2E_{+} + 2E_{-} — } PE = packing efficiency.$\Delta H = enthalpy of formation of defect, $E_{+}$ and $E_{-} = energy of formation of cation and anion vacancies.
+- **Frenkel Defect:** \Delta H = E_{+} + E_{-} + E_{m} — $\Delta H = enthalpy of formation of defect, $E_{+}$ and $E_{-} = energy of formation of cation and anion vacancies, $E_{m} = energy of migration of cation.
 - **Band Gap Energy:** E_g = h\
 
-u — $E_g$ = band gap energy, $h$ = Planck's constant, $\
+u — $E_g = band gap energy, $h = Planck's constant, $\
 
-u$ = frequency of radiation.
-- **Conductivity:** \sigma = $\frac{ne^2\	au}{m} — $\sigma$ = conductivity, $n$ = number density of charge carriers, $e$ = charge of electron, $\	au$ = relaxation time, $m$ = mass of electron.$
-- **Mobility:** \mu = $\frac{e\	au}{m} — $\mu$ = mobility, $e$ = charge of electron, $\	au$ = relaxation time, $m$ = mass of electron.$
+u = frequency of radiation.
+- **Conductivity:** \sigma = $\frac{{ne^2\	au}{m} — }{n = number density of charge carriers, } \sigma = conductivity, $e = charge of electron, $\	au = relaxation time, $m = mass of electron.
+- **Mobility:** \mu = $\frac{{e\	au}{m} — }{e = charge of electron, } \mu = mobility, $\	au = relaxation time, $m = mass of electron.$
 
 ### <a id="the-5-mistakes-that-cost-marks"></a>The 5 Mistakes That Cost Marks
 - **Mistake 1:** Incorrectly calculating the packing efficiency of a crystal lattice.
 - *Costs:* 4-6 marks
-- *Fix:* Make sure to use the correct formula: $\frac{Volume\ of\ atoms}{Total\ volume\ of\ unit\ cell} \	imes 100$. For example, in a face-centered cubic (FCC) lattice, the packing efficiency is $\frac{4 \	imes \frac{4}{3} \pi r^3}{16r^2 \sqrt{2}} \	imes 100 = 74\%$.
+- *Fix:* Make sure to use the correct formula: $\frac{{Volume\ of\ atoms}{Total\ volume\ of\ unit\ cell} \	imes 100}{\frac{4 \	imes \frac{4}{3} \pi r^3}{16r^2 \sqrt{2}} \	imes 100 = 74\%} . For example, in a face-centered cubic (FCC) lattice, the packing efficiency is $.
 - **Mistake 2:** Failing to distinguish between the different types of voids in a crystal lattice.
 - *Costs:* 3-5 marks
 - *Fix:* Remember that tetrahedral voids have a coordination number of 4 and are smaller than octahedral voids, which have a coordination number of 6.
@@ -107,9 +99,9 @@ u$ = frequency of radiation.
  - $a$: edge length of unit cell
  - $r$: radius of atom
 - **Packing Fractions:**
- - SC: $\frac{\pi}{6} \	imes 100\%$
- - BCC: $\frac{\pi}{3\sqrt{3}} \	imes 100\%$
- - FCC: $\frac{\pi}{3\sqrt{2}} \	imes 100\%$
+ - SC: $\frac{{\pi}{6} \	imes 100\%}{\frac{\pi}{3\sqrt{3}} \	imes 100\%} 
+ - BCC: $
+ - FCC: $\frac{{\pi}{3\sqrt{2}} \	imes 100\%}{E_{+} + E_{-} + E_{m}} 
 - **Coordination Numbers:**
  - SC: 6
  - BCC: 8
@@ -121,7 +113,7 @@ u$ = frequency of radiation.
  - Line defects (dislocations)
  - Planar defects (grain boundaries)
 - **Frenkel Defect:**
- - Formation energy: $E_{+} + E_{-} + E_{m}$
+ - Formation energy: $
  - Migration energy: $E_{m}$
 - **Schottky Defect:**
  - Formation energy: $2E_{+} + 2E_{-}$
@@ -181,34 +173,34 @@ u$ = frequency of radiation.
 - 1 **numerical** on calculation of lattice energy using Kapustinskii equation — always: $E = \frac{\alpha M z^+ z^-}{4\pi \epsilon_0 R_0} \left( 1 - \frac{34.5}{R_0} \right)$
 
 ### <a id="formula-bank"></a>Formula Bank
-- **Density of Crystal Lattice:** \rho = $\frac{Z \	imes M}{N_A \	imes a^3} — $\rho$ = density, $Z$ = number of atoms per unit cell, $M$ = molar mass, $N_A$ = Avogadro's number, $a$ = edge length of unit cell.$
+- **Density of Crystal Lattice:** \rho = $\frac{{Z \	imes M}{N_A \	imes a^3} — }{Z = number of atoms per unit cell, } \rho = density, $M = molar mass, $N_A = Avogadro's number, $a = edge length of unit cell.
 - **Number of Atoms per Unit Cell (BCC):** Z = 2 — For Body-Centered Cubic lattice.
 - **Number of Atoms per Unit Cell (FCC):** Z = 4 — For Face-Centered Cubic lattice.
 - **Number of Atoms per Unit Cell (Simple Cubic):** Z = 1 — For Simple Cubic lattice.
-- **Edge Length of Unit Cell (BCC):** a = $\frac{4r}$\sqrt{3$} — $a$ = edge length, $r$ = radius of atom.$
-- **Edge Length of Unit Cell (FCC):** a = 2$\sqrt{2}r — $a$ = edge length, $r$ = radius of atom.$
-- **Edge Length of Unit Cell (Simple Cubic):** a = 2r — $a$ = edge length, $r$ = radius of atom.
+- **Edge Length of Unit Cell (BCC):** a = $\frac{{4r}}{} — } \sqrt{3$a = edge length, $r = radius of atom.$
+- **Edge Length of Unit Cell (FCC):** a = 2$\sqrt{2}r — $a = edge length, $r = radius of atom.$
+- **Edge Length of Unit Cell (Simple Cubic):** a = 2r — $a = edge length, $r = radius of atom.
 - **Coordination Number (BCC):** CN = 8 — For Body-Centered Cubic lattice.
 - **Coordination Number (FCC):** CN = 12 — For Face-Centered Cubic lattice.
 - **Coordination Number (Simple Cubic):** CN = 6 — For Simple Cubic lattice.
-- **Packing Efficiency (BCC):** PE = $\frac{\pi}{3$$\sqrt{3}$} \	imes 100\% — $PE$ = packing efficiency.
-- **Packing Efficiency (FCC):** PE = $\frac{\pi}{3$$\sqrt{2}$} \	imes 100\% — $PE$ = packing efficiency.
-- **Packing Efficiency (Simple Cubic):** PE = $\frac{\pi}{6} \	imes 100\% — $PE$ = packing efficiency.$
-- **Schottky Defect:** \Delta H = 2E_{+} + 2E_{-} — $\Delta H$ = enthalpy of formation of defect, $E_{+}$ and $E_{-}$ = energy of formation of cation and anion vacancies.
-- **Frenkel Defect:** \Delta H = E_{+} + E_{-} + E_{m} — $\Delta H$ = enthalpy of formation of defect, $E_{+}$ and $E_{-}$ = energy of formation of cation and anion vacancies, $E_{m}$ = energy of migration of cation.
+- **Packing Efficiency (BCC):** PE = $\frac{{\pi}{3}{\frac{\pi}{3} \sqrt{3}} \	imes 100\% — PE = packing efficiency.
+- **Packing Efficiency (FCC):** PE = $\sqrt{2}}$ \	imes 100\% — $PE = packing efficiency.
+- **Packing Efficiency (Simple Cubic):** PE = $\frac{{\pi}{6} \	imes 100\% — }{
+- **Schottky Defect:** \Delta H = 2E_{+} + 2E_{-} — } PE = packing efficiency.$\Delta H = enthalpy of formation of defect, $E_{+}$ and $E_{-} = energy of formation of cation and anion vacancies.
+- **Frenkel Defect:** \Delta H = E_{+} + E_{-} + E_{m} — $\Delta H = enthalpy of formation of defect, $E_{+}$ and $E_{-} = energy of formation of cation and anion vacancies, $E_{m} = energy of migration of cation.
 - **Band Gap Energy:** E_g = h\
 
-u — $E_g$ = band gap energy, $h$ = Planck's constant, $\
+u — $E_g = band gap energy, $h = Planck's constant, $\
 
-u$ = frequency of radiation.
-- **Conductivity:** \sigma = $\frac{ne^2\	au}{m} — $\sigma$ = conductivity, $n$ = number density of charge carriers, $e$ = charge of electron, $\	au$ = relaxation time, $m$ = mass of electron.$
-- **Mobility:** \mu = $\frac{e\	au}{m} — $\mu$ = mobility, $e$ = charge of electron, $\	au$ = relaxation time, $m$ = mass of electron.$
+u = frequency of radiation.
+- **Conductivity:** \sigma = $\frac{{ne^2\	au}{m} — }{n = number density of charge carriers, } \sigma = conductivity, $e = charge of electron, $\	au = relaxation time, $m = mass of electron.
+- **Mobility:** \mu = $\frac{{e\	au}{m} — }{e = charge of electron, } \mu = mobility, $\	au = relaxation time, $m = mass of electron.$
 
 ## <a id="-the-5-trap-mistakes"></a>🪤 The 5 Trap Mistakes
 These mistakes are common and can be costly in terms of marks. It is essential to understand and avoid them to achieve success in the exam.
 
 #### Mistake 1: Incorrect Calculation of Packing Efficiency
-The packing efficiency of a crystal lattice is a critical concept in solid-state chemistry. However, many students make mistakes while calculating it. To avoid this, it is crucial to use the correct formula: $\frac{Volume\ of\ atoms}{Total\ volume\ of\ unit\ cell} \	imes 100$. For example, in a face-centered cubic (FCC) lattice, the packing efficiency is $\frac{4 \	imes \frac{4}{3} \pi r^3}{16r^2 \sqrt{2}} \	imes 100 = 74\%$.
+The packing efficiency of a crystal lattice is a critical concept in solid-state chemistry. However, many students make mistakes while calculating it. To avoid this, it is crucial to use the correct formula: $\frac{{Volume\ of\ atoms}{Total\ volume\ of\ unit\ cell} \	imes 100}{\frac{4 \	imes \frac{4}{3} \pi r^3}{16r^2 \sqrt{2}} \	imes 100 = 74\%} . For example, in a face-centered cubic (FCC) lattice, the packing efficiency is $.
 
 #### Mistake 2: Failure to Distinguish Between Types of Voids
 Another common mistake is failing to distinguish between the different types of voids in a crystal lattice. It is essential to remember that tetrahedral voids have a coordination number of 4 and are smaller than octahedral voids, which have a coordination number of 6. This distinction is critical in understanding the crystal structure and properties of solids.

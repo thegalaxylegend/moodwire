@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/thermodynamics-class-11-revision-notes-neet.png"
-title: "Thermodynamics Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
-description: "Thermodynamics Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Thermodynamics Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
+description: "Thermodynamics Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/biology/thermodynamics-class-11-revision-notes-neet"
@@ -76,7 +76,7 @@ practice_link: "/class-11/biology/thermodynamics-class-11-revision-notes-neet"
 
 ## <a id="2-the-first-law-of-thermodynamics"></a>2. The First Law of Thermodynamics
 
-**Statement:** The heat supplied to a system (**ΔQ**) is equal to the sum of the increase in its internal energy (**ΔU**) and the work done by the system (**ΔW**).
+**Statement:** The heat supplied to a system (**ΔQ**) is equal to the \sum of the increase in its internal energy (**ΔU**) and the work done by the system (**ΔW**).
 **Formula: ΔQ = ΔU + ΔW**
 - **Internal Energy (U):** A state function depending only on temperature.
 - **Sign Convention:** Work done *by* the system is Positive (+); Work done *on* the system is Negative (-).

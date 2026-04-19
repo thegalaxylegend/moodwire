@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/electromagnetic-waves-class-12-notes.webp"
-title: "Electromagnetic Waves Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Electromagnetic Waves Class 12 Biology Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Electromagnetic Waves Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
+description: "Electromagnetic Waves Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/biology/electromagnetic-waves-class-12-notes"
@@ -43,7 +43,7 @@ As we dive into the realm of physics for our [class](/blog/wave-optics-class-12-
 
 To put this into perspective, let's consider the vast array of electromagnetic waves that surround us. From the **radio waves** that enable our mobile phones to communicate with cell towers, to the **microwaves** that heat our food, and the **visible light** that illuminates our daily lives, electromagnetic waves are an integral part of our daily experiences. The fact that these waves can travel through a vacuum and have both electric and [magnetic](/blog/magnetic-effects-of-current-class-12-notes) field components makes them a fascinating topic to explore.
 
-On a personal note, I still remember the first time I learned about the **electromagnetic spectrum**. It was during my [class](/blog/magnetism-and-matter-class-12-notes) 11 physics lessons, and our teacher used a simple diagram to illustrate the different types of electromagnetic waves, ranging from **gamma rays** to **radio waves**. What struck me was the vast range of wavelengths and frequencies that these waves can have, and how each type of wave has its unique properties and applications.
+On a personal note, I still remember the first time I learned about the **electromagnetic spectrum**. It was during my [class](/blog/magnetism-and-matter-class-12-notes) 11 physics lessons, and our teacher used a simple diagram to illustrate the different types of electromagnetic waves, ranging from **\gamma rays** to **radio waves**. What struck me was the vast range of wavelengths and frequencies that these waves can have, and how each type of wave has its unique properties and applications.
 
 To truly grasp the concept of [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) waves, it's essential to have a solid foundation in the following prerequisites:
 
@@ -75,7 +75,7 @@ Some of the key terms and formulas that we'll be using in this topic include:
 
 * **Speed of light**: $c = 3 \times 10^{8}$ m/s
 
-* **Electromagnetic [wave](/blog/wave-optics-class-12-notes) equation**: $\frac{\partial^2 E}{\partial x^2} = \mu_0 \epsilon_0 $$\frac{\partial^2 E}{\partial t^2}$
+* **Electromagnetic [wave](/blog/wave-optics-class-12-notes) equation**: $1 \frac{\partial^2 E}{\partial t^2}$
 
 
 * **Wave number**: $k = \frac{2 \pi}{\lambda}$
@@ -90,7 +90,7 @@ As we explore the world of electromagnetic waves, we'll be using a combination o
 
 Electromagnetic Waves are a form of energy that propagates through a medium, such as air or a vacuum, and includes electric and magnetic field components, as well as frequency and wavelength. It includes the electric field vector, magnetic field vector, and the direction of propagation. For [class](/blog/alternating-current-class-12-notes) 12 exam prep in 2026, the most important aspect is understanding the relationship between the speed of light, frequency, and wavelength of electromagnetic waves. 
 
-The classification of [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) waves is based on their frequency or wavelength. The [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) spectrum includes types such as radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays, and gamma rays. Each type has a specific range of frequencies and wavelengths, and they are used in various applications. For example, radio waves are used in communication systems, microwaves are used in heating and cooking, and X-rays are used in medical imaging.
+The classification of [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) waves is based on their frequency or wavelength. The [electromagnetic](/blog/electromagnetic-induction-class-12-revision-notes-jee-neet) spectrum includes types such as radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays, and \gamma rays. Each type has a specific range of frequencies and wavelengths, and they are used in various applications. For example, radio waves are used in communication systems, microwaves are used in heating and cooking, and X-rays are used in medical imaging.
 
 To understand electromagnetic waves, it's essential to know the key terms and concepts. **Electromagnetic radiation** refers to the emission or transmission of energy in the form of electromagnetic waves. **Frequency** is the number of oscillations or cycles of an electromagnetic wave per second, measured in Hertz (Hz). **Wavelength** is the distance between two consecutive peaks or troughs of an electromagnetic wave, measured in meters (m). The **speed of light** is a fundamental constant in physics, denoted by the symbol c, and is approximately equal to $3 	imes 10^8$ meters per second.
 
@@ -124,9 +124,9 @@ To prepare for the [class](/blog/magnetism-and-matter-class-12-notes) 12 exam, i
 
 ## <a id="what-is-the-electromagnetic-spectrum"></a>What is the Electromagnetic Spectrum?
 
-The Electromagnetic Spectrum is a vast band of energy frequencies that includes various types of electromagnetic radiation. It includes radio waves, microwaves, and gamma rays, among other forms of electromagnetic radiation. For [class](/blog/magnetism-and-matter-class-12-notes) 12 exam prep in 2026, the most important aspect is understanding the arrangement and properties of these different types of radiation in the spectrum. 
+The Electromagnetic Spectrum is a vast band of energy frequencies that includes various types of electromagnetic radiation. It includes radio waves, microwaves, and \gamma rays, among other forms of electromagnetic radiation. For [class](/blog/magnetism-and-matter-class-12-notes) 12 exam prep in 2026, the most important aspect is understanding the arrangement and properties of these different types of radiation in the spectrum. 
 
-The Electromagnetic Spectrum is generally divided into seven main regions, each with distinct properties and applications. These regions, from longer wavelengths to shorter wavelengths, are radio waves, microwaves, infrared (IR) radiation, visible light, ultraviolet (UV) radiation, X-rays, and gamma rays. Each of these regions has unique characteristics, such as wavelength, frequency, and energy, which determine their uses and effects on [matter](/blog/magnetism-and-matter-class-12-notes). 
+The Electromagnetic Spectrum is generally divided into seven main regions, each with distinct properties and applications. These regions, from longer wavelengths to shorter wavelengths, are radio waves, microwaves, infrared (IR) radiation, visible light, ultraviolet (UV) radiation, X-rays, and \gamma rays. Each of these regions has unique characteristics, such as wavelength, frequency, and energy, which determine their uses and effects on [matter](/blog/magnetism-and-matter-class-12-notes). 
 
 Radio waves, for instance, have the longest wavelengths and the lowest energies, and they are used extensively in wireless communication, such as radio broadcasting and mobile phone networks. Microwaves, with wavelengths shorter than radio waves, are used in heating and cooking, as well as in wireless communication technologies like Wi-Fi and Bluetooth. Infrared radiation, which includes heat, is felt as warmth and is used in thermal imaging and heating applications. Visible light, the part of the spectrum that humans can see, spans from approximately 380 nanometers (violet) to 740 nanometers (red) and is crucial for vision and photosynthesis. Ultraviolet radiation, with shorter wavelengths than visible light, is known for causing sunburn and is used in applications such as sterilization and water purification. X-rays, with even shorter wavelengths, are used in medical imaging to visualize the internal structures of the body. Gamma rays have the shortest wavelengths and the highest energies, and they are used in medical treatments, scientific research, and industrial applications.
 
@@ -160,12 +160,12 @@ Key Takeaway: Understanding the Electromagnetic Spectrum, its various regions, a
 
 How do Electromagnetic Waves Propagate? is a fundamental concept in physics that describes the transmission of energy through electromagnetic waves. It includes the electric field, magnetic field, and wave propagation. For Class 12 exam prep in 2026, the most important aspect is understanding the mathematical relationship between these components to solve numerical problems.
 
- The propagation of electromagnetic waves can be described using Maxwell's equations, which form the foundation of classical electromagnetism. The four equations are: $
-abla \cdot \mathbf{E} = $\frac{\rho}{\epsilon_0}$, 
-abla \cdot \mathbf{B} = 0$, $
-abla \times \mathbf{E} = -$\frac{\partial \mathbf{B}}{\partial t}$, and 
-abla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \epsilon_0 $\frac{\partial \mathbf{E}}{\partial t}$. These equations can be used to derive the wave equation for electromagnetic waves, which is $\frac{\partial^2 \mathbf{E}}{\partial t^2}$ = c^2
-abla^2 \mathbf{E}$, where $c$ is the speed of light.
+ The propagation of electromagnetic waves can be described using Maxwell's equations, which form the foundation of classical electromagnetism. The four equations are: 
+abla \cdot \mathbf{E} = $\frac{{\rho}{\epsilon_0}}{, } , 
+abla \cdot \mathbf{B} = 0
+abla \times \mathbf{E} = -$\frac{{\partial \mathbf{B}}{\partial t}}{\frac{\partial \mathbf{E}}{\partial t}} , and 
+abla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \epsilon_0 $. These equations can be used to derive the wave equation for electromagnetic waves, which is $\frac{{\partial^2 \mathbf{E}}{\partial t^2} = c^2
+abla^2 \mathbf{E}}{c} , where $ is the speed of light.
 
  Electromagnetic waves can propagate through a vacuum, and their speed is constant, regardless of the motion of the source or observer. This is a fundamental concept in special relativity, and it has been experimentally verified numerous times. In contrast, mechanical waves, such as sound waves, require a medium to propagate and their speed depends on the properties of the medium.
 
@@ -182,23 +182,23 @@ abla^2 \mathbf{E}$, where $c$ is the speed of light.
 
 ## <a id="what-is-the-speed-of-electromagnetic-waves-in-a-vacuum"></a>What is the Speed of Electromagnetic Waves in a Vacuum?
 
-What is the Speed of Electromagnetic Waves in a Vacuum? is the speed at which electromagnetic waves propagate through a vacuum. It includes the electric field, magnetic field, and the speed of light. For Class 12 exam prep in 2026, the most important aspect is understanding that the speed of electromagnetic waves in a vacuum is a fundamental constant of nature, denoted by $c$ and equal to $3 	imes 10^8$ meters per second. The speed of electromagnetic waves in a vacuum can be calculated using the formula $c = \frac{1}{sqrt{mu_0 epsilon_0}}$, where $mu_0$ is the magnetic constant and $epsilon_0$ is the electric constant. This speed is a crucial concept in physics, as it helps us understand the behavior of light and other electromagnetic waves. The value of $c$ is a universal constant, meaning it is the same for all observers, regardless of their relative motion. In the context of special relativity, the speed of light in a vacuum is also the maximum speed at which any object or information can travel. The speed of electromagnetic waves in a vacuum is also a key concept in understanding the behavior of light as it travels through different media, such as air, water, or glass. When light passes from one medium to another, its speed changes, but the frequency remains the same. This is described by Snell's law, which relates the angles of incidence and refraction to the speeds of light in the two media. To calculate the speed of electromagnetic waves in a vacuum, we can use the values of $mu_0 = 4pi 	imes 10^{-7}$ Henry per meter and $epsilon_0 = 8.85 	imes 10^{-12}$ Farad per meter. Substituting these values into the formula, we get $c = \frac{1}{sqrt{4pi 	imes 10^{-7} 	imes 8.85 	imes 10^{-12}}} = 3 	imes 10^8$ meters per second. As a student, it's essential to remember that the speed of electromagnetic waves in a vacuum is a constant value, and any changes in the speed of light are due to the properties of the medium it is passing through, not the light itself. A helpful tip for students is to practice deriving the formula for the speed of electromagnetic waves in a vacuum and to understand the physical significance of the magnetic and electric constants. By doing so, you'll be well-prepared to tackle problems related to the speed of light and electromagnetic waves in your Class 12 exams.
+What is the Speed of Electromagnetic Waves in a Vacuum? is the speed at which electromagnetic waves propagate through a vacuum. It includes the electric field, magnetic field, and the speed of light. For Class 12 exam prep in 2026, the most important aspect is understanding that the speed of electromagnetic waves in a vacuum is a fundamental constant of nature, denoted by $c$ and equal to $3 	imes 10^8$ meters per second. The speed of electromagnetic waves in a vacuum can be calculated using the formula $c = \frac{1}{\sqrt{mu_0 epsilon_0}}$, where $mu_0$ is the magnetic constant and $epsilon_0$ is the electric constant. This speed is a crucial concept in physics, as it helps us understand the behavior of light and other electromagnetic waves. The value of $c$ is a universal constant, meaning it is the same for all observers, regardless of their relative motion. In the context of special relativity, the speed of light in a vacuum is also the maximum speed at which any object or information can travel. The speed of electromagnetic waves in a vacuum is also a key concept in understanding the behavior of light as it travels through different media, such as air, water, or glass. When light passes from one medium to another, its speed changes, but the frequency remains the same. This is described by Snell's law, which relates the angles of incidence and refraction to the speeds of light in the two media. To calculate the speed of electromagnetic waves in a vacuum, we can use the values of $mu_0 = 4\pi 	imes 10^{-7}$ Henry per meter and $epsilon_0 = 8.85 	imes 10^{-12}$ Farad per meter. Substituting these values into the formula, we get $c = \frac{1}{\sqrt{4\pi 	imes 10^{-7} 	imes 8.85 	imes 10^{-12}}} = 3 	imes 10^8$ meters per second. As a student, it's essential to remember that the speed of electromagnetic waves in a vacuum is a constant value, and any changes in the speed of light are due to the properties of the medium it is passing through, not the light itself. A helpful tip for students is to practice deriving the formula for the speed of electromagnetic waves in a vacuum and to understand the physical significance of the magnetic and electric constants. By doing so, you'll be well-prepared to tackle problems related to the speed of light and electromagnetic waves in your Class 12 exams.
 
 
 | Constant | Value | Unit |
 | --- | --- | --- |
-| Magnetic constant ($mu_0$) | $4pi 	imes 10^{-7}$ | Henry per meter |
+| Magnetic constant ($mu_0$) | $4\pi 	imes 10^{-7}$ | Henry per meter |
 | Electric constant ($epsilon_0$) | $8.85 	imes 10^{-12}$ | Farad per meter |
 | Speed of electromagnetic waves in a vacuum ($c$) | $3 	imes 10^8$ | meters per second |
 
 
 ## <a id="what-are-the-types-of-electromagnetic-waves"></a>What are the Types of Electromagnetic Waves?
 
-What are the Types of Electromagnetic Waves? is a fundamental concept in physics that refers to the various forms of electromagnetic radiation that differ in wavelength and frequency. It includes radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays, and gamma rays. For Class 12 exam prep in 2026, the most important aspect is understanding the properties and applications of each type of electromagnetic wave.
+What are the Types of Electromagnetic Waves? is a fundamental concept in physics that refers to the various forms of electromagnetic radiation that differ in wavelength and frequency. It includes radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays, and \gamma rays. For Class 12 exam prep in 2026, the most important aspect is understanding the properties and applications of each type of electromagnetic wave.
 
- Electromagnetic waves are classified based on their frequency and wavelength. The electromagnetic spectrum is a continuous range of frequencies and wavelengths, but it is often divided into distinct categories for convenience. Radio waves have the longest wavelength and the lowest frequency, while gamma rays have the shortest wavelength and the highest frequency. The human eye can detect only a narrow range of electromagnetic radiation, which is known as visible light.
+ Electromagnetic waves are classified based on their frequency and wavelength. The electromagnetic spectrum is a continuous range of frequencies and wavelengths, but it is often divided into distinct categories for convenience. Radio waves have the longest wavelength and the lowest frequency, while \gamma rays have the shortest wavelength and the highest frequency. The human eye can detect only a narrow range of electromagnetic radiation, which is known as visible light.
 
- The different types of electromagnetic waves have various applications in our daily lives. Radio waves are used for communication purposes, such as broadcasting and mobile phone signals. Microwaves are used for heating and cooking food, as well as for wireless communication. Infrared radiation is used for thermal imaging and heating applications. Visible light is essential for vision and is used in a wide range of applications, including photography and solar power. Ultraviolet radiation is used for disinfection and water purification, as well as for the detection of forged documents. X-rays are used for medical imaging, while gamma rays are used for cancer treatment and sterilization of medical instruments.
+ The different types of electromagnetic waves have various applications in our daily lives. Radio waves are used for communication purposes, such as broadcasting and mobile phone signals. Microwaves are used for heating and cooking food, as well as for wireless communication. Infrared radiation is used for thermal imaging and heating applications. Visible light is essential for vision and is used in a wide range of applications, including photography and solar power. Ultraviolet radiation is used for disinfection and water purification, as well as for the detection of forged documents. X-rays are used for medical imaging, while \gamma rays are used for cancer treatment and sterilization of medical instruments.
 
  Here is a comparison table of the different types of electromagnetic waves:
 
@@ -246,7 +246,7 @@ Ayush's Note on Electromagnetic Waves is a study guide that outlines the key con
 u$ equation, where $c$ is the speed of light, $\lambda$ is the wavelength, and $
 u$ is the frequency, is a fundamental concept in the study of electromagnetic waves. This equation shows that the speed of light is constant, regardless of the frequency or wavelength of the wave.
 
- The electromagnetic spectrum is a range of frequencies of electromagnetic waves, from low-frequency, long-wavelength waves such as radio waves, to high-frequency, short-wavelength waves such as gamma rays. The electromagnetic spectrum can be divided into several regions, including radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays, and gamma rays. Each region has its own unique properties and applications, and understanding the characteristics of each region is essential for Class 12 exam prep.
+ The electromagnetic spectrum is a range of frequencies of electromagnetic waves, from low-frequency, long-wavelength waves such as radio waves, to high-frequency, short-wavelength waves such as \gamma rays. The electromagnetic spectrum can be divided into several regions, including radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays, and \gamma rays. Each region has its own unique properties and applications, and understanding the characteristics of each region is essential for Class 12 exam prep.
 
  One of the key concepts in the study of electromagnetic waves is the method of wave propagation. Electromagnetic waves can propagate through a medium, such as air or a vacuum, and can be described in terms of their speed, frequency, and wavelength. The method of wave propagation is important, as it determines how the wave interacts with its surroundings and how it is affected by the properties of the medium.
 
@@ -273,11 +273,11 @@ What are the Properties of Electromagnetic Waves? is a fundamental concept in ph
 
  Electromagnetic waves are created as a result of vibrations between an electric field and a magnetic field. The **electric field** ($E$) and **magnetic field** ($B$) components of the wave are perpendicular to each other and to the direction of wave propagation. This property is often represented by the right-hand rule, where if you point your thumb in the direction of wave propagation, your fingers will curl in the direction of the magnetic field, and your palm will face the direction of the electric field.
 
- The **speed of electromagnetic waves** in a vacuum is a constant, approximately $3 	imes 10^8$ meters per second ($c = 3 	imes 10^8 , 	ext{m/s}$). This speed is a fundamental constant in physics and is the same for all electromagnetic waves, regardless of their frequency or wavelength. The relationship between the speed, frequency ($f$), and wavelength ($lambda$) of electromagnetic waves is given by the wave equation: $c = lambda f$.
+ The **speed of electromagnetic waves** in a vacuum is a constant, approximately $3 	imes 10^8$ meters per second ($c = 3 	imes 10^8 , \text{m/s}$). This speed is a fundamental constant in physics and is the same for all electromagnetic waves, regardless of their frequency or wavelength. The relationship between the speed, frequency ($f$), and wavelength ($lambda$) of electromagnetic waves is given by the wave equation: $c = lambda f$.
 
  Another crucial property of electromagnetic waves is their ability to **transmit energy**. The energy carried by an electromagnetic wave is proportional to the square of the amplitude of the electric field component. This is expressed by the equation $I = \frac{1}{2} epsilon_0 E^2 c$, where $I$ is the intensity of the wave, $epsilon_0$ is the permittivity of free space, $E$ is the amplitude of the electric field, and $c$ is the speed of the wave.
 
- A key concept in understanding electromagnetic waves is the **electromagnetic spectrum**, which includes all types of electromagnetic waves, from low-frequency, long-wavelength waves like radio waves to high-frequency, short-wavelength waves like gamma rays. The electromagnetic spectrum is typically divided into several regions, each corresponding to a specific range of frequencies and wavelengths.
+ A key concept in understanding electromagnetic waves is the **electromagnetic spectrum**, which includes all types of electromagnetic waves, from low-frequency, long-wavelength waves like radio waves to high-frequency, short-wavelength waves like \gamma rays. The electromagnetic spectrum is typically divided into several regions, each corresponding to a specific range of frequencies and wavelengths.
 
  Student-centric tip: When studying electromagnetic waves, it's helpful to create a comparison table of the different types of waves within the electromagnetic spectrum. This can aid in memorizing their characteristics, such as frequency range, wavelength range, and typical applications.
 
@@ -297,7 +297,7 @@ What are the Properties of Electromagnetic Waves? is a fundamental concept in ph
 
 Electromagnetic Waves is a form of energy that propagates through a medium, such as air, in the form of electromagnetic fields. It includes **electric field**, **magnetic field**, and **wave propagation**. For Class 12 exam prep in 2026, the most important aspect is understanding the **relationship between the electric and magnetic fields** and how they propagate through different mediums.
 
- To solve problems related to electromagnetic waves efficiently, it's crucial to remember the key formula: $c = \frac{1}{sqrt{mu_0 epsilon_0}}$, where $c$ is the speed of light, $mu_0$ is the permeability of free space, and $epsilon_0$ is the permittivity of free space. This formula helps in understanding how the speed of electromagnetic waves changes in different mediums.
+ To solve problems related to electromagnetic waves efficiently, it's crucial to remember the key formula: $c = \frac{1}{\sqrt{mu_0 epsilon_0}}$, where $c$ is the speed of light, $mu_0$ is the permeability of free space, and $epsilon_0$ is the permittivity of free space. This formula helps in understanding how the speed of electromagnetic waves changes in different mediums.
 
  A key shortcut or trick for solving electromagnetic wave problems is to remember the **properties of electromagnetic waves** in different mediums. For instance, in a vacuum, the speed of electromagnetic waves is constant and equals $c$, but in other mediums, it changes based on the medium's properties. Understanding these properties and how they affect the speed and behavior of electromagnetic waves is vital for solving problems.
 
@@ -306,21 +306,21 @@ Electromagnetic Waves is a form of energy that propagates through a medium, such
 
 | Medium | Speed | Permittivity | Permeability |
 | --- | --- | --- | --- |
-| Vacuum | $c = 3 	imes 10^8 m/s$ | $epsilon_0 = 8.85 	imes 10^{-12} F/m$ | $mu_0 = 4pi 	imes 10^{-7} Tm/A$ |
-| Air | $c approx 3 	imes 10^8 m/s$ | $epsilon_0 approx 8.85 	imes 10^{-12} F/m$ | $mu_0 approx 4pi 	imes 10^{-7} Tm/A$ |
-| Water | $c approx 2.25 	imes 10^8 m/s$ | $epsilon_0 approx 7.1 	imes 10^{-10} F/m$ | $mu_0 approx 4pi 	imes 10^{-7} Tm/A$ |
-| Glass | $c approx 2 	imes 10^8 m/s$ | $epsilon_0 approx 5 	imes 10^{-11} F/m$ | $mu_0 approx 4pi 	imes 10^{-7} Tm/A$ |
+| Vacuum | $c = 3 	imes 10^8 m/s$ | $epsilon_0 = 8.85 	imes 10^{-12} F/m$ | $mu_0 = 4\pi 	imes 10^{-7} Tm/A$ |
+| Air | $c approx 3 	imes 10^8 m/s$ | $epsilon_0 approx 8.85 	imes 10^{-12} F/m$ | $mu_0 approx 4\pi 	imes 10^{-7} Tm/A$ |
+| Water | $c approx 2.25 	imes 10^8 m/s$ | $epsilon_0 approx 7.1 	imes 10^{-10} F/m$ | $mu_0 approx 4\pi 	imes 10^{-7} Tm/A$ |
+| Glass | $c approx 2 	imes 10^8 m/s$ | $epsilon_0 approx 5 	imes 10^{-11} F/m$ | $mu_0 approx 4\pi 	imes 10^{-7} Tm/A$ |
 
 
 ## <a id="what-are-common-trap-questions-for-electromagnetic-waves"></a>What are common Trap Questions for Electromagnetic Waves?
 
-Electromagnetic Waves is a phenomenon where electric and magnetic fields vary simultaneously, propagating through space. It includes electromagnetic wave types such as radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays. For Class 12 exam prep in 2026, the most important aspect is understanding the characteristics of electromagnetic waves, including speed, frequency, wavelength, and the relationship between these quantities.
+Electromagnetic Waves is a phenomenon where electric and magnetic fields vary simultaneously, propagating through space. It includes electromagnetic wave types such as radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and \gamma rays. For Class 12 exam prep in 2026, the most important aspect is understanding the characteristics of electromagnetic waves, including speed, frequency, wavelength, and the relationship between these quantities.
 
  Trap questions often arise from the conceptual understanding of electromagnetic wave properties. A common trap is confusing the speed of electromagnetic waves in a vacuum ($c = 3 	imes 10^8$ m/s) with their speed in a medium, which can be calculated using the formula $v = \frac{c}{mu_r epsilon_r}$. Students must remember that the speed of light in a vacuum is constant, but it changes in different media.
 
- Another trap question involves the understanding of the electromagnetic spectrum. Students are often asked to arrange the electromagnetic waves in order of increasing frequency or wavelength. The correct order from lower frequency (or longer wavelength) to higher frequency (or shorter wavelength) is: radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays.
+ Another trap question involves the understanding of the electromagnetic spectrum. Students are often asked to arrange the electromagnetic waves in order of increasing frequency or wavelength. The correct order from lower frequency (or longer wavelength) to higher frequency (or shorter wavelength) is: radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and \gamma rays.
 
- Comparing the characteristics of different electromagnetic waves can help in understanding their applications and properties. For instance, radio waves have the longest wavelength and the lowest frequency, making them suitable for long-distance communication. On the other hand, gamma rays have the shortest wavelength and the highest frequency, which makes them useful in medical treatments and scientific research.
+ Comparing the characteristics of different electromagnetic waves can help in understanding their applications and properties. For instance, radio waves have the longest wavelength and the lowest frequency, making them suitable for long-distance communication. On the other hand, \gamma rays have the shortest wavelength and the highest frequency, which makes them useful in medical treatments and scientific research.
 
  A crucial concept that often leads to trap questions is the distinction between electromagnetic wave properties and the properties of the medium through which they propagate. The refractive index of a medium, for example, affects the speed of electromagnetic waves but not their frequency. This distinction is vital for understanding phenomena such as total internal reflection and dispersion.
 
@@ -420,7 +420,7 @@ Continue your revision with these related guides:
 
 ## 🔁 Last 5 Minutes Box
 
-* **Electromagnetic Spectrum**: Includes radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays
+* **Electromagnetic Spectrum**: Includes radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and \gamma rays
 * **Speed of Light (c)**: 3 x 10^8 m/s in vacuum
 * **Electromagnetic Wave Equation**: c = λν (speed = wavelength * frequency)
 * **Types of EM Waves**: 

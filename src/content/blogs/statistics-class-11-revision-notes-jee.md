@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/statistics-class-11-revision-notes-jee.webp"
 title: "Statistics Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
-description: "Statistics Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+description: "Statistics Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/mathematics/statistics-class-11-revision-notes-jee"
@@ -45,10 +45,10 @@ practice_link: "/class-11/mathematics/statistics-class-11-revision-notes-jee"
 
 > [!TIP]
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
-> - **Mean Deviation (M.D.):** $\frac{1}{n} \sum |x_i - \text{mean/median}|$.
-> - **Variance ($\sigma^2$):** $\frac{1}{n} \sum (x_i - \bar{x})^2$.
-> - **Standard Deviation ($\sigma$):** Positive square root of Variance.
-> - **Shortcut for Variance:** $\frac$\sum x_i^2${n} - (\bar{x})^2$.
+> - **Mean Deviation (M.D.):** $\frac{{1}{n} \sum |x_i - \text{mean/median}|}{\sigma^2} .
+> - **Variance ($):** $\frac{{1}{n} \sum (x_i - \bar{x})^2}{\sigma} .
+> - **Standard Deviation ($):** Positive square root of Variance.
+> - **Shortcut for Variance:** $\frac{{\sum x_i^2}{{n} - (\bar{x})^2}}{\bar{x}} .
 > - **Lower M.D./S.D.:** Indicates more consistent (less dispersed) data.
 > [**📥 Download 1-Page Short Notes PDF (Zero-Friction)**](#)
 
@@ -85,17 +85,17 @@ Dispersion refers to the scattering of data around a central value. Two sets of 
 Mean deviation can be calculated about the **Mean** or the **Median**.
 
 ### <a id="calculation-steps"></a>Calculation Steps:
-1.  Find the Mean ($\bar{x}$) or Median ($M$) of the data.
+1.  Find the Mean ($) or Median ($M$) of the data.
 2.  Find the absolute differences $|x_i - \bar{x}|$ or $|x_i - M|$.
 3.  Calculated the average of these absolute differences.
 
 **Formula for Ungrouped Data:**
 
-M.D. ($\bar{x}) = \frac$\sum |x_i - $\bar{x$$|}{n}$
+M.D. ($\bar{x}) = \frac$\sum |x_i - $\bar{x$|}{n}
 
 
 **Formula for Grouped Data:**
-$M.D. (\bar{x}) = \frac$\sum f_i |x_i - $\bar{x$|}{N}$ (where $N = \sum f_i$)$
+M.D. (\bar{x}) = \frac$\sum f_i |x_i - $\bar{x$|}{N}$ (where $N = \sum f_i$)
 
 ---
 
@@ -114,7 +114,7 @@ The average of the squared deviations from the mean.
 The square root of the variance. It is preferred because it shares the same units as the original data.
 - **Short Method for Discrete Frequency Distribution:**
 
-\sigma = $\frac{1}{N} $$\sqrt{N \sum f_i x_i^2 - (\sum f_i x_i)^2}$
+\sigma = $\frac{{1}{N} }{
 
 
 ---
@@ -128,7 +128,7 @@ Sometimes we need to compare two different [series](/blog/sequences-series-class
 
 ### <a id="coefficient-of-variation-cv"></a>Coefficient of Variation (C.V.):
 To compare dispersion between two sets with different means or units, we use C.V.
-- **Formula:** $C.V. = \frac{\sigma}{\bar{x}} \times 100$
+- **Formula:** } \sqrt{N \sum f_i x_i^2 - (\sum f_i x_i)^2}$C.V. = \frac{\sigma}{\bar{x}} \times 100$
 - **Consistency Rule:** The [series](/blog/sequences-series-class-11-revision-notes-jee) with a **lower C.V.** is said to be more stable or consistent.
 
 ---

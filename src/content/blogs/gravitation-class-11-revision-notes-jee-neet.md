@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/gravitation-class-11-revision-notes-jee-neet.webp"
 title: "Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+description: "Gravitation Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/physics/gravitation-class-11-revision-notes-jee-neet"

@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/ancient-india-vedic-age-class-11-revision-notes-jee.webp"
-title: "Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide"
-description: "Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Grandmaster Guide"
+description: "Ancient India Vedic Age Class 11 History Recap — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/mathematics/ancient-india-vedic-age-class-11-revision-notes-jee"

@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/structure-of-atom-class-11-revision-notes-jee-neet.webp"
-title: "Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Structure Of Atom Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Structure Of Atom Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Structure Of Atom Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/physics/structure-of-atom-class-11-revision-notes-jee-neet"
@@ -137,10 +137,10 @@ Most students treat this chapter as a bunch of formulas to memorize. I did the s
 
 ### <a id="rydberg-formula"></a>Rydberg Formula
 
-$\frac{1}{\lambda} = R_Z^2 \left[ $$\frac{1}{n_1^2}$ - $\frac{1}{n_2^2}$ \right]
+$\frac{{1}{\lambda} = R_Z^2 \left[ }{ \right]
 
 
-Where $R = 109677 \text{ cm}^{-1}$ (or roughly $1.1 \times 10^7 \text{ m}^{-1}$).
+Where } \frac{1}{n_1^2} - \frac{1}{n_2^2}$R = 109677 \text{ cm}^{-1}$ (or roughly $1.1 \times 10^7 \text{ m}^{-1}$).
 
 ### <a id="spectral-series-table"></a>Spectral Series Table
 | Series | $n_1$ | $n_2$ | Region |
@@ -151,7 +151,7 @@ Where $R = 109677 \text{ cm}^{-1}$ (or roughly $1.1 \times 10^7 \text{ m}^{-1}$)
 | Brackett | 4 | 5, 6, 7... | IR |
 | Pfund | 5 | 6, 7, 8... | Far-IR |
 
-**Shortcut Trick**: The number of possible spectral lines when an electron jumps from $n$ to ground state is $\frac{n(n-1)}{2}$.
+**Shortcut Trick**: The number of possible spectral lines when an electron jumps from $n$ to ground state is $\frac{{n(n-1)}{2}}{\frac{h}{mv} = } .
 
 ---
 
@@ -165,12 +165,12 @@ Where $R = 109677 \text{ cm}^{-1}$ (or roughly $1.1 \times 10^7 \text{ m}^{-1}$)
 **The Dual Nature of [matter](/blog/states-of-matter-class-11-revision-notes-jee-neet) describes how every moving particle, from a cricket ball to an electron, exhibits both wave-like and particle-like properties.**
 
 
-\lambda = $\frac{h}{mv} = $$\frac{h}{p}$
+\lambda = $\frac{h}{p}$
 
 
 
 For a microscopic electron, $\lambda$ is significant ($\sim$ atomic dimensions), but for a macroscopic ball, $\lambda$ is $10^{-34}$ m, making its wave nature undetectable.
-- **JEE Trick**: If kinetic energy ($K$) is given, $\lambda = \frac{h}\sqrt{2mK$}$.$
+- **JEE Trick**: If kinetic energy ($K$) is given, $\lambda = \frac{h}\sqrt{2mK}$$.$ $$
 
 ---
 
@@ -184,7 +184,7 @@ For a microscopic electron, $\lambda$ is significant ($\sim$ atomic dimensions),
 **Heisenberg's Uncertainty Principle states that it is impossible to simultaneously measure the exact position ($\Delta x$) and exact momentum ($\Delta p$) of a subatomic particle with absolute precision.**
 
 
-\Delta x \cdot \Delta p \geq $\frac{h}{4\pi}$
+\Delta x \cdot \Delta p \geq $\frac{{h}{4\pi}}{\psi} 
 
 
 
@@ -204,7 +204,7 @@ This isn't about "bad microscopes." It's a fundamental property of the universe.
 In this model:
 - Orbitals take the place of Orbits.
 - An **Orbital** is a 3D space where the probability of finding an electron is maximum (>90%).
-- $\psi$ (Psi) has no physical meaning, but $\psi^2$ (Probability Density) is the actual chance of finding the electron.
+- $ (Psi) has no physical meaning, but $\psi^2$ (Probability Density) is the actual chance of finding the electron.
 
 ---
 
@@ -293,8 +293,8 @@ For an orbital with quantum numbers $n$ and $l$:
 | **E (Photon)** | $E = \frac{12400}{\lambda (\text{\AA})} \text{ eV}$ | Rapid $\lambda \rightarrow E$ conversion. |
 | **Max Electrons** | $2n^2$ in a shell | Total count. |
 | **Max Electrons** | $2(2l+1)$ in a subshell | $s=2, p=6, d=10, f=14$. |
-| **Spectral Lines** | $\frac{(n_2-n_1)(n_2-n_1+1)}{2}$ | When jumping between ANY two levels. |
-| **Orbital Ang. Mom.** | $\sqrt{l(l+1)} \frac{h}{2\pi}$ | JEE Advanced favorite. |
+| **Spectral Lines** | $\frac{{(n_2-n_1)(n_2-n_1+1)}{2}}{\sqrt{l(l+1)} \frac{h}{2\pi}}  | When jumping between ANY two levels. |
+| **Orbital Ang. Mom.** | $ | JEE Advanced favorite. |
 
 ---
 
@@ -356,10 +356,10 @@ A) $V/3$
 B) $4V/3$
 C) $2V/3$
 D) $3V/2$
-*Answer: B ($V \propto Z/n$. For $H$, $V_H \propto 1/2$. For $He^+$, $V_{He} \propto 2/3$. Ratio: $\frac{2/3}{1/2} = 4/3$).*
+*Answer: B ($V \propto Z/n$. For $H$, $V_H \propto 1/2$. For $He^+$, $V_{He} \propto 2/3$. Ratio: $\frac{{2/3}{1/2} = 4/3}{6.6 \times 10^{-34} \text{ m}} ).*
 
 **Q4. The wavelength of a macroscopic object (1 kg) moving at 1 m/s is:** [NEET Easy]  
-A) $6.6 \times 10^{-34} \text{ m}$
+A) 
 B) $6.6 \times 10^{-31} \text{ m}$
 C) $6.6 \times 10^{-37} \text{ m}$
 D) Undefinable

@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/comparing-quantities-class-8-notes.webp"
-title: "Comparing Quantities Class 8 Mathematics Recap — Grandmaster Guide"
-description: "Comparing Quantities Class 8 Mathematics Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-16."
+title: "Comparing Quantities 8 Class 8 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Comparing Quantities 8 Class 8 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Exam Notes"
 date: "2026-04-16"
 practice_link: "/class-8/mathematics/comparing-quantities"
@@ -20,17 +20,17 @@ manualReview: false
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Ratio:** RAC{a}{b} — a is the first quantity and b is the second quantity,- **Proportion:** a:b = c:d Right arrow RAC{a}{b} = RAC{c}{d} — a, b, c, and d are the quantities in proportion,- **Percentage:** RAC{x}{100} 	times 100% = x% — x is the percentage value,- **Percentage Increase:** RAC{	ext{Increase in Value}}{	ext{Original Value}} 	times 100% — calculates the percentage increase,- **Percentage Decrease:** RAC{	ext{Decrease in Value}}{	ext{Original Value}} 	times 100% — calculates the percentage decrease,- **Compound Interest (CI):** A = Left(1 + RAC{r}{100}light)^ — A is the amount, P is the principal, r is the rate of interest, and n is the time period,- **Simple Interest (SI):**  = {P 	  t}{100} — SI is the simple interest, P is the principal, r is the rate of interest, and t is the time period,- **Discount:** 	ext{Discount} = 	ext{Marked Price} - 	ext{Selling Price} — calculates the discount amount,- **Profit Percentage:** {	ext{Profit}}{	ext{Cost Price}} 	 100% — calculates the profit percentage,- **Loss Percentage:** {	ext{Loss}}{	ext{Cost Price}} 	 100% — calculates the loss percentage,- **GST (Goods and Services Tax):** 	ext{GST Amount} = {	ext{Original Price} 	 	ext{GST Rate}}{100} — calculates the GST amount,- **Sales Tax:** 	ext{Sales Tax Amount} = {	ext{Original Price} 	 	ext{Sales Tax Rate}}{100} — calculates the sales tax amount,- **Commission:** 	ext{Commission Amount} = {	ext{Total Amount} 	 	ext{Commission Rate}}{100} — calculates the commission amount
+- **Ratio:** \fRAC{a}{b} — a is the first quantity and b is the second quantity,- **Proportion:** a:b = c:d Right arrow \fRAC{a}{b} = \fRAC{c}{d} — a, b, c, and d are the quantities in proportion,- **Percentage:** \fRAC{x}{100} 	times 100% = x% — x is the percentage value,- **Percentage Increase:** \fRAC{\text{Increase in Value}}{\text{Original Value}} 	times 100% — calculates the percentage increase,- **Percentage Decrease:** \fRAC{\text{Decrease in Value}}{\text{Original Value}} 	times 100% — calculates the percentage decrease,- **Compound Interest (CI):** A = Left(1 + \fRAC{r}{100}light)^ — A is the amount, P is the principal, r is the rate of interest, and n is the time period,- **Simple Interest (SI):**  = \f{P 	  t}{100} — SI is the simple interest, P is the principal, r is the rate of interest, and t is the time period,- **Discount:** \text{Discount} = \text{Marked Price} - \text{Selling Price} — calculates the discount amount,- **Profit Percentage:** \f{\text{Profit}}{\text{Cost Price}} 	 100% — calculates the profit percentage,- **Loss Percentage:** \f{\text{Loss}}{\text{Cost Price}} 	 100% — calculates the loss percentage,- **GST (Goods and Services Tax):** \text{GST Amount} = \f{\text{Original Price} 	 \text{GST Rate}}{100} — calculates the GST amount,- **Sales Tax:** \text{Sales Tax Amount} = \f{\text{Original Price} 	 \text{Sales Tax Rate}}{100} — calculates the sales tax amount,- **Commission:** \text{Commission Amount} = \f{\text{Total Amount} 	 \text{Commission Rate}}{100} — calculates the commission amount
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
 - **Mistake 1:** Incorrect Base for Percentage Change
 
-- *Error:* Applying percentage increase/decrease on the wrong base value. For example, if a quantity *increases* from A to BY, the percentage increase is $\franc{B-A}{A} 	imes 10$}
+- *Error:* Applying percentage increase/decrease on the wrong base value. For example, if a quantity *increases* from A to BY, the percentage increase is $\frac{{B-A}{A} 	imes 10}{₹1500} }
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
-- **Q1:** A \sum of money is divided among A, B, and C in the ratio 2:3:5. If B gets $₹1500$, what is the total \sum of money, and what is C's share?
+- **Q1:** A \sum of money is divided among A, B, and C in the ratio 2:3:5. If B gets $, what is the total \sum of money, and what is C's share?
  - **Trap:** Students might incorrectly assume the total ratio
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
@@ -59,13 +59,13 @@ manualReview: false
 
 - To find the final amount after successive changes, they multiply the original amount by each individual multiplier in sequence.
 
-- **Formula for successive changes:** If an original quantity HQ_{original}$ undergoes a UP_1\%$ change (increase/decrease) followed by a UP_2\%$ change (increase/decrease), the final quantity HQ_{final}$ is:
- BBQ_{final} = Q_{original} 	imes \left(1 \pm \franc{P_1}{100}\right) 	imes \left(1 \pm \franc{P_2}{100}\right)
+- **Formula for successive changes:** If an original quantity HQ_{original}$ undergoes a UP_1\%$ change (increase/decrease) followed by a UP_2\%$ change (increase/decrease), the final quantity HQ_{final}$1 
+
  (Use '+' for increase, '-' for decrease).
 
 - **Example:** If an item's price is UP, and it increases by $10\%$ then by $20\%$, a 95% scorer calculates:
 
-- First change: UP 	imes (1 + 10/100) = P 	imes 1.10$
+- First change: UP 	imes (1 + 10/100) = P 	imes 1.10
 
 - Second change (on the new base): $(P 	imes 1.10) 	imes (1 + 20/100) = P 	imes 1.10 	imes 1.20$
 
@@ -79,7 +79,7 @@ manualReview: false
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- **Ayush's Critical Pattern (Comparing Quantities):** Analysis of the last 15 years of Yes and official exam blueprints reveals that Comparing Quantities is a "High-Value, High-Risk" area. Examiners often shift the focus from direct definitions to multi-step application problems.
+- **Ayush's Critical Pattern (Comparing Quantities):** Analysis of the last 15 years of PYQs and official exam blueprints reveals that Comparing Quantities is a "High-Value, High-Risk" area. Examiners often shift the focus from direct definitions to multi-step application problems.
 
 - **The "Trap" Recognition:** In Comparing Quantities, the most common mistake (made by ~70% of students) involves misapplying core concepts under time pressure. Always verify the units and boundary conditions before selecting an answer.
 

@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/haloalkanes-and-haloarenes-class-12-notes.webp"
-title: "Haloalkanes and Haloarenes Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Haloalkanes and Haloarenes Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-29."
+title: "Haloalkanes And Haloarenes Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Haloalkanes And Haloarenes Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-29"
 practice_link: "/class-11/chemistry/haloalkanes-and-haloarenes-class-12-notes"
@@ -37,36 +37,36 @@ practice_link: "/class-11/chemistry/haloalkanes-and-haloarenes-class-12-notes"
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-$SN_1$ Reaction: $R-X + Nu^- \rightarrow R-Nu + X^-$, where $R$ = alkyl group, $X$ = halogen, $Nu$ = nucleophile. 
- $SN_2$ Reaction: $R-X + Nu^- \rightarrow R-Nu + X^-$, where $R$ = alkyl group, $X$ = halogen, $Nu$ = nucleophile. 
- Dehydrohalogenation: $R-X + NaOH \rightarrow R-H + NaX + H_2O$, where $R$ = alkyl group, $X$ = halogen. 
- $E1$ Reaction: $R-X \rightarrow R^+ + X^-$, where $R$ = alkyl group, $X$ = halogen. 
- $E2$ Reaction: $R-X + Nu^- \rightarrow R-H + Nu-X$, where $R$ = alkyl group, $X$ = halogen, $Nu$ = nucleophile. 
- Electrophilic Substitution: $Ar-H + X^+ \rightarrow Ar-X + H^+$, where $Ar$ = aryl group, $X$ = halogen. 
- Nucleophilic Substitution: $R-X + Nu^- \rightarrow R-Nu + X^-$, where $R$ = alkyl group, $X$ = halogen, $Nu$ = nucleophile. 
- $S_NAr$ Reaction: $Ar-X + Nu^- \rightarrow Ar-Nu + X^-$, where $Ar$ = aryl group, $X$ = halogen, $Nu$ = nucleophile. 
- Sandmeyer Reaction: $Ar-N_2^+ + CuX \rightarrow Ar-X + N_2 + Cu^+$, where $Ar$ = aryl group, $X$ = halogen. 
- Rosenmund-von Braun Reaction: $Ar-COOH + Cu_2O + X_2 \rightarrow Ar-X + CuX + CO$, where $Ar$ = aryl group, $X$ = halogen. 
- $\Delta G = \Delta H - T\Delta S$, where $\Delta G$ = Gibbs free energy, $\Delta H$ = enthalpy, $T$ = temperature, $\Delta S$ = entropy. 
- $K = \frac{[products]}{[reactants]}$, where $K$ = equilibrium constant, $[products]$ = concentration of products, $[reactants]$ = concentration of reactants.$E_a = \Delta H + RT$, where $E_a$ = activation energy, $\Delta H$ = enthalpy, $R$ = gas constant, $T$ = temperature. 
- $R = 8.314 J/(mol \times K)$, where $R$ = gas constant. 
- $S_N1$ and $S_N2$ mechanisms: $k = \frac{k_1 k_2}{k_{-1}}$, where $k$ = rate constant, $k_1$ = rate constant for first step, $k_2$ = rate constant for second step, $k_{-1}$ = rate constant for reverse reaction.
- Hammond-Leffler Postulate: $\Delta G^{\ddagger} = \Delta G_{rxn} + \Delta G_{TS}$, where $\Delta G^{\ddagger}$ = Gibbs free energy of activation, $\Delta G_{rxn}$ = Gibbs free energy of reaction, $\Delta G_{TS}$ = Gibbs free energy of transition state. 
- $SN_1$ and $SN_2$ Reactions: $\frac{dx}{dt} = k[R-X]$, where $\frac{dx}{dt}$ = rate of reaction, $k$ = rate constant, $[R-X]$ = concentration of substrate. 
- Electrophilic Aromatic Substitution: $\frac{dx}{dt} = k[Ar-H][X^+]$, where $\frac{dx}{dt}$ = rate of reaction, $k$ = rate constant, $[Ar-H]$ = concentration of aryl group, $[X^+]$ = concentration of electrophile.
+$SN_1$ Reaction: $R-X + Nu^- \rightarrow R-Nu + X^-$, where $R = alkyl group, $X = halogen, $Nu = nucleophile. 
+ $SN_2$ Reaction: $R-X + Nu^- \rightarrow R-Nu + X^-$, where $R = alkyl group, $X = halogen, $Nu = nucleophile. 
+ Dehydrohalogenation: $R-X + NaOH \rightarrow R-H + NaX + H_2O$, where $R = alkyl group, $X = halogen. 
+ $E1$ Reaction: $R-X \rightarrow R^+ + X^-$, where $R = alkyl group, $X = halogen. 
+ $E2$ Reaction: $R-X + Nu^- \rightarrow R-H + Nu-X$, where $R = alkyl group, $X = halogen, $Nu = nucleophile. 
+ Electrophilic Substitution: $Ar-H + X^+ \rightarrow Ar-X + H^+$, where $Ar = aryl group, $X = halogen. 
+ Nucleophilic Substitution: $R-X + Nu^- \rightarrow R-Nu + X^-$, where $R = alkyl group, $X = halogen, $Nu = nucleophile. 
+ $S_NAr$ Reaction: $Ar-X + Nu^- \rightarrow Ar-Nu + X^-$, where $Ar = aryl group, $X = halogen, $Nu = nucleophile. 
+ Sandmeyer Reaction: $Ar-N_2^+ + CuX \rightarrow Ar-X + N_2 + Cu^+$, where $Ar = aryl group, $X = halogen. 
+ Rosenmund-von Braun Reaction: $Ar-COOH + Cu_2O + X_2 \rightarrow Ar-X + CuX + CO$, where $Ar = aryl group, $X = halogen. 
+ $\Delta G = \Delta H - T\Delta S$, where $\Delta G = Gibbs free energy, $\Delta H = enthalpy, $T = temperature, $\Delta S = entropy. 
+ $K = \frac{[products]}{[reactants]}$, where $K = equilibrium constant, $[products] = concentration of products, $[reactants] = concentration of reactants.$E_a = \Delta H + RT$, where $E_a = activation energy, $\Delta H = enthalpy, $R = gas constant, $T = temperature. 
+ $R = 8.314 J/(mol \times K)$, where $R = gas constant. 
+ $S_N1$ and $S_N2$ mechanisms: $k = \frac{k_1 k_2}{k_{-1}}$, where $k = rate constant, $k_1 = rate constant for first step, $k_2 = rate constant for second step, $k_{-1} = rate constant for reverse reaction.
+ Hammond-Leffler Postulate: $\Delta G^{\ddagger} = \Delta G_{rxn} + \Delta G_{TS}$, where $\Delta G^{\ddagger} = Gibbs free energy of activation, $\Delta G_{rxn} = Gibbs free energy of reaction, $\Delta G_{TS} = Gibbs free energy of transition state. 
+ $SN_1$ and $SN_2$ Reactions: $\frac{{dx}{dt} = k[R-X]}{\frac{dx}{dt} = rate of reaction, } , where $k = rate constant, $[R-X] = concentration of substrate. 
+ Electrophilic Aromatic Substitution: $\frac{{dx}{dt} = k[Ar-H][X^+]}{\frac{dx}{dt} = rate of reaction, } , where $k = rate constant, $[Ar-H] = concentration of aryl group, $[X^+] = concentration of electrophile.
 
 | Reaction | Equation | Variables |
 | --- | --- | --- |
-| $SN_1$ Reaction | $R-X + Nu^- \rightarrow R-Nu + X^-$ | $R$ = alkyl group, $X$ = halogen, $Nu$ = nucleophile |
-| $SN_2$ Reaction | $R-X + Nu^- \rightarrow R-Nu + X^-$ | $R$ = alkyl group, $X$ = halogen, $Nu$ = nucleophile |
-| Dehydrohalogenation | $R-X + NaOH \rightarrow R-H + NaX + H_2O$ | $R$ = alkyl group, $X$ = halogen |
-| $E1$ Reaction | $R-X \rightarrow R^+ + X^-$ | $R$ = alkyl group, $X$ = halogen |
-| $E2$ Reaction | $R-X + Nu^- \rightarrow R-H + Nu-X$ | $R$ = alkyl group, $X$ = halogen, $Nu$ = nucleophile |
-| Electrophilic Substitution | $Ar-H + X^+ \rightarrow Ar-X + H^+$ | $Ar$ = aryl group, $X$ = halogen |
-| Nucleophilic Substitution | $R-X + Nu^- \rightarrow R-Nu + X^-$ | $R$ = alkyl group, $X$ = halogen, $Nu$ = nucleophile |
-| $S_NAr$ Reaction | $Ar-X + Nu^- \rightarrow Ar-Nu + X^-$ | $Ar$ = aryl group, $X$ = halogen, $Nu$ = nucleophile |
-| Sandmeyer Reaction | $Ar-N_2^+ + CuX \rightarrow Ar-X + N_2 + Cu^+$ | $Ar$ = aryl group, $X$ = halogen |
-| Rosenmund-von Braun Reaction | $Ar-COOH + Cu_2O + X_2 \rightarrow Ar-X + CuX + CO$ | $Ar$ = aryl group, $X$ = halogen |
+| $SN_1$ Reaction | $R-X + Nu^- \rightarrow R-Nu + X^-$ | $R = alkyl group, $X = halogen, $Nu = nucleophile |
+| $SN_2$ Reaction | $R-X + Nu^- \rightarrow R-Nu + X^-$ | $R = alkyl group, $X = halogen, $Nu = nucleophile |
+| Dehydrohalogenation | $R-X + NaOH \rightarrow R-H + NaX + H_2O$ | $R = alkyl group, $X = halogen |
+| $E1$ Reaction | $R-X \rightarrow R^+ + X^-$ | $R = alkyl group, $X = halogen |
+| $E2$ Reaction | $R-X + Nu^- \rightarrow R-H + Nu-X$ | $R = alkyl group, $X = halogen, $Nu = nucleophile |
+| Electrophilic Substitution | $Ar-H + X^+ \rightarrow Ar-X + H^+$ | $Ar = aryl group, $X = halogen |
+| Nucleophilic Substitution | $R-X + Nu^- \rightarrow R-Nu + X^-$ | $R = alkyl group, $X = halogen, $Nu = nucleophile |
+| $S_NAr$ Reaction | $Ar-X + Nu^- \rightarrow Ar-Nu + X^-$ | $Ar = aryl group, $X = halogen, $Nu = nucleophile |
+| Sandmeyer Reaction | $Ar-N_2^+ + CuX \rightarrow Ar-X + N_2 + Cu^+$ | $Ar = aryl group, $X = halogen |
+| Rosenmund-von Braun Reaction | $Ar-COOH + Cu_2O + X_2 \rightarrow Ar-X + CuX + CO$ | $Ar = aryl group, $X = halogen |
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 

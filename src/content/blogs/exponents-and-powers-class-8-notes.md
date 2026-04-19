@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/exponents-and-powers-class-8-notes.webp"
-title: "Exponents and Powers Class 8 Mathematics Recap — Grandmaster Guide"
-description: "Exponents and Powers Class 8 Mathematics Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-17."
+title: "Exponents And Powers 8 Class 8 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Exponents And Powers 8 Class 8 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Exam Notes"
 date: "2026-04-17"
 practice_link: "/class-8/mathematics/exponents-and-powers"
@@ -23,14 +23,14 @@ manualReview: false
 
 - **Laws of Exponents:** a^m cdot a^n = a^{m+n} — $a$ is the base, $m$ and $n$ are exponents.
  - **Product of Powers:** a^m cdot b^m = (a cdot b)^m — $a$ and $b$ are bases, $m$ is the exponent.
- - **Quotient of Powers:** rac{a^m}{a^n} = a^{m-n} — $a$ is the base, $m$ and $n$ are exponents.
+ - **Quotient of Powers:** \frac{a^m}{a^n} = a^{m-n} — $a$ is the base, $m$ and $n$ are exponents.
  - **Power of a Power:** left(a^might)^n = a^{m cdot n} — $a$ is the base, $m$ and $n$ are exponents.
  - **Power of a Product:** left(a cdot bight)^n = a^n cdot b^n — $a$ and $b$ are bases, $n$ is the exponent.
- - **Power of a Quotient:** left(rac{a}{b}ight)^n = rac{a^n}{b^n} — $a$ and $b$ are bases, $n$ is the exponent.
+ - **Power of a Quotient:** left(\frac{a}{b}ight)^n = \frac{a^n}{b^n} — $a$ and $b$ are bases, $n$ is the exponent.
  - **Zero Exponent:** a^0 = 1 — $a$ is any non-zero base.
- - **Negative Exponent:** a^{-n} = rac{1}{a^n} — $a$ is the base, $n$ is the exponent.
- - **Fractional Exponent:** a^{rac{m}{n}} = sqrt[n]{a^m} — $a$ is the base, $m$ and $n$ are integers.
- - **Rational Exponent:** a^{rac{p}{q}} = sqrt[q]{a^p} — $a$ is the base, $p$ and $q$ are integers.
+ - **Negative Exponent:** a^{-n} = \frac{1}{a^n} — $a$ is the base, $n$ is the exponent.
+ - **Fractional Exponent:** a^{\frac{m}{n}} = sqrt[n]{a^m} — $a$ is the base, $m$ and $n$ are integers.
+ - **Rational Exponent:** a^{\frac{p}{q}} = sqrt[q]{a^p} — $a$ is the base, $p$ and $q$ are integers.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -63,7 +63,7 @@ manualReview: false
 - **How to Apply It:** ** To apply this pattern, students should first identify the base and exponents in the given expression. Then, they should look for opportunities to simplify the expression using the exponent rules. This can involve combining like terms, cancelling out common factors, or rearranging the expression to make it easier to work with. For example, if a question asks to simplify $2^3 	imes 2^4$, the correct approach would be to apply the formula $a^m 	imes a^n = a^{m+n}$, resulting in $2^{3+4} = 2^7$.
  "
 
-- **PYQ-Specific Trend:** A trend observed in PYQs is the frequent use of negative exponents and fractional exponents. Students should be prepared to handle these types of exponents and understand how to simplify expressions involving them. For instance, the expression $2^{-3}$ can be simplified as $rac{1}{2^3}$, and the expression $2^{rac{1}{2}}$ can be simplified as $sqrt{2}$. By recognizing this trend and applying the exponent rules, students can improve their chances of solving PYQs correctly.
+- **PYQ-Specific Trend:** A trend observed in PYQs is the frequent use of negative exponents and fractional exponents. Students should be prepared to handle these types of exponents and understand how to simplify expressions involving them. For instance, the expression $2^{-3}$ can be simplified as $\frac{1}{2^3}$, and the expression $2^{\frac{1}{2}}$ can be simplified as $sqrt{2}$. By recognizing this trend and applying the exponent rules, students can improve their chances of solving PYQs correctly.
  "
 
 - **Additional Tip:** Another important aspect to focus on is the use of $0$ and $1$ as exponents. According to the exponent rules, any non-zero number raised to the power of $0$ is equal to $1$, and any non-zero number raised to the power of $1$ is equal to itself. For example, $2^0 = 1$ and $2^1 = 2$. These rules can be useful in simplifying expressions and solving equations involving exponents.
@@ -170,7 +170,6 @@ Put your knowledge to the test! Take the free [**Practice Mock Test**](/class-8/
 
 ---
 *This post was curated by Jules, Exam Compass Bot, and edited for accuracy by Ayush.*
-
 
 
 ---

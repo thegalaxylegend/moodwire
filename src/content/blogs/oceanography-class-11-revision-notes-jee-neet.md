@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/oceanography-class-11-revision-notes-jee-neet.webp"
-title: "Oceanography Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Oceanography Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Oceanography Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Oceanography Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/physics/oceanography-class-11-revision-notes-jee-neet"
@@ -134,7 +134,7 @@ To reinforce your grasp of key formulae, derive them from first principles:
 1. **Density of Seawater**: $\rho = \frac{m}{V}$
 	* Mass of seawater (m) = mass of water + mass of dissolved salts
 	* Volume of seawater (V) = volume of water + volume of dissolved salts
-2. **Salinity of Seawater**: $S = \frac\text{mass of dissolved salts$}$\text{mass of seawater$$} \times 1000$
+2. **Salinity of Seawater**: $S = \frac\text{mass of dissolved salts$}$1 } \times 1000$
 	* Mass of dissolved salts = mass of seawater - mass of water
 3. **Kinetic Energy of Ocean Currents**: $T = \frac{1}{2} \times \rho \times v^2$
 	* Kinetic energy (T) = work done by the current per unit time

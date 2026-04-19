@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/nuclei-class-12-notes.webp"
 title: "Nuclei Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Nuclei Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-29."
+description: "Nuclei Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-29"
 practice_link: "/class-11/physics/nuclei-class-12-notes"
@@ -29,30 +29,22 @@ practice_link: "/class-11/physics/nuclei-class-12-notes"
 * Radioactive decay series — 1 question on mode of decay and half-life, always
 * Nuclear fission and fusion reactions — balanced equations and energy release, expect 1-2 questions
 * Mass defect and packing fraction — 1 numerical, always
-* $\frac{N}{Z}$ ratio and its relation to nuclear stability — NEET favourite, expect a short-answer question
-* Nuclear reactions with $Q$-value — 1 numerical, always
+* $\frac{{N}{Z}}{Q}  ratio and its relation to nuclear stability — NEET favourite, expect a short-answer question
+* Nuclear reactions with $1 
 
-## <a id="-formula-bank"></a>⚡ Formula Bank
-
-| Formula | Variable Meaning |
-| --- | --- |
-
-| E = \Delta mc^2 | E: Energy, \Delta m: Mass defect, c: Speed of light |
-
-| \lambda = \frac{h}{m v} | \lambda: De Broglie wavelength, h: Planck's constant, m: Mass, v: Velocity |
 
 | R = R_0 A^{\frac{1}{3}} | R: Nuclear radius, $R_0$: Constant, A: Mass number |
 | E_{binding} = \frac{3}{5} \frac{3 Z^2 e^2}{4 \pi \epsilon_0 R} | $E_{binding}$: Binding energy, Z: Atomic number, e: Charge, $\epsilon_0$: Permittivity |
 | \frac{N}{N_0} = e^{-\lambda t} | N: Number of nuclei, $N_0$: Initial number, \lambda: Decay constant, t: Time |
-| T_{\frac{1}{2}} = \frac{0.693}{\lambda} | $T_$\frac{1${2}}$: Half-life, \lambda: Decay constant |
+| T_{\frac{1}{2}} = \frac{0.693}{\lambda} | $T_$\frac{{1}{: Half-life, \lambda: Decay constant |
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
 When solving problems related to nuclei, watch out for these common mistakes: 
- Mistake: Using $E = mc^2$ without converting mass to kg, 
+ Mistake: Using } {2}}$E = mc^2$ without converting mass to kg, 
  Costs: Full 4 marks, 
  Fix: Always convert grams to kg. 
- Mistake: Forgetting to apply the $\frac{1}{2}mv^2$ formula for kinetic energy of a nucleus when calculating the binding energy per nucleon using $\Delta E = \Delta mc^2$, 
+ Mistake: Forgetting to apply the $\frac{{1}{2}mv^2}{\Delta E = \Delta mc^2}  formula for kinetic energy of a nucleus when calculating the binding energy per nucleon using $, 
  Costs: 3 marks, 
  Fix: Always calculate the kinetic energy of the nucleus. 
  Mistake: Writing the nuclear reaction equation without balancing the mass and atomic numbers using $A$ and $Z$, 
@@ -68,8 +60,8 @@ When solving problems related to nuclei, watch out for these common mistakes:
 | Mistake | Costs | Fix |
 | --- | --- | --- |
 | Using $E = mc^2$ without converting mass to kg | Full 4 marks | Always convert grams to kg |
-| Forgetting $\frac{1}{2}mv^2$ in binding energy calculation | 3 marks | Always calculate kinetic energy of nucleus |
-| Not balancing mass and atomic numbers | 2 marks | Ensure $A_i = A_f$ and $Z_i = Z_f$ |
+| Forgetting $\frac{{1}{2}mv^2}{A_i = A_f}  in binding energy calculation | 3 marks | Always calculate kinetic energy of nucleus |
+| Not balancing mass and atomic numbers | 2 marks | Ensure $ and $Z_i = Z_f$ |
 | Incorrect binding energy per nucleon calculation | 4 marks | Calculate $\Delta m$ first then apply $B.E. = (\Delta m) \times c^2$ |
 | Ignoring units in nuclear radius calculation | 2 marks | Ensure units are in meters |
 
@@ -113,7 +105,7 @@ Q: The activity of a radioactive substance is $2.0 \times 10^{-6}$ curie. If its
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
-The key concept that differentiates 85% scorers from 95% scorers in the topic of Nuclei is the understanding of nuclear stability in terms of binding energy per nucleon, given by the equation $\frac$\Delta E${A}$, where $\Delta E$ is the binding energy and $A$ is the mass number. Most students fail to recognize that a higher binding energy per nucleon $\left(\frac$\Delta E${A}\right)$ indicates a more stable nucleus. The curve of binding energy per nucleon versus mass number has a peak around iron ($_{26}Fe^{56}$), which is the most stable nucleus. Students often mistakenly assume that the nucleus with the highest binding energy is the most stable, rather than the one with the highest binding energy per nucleon.
+The key concept that differentiates 85% scorers from 95% scorers in the topic of Nuclei is the understanding of nuclear stability in terms of binding energy per nucleon, given by the equation $\frac{{\Delta E}{{A}}}{\Delta E} , where $ is the binding energy and $A$ is the mass number. Most students fail to recognize that a higher binding energy per nucleon $\left(\frac$\Delta E${A}\right)$ indicates a more stable nucleus. The curve of binding energy per nucleon versus mass number has a peak around iron ($_{26}Fe^{56}$), which is the most stable nucleus. Students often mistakenly assume that the nucleus with the highest binding energy is the most stable, rather than the one with the highest binding energy per nucleon.
 
 | Nucleus | Binding Energy per Nucleon |
 | --- | --- |
@@ -123,7 +115,7 @@ The key concept that differentiates 85% scorers from 95% scorers in the topic of
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-For Nuclei, remember the pattern of $\beta$ decay and its relation to the neutron-proton ratio. The stability curve can be expressed as $Z = \frac{A}{2.24 + 0.0075A^{2/3}}$. Note that for every 10 units of $A$, $\Delta Z$ is approximately 0.35 units, as observed from the last 5 years of PYQs. For nuclei with $A > 20$, the binding energy per nucleon can be calculated using $\frac$\Delta E${A} = 15.7 - \frac{17.8}{A^{1/3}} - \frac{0.7Z^{2}}{A^{4/3}} + \frac{23.7(Z-2A/5)^{2}}{A^{2}}$
+For Nuclei, remember the pattern of $\beta$ decay and its relation to the neutron-proton ratio. The stability curve can be expressed as $Z = \frac{A}{2.24 + 0.0075A^{2/3}}$. Note that for every 10 units of $A$, $\Delta Z$ is approximately 0.35 units, as observed from the last 5 years of PYQs. For nuclei with $A > 20$, the binding energy per nucleon can be calculated using $\frac{{\Delta E}{{A} = 15.7 - \frac{17.8}{A^{1/3}} - \frac{0.7Z^{2}}{A^{4/3}} + \frac{23.7(Z-2A/5)^{2}}{A^{2}}}}{E = \Delta mc^2} 
 
 | Mass Number (A) | Proton Number (Z) | Neutron Number (N) | Stability |
 | --- | --- | --- | --- |
@@ -143,10 +135,10 @@ For Nuclei, remember the pattern of $\beta$ decay and its relation to the neutro
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 Key Formulas:
- * $E = \Delta mc^2$
+ * $
  * $\lambda = \frac{h}{p}$
- * $\frac{N}{N_0} = e^{-\lambda t}$
- * $E_{binding} = \Delta mc^2 = (Zm_p + (A-Z)m_n - m_nucleus)c^2$
+ * $\frac{{N}{N_0} = e^{-\lambda t}}{E_{binding} = \Delta mc^2 = (Zm_p + (A-Z)m_n - m_nucleus)c^2} 
+ * $
  * $R = R_0A^{\frac{1}{3}}$
  Key Facts:
  * Nuclear force is the strongest force in [nature](/blog/dual-nature-of-radiation-class-12-notes)
@@ -170,13 +162,13 @@ Key Formulas:
 
 **Answer:**
 A) Deuteron has a binding energy of 2.2 MeV
-**2. Which of the following radioactive decay modes involves the emission of an alpha particle?**
+**2. Which of the following radioactive decay modes involves the emission of an \alpha particle?**
 Beta minus decay
 Beta plus decay
 Gamma decay
 Alpha decay
 
-**Answer:** D) Alpha decay involves the emission of an alpha particle (2 protons and 2 neutrons) from the nucleus
+**Answer:** D) Alpha decay involves the emission of an \alpha particle (2 protons and 2 neutrons) from the nucleus
 
 **3. The process by which two or more atomic nuclei combine to form a single, heavier nucleus is called**
 Nuclear fission

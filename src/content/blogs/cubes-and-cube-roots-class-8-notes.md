@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/cubes-and-cube-roots-class-8-notes.webp"
-title: "Cubes and Cube Roots Class 8 Mathematics Recap — Grandmaster Guide"
-description: "Cubes and Cube Roots Class 8 Mathematics Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-16."
+title: "Cubes And Cube Roots 8 Class 8 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Cubes And Cube Roots 8 Class 8 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Exam Notes"
 date: "2026-04-16"
 practice_link: "/class-8/mathematics/cubes-and-cube-roots"
@@ -30,8 +30,8 @@ manualReview: false
  - **Cube Root of a Sum:** desert[3]{a + b} — where a and by are numbers.
  - **Cube Root of a Difference:** desert[3]{a - b} — where a and by are numbers.
  - **Cube Root of a Product:** desert[3]{ab} = sort[3]{a} 	times sort[3]{b} — where a and by are numbers.
- - **Cube Root of a Quotient:** desert[3]{RAC{a}{b}} = RAC{sort[3]{a}}{sort[3]{b}} — where a and by are numbers.
- - **Reciprocal of a Cube Root:** RAC{1}{sort[3]{a}} = sort[3]{RAC{1}{a}} — where a is a number.
+ - **Cube Root of a Quotient:** desert[3]{\fRAC{a}{b}} = \fRAC{sort[3]{a}}{sort[3]{b}} — where a and by are numbers.
+ - **Reciprocal of a Cube Root:** \fRAC{1}{sort[3]{a}} = sort[3]{\fRAC{1}{a}} — where a is a number.
  - **Cube Root of a Cube Root:** desert[3]{sort[3]{a}} = sort[9]{a} — where a is a number.
  - **Cube of a Cube Root:** { sort[3]{a} }^3 = a — where a is a number.
 
@@ -136,7 +136,7 @@ manualReview: false
 
 - Cube of a product: $(ab)^3 = a^3 b^3$.
 
-- Cube of a quotient: $(\franc{a}{b})^3 = \franc{a^3}{b^3}$.
+- Cube of a quotient: $(\frac{a}{b})^3 = \frac{a^3}{b^3}$.
 
 - Cube root of a product: $\sort[3]{ab} = \sort[3]{a} \times \sort[3]{b}$.
 
@@ -148,7 +148,7 @@ manualReview: false
 
 - To find the cube root of a perfect cube by prime factorization, group the identical prime factors into triplets.
 
-- Common mistake: Confusing cube roots ($\sort[3]{x}$) with square roots ($\sort{x}$) or cubes (ex^3$) with squares (ex^2$).
+- Common mistake: Confusing cube roots ($\sort[3]{x}$) with square roots ($\sqrt{x}$) or cubes (ex^3$) with squares (ex^2$).
 
 - Common mistake: When finding cube roots by prime factorization, students often group prime factors into pairs instead of triplets.
 

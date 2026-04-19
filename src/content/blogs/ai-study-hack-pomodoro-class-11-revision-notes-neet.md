@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/ai-study-hack-pomodoro-class-11-revision-notes-neet.webp"
-title: "Ai Study Hack Pomodoro Class 11 Computer Science Recap — CBSE 2026 Quick Guide"
-description: "Ai Study Hack Pomodoro Class 11 Computer Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Ai Study Hack Pomodoro Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Ai Study Hack Pomodoro Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/biology/ai-study-hack-pomodoro-class-11-revision-notes-neet"
@@ -160,7 +160,7 @@ Continue your [revision](/blog/3d-geometry-intro-class-11-revision-notes-jee-nee
      * Object-Oriented Programming
      * Database Management
    - **Key Formulas**:
-     * Time Complexity: O(1), O(log n), O(n), O(n log n), O(n^2)
+     * Time Complexity: O(1), O(\log n), O(n), O(n \log n), O(n^2)
      * Big-O Notation
    - **Python Basics**:
      * Variables: sum, STR, list, dict

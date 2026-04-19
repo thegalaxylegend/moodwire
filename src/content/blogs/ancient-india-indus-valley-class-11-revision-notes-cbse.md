@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/ancient-india-indus-valley-class-11-revision-notes-cbse.webp"
-title: "Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide"
-description: "Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Grandmaster Guide"
+description: "Ancient India Indus Valley Class 11 History Recap — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/ancient-india-indus-valley-class-11-revision-notes-cbse"
@@ -116,7 +116,9 @@ By focusing on these key points, I can quickly review and recap the Indus Valley
 
 The growth of the Indus Valley Civilization can be represented by the following equation:
 
-\franc{dP}{dt} = RP \left(1 - \franc{P}{K}\right)
+
+\frac{dP}{dt} = RP \left(1 - \frac{P}{K}\right) 
+
 
 Where UP is the population, are is the growth rate, and OK is the carrying capacity.
 

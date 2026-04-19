@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/number-systems-class-9-notes.webp"
-title: "Number Systems Class 9 Mathematics Recap — Grandmaster Guide"
-description: "Number Systems Class 9 Mathematics Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-13."
+title: "Number Systems 9 Class 9 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Number Systems 9 Class 9 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Exam Notes"
 date: "2026-04-13"
 practice_link: "/class-9/mathematics/number-systems"
@@ -21,11 +21,11 @@ manualReview: false
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Even/Odd Number Check:** {n} equiv {0} pmod{2} — n is an even number, where n is an integer,- **Divisibility Rule for 2:** {2 | n} iff {n equiv 0 pmod{2}} — 2 divides n if n is even,- **Divisibility Rule for 3:** {3 | n} iff {n equiv 0 pmod{3}} — 3 divides n if \sum of digits of n is divisible by 3,- **Divisibility Rule for 4:** {4 | n} iff {n equiv 0 pmod{4}} — 4 divides n if last two digits of n are divisible by 4,- **Divisibility Rule for 5:** {5 | n} iff {n equiv 0 pmod{5}} — 5 divides n if n ends in 0 or 5,- **Divisibility Rule for 6:** {6 | n} iff {n equiv 0 pmod{2}} land {n equiv 0 pmod{3}} — 6 divides n if n is divisible by both 2 and 3,- **Divisibility Rule for 8:** {8 | n} iff {n equiv 0 pmod{8}} — 8 divides n if last three digits of n are divisible by 8,- **Divisibility Rule for 9:** {9 | n} iff {n equiv 0 pmod{9}} — 9 divides n if \sum of digits of n is divisible by 9,- **Divisibility Rule for 10:** {10 | n} iff {n equiv 0 pmod{10}} — 10 divides n if n ends in 0,- **HCF and LCM Relationship:** {a 	imes b = HCF(a,b) 	imes LCM(a,b)} — Relationship between HCF, LCM, and product of two numbers a and b,- **Euclid's Division Lemma:** {a = bq + r} — Any positive integer a can be expressed as a = bq + r, where b is the divisor, q is the quotient, and r is the remainder,- **Fundamental Theorem of Arithmetic:** {n = p_1^{a_1} 	imes p_2^{a_2} 	imes ... 	imes p_k^{a_k}} — Any positive integer n can be expressed uniquely as a product of prime numbers,- **Rule of [rational](/blog/rational-numbers-class-8-notes) Number:** {p/q} — p and q are integers, q is non-zero, and gcd(p,q) = 1,- **Rule of Irrational Number:** {sqrt{x}} — x is not a perfect square, and there does not exist any [rational](/blog/rational-numbers-class-8-notes) number p/q such that (p/q)^2 = x
+- **Even/Odd Number Check:** {n} equiv {0} pmod{2} — n is an even number, where n is an integer,- **Divisibility Rule for 2:** {2 | n} iff {n equiv 0 pmod{2}} — 2 divides n if n is even,- **Divisibility Rule for 3:** {3 | n} iff {n equiv 0 pmod{3}} — 3 divides n if \sum of digits of n is divisible by 3,- **Divisibility Rule for 4:** {4 | n} iff {n equiv 0 pmod{4}} — 4 divides n if last two digits of n are divisible by 4,- **Divisibility Rule for 5:** {5 | n} iff {n equiv 0 pmod{5}} — 5 divides n if n ends in 0 or 5,- **Divisibility Rule for 6:** {6 | n} iff {n equiv 0 pmod{2}} land {n equiv 0 pmod{3}} — 6 divides n if n is divisible by both 2 and 3,- **Divisibility Rule for 8:** {8 | n} iff {n equiv 0 pmod{8}} — 8 divides n if last three digits of n are divisible by 8,- **Divisibility Rule for 9:** {9 | n} iff {n equiv 0 pmod{9}} — 9 divides n if \sum of digits of n is divisible by 9,- **Divisibility Rule for 10:** {10 | n} iff {n equiv 0 pmod{10}} — 10 divides n if n ends in 0,- **HCF and LCM Relationship:** {a 	imes b = HCF(a,b) 	imes LCM(a,b)} — Relationship between HCF, LCM, and product of two numbers a and b,- **Euclid's Division Lemma:** {a = bq + r} — Any positive integer a can be expressed as a = bq + r, where b is the divisor, q is the quotient, and r is the remainder,- **Fundamental Theorem of Arithmetic:** {n = p_1^{a_1} 	imes p_2^{a_2} 	imes ... 	imes p_k^{a_k}} — Any positive integer n can be expressed uniquely as a product of prime numbers,- **Rule of [rational](/blog/rational-numbers-class-8-notes) Number:** {p/q} — p and q are integers, q is non-zero, and gcd(p,q) = 1,- **Rule of Irrational Number:** {\sqrt{x}} — x is not a perfect square, and there does not exist any [rational](/blog/rational-numbers-class-8-notes) number p/q such that (p/q)^2 = x
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
-- **Mistake 1:** Confusion between terminating and non-terminating recurring decimals and errors in converting them to $\frac{p}{q}$ form.
+- **Mistake 1:** Confusion between terminating and non-terminating recurring decimals and errors in converting them to $\frac{{p}{q}}{\frac{1}{7 + 3\sqrt{2}}}  form.
  
 
 - *Costs:* Students often lose 1-3 marks in questions asking to identify the type of decimal expansion or to express a given decimal}
@@ -34,14 +34,14 @@ manualReview: false
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
-- **Q1:** Rationalize the denominator of $\frac{1}{7 + 3\sqrt{2}}$. (CBSE Class 9 Sample Question)
+- **Q1:** Rationalize the denominator of $. (CBSE Class 9 Sample Question)
  - **Trap:** Many students forget to multiply *both* the numerator and the denominator by the conjugate. Also, sometimes they make sign errors when applying the $($}
 
 
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
-- **The Core Concept:** The real game-changer isn't just knowing *how* to rationalize a denominator like $\frac{1}{a+\sqrt{b}}$. It's about mastering the art of simplifying complex expressions involving multiple radical terms, often after rationalization, to their absolute simplest form, typically $A +$}
+- **The Core Concept:** The real game-changer isn't just knowing *how* to rationalize a denominator like $\frac{{1}{a+\sqrt{b}}}{A +} . It's about mastering the art of simplifying complex expressions involving multiple radical terms, often after rationalization, to their absolute simplest form, typically }$
 
 
 

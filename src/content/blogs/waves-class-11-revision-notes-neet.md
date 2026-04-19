@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/waves-class-11-revision-notes-neet.webp"
-title: "Waves Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
-description: "Waves Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Waves Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
+description: "Waves Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/biology/waves-class-11-revision-notes-neet"
@@ -156,7 +156,7 @@ Laplace argued that sound propagation is so fast that no heat exchange occurs; i
 
 ## <a id="4-the-principle-of-superposition"></a>4. The Principle of Superposition
 
-**Statement:** When two or more waves overlap in a medium, the resultant displacement at any point is the vector sum of the individual displacements.
+**Statement:** When two or more waves overlap in a medium, the resultant displacement at any point is the vector \sum of the individual displacements.
 **y_net = y1 + y2 + y3 + ...**
 
 ### <a id="i-interference"></a>I. Interference
@@ -176,10 +176,10 @@ Formed when two identical waves traveling in opposite directions superimpose. Th
 1.  **y1 = A sin(kx - ωt)** (Incoming).
 2.  **y2 = A sin(kx + ωt)** (Reflecte
 d).
-3.  **y_net = (2A cos ωt) sin kx**.
-**Result:** The amplitude **(2A sin kx)** depends on position **x**.
-- **Nodes:** Points of zero displacement (**sin kx = 0**).
-- **Antinodes:** Points of maximum displacement (**sin kx = 1**).
+3.  **y_net = (2A \cos ωt) \sin kx**.
+**Result:** The amplitude **(2A \sin kx)** depends on position **x**.
+- **Nodes:** Points of zero displacement (**\sin kx = 0**).
+- **Antinodes:** Points of maximum displacement (**\sin kx = 1**).
 ### <a id="ii-standing-waves-in-a-stretched-string"></a>II. Standing Waves in a Stretched String
 Both ends are fixed, so they must be Nodes.
 **Fundamental Frequency (f1) = v / 2L = (1/2L) √(T/μ)**.

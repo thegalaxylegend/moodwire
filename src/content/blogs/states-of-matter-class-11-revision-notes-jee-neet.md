@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/states-of-matter-class-11-revision-notes-jee-neet.webp"
-title: "States Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "States Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "States Of Matter Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "States Of Matter Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/physics/states-of-matter-class-11-revision-notes-jee-neet"
@@ -125,10 +125,10 @@ This chapter is where Physics and Chemistry merge. If you're comfortable with [t
 $P_1V_1 = P_2V_2$. The P-V graph is a **hyperbola** (isotherm).
 
 ### <a id="charless-law-constant-p"></a>Charles's Law (Constant P)
-$\frac{V_1}{T_1} = \frac{V_2}{T_2}$. **Temperature MUST be in Kelvin.** The V-T graph is a **straight line** through the origin when plotted in Kelvin.
+$\frac{{V_1}{T_1} = \frac{V_2}{T_2}}{\frac{P_1}{T_1} = \frac{P_2}{T_2}} . **Temperature MUST be in Kelvin.** The V-T graph is a **straight line** through the origin when plotted in Kelvin.
 
 ### <a id="gay-lussacs-law-constant-v"></a>Gay Lussac's Law (Constant V)
-$\frac{P_1}{T_1} = \frac{P_2}{T_2}$. The P-T graph is a straight line (isochore).
+$. The P-T graph is a straight line (isochore).
 
 ### <a id="avogadros-law-constant-t-p"></a>Avogadro's Law (Constant T, P)
 $V \propto n$. Equal volumes of all gases at same T and P contain equal number of molecules.
@@ -156,7 +156,7 @@ $V \propto n$. Equal volumes of all gases at same T and P contain equal number o
 | $2$ | $\text{cal mol}^{-1}\text{ K}^{-1}$ | Energy in calories |
 
 ### <a id="the-density-shortcut"></a>The Density Shortcut
-From $PV = nRT$ and $n = W/M$: PM = dRT where $d$ = density. This is a high-yield JEE formula for "find the molar mass of a gas" questions.
+From $PV = nRT$ and $n = W/M$: PM = dRT where $d = density. This is a high-yield JEE formula for "find the molar mass of a gas" questions.
 
 ---
 
@@ -167,16 +167,16 @@ From $PV = nRT$ and $n = W/M$: PM = dRT where $d$ = density. This is a high-yiel
 
 ## <a id="5-daltons-law-and-grahams-law-mixtures-and-diffusion"></a>5. Dalton's Law & Graham's Law: Mixtures and Diffusion
 
-**Dalton's Law of Partial Pressures states that the total pressure of a mixture of non-reacting gases is equal to the sum of individual partial pressures of each component gas.**
+**Dalton's Law of Partial Pressures states that the total pressure of a mixture of non-reacting gases is equal to the \sum of individual partial pressures of each component gas.**
 
-P_{total} = P_1 + P_2 + P_3 + ...P_i = X_i \times P_{total} where $X_i$ = mole fraction.
+P_{total} = P_1 + P_2 + P_3 + ...P_i = X_i \times P_{total} where $X_i = mole fraction.
 
 ### <a id="grahams-law-of-diffusion"></a>Graham's Law of Diffusion
 
 **Graham's Law states that the rate of diffusion or effusion of a gas is inversely proportional to the square root of its molar mass.**
 
 
-$\frac{r_1}{r_2} = \sqrt$\frac{M_2${M_1}$}
+$\frac{{r_1}{r_2} = \sqrt}{{M_1}} \frac{M_2$}
 
 
 
@@ -198,12 +198,12 @@ $\frac{r_1}{r_2} = \sqrt$\frac{M_2${M_1}$}
 2. Molecules are in constant, **random motion** in all directions.
 3. Collisions between molecules and container walls are **perfectly elastic** (no energy loss).
 4. There are **no intermolecular forces** of attraction or repulsion.
-5. Average Kinetic Energy is proportional to temperature: $KE_{avg} = \frac{3}{2}kT$ (per molecule) or $\frac{3}{2}RT$ (per mole).
+5. Average Kinetic Energy is proportional to temperature: $KE_{avg} = \frac{3}{2}kT$ (per molecule) or $\frac{{3}{2}RT}{u_{rms}}  (per mole).
 
 ### <a id="molecular-speeds-jee-advanced"></a>Molecular Speeds (JEE Advanced)
 | Speed | Symbol | Formula | Relative Value |
 |:---|:---:|:---|:---:|
-| RMS Speed | $u_{rms}$ | $\sqrt{3RT/M}$ | 1.73 |
+| RMS Speed | $ | $\sqrt{3RT/M}$ | 1.73 |
 | Average Speed | $u_{avg}$ | $\sqrt{8RT/\pi M}$ | 1.59 |
 | Most Probable Speed | $u_{mp}$ | $\sqrt{2RT/M}$ | 1.41 |
 
@@ -222,13 +222,13 @@ $\frac{r_1}{r_2} = \sqrt$\frac{M_2${M_1}$}
 
 ### <a id="the-compressibility-factor-z"></a>The Compressibility Factor (Z)
 
-Z = $\frac{PV}{nRT}$
+Z = $\frac{{PV}{nRT}}{Z = 1} 
 
 
 
 | Z Value | Meaning | Dominant Force | Condition |
 |:---:|:---|:---|:---|
-| $Z = 1$ | Ideal behavior | None dominating | Low P, High T |
+| $ | Ideal behavior | None dominating | Low P, High T |
 | $Z < 1$ | Easier to compress | **Attractive forces** | Moderate P |
 | $Z > 1$ | Harder to compress | **Repulsive forces** | Very High P |
 
@@ -246,13 +246,13 @@ Z = $\frac{PV}{nRT}$
 **The van der Waals Equation is a modified form of the ideal gas equation that accounts for the finite size of molecules (volume correction 'b') and intermolecular attractions (pressure correction 'a').**
 
 
-\left[P + $\frac{an^2}{V^2}$\right](V - nb) = nRT
+\left[P + $\frac{{an^2}{V^2}}{SO_2} \right](V - nb) = nRT
 
 
 
 | Constant | Meaning | Higher value means |
 |:---|:---|:---|
-| **a** | Attraction between molecules | Easier to liquefy ($SO_2$ > $CO_2$ > $H_2$) |
+| **a** | Attraction between molecules | Easier to liquefy ($ > $CO_2$ > $H_2$) |
 | **b** | Physical volume of molecules | Larger molecules |
 
 ---

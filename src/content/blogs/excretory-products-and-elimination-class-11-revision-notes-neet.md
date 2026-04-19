@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/excretory-products-and-elimination-class-11-revision-notes-neet.webp"
-title: "Excretory Products And Elimination Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
-description: "Excretory Products And Elimination Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Excretory Products And Elimination Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Excretory Products And Elimination Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/biology/excretory-products-and-elimination-class-11-revision-notes-neet"
@@ -22,8 +22,6 @@ practice_link: "/class-11/biology/excretory-products-and-elimination-class-11-re
   - [Core Concepts Cont.](#core-concepts-cont)
   - [JEE/NEET Data Cont.](#jeeneet-data-cont)
   - [MCQs Cont.](#mcqs-cont)
-  - [Core Concepts Cont.](#core-concepts-cont)
-  - [JEE/NEET Data Cont.](#jeeneet-data-cont)
 - [📚 Related Topics](#-related-topics)
 
 
@@ -32,6 +30,8 @@ practice_link: "/class-11/biology/excretory-products-and-elimination-class-11-re
 
 
 
+
+##
 
 ## <a id="what-is-excretory-products-and-elimination"></a>What is Excretory Products And Elimination?
 
@@ -63,14 +63,14 @@ The following formulae are relevant to the excretory system:
 * **Glomerular filtration rate (GFR)**: The rate at which the kidneys filter the blood to remove waste products and excess substances. The GFR can be calculated using the following formula:
 
 
-$\text{GFR} = \frac$\text{urine output$ \times $$\text{urea concentration in urine}$}$\text{urea concentration in blood$}
+$\text{GFR} = \frac$\text{urine output$ \times $\text{urea concentration in urine}}\text{urea concentration in blood$}
 
 
 
 * **Cockcroft-Gault equation**: An equation used to estimate the GFR based on serum creatinine levels, age, sex, and weight:
 
 
-$\text{GFR} = $\frac{(140 - $\text{age}) \times $$\text{weight}$ \times (0.85 $\text{ if female})}{72 \times $$\text{serum creatinine}$}
+$\text{GFR} = $\frac{{(140 - }{\text{weight}} \text{age}) \times $ \times (0.85 $1 \text{serum creatinine}$}
 
 
 

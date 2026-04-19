@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/complex-numbers-class-11-revision-notes-jee-neet.webp"
-title: "Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Complex Numbers Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Complex Numbers Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
+description: "Complex Numbers Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/physics/complex-numbers-class-11-revision-notes-jee-neet"
@@ -108,7 +108,7 @@ The symbol **i** was introduced by Euler to solve square roots of negative numbe
 A complex number z = a + IB can be represented as a point (a, b) in a [plane](/blog/motion-in-a-plane-class-11-revision-notes-jee-neet) called the **Armand Plane**.
 *   **x-axis:** Real axis.
 *   **y-axis:** Imaginary axis.
-*   **Polar Form:** z = r(cos θ + i sin θ), where r = |z| and θ is called the **argument** of z.
+*   **Polar Form:** z = r(\cos θ + i \sin θ), where r = |z| and θ is called the **argument** of z.
 
 ---
 
@@ -215,6 +215,6 @@ Continue your [revision](/blog/motion-in-a-plane-class-11-revision-notes-jee-nee
 * The conjugate of a complex number oz = a + IBM is $AR{z} = a - IBM.
 * The modulus of a complex number oz = a + IBM is $|z| = sort{a^2 + b^2}$.
 * The argument of a complex number oz = a + IBM is the angle $	head that oz makes with the positive x-axis.
-* De Moiré's theorem states that for any complex number oz = r(cosh eta + ISIN 	heat)$ and any integer and, oz^n = r^n(cos n	heat + ISIN n	heat)$.
-* Euler's formula states that he^{I	heat} = cosh eta + ISIN 	head.
-* The polar form of a complex number oz = a + IBM is oz = r(cosh eta + ISIN 	heat)$, where or = |z|$ and $	heat = are(z)$.$
+* De Moiré's theorem states that for any complex number oz = r(cosh \beta + ISIN 	heat)$ and any integer and, oz^n = r^n(\cos n	heat + ISIN n	heat)$.
+* Euler's formula states that he^{I	heat} = cosh \beta + ISIN 	head.
+* The polar form of a complex number oz = a + IBM is oz = r(cosh \beta + ISIN 	heat)$, where or = |z|$ and $	heat = are(z)$.

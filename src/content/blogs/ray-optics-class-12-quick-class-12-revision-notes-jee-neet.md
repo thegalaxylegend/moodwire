@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/ray-optics-class-12-quick-class-12-revision-notes-jee-neet.webp"
-title: "Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Ray Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Ray Optics Quick Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
+description: "Ray Optics Quick Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/physics/ray-optics-class-12-quick-class-12-revision-notes-jee-neet"
@@ -23,7 +23,6 @@ practice_link: "/class-11/physics/ray-optics-class-12-quick-class-12-revision-no
   - [Refraction](#refraction)
   - [Lenses](#lenses)
 - [Formulae Tables](#formulae-tables)
-  - [Reflection](#reflection)
 - [Trap Exceptions](#trap-exceptions)
   - [Examples](#examples)
   - [Derivations](#derivations)
@@ -37,6 +36,8 @@ practice_link: "/class-11/physics/ray-optics-class-12-quick-class-12-revision-no
 
 
 
+
+##
 
 ## <a id="what-is-ray-optics-class-12-quick-revision-notes"></a>What is Ray Optics Class 12 Quick Revision Notes?
 
@@ -54,7 +55,7 @@ practice_link: "/class-11/physics/ray-optics-class-12-quick-class-12-revision-no
 - **Refraction**: Bending of light as it passes from one medium to another.
 - **Total Internal Reflection**: A phenomenon where light is completely reflected back into the first medium.
 - **Snell's Law**: $n_1 \sin \theta_1 = n_2 \sin \theta_2$, where $n_1$ and $n_2$ are refractive indices of the two media and $\theta_1$ and $\theta_2$ are the angles of incidence and refraction.
-- **Mirror Formula**: $\frac{1}{v} + \frac{1}{u} = \frac{1}{f}$, where $v$ is the image distance, $u$ is the object distance, and $f$ is the focal length.
+- **Mirror Formula**: $\frac{{1}{v} + \frac{1}{u} = \frac{1}{f}}{v} , where $ is the image distance, $u$ is the object distance, and $f$ is the focal length.
 
 As I, Ayush, prepare for my JEE/NEET exams, I find it crucial to have a solid grasp of ray optics. In this quick [revision](/blog/ancient-india-vedic-age-class-11-revision-notes-jee) and recap, we'll cover the core concepts, formulae, and some practice questions to help reinforce our understanding.
 
@@ -82,16 +83,16 @@ I've found that understanding the basics of reflection, refraction, and total in
 ### <a id="reflection"></a>Reflection
 - **Law of Reflection**: The angle of incidence is equal to the angle of reflection.
 - **Types of Mirrors**: Plane mirror, concave mirror, convex mirror.
-- **Mirror Formula**: $\frac{1}{v} + \frac{1}{u} = \frac{1}{f}$.
+- **Mirror Formula**: $\frac{{1}{v} + \frac{1}{u} = \frac{1}{f}}{n_1 \sin \theta_1 = n_2 \sin \theta_2} .
 
 ### <a id="refraction"></a>Refraction
-- **Snell's Law**: $n_1 \sin \theta_1 = n_2 \sin \theta_2$.
+- **Snell's Law**: $.
 - **Total Internal Reflection**: $\theta_1 > \theta_c$, where $\theta_c$ is the critical angle.
 - **Refraction through a Prism**: $\Delta = i + e - A$, where $\Delta$ is the angle of deviation, $i$ is the angle of incidence, $e$ is the angle of emergence, and $A$ is the angle of the prism.
 
 ### <a id="lenses"></a>Lenses
-- **Lens Maker's Formula**: $\frac{1}{f} = (n-1) \left( \frac{1}{R_1} - \frac{1}{R_2} \right)$, where $f$ is the focal length, $n$ is the refractive index, and $R_1$ and $R_2$ are the radii of curvature.
-- **Lens Formula**: $\frac{1}{v} - \frac{1}{u} = \frac{1}{f}$.
+- **Lens Maker's Formula**: $\frac{{1}{f} = (n-1) \left( \frac{1}{R_1} - \frac{1}{R_2} \right)}{f} , where $ is the focal length, $n$ is the refractive index, and $R_1$ and $R_2$ are the radii of curvature.
+- **Lens Formula**: $\frac{{1}{v} - \frac{1}{u} = \frac{1}{f}}{\frac{1}{v} + \frac{1}{u} = \frac{1}{f}} .
 
 
 
@@ -103,7 +104,7 @@ I've found that understanding the basics of reflection, refraction, and total in
 
 | Formula | Description |
 | --- | --- |
-| $\frac{1}{v} + \frac{1}{u} = \frac{1}{f}$ | Mirror formula |
+| $ | Mirror formula |
 | $m = -\frac{v}{u}$ | Magnification |
 | $f = \frac{R}{2}$ | Focal length of a mirror |
 | Formula | Description |
@@ -113,8 +114,8 @@ I've found that understanding the basics of reflection, refraction, and total in
 | $\Delta = i + e - A$ | Angle of deviation through a prism |
 | Formula | Description |
 | --- | --- |
-| $\frac{1}{f} = (n-1) \left( \frac{1}{R_1} - \frac{1}{R_2} \right)$ | Lens maker's formula |
-| $\frac{1}{v} - \frac{1}{u} = \frac{1}{f}$ | Lens formula |
+| $\frac{{1}{f} = (n-1) \left( \frac{1}{R_1} - \frac{1}{R_2} \right)}{\frac{1}{v} - \frac{1}{u} = \frac{1}{f}}  | Lens maker's formula |
+| $ | Lens formula |
 | $m = -\frac{v}{u}$ | Magnification |
 
 
@@ -122,7 +123,7 @@ I've found that understanding the basics of reflection, refraction, and total in
 
 - **Total Internal Reflection**: When $\theta_1 > \theta_c$, light is completely reflected back into the first medium.
 - **Critical Angle**: $\theta_c = \sin^{-1} \left( \frac{n_2}{n_1} \right)$, where $n_1$ and $n_2$ are the refractive indices of the two media.
-- **Lens Maker's Formula**: $\frac{1}{f} = (n-1) \left( \frac{1}{R_1} - \frac{1}{R_2} \right)$, where $f$ is the focal length, $n$ is the refractive index, and $R_1$ and $R_2$ are the radii of curvature.
+- **Lens Maker's Formula**: $\frac{{1}{f} = (n-1) \left( \frac{1}{R_1} - \frac{1}{R_2} \right)}{f} , where $ is the focal length, $n$ is the refractive index, and $R_1$ and $R_2$ are the radii of curvature.
 
 By focusing on these key concepts, formulae, and practice questions, I'm confident that I can master ray optics and perform well in my JEE/[neet](/blog/indian-geography-physical-class-11-revision-notes-jee-neet) exams. Remember to review the **Trap Exceptions** section carefully to avoid common pitfalls in the exams. 
 
@@ -134,7 +135,7 @@ To further reinforce our understanding, let's consider some examples and derivat
 
 ### <a id="derivations"></a>Derivations
 1. **Snell's Law**: $n_1 \sin \theta_1 = n_2 \sin \theta_2$
-2. **Lens Maker's Formula**: $\frac{1}{f} = (n-1) \left( \frac{1}{R_1} - \frac{1}{R_2} \right)$
+2. **Lens Maker's Formula**: $\frac{{1}{f} = (n-1) \left( \frac{1}{R_1} - \frac{1}{R_2} \right)}{n_1 \sin \theta_1 = n_2 \sin \theta_2} 
 
 By working through these examples and derivations, we can gain a deeper understanding of the [concepts](/blog/some-basic-concepts-of-chemistry-class-11-revision-notes-jee-neet) and formulae in ray optics.
 
@@ -154,8 +155,8 @@ Let's summarize the key points:
 * **Reflection**: Change in direction of light at a surface that causes it to bounce back.
 * **Refraction**: Bending of light as it passes from one medium to another.
 * **Total Internal Reflection**: A phenomenon where light is completely reflected back into the first medium.
-* **Snell's Law**: $n_1 \sin \theta_1 = n_2 \sin \theta_2$
-* **Lens Maker's Formula**: $\frac{1}{f} = (n-1) \left( \frac{1}{R_1} - \frac{1}{R_2} \right)$
+* **Snell's Law**: $
+* **Lens Maker's Formula**: $\frac{{1}{f} = (n-1) \left( \frac{1}{R_1} - \frac{1}{R_2} \right)}{n_1 \sin \theta_1 = n_2 \sin \theta_2} 
 
 By reviewing these key points and practicing with MCQs, we can reinforce our understanding of ray optics and achieve success in our exams.
 
@@ -181,9 +182,9 @@ By utilizing these resources and staying committed to your studies, you can achi
 Now, let's review some of the key concepts and formulae using LaTeX:
 
 ### <a id="latex-examples"></a>LaTeX Examples
-1. **Snell's Law**: $n_1 \sin \theta_1 = n_2 \sin \theta_2$
-2. **Lens Maker's Formula**: $\frac{1}{f} = (n-1) \left( \frac{1}{R_1} - \frac{1}{R_2} \right)$
-3. **Mirror Formula**: $\frac{1}{v} + \frac{1}{u} = \frac{1}{f}$
+1. **Snell's Law**: $
+2. **Lens Maker's Formula**: $\frac{{1}{f} = (n-1) \left( \frac{1}{R_1} - \frac{1}{R_2} \right)}{\frac{1}{v} + \frac{1}{u} = \frac{1}{f}} 
+3. **Mirror Formula**: $
 
 By using LaTeX to format the equations, we can clearly visualize the mathematical relationships between the variables.
 

@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/wave-optics-class-12-notes.webp"
 title: "Wave Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Wave Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+description: "Wave Optics Class 12 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/physics/wave-optics-class-12-notes"
@@ -42,7 +42,7 @@ As we dive into the realm of Wave Optics, it's essential to understand the signi
 
 My personal journey with Wave Optics began when I was preparing for my [class](/blog/electromagnetic-waves-class-12-notes) 12 exams. I was fascinated by the way light behaves, and how it can be manipulated to produce stunning effects, such as **rainbows** and **mirages**. As I delved deeper into the subject, I realized that Wave Optics is not just about understanding the behavior of light, but also about developing a strong foundation in physics and mathematics. The concepts and principles learned in Wave Optics have far-reaching implications in various fields, including **optics**, **photonics**, and **telecommunications**.
 
-To appreciate the beauty of Wave Optics, it's essential to have a solid grasp of the underlying principles. The **wave-particle duality** of light, which states that light can exhibit both wave-like and particle-like behavior, is a fundamental concept in Wave Optics. This duality is evident in the way light interacts with matter, producing phenomena such as **diffraction** and **interference**. The **principle of superposition**, which states that the displacement of a wave at a given point is the sum of the displacements of the individual [waves](/blog/electromagnetic-waves-class-12-notes), is another crucial concept in Wave Optics.
+To appreciate the beauty of Wave Optics, it's essential to have a solid grasp of the underlying principles. The **wave-particle duality** of light, which states that light can exhibit both wave-like and particle-like behavior, is a fundamental concept in Wave Optics. This duality is evident in the way light interacts with matter, producing phenomena such as **diffraction** and **interference**. The **principle of superposition**, which states that the displacement of a wave at a given point is the \sum of the displacements of the individual [waves](/blog/electromagnetic-waves-class-12-notes), is another crucial concept in Wave Optics.
 
 Before diving into the world of Wave Optics, it's essential to have a strong foundation in the following prerequisites:
 
@@ -83,7 +83,7 @@ One of the key principles of wave optics is the concept of wave fronts and rays.
 
 Wave optics also involves the study of interference and diffraction patterns. Interference occurs when two or more [waves](/blog/electromagnetic-waves-class-12-notes) overlap in space, resulting in a new wave pattern. This can be seen in the double-slit experiment, where the light passing through the two slits creates an interference pattern on a screen. Diffraction, on the other hand, occurs when a wave passes through a narrow opening or around a corner, resulting in the bending of the wave around the obstacle.
 
-A key concept in wave optics is the principle of superposition, which states that the displacement of a wave at a given point is the sum of the displacements of the individual [waves](/blog/electromagnetic-waves-class-12-notes) at that point. This principle is essential for understanding interference and diffraction patterns.
+A key concept in wave optics is the principle of superposition, which states that the displacement of a wave at a given point is the \sum of the displacements of the individual [waves](/blog/electromagnetic-waves-class-12-notes) at that point. This principle is essential for understanding interference and diffraction patterns.
 
 To prepare for the [class](/blog/permutations-and-combinations-class-11-revision-notes-jee) 12 exam, it's essential to have a strong grasp of the principles of wave optics, including reflection, refraction, diffraction, and interference. Students should practice solving problems related to these topics and be familiar with the relevant formulas, such as Snell's law and the principle of superposition. Additionally, students should be able to analyze and interpret interference and diffraction patterns, and understand the concept of wave fronts and rays.
 
@@ -102,11 +102,11 @@ Student-centric tip: To better understand the concepts of wave optics, try to vi
 
 Wave Optics is the study of the behavior of light as it interacts with matter, emphasizing its wave nature. It includes the principles of interference, diffraction, and superposition. For [class](/blog/permutations-and-combinations-class-11-revision-notes-jee) 12 exam prep in 2026, the most important aspect is understanding how these principles apply to various phenomena such as Young's double-slit experiment, single-slit diffraction, and the formation of interference patterns.
 
- The principle of **superposition** states that when two or more [waves](/blog/electromagnetic-waves-class-12-notes) overlap in the same medium, the resultant displacement at any point is the vector sum of the displacements of the individual [waves](/blog/electromagnetic-waves-class-12-notes). This principle is crucial in understanding interference patterns. In the context of light [waves](/blog/electromagnetic-waves-class-12-notes), superposition leads to **interference**, where the overlapping of light [waves](/blog/electromagnetic-waves-class-12-notes) results in a new wave pattern. Interference can be either constructive, where the peaks of the [waves](/blog/electromagnetic-waves-class-12-notes) align to increase the amplitude, or destructive, where the peaks and troughs align to cancel each other out.
+ The principle of **superposition** states that when two or more [waves](/blog/electromagnetic-waves-class-12-notes) overlap in the same medium, the resultant displacement at any point is the vector \sum of the displacements of the individual [waves](/blog/electromagnetic-waves-class-12-notes). This principle is crucial in understanding interference patterns. In the context of light [waves](/blog/electromagnetic-waves-class-12-notes), superposition leads to **interference**, where the overlapping of light [waves](/blog/electromagnetic-waves-class-12-notes) results in a new wave pattern. Interference can be either constructive, where the peaks of the [waves](/blog/electromagnetic-waves-class-12-notes) align to increase the amplitude, or destructive, where the peaks and troughs align to cancel each other out.
 
  **Diffraction** is another fundamental concept in wave optics, referring to the bending of waves around obstacles or the spreading of waves through small openings. This phenomenon is a direct consequence of the wave nature of light and can be observed in the formation of diffraction patterns. The ability of light to diffract is what allows us to see around corners or to observe the beautiful patterns formed by diffraction gratings.
 
- To grasp these concepts thoroughly, it's essential to understand the mathematical formulations behind them. For instance, the **path difference** in interference experiments can be calculated using the formula $d sin 	heta = m lambda$, where $d$ is the distance between the slits, $	heta$ is the angle of deviation from the central maximum, $m$ is the order of the fringe, and $lambda$ is the wavelength of the light. Similarly, the **diffraction pattern** from a single slit can be described by the equation $a sin 	heta = m lambda$, where $a$ is the width of the slit.
+ To grasp these concepts thoroughly, it's essential to understand the mathematical formulations behind them. For instance, the **path difference** in interference experiments can be calculated using the formula $d \sin \theta = m lambda$, where $d$ is the distance between the slits, $\theta$ is the angle of deviation from the central maximum, $m$ is the order of the fringe, and $lambda$ is the wavelength of the light. Similarly, the **diffraction pattern** from a single slit can be described by the equation $a \sin \theta = m lambda$, where $a$ is the width of the slit.
 
  A key concept in wave optics is the distinction between **luminous** and **non-luminous** objects. Luminous objects emit their own light (like the sun or a lamp), while non-luminous objects reflect light from other sources to be visible. This distinction is vital in understanding various optical phenomena, including reflection, refraction, and the behavior of light in different media.
 
@@ -117,9 +117,9 @@ Wave Optics is the study of the behavior of light as it interacts with matter, e
 
 | Phenomenon | Description | Formula |
 | --- | --- | --- |
-| Interference | Overlapping of waves resulting in a new pattern | $d sin 	heta = m lambda$ |
-| Diffraction | Bending of waves around obstacles or through small openings | $a sin 	heta = m lambda$ |
-| Superposition | Vector sum of displacements of individual waves | Resultant displacement = $sum$ individual displacements |
+| Interference | Overlapping of waves resulting in a new pattern | $d \sin \theta = m lambda$ |
+| Diffraction | Bending of waves around obstacles or through small openings | $a \sin \theta = m lambda$ |
+| Superposition | Vector \sum of displacements of individual waves | Resultant displacement = $sum$ individual displacements |
 
 
 ## <a id="what-is-the-difference-between-wave-optics-and-ray-optics"></a>What is the difference between Wave Optics and Ray Optics?
@@ -130,7 +130,7 @@ What is the difference between Wave Optics and Ray Optics? is a fundamental conc
 u$ equation, where $c$ is the speed of light, $lambda$ is the wavelength, and $
 u$ is the frequency. This equation is fundamental in understanding how light behaves when it passes through different media or encounters obstacles.
 
- On the other hand, ray optics, or geometrical optics, treats light as a collection of rays that travel in straight lines. This approach is useful when the wavelength of light is much smaller than the size of the objects it interacts with. Ray optics is based on the principles of reflection and refraction, which are described by Snell's law: $n_1 sin(	heta_1) = n_2 sin(	heta_2)$, where $n_1$ and $n_2$ are the refractive indices of the two media, and $	heta_1$ and $	heta_2$ are the angles of incidence and refraction. Ray optics is simpler to apply and is sufficient for describing the behavior of light in many optical systems, such as lenses, mirrors, and prisms.
+ On the other hand, ray optics, or geometrical optics, treats light as a collection of rays that travel in straight lines. This approach is useful when the wavelength of light is much smaller than the size of the objects it interacts with. Ray optics is based on the principles of reflection and refraction, which are described by Snell's law: $n_1 sin(\theta_1) = n_2 sin(\theta_2)$, where $n_1$ and $n_2$ are the refractive indices of the two media, and $\theta_1$ and $\theta_2$ are the angles of incidence and refraction. Ray optics is simpler to apply and is sufficient for describing the behavior of light in many optical systems, such as lenses, mirrors, and prisms.
 
  The key difference between wave optics and ray optics lies in their ability to explain the behavior of light under different conditions. Wave optics is necessary for understanding the behavior of light at the microscopic level, such as in the case of diffraction and interference. In contrast, ray optics is more suitable for describing the behavior of light at the macroscopic level, such as in the case of image formation by lenses and mirrors.
 
@@ -141,7 +141,7 @@ u$ is the frequency. This equation is fundamental in understanding how light beh
 | --- | --- | --- | --- |
 | Wave Optics | Light as a wave | Diffraction, Interference, Polarization | $c = lambda 
 u$ |
-| Ray Optics | Light as a ray | Reflection, Refraction | $n_1 sin(	heta_1) = n_2 sin(	heta_2)$ |
+| Ray Optics | Light as a ray | Reflection, Refraction | $n_1 sin(\theta_1) = n_2 sin(\theta_2)$ |
 
 
 ## <a id="what-is-huygens-principle-in-wave-optics"></a>What is Huygens' Principle in Wave Optics?
@@ -156,7 +156,7 @@ For students preparing for the Class 12 exam, a deep understanding of Huygens' P
 
 In comparison to other principles in physics, Huygens' Principle offers a unique perspective on wave propagation. While principles like Snell's Law provide a quantitative approach to understanding refraction, Huygens' Principle gives a qualitative insight into how and why [waves](/blog/electromagnetic-waves-class-12-notes) propagate and interact with their environment.
 
-The mathematical formulation of Huygens' Principle involves the concept of the wave equation and how each point on the wavefront contributes to the propagation of the wave. This can be expressed using the formula $u(P) = \frac{1}{4pi} int \frac{u(Q)}{r} , dS$, where $u(P)$ is the disturbance at point $P$, $u(Q)$ is the disturbance at point $Q$ on the wavefront, and $r$ is the distance between points $P$ and $Q$. This formulation provides a quantitative basis for understanding the principle and applying it to solve problems in wave optics.
+The mathematical formulation of Huygens' Principle involves the concept of the wave equation and how each point on the wavefront contributes to the propagation of the wave. This can be expressed using the formula $u(P) = \frac{1}{4pi} \int \frac{u(Q)}{r} , dS$, where $u(P)$ is the disturbance at point $P$, $u(Q)$ is the disturbance at point $Q$ on the wavefront, and $r$ is the distance between points $P$ and $Q$. This formulation provides a quantitative basis for understanding the principle and applying it to solve problems in wave optics.
 
 To further illustrate the concept and its applications, let's consider a comparison between Huygens' Principle and other principles in wave optics:
 
@@ -174,12 +174,12 @@ Ayush's Note on Wave Optics is a study guide that covers the fundamentals of wav
 
 The wave optics section in Ayush's Note begins with an overview of the $electromagnetic spectrum$, highlighting the types of waves and their characteristics. It then delves into the details of $Huygens' principle$, which states that every point on a wavefront is a source of secondary wavelets. These wavelets propagate in the forward direction, generating a new wavefront. This principle helps in understanding the $refraction$ and $reflection$ of light as it passes through different media. 
 
-A key concept in wave optics is the $principle of superposition$, which states that the resultant displacement at a point is the vector sum of the displacements of individual waves. This principle is crucial in understanding $interference patterns$, which are a result of the superposition of waves from two or more sources. The $constructive interference$ occurs when the waves are in phase, resulting in an increased amplitude, while $destructive interference$ occurs when the waves are out of phase, resulting in a decreased amplitude. 
+A key concept in wave optics is the $principle of superposition$, which states that the resultant displacement at a point is the vector \sum of the displacements of individual waves. This principle is crucial in understanding $interference patterns$, which are a result of the superposition of waves from two or more sources. The $constructive interference$ occurs when the waves are in phase, resulting in an increased amplitude, while $destructive interference$ occurs when the waves are out of phase, resulting in a decreased amplitude. 
 
 The study guide also covers $Fresnel's laws$, which describe the reflection and refraction of light at a plane interface between two media. These laws are based on the $Snell's law$, which relates the angles of incidence and refraction to the refractive indices of the media. The $total internal reflection$ is another important concept, which occurs when light passes from a denser medium to a rarer medium and is completely reflected back into the denser medium. 
 
-To better understand wave optics, it's essential to have a clear grasp of the mathematical formulations involved. The $wave equation$ is a fundamental concept, which describes the propagation of waves through a medium. The equation is given by $
-abla^2y = $\frac{1}{v^2}$\frac{\partial^2y}{\partial t^2}$, where $y$ is the displacement, $v$ is the velocity of the wave, and $t$ is time.$
+To better understand wave optics, it's essential to have a clear grasp of the mathematical formulations involved. The $wave equation$ is a fundamental concept, which describes the propagation of waves through a medium. The equation is given by 
+abla^2y = $\frac{{1}{v^2}}{, where } \frac{\partial^2y}{\partial t^2}$y$ is the displacement, $v$ is the velocity of the wave, and $t$ is time.$
 
 **Student Tip:** To excel in the wave optics section, focus on understanding the underlying principles and practice applying them to different scenarios. Make sure to solve plenty of numerical problems to get a grip on the mathematical aspects. Also, try to visualize the concepts, such as wavefronts and interference patterns, to develop a deeper understanding of the subject.
 
@@ -187,28 +187,28 @@ abla^2y = $\frac{1}{v^2}$\frac{\partial^2y}{\partial t^2}$, where $y$ is the dis
 | Concept | Description | Formula |
 | --- | --- | --- |
 | Huygens' Principle | Every point on a wavefront is a source of secondary wavelets | - |
-| Principle of Superposition | Resultant displacement is the vector sum of individual displacements | $y = y_1 + y_2$ |
-| Fresnel's Laws | Describe reflection and refraction of light at a plane interface | $\frac{I_r}{I_i} = \left(\frac{n_1-n_2}{n_1+n_2}\right)^2$ |
-| Total Internal Reflection | Complete reflection of light back into the denser medium | $\theta_c = \sin^{-1}\left(\frac{n_2}{n_1}\right)$ |
+| Principle of Superposition | Resultant displacement is the vector \sum of individual displacements | $y = y_1 + y_2$ |
+| Fresnel's Laws | Describe reflection and refraction of light at a plane interface | $\frac{{I_r}{I_i} = \left(\frac{n_1-n_2}{n_1+n_2}\right)^2}{\theta_c = \sin^{-1}\left(\frac{n_2}{n_1}\right)}  |
+| Total Internal Reflection | Complete reflection of light back into the denser medium | $ |
 
 
 | Concept | Description | Formula |
 | --- | --- | --- |
 | Huygens' Principle | Every point on a wavefront is a source of secondary wavelets | - |
-| Principle of Superposition | Resultant displacement is the vector sum of individual displacements | $y = y_1 + y_2$ |
-| Fresnel's Laws | Describe reflection and refraction of light at a plane interface | $\frac{I_r}{I_i} = \left(\frac{n_1-n_2}{n_1+n_2}\right)^2$ |
-| Total Internal Reflection | Complete reflection of light back into the denser medium | $\theta_c = \sin^{-1}\left(\frac{n_2}{n_1}\right)$ |
+| Principle of Superposition | Resultant displacement is the vector \sum of individual displacements | $y = y_1 + y_2$ |
+| Fresnel's Laws | Describe reflection and refraction of light at a plane interface | $\frac{{I_r}{I_i} = \left(\frac{n_1-n_2}{n_1+n_2}\right)^2}{\theta_c = \sin^{-1}\left(\frac{n_2}{n_1}\right)}  |
+| Total Internal Reflection | Complete reflection of light back into the denser medium | $ |
 
 
 ## <a id="how-do-waves-interfere-with-each-other"></a>How do waves interfere with each other?
 
 How do waves interfere with each other? is a phenomenon where two or more waves overlap to form a resultant wave of greater, lower, or the same amplitude. It includes the concepts of constructive interference, destructive interference, and the principle of superposition. For Class 12 exam prep in 2026, the most important aspect is understanding the conditions under which these types of interference occur.
 
- Wave interference is a fundamental concept in physics that helps explain various natural phenomena, such as the formation of standing [waves](/blog/electromagnetic-waves-class-12-notes) in strings and the behavior of light waves. Constructive interference occurs when the crests of two waves overlap, resulting in a wave of greater amplitude. On the other hand, destructive interference occurs when the crest of one wave overlaps with the trough of another, resulting in a wave of lower amplitude. The principle of superposition states that the resultant wave is the sum of the individual waves.
+ Wave interference is a fundamental concept in physics that helps explain various natural phenomena, such as the formation of standing [waves](/blog/electromagnetic-waves-class-12-notes) in strings and the behavior of light waves. Constructive interference occurs when the crests of two waves overlap, resulting in a wave of greater amplitude. On the other hand, destructive interference occurs when the crest of one wave overlaps with the trough of another, resulting in a wave of lower amplitude. The principle of superposition states that the resultant wave is the \sum of the individual waves.
 
  To understand wave interference better, let's consider an example. Suppose we have two waves of equal amplitude and frequency, traveling in the same direction. If the waves are in phase, meaning that their crests and troughs align, they will undergo constructive interference, resulting in a wave of greater amplitude. However, if the waves are out of phase, meaning that the crest of one wave aligns with the trough of the other, they will undergo destructive interference, resulting in a wave of lower amplitude.
 
- The concept of wave interference can be mathematically represented using the $y = A sin (kx - omega t)$ equation, where $y$ is the displacement of the wave, $A$ is the amplitude, $k$ is the wave number, $omega$ is the angular frequency, $x$ is the position, and $t$ is time. When two waves overlap, their displacements add up, resulting in a new wave with a different amplitude.
+ The concept of wave interference can be mathematically represented using the $y = A \sin (kx - omega t)$ equation, where $y$ is the displacement of the wave, $A$ is the amplitude, $k$ is the wave number, $omega$ is the angular frequency, $x$ is the position, and $t$ is time. When two waves overlap, their displacements add up, resulting in a new wave with a different amplitude.
 
  **Comparison of Interference Types**
 
@@ -277,20 +277,20 @@ What are the types of polarization in Wave Optics? is a phenomenon where the vib
 
 Wave Optics is the study of the behavior of light as it interacts with matter, including phenomena such as diffraction, interference, and superposition. It includes the principles of Huygens' principle, the wave nature of light, and the concept of wavefronts. For Class 12 exam prep in 2026, the most important aspect is understanding how to apply these principles to solve problems related to Young's double-slit experiment, diffraction gratings, and optical instruments like spectrometers.
 
- A key shortcut or trick for Wave Optics involves recognizing patterns and relationships between different quantities in wave-related phenomena. This can be particularly useful in problems involving the calculation of fringe widths, intensities, or wavelengths. By memorizing key formulas such as $d sin 	heta = n lambda$ for diffraction gratings and $S = \frac{lambda D}{d}$ for Young's double-slit experiment, students can quickly solve problems without having to derive the equations from first principles every time.
+ A key shortcut or trick for Wave Optics involves recognizing patterns and relationships between different quantities in wave-related phenomena. This can be particularly useful in problems involving the calculation of fringe widths, intensities, or wavelengths. By memorizing key formulas such as $d \sin \theta = n lambda$ for diffraction gratings and $S = \frac{lambda D}{d}$ for Young's double-slit experiment, students can quickly solve problems without having to derive the equations from first principles every time.
 
  Another crucial aspect of Wave Optics is understanding the concept of **coherence**, which refers to the ability of two or more light waves to interfere with each other. Coherence is characterized by the **coherence length**, which is the maximum distance over which the phase of a wave remains correlated with itself. In the context of Young's double-slit experiment, coherence is essential for observing interference patterns. A student-centric tip for remembering this concept is to associate coherence with the idea of 'correlated phases' and to recall that it is a necessary condition for interference to occur.
 
- When it comes to solving problems in Wave Optics, a useful trick is to identify the type of problem and then apply the relevant formula or principle. For example, if the problem involves a diffraction grating, the student should recall the formula $d sin 	heta = n lambda$ and use it to solve for the required quantity. Similarly, for problems involving Young's double-slit experiment, the formula $S = \frac{lambda D}{d}$ can be used. By recognizing the type of problem and applying the relevant formula, students can save time and improve their chances of getting the correct answer.
+ When it comes to solving problems in Wave Optics, a useful trick is to identify the type of problem and then apply the relevant formula or principle. For example, if the problem involves a diffraction grating, the student should recall the formula $d \sin \theta = n lambda$ and use it to solve for the required quantity. Similarly, for problems involving Young's double-slit experiment, the formula $S = \frac{lambda D}{d}$ can be used. By recognizing the type of problem and applying the relevant formula, students can save time and improve their chances of getting the correct answer.
 
  The following table summarizes some key formulas and principles in Wave Optics:
 
 
 | Phenomenon | Formula | Description |
 | --- | --- | --- |
-| Diffraction Gratings | $d sin 	heta = n lambda$ | Relates the distance between slits, the angle of diffraction, and the wavelength of light |
+| Diffraction Gratings | $d \sin \theta = n lambda$ | Relates the distance between slits, the angle of diffraction, and the wavelength of light |
 | Young's Double-Slit Experiment | $S = \frac{lambda D}{d}$ | Relates the fringe width, the wavelength of light, the distance between the slits, and the distance from the slits to the screen |
-| Single-Slit Diffraction | $a sin 	heta = n lambda$ | Relates the width of the slit, the angle of diffraction, and the wavelength of light |
+| Single-Slit Diffraction | $a \sin \theta = n lambda$ | Relates the width of the slit, the angle of diffraction, and the wavelength of light |
 
 
 ## <a id="what-are-common-trap-questions-for-wave-optics"></a>What are common Trap Questions for Wave Optics?
@@ -313,7 +313,7 @@ Wave Optics is the study of the behavior of light as it interacts with matter, i
 | Concept | Definition | Key Points to Remember |
 | --- | --- | --- |
 | Interference | Overlap of two or more waves in the same medium | Coherent sources, superposition principle, $x = \frac{nlambda D}{d}$ for double-slit experiment |
-| Diffraction | Bending of waves around obstacles or through small openings | Single-slit experiment, spreading of waves, $a sin 	heta = nlambda$ for minima |
+| Diffraction | Bending of waves around obstacles or through small openings | Single-slit experiment, spreading of waves, $a \sin \theta = nlambda$ for minima |
 | Polarization | Orientation of electric field vector in light waves | Polarized and unpolarized light, reflection, refraction, and polarizing filters |
 
 
@@ -321,13 +321,13 @@ Wave Optics is the study of the behavior of light as it interacts with matter, i
 
 - The Brewster's angle is the angle of incidence at which the reflected light is completely plane-polarized.
 
-- The speed of light in a medium is given by v = $\frac{c}{μ}$, where c is the speed of light in vacuum and μ is the refractive index of the medium.
+- The speed of light in a medium is given by v = $\frac{{c}{μ}}{\frac{Dλ}{d}} , where c is the speed of light in vacuum and μ is the refractive index of the medium.
 
 
 - The phenomenon of diffraction occurs when light passes through a narrow opening or around a sharp edge.
-- The principle of superposition states that the resultant wave is the algebraic sum of all the individual waves.
+- The principle of superposition states that the resultant wave is the algebraic \sum of all the individual waves.
 - The intensity of polarized light passing through a polarizer is given by I = I0 cos^2 θ, where θ is the angle between the polarization axis and the electric field vector.
-- The principle of interference states that the resulting wave is the sum of all the individual waves.
+- The principle of interference states that the resulting wave is the \sum of all the individual waves.
 - The phenomenon of total internal reflection occurs when light passes from a denser to a rarer medium at a large angle of incidence.
 
 ## <a id="mcqs"></a>MCQs
@@ -358,24 +358,24 @@ Quarter wave plate
 **Answer:**
 C) A Nicole prism will allow the maximum intensity of polarized light passing through it because it is a beam-splitting polarizer.
 **4. In Young's double-slit experiment, the fringe width is given by**
-$\frac{Dλ}{d}$\frac{Dλ}{d}$\frac{Dλ}{2d}$$\frac{2Dλ}{d}$
+$\frac{Dλ}{d}$1 \frac{2Dλ}{d}
 
-**Answer:** B) Fringe width in Young's double-slit experiment is given by β = $\frac{Dλ}{d}$, where D is the distance between the slits and the screen, λ is the wavelength of light, and d is the distance between the slits.
+**Answer:** B) Fringe width in Young's double-slit experiment is given by β = $\frac{{Dλ}{d}}{\frac{\sin i}{\sin r}} , where D is the distance between the slits and the screen, λ is the wavelength of light, and d is the distance between the slits.
 
 
 
 
 **5. The refractive index of a medium is given by**
 
-μ = $\frac{sin i}{sin r}$
+μ = 
 
-μ = $\frac{r}{i}$
+μ = $\frac{{r}{i}}{\frac{\sin r}{\sin i}} 
 
-μ = $\frac{sin r}{sin i}$
+μ = 
 
-μ = $\frac{i}{r}$
+μ = $\frac{{i}{r}}{\frac{\sin r}{\sin i}} 
 
-**Answer:** C) Refractive index is given by μ = $\frac{sin r}{sin i}$, where i is the angle of incidence and r is the angle of refraction.
+**Answer:** C) Refractive index is given by μ = $, where i is the angle of incidence and r is the angle of refraction.
 
 
 

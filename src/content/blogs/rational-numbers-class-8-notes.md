@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/rational-numbers-class-8-notes.webp"
-title: "Rational Numbers Class 8 Mathematics Recap — Grandmaster Guide"
-description: "Rational Numbers Class 8 Mathematics Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-15."
+title: "Rational Numbers 8 Class 8 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Rational Numbers 8 Class 8 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Exam Notes"
 date: "2026-04-15"
 practice_link: "/class-8/mathematics/rational-numbers"
@@ -21,14 +21,14 @@ manualReview: false
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Addition of Rational Numbers:** rac{a}{b} + rac{c}{d} = rac{{a cdot d + b cdot c}}{{b cdot d}} — where $a$, $b$, $c$, $d$ are integers and $b$, $d$ are non-zero.
- - **Subtraction of Rational Numbers:** rac{a}{b} - rac{c}{d} = rac{{a cdot d - b cdot c}}{{b cdot d}} — where $a$, $b$, $c$, $d$ are integers and $b$, $d$ are non-zero.
- - **Multiplication of Rational Numbers:** rac{a}{b} cdot rac{c}{d} = rac{{a cdot c}}{{b cdot d}} — where $a$, $b$, $c$, $d$ are integers and $b$, $d$ are non-zero.
- - **Division of Rational Numbers:** rac{a}{b} div rac{c}{d} = rac{{a cdot d}}{{b cdot c}} — where $a$, $b$, $c$, $d$ are integers and $b$, $c$, $d$ are non-zero.
- - **Reciprocal of a Rational Number:** rac{1}{rac{a}{b}} = rac{b}{a} — where $a$, $b$ are integers and $a$, $b$ are non-zero.
- - **Negative of a Rational Number:** -rac{a}{b} = rac{-a}{b} = rac{a}{-b} — where $a$, $b$ are integers and $b$ is non-zero.
- - **Standard Form of a Rational Number:** rac{a}{b} = rac{{	ext{HCF}(a,b)}}{{	ext{HCF}(a,b)}} cdot rac{a}{b} — where $a$, $b$ are integers, $b$ is non-zero, and HCF denotes the highest common factor.
- - **Comparing Rational Numbers:** rac{a}{b} > rac{c}{d} iff ad > bc — where $a$, $b$, $c$, $d$ are integers, $b$, $d$ are positive, and the fractions are in standard form.
+- **Addition of Rational Numbers:** \frac{a}{b} + \frac{c}{d} = \frac$a cdot d + b cdot c$b cdot d — where a$, $b$, $c$, $d$ are integers and $b$, $d$ are non-zero.
+ - **Subtraction of Rational Numbers:** \frac{a}{b} - \frac{c}{d} = \frac$a cdot d - b cdot c$b cdot d$ — where $a$, $b$, $c$, $d$ are integers and $b$, $d$ are non-zero.
+ - **Multiplication of Rational Numbers:** \frac{a}{b} cdot \frac{c}{d} = \frac$a cdot c$b cdot d — where a$, $b$, $c$, $d$ are integers and $b$, $d$ are non-zero.
+ - **Division of Rational Numbers:** \frac{a}{b} div \frac{c}{d} = \frac$a cdot d$b cdot c$ — where $a$, $b$, $c$, $d$ are integers and $b$, $c$, $d$ are non-zero.
+ - **Reciprocal of a Rational Number:** \frac{1}{\frac{a}{b}} = \frac{b}{a} — where $a$, $b$ are integers and $a$, $b$ are non-zero.
+ - **Negative of a Rational Number:** -\frac{a}{b} = \frac{-a}{b} = \frac{a}{-b} — where $a$, $b$ are integers and $b$ is non-zero.
+ - **Standard Form of a Rational Number:** \frac{a}{b} = \frac$1 ext{HCF}(a,b)$ cdot \frac{a}{b} — where $a$, $b$ are integers, $b$ is non-zero, and HCF denotes the highest common factor.
+ - **Comparing Rational Numbers:** \frac{a}{b} > \frac{c}{d} iff ad > bc — where $a$, $b$, $c$, $d$ are integers, $b$, $d$ are positive, and the fractions are in standard form.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -45,7 +45,7 @@ manualReview: false
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
-- **Q1:** Simplify using appropriate properties: $\frac{-3}{7} 	imes \frac{6}{5} + \frac{1}{14} 	imes \frac{6}{5} - \frac{3}{7}$.
+- **Q1:** Simplify using appropriate properties: $\frac{{-3}{7} 	imes \frac{6}{5} + \frac{1}{14} 	imes \frac{6}{5} - \frac{3}{7}}{\frac{p}{q}} .
  - **Trap:** Students often rush to multiply fractions directly without}
 
 
@@ -53,7 +53,7 @@ manualReview: false
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
 - **The Core Concept: The Infinite Gap!**
- * Alright, listen up, future JEE/NEET champs! When it comes to Rational Numbers, everyone knows what they are – numbers that can be written as $\frac{p}{q}$ where $q 
+ * Alright, listen up, future JEE/NEET champs! When it comes to Rational Numbers, everyone knows what they are – numbers that can be written as $ where $q 
 eq 0$. But here's the kicker}
 
 

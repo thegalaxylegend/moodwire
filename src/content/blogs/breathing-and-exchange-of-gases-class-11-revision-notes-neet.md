@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/breathing-and-exchange-of-gases-class-11-revision-notes-neet.webp"
-title: "Breathing And Exchange Of Gases Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
-description: "Breathing And Exchange Of Gases Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Breathing And Exchange Of Gases Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Breathing And Exchange Of Gases Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/biology/breathing-and-exchange-of-gases-class-11-revision-notes-neet"
@@ -24,13 +24,7 @@ practice_link: "/class-11/biology/breathing-and-exchange-of-gases-class-11-revis
 - [Exchange of Gases](#exchange-of-gases)
  - [Factors Affecting Exchange of Gases](#factors-affecting-exchange-of-gases)
  - [Regulation of Breathing](#regulation-of-breathing)
- - [JEE/MEET Data](#jeeneet-data)
- - [Formulae](#formulae)
- - [MCQs](#mcqs)
 - [Respiratory System](#respiratory-system)
- - [JEE/MEET Data](#jeeneet-data)
- - [Formulae](#formulae)
- - [MCQs](#mcqs)
 - [📚 Related Topics](#-related-topics)
 
 
@@ -39,6 +33,8 @@ practice_link: "/class-11/biology/breathing-and-exchange-of-gases-class-11-revis
 
 
 
+
+##
 
 ## <a id="what-is-breathing-and-exchange-of-gases"></a>What is Breathing And Exchange Of Gases?
 
@@ -135,8 +131,8 @@ According to the JEE/[meet](/blog/anatomy-of-flowering-plants-class-11-revision-
 ### <a id="formulae"></a>Formulae
 The following formulae are relevant to the topic of regulation of breathing:
 
-* **Bohr Effect**: $\franc’d \log P_{50}}{d \log [H^+]} = -0.5$, where UP_{50}$ is the partial pressure of oxygen at which hemoglobin is 50% saturated, and $[H^+]$ is the concentration of hydrogen ions.
-* **Haldane Effect**: $\franc’d \log P_{50}}{d \log [CO_2]} = -0.5$, where UP_{50}$ is the partial pressure of oxygen at which hemoglobin is 50% saturated, and $[CO_2]$ is the concentration of carbon dioxide.
+* **Bohr Effect**: $\frac{’d \log P_{50}}{d \log [H^+]} = -0.5}{ is the partial pressure of oxygen at which hemoglobin is 50% saturated, and } , where UP_{50}$[H^+]$ is the concentration of hydrogen ions.
+* **Haldane Effect**: $\frac{’d \log P_{50}}{d \log [CO_2]} = -0.5}{ is the partial pressure of oxygen at which hemoglobin is 50% saturated, and } , where UP_{50}$[CO_2]$ is the concentration of carbon dioxide.
 
 ### <a id="MCQs"></a>MCQs
 Here are some sample MCQs to test your understanding of the topic:
@@ -178,8 +174,8 @@ According to the JEE/MEET syllabus, the topic of respiratory system is covered u
 ### <a id="formulae"></a>Formulae
 The following formulae are relevant to the topic of respiratory system:
 
-* **Pick's Law of Diffusion**: $\franc{dQ}{dt} = \franc{D \times A}$\Delta $ \times (C_1 - C_2)$, where $\franc{dQ}{dt}$ is the rate of diffusion, DO is the diffusion constant, A is the surface area, $\Delta $ is the thickness of the membrane, and BC_1$ and BC_2$ are the concentrations of the gas on either side of the membrane.
-* **Graham's Law of Diffusion**: $\franc{r_1}{r_2} = \sort{\franc{M_2}{M_1}}$, where or_1$ and or_2$ are the rates of diffusion of two gases, and KM_1$ and KM_2$ are the molecular weights of the two gases.
+* **Pick's Law of Diffusion**: $\frac{{dQ}{dt} = \frac{D \times A}}{ \times (C_1 - C_2)} \Delta $, where $\frac{{dQ}{dt}}{\Delta }  is the rate of diffusion, DO is the diffusion constant, A is the surface area, $ is the thickness of the membrane, and BC_1$ and BC_2$ are the concentrations of the gas on either side of the membrane.
+* **Graham's Law of Diffusion**: $\frac{{r_1}{r_2} = \sqrt{\frac{M_2}{M_1}}}{ and or_2} , where or_1$ are the rates of diffusion of two gases, and KM_1$ and KM_2$ are the molecular weights of the two gases.
 
 ### <a id="MCQs"></a>MCQs
 Here are some sample MCQs to test your understanding of the topic:

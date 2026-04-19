@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/data-structures-linear-class-11-revision-notes-gate-boards.webp"
-title: "Data Structures: Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide"
-description: "Data Structures: Linear Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Data Structures Linear Gate Boards Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Data Structures Linear Gate Boards Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/chemistry/data-structures-linear-class-11-revision-notes-gate-boards"
@@ -61,7 +61,7 @@ Ayush's Note on Data Structures: Linear is a study guide that focuses on the fun
  
  Stacks are another type of linear [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structure that follows the LIFO (Last In First Out) principle, meaning the last element added to the stack will be the first one to be removed. A stack can be implemented using an array or a linked list, and it has two primary operations: push and pop. The push operation adds an element to the top of the stack, while the pop operation removes an element from the top of the stack.
  
- The implementation of linear data structures has a significant impact on the efficiency of algorithms. For example, searching for an element in an array takes $O(n)$ time, where $n$ is the number of elements in the array. However, if the array is sorted, the search time can be reduced to $O(log n)$ using a binary search algorithm.
+ The implementation of linear data structures has a significant impact on the efficiency of algorithms. For example, searching for an element in an array takes $O(n)$ time, where $n$ is the number of elements in the array. However, if the array is sorted, the search time can be reduced to $O(\log n)$ using a binary search algorithm.
  
  The following table summarizes the key characteristics of linear [data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) structures:
  
@@ -302,8 +302,8 @@ These questions often require students to think critically and apply their knowl
 
 In terms of technical depth, students need to understand the following concepts:
 
-* Time complexity: $O(1)$, $O(log n)$, $O(n)$, $O(n log n)$, $O(n^2)$
-* Space complexity: $O(1)$, $O(log n)$, $O(n)$
+* Time complexity: $O(1)$, $O(\log n)$, $O(n)$, $O(n \log n)$, $O(n^2)$
+* Space complexity: $O(1)$, $O(\log n)$, $O(n)$
 * Edge cases: empty lists, single-element lists, lists with duplicate elements
 * Optimization techniques: caching, memoization, dynamic programming
 
@@ -359,7 +359,7 @@ Faster execution
 B) Insertion and deletion are easy because only the affected node needs to be updated, without moving other nodes.
 **2. Consider an array with n elements. What is the time complexity of accessing an element at a given index in an array?**
 O(1)
-O(log n)
+O(\log n)
 O(n)
 O(n^2)
 
@@ -375,7 +375,7 @@ Arrays are not dynamic
 B) Insertion and deletion are difficult because shifting all elements after the affected index is time-consuming.
 **4. Consider an array with n elements. What is the time complexity of searching for an element in an array using a linear search algorithm?**
 O(1)
-O(log n)
+O(\log n)
 O(n)
 O(n^2)
 

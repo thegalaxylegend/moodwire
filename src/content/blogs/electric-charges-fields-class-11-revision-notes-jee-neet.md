@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/electric-charges-fields-class-11-revision-notes-jee-neet.webp"
 title: "Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+description: "Electric Charges Fields Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/physics/electric-charges-fields-class-11-revision-notes-jee-neet"
@@ -82,7 +82,7 @@ The universe is fundamentally electric. From the bonds that hold DNA together to
 
 ### <a id="i-key-properties-of-charge"></a>I. Key Properties of Charge
 1.  **Quantization of Charge:** Charge exists only in integral multiples of the elementary charge **e** (1.602 × 10⁻¹⁹ C). **Q = ± NE**.
-2.  **Additivity of [charges](/blog/moving-charges-magnetism-class-11-revision-notes-neet):** The total charge of a system is the algebraic sum of individual [charges](/blog/moving-charges-magnetism-class-11-revision-notes-neet).
+2.  **Additivity of [charges](/blog/moving-charges-magnetism-class-11-revision-notes-neet):** The total charge of a system is the algebraic \sum of individual [charges](/blog/moving-charges-magnetism-class-11-revision-notes-neet).
 3.  **Conservation of Charge:** The total charge of an isolated system remains constant.
 
 ### <a id="ii-conductors-vs-insulators"></a>II. Conductors vs. Insulators
@@ -184,7 +184,7 @@ An **Electric Dipole** consists of two equal and opposite [charges](/blog/moving
 ### <a id="i-derivation-proof-using-coulombs-law"></a>I. Derivation (Proof using Coulomb’s Law)
 1.  Consider a point charge **q** at the center of a sphere of radius **r**.
 2.  **E = [1 / 4πε₀] [q / r²]**.
-3.  Flux **Φ = ∮ E DA cos 0° = E ∮ DA**.
+3.  Flux **Φ = ∮ E DA \cos 0° = E ∮ DA**.
 4.  Since ∮ DA = 4πr²:
     - **Φ = [1 / 4πε₀] [q / r²] [4πr²] = q / ε₀**. (Proven)
 
@@ -292,7 +292,7 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 * **Incorrectly applying Coulomb's Law**: Coulomb's Law is often misapplied by neglecting to consider the magnitude and direction of the forces between multiple charges, leading to incorrect calculations of the net force.
 * **Confusing electric field lines and force**: Students often mistakenly assume that electric field lines represent the force experienced by a charge, when in fact they represent the direction and magnitude of the electric field at a point in space.
 * **Neglecting the sign of the charge**: When calculating the electric field or force, it's essential to consider the sign of the charge, as like charges repel and unlike charges attract, but many students forget to apply this correctly.
-* **Not considering the superposition principle**: When multiple charges are present, the electric field at a point is the vector sum of the fields due to each charge, but students often neglect to apply the superposition principle, leading to incorrect calculations.
+* **Not considering the superposition principle**: When multiple charges are present, the electric field at a point is the vector \sum of the fields due to each charge, but students often neglect to apply the superposition principle, leading to incorrect calculations.
 
 ## 🔁 Last 5 Minutes Box
 

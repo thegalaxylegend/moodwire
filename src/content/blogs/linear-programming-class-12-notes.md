@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/linear-programming-class-12-notes.webp"
-title: "Linear Programming Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide"
-description: "Linear Programming Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-03."
+title: "Linear Programming Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Linear Programming Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-04-03"
 practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
@@ -45,7 +45,7 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 
 - **Objective Function:** \min $\text{ or } \max\ Z = \sum_{j=1}^{n} c_jx_j — where $Z$ is the objective function value, $c_j$ is the coefficient of variable $x_j$, and $x_j$ is the $j^{th}$ decision variable.$
 
- - **Constraint Equation:** \sum_{j=1}^{n} a_{ij}x_j \leq $\text{ or } = $$\text{ or }$ \geq b_i — where $a_{ij}$ is the coefficient of $x_j$ in the $i^{th}$ constraint, $b_i$ is the right-hand side value of the $i^{th}$ constraint.
+ - **Constraint Equation:** \sum_{j=1}^{n} a_{ij}x_j \leq $\text{ or } = $\text{ or } \geq b_i — where a_{ij}$ is the coefficient of $x_j$ in the $i^{th}$ constraint, $b_i$ is the right-hand side value of the $i^{th}$ constraint.
 
  - **Non-Negativity Constraint:** x_j \geq 0 — where $x_j$ is the $j^{th}$ decision variable.
 
@@ -75,15 +75,7 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 
  - **Shadow Price:** \Delta Z = \sum_{i=1}^{m} y_i \Delta b_i — where $\Delta Z$ is the change in the objective function value, $y_i$ is the dual variable for the $i^{th}$ constraint, $\Delta b_i$ is the change in the right-hand side value of the $i^{th}$ constraint.
 
- - **Reduced Cost:** $\bar{c}_j = c_j - \sum_{i=1}^{m} y_i a_{ij} — where $\bar{c}_j$ is the reduced cost of $x_j$, $c_j$ is the coefficient of $x_j$, $y_i$ is the dual variable for the $i^{th}$ constraint, $a_{ij}$ is the coefficient of $x_j$ in the $i^{th}$ constraint.$
-
-## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
-
-- **Mistake 1:** Incorrectly identifying the feasible region in a linear programming problem.
-
- - *Costs:* 4-6 marks
-
- - *Fix:* To avoid this, ensure you correctly graph all constraints and identify the area where all constraints are satisfied. Remember, the feasible region is a $\{ (x, y) \}$ set that satisfies all given constraints.
+ - **Reduced Cost:** $\bar{c}_j = c_j - \sum_{i=1}^{m} y_i a_{ij} — where $\bar{c}_j$ is the reduced cost of $x_j$, $c_j$ is the coefficient of $x_j$, $y_i$ is the dual variable for the $i^{th}$ constraint, $a_{ij}$ is the coefficient of $x_j$ in the $i^{th}$ constraint.$1  (x, y) \}$ set that satisfies all given constraints.
 
  - **Mistake 2:** Failing to check the corner points of the feasible region for optimality.
 
@@ -107,11 +99,13 @@ practice_link: "/class-11/mathematics/linear-programming-class-12-notes"
 
  - *Costs:* 8-10 marks
 
- - *Fix:* Double-check the calculations when using the simplex method, ensuring that each iteration correctly applies the formula $x_{j} = \frac{b_{i} - \sum_{j=1}^{n} a_{ij}x_{j}}{a_{ij}}$. Also, verify that the solution obtained satisfies all the constraints of the problem.
+ - *Fix:* Double-check the calculations when using the simplex method, ensuring that each iteration correctly applies the formula $x_{j} = \frac{b_{i} - \sum_{j=1}^{n} a_{ij}x_{j $
+
+{a_{ij}}. Also, verify that the solution obtained satisfies all the constraints of the problem.
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
-- **Q1:** A factory produces two types of products, A and B. Each product of type A requires 2 units of raw material and 3 units of labor, while each product of type B requires 3 units of raw material and 2 units of labor. The factory has 1200 units of raw material and 900 units of labor available. Formulate the problem as a linear programming problem to maximize the profit if each product of type A gives a profit of $10 and each product of type B gives a profit of $12.
+- **Q1:** A factory produces two types of products, A and B. Each product of type A requires 2 units of raw material and 3 units of labor, while each product of type B requires 3 units of raw material and 2 units of labor. The factory has 1200 units of raw material and 900 units of labor available. Formulate the problem as a linear programming problem to maximize the profit if each product of type A gives a profit of 10 and each product of type B gives a profit of $12.
 
  - **Trap:** Students often confuse the objective function with the constraints or misinterpret the resource limitations.
 
@@ -265,19 +259,19 @@ Multiplying the second equation by 2 gives:
 
  Subtracting the first equation from this gives:
 
-3y = 80y = $\frac{80}{3}$
+3y = 80y = $\frac{{80}{3}}{y = \frac{80}{3}} 
 
- Substituting $y = \frac{80}{3}$ into one of the original equations to find $x$:
+ Substituting $ into one of the original equations to find $x$:
 
-2x + $\frac{80}{3} = 1206x + 80 = 3606x = 280x = $$\frac{280}{6}$x = $\frac{140}{3}$
+2x + $\frac{{80}{3} = 1206x + 80 = 3606x = 280x = }{x = } \frac{280}{6}$\frac{140}{3}$
 
  Thus, the maximum profit occurs at $x = \frac{140}{3}$ and $y = \frac{80}{3}$.
 
  Substituting these values into the objective function:
 
-P = 20($\frac{140}{3}) + 30($$\frac{80}{3}$)P = $\frac{2800}{3} + $$\frac{2400}{3}$P = $\frac{5200}{3}$
+P = 20($\frac{{140}{3}) + 30(}{\frac{2400}{3}} \frac{80}{3})P = \frac{2800}{3} + $P = $\frac{{5200}{3}}{\frac{5200}{3}} 
 
- - **Answer:** $\frac{5200}{3}$
+ - **Answer:** $
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
@@ -295,9 +289,9 @@ P = 20($\frac{140}{3}) + 30($$\frac{80}{3}$)P = $\frac{2800}{3} + $$\frac{2400}{
 
  * Using the $\Delta$-method to calculate the range of values for the objective function coefficients ($c_j$) and the right-hand side values ($b_i$) for which the solution remains optimal.
 
- * Applying the formula for the range of optimality: \Delta c_j = $\frac{z_j - c_j}{$$\bar{a}_{j \cdot}$} where $z_j$ is the value of the $j^{th}$ variable in the optimal solution, $c_j$ is the coefficient of the $j^{th}$ variable in the objective function, and $\bar{a}_{j \cdot}$ is the $j^{th}$ column of the optimal tableau.
+ * Applying the formula for the range of optimality: \Delta c_j = $\frac{{z_j - c_j}{b}{ is the value of the } \bar{a}_{j \cdot}} where z_j$j^{th}$ variable in the optimal solution, $c_j$ is the coefficient of the $j^{th}$ variable in the objective function, and $\bar{a}_{j \cdot}$ is the $j^{th}$ column of the optimal tableau.
 
- * Calculating the range of values for the right-hand side parameters ($b_i$) using the formula: \Delta b_i = $\frac{$$\bar{x}_i$}{$\bar{a}_{i \cdot}} where $\bar{x}_i$ is the $i^{th}$ slack/surplus variable in the optimal solution, and $\bar{a}_{i \cdot}$ is the $i^{th}$ row of the optimal tableau.$
+ * Calculating the range of values for the right-hand side parameters ($b_i$) using the formula: \Delta b_i = $\frac{{}{b}{} \bar{x}_i$\bar{a}_{i \cdot}} where $\bar{x}_i$ is the $i^{th}$ slack/surplus variable in the optimal solution, and $\bar{a}_{i \cdot}$ is the $i^{th}$ row of the optimal tableau.
 
  * Interpreting the results to understand the sensitivity of the solution to changes in the input parameters.
 
@@ -428,4 +422,3 @@ Continue your revision with these related guides:
 - 📖 [Atoms Class 12 Mathematics Revision — JEE & NEET 2026 Grandmaster Guide](/blog/atoms-class-12-notes)
 - 📖 [Biodiversity and Conservation Class 12 Biology Revision — NEET 2026 Grandmaster Guide](/blog/biodiversity-and-conservation-class-12-notes)
 
-$

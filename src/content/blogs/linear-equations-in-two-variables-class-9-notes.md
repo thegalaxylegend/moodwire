@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/linear-equations-in-two-variables-class-9-notes.webp"
-title: "Linear Equations in Two Variables Class 9 Mathematics Recap — Grandmaster Guide"
-description: "Linear Equations in Two Variables Class 9 Mathematics Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-13."
+title: "Linear Equations In Two Variables 9 Class 9 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Linear Equations In Two Variables 9 Class 9 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Exam Notes"
 date: "2026-04-13"
 practice_link: "/class-9/mathematics/linear-equations-in-two-variables"
@@ -22,13 +22,13 @@ manualReview: false
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
 - **Slope-Intercept Form:** y = {m}x + {c} — where $m$ is the slope of the line and $c$ is the y-intercept.
- - **Slope (m):** m = rac{{y_2 - y_1}}{{x_2 - x_1}} — where $(x_1, y_1)$ and $(x_2, y_2)$ are two points on the line.
+ - **Slope (m):** m = \frac$y_2 - y_1$x_2 - x_1 — where (x_1, y_1)$ and $(x_2, y_2)$ are two points on the line.
  - **Point-Slope Form:** y - {y_1} = {m}(x - {x_1}) — where $m$ is the slope and $(x_1, y_1)$ is a point on the line.
- - **Two-Point Form:** y - {y_1} = rac{{y_2 - y_1}}{{x_2 - x_1}}(x - {x_1}) — where $(x_1, y_1)$ and $(x_2, y_2)$ are two points on the line.
+ - **Two-Point Form:** y - {y_1} = \frac$y_2 - y_1$x_2 - x_1$(x - {x_1}) — where $(x_1, y_1)$ and $(x_2, y_2)$ are two points on the line.
  - **General Form:** Ax + By + C = 0 — where $A$, $B$, and $C$ are constants, and $A$ and $B$ cannot both be zero.
- - **Distance Formula:** d = sqrt{{(x_2 - x_1)^2 + (y_2 - y_1)^2}} — where $d$ is the distance between points $(x_1, y_1)$ and $(x_2, y_2)$.
- - **Midpoint Formula:** left(rac{{x_1 + x_2}}{2}, rac{{y_1 + y_2}}{2}ight) — where $(x_1, y_1)$ and $(x_2, y_2)$ are the endpoints of the line segment.
- - **Section Formula:** left(rac{{m x_2 + n x_1}}{{m + n}}, rac{{m y_2 + n y_1}}{{m + n}}ight) — where $(x_1, y_1)$ and $(x_2, y_2)$ are the endpoints of the line segment, and $m:n$ is the ratio of the division.
+ - **Distance Formula:** d = sqrt$(x_2 - x_1)^2 + (y_2 - y_1)^2$ — where $d$ is the distance between points $(x_1, y_1)$ and $(x_2, y_2)$.
+ - **Midpoint Formula:** left(\frac$x_1 + x_2${2}, \frac$y_1 + y_2${2}ight) — where $(x_1, y_1)$ and $(x_2, y_2)$ are the endpoints of the line segment.
+ - **Section Formula:** left(\frac$m x_2 + n x_1$m + n, \fracm y_2 + n y_1$m + n$ight) — where $(x_1, y_1)$ and $(x_2, y_2)$ are the endpoints of the line segment, and $m:n$ is the ratio of the division.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 

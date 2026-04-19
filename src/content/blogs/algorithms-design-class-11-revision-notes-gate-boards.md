@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/algorithms-design-class-11-revision-notes-gate-boards.webp"
-title: "Algorithms: Design Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide"
-description: "Algorithms: Design Class 11 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Algorithms Design Gate Boards Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Algorithms Design Gate Boards Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/biology/algorithms-design-class-11-revision-notes-gate-boards"
@@ -61,9 +61,9 @@ Ayush's Note on Algorithms: Design is a systematic approach to creating efficien
 
 Algorithm design involves several key steps, starting with the definition of the problem to be solved. This includes identifying the input, output, and any constraints that must be satisfied. Next, the algorithmic technique to be used must be selected, such as divide-and-conquer, dynamic programming, or greedy [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards). Finally, the algorithm must be analyzed to determine its time and space complexity, which is typically expressed using Big O notation.
 
-One of the most critical components of algorithm design is the analysis of time complexity. This involves determining the amount of time an algorithm takes to complete as a function of the size of the input. The most common time complexities are $O(1)$, $O(log n)$, $O(n)$, $O(n log n)$, and $O(n^2)$, where $n$ is the size of the input. Understanding the time complexity of an algorithm is essential for predicting its performance on large datasets.
+One of the most critical components of algorithm design is the analysis of time complexity. This involves determining the amount of time an algorithm takes to complete as a function of the size of the input. The most common time complexities are $O(1)$, $O(\log n)$, $O(n)$, $O(n \log n)$, and $O(n^2)$, where $n$ is the size of the input. Understanding the time complexity of an algorithm is essential for predicting its performance on large datasets.
 
-Another key aspect of algorithm design is the analysis of space complexity. This involves determining the amount of memory an algorithm uses as a function of the size of the input. The most common space complexities are $O(1)$, $O(log n)$, and $O(n)$, where $n$ is the size of the input. Understanding the space complexity of an algorithm is essential for predicting its performance on systems with limited memory.
+Another key aspect of algorithm design is the analysis of space complexity. This involves determining the amount of memory an algorithm uses as a function of the size of the input. The most common space complexities are $O(1)$, $O(\log n)$, and $O(n)$, where $n$ is the size of the input. Understanding the space complexity of an algorithm is essential for predicting its performance on systems with limited memory.
 
 The following table summarizes some common algorithmic techniques and their time and space complexities:
 
@@ -75,12 +75,12 @@ The following table summarizes some common algorithmic techniques and their time
 | Bubble Sort | $O(n^2)$ | $O(1)$ |
 | Selection Sort | $O(n^2)$ | $O(1)$ |
 | Insertion Sort | $O(n^2)$ | $O(1)$ |
-| Merge Sort | $O(n log n)$ | $O(n)$ |
-| Quick Sort | $O(n log n)$ | $O(log n)$ |
-| Heap Sort | $O(n log n)$ | $O(1)$ |
+| Merge Sort | $O(n \log n)$ | $O(n)$ |
+| Quick Sort | $O(n \log n)$ | $O(\log n)$ |
+| Heap Sort | $O(n \log n)$ | $O(1)$ |
 | Dynamic Programming | $O(n^2)$ | $O(n)$ |
 | Greedy Algorithms | $O(n)$ | $O(1)$ |
-| Divide-and-Conquer | $O(n log n)$ | $O(log n)$ |
+| Divide-and-Conquer | $O(n \log n)$ | $O(\log n)$ |
 
 
 ## <a id="what-are-the-fundamentals-of-algorithm-design"></a>What are the fundamentals of Algorithm Design?
@@ -95,7 +95,7 @@ Algorithm Design is the process of developing a well-structured and efficient se
    
    Understanding the time and space complexities of an algorithm is essential. Time complexity refers to the amount of time an algorithm takes to complete, while space complexity refers to the amount of memory an algorithm uses. These complexities are usually expressed using Big O notation, which gives an upper bound on the complexity of an algorithm. 
    
-   For example, the time complexity of a linear search algorithm is $O(n)$, where $n$ is the number of elements in the list. This means that the time taken by the algorithm increases linearly with the size of the input. On the other hand, the time complexity of a binary search algorithm is $O(log n)$, which is much more efficient for large lists. 
+   For example, the time complexity of a linear search algorithm is $O(n)$, where $n$ is the number of elements in the list. This means that the time taken by the algorithm increases linearly with the size of the input. On the other hand, the time complexity of a binary search algorithm is $O(\log n)$, which is much more efficient for large lists. 
    
    In addition to time and space complexities, there are other factors to consider when evaluating [algorithms](/blog/algorithms-analysis-class-11-revision-notes-gate-boards). These include scalability, readability, and maintainability. An algorithm that is scalable can handle large inputs and can be easily modified to solve related problems. An algorithm that is readable is easy to understand and follow, while an algorithm that is maintainable is easy to modify and update. 
    
@@ -112,28 +112,28 @@ Algorithm Design is the process of developing a well-structured and efficient se
 | Algorithm/[data](/blog/data-structures-non-linear-class-11-revision-notes-gate-boards) Structure | Time Complexity | Space Complexity |
 | --- | --- | --- |
 | Linear Search | $O(n)$ | $O(1)$ |
-| Binary Search | $O(log n)$ | $O(1)$ |
+| Binary Search | $O(\log n)$ | $O(1)$ |
 | Bubble Sort | $O(n^2)$ | $O(1)$ |
-| Merge Sort | $O(n log n)$ | $O(n)$ |
+| Merge Sort | $O(n \log n)$ | $O(n)$ |
 | Array | $O(1)$ | $O(n)$ |
 | Linked List | $O(1)$ | $O(n)$ |
 | Stack | $O(1)$ | $O(n)$ |
 | Queue | $O(1)$ | $O(n)$ |
-| Tree | $O(log n)$ | $O(n)$ |
+| Tree | $O(\log n)$ | $O(n)$ |
 | Graph | $O(n + e)$ | $O(n + e)$ |
 
 
 ## <a id="how-do-you-analyze-the-time-complexity-of-an-algorithm"></a>How do you analyze the Time Complexity of an Algorithm?
 
-How do you analyze the Time Complexity of an Algorithm? is determining the amount of time an algorithm takes to complete as a function of the size of the input. It includes understanding the algorithm's structure, identifying loops and recursive calls, and calculating the number of operations performed. For Class 11 exam prep in 2026, the most important aspect is understanding the Big O notation and its application in analyzing algorithms. Time complexity is crucial in computer science because it helps in predicting the performance of an algorithm on large inputs, which is essential for efficient programming. The analysis of time complexity involves breaking down the algorithm into its basic operations such as assignments, conditional statements, loops, and recursive calls, and then determining how many times each operation is performed. This can be done using various notations such as Big O, Big Ω, and Big Θ, where Big O gives the upper bound, Big Ω gives the lower bound, and Big Θ gives the tight bound of the time complexity. Big O notation is the most commonly used and provides an upper bound on the number of steps an algorithm takes, relative to the size of the input. The most common time complexities are $O(1)$ for constant time, $O(log n)$ for logarithmic time, $O(n)$ for linear time, $O(n log n)$ for linearithmic time, $O(n^2)$ for quadratic time, $O(2^n)$ for exponential time, and $O(n!)$ for factorial time. Understanding these complexities helps in comparing the efficiency of different algorithms and in selecting the most appropriate one for a given problem. To calculate the time complexity, one needs to identify the loops and recursive calls in the algorithm and determine the number of iterations or recursive calls made. For loops, the time complexity can be calculated by multiplying the number of iterations by the time complexity of the operations inside the loop. For recursive calls, the time complexity can be calculated by using the recurrence relation and solving it to obtain a closed-form expression. The time complexity can also be analyzed using various techniques such as the substitution method, the recursion tree method, and the master theorem. The substitution method involves substituting the recurrence relation into itself until a pattern emerges, while the recursion tree method involves visualizing the recursive calls as a tree and calculating the total number of nodes in the tree. The master theorem is a more general method that provides a formula for solving recurrence relations of a certain form. By applying these techniques, one can determine the time complexity of an algorithm and compare it with other algorithms to select the most efficient one.
+How do you analyze the Time Complexity of an Algorithm? is determining the amount of time an algorithm takes to complete as a function of the size of the input. It includes understanding the algorithm's structure, identifying loops and recursive calls, and calculating the number of operations performed. For Class 11 exam prep in 2026, the most important aspect is understanding the Big O notation and its application in analyzing algorithms. Time complexity is crucial in computer science because it helps in predicting the performance of an algorithm on large inputs, which is essential for efficient programming. The analysis of time complexity involves breaking down the algorithm into its basic operations such as assignments, conditional statements, loops, and recursive calls, and then determining how many times each operation is performed. This can be done using various notations such as Big O, Big Ω, and Big Θ, where Big O gives the upper bound, Big Ω gives the lower bound, and Big Θ gives the tight bound of the time complexity. Big O notation is the most commonly used and provides an upper bound on the number of steps an algorithm takes, relative to the size of the input. The most common time complexities are $O(1)$ for constant time, $O(\log n)$ for logarithmic time, $O(n)$ for linear time, $O(n \log n)$ for linearithmic time, $O(n^2)$ for quadratic time, $O(2^n)$ for exponential time, and $O(n!)$ for factorial time. Understanding these complexities helps in comparing the efficiency of different algorithms and in selecting the most appropriate one for a given problem. To calculate the time complexity, one needs to identify the loops and recursive calls in the algorithm and determine the number of iterations or recursive calls made. For loops, the time complexity can be calculated by multiplying the number of iterations by the time complexity of the operations inside the loop. For recursive calls, the time complexity can be calculated by using the recurrence relation and solving it to obtain a closed-form expression. The time complexity can also be analyzed using various techniques such as the substitution method, the recursion tree method, and the master theorem. The substitution method involves substituting the recurrence relation into itself until a pattern emerges, while the recursion tree method involves visualizing the recursive calls as a tree and calculating the total number of nodes in the tree. The master theorem is a more general method that provides a formula for solving recurrence relations of a certain form. By applying these techniques, one can determine the time complexity of an algorithm and compare it with other algorithms to select the most efficient one.
 
 
 | Time Complexity | Description | Example |
 | --- | --- | --- |
 | $O(1)$ | Constant time complexity | Accessing an array by index |
-| $O(log n)$ | Logarithmic time complexity | Binary search in an array |
+| $O(\log n)$ | Logarithmic time complexity | Binary search in an array |
 | $O(n)$ | Linear time complexity | Finding an element in an array |
-| $O(n log n)$ | Linearithmic time complexity | Merging two sorted arrays |
+| $O(n \log n)$ | Linearithmic time complexity | Merging two sorted arrays |
 | $O(n^2)$ | Quadratic time complexity | Bubble sort algorithm |
 | $O(2^n)$ | Exponential time complexity | Recursive algorithm for Fibonacci series |
 | $O(n!)$ | Factorial time complexity | Brute force algorithm for traveling salesman problem |
@@ -153,11 +153,11 @@ What is the key Shortcut or Trick for [algorithms](/blog/algorithms-analysis-cla
 
 | Algorithm | Application | Time Complexity | Space Complexity |
 | --- | --- | --- | --- |
-| Merge Sort | Sorting large datasets | $O(n log n)$ | $O(n)$ |
-| Dijkstra's Algorithm | Finding shortest paths in graphs | $O(|E| + |V| log |V|)$ | $O(|V| + |E|)$ |
+| Merge Sort | Sorting large datasets | $O(n \log n)$ | $O(n)$ |
+| Dijkstra's Algorithm | Finding shortest paths in graphs | $O(|E| + |V| \log |V|)$ | $O(|V| + |E|)$ |
 | Floyd-Warshall Algorithm | Finding shortest paths in weighted graphs with positive or negative edge weights | $O(|V|^3)$ | $O(|V|^2)$ |
-| Binary Search | Finding an item from a sorted list of items | $O(log n)$ | $O(1)$ |
-| Quick Sort | Sorting large datasets | $O(n log n)$ on average, $O(n^2)$ in the worst case | $O(log n)$ |
+| Binary Search | Finding an item from a sorted list of items | $O(\log n)$ | $O(1)$ |
+| Quick Sort | Sorting large datasets | $O(n \log n)$ on average, $O(n^2)$ in the worst case | $O(\log n)$ |
 
 
 ## <a id="what-are-the-different-types-of-algorithm-design-techniques"></a>What are the different types of Algorithm Design Techniques?
@@ -167,9 +167,9 @@ Algorithm Design Techniques is a systematic approach to solving computational pr
 
 | Technique | Description | Example | Time Complexity | Space Complexity |
 | --- | --- | --- | --- | --- |
-| Divide and Conquer | Break down the problem into smaller sub-problems and solve them recursively | Merge Sort | $O(n log n)$ | $O(n)$ |
+| Divide and Conquer | Break down the problem into smaller sub-problems and solve them recursively | Merge Sort | $O(n \log n)$ | $O(n)$ |
 | Dynamic Programming | Solve the problem by breaking it down into smaller sub-problems and storing the solutions to sub-problems to avoid redundant computation | Fibonacci Series | $O(n)$ | $O(n)$ |
-| Greedy Algorithms | Make the locally optimal choice at each step with the hope that it will lead to a global optimum solution | Huffman Coding | $O(n log n)$ | $O(n)$ |
+| Greedy Algorithms | Make the locally optimal choice at each step with the hope that it will lead to a global optimum solution | Huffman Coding | $O(n \log n)$ | $O(n)$ |
 | Backtracking | Explore all possible solutions by recursively adding components to the solution and backtracking when a dead-end is reached | N-Queens Problem | $O(n!)$ | $O(n)$ |
 | Brute Force | Try all possible solutions and select the best one | Traveling Salesman Problem | $O(n!)$ | $O(1)$ |
 
@@ -186,7 +186,7 @@ Recursive Algorithms is a programming technique where a function calls itself in
    
    The time complexity of recursive algorithms can be analyzed using the master theorem, which provides a general framework for solving recurrence relations. The master theorem states that the time complexity of a recursive algorithm can be expressed as $T(n) = aT(n/b) + f(n)$, where $a$ is the number of recursive calls, $b$ is the size of each recursive call, and $f(n)$ is the time complexity of the work done outside the recursive calls. 
    
-   To illustrate this, consider the example of the merge sort algorithm, which is a recursive algorithm that sorts an array of elements by dividing it into two halves, sorting each half, and then merging the two sorted halves. The time complexity of the merge sort algorithm can be analyzed using the master theorem, and it can be shown that the time complexity is $O(n log n)$. 
+   To illustrate this, consider the example of the merge sort algorithm, which is a recursive algorithm that sorts an array of elements by dividing it into two halves, sorting each half, and then merging the two sorted halves. The time complexity of the merge sort algorithm can be analyzed using the master theorem, and it can be shown that the time complexity is $O(n \log n)$. 
    
    In addition to the master theorem, there are other techniques for analyzing the time complexity of recursive algorithms, such as the recursion tree method and the substitution method. The recursion tree method involves constructing a tree that represents the recursive calls, and then analyzing the time complexity of each node in the tree. The substitution method involves substituting the recursive call with a closed-form expression, and then analyzing the time complexity of the resulting expression. 
    
@@ -215,23 +215,23 @@ Recursive Algorithms is a programming technique where a function calls itself in
 | --- | --- | --- |
 | Factorial | $O(n)$ | $O(n)$ |
 | Fibonacci | $O(2^n)$ | $O(n)$ |
-| Merge Sort | $O(n log n)$ | $O(n)$ |
-| Binary Search | $O(log n)$ | $O(1)$ |
+| Merge Sort | $O(n \log n)$ | $O(n)$ |
+| Binary Search | $O(\log n)$ | $O(1)$ |
 | Tree Traversal | $O(n)$ | $O(n)$ |
 
 
 ## <a id="what-are-common-trap-questions-for-algorithms-design"></a>What are common Trap Questions for Algorithms: Design?
 
-What are common Trap Questions for Algorithms: Design? is a crucial aspect of technical interviews and exams that tests a candidate's problem-solving skills and ability to think critically. It includes data structures, algorithmic techniques, and problem-solving strategies. For Class 11 exam prep in 2026, the most important aspect is understanding how to identify and tackle common trap questions that can make or break a candidate's performance. Trap questions are designed to test a candidate's knowledge, experience, and problem-solving skills, and they often involve complex algorithms and data structures. In this section, we will discuss some common trap questions for algorithms design and provide tips and strategies for tackling them. One common type of trap question is the 'edge case' question, where the candidate is asked to handle unusual or extreme input cases. For example, a question might ask the candidate to write an algorithm that can handle an empty input array or a very large input array. Another common type of trap question is the 'optimization' question, where the candidate is asked to optimize a given algorithm or data structure for better performance. This can involve reducing the time or space complexity of the algorithm, or improving its scalability. We can represent the time complexity using the $O(n)$ notation, where $n$ is the size of the input. The $O(n)$ notation gives an upper bound on the number of steps an algorithm takes, relative to the size of the input. To tackle these types of questions, candidates need to have a deep understanding of algorithms and data structures, as well as strong problem-solving skills. They should also be able to analyze the problem, identify the key issues, and develop an effective solution. In addition to these technical skills, candidates should also be able to communicate their thought process and solution clearly and effectively. This involves being able to explain their approach, justify their design decisions, and provide examples to illustrate their points. By practicing with common trap questions and developing these skills, candidates can improve their performance in technical interviews and exams, and increase their chances of success. Some examples of common trap questions for algorithms design include finding the first duplicate in an array, finding the maximum sum of a subarray, and finding the closest pair of points in a set of points. These questions require the candidate to think critically and develop an effective solution, and they often involve complex algorithms and data structures. For instance, the closest pair of points problem can be solved using a divide-and-conquer approach, where the points are divided into two halves and the closest pair is found in each half. The $O(n log n)$ time complexity of this approach makes it efficient for large inputs. In contrast, a naive approach with a time complexity of $O(n^2)$ would be inefficient for large inputs. To further illustrate the concepts, let's consider an example of a trap question. Suppose we are given an array of integers and asked to find the maximum sum of a subarray. A naive approach would be to use a brute force algorithm that checks all possible subarrays, but this would have a time complexity of $O(n^2)$ and would be inefficient for large inputs. A more efficient approach would be to use Kadane's algorithm, which has a time complexity of $O(n)$ and can find the maximum sum of a subarray in linear time. By understanding how to tackle these types of trap questions, candidates can improve their performance in technical interviews and exams, and increase their chances of success.
+What are common Trap Questions for Algorithms: Design? is a crucial aspect of technical interviews and exams that tests a candidate's problem-solving skills and ability to think critically. It includes data structures, algorithmic techniques, and problem-solving strategies. For Class 11 exam prep in 2026, the most important aspect is understanding how to identify and tackle common trap questions that can make or break a candidate's performance. Trap questions are designed to test a candidate's knowledge, experience, and problem-solving skills, and they often involve complex algorithms and data structures. In this section, we will discuss some common trap questions for algorithms design and provide tips and strategies for tackling them. One common type of trap question is the 'edge case' question, where the candidate is asked to handle unusual or extreme input cases. For example, a question might ask the candidate to write an algorithm that can handle an empty input array or a very large input array. Another common type of trap question is the 'optimization' question, where the candidate is asked to optimize a given algorithm or data structure for better performance. This can involve reducing the time or space complexity of the algorithm, or improving its scalability. We can represent the time complexity using the $O(n)$ notation, where $n$ is the size of the input. The $O(n)$ notation gives an upper bound on the number of steps an algorithm takes, relative to the size of the input. To tackle these types of questions, candidates need to have a deep understanding of algorithms and data structures, as well as strong problem-solving skills. They should also be able to analyze the problem, identify the key issues, and develop an effective solution. In addition to these technical skills, candidates should also be able to communicate their thought process and solution clearly and effectively. This involves being able to explain their approach, justify their design decisions, and provide examples to illustrate their points. By practicing with common trap questions and developing these skills, candidates can improve their performance in technical interviews and exams, and increase their chances of success. Some examples of common trap questions for algorithms design include finding the first duplicate in an array, finding the maximum \sum of a subarray, and finding the closest pair of points in a set of points. These questions require the candidate to think critically and develop an effective solution, and they often involve complex algorithms and data structures. For instance, the closest pair of points problem can be solved using a divide-and-conquer approach, where the points are divided into two halves and the closest pair is found in each half. The $O(n \log n)$ time complexity of this approach makes it efficient for large inputs. In contrast, a naive approach with a time complexity of $O(n^2)$ would be inefficient for large inputs. To further illustrate the concepts, let's consider an example of a trap question. Suppose we are given an array of integers and asked to find the maximum \sum of a subarray. A naive approach would be to use a brute force algorithm that checks all possible subarrays, but this would have a time complexity of $O(n^2)$ and would be inefficient for large inputs. A more efficient approach would be to use Kadane's algorithm, which has a time complexity of $O(n)$ and can find the maximum \sum of a subarray in linear time. By understanding how to tackle these types of trap questions, candidates can improve their performance in technical interviews and exams, and increase their chances of success.
 
 
 | Question Type | Description | Example | Time Complexity |
 | --- | --- | --- | --- |
 | Edge Case | Handling unusual or extreme input cases | Empty input array | $O(1)$ |
-| Optimization | Optimizing a given algorithm or data structure for better performance | Reducing time complexity from $O(n^2)$ to $O(n log n)$ | $O(n log n)$ |
+| Optimization | Optimizing a given algorithm or data structure for better performance | Reducing time complexity from $O(n^2)$ to $O(n \log n)$ | $O(n \log n)$ |
 | Duplicate Detection | Finding the first duplicate in an array | Finding the first duplicate in an array of integers | $O(n)$ |
-| Maximum Subarray Sum | Finding the maximum sum of a subarray | Finding the maximum sum of a subarray in an array of integers | $O(n)$ |
-| Closest Pair | Finding the closest pair of points in a set of points | Finding the closest pair of points in a set of 2D points | $O(n log n)$ |
+| Maximum Subarray Sum | Finding the maximum \sum of a subarray | Finding the maximum \sum of a subarray in an array of integers | $O(n)$ |
+| Closest Pair | Finding the closest pair of points in a set of points | Finding the closest pair of points in a set of 2D points | $O(n \log n)$ |
 
 
 ## <a id="how-do-you-optimize-algorithm-performance-using-dynamic-programming"></a>How do you optimize Algorithm Performance using Dynamic Programming?
@@ -250,9 +250,9 @@ To apply dynamic programming, we need to follow these steps:
 Let's consider the example of the Fibonacci series, which is a classic problem that can be solved using dynamic programming. The Fibonacci series is defined as: $F(n) = F(n-1) + F(n-2)$, where $F(0) = 0$ and $F(1) = 1$. A naive recursive solution would be: 
 
 F(n) = egin{cases}
-0 & 	ext{if $n = 0$} \
-1 & 	ext{if $n = 1$} \
-F(n-1) + F(n-2) & 	ext{otherwise}
+0 & \text{if $n = 0$} \
+1 & \text{if $n = 1$} \
+F(n-1) + F(n-2) & \text{otherwise}
 end{cases}
 
 However, this solution has a time complexity of $O(2^n)$, which is inefficient for large values of $n$. 
@@ -324,15 +324,15 @@ In summary, dynamic programming is a powerful technique for optimizing algorithm
 
 ## <a id="what-is-the-role-of-greedy-algorithms-in-problemsolving"></a>What is the role of Greedy Algorithms in Problem-Solving?
 
-What is the role of Greedy Algorithms in Problem-Solving? is a fundamental concept in computer science where an algorithm makes the locally optimal choice at each stage with the hope that these local choices will lead to a globally optimum solution. It includes $O(1)$ space complexity for some problems, a top-down approach, and the selection of the best option at each stage. For Class 11 exam prep in 2026, the most important aspect is understanding how to apply greedy algorithms to optimize problems like the Huffman coding, activity selection, and fractional knapsack problems. Greedy algorithms are essential in solving optimization problems by making the optimal choice at each step as they attempt to find a global optimum. However, they do not always produce the optimal solution, as the choice made at one step may not consider the overall optimality of the solution. A key characteristic of greedy algorithms is that they are straightforward to implement and usually have a low time complexity, often $O(n)$ or $O(n log n)$, making them efficient for large data sets. They are applied in various domains such as data compression (Huffman coding), networking (shortest path), and resource allocation. To apply a greedy algorithm, one must first recognize the problem type that can be solved using a greedy approach. Then, the algorithm is designed by considering the problem's constraints and objectives, ensuring that at each step, the choice made is locally optimal. The algorithm terminates when the problem is completely solved or when no further progress can be made.
+What is the role of Greedy Algorithms in Problem-Solving? is a fundamental concept in computer science where an algorithm makes the locally optimal choice at each stage with the hope that these local choices will lead to a globally optimum solution. It includes $O(1)$ space complexity for some problems, a top-down approach, and the selection of the best option at each stage. For Class 11 exam prep in 2026, the most important aspect is understanding how to apply greedy algorithms to optimize problems like the Huffman coding, activity selection, and fractional knapsack problems. Greedy algorithms are essential in solving optimization problems by making the optimal choice at each step as they attempt to find a global optimum. However, they do not always produce the optimal solution, as the choice made at one step may not consider the overall optimality of the solution. A key characteristic of greedy algorithms is that they are straightforward to implement and usually have a low time complexity, often $O(n)$ or $O(n \log n)$, making them efficient for large data sets. They are applied in various domains such as data compression (Huffman coding), networking (shortest path), and resource allocation. To apply a greedy algorithm, one must first recognize the problem type that can be solved using a greedy approach. Then, the algorithm is designed by considering the problem's constraints and objectives, ensuring that at each step, the choice made is locally optimal. The algorithm terminates when the problem is completely solved or when no further progress can be made.
 
 
 | Problem Type | Greedy Algorithm Application | Time Complexity |
 | --- | --- | --- |
-| Huffman Coding | Variable-length prefix codes for data compression | $O(n log n)$ |
-| Activity Selection | Selecting the maximum number of activities that can be performed by a single person | $O(n log n)$ |
-| Fractional Knapsack | Given a set of items, each with a weight and a value, determine the number of each item to include in a collection so that the total weight is less than or equal to a given limit and the total value is as large as possible | $O(n log n)$ |
-| Shortest Path | Finding the path between two nodes in a graph with the minimum total weight | $O(|E| + |V| log |V|)$ |
+| Huffman Coding | Variable-length prefix codes for data compression | $O(n \log n)$ |
+| Activity Selection | Selecting the maximum number of activities that can be performed by a single person | $O(n \log n)$ |
+| Fractional Knapsack | Given a set of items, each with a weight and a value, determine the number of each item to include in a collection so that the total weight is less than or equal to a given limit and the total value is as large as possible | $O(n \log n)$ |
+| Shortest Path | Finding the path between two nodes in a graph with the minimum total weight | $O(|E| + |V| \log |V|)$ |
 
 
 ## <a id="how-do-you-evaluate-the-tradeoffs-between-algorithmic-approaches"></a>How do you evaluate the Trade-offs between Algorithmic Approaches?
@@ -354,18 +354,18 @@ How do you evaluate the Trade-offs between Algorithmic Approaches? is a critical
 | Algorithm | Time Complexity | Space Complexity | Scalability |
 | --- | --- | --- | --- |
 | Bubble Sort | $O(n^2)$ | $O(1)$ | Poor |
-| Quick Sort | $O(n log n)$ | $O(log n)$ | Good |
-| Merge Sort | $O(n log n)$ | $O(n)$ | Excellent |
+| Quick Sort | $O(n \log n)$ | $O(\log n)$ | Good |
+| Merge Sort | $O(n \log n)$ | $O(n)$ | Excellent |
 | Linear Search | $O(n)$ | $O(1)$ | Fair |
-| Binary Search | $O(log n)$ | $O(1)$ | Excellent |
+| Binary Search | $O(\log n)$ | $O(1)$ | Excellent |
 
 
 
 
 - A Greedy algorithm always chooses the locally optimal solution, which may not lead to a global optimum solution.
 - Dynamic programming reduces the problem by breaking it into smaller sub-problems and solving each sub-problem only once.
-- The time complexity of the Merge Sort algorithm is O(n log n).
-- The time complexity of the Binary Search algorithm is O(log n).
+- The time complexity of the Merge Sort algorithm is O(n \log n).
+- The time complexity of the Binary Search algorithm is O(\log n).
 - The problem of finding the minimum spanning tree of a graph can be solved using Prim's algorithm and Kruskal's algorithm.
 - The problem of finding the longest common subsequence can be solved using dynamic programming.
 - The problem of finding the shortest path in a graph can be solved using Dijkstra's algorithm and Bellman-Ford algorithm.
@@ -375,37 +375,37 @@ How do you evaluate the Trade-offs between Algorithmic Approaches? is a critical
 
 **1. A graph is represented as an adjacency matrix. If a graph is weighted and has 'n' nodes, the time complexity of finding the shortest path between two nodes using Dijkstra's algorithm would be?**
 O(n^2)
-O(n log n)
+O(n \log n)
 O(n^3)
-O((n^2) log n)
+O((n^2) \log n)
 
 **Answer:**
-C) The time complexity of Dijkstra's algorithm for a weighted graph with n nodes is O((n^2) log n) in the worst case.
+C) The time complexity of Dijkstra's algorithm for a weighted graph with n nodes is O((n^2) \log n) in the worst case.
 **2. The time complexity of the QuickSort algorithm for an array of 'n' elements is?**
 O(n)
-O(n log n)
+O(n \log n)
 O(n^2)
-O(log n)
+O(\log n)
 
-**Answer:** B) The time complexity of QuickSort is O(n log n) on average, but it can be O(n^2) in the worst case.
+**Answer:** B) The time complexity of QuickSort is O(n \log n) on average, but it can be O(n^2) in the worst case.
 
 **3. The problem of finding an element in an unsorted array of size 'n' has a time complexity of?**
 O(1)
-O(log n)
+O(\log n)
 O(n)
-O(n log n)
+O(n \log n)
 
 **Answer:**
 C) The time complexity of finding an element in an unsorted array of size 'n' is O(n), as we have to check each element in the worst case.
 **4. The problem of finding the minimum value in an unsorted array of size 'n' has a time complexity of?**
 O(1)
-O(log n)
+O(\log n)
 O(n)
-O(n log n)
+O(n \log n)
 
 **Answer:** C) The time complexity of finding the minimum value in an unsorted array of size 'n' is O(n), as we have to check each element in the worst case.
 
-**5. A Greedy algorithm is used to solve the problem of finding the minimum number of coins that sum up to a given amount. Which of the following is a characteristic of Greedy algorithms?**
+**5. A Greedy algorithm is used to solve the problem of finding the minimum number of coins that \sum up to a given amount. Which of the following is a characteristic of Greedy algorithms?**
 They always choose the optimal solution.
 They may not always choose the optimal solution.
 They are used for solving problems having only two possible solutions.
@@ -464,13 +464,13 @@ Continue your revision with these related guides:
   + Bubble Sort: O(n^2)
   + Selection Sort: O(n^2)
   + Insertion Sort: O(n^2)
-  + Merge Sort: O(n log n)
-  + Quick Sort: O(n log n)
+  + Merge Sort: O(n \log n)
+  + Quick Sort: O(n \log n)
 * **Searching Algorithms**:
   + Linear Search: O(n)
-  + Binary Search: O(log n)
+  + Binary Search: O(\log n)
 * **Graph Algorithms**:
   + Breadth-First Search (BFS): O(V + E)
   + Depth-First Search (DFS): O(V + E)
-  + Dijkstra's Algorithm: O((V + E) log V)
+  + Dijkstra's Algorithm: O((V + E) \log V)
   + Bellman-Ford Algorithm: O(VE)

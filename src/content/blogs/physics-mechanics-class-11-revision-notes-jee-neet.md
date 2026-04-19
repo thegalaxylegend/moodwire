@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/physics-mechanics-class-11-revision-notes-jee-neet.webp"
-title: "physics mechanics class 11 revision notes jee neet Class 10 Exam Notes Recap — Grandmaster Guide"
-description: "physics mechanics class 11 revision notes jee neet Class 10 Exam Notes Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-16."
+title: "Physics Mechanics Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Physics Mechanics Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Exam Notes"
 date: "2026-04-16"
 practice_link: "/class-10/exam notes/physics-mechanics-class-11-revision-notes-jee-neet"
@@ -20,21 +20,21 @@ manualReview: false
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Distance and Displacement:** s = sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2} — $s$ is the distance between two points $(x_1, y_1, z_1)$ and $(x_2, y_2, z_2)$.
- - **Speed:** v = rac{ds}{dt} — $v$ is the speed, $s$ is the distance, and $t$ is the time.
- - **Velocity:** vec{v} = rac{dvec{s}}{dt} = left{rac{dx}{dt}, rac{dy}{dt}, rac{dz}{dt}ight} — $vec{v}$ is the velocity vector, and $vec{s}$ is the displacement vector.
- - **Acceleration:** vec{a} = rac{dvec{v}}{dt} = left{rac{dv_x}{dt}, rac{dv_y}{dt}, rac{dv_z}{dt}ight} — $vec{a}$ is the acceleration vector, and $vec{v}$ is the velocity vector.
+- **Distance and Displacement:** s = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2} — $s$ is the distance between two points $(x_1, y_1, z_1)$ and $(x_2, y_2, z_2)$.
+ - **Speed:** v = \frac{ds}{dt} — $v$ is the speed, $s$ is the distance, and $t$ is the time.
+ - **Velocity:** vec{v} = \frac{dvec{s}}{dt} = left{\frac{dx}{dt}, \frac{dy}{dt}, \frac{dz}{dt}ight} — $vec{v}$ is the velocity vector, and $vec{s}$ is the displacement vector.
+ - **Acceleration:** vec{a} = \frac{dvec{v}}{dt} = left{\frac{dv_x}{dt}, \frac{dv_y}{dt}, \frac{dv_z}{dt}ight} — $vec{a}$ is the acceleration vector, and $vec{v}$ is the velocity vector.
  - **Equation of Motion (First):** v = u + at — $v$ is the final velocity, $u$ is the initial velocity, $a$ is the acceleration, and $t$ is the time.
- - **Equation of Motion (Second):** s = ut + rac{1}{2}at^2 — $s$ is the displacement, $u$ is the initial velocity, $t$ is the time, and $a$ is the acceleration.
+ - **Equation of Motion (Second):** s = ut + \frac{1}{2}at^2 — $s$ is the displacement, $u$ is the initial velocity, $t$ is the time, and $a$ is the acceleration.
  - **Equation of Motion (Third):** v^2 = u^2 + 2as — $v$ is the final velocity, $u$ is the initial velocity, $a$ is the acceleration, and $s$ is the displacement.
  - **Force:** vec{F} = mvec{a} — $vec{F}$ is the net force, $m$ is the mass, and $vec{a}$ is the acceleration.
  - **Momentum:** vec{p} = mvec{v} — $vec{p}$ is the momentum, $m$ is the mass, and $vec{v}$ is the velocity.
- - **Work Done:** W = vec{F} cdot vec{s} = Fscos{	heta} — $W$ is the work done, $vec{F}$ is the force, $vec{s}$ is the displacement, and $	heta$ is the angle between the force and displacement.
- - **Energy:** E = rac{1}{2}mv^2 + mgh — $E$ is the total energy, $m$ is the mass, $v$ is the velocity, $g$ is the acceleration due to gravity, and $h$ is the height.
+ - **Work Done:** W = vec{F} cdot vec{s} = Fscos{\theta} — $W$ is the work done, $vec{F}$ is the force, $vec{s}$ is the displacement, and $\theta$ is the angle between the force and displacement.
+ - **Energy:** E = \frac{1}{2}mv^2 + mgh — $E$ is the total energy, $m$ is the mass, $v$ is the velocity, $g$ is the acceleration due to gravity, and $h$ is the height.
  - **Friction:** F_f = mu N — $F_f$ is the frictional force, $mu$ is the coefficient of friction, and $N$ is the normal force.
  - **Torque:** 	au = r 	imes F — $	au$ is the torque, $r$ is the distance from the axis, and $F$ is the force.
- - **Angular Velocity:** omega = rac{d	heta}{dt} — $omega$ is the angular velocity, $	heta$ is the angular displacement, and $t$ is the time.
- - **Centripetal Force:** F_c = rac{mv^2}{r} = momega^2r — $F_c$ is the centripetal force, $m$ is the mass, $v$ is the velocity, $r$ is the radius, and $omega$ is the angular velocity.
+ - **Angular Velocity:** omega = \frac{d\theta}{dt} — $omega$ is the angular velocity, $\theta$ is the angular displacement, and $t$ is the time.
+ - **Centripetal Force:** F_c = \frac{mv^2}{r} = momega^2r — $F_c$ is the centripetal force, $m$ is the mass, $v$ is the velocity, $r$ is the radius, and $omega$ is the angular velocity.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -45,19 +45,19 @@ manualReview: false
 
 - *Fix:* Always read the question carefully and identify the given parameters before applying any formula. Ensure that the equation is relevant to the situation described in the problem.
 
-- **Mistake 2:** Forgetting to consider the signs of vectors when calculating the resultant of two or more vectors using the formula { $R = sqrt{A^2 + B^2 + 2AB cos 	heta}$ }.
+- **Mistake 2:** Forgetting to consider the signs of vectors when calculating the resultant of two or more vectors using the formula { $R = \sqrt{A^2 + B^2 + 2AB \cos \theta}$ }.
 
 - *Costs:* 2-3 marks
  
 
-- *Fix:* Always consider the direction of vectors and use the correct sign convention. Remember that the angle { $	heta$ } should be the angle between the two vectors.
+- *Fix:* Always consider the direction of vectors and use the correct sign convention. Remember that the angle { $\theta$ } should be the angle between the two vectors.
 
-- **Mistake 3:** Incorrectly using the formula for the moment of inertia, { $I = rac{1}{2}mr^2$ }, without considering the axis of rotation.
+- **Mistake 3:** Incorrectly using the formula for the moment of inertia, { $I = \frac{1}{2}mr^2$ }, without considering the axis of rotation.
 
 - *Costs:* 2-3 marks
  
 
-- *Fix:* Identify the axis of rotation and apply the correct formula for the moment of inertia. Use { $I = rac{1}{2}mr^2$ } for a disc rotating about its central axis and { $I = rac{1}{12}mL^2$ } for a rod rotating about one of its ends.
+- *Fix:* Identify the axis of rotation and apply the correct formula for the moment of inertia. Use { $I = \frac{1}{2}mr^2$ } for a disc rotating about its central axis and { $I = \frac{1}{12}mL^2$ } for a rod rotating about one of its ends.
 
 - **Mistake 4:** Not considering the normal reaction force when calculating the frictional force using the formula { $f = mu N$ }.
 
@@ -82,9 +82,9 @@ manualReview: false
  - The initial momentum of the system is $mv$.
  - After the collision, the velocity of the particle of mass $m$ is $v_1$ and that of mass $M$ is $v_2$.
  - Applying the law of conservation of momentum: $mv = mv_1 + Mv_2$
- - Applying the law of conservation of kinetic energy: $rac{1}{2}mv^2 = rac{1}{2}mv_1^2 + rac{1}{2}Mv_2^2$
- - Solving these equations, we get: $v_1 = rac{(m-M)v}{m+M}$
- - **Answer:** $rac{(m-M)v}{m+M}$
+ - Applying the law of conservation of kinetic energy: $\frac{1}{2}mv^2 = \frac{1}{2}mv_1^2 + \frac{1}{2}Mv_2^2$
+ - Solving these equations, we get: $v_1 = \frac{(m-M)v}{m+M}$
+ - **Answer:** $\frac{(m-M)v}{m+M}$
  - **Q2:** A block of mass $2$ kg is placed on a horizontal surface. The coefficient of friction between the block and the surface is $0.5$. If a horizontal force of $2$ N is applied on the block, the acceleration of the block is
  - **Trap:** Students often forget to consider the force of friction.
  - **Solution:** 
@@ -92,7 +92,7 @@ manualReview: false
  - The normal reaction $N$ is equal to the weight of the block, which is $mg$.
  - So, $f = mu mg = 0.5 	imes 2 	imes 10 = 10$ N
  - The net force acting on the block is $F - f = 2 - 10 = -8$ N (since the force of friction opposes the applied force)
- - The acceleration of the block is given by $a = rac{F - f}{m} = rac{-8}{2} = -4$ m/s$^2$
+ - The acceleration of the block is given by $a = \frac{F - f}{m} = \frac{-8}{2} = -4$ m/s$^2$
  - **Answer:** $-4$ m/s$^2$
  - **Q3:** A car is moving with a velocity of $20$ m/s when the driver applies the brakes. The car comes to rest in $4$ seconds. The acceleration of the car is
  - **Trap:** Students often get confused between the initial and final velocities.
@@ -100,58 +100,60 @@ manualReview: false
  - We know that $v = u + at$, where $v$ is the final velocity, $u$ is the initial velocity, $a$ is the acceleration, and $t$ is the time.
  - Here, $v = 0$, $u = 20$ m/s, and $t = 4$ s.
  - Substituting these values, we get: $0 = 20 + a 	imes 4$
- - Solving for $a$, we get: $a = -rac{20}{4} = -5$ m/s$^2$
+ - Solving for $a$, we get: $a = -\frac{20}{4} = -5$ m/s$^2$
  - **Answer:** $-5$ m/s$^2$
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
-- **The Core Concept:** The core concept that separates 85% scorers from 95% scorers in Physics Mechanics for JEE/NEET is the application of $F = rac{dp}{dt}$, where $p$ is the momentum of an object, and $t$ is time. This concept is crucial for solving problems involving variable forces and velocities.
+- **The Core Concept:** The core concept that separates 85% scorers from 95% scorers in Physics Mechanics for JEE/NEET is the application of $F = \frac{dp}{dt}$, where $p$ is the momentum of an object, and $t$ is time. This concept is crucial for solving problems involving variable forces and velocities.
 
 - **What 85% scorers do:** Most students who score around 85% tend to:
- * Rely heavily on memorization of formulas like $v = u + at$ and $s = ut + rac{1}{2}at^2$.
+ * Rely heavily on memorization of formulas like $v = u + at$ and $s = ut + \frac{1}{2}at^2$.
  * Apply these formulas without considering the underlying principles of momentum and force.
  * Solve problems using $F = ma$, but often fail to account for the time dependence of forces and velocities.
 
 - **What 95% scorers do:** In contrast, students who score around 95%:
- * Understand that $F = rac{dp}{dt}$ is a fundamental principle that underlies all of mechanics.
- * Can derive formulas like $v = u + at$ and $s = ut + rac{1}{2}at^2$ from this principle.
+ * Understand that $F = \frac{dp}{dt}$ is a fundamental principle that underlies all of mechanics.
+ * Can derive formulas like $v = u + at$ and $s = ut + \frac{1}{2}at^2$ from this principle.
  * Apply the concept of momentum and force to solve complex problems, including those involving variable forces and velocities.
  * Use the concept of impulse, $J = \int F dt = \Delta p$, to solve problems involving collisions and impulsive forces.
- * Recognize that $F = rac{dp}{dt}$ is equivalent to $F = ma$ when the mass is constant, but can be more general when the mass is changing.
+ * Recognize that $F = \frac{dp}{dt}$ is equivalent to $F = ma$ when the mass is constant, but can be more general when the mass is changing.
  * Can solve problems using the following formula:
- \int_{t_1}^{t_2} F dt = \Delta p = p_2 
+
+$1 
+
 
 - p_1
  where $p_1$ and $p_2$ are the initial and final momenta of an object.
 
 - **Key Formulas:**
- * $F = rac{dp}{dt}$
+ * $F = \frac{dp}{dt}$
  * $J = \int F dt = \Delta p$
  * $F = ma$ (when mass is constant)
 
 | Concept | Formula | Description |
 | --- | --- | --- |
-| Force and Momentum | $F = rac{dp}{dt}$ | Relates force to the rate of change of momentum |
+| Force and Momentum | $F = \frac{dp}{dt}$ | Relates force to the rate of change of momentum |
 | Impulse | $J = \int F dt = \Delta p$ | Relates impulse to the change in momentum |
 | Constant Mass | $F = ma$ | Relates force to mass and acceleration when mass is constant |
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-- **The Hidden Pattern:** After carefully analyzing 5+ years of PYQs for Physics Mechanics in Class 11, it's evident that $a = rac{dv}{dt}$ and $v = rac{ds}{dt}$ are crucial. The connection between velocity, acceleration, and distance is often tested, especially in relation to $s = ut + rac{1}{2}at^2$ and $v^2 = u^2 + 2as$. These equations are fundamental and frequently appear in various forms.
+- **The Hidden Pattern:** After carefully analyzing 5+ years of PYQs for Physics Mechanics in Class 11, it's evident that $a = \frac{dv}{dt}$ and $v = \frac{ds}{dt}$ are crucial. The connection between velocity, acceleration, and distance is often tested, especially in relation to $s = ut + \frac{1}{2}at^2$ and $v^2 = u^2 + 2as$. These equations are fundamental and frequently appear in various forms.
 
-- **How to Apply It:** To tackle problems efficiently, students should be able to derive $v^2 = u^2 + 2as$ from $a = rac{dv}{dt}$ and $v = rac{ds}{dt}$, and understand when to apply $s = ut + rac{1}{2}at^2$ for uniformly accelerated motion. Practice in applying these formulas to different scenarios, such as projectile motion and circular motion, is key.
+- **How to Apply It:** To tackle problems efficiently, students should be able to derive $v^2 = u^2 + 2as$ from $a = \frac{dv}{dt}$ and $v = \frac{ds}{dt}$, and understand when to apply $s = ut + \frac{1}{2}at^2$ for uniformly accelerated motion. Practice in applying these formulas to different scenarios, such as projectile motion and circular motion, is key.
 
 - **PYQ-Specific Trend:** A recurring trend in PYQs is the use of relative motion and the equations of motion in two dimensions. Problems involving projectiles, relative velocity, and collisions are common. Being able to break down complex motion into components and apply $x = x_0 + v_{0x}t$ and $y = y_0 + v_{0y}t 
 
-- rac{1}{2}gt^2$ for projectile motion under gravity is essential.
+- \frac{1}{2}gt^2$ for projectile motion under gravity is essential.
 
-- **Formula Derivation:** Deriving formulas like $R = rac{u^2 sin(2	heta)}{g}$ for the range of a projectile and understanding the conditions for maximum range ($	heta = 45^circ$) can significantly enhance problem-solving skills. It's also important to remember that $T = rac{2u sin(	heta)}{g}$ gives the time of flight for a projectile.
+- **Formula Derivation:** Deriving formulas like $R = \frac{u^2 sin(2\theta)}{g}$ for the range of a projectile and understanding the conditions for maximum range ($\theta = 45^{\circ}$) can significantly enhance problem-solving skills. It's also important to remember that $T = \frac{2u sin(\theta)}{g}$ gives the time of flight for a projectile.
 
 | Concept | Formula | Description |
 | --- | --- | --- |
-| Uniformly Accelerated Motion | $s = ut + rac{1}{2}at^2$ | Equation for distance under constant acceleration |
-| Velocity and Acceleration | $v = rac{ds}{dt}$ and $a = rac{dv}{dt}$ | Definitions of velocity and acceleration |
-| Projectile Motion | $R = rac{u^2 sin(2	heta)}{g}$ | Formula for the range of a projectile under gravity |
+| Uniformly Accelerated Motion | $s = ut + \frac{1}{2}at^2$ | Equation for distance under constant acceleration |
+| Velocity and Acceleration | $v = \frac{ds}{dt}$ and $a = \frac{dv}{dt}$ | Definitions of velocity and acceleration |
+| Projectile Motion | $R = \frac{u^2 sin(2\theta)}{g}$ | Formula for the range of a projectile under gravity |
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 

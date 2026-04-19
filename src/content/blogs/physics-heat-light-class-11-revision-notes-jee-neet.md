@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/physics-heat-light-class-11-revision-notes-jee-neet.webp"
-title: "physics heat light class 11 revision notes jee neet Class 10 Exam Notes Recap — Grandmaster Guide"
-description: "physics heat light class 11 revision notes jee neet Class 10 Exam Notes Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-17."
+title: "Physics Heat Light Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Physics Heat Light Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Exam Notes"
 date: "2026-04-17"
 practice_link: "/class-10/exam notes/physics-heat-light-class-11-revision-notes-jee-neet"
@@ -21,23 +21,23 @@ manualReview: false
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Heat Transfer Formula:** Q = rac{KA(T_1 - T_2)}{d} — where $Q$ is the amount of heat transferred, $K$ is the thermal conductivity, $A$ is the cross-sectional area, $T_1$ and $T_2$ are the temperatures, and $d$ is the distance.
- - **Specific Heat Capacity Formula:** c = rac{Q}{mDelta T} — where $c$ is the specific heat capacity, $Q$ is the amount of heat transferred, $m$ is the mass, and $\Delta T$ is the change in temperature.
- - **Latent Heat Formula:** L = rac{Q}{m} — where $L$ is the latent heat, $Q$ is the amount of heat transferred, and $m$ is the mass.
+- **Heat Transfer Formula:** Q = \frac{KA(T_1 - T_2)}{d} — where $Q$ is the amount of heat transferred, $K$ is the thermal conductivity, $A$ is the cross-sectional area, $T_1$ and $T_2$ are the temperatures, and $d$ is the distance.
+ - **Specific Heat Capacity Formula:** c = \frac{Q}{mDelta T} — where $c$ is the specific heat capacity, $Q$ is the amount of heat transferred, $m$ is the mass, and $\Delta T$ is the change in temperature.
+ - **Latent Heat Formula:** L = \frac{Q}{m} — where $L$ is the latent heat, $Q$ is the amount of heat transferred, and $m$ is the mass.
  - **Internal Energy Formula:** \Delta U = Q + W — where $\Delta U$ is the change in internal energy, $Q$ is the amount of heat transferred, and $W$ is the work done.
  - **First Law of Thermodynamics Formula:** \Delta Q = \Delta U + \Delta W — where $\Delta Q$ is the change in heat, $\Delta U$ is the change in internal energy, and $\Delta W$ is the change in work.
- - **Efficiency of a Heat Engine Formula:** eta = rac{W}{Q_1} = 1 - rac{Q_2}{Q_1} — where $eta$ is the efficiency, $W$ is the work done, $Q_1$ is the heat input, and $Q_2$ is the heat output.
- - **Carnot Engine Efficiency Formula:** eta = 1 - rac{T_2}{T_1} — where $eta$ is the efficiency, $T_1$ is the temperature of the hot reservoir, and $T_2$ is the temperature of the cold reservoir.
- - **Reflection Formula:** 	heta_1 = 	heta_2 — where $	heta_1$ is the angle of incidence and $	heta_2$ is the angle of reflection.
- - **Refraction Formula:** rac{n_1}{n_2} = rac{sin 	heta_2}{sin 	heta_1} — where $n_1$ and $n_2$ are the refractive indices, and $	heta_1$ and $	heta_2$ are the angles of incidence and refraction.
- - **Snell's Law Formula:** n_1 sin 	heta_1 = n_2 sin 	heta_2 — where $n_1$ and $n_2$ are the refractive indices, and $	heta_1$ and $	heta_2$ are the angles of incidence and refraction.
- - **Total Internal Reflection Formula:** 	heta_c = sin^{-1} left( rac{n_2}{n_1} ight) — where $	heta_c$ is the critical angle, $n_1$ is the refractive index of the denser medium, and $n_2$ is the refractive index of the rarer medium.
- - **Lens Maker's Formula:** rac{1}{f} = (n-1) left( rac{1}{R_1} - rac{1}{R_2} ight) — where $f$ is the focal length, $n$ is the refractive index, and $R_1$ and $R_2$ are the radii of curvature.
- - **Mirror Formula:** rac{1}{f} = rac{1}{v} + rac{1}{u} — where $f$ is the focal length, $v$ is the image distance, and $u$ is the object distance.
+ - **Efficiency of a Heat Engine Formula:** eta = \frac{W}{Q_1} = 1 - \frac{Q_2}{Q_1} — where $eta$ is the efficiency, $W$ is the work done, $Q_1$ is the heat input, and $Q_2$ is the heat output.
+ - **Carnot Engine Efficiency Formula:** eta = 1 - \frac{T_2}{T_1} — where $eta$ is the efficiency, $T_1$ is the temperature of the hot reservoir, and $T_2$ is the temperature of the cold reservoir.
+ - **Reflection Formula:** \theta_1 = \theta_2 — where $\theta_1$ is the angle of incidence and $\theta_2$ is the angle of reflection.
+ - **Refraction Formula:** \frac{n_1}{n_2} = \frac{\sin \theta_2}{\sin \theta_1} — where $n_1$ and $n_2$ are the refractive indices, and $\theta_1$ and $\theta_2$ are the angles of incidence and refraction.
+ - **Snell's Law Formula:** n_1 \sin \theta_1 = n_2 \sin \theta_2 — where $n_1$ and $n_2$ are the refractive indices, and $\theta_1$ and $\theta_2$ are the angles of incidence and refraction.
+ - **Total Internal Reflection Formula:** \theta_c = sin^{-1} left( \frac{n_2}{n_1} ight) — where $\theta_c$ is the critical angle, $n_1$ is the refractive index of the denser medium, and $n_2$ is the refractive index of the rarer medium.
+ - **Lens Maker's Formula:** \frac{1}{f} = (n-1) left( \frac{1}{R_1} - \frac{1}{R_2} ight) — where $f$ is the focal length, $n$ is the refractive index, and $R_1$ and $R_2$ are the radii of curvature.
+ - **Mirror Formula:** \frac{1}{f} = \frac{1}{v} + \frac{1}{u} — where $f$ is the focal length, $v$ is the image distance, and $u$ is the object distance.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
-- **Mistake 1:** Incorrectly applying the formula for heat transfer due to conduction, given by $Q = rac{k A (T_1 
+- **Mistake 1:** Incorrectly applying the formula for heat transfer due to conduction, given by $Q = \frac{k A (T_1 
 
 - T_2)}{d}$, where $Q$ is the amount of heat transferred, $k$ is the thermal conductivity of the material, $A$ is the cross-sectional area, $T_1$ and $T_2$ are the temperatures at the ends, and $d$ is the length of the material.
 
@@ -53,23 +53,23 @@ manualReview: false
 
 - *Fix:* Always ensure that the temperature difference is correctly calculated, taking into account the signs of the temperatures.
 
-- **Mistake 3:** Incorrectly applying the formula for the focal length of a mirror, given by $rac{1}{f} = rac{1}{v} + rac{1}{u}$, where $f$ is the focal length, $v$ is the image distance, and $u$ is the object distance.
+- **Mistake 3:** Incorrectly applying the formula for the focal length of a mirror, given by $\frac{1}{f} = \frac{1}{v} + \frac{1}{u}$, where $f$ is the focal length, $v$ is the image distance, and $u$ is the object distance.
 
 - *Costs:* 4-6 marks for every problem where this formula is misapplied.
 
 - *Fix:* Ensure that the signs of the distances are correctly considered, using the sign convention for mirrors.
 
-- **Mistake 4:** Forgetting to consider the type of lens (converging or diverging) when applying the formula for the focal length of a lens, given by $rac{1}{f} = (mu 
+- **Mistake 4:** Forgetting to consider the type of lens (converging or diverging) when applying the formula for the focal length of a lens, given by $\frac{1}{f} = (mu 
 
-- 1) left( rac{1}{R_1} 
+- 1) left( \frac{1}{R_1} 
 
-- rac{1}{R_2} ight)$, where $f$ is the focal length, $mu$ is the refractive index, and $R_1$ and $R_2$ are the radii of curvature of the lens.
+- \frac{1}{R_2} ight)$, where $f$ is the focal length, $mu$ is the refractive index, and $R_1$ and $R_2$ are the radii of curvature of the lens.
 
 - *Costs:* 3-5 marks for every problem where the type of lens is not correctly considered.
 
 - *Fix:* Always ensure that the type of lens is correctly identified, and the formula is applied accordingly.
 
-- **Mistake 5:** Incorrectly applying the formula for the refractive index of a medium, given by $mu = rac{c}{v}$, where $mu$ is the refractive index, $c$ is the speed of light in vacuum, and $v$ is the speed of light in the medium.
+- **Mistake 5:** Incorrectly applying the formula for the refractive index of a medium, given by $mu = \frac{c}{v}$, where $mu$ is the refractive index, $c$ is the speed of light in vacuum, and $v$ is the speed of light in the medium.
 
 - *Costs:* 4-6 marks for every problem where this formula is misapplied.
 
@@ -77,36 +77,36 @@ manualReview: false
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
-- **Q1:** A black body is at a temperature of $5000$ K. The energy of radiation emitted by the body at this temperature per unit area per unit time in the wavelength range $900 	ext{nm}$ to $1000 	ext{nm}$ can be calculated using Planck's radiation law. The energy density $u(lambda, T)$ is given by $u(lambda, T) = rac{8 pi h c}{lambda^5} cdot rac{1}{e^{rac{h c}{lambda k_B T}} - 1}$.
+- **Q1:** A black body is at a temperature of $5000$ K. The energy of radiation emitted by the body at this temperature per unit area per unit time in the wavelength range $900 \text{nm}$ to $1000 \text{nm}$ can be calculated using Planck's radiation law. The energy density $u(lambda, T)$ is given by $u(lambda, T) = \frac{8 \pi h c}{lambda^5} cdot \frac{1}{e^{\frac{h c}{lambda k_B T}} - 1}$.
  - **Trap:** Students often confuse the energy density $u(lambda, T)$ with the total energy radiated per unit area per unit time, which requires integrating $u(lambda, T)$ over all wavelengths.
  - **Solution:**
- - First, identify the limits of integration: $lambda_1 = 900 	ext{nm}$ and $lambda_2 = 1000 	ext{nm}$.
- - Convert these wavelengths to meters: $lambda_1 = 900 	imes 10^{-9} 	ext{m}$ and $lambda_2 = 1000 	imes 10^{-9} 	ext{m}$.
+ - First, identify the limits of integration: $lambda_1 = 900 \text{nm}$ and $lambda_2 = 1000 \text{nm}$.
+ - Convert these wavelengths to meters: $lambda_1 = 900 	imes 10^{-9} \text{m}$ and $lambda_2 = 1000 	imes 10^{-9} \text{m}$.
  - The energy $E$ radiated per unit area per unit time in the given wavelength range is given by the integral of $u(lambda, T)$ over the range $[lambda_1, lambda_2]$:
- E = \int_{lambda_1}^{lambda_2} u(lambda, T) dlambda = \int_{lambda_1}^{lambda_2} rac{8 pi h c}{lambda^5} cdot rac{1}{e^{rac{h c}{lambda k_B T}} - 1} dlambda
- - Using the given constants: $h = 6.626 	imes 10^{-34} 	ext{J s}$, $c = 3 	imes 10^8 	ext{m/s}$, $k_B = 1.38 	imes 10^{-23} 	ext{J/K}$, and $T = 5000 	ext{K}$, we calculate the integral.
+ E = \int_{lambda_1}^{lambda_2} u(lambda, T) dlambda = \int_{lambda_1}^{lambda_2} \frac{8 \pi h c}{lambda^5} cdot \frac{1}{e^{\frac{h c}{lambda k_B T}} - 1} dlambda
+ - Using the given constants: $h = 6.626 	imes 10^{-34} \text{J s}$, $c = 3 	imes 10^8 \text{m/s}$, $k_B = 1.38 	imes 10^{-23} \text{J/K}$, and $T = 5000 \text{K}$, we calculate the integral.
  - **Answer:** The exact calculation of this integral requires numerical methods or approximation, but the question aims to test understanding of Planck's law and its application to black body radiation.
  
- - **Q2:** A metal rod of length $1 	ext{m}$ and area of cross-section $10^{-4} 	ext{m}^2$ is heated at one end to $100^circ$C and the other end is kept at $0^circ$C. If the coefficient of thermal conductivity of the metal is $100 	ext{W/m K}$, what is the heat current flowing through the rod?
+ - **Q2:** A metal rod of length $1 \text{m}$ and area of cross-section $10^{-4} \text{m}^2$ is heated at one end to $100^{\circ}$C and the other end is kept at $0^{\circ}$C. If the coefficient of thermal conductivity of the metal is $100 \text{W/m K}$, what is the heat current flowing through the rod?
  - **Trap:** Students may forget to apply the correct formula for heat current or misunderstand the concept of thermal resistance.
  - **Solution:**
- - The formula for heat current $I_H$ due to conduction is given by $I_H = rac{k A \Delta T}{L}$, where $k$ is the thermal conductivity, $A$ is the area of cross-section, $\Delta T$ is the temperature difference, and $L$ is the length of the rod.
- - Given $k = 100 	ext{W/m K}$, $A = 10^{-4} 	ext{m}^2$, $\Delta T = 100 	ext{K}$, and $L = 1 	ext{m}$, we substitute these values into the formula:
- I_H = rac{100 	ext{W/m K} 	imes 10^{-4} 	ext{m}^2 	imes 100 	ext{K}}{1 	ext{m}}
- - Simplifying gives $I_H = 1 	ext{W}$.
- - **Answer:** $1 	ext{W}$.
+ - The formula for heat current $I_H$ due to conduction is given by $I_H = \frac{k A \Delta T}{L}$, where $k$ is the thermal conductivity, $A$ is the area of cross-section, $\Delta T$ is the temperature difference, and $L$ is the length of the rod.
+ - Given $k = 100 \text{W/m K}$, $A = 10^{-4} \text{m}^2$, $\Delta T = 100 \text{K}$, and $L = 1 \text{m}$, we substitute these values into the formula:
+ I_H = \frac{100 \text{W/m K} 	imes 10^{-4} \text{m}^2 	imes 100 \text{K}}{1 \text{m}}
+ - Simplifying gives $I_H = 1 \text{W}$.
+ - **Answer:** $1 \text{W}$.
  
- - **Q3:** The solar constant is $1.4 	ext{kW/m}^2$. Assuming the Earth to be a perfect black body, calculate the temperature of the Earth. Given that the Earth's surface area $A = 4 pi R^2$, where $R$ is the radius of the Earth ($R = 6.4 	imes 10^6 	ext{m}$), and the energy received from the Sun is $sigma T^4 	imes 4 pi R^2$, where $sigma$ is the Stefan-Boltzmann constant ($sigma = 5.67 	imes 10^{-8} 	ext{W/m}^2 	ext{K}^4$).
+ - **Q3:** The solar constant is $1.4 \text{kW/m}^2$. Assuming the Earth to be a perfect black body, calculate the temperature of the Earth. Given that the Earth's surface area $A = 4 \pi R^2$, where $R$ is the radius of the Earth ($R = 6.4 	imes 10^6 \text{m}$), and the energy received from the Sun is $sigma T^4 	imes 4 \pi R^2$, where $sigma$ is the Stefan-Boltzmann constant ($sigma = 5.67 	imes 10^{-8} \text{W/m}^2 \text{K}^4$).
  - **Trap:** Students might confuse the solar constant with the energy flux received by the Earth or misunderstand the application of the Stefan-Boltzmann law.
  - **Solution:**
- - The energy received by the Earth per unit time is equal to the energy radiated by the Earth per unit time. Thus, $	ext{Energy received} = 	ext{Energy radiated}$.
- - The energy received from the Sun per unit area per unit time (solar constant) $S = 1.4 	ext{kW/m}^2$. The total energy received by the Earth is $S 	imes pi R^2$ (since the Sun's radiation falls on the projected area of the Earth, which is $pi R^2$).
- - Setting this equal to the energy radiated by the Earth, $sigma T^4 	imes 4 pi R^2 = S 	imes pi R^2$.
+ - The energy received by the Earth per unit time is equal to the energy radiated by the Earth per unit time. Thus, $\text{Energy received} = \text{Energy radiated}$.
+ - The energy received from the Sun per unit area per unit time (solar constant) $S = 1.4 \text{kW/m}^2$. The total energy received by the Earth is $S 	imes \pi R^2$ (since the Sun's radiation falls on the projected area of the Earth, which is $pi R^2$).
+ - Setting this equal to the energy radiated by the Earth, $sigma T^4 	imes 4 \pi R^2 = S 	imes \pi R^2$.
  - Solving for $T$ gives:
- T = left(rac{S}{4sigma}ight)^{rac{1}{4}}
- - Substituting $S = 1.4 	imes 10^3 	ext{W/m}^2$ and $sigma = 5.67 	imes 10^{-8} 	ext{W/m}^2 	ext{K}^4$ into the equation:
- T = left(rac{1.4 	imes 10^3}{4 	imes 5.67 	imes 10^{-8}}ight)^{rac{1}{4}}
- - **Answer:** Performing the calculation yields $T \approx 278.35 	ext{K}$ or approximately $5.2^circ$C.
+ T = left(\frac{S}{4sigma}ight)^{\frac{1}{4}}
+ - Substituting $S = 1.4 	imes 10^3 \text{W/m}^2$ and $sigma = 5.67 	imes 10^{-8} \text{W/m}^2 \text{K}^4$ into the equation:
+ T = left(\frac{1.4 	imes 10^3}{4 	imes 5.67 	imes 10^{-8}}ight)^{\frac{1}{4}}
+ - **Answer:** Performing the calculation yields $T \approx 278.35 \text{K}$ or approximately $5.2^{\circ}$C.
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
@@ -132,13 +132,13 @@ manualReview: false
 
 - **Key Formulas:** 
  * $Q = mcDelta T$
- * $c = rac{Q}{mDelta T}$
+ * $c = \frac{Q}{mDelta T}$
  * $\Delta U = m cdot c_v cdot \Delta T$
  * $\Delta H = m cdot c_p cdot \Delta T$
 
 | Concept | Formula | Description |
 | --- | --- | --- |
-| Specific Heat Capacity | $c = rac{Q}{mDelta T}$ | The amount of heat energy required to change the temperature of a substance by 1 degree Celsius |
+| Specific Heat Capacity | $c = \frac{Q}{mDelta T}$ | The amount of heat energy required to change the temperature of a substance by 1 degree Celsius |
 | Heat Energy | $Q = mcDelta T$ | The amount of heat energy transferred to or from a substance |
 | Internal Energy | $\Delta U = m cdot c_v cdot \Delta T$ | The change in internal energy of a substance |
 | Enthalpy | $\Delta H = m cdot c_p cdot \Delta T$ | The change in enthalpy of a substance |
@@ -174,15 +174,15 @@ manualReview: false
 - $E = mc^2$ is not in CBSE Class 11 syllabus, instead remember: $Q = mcDelta T$
  
 
-- $Q = rac{m}{t}$ is not the heat formula, the correct one is: $Q = mL$
+- $Q = \frac{m}{t}$ is not the heat formula, the correct one is: $Q = mL$
  
 
 - ${\Delta}U = Q 
 
-- W$ is for thermodynamics, but for specific heat: $c = rac{Q}{m{\Delta}T}$
+- W$ is for thermodynamics, but for specific heat: $c = \frac{Q}{m{\Delta}T}
  
 
-- ${\Delta}T = rac{Q}{mc}$ is the formula to find change in temperature
+- ${\Delta}T = \frac{Q}{mc}$ is the formula to find change in temperature
  
 
 - $W = P{\Delta}V$ is for work done in thermodynamics
@@ -193,15 +193,15 @@ manualReview: false
 - Heat transfer occurs from higher to lower temperature
  
 
-- Specific heat capacity of water is $4.186,J/g^circ C$
+- Specific heat capacity of water is $4.186,J/g^{\circ} C$
  
 
-- $Q_{	ext{absorbed}} = mc{\Delta}T$ is the formula to find heat absorbed
+- $Q_{\text{absorbed}} = mc{\Delta}T$ is the formula to find heat absorbed
 
  Common mistakes:
  
 
-- Forgetting to use the correct units for specific heat ($J/g^circ C$ or $J/kg^circ C$)
+- Forgetting to use the correct units for specific heat ($J/g^{\circ} C$ or $J/kg^{\circ} C$)
  
 
 - Not accounting for the sign of $Q$ and $W$ in thermodynamic processes
@@ -230,11 +230,11 @@ manualReview: false
 
 **3. The refractive index of a prism is given by:**
 **A)**   n = 1
-**B)**   n = 1 + (sin i) / (sin r)
-**C)**   n = 1 / (sin i)
-**D)**   n = 1 / (sin r)
+**B)**   n = 1 + (\sin i) / (\sin r)
+**C)**   n = 1 / (\sin i)
+**D)**   n = 1 / (\sin r)
 
-**Answer:** B) The refractive index of a prism is given by n = 1 + (sin i) / (sin r).
+**Answer:** B) The refractive index of a prism is given by n = 1 + (\sin i) / (\sin r).
 
 ---
 

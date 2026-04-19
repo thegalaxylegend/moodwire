@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/equilibrium-class-11-revision-notes-jee-neet.webp"
-title: "Equilibrium Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Equilibrium Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Equilibrium Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Equilibrium Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/physics/equilibrium-class-11-revision-notes-jee-neet"
@@ -123,16 +123,16 @@ This chapter is massive — it combines [chemical](/blog/chemical-bonding-class-
 
 For $aA + bB \rightleftharpoons cC + dD$:
 
-K_c = $\frac{[C]^c [D]^d}{[A]^a [B]^b}$
+K_c = $\frac{{[C]^c [D]^d}{[A]^a [B]^b}}{K_p} 
 
 
 
-### <a id="k_p-vs-k_c-relationship"></a>$K_p$ vs $K_c$ Relationship
+### <a id="k_p-vs-k_c-relationship"></a>$ vs $K_c$ Relationship
 
 K_p = K_c (RT)^$\Delta n_g$
 
 
-where $\Delta n_g$ = (moles of gaseous products) - (moles of gaseous reactants).
+where $\Delta n_g = (moles of gaseous products) - (moles of gaseous reactants).
 
 ### <a id="rules-for-manipulating-k"></a>Rules for Manipulating K
 | Operation | Effect on K |
@@ -254,9 +254,9 @@ This means: **Lower concentration → Higher dissociation**. This is counterintu
 
 ### <a id="hendersonhasselbalch-equation"></a>Henderson-Hasselbalch Equation
 
-pH = pK_a + \log $\frac{[$$\text{Salt}$]}{[$\text{Acid}$]} (Acidic Buffer)
+pH = pK_a + \log $\frac{{[}{]} (Acidic Buffer)
 
-pOH = pK_b + \log $\frac{[$$\text{Salt}$]}{[$\text{Base}$]} (Basic Buffer)
+pOH = pK_b + \log } \text{Salt}]}{[\text{Acid}$\frac{[$\text{Salt}$]}{[$\text{Base}$]} (Basic Buffer)
 
 
 

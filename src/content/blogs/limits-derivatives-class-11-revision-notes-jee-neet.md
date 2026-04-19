@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/limits-derivatives-class-11-revision-notes-jee-neet.webp"
-title: "Limits Derivatives Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Limits Derivatives Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Limits Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
+description: "Limits Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/physics/limits-derivatives-class-11-revision-notes-jee-neet"
@@ -45,7 +45,7 @@ practice_link: "/class-11/physics/limits-derivatives-class-11-revision-notes-jee
 > **🚀 2-Minute Quick Recall Summary (Save for Exam Day)**
 > - **Limit:** The value a function approaches as the input approaches some value.
 > - **Standard Limit:** limₓ→ₐ (xⁿ - aⁿ)/(x - a) = **naⁿ⁻¹**.
-> - **Trig Limit:** limₓ→₀ (sin x)/x = **1**.
+> - **Trig Limit:** limₓ→₀ (\sin x)/x = **1**.
 > - **Derivative (f'(x)):** limₕ→₀ [f(x+h) - f(x)] / h (**First Principle**).
 > - **Power Rule:** d/dx (xⁿ) = **nxⁿ⁻¹**.
 > - **Product Rule:** (uv)' = u'v + uv'.
@@ -81,10 +81,10 @@ A limit describes the behavior of a function f(x) as x gets closer and closer to
 ## <a id="2-algebra-of-limits"></a>2. Algebra of Limits
 
 If limₓ→ₐ f(x) and limₓ→ₐ g(x) exist:
-1.  **Sum/Difference Rule:** lim [f(x) ± g(x)] = lim f(x) ± lim g(x)
-2.  **Product Rule:** lim [f(x) · g(x)] = lim f(x) · lim g(x)
-3.  **Quotient Rule:** lim [f(x) / g(x)] = lim f(x) / lim g(x) (if lim g(x) ≠ 0)
-4.  **Constant Multiple:** lim [k · f(x)] = k · lim f(x)
+1.  **Sum/Difference Rule:** \lim [f(x) ± g(x)] = \lim f(x) ± \lim g(x)
+2.  **Product Rule:** \lim [f(x) · g(x)] = \lim f(x) · \lim g(x)
+3.  **Quotient Rule:** \lim [f(x) / g(x)] = \lim f(x) / \lim g(x) (if \lim g(x) ≠ 0)
+4.  **Constant Multiple:** \lim [k · f(x)] = k · \lim f(x)
 
 ---
 
@@ -96,9 +96,9 @@ If limₓ→ₐ f(x) and limₓ→ₐ g(x) exist:
 ### <a id="standard-formulas"></a>Standard Formulas:
 *   **Polynomial:** limₓ→ₐ (xⁿ - aⁿ) / (x - a) = naⁿ⁻¹
 *   **Trigonometric:** 
-    - limₓ→₀ (sin x) / x = 1
-    - limₓ→₀ (1 - cos x) / x = 0
-    - limₓ→₀ (tan x) / x = 1
+    - limₓ→₀ (\sin x) / x = 1
+    - limₓ→₀ (1 - \cos x) / x = 0
+    - limₓ→₀ (\tan x) / x = 1
 
 ### <a id="sandwich-theorem-squeeze-theorem"></a>Sandwich Theorem (Squeeze Theorem):
 If f(x) ≤ g(x) ≤ h(x) for all x in an interval, and limₓ→ₐ f(x) = limₓ→ₐ h(x) = L, then **limₓ→ₐ g(x) = L**.
@@ -124,9 +124,9 @@ This process of finding the derivative using the limit definition is called **Di
 1.  **Constant:** d/dx (c) = 0
 2.  **Power:** d/dx (xⁿ) = nxⁿ⁻¹
 3.  **Trigonometric:**
-    - d/dx (sin x) = cos x
-    - d/dx (cos x) = -sin x
-    - d/dx (tan x) = sec² x
+    - d/dx (\sin x) = \cos x
+    - d/dx (\cos x) = -\sin x
+    - d/dx (\tan x) = sec² x
 
 ---
 
@@ -148,12 +148,12 @@ This process of finding the derivative using the limit definition is called **Di
 - f'(x) = limₕ→₀ [h(2x + h + 2) / h] = limₕ→₀ [2x + h + 2]
 - **f'(x) = 2x + 2**.
 
-**Q3: Differentiate y = x · sin x using Product Rule.**
+**Q3: Differentiate y = x · \sin x using Product Rule.**
 **Answer:**
-- u = x, v = sin x
-- u' = 1, v' = cos x
-- y' = u'v + uv' = (1)(sin x) + (x)(cos x)
-- **y' = sin x + x cos x**.
+- u = x, v = \sin x
+- u' = 1, v' = \cos x
+- y' = u'v + uv' = (1)(\sin x) + (x)(\cos x)
+- **y' = \sin x + x \cos x**.
 
 ---
 

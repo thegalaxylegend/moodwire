@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/inverse-trigonometric-functions-class-12-notes.webp"
 title: "Inverse Trigonometric Functions Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide"
-description: "Inverse Trigonometric Functions Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-30."
+description: "Inverse Trigonometric Functions Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-30"
 practice_link: "/class-11/mathematics/inverse-trigonometric-functions-class-12-notes"
@@ -25,7 +25,7 @@ practice_link: "/class-11/mathematics/inverse-trigonometric-functions-class-12-n
 
 
 
-<div [class](/blog/alcohols-phenols-and-ethers-class-12-notes)="quick-summary">
+<div class="quick-summary">
 
 #- [📋 Table of Contents](#-table-of-contents)
 
@@ -48,11 +48,11 @@ practice_link: "/class-11/mathematics/inverse-trigonometric-functions-class-12-n
  + $\cos^{-1}(\cos x) = x$ if $x \in [0, \pi]$
  + $\tan^{-1}(\tan x) = x$ if $x \in [\frac{-\pi}{2}, \frac{\pi}{2}]$
 * [derivatives](/blog/application-of-derivatives-class-12-notes) of inverse trigonometric functions — always, including:
- + $\frac{d}{dx}(\sin^{-1}x) = \frac{1}\sqrt{1-x^2$}
- + $\frac{d}{dx}(\cos^{-1}x) = \frac{-1}\sqrt{1-x^2$}
- + $\frac{d}{dx}(\tan^{-1}x) = \frac{1}{1+x^2}$
+ + $\frac{{d}{dx}(\sin^{-1}x) = \frac{1}\sqrt{1-x^2}{\frac{d}{dx}(\cos^{-1}x) = \frac{-1}\sqrt{1-x^2} }
+ + }
+ + $\frac{{d}{dx}(\tan^{-1}x) = \frac{1}{1+x^2}}{\sin^{-1}(\sin (\frac{\pi}{6}))} 
 * 1 question on simplification of expressions involving inverse trigonometric [functions](/blog/relations-and-functions-class-11-notes), such as:
- + $\sin^{-1}(\sin (\frac{\pi}{6}))$
+ + $
  + $\cos^{-1}(\cos (\frac{\pi}{4}))$
 * 1 numerical on inverse trigonometric functions as limits — always, focusing on evaluating limits of the form $\lim_{x \to 0} \frac{\sin^{-1}x}{x}$.
 * Comparison of inverse trigonometric [functions](/blog/relations-and-functions-class-11-notes) — JEE favourite, including comparison of their ranges, domains, and graphical representations.
@@ -69,11 +69,13 @@ practice_link: "/class-11/mathematics/inverse-trigonometric-functions-class-12-n
 $y = \sin^{-1}x$ means $\sin y = x$, $-\frac{\pi}{2} \leq y \leq \frac{\pi}{2}$, $y$ is the angle whose sine is $x$.$y = \cos^{-1}x$ means $\cos y = x$, $0 \leq y \leq \pi$, $y$ is the angle whose cosine is $x$. 
  $y = \tan^{-1}x$ means $\tan y = x$, $-\frac{\pi}{2} < y < \frac{\pi}{2}$, $y$ is the angle whose tangent is $x$.$y = \sec^{-1}x$ means $\sec y = x$, $0 \leq y \leq \pi$, $y$ is the angle whose secant is $x$. 
  $y = \csc^{-1}x$ means $\csc y = x$, $-\frac{\pi}{2} \leq y \leq \frac{\pi}{2}$, $y$ is the angle whose cosecant is $x$.$y = \cot^{-1}x$ means $\cot y = x$, $0 < y < \pi$, $y$ is the angle whose cotangent is $x$. 
- $\sin^{-1}x + \cos^{-1}x = \frac{\pi}{2}$.$\tan^{-1}x + \cot^{-1}x = \frac{\pi}{2}$.$\sec^{-1}x + \csc^{-1}x = \frac{\pi}{2}$.$\frac{d}{dx}(\sin^{-1}x) = \frac{1}\sqrt{1-x^2$}$. \frac{d}{dx}(\cos^{-1}x) = -\frac{1}\sqrt{1-x^2$}$. \frac{d}{dx}(\tan^{-1}x) = \frac{1}{1+x^2}$. 
- $\frac{d}{dx}(\sec^{-1}x) = \frac{1}{|x|\sqrt{x^2-1}}$. 
- $\frac{d}{dx}(\csc^{-1}x) = -\frac{1}{|x|\sqrt{x^2-1}}$. 
- $\frac{d}{dx}(\cot^{-1}x) = -\frac{1}{1+x^2}$. 
- $\sin^{-1}(\frac{1}{x}) = \cot^{-1}x$.$\cos^{-1}(\frac{1}{x}) = \sec^{-1}x$.$\tan^{-1}(\frac{1}{x}) = \cot^{-1}x$.$\sin^{-1}(\cos x) = \frac{\pi}{2} - x$.$\cos^{-1}(\sin x) = \frac{\pi}{2} - x$.$\tan^{-1}(\cot x) = \frac{\pi}{2} - x$.$\sin^{-1}(\tan x) = \frac{\pi}{2} - \tan^{-1}(\frac{1}{x})$.$\cos^{-1}(\cot x) = \tan^{-1}(\frac{1}{x})$.$\tan^{-1}(\csc x) = \frac{\pi}{2} - \sin^{-1}(\frac{1}{x})$.$\sin^{-1}(\sec x) = \frac{\pi}{2} - \cos^{-1}(\frac{1}{x})$.$\cos^{-1}(\csc x) = \sin^{-1}(\frac{1}{x})$.
+ $\sin^{-1}x + \cos^{-1}x = \frac{\pi}{2}$.$\tan^{-1}x + \cot^{-1}x = \frac{\pi}{2}$.$\sec^{-1}x + \csc^{-1}x = \frac{\pi}{2}$.$\frac{{d}{dx}(\sin^{-1}x) = \frac{1}\sqrt{1-x^2}{. 
+} }$ \frac{d}{dx}(\cos^{-1}x) = -\frac{1}\sqrt{1-x^2}. $ \frac{d}{dx}(\tan^{-1}x) = \frac{1}{1+x^2}$1 
+
+ $\frac{{d}{dx}(\sec^{-1}x) = \frac{1}{|x|\sqrt{x^2-1}}}{\frac{d}{dx}(\csc^{-1}x) = -\frac{1}{|x|\sqrt{x^2-1}}} . 
+ $. 
+ $\frac{{d}{dx}(\cot^{-1}x) = -\frac{1}{1+x^2}}{\sin^{-1}(\frac{1}{x}) = \cot^{-1}x} . 
+ $.$\cos^{-1}(\frac{1}{x}) = \sec^{-1}x$.$\tan^{-1}(\frac{1}{x}) = \cot^{-1}x$.$\sin^{-1}(\cos x) = \frac{\pi}{2} - x$.$\cos^{-1}(\sin x) = \frac{\pi}{2} - x$.$\tan^{-1}(\cot x) = \frac{\pi}{2} - x$.$\sin^{-1}(\tan x) = \frac{\pi}{2} - \tan^{-1}(\frac{1}{x})$.$\cos^{-1}(\cot x) = \tan^{-1}(\frac{1}{x})$.$\tan^{-1}(\csc x) = \frac{\pi}{2} - \sin^{-1}(\frac{1}{x})$.$\sin^{-1}(\sec x) = \frac{\pi}{2} - \cos^{-1}(\frac{1}{x})$.$\cos^{-1}(\csc x) = \sin^{-1}(\frac{1}{x})$.
 
 
 | Function | Domain | Range |

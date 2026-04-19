@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/chemical-bonding-class-11-revision-notes-jee-neet.webp"
-title: "Chemical Bonding Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Chemical Bonding Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Chemical Bonding Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Chemical Bonding Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/physics/chemical-bonding-class-11-revision-notes-jee-neet"
@@ -173,7 +173,7 @@ The core principle is simple: Electron pairs (both bond pairs and lone pairs) ha
 Instead of drawing structures, use my "Go-To" **Steric Number (H) formula**:
 
 
-H = $\frac{1}{2}$ [V + M - C + A]
+H = $\frac{{1}{2}}{XeF_2}  [V + M - C + A]
 
 
 
@@ -183,7 +183,7 @@ Where:
 - **C** = Cation charge (subtract).
 - **A** = Anion charge (add).
 
-### <a id="ayushs-comparison-xef_2-vs-co_2"></a>Ayush's Comparison: $XeF_2$ vs $CO_2$
+### <a id="ayushs-comparison-xef_2-vs-co_2"></a>Ayush's Comparison: $ vs $CO_2$
 Both are linear. But are they the same?
 1. **$CO_2$**: No lone pairs on C. $sp$ hybridized.
 2. **$XeF_2$**: 3 lone pairs on Xe. $sp^3d$ hybridized.
@@ -258,7 +258,7 @@ To calculate the Lattice Enthalpy of $NaCl$, we use a cycle:
 3. Dissociation of $Cl_2(g) \rightarrow 2Cl(g)$.
 4. Electron Gain of $Cl(g) \rightarrow Cl^-(g)$.
 5. Formation of $NaCl$ from ions.
-The sum equals the $\Delta H_f$. This cycle is a favorite for numerical questions in JEE Advanced.
+The \sum equals the $\Delta H_f$. This cycle is a favorite for numerical questions in JEE Advanced.
 
 ---
 

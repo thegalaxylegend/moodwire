@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/triangles-class-10-notes.webp"
-title: "Triangles Class 10 Mathematics Recap — CBSE 2026 Quick Guide"
-description: "Triangles Class 10 Mathematics Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-07."
+title: "Triangles Class 10 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Triangles Class 10 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-04-07"
 practice_link: "/class-11/mathematics/triangles-class-10-notes"
@@ -10,7 +10,7 @@ manual_review: true
 
 *Last Updated: 2026-04-07*
 
-<div [class](/blog/introduction-to-trigonometry-class-10-notes)="quick-summary">
+<div class="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
@@ -65,18 +65,18 @@ manual_review: true
 
 - **The Core Concept:** Triangles, specifically the concept of similarity and the relationship between their sides and angles. Understanding this deeply is what separates top scorers from the rest.
  - **What 85% scorers do:** They memorize basic properties of triangles, such as the Pythagorean theorem ($a^2 + b^2 = c^2$) for right-angled triangles, and basic similarity rules (AA, SSS, SAS). They can solve straightforward problems but strugg\le with complex applications.
- - **What 95% scorers do:** They master advanced concepts like the law of cosines ($c^2 = a^2 + b^2 - 2ab\cos(C)$) for any triang\le, and they understand how to apply similarity to solve complex problems, including those involving circumcenters, orthocenters, and centroids. They also know how to use trigonometric ratios in triangles, such as the law of sines ($\frac{a}{\sin(A)} = \frac{b}{\sin(B)} = \frac{c}{\sin(C)}$) and the law of cosines to find unknown sides and angles in any triang\le.
+ - **What 95% scorers do:** They master advanced concepts like the law of cosines ($c^2 = a^2 + b^2 - 2ab\cos(C)$) for any triang\le, and they understand how to apply similarity to solve complex problems, including those involving circumcenters, orthocenters, and centroids. They also know how to use trigonometric ratios in triangles, such as the law of sines ($\frac{{a}{\sin(A)} = \frac{b}{\sin(B)} = \frac{c}{\sin(C)}}{\cos(A) = \frac{b^2 + c^2 - a^2}{2bc}} ) and the law of cosines to find unknown sides and angles in any triang\le.
  - **Key Insight:** Understanding that similarity is not just about having the same shape but also about the proportional relationship between corresponding sides. This insight allows top scorers to tack\le problems that involve scaling, dilation, and geometric transformations with ease.
  - **[application](/blog/application-of-derivatives-class-12-notes):** In problems involving triangles, especially those that seem to require complex trigonometric calculations, 95% scorers look for opportunities to apply similarity and geometric properties to simplify the problem. They recognize patterns such as right-angled triangles within larger triangles and use these to their advanta\ge.
  - **Mistake to Avoid:** Assuming that all problems involving triangles require direct [application](/blog/application-of-derivatives-class-12-notes) of the Pythagorean theorem or basic trigonometry. Top scorers are adept at recognizing when a problem can be simplified through geometric reasoning and similarity.
- - **Formula Mastery:** Having $\cos(A) = \frac{b^2 + c^2 - a^2}{2bc}$ and $\sin(A) = \frac\sqrt{(b+c+a)(b+c-a)(b-c+a)(-b+c+a)$}{2bc}$ at their fingertips for any ang\le $A$ in a triang\le with sides $a$, $b$, and $c$ opposite to angles $A$, $B$, and $C$, respectively.$
+ - **Formula Mastery:** Having $ and $\sin(A) = \frac\sqrt{(b+c+a)(b+c-a)(b-c+a)(-b+c+a)}${2bc}$ at their fingertips for any ang\le $A$ in a triang\le with sides $a$, $b$, and $c$ opposite to angles $A$, $B$, and $C$, respectively.
  - **Practice Tip:** To become proficient, practice solving a variety of triang\le problems, focusing on those that require the application of similarity, the law of cosines, and the law of sines. Start with simpler problems and gradually move to more complex scenarios.
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-- **The Hidden Pattern:** In triangles, the ratio of areas of similar triangles is equal to the square of the ratio of their corresponding side lengths, i.e., $\frac{[ABC]}{[DEF]} = \left(\frac{AB}{DE}\right)^2 = \left(\frac{BC}{EF}\right)^2 = \left(\frac{AC}{DF}\right)^2$. This pattern is particularly useful in problems involving similar triangles and area calculations.
- - **How to Apply It:** To apply this pattern, first identify similar triangles in the given problem, then calculate the ratio of their corresponding side lengths. Use this ratio to find the ratio of their areas. This can be expressed as $\frac{[ABC]}{[DEF]} = \left(\frac{AB}{DE}\right)^2$, where $[ABC]$ and $[DEF]$ represent the areas of triangles $ABC$ and $DEF$ respectively.
- - **PYQ-Specific Trend:** A trend observed in previous years' questions is that problems involving triangles often require the application of trigonometric concepts, such as the law of sines or the law of cosines, in conjunction with the properties of triangles, like the incenter or circumcenter. The formula $\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} = 2R$ is frequently used, where $a$, $b$, and $c$ are the side lengths of the triang\le, and $R$ is the radius of the circumcirc\le.
+- **The Hidden Pattern:** In triangles, the ratio of areas of similar triangles is equal to the square of the ratio of their corresponding side lengths, i.e., $\frac{{[ABC]}{[DEF]} = \left(\frac{AB}{DE}\right)^2 = \left(\frac{BC}{EF}\right)^2 = \left(\frac{AC}{DF}\right)^2}{\frac{[ABC]}{[DEF]} = \left(\frac{AB}{DE}\right)^2} . This pattern is particularly useful in problems involving similar triangles and area calculations.
+ - **How to Apply It:** To apply this pattern, first identify similar triangles in the given problem, then calculate the ratio of their corresponding side lengths. Use this ratio to find the ratio of their areas. This can be expressed as $, where $[ABC]$ and $[DEF]$ represent the areas of triangles $ABC$ and $DEF$ respectively.
+ - **PYQ-Specific Trend:** A trend observed in previous years' questions is that problems involving triangles often require the application of trigonometric concepts, such as the law of sines or the law of cosines, in conjunction with the properties of triangles, like the incenter or circumcenter. The formula $\frac{{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} = 2R}{a}  is frequently used, where $, $b$, and $c$ are the side lengths of the triang\le, and $R$ is the radius of the circumcirc\le.
  - **Formulae to Remember:** Some key formulae to remember include the area of a triang\le given its base and height, $A = \frac{1}{2}bh$, and the area given two sides and the included ang\le, $A = \frac{1}{2}ab\sin C$. Also, the formula for the area of a triang\le given its sides $a$, $b$, and $c$ is $A = \sqrt{s(s-a)(s-b)(s-c)}$, where $s$ is the semi-perimeter, $s = \frac{a+b+c}{2}$.
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
@@ -99,13 +99,13 @@ D) less than or equal to the length of the third side
 
 ---
 
-**2. If the area of an equilateral triang\le is $16sqrt{3}$, then the length of its side is**
+**2. If the area of an equilateral triang\le is $16\sqrt{3}$, then the length of its side is**
 A) 2
 B) 4
 C) 6
 D) 8
 
-**Answer:** B) Area of an equilateral triang\le = $\frac{sqrt{3}}{4} 	imes (side)^2$. Given area = $16sqrt{3}$, we can solve for the side length.
+**Answer:** B) Area of an equilateral triang\le = $\frac{{\sqrt{3}}{4} 	imes (side)^2}{16\sqrt{3}} . Given area = $, we can solve for the side length.
 
 ---
 

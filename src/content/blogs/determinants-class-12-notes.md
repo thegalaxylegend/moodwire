@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/determinants-class-12-notes.webp"
-title: "Determinants Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide"
-description: "Determinants Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-01."
+title: "Determinants Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Determinants Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-04-01"
 practice_link: "/class-11/mathematics/determinants-class-12-notes"
@@ -36,23 +36,10 @@ practice_link: "/class-11/mathematics/determinants-class-12-notes"
 - [📚 Related Topics](#-related-topics)
 
 
-- [⚡ Core Concept 1: Introduction to Determinants](#-core-concept-1-introduction-to-determinants)
-  - [⚡ Core Concept 2: Determinant Properties](#-core-concept-2-determinant-properties)
-  - [⚡ Core Concept 3: Expansion by Minors](#-core-concept-3-expansion-by-minors)
-  - [⚡ Core Concept 4: Cofactor Expansion](#-core-concept-4-cofactor-expansion)
-  - [⚡ Core Concept 5: Area of a Triangle](#-core-concept-5-area-of-a-triangle)
-  - [⚡ Core Concept 6: Volume of a Parallelepiped](#-core-concept-6-volume-of-a-parallelepiped)
-  - [⚡ Core Concept 7: Determinant of a 2x2 Matrix](#-core-concept-7-determinant-of-a-2x2-matrix)
-  - [⚡ Core Concept 8: Determinant of a 3x3 Matrix](#-core-concept-8-determinant-of-a-3x3-matrix)
-  - [⚡ Core Concept 9: Inverse of a Matrix](#-core-concept-9-inverse-of-a-matrix)
-  - [⚡ Core Concept 10: Solving Systems of Equations](#-core-concept-10-solving-systems-of-equations)
-  - [⚡ Core Concept 11: Linear Independence](#-core-concept-11-linear-independence)
-  - [⚡ Core Concept 12: Rank of a Matrix](#-core-concept-12-rank-of-a-matrix)
-  - [⚡ Core Concept 13: Advanced Properties of Determinants](#-core-concept-13-advanced-properties-of-determinants)
 
-  - [⚡ Core Concept 14: Applications of Determinants](#-core-concept-14-applications-of-determinants)
-  - [⚡ Core Concept 15: Review and Practice](#-core-concept-15-review-and-practice)
 
+
+##
 
 ### <a id="-core-concept-1-introduction-to-determinants"></a>⚡ Core Concept 1: Introduction to Determinants
 
@@ -66,7 +53,7 @@ practice_link: "/class-11/mathematics/determinants-class-12-notes"
 ### <a id="-core-concept-2-determinant-properties"></a>⚡ Core Concept 2: Determinant Properties
 
 - **Property 1:** \det(AB) = \det(A) \cdot \det(B) — $A$ and $B$ are square matrices of the same size.
-- **Property 2:** \det(A^{-1}) = $\frac{1}{\det(A)} — $A$ is an invertible square matrix.$
+- **Property 2:** \det(A^{-1}) = $\frac{{1}{\det(A)} — }{ is an invertible square matrix.} A$
 - **Property 3:** \det(A^T) = \det(A) — $A^T$ is the transpose of matrix $A$.
 
 #### Multiplicative Property
@@ -125,11 +112,11 @@ d \end{vmatrix}$ and cofactor of $b$ is $-\begin{vmatrix} c \end{vmatrix}$.
 
 ### <a id="-core-concept-5-area-of-a-triangle"></a>⚡ Core Concept 5: Area of a Triangle
 
-- **Formula:** $\text{Area} = $$\frac{1}{2}$ \cdot |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)| — $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ are vertices of the triangle.
+- **Formula:** $\text{Area} = $\frac{{1}{2} \cdot |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)| — (x_1, y_1), (x_2, y_2), (x_3, y_3)}{\text{Area} = }  are vertices of the triangle.
 - **[application](/blog/application-of-integrals-class-12-notes):** Used to find the area of a triangle given the coordinates of its vertices.
 
 #### Shoelace Formula
-- **Formula:** $\text{Area} = $$\frac{1}{2}$ \cdot |x_1y_2 + x_2y_3 + x_3y_1 - y_1x_2 - y_2x_3 - y_3x_1| — $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ are vertices of the triangle.
+- **Formula:** $\frac{1}{2}$ \cdot |x_1y_2 + x_2y_3 + x_3y_1 - y_1x_2 - y_2x_3 - y_3x_1| — $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ are vertices of the triangle.
 - **[application](/blog/application-of-integrals-class-12-notes):** Used to find the area of a triangle given the coordinates of its vertices.
 
 ### <a id="-core-concept-6-volume-of-a-parallelepiped"></a>⚡ Core Concept 6: Volume of a Parallelepiped
@@ -175,16 +162,16 @@ d \end{vmatrix}$ and cofactor of $b$ is $-\begin{vmatrix} c \end{vmatrix}$.
 
 ### <a id="-core-concept-9-inverse-of-a-matrix"></a>⚡ Core Concept 9: Inverse of a Matrix
 
-- **Formula:** A^{-1} = $\frac{1}{\det(A)} \cdot $$\text{adj}$(A) — $\text{adj}(A)$ is the adjugate (also known as the classical adjugate) of $A$.
+- **Formula:** A^{-1} = $\frac{{1}{\det(A)} \cdot }{ is the adjugate (also known as the classical adjugate) of } \text{adj}(A) — \text{adj}(A)$A$.
 - **Importance:** Used to find the inverse of a matrix, which is essential for solving systems of equations.
 
 #### Finding the Inverse of a 2x2 Matrix
 
-- **Formula:** A^{-1} = $\frac{1}{\det(A)}$ \cdot
+- **Formula:** A^{-1} = $\frac{{1}{\det(A)}}{A}  \cdot
 
 \begin{bmatrix} d & -b \\ -c & a \end{bmatrix}
 
-— $A$ is a 2x2 matrix.
+— $ is a 2x2 matrix.
 - **Application:** Used to find the inverse of a 2x2 matrix.
 
 ### <a id="-core-concept-10-solving-systems-of-equations"></a>⚡ Core Concept 10: Solving Systems of Equations
@@ -193,7 +180,7 @@ d \end{vmatrix}$ and cofactor of $b$ is $-\begin{vmatrix} c \end{vmatrix}$.
 - **Importance:** Determinants are used to find the inverse of the coefficient matrix, which is then used to solve the system of equations.
 
 #### Solving a System of Linear Equations Using Cramer's Rule
-- **Formula:** x_i = $\frac{\det(A_i)}{\det(A)} — $A_i$ is the matrix obtained by replacing the $i$-th column of $A$ with the constant vector.$
+- **Formula:** x_i = $\frac{{\det(A_i)}{\det(A)} — }{ is the matrix obtained by replacing the } A_i$i$-th column of $A$ with the constant vector.$
 - **Application:** Used to solve a system of linear equations using Cramer's rule.
 
 ### <a id="-core-concept-11-linear-independence"></a>⚡ Core Concept 11: Linear Independence
@@ -261,7 +248,7 @@ eq 0\} — $A_k$ is the $k \times k$ submatrix of $A$.
 
 #### ⚡ Finding the Area of a Triangle
 
-- **Formula:** $\text{Area} = $$\frac{1}{2}$ \cdot |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)| — $(x_1, y_1), (x_2, y_2), (x_3, y_3)$ are vertices of the triangle.
+- **Formula:** $\text{Area} = $\frac{{1}{2}}{(x_1, y_1), (x_2, y_2), (x_3, y_3)}  \cdot |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)| — $ are vertices of the triangle.
 - **Application:** Used to find the area of a triangle given the coordinates of its vertices.
 
 #### ⚡ Finding the Volume of a Parallelepiped

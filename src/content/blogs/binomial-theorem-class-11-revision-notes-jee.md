@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/binomial-theorem-class-11-revision-notes-jee.webp"
 title: "Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
-description: "Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+description: "Binomial Theorem Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/mathematics/binomial-theorem-class-11-revision-notes-jee"
@@ -89,7 +89,7 @@ The expansion of (a + b)ⁿ for any positive integer n is given by:
 ### <a id="crucial-observations"></a>Crucial Observations:
 1.  **Powers of a:** Start at n and decrease to 0.
 2.  **Powers of b:** Start at 0 and increase to n.
-3.  **Sum of Indices:** In every term, the sum of the indices of **a** and **b** is always equal to **n**.
+3.  **Sum of Indices:** In every term, the \sum of the indices of **a** and **b** is always equal to **n**.
 4.  **Binomial Coefficients:** The coefficients act are symmetric (act = act₋ᵣ).
 
 ---
@@ -101,7 +101,7 @@ The expansion of (a + b)ⁿ for any positive integer n is given by:
 
 Pascal's Triangle is a geometric arrangement of binomial coefficients.
 *   The first and last values in each row are 1.
-*   Every other value is the sum of the two values directly above it.
+*   Every other value is the \sum of the two values directly above it.
 *   This triangle helps quickly find coefficients for smaller values of n without using the act formula.
 
 ---
@@ -238,14 +238,14 @@ Continue your [revision](/blog/laws-of-motion-class-11-revision-notes-jee-neet) 
 ## 🔁 Last 5 Minutes Box
 
 ### Binomial Theorem Revision
-   * **Binomial Theorem Formula**: ((a + b)^n = sum_{k=0}^{n} IOM{n}{k}a^{n-k}b^{k})
-   * **Binomial Coefficient**: (IOM{n}{k} = RAC{n!}{k!(n-k)!})
+   * **Binomial Theorem Formula**: ((a + b)^n = \sum_{k=0}^{n} IOM{n}{k}a^{n-k}b^{k})
+   * **Binomial Coefficient**: (IOM{n}{k} = \fRAC{n!}{k!(n-k)!})
    * **[properties](/blog/mechanical-properties-of-solids-class-11-revision-notes-jee-neet) of Binomial Coefficients**:
      + (IOM{n}{k} = IOM{n}{n-k})
      + (IOM{n}{0} = IOM{n}{n} = 1)
    * **Important Results**:
-     + ((1 + x)^n = sum_{k=0}^{n} IOM{n}{k}x^{k})
-     + ((1 - x)^n = sum_{k=0}^{n} IOM{n}{k}(-x)^{k} = sum_{k=0}^{n} (-1)^kIOM{n}{k}x^{k})
+     + ((1 + x)^n = \sum_{k=0}^{n} IOM{n}{k}x^{k})
+     + ((1 - x)^n = \sum_{k=0}^{n} IOM{n}{k}(-x)^{k} = \sum_{k=0}^{n} (-1)^kIOM{n}{k}x^{k})
    * **Key Applications**:
      + Expansion of expressions
      + Finding the general term in an expansion

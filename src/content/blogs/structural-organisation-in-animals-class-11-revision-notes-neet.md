@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/structural-organisation-in-animals-class-11-revision-notes-neet.webp"
 title: "Structural Organisation In Animals Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
-description: "Structural Organisation In Animals Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+description: "Structural Organisation In Animals Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/biology/structural-organisation-in-animals-class-11-revision-notes-neet"
@@ -73,7 +73,7 @@ This chapter is crucial for students preparing for the JEE and [neet](/blog/morp
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div [class](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)="note-box">
+<div class="note-box">
 I remember when I was preparing for my JEE exams, I struggled to understand the concept of tissue organisation. I would often get confused between the different types of tissues and their functions. However, after practising numerous questions and making flashcards, I was able to grasp the concept better. One mistake I made was not focusing enough on the functional aspects of tissue organisation, which led to me losing marks in the exams. To avoid this, I recommend that students focus on understanding the functional aspects of tissue organisation and practice questions that test their understanding of these concepts.
 </div>
 

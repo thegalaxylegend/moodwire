@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/mensuration-class-8-notes.webp"
-title: "Mensuration Class 8 Mathematics Recap — Grandmaster Guide"
-description: "Mensuration Class 8 Mathematics Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-17."
+title: "Mensuration 8 Class 8 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Mensuration 8 Class 8 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Exam Notes"
 date: "2026-04-17"
 practice_link: "/class-8/mathematics/mensuration"
@@ -23,35 +23,35 @@ manualReview: false
 
 - **Perimeter of a Rectangle:** P = 2(l + b) — where $l$ is the length and $b$ is the breadth of the rectangle.
  - **Area of a Rectangle:** A = l 	imes b — where $l$ is the length and $b$ is the breadth of the rectangle.
- - **Diagonal of a Rectangle:** d = sqrt{l^2 + b^2} — where $l$ is the length and $b$ is the breadth of the rectangle.
+ - **Diagonal of a Rectangle:** d = \sqrt{l^2 + b^2} — where $l$ is the length and $b$ is the breadth of the rectangle.
  - **Perimeter of a Square:** P = 4s — where $s$ is the side length of the square.
  - **Area of a Square:** A = s^2 — where $s$ is the side length of the square.
- - **Diagonal of a Square:** d = sqrt{2}s — where $s$ is the side length of the square.
- - **Circumference of a Circle:** C = 2pi r — where $r$ is the radius of the circle.
- - **Area of a Circle:** A = pi r^2 — where $r$ is the radius of the circle.
- - **Area of a Triangle:** A = rac{1}{2} 	imes base 	imes height — where $base$ is the base of the triangle and $height$ is the height of the triangle.
+ - **Diagonal of a Square:** d = \sqrt{2}s — where $s$ is the side length of the square.
+ - **Circumference of a Circle:** C = 2\pi r — where $r$ is the radius of the circle.
+ - **Area of a Circle:** A = \pi r^2 — where $r$ is the radius of the circle.
+ - **Area of a Triangle:** A = \frac{1}{2} 	imes base 	imes height — where $base$ is the base of the triangle and $height$ is the height of the triangle.
  - **Perimeter of a Triangle:** P = a + b + c — where $a$, $b$, and $c$ are the sides of the triangle.
- - **Semi-perimeter of a Triangle:** s = rac{a + b + c}{2} — where $a$, $b$, and $c$ are the sides of the triangle.
- - **Area of a Triangle (Heron's Formula):** A = sqrt{s(s-a)(s-b)(s-c)} — where $s$ is the semi-perimeter, and $a$, $b$, and $c$ are the sides of the triangle.
+ - **Semi-perimeter of a Triangle:** s = \frac{a + b + c}{2} — where $a$, $b$, and $c$ are the sides of the triangle.
+ - **Area of a Triangle (Heron's Formula):** A = \sqrt{s(s-a)(s-b)(s-c)} — where $s$ is the semi-perimeter, and $a$, $b$, and $c$ are the sides of the triangle.
  - **Volume of a Cuboid:** V = l 	imes b 	imes h — where $l$ is the length, $b$ is the breadth, and $h$ is the height of the cuboid.
  - **Surface Area of a Cuboid:** SA = 2(lb + bh + hl) — where $l$ is the length, $b$ is the breadth, and $h$ is the height of the cuboid.
  - **Volume of a Cube:** V = s^3 — where $s$ is the side length of the cube.
  - **Surface Area of a Cube:** SA = 6s^2 — where $s$ is the side length of the cube.
- - **Curved Surface Area of a Cylinder:** CSA = 2pi rh — where $r$ is the radius and $h$ is the height of the cylinder.
- - **Total Surface Area of a Cylinder:** TSA = 2pi r(r + h) — where $r$ is the radius and $h$ is the height of the cylinder.
- - **Volume of a Cylinder:** V = pi r^2 h — where $r$ is the radius and $h$ is the height of the cylinder.
- - **Curved Surface Area of a Cone:** CSA = pi rl — where $r$ is the radius and $l$ is the slant height of the cone.
- - **Total Surface Area of a Cone:** TSA = pi r(l + r) — where $r$ is the radius and $l$ is the slant height of the cone.
- - **Volume of a Cone:** V = rac{1}{3}pi r^2 h — where $r$ is the radius and $h$ is the height of the cone.
- - **Volume of a Sphere:** V = rac{4}{3}pi r^3 — where $r$ is the radius of the sphere.
- - **Surface Area of a Sphere:** SA = 4pi r^2 — where $r$ is the radius of the sphere.
- - **Volume of a Hemisphere:** V = rac{2}{3}pi r^3 — where $r$ is the radius of the hemisphere.
- - **Curved Surface Area of a Hemisphere:** CSA = 2pi r^2 — where $r$ is the radius of the hemisphere.
- - **Total Surface Area of a Hemisphere:** TSA = 3pi r^2 — where $r$ is the radius of the hemisphere.
+ - **Curved Surface Area of a Cylinder:** CSA = 2\pi rh — where $r$ is the radius and $h$ is the height of the cylinder.
+ - **Total Surface Area of a Cylinder:** TSA = 2\pi r(r + h) — where $r$ is the radius and $h$ is the height of the cylinder.
+ - **Volume of a Cylinder:** V = \pi r^2 h — where $r$ is the radius and $h$ is the height of the cylinder.
+ - **Curved Surface Area of a Cone:** CSA = \pi rl — where $r$ is the radius and $l$ is the slant height of the cone.
+ - **Total Surface Area of a Cone:** TSA = \pi r(l + r) — where $r$ is the radius and $l$ is the slant height of the cone.
+ - **Volume of a Cone:** V = \frac{1}{3}\pi r^2 h — where $r$ is the radius and $h$ is the height of the cone.
+ - **Volume of a Sphere:** V = \frac{4}{3}\pi r^3 — where $r$ is the radius of the sphere.
+ - **Surface Area of a Sphere:** SA = 4\pi r^2 — where $r$ is the radius of the sphere.
+ - **Volume of a Hemisphere:** V = \frac{2}{3}\pi r^3 — where $r$ is the radius of the hemisphere.
+ - **Curved Surface Area of a Hemisphere:** CSA = 2\pi r^2 — where $r$ is the radius of the hemisphere.
+ - **Total Surface Area of a Hemisphere:** TSA = 3\pi r^2 — where $r$ is the radius of the hemisphere.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
-- **Mistake 1:** Wrongly applying the formula for the area of a triangle, using ${A = rac{1}{2} 	imes base 	imes height}$, without considering the context of the problem.
+- **Mistake 1:** Wrongly applying the formula for the area of a triangle, using ${A = \frac{1}{2} 	imes base 	imes height}$, without considering the context of the problem.
 
 - *Costs:* 2-3 marks
  
@@ -65,14 +65,14 @@ manualReview: false
 
 - *Fix:* Memorize the formulas correctly and understand when to apply each one. The formula ${V = a^3}$ gives the volume of a cube with side length $a$, while ${SA = 6a^2}$ gives the surface area.
 
-- **Mistake 3:** Incorrectly calculating the lateral surface area of a cylinder, using ${LSA = 2pi rh}$, without considering the correct value of $r$ and $h$.
+- **Mistake 3:** Incorrectly calculating the lateral surface area of a cylinder, using ${LSA = 2\pi rh}$, without considering the correct value of $r$ and $h$.
 
 - *Costs:* 3-4 marks
  
 
-- *Fix:* Double-check the values of $r$ (radius) and $h$ (height) before applying the formula ${LSA = 2pi rh}$.
+- *Fix:* Double-check the values of $r$ (radius) and $h$ (height) before applying the formula ${LSA = 2\pi rh}$.
 
-- **Mistake 4:** Not considering the radius of the base when calculating the volume of a cone, using ${V = rac{1}{3}pi r^2 h}$, and misinterpreting the value of $r$.
+- **Mistake 4:** Not considering the radius of the base when calculating the volume of a cone, using ${V = \frac{1}{3}\pi r^2 h}$, and misinterpreting the value of $r$.
 
 - *Costs:* 3-4 marks
  
@@ -84,7 +84,7 @@ manualReview: false
 - *Costs:* 2-5 marks
  
 
-- *Fix:* Always ensure that the units of measurement are consistent throughout the calculation. For example, if the problem involves area in square centimeters and volume in cubic centimeters, ensure all measurements are in centimeters before applying formulas like ${A = rac{1}{2} 	imes base 	imes height}$ or ${V = a^3}$.
+- *Fix:* Always ensure that the units of measurement are consistent throughout the calculation. For example, if the problem involves area in square centimeters and volume in cubic centimeters, ensure all measurements are in centimeters before applying formulas like ${A = \frac{1}{2} 	imes base 	imes height}$ or ${V = a^3}$.
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
@@ -92,22 +92,21 @@ manualReview: false
  "heading": "✏️ 3 Solved PYQs",
  "body": "- **Q1: Area of Trapezium**
  - **Question:** The area of a trapezium is $34 \text{ cm}^2$ and the length of one of the parallel sides is $10 \text{ cm}$. If its height is $4 \text{ cm}$, find the length of the other parallel side.
- - **Trap:** Students sometimes forget the factor of $\frac{1}{2}$ in the area formula or misidentify the parallel sides. Another common mistake is directly adding the lengths and dividing by height without rearranging the formula carefully.
+ - **Trap:** Students sometimes forget the factor of $\frac{{1}{2}}{A}  in the area formula or misidentify the parallel sides. Another common mistake is directly adding the lengths and dividing by height without rearranging the formula carefully.
  - **Solution:**
- - Let the area of the trapezium be $A$, the lengths of the parallel sides be $a$ and $b$, and the height be $h$.
+ - Let the area of the trapezium be $, the lengths of the parallel sides be $a$ and $b$, and the height be $h$.
  - We are given:
  - $A = 34 \text{ cm}^2$
  - $a = 10 \text{ cm}$
  - $h = 4 \text{ cm}$
- - We need to find $b$.
- - The formula for the area of a trapezium is:
- A = \frac{1}{2} (a+b) h
- - Substitute the given values into the formula:
- 34 = \frac{1}{2} (10+b) (4)
+ - We need to find $b$1 
+
  - Simplify the equation:
  34 = 2 (10+b)
  - Divide both sides by $2$:
- \frac{34}{2} = 10+b17 = 10+b
+
+$1 
+
  - Isolate $b$ by subtracting $10$ from both sides:
  b = 17 - 10b = 7 \text{ cm}
  - **Answer:** The length of the other parallel side is $7 \text{ cm}$.
@@ -138,17 +137,17 @@ manualReview: false
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-- **The Hidden Pattern:** In Mensuration, for problems involving $3D$ shapes like cubes, cuboids, and cylinders, a common pattern observed is that the ratio of the surface area to the volume is often expressed as a fraction, which can be simplified using the formula: $SA/V = rac{2lw + 2lh + 2wh}{lwh}$. This simplification can be crucial in identifying the correct answer choice among the given options.
+- **The Hidden Pattern:** In Mensuration, for problems involving $3D$ shapes like cubes, cuboids, and cylinders, a common pattern observed is that the ratio of the surface area to the volume is often expressed as a fraction, which can be simplified using the formula: $SA/V = \frac{2lw + 2lh + 2wh}{lwh}$. This simplification can be crucial in identifying the correct answer choice among the given options.
 
 - **How to Apply It:** To apply this pattern, it's essential to first calculate the surface area and volume of the given shape.
 
-- **Then, simplify the ratio using the formula:** $rac{SA}{V} = rac{2(lw + lh + wh)}{lwh}$.
+- **Then, simplify the ratio using the formula:** $\frac{SA}{V} = \frac{2(lw + lh + wh)}{lwh}$.
 
-- **This can be further simplified to:** $rac{SA}{V} = rac{2}{l} + rac{2}{w} + rac{2}{h}$. By expressing the ratio in this form, it becomes easier to identify the correct answer choice, especially when dealing with multiple-choice questions.
+- **This can be further simplified to:** $\frac{SA}{V} = \frac{2}{l} + \frac{2}{w} + \frac{2}{h}$. By expressing the ratio in this form, it becomes easier to identify the correct answer choice, especially when dealing with multiple-choice questions.
 
 - **PYQ-Specific Trend:** A trend observed in previous years' questions is that the ratio of surface area to volume is often used to eliminate incorrect answer choices. For instance, if the ratio is expressed as a fraction, the numerator and denominator can be used to eliminate answer choices that do not match the given ratio.
 
-- **Additionally, the formula:** $V = rac{1}{3} pi r^2 h$ for the volume of a cylinder can be used to calculate the volume, which can then be used to find the ratio of surface area to volume.
+- **Additionally, the formula:** $V = \frac{1}{3} \pi r^2 h$ for the volume of a cylinder can be used to calculate the volume, which can then be used to find the ratio of surface area to volume.
 
 - **Formula Bank:** Some essential formulas to remember in Mensuration include: $SA_{cube} = 6a^2$, $V_{cube} = a^3$, $SA_{cuboid} = 2(lw + lh + wh)$, and $V_{cuboid} = lwh$. These formulas can be used to calculate the surface area and volume of various shapes, which can then be used to find the ratio of surface area to volume.
 
@@ -156,7 +155,7 @@ manualReview: false
 | --- | --- | --- |
 | Cube | $6a^2$ | $a^3$ |
 | Cuboid | $2(lw + lh + wh)$ | $lwh$ |
-| Cylinder | $2 pi r(h + r)$ | $pi r^2 h$ |
+| Cylinder | $2 \pi r(h + r)$ | $pi r^2 h$ |
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 

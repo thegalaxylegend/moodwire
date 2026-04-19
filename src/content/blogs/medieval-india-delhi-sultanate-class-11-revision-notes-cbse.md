@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/medieval-india-delhi-sultanate-class-11-revision-notes-cbse.webp"
-title: "Medieval India Delhi Sultanate Class 11 History Recap — CBSE 2026 Quick Guide"
-description: "Medieval India Delhi Sultanate Class 11 History Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Medieval India Delhi Sultanate Class 11 History Recap — CBSE 2026 Grandmaster Guide"
+description: "Medieval India Delhi Sultanate Class 11 History Recap — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/medieval-india-delhi-sultanate-class-11-revision-notes-cbse"
@@ -126,11 +126,11 @@ The following are some key terms related to the Delhi Sultanate:
 ### <a id="latex-equations"></a>LaTeX Equations
 The Delhi Sultanate can be represented using the following LaTeX equations:
 
-$\text{Delhi Sultanate} = \sum_{i=1}^{5} $\text{Dynasties}$\text{Dynasties} = \$\text{Slave$, $$\text{Khalji}$, $\text{Tughlaq}, $$\text{Sayyid}$, $\text{Lodi}\}$$\text{Iqta System}$ = $\text{Feudal System} \times $$\text{Land Grant}$
+$\text{Delhi Sultanate} = \sum_{i=1}^{5} $\text{Dynasties}$\text{Dynasties} = \$\text{Slave$, $\text{Khalji}, \text{Tughlaq}, $\text{Sayyid}$, $\text{Lodi}\}$\text{Iqta System} = \text{Feudal System} \times $\text{Land Grant}$
 
 
 
-By using these equations, we can represent the Delhi Sultanate as a sum of its constituent dynasties, and the iqta system as a product of the feudal system and land grant.
+By using these equations, we can represent the Delhi Sultanate as a \sum of its constituent dynasties, and the iqta system as a product of the feudal system and land grant.
 
 ### <a id="historical-context"></a>Historical Context
 The Delhi Sultanate was a significant period in Indian history, marked by the rise of Muslim rule and the development of a new administrative system. The Delhi Sultanate was influenced by the **Turkish** and **Persian** cultures, and saw significant developments in **architecture**, **literature**, and **art**. The Delhi Sultanate also played a significant role in the **trade and commerce** of the Indian subcontinent, with trade links with Central Asia, the Middle East, and Europe.

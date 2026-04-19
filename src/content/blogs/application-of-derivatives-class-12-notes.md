@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/application-of-derivatives-class-12-notes.webp"
-title: "Application of Derivatives Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide"
-description: "Application of Derivatives Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-02."
+title: "Application Of Derivatives Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Application Of Derivatives Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-04-02"
 practice_link: "/class-11/mathematics/application-of-derivatives-class-12-notes"
@@ -21,11 +21,11 @@ practice_link: "/class-11/mathematics/application-of-derivatives-class-12-notes"
 - [📚 Related Topics](#-related-topics)
 
 * **Tangent and Normal**: 1 numerical on finding equation of tangent and normal to a curve - always
-* **Monotonicity**: 1 question on determining intervals of increase/decrease for a given function using $\frac{dy}{dx}$ - always
-* **Maxima and Minima**: 2-3 numericals on finding maximum/minimum values of a function using $\frac{dy}{dx} = 0$ and second derivative test - always
+* **Monotonicity**: 1 question on determining intervals of increase/decrease for a given function using $\frac{{dy}{dx}}{\frac{dy}{dx} = 0}  - always
+* **Maxima and Minima**: 2-3 numericals on finding maximum/minimum values of a function using $ and second derivative test - always
 * **Absolute Maxima and Minima**: 1 question on finding absolute maxima/minima in a given interval - always
-* **Rate of Change**: 1 numerical on finding rate of change of a quantity with respect to another using $\frac{dy}{dx}$ - always
-* **Approximations**: 1 question on finding approximate value of a function using $y = f(x + \Delta x)$ and $f'(x)$ - always
+* **Rate of Change**: 1 numerical on finding rate of change of a quantity with respect to another using $\frac{{dy}{dx}}{y = f(x + \Delta x)}  - always
+* **Approximations**: 1 question on finding approximate value of a function using $ and $f'(x)$ - always
 * **Graphs**: Identification of graphs of $y = f(x)$, $y = f'(x)$, and $y = f''(x)$ - always
 * **Increasing/Decreasing in Interval**: 1 question on determining where a function is increasing/decreasing in a given interval - always
 * **First Derivative Test**: 1 numerical on using first derivative test to determine maxima/minima - always
@@ -33,14 +33,14 @@ practice_link: "/class-11/mathematics/application-of-derivatives-class-12-notes"
 * **Mean Value Theorems**: 1 question on applying Rolle's theorem or Lagrange's mean value theorem - always
 * **Finding Extrema**: 1 numerical on finding extrema (maxima/minima) of a function subject to a constraint - always
 * **Functions of Two Variables**: 1 question on partial derivatives and their [applications](/blog/biotechnology-and-its-applications-class-12-notes) - always
-* **Optimization Problems**: 1-2 numericals on optimizing a function (maxima/minima) using $\frac{dy}{dx}$ - always
+* **Optimization Problems**: 1-2 numericals on optimizing a function (maxima/minima) using $\frac{{dy}{dx}}{\frac{f(x + h) - f(x)}{h} — Measures the rate of change of the function }  - always
 * **Equation of Tangent to Parametric Curves**: 1 numerical on finding equation of tangent to a parametric curve - always
 * **Equation of Normal to Parametric Curves**: 1 numerical on finding equation of normal to a parametric curve - always 
 * **Tangent and Normal to Polar Curves**: 1 numerical on finding equation of tangent and normal to a polar curve - always
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Geometric Interpretation of Derivative:** \lim_{h \to 0} $\frac{f(x + h) - f(x)}{h} — Measures the rate of change of the function $f(x)$.$
+- **Geometric Interpretation of Derivative:** \lim_{h \to 0} $f(x)$.
 
  - **First Derivative Test:** f'(x) = 0 — Used to find critical points for maxima or minima.
 
@@ -48,15 +48,15 @@ practice_link: "/class-11/mathematics/application-of-derivatives-class-12-notes"
 
  - **Rolle's Theorem:** f'(c) = 0 — States that if a function $f$ is continuous on the closed interval $[a, b]$ and differentiable on the open interval $(a, b)$, and if $f(a) = f(b)$, then $f'(c) = 0$ for some $c$ with $a \leq c \leq b$.
 
- - **Lagrange's Mean Value Theorem:** f'(c) = $\frac{f(b) - f(a)}{b - a} — States that for a function $f$ that is continuous on $[a, b]$ and differentiable on $(a, b)$, there exists $c$ in $(a, b)$ such that $f'(c)$ equals the average change of $f$ over $[a, b]$.$
+ - **Lagrange's Mean Value Theorem:** f'(c) = $\frac{{f(b) - f(a)}{b - a} — States that for a function }{ that is continuous on } f$[a, b]$ and differentiable on $(a, b)$, there exists $c$ in $(a, b)$ such that $f'(c)$ equals the average change of $f$ over $[a, b]$.$
 
  - **Increasing/Decreasing Function:** f'(x) > 0 or f'(x) < 0 — Indicates whether a function is increasing or decreasing in an interval.
 
  - **Tangents and Normals:** y - y_1 = m(x - x_1) — Equation of a tangent line with slope $m$ at $(x_1, y_1)$, where $m = f'(x_1)$.
 
-- **Length of Tangent, Normal, and Subtangent:** $\text{Tangent: } y = mx + c, $$\text{Normal: }$ y - y_1 = -$\frac{1}{m}(x - x_1), $$\text{Subtangent: }$ $\text{Length} = |y_1| \cdot $$\sqrt{1 + m^2}$ — Formulas related to the tangent and normal to a curve.
+- **Length of Tangent, Normal, and Subtangent:** $\text{Tangent: } y = mx + c, $\text{Normal: } y - y_1 = -\frac{1}{m}(x - x_1), $1 \text{Length} = |y_1| \cdot $\sqrt{1 + m^2} — Formulas related to the tangent and normal to a curve.
 
- - **Area of Region Bounded by a Curve and x-axis:** A = \int_{a}^{b} f(x) dx — Gives the area under the curve $y = f(x)$ between $x = a$ and $x = b$.
+ - **Area of Region Bounded by a Curve and x-axis:** A = \int_{a}^{b} f(x) dx — Gives the area under the curve y = f(x)$ between $x = a$ and $x = b$.
 
 - **Volume of Solid of Revolution (Disk Method):** V = \pi \int_{a}^{b} [f(x)]^2 dx — Calculates the volume of the solid formed by revolving the region about the x-axis.
 
@@ -72,13 +72,13 @@ practice_link: "/class-11/mathematics/application-of-derivatives-class-12-notes"
 
  - *Costs:* 4-6 marks per question
 
- - *Fix:* Always identify the outer and inner functions and apply the chain rule: $\frac{d}{dx}f(g(x)) = f'(g(x)) \cdot g'(x)$.
+ - *Fix:* Always identify the outer and inner functions and apply the chain rule: $\frac{{d}{dx}f(g(x)) = f'(g(x)) \cdot g'(x)}{f'(x) > 0} .
 
  - **Mistake 2:** Incorrectly determining the intervals of increase and decrease for a function by misinterpreting the sign of the derivative. 
 
  - *Costs:* 3-5 marks per question
 
- - *Fix:* Remember, if $f'(x) > 0$, then $f(x)$ is increasing, and if $f'(x) < 0$, then $f(x)$ is decreasing. Use a sign chart to organize your work.
+ - *Fix:* Remember, if $, then $f(x)$ is increasing, and if $f'(x) < 0$, then $f(x)$ is decreasing. Use a sign chart to organize your work.
 
  - **Mistake 3:** Failing to consider the second derivative when determining the [nature](/blog/dual-nature-of-radiation-class-12-notes) of stationary points (local maxima or minima). 
 
@@ -116,9 +116,9 @@ practice_link: "/class-11/mathematics/application-of-derivatives-class-12-notes"
 
  
 
-$\frac{d}{dx}f(x) = $$\frac{d}{dx}$(10x^2 - x^3) = 20x - 3x^2
+$\frac{{d}{dx}f(x) = }{(10x^2 - x^3) = 20x - 3x^2
 
- Setting the derivative equal to zero gives us $20x - 3x^2 = 0$.
+ Setting the derivative equal to zero gives us } \frac{d}{dx}$20x - 3x^2 = 0$.
 
  Factoring out $x$, we get $x(20 - 3x) = 0$, which yields $x = 0$ or $x = \frac{20}{3}$.
 
@@ -126,9 +126,9 @@ $\frac{d}{dx}f(x) = $$\frac{d}{dx}$(10x^2 - x^3) = 20x - 3x^2
 
  
 
-$\frac{d^2}{dx^2}f(x) = $$\frac{d}{dx}$(20x - 3x^2) = 20 - 6x
+$\frac{{d^2}{dx^2}f(x) = }{, we get } \frac{d}{dx}(20x - 3x^2) = 20 - 6x
 
- Evaluating the second derivative at $x = \frac{20}{3}$, we get $20 - 6(\frac{20}{3}) = 20 - 40 = -20$.
+ Evaluating the second derivative at x = \frac{20}{3}$20 - 6(\frac{20}{3}) = 20 - 40 = -20$.
 
  Since the second derivative is negative, $x = \frac{20}{3}$ corresponds to a maximum.
 
@@ -136,9 +136,9 @@ $\frac{d^2}{dx^2}f(x) = $$\frac{d}{dx}$(20x - 3x^2) = 20 - 6x
 
  Therefore, the maximum value of $x^2y$ is $(\frac{20}{3})^2(\frac{10}{3}) = \frac{4000}{27}$.
 
- - **Answer:** $\frac{4000}{27}$
+ - **Answer:** $\frac{{4000}{27}}{x(t) = 2t^2 + 3t + 1} 
 
- - **Q2:** A particle moves along the x-axis with its position given by $x(t) = 2t^2 + 3t + 1$. Find its velocity and acceleration at $t = 2$ seconds.
+ - **Q2:** A particle moves along the x-axis with its position given by $. Find its velocity and acceleration at $t = 2$ seconds.
 
  - **Trap:** Students might forget to apply the power rule correctly for differentiation.
 
@@ -148,15 +148,15 @@ $\frac{d^2}{dx^2}f(x) = $$\frac{d}{dx}$(20x - 3x^2) = 20 - 6x
 
  
 
-v(t) = $\frac{d}{dt}x(t) = $$\frac{d}{dt}$(2t^2 + 3t + 1) = 4t + 3
+v(t) = $\frac{{d}{dt}x(t) = }{(2t^2 + 3t + 1) = 4t + 3
 
- The acceleration $a(t)$ is the derivative of velocity $v(t)$ with respect to time:
+ The acceleration } \frac{d}{dt}$a(t)$ is the derivative of velocity $v(t)$ with respect to time:
 
  
 
-a(t) = $\frac{d}{dt}v(t) = $$\frac{d}{dt}$(4t + 3) = 4
+a(t) = $\frac{{d}{dt}v(t) = }{ seconds, the velocity is } \frac{d}{dt}(4t + 3) = 4
 
- At $t = 2$ seconds, the velocity is $v(2) = 4(2) + 3 = 8 + 3 = 11$ m/s.
+ At t = 2$v(2) = 4(2) + 3 = 8 + 3 = 11$ m/s.
 
  The acceleration at $t = 2$ seconds is $a(2) = 4$ m/s$^2$.
 
@@ -172,15 +172,15 @@ a(t) = $\frac{d}{dt}v(t) = $$\frac{d}{dt}$(4t + 3) = 4
 
  
 
-$\frac{dy}{dx} = $$\frac{d}{dx}$(x^3 - 2x^2 + x + 1) = 3x^2 - 4x + 1
+$\frac{{dy}{dx} = }{(x^3 - 2x^2 + x + 1) = 3x^2 - 4x + 1
 
- Evaluate the derivative at $x = 1$ to find the slope $m$ of the tangent line:
+ Evaluate the derivative at } \frac{d}{dx}$x = 1$ to find the slope $m$ of the tangent line:
 
  
 
-m = $\frac{dy}{dx}\Big|_{x=1}$ = 3(1)^2 - 4(1) + 1 = 3 - 4 + 1 = 0
+m = $\frac{{dy}{dx}\Big|_{x=1} = 3(1)^2 - 4(1) + 1 = 3 - 4 + 1 = 0
 
- The slope of the tangent line at $x = 1$ is $0$.
+ The slope of the tangent line at }{ is } x = 1$0$.
 
  To find the $y$-intercept, we need the $y$-coordinate when $x = 1$:
 
@@ -240,25 +240,25 @@ abla g(x)
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-👁️ Ayush's Note, - **The Hidden Pattern:** In the application of derivatives, a specific pattern emerges when analyzing the past 5+ years of PYQs. It is observed that the maximum and minimum values of a function are often related to the roots of its derivative, given by $\fracdydx = 0$. Furthermore, the nature of these roots (maxima or minima) can be determined by the second derivative test, which states that if $\fracd^2ydx^2 > 0$ at the root, it's a minima, and if $\fracd^2ydx^2 < 0$, it's a maxima., - **How to Apply It:** To apply this pattern, first identify the function and its derivative. Then, set the derivative equal to zero and solve for the roots. Next, apply the second derivative test to determine the nature of these roots. Additionally, it's crucial to consider the domain of the function and any points of discontinuity. For instance, given a function $y = \fracx^2 - 4x - 2$, the derivative $\fracdydx$ can be found using the quotient rule: $\fracdydx = \frac(x - 2)(2x) - (x^2 - 4)(1)(x - 2)^2$. Simplifying this yields $\fracdydx = \fracx^2 - 4x(x - 2)^2$, which can be further simplified to $\fracdydx = \fracx(x - 4)(x - 2)^2$. Setting $\fracdydx = 0$ gives the roots $x = 0$ and $x = 4$. Applying the second derivative test, $\fracd^2ydx^2 = \frac(x - 2)^2(2x - 4) - x(x - 4)(2)(x - 2)(x - 2)^4$, which simplifies to $\fracd^2ydx^2 = \frac(x - 2)(2x - 4)(x - 2) - 2x(x - 4)(x - 2)^3$. Evaluating $\fracd^2ydx^2$ at $x = 0$ and $x = 4$ determines the nature of the roots., - **Critical Points:** It's also essential to consider critical points where the derivative is undefined. These points can also be potential maxima or minima. For example, given $y = \sqrtx^2 + 1$, the derivative $\fracdydx = \fracx\sqrtx^2 + 1$ is undefined at $x = 0$ due to division by zero in the original function's domain consideration, but here it's defined. However, for $y = \sqrtx$, the derivative $\fracdydx = \frac12\sqrtx$ is undefined at $x = 0$, indicating a critical point., - **Increasing/Decreasing:** The sign of the derivative $\fracdydx$ can also indicate where the function is increasing or decreasing. If $\fracdydx > 0$, the function is increasing; if $\fracdydx < 0$, it's decreasing. This information can be used to sketch the graph of the function or to determine intervals where the function is increasing or decreasing., - **First Derivative Test:** Another method to determine the nature of critical points is the first derivative test. It states that if the derivative changes sign from positive to negative at a critical point, the point is a local maximum. If the derivative changes sign from negative to positive, the point is a local minimum. For instance, given $y = x^3 - 6x^2 + 9x + 2$, the derivative $\fracdydx = 3x^2 - 12x + 9$ can be used to find critical points by setting $\fracdydx = 0$. Solving $3x^2 - 12x + 9 = 0$ yields $x = 1$ and $x = 3$. By examining the sign of $\fracdydx$ around these points, we can determine their nature., - **Second Derivative Test for Inflection Points:** Inflection points occur where the concavity of the function changes, which can be found using the second derivative. If $\fracd^2ydx^2 = 0$ and changes sign at a point, that point is an inflection point. For example, given $y = x^4 - 6x^2$, the first derivative is $\fracdydx = 4x^3 - 12x$, and the second derivative is $\fracd^2ydx^2 = 12x^2 - 12$. Setting $\fracd^2ydx^2 = 0$ gives $12x^2 - 12 = 0$, which simplifies to $x^2 = 1$. Thus, $x = 1$ and $x = -1$ are potential inflection points. , Function, Derivative, Second Derivative, Roots of Derivative, Nature of Roots , $y = x^2$, $\fracdydx = 2x$, $\fracd^2ydx^2 = 2$, $x = 0$, Minima , $y = x^3 - 6x^2 + 9x + 2$, $\fracdydx = 3x^2 - 12x + 9$, $\fracd^2ydx^2 = 6x - 12$, $x = 1, x = 3$, Local Max/Min , $y = \sqrtx^2 + 1$, $\fracdydx = \fracx\sqrtx^2 + 1$, $\fracd^2ydx^2 = \frac1(x^2 + 1)^3/2$, -, -
+👁️ Ayush's Note, - **The Hidden Pattern:** In the application of derivatives, a specific pattern emerges when analyzing the past 5+ years of PYQs. It is observed that the maximum and minimum values of a function are often related to the roots of its derivative, given by $\frac{dydx = 0}{\fracd^2ydx^2 > 0} . Furthermore, the nature of these roots (maxima or minima) can be determined by the second derivative test, which states that if $ at the root, it's a minima, and if $\frac{d^2ydx^2 < 0}{y = \fracx^2 - 4x - 2} , it's a maxima., - **How to Apply It:** To apply this pattern, first identify the function and its derivative. Then, set the derivative equal to zero and solve for the roots. Next, apply the second derivative test to determine the nature of these roots. Additionally, it's crucial to consider the domain of the function and any points of discontinuity. For instance, given a function $, the derivative $\frac{dydx}{\fracdydx = \frac(x - 2)(2x) - (x^2 - 4)(1)(x - 2)^2}  can be found using the quotient rule: $. Simplifying this yields $\frac{dydx = \fracx^2 - 4x(x - 2)^2}{\fracdydx = \fracx(x - 4)(x - 2)^2} , which can be further simplified to $. Setting $\frac{dydx = 0}{x = 0}  gives the roots $ and $x = 4$. Applying the second derivative test, $\frac{d^2ydx^2 = \frac(x - 2)^2(2x - 4) - x(x - 4)(2)(x - 2)(x - 2)^4}{\fracd^2ydx^2 = \frac(x - 2)(2x - 4)(x - 2) - 2x(x - 4)(x - 2)^3} , which simplifies to $. Evaluating $\frac{d^2ydx^2}{x = 0}  at $ and $x = 4$ determines the nature of the roots., - **Critical Points:** It's also essential to consider critical points where the derivative is undefined. These points can also be potential maxima or minima. For example, given $y = \sqrtx^2 + 1$, the derivative $\frac{dydx = \fracx\sqrtx^2 + 1}{x = 0}  is undefined at $ due to division by zero in the original function's domain consideration, but here it's defined. However, for $y = \sqrtx$, the derivative $\frac{dydx = \frac12\sqrtx}{x = 0}  is undefined at $, indicating a critical point., - **Increasing/Decreasing:** The sign of the derivative $\frac{dydx}{\fracdydx > 0}  can also indicate where the function is increasing or decreasing. If $, the function is increasing; if $\frac{dydx < 0}{y = x^3 - 6x^2 + 9x + 2} , it's decreasing. This information can be used to sketch the graph of the function or to determine intervals where the function is increasing or decreasing., - **First Derivative Test:** Another method to determine the nature of critical points is the first derivative test. It states that if the derivative changes sign from positive to negative at a critical point, the point is a local maximum. If the derivative changes sign from negative to positive, the point is a local minimum. For instance, given $, the derivative $\frac{dydx = 3x^2 - 12x + 9}{\fracdydx = 0}  can be used to find critical points by setting $. Solving $3x^2 - 12x + 9 = 0$ yields $x = 1$ and $x = 3$. By examining the sign of $\frac{dydx}{\fracd^2ydx^2 = 0}  around these points, we can determine their nature., - **Second Derivative Test for Inflection Points:** Inflection points occur where the concavity of the function changes, which can be found using the second derivative. If $ and changes sign at a point, that point is an inflection point. For example, given $y = x^4 - 6x^2$, the first derivative is $\frac{dydx = 4x^3 - 12x}{\fracd^2ydx^2 = 12x^2 - 12} , and the second derivative is $. Setting $\frac{d^2ydx^2 = 0}{12x^2 - 12 = 0}  gives $, which simplifies to $x^2 = 1$. Thus, $x = 1$ and $x = -1$ are potential inflection points. , Function, Derivative, Second Derivative, Roots of Derivative, Nature of Roots , $y = x^2$, $\frac{dydx = 2x}{\fracd^2ydx^2 = 2} , $, $x = 0$, Minima , $y = x^3 - 6x^2 + 9x + 2$, $\frac{dydx = 3x^2 - 12x + 9}{\fracd^2ydx^2 = 6x - 12} , $, $x = 1, x = 3$, Local Max/Min , $y = \sqrtx^2 + 1$, $\frac{dydx = \fracx\sqrtx^2 + 1}{\fracd^2ydx^2 = \frac1(x^2 + 1)^3/2} , $, -, -
 
 | Function | Derivative | Second Derivative | Roots of Derivative | [nature](/blog/dual-nature-of-radiation-class-12-notes) of Roots |
 | --- | --- | --- | --- | --- |
-| $y = x^2$ | $\frac{dy}{dx} = 2x$ | $\frac{d^2y}{dx^2} = 2$ | $x = 0$ | Minima |
-| $y = x^3 - 6x^2 + 9x + 2$ | $\frac{dy}{dx} = 3x^2 - 12x + 9$ | $\frac{d^2y}{dx^2} = 6x - 12$ | $x = 1, x = 3$ | Local Max/Min |
-| $y = \sqrt{x^2 + 1}$ | $\frac{dy}{dx} = \frac{x}$\sqrt{x^2 + 1$}$ | $\frac{d^2y}{dx^2} = \frac{1}{(x^2 + 1)^{3/2}}$ | - | - |
+| $y = x^2$ | $\frac{{dy}{dx} = 2x}{\frac{d^2y}{dx^2} = 2}  | $ | $x = 0$ | Minima |
+| $y = x^3 - 6x^2 + 9x + 2$ | $\frac{{dy}{dx} = 3x^2 - 12x + 9}{\frac{d^2y}{dx^2} = 6x - 12}  | $ | $x = 1, x = 3$ | Local Max/Min |
+| $y = \sqrt{x^2 + 1}$ | $\frac{{dy}{dx} = \frac{x}}{}} \sqrt{x^2 + 1$ | $\frac{{d^2y}{dx^2} = \frac{1}{(x^2 + 1)^{3/2}}}{1 \frac{f(x + h) - f(x)}{h}}  | - | - |
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- $\frac{dy}{dx} = \lim_{h \to 0} $$\frac{f(x + h) - f(x)}{h}$
+- $
 
-- $\frac{d}{dx}$(x^n) = nx^{n-1}
+- $\frac{{d}{dx}}{\frac{d}{dx}} (x^n) = nx^{n-1}
 
-- $\frac{d}{dx}$(\sin(x)) = \cos(x)
+- $(\sin(x)) = \cos(x)
 
-- $\frac{d}{dx}$(\cos(x)) = -\sin(x)
+- $\frac{{d}{dx}}{\frac{d}{dx}} (\cos(x)) = -\sin(x)
 
-- $\frac{d}{dx}$(\tan(x)) = \sec^2(x)
+- $(\tan(x)) = \sec^2(x)
 
  - Key facts:
 

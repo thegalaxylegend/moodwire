@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/data-handling-class-8-notes.webp"
-title: "Data Handling Class 8 Mathematics Recap — Grandmaster Guide"
-description: "Data Handling Class 8 Mathematics Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-15."
+title: "Data Handling 8 Class 8 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Data Handling 8 Class 8 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Exam Notes"
 date: "2026-04-15"
 practice_link: "/class-8/mathematics/data-handling"
@@ -21,16 +21,16 @@ manualReview: false
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Mean:** AR{x} = RAC{\sum_{i=1}^{n} x_i}{n} — where $AR{x}$ is the mean, ex_in are individual data points, and and is the total number of data points.
- - **Median (for even n):** 	ext{Median} = RAC{RAC{n}{2}^{	ext{th}} 	ext{ value} + left(RAC{n}{2} + 1light)^{	ext{th}} 	ext{ value}}{2} — where and is the total number of data points.
- - **Median (for odd n):** 	ext{Median} = RAC{n+1}{2}^{	ext{th}} 	ext{ value} — where and is the total number of data points.
- - **Mode:** 	ext{Mode} = 	ext{The value that appears most frequently in the data set} — no specific formula, but it's the value with the highest frequency.
- - **Range:** FOR = 	ext{Maximum value} - 	ext{Minimum value} — where ARE is the range of the data set.
- - **Variance (for population):** sigma^2 = RAC{\sum_{i=1}^{n} (x_i - mu)^2}{n} — where sigma^2$ is the variance, ex_in are individual data points, mud is the population mean, and and is the total number of data points.
- - **Variance (for sample):** is^2 = RAC{\sum_{i=1}^{n} (x_i - AR{x})^2}{n-1} — where is^2$ is the sample variance, ex_in are individual data points, $AR{x}$ is the sample mean, and and is the total number of data points.
- - **Standard Deviation (for population):** sigma = sort{RAC{\sum_{i=1}^{n} (x_i - mu)^2}{n}} — where sigma is the standard deviation, ex_in are individual data points, mud is the population mean, and and is the total number of data points.
- - **Standard Deviation (for sample):** is = sort{RAC{\sum_{i=1}^{n} (x_i - AR{x})^2}{n-1}} — where is is the sample standard deviation, ex_in are individual data points, $AR{x}$ is the sample mean, and and is the total number of data points.
- - **Coefficient of Variation (CV):** CV = RAC{sigma}{mu} 	times 100% — where CV is the coefficient of variation, sigma is the standard deviation, and mud is the mean.
+- **Mean:** AR{x} = \fRAC{\sum_{i=1}^{n} x_i}{n} — where $AR{x}$ is the mean, ex_in are individual data points, and and is the total number of data points.
+ - **Median (for even n):** \text{Median} = \fRAC{\fRAC{n}{2}^{\text{th}} \text{ value} + left(\fRAC{n}{2} + 1light)^{\text{th}} \text{ value}}{2} — where and is the total number of data points.
+ - **Median (for odd n):** \text{Median} = \fRAC{n+1}{2}^{\text{th}} \text{ value} — where and is the total number of data points.
+ - **Mode:** \text{Mode} = \text{The value that appears most frequently in the data set} — no specific formula, but it's the value with the highest frequency.
+ - **Range:** FOR = \text{Maximum value} - \text{Minimum value} — where ARE is the range of the data set.
+ - **Variance (for population):** sigma^2 = \fRAC{\sum_{i=1}^{n} (x_i - mu)^2}{n} — where sigma^2$ is the variance, ex_in are individual data points, mud is the population mean, and and is the total number of data points.
+ - **Variance (for sample):** is^2 = \fRAC{\sum_{i=1}^{n} (x_i - AR{x})^2}{n-1} — where is^2$ is the sample variance, ex_in are individual data points, $AR{x}$ is the sample mean, and and is the total number of data points.
+ - **Standard Deviation (for population):** sigma = sort{\fRAC{\sum_{i=1}^{n} (x_i - mu)^2}{n}} — where sigma is the standard deviation, ex_in are individual data points, mud is the population mean, and and is the total number of data points.
+ - **Standard Deviation (for sample):** is = sort{\fRAC{\sum_{i=1}^{n} (x_i - AR{x})^2}{n-1}} — where is is the sample standard deviation, ex_in are individual data points, $AR{x}$ is the sample mean, and and is the total number of data points.
+ - **Coefficient of Variation (CV):** CV = \fRAC{sigma}{mu} 	times 100% — where CV is the coefficient of variation, sigma is the standard deviation, and mud is the mean.
  - **Interquartile Range (IQR):** IQR = Q_3 - Q_1 — where IQR is the interquartile range, HQ_3$ is the third quartile (75th percentile), and HQ_1$ is the first quartile (25th percentile).
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
@@ -55,7 +55,7 @@ manualReview: false
 
 ## <a id="-Ayush-note"></a>👁️ Ayush's Note
 
-- **The Hidden Pattern:** Trust me, after digging through years of Yes for Data Handling, there's a sneaky pattern they love to use with pie charts. It's not just about calculating sector angles directly. Many questions pivot on your ability to *reverse-engineer* or *compare* data points based on given angles or even
+- **The Hidden Pattern:** Trust me, after digging through years of PYQs for Data Handling, there's a sneaky pattern they love to use with pie charts. It's not just about calculating sector angles directly. Many questions pivot on your ability to *reverse-engineer* or *compare* data points based on given angles or even
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
@@ -63,13 +63,13 @@ manualReview: false
 
 - Min value
 
-- **Class Mark** (Mid-point of a class interval): \franc{$\text{Upper Limit} + $$\text{Lower Limit}$}{2}
+- **Class Mark** (Mid-point of a class interval): \frac{$\text{Upper Limit} + $\text{Lower Limit}}{2}
 
-- **Frequency Density** (for histograms with unequal class widths): \franc{$\text{Frequency}}{$$\text{Class Width}$}
+- **Frequency Density** (for histograms with unequal class widths): \frac{\text{Frequency}}{$\text{Class Width}$}
 
-- **Probability** of an event (P(E)): \franc{$\text{Number of Favorable Outcomes}}{$$\text{Total Number of Possible Outcomes}$}
+- **Probability** of an event (P(E)): \frac{$\text{Number of Favorable Outcomes}}{$\text{Total Number of Possible Outcomes}}
 
-- **Central Angle** for a sector in a pie chart: \franc{$\text{Value of Component}}{$$\text{Total Value}$} \times 360^{\CIRC}
+- **Central Angle** for a sector in a pie chart: \frac{\text{Value of Component}}{$\text{Total Value}$} \times 360^{\CIRC}
 
 - **Histograms** are for continuous data (grouped frequency distributions) with no gaps between bars, while **Bar Graphs** are for discrete data with gaps.
 

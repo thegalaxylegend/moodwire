@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/continuity-and-differentiability-class-12-notes.webp"
-title: "Continuity and Differentiability Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide"
-description: "Continuity and Differentiability Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-01."
+title: "Continuity And Differentiability Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Continuity And Differentiability Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-04-01"
 practice_link: "/class-11/mathematics/continuity-and-differentiability-class-12-notes"
@@ -23,7 +23,6 @@ practice_link: "/class-11/mathematics/continuity-and-differentiability-class-12-
   - [Higher-Order Derivatives](#higherorder-derivatives)
   - [Applications of Derivatives](#applications-of-derivatives)
   - [Summary of Key Concepts](#summary-of-key-concepts)
-  - [3 Solved PYQs (Continued)](#3-solved-pyqs-continued)
 - [🪤 The 5 Trap Mistakes](#-the-5-trap-mistakes)
   - [Higher-Order Derivatives: Beyond the First Derivative](#higherorder-derivatives-beyond-the-first-derivative)
   - [Applications of Derivatives: Real-World Impact](#applications-of-derivatives-realworld-impact)
@@ -35,29 +34,17 @@ practice_link: "/class-11/mathematics/continuity-and-differentiability-class-12-
 - [📚 Related Topics](#-related-topics)
 
 
-- [3 Solved PYQs (Continued)](#3-solved-pyqs-continued)
-  - [Continuity](#continuity)
-  - [Differentiability](#differentiability)
-  - [Algebra of Derivatives](#algebra-of-derivatives)
-  - [Chain Rule](#chain-rule)
-  - [Implicit Differentiation](#implicit-differentiation)
-  - [Higher-Order Derivatives](#higherorder-derivatives)
-  - [Applications of Derivatives](#applications-of-derivatives)
-  - [Summary of Key Concepts](#summary-of-key-concepts)
-  - [3 Solved PYQs (Continued)](#3-solved-pyqs-continued)
 
-  - [Higher-Order Derivatives: Beyond the First Derivative](#higherorder-derivatives-beyond-the-first-derivative)
-  - [Applications of Derivatives: Real-World Impact](#applications-of-derivatives-realworld-impact)
-  - [Summary of Key Concepts: A Recap](#summary-of-key-concepts-a-recap)
-  - [Advanced Concepts in Continuity and Differentiability](#advanced-concepts-in-continuity-and-differentiability)
 
+
+##
 
 ### <a id="3-solved-pyqs-continued"></a>3 Solved PYQs (Continued)
 - **Solution (Continued):** 
 Now, we can cancel the $(x-2)$ terms, but we must be aware that this cancellation is valid only if $x 
 \neq 2$ because division by zero is undefined. Thus, after cancellation, we have:
 
-$$ \lim_{x \to 2} f(x) = \lim_{x \to 2} (x + 2) $$
+$ \lim_{x \to 2} f(x) = \lim_{x \to 2} (x + 2) 
 
 As $x$ approaches $2$, $x + 2$ approaches $4$. Therefore, $\lim_{x \to 2} f(x) = 4$.
 
@@ -70,43 +57,34 @@ For $x > 0$, $f(x) = x$, so $f'(x) = 1$.
 
 For $x < 0$, $f(x) = -x$, so $f'(x) = -1$. 
 
-At $x = 0$, we check the definition of a derivative:
-
- f'(0) = \lim_{h \to 0} \frac{f(0 + h) - f(0)}{h} = \lim_{h \to 0} \frac{|h|}{h} 
+At $x = 0$1 
 
 
-This limit does not exist because $\frac{|h|}{h} = 1$ for $h > 0$ and $\frac{|h|}{h} = -1$ for $h < 0$. Therefore, $f'(0)$ is undefined.
 
-- **Q3:** If $f(x) = \sin(x)$, prove that $f'(x) = \cos(x)$.
+This limit does not exist because $\frac{{|h|}{h} = 1}{h > 0}  for $ and $\frac{{|h|}{h} = -1}{h < 0}  for $. Therefore, $f'(0)$ is undefined.
 
- - **Trap:** Not using the definition of a derivative correctly.
-
- - **Solution:** 
-By definition, 
-
- f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h} = \lim_{h \to 0} \frac{\sin(x + h) - \sin(x)}{h} 
+- **Q3:** If $f(x) = \sin(x)$, prove that $f'(x) = \cos(x)$1 
 
 
-Using the angle sum identity for sine, $\sin(a + b) = \sin(a)\cos(b) + \cos(a)\sin(b)$, we get:
 
-$$ \sin(x + h) = \sin(x)\cos(h) + \cos(x)\sin(h) $$
+Using the angle \sum identity for sine, $\sin(a + b) = \sin(a)\cos(b) + \cos(a)\sin(b)$, we get:
+
+$ \sin(x + h) = \sin(x)\cos(h) + \cos(x)\sin(h) $
 
 Substituting this back into our limit:
 
-$$ f'(x) = \lim_{h \to 0} \frac{\sin(x)\cos(h) + \cos(x)\sin(h) - \sin(x)}{h} $$
-
-$$ = \lim_{h \to 0} \frac{\sin(x)(\cos(h) - 1) + \cos(x)\sin(h)}{h} $$
+ f'(x) = \lim_{h \to 0} \frac{\sin(x)\cos(h) + \cos(x)\sin(h) - \sin(x)}{h}  = \lim_{h \to 0} \frac{\sin(x)(\cos(h) - 1) + \cos(x)\sin(h)}{h} 
 
 
-Since $\cos(h)$ approaches $1$ and $\sin(h)$ approaches $h$ as $h$ approaches $0$:
+Since \cos(h) approaches $1$ and $\sin(h)$ approaches $h$ as $h$ approaches $0$:
 
-$$ f'(x) = \lim_{h \to 0} \frac{\cos(x)\sin(h)}{h} = \cos(x) \cdot \lim_{h \to 0} \frac{\sin(h)}{h} = \cos(x) \cdot 1 = \cos(x) $$
+$ f'(x) = \lim_{h \to 0} \frac{\cos(x)\sin(h)}{h} = \cos(x) \cdot \lim_{h \to 0} \frac{\sin(h)}{h} = \cos(x) \cdot 1 = \cos(x) $
 
 
 
 
 ### <a id="continuity"></a>Continuity
-- **Checking Continuity:** To check if a function $f(x)$ is continuous at $x = a$, we must verify that $\lim_{x \to a} f(x) = f(a)$.
+- **Checking Continuity:** To check if a function f(x) is continuous at $x = a$, we must verify that $\lim_{x \to a} f(x) = f(a)$.
 
  - **Types of Discontinuities:** 
   - **Removable Discontinuity:** The limit exists, but it does not equal $f(a)$.
@@ -151,13 +129,13 @@ $$ f'(x) = \lim_{h \to 0} \frac{\cos(x)\sin(h)}{h} = \cos(x) \cdot \lim_{h \to 0
 
 ### <a id="algebra-of-derivatives"></a>Algebra of Derivatives
 
-- **Sum Rule:** $\frac{d}{dx} (f(x) + g(x)) = f'(x) + g'(x)$
+- **Sum Rule:** $\frac{{d}{dx} (f(x) + g(x)) = f'(x) + g'(x)}{\frac{d}{dx} (f(x) - g(x)) = f'(x) - g'(x)} 
 
-- **Difference Rule:** $\frac{d}{dx} (f(x) - g(x)) = f'(x) - g'(x)$
+- **Difference Rule:** 
 
-- **Product Rule:** $\frac{d}{dx} (f(x) \cdot g(x)) = f'(x) \cdot g(x) + f(x) \cdot g'(x)$
+- **Product Rule:** $\frac{{d}{dx} (f(x) \cdot g(x)) = f'(x) \cdot g(x) + f(x) \cdot g'(x)}{\frac{d}{dx} \left(\frac{f(x)}{g(x)}\right) = \frac{f'(x) \cdot g(x) - f(x) \cdot g'(x)}{(g(x))^2}} 
 
-- **Quotient Rule:** $\frac{d}{dx} \left(\frac{f(x)}{g(x)}\right) = \frac{f'(x) \cdot g(x) - f(x) \cdot g'(x)}{(g(x))^2}$
+- **Quotient Rule:** 
 
 
 
@@ -172,12 +150,12 @@ $$ f'(x) = \lim_{h \to 0} \frac{\cos(x)\sin(h)}{h} = \cos(x) \cdot \lim_{h \to 0
 - **Composition of Functions:** If $f(x) = g(h(x))$, then $f'(x) = g'(h(x)) \cdot h'(x)$.
 
 
-- **General Form:** $\frac{d}{dx} f(g(x)) = f'(g(x)) \cdot g'(x)$
+- **General Form:** $\frac{{d}{dx} f(g(x)) = f'(g(x)) \cdot g'(x)}{f(x) = g(h(j(x)))} 
 
 
 
 #### Chain Rule for Multiple Compositions
-- **Rule:** If $f(x) = g(h(j(x)))$, then $f'(x) = g'(h(j(x))) \cdot h'(j(x)) \cdot j'(x)$.
+- **Rule:** If $, then $f'(x) = g'(h(j(x))) \cdot h'(j(x)) \cdot j'(x)$.
 
 #### Chain Rule and Trigonometric Functions
 - **Examples:** 
@@ -244,9 +222,9 @@ $$ f'(x) = \lim_{h \to 0} \frac{\cos(x)\sin(h)}{h} = \cos(x) \cdot \lim_{h \to 0
 
 - **Solution (continued):** 
 
- $$ \lim_{x \to 2} f(x) = \lim_{x \to 2} (x + 2) = 2 + 2 = 4 $$
+ $ \lim_{x \to 2} f(x) = \lim_{x \to 2} (x + 2) = 2 + 2 = 4 $
 
-- **Q2:** If $f(x) = |x|$ and $g(x) = x^2$, find the derivative of $f(g(x))$.
+- **Q2:** If f(x) = |x| and $g(x) = x^2$, find the derivative of $f(g(x))$.
 
  - **Trap:** Forgetting to apply the chain rule.
 
@@ -263,7 +241,7 @@ For $x < 0$, $f(g(x)) = f(x^2) = |x^2| = x^2$, so $f'(g(x)) = 2x$.
 
 However, since $g(x) = x^2$, we need to use the chain rule:
 
-$$ \frac{d}{dx} f(g(x)) = f'(g(x)) \cdot g'(x) = 2x \cdot 2x = 4x^2 $$
+$1 
 
 
 But we must consider the nature of $f(x) = |x|$ when $x = 0$. Since $g(0) = 0^2 = 0$, and $f'(0)$ is undefined for $f(x) = |x|$, the derivative of $f(g(x))$ at $x = 0$ needs special attention.

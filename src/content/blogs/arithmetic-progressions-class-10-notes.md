@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/arithmetic-progressions-class-10-notes.webp"
-title: "Arithmetic Progressions Class 10 Mathematics Recap — CBSE 2026 Quick Guide"
-description: "Arithmetic Progressions Class 10 Mathematics Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-07."
+title: "Arithmetic Progressions Class 10 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Arithmetic Progressions Class 10 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-04-07"
 practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
@@ -9,7 +9,7 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
 
 *Last Updated: 2026-04-07*
 
-<div [class](/blog/pair-of-linear-equations-class-10-notes)="quick-summary">
+<div class="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
@@ -42,9 +42,9 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
  - **Nth Term:** a_n = a + (n - 1)d — The nth term of the arithmetic progression, where $a$ is the first term, $d$ is the common difference, and $n$ is the term number. 
  - **Common Difference:** d = a_{n+1} - a_n — The difference between any two successive members of the arithmetic progression. 
  - **Last Term:** l = a + (n - 1)d — The last term of the arithmetic progression, where $a$ is the first term, $d$ is the common difference, and $n$ is the number of terms. 
- - **Sum of N Terms:** S_n = $\frac{n}{2} [2a + (n - 1)d] — The \sum of the first $n$ terms of the arithmetic progression, where $a$ is the first term and $d$ is the common difference. $
- - **Sum of N Terms (Alternative):** S_n = $\frac{n}{2} (a + l) — The \sum of the first $n$ terms of the arithmetic progression, where $a$ is the first term and $l$ is the last term. $
- - **Number of Terms:** n = $\frac{l - a}{d} + 1 — The number of terms in the arithmetic progression, where $l$ is the last term, $a$ is the first term, and $d$ is the common difference.$
+ - **Sum of N Terms:** S_n = $\frac{{n}{2} [2a + (n - 1)d] — The \sum of the first }{ terms of the arithmetic progression, where } n$a$ is the first term and $d$ is the common difference. $
+ - **Sum of N Terms (Alternative):** S_n = $\frac{{n}{2} (a + l) — The \sum of the first }{ terms of the arithmetic progression, where } n$a$ is the first term and $l$ is the last term. $
+ - **Number of Terms:** n = $\frac{{l - a}{d} + 1 — The number of terms in the arithmetic progression, where }{ is the last term, } l$a$ is the first term, and $d$ is the common difference.$
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -72,63 +72,63 @@ practice_link: "/class-11/mathematics/arithmetic-progressions-class-10-notes"
  Let $a$ be the first term and $d$ be the common difference of the A.P. Then, we have:
  
 
-$\frac{n}{2} [2a + (n - 1)d] = 225 quad 	ext{and} quad $$\frac{2n}{2}$ [2a + (2n - 1)d] = 525
+$\frac{{n}{2} [2a + (n - 1)d] = 225 quad \text{and} quad }{\frac{525}{n}} \frac{2n}{2} [2a + (2n - 1)d] = 525
 
  Simplifying these [equations](/blog/pair-of-linear-equations-class-10-notes), we get:
  
 
-2a + (n - 1)d = $\frac{450}{n} quad 	ext{and} quad 2a + (2n - 1)d = $$\frac{525}{n}$
+2a + (n - 1)d = \frac{450}{n} quad \text{and} quad 2a + (2n - 1)d = $
 
  Subtracting the first equation from the second, we get:
  
 
-(2n - 1 - n + 1)d = $\frac{525 - 450}{n}$
+(2n - 1 - n + 1)d = $\frac{{525 - 450}{n}}{\frac{75}{n}} 
 
-\Rightarrow quad nd = $\frac{75}{n}$
+\Rightarrow quad nd = $
 
-\Rightarrow quad d = $\frac{75}{n^2}$
+\Rightarrow quad d = $\frac{{75}{n^2}}{d} 
 
- Substituting this value of $d$ in the first equation, we get:
+ Substituting this value of $ in the first equation, we get:
  
 
-2a + (n - 1)$\frac{75}{n^2} = $$\frac{450}{n}$
+2a + (n - 1)$\frac{{75}{n^2} = }{\frac{75}{n^2}} \frac{450}{n}
 
-\Rightarrow quad 2a = $\frac{450}{n} - $$\frac{75}{n^2}$ (n - 1)
+\Rightarrow quad 2a = \frac{450}{n} - $ (n - 1)
 
-\Rightarrow quad 2a = $\frac{450}{n} - $$\frac{75n - 75}{n^2}$
+\Rightarrow quad 2a = $\frac{{450}{n} - }{
 
-\Rightarrow quad 2a = $\frac{450n - 75n + 75}{n^2}$
+\Rightarrow quad 2a = } \frac{75n - 75}{n^2}
 
-\Rightarrow quad 2a = $\frac{375n + 75}{n^2}$
+\Rightarrow quad 2a = \frac{450n - 75n + 75}{n^2}$\frac{375n + 75}{n^2}$
 
-\Rightarrow quad a = $\frac{375n + 75}{2n^2}$
+\Rightarrow quad a = $\frac{{375n + 75}{2n^2}}{3n} 
 
- Now, the \sum of first $3n$ terms is given by:
+ Now, the \sum of first $ terms is given by:
  
 
-$\frac{3n}{2}$ [2a + (3n - 1)d]
+$\frac{{3n}{2}}{a}  [2a + (3n - 1)d]
 
- Substituting the values of $a$ and $d$, we get:
+ Substituting the values of $ and $d$, we get:
  
 
-$\frac{3n}{2} [2$$\frac{375n + 75}{2n^2}$ + (3n - 1)$\frac{75}{n^2}$]
+$\frac{{3n}{2} [2}{ + (3n - 1)} \frac{375n + 75}{2n^2}$\frac{75}{n^2}$]
 
-= $\frac{3n}{2} [$$\frac{375n + 75}{n^2}$ + $\frac{225n - 75}{n^2}$]
+= $\frac{{3n}{2} [}{]
 
-= $\frac{3n}{2} [$$\frac{600n}{n^2}$]
+= } \frac{375n + 75}{n^2} + \frac{225n - 75}{n^2}$\frac{3n}{2} [$\frac{{600n}{n^2}}{\frac{3n}{2} \times } ]
 
-= $\frac{3n}{2} \times $$\frac{600}{n}$
+= $\frac{600}{n}
 
  
  = 900
  
- - **Answer:** $900$
- - **Q2:** The $p^{th}$ term of an A.P. is $a$ and $q^{th}$ term is $b$. Prove that the $r^{th}$ term is $\frac{a(q - r) + b(r - p)}{q - p}$.
- - **Trap:** Students often get confused between the formulas for the $p^{th}$ and $q^{th}$ terms of an A.P.
+ - **Answer:** 900$
+ - **Q2:** The $p^{th}$ term of an A.P. is $a$ and $q^{th}$ term is $b$. Prove that the $r^{th}$ term is $\frac{{a(q - r) + b(r - p)}{q - p}}{p^{th}} .
+ - **Trap:** Students often get confused between the formulas for the $ and $q^{th}$ terms of an A.P.
  - **Solution:** 
  Let $x$ be the first term and $y$ be the common difference of the A.P. Then, we have:
  
- x + (p - 1)y = a quad 	ext{and} quad x + (q - 1)y = b
+ x + (p - 1)y = a quad \text{and} quad x + (q - 1)y = b
  
  Subtracting the first equation from the second, we get:
  
@@ -137,138 +137,138 @@ $\frac{3n}{2} [2$$\frac{375n + 75}{2n^2}$ + (3n - 1)$\frac{75}{n^2}$]
  \Rightarrow quad (q - p)y = b - a
  
 
-\Rightarrow quad y = $\frac{b - a}{q - p}$
+\Rightarrow quad y = $\frac{{b - a}{q - p}}{r^{th}} 
 
- Now, the $r^{th}$ term is given by:
+ Now, the $ term is given by:
  
  x + (r - 1)y
  
  Substituting the value of $y$, we get:
  
 
-x + (r - 1)$\frac{b - a}{q - p}$
+x + (r - 1)$\frac{{b - a}{q - p}}{\frac{(r - 1)b - (r - 1)a}{q - p}} 
 
-= x + $\frac{(r - 1)b - (r - 1)a}{q - p}$
+= x + $
 
-= x + $\frac{(r - 1)b}{q - p} - $$\frac{(r - 1)a}{q - p}$
+= x + $\frac{{(r - 1)b}{q - p} - }{
 
-= $\frac{(q - p)x}{q - p} + $$\frac{(r - 1)b}{q - p}$ - $\frac{(r - 1)a}{q - p}$
+= } \frac{(r - 1)a}{q - p}$\frac{(q - p)x}{q - p} + $\frac{{(r - 1)b}{q - p} - \frac{(r - 1)a}{q - p}}{\frac{(q - p)x + (r - 1)b - (r - 1)a}{q - p}} 
 
-= $\frac{(q - p)x + (r - 1)b - (r - 1)a}{q - p}$
+= $
 
-= $\frac{qx - px + rb - r b - ra + a}{q - p}$
+= $\frac{{qx - px + rb - r b - ra + a}{q - p}}{\frac{qx - rb + a - px + rb - ra}{q - p}} 
 
-= $\frac{qx - rb + a - px + rb - ra}{q - p}$
+= $
 
-= $\frac{qx - rb + a(1 - r + r) - px}{q - p}$
+= $\frac{{qx - rb + a(1 - r + r) - px}{q - p}}{\frac{qx - rb + a - px}{q - p}} 
 
-= $\frac{qx - rb + a - px}{q - p}$
+= $
 
-= $\frac{qx - px + a - rb}{q - p}$
+= $\frac{{qx - px + a - rb}{q - p}}{\frac{(q - p)x + a - rb}{q - p}} 
 
-= $\frac{(q - p)x + a - rb}{q - p}$
+= $
 
-= $\frac{(q - p)x + a(1 - r + r) - rb}{q - p}$
+= $\frac{{(q - p)x + a(1 - r + r) - rb}{q - p}}{\frac{(q - p)x + a - ar + ar - rb}{q - p}} 
 
-= $\frac{(q - p)x + a - ar + ar - rb}{q - p}$
+= $
 
-= $\frac{(q - p)x + a(1 - r) + ar - rb}{q - p}$
+= $\frac{{(q - p)x + a(1 - r) + ar - rb}{q - p}}{\frac{(q - p)x + a(1 - r) + a(r - r) + ar - rb}{q - p}} 
 
-= $\frac{(q - p)x + a(1 - r) + a(r - r) + ar - rb}{q - p}$
+= $
 
-= $\frac{(q - p)x + a - ar + ar - rb}{q - p}$
+= $\frac{{(q - p)x + a - ar + ar - rb}{q - p}}{\frac{(q - p)x + a - rb + ar - ar}{q - p}} 
 
-= $\frac{(q - p)x + a - rb + ar - ar}{q - p}$
+= $
 
-= $\frac{(q - p)x + a - rb}{q - p}$
+= $\frac{{(q - p)x + a - rb}{q - p}}{\frac{(q - p)x + a - b(r - p + p)}{q - p}} 
 
-= $\frac{(q - p)x + a - b(r - p + p)}{q - p}$
+= $
 
-= $\frac{(q - p)x + a - b(r - p) - bp}{q - p}$
+= $\frac{{(q - p)x + a - b(r - p) - bp}{q - p}}{\frac{(q - p)x + a - b(r - p) - bp + bp}{q - p}} 
 
-= $\frac{(q - p)x + a - b(r - p) - bp + bp}{q - p}$
+= $
 
-= $\frac{(q - p)x + a(1 - r + r) - b(r - p)}{q - p}$
+= $\frac{{(q - p)x + a(1 - r + r) - b(r - p)}{q - p}}{\frac{(q - p)x + a - ar + ar - b(r - p)}{q - p}} 
 
-= $\frac{(q - p)x + a - ar + ar - b(r - p)}{q - p}$
+= $
 
-= $\frac{(q - p)x + a - ar + ar - b(r - p)}{q - p}$
+= $\frac{{(q - p)x + a - ar + ar - b(r - p)}{q - p}}{\frac{(q - p)x + a(1 - r) + ar - b(r - p)}{q - p}} 
 
-= $\frac{(q - p)x + a(1 - r) + ar - b(r - p)}{q - p}$
+= $
 
-= $\frac{qx - px + a - ar + ar - b(r - p)}{q - p}$
+= $\frac{{qx - px + a - ar + ar - b(r - p)}{q - p}}{\frac{qx - px + a - b(r - p) + ar - ar}{q - p}} 
 
-= $\frac{qx - px + a - b(r - p) + ar - ar}{q - p}$
+= $
 
-= $\frac{qx - px + a - b(r - p)}{q - p}$
+= $\frac{{qx - px + a - b(r - p)}{q - p}}{\frac{qx - b(r - p) - px + a}{q - p}} 
 
-= $\frac{qx - b(r - p) - px + a}{q - p}$
+= $
 
-= $\frac{qx - b(r - p) - px + a(1 - r + r)}{q - p}$
+= $\frac{{qx - b(r - p) - px + a(1 - r + r)}{q - p}}{\frac{qx - b(r - p) - px + a - ar + ar}{q - p}} 
 
-= $\frac{qx - b(r - p) - px + a - ar + ar}{q - p}$
+= $
 
-= $\frac{qx - b(r - p) - px + a - ar + ar}{q - p}$
+= $\frac{{qx - b(r - p) - px + a - ar + ar}{q - p}}{\frac{qx - b(r - p) + a(1 - r) - px + ar}{q - p}} 
 
-= $\frac{qx - b(r - p) + a(1 - r) - px + ar}{q - p}$
+= $
 
-= $\frac{qx - b(r - p) + a - ar - px + ar}{q - p}$
+= $\frac{{qx - b(r - p) + a - ar - px + ar}{q - p}}{\frac{qx + a - b(r - p) - px + ar - ar}{q - p}} 
 
-= $\frac{qx + a - b(r - p) - px + ar - ar}{q - p}$
+= $
 
-= $\frac{qx + a - b(r - p) - px}{q - p}$
+= $\frac{{qx + a - b(r - p) - px}{q - p}}{\frac{qx - px + a - b(r - p)}{q - p}} 
 
-= $\frac{qx - px + a - b(r - p)}{q - p}$
+= $
 
-= $\frac{(q - p)x + a - b(r - p)}{q - p}$
+= $\frac{{(q - p)x + a - b(r - p)}{q - p}}{\frac{(q - p)x + a - b(r - p)}{q - p} \times } 
 
-= $\frac{(q - p)x + a - b(r - p)}{q - p} \times $$\frac{(r - p)}{(r - p)}$
+= $\frac{(r - p)}{(r - p)}$
 
-= $\frac{(q - p)x(r - p) + a(r - p) - b(r - p)^2}{(q - p)(r - p)}$
+= $\frac{{(q - p)x(r - p) + a(r - p) - b(r - p)^2}{(q - p)(r - p)}}{\frac{(q - p)x(r - p) + a(r - p) - b(r^2 - 2rp + p^2)}{(q - p)(r - p)}} 
 
-= $\frac{(q - p)x(r - p) + a(r - p) - b(r^2 - 2rp + p^2)}{(q - p)(r - p)}$
+= $
 
-= $\frac{(q - p)x(r - p) + a(r - p) - br^2 + 2brp - bp^2}{(q - p)(r - p)}$
+= $\frac{{(q - p)x(r - p) + a(r - p) - br^2 + 2brp - bp^2}{(q - p)(r - p)}}{\frac{(q - p)x(r - p) + ar - ap - br^2 + 2brp - bp^2}{(q - p)(r - p)}} 
 
-= $\frac{(q - p)x(r - p) + ar - ap - br^2 + 2brp - bp^2}{(q - p)(r - p)}$
+= $
 
-= $\frac{(q - p)x(r - p) + ar - ap - br^2 + 2brp - bp^2}{(q - p)(r - p)}$
+= $\frac{{(q - p)x(r - p) + ar - ap - br^2 + 2brp - bp^2}{(q - p)(r - p)}}{\frac{(q - p)x(r - p) - ap + ar - br^2 + 2brp - bp^2}{(q - p)(r - p)}} 
 
-= $\frac{(q - p)x(r - p) - ap + ar - br^2 + 2brp - bp^2}{(q - p)(r - p)}$
+= $
 
-= $\frac{(q - p)x(r - p) - ap + ar - b(r^2 - 2rp + p^2)}{(q - p)(r - p)}$
+= $\frac{{(q - p)x(r - p) - ap + ar - b(r^2 - 2rp + p^2)}{(q - p)(r - p)}}{\frac{(q - p)x(r - p) - ap + ar - b(r - p)^2}{(q - p)(r - p)}} 
 
-= $\frac{(q - p)x(r - p) - ap + ar - b(r - p)^2}{(q - p)(r - p)}$
+= $
 
-= $\frac{(q - p)x(r - p) + a(r - p) - b(r - p)^2}{(q - p)(r - p)}$
+= $\frac{{(q - p)x(r - p) + a(r - p) - b(r - p)^2}{(q - p)(r - p)}}{\frac{(q - p)x(r - p) + (r - p)(a - b(r - p))}{(q - p)(r - p)}} 
 
-= $\frac{(q - p)x(r - p) + (r - p)(a - b(r - p))}{(q - p)(r - p)}$
+= $
 
-= $\frac{(r - p)((q - p)x + a - b(r - p))}{(q - p)(r - p)}$
+= $\frac{{(r - p)((q - p)x + a - b(r - p))}{(q - p)(r - p)}}{\frac{(r - p)((q - p)x + a - b(r - p))}{(q - p)(r - p)}} 
 
-= $\frac{(r - p)((q - p)x + a - b(r - p))}{(q - p)(r - p)}$
+= $
 
-= $\frac{a(q - r) + b(r - p)}{q - p}$
+= $\frac{{a(q - r) + b(r - p)}{q - p}}{\frac{a(q - r) + b(r - p)}{q - p}} 
 
- - **Answer:** $\frac{a(q - r) + b(r - p)}{q - p}$
+ - **Answer:** $
  - **Q3:** If $S_n$ denotes the \sum of $n$ terms of an A.P., then the value of $S_{30} + S_{35} - S_{40}$ is
  - **Trap:** Students often get confused between the formulas for the \sum of $n$ terms of an A.P.
  - **Solution:** 
  Let $a$ be the first term and $d$ be the common difference of the A.P. Then, we have:
  
 
-S_n = $\frac{n}{2}$ [2a + (n - 1)d]
+S_n = $\frac{{n}{2}}{\frac{30}{2}}  [2a + (n - 1)d]
 
-\Rightarrow quad S_{30} = $\frac{30}{2}$ [2a + (30 - 1)d] = 15(2a + 29d)
+\Rightarrow quad S_{30} = $ [2a + (30 - 1)d] = 15(2a + 29d)
 
-\Rightarrow quad S_{35} = $\frac{35}{2} [2a + (35 - 1)d] = $$\frac{35}{2}$ (2a + 34d)
+\Rightarrow quad S_{35} = $1 \frac{35}{2}$ (2a + 34d)
 
-\Rightarrow quad S_{40} = $\frac{40}{2}$ [2a + (40 - 1)d] = 20(2a + 39d)
+\Rightarrow quad S_{40} = $\frac{{40}{2}}{\frac{35}{2}}  [2a + (40 - 1)d] = 20(2a + 39d)
 
  Now, we have:
  
 
-S_{30} + S_{35} - S_{40} = 15(2a + 29d) + $\frac{35}{2}$ (2a + 34d) - 20(2a + 39d)
+S_{30} + S_{35} - S_{40} = 15(2a + 29d) + $ (2a + 34d) - 20(2a + 39d)
 
  
  = 30a + 435d + 35a + 595d - 40a - 780d
@@ -285,7 +285,7 @@ S_{30} + S_{35} - S_{40} = 15(2a + 29d) + $\frac{35}{2}$ (2a + 34d) - 20(2a + 39
 
 - **The Core Concept:** The concept of arithmetic progressions (AP) and its [application](/blog/application-of-derivatives-class-12-notes) in solving problems is a crucial topic in mathematics. One deep concept that separates 85% scorers from 95% scorers is the understanding of the relationship between the terms of an AP and the ability to apply it to complex problems. 
  - **What 85% scorers do:** Most students can solve basic problems related to AP, such as finding the $n^{th}$ term, the \sum of $n$ terms, and the relationship between the terms. However, they often strugg\le with complex problems that involve the application of AP concepts to real-world scenarios or abstract mathematical problems. They might use the basic formulas such as $a_n = a_1 + (n-1)d$ and $S_n = \frac{n}{2}(a_1 + a_n)$, but they might not fully understand the implications of these formulas or how to apply them in novel situations.
- - **What 95% scorers do:** Top scorers, on the other hand, have a deep understanding of the AP concepts and can apply them to a wide ran\ge of problems. They can recognize the relationship between AP and other mathematical concepts, such as geometry, algebra, and calculus. They can also derive complex formulas and relationships, such as the formula for the \sum of an infinite geometric series: S = $\frac{a}{1 - r}, and apply them to solve problems. Moreover, they can analyze problems from different perspectives and identify the most efficient approach to solve them. For examp\le, they can use the formula $a_n = a_1 + (n-1)d$ to find the $n^{th}$ term of an AP, and then use the formula $S_n = $\frac{n}{2}$(a_1 + a_n)$ to find the \sum of the first $n$ terms. They can also use the concept of AP to solve problems related to real-world scenarios, such as population growth, financial transactions, and scientific measurements.$
+ - **What 95% scorers do:** Top scorers, on the other hand, have a deep understanding of the AP concepts and can apply them to a wide ran\ge of problems. They can recognize the relationship between AP and other mathematical concepts, such as geometry, algebra, and calculus. They can also derive complex formulas and relationships, such as the formula for the \sum of an infinite geometric series: S = $\frac{{a}{1 - r}, and apply them to solve problems. Moreover, they can analyze problems from different perspectives and identify the most efficient approach to solve them. For examp\le, they can use the formula }{ to find the } a_n = a_1 + (n-1)d$n^{th}$ term of an AP, and then use the formula $S_n = $\frac{{n}{2}}{ to find the \sum of the first } (a_1 + a_n)$n$ terms. They can also use the concept of AP to solve problems related to real-world scenarios, such as population growth, financial transactions, and scientific measurements.$
  - **Key Formulas and Relationships:** Some key formulas and relationships that 95% scorers use to solve AP problems include:
  * $a_n = a_1 + (n-1)d$
  * $S_n = \frac{n}{2}(a_1 + a_n)$
@@ -309,8 +309,8 @@ S_{30} + S_{35} - S_{40} = 15(2a + 29d) + $\frac{35}{2}$ (2a + 34d) - 20(2a + 39
 
 - **The Hidden Pattern:** In Arithmetic Progressions, after analyzing 5+ years of PYQs, it's evident that the \sum of $n$ terms, $S_n = \frac{n}{2}[2a + (n-1)d]$, is often used in conjunction with the formula for the $n^{th}$ term, $a_n = a + (n-1)d$. A specific pattern emerges when the problem involves finding the \sum of terms in a progression where the first term $a$, common difference $d$, and number of terms $n$ are related through a quadratic equation, such as $a = \frac{1}{d}$ and $n = \frac{-b}{2a}$, derived from $an + \frac{1}{2}dn(n-1) = b$, which simplifies to $n^2(\frac{d}{2}) + n(a - \frac{d}{2}) - b = 0$. 
  - **How to Apply It:** To apply this pattern, first identify if the problem can be translated into a quadratic equation in terms of $n$, $a$, and $d$. Then, solve the quadratic equation $n^2(\frac{d}{2}) + n(a - \frac{d}{2}) - b = 0$ for $n$ using the quadratic formula $n = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$, where $a = \frac{d}{2}$, $b = a - \frac{d}{2}$, and $c = -b$. Subsequently, use the values of $n$, $a$, and $d$ to find the \sum $S_n$.
- - **PYQ-Specific Trend:** There's a noticeab\le trend in PYQs where problems involving arithmetic progressions often require finding the \sum of terms under specific conditions, such as when the \sum of the first $n$ terms equals the \sum of the next $m$ terms. The pattern of relating $a$, $d$, and $n$ through a quadratic equation and then applying it to find sums or other properties of the progression is a recurring theme. For instance, if $S_n = S_{n+m}$, then $\frac{n}{2}[2a + (n-1)d] = \frac{m}{2}[2(a+nd) + (m-1)d]$. This trend suggests that being proficient in manipulating these equations is crucial for solving arithmetic progression problems in the exam.
- - **Calculative Strategy:** To tack\le such problems efficiently, it's essential to have a calculative strategy in place. This involves quickly identifying the type of problem and the formulas that apply. For examp\le, if the problem asks for the $n^{th}$ term of an arithmetic progression where the \sum of the first $n$ terms is given, use $S_n = \frac{n}{2}[2a + (n-1)d]$ to express $a$ in terms of $S_n$, $n$, and $d$, and then find $a_n = a + (n-1)d$. Practice in solving these types of problems will help in recognizing the patterns and applying the formulas accurately and swiftly.
+ - **PYQ-Specific Trend:** There's a noticeab\le trend in PYQs where problems involving arithmetic progressions often require finding the \sum of terms under specific conditions, such as when the \sum of the first $n$ terms equals the \sum of the next $m$ terms. The pattern of relating $a$, $d$, and $n$ through a quadratic equation and then applying it to find sums or other properties of the progression is a recurring theme. For instance, if $S_n = S_{n+m}$, then $\frac{{n}{2}[2a + (n-1)d] = \frac{m}{2}[2(a+nd) + (m-1)d]}{n^{th}} . This trend suggests that being proficient in manipulating these equations is crucial for solving arithmetic progression problems in the exam.
+ - **Calculative Strategy:** To tack\le such problems efficiently, it's essential to have a calculative strategy in place. This involves quickly identifying the type of problem and the formulas that apply. For examp\le, if the problem asks for the $ term of an arithmetic progression where the \sum of the first $n$ terms is given, use $S_n = \frac{n}{2}[2a + (n-1)d]$ to express $a$ in terms of $S_n$, $n$, and $d$, and then find $a_n = a + (n-1)d$. Practice in solving these types of problems will help in recognizing the patterns and applying the formulas accurately and swiftly.
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 

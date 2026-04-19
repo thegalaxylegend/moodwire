@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/limits-and-derivatives-class-11-revision-notes-jee.webp"
-title: "Limits and Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
-description: "Limits and Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Limits And Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
+description: "Limits And Derivatives Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/biology/limits-and-derivatives-class-11-revision-notes-jee"
@@ -80,12 +80,12 @@ How to evaluate Limits using Algebraic Manipulation? is a method to find the lim
    
    To evaluate limits using algebraic manipulation, one must first identify the type of function involved. For rational functions, the goal is to factor and cancel common factors in the numerator and denominator. If the function involves radicals, rationalizing the numerator or denominator may be necessary. 
    
-   Algebraic manipulation is crucial for solving limits of rational functions, especially when direct substitution results in an indeterminate form like $\frac{0}{0}$ or $\frac{\infty}{\infty}$. By simplifying the expression before applying the limit, students can often avoid these indeterminate forms and find the limit directly. 
+   Algebraic manipulation is crucial for solving limits of rational functions, especially when direct substitution results in an indeterminate form like $\frac{{0}{0}}{\frac{\infty}{\infty}}  or $. By simplifying the expression before applying the limit, students can often avoid these indeterminate forms and find the limit directly. 
    
-   Consider the function $f(x) = \frac{x^2 - 4}{x - 2}$. If we directly substitute $x = 2$, we get $\frac{0}{0}$, which is indeterminate. However, by factoring the numerator into $(x + 2)(x - 2)$, we can cancel the $(x - 2)$ from both the numerator and the denominator, resulting in $f(x) = x + 2$ for $x
+   Consider the function $f(x) = \frac{x^2 - 4}{x - 2}$. If we directly substitute $x = 2$, we get $\frac{{0}{0}}{(x + 2)(x - 2)} , which is indeterminate. However, by factoring the numerator into $, we can cancel the $(x - 2)$ from both the numerator and the denominator, resulting in $f(x) = x + 2$ for $x
 eq 2$. Then, the limit as $x$ approaches $2$ can be easily evaluated as $2 + 2 = 4$. 
    
-   Another critical technique is rationalizing the numerator or denominator, especially when dealing with square roots. For example, the limit of $\frac\sqrt{x + 1$ - 1}{x}$ as $x$ approaches $0$ can be evaluated by rationalizing the numerator. Multiply the numerator and denominator by the conjugate of the numerator, $$\sqrt{x + 1}$ + 1$, to eliminate the radical in the numerator. This simplifies to $$\frac{(x + 1) - 1}{x(\sqrt{x + 1} + 1)}$ = $\frac{x}{x(\sqrt{x + 1} + 1)}$ = $\frac{1}$\sqrt{x + 1$ + 1}$. Then, as $x$ approaches $0$, the limit approaches $\frac{1}\sqrt{0 + 1$ + 1} = $\frac{1}{2}$$. $
+   Another critical technique is rationalizing the numerator or denominator, especially when dealing with square roots. For example, the limit of $\frac{\sqrt{x + 1}{ as }  - 1}{x}$x$ approaches $0$ can be evaluated by rationalizing the numerator. Multiply the numerator and denominator by the conjugate of the numerator, $\sqrt{x + 1} + 1, to eliminate the radical in the numerator. This simplifies to $\frac{{(x + 1) - 1}{x(\sqrt{x + 1} + 1)} = }{\frac{1}} \frac{x}{x(\sqrt{x + 1} + 1)} = $\sqrt{x + 1$ + 1}$. Then, as $x$ approaches $0$, the limit approaches $\frac{{1}\sqrt{0 + 1}{1 . }  + 1} = $
    
    Understanding the behavior of limits as $x$ approaches positive or negative infinity is also vital. For rational functions, compare the degrees of the polynomials in the numerator and denominator. If the degrees are the same, the limit as $x$ approaches infinity is the ratio of the leading coefficients. If the degree of the numerator is less than that of the denominator, the limit is $0$. If the degree of the numerator is greater, the limit is either positive or negative infinity, depending on the signs of the leading coefficients. 
    
@@ -98,7 +98,7 @@ eq 2$. Then, the limit as $x$ approaches $2$ can be easily evaluated as $2 + 2 =
 | Factoring and Canceling | Factor expressions to cancel common factors in the numerator and denominator. | $\lim_{x \to 2} \frac{x^2 - 4}{x - 2} = \lim_{x \to 2} (x + 2) = 4$ |
 | Rationalizing the Numerator or Denominator | Multiply by the conjugate to eliminate radicals. | $\lim_{x \to 0} \frac$\sqrt{x + 1$ - 1}{x} = \lim_{x \to 0} \frac{1}$\sqrt{x + 1$ + 1} = \frac{1}{2}$ |
 | Comparing Degrees for Rational Functions | Determine the limit as $x$ approaches infinity by comparing the degrees of the numerator and denominator. | $\lim_{x \to \infty} \frac{3x^2 + 2x - 1}{2x^2 + x + 1} = \frac{3}{2}$ |
-| Using Conjugates | Eliminate radicals by multiplying the numerator and denominator by the conjugate of the expression containing the radical. | $\lim_{x \to 0} \frac$\sqrt{x$ - 0}$\sqrt{x$} = \lim_{x \to 0} \frac$\sqrt{x$ - 0}$\sqrt{x$} \cdot \frac$\sqrt{x$ + 0}$\sqrt{x$ + 0} = \lim_{x \to 0} \frac{x}{x} = 1$ |
+| Using Conjugates | Eliminate radicals by multiplying the numerator and denominator by the conjugate of the expression containing the radical. | $\lim_{x \to 0} \frac$\sqrt{x$ - 0}$\sqrt{x}$ = \lim_{x \to 0} \frac$\sqrt{x$ - 0}$\sqrt{x}$ \cdot \frac$\sqrt{x$ + 0}$\sqrt{x$ + 0} = \lim_{x \to 0} \frac{x}{x} = 1$ |
 
 
 ## <a id="what-is-the-squeeze-theorem-and-its-application-in-limits"></a>What is the Squeeze Theorem and its application in Limits?
@@ -134,9 +134,9 @@ What is Ayush's Note on Limits and Derivatives? is a detailed study guide for ca
 
 | Rule | Formula | Example |
 | --- | --- | --- |
-| Power Rule | $\frac{d}{dx} x^n = nx^{n-1}$ | $\frac{d}{dx} x^2 = 2x$ |
-| Product Rule | $\frac{d}{dx} (f(x)g(x)) = f'(x)g(x) + f(x)g'(x)$ | $\frac{d}{dx} (x^2 \sin x) = 2x \sin x + x^2 \cos x$ |
-| Quotient Rule | $\frac{d}{dx} \frac{f(x)}{g(x)} = \frac{f'(x)g(x) - f(x)g'(x)}{g(x)^2}$ | $\frac{d}{dx} \frac{x^2}{\sin x} = \frac{2x \sin x - x^2 \cos x}{\sin^2 x}$ |
+| Power Rule | $\frac{{d}{dx} x^n = nx^{n-1}}{\frac{d}{dx} x^2 = 2x}  | $ |
+| Product Rule | $\frac{{d}{dx} (f(x)g(x)) = f'(x)g(x) + f(x)g'(x)}{\frac{d}{dx} (x^2 \sin x) = 2x \sin x + x^2 \cos x}  | $ |
+| Quotient Rule | $\frac{{d}{dx} \frac{f(x)}{g(x)} = \frac{f'(x)g(x) - f(x)g'(x)}{g(x)^2}}{\frac{d}{dx} \frac{x^2}{\sin x} = \frac{2x \sin x - x^2 \cos x}{\sin^2 x}}  | $ |
 
 
 ## <a id="what-are-the-different-rules-of-differentiation"></a>What are the Different Rules of Differentiation?
@@ -154,7 +154,7 @@ What are the Different Rules of Differentiation? is a fundamental concept in cal
 
 ## <a id="how-to-apply-the-product-rule-and-quotient-rule-in-derivatives"></a>How to apply the Product Rule and Quotient Rule in Derivatives?
 
-How to apply the Product Rule and Quotient Rule in Derivatives? is a mathematical concept that deals with finding the derivative of a function that can be expressed as the product or quotient of two functions. It includes the product rule formula $\frac{d}{dx}(u \cdot v) = u'v + uv'$ and the quotient rule formula $\frac{d}{dx}(\frac{u}{v}) = \frac{vu' - uv'}{v^2}$. For Class 11 exam prep in 2026, the most important aspect is understanding how to apply these formulas to solve complex derivative problems. The product rule is used to find the derivative of a product of two functions, while the quotient rule is used to find the derivative of a quotient of two functions. Both rules are crucial in calculus and are used extensively in various mathematical and real-world applications. To apply these rules effectively, one must first identify the functions u and v, and then find their derivatives. The product rule formula is then used to find the derivative of the product of the two functions, and the quotient rule formula is used to find the derivative of the quotient of the two functions. It is essential to practice applying these rules to different types of functions, including polynomial, trigonometric, and exponential functions. By mastering the product and quotient rules, students can develop a strong foundation in calculus and improve their problem-solving skills. The following table illustrates the application of the product and quotient rules to different types of functions.
+How to apply the Product Rule and Quotient Rule in Derivatives? is a mathematical concept that deals with finding the derivative of a function that can be expressed as the product or quotient of two functions. It includes the product rule formula $\frac{{d}{dx}(u \cdot v) = u'v + uv'}{\frac{d}{dx}(\frac{u}{v}) = \frac{vu' - uv'}{v^2}}  and the quotient rule formula $. For Class 11 exam prep in 2026, the most important aspect is understanding how to apply these formulas to solve complex derivative problems. The product rule is used to find the derivative of a product of two functions, while the quotient rule is used to find the derivative of a quotient of two functions. Both rules are crucial in calculus and are used extensively in various mathematical and real-world applications. To apply these rules effectively, one must first identify the functions u and v, and then find their derivatives. The product rule formula is then used to find the derivative of the product of the two functions, and the quotient rule formula is used to find the derivative of the quotient of the two functions. It is essential to practice applying these rules to different types of functions, including polynomial, trigonometric, and exponential functions. By mastering the product and quotient rules, students can develop a strong foundation in calculus and improve their problem-solving skills. The following table illustrates the application of the product and quotient rules to different types of functions.
 
 
 | Function | Product Rule | Quotient Rule |
@@ -174,11 +174,11 @@ The Chain Rule is a fundamental principle in calculus that enables us to differe
 
 To grasp the Chain Rule, let's first understand the concept of composite functions. A composite function is a function of the form $f(g(x))$, where $f$ and $g$ are two separate functions. The Chain Rule states that the derivative of a composite function $f(g(x))$ is given by $f'(g(x)) cdot g'(x)$. This can be expressed mathematically as: 
 
-$\frac{d}{dx}$f(g(x)) = f'(g(x)) cdot g'(x)
+$\frac{{d}{dx}}{f} f(g(x)) = f'(g(x)) cdot g'(x)
 
 
 
-To apply the Chain Rule, we need to identify the outer and inner functions. The outer function is the function $f$ that is being applied to the inner function $g(x)$. For example, in the composite function $f(g(x)) = sin(x^2)$, the outer function is $sin(u)$ and the inner function is $u = x^2$.
+To apply the Chain Rule, we need to identify the outer and inner functions. The outer function is the function $ that is being applied to the inner function $g(x)$. For example, in the composite function $f(g(x)) = sin(x^2)$, the outer function is $sin(u)$ and the inner function is $u = x^2$.
 
 Here are some key steps to apply the Chain Rule:
 1. Identify the outer and inner functions.
@@ -197,7 +197,7 @@ The Chain Rule can be applied to various types of functions, including polynomia
 | $f(x) = cos(3x)$ | $cos(u)$ | $u = 3x$ | $-sin(u)$ | $3$ | $-3sin(3x)$ |
 | $f(x) = e^{2x}$ | $e^u$ | $u = 2x$ | $e^u$ | $2$ | $2e^{2x}$ |
 | $f(x) = (2x+1)^5$ | $u^5$ | $u = 2x+1$ | $5u^4$ | $2$ | $10(2x+1)^4$ |
-| $f(x) = 	an(x^2)$ | $	an(u)$ | $u = x^2$ | $sec^2(u)$ | $2x$ | $2xsec^2(x^2)$ |
+| $f(x) = \tan(x^2)$ | $\tan(u)$ | $u = x^2$ | $sec^2(u)$ | $2x$ | $2xsec^2(x^2)$ |
 
 
 ## <a id="what-is-the-key-shortcut-or-trick-for-limits-and-derivatives"></a>What is the key Shortcut or Trick for Limits and Derivatives?
@@ -215,8 +215,8 @@ The following table summarizes the key shortcuts for limits and derivatives:
 
 | Technique | Formula | Example |
 | --- | --- | --- |
-| Factoring | Cancel common factors | lim (x->2) (x^2-4)/(x-2) = lim (x->2) (x+2) = 4 |
-| L'Hospital's rule | lim (x->a) f(x)/g(x) = lim (x->a) f'(x)/g'(x) | lim (x->0) sin(x)/x = lim (x->0) cos(x) = 1 |
+| Factoring | Cancel common factors | \lim (x->2) (x^2-4)/(x-2) = \lim (x->2) (x+2) = 4 |
+| L'Hospital's rule | \lim (x->a) f(x)/g(x) = \lim (x->a) f'(x)/g'(x) | \lim (x->0) sin(x)/x = \lim (x->0) cos(x) = 1 |
 | Power rule | f'(x) = nx^{n-1} | if f(x) = x^2, then f'(x) = 2x |
 | Product rule | f'(x) = u'(x)v(x) + u(x)v'(x) | if f(x) = x^2sin(x), then f'(x) = 2xsin(x) + x^2cos(x) |
 | Quotient rule | f'(x) = (u'(x)v(x) - u(x)v'(x))/v(x)^2 | if f(x) = sin(x)/x, then f'(x) = (xcos(x) - sin(x))/x^2 |
@@ -229,7 +229,7 @@ What are common Trap Questions for Limits and Derivatives? is a critical aspect 
 
 To tackle these questions, it's essential to have a solid grasp of basic limit and derivative properties, including linearity, homogeneity, and the chain rule. Many students struggle with applying these properties correctly, especially when dealing with complex functions or trigonometric expressions. For instance, when evaluating the limit of a function as $x$ approaches infinity, students often forget to consider the behavior of the function's numerator and denominator separately.
 
-One common trap question involves evaluating the limit of a function that appears to be in an indeterminate form. Consider the function $f(x) = \frac{sin x}{x}$ as $x$ approaches 0. Many students might incorrectly apply L'Hospital's rule, which states that for certain types of indeterminate forms, the limit can be evaluated by taking the derivative of the numerator and denominator separately. However, in this case, the function is not in an indeterminate form, and the limit can be evaluated directly using the fundamental trigonometric limit $lim_{x 	o 0} \frac{sin x}{x} = 1$.
+One common trap question involves evaluating the limit of a function that appears to be in an indeterminate form. Consider the function $f(x) = \frac{\sin x}{x}$ as $x$ approaches 0. Many students might incorrectly apply L'Hospital's rule, which states that for certain types of indeterminate forms, the limit can be evaluated by taking the derivative of the numerator and denominator separately. However, in this case, the function is not in an indeterminate form, and the limit can be evaluated directly using the fundamental trigonometric limit $lim_{x 	o 0} \frac{\sin x}{x} = 1$.
 
 Another common pitfall is misunderstanding the concept of continuity and its relationship to limits. A function $f(x)$ is said to be continuous at a point $x = a$ if the following conditions are met: (1) $f(a)$ is defined, (2) $lim_{x 	o a} f(x)$ exists, and (3) $lim_{x 	o a} f(x) = f(a)$. Students often struggle to apply these conditions correctly, especially when dealing with piecewise functions or functions with removable discontinuities.
 
@@ -244,7 +244,7 @@ The following table summarizes some common trap questions for limits and derivat
 
 | Trap Question | Common Mistake | Correct Approach |
 | --- | --- | --- |
-| Evaluating the limit of $f(x) = \frac{sin x}{x}$ as $x$ approaches 0 | Applying L'Hospital's rule incorrectly | Using the fundamental trigonometric limit $lim_{x 	o 0} \frac{sin x}{x} = 1$ |
+| Evaluating the limit of $f(x) = \frac{\sin x}{x}$ as $x$ approaches 0 | Applying L'Hospital's rule incorrectly | Using the fundamental trigonometric limit $lim_{x 	o 0} \frac{\sin x}{x} = 1$ |
 | Determining the continuity of a piecewise function | Forgetting to check the conditions for continuity | Verifying that $f(a)$ is defined, $lim_{x 	o a} f(x)$ exists, and $lim_{x 	o a} f(x) = f(a)$ |
 | Applying the chain rule to find the derivative of $f(x) = (2x + 1)^3$ | Forgetting to multiply the outer derivative by the inner derivative | Using the correct chain rule formula: $f'(x) = 3(2x + 1)^2 cdot 2 = 6(2x + 1)^2$ |
 | Evaluating the limit of $f(x) = \frac{1}{x}$ as $x$ approaches infinity | Forgetting to consider the behavior of the function's numerator and denominator | Recognizing that the limit approaches 0 as $x$ approaches infinity |

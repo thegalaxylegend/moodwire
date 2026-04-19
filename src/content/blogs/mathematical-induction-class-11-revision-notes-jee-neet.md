@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/mathematical-induction-class-11-revision-notes-jee-neet.webp"
-title: "Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Mathematical Induction Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Mathematical Induction Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
+description: "Mathematical Induction Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/physics/mathematical-induction-class-11-revision-notes-jee-neet"
@@ -75,10 +75,10 @@ To solve any induction problem, you must follow these [three](/blog/three-dimens
 
 ### <a id="pillar-1-the-base-case"></a>Pillar 1: The Base Case
 Check if the result holds for the smallest value of $n$ (usually $n=1$).
-*Example:* If the formula is $1+2+...+n = \frac{n(n+1)}{2}$, check for $n=1$. L.H.S = 1, R.H.S = $\frac{1(2)}{2} = 1$. It holds!
+*Example:* If the formula is $1+2+...+n = \frac{n(n+1)}{2}$, check for $n=1$. L.H.S = 1, R.H.S = $\frac{{1(2)}{2} = 1}{n = k} . It holds!
 
 ### <a id="pillar-2-the-inductive-hypothesis"></a>Pillar 2: The Inductive Hypothesis
-Assume that the statement is true for $n = k$, where $k$ is some positive integer.
+Assume that the statement is true for $, where $k$ is some positive integer.
 *Crucial:* You don't prove this; you **assume** it to build the ladder for the next step.
 
 ### <a id="pillar-3-the-inductive-step"></a>Pillar 3: The Inductive Step
@@ -88,7 +88,7 @@ Prove that the statement holds for $n = k+1$ using the assumption from Pillar 2.
 
 ## <a id="3-types-of-induction-problems"></a>3. Types of Induction Problems
 
-1. **Summation Identities:** Proving the sum of a series (e.g., sum of squares $1^2+2^2+...+n^2$).
+1. **Summation Identities:** Proving the \sum of a series (e.g., \sum of squares $1^2+2^2+...+n^2$).
 2. **Divisibility Rules:** Proving that an expression is divisible by a certain number for all $n$ (e.g., $7^n - 3^n$ is divisible by 4).
 3. **Inequalities:** Proving that one expression grows faster than another (e.g., $2^n > n$).
 

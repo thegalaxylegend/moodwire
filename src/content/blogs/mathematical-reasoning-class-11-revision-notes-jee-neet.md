@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/mathematical-reasoning-class-11-revision-notes-jee-neet.webp"
-title: "Mathematical Reasoning Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Mathematical Reasoning Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Mathematical Reasoning Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
+description: "Mathematical Reasoning Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/physics/mathematical-reasoning-class-11-revision-notes-jee-neet"
@@ -67,7 +67,7 @@ Mathematics is built on a foundation of absolute truth and rigorous logic.
 ## <a id="1-mathematical-statements"></a>1. Mathematical Statements
 
 Not every sentence is a "statement" in the [mathematical](/blog/mathematical-induction-class-11-revision-notes-jee-neet) sense. 
-- **Is a Statement:** "10 is an even number" (True), "The sum of angles in a triangle is 180°" (True).
+- **Is a Statement:** "10 is an even number" (True), "The \sum of angles in a triangle is 180°" (True).
 - **NOT a Statement:** "How are you?" (Question), "Mathematics is difficult" (Subjective), "Open the door" (Command), "He is a tall man" (Relative).
 
 ### <a id="negation-of-a-statement-p"></a>Negation of a Statement (~p):

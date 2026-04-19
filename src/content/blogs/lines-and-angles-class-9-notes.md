@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/lines-and-angles-class-9-notes.webp"
-title: "Lines and Angles Class 9 Mathematics Recap — Grandmaster Guide"
-description: "Lines and Angles Class 9 Mathematics Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-14."
+title: "Lines And Angles 9 Class 9 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Lines And Angles 9 Class 9 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Exam Notes"
 date: "2026-04-14"
 practice_link: "/class-9/mathematics/lines-and-angles"
@@ -21,16 +21,16 @@ manualReview: false
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Slope (m) of a Line:** m = rac{y_2 - y_1}{x_2 - x_1} — where $m$ is the slope of the line passing through points $(x_1, y_1)$ and $(x_2, y_2)$.
+- **Slope (m) of a Line:** m = \frac{y_2 - y_1}{x_2 - x_1} — where $m$ is the slope of the line passing through points $(x_1, y_1)$ and $(x_2, y_2)$.
  - **Slope-Intercept Form of a Line:** y = mx + c — where $m$ is the slope of the line and $c$ is the $y$-intercept.
  - **Point-Slope Form of a Line:** y - y_1 = m(x - x_1) — where $m$ is the slope of the line and $(x_1, y_1)$ is a point on the line.
- - **Two-Point Form of a Line:** y - y_1 = rac{y_2 - y_1}{x_2 - x_1}(x - x_1) — where $(x_1, y_1)$ and $(x_2, y_2)$ are two points on the line.
- - **Equation of a Line in Normal Form:** x cos \alpha + y sin \alpha = p — where $p$ is the length of the perpendicular from the origin to the line, and $\alpha$ is the angle between the perpendicular and the positive $x$-axis.
- - **Distance between a Point and a Line:** d = rac{|Ax + By + C|}{sqrt{A^2 + B^2}} — where $Ax + By + C = 0$ is the equation of the line, and $(x, y)$ is the point.
- - **Angle between Two Lines:** 	an 	heta = left| rac{m_1 - m_2}{1 + m_1 m_2} ight| — where $m_1$ and $m_2$ are the slopes of the two lines.
+ - **Two-Point Form of a Line:** y - y_1 = \frac{y_2 - y_1}{x_2 - x_1}(x - x_1) — where $(x_1, y_1)$ and $(x_2, y_2)$ are two points on the line.
+ - **Equation of a Line in Normal Form:** x \cos \alpha + y \sin \alpha = p — where $p$ is the length of the perpendicular from the origin to the line, and $\alpha$ is the angle between the perpendicular and the positive $x$-axis.
+ - **Distance between a Point and a Line:** d = \frac{|Ax + By + C|}{\sqrt{A^2 + B^2}} — where $Ax + By + C = 0$ is the equation of the line, and $(x, y)$ is the point.
+ - **Angle between Two Lines:** \tan \theta = left| \frac{m_1 - m_2}{1 + m_1 m_2} ight| — where $m_1$ and $m_2$ are the slopes of the two lines.
  - **Condition for Parallel Lines:** m_1 = m_2 — where $m_1$ and $m_2$ are the slopes of the two lines.
  - **Condition for Perpendicular Lines:** m_1 m_2 = -1 — where $m_1$ and $m_2$ are the slopes of the two lines.
- - **Length of the Perpendicular from a Point to a Line:** d = rac{|y_1 - m x_1 - c|}{sqrt{m^2 + 1}} — where $(x_1, y_1)$ is the point and $y = mx + c$ is the equation of the line.
+ - **Length of the Perpendicular from a Point to a Line:** d = \frac{|y_1 - m x_1 - c|}{\sqrt{m^2 + 1}} — where $(x_1, y_1)$ is the point and $y = mx + c$ is the equation of the line.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -83,54 +83,54 @@ manualReview: false
 
 - **The Core Concept:** The concept of angle \sum property in a triangle and its [application](/blog/application-of-derivatives-class-12-notes) in solving problems related to lines and angles.
 
-- **What 85% scorers do:** They simply memorize the angle \sum property of a triangle, which states that the \sum of all angles of a triangle is $180^circ$. They can easily solve basic problems but struggle when it comes to applying this concept in complex problems involving multiple angles and lines.
+- **What 85% scorers do:** They simply memorize the angle \sum property of a triangle, which states that the \sum of all angles of a triangle is $180^{\circ}$. They can easily solve basic problems but struggle when it comes to applying this concept in complex problems involving multiple angles and lines.
 
-- **What 95% scorers do:** They not only memorize the angle \sum property but also understand its proof and application in different scenarios. They can derive the formula for the angle \sum property using the concept of parallel lines and transversals. They know that when a transversal intersects two parallel lines, the alternate interior angles are equal, and the \sum of the interior angles on the same side of the transversal is $180^circ$. They can apply this concept to solve complex problems involving multiple angles and lines. For example, they can use the formula $a + b + c = 180^circ$ to find the value of the third angle in a triangle when the other two angles are given. 
+- **What 95% scorers do:** They not only memorize the angle \sum property but also understand its proof and application in different scenarios. They can derive the formula for the angle \sum property using the concept of parallel lines and transversals. They know that when a transversal intersects two parallel lines, the alternate interior angles are equal, and the \sum of the interior angles on the same side of the transversal is $180^{\circ}$. They can apply this concept to solve complex problems involving multiple angles and lines. For example, they can use the formula $a + b + c = 180^{\circ}$ to find the value of the third angle in a triangle when the other two angles are given. 
  They also understand that the angle \sum property can be used to find the value of exterior angles of a triangle.
 
 - **The exterior angle of a triangle is equal to the \sum of the two opposite interior angles, which can be expressed as:** $\angle A + \angle B = \angle C$. They can use this concept to solve problems involving exterior angles of a triangle.
  Additionally, 95% scorers are proficient in using the concept of angle \sum property to solve problems involving [quadrilaterals](/blog/quadrilaterals-class-9-notes) and polygons.
 
-- **They know that the \sum of the interior angles of a quadrilateral is $360^circ$ and the \sum of the interior angles of a polygon with $n$ sides is given by the formula:** $(n-2) \times 180^circ$. 
+- **They know that the \sum of the interior angles of a quadrilateral is $360^{\circ}$ and the \sum of the interior angles of a polygon with $n$ sides is given by the formula:** $(n-2) \times 180^{\circ}$. 
  They can apply this concept to solve complex problems involving [quadrilaterals](/blog/quadrilaterals-class-9-notes) and polygons.
 
 | Concept | Formula |
 | --- | --- |
-| Angle Sum Property of a Triangle | $a + b + c = 180^circ$ |
+| Angle Sum Property of a Triangle | $a + b + c = 180^{\circ}$ |
 | Exterior Angle of a Triangle | $\angle A + \angle B = \angle C$ |
-| Sum of Interior Angles of a Quadrilateral | $360^circ$ |
-| Sum of Interior Angles of a Polygon with $n$ sides | $(n-2) \times 180^circ$ |
+| Sum of Interior Angles of a Quadrilateral | $360^{\circ}$ |
+| Sum of Interior Angles of a Polygon with $n$ sides | $(n-2) \times 180^{\circ}$ |
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-- **The Hidden Pattern:** In the chapter on Lines and Angles, a recurring pattern observed in PYQs is the frequent appearance of $45^circ$-$45^circ$-$90^circ$ and $30^circ$-$60^circ$-$90^circ$ triangles. These special triangles are often used to find the length of sides, the measure of angles, or to prove geometric properties.
+- **The Hidden Pattern:** In the chapter on Lines and Angles, a recurring pattern observed in PYQs is the frequent appearance of $45^{\circ}$-$45^{\circ}$-$90^{\circ}$ and $30^{\circ}$-$60^{\circ}$-$90^{\circ}$ triangles. These special triangles are often used to find the length of sides, the measure of angles, or to prove geometric properties.
 
-- **The ratio of sides in these triangles, such as $1:1:sqrt{2}$ for $45^circ$-$45^circ$-$90^circ$ triangles and $1:sqrt{3}:** 2$ for $30^circ$-$60^circ$-$90^circ$ triangles, are crucial and can be used to solve a variety of problems.
+- **The ratio of sides in these triangles, such as $1:1:\sqrt{2}$ for $45^{\circ}$-$45^{\circ}$-$90^{\circ}$ triangles and $1:\sqrt{3}:** 2$ for $30^{\circ}$-$60^{\circ}$-$90^{\circ}$ triangles, are crucial and can be used to solve a variety of problems.
 
 - **How to Apply It:** To apply this pattern, students should first identify if the given problem involves any of these special triangles. Then, they can use the properties of these triangles to find the required length or angle.
 
-- **For instance, if a problem involves a right-angled triangle with one angle measuring $45^circ$, the student should recognize the $45^circ$-$45^circ$-$90^circ$ pattern and apply the ratio $1:1:** sqrt{2}$ to find the length of the sides.
+- **For instance, if a problem involves a right-angled triangle with one angle measuring $45^{\circ}$, the student should recognize the $45^{\circ}$-$45^{\circ}$-$90^{\circ}$ pattern and apply the ratio $1:1:** \sqrt{2}$ to find the length of the sides.
 
-- **Similarly, for $30^circ$-$60^circ$-$90^circ$ triangles, the ratio $1:sqrt{3}:** 2$ can be applied.
+- **Similarly, for $30^{\circ}$-$60^{\circ}$-$90^{\circ}$ triangles, the ratio $1:\sqrt{3}:** 2$ can be applied.
 
-- **PYQ-Specific Trend:** A trend observed in PYQs is that problems often involve the intersection of two lines or the relationship between angles formed when a transversal intersects two lines. Students should be able to identify and apply the properties of vertically opposite angles, corresponding angles, alternate interior angles, and alternate exterior angles to solve these problems. Furthermore, the use of angle \sum property of triangles ($angle A + angle B + angle C = 180^circ$) and the exterior angle theorem ($angle A = angle B + angle C$) are also frequently tested.
+- **PYQ-Specific Trend:** A trend observed in PYQs is that problems often involve the intersection of two lines or the relationship between angles formed when a transversal intersects two lines. Students should be able to identify and apply the properties of vertically opposite angles, corresponding angles, alternate interior angles, and alternate exterior angles to solve these problems. Furthermore, the use of angle \sum property of triangles ($angle A + angle B + angle C = 180^{\circ}$) and the exterior angle theorem ($angle A = angle B + angle C$) are also frequently tested.
 
-- **Formula and Theorems:** Some essential formulas and theorems that students should be familiar with include the $tan(	heta) = rac{opposite}{adjacent}$, $sin(	heta) = rac{opposite}{hypotenuse}$, and $cos(	heta) = rac{adjacent}{hypotenuse}$. Additionally, theorems such as the angle \sum property of triangles and the exterior angle theorem should be at their fingertips to tackle problems efficiently.
+- **Formula and Theorems:** Some essential formulas and theorems that students should be familiar with include the $tan(\theta) = \frac{opposite}{adjacent}$, $sin(\theta) = \frac{opposite}{hypotenuse}$, and $cos(\theta) = \frac{adjacent}{hypotenuse}$. Additionally, theorems such as the angle \sum property of triangles and the exterior angle theorem should be at their fingertips to tackle problems efficiently.
 
 | Triangle Type | Angle Measures | Side Ratios |
 | --- | --- | --- |
-| $45^circ$-$45^circ$-$90^circ$ | $45^circ$, $45^circ$, $90^circ$ | $1:1:sqrt{2}$ |
-| $30^circ$-$60^circ$-$90^circ$ | $30^circ$, $60^circ$, $90^circ$ | $1:sqrt{3}:2$ |
+| $45^{\circ}$-$45^{\circ}$-$90^{\circ}$ | $45^{\circ}$, $45^{\circ}$, $90^{\circ}$ | $1:1:\sqrt{2}$ |
+| $30^{\circ}$-$60^{\circ}$-$90^{\circ}$ | $30^{\circ}$, $60^{\circ}$, $90^{\circ}$ | $1:\sqrt{3}:2$ |
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- $m_1 + m_2 = {180^circ}$ for two lines to be perpendicular.
+- $m_1 + m_2 = {180^{\circ}}$ for two lines to be perpendicular.
 
 - $m_1 cdot m_2 = -1$ for two lines to be perpendicular.
 
-- ${	heta = 90^circ}$ for a right angle between two lines.
+- ${\theta = 90^{\circ}}$ for a right angle between two lines.
 
-- $m = {tan	heta}$ for slope of a line.
+- $m = {tan\theta}$ for slope of a line.
 
 - ${y 
 

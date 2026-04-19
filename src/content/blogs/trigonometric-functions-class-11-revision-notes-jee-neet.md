@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/trigonometric-functions-class-11-revision-notes-jee-neet.webp"
-title: "trigonometric functions class 11 revision notes jee neet Class 10 Exam Notes Recap — Grandmaster Guide"
-description: "trigonometric functions class 11 revision notes jee neet Class 10 Exam Notes Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-17."
+title: "Trigonometric Functions Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
+description: "Trigonometric Functions Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Exam Notes"
 date: "2026-04-17"
 practice_link: "/class-10/exam notes/trigonometric-functions-class-11-revision-notes-jee-neet"
@@ -21,7 +21,7 @@ manualReview: false
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Pythagorean Identity:** sin^2{x} + cos^2{x} = 1 — $x$ is the angle in radians or degrees, $sin{x}$ is the sine of $x$, and $cos{x}$ is the cosine of $x$,- **Sum and Difference Formulas for Sine:** sin{(a + b)} = sin{a}cos{b} + cos{a}sin{b} — $a$ and $b$ are angles in radians or degrees, $sin{a}$ and $sin{b}$ are the sines of $a$ and $b$, $cos{a}$ and $cos{b}$ are the cosines of $a$ and $b$,- **Sum and Difference Formulas for Cosine:** cos{(a + b)} = cos{a}cos{b} - sin{a}sin{b} — $a$ and $b$ are angles in radians or degrees, $sin{a}$ and $sin{b}$ are the sines of $a$ and $b$, $cos{a}$ and $cos{b}$ are the cosines of $a$ and $b$,- **Sum and Difference Formulas for Tangent:** 	an{(a + b)} = rac{	an{a} + 	an{b}}{1 - 	an{a}	an{b}} — $a$ and $b$ are angles in radians or degrees, $	an{a}$ and $	an{b}$ are the tangents of $a$ and $b$,- **Double Angle Formulas for Sine:** sin{2x} = 2sin{x}cos{x} — $x$ is the angle in radians or degrees, $sin{x}$ is the sine of $x$, and $cos{x}$ is the cosine of $x$,- **Double Angle Formulas for Cosine:** cos{2x} = cos^2{x} - sin^2{x} — $x$ is the angle in radians or degrees, $sin{x}$ is the sine of $x$, and $cos{x}$ is the cosine of $x$,- **Double Angle Formulas for Tangent:** 	an{2x} = rac{2	an{x}}{1 - 	an^2{x}} — $x$ is the angle in radians or degrees, $	an{x}$ is the tangent of $x$,- **Half Angle Formulas for Sine:** sin{rac{x}{2}} = \pm sqrt{rac{1 - cos{x}}{2}} — $x$ is the angle in radians or degrees, $sin{rac{x}{2}}$ is the sine of $rac{x}{2}$, and $cos{x}$ is the cosine of $x$,- **Half Angle Formulas for Cosine:** cos{rac{x}{2}} = \pm sqrt{rac{1 + cos{x}}{2}} — $x$ is the angle in radians or degrees, $cos{rac{x}{2}}$ is the cosine of $rac{x}{2}$, and $cos{x}$ is the cosine of $x$,- **Half Angle Formulas for Tangent:** 	an{rac{x}{2}} = rac{1 - cos{x}}{sin{x}} — $x$ is the angle in radians or degrees, $	an{rac{x}{2}}$ is the tangent of $rac{x}{2}$, $cos{x}$ is the cosine of $x$, and $sin{x}$ is the sine of $x$,- **Product to Sum Formulas:** sin{a}cos{b} = rac{1}{2}[sin{(a + b)} + sin{(a - b)}] — $a$ and $b$ are angles in radians or degrees, $sin{a}$ and $sin{b}$ are the sines of $a$ and $b$, $cos{a}$ and $cos{b}$ are the cosines of $a$ and $b$,- **Inverse Trigonometric Functions:** sin^{-1}{x} = 	heta 	ext{ such that } sin{	heta} = x — $sin^{-1}{x}$ is the inverse sine of $x$,- **Identities Involving the Inverse Trigonometric Functions:** sin^{-1}{x} + cos^{-1}{x} = rac{pi}{2} — $x$ is a real number between $-1$ and $1$
+- **Pythagorean Identity:** sin^2{x} + cos^2{x} = 1 — $x$ is the angle in radians or degrees, $sin{x}$ is the sine of $x$, and $cos{x}$ is the cosine of $x$,- **Sum and Difference Formulas for Sine:** \sin{(a + b)} = \sin{a}\cos{b} + \cos{a}\sin{b} — $a$ and $b$ are angles in radians or degrees, $sin{a}$ and $sin{b}$ are the sines of $a$ and $b$, $cos{a}$ and $cos{b}$ are the cosines of $a$ and $b$,- **Sum and Difference Formulas for Cosine:** \cos{(a + b)} = \cos{a}\cos{b} - \sin{a}\sin{b} — $a$ and $b$ are angles in radians or degrees, $sin{a}$ and $sin{b}$ are the sines of $a$ and $b$, $cos{a}$ and $cos{b}$ are the cosines of $a$ and $b$,- **Sum and Difference Formulas for Tangent:** \tan{(a + b)} = \frac{\tan{a} + \tan{b}}{1 - \tan{a}\tan{b}} — $a$ and $b$ are angles in radians or degrees, $\tan{a}$ and $\tan{b}$ are the tangents of $a$ and $b$,- **Double Angle Formulas for Sine:** \sin{2x} = 2\sin{x}\cos{x} — $x$ is the angle in radians or degrees, $sin{x}$ is the sine of $x$, and $cos{x}$ is the cosine of $x$,- **Double Angle Formulas for Cosine:** \cos{2x} = cos^2{x} - sin^2{x} — $x$ is the angle in radians or degrees, $sin{x}$ is the sine of $x$, and $cos{x}$ is the cosine of $x$,- **Double Angle Formulas for Tangent:** \tan{2x} = \frac{2\tan{x}}{1 - \tan^2{x}} — $x$ is the angle in radians or degrees, $\tan{x}$ is the tangent of $x$,- **Half Angle Formulas for Sine:** \sin{\frac{x}{2}} = \pm \sqrt{\frac{1 - \cos{x}}{2}} — $x$ is the angle in radians or degrees, $sin{\frac{x}{2}}$ is the sine of $\frac{x}{2}$, and $cos{x}$ is the cosine of $x$,- **Half Angle Formulas for Cosine:** \cos{\frac{x}{2}} = \pm \sqrt{\frac{1 + \cos{x}}{2}} — $x$ is the angle in radians or degrees, $cos{\frac{x}{2}}$ is the cosine of $\frac{x}{2}$, and $cos{x}$ is the cosine of $x$,- **Half Angle Formulas for Tangent:** \tan{\frac{x}{2}} = \frac{1 - \cos{x}}{\sin{x}} — $x$ is the angle in radians or degrees, $\tan{\frac{x}{2}}$ is the tangent of $\frac{x}{2}$, $cos{x}$ is the cosine of $x$, and $sin{x}$ is the sine of $x$,- **Product to Sum Formulas:** \sin{a}\cos{b} = \frac{1}{2}[\sin{(a + b)} + \sin{(a - b)}] — $a$ and $b$ are angles in radians or degrees, $sin{a}$ and $sin{b}$ are the sines of $a$ and $b$, $cos{a}$ and $cos{b}$ are the cosines of $a$ and $b$,- **Inverse Trigonometric Functions:** sin^{-1}{x} = \theta \text{ such that } \sin{\theta} = x — $sin^{-1}{x}$ is the inverse sine of $x$,- **Identities Involving the Inverse Trigonometric Functions:** sin^{-1}{x} + cos^{-1}{x} = \frac{pi}{2} — $x$ is a real number between $-1$ and $1$
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -34,13 +34,13 @@ manualReview: false
 
 {
  "heading": "✏️ 3 Solved PYQs",
- "body": "- **Q1:** Prove that $\frac{\sin \theta - 2\sin^3 \theta}{2\cos^3 \theta - \cos \theta} = \tan \theta$.
+ "body": "- **Q1:** Prove that $\frac{{\sin \theta - 2\sin^3 \theta}{2\cos^3 \theta - \cos \theta} = \tan \theta}{\sin} .
  - **Trap:**
- - Students often forget to factor out common terms like $\sin$}
+ - Students often forget to factor out common terms like $}
 
 ## <a id="-the-one-thing-most-students-get-wrong"></a>🧠 The One Thing Most Students Get Wrong
 
-- **The Core Concept:** The core concept that separates 85% scorers from 95% scorers in trigonometric functions is the ability to apply the $R$-formula or the transformation formula to simplify complex expressions and solve problems efficiently. This involves understanding how to express $a sin x + b cos x$ in the form $R sin (x + \alpha)$ or $R cos (x + \alpha)$, where $R = sqrt{a^2 + b^2}$ and $\alpha = 	an^{-1} rac{b}{a}$.
+- **The Core Concept:** The core concept that separates 85% scorers from 95% scorers in trigonometric functions is the ability to apply the $R$-formula or the transformation formula to simplify complex expressions and solve problems efficiently. This involves understanding how to express $a \sin x + b \cos x$ in the form $R \sin (x + \alpha)$ or $R \cos (x + \alpha)$, where $R = \sqrt{a^2 + b^2}$ and $\alpha = \tan^{-1} \frac{b}{a}$.
 
 - **What 85% scorers do:** 
  * Most students who score around 85% are able to recall the basic trigonometric identities and formulas.
@@ -49,29 +49,29 @@ manualReview: false
 
 - **What 95% scorers do:** 
  * Students who score 95% or higher have a thorough grasp of the $R$-formula and its applications.
- * They can quickly simplify expressions like $a sin x + b cos x$ into the form $R sin (x + \alpha)$, where $R = sqrt{a^2 + b^2}$ and $\alpha$ is found using $	an \alpha = rac{b}{a}$.
+ * They can quickly simplify expressions like $a \sin x + b \cos x$ into the form $R \sin (x + \alpha)$, where $R = \sqrt{a^2 + b^2}$ and $\alpha$ is found using $\tan \alpha = \frac{b}{a}$.
  * They understand the geometric interpretation of the $R$-formula, recognizing that it represents a transformation of the sine or cosine function, including a shift along the x-axis and a scaling factor.
  * They are adept at applying this understanding to solve a wide range of problems, including those that involve complex expressions, equations, or identities.
- * They also recognize when to use the $R$-formula in reverse, starting with an expression in the form $R sin (x + \alpha)$ and expressing it in terms of $a sin x + b cos x$.
+ * They also recognize when to use the $R$-formula in reverse, starting with an expression in the form $R \sin (x + \alpha)$ and expressing it in terms of $a \sin x + b \cos x$.
  * The key to their success lies in practice and a deep understanding of the underlying principles, allowing them to approach problems with confidence and accuracy.
 
 | Concept | Description |
 | --- | --- |
-| $R$-formula | Transformation formula to simplify $a sin x + b cos x$ into $R sin (x + \alpha)$ |
-| $R$ calculation | $R = sqrt{a^2 + b^2}$ |
-| $\alpha$ calculation | $\alpha = 	an^{-1} rac{b}{a}$ |
+| $R$-formula | Transformation formula to simplify $a \sin x + b \cos x$ into $R \sin (x + \alpha)$ |
+| $R$ calculation | $R = \sqrt{a^2 + b^2}$ |
+| $\alpha$ calculation | $\alpha = \tan^{-1} \frac{b}{a}$ |
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-- **The Hidden Pattern:** trigonometric functions for JEE and NEET, a pattern emerges when considering the derivative of $sin^{-1}x$ and $cos^{-1}x$. The derivative of $sin^{-1}x$ is $rac{1}{sqrt{1-x^2}}$, while the derivative of $cos^{-1}x$ is $-rac{1}{sqrt{1-x^2}}$. This pattern is critical in solving problems related to inverse trigonometric functions.
+- **The Hidden Pattern:** trigonometric functions for JEE and NEET, a pattern emerges when considering the derivative of $sin^{-1}x$ and $cos^{-1}x$. The derivative of $sin^{-1}x$ is $\frac{1}{\sqrt{1-x^2}}$, while the derivative of $cos^{-1}x$ is $-\frac{1}{\sqrt{1-x^2}}$. This pattern is critical in solving problems related to inverse trigonometric functions.
 
-- **How to Apply It:** To apply this pattern, it's essential to recognize that the derivatives of inverse trigonometric functions can be used to solve problems involving the derivative of composite functions. For instance, given a function like $y = sin^{-1}(3x^2)$, we can use the chain rule in conjunction with the derivative of $sin^{-1}x$ to find $rac{dy}{dx}$. The formula for $rac{dy}{dx}$ in this case would be $rac{1}{sqrt{1-(3x^2)^2}} cdot rac{d}{dx}(3x^2)$, which simplifies to $rac{6x}{sqrt{1-9x^4}}$.
+- **How to Apply It:** To apply this pattern, it's essential to recognize that the derivatives of inverse trigonometric functions can be used to solve problems involving the derivative of composite functions. For instance, given a function like $y = sin^{-1}(3x^2)$, we can use the chain rule in conjunction with the derivative of $sin^{-1}x$ to find $\frac{dy}{dx}$. The formula for $\frac{dy}{dx}$ in this case would be $\frac{1}{\sqrt{1-(3x^2)^2}} cdot \frac{d}{dx}(3x^2)$, which simplifies to $\frac{6x}{\sqrt{1-9x^4}}$.
 
 - **PYQ-Specific Trend:** Past year questions often test the understanding of trigonometric identities and their applications in calculus. A trend observed in PYQs is the frequent appearance of problems that require the use of trigonometric identities to simplify expressions or to solve equations. For example, a question might ask to prove that $cos^{-1}x + cos^{-1}y = cos^{-1}(xy 
 
-- sqrt{1-x^2}sqrt{1-y^2})$, which involves a deep understanding of trigonometric functions and their properties.
+- \sqrt{1-x^2}\sqrt{1-y^2})$, which involves a deep understanding of trigonometric functions and their properties.
 
-- **Simplification Techniques:** Another crucial aspect of solving trigonometric problems is the ability to simplify complex expressions using identities. For instance, the expression $sqrt{1 + sinx}$ can be simplified using the identity $1 + sinx = (sqrt{rac{1+sinx}{2}} + sqrt{rac{1-sinx}{2}})^2$, leading to the simplified form $sqrt{rac{1+sinx}{2}} + sqrt{rac{1-sinx}{2}}$. Recognizing and applying such simplifications can significantly reduce the complexity of problems in exams.
+- **Simplification Techniques:** Another crucial aspect of solving trigonometric problems is the ability to simplify complex expressions using identities. For instance, the expression $sqrt{1 + sinx}$ can be simplified using the identity $1 + sinx = (\sqrt{\frac{1+sinx}{2}} + \sqrt{\frac{1-sinx}{2}})^2$, leading to the simplified form $sqrt{\frac{1+sinx}{2}} + \sqrt{\frac{1-sinx}{2}}$. Recognizing and applying such simplifications can significantly reduce the complexity of problems in exams.
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
@@ -86,7 +86,7 @@ manualReview: false
 - sin(A)sin(B)$
  
 
-- $tan(A+B) = rac{tan(A) + tan(B)}{1 
+- $tan(A+B) = \frac{tan(A) + tan(B)}{1 
 
 - tan(A)tan(B)}$
  

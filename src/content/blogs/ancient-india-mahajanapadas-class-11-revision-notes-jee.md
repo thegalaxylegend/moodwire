@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/ancient-india-mahajanapadas-class-11-revision-notes-jee.webp"
-title: "Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide"
-description: "Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Grandmaster Guide"
+description: "Ancient India Mahajanapadas Class 11 History Recap — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/mathematics/ancient-india-mahajanapadas-class-11-revision-notes-jee"
@@ -58,9 +58,9 @@ The following table lists the 16 Mahajanapadas, their capitals, and notable rule
 |  | Ujjain/ |
 ## <a id="formulae-tables"></a>Formulae Tables
 While historical data doesn't typically involve mathematical formulae, understanding the **population dynamics**, **economic growth**, and **trade volumes** of the Mahajanapadas can be facilitated by basic mathematical concepts such as:
-\[ $\text{Population Growth Rate} = \France$\text{Change in Population}$\text{Original Population}$ \times 100 \]
+\[ $\text{Population Growth Rate} = \frac$\text{Change in Population}$\text{Original Population}$ \times 100 \]
 
-\[ $\text{Economic Growth Rate} = \France$\text{Change in GDP}$\text{Original GDP}$ \times 100 \]
+\[ $\text{Economic Growth Rate} = \frac$\text{Change in GDP}$\text{Original GDP}$ \times 100 \]
 
 ## <a id="trap-exceptions-for-quick-review"></a>Trap Exceptions for Quick Review
 - **Not all Mahajanapadas were monarchies**; some were republics.

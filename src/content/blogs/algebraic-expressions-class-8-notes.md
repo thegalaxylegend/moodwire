@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/algebraic-expressions-class-8-notes.webp"
-title: "Algebraic Expressions Class 8 Mathematics Recap — Grandmaster Guide"
-description: "Algebraic Expressions Class 8 Mathematics Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-17."
+title: "Algebraic Expressions 8 Class 8 Mathematics Revision — JEE 2026 Grandmaster Guide"
+description: "Algebraic Expressions 8 Class 8 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Exam Notes"
 date: "2026-04-17"
 practice_link: "/class-8/mathematics/algebraic-expressions"
@@ -13,7 +13,7 @@ manualReview: false
 
 - [⚡ Formula Bank](#-formula-bank)
 - [🪤 The 5 Mistakes That Cost Marks](#-the-5-mistakes-that-cost-marks)
-- [✏️ 3 Solved Yes](#-3-solved-pyqs)
+- [✏️ 3 Solved PYQs](#-3-solved-pyqs)
 - [🧠 The One Thing Most Students Get Wrong](#-the-one-thing-most-students-get-wrong)
 - [👁️ Ayush's Note](#-Ayush-note)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
@@ -24,19 +24,18 @@ manualReview: false
 - **Addition of Algebraic Expressions:** {a + b} — where a and by are like terms
  - **Subtraction of Algebraic Expressions:** {a - b} — where a and by are like terms
  - **Multiplication of Algebraic Expressions:** {a \times b} — where a and by are like terms
- - **Division of Algebraic Expressions:** \franc{a}{b} — where a and by are like terms and lb 
-EQ 0$
+ - **Division of Algebraic Expressions:** \frac{a}{b} — where a and by are like terms and $b \neq 0$
  - **Distributive Property:** a(b + c) = ab + act — where a, by, and act are any real numbers
- - **Idempotent Law:** (suggestion limit reached) \(suggestion limit reached) a = a^2 — where (suggestion limit reached) is any real number
- - **Commutative Law of Addition:** (suggestion limit reached) + b = b + (suggestion limit reached) — where (suggestion limit reached) and (suggestion limit reached) are any real numbers
- - **Commutative Law of Multiplication:** (suggestion limit reached) \(suggestion limit reached) b = b \(suggestion limit reached) (suggestion limit reached) — where (suggestion limit reached) and (suggestion limit reached) are any real numbers
- - **Associative Law of Addition:** (a + b) + c = a + (b + c) — where (suggestion limit reached), (suggestion limit reached), and (suggestion limit reached) are any real numbers
- - **Associative Law of Multiplication:** (ab)c = a(bc) — where (suggestion limit reached), (suggestion limit reached), and (suggestion limit reached) are any real numbers
- - **Formula for $(a + b)^2$:** (a + b)^2 = a^2 + 2ab + b^2 — where (suggestion limit reached) and (suggestion limit reached) are any real numbers
- - **Formula for $(a - b)^2$:** (a - b)^2 = a^2 - 2ab + b^2 — where (suggestion limit reached) and (suggestion limit reached) are any real numbers
- - **Formula for $(a + b)(a - b)$:** (a + b)(a - b) = a^2 - b^2 — where (suggestion limit reached) and (suggestion limit reached) are any real numbers
- - **Formula for $(a + b)^3$:** (a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3 — where (suggestion limit reached) and (suggestion limit reached) are any real numbers
- - **Formula for $(a - b)^3$:** (a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3 — where (suggestion limit reached) and (suggestion limit reached) are any real numbers
+ - **Idempotent Law:** a \a a = a^2 — where a is any real number
+ - **Commutative Law of Addition:** a + b = b + a — where a and a are any real numbers
+ - **Commutative Law of Multiplication:** a \a b = b \a a — where a and a are any real numbers
+ - **Associative Law of Addition:** (a + b) + c = a + (b + c) — where a, a, and a are any real numbers
+ - **Associative Law of Multiplication:** (ab)c = a(bc) — where a, a, and a are any real numbers
+ - **Formula for $(a + b)^2$:** (a + b)^2 = a^2 + 2ab + b^2 — where a and a are any real numbers
+ - **Formula for $(a - b)^2$:** (a - b)^2 = a^2 - 2ab + b^2 — where a and a are any real numbers
+ - **Formula for $(a + b)(a - b)$:** (a + b)(a - b) = a^2 - b^2 — where a and a are any real numbers
+ - **Formula for $(a + b)^3$:** (a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3 — where a and a are any real numbers
+ - **Formula for $(a - b)^3$:** (a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3 — where a and a are any real numbers
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -45,7 +44,7 @@ EQ 0$
 
 - *Error Description:* This is a classic trap! Students often forget to multiply *every* term inside the parentheses by the factor outside, or they mess up the signs when a negative number or expression is being
 
-## <a id="-3-solved-pyqs"></a>✏️ 3 Solved Yes
+## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
 - **Q1:** Simplify the expression: $(2x+3)(x-5) - (x-2)(x+4)$.
  - **Trap:**
@@ -60,19 +59,19 @@ EQ 0$
 
 ## <a id="-Ayush-note"></a>👁️ Ayush's Note
 
-- **The Hidden Pattern:** In Algebraic Expressions, a recurring pattern visible after studying 5+ years of Yes is the frequent appearance of expressions that can be simplified using the identity $(a+b)^2 = a^2 + 2ab + b^2$ and $(a-b)^2 = a^2 
+- **The Hidden Pattern:** In Algebraic Expressions, a recurring pattern visible after studying 5+ years of PYQs is the frequent appearance of expressions that can be simplified using the identity $(a+b)^2 = a^2 + 2ab + b^2$ and $(a-b)^2 = a^2 
 
 - 2ab + b^2$. This pattern can help in quick simplification of complex expressions, especially when combined with the formula for $(a+b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$ and $(a-b)^3 = a^3 
 
 - 3a^2b + 3ab^2 
 
-- b^3$. For instance, the expression ex^2 + 2xy + y^2$ can be simplified as $(x+y)^2$, which is a key simplification in many Yes.
+- b^3$. For instance, the expression ex^2 + 2xy + y^2$ can be simplified as $(x+y)^2$, which is a key simplification in many PYQs.
 
 - **How to Apply It:** To apply this pattern, always be on the lookout for expressions that resemble the expansions of $(a+b)^no or $(a-b)^no. Practice simplifying expressions using these identities, and make sure to recognize when an expression can be reduced to a simpler form using these formulas. For example, ex^3 + 3x^2y + 3xy^2 + y^3$ simplifies to $(x+y)^3$. Also, remember that a^2 
 
 - b^2 = (a+b)(a-b)$, which is another crucial identity.
 
-- **Age-specific Trend:** There's a noticeable trend in Yes where Algebraic Expressions are often used in conjunction with other concepts like [equations](/blog/linear-equations-in-one-variable-class-8-notes) and graphs. Be prepared to apply these simplification patterns in the context of solving [equations](/blog/linear-equations-in-one-variable-class-8-notes) or analyzing functions. Moreover, expressions like ex^2 
+- **Age-specific Trend:** There's a noticeable trend in PYQs where Algebraic Expressions are often used in conjunction with other concepts like [equations](/blog/linear-equations-in-one-variable-class-8-notes) and graphs. Be prepared to apply these simplification patterns in the context of solving [equations](/blog/linear-equations-in-one-variable-class-8-notes) or analyzing functions. Moreover, expressions like ex^2 
 
 - 2xy + y^2$ which simplify to $(x-y)^2$ are commonly used to represent perfect square trinomials, which in turn can be used to solve quadratic equations or analyze the nature of roots.
 

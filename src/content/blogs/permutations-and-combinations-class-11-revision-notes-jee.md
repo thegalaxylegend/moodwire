@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/permutations-and-combinations-class-11-revision-notes-jee.webp"
-title: "Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
-description: "Permutations and Combinations Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Permutations And Combinations Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Permutations And Combinations Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/mathematics/permutations-and-combinations-class-11-revision-notes-jee"
@@ -57,9 +57,9 @@ To further illustrate the concept, let's consider a block of math:
 
 \begin{aligned}
 
-nPr &= $\frac{n!}{(n-r)!}$ \\
+nPr &= $\frac{{n!}{(n-r)!}}{\frac{n!}{r!(n-r)!}\end{aligned}}  \\
 
-nCr &= $\frac{n!}{r!(n-r)!}\end{aligned}$
+nCr &= 
 
 These formulas are the foundation of [permutations](/blog/permutations-combinations-class-11-revision-notes-jee) and Combinations, and understanding them is crucial to solving problems in this topic. As we progress, we'll see how these formulas are applied in various contexts, from simple calculations to complex problems. With practice and dedication, you'll become proficient in using these formulas to solve a wide range of problems, and you'll develop a deeper appreciation for the beauty and complexity of [permutations](/blog/permutations-combinations-class-11-revision-notes-jee) and Combinations.
 
@@ -237,7 +237,7 @@ To further illustrate the concepts of permutations and combinations, consider th
 
 ## <a id="what-is-the-concept-of-factorials-in-permutations-and-combinations"></a>What is the concept of Factorials in Permutations and Combinations?
 
-What is the concept of Factorials in Permutations and Combinations? is a mathematical operation that involves the product of all positive integers up to a given number. It includes the concept of factorial notation, the relationship between factorials and permutations, and the application of factorials in combinations. For Class 11 exam prep in 2026, the most important aspect is understanding how factorials are used to calculate permutations and combinations, as this is a fundamental concept in mathematics and statistics. The factorial of a non-negative integer $n$, denoted by $n!$, is the product of all positive integers less than or equal to $n$. The factorial operation is defined as: $n! = n 	imes (n-1) 	imes (n-2) 	imes cdots 	imes 2 	imes 1$. For example, $5! = 5 	imes 4 	imes 3 	imes 2 	imes 1 = 120$. Factorials are used to calculate the number of ways to arrange objects in a particular order, which is known as permutations. The number of permutations of $n$ objects is given by $n!$. Factorials are also used to calculate the number of ways to choose $r$ objects from a set of $n$ objects, which is known as combinations. The number of combinations of $n$ objects taken $r$ at a time is given by: inom{n}{r} = $\frac{n!}{r!(n-r)!}. This formula is used to calculate the number of ways to choose $r$ objects from a set of $n$ objects, without regard to the order in which they are chosen.$
+What is the concept of Factorials in Permutations and Combinations? is a mathematical operation that involves the product of all positive integers up to a given number. It includes the concept of factorial notation, the relationship between factorials and permutations, and the application of factorials in combinations. For Class 11 exam prep in 2026, the most important aspect is understanding how factorials are used to calculate permutations and combinations, as this is a fundamental concept in mathematics and statistics. The factorial of a non-negative integer $n$, denoted by $n!$, is the product of all positive integers less than or equal to $n$. The factorial operation is defined as: $n! = n 	imes (n-1) 	imes (n-2) 	imes cdots 	imes 2 	imes 1$. For example, $5! = 5 	imes 4 	imes 3 	imes 2 	imes 1 = 120$. Factorials are used to calculate the number of ways to arrange objects in a particular order, which is known as permutations. The number of permutations of $n$ objects is given by $n!$. Factorials are also used to calculate the number of ways to choose $r$ objects from a set of $n$ objects, which is known as combinations. The number of combinations of $n$ objects taken $r$ at a time is given by: inom{n}{r} = $\frac{{n!}{r!(n-r)!}. This formula is used to calculate the number of ways to choose }{ objects from a set of } r$n$ objects, without regard to the order in which they are chosen.$
 
 
 | Factorial | Permutation | Combination |

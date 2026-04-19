@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/squares-and-square-roots-class-8-notes.webp"
-title: "Squares and Square Roots Class 8 Mathematics Recap — Grandmaster Guide"
-description: "Squares and Square Roots Class 8 Mathematics Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-16."
+title: "Squares And Square Roots 8 Class 8 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Squares And Square Roots 8 Class 8 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Exam Notes"
 date: "2026-04-16"
 practice_link: "/class-8/mathematics/squares-and-square-roots"
@@ -21,10 +21,10 @@ manualReview: false
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Perfect Square Formula:** a^2 = {a} 	imes {a} — where $a$ is the number being squared,- **Square Root Formula:** sqrt{a} = {a}^{rac{1}{2}} — where $a$ is the number under the square root,- **Difference of Squares Formula:** a^2 - b^2 = (a+b)(a-b) — where $a$ and $b$ are any real numbers,- **Square of a Binomial Formula:** (a+b)^2 = a^2 + 2ab + b^2 — where $a$ and $b$ are any real numbers,- **Square of a Trinomial Formula:** (a+b+c)^2 = a^2 + b^2 + c^2 + 2ab + 2ac + 2bc — where $a$, $b$, and $c$ are any real numbers,- **Formula for Finding the Square Root of a Fraction:** sqrt{rac{a}{b}} = rac{sqrt{a}}{sqrt{b}} — where $a$ and $b$ are any real numbers and $b 
-eq 0$,- **Formula for Finding the Square of a Fraction:** left(rac{a}{b}ight)^2 = rac{a^2}{b^2} — where $a$ and $b$ are any real numbers and $b 
-eq 0$,- **Rationalizing the Denominator Formula:** rac{sqrt{a}}{sqrt{b}} = rac{sqrt{a} 	imes sqrt{b}}{sqrt{b} 	imes sqrt{b}} = rac{sqrt{ab}}{b} — where $a$ and $b$ are any real numbers and $b 
-eq 0$,- **Simplifying Square Roots Formula:** sqrt{ab} = sqrt{a} 	imes sqrt{b} — where $a$ and $b$ are any real numbers,- **Formula for the Square Root of a Decimal:** sqrt{a 	imes 10^n} = sqrt{a} 	imes 10^{rac{n}{2}} — where $a$ is any real number and $n$ is an even integer
+- **Perfect Square Formula:** a^2 = {a} 	imes {a} — where $a$ is the number being squared,- **Square Root Formula:** \sqrt{a} = {a}^{\frac{1}{2}} — where $a$ is the number under the square root,- **Difference of Squares Formula:** a^2 - b^2 = (a+b)(a-b) — where $a$ and $b$ are any real numbers,- **Square of a Binomial Formula:** (a+b)^2 = a^2 + 2ab + b^2 — where $a$ and $b$ are any real numbers,- **Square of a Trinomial Formula:** (a+b+c)^2 = a^2 + b^2 + c^2 + 2ab + 2ac + 2bc — where $a$, $b$, and $c$ are any real numbers,- **Formula for Finding the Square Root of a Fraction:** \sqrt{\frac{a}{b}} = \frac{\sqrt{a}}{\sqrt{b}} — where $a$ and $b$ are any real numbers and $b 
+eq 0$,- **Formula for Finding the Square of a Fraction:** left(\frac{a}{b}ight)^2 = \frac{a^2}{b^2} — where $a$ and $b$ are any real numbers and $b 
+eq 0$,- **Rationalizing the Denominator Formula:** \frac{\sqrt{a}}{\sqrt{b}} = \frac{\sqrt{a} 	imes \sqrt{b}}{\sqrt{b} 	imes \sqrt{b}} = \frac{\sqrt{ab}}{b} — where $a$ and $b$ are any real numbers and $b 
+eq 0$,- **Simplifying Square Roots Formula:** \sqrt{ab} = \sqrt{a} 	imes \sqrt{b} — where $a$ and $b$ are any real numbers,- **Formula for the Square Root of a Decimal:** \sqrt{a 	imes 10^n} = \sqrt{a} 	imes 10^{\frac{n}{2}} — where $a$ is any real number and $n$ is an even integer
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -88,7 +88,7 @@ eq 0$,- **Simplifying Square Roots Formula:** sqrt{ab} = sqrt{a} 	imes sqrt{b} �
 
 - **Common Mistakes:**
 
-- Incorrectly assuming $\sqrt{a+b} = \sqrt{a} + \sqrt{b}$ or $$\sqrt{a-b}$ = $\sqrt{a}$ 
+- Incorrectly assuming $\sqrt{a+b} = \sqrt{a} + \sqrt{b}$1 \sqrt{a-b} = $\sqrt{a}$ 
 
 - $\sqrt{b}$. Remember, square roots don't distribute over addition/subtraction.
 

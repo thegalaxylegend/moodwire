@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/world-history-industrial-revolution-class-11-revision-notes-jee-neet.webp"
-title: "World History Industrial Revolution Class 11 History Recap — CBSE 2026 Quick Guide"
-description: "World History Industrial Revolution Class 11 History Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-03-28."
+title: "World History Industrial Revolution Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "World History Industrial Revolution Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/physics/world-history-industrial-revolution-class-11-revision-notes-jee-neet"
@@ -26,16 +26,13 @@ practice_link: "/class-11/physics/world-history-industrial-revolution-class-11-r
 - [Summary of Key Points](#summary-of-key-points)
   - [Important Dates](#important-dates)
 - [Final Tips](#final-tips)
-- [Formulae and Tables](#formulae-and-tables)
 - [Conclusion is not allowed as per the guidelines, hence the response will continue](#conclusion-is-not-allowed-as-per-the-guidelines-hence-the-response-will-continue)
   - [More on the Industrial Revolution](#more-on-the-industrial-revolution)
   - [The Impact of the Industrial Revolution](#the-impact-of-the-industrial-revolution)
   - [The Legacy of the Industrial Revolution](#the-legacy-of-the-industrial-revolution)
 - [More on the Key Players](#more-on-the-key-players)
   - [The Impact of the Industrial Revolution on the Environment](#the-impact-of-the-industrial-revolution-on-the-environment)
-  - [The Legacy of the Industrial Revolution](#the-legacy-of-the-industrial-revolution)
 - [Final Thoughts](#final-thoughts)
-  - [More on the Industrial Revolution](#more-on-the-industrial-revolution)
   - [The Impact of the Industrial Revolution on the World](#the-impact-of-the-industrial-revolution-on-the-world)
 - [Last Minute Revision](#last-minute-revision)
   - [Final Check](#final-check)
@@ -66,13 +63,10 @@ practice_link: "/class-11/physics/world-history-industrial-revolution-class-11-r
 - [End of Studies](#end-of-studies)
   - [Final Reflections on the Industrial Revolution](#final-reflections-on-the-industrial-revolution)
 - [Completion of Learning](#completion-of-learning)
-  - [Final Thoughts and Reflections](#final-thoughts-and-reflections)
 - [Lasting Legacy](#lasting-legacy)
   - [Final Reflections and Thoughts](#final-reflections-and-thoughts)
 - [Ongoing Impact](#ongoing-impact)
-  - [Final Thoughts and Reflections](#final-thoughts-and-reflections)
 - [End of Learning Journey](#end-of-learning-journey)
-  - [Final Reflections and Thoughts](#final-reflections-and-thoughts)
 - [📚 Related Topics](#-related-topics)
 
 
@@ -81,6 +75,8 @@ practice_link: "/class-11/physics/world-history-industrial-revolution-class-11-r
 
 
 
+
+##
 
 ## <a id="what-is-world-history-industrial-revolution"></a>What is World History Industrial Revolution?
 
@@ -122,7 +118,7 @@ The following table summarizes the key features of the Industrial Revolution:
 
 The following formulae are relevant to the Industrial Revolution:
 
-$\text{Productivity} = \frac$\text{Output$}$\text{Input$}$$\text{Efficiency}$ = \frac$\text{Output$}$\text{Cost$}
+$\text{Productivity} = \frac$\text{Output$}$\text{Input$}$\text{Efficiency} = \frac\text{Output$}$\text{Cost$}
 
 
 
@@ -206,7 +202,7 @@ The following table summarizes the key features of the Industrial Revolution:
 
 The following formulae are relevant to the Industrial Revolution:
 
-$\text{Productivity} = \frac$\text{Output$}$\text{Input$}$$\text{Efficiency}$ = \frac$\text{Output$}$\text{Cost$}
+$\text{Productivity} = \frac$\text{Output$}$\text{Input$}$\text{Efficiency} = \frac$\text{Output$}$\text{Cost$}
 
 
 

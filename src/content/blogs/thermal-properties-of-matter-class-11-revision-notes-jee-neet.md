@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/thermal-properties-of-matter-class-11-revision-notes-jee-neet.webp"
 title: "Thermal Properties Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Thermal Properties Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+description: "Thermal Properties Of Matter Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/physics/thermal-properties-of-matter-class-11-revision-notes-jee-neet"

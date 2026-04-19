@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/study-12-hours-daily-tips-class-11-revision-notes-jee-neet.webp"
-title: "Study 12 Hours Daily Tips Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Study 12 Hours Daily Tips Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Study Hours Daily Tips Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Study Hours Daily Tips Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/physics/study-12-hours-daily-tips-class-11-revision-notes-jee-neet"

@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/state-scholarship-guide-2026-class-11-revision-notes-neet.webp"
-title: "State Scholarship Guide 2026 Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
-description: "State Scholarship Guide 2026 Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "State Scholarship Guide 2026 Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "State Scholarship Guide 2026 Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/biology/state-scholarship-guide-2026-class-11-revision-notes-neet"

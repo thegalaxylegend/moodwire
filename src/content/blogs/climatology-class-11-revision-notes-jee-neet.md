@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/climatology-class-11-revision-notes-jee-neet.webp"
-title: "Climatology Class 11 Geography Recap — CBSE 2026 Quick Guide"
-description: "Climatology Class 11 Geography Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Climatology Class 11 Geography Recap — CBSE 2026 Grandmaster Guide"
+description: "Climatology Class 11 Geography Recap — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/chemistry/climatology-class-11-revision-notes-jee-neet"
@@ -57,11 +57,11 @@ Here are some essential formulae related to climatology:
 
 | Formula | Description |
 | --- | --- |
-| AT = \franc{1}{2}(T_{max} + T_{min})$ | Average temperature |
-| $RH = \franc{e}{E}$ | Relative humidity |
-| UP = \franc{F}{A}$ | Atmospheric pressure |
-| DW = \franc{P_2 - P_1}{d}$ | Wind speed |
-| UP = \franc{m}{V}$ | Precipitation |
+| AT = \frac{1}{2}(T_{max} + T_{min})$ | Average temperature |
+| $RH = \frac{e}{E}$ | Relative humidity |
+| UP = \frac{F}{A}$ | Atmospheric pressure |
+| DW = \frac{P_2 - P_1}{d}$ | Wind speed |
+| UP = \frac{m}{V}$ | Precipitation |
 
 
 ## <a id="climatic-elements"></a>Climatic Elements

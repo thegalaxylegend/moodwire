@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/probability-class-11-revision-notes-jee.webp"
 title: "Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
-description: "Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+description: "Probability Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/mathematics/probability-class-11-revision-notes-jee"
@@ -103,7 +103,7 @@ This is where set theory from Chapter 1 meets Probability.
 
 1.  **Mutually Exclusive Events:** Events $A$ and $B$ are mutually exclusive if they cannot occur at the same time. Mathematically, **$A \cap B = \phi$**.
 2.  **Exhaustive Events:** Events $E_1, E_2, \dots, E_n$ are exhaustive if their union equals the sample space. Mathematically, **$E_1 \cup E_2 \cup \dots \cup E_n = S$**.
-3.  **Mutually Exclusive and Exhaustive:** If both conditions are met, the probabilities of these events sum to exactly 1.
+3.  **Mutually Exclusive and Exhaustive:** If both conditions are met, the probabilities of these events \sum to exactly 1.
 
 ---
 
@@ -129,10 +129,10 @@ Instead of just counting outcomes, we assign a number $P(E)$ to an event $E$ tha
 
 ## <a id="comprehensive-exam-strategy-qanda"></a>Comprehensive Exam Strategy (Q&A)
 
-**Q1: Two dice are thrown. What is the probability that the sum is exactly 7?**
+**Q1: Two dice are thrown. What is the probability that the \sum is exactly 7?**
 **Answer:**
 - Total outcomes ($n(S)$) = $6 \times 6 = 36$.
-- Event $E$ (sum is 7) = {(1,6), (2,5), (3,4), (4,3), (5,2), (6,1)}.
+- Event $E$ (\sum is 7) = {(1,6), (2,5), (3,4), (4,3), (5,2), (6,1)}.
 - $n(E) = 6$.
 - $P(E) = 6/36 = \mathbf{1/6}$.
 

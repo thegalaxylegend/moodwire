@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/plant-growth-and-development-class-11-revision-notes-neet.webp"
-title: "Plant Growth And Development Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
-description: "Plant Growth And Development Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Plant Growth And Development Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Plant Growth And Development Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/biology/plant-growth-and-development-class-11-revision-notes-neet"
@@ -71,7 +71,7 @@ This chapter is essential for students preparing for the Class 11 biology exam, 
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div [class](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet)="callout-box">
+<div class="callout-box">
 I still remember the mistake I made in my [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet) 11 biology exam. I confused the terms "growth" and "development" and ended up losing marks. However, I learned from my mistake and made sure to understand the difference between the two. Growth refers to the increase in size, while development refers to the process of maturation. For example, a seedling grows into a plant, but it develops into a mature plant with flowers and fruits. I hope this helps you avoid the same mistake!
 </div>
 
@@ -88,7 +88,7 @@ I still remember the mistake I made in my [class](/blog/morphology-of-flowering-
 * Abscisic acid: inhibits growth and promotes dormancy
 * Ethylene: promotes fruit ripening and senescence
 
-The formula for auxin-induced cell elongation is: $\frac{dL}{dt} = k \cdot \frac{dA}{dt}$, where $L$ is the cell length, $A$ is the auxin concentration, and $k$ is a constant.
+The formula for auxin-induced cell elongation is: $\frac{{dL}{dt} = k \cdot \frac{dA}{dt}}{L} , where $ is the cell length, $A$ is the auxin concentration, and $k$ is a constant.
 
 ### <a id="photoperiodism"></a>Photoperiodism
 Photoperiodism is the response of [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) to the length of daylight. [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) can be classified into three categories based on their photoperiodic response:
@@ -96,7 +96,7 @@ Photoperiodism is the response of [plants](/blog/photosynthesis-in-higher-plants
 * Long-day [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet): flower in response to long days
 * Day-neutral [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet): flower regardless of day length
 
-The formula for photoperiodic response is: $\frac{dF}{dt} = k \cdot \frac{dD}{dt}$, where $F$ is the flowering response, $D$ is the day length, and $k$ is a constant.
+The formula for photoperiodic response is: $\frac{{dF}{dt} = k \cdot \frac{dD}{dt}}{F} , where $ is the flowering response, $D$ is the day length, and $k$ is a constant.
 
 
 
@@ -163,10 +163,10 @@ D) Photoperiodic plant
 Answer: A) Short-day plant
 
 5. What is the formula for auxin-induced cell elongation?
-A) $\frac{dL}{dt} = k \cdot \frac{dA}{dt}$
-B) $\frac{dL}{dt} = k \cdot \frac{dC}{dt}$
-C) $\frac{dL}{dt} = k \cdot \frac{dG}{dt}$
-D) $\frac{dL}{dt} = k \cdot \frac{dE}{dt}$
+A) $\frac{{dL}{dt} = k \cdot \frac{dA}{dt}}{\frac{dL}{dt} = k \cdot \frac{dC}{dt}} 
+B) 
+C) $\frac{{dL}{dt} = k \cdot \frac{dG}{dt}}{\frac{dL}{dt} = k \cdot \frac{dE}{dt}} 
+D) $
 
 Answer: A) $\frac{dL}{dt} = k \cdot \frac{dA}{dt}$
 

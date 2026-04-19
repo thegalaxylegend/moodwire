@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/aldehydes-ketones-and-carboxylic-acids-class-12-notes.webp"
-title: "Aldehydes, Ketones and Carboxylic Acids Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Aldehydes, Ketones and Carboxylic Acids Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-30."
+title: "Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Aldehydes Ketones And Carboxylic Acids Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-30"
 practice_link: "/class-11/chemistry/aldehydes-ketones-and-carboxylic-acids-class-12-notes"
@@ -40,27 +40,9 @@ practice_link: "/class-11/chemistry/aldehydes-ketones-and-carboxylic-acids-class
 - [📚 Related Topics](#-related-topics)
 
 
-- [🌟 Nucleophilic Addition Reactions](#-nucleophilic-addition-reactions)
- - [⬇ Reduction Reactions](#-reduction-reactions)
- - [⬆ Oxidation Reactions](#-oxidation-reactions)
- - [🌈 Aldol Condensation](#-aldol-condensation)
- - [🌟 Cannizzaro Reaction](#-cannizzaro-reaction)
- - [💡 Haloform Reaction](#-haloform-reaction)
- - [🌈 Reactions with {NH_2OH}, {NH_2NH_2}, and {H_2N-NH_2}](#-reactions-with-nh_2oh-nh_2nh_2-and-h_2nnh_2)
- - [⬇ Reduction of Carboxylic Acids to Aldehydes](#-reduction-of-carboxylic-acids-to-aldehydes)
- - [🌟 Carboxylic Acid Reactions with {SOCl_2}, {P_2O_5}, and {P_4O_10}](#-carboxylic-acid-reactions-with-socl_2-p_2o_5-and-p_4o_10)
- - [💧 Hydrolysis and Esterification of Carboxylic Acids](#-hydrolysis-and-esterification-of-carboxylic-acids)
- - [🌟 Introduction to Aldehydes, Ketones, and Carboxylic Acids](#-introduction-to-aldehydes-ketones-and-carboxylic-acids)
- - [🌈 Properties of Aldehydes and Ketones](#-properties-of-aldehydes-and-ketones)
 
- - [⬇ Reduction Reactions of Aldehydes and Ketones](#-reduction-reactions-of-aldehydes-and-ketones)
- - [🌈 Oxidation Reactions of Aldehydes and Ketones](#-oxidation-reactions-of-aldehydes-and-ketones)
- - [🌟 Carboxylic Acid Reactions](#-carboxylic-acid-reactions)
- - [🌈 Ring-Chain Tautomerism](#-ringchain-tautomerism)
- - [🌟 Conclusion and Final Thoughts](#-conclusion-and-final-thoughts)
- - [📝 Master the Test Center — Step-by-Step Learning](#-master-the-test-center-stepbystep-learning)
- - [📊 Why Use the Test Center?](#-why-use-the-test-center)
- - [📝 Daily Practice and Revision](#-daily-practice-and-revision)
+
+##
 
 ### <a id="-nucleophilic-addition-reactions"></a>🌟 Nucleophilic Addition Reactions
 - Nucleophilic addition reactions are a crucial aspect of aldehyde and ketone [chemistry](/blog/surface-chemistry-class-12-notes)
@@ -135,7 +117,7 @@ practice_link: "/class-11/chemistry/aldehydes-ketones-and-carboxylic-acids-class
 
 #### Enolate Ion
 - Enolate ion is a highly reactive intermediate formed during aldol condensation
-- It is formed by the abstraction of a proton from the alpha position of the carbonyl compound: {RCHO \rightarrow RCH=O^-}
+- It is formed by the abstraction of a proton from the \alpha position of the carbonyl compound: {RCHO \rightarrow RCH=O^-}
 - Examples of enolate ions include:
  - {CH_3CHO \rightarrow CH_3CH=O^-}
  - {C_6H_5CHO \rightarrow C_6H_5CH=O^-}

@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/surface-chemistry-class-12-notes.webp"
 title: "Surface Chemistry Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Surface Chemistry Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-31."
+description: "Surface Chemistry Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-31"
 practice_link: "/class-11/chemistry/surface-chemistry-class-12-notes"
@@ -37,31 +37,17 @@ practice_link: "/class-11/chemistry/surface-chemistry-class-12-notes"
 - [📚 Related Topics](#-related-topics)
 
 
-- [📈 Adsorption and Adsorption Isotherms](#-adsorption-and-adsorption-isotherms)
- - [📊 Types of Adsorption](#-types-of-adsorption)
- - [🌊 Surface Tension and Surface Energy](#-surface-tension-and-surface-energy)
- - [🌈 Colloidal Solutions and Their Properties](#-colloidal-solutions-and-their-properties)
- - [🌴 Emulsions and Emulsification](#-emulsions-and-emulsification)
- - [🌴 Micelles and Micelle Formation](#-micelles-and-micelle-formation)
- - [⚖️ Catalysts and Catalysis](#-catalysts-and-catalysis)
- - [🤔 Adsorption vs Absorption](#-adsorption-vs-absorption)
- - [🌐 Surface Area and Its Importance](#-surface-area-and-its-importance)
- - [🌈 Chemical Adsorption (Chemisorption)](#-chemical-adsorption-chemisorption)
- - [🌈 Physical Adsorption (Physisorption)](#-physical-adsorption-physisorption)
 
- - [📝 Understanding the 5 Trap Mistakes](#-understanding-the-5-trap-mistakes)
- - [📝 Avoiding the 5 Trap Mistakes](#-avoiding-the-5-trap-mistakes)
- - [📊 Conclusion](#-conclusion)
- - [📈 Advanced Concepts in Surface Chemistry](#-advanced-concepts-in-surface-chemistry)
- - [🌈 Applications of Surface Chemistry](#-applications-of-surface-chemistry)
 
+
+##
 
 ### <a id="-adsorption-and-adsorption-isotherms"></a>📈 Adsorption and Adsorption Isotherms
 
 * **Adsorption** is a surface phenomenon where a substance (adsorbate) accumulates on the surface of another substance (adsorbent).
 * **Adsorption isotherms** describe the relationship between the amount of adsorbate and the pressure of the adsorbate at a constant temperature.
-* **Langmuir adsorption isotherm**: \theta = $\frac{bP}{1 + bP}, where $\theta$ is the surface coverage, $b$ is a constant, and $P$ is the pressure of the adsorbate.$
-* **Freundlich adsorption isotherm**: $\frac{x}{m} = kP^$$\frac{1}{n}$, where $x$ is the amount of adsorbate, $m$ is the mass of the adsorbent, $k$ and $n$ are constants, and $P$ is the pressure of the adsorbate.
+* **Langmuir adsorption isotherm**: \theta = $\frac{{bP}{1 + bP}, where }{ is the surface coverage, } \theta$b$ is a constant, and $P$ is the pressure of the adsorbate.$
+* **Freundlich adsorption isotherm**: $\frac{{x}{m} = kP^}{ is the amount of adsorbate, } \frac{1}{n}, where x$m$ is the mass of the adsorbent, $k$ and $n$ are constants, and $P$ is the pressure of the adsorbate.
 * **Key characteristics of adsorption isotherms**:
  + **Reversible**: adsorption isotherms can be reversible or irreversible.
  + **Specific**: adsorption isotherms can be specific or non-specific.
@@ -194,8 +180,8 @@ practice_link: "/class-11/chemistry/surface-chemistry-class-12-notes"
 
 #### 🌈 Adsorption Isotherms
 
-* **Langmuir adsorption isotherm**: \theta = $\frac{bP}{1 + bP}, where $\theta$ is the surface coverage, $b$ is a constant, and $P$ is the pressure of the adsorbate.$
-* **Freundlich adsorption isotherm**: $\frac{x}{m} = kP^$$\frac{1}{n}$, where $x$ is the amount of adsorbate, $m$ is the mass of the adsorbent, $k$ and $n$ are constants, and $P$ is the pressure of the adsorbate.
+* **Langmuir adsorption isotherm**: \theta = $\frac{{bP}{1 + bP}, where }{ is the surface coverage, } \theta$b$ is a constant, and $P$ is the pressure of the adsorbate.$
+* **Freundlich adsorption isotherm**: $\frac{{x}{m} = kP^}{, where } \frac{1}{n}$x$ is the amount of adsorbate, $m$ is the mass of the adsorbent, $k$ and $n$ are constants, and $P$ is the pressure of the adsorbate.
 * **Factors that affect adsorption isotherms**:
  + Temperature
  + Presence of impurities
@@ -226,15 +212,15 @@ practice_link: "/class-11/chemistry/surface-chemistry-class-12-notes"
 ## <a id="-the-5-trap-mistakes"></a>🪤 The 5 Trap Mistakes
 
 
-* **Mistake 1:** Incorrectly applying the formula for the amount of adsorption, using $\frac{x}{m} instead of $$\frac{x}{m}$ = $\frac{a}{V}$, where x is the mass of gas adsorbed, m is the mass of the adsorbent, a is the volume of the gas, and V is the volume of the adsorbent.
+* **Mistake 1:** Incorrectly applying the formula for the amount of adsorption, using $\frac{{x}{m} instead of }{, where x is the mass of gas adsorbed, m is the mass of the adsorbent, a is the volume of the gas, and V is the volume of the adsorbent.
 
-* **Mistake 2:** Not considering the effect of temperature on adsorption, using $\frac{x}{m} = kP^$$\frac{1}{n}$ instead of $\frac{x}{m} = k(T)P^$$\frac{1}{n}$, where k(T) is the temperature-dependent constant.
+* **Mistake 2:** Not considering the effect of temperature on adsorption, using } \frac{x}{m} = \frac{a}{V}$\frac{x}{m} = kP^$\frac{{1}{n}}{\frac{x}{m} = k(T)P^}  instead of $\frac{1}{n}, where k(T) is the temperature-dependent constant.
 
-* **Mistake 3:** Not considering the effect of surface roughness on adsorption, using $\frac{x}{m} = kP^$$\frac{1}{n}$ instead of $\frac{x}{m} = k(S)P^$$\frac{1}{n}$, where k(S) is the surface-roughness-dependent constant.
+* **Mistake 3:** Not considering the effect of surface roughness on adsorption, using \frac{x}{m} = kP^$\frac{{1}{n}}{\frac{x}{m} = k(S)P^}  instead of $\frac{1}{n}, where k(S) is the surface-roughness-dependent constant.
 
-* **Mistake 4:** Not considering the effect of impurities on adsorption, using $\frac{x}{m} = kP^$$\frac{1}{n}$ instead of $\frac{x}{m} = k(I)P^$$\frac{1}{n}$, where k(I) is the impurity-dependent constant.
+* **Mistake 4:** Not considering the effect of impurities on adsorption, using \frac{x}{m} = kP^$\frac{{1}{n}}{\frac{x}{m} = k(I)P^}  instead of $\frac{1}{n}, where k(I) is the impurity-dependent constant.
 
-* **Mistake 5:** Not considering the effect of particle size on adsorption, using $\frac{x}{m} = kP^$$\frac{1}{n}$ instead of $\frac{x}{m} = k(P)P^$$\frac{1}{n}$, where k(P) is the particle-size-dependent constant.
+* **Mistake 5:** Not considering the effect of particle size on adsorption, using \frac{x}{m} = kP^$\frac{{1}{n}}{\frac{x}{m} = k(P)P^}  instead of $\frac{1}{n}, where k(P) is the particle-size-dependent constant.
 
 
 
@@ -243,7 +229,7 @@ The 5 trap mistakes are common errors that students make when studying surface c
 
 #### 📊 Mistake 1: Incorrect Application of Adsorption Formula
 
-The first mistake is incorrectly applying the formula for the amount of adsorption. The correct formula is $\frac{x}{m} = $$\frac{a}{V}$, where x is the mass of gas adsorbed, m is the mass of the adsorbent, a is the surface area of the adsorbent, and V is the volume of the gas. However, many students mistakenly use $\frac{x}{m}$ instead, which is incorrect.
+The first mistake is incorrectly applying the formula for the amount of adsorption. The correct formula is \frac{x}{m} = $\frac{{a}{V}}{\frac{x}{m}} , where x is the mass of gas adsorbed, m is the mass of the adsorbent, a is the surface area of the adsorbent, and V is the volume of the gas. However, many students mistakenly use $ instead, which is incorrect.
 
 
 

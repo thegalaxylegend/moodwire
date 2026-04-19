@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/ai-exam-prep-future-class-11-revision-notes-jee-neet.webp"
-title: "Ai Exam Prep Future Class 11 Computer Science Recap — CBSE 2026 Quick Guide"
-description: "Ai Exam Prep Future Class 11 Computer Science Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Ai Exam Prep Future Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Ai Exam Prep Future Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/physics/ai-exam-prep-future-class-11-revision-notes-jee-neet"

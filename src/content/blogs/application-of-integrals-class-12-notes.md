@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/application-of-integrals-class-12-notes.webp"
-title: "Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide"
-description: "Application of Integrals Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-01."
+title: "Application Of Integrals Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Application Of Integrals Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-04-01"
 practice_link: "/class-11/mathematics/application-of-integrals-class-12-notes"
@@ -17,38 +17,27 @@ practice_link: "/class-11/mathematics/application-of-integrals-class-12-notes"
   - [Important Formulas](#important-formulas)
 - [🪤 The 5 Trap Mistakes](#-the-5-trap-mistakes)
   - [Advanced Concepts](#advanced-concepts)
-  - [Centroid](#centroid)
-  - [Moments of Inertia](#moments-of-inertia)
-  - [Work Done](#work-done)
 - [📝 Master the Test Center — Step-by-Step Learning](#-master-the-test-center-step-by-step-learning)
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
   - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
 - [📚 Related Topics](#-related-topics)
-- [Centroid](#centroid)
-  - [Moments of Inertia](#moments-of-inertia)
-  - [Work Done](#work-done)
-  - [Hydrostatic Force](#hydrostatic-force)
-  - [Center of Mass](#center-of-mass)
-  - [Important Formulas](#important-formulas)
-  - [Advanced Concepts](#advanced-concepts)
-  - [Centroid](#centroid)
-  - [Moments of Inertia](#moments-of-inertia)
-  - [Work Done](#work-done)
+##
+
 ### <a id="centroid"></a>Centroid
-- The centroid of a region can be found using $\bar{x}$ = \franc{1}{A} \int_{a}^{b} x[f(x) - g(x)] \,dx.
+- The centroid of a region can be found using $\bar{x} = \frac{1}{A} \int_{a}^{b} x[f(x) - g(x)] \,dx.
 - This formula is used when the region is bounded by two curves.
 - Key points to remember:
   - The centroid is the point where the entire weight of the region can be considered to be concentrated.
-  - The formula for the centroid is $\bar{x}$ = \franc{1}{A} \int_{a}^{b} x[f(x) - g(x)] \,dx.
+  - The formula for the centroid is $\bar{x} = \frac{1}{A} \int_{a}^{b} x[f(x) - g(x)] \,dx.
 - Practice problems:
   - Find the centroid of the region bounded by the curves by = x^2$ and by = $.
   - Find the centroid of the region bounded by the curves by = x^2$ and by = 0$.
 #### Centroid of a Triangle
-- The centroid of a triangle can be found using $\bar{x}$ = \franc{x_1 + x_2 + x_3}{3}.
+- The centroid of a triangle can be found using $\bar{x} = \frac{x_1 + x_2 + x_3}{3}.
 - This formula is used when the coordinates of the vertices are known.
 - Key points to remember:
   - The centroid of a triangle is the point where the medians intersect.
-  - The formula for the centroid of a triangle is $\bar{x}$ = \franc{x_1 + x_2 + x_3}{3}.
+  - The formula for the centroid of a triangle is $\bar{x} = \frac{x_1 + x_2 + x_3}{3}.
 - Practice problems:
   - Find the centroid of a triangle with vertices $(0, 0)$, $(3, 0)$, and $(0, 4)$.
   - Find the centroid of a triangle with vertices $(1, 1)$, $(2, 3)$, and $(4, 2)$.
@@ -62,11 +51,11 @@ practice_link: "/class-11/mathematics/application-of-integrals-class-12-notes"
   - Find the moment of inertia of the region bounded by the curve by = x^2$.
   - Find the moment of inertia of the region bounded by the curve by = $.
 #### Moment of Inertia of a Rod
-- The moment of inertia of a rod can be found using I = \franc{1}{12} mL^2.
+- The moment of inertia of a rod can be found using I = \frac{1}{12} mL^2.
 - This formula is used when the rod is uniform and the axis of rotation is perpendicular to the rod.
 - Key points to remember:
   - The moment of inertia of a rod is a measure of its resistance to changes in its rotation.
-  - The formula for the moment of inertia of a rod is I = \franc{1}{12} mL^2.
+  - The formula for the moment of inertia of a rod is I = \frac{1}{12} mL^2.
 - Practice problems:
   - Find the moment of inertia of a rod with a length of 10 meters and a mass of 5 kg.
   - Find the moment of inertia of a rod with a length of 5 meters and a mass of 10 kg.
@@ -107,20 +96,20 @@ practice_link: "/class-11/mathematics/application-of-integrals-class-12-notes"
   - Find the hydrostatic force on a rectangular plate with a length of 5 meters, a width of 3 meters, and a height of 2 meters.
   - Find the hydrostatic force on a rectangular plate with a length of 10 meters, a width of 5 meters, and a height of 1 meter.
 ### <a id="center-of-mass"></a>Center of Mass
-- The center of mass of an object can be found using $\bar{x}$ = \franc{1}{M} \int_{a}^{b} x \rho \,dx.
+- The center of mass of an object can be found using $\bar{x} = \frac{1}{M} \int_{a}^{b} x \rho \,dx.
 - This formula is used when the object has a varying density.
 - Key points to remember:
   - The center of mass is the point where the entire weight of the object can be considered to be concentrated.
-  - The formula for the center of mass is $\bar{x}$ = \franc{1}{M} \int_{a}^{b} x \rho \,dx.
+  - The formula for the center of mass is $\bar{x} = \frac{1}{M} \int_{a}^{b} x \rho \,dx.
 - Practice problems:
   - Find the center of mass of a rod with a length of 10 meters and a varying density.
   - Find the center of mass of a disk with a radius of 5 meters and a varying density.
 #### Center of Mass of a System of Particles
-- The center of mass of a system of particles can be found using $\bar{x}$ = \franc’m_1 x_1 + m_2 x_2 + ... + m_n x_n}{m_1 + m_2 + ... + m_n}.
+- The center of mass of a system of particles can be found using $\bar{x} = \frac’m_1 x_1 + m_2 x_2 + ... + m_n x_n}{m_1 + m_2 + ... + m_n}.
 - This formula is used when the masses and positions of the particles are known.
 - Key points to remember:
   - The center of mass of a system of particles is the point where the entire weight of the system can be considered to be concentrated.
-  - The formula for the center of mass of a system of particles is $\bar{x}$ = \franc’m_1 x_1 + m_2 x_2 + ... + m_n x_n}{m_1 + m_2 + ... + m_n}.
+  - The formula for the center of mass of a system of particles is $\bar{x} = \frac’m_1 x_1 + m_2 x_2 + ... + m_n x_n}{m_1 + m_2 + ... + m_n}.
 - Practice problems:
   - Find the center of mass of a system of two particles with masses 2 kg and 3 kg, and positions 1 meter and 2 meters, respectively.
   - Find the center of mass of a system of three particles with masses 1 kg, 2 kg, and 3 kg, and positions 0 meters, 1 meter, and 2 meters, respectively.
@@ -177,7 +166,7 @@ practice_link: "/class-11/mathematics/application-of-integrals-class-12-notes"
 #### Evaluating Limits of Integration
 - Evaluating the limits of integration is an essential step in application of integrals.
 - It is used to find the definite integral of a function.
-- For example, the definite integral of of(x) = x^2$ from ex = 0$ to ex = 1$ is \int_{0}^{1} x^2 \,dx = \left[\franc{x^3}{3}\right]_{0}^{1} = \franc{1}{3}.
+- For example, the definite integral of of(x) = x^2$ from ex = 0$ to ex = 1$ is \int_{0}^{1} x^2 \,dx = \left[\frac{x^3}{3}\right]_{0}^{1} = \frac{1}{3}.
 - Key points to remember:
   - Evaluating the limits of integration is an essential step in application of integrals.
   - It is used to find the definite integral of a function.
@@ -197,7 +186,7 @@ practice_link: "/class-11/mathematics/application-of-integrals-class-12-notes"
 ### <a id="advanced-concepts"></a>Advanced Concepts
 In this section, we will cover some of the most advanced concepts in the application of integrals, including the centroid, moments of inertia, work done, hydrostatic force, and center of mass.
 ### <a id="centroid"></a>Centroid
-The centroid of a region can be found using $\bar{x} = \franc{1}{A} \int_{a}^{b} x[f(x) - g(x)] \,dx$. This formula is used when the region is bounded by two curves. The centroid has numerous applications, including finding the centroid of a triangle, rectangle, and circle.
+The centroid of a region can be found using $\bar{x} = \frac{1}{A} \int_{a}^{b} x[f(x) - g(x)] \,dx$. This formula is used when the region is bounded by two curves. The centroid has numerous applications, including finding the centroid of a triangle, rectangle, and circle.
 ### <a id="moments-of-inertia"></a>Moments of Inertia
 The moment of inertia of a region can be found using I = \int_{a}^{b} [f(x)]^2 \,dx$. This formula is used when the region is bounded by a single curve. The moment of inertia has numerous applications, including finding the moment of inertia of a rod, disk, and sphere.
 ### <a id="work-done"></a>Work Done
@@ -236,7 +225,7 @@ Continue your revision with these related guides:
 ## 🪤 The 5 Mistakes That Cost Marks
 
 * **Incorrect evaluation of double integrals**: Many students fail to evaluate double integrals correctly by not considering the limits of integration for both variables. For JEE, it is crucial to understand the concept of double integrals and evaluate them step by step.
-* **Misunderstanding the concept of area between curves**: When finding the area between two curves using integrals, some students mistakenly calculate the area as the sum of the absolute values of the areas between the curve and the x-axis. Instead, the area should be evaluated as the definite integral of the difference between the two functions.
+* **Misunderstanding the concept of area between curves**: When finding the area between two curves using integrals, some students mistakenly calculate the area as the \sum of the absolute values of the areas between the curve and the x-axis. Instead, the area should be evaluated as the definite integral of the difference between the two functions.
 * **Incorrect application of the disk method for volumes of solids**: A common mistake is to incorrectly apply the disk method for finding volumes of solids of revolution. Students should ensure that they use the correct formula, taking into account the limits of integration and the radius of the disk.
 * **Failure to consider symmetry in surface area calculations**: When calculating the surface area of a [solid](/blog/solid-state-class-12-notes) of revolution, some students neglect to consider symmetry, which can result in incorrect calculations. It is essential to recognize and apply symmetry to simplify calculations.
-* **Inadequate substitution in integral calculations**: Inadequate substitution is another common mistake in integral calculations. Students should ensure that they correctly substitute variables and adjust the limits of integration accordingly to obtain accurate results.$
+* **Inadequate substitution in integral calculations**: Inadequate substitution is another common mistake in integral calculations. Students should ensure that they correctly substitute variables and adjust the limits of integration accordingly to obtain accurate results.

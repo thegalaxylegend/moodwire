@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/sets-class-11-revision-notes-jee-neet.webp"
-title: "Sets Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Sets Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Sets Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
+description: "Sets Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/chemistry/sets-class-11-revision-notes-jee-neet"

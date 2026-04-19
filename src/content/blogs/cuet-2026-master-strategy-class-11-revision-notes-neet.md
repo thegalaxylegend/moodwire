@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/cuet-2026-master-strategy-class-11-revision-notes-neet.webp"
-title: "Cuet 2026 Master Strategy Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
-description: "Cuet 2026 Master Strategy Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Cuet 2026 Master Strategy Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Cuet 2026 Master Strategy Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/biology/cuet-2026-master-strategy-class-11-revision-notes-neet"

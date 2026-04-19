@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/planning-in-india-class-11-revision-notes-jee-neet.webp"
-title: "Planning In India Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Planning In India Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Planning In India Class 11 Economics Recap — CBSE 2026 Grandmaster Guide"
+description: "Planning In India Class 11 Economics Recap — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/physics/planning-in-india-class-11-revision-notes-jee-neet"
@@ -15,7 +15,6 @@ practice_link: "/class-11/physics/planning-in-india-class-11-revision-notes-jee-
 ## 📋 Table of Contents
 
 - [What is Planning In India?](#what-is-planning-in-india)
-- [What is Planning in India?](#what-is-planning-in-india)
 - [How does Planning work in India?](#how-does-planning-work-in-india)
 - [MCQs](#mcqs)
 - [📚 Related Topics](#-related-topics)
@@ -26,6 +25,8 @@ practice_link: "/class-11/physics/planning-in-india-class-11-revision-notes-jee-
 
 
 
+
+##
 
 ## <a id="what-is-planning-in-india"></a>What is Planning In India?
 

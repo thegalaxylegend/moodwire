@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/differential-equations-class-12-notes.webp"
-title: "Differential Equations Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide"
-description: "Differential Equations Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-01."
+title: "Differential Equations Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Differential Equations Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-04-01"
 practice_link: "/class-11/mathematics/differential-equations-class-12-notes"
@@ -22,68 +22,68 @@ practice_link: "/class-11/mathematics/differential-equations-class-12-notes"
 - [🔁 Last 5 Minutes Box](#-last-5-minutes-box)
   - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
 - [📚 Related Topics](#-related-topics)
-- [🔍 Derivation of Formula](#-derivation-of-formula)
-  - [📝 Integrating Factor](#-integrating-factor)
-  - [🌐 Homogeneous Differential Equations](#-homogeneous-differential-equations)
-  - [📊 Exact Differential Equations](#-exact-differential-equations)
-  - [🚀 Linear Differential Equations of Higher Order](#-linear-differential-equations-of-higher-order)
   - [📈 Application of Differential Equations](#-[application](/blog/application-of-integrals-class-12-notes)-of-differential-equations)
-  - [📊 Numerical Methods](#-numerical-methods)
-  - [🚀 Higher-Order Linear Differential Equations](#-higher-order-linear-differential-equations)
-  - [📝 Master the Test Center — Step-by-Step Learning](#-master-the-test-center-step-by-step-learning)
+##
+
 ### <a id="-derivation-of-formula"></a>🔍 Derivation of Formula
-- **Derivation of Separable Differential Equations:** \franc{dy}{dx} = \franc{f(x)}{g(y)} — To derive this formula, we start with a differential equation of the form KM(x, y)DX + N(x, y)Dy = 0$. If ME and AND are functions of ex and by respectively, then we can separate the variables: \franc{dy}{dx} = -\franc{M(x, y)}{N(x, y)} — This gives us the general form of a separable differential equation.
+- **Derivation of Separable Differential Equations:** \frac{dy}{dx} = \frac{f(x)}{g(y)} — To derive this formula, we start with a differential equation of the form KM(x, y)DX + N(x, y)Dy = 0$. If ME and AND are functions of ex and by respectively, then we can separate the variables: \frac{dy}{dx} = -\frac{M(x, y)}{N(x, y)} — This gives us the general form of a separable differential equation.
 - Key points:
   * Separate the variables to simplify the equation.
   * Integrate both sides to find the solution.
-- **Derivation of First-Order Linear Differential Equations:** \franc{dy}{dx} + P(x)y = Q(x) — To derive this formula, we start with a differential equation of the form $\franc{dy}{dx} = f(x, y)$. If of(x, y)$ is a linear function of by, then we can write: \franc{dy}{dx} = -P(x)y + Q(x) — Rearranging this equation gives us the standard form of a first-order linear differential equation.
+- **Derivation of First-Order Linear Differential Equations:** \frac{dy}{dx} + P(x)y = Q(x) — To derive this formula, we start with a differential equation of the form $\frac{{dy}{dx} = f(x, y)}{ is a linear function of by, then we can write: \frac{dy}{dx} = -P(x)y + Q(x) — Rearranging this equation gives us the standard form of a first-order linear differential equation.
 - Key points:
   * Identify the linear function of by.
   * Rearrange the equation to standard form.
 ### <a id="-integrating-factor"></a>📝 Integrating Factor
-- **Derivation of Integrating Factor:** I.F. = e^$\int P(x) DX — To derive this formula, we start with a first-order linear differential equation: \franc{dy}{dx} + P(x)y = Q(x) — Multiplying both sides of this equation by the integrating factor he^$\int P(x) DX, we get: e^$\int P(x) DX\franc{dy}{dx} + e^$\int P(x) dx$P(x)y = e^$\int P(x) dx$Q(x) — The left-hand side of this equation is the derivative of he^$\int P(x) day, so we can write: \franc{d}{dx}(e^$\int P(x) ) = e^$\ P(x) dx$Q(x) — Integrating both sides of this equation with respect to , we get: e^$\ P(x)  = \ e^$\ P(x) dx$Q(x)  + C — This gives us the general solution to a first-order linear differential equation.
+- **Derivation of Integrating Factor:** I.F. = e^} . If of(x, y)$\int P(x) DX — To derive this formula, we start with a first-order linear differential equation: \frac{dy}{dx} + P(x)y = Q(x) — Multiplying both sides of this equation by the integrating factor he^$\int P(x) DX, we get: e^$\int P(x) DX\frac{dy}{dx} + e^$\int P(x) dx$P(x)y = e^$\int P(x) dx$Q(x) — The left-hand side of this equation is the derivative of he^$\int P(x) day, so we can write: \frac{d}{dx}(e^$\int P(x) ) = e^$\ P(x) dx$Q(x) — Integrating both sides of this equation with respect to , we get: e^$\ P(x)  = \ e^$\ P(x) dx$Q(x)  + C — This gives us the general solution to a first-order linear differential equation.
 - Key steps:
   * Multiply by the integrating factor.
   * Integrate both sides.
   * Solve for .
 ### <a id="-homogeneous-differential-equations"></a>🌐 Homogeneous Differential Equations
-- **Definition of Homogeneous Differential Equations:** \franc{dy}{dx} = \franc{f(x, y)}{g(x, y)} — A homogeneous differential equation is one in which of(x, y)$ and kg(x, y)$ are homogeneous functions of the same degree.
+- **Definition of Homogeneous Differential Equations:** \frac{dy}{dx} = \frac{f(x, y)}{g(x, y)} — A homogeneous differential equation is one in which of(x, y)$ and kg(x, y)$ are homogeneous functions of the same degree.
 - Examples:
-  * $\franc{dy}{dx} = \franc{x+y}{x-y}$
-  * $\franc{dy}{dx} = \franc{x^2+y^2}{x+y}$
-- **Solution of Homogeneous Differential Equations:** y = VX — We can solve a homogeneous differential equation by making the substitution by = VX, where DVD is a function of ex. This gives us: \franc{dy}{dx} = v + x\franc{dv}{dx} — Substituting this into the original differential equation, we get: v + x\franc{dv}{dx} = \franc{f(x, VX)}{g(x, VX)} — Simplifying this equation, we get: x\franc{dv}{dx} = \franc{f(x, VX)}{g(x, VX)} - v — Separating the variables, we get: \franc{dv}$\franc{f(x, VX)${g(x, VX)} - v} = \franc{dx}{x} — Integrating both sides of this equation, we get: \int \{dv}$\{f(x, )${g(x, )} - v} = \ \{dx}{x} — This gives us the general solution to a homogeneous differential equation.
+  * $\frac{{dy}{dx} = \frac{x+y}{x-y}}{\frac{dy}{dx} = \frac{x^2+y^2}{x+y}} 
+  * $
+- **Solution of Homogeneous Differential Equations:** y = VX — We can solve a homogeneous differential equation by making the substitution by = VX, where DVD is a function of ex. This gives us: \frac{dy}{dx} = v + x\frac{dv}{dx} — Substituting this into the original differential equation, we get: v + x\frac{dv}{dx} = \frac{f(x, VX)}{g(x, VX)} — Simplifying this equation, we get: x\frac{dv}{dx} = \frac{f(x, VX)}{g(x, VX)} - v — Separating the variables, we get: \frac{dv}$\frac{{f(x, VX)}{ dv}\{f(x, ){g(x, )} - v} = \ \{dx}{x} — This gives us the general solution to a homogeneous differential equation.
 - Key steps:
   * Make the substitution  = .
   * Substitute into the original equation.
   * Separate the variables and integrate.
 ### <a id="-exact-differential-equations"></a>📊 Exact Differential Equations
-- **Definition of Exact Differential Equations:** M(x, y)DX + N(x, y)Dy = 0 — An exact differential equation is one in which KM(x, y)$ and IN(x, y)$ are functions of ex and by such that: \franc{\partial M}{\partial y} = \franc{\partial N}{\partial x}
+- **Definition of Exact Differential Equations:** M(x, y)DX + N(x, y)Dy = 0 — An exact differential equation is one in which KM(x, y)} {g(x, VX)} - v} = \frac{dx}{x} — Integrating both sides of this equation, we get: \int 
+
+$ and IN(x, y)$ are functions of ex and by such that: \frac{\partial M}{\partial y} = \frac{\partial N}{\partial x}
 - Examples:
   * Hyde + ADY = 0$
   * DX + yay = 0$
-- **Solution of Exact Differential Equations:** f(x, y) = C — We can solve an exact differential equation by finding a function of(x, y)$ such that: \franc{\partial f}{\partial x} = M(x, y) — and: \franc{\partial f}{\partial y} = N(x, y) — This gives us: DF = M(x, y) + N(x, y) = 0 — Integrating this equation, we get: f(x, y) = C — This gives us the general solution to an exact differential equation.
+- **Solution of Exact Differential Equations:** f(x, y) = C — We can solve an exact differential equation by finding a function of(x, y)$ such that: \frac{\partial f}{\partial x} = M(x, y) — and: \frac{\partial f}{\partial y} = N(x, y) — This gives us: DF = M(x, y) + N(x, y) = 0 — Integrating this equation, we get: f(x, y) = C — This gives us the general solution to an exact differential equation.
 - Key steps:
   * Find a function (x, y)$ that satisfies the equation.
   * Integrate to find the general solution.
 ### <a id="-linear-differential-equations-of-higher-order"></a>🚀 Linear Differential Equations of Higher Order
-- **Definition of Linear Differential Equations of Higher Order:** \franc{d^n y}{DX^n} + P_1(x)\franc{d^{n-1} y}{DX^{n-1}} + \dots + P_n(x)y = Q(x) — A linear differential equation of higher order is one in which the highest derivative of by is of order and.
+- **Definition of Linear Differential Equations of Higher Order:** \frac{d^n y}{DX^n} + P_1(x)\frac{d^{n-1} y}{DX^{n-1 
+
+ + \dots + P_n(x)y = Q(x) — A linear differential equation of higher order is one in which the highest derivative of by is of order and.
 - Examples:
-  * $\franc{d^2y}{DX^2} + 2\franc{dy}{dx} + y = 0$
-  * $\franc{d^3y}{DX^3} + \franc{d^2y}{DX^2} + \franc{dy}{dx} + y = 0$
+  * $\frac{{d^2y}{DX^2} + 2\frac{dy}{dx} + y = 0}{\frac{d^3y}{DX^3} + \frac{d^2y}{DX^2} + \frac{dy}{dx} + y = 0} 
+  * $
 - **Solution of Linear Differential Equations of Higher Order:** y = c_1y_1 + c_2y_2 + \dots + c__n — We can solve a linear differential equation of higher order by finding  linearly independent solutions _1, y_2, \, y_. The general solution is then given by: y = c_1y_1 + c_2y_2 + \dots + c_NY_n — where BC_1, c_2, \lots, c_no are arbitrary constants.
 - Key steps:
   * Find and linearly independent solutions.
   * Combine the solutions to find the general solution.
 ### <a id="-application-of-differential-equations"></a>📈 Application of Differential Equations
-- **Growth and Decay:** \franc{dy}{dt} = KY — This differential equation models population growth and decay, where OK is a constant.
+- **Growth and Decay:** \frac{dy}{dt} = KY — This differential equation models population growth and decay, where OK is a constant.
 - Examples:
-  * Population growth: $\franc{dP}{dt} = kph
-  * Radioactive decay: $\franc{dN}{dt} = -KNP
-- **Simple Harmonic Motion:** \franc{d^2y}{DT^2} + \omega^2y = 0 — This differential equation models simple harmonic motion, where $\omega$ is a constant.
+  * Population growth: $\frac{{dP}{dt} = kph
+  * Radioactive decay: }{\omega} \frac{dN}{dt} = -KNP
+- **Simple Harmonic Motion:** \frac{d^2y}{DT^2} + \omega^2y = 0 — This differential equation models simple harmonic motion, where $ is a constant.
 - Examples:
-  * Mass on a spring: $\franc{d^2x}{DT^2} + \omega^2x = 0$
-  * Pendulum: $\franc{d^2\theta}{DT^2} + \omega^2\theta = 0$
-- **Electrical Circuits:** L\franc{d^2q}{DT^2} + R\franc{dq}{dt} + \{q}{C} = V — This differential equation models an electrical circuit, where  is the inductance,  is the resistance,  is the capacitance, and  is the voltage.
+  * Mass on a spring: $\frac{{d^2x}{DT^2} + \omega^2x = 0}{\frac{d^2\theta}{DT^2} + \omega^2\theta = 0} 
+  * Pendulum: $
+- **Electrical Circuits:** L\frac{d^2q}{DT^2} + R\frac{dq}{dt} + 
+
+$ q}{C} = V — This differential equation models an electrical circuit, where  is the inductance,  is the resistance,  is the capacitance, and  is the voltage.
 - Examples:
   * RL circuit: \{dI}{dt} + RI = 
   * RC circuit: \{dQ}{dt} + \{Q}{C} = 
@@ -91,22 +91,18 @@ practice_link: "/class-11/mathematics/differential-equations-class-12-notes"
 - **Euler's Method:** y_{n+1} = y_n + hf(x_n, y_n) — This method is used to approximate the solution of a differential equation at a given point.
 - Key steps:
   * Choose a step size the.
-  * Calculate by_{n+1}$ using the formula.
-- **Range-Kutta Method:** y_{n+1} = y_n + \franc{h}{6}(k_1 + 2k_2 + 2k_3 + k_4) — This method is used to approximate the solution of a differential equation at a given point.
+  * Calculate by_{n+1} using the formula.
+- **Range-Kutta Method:** y_{n+1} = y_n + \frac{h}{6}(k_1 + 2k_2 + 2k_3 + k_4) — This method is used to approximate the solution of a differential equation at a given point.
 
 - Key steps:
   * Choose a step size the.
-  * Calculate OK_1, k_2, k_3, k_4$ using the formulas.
+  * Calculate OK_1, k_2, k_3, k_4 using the formulas.
   * Calculate by_{n+1}$ using the formula.
 ### <a id="-higher-order-linear-differential-equations"></a>🚀 Higher-Order Linear Differential Equations
 #### #### Higher-Order Linear Homogeneous Differential Equations
 A higher-order linear homogeneous differential equation has the form: 
-\Franc{d^n y}{DX^n} + P_1(x)\franc{d^{n-1} y}{DX^{n-1}} + \dots + P_n(x)y = 0
+\Franc{d^n y}{DX^n} + P_1(x)\frac{d^{n-1} y}{DX^{n-1 $1  \Franc{d^n y}{DX^n} + P_1(x)\frac{d^{n-1} y}{DX^{n-1}} + \dots + P_n(x)y = Q(x) $
 
-To solve this equation, we can use the method of undetermined coefficients or the method of variation of parameters.
-#### #### Higher-Order Linear Non-Homogeneous Differential Equations
-A higher-order linear non-homogeneous differential equation has the form: 
-\Franc{d^n y}{DX^n} + P_1(x)\franc{d^{n-1} y}{DX^{n-1}} + \dots + P_n(x)y = Q(x)
 
 To solve this equation, we can use the method of undetermined coefficients or the method of variation of parameters.
 ## <a id="-the-5-trap-mistakes"></a>🪤 The 5 Trap Mistakes

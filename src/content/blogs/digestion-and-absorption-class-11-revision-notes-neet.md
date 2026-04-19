@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/digestion-and-absorption-class-11-revision-notes-neet.webp"
-title: "Digestion And Absorption Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
-description: "Digestion And Absorption Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Digestion And Absorption Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Digestion And Absorption Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/biology/digestion-and-absorption-class-11-revision-notes-neet"
@@ -68,7 +68,7 @@ The process of digestion can be summarized in the following table:
 The chemical reactions involved in digestion can be represented by the following equations:
 
 
-$\text{Carbohydrates} \xrightarrow$\text{Amylase$} $$\text{Maltose}$ \xrightarrow$\text{Maltase$} $\text{Glucose}$$\text{Proteins}$ \xrightarrow$\text{Pepsin$} $\text{Peptides} \xrightarrow$\text{Trypsin$} $\text{Amino Acids}$\text{Fats} \xrightarrow$\text{Lipase$} $$\text{Fatty Acids}$ + $\text{Glycerol}$
+$\text{Carbohydrates} \xrightarrow$\text{Amylase$} $\text{Maltose} \xrightarrow\text{Maltase$} $\text{Glucose}$\text{Proteins}$ \xrightarrow$\text{Pepsin$} $\text{Peptides} \xrightarrow$\text{Trypsin$} $\text{Amino Acids}$\text{Fats} \xrightarrow$\text{Lipase$} $\text{Fatty Acids} + \text{Glycerol}$
 
 
 | **Organ** | **Digestive Enzymes** | **Function** |
@@ -89,7 +89,7 @@ The process of absorption primarily occurs in the small intestine and can be sum
 The absorption of nutrients can be represented by the following equation:
 
 
-$\text{Nutrient}_$$\text{intestinal lumen}$ \xrightarrow$\text{Transport Proteins}$ $\text{Nutrient}_$\text{bloodstream$}$
+$\text{Nutrient}_$\text{intestinal lumen}$ \xrightarrow$1 \text{Nutrient}_$\text{bloodstream$}
 
 
 ## <a id="Ayush-note-key-points-for-keenest"></a>Ayush's Note: Key Points for JEE/MEET
@@ -106,13 +106,13 @@ For JEE/[meet](/blog/environmental-chemistry-class-11-revision-notes-neet) aspir
 To calculate the amount of a nutrient absorbed, you can use the following formula:
 
 
-$\text{Nutrient Uptake} = $$\text{Total Nutrient Intake}$ \times $\text{Absorption Efficiency}$
+$1 \text{Total Nutrient Intake}$ \times $\text{Absorption Efficiency}$
 
 
 For example, if the total carbohydrate intake is 300g and the absorption efficiency is 90%, the amount of carbohydrate absorbed would be:
 
 
-$\text{Carbohydrate Absorption}$ = 300g \times 0.9 = 270g
+$\text{Carbohydrate Absorption} = 300g \times 0.9 = 270g
 
 
 ## <a id="trap-questions-common-misconceptions"></a>Trap Questions: Common Misconceptions

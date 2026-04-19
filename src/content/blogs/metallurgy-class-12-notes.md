@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/metallurgy-class-12-notes.webp"
-title: "Metallurgy Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Metallurgy Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-31."
+title: "Metallurgy Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Metallurgy Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-31"
 practice_link: "/class-11/chemistry/metallurgy-class-12-notes"
@@ -23,7 +23,6 @@ practice_link: "/class-11/chemistry/metallurgy-class-12-notes"
   - [Electrochemical Principles](#electrochemical-principles)
   - [Electrolytic Reduction](#electrolytic-reduction)
   - [Roasting and Calcination](#roasting-and-calcination)
-  - [Metallurgical Processes](#metallurgical-processes)
 - [🪤 The 5 Trap Mistakes](#-the-5-trap-mistakes)
   - [Conclusion and Advanced Topics](#conclusion-and-advanced-topics)
 - [📝 Master the Test Center — Step-by-Step Learning](#-master-the-test-center-stepbystep-learning)
@@ -32,19 +31,10 @@ practice_link: "/class-11/chemistry/metallurgy-class-12-notes"
 - [📚 Related Topics](#-related-topics)
 
 
-- [Metallurgical Processes](#metallurgical-processes)
- - [Extraction of Metals](#extraction-of-metals)
- - [Ellingham Diagram](#ellingham-diagram)
- - [Reduction Methods](#reduction-methods)
- - [Refining of Metals](#refining-of-metals)
- - [Thermodynamic Principles](#thermodynamic-principles)
- - [Electrochemical Principles](#electrochemical-principles)
- - [Electrolytic Reduction](#electrolytic-reduction)
- - [Roasting and Calcination](#roasting-and-calcination)
- - [Metallurgical Processes](#metallurgical-processes)
 
- - [Conclusion and Advanced Topics](#conclusion-and-advanced-topics)
 
+
+##
 
 ### <a id="metallurgical-processes"></a>Metallurgical Processes
 - Metallurgical processes involve the extraction of metals from their ores.

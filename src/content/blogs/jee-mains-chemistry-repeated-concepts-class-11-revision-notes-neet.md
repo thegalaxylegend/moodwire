@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet.webp"
-title: "Jee Mains Chemistry Repeated Concepts Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
-description: "Jee Mains Chemistry Repeated Concepts Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Mains Chemistry Repeated Concepts Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide"
+description: "Mains Chemistry Repeated Concepts Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/biology/jee-mains-chemistry-repeated-concepts-class-11-revision-notes-neet"

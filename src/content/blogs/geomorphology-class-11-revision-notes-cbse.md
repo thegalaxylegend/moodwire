@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/geomorphology-class-11-revision-notes-cbse.webp"
-title: "Geomorphology Class 11 Geography Recap — CBSE 2026 Quick Guide"
-description: "Geomorphology Class 11 Geography Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Geomorphology Class 11 Geography Recap — CBSE 2026 Grandmaster Guide"
+description: "Geomorphology Class 11 Geography Recap — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/physics/geomorphology-class-11-revision-notes-cbse"

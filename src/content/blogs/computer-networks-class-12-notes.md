@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/computer-networks-class-12-notes.webp"
-title: "Computer Networks Class 12 (Computer Science) Comprehensive Notes — Boards 2026 Encyclopedia"
-description: "Computer Networks Class 12 (Computer Science) Comprehensive Notes — Boards 2026 Encyclopedia Revision Notes. Last Updated: 2026-04-12."
+title: "Computer Networks Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Computer Networks Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-04-12"
 practice_link: "/practice/computer-networks-class-12-notes"
@@ -25,7 +25,6 @@ practice_link: "/practice/computer-networks-class-12-notes"
  - [**Security Threats**](#security-threats)
  - [**Security Measures**](#security-measures)
 - [Network Architecture](#network-architecture)
-- [Network Architecture](#network-architecture)
  - [**OSI Model**](#osi-model)
 - [Network Layers](#network-layers)
  - [**Data Transmission**](#data-transmission)
@@ -34,7 +33,6 @@ practice_link: "/practice/computer-networks-class-12-notes"
 - [Data Transmission Example](#data-transmission-example)
 - [Network Performance](#network-performance)
 - [Network Protocols and Services](#network-protocols-and-services)
-- [**Network Protocols**](#network-protocols)
  - [**TCP/IP Protocol Suite**](#tcpip-protocol-suite)
 - [**IP Addressing**](#ip-addressing)
  - [**IPv4**](#ipv4)
@@ -46,7 +44,6 @@ practice_link: "/practice/computer-networks-class-12-notes"
 - [**Conclusion**](#conclusion)
 - [Network Security and Management](#network-security-and-management)
 - [**Network Security Threats**](#network-security-threats)
-- [**Security Measures**](#security-measures)
  - [**Encryption Techniques**](#encryption-techniques)
  - [**Network Management Protocols**](#network-management-protocols)
 - [**Network Performance Optimization**](#network-performance-optimization)
@@ -65,6 +62,8 @@ practice_link: "/practice/computer-networks-class-12-notes"
  - [3.2 PYQ 2](#32-pyq-2)
  - [3.3 PYQ 3](#33-pyq-3)
 - [Practice MCQs](#practice-mcqs)
+
+##
 
 ## <a id="fundamental-concepts"></a>Fundamental Concepts
 
@@ -182,7 +181,7 @@ This derivation shows the sequence of packets exchanged during the **TCP** three
 * The **Physical Layer** transmits the frame over a physical medium.
 * The receiving device receives the frame and reverses the process, ultimately delivering the email message to the user.
 
-$\text{Data Transmission Time} = \frac$\text{Data Size$}$\text{Bandwidth$} + $$\text{Propagation Delay}$
+$\text{Data Transmission Time} = \frac$\text{Data Size$}$\text{Bandwidth$} + $\text{Propagation Delay}
 
 This equation calculates the time it takes for data to be transmitted through a network, where **Data Size** is the size of the data being transmitted, **Bandwidth** is the rate at which data is transmitted, and **Propagation Delay** is the time it takes for the data to travel through the physical medium. 
 
@@ -205,7 +204,7 @@ The **OSI Model** and **TCP/IP Model** provide a framework for understanding how
 ## <a id="ip-addressing"></a>**IP Addressing**
 ### <a id="ipv4"></a>**IPv4**
 * **IPv4** uses 32-bit addresses, with 4.3 billion possible unique addresses.
-* **IPv4** address format: $xxx.xxx.xxx.xxx$, where $xxx$ is a decimal value between 0 and 255.
+* **IPv4** address format: xxx.xxx.xxx.xxx$, where $xxx$ is a decimal value between 0 and 255.
 * **Private IP addresses**: $10.xxx.xxx.xxx$, $172.16.xxx.xxx$ to $172.31.xxx.xxx$, $192.168.xxx.xxx$.
 * **Public IP addresses**: all other IPv4 addresses.
 
@@ -241,7 +240,7 @@ The throughput of a network can be calculated using the following equation:
 $\text{Throughput} = \frac$\text{packet size$}$\text{packet transmission time$}$
 where packet size is the size of the packet in bits, and packet transmission time is the time it takes to transmit the packet.
 The latency of a network can be calculated using the following equation:
-$\text{Latency} = \frac$\text{packet transmission time$}{2} + $$\text{propagation delay}$
+$\text{Latency} = \frac$\text{packet transmission time$}{2} + $\text{propagation delay}$
 where packet transmission time is the time it takes to transmit the packet, and propagation delay is the time it takes for the packet to propagate through the network.
 
 ## <a id="conclusion"></a>**Conclusion**
@@ -293,36 +292,36 @@ These protocols and services work together to provide a and efficient network in
 ### <a id="mathematical-modeling-of-network-performance"></a>**Mathematical Modeling of Network Performance**
 The network performance can be modeled using the following equation:
 
-P = $\frac{1}{L} \cdot $$\frac{B}{D}$
+P = $\frac{{1}{L} \cdot }{ is the network performance, } \frac{B}{D}
 
-where $P$ is the network performance, $L$ is the latency, $B$ is the bandwidth, and $D$ is the distance between nodes.
+where P$L$ is the latency, $B$ is the bandwidth, and $D$ is the distance between nodes.
 The latency can be calculated using the formula:
 
-L = $\frac{D}{V} + $$\frac{P}{B}$
+L = $\frac{{D}{V} + }{
 
-where $V$ is the speed of the signal and $P$ is the packet size.
+where } \frac{P}{B}$V$ is the speed of the signal and $P$ is the packet size.
 The throughput can be optimized using the following formula:
 
-T = $\frac{B}{L} \cdot $\frac{1}{1 + $\frac{P}{B}$}
+T = $\frac{{B}{L} \cdot }{\frac{P}{B}} \frac{1}{1 + $}
 
 where $T$ is the throughput.
 
 ### <a id="network-security-threat-modeling"></a>**Network Security Threat Modeling**
 The probability of a network security threat can be modeled using the following equation:
 
-P(T) = $\frac{1}{1 + e^{-\theta}}$
+P(T) = $\frac{{1}{1 + e^{-\theta}}}{P(T)} 
 
-where $P(T)$ is the probability of a threat, $\theta$ is the threat score, and $e$ is the base of the natural logarithm.
+where $ is the probability of a threat, $\theta$ is the threat score, and $e$ is the base of the natural logarithm.
 The threat score can be calculated using the following formula:
+$ \theta = \sum_{i=1}^{n} w_i \cdot x_i 
 
-\theta = \sum_{i=1}^{n} w_i \cdot x_i
 
 where $w_i$ is the weight of the $i^{th}$ factor, $x_i$ is the value of the $i^{th}$ factor, and $n$ is the number of factors. 
 Using $x_i$ and $w_i$, the overall threat score $\theta$ can be derived as:
+$ \theta = w_1 \cdot x_1 + w_2 \cdot x_2 + \ldots + w_n \cdot x_n $
 
-\theta = w_1 \cdot x_1 + w_2 \cdot x_2 + \ldots + w_n \cdot x_n
 
-Then, by plugging the value of $\theta$ into the equation $P(T) = \frac{1}{1 + e^{-\theta}}$, we can obtain the probability of a network security threat.
+Then, by plugging the value of \theta into the equation $P(T) = \frac{1}{1 + e^{-\theta}}$, we can obtain the probability of a network security threat.
 This allows network administrators to prioritize and mitigate potential threats.
 
 ## <a id="advanced-networking-topics"></a>Advanced Networking Topics
@@ -385,10 +384,10 @@ The $SDN$ architecture can be represented as:
 
 \begin{aligned}
 &$\text{Control Plane}$ \\
-&\quad \begin{cases}$\text{SDN Controller} \\$$\text{Network Applications}$\end{cases} \\
+&\quad \begin{cases}$\text{SDN Controller} \\$\text{Network Applications}$\end{cases} \\
 &$\text{Data Plane}$ \\
-&\quad \begin{cases}$\text{Switches} \\$$\text{Routers}$\end{cases} \\
-&$\text{Southbound Interface}$ \\
+&\quad \begin{cases}$\text{Switches} \\$\text{Routers}\end{cases} \\
+&\text{Southbound Interface}$ \\
 &\quad \begin{cases}$\text{OpenFlow}\end{cases}$ \\\end{aligned}
 
 Key $SDN$ benefits:
@@ -436,7 +435,7 @@ Emerging trends in computer networking:
 * Solution: $T = \frac{100 - 20}{100} = \frac{4}{5}$.
 * Derivation:
 
-T = $\frac{x - y}{x} = $$\frac{100 - 20}{100}$ = $\frac{80}{100} = $$\frac{4}{5}$
+T = $\frac{{x - y}{x} = }{1 \frac{4}{5}} \frac{100 - 20}{100} = $
 
 ## <a id="practice-mcqs"></a>Practice MCQs
 

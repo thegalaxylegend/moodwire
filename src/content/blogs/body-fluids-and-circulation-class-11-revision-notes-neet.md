@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/body-fluids-and-circulation-class-11-revision-notes-neet.webp"
-title: "Body Fluids And Circulation Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
-description: "Body Fluids And Circulation Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Body Fluids And Circulation Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Body Fluids And Circulation Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/biology/body-fluids-and-circulation-class-11-revision-notes-neet"
@@ -117,8 +117,8 @@ For JEE and [neet](/blog/locomotion-and-movement-class-11-revision-notes-neet) a
 ## <a id="step-8-formulae"></a>Step 8: Formulae
 
 Some important formulae related to body fluids and circulation include:
-- Blood pressure (BP) = $\frac{Cardiac \: Output \: (CO) \: \times \: Peripheral \: Resistance \: (PR)}{1}$, where CO is the volume of blood pumped by the heart per minute, and PR is the resistance to blood flow in the blood vessels.
-- Cardiac output (CO) = $\frac{Stroke \: Volume \: (SV) \: \times \: Heart \: Rate \: (HR)}{1}$, where SV is the volume of blood pumped by the heart per beat, and HR is the number of heartbeats per minute.
+- Blood pressure (BP) = $\frac{{Cardiac \: Output \: (CO) \: \times \: Peripheral \: Resistance \: (PR)}{1}}{\frac{Stroke \: Volume \: (SV) \: \times \: Heart \: Rate \: (HR)}{1}} , where CO is the volume of blood pumped by the heart per minute, and PR is the resistance to blood flow in the blood vessels.
+- Cardiac output (CO) = $, where SV is the volume of blood pumped by the heart per beat, and HR is the number of heartbeats per minute.
 
 
 

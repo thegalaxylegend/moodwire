@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/human-health-and-disease-class-12-notes.webp"
-title: "Human Health and Disease Class 12 Biology Revision — NEET 2026 Grandmaster Guide"
-description: "Human Health and Disease Class 12 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-04."
+title: "Human Health And Disease Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Human Health And Disease Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-04-04"
 practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
@@ -22,31 +22,31 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Basal Metabolic Rate (BMR):** \	ext{BMR} = 66 + (6.2 \	imes \	ext{weight in lbs}) + (12.7 \	imes \	ext{height in inches}) - (6.8 \	imes \	ext{age in years}) — Weight in lbs, height in inches, age in years
+- **Basal Metabolic Rate (BMR):** \\text{BMR} = 66 + (6.2 \	imes \\text{weight in lbs}) + (12.7 \	imes \\text{height in inches}) - (6.8 \	imes \\text{age in years}) — Weight in lbs, height in inches, age in years
 
-- **Body Mass Index (BMI):** \	ext{BMI} = $\frac{\	ext{weight in kg}}{\	ext{height in meters}^2}$ — Weight in kg, height in meters
+- **Body Mass Index (BMI):** \\text{BMI} = $\frac{{\\text{weight in kg}}{\\text{height in meters}^2}}{\frac{\\text{volume of CO}_2 \\text{produced}}{\\text{volume of O}_2 \\text{consumed}}}  — Weight in kg, height in meters
 
- - **Daily Energy Expenditure:** \	ext{DEE} = \	ext{BMR} \	imes \	ext{activity factor} — BMR, activity factor
+ - **Daily Energy Expenditure:** \\text{DEE} = \\text{BMR} \	imes \\text{activity factor} — BMR, activity factor
 
-- **Respiratory Quotient (RQ):** \	ext{RQ} = $\frac{\	ext{volume of CO}_2 \	ext{produced}}{\	ext{volume of O}_2 \	ext{consumed}}$ — Volume of CO2 produced, volume of O2 consumed
+- **Respiratory Quotient (RQ):** \\text{RQ} = $ — Volume of CO2 produced, volume of O2 consumed
 
- - **Arteriovenous Oxygen Difference:** \	ext{a-v O}_2 \	ext{ difference} = \	ext{CaO}_2 - \	ext{CvO}_2 — CaO2 (arterial oxygen content), CvO2 (venous oxygen content)
+ - **Arteriovenous Oxygen Difference:** \\text{a-v O}_2 \\text{ difference} = \\text{CaO}_2 - \\text{CvO}_2 — CaO2 (arterial oxygen content), CvO2 (venous oxygen content)
 
- - **Cardiac Output (CO):** \	ext{CO} = \	ext{HR} \	imes \	ext{SV} — HR (heart rate), SV (stroke volume)
+ - **Cardiac Output (CO):** \\text{CO} = \\text{HR} \	imes \\text{SV} — HR (heart rate), SV (stroke volume)
 
-- **Mean Arterial Pressure (MAP):** \	ext{MAP} = $\frac{2 \	imes \	ext{diastolic blood pressure} + \	ext{systolic blood pressure}}{3}$ — Diastolic blood pressure, systolic blood pressure
+- **Mean Arterial Pressure (MAP):** \\text{MAP} = $\frac{{2 \	imes \\text{diastolic blood pressure} + \\text{systolic blood pressure}}{3}}{\frac{\\text{urine flow rate} \	imes \\text{urine concentration}}{\\text{plasma concentration}}}  — Diastolic blood pressure, systolic blood pressure
 
- - **Cerebral Perfusion Pressure (CPP):** \	ext{CPP} = \	ext{MAP} - \	ext{ICP} — MAP (mean arterial pressure), ICP (intracranial pressure)
+ - **Cerebral Perfusion Pressure (CPP):** \\text{CPP} = \\text{MAP} - \\text{ICP} — MAP (mean arterial pressure), ICP (intracranial pressure)
 
-- **Glomerular Filtration Rate (GFR):** \	ext{GFR} = $\frac{\	ext{urine flow rate} \	imes \	ext{urine concentration}}{\	ext{plasma concentration}}$ — Urine flow rate, urine concentration, plasma concentration
+- **Glomerular Filtration Rate (GFR):** \\text{GFR} = $ — Urine flow rate, urine concentration, plasma concentration
 
-- **Half-life of a Substance:** t_{1/2} = $\frac{0.693}{k}$ — k (elimination rate constant)
+- **Half-life of a Substance:** t_{1/2} = $\frac{{0.693}{k}}{\frac{V_{\\text{max}} \	imes [S]}{K_m + [S]}}  — k (elimination rate constant)
 
-- **Michaelis-Menten Kinetics:** v = $\frac{V_{\	ext{max}} \	imes [S]}{K_m + [S]}$ — v (reaction velocity), Vmax (maximum velocity), [S] (substrate concentration), Km (Michaelis constant)
+- **Michaelis-Menten Kinetics:** v = $ — v (reaction velocity), Vmax (maximum velocity), [S] (substrate concentration), Km (Michaelis constant)
 
-- **Half-life of a Substance:** t_{1/2} = $\frac{0.693}{k}$ — k (elimination rate constant)
+- **Half-life of a Substance:** t_{1/2} = $\frac{{0.693}{k}}{\frac{V_{\\text{max}} \	imes [S]}{K_m + [S]}}  — k (elimination rate constant)
 
-- **Michaelis-Menten Kinetics:** v = $\frac{V_{\	ext{max}} \	imes [S]}{K_m + [S]}$ — v (reaction velocity), Vmax (maximum velocity), [S] (substrate concentration), Km (Michaelis constant)
+- **Michaelis-Menten Kinetics:** v = $ — v (reaction velocity), Vmax (maximum velocity), [S] (substrate concentration), Km (Michaelis constant)
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -54,7 +54,7 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 
  - *Costs:* 4-6 marks per question
 
- - *Fix:* Create a table to compare and contrast the different types of hypersensitivity reactions, including the underlying mechanisms, examples, and characteristics. For instance, type I hypersensitivity involves $\	ext{IgE}$ antibodies and leads to allergic reactions, while type II involves $\	ext{IgG}$ or $\	ext{IgM}$ and leads to cytotoxic reactions.
+ - *Fix:* Create a table to compare and contrast the different types of hypersensitivity reactions, including the underlying mechanisms, examples, and characteristics. For instance, type I hypersensitivity involves $\\text{IgE}$ antibodies and leads to allergic reactions, while type II involves $\\text{IgG}$ or $\\text{IgM}$ and leads to cytotoxic reactions.
 
  - **Mistake 2:** Failure to understand the concept of herd immunity. Students often miscalculate the herd immunity threshold or misunderstand its relationship to vaccine efficacy and population density.
 
@@ -68,17 +68,17 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 
  - *Fix:* Define the terms clearly: the incubation period is the time between exposure to a pathogen and symptom onset, while the latent period is the time between exposure and the ability to transmit the disease. Use examples like influenza (incubation period: 1-4 days) and tuberculosis (latent period: months to years).
 
- - **Mistake 4:** Incorrectly calculating the $\	ext{LD}_{50}$ or $\	ext{ID}_{50}$ values. Students may struggle with the mathematical concepts or misinterpret the results.
+ - **Mistake 4:** Incorrectly calculating the $\\text{LD}_{50}$ or $\\text{ID}_{50}$ values. Students may struggle with the mathematical concepts or misinterpret the results.
 
  - *Costs:* 6-10 marks per question
 
- - *Fix:* Understand the formulas: $\	ext{LD}_{50}$ is the dose of a substance that is lethal to 50% of the test population, while $\	ext{ID}_{50}$ is the dose that infects 50% of the test population. Practice calculating these values using sample data and considering the limitations of these measurements.
+ - *Fix:* Understand the formulas: $\\text{LD}_{50}$ is the dose of a substance that is lethal to 50% of the test population, while $\\text{ID}_{50}$ is the dose that infects 50% of the test population. Practice calculating these values using sample data and considering the limitations of these measurements.
 
  - **Mistake 5:** Not recognizing the differences between various diagnostic tests, such as sensitivity, specificity, and predictive values. This can lead to incorrect interpretations of test results.
 
  - *Costs:* 8-12 marks per question
 
- - *Fix:* Create a table to compare the characteristics of different diagnostic tests, including their sensitivity ($\	ext{TP} / (\	ext{TP} + \	ext{FN})$), specificity ($\	ext{TN} / (\	ext{TN} + \	ext{FP})$), positive predictive value ($\	ext{PPV} = \	ext{TP} / (\	ext{TP} + \	ext{FP})$), and negative predictive value ($\	ext{NPV} = \	ext{TN} / (\	ext{TN} + \	ext{FN})$). Practice calculating these values using sample data and understand their clinical implications.
+ - *Fix:* Create a table to compare the characteristics of different diagnostic tests, including their sensitivity ($\\text{TP} / (\\text{TP} + \\text{FN})$), specificity ($\\text{TN} / (\\text{TN} + \\text{FP})$), positive predictive value ($\\text{PPV} = \\text{TP} / (\\text{TP} + \\text{FP})$), and negative predictive value ($\\text{NPV} = \\text{TN} / (\\text{TN} + \\text{FN})$). Practice calculating these values using sample data and understand their clinical implications.
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
@@ -92,9 +92,9 @@ practice_link: "/class-11/biology/human-health-and-disease-class-12-notes"
 
  
 
-$\text{Normal hemoglobin: } \alpha_2 \beta_2$$\text{Sickle hemoglobin: }$ \alpha_2 \beta^{S}_2
+$\text{Normal hemoglobin: } \alpha_2 \beta_2$\text{Sickle hemoglobin: } \alpha_2 \beta^{S}_2
 
- - **Answer:** Mutation in the $\beta$-globin chain of hemoglobin.
+ - **Answer:** Mutation in the \beta$-globin chain of hemoglobin.
 
  - **Q2:** A person with blood group AB can donate blood to which of the following blood groups?
 
@@ -106,7 +106,7 @@ $\text{Normal hemoglobin: } \alpha_2 \beta_2$$\text{Sickle hemoglobin: }$ \alpha
 
  
 
- $\text{Blood group AB: } $$\text{Antigens: A, B; Antibodies: None}$
+ $\text{Blood group AB: } $\text{Antigens: A, B; Antibodies: None}$
 
  
 
@@ -134,7 +134,7 @@ $\text{Normal hemoglobin: } \alpha_2 \beta_2$$\text{Sickle hemoglobin: }$ \alpha
 
  - **What 85% scorers do:** They focus on memorizing the different types of immune responses (innate and adaptive) and the various cells involved (like T cells and B cells) without understanding how these responses are regulated and how dysregulation leads to disease.
 
- - **What 95% scorers do:** They master the concept of immune homeostasis and how $\frac\text{pro-inflammatory$}$\text{anti-inflammatory$$}$ responses are balanced. They understand that most diseases result from an imbalance in this homeostasis, such as autoimmune diseases (e.g., rheumatoid arthritis) where the body's immune system mistakenly attacks its own cells, or immunodeficiency diseases (like HIV/AIDS) where the immune system is unable to fight off pathogens. 
+ - **What 95% scorers do:** They master the concept of immune homeostasis and how $\frac{\text{pro-inflammatory}{1 }} }$ responses are balanced. They understand that most diseases result from an imbalance in this homeostasis, such as autoimmune diseases (e.g., rheumatoid arthritis) where the body's immune system mistakenly attacks its own cells, or immunodeficiency diseases (like HIV/AIDS) where the immune system is unable to fight off pathogens. 
 
  - Key differences in understanding include:
 
@@ -154,17 +154,17 @@ $\text{Normal hemoglobin: } \alpha_2 \beta_2$$\text{Sickle hemoglobin: }$ \alpha
 
 ## <a id="-ayushs-note"></a>👁️ Ayush's Note
 
-- **The Hidden Pattern:** After analyzing 5+ years of PYQs on Human Health and Disease, a recurring pattern emerges: the majority of questions focus on the **interplay between human body systems** and **environmental factors**. Specifically, $\frac{2}{3}$ of the questions can be categorized into three main areas: 
+- **The Hidden Pattern:** After analyzing 5+ years of PYQs on Human Health and Disease, a recurring pattern emerges: the majority of questions focus on the **interplay between human body systems** and **environmental factors**. Specifically, $\frac{{2}{3}}{\Delta}  of the questions can be categorized into three main areas: 
 
- - **Infectious Diseases:** Emphasizing the role of the immune system in combating pathogens, with a focus on $\Delta$-type questions that require calculations of disease spread and vaccine efficacy.
+ - **Infectious Diseases:** Emphasizing the role of the immune system in combating pathogens, with a focus on $-type questions that require calculations of disease spread and vaccine efficacy.
 
  - **Non-Communicable Diseases:** Highlighting the impact of lifestyle and genetics on human health, often involving $\times$-type questions that test understanding of risk factors and disease management.
 
- - **Environmental Health:** Examining the effects of external factors such as pollution, climate change, and nutrition on human well-being, frequently incorporating $\frac{}{}$-type questions that assess knowledge of epidemiology and public health strategies.
+ - **Environmental Health:** Examining the effects of external factors such as pollution, climate change, and nutrition on human well-being, frequently incorporating $\frac{{a}{b}}{E = mc^2} -type questions that assess knowledge of epidemiology and public health strategies.
 
 - **How to Apply It:** To capitalize on this pattern, allocate your last-night revision as follows: 
 
- - **40% of time:** Review key concepts related to the immune system, such as $E = mc^2$-like formulas for calculating vaccine efficacy and understanding of Koch's postulates.
+ - **40% of time:** Review key concepts related to the immune system, such as $-like formulas for calculating vaccine efficacy and understanding of Koch's postulates.
 
  - **30% of time:** Focus on major non-communicable diseases (e.g., diabetes, cardiovascular disease), making sure to understand the $y = mx + c$-type relationships between risk factors and disease progression.
 
@@ -216,11 +216,11 @@ D) Autoimmune response
 
 **2. Which of the following is a characteristic of Type 1 diabetes?**
 A) Insulin resistance
-B) Autoimmune destruction of beta cells
+B) Autoimmune destruction of \beta cells
 C) Impaired insulin secretion
 D) Obesity
 
-**Answer:** B) Type 1 diabetes is characterized by the autoimmune destruction of beta cells in the pancreas, resulting in a lack of insulin production.
+**Answer:** B) Type 1 diabetes is characterized by the autoimmune destruction of \beta cells in the pancreas, resulting in a lack of insulin production.
 
 ---
 

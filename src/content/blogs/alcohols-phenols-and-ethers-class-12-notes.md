@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/alcohols-phenols-and-ethers-class-12-notes.webp"
-title: "Alcohols, Phenols and Ethers Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Alcohols, Phenols and Ethers Class 12 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-29."
+title: "Alcohols Phenols And Ethers Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Alcohols Phenols And Ethers Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-29"
 practice_link: "/class-11/chemistry/alcohols-phenols-and-ethers-class-12-notes"
@@ -14,7 +14,7 @@ practice_link: "/class-11/chemistry/alcohols-phenols-and-ethers-class-12-notes"
   - [🚀 Ready to Ace Your Exam?](#-ready-to-ace-your-exam)
 - [📚 Related Topics](#-related-topics)
 </div>
-<DIV [class](/blog/amines-class-12-notes)="quick-summary">
+<div class="quick-summary">
 #- [📋 Table of Contents](#-table-of-contents)
 ## <a id="-what-will-come-in-your-exam"></a>🎯 What WILL Come in Your Exam
 * 1–2 questions on classification, nomenclature, and isomerism of alcohols, phenols, and ethers — always focus on IUPAC naming conventions and practice identifying primary, secondary, and tertiary alcohols.
@@ -114,4 +114,3 @@ Continue your [revision](/blog/chemical-bonding-class-11-revision-notes-jee-neet
 |:---|:---:|:---:|:---:|
 | **ammonia** | H3N | 17.031 g/MOL | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/222) |
 | **carbon dioxide** | CO2 | 44.009 g/MOL | [PubChem ↗](https://pubchem.ncbi.nlm.nih.gov/compound/280) |
-$

@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/databases-dbms-class-12-notes.webp"
-title: "Databases (DBMS) Class 12 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide"
-description: "Databases (DBMS) Class 12 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-12."
+title: "Databases Dbms Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Databases Dbms Class 12 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-04-12"
 practice_link: "/class-12/computer-science/databases-dbms"
@@ -9,7 +9,7 @@ practice_link: "/class-12/computer-science/databases-dbms"
 
 *Last Updated: 2026-04-12*
 
-<DIV [class](/blog/application-of-derivatives-class-12-notes)="quick-summary">
+<div class="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
@@ -33,21 +33,21 @@ practice_link: "/class-12/computer-science/databases-dbms"
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Data Independence:** \$\franc{\text{Number of Applications}\text{Number of Changes in Physical Schema}$} — Measures the ability of a database to change without affecting the applications.
- - **Data Redundancy:** \$\franc{\text{Total Data}\text{Useful Data}$} — Measures the amount of redundant data in a database.
- - **Data Inconsistency:** \$\franc{\text{Number of Inconsistent Data}\text{Total Data}$} — Measures the amount of inconsistent data in a database.
- - **Database Normalization:** \$\franc{\text{Number of Tables}\text{Number of Dependencies}$} — Measures the degree of normalization in a database.
- - **Denormalization:** \$\franc{\text{Number of Redundant Data}\text{Number of Tables}$} — Measures the degree of denormalization in a database.
- - **Query Optimization:** \$\franc{\text{Query Execution Time}\text{Optimized Query Execution Time}$} — Measures the effectiveness of query optimization techniques.
- - **Indexing:** \$\franc{\text{Number of Indexes}\text{Total Number of Attributes}$} — Measures the degree of indexing in a database.
- - **Data Compression:** \$\franc{\text{Compressed Data Size}\text{Original Data Size}$} — Measures the effectiveness of data compression techniques.
- - **Data Encryption:** \$\franc{\text{Encrypted Data Size}\text{Original Data Size}$} — Measures the effectiveness of data encryption techniques.
- - **Transaction Throughput:** \$\franc{\text{Number of Transactions}\text{Time$}} — Measures the number of transactions that can be processed in a given time.
- - **Transaction Response Time:** \$\franc{\text{Time$}$$\text{Number of Transactions}$} — Measures the time taken to process a transaction.
- - **Deadlock Prevention:** \$\franc{\text{Number of Deadlocks Prevented}\text{Total Number of Transactions}$} — Measures the effectiveness of deadlock prevention techniques.
- - **Concurrent Transaction Processing:** \$\franc{\text{Number of Concurrent Transactions}\text{Total Number of Transactions}$} — Measures the degree of concurrency in a database.
- - **Database Security:** \$\franc{\text{Number of Authorized Accesses}\text{Total Number of Accesses}$} — Measures the effectiveness of database security measures.
- - **Data Backup and Recovery:** \$\franc{\text{Number of Successful Recoveries}\text{Total Number of Failures}$} — Measures the effectiveness of data backup and recovery techniques.
+- **Data Independence:** \$\frac{{\text{Number of Applications}\text{Number of Changes in Physical Schema}}{\frac{\text{Total Data}\text{Useful Data}} } — Measures the ability of a database to change without affecting the applications.
+ - **Data Redundancy:** \$} — Measures the amount of redundant data in a database.
+ - **Data Inconsistency:** \$\frac{{\text{Number of Inconsistent Data}\text{Total Data}}{\frac{\text{Number of Tables}\text{Number of Dependencies}} } — Measures the amount of inconsistent data in a database.
+ - **Database Normalization:** \$} — Measures the degree of normalization in a database.
+ - **Denormalization:** \$\frac{{\text{Number of Redundant Data}\text{Number of Tables}}{\frac{\text{Query Execution Time}\text{Optimized Query Execution Time}} } — Measures the degree of denormalization in a database.
+ - **Query Optimization:** \$} — Measures the effectiveness of query optimization techniques.
+ - **Indexing:** \$\frac{{\text{Number of Indexes}\text{Total Number of Attributes}}{\frac{\text{Compressed Data Size}\text{Original Data Size}} } — Measures the degree of indexing in a database.
+ - **Data Compression:** \$} — Measures the effectiveness of data compression techniques.
+ - **Data Encryption:** \$\frac{{\text{Encrypted Data Size}\text{Original Data Size}}{\frac{\text{Number of Transactions}\text{Time} } — Measures the effectiveness of data encryption techniques.
+ - **Transaction Throughput:** \$}} — Measures the number of transactions that can be processed in a given time.
+ - **Transaction Response Time:** \$\frac{{\text{Time}{b} — Measures the time taken to process a transaction.
+ - **Deadlock Prevention:** \} 1 \text{Number of Transactions}$\frac{\text{Number of Deadlocks Prevented}\text{Total Number of Transactions}$} — Measures the effectiveness of deadlock prevention techniques.
+ - **Concurrent Transaction Processing:** \$\frac{{\text{Number of Concurrent Transactions}\text{Total Number of Transactions}}{\frac{\text{Number of Authorized Accesses}\text{Total Number of Accesses}} } — Measures the degree of concurrency in a database.
+ - **Database Security:** \$} — Measures the effectiveness of database security measures.
+ - **Data Backup and Recovery:** \$\frac{{\text{Number of Successful Recoveries}\text{Total Number of Failures}}{ has the following set of functional dependencies (FDs): A \to BC, BC \to DO, } } — Measures the effectiveness of data backup and recovery techniques.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -119,7 +119,7 @@ practice_link: "/class-12/computer-science/databases-dbms"
  ORDER BY Average Grade DISC;
  
  - **Answer:** The SQL query provided above.
-- **Q2:** A relation OR(A, B, C, D, E)$ has the following set of functional dependencies (FDs): A \to BC, BC \to DO, $BD \to EX. Determine if this relation is in 3NF. If not, decompose it into 3NF relations. Justify your answer.
+- **Q2:** A relation OR(A, B, C, D, E)$BD \to EX. Determine if this relation is in 3NF. If not, decompose it into 3NF relations. Justify your answer.
  - **Trap:** Identifying candidate keys and then correctly checking for partial and transitive dependencies can be tricky. Students often miss some candidate keys or misapply the 3NF conditions, especially when dealing with multiple FDs and composite keys.
  - **Solution:**
  - **Step 1: Find Candidate Keys.** We need to find attributes whose closure includes all attributes of R. Let's try to compute attribute closures:
@@ -142,13 +142,13 @@ practice_link: "/class-12/computer-science/databases-dbms"
 ## <a id="-Ayush-note"></a>👁️ Ayush's Note
 
 - **The Hidden Pattern: The \"Phantom Consistency Trap\" in Complex Schedules**
- * Alright, listen up, this is gold from digging through years of Yes. Textbooks usually teach conflict realizability by identifying R-W, W-R, and W-W conflicts and drawing a precedence graph. If there'
+ * Alright, listen up, this is gold from digging through years of PYQs. Textbooks usually teach conflict realizability by identifying R-W, W-R, and W-W conflicts and drawing a precedence graph. If there'
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
 - **Relational Algebra 
 
-- Cartesian Product Cardinality & Degree**: For relations ARE and IS, the cardinality of their cross product is $|R 	imes S| = |R| 	imes |S|$, and its degree is $	ext{deg}(R 	imes S) = 	ext{deg}(R) $}
+- Cartesian Product Cardinality & Degree**: For relations ARE and IS, the cardinality of their cross product is $|R 	imes S| = |R| 	imes |S|$, and its degree is $\text{deg}(R 	imes S) = \text{deg}(R) $}
 
 
 
@@ -222,4 +222,3 @@ Continue your revision with these related guides:
 - 📖 [Operating Systems Class 12 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/operating-systems-class-12-notes)
 - 📖 [Theory of Computation Class 12 Computer Science Revision — GATE & Boards 2026 Grandmaster Guide](/blog/theory-of-computation-class-12-notes)
 - 📖 [Application of Derivatives Class 12 Mathematics Revision — JEE 2026 Grandmaster Guide](/blog/application-of-derivatives-class-12-notes)
-$

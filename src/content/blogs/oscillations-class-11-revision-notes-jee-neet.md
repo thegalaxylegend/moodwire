@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/oscillations-class-11-revision-notes-jee-neet.webp"
 title: "Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+description: "Oscillations Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/physics/oscillations-class-11-revision-notes-jee-neet"
@@ -184,7 +184,7 @@ Starting from **x = A sin(ωt + φ)**:
 - **Phase Difference = π/2 (or 90°)**. Acceleration leads velocity by 90°.
 
 **Q2: Does the total energy of an oscillator depend on its position 'x'?**
-**Answer:** **No.** While [kinetic](/blog/kinetic-theory-class-11-revision-notes-jee-neet) and Potential Energy individually change with **x**, their sum **E = 1/2 mω² A²** only depends on the mass, frequency, and amplitude of the oscillation.
+**Answer:** **No.** While [kinetic](/blog/kinetic-theory-class-11-revision-notes-jee-neet) and Potential Energy individually change with **x**, their \sum **E = 1/2 mω² A²** only depends on the mass, frequency, and amplitude of the oscillation.
 
 **Q3: A clock based on a spring-mass system is taken to the Moon. Does it run slow?**
 **Answer:** **No.** The time period of a spring-mass system **T = 2π√(m/k)** is independent of gravity. However, a pendulum clock **T = 2π√(L/g)** would run slower because **g** is smaller on the Moon.

@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/morphology-of-flowering-plants-class-11-revision-notes-neet.webp"
 title: "Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
-description: "Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+description: "Morphology Of Flowering Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/biology/morphology-of-flowering-plants-class-11-revision-notes-neet"
@@ -75,7 +75,7 @@ This chapter is crucial for students preparing for [class](/blog/biological-clas
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div [class](/blog/plant-growth-and-development-class-11-revision-notes-neet)="note-box">
+<div class="note-box">
 I still remember the mistake I made in my [class](/blog/environmental-chemistry-class-11-revision-notes-neet) 11 exams. I confused the terms "raceme" and "spadix" while describing the inflorescence of a plant. It cost me 2 marks, but it taught me a valuable lesson. Always make sure to revise your notes thoroughly, and practice drawing diagrams of different plant structures. It will help you retain the information better and avoid silly mistakes.
 </div>
 

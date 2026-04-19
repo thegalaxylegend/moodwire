@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/real-numbers-class-10-notes.webp"
-title: "Real Numbers Class 10 Mathematics Recap — CBSE 2026 Quick Guide"
-description: "Real Numbers Class 10 Mathematics Recap — CBSE 2026 Quick Guide Revision Notes. Last Updated: 2026-04-09."
+title: "Real Numbers Class 10 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "Real Numbers Class 10 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-04-09"
 practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
@@ -9,7 +9,7 @@ practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
 
 *Last Updated: 2026-04-09*
 
-<div [class](/blog/introduction-to-trigonometry-class-10-notes)="quick-summary">
+<div class="quick-summary">
 
 ### 🚀 Quick Recall — Last Night Summary
 
@@ -38,16 +38,26 @@ practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
 
 ## <a id="-formula-bank"></a>⚡ Formula Bank
 
-- **Euclid's Division Lemma:** \{ a = b \times q + r \} — where $a$ is the dividend, $b$ is the divisor, $q$ is the quotient, and $r$ is the remainder.
+- **Euclid's Division Lemma:** 
+
+$ a = b \times q + r \} — where a is the dividend, $b$ is the divisor, $q$ is the quotient, and $r$ is the remainder.
  - **Fundamental Theorem of Arithmetic:** \{ n = p_1^{a_1} \times p_2^{a_2} \times ... \times p_k^{a_k} \} — where $n$ is a positive integer, $p_i$ are prime factors, and $a_i$ are their respective powers.
  - **LCM and HCF Relationship:** \{ LCM(a, b) \times HCF(a, b) = a \times b \} — where $LCM(a, b)$ is the least common multiple and $HCF(a, b)$ is the highest common factor of $a$ and $b$.
- - **Decimal Expansion:** \{ a = $\frac{\{p_1 \times 10^n + p_2 \times 10^{n-1} + ... + p_n \times 10^0 \}}{10^n} \} — where $a$ is a decimal number and $p_i$ are its digits.$
- - **Rational Number:** \{ $\frac{p}{q} \} — where $p$ is the numerator and $q$ is the denominator.$
+ - **Decimal Expansion:** \{ a = $\frac{{\{p_1 \times 10^n + p_2 \times 10^{n-1} + ... + p_n \times 10^0 \ }{a} 
+
+{10^n} \} — where $ is a decimal number and $p_i$ are its digits.$
+ - **Rational Number:** 
+
+$ \frac{p}{q} \} — where p$ is the numerator and $q$ is the denominator.
  - **Irrational Number:** \{ a = $\sqrt{b} \} — where $a$ is an irrational number and $b$ is not a perfect square.$
- - **Real Number:** \{ a = $\frac{p}{q} + $$\sqrt{b}$ \} — where $a$ is a real number, $p$ and $q$ are integers, and $b$ is not a perfect square.
+ - **Real Number:** \{ a = $\frac{{p}{q} + }{ \} — where } \sqrt{b}$a$ is a real number, $p$ and $q$ are integers, and $b$ is not a perfect square.
  - **Exponentiation:** \{ a^m \times a^n = a^{m+n} \} — where $a$ is the base, $m$ and $n$ are exponents.
- - **Roots:** \{ \sqrt[n]{a} = a^$\frac{1${n}} \} — where $a$ is the radicand and $n$ is the index of the root.
- - **Absolute Value:** \{ |a| = $\sqrt{a^2} \} — where $a$ is a real number.$
+ - **Roots:** \{ \sqrt[n]{a} = a^$\frac{{1}{
+
+ \} — where a is the radicand and } {n $n$ is the index of the root.
+ - **Absolute Value:** 
+
+$ |a| = $\sqrt{a^2} \} — where $a$ is a real number.
 
 ## <a id="-the-5-mistakes-that-cost-marks"></a>🪤 The 5 Mistakes That Cost Marks
 
@@ -71,15 +81,15 @@ practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
 
 ## <a id="-3-solved-pyqs"></a>✏️ 3 Solved PYQs
 
-- **Q1:** If $\frac{1}{a} + \frac{1}{b} + \frac{1}{c} = \frac{1}{2}$ and $a + b + c = 6$, then the value of $\frac{1}{3a} + \frac{1}{3b} + \frac{1}{3c}$ is 
+- **Q1:** If $\frac{{1}{a} + \frac{1}{b} + \frac{1}{c} = \frac{1}{2}}{a + b + c = 6}  and $, then the value of $\frac{{1}{3a} + \frac{1}{3b} + \frac{1}{3c}}{\frac{1}{a} + \frac{1}{b} + \frac{1}{c} = \frac{1}{2}}  is 
  - **Trap:** Students often get confused about how to approach the problem and make calculation errors.
  - **Solution:** 
- - First, we notice the equation $\frac{1}{a} + \frac{1}{b} + \frac{1}{c} = \frac{1}{2}$ can be transformed by finding a common denominator to get $\frac{ab + bc + ca}{abc} = \frac{1}{2}$.
- - Then, we use the fact that $a + b + c = 6$ to find a relationship between the symmetric sums and the product $abc$.
- - The value of $\frac{1}{3a} + \frac{1}{3b} + \frac{1}{3c}$ can then be calculated directly by realizing it's $\frac{1}{3}(\frac{1}{a} + \frac{1}{b} + \frac{1}{c})$, which simplifies to $\frac{1}{3} \cdot \frac{1}{2}$.
- - Therefore, $\frac{1}{3a} + \frac{1}{3b} + \frac{1}{3c} = \frac{1}{6}$.
- - **Answer:** $\frac{1}{6}$
- - **Q2:** For any real number $x$, let $f(x) = x^4 + 2x^3 - 7x^2 - 12x - 18$, and let $g(x) = x^2 + px + q$. If $f(x) = (x^2 + px + q)(x^2 + rx + s)$ for all $x$, then the value of $q$ is 
+ - First, we notice the equation $ can be transformed by finding a common denominator to get $\frac{{ab + bc + ca}{abc} = \frac{1}{2}}{a + b + c = 6} .
+ - Then, we use the fact that $ to find a relationship between the symmetric sums and the product $abc$.
+ - The value of $\frac{{1}{3a} + \frac{1}{3b} + \frac{1}{3c}}{\frac{1}{3}(\frac{1}{a} + \frac{1}{b} + \frac{1}{c})}  can then be calculated directly by realizing it's $, which simplifies to $\frac{{1}{3} \cdot \frac{1}{2}}{\frac{1}{3a} + \frac{1}{3b} + \frac{1}{3c} = \frac{1}{6}} .
+ - Therefore, $.
+ - **Answer:** $\frac{{1}{6}}{x} 
+ - **Q2:** For any real number $, let $f(x) = x^4 + 2x^3 - 7x^2 - 12x - 18$, and let $g(x) = x^2 + px + q$. If $f(x) = (x^2 + px + q)(x^2 + rx + s)$ for all $x$, then the value of $q$ is 
  - **Trap:** The expansion and comparison of coefficients can be tedious and prone to errors.
  - **Solution:** 
  - We start by expanding the product $(x^2 + px + q)(x^2 + rx + s)$ to get $x^4 + (p + r)x^3 + (pr + q + s)x^2 + (ps + qr)x + qs$.
@@ -134,19 +144,21 @@ practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
 
 ## <a id="-last-5-minutes-box"></a>🔁 Last 5 Minutes Box
 
-- {$\sqrt{a^2}$ = |a|}: Absolute value of a number
+- {$\sqrt{a^2} = |a|}: Absolute value of a number
 
  - {a^n}: Exponentiation, where {n} is the exponent
 
-- {a^{$\frac{m}{n}} = $\sqrt[n]{a^m$}}: Rational exponentiation$
+- {a^{$1 
+
+ = $\sqrt[n]{a^m$}}: Rational exponentiation
 
  - {a^{m+n} = a^m \times a^n}: Product ru\le for exponents
 
-- {$\frac{a^m}{a^n}$ = a^{m-n}}: Quotient ru\le for exponents
+- {$\frac{{a^m}{a^n} = a^{m-n}}: Quotient ru\le for exponents
 
  - Key facts:
  - Real numbers include all rational and irrational numbers
- - The set of real numbers is denoted by $\mathbb{R$}
+ - The set of real numbers is denoted by }{}
  - Real numbers can be represented on the number line
  - Common mistakes:
  - Forgetting to consider the sign of the radicand when simplifying square roots
@@ -154,7 +166,7 @@ practice_link: "/class-11/mathematics/real-numbers-class-10-notes"
 
 ## <a id="-practice-mcqs"></a>📝 Practice MCQs
 
-**1. If $a$ and $b$ are positive real numbers such that $a + b = 1$, then the maximum value of $ab$ is**
+**1. If } \mathbb{R$a$ and $b$ are positive real numbers such that $a + b = 1$, then the maximum value of $ab$ is**
 A) 1/2
 B) 1/4
 C) 1
@@ -180,7 +192,7 @@ B) -1/5
 C) 2/5
 D) -1
 
-**Answer:** C) Given, $x^2 + y^2 = 1$ and $x + y = 2x - 3Rightarrow x + y = 2x - 3Rightarrow y = x - 3$ Substituting the value of $y$, we get $x^2 + (x - 3)^2 = 1Rightarrow x^2 + x^2 - 6x + 9 = 1Rightarrow 2x^2 - 6x + 8 = 0Rightarrow x^2 - 3x + 4 = 0Rightarrow x = \frac{3 \pm sqrt{9 - 16}}{2}Rightarrow x = \frac{3 \pm \sqrt{-7}}{2}$ But $x$ is real, so $x = \frac{3 \pm isqrt{7}}{2}$ is not possible. Now, $x + y = 2x - 3Rightarrow y - x = -3Rightarrow (y - x)^2 = (-3)^2Rightarrow y^2 + x^2 - 2xy = 9Rightarrow 1 - 2xy = 9Rightarrow -2xy = 8Rightarrow xy = -4$ Now, $(x + y)^2 = (2x - 3)^2Rightarrow x^2 + y^2 + 2xy = 4x^2 - 12x + 9Rightarrow 1 + 2(-4) = 4x^2 - 12x + 9Rightarrow -7 = 4x^2 - 12x + 9Rightarrow 4x^2 - 12x + 16 = 0Rightarrow x^2 - 3x + 4 = 0Rightarrow x = \frac{3 \pm sqrt{9 - 16}}{2}$ But $x$ is real, so we must have $x^2 - 3x + 4 = 0$ as $x = \frac{3 \pm isqrt{7}}{2}$ is not possible. On solving $x^2 - 3x + 4 = 0$, we get $x = \frac{3 \pm sqrt{9 - 16}}{2}$. But $x$ is real, so we must have $x = \frac{3 \pm sqrt{9 - 16}}{2}$ as $x = \frac{3 \pm isqrt{7}}{2}$ is not possible. Solving the equation $x^2 + y^2 = 1$ and $x + y = 2x - 3$, we get $x = \frac{2}{5}$
+**Answer:** C) Given, $x^2 + y^2 = 1$ and $x + y = 2x - 3Rightarrow x + y = 2x - 3Rightarrow y = x - 3$ Substituting the value of $y$, we get $x^2 + (x - 3)^2 = 1Rightarrow x^2 + x^2 - 6x + 9 = 1Rightarrow 2x^2 - 6x + 8 = 0Rightarrow x^2 - 3x + 4 = 0Rightarrow x = \frac{3 \pm \sqrt{9 - 16}}{2}Rightarrow x = \frac{3 \pm \sqrt{-7}}{2}$ But $x$ is real, so $x = \frac{3 \pm isqrt{7}}{2}$ is not possible. Now, $x + y = 2x - 3Rightarrow y - x = -3Rightarrow (y - x)^2 = (-3)^2Rightarrow y^2 + x^2 - 2xy = 9Rightarrow 1 - 2xy = 9Rightarrow -2xy = 8Rightarrow xy = -4$ Now, $(x + y)^2 = (2x - 3)^2Rightarrow x^2 + y^2 + 2xy = 4x^2 - 12x + 9Rightarrow 1 + 2(-4) = 4x^2 - 12x + 9Rightarrow -7 = 4x^2 - 12x + 9Rightarrow 4x^2 - 12x + 16 = 0Rightarrow x^2 - 3x + 4 = 0Rightarrow x = \frac{3 \pm \sqrt{9 - 16}}{2}$ But $x$ is real, so we must have $x^2 - 3x + 4 = 0$ as $x = \frac{3 \pm isqrt{7}}{2}$ is not possible. On solving $x^2 - 3x + 4 = 0$, we get $x = \frac{3 \pm \sqrt{9 - 16}}{2}$. But $x$ is real, so we must have $x = \frac{3 \pm \sqrt{9 - 16}}{2}$ as $x = \frac{3 \pm isqrt{7}}{2}$ is not possible. Solving the equation $x^2 + y^2 = 1$ and $x + y = 2x - 3$, we get $x = \frac{2}{5}$
 
 ---
 

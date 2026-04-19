@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/respiration-in-plants-class-11-revision-notes-neet.webp"
 title: "Respiration In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
-description: "Respiration In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+description: "Respiration In Plants Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/biology/respiration-in-plants-class-11-revision-notes-neet"
@@ -69,7 +69,7 @@ Respiration in [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-
 
 ## <a id="ayushs-note"></a>Ayush's Note
 
-<div [class](/blog/morphology-of-flowering-plants-class-11-revision-notes-neet)="callout-box">
+<div class="callout-box">
 I once struggled to understand the difference between aerobic and anaerobic respiration. I thought that [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet) only underwent anaerobic respiration, but that's not true. [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet), like animals, require oxygen for aerobic respiration. I realized my mistake when I was solving a practice question that asked about the byproducts of aerobic respiration in [plants](/blog/photosynthesis-in-higher-plants-class-11-revision-notes-neet). Now, I make sure to clearly distinguish between the two types of respiration.
 </div>
 

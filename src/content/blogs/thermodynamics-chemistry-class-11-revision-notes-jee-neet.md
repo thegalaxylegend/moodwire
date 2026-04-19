@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/thermodynamics-chemistry-class-11-revision-notes-jee-neet.webp"
-title: "Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide"
-description: "Thermodynamics Chemistry Class 11 Physics Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "Thermodynamics Chemistry Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide"
+description: "Thermodynamics Chemistry Class 11 Chemistry Revision — JEE & NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/physics/thermodynamics-chemistry-class-11-revision-notes-jee-neet"
@@ -173,7 +173,7 @@ At constant volume: $\Delta U = q_v$.
 \Delta H = \Delta U + \Delta n_g RT
 
 
-where $\Delta n_g$ = (moles of gaseous products) - (moles of gaseous reactants).
+where $\Delta n_g = (moles of gaseous products) - (moles of gaseous reactants).
 
 **Example**: $CH_4(g) + 2O_2(g) \rightarrow CO_2(g) + 2H_2O(l)$:
 - $\Delta n_g = 1 - (1+2) = -2$.
@@ -196,11 +196,11 @@ This is because Enthalpy is a **State Function** — it depends only on the stat
 ### <a id="application-bornhaber-cycle"></a>Application: Born-Haber Cycle
 To find the Lattice Enthalpy of $NaCl$:
 
-\Delta H_f = \Delta H_{sub} + \Delta H_{IE} + $\frac{1}{2}$\Delta H_{diss} + \Delta H_{EA} + U_{lattice}
+\Delta H_f = \Delta H_{sub} + \Delta H_{IE} + $\frac{{1}{2}}{\Delta H} \Delta H_{diss} + \Delta H_{EA} + U_{lattice}
 
 
 **JEE Trick**: If a question asks you to calculate the enthalpy of a reaction you don't know directly, try:
-1. Reverse a known reaction (flip the sign of $\Delta H$).
+1. Reverse a known reaction (flip the sign of $).
 2. Multiply a reaction by a factor (multiply $\Delta H$ by the same factor).
 3. Add the modified reactions to get the target reaction.
 
@@ -221,7 +221,7 @@ To find the Lattice Enthalpy of $NaCl$:
 
 ### <a id="bond-enthalpy-method"></a>Bond Enthalpy Method
 
-\Delta H_{rxn} = \sum ($\text{Bond Enthalpies of Broken Bonds}) - \sum ($$\text{Bond Enthalpies of Formed Bonds}$)
+\Delta H_{rxn} = \sum ($1 \text{Bond Enthalpies of Formed Bonds}$)
 
 
 Remember: Breaking bonds = **absorbs** energy (+). Forming bonds = **releases** energy (-).

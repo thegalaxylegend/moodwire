@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/conic-sections-class-11-revision-notes-jee.webp"
 title: "Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide"
-description: "Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+description: "Conic Sections Class 11 Mathematics Revision — JEE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/mathematics/conic-sections-class-11-revision-notes-jee"
@@ -51,7 +51,7 @@ A parabola is the set of all points in a plane that are equidistant from a fixed
 4.  **Axis of Symmetry:** y = 0
 5.  **Length of Lotus Rectum:** 4a
 ## <a id="3-the-ellipse"></a>3. The Ellipse
-An ellipse is the set of all points in a plane, the sum of whose distances from two fixed points (foci) is a constant.
+An ellipse is the set of all points in a plane, the \sum of whose distances from two fixed points (foci) is a constant.
 ### <a id="standard-form-xa-yb-1-where-a-b"></a>Standard Form (x²/a² + y²/b² = 1, where a > b):
 1.  **Center:** (0, 0)
 2.  **Vertices:** (± a, 0)
@@ -122,8 +122,8 @@ Continue your [revision](/blog/probability-class-11-revision-notes-jee) with the
 
 - **Circle**: $(x-h)^2 + (y-k)^2 = r^2$, center $(h, k)$, radius are
    - **Parabola**: by^2 = 4ax$, focus $(a, 0)$, directrix ex = -a
-   - **Ellipse**: $RAC{x^2}{a^2} + RAC{y^2}{b^2} = 1$, foci $(pm eye, 0)$, he = sort{1 - RAC{b^2}{a^2}}$
-   - **Hyperbola**: $RAC{x^2}{a^2} - RAC{y^2}{b^2} = 1$, foci $(pm eye, 0)$, he = sort{1 + RAC{b^2}{a^2}}$
-   - **Eccentricity**:  = {c}{a}$, where  is distance from center to focus
+   - **Ellipse**: $\fRAC{x^2}{a^2} + \fRAC{y^2}{b^2} = 1$, foci $(pm eye, 0)$, he = sort{1 - \fRAC{b^2}{a^2}}$
+   - **Hyperbola**: $\fRAC{x^2}{a^2} - \fRAC{y^2}{b^2} = 1$, foci $(pm eye, 0)$, he = sort{1 + \fRAC{b^2}{a^2}}$
+   - **Eccentricity**:  = \f{c}{a}$, where  is distance from center to focus
    - **Equation of tangent to circle**:  - y_1 = m(x - x_1)$, where  is slope
-   - **Polar equation of conic**:  = {l}{1 + e }$, where  is distance from focus to directrix
+   - **Polar equation of conic**:  = \f{l}{1 + e }$, where  is distance from focus to directrix

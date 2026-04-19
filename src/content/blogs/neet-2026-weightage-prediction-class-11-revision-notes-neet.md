@@ -1,7 +1,7 @@
 ---
 heroImage: "/blog-images/neet-2026-weightage-prediction-class-11-revision-notes-neet.webp"
-title: "Neet 2026 Weightage Prediction Class 11 Biology Revision — NEET 2026 Grandmaster Guide"
-description: "Neet 2026 Weightage Prediction Class 11 Biology Revision — NEET 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-03-28."
+title: "2026 Weightage Prediction Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide"
+description: "2026 Weightage Prediction Class 11 Exam Prep Revision — CBSE 2026 Grandmaster Guide Revision Notes. Last Updated: 2026-04-18."
 category: "Revision"
 date: "2026-03-28"
 practice_link: "/class-11/biology/neet-2026-weightage-prediction-class-11-revision-notes-neet"
