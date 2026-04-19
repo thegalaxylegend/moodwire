@@ -124,7 +124,20 @@ export const ExternalApiService = {
      */
     searchWeb: async (query: string, numResults: number = 5) => {
         if (!exa) {
-            console.warn('ExternalApiService: Exa API Key NOT configured.');
+            console.warn('ExternalApiService: Exa API Key NOT configured. Falling back to Wikipedia...');
+            // Simple Wikipedia Search Fallback
+            try {
+                const wiki = await ExternalApiService.getWikiSummary(query);
+                if (wiki) {
+                    return [{
+                        title: wiki.title,
+                        url: wiki.content_urls?.desktop?.page || `https://en.wikipedia.org/wiki/${encodeURIComponent(wiki.title)}`,
+                        highlights: [wiki.extract]
+                    }];
+                }
+            } catch (err) {
+                console.error('ExternalApiService: Wiki fallback failed', err);
+            }
             return null;
         }
 

@@ -28,8 +28,8 @@ export const MODELS: Record<string, ModelSpec> = {
 
 export const WATERFALL_CHAINS: Record<TaskTier, string[]> = {
   'T1': ['qwen-qwq-32b', 'llama-3.3-70b-versatile', 'gemma-4-31b-it', 'gemini-2.5-pro'],
-  'T2': ['llama-3.3-70b-versatile', 'gemini-2.5-flash'],
-  'T3': ['gemini-2.5-flash', 'llama-3.3-70b-versatile'],
+  'T2': ['llama-3.3-70b-versatile', 'gemini-2.5-flash', 'llama-3.1-8b-instant'],
+  'T3': ['gemini-2.5-flash', 'llama-3.3-70b-versatile', 'llama-3.1-8b-instant'],
   'T4': ['gemini-2.5-flash-lite', 'llama-3.1-8b-instant'],
   'T5': ['llama-3.1-8b-instant', 'gemini-2.5-flash-lite'],
 };

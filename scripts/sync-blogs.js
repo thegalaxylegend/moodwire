@@ -31,9 +31,12 @@ async function sync() {
 
         // REGISTRY SHIELD: Block blogs with technical artifacts
         // NOTE: The regex must be PRECISE — it must match actual JSON squashing
-        // like {"heading":"...","body":"..."} on its own line, NOT LaTeX braces
-        // like \frac{a}{b} which also contain { characters.
-        if (content.includes('[object Object]') || /^\s*\{\s*"heading"\s*:\s*"[^"]*"\s*,\s*"body"\s*:/m.test(content)) {
+        // like {"heading":"...","body":"..."} inside the body content, not just anywhere.
+        const bodyContent = content.split('---').pop() || '';
+        const isCorrupted = content.includes('[object Object]') || 
+                           /^\s*\{\s*"heading"\s*:\s*"[^"]*"\s*,\s*"body"\s*:/m.test(bodyContent);
+        
+        if (isCorrupted) {
             console.error(`❌ Shield: Ignoring corrupted blog "${slug}" (artifacts detected)`);
             continue;
         }

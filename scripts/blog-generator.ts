@@ -661,8 +661,10 @@ async function generateSection(item: any, heading: string, displayClass: string,
     const user = `${contextHeader}Write the section for the heading: "${heading}" regarding the topic "${item.topic}".
     STRICT RULE: ${specificDirective}
     Remember LATEX ESCAPING RULES! Use $$ for block formulas and $ for inline formulas.
-    TARGET LENGTH: Each section MUST be detailed and exhaustive. Aim for 300+ words per section.
-    Return JSON: { "heading": "${heading}", "body": "...", "table": { "headers": [], "rows": [[]] } }`;
+    TARGET LENGTH: Each section MUST be detailed and exhaustive. Aim for 450+ words per section.
+    Return JSON: { "heading": "${heading}", "body": "...", "table": { "headers": [], "rows": [[]] } }
+    CRITICAL: The "body" field must be raw Markdown, NOT a nested JSON object. NEVER wrap the body content in {}.
+    If you return a JSON object inside the "body" string, the pipeline will FAIL.`;
 
     const raw = await callLlmWithFallback(system, user, true);
 
@@ -672,10 +674,14 @@ async function generateSection(item: any, heading: string, displayClass: string,
         // We'll perform a quick check on a sample formula if found
         const formulaMatch = raw?.match(/\$\$(.*?)\$\$/);
         if (formulaMatch && formulaMatch[1]) {
-            const sampleFormula = formulaMatch[1].replace(/\\/g, ''); // Simple cleanup for Newton
-            const simplified = await AcademicSearchService.mathOperation('simplify', sampleFormula);
-            if (simplified) {
-                console.log(`   ✅ Newton Verified: ${sampleFormula} simplifies to ${simplified}`);
+            try {
+                const sampleFormula = formulaMatch[1].replace(/\\/g, ''); // Simple cleanup for Newton
+                const simplified = await AcademicSearchService.mathOperation('simplify', sampleFormula);
+                if (simplified && !simplified.toLowerCase().includes('error') && !simplified.toLowerCase().includes('syntax')) {
+                    console.log(`   ✅ Newton Verified: ${sampleFormula} simplifies to ${simplified}`);
+                }
+            } catch (e) {
+                // Newton is picky, ignore silent failures
             }
         }
     }
@@ -749,7 +755,8 @@ export async function generateExtras(item: any, researchContext: string): Promis
     
     The MCQs MUST have "question", "options" (array of 4 strings), "answer" (A/B/C/D), and "answer_text" (explanation) fields.
     STRICT RULE: Do NOT include "A)", "B)" etc. prefixes inside the option strings. Just provide the option text.
-    Return as JSON: { "mcqs": [...], "quick_recall": [...] }`;
+    Return as JSON: { "mcqs": [...], "quick_recall": [...] }
+    CRITICAL: All fields must contain plaintext/markdown only. NO nested JSON objects.`;
     
     const raw = await callLlmWithFallback(system, user, true);
     if (!raw) return { mcqs: [], recall: [] };
@@ -860,11 +867,18 @@ async function generateBlogs() {
         // Deduplicate by slug
         const uniqueRegen = Array.from(new Map(allRegenItems.map(item => [item.slug, item])).values());
         
-        // Convert to generation format
+        // --- 2.1 Metadata Repair & Conversion ---
         const formattedRegen = uniqueRegen.map((item: any) => {
             let subject = 'General';
             let topic = item.slug.replace(/-/g, ' ');
             let examClass = '10';
+
+            // Heuristic for Class detection from slug
+            if (item.slug.includes('-class-11')) examClass = '11';
+            else if (item.slug.includes('-class-12')) examClass = '12';
+            else if (item.slug.includes('-class-9')) examClass = '9';
+            else if (item.slug.includes('-class-8')) examClass = '8';
+
             const blogPath = path.join(BLOG_DIR, `${item.slug}.md`);
             if (fs.existsSync(blogPath)) {
                 try {

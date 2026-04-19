@@ -25,6 +25,7 @@ class NodeRouter {
 
   private groqKeys: string[] = [];
   private geminiKeys: string[] = [];
+  private poisonedKeys: Set<string> = new Set(); // Stores "provider_index" of keys that returned 401
 
   private constructor() {
     this.loadKeys();
@@ -84,11 +85,11 @@ class NodeRouter {
     fs.writeFileSync(STATE_FILE, JSON.stringify(this.usage, null, 2));
   }
 
-  private checkDailyLimit(modelId: string, keyIndex: number): boolean {
-    const spec = MODELS[modelId];
-    if (!spec) return true;
-
     const key = `${modelId}_${keyIndex}`;
+    const poisonKey = `${spec.provider}_${keyIndex}`;
+    
+    if (this.poisonedKeys.has(poisonKey)) return false;
+
     const stats = this.usage[key];
     if (!stats) return true;
 
@@ -98,7 +99,7 @@ class NodeRouter {
       return true;
     }
 
-    return stats.requests < (spec.rpd * 0.85);
+    return stats.requests < (spec.rpd * 0.95); // Slightly higher threshold (95%)
   }
 
   private incrementUsage(modelId: string, keyIndex: number) {
@@ -122,6 +123,7 @@ class NodeRouter {
     const chain = WATERFALL_CHAINS[tier];
     let lastError: any = null;
 
+    // Fix P1.1: Multi-Pass Exhaustion (Try all models in the chain)
     for (const modelId of chain) {
       const spec = MODELS[modelId];
       if (!spec) continue;
@@ -129,6 +131,7 @@ class NodeRouter {
       const provider = spec.provider;
       const keys = provider === 'groq' ? this.groqKeys : this.geminiKeys;
 
+      // Fix P1.4: Key Rotation Persistence (Try every key for this model)
       for (let k = 0; k < keys.length; k++) {
         const index = (this.keyIndices[provider] + k) % keys.length;
         if (!this.checkDailyLimit(modelId, index)) continue;
@@ -140,7 +143,7 @@ class NodeRouter {
               model: modelId,
               messages: messages as any,
               temperature: options.temperature ?? 0.7,
-              max_tokens: options.max_tokens ?? 2000,
+              max_tokens: options.max_tokens ?? 3500, // Increased for longer blogs
               response_format: options.jsonMode ? { type: 'json_object' } : undefined
             });
             this.incrementUsage(modelId, index);
@@ -152,7 +155,7 @@ class NodeRouter {
               model: modelId,
               generationConfig: {
                 temperature: options.temperature ?? 0.7,
-                maxOutputTokens: options.max_tokens ?? 2500,
+                maxOutputTokens: options.max_tokens ?? 4000, // Increased for Gemini
                 responseMimeType: options.jsonMode ? "application/json" : undefined
               }
             });
@@ -166,12 +169,31 @@ class NodeRouter {
           }
         } catch (error: any) {
           lastError = error;
-          console.warn(`[NodeRouter] Task ${tier} failed with ${modelId} on key ${index}: ${error.message?.slice(0, 80)}`);
+          const status = error.status || (error.response?.status);
+          
+          if (status === 401 || error.message?.includes('Invalid API Key')) {
+            console.error(`🚫 [NodeRouter] POISONED KEY detected: ${provider} key ${index}. Skipping for session.`);
+            this.poisonedKeys.add(`${provider}_${index}`);
+          }
+          
+          if (status === 429) {
+            console.warn(`⏳ [NodeRouter] Rate limit (429) on ${modelId}. Sleeping 2s...`);
+            await new Promise(r => setTimeout(r, 2000));
+          }
+          
+          console.warn(`[NodeRouter] Task ${tier} failed with ${modelId} on key ${index}: ${error.message?.slice(0, 100)}`);
+          
+          // If it's a rate limit (429), we just continue to the next key
+          // If it's a 500 or something else, we also continue
           continue;
         }
       }
     }
-    throw lastError || new Error(`All models in tier ${tier} failed for script execution.`);
+    
+    // If we reach here, all models and keys failed
+    const errorMsg = lastError?.message || "Unknown error";
+    console.error(`🚨 [NodeRouter] CRITICAL: All models in tier ${tier} exhausted. Last error: ${errorMsg}`);
+    throw lastError || new Error(`All models in tier ${tier} failed.`);
   }
 }
 

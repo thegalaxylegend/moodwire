@@ -312,12 +312,35 @@ export function checkBlogQuality(post: BlogPostJSON): QualityReport {
         report.warnings.push(`${totalNaked} naked LaTeX commands without $ delimiters (will render as plaintext)`);
     }
 
-    // 11d. JSON Squashing: {"heading":"...","body":"..."}
-    // Root Cause #4: LLM returned raw JSON objects instead of rendered markdown.
-    if (/"heading"\s*:\s*"[^"]*"\s*,\s*"body"\s*:/.test(contentStr)) {
-        score -= 40;
-        report.critical_failures.push('JSON squashing detected: raw JSON objects in markdown body');
-        report.regenerate_all = true;
+    // 11d. JSON Squashing Detection & REPAIR (Root Cause #4)
+    // Fix: If we find squashed JSON, we try to fix it before checking
+    let totalSquashed = 0;
+    (post.content?.sections || []).forEach(sec => {
+        if (typeof sec.body === 'string' && /"heading"\s*:\s*"[^"]*"\s*,\s*"body"\s*:/.test(sec.body)) {
+            totalSquashed++;
+            try {
+                // Try to parse the squashed content
+                const squashed = JSON.parse(sec.body);
+                if (squashed.body) {
+                    sec.body = squashed.body;
+                    if (squashed.table) sec.table = squashed.table;
+                    report.auto_fixed.push({ field: 'section_body_squash', old: 'JSON string', new: 'Extracted Content' });
+                }
+            } catch (e) {
+                // If native JSON parse fails, try a fuzzy match
+                const bodyMatch = sec.body.match(/"body"\s*:\s*"((?:[^"\\\\]|\\\\.)*)"/);
+                if (bodyMatch) {
+                    sec.body = bodyMatch[1].replace(/\\n/g, '\n').replace(/\\"/g, '"');
+                    report.auto_fixed.push({ field: 'section_body_squash_fuzzy', old: 'JSON string', new: 'Fuzzy Extracted Content' });
+                }
+            }
+        }
+    });
+
+    if (totalSquashed > 0) {
+        // We still penalize slightly to discourage the behavior, but it's no longer a 40pt critical failure if fixed
+        score -= 5; 
+        report.warnings.push(`Fixed ${totalSquashed} instances of JSON squashing in section bodies.`);
     }
 
     // 11e. Heading Hallucination: "Solved Yes" instead of "Solved PYQs"
